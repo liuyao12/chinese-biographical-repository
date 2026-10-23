@@ -1,5 +1,10 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions,root=None):
+ if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_archived_excerpt_paths':
+  try:from scripts.archived_excerpt_facts import valid
+  except ImportError:from archived_excerpt_facts import valid
+  if not valid(name,chapters[name['chapter_id']],root):raise ValueError('既存節錄姓氏須綁固定姓名角色及已驗同源路徑')
+  return
  if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_witness_slots':
   try:from scripts.fixed_witness_fact_slots import valid
   except ImportError:from fixed_witness_fact_slots import valid

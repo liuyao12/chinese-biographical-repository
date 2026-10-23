@@ -1875,6 +1875,15 @@
             "c-jinshu-034-yanghu",
             "c-jinshu-034-duyu"
           ]
+        },
+        {
+          "id": "b-jinshu-044",
+          "work_id": "w-jinshu",
+          "number": 44,
+          "title": "卷044",
+          "chapter_ids": [
+            "c-jinshu-044-luchen-cuiyue"
+          ]
         }
       ],
       "reference_attestations": [
@@ -5933,8 +5942,8 @@
     {
       "id": "w-zhuang-jin043-shantao-reference",
       "title": "莊（山濤傳所引）",
-      "citation_title": "莊",
-      "citation_qualification": "原稱莊，與老並列為所好作品；未據wiki連結目標冒稱本傳明載莊子全題。",
+      "citation_title": "莊子",
+      "citation_qualification": "山濤原稱莊；本選錄同傳先好莊後明注莊子，依同傳著述及老莊並列首選同作。原surface不改，不據wiki連結目標或未詳版系作同一版本斷言。",
       "author": null,
       "status": "source_reference",
       "books": [],
@@ -5945,6 +5954,20 @@
           "paragraph_id": "c-jinshu-043-shantao:p001",
           "mention_id": "c-jinshu-043-shantao:p001:w0040",
           "quote": "莊"
+        },
+        {
+          "chapter_id": "c-jinshu-044-luchen-cuiyue",
+          "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+          "paragraph_id": "c-jinshu-044-luchen-cuiyue:p001",
+          "mention_id": "c-jinshu-044-luchen-cuiyue:p001:w0016",
+          "quote": "莊"
+        },
+        {
+          "chapter_id": "c-jinshu-044-luchen-cuiyue",
+          "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+          "paragraph_id": "c-jinshu-044-luchen-cuiyue:p003",
+          "mention_id": "c-jinshu-044-luchen-cuiyue:p003:w0099",
+          "quote": "莊子"
         }
       ]
     },
@@ -5962,6 +5985,13 @@
           "source_id": "s-jinshu-043-ws2618531-shantao",
           "paragraph_id": "c-jinshu-043-shantao:p001",
           "mention_id": "c-jinshu-043-shantao:p001:w0043",
+          "quote": "老"
+        },
+        {
+          "chapter_id": "c-jinshu-044-luchen-cuiyue",
+          "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+          "paragraph_id": "c-jinshu-044-luchen-cuiyue:p001",
+          "mention_id": "c-jinshu-044-luchen-cuiyue:p001:w0013",
           "quote": "老"
         }
       ]
@@ -6790,6 +6820,42 @@
           "quote": "晉諸公贊曰述弟隨晉尚書僕射為人亮濟趙王倫簒位隨與其事倫敗隨亦廢錮而卒林孫瑋性率而踈至太子右衛率也初林識拔同郡王經於民伍之中卒為名士世以此稱之"
         }
       ]
+    },
+    {
+      "id": "w-jifa-luchen-jin044-reference",
+      "title": "祭法（盧諶所撰）",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "reference_attestations": [
+        {
+          "chapter_id": "c-jinshu-044-luchen-cuiyue",
+          "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+          "paragraph_id": "c-jinshu-044-luchen-cuiyue:p003",
+          "mention_id": "c-jinshu-044-luchen-cuiyue:p003:w0093",
+          "quote": "祭法"
+        }
+      ],
+      "citation_title": "祭法",
+      "citation_qualification": "本段記盧諶撰祭法，非因此合禮記祭法篇；未親見其原書。"
+    },
+    {
+      "id": "w-wenji-luchen-jin044-reference",
+      "title": "文集（盧諶著述泛稱）",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "reference_attestations": [
+        {
+          "chapter_id": "c-jinshu-044-luchen-cuiyue",
+          "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+          "paragraph_id": "c-jinshu-044-luchen-cuiyue:p003",
+          "mention_id": "c-jinshu-044-luchen-cuiyue:p003:w0104",
+          "quote": "文集"
+        }
+      ],
+      "citation_title": "文集",
+      "citation_qualification": "來源僅文集泛稱，未證正式全題/卷數，不臆補盧諶集題名。"
     }
   ],
   "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"

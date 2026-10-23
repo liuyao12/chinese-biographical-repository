@@ -19167,6 +19167,82 @@
       "model": null
     },
     {
+      "id": "a-jin075-xun-archived-kin01",
+      "subject_person_id": "yoo_ox0_545_BABAAA",
+      "object_person_id": "yoo_ox0_545_BAA",
+      "predicate": "kinship_unspecified",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "族曾祖顗",
+        "kinship_basis": "archived_excerpt_collateral_appellation",
+        "lineage": "paternal",
+        "generation_difference": -3,
+        "exact_distance": null,
+        "common_ancestor_person_id": null,
+        "connecting_person_ids": null,
+        "direct_ancestor": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "source_id": "s-jinshu-075-xunsong-families",
+          "chapter_id": "c-jinshu-075-xunsong-families",
+          "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-intro:p001",
+          "quote": "荀崧，字景猷，潁川臨潁人，魏太尉彧之玄孫也。父頵，羽林右監、安陵鄉侯，與王濟、何劭為拜親之友。崧志操清純，雅好文學。齠齔時，族曾祖顗見而奇之，以為必興頵門。弱冠，太原王濟甚相器重，以方其外祖陳郡袁侃，謂侃弟奧曰：「近見荀監子，清虛名理，當不及父，德性純粹，是賢兄輩人也。」其為名流所賞如此。泰始中，詔以崧代兄襲父爵，補濮陽王允文學。與王敦、顧榮、陸機等友善，趙王倫引為相國參軍。倫篡，轉護軍司馬、給事中，稍遷尚書吏部郎、太弟中庶子，累遷侍中、中護軍。",
+          "subject_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-intro:p001:m0000",
+          "object_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-intro:p001:m0065"
+        }
+      ],
+      "interpretation_note": "只保存原稱及父系旁親世代/相對年序；共同祖先與中間人物未知，不當作直接祖父/父親或接合家系的生父邊。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "archived_excerpt_fact_binding": {
+        "kind": "fixed_archived_excerpt_fact",
+        "key": "jin075-xun-archived-excerpts",
+        "slot": "kin01"
+      }
+    },
+    {
+      "id": "a-jin075-xun-archived-kin02",
+      "subject_person_id": "yoo_ox0_545_BABAAA",
+      "object_person_id": "yoo_ox0_545_FAAAA",
+      "predicate": "kinship_unspecified",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "族父籓",
+        "kinship_basis": "archived_excerpt_collateral_appellation",
+        "lineage": "paternal",
+        "generation_difference": -1,
+        "exact_distance": null,
+        "common_ancestor_person_id": null,
+        "connecting_person_ids": null,
+        "direct_ancestor": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "source_id": "s-jinshu-075-xunsong-families",
+          "chapter_id": "c-jinshu-075-xunsong-families",
+          "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001",
+          "quote": "王彌入洛，崧與百官奔於密，未至而母亡。賊追將及，同旅散走，崧被髮從車，守喪號泣。賊至，棄其母屍於地，奪車而去。崧被四創，氣絕，至夜方蘇。葬母於密山。服闋，族父籓承制，以崧監江北軍事、南中郎將、後將軍、假節、襄城太守。時山陵發掘，崧遣主簿石覽將兵入洛，修復山陵。以勳進爵舞陽縣公，遷都督荊州江北諸軍事、平南將軍，鎮宛，改封曲陵公。為賊杜曾所圍。石覽時為襄城太守，崧力弱食盡，使其小女灌求救于覽及南中郎將周訪。訪即遣子撫率兵三千人會石覽，俱救崧。賊聞兵至，散走。崧既得免，乃遣南陽中部尉王國、劉願等潛軍襲穰縣，獲曾從兄偽新野太守保，斬之。",
+          "subject_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001:m0005",
+          "object_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001:m0079"
+        }
+      ],
+      "interpretation_note": "只保存原稱及父系旁親世代/相對年序；共同祖先與中間人物未知，不當作直接祖父/父親或接合家系的生父邊。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "archived_excerpt_fact_binding": {
+        "kind": "fixed_archived_excerpt_fact",
+        "key": "jin075-xun-archived-excerpts",
+        "slot": "kin02"
+      }
+    },
+    {
       "id": "a-xun10-027",
       "subject_person_id": "yoo_ox0_545_BABAAA",
       "predicate": "father",
@@ -19224,11 +19300,13 @@
     "9ec_yyk_0b1": "荀崧母（未名）",
     "ev9_lyp_ry2": "袁侃",
     "yoo_ox0_545_BA": "荀彧",
+    "yoo_ox0_545_BAA": "荀顗",
     "yoo_ox0_545_BABAA": "荀頵",
     "yoo_ox0_545_BABAAA": "荀崧",
     "yoo_ox0_545_BABAAAA": "荀蕤",
     "yoo_ox0_545_BABAAAB": "荀羨",
-    "yoo_ox0_545_BABAAAC": "荀灌"
+    "yoo_ox0_545_BABAAAC": "荀灌",
+    "yoo_ox0_545_FAAAA": "荀藩"
   },
   "dates": [
     {
@@ -19474,21 +19552,36 @@
   ],
   "name_components": [
     {
+      "id": "nc-jin075-xun-01",
       "person_id": "yoo_ox0_545_BABAAA",
-      "title": "曲陵公",
+      "chapter_id": "c-jinshu-075-xunsong-families",
+      "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-intro:p001",
+      "person_mention_id": "c-jinshu-075-xunsong-families:xunsong-intro:p001:m0000",
       "surname": "荀",
       "ming": "崧",
       "additional_names": [],
+      "quote": "荀崧，字景猷，潁川臨潁人，魏太尉彧之玄孫也。父頵，羽林右監、安陵鄉侯，與王濟、何劭為拜親之友。崧志操清純，雅好文學。齠齔時，族曾祖顗見而奇之，以為必興頵門。弱冠，太原王濟甚相器重，以方其外祖陳郡袁侃，謂侃弟奧曰：「近見荀監子，清虛名理，當不及父，德性純粹，是賢兄輩人也。」其為名流所賞如此。泰始中，詔以崧代兄襲父爵，補濮陽王允文學。與王敦、顧榮、陸機等友善，趙王倫引為相國參軍。倫篡，轉護軍司馬、給事中，稍遷尚書吏部郎、太弟中庶子，累遷侍中、中護軍。",
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文此處完整明名，姓與名分存；未作影像校勘。",
+      "zi": "景猷",
+      "archived_excerpt_fact_binding": {
+        "kind": "fixed_archived_excerpt_fact",
+        "key": "jin075-xun-archived-excerpts",
+        "slot": "name01"
+      },
+      "title": "曲陵公",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-075",
-      "chapter_id": "c-jinshu-075-xunsong-families",
       "source_id": "s-jinshu-075-xunsong-families",
-      "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-intro:p001",
-      "quote": "荀崧，字景猷，潁川臨潁人，魏太尉彧之玄孫也。父頵，羽林右監、安陵鄉侯，與王濟、何劭為拜親之友。崧志操清純，雅好文學。齠齔時，族曾祖顗見而奇之，以為必興頵門。弱冠，太原王濟甚相器重，以方其外祖陳郡袁侃，謂侃弟奧曰：「近見荀監子，清虛名理，當不及父，德性純粹，是賢兄輩人也。」其為名流所賞如此。泰始中，詔以崧代兄襲父爵，補濮陽王允文學。與王敦、顧榮、陸機等友善，趙王倫引為相國參軍。倫篡，轉護軍司馬、給事中，稍遷尚書吏部郎、太弟中庶子，累遷侍中、中護軍。",
       "note": "姓名原字及姓氏依具名傳主與有據家事暫分；字不作名，未名者不補本名。頂部稱號為辨認用稱，不表示敘事各時點已獲此號。",
-      "status": "editorial_provisional",
-      "human_reviewed": false,
-      "zi": "景猷",
+      "migrated_source_qualification": {
+        "prior_status": "editorial_provisional",
+        "prior_record_had_stable_id": false,
+        "prior_storage": "data/corpus/profile-names.json",
+        "qualification": "既有來源記錄的原判讀資格保留；現姓名角色及省姓路徑另以受信節錄驗證，不將舊判讀當獨立來源票。"
+      },
       "references": [
         {
           "title": "《晉書》卷七十五·荀崧傳所記改封",
@@ -19795,6 +19888,82 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin075-xun-archived-kin01",
+      "subject_person_id": "yoo_ox0_545_BABAAA",
+      "object_person_id": "yoo_ox0_545_BAA",
+      "predicate": "kinship_unspecified",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "族曾祖顗",
+        "kinship_basis": "archived_excerpt_collateral_appellation",
+        "lineage": "paternal",
+        "generation_difference": -3,
+        "exact_distance": null,
+        "common_ancestor_person_id": null,
+        "connecting_person_ids": null,
+        "direct_ancestor": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "source_id": "s-jinshu-075-xunsong-families",
+          "chapter_id": "c-jinshu-075-xunsong-families",
+          "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-intro:p001",
+          "quote": "荀崧，字景猷，潁川臨潁人，魏太尉彧之玄孫也。父頵，羽林右監、安陵鄉侯，與王濟、何劭為拜親之友。崧志操清純，雅好文學。齠齔時，族曾祖顗見而奇之，以為必興頵門。弱冠，太原王濟甚相器重，以方其外祖陳郡袁侃，謂侃弟奧曰：「近見荀監子，清虛名理，當不及父，德性純粹，是賢兄輩人也。」其為名流所賞如此。泰始中，詔以崧代兄襲父爵，補濮陽王允文學。與王敦、顧榮、陸機等友善，趙王倫引為相國參軍。倫篡，轉護軍司馬、給事中，稍遷尚書吏部郎、太弟中庶子，累遷侍中、中護軍。",
+          "subject_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-intro:p001:m0000",
+          "object_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-intro:p001:m0065"
+        }
+      ],
+      "interpretation_note": "只保存原稱及父系旁親世代/相對年序；共同祖先與中間人物未知，不當作直接祖父/父親或接合家系的生父邊。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "archived_excerpt_fact_binding": {
+        "kind": "fixed_archived_excerpt_fact",
+        "key": "jin075-xun-archived-excerpts",
+        "slot": "kin01"
+      }
+    },
+    {
+      "id": "a-jin075-xun-archived-kin02",
+      "subject_person_id": "yoo_ox0_545_BABAAA",
+      "object_person_id": "yoo_ox0_545_FAAAA",
+      "predicate": "kinship_unspecified",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "族父籓",
+        "kinship_basis": "archived_excerpt_collateral_appellation",
+        "lineage": "paternal",
+        "generation_difference": -1,
+        "exact_distance": null,
+        "common_ancestor_person_id": null,
+        "connecting_person_ids": null,
+        "direct_ancestor": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "source_id": "s-jinshu-075-xunsong-families",
+          "chapter_id": "c-jinshu-075-xunsong-families",
+          "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001",
+          "quote": "王彌入洛，崧與百官奔於密，未至而母亡。賊追將及，同旅散走，崧被髮從車，守喪號泣。賊至，棄其母屍於地，奪車而去。崧被四創，氣絕，至夜方蘇。葬母於密山。服闋，族父籓承制，以崧監江北軍事、南中郎將、後將軍、假節、襄城太守。時山陵發掘，崧遣主簿石覽將兵入洛，修復山陵。以勳進爵舞陽縣公，遷都督荊州江北諸軍事、平南將軍，鎮宛，改封曲陵公。為賊杜曾所圍。石覽時為襄城太守，崧力弱食盡，使其小女灌求救于覽及南中郎將周訪。訪即遣子撫率兵三千人會石覽，俱救崧。賊聞兵至，散走。崧既得免，乃遣南陽中部尉王國、劉願等潛軍襲穰縣，獲曾從兄偽新野太守保，斬之。",
+          "subject_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001:m0005",
+          "object_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001:m0079"
+        }
+      ],
+      "interpretation_note": "只保存原稱及父系旁親世代/相對年序；共同祖先與中間人物未知，不當作直接祖父/父親或接合家系的生父邊。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "archived_excerpt_fact_binding": {
+        "kind": "fixed_archived_excerpt_fact",
+        "key": "jin075-xun-archived-excerpts",
+        "slot": "kin02"
+      }
     },
     {
       "id": "a-xun10-027",

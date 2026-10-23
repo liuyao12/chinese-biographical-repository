@@ -53,6 +53,10 @@ def expand(v,roles):
  return v
 def records(ch,root=ROOT):
  r,roles=grammar(ch,root);out=[expand(s['record'],roles)for s in r['slots']];assert len({v['id']for v in out})==len(out)
+ if 'finite_biography_proofs'in r:
+  try:from scripts.fixed_kanripo_biographical_facts import check
+  except ImportError:from fixed_kanripo_biographical_facts import check
+  assert check(r,roles,out,ch,root)
  hs={v['id']:v for v in out if 'title'in v and'attestations'in v}
  for v in out:
   link=v.get('values',{}).get('linked_holding_id')

@@ -10,12 +10,18 @@ def valid(member,rows,assertions,chapters,root):
   def source(id):
    a=assertions[id];q=a['qualifiers'];assert not any(q.get(k)for k in('adoptive','sworn','same_mother_only'))and q.get('shared_father')is not False and q.get('lineage')not in('maternal','non_paternal')
    if basis=='fixed_complete_witness_shared_father':
-    cids={e['chapter_id']for e in a['evidence']};assert len(cids)==1;cid=next(iter(cids));ch=chapters[cid];assert ch.get('annotation',{}).get('fixed_wikisource_unit_ref')
-    if a.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
+    cids={e['chapter_id']for e in a['evidence']};assert len(cids)==1;cid=next(iter(cids));ch=chapters[cid]
+    if a.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
+     try:from scripts.fixed_kanripo_fact_slots import valid as kanripo_valid
+     except ImportError:from fixed_kanripo_fact_slots import valid as kanripo_valid
+     assert ch.get('annotation',{}).get('fixed_kanripo_projection_ref')and kanripo_valid(a,ch,root)
+    elif a.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
+     assert ch.get('annotation',{}).get('fixed_wikisource_unit_ref')
      try:from scripts.fixed_witness_fact_slots import valid as witness_valid
      except ImportError:from fixed_witness_fact_slots import valid as witness_valid
      assert witness_valid(a,ch,root)
     elif 'received_family_frame'in q:
+     assert ch.get('annotation',{}).get('fixed_wikisource_unit_ref')
      try:from scripts.punctuated_family_frames import valid as frame_valid
      except ImportError:from punctuated_family_frames import valid as frame_valid
      assert frame_valid(a,ps,chapters,root)

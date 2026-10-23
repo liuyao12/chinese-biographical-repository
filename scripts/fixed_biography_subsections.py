@@ -5,9 +5,13 @@ Every raw code point is either visible or assigned one explicit markup/layout re
 from pathlib import Path
 import hashlib,json,re
 KIND='fixed_wikisource_biography_subsections_links'
-def project(raw,title):
- assert isinstance(title,str)and title.endswith('傳')and len(title)>1
- heading='=='+title[:-1]+'=='
+def project(raw,title,opening_heading=None):
+ if opening_heading is None:
+  assert isinstance(title,str)and title.endswith('傳')and len(title)>1
+  heading='=='+title[:-1]+'=='
+ else:
+  assert isinstance(opening_heading,str)and re.fullmatch(r'===[^=\n]+===',opening_heading)
+  heading=opening_heading
  assert raw.count(heading)==1
  start=raw.index(heading);following=re.search(r'^==[^=\n]+==\s*$',raw[start+len(heading):],re.M);assert following
  end=start+len(heading)+following.start();ps=[];classes=[]

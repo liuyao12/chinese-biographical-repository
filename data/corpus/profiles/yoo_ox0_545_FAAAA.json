@@ -13429,9 +13429,48 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin075-xun-archived-kin02",
+      "subject_person_id": "yoo_ox0_545_BABAAA",
+      "object_person_id": "yoo_ox0_545_FAAAA",
+      "predicate": "kinship_unspecified",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "族父籓",
+        "kinship_basis": "archived_excerpt_collateral_appellation",
+        "lineage": "paternal",
+        "generation_difference": -1,
+        "exact_distance": null,
+        "common_ancestor_person_id": null,
+        "connecting_person_ids": null,
+        "direct_ancestor": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "source_id": "s-jinshu-075-xunsong-families",
+          "chapter_id": "c-jinshu-075-xunsong-families",
+          "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001",
+          "quote": "王彌入洛，崧與百官奔於密，未至而母亡。賊追將及，同旅散走，崧被髮從車，守喪號泣。賊至，棄其母屍於地，奪車而去。崧被四創，氣絕，至夜方蘇。葬母於密山。服闋，族父籓承制，以崧監江北軍事、南中郎將、後將軍、假節、襄城太守。時山陵發掘，崧遣主簿石覽將兵入洛，修復山陵。以勳進爵舞陽縣公，遷都督荊州江北諸軍事、平南將軍，鎮宛，改封曲陵公。為賊杜曾所圍。石覽時為襄城太守，崧力弱食盡，使其小女灌求救于覽及南中郎將周訪。訪即遣子撫率兵三千人會石覽，俱救崧。賊聞兵至，散走。崧既得免，乃遣南陽中部尉王國、劉願等潛軍襲穰縣，獲曾從兄偽新野太守保，斬之。",
+          "subject_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001:m0005",
+          "object_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001:m0079"
+        }
+      ],
+      "interpretation_note": "只保存原稱及父系旁親世代/相對年序；共同祖先與中間人物未知，不當作直接祖父/父親或接合家系的生父邊。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "archived_excerpt_fact_binding": {
+        "kind": "fixed_archived_excerpt_fact",
+        "key": "jin075-xun-archived-excerpts",
+        "slot": "kin02"
+      }
     }
   ],
   "related_people": {
+    "yoo_ox0_545_BABAAA": "荀崧",
     "yoo_ox0_545_FAAA": "荀勖",
     "yoo_ox0_545_FAAAA": "荀藩",
     "yoo_ox0_545_FAAAAA": "邃（荀藩子）",
@@ -13753,6 +13792,42 @@
       "source_id": "s-jinshu-040-ws2606035-jiachong-family"
     },
     {
+      "id": "nc-jin075-xun-08",
+      "person_id": "yoo_ox0_545_FAAAA",
+      "chapter_id": "c-jinshu-075-xunsong-families",
+      "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001",
+      "person_mention_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001:m0079",
+      "surname": "荀",
+      "ming": "籓",
+      "additional_names": [],
+      "quote": "王彌入洛，崧與百官奔於密，未至而母亡。賊追將及，同旅散走，崧被髮從車，守喪號泣。賊至，棄其母屍於地，奪車而去。崧被四創，氣絕，至夜方蘇。葬母於密山。服闋，族父籓承制，以崧監江北軍事、南中郎將、後將軍、假節、襄城太守。時山陵發掘，崧遣主簿石覽將兵入洛，修復山陵。以勳進爵舞陽縣公，遷都督荊州江北諸軍事、平南將軍，鎮宛，改封曲陵公。為賊杜曾所圍。石覽時為襄城太守，崧力弱食盡，使其小女灌求救于覽及南中郎將周訪。訪即遣子撫率兵三千人會石覽，俱救崧。賊聞兵至，散走。崧既得免，乃遣南陽中部尉王國、劉願等潛軍襲穰縣，獲曾從兄偽新野太守保，斬之。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文此處只名；姓氏另依下列同源明父系或旁系稱用作有資格判讀，不把拼接姓名冒作原文全名。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_archived_excerpt_paths",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "source_name_record_id": "nc-jin075-xun-01",
+        "steps": [
+          {
+            "assertion_id": "a-jin075-xun-archived-kin02",
+            "traversal": "subject_to_object"
+          }
+        ],
+        "rationale": "本源完整明名種子與明示父系/旁系逐邊承姓；不推共同祖先、未名父或母系婚配。"
+      },
+      "archived_excerpt_fact_binding": {
+        "kind": "fixed_archived_excerpt_fact",
+        "key": "jin075-xun-archived-excerpts",
+        "slot": "name08"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "source_id": "s-jinshu-075-xunsong-families"
+    },
+    {
       "person_id": "yoo_ox0_545_FAAAA",
       "title": null,
       "surname": "荀",
@@ -13868,6 +13943,44 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin075-xun-archived-kin02",
+      "subject_person_id": "yoo_ox0_545_BABAAA",
+      "object_person_id": "yoo_ox0_545_FAAAA",
+      "predicate": "kinship_unspecified",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "族父籓",
+        "kinship_basis": "archived_excerpt_collateral_appellation",
+        "lineage": "paternal",
+        "generation_difference": -1,
+        "exact_distance": null,
+        "common_ancestor_person_id": null,
+        "connecting_person_ids": null,
+        "direct_ancestor": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "source_id": "s-jinshu-075-xunsong-families",
+          "chapter_id": "c-jinshu-075-xunsong-families",
+          "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001",
+          "quote": "王彌入洛，崧與百官奔於密，未至而母亡。賊追將及，同旅散走，崧被髮從車，守喪號泣。賊至，棄其母屍於地，奪車而去。崧被四創，氣絕，至夜方蘇。葬母於密山。服闋，族父籓承制，以崧監江北軍事、南中郎將、後將軍、假節、襄城太守。時山陵發掘，崧遣主簿石覽將兵入洛，修復山陵。以勳進爵舞陽縣公，遷都督荊州江北諸軍事、平南將軍，鎮宛，改封曲陵公。為賊杜曾所圍。石覽時為襄城太守，崧力弱食盡，使其小女灌求救于覽及南中郎將周訪。訪即遣子撫率兵三千人會石覽，俱救崧。賊聞兵至，散走。崧既得免，乃遣南陽中部尉王國、劉願等潛軍襲穰縣，獲曾從兄偽新野太守保，斬之。",
+          "subject_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001:m0005",
+          "object_person_mention_id": "c-jinshu-075-xunsong-families:xunsong-rescue:p001:m0079"
+        }
+      ],
+      "interpretation_note": "只保存原稱及父系旁親世代/相對年序；共同祖先與中間人物未知，不當作直接祖父/父親或接合家系的生父邊。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "archived_excerpt_fact_binding": {
+        "kind": "fixed_archived_excerpt_fact",
+        "key": "jin075-xun-archived-excerpts",
+        "slot": "kin02"
+      }
     }
   ],
   "assembled_identity": {

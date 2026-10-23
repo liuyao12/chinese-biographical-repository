@@ -287,6 +287,10 @@ def load_catalog(root=ROOT):
     except ImportError:from fixed_kanripo_fact_slots import errors as fixed_kanripo_fact_errors
     fact_errors=fixed_kanripo_fact_errors(root,records)
     if fact_errors:raise ValueError('; '.join(fact_errors))
+    try:from scripts.archived_excerpt_facts import errors as archived_excerpt_errors
+    except ImportError:from archived_excerpt_facts import errors as archived_excerpt_errors
+    excerpt_errors=archived_excerpt_errors(root,records)
+    if excerpt_errors:raise ValueError(';'.join(excerpt_errors))
     # Fixed complete-witness facts are checked at the native/export shared boundary.
     try:from scripts.fixed_witness_fact_slots import errors as witness_fact_errors
     except ImportError:from fixed_witness_fact_slots import errors as witness_fact_errors

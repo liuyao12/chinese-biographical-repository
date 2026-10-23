@@ -82,7 +82,152 @@
       "period": "未定 → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "ad-sgz016-du-origin_ji",
+      "person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit001",
+          "quote": "杜畿字伯侯京兆杜陵人也",
+          "person_mention_id": "c-sanguozhi-016-duji-dushu:unit001:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "收到原文所載；未核原書或書影，不補未知日期。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "origin_ji"
+      },
+      "source_term": "京兆杜陵人也",
+      "date_expression": null,
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "京兆杜陵",
+        "modern_identification": null,
+        "place_id": null
+      },
+      "term": "京兆杜陵人也",
+      "quote": "杜畿字伯侯京兆杜陵人也"
+    },
+    {
+      "id": "ad-sgz016-du-residence_ji",
+      "person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit003",
+          "quote": "少孤繼母苦之以孝聞年二十為郡功曹守鄭縣令縣囚繫數百人畿親臨獄裁其輕重盡決遣之雖未悉當郡中竒其年少而有大志也舉孝廉除漢中府丞㑹天下亂遂棄官客荆州建安中乃還荀彧進之太祖",
+          "person_mention_id": "c-sanguozhi-016-duji-dushu:unit003:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "收到原文所載；未核原書或書影，不補未知日期。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "residence_ji"
+      },
+      "source_term": "客荆州",
+      "date_expression": null,
+      "relation": "residence",
+      "place": {
+        "source_name": "荆州",
+        "modern_identification": null,
+        "place_id": null
+      },
+      "term": "客荆州",
+      "quote": "少孤繼母苦之以孝聞年二十為郡功曹守鄭縣令縣囚繫數百人畿親臨獄裁其輕重盡決遣之雖未悉當郡中竒其年少而有大志也舉孝廉除漢中府丞㑹天下亂遂棄官客荆州建安中乃還荀彧進之太祖"
+    },
+    {
+      "id": "ad-sgz016-du-construction_ji",
+      "person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit019",
+          "quote": "守司隸校尉帝征呉以畿為尚書僕射統留事其後帝幸許昌畿復居守受詔作御樓船於陶河試船遇風没帝為之流涕",
+          "person_mention_id": "c-sanguozhi-016-duji-dushu:unit019:m0009"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "陶河是造船任事地，主文未直說在陶河死亡；死亡孟津另有詔文原證，不默改陶字或合現代河名。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "construction_ji"
+      },
+      "source_term": "作御樓船於陶河",
+      "date_expression": null,
+      "relation": "service_location",
+      "place": {
+        "source_name": "陶河",
+        "modern_identification": null,
+        "place_id": null
+      },
+      "qualifiers": {
+        "location_scope": "source_attested_task_activity",
+        "source_action": "作御樓船"
+      },
+      "term": "作御樓船於陶河",
+      "quote": "守司隸校尉帝征呉以畿為尚書僕射統留事其後帝幸許昌畿復居守受詔作御樓船於陶河試船遇風没帝為之流涕"
+    },
+    {
+      "id": "ad-sgz016-du-death_place_ji",
+      "person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+          "quote": "故尚書僕射杜畿於孟津試船遂至覆没忠之至也朕甚愍焉追贈太僕諡曰戴侯子恕嗣",
+          "person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "收到原文所載；未核原書或書影，不補未知日期。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "death_place_ji"
+      },
+      "source_term": "於孟津試船遂至覆没",
+      "date_expression": null,
+      "relation": "death_place",
+      "place": {
+        "source_name": "孟津",
+        "modern_identification": null,
+        "place_id": null
+      },
+      "term": "於孟津試船遂至覆没",
+      "quote": "故尚書僕射杜畿於孟津試船遂至覆没忠之至也朕甚愍焉追贈太僕諡曰戴侯子恕嗣"
+    }
+  ],
   "occurrences": [
     {
       "number": 10,
@@ -6887,7 +7032,7 @@
     {
       "id": "a-jin034-duyu-pre-grandfather",
       "status": "source_attested",
-      "subject_person_id": "yh6_z1j_fsd",
+      "subject_person_id": "56f_8f7_e9f_AA",
       "object_person_id": "56f_8f7_e9f",
       "predicate": "grandfather",
       "evidence": [
@@ -6919,7 +7064,7 @@
     {
       "id": "a-sgz016-du-shu-father-ji",
       "predicate": "father",
-      "subject_person_id": "ip4_zrh_ttx",
+      "subject_person_id": "56f_8f7_e9f_A",
       "object_person_id": "56f_8f7_e9f",
       "status": "source_attested",
       "qualifiers": {
@@ -6983,9 +7128,9 @@
   ],
   "related_people": {
     "56f_8f7_e9f": "杜畿",
-    "ip4_zrh_ttx": "杜恕",
-    "thu_bi0_j4b": "杜畿繼母〔未名〕",
-    "yh6_z1j_fsd": "杜預"
+    "56f_8f7_e9f_A": "杜恕",
+    "56f_8f7_e9f_AA": "杜預",
+    "thu_bi0_j4b": "杜畿繼母〔未名〕"
   },
   "dates": [],
   "name_components": [
@@ -7022,7 +7167,7 @@
         "steps": [
           {
             "assertion_id": "a-jin034-duyu-pre-grandfather",
-            "from_person_id": "yh6_z1j_fsd",
+            "from_person_id": "56f_8f7_e9f_AA",
             "to_person_id": "56f_8f7_e9f",
             "generation_before": 0,
             "generation_after": -2,
@@ -7033,6 +7178,31 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-034",
       "source_id": "s-jinshu-034-ws2567662-duyu"
+    },
+    {
+      "id": "nc-sgz016-du-name_ji",
+      "person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文完整明名，姓與名分開，不套省姓資格。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "name_ji"
+      },
+      "surname": "杜",
+      "ming": "畿",
+      "zi": "伯侯",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-016-duji-dushu",
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit001",
+      "person_mention_id": "c-sanguozhi-016-duji-dushu:unit001:m0000",
+      "quote": "杜畿字伯侯京兆杜陵人也",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-016",
+      "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa"
     },
     {
       "id": "name-song085-f13-016",
@@ -7067,7 +7237,7 @@
     {
       "id": "a-jin034-duyu-pre-grandfather",
       "status": "source_attested",
-      "subject_person_id": "yh6_z1j_fsd",
+      "subject_person_id": "56f_8f7_e9f_AA",
       "object_person_id": "56f_8f7_e9f",
       "predicate": "grandfather",
       "evidence": [
@@ -7099,7 +7269,7 @@
     {
       "id": "a-sgz016-du-shu-father-ji",
       "predicate": "father",
-      "subject_person_id": "ip4_zrh_ttx",
+      "subject_person_id": "56f_8f7_e9f_A",
       "object_person_id": "56f_8f7_e9f",
       "status": "source_attested",
       "qualifiers": {
@@ -7161,8 +7331,258 @@
       }
     }
   ],
-  "age_assertions": [],
-  "life_events": [],
+  "assembled_identity": {
+    "person_id": "56f_8f7_e9f",
+    "representative_source_person_id": "56f_8f7_e9f",
+    "source_person_ids": [
+      "56f_8f7_e9f"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": null,
+    "assembly_id": "family-jingzhao-du-ji-core",
+    "root_person_id": "56f_8f7_e9f",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
+  "assembled_children": [
+    {
+      "person_id": "56f_8f7_e9f_B",
+      "representative_source_person_id": "56f_8f7_e9f_B",
+      "source_person_ids": [
+        "56f_8f7_e9f_B"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "56f_8f7_e9f",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling",
+        "sibling_person_id": "56f_8f7_e9f_A",
+        "sibling_assertion_id": "a-sgz016-du-li-younger-brother-shu",
+        "sibling_father_assertion_id": "a-sgz016-du-shu-father-ji",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "恕父畿明證，理/寛為恕弟作可撤回同父首選；理畿奇之名理只上下文補強，寛平行弟條另讀仍保。不是來源直接父證。",
+        "references": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-016",
+            "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+            "chapter_id": "c-sanguozhi-016-duji-dushu",
+            "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+            "quote": "杜氏新書曰恕弟理字務仲少而機察精要畿竒之故名之曰理年二十一而卒弟寛字務叔清虚玄静敏而好古以名臣門户少長京師而篤志博學絶於世務其意欲探賾索隐由此顯名當塗之士多交焉舉孝廉除郎中年四十二而卒經傳之義多所論駁皆草創未就惟刪集禮記及春秋左氏傳觧今存于世預字元凱司馬宣王女壻王隐晉書稱預智謨淵博明於理亂常稱徳者非所以企及立功立言所庶幾也大觀羣典謂公羊穀梁詭辯之言又非先儒說左氏未究丘明意而橫以二傳亂之乃錯綜㣲言著春秋左氏經傳集觧又參考衆家謂之釋例又作盟㑹圖春秋長歴備成一家之學至老乃成尚書郎摰虞甚重之曰左丘明本為春秋作傳而左傳遂自孤行釋例本為傳設而所發明何但左傳故亦孤行預有大功名於晉室位至征南大將軍開府封當陽侯食邑八千户子錫字世嘏尚書左丞晉諸公贊曰嘏有氣局預從兄斌字世將亦有才望為黃門郎為趙王倫所枉殺嘏子乂字洪治少有令名為丹陽丞早卒阮武者亦拓落大才也案阮氏譜武父諶字士信徵辟無所就造三禮圖傳於世杜氏新書曰武字文業闊達博通淵雅之士位止清河太守武弟炳字叔文河南尹精意醫術撰藥方一部炳子坦字弘舒晉太子少傅平東將軍坦弟柯字士度荀綽兖州記曰坦出紹伯父亡次兄當襲爵父愛柯言名傳之遂承封時㓜小不能讓及長悔恨遂幅巾而居後雖出身未嘗釋也性純篤閑雅好禮無違存心經誥博學洽聞選為濮陽王文學遷領軍長史喪官王衍時為領軍哭之甚慟",
+            "subject_person_mention_id": "c-sanguozhi-016-duji-dushu:unit044:m0007",
+            "object_person_mention_id": "c-sanguozhi-016-duji-dushu:unit044:m0005",
+            "assertion_id": "a-sgz016-du-li-younger-brother-shu",
+            "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+            "scope": "來源弟與有源父邊分存；父畿只編輯首選、不改source父、不補同母或絕對排行。"
+          },
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-016",
+            "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+            "chapter_id": "c-sanguozhi-016-duji-dushu",
+            "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+            "quote": "故尚書僕射杜畿於孟津試船遂至覆没忠之至也朕甚愍焉追贈太僕諡曰戴侯子恕嗣",
+            "subject_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0033",
+            "object_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0005",
+            "assertion_id": "a-sgz016-du-shu-father-ji",
+            "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+            "scope": "來源弟與有源父邊分存；父畿只編輯首選、不改source父、不補同母或絕對排行。"
+          }
+        ],
+        "interpretation_basis": "fixed_complete_witness_shared_father"
+      },
+      "assembly_id": "family-jingzhao-du-ji-core",
+      "root_person_id": "56f_8f7_e9f",
+      "status": "contextual_provisional",
+      "human_reviewed": false
+    },
+    {
+      "person_id": "56f_8f7_e9f_C",
+      "representative_source_person_id": "56f_8f7_e9f_C",
+      "source_person_ids": [
+        "56f_8f7_e9f_C"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "56f_8f7_e9f",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling",
+        "sibling_person_id": "56f_8f7_e9f_A",
+        "sibling_assertion_id": "a-sgz016-du-kuan-younger-brother-shu",
+        "sibling_father_assertion_id": "a-sgz016-du-shu-father-ji",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "恕父畿明證，理/寛為恕弟作可撤回同父首選；理畿奇之名理只上下文補強，寛平行弟條另讀仍保。不是來源直接父證。",
+        "references": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-016",
+            "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+            "chapter_id": "c-sanguozhi-016-duji-dushu",
+            "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+            "quote": "杜氏新書曰恕弟理字務仲少而機察精要畿竒之故名之曰理年二十一而卒弟寛字務叔清虚玄静敏而好古以名臣門户少長京師而篤志博學絶於世務其意欲探賾索隐由此顯名當塗之士多交焉舉孝廉除郎中年四十二而卒經傳之義多所論駁皆草創未就惟刪集禮記及春秋左氏傳觧今存于世預字元凱司馬宣王女壻王隐晉書稱預智謨淵博明於理亂常稱徳者非所以企及立功立言所庶幾也大觀羣典謂公羊穀梁詭辯之言又非先儒說左氏未究丘明意而橫以二傳亂之乃錯綜㣲言著春秋左氏經傳集觧又參考衆家謂之釋例又作盟㑹圖春秋長歴備成一家之學至老乃成尚書郎摰虞甚重之曰左丘明本為春秋作傳而左傳遂自孤行釋例本為傳設而所發明何但左傳故亦孤行預有大功名於晉室位至征南大將軍開府封當陽侯食邑八千户子錫字世嘏尚書左丞晉諸公贊曰嘏有氣局預從兄斌字世將亦有才望為黃門郎為趙王倫所枉殺嘏子乂字洪治少有令名為丹陽丞早卒阮武者亦拓落大才也案阮氏譜武父諶字士信徵辟無所就造三禮圖傳於世杜氏新書曰武字文業闊達博通淵雅之士位止清河太守武弟炳字叔文河南尹精意醫術撰藥方一部炳子坦字弘舒晉太子少傅平東將軍坦弟柯字士度荀綽兖州記曰坦出紹伯父亡次兄當襲爵父愛柯言名傳之遂承封時㓜小不能讓及長悔恨遂幅巾而居後雖出身未嘗釋也性純篤閑雅好禮無違存心經誥博學洽聞選為濮陽王文學遷領軍長史喪官王衍時為領軍哭之甚慟",
+            "subject_person_mention_id": "c-sanguozhi-016-duji-dushu:unit044:m0032",
+            "object_person_mention_id": "c-sanguozhi-016-duji-dushu:unit044:m0005",
+            "assertion_id": "a-sgz016-du-kuan-younger-brother-shu",
+            "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+            "scope": "來源弟與有源父邊分存；父畿只編輯首選、不改source父、不補同母或絕對排行。"
+          },
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-016",
+            "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+            "chapter_id": "c-sanguozhi-016-duji-dushu",
+            "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+            "quote": "故尚書僕射杜畿於孟津試船遂至覆没忠之至也朕甚愍焉追贈太僕諡曰戴侯子恕嗣",
+            "subject_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0033",
+            "object_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0005",
+            "assertion_id": "a-sgz016-du-shu-father-ji",
+            "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+            "scope": "來源弟與有源父邊分存；父畿只編輯首選、不改source父、不補同母或絕對排行。"
+          }
+        ],
+        "interpretation_basis": "fixed_complete_witness_shared_father"
+      },
+      "assembly_id": "family-jingzhao-du-ji-core",
+      "root_person_id": "56f_8f7_e9f",
+      "status": "contextual_provisional",
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [
+    {
+      "id": "age-sgz016-du-age_ji_20",
+      "person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit003",
+          "quote": "少孤繼母苦之以孝聞年二十為郡功曹守鄭縣令縣囚繫數百人畿親臨獄裁其輕重盡決遣之雖未悉當郡中竒其年少而有大志也舉孝廉除漢中府丞㑹天下亂遂棄官客荆州建安中乃還荀彧進之太祖",
+          "person_mention_id": "c-sanguozhi-016-duji-dushu:unit003:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文報齡；不作生日、婚齡、任職精確日期或出生年。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "age_ji_20"
+      },
+      "source_term": "年二十",
+      "date_expression": null,
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-016-duji-dushu:unit003",
+        "start": 9,
+        "end": 12,
+        "surface": "年二十"
+      },
+      "source_number": "二十",
+      "value": 20,
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "age_context": {
+        "kind": "during_life"
+      },
+      "reporting_status": "direct_report"
+    },
+    {
+      "id": "age-sgz016-du-age_ji_62",
+      "person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit020",
+          "quote": "魏氏春秋曰初畿嘗見童子謂之曰司命使我召子畿固請之童子曰今將為君求相代者君其愼勿言言卒忽然不見至此二十年矣畿乃言之其日而卒時年六十二",
+          "person_mention_id": "c-sanguozhi-016-duji-dushu:unit020:m0006"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "62為神異故事結尾的來源報齡，童子司命與其日卒敘事不當史實已核。 引文層所引作品：w-weishichunqiu-sgz028-reference；非親讀該亡佚原書。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "age_ji_62"
+      },
+      "source_term": "時年六十二",
+      "date_expression": null,
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-016-duji-dushu:unit020",
+        "start": 60,
+        "end": 65,
+        "surface": "時年六十二"
+      },
+      "source_number": "六十二",
+      "value": 62,
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-sgz016-du-death_ji"
+      },
+      "reporting_status": "direct_report"
+    }
+  ],
+  "life_events": [
+    {
+      "id": "le-sgz016-du-death_ji",
+      "person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+          "quote": "故尚書僕射杜畿於孟津試船遂至覆没忠之至也朕甚愍焉追贈太僕諡曰戴侯子恕嗣",
+          "person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0005"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit020",
+          "quote": "魏氏春秋曰初畿嘗見童子謂之曰司命使我召子畿固請之童子曰今將為君求相代者君其愼勿言言卒忽然不見至此二十年矣畿乃言之其日而卒時年六十二",
+          "person_mention_id": "c-sanguozhi-016-duji-dushu:unit020:m0006"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "同一試船覆沒事件；與注020神異故事分層，主文未記確切卒年，不借220踐阼或帝征吳定卒年。 注020另以神異故事敘同一人的死亡及62報齡；僅增來源見證，不將神異機制當已證史實。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "death_ji"
+      },
+      "source_term": "於孟津試船遂至覆没",
+      "date_expression": null,
+      "event_type": "death",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+        "start": 7,
+        "end": 16,
+        "surface": "於孟津試船遂至覆没"
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

@@ -197,6 +197,11 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                 except ImportError:
                     from source_office_dates import normalized_valid as source_office_date_valid
                 valid = source_office_date_valid(date, bound_record, bound_role, chapters or {}, root)
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_kanripo_body_interval_regnal_year':
+                try:from scripts.fixed_kanripo_biographical_facts import date_valid
+                except ImportError:from fixed_kanripo_biographical_facts import date_valid
+                chapter=(chapters or {}).get((bound_record or {}).get('evidence',[{}])[0].get('chapter_id'),{})
+                valid=date_valid(date,bound_record,chapter,root)
             if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_kanripo_accession_ce_year':
                 try:from scripts.fixed_kanripo_accession_dates import normalized_valid as fixed_accession_date_valid
                 except ImportError:from fixed_kanripo_accession_dates import normalized_valid as fixed_accession_date_valid
@@ -1776,7 +1781,11 @@ def validate(root=ROOT):
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
                           '同父或異父關係須有相符原詞與布林值，不補父親端點')
                 if a['predicate'] == 'kinship_unspecified':
-                    if witness_family_bound:
+                    if qualifiers.get('kinship_basis') == 'archived_excerpt_collateral_appellation':
+                        try:from scripts.archived_excerpt_facts import valid as archived_excerpt_valid
+                        except ImportError:from archived_excerpt_facts import valid as archived_excerpt_valid
+                        check(archived_excerpt_valid(a,chapters[d['chapter_id']],root),'既存節錄族父/族曾祖只保旁系世代，不補親等或中間人')
+                    elif witness_family_bound:
                         check(qualifiers.get('kinship_basis') == 'fixed_received_collateral_appellation', '固定原詞旁親只採已逐角色覆核的世代/未知連接人')
                     elif qualifiers.get('kinship_basis') == 'bound_collateral_generation_term':
                         try:from scripts.punctuated_family_frames import valid as received_family_frame_valid
@@ -2202,6 +2211,12 @@ def validate(root=ROOT):
             record = json.loads(path.read_text(encoding='utf-8'))
             check(record['record_type'] == 'person_address_assertion_set' and record['chapter_id'] in chapters, '地址主張集格式或篇不存在')
             for address in record['assertions']:
+                fixed_kanripo_address=False
+                if address.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
+                    try:from scripts.fixed_kanripo_fact_slots import valid as fixed_kanripo_address_valid
+                    except ImportError:from fixed_kanripo_fact_slots import valid as fixed_kanripo_address_valid
+                    fixed_kanripo_address=fixed_kanripo_address_valid(address,chapters[record['chapter_id']],root)
+                    check(fixed_kanripo_address,'固定原典地望須綁任事原語/同主語徙所，不借官名補地')
                 if 'received_source_frame' in address:
                     try:from scripts.fixed_received_career import nonholding_valid
                     except ImportError:from fixed_received_career import nonholding_valid
@@ -2211,7 +2226,7 @@ def validate(root=ROOT):
                     except ImportError:from layered_biography_titles import address_valid
                     check(address_valid(address,chapters[record['chapter_id']]),'地望須逐角色綁原詞與來源，隱居不作卒地、共稱不擴及後人')
                 check(address['id'] not in address_ids, '地址主張 ID 重複'); address_ids.add(address['id'])
-                check(address['person_id'] in pids and address['status'] == 'source_attested', '地址人物或狀態無效')
+                check(address['person_id'] in pids and (address['status'] == 'source_attested' or fixed_kanripo_address and address['status']=='contextual_provisional'), '地址人物或狀態無效')
                 check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place', 'capital_location', 'polity_lineage_affiliation', 'source_locality_designation', 'service_location', 'fief'), '地址關係類型未知')
                 if address['relation'] == 'fief' or 'fief_kind' in address.get('qualifiers', {}):
                     kind = address.get('qualifiers', {}).get('fief_kind')
@@ -2250,7 +2265,7 @@ def validate(root=ROOT):
                           '王都須有都與原地名，不得當籍貫或個人居所')
                 if address['relation'] == 'service_location':
                     position = address.get('qualifiers', {}).get('source_position')
-                    check(bool(position) and position in address['source_term']
+                    check((bool(position) and position in address['source_term'] or fixed_kanripo_address and address.get('qualifiers',{}).get('location_scope')=='source_attested_task_activity' and address['qualifiers']['source_action'] in address['source_term'])
                           and address['place']['source_name'] in address['source_term'], '任事地須有來源職位及原地名，不作居所')
                 if address['relation'] == 'polity_lineage_affiliation':
                     check(address.get('qualifiers', {}).get('affiliation_kind') == 'royal_lineage'
@@ -2277,7 +2292,7 @@ def validate(root=ROOT):
                     valid = bool(hit) and hit[0] == record['chapter_id'] == evidence['chapter_id']
                     check(valid and evidence['quote'] in hit[1]['text'], '地址證據篇段不符')
                     if valid:
-                        check(address['place']['source_name'] in evidence['quote'] and address['source_term'] in evidence['quote'], '地址原詞不在證據')
+                        check((address['place']['source_name'] in evidence['quote'] or fixed_kanripo_address and address['relation']=='death_place') and address['source_term'] in evidence['quote'], '地址原詞不在證據')
                         check(address['date_expression'] is None or address['date_expression'] in evidence['quote'], '地址日期不在證據')
                         context = evidence.get('context'); carried = False
                         if context is not None:
