@@ -12,10 +12,22 @@ def source_errors(ch,root):
    p=Path(name);assert not p.is_absolute()and p.parts[0]in('source-evidence','sources','corpus')and'..'not in p.parts
    q=root/p;assert q.resolve()==q and q.is_file();return q
   b=json.loads(local(ref).read_text())
+  if b.get('record_type')=='fixed_wikisource_attached_biography_quotes':
+   try:from scripts.fixed_attached_biography_quotes import errors as quoted_errors
+   except ImportError:from fixed_attached_biography_quotes import errors as quoted_errors
+   return quoted_errors(ch,root,b)
+  if b.get('record_type')=='fixed_wikisource_biography_subsections_links':
+   try:from scripts.fixed_biography_subsections import errors as subsection_errors
+   except ImportError:from fixed_biography_subsections import errors as subsection_errors
+   return subsection_errors(ch,root,b)
   if b.get('record_type')=='fixed_wikisource_plain_biography_year_templates':
    try:from scripts.fixed_plain_wikisource_biography import errors as plain_errors
    except ImportError:from fixed_plain_wikisource_biography import errors as plain_errors
    return plain_errors(ch,root,b)
+  if b.get('record_type')=='fixed_wikisource_family_subsections':
+   try:from scripts.fixed_wikisource_family_units import errors as family_errors
+   except ImportError:from fixed_wikisource_family_units import errors as family_errors
+   return family_errors(ch,root,b)
   rawb=local(b['raw_file']).read_bytes();raw=rawb.decode('utf-8',errors='strict');s=ch['source'];u=b['selection'];v=b['shared_appraisal']
   assert b['record_type']=='fixed_wikisource_complete_units'and type(b['source_revision'])is int and b['source_revision']==s['revision_id']and b['raw_file']==s['raw_path']
   assert hashlib.sha256(rawb).hexdigest()==b['raw_sha256']==s['raw_file_sha256']

@@ -6,10 +6,404 @@
   "identity_note": "本固定卷010單元及獨立大阪1670接口內辨識；正文與裴注、引古、書信及作者分域。未補本傳之外出生、母親、任職年代；異名疑讀另留未決。",
   "review": "ai_provisional",
   "names": [
-    "郭嘉"
+    "郭嘉",
+    "奉孝",
+    "嘉",
+    "卿",
+    "君",
+    "吾",
+    "貞侯",
+    "郭奉孝"
   ],
-  "titles": [],
-  "addresses": [],
+  "titles": [
+    {
+      "id": "th-sgz014-guo-rank",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p009",
+          "quote": "從破袁紹紹死又從討譚尙於黎陽連戰數克諸將欲乘勝遂攻之嘉曰袁紹愛此二子莫適立也有郭圖逢紀為之謀臣必交鬭其間還相離也急之則相持緩之而後争心生不如南向荆州若征劉表者以待其變變成而後擊之可一舉定也太祖曰善乃南征軍至西平譚尚果争冀州譚為尚軍所敗走保平原遣辛毗乞降太祖還救之遂從定鄴又從攻譚於南皮冀州平封嘉洧陽亭侯",
+          "person_mention_id": "c-sanguozhi-014-guojia:p009:m0146"
+        }
+      ],
+      "interpretation_note": "明載封爵，冀州平只是事件語境，沒有原紀年；不填固定授封年或死亡終年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "named_enfeoffment",
+        "slot": "rank",
+        "paragraph_id": "c-sanguozhi-014-guojia:p009",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p009",
+          "start": 145,
+          "end": 151,
+          "surface": "封嘉洧陽亭侯"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p009:m0146"
+        },
+        "fields": {
+          "rank": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p009",
+            "start": 147,
+            "end": 151,
+            "surface": "洧陽亭侯"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "b83741ec2d3654638caaaaf97d3fc3fb4366babd027093037e69ae0b52c00bc5",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "title": "洧陽亭侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "attestations": [
+        {
+          "paragraph_id": "c-sanguozhi-014-guojia:p009",
+          "start": 147,
+          "end": 151,
+          "surface": "洧陽亭侯",
+          "id": "th-sgz014-guo-rank:a",
+          "person_mention_id": "c-sanguozhi-014-guojia:p009:m0146",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-sanguozhi",
+              "book_id": "b-sanguozhi-014",
+              "source_id": "s-sanguozhi-014-guojia",
+              "chapter_id": "c-sanguozhi-014-guojia",
+              "paragraph_id": "c-sanguozhi-014-guojia:p009",
+              "quote": "從破袁紹紹死又從討譚尙於黎陽連戰數克諸將欲乘勝遂攻之嘉曰袁紹愛此二子莫適立也有郭圖逢紀為之謀臣必交鬭其間還相離也急之則相持緩之而後争心生不如南向荆州若征劉表者以待其變變成而後擊之可一舉定也太祖曰善乃南征軍至西平譚尚果争冀州譚為尚軍所敗走保平原遣辛毗乞降太祖還救之遂從定鄴又從攻譚於南皮冀州平封嘉洧陽亭侯",
+              "person_mention_id": "c-sanguozhi-014-guojia:p009:m0146"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-sgz014-guo-posthumous",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "quote": "諡曰貞侯子奕嗣",
+          "person_mention_id": "c-sanguozhi-014-guojia:p013:m0002"
+        }
+      ],
+      "interpretation_note": "諡曰貞侯是死後命名，不是所嗣爵名；綁此前同傳死亡事件，未紀年月。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "posthumous_named_son",
+        "slot": "posthumous",
+        "paragraph_id": "c-sanguozhi-014-guojia:p013",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "start": 0,
+          "end": 7,
+          "surface": "諡曰貞侯子奕嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p013:m0002",
+          "child": "c-sanguozhi-014-guojia:p013:m0005"
+        },
+        "fields": {},
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "987e509e61119bf6b9ffa146556294888d4e72b6d81eb34b0a3b2ac60c1562a5",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "title": "貞侯",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
+      "attestations": [
+        {
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "start": 2,
+          "end": 4,
+          "surface": "貞侯",
+          "id": "th-sgz014-guo-posthumous:a",
+          "person_mention_id": "c-sanguozhi-014-guojia:p013:m0002",
+          "usage": "posthumous_usage",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "posthumous_naming",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-sanguozhi",
+              "book_id": "b-sanguozhi-014",
+              "source_id": "s-sanguozhi-014-guojia",
+              "chapter_id": "c-sanguozhi-014-guojia",
+              "paragraph_id": "c-sanguozhi-014-guojia:p013",
+              "quote": "諡曰貞侯子奕嗣",
+              "person_mention_id": "c-sanguozhi-014-guojia:p013:m0002"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "naming_basis": {
+        "kind": "received_unit_naming_after_death",
+        "source_term": "諡曰貞侯",
+        "death_event_id": "le-sgz014-guo-jia-body",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-014",
+            "source_id": "s-sanguozhi-014-guojia",
+            "chapter_id": "c-sanguozhi-014-guojia",
+            "paragraph_id": "c-sanguozhi-014-guojia:p013",
+            "quote": "諡曰貞侯子奕嗣",
+            "person_mention_id": "c-sanguozhi-014-guojia:p013:m0002"
+          }
+        ]
+      },
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-sgz014-guo-military-body",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "quote": "太祖將征袁尚及三郡烏丸諸下多懼劉表使劉備襲許以討太祖嘉曰公雖威震天下胡恃其遠必不設備因其無備卒然擊之可破滅也且袁紹有恩於民夷而尚兄弟生存今四州之民徒以威附德施未加舍而南征尚因烏丸之資招其死主之臣胡人一動民夷俱應以生蹋頓之心成覬覦之計恐青冀非已之有也表坐談客耳自知才不足以御備重任之則恐不能制輕任之則備不為用雖虚國遠征公無憂矣太祖遂行至易嘉言曰兵貴神速今千里襲人輜重多難以趨利且彼聞之必為備不如留輜重輕兵兼道以出掩其不意太祖乃宻出盧龍塞直指單于庭虜卒聞太祖至惶怖合戰大破之斬蹋頓及名王已下尚及兄熙走遼東嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨臨其喪哀甚謂荀攸等曰諸君年皆孤軰也唯奉孝最少天下事竟欲以後事屬之而中年夭折命也夫乃表曰軍祭酒郭嘉自從征伐十有一年每有大議臨敵制變臣策未决嘉輒成之平定天下謀功為髙不幸短命事業未終追思嘉勲實不可忘可增邑八百尸并前千户",
+          "person_mention_id": "c-sanguozhi-014-guojia:p011:m0336"
+        }
+      ],
+      "interpretation_note": "來源明載軍祭酒用稱；與奏薦司空軍祭酒分層保原稱，無任職始終年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "office_subject_prefix",
+        "slot": "office",
+        "paragraph_id": "c-sanguozhi-014-guojia:p011",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "start": 333,
+          "end": 338,
+          "surface": "軍祭酒郭嘉"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p011:m0336"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 333,
+            "end": 336,
+            "surface": "軍祭酒"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "1f159435838e1e88a40fbf586b26fc387a0c991974370f73f804f567752252ae",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "title": "軍祭酒",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "start": 333,
+          "end": 336,
+          "surface": "軍祭酒",
+          "id": "th-sgz014-guo-military-body:a",
+          "person_mention_id": "c-sanguozhi-014-guojia:p011:m0336",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-sgz014-guo-military-weishu",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p012",
+          "quote": "魏書載太祖表曰臣聞褒忠寵賢未必當身念功惟績恩隆後嗣是以楚宗孫叔顯封厥子岑彭既没爵及支庶故軍祭酒郭嘉忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策自在軍旅十有餘年行同騎乘坐共幄席東禽吕布西取眭固斬袁譚之首平朔土之衆踰越險塞盪定烏九震威遼東以梟袁尚雖假天威易為指麾至於臨敵發揚誓命凶逆克殄勲實由嘉方將表顯短命早終上為朝廷悼惜良臣下自毒恨喪失奇佐宜追增嘉封并前千户褒亡為存厚徃勸來也",
+          "person_mention_id": "c-sanguozhi-014-guojia:p012:m0047"
+        }
+      ],
+      "interpretation_note": "來源明載軍祭酒用稱；與奏薦司空軍祭酒分層保原稱，無任職始終年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "office_subject_prefix",
+        "slot": "office",
+        "paragraph_id": "c-sanguozhi-014-guojia:p012",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p012",
+          "start": 44,
+          "end": 49,
+          "surface": "軍祭酒郭嘉"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p012:m0047"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p012",
+            "start": 44,
+            "end": 47,
+            "surface": "軍祭酒"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9eaa69557b91b6262bbe02ffbef9ef75a47da1c62363edd8f648a0f77ab00256",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "title": "軍祭酒",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "paragraph_id": "c-sanguozhi-014-guojia:p012",
+          "start": 44,
+          "end": 47,
+          "surface": "軍祭酒",
+          "id": "th-sgz014-guo-military-weishu:a",
+          "person_mention_id": "c-sanguozhi-014-guojia:p012:m0047",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "pa-sgz014-guo-origin",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p001",
+          "quote": "郭嘉字奉孝潁川陽翟人也",
+          "person_mention_id": "c-sanguozhi-014-guojia:p001:m0000"
+        }
+      ],
+      "interpretation_note": "傳首原籍貫只屬郭嘉，不補今日位置或沿用於子孫。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "biography_origin",
+        "slot": "origin",
+        "paragraph_id": "c-sanguozhi-014-guojia:p001",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p001",
+          "start": 0,
+          "end": 11,
+          "surface": "郭嘉字奉孝潁川陽翟人也"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p001:m0000",
+          "style": "c-sanguozhi-014-guojia:p001:m0003"
+        },
+        "fields": {
+          "place": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p001",
+            "start": 5,
+            "end": 9,
+            "surface": "潁川陽翟"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "1699ecd7ad0b0b655b8c1ff2428bb11ae01417a727faf0db6198c803664ae030",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "潁川陽翟",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "date_expression": null,
+      "source_term": "潁川陽翟人也",
+      "term": "潁川陽翟人也",
+      "quote": "郭嘉字奉孝潁川陽翟人也"
+    }
+  ],
   "occurrences": [
     {
       "number": 10,
@@ -64,6 +458,570 @@
       "book_id": "b-sanguozhi-010",
       "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
       "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+      "work_title": "三國志"
+    },
+    {
+      "number": 14,
+      "category": "",
+      "title": "郭嘉本傳及全部裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-014-guojia:p001",
+      "count": 53,
+      "raw_count": 53,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "郭嘉字奉孝潁川陽翟人也",
+      "paragraph_ids": [
+        "c-sanguozhi-014-guojia:p001",
+        "c-sanguozhi-014-guojia:p002",
+        "c-sanguozhi-014-guojia:p003",
+        "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p005",
+        "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p007",
+        "c-sanguozhi-014-guojia:p008",
+        "c-sanguozhi-014-guojia:p009",
+        "c-sanguozhi-014-guojia:p010",
+        "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p012",
+        "c-sanguozhi-014-guojia:p013",
+        "c-sanguozhi-014-guojia:p015",
+        "c-sanguozhi-014-guojia:p016",
+        "c-sanguozhi-014-guojia:p017",
+        "c-sanguozhi-014-guojia:p018",
+        "c-sanguozhi-014-guojia:p020"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-014-guojia:p001:m0000",
+        "c-sanguozhi-014-guojia:p001:m0003",
+        "c-sanguozhi-014-guojia:p002:m0003",
+        "c-sanguozhi-014-guojia:p003:m0127",
+        "c-sanguozhi-014-guojia:p003:m0147",
+        "c-sanguozhi-014-guojia:p004:m0006",
+        "c-sanguozhi-014-guojia:p004:m0061",
+        "c-sanguozhi-014-guojia:p004:m0428",
+        "c-sanguozhi-014-guojia:p004:m0438",
+        "c-sanguozhi-014-guojia:p005:m0022",
+        "c-sanguozhi-014-guojia:p006:m0009",
+        "c-sanguozhi-014-guojia:p006:m0112",
+        "c-sanguozhi-014-guojia:p006:m0113",
+        "c-sanguozhi-014-guojia:p006:m0201",
+        "c-sanguozhi-014-guojia:p006:m0225",
+        "c-sanguozhi-014-guojia:p006:m0255",
+        "c-sanguozhi-014-guojia:p006:m0310",
+        "c-sanguozhi-014-guojia:p006:m0321",
+        "c-sanguozhi-014-guojia:p006:m0351",
+        "c-sanguozhi-014-guojia:p007:m0031",
+        "c-sanguozhi-014-guojia:p007:m0085",
+        "c-sanguozhi-014-guojia:p008:m0038",
+        "c-sanguozhi-014-guojia:p008:m0039",
+        "c-sanguozhi-014-guojia:p008:m0113",
+        "c-sanguozhi-014-guojia:p008:m0124",
+        "c-sanguozhi-014-guojia:p009:m0026",
+        "c-sanguozhi-014-guojia:p009:m0146",
+        "c-sanguozhi-014-guojia:p010:m0031",
+        "c-sanguozhi-014-guojia:p011:m0026",
+        "c-sanguozhi-014-guojia:p011:m0168",
+        "c-sanguozhi-014-guojia:p011:m0250",
+        "c-sanguozhi-014-guojia:p011:m0264",
+        "c-sanguozhi-014-guojia:p011:m0308",
+        "c-sanguozhi-014-guojia:p011:m0336",
+        "c-sanguozhi-014-guojia:p011:m0358",
+        "c-sanguozhi-014-guojia:p011:m0380",
+        "c-sanguozhi-014-guojia:p012:m0047",
+        "c-sanguozhi-014-guojia:p012:m0146",
+        "c-sanguozhi-014-guojia:p012:m0174",
+        "c-sanguozhi-014-guojia:p013:m0002",
+        "c-sanguozhi-014-guojia:p015:m0017",
+        "c-sanguozhi-014-guojia:p016:m0009",
+        "c-sanguozhi-014-guojia:p016:m0013",
+        "c-sanguozhi-014-guojia:p016:m0017",
+        "c-sanguozhi-014-guojia:p017:m0004",
+        "c-sanguozhi-014-guojia:p017:m0012",
+        "c-sanguozhi-014-guojia:p017:m0013",
+        "c-sanguozhi-014-guojia:p018:m0011",
+        "c-sanguozhi-014-guojia:p018:m0013",
+        "c-sanguozhi-014-guojia:p018:m0083",
+        "c-sanguozhi-014-guojia:p018:m0113",
+        "c-sanguozhi-014-guojia:p018:m0141",
+        "c-sanguozhi-014-guojia:p020:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-014-guojia:p001:m0000": "c-sanguozhi-014-guojia:p001",
+        "c-sanguozhi-014-guojia:p001:m0003": "c-sanguozhi-014-guojia:p001",
+        "c-sanguozhi-014-guojia:p002:m0003": "c-sanguozhi-014-guojia:p002",
+        "c-sanguozhi-014-guojia:p003:m0127": "c-sanguozhi-014-guojia:p003",
+        "c-sanguozhi-014-guojia:p003:m0147": "c-sanguozhi-014-guojia:p003",
+        "c-sanguozhi-014-guojia:p004:m0006": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0061": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0428": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0438": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p005:m0022": "c-sanguozhi-014-guojia:p005",
+        "c-sanguozhi-014-guojia:p006:m0009": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0112": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0113": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0201": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0225": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0255": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0310": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0321": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0351": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p007:m0031": "c-sanguozhi-014-guojia:p007",
+        "c-sanguozhi-014-guojia:p007:m0085": "c-sanguozhi-014-guojia:p007",
+        "c-sanguozhi-014-guojia:p008:m0038": "c-sanguozhi-014-guojia:p008",
+        "c-sanguozhi-014-guojia:p008:m0039": "c-sanguozhi-014-guojia:p008",
+        "c-sanguozhi-014-guojia:p008:m0113": "c-sanguozhi-014-guojia:p008",
+        "c-sanguozhi-014-guojia:p008:m0124": "c-sanguozhi-014-guojia:p008",
+        "c-sanguozhi-014-guojia:p009:m0026": "c-sanguozhi-014-guojia:p009",
+        "c-sanguozhi-014-guojia:p009:m0146": "c-sanguozhi-014-guojia:p009",
+        "c-sanguozhi-014-guojia:p010:m0031": "c-sanguozhi-014-guojia:p010",
+        "c-sanguozhi-014-guojia:p011:m0026": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0168": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0250": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0264": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0308": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0336": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0358": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0380": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p012:m0047": "c-sanguozhi-014-guojia:p012",
+        "c-sanguozhi-014-guojia:p012:m0146": "c-sanguozhi-014-guojia:p012",
+        "c-sanguozhi-014-guojia:p012:m0174": "c-sanguozhi-014-guojia:p012",
+        "c-sanguozhi-014-guojia:p013:m0002": "c-sanguozhi-014-guojia:p013",
+        "c-sanguozhi-014-guojia:p015:m0017": "c-sanguozhi-014-guojia:p015",
+        "c-sanguozhi-014-guojia:p016:m0009": "c-sanguozhi-014-guojia:p016",
+        "c-sanguozhi-014-guojia:p016:m0013": "c-sanguozhi-014-guojia:p016",
+        "c-sanguozhi-014-guojia:p016:m0017": "c-sanguozhi-014-guojia:p016",
+        "c-sanguozhi-014-guojia:p017:m0004": "c-sanguozhi-014-guojia:p017",
+        "c-sanguozhi-014-guojia:p017:m0012": "c-sanguozhi-014-guojia:p017",
+        "c-sanguozhi-014-guojia:p017:m0013": "c-sanguozhi-014-guojia:p017",
+        "c-sanguozhi-014-guojia:p018:m0011": "c-sanguozhi-014-guojia:p018",
+        "c-sanguozhi-014-guojia:p018:m0013": "c-sanguozhi-014-guojia:p018",
+        "c-sanguozhi-014-guojia:p018:m0083": "c-sanguozhi-014-guojia:p018",
+        "c-sanguozhi-014-guojia:p018:m0113": "c-sanguozhi-014-guojia:p018",
+        "c-sanguozhi-014-guojia:p018:m0141": "c-sanguozhi-014-guojia:p018",
+        "c-sanguozhi-014-guojia:p020:m0003": "c-sanguozhi-014-guojia:p020"
+      },
+      "mention_id": "c-sanguozhi-014-guojia:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p001:m0000",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p001:m0003",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p001:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p002:m0003",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p002:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p003:m0127",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p003:m0127"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p003:m0147",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p003:m0147"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0006",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0061",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0061"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0428",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0428"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0438",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0438"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p005:m0022",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p005:m0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0009",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0112",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0112"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0113",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0113"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0201",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0201"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0225",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0225"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0255",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0255"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0310",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0310"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0321",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0321"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0351",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0351"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p007:m0031",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p007:m0031"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p007:m0085",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p007:m0085"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p008:m0038",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p008:m0038"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p008:m0039",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p008:m0039"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p008:m0113",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p008:m0113"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p008:m0124",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p008:m0124"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p009:m0026",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p009:m0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p009:m0146",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p009:m0146"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p010:m0031",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p010:m0031"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0026",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0168",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0168"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0250",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0250"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0264",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0264"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0308",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0308"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0336",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0336"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0358",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0358"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0380",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0380"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p012:m0047",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p012:m0047"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p012:m0146",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p012:m0146"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p012:m0174",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p012:m0174"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p013:m0002",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p013:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p015:m0017",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p015:m0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p016:m0009",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p016:m0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p016:m0013",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p016:m0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p016:m0017",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p016:m0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p017:m0004",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p017:m0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p017:m0012",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p017:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p017:m0013",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p017:m0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p018:m0011",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p018:m0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p018:m0013",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p018:m0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p018:m0083",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p018:m0083"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p018:m0113",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p018:m0113"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p018:m0141",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p018:m0141"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p020:m0003",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p020:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "source_id": "s-sanguozhi-014-guojia",
+      "work_title": "三國志"
+    },
+    {
+      "number": 25,
+      "category": "",
+      "title": "辛毗本傳及全部裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-025-xinpi:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "譚意太祖大悅後數日更欲先平荆州使譚尚自相弊他日置酒毗望太祖色知有變以語郭嘉嘉白太祖太祖謂毗曰譚可信尚必可克不毗對曰明公無問信與詐也直當論其勢耳袁氏本兄弟相伐非謂他人能間其間乃謂天下可定於已也今一旦求救於明公此可知也顯甫見顯思困而不能取此力竭也兵革敗於外謀臣誅於内兄弟讒䦧國分",
+      "paragraph_ids": [
+        "c-sanguozhi-025-xinpi:p003"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-025-xinpi:p003:m0050",
+        "c-sanguozhi-025-xinpi:p003:m0052"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-025-xinpi:p003:m0050": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0052": "c-sanguozhi-025-xinpi:p003"
+      },
+      "mention_id": "c-sanguozhi-025-xinpi:p003:m0050",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0050",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0050"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0052",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0052"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-025",
+      "chapter_id": "c-sanguozhi-025-xinpi",
+      "source_id": "s-sanguozhi-025-xinpi",
       "work_title": "三國志"
     },
     {
@@ -3843,6 +4801,67 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "source_id": "s-sanguozhi-014-guojia",
+      "source": {
+        "title": "三國志魏書卷十四郭嘉本傳及裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "10ee5087e49a8e9a07aded83329ad50f932fac56",
+        "response_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_file_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_path": "source-evidence/sgz014-guojia/primary/KR2a0012_014.txt",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定全raw162–253行，郭嘉本傳與全部裴注；254董昭傳起。未含此前程昱尾及後董昭傳，不稱全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文與Kanripo固定數位見證歸屬；未下載影像。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "僅去¶/換行/pb及逐行括號；20段交錯保正文/裴注，raw_positions逐字完整投影；傳子/傅子、尸/户/烏九原字不正字。"
+        },
+        "quality_note": "完整郭嘉單元非全卷；數位轉錄未圖校。"
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-025-xinpi",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-025",
+      "source_id": "s-sanguozhi-025-xinpi",
+      "source": {
+        "title": "三國志魏書卷二十五辛毗傳及全部裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_025.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_025.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "9d77d0409b755082a53c13ed9cae29feb7823c80",
+        "raw_file_sha256": "972a19c668fc812b938c37cd118b3773eeb8fe9c40f7c93b2509f6eb58d104a4",
+        "response_sha256": "972a19c668fc812b938c37cd118b3773eeb8fe9c40f7c93b2509f6eb58d104a4",
+        "raw_path": "source-evidence/sgz025-xinpi/primary/KR2a0012_025.txt",
+        "edition": "WYG數位轉錄；未圖校",
+        "accessed_on": "2026-10-22",
+        "extent": "固定全raw19–132行辛毗完整本傳及裴注；133起楊阜。不稱025全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "只去pb/¶/換行/逐行注括號，保所有原字與連續原文；正文與裴注交錯8段。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-027-wangchang",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-027",
@@ -3875,6 +4894,114 @@
   ],
   "relations": [
     {
+      "id": "a-sgz014-guo-1",
+      "subject_person_id": "344_68f_98e_A",
+      "object_person_id": "344_68f_98e",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子奕",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "quote": "諡曰貞侯子奕嗣",
+          "subject_person_mention_id": "c-sanguozhi-014-guojia:p013:m0005",
+          "object_person_mention_id": "c-sanguozhi-014-guojia:p013:m0002"
+        }
+      ],
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "posthumous_named_son",
+        "slot": "son",
+        "paragraph_id": "c-sanguozhi-014-guojia:p013",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "start": 0,
+          "end": 7,
+          "surface": "諡曰貞侯子奕嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p013:m0002",
+          "child": "c-sanguozhi-014-guojia:p013:m0005"
+        },
+        "fields": {},
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "987e509e61119bf6b9ffa146556294888d4e72b6d81eb34b0a3b2ac60c1562a5",
+        "source_layer": "received_chapter"
+      },
+      "interpretation_note": "依完整原句具名子/孫方向；不由嗣補生母、絕對排行或敞之未名父。貞侯為此傳郭嘉已解析用稱，不是新人物。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz014-guo-4",
+      "subject_person_id": "344_68f_98e_*A",
+      "object_person_id": "344_68f_98e",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "孫敞",
+        "lineage": "paternal",
+        "generation_distance": 2,
+        "parent_person_id": null,
+        "intermediate_person_ids": [
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p020",
+          "quote": "世語曰嘉孫敞字泰中有才識位散騎常侍",
+          "subject_person_mention_id": "c-sanguozhi-014-guojia:p020:m0005",
+          "object_person_mention_id": "c-sanguozhi-014-guojia:p020:m0003"
+        }
+      ],
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "grandson_style_office",
+        "slot": "grandson",
+        "paragraph_id": "c-sanguozhi-014-guojia:p020",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p020",
+          "start": 0,
+          "end": 17,
+          "surface": "世語曰嘉孫敞字泰中有才識位散騎常侍"
+        },
+        "roles": {
+          "source_work": "c-sanguozhi-014-guojia:p020:w0000",
+          "ancestor": "c-sanguozhi-014-guojia:p020:m0003",
+          "descendant": "c-sanguozhi-014-guojia:p020:m0005",
+          "style": "c-sanguozhi-014-guojia:p020:m0007"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p020",
+            "start": 13,
+            "end": 17,
+            "surface": "散騎常侍"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "5dde738defe038f17b5116aa3750193b7a7dc0cd99e7f5275f787a18b6cb778d",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "interpretation_note": "依完整原句具名子/孫方向；不由嗣補生母、絕對排行或敞之未名父。貞侯為此傳郭嘉已解析用稱，不是新人物。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-sanguozhi027-wangchang-012",
       "subject_person_id": "344_68f_98e_A",
       "predicate": "father",
@@ -3903,10 +5030,30 @@
   ],
   "related_people": {
     "344_68f_98e": "郭嘉",
+    "344_68f_98e_*A": "郭敞",
     "344_68f_98e_A": "郭奕（字伯益，郭嘉子）"
   },
   "dates": [],
   "name_components": [
+    {
+      "id": "nc-sgz014-guo-jia",
+      "person_id": "344_68f_98e",
+      "surname": "郭",
+      "ming": "嘉",
+      "zi": "奉孝",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "paragraph_id": "c-sanguozhi-014-guojia:p001",
+      "person_mention_id": "c-sanguozhi-014-guojia:p001:m0000",
+      "quote": "郭嘉字奉孝潁川陽翟人也",
+      "note": "傳首明姓、名、字；不從label或ID拆字。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "source_id": "s-sanguozhi-014-guojia"
+    },
     {
       "person_id": "344_68f_98e",
       "title": null,
@@ -3925,10 +5072,556 @@
       "source_id": "s-sanguozhi-027-wangchang"
     }
   ],
+  "source_details": [
+    {
+      "id": "sd-sgz014-guo-nomination",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p003",
+          "quote": "初北見袁紹謂紹謀臣辛評郭圖曰夫智者審於量主故百舉百全而功名可立也袁公徒欲效周公之下士而未知用人之機多端寡要好謀無决欲與共濟天下大難定覇王之業難矣於是遂去之先是時潁川戲志才籌畫士也太祖甚器之早卒太祖與荀彧書曰自志才亡後莫可與計事者汝潁固多竒士誰可以繼之彧薦嘉召見論天下事太祖曰使孤成大業者必此人也嘉出亦喜曰眞吾主也表為司空軍祭酒",
+          "person_mention_id": "c-sanguozhi-014-guojia:p003:m0147"
+        }
+      ],
+      "interpretation_note": "表為是奏薦；後明軍祭酒來源另存持職用稱，不把奏薦句單獨當實授起點。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "recommended_office",
+        "slot": "nomination",
+        "paragraph_id": "c-sanguozhi-014-guojia:p003",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p003",
+          "start": 147,
+          "end": 163,
+          "surface": "嘉出亦喜曰眞吾主也表為司空軍祭酒"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p003:m0147",
+          "lord": "c-sanguozhi-014-guojia:p003:m0153"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p003",
+            "start": 158,
+            "end": 163,
+            "surface": "司空軍祭酒"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "06d082260e9476340bfbb4c937a7e09b65f6f9d61f9754bbdafc9f4459eae0f8",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "kind": "office_nomination",
+      "source_term": "表為司空軍祭酒",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-014-guojia:p003",
+        "start": 156,
+        "end": 163,
+        "surface": "表為司空軍祭酒"
+      },
+      "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+      "paragraph_sha256": "06d082260e9476340bfbb4c937a7e09b65f6f9d61f9754bbdafc9f4459eae0f8",
+      "values": {
+        "office_source_name": "司空軍祭酒",
+        "appointment_stage": "memorial_nomination",
+        "assumption_attested_by_this_clause": false
+      },
+      "date_expression": null
+    },
+    {
+      "id": "sd-sgz014-guo-increase-body",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "quote": "太祖將征袁尚及三郡烏丸諸下多懼劉表使劉備襲許以討太祖嘉曰公雖威震天下胡恃其遠必不設備因其無備卒然擊之可破滅也且袁紹有恩於民夷而尚兄弟生存今四州之民徒以威附德施未加舍而南征尚因烏丸之資招其死主之臣胡人一動民夷俱應以生蹋頓之心成覬覦之計恐青冀非已之有也表坐談客耳自知才不足以御備重任之則恐不能制輕任之則備不為用雖虚國遠征公無憂矣太祖遂行至易嘉言曰兵貴神速今千里襲人輜重多難以趨利且彼聞之必為備不如留輜重輕兵兼道以出掩其不意太祖乃宻出盧龍塞直指單于庭虜卒聞太祖至惶怖合戰大破之斬蹋頓及名王已下尚及兄熙走遼東嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨臨其喪哀甚謂荀攸等曰諸君年皆孤軰也唯奉孝最少天下事竟欲以後事屬之而中年夭折命也夫乃表曰軍祭酒郭嘉自從征伐十有一年每有大議臨敵制變臣策未决嘉輒成之平定天下謀功為髙不幸短命事業未終追思嘉勲實不可忘可增邑八百尸并前千户",
+          "person_mention_id": "c-sanguozhi-014-guojia:p011:m0380"
+        }
+      ],
+      "interpretation_note": "三來源奏請/表增分存，不計三次實授。郭嘉本人與子奕的對象分開，原尸/户各存，不推實收或授封年月。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "requested_increase_and_total",
+        "slot": "fief",
+        "paragraph_id": "c-sanguozhi-014-guojia:p011",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "start": 380,
+          "end": 396,
+          "surface": "嘉勲實不可忘可增邑八百尸并前千户"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p011:m0380"
+        },
+        "fields": {
+          "increase": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 389,
+            "end": 391,
+            "surface": "八百"
+          },
+          "increase_unit": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 391,
+            "end": 392,
+            "surface": "尸"
+          },
+          "total": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 394,
+            "end": 395,
+            "surface": "千"
+          },
+          "unit": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 395,
+            "end": 396,
+            "surface": "户"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "1f159435838e1e88a40fbf586b26fc387a0c991974370f73f804f567752252ae",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "kind": "fief_household_count",
+      "source_term": "可增邑八百尸并前千户",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-014-guojia:p011",
+        "start": 386,
+        "end": 396,
+        "surface": "可增邑八百尸并前千户"
+      },
+      "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+      "paragraph_sha256": "1f159435838e1e88a40fbf586b26fc387a0c991974370f73f804f567752252ae",
+      "values": {
+        "increase": 800,
+        "increase_source_number": "八百",
+        "increase_unit_source_name": "尸",
+        "total": 1000,
+        "total_source_number": "千",
+        "unit_source_name": "户",
+        "enactment_status": "memorial_report_not_independent_confirmation",
+        "actual_revenue": null,
+        "request_kind": "memorial_request"
+      },
+      "date_expression": null
+    },
+    {
+      "id": "sd-sgz014-guo-increase-weishu",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p012",
+          "quote": "魏書載太祖表曰臣聞褒忠寵賢未必當身念功惟績恩隆後嗣是以楚宗孫叔顯封厥子岑彭既没爵及支庶故軍祭酒郭嘉忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策自在軍旅十有餘年行同騎乘坐共幄席東禽吕布西取眭固斬袁譚之首平朔土之衆踰越險塞盪定烏九震威遼東以梟袁尚雖假天威易為指麾至於臨敵發揚誓命凶逆克殄勲實由嘉方將表顯短命早終上為朝廷悼惜良臣下自毒恨喪失奇佐宜追增嘉封并前千户褒亡為存厚徃勸來也",
+          "person_mention_id": "c-sanguozhi-014-guojia:p012:m0174"
+        }
+      ],
+      "interpretation_note": "三來源奏請/表增分存，不計三次實授。郭嘉本人與子奕的對象分開，原尸/户各存，不推實收或授封年月。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "requested_posthumous_total",
+        "slot": "fief",
+        "paragraph_id": "c-sanguozhi-014-guojia:p012",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p012",
+          "start": 171,
+          "end": 180,
+          "surface": "宜追增嘉封并前千户"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p012:m0174"
+        },
+        "fields": {
+          "total": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p012",
+            "start": 178,
+            "end": 179,
+            "surface": "千"
+          },
+          "unit": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p012",
+            "start": 179,
+            "end": 180,
+            "surface": "户"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9eaa69557b91b6262bbe02ffbef9ef75a47da1c62363edd8f648a0f77ab00256",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "kind": "fief_household_count",
+      "source_term": "宜追增嘉封并前千户",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-014-guojia:p012",
+        "start": 171,
+        "end": 180,
+        "surface": "宜追增嘉封并前千户"
+      },
+      "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+      "paragraph_sha256": "9eaa69557b91b6262bbe02ffbef9ef75a47da1c62363edd8f648a0f77ab00256",
+      "values": {
+        "increase": null,
+        "increase_source_number": null,
+        "increase_unit_source_name": null,
+        "total": 1000,
+        "total_source_number": "千",
+        "unit_source_name": "户",
+        "enactment_status": "memorial_report_not_independent_confirmation",
+        "actual_revenue": null,
+        "request_kind": "memorial_request"
+      },
+      "date_expression": null
+    },
+    {
+      "id": "sd-sgz014-guo-duration-campaign",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "quote": "太祖將征袁尚及三郡烏丸諸下多懼劉表使劉備襲許以討太祖嘉曰公雖威震天下胡恃其遠必不設備因其無備卒然擊之可破滅也且袁紹有恩於民夷而尚兄弟生存今四州之民徒以威附德施未加舍而南征尚因烏丸之資招其死主之臣胡人一動民夷俱應以生蹋頓之心成覬覦之計恐青冀非已之有也表坐談客耳自知才不足以御備重任之則恐不能制輕任之則備不為用雖虚國遠征公無憂矣太祖遂行至易嘉言曰兵貴神速今千里襲人輜重多難以趨利且彼聞之必為備不如留輜重輕兵兼道以出掩其不意太祖乃宻出盧龍塞直指單于庭虜卒聞太祖至惶怖合戰大破之斬蹋頓及名王已下尚及兄熙走遼東嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨臨其喪哀甚謂荀攸等曰諸君年皆孤軰也唯奉孝最少天下事竟欲以後事屬之而中年夭折命也夫乃表曰軍祭酒郭嘉自從征伐十有一年每有大議臨敵制變臣策未决嘉輒成之平定天下謀功為髙不幸短命事業未終追思嘉勲實不可忘可增邑八百尸并前千户",
+          "person_mention_id": "c-sanguozhi-014-guojia:p011:m0336"
+        }
+      ],
+      "interpretation_note": "來源各述從征/軍旅/周旋年數，口徑不同分存；不是軍祭酒任期，不由死亡年倒算任始。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "campaign_service_duration",
+        "slot": "duration",
+        "paragraph_id": "c-sanguozhi-014-guojia:p011",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "start": 333,
+          "end": 346,
+          "surface": "軍祭酒郭嘉自從征伐十有一年"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p011:m0336"
+        },
+        "fields": {
+          "years": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 342,
+            "end": 345,
+            "surface": "十有一"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "1f159435838e1e88a40fbf586b26fc387a0c991974370f73f804f567752252ae",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "kind": "reported_service_duration",
+      "source_term": "自從征伐十有一年",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-014-guojia:p011",
+        "start": 338,
+        "end": 346,
+        "surface": "自從征伐十有一年"
+      },
+      "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+      "paragraph_sha256": "1f159435838e1e88a40fbf586b26fc387a0c991974370f73f804f567752252ae",
+      "values": {
+        "value": 11,
+        "source_number": "十有一",
+        "lower_exclusive": null,
+        "unit": "source_years",
+        "counting": "unspecified_source_years",
+        "activity_code": "campaign_service",
+        "office_tenure": false
+      },
+      "date_expression": null
+    },
+    {
+      "id": "sd-sgz014-guo-duration-army",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p012",
+          "quote": "魏書載太祖表曰臣聞褒忠寵賢未必當身念功惟績恩隆後嗣是以楚宗孫叔顯封厥子岑彭既没爵及支庶故軍祭酒郭嘉忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策自在軍旅十有餘年行同騎乘坐共幄席東禽吕布西取眭固斬袁譚之首平朔土之衆踰越險塞盪定烏九震威遼東以梟袁尚雖假天威易為指麾至於臨敵發揚誓命凶逆克殄勲實由嘉方將表顯短命早終上為朝廷悼惜良臣下自毒恨喪失奇佐宜追增嘉封并前千户褒亡為存厚徃勸來也",
+          "person_mention_id": "c-sanguozhi-014-guojia:p012:m0047"
+        }
+      ],
+      "interpretation_note": "來源各述從征/軍旅/周旋年數，口徑不同分存；不是軍祭酒任期，不由死亡年倒算任始。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "army_service_duration",
+        "slot": "duration",
+        "paragraph_id": "c-sanguozhi-014-guojia:p012",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p012",
+          "start": 47,
+          "end": 81,
+          "surface": "郭嘉忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策自在軍旅十有餘年"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p012:m0047"
+        },
+        "fields": {
+          "description": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p012",
+            "start": 49,
+            "end": 73,
+            "surface": "忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策"
+          },
+          "years": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p012",
+            "start": 77,
+            "end": 79,
+            "surface": "十有"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9eaa69557b91b6262bbe02ffbef9ef75a47da1c62363edd8f648a0f77ab00256",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "kind": "reported_service_duration",
+      "source_term": "自在軍旅十有餘年",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-014-guojia:p012",
+        "start": 73,
+        "end": 81,
+        "surface": "自在軍旅十有餘年"
+      },
+      "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+      "paragraph_sha256": "9eaa69557b91b6262bbe02ffbef9ef75a47da1c62363edd8f648a0f77ab00256",
+      "values": {
+        "value": null,
+        "source_number": "十有",
+        "lower_exclusive": 10,
+        "unit": "source_years",
+        "counting": "unspecified_source_years",
+        "activity_code": "military_service",
+        "office_tenure": false
+      },
+      "date_expression": null
+    },
+    {
+      "id": "sd-sgz014-guo-duration-association",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p018",
+          "quote": "傅子曰太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之悲痛傷心今表增其子滿千户然何益亡者追念之感深且奉孝乃知孤者也天下人相知者少又以此痛惜柰何柰何又與彧書曰追惜奉孝不能去心其人見時事兵事過絶於人又人多畏病南方有疫常言吾往南方則不生還然與共論計云當先定荆此為不但見計之忠厚必欲立功分棄命定事人心乃爾何得使人忘之",
+          "person_mention_id": "c-sanguozhi-014-guojia:p018:m0011"
+        }
+      ],
+      "interpretation_note": "來源各述從征/軍旅/周旋年數，口徑不同分存；不是軍祭酒任期，不由死亡年倒算任始。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "letter_death_age_bound",
+        "slot": "duration",
+        "paragraph_id": "c-sanguozhi-014-guojia:p018",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p018",
+          "start": 3,
+          "end": 60,
+          "surface": "太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之"
+        },
+        "roles": {
+          "writer": "c-sanguozhi-014-guojia:p018:m0003",
+          "recipient": "c-sanguozhi-014-guojia:p018:m0006",
+          "subject": "c-sanguozhi-014-guojia:p018:m0011",
+          "subject_repeat": "c-sanguozhi-014-guojia:p018:m0013"
+        },
+        "fields": {
+          "age": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "start": 19,
+            "end": 21,
+            "surface": "四十"
+          },
+          "years": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "start": 25,
+            "end": 27,
+            "surface": "十二"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "e7b9262af81558f8c73ecfd0e02269659e80079f651363461439780d6f39b873",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "kind": "reported_service_duration",
+      "source_term": "相與周旋十二年",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-014-guojia:p018",
+        "start": 21,
+        "end": 28,
+        "surface": "相與周旋十二年"
+      },
+      "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+      "paragraph_sha256": "e7b9262af81558f8c73ecfd0e02269659e80079f651363461439780d6f39b873",
+      "values": {
+        "value": 12,
+        "source_number": "十二",
+        "lower_exclusive": null,
+        "unit": "source_years",
+        "counting": "unspecified_source_years",
+        "activity_code": "association_with_letter_writer",
+        "office_tenure": false
+      },
+      "date_expression": null
+    }
+  ],
   "person_ids": [
     "344_68f_98e"
   ],
   "preferred_relations": [
+    {
+      "id": "a-sgz014-guo-1",
+      "subject_person_id": "344_68f_98e_A",
+      "object_person_id": "344_68f_98e",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子奕",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "quote": "諡曰貞侯子奕嗣",
+          "subject_person_mention_id": "c-sanguozhi-014-guojia:p013:m0005",
+          "object_person_mention_id": "c-sanguozhi-014-guojia:p013:m0002"
+        }
+      ],
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "posthumous_named_son",
+        "slot": "son",
+        "paragraph_id": "c-sanguozhi-014-guojia:p013",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "start": 0,
+          "end": 7,
+          "surface": "諡曰貞侯子奕嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p013:m0002",
+          "child": "c-sanguozhi-014-guojia:p013:m0005"
+        },
+        "fields": {},
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "987e509e61119bf6b9ffa146556294888d4e72b6d81eb34b0a3b2ac60c1562a5",
+        "source_layer": "received_chapter"
+      },
+      "interpretation_note": "依完整原句具名子/孫方向；不由嗣補生母、絕對排行或敞之未名父。貞侯為此傳郭嘉已解析用稱，不是新人物。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz014-guo-4",
+      "subject_person_id": "344_68f_98e_*A",
+      "object_person_id": "344_68f_98e",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "孫敞",
+        "lineage": "paternal",
+        "generation_distance": 2,
+        "parent_person_id": null,
+        "intermediate_person_ids": [
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p020",
+          "quote": "世語曰嘉孫敞字泰中有才識位散騎常侍",
+          "subject_person_mention_id": "c-sanguozhi-014-guojia:p020:m0005",
+          "object_person_mention_id": "c-sanguozhi-014-guojia:p020:m0003"
+        }
+      ],
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "grandson_style_office",
+        "slot": "grandson",
+        "paragraph_id": "c-sanguozhi-014-guojia:p020",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p020",
+          "start": 0,
+          "end": 17,
+          "surface": "世語曰嘉孫敞字泰中有才識位散騎常侍"
+        },
+        "roles": {
+          "source_work": "c-sanguozhi-014-guojia:p020:w0000",
+          "ancestor": "c-sanguozhi-014-guojia:p020:m0003",
+          "descendant": "c-sanguozhi-014-guojia:p020:m0005",
+          "style": "c-sanguozhi-014-guojia:p020:m0007"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p020",
+            "start": 13,
+            "end": 17,
+            "surface": "散騎常侍"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "5dde738defe038f17b5116aa3750193b7a7dc0cd99e7f5275f787a18b6cb778d",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "interpretation_note": "依完整原句具名子/孫方向；不由嗣補生母、絕對排行或敞之未名父。貞侯為此傳郭嘉已解析用稱，不是新人物。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-sanguozhi027-wangchang-012",
       "subject_person_id": "344_68f_98e_A",
@@ -3971,8 +5664,463 @@
     "status": "contextual_provisional",
     "human_reviewed": false
   },
-  "age_assertions": [],
-  "life_events": [],
+  "age_assertions": [
+    {
+      "id": "age-sgz014-guo-27",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p002",
+          "quote": "傳子曰嘉少有遠量漢末天下將亂自弱冠匿名迹宻交結英雋不與俗接故時人多莫知惟識達者奇之年二十七辟司徒府",
+          "person_mention_id": "c-sanguozhi-014-guojia:p002:m0003"
+        }
+      ],
+      "interpretation_note": "二十七為辟召時生前報齡；三十八為正文病卒敘事報齡；不滿四十為傅子所載曹操書之另源上界。計歲法不詳，生年保持null。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "lifetime_recruitment_age",
+        "slot": "age",
+        "paragraph_id": "c-sanguozhi-014-guojia:p002",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p002",
+          "start": 41,
+          "end": 49,
+          "surface": "年二十七辟司徒府"
+        },
+        "roles": {},
+        "fields": {
+          "age": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p002",
+            "start": 42,
+            "end": 45,
+            "surface": "二十七"
+          },
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p002",
+            "start": 46,
+            "end": 49,
+            "surface": "司徒府"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "c8db3af3dc8ddcc282b183de244065389fca26a444534d6d4e10220f61c04ef5",
+        "source_layer": "witness_appended_pei_songzhi_note",
+        "prior_subject_reference": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p002",
+          "person_mention_id": "c-sanguozhi-014-guojia:p002:m0003"
+        }
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "value": 27,
+      "source_number": "二十七",
+      "source_term": "年二十七",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "age_context": {
+        "kind": "during_life"
+      }
+    },
+    {
+      "id": "age-sgz014-guo-38",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "quote": "太祖將征袁尚及三郡烏丸諸下多懼劉表使劉備襲許以討太祖嘉曰公雖威震天下胡恃其遠必不設備因其無備卒然擊之可破滅也且袁紹有恩於民夷而尚兄弟生存今四州之民徒以威附德施未加舍而南征尚因烏丸之資招其死主之臣胡人一動民夷俱應以生蹋頓之心成覬覦之計恐青冀非已之有也表坐談客耳自知才不足以御備重任之則恐不能制輕任之則備不為用雖虚國遠征公無憂矣太祖遂行至易嘉言曰兵貴神速今千里襲人輜重多難以趨利且彼聞之必為備不如留輜重輕兵兼道以出掩其不意太祖乃宻出盧龍塞直指單于庭虜卒聞太祖至惶怖合戰大破之斬蹋頓及名王已下尚及兄熙走遼東嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨臨其喪哀甚謂荀攸等曰諸君年皆孤軰也唯奉孝最少天下事竟欲以後事屬之而中年夭折命也夫乃表曰軍祭酒郭嘉自從征伐十有一年每有大議臨敵制變臣策未决嘉輒成之平定天下謀功為髙不幸短命事業未終追思嘉勲實不可忘可增邑八百尸并前千户",
+          "person_mention_id": "c-sanguozhi-014-guojia:p011:m0250"
+        }
+      ],
+      "interpretation_note": "二十七為辟召時生前報齡；三十八為正文病卒敘事報齡；不滿四十為傅子所載曹操書之另源上界。計歲法不詳，生年保持null。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "death_age_after_return",
+        "slot": "age",
+        "paragraph_id": "c-sanguozhi-014-guojia:p011",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "start": 250,
+          "end": 290,
+          "surface": "嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p011:m0250",
+          "patron": "c-sanguozhi-014-guojia:p011:m0260",
+          "style": "c-sanguozhi-014-guojia:p011:m0264",
+          "speaker": "c-sanguozhi-014-guojia:p011:m0269",
+          "patron_repeat": "c-sanguozhi-014-guojia:p011:m0281"
+        },
+        "fields": {
+          "description": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 251,
+            "end": 260,
+            "surface": "深通有筭略達於事情"
+          },
+          "age": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 272,
+            "end": 275,
+            "surface": "三十八"
+          },
+          "return_place": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 276,
+            "end": 278,
+            "surface": "柳城"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "1f159435838e1e88a40fbf586b26fc387a0c991974370f73f804f567752252ae",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "value": 38,
+      "source_number": "三十八",
+      "source_term": "年三十八",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-sgz014-guo-jia-body"
+      }
+    },
+    {
+      "id": "age-sgz014-guo-lt40",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p018",
+          "quote": "傅子曰太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之悲痛傷心今表增其子滿千户然何益亡者追念之感深且奉孝乃知孤者也天下人相知者少又以此痛惜柰何柰何又與彧書曰追惜奉孝不能去心其人見時事兵事過絶於人又人多畏病南方有疫常言吾往南方則不生還然與共論計云當先定荆此為不但見計之忠厚必欲立功分棄命定事人心乃爾何得使人忘之",
+          "person_mention_id": "c-sanguozhi-014-guojia:p018:m0011"
+        }
+      ],
+      "interpretation_note": "二十七為辟召時生前報齡；三十八為正文病卒敘事報齡；不滿四十為傅子所載曹操書之另源上界。計歲法不詳，生年保持null。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "letter_death_age_bound",
+        "slot": "age",
+        "paragraph_id": "c-sanguozhi-014-guojia:p018",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p018",
+          "start": 3,
+          "end": 60,
+          "surface": "太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之"
+        },
+        "roles": {
+          "writer": "c-sanguozhi-014-guojia:p018:m0003",
+          "recipient": "c-sanguozhi-014-guojia:p018:m0006",
+          "subject": "c-sanguozhi-014-guojia:p018:m0011",
+          "subject_repeat": "c-sanguozhi-014-guojia:p018:m0013"
+        },
+        "fields": {
+          "age": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "start": 19,
+            "end": 21,
+            "surface": "四十"
+          },
+          "years": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "start": 25,
+            "end": 27,
+            "surface": "十二"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "e7b9262af81558f8c73ecfd0e02269659e80079f651363461439780d6f39b873",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "value": null,
+      "source_number": "四十",
+      "source_term": "年不滿四十",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-sgz014-guo-jia-letter"
+      },
+      "bounds": {
+        "lower": null,
+        "lower_inclusive": null,
+        "upper": 40,
+        "upper_inclusive": false
+      },
+      "reporting_status": "upper_bound_report",
+      "source_qualification": null
+    }
+  ],
+  "life_events": [
+    {
+      "id": "le-sgz014-guo-jia-body",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "quote": "太祖將征袁尚及三郡烏丸諸下多懼劉表使劉備襲許以討太祖嘉曰公雖威震天下胡恃其遠必不設備因其無備卒然擊之可破滅也且袁紹有恩於民夷而尚兄弟生存今四州之民徒以威附德施未加舍而南征尚因烏丸之資招其死主之臣胡人一動民夷俱應以生蹋頓之心成覬覦之計恐青冀非已之有也表坐談客耳自知才不足以御備重任之則恐不能制輕任之則備不為用雖虚國遠征公無憂矣太祖遂行至易嘉言曰兵貴神速今千里襲人輜重多難以趨利且彼聞之必為備不如留輜重輕兵兼道以出掩其不意太祖乃宻出盧龍塞直指單于庭虜卒聞太祖至惶怖合戰大破之斬蹋頓及名王已下尚及兄熙走遼東嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨臨其喪哀甚謂荀攸等曰諸君年皆孤軰也唯奉孝最少天下事竟欲以後事屬之而中年夭折命也夫乃表曰軍祭酒郭嘉自從征伐十有一年每有大議臨敵制變臣策未决嘉輒成之平定天下謀功為髙不幸短命事業未終追思嘉勲實不可忘可增邑八百尸并前千户",
+          "person_mention_id": "c-sanguozhi-014-guojia:p011:m0250"
+        }
+      ],
+      "interpretation_note": "只記該來源死亡報告；原段無明示年號，年保持未知。返柳城是行程非死亡地，不能以軍行年份填卒年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "death_age_after_return",
+        "slot": "death",
+        "paragraph_id": "c-sanguozhi-014-guojia:p011",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "start": 250,
+          "end": 290,
+          "surface": "嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p011:m0250",
+          "patron": "c-sanguozhi-014-guojia:p011:m0260",
+          "style": "c-sanguozhi-014-guojia:p011:m0264",
+          "speaker": "c-sanguozhi-014-guojia:p011:m0269",
+          "patron_repeat": "c-sanguozhi-014-guojia:p011:m0281"
+        },
+        "fields": {
+          "description": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 251,
+            "end": 260,
+            "surface": "深通有筭略達於事情"
+          },
+          "age": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 272,
+            "end": 275,
+            "surface": "三十八"
+          },
+          "return_place": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 276,
+            "end": 278,
+            "surface": "柳城"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "1f159435838e1e88a40fbf586b26fc387a0c991974370f73f804f567752252ae",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "及薨"
+    },
+    {
+      "id": "le-sgz014-guo-jia-letter",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p018",
+          "quote": "傅子曰太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之悲痛傷心今表增其子滿千户然何益亡者追念之感深且奉孝乃知孤者也天下人相知者少又以此痛惜柰何柰何又與彧書曰追惜奉孝不能去心其人見時事兵事過絶於人又人多畏病南方有疫常言吾往南方則不生還然與共論計云當先定荆此為不但見計之忠厚必欲立功分棄命定事人心乃爾何得使人忘之",
+          "person_mention_id": "c-sanguozhi-014-guojia:p018:m0011"
+        }
+      ],
+      "interpretation_note": "只記該來源死亡報告；原段無明示年號，年保持未知。返柳城是行程非死亡地，不能以軍行年份填卒年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "letter_death_age_bound",
+        "slot": "death",
+        "paragraph_id": "c-sanguozhi-014-guojia:p018",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p018",
+          "start": 3,
+          "end": 60,
+          "surface": "太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之"
+        },
+        "roles": {
+          "writer": "c-sanguozhi-014-guojia:p018:m0003",
+          "recipient": "c-sanguozhi-014-guojia:p018:m0006",
+          "subject": "c-sanguozhi-014-guojia:p018:m0011",
+          "subject_repeat": "c-sanguozhi-014-guojia:p018:m0013"
+        },
+        "fields": {
+          "age": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "start": 19,
+            "end": 21,
+            "surface": "四十"
+          },
+          "years": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "start": 25,
+            "end": 27,
+            "surface": "十二"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "e7b9262af81558f8c73ecfd0e02269659e80079f651363461439780d6f39b873",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "何意卒爾失之"
+    },
+    {
+      "id": "le-sgz014-guo-jia-weishu",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p012",
+          "quote": "魏書載太祖表曰臣聞褒忠寵賢未必當身念功惟績恩隆後嗣是以楚宗孫叔顯封厥子岑彭既没爵及支庶故軍祭酒郭嘉忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策自在軍旅十有餘年行同騎乘坐共幄席東禽吕布西取眭固斬袁譚之首平朔土之衆踰越險塞盪定烏九震威遼東以梟袁尚雖假天威易為指麾至於臨敵發揚誓命凶逆克殄勲實由嘉方將表顯短命早終上為朝廷悼惜良臣下自毒恨喪失奇佐宜追增嘉封并前千户褒亡為存厚徃勸來也",
+          "person_mention_id": "c-sanguozhi-014-guojia:p012:m0047"
+        }
+      ],
+      "interpretation_note": "魏書所載曹操表之短命早終另存死亡報告；與正文/傅子書分源，不合計死亡次數，不添卒年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "memorial_campaign_death",
+        "slot": "death",
+        "paragraph_id": "c-sanguozhi-014-guojia:p012",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p012",
+          "start": 47,
+          "end": 155,
+          "surface": "郭嘉忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策自在軍旅十有餘年行同騎乘坐共幄席東禽吕布西取眭固斬袁譚之首平朔土之衆踰越險塞盪定烏九震威遼東以梟袁尚雖假天威易為指麾至於臨敵發揚誓命凶逆克殄勲實由嘉方將表顯短命早終"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p012:m0047",
+          "enemy1": "c-sanguozhi-014-guojia:p012:m0091",
+          "enemy2": "c-sanguozhi-014-guojia:p012:m0095",
+          "enemy3": "c-sanguozhi-014-guojia:p012:m0098",
+          "enemy4": "c-sanguozhi-014-guojia:p012:m0121",
+          "subject_repeat": "c-sanguozhi-014-guojia:p012:m0146"
+        },
+        "fields": {
+          "description": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p012",
+            "start": 49,
+            "end": 73,
+            "surface": "忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策"
+          },
+          "years": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p012",
+            "start": 77,
+            "end": 79,
+            "surface": "十有"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9eaa69557b91b6262bbe02ffbef9ef75a47da1c62363edd8f648a0f77ab00256",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "短命早終"
+    }
+  ],
+  "person_events": [
+    {
+      "id": "pe-sgz014-guo-recruit",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p002",
+          "quote": "傳子曰嘉少有遠量漢末天下將亂自弱冠匿名迹宻交結英雋不與俗接故時人多莫知惟識達者奇之年二十七辟司徒府",
+          "person_mention_id": "c-sanguozhi-014-guojia:p002:m0003"
+        }
+      ],
+      "interpretation_note": "辟司徒府是來源報告辟召，不把府當具體司徒官職，也不由辟召推已赴任。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "lifetime_recruitment_age",
+        "slot": "recruitment",
+        "paragraph_id": "c-sanguozhi-014-guojia:p002",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p002",
+          "start": 41,
+          "end": 49,
+          "surface": "年二十七辟司徒府"
+        },
+        "roles": {},
+        "fields": {
+          "age": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p002",
+            "start": 42,
+            "end": 45,
+            "surface": "二十七"
+          },
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p002",
+            "start": 46,
+            "end": 49,
+            "surface": "司徒府"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "c8db3af3dc8ddcc282b183de244065389fca26a444534d6d4e10220f61c04ef5",
+        "source_layer": "witness_appended_pei_songzhi_note",
+        "prior_subject_reference": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p002",
+          "person_mention_id": "c-sanguozhi-014-guojia:p002:m0003"
+        }
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "recruitment",
+      "date_expression": null,
+      "source_term": "辟司徒府",
+      "recruiting_organ_source_name": "司徒府",
+      "office_title": null,
+      "service_attested": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

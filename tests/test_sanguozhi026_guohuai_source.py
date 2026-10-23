@@ -21,9 +21,9 @@ class GuohuaiSourceTests(unittest.TestCase):
  def test_false_character_splits_absent(self):
   self.assertFalse(any(m['start']==25 for m in PS['unit004']['mentions']));self.assertFalse(any(m['surface']=='正'and m['start']==0 for m in PS['unit015']['mentions']));self.assertFalse(any(m['surface']=='展' for m in PS['unit014']['mentions']));self.assertFalse(any(m['surface']=='備'for m in PS['unit006']['mentions']))
  def test_guoyi_other_family_not_used(self):
-  self.assertEqual(hits('unit016','奕')[0]['person_id'],'64e_ce8_aba');self.assertTrue(all(m.get('person_id')!='344_68f_98e_A'for p in PS.values()for m in p['mentions']));self.assertEqual(hits('unit016','泰業')[0]['person_id'],'64e_ce8_aba')
+  self.assertEqual(hits('unit016','奕')[0]['person_id'],'r02_hoi_pu7_ACA');self.assertTrue(all(m.get('person_id')!='344_68f_98e_A'for p in PS.values()for m in p['mentions']));self.assertEqual(hits('unit016','泰業')[0]['person_id'],'r02_hoi_pu7_ACA')
  def test_guohuai_common_event_and_emperor_scope(self):
-  self.assertEqual(hits('unit001','郭淮')[0]['person_id'],'d7u_f1n_let');self.assertEqual(hits('unit003','文帝')[0]['person_id'],'tix_jqk_w1o');self.assertEqual(hits('unit013','朕')[0]['person_id'],'1b6_503_da8');self.assertNotEqual(hits('unit003','文帝')[0]['person_id'],hits('unit013','朕')[0]['person_id'])
+  self.assertEqual(hits('unit001','郭淮')[0]['person_id'],'r02_hoi_pu7_AA');self.assertEqual(hits('unit003','文帝')[0]['person_id'],'tix_jqk_w1o');self.assertEqual(hits('unit013','朕')[0]['person_id'],'1b6_503_da8');self.assertNotEqual(hits('unit003','文帝')[0]['person_id'],hits('unit013','朕')[0]['person_id'])
  def test_variants_not_normalized(self):
   self.assertIn('父緼',PS['unit002']['text']);self.assertIn('父縕',PS['unit018']['text']);self.assertIn('縕作蘊',PS['unit018']['text']);self.assertEqual(hits('unit002','緼')[0]['person_id'],hits('unit018','蘊')[0]['person_id'])
  def test_unnamed_title_son_not_heir(self):

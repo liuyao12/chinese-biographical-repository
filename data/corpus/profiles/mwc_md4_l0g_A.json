@@ -139,6 +139,41 @@
       "chapter_id": "c-jinshu-076-wangbin",
       "source_id": "s-jinshu-076-wangbin",
       "work_title": "晉書"
+    },
+    {
+      "number": 80,
+      "category": "",
+      "title": "王羲之傳",
+      "paragraph_id": "c-jinshu-080-wangxizhi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "為敦主簿。敦嘗謂羲之曰：「汝是吾家佳子弟，當不減阮主簿。」裕亦目羲之與王承、王悅為王氏三少。時太尉郗鑒使門生求女婿于導，導令就東廂遍觀子弟。門生歸，謂鑒曰：「王氏諸少並佳，然聞信至，咸自矜持。惟一人在東床坦腹食，獨若不聞。」鑒曰：「正此佳婿邪！」訪之，乃羲之也，遂以女妻之。",
+      "paragraph_ids": [
+        "c-jinshu-080-wangxizhi:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-080-wangxizhi:p001:m0191"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-080-wangxizhi:p001:m0191": "c-jinshu-080-wangxizhi:p001"
+      },
+      "mention_id": "c-jinshu-080-wangxizhi:p001:m0191",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi:p001:m0191",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi:p001:m0191"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "chapter_id": "c-jinshu-080-wangxizhi",
+      "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -244,6 +279,35 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-080-wangxizhi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+      "source": {
+        "title": "《晉書》卷八十王羲之完整本傳及子孫附敘（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "revision_id": 2603570,
+        "accessed_on": "2026-10-22",
+        "extent": "王羲之節題起至許邁節題前；含凝之、徽之、楨之、操之、獻之附敘及全引文，47原段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，來源歸屬保留；數位轉錄依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "raw_file_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "raw_file": "sources/witnesses/jin080-ws2603570.wikitext",
+        "raw_path": "sources/witnesses/jin080-ws2603570.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "有限展開引語/YL/連結顯示字與-{幹}-顯示字；完整原碼點逐一可見/排除分類，非校改異字。"
+        }
+      }
     }
   ],
   "relations": [
@@ -280,6 +344,83 @@
     "mwc_md4_l0g_A": "王應"
   },
   "dates": [],
+  "preferred_readings": [
+    {
+      "person_mention_id": "c-jinshu-080-wangxizhi:p001:m0191",
+      "received_surface": "王承",
+      "preferred_surface": "王應",
+      "source_spelling_is_not_alias": true,
+      "variant_id": "v-jin080-wangcheng-modern-reading",
+      "status": "editorial_provisional",
+      "rationale": "依署名現代校讀為可撤回首選；固定賞譽數位古注與075王承世代疑點另分層，不冒已核周一良原書或原注直接等同。",
+      "decision_id": "d-jin080-wangcheng-wangying-modern"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "d-jin080-wangcheng-wangying-modern",
+      "person_id": "mwc_md4_l0g_A",
+      "surfaces": [
+        "王承"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-jinshu-080-wangxizhi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "medium",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-jinshu-080-wangxizhi:p001:m0191"
+        ]
+      },
+      "human_reviewed": false,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "chapter_id": "c-jinshu-080-wangxizhi",
+          "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+          "paragraph_id": "c-jinshu-080-wangxizhi:p001",
+          "quote": "王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。元帝之過江也，曠首創其議。羲之幼訥於言，人未之奇。年十三，嘗謁周顗，顗察而異之。時重牛心炙，坐客未啖，顗先割啖羲之，於是始知名。及長，辯贍，以骨鯁稱，尤善隸書，為古今之冠，論者稱其筆勢，以為飄若浮雲，矯若驚龍。深為從伯敦、導所器重。時陳留阮裕有重名，為敦主簿。敦嘗謂羲之曰：「汝是吾家佳子弟，當不減阮主簿。」裕亦目羲之與王承、王悅為王氏三少。時太尉郗鑒使門生求女婿于導，導令就東廂遍觀子弟。門生歸，謂鑒曰：「王氏諸少並佳，然聞信至，咸自矜持。惟一人在東床坦腹食，獨若不聞。」鑒曰：「正此佳婿邪！」訪之，乃羲之也，遂以女妻之。"
+        }
+      ],
+      "preferred_reading": {
+        "person_mention_id": "c-jinshu-080-wangxizhi:p001:m0191",
+        "received_surface": "王承",
+        "preferred_surface": "王應",
+        "source_spelling_is_not_alias": true,
+        "variant_id": "v-jin080-wangcheng-modern-reading",
+        "status": "editorial_provisional",
+        "rationale": "依署名現代校讀為可撤回首選；固定賞譽數位古注與075王承世代疑點另分層，不冒已核周一良原書或原注直接等同。"
+      },
+      "references": [
+        {
+          "kind": "modern_scholarship_reference",
+          "authors": [
+            "曲景毅",
+            "黃曉芊"
+          ],
+          "title": "「恥為之下」：與王述「齊名」的王羲之",
+          "journal": "東方文化",
+          "volume": 51,
+          "issue": 2,
+          "publication": "2023年1月",
+          "article_pages": "99–120",
+          "cited_print_page": 111,
+          "note": 52,
+          "url": "https://www.chunghwabook.com.hk/upload/files/2023/01_12/26c1d3499f7dc441ca7893851cf977f2.pdf",
+          "quote": "“安期”為王應，王導兄王含之子",
+          "qualification": "親讀官方公開PDF/文字抽取；作者轉述周一良及劉孝標注之校讀，未親見周一良原書。不同於本次固定世說數位注字面直接署王應字安期；只作有署名現代研究的可撤回首選。",
+          "pdf_sha256": "0c86d19ddeb15a19b1ff2b7c74f1c346d609af85627e65874455d3352610d1e8",
+          "image_verified": false,
+          "human_reviewed": false,
+          "reading_scope": "已實讀本文相關段及印頁111註52；PDF亦含前篇頁98，且10個PDF頁不表示完整提供本文99–120全部印頁。未宣稱親讀整篇或親見周一良書。"
+        }
+      ]
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "mwc_md4_l0g_A"
@@ -354,5 +495,23 @@
     }
   ],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "v-jin080-wangcheng-modern-reading",
+      "paragraph_id": "c-jinshu-080-wangxizhi:p001",
+      "source_term": "與王承、王悅為王氏三少",
+      "received_reading": "王承",
+      "reported_reading": "王應",
+      "person_ids": [
+        "mwc_md4_l0g_A"
+      ],
+      "status": "reported_not_collated",
+      "adopted": false,
+      "commentator": "曲景毅、黃曉芊（2023，頁111註52）",
+      "quote": "“安期”為王應，王導兄王含之子",
+      "url": "https://www.chunghwabook.com.hk/upload/files/2023/01_12/26c1d3499f7dc441ca7893851cf977f2.pdf",
+      "qualification": "親讀官方公開PDF/文字抽取；作者轉述周一良及劉孝標注之校讀，未親見周一良原書。不同於本次固定世說數位注字面直接署王應字安期；只作有署名現代研究的可撤回首選。"
+    }
+  ]
 }

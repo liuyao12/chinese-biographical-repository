@@ -20,8 +20,8 @@ def source_age_number(number):
         rest=number[1:].removeprefix('有')
         return {'廿':20,'卅':30,'卌':40}[number[0]] + (digits.index(rest)+1 if rest else 0)
     if number in digits and len(number) == 1: return digits.index(number) + 1
-    if re.fullmatch('[一二三四五六七八九]?十[一二三四五六七八九]?', number):
-        tens, ones = number.split('十')
+    if re.fullmatch('[一二三四五六七八九]?十(?:有?[一二三四五六七八九])?', number):
+        tens, ones = number.split('十'); ones = ones.removeprefix('有')
         return (digits.index(tens) + 1 if tens else 1) * 10 + (digits.index(ones) + 1 if ones else 0)
     match = re.fullmatch('([一二三四五六七八九]?)百(?:有?([一二三四五六七八九]?十[一二三四五六七八九]?))?', number)
     if match:
@@ -31,7 +31,7 @@ def source_age_number(number):
 def direct_source_age_valid(age):
     number = age.get('source_number'); parsed = source_age_number(number)
     return (type(age.get('value')) is int and parsed is not None and age['value'] == parsed
-            and age.get('source_term') in ('年' + str(number), '時年' + str(number), '年登' + str(number), '年始' + str(number), str(number) + '歲', str(number) + '歳', str(number) + '嵗'))
+            and age.get('source_term') in ('年' + str(number), '年至' + str(number), '時年' + str(number), '年登' + str(number), '年始' + str(number), str(number) + '歲', str(number) + '歳', str(number) + '嵗'))
 
 
 def named_office_end_valid(holding, paragraphs, mentions):
@@ -197,6 +197,10 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                 except ImportError:
                     from source_office_dates import normalized_valid as source_office_date_valid
                 valid = source_office_date_valid(date, bound_record, bound_role, chapters or {}, root)
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_kanripo_accession_ce_year':
+                try:from scripts.fixed_kanripo_accession_dates import normalized_valid as fixed_accession_date_valid
+                except ImportError:from fixed_kanripo_accession_dates import normalized_valid as fixed_accession_date_valid
+                valid=fixed_accession_date_valid(date,bound_record,bound_role,chapters or {},root)
             if isinstance(mapping, dict) and mapping.get('kind') == 'reviewed_archived_role_event':
                 try:
                     from scripts.role_event_year_bridge import normalized_valid as role_event_year_valid
@@ -269,7 +273,18 @@ def reported_relationship_errors(variant, paragraph):
     return errors
 
 
+def attached_biography_proposal_errors(proposal,chapter,person_ids):
+    try:from scripts.attached_biography_frames import proposal_errors
+    except ImportError:from attached_biography_frames import proposal_errors
+    return proposal_errors(proposal,chapter,person_ids)
+
 def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
+    if proposal.get('source_appointment_context',{}).get('kind')=='fixed_complete_family_career':
+        try:from scripts.fixed_complete_family_career import valid
+        except ImportError:from fixed_complete_family_career import valid
+        return [] if valid(proposal,chapter) else ['固定完整傳記授辭須綁實際受任者、原任命與未赴兩端']
+    if proposal.get('source_appointment_context',{}).get('kind')=='attached_received_biography_frame':
+        return attached_biography_proposal_errors(proposal,chapter,person_ids)
     if proposal.get('source_appointment_context',{}).get('kind')=='punctuated_biography_career_frame':
         try:from scripts.punctuated_biography_career import proposal_errors
         except ImportError:from punctuated_biography_career import proposal_errors
@@ -284,6 +299,10 @@ def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
         except ImportError:
             from biographical_appointment_sequence import proposal_errors
         return proposal_errors(proposal, chapter, person_ids)
+    if proposal.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
+        try:from scripts.fixed_kanripo_fact_slots import valid as fixed_fact_valid
+        except ImportError:from fixed_kanripo_fact_slots import valid as fixed_fact_valid
+        return [] if fixed_fact_valid(proposal,chapter) else ['固定來源任用提案角色或拒受不符']
     if isinstance(proposal.get('source_appointment_context'), dict) and proposal['source_appointment_context'].get('kind') == 'fixed_biography_offered_office_sequence':
         try:
             from scripts.biography_offered_offices import errors as offered_errors
@@ -1003,7 +1022,7 @@ def validate(root=ROOT):
                         from scripts.received_career_roles import holding_valid as career_holding_valid
                     except ImportError:
                         from received_career_roles import holding_valid as career_holding_valid
-                    check(career_holding_valid(h, chapters[d['chapter_id']]), '來源職歷須逐原句角色綁實際受任者、共享職尾及任期界線')
+                    check(career_holding_valid(h, chapters[d['chapter_id']], root=root), '來源職歷須逐原句角色綁實際受任者、共享職尾及任期界線')
                 if 'source_office_role' in h:
                     try:
                         from scripts.source_office_reports import holding_role_valid
@@ -1135,7 +1154,7 @@ def validate(root=ROOT):
                             from scripts.received_career_roles import holding_valid as career_holding_valid
                         except ImportError:
                             from received_career_roles import holding_valid as career_holding_valid
-                        valid_transfer = career_holding_valid(h, chapters[d['chapter_id']])
+                        valid_transfer = career_holding_valid(h, chapters[d['chapter_id']], root=root)
                     if 'received_source_frame' in h:
                         try:from scripts.fixed_received_career import holding_valid as fixed_received_transfer_valid
                         except ImportError:from fixed_received_career import holding_valid as fixed_received_transfer_valid
@@ -1207,7 +1226,7 @@ def validate(root=ROOT):
                             from scripts.received_career_roles import holding_valid as career_holding_valid
                         except ImportError:
                             from received_career_roles import holding_valid as career_holding_valid
-                        valid = valid or career_holding_valid(h, chapters[d['chapter_id']])
+                        valid = valid or career_holding_valid(h, chapters[d['chapter_id']], root=root)
                     check(valid,'追尊授號缺少相符原詞與起點證據')
                     if valid:
                         for e in basis['evidence']:title_evidence(e)
@@ -1246,6 +1265,10 @@ def validate(root=ROOT):
                                and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
                                        and basis['source_term'] in e['quote'] and basis['death_term'] in e['quote']
                                        for e in basis['evidence']))
+                    if 'source_fact_frame' in h:
+                        try:from scripts.received_biography_facts import valid as received_fact_valid
+                        except ImportError:from received_biography_facts import valid as received_fact_valid
+                        valid = received_fact_valid(h, chapters[d['chapter_id']], root)
                     check(valid,'死後諡名缺少相符命名詞、死亡詞與起點證據')
                     if valid:
                         for e in basis['evidence']:title_evidence(e)
@@ -1403,6 +1426,10 @@ def validate(root=ROOT):
                         check(carried_title_subject, '稱號用稱省略主語承接無效')
                     check(carried_title_subject or bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'],'稱號用稱人物提及不符')
                     shared_suffix_valid = False
+                    if h.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
+                        try:from scripts.fixed_witness_fact_slots import valid as witness_fact_valid
+                        except ImportError:from fixed_witness_fact_slots import valid as witness_fact_valid
+                        shared_suffix_valid = bool(h.get('title_formation')) and witness_fact_valid(h,chapters[d['chapter_id']],root)
                     if 'shared_title_suffix' in h:
                         try:
                             from scripts.biographical_appointment_sequence import holding_valid
@@ -1414,8 +1441,14 @@ def validate(root=ROOT):
                                 from scripts.received_career_roles import holding_valid as career_holding_valid
                             except ImportError:
                                 from received_career_roles import holding_valid as career_holding_valid
-                            shared_suffix_valid = career_holding_valid(h, chapters[d['chapter_id']])
-                    check((a['surface']==h['title'] or shared_suffix_valid) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
+                            shared_suffix_valid = career_holding_valid(h, chapters[d['chapter_id']], root=root)
+                    inherited_surface_ok = False
+                    if 'inherited_title_binding' in h:
+                        try:from scripts.attached_biography_frames import inherited_surface_valid
+                        except ImportError:from attached_biography_frames import inherited_surface_valid
+                        inherited_surface_ok = inherited_surface_valid(h,a,chapters[d['chapter_id']],title_records,family_relations,paragraphs,chapters)
+                        check(inherited_surface_ok,'父爵省稱須有同段明父與同源實際爵位，不承接錯父或舊爵')
+                    check((a['surface']==h['title'] or shared_suffix_valid or inherited_surface_ok) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
                     if hit:
                         check(isinstance(a['start'],int) and isinstance(a['end'],int) and 0<=a['start']<a['end']<=len(hit[1]['text']) and hit[1]['text'][a['start']:a['end']]==a['surface'],'稱號用稱字元位置不符')
                         enclosed=False
@@ -1514,6 +1547,10 @@ def validate(root=ROOT):
                 check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','father_in_law','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if 'received_family_frame' in qualifiers:
+                    try:from scripts.punctuated_family_frames import valid as received_family_frame_valid
+                    except ImportError:from punctuated_family_frames import valid as received_family_frame_valid
+                    check(received_family_frame_valid(a, paragraphs, chapters, root), '收到標點傳記親屬須綁固定完整見證、精確角色與原句，不補父代或親等')
                 if 'source_kinship_frame' in qualifiers or a['predicate'] == 'father_in_law':
                     try:
                         from scripts.received_quoted_family import valid as received_quoted_family_valid
@@ -1713,8 +1750,18 @@ def validate(root=ROOT):
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
                           '同父或異父關係須有相符原詞與布林值，不補父親端點')
                 if a['predicate'] == 'kinship_unspecified':
-                    if qualifiers.get('kinship_basis') == 'explicit_clan_member':
+                    if qualifiers.get('kinship_basis') == 'bound_collateral_generation_term':
+                        try:from scripts.punctuated_family_frames import valid as received_family_frame_valid
+                        except ImportError:from punctuated_family_frames import valid as received_family_frame_valid
+                        check(received_family_frame_valid(a, paragraphs, chapters, root), '從子孫與從舅只保原稱世代母父系，未知連接人不補')
+                    elif qualifiers.get('kinship_basis') == 'source_affinal_collateral_appellation':
+                        try:from scripts.fixed_kanripo_fact_slots import valid as fixed_fact_valid
+                        except ImportError:from fixed_kanripo_fact_slots import valid as fixed_fact_valid
+                        check(fixed_fact_valid(a,chapters[d['chapter_id']],root),'從子／季母須綁來源姻系稱詞，不推生母或未知共祖')
+                    elif qualifiers.get('kinship_basis') == 'explicit_clan_member':
                         check(qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_family_clause' and biography_family_clause_valid(a, paragraphs, d['assertions'], chapters), '族人不補世代、親等或共祖')
+                    elif qualifiers.get('kinship_basis') == 'explicit_zhongbiao_relationship':
+                        check(qualifiers.get('source_clause_binding',{}).get('rule')=='attached_received_biography_frame' and biography_family_clause_valid(a,paragraphs,d['assertions'],chapters),'中表親只保雙端及未知世距，不接父系或推母系路徑')
                     elif qualifiers.get('kinship_basis') == 'congzhongbiao_named_pair':
                         try:
                             from scripts.congzhongbiao import valid as congzhongbiao_valid
@@ -1954,7 +2001,11 @@ def validate(root=ROOT):
             for age in chapter['annotation'].get('age_assertions', []):
                 check(age['id'] not in age_ids, '年齡記錄 ID 重複'); age_ids.add(age['id'])
                 number = age.get('source_number'); parsed = source_age_number(number)
-                if 'received_unit_age_binding' in age:
+                if 'attached_biography_age_frame' in age:
+                    try:from scripts.attached_biography_frames import age_valid
+                    except ImportError:from attached_biography_frames import age_valid
+                    check(age_valid(age,chapter),'完整附傳報齡須有本人/發話人、原數及死亡時點；耳順只語義下界，不推生年')
+                elif 'received_unit_age_binding' in age:
                     try:from scripts.fixed_wikisource_units import unit_group_age_bound_valid
                     except ImportError:from fixed_wikisource_units import unit_group_age_bound_valid
                     check(unit_group_age_bound_valid(age, chapter, root, source_age_number), '具名群體年過須保各人、數詞與嚴格下界，不補生年或改卒齡')
@@ -2005,7 +2056,7 @@ def validate(root=ROOT):
                     elif age.get('reporting_status') == 'upper_bound_report':
                         check(age.get('value') is None and parsed is not None
                               and bounds == {'lower': None, 'lower_inclusive': None, 'upper': parsed, 'upper_inclusive': False}
-                              and age.get('source_term') in ('年未滿' + str(number), '未滿' + str(number) + '歲', '未滿' + str(number) + '歳')
+                              and age.get('source_term') in ('年未滿' + str(number), '年不滿' + str(number), '未滿' + str(number) + '歲', '未滿' + str(number) + '歳')
                               and age.get('source_qualification') is None and not age.get('report_group_id'),
                               '來源未滿報齡須保存開放上界及原詞，不得補確切歲數')
                     elif age.get('reporting_status') == 'direct_report':
@@ -2240,11 +2291,19 @@ def validate(root=ROOT):
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
+                if event.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
+                    try:from scripts.fixed_witness_fact_slots import valid as witness_fact_valid
+                    except ImportError:from fixed_witness_fact_slots import valid as witness_fact_valid
+                    check(witness_fact_valid(event,chapters[record['chapter_id']],root),'固定完整見證生命事實須綁原主體及未補日期')
                 if 'received_source_frame' in event:
                     try:from scripts.fixed_received_career import nonholding_valid
                     except ImportError:from fixed_received_career import nonholding_valid
                     role='life'if record['record_type']=='person_life_event_assertion_set'else'succession'
                     check(nonholding_valid(event,chapters[record['chapter_id']],root,role),'固定收到生命或承爵事件須綁實際角色，不借他人日期或爵名')
+                if event.get('source_death_context',{}).get('kind')=='attached_received_biography_frame':
+                    try:from scripts.attached_biography_frames import life_valid
+                    except ImportError:from attached_biography_frames import life_valid
+                    check(life_valid(event,chapters[record['chapter_id']]),'完整附傳死亡須綁實際角色與原句，不能借他人或喪病日期')
                 if event.get('source_death_context',{}).get('kind')=='punctuated_biography_death_report':
                     try:from scripts.punctuated_biography_career import death_valid
                     except ImportError:from punctuated_biography_career import death_valid
@@ -2266,7 +2325,7 @@ def validate(root=ROOT):
                         from regnal_relationships import accession_death_interval_valid
                     check(accession_death_interval_valid(event, paragraphs, mentions), '未逾年須連同人立後死亡的原句，不得當生齡或推曆年')
                 if record.get('record_type') == 'person_event_assertion_set' and event['event_type'] == 'recruitment':
-                    check(any('徵' in e.get('quote', '') for e in event.get('evidence', [])), '徵召事件缺少原文徵召用語')
+                    check(any('徵' in e.get('quote', '') for e in event.get('evidence', [])) or (event.get('source_fact_frame', {}).get('rule') == 'lifetime_recruitment_age' and event.get('source_term', '').startswith('辟')), '徵召事件缺少原文徵召用語')
                 if event['event_type'] in ('noble_state_abolition', 'noble_title_succession'):
                     try:
                         from scripts.noble_state_abolition import valid as noble_abolition_valid
@@ -2284,6 +2343,10 @@ def validate(root=ROOT):
                         try:from scripts.fixed_received_career import nonholding_valid
                         except ImportError:from fixed_received_career import nonholding_valid
                         noble_valid=nonholding_valid(event,chapters[record['chapter_id']],root,'succession')
+                    if 'source_fact_frame' in event:
+                        try:from scripts.received_biography_facts import valid as received_fact_valid
+                        except ImportError:from received_biography_facts import valid as received_fact_valid
+                        noble_valid = received_fact_valid(event, chapters[record['chapter_id']], root)
                     check(noble_valid, '承爵與國除須綁完整承嗣句的明示端點，不補爵名、前任或日期')
                 if event['event_type'] == 'diplomatic_service':
                     duration = event.get('reported_duration', {}); number = duration.get('source_number')
@@ -2487,6 +2550,10 @@ def validate(root=ROOT):
             from surname_from_father import validate as validate_inferred_surname
         all_name_records = [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']]
         for n in all_name_records:
+            if 'fixed_biography_name_binding' in n:
+                try:from scripts.fixed_biography_names import component_valid as fixed_biography_component_valid
+                except ImportError:from fixed_biography_names import component_valid as fixed_biography_component_valid
+                check(fixed_biography_component_valid(n,chapters.get(n.get('chapter_id'),{}),root,family_relations),'固定傳記姓名構件須綁原人物、原名與字詞及完整見證')
             if 'component_source_binding' in n:
                 try:from scripts.received_family_names import source_component_valid
                 except ImportError:from received_family_names import source_component_valid
@@ -2562,6 +2629,9 @@ def validate(root=ROOT):
     except ImportError:
         from name_xiaoming import validate_records as validate_xiaoming_records
     errors.extend(validate_xiaoming_records(root))
+    try:from scripts.received_biography_facts import errors as received_fact_errors
+    except ImportError:from received_biography_facts import errors as received_fact_errors
+    errors.extend(received_fact_errors(root))
     return errors
 
 def main():

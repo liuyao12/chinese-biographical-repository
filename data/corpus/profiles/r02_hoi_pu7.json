@@ -165,7 +165,7 @@
   "relations": [
     {
       "id": "a-sgz026-guohuai-family-002",
-      "subject_person_id": "d7u_f1n_let",
+      "subject_person_id": "r02_hoi_pu7_AA",
       "predicate": "grandfather",
       "object_person_id": "r02_hoi_pu7",
       "status": "source_attested",
@@ -235,8 +235,8 @@
     }
   ],
   "related_people": {
-    "d7u_f1n_let": "郭淮",
-    "r02_hoi_pu7": "全〔郭淮祖〕"
+    "r02_hoi_pu7": "全〔郭淮祖〕",
+    "r02_hoi_pu7_AA": "郭淮"
   },
   "dates": [],
   "name_components": [
@@ -278,7 +278,7 @@
         "steps": [
           {
             "assertion_id": "a-sgz026-guohuai-family-002",
-            "from_person_id": "d7u_f1n_let",
+            "from_person_id": "r02_hoi_pu7_AA",
             "to_person_id": "r02_hoi_pu7",
             "traversal": "child_to_grandfather",
             "generation_before": 0,
@@ -309,7 +309,7 @@
   "preferred_relations": [
     {
       "id": "a-sgz026-guohuai-family-002",
-      "subject_person_id": "d7u_f1n_let",
+      "subject_person_id": "r02_hoi_pu7_AA",
       "predicate": "grandfather",
       "object_person_id": "r02_hoi_pu7",
       "status": "source_attested",
@@ -376,6 +376,74 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "r02_hoi_pu7",
+    "representative_source_person_id": "r02_hoi_pu7",
+    "source_person_ids": [
+      "r02_hoi_pu7"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": null,
+    "assembly_id": "family-guo-quan-close",
+    "root_person_id": "r02_hoi_pu7",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
+  "assembled_children": [
+    {
+      "person_id": "r02_hoi_pu7_A",
+      "representative_source_person_id": "r02_hoi_pu7_A",
+      "source_person_ids": [
+        "r02_hoi_pu7_A"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "r02_hoi_pu7",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "parent_between_consecutive_ancestors",
+        "interpretation_basis": "fixed_received_zu_fu_sequence",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "裴注按郭氏譜明淮祖全與父緼，以相鄰明世距作緼至全的編者父邊；不是另造郭氏譜source father。收到譜系傳統未經碑誌獨立核證，不遠接其他郭氏。",
+        "chain_subject_person_id": "r02_hoi_pu7_AA",
+        "nearer_ancestor_assertion_id": "a-sgz026-guohuai-family-001",
+        "farther_ancestor_assertion_id": "a-sgz026-guohuai-family-002",
+        "references": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-026",
+            "source_id": "s-sanguozhi-026-guohuai",
+            "chapter_id": "c-sanguozhi-026-guohuai",
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+            "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+            "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0004",
+            "object_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0011",
+            "assertion_id": "a-sgz026-guohuai-family-001",
+            "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+            "scope": "僅收到同源明父祖及具名兄弟作可撤回父系組裝，不造來源父、不補母或絕對排行。"
+          },
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-026",
+            "source_id": "s-sanguozhi-026-guohuai",
+            "chapter_id": "c-sanguozhi-026-guohuai",
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+            "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+            "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0004",
+            "object_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0006",
+            "assertion_id": "a-sgz026-guohuai-family-002",
+            "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+            "scope": "僅收到同源明父祖及具名兄弟作可撤回父系組裝，不造來源父、不補母或絕對排行。"
+          }
+        ]
+      },
+      "assembly_id": "family-guo-quan-close",
+      "root_person_id": "r02_hoi_pu7",
+      "status": "contextual_provisional",
+      "human_reviewed": false
     }
   ],
   "age_assertions": [],

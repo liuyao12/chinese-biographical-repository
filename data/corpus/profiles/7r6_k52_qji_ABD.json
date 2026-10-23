@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "正",
-    "士則"
+    "士則",
+    "祖"
   ],
   "titles": [
     {
@@ -196,6 +197,50 @@
       "book_id": "b-jinshu-076",
       "chapter_id": "c-jinshu-076-wangyi-family",
       "source_id": "s-jinshu-076-wangyi-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 80,
+      "category": "",
+      "title": "王羲之傳",
+      "paragraph_id": "c-jinshu-080-wangxizhi:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。元帝之過江也，曠首創其議。羲之幼訥於言，人未之奇。年十三，嘗謁周顗，顗察而異之。時重牛心炙，坐客未啖，顗先割啖羲之，於是始知名。及長，辯贍，以骨鯁稱，尤善隸書，為古今之冠，",
+      "paragraph_ids": [
+        "c-jinshu-080-wangxizhi:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-080-wangxizhi:p001:m0016",
+        "c-jinshu-080-wangxizhi:p001:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-080-wangxizhi:p001:m0016": "c-jinshu-080-wangxizhi:p001",
+        "c-jinshu-080-wangxizhi:p001:m0017": "c-jinshu-080-wangxizhi:p001"
+      },
+      "mention_id": "c-jinshu-080-wangxizhi:p001:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi:p001:m0016",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi:p001:m0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi:p001:m0017",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi:p001:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "chapter_id": "c-jinshu-080-wangxizhi",
+      "source_id": "s-jinshu-080-ws2603570-wangxizhi",
       "work_title": "晉書"
     }
   ],
@@ -401,6 +446,35 @@
               "end_anchor": "陵太守。子敬弘，義熙末為尚書。"
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-080-wangxizhi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+      "source": {
+        "title": "《晉書》卷八十王羲之完整本傳及子孫附敘（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "revision_id": 2603570,
+        "accessed_on": "2026-10-22",
+        "extent": "王羲之節題起至許邁節題前；含凝之、徽之、楨之、操之、獻之附敘及全引文，47原段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，來源歸屬保留；數位轉錄依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "raw_file_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "raw_file": "sources/witnesses/jin080-ws2603570.wikitext",
+        "raw_path": "sources/witnesses/jin080-ws2603570.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "有限展開引語/YL/連結顯示字與-{幹}-顯示字；完整原碼點逐一可見/排除分類，非校改異字。"
         }
       }
     }

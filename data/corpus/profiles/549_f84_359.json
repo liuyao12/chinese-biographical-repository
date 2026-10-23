@@ -8,7 +8,65 @@
   "names": [
     "程咸"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin040-jiachong-family-holding_091",
+      "person_id": "549_f84_359",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p015",
+          "quote": "王浚之克武昌也，充遣使表曰：「呉未可悉定，方夏，江淮下濕，疾疫必起，宜召諸軍，以爲後圖。雖腰斬張華，不足以謝天下。」華豫平呉之策，故充以爲言。中書監荀勖奏，宜如充表。帝不從。杜預聞充有奏，馳表固爭，言平在旦夕。使及至轘轅，而孫皓已降。呉平，軍罷。帝遣侍中程咸犒勞，賜充帛八千匹，增邑八千戸；分封從孫暢新城亭侯，蓋安陽亭侯；弟陽裏亭侯混、從孫關內侯眾增戸邑。充本無南伐之謀，固諫不見用。及師出而呉平，大慚懼，議欲請罪。帝聞充當詣闕，豫幸東堂以待之。罷節鉞、僚佐，仍假鼓吹、麾幢。充與群臣上告成之禮，請有司具其事。帝謙讓不許。",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p015:m0127"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整收到段落的明示受任者／原詞；未知年月、任終、生年與未名人物不補。",
+      "title": "侍中",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "fixed_complete_family_career",
+        "slot": "holding_091",
+        "paragraph_id": "c-jinshu-040-jiachong-family:p015",
+        "source_revision": 2606035,
+        "paragraph_sha256": "59feee693d6808d7e8d5b161a6dbabae58091e51007eb3005d9e6fe9311c1706",
+        "person_mention_id": "c-jinshu-040-jiachong-family:p015:m0127"
+      },
+      "attestations": [
+        {
+          "id": "th-jin040-jiachong-family-holding_091:a001",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p015",
+          "start": 125,
+          "end": 127,
+          "surface": "侍中",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p015:m0127",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -44,6 +102,41 @@
       "book_id": "b-jinshu-039",
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "source_id": "s-jinshu-039-wangxun-feng",
+      "work_title": "晉書"
+    },
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p015",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "奏，馳表固爭，言平在旦夕。使及至轘轅，而孫皓已降。呉平，軍罷。帝遣侍中程咸犒勞，賜充帛八千匹，增邑八千戸；分封從孫暢新城亭侯，蓋安陽亭侯；弟陽裏亭侯混、從孫關內侯眾增戸邑。充本無南伐之謀，固諫不見用。及師出而呉平，大慚懼，議欲請罪。帝聞充當詣闕，豫幸東堂以待之。罷節鉞、僚佐",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p015"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p015:m0127"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p015:m0127": "c-jinshu-040-jiachong-family:p015"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p015:m0127",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p015:m0127",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p015:m0127"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
       "work_title": "晉書"
     }
   ],
@@ -11906,6 +11999,35 @@
         "wikitext_sha256": "93fdc36293b084a3693b073808ba92095e730973f8e4c5b2b4dd19fb1e9cea4c",
         "edition": "維基文庫數位轉錄，底本影像未核"
       }
+    },
+    {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
+        }
+      }
     }
   ],
   "relations": [],
@@ -11913,7 +12035,37 @@
     "549_f84_359": "程咸"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-jin040-jiachong-035",
+      "person_id": "549_f84_359",
+      "surname": "程",
+      "ming": "咸",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p015",
+      "person_mention_id": "c-jinshu-040-jiachong-family:p015:m0127",
+      "quote": "王浚之克武昌也，充遣使表曰：「呉未可悉定，方夏，江淮下濕，疾疫必起，宜召諸軍，以爲後圖。雖腰斬張華，不足以謝天下。」華豫平呉之策，故充以爲言。中書監荀勖奏，宜如充表。帝不從。杜預聞充有奏，馳表固爭，言平在旦夕。使及至轘轅，而孫皓已降。呉平，軍罷。帝遣侍中程咸犒勞，賜充帛八千匹，增邑八千戸；分封從孫暢新城亭侯，蓋安陽亭侯；弟陽裏亭侯混、從孫關內侯眾增戸邑。充本無南伐之謀，固諫不見用。及師出而呉平，大慚懼，議欲請罪。帝聞充當詣闕，豫幸東堂以待之。罷節鉞、僚佐，仍假鼓吹、麾幢。充與群臣上告成之禮，請有司具其事。帝謙讓不許。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源所見稱名；按中古姓氏用法分讀，保原字及逐名錨，不作全庫權威選字。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2606035,
+        "paragraph_sha256": "59feee693d6808d7e8d5b161a6dbabae58091e51007eb3005d9e6fe9311c1706",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-040-jiachong-family:p015:m0127",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    }
+  ],
   "person_ids": [
     "549_f84_359"
   ],

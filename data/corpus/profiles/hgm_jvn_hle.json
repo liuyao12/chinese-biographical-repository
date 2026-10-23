@@ -19,9 +19,129 @@
     "晉王",
     "相王",
     "武",
-    "武皇"
+    "武皇",
+    "太子",
+    "吾",
+    "汝"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin040-jiachong-family-holding_254",
+      "person_id": "hgm_jvn_hle",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p005",
+          "quote": "充有刀筆才，能觀察上旨。初，文帝以景帝恢贊王業，方傳位於舞陽侯攸。充稱武帝寬仁，且又居長，有人君之德，宜奉社稷。及文帝寢疾，武帝請問後事。文帝曰：「知汝者賈公閭也。」帝襲王位，拜充晉國衞將軍、儀同三司、給事中，改封臨潁侯。及受禪，充以建明大命，轉車騎將軍、散騎常侍、尚書僕射，更封魯郡公，母柳氏爲魯國太夫人。",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p005:m0035"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整收到段落的明示受任者／原詞；未知年月、任終、生年與未名人物不補。",
+      "title": "武帝",
+      "kind": "imperial_rank",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "fixed_complete_family_career",
+        "slot": "holding_254",
+        "paragraph_id": "c-jinshu-040-jiachong-family:p005",
+        "source_revision": 2606035,
+        "paragraph_sha256": "2ca820d3d61ffe3eff290b710c3c4ed45d7b6df2c3665d7f5758e8ab6b96079f",
+        "person_mention_id": "c-jinshu-040-jiachong-family:p005:m0035"
+      },
+      "attestations": [
+        {
+          "id": "th-jin040-jiachong-family-holding_254:a001",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p005",
+          "start": 35,
+          "end": 37,
+          "surface": "武帝",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p005:m0035",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-jin093-yangxiu-wudi-fujun",
+      "person_id": "hgm_jvn_hle",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-093",
+          "source_id": "s-jinshu-093-ws1548000-yangxiu",
+          "chapter_id": "c-jinshu-093-yangxiu",
+          "paragraph_id": "c-jinshu-093-yangxiu:p001",
+          "quote": "羊琇，字稚舒，景獻皇后之從父弟也。父耽，官至太常。兄瑾，尚書右僕射。琇少舉郡計，參鎮西鐘會軍事，從平蜀。及會謀反，琇正言苦諫，還，賜爵關內侯。琇涉學有智算，少與武帝通門，甚相親狎，每接筵同席，嘗謂帝曰：「若富貴見用，任領護各十年。」帝戲而許之。初，帝未立為太子，而聲論不及弟攸，文帝素意重攸，恆有代宗之議。琇密為武帝畫策，甚有匡救。又觀察文帝為政損益，揆度應所顧問之事，皆令武帝默而識之。其後文帝與武帝論當世之務及人間可否，武帝答無不允，由是儲位遂定。及帝為撫軍，命琇參軍事。帝即王位後，擢琇為左衛將軍，封甘露亭侯。帝踐阼，累遷中護軍，加散騎常侍。琇在職十三年，典禁兵，豫機密，寵遇甚厚。",
+          "person_mention_id": "c-jinshu-093-yangxiu:p001:m0025"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "及帝為撫軍的帝是武帝，撫軍屬他，不是羊琇。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin093-yangxiu",
+        "slot": "wudi-fujun"
+      },
+      "title": "撫軍",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin093-yangxiu",
+        "slot": "wudi-fujun"
+      },
+      "attestations": [
+        {
+          "id": "th-jin093-yangxiu-wudi-fujun:a001",
+          "paragraph_id": "c-jinshu-093-yangxiu:p001",
+          "start": 229,
+          "end": 231,
+          "surface": "撫軍",
+          "person_mention_id": "c-jinshu-093-yangxiu:p001:m0025",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -765,6 +885,342 @@
       "work_title": "晉書"
     },
     {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p005",
+      "count": 33,
+      "raw_count": 33,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "充有刀筆才，能觀察上旨。初，文帝以景帝恢贊王業，方傳位於舞陽侯攸。充稱武帝寬仁，且又居長，有人君之德，宜奉社稷。及文帝寢疾，武帝請問後事。文帝曰：「知汝者賈公閭也。」帝襲王位，拜充晉國衞將軍、儀同三司、給事中，改封臨潁侯。及受禪，充以建明大命，轉車騎將軍、散騎常侍、尚書僕射",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p005",
+        "c-jinshu-040-jiachong-family:p006",
+        "c-jinshu-040-jiachong-family:p008",
+        "c-jinshu-040-jiachong-family:p009",
+        "c-jinshu-040-jiachong-family:p010",
+        "c-jinshu-040-jiachong-family:p011",
+        "c-jinshu-040-jiachong-family:p012",
+        "c-jinshu-040-jiachong-family:p013",
+        "c-jinshu-040-jiachong-family:p014",
+        "c-jinshu-040-jiachong-family:p015",
+        "c-jinshu-040-jiachong-family:p016",
+        "c-jinshu-040-jiachong-family:p017",
+        "c-jinshu-040-jiachong-family:p018",
+        "c-jinshu-040-jiachong-family:p019"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p005:m0035",
+        "c-jinshu-040-jiachong-family:p005:m0062",
+        "c-jinshu-040-jiachong-family:p005:m0075",
+        "c-jinshu-040-jiachong-family:p005:m0083",
+        "c-jinshu-040-jiachong-family:p006:m0191",
+        "c-jinshu-040-jiachong-family:p008:m0014",
+        "c-jinshu-040-jiachong-family:p008:m0048",
+        "c-jinshu-040-jiachong-family:p008:m0088",
+        "c-jinshu-040-jiachong-family:p009:m0042",
+        "c-jinshu-040-jiachong-family:p009:m0231",
+        "c-jinshu-040-jiachong-family:p010:m0153",
+        "c-jinshu-040-jiachong-family:p010:m0204",
+        "c-jinshu-040-jiachong-family:p011:m0015",
+        "c-jinshu-040-jiachong-family:p012:m0001",
+        "c-jinshu-040-jiachong-family:p012:m0030",
+        "c-jinshu-040-jiachong-family:p012:m0076",
+        "c-jinshu-040-jiachong-family:p013:m0128",
+        "c-jinshu-040-jiachong-family:p014:m0149",
+        "c-jinshu-040-jiachong-family:p015:m0083",
+        "c-jinshu-040-jiachong-family:p015:m0123",
+        "c-jinshu-040-jiachong-family:p015:m0208",
+        "c-jinshu-040-jiachong-family:p015:m0255",
+        "c-jinshu-040-jiachong-family:p016:m0010",
+        "c-jinshu-040-jiachong-family:p016:m0058",
+        "c-jinshu-040-jiachong-family:p017:m0215",
+        "c-jinshu-040-jiachong-family:p017:m0335",
+        "c-jinshu-040-jiachong-family:p017:m0424",
+        "c-jinshu-040-jiachong-family:p017:m0441",
+        "c-jinshu-040-jiachong-family:p018:m0056",
+        "c-jinshu-040-jiachong-family:p018:m0068",
+        "c-jinshu-040-jiachong-family:p018:m0172",
+        "c-jinshu-040-jiachong-family:p018:m0339",
+        "c-jinshu-040-jiachong-family:p019:m0211"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p005:m0035": "c-jinshu-040-jiachong-family:p005",
+        "c-jinshu-040-jiachong-family:p005:m0062": "c-jinshu-040-jiachong-family:p005",
+        "c-jinshu-040-jiachong-family:p005:m0075": "c-jinshu-040-jiachong-family:p005",
+        "c-jinshu-040-jiachong-family:p005:m0083": "c-jinshu-040-jiachong-family:p005",
+        "c-jinshu-040-jiachong-family:p006:m0191": "c-jinshu-040-jiachong-family:p006",
+        "c-jinshu-040-jiachong-family:p008:m0014": "c-jinshu-040-jiachong-family:p008",
+        "c-jinshu-040-jiachong-family:p008:m0048": "c-jinshu-040-jiachong-family:p008",
+        "c-jinshu-040-jiachong-family:p008:m0088": "c-jinshu-040-jiachong-family:p008",
+        "c-jinshu-040-jiachong-family:p009:m0042": "c-jinshu-040-jiachong-family:p009",
+        "c-jinshu-040-jiachong-family:p009:m0231": "c-jinshu-040-jiachong-family:p009",
+        "c-jinshu-040-jiachong-family:p010:m0153": "c-jinshu-040-jiachong-family:p010",
+        "c-jinshu-040-jiachong-family:p010:m0204": "c-jinshu-040-jiachong-family:p010",
+        "c-jinshu-040-jiachong-family:p011:m0015": "c-jinshu-040-jiachong-family:p011",
+        "c-jinshu-040-jiachong-family:p012:m0001": "c-jinshu-040-jiachong-family:p012",
+        "c-jinshu-040-jiachong-family:p012:m0030": "c-jinshu-040-jiachong-family:p012",
+        "c-jinshu-040-jiachong-family:p012:m0076": "c-jinshu-040-jiachong-family:p012",
+        "c-jinshu-040-jiachong-family:p013:m0128": "c-jinshu-040-jiachong-family:p013",
+        "c-jinshu-040-jiachong-family:p014:m0149": "c-jinshu-040-jiachong-family:p014",
+        "c-jinshu-040-jiachong-family:p015:m0083": "c-jinshu-040-jiachong-family:p015",
+        "c-jinshu-040-jiachong-family:p015:m0123": "c-jinshu-040-jiachong-family:p015",
+        "c-jinshu-040-jiachong-family:p015:m0208": "c-jinshu-040-jiachong-family:p015",
+        "c-jinshu-040-jiachong-family:p015:m0255": "c-jinshu-040-jiachong-family:p015",
+        "c-jinshu-040-jiachong-family:p016:m0010": "c-jinshu-040-jiachong-family:p016",
+        "c-jinshu-040-jiachong-family:p016:m0058": "c-jinshu-040-jiachong-family:p016",
+        "c-jinshu-040-jiachong-family:p017:m0215": "c-jinshu-040-jiachong-family:p017",
+        "c-jinshu-040-jiachong-family:p017:m0335": "c-jinshu-040-jiachong-family:p017",
+        "c-jinshu-040-jiachong-family:p017:m0424": "c-jinshu-040-jiachong-family:p017",
+        "c-jinshu-040-jiachong-family:p017:m0441": "c-jinshu-040-jiachong-family:p017",
+        "c-jinshu-040-jiachong-family:p018:m0056": "c-jinshu-040-jiachong-family:p018",
+        "c-jinshu-040-jiachong-family:p018:m0068": "c-jinshu-040-jiachong-family:p018",
+        "c-jinshu-040-jiachong-family:p018:m0172": "c-jinshu-040-jiachong-family:p018",
+        "c-jinshu-040-jiachong-family:p018:m0339": "c-jinshu-040-jiachong-family:p018",
+        "c-jinshu-040-jiachong-family:p019:m0211": "c-jinshu-040-jiachong-family:p019"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p005:m0035",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p005:m0035",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p005:m0035"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p005:m0062",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p005:m0062"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p005:m0075",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p005:m0075"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p005:m0083",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p005:m0083"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p006:m0191",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p006:m0191"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p008:m0014",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p008:m0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p008:m0048",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p008:m0048"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p008:m0088",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p008:m0088"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p009:m0042",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p009:m0042"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p009:m0231",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p009:m0231"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p010:m0153",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p010:m0153"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p010:m0204",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p010:m0204"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p011:m0015",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p011:m0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p012:m0001",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p012:m0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p012:m0030",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p012:m0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p012:m0076",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p012:m0076"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p013:m0128",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p013:m0128"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p014:m0149",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p014:m0149"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p015:m0083",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p015:m0083"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p015:m0123",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p015:m0123"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p015:m0208",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p015:m0208"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p015:m0255",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p015:m0255"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p016:m0010",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p016:m0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p016:m0058",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p016:m0058"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p017:m0215",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p017:m0215"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p017:m0335",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p017:m0335"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p017:m0424",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p017:m0424"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p017:m0441",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p017:m0441"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p018:m0056",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p018:m0056"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p018:m0068",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p018:m0068"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p018:m0172",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p018:m0172"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p018:m0339",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p018:m0339"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p019:m0211",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p019:m0211"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "work_title": "晉書"
+    },
+    {
       "number": 42,
       "category": "",
       "title": "王渾、王濟完整敘事單元",
@@ -1066,6 +1522,303 @@
       "book_id": "b-jinshu-042",
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "source_id": "s-jinshu-042-taiyuan-wang",
+      "work_title": "晉書"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "山濤傳",
+      "paragraph_id": "c-jinshu-043-shantao:p005",
+      "count": 29,
+      "raw_count": 29,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "咸熙初，封新遝子。轉相國左長史，典統別營。時帝以濤鄉閭宿望，命太子拜之。帝以齊王攸繼景帝后，素又重攸，嘗問裴秀曰：「大將軍開建未遂，吾但承奉後事耳。故立攸，將歸功於兄，何如？」秀以為不可，又以問濤。濤對曰：「廢長立少，違禮不祥。國之安危，恆必由之。」太子位於是乃定。",
+      "paragraph_ids": [
+        "c-jinshu-043-shantao:p005",
+        "c-jinshu-043-shantao:p006",
+        "c-jinshu-043-shantao:p008",
+        "c-jinshu-043-shantao:p009",
+        "c-jinshu-043-shantao:p010",
+        "c-jinshu-043-shantao:p011",
+        "c-jinshu-043-shantao:p012",
+        "c-jinshu-043-shantao:p013",
+        "c-jinshu-043-shantao:p016",
+        "c-jinshu-043-shantao:p018",
+        "c-jinshu-043-shantao:p021"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-shantao:p005:m0031",
+        "c-jinshu-043-shantao:p005:m0125",
+        "c-jinshu-043-shantao:p005:m0133",
+        "c-jinshu-043-shantao:p005:m0141",
+        "c-jinshu-043-shantao:p006:m0168",
+        "c-jinshu-043-shantao:p008:m0060",
+        "c-jinshu-043-shantao:p008:m0118",
+        "c-jinshu-043-shantao:p008:m0151",
+        "c-jinshu-043-shantao:p009:m0033",
+        "c-jinshu-043-shantao:p009:m0041",
+        "c-jinshu-043-shantao:p009:m0067",
+        "c-jinshu-043-shantao:p009:m0070",
+        "c-jinshu-043-shantao:p010:m0024",
+        "c-jinshu-043-shantao:p010:m0113",
+        "c-jinshu-043-shantao:p010:m0212",
+        "c-jinshu-043-shantao:p011:m0053",
+        "c-jinshu-043-shantao:p011:m0076",
+        "c-jinshu-043-shantao:p011:m0112",
+        "c-jinshu-043-shantao:p012:m0005",
+        "c-jinshu-043-shantao:p012:m0039",
+        "c-jinshu-043-shantao:p012:m0101",
+        "c-jinshu-043-shantao:p013:m0060",
+        "c-jinshu-043-shantao:p013:m0088",
+        "c-jinshu-043-shantao:p013:m0127",
+        "c-jinshu-043-shantao:p013:m0160",
+        "c-jinshu-043-shantao:p013:m0345",
+        "c-jinshu-043-shantao:p016:m0009",
+        "c-jinshu-043-shantao:p018:m0034",
+        "c-jinshu-043-shantao:p021:m0204"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-shantao:p005:m0031": "c-jinshu-043-shantao:p005",
+        "c-jinshu-043-shantao:p005:m0125": "c-jinshu-043-shantao:p005",
+        "c-jinshu-043-shantao:p005:m0133": "c-jinshu-043-shantao:p005",
+        "c-jinshu-043-shantao:p005:m0141": "c-jinshu-043-shantao:p005",
+        "c-jinshu-043-shantao:p006:m0168": "c-jinshu-043-shantao:p006",
+        "c-jinshu-043-shantao:p008:m0060": "c-jinshu-043-shantao:p008",
+        "c-jinshu-043-shantao:p008:m0118": "c-jinshu-043-shantao:p008",
+        "c-jinshu-043-shantao:p008:m0151": "c-jinshu-043-shantao:p008",
+        "c-jinshu-043-shantao:p009:m0033": "c-jinshu-043-shantao:p009",
+        "c-jinshu-043-shantao:p009:m0041": "c-jinshu-043-shantao:p009",
+        "c-jinshu-043-shantao:p009:m0067": "c-jinshu-043-shantao:p009",
+        "c-jinshu-043-shantao:p009:m0070": "c-jinshu-043-shantao:p009",
+        "c-jinshu-043-shantao:p010:m0024": "c-jinshu-043-shantao:p010",
+        "c-jinshu-043-shantao:p010:m0113": "c-jinshu-043-shantao:p010",
+        "c-jinshu-043-shantao:p010:m0212": "c-jinshu-043-shantao:p010",
+        "c-jinshu-043-shantao:p011:m0053": "c-jinshu-043-shantao:p011",
+        "c-jinshu-043-shantao:p011:m0076": "c-jinshu-043-shantao:p011",
+        "c-jinshu-043-shantao:p011:m0112": "c-jinshu-043-shantao:p011",
+        "c-jinshu-043-shantao:p012:m0005": "c-jinshu-043-shantao:p012",
+        "c-jinshu-043-shantao:p012:m0039": "c-jinshu-043-shantao:p012",
+        "c-jinshu-043-shantao:p012:m0101": "c-jinshu-043-shantao:p012",
+        "c-jinshu-043-shantao:p013:m0060": "c-jinshu-043-shantao:p013",
+        "c-jinshu-043-shantao:p013:m0088": "c-jinshu-043-shantao:p013",
+        "c-jinshu-043-shantao:p013:m0127": "c-jinshu-043-shantao:p013",
+        "c-jinshu-043-shantao:p013:m0160": "c-jinshu-043-shantao:p013",
+        "c-jinshu-043-shantao:p013:m0345": "c-jinshu-043-shantao:p013",
+        "c-jinshu-043-shantao:p016:m0009": "c-jinshu-043-shantao:p016",
+        "c-jinshu-043-shantao:p018:m0034": "c-jinshu-043-shantao:p018",
+        "c-jinshu-043-shantao:p021:m0204": "c-jinshu-043-shantao:p021"
+      },
+      "mention_id": "c-jinshu-043-shantao:p005:m0031",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p005:m0031",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p005:m0031"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p005:m0125",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p005:m0125"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p005:m0133",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p005:m0133"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p005:m0141",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p005:m0141"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p006:m0168",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p006:m0168"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p008:m0060",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p008:m0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p008:m0118",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p008:m0118"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p008:m0151",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p008:m0151"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p009:m0033",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p009:m0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p009:m0041",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p009:m0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p009:m0067",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p009:m0067"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p009:m0070",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p009:m0070"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p010:m0024",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p010:m0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p010:m0113",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p010:m0113"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p010:m0212",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p010:m0212"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p011:m0053",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p011:m0053"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p011:m0076",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p011:m0076"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p011:m0112",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p011:m0112"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p012:m0005",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p012:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p012:m0039",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p012:m0039"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p012:m0101",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p012:m0101"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p013:m0060",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p013:m0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p013:m0088",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p013:m0088"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p013:m0127",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p013:m0127"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p013:m0160",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p013:m0160"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p013:m0345",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p013:m0345"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p016:m0009",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p016:m0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p018:m0034",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p018:m0034"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p021:m0204",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p021:m0204"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-shantao",
+      "source_id": "s-jinshu-043-ws2618531-shantao",
       "work_title": "晉書"
     },
     {
@@ -1719,6 +2472,168 @@
       "book_id": "b-jinshu-093",
       "chapter_id": "c-jinshu-093-chupou",
       "source_id": "s-jinshu-093-chupou",
+      "work_title": "晉書"
+    },
+    {
+      "number": 93,
+      "category": "",
+      "title": "羊琇傳",
+      "paragraph_id": "c-jinshu-093-yangxiu:p001",
+      "count": 15,
+      "raw_count": 15,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "軍事，從平蜀。及會謀反，琇正言苦諫，還，賜爵關內侯。琇涉學有智算，少與武帝通門，甚相親狎，每接筵同席，嘗謂帝曰：「若富貴見用，任領護各十年。」帝戲而許之。初，帝未立為太子，而聲論不及弟攸，文帝素意重攸，恆有代宗之議。琇密為武帝畫策，甚有匡救。又觀察文帝為政損益，揆度應所顧問",
+      "paragraph_ids": [
+        "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-093-yangxiu:p001:m0011",
+        "c-jinshu-093-yangxiu:p001:m0012",
+        "c-jinshu-093-yangxiu:p001:m0013",
+        "c-jinshu-093-yangxiu:p001:m0014",
+        "c-jinshu-093-yangxiu:p001:m0019",
+        "c-jinshu-093-yangxiu:p001:m0021",
+        "c-jinshu-093-yangxiu:p001:m0023",
+        "c-jinshu-093-yangxiu:p001:m0024",
+        "c-jinshu-093-yangxiu:p001:m0025",
+        "c-jinshu-093-yangxiu:p001:m0027",
+        "c-jinshu-093-yangxiu:p001:m0029",
+        "c-jinshu-093-yangxiu:p003:m0003",
+        "c-jinshu-093-yangxiu:p003:m0006",
+        "c-jinshu-093-yangxiu:p003:m0008",
+        "c-jinshu-093-yangxiu:p003:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-093-yangxiu:p001:m0011": "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p001:m0012": "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p001:m0013": "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p001:m0014": "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p001:m0019": "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p001:m0021": "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p001:m0023": "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p001:m0024": "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p001:m0025": "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p001:m0027": "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p001:m0029": "c-jinshu-093-yangxiu:p001",
+        "c-jinshu-093-yangxiu:p003:m0003": "c-jinshu-093-yangxiu:p003",
+        "c-jinshu-093-yangxiu:p003:m0006": "c-jinshu-093-yangxiu:p003",
+        "c-jinshu-093-yangxiu:p003:m0008": "c-jinshu-093-yangxiu:p003",
+        "c-jinshu-093-yangxiu:p003:m0009": "c-jinshu-093-yangxiu:p003"
+      },
+      "mention_id": "c-jinshu-093-yangxiu:p001:m0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p001:m0011",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p001:m0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p001:m0012",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p001:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p001:m0013",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p001:m0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p001:m0014",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p001:m0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p001:m0019",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p001:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p001:m0021",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p001:m0021"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p001:m0023",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p001:m0023"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p001:m0024",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p001:m0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p001:m0025",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p001:m0025"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p001:m0027",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p001:m0027"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p001:m0029",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p001:m0029"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p003:m0003",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p003:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p003:m0006",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p003:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p003:m0008",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p003:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p003:m0009",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p003:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-093",
+      "chapter_id": "c-jinshu-093-yangxiu",
+      "source_id": "s-jinshu-093-ws1548000-yangxiu",
       "work_title": "晉書"
     }
   ],
@@ -13871,6 +14786,35 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-042",
@@ -14256,6 +15200,35 @@
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-043-shantao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-shantao",
+      "source": {
+        "title": "《晉書》卷四十三山濤完整本傳及簡、遐附傳與史論（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-22",
+        "extent": "山濤至王戎節題前完整單元，含子簡、簡子遐附傳及史臣論；25原段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；來源歸屬保留，數位轉錄依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白/節題標記、展開YL模板及兩個wiki連結的顯示文字；未依連結target推全題，原字不校改。"
+        }
       }
     },
     {
@@ -16341,6 +17314,35 @@
               "end_anchor": "安，以學行知名，歷散騎常侍、秘書監。"
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-093-yangxiu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-093",
+      "source_id": "s-jinshu-093-ws1548000-yangxiu",
+      "source": {
+        "title": "《晉書》卷九十三羊琇完整本傳（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷093&oldid=1548000",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷093&oldid=1548000",
+        "revision_id": 1548000,
+        "accessed_on": "2026-10-22",
+        "extent": "羊琇完整三原段，從羊琇節題至緊鄰王恂節題之前；非卷九十三全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬，數位轉錄依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "8fc7f8b8a8a5a33a18c016006082a49f92e418f8fba965e1068b3e4e2016ff7e",
+        "raw_file": "sources/witnesses/jin093-ws1548000.wikitext",
+        "raw_path": "sources/witnesses/jin093-ws1548000.wikitext",
+        "raw_file_sha256": "8fc7f8b8a8a5a33a18c016006082a49f92e418f8fba965e1068b3e4e2016ff7e",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白及展開YL；正文無改字。轉錄實際底本及最早現存版本未明，未圖校。"
         }
       }
     },
@@ -28764,6 +29766,84 @@
   ],
   "relations": [
     {
+      "id": "a-jin040-jiachong-family-040",
+      "subject_person_id": "hgm_jvn_hle",
+      "predicate": "maternal_uncle",
+      "object_person_id": "4ad_c48_dfd",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "named_emperor_maternal_uncle",
+          "roles": {
+            "child": "c-jinshu-040-jiachong-family:p008:m0088",
+            "uncle": "c-jinshu-040-jiachong-family:p008:m0090"
+          },
+          "clause_start": 88,
+          "clause_end": 94,
+          "paragraph_sha256": "f35bd61a7530d320a8a59c90b99cc3df420078d83439fa8bd5e64fb03cc0db77",
+          "revision_id": 2606035
+        },
+        "source_term": "舅",
+        "lineage": "maternal",
+        "generation_difference": -1
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p008",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "充爲政，務農節用，並官省職，帝善之，又以文武異容，求罷所領兵。及羊祜等出鎮，充復上表欲立勳邊境，帝並不許。從容任職，褒貶在已，頗好進士，每有所薦達，必終始經緯之，是以士多歸焉。帝舅王恂嘗毀充，而充更進恂。或有背充以要權貴者，充皆陽以素意待之。而充無公方之操，不能正身率下，專以諂媚取容。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p008:m0088",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p008:m0090"
+        }
+      ],
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin040-jiachong-family-045",
+      "subject_person_id": "hgm_jvn_hle",
+      "predicate": "maternal_uncle",
+      "object_person_id": "9wq_e2k_hf4",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "two_granddaughters_marital_context",
+          "roles": {
+            "son": "c-jinshu-040-jiachong-family:p018:m0167",
+            "mother": "c-jinshu-040-jiachong-family:p018:m0169",
+            "emperor": "c-jinshu-040-jiachong-family:p018:m0172",
+            "husband": "c-jinshu-040-jiachong-family:p018:m0177",
+            "wife": "c-jinshu-040-jiachong-family:p018:m0179",
+            "grandfather": "c-jinshu-040-jiachong-family:p018:m0183"
+          },
+          "clause_start": 164,
+          "clause_end": 189,
+          "paragraph_sha256": "12a1e61217d5ef6fd9af40f11b04492412744f8c088218e28ceaeee7ad92fe4c",
+          "revision_id": 2606035
+        },
+        "source_term": "舅",
+        "lineage": "maternal",
+        "generation_difference": -1
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p018",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "初，充前妻李氏淑美有才行，生二女褒、裕，褒一名荃，裕一名浚。父豐誅，李氏坐流徙。後娶城陽太守郭配女，即廣城君也。武帝踐阼，李以大赦得還，帝特詔充置左右夫人，充母亦敕充迎李氏。郭槐怒，攘袂數充曰：「刊定律令，爲佐命之功，我有其分。李那得與我並！」充乃答詔，托以謙沖，不敢當兩夫人盛禮，實畏槐也。而荃爲齊王攸妃，欲令充遣郭而還其母。時沛國劉含母，及帝舅羽林監王虔前妻，皆毌丘儉孫女。此例既多，質之禮官，俱不能決。雖不遣後妻，多異居私通。充自以宰相爲海內準則，乃爲李築室於永年里而不往來。荃、浚每號泣請充，充竟不往。會充當鎮關右，公卿供帳祖道，荃、浚懼充遂去，乃排幔出於坐中，叩頭流血，向充及群僚陳母應還之意。眾以荃王妃，皆驚起而散。充甚愧愕，遣黃門將宮人扶去。既而郭槐女爲皇太子妃，帝乃下詔斷如李比皆不得還，後荃恚憤而薨。初，槐欲省李氏，充曰：「彼有才氣，卿往不如不往。」及女爲妃，槐乃盛威儀而去。既入戸，李氏出迎，槐不覺腳屈，因遂再拜。自是充每出行，槐輒使人尋之，恐其過李也。初，充母柳見古今重節義，竟不知充與成濟事，以濟不忠，數追罵之。侍者聞之，無不竊笑。及將亡，充問所欲言，柳曰：「我教汝迎李新婦尚不肯，安問他事！」遂無言。及充薨後，李氏二女乃欲令其母祔葬，賈后弗之許也。及后廢，李氏乃得合葬。李氏作《女訓》行於世。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0172",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0177"
+        }
+      ],
+      "human_reviewed": false
+    },
+    {
       "id": "a-jin059-yi-direct-001",
       "subject_person_id": "4c6_984_9ed",
       "predicate": "father",
@@ -28812,15 +29892,140 @@
     }
   ],
   "related_people": {
+    "4ad_c48_dfd": "王恂",
     "4c6_984_9ed": "乂（長沙王）",
+    "9wq_e2k_hf4": "王虔",
     "hgm_jvn_hle": "晉武帝"
   },
   "dates": [],
   "name_components": [],
+  "source_details": [
+    {
+      "id": "bd-jin093-yangxiu-succession-context",
+      "person_id": "hgm_jvn_hle",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-093",
+          "source_id": "s-jinshu-093-ws1548000-yangxiu",
+          "chapter_id": "c-jinshu-093-yangxiu",
+          "paragraph_id": "c-jinshu-093-yangxiu:p001",
+          "quote": "羊琇，字稚舒，景獻皇后之從父弟也。父耽，官至太常。兄瑾，尚書右僕射。琇少舉郡計，參鎮西鐘會軍事，從平蜀。及會謀反，琇正言苦諫，還，賜爵關內侯。琇涉學有智算，少與武帝通門，甚相親狎，每接筵同席，嘗謂帝曰：「若富貴見用，任領護各十年。」帝戲而許之。初，帝未立為太子，而聲論不及弟攸，文帝素意重攸，恆有代宗之議。琇密為武帝畫策，甚有匡救。又觀察文帝為政損益，揆度應所顧問之事，皆令武帝默而識之。其後文帝與武帝論當世之務及人間可否，武帝答無不允，由是儲位遂定。及帝為撫軍，命琇參軍事。帝即王位後，擢琇為左衛將軍，封甘露亭侯。帝踐阼，累遷中護軍，加散騎常侍。琇在職十三年，典禁兵，豫機密，寵遇甚厚。",
+          "person_mention_id": "c-jinshu-093-yangxiu:p001:m0019"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "文帝重攸、武帝應答後儲位遂定；只存此具體擇嗣結局，不當羊琇的爵位或補即位年/歲數。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin093-yangxiu",
+        "slot": "succession-context"
+      },
+      "kind": "succession_deliberation",
+      "source_term": "由是儲位遂定",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-093-yangxiu:p001",
+        "start": 219,
+        "end": 225,
+        "surface": "由是儲位遂定"
+      },
+      "date_expression": null,
+      "source_revision": 1548000,
+      "paragraph_sha256": "613f8028248a26f8c7c97ea084edf30d4d2e9ee97a832cf0f79d1146cb22f971",
+      "values": {
+        "event_code": "crown_prince_selection_settled",
+        "source_status_before": "未立為太子",
+        "competitor_person_id": "cac_ca2_008",
+        "grant_date": null,
+        "age_at_accession": null
+      }
+    }
+  ],
   "person_ids": [
     "hgm_jvn_hle"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin040-jiachong-family-040",
+      "subject_person_id": "hgm_jvn_hle",
+      "predicate": "maternal_uncle",
+      "object_person_id": "4ad_c48_dfd",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "named_emperor_maternal_uncle",
+          "roles": {
+            "child": "c-jinshu-040-jiachong-family:p008:m0088",
+            "uncle": "c-jinshu-040-jiachong-family:p008:m0090"
+          },
+          "clause_start": 88,
+          "clause_end": 94,
+          "paragraph_sha256": "f35bd61a7530d320a8a59c90b99cc3df420078d83439fa8bd5e64fb03cc0db77",
+          "revision_id": 2606035
+        },
+        "source_term": "舅",
+        "lineage": "maternal",
+        "generation_difference": -1
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p008",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "充爲政，務農節用，並官省職，帝善之，又以文武異容，求罷所領兵。及羊祜等出鎮，充復上表欲立勳邊境，帝並不許。從容任職，褒貶在已，頗好進士，每有所薦達，必終始經緯之，是以士多歸焉。帝舅王恂嘗毀充，而充更進恂。或有背充以要權貴者，充皆陽以素意待之。而充無公方之操，不能正身率下，專以諂媚取容。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p008:m0088",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p008:m0090"
+        }
+      ],
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin040-jiachong-family-045",
+      "subject_person_id": "hgm_jvn_hle",
+      "predicate": "maternal_uncle",
+      "object_person_id": "9wq_e2k_hf4",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "two_granddaughters_marital_context",
+          "roles": {
+            "son": "c-jinshu-040-jiachong-family:p018:m0167",
+            "mother": "c-jinshu-040-jiachong-family:p018:m0169",
+            "emperor": "c-jinshu-040-jiachong-family:p018:m0172",
+            "husband": "c-jinshu-040-jiachong-family:p018:m0177",
+            "wife": "c-jinshu-040-jiachong-family:p018:m0179",
+            "grandfather": "c-jinshu-040-jiachong-family:p018:m0183"
+          },
+          "clause_start": 164,
+          "clause_end": 189,
+          "paragraph_sha256": "12a1e61217d5ef6fd9af40f11b04492412744f8c088218e28ceaeee7ad92fe4c",
+          "revision_id": 2606035
+        },
+        "source_term": "舅",
+        "lineage": "maternal",
+        "generation_difference": -1
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p018",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "初，充前妻李氏淑美有才行，生二女褒、裕，褒一名荃，裕一名浚。父豐誅，李氏坐流徙。後娶城陽太守郭配女，即廣城君也。武帝踐阼，李以大赦得還，帝特詔充置左右夫人，充母亦敕充迎李氏。郭槐怒，攘袂數充曰：「刊定律令，爲佐命之功，我有其分。李那得與我並！」充乃答詔，托以謙沖，不敢當兩夫人盛禮，實畏槐也。而荃爲齊王攸妃，欲令充遣郭而還其母。時沛國劉含母，及帝舅羽林監王虔前妻，皆毌丘儉孫女。此例既多，質之禮官，俱不能決。雖不遣後妻，多異居私通。充自以宰相爲海內準則，乃爲李築室於永年里而不往來。荃、浚每號泣請充，充竟不往。會充當鎮關右，公卿供帳祖道，荃、浚懼充遂去，乃排幔出於坐中，叩頭流血，向充及群僚陳母應還之意。眾以荃王妃，皆驚起而散。充甚愧愕，遣黃門將宮人扶去。既而郭槐女爲皇太子妃，帝乃下詔斷如李比皆不得還，後荃恚憤而薨。初，槐欲省李氏，充曰：「彼有才氣，卿往不如不往。」及女爲妃，槐乃盛威儀而去。既入戸，李氏出迎，槐不覺腳屈，因遂再拜。自是充每出行，槐輒使人尋之，恐其過李也。初，充母柳見古今重節義，竟不知充與成濟事，以濟不忠，數追罵之。侍者聞之，無不竊笑。及將亡，充問所欲言，柳曰：「我教汝迎李新婦尚不肯，安問他事！」遂無言。及充薨後，李氏二女乃欲令其母祔葬，賈后弗之許也。及后廢，李氏乃得合葬。李氏作《女訓》行於世。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0172",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0177"
+        }
+      ],
+      "human_reviewed": false
+    },
     {
       "id": "a-jin059-yi-direct-001",
       "subject_person_id": "4c6_984_9ed",

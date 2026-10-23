@@ -2506,6 +2506,41 @@
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "source_id": "s-jinshu-039-wangxun-feng",
       "work_title": "晉書"
+    },
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "漢中，未至而會死。時軍國多事，朝廷機密，皆與籌之。帝甚信重充，與裴秀、王沈、羊祜、荀勖同受腹心之任。帝又命充定法律。假金章，賜甲第一區。五等初建，封臨沂侯，爲晉元勳，深見寵異，祿賜常優於群官。",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p004:m0063"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p004:m0063": "c-jinshu-040-jiachong-family:p004"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p004:m0063",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p004:m0063",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p004:m0063"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -14369,6 +14404,35 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-027-wangchang",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-027",
@@ -14698,6 +14762,35 @@
     }
   ],
   "name_components": [
+    {
+      "id": "nc-jin040-jiachong-009",
+      "person_id": "175_99c_b41_AA",
+      "surname": "王",
+      "ming": "沈",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p004",
+      "person_mention_id": "c-jinshu-040-jiachong-family:p004:m0063",
+      "quote": "鐘會謀反於蜀，帝假充節，以本官都督關中、隴右諸軍事，西據漢中，未至而會死。時軍國多事，朝廷機密，皆與籌之。帝甚信重充，與裴秀、王沈、羊祜、荀勖同受腹心之任。帝又命充定法律。假金章，賜甲第一區。五等初建，封臨沂侯，爲晉元勳，深見寵異，祿賜常優於群官。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源所見稱名；按中古姓氏用法分讀，保原字及逐名錨，不作全庫權威選字。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2606035,
+        "paragraph_sha256": "78f46ae8735b5e50b065d5d166d7c0211eeae797aff480f52389a4fea0971e37",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-040-jiachong-family:p004:m0063",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    },
     {
       "person_id": "175_99c_b41_AA",
       "title": null,

@@ -10,9 +10,27 @@ class WangSource(unittest.TestCase):
   self.assertEqual(len(self.review['decisions']),20)
   for row in self.review['decisions']:
    p,m=self.by[row['mention_id']];self.assertEqual(p['text'][row['start']:row['end']],row['surface']);self.assertEqual(m['kind'],'person');self.assertEqual(m['person_id'],row['selected_person_id']);reg=self.catalog[0][m['person_id']];self.assertTrue(any(e.get('mention_id')==m['id']for e in reg['evidence']));self.assertTrue(any(m['id']in a['mention_ids']and a['surface']==m['surface']for a in reg['aliases']))
- def test_no_new_family_title_life_or_name_component_claims(self):
+ def test_followup_adds_only_its_three_source_scoped_relations(self):
+  allowed={'a-sanguozhi027-wangchang-011','a-sanguozhi027-wangchang-012','a-sanguozhi027-wangchang-013'}
+  observed=set()
+  def from_this_chapter(record):
+   return any(e.get('chapter_id')==CID for e in record.get('evidence',[]))
   for pid in self.ids.values():
-   p=self.catalog[0][pid];self.assertNotIn('family_path',p);b=bundle(pid,root=R,catalog=self.catalog);self.assertTrue(all(r['id']in ['a-sanguozhi027-wangchang-011','a-sanguozhi027-wangchang-012','a-sanguozhi027-wangchang-013']for r in b['relations']));self.assertEqual(b['title_holdings'],[]);self.assertEqual(b['date_normalizations'],[])
+   b=bundle(pid,root=R,catalog=self.catalog)
+   local=[r for r in b['relations']if from_this_chapter(r)]
+   self.assertTrue(all(r['id']in allowed for r in local));observed.update(r['id']for r in local)
+   for field in ['title_holdings','date_normalizations']:
+    self.assertEqual([r for r in b[field]if from_this_chapter(r)],[])
+  self.assertEqual(observed,allowed)
+ def test_later_guojia_source_keeps_independent_family_and_office_evidence(self):
+  b=bundle(self.ids['guoyi'],root=R,catalog=self.catalog)
+  for rid in ['a-sgz014-guo-1','a-sgz014-guo-2']:
+   r=next(r for r in b['relations']if r['id']==rid)
+   self.assertEqual(r['predicate'],'father')
+   self.assertTrue(all(e['chapter_id']=='c-sanguozhi-014-guojia'for e in r['evidence']))
+  office=next(r for r in b['title_holdings']if r['id']=='th-sgz014-guo-yi-office')
+  self.assertEqual(office['title'],'太子文學')
+  self.assertTrue(all(e['chapter_id']=='c-sanguozhi-014-guojia'for e in office['evidence']))
  def test_source_local_shen_reuses_four_positions_but_not_foreign_homonyms(self):
   pids=[self.by[PREFIX+x][1]['person_id']for x in ['unit005:m0039','unit005:m0041','unit018:m0054','unit018:m0059']];self.assertEqual(set(pids),{self.ids['shen']});self.assertNotIn('7r6_k52_qji_ABAAAABA',pids);self.assertNotIn('b2a_88b_095',pids)
  def test_candidates_remain_unresolved_not_identity_equivalence(self):
@@ -26,5 +44,5 @@ class WangSource(unittest.TestCase):
  def test_complete_received_words_projections_work_marks_unchanged(self):
   capture=json.loads((R/'source-evidence/sanguozhi027-wangchang-identity-followup/complete-source-reading.json').read_text());self.assertEqual([(p['id'],p['text'],p['text_layer'],p['source_position'])for p in self.c['paragraphs']],[(p['id'],p['text'],p['text_layer'],p['source_position'])for p in capture['paragraphs']]);self.assertEqual(len(self.c['paragraphs']),20);self.assertEqual(sum(m['kind']=='work'for p in self.c['paragraphs']for m in p['mentions']),8)
  def test_new_wei_xumiao_not_eastern_jin_and_guo_groups_distinct(self):
-  self.assertNotEqual(self.ids['xumiao'],'1b7_36b_29b');self.assertNotEqual(self.ids['guoyi'],'64e_ce8_aba');ref=json.loads((R/'source-evidence/sanguozhi027-wangchang-identity-followup/parallel-reading.json').read_text());ss=next(x for x in ref['references']if x['path'].endswith('KR3l0002_002-c6c870d.txt'));reading=''.join(x['reading']for x in ss['layout_reconstruction']);self.assertIn('泰業太原陽曲人',reading);self.assertIn('剌史',reading);self.assertNotIn('大業',reading)
+  self.assertNotEqual(self.ids['xumiao'],'1b7_36b_29b');self.assertNotEqual(self.ids['guoyi'],'r02_hoi_pu7_ACA');ref=json.loads((R/'source-evidence/sanguozhi027-wangchang-identity-followup/parallel-reading.json').read_text());ss=next(x for x in ref['references']if x['path'].endswith('KR3l0002_002-c6c870d.txt'));reading=''.join(x['reading']for x in ss['layout_reconstruction']);self.assertIn('泰業太原陽曲人',reading);self.assertIn('剌史',reading);self.assertNotIn('大業',reading)
 if __name__=='__main__':unittest.main()

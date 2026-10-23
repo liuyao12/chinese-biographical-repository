@@ -159,6 +159,10 @@ def detail_valid(d,ch,holdings):
   return False
  except(KeyError,TypeError,ValueError,StopIteration,AssertionError):return False
 def address_valid(a,ch):
+ if a.get('source_address_binding',{}).get('kind')=='attached_received_biography_frame':
+  try:from scripts.attached_biography_frames import address_valid as attached_address_valid
+  except ImportError:from attached_biography_frames import address_valid as attached_address_valid
+  return attached_address_valid(a,ch)
  try:
   b=a['source_address_binding'];e,=a['evidence'];p=next(p for p in ch['paragraphs']if p['id']==e['paragraph_id']);t=p['text'];ms={m['id']:m for m in p['mentions']};rs={k:ms[v]for k,v in b['roles'].items()};scope=b['scope_anchor'];place=b['place_anchor'];subject=rs[b['subject_role']]
   assert b['kind']=='layered_biography_address'and b['source_revision']==ch['source']['revision_id']and b['paragraph_sha256']==hashlib.sha256(t.encode()).hexdigest()and exact(p,scope)and exact(p,place)and place['surface']==a['place']['source_name']and a['person_id']==subject['person_id']and e['person_mention_id']==subject['id']and e['quote']==t and e['chapter_id']==ch['id']and e['source_id']==ch['source_id']

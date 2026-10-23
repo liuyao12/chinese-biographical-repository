@@ -199,6 +199,10 @@ def parent_through_paternal_uncle_valid(member, rows, assertions, chapters):
 
 
 def explicit_maternal_uncle_valid(assertion, paragraphs):
+    if 'received_family_frame' in assertion.get('qualifiers', {}):
+        try:from scripts.punctuated_family_frames import valid
+        except ImportError:from punctuated_family_frames import valid
+        return valid(assertion, paragraphs)
     q = assertion.get('qualifiers', {})
     if (assertion.get('predicate') != 'maternal_uncle' or q.get('lineage') != 'maternal'
             or q.get('generation_difference') != -1 or q.get('mother_person_id') is not None

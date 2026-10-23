@@ -1146,4 +1146,15 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/106-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji106-005')['effective_period']['start']['normalized_date_range']['table_event'].update(source_revision='1'))
         self.assertIn('稱號平行紀年表格來源或固定修訂不符',v.validate(self.root))
 
+    def test_fixed_biography_explicit_name_cannot_bypass_native_source_guard(self):
+        # Explicit full names have no inferred-surname path; the native validator
+        # must still reject a given name that is absent from the fixed witness.
+        def change_explicit_name(record):
+            name = next(n for n in record['records']
+                        if n.get('fixed_biography_name_binding', {}).get('mode') == 'full_name'
+                        and not n.get('surname_basis'))
+            name['ming'] = '非原文姓名'
+        self.change('corpus/jinshu/040-jiachong-family-name-components.json', change_explicit_name)
+        self.assertIn('固定傳記姓名構件須綁原人物、原名與字詞及完整見證', v.validate(self.root))
+
 if __name__=='__main__':unittest.main()

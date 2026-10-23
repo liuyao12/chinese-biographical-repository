@@ -23,7 +23,8 @@
     "司空陳羣",
     "其父司空",
     "司空羣",
-    "公"
+    "公",
+    "陳公"
   ],
   "titles": [
     {
@@ -4954,6 +4955,79 @@
         ]
       },
       "period": "未定 → 未定"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "person_id": "9w8_tqh_ysn_AA",
+      "title": "司空",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-025",
+          "source_id": "s-sanguozhi-025-xinpi",
+          "chapter_id": "c-sanguozhi-025-xinpi",
+          "paragraph_id": "c-sanguozhi-025-xinpi:p004",
+          "quote": "魏畧曰諸葛亮圍祁山不克引退張郃追之為流矢所中死帝惜郃臨朝而歎曰蜀未平而郃死將若之何司空陳羣曰郃誠良將國所依也毗心以為郃雖可惜然已死不當内弱主意而示外以不大也乃持羣曰陳公是何言歟當建安之末天下不可一日無武皇帝也及委國祚而文皇帝受命黃初之世亦謂不可無文皇帝也及委棄天下而陛下龍興今國内所少豈張郃乎陳羣曰亦誠如辛毗言帝笑曰陳公可謂善變矣臣松之以為擬人必於其倫取譬宜引其類故君子於其言無所茍而已矣毗欲弘廣主意當舉若張遼之疇安有於一將之死而可以祖宗為譬哉非所宜言莫過於兹進違其類退似諂佞佐治剛正之體不宜有此魏畧既已難信習氏又從而載之竊謂斯人受誣不少",
+          "person_mention_id": "c-sanguozhi-025-xinpi:p004:m0043"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-sgz025-xinpi-holding_016:a001",
+          "paragraph_id": "c-sanguozhi-025-xinpi:p004",
+          "start": 41,
+          "end": 43,
+          "surface": "司空",
+          "person_mention_id": "c-sanguozhi-025-xinpi:p004:m0043",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "此官稱出魏略被裴松之整段質疑的敘事，只作引書來源所稱，不視為已獨立證實。",
+      "id": "th-sgz025-xinpi-holding_016",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "slot": "holding_016",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_id": "c-sanguozhi-025-xinpi:p004",
+        "paragraph_sha256": "287fa8e5760e564f52b2024c67d1dec9474a83870072657760afa4dae460bda4"
+      },
+      "source_career_role": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "slot": "holding_016",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_id": "c-sanguozhi-025-xinpi:p004",
+        "paragraph_sha256": "287fa8e5760e564f52b2024c67d1dec9474a83870072657760afa4dae460bda4"
+      },
+      "source_report_qualification": {
+        "kind": "reported_dialogue_explicitly_disputed_by_commentator",
+        "reported_work_surface": "魏畧",
+        "commentator_person_id": "vpy_180_2oi_AA",
+        "critic_mention_id": "c-sanguozhi-025-xinpi:p004:m0166",
+        "report_scope": "魏略所載張郃死後君臣對話，裴松之認為佐治受誣；非已否定張郃之死或其他獨立官歷",
+        "objection_quote": "魏畧既已難信習氏又從而載之竊謂斯人受誣不少",
+        "preferred_as_independent_historical_event": false,
+        "human_reviewed": false
+      },
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -5121,6 +5195,50 @@
       "book_id": "b-sanguozhi-010",
       "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
       "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+      "work_title": "三國志"
+    },
+    {
+      "number": 14,
+      "category": "",
+      "title": "郭嘉本傳及全部裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-014-guojia:p017",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "初陳羣非嘉不治行檢數廷訴嘉嘉意自若太祖愈益厚之然以羣能持正亦悦焉",
+      "paragraph_ids": [
+        "c-sanguozhi-014-guojia:p017"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-014-guojia:p017:m0001",
+        "c-sanguozhi-014-guojia:p017:m0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-014-guojia:p017:m0001": "c-sanguozhi-014-guojia:p017",
+        "c-sanguozhi-014-guojia:p017:m0025": "c-sanguozhi-014-guojia:p017"
+      },
+      "mention_id": "c-sanguozhi-014-guojia:p017:m0001",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p017:m0001",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p017:m0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p017:m0025",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p017:m0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "source_id": "s-sanguozhi-014-guojia",
       "work_title": "三國志"
     },
     {
@@ -5711,6 +5829,77 @@
       "book_id": "b-sanguozhi-022",
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
+      "work_title": "三國志"
+    },
+    {
+      "number": 25,
+      "category": "",
+      "title": "辛毗本傳及全部裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-025-xinpi:p004",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "山不克引退張郃追之為流矢所中死帝惜郃臨朝而歎曰蜀未平而郃死將若之何司空陳羣曰郃誠良將國所依也毗心以為郃雖可惜然已死不當内弱主意而示外以不大也乃持羣曰陳公是何言歟當建安之末天下不可一日無武皇帝也及委國祚而文皇帝受命黃初之世亦謂不可無文皇帝也及委棄天下而陛下龍興今國内所少豈張郃",
+      "paragraph_ids": [
+        "c-sanguozhi-025-xinpi:p004"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-025-xinpi:p004:m0043",
+        "c-sanguozhi-025-xinpi:p004:m0080",
+        "c-sanguozhi-025-xinpi:p004:m0082",
+        "c-sanguozhi-025-xinpi:p004:m0146",
+        "c-sanguozhi-025-xinpi:p004:m0158"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-025-xinpi:p004:m0043": "c-sanguozhi-025-xinpi:p004",
+        "c-sanguozhi-025-xinpi:p004:m0080": "c-sanguozhi-025-xinpi:p004",
+        "c-sanguozhi-025-xinpi:p004:m0082": "c-sanguozhi-025-xinpi:p004",
+        "c-sanguozhi-025-xinpi:p004:m0146": "c-sanguozhi-025-xinpi:p004",
+        "c-sanguozhi-025-xinpi:p004:m0158": "c-sanguozhi-025-xinpi:p004"
+      },
+      "mention_id": "c-sanguozhi-025-xinpi:p004:m0043",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p004:m0043",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p004:m0043"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p004:m0080",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p004:m0080"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p004:m0082",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p004:m0082"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p004:m0146",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p004:m0146"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p004:m0158",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p004:m0158"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-025",
+      "chapter_id": "c-sanguozhi-025-xinpi",
+      "source_id": "s-sanguozhi-025-xinpi",
       "work_title": "三國志"
     },
     {
@@ -22966,6 +23155,37 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "source_id": "s-sanguozhi-014-guojia",
+      "source": {
+        "title": "三國志魏書卷十四郭嘉本傳及裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "10ee5087e49a8e9a07aded83329ad50f932fac56",
+        "response_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_file_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_path": "source-evidence/sgz014-guojia/primary/KR2a0012_014.txt",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定全raw162–253行，郭嘉本傳與全部裴注；254董昭傳起。未含此前程昱尾及後董昭傳，不稱全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文與Kanripo固定數位見證歸屬；未下載影像。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "僅去¶/換行/pb及逐行括號；20段交錯保正文/裴注，raw_positions逐字完整投影；傳子/傅子、尸/户/烏九原字不正字。"
+        },
+        "quality_note": "完整郭嘉單元非全卷；數位轉錄未圖校。"
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-022",
@@ -22989,6 +23209,36 @@
         "normalization": {
           "character_conversion": "none",
           "extraction_note": "正文兩完整傳主分段，古注十四層另段；去¶、頁碼、古注逐行括號包裝，原字不校改。完整raw與逐字runs另存。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-025-xinpi",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-025",
+      "source_id": "s-sanguozhi-025-xinpi",
+      "source": {
+        "title": "三國志魏書卷二十五辛毗傳及全部裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_025.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_025.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "9d77d0409b755082a53c13ed9cae29feb7823c80",
+        "raw_file_sha256": "972a19c668fc812b938c37cd118b3773eeb8fe9c40f7c93b2509f6eb58d104a4",
+        "response_sha256": "972a19c668fc812b938c37cd118b3773eeb8fe9c40f7c93b2509f6eb58d104a4",
+        "raw_path": "source-evidence/sgz025-xinpi/primary/KR2a0012_025.txt",
+        "edition": "WYG數位轉錄；未圖校",
+        "accessed_on": "2026-10-22",
+        "extent": "固定全raw19–132行辛毗完整本傳及裴注；133起楊阜。不稱025全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "只去pb/¶/換行/逐行注括號，保所有原字與連續原文；正文與裴注交錯8段。"
         }
       }
     }

@@ -1,7 +1,13 @@
 """Position-bound received biographical family clauses, without person-ID allowlists."""
 import hashlib,re
 KIND='biography_family_clause'
+def _attached_family(a,paragraphs,chapters=None):
+ try:from scripts.attached_biography_frames import kinship_valid
+ except ImportError:from attached_biography_frames import kinship_valid
+ return kinship_valid(a,paragraphs,chapters)
+
 def valid(a,paragraphs,assertions=(),chapters=None):
+ if isinstance(a,dict)and a.get('qualifiers',{}).get('source_clause_binding',{}).get('rule')=='attached_received_biography_frame':return _attached_family(a,paragraphs,chapters)
  if not isinstance(a, dict):return False
  q_guard=a.get('qualifiers', {})
  if not isinstance(q_guard, dict):return False

@@ -9,7 +9,67 @@
     "劉毅",
     "毅"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin093-yangxiu-liuyi-sili",
+      "person_id": "fcn_avk_8w3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-093",
+          "source_id": "s-jinshu-093-ws1548000-yangxiu",
+          "chapter_id": "c-jinshu-093-yangxiu",
+          "paragraph_id": "c-jinshu-093-yangxiu:p003",
+          "quote": "琇性豪侈，費用無復齊限，而屑炭和作獸形以溫酒，洛下豪貴咸競效之。又喜游燕，以夜續晝，中外五親無男女之別，時人譏之。然黨慕勝己，其所推舉，便盡心無二。窮窘之徒，特能振恤。選用多以得意者居先，不盡銓次之理。將士有冒官位者，為其致節，不惜軀命。然放恣犯法，每為有司所貸。其後司隸校尉劉毅劾之，應至重刑，武帝以舊恩，直免官而已。尋以侯白衣領護軍。頃之，復職。及齊王攸出鎮也，琇以切諫忤旨，左遷太僕。既失寵憤怨，遂發病，以疾篤求退。拜特進，加散騎常侍，還第，卒。帝手詔曰：「琇與朕有先後之親，少小之恩，歷位外內，忠允茂著。不幸早薨，朕甚悼之。其追贈輔國大將軍、開府儀同三司，賜東園秘器，朝服一襲，錢三十萬，布百匹。」諡曰威。",
+          "person_mention_id": "c-jinshu-093-yangxiu:p003:m0002"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "彈劾者劉毅的官，非羊琇。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin093-yangxiu",
+        "slot": "liuyi-sili"
+      },
+      "title": "司隸校尉",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin093-yangxiu",
+        "slot": "liuyi-sili"
+      },
+      "attestations": [
+        {
+          "id": "th-jin093-yangxiu-liuyi-sili:a001",
+          "paragraph_id": "c-jinshu-093-yangxiu:p003",
+          "start": 134,
+          "end": 138,
+          "surface": "司隸校尉",
+          "person_mention_id": "c-jinshu-093-yangxiu:p003:m0002",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -55,6 +115,41 @@
       "chapter_id": "c-jinshu-043-wangrong",
       "source_id": "s-jinshu-043-ws2618531-wangrong",
       "work_title": "晉書"
+    },
+    {
+      "number": 93,
+      "category": "",
+      "title": "羊琇傳",
+      "paragraph_id": "c-jinshu-093-yangxiu:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "有冒官位者，為其致節，不惜軀命。然放恣犯法，每為有司所貸。其後司隸校尉劉毅劾之，應至重刑，武帝以舊恩，直免官而已。尋以侯白衣領護軍。頃之，復職。及齊王攸出鎮也，琇以切諫忤旨，左遷太僕。既失寵憤怨，遂發病，以疾篤求退。拜特進，加散騎常侍，還第，卒。帝手詔曰：「琇與朕有先後之親",
+      "paragraph_ids": [
+        "c-jinshu-093-yangxiu:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-093-yangxiu:p003:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-093-yangxiu:p003:m0002": "c-jinshu-093-yangxiu:p003"
+      },
+      "mention_id": "c-jinshu-093-yangxiu:p003:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p003:m0002",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p003:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-093",
+      "chapter_id": "c-jinshu-093-yangxiu",
+      "source_id": "s-jinshu-093-ws1548000-yangxiu",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -83,6 +178,35 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原缺閉引號、季劄、鐘會、𦃩、報嘗均保留。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-093-yangxiu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-093",
+      "source_id": "s-jinshu-093-ws1548000-yangxiu",
+      "source": {
+        "title": "《晉書》卷九十三羊琇完整本傳（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷093&oldid=1548000",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷093&oldid=1548000",
+        "revision_id": 1548000,
+        "accessed_on": "2026-10-22",
+        "extent": "羊琇完整三原段，從羊琇節題至緊鄰王恂節題之前；非卷九十三全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬，數位轉錄依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "8fc7f8b8a8a5a33a18c016006082a49f92e418f8fba965e1068b3e4e2016ff7e",
+        "raw_file": "sources/witnesses/jin093-ws1548000.wikitext",
+        "raw_path": "sources/witnesses/jin093-ws1548000.wikitext",
+        "raw_file_sha256": "8fc7f8b8a8a5a33a18c016006082a49f92e418f8fba965e1068b3e4e2016ff7e",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白及展開YL；正文無改字。轉錄實際底本及最早現存版本未明，未圖校。"
         }
       }
     }

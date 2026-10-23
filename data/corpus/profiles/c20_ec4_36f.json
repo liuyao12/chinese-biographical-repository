@@ -9,7 +9,65 @@
     "刁協",
     "協"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin040-jiachong-family-holding_175",
+      "person_id": "c20_ec4_36f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p021",
+          "quote": "歷位散騎常侍、後軍將軍。廣城君薨，去職。喪未終。起爲秘書監，掌國史。先是，朝廷議立晉書限斷，中書監荀勖謂宜以魏正始起年，著作郎王瓚欲引嘉平已下朝臣盡入晉史，於時依違未有所決。惠帝立，更使議之。謐上議，請從泰始爲斷。於是事下三府，司徒王戎、司空張華、領軍將軍王衍、侍中樂廣、黃門侍郎嵇紹、國子博士謝衡皆從謐議。騎都尉濟北侯荀畯、侍中荀籓、黃門侍郎華混以爲宜用正始開元。博士荀熙、刁協謂宜嘉平起年。謐重執奏戎、華之議，事遂施行。",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p021:m0188"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整收到段落的明示受任者／原詞；未知年月、任終、生年與未名人物不補。",
+      "title": "博士",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "fixed_complete_family_career",
+        "slot": "holding_175",
+        "paragraph_id": "c-jinshu-040-jiachong-family:p021",
+        "source_revision": 2606035,
+        "paragraph_sha256": "a43e5b83a1f91fd241e6f22a4864f12ef6b3d89fd6bf7429fdda3dffc1b4d632",
+        "person_mention_id": "c-jinshu-040-jiachong-family:p021:m0188"
+      },
+      "attestations": [
+        {
+          "id": "th-jin040-jiachong-family-holding_175:a001",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p021",
+          "start": 145,
+          "end": 147,
+          "surface": "博士",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p021:m0188",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -81,6 +139,41 @@
       "book_id": "b-jinshu-039",
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "source_id": "s-jinshu-039-wangxun-feng",
+      "work_title": "晉書"
+    },
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p021",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。騎都尉濟北侯荀畯、侍中荀籓、黃門侍郎華混以爲宜用正始開元。博士荀熙、刁協謂宜嘉平起年。謐重執奏戎、華之議，事遂施行。",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p021"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p021:m0188"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p021:m0188": "c-jinshu-040-jiachong-family:p021"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p021:m0188",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p021:m0188",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p021:m0188"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
       "work_title": "晉書"
     }
   ],
@@ -11943,6 +12036,35 @@
         "wikitext_sha256": "93fdc36293b084a3693b073808ba92095e730973f8e4c5b2b4dd19fb1e9cea4c",
         "edition": "維基文庫數位轉錄，底本影像未核"
       }
+    },
+    {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
+        }
+      }
     }
   ],
   "relations": [],
@@ -11950,7 +12072,37 @@
     "c20_ec4_36f": "刁協"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-jin040-jiachong-085",
+      "person_id": "c20_ec4_36f",
+      "surname": "刁",
+      "ming": "協",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p021",
+      "person_mention_id": "c-jinshu-040-jiachong-family:p021:m0188",
+      "quote": "歷位散騎常侍、後軍將軍。廣城君薨，去職。喪未終。起爲秘書監，掌國史。先是，朝廷議立晉書限斷，中書監荀勖謂宜以魏正始起年，著作郎王瓚欲引嘉平已下朝臣盡入晉史，於時依違未有所決。惠帝立，更使議之。謐上議，請從泰始爲斷。於是事下三府，司徒王戎、司空張華、領軍將軍王衍、侍中樂廣、黃門侍郎嵇紹、國子博士謝衡皆從謐議。騎都尉濟北侯荀畯、侍中荀籓、黃門侍郎華混以爲宜用正始開元。博士荀熙、刁協謂宜嘉平起年。謐重執奏戎、華之議，事遂施行。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源所見稱名；按中古姓氏用法分讀，保原字及逐名錨，不作全庫權威選字。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2606035,
+        "paragraph_sha256": "a43e5b83a1f91fd241e6f22a4864f12ef6b3d89fd6bf7429fdda3dffc1b4d632",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-040-jiachong-family:p021:m0188",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    }
+  ],
   "person_ids": [
     "c20_ec4_36f"
   ],

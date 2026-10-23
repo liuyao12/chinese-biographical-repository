@@ -1,0 +1,3220 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-sanguozhi-025-xinpi",
+  "work_id": "w-sanguozhi",
+  "book_id": "b-sanguozhi-025",
+  "source_id": "s-sanguozhi-025-xinpi",
+  "title": "辛毗本傳及全部裴注（完整單元，編輯選錄題）",
+  "source": {
+    "title": "三國志魏書卷二十五辛毗傳及全部裴注",
+    "provider": "Kanripo WYG",
+    "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_025.txt",
+    "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_025.txt",
+    "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+    "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+    "source_blob": "9d77d0409b755082a53c13ed9cae29feb7823c80",
+    "raw_file_sha256": "972a19c668fc812b938c37cd118b3773eeb8fe9c40f7c93b2509f6eb58d104a4",
+    "response_sha256": "972a19c668fc812b938c37cd118b3773eeb8fe9c40f7c93b2509f6eb58d104a4",
+    "raw_path": "source-evidence/sgz025-xinpi/primary/KR2a0012_025.txt",
+    "edition": "WYG數位轉錄；未圖校",
+    "accessed_on": "2026-10-22",
+    "extent": "固定全raw19–132行辛毗完整本傳及裴注；133起楊阜。不稱025全卷。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古籍原文；保留Kanripo數位見證歸屬",
+    "license_url": "https://www.kanripo.org/",
+    "normalization": {
+      "character_conversion": "none",
+      "extraction_note": "只去pb/¶/換行/逐行注括號，保所有原字與連續原文；正文與裴注交錯8段。"
+    }
+  },
+  "annotation": {
+    "status": "in_progress",
+    "reviewer": "Codex（AI代理）",
+    "human_reviewed": false,
+    "model": null,
+    "scope": "complete_xinpi_biography_and_all_pei_notes_source_only",
+    "fixed_kanripo_projection_ref": "source-evidence/sgz025-xinpi/projection.json",
+    "identity_review_path": "source-evidence/sgz025-xinpi/identity-review.json",
+    "work_reference_review_path": "source-evidence/sgz025-xinpi/work-references.json",
+    "limitations": [
+      "source-only未冒充親屬生卒官序typed完成。",
+      "魏略張郃死事受裴氏質疑，原反駁完整保留。",
+      "世語敞字泰雍之後轉毗女憲英、夏侯湛為傳的邊界需按原語讀，不能全歸世語。",
+      "辛評保原字，與010辛平依紹臣郭圖及兄毗跨源辨識，非數位校字。"
+    ],
+    "fixed_kanripo_fact_slots_ref": {
+      "kind": "fixed_kanripo_person_fact_slots",
+      "key": "sgz025-xinpi"
+    },
+    "age_assertions": [
+      {
+        "status": "source_attested",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "person_id": "lvt_rxg_vuj",
+        "source_number": "七十有九",
+        "source_term": "年至七十有九",
+        "source_anchor": {
+          "paragraph_id": "c-sanguozhi-025-xinpi:p008",
+          "start": 562,
+          "end": 568,
+          "surface": "年至七十有九"
+        },
+        "value": 79,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-sgz025-xinpi-life_003"
+        },
+        "reporting_status": "direct_report",
+        "date_expression": "泰始五年",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-025",
+            "source_id": "s-sanguozhi-025-xinpi",
+            "chapter_id": "c-sanguozhi-025-xinpi",
+            "paragraph_id": "c-sanguozhi-025-xinpi:p008",
+            "quote": "世語曰敞字泰雍官至衞尉毗女憲英適太常泰山羊耽外孫夏侯湛為其傳曰憲英聰明有才鑒初文帝與陳思王爭為太子既而文帝得立抱毗頸而喜曰辛君知我喜不毗以告憲英憲英歎曰太子代君主宗廟社稷者也代君不可以不戚主國不可以不懼宜戚而喜何以能久魏其不昌乎弟敞為大將軍曹爽参軍司馬宣王將誅爽因爽出閉城門大將軍司馬魯芝將爽府兵犯門斬關出城門赴爽來呼敞俱去敞懼問憲英曰天子在外太傅閉城門人云將不利國家於亊可得爾乎憲英曰天下有不可知然以吾度之太傅不得不爾明皇帝臨崩把太傅臂以後事付之此言猶在朝士之耳且曹爽與太傅俱受寄託之任而獨専權勢行以驕奢於王室不忠於人道不直此舉不過以誅曹爽耳敞曰然則事就乎憲英曰得無殆就爽之才非太傅之偶也敞曰然則敞可以無出乎憲英曰安可不出職守人之大義也凡人在難猶或恤之為人執鞭而棄其事不祥不可也且為人死為人任親昵之職也從衆而已敞遂出宣王果誅爽事定之後敞歎曰吾不謀於姊幾不獲於義逮鍾㑹為鎮西將軍憲英謂從子羊祜曰鍾士季何故西出祜曰將為滅蜀也憲英曰㑹在事縱恣非持久處下之道吾畏其有他志也祜曰季母勿多言其後㑹請子琇為參軍憲英憂曰他日見鍾㑹之出吾為國憂之矣今日難至吾家此國之大事必不得止也琇固請司馬文王文王不聽憲英語琇曰行矣戒之古之君子入則致孝於親出則致節於國在職思其所司在義思其所立不遺父母憂患而已軍旅之間可以濟者其惟仁恕乎汝其慎之琇竟以全身憲英年至七十有九泰始五年卒",
+            "person_mention_id": "c-sanguozhi-025-xinpi:p008:m0560"
+          }
+        ],
+        "normalized_date": {
+          "year_numbering": "astronomical",
+          "calendar": "chinese_civil",
+          "status": "editorial_provisional",
+          "source_expression": "泰始五年",
+          "original_quote": "世語曰敞字泰雍官至衞尉毗女憲英適太常泰山羊耽外孫夏侯湛為其傳曰憲英聰明有才鑒初文帝與陳思王爭為太子既而文帝得立抱毗頸而喜曰辛君知我喜不毗以告憲英憲英歎曰太子代君主宗廟社稷者也代君不可以不戚主國不可以不懼宜戚而喜何以能久魏其不昌乎弟敞為大將軍曹爽参軍司馬宣王將誅爽因爽出閉城門大將軍司馬魯芝將爽府兵犯門斬關出城門赴爽來呼敞俱去敞懼問憲英曰天子在外太傅閉城門人云將不利國家於亊可得爾乎憲英曰天下有不可知然以吾度之太傅不得不爾明皇帝臨崩把太傅臂以後事付之此言猶在朝士之耳且曹爽與太傅俱受寄託之任而獨専權勢行以驕奢於王室不忠於人道不直此舉不過以誅曹爽耳敞曰然則事就乎憲英曰得無殆就爽之才非太傅之偶也敞曰然則敞可以無出乎憲英曰安可不出職守人之大義也凡人在難猶或恤之為人執鞭而棄其事不祥不可也且為人死為人任親昵之職也從衆而已敞遂出宣王果誅爽事定之後敞歎曰吾不謀於姊幾不獲於義逮鍾㑹為鎮西將軍憲英謂從子羊祜曰鍾士季何故西出祜曰將為滅蜀也憲英曰㑹在事縱恣非持久處下之道吾畏其有他志也祜曰季母勿多言其後㑹請子琇為參軍憲英憂曰他日見鍾㑹之出吾為國憂之矣今日難至吾家此國之大事必不得止也琇固請司馬文王文王不聽憲英語琇曰行矣戒之古之君子入則致孝於親出則致節於國在職思其所司在義思其所立不遺父母憂患而已軍旅之間可以濟者其惟仁恕乎汝其慎之琇竟以全身憲英年至七十有九泰始五年卒",
+          "evidence": [
+            {
+              "work_id": "w-sanguozhi",
+              "book_id": "b-sanguozhi-025",
+              "source_id": "s-sanguozhi-025-xinpi",
+              "chapter_id": "c-sanguozhi-025-xinpi",
+              "paragraph_id": "c-sanguozhi-025-xinpi:p008",
+              "quote": "世語曰敞字泰雍官至衞尉毗女憲英適太常泰山羊耽外孫夏侯湛為其傳曰憲英聰明有才鑒初文帝與陳思王爭為太子既而文帝得立抱毗頸而喜曰辛君知我喜不毗以告憲英憲英歎曰太子代君主宗廟社稷者也代君不可以不戚主國不可以不懼宜戚而喜何以能久魏其不昌乎弟敞為大將軍曹爽参軍司馬宣王將誅爽因爽出閉城門大將軍司馬魯芝將爽府兵犯門斬關出城門赴爽來呼敞俱去敞懼問憲英曰天子在外太傅閉城門人云將不利國家於亊可得爾乎憲英曰天下有不可知然以吾度之太傅不得不爾明皇帝臨崩把太傅臂以後事付之此言猶在朝士之耳且曹爽與太傅俱受寄託之任而獨専權勢行以驕奢於王室不忠於人道不直此舉不過以誅曹爽耳敞曰然則事就乎憲英曰得無殆就爽之才非太傅之偶也敞曰然則敞可以無出乎憲英曰安可不出職守人之大義也凡人在難猶或恤之為人執鞭而棄其事不祥不可也且為人死為人任親昵之職也從衆而已敞遂出宣王果誅爽事定之後敞歎曰吾不謀於姊幾不獲於義逮鍾㑹為鎮西將軍憲英謂從子羊祜曰鍾士季何故西出祜曰將為滅蜀也憲英曰㑹在事縱恣非持久處下之道吾畏其有他志也祜曰季母勿多言其後㑹請子琇為參軍憲英憂曰他日見鍾㑹之出吾為國憂之矣今日難至吾家此國之大事必不得止也琇固請司馬文王文王不聽憲英語琇曰行矣戒之古之君子入則致孝於親出則致節於國在職思其所司在義思其所立不遺父母憂患而已軍旅之間可以濟者其惟仁恕乎汝其慎之琇竟以全身憲英年至七十有九泰始五年卒",
+              "person_mention_id": "c-sanguozhi-025-xinpi:p008:m0560"
+            }
+          ],
+          "references": [
+            {
+              "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+              "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+              "quote": "泰始",
+              "scope": "modern_era_year_equivalence_only",
+              "columns": {
+                "dynasty": "西晉",
+                "era_name": "泰始",
+                "first_year": "265",
+                "last_year": "274"
+              },
+              "accessed_on": "2026-10-22",
+              "image_verified": false
+            }
+          ],
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "rationale": "依實讀官方年號表換算中國曆年；不推生年、任終或西曆月日。",
+          "era": "CE",
+          "era_year": 269,
+          "year": 269,
+          "precision": "year",
+          "regnal_year_mapping": {
+            "kind": "ce_regnal_era_span",
+            "reference_index": 0,
+            "start_ce_year": 265,
+            "end_ce_year": 274,
+            "regnal_year": 5,
+            "source_number": "五",
+            "era_name": "泰始"
+          }
+        },
+        "id": "age-sgz025-xinpi-age_001",
+        "fixed_source_fact_binding": {
+          "kind": "fixed_kanripo_person_fact_slots",
+          "slot": "age_001",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_id": "c-sanguozhi-025-xinpi:p008",
+          "paragraph_sha256": "8faa2f1389b713c18758f695458c4eff3c0486c72973733ce2853ba4037065f0"
+        }
+      }
+    ],
+    "title_proposals": [
+      {
+        "status": "contextual_provisional",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "person_id": "84b_e50_f7d",
+        "person_mention_id": "c-sanguozhi-025-xinpi:p003:m1191",
+        "title": "尚書僕射",
+        "kind": "office",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "effective_service_attested": false,
+        "role_anchor": {
+          "paragraph_id": "c-sanguozhi-025-xinpi:p003",
+          "start": 1173,
+          "end": 1177,
+          "surface": "尚書僕射"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-sanguozhi-025-xinpi:p003",
+          "start": 1236,
+          "end": 1239,
+          "surface": "遂不用"
+        },
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-025",
+            "source_id": "s-sanguozhi-025-xinpi",
+            "chapter_id": "c-sanguozhi-025-xinpi",
+            "paragraph_id": "c-sanguozhi-025-xinpi:p003",
+            "quote": "太祖將征荆州次于西平毗見太祖致譚意太祖大悅後數日更欲先平荆州使譚尚自相弊他日置酒毗望太祖色知有變以語郭嘉嘉白太祖太祖謂毗曰譚可信尚必可克不毗對曰明公無問信與詐也直當論其勢耳袁氏本兄弟相伐非謂他人能間其間乃謂天下可定於已也今一旦求救於明公此可知也顯甫見顯思困而不能取此力竭也兵革敗於外謀臣誅於内兄弟讒䦧國分為二連年戰伐而介胄生蟣蝨加以旱蝗饑饉並臻國無囷倉行無裹糧天災應於上人事困於下民無愚智皆知土崩瓦解此乃天亡尚之時也兵法稱有石城湯池帶甲百萬而無粟者不能守也今往攻鄴尚不還救即不能自守還救即譚踵其後以明公之威應困窮之敵擊疲弊之冦無異迅風之振秋葉矣天以袁尚與明公明公不取而伐荆州荆州豐樂國未有釁仲虺有言取亂侮亡方今二袁不務遠畧而内相圖可謂亂矣居者無食行者無糧可謂亡矣朝不謀夕民命靡繼而不綏之欲待他年他年或登又自知亡而改脩厥徳失所以用兵之要矣今因其請救而撫之利莫大焉且四方之冦莫大於河北河北平則六軍盛而天下震太祖曰善乃許譚平次于黎陽明年攻鄴克之表毗為議郎久之太祖遣都䕶曹洪平下辯使毗與曹休參之令曰昔高祖貪財好色而良平匡其過失今佐治文烈憂不輕矣軍還為丞相長史文帝踐阼遷侍中賜爵關内侯時議改正朔毗以魏氏遵舜禹之統應天順民至於湯武以戰伐定天下乃改正朔孔子曰行夏之時左氏傳曰夏數為得天正何必期於相反帝善而從之帝欲徙冀州士家十萬戸實河南時連蝗民饑羣司以為不可而帝意甚盛毗與朝臣俱求見帝知其欲諫作色以見之皆莫敢言毗曰陛下欲徙士家其計安出帝曰卿謂我徙之非邪毗曰誠以為非也帝曰吾不與卿共議也毗曰陛下不以臣不肖置之左右厠之謀議之官安得不與臣議邪臣所言非私也乃社稷之慮也安得怒臣帝不答起入内毗隨而引其裾帝遂奮衣不還良久乃出曰佐治卿持我何太急邪毗曰今徙既失民心又無以食也帝遂徙其半嘗從帝射雉帝曰射雉樂哉毗曰於陛下甚樂而於羣下甚苦帝黙然後遂為之稀出上軍大將軍曹真征朱然于江陵毗行軍師還封廣平亭侯帝欲大興軍征吳毗諫曰吳楚之民險而難禦道隆後服道洿先叛自古患之非徒今也今陛下祚有海内夫不賓者其能久乎昔尉佗稱帝子陽僭號歴年未幾或臣或誅何則違逆之道不久全而大徳無所不服也方今天下新定土廣民稀夫廟算而後出軍猶臨事而懼況今廟算有闕而欲用之臣誠未見其利也先帝屢起銳師臨江而旋今六軍不增於故而復循之此未易也今日之計莫若脩范蠡之養民法管仲之寄政則充國之屯田明仲尼之懷遠十年之中彊壯未老童齓勝戰兆民知義將士思奮然後用之則役不再舉矣帝曰如卿意更當以虜遺子孫邪毗對曰昔周文王以紂遺武王惟知時也茍時未可容得已乎帝竟伐吳至江而還明帝即位進封潁鄉侯邑三百戸時中書監劉放令孫資見信於主制斷時政大臣莫不交好而毗不與往來毗子敞諫曰今劉孫用事衆皆影附大人宜小降意和光同塵不然必有謗言毗正色曰主上雖未稱聰明不為闇劣吾之立身自有本末就與劉孫不平不過令吾不作三公而已何危害之有焉有大丈夫欲為公而毁其高節者邪冗從僕射畢軌表言尚書僕射王思精勤舊吏忠亮計畧不如辛毗毗宜代思帝以訪放資放資對曰陛下用思者誠欲取其効力不貴虚名也毗實亮直然性剛而專聖慮所當深察也遂不用出為衞尉帝方脩殿舎百姓勞役毗上疏曰竊聞諸葛亮講武治兵而孫權市馬遼東量其意指似欲相左右備豫不虞古之善政而今者宫室大興加連年榖麥不收詩云民亦勞止迄可小康惠此中國以綏四方唯陛下為社稷計帝報曰二虜未滅而治宫室直諫者立名之時也夫王者之都當及民勞兼辦使後世無所復增是蕭何為漢規摹之畧也今卿為魏重臣亦宜解其大歸帝又欲平北芒令於其上作臺觀則見孟津毗諫曰天地之性高高下下今而反之既非其理加以損費人功民不堪役且若九河盈溢河水為害而丘陵皆夷將何以禦之帝乃止",
+            "person_mention_id": "c-sanguozhi-025-xinpi:p003:m1191"
+          }
+        ],
+        "interpretation_note": "畢軌薦毗代王思，帝諮放資後不用；不作毗已任尚書僕射。",
+        "id": "tp-sgz025-xinpi-proposal_001",
+        "fixed_source_fact_binding": {
+          "kind": "fixed_kanripo_person_fact_slots",
+          "slot": "proposal_001",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_id": "c-sanguozhi-025-xinpi:p003",
+          "paragraph_sha256": "4d5cc975586ea97b98631752e4a649621ab034df6b590662e1a4043ea47a0039"
+        },
+        "source_appointment_context": {
+          "kind": "fixed_kanripo_person_fact_slots",
+          "slot": "proposal_001",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_id": "c-sanguozhi-025-xinpi:p003",
+          "paragraph_sha256": "4d5cc975586ea97b98631752e4a649621ab034df6b590662e1a4043ea47a0039"
+        }
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-sanguozhi-025-xinpi:p001",
+      "text": "辛毗字佐治潁川陽翟人也其先建武中自隴西東遷毗隨兄評從袁紹太祖為司空辟毗毗不得應命及袁尚攻兄譚於平原譚使毗詣太祖求和",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "辛毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "佐治",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0011",
+          "start": 11,
+          "end": 13,
+          "surface": "其先",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "祖先群體未名，建武東遷不自動變辛毗出生地或遷徙年"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0021",
+          "start": 21,
+          "end": 22,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0024",
+          "start": 24,
+          "end": 25,
+          "surface": "評",
+          "kind": "person",
+          "person_id": "c78_8d9_d5b",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0026",
+          "start": 26,
+          "end": 28,
+          "surface": "袁紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0028",
+          "start": 28,
+          "end": 30,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0034",
+          "start": 34,
+          "end": 35,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0035",
+          "start": 35,
+          "end": 36,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0041",
+          "start": 41,
+          "end": 43,
+          "surface": "袁尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0045",
+          "start": 45,
+          "end": 46,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0049",
+          "start": 49,
+          "end": 50,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0051",
+          "start": 51,
+          "end": 52,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p001:m0053",
+          "start": 53,
+          "end": 55,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        }
+      ],
+      "source_position": {
+        "first_line": 19,
+        "last_line": 21,
+        "source_layer": "received_body",
+        "unit_key": "xinpi-complete",
+        "raw_projection_ref": "source-evidence/sgz025-xinpi/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-025-xinpi:p002",
+      "text": "英雄記曰譚尚戰於外門譚軍敗奔北郭圖說譚曰今將軍國小兵少糧匱勢弱顯甫之來久則不敵愚以為可呼曹公來擊顯甫曹公至必先攻鄴顯甫還救將軍引兵而西自鄴以北皆可虜得若顯甫軍破其兵奔亡又可斂取以拒曹公曹公遠僑而來糧餉不繼必自逃去比此之際趙國以北皆我之有亦足與曹公為對矣不然不諧譚始不納後遂從之問圖誰可使圖荅辛佐治可譚遂遣毗詣太祖",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:w0000",
+          "start": 0,
+          "end": 3,
+          "surface": "英雄記",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "原引題與來源層保留；沿已核引書authority或本單元source-scoped題名，不臆造本段未出現的全稱先見或作者。",
+          "work_id": "w-hanmo-yingxiongji"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0004",
+          "start": 4,
+          "end": 5,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0005",
+          "start": 5,
+          "end": 6,
+          "surface": "尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0010",
+          "start": 10,
+          "end": 11,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0015",
+          "start": 15,
+          "end": 17,
+          "surface": "郭圖",
+          "kind": "person",
+          "person_id": "bad_ea2_bc7",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0018",
+          "start": 18,
+          "end": 19,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0021",
+          "start": 21,
+          "end": 23,
+          "surface": "將軍",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0031",
+          "start": 31,
+          "end": 33,
+          "surface": "顯甫",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0044",
+          "start": 44,
+          "end": 46,
+          "surface": "曹公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0048",
+          "start": 48,
+          "end": 50,
+          "surface": "顯甫",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0050",
+          "start": 50,
+          "end": 52,
+          "surface": "曹公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0057",
+          "start": 57,
+          "end": 59,
+          "surface": "顯甫",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0061",
+          "start": 61,
+          "end": 63,
+          "surface": "將軍",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0076",
+          "start": 76,
+          "end": 78,
+          "surface": "顯甫",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0090",
+          "start": 90,
+          "end": 92,
+          "surface": "曹公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0092",
+          "start": 92,
+          "end": 94,
+          "surface": "曹公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0121",
+          "start": 121,
+          "end": 123,
+          "surface": "曹公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0130",
+          "start": 130,
+          "end": 131,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0139",
+          "start": 139,
+          "end": 140,
+          "surface": "圖",
+          "kind": "person",
+          "person_id": "bad_ea2_bc7",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0143",
+          "start": 143,
+          "end": 144,
+          "surface": "圖",
+          "kind": "person",
+          "person_id": "bad_ea2_bc7",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0145",
+          "start": 145,
+          "end": 148,
+          "surface": "辛佐治",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0149",
+          "start": 149,
+          "end": 150,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0152",
+          "start": 152,
+          "end": 153,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p002:m0154",
+          "start": 154,
+          "end": 156,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        }
+      ],
+      "source_position": {
+        "first_line": 21,
+        "last_line": 26,
+        "source_layer": "pei_annotation",
+        "unit_key": "xinpi-complete",
+        "raw_projection_ref": "source-evidence/sgz025-xinpi/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含引書及裴評）",
+        "scope_note": "書中引書、外孫為傳與裴氏反駁依實際引首分存，不將全注歸首書。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-025-xinpi:p003",
+      "text": "太祖將征荆州次于西平毗見太祖致譚意太祖大悅後數日更欲先平荆州使譚尚自相弊他日置酒毗望太祖色知有變以語郭嘉嘉白太祖太祖謂毗曰譚可信尚必可克不毗對曰明公無問信與詐也直當論其勢耳袁氏本兄弟相伐非謂他人能間其間乃謂天下可定於已也今一旦求救於明公此可知也顯甫見顯思困而不能取此力竭也兵革敗於外謀臣誅於内兄弟讒䦧國分為二連年戰伐而介胄生蟣蝨加以旱蝗饑饉並臻國無囷倉行無裹糧天災應於上人事困於下民無愚智皆知土崩瓦解此乃天亡尚之時也兵法稱有石城湯池帶甲百萬而無粟者不能守也今往攻鄴尚不還救即不能自守還救即譚踵其後以明公之威應困窮之敵擊疲弊之冦無異迅風之振秋葉矣天以袁尚與明公明公不取而伐荆州荆州豐樂國未有釁仲虺有言取亂侮亡方今二袁不務遠畧而内相圖可謂亂矣居者無食行者無糧可謂亡矣朝不謀夕民命靡繼而不綏之欲待他年他年或登又自知亡而改脩厥徳失所以用兵之要矣今因其請救而撫之利莫大焉且四方之冦莫大於河北河北平則六軍盛而天下震太祖曰善乃許譚平次于黎陽明年攻鄴克之表毗為議郎久之太祖遣都䕶曹洪平下辯使毗與曹休參之令曰昔高祖貪財好色而良平匡其過失今佐治文烈憂不輕矣軍還為丞相長史文帝踐阼遷侍中賜爵關内侯時議改正朔毗以魏氏遵舜禹之統應天順民至於湯武以戰伐定天下乃改正朔孔子曰行夏之時左氏傳曰夏數為得天正何必期於相反帝善而從之帝欲徙冀州士家十萬戸實河南時連蝗民饑羣司以為不可而帝意甚盛毗與朝臣俱求見帝知其欲諫作色以見之皆莫敢言毗曰陛下欲徙士家其計安出帝曰卿謂我徙之非邪毗曰誠以為非也帝曰吾不與卿共議也毗曰陛下不以臣不肖置之左右厠之謀議之官安得不與臣議邪臣所言非私也乃社稷之慮也安得怒臣帝不答起入内毗隨而引其裾帝遂奮衣不還良久乃出曰佐治卿持我何太急邪毗曰今徙既失民心又無以食也帝遂徙其半嘗從帝射雉帝曰射雉樂哉毗曰於陛下甚樂而於羣下甚苦帝黙然後遂為之稀出上軍大將軍曹真征朱然于江陵毗行軍師還封廣平亭侯帝欲大興軍征吳毗諫曰吳楚之民險而難禦道隆後服道洿先叛自古患之非徒今也今陛下祚有海内夫不賓者其能久乎昔尉佗稱帝子陽僭號歴年未幾或臣或誅何則違逆之道不久全而大徳無所不服也方今天下新定土廣民稀夫廟算而後出軍猶臨事而懼況今廟算有闕而欲用之臣誠未見其利也先帝屢起銳師臨江而旋今六軍不增於故而復循之此未易也今日之計莫若脩范蠡之養民法管仲之寄政則充國之屯田明仲尼之懷遠十年之中彊壯未老童齓勝戰兆民知義將士思奮然後用之則役不再舉矣帝曰如卿意更當以虜遺子孫邪毗對曰昔周文王以紂遺武王惟知時也茍時未可容得已乎帝竟伐吳至江而還明帝即位進封潁鄉侯邑三百戸時中書監劉放令孫資見信於主制斷時政大臣莫不交好而毗不與往來毗子敞諫曰今劉孫用事衆皆影附大人宜小降意和光同塵不然必有謗言毗正色曰主上雖未稱聰明不為闇劣吾之立身自有本末就與劉孫不平不過令吾不作三公而已何危害之有焉有大丈夫欲為公而毁其高節者邪冗從僕射畢軌表言尚書僕射王思精勤舊吏忠亮計畧不如辛毗毗宜代思帝以訪放資放資對曰陛下用思者誠欲取其効力不貴虚名也毗實亮直然性剛而專聖慮所當深察也遂不用出為衞尉帝方脩殿舎百姓勞役毗上疏曰竊聞諸葛亮講武治兵而孫權市馬遼東量其意指似欲相左右備豫不虞古之善政而今者宫室大興加連年榖麥不收詩云民亦勞止迄可小康惠此中國以綏四方唯陛下為社稷計帝報曰二虜未滅而治宫室直諫者立名之時也夫王者之都當及民勞兼辦使後世無所復增是蕭何為漢規摹之畧也今卿為魏重臣亦宜解其大歸帝又欲平北芒令於其上作臺觀則見孟津毗諫曰天地之性高高下下今而反之既非其理加以損費人功民不堪役且若九河盈溢河水為害而丘陵皆夷將何以禦之帝乃止",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0010",
+          "start": 10,
+          "end": 11,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0012",
+          "start": 12,
+          "end": 14,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0015",
+          "start": 15,
+          "end": 16,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0017",
+          "start": 17,
+          "end": 19,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0031",
+          "start": 31,
+          "end": 32,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0032",
+          "start": 32,
+          "end": 33,
+          "surface": "尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0040",
+          "start": 40,
+          "end": 41,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0042",
+          "start": 42,
+          "end": 44,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0050",
+          "start": 50,
+          "end": 52,
+          "surface": "郭嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0052",
+          "start": 52,
+          "end": 53,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0054",
+          "start": 54,
+          "end": 56,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0056",
+          "start": 56,
+          "end": 58,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0059",
+          "start": 59,
+          "end": 60,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0061",
+          "start": 61,
+          "end": 62,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0064",
+          "start": 64,
+          "end": 65,
+          "surface": "尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0069",
+          "start": 69,
+          "end": 70,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0072",
+          "start": 72,
+          "end": 74,
+          "surface": "明公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0089",
+          "start": 89,
+          "end": 91,
+          "surface": "兄弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "袁氏兄弟群稱，不從此句補同母"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0116",
+          "start": 116,
+          "end": 118,
+          "surface": "明公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0122",
+          "start": 122,
+          "end": 124,
+          "surface": "顯甫",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0125",
+          "start": 125,
+          "end": 127,
+          "surface": "顯思",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0146",
+          "start": 146,
+          "end": 148,
+          "surface": "兄弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "袁氏兄弟群稱，不從此句補同母"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0204",
+          "start": 204,
+          "end": 205,
+          "surface": "尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0208",
+          "start": 208,
+          "end": 210,
+          "surface": "兵法",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "未署作者/題名，保存引書未決，不冒作孫子兵法"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0232",
+          "start": 232,
+          "end": 233,
+          "surface": "尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0244",
+          "start": 244,
+          "end": 245,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0249",
+          "start": 249,
+          "end": 251,
+          "surface": "明公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0274",
+          "start": 274,
+          "end": 276,
+          "surface": "袁尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0277",
+          "start": 277,
+          "end": 279,
+          "surface": "明公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0279",
+          "start": 279,
+          "end": 281,
+          "surface": "明公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0295",
+          "start": 295,
+          "end": 297,
+          "surface": "仲虺",
+          "kind": "person",
+          "person_id": "dxw_mqx_r82",
+          "status": "contextual_provisional",
+          "interpretation_note": "原字仲虺；據003中𤳹作誥、三家註明釋仲虺及received尚書同引句首選同指，不正字、不作全域異體規則。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0305",
+          "start": 305,
+          "end": 307,
+          "surface": "二袁",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "袁譚袁尚合稱，不再造第三身份"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0401",
+          "start": 401,
+          "end": 403,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0407",
+          "start": 407,
+          "end": 408,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0420",
+          "start": 420,
+          "end": 421,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0426",
+          "start": 426,
+          "end": 428,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0431",
+          "start": 431,
+          "end": 433,
+          "surface": "曹洪",
+          "kind": "person",
+          "person_id": "a28_f5c_105",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0437",
+          "start": 437,
+          "end": 438,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0439",
+          "start": 439,
+          "end": 441,
+          "surface": "曹休",
+          "kind": "person",
+          "person_id": "h7n_w5t_i1c_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0446",
+          "start": 446,
+          "end": 448,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0453",
+          "start": 453,
+          "end": 454,
+          "surface": "良",
+          "kind": "person",
+          "person_id": "ea5_zvr_hlp",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0454",
+          "start": 454,
+          "end": 455,
+          "surface": "平",
+          "kind": "person",
+          "person_id": "i3f_9l9_g53",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0460",
+          "start": 460,
+          "end": 462,
+          "surface": "佐治",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0462",
+          "start": 462,
+          "end": 464,
+          "surface": "文烈",
+          "kind": "person",
+          "person_id": "h7n_w5t_i1c_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0475",
+          "start": 475,
+          "end": 477,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0492",
+          "start": 492,
+          "end": 493,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0497",
+          "start": 497,
+          "end": 498,
+          "surface": "舜",
+          "kind": "person",
+          "person_id": "ddb_l4j_4j2",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0498",
+          "start": 498,
+          "end": 499,
+          "surface": "禹",
+          "kind": "person",
+          "person_id": "6ip_dr3_fbl",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0507",
+          "start": 507,
+          "end": 508,
+          "surface": "湯",
+          "kind": "person",
+          "person_id": "tpz_x3m_e0h",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0508",
+          "start": 508,
+          "end": 509,
+          "surface": "武",
+          "kind": "person",
+          "person_id": "y4i_pjk_4gn_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0519",
+          "start": 519,
+          "end": 521,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "fp6_ia6_7yw",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:w0526",
+          "start": 526,
+          "end": 529,
+          "surface": "左氏傳",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "原引題與來源層保留；沿已核引書authority或本單元source-scoped題名，不臆造本段未出現的全稱先見或作者。",
+          "work_id": "w-zuoshizhuan-sgz025-reference"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0542",
+          "start": 542,
+          "end": 543,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0547",
+          "start": 547,
+          "end": 548,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0572",
+          "start": 572,
+          "end": 573,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0576",
+          "start": 576,
+          "end": 577,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0583",
+          "start": 583,
+          "end": 584,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0597",
+          "start": 597,
+          "end": 598,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0599",
+          "start": 599,
+          "end": 601,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0609",
+          "start": 609,
+          "end": 610,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0618",
+          "start": 618,
+          "end": 619,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0625",
+          "start": 625,
+          "end": 626,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0627",
+          "start": 627,
+          "end": 628,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0634",
+          "start": 634,
+          "end": 635,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0636",
+          "start": 636,
+          "end": 638,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0676",
+          "start": 676,
+          "end": 677,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0682",
+          "start": 682,
+          "end": 683,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0688",
+          "start": 688,
+          "end": 689,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0699",
+          "start": 699,
+          "end": 701,
+          "surface": "佐治",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0708",
+          "start": 708,
+          "end": 709,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0721",
+          "start": 721,
+          "end": 722,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0728",
+          "start": 728,
+          "end": 729,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0731",
+          "start": 731,
+          "end": 732,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0737",
+          "start": 737,
+          "end": 738,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0740",
+          "start": 740,
+          "end": 742,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0750",
+          "start": 750,
+          "end": 751,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0764",
+          "start": 764,
+          "end": 766,
+          "surface": "曹真",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0767",
+          "start": 767,
+          "end": 769,
+          "surface": "朱然",
+          "kind": "person",
+          "person_id": "mjp_raw_fvf",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0772",
+          "start": 772,
+          "end": 773,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0782",
+          "start": 782,
+          "end": 783,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0789",
+          "start": 789,
+          "end": 790,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0817",
+          "start": 817,
+          "end": 819,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0832",
+          "start": 832,
+          "end": 834,
+          "surface": "尉佗",
+          "kind": "person",
+          "person_id": "bvb_d1z_fd0",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0836",
+          "start": 836,
+          "end": 838,
+          "surface": "子陽",
+          "kind": "person",
+          "person_id": "j9l_ynn_660",
+          "status": "contextual_provisional",
+          "interpretation_note": "原字子陽；依完整固定後漢書043公孫述字子陽、自立天子及論中趙佗/公孫並列首選公孫述，非025本句明署全名，不作全域alias。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0904",
+          "start": 904,
+          "end": 906,
+          "surface": "先帝",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0936",
+          "start": 936,
+          "end": 938,
+          "surface": "范蠡",
+          "kind": "person",
+          "person_id": "yhm_h9f_8p0",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0942",
+          "start": 942,
+          "end": 944,
+          "surface": "管仲",
+          "kind": "person",
+          "person_id": "h1v_8ap_b9y",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0948",
+          "start": 948,
+          "end": 950,
+          "surface": "充國",
+          "kind": "person",
+          "person_id": "r62_d8z_jhz",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0954",
+          "start": 954,
+          "end": 956,
+          "surface": "仲尼",
+          "kind": "person",
+          "person_id": "fp6_ia6_7yw",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m0989",
+          "start": 989,
+          "end": 990,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1002",
+          "start": 1002,
+          "end": 1003,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1006",
+          "start": 1006,
+          "end": 1009,
+          "surface": "周文王",
+          "kind": "person",
+          "person_id": "y4i_pjk_4gn_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1010",
+          "start": 1010,
+          "end": 1011,
+          "surface": "紂",
+          "kind": "person",
+          "person_id": "lwx_9yq_ad7",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1012",
+          "start": 1012,
+          "end": 1014,
+          "surface": "武王",
+          "kind": "person",
+          "person_id": "y4i_pjk_4gn_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1026",
+          "start": 1026,
+          "end": 1027,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1034",
+          "start": 1034,
+          "end": 1036,
+          "surface": "明帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1051",
+          "start": 1051,
+          "end": 1053,
+          "surface": "劉放",
+          "kind": "person",
+          "person_id": "51f_895_62d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1054",
+          "start": 1054,
+          "end": 1056,
+          "surface": "孫資",
+          "kind": "person",
+          "person_id": "212_0e4_b60",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1071",
+          "start": 1071,
+          "end": 1072,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1076",
+          "start": 1076,
+          "end": 1077,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1078",
+          "start": 1078,
+          "end": 1079,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1082",
+          "start": 1082,
+          "end": 1083,
+          "surface": "劉",
+          "kind": "person",
+          "person_id": "51f_895_62d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1083",
+          "start": 1083,
+          "end": 1084,
+          "surface": "孫",
+          "kind": "person",
+          "person_id": "212_0e4_b60",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1106",
+          "start": 1106,
+          "end": 1107,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1110",
+          "start": 1110,
+          "end": 1112,
+          "surface": "主上",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1121",
+          "start": 1121,
+          "end": 1122,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1131",
+          "start": 1131,
+          "end": 1132,
+          "surface": "劉",
+          "kind": "person",
+          "person_id": "51f_895_62d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1132",
+          "start": 1132,
+          "end": 1133,
+          "surface": "孫",
+          "kind": "person",
+          "person_id": "212_0e4_b60",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1138",
+          "start": 1138,
+          "end": 1139,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1169",
+          "start": 1169,
+          "end": 1171,
+          "surface": "畢軌",
+          "kind": "person",
+          "person_id": "343_by4_fyj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1177",
+          "start": 1177,
+          "end": 1179,
+          "surface": "王思",
+          "kind": "person",
+          "person_id": "vca_o8g_dof",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1189",
+          "start": 1189,
+          "end": 1191,
+          "surface": "辛毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1191",
+          "start": 1191,
+          "end": 1192,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1194",
+          "start": 1194,
+          "end": 1195,
+          "surface": "思",
+          "kind": "person",
+          "person_id": "vca_o8g_dof",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1195",
+          "start": 1195,
+          "end": 1196,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1198",
+          "start": 1198,
+          "end": 1199,
+          "surface": "放",
+          "kind": "person",
+          "person_id": "51f_895_62d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1199",
+          "start": 1199,
+          "end": 1200,
+          "surface": "資",
+          "kind": "person",
+          "person_id": "212_0e4_b60",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1200",
+          "start": 1200,
+          "end": 1201,
+          "surface": "放",
+          "kind": "person",
+          "person_id": "51f_895_62d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1201",
+          "start": 1201,
+          "end": 1202,
+          "surface": "資",
+          "kind": "person",
+          "person_id": "212_0e4_b60",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1204",
+          "start": 1204,
+          "end": 1206,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1207",
+          "start": 1207,
+          "end": 1208,
+          "surface": "思",
+          "kind": "person",
+          "person_id": "vca_o8g_dof",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1220",
+          "start": 1220,
+          "end": 1221,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1243",
+          "start": 1243,
+          "end": 1244,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1252",
+          "start": 1252,
+          "end": 1253,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1258",
+          "start": 1258,
+          "end": 1261,
+          "surface": "諸葛亮",
+          "kind": "person",
+          "person_id": "11e_f2d_5d2",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1266",
+          "start": 1266,
+          "end": 1268,
+          "surface": "孫權",
+          "kind": "person",
+          "person_id": "572_278_cba",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:w1303",
+          "start": 1303,
+          "end": 1304,
+          "surface": "詩",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "原引題與來源層保留；沿已核引書authority或本單元source-scoped題名，不臆造本段未出現的全稱先見或作者。",
+          "work_id": "w-shi-sgz025-reference"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1322",
+          "start": 1322,
+          "end": 1324,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1328",
+          "start": 1328,
+          "end": 1329,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1366",
+          "start": 1366,
+          "end": 1368,
+          "surface": "蕭何",
+          "kind": "person",
+          "person_id": "xd8_uww_5ok",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1387",
+          "start": 1387,
+          "end": 1388,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1404",
+          "start": 1404,
+          "end": 1405,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p003:m1453",
+          "start": 1453,
+          "end": 1454,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        }
+      ],
+      "source_position": {
+        "first_line": 26,
+        "last_line": 104,
+        "source_layer": "received_body",
+        "unit_key": "xinpi-complete",
+        "raw_projection_ref": "source-evidence/sgz025-xinpi/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-025-xinpi:p004",
+      "text": "魏畧曰諸葛亮圍祁山不克引退張郃追之為流矢所中死帝惜郃臨朝而歎曰蜀未平而郃死將若之何司空陳羣曰郃誠良將國所依也毗心以為郃雖可惜然已死不當内弱主意而示外以不大也乃持羣曰陳公是何言歟當建安之末天下不可一日無武皇帝也及委國祚而文皇帝受命黃初之世亦謂不可無文皇帝也及委棄天下而陛下龍興今國内所少豈張郃乎陳羣曰亦誠如辛毗言帝笑曰陳公可謂善變矣臣松之以為擬人必於其倫取譬宜引其類故君子於其言無所茍而已矣毗欲弘廣主意當舉若張遼之疇安有於一將之死而可以祖宗為譬哉非所宜言莫過於兹進違其類退似諂佞佐治剛正之體不宜有此魏畧既已難信習氏又從而載之竊謂斯人受誣不少",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏畧",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "原引題與來源層保留；沿已核引書authority或本單元source-scoped題名，不臆造本段未出現的全稱先見或作者。",
+          "work_id": "w-weilue-sgz028-reference"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0003",
+          "start": 3,
+          "end": 6,
+          "surface": "諸葛亮",
+          "kind": "person",
+          "person_id": "11e_f2d_5d2",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0013",
+          "start": 13,
+          "end": 15,
+          "surface": "張郃",
+          "kind": "person",
+          "person_id": "a66_602_b26",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0023",
+          "start": 23,
+          "end": 24,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0025",
+          "start": 25,
+          "end": 26,
+          "surface": "郃",
+          "kind": "person",
+          "person_id": "a66_602_b26",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0035",
+          "start": 35,
+          "end": 36,
+          "surface": "郃",
+          "kind": "person",
+          "person_id": "a66_602_b26",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0043",
+          "start": 43,
+          "end": 45,
+          "surface": "陳羣",
+          "kind": "person",
+          "person_id": "9w8_tqh_ysn_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0046",
+          "start": 46,
+          "end": 47,
+          "surface": "郃",
+          "kind": "person",
+          "person_id": "a66_602_b26",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0054",
+          "start": 54,
+          "end": 55,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0058",
+          "start": 58,
+          "end": 59,
+          "surface": "郃",
+          "kind": "person",
+          "person_id": "a66_602_b26",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0080",
+          "start": 80,
+          "end": 81,
+          "surface": "羣",
+          "kind": "person",
+          "person_id": "9w8_tqh_ysn_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0082",
+          "start": 82,
+          "end": 84,
+          "surface": "陳公",
+          "kind": "person",
+          "person_id": "9w8_tqh_ysn_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0100",
+          "start": 100,
+          "end": 103,
+          "surface": "武皇帝",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0109",
+          "start": 109,
+          "end": 112,
+          "surface": "文皇帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0123",
+          "start": 123,
+          "end": 126,
+          "surface": "文皇帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0133",
+          "start": 133,
+          "end": 135,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0143",
+          "start": 143,
+          "end": 145,
+          "surface": "張郃",
+          "kind": "person",
+          "person_id": "a66_602_b26",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0146",
+          "start": 146,
+          "end": 148,
+          "surface": "陳羣",
+          "kind": "person",
+          "person_id": "9w8_tqh_ysn_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0152",
+          "start": 152,
+          "end": 154,
+          "surface": "辛毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0155",
+          "start": 155,
+          "end": 156,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0158",
+          "start": 158,
+          "end": 160,
+          "surface": "陳公",
+          "kind": "person",
+          "person_id": "9w8_tqh_ysn_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0166",
+          "start": 166,
+          "end": 168,
+          "surface": "松之",
+          "kind": "person",
+          "person_id": "vpy_180_2oi_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0194",
+          "start": 194,
+          "end": 195,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0203",
+          "start": 203,
+          "end": 205,
+          "surface": "張遼",
+          "kind": "person",
+          "person_id": "9b5_3dc_f80",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0217",
+          "start": 217,
+          "end": 219,
+          "surface": "祖宗",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "曹操曹丕泛稱複數，單詞不硬掛一人"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0238",
+          "start": 238,
+          "end": 240,
+          "surface": "佐治",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:w0248",
+          "start": 248,
+          "end": 250,
+          "surface": "魏畧",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "原引題與來源層保留；沿已核引書authority或本單元source-scoped題名，不臆造本段未出現的全稱先見或作者。",
+          "work_id": "w-weilue-sgz028-reference"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p004:m0254",
+          "start": 254,
+          "end": 256,
+          "surface": "習氏",
+          "kind": "person",
+          "person_id": "8b2_aac_6d7",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        }
+      ],
+      "source_position": {
+        "first_line": 104,
+        "last_line": 111,
+        "source_layer": "pei_annotation",
+        "unit_key": "xinpi-complete",
+        "raw_projection_ref": "source-evidence/sgz025-xinpi/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含引書及裴評）",
+        "scope_note": "書中引書、外孫為傳與裴氏反駁依實際引首分存，不將全注歸首書。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-025-xinpi:p005",
+      "text": "青龍二年諸葛亮率衆出渭南先是大將軍司馬宣王數請與亮戰明帝終不聽是歲恐不能禁乃以毗為大將軍軍師使持節六軍皆肅凖毗節度莫敢犯違",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-025-xinpi:p005:m0004",
+          "start": 4,
+          "end": 7,
+          "surface": "諸葛亮",
+          "kind": "person",
+          "person_id": "11e_f2d_5d2",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p005:m0017",
+          "start": 17,
+          "end": 21,
+          "surface": "司馬宣王",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p005:m0024",
+          "start": 24,
+          "end": 25,
+          "surface": "亮",
+          "kind": "person",
+          "person_id": "11e_f2d_5d2",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p005:m0026",
+          "start": 26,
+          "end": 28,
+          "surface": "明帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p005:m0039",
+          "start": 39,
+          "end": 40,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p005:m0054",
+          "start": 54,
+          "end": 55,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        }
+      ],
+      "source_position": {
+        "first_line": 111,
+        "last_line": 115,
+        "source_layer": "received_body",
+        "unit_key": "xinpi-complete",
+        "raw_projection_ref": "source-evidence/sgz025-xinpi/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-025-xinpi:p006",
+      "text": "魏畧曰宣王數數欲進攻毗禁不聽宣王雖能行意而每屈於毗",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-025-xinpi:p006:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏畧",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "原引題與來源層保留；沿已核引書authority或本單元source-scoped題名，不臆造本段未出現的全稱先見或作者。",
+          "work_id": "w-weilue-sgz028-reference"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p006:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "宣王",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p006:m0010",
+          "start": 10,
+          "end": 11,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p006:m0014",
+          "start": 14,
+          "end": 16,
+          "surface": "宣王",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p006:m0024",
+          "start": 24,
+          "end": 25,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        }
+      ],
+      "source_position": {
+        "first_line": 115,
+        "last_line": 115,
+        "source_layer": "pei_annotation",
+        "unit_key": "xinpi-complete",
+        "raw_projection_ref": "source-evidence/sgz025-xinpi/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含引書及裴評）",
+        "scope_note": "書中引書、外孫為傳與裴氏反駁依實際引首分存，不將全注歸首書。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-025-xinpi:p007",
+      "text": "亮卒復還為衞尉薨諡曰肅侯子敞嗣咸熙中為河内太守",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-025-xinpi:p007:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "亮",
+          "kind": "person",
+          "person_id": "11e_f2d_5d2",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p007:m0010",
+          "start": 10,
+          "end": 12,
+          "surface": "肅侯",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p007:m0013",
+          "start": 13,
+          "end": 14,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        }
+      ],
+      "source_position": {
+        "first_line": 115,
+        "last_line": 116,
+        "source_layer": "received_body",
+        "unit_key": "xinpi-complete",
+        "raw_projection_ref": "source-evidence/sgz025-xinpi/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-025-xinpi:p008",
+      "text": "世語曰敞字泰雍官至衞尉毗女憲英適太常泰山羊耽外孫夏侯湛為其傳曰憲英聰明有才鑒初文帝與陳思王爭為太子既而文帝得立抱毗頸而喜曰辛君知我喜不毗以告憲英憲英歎曰太子代君主宗廟社稷者也代君不可以不戚主國不可以不懼宜戚而喜何以能久魏其不昌乎弟敞為大將軍曹爽参軍司馬宣王將誅爽因爽出閉城門大將軍司馬魯芝將爽府兵犯門斬關出城門赴爽來呼敞俱去敞懼問憲英曰天子在外太傅閉城門人云將不利國家於亊可得爾乎憲英曰天下有不可知然以吾度之太傅不得不爾明皇帝臨崩把太傅臂以後事付之此言猶在朝士之耳且曹爽與太傅俱受寄託之任而獨専權勢行以驕奢於王室不忠於人道不直此舉不過以誅曹爽耳敞曰然則事就乎憲英曰得無殆就爽之才非太傅之偶也敞曰然則敞可以無出乎憲英曰安可不出職守人之大義也凡人在難猶或恤之為人執鞭而棄其事不祥不可也且為人死為人任親昵之職也從衆而已敞遂出宣王果誅爽事定之後敞歎曰吾不謀於姊幾不獲於義逮鍾㑹為鎮西將軍憲英謂從子羊祜曰鍾士季何故西出祜曰將為滅蜀也憲英曰㑹在事縱恣非持久處下之道吾畏其有他志也祜曰季母勿多言其後㑹請子琇為參軍憲英憂曰他日見鍾㑹之出吾為國憂之矣今日難至吾家此國之大事必不得止也琇固請司馬文王文王不聽憲英語琇曰行矣戒之古之君子入則致孝於親出則致節於國在職思其所司在義思其所立不遺父母憂患而已軍旅之間可以濟者其惟仁恕乎汝其慎之琇竟以全身憲英年至七十有九泰始五年卒",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "原引題與來源層保留；沿已核引書authority或本單元source-scoped題名，不臆造本段未出現的全稱先見或作者。",
+          "work_id": "w-shiyu-sgz027-reference"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0003",
+          "start": 3,
+          "end": 4,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0005",
+          "start": 5,
+          "end": 7,
+          "surface": "泰雍",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0011",
+          "start": 11,
+          "end": 12,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0013",
+          "start": 13,
+          "end": 15,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0020",
+          "start": 20,
+          "end": 22,
+          "surface": "羊耽",
+          "kind": "person",
+          "person_id": "uiu_77n_64c",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0024",
+          "start": 24,
+          "end": 27,
+          "surface": "夏侯湛",
+          "kind": "person",
+          "person_id": "r5i_988_cxa",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0028",
+          "start": 28,
+          "end": 30,
+          "surface": "其傳",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "夏侯湛為辛憲英所作傳，無明正式篇題；作者原署夏侯湛已標人，不憑泛詞造作品"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0031",
+          "start": 31,
+          "end": 33,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0039",
+          "start": 39,
+          "end": 41,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0042",
+          "start": 42,
+          "end": 45,
+          "surface": "陳思王",
+          "kind": "person",
+          "person_id": "p6s_2qn_p8n",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0051",
+          "start": 51,
+          "end": 53,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0056",
+          "start": 56,
+          "end": 57,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0061",
+          "start": 61,
+          "end": 63,
+          "surface": "辛君",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0067",
+          "start": 67,
+          "end": 68,
+          "surface": "毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0070",
+          "start": 70,
+          "end": 72,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0072",
+          "start": 72,
+          "end": 74,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0115",
+          "start": 115,
+          "end": 116,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0120",
+          "start": 120,
+          "end": 122,
+          "surface": "曹爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0124",
+          "start": 124,
+          "end": 128,
+          "surface": "司馬宣王",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0130",
+          "start": 130,
+          "end": 131,
+          "surface": "爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0132",
+          "start": 132,
+          "end": 133,
+          "surface": "爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0142",
+          "start": 142,
+          "end": 144,
+          "surface": "魯芝",
+          "kind": "person",
+          "person_id": "p2q_m63_1jq",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0145",
+          "start": 145,
+          "end": 146,
+          "surface": "爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0156",
+          "start": 156,
+          "end": 157,
+          "surface": "爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0159",
+          "start": 159,
+          "end": 160,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0162",
+          "start": 162,
+          "end": 163,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0165",
+          "start": 165,
+          "end": 167,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0168",
+          "start": 168,
+          "end": 170,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "1b6_503_da8",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0172",
+          "start": 172,
+          "end": 174,
+          "surface": "太傅",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0190",
+          "start": 190,
+          "end": 192,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0204",
+          "start": 204,
+          "end": 206,
+          "surface": "太傅",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0210",
+          "start": 210,
+          "end": 213,
+          "surface": "明皇帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0216",
+          "start": 216,
+          "end": 218,
+          "surface": "太傅",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0233",
+          "start": 233,
+          "end": 235,
+          "surface": "曹爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0236",
+          "start": 236,
+          "end": 238,
+          "surface": "太傅",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0269",
+          "start": 269,
+          "end": 271,
+          "surface": "曹爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0272",
+          "start": 272,
+          "end": 273,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0279",
+          "start": 279,
+          "end": 281,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0286",
+          "start": 286,
+          "end": 287,
+          "surface": "爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0290",
+          "start": 290,
+          "end": 292,
+          "surface": "太傅",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0295",
+          "start": 295,
+          "end": 296,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0299",
+          "start": 299,
+          "end": 300,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0305",
+          "start": 305,
+          "end": 307,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0356",
+          "start": 356,
+          "end": 357,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0359",
+          "start": 359,
+          "end": 361,
+          "surface": "宣王",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0363",
+          "start": 363,
+          "end": 364,
+          "surface": "爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0368",
+          "start": 368,
+          "end": 369,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0371",
+          "start": 371,
+          "end": 372,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "o47_ehm_sgt",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0375",
+          "start": 375,
+          "end": 376,
+          "surface": "姊",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "敞稱姊憲英，關係typed後批，不從姊弟名單補絕對排行"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0382",
+          "start": 382,
+          "end": 384,
+          "surface": "鍾㑹",
+          "kind": "person",
+          "person_id": "a6a_4c2_670",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0389",
+          "start": 389,
+          "end": 391,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0394",
+          "start": 394,
+          "end": 396,
+          "surface": "羊祜",
+          "kind": "person",
+          "person_id": "cys_s5z_uqq",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0397",
+          "start": 397,
+          "end": 400,
+          "surface": "鍾士季",
+          "kind": "person",
+          "person_id": "a6a_4c2_670",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0404",
+          "start": 404,
+          "end": 405,
+          "surface": "祜",
+          "kind": "person",
+          "person_id": "cys_s5z_uqq",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0411",
+          "start": 411,
+          "end": 413,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0414",
+          "start": 414,
+          "end": 415,
+          "surface": "㑹",
+          "kind": "person",
+          "person_id": "a6a_4c2_670",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0426",
+          "start": 426,
+          "end": 427,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0433",
+          "start": 433,
+          "end": 434,
+          "surface": "祜",
+          "kind": "person",
+          "person_id": "cys_s5z_uqq",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0435",
+          "start": 435,
+          "end": 437,
+          "surface": "季母",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0442",
+          "start": 442,
+          "end": 443,
+          "surface": "㑹",
+          "kind": "person",
+          "person_id": "a6a_4c2_670",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0445",
+          "start": 445,
+          "end": 446,
+          "surface": "琇",
+          "kind": "person",
+          "person_id": "iz6_91y_f1w",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0449",
+          "start": 449,
+          "end": 451,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0456",
+          "start": 456,
+          "end": 458,
+          "surface": "鍾㑹",
+          "kind": "person",
+          "person_id": "a6a_4c2_670",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0460",
+          "start": 460,
+          "end": 461,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0470",
+          "start": 470,
+          "end": 471,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0482",
+          "start": 482,
+          "end": 483,
+          "surface": "琇",
+          "kind": "person",
+          "person_id": "iz6_91y_f1w",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0485",
+          "start": 485,
+          "end": 489,
+          "surface": "司馬文王",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAI",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0489",
+          "start": 489,
+          "end": 491,
+          "surface": "文王",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAI",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0493",
+          "start": 493,
+          "end": 495,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0496",
+          "start": 496,
+          "end": 497,
+          "surface": "琇",
+          "kind": "person",
+          "person_id": "iz6_91y_f1w",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0555",
+          "start": 555,
+          "end": 556,
+          "surface": "琇",
+          "kind": "person",
+          "person_id": "iz6_91y_f1w",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        },
+        {
+          "id": "c-sanguozhi-025-xinpi:p008:m0560",
+          "start": 560,
+          "end": 562,
+          "surface": "憲英",
+          "kind": "person",
+          "person_id": "lvt_rxg_vuj",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本完整敘事單元的具名先行、發言人與時間thread辨識；不是全域字串替換。"
+        }
+      ],
+      "source_position": {
+        "first_line": 116,
+        "last_line": 132,
+        "source_layer": "pei_annotation",
+        "unit_key": "xinpi-complete",
+        "raw_projection_ref": "source-evidence/sgz025-xinpi/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含引書及裴評）",
+        "scope_note": "書中引書、外孫為傳與裴氏反駁依實際引首分存，不將全注歸首書。"
+      }
+    }
+  ],
+  "text_sha256": "8e4407b03529f5178bcb87d2fe691cb618a797e69e504030654c5224dfc7d559"
+}

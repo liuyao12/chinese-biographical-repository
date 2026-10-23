@@ -22,7 +22,8 @@
     "主",
     "己",
     "老子",
-    "卿"
+    "卿",
+    "家兄"
   ],
   "titles": [
     {
@@ -4264,6 +4265,69 @@
       "book_id": "b-jinshu-077",
       "chapter_id": "c-jinshu-077-yinhao",
       "source_id": "s-jinshu-077-yinhao",
+      "work_title": "晉書"
+    },
+    {
+      "number": 80,
+      "category": "",
+      "title": "王羲之傳",
+      "paragraph_id": "c-jinshu-080-wangxizhi:p002",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "起家秘書郎，征西將軍庾亮請為參軍，累遷長史。亮臨薨，上疏稱羲之清貴有鑒裁。遷甯遠將軍、江州刺史。羲之既少有美譽，朝廷公卿皆愛其才器，頻召為侍中、吏部尚書，皆不就。復授護軍將軍，又推遷不拜。揚州刺史殷浩素雅重之，勸使應命，乃遺",
+      "paragraph_ids": [
+        "c-jinshu-080-wangxizhi:p002",
+        "c-jinshu-080-wangxizhi:p026"
+      ],
+      "mention_ids": [
+        "c-jinshu-080-wangxizhi:p002:m0010",
+        "c-jinshu-080-wangxizhi:p002:m0022",
+        "c-jinshu-080-wangxizhi:p026:m0337",
+        "c-jinshu-080-wangxizhi:p026:m0386"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-080-wangxizhi:p002:m0010": "c-jinshu-080-wangxizhi:p002",
+        "c-jinshu-080-wangxizhi:p002:m0022": "c-jinshu-080-wangxizhi:p002",
+        "c-jinshu-080-wangxizhi:p026:m0337": "c-jinshu-080-wangxizhi:p026",
+        "c-jinshu-080-wangxizhi:p026:m0386": "c-jinshu-080-wangxizhi:p026"
+      },
+      "mention_id": "c-jinshu-080-wangxizhi:p002:m0010",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi:p002:m0010",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi:p002:m0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi:p002:m0022",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi:p002:m0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi:p026:m0337",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi:p026:m0337"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi:p026:m0386",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi:p026:m0386"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "chapter_id": "c-jinshu-080-wangxizhi",
+      "source_id": "s-jinshu-080-ws2603570-wangxizhi",
       "work_title": "晉書"
     },
     {
@@ -19195,6 +19259,35 @@
         "normalization": {
           "character_conversion": "none",
           "extraction_note": "008除頁碼連接同一完整紀年；077僅去除維基排版前綴，原字／標點不校改。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-080-wangxizhi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+      "source": {
+        "title": "《晉書》卷八十王羲之完整本傳及子孫附敘（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "revision_id": 2603570,
+        "accessed_on": "2026-10-22",
+        "extent": "王羲之節題起至許邁節題前；含凝之、徽之、楨之、操之、獻之附敘及全引文，47原段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，來源歸屬保留；數位轉錄依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "raw_file_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "raw_file": "sources/witnesses/jin080-ws2603570.wikitext",
+        "raw_path": "sources/witnesses/jin080-ws2603570.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "有限展開引語/YL/連結顯示字與-{幹}-顯示字；完整原碼點逐一可見/排除分類，非校改異字。"
         }
       }
     },

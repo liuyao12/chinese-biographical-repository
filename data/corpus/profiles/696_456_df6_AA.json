@@ -736,6 +736,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 14,
+      "category": "",
+      "title": "郭嘉本傳及全部裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-014-guojia:p011",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨臨其喪哀甚謂荀攸等曰諸君年皆孤軰也唯奉孝最少天下事竟欲以後事屬之而中年夭折命也夫乃表曰軍祭酒郭嘉自從征伐十有一年每有大議臨敵制變臣策未决嘉輒成之平定天下謀功為髙不幸短命事業未終追思嘉勲實不可忘可增邑八百尸并前千户",
+      "paragraph_ids": [
+        "c-sanguozhi-014-guojia:p011"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-014-guojia:p011:m0296"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-014-guojia:p011:m0296": "c-sanguozhi-014-guojia:p011"
+      },
+      "mention_id": "c-sanguozhi-014-guojia:p011:m0296",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0296",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0296"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "source_id": "s-sanguozhi-014-guojia",
+      "work_title": "三國志"
+    },
+    {
       "number": 33,
       "category": "",
       "title": "《南齊書》卷三十三王僧䖍完整本傳（編輯選錄題）",
@@ -19444,6 +19479,37 @@
           },
           "independent_witness_is_not_repair": true
         }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "source_id": "s-sanguozhi-014-guojia",
+      "source": {
+        "title": "三國志魏書卷十四郭嘉本傳及裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "10ee5087e49a8e9a07aded83329ad50f932fac56",
+        "response_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_file_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_path": "source-evidence/sgz014-guojia/primary/KR2a0012_014.txt",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定全raw162–253行，郭嘉本傳與全部裴注；254董昭傳起。未含此前程昱尾及後董昭傳，不稱全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文與Kanripo固定數位見證歸屬；未下載影像。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "僅去¶/換行/pb及逐行括號；20段交錯保正文/裴注，raw_positions逐字完整投影；傳子/傅子、尸/户/烏九原字不正字。"
+        },
+        "quality_note": "完整郭嘉單元非全卷；數位轉錄未圖校。"
       }
     }
   ],

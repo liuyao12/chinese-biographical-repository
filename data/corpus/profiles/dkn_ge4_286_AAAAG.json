@@ -59,6 +59,63 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-jin040-jiachong-family-holding_265",
+      "person_id": "dkn_ge4_286_AAAAG",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p023",
+          "quote": "及爲常侍，侍講東宮，太子意有不悅，謐患之。而其家數有妖異，飄風吹其朝服飛上數百丈，墜於中丞臺，又蛇出其被中，夜暴雷震其室，柱陷入地，壓毀床帳，謐益恐。及遷侍中，專掌禁內，遂與後成謀，誣陷太子。及趙王倫廢后，以詔召謐於殿前，將戮之。走入西鐘下，呼曰：「阿后救我！」乃就斬之。韓壽少弟蔚有器望，及壽兄鞏令保、弟散騎侍郎預、呉王友鑒、謐母賈午皆伏誅。",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p023:m0097"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整收到段落的明示受任者／原詞；未知年月、任終、生年與未名人物不補。",
+      "title": "趙王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "fixed_complete_family_career",
+        "slot": "holding_265",
+        "paragraph_id": "c-jinshu-040-jiachong-family:p023",
+        "source_revision": 2606035,
+        "paragraph_sha256": "986f50ed84f58575dd2024fb9b6e82fe17c39b1b3b02ce8aa2b9b4daa2aa920e",
+        "person_mention_id": "c-jinshu-040-jiachong-family:p023:m0097"
+      },
+      "attestations": [
+        {
+          "id": "th-jin040-jiachong-family-holding_265:a001",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p023",
+          "start": 97,
+          "end": 99,
+          "surface": "趙王",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p023:m0097",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -248,6 +305,51 @@
       "book_id": "b-jinshu-039",
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "source_id": "s-jinshu-039-wangxun-feng",
+      "work_title": "晉書"
+    },
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p023",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "陷入地，壓毀床帳，謐益恐。及遷侍中，專掌禁內，遂與後成謀，誣陷太子。及趙王倫廢后，以詔召謐於殿前，將戮之。走入西鐘下，呼曰：「阿后救我！」乃就斬之。韓壽少弟蔚有器望，及壽兄鞏令保、弟散騎侍郎預、呉王友鑒、謐母賈午皆伏誅。",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p023",
+        "c-jinshu-040-jiachong-family:p025"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p023:m0097",
+        "c-jinshu-040-jiachong-family:p025:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p023:m0097": "c-jinshu-040-jiachong-family:p023",
+        "c-jinshu-040-jiachong-family:p025:m0000": "c-jinshu-040-jiachong-family:p025"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p023:m0097",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p023:m0097",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p023:m0097"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p025:m0000",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p025:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
       "work_title": "晉書"
     },
     {
@@ -12585,6 +12687,35 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-jinshu-043-wangrong",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
@@ -12811,6 +12942,35 @@
   },
   "dates": [],
   "name_components": [
+    {
+      "id": "nc-jin040-jiachong-097",
+      "person_id": "dkn_ge4_286_AAAAG",
+      "surname": null,
+      "ming": "倫",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p023",
+      "person_mention_id": "c-jinshu-040-jiachong-family:p023:m0097",
+      "quote": "及爲常侍，侍講東宮，太子意有不悅，謐患之。而其家數有妖異，飄風吹其朝服飛上數百丈，墜於中丞臺，又蛇出其被中，夜暴雷震其室，柱陷入地，壓毀床帳，謐益恐。及遷侍中，專掌禁內，遂與後成謀，誣陷太子。及趙王倫廢后，以詔召謐於殿前，將戮之。走入西鐘下，呼曰：「阿后救我！」乃就斬之。韓壽少弟蔚有器望，及壽兄鞏令保、弟散騎侍郎預、呉王友鑒、謐母賈午皆伏誅。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "爵稱後明見省名；本單元未明全姓，不由皇族身份或ID補司馬。原爵稱另留官爵資料。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2606035,
+        "paragraph_sha256": "986f50ed84f58575dd2024fb9b6e82fe17c39b1b3b02ce8aa2b9b4daa2aa920e",
+        "mode": "titled_given",
+        "name_mention_id": "c-jinshu-040-jiachong-family:p023:m0097",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": "趙王",
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    },
     {
       "person_id": "dkn_ge4_286_AAAAG",
       "title": "趙王",

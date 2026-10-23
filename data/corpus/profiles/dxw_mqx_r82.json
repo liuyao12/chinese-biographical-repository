@@ -6,7 +6,8 @@
   "identity_note": "依《殷本紀》的特定敘事建立；個別史實及出土材料對應尚未覆核，不按同名跨卷合併。",
   "review": "ai_provisional",
   "names": [
-    "中𤳹"
+    "中𤳹",
+    "仲虺"
   ],
   "titles": [],
   "addresses": [],
@@ -45,10 +46,75 @@
       "chapter_id": "c-shiji-003-yin",
       "source_id": "s-shiji-003-yin",
       "work_title": "史記"
+    },
+    {
+      "number": 25,
+      "category": "",
+      "title": "辛毗本傳及全部裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-025-xinpi:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "弊之冦無異迅風之振秋葉矣天以袁尚與明公明公不取而伐荆州荆州豐樂國未有釁仲虺有言取亂侮亡方今二袁不務遠畧而内相圖可謂亂矣居者無食行者無糧可謂亡矣朝不謀夕民命靡繼而不綏之欲待他年他年或登又自知亡而改脩厥徳失所以用兵之要矣今因其請救而撫之利莫大焉且四方之冦莫大於河北河北平則六軍盛",
+      "paragraph_ids": [
+        "c-sanguozhi-025-xinpi:p003"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-025-xinpi:p003:m0295"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-025-xinpi:p003:m0295": "c-sanguozhi-025-xinpi:p003"
+      },
+      "mention_id": "c-sanguozhi-025-xinpi:p003:m0295",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0295",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0295"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-025",
+      "chapter_id": "c-sanguozhi-025-xinpi",
+      "source_id": "s-sanguozhi-025-xinpi",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-sanguozhi-025-xinpi",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-025",
+      "source_id": "s-sanguozhi-025-xinpi",
+      "source": {
+        "title": "三國志魏書卷二十五辛毗傳及全部裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_025.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_025.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "9d77d0409b755082a53c13ed9cae29feb7823c80",
+        "raw_file_sha256": "972a19c668fc812b938c37cd118b3773eeb8fe9c40f7c93b2509f6eb58d104a4",
+        "response_sha256": "972a19c668fc812b938c37cd118b3773eeb8fe9c40f7c93b2509f6eb58d104a4",
+        "raw_path": "source-evidence/sgz025-xinpi/primary/KR2a0012_025.txt",
+        "edition": "WYG數位轉錄；未圖校",
+        "accessed_on": "2026-10-22",
+        "extent": "固定全raw19–132行辛毗完整本傳及裴注；133起楊阜。不稱025全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "只去pb/¶/換行/逐行注括號，保所有原字與連續原文；正文與裴注交錯8段。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-003-yin",
       "work_id": "w-shiji",

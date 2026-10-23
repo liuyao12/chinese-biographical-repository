@@ -8,7 +8,65 @@
   "names": [
     "成倅"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin040-jiachong-family-holding_022",
+      "person_id": "cb4_3d3_964",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p003",
+          "quote": "轉中護軍，高貴鄕公之攻相府也，充率眾距戰於南闕。軍將敗，騎督成倅弟太子舍人濟謂充曰：「今日之事如何？」充曰：「公等養汝，正擬今日，復何疑！」濟於是抽戈犯蹕。及常道鄕公即位，進封安陽鄕侯，增邑千二百戸，統城外諸軍，加散騎常侍。",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p003:m0030"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整收到段落的明示受任者／原詞；未知年月、任終、生年與未名人物不補。",
+      "title": "騎督",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "fixed_complete_family_career",
+        "slot": "holding_022",
+        "paragraph_id": "c-jinshu-040-jiachong-family:p003",
+        "source_revision": 2606035,
+        "paragraph_sha256": "c46ab23cb05d354b8e7aea4a48367c4d41650390dad951ef87b2a0669362ecb9",
+        "person_mention_id": "c-jinshu-040-jiachong-family:p003:m0030"
+      },
+      "attestations": [
+        {
+          "id": "th-jin040-jiachong-family-holding_022:a001",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p003",
+          "start": 28,
+          "end": 30,
+          "surface": "騎督",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p003:m0030",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -44,6 +102,41 @@
       "book_id": "b-jinshu-039",
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "source_id": "s-jinshu-039-wangxun-feng",
+      "work_title": "晉書"
+    },
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "轉中護軍，高貴鄕公之攻相府也，充率眾距戰於南闕。軍將敗，騎督成倅弟太子舍人濟謂充曰：「今日之事如何？」充曰：「公等養汝，正擬今日，復何疑！」濟於是抽戈犯蹕。及常道鄕公即位，進封安陽鄕侯，增邑千二百戸，統城外諸軍，加散騎常侍。",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p003:m0030"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p003:m0030": "c-jinshu-040-jiachong-family:p003"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p003:m0030",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p003:m0030",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p003:m0030"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
       "work_title": "晉書"
     }
   ],
@@ -11906,18 +11999,168 @@
         "wikitext_sha256": "93fdc36293b084a3693b073808ba92095e730973f8e4c5b2b4dd19fb1e9cea4c",
         "edition": "維基文庫數位轉錄，底本影像未核"
       }
+    },
+    {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin040-jiachong-family-039",
+      "subject_person_id": "mn5_197_l4z",
+      "predicate": "brother",
+      "object_person_id": "cb4_3d3_964",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "named_elder_younger_office",
+          "roles": {
+            "older": "c-jinshu-040-jiachong-family:p003:m0030",
+            "younger": "c-jinshu-040-jiachong-family:p003:m0037"
+          },
+          "clause_start": 28,
+          "clause_end": 39,
+          "paragraph_sha256": "c46ab23cb05d354b8e7aea4a48367c4d41650390dad951ef87b2a0669362ecb9",
+          "revision_id": 2606035
+        },
+        "source_term": "弟",
+        "relative_age": "younger",
+        "relative_birth_order": {
+          "older_person_id": "cb4_3d3_964",
+          "younger_person_id": "mn5_197_l4z",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p003",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "轉中護軍，高貴鄕公之攻相府也，充率眾距戰於南闕。軍將敗，騎督成倅弟太子舍人濟謂充曰：「今日之事如何？」充曰：「公等養汝，正擬今日，復何疑！」濟於是抽戈犯蹕。及常道鄕公即位，進封安陽鄕侯，增邑千二百戸，統城外諸軍，加散騎常侍。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p003:m0037",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p003:m0030"
+        }
+      ],
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "cb4_3d3_964": "成倅"
+    "cb4_3d3_964": "成倅",
+    "mn5_197_l4z": "成濟"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-jin040-jiachong-005",
+      "person_id": "cb4_3d3_964",
+      "surname": "成",
+      "ming": "倅",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p003",
+      "person_mention_id": "c-jinshu-040-jiachong-family:p003:m0030",
+      "quote": "轉中護軍，高貴鄕公之攻相府也，充率眾距戰於南闕。軍將敗，騎督成倅弟太子舍人濟謂充曰：「今日之事如何？」充曰：「公等養汝，正擬今日，復何疑！」濟於是抽戈犯蹕。及常道鄕公即位，進封安陽鄕侯，增邑千二百戸，統城外諸軍，加散騎常侍。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源所見稱名；按中古姓氏用法分讀，保原字及逐名錨，不作全庫權威選字。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2606035,
+        "paragraph_sha256": "c46ab23cb05d354b8e7aea4a48367c4d41650390dad951ef87b2a0669362ecb9",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-040-jiachong-family:p003:m0030",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    }
+  ],
   "person_ids": [
     "cb4_3d3_964"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin040-jiachong-family-039",
+      "subject_person_id": "mn5_197_l4z",
+      "predicate": "brother",
+      "object_person_id": "cb4_3d3_964",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "named_elder_younger_office",
+          "roles": {
+            "older": "c-jinshu-040-jiachong-family:p003:m0030",
+            "younger": "c-jinshu-040-jiachong-family:p003:m0037"
+          },
+          "clause_start": 28,
+          "clause_end": 39,
+          "paragraph_sha256": "c46ab23cb05d354b8e7aea4a48367c4d41650390dad951ef87b2a0669362ecb9",
+          "revision_id": 2606035
+        },
+        "source_term": "弟",
+        "relative_age": "younger",
+        "relative_birth_order": {
+          "older_person_id": "cb4_3d3_964",
+          "younger_person_id": "mn5_197_l4z",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p003",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "轉中護軍，高貴鄕公之攻相府也，充率眾距戰於南闕。軍將敗，騎督成倅弟太子舍人濟謂充曰：「今日之事如何？」充曰：「公等養汝，正擬今日，復何疑！」濟於是抽戈犯蹕。及常道鄕公即位，進封安陽鄕侯，增邑千二百戸，統城外諸軍，加散騎常侍。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p003:m0037",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p003:m0030"
+        }
+      ],
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

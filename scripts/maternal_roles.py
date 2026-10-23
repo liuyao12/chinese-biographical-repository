@@ -2,6 +2,18 @@
 
 
 def maternal_role_valid(assertion, paragraphs):
+    if assertion.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
+        try:from scripts.fixed_kanripo_fact_slots import valid_from_paragraphs
+        except ImportError:from fixed_kanripo_fact_slots import valid_from_paragraphs
+        return valid_from_paragraphs(assertion,paragraphs)
+    if 'received_family_frame' in assertion.get('qualifiers', {}):
+        try:from scripts.punctuated_family_frames import valid
+        except ImportError:from punctuated_family_frames import valid
+        return valid(assertion, paragraphs)
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule')=='attached_received_biography_frame':
+        try:from scripts.attached_biography_frames import kinship_valid
+        except ImportError:from attached_biography_frames import kinship_valid
+        return kinship_valid(assertion,paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('continued_biography_'):
         try:
             from scripts.continued_biography_family import valid as continued_valid

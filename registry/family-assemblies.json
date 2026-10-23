@@ -12116,11 +12116,11 @@
     {
       "id": "family-yingchuan-guo-jia-core",
       "root_person_id": "344_68f_98e",
-      "label": "潁川郭氏：郭嘉與郭奕（伯益）",
+      "label": "潁川郭氏：郭嘉、郭奕與附子孫",
       "status": "contextual_provisional",
       "human_reviewed": false,
       "reviewer": "Codex（AI代理）",
-      "rationale": "只採本卷裴注明郭嘉之子；不合晉039主簿同名、不擴遠祖或其他郭氏。",
+      "rationale": "只採本卷裴注明郭嘉之子；不合晉039主簿同名、不擴遠祖或其他郭氏。 新接郭嘉本傳奕—深—獵明父鏈；世語敞僅明嘉孫，以缺父祖孫保留，不接奕為父。",
       "members": [
         {
           "person_id": "344_68f_98e",
@@ -12143,6 +12143,45 @@
           "parent_person_id": "344_68f_98e",
           "source_assertion_id": "a-sanguozhi027-wangchang-012",
           "connection": "father"
+        },
+        {
+          "person_id": "344_68f_98e_AA",
+          "representative_source_person_id": "344_68f_98e_AA",
+          "source_person_ids": [
+            "344_68f_98e_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "344_68f_98e_A",
+          "source_assertion_id": "a-sgz014-guo-2",
+          "connection": "father"
+        },
+        {
+          "person_id": "344_68f_98e_AAA",
+          "representative_source_person_id": "344_68f_98e_AAA",
+          "source_person_ids": [
+            "344_68f_98e_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "344_68f_98e_AA",
+          "source_assertion_id": "a-sgz014-guo-3",
+          "connection": "father"
+        },
+        {
+          "person_id": "344_68f_98e_*A",
+          "representative_source_person_id": "344_68f_98e_*A",
+          "source_person_ids": [
+            "344_68f_98e_*A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": "a-sgz014-guo-4",
+          "ancestor_person_id": "344_68f_98e",
+          "connection": "grandfather",
+          "generation_distance": 2,
+          "intermediate_person_ids": [
+            null
+          ],
+          "interpretation_note": "世語明嘉孫敞，父未名；星號只表示缺代，無父人物，不指定奕為父。"
         }
       ]
     },
@@ -13868,6 +13907,408 @@
               "a-ws058-jin-mu-xuan"
             ]
           }
+        }
+      ]
+    },
+    {
+      "id": "family-guo-quan-close",
+      "root_person_id": "r02_hoi_pu7",
+      "label": "郭氏：全、緼、淮及配鎮近系",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "rationale": "只按收到郭氏譜祖父世距及晉諸公贊明父/兄弟作10人近系；全根保自身。父祖來源及兄弟不改寫；共享父與中間父為編者可撤回組裝。妻不變父系子，女適王衍父配/豫仍未定，郭太后等不憑姓接遠親，泰業/大業分源不裁正。",
+      "members": [
+        {
+          "person_id": "r02_hoi_pu7",
+          "representative_source_person_id": "r02_hoi_pu7",
+          "source_person_ids": [
+            "r02_hoi_pu7"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "r02_hoi_pu7_A",
+          "representative_source_person_id": "r02_hoi_pu7_A",
+          "source_person_ids": [
+            "r02_hoi_pu7_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "r02_hoi_pu7",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "interpretation_basis": "fixed_received_zu_fu_sequence",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "裴注按郭氏譜明淮祖全與父緼，以相鄰明世距作緼至全的編者父邊；不是另造郭氏譜source father。收到譜系傳統未經碑誌獨立核證，不遠接其他郭氏。",
+            "chain_subject_person_id": "r02_hoi_pu7_AA",
+            "nearer_ancestor_assertion_id": "a-sgz026-guohuai-family-001",
+            "farther_ancestor_assertion_id": "a-sgz026-guohuai-family-002",
+            "references": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+                "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0004",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0011",
+                "assertion_id": "a-sgz026-guohuai-family-001",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+                "scope": "僅收到同源明父祖及具名兄弟作可撤回父系組裝，不造來源父、不補母或絕對排行。"
+              },
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+                "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0004",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0006",
+                "assertion_id": "a-sgz026-guohuai-family-002",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+                "scope": "僅收到同源明父祖及具名兄弟作可撤回父系組裝，不造來源父、不補母或絕對排行。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "r02_hoi_pu7_AA",
+          "representative_source_person_id": "r02_hoi_pu7_AA",
+          "source_person_ids": [
+            "r02_hoi_pu7_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "r02_hoi_pu7_A",
+          "source_assertion_id": "a-sgz026-guohuai-family-001"
+        },
+        {
+          "person_id": "r02_hoi_pu7_AB",
+          "representative_source_person_id": "r02_hoi_pu7_AB",
+          "source_person_ids": [
+            "r02_hoi_pu7_AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "r02_hoi_pu7_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "interpretation_basis": "fixed_received_shared_father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "明弟與其兄有源父邊作同父編者首選；源兄弟仍為兄弟，不新增父斷言、不補同母。",
+            "sibling_person_id": "r02_hoi_pu7_AA",
+            "sibling_assertion_id": "a-sgz026-guohuai-family-006",
+            "sibling_father_assertion_id": "a-sgz026-guohuai-family-001",
+            "references": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0007",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0005",
+                "assertion_id": "a-sgz026-guohuai-family-006",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+                "scope": "僅收到同源明父祖及具名兄弟作可撤回父系組裝，不造來源父、不補母或絕對排行。"
+              },
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+                "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0004",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0011",
+                "assertion_id": "a-sgz026-guohuai-family-001",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+                "scope": "僅收到同源明父祖及具名兄弟作可撤回父系組裝，不造來源父、不補母或絕對排行。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "r02_hoi_pu7_AC",
+          "representative_source_person_id": "r02_hoi_pu7_AC",
+          "source_person_ids": [
+            "r02_hoi_pu7_AC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "r02_hoi_pu7_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling_chain",
+            "interpretation_basis": "fixed_received_shared_father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "鎮為配弟、配為淮弟，淮有明父緼；兩步兄弟鏈回同父編者首選，不造父配/父淮或來源鎮父緼。",
+            "sibling_person_ids": [
+              "r02_hoi_pu7_AB",
+              "r02_hoi_pu7_AA"
+            ],
+            "sibling_assertion_ids": [
+              "a-sgz026-guohuai-family-007",
+              "a-sgz026-guohuai-family-006"
+            ],
+            "sibling_father_assertion_id": "a-sgz026-guohuai-family-001",
+            "references": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0066",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0064",
+                "assertion_id": "a-sgz026-guohuai-family-007",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+                "scope": "僅收到同源明父祖及具名兄弟作可撤回父系組裝，不造來源父、不補母或絕對排行。"
+              },
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0007",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0005",
+                "assertion_id": "a-sgz026-guohuai-family-006",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+                "scope": "僅收到同源明父祖及具名兄弟作可撤回父系組裝，不造來源父、不補母或絕對排行。"
+              },
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+                "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0004",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0011",
+                "assertion_id": "a-sgz026-guohuai-family-001",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+                "scope": "僅收到同源明父祖及具名兄弟作可撤回父系組裝，不造來源父、不補母或絕對排行。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "r02_hoi_pu7_AAA",
+          "representative_source_person_id": "r02_hoi_pu7_AAA",
+          "source_person_ids": [
+            "r02_hoi_pu7_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "r02_hoi_pu7_AA",
+          "source_assertion_id": "a-sgz026-guohuai-family-013"
+        },
+        {
+          "person_id": "r02_hoi_pu7_AAAA",
+          "representative_source_person_id": "r02_hoi_pu7_AAAA",
+          "source_person_ids": [
+            "r02_hoi_pu7_AAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "r02_hoi_pu7_AAA",
+          "source_assertion_id": "a-sgz026-guohuai-family-014"
+        },
+        {
+          "person_id": "r02_hoi_pu7_ABA",
+          "representative_source_person_id": "r02_hoi_pu7_ABA",
+          "source_person_ids": [
+            "r02_hoi_pu7_ABA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "r02_hoi_pu7_AB",
+          "source_assertion_id": "a-sgz026-guohuai-family-009"
+        },
+        {
+          "person_id": "r02_hoi_pu7_ABB",
+          "representative_source_person_id": "r02_hoi_pu7_ABB",
+          "source_person_ids": [
+            "r02_hoi_pu7_ABB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "r02_hoi_pu7_AB",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "interpretation_basis": "fixed_received_shared_father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "明弟與其兄有源父邊作同父編者首選；源兄弟仍為兄弟，不新增父斷言、不補同母。",
+            "sibling_person_id": "r02_hoi_pu7_ABA",
+            "sibling_assertion_id": "a-sgz026-guohuai-family-010",
+            "sibling_father_assertion_id": "a-sgz026-guohuai-family-009",
+            "references": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0048",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0029",
+                "assertion_id": "a-sgz026-guohuai-family-010",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+                "scope": "僅收到同源明父祖及具名兄弟作可撤回父系組裝，不造來源父、不補母或絕對排行。"
+              },
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0029",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0025",
+                "assertion_id": "a-sgz026-guohuai-family-009",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+                "scope": "僅收到同源明父祖及具名兄弟作可撤回父系組裝，不造來源父、不補母或絕對排行。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "r02_hoi_pu7_ACA",
+          "representative_source_person_id": "r02_hoi_pu7_ACA",
+          "source_person_ids": [
+            "r02_hoi_pu7_ACA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "r02_hoi_pu7_AC",
+          "source_assertion_id": "a-sgz026-guohuai-family-005"
+        }
+      ]
+    },
+    {
+      "id": "family-henei-shan-yao",
+      "root_person_id": "0uv_x8k_mfc",
+      "label": "河內山氏：曜、濤及明載子孫",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "rationale": "同傳九條明父近系；最早曜為根，無遠祖或不明共同祖；五子列序只供互異分支碼，不作排行。母稱／妻與從弟不納父系，與司馬氏的中表及宗祧不改成共同父系。",
+      "members": [
+        {
+          "person_id": "0uv_x8k_mfc",
+          "representative_source_person_id": "0uv_x8k_mfc",
+          "source_person_ids": [
+            "0uv_x8k_mfc"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "0uv_x8k_mfc_A",
+          "representative_source_person_id": "0uv_x8k_mfc_A",
+          "source_person_ids": [
+            "0uv_x8k_mfc_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "0uv_x8k_mfc",
+          "source_assertion_id": "a-jin043-shantao-kin_001",
+          "connection": "father"
+        },
+        {
+          "person_id": "0uv_x8k_mfc_AA",
+          "representative_source_person_id": "0uv_x8k_mfc_AA",
+          "source_person_ids": [
+            "0uv_x8k_mfc_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "0uv_x8k_mfc_A",
+          "source_assertion_id": "a-jin043-shantao-kin_003",
+          "connection": "father"
+        },
+        {
+          "person_id": "0uv_x8k_mfc_AB",
+          "representative_source_person_id": "0uv_x8k_mfc_AB",
+          "source_person_ids": [
+            "0uv_x8k_mfc_AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "0uv_x8k_mfc_A",
+          "source_assertion_id": "a-jin043-shantao-kin_004",
+          "connection": "father"
+        },
+        {
+          "person_id": "0uv_x8k_mfc_AC",
+          "representative_source_person_id": "0uv_x8k_mfc_AC",
+          "source_person_ids": [
+            "0uv_x8k_mfc_AC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "0uv_x8k_mfc_A",
+          "source_assertion_id": "a-jin043-shantao-kin_005",
+          "connection": "father"
+        },
+        {
+          "person_id": "0uv_x8k_mfc_AD",
+          "representative_source_person_id": "0uv_x8k_mfc_AD",
+          "source_person_ids": [
+            "0uv_x8k_mfc_AD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "0uv_x8k_mfc_A",
+          "source_assertion_id": "a-jin043-shantao-kin_006",
+          "connection": "father"
+        },
+        {
+          "person_id": "0uv_x8k_mfc_AE",
+          "representative_source_person_id": "0uv_x8k_mfc_AE",
+          "source_person_ids": [
+            "0uv_x8k_mfc_AE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "0uv_x8k_mfc_A",
+          "source_assertion_id": "a-jin043-shantao-kin_007",
+          "connection": "father"
+        },
+        {
+          "person_id": "0uv_x8k_mfc_AAA",
+          "representative_source_person_id": "0uv_x8k_mfc_AAA",
+          "source_person_ids": [
+            "0uv_x8k_mfc_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "0uv_x8k_mfc_AA",
+          "source_assertion_id": "a-jin043-shantao-kin_009",
+          "connection": "father"
+        },
+        {
+          "person_id": "0uv_x8k_mfc_AAB",
+          "representative_source_person_id": "0uv_x8k_mfc_AAB",
+          "source_person_ids": [
+            "0uv_x8k_mfc_AAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "0uv_x8k_mfc_AA",
+          "source_assertion_id": "a-jin043-shantao-kin_010",
+          "connection": "father"
+        },
+        {
+          "person_id": "0uv_x8k_mfc_AEA",
+          "representative_source_person_id": "0uv_x8k_mfc_AEA",
+          "source_person_ids": [
+            "0uv_x8k_mfc_AEA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "0uv_x8k_mfc_AE",
+          "source_assertion_id": "a-jin043-shantao-kin_011",
+          "connection": "father"
         }
       ]
     }

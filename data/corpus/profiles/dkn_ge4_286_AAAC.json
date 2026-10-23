@@ -16,6 +16,63 @@
   ],
   "titles": [
     {
+      "id": "th-jin040-jiachong-family-holding_261",
+      "person_id": "dkn_ge4_286_AAAC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p016",
+          "quote": "及疾篤，上印綬遜位。帝遣侍臣諭旨問疾，殿中太醫致湯藥，賜床帳錢帛，自皇太子宗室躬省起居。太康三年四月薨，時年六十六。帝爲之慟，使使持節、太常奉策追贈太宰，加袞冕之服、綠綟綬、禦劍，賜東園秘器、朝服一具、衣一襲，大鴻臚護喪事，假節鉞、前後部羽葆、鼓吹、緹麾，大路、鑾路、轀輬車、帳下司馬大車，椎斧文衣武賁、輕車介士。葬禮依霍光及安平獻王故事，給塋田一頃。與石苞等爲王功配饗廟庭，諡曰武。追贈充子黎民爲魯殤公。",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p016:m0163"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整收到段落的明示受任者／原詞；未知年月、任終、生年與未名人物不補。",
+      "title": "安平獻王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "fixed_complete_family_career",
+        "slot": "holding_261",
+        "paragraph_id": "c-jinshu-040-jiachong-family:p016",
+        "source_revision": 2606035,
+        "paragraph_sha256": "01f7ed42fd42a9888053f6b3617871437fb0b525c3cbddfe6ef80cf084102046",
+        "person_mention_id": "c-jinshu-040-jiachong-family:p016:m0163"
+      },
+      "attestations": [
+        {
+          "id": "th-jin040-jiachong-family-holding_261:a001",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p016",
+          "start": 163,
+          "end": 167,
+          "surface": "安平獻王",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p016:m0163",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-phase4-j-075",
       "person_id": "dkn_ge4_286_AAAC",
       "title": "安平獻王",
@@ -323,6 +380,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p016",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "大路、鑾路、轀輬車、帳下司馬大車，椎斧文衣武賁、輕車介士。葬禮依霍光及安平獻王故事，給塋田一頃。與石苞等爲王功配饗廟庭，諡曰武。追贈充子黎民爲魯殤公。",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p016"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p016:m0163"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p016:m0163": "c-jinshu-040-jiachong-family:p016"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p016:m0163",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p016:m0163",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p016:m0163"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "work_title": "晉書"
+    },
+    {
       "number": 59,
       "category": "",
       "title": "司馬亮、司馬羕",
@@ -521,6 +613,35 @@
               "raw_sha256": "478e3f93771c1ff000c00bd9ae03e56bd01e67dabd16ed7471e8937194ff10a4"
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
         }
       }
     },

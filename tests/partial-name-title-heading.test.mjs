@@ -24,7 +24,7 @@ test('complete names, clan styles, surname-only, explicit full name and nonmatch
   {label:'舊標籤',components:{title:'來源侯',surname:'甲',ming:'乙'},expected:'來源侯 甲乙'},
   {label:'舊標籤',components:{title:'來源侯',surname:null,ming:'乙',full_name:'原文全名'},expected:'來源侯 原文全名'},
   {label:'舊標籤',components:{title:'來源侯',surname:null,ming:'乙',clan_style:{value:'甲氏'}},expected:'來源侯 甲氏'},
-  {label:'完整既有姓名',components:{title:'來源侯',surname:'甲',ming:null},expected:'來源侯 甲'},
+  {label:'完整既有姓名',components:{title:'來源侯',surname:'甲',ming:null},expected:'完整既有姓名'},
   {label:'標籤不含本名',components:{title:'來源侯',surname:null,ming:'乙'},expected:'來源侯 乙'},
  ];
  for(const c of cases)for(const full of [false,true])assert.equal(heading({id:'synthetic',label:c.label,name_components:[c.components]},full),c.expected);

@@ -1,0 +1,226 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_event_assertion_set",
+  "chapter_id": "c-sanguozhi-014-guojia",
+  "events": [
+    {
+      "id": "pe-sgz014-guo-recruit",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p002",
+          "quote": "傳子曰嘉少有遠量漢末天下將亂自弱冠匿名迹宻交結英雋不與俗接故時人多莫知惟識達者奇之年二十七辟司徒府",
+          "person_mention_id": "c-sanguozhi-014-guojia:p002:m0003"
+        }
+      ],
+      "interpretation_note": "辟司徒府是來源報告辟召，不把府當具體司徒官職，也不由辟召推已赴任。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "lifetime_recruitment_age",
+        "slot": "recruitment",
+        "paragraph_id": "c-sanguozhi-014-guojia:p002",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p002",
+          "start": 41,
+          "end": 49,
+          "surface": "年二十七辟司徒府"
+        },
+        "roles": {},
+        "fields": {
+          "age": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p002",
+            "start": 42,
+            "end": 45,
+            "surface": "二十七"
+          },
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p002",
+            "start": 46,
+            "end": 49,
+            "surface": "司徒府"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "c8db3af3dc8ddcc282b183de244065389fca26a444534d6d4e10220f61c04ef5",
+        "source_layer": "witness_appended_pei_songzhi_note",
+        "prior_subject_reference": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p002",
+          "person_mention_id": "c-sanguozhi-014-guojia:p002:m0003"
+        }
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "recruitment",
+      "date_expression": null,
+      "source_term": "辟司徒府",
+      "recruiting_organ_source_name": "司徒府",
+      "office_title": null,
+      "service_attested": false
+    },
+    {
+      "id": "pe-sgz014-guo-succession-yi",
+      "person_id": "344_68f_98e_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "quote": "諡曰貞侯子奕嗣",
+          "person_mention_id": "c-sanguozhi-014-guojia:p013:m0005"
+        }
+      ],
+      "interpretation_note": "來源明載嗣，父子另存。未在本承嗣句重出爵名，title/holding_id保持null；不以諡貞侯冒爵名，不補日期。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "posthumous_named_son",
+        "slot": "succession",
+        "paragraph_id": "c-sanguozhi-014-guojia:p013",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "start": 0,
+          "end": 7,
+          "surface": "諡曰貞侯子奕嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p013:m0002",
+          "child": "c-sanguozhi-014-guojia:p013:m0005"
+        },
+        "fields": {},
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "987e509e61119bf6b9ffa146556294888d4e72b6d81eb34b0a3b2ac60c1562a5",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "noble_title_succession",
+      "date_expression": null,
+      "source_term": "子奕嗣",
+      "title": null,
+      "holding_id": null,
+      "mode": "accession",
+      "predecessor_person_id": "344_68f_98e"
+    },
+    {
+      "id": "pe-sgz014-guo-succession-shen",
+      "person_id": "344_68f_98e_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "quote": "奕為太子文學早薨子深嗣深薨子獵嗣",
+          "person_mention_id": "c-sanguozhi-014-guojia:p019:m0009"
+        }
+      ],
+      "interpretation_note": "來源明載嗣，父子另存。未在本承嗣句重出爵名，title/holding_id保持null；不以諡貞侯冒爵名，不補日期。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "office_two_heirs",
+        "slot": "first_succession",
+        "paragraph_id": "c-sanguozhi-014-guojia:p019",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "start": 0,
+          "end": 16,
+          "surface": "奕為太子文學早薨子深嗣深薨子獵嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p019:m0000",
+          "child": "c-sanguozhi-014-guojia:p019:m0009",
+          "child_repeat": "c-sanguozhi-014-guojia:p019:m0011",
+          "grandchild": "c-sanguozhi-014-guojia:p019:m0014"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p019",
+            "start": 2,
+            "end": 6,
+            "surface": "太子文學"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9b3d20fc9769c18c3f7ff8aeafef0f3ca32228e7b46e492b6efc93453437d731",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "noble_title_succession",
+      "date_expression": null,
+      "source_term": "子深嗣",
+      "title": null,
+      "holding_id": null,
+      "mode": "accession",
+      "predecessor_person_id": "344_68f_98e_A"
+    },
+    {
+      "id": "pe-sgz014-guo-succession-lie",
+      "person_id": "344_68f_98e_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "quote": "奕為太子文學早薨子深嗣深薨子獵嗣",
+          "person_mention_id": "c-sanguozhi-014-guojia:p019:m0014"
+        }
+      ],
+      "interpretation_note": "來源明載嗣，父子另存。未在本承嗣句重出爵名，title/holding_id保持null；不以諡貞侯冒爵名，不補日期。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "office_two_heirs",
+        "slot": "second_succession",
+        "paragraph_id": "c-sanguozhi-014-guojia:p019",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "start": 0,
+          "end": 16,
+          "surface": "奕為太子文學早薨子深嗣深薨子獵嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p019:m0000",
+          "child": "c-sanguozhi-014-guojia:p019:m0009",
+          "child_repeat": "c-sanguozhi-014-guojia:p019:m0011",
+          "grandchild": "c-sanguozhi-014-guojia:p019:m0014"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p019",
+            "start": 2,
+            "end": 6,
+            "surface": "太子文學"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9b3d20fc9769c18c3f7ff8aeafef0f3ca32228e7b46e492b6efc93453437d731",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "noble_title_succession",
+      "date_expression": null,
+      "source_term": "子獵嗣",
+      "title": null,
+      "holding_id": null,
+      "mode": "accession",
+      "predecessor_person_id": "344_68f_98e_AA"
+    }
+  ]
+}

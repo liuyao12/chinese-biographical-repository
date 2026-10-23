@@ -8,9 +8,102 @@
   "names": [
     "楊濟"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin040-jiachong-family-holding_086",
+      "person_id": "e3f_e69_af5",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p014",
+          "quote": "伐呉之役，詔充爲使持節、假黃鉞、大都督，總統六師，給羽葆、鼓吹、緹幢、兵萬人、騎二千，置左右長史、司馬、從事中郎，增參軍、騎司馬各十人，帳下司馬二十人，大車、官騎各三十人。充慮大功不捷，表陳「西有昆夷之患，北有幽并之戍，天下勞擾，年穀不登，興軍致討，懼非其時。又臣老邁，非所克堪。」詔曰：「君不行，吾便自出。」充不得已，乃受節鉞，將中軍，爲諸軍節度，以冠軍將軍楊濟爲副，南屯襄陽。呉江陵諸守皆降，充乃徙屯項。",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p014:m0180"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整收到段落的明示受任者／原詞；未知年月、任終、生年與未名人物不補。",
+      "title": "冠軍將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "fixed_complete_family_career",
+        "slot": "holding_086",
+        "paragraph_id": "c-jinshu-040-jiachong-family:p014",
+        "source_revision": 2606035,
+        "paragraph_sha256": "3a2963481750506aead2a45562a5088a9bf47bb64997ba1747b50a1e13bc4389",
+        "person_mention_id": "c-jinshu-040-jiachong-family:p014:m0180"
+      },
+      "attestations": [
+        {
+          "id": "th-jin040-jiachong-family-holding_086:a001",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p014",
+          "start": 176,
+          "end": 180,
+          "surface": "冠軍將軍",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p014:m0180",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p014",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "君不行，吾便自出。」充不得已，乃受節鉞，將中軍，爲諸軍節度，以冠軍將軍楊濟爲副，南屯襄陽。呉江陵諸守皆降，充乃徙屯項。",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p014"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p014:m0180"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p014:m0180": "c-jinshu-040-jiachong-family:p014"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p014:m0180",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p014:m0180",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p014:m0180"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "work_title": "晉書"
+    },
     {
       "number": 42,
       "category": "",
@@ -49,6 +142,35 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
+        }
+      }
+    },
     {
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "work_id": "w-jinshu",
@@ -443,7 +565,37 @@
     "e3f_e69_af5": "楊濟"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-jin040-jiachong-031",
+      "person_id": "e3f_e69_af5",
+      "surname": "楊",
+      "ming": "濟",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p014",
+      "person_mention_id": "c-jinshu-040-jiachong-family:p014:m0180",
+      "quote": "伐呉之役，詔充爲使持節、假黃鉞、大都督，總統六師，給羽葆、鼓吹、緹幢、兵萬人、騎二千，置左右長史、司馬、從事中郎，增參軍、騎司馬各十人，帳下司馬二十人，大車、官騎各三十人。充慮大功不捷，表陳「西有昆夷之患，北有幽并之戍，天下勞擾，年穀不登，興軍致討，懼非其時。又臣老邁，非所克堪。」詔曰：「君不行，吾便自出。」充不得已，乃受節鉞，將中軍，爲諸軍節度，以冠軍將軍楊濟爲副，南屯襄陽。呉江陵諸守皆降，充乃徙屯項。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源所見稱名；按中古姓氏用法分讀，保原字及逐名錨，不作全庫權威選字。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2606035,
+        "paragraph_sha256": "3a2963481750506aead2a45562a5088a9bf47bb64997ba1747b50a1e13bc4389",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-040-jiachong-family:p014:m0180",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    }
+  ],
   "person_ids": [
     "e3f_e69_af5"
   ],

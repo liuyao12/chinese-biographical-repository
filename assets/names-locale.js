@@ -1,4 +1,5 @@
 export default {
+  'Family-name usages in the source: {names}. Both forms retain their cited passages.':'原文家系稱用：{names}。兩種稱用各附原文。',
   'Paragraph anchor: {year}':'段落定位：{year} 年',
   'The first-round collection preserves 809 biographical entries, 193 cross-reference notices and 6 reference texts from ECCP. Source text, bibliography, quotations and contributor names remain intact.':'第一輪保存 ECCP 的 809 篇傳記、193 篇參見條目及 6 篇參考資料。正文、書目、引文及撰稿署名均保留。',
   'Person and work identifications and QSG opening matches are first-pass proposals, not independently reviewed facts. QSG links may lead to a complete containing volume rather than an isolated biography. Dated name and title periods are a limited pilot. Map boundaries are dated regional reference images, not reconstructions for every narrative year.':'人物、著作及清史稿開頭配對均有第一輪待覆核記錄，不能視為已獨立考證的事實。清史稿連結可能開啟完整所在卷，尚未分離本傳。歷年姓名與稱號目前為有限試點；地圖為明確年代與範圍的參考插圖，非逐年重建政區。',
