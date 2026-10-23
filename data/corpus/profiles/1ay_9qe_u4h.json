@@ -510,7 +510,44 @@
     "yoo_ox0_545_BABAAA": "荀崧"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-jin075-xun-10",
+      "person_id": "1ay_9qe_u4h",
+      "chapter_id": "c-jinshu-075-xunsong-families",
+      "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-cousins:p001",
+      "person_mention_id": "c-jinshu-075-xunsong-families:xunsong-cousins:p001:m0025",
+      "surname": "荀",
+      "ming": "馗",
+      "additional_names": [],
+      "quote": "元帝踐阼，徵拜尚書僕射，使崧與協共定中興禮儀。從弟馗早亡，二息序、廞，年各數歲，崧迎與共居，恩同其子。太尉、臨淮公荀顗國胤廢絕，朝庭以崧屬近，欲以崧子襲封。崧哀序孤微，乃讓封與序，論者稱焉。轉太常。時方修學校，簡省博士，置《周易》王氏、《尚書》鄭氏、《古文尚書》孔氏、《毛詩》鄭氏、《周官禮記》鄭氏、《春秋左傳》杜氏服氏、《論語》《孝經》鄭氏博士各一人，凡九人，其《儀禮》、《公羊》、《穀梁》及鄭《易》皆省不置。崧以為不可，乃上疏曰：",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文此處只名；姓氏另依下列同源明父系或旁系稱用作有資格判讀，不把拼接姓名冒作原文全名。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_archived_excerpt_paths",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "source_name_record_id": "nc-jin075-xun-01",
+        "steps": [
+          {
+            "assertion_id": "a-jinshu075-xunsong-007",
+            "traversal": "object_to_subject"
+          }
+        ],
+        "rationale": "本源完整明名種子與明示父系/旁系逐邊承姓；不推共同祖先、未名父或母系婚配。"
+      },
+      "archived_excerpt_fact_binding": {
+        "kind": "fixed_archived_excerpt_fact",
+        "key": "jin075-xun-archived-excerpts",
+        "slot": "name10"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "source_id": "s-jinshu-075-xunsong-families"
+    }
+  ],
   "person_ids": [
     "1ay_9qe_u4h"
   ],

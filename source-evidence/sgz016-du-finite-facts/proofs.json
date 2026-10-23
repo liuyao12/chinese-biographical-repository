@@ -1,0 +1,1363 @@
+[
+  {
+    "slot": "name_ji",
+    "subject": {
+      "$person": [
+        0,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        0,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit001",
+      "start": 0,
+      "end": 2,
+      "surface": "杜畿",
+      "paragraph_sha256": "1632eecae5c2224c9470b226025ec28c4b7b8c4bbfdf778585d2836826b39a89",
+      "source_layer": "received_body"
+    },
+    "quoted_work_id": null,
+    "kind": "name",
+    "zi_anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit001",
+      "start": 3,
+      "end": 5,
+      "surface": "伯侯",
+      "paragraph_sha256": "1632eecae5c2224c9470b226025ec28c4b7b8c4bbfdf778585d2836826b39a89",
+      "source_layer": "received_body"
+    },
+    "surname_path": [],
+    "full_name": true,
+    "expected_surname_edges": [],
+    "expected_semantics": {
+      "status": "source_attested"
+    },
+    "fixed_witness": {
+      "chapter_id": "c-sanguozhi-016-duji-dushu",
+      "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+      "raw_sha256": "82e8ba333863c0ad47843c72d6237a2d32b10bff3a28ec7f51d614bcb34c5e7f",
+      "witness_key": "sgz016-duji-dushu-214fcafa"
+    }
+  },
+  {
+    "slot": "name_shu",
+    "subject": {
+      "$person": [
+        24,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        24,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit025",
+      "start": 0,
+      "end": 1,
+      "surface": "恕",
+      "paragraph_sha256": "7f52a319b7c90222903693104ac7c91aeadb04d559252899cc1823fa1b99abec",
+      "source_layer": "received_body"
+    },
+    "quoted_work_id": null,
+    "kind": "name",
+    "zi_anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit025",
+      "start": 2,
+      "end": 4,
+      "surface": "務伯",
+      "paragraph_sha256": "7f52a319b7c90222903693104ac7c91aeadb04d559252899cc1823fa1b99abec",
+      "source_layer": "received_body"
+    },
+    "surname_path": [
+      "a-sgz016-du-shu-father-ji"
+    ],
+    "full_name": false,
+    "expected_surname_edges": [
+      {
+        "id": "a-sgz016-du-shu-father-ji",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            22,
+            3
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            22,
+            0
+          ]
+        }
+      }
+    ],
+    "expected_semantics": {
+      "status": "contextual_provisional"
+    }
+  },
+  {
+    "slot": "name_li",
+    "subject": {
+      "$person": [
+        43,
+        1
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        1
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 7,
+      "end": 8,
+      "surface": "理",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-dushi-xinshu-sgz016-reference",
+    "kind": "name",
+    "zi_anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 9,
+      "end": 11,
+      "surface": "務仲",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "surname_path": [
+      "a-sgz016-du-shu-father-ji",
+      "a-sgz016-du-li-younger-brother-shu"
+    ],
+    "full_name": false,
+    "expected_surname_edges": [
+      {
+        "id": "a-sgz016-du-shu-father-ji",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            22,
+            3
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            22,
+            0
+          ]
+        }
+      },
+      {
+        "id": "a-sgz016-du-li-younger-brother-shu",
+        "predicate": "brother",
+        "subject_person_id": {
+          "$person": [
+            43,
+            1
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            43,
+            0
+          ]
+        }
+      }
+    ],
+    "expected_semantics": {
+      "status": "contextual_provisional"
+    }
+  },
+  {
+    "slot": "name_kuan",
+    "subject": {
+      "$person": [
+        43,
+        5
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        5
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 32,
+      "end": 33,
+      "surface": "寛",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-dushi-xinshu-sgz016-reference",
+    "kind": "name",
+    "zi_anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 34,
+      "end": 36,
+      "surface": "務叔",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "surname_path": [
+      "a-sgz016-du-shu-father-ji",
+      "a-sgz016-du-kuan-younger-brother-shu"
+    ],
+    "full_name": false,
+    "expected_surname_edges": [
+      {
+        "id": "a-sgz016-du-shu-father-ji",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            22,
+            3
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            22,
+            0
+          ]
+        }
+      },
+      {
+        "id": "a-sgz016-du-kuan-younger-brother-shu",
+        "predicate": "brother",
+        "subject_person_id": {
+          "$person": [
+            43,
+            5
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            43,
+            0
+          ]
+        }
+      }
+    ],
+    "expected_semantics": {
+      "status": "contextual_provisional"
+    }
+  },
+  {
+    "slot": "name_yu",
+    "subject": {
+      "$person": [
+        43,
+        7
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        7
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 121,
+      "end": 122,
+      "surface": "預",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-dushi-xinshu-sgz016-reference",
+    "kind": "name",
+    "zi_anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 123,
+      "end": 125,
+      "surface": "元凱",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "surname_path": [
+      "a-sgz016-du-shu-father-ji",
+      "a-sgz016-du-pre-father-shu"
+    ],
+    "full_name": false,
+    "expected_surname_edges": [
+      {
+        "id": "a-sgz016-du-shu-father-ji",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            22,
+            3
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            22,
+            0
+          ]
+        }
+      },
+      {
+        "id": "a-sgz016-du-pre-father-shu",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            40,
+            3
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            40,
+            2
+          ]
+        }
+      }
+    ],
+    "expected_semantics": {
+      "status": "contextual_provisional"
+    }
+  },
+  {
+    "slot": "name_xi",
+    "subject": {
+      "$person": [
+        43,
+        16
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        16
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 306,
+      "end": 307,
+      "surface": "錫",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-wangyin-jinshu-sgz016-reference",
+    "kind": "name",
+    "zi_anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 308,
+      "end": 310,
+      "surface": "世嘏",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "surname_path": [
+      "a-sgz016-du-shu-father-ji",
+      "a-sgz016-du-pre-father-shu",
+      "a-sgz016-du-xi-father-pre"
+    ],
+    "full_name": false,
+    "expected_surname_edges": [
+      {
+        "id": "a-sgz016-du-shu-father-ji",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            22,
+            3
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            22,
+            0
+          ]
+        }
+      },
+      {
+        "id": "a-sgz016-du-pre-father-shu",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            40,
+            3
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            40,
+            2
+          ]
+        }
+      },
+      {
+        "id": "a-sgz016-du-xi-father-pre",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            43,
+            16
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            43,
+            15
+          ]
+        }
+      }
+    ],
+    "expected_semantics": {
+      "status": "contextual_provisional"
+    }
+  },
+  {
+    "slot": "name_yi",
+    "subject": {
+      "$person": [
+        43,
+        24
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        24
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 347,
+      "end": 348,
+      "surface": "乂",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-jinzhugongzan-sgz022-luyu-reference",
+    "kind": "name",
+    "zi_anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 349,
+      "end": 351,
+      "surface": "洪治",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "surname_path": [
+      "a-sgz016-du-shu-father-ji",
+      "a-sgz016-du-pre-father-shu",
+      "a-sgz016-du-xi-father-pre",
+      "a-sgz016-du-yi-father-xi"
+    ],
+    "full_name": false,
+    "expected_surname_edges": [
+      {
+        "id": "a-sgz016-du-shu-father-ji",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            22,
+            3
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            22,
+            0
+          ]
+        }
+      },
+      {
+        "id": "a-sgz016-du-pre-father-shu",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            40,
+            3
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            40,
+            2
+          ]
+        }
+      },
+      {
+        "id": "a-sgz016-du-xi-father-pre",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            43,
+            16
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            43,
+            15
+          ]
+        }
+      },
+      {
+        "id": "a-sgz016-du-yi-father-xi",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            43,
+            24
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            43,
+            23
+          ]
+        }
+      }
+    ],
+    "expected_semantics": {
+      "status": "contextual_provisional"
+    }
+  },
+  {
+    "slot": "name_bin",
+    "subject": {
+      "$person": [
+        43,
+        20
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        20
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 326,
+      "end": 327,
+      "surface": "斌",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-jinzhugongzan-sgz022-luyu-reference",
+    "kind": "name",
+    "zi_anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 328,
+      "end": 330,
+      "surface": "世將",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "surname_path": [
+      "a-sgz016-du-shu-father-ji",
+      "a-sgz016-du-pre-father-shu",
+      "a-sgz016-du-bin-older-agnatic-cousin-pre"
+    ],
+    "full_name": false,
+    "expected_surname_edges": [
+      {
+        "id": "a-sgz016-du-shu-father-ji",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            22,
+            3
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            22,
+            0
+          ]
+        }
+      },
+      {
+        "id": "a-sgz016-du-pre-father-shu",
+        "predicate": "father",
+        "subject_person_id": {
+          "$person": [
+            40,
+            3
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            40,
+            2
+          ]
+        }
+      },
+      {
+        "id": "a-sgz016-du-bin-older-agnatic-cousin-pre",
+        "predicate": "agnatic_cousin",
+        "subject_person_id": {
+          "$person": [
+            43,
+            20
+          ]
+        },
+        "object_person_id": {
+          "$person": [
+            43,
+            19
+          ]
+        }
+      }
+    ],
+    "expected_semantics": {
+      "status": "contextual_provisional"
+    }
+  },
+  {
+    "slot": "age_ji_20",
+    "subject": {
+      "$person": [
+        0,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        0,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit003",
+      "start": 9,
+      "end": 12,
+      "surface": "年二十",
+      "paragraph_sha256": "fd336b35a2180e6fbf93057b6b3e0b4a38e5d6a7b1a1de4b81a1fd77a4c57de3",
+      "source_layer": "received_body"
+    },
+    "quoted_work_id": null,
+    "kind": "age",
+    "value": 20,
+    "expected_semantics": {
+      "status": "source_attested",
+      "age_context": {
+        "kind": "during_life"
+      },
+      "reporting_status": "direct_report",
+      "unit": "source_age_years"
+    }
+  },
+  {
+    "slot": "age_ji_62",
+    "subject": {
+      "$person": [
+        0,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        0,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit020",
+      "start": 60,
+      "end": 65,
+      "surface": "時年六十二",
+      "paragraph_sha256": "87c0fa5f93dff0df1eb90158d7ff715d8ff8292a8450ebed95e0267a7a4afb2b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-weishichunqiu-sgz028-reference",
+    "kind": "age",
+    "value": 62,
+    "expected_semantics": {
+      "status": "source_attested",
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-sgz016-du-death_ji"
+      },
+      "reporting_status": "direct_report",
+      "unit": "source_age_years"
+    }
+  },
+  {
+    "slot": "age_shu_52",
+    "subject": {
+      "$person": [
+        24,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        24,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit038",
+      "start": 102,
+      "end": 107,
+      "surface": "以年五十二",
+      "paragraph_sha256": "f0a6dea0f533f3ce1517cef48097234b639f44faeaaad997107521456f7042a7",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-dushi-xinshu-sgz016-reference",
+    "kind": "age",
+    "value": 52,
+    "expected_semantics": {
+      "status": "source_attested",
+      "age_context": {
+        "kind": "during_life"
+      },
+      "reporting_status": "direct_report",
+      "unit": "source_age_years"
+    }
+  },
+  {
+    "slot": "age_li_21",
+    "subject": {
+      "$person": [
+        43,
+        1
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        1
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 25,
+      "end": 31,
+      "surface": "年二十一而卒",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-dushi-xinshu-sgz016-reference",
+    "kind": "age",
+    "value": 21,
+    "expected_semantics": {
+      "status": "source_attested",
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-sgz016-du-death_li"
+      },
+      "reporting_status": "direct_report",
+      "unit": "source_age_years"
+    }
+  },
+  {
+    "slot": "age_kuan_42",
+    "subject": {
+      "$person": [
+        43,
+        5
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        5
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 86,
+      "end": 92,
+      "surface": "年四十二而卒",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-dushi-xinshu-sgz016-reference",
+    "kind": "age",
+    "value": 42,
+    "expected_semantics": {
+      "status": "source_attested",
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-sgz016-du-death_kuan"
+      },
+      "reporting_status": "direct_report",
+      "unit": "source_age_years"
+    }
+  },
+  {
+    "slot": "death_ji",
+    "subject": {
+      "$person": [
+        0,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        0,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+      "start": 7,
+      "end": 16,
+      "surface": "於孟津試船遂至覆没",
+      "paragraph_sha256": "19aa1dae2325061fabe205f723f830abda651b371a747759533253b30d94473f",
+      "source_layer": "received_body"
+    },
+    "quoted_work_id": null,
+    "kind": "death",
+    "expected_semantics": {
+      "status": "source_attested"
+    }
+  },
+  {
+    "slot": "death_stepmother",
+    "subject": {
+      "$person": [
+        2,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        2,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit006",
+      "start": 13,
+      "end": 16,
+      "surface": "繼母亡",
+      "paragraph_sha256": "30a35cabc0a21116e1dae983ca22cdfa937330cb425389fc778c256072e21825",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-weilue-sgz028-reference",
+    "kind": "death",
+    "expected_semantics": {
+      "status": "source_attested"
+    }
+  },
+  {
+    "slot": "death_shu",
+    "subject": {
+      "$person": [
+        24,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        24,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit041",
+      "start": 13,
+      "end": 19,
+      "surface": "四年卒於徙所",
+      "paragraph_sha256": "73f6d9242f53fbd2b9c2aacf77c1bd61bbbb74252be2c877678426b157ddaeb8",
+      "source_layer": "received_body"
+    },
+    "quoted_work_id": null,
+    "kind": "death",
+    "omitted_era": {
+      "event_slot": "death_shu",
+      "preferred_normalized_year": 252,
+      "calendar": "chinese_civil",
+      "precision": "year",
+      "source_expression": "四年",
+      "source_number": "四",
+      "regnal_year": 4,
+      "inferred_era": "嘉平",
+      "first_ce_year": 249,
+      "basis": {
+        "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+        "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=1",
+        "read_scope": "僅魏段相關年號列，網頁文字實讀；未存原HTTP bytes",
+        "rows": [
+          {
+            "dynasty": "魏",
+            "era_name": "嘉平",
+            "first_year": 249,
+            "last_year": 254
+          },
+          {
+            "dynasty": "魏",
+            "era_name": "甘露",
+            "first_year": 256,
+            "last_year": 259
+          }
+        ],
+        "qualification": "現代年號對照，不作本傳事件身份或source原文權威。"
+      },
+      "antecedent_anchor": {
+        "paragraph_id": "c-sanguozhi-016-duji-dushu:unit037",
+        "start": 201,
+        "end": 207,
+        "surface": "是嵗嘉平元年",
+        "paragraph_sha256": "d7f9f55ccec2dd9bf4ce9934746f372f42184e0e360a9251612e244168c5c079",
+        "source_layer": "received_body"
+      },
+      "event_anchor": {
+        "paragraph_id": "c-sanguozhi-016-duji-dushu:unit041",
+        "start": 13,
+        "end": 19,
+        "surface": "四年卒於徙所",
+        "paragraph_sha256": "73f6d9242f53fbd2b9c2aacf77c1bd61bbbb74252be2c877678426b157ddaeb8",
+        "source_layer": "received_body"
+      },
+      "following_reset_anchor": {
+        "paragraph_id": "c-sanguozhi-016-duji-dushu:unit041",
+        "start": 19,
+        "end": 23,
+        "surface": "甘露二年",
+        "paragraph_sha256": "73f6d9242f53fbd2b9c2aacf77c1bd61bbbb74252be2c877678426b157ddaeb8",
+        "source_layer": "received_body"
+      },
+      "complete_body_interval": [
+        {
+          "id": "c-sanguozhi-016-duji-dushu:unit037",
+          "text": "起家為河東太守嵗餘遷淮北都督䕶軍復以疾去恕所在務存大體而已其樹惠愛益得百姓歡心不及於畿頃之拜御史中丞恕在朝廷以不得當世之和故屢在外任復出為幽州刺史加建威將軍使持節䕶烏丸校尉時征北將軍程喜屯薊尚書袁侃等戒恕曰程申伯處先帝之世傾田園讓於青州足下今俱杖節使共屯一城宜深有以待之而恕不以為意至官未期有鮮卑大人兒不由關塞徑將數十騎詣州州斬所從來小子一人無表言上喜於是劾奏恕下廷尉當死以父畿勤事水死免為庶人徙章武郡是嵗嘉平元年",
+          "source_position": {
+            "source_layer": "received_body",
+            "first_line": 355,
+            "last_line": 365,
+            "raw_projection_ref": "source-evidence/sgz016-duji-dushu/fixed-complete-unit.json"
+          }
+        },
+        {
+          "id": "c-sanguozhi-016-duji-dushu:unit039",
+          "text": "恕倜儻任意而思不防患終致此敗初恕從趙郡還陳留阮武亦從清河太守徵俱自薄廷尉謂恕曰相觀才性可以由公道而持之不厲器能可以處大官而求之不順才學可以述古今而志之不一此所謂有其才而無其用今向閑暇可試潛思成一家言在章武遂著體論八篇",
+          "source_position": {
+            "source_layer": "received_body",
+            "first_line": 373,
+            "last_line": 379,
+            "raw_projection_ref": "source-evidence/sgz016-duji-dushu/fixed-complete-unit.json"
+          }
+        },
+        {
+          "id": "c-sanguozhi-016-duji-dushu:unit041",
+          "text": "又著興性論一篇蓋興於為已也四年卒於徙所甘露二年河東樂詳年九十餘上書訟畿之遺績朝廷感焉詔封恕子預為豐樂亭侯邑百户",
+          "source_position": {
+            "source_layer": "received_body",
+            "first_line": 381,
+            "last_line": 383,
+            "raw_projection_ref": "source-evidence/sgz016-duji-dushu/fixed-complete-unit.json"
+          }
+        }
+      ],
+      "intervening_notes_not_era_antecedents": [
+        "unit038",
+        "unit040"
+      ],
+      "rationale": "同一恕主傳正文037記徙章武並指是歲嘉平元年，039續徙所著述，041四年卒於徙所後才轉甘露二年。四年是省年號紀年而非在徙四年duration。章內注034孟康的嘉平末/正始與注042樂詳年號不繼承，不能向前借之。249元年第四個中國曆年度為252；原字仍四年，不改寫原quote成嘉平四年。",
+      "required_negative_cases": [
+        "把252改253或甘露四259",
+        "將後置甘露二年移作四年前件",
+        "交換前後日期錨或跳過新增正文年號",
+        "引用嵌注孟康/樂詳年號跨人回填",
+        "整段raw/offset共移且重hash",
+        "同一日期證據掛另一既存杜氏人物",
+        "將書信52歲掛252或反推birth"
+      ]
+    },
+    "expected_semantics": {
+      "status": "source_attested"
+    }
+  },
+  {
+    "slot": "death_li",
+    "subject": {
+      "$person": [
+        43,
+        1
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        1
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 25,
+      "end": 31,
+      "surface": "年二十一而卒",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-dushi-xinshu-sgz016-reference",
+    "kind": "death",
+    "expected_semantics": {
+      "status": "source_attested"
+    }
+  },
+  {
+    "slot": "death_kuan",
+    "subject": {
+      "$person": [
+        43,
+        5
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        5
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 86,
+      "end": 92,
+      "surface": "年四十二而卒",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-dushi-xinshu-sgz016-reference",
+    "kind": "death",
+    "expected_semantics": {
+      "status": "source_attested"
+    }
+  },
+  {
+    "slot": "death_bin",
+    "subject": {
+      "$person": [
+        43,
+        20
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        20
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 338,
+      "end": 345,
+      "surface": "為趙王倫所枉殺",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-jinzhugongzan-sgz022-luyu-reference",
+    "kind": "death",
+    "expected_semantics": {
+      "status": "source_attested"
+    }
+  },
+  {
+    "slot": "death_yi",
+    "subject": {
+      "$person": [
+        43,
+        24
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        43,
+        24
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+      "start": 359,
+      "end": 361,
+      "surface": "早卒",
+      "paragraph_sha256": "3cb6e4b1b0bc5b9222b6ac3a24779fe979d69447188649aa90d7079ff7dbe29b",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": "w-jinzhugongzan-sgz022-luyu-reference",
+    "kind": "death",
+    "expected_semantics": {
+      "status": "source_attested"
+    }
+  },
+  {
+    "slot": "origin_ji",
+    "subject": {
+      "$person": [
+        0,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        0,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit001",
+      "start": 5,
+      "end": 11,
+      "surface": "京兆杜陵人也",
+      "paragraph_sha256": "1632eecae5c2224c9470b226025ec28c4b7b8c4bbfdf778585d2836826b39a89",
+      "source_layer": "received_body"
+    },
+    "quoted_work_id": null,
+    "kind": "place",
+    "source_name": "京兆杜陵",
+    "context_anchor": null,
+    "expected_semantics": {
+      "status": "source_attested",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "京兆杜陵",
+        "modern_identification": null,
+        "place_id": null
+      },
+      "date_expression": null
+    }
+  },
+  {
+    "slot": "residence_ji",
+    "subject": {
+      "$person": [
+        0,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        0,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit003",
+      "start": 68,
+      "end": 71,
+      "surface": "客荆州",
+      "paragraph_sha256": "fd336b35a2180e6fbf93057b6b3e0b4a38e5d6a7b1a1de4b81a1fd77a4c57de3",
+      "source_layer": "received_body"
+    },
+    "quoted_work_id": null,
+    "kind": "place",
+    "source_name": "荆州",
+    "context_anchor": null,
+    "expected_semantics": {
+      "status": "source_attested",
+      "relation": "residence",
+      "place": {
+        "source_name": "荆州",
+        "modern_identification": null,
+        "place_id": null
+      },
+      "date_expression": null
+    }
+  },
+  {
+    "slot": "construction_ji",
+    "subject": {
+      "$person": [
+        0,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        0,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit019",
+      "start": 30,
+      "end": 37,
+      "surface": "作御樓船於陶河",
+      "paragraph_sha256": "a4475c10c9209407c41bddd693e5dd5b22ca983e5fcfe8093bd529a0529bb962",
+      "source_layer": "received_body"
+    },
+    "quoted_work_id": null,
+    "kind": "place",
+    "source_name": "陶河",
+    "context_anchor": null,
+    "expected_semantics": {
+      "status": "source_attested",
+      "relation": "service_location",
+      "place": {
+        "source_name": "陶河",
+        "modern_identification": null,
+        "place_id": null
+      },
+      "date_expression": null,
+      "qualifiers": {
+        "location_scope": "source_attested_task_activity",
+        "source_action": "作御樓船"
+      }
+    }
+  },
+  {
+    "slot": "death_place_ji",
+    "subject": {
+      "$person": [
+        0,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        0,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+      "start": 7,
+      "end": 16,
+      "surface": "於孟津試船遂至覆没",
+      "paragraph_sha256": "19aa1dae2325061fabe205f723f830abda651b371a747759533253b30d94473f",
+      "source_layer": "received_body"
+    },
+    "quoted_work_id": null,
+    "kind": "place",
+    "source_name": "孟津",
+    "context_anchor": null,
+    "expected_semantics": {
+      "status": "source_attested",
+      "relation": "death_place",
+      "place": {
+        "source_name": "孟津",
+        "modern_identification": null,
+        "place_id": null
+      },
+      "date_expression": null
+    }
+  },
+  {
+    "slot": "residence_shu",
+    "subject": {
+      "$person": [
+        24,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        24,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit036",
+      "start": 10,
+      "end": 26,
+      "surface": "營宜陽一泉塢因其壘壍之固小大家焉",
+      "paragraph_sha256": "62ee3c3412efc33bdee8435a3407988668797daba5e4d5e1dfd95f4a397327aa",
+      "source_layer": "pei_annotation"
+    },
+    "quoted_work_id": null,
+    "kind": "place",
+    "source_name": "宜陽一泉塢",
+    "context_anchor": null,
+    "expected_semantics": {
+      "status": "contextual_provisional",
+      "relation": "residence",
+      "place": {
+        "source_name": "宜陽一泉塢",
+        "modern_identification": null,
+        "place_id": null
+      },
+      "date_expression": null
+    }
+  },
+  {
+    "slot": "migration_shu",
+    "subject": {
+      "$person": [
+        24,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        24,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit037",
+      "start": 197,
+      "end": 201,
+      "surface": "徙章武郡",
+      "paragraph_sha256": "d7f9f55ccec2dd9bf4ce9934746f372f42184e0e360a9251612e244168c5c079",
+      "source_layer": "received_body"
+    },
+    "quoted_work_id": null,
+    "kind": "place",
+    "source_name": "章武郡",
+    "context_anchor": null,
+    "expected_semantics": {
+      "status": "source_attested",
+      "relation": "migration_destination",
+      "place": {
+        "source_name": "章武郡",
+        "modern_identification": null,
+        "place_id": null
+      },
+      "date_expression": null
+    }
+  },
+  {
+    "slot": "death_place_shu",
+    "subject": {
+      "$person": [
+        24,
+        0
+      ]
+    },
+    "subject_mention": {
+      "$mention": [
+        24,
+        0
+      ]
+    },
+    "anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit041",
+      "start": 15,
+      "end": 19,
+      "surface": "卒於徙所",
+      "paragraph_sha256": "73f6d9242f53fbd2b9c2aacf77c1bd61bbbb74252be2c877678426b157ddaeb8",
+      "source_layer": "received_body"
+    },
+    "quoted_work_id": null,
+    "kind": "place",
+    "source_name": "章武郡",
+    "context_anchor": {
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit037",
+      "start": 197,
+      "end": 201,
+      "surface": "徙章武郡",
+      "paragraph_sha256": "d7f9f55ccec2dd9bf4ce9934746f372f42184e0e360a9251612e244168c5c079",
+      "source_layer": "received_body"
+    },
+    "expected_semantics": {
+      "status": "contextual_provisional",
+      "relation": "death_place",
+      "place": {
+        "source_name": "章武郡",
+        "modern_identification": null,
+        "place_id": null
+      },
+      "date_expression": null
+    }
+  }
+]

@@ -4,6 +4,11 @@ from pathlib import Path
 import hashlib,json,re
 
 def source_errors(ch,root):
+ # Trusted attached-subsection chapters cannot drop their source binding.
+ try:from scripts.fixed_attached_subsection_selection import required_ref_error
+ except ImportError:from fixed_attached_subsection_selection import required_ref_error
+ required=required_ref_error(ch,root)
+ if required:return required
  ref=ch.get('annotation',{}).get('fixed_wikisource_unit_ref')
  if ref is None:return []
  try:
@@ -12,6 +17,10 @@ def source_errors(ch,root):
    p=Path(name);assert not p.is_absolute()and p.parts[0]in('source-evidence','sources','corpus')and'..'not in p.parts
    q=root/p;assert q.resolve()==q and q.is_file();return q
   b=json.loads(local(ref).read_text())
+  if b.get('record_type')=='fixed_wikisource_attached_subsection_selection':
+   try:from scripts.fixed_attached_subsection_selection import errors as attached_errors
+   except ImportError:from fixed_attached_subsection_selection import errors as attached_errors
+   return attached_errors(ch,root,b)
   if b.get('record_type')=='fixed_wikisource_linked_heading_quote_biography':
    try:from scripts.fixed_linked_heading_biography import errors as linked_errors
    except ImportError:from fixed_linked_heading_biography import errors as linked_errors

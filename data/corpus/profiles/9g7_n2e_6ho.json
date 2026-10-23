@@ -12,7 +12,8 @@
     "林",
     "崔使君",
     "卿使君",
-    "刺史"
+    "刺史",
+    "魏司空林"
   ],
   "titles": [
     {
@@ -409,6 +410,41 @@
       "chapter_id": "c-weishu-weishou-024-cuixuanbo",
       "source_id": "s-weishu-weishou-024-cuixuanbo",
       "work_title": "魏書（魏收）"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "盧諶／崔悅附傳選錄",
+      "paragraph_id": "c-jinshu-044-luchen-cuiyue:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "悅字道儒，魏司空林曾孫，劉琨妻子之侄也。與諶俱為琨司空從事中郎，後為末波佐史。沒石氏，亦居大官。其綽、憲、暢並別有傳。",
+      "paragraph_ids": [
+        "c-jinshu-044-luchen-cuiyue:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-luchen-cuiyue:p004:m0005"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-luchen-cuiyue:p004:m0005": "c-jinshu-044-luchen-cuiyue:p004"
+      },
+      "mention_id": "c-jinshu-044-luchen-cuiyue:p004:m0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-luchen-cuiyue:p004:m0005",
+          "mention_ids": [
+            "c-jinshu-044-luchen-cuiyue:p004:m0005"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-luchen-cuiyue",
+      "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -440,6 +476,35 @@
           "character_conversion": {},
           "extraction_note": "只去物理空白、¶與頁標；逐字座標保存，不改元伯/𤣥伯、悦/恱/悅、誅等源字。",
           "excerpts": []
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-044-luchen-cuiyue",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+      "source": {
+        "title": "《晉書》卷四十四盧諶完整附傳及崔悅附敘（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷044&oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷044&oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-10-23",
+        "extent": "從志子諶三級題頭至華表二級題頭之前，完整四原段；不是盧志全傳或卷044全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位轉錄依本站CC BY-SA條款。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file": "source-evidence/jin044-luchen-cuiyue/primary/jin044-ws1775345.wikitext",
+        "raw_path": "source-evidence/jin044-luchen-cuiyue/primary/jin044-ws1775345.wikitext",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面空白並展開YL與wiki顯示字，主薄/永和六年等不改，原題頭另存。"
         }
       }
     },
@@ -534,6 +599,125 @@
   ],
   "relations": [
     {
+      "id": "a-sgz024-cuilin-shu-father-lin",
+      "predicate": "father",
+      "subject_person_id": "wsx_4f7_xtj",
+      "object_person_id": "9g7_n2e_6ho",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子述嗣",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-024",
+          "source_id": "s-sanguozhi-024-cuilin",
+          "chapter_id": "c-sanguozhi-024-cuilin",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+          "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+          "subject_person_mention_id": "c-sanguozhi-024-cuilin:p009:m0021",
+          "object_person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "正文子述嗣明述為林子；子字支持父子，嗣不單獨當血緣。未名分邑一子不選作述。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "shu-father-lin"
+      }
+    },
+    {
+      "id": "a-sgz024-cuilin-wei-grandfather-lin",
+      "predicate": "grandfather",
+      "subject_person_id": "s0r_qhp_wik",
+      "object_person_id": "9g7_n2e_6ho",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "林孫瑋",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal",
+        "generation_distance": 2,
+        "generation_difference": -2,
+        "parent_person_id": null,
+        "intermediate_person_ids": [
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-024",
+          "source_id": "s-sanguozhi-024-cuilin",
+          "chapter_id": "c-sanguozhi-024-cuilin",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p010",
+          "quote": "晉諸公贊曰述弟隨晉尚書僕射為人亮濟趙王倫簒位隨與其事倫敗隨亦廢錮而卒林孫瑋性率而踈至太子右衛率也初林識拔同郡王經於民伍之中卒為名士世以此稱之",
+          "subject_person_mention_id": "c-sanguozhi-024-cuilin:p010:m0036",
+          "object_person_mention_id": "c-sanguozhi-024-cuilin:p010:m0034"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "裴注林孫瑋，客體林早兩代；未載父名，parent空、中間一代未知，不選述／隨或未名封子。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "wei-grandfather-lin"
+      }
+    },
+    {
+      "id": "a-sgz024-cuilin-lin-younger-agnatic-cousin-yan",
+      "predicate": "agnatic_cousin",
+      "subject_person_id": "9g7_n2e_6ho",
+      "object_person_id": "i6e_n75_es1",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "從兄琰",
+        "source_interpretation_status": "explicit_source_wording",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "i6e_n75_es1",
+          "younger_person_id": "9g7_n2e_6ho",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-024",
+          "source_id": "s-sanguozhi-024-cuilin",
+          "chapter_id": "c-sanguozhi-024-cuilin",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p001",
+          "quote": "崔林字徳儒清河東武城人也少時晚成宗族莫知惟從兄琰異之太祖定冀州召除鄔長貧無車馬單歩之官太祖征壺關問長吏徳政最者并州刺史張陟以林對於是擢為冀州主簿徙署别駕丞相掾屬魏國既建稍遷御史中丞文帝踐阼拜尚書出為幽州刺史北中郎將吳質統河北軍事涿郡太守王雄謂林别駕曰吳中郎將上所親重國之貴臣也杖節統事州郡莫不奉牋致敬而崔使君初不與相聞若以邊塞不修斬卿使君寧能䕶卿邪别駕具以白林林曰刺史視去此州如脫屣寧當相累邪此州與胡虜接宜鎮之以靜擾之則動其逆心特為國家生北顧憂以此為寄在官一期冦竊寢息",
+          "subject_person_mention_id": "c-sanguozhi-024-cuilin:p001:m0000",
+          "object_person_mention_id": "c-sanguozhi-024-cuilin:p001:m0023"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "傳首惟從兄琰異之，琰為林父系同代較長旁親；共同祖與親等未知，不接家族或改號。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "lin-younger-agnatic-cousin-yan"
+      }
+    },
+    {
       "id": "a-cui53-012",
       "subject_person_id": "yd9_rqt_a0v_AA",
       "object_person_id": "9g7_n2e_6ho",
@@ -564,6 +748,9 @@
   ],
   "related_people": {
     "9g7_n2e_6ho": "崔林",
+    "i6e_n75_es1": "崔琰",
+    "s0r_qhp_wik": "瑋〔崔林孫，太子右衛率〕",
+    "wsx_4f7_xtj": "述〔崔林嗣子〕",
     "yd9_rqt_a0v_AA": "崔宏"
   },
   "dates": [],
@@ -590,6 +777,125 @@
     "9g7_n2e_6ho"
   ],
   "preferred_relations": [
+    {
+      "id": "a-sgz024-cuilin-shu-father-lin",
+      "predicate": "father",
+      "subject_person_id": "wsx_4f7_xtj",
+      "object_person_id": "9g7_n2e_6ho",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子述嗣",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-024",
+          "source_id": "s-sanguozhi-024-cuilin",
+          "chapter_id": "c-sanguozhi-024-cuilin",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+          "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+          "subject_person_mention_id": "c-sanguozhi-024-cuilin:p009:m0021",
+          "object_person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "正文子述嗣明述為林子；子字支持父子，嗣不單獨當血緣。未名分邑一子不選作述。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "shu-father-lin"
+      }
+    },
+    {
+      "id": "a-sgz024-cuilin-wei-grandfather-lin",
+      "predicate": "grandfather",
+      "subject_person_id": "s0r_qhp_wik",
+      "object_person_id": "9g7_n2e_6ho",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "林孫瑋",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal",
+        "generation_distance": 2,
+        "generation_difference": -2,
+        "parent_person_id": null,
+        "intermediate_person_ids": [
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-024",
+          "source_id": "s-sanguozhi-024-cuilin",
+          "chapter_id": "c-sanguozhi-024-cuilin",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p010",
+          "quote": "晉諸公贊曰述弟隨晉尚書僕射為人亮濟趙王倫簒位隨與其事倫敗隨亦廢錮而卒林孫瑋性率而踈至太子右衛率也初林識拔同郡王經於民伍之中卒為名士世以此稱之",
+          "subject_person_mention_id": "c-sanguozhi-024-cuilin:p010:m0036",
+          "object_person_mention_id": "c-sanguozhi-024-cuilin:p010:m0034"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "裴注林孫瑋，客體林早兩代；未載父名，parent空、中間一代未知，不選述／隨或未名封子。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "wei-grandfather-lin"
+      }
+    },
+    {
+      "id": "a-sgz024-cuilin-lin-younger-agnatic-cousin-yan",
+      "predicate": "agnatic_cousin",
+      "subject_person_id": "9g7_n2e_6ho",
+      "object_person_id": "i6e_n75_es1",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "從兄琰",
+        "source_interpretation_status": "explicit_source_wording",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "i6e_n75_es1",
+          "younger_person_id": "9g7_n2e_6ho",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-024",
+          "source_id": "s-sanguozhi-024-cuilin",
+          "chapter_id": "c-sanguozhi-024-cuilin",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p001",
+          "quote": "崔林字徳儒清河東武城人也少時晚成宗族莫知惟從兄琰異之太祖定冀州召除鄔長貧無車馬單歩之官太祖征壺關問長吏徳政最者并州刺史張陟以林對於是擢為冀州主簿徙署别駕丞相掾屬魏國既建稍遷御史中丞文帝踐阼拜尚書出為幽州刺史北中郎將吳質統河北軍事涿郡太守王雄謂林别駕曰吳中郎將上所親重國之貴臣也杖節統事州郡莫不奉牋致敬而崔使君初不與相聞若以邊塞不修斬卿使君寧能䕶卿邪别駕具以白林林曰刺史視去此州如脫屣寧當相累邪此州與胡虜接宜鎮之以靜擾之則動其逆心特為國家生北顧憂以此為寄在官一期冦竊寢息",
+          "subject_person_mention_id": "c-sanguozhi-024-cuilin:p001:m0000",
+          "object_person_mention_id": "c-sanguozhi-024-cuilin:p001:m0023"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "傳首惟從兄琰異之，琰為林父系同代較長旁親；共同祖與親等未知，不接家族或改號。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "lin-younger-agnatic-cousin-yan"
+      }
+    },
     {
       "id": "a-cui53-012",
       "subject_person_id": "yd9_rqt_a0v_AA",

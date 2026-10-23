@@ -174,7 +174,42 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-sgz016-du-death_stepmother",
+      "person_id": "thu_bi0_j4b",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit006",
+          "quote": "魏略曰畿少有大志在荆州數嵗繼母亡後以三輔開通負其母喪北歸道為賊所劫略衆人奔走畿獨不去賊射之畿請賊曰卿欲得財耳今我無物用射我何為耶賊乃止畿到鄉里京兆尹張時河東人也與畿有舊署為功曹嘗嫌其闊達不助留意於諸事言此家疏誕不中功曹也畿竊云不中功曹中河東太守也",
+          "person_mention_id": "c-sanguozhi-016-duji-dushu:unit006:m0013"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "與既存繼母同人thread；不改生母，死地與喪葬位置不明。 引文層所引作品：w-weilue-sgz028-reference；非親讀該亡佚原書。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "death_stepmother"
+      },
+      "source_term": "繼母亡",
+      "date_expression": null,
+      "event_type": "death",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-016-duji-dushu:unit006",
+        "start": 13,
+        "end": 16,
+        "surface": "繼母亡"
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

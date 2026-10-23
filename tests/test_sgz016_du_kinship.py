@@ -8,9 +8,9 @@ from scripts import fixed_kanripo_fact_slots as facts
 class DuKinship(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
-  cls.ch=json.loads((ROOT/'corpus/sanguozhi/016-duji-dushu.json').read_bytes());cls.rs=facts.records(cls.ch,ROOT);cls.by={r['fixed_source_fact_binding']['slot']:r for r in cls.rs}
+  cls.ch=json.loads((ROOT/'corpus/sanguozhi/016-duji-dushu.json').read_bytes());cls.all_rs=facts.records(cls.ch,ROOT);cls.rs=[r for r in cls.all_rs if 'predicate'in r];cls.by={r['fixed_source_fact_binding']['slot']:r for r in cls.rs}
  def test_complete_44_received_and_note_units(self):
-  self.assertEqual(len(self.ch['paragraphs']),44);self.assertEqual(len(self.rs),9);self.assertEqual({p['source_position']['source_layer']for p in self.ch['paragraphs']},{'received_body','pei_annotation'})
+  self.assertEqual(len(self.ch['paragraphs']),44);self.assertEqual(len(self.rs),9);self.assertEqual(len(self.all_rs),36);self.assertEqual({p['source_position']['source_layer']for p in self.ch['paragraphs']},{'received_body','pei_annotation'})
  def test_all_source_records_validate(self):
   self.assertTrue(all(facts.valid(r,self.ch,ROOT)for r in self.rs))
  def test_all_endpoint_directions_are_fixed(self):

@@ -986,22 +986,49 @@
   ],
   "name_components": [
     {
+      "id": "nc-jin075-xun-14",
       "person_id": "yoo_ox0_545_BABAAAA",
-      "title": null,
+      "chapter_id": "c-jinshu-075-xunsong-families",
+      "paragraph_id": "c-jinshu-075-xunsong-families:xunrui-full:p001",
+      "person_mention_id": "c-jinshu-075-xunsong-families:xunrui-full:p001:m0000",
       "surname": "荀",
       "ming": "蕤",
       "additional_names": [],
-      "work_id": "w-jinshu",
-      "book_id": "b-jinshu-075",
-      "chapter_id": "c-jinshu-075-xunsong-families",
-      "source_id": "s-jinshu-075-xunsong-families",
-      "paragraph_id": "c-jinshu-075-xunsong-families:xunrui-full:p001",
       "quote": "蕤字令遠。起家秘書郎，稍遷尚書左丞。蕤有儀操風望，雅為簡文帝所重。時桓溫平蜀，朝廷欲以豫章郡封溫。蕤言於帝曰：「若溫復假王威，北平河洛，修復園陵，將何以加此！」於是乃止。轉散騎常侍、少府，不拜，出補東陽太守。除建威將軍、吳國內史。卒官。籍嗣位，至散騎常侍、大長秋。",
-      "note": "姓名、字與稱號分欄；未知本名、世系和年月不補。",
-      "status": "editorial_provisional",
+      "status": "contextual_provisional",
       "human_reviewed": false,
       "model": null,
-      "zi": "令遠"
+      "interpretation_note": "原文此處只名；姓氏另依下列同源明父系或旁系稱用作有資格判讀，不把拼接姓名冒作原文全名。",
+      "zi": "令遠",
+      "surname_basis": {
+        "kind": "contextual_surname_from_archived_excerpt_paths",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "source_name_record_id": "nc-jin075-xun-01",
+        "steps": [
+          {
+            "assertion_id": "a-jinshu075-xunsong-010",
+            "traversal": "object_to_subject"
+          }
+        ],
+        "rationale": "本源完整明名種子與明示父系/旁系逐邊承姓；不推共同祖先、未名父或母系婚配。"
+      },
+      "archived_excerpt_fact_binding": {
+        "kind": "fixed_archived_excerpt_fact",
+        "key": "jin075-xun-archived-excerpts",
+        "slot": "name14"
+      },
+      "title": null,
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "source_id": "s-jinshu-075-xunsong-families",
+      "note": "姓名、字與稱號分欄；未知本名、世系和年月不補。",
+      "migrated_source_qualification": {
+        "prior_status": "editorial_provisional",
+        "prior_record_had_stable_id": false,
+        "prior_storage": "data/corpus/profile-names.json",
+        "qualification": "既有來源記錄的原判讀資格保留；現姓名角色及省姓路徑另以受信節錄驗證，不將舊判讀當獨立來源票。"
+      }
     }
   ],
   "person_ids": [

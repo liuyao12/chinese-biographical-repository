@@ -353,7 +353,222 @@
     "fixed_kanripo_fact_slots_ref": {
       "kind": "fixed_kanripo_person_fact_slots",
       "key": "sgz016-duji-dushu-kinship"
-    }
+    },
+    "age_assertions": [
+      {
+        "id": "age-sgz016-du-age_ji_20",
+        "person_id": "56f_8f7_e9f",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-016",
+            "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+            "chapter_id": "c-sanguozhi-016-duji-dushu",
+            "paragraph_id": "c-sanguozhi-016-duji-dushu:unit003",
+            "quote": "少孤繼母苦之以孝聞年二十為郡功曹守鄭縣令縣囚繫數百人畿親臨獄裁其輕重盡決遣之雖未悉當郡中竒其年少而有大志也舉孝廉除漢中府丞㑹天下亂遂棄官客荆州建安中乃還荀彧進之太祖",
+            "person_mention_id": "c-sanguozhi-016-duji-dushu:unit003:m0005"
+          }
+        ],
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "interpretation_note": "原文報齡；不作生日、婚齡、任職精確日期或出生年。",
+        "fixed_source_fact_binding": {
+          "kind": "fixed_kanripo_person_fact_slots",
+          "key": "sgz016-duji-dushu-kinship",
+          "slot": "age_ji_20"
+        },
+        "source_term": "年二十",
+        "date_expression": null,
+        "source_anchor": {
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit003",
+          "start": 9,
+          "end": 12,
+          "surface": "年二十"
+        },
+        "source_number": "二十",
+        "value": 20,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "age_context": {
+          "kind": "during_life"
+        },
+        "reporting_status": "direct_report"
+      },
+      {
+        "id": "age-sgz016-du-age_ji_62",
+        "person_id": "56f_8f7_e9f",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-016",
+            "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+            "chapter_id": "c-sanguozhi-016-duji-dushu",
+            "paragraph_id": "c-sanguozhi-016-duji-dushu:unit020",
+            "quote": "魏氏春秋曰初畿嘗見童子謂之曰司命使我召子畿固請之童子曰今將為君求相代者君其愼勿言言卒忽然不見至此二十年矣畿乃言之其日而卒時年六十二",
+            "person_mention_id": "c-sanguozhi-016-duji-dushu:unit020:m0006"
+          }
+        ],
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "interpretation_note": "62為神異故事結尾的來源報齡，童子司命與其日卒敘事不當史實已核。 引文層所引作品：w-weishichunqiu-sgz028-reference；非親讀該亡佚原書。",
+        "fixed_source_fact_binding": {
+          "kind": "fixed_kanripo_person_fact_slots",
+          "key": "sgz016-duji-dushu-kinship",
+          "slot": "age_ji_62"
+        },
+        "source_term": "時年六十二",
+        "date_expression": null,
+        "source_anchor": {
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit020",
+          "start": 60,
+          "end": 65,
+          "surface": "時年六十二"
+        },
+        "source_number": "六十二",
+        "value": 62,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-sgz016-du-death_ji"
+        },
+        "reporting_status": "direct_report"
+      },
+      {
+        "id": "age-sgz016-du-age_shu_52",
+        "person_id": "56f_8f7_e9f_A",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-016",
+            "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+            "chapter_id": "c-sanguozhi-016-duji-dushu",
+            "paragraph_id": "c-sanguozhi-016-duji-dushu:unit038",
+            "quote": "杜氏新書曰喜欲恕折節謝已諷司馬宋權示之以㣲意恕答權書曰况示委曲夫法天下事以善意相待無不致快也以不善意相待無不致嫌隙也而議者言凡人天性皆不善不當待以善意更墮其調中僕得此輩便欲歸蹈滄海乘桴耳不能自諧在其間也然以年五十二不見廢棄頗亦遭明達君子亮其本心若不見亮使人刳心著地正與數斤肉相似何足有所明故終不自觧說程征北功名宿著在僕前甚多有人出征北乎若令下官亊無大小咨而後行則非上司彈繩之意若咨而不從又非上下相順之宜故推一心任一意直而行之耳殺胡之事天下謂之是邪是僕諧也呼為非邪僕自受之無所怨咎程征北明之亦善不明之亦善諸君子自共為其心耳不在僕言也喜於是遂深文劾恕",
+            "person_mention_id": "c-sanguozhi-016-duji-dushu:unit038:m0007"
+          }
+        ],
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "interpretation_note": "52為恕書信中自述，註補敘可能早於劾奏，不借正文249或卒年252替其定年；不反算出生。 引文層所引作品：w-dushi-xinshu-sgz016-reference；非親讀該亡佚原書。",
+        "fixed_source_fact_binding": {
+          "kind": "fixed_kanripo_person_fact_slots",
+          "key": "sgz016-duji-dushu-kinship",
+          "slot": "age_shu_52"
+        },
+        "source_term": "年五十二",
+        "date_expression": null,
+        "source_anchor": {
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit038",
+          "start": 102,
+          "end": 107,
+          "surface": "以年五十二"
+        },
+        "source_number": "五十二",
+        "value": 52,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "age_context": {
+          "kind": "during_life"
+        },
+        "reporting_status": "direct_report"
+      },
+      {
+        "id": "age-sgz016-du-age_li_21",
+        "person_id": "56f_8f7_e9f_B",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-016",
+            "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+            "chapter_id": "c-sanguozhi-016-duji-dushu",
+            "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+            "quote": "杜氏新書曰恕弟理字務仲少而機察精要畿竒之故名之曰理年二十一而卒弟寛字務叔清虚玄静敏而好古以名臣門户少長京師而篤志博學絶於世務其意欲探賾索隐由此顯名當塗之士多交焉舉孝廉除郎中年四十二而卒經傳之義多所論駁皆草創未就惟刪集禮記及春秋左氏傳觧今存于世預字元凱司馬宣王女壻王隐晉書稱預智謨淵博明於理亂常稱徳者非所以企及立功立言所庶幾也大觀羣典謂公羊穀梁詭辯之言又非先儒說左氏未究丘明意而橫以二傳亂之乃錯綜㣲言著春秋左氏經傳集觧又參考衆家謂之釋例又作盟㑹圖春秋長歴備成一家之學至老乃成尚書郎摰虞甚重之曰左丘明本為春秋作傳而左傳遂自孤行釋例本為傳設而所發明何但左傳故亦孤行預有大功名於晉室位至征南大將軍開府封當陽侯食邑八千户子錫字世嘏尚書左丞晉諸公贊曰嘏有氣局預從兄斌字世將亦有才望為黃門郎為趙王倫所枉殺嘏子乂字洪治少有令名為丹陽丞早卒阮武者亦拓落大才也案阮氏譜武父諶字士信徵辟無所就造三禮圖傳於世杜氏新書曰武字文業闊達博通淵雅之士位止清河太守武弟炳字叔文河南尹精意醫術撰藥方一部炳子坦字弘舒晉太子少傅平東將軍坦弟柯字士度荀綽兖州記曰坦出紹伯父亡次兄當襲爵父愛柯言名傳之遂承封時㓜小不能讓及長悔恨遂幅巾而居後雖出身未嘗釋也性純篤閑雅好禮無違存心經誥博學洽聞選為濮陽王文學遷領軍長史喪官王衍時為領軍哭之甚慟",
+            "person_mention_id": "c-sanguozhi-016-duji-dushu:unit044:m0007"
+          }
+        ],
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "interpretation_note": "原文報齡；不作生日、婚齡、任職精確日期或出生年。 引文層所引作品：w-dushi-xinshu-sgz016-reference；非親讀該亡佚原書。",
+        "fixed_source_fact_binding": {
+          "kind": "fixed_kanripo_person_fact_slots",
+          "key": "sgz016-duji-dushu-kinship",
+          "slot": "age_li_21"
+        },
+        "source_term": "年二十一",
+        "date_expression": null,
+        "source_anchor": {
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+          "start": 25,
+          "end": 31,
+          "surface": "年二十一而卒"
+        },
+        "source_number": "二十一",
+        "value": 21,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-sgz016-du-death_li"
+        },
+        "reporting_status": "direct_report"
+      },
+      {
+        "id": "age-sgz016-du-age_kuan_42",
+        "person_id": "56f_8f7_e9f_C",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-016",
+            "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+            "chapter_id": "c-sanguozhi-016-duji-dushu",
+            "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+            "quote": "杜氏新書曰恕弟理字務仲少而機察精要畿竒之故名之曰理年二十一而卒弟寛字務叔清虚玄静敏而好古以名臣門户少長京師而篤志博學絶於世務其意欲探賾索隐由此顯名當塗之士多交焉舉孝廉除郎中年四十二而卒經傳之義多所論駁皆草創未就惟刪集禮記及春秋左氏傳觧今存于世預字元凱司馬宣王女壻王隐晉書稱預智謨淵博明於理亂常稱徳者非所以企及立功立言所庶幾也大觀羣典謂公羊穀梁詭辯之言又非先儒說左氏未究丘明意而橫以二傳亂之乃錯綜㣲言著春秋左氏經傳集觧又參考衆家謂之釋例又作盟㑹圖春秋長歴備成一家之學至老乃成尚書郎摰虞甚重之曰左丘明本為春秋作傳而左傳遂自孤行釋例本為傳設而所發明何但左傳故亦孤行預有大功名於晉室位至征南大將軍開府封當陽侯食邑八千户子錫字世嘏尚書左丞晉諸公贊曰嘏有氣局預從兄斌字世將亦有才望為黃門郎為趙王倫所枉殺嘏子乂字洪治少有令名為丹陽丞早卒阮武者亦拓落大才也案阮氏譜武父諶字士信徵辟無所就造三禮圖傳於世杜氏新書曰武字文業闊達博通淵雅之士位止清河太守武弟炳字叔文河南尹精意醫術撰藥方一部炳子坦字弘舒晉太子少傅平東將軍坦弟柯字士度荀綽兖州記曰坦出紹伯父亡次兄當襲爵父愛柯言名傳之遂承封時㓜小不能讓及長悔恨遂幅巾而居後雖出身未嘗釋也性純篤閑雅好禮無違存心經誥博學洽聞選為濮陽王文學遷領軍長史喪官王衍時為領軍哭之甚慟",
+            "person_mention_id": "c-sanguozhi-016-duji-dushu:unit044:m0032"
+          }
+        ],
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "interpretation_note": "原文報齡；不作生日、婚齡、任職精確日期或出生年。 引文層所引作品：w-dushi-xinshu-sgz016-reference；非親讀該亡佚原書。",
+        "fixed_source_fact_binding": {
+          "kind": "fixed_kanripo_person_fact_slots",
+          "key": "sgz016-duji-dushu-kinship",
+          "slot": "age_kuan_42"
+        },
+        "source_term": "年四十二",
+        "date_expression": null,
+        "source_anchor": {
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit044",
+          "start": 86,
+          "end": 92,
+          "surface": "年四十二而卒"
+        },
+        "source_number": "四十二",
+        "value": 42,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-sgz016-du-death_kuan"
+        },
+        "reporting_status": "direct_report"
+      }
+    ]
   },
   "paragraphs": [
     {
@@ -2893,7 +3108,7 @@
           "end": 34,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         }
@@ -3160,7 +3375,7 @@
           "end": 1,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3170,7 +3385,7 @@
           "end": 4,
           "surface": "務伯",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         }
@@ -3203,7 +3418,7 @@
           "end": 6,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3233,7 +3448,7 @@
           "end": 35,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3273,7 +3488,7 @@
           "end": 71,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3293,7 +3508,7 @@
           "end": 84,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3313,7 +3528,7 @@
           "end": 102,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3333,7 +3548,7 @@
           "end": 111,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         }
@@ -3356,7 +3571,7 @@
           "end": 1,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3376,7 +3591,7 @@
           "end": 55,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3612,7 +3827,7 @@
           "end": 262,
           "surface": "臣",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3672,7 +3887,7 @@
           "end": 557,
           "surface": "臣",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3682,7 +3897,7 @@
           "end": 661,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3733,7 +3948,7 @@
           "end": 752,
           "surface": "臣",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3803,7 +4018,7 @@
           "end": 840,
           "surface": "臣",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -3813,7 +4028,7 @@
           "end": 897,
           "surface": "臣",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4006,7 +4221,7 @@
           "end": 34,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         }
@@ -4039,7 +4254,7 @@
           "end": 14,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4079,7 +4294,7 @@
           "end": 73,
           "surface": "臣",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4139,7 +4354,7 @@
           "end": 259,
           "surface": "臣",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4239,7 +4454,7 @@
           "end": 595,
           "surface": "臣",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4389,7 +4604,7 @@
           "end": 887,
           "surface": "臣",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4552,7 +4767,7 @@
           "end": 29,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4645,7 +4860,7 @@
           "end": 53,
           "surface": "臣",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4725,7 +4940,7 @@
           "end": 351,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         }
@@ -4758,7 +4973,7 @@
           "end": 4,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4778,7 +4993,7 @@
           "end": 19,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4913,7 +5128,7 @@
           "end": 6,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4933,7 +5148,7 @@
           "end": 34,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         }
@@ -4956,7 +5171,7 @@
           "end": 21,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -4976,7 +5191,7 @@
           "end": 51,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5006,7 +5221,7 @@
           "end": 102,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5046,7 +5261,7 @@
           "end": 120,
           "surface": "足下",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5056,7 +5271,7 @@
           "end": 137,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5096,7 +5311,7 @@
           "end": 181,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5149,7 +5364,7 @@
           "end": 8,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5169,7 +5384,7 @@
           "end": 23,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5199,7 +5414,7 @@
           "end": 81,
           "surface": "僕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5219,7 +5434,7 @@
           "end": 159,
           "surface": "僕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5239,7 +5454,7 @@
           "end": 172,
           "surface": "下官",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5249,7 +5464,7 @@
           "end": 225,
           "surface": "僕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5259,7 +5474,7 @@
           "end": 232,
           "surface": "僕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5279,7 +5494,7 @@
           "end": 263,
           "surface": "僕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5299,7 +5514,7 @@
           "end": 273,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         }
@@ -5322,7 +5537,7 @@
           "end": 1,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5332,7 +5547,7 @@
           "end": 16,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5352,7 +5567,7 @@
           "end": 38,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5362,7 +5577,7 @@
           "end": 82,
           "surface": "其",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5372,7 +5587,7 @@
           "end": 86,
           "surface": "其",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5468,7 +5683,7 @@
           "end": 45,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5478,7 +5693,7 @@
           "end": 47,
           "surface": "預",
           "kind": "person",
-          "person_id": "yh6_z1j_fsd",
+          "person_id": "56f_8f7_e9f_AA",
           "status": "contextual_provisional",
           "interpretation_note": "詔封恕子預、元凱、宣王女壻、著集解釋例及子錫世嘏共同事跡與034完整本傳一致，不按單字預指呂粹子預。"
         }
@@ -5674,7 +5889,7 @@
           "end": 1,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         }
@@ -5707,7 +5922,7 @@
           "end": 6,
           "surface": "恕",
           "kind": "person",
-          "person_id": "ip4_zrh_ttx",
+          "person_id": "56f_8f7_e9f_A",
           "status": "contextual_provisional",
           "interpretation_note": "本傳子恕嗣、務伯及幽州刺史，與034杜預父恕幽州刺史/幽死為具體父子官履橋。"
         },
@@ -5717,7 +5932,7 @@
           "end": 8,
           "surface": "理",
           "kind": "person",
-          "person_id": "1v2_fto_d6i",
+          "person_id": "56f_8f7_e9f_B",
           "status": "contextual_provisional",
           "interpretation_note": "杜氏新書明恕弟理字務仲、畿名之；保名省姓來源，不預父邊或年二十一生日。"
         },
@@ -5727,7 +5942,7 @@
           "end": 11,
           "surface": "務仲",
           "kind": "person",
-          "person_id": "1v2_fto_d6i",
+          "person_id": "56f_8f7_e9f_B",
           "status": "contextual_provisional",
           "interpretation_note": "杜氏新書明恕弟理字務仲、畿名之；保名省姓來源，不預父邊或年二十一生日。"
         },
@@ -5747,7 +5962,7 @@
           "end": 25,
           "surface": "理",
           "kind": "person",
-          "person_id": "1v2_fto_d6i",
+          "person_id": "56f_8f7_e9f_B",
           "status": "contextual_provisional",
           "interpretation_note": "杜氏新書明恕弟理字務仲、畿名之；保名省姓來源，不預父邊或年二十一生日。"
         },
@@ -5757,7 +5972,7 @@
           "end": 33,
           "surface": "寛",
           "kind": "person",
-          "person_id": "2zk_ohv_7f3",
+          "person_id": "56f_8f7_e9f_C",
           "status": "contextual_provisional",
           "interpretation_note": "弟寛字務叔、刪集禮記等與弟理分二人；不由列序補絕對排行。"
         },
@@ -5767,7 +5982,7 @@
           "end": 36,
           "surface": "務叔",
           "kind": "person",
-          "person_id": "2zk_ohv_7f3",
+          "person_id": "56f_8f7_e9f_C",
           "status": "contextual_provisional",
           "interpretation_note": "弟寛字務叔、刪集禮記等與弟理分二人；不由列序補絕對排行。"
         },
@@ -5797,7 +6012,7 @@
           "end": 122,
           "surface": "預",
           "kind": "person",
-          "person_id": "yh6_z1j_fsd",
+          "person_id": "56f_8f7_e9f_AA",
           "status": "contextual_provisional",
           "interpretation_note": "詔封恕子預、元凱、宣王女壻、著集解釋例及子錫世嘏共同事跡與034完整本傳一致，不按單字預指呂粹子預。"
         },
@@ -5807,7 +6022,7 @@
           "end": 125,
           "surface": "元凱",
           "kind": "person",
-          "person_id": "yh6_z1j_fsd",
+          "person_id": "56f_8f7_e9f_AA",
           "status": "contextual_provisional",
           "interpretation_note": "詔封恕子預、元凱、宣王女壻、著集解釋例及子錫世嘏共同事跡與034完整本傳一致，不按單字預指呂粹子預。"
         },
@@ -5847,7 +6062,7 @@
           "end": 137,
           "surface": "預",
           "kind": "person",
-          "person_id": "yh6_z1j_fsd",
+          "person_id": "56f_8f7_e9f_AA",
           "status": "contextual_provisional",
           "interpretation_note": "詔封恕子預、元凱、宣王女壻、著集解釋例及子錫世嘏共同事跡與034完整本傳一致，不按單字預指呂粹子預。"
         },
@@ -6008,7 +6223,7 @@
           "end": 280,
           "surface": "預",
           "kind": "person",
-          "person_id": "yh6_z1j_fsd",
+          "person_id": "56f_8f7_e9f_AA",
           "status": "contextual_provisional",
           "interpretation_note": "詔封恕子預、元凱、宣王女壻、著集解釋例及子錫世嘏共同事跡與034完整本傳一致，不按單字預指呂粹子預。"
         },
@@ -6018,7 +6233,7 @@
           "end": 307,
           "surface": "錫",
           "kind": "person",
-          "person_id": "opc_jvk_p6i",
+          "person_id": "56f_8f7_e9f_AAB",
           "status": "contextual_provisional",
           "interpretation_note": "杜預子錫字世嘏尚書左丞、其子乂丹陽丞，與034錫附傳及093外參父錫/祖預明合。"
         },
@@ -6028,7 +6243,7 @@
           "end": 310,
           "surface": "世嘏",
           "kind": "person",
-          "person_id": "opc_jvk_p6i",
+          "person_id": "56f_8f7_e9f_AAB",
           "status": "contextual_provisional",
           "interpretation_note": "杜預子錫字世嘏尚書左丞、其子乂丹陽丞，與034錫附傳及093外參父錫/祖預明合。"
         },
@@ -6048,7 +6263,7 @@
           "end": 320,
           "surface": "嘏",
           "kind": "person",
-          "person_id": "opc_jvk_p6i",
+          "person_id": "56f_8f7_e9f_AAB",
           "status": "contextual_provisional",
           "interpretation_note": "杜預子錫字世嘏尚書左丞、其子乂丹陽丞，與034錫附傳及093外參父錫/祖預明合。"
         },
@@ -6058,7 +6273,7 @@
           "end": 324,
           "surface": "預",
           "kind": "person",
-          "person_id": "yh6_z1j_fsd",
+          "person_id": "56f_8f7_e9f_AA",
           "status": "contextual_provisional",
           "interpretation_note": "詔封恕子預、元凱、宣王女壻、著集解釋例及子錫世嘏共同事跡與034完整本傳一致，不按單字預指呂粹子預。"
         },
@@ -6098,7 +6313,7 @@
           "end": 346,
           "surface": "嘏",
           "kind": "person",
-          "person_id": "opc_jvk_p6i",
+          "person_id": "56f_8f7_e9f_AAB",
           "status": "contextual_provisional",
           "interpretation_note": "杜預子錫字世嘏尚書左丞、其子乂丹陽丞，與034錫附傳及093外參父錫/祖預明合。"
         },
@@ -6108,7 +6323,7 @@
           "end": 348,
           "surface": "乂",
           "kind": "person",
-          "person_id": "a2u_2ji_h68",
+          "person_id": "56f_8f7_e9f_AABA",
           "status": "contextual_provisional",
           "interpretation_note": "本注世嘏子乂洪治、丹陽丞早卒，與034子乂嗣及已讀093外戚傳父錫/祖預/丹陽丞同指；弘理/洪治不改原字。"
         },
@@ -6118,7 +6333,7 @@
           "end": 351,
           "surface": "洪治",
           "kind": "person",
-          "person_id": "a2u_2ji_h68",
+          "person_id": "56f_8f7_e9f_AABA",
           "status": "contextual_provisional",
           "interpretation_note": "本注世嘏子乂洪治、丹陽丞早卒，與034子乂嗣及已讀093外戚傳父錫/祖預/丹陽丞同指；弘理/洪治不改原字。"
         },

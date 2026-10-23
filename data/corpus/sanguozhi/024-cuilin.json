@@ -36,7 +36,7 @@
     "human_reviewed": false,
     "model": null,
     "reviewer": "Codex（AI代理）",
-    "completion_note": "完整單元及全部裴注初次逐人/引書辨識；群體與未名持職等另列未決。尚未新增typed親屬、姓名、官爵或生卒。",
+    "completion_note": "完整單元及全部裴注已逐人/引書初核；四項近親已型別化，其他姓名/官爵/生卒仍待另批。",
     "fixed_kanripo_projection_ref": "source-evidence/sgz024-cuilin/projection.json",
     "unresolved_occurrence_ledger": [
       {
@@ -158,7 +158,11 @@
       "博士傅祗不按同名合晉傅祗；安定太守孟達不合新城孟達。",
       "崔林與魏司空林已依完整官序及同清河籍首選接合；六世孫原詞與世距null保留，缺代父系及近親另批審理。",
       "source-only表示本批資料型別範圍，不表示所有受提人物全庫無其他typed資料。"
-    ]
+    ],
+    "fixed_kanripo_fact_slots_ref": {
+      "kind": "fixed_kanripo_person_fact_slots",
+      "key": "sgz024-cuilin-four-kinship"
+    }
   },
   "paragraphs": [
     {
@@ -416,13 +420,13 @@
         },
         {
           "id": "c-sanguozhi-024-cuilin:p001:m0194",
-          "start": 194,
-          "end": 195,
-          "surface": "累",
+          "start": 193,
+          "end": 194,
+          "surface": "相",
           "kind": "person",
           "person_id": "1fj_6w7_qqo",
           "status": "contextual_provisional",
-          "interpretation_note": "林答別駕不相累，受話者該別駕。"
+          "interpretation_note": "林答別駕「寧當相累邪」；相為單向動作的受話者指稱，首選該別駕。累是牽累之動詞，不作人物字位；保留上下文判讀資格。"
         }
       ]
     },

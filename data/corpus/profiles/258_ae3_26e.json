@@ -6,7 +6,8 @@
   "identity_note": "固定卷十九楊脩單元內辨識；書信、引古與當事人物分域。未知父母、配偶、出生及年齡皆未補；不憑楊姓接遠祖。",
   "review": "ai_provisional",
   "names": [
-    "傅暢"
+    "傅暢",
+    "暢"
   ],
   "titles": [],
   "addresses": [],
@@ -45,10 +46,84 @@
       "chapter_id": "c-sanguozhi-019-yangxiu",
       "source_id": "s-sanguozhi-019-yangxiu",
       "work_title": "三國志"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "盧諶／崔悅附傳選錄",
+      "paragraph_id": "c-jinshu-044-luchen-cuiyue:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "才高行潔，為一時所推。值中原喪亂，與清河崔悅、穎川荀綽、河東裴憲、北地傅暢並淪陷非所，雖俱顯于石氏，恆以為辱。諶每謂諸子曰：「吾身沒之後，但稱晉司空從事中郎爾。」撰《祭法》，注《莊子》，及文集，皆行於世。",
+      "paragraph_ids": [
+        "c-jinshu-044-luchen-cuiyue:p003",
+        "c-jinshu-044-luchen-cuiyue:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-luchen-cuiyue:p003:m0045",
+        "c-jinshu-044-luchen-cuiyue:p004:m0053"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-luchen-cuiyue:p003:m0045": "c-jinshu-044-luchen-cuiyue:p003",
+        "c-jinshu-044-luchen-cuiyue:p004:m0053": "c-jinshu-044-luchen-cuiyue:p004"
+      },
+      "mention_id": "c-jinshu-044-luchen-cuiyue:p003:m0045",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-luchen-cuiyue:p003:m0045",
+          "mention_ids": [
+            "c-jinshu-044-luchen-cuiyue:p003:m0045"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-044-luchen-cuiyue:p004:m0053",
+          "mention_ids": [
+            "c-jinshu-044-luchen-cuiyue:p004:m0053"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-luchen-cuiyue",
+      "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-044-luchen-cuiyue",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+      "source": {
+        "title": "《晉書》卷四十四盧諶完整附傳及崔悅附敘（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷044&oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷044&oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-10-23",
+        "extent": "從志子諶三級題頭至華表二級題頭之前，完整四原段；不是盧志全傳或卷044全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位轉錄依本站CC BY-SA條款。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file": "source-evidence/jin044-luchen-cuiyue/primary/jin044-ws1775345.wikitext",
+        "raw_path": "source-evidence/jin044-luchen-cuiyue/primary/jin044-ws1775345.wikitext",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面空白並展開YL與wiki顯示字，主薄/永和六年等不改，原題頭另存。"
+        }
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-019-yangxiu",
       "work_id": "w-sanguozhi",
