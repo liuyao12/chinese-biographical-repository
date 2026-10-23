@@ -74,3 +74,39 @@ test('loadPerson reads the existing work title index once and enriches a copy, n
  const previous=globalThis.fetch,calls=[];const raw={id:'synthetic-loading-ui',label:'合成人',titles:[title]};globalThis.fetch=async url=>{calls.push(url);return {ok:true,json:async()=>url==='data/corpus/work-titles.json'?{schema_version:1,works:[{id:'w-quoted-synthetic',title:'合成引書全題'}]}:raw};};
  try{const p=await loadPerson(raw.id);assert.equal(p.source_work_titles['w-quoted-synthetic'],'合成引書全題');assert.equal(raw.source_work_titles,undefined);await loadPerson(raw.id);assert.equal(calls.filter(x=>x==='data/corpus/work-titles.json').length,1);}finally{globalThis.fetch=previous;}
 });
+const linkedOffice={id:'synthetic-career-office',person_id:person.id,title:'合成侍中',kind:'office'};
+const careerDetail=(kind,values)=>({...details[0],id:'synthetic-career-'+kind,kind,source_term:'合成收到原詞',values});
+const careerHTML=(d,titles=[linkedOffice])=>sourceDetailsHTML({...person,titles,source_details:[d]});
+test('both supported office-link names resolve one same-person title and identical dual links are safe',()=>{
+ for(const values of [{linked_holding_id:linkedOffice.id},{office_title_holding_id:linkedOffice.id},{linked_holding_id:linkedOffice.id,office_title_holding_id:linkedOffice.id}]){
+  const html=careerHTML(careerDetail('official_duty',{...values,duty_code:'personnel_selection'}));assert.match(html.replace(/<[^>]*>/g,''),/所屬官稱：合成侍中/);
+ }
+});
+test('wrong-person, foreign-profile, conflicting, missing and duplicate links never fall back to an unverified office',()=>{
+ const d=careerDetail('official_duty',{duty_code:'personnel_selection',linked_holding_id:linkedOffice.id,office_source_name:'不得亂配官'});
+ for(const [record,titles] of [[d,[{...linkedOffice,person_id:'another-person'}]],[{...d,person_id:'another-person'},[linkedOffice]],[{...d,values:{...d.values,office_title_holding_id:'conflicting-id'}},[linkedOffice]],[{...d,values:{...d.values,linked_holding_id:'absent'}},[linkedOffice]],[d,[linkedOffice,{...linkedOffice}]],[{...d,values:{...d.values,office_title_holding_id:42}},[linkedOffice]]]){
+  const html=careerHTML(record,titles);assert.doesNotMatch(html,/所屬官稱|合成侍中|不得亂配官/);assert.match(html,/合成收到原詞/);
+ }
+});
+test('service duration shows only recorded years and the linked office, not computed tenure endpoints',()=>{
+ const d=careerDetail('office_duration',{duration_years:3,unit:'年',linked_holding_id:linkedOffice.id,tenure_end_year:null,derived_start_year:null});const html=careerHTML(d);assert.match(html,/原記任職時長：3年/);assert.match(html,/合成侍中/);assert.match(html,/不構成確定的任起或任終年份/);assert.doesNotMatch(html,/null|undefined|NaN/);
+ for(const values of [{duration_years:null,unit:'年'},{duration_years:'3',unit:'年'},{duration_years:-1,unit:'年'},{duration_years:3,unit:null}])assert.doesNotMatch(careerHTML(careerDetail('office_duration',values)),/原記任職時長：|不構成確定/);
+});
+test('departure, unaccepted recruitment and penalty cards expose readable source distinctions, not new career facts',()=>{
+ for(const[code,label]of [['illness_departure','因病去官'],['dismissal_after_accusation','被奏免官'],['illness_relinquishment_report','病中遜位記載'],['disability_departure','患疾致殘後廢職'],['old_age_illness_departure_unspecified_office','老病去位']]){
+  const html=careerHTML(careerDetail('office_departure',{departure_code:code,linked_holding_id:linkedOffice.id,all_other_offices_ended:false}));assert(html.includes(label));assert.match(html,/不表示所有官爵同時終止/);assert.match(html,/合成侍中/);
+ }
+ const declined=careerHTML(careerDetail('unaccepted_recruitment_report',{source_group:'州郡',specific_office:null,service_attested:false}));assert.match(declined,/未應徵召/);assert.match(declined,/州郡/);assert.match(declined,/未證實任/);
+ const penalty=careerHTML(careerDetail('official_penalty_report',{source_outcome:'抵罪',death_sentence_inferred:false,dismissal_explicit:false}));assert.match(penalty,/抵罪記載/);assert.match(penalty,/不由此詞推定死刑/);assert.doesNotMatch(penalty,/已免官|已判死刑/);
+});
+test('career kind rendering escapes linked titles, group/outcome and original source strings, omitting unknown fields and prototype keys',()=>{
+ const unsafe='<img src=x onerror="alert(1)">';const variants=[careerDetail('office_duration',{duration_years:3,unit:'年',linked_holding_id:linkedOffice.id}),careerDetail('unaccepted_recruitment_report',{source_group:unsafe}),careerDetail('official_penalty_report',{source_outcome:unsafe}),careerDetail('office_departure',{departure_code:'toString',unrecognized:'do-not-dump'})];
+ for(const d of variants){const html=careerHTML({...d,source_term:unsafe,interpretation_note:unsafe,evidence:[{...evidence(),quote:unsafe}]},[{...linkedOffice,title:unsafe}]);assert.doesNotMatch(html,/<img|onerror="|do-not-dump|function toString/);assert.match(html,/&lt;img/);assert.match(html,/person-detail-source-link/);}
+});
+test('English career labels change while source titles, original wording and anonymous-child qualification stay untouched',()=>{
+ try{setLocale('en');const d=careerDetail('office_duration',{duration_years:3,unit:'年',linked_holding_id:linkedOffice.id});const html=careerHTML(d);assert.match(html,/Reported service duration: 3 years/);assert.match(html,/Associated office/);assert.match(html,/合成侍中|合成收到原詞/);const grants=careerHTML({...details[4],values:{...details[4].values,recipient_group_source_term:'一子',biological_children_only:false}});assert.match(grants,/一子/);assert.doesNotMatch(grants,/biological|親生/);}finally{setLocale('zh-Hant');}
+});
+test('actual W Lu Yu duration/duty/departure and Lu Zhi recruitment/penalty remain readable with exact source return links',()=>{
+ const p=JSON.parse(fs.readFileSync(new URL('../data/corpus/profiles/m8n_ntm_79h_A.json',import.meta.url)));const father=JSON.parse(fs.readFileSync(new URL('../data/corpus/profiles/m8n_ntm_79h.json',import.meta.url)));const before=JSON.stringify([p,father]);const html=sourceDetailsHTML(p),parentHTML=sourceDetailsHTML(father);
+ assert.match(html.replace(/<[^>]*>/g,''),/所屬官稱：侍中/);assert.match(html,/原記任職時長：3年/);assert.match(html.replace(/<[^>]*>/g,''),/所屬官稱：僕射/);assert.match(html,/不表示所有官爵同時終止/);assert.match(parentHTML,/未應徵召|抵罪記載/);assert.match(parentHTML,/以病去官|不應州郡命召|抵罪/);assert.equal(JSON.stringify([p,father]),before);assert.match(html,/person-detail-source-link/);assert.doesNotMatch(html,/null|undefined|NaN|親生/);
+});

@@ -25,14 +25,39 @@ export function challengedOfficeEvidence(holding, person) {
   return `<details class="person-office-source-qualification"><summary>${ui('Quoted office and commentary objection')}</summary><section><h5>${ui('Quoted office wording')}${name ? ` · <cite>《${h(name)}》</cite>` : ''}</h5>${list(holding.evidence).map(e => evidenceHTML(e, person)).join('')}</section><section><h5>${ui('Commentary objection')}</h5>${evidenceHTML(q.objection_evidence, person)}</section>${text(q.interpretation_note) ? `<p>${h(q.interpretation_note)}</p>` : ''}<p class="note">${ui('Source wording only; not selected as a confirmed career appointment.')}</p></details>`;
 }
 const count = (label, value, unit) => Number.isInteger(value) && value > 0 && text(unit) ? `<p>${ui(label)}：${h(value)}${h(unit)}</p>` : '';
+function associatedOffice(record, person) {
+  const v = record.values || {};
+  const ownIDs = new Set([text(person.id), ...list(person.person_ids).map(text)].filter(Boolean));
+  if (!ownIDs.has(record.person_id)) return '';
+  const values = [v.office_title_holding_id, v.linked_holding_id];
+  const supplied = values.filter(value => value !== undefined && value !== null && value !== '');
+  if (!supplied.length) return text(v.office_source_name);
+  if (supplied.some(value => !text(value))) return '';
+  const ids = [...new Set(supplied)];
+  if (ids.length !== 1) return '';
+  const matches = list(person.titles).filter(holding => holding?.id === ids[0]);
+  return matches.length === 1 && matches[0].person_id === record.person_id ? text(matches[0].title) : '';
+}
+const officeHTML = (record, person) => {
+  const name = associatedOffice(record, person);
+  return name ? `<p>${ui('Associated office')}：${h(name)}</p>` : '';
+};
 function detailView(record, person) {
   const v = record.values || {};
   if (record.kind === 'official_duty') {
-    const key = {personnel_selection:'Personnel selection duty',general_administration_of_mobile_secretariat:'Mobile secretariat duty',lecture_attendance:'Lecture attendance duty'}[v.duty_code] || 'Source duty';
-    const holding = list(person.titles).find(x => x.id === v.office_title_holding_id && x.person_id === record.person_id);
-    const officeName = text(v.office_source_name) || text(holding?.title);
-    return {key, values:[officeName ? `<p>${ui('Associated office')}：${h(officeName)}</p>` : '', text(v.organ_source_name) ? `<p>${ui('Source institution')}：${h(v.organ_source_name)}</p>` : ''].join('')};
+    const key = new Map([['personnel_selection','Personnel selection duty'],['general_administration_of_mobile_secretariat','Mobile secretariat duty'],['lecture_attendance','Lecture attendance duty']]).get(v.duty_code) || 'Source duty';
+    return {key, values:officeHTML(record, person) + (text(v.organ_source_name) ? `<p>${ui('Source institution')}：${h(v.organ_source_name)}</p>` : '')};
   }
+  if (record.kind === 'office_duration') {
+    const duration = Number.isInteger(v.duration_years) && v.duration_years > 0 && v.unit === '年';
+    return {key:'Reported service duration', values:officeHTML(record, person) + (duration ? `<p>${ui('Reported service duration: {count} years', {count:v.duration_years})}</p><p class="note">${ui('Duration does not establish a start or end year.')}</p>` : '')};
+  }
+  if (record.kind === 'office_departure') {
+    const key = new Map([['illness_departure','Departure due to illness'],['dismissal_after_accusation','Dismissal following an accusation'],['illness_relinquishment_report','Illness and relinquishment reported'],['disability_departure','Departure following disability'],['old_age_illness_departure_unspecified_office','Departure in old age and illness']]).get(v.departure_code) || 'Office departure report';
+    return {key,values:officeHTML(record,person) + (v.all_other_offices_ended === false ? `<p class="note">${ui('This report does not end every office or title.')}</p>` : '')};
+  }
+  if (record.kind === 'unaccepted_recruitment_report') return {key:'Recruitment not accepted',values:(text(v.source_group) ? `<p>${ui('Source recruiters')}：${h(v.source_group)}</p>` : '') + (v.service_attested === false ? `<p class="note">${ui('No service is attested by this recruitment report.')}</p>` : '')};
+  if (record.kind === 'official_penalty_report') return {key:'Official penalty reported',values:(text(v.source_outcome) ? `<p>${ui('Source outcome')}：${h(v.source_outcome)}</p>` : '') + (v.death_sentence_inferred === false ? `<p class="note">${ui('No death sentence is inferred from this wording.')}</p>` : '')};
   if (record.kind === 'command_authority' && v.authority_code === 'command_over_source_group') return {key:'Command authority', values:text(v.subordinate_group_source_name) ? `<p>${ui('Group under command')}：${h(v.subordinate_group_source_name)}</p>` : ''};
   if (record.kind === 'fief_household_count') return {key:v.aggregation === 'cumulative_across_unspecified_awards' ? 'Cumulative fief increase' : 'Source fief count',values:count('Increase recorded',v.increase,v.unit_source_name)+count('Total recorded',v.total,v.unit_source_name)};
   if (record.kind === 'unnamed_family_title_grants') {

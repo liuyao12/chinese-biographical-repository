@@ -11906,13 +11906,65 @@
         "wikitext_sha256": "93fdc36293b084a3693b073808ba92095e730973f8e4c5b2b4dd19fb1e9cea4c",
         "edition": "維基文庫數位轉錄，底本影像未核"
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-027-wangchang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-027",
+      "source_id": "s-sanguozhi-027-wangchang",
+      "source": {
+        "title": "三國志／魏書卷二十七／王昶傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "5305506e7094013caff1247f971797655b3839fe",
+        "raw_file_sha256": "022fc5dba059f0b330510848ef58d10b96ce10fc09a466c73cf45aaf52139998",
+        "raw_path": "sources/sanguozhi/KR2a0012_027-214fcaf.txt",
+        "accessed_on": "2026-10-19",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "117–260完整王昶傳及九裴注；402–404四傳合評；410–418完整王昶相關清考證，不稱全卷完成",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "正文與九裴注按原次序分層；只去版面符號、縮排及注括號，不正字。逐字原行片段保留。",
+          "excerpts": []
+        }
+      }
     }
   ],
   "relations": [],
   "related_people": {
+    "344_68f_98e_A": "郭奕（字伯益，郭嘉子）",
     "64e_ce8_aba": "郭奕"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "case-sgz027-guoyi-source-local",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "344_68f_98e_A",
+        "64e_ce8_aba"
+      ],
+      "candidate_list_exhaustive": false,
+      "paragraph_ids": [
+        "c-sanguozhi-027-wangchang:unit011",
+        "c-sanguozhi-027-wangchang:unit012",
+        "c-sanguozhi-027-wangchang:unit014",
+        "c-jinshu-039-wangxun-feng:xu-full:l070"
+      ],
+      "note": "潁川郭伯益，下注伯益名奕郭嘉之子；其/親之昵之仍指本段所評郭伯益，裴批評中再稱郭伯益同指。已存世說小注引晉諸公賛太原陽曲郭弈字泰業，是異籍/字的另一來源組；未親見所引原書。晉039主簿郭奕尚未證屬哪組，不能因同名/相容時代合一。 來源內人物可辨不等於跨篇同指已定；這不是兩個實人必異的斷言，也不是同指或父系組裝。",
+      "human_reviewed": false,
+      "chapter_id": "c-sanguozhi-027-wangchang",
+      "source_id": "s-sanguozhi-027-wangchang"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "64e_ce8_aba"

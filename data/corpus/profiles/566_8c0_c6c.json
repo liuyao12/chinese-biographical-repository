@@ -1321,6 +1321,36 @@
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-027-wangchang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-027",
+      "source_id": "s-sanguozhi-027-wangchang",
+      "source": {
+        "title": "三國志／魏書卷二十七／王昶傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "5305506e7094013caff1247f971797655b3839fe",
+        "raw_file_sha256": "022fc5dba059f0b330510848ef58d10b96ce10fc09a466c73cf45aaf52139998",
+        "raw_path": "sources/sanguozhi/KR2a0012_027-214fcaf.txt",
+        "accessed_on": "2026-10-19",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "117–260完整王昶傳及九裴注；402–404四傳合評；410–418完整王昶相關清考證，不稱全卷完成",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "正文與九裴注按原次序分層；只去版面符號、縮排及注括號，不正字。逐字原行片段保留。",
+          "excerpts": []
+        }
+      }
     }
   ],
   "relations": [
@@ -1353,10 +1383,30 @@
     }
   ],
   "related_people": {
+    "0oh_iwa_lu9": "王黙（字處静，王昶兄子）",
     "566_8c0_c6c": "王默",
     "8e8_ca8_29d_A": "王嶠"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "case-sgz027-mo-source-local",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "0oh_iwa_lu9",
+        "566_8c0_c6c"
+      ],
+      "candidate_list_exhaustive": false,
+      "paragraph_ids": [
+        "c-sanguozhi-027-wangchang:unit005",
+        "c-jinshu-075-taiyuan-wang:line115"
+      ],
+      "note": "源內兄子黙字處静明確；黙保原字。晉075王嶠祖默、魏尚書僅姓名/時代可比，未明字與近系橋，不據同字合人或捏造黙父。 來源內人物可辨不等於跨篇同指已定；這不是兩個實人必異的斷言，也不是同指或父系組裝。",
+      "human_reviewed": false,
+      "chapter_id": "c-sanguozhi-027-wangchang",
+      "source_id": "s-sanguozhi-027-wangchang"
+    }
+  ],
   "name_components": [
     {
       "person_id": "566_8c0_c6c",

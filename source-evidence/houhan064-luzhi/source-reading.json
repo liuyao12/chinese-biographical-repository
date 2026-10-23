@@ -1,0 +1,83 @@
+{
+  "record_type": "complete_source_reading_research",
+  "status": "source_native_candidate",
+  "human_reviewed": false,
+  "image_verified": false,
+  "work_id": "w-houhanshu",
+  "intended_book_id": "b-houhanshu-064",
+  "physical_file_juan": 94,
+  "received_chapter_title": "吳延史盧趙列傳第五十四",
+  "section": "盧植傳及論",
+  "source_url": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_094.txt",
+  "revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+  "git_blob": "c5b73c35cf8f4f68a476de29f64b385cae669210",
+  "raw_sha256": "108a4486404e0ce38cc8be6fb84b24b360f0a0892e3dad1a42d9ddd994069b86",
+  "source_lines": [
+    235,
+    358
+  ],
+  "unit_sha256": "ffa2ac91d06db162fcd8af166d88ac570685ad08c9e8c05124651539eb98e04d",
+  "reading_scope": "完整收到盧植傳與論，連同夾注；另讀卷末盧植一條清考證。非全卷人物覆核，未取圖像。",
+  "layers_to_preserve": [
+    "received biography and lun",
+    "witness-appended Li Xian notes, including attributed quotations",
+    "marked Liu Ban collation within notes",
+    "separate Qing Siku appendix"
+  ],
+  "observations": [
+    {
+      "quote": "作尚書章句三禮解詁",
+      "finding": "盧植所作，與三國志裴注所引續漢書禮記解詁有異題；不得只憑近義合併為同一作品已定。"
+    },
+    {
+      "quote": "臨困敕其子儉葬於土穴不用棺椁附體單帛而已",
+      "finding": "儉葬是節葬語；不把儉作兒子名字，不增加人物或父子邊。"
+    },
+    {
+      "quote": "初平三年卒",
+      "finding": "與已存裴引續漢書死亡年可平行核對；各自來源及敘述分存，不借此推毓生年。"
+    },
+    {
+      "quote": "袁紹請為軍師",
+      "finding": "源述延請與實際就任分別判斷，不自動作已任。"
+    },
+    {
+      "quote": "盧植傳遂隱於上谷○上字毛本作山",
+      "finding": "卷末考證另層保存；不能改正文上谷為山谷，也不能聲稱親見毛本。"
+    },
+    {
+      "quote": "琴操曰魯漆室女",
+      "finding": "故事女及其未名兄標legendary_tradition；不證歷史實有，不把敘事生死作確定生平。"
+    }
+  ],
+  "separate_qing_lines": [
+    470,
+    471
+  ],
+  "coverage": {
+    "paragraphs": 60,
+    "body_and_lun": 9,
+    "notes": 49,
+    "new_people": 20,
+    "existing_people": 39,
+    "person_unresolved_marks": 190,
+    "work_marks": 46,
+    "new_works": 15
+  },
+  "identity_repair": "新建提案子猛在封存前查得既有悼王猛；完整周世家景王/子朝/猛事件覆讀後改重用，未在root登記過的私人提案ID不採。",
+  "qualified_geographic_reading": {
+    "paragraph_id": "c-houhanshu-064-luzhi:note046",
+    "quote": "孟賁多力者也夏育勇者也並衞人荆荆軻也諸專諸也",
+    "source_term": "並衞人",
+    "applies_to": [
+      "孟賁",
+      "夏育"
+    ],
+    "does_not_extend_to": [
+      "荆軻",
+      "專諸"
+    ],
+    "status": "editorial_reading_not_typed_address",
+    "human_reviewed": false
+  }
+}
