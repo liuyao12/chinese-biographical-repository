@@ -1451,6 +1451,50 @@
   ],
   "occurrences": [
     {
+      "number": 26,
+      "category": "",
+      "title": "卷二十六：郭淮完整傳及裴注、四傳合評與清考證選錄",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit014",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "世語曰淮妻王凌之妹凌誅妹當從坐御史往収督將及羌胡渠帥數千人叩頭請淮表留妻淮不從妻上道莫不流涕人人扼腕欲劫留之淮五子叩頭流血請淮淮不忍視乃命左右追妻於是追者數千騎數日而還淮以書白司馬宣王曰五子哀母不惜其身若無其母是無",
+      "paragraph_ids": [
+        "c-sanguozhi-026-guohuai:unit014"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-026-guohuai:unit014:m0005",
+        "c-sanguozhi-026-guohuai:unit014:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-026-guohuai:unit014:m0005": "c-sanguozhi-026-guohuai:unit014",
+        "c-sanguozhi-026-guohuai:unit014:m0009": "c-sanguozhi-026-guohuai:unit014"
+      },
+      "mention_id": "c-sanguozhi-026-guohuai:unit014:m0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-026-guohuai:unit014:m0005",
+          "mention_ids": [
+            "c-sanguozhi-026-guohuai:unit014:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-026-guohuai:unit014:m0009",
+          "mention_ids": [
+            "c-sanguozhi-026-guohuai:unit014:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "source_id": "s-sanguozhi-026-guohuai",
+      "work_title": "三國志"
+    },
+    {
       "number": 27,
       "category": "",
       "title": "卷二十七：王昶完整傳及裴注、四傳合評與清考證選錄",
@@ -2276,6 +2320,36 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "source_id": "s-sanguozhi-026-guohuai",
+      "source": {
+        "title": "三國志／魏書卷二十六／郭淮傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "99d0bad47453cda17150ad08d87eefe461707ba9",
+        "raw_file_sha256": "6764b2f841c384aec769c7ceea35deddf8bd05c56d1743b9fc77e10884530590",
+        "raw_path": "sources/sanguozhi/KR2a0012_026-214fcaf.txt",
+        "accessed_on": "2026-10-22",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "302–380郭淮完整傳及三注；381–385四傳合評；395–400郭淮相關清考證。滿寵、田豫、牽招完整本傳未匯，不稱全卷完成。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保全部郭淮傳與三注及合評/郭淮考證；只去版面符號、縮排與注括號。緼/縕/蘊、泰業等收到原字不正字，逐行片段完整投影。",
+          "excerpts": []
+        }
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-027-wangchang",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-027",
@@ -2337,6 +2411,65 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-sgz026-guohuai-family-004",
+      "subject_person_id": "foz_lt0_au5",
+      "predicate": "sister",
+      "object_person_id": "f89_ad1_61d",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "妹",
+        "source_kinship_frame": {
+          "kind": "received_quoted_family_frame",
+          "rule": "wife_named_brother_sister",
+          "roles": {
+            "husband": "c-sanguozhi-026-guohuai:unit014:m0003",
+            "wife_repeat": "c-sanguozhi-026-guohuai:unit014:m0004",
+            "brother": "c-sanguozhi-026-guohuai:unit014:m0005",
+            "wife": "c-sanguozhi-026-guohuai:unit014:m0008"
+          },
+          "fields": {},
+          "scope_anchor": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit014",
+            "start": 3,
+            "end": 9,
+            "surface": "淮妻王凌之妹"
+          },
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_sha256": "d64bf196bb5af4f2be47561b6176810453cdff30734b3ae2e54763292534cd7a",
+          "source_layer": "witness_appended_pei_songzhi_note",
+          "human_reviewed": false,
+          "fixed_witness_reference": {
+            "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+            "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+          }
+        },
+        "relative_birth_order": {
+          "older_person_id": "f89_ad1_61d",
+          "younger_person_id": "foz_lt0_au5",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-026",
+          "source_id": "s-sanguozhi-026-guohuai",
+          "chapter_id": "c-sanguozhi-026-guohuai",
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit014",
+          "quote": "世語曰淮妻王凌之妹凌誅妹當從坐御史往収督將及羌胡渠帥數千人叩頭請淮表留妻淮不從妻上道莫不流涕人人扼腕欲劫留之淮五子叩頭流血請淮淮不忍視乃命左右追妻於是追者數千騎數日而還淮以書白司馬宣王曰五子哀母不惜其身若無其母是無五子無五子亦無淮也今輒追還若於法未通當受罪於主者覲展在近書至宣王亦宥之",
+          "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit014:m0008",
+          "object_person_mention_id": "c-sanguozhi-026-guohuai:unit014:m0005"
+        }
+      ],
+      "interpretation_note": "收到原文層內明示近親；祖不降為父，兄弟不補同父/生母/絕對排行，未名配偶不造名或假定兩女各婚。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-sanguozhi028-wangling-001",
       "subject_person_id": "f89_ad1_61d",
@@ -2452,7 +2585,8 @@
     "8xv_6ak_y28": "王允",
     "b0e_c9d_d1f": "王晨",
     "f89_ad1_61d": "王凌",
-    "f89_ad1_61d_A": "王廣"
+    "f89_ad1_61d_A": "王廣",
+    "foz_lt0_au5": "王氏〔郭淮妻、王凌妹，未名〕"
   },
   "dates": [
     {
@@ -7071,6 +7205,34 @@
   ],
   "name_components": [
     {
+      "id": "name-sgz026-wangling",
+      "person_id": "f89_ad1_61d",
+      "surname": "王",
+      "ming": "凌",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit014",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit014:m0005",
+      "quote": "世語曰淮妻王凌之妹凌誅妹當從坐御史往収督將及羌胡渠帥數千人叩頭請淮表留妻淮不從妻上道莫不流涕人人扼腕欲劫留之淮五子叩頭流血請淮淮不忍視乃命左右追妻於是追者數千騎數日而還淮以書白司馬宣王曰五子哀母不惜其身若無其母是無五子無五子亦無淮也今輒追還若於法未通當受罪於主者覲展在近書至宣王亦宥之",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原字與原人物錨保留；姓名構件是來源內閱讀，不改原稱或擴全局alias。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "full_name",
+        "paragraph_sha256": "d64bf196bb5af4f2be47561b6176810453cdff30734b3ae2e54763292534cd7a",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        }
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "source_id": "s-sanguozhi-026-guohuai"
+    },
+    {
       "person_id": "f89_ad1_61d",
       "title": null,
       "surname": "王",
@@ -7127,6 +7289,65 @@
     "f89_ad1_61d"
   ],
   "preferred_relations": [
+    {
+      "id": "a-sgz026-guohuai-family-004",
+      "subject_person_id": "foz_lt0_au5",
+      "predicate": "sister",
+      "object_person_id": "f89_ad1_61d",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "妹",
+        "source_kinship_frame": {
+          "kind": "received_quoted_family_frame",
+          "rule": "wife_named_brother_sister",
+          "roles": {
+            "husband": "c-sanguozhi-026-guohuai:unit014:m0003",
+            "wife_repeat": "c-sanguozhi-026-guohuai:unit014:m0004",
+            "brother": "c-sanguozhi-026-guohuai:unit014:m0005",
+            "wife": "c-sanguozhi-026-guohuai:unit014:m0008"
+          },
+          "fields": {},
+          "scope_anchor": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit014",
+            "start": 3,
+            "end": 9,
+            "surface": "淮妻王凌之妹"
+          },
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_sha256": "d64bf196bb5af4f2be47561b6176810453cdff30734b3ae2e54763292534cd7a",
+          "source_layer": "witness_appended_pei_songzhi_note",
+          "human_reviewed": false,
+          "fixed_witness_reference": {
+            "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+            "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+          }
+        },
+        "relative_birth_order": {
+          "older_person_id": "f89_ad1_61d",
+          "younger_person_id": "foz_lt0_au5",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-026",
+          "source_id": "s-sanguozhi-026-guohuai",
+          "chapter_id": "c-sanguozhi-026-guohuai",
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit014",
+          "quote": "世語曰淮妻王凌之妹凌誅妹當從坐御史往収督將及羌胡渠帥數千人叩頭請淮表留妻淮不從妻上道莫不流涕人人扼腕欲劫留之淮五子叩頭流血請淮淮不忍視乃命左右追妻於是追者數千騎數日而還淮以書白司馬宣王曰五子哀母不惜其身若無其母是無五子無五子亦無淮也今輒追還若於法未通當受罪於主者覲展在近書至宣王亦宥之",
+          "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit014:m0008",
+          "object_person_mention_id": "c-sanguozhi-026-guohuai:unit014:m0005"
+        }
+      ],
+      "interpretation_note": "收到原文層內明示近親；祖不降為父，兄弟不補同父/生母/絕對排行，未名配偶不造名或假定兩女各婚。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-sanguozhi028-wangling-001",
       "subject_person_id": "f89_ad1_61d",

@@ -1,0 +1,91 @@
+{
+  "record_type": "external_primary_identity_followup",
+  "human_reviewed": false,
+  "source_chapter_id": "c-epitaph-yangshu-zju-full",
+  "reviews": [
+    {
+      "decision_id": "d-yangshu-zju-royal-ying",
+      "person_id": "ts3_iao_cnm",
+      "preferred_label": "元英",
+      "source_mention_id": "c-epitaph-yangshu-zju-full:p001:m0381",
+      "source_surface": "元王",
+      "source_anchor": {
+        "start": 381,
+        "end": 383,
+        "surface": "元王"
+      },
+      "status": "contextual_provisional",
+      "full_parallel_unit_id": "unit-weishu-019-royal",
+      "anchors": [
+        {
+          "path": "source-evidence/yangshu-zju-royal-identity-followup/primary/KR2a0020_019.txt",
+          "start": 28938,
+          "end": 28952,
+          "quote": "英使持節加散騎常侍征南將軍都",
+          "raw_sha256": "e4435b863a826fc7493e9aa1dda9097697f4d5dc5a4a2213239012000cf6ae3e"
+        },
+        {
+          "path": "source-evidence/yangshu-zju-royal-identity-followup/primary/KR2a0020_019.txt",
+          "start": 29171,
+          "end": 29181,
+          "quote": "中軍大將軍臨川王蕭宏",
+          "raw_sha256": "e4435b863a826fc7493e9aa1dda9097697f4d5dc5a4a2213239012000cf6ae3e"
+        }
+      ],
+      "reason": "碑內簫宏粱城、征南都督與英本傳征南都督揚徐、肥梁／梁城敗蕭宏、沿淮南遁走，共同戰事相合；不是按元王二字猜名。",
+      "limits": [
+        "不是原碑明寫元英",
+        "數位WYG未圖校；未把完整外傳匯為已NER章",
+        "沒有找到另一canonical需合併，所以沿來源ID，不新增人物、不退休新號",
+        "官職年份只用作身份相容證，不回填本碑任期",
+        "同021泰附傳亦有追贈太尉公／高陽王；同題不是唯一鍵，雍的世宗時太尉與本碑開府任僚語境才是首選橋。"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "decision_id": "d-yangshu-zju-royal-yong",
+      "person_id": "78c_a0i_i6q",
+      "preferred_label": "元雍",
+      "source_mention_id": "c-epitaph-yangshu-zju-full:p001:m0487",
+      "source_surface": "太尉高陽王",
+      "source_anchor": {
+        "start": 487,
+        "end": 492,
+        "surface": "太尉高陽王"
+      },
+      "status": "contextual_provisional",
+      "full_parallel_unit_id": "unit-weishu-021-royal",
+      "anchors": [
+        {
+          "path": "source-evidence/yangshu-zju-royal-identity-followup/primary/KR2a0020_021.txt",
+          "start": 10259,
+          "end": 10266,
+          "quote": "髙陽王雍字思穆",
+          "raw_sha256": "09a2c1bde374b556c778ccb7a98e8c2eac67a7ae0fb5c1c92c32e6ebe5d934c0"
+        },
+        {
+          "path": "source-evidence/yangshu-zju-royal-identity-followup/primary/KR2a0020_021.txt",
+          "start": 10631,
+          "end": 10642,
+          "quote": "入叅大議轉太尉公加侍中",
+          "raw_sha256": "09a2c1bde374b556c778ccb7a98e8c2eac67a7ae0fb5c1c92c32e6ebe5d934c0"
+        }
+      ],
+      "reason": "雍本傳高陽王、世宗時轉太尉／領太尉，與碑永平初載的官爵時代相合；不由此推碑中任官某年或任終。",
+      "limits": [
+        "不是原碑明寫元雍",
+        "數位WYG未圖校；未把完整外傳匯為已NER章",
+        "沒有找到另一canonical需合併，所以沿來源ID，不新增人物、不退休新號",
+        "官職年份只用作身份相容證，不回填本碑任期",
+        "同021泰附傳亦有追贈太尉公／高陽王；同題不是唯一鍵，雍的世宗時太尉與本碑開府任僚語境才是首選橋。"
+      ],
+      "human_reviewed": false
+    }
+  ],
+  "prior_capture": "source-evidence/yangshu-epitaph-zju/identity-review.json",
+  "supersedes_scope": "其中元王／太尉高陽王的未具名資格；其餘墓主/父祖與未決不變。",
+  "no_new_people": true,
+  "no_merges": true,
+  "no_retired_ids": true,
+  "no_deleted_public_files": []
+}

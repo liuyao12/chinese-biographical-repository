@@ -19,7 +19,9 @@ def outputs(root=None):
     root = Path(root) if root is not None else ROOT
     directory = root / 'data/corpus'
     contents = json.loads((directory / 'shiji-contents.json').read_text())
-    progress = {b['book_id']: b for b in json.loads((root / 'corpus/progress.json').read_text())['books']}
+    progress_rows = json.loads((root / 'corpus/progress.json').read_text())['books']
+    progress = {b['chapter_id']: b for b in progress_rows}
+    assert len(progress) == len(progress_rows), 'duplicate chapter progress IDs'
     chapters = {int(p.stem): (p, json.loads(p.read_text())) for p in (root / 'corpus/shiji').glob('*.json') if p.stem.isdigit()}
     table_index = json.loads((root / 'data/historical-tables/index.json').read_text())
     table_numbers = {int(t['id'].split('-')[-1]) for t in table_index['tables'] if re.fullmatch(r'shiji-\d{3}', t['id'])}
@@ -34,7 +36,7 @@ def outputs(root=None):
             result[root / public] = path.read_bytes()
             entry.update({'path': public, 'chapter_id': chapter['id'], 'book_id': chapter['book_id'],
                           'paragraph_count': len(chapter['paragraphs']), **reading_counts(chapter),
-                          'annotation_status': progress[chapter['book_id']]['person_status'], 'available': 'marked_text'})
+                          'annotation_status': progress[chapter['id']]['person_status'], 'available': 'marked_text'})
         elif number in table_numbers:
             entry.update({'available': 'table', 'table_id': f'shiji-{number:03d}', 'annotation_status': 'structural_import'})
         else:
@@ -75,7 +77,7 @@ def outputs(root=None):
                 'title':chapter['title'],'path':public,'available':'marked_text',
                 'text_scope':chapter['source'].get('text_scope','chapter'),
                 'scope_note':chapter['source']['extent'],'paragraph_count':len(chapter['paragraphs']), **reading_counts(chapter),
-                'annotation_status':progress[book['id']]['person_status']})
+                'annotation_status':progress[chapter['id']]['person_status']})
         for item in table_index['tables']:
             table = json.loads((root / item['path']).read_text())
             source = table['source']

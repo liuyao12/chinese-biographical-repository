@@ -79,6 +79,10 @@ def validate_clan_style(name, paragraph=None, relations=()):
                  and any(m.get('kind') == 'person' and m.get('person_id') == selected[0].get('object_person_id')
                          and m.get('surface', '').startswith(name['surname'])
                          and style['source_term'] == '妻弟' + m.get('surface', '') for m in paragraph.get('mentions', [])))
+    elif valid and style['kind'] == 'bound_named_sister_clan_appellation':
+        try:from .received_family_names import clan_valid
+        except ImportError:from received_family_names import clan_valid
+        valid = clan_valid(name, paragraph, relations)
     else:
         valid = False
     if not valid:
@@ -183,7 +187,12 @@ def validate_parallel_given_name(name):
             raise ValueError('平行姓名須完整匹配正文首名與字原詞、原行雜湊及固定修訂，不得截名或以章題補名')
 
 
-def validate_former_given_name(name):
+def validate_former_given_name(name, paragraph=None):
+    if 'former_ming_basis' in name:
+        try:from scripts.fixed_wikisource_units import biography_former_ming_valid
+        except ImportError:from fixed_wikisource_units import biography_former_ming_valid
+        if not biography_former_ming_valid(name, paragraph):raise ValueError('本名與賜名須綁傳首本人、舊名、君主與完整原句，不得把本字當本名')
+        return
     """初名只在同一引句明示名之曰與更名時採用，不從別名猜定。"""
     if 'former_ming' not in name:
         return
@@ -344,6 +353,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     enriched_names = []
     for name in name_components:
         name_paragraph = paragraphs.get(name.get('paragraph_id'))
+        if 'component_source_binding' in name:
+            try:from .received_family_names import source_component_valid
+            except ImportError:from received_family_names import source_component_valid
+            if not name_paragraph or not source_component_valid(name,name_paragraph[0],root):
+                raise ValueError('收到姓名構件須逐原人物錨、緊接字詞與固定見證，不借同段他人字或拼全名冒原稱')
         validate_clan_style(name, name_paragraph[1] if name_paragraph else None, relations)
         validate_full_name(name, name_paragraph[1] if name_paragraph else None)
         validate_courtesy_name(name)
@@ -356,7 +370,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
                 ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path') else relations))
+                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship') else relations), root=root)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:
@@ -368,7 +382,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             from name_xiaoming import validate_xiaoming
         validate_xiaoming(name, name_paragraph[1] if name_paragraph else None)
         validate_parallel_given_name(name)
-        validate_former_given_name(name)
+        validate_former_given_name(name, name_paragraph[1] if name_paragraph else None)
         validate_name_component_alternatives(name)
         if name.get('kind') == 'table_cell':
             try:

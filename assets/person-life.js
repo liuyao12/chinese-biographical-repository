@@ -66,7 +66,7 @@ export function summarizeLife(p) {
   return {
     birth: summary('birth'),
     death: summary('death'),
-    ages,
+    ages: ages.sort((a,b) => Number(b.age_context?.kind === 'at_death') - Number(a.age_context?.kind === 'at_death')),
   };
 }
 

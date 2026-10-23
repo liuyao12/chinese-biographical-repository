@@ -1,0 +1,187 @@
+{
+  "record_type": "source_identity_review",
+  "human_reviewed": false,
+  "source_witness": "浙大B-XABL-004完整錄文",
+  "no_rekey": true,
+  "decisions": [
+    {
+      "key": "shu",
+      "person_id": "zk9_eqr_mfz",
+      "status": "contextual_provisional",
+      "selection": "preferred_same_person",
+      "evidence": [
+        "同楊舒、恒農華陰、同時代；碑515卒早於魏058神龜二年519誣告回敘妻寡與未婚兒女。",
+        "父之第六子與received昱第六叔舒角色相容；不是把叔稱硬轉子排行。"
+      ],
+      "qualification": "各項單獨非決定性，綜合無反證下首選可撤回；墓主合不表示父祖都合。",
+      "parallel_source": {
+        "path": "corpus/weishu-weishou/058-yangchun.json",
+        "chapter_id": "c-weishu-weishou-058-yangchun",
+        "paragraph_id": "c-weishu-weishou-058-yangchun:p020",
+        "mention_id": "c-weishu-weishou-058-yangchun:p020:m0120",
+        "surface": "舒",
+        "quote": "久之，轉太尉掾，兼中書舍人。靈太后嘗從容謂昱曰：「今帝年幼，朕親萬機，然自薄德化不能感親姻，在外不稱人心，卿有所聞，慎勿諱隱。」昱於是奏揚州刺史李崇五車載貨，恒州刺史楊鈞造銀食器十具，並餉領軍元叉。靈太后召叉夫妻泣而責之。叉深恨之。昱第六叔舒妻，武昌王和之妹，和即叉之從祖父。舒早喪，有一男六女，及終喪而元氏頻請別居。昱父椿乃集親姻泣而謂曰：「我弟不幸早終，今男未婚，女未嫁，何怱怱便求離居？」不聽。遂懷憾焉。神龜二年，瀛州民劉宣明謀反，事覺逃竄。叉乃使和及元氏誣告昱藏隱宣明，云：「父定州刺史椿、叔華州刺史津，並送甲仗三百具，謀圖不逞。」叉又構成其事。乃遣左右御仗五百人，夜圍昱宅而收之，並無所獲。靈太后問其狀，昱具對元氏遘釁之端，言至哀切。太后乃解昱縛，和及元氏並處死刑，而叉相左右，和直免官，元氏卒亦不坐。及元叉之廢，太后乃出昱為濟陰內史。中山王熙起兵於鄴，叉遣黃門盧同詣鄴刑熙，并窮黨與。同希叉旨，就郡鎖昱赴鄴，訊百日，後乃還任。",
+        "person_id_at_capture": "zk9_eqr_mfz"
+      }
+    },
+    {
+      "key": "grandfather",
+      "person_id": "fum_370_iq6_AA",
+      "status": "contextual_provisional",
+      "selection": "preferred_source_role_identification",
+      "evidence": [
+        "碑河內清河二郡府君；魏058祖真河內清河二郡太守，兩郡官稱相合。"
+      ],
+      "qualification": "碑未明名真，僅官稱/近系上下文編輯首選，不升source_explicit；父競爭另案。",
+      "parallel_source": {
+        "path": "corpus/weishu-weishou/058-yangbo-yangkan.json",
+        "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+        "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p001",
+        "mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0049",
+        "surface": "真",
+        "quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
+        "person_id_at_capture": "fum_370_iq6_AA"
+      }
+    },
+    {
+      "key": "father",
+      "person_id": "8n1_se6_hap",
+      "status": "unresolved_cross_source_identity",
+      "selection": "independent_source_identity",
+      "candidates": [
+        "魏058懿：洛州刺史、贈弘農公、諡簡",
+        "魏058楊鈞祖暉：洛州刺史、贈弘農公、諡簡"
+      ],
+      "qualification": "同卷競爭官諡，不能硬合；本碑父不補名；facts入口只接碑內父簡公明文父子與第六子6，不將父綁懿/暉。"
+    },
+    {
+      "key": "shizong",
+      "person_id": "k1w_ska_u2q",
+      "status": "contextual_provisional",
+      "selection": "same_dynasty_emperor_title",
+      "evidence": [
+        "同北魏世宗，重用完整本卷世宗原段穩定錨。"
+      ],
+      "parallel_source": {
+        "path": "corpus/weishu-weishou/058-yangchun.json",
+        "chapter_id": "c-weishu-weishou-058-yangchun",
+        "paragraph_id": "c-weishu-weishou-058-yangchun:p006",
+        "mention_id": "c-weishu-weishou-058-yangchun:p006:m0131",
+        "surface": "世宗",
+        "quote": "永平初，徐州城人成景儁以宿預叛，詔椿率眾四萬討之，不克而返。久之，除都督朔州撫冥武川懷朔三鎮三道諸軍事、平北將軍、朔州刺史。在州，為廷尉奏椿前為太僕卿日，招引細人，盜種牧田三百四十頃，依律處刑五歲。尚書邢巒，據正始別格奏椿罪應除名為庶人，注籍盜門，同籍合門不仕。世宗以新律既班，不宜雜用舊制，詔依寺斷，聽以贖論。尋加撫軍將軍，入除都官尚書，監修白溝堤堰。復以本將軍除定州刺史。",
+        "person_id_at_capture": "k1w_ska_u2q"
+      }
+    }
+  ],
+  "new_source_identities": [
+    {
+      "key": "father",
+      "person_id": "8n1_se6_hap",
+      "reason": "碑內具體來源身份，未按同名硬合。"
+    },
+    {
+      "key": "zhen",
+      "person_id": "nyb_gvy_iaf",
+      "reason": "碑內具體來源身份，未按同名硬合。"
+    },
+    {
+      "key": "yao",
+      "person_id": "rtd_jgu_6jh",
+      "reason": "碑內具體來源身份，未按同名硬合。"
+    },
+    {
+      "key": "tian",
+      "person_id": "bic_q6n_ayz",
+      "reason": "碑內具體來源身份，未按同名硬合。"
+    },
+    {
+      "key": "hong",
+      "person_id": "m5k_t3s_umk",
+      "reason": "碑內具體來源身份，未按同名硬合。"
+    },
+    {
+      "key": "yuan",
+      "person_id": "ts3_iao_cnm",
+      "reason": "碑內具體來源身份，未按同名硬合。"
+    },
+    {
+      "key": "gaoyang",
+      "person_id": "78c_a0i_i6q",
+      "reason": "碑內具體來源身份，未按同名硬合。"
+    },
+    {
+      "key": "xinchang",
+      "person_id": "p7m_xj2_r3q",
+      "reason": "碑內具體來源身份，未按同名硬合。"
+    },
+    {
+      "key": "yanding",
+      "person_id": "84j_azw_t7d",
+      "reason": "碑內具體來源身份，未按同名硬合。"
+    }
+  ],
+  "unmerged_cases": [
+    {
+      "key": "yao",
+      "candidate_existing_person_id": "844_a79_fdc",
+      "reason": "瑤/楊珧待官歷橋；遠祖聲稱不接樹、不補距。"
+    },
+    {
+      "key": "xinchang",
+      "candidate_existing_person_id": "r47_vug_gx5",
+      "reason": "新昌君服喪語境不是明母名；不自動綁楊播母王氏。"
+    }
+  ],
+  "retracted_research_entry": "cbr-yangshu-reading-correction/correction.json",
+  "unresolved_terms": [
+    "曾/柴引古候選未核古典，不造曾柴單人。",
+    "皇帝/皇鑒/帝任官與死亡段不能全綁最近世宗。",
+    "遺嗣/弟姪未名或群體不造人。",
+    "三禮經典群稱不硬補三全題。"
+  ],
+  "typed_near_kin_scope": {
+    "assertion_ids": [
+      "a-yangshu-zju-nearkin-001",
+      "a-yangshu-zju-nearkin-002"
+    ],
+    "source_explicit_roles": [
+      "father_with_son_ordinal_6",
+      "paternal_grandfather_distance_2"
+    ],
+    "identity_qualification": "祖府君首選真屬官稱對讀的contextual身份；原文明祖孫，不是原文寫祖名真。父簡公維持獨立未名身份。",
+    "no_inferred_father_to_grandfather_edge": true,
+    "no_remote_ancestor_assembly": true
+  },
+  "current_parallel_source_anchors": {
+    "shu": {
+      "path": "corpus/weishu-weishou/058-yangchun.json",
+      "chapter_id": "c-weishu-weishou-058-yangchun",
+      "paragraph_id": "c-weishu-weishou-058-yangchun:p020",
+      "mention_id": "c-weishu-weishou-058-yangchun:p020:m0120",
+      "surface": "舒",
+      "quote": "久之，轉太尉掾，兼中書舍人。靈太后嘗從容謂昱曰：「今帝年幼，朕親萬機，然自薄德化不能感親姻，在外不稱人心，卿有所聞，慎勿諱隱。」昱於是奏揚州刺史李崇五車載貨，恒州刺史楊鈞造銀食器十具，並餉領軍元叉。靈太后召叉夫妻泣而責之。叉深恨之。昱第六叔舒妻，武昌王和之妹，和即叉之從祖父。舒早喪，有一男六女，及終喪而元氏頻請別居。昱父椿乃集親姻泣而謂曰：「我弟不幸早終，今男未婚，女未嫁，何怱怱便求離居？」不聽。遂懷憾焉。神龜二年，瀛州民劉宣明謀反，事覺逃竄。叉乃使和及元氏誣告昱藏隱宣明，云：「父定州刺史椿、叔華州刺史津，並送甲仗三百具，謀圖不逞。」叉又構成其事。乃遣左右御仗五百人，夜圍昱宅而收之，並無所獲。靈太后問其狀，昱具對元氏遘釁之端，言至哀切。太后乃解昱縛，和及元氏並處死刑，而叉相左右，和直免官，元氏卒亦不坐。及元叉之廢，太后乃出昱為濟陰內史。中山王熙起兵於鄴，叉遣黃門盧同詣鄴刑熙，并窮黨與。同希叉旨，就郡鎖昱赴鄴，訊百日，後乃還任。",
+      "person_id_at_capture": "zk9_eqr_mfz",
+      "person_id": "zk9_eqr_mfz"
+    },
+    "grandfather": {
+      "path": "corpus/weishu-weishou/058-yangbo-yangkan.json",
+      "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+      "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p001",
+      "mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0049",
+      "surface": "真",
+      "quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
+      "person_id_at_capture": "fum_370_iq6_AA",
+      "person_id": "fum_370_iq6_AA"
+    },
+    "shizong": {
+      "path": "corpus/weishu-weishou/058-yangchun.json",
+      "chapter_id": "c-weishu-weishou-058-yangchun",
+      "paragraph_id": "c-weishu-weishou-058-yangchun:p006",
+      "mention_id": "c-weishu-weishou-058-yangchun:p006:m0131",
+      "surface": "世宗",
+      "quote": "永平初，徐州城人成景儁以宿預叛，詔椿率眾四萬討之，不克而返。久之，除都督朔州撫冥武川懷朔三鎮三道諸軍事、平北將軍、朔州刺史。在州，為廷尉奏椿前為太僕卿日，招引細人，盜種牧田三百四十頃，依律處刑五歲。尚書邢巒，據正始別格奏椿罪應除名為庶人，注籍盜門，同籍合門不仕。世宗以新律既班，不宜雜用舊制，詔依寺斷，聽以贖論。尋加撫軍將軍，入除都官尚書，監修白溝堤堰。復以本將軍除定州刺史。",
+      "person_id_at_capture": "k1w_ska_u2q",
+      "person_id": "k1w_ska_u2q"
+    }
+  }
+}

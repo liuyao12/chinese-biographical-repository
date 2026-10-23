@@ -16,7 +16,7 @@ def age_approximation_errors(age, paragraph):
     target = (DIGITS.index(number[0]) + 1) * 10 if isinstance(number, str) and len(number) == 2 and number[0] in DIGITS and number[1] == '十' else None
     if (target is None or age.get('approximation') != {'kind': 'approaching_age', 'target': target}
             or age.get('value') is not None or 'bounds' in age or 'source_number_bounds' in age
-            or age.get('source_term') not in ('年向' + number, '年垂' + number)
+            or age.get('source_term') not in ('年向' + number, '年垂' + number, '年近' + number)
             or age.get('reporting_status') != 'approximate_report'
             or age.get('birth_year') is not None or age.get('unit') != 'source_age_years'
             or age.get('counting') != 'unspecified_source_age' or age.get('status') != 'source_attested'):
@@ -26,7 +26,7 @@ def age_approximation_errors(age, paragraph):
             or interpretation.get('human_reviewed') is not False
             or not interpretation.get('reviewer') or not interpretation.get('rationale')):
         return ['年向報齡缺少分存的編者判讀']
-    if age.get('source_term') == '年垂' + number:
+    if age.get('source_term') in ('年垂' + number, '年近' + number):
         scope = age.get('subject_scope', {})
         if not isinstance(scope, dict):
             return ['年垂報齡缺具名主語範圍']

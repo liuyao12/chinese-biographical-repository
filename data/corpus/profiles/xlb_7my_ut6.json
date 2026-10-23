@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "id": "xlb_7my_ut6",
+  "canonical_person_id": "xlb_7my_ut6",
+  "label": "郭奕寡姊〔未名〕",
+  "identity_note": "固定卷045郭奕完整傳來源身份；跨篇辨識及親屬/官爵另據逐項證據，不按同名自動合併。",
+  "review": "ai_provisional",
+  "names": [
+    "寡姊",
+    "姊",
+    "老姊"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 45,
+      "category": "",
+      "title": "郭奕傳",
+      "paragraph_id": "c-jinshu-045-guoyi:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "將軍，封平陵男。咸寧初，遷雍州刺史、鷹揚將軍，尋假赤幢曲蓋、鼓吹。奕有寡姊，隨奕之官，姊下僮僕多有奸犯，而為人所糾。奕省按畢，曰：「大丈夫豈當以老姊求名？」遂遣而不問。時亭長李含有俊才，而門寒為豪族所排，奕用為別駕，含後果有名位，時以奕為知人。",
+      "paragraph_ids": [
+        "c-jinshu-045-guoyi:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-045-guoyi:p001:m0026",
+        "c-jinshu-045-guoyi:p001:m0028",
+        "c-jinshu-045-guoyi:p001:m0032"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-045-guoyi:p001:m0026": "c-jinshu-045-guoyi:p001",
+        "c-jinshu-045-guoyi:p001:m0028": "c-jinshu-045-guoyi:p001",
+        "c-jinshu-045-guoyi:p001:m0032": "c-jinshu-045-guoyi:p001"
+      },
+      "mention_id": "c-jinshu-045-guoyi:p001:m0026",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-045-guoyi:p001:m0026",
+          "mention_ids": [
+            "c-jinshu-045-guoyi:p001:m0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-045-guoyi:p001:m0028",
+          "mention_ids": [
+            "c-jinshu-045-guoyi:p001:m0028"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-045-guoyi:p001:m0032",
+          "mention_ids": [
+            "c-jinshu-045-guoyi:p001:m0032"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-045",
+      "chapter_id": "c-jinshu-045-guoyi",
+      "source_id": "s-jinshu-045-ws2595687-guoyi",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-045-guoyi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-045",
+      "source_id": "s-jinshu-045-ws2595687-guoyi",
+      "source": {
+        "title": "《晉書》卷四十五郭奕完整本傳（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷045&oldid=2595687",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷045&oldid=2595687",
+        "revision_id": 2595687,
+        "accessed_on": "2026-10-22",
+        "extent": "郭奕完整本傳兩原段，止侯史光節題之前；不含同卷其他傳。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "caa053b497649ca478661493e4ff1b87fbe3432e480af71f0d0033f6e64693b0",
+        "raw_file": "sources/witnesses/jin045-ws2595687.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白及展開YL年號模板；原相國主薄、大業及咸熙末追敘鍾會反均不改。"
+        },
+        "raw_path": "sources/witnesses/jin045-ws2595687.wikitext",
+        "raw_file_sha256": "caa053b497649ca478661493e4ff1b87fbe3432e480af71f0d0033f6e64693b0"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin045-guoyi-sister",
+      "subject_person_id": "xlb_7my_ut6",
+      "predicate": "sister",
+      "object_person_id": "64e_ce8_aba",
+      "qualifiers": {
+        "source_term": "寡姊",
+        "relative_birth_order": {
+          "older_person_id": "xlb_7my_ut6",
+          "younger_person_id": "64e_ce8_aba",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "source_clause_binding": {
+          "kind": "has_widowed_older_sister",
+          "source_revision": 2595687,
+          "paragraph_sha256": "04aac0d8f0b77dae77c7c9739473a61a894296ddac84273c62300f7167fc2bad",
+          "scope_anchor": {
+            "paragraph_id": "c-jinshu-045-guoyi:p001",
+            "start": 205,
+            "end": 209,
+            "surface": "奕有寡姊"
+          },
+          "human_reviewed": false
+        }
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-045",
+          "source_id": "s-jinshu-045-ws2595687-guoyi",
+          "chapter_id": "c-jinshu-045-guoyi",
+          "paragraph_id": "c-jinshu-045-guoyi:p001",
+          "quote": "郭奕，字大業，太原陽曲人也。少有重名，山濤稱其高簡有雅量。初為野王令，羊祜常過之，奕歎曰：「羊叔子何必減郭大業！」少選復往，又歎曰：「羊叔子去人遠矣。」遂送祜出界數百里，坐此免官。咸熙末，為文帝相國主薄。時鍾會反于蜀，荀勖即會之從甥，少長會家，勖為文帝掾，奕啟出之。帝雖不用，然知其雅正。武帝踐阼，初建東宮，以奕及鄭默並為中庶子。遷右衛率、驍騎將軍，封平陵男。咸寧初，遷雍州刺史、鷹揚將軍，尋假赤幢曲蓋、鼓吹。奕有寡姊，隨奕之官，姊下僮僕多有奸犯，而為人所糾。奕省按畢，曰：「大丈夫豈當以老姊求名？」遂遣而不問。時亭長李含有俊才，而門寒為豪族所排，奕用為別駕，含後果有名位，時以奕為知人。",
+          "subject_person_mention_id": "c-jinshu-045-guoyi:p001:m0026",
+          "object_person_mention_id": "c-jinshu-045-guoyi:p001:m0025"
+        }
+      ],
+      "interpretation_note": "只姊長奕幼與源稱寡；不推父母同異、絕對排行、丈夫或子女。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "64e_ce8_aba": "郭奕",
+    "xlb_7my_ut6": "郭奕寡姊〔未名〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "xlb_7my_ut6"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin045-guoyi-sister",
+      "subject_person_id": "xlb_7my_ut6",
+      "predicate": "sister",
+      "object_person_id": "64e_ce8_aba",
+      "qualifiers": {
+        "source_term": "寡姊",
+        "relative_birth_order": {
+          "older_person_id": "xlb_7my_ut6",
+          "younger_person_id": "64e_ce8_aba",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "source_clause_binding": {
+          "kind": "has_widowed_older_sister",
+          "source_revision": 2595687,
+          "paragraph_sha256": "04aac0d8f0b77dae77c7c9739473a61a894296ddac84273c62300f7167fc2bad",
+          "scope_anchor": {
+            "paragraph_id": "c-jinshu-045-guoyi:p001",
+            "start": 205,
+            "end": 209,
+            "surface": "奕有寡姊"
+          },
+          "human_reviewed": false
+        }
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-045",
+          "source_id": "s-jinshu-045-ws2595687-guoyi",
+          "chapter_id": "c-jinshu-045-guoyi",
+          "paragraph_id": "c-jinshu-045-guoyi:p001",
+          "quote": "郭奕，字大業，太原陽曲人也。少有重名，山濤稱其高簡有雅量。初為野王令，羊祜常過之，奕歎曰：「羊叔子何必減郭大業！」少選復往，又歎曰：「羊叔子去人遠矣。」遂送祜出界數百里，坐此免官。咸熙末，為文帝相國主薄。時鍾會反于蜀，荀勖即會之從甥，少長會家，勖為文帝掾，奕啟出之。帝雖不用，然知其雅正。武帝踐阼，初建東宮，以奕及鄭默並為中庶子。遷右衛率、驍騎將軍，封平陵男。咸寧初，遷雍州刺史、鷹揚將軍，尋假赤幢曲蓋、鼓吹。奕有寡姊，隨奕之官，姊下僮僕多有奸犯，而為人所糾。奕省按畢，曰：「大丈夫豈當以老姊求名？」遂遣而不問。時亭長李含有俊才，而門寒為豪族所排，奕用為別駕，含後果有名位，時以奕為知人。",
+          "subject_person_mention_id": "c-jinshu-045-guoyi:p001:m0026",
+          "object_person_mention_id": "c-jinshu-045-guoyi:p001:m0025"
+        }
+      ],
+      "interpretation_note": "只姊長奕幼與源稱寡；不推父母同異、絕對排行、丈夫或子女。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

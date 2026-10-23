@@ -1,4 +1,5 @@
 export default {
+  'Father-in-law': '岳父',
   'Identification of “{name}” here': '本處「{name}」的辨識',
   "Reported service duration": "任職時長記載",
   "Reported service duration: {count} years": "原記任職時長：{count}年",

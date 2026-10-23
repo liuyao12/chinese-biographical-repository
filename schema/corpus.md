@@ -1145,3 +1145,26 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `contextual_surname_from_bounded_named_family_path` 保完整原全文名seed、同來源逐步既存斷言／原人物錨／整段引文／paragraph SHA／revision／raw SHA。最多5步，assertion與人物均不得重複；兄弟步只准收到傳首「具名甲弟具名乙」及原相對序，世代不動；father_to_child步必有既存source_attested父斷言，世代加1，核具名父子原詞或有qualification的相鄰子附傳。只驗姓名資料，不生成父斷言、未知共同父、世距或家族組裝。
 
 每步exact fields為assertion_id/from_person_id/to_person_id/traversal/generation_before/generation_after/evidence/source_frames；source_frames逐完整來源段固定hash/revision。seed可在同單元引語中，但必為已標記的原全文名，不能用官稱、同姓、ID、郡望或已推姓者代seed。母／配偶／養／義兄弟／叔／未知共同父／跨源／循環／錯世代皆拒。輸出contextual_provisional及human_reviewed=false，原quote、ming和source技術ID不改；不放寬既有father-chain或bound-ancestor contract。
+
+
+## 收到古注近親與明示女婿方向（郭淮單元首例）
+
+`source_kinship_frame.kind: received_quoted_family_frame` 綁定來源完整原句、固定raw SHA、逐行投影、收到本傳/裴注括號實層、人物/字號原錨及有限語法。源祖不降為父，兄弟只存相對長幼，不憑此補同父、未名父、生母或完整排行。
+
+`father_in_law` 方向為 `subject_person_id` 婿 → `object_person_id` 岳父。來源「甲乙皆丙女婿」須分別驗證甲/乙原錨與丙字位及完整句；`source_term: 女婿`，`spouse_person_id: null`，`spouse_identity_status: not_identified_by_this_clause`。不因此造兩位女兒、不排除同女先後再嫁，未知婚年留空。此關係不作父子、不自動組裝父系；可讀人物頁保通用標籤與原句回鏈。
+
+
+## 固定收到官序與本傳局部年號
+
+`received_source_frame.kind: fixed_received_career_frame` 以完整來源段有限語法綁角色與官名/事件槽，驗固定raw、原逐行投影、主文/古注分層，不用人名、ID或最近名白名單。官至僅報告，未知任期空；明轉、行職、追贈、諡、承爵分開。未具爵名承襲只事件，不造爵holding。
+
+`regnal_year_mapping.kind: fixed_received_local_regnal_year` 必須由中央明傳bound_record與start/life_event角色，同一完整傳記主文的最新明年號及所有有序中間日期，保原省稱、完整段與固定見證收據；不跨注、不跨傳，不造君主零長錨。遇新年號重置；現代教育部表僅供年度對照。拒受任者/死亡者整塊改掛、漏日期、反向錨、raw位移共變重hash及symlink逃逸。
+
+`regional_service_duration` 是地域服務總述，不能分配各官任期；`military_authority` 非假造官節；`office_confirmation` 不是把五年當任五年；未名一子授爵不指某子、不能限定親生。來源原地稱不作籍貫，未知現代定位空。
+
+
+## 固定收到近親推姓與緊接字詞
+
+`contextual_surname_from_fixed_received_kinship` 只接受同一完整固定收到單元，全文名seed及已通過received_quoted_family的father/grandfather/brother有限三步；代距顯式、拒環/重邊/配偶/母系/收養/結義/遠親/編者父邊，不用結構ID或label。姊妹只准末端氏稱，明名兄之妹不補父或本名。`component_source_binding` 另綁各自人物原錨與緊接字詞，不能以同段出現他人字混填。源外推姓為contextual_provisional，不拼成原文全名、不加全局alias。明郭氏只氏，未知ming為null。
+
+字隨每來源record記，不因錄入先後成全庫權威字；郭奕裴注泰業與晉書045大業由各自原生來源保存，未圖校且無global preferred。

@@ -40,3 +40,43 @@ class ReadingCatalogTests(unittest.TestCase):
     def test_category_boundaries_cover_every_shiji_chapter_once(self):
         numbers = [n for start, end, _, _ in reading_catalog.CATEGORIES for n in range(start, end + 1)]
         self.assertEqual(numbers, list(range(1, 131)))
+
+    def test_progress_follows_chapter_not_shared_book(self):
+        import json
+        from pathlib import Path
+        from collections import defaultdict
+        from unittest.mock import patch
+        root=reading_catalog.ROOT
+        progress_path=root/'corpus/progress.json'
+        rows=json.loads(progress_path.read_text())
+        native={}
+        for path in (root/'corpus').glob('*/*.json'):
+            chapter=json.loads(path.read_text())
+            if chapter.get('record_type')=='marked_chapter' and chapter['work_id']!='w-shiji':
+                native[chapter['id']]=chapter
+        groups=defaultdict(list)
+        for row in rows['books']:
+            if row.get('chapter_id') in native:groups[row['book_id']].append(row)
+        first,second=next(group[:2] for group in groups.values() if len(group)>1)
+        expected={first['chapter_id']:'synthetic-status-one',second['chapter_id']:'synthetic-status-two'}
+        first['person_status'],second['person_status']=expected.values()
+        original=Path.read_text
+        def read(path,*args,**kwargs):
+            return json.dumps(rows) if path==progress_path else original(path,*args,**kwargs)
+        with patch.object(Path,'read_text',read):outputs=reading_catalog.outputs(root=root)
+        work_id=native[first['chapter_id']]['work_id']
+        catalog=json.loads(outputs[root/('data/corpus/'+work_id.removeprefix('w-')+'/index.json')])
+        actual={chapter['chapter_id']:chapter['annotation_status'] for chapter in catalog['chapters'] if chapter['chapter_id'] in expected}
+        self.assertEqual(actual,expected)
+
+    def test_all_native_chapters_have_explicit_progress(self):
+        import json
+        root=reading_catalog.ROOT
+        rows=json.loads((root/'corpus/progress.json').read_text())['books']
+        by_id={row['chapter_id']:row for row in rows}
+        self.assertEqual(len(by_id),len(rows))
+        for path in (root/'corpus').glob('*/*.json'):
+            chapter=json.loads(path.read_text())
+            if chapter.get('record_type')=='marked_chapter':
+                self.assertIn(chapter['id'],by_id,str(path))
+                self.assertEqual(by_id[chapter['id']]['book_id'],chapter['book_id'])

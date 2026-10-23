@@ -1,0 +1,53 @@
+{
+  "retrieval": [
+    {
+      "url": "http://csid.zju.edu.cn/tomb/stone",
+      "result": "web not accessible；Chrome net::ERR_BLOCKED_BY_CLIENT",
+      "not_bypassed": true
+    },
+    {
+      "url": "http://csid.zju.edu.cn/tomb/stone/detail?id=40288b955bd07752015bfb74a80002de",
+      "result": "web不可及；正常公開curl HTTP200，無登入/特殊header/驗證繞過"
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/楊珧",
+      "use": "僅導航讀其腳註官方href，非史學權威，不引用其族系結論"
+    }
+  ],
+  "scholarly_reference": {
+    "url": "https://fdgwz.org.cn/Web/Show/1905",
+    "title": "漢魏南北朝墓誌校讀札記",
+    "author": "梁春勝",
+    "institution": "河北大學文學院；復旦出土文獻中心2012-07-21首發",
+    "read_scope": "導論/第34條及前後條完整段",
+    "use": "釣/鈞校讀與趙超彙編新版頁95、毛遠明校注4/353–354書目線索；不是全誌錄文"
+  },
+  "excluded_complete_web_transcriptions": [
+    {
+      "url": "https://www.51sdj.com/show.php?do=original&id=43",
+      "reason": "商業書法頁、末尾截斷、未標可靠錄文出處，未採字底"
+    },
+    {
+      "url": "https://higrid.net/show/ancient/87-3.html",
+      "reason": "稱轉錄趙超彙編但未親見刊本頁，未採作機構見證"
+    },
+    {
+      "url": "https://yangshijz.com/ystt/205.html",
+      "reason": "宗親站轉錄非正式刊物，未採作機構見證"
+    }
+  ],
+  "additional_catalogue_only": [
+    {
+      "url": "https://www.toho-shoten.co.jp/cbook/476319_list.pdf",
+      "actual_read": "目錄P0列019.517楊舒墓誌；無全文，不宣稱已讀本書"
+    },
+    {
+      "url": "https://cms.dankook.ac.kr/web/-oriental/-74?_Bbs_WAR_bbsportlet_extFileId=166071&p_p_cacheability=cacheLevelPage&p_p_col_count=1&p_p_col_id=column-2&p_p_id=Bbs_WAR_bbsportlet&p_p_lifecycle=2&p_p_mode=view&p_p_state=normal",
+      "actual_read": "2023東洋學92崔珍烈梯形棺論印159腳註114核趙超1992頁95；只有日期引述，非完整墓誌"
+    },
+    {
+      "url": "https://person.zju.edu.cn/dcy/769404.html",
+      "actual_read": "浙大研究者官方頁確認2018數位化論著線索，未獲原刊完整誌文"
+    }
+  ]
+}

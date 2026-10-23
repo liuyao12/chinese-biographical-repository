@@ -12,7 +12,8 @@
     "陛下",
     "帝",
     "主上",
-    "車駕"
+    "車駕",
+    "朕"
   ],
   "titles": [
     {
@@ -339,6 +340,41 @@
       "book_id": "b-sanguozhi-022",
       "chapter_id": "c-sanguozhi-022-luyu",
       "source_id": "s-sanguozhi-022-luyu",
+      "work_title": "三國志"
+    },
+    {
+      "number": 26,
+      "category": "",
+      "title": "卷二十六：郭淮完整傳及裴注、四傳合評與清考證選錄",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit013",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "功書王府在關右三十餘年外征冦虜内綏民夷比歲以來摧破廖化禽虜句安功績顯著朕甚嘉之今以淮為車騎將軍儀同三司持節都督如故進封陽曲侯邑凡二千七百八十戸分三百戸封一子亭侯",
+      "paragraph_ids": [
+        "c-sanguozhi-026-guohuai:unit013"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-026-guohuai:unit013:m0053"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-026-guohuai:unit013:m0053": "c-sanguozhi-026-guohuai:unit013"
+      },
+      "mention_id": "c-sanguozhi-026-guohuai:unit013:m0053",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-026-guohuai:unit013:m0053",
+          "mention_ids": [
+            "c-sanguozhi-026-guohuai:unit013:m0053"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "source_id": "s-sanguozhi-026-guohuai",
       "work_title": "三國志"
     },
     {
@@ -12335,6 +12371,36 @@
           "extraction_note": "刪¶/換行與pb頁碼；括號只為古注逐行包裝，移為text_layer。原字（含珽/諶别傳/尸等）不改，逐字raw_positions固定。"
         },
         "quality_note": "沿既存固定WYG數位轉錄，未讀版本影像；本傳及古注保全不等同逐項生平已核。"
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "source_id": "s-sanguozhi-026-guohuai",
+      "source": {
+        "title": "三國志／魏書卷二十六／郭淮傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "99d0bad47453cda17150ad08d87eefe461707ba9",
+        "raw_file_sha256": "6764b2f841c384aec769c7ceea35deddf8bd05c56d1743b9fc77e10884530590",
+        "raw_path": "sources/sanguozhi/KR2a0012_026-214fcaf.txt",
+        "accessed_on": "2026-10-22",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "302–380郭淮完整傳及三注；381–385四傳合評；395–400郭淮相關清考證。滿寵、田豫、牽招完整本傳未匯，不稱全卷完成。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保全部郭淮傳與三注及合評/郭淮考證；只去版面符號、縮排與注括號。緼/縕/蘊、泰業等收到原字不正字，逐行片段完整投影。",
+          "excerpts": []
+        }
       }
     },
     {

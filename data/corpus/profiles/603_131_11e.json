@@ -209,6 +209,59 @@
       "work_title": "晉書"
     },
     {
+      "number": 45,
+      "category": "",
+      "title": "郭奕傳",
+      "paragraph_id": "c-jinshu-045-guoyi:p002",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "太康中，徵為尚書。奕有重名，當世朝臣皆出其下。時帝委任楊駿，奕表駿小器，不可任以社稷。帝不聽，駿後果誅。及奕疾病，詔賜錢二十萬，日給酒米。太康八年卒，太常上諡為景。有司議以貴賤不同號，諡與景皇同，不可，請諡曰穆。詔曰：「諡所以旌德表行，按諡法一德不懈為簡。奕",
+      "paragraph_ids": [
+        "c-jinshu-045-guoyi:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-045-guoyi:p002:m0004",
+        "c-jinshu-045-guoyi:p002:m0006",
+        "c-jinshu-045-guoyi:p002:m0008"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-045-guoyi:p002:m0004": "c-jinshu-045-guoyi:p002",
+        "c-jinshu-045-guoyi:p002:m0006": "c-jinshu-045-guoyi:p002",
+        "c-jinshu-045-guoyi:p002:m0008": "c-jinshu-045-guoyi:p002"
+      },
+      "mention_id": "c-jinshu-045-guoyi:p002:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-045-guoyi:p002:m0004",
+          "mention_ids": [
+            "c-jinshu-045-guoyi:p002:m0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-045-guoyi:p002:m0006",
+          "mention_ids": [
+            "c-jinshu-045-guoyi:p002:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-045-guoyi:p002:m0008",
+          "mention_ids": [
+            "c-jinshu-045-guoyi:p002:m0008"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-045",
+      "chapter_id": "c-jinshu-045-guoyi",
+      "source_id": "s-jinshu-045-ws2595687-guoyi",
+      "work_title": "晉書"
+    },
+    {
       "number": 59,
       "category": "",
       "title": "司馬亮、司馬羕",
@@ -812,6 +865,35 @@
           "character_conversion": {},
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-045-guoyi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-045",
+      "source_id": "s-jinshu-045-ws2595687-guoyi",
+      "source": {
+        "title": "《晉書》卷四十五郭奕完整本傳（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷045&oldid=2595687",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷045&oldid=2595687",
+        "revision_id": 2595687,
+        "accessed_on": "2026-10-22",
+        "extent": "郭奕完整本傳兩原段，止侯史光節題之前；不含同卷其他傳。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "caa053b497649ca478661493e4ff1b87fbe3432e480af71f0d0033f6e64693b0",
+        "raw_file": "sources/witnesses/jin045-ws2595687.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白及展開YL年號模板；原相國主薄、大業及咸熙末追敘鍾會反均不改。"
+        },
+        "raw_path": "sources/witnesses/jin045-ws2595687.wikitext",
+        "raw_file_sha256": "caa053b497649ca478661493e4ff1b87fbe3432e480af71f0d0033f6e64693b0"
       }
     },
     {
@@ -2374,6 +2456,55 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "le-jin045-yangjun-death",
+      "person_id": "603_131_11e",
+      "event_type": "death",
+      "source_term": "誅",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-045-guoyi:p002",
+        "start": 50,
+        "end": 51,
+        "surface": "誅"
+      },
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-045",
+          "source_id": "s-jinshu-045-ws2595687-guoyi",
+          "chapter_id": "c-jinshu-045-guoyi",
+          "paragraph_id": "c-jinshu-045-guoyi:p002",
+          "quote": "太康中，徵為尚書。奕有重名，當世朝臣皆出其下。時帝委任楊駿，奕表駿小器，不可任以社稷。帝不聽，駿後果誅。及奕疾病，詔賜錢二十萬，日給酒米。太康八年卒，太常上諡為景。有司議以貴賤不同號，諡與景皇同，不可，請諡曰穆。詔曰：「諡所以旌德表行，按諡法一德不懈為簡。奕忠毅清直，立德不渝。」於是遂賜諡曰簡。",
+          "person_mention_id": "c-jinshu-045-guoyi:p002:m0008"
+        }
+      ],
+      "interpretation_note": "後果誅為楊駿死亡回顧，原句無年，不借郭奕卒年287。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "source_death_context": {
+        "kind": "punctuated_biography_death_report",
+        "rule": "later_executed_subject",
+        "source_revision": 2595687,
+        "paragraph_sha256": "6c7232e072213a4abad8764653545676a9151f76764096ce270e734858d81273",
+        "subject_mention_id": "c-jinshu-045-guoyi:p002:m0008",
+        "clause_anchor": {
+          "paragraph_id": "c-jinshu-045-guoyi:p002",
+          "start": 47,
+          "end": 51,
+          "surface": "駿後果誅"
+        },
+        "death_anchor": {
+          "paragraph_id": "c-jinshu-045-guoyi:p002",
+          "start": 50,
+          "end": 51,
+          "surface": "誅"
+        },
+        "human_reviewed": false
+      }
     },
     {
       "id": "le-phase4-j-003",

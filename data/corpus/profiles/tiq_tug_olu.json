@@ -1,0 +1,680 @@
+{
+  "schema_version": 1,
+  "id": "tiq_tug_olu",
+  "canonical_person_id": "tiq_tug_olu",
+  "label": "正〔郭統子〕",
+  "identity_note": "統薨子正嗣，源內父子主體連續明確；不把正元/正始普通字當名。",
+  "review": "ai_provisional",
+  "names": [
+    "正"
+  ],
+  "titles": [
+    {
+      "id": "th-sgz026-guohuai-unit015-office4",
+      "person_id": "tiq_tug_olu",
+      "title": "汾陽子",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "appointment_role": "editorial_current_heir_regrant",
+      "received_source_frame": {
+        "kind": "fixed_received_career_frame",
+        "rule": "unit015",
+        "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+        "roles": {
+          "r15": "c-sanguozhi-026-guohuai:unit015:m0015",
+          "r17": "c-sanguozhi-026-guohuai:unit015:m0017",
+          "r26": "c-sanguozhi-026-guohuai:unit015:m0026",
+          "r36": "c-sanguozhi-026-guohuai:unit015:m0036"
+        },
+        "fields": {
+          "office1": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 7,
+            "end": 10,
+            "surface": "大將軍"
+          },
+          "office2": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 12,
+            "end": 14,
+            "surface": "貞侯"
+          },
+          "office3": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 20,
+            "end": 24,
+            "surface": "荆州刺史"
+          },
+          "office4": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 43,
+            "end": 46,
+            "surface": "汾陽子"
+          },
+          "date0": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 0,
+            "end": 4,
+            "surface": "正元二年"
+          },
+          "date28": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 28,
+            "end": 31,
+            "surface": "咸熙中"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "dbf344e683c7ddc944939b1d6369ba8e6b54974c2fc1ba520d6ea9397de00374",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "human_reviewed": false,
+        "slot": "office4"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-026",
+          "source_id": "s-sanguozhi-026-guohuai",
+          "chapter_id": "c-sanguozhi-026-guohuai",
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+          "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+          "person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-sgz026-guohuai-unit015-office4:a",
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+          "start": 43,
+          "end": 46,
+          "surface": "汾陽子",
+          "person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "咸熙中",
+          "evidence": [
+            {
+              "work_id": "w-sanguozhi",
+              "book_id": "b-sanguozhi-026",
+              "source_id": "s-sanguozhi-026-guohuai",
+              "chapter_id": "c-sanguozhi-026-guohuai",
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+              "person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026"
+            }
+          ],
+          "normalized_date_range": {
+            "basis": "within_named_era",
+            "calendar": "chinese_civil",
+            "precision": "year_range",
+            "year_numbering": "astronomical",
+            "status": "editorial_provisional",
+            "source_expression": "咸熙中",
+            "source_stage": "中",
+            "earliest": {
+              "era": "CE",
+              "era_year": 264,
+              "year": 264
+            },
+            "latest": {
+              "era": "CE",
+              "era_year": 265,
+              "year": 265
+            },
+            "era_span_mapping": {
+              "kind": "ce_regnal_era_span",
+              "era_name": "咸熙",
+              "polity_source_name": "魏",
+              "start_ce_year": 264,
+              "end_ce_year": 265,
+              "reference_index": 0
+            },
+            "references": [
+              {
+                "scope": "modern_era_year_equivalence_only",
+                "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=1",
+                "quote": "咸熙",
+                "columns": {
+                  "dynasty": "魏",
+                  "era_name": "咸熙",
+                  "first_year": "264",
+                  "last_year": "265"
+                }
+              }
+            ],
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+                "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+                "person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026"
+              }
+            ],
+            "original_quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+            "rationale": "原中只支持完整年號外範圍，不取中點或單年；先以固定原文角色綁同一持職者，再作現代年表對照。",
+            "reviewer": "Codex（AI代理）",
+            "human_reviewed": false
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "統嗣而薨、正嗣後接咸熙改封，首選正為當時承爵者；以淮著勲是祖功理由，非將改封移給已卒郭淮。原承嗣與祖功句完整保留，未推確年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "西元264至265年（中國曆年範圍） → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 26,
+      "category": "",
+      "title": "卷二十六：郭淮完整傳及裴注、四傳合評與清考證選錄",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+      "paragraph_ids": [
+        "c-sanguozhi-026-guohuai:unit015"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-026-guohuai:unit015:m0026"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-026-guohuai:unit015:m0026": "c-sanguozhi-026-guohuai:unit015"
+      },
+      "mention_id": "c-sanguozhi-026-guohuai:unit015:m0026",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026",
+          "mention_ids": [
+            "c-sanguozhi-026-guohuai:unit015:m0026"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "source_id": "s-sanguozhi-026-guohuai",
+      "work_title": "三國志"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "source_id": "s-sanguozhi-026-guohuai",
+      "source": {
+        "title": "三國志／魏書卷二十六／郭淮傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "99d0bad47453cda17150ad08d87eefe461707ba9",
+        "raw_file_sha256": "6764b2f841c384aec769c7ceea35deddf8bd05c56d1743b9fc77e10884530590",
+        "raw_path": "sources/sanguozhi/KR2a0012_026-214fcaf.txt",
+        "accessed_on": "2026-10-22",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "302–380郭淮完整傳及三注；381–385四傳合評；395–400郭淮相關清考證。滿寵、田豫、牽招完整本傳未匯，不稱全卷完成。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保全部郭淮傳與三注及合評/郭淮考證；只去版面符號、縮排與注括號。緼/縕/蘊、泰業等收到原字不正字，逐行片段完整投影。",
+          "excerpts": []
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-sgz026-guohuai-family-014",
+      "subject_person_id": "tiq_tug_olu",
+      "predicate": "father",
+      "object_person_id": "1cz_c76_jxs",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子",
+        "source_kinship_frame": {
+          "kind": "received_quoted_family_frame",
+          "rule": "biography_death_son_grandson_succession",
+          "roles": {
+            "child": "c-sanguozhi-026-guohuai:unit015:m0015",
+            "child_repeat": "c-sanguozhi-026-guohuai:unit015:m0017",
+            "grandchild": "c-sanguozhi-026-guohuai:unit015:m0026",
+            "head": "c-sanguozhi-026-guohuai:unit015:m0036"
+          },
+          "fields": {
+            "deathdate": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 0,
+              "end": 4,
+              "surface": "正元二年"
+            },
+            "postoffice": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 7,
+              "end": 10,
+              "surface": "大將軍"
+            },
+            "postname": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 12,
+              "end": 14,
+              "surface": "貞侯"
+            },
+            "child_office": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 20,
+              "end": 24,
+              "surface": "荆州刺史"
+            },
+            "era": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 28,
+              "end": 30,
+              "surface": "咸熙"
+            },
+            "rank": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 43,
+              "end": 46,
+              "surface": "汾陽子"
+            }
+          },
+          "scope_anchor": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 0,
+            "end": 46,
+            "surface": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子"
+          },
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_sha256": "dbf344e683c7ddc944939b1d6369ba8e6b54974c2fc1ba520d6ea9397de00374",
+          "source_layer": "received_chapter",
+          "human_reviewed": false,
+          "fixed_witness_reference": {
+            "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+            "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+          }
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-026",
+          "source_id": "s-sanguozhi-026-guohuai",
+          "chapter_id": "c-sanguozhi-026-guohuai",
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+          "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+          "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026",
+          "object_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0017"
+        }
+      ],
+      "interpretation_note": "收到原文層內明示近親；祖不降為父，兄弟不補同父/生母/絕對排行，未名配偶不造名或假定兩女各婚。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "1cz_c76_jxs": "統〔郭淮子〕",
+    "tiq_tug_olu": "正〔郭統子〕"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "name-sgz026-zheng",
+      "person_id": "tiq_tug_olu",
+      "surname": "郭",
+      "ming": "正",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026",
+      "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原人物錨只明名；姓郭為固定收到同源明親屬路徑的有資格編輯推姓，不把拼名當原引句、不造未知父或同父。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "ming_only",
+        "paragraph_sha256": "dbf344e683c7ddc944939b1d6369ba8e6b54974c2fc1ba520d6ea9397de00374",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        }
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_received_kinship",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "已讀完整收到單元，以原全文名郭淮及逐條已驗父/祖/兄弟來源角色作有限姓氏承接，不據ID或後譜。",
+        "source_name_record_id": "name-sgz026-guohuai",
+        "source_full_quote": "郭淮字伯濟太原陽曲人也",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-013",
+            "from_person_id": "d7u_f1n_let",
+            "to_person_id": "1cz_c76_jxs",
+            "traversal": "father_to_child",
+            "generation_before": 0,
+            "generation_after": 1,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+                "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0015",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0036"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-sgz026-guohuai-family-014",
+            "from_person_id": "1cz_c76_jxs",
+            "to_person_id": "tiq_tug_olu",
+            "traversal": "father_to_child",
+            "generation_before": 1,
+            "generation_after": 2,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+                "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0017"
+              }
+            ]
+          }
+        ]
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "source_id": "s-sanguozhi-026-guohuai"
+    }
+  ],
+  "person_ids": [
+    "tiq_tug_olu"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-sgz026-guohuai-family-014",
+      "subject_person_id": "tiq_tug_olu",
+      "predicate": "father",
+      "object_person_id": "1cz_c76_jxs",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子",
+        "source_kinship_frame": {
+          "kind": "received_quoted_family_frame",
+          "rule": "biography_death_son_grandson_succession",
+          "roles": {
+            "child": "c-sanguozhi-026-guohuai:unit015:m0015",
+            "child_repeat": "c-sanguozhi-026-guohuai:unit015:m0017",
+            "grandchild": "c-sanguozhi-026-guohuai:unit015:m0026",
+            "head": "c-sanguozhi-026-guohuai:unit015:m0036"
+          },
+          "fields": {
+            "deathdate": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 0,
+              "end": 4,
+              "surface": "正元二年"
+            },
+            "postoffice": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 7,
+              "end": 10,
+              "surface": "大將軍"
+            },
+            "postname": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 12,
+              "end": 14,
+              "surface": "貞侯"
+            },
+            "child_office": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 20,
+              "end": 24,
+              "surface": "荆州刺史"
+            },
+            "era": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 28,
+              "end": 30,
+              "surface": "咸熙"
+            },
+            "rank": {
+              "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+              "start": 43,
+              "end": 46,
+              "surface": "汾陽子"
+            }
+          },
+          "scope_anchor": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 0,
+            "end": 46,
+            "surface": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子"
+          },
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_sha256": "dbf344e683c7ddc944939b1d6369ba8e6b54974c2fc1ba520d6ea9397de00374",
+          "source_layer": "received_chapter",
+          "human_reviewed": false,
+          "fixed_witness_reference": {
+            "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+            "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+          }
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-026",
+          "source_id": "s-sanguozhi-026-guohuai",
+          "chapter_id": "c-sanguozhi-026-guohuai",
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+          "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+          "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026",
+          "object_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0017"
+        }
+      ],
+      "interpretation_note": "收到原文層內明示近親；祖不降為父，兄弟不補同父/生母/絕對排行，未名配偶不造名或假定兩女各婚。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "date_ranges": [
+    {
+      "basis": "within_named_era",
+      "calendar": "chinese_civil",
+      "precision": "year_range",
+      "year_numbering": "astronomical",
+      "status": "editorial_provisional",
+      "source_expression": "咸熙中",
+      "source_stage": "中",
+      "earliest": {
+        "era": "CE",
+        "era_year": 264,
+        "year": 264
+      },
+      "latest": {
+        "era": "CE",
+        "era_year": 265,
+        "year": 265
+      },
+      "era_span_mapping": {
+        "kind": "ce_regnal_era_span",
+        "era_name": "咸熙",
+        "polity_source_name": "魏",
+        "start_ce_year": 264,
+        "end_ce_year": 265,
+        "reference_index": 0
+      },
+      "references": [
+        {
+          "scope": "modern_era_year_equivalence_only",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=1",
+          "quote": "咸熙",
+          "columns": {
+            "dynasty": "魏",
+            "era_name": "咸熙",
+            "first_year": "264",
+            "last_year": "265"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-026",
+          "source_id": "s-sanguozhi-026-guohuai",
+          "chapter_id": "c-sanguozhi-026-guohuai",
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+          "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+          "person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026"
+        }
+      ],
+      "original_quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+      "rationale": "原中只支持完整年號外範圍，不取中點或單年；先以固定原文角色綁同一持職者，再作現代年表對照。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "record_id": "th-sgz026-guohuai-unit015-office4",
+      "person_id": "tiq_tug_olu",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "汾陽子"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "person_events": [
+    {
+      "id": "pe-sgz026-succession25",
+      "person_id": "tiq_tug_olu",
+      "event_type": "noble_title_succession",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "子正嗣",
+      "received_source_frame": {
+        "kind": "fixed_received_career_frame",
+        "rule": "unit015",
+        "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+        "roles": {
+          "r15": "c-sanguozhi-026-guohuai:unit015:m0015",
+          "r17": "c-sanguozhi-026-guohuai:unit015:m0017",
+          "r26": "c-sanguozhi-026-guohuai:unit015:m0026",
+          "r36": "c-sanguozhi-026-guohuai:unit015:m0036"
+        },
+        "fields": {
+          "office1": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 7,
+            "end": 10,
+            "surface": "大將軍"
+          },
+          "office2": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 12,
+            "end": 14,
+            "surface": "貞侯"
+          },
+          "office3": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 20,
+            "end": 24,
+            "surface": "荆州刺史"
+          },
+          "office4": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 43,
+            "end": 46,
+            "surface": "汾陽子"
+          },
+          "date0": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 0,
+            "end": 4,
+            "surface": "正元二年"
+          },
+          "date28": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+            "start": 28,
+            "end": 31,
+            "surface": "咸熙中"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "dbf344e683c7ddc944939b1d6369ba8e6b54974c2fc1ba520d6ea9397de00374",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "human_reviewed": false,
+        "slot": "succession25"
+      },
+      "title": null,
+      "predecessor_person_id": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-026",
+          "source_id": "s-sanguozhi-026-guohuai",
+          "chapter_id": "c-sanguozhi-026-guohuai",
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+          "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+          "person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026"
+        }
+      ],
+      "interpretation_note": "明示承爵；本句未再具爵名或明稱前任，故不造title=爵或承襲holding，也不推任期。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

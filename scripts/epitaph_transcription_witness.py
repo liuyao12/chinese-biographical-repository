@@ -5,6 +5,12 @@ LAYER='epitaph_as_modernly_transcribed'
 
 def errors(chapter,root,works,books):
  source=chapter.get('source',{});w=source.get('transcription_witness')
+ if isinstance(w,dict) and w.get('kind')=='institutional_database_epitaph_transcription':
+  try:
+   from .epitaph_database_witness import errors as database_errors
+  except ImportError:
+   from epitaph_database_witness import errors as database_errors
+  return database_errors(chapter,root,works,books)
  if w is None and works.get(chapter.get('work_id'),{}).get('work_type')!='single_epitaph' and not any(p.get('text_layer')==LAYER for p in chapter.get('paragraphs',[])):return []
  failures=[]
  def require(ok,reason):

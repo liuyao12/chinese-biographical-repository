@@ -10,7 +10,8 @@
     "景帝",
     "師",
     "司馬子元",
-    "景"
+    "景",
+    "景皇"
   ],
   "titles": [],
   "addresses": [],
@@ -266,6 +267,41 @@
       "book_id": "b-jinshu-039",
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "source_id": "s-jinshu-039-wangxun-feng",
+      "work_title": "晉書"
+    },
+    {
+      "number": 45,
+      "category": "",
+      "title": "郭奕傳",
+      "paragraph_id": "c-jinshu-045-guoyi:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "錢二十萬，日給酒米。太康八年卒，太常上諡為景。有司議以貴賤不同號，諡與景皇同，不可，請諡曰穆。詔曰：「諡所以旌德表行，按諡法一德不懈為簡。奕忠毅清直，立德不渝。」於是遂賜諡曰簡。",
+      "paragraph_ids": [
+        "c-jinshu-045-guoyi:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-045-guoyi:p002:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-045-guoyi:p002:m0012": "c-jinshu-045-guoyi:p002"
+      },
+      "mention_id": "c-jinshu-045-guoyi:p002:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-045-guoyi:p002:m0012",
+          "mention_ids": [
+            "c-jinshu-045-guoyi:p002:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-045",
+      "chapter_id": "c-jinshu-045-guoyi",
+      "source_id": "s-jinshu-045-ws2595687-guoyi",
       "work_title": "晉書"
     },
     {
@@ -12282,6 +12318,35 @@
         "response_sha256": "6024484babc384e46d119f771afcfcc00dda04e96dfd57c6e2e220bfc11ca63f",
         "wikitext_sha256": "93fdc36293b084a3693b073808ba92095e730973f8e4c5b2b4dd19fb1e9cea4c",
         "edition": "維基文庫數位轉錄，底本影像未核"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-045-guoyi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-045",
+      "source_id": "s-jinshu-045-ws2595687-guoyi",
+      "source": {
+        "title": "《晉書》卷四十五郭奕完整本傳（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷045&oldid=2595687",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷045&oldid=2595687",
+        "revision_id": 2595687,
+        "accessed_on": "2026-10-22",
+        "extent": "郭奕完整本傳兩原段，止侯史光節題之前；不含同卷其他傳。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "caa053b497649ca478661493e4ff1b87fbe3432e480af71f0d0033f6e64693b0",
+        "raw_file": "sources/witnesses/jin045-ws2595687.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白及展開YL年號模板；原相國主薄、大業及咸熙末追敘鍾會反均不改。"
+        },
+        "raw_path": "sources/witnesses/jin045-ws2595687.wikitext",
+        "raw_file_sha256": "caa053b497649ca478661493e4ff1b87fbe3432e480af71f0d0033f6e64693b0"
       }
     },
     {
