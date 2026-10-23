@@ -3,15 +3,51 @@
   "id": "23d_95b_500",
   "canonical_person_id": "23d_95b_500",
   "label": "士匄",
-  "identity_note": null,
+  "identity_note": "〈晉世家〉欒盈入絳一段原稱「范獻子」；據《左傳》同事件中范宣子奉公、命子鞅出擊的角色分工，此處首選士匄。原文稱謂不改，仍保留可能混合父子角色的限制；不將後期范鞅的記載一併歸此。 《三國志》王昶裴注末此云范匄盖誤的一錨僅記被校舉的原名字面，不斷言士匄參與文子對秦客事件。",
   "review": "ai_provisional",
   "names": [
     "士匄",
-    "范獻子"
+    "范獻子",
+    "范匄"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 27,
+      "category": "",
+      "title": "卷二十七：王昶完整傳及裴注、四傳合評與清考證選錄",
+      "paragraph_id": "c-sanguozhi-027-wangchang:unit006",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "三掩人於朝吾不在晉國亡無日也擊之以杖折其委笄臣松之案對秦客者范燮也此云范匄盖誤也",
+      "paragraph_ids": [
+        "c-sanguozhi-027-wangchang:unit006"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-027-wangchang:unit006:m0089"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-027-wangchang:unit006:m0089": "c-sanguozhi-027-wangchang:unit006"
+      },
+      "mention_id": "c-sanguozhi-027-wangchang:unit006:m0089",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-027-wangchang:unit006:m0089",
+          "mention_ids": [
+            "c-sanguozhi-027-wangchang:unit006:m0089"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-027",
+      "chapter_id": "c-sanguozhi-027-wangchang",
+      "source_id": "s-sanguozhi-027-wangchang",
+      "work_title": "三國志"
+    },
     {
       "number": 35,
       "category": "",
@@ -86,6 +122,36 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-sanguozhi-027-wangchang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-027",
+      "source_id": "s-sanguozhi-027-wangchang",
+      "source": {
+        "title": "三國志／魏書卷二十七／王昶傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "5305506e7094013caff1247f971797655b3839fe",
+        "raw_file_sha256": "022fc5dba059f0b330510848ef58d10b96ce10fc09a466c73cf45aaf52139998",
+        "raw_path": "sources/sanguozhi/KR2a0012_027-214fcaf.txt",
+        "accessed_on": "2026-10-19",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "117–260完整王昶傳及九裴注；402–404四傳合評；410–418完整王昶相關清考證，不稱全卷完成",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "正文與九裴注按原次序分層；只去版面符號、縮排及注括號，不正字。逐字原行片段保留。",
+          "excerpts": []
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-039-jin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-039",
@@ -156,5 +222,24 @@
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "rv-sgz027-fangai-wenzi",
+      "paragraph_id": "c-sanguozhi-027-wangchang:unit005",
+      "person_ids": [
+        "cno_x3i_mx4",
+        "23d_95b_500"
+      ],
+      "source_term": "若范匄對秦客至武子擊之折其委笄惡其掩人也",
+      "received_reading": "范匄",
+      "reported_reading": "范燮",
+      "commentator": "裴松之",
+      "quote": "臣松之案對秦客者范燮也此云范匄盖誤也",
+      "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
+      "status": "reported_not_collated",
+      "adopted": false,
+      "image_verified": false
+    }
+  ]
 }

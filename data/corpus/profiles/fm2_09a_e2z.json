@@ -106,6 +106,82 @@
         }
       },
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-hhs064-prefix_office-office-subject-p001-100",
+      "person_id": "fm2_09a_e2z",
+      "title": "大將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "layered_biographical_role_frame",
+        "rule": "prefix_office",
+        "paragraph_id": "c-houhanshu-064-luzhi:p001",
+        "scope_anchor": {
+          "paragraph_id": "c-houhanshu-064-luzhi:p001",
+          "start": 100,
+          "end": 105,
+          "surface": "大將軍竇武"
+        },
+        "roles": {
+          "subject": "c-houhanshu-064-luzhi:p001:m0103"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p001",
+            "start": 100,
+            "end": 103,
+            "surface": "大將軍"
+          }
+        },
+        "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+        "paragraph_sha256": "0cfe2a4aa5b0b08ff84a4c6f1864bc5508409f846d20713ad07f06b1bcb1d55d",
+        "human_reviewed": false,
+        "slot": "office",
+        "recipient_role": "subject"
+      },
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-064",
+          "source_id": "s-houhanshu-064-luzhi",
+          "chapter_id": "c-houhanshu-064-luzhi",
+          "paragraph_id": "c-houhanshu-064-luzhi:p001",
+          "quote": "盧植字子幹涿郡涿人也身長八尺二寸音聲如鐘少與鄭𤣥俱事馬融能通古今學好研精而不守章句融外戚豪家多列女倡歌舞於前植侍講積年未嘗轉盻融以是敬之學終辭歸闔門敎授性剛毅有大節常懐濟世志不好辭賦能飲酒一石時皇后父大將軍竇武援立靈帝初秉機政朝議欲加封爵植雖布衣以武素有名譽乃獻書以規之曰植聞嫠有不恤緯之事漆室有倚楹之戚憂深思逺君子之情夫士立爭友義貴切磋書陳謀及庶人詩詠詢于芻蕘植誦先王之書久矣敢愛其瞽言哉今足下之於漢朝猶旦奭之在周室建立聖主四海有繋論者以為吾子之功於斯為重天下聚目而視攢耳而聽謂準之前事將有景風之祚尋春秋之義王后無嗣擇立親長年均以徳徳均則決之卜筮今同宗相後披圖案牒以次建之何勲之有豈横叨天功以為己力乎宜辭大賞以全身名又比世祚不競仍外求嗣可謂危矣而四方未寜盜賊伺隙恒岳勃碣特多姦盜將有楚人脅比尹氏立朝之變宜依古禮置諸子之官徴王侯愛子宗室賢才外崇訓道之義内息貪利之心簡其良能隨用爵之彊幹弱枝之道也武並不能用州郡數命植皆不就",
+          "person_mention_id": "c-houhanshu-064-luzhi:p001:m0103"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hhs064-prefix_office-office-subject-p001-100:a",
+          "paragraph_id": "c-houhanshu-064-luzhi:p001",
+          "start": 100,
+          "end": 103,
+          "surface": "大將軍",
+          "person_mention_id": "c-houhanshu-064-luzhi:p001:m0103",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本固定來源逐原句角色記任命、轉任或用稱；期間未知不由上書、死亡、先後或邀請補齊。古注與正文來源分存。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -505,8 +581,59 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-hhs064-empress-douwu",
+      "subject_person_id": "9vy_5da_2xl",
+      "predicate": "father",
+      "object_person_id": "fm2_09a_e2z",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父大將軍竇武",
+        "lineage": "paternal",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "layered_child_named_titled_father",
+          "roles": {
+            "child": "c-houhanshu-064-luzhi:p001:m0097",
+            "parent": "c-houhanshu-064-luzhi:p001:m0103"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p001",
+            "start": 97,
+            "end": 105,
+            "surface": "皇后父大將軍竇武"
+          },
+          "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+          "paragraph_sha256": "0cfe2a4aa5b0b08ff84a4c6f1864bc5508409f846d20713ad07f06b1bcb1d55d",
+          "office_anchor": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p001",
+            "start": 100,
+            "end": 103,
+            "surface": "大將軍"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-064",
+          "chapter_id": "c-houhanshu-064-luzhi",
+          "source_id": "s-houhanshu-064-luzhi",
+          "paragraph_id": "c-houhanshu-064-luzhi:p001",
+          "quote": "盧植字子幹涿郡涿人也身長八尺二寸音聲如鐘少與鄭𤣥俱事馬融能通古今學好研精而不守章句融外戚豪家多列女倡歌舞於前植侍講積年未嘗轉盻融以是敬之學終辭歸闔門敎授性剛毅有大節常懐濟世志不好辭賦能飲酒一石時皇后父大將軍竇武援立靈帝初秉機政朝議欲加封爵植雖布衣以武素有名譽乃獻書以規之曰植聞嫠有不恤緯之事漆室有倚楹之戚憂深思逺君子之情夫士立爭友義貴切磋書陳謀及庶人詩詠詢于芻蕘植誦先王之書久矣敢愛其瞽言哉今足下之於漢朝猶旦奭之在周室建立聖主四海有繋論者以為吾子之功於斯為重天下聚目而視攢耳而聽謂準之前事將有景風之祚尋春秋之義王后無嗣擇立親長年均以徳徳均則決之卜筮今同宗相後披圖案牒以次建之何勲之有豈横叨天功以為己力乎宜辭大賞以全身名又比世祚不競仍外求嗣可謂危矣而四方未寜盜賊伺隙恒岳勃碣特多姦盜將有楚人脅比尹氏立朝之變宜依古禮置諸子之官徴王侯愛子宗室賢才外崇訓道之義内息貪利之心簡其良能隨用爵之彊幹弱枝之道也武並不能用州郡數命植皆不就",
+          "subject_person_mention_id": "c-houhanshu-064-luzhi:p001:m0097",
+          "object_person_mention_id": "c-houhanshu-064-luzhi:p001:m0103"
+        }
+      ],
+      "interpretation_note": "本來源的明示父稱/子稱；不推生母、配偶、出生排行或改父系ID。正文與古注分存。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "9vy_5da_2xl": "皇后〔竇武女，盧植傳〕",
     "fm2_09a_e2z": "竇武"
   },
   "dates": [],
@@ -514,7 +641,57 @@
   "person_ids": [
     "fm2_09a_e2z"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-hhs064-empress-douwu",
+      "subject_person_id": "9vy_5da_2xl",
+      "predicate": "father",
+      "object_person_id": "fm2_09a_e2z",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父大將軍竇武",
+        "lineage": "paternal",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "layered_child_named_titled_father",
+          "roles": {
+            "child": "c-houhanshu-064-luzhi:p001:m0097",
+            "parent": "c-houhanshu-064-luzhi:p001:m0103"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p001",
+            "start": 97,
+            "end": 105,
+            "surface": "皇后父大將軍竇武"
+          },
+          "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+          "paragraph_sha256": "0cfe2a4aa5b0b08ff84a4c6f1864bc5508409f846d20713ad07f06b1bcb1d55d",
+          "office_anchor": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p001",
+            "start": 100,
+            "end": 103,
+            "surface": "大將軍"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-064",
+          "chapter_id": "c-houhanshu-064-luzhi",
+          "source_id": "s-houhanshu-064-luzhi",
+          "paragraph_id": "c-houhanshu-064-luzhi:p001",
+          "quote": "盧植字子幹涿郡涿人也身長八尺二寸音聲如鐘少與鄭𤣥俱事馬融能通古今學好研精而不守章句融外戚豪家多列女倡歌舞於前植侍講積年未嘗轉盻融以是敬之學終辭歸闔門敎授性剛毅有大節常懐濟世志不好辭賦能飲酒一石時皇后父大將軍竇武援立靈帝初秉機政朝議欲加封爵植雖布衣以武素有名譽乃獻書以規之曰植聞嫠有不恤緯之事漆室有倚楹之戚憂深思逺君子之情夫士立爭友義貴切磋書陳謀及庶人詩詠詢于芻蕘植誦先王之書久矣敢愛其瞽言哉今足下之於漢朝猶旦奭之在周室建立聖主四海有繋論者以為吾子之功於斯為重天下聚目而視攢耳而聽謂準之前事將有景風之祚尋春秋之義王后無嗣擇立親長年均以徳徳均則決之卜筮今同宗相後披圖案牒以次建之何勲之有豈横叨天功以為己力乎宜辭大賞以全身名又比世祚不競仍外求嗣可謂危矣而四方未寜盜賊伺隙恒岳勃碣特多姦盜將有楚人脅比尹氏立朝之變宜依古禮置諸子之官徴王侯愛子宗室賢才外崇訓道之義内息貪利之心簡其良能隨用爵之彊幹弱枝之道也武並不能用州郡數命植皆不就",
+          "subject_person_mention_id": "c-houhanshu-064-luzhi:p001:m0097",
+          "object_person_mention_id": "c-houhanshu-064-luzhi:p001:m0103"
+        }
+      ],
+      "interpretation_note": "本來源的明示父稱/子稱；不推生母、配偶、出生排行或改父系ID。正文與古注分存。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

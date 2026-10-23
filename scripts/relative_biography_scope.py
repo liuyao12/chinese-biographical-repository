@@ -6,6 +6,10 @@ Embedded quotations are explicit exact spans; they do not reset the narrator's e
 import re
 
 def valid(date,chapters):
+    if date.get('narrative_era_scope',{}).get('kind')=='same_paragraph_explicit_year':
+        try:from scripts.layered_biography_titles import same_paragraph_year_valid
+        except ImportError:from layered_biography_titles import same_paragraph_year_valid
+        return same_paragraph_year_valid(date,chapters)
     s=date.get('narrative_era_scope');es=date.get('evidence',[])
     if not isinstance(s,dict) or not isinstance(chapters,dict) or s.get('kind')!='same_biographical_timeline_with_embedded_quotations':return False
     try:

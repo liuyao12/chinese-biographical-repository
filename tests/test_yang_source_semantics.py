@@ -53,7 +53,14 @@ class YangSourceSemantics(unittest.TestCase):
 
  def test_memory_bundles_and_connected_ids(self):
   for p in J(P/'registry-delta.json')['add_persons']:
-   d=bundle(p['id'],root=ROOT,catalog=CAT,include_provisional=True);self.assertEqual(d['canonical_person_id'],p['id']);self.assertTrue(d['mentions'])
+   # Frozen import IDs are historical; resolve each exact source occurrence in current markup.
+   anchors={e['mention_id']:e['quote'] for e in p['evidence']}
+   marks=[m for para in PAR for m in para['mentions'] if m['id'] in anchors]
+   self.assertEqual({m['id'] for m in marks},set(anchors))
+   self.assertTrue(all(m['surface']==anchors[m['id']] for m in marks))
+   current_ids={m['person_id'] for m in marks};self.assertEqual(len(current_ids),1)
+   current_id=next(iter(current_ids))
+   d=bundle(current_id,root=ROOT,catalog=CAT,include_provisional=True);self.assertEqual(d['canonical_person_id'],current_id);self.assertTrue(d['mentions'])
   d=bundle(ID['楊髦'],root=ROOT,catalog=CAT,include_provisional=True)
   sm,rows=load_assemblies(ROOT,CAT);pid=ID['楊髦'];chain=[]
   while pid:

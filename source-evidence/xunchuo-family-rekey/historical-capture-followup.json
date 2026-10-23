@@ -1,0 +1,141 @@
+{
+  "record_type": "historical_capture_rekey_qualification",
+  "mapping_ref": "source-evidence/xunchuo-family-rekey/current-review.json",
+  "mapping_receipt_ref": "source-evidence/xunchuo-family-rekey/annotation-chain.json",
+  "historical_files": [
+    {
+      "path": "source-evidence/jin039-xunxu-identity-distinction.json",
+      "sha256": "93b8c9a21cd1d5d6a1c5c0c949078d4ce29226f9eac101be66eab4e1db0d3af5",
+      "root_type": "dict",
+      "top_keys": [
+        "record_type",
+        "decisions",
+        "complete_existing_paragraphs",
+        "human_reviewed",
+        "image_verified"
+      ],
+      "classification": "captured_primary_or_prior_editorial_review_frozen_at_rekey",
+      "current_route": "source-evidence/xunchuo-family-rekey/current-review.json"
+    },
+    {
+      "path": "source-evidence/jin039-xunxu-facts30-consumption.json",
+      "sha256": "9aad9ef8ede54fbd9319d0ad342a8fc272640a037b59a2898816eb229f75d77d",
+      "root_type": "dict",
+      "top_keys": [
+        "record_type",
+        "source_revision",
+        "source_id",
+        "raw_sha256",
+        "ledger",
+        "typed",
+        "image_verified",
+        "human_reviewed"
+      ],
+      "classification": "captured_primary_or_prior_editorial_review_frozen_at_rekey",
+      "current_route": "source-evidence/xunchuo-family-rekey/current-review.json"
+    },
+    {
+      "path": "source-evidence/xunchuo-identity-father-review/review.json",
+      "sha256": "2e47af801dbd01e0eae02458252e5a39fd5ab2b16372c51c0a0cfe644689a094",
+      "root_type": "dict",
+      "top_keys": [
+        "record_type",
+        "decision",
+        "before_mentions",
+        "previous_reading",
+        "counterevidence_and_limits",
+        "remaining_tasks",
+        "complete_units_read",
+        "human_reviewed",
+        "image_verified"
+      ],
+      "classification": "captured_primary_or_prior_editorial_review_frozen_at_rekey",
+      "current_route": "source-evidence/xunchuo-family-rekey/current-review.json"
+    },
+    {
+      "path": "source-evidence/jin059-jiong-yi-source/identity-review.json",
+      "sha256": "4543696296429b974e32a8ab036098a371904c385427f98586ac65c5f5206ca5",
+      "root_type": "list",
+      "top_keys": null,
+      "classification": "captured_primary_or_prior_editorial_review_frozen_at_rekey",
+      "current_route": "source-evidence/xunchuo-family-rekey/current-review.json"
+    },
+    {
+      "path": "source-evidence/jin043-wangyan-source/parallel-evidence.json",
+      "sha256": "1c7fb65f81aa26db239f69cf092898aec1abb74541d2bf55eba9cd4c3eb8c1f6",
+      "root_type": "list",
+      "top_keys": null,
+      "classification": "captured_primary_or_prior_editorial_review_frozen_at_rekey",
+      "current_route": "source-evidence/xunchuo-family-rekey/current-review.json"
+    },
+    {
+      "path": "source-evidence/jin035-pei-source-reading/native-source-fidelity.json",
+      "sha256": "3a977a33ee4c65d39da8af54e5ccbc968062c69933e8d1eaa819b622acdbf9c5",
+      "root_type": "dict",
+      "top_keys": [
+        "source_sha256",
+        "selected_raw_start",
+        "selected_raw_end",
+        "all_raw_characters_consumed_or_classified",
+        "paragraphs",
+        "linked_reverse_evidence",
+        "unresolved",
+        "source_character_conversion",
+        "marks",
+        "human_reviewed"
+      ],
+      "classification": "captured_primary_or_prior_editorial_review_frozen_at_rekey",
+      "current_route": "source-evidence/xunchuo-family-rekey/current-review.json"
+    },
+    {
+      "path": "source-evidence/jin035-pei-source-reading/identity-review.json",
+      "sha256": "aaeeef90a10d1a75bae237982c9bb5c40fb777a31c84f874acf3a56a38ecc8f0",
+      "root_type": "list",
+      "top_keys": null,
+      "classification": "captured_primary_or_prior_editorial_review_frozen_at_rekey",
+      "current_route": "source-evidence/xunchuo-family-rekey/current-review.json"
+    },
+    {
+      "path": "source-evidence/jin035-pei-source-reading/read-parallel-contexts.json",
+      "sha256": "6e6c12f5af23d153d70f606f08029ab9b789fa69a75c2ccf963739ebe4a01d20",
+      "root_type": "list",
+      "top_keys": null,
+      "classification": "captured_primary_or_prior_editorial_review_frozen_at_rekey",
+      "current_route": "source-evidence/xunchuo-family-rekey/current-review.json"
+    },
+    {
+      "path": "source-evidence/jin035-pei-source-reading/unresolved-anchor-review.json",
+      "sha256": "debe1aee87fb3de77e82e197a44e7c3f2f125d86b4d8743f0858ebade29b3ad2",
+      "root_type": "list",
+      "top_keys": null,
+      "classification": "captured_primary_or_prior_editorial_review_frozen_at_rekey",
+      "current_route": "source-evidence/xunchuo-family-rekey/current-review.json"
+    },
+    {
+      "path": "source-evidence/jin035-pei-source-reading/entity-dispositions.json",
+      "sha256": "48b26ed6f15abf58e4a350a75515a8c623677fc020cb375e7153922a500296c3",
+      "root_type": "list",
+      "top_keys": null,
+      "classification": "captured_primary_or_prior_editorial_review_frozen_at_rekey",
+      "current_route": "source-evidence/xunchuo-family-rekey/current-review.json"
+    },
+    {
+      "path": "tests/fixtures/yang-source/registry-delta.json",
+      "sha256": "85cca2e70210e708ebacccd319e5b54ce45598d92dc7a791633d095cbd0a1ced",
+      "root_type": "dict",
+      "classification": "immutable_source_import_fixture_not_runtime_endpoint"
+    },
+    {
+      "path": "tests/fixtures/yang-source/ids.json",
+      "sha256": "22354b999a9653ec7f6b2aef62173f94b570541ddadfa6c28db733013d57c951",
+      "root_type": "dict",
+      "classification": "immutable_source_import_fixture_not_runtime_endpoint"
+    }
+  ],
+  "superseded_scope": "person endpoint binding only; original bytes and earlier editorial interpretation retained",
+  "current_person_ids": [
+    "yoo_ox0_545_FAAABB"
+  ],
+  "person_aliases_created": false,
+  "human_reviewed": false
+}

@@ -114,7 +114,48 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-hhs064-song-empress-note",
+      "person_id": "l9d_qj2_0mg",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "憂死",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-064",
+          "source_id": "s-houhanshu-064-luzhi",
+          "chapter_id": "c-houhanshu-064-luzhi",
+          "paragraph_id": "c-houhanshu-064-luzhi:note032",
+          "quote": "后以王甫程阿所構憂死父及兄弟並被誅靈帝後夢見桓帝怒曰宋皇后何罪而絶其命已訴於天上帝震怒罪在難救也",
+          "person_mention_id": "c-houhanshu-064-luzhi:note032:m0000"
+        }
+      ],
+      "interpretation_note": "李賢注所報宋后憂死，未給死亡紀年；靈帝夢與上帝敘述不作神的生卒，亦不將正文光和元上書年套於此。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "source_layered_death_report": {
+        "kind": "layered_explicit_death_report",
+        "rule": "accused_subject_dies_of_grief",
+        "roles": {
+          "subject": "c-houhanshu-064-luzhi:note032:m0000",
+          "accuser1": "c-houhanshu-064-luzhi:note032:m0002",
+          "accuser2": "c-houhanshu-064-luzhi:note032:m0004"
+        },
+        "clause_anchor": {
+          "paragraph_id": "c-houhanshu-064-luzhi:note032",
+          "start": 0,
+          "end": 10,
+          "surface": "后以王甫程阿所構憂死"
+        },
+        "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+        "paragraph_sha256": "817fc1ddfdfac90469732e2705a087628a3dd0bd60bfc940a67a2a73778aa51f"
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

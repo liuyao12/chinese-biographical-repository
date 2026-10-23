@@ -93,6 +93,10 @@ def analyse(record,ch):
  return p,roles,fields,slots
 
 def holding_valid(h,ch):
+ if h.get('source_career_role',{}).get('kind')=='layered_biographical_role_frame':
+  try:from scripts.layered_biography_titles import holding_valid as layered_valid
+  except ImportError:from layered_biography_titles import holding_valid as layered_valid
+  return layered_valid(h,ch)
  try:
   p,rs,fs,slots=analyse(h,ch);b=h['source_career_role'];slot=next(x for x in slots if x[0]==b['slot']and x[1]==b['recipient_role']);name,recipient,kind,mode,semantic,time,suffix=slot;x=fs[name];role=rs[recipient];ev,=h['evidence'];a,=h['attestations'];title=x['surface']+(fs[suffix]['surface']if suffix else'')
   assert h['person_id']==role['person_id']and h['title']==title and h['kind']==kind and h['mode']==mode and h['appointment_role']==semantic and h['status']=='source_attested'and h['human_reviewed']is False
@@ -108,6 +112,10 @@ def holding_valid(h,ch):
  except(KeyError,TypeError,ValueError,AssertionError,StopIteration,IndexError):return False
 
 def detail_valid(d,ch,holdings):
+ if d.get('source_career_role',{}).get('kind')=='layered_biographical_role_frame':
+  try:from scripts.layered_biography_titles import detail_valid as layered_detail_valid
+  except ImportError:from layered_biography_titles import detail_valid as layered_detail_valid
+  return layered_detail_valid(d,ch,holdings)
  try:
   p,rs,fs,slots=analyse(d,ch);b=d['source_career_role'];ev,=d['evidence'];subject=rs[b['recipient_role']];v=d['values'];kind=d['kind'];slot=b['slot'];assert d['person_id']==subject['person_id']and d['human_reviewed']is False and d['status']=='source_attested'and ev['quote']==p['text']and ev['person_mention_id']==subject['id']and ev['source_id']==ch['source_id']and ev['chapter_id']==ch['id']and d['date_expression']is None
   f=fs[slot];assert d['source_anchor']==f and d['source_term']==f['surface']and d['paragraph_sha256']==b['paragraph_sha256']and d['source_revision']==b['source_revision']

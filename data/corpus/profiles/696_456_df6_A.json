@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "id": "1a8_567_07a",
-  "canonical_person_id": "1a8_567_07a",
+  "id": "696_456_df6_A",
+  "canonical_person_id": "696_456_df6_A",
   "label": "荀彞",
   "identity_note": "只依固定卷010荀攸完整單元；古注、主敘事、稱呼、作者與引古分域。未補未知父母、配偶、生年或官爵年代；韓莫三種名字保留為古注所報異文，不稱已校正字。",
   "review": "ai_provisional",
@@ -3801,9 +3801,9 @@
   "relations": [
     {
       "id": "a-xunyou11-002",
-      "subject_person_id": "eb0_d56_aa1",
+      "subject_person_id": "696_456_df6_AA",
       "predicate": "father",
-      "object_person_id": "1a8_567_07a",
+      "object_person_id": "696_456_df6_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -3826,7 +3826,7 @@
     },
     {
       "id": "a-xunyou11-004",
-      "subject_person_id": "1a8_567_07a",
+      "subject_person_id": "696_456_df6_A",
       "predicate": "agnatic_cousin",
       "object_person_id": "yoo_ox0_545_BA",
       "status": "source_attested",
@@ -3858,21 +3858,21 @@
     }
   ],
   "related_people": {
-    "1a8_567_07a": "荀彞",
-    "eb0_d56_aa1": "荀攸",
+    "696_456_df6_A": "荀彞",
+    "696_456_df6_AA": "荀攸",
     "yoo_ox0_545_BA": "荀彧"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "1a8_567_07a"
+    "696_456_df6_A"
   ],
   "preferred_relations": [
     {
       "id": "a-xunyou11-002",
-      "subject_person_id": "eb0_d56_aa1",
+      "subject_person_id": "696_456_df6_AA",
       "predicate": "father",
-      "object_person_id": "1a8_567_07a",
+      "object_person_id": "696_456_df6_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -3895,7 +3895,7 @@
     },
     {
       "id": "a-xunyou11-004",
-      "subject_person_id": "1a8_567_07a",
+      "subject_person_id": "696_456_df6_A",
       "predicate": "agnatic_cousin",
       "object_person_id": "yoo_ox0_545_BA",
       "status": "source_attested",
@@ -3926,6 +3926,76 @@
       "model": null
     }
   ],
+  "assembled_identity": {
+    "person_id": "696_456_df6_A",
+    "representative_source_person_id": "696_456_df6_A",
+    "source_person_ids": [
+      "696_456_df6_A"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "696_456_df6",
+    "source_assertion_id": null,
+    "parent_connection": {
+      "type": "parent_between_body_and_attached_note_ancestors",
+      "interpretation_basis": "body_grandfather_attached_note_father",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "rationale": "同一人物祖父正文與直接附注明父，不造原文明父。",
+      "chain_subject_person_id": "696_456_df6_AA",
+      "nearer_ancestor_assertion_id": "a-xunyou11-002",
+      "farther_ancestor_assertion_id": "a-xunyou11-001",
+      "body_subject_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u001:m0000",
+      "body_ancestor_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u001:m0011",
+      "note_subject_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002:m0044",
+      "note_ancestor_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002:m0046",
+      "references": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002",
+          "quote": "荀氏家傳曰曇字元智兄昱字伯修張璠漢紀稱昱曇並傑俊有殊才昱與李膺王暢杜宻等號為八俊位至沛相攸父彞州從事彛于彧為從祖兄弟",
+          "assertion_id": "a-xunyou11-002",
+          "scope": "同一人物正文與直接附注，父祖各原證，父之父僅編輯接合",
+          "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_010.txt"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u001",
+          "quote": "荀攸字公達彧從子也祖父曇廣陵太守",
+          "assertion_id": "a-xunyou11-001",
+          "scope": "同一人物正文與直接附注，父祖各原證，父之父僅編輯接合",
+          "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_010.txt"
+        }
+      ],
+      "witness_binding": {
+        "body_paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u001",
+        "note_paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002",
+        "following_body_paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u003",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "raw_file": "sources/witnesses/KR2a0012_010-214fcafa79894355909c9d8c2c1533089e7791c6.txt",
+        "raw_file_sha256": "3b736cbaea3657f72d95c16164799a29994de8e477412e37996ca73f129e0b06"
+      },
+      "role_clause": {
+        "kind": "attributed_genealogical_report",
+        "start": 44,
+        "end": 47,
+        "attribution_start": 14,
+        "attribution_end": 58,
+        "authority": "張璠漢紀",
+        "work_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002:w0016",
+        "cited_work_id": "w-hanji-zhangfan-sgz010-reference"
+      }
+    },
+    "assembly_id": "family-xunyou-tan-yi",
+    "root_person_id": "696_456_df6",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

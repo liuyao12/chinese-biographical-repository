@@ -40,7 +40,7 @@
     "coverage": "完整選定傳/論/全部夾注逐名及必要稱謂首輪；未決保持候選或null。",
     "limitations": [
       "未圖校，不證最早存本或成書年月。",
-      "只來源身份，不新增typed親屬、生卒、地望、任官或family組裝。",
+      "初次來源包僅作身份；本傳親屬、生卒、地望與官序現另有逐項有源typed陳述；未作family重接。",
       "儉葬是節葬；不造儉為子名。郤豰等原字不校改。",
       "范獻子已依左傳完整事件首選范鞅；李賢節引與左傳說話主客差異另存，原字不改。",
       "韓說與漢武功臣、賈逵與魏主簿按時代/官序分人。"
@@ -62,6 +62,113 @@
             "qualification": "五行傳劉向所著是本古注報告；未親見原作，本包不偽裝為author_title_prefix。"
           }
         ]
+      }
+    ],
+    "title_proposals": [
+      {
+        "id": "proposal-hhs064-luzhi-junshi",
+        "person_id": "m8n_ntm_79h",
+        "person_mention_id": "c-houhanshu-064-luzhi:p001:m0000",
+        "title": "軍師",
+        "proposal_kind": "appointment_service_unreported",
+        "appointment_stage": "invitation",
+        "outcome": "not_reported",
+        "effective_service_attested": false,
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "date_expression": null,
+        "role_anchor": {
+          "paragraph_id": "c-houhanshu-064-luzhi:p006",
+          "start": 186,
+          "end": 188,
+          "surface": "軍師"
+        },
+        "source_appointment_context": {
+          "kind": "layered_biographical_role_frame",
+          "rule": "invited_adviser",
+          "paragraph_id": "c-houhanshu-064-luzhi:p006",
+          "scope_anchor": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p006",
+            "start": 179,
+            "end": 188,
+            "surface": "冀州牧袁紹請為軍師"
+          },
+          "roles": {
+            "issuer": "c-houhanshu-064-luzhi:p006:m0182"
+          },
+          "fields": {
+            "issuer_office": {
+              "paragraph_id": "c-houhanshu-064-luzhi:p006",
+              "start": 179,
+              "end": 182,
+              "surface": "冀州牧"
+            },
+            "office": {
+              "paragraph_id": "c-houhanshu-064-luzhi:p006",
+              "start": 186,
+              "end": 188,
+              "surface": "軍師"
+            }
+          },
+          "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+          "paragraph_sha256": "5e1e320ee7530b71fdd01d04efe6daba3736ec5a700332fe27f2ac331edc46f5",
+          "human_reviewed": false
+        },
+        "recipient_context": {
+          "kind": "biography_head_recipient",
+          "paragraph_id": "c-houhanshu-064-luzhi:p001",
+          "person_mention_id": "c-houhanshu-064-luzhi:p001:m0000",
+          "quote": "盧植字子幹涿郡涿人也身長八尺二寸音聲如鐘少與鄭𤣥俱事馬融能通古今學好研精而不守章句融外戚豪家多列女倡歌舞於前植侍講積年未嘗轉盻融以是敬之學終辭歸闔門敎授性剛毅有大節常懐濟世志不好辭賦能飲酒一石時皇后父大將軍竇武援立靈帝初秉機政朝議欲加封爵植雖布衣以武素有名譽乃獻書以規之曰植聞嫠有不恤緯之事漆室有倚楹之戚憂深思逺君子之情夫士立爭友義貴切磋書陳謀及庶人詩詠詢于芻蕘植誦先王之書久矣敢愛其瞽言哉今足下之於漢朝猶旦奭之在周室建立聖主四海有繋論者以為吾子之功於斯為重天下聚目而視攢耳而聽謂準之前事將有景風之祚尋春秋之義王后無嗣擇立親長年均以徳徳均則決之卜筮今同宗相後披圖案牒以次建之何勲之有豈横叨天功以為己力乎宜辭大賞以全身名又比世祚不競仍外求嗣可謂危矣而四方未寜盜賊伺隙恒岳勃碣特多姦盜將有楚人脅比尹氏立朝之變宜依古禮置諸子之官徴王侯愛子宗室賢才外崇訓道之義内息貪利之心簡其良能隨用爵之彊幹弱枝之道也武並不能用州郡數命植皆不就"
+        },
+        "evidence": [
+          {
+            "work_id": "w-houhanshu",
+            "book_id": "b-houhanshu-064",
+            "source_id": "s-houhanshu-064-luzhi",
+            "chapter_id": "c-houhanshu-064-luzhi",
+            "paragraph_id": "c-houhanshu-064-luzhi:p006",
+            "quote": "帝崩大將軍何進謀誅中官乃召并州牧董卓以懼太后植知卓凶悍難制必生後患固止之進不從及卓至果陵虐朝廷乃大會百官於朝堂議欲廢立羣僚無敢言植獨抗議不同卓怒罷會將誅植語在卓傳植素善蔡邕邕前徙朔方植獨上書請之邕時見親於卓故往請植事又議郎彭伯諫卓曰盧尚書海内大儒人之望也今先害天下震怖卓乃止但免植官而已植以老病求歸懼不免禍乃詭道從轘轅出卓果使人追之到懐不及遂隱於上谷不交人事冀州牧袁紹請為軍師",
+            "person_mention_id": "c-houhanshu-064-luzhi:p001:m0000",
+            "context": {
+              "kind": "biography_head_recipient",
+              "paragraph_id": "c-houhanshu-064-luzhi:p001",
+              "person_mention_id": "c-houhanshu-064-luzhi:p001:m0000",
+              "quote": "盧植字子幹涿郡涿人也身長八尺二寸音聲如鐘少與鄭𤣥俱事馬融能通古今學好研精而不守章句融外戚豪家多列女倡歌舞於前植侍講積年未嘗轉盻融以是敬之學終辭歸闔門敎授性剛毅有大節常懐濟世志不好辭賦能飲酒一石時皇后父大將軍竇武援立靈帝初秉機政朝議欲加封爵植雖布衣以武素有名譽乃獻書以規之曰植聞嫠有不恤緯之事漆室有倚楹之戚憂深思逺君子之情夫士立爭友義貴切磋書陳謀及庶人詩詠詢于芻蕘植誦先王之書久矣敢愛其瞽言哉今足下之於漢朝猶旦奭之在周室建立聖主四海有繋論者以為吾子之功於斯為重天下聚目而視攢耳而聽謂準之前事將有景風之祚尋春秋之義王后無嗣擇立親長年均以徳徳均則決之卜筮今同宗相後披圖案牒以次建之何勲之有豈横叨天功以為己力乎宜辭大賞以全身名又比世祚不競仍外求嗣可謂危矣而四方未寜盜賊伺隙恒岳勃碣特多姦盜將有楚人脅比尹氏立朝之變宜依古禮置諸子之官徴王侯愛子宗室賢才外崇訓道之義内息貪利之心簡其良能隨用爵之彊幹弱枝之道也武並不能用州郡數命植皆不就"
+            }
+          }
+        ],
+        "interpretation_note": "袁紹請為軍師只記延請；原文未說就任，亦未說拒絕。不得列作已任或未任。",
+        "reviewer": "Codex（AI代理）"
+      }
+    ],
+    "age_assertions": [
+      {
+        "id": "age-hhs064-yu-orphan-ten",
+        "person_id": "m8n_ntm_79h_A",
+        "value": 10,
+        "source_number": "十",
+        "source_term": "十嵗",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "date_expression": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-houhanshu",
+            "book_id": "b-houhanshu-064",
+            "source_id": "s-houhanshu-064-luzhi",
+            "chapter_id": "c-houhanshu-064-luzhi",
+            "paragraph_id": "c-houhanshu-064-luzhi:note043",
+            "quote": "魏志曰毓字子家十嵗而孤以學行稱仕魏至侍中吏部尚書時舉中郎詔曰得其人與不在盧生耳選舉莫取有名如畫地為餅不可啖也毓對曰名不足以致異人而可以得常士常士畏教慕善然後有名也",
+            "person_mention_id": "c-houhanshu-064-luzhi:note043:m0003"
+          }
+        ],
+        "event_context": "十嵗而孤；來源報齡，非出生或卒年算式",
+        "interpretation_note": "保留來源十歲而孤，不結合植192卒推毓生年，也不自定虛歲/周歲。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
       }
     ]
   },

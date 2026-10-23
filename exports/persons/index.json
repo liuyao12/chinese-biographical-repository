@@ -5405,22 +5405,6 @@
       ]
     },
     {
-      "person_id": "1a8_567_07a",
-      "label": "荀彞",
-      "path": "1a8_567_07a.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 2,
-      "raw_mention_count": 2,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 2,
-      "table_mention_count": 0,
-      "source_count": 1,
-      "most_mentioned_source_ids": [
-        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
-      ]
-    },
-    {
       "person_id": "1ag_0z1_mlq",
       "label": "申侯",
       "path": "1ag_0z1_mlq.json",
@@ -8325,13 +8309,14 @@
       "path": "23d_95b_500.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 2,
-      "raw_mention_count": 2,
+      "mention_count": 3,
+      "raw_mention_count": 3,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 2,
+      "paragraph_mention_count": 3,
       "table_mention_count": 0,
-      "source_count": 2,
+      "source_count": 3,
       "most_mentioned_source_ids": [
+        "s-sanguozhi-027-wangchang",
         "s-shiji-039-jin",
         "s-weishu-weishou-035-cuihao"
       ]
@@ -23508,22 +23493,6 @@
       ]
     },
     {
-      "person_id": "537_48d_739",
-      "label": "荀綽",
-      "path": "537_48d_739.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 3,
-      "raw_mention_count": 3,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 3,
-      "table_mention_count": 0,
-      "source_count": 2,
-      "most_mentioned_source_ids": [
-        "s-jinshu-035-peikai-ws2506399"
-      ]
-    },
-    {
       "person_id": "538_2bf_cfc",
       "label": "北魏孝荘帝子攸",
       "path": "538_2bf_cfc.json",
@@ -28303,7 +28272,243 @@
       "source_count": 2,
       "most_mentioned_source_ids": [
         "s-sanguozhi-010-xunyu-xunyou-jiaxu"
-      ]
+      ],
+      "source_person_id": "696_456_df6",
+      "assembled_identity": {
+        "person_id": "696_456_df6",
+        "representative_source_person_id": "696_456_df6",
+        "source_person_ids": [
+          "696_456_df6"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": null,
+        "source_assertion_id": null,
+        "assembly_id": "family-xunyou-tan-yi",
+        "root_person_id": "696_456_df6",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "696_456_df6_A",
+      "label": "荀彞",
+      "path": "696_456_df6_A.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 2,
+      "raw_mention_count": 2,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 2,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
+      ],
+      "source_person_id": "696_456_df6_A",
+      "assembled_identity": {
+        "person_id": "696_456_df6_A",
+        "representative_source_person_id": "696_456_df6_A",
+        "source_person_ids": [
+          "696_456_df6_A"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "696_456_df6",
+        "source_assertion_id": null,
+        "parent_connection": {
+          "type": "parent_between_body_and_attached_note_ancestors",
+          "interpretation_basis": "body_grandfather_attached_note_father",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "rationale": "同一人物祖父正文與直接附注明父，不造原文明父。",
+          "chain_subject_person_id": "696_456_df6_AA",
+          "nearer_ancestor_assertion_id": "a-xunyou11-002",
+          "farther_ancestor_assertion_id": "a-xunyou11-001",
+          "body_subject_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u001:m0000",
+          "body_ancestor_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u001:m0011",
+          "note_subject_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002:m0044",
+          "note_ancestor_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002:m0046",
+          "references": [
+            {
+              "work_id": "w-sanguozhi",
+              "book_id": "b-sanguozhi-010",
+              "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+              "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+              "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002",
+              "quote": "荀氏家傳曰曇字元智兄昱字伯修張璠漢紀稱昱曇並傑俊有殊才昱與李膺王暢杜宻等號為八俊位至沛相攸父彞州從事彛于彧為從祖兄弟",
+              "assertion_id": "a-xunyou11-002",
+              "scope": "同一人物正文與直接附注，父祖各原證，父之父僅編輯接合",
+              "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_010.txt"
+            },
+            {
+              "work_id": "w-sanguozhi",
+              "book_id": "b-sanguozhi-010",
+              "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+              "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+              "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u001",
+              "quote": "荀攸字公達彧從子也祖父曇廣陵太守",
+              "assertion_id": "a-xunyou11-001",
+              "scope": "同一人物正文與直接附注，父祖各原證，父之父僅編輯接合",
+              "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_010.txt"
+            }
+          ],
+          "witness_binding": {
+            "body_paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u001",
+            "note_paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002",
+            "following_body_paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u003",
+            "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+            "raw_file": "sources/witnesses/KR2a0012_010-214fcafa79894355909c9d8c2c1533089e7791c6.txt",
+            "raw_file_sha256": "3b736cbaea3657f72d95c16164799a29994de8e477412e37996ca73f129e0b06"
+          },
+          "role_clause": {
+            "kind": "attributed_genealogical_report",
+            "start": 44,
+            "end": 47,
+            "attribution_start": 14,
+            "attribution_end": 58,
+            "authority": "張璠漢紀",
+            "work_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002:w0016",
+            "cited_work_id": "w-hanji-zhangfan-sgz010-reference"
+          }
+        },
+        "assembly_id": "family-xunyou-tan-yi",
+        "root_person_id": "696_456_df6",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "696_456_df6_AA",
+      "label": "荀攸",
+      "path": "696_456_df6_AA.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 78,
+      "raw_mention_count": 78,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 78,
+      "table_mention_count": 0,
+      "source_count": 3,
+      "most_mentioned_source_ids": [
+        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
+      ],
+      "source_person_id": "696_456_df6_AA",
+      "assembled_identity": {
+        "person_id": "696_456_df6_AA",
+        "parent_person_id": "696_456_df6_A",
+        "source_assertion_id": "a-xunyou11-002",
+        "connection": "father",
+        "representative_source_person_id": "696_456_df6_AA",
+        "source_person_ids": [
+          "696_456_df6_AA"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "assembly_id": "family-xunyou-tan-yi",
+        "root_person_id": "696_456_df6",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "696_456_df6_AA*A",
+      "label": "荀彪",
+      "path": "696_456_df6_AA*A.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
+      ],
+      "source_person_id": "696_456_df6_AA*A",
+      "assembled_identity": {
+        "person_id": "696_456_df6_AA*A",
+        "parent_person_id": null,
+        "source_assertion_id": "a-xunyou11-009",
+        "connection": "grandfather",
+        "representative_source_person_id": "696_456_df6_AA*A",
+        "source_person_ids": [
+          "696_456_df6_AA*A"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "ancestor_person_id": "696_456_df6_AA",
+        "generation_distance": 2,
+        "intermediate_person_ids": [
+          null
+        ],
+        "interpretation_note": "只記攸孫彪，缺名父親不補。",
+        "assembly_id": "family-xunyou-tan-yi",
+        "root_person_id": "696_456_df6",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "696_456_df6_AAA",
+      "label": "荀緝",
+      "path": "696_456_df6_AAA.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
+      ],
+      "source_person_id": "696_456_df6_AAA",
+      "assembled_identity": {
+        "person_id": "696_456_df6_AAA",
+        "parent_person_id": "696_456_df6_AA",
+        "source_assertion_id": "a-xunyou11-007",
+        "connection": "father",
+        "representative_source_person_id": "696_456_df6_AAA",
+        "source_person_ids": [
+          "696_456_df6_AAA"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "assembly_id": "family-xunyou-tan-yi",
+        "root_person_id": "696_456_df6",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "696_456_df6_AAB",
+      "label": "荀適",
+      "path": "696_456_df6_AAB.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
+      ],
+      "source_person_id": "696_456_df6_AAB",
+      "assembled_identity": {
+        "person_id": "696_456_df6_AAB",
+        "parent_person_id": "696_456_df6_AA",
+        "source_assertion_id": "a-xunyou11-008",
+        "connection": "father",
+        "representative_source_person_id": "696_456_df6_AAB",
+        "source_person_ids": [
+          "696_456_df6_AAB"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "assembly_id": "family-xunyou-tan-yi",
+        "root_person_id": "696_456_df6",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "699_2t4_dcd",
@@ -59479,14 +59684,14 @@
       "path": "cno_x3i_mx4.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 1,
-      "raw_mention_count": 1,
+      "mention_count": 5,
+      "raw_mention_count": 5,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 1,
+      "paragraph_mention_count": 5,
       "table_mention_count": 0,
-      "source_count": 1,
+      "source_count": 3,
       "most_mentioned_source_ids": [
-        "s-shiji-032-qi"
+        "s-sanguozhi-027-wangchang"
       ]
     },
     {
@@ -68131,140 +68336,6 @@
       "most_mentioned_source_ids": [
         "s-jinshu-039-wangxun-feng"
       ]
-    },
-    {
-      "person_id": "eb0_d56_aa1",
-      "label": "荀攸",
-      "path": "eb0_d56_aa1.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 78,
-      "raw_mention_count": 78,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 78,
-      "table_mention_count": 0,
-      "source_count": 3,
-      "most_mentioned_source_ids": [
-        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
-      ],
-      "source_person_id": "eb0_d56_aa1",
-      "assembled_identity": {
-        "person_id": "eb0_d56_aa1",
-        "parent_person_id": null,
-        "source_assertion_id": null,
-        "connection": null,
-        "representative_source_person_id": "eb0_d56_aa1",
-        "source_person_ids": [
-          "eb0_d56_aa1"
-        ],
-        "identity_equivalence_decision_ids": [],
-        "assembly_id": "family-xunyou11-eb0_d56_aa1",
-        "root_person_id": "eb0_d56_aa1",
-        "status": "contextual_provisional",
-        "human_reviewed": false
-      }
-    },
-    {
-      "person_id": "eb0_d56_aa1_*A",
-      "label": "荀彪",
-      "path": "eb0_d56_aa1_*A.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 1,
-      "raw_mention_count": 1,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 1,
-      "table_mention_count": 0,
-      "source_count": 1,
-      "most_mentioned_source_ids": [
-        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
-      ],
-      "source_person_id": "eb0_d56_aa1_*A",
-      "assembled_identity": {
-        "person_id": "eb0_d56_aa1_*A",
-        "parent_person_id": null,
-        "source_assertion_id": "a-xunyou11-009",
-        "connection": "grandfather",
-        "representative_source_person_id": "eb0_d56_aa1_*A",
-        "source_person_ids": [
-          "eb0_d56_aa1_*A"
-        ],
-        "identity_equivalence_decision_ids": [],
-        "ancestor_person_id": "eb0_d56_aa1",
-        "generation_distance": 2,
-        "intermediate_person_ids": [
-          null
-        ],
-        "interpretation_note": "只記攸孫彪，缺名父親不補。",
-        "assembly_id": "family-xunyou11-eb0_d56_aa1",
-        "root_person_id": "eb0_d56_aa1",
-        "status": "contextual_provisional",
-        "human_reviewed": false
-      }
-    },
-    {
-      "person_id": "eb0_d56_aa1_A",
-      "label": "荀緝",
-      "path": "eb0_d56_aa1_A.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 1,
-      "raw_mention_count": 1,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 1,
-      "table_mention_count": 0,
-      "source_count": 1,
-      "most_mentioned_source_ids": [
-        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
-      ],
-      "source_person_id": "eb0_d56_aa1_A",
-      "assembled_identity": {
-        "person_id": "eb0_d56_aa1_A",
-        "parent_person_id": "eb0_d56_aa1",
-        "source_assertion_id": "a-xunyou11-007",
-        "connection": "father",
-        "representative_source_person_id": "eb0_d56_aa1_A",
-        "source_person_ids": [
-          "eb0_d56_aa1_A"
-        ],
-        "identity_equivalence_decision_ids": [],
-        "assembly_id": "family-xunyou11-eb0_d56_aa1",
-        "root_person_id": "eb0_d56_aa1",
-        "status": "contextual_provisional",
-        "human_reviewed": false
-      }
-    },
-    {
-      "person_id": "eb0_d56_aa1_B",
-      "label": "荀適",
-      "path": "eb0_d56_aa1_B.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 1,
-      "raw_mention_count": 1,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 1,
-      "table_mention_count": 0,
-      "source_count": 1,
-      "most_mentioned_source_ids": [
-        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
-      ],
-      "source_person_id": "eb0_d56_aa1_B",
-      "assembled_identity": {
-        "person_id": "eb0_d56_aa1_B",
-        "parent_person_id": "eb0_d56_aa1",
-        "source_assertion_id": "a-xunyou11-008",
-        "connection": "father",
-        "representative_source_person_id": "eb0_d56_aa1_B",
-        "source_person_ids": [
-          "eb0_d56_aa1_B"
-        ],
-        "identity_equivalence_decision_ids": [],
-        "assembly_id": "family-xunyou11-eb0_d56_aa1",
-        "root_person_id": "eb0_d56_aa1",
-        "status": "contextual_provisional",
-        "human_reviewed": false
-      }
     },
     {
       "person_id": "eb7_5lg_w9q",
@@ -112790,22 +112861,6 @@
       ]
     },
     {
-      "person_id": "rm7_r3k_g21",
-      "label": "范文子（鄢陵晉臣）",
-      "path": "rm7_r3k_g21.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 1,
-      "raw_mention_count": 1,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 1,
-      "table_mention_count": 0,
-      "source_count": 1,
-      "most_mentioned_source_ids": [
-        "s-shiji-039-jin"
-      ]
-    },
-    {
       "person_id": "rmu_iss_4in",
       "label": "王稽（范睢蔡澤列傳候選）",
       "path": "rmu_iss_4in.json",
@@ -129805,12 +129860,12 @@
       "path": "wt0_abc_2sk.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 22,
-      "raw_mention_count": 22,
+      "mention_count": 25,
+      "raw_mention_count": 25,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 19,
+      "paragraph_mention_count": 22,
       "table_mention_count": 3,
-      "source_count": 4,
+      "source_count": 5,
       "most_mentioned_source_ids": [
         "s-shiji-039-jin"
       ]
@@ -139350,6 +139405,37 @@
         "identity_equivalence_decision_ids": [],
         "parent_person_id": "yoo_ox0_545_FAAAB",
         "source_assertion_id": "a-jinshu039-xu-full-001",
+        "assembly_id": "family-xun-shu-early-medieval",
+        "root_person_id": "yoo_ox0_545",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "yoo_ox0_545_FAAABB",
+      "label": "荀綽",
+      "path": "yoo_ox0_545_FAAABB.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 6,
+      "raw_mention_count": 6,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 6,
+      "table_mention_count": 0,
+      "source_count": 3,
+      "most_mentioned_source_ids": [
+        "s-jinshu-039-wangxun-feng"
+      ],
+      "source_person_id": "yoo_ox0_545_FAAABB",
+      "assembled_identity": {
+        "person_id": "yoo_ox0_545_FAAABB",
+        "representative_source_person_id": "yoo_ox0_545_FAAABB",
+        "source_person_ids": [
+          "yoo_ox0_545_FAAABB"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "yoo_ox0_545_FAAAB",
+        "source_assertion_id": "a-jin039-xunchuo-father-001",
         "assembly_id": "family-xun-shu-early-medieval",
         "root_person_id": "yoo_ox0_545",
         "status": "editorial_preferred",

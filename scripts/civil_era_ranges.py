@@ -9,6 +9,9 @@ def civil_era_range_errors(value, evidence, expression):
         return ['中國曆年號範圍缺少年號起迄及對照來源']
     index = mapping.get('reference_index')
     ref = refs[index] if type(index) is int and 0 <= index < len(refs) else {}
+    source_name = mapping.get('source_era_name', mapping.get('era_name'))
+    if not isinstance(source_name,str) or source_name.replace('寜','寧') != str(mapping.get('era_name')).replace('寜','寧'):
+        return ['年號原字與明示正字對照不符']
     name, polity = mapping.get('era_name'), mapping.get('polity_source_name')
     first, last = mapping.get('start_ce_year'), mapping.get('end_ce_year')
     columns = ref.get('columns', {}) if isinstance(ref, dict) else {}
@@ -21,7 +24,7 @@ def civil_era_range_errors(value, evidence, expression):
              and isinstance(polity, str) and bool(polity)
              and type(first) is int and type(last) is int and 0 < first <= last
              and mapping.get('kind') == 'ce_regnal_era_span'
-             and expression in tuple(name + stage for stage in ('初', '中', '末'))
+             and expression in tuple(source_name + stage for stage in ('初', '中', '末'))
              and expression == value.get('source_expression')
              and (expression.endswith('中') or value.get('source_stage') == expression[-1])
              and value.get('evidence') == evidence and isinstance(evidence, list) and bool(evidence)

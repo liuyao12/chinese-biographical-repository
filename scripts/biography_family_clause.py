@@ -1,7 +1,16 @@
 """Position-bound received biographical family clauses, without person-ID allowlists."""
 import hashlib,re
 KIND='biography_family_clause'
-def valid(a,paragraphs,assertions=()):
+def valid(a,paragraphs,assertions=(),chapters=None):
+ if not isinstance(a, dict):return False
+ q_guard=a.get('qualifiers', {})
+ if not isinstance(q_guard, dict):return False
+ b_guard=q_guard.get('source_clause_binding', {})
+ if not isinstance(b_guard, dict) or not isinstance(b_guard.get('rule', ''), str):return False
+ if a.get('qualifiers',{}).get('source_clause_binding',{}).get('rule','').startswith('layered_'):
+  try:from scripts.layered_biography_titles import family_valid
+  except ImportError:from layered_biography_titles import family_valid
+  return family_valid(a,paragraphs,chapters or {})
  q_new=a.get('qualifiers', {})
  if not isinstance(q_new, dict):return False
  b_new=q_new.get('source_clause_binding', {})
