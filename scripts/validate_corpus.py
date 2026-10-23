@@ -16,6 +16,8 @@ ROOT = Path(__file__).resolve().parents[1]
 def source_age_number(number):
     digits = '一二三四五六七八九'
     if not isinstance(number, str): return None
+    if re.fullmatch('[廿卅][一二三四五六七八九]?', number):
+        return (20 if number[0] == '廿' else 30) + (digits.index(number[1]) + 1 if len(number) == 2 else 0)
     if number in digits and len(number) == 1: return digits.index(number) + 1
     if re.fullmatch('[一二三四五六七八九]?十[一二三四五六七八九]?', number):
         tens, ones = number.split('十')
@@ -34,6 +36,18 @@ def direct_source_age_valid(age):
 def named_office_end_valid(holding, paragraphs, mentions):
     """明言終於此職的終期，不能以一般死亡替代所有官爵終期。"""
     basis = holding.get('end_basis'); end = holding.get('effective_period',{}).get('end',{})
+    if isinstance(basis, dict) and basis.get('kind') in ('named_last_office_mourning_leave', 'named_son_office_removed_for_slaughtering_cattle'):
+        try:
+            from scripts.lifecycle_offered_biography import end_valid
+        except ImportError:
+            from lifecycle_offered_biography import end_valid
+        return end_valid(holding, paragraphs, mentions)
+    if isinstance(basis, dict) and basis.get('kind') == 'resumed_biography_mother_mourning_office_end':
+        try:
+            from scripts.resumed_biography_lifecycle import mourning_end_valid
+        except ImportError:
+            from resumed_biography_lifecycle import mourning_end_valid
+        return mourning_end_valid(holding, paragraphs, mentions)
     if isinstance(basis, dict) and basis.get('kind') == 'died_in_last_named_office':
         try:
             from scripts.current_office_death import current_office_death_valid
@@ -171,6 +185,25 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                 valid = (archived_title_year_valid(date, bound_record, bound_role, chapters or {}, root)
                          if mapping['kind'] == 'archived_parallel_title_ce_span'
                          else local_title_year_valid(date, bound_record, bound_role, chapters or {}))
+            if isinstance(mapping, dict) and mapping.get('kind') == 'reviewed_archived_role_event':
+                try:
+                    from scripts.role_event_year_bridge import normalized_valid as role_event_year_valid
+                except ImportError:
+                    from role_event_year_bridge import normalized_valid as role_event_year_valid
+                valid = role_event_year_valid(date, bound_record, bound_role, chapters or {}, root)
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_primary_parallel_ce_regnal_span':
+                try:
+                    from scripts.fixed_primary_biography_dates import valid as fixed_primary_date_valid
+                except ImportError:
+                    from fixed_primary_biography_dates import valid as fixed_primary_date_valid
+                valid = fixed_primary_date_valid(date, chapters or {}, root, bound_record, bound_role)
+            if isinstance(mapping, dict) and mapping.get('kind') == 'archived_parallel_death_ce_span':
+                try:
+                    from scripts.archived_parallel_death import valid as archived_death_valid
+                except ImportError:
+                    from archived_parallel_death import valid as archived_death_valid
+                valid = (bound_role == 'life_event' and isinstance(bound_record, dict)
+                         and archived_death_valid(date, bound_record, chapters or {}, root))
             if 'calendar_context' in date:
                 try:
                     from scripts.calendar_wiring import date_shape_valid
@@ -218,6 +251,19 @@ def reported_relationship_errors(variant, paragraph):
 
 
 def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
+    if proposal.get('source_appointment_context', {}).get('kind') == 'received_biographical_role_sequence':
+        try:
+            from scripts.biographical_appointment_sequence import proposal_errors
+        except ImportError:
+            from biographical_appointment_sequence import proposal_errors
+        return proposal_errors(proposal, chapter, person_ids)
+    if isinstance(proposal.get('source_appointment_context'), dict) and proposal['source_appointment_context'].get('kind') == 'fixed_biography_offered_office_sequence':
+        try:
+            from scripts.biography_offered_offices import errors as offered_errors
+        except ImportError:
+            from biography_offered_offices import errors as offered_errors
+        return offered_errors(proposal, chapter, person_ids)
+
     """區分未實行提議與實行情況未載的任官約定，不計入實授稱號。"""
     if proposal.get('proposal_kind') == 'memorial_request':
         try:
@@ -426,6 +472,11 @@ def validate(root=ROOT):
                     elif m['kind'] == 'work':
                         check(m.get('person_id') is None and m.get('work_id') in works and m.get('status') in ('source_explicit', 'contextual_provisional'), '著作提及須引用已登記著作且不得連人物')
                     else: check(False,'未知提及類型')
+            try:
+                from scripts.work_reference_resolution import chapter_errors as work_reference_errors
+            except ModuleNotFoundError:
+                from work_reference_resolution import chapter_errors as work_reference_errors
+            errors.extend(work_reference_errors(d))
             if any('annotation_status' in p for p in d['paragraphs']):
                 for p in d['paragraphs']:
                     check(p.get('annotation_status') in ('pending','in_progress','named_mentions_first_pass','reviewed'),'段落標註狀態無效或缺失')
@@ -447,6 +498,11 @@ def validate(root=ROOT):
             except ImportError:
                 from biographical_kinship import digital_paratext_errors
             errors.extend(digital_paratext_errors(d))
+            try:
+                from scripts.epitaph_transcription_witness import errors as epitaph_witness_errors
+            except ImportError:
+                from epitaph_transcription_witness import errors as epitaph_witness_errors
+            errors.extend(epitaph_witness_errors(d, root, works, books))
             case_ids=set()
             for case in d['annotation'].get('unresolved_identity_cases',[]):
                 check(case.get('id') and case['id'] not in case_ids,'未決身份 ID 無效或重複')
@@ -484,7 +540,7 @@ def validate(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation'),'文字層次無效')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation'),'文字層次無效')
                 try:
                     from scripts.houhan_text_layers import layer_errors
                 except ImportError:
@@ -514,6 +570,13 @@ def validate(root=ROOT):
                       and chapters.get(hit[0], {}).get('source_id') == item.get('source_id')
                       and paragraphs.get(hit[1], (None, {}))[1].get('text') == item.get('quote'),
                       '著作登記證據須對應同一書名錨點及完整原文')
+        # source-author-prefix: validate literal source authorship roles.
+        try:
+            from scripts.source_author_prefix import source_author_errors
+        except ImportError:
+            from source_author_prefix import source_author_errors
+        for issue in source_author_errors(works, chapters):
+            check(False, issue)
         kinship_case_ids = set()
         for chapter in chapters.values():
             for case in chapter['annotation'].get('kinship_interpretation_cases', []):
@@ -991,7 +1054,14 @@ def validate(root=ROOT):
                         from scripts.office_transfers import office_transfer_valid
                     except ImportError:
                         from office_transfers import office_transfer_valid
-                    check(office_transfer_valid(h, paragraphs, mentions), '官職轉任須有同人原詞、逐職錨點及相符任用證據，不作王爵徙封')
+                    valid_transfer = office_transfer_valid(h, paragraphs, mentions)
+                    if 'source_role_sequence' in h:
+                        try:
+                            from scripts.biographical_appointment_sequence import holding_valid
+                        except ImportError:
+                            from biographical_appointment_sequence import holding_valid
+                        valid_transfer = holding_valid(h, chapters[d['chapter_id']], root)
+                    check(valid_transfer, '官職轉任須有同人原詞、逐職錨點及相符任用證據，不作王爵徙封')
                 if (h['mode']=='transfer' and h['kind'] != 'office') or 'transfer_basis' in h:
                     if h['kind'] == 'noble_rank':
                         try:
@@ -1247,7 +1317,14 @@ def validate(root=ROOT):
                         carried_title_subject = title_attestation_subject_valid(a, h, chapters[d['chapter_id']])
                         check(carried_title_subject, '稱號用稱省略主語承接無效')
                     check(carried_title_subject or bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'],'稱號用稱人物提及不符')
-                    check(a['surface']==h['title'] and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
+                    shared_suffix_valid = False
+                    if 'shared_title_suffix' in h:
+                        try:
+                            from scripts.biographical_appointment_sequence import holding_valid
+                        except ImportError:
+                            from biographical_appointment_sequence import holding_valid
+                        shared_suffix_valid = holding_valid(h, chapters[d['chapter_id']], root)
+                    check((a['surface']==h['title'] or shared_suffix_valid) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
                     if hit:
                         check(isinstance(a['start'],int) and isinstance(a['end'],int) and 0<=a['start']<a['end']<=len(hit[1]['text']) and hit[1]['text'][a['start']:a['end']]==a['surface'],'稱號用稱字元位置不符')
                         enclosed=False
@@ -1313,7 +1390,7 @@ def validate(root=ROOT):
                                 errors.extend(table_title_range_errors(year_window, h, endpoint, tables, boundary))
                                 if valid:
                                     range_expression = year_window['parallel_event']['source_event_quote']
-                            errors.extend(year_range_errors(year_window, boundary['evidence'], range_expression))
+                            errors.extend(year_range_errors(year_window, boundary['evidence'], range_expression, root=root))
                             errors.extend(table_regnal_range_errors(year_window, date, tables, mentions))
                 check(period['start']['status']==('unknown' if h['mode']=='attestation' else 'source_event'),'稱號起點與授予／用稱種類不符')
                 if h['mode']!='attestation':check(period['start'].get('event_type')==h['mode'],'稱號起點與事件種類不符')
@@ -1743,6 +1820,11 @@ def validate(root=ROOT):
                 check(proposal.get('id') and proposal['id'] not in proposal_ids, '稱號提議 ID 缺失或重複')
                 proposal_ids.add(proposal.get('id'))
                 errors.extend(title_proposal_errors(proposal, chapter, set(pids), title_records))
+                if isinstance(proposal.get('source_appointment_context'), dict) and 'normalized_date' in proposal:
+                    check(proposal['normalized_date'].get('evidence') == proposal.get('evidence')
+                          and proposal['normalized_date'].get('source_expression') == proposal.get('date_expression'), '任命通知紀年須綁同一原句')
+                    errors.extend(normalized_date_errors(proposal['normalized_date'], chapters, root, proposal, 'appointment_notice'))
+
         try:
             from scripts.song041_title_semantics import source_use_errors
         except ImportError:
@@ -2082,7 +2164,7 @@ def validate(root=ROOT):
                         from scripts.source_date_parts import source_date_parts_valid
                     except ImportError:
                         from source_date_parts import source_date_parts_valid
-                    check(source_date_parts_valid(event, chapters, source_age_number), '原文明示曆月須有同死事件日期鏈與逐字月詞錨點，不得補日或西曆月')
+                    check(source_date_parts_valid(event, chapters, source_age_number, root=root), '原文明示曆月須有同死事件日期鏈與逐字月詞錨點，不得補日或西曆月')
                 expression = event.get('date_expression')
                 check(expression is None or isinstance(expression, str) and bool(expression), '生卒日期表述無效')
                 local_death_date = False
@@ -2171,7 +2253,7 @@ def validate(root=ROOT):
                     errors.extend(year_range_errors(year_window, event['evidence'], range_expression))
                     errors.extend(table_regnal_range_errors(year_window, expression, tables, mentions))
                 if 'normalized_date' in event:
-                    date = event['normalized_date']; errors.extend(normalized_date_errors(date, chapters, root=root))
+                    date = event['normalized_date']; errors.extend(normalized_date_errors(date, chapters, root=root, bound_record=event, bound_role='life_event'))
                     check(binding_valid(date, event, 'life_event'), '初中末年號紀年須綁實際同人死亡事件')
                     check(isinstance(expression, str) and bool(expression) or parallel_event_date(date), '生卒數字紀年缺原日期表述')
                     if isinstance(date, dict):
@@ -2217,6 +2299,29 @@ def validate(root=ROOT):
                 from family_assemblies import load_assemblies
                 from person_bundle import load_catalog
         catalog = load_catalog(root)
+        try:
+            from scripts.biographical_appointment_sequence import errors as appointment_sequence_errors
+        except ImportError:
+            from biographical_appointment_sequence import errors as appointment_sequence_errors
+        errors.extend(appointment_sequence_errors(chapters, catalog[1], root=root))
+        try:
+            from scripts.surname_from_father import validate as validate_inferred_surname
+        except ImportError:
+            from surname_from_father import validate as validate_inferred_surname
+        all_name_records = [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']]
+        for n in all_name_records:
+            validate_inferred_surname(n, all_name_records, chapters, family_relations)
+        try:
+            from scripts.epitaph_family_facts import errors as epitaph_fact_errors
+        except ImportError:
+            from epitaph_family_facts import errors as epitaph_fact_errors
+        errors.extend(epitaph_fact_errors(chapters, catalog[1]))
+        try:
+            from scripts.biography_source_details import errors as biography_detail_errors
+        except ImportError:
+            from biography_source_details import errors as biography_detail_errors
+        errors.extend(biography_detail_errors(chapters, catalog[1]))
+
         try:
             from scripts.preferred_name_components import validated_readings
         except ImportError:

@@ -26,11 +26,56 @@
     "道民",
     "世袓",
     "安北",
-    "鎮軍"
+    "鎮軍",
+    "孝武帝"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 15,
+      "category": "",
+      "title": "謝朏傳（含諼、篹附傳）",
+      "paragraph_id": "c-liangshu-015-xiefei:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "曰：「賢子足稱神童，復爲後來特達。」莊笑，因撫朏背曰：「真吾家千金。」孝武帝游姑孰，勑莊攜朏從駕，詔使爲《洞井贊》，於坐奏之。帝曰：「雖小，奇童也。」",
+      "paragraph_ids": [
+        "c-liangshu-015-xiefei:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-015-xiefei:p001:m0119",
+        "c-liangshu-015-xiefei:p001:m0147"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-015-xiefei:p001:m0119": "c-liangshu-015-xiefei:p001",
+        "c-liangshu-015-xiefei:p001:m0147": "c-liangshu-015-xiefei:p001"
+      },
+      "mention_id": "c-liangshu-015-xiefei:p001:m0119",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-015-xiefei:p001:m0119",
+          "mention_ids": [
+            "c-liangshu-015-xiefei:p001:m0119"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-015-xiefei:p001:m0147",
+          "mention_ids": [
+            "c-liangshu-015-xiefei:p001:m0147"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-015",
+      "chapter_id": "c-liangshu-015-xiefei",
+      "source_id": "s-liangshu015-ws1506954",
+      "work_title": "梁書"
+    },
     {
       "number": 22,
       "category": "",
@@ -1411,6 +1456,44 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-liangshu-015-xiefei",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-015",
+      "source_id": "s-liangshu015-ws1506954",
+      "source": {
+        "title": "《梁書》卷十五謝朏完整本傳（含子諼、篹附傳）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=梁書/卷15&oldid=1506954",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=梁書/卷15&oldid=1506954",
+        "revision_id": 1506954,
+        "accessed_on": "2026-10-21",
+        "extent": "原11至27行九完整段共1953原字，止29行謝覽獨立傳之前；非全卷，不匯入篇末姚察史論及現代校注。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留數位歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫數位轉錄，未核底本影像",
+        "response_sha256": "73a047d0a44ea0cf7fa9c04fbd63cf0568cd6d1a3616dcf2ac64936942dea064",
+        "wikitext_sha256": "0ae55481ce12880db956ce367fee817fd1cd64f07685408996c5f31f080ffff6",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅展YL連結為顯示年號、去每段兩全形縮排；原𤅢、俁、不治、後五年不改；表題弟子覽為paratext，非此單元正文提及。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                26,
+                26
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1506954
+            }
+          ]
+        }
+      }
+    },
     {
       "chapter_id": "c-nanqishu-032-ruantao",
       "work_id": "w-nanqishu",
@@ -14738,6 +14821,46 @@
     }
   ],
   "name_components": [],
+  "source_details": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "bd-liang015-xiefei-xiaowu-gushu",
+      "person_id": "hx8_st4_jdd",
+      "kind": "recorded_presence",
+      "source_term": "孝武帝游姑孰",
+      "source_anchor": {
+        "paragraph_id": "c-liangshu-015-xiefei:p001",
+        "start": 119,
+        "end": 125,
+        "surface": "孝武帝游姑孰"
+      },
+      "source_revision": 1506954,
+      "paragraph_sha256": "25e8180091494dfee9bce84ebffa98a0060dc078266f2f8b16a7375c0ef8a6cc",
+      "values": {
+        "place_source_name": "姑孰",
+        "place_id": null,
+        "modern_identification": null,
+        "movement_source_term": "游",
+        "origin_or_residence": null
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-015",
+          "source_id": "s-liangshu015-ws1506954",
+          "chapter_id": "c-liangshu-015-xiefei",
+          "paragraph_id": "c-liangshu-015-xiefei:p001",
+          "quote": "謝朏字敬沖，陳郡陽夏人也。祖弘微，宋太常卿，父莊，右光祿大夫，並有名前代。朏幼聰慧，莊器之，常置左右。年十歲，能屬文。莊游土山賦詩，使朏命篇，朏攬筆便就。琅邪王景文謂莊曰：「賢子足稱神童，復爲後來特達。」莊笑，因撫朏背曰：「真吾家千金。」孝武帝游姑孰，勑莊攜朏從駕，詔使爲《洞井贊》，於坐奏之。帝曰：「雖小，奇童也。」",
+          "person_mention_id": "c-liangshu-015-xiefei:p001:m0119"
+        }
+      ],
+      "interpretation_note": "明示游、從駕、到達或宮廷會見行跡，與籍貫／定居／死地分開；受命作文不推其他地點。"
+    }
+  ],
   "person_ids": [
     "hx8_st4_jdd"
   ],

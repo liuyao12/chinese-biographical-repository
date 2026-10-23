@@ -80,7 +80,224 @@
         "reviewer": "Codex（AI代理）",
         "model": null
       }
-    ]
+    ],
+    "work_reference_reviews": [
+      {
+        "id": "work-review-sanguozhi009-caozhen",
+        "source_id": "s-sanguozhi-009-caozhen",
+        "status": "ai_proposed",
+        "human_reviewed": false,
+        "coverage": "完整45段；全部明示引用書題與明示著述，非整卷。",
+        "first_full_then_shortened_title": "重複引題不當縮稱；魏略/魏畧保原字；干寳三晉題未確合。",
+        "boundaries": [
+          {
+            "paragraph_id": "c-sanguozhi-009-caozhen:p036",
+            "surface": "夏侯湛為芝銘",
+            "reason": "所作銘文未具正式書題；保人物與原文，不造芝銘作品。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-009-caozhen:p044",
+            "surface": "諸王傳／舊史／底下之書",
+            "reason": "傳內部篇群及泛稱；未明具體卷，不把泛稱建立正式作品。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-009-caozhen:p016",
+            "surface": "著書三篇",
+            "reason": "無正式題名，不補作品。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-009-caozhen:p039",
+            "surface": "老莊言／諸文賦",
+            "reason": "思想及著述泛稱，不一律展作老子/莊子作品。"
+          }
+        ],
+        "cross_work_identity_evidence": [
+          {
+            "work_id": "w-weilue-sgz028-reference",
+            "basis": "裴注033完整劉禪注同注首引魏略、續稱魚豢、末斥魏略妄說；舊唐046魚豢魏略38卷、新唐058魚豢魏略50卷，保卷數差別及未知成書年。",
+            "primary_evidence_ids": [
+              "pei-yuhuan-weilue",
+              "jiu-weilue",
+              "xin-weilue"
+            ],
+            "local_reading_file": "authority-reading/evidence-and-complete-pei-bridges.json",
+            "authority_packet": "cbr-pei-bibliographic-authority-recovery",
+            "source_author_claim_in_this_unit": false,
+            "human_reviewed": false
+          },
+          {
+            "work_id": "w-shiyu-sgz027-reference",
+            "basis": "裴注001完整開篇直稱郭頒世語；隋033魏晉世語十卷晉襄陽令郭頒撰，舊唐代語與新唐代說分記；本45段七處世語可依該引書傳統辨識，非僅同名。",
+            "primary_evidence_ids": [
+              "pei-guoban-shiyu",
+              "sui-shiyu",
+              "jiu-shiyu",
+              "xin-shiyu"
+            ],
+            "local_reading_file": "authority-reading/evidence-and-complete-pei-bridges.json",
+            "authority_packet": "cbr-pei-bibliographic-authority-recovery",
+            "source_author_claim_in_this_unit": false,
+            "human_reviewed": false
+          }
+        ],
+        "source_author_evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "author_name": "干寳",
+            "author_surface": "干寳",
+            "author_person_id": "58b_0c7_605",
+            "author_mention_id": "c-sanguozhi-009-caozhen:p023:m0000",
+            "work_mention_id": "c-sanguozhi-009-caozhen:p023:w0002",
+            "paragraph_id": "c-sanguozhi-009-caozhen:p023",
+            "source_id": "s-sanguozhi-009-caozhen",
+            "chapter_id": "c-sanguozhi-009-caozhen",
+            "quote": "干寳晉記曰爽留車駕宿伊水南伐木為鹿角發屯甲兵數千人以為衛魏末傳曰宣王語弟孚陛下在外不可露宿促送帳幔太官食具詣行在所",
+            "status": "source_attributed",
+            "qualification": "來源明署或同句敘明作者；作者人物mid及原署保留，不以此合併跨來源同題作品。",
+            "referenced_work_id": "w-jinji-ji-sgz009-caozhen-reference",
+            "book_id": "b-sanguozhi-009",
+            "authorship_syntax": {
+              "kind": "author_title_prefix"
+            }
+          },
+          {
+            "work_id": "w-sanguozhi",
+            "author_name": "干寳",
+            "author_surface": "干寳",
+            "author_person_id": "58b_0c7_605",
+            "author_mention_id": "c-sanguozhi-009-caozhen:p025:m0000",
+            "work_mention_id": "c-sanguozhi-009-caozhen:p025:w0002",
+            "paragraph_id": "c-sanguozhi-009-caozhen:p025",
+            "source_id": "s-sanguozhi-009-caozhen",
+            "chapter_id": "c-sanguozhi-009-caozhen",
+            "quote": "干寳晉書曰桓範出赴爽宣王謂蒋濟曰智嚢往矣濟曰範則智矣駑馬戀棧豆爽必不能用也世語曰宣王使許允陳泰觧語爽蒋濟亦與書逹宣王之㫖又使爽所信殿中校尉尹大目謂爽唯免官而已以洛水為誓爽信之罷兵魏氏春秋曰爽既罷兵曰我不失作富家翁範哭曰曹子丹佳人生汝兄弟犢耳何圖今日坐汝等族滅矣",
+            "status": "source_attributed",
+            "qualification": "來源明署或同句敘明作者；作者人物mid及原署保留，不以此合併跨來源同題作品。",
+            "referenced_work_id": "w-jinshu-sgz009-caozhen-reference",
+            "book_id": "b-sanguozhi-009",
+            "authorship_syntax": {
+              "kind": "author_title_prefix"
+            }
+          },
+          {
+            "work_id": "w-sanguozhi",
+            "author_name": "桓範",
+            "author_surface": "範",
+            "author_person_id": "vwm_w8o_188",
+            "author_mention_id": "c-sanguozhi-009-caozhen:p033:m0249",
+            "work_mention_id": "c-sanguozhi-009-caozhen:p033:w0267",
+            "paragraph_id": "c-sanguozhi-009-caozhen:p033",
+            "source_id": "s-sanguozhi-009-caozhen",
+            "chapter_id": "c-sanguozhi-009-caozhen",
+            "quote": "桓範字元則世為冠族建安末入丞相府延康中為羽林左監以有文學與王象等典集皇覧明帝時為中領軍尚書遷征虜将軍東中郎将使持節都督青徐諸軍事治下邳與徐州刺史鄒岐争屋引節欲斬岐為岐所奏不直坐免還復為兖州刺史怏怏不得意又聞當轉為冀州牧是時冀州統屬鎮北而鎮北将軍吕昭才實仕進本在範後範謂其妻仲長曰我寜作諸卿向三公長跪耳不能為吕子展屈也其妻曰君前在東坐欲擅斬徐州刺史衆人謂君難為作下今復羞為吕屈是復難為作上也範忿其言觸實乃以刀環撞其腹妻時懐孕遂墮胎死範亦竟稱疾不赴冀州正始中拜大司農範前在臺閣號為曉事及為司農乂以清省稱範嘗抄撮漢書中諸雜事自以意斟酌之名曰世要論蒋濟為太尉嘗與範㑹社下羣卿列坐有數人範懐其所撰欲以示濟謂濟當虚心觀之範出其書以示左右左右傳之示濟濟不肯視範心恨之因論他事乃發怒謂濟曰我祖薄徳公軰何似邪濟性雖彊毅亦知範剛毅睨而不應各罷範於沛郡仕次在曹真後于時曹爽輔政以範鄉里老宿於九卿中特敬之然不甚親也及宣王起兵閉城門以範為曉事乃指召之欲使領中領軍範欲應召而其子諫之以為車駕在外不如南出範疑有頃兒又促之範欲去而司農丞吏皆止範範不從乃突出至平昌城門城門已閉門候司蕃故範舉吏也範呼之舉手中版以示之矯曰有詔召我卿促開門蕃欲求見詔書範呵之言卿非我故吏邪何以敢爾乃開之範出城顧謂蕃曰太傅圗逆卿從我去蕃徒行不能及遂避側範南見爽勸爽兄弟以天子詣許昌徵四方以自輔爽疑羲又無言範自謂羲曰亊昭然卿用讀書何為邪於今日卿等門户倒矣俱不言範又謂羲曰卿别營近在闕南洛陽典農治在城外呼召如意今詣許昌不過中宿許昌别庫足相被假所憂當在榖食而大司農印章在我身羲兄弟黙然不從中夜至五鼓爽乃投刀於地謂諸從駕羣臣曰我度太傅意亦不過欲令我兄弟向已也我獨有以不合於逺近耳遂進謂帝曰陛下作詔免臣官報皇太后令範知爽首免而已必坐唱義也範乃曰老子今兹坐卿兄弟族矣爽等既免帝還宫遂令範隨從到洛水浮橋北望見宣王下車叩頭而無言宣王呼範姓曰桓大夫何為爾邪車駕入宫有詔範還復位範詣闕拜章謝待報㑹司蕃詣鴻臚自首具説範前臨出所道宣王乃忿然曰誣人以反於法何應主者曰科律反受其罪乃収範於闕下時人持範甚急範謂部官曰徐之我亦義士耳遂送廷尉",
+            "status": "source_attributed",
+            "qualification": "來源明署或同句敘明作者；作者人物mid及原署保留，不以此合併跨來源同題作品。",
+            "referenced_work_id": "w-shiyaolun-sgz009-caozhen-reference",
+            "book_id": "b-sanguozhi-009",
+            "authorship_syntax": {
+              "kind": "compiled_named_work"
+            }
+          },
+          {
+            "work_id": "w-sanguozhi",
+            "author_name": "干寳",
+            "author_surface": "干寳",
+            "author_person_id": "58b_0c7_605",
+            "author_mention_id": "c-sanguozhi-009-caozhen:p036:m0130",
+            "work_mention_id": "c-sanguozhi-009-caozhen:p036:w0132",
+            "paragraph_id": "c-sanguozhi-009-caozhen:p036",
+            "source_id": "s-sanguozhi-009-caozhen",
+            "chapter_id": "c-sanguozhi-009-caozhen",
+            "quote": "世語曰初爽出司馬魯芝留在府聞有事将營騎斫津門出赴爽爽誅擢為御史中丞及爽觧印綬将出主簿楊綜止之曰公挾主握權舍此以至東市乎爽不從有司奏綜導爽反宣王曰各為其主也宥之以為尚書郎芝字世英扶風人也以後仕進至特進光禄大夫綜字初伯後為安東将軍司馬文王長史臣松之案夏侯湛為芝銘及干寳晉紀並云爽既誅宣王即擢芝為并州刺史以綜為安東參軍與世語不同",
+            "status": "source_attributed",
+            "qualification": "來源明署或同句敘明作者；作者人物mid及原署保留，不以此合併跨來源同題作品。",
+            "referenced_work_id": "w-jinji-sgz009-caozhen-reference",
+            "book_id": "b-sanguozhi-009",
+            "authorship_syntax": {
+              "kind": "author_title_prefix"
+            }
+          },
+          {
+            "work_id": "w-sanguozhi",
+            "author_name": "干寳",
+            "author_surface": "干寳",
+            "author_person_id": "58b_0c7_605",
+            "author_mention_id": "c-sanguozhi-009-caozhen:p038:m0000",
+            "work_mention_id": "c-sanguozhi-009-caozhen:p038:w0002",
+            "paragraph_id": "c-sanguozhi-009-caozhen:p038",
+            "source_id": "s-sanguozhi-009-caozhen",
+            "chapter_id": "c-sanguozhi-009-caozhen",
+            "quote": "干寳晉記曰蒋濟以曹真之勲力不宜絶祀故以熙為後濟又病其言之失信於爽發病卒",
+            "status": "source_attributed",
+            "qualification": "來源明署或同句敘明作者；作者人物mid及原署保留，不以此合併跨來源同題作品。",
+            "referenced_work_id": "w-jinji-ji-sgz009-caozhen-reference",
+            "book_id": "b-sanguozhi-009",
+            "authorship_syntax": {
+              "kind": "author_title_prefix"
+            }
+          },
+          {
+            "work_id": "w-sanguozhi",
+            "author_name": "何晏",
+            "author_surface": "晏",
+            "author_person_id": "0db_22c_332_*A",
+            "author_mention_id": "c-sanguozhi-009-caozhen:p039:m0013",
+            "work_mention_id": "c-sanguozhi-009-caozhen:p039:w0033",
+            "paragraph_id": "c-sanguozhi-009-caozhen:p039",
+            "source_id": "s-sanguozhi-009-caozhen",
+            "chapter_id": "c-sanguozhi-009-caozhen",
+            "quote": "晏何進孫也母尹氏為太祖夫人晏長於宮省又尚公主少以才秀知名好老莊言作道徳論及諸文賦著述凡數十篇",
+            "status": "source_attributed",
+            "qualification": "來源明署或同句敘明作者；作者人物mid及原署保留，不以此合併跨來源同題作品。",
+            "referenced_work_id": "w-daodelun-sgz009-caozhen-reference",
+            "book_id": "b-sanguozhi-009",
+            "authorship_syntax": {
+              "kind": "continued_subject_authored_work",
+              "object_person_mention_ids": [
+                "c-sanguozhi-009-caozhen:p039:m0020"
+              ]
+            }
+          },
+          {
+            "work_id": "w-sanguozhi",
+            "author_name": "皇甫謐",
+            "author_surface": "皇甫謐",
+            "author_person_id": "bf3_a71_80b",
+            "author_mention_id": "c-sanguozhi-009-caozhen:p045:m0000",
+            "work_mention_id": "c-sanguozhi-009-caozhen:p045:w0003",
+            "paragraph_id": "c-sanguozhi-009-caozhen:p045",
+            "source_id": "s-sanguozhi-009-caozhen",
+            "chapter_id": "c-sanguozhi-009-caozhen",
+            "quote": "皇甫謐列女傳曰爽從弟文叔妻譙郡夏侯文寧之女名令女文叔早死服闋自以年少無子恐家必嫁已乃斷髪以為信其後家果欲嫁之令女聞即復以刀截兩耳居止常依爽及爽被誅曹氏盡死令女叔父上書與曹氏絶婚彊迎令女歸時文寜為梁相憐其少執義又曹氏無遺類兾其意沮廼微使人諷之令女歎且泣曰吾亦惟之許之是也家以為信防之少懈令女於是竊入寢室以刀斷鼻䝉被而卧其母呼與語不應發被視之血流滿牀席舉家驚惶奔往視之莫不酸鼻或謂之曰人生世間如輕塵棲弱草耳何至辛苦廼爾且夫家夷滅已盡守此欲誰為哉令女曰聞仁者不以盛衰改莭義者不以存亡易心曹氏前盛之時尚欲保終况今衰亡何忍棄之禽獸之行吾豈為乎司馬宣王聞而嘉之聼使乞子字養為曹氏後名顯于世",
+            "status": "source_attributed",
+            "qualification": "來源明署或同句敘明作者；作者人物mid及原署保留，不以此合併跨來源同題作品。",
+            "referenced_work_id": "w-lienvzhuan-sgz009-caozhen-reference",
+            "book_id": "b-sanguozhi-009",
+            "authorship_syntax": {
+              "kind": "author_title_prefix"
+            }
+          }
+        ],
+        "deferred_person_annotation": []
+      }
+    ],
+    "weishu_identity_review": {
+      "work_id": "w-weishu-wangshen",
+      "status": "contextual_provisional",
+      "evidence_path": "source-evidence/pei-weishu-author-identity/review.json",
+      "reference_anchors": [
+        {
+          "paragraph_id": "c-sanguozhi-009-caozhen:p003",
+          "mention_id": "c-sanguozhi-009-caozhen:p003:w0000"
+        },
+        {
+          "paragraph_id": "c-sanguozhi-009-caozhen:p009",
+          "mention_id": "c-sanguozhi-009-caozhen:p009:w0000"
+        }
+      ],
+      "qualification": "王沈、荀顗、阮籍共撰（合撰據晉書王沈傳）；裴注各處作者歸屬為首署及書目支持的上下文首選，非各處自署。隋／兩唐分載48／44／47卷，未校圖；與魏收魏書分立。",
+      "human_reviewed": false
+    }
   },
   "paragraphs": [
     {
@@ -170,6 +387,16 @@
       "id": "c-sanguozhi-009-caozhen:p002",
       "text": "魏畧曰真本姓秦養曹氏或云其父伯南夙與太祖善興平末袁術部黨與太祖攻劫太祖出為寇所追走入秦氏伯南開門受之寇問太祖所在答曰我是也遂害之由此太祖思其功故變其姓",
       "mentions": [
+        {
+          "id": "c-sanguozhi-009-caozhen:p002:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏畧",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weilue-sgz028-reference",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-009-caozhen:p002:m0003",
           "start": 3,
@@ -292,6 +519,16 @@
       "id": "c-sanguozhi-009-caozhen:p003",
       "text": "魏書曰邵以忠篤有才智為太祖所親信初平中太祖興義兵邵募徒衆從太祖周旋時豫州刺史黄琬欲害太祖太祖避之而邵獨遇害",
       "mentions": [
+        {
+          "id": "c-sanguozhi-009-caozhen:p003:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏書",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weishu-wangshen",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-009-caozhen:p003:m0003",
           "start": 3,
@@ -1508,6 +1745,16 @@
       "text": "魏書曰爽使弟羲為表曰臣亡父真奉事三朝入備冢宰出為上將先帝以臣肺腑遺緒奨飭拔擢典兵禁省進無忠恪積累之行退無羔羊自公之節先帝聖體不豫臣雖奔走侍疾嘗藥曾無精誠翼日之應猥與太尉懿俱受遺詔且慙且懼靡所底告臣聞虞舜序賢以稷契為先成湯襃功以伊呂為首審選博舉優劣得所斯誠輔世長民之大經録勲報功之令典自古以來未之或闕今臣虚闇位冠朝首顧惟越次中心愧惕敢竭愚情陳寫至實夫天下之逹道者三謂徳爵齒也懿本以高明中正處上司之位名足鎮衆義足率下一也包懐大畧允文允武仍立征伐之勲遐邇歸功二也萬里旋斾親受遺詔翼亮皇家内外所向三也加之耆艾紀綱邦國體練朝政論徳則過於吉甫樊仲課功則踰於方叔召虎凡此數者懿實兼之臣抱空名而處其右天下之人將謂臣以宗室見私知進而不知退陛下岐嶷克明克類如有以察臣之言臣以為宜以懿為太傅大司馬上昭陛下進賢之明中顯懿身文武之實下使愚臣免於誚謗於是帝使中書監劉放令孫資為詔曰昔呉漢佐光武有征定四方之功為大司馬名稱于今太尉體履正直功盖海内先帝本以前後欲更其位者輙不彌久是以遲遲不施行耳今大將軍薦太尉宜為大司馬既合先帝本㫖又放推讓進徳尚勲乃欲明賢良辨等列順長少也雖旦奭之屬宗師呂望念在引領以處其下何以過哉朕甚嘉焉朕惟先帝固知君子樂天知命纎芥細疑不足為忌當顧栢人彭亡之文故用低佪有意未遂耳斯亦先帝敬重大臣恩愛深厚之至也昔成王建保傅之官近漢顯宗以鄧禹為太傳皆所以優崇儁乂必有尊也其以太尉為太傅",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caozhen:p009:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏書",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weishu-wangshen",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p009:m0003",
           "start": 3,
           "end": 4,
@@ -2143,6 +2390,16 @@
       "text": "世語曰偉字世英馮翊人眀帝治宮室偉諫曰今作宮室斬伐生民墓上松栢毁壊碑獸石柱辜及亡人傷孝子心不可以為後世之法則",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caozhen:p011:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-shiyu-sgz027-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p011:m0003",
           "start": 3,
           "end": 4,
@@ -2298,6 +2555,16 @@
       "text": "漢晉春秋曰司馬宣王謂夏侯玄曰春秋責大徳重昔武皇帝再入漢中㡬至大敗君所知也今興平路勢至險蜀已先據若進不獲戰退見徼絶覆軍必矣將何以任其責玄懼言於爽引軍退費禕進兵據三嶺以截爽爽争險苦戰僅乃得過所發牛馬運轉者死失畧盡羌胡怨歎而闗右悉虚耗矣",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caozhen:p013:w0000",
+          "start": 0,
+          "end": 4,
+          "surface": "漢晉春秋",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-hanjinchunqiu-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p013:m0005",
           "start": 5,
           "end": 9,
@@ -2316,6 +2583,16 @@
           "person_id": "b39_52d_971",
           "status": "contextual_provisional",
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p013:w0014",
+          "start": 14,
+          "end": 16,
+          "surface": "春秋",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-chunqiu-sgz009-caozhen-reference",
+          "status": "source_explicit"
         },
         {
           "id": "c-sanguozhi-009-caozhen:p013:m0021",
@@ -2922,6 +3199,16 @@
       "text": "魏末傳曰爽等令勝辭宣王并伺察焉宣王見勝勝自陳無他功勞横䝉時㤙當為本州詣閣拜辭不悟加㤙得䝉引見宣王令兩婢侍邉持衣衣落復上指口言渴求飲婢進粥宣王持盃飲粥粥皆流出沾胸勝愍然為之涕泣謂宣王曰今主上尚幼天下恃賴明公然衆情謂明公方舊風疾發何意尊體乃爾宣王徐更寛言才令氣息相屬説年老沉疾死在旦夕君當屈并州并州近胡好善為之恐不復相見如何勝曰當還忝本州非并州也宣王仍復陽為昏謬曰君方到并州努力自愛錯亂其辭状如荒語勝復曰當忝荆州非并州也宣王乃若微悟者謂勝曰懿年老意荒忽不觧君言今還為本州刺史盛徳烈壯好建功勲今當與君别自顧氣力轉微後必不更㑹因欲自力設薄主人生死共别令師昭兄弟結君為友不可相舍去副懿區區之心因流涕哽咽勝亦長歎荅曰輒當承教湏待勅命勝辭出與爽等相見説太傅語言錯悞口不攝盃指南為北乂云吾當作并州吾荅言當還為荆州非并州也徐徐與語冇識人時乃知當還為荆州耳乂欲設主人祖送不可舍去宜湏待之更向爽等垂淚云太傅患不可復濟令人愴然",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caozhen:p017:w0000",
+          "start": 0,
+          "end": 3,
+          "surface": "魏末傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weimozhuan-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p017:m0004",
           "start": 4,
           "end": 5,
@@ -3267,6 +3554,16 @@
       "text": "世語曰爽兄弟先是數俱出㳺桓範謂曰摠萬㡬典禁兵不宜並出若有閉城門誰復内入者爽曰誰敢爾邪由此不復並行至是乃盡出也",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caozhen:p019:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-shiyu-sgz027-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p019:m0003",
           "start": 3,
           "end": 4,
@@ -3592,6 +3889,16 @@
       "text": "世語曰初宣王勒兵從闕下趣武庫當爽門人逼車住爽妻劉怖出至㕔事謂帳下守督曰公在外今兵起如何督曰夫人勿憂乃上門樓引弩注箭欲發將孫謙在後牽止之曰天下亊未可知如此者三宣王遂得過去",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caozhen:p021:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-shiyu-sgz027-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p021:m0004",
           "start": 4,
           "end": 6,
@@ -3757,6 +4064,16 @@
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
         },
         {
+          "id": "c-sanguozhi-009-caozhen:p023:w0002",
+          "start": 2,
+          "end": 4,
+          "surface": "晉記",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-jinji-ji-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p023:m0005",
           "start": 5,
           "end": 6,
@@ -3775,6 +4092,16 @@
           "person_id": "1b6_503_da8",
           "status": "contextual_provisional",
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p023:w0028",
+          "start": 28,
+          "end": 31,
+          "surface": "魏末傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weimozhuan-sgz009-caozhen-reference",
+          "status": "source_explicit"
         },
         {
           "id": "c-sanguozhi-009-caozhen:p023:m0032",
@@ -4106,6 +4433,16 @@
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
         },
         {
+          "id": "c-sanguozhi-009-caozhen:p025:w0002",
+          "start": 2,
+          "end": 4,
+          "surface": "晉書",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-jinshu-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p025:m0005",
           "start": 5,
           "end": 7,
@@ -4174,6 +4511,16 @@
           "person_id": "30k_jzz_tpd_AA",
           "status": "contextual_provisional",
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p025:w0037",
+          "start": 37,
+          "end": 39,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-shiyu-sgz027-reference",
+          "status": "source_explicit"
         },
         {
           "id": "c-sanguozhi-009-caozhen:p025:m0040",
@@ -4274,6 +4621,16 @@
           "person_id": "30k_jzz_tpd_AA",
           "status": "contextual_provisional",
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p025:w0089",
+          "start": 89,
+          "end": 93,
+          "surface": "魏氏春秋",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weishichunqiu-sgz009-caozhen-reference",
+          "status": "source_explicit"
         },
         {
           "id": "c-sanguozhi-009-caozhen:p025:m0094",
@@ -4378,6 +4735,16 @@
       "id": "c-sanguozhi-009-caozhen:p027",
       "text": "魏末傳曰爽兄弟歸家勑洛陽縣發民八百人使尉部圍爽第四角角作髙樓令人在上望視爽兄弟舉動爽計窮愁悶持弹到後園中樓上人便唱言故大将軍東南行爽還聼事上與兄弟共議未知宣王意深淺作書與宣王曰賤子爽哀惶恐怖無狀招禍分受屠滅前遣家人迎糧于今未反數日乏匱當煩見餉以繼旦夕宣王得書大驚即荅書曰初不知乏糧甚懐踧踖令致米一百斛並肉脯鹽䜴大豆尋送爽兄弟不逹變數即便喜歡自謂不死",
       "mentions": [
+        {
+          "id": "c-sanguozhi-009-caozhen:p027:w0000",
+          "start": 0,
+          "end": 3,
+          "surface": "魏末傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weimozhuan-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-009-caozhen:p027:m0004",
           "start": 4,
@@ -4591,6 +4958,16 @@
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
         },
         {
+          "id": "c-sanguozhi-009-caozhen:p028:w0058",
+          "start": 58,
+          "end": 60,
+          "surface": "春秋",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-chunqiu-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p028:m0070",
           "start": 70,
           "end": 71,
@@ -4774,6 +5151,16 @@
       "text": "魏略曰鄧颺字玄茂鄧禹後也少得士名於京師明帝時為尚書郎除洛陽令坐事免拜中郎又入兼中書郎初颺與李勝等為浮華友及在中書浮華事發被斥出遂不復用正始初乃出為潁川太守轉大将軍長史遷侍中尚書颺為人好貨前在内職許臧艾授以顯官艾以父妾與颺故京師為之語曰以官易富鄧玄茂每所薦逹多如此比故何晏選舉不得人頗由颺之不公忠遂同其罪盖由交友非竒才",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caozhen:p029:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏略",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weilue-sgz028-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p029:m0003",
           "start": 3,
           "end": 5,
@@ -4945,6 +5332,16 @@
       "id": "c-sanguozhi-009-caozhen:p030",
       "text": "魏略曰丁謐字彦靖父斐字文侯初斐隨太祖太祖以斐鄉里特饒愛之斐性好貨數請求犯法輒得原宥為典軍校尉總攝内外每所陳説多見從之建安末從太祖征呉斐隨行自以家牛羸困乃私易官牛為人所白被収送獄奪官其後太祖問斐曰文侯印綬所在斐亦知見戯對曰以易餅耳太祖笑顧謂左右曰東曹毛椽數白此家欲令我重治我非不知此人不清良有以也我之有斐譬如人家有盗狗而善捕鼠盗雖有小損而完我嚢貯遂復斐官聼用如初後數嵗病亡謐少不肯交㳺但博觀書傳為人沈毅頗有才略太和中常住鄴借人空屋居其中而諸王亦欲借之不知謐已得直開門入謐望見王交脚卧而不起而呼其奴客曰此何等人促呵使去王怒其無禮還具上言明帝収謐繫鄴獄以其功臣子原出後帝聞其有父風召拜度支郎中曹爽宿與相親時爽為武衛将軍數為帝稱其可大用會帝崩爽輔政乃拔謐為散騎常侍遂轉尚書謐為人外似踈畧而内多忌其在臺閣有所弹駮臺中患之事不得行又其意輕貴多所忽畧雖與何晏鄧颺等同位而皆少之唯以勢屈於爽爽亦敬之言無不從故于時謗書謂臺中有三狗二狗崖柴不可當一狗憑黙作疽嚢三狗謂何鄧丁也黙者爽小字也其意言三狗皆欲嚙人而謐尤甚也奏使郭太后出居别宫及遣樂安王使北詣鄴又遣文欽令還淮南皆謐之計司馬宣王由是特深恨之",
       "mentions": [
+        {
+          "id": "c-sanguozhi-009-caozhen:p030:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏略",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weilue-sgz028-reference",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-009-caozhen:p030:m0003",
           "start": 3,
@@ -5940,6 +6337,16 @@
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
         },
         {
+          "id": "c-sanguozhi-009-caozhen:p033:w0034",
+          "start": 34,
+          "end": 36,
+          "surface": "皇覧",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-huanglan-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p033:m0036",
           "start": 36,
           "end": 38,
@@ -6068,6 +6475,26 @@
           "person_id": "vwm_w8o_188",
           "status": "contextual_provisional",
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p033:w0253",
+          "start": 253,
+          "end": 255,
+          "surface": "漢書",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-hanshu-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p033:w0267",
+          "start": 267,
+          "end": 270,
+          "surface": "世要論",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-shiyaolun-sgz009-caozhen-reference",
+          "status": "source_explicit"
         },
         {
           "id": "c-sanguozhi-009-caozhen:p033:m0270",
@@ -6766,6 +7193,16 @@
       "text": "世語曰初爽夢二虎銜雷公雷公若二升椀放著庭中爽惡之以問占者靈臺丞馬訓曰憂兵訓退告其妻曰爽将以兵亡不出旬日",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caozhen:p034:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-shiyu-sgz027-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p034:m0004",
           "start": 4,
           "end": 5,
@@ -6877,6 +7314,16 @@
       "id": "c-sanguozhi-009-caozhen:p035",
       "text": "漢晉春秋曰安定皇甫謐以九年冬夢至洛陽自廟出見車騎甚衆以物呈廟云誅大将軍曹爽窹而以告其邑人邑人曰君欲作曹人之夢乎朝無公孫彊如何且爽兄弟典重兵又權尚書事誰敢謀之謐曰爽無叔振鐸之請茍失天機則離矣何恃於彊昔漢之閻顯倚母后之尊權國威命可謂至重矣閹人十九人一旦尸之況爽兄弟乎",
       "mentions": [
+        {
+          "id": "c-sanguozhi-009-caozhen:p035:w0000",
+          "start": 0,
+          "end": 4,
+          "surface": "漢晉春秋",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-hanjinchunqiu-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-009-caozhen:p035:m0007",
           "start": 7,
@@ -7019,6 +7466,16 @@
       "id": "c-sanguozhi-009-caozhen:p036",
       "text": "世語曰初爽出司馬魯芝留在府聞有事将營騎斫津門出赴爽爽誅擢為御史中丞及爽觧印綬将出主簿楊綜止之曰公挾主握權舍此以至東市乎爽不從有司奏綜導爽反宣王曰各為其主也宥之以為尚書郎芝字世英扶風人也以後仕進至特進光禄大夫綜字初伯後為安東将軍司馬文王長史臣松之案夏侯湛為芝銘及干寳晉紀並云爽既誅宣王即擢芝為并州刺史以綜為安東參軍與世語不同",
       "mentions": [
+        {
+          "id": "c-sanguozhi-009-caozhen:p036:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-shiyu-sgz027-reference",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-009-caozhen:p036:m0004",
           "start": 4,
@@ -7210,6 +7667,16 @@
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
         },
         {
+          "id": "c-sanguozhi-009-caozhen:p036:w0132",
+          "start": 132,
+          "end": 134,
+          "surface": "晉紀",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-jinji-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p036:m0136",
           "start": 136,
           "end": 137,
@@ -7248,6 +7715,16 @@
           "person_id": "upd_be0_yuy",
           "status": "contextual_provisional",
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p036:w0157",
+          "start": 157,
+          "end": 159,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-shiyu-sgz027-reference",
+          "status": "source_explicit"
         }
       ],
       "annotation_status": "in_progress",
@@ -7347,6 +7824,16 @@
           "person_id": "58b_0c7_605",
           "status": "contextual_provisional",
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p038:w0002",
+          "start": 2,
+          "end": 4,
+          "surface": "晉記",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-jinji-ji-sgz009-caozhen-reference",
+          "status": "source_explicit"
         },
         {
           "id": "c-sanguozhi-009-caozhen:p038:m0005",
@@ -7509,6 +7996,16 @@
           "person_id": null,
           "status": "unresolved",
           "interpretation_note": "思想學說合稱，可能兼書名指稱；暫不拆作個別身份。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p039:w0033",
+          "start": 33,
+          "end": 36,
+          "surface": "道徳論",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-daodelun-sgz009-caozhen-reference",
+          "status": "source_explicit"
         }
       ],
       "annotation_status": "in_progress",
@@ -7569,6 +8066,16 @@
       "id": "c-sanguozhi-009-caozhen:p041",
       "text": "魏略曰太祖為司空時納晏母并収養晏其時秦宜禄兒阿蘇亦隨母在公家並見寵如公子蘇即朗也蘇性謹慎而晏無所顧惮服飾擬於太子故文帝特憎之每不呼其姓字嘗謂之為假子晏尚主又好色故黄初時無所事任及明帝立頗為冗官至正始初曲合於曹爽亦以才能故爽用為散騎侍郎遷侍中尚書晏前以尚主得賜爵為列侯又其母在内晏性自喜動静粉白不去手行歩顧影晏為尚書主選舉其宿與之有舊者多被拔擢",
       "mentions": [
+        {
+          "id": "c-sanguozhi-009-caozhen:p041:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏略",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weilue-sgz028-reference",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-009-caozhen:p041:m0003",
           "start": 3,
@@ -7812,6 +8319,16 @@
       "text": "魏末傳曰晏婦金鄉公主即晏同母妹公主賢謂其母沛王太妃曰晏為惡日甚将何保身母笑曰汝得無妬晏邪俄而晏死有一男年五六嵗宣王遣人録之晏母歸藏其子王宫中向使者搏頰乞白活之使者具以白宣王宣王亦聞晏婦有先見之言心常嘉之且為沛王故特原不殺",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caozhen:p042:w0000",
+          "start": 0,
+          "end": 3,
+          "surface": "魏末傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weimozhuan-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p042:m0004",
           "start": 4,
           "end": 5,
@@ -8023,6 +8540,16 @@
       "id": "c-sanguozhi-009-caozhen:p043",
       "text": "魏氏春秋曰初夏侯玄何晏等名盛於時司馬景王亦與焉晏嘗曰唯深也故能通天下之志夏侯泰初是也唯幾也故能成天下之務司馬子元是也唯神也不疾而速不行而至吾聞其語未見其人盖欲以神况諸己也初宣王使晏典治爽等獄晏窮治黨與兾以獲宥宣王曰凡有八族晏疏丁鄧等七姓宣王曰未也晏窮急乃曰豈謂晏乎宣王曰是也乃収晏",
       "mentions": [
+        {
+          "id": "c-sanguozhi-009-caozhen:p043:w0000",
+          "start": 0,
+          "end": 4,
+          "surface": "魏氏春秋",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weishichunqiu-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-009-caozhen:p043:m0006",
           "start": 6,
@@ -8236,6 +8763,16 @@
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
         },
         {
+          "id": "c-sanguozhi-009-caozhen:p044:w0004",
+          "start": 4,
+          "end": 7,
+          "surface": "魏末傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weimozhuan-sgz009-caozhen-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p044:m0008",
           "start": 8,
           "end": 9,
@@ -8355,6 +8892,16 @@
           "person_id": "bf3_a71_80b",
           "status": "contextual_provisional",
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p045:w0003",
+          "start": 3,
+          "end": 6,
+          "surface": "列女傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-lienvzhuan-sgz009-caozhen-reference",
+          "status": "source_explicit"
         },
         {
           "id": "c-sanguozhi-009-caozhen:p045:m0007",

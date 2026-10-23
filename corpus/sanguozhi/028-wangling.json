@@ -40,35 +40,80 @@
     "unmarked_reference_titles": [
       {
         "surface": "魏畧",
-        "referent_kind": "quoted_work_not_person"
+        "referent_kind": "quoted_work_not_person",
+        "status": "marked_work_reference",
+        "work_id": "w-weilue-sgz028-reference",
+        "mention_ids": [
+          "c-sanguozhi-028-wangling:unit002:w0000",
+          "c-sanguozhi-028-wangling:unit006:w0070",
+          "c-sanguozhi-028-wangling:unit008:w0000",
+          "c-sanguozhi-028-wangling:unit010:w0000",
+          "c-sanguozhi-028-wangling:unit012:w0000"
+        ]
       },
       {
         "surface": "漢晉春秋",
-        "referent_kind": "quoted_work_not_person"
+        "referent_kind": "quoted_work_not_person",
+        "status": "marked_work_reference",
+        "work_id": "w-hanjinchunqiu-sgz028-reference",
+        "mention_ids": [
+          "c-sanguozhi-028-wangling:unit004:w0000"
+        ]
       },
       {
         "surface": "魏書",
-        "referent_kind": "quoted_work_not_person"
+        "referent_kind": "quoted_work_not_person",
+        "status": "marked_work_reference",
+        "work_id": "w-weishu-wangshen",
+        "mention_ids": [
+          "c-sanguozhi-028-wangling:unit006:w0000"
+        ]
       },
       {
         "surface": "晉紀",
-        "referent_kind": "quoted_work_not_person"
+        "referent_kind": "quoted_work_not_person",
+        "status": "marked_work_reference",
+        "work_id": "w-jinji-ganbao-sgz028-reference",
+        "mention_ids": [
+          "c-sanguozhi-028-wangling:unit010:w0405",
+          "c-sanguozhi-028-wangling:unit014:w0002"
+        ]
       },
       {
         "surface": "魏氏春秋",
-        "referent_kind": "quoted_work_not_person"
+        "referent_kind": "quoted_work_not_person",
+        "status": "marked_work_reference",
+        "work_id": "w-weishichunqiu-sgz028-reference",
+        "mention_ids": [
+          "c-sanguozhi-028-wangling:unit016:w0000"
+        ]
       },
       {
         "surface": "魏末傳",
-        "referent_kind": "quoted_work_not_person"
+        "referent_kind": "quoted_work_not_person",
+        "status": "marked_work_reference",
+        "work_id": "w-weimozhuan-sgz028-reference",
+        "mention_ids": [
+          "c-sanguozhi-028-wangling:unit016:w0063"
+        ]
       },
       {
         "surface": "史記",
-        "referent_kind": "quoted_work_not_person"
+        "referent_kind": "quoted_work_not_person",
+        "status": "marked_work_reference",
+        "work_id": "w-shiji",
+        "mention_ids": [
+          "c-sanguozhi-028-wangling:appraisal-note:w0000"
+        ]
       },
       {
         "surface": "春秋",
-        "referent_kind": "quoted_work_not_person"
+        "referent_kind": "quoted_work_not_person",
+        "status": "marked_work_reference",
+        "work_id": "w-chunqiu-sgz028-reference",
+        "mention_ids": [
+          "c-sanguozhi-028-wangling:unit013:w0005"
+        ]
       }
     ],
     "primary_identity_bridges": [
@@ -1067,7 +1112,117 @@
         "reporting_status": "direct_report",
         "source_qualification": null
       }
-    ]
+    ],
+    "work_reference_reviews": [
+      {
+        "id": "work-review-sanguozhi028-wangling",
+        "source_id": "s-sanguozhi-028-wangling",
+        "status": "ai_proposed",
+        "human_reviewed": false,
+        "coverage": "完整20段；13處明示引書，非整卷。",
+        "first_full_then_shortened_title": "重複引題不當縮稱；春秋之義只記經義指稱，不指定傳注。",
+        "boundaries": [
+          {
+            "paragraph_id": "c-sanguozhi-028-wangling:unit004",
+            "surface": "前史",
+            "reason": "文獻泛稱，不造單一作品ID；裴注質疑漢晉春秋不可抹去。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-028-wangling:unit010",
+            "surface": "凌與太傅書",
+            "reason": "書信稱述，未據此當正式書題。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-028-wangling:unit013",
+            "surface": "方策／舊典",
+            "reason": "文書/既有典例泛稱，不補一個作品。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-028-wangling:qing-01",
+            "surface": "何焯曰",
+            "reason": "清校作者說話人，不是裴引書名；保持層別。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-028-wangling:qing-02",
+            "surface": "臣眀楷按",
+            "reason": "清代按語，不能當裴注或引題。"
+          }
+        ],
+        "cross_work_identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "chapter_id": "c-shiji-041-yue",
+            "source_id": "s-shiji-041-yue",
+            "paragraph_id": "c-shiji-041-yue:p016",
+            "source": {
+              "title": "史記／卷041",
+              "provider": "維基文庫",
+              "url": "https://zh.wikisource.org/wiki/史記/卷041",
+              "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷041&oldid=2018395",
+              "revision_id": 2018395,
+              "accessed_on": "2026-10-09",
+              "extent": "28段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
+              "image_verified": false,
+              "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+              "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "normalization": {
+                "character_conversion": {
+                  "笔": "筆"
+                },
+                "editorial_readings": [],
+                "extraction_note": "固定修訂與取得時HTML一致，僅去除段落外緣空白；第17段笔轉筆，不自行校讀盡取筆呉地。保留句踐／勾踐、闔廬／闔閭及呉等古代異體。",
+                "note": "全29段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
+              }
+            },
+            "quote": "王無彊時，越興師北伐齊，西伐楚，與中國爭彊。當楚威王之時，越北伐齊，齊威王使人説越王曰：「越不伐楚，大不王，小不伯。圖越之所爲不伐楚者，爲不得晉也。韓、魏固不攻楚。韓之攻楚，覆其軍，殺其將，則葉、陽翟危；魏亦覆其軍，殺其將，則陳、上蔡不安。故二晉之事越也，不至於覆軍殺將，馬汗之力不效。所重於得晉者何也？」越王曰：「所求於晉者，不至頓刃接兵，而況于攻城圍邑乎？願魏以聚大梁之下，願齊之試兵南陽莒地，以聚常、郯之境，則方城之外不南，淮、泗之閒不東，商、於、析、酈、宗胡之地，夏路以左，不足以備秦，江南、泗上不足以待越矣。則齊、秦、韓、魏得志於楚也，是二晉不戰分地，不耕而穫之。不此之爲，而頓刃於河山之閒以爲齊秦用，所待者如此其失計，柰何其以此王也！」齊使者曰：「幸也越之不亡也！吾不貴其用智之如目，見豪毛而不見其睫也。今王知晉之失計，而不自知越之過，是目論也。王所待於晉者，非有馬汗之力也，又非可與合軍連和也，將待之以分楚衆也。今楚衆已分，何待於晉？」越王曰：「柰何？」曰：「楚三大夫張九軍，北圍曲沃、於中，以至無假之關者三千七百里，景翠之軍北聚魯、齊、南陽，分有大此者乎？且王之所求者，鬬晉楚也；晉楚不鬬，越兵不起，是知二五而不知十也。此時不攻楚，臣以是知越大不王，小不伯。復讎、龐、長沙，楚之粟也；竟澤陵，楚之材也。越窺兵通無假之關，此四邑者不上貢事於郢矣。臣聞之，圖王不王，其敝可以伯。然而不伯者，王道失也。故願大王之轉攻楚也。」",
+            "read_scope": "完整p016對話單元，非只用搜尋片段；未讀影像",
+            "matches": [
+              "越王無彊與中國爭彊",
+              "楚威王/越北伐齊/齊威王使人說越",
+              "如目見豪毛不見其睫與目論",
+              "知晉之失而不自知越之失的齊使者說辭"
+            ],
+            "qualification": "裴引為節引，不宣稱整段逐字一致；兩端同書判讀不改源文字。"
+          }
+        ],
+        "source_author_evidence": {
+          "paragraph_id": "c-sanguozhi-028-wangling:unit004",
+          "work_surface": "漢晉春秋",
+          "author_person_id": "8b2_aac_6d7",
+          "author_mention_ids": [
+            "c-sanguozhi-028-wangling:unit004:m0220",
+            "c-sanguozhi-028-wangling:unit004:m0233"
+          ],
+          "source_terms": [
+            "習氏",
+            "鑿齒"
+          ],
+          "full_quote": "漢晉春秋曰凌愚謀以帝㓜制於彊臣不堪為主楚王彪長而才欲迎立之以興曹氏凌使人告廣廣曰凡舉大事應本人情今曹爽以驕奢失民何平叔虛而不治丁畢桓鄧雖並有宿望皆専競於世加變易朝典政令數改所存雖髙而事不下接民習於舊衆莫之從故雖勢傾四海聲震天下同日斬戮名士減半而百姓安之莫或之哀失民故也今懿情雖難量事未有逆而擢用賢能廣樹勝己脩先朝之政令副衆心之所求爽之所以為惡者彼莫不必改夙夜匪懈以恤民為先父子兄弟並握兵要未易亡也凌不從臣松之以為如此言之類皆前史所不載而獨出習氏且制言法體不似於昔疑悉鑿齒所自造者也"
+        },
+        "deferred_person_annotation": [
+          {
+            "paragraph_id": "c-sanguozhi-028-wangling:unit014",
+            "surface": "干寳",
+            "start": 0,
+            "end": 2,
+            "reason": "此批只加書題，保全部原人物錨點；此作者具名可另作人物標記補完，未新建人或改身份。"
+          }
+        ]
+      }
+    ],
+    "weishu_identity_review": {
+      "work_id": "w-weishu-wangshen",
+      "status": "contextual_provisional",
+      "evidence_path": "source-evidence/pei-weishu-author-identity/review.json",
+      "reference_anchors": [
+        {
+          "paragraph_id": "c-sanguozhi-028-wangling:unit006",
+          "mention_id": "c-sanguozhi-028-wangling:unit006:w0000"
+        }
+      ],
+      "qualification": "王沈、荀顗、阮籍共撰（合撰據晉書王沈傳）；裴注各處作者歸屬為首署及書目支持的上下文首選，非各處自署。隋／兩唐分載48／44／47卷，未校圖；與魏收魏書分立。",
+      "human_reviewed": false
+    }
   },
   "paragraphs": [
     {
@@ -1708,6 +1863,16 @@
         ]
       },
       "mentions": [
+        {
+          "id": "c-sanguozhi-028-wangling:unit002:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏畧",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weilue-sgz028-reference",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-028-wangling:unit002:m0003",
           "start": 3,
@@ -4829,6 +4994,16 @@
       },
       "mentions": [
         {
+          "id": "c-sanguozhi-028-wangling:unit004:w0000",
+          "start": 0,
+          "end": 4,
+          "surface": "漢晉春秋",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-hanjinchunqiu-sgz028-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-028-wangling:unit004:m0005",
           "start": 5,
           "end": 6,
@@ -6095,6 +6270,16 @@
       },
       "mentions": [
         {
+          "id": "c-sanguozhi-028-wangling:unit006:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏書",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weishu-wangshen",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-028-wangling:unit006:m0003",
           "start": 3,
           "end": 4,
@@ -6203,6 +6388,16 @@
           "person_id": "30k_jzz_tpd_AA",
           "status": "contextual_provisional",
           "interpretation_note": "依本完整敘事與對話scope辨識，不用nearest規則。"
+        },
+        {
+          "id": "c-sanguozhi-028-wangling:unit006:w0070",
+          "start": 70,
+          "end": 72,
+          "surface": "魏畧",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weilue-sgz028-reference",
+          "status": "source_explicit"
         },
         {
           "id": "c-sanguozhi-028-wangling:unit006:m0073",
@@ -6726,6 +6921,16 @@
         ]
       },
       "mentions": [
+        {
+          "id": "c-sanguozhi-028-wangling:unit008:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏畧",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weilue-sgz028-reference",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-028-wangling:unit008:m0003",
           "start": 3,
@@ -9585,6 +9790,16 @@
       },
       "mentions": [
         {
+          "id": "c-sanguozhi-028-wangling:unit010:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏畧",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weilue-sgz028-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-028-wangling:unit010:m0003",
           "start": 3,
           "end": 4,
@@ -10113,6 +10328,16 @@
           "person_id": "58b_0c7_605",
           "status": "contextual_provisional",
           "interpretation_note": "依本完整敘事與對話scope辨識，不用nearest規則。"
+        },
+        {
+          "id": "c-sanguozhi-028-wangling:unit010:w0405",
+          "start": 405,
+          "end": 407,
+          "surface": "晉紀",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-jinji-ganbao-sgz028-reference",
+          "status": "source_explicit"
         },
         {
           "id": "c-sanguozhi-028-wangling:unit010:m0408",
@@ -11969,6 +12194,16 @@
       },
       "mentions": [
         {
+          "id": "c-sanguozhi-028-wangling:unit012:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏畧",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weilue-sgz028-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-028-wangling:unit012:m0003",
           "start": 3,
           "end": 7,
@@ -13082,6 +13317,16 @@
       },
       "mentions": [
         {
+          "id": "c-sanguozhi-028-wangling:unit013:w0005",
+          "start": 5,
+          "end": 7,
+          "surface": "春秋",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-chunqiu-sgz028-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-028-wangling:unit013:m0010",
           "start": 10,
           "end": 12,
@@ -13330,6 +13575,16 @@
         ]
       },
       "mentions": [
+        {
+          "id": "c-sanguozhi-028-wangling:unit014:w0002",
+          "start": 2,
+          "end": 4,
+          "surface": "晉紀",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-jinji-ganbao-sgz028-reference",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-028-wangling:unit014:m0011",
           "start": 11,
@@ -14041,6 +14296,16 @@
       },
       "mentions": [
         {
+          "id": "c-sanguozhi-028-wangling:unit016:w0000",
+          "start": 0,
+          "end": 4,
+          "surface": "魏氏春秋",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weishichunqiu-sgz028-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-028-wangling:unit016:m0005",
           "start": 5,
           "end": 6,
@@ -14169,6 +14434,16 @@
           "person_id": null,
           "status": "unresolved",
           "interpretation_note": "集合／未名／異說或待證身份；保留完整原稱，不強配單人。"
+        },
+        {
+          "id": "c-sanguozhi-028-wangling:unit016:w0063",
+          "start": 63,
+          "end": 66,
+          "surface": "魏末傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weimozhuan-sgz028-reference",
+          "status": "source_explicit"
         },
         {
           "id": "c-sanguozhi-028-wangling:unit016:m0067",
@@ -14398,6 +14673,16 @@
         "source_layer": "pei_annotation"
       },
       "mentions": [
+        {
+          "id": "c-sanguozhi-028-wangling:appraisal-note:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "史記",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-shiji",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-028-wangling:appraisal-note:m0003",
           "start": 3,

@@ -345,6 +345,14 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         validate_clan_style(name, name_paragraph[1] if name_paragraph else None, relations)
         validate_full_name(name, name_paragraph[1] if name_paragraph else None)
         validate_courtesy_name(name)
+        if 'surname_basis' in name:
+            try:
+                from .surname_from_father import validate as validate_inferred_surname
+            except ImportError:
+                from surname_from_father import validate as validate_inferred_surname
+            validate_inferred_surname(name,
+                [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
+                {c['id']: c for c, p in paragraphs.values()}, relations)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:
@@ -725,6 +733,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         elif isinstance(value, list):
             for item in value: found.update(context_ids(item))
         return found
+    source_details = [d for r in records if r.get('record_type') == 'biographical_source_detail_set' for d in r['records'] if d['person_id'] in ids]
     source_temporal_attestations = [r for record in records if record.get('record_type') == 'source_temporal_attestation_set' for r in record['records'] if r['person_id'] in ids]
     unresolved_kinship_references = [r for chapter in chapters.values() for r in chapter['annotation'].get('unresolved_kinship_references', []) if r['person_id'] in ids or ids.intersection(r['reference_person_candidates'])]
     source_title_uses = [u for chapter in chapters.values() for u in chapter['annotation'].get('source_title_uses', []) if u['person_id'] in ids]
@@ -741,6 +750,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'mention_count_policy': {'scope': 'independent_fixed_witness_occurrences', 'raw_mentions_preserved': True, 'passage_count_scope': 'annotation_containers', 'explanation': '頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。', 'included_kinds': ['paragraph', 'table_cell'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
             **({'source_title_uses': source_title_uses} if source_title_uses else {}),
+            **({'source_details': source_details} if source_details else {}),
             **({'source_temporal_attestations': source_temporal_attestations} if source_temporal_attestations else {}),
             **({'unresolved_kinship_references': unresolved_kinship_references} if unresolved_kinship_references else {}),
             **({'relative_birth_order_decisions': order_decisions} if order_decisions else {}),

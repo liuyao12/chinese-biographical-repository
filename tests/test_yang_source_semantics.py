@@ -19,7 +19,11 @@ class YangSourceSemantics(unittest.TestCase):
   self.assertEqual(D['source']['source_commit'],'214fcafa79894355909c9d8c2c1533089e7791c6');self.assertFalse(D['source']['image_verified']);self.assertEqual(D['source']['response_sha256'],H(P/'KR2a0012_019.txt'));self.assertEqual(J(P/'retrieval-limitations.json')['no_wikisource_collation_claim'],True)
 
  def test_exact_nonoverlap_mentions(self):
-  self.assertEqual(sum(len(p['mentions'])for p in PAR),217)
+  # 原人物辨識批217錨含兩個後經古注辨為書名的未決錨；另增10個書名，不算新增人物。
+  ms=[m for p in PAR for m in p['mentions']];works=[m for m in ms if m['kind']=='work']
+  self.assertEqual(len(works),12);self.assertEqual(sum(m['kind']!='work' for m in ms)+2,217)
+  for mid,surface,wid in [('m1033','吕氏','w-lushichunqiu-sgz019-reference'),('m1035','淮南','w-huainan-sgz019-reference')]:
+   m=next(m for m in ms if m['id']=='c-sanguozhi-019-yangxiu:p002:'+mid);self.assertEqual((m['surface'],m['kind'],m['work_id']),(surface,'work',wid));self.assertIsNone(m['person_id'])
   for p in PAR:
    end=0
    for m in p['mentions']:self.assertGreaterEqual(m['start'],end);self.assertEqual(p['text'][m['start']:m['end']],m['surface']);end=m['end']
@@ -43,7 +47,7 @@ class YangSourceSemantics(unittest.TestCase):
   sm,assemblies=load_assemblies(R,CAT);self.assertEqual(sm[ID['楊俊']]['parent_person_id'],ID['楊準']);self.assertIsNone(sm[ID['楊俊']]['source_assertion_id']);self.assertEqual(sm[ID['楊俊']]['parent_connection']['type'],'shared_father_through_sibling');self.assertEqual(sm[ID['楊髦']]['parent_person_id'],ID['楊準']);self.assertEqual(sm[ID['劉脩']]['parent_person_id'],ID['劉表'])
 
  def test_unknowns_and_variant_not_forced(self):
-  ms=[m for p in PAR for m in p['mentions']];self.assertEqual(sum(m['kind']=='unresolved'for m in ms),31)
+  ms=[m for p in PAR for m in p['mentions']];self.assertEqual(sum(m['kind']=='unresolved'for m in ms),29);self.assertFalse(any(m['kind']=='unresolved' and m['surface'] in ['吕氏','淮南'] for m in ms))
   for s in ['袁氏','墨瞿','孔公','惠子','仲山','惠彦']:self.assertTrue(all(m['person_id']is None for m in ms if m['surface']==s))
   self.assertNotEqual(ID['楊俊'],'05q_rr2_8ki');self.assertNotEqual(ID['楊準'],'3ea_uzt_2n2')
 

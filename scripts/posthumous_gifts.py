@@ -2,6 +2,19 @@
 
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
+    if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') == 'biography_sovereign_mourning_gift_to_resumed_topic':
+        try:
+            from scripts.lifecycle_offered_biography import gift_valid
+        except ImportError:
+            from lifecycle_offered_biography import gift_valid
+        return gift_valid(holding, paragraphs, mentions, life_events or {})
+
+    if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') == 'resumed_biography_death_gift':
+        try:
+            from scripts.resumed_biography_lifecycle import gift_valid
+        except ImportError:
+            from resumed_biography_lifecycle import gift_valid
+        return gift_valid(holding, paragraphs, mentions, life_events or {})
     if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') in ('heading_title_confirmed_by_posthumous_notice', 'coordinated_recollected_posthumous_gift'):
         try:
             from scripts.song041_title_semantics import heading_posthumous_valid, recalled_gift_valid

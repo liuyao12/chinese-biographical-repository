@@ -1,3 +1,4 @@
+import {workMentionHTML} from './work-titles.js';
 import {nativeProfileReturn} from './native-table-links.js';
 import {escapeHTML as h} from './core.js';
 export function chapterURL(number, category = '', passage = '') {
@@ -41,7 +42,7 @@ export function profileSourceContext(person, params) {
   const href=sourcePassageURL({...occurrence,paragraph_id:actualPassage,mention_id:mention});
   return href?{href,text:`回到《${occurrence.work_title}·${occurrence.title}》 →`}:null;
 }
-export function chapterParagraph(paragraph, people = {}, context = null) {
+export function chapterParagraph(paragraph, people = {}, context = null, workTitles = {}) {
   const chars = Array.from(paragraph.text), fragments = [];
   let end = 0;
   for (const mention of paragraph.mentions) {
@@ -58,14 +59,14 @@ export function chapterParagraph(paragraph, people = {}, context = null) {
       const href = 'person.html' + (params ? '?'+params : '') + '#' + encodeURIComponent(mention.person_id);
       fragments.push(`<a id="${h(mention.id)}" class="cbr-person-link" data-person-id="${h(mention.person_id)}" href="${h(href)}" title="${h(person?.label || mention.surface)}">${text}</a>`);
     } else if (mention.kind === 'work' && mention.work_id && mention.person_id == null) {
-      fragments.push(`<cite id="${h(mention.id)}" class="cbr-work-mention" data-work-id="${h(mention.work_id)}" title="著作：${text}">${text}</cite>`);
+      fragments.push(workMentionHTML(mention, workTitles));
     } else if (mention.kind === 'non_person' && mention.person_id == null) {
       fragments.push(`<span id="${h(mention.id)}" class="cbr-non-person" data-lexical-role="${h(mention.lexical_role)}" title="${h(mention.interpretation_note)}">${text}</span>`);
     } else fragments.push(`<span id="${h(mention.id)}" class="unresolved-mention" title="${h(mention.interpretation_note || '未定指稱')}">${text}</span>`);
     end = mention.end;
   }
   fragments.push(h(chars.slice(end).join('')));
-  const layerLabels={witness_appended_lixian_note:'唐・李賢注',witness_appended_liuban_collation:'宋・劉攽校',witness_appended_qing_siku_collation:'清・四庫考證'};
+  const layerLabels={witness_appended_pei_songzhi_note:'劉宋・裴松之注',witness_peisongzhi_quoted_simabiao_xuzhuan:'裴松之注引司馬彪序傳',witness_appended_lixian_note:'唐・李賢注',witness_appended_liuban_collation:'宋・劉攽校',witness_appended_qing_siku_collation:'清・四庫考證'};
   const label=layerLabels[paragraph.text_layer];
   const layerLabel=label?`<div class="corpus-text-layer" data-text-layer-label="${h(paragraph.text_layer)}">${h(label)}</div>`:'';
   return layerLabel+`<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`;

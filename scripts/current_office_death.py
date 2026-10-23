@@ -9,7 +9,7 @@ def current_office_death_valid(holding, paragraphs, mentions):
             or holding.get('kind') != 'office'
             or not isinstance(title, str) or not title
             or not (date is None or isinstance(date, str) and bool(date))
-            or basis.get('source_term') != title + '。' + (date + '，' if date else '') + '卒官'
+            or basis.get('source_term') not in ([title + '。' + (date + '，' if date else '') + '卒官'] + ([title + '，卒官'] if date is None else []))
             or end.get('status') != 'source_event' or end.get('event_type') != 'explicit_end'
             or not basis.get('evidence') or basis['evidence'] != end.get('evidence')
             or basis['evidence'] != holding.get('evidence')):

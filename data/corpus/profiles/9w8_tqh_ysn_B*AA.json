@@ -601,6 +601,90 @@
       "model": null
     },
     {
+      "id": "a-sanguozhi022-daizheng-dai-brother",
+      "subject_person_id": "9w8_tqh_ysn_B*AB",
+      "predicate": "brother",
+      "object_person_id": "9w8_tqh_ysn_B*AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "凖弟戴徵",
+        "source_layer": "ancient_commentary",
+        "source_report_key": "quoted_chenshi_pu",
+        "relative_birth_order": {
+          "older_person_id": "9w8_tqh_ysn_B*AA",
+          "younger_person_id": "9w8_tqh_ysn_B*AB",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+          "source_id": "s-sanguozhi-022-chenqun-chentai",
+          "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
+          "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
+          "relationship_anchor": {
+            "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
+            "start": 35,
+            "end": 39,
+            "surface": "凖弟戴徵"
+          },
+          "subject_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0037",
+          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0035"
+        }
+      ],
+      "interpretation_note": "裴引陳氏譜『凖弟戴徵及從弟堪』，完整固定WS2085105標點作『准弟戴、徵及从弟堪』，採兩個一字名、皆凖弟；原WYG不加頓號。兩人彼此長幼未知。新唐071下作佐二子準徽，另存異說，不把徵合徽或補父忠。詳source-evidence/sanguozhi022-daizheng/decision.json；弟的範圍為並列戴、徵，不推彼此年序、絕對排行或同母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sanguozhi022-daizheng-zheng-brother",
+      "subject_person_id": "9w8_tqh_ysn_B*AC",
+      "predicate": "brother",
+      "object_person_id": "9w8_tqh_ysn_B*AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "凖弟戴徵",
+        "source_layer": "ancient_commentary",
+        "source_report_key": "quoted_chenshi_pu",
+        "relative_birth_order": {
+          "older_person_id": "9w8_tqh_ysn_B*AA",
+          "younger_person_id": "9w8_tqh_ysn_B*AC",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+          "source_id": "s-sanguozhi-022-chenqun-chentai",
+          "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
+          "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
+          "relationship_anchor": {
+            "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
+            "start": 35,
+            "end": 39,
+            "surface": "凖弟戴徵"
+          },
+          "subject_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0038",
+          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0035"
+        }
+      ],
+      "interpretation_note": "裴引陳氏譜『凖弟戴徵及從弟堪』，完整固定WS2085105標點作『准弟戴、徵及从弟堪』，採兩個一字名、皆凖弟；原WYG不加頓號。兩人彼此長幼未知。新唐071下作佐二子準徽，另存異說，不把徵合徽或補父忠。詳source-evidence/sanguozhi022-daizheng/decision.json；弟的範圍為並列戴、徵，不推彼此年序、絕對排行或同母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-songshu060-family-012",
       "subject_person_id": "lir_36y_g5d",
       "predicate": "ancestor",
@@ -632,6 +716,8 @@
     "9w8_tqh_ysn_B*A": "佐（陳諶孫）",
     "9w8_tqh_ysn_B*AA": "凖（陳佐子）",
     "9w8_tqh_ysn_B*AA*A": "逵（字林道）",
+    "9w8_tqh_ysn_B*AB": "戴（凖弟）",
+    "9w8_tqh_ysn_B*AC": "徵（凖弟）",
     "ebp_cc5_u3h": "堪（陳凖從弟）",
     "lir_36y_g5d": "陳茂先"
   },
@@ -757,6 +843,90 @@
         }
       ],
       "interpretation_note": "明祖孫；逵父未知，不由字林道臆補父親。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sanguozhi022-daizheng-dai-brother",
+      "subject_person_id": "9w8_tqh_ysn_B*AB",
+      "predicate": "brother",
+      "object_person_id": "9w8_tqh_ysn_B*AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "凖弟戴徵",
+        "source_layer": "ancient_commentary",
+        "source_report_key": "quoted_chenshi_pu",
+        "relative_birth_order": {
+          "older_person_id": "9w8_tqh_ysn_B*AA",
+          "younger_person_id": "9w8_tqh_ysn_B*AB",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+          "source_id": "s-sanguozhi-022-chenqun-chentai",
+          "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
+          "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
+          "relationship_anchor": {
+            "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
+            "start": 35,
+            "end": 39,
+            "surface": "凖弟戴徵"
+          },
+          "subject_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0037",
+          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0035"
+        }
+      ],
+      "interpretation_note": "裴引陳氏譜『凖弟戴徵及從弟堪』，完整固定WS2085105標點作『准弟戴、徵及从弟堪』，採兩個一字名、皆凖弟；原WYG不加頓號。兩人彼此長幼未知。新唐071下作佐二子準徽，另存異說，不把徵合徽或補父忠。詳source-evidence/sanguozhi022-daizheng/decision.json；弟的範圍為並列戴、徵，不推彼此年序、絕對排行或同母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sanguozhi022-daizheng-zheng-brother",
+      "subject_person_id": "9w8_tqh_ysn_B*AC",
+      "predicate": "brother",
+      "object_person_id": "9w8_tqh_ysn_B*AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "凖弟戴徵",
+        "source_layer": "ancient_commentary",
+        "source_report_key": "quoted_chenshi_pu",
+        "relative_birth_order": {
+          "older_person_id": "9w8_tqh_ysn_B*AA",
+          "younger_person_id": "9w8_tqh_ysn_B*AC",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+          "source_id": "s-sanguozhi-022-chenqun-chentai",
+          "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
+          "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
+          "relationship_anchor": {
+            "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
+            "start": 35,
+            "end": 39,
+            "surface": "凖弟戴徵"
+          },
+          "subject_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0038",
+          "object_person_mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0035"
+        }
+      ],
+      "interpretation_note": "裴引陳氏譜『凖弟戴徵及從弟堪』，完整固定WS2085105標點作『准弟戴、徵及从弟堪』，採兩個一字名、皆凖弟；原WYG不加頓號。兩人彼此長幼未知。新唐071下作佐二子準徽，另存異說，不把徵合徽或補父忠。詳source-evidence/sanguozhi022-daizheng/decision.json；弟的範圍為並列戴、徵，不推彼此年序、絕對排行或同母。",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null

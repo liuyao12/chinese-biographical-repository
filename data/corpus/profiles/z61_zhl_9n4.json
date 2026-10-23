@@ -89,8 +89,39 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-xiaoti-mother",
+      "subject_person_id": "793_xxy_c9l",
+      "predicate": "maternal_role",
+      "object_person_id": "z61_zhl_9n4",
+      "qualifiers": {
+        "source_term": "母駱",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p004",
+          "quote": "遷司徒左長史，出爲吳興太守。長城縣民盧道優家遭劫，誣同縣殷孝悌等四人爲劫，𤅢收付縣獄考正。孝悌母駱詣登聞訴稱孝悌爲道優所誹謗，橫劾爲劫，一百七十三人連名保徵，在所不爲申理。𤅢聞孝悌母訴，乃啓建康獄覆，道優理窮款首，依法斬刑。有司奏免𤅢官。又使典藥吏煮湯，失火，燒郡外齋南廂屋五閒。又輙鞭除身，爲有司所奏，詔竝贖論。在郡稱爲美績。母喪去官。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p004:m0045",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p004:m0048"
+        }
+      ],
+      "interpretation_note": "孝悌母駱為具名母角色，不等於傳主𤅢之母；未加生母限定。"
+    }
+  ],
   "related_people": {
+    "793_xxy_c9l": "殷孝悌",
     "z61_zhl_9n4": "駱〔殷孝悌母〕"
   },
   "dates": [],
@@ -98,7 +129,37 @@
   "person_ids": [
     "z61_zhl_9n4"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-xiaoti-mother",
+      "subject_person_id": "793_xxy_c9l",
+      "predicate": "maternal_role",
+      "object_person_id": "z61_zhl_9n4",
+      "qualifiers": {
+        "source_term": "母駱",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p004",
+          "quote": "遷司徒左長史，出爲吳興太守。長城縣民盧道優家遭劫，誣同縣殷孝悌等四人爲劫，𤅢收付縣獄考正。孝悌母駱詣登聞訴稱孝悌爲道優所誹謗，橫劾爲劫，一百七十三人連名保徵，在所不爲申理。𤅢聞孝悌母訴，乃啓建康獄覆，道優理窮款首，依法斬刑。有司奏免𤅢官。又使典藥吏煮湯，失火，燒郡外齋南廂屋五閒。又輙鞭除身，爲有司所奏，詔竝贖論。在郡稱爲美績。母喪去官。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p004:m0045",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p004:m0048"
+        }
+      ],
+      "interpretation_note": "孝悌母駱為具名母角色，不等於傳主𤅢之母；未加生母限定。"
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

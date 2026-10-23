@@ -96,13 +96,28 @@ def outputs(root=None):
         result[root / path] = (json.dumps(other,ensure_ascii=False,indent=2)+'\n').encode()
         manifest.append({'id':work['id'],'title':work['title'],'author':work.get('author'),
                          'reader_kind':'corpus','catalog_path':path})
-    result[directory / 'works.json'] = (json.dumps({'schema_version':1,'works':manifest},ensure_ascii=False,indent=2)+'\n').encode()
+    provenance_path = root / 'registry/work-provenance.json'
+    provenance_link = {}
+    if provenance_path.exists():
+        try:
+            from scripts.work_provenance import validate as validate_provenance
+        except ModuleNotFoundError:
+            from work_provenance import validate as validate_provenance
+        provenance = validate_provenance(json.loads(provenance_path.read_text()), root)
+        result[directory / 'work-provenance.json'] = (json.dumps(provenance, ensure_ascii=False, indent=2)+'\n').encode()
+        provenance_link['work_provenance_path'] = 'data/corpus/work-provenance.json'
+    result[directory / 'works.json'] = (json.dumps({'schema_version':1,'works':manifest, **provenance_link},ensure_ascii=False,indent=2)+'\n').encode()
     people = json.loads((root / 'registry/persons.json').read_text())['persons']
     summaries = {p['id']: {'id': p['id'], 'label': p['label'], 'status': p['status'],
                           'historicity': p.get('historicity'), 'identity_note': p.get('identity_note'),
                           'aliases': list(dict.fromkeys(a['surface'] for a in p['aliases']))[:8],
                           'review': p.get('review'), 'human_reviewed': False} for p in people}
     result[directory / 'persons.json'] = (json.dumps(summaries, ensure_ascii=False, separators=(',', ':')) + '\n').encode()
+    try:
+        from .work_title_index import outputs as work_title_outputs
+    except ImportError:
+        from work_title_index import outputs as work_title_outputs
+    result.update(work_title_outputs(root))
     return result
 
 

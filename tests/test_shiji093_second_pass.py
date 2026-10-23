@@ -209,7 +209,14 @@ class HanLuIdentityTests(unittest.TestCase):
         from scripts.validate_corpus import validate
         with tempfile.TemporaryDirectory() as folder:
             target = Path(folder) / 'repo'
-            shutil.copytree(ROOT, target, ignore=shutil.ignore_patterns('.git', '__pycache__'))
+            # Native validation reads these inputs; public bundles, reader imports
+            # and other generated outputs do not participate in this operation.
+            for name in ('registry', 'corpus', 'source-evidence', 'sources'):
+                shutil.copytree(ROOT / name, target / name)
+            shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables')
+            (target / 'data/corpus').mkdir(parents=True)
+            shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
+            self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())
             d = next(d for d in x['decisions'] if d['id'] == 'd-shiji093-preferred-gaohou')
@@ -222,7 +229,14 @@ class HanLuIdentityTests(unittest.TestCase):
         from scripts.validate_corpus import validate
         with tempfile.TemporaryDirectory() as folder:
             target = Path(folder) / 'repo'
-            shutil.copytree(ROOT, target, ignore=shutil.ignore_patterns('.git', '__pycache__'))
+            # Native validation reads these inputs; public bundles, reader imports
+            # and other generated outputs do not participate in this operation.
+            for name in ('registry', 'corpus', 'source-evidence', 'sources'):
+                shutil.copytree(ROOT / name, target / name)
+            shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables')
+            (target / 'data/corpus').mkdir(parents=True)
+            shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
+            self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())
             d = next(d for d in x['decisions'] if d['id'] == 'd-shiji093-preferred-gaohou')

@@ -1,0 +1,436 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanqishu-043-xieyue",
+  "assertions": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-father",
+      "subject_person_id": "aa6_83c_juy_DBABAC",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_DBABA",
+      "qualifiers": {
+        "source_term": "父莊",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_head_grandfather_father",
+          "roles": {
+            "head": "c-nanqishu-043-xieyue:p001:m0000",
+            "grandfather": "c-nanqishu-043-xieyue:p001:m0014",
+            "father": "c-nanqishu-043-xieyue:p001:m0022"
+          },
+          "clause_start": 0,
+          "clause_end": 31,
+          "paragraph_sha256": "634e65ad34af2776e7abc7593183b1ad4233663e344c430f5d2465c08e1cf011",
+          "revision_id": 2400356
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p001",
+          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0022"
+        }
+      ],
+      "interpretation_note": "傳首父莊祖弘微，僅明示兩代，不由祖稱補其他中間人物。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-grandfather",
+      "subject_person_id": "aa6_83c_juy_DBABAC",
+      "predicate": "grandfather",
+      "object_person_id": "aa6_83c_juy_DBAB",
+      "qualifiers": {
+        "source_term": "祖弘微",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_head_grandfather_father",
+          "roles": {
+            "head": "c-nanqishu-043-xieyue:p001:m0000",
+            "grandfather": "c-nanqishu-043-xieyue:p001:m0014",
+            "father": "c-nanqishu-043-xieyue:p001:m0022"
+          },
+          "clause_start": 0,
+          "clause_end": 31,
+          "paragraph_sha256": "634e65ad34af2776e7abc7593183b1ad4233663e344c430f5d2465c08e1cf011",
+          "revision_id": 2400356
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p001",
+          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0014"
+        }
+      ],
+      "interpretation_note": "傳首父莊祖弘微，僅明示兩代，不由祖稱補其他中間人物。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-elder-first",
+      "subject_person_id": "aa6_83c_juy_DBABAA",
+      "predicate": "brother",
+      "object_person_id": "aa6_83c_juy_DBABAC",
+      "qualifiers": {
+        "source_term": "𤅢四兄颺、朏、顥、嵷",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_four_older_brothers",
+          "roles": {
+            "head": "c-nanqishu-043-xieyue:p001:m0031",
+            "first": "c-nanqishu-043-xieyue:p001:m0034",
+            "second": "c-nanqishu-043-xieyue:p001:m0036",
+            "third": "c-nanqishu-043-xieyue:p001:m0038",
+            "fourth": "c-nanqishu-043-xieyue:p001:m0040"
+          },
+          "clause_start": 31,
+          "clause_end": 41,
+          "paragraph_sha256": "634e65ad34af2776e7abc7593183b1ad4233663e344c430f5d2465c08e1cf011",
+          "revision_id": 2400356
+        },
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_DBABAA",
+          "younger_person_id": "aa6_83c_juy_DBABAC",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p001",
+          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p001:m0034",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0031"
+        }
+      ],
+      "interpretation_note": "四兄逐人皆年長於𤅢，未記四兄彼此排序、絕對排行或同母。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-elder-second",
+      "subject_person_id": "aa6_83c_juy_DBABAB",
+      "predicate": "brother",
+      "object_person_id": "aa6_83c_juy_DBABAC",
+      "qualifiers": {
+        "source_term": "𤅢四兄颺、朏、顥、嵷",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_four_older_brothers",
+          "roles": {
+            "head": "c-nanqishu-043-xieyue:p001:m0031",
+            "first": "c-nanqishu-043-xieyue:p001:m0034",
+            "second": "c-nanqishu-043-xieyue:p001:m0036",
+            "third": "c-nanqishu-043-xieyue:p001:m0038",
+            "fourth": "c-nanqishu-043-xieyue:p001:m0040"
+          },
+          "clause_start": 31,
+          "clause_end": 41,
+          "paragraph_sha256": "634e65ad34af2776e7abc7593183b1ad4233663e344c430f5d2465c08e1cf011",
+          "revision_id": 2400356
+        },
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_DBABAB",
+          "younger_person_id": "aa6_83c_juy_DBABAC",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p001",
+          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p001:m0036",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0031"
+        }
+      ],
+      "interpretation_note": "四兄逐人皆年長於𤅢，未記四兄彼此排序、絕對排行或同母。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-elder-third",
+      "subject_person_id": "aa6_83c_juy_DBABAD",
+      "predicate": "brother",
+      "object_person_id": "aa6_83c_juy_DBABAC",
+      "qualifiers": {
+        "source_term": "𤅢四兄颺、朏、顥、嵷",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_four_older_brothers",
+          "roles": {
+            "head": "c-nanqishu-043-xieyue:p001:m0031",
+            "first": "c-nanqishu-043-xieyue:p001:m0034",
+            "second": "c-nanqishu-043-xieyue:p001:m0036",
+            "third": "c-nanqishu-043-xieyue:p001:m0038",
+            "fourth": "c-nanqishu-043-xieyue:p001:m0040"
+          },
+          "clause_start": 31,
+          "clause_end": 41,
+          "paragraph_sha256": "634e65ad34af2776e7abc7593183b1ad4233663e344c430f5d2465c08e1cf011",
+          "revision_id": 2400356
+        },
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_DBABAD",
+          "younger_person_id": "aa6_83c_juy_DBABAC",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p001",
+          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p001:m0038",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0031"
+        }
+      ],
+      "interpretation_note": "四兄逐人皆年長於𤅢，未記四兄彼此排序、絕對排行或同母。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-elder-fourth",
+      "subject_person_id": "aa6_83c_juy_DBABAE",
+      "predicate": "brother",
+      "object_person_id": "aa6_83c_juy_DBABAC",
+      "qualifiers": {
+        "source_term": "𤅢四兄颺、朏、顥、嵷",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_four_older_brothers",
+          "roles": {
+            "head": "c-nanqishu-043-xieyue:p001:m0031",
+            "first": "c-nanqishu-043-xieyue:p001:m0034",
+            "second": "c-nanqishu-043-xieyue:p001:m0036",
+            "third": "c-nanqishu-043-xieyue:p001:m0038",
+            "fourth": "c-nanqishu-043-xieyue:p001:m0040"
+          },
+          "clause_start": 31,
+          "clause_end": 41,
+          "paragraph_sha256": "634e65ad34af2776e7abc7593183b1ad4233663e344c430f5d2465c08e1cf011",
+          "revision_id": 2400356
+        },
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_DBABAE",
+          "younger_person_id": "aa6_83c_juy_DBABAC",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p001",
+          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p001:m0040",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0031"
+        }
+      ],
+      "interpretation_note": "四兄逐人皆年長於𤅢，未記四兄彼此排序、絕對排行或同母。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-wife-father",
+      "subject_person_id": "n21_jh1_wtj",
+      "predicate": "father",
+      "object_person_id": "jyx_72x_8t2",
+      "qualifiers": {
+        "source_term": "以女結婚",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_father_arranged_daughter_marriage",
+          "roles": {
+            "father": "c-nanqishu-043-xieyue:p002:m0060",
+            "husband": "c-nanqishu-043-xieyue:p002:m0063",
+            "daughter": "c-nanqishu-043-xieyue:p002:m0072"
+          },
+          "clause_start": 58,
+          "clause_end": 81,
+          "paragraph_sha256": "b0ff7db1acc6970e15075a74af2e4be3e311e69e7a15f12d03663da2439ed7ba",
+          "revision_id": 2400356
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p002",
+          "quote": "𤅢年七歲，王彧見而異之，言於宋孝武，孝武召見於稠人廣衆之中，𤅢舉動閑詳，應對合旨，帝甚悅。詔尚公主，值景和敗，事寢。僕射褚淵聞𤅢年少清正不惡，以女結婚，厚爲資送。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p002:m0072",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p002:m0060"
+        }
+      ],
+      "interpretation_note": "褚淵以其女與𤅢結婚並資送，區分前句未成公主婚約，不推子女。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-wife-spouse",
+      "subject_person_id": "n21_jh1_wtj",
+      "predicate": "spouse",
+      "object_person_id": "aa6_83c_juy_DBABAC",
+      "qualifiers": {
+        "source_term": "以女結婚",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_father_arranged_daughter_marriage",
+          "roles": {
+            "father": "c-nanqishu-043-xieyue:p002:m0060",
+            "husband": "c-nanqishu-043-xieyue:p002:m0063",
+            "daughter": "c-nanqishu-043-xieyue:p002:m0072"
+          },
+          "clause_start": 58,
+          "clause_end": 81,
+          "paragraph_sha256": "b0ff7db1acc6970e15075a74af2e4be3e311e69e7a15f12d03663da2439ed7ba",
+          "revision_id": 2400356
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p002",
+          "quote": "𤅢年七歲，王彧見而異之，言於宋孝武，孝武召見於稠人廣衆之中，𤅢舉動閑詳，應對合旨，帝甚悅。詔尚公主，值景和敗，事寢。僕射褚淵聞𤅢年少清正不惡，以女結婚，厚爲資送。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p002:m0072",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p002:m0063"
+        }
+      ],
+      "interpretation_note": "褚淵以其女與𤅢結婚並資送，區分前句未成公主婚約，不推子女。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-mother",
+      "subject_person_id": "aa6_83c_juy_DBABAC",
+      "predicate": "maternal_role",
+      "object_person_id": "pm0_bw3_z6p",
+      "qualifiers": {
+        "source_term": "以母老須養",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_mother_old_care_resumed_subject",
+          "roles": {
+            "head": "c-nanqishu-043-xieyue:p003:m0122",
+            "mother": "c-nanqishu-043-xieyue:p003:m0060",
+            "patron": "c-nanqishu-043-xieyue:p003:m0027",
+            "prince": "c-nanqishu-043-xieyue:p003:m0054",
+            "official": "c-nanqishu-043-xieyue:p003:m0080",
+            "patron_resumed": "c-nanqishu-043-xieyue:p003:m0134"
+          },
+          "clause_start": 0,
+          "clause_end": 146,
+          "paragraph_sha256": "1ad0ba572cf4af1c2775f9ce7f55d569a1579617ccb9ae043b77d9072b08b89e",
+          "revision_id": 2400356
+        },
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p003",
+          "quote": "解褐車騎行參軍，遷祕書郎，司徒祭酒，丹陽丞，撫軍功曹。世祖爲中軍，引爲記室。齊臺建，遷太子中舍人。建元初，轉桂陽王友。以母老須養，出爲安成內史。還爲中書郎。衞軍王儉引爲長史，雅相禮遇。除黃門郎，兼掌吏部。尋轉太子中庶子，領驍騎將軍，轉長兼侍中。𤅢以晨昏有廢，固辭不受。世祖勑令速拜，別停朝直。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p003:m0122",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p003:m0060"
+        }
+      ],
+      "interpretation_note": "官歷以𤅢晨昏有廢續寫母老須養；保存特定母角色，未明生母或父母婚配。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-xiaoti-mother",
+      "subject_person_id": "793_xxy_c9l",
+      "predicate": "maternal_role",
+      "object_person_id": "z61_zhl_9n4",
+      "qualifiers": {
+        "source_term": "母駱",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p004",
+          "quote": "遷司徒左長史，出爲吳興太守。長城縣民盧道優家遭劫，誣同縣殷孝悌等四人爲劫，𤅢收付縣獄考正。孝悌母駱詣登聞訴稱孝悌爲道優所誹謗，橫劾爲劫，一百七十三人連名保徵，在所不爲申理。𤅢聞孝悌母訴，乃啓建康獄覆，道優理窮款首，依法斬刑。有司奏免𤅢官。又使典藥吏煮湯，失火，燒郡外齋南廂屋五閒。又輙鞭除身，爲有司所奏，詔竝贖論。在郡稱爲美績。母喪去官。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p004:m0045",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p004:m0048"
+        }
+      ],
+      "interpretation_note": "孝悌母駱為具名母角色，不等於傳主𤅢之母；未加生母限定。"
+    }
+  ]
+}

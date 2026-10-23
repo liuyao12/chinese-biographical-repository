@@ -1,0 +1,300 @@
+[
+  {
+    "id": "shu-luxing",
+    "source": {
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-022",
+      "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+      "source_id": "s-sanguozhi-022-chenqun-chentai",
+      "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p001",
+      "mention_id": "c-sanguozhi-022-chenqun-chentai:p001:w0403",
+      "surface": "書",
+      "referenced_work_id": "w-shu-sgz022-reference",
+      "text_layer": "received_chapter",
+      "quote": "書曰惟敬五刑以成三徳",
+      "start": 403,
+      "end": 413,
+      "source_position": {
+        "first_line": 60,
+        "last_line": 174,
+        "source_layer": "received_body",
+        "unit_key": "qun_received_body",
+        "raw_projection_ref": "source-evidence/sanguozhi022-chenqun-chentai-projection.json"
+      },
+      "full_paragraph_sha256": "f8b2fcbd466b3d98b17bef2adc97f4203e46a9fbe8d89af060ab04b96a502e77",
+      "chapter_path": "corpus/sanguozhi/022-chenqun-chentai.json"
+    },
+    "targets": [
+      {
+        "witness_id": "shangshu-luxing",
+        "locus": "周書・呂刑；王曰嗚呼念之哉段",
+        "quote": "惟敬五刑，以成三德",
+        "path": "source-evidence/sanguozhi022-classics-title-identification/shangshu-luxing.received-unit-extraction.txt",
+        "start": 1045,
+        "end": 1054,
+        "sha256": "4e735780be7a2109e56cd316857fd0b7dc881c0ff0556ad06f8ef92105fd1214",
+        "textual_layer": "received_classic_text_not_editorial_note"
+      }
+    ],
+    "match_type": "punctuation_removed_with_explicit_character_difference",
+    "character_differences": [
+      {
+        "source": "徳",
+        "comparison": "德",
+        "qualification": "本庫原字不改；明記比較字形，非暗中全域轉字。"
+      }
+    ],
+    "conclusion": "此書首選識別為尚書，具體篇呂刑；不是泛稱書籍。",
+    "not_inferred": [
+      "尚書某一家傳注",
+      "古今文版系",
+      "作者",
+      "原述所見底本"
+    ],
+    "correspondences": [
+      {
+        "source_fragment": "惟敬五刑以成三徳",
+        "target_index": 0,
+        "target_fragment": "惟敬五刑，以成三德",
+        "character_differences": [
+          {
+            "source": "徳",
+            "comparison": "德",
+            "qualification": "本庫原字不改；明記比較字形，非暗中全域轉字。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yi-two-loci",
+    "source": {
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-022",
+      "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+      "source_id": "s-sanguozhi-022-chenqun-chentai",
+      "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p001",
+      "mention_id": "c-sanguozhi-022-chenqun-chentai:p001:w0413",
+      "surface": "易",
+      "referenced_work_id": "w-yi-sgz022-reference",
+      "text_layer": "received_chapter",
+      "quote": "易著劓刖滅趾之法",
+      "start": 413,
+      "end": 421,
+      "source_position": {
+        "first_line": 60,
+        "last_line": 174,
+        "source_layer": "received_body",
+        "unit_key": "qun_received_body",
+        "raw_projection_ref": "source-evidence/sanguozhi022-chenqun-chentai-projection.json"
+      },
+      "full_paragraph_sha256": "f8b2fcbd466b3d98b17bef2adc97f4203e46a9fbe8d89af060ab04b96a502e77",
+      "chapter_path": "corpus/sanguozhi/022-chenqun-chentai.json"
+    },
+    "targets": [
+      {
+        "witness_id": "zhouyi-kun",
+        "locus": "第四十七卦困・九五爻辭",
+        "quote": "劓刖，困于赤紱，乃徐有說，利用祭祀",
+        "path": "source-evidence/sanguozhi022-classics-title-identification/zhouyi-kun.received-unit-extraction.txt",
+        "start": 216,
+        "end": 233,
+        "sha256": "93d918ce644617c7d2346a3853a26377084085dc3e590c05be23728c15833657",
+        "textual_layer": "received_classic_text_not_editorial_note"
+      },
+      {
+        "witness_id": "zhouyi-shihe",
+        "locus": "第二十一卦噬嗑・初九爻辭",
+        "quote": "屨校滅趾，无咎",
+        "path": "source-evidence/sanguozhi022-classics-title-identification/zhouyi-shihe.received-unit-extraction.txt",
+        "start": 52,
+        "end": 59,
+        "sha256": "ff1220e41559cd35911705f77f9f9ecdf8a6a7025f46619d44bdf676d162a518",
+        "textual_layer": "received_classic_text_not_editorial_note"
+      }
+    ],
+    "match_type": "explicit_title_with_two_discontinuous_received_text_phrases",
+    "conclusion": "易首選識別為周易；原述合論兩卦刑罰語，不是劓刖滅趾整句逐字引文。兩依據皆爻辭，非以彖象或後注代替。",
+    "not_inferred": [
+      "連續六字經句",
+      "原述採用特定傳注",
+      "劓刖或滅趾唯一定詁",
+      "作者",
+      "底本"
+    ],
+    "correspondences": [
+      {
+        "source_fragment": "劓刖",
+        "target_index": 0,
+        "target_fragment": "劓刖",
+        "character_differences": []
+      },
+      {
+        "source_fragment": "滅趾",
+        "target_index": 1,
+        "target_fragment": "滅趾",
+        "character_differences": []
+      }
+    ]
+  },
+  {
+    "id": "shi-wenwang",
+    "source": {
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-022",
+      "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+      "source_id": "s-sanguozhi-022-chenqun-chentai",
+      "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p001",
+      "mention_id": "c-sanguozhi-022-chenqun-chentai:p001:w0824",
+      "surface": "詩",
+      "referenced_work_id": "w-shi-sgz022-reference",
+      "text_layer": "received_chapter",
+      "quote": "詩稱儀刑文王萬邦作孚",
+      "start": 824,
+      "end": 834,
+      "source_position": {
+        "first_line": 60,
+        "last_line": 174,
+        "source_layer": "received_body",
+        "unit_key": "qun_received_body",
+        "raw_projection_ref": "source-evidence/sanguozhi022-chenqun-chentai-projection.json"
+      },
+      "full_paragraph_sha256": "f8b2fcbd466b3d98b17bef2adc97f4203e46a9fbe8d89af060ab04b96a502e77",
+      "chapter_path": "corpus/sanguozhi/022-chenqun-chentai.json"
+    },
+    "targets": [
+      {
+        "witness_id": "shijing-wenwang",
+        "locus": "大雅・文王之什・文王末章",
+        "quote": "儀刑文王，萬邦作孚",
+        "path": "source-evidence/sanguozhi022-classics-title-identification/shijing-wenwang.received-unit-extraction.txt",
+        "start": 480,
+        "end": 489,
+        "sha256": "d6fd053c1b05cf3e7c97a38f5b16561d7cf13c8599ca943d167e241326877d6a",
+        "textual_layer": "received_classic_text_not_editorial_note"
+      }
+    ],
+    "match_type": "exact_after_punctuation_only",
+    "conclusion": "詩首選詩經；此句具體篇為文王，為詩本文而非毛詩序。",
+    "not_inferred": [
+      "毛傳鄭箋具體本",
+      "作者",
+      "底本"
+    ],
+    "correspondences": [
+      {
+        "source_fragment": "儀刑文王萬邦作孚",
+        "target_index": 0,
+        "target_fragment": "儀刑文王，萬邦作孚",
+        "character_differences": []
+      }
+    ]
+  },
+  {
+    "id": "shi-siqi",
+    "source": {
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-022",
+      "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+      "source_id": "s-sanguozhi-022-chenqun-chentai",
+      "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p001",
+      "mention_id": "c-sanguozhi-022-chenqun-chentai:p001:w0824",
+      "surface": "詩",
+      "referenced_work_id": "w-shi-sgz022-reference",
+      "text_layer": "received_chapter",
+      "quote": "詩稱儀刑文王萬邦作孚又曰刑于寡妻至于兄弟以御于家邦",
+      "start": 824,
+      "end": 849,
+      "source_position": {
+        "first_line": 60,
+        "last_line": 174,
+        "source_layer": "received_body",
+        "unit_key": "qun_received_body",
+        "raw_projection_ref": "source-evidence/sanguozhi022-chenqun-chentai-projection.json"
+      },
+      "full_paragraph_sha256": "f8b2fcbd466b3d98b17bef2adc97f4203e46a9fbe8d89af060ab04b96a502e77",
+      "chapter_path": "corpus/sanguozhi/022-chenqun-chentai.json"
+    },
+    "targets": [
+      {
+        "witness_id": "shijing-siqi",
+        "locus": "大雅・文王之什・思齊；惠于宗公章",
+        "quote": "刑于寡妻，至于兄弟，以御于家邦",
+        "path": "source-evidence/sanguozhi022-classics-title-identification/shijing-siqi.received-unit-extraction.txt",
+        "start": 67,
+        "end": 82,
+        "sha256": "3b93a1da9f790ad20350248f456331da3898a1a5ff7a50060954aa00289bf017",
+        "textual_layer": "received_classic_text_not_editorial_note"
+      }
+    ],
+    "match_type": "exact_after_punctuation_only",
+    "conclusion": "本疏詩稱後又曰繼續引同一經典不同篇；具體篇思齊，不能把它誤歸前篇文王。又曰不是簡稱mention。",
+    "not_inferred": [
+      "新造又曰書名錨點",
+      "絕對章次定本",
+      "作者",
+      "底本"
+    ],
+    "correspondences": [
+      {
+        "source_fragment": "刑于寡妻至于兄弟以御于家邦",
+        "target_index": 0,
+        "target_fragment": "刑于寡妻，至于兄弟，以御于家邦",
+        "character_differences": []
+      }
+    ]
+  },
+  {
+    "id": "shi-yi-pei",
+    "source": {
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-022",
+      "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+      "source_id": "s-sanguozhi-022-chenqun-chentai",
+      "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p007",
+      "mention_id": "c-sanguozhi-022-chenqun-chentai:p007:w0121",
+      "surface": "詩",
+      "referenced_work_id": "w-shi-sgz022-reference",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "quote": "詩云斯言之玷不可為也",
+      "start": 121,
+      "end": 131,
+      "source_position": {
+        "first_line": 158,
+        "last_line": 162,
+        "source_layer": "pei_annotation",
+        "unit_key": "sunsheng_criticism",
+        "raw_projection_ref": "source-evidence/sanguozhi022-chenqun-chentai-projection.json"
+      },
+      "full_paragraph_sha256": "af0b8978ecae236c968ecf7b44a5e0953b9bf05930147f2d5706c48829d67736",
+      "chapter_path": "corpus/sanguozhi/022-chenqun-chentai.json"
+    },
+    "targets": [
+      {
+        "witness_id": "shijing-yi",
+        "locus": "大雅・蕩之什・抑；質爾民人章",
+        "quote": "斯言之玷，不可為也",
+        "path": "source-evidence/sanguozhi022-classics-title-identification/shijing-yi.received-unit-extraction.txt",
+        "start": 386,
+        "end": 395,
+        "sha256": "b57ab13b4ce988cb2bd09d17fc2f4bbe55bf52419e314a231a457a8aac9c6775",
+        "textual_layer": "received_classic_text_not_editorial_note"
+      }
+    ],
+    "match_type": "exact_after_punctuation_only",
+    "conclusion": "裴注所引孫盛評論再引詩經抑；保留裴注→孫盛評論→詩經的巢狀來源角色，不把孫盛當詩作者。",
+    "not_inferred": [
+      "孫盛為詩作者",
+      "由毛詩序補作者",
+      "底本"
+    ],
+    "correspondences": [
+      {
+        "source_fragment": "斯言之玷不可為也",
+        "target_index": 0,
+        "target_fragment": "斯言之玷，不可為也",
+        "character_differences": []
+      }
+    ]
+  }
+]

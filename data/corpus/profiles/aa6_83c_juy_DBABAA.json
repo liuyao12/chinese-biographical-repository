@@ -2179,6 +2179,55 @@
   ],
   "relations": [
     {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-elder-first",
+      "subject_person_id": "aa6_83c_juy_DBABAA",
+      "predicate": "brother",
+      "object_person_id": "aa6_83c_juy_DBABAC",
+      "qualifiers": {
+        "source_term": "𤅢四兄颺、朏、顥、嵷",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_four_older_brothers",
+          "roles": {
+            "head": "c-nanqishu-043-xieyue:p001:m0031",
+            "first": "c-nanqishu-043-xieyue:p001:m0034",
+            "second": "c-nanqishu-043-xieyue:p001:m0036",
+            "third": "c-nanqishu-043-xieyue:p001:m0038",
+            "fourth": "c-nanqishu-043-xieyue:p001:m0040"
+          },
+          "clause_start": 31,
+          "clause_end": 41,
+          "paragraph_sha256": "634e65ad34af2776e7abc7593183b1ad4233663e344c430f5d2465c08e1cf011",
+          "revision_id": 2400356
+        },
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_DBABAA",
+          "younger_person_id": "aa6_83c_juy_DBABAC",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p001",
+          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p001:m0034",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0031"
+        }
+      ],
+      "interpretation_note": "四兄逐人皆年長於𤅢，未記四兄彼此排序、絕對排行或同母。"
+    },
+    {
       "id": "a-song085-zhuang-002",
       "subject_person_id": "aa6_83c_juy_DBABAA",
       "predicate": "father",
@@ -2243,7 +2292,8 @@
   "related_people": {
     "aa6_83c_juy_DBABA": "謝莊",
     "aa6_83c_juy_DBABAA": "謝颺",
-    "aa6_83c_juy_DBABAAA": "順帝皇后（颺女，未名）"
+    "aa6_83c_juy_DBABAAA": "順帝皇后（颺女，未名）",
+    "aa6_83c_juy_DBABAC": "謝𤅢〔字義潔〕"
   },
   "dates": [],
   "name_components": [
@@ -2251,7 +2301,7 @@
       "id": "name-song085-f13-027",
       "person_id": "aa6_83c_juy_DBABAA",
       "title": "晉平太守",
-      "surname": null,
+      "surname": "謝",
       "ming": "颺",
       "additional_names": [],
       "chapter_id": "c-songshu-085-xiezhuang",
@@ -2264,10 +2314,24 @@
         "end": 100,
         "surface": "颺"
       },
-      "note": "本句王號/父子語境明見名字，但未明冠姓，surname留null；不由王朝或父姓慣例補姓，不把王號作名。",
-      "status": "editorial_provisional",
+      "note": "本句只明名颺；謝姓依同傳明姓謝莊與莊長子颺之完整父子語境作編輯推定，不稱原句明載謝颺，不按familyID補姓。",
+      "status": "contextual_provisional",
       "human_reviewed": false,
       "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_explicit_father",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同傳首明謝莊字希逸，末明莊長子颺；源內確定父子關係支持沿父謝姓，仍分別保存省姓原稱與編輯推定。",
+        "father_person_id": "aa6_83c_juy_DBABA",
+        "father_name_record_id": "name-song085-f13-001",
+        "father_assertion_id": "a-song085-zhuang-002",
+        "father_full_mention_id": "c-songshu-085-xiezhuang:p001:m0000",
+        "father_context_mention_id": "c-songshu-085-xiezhuang:p015:m0010",
+        "source_term": "長子颺",
+        "father_full_quote": "謝莊字希逸陳郡陽夏人太常宏微子也年七嵗能屬文通論語及長韶令羙容儀太祖見而異之謂尚書僕射殷景仁領軍將軍劉湛曰藍田出玉豈虚也哉初為始興王濬後軍法曹行參軍轉太子舍人廬陵王文學太子洗馬中舍人廬陵王紹南中郎諮議參軍又轉隨王誕後軍諮議並領記室分左氏經傳隨國立篇製木方丈圖山川土地各有分理離之則州别郡殊合之則㝢内為一元嘉二十七年索虜宼彭城虜遣尚書李孝伯來使與鎮軍長史張暢共語孝伯訪問莊及王徽其名聲逺布如此",
+        "child_context_quote": "太宗定亂得出及即位以莊爲散騎常侍光禄大夫加金章紫綬領尋陽王師頃之轉中書令常侍王師如故尋加金紫光禄大夫給親信二十人本官並如故泰始二年卒時年四十六追贈右光禄大夫常侍如故諡曰憲子所著文章四百餘首行於世長子颺晉平太守女爲順帝皇后追贈金紫光禄大夫"
+      },
       "work_id": "w-songshu",
       "book_id": "b-songshu-085",
       "source_id": "s-songshu-085-xiezhuang"
@@ -2277,6 +2341,55 @@
     "aa6_83c_juy_DBABAA"
   ],
   "preferred_relations": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi043-xieyue-elder-first",
+      "subject_person_id": "aa6_83c_juy_DBABAA",
+      "predicate": "brother",
+      "object_person_id": "aa6_83c_juy_DBABAC",
+      "qualifiers": {
+        "source_term": "𤅢四兄颺、朏、顥、嵷",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_four_older_brothers",
+          "roles": {
+            "head": "c-nanqishu-043-xieyue:p001:m0031",
+            "first": "c-nanqishu-043-xieyue:p001:m0034",
+            "second": "c-nanqishu-043-xieyue:p001:m0036",
+            "third": "c-nanqishu-043-xieyue:p001:m0038",
+            "fourth": "c-nanqishu-043-xieyue:p001:m0040"
+          },
+          "clause_start": 31,
+          "clause_end": 41,
+          "paragraph_sha256": "634e65ad34af2776e7abc7593183b1ad4233663e344c430f5d2465c08e1cf011",
+          "revision_id": 2400356
+        },
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_DBABAA",
+          "younger_person_id": "aa6_83c_juy_DBABAC",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p001",
+          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
+          "subject_person_mention_id": "c-nanqishu-043-xieyue:p001:m0034",
+          "object_person_mention_id": "c-nanqishu-043-xieyue:p001:m0031"
+        }
+      ],
+      "interpretation_note": "四兄逐人皆年長於𤅢，未記四兄彼此排序、絕對排行或同母。"
+    },
     {
       "id": "a-song085-zhuang-002",
       "subject_person_id": "aa6_83c_juy_DBABAA",

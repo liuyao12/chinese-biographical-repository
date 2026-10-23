@@ -74,11 +74,49 @@ class Concordance(unittest.TestCase):
    row=J(target/'exports/persons/index.json')['persons'][0];self.assertEqual(row['mention_count'],index_counts(b)['mention_count']);self.assertEqual(row['raw_mention_count'],index_counts(b)['raw_mention_count']);self.assertEqual(row['source_count'],len(b['sources']));self.assertEqual(row['most_mentioned_source_ids'],b['most_mentioned_source_ids']);self.assertIn('原始錨點完整保留',(target/'exports/persons/README.md').read_text());self.assertEqual(J(target/('exports/persons/'+PID+'.json'))['mentions'],b['mentions'])
  def test_table_occurrences_not_globally_collapsed(self):
   tables=[{'id':'table1','source_id':'ts','work_id':'tw','book_id':'tb','chapter_id':'tc','table_cell_id':'cell1'},{'id':'table2','source_id':'ts','work_id':'tw','book_id':'tb','chapter_id':'tc','table_cell_id':'cell2'}];rows,most=summarize_occurrences([],tables,{},R,RECORDS);self.assertEqual(rows[0]['mention_count'],2);self.assertEqual(rows[0]['table_occurrence_count'],2)
- def test_original_source_anchors_preserved_without_freezing_registry_or_chapter_size(self):
-  expected=J(R/'tests/fixtures/occurrence-concordance/original-anchors.json');by={p['id']:p for p in D['paragraphs']}
+ def assert_original_source_anchors(self,d):
+  # The original fixture remains an audit of the former person-only annotation.
+  # Exactly one reviewed correction expands a name inside a cited work title.
+  expected=J(R/'tests/fixtures/occurrence-concordance/original-anchors.json');by={p['id']:p for p in d['paragraphs']};corrected=0
+  mid='c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u012:m0011';wid='w-pingyuan-ni-heng-zhuan'
   for p in expected:
-   self.assertEqual(by[p['id']]['text'],p['text']);mentions={m['id']:m for m in by[p['id']]['mentions']}
-   for m in p['mentions']:self.assertEqual({k:mentions[m['id']].get(k)for k in m},m)
+   current=by[p['id']];self.assertEqual(current['text'],p['text']);mentions={m['id']:m for m in current['mentions']}
+   for m in p['mentions']:
+    actual=mentions[m['id']]
+    if m['id']!=mid:
+     self.assertEqual({k:actual.get(k)for k in m},m);continue
+    corrected+=1
+    self.assertEqual(m,{'id':mid,'start':11,'end':13,'surface':'禰衡','person_id':'727_51c_19b'})
+    self.assertEqual(actual,{'id':mid,'start':9,'end':14,'surface':'平原禰衡傳','kind':'work','person_id':None,'work_id':wid,'status':'source_explicit'})
+    self.assertEqual(current['text'],'典略曰彧為人偉美又平原禰衡傳');self.assertEqual(current['text'][actual['start']:actual['end']],actual['surface'])
+    self.assertEqual(current['text_layer'],'witness_appended_pei_songzhi_note')
+    # Verify the unchanged received fragment against the saved fixed witness.
+    raw=(R/C['source']['raw_path']).read_bytes();self.assertEqual(hashlib.sha256(raw).hexdigest(),C['source']['raw_file_sha256'])
+    fragment=current['witness_fragments'][0];self.assertEqual(fragment['line'],102);self.assertEqual(fragment['raw_fragment'],'(典略曰彧為人偉美又平原禰衡傳)')
+    self.assertEqual(raw.decode().splitlines()[fragment['line']-1][fragment['raw_line_start']:fragment['raw_line_end']],fragment['raw_fragment']);self.assertEqual(fragment['text'],current['text'])
+    # The role change must retain the actual two-witness work-identification evidence.
+    review=next(x for x in d['annotation']['work_reference_reviews']if x['id']=='work-review-sanguozhi010-xunyu-xunyou')
+    reuse=next(x for x in review['reuse_evidence']if x['work_id']==wid)
+    self.assertIn({'work_id':d['work_id'],'book_id':d['book_id'],'source_id':d['source_id'],'chapter_id':d['id'],'paragraph_id':p['id'],'quote':current['text']},reuse['passages'])
+    other=next(x for x in RECORDS if x.get('id')=='c-sanguozhi-010-osaka1670-ni-heng-interface');op=next(x for x in other['paragraphs']if x['id'].endswith(':u001'));om=next(x for x in op['mentions']if x['id'].endswith(':m0011'))
+    self.assertEqual((om['kind'],om['work_id'],om['surface']),('work',wid,'平原禰衡傳'));self.assertEqual(op['text'][om['start']:om['end']],om['surface'])
+    self.assertIn({'work_id':other['work_id'],'book_id':other['book_id'],'source_id':other['source_id'],'chapter_id':other['id'],'paragraph_id':op['id'],'quote':op['text']},reuse['passages'])
+    work=next(w for w in J(R/'registry/works.json')['works']if w['id']==wid)
+    self.assertIn({'chapter_id':d['id'],'source_id':d['source_id'],'paragraph_id':p['id'],'mention_id':mid,'quote':current['text']},work['reference_attestations'])
+  self.assertEqual(corrected,1)
+ def test_original_source_anchors_preserved_without_freezing_registry_or_chapter_size(self):self.assert_original_source_anchors(D)
+ def test_reviewed_work_correction_cannot_revert_to_person(self):
+  d=copy.deepcopy(D);getmention(d,d['id']+':full:u012:m0011').update(kind='person',person_id='727_51c_19b')
+  with self.assertRaises(AssertionError):self.assert_original_source_anchors(d)
+ def test_reviewed_work_correction_requires_full_title_span(self):
+  d=copy.deepcopy(D);getmention(d,d['id']+':full:u012:m0011').update(start=11,end=13,surface='禰衡')
+  with self.assertRaises(AssertionError):self.assert_original_source_anchors(d)
+ def test_reviewed_work_correction_requires_same_work_identity(self):
+  d=copy.deepcopy(D);getmention(d,d['id']+':full:u012:m0011')['work_id']='w-dianlue-sgz010-reference'
+  with self.assertRaises(AssertionError):self.assert_original_source_anchors(d)
+ def test_reviewed_work_correction_requires_source_evidence(self):
+  d=copy.deepcopy(D);review=next(x for x in d['annotation']['work_reference_reviews']if x['id']=='work-review-sanguozhi010-xunyu-xunyou');reuse=next(x for x in review['reuse_evidence']if x['work_id']=='w-pingyuan-ni-heng-zhuan');reuse['passages'][0]['quote']='典略曰彧為人偉美'
+  with self.assertRaises(AssertionError):self.assert_original_source_anchors(d)
  def test_all_15_precise_memory_bundles(self):
   expected=J(R/'tests/fixtures/occurrence-concordance/expected-counts.json');out=[];temp=tempfile.TemporaryDirectory();self.addCleanup(temp.cleanup);folder=Path(temp.name)
   for item in expected:

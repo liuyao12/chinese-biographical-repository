@@ -8,7 +8,8 @@
   "names": [
     "闓",
     "道明",
-    "荀道明"
+    "荀道明",
+    "荀闓"
   ],
   "titles": [
     {
@@ -877,6 +878,41 @@
       "book_id": "b-jinshu-039",
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "source_id": "s-jinshu-039-wangxun-feng",
+      "work_title": "晉書"
+    },
+    {
+      "number": 59,
+      "category": "",
+      "title": "齊武閔王冏傳（含鄭方附敘）",
+      "paragraph_id": "c-jinshu-059-jiong:p014",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "超、樂安王冰、濟陽王英于金墉。暴冏屍於西明亭，三日而莫敢收斂。冏故掾屬荀闓等表乞殯葬，許之。",
+      "paragraph_ids": [
+        "c-jinshu-059-jiong:p014"
+      ],
+      "mention_ids": [
+        "c-jinshu-059-jiong:p014:m0170"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-059-jiong:p014:m0170": "c-jinshu-059-jiong:p014"
+      },
+      "mention_id": "c-jinshu-059-jiong:p014:m0170",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-059-jiong:p014:m0170",
+          "mention_ids": [
+            "c-jinshu-059-jiong:p014:m0170"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-059",
+      "chapter_id": "c-jinshu-059-jiong",
+      "source_id": "s-jinshu-059-ws2650517-jiong",
       "work_title": "晉書"
     }
   ],
@@ -12738,6 +12774,33 @@
         "response_sha256": "6024484babc384e46d119f771afcfcc00dda04e96dfd57c6e2e220bfc11ca63f",
         "wikitext_sha256": "93fdc36293b084a3693b073808ba92095e730973f8e4c5b2b4dd19fb1e9cea4c",
         "edition": "維基文庫數位轉錄，底本影像未核"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-059-jiong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-059",
+      "source_id": "s-jinshu-059-ws2650517-jiong",
+      "source": {
+        "title": "《晉書》卷五十九齊武閔王冏傳（含鄭方附敘）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517",
+        "revision_id": 2650517,
+        "accessed_on": "2026-10-21",
+        "extent": "齊武閔王冏節完整18個正文段，含鄭方附敘；止長沙厲王乂節前。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位轉錄CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "a83fe708c8dffc5965863d337a19fd4e7222ae41e29aa99e1c2a11ed8030d1d3",
+        "raw_file": "sources/calendar-context/jinshu059-fixed2650517.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "展開維基連結與YL顯示字、移除quote及粗體控制字；完整數位ref註獨立留原raw位置，不作傳世正文；無校字。"
+        }
       }
     }
   ],

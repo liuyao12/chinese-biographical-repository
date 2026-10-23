@@ -6,11 +6,76 @@
   "identity_note": "061完整選定單元來源內身份暫定；同名不自動合併，來源局部鍵及候選獨立留證。",
   "review": "ai_provisional",
   "names": [
-    "張方"
+    "張方",
+    "方"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 59,
+      "category": "",
+      "title": "長沙厲王乂傳",
+      "paragraph_id": "c-jinshu-059-yi:p007",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "久糧乏，城中大饑，雖曰疲弊，將士同心，皆願效死。而乂奉上之禮未有虧失，張方以為未可克，欲還長安。而東海王越慮事不濟，潛與殿中將收乂送金墉城。乂表曰：「陛下篤睦，委臣朝事。臣小心忠孝，神祇所鑒。諸王承謬，率眾見責，朝臣無正，各慮私困，收臣別省，送臣幽宮。臣不惜軀命，但念大晉衰",
+      "paragraph_ids": [
+        "c-jinshu-059-yi:p007",
+        "c-jinshu-059-yi:p008",
+        "c-jinshu-059-yi:p009"
+      ],
+      "mention_ids": [
+        "c-jinshu-059-yi:p007:m0120",
+        "c-jinshu-059-yi:p008:m0141",
+        "c-jinshu-059-yi:p008:m0142",
+        "c-jinshu-059-yi:p009:m0148"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-059-yi:p007:m0120": "c-jinshu-059-yi:p007",
+        "c-jinshu-059-yi:p008:m0141": "c-jinshu-059-yi:p008",
+        "c-jinshu-059-yi:p008:m0142": "c-jinshu-059-yi:p008",
+        "c-jinshu-059-yi:p009:m0148": "c-jinshu-059-yi:p009"
+      },
+      "mention_id": "c-jinshu-059-yi:p007:m0120",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-059-yi:p007:m0120",
+          "mention_ids": [
+            "c-jinshu-059-yi:p007:m0120"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-059-yi:p008:m0141",
+          "mention_ids": [
+            "c-jinshu-059-yi:p008:m0141"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-059-yi:p008:m0142",
+          "mention_ids": [
+            "c-jinshu-059-yi:p008:m0142"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-059-yi:p009:m0148",
+          "mention_ids": [
+            "c-jinshu-059-yi:p009:m0148"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-059",
+      "chapter_id": "c-jinshu-059-yi",
+      "source_id": "s-jinshu-059-ws2650517-yi",
+      "work_title": "晉書"
+    },
     {
       "number": 61,
       "category": "",
@@ -49,6 +114,33 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-059-yi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-059",
+      "source_id": "s-jinshu-059-ws2650517-yi",
+      "source": {
+        "title": "《晉書》卷五十九長沙厲王乂傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517",
+        "revision_id": 2650517,
+        "accessed_on": "2026-10-21",
+        "extent": "長沙厲王乂節完整9個正文段，含子碩末段；止成都王穎節前。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位轉錄CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "a83fe708c8dffc5965863d337a19fd4e7222ae41e29aa99e1c2a11ed8030d1d3",
+        "raw_file": "sources/calendar-context/jinshu059-fixed2650517.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "展開維基連結與YL顯示字、移除quote及粗體控制字；完整數位ref註獨立留原raw位置，不作傳世正文；無校字。"
+        }
+      }
+    },
     {
       "chapter_id": "c-jinshu-061-zhou-family",
       "work_id": "w-jinshu",

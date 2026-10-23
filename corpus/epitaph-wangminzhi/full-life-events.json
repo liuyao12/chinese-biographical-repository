@@ -1,0 +1,104 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-epitaph-wangminzhi-full",
+  "events": [
+    {
+      "id": "le-wangminzhi-epitaph-death",
+      "person_id": "7r6_k52_qji_ABDBCA",
+      "event_type": "death",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-epitaph-wangminzhi-full:p001",
+        "start": 51,
+        "end": 52,
+        "surface": "卒"
+      },
+      "date_expression": "升平二年三月九日",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-epitaph-wangminzhi",
+          "book_id": "b-epitaph-wangminzhi-full",
+          "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
+          "chapter_id": "c-epitaph-wangminzhi-full",
+          "paragraph_id": "c-epitaph-wangminzhi-full:p001",
+          "quote": "晉故男子琅耶臨沂都鄉南仁里王閩之字冶民故尚書左僕射特進衛將軍彬之孫贛令興之之元子年廿八升平二年三月九日卒葬于舊墓在贛令墓之後故刻塼於墓為識妻吳興施氏字女式弟嗣之咸之預之",
+          "person_mention_id": "c-epitaph-wangminzhi-full:p001:m0013"
+        }
+      ],
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 358,
+        "year": 358,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "升平二年",
+        "status": "editorial_provisional",
+        "original_quote": "晉故男子琅耶臨沂都鄉南仁里王閩之字冶民故尚書左僕射特進衛將軍彬之孫贛令興之之元子年廿八升平二年三月九日卒葬于舊墓在贛令墓之後故刻塼於墓為識妻吳興施氏字女式弟嗣之咸之預之",
+        "evidence": [
+          {
+            "work_id": "w-epitaph-wangminzhi",
+            "book_id": "b-epitaph-wangminzhi-full",
+            "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
+            "chapter_id": "c-epitaph-wangminzhi-full",
+            "paragraph_id": "c-epitaph-wangminzhi-full:p001",
+            "quote": "晉故男子琅耶臨沂都鄉南仁里王閩之字冶民故尚書左僕射特進衛將軍彬之孫贛令興之之元子年廿八升平二年三月九日卒葬于舊墓在贛令墓之後故刻塼於墓為識妻吳興施氏字女式弟嗣之咸之預之",
+            "person_mention_id": "c-epitaph-wangminzhi-full:p001:m0013"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "升平",
+            "columns": {
+              "dynasty": "東晉",
+              "era_name": "升平",
+              "first_year": "357",
+              "last_year": "361"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-10-22",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "reference_index": 0,
+          "start_ce_year": 357,
+          "end_ce_year": 361,
+          "regnal_year": 2,
+          "source_number": "二",
+          "era_name": "升平"
+        },
+        "rationale": "官方表升平357–361，原誌二年為中國曆年358；不換算西曆月日。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false
+      },
+      "epitaph_date_parts": {
+        "calendar": "chinese_lunisolar",
+        "month": 3,
+        "day": 9,
+        "month_anchor": {
+          "paragraph_id": "c-epitaph-wangminzhi-full:p001",
+          "start": 47,
+          "end": 49,
+          "surface": "三月"
+        },
+        "day_anchor": {
+          "paragraph_id": "c-epitaph-wangminzhi-full:p001",
+          "start": 49,
+          "end": 51,
+          "surface": "九日"
+        },
+        "precision": "source_month_day_no_gregorian_conversion"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "據2009排印校錄古文，未親見原拓；只記本句明示資訊，不推生母、生年、遠祖或其他兄弟排行。"
+    }
+  ]
+}

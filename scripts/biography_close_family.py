@@ -3,6 +3,12 @@
 import hashlib,re
 PREFIX='close_family_'
 def valid(a,paragraphs,assertions=()):
+ if a.get("qualifiers",{}).get("source_clause_binding",{}).get("rule","").startswith("close_family_direct_"):
+  try:
+   from scripts.biography_direct_family import valid as direct_valid
+  except ImportError:
+   from biography_direct_family import valid as direct_valid
+  return direct_valid(a,paragraphs)
  try:
   q=a['qualifiers'];b=q['source_clause_binding'];e,=a['evidence'];cid,p=paragraphs[e['paragraph_id']];t=p['text'];ms={m['id']:m for m in p['mentions']};roles={k:ms[v]for k,v in b['roles'].items()};s=ms[e['subject_person_mention_id']];o=ms[e['object_person_mention_id']]
   if(set(b)!={'kind','rule','roles','clause_start','clause_end','paragraph_sha256','revision_id'}or b['kind']!='biography_family_clause'or not b['rule'].startswith(PREFIX)or a['status']!='source_attested'or a['human_reviewed']is not False or e['chapter_id']!=cid or e['quote']!=t or p.get('text_layer')!='received_chapter'or p.get('source_position',{}).get('revision_id')!=b['revision_id']or hashlib.sha256(t.encode()).hexdigest()!=b['paragraph_sha256']or s['person_id']!=a['subject_person_id']or o['person_id']!=a['object_person_id']or s['person_id']==o['person_id']):return False
@@ -22,9 +28,22 @@ def valid(a,paragraphs,assertions=()):
    return text==value
   if rule==PREFIX+'head_grandfather_father':
    if set(roles)!={'head','grandfather','father'}or start!=0 or len({pid(k)for k in roles})!=3:return False
-   pattern=re.escape(word('head'))+r'，字[^，。：「」]+，[^，。：「」]+人也。祖'+re.escape(word('grandfather'))+r'，[^。：「」]+。父'+re.escape(word('father'))+r'，[^。：「」]+。'
+   pattern=re.escape(word('head'))+r'，?字[^，。：「」]+，[^，。：「」]+人也。祖'+re.escape(word('grandfather'))+r'，[^。：「」]+。父'+re.escape(word('father'))+r'，[^。：「」]+。'
    if not re.fullmatch(pattern,text)or not at('head',0)or not t[roles['grandfather']['start']-1:roles['grandfather']['start']]=='祖'or not t[roles['father']['start']-1:roles['father']['start']]=='父'or any(x in text for x in'非未無不'):return False
    allowed=[('father','head','father'),('grandfather','head','grandfather')]
+  elif rule==PREFIX+'four_older_brothers':
+   if set(roles)!={'head','first','second','third','fourth'}or len({pid(k)for k in roles})!=5:return False
+   if not literal([('head',''),(None,'四兄'),('first',''),(None,'、'),('second',''),(None,'、'),('third',''),(None,'、'),('fourth','')]):return False
+   allowed=[('brother',k,'head')for k in ('first','second','third','fourth')]
+  elif rule==PREFIX+'father_arranged_daughter_marriage':
+   if set(roles)!={'father','husband','daughter'}or word('daughter')!='女'or len({pid(k)for k in roles})!=3:return False
+   if not literal([(None,'僕射'),('father',''),(None,'聞'),('husband',''),(None,'年少清正不惡，以'),('daughter',''),(None,'結婚，厚爲資送。')]):return False
+   allowed=[('father','daughter','father'),('spouse','daughter','husband')]
+  elif rule==PREFIX+'mother_old_care_resumed_subject':
+   if set(roles)!={'head','mother','patron','prince','official','patron_resumed'}or word('mother')!='母'or pid('patron')!=pid('patron_resumed')or start!=0 or end!=len(t):return False
+   if not literal([(None,'解褐車騎行參軍，遷祕書郎，司徒祭酒，丹陽丞，撫軍功曹。'),('patron',''),(None,'爲中軍，引爲記室。齊臺建，遷太子中舍人。建元初，轉'),('prince',''),(None,'友。以'),('mother',''),(None,'老須養，出爲安成內史。還爲中書郎。衞軍'),('official',''),(None,'引爲長史，雅相禮遇。除黃門郎，兼掌吏部。尋轉太子中庶子，領驍騎將軍，轉長兼侍中。'),('head',''),(None,'以晨昏有廢，固辭不受。'),('patron_resumed',''),(None,'勑令速拜，別停朝直。')]):return False
+   if len({pid(k)for k in ('head','mother','patron','prince','official')})!=5:return False
+   allowed=[('maternal_role','head','mother')]
   elif rule==PREFIX+'head_mother_mourning':
    if set(roles)!={'head','mother'}or word('mother')!='母'or start!=0:return False
    if not literal([('head',''),(None,'在職雖無殊能，而庶績修理。後遷光祿勳、吏部尚書，以'),('mother',''),(None,'憂去職。')]):return False
@@ -50,6 +69,9 @@ def valid(a,paragraphs,assertions=()):
   if len(hit)!=1 or not isinstance(q.get('source_term'),str)or not q['source_term']or q['source_term']not in text:return False
   pred=hit[0][0]
   if rule==PREFIX+'head_grandfather_father':term=('父'+word('father'))if pred=='father'else('祖'+word('grandfather'))
+  elif rule==PREFIX+'four_older_brothers':term=word('head')+'四兄'+ '、'.join(word(k)for k in ('first','second','third','fourth'))
+  elif rule==PREFIX+'father_arranged_daughter_marriage':term='以女結婚'
+  elif rule==PREFIX+'mother_old_care_resumed_subject':term='以母老須養'
   elif rule==PREFIX+'head_mother_mourning':term='以母憂去職'
   elif rule==PREFIX+'sons_and_collateral_heir':
    if pred=='father':term='子'+word('son')if a['subject_person_id']==pid('son')else'庶子'+word('secondary_son')if a['subject_person_id']==pid('secondary_son')else word('collateral')+'子'
@@ -63,6 +85,9 @@ def valid(a,paragraphs,assertions=()):
   if pred in('father','grandfather'):
    expected.add('lineage')
    if q.get('lineage')!='paternal':return False
+  elif pred=='brother':
+   expected.add('relative_birth_order')
+   if q.get('relative_birth_order')!={'older_person_id':a['subject_person_id'],'younger_person_id':a['object_person_id'],'operator':'lt','older_ordinal':None,'younger_ordinal':None,'scope':'siblings'}:return False
   elif pred=='maternal_role':
    expected|={'role','biological_mother','father_person_id'}
    if q.get('role')!='mother_unspecified'or q.get('biological_mother')is not None or q.get('father_person_id')is not None:return False

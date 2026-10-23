@@ -62,6 +62,16 @@
           "interpretation_note": "依完整本段上下文辨識；不據同名強併。"
         },
         {
+          "id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note:w0003",
+          "start": 3,
+          "end": 5,
+          "surface": "序傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-simabiao-xuzhuan-sgz015-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note:m0007",
           "start": 7,
           "end": 8,
@@ -134,6 +144,16 @@
           "interpretation_note": "依完整本段上下文辨識；不據同名強併。"
         },
         {
+          "id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note:w0091",
+          "start": 91,
+          "end": 97,
+          "surface": "漢書名臣列傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-hanshu-mingchen-liezhuan-sgz015-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note:m0142",
           "start": 142,
           "end": 144,
@@ -188,6 +208,26 @@
       "裴松之轉引司馬彪序傳，不宣稱親核原序傳。",
       "原始正文／古注／數位模板分存，僅記明轉換骑→騎。",
       "不從年七十一倒推生年；不將八子名單順序當排行。"
+    ],
+    "work_reference_reviews": [
+      {
+        "id": "work-review-sanguozhi015-simabiao",
+        "status": "ai_proposed",
+        "human_reviewed": false,
+        "coverage": "完整單一司馬彪序傳裴注，不是司馬朗全傳或三國志卷十五全卷",
+        "work_identity_pending": [
+          {
+            "surface": "序傳",
+            "reason": "原署司馬彪且有曰引文，但沒有完整原著題名；不按通常歸屬接續漢書"
+          },
+          {
+            "surface": "漢書名臣列傳",
+            "reason": "保展示字面完整範圍；可能是漢書中名臣之列傳，未定獨立書題，未決是否班固漢書。現代wiki link target漢書#列傳不作古代書身份證據。"
+          }
+        ],
+        "modern_book_brackets": "既有轉錄書名號保原；不把數位編輯括號或連結當原石／最早本題署",
+        "source_author_attributions": "司馬彪原署沿現有prefix語法；source work與被引work分端"
+      }
     ]
   },
   "text_sha256": "b6f80c3600d879ed65d5e13bac5e74effb44645f1d919c0ae015f4507b14fa45"

@@ -38,3 +38,7 @@ JSON 使用 UTF-8；中文為繁體。`record_type` 區分記錄。`records.sche
 ## 逐書標註格式 0.2
 
 新增《史記》卷篇、穩定人物 ID 及行內標註使用 [corpus.md](corpus.md)，由 `scripts/validate_corpus.py` 檢查。既有 `records.schema.json` 僅負責原有史料／陳述格式，尚未把兩套資料遷移為單一格式。
+
+## 作品成書、版本及出土履歷
+
+`registry/work-provenance.json` 與既有章節 source 分存，避免把成書年代、現存版本、數位修訂和出土日期混為一項。契約、未知狀態及公開 JSON 入口見 [作品履歷](../docs/work-provenance.md)；以 `scripts/work_provenance.py` 驗證全登記覆蓋與跨作品底本引用。

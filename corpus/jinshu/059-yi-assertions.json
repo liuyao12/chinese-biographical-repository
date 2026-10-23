@@ -1,0 +1,132 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-059-yi",
+  "assertions": [
+    {
+      "id": "a-jin059-yi-direct-001",
+      "subject_person_id": "4c6_984_9ed",
+      "predicate": "father",
+      "object_person_id": "hgm_jvn_hle",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "第六子",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_direct_head_ordinal_son",
+          "roles": {
+            "child": "c-jinshu-059-yi:p001:m0001",
+            "parent": "c-jinshu-059-yi:p001:m0003"
+          },
+          "clause_start": 0,
+          "clause_end": 17,
+          "paragraph_sha256": "75696ff4af8448af5911e859153da8627388df5cbe5cca45e4b7782e668d4e22",
+          "revision_id": 2650517
+        },
+        "lineage": "paternal",
+        "birth_order": {
+          "scope": "sons_of_parent",
+          "ordinal": 6,
+          "source_term": "第六子",
+          "parent_person_id": "hgm_jvn_hle",
+          "position": "unspecified",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-059",
+          "source_id": "s-jinshu-059-ws2650517-yi",
+          "chapter_id": "c-jinshu-059-yi",
+          "paragraph_id": "c-jinshu-059-yi:p001",
+          "quote": "長沙厲王乂，字士度，武帝第六子也。太康十年受封，拜員外散騎常侍。及武帝崩，乂時年十五，孺慕過禮。會楚王瑋奔喪，諸王皆近路迎之，乂獨至陵所，號慟以俟瑋。拜步兵校尉。及瑋之誅二公也，乂守東掖門。會騶虞幡出，乂投弓流涕曰：「楚王被詔，是以從之，安知其非！」瑋既誅，乂以同母，貶為常山王，之國。",
+          "subject_person_mention_id": "c-jinshu-059-yi:p001:m0001",
+          "object_person_mention_id": "c-jinshu-059-yi:p001:m0003"
+        }
+      ],
+      "interpretation_note": "逐字角色與完整原段綁定；不補未載生母、子女絕對排列、父祖闕代或收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin059-yi-direct-002",
+      "subject_person_id": "a2b_qzo_dik",
+      "predicate": "father",
+      "object_person_id": "4c6_984_9ed",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "乂子碩",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "named_parent_son",
+          "roles": {
+            "child": "c-jinshu-059-yi:p009:m0154",
+            "parent": "c-jinshu-059-yi:p009:m0153"
+          },
+          "clause_start": 99,
+          "clause_end": 102,
+          "paragraph_sha256": "d592863a6019301362cd5d485618242f99bedb5c2f96aac0820c838f798f403b",
+          "revision_id": 2650517
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-059",
+          "source_id": "s-jinshu-059-ws2650517-yi",
+          "chapter_id": "c-jinshu-059-yi",
+          "paragraph_id": "c-jinshu-059-yi:p009",
+          "quote": "乂將殯於城東，官屬莫敢往，故掾劉佑獨送之，步持喪車，悲號斷絕，哀感路人。張方以其義士，不之問也。初，乂執權之始，洛下謠曰：「草木萌牙殺長沙。」乂以正月二十五日廢，二十七日死，如謠言焉。永嘉中，懷帝以乂子碩嗣，拜散騎常侍，後沒于劉聰。",
+          "subject_person_mention_id": "c-jinshu-059-yi:p009:m0154",
+          "object_person_mention_id": "c-jinshu-059-yi:p009:m0153"
+        }
+      ],
+      "interpretation_note": "逐字角色與完整原段綁定；不補未載生母、子女絕對排列、父祖闕代或收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin059-yi-direct-003",
+      "subject_person_id": "4c6_984_9ed",
+      "predicate": "brother",
+      "object_person_id": "20b_1c2_a06",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "乂以同母",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_direct_same_mother_after_execution",
+          "roles": {
+            "subject": "c-jinshu-059-yi:p001:m0015",
+            "sibling": "c-jinshu-059-yi:p001:m0014"
+          },
+          "clause_start": 125,
+          "clause_end": 133,
+          "paragraph_sha256": "75696ff4af8448af5911e859153da8627388df5cbe5cca45e4b7782e668d4e22",
+          "revision_id": 2650517
+        },
+        "shared_mother": true
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-059",
+          "source_id": "s-jinshu-059-ws2650517-yi",
+          "chapter_id": "c-jinshu-059-yi",
+          "paragraph_id": "c-jinshu-059-yi:p001",
+          "quote": "長沙厲王乂，字士度，武帝第六子也。太康十年受封，拜員外散騎常侍。及武帝崩，乂時年十五，孺慕過禮。會楚王瑋奔喪，諸王皆近路迎之，乂獨至陵所，號慟以俟瑋。拜步兵校尉。及瑋之誅二公也，乂守東掖門。會騶虞幡出，乂投弓流涕曰：「楚王被詔，是以從之，安知其非！」瑋既誅，乂以同母，貶為常山王，之國。",
+          "subject_person_mention_id": "c-jinshu-059-yi:p001:m0015",
+          "object_person_mention_id": "c-jinshu-059-yi:p001:m0014"
+        }
+      ],
+      "interpretation_note": "逐字角色與完整原段綁定；不補未載生母、子女絕對排列、父祖闕代或收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

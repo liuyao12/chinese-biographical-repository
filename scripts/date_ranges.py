@@ -28,9 +28,15 @@ def parallel_event_date(date):
                for key, scopes in [('reference_event_quote', ('received_parallel_event',)),
                                   ('reference_year_quote', ('digital_editorial_regnal_year_equivalence_only', 'received_regnal_year_attestation'))])
 
-def year_range_errors(value, evidence, expression):
+def year_range_errors(value, evidence, expression, root=None):
     if not isinstance(value, dict):
         return ['紀年範圍須為物件']
+    if value.get('basis') == 'reviewed_role_event_year_range':
+        try:
+            from scripts.role_event_year_bridge import range_errors
+        except ImportError:
+            from role_event_year_bridge import range_errors
+        return range_errors(value, evidence, expression, root)
     if value.get('basis') == 'within_named_era':
         try:
             from .civil_era_ranges import civil_era_range_errors
