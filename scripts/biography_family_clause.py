@@ -7,6 +7,10 @@ def _attached_family(a,paragraphs,chapters=None):
  return kinship_valid(a,paragraphs,chapters)
 
 def valid(a,paragraphs,assertions=(),chapters=None):
+ if a.get('qualifiers', {}).get('source_clause_binding', {}).get('rule') == 'complete_received_kinship_unit':
+     try:from scripts.received_unit_kinship import valid as unit_relation_valid
+     except ImportError:from received_unit_kinship import valid as unit_relation_valid
+     return unit_relation_valid(a, paragraphs)
  if isinstance(a,dict)and a.get('qualifiers',{}).get('source_clause_binding',{}).get('rule')=='attached_received_biography_frame':return _attached_family(a,paragraphs,chapters)
  if not isinstance(a, dict):return False
  q_guard=a.get('qualifiers', {})

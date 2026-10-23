@@ -1,0 +1,91 @@
+{
+  "status": "source_semantic_link_review",
+  "key": "jin034-duyu-kinship",
+  "links": [
+    {
+      "slot": "career_005",
+      "linked_holding_id": "th-jin034-duyu-career_003",
+      "link_field": "linked_holding_id",
+      "qualification": {
+        "status": "contextual_provisional",
+        "relation": "duration_of_linked_office",
+        "source_clause": "在職四年，轉參相府軍事",
+        "rationale": "四年承前拜尚書郎，非豐樂亭侯期限。",
+        "absolute_year_inferred": false,
+        "all_offices_affected": false
+      }
+    },
+    {
+      "slot": "career_013",
+      "linked_holding_id": "th-jin034-duyu-career_010",
+      "link_field": "prior_holding_id",
+      "qualification": {
+        "status": "contextual_provisional",
+        "relation": "removal_of_linked_office_status",
+        "source_clause": "司隸校尉石鑒以宿憾奏預，免職",
+        "rationale": "本傳先守河南尹；石鑒所奏免此前官職，非免全部後授官或侯爵。",
+        "absolute_year_inferred": false,
+        "all_offices_affected": false
+      }
+    },
+    {
+      "slot": "career_024",
+      "linked_holding_id": "th-jin034-duyu-career_023",
+      "link_field": "prior_holding_id",
+      "qualification": {
+        "status": "contextual_provisional",
+        "relation": "removal_of_linked_office_status",
+        "source_clause": "言論喧嘩，並坐免官，以侯兼本職",
+        "rationale": "預俄拜度支尚書，並坐免官作用此前職身；隨後以侯兼本職另記職掌續行，不推工作全部終止。",
+        "absolute_year_inferred": false,
+        "all_offices_affected": false
+      }
+    },
+    {
+      "slot": "career_026",
+      "linked_holding_id": "th-jin034-duyu-career_023",
+      "link_field": "linked_holding_id",
+      "qualification": {
+        "status": "contextual_provisional",
+        "relation": "continuation_of_linked_office_duties",
+        "source_clause": "以侯兼本職。數年，復拜度支尚書",
+        "rationale": "本職承此前度支尚書；以侯兼職與後復拜分開，保職身變化及職掌續行。",
+        "absolute_year_inferred": false,
+        "all_offices_affected": false
+      }
+    },
+    {
+      "slot": "career_050",
+      "linked_holding_id": "th-jin034-duyu-career_049",
+      "link_field": "linked_holding_id",
+      "qualification": {
+        "status": "contextual_provisional",
+        "relation": "cumulative_households_of_linked_peerage",
+        "source_clause": "以功進爵當陽縣侯，增邑並前九千六百戶",
+        "rationale": "9600是杜預當陽爵並前總數，非子耽千戶或增量。",
+        "absolute_year_inferred": false,
+        "all_offices_affected": false
+      }
+    },
+    {
+      "slot": "career_052",
+      "linked_holding_id": "th-jin034-duyu-career_051",
+      "link_field": "linked_holding_id",
+      "qualification": {
+        "status": "contextual_provisional",
+        "relation": "households_of_linked_peerage",
+        "source_clause": "封子耽為亭侯，千戶",
+        "rationale": "1000只屬子耽亭侯，非父預當陽總數。",
+        "absolute_year_inferred": false,
+        "all_offices_affected": false
+      }
+    }
+  ],
+  "unresolved": [
+    "石鑒career025所免具體官仍未定",
+    "增邑1150/365與前爵關係未在本包強連"
+  ],
+  "no_new_dates": true,
+  "no_holding_period_changes": true,
+  "human_reviewed": false
+}

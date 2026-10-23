@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "之",
-    "步闡"
+    "步闡",
+    "闡"
   ],
   "titles": [
     {
@@ -62,6 +63,59 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 34,
+      "category": "",
+      "title": "羊祜傳",
+      "paragraph_id": "c-jinshu-034-yanghu:p011",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "及還鎮，吳西陵督步闡舉城來降。吳將陸抗攻之甚急，詔祜迎闡。祜率兵五萬出江陵，遣荊州刺史楊肇攻抗，不克，闡竟為抗所擒。有司奏：「祜所統八萬餘人，賊眾不過三萬。祜頓兵江陵，使賊備得設。乃遣楊肇偏軍入險，兵少糧懸，軍人挫衄。背",
+      "paragraph_ids": [
+        "c-jinshu-034-yanghu:p011"
+      ],
+      "mention_ids": [
+        "c-jinshu-034-yanghu:p011:m0008",
+        "c-jinshu-034-yanghu:p011:m0027",
+        "c-jinshu-034-yanghu:p011:m0051"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-034-yanghu:p011:m0008": "c-jinshu-034-yanghu:p011",
+        "c-jinshu-034-yanghu:p011:m0027": "c-jinshu-034-yanghu:p011",
+        "c-jinshu-034-yanghu:p011:m0051": "c-jinshu-034-yanghu:p011"
+      },
+      "mention_id": "c-jinshu-034-yanghu:p011:m0008",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu:p011:m0008",
+          "mention_ids": [
+            "c-jinshu-034-yanghu:p011:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu:p011:m0027",
+          "mention_ids": [
+            "c-jinshu-034-yanghu:p011:m0027"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu:p011:m0051",
+          "mention_ids": [
+            "c-jinshu-034-yanghu:p011:m0051"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "chapter_id": "c-jinshu-034-yanghu",
+      "source_id": "s-jinshu-034-ws2567662-yanghu",
+      "work_title": "晉書"
+    },
+    {
       "number": 59,
       "category": "",
       "title": "司馬亮、司馬羕",
@@ -108,6 +162,35 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-034-yanghu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-ws2567662-yanghu",
+      "source": {
+        "title": "《晉書》卷三十四羊祜完整本傳及家屬續敘",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "revision_id": 2567662,
+        "accessed_on": "2026-10-22",
+        "extent": "羊祜節題至下一同級杜預節題前，41完整原行，含家屬、承嗣與引錄文書；非全卷，卷末共評未重複匯入。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保來源歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin034-ws2567662.wikitext",
+        "raw_path": "sources/witnesses/jin034-ws2567662.wikitext",
+        "wikitext_sha256": "0dc292f7743a95456ac8fa2977ba82bcaa35e1dd9cebe32fb2ecfab2f21f7a71",
+        "raw_file_sha256": "0dc292f7743a95456ac8fa2977ba82bcaa35e1dd9cebe32fb2ecfab2f21f7a71",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅排版空白、quote/YL模板外殼、wiki連結/粗體標記投影；原字/標點不改，原文與所有排版排除位合為完整節界。實際古本未核。"
+        }
+      }
+    },
     {
       "chapter_id": "c-jinshu-059-liang-yang",
       "work_id": "w-jinshu",

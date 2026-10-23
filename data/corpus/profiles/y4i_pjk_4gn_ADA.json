@@ -8,7 +8,8 @@
   "names": [
     "伯禽",
     "魯公",
-    "魯公伯禽"
+    "魯公伯禽",
+    "魯侯"
   ],
   "titles": [
     {
@@ -64,6 +65,41 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 16,
+      "category": "",
+      "title": "杜畿杜恕傳",
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit031",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "帛耳反使如廉昭者擾亂其間臣懼大臣遂將容身保位坐觀得失為來世戒也昔周公戒魯侯曰無使大臣怨乎不以不言賢愚明皆當世用也堯數舜之功稱去四凶不言大小有罪則去也今者朝臣不自以為不能以陛下為不任也不自以為不智以陛下為不問也陛下何不遵周公之所以用大舜之所以去使侍中尚書坐則侍幄帷行則從華輦親",
+      "paragraph_ids": [
+        "c-sanguozhi-016-duji-dushu:unit031"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-016-duji-dushu:unit031:m0617"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-016-duji-dushu:unit031:m0617": "c-sanguozhi-016-duji-dushu:unit031"
+      },
+      "mention_id": "c-sanguozhi-016-duji-dushu:unit031:m0617",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit031:m0617",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit031:m0617"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-016",
+      "chapter_id": "c-sanguozhi-016-duji-dushu",
+      "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+      "work_title": "三國志"
+    },
     {
       "number": 33,
       "category": "shijia",
@@ -297,6 +333,32 @@
     }
   ],
   "sources": [
+    {
+      "chapter_id": "c-sanguozhi-016-duji-dushu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-016",
+      "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+      "source": {
+        "title": "《三國志》卷十六杜畿、杜恕完整本傳及全部裴注",
+        "provider": "Kanripo",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "82e8ba333863c0ad47843c72d6237a2d32b10bff3a28ec7f51d614bcb34c5e7f",
+        "accessed_on": "2026-10-23",
+        "extent": "固定原檔91–406行：杜畿字伯侯起至阮坦喪官王衍哭之，止鄭渾獨立本傳前；44層次單元，不稱全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位文字見證，保來源歸屬。未核書影或實際古刊。",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只移除版面頁碼、換行¶與外層注括號；正文/裴注依原次序、逐字位置全覆蓋。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-033-lu",
       "work_id": "w-shiji",

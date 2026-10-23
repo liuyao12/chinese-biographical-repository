@@ -1,0 +1,296 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-031-jingxian-yanghou",
+  "assertions": [
+    {
+      "id": "a-jin031-jingxian-yanghou-queen-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+          "quote": "景獻羊皇后諱徽瑜，泰山南城人。父茞，上黨太守；后母陳留蔡氏，漢左中郎將邕之女也。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0001",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0003"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "雙端按本句角色；蔡氏之父非徽瑜父，兩妻不同人；不補生母、共祖或夫妻以外父系。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "queen-father"
+      },
+      "subject_person_id": "dqd_5q9_pkz_BC",
+      "object_person_id": "dqd_5q9_pkz_B",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父茞",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+            "start": 15,
+            "end": 17,
+            "surface": "父茞"
+          }
+        }
+      }
+    },
+    {
+      "id": "a-jin031-jingxian-yanghou-queen-mother",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+          "quote": "景獻羊皇后諱徽瑜，泰山南城人。父茞，上黨太守；后母陳留蔡氏，漢左中郎將邕之女也。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0004",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "母關係仍按031原母稱；生母為完整031／034母系與前母對照的可撤回首選，不宣稱本源明生。蔡氏之父不是徽瑜父，不補父祖。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "queen-mother"
+      },
+      "subject_person_id": "dqd_5q9_pkz_BC",
+      "object_person_id": "6bs_o1d_9ti",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "后母陳留蔡氏",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+            "start": 23,
+            "end": 29,
+            "surface": "后母陳留蔡氏"
+          }
+        },
+        "maternal_interpretation": {
+          "status": "contextual_preferred",
+          "basis": "same_mother_sibling_and_maternal_ancestry_with_contrasted_prior_mother",
+          "source_explicit_birth": false,
+          "qualification": "031明母蔡氏邕女；034蔡邕外孫、景獻同產弟及前母生發／祜同母兄承對照，支持蔡氏為后生母的編輯首選；不是031母字明生，也不是養發等同生發。",
+          "supporting_source_references": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-031",
+              "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+              "chapter_id": "c-jinshu-031-jingxian-yanghou",
+              "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+              "quote": "景獻羊皇后諱徽瑜，泰山南城人。父茞，上黨太守；后母陳留蔡氏，漢左中郎將邕之女也。",
+              "role_mentions": {
+                "queen": "c-jinshu-031-jingxian-yanghou:p001:m0004",
+                "mother": "c-jinshu-031-jingxian-yanghou:p001:m0005",
+                "maternal_ancestor": "c-jinshu-031-jingxian-yanghou:p001:m0006"
+              }
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-034",
+              "source_id": "s-jinshu-034-ws2567662-yanghu",
+              "chapter_id": "c-jinshu-034-yanghu",
+              "paragraph_id": "c-jinshu-034-yanghu:p001",
+              "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+              "role_mentions": {
+                "queen": "c-jinshu-034-yanghu:p001:m0056",
+                "brother": "c-jinshu-034-yanghu:p001:m0049",
+                "maternal_ancestor": "c-jinshu-034-yanghu:p001:m0051"
+              }
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-034",
+              "source_id": "s-jinshu-034-ws2567662-yanghu",
+              "chapter_id": "c-jinshu-034-yanghu",
+              "paragraph_id": "c-jinshu-034-yanghu:p040",
+              "quote": "祜前母，孔融女，生兄發，官至都督淮北護軍。初，發與祜同母兄承俱得病，祜母度不能兩存，乃專心養發，故得濟，而承竟死。",
+              "role_mentions": {
+                "brother": "c-jinshu-034-yanghu:p040:m0025",
+                "mother": "c-jinshu-034-yanghu:p040:m0034",
+                "prior_mother": "c-jinshu-034-yanghu:p040:m0001",
+                "older_brother": "c-jinshu-034-yanghu:p040:m0010",
+                "same_mother_brother": "c-jinshu-034-yanghu:p040:m0029"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "a-jin031-jingxian-yanghou-mother-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+          "quote": "景獻羊皇后諱徽瑜，泰山南城人。父茞，上黨太守；后母陳留蔡氏，漢左中郎將邕之女也。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0005",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0006"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "雙端按本句角色；蔡氏之父非徽瑜父，兩妻不同人；不補生母、共祖或夫妻以外父系。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "mother-father"
+      },
+      "subject_person_id": "6bs_o1d_9ti",
+      "object_person_id": "gs5_qqu_9ui",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "蔡氏，漢左中郎將邕之女也",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+            "start": 27,
+            "end": 39,
+            "surface": "蔡氏，漢左中郎將邕之女也"
+          }
+        }
+      }
+    },
+    {
+      "id": "a-jin031-jingxian-yanghou-queen-spouse",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0006",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0003"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "雙端按本句角色；蔡氏之父非徽瑜父，兩妻不同人；不補生母、共祖或夫妻以外父系。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "queen-spouse"
+      },
+      "subject_person_id": "dqd_5q9_pkz_BC",
+      "object_person_id": "dkn_ge4_286_AAAAH",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "景帝更娶鎮北將軍濮陽吳質女，見黜，復納后",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "start": 13,
+            "end": 33,
+            "surface": "景帝更娶鎮北將軍濮陽吳質女，見黜，復納后"
+          }
+        }
+      }
+    },
+    {
+      "id": "a-jin031-jingxian-yanghou-wu-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "雙端按本句角色；蔡氏之父非徽瑜父，兩妻不同人；不補生母、共祖或夫妻以外父系。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-father"
+      },
+      "subject_person_id": "zrm_vi7_fpe",
+      "object_person_id": "354_b66_61e",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "吳質女",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "start": 23,
+            "end": 26,
+            "surface": "吳質女"
+          }
+        }
+      }
+    },
+    {
+      "id": "a-jin031-jingxian-yanghou-wu-spouse",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0003"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "雙端按本句角色；蔡氏之父非徽瑜父，兩妻不同人；不補生母、共祖或夫妻以外父系。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-spouse"
+      },
+      "subject_person_id": "zrm_vi7_fpe",
+      "object_person_id": "dkn_ge4_286_AAAAH",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "景帝更娶鎮北將軍濮陽吳質女",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "start": 13,
+            "end": 26,
+            "surface": "景帝更娶鎮北將軍濮陽吳質女"
+          }
+        }
+      }
+    }
+  ]
+}

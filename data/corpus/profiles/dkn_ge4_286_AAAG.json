@@ -7,11 +7,76 @@
   "review": "ai_provisional",
   "names": [
     "通",
-    "雅達"
+    "雅達",
+    "狂悖之弟",
+    "狂悖者"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 16,
+      "category": "",
+      "title": "杜畿杜恕傳",
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit031",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "帝時少府竇嘉辟廷尉郭躬無罪之兄子猶見舉奏章劾紛紛近司隷校尉孔羡辟大將軍狂悖之弟而有司嘿爾望風希指甚於受屬選舉不以實人事之大者也",
+      "paragraph_ids": [
+        "c-sanguozhi-016-duji-dushu:unit031",
+        "c-sanguozhi-016-duji-dushu:unit032"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-016-duji-dushu:unit031:m1077",
+        "c-sanguozhi-016-duji-dushu:unit032:m0021",
+        "c-sanguozhi-016-duji-dushu:unit032:m0031",
+        "c-sanguozhi-016-duji-dushu:unit032:m0034"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-016-duji-dushu:unit031:m1077": "c-sanguozhi-016-duji-dushu:unit031",
+        "c-sanguozhi-016-duji-dushu:unit032:m0021": "c-sanguozhi-016-duji-dushu:unit032",
+        "c-sanguozhi-016-duji-dushu:unit032:m0031": "c-sanguozhi-016-duji-dushu:unit032",
+        "c-sanguozhi-016-duji-dushu:unit032:m0034": "c-sanguozhi-016-duji-dushu:unit032"
+      },
+      "mention_id": "c-sanguozhi-016-duji-dushu:unit031:m1077",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit031:m1077",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit031:m1077"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit032:m0021",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit032:m0021"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit032:m0031",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit032:m0031"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit032:m0034",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit032:m0034"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-016",
+      "chapter_id": "c-sanguozhi-016-duji-dushu",
+      "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+      "work_title": "三國志"
+    },
     {
       "number": 37,
       "category": "",
@@ -105,6 +170,32 @@
               "raw_sha256": "478e3f93771c1ff000c00bd9ae03e56bd01e67dabd16ed7471e8937194ff10a4"
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-016-duji-dushu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-016",
+      "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+      "source": {
+        "title": "《三國志》卷十六杜畿、杜恕完整本傳及全部裴注",
+        "provider": "Kanripo",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "82e8ba333863c0ad47843c72d6237a2d32b10bff3a28ec7f51d614bcb34c5e7f",
+        "accessed_on": "2026-10-23",
+        "extent": "固定原檔91–406行：杜畿字伯侯起至阮坦喪官王衍哭之，止鄭渾獨立本傳前；44層次單元，不稱全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位文字見證，保來源歸屬。未核書影或實際古刊。",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只移除版面頁碼、換行¶與外層注括號；正文/裴注依原次序、逐字位置全覆蓋。"
         }
       }
     }

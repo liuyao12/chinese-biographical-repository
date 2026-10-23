@@ -3,6 +3,10 @@
 
 
 def marriage_termination_valid(a, paragraphs):
+    if a.get('qualifiers', {}).get('source_clause_binding', {}).get('rule') == 'complete_received_kinship_unit':
+        try:from scripts.received_unit_kinship import valid as unit_relation_valid
+        except ImportError:from received_unit_kinship import valid as unit_relation_valid
+        return unit_relation_valid(a, paragraphs)
     q = a.get('qualifiers', {})
     termination = q.get('marriage_termination', {})
     if (a.get('predicate') != 'spouse' or a.get('status') != 'source_attested'

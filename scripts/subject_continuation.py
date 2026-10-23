@@ -59,8 +59,10 @@ def prior_subject_valid(context, evidence, person_id, chapter):
                     for i in range(len(p['text'])) if p['text'].startswith(quote, i)))
 
 
-def title_attestation_subject_valid(attestation, holding, chapter):
+def title_attestation_subject_valid(attestation, holding, chapter, root=None):
     """Keep a title's actual location and its preceding named subject separate."""
+    if attestation.get('context',{}).get('kind')=='fixed_complete_witness_title_subject':
+        return fixed_complete_witness_title_subject_valid(attestation,holding,chapter,root)
     if attestation.get('context',{}).get('kind')=='layered_biography_subject_continuation':
         try:from scripts.layered_biography_titles import title_context_valid
         except ImportError:from layered_biography_titles import title_context_valid
@@ -185,4 +187,27 @@ def coordinated_attendance_aftermath_subject_valid(context, paragraph, person_id
                   if m.get('kind')=='person'and attendance['start']<=m['start']<when['end']]
         return actual == [lead['id'],*[m['id']for m in companions],authority['id'],temporal['id']]
     except (KeyError,TypeError,ValueError,StopIteration):
+        return False
+
+
+def fixed_complete_witness_title_subject_valid(attestation, holding, chapter, root):
+    """Finite approved source recipe; defeated temporal patient is not the rewarded subject."""
+    try:
+        c=attestation['context']
+        assert root is not None and set(c)=={'kind','paragraph_id','person_mention_id','quote','target_paragraph_id','temporal_patient_mention_id','target_prefix_anchor','status','human_reviewed'}
+        assert c['kind']=='fixed_complete_witness_title_subject'and c['status']=='contextual_provisional'and c['human_reviewed']is False
+        assert holding['fixed_source_fact_binding']['kind']=='fixed_witness_person_fact_slots'
+        ps=chapter['paragraphs'];i=next(i for i,p in enumerate(ps)if p['id']==c['paragraph_id']);before=ps[i];after=ps[i+1]
+        assert after['id']==c['target_paragraph_id']==attestation['paragraph_id']and before['text']==c['quote']
+        m=next(m for m in before['mentions']if m['id']==c['person_mention_id']);patient=next(m for m in after['mentions']if m['id']==c['temporal_patient_mention_id'])
+        assert m['kind']==patient['kind']=='person'and m['person_id']==holding['person_id']and patient['person_id']!=holding['person_id']and attestation['person_mention_id']==m['id']
+        assert m['surface']not in('其','之','彼','臣','吾','我')
+        a=c['target_prefix_anchor'];t=after['text'];assert set(a)=={'paragraph_id','start','end','surface'}and a['paragraph_id']==after['id']and a['start']==0 and type(a['end'])is int and t[:a['end']]==a['surface']
+        assert patient['start']==0 and patient['end']<a['end']and t[patient['end']:a['end']]in('既平','已平')and attestation['start']>=a['end']
+        assert all(p['text_layer']=='received_chapter'and p['source_position']['source_layer']=='received_biography'for p in(before,after))
+        assert {(e['paragraph_id'],e['quote'])for e in holding['evidence']}=={(before['id'],before['text']),(after['id'],after['text'])}
+        try:from scripts.fixed_witness_fact_slots import valid as source_valid
+        except ImportError:from fixed_witness_fact_slots import valid as source_valid
+        return source_valid(holding,chapter,root)
+    except(AssertionError,KeyError,ValueError,TypeError,StopIteration,IndexError,AttributeError,OSError):
         return False

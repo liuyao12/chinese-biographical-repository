@@ -2,6 +2,10 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule') == 'complete_received_kinship_unit':
+        try:from scripts.received_unit_kinship import valid as unit_relation_valid
+        except ImportError:from received_unit_kinship import valid as unit_relation_valid
+        return unit_relation_valid(assertion, paragraphs)
     # Position-bound close-family clauses; retain all older grammar contracts.
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('close_family_'):
         try:

@@ -1,0 +1,73 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_address_assertion_set",
+  "chapter_id": "c-jinshu-034-duyu",
+  "assertions": [
+    {
+      "id": "ad-jin034-duyu-duyu-origin",
+      "person_id": "yh6_z1j_fsd",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-ws2567662-duyu",
+          "chapter_id": "c-jinshu-034-duyu",
+          "paragraph_id": "c-jinshu-034-duyu:p001",
+          "quote": "杜預，字元凱，京兆杜陵人也。祖畿，魏尚書僕射。父恕，幽州刺史。預博學多通，明於興廢之道，常言：「德不可以企及，立功立言可庶幾也。」初，其父與宣帝不相能，遂以幽死，故預久不得調。文帝嗣立，預尚帝妹高陸公主，起家拜尚書郎，襲祖爵豐樂亭侯。在職四年，轉參相府軍事。鐘會伐蜀，以預為鎮西長史。及會反，僚佐並遇害，唯預以智獲免，增邑千一百五十戶。",
+          "person_mention_id": "c-jinshu-034-duyu:p001:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文報齡，不反算生年；計歲方式未明。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin034-duyu-kinship",
+        "slot": "life_duyu-origin"
+      },
+      "relation": "biographical_origin",
+      "source_term": "京兆杜陵人也",
+      "place": {
+        "source_name": "京兆杜陵",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "date_expression": null
+    },
+    {
+      "id": "ad-jin034-duyu-duyu-death-place",
+      "person_id": "yh6_z1j_fsd",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-ws2567662-duyu",
+          "chapter_id": "c-jinshu-034-duyu",
+          "paragraph_id": "c-jinshu-034-duyu:p024",
+          "quote": "預初在荊州，因宴集，醉臥齋中。外人聞嘔吐聲，竊窺於戶，止見一大蛇垂頭而吐。聞者異之。其後徵為司隸校尉，加位特進，行次鄧縣而卒，時年六十三。帝甚嗟悼，追贈征南大將軍、開府儀同三司，諡曰成。預先為遺令曰：「古不合葬，明於終始之理，同於無有也。中古聖人改而合之，蓋以別合無在，更緣生以示教也。自此以來，大人君子或合或否，未能知生，安能知死，故各以己意所欲也。吾往為台郎，嘗以公事使過密縣之邢山。山上有塚，問耕父，云是鄭大夫祭仲，或云子產之塚也，遂率從者祭而觀焉。其造塚居山之頂，四望周達，連山體南北之正而邪東北，向新鄭城，意不忘本也。其隧道唯塞其後而空其前，不填之，示藏無珍寶，不取於重深也。山多美石不用，必集洧水自然之石以為塚藏，貴不勞工巧，而此石不入世用也。君子尚其有情，小人無利可動，曆千載無毀，儉之致也。吾去春入朝，因郭氏喪亡，緣陪陵舊義，自表營洛陽城東首陽之南為將來兆域。而所得地中有小山，上無舊塚。其高顯雖未足比邢山，然東奉二陵，西瞻宮闕，南觀伊洛，北望夷叔，曠然遠覽，情之所安也。故遂表樹開道，為一定之制，至時皆用洛水圓石，開遂道南向，儀制取法于鄭大夫，欲以儉自完耳。棺器小斂之事，皆當稱此。」子孫一以遵之。子錫嗣。",
+          "person_mention_id": "c-jinshu-034-duyu:p024:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文報齡，不反算生年；計歲方式未明。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin034-duyu-kinship",
+        "slot": "life_duyu-death-place"
+      },
+      "relation": "death_place",
+      "source_term": "行次鄧縣而卒",
+      "place": {
+        "source_name": "鄧縣",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "date_expression": null
+    }
+  ]
+}

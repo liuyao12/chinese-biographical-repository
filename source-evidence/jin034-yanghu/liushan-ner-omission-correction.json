@@ -1,0 +1,36 @@
+{
+  "kind": "source_ner_omission_correction",
+  "chapter_id": "c-jinshu-034-yanghu",
+  "source_id": "s-jinshu-034-ws2567662-yanghu",
+  "source_revision": 2567662,
+  "raw_sha256": "0dc292f7743a95456ac8fa2977ba82bcaa35e1dd9cebe32fb2ecfab2f21f7a71",
+  "paragraph_id": "c-jinshu-034-yanghu:p018",
+  "quote": "夫適道之論，皆未應權，是故謀之雖多，而決之欲獨。凡以險阻得存者，謂所敵者同，力足自固。苟其輕重不齊，強弱異勢，則智士不能謀，而險阻不可保也。蜀之為國，非不險也，高山尋雲霓，深谷肆無景，束馬懸車，然後得濟，皆言一夫荷戟，千人莫當。及進兵之日，曾無籓籬之限，斬將搴旗，伏屍數萬，乘勝席捲，徑至成都，漢中諸城，皆鳥棲而不敢出。非皆無戰心，誠力不足相抗。至劉禪降服，諸營堡者索然俱散。今江淮之難，不過劍閣；山川之險，不過岷漢；孫皓之暴，侈于劉禪；吳人之困，甚于巴蜀。而大晉兵眾，多於前世；資儲器械，盛於往時；今不于此平吳，而更阻兵相守，征夫苦役，日尋干戈，經歷盛衰，不可長久，宜當時定，以一四海。",
+  "before_classification": "unmarked_person_name",
+  "after_mentions": [
+    {
+      "id": "c-jinshu-034-yanghu:p018:m0174",
+      "start": 174,
+      "end": 176,
+      "surface": "劉禪",
+      "kind": "person",
+      "person_id": "r28_8ss_our",
+      "status": "source_explicit"
+    },
+    {
+      "id": "c-jinshu-034-yanghu:p018:m0216",
+      "start": 216,
+      "end": 218,
+      "surface": "劉禪",
+      "kind": "person",
+      "person_id": "r28_8ss_our",
+      "status": "source_explicit"
+    }
+  ],
+  "person_id": "r28_8ss_our",
+  "identity_reason": "本完整奏疏以蜀國/成都/降服的劉禪對比孫皓；直接原姓名，未與郭/羊族相接；現registry未見既存劉禪來源身份。",
+  "source_only": true,
+  "not_whole_sgz_liushan_biography": true,
+  "old_source_seal_unchanged": true,
+  "human_reviewed": false
+}

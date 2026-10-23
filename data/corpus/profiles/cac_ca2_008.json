@@ -317,6 +317,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 34,
+      "category": "",
+      "title": "羊祜傳",
+      "paragraph_id": "c-jinshu-034-yanghu:p029",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，賜去城十里外近陵葬地一頃，諡曰成。祜喪既引，帝于大司馬門南臨送。祜甥齊王攸表祜妻不以侯斂之意，帝乃詔曰：「祜固讓歷年，志不可奪。身沒讓存，遺操益厲，此夷叔所以稱賢，季子所以全節也。今聽復本封，以彰高美。」",
+      "paragraph_ids": [
+        "c-jinshu-034-yanghu:p029"
+      ],
+      "mention_ids": [
+        "c-jinshu-034-yanghu:p029:m0100"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-034-yanghu:p029:m0100": "c-jinshu-034-yanghu:p029"
+      },
+      "mention_id": "c-jinshu-034-yanghu:p029:m0100",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu:p029:m0100",
+          "mention_ids": [
+            "c-jinshu-034-yanghu:p029:m0100"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "chapter_id": "c-jinshu-034-yanghu",
+      "source_id": "s-jinshu-034-ws2567662-yanghu",
+      "work_title": "晉書"
+    },
+    {
       "number": 39,
       "category": "",
       "title": "王沈荀顗荀勖馮紞列傳第九",
@@ -862,6 +897,35 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-034-yanghu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-ws2567662-yanghu",
+      "source": {
+        "title": "《晉書》卷三十四羊祜完整本傳及家屬續敘",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "revision_id": 2567662,
+        "accessed_on": "2026-10-22",
+        "extent": "羊祜節題至下一同級杜預節題前，41完整原行，含家屬、承嗣與引錄文書；非全卷，卷末共評未重複匯入。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保來源歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin034-ws2567662.wikitext",
+        "raw_path": "sources/witnesses/jin034-ws2567662.wikitext",
+        "wikitext_sha256": "0dc292f7743a95456ac8fa2977ba82bcaa35e1dd9cebe32fb2ecfab2f21f7a71",
+        "raw_file_sha256": "0dc292f7743a95456ac8fa2977ba82bcaa35e1dd9cebe32fb2ecfab2f21f7a71",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅排版空白、quote/YL模板外殼、wiki連結/粗體標記投影；原字/標點不改，原文與所有排版排除位合為完整節界。實際古本未核。"
+        }
+      }
+    },
     {
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "work_id": "w-jinshu",
@@ -13225,6 +13289,43 @@
   ],
   "relations": [
     {
+      "id": "a-jin034-yanghu-simayou-sheng",
+      "subject_person_id": "cac_ca2_008",
+      "predicate": "kinship_unspecified",
+      "object_person_id": "dqd_5q9_pkz_BD",
+      "qualifiers": {
+        "source_term": "甥",
+        "kinship_basis": "fixed_received_collateral_appellation",
+        "lineage": "unspecified_source_appellation",
+        "object_generation_relative_to_subject": -1,
+        "exact_distance": null,
+        "connecting_person_ids": null,
+        "biological_relationship": "not_determined_by_appellation"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-ws2567662-yanghu",
+          "chapter_id": "c-jinshu-034-yanghu",
+          "paragraph_id": "c-jinshu-034-yanghu:p029",
+          "quote": "祜立身清儉，被服率素，祿俸所資，皆以贍給九族，賞賜軍士，家無餘財。遺令不得以南城侯印入柩。從弟琇等述祜素志，求葬于先人墓次。帝不許，賜去城十里外近陵葬地一頃，諡曰成。祜喪既引，帝于大司馬門南臨送。祜甥齊王攸表祜妻不以侯斂之意，帝乃詔曰：「祜固讓歷年，志不可奪。身沒讓存，遺操益厲，此夷叔所以稱賢，季子所以全節也。今聽復本封，以彰高美。」",
+          "subject_person_mention_id": "c-jinshu-034-yanghu:p029:m0100",
+          "object_person_mention_id": "c-jinshu-034-yanghu:p029:m0000"
+        }
+      ],
+      "interpretation_note": "保收到稱謂/相對世代及母系或未明路徑；甥可涉承嗣姻家，不能以此造中間母或同胞/收養事實。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin034-yanghu-family",
+        "slot": "kin_027"
+      }
+    },
+    {
       "id": "a-jin040-jiachong-family-028",
       "subject_person_id": "das_cyw_pbn",
       "predicate": "spouse",
@@ -13407,6 +13508,7 @@
     "cac_ca2_008": "司馬攸",
     "das_cyw_pbn": "褒〔賈充女，一名荃〕",
     "dkn_ge4_286_AAAAH": "司馬景王",
+    "dqd_5q9_pkz_BD": "羊祜",
     "ee0_b2a_68e": "冏（齊王）"
   },
   "dates": [],
@@ -13445,6 +13547,43 @@
     "cac_ca2_008"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin034-yanghu-simayou-sheng",
+      "subject_person_id": "cac_ca2_008",
+      "predicate": "kinship_unspecified",
+      "object_person_id": "dqd_5q9_pkz_BD",
+      "qualifiers": {
+        "source_term": "甥",
+        "kinship_basis": "fixed_received_collateral_appellation",
+        "lineage": "unspecified_source_appellation",
+        "object_generation_relative_to_subject": -1,
+        "exact_distance": null,
+        "connecting_person_ids": null,
+        "biological_relationship": "not_determined_by_appellation"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-ws2567662-yanghu",
+          "chapter_id": "c-jinshu-034-yanghu",
+          "paragraph_id": "c-jinshu-034-yanghu:p029",
+          "quote": "祜立身清儉，被服率素，祿俸所資，皆以贍給九族，賞賜軍士，家無餘財。遺令不得以南城侯印入柩。從弟琇等述祜素志，求葬于先人墓次。帝不許，賜去城十里外近陵葬地一頃，諡曰成。祜喪既引，帝于大司馬門南臨送。祜甥齊王攸表祜妻不以侯斂之意，帝乃詔曰：「祜固讓歷年，志不可奪。身沒讓存，遺操益厲，此夷叔所以稱賢，季子所以全節也。今聽復本封，以彰高美。」",
+          "subject_person_mention_id": "c-jinshu-034-yanghu:p029:m0100",
+          "object_person_mention_id": "c-jinshu-034-yanghu:p029:m0000"
+        }
+      ],
+      "interpretation_note": "保收到稱謂/相對世代及母系或未明路徑；甥可涉承嗣姻家，不能以此造中間母或同胞/收養事實。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin034-yanghu-family",
+        "slot": "kin_027"
+      }
+    },
     {
       "id": "a-jin040-jiachong-family-028",
       "subject_person_id": "das_cyw_pbn",

@@ -4092,7 +4092,7 @@
       },
       "meaning": "靜之是獻之某一兄之子，奉獻之嗣；兄的個人身份未定。",
       "uncertainty": "不指定徽之/操之/凝之等某名兄，不新建被誤認獨立的具名父。",
-      "native_runtime_status": "source-only階段未產生father/uncle/ritual_successor原生斷言；此機讀source-bound約束保留信息供後續typed包消費，不冒稱已進runtime親屬圖。",
+      "native_runtime_status": "本批已新增來源化paternal_uncle及ritual_successor_of，逐項native_assertion_id可查；兄的個人身份仍未定，未新增其具名父或收養斷言。",
       "source_semantic_relations": [
         {
           "predicate": "paternal_uncle",
@@ -4100,23 +4100,29 @@
           "object_person_id": "sm1_jfi_7k2",
           "object_generation_relative_to_subject": -1,
           "source_term": "兄子",
-          "status": "source_attested_pending_native_fact",
+          "status": "source_attested",
           "source_mention_ids": [
             "c-jinshu-080-wangxizhi:p047:m0095",
             "c-jinshu-080-wangxizhi:p047:m0097"
-          ]
+          ],
+          "native_assertion_id": "a-jin080-wangxizhi-kin_031"
         },
         {
           "predicate": "ritual_successor_of",
           "subject_person_id": "rj2_uog_4rl",
           "object_person_id": "sm1_jfi_7k2",
           "source_term": "以兄子靜之嗣",
-          "status": "source_attested_pending_native_fact",
+          "status": "source_attested",
           "source_mention_ids": [
             "c-jinshu-080-wangxizhi:p047:m0097"
-          ]
+          ],
+          "native_assertion_id": "a-jin080-wangxizhi-kin_032"
         }
-      ]
+      ],
+      "initial_source_only_scope_capture": {
+        "qualification": "historical_source_only_scope_superseded",
+        "native_runtime_status": "source-only階段未產生father/uncle/ritual_successor原生斷言；此機讀source-bound約束保留信息供後續typed包消費，不冒稱已進runtime親屬圖。"
+      }
     },
     {
       "original_mention_id": "c-jinshu-080-wangxizhi:p047:m0146",

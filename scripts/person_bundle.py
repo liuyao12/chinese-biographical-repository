@@ -292,14 +292,19 @@ def load_catalog(root=ROOT):
     except ImportError:from fixed_witness_fact_slots import errors as witness_fact_errors
     fact_errors=witness_fact_errors(root,records)
     if fact_errors:raise ValueError(';'.join(fact_errors))
-    return people, records
+    try:from scripts.profile_title_preferences import PreferenceCatalog
+    except ImportError:from profile_title_preferences import PreferenceCatalog
+    return people, PreferenceCatalog(records,people,root)
 
 
 def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     people, records = catalog if catalog is not None else load_catalog(root)
+    try:from scripts.profile_title_preferences import choice as profile_title_choice
+    except ImportError:from profile_title_preferences import choice as profile_title_choice
     requested_id = person_id
     aliases = {alias: pid for pid, person in people.items() for alias in person.get('id_aliases', [])}
     person_id = aliases.get(person_id, person_id)
+    default_profile_title = profile_title_choice(records,people,person_id,root)
     if person_id not in people:
         raise ValueError('未知人物 ID：' + person_id)
     equivalences = [d for r in records if r.get('record_type') == 'person_equivalence_set' for d in r['decisions']]
@@ -346,7 +351,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             titles.extend(t for t in record['holdings'] if t['person_id'] in ids)
         elif kind == 'person_name_component_set':
             name_components.extend(n for n in record['records'] if n['person_id'] in ids)
-        elif 'decisions' in record and kind not in ('person_equivalence_set', 'family_tree_decision_set'):
+        elif 'decisions' in record and kind not in ('person_equivalence_set', 'family_tree_decision_set', 'profile_title_preference_set'):
             identities.extend(d for d in record['decisions'] if d.get('person_id') in ids
                               or (kind == 'person_identity_decision_set'
                                   and ids.intersection(identity_participant_ids(d))))
@@ -388,7 +393,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
                 ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_received_fact_chain', 'contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_fixed_biography_family') else relations), root=root)
+                 if name['surname_basis'].get('kind') in ('contextual_surname_from_received_fact_chain', 'contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_fixed_biography_family', 'contextual_surname_from_fixed_witness_slots') else relations), root=root)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:
@@ -798,6 +803,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'resolved_identity_cases': resolved_cases} if resolved_cases else {}),
             'reported_variants': reported_variants,
             **({'preferred_title_readings':preferred_titles} if preferred_titles else {}),
+            **({'default_profile_title':default_profile_title} if default_profile_title is not None else {}),
             **({'unresolved_relation_identity_groups': unresolved_relation_groups} if unresolved_relation_groups else {}),
             'family_tree_decisions': tree_decisions, 'preferred_relations': preferred_relations,
             'family_tree_policy': {'default': 'editorial_preferred', 'original_assertions_preserved': True,

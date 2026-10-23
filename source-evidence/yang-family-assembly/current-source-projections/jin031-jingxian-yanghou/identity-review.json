@@ -1,0 +1,282 @@
+{
+  "record_type": "current_identity_endpoint_projection",
+  "historical_file": "source-evidence/jin031-jingxian-yanghou/identity-review.json",
+  "historical_sha256": "1f980dffca45b28f4e77808c7d8ba50603491404537a70804fc60a92fbafea3d",
+  "historical_classification": "original_reading_or_identity_capture_and_editorial_review",
+  "current_family_id": "family-taishan-yang-xu-core",
+  "mapping_receipt_ref": "source-evidence/yang-family-assembly/annotation-chain.json",
+  "person_aliases_created": false,
+  "qualification": "原文檔與所有capture/hash保原bytes；本projection只提供現行結構化人物端點，內部原capture hashes均指historical_file原件，非改寫projection的hash，不冒作新原始見證。",
+  "records": {
+    "review_status": "ai_proposal",
+    "complete_reuse_captures": "prior-complete-source-captures.json",
+    "neighbor_full_units": "neighbor-full-units.json",
+    "decisions": [
+      {
+        "role": "queen",
+        "person_id": "dqd_5q9_pkz_BC",
+        "status": "reuse_editorial_preferred",
+        "local_mentions": [
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0001",
+            "surface": "景獻羊皇后",
+            "start": 0,
+            "end": 5
+          },
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0002",
+            "surface": "徽瑜",
+            "start": 6,
+            "end": 8
+          },
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0004",
+            "surface": "后",
+            "start": 23,
+            "end": 24
+          },
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0001",
+            "surface": "后",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0006",
+            "surface": "后",
+            "start": 32,
+            "end": 33
+          },
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0008",
+            "surface": "弘訓太后",
+            "start": 48,
+            "end": 52
+          },
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0012",
+            "surface": "太后",
+            "start": 76,
+            "end": 78
+          }
+        ],
+        "reason": "本完整單元頭稱景獻羊皇后/徽瑜，中段明武帝受禪居弘訓宮號弘訓太后。040完整禮議為弘訓太后配景皇帝、齊王攸行子禮；093景獻從父弟亦接同人，稱號/配偶/時代相符。",
+        "prior_complete_capture_paths": [
+          "corpus/jinshu/040-jiachong-family.json",
+          "corpus/jinshu/093-yangxiu.json"
+        ],
+        "limitations": [
+          "惠羊后亦居弘訓宮：已另存完整惠羊后單元，其惠帝/劉曜配偶序不同，不能因宮名混合。",
+          "本源無祖名，不補羊琇共祖。"
+        ],
+        "human_reviewed": false
+      },
+      {
+        "role": "jingdi",
+        "person_id": "dkn_ge4_286_AAAAH",
+        "status": "reuse_editorial_preferred",
+        "local_mentions": [
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0003",
+            "surface": "景帝",
+            "start": 13,
+            "end": 15
+          }
+        ],
+        "reason": "031本源為景懷后崩後景帝娶吳質女又納景獻；040該弘訓太后合食景皇帝，與同一queen配偶橋直接相合。",
+        "prior_complete_capture_paths": [
+          "corpus/jinshu/040-jiachong-family.json"
+        ],
+        "limitations": [
+          "原稱景帝保留，不把漢景帝/吳景帝同稱合入。"
+        ],
+        "human_reviewed": false
+      },
+      {
+        "role": "wudi",
+        "person_id": "hgm_jvn_hle",
+        "status": "reuse_editorial_preferred",
+        "local_mentions": [
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0007",
+            "surface": "武帝",
+            "start": 37,
+            "end": 39
+          }
+        ],
+        "reason": "031武帝受禪後給景帝遺后弘訓太后名號；093同晉景/文/武帝脈絡及羊琇為武帝舊恩臣，年代/帝系相符。",
+        "prior_complete_capture_paths": [
+          "corpus/jinshu/093-yangxiu.json"
+        ],
+        "limitations": [
+          "本源只相對受禪，不以既知晉武帝即位年冒本源直接明年。"
+        ],
+        "human_reviewed": false
+      },
+      {
+        "role": "caiyong",
+        "person_id": "gs5_qqu_9ui",
+        "status": "reuse_editorial_preferred",
+        "local_mentions": [
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0006",
+            "surface": "邕",
+            "start": 35,
+            "end": 36
+          }
+        ],
+        "reason": "本源后母陳留蔡氏、漢左中郎將邕之女，氏/名/東漢官屬語境指蔡姓邕。既有HHS盧植完整兩段明東漢蔡邕同東觀校書、董卓時與植往來，宋064為同名碑銘引古；與此東漢蔡邕相容，異姓孫邕不符合蔡氏之父語境。",
+        "prior_complete_capture_paths": [
+          "corpus/houhanshu/064-luzhi.json",
+          "corpus/songshu/064-peisongzhi.json"
+        ],
+        "limitations": [
+          "左中郎將是本031新增用稱，既有引文並非同一官職事件；本判為編輯首選，未閱讀蔡邕獨立全傳或證實其女名字。"
+        ],
+        "human_reviewed": false
+      },
+      {
+        "role": "wuzhi",
+        "person_id": "354_b66_61e",
+        "status": "reuse_editorial_preferred",
+        "local_mentions": [
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0004",
+            "surface": "吳質",
+            "start": 23,
+            "end": 25
+          }
+        ],
+        "reason": "本源全名吳質、魏鎮北將軍、女為景帝前妻。既有SGZ019完整世語段明朝歌長呉質為曹丕/太祖/曹植爭嗣往來者；全名、魏宮廷世代及官路相容，無互斥人物證，不因尚未匯吳質全傳強行另號。",
+        "prior_complete_capture_paths": [
+          "corpus/sanguozhi/019-yangxiu.json"
+        ],
+        "limitations": [
+          "未據本031假稱019已載鎮北將軍/濮陽；職位/地望各自新增原證。呉/吳原字分存。"
+        ],
+        "human_reviewed": false
+      },
+      {
+        "role": "father",
+        "person_id": "dqd_5q9_pkz_B",
+        "status": "new_source_identity_with_cross_biography_preferred_identity",
+        "local_mentions": [
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0003",
+            "surface": "茞",
+            "start": 16,
+            "end": 17
+          }
+        ],
+        "reason": "031明父茞上黨太守，本源人物足以登記。全current registry/aliases及native names無羊茞/衜/羊道；羊祜現有旁見未錄父母。",
+        "prior_complete_capture_paths": [],
+        "limitations": [
+          "未聲稱與未讀羊祜本傳所見父名必異；衜/茞關聯先留待讀，不造reported variant或改字。",
+          "本源未明父祖，不把耽當茞父/兄。"
+        ],
+        "human_reviewed": false,
+        "qualification_followup": "034父道/蔡邕外孫/景獻同產弟與031父茞上黨太守/母蔡氏邕女橋，首選共用父母ID；不把孔融女合為蔡氏。"
+      },
+      {
+        "role": "mother",
+        "person_id": "6bs_o1d_9ti",
+        "status": "new_source_identity_with_cross_biography_preferred_identity",
+        "local_mentions": [
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0005",
+            "surface": "蔡氏",
+            "start": 27,
+            "end": 29
+          },
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0009",
+            "surface": "蔡氏",
+            "start": 60,
+            "end": 62
+          },
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0010",
+            "surface": "濟陽縣君",
+            "start": 62,
+            "end": 66
+          },
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0011",
+            "surface": "穆",
+            "start": 69,
+            "end": 70
+          }
+        ],
+        "reason": "031明后母陳留蔡氏，邕之女；後同母蔡氏追贈濟陽縣君諡穆，原角色鏈一致。",
+        "prior_complete_capture_paths": [],
+        "limitations": [
+          "given name未知；同為后父/母不自行新增夫妻邊。",
+          "本源未明其他子女，不把羊祜硬列蔡氏子。"
+        ],
+        "human_reviewed": false,
+        "qualification_followup": "034父道/蔡邕外孫/景獻同產弟與031父茞上黨太守/母蔡氏邕女橋，首選共用父母ID；不把孔融女合為蔡氏。"
+      },
+      {
+        "role": "jinghuai",
+        "person_id": "m79_hpb_hq8",
+        "status": "new_source_candidate_not_claimed_necessarily_distinct",
+        "local_mentions": [
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0002",
+            "surface": "景懷皇后",
+            "start": 7,
+            "end": 11
+          }
+        ],
+        "reason": "本單元明景懷皇后先崩；完整緊鄰景懷夏侯皇后兩段明諱徽、字媛容、為景帝后，可作同題身份範圍。",
+        "prior_complete_capture_paths": [],
+        "limitations": [
+          "新canonical建議label景懷皇后；如採夏侯徽姓名須連鄰單元原證，不能冒本單元明諱徽。",
+          "不把後段咸寧四年死亡年套給她。"
+        ],
+        "human_reviewed": false
+      },
+      {
+        "role": "wu_daughter",
+        "person_id": "zrm_vi7_fpe",
+        "status": "new_source_candidate_not_claimed_necessarily_distinct",
+        "local_mentions": [
+          {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005",
+            "surface": "女",
+            "start": 25,
+            "end": 26
+          }
+        ],
+        "reason": "本源景帝更娶吳質女、見黜，是可區分的無名個人，非徽瑜或景懷。",
+        "prior_complete_capture_paths": [],
+        "limitations": [
+          "姓名/籍貫/皇后冊立均未明；只記父與明文娶，不稱其曾獲皇后號。"
+        ],
+        "human_reviewed": false
+      }
+    ],
+    "research_capture_canonical_count": 8451,
+    "source_review_baseline_canonical_count": 8482,
+    "status": "current_editorial_review_source_and_typed_native",
+    "parent_identity_bridge_ref": "source-evidence/jin031-jingxian-yanghou/parent-identity-bridge.json"
+  }
+}

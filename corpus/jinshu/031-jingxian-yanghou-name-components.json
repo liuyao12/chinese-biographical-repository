@@ -1,0 +1,136 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_name_component_set",
+  "records": [
+    {
+      "id": "n-jin031-jingxian-yanghou-queen-name",
+      "person_id": "dqd_5q9_pkz_BC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+          "quote": "景獻羊皇后諱徽瑜，泰山南城人。父茞，上黨太守；后母陳留蔡氏，漢左中郎將邕之女也。",
+          "person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0002"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "景獻羊皇后明姓羊、諱徽瑜；不是原文連書羊徽瑜。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "queen-name"
+      },
+      "chapter_id": "c-jinshu-031-jingxian-yanghou",
+      "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+      "quote": "景獻羊皇后諱徽瑜，泰山南城人。父茞，上黨太守；后母陳留蔡氏，漢左中郎將邕之女也。",
+      "person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0002",
+      "surname": "羊",
+      "ming": "徽瑜",
+      "additional_names": [],
+      "source_name_formation": {
+        "kind": "titled_empress_named_head",
+        "head_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0001",
+        "name_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0002",
+        "surname_anchor": {
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+          "start": 2,
+          "end": 3,
+          "surface": "羊"
+        },
+        "name_marker_anchor": {
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+          "start": 5,
+          "end": 6,
+          "surface": "諱"
+        }
+      }
+    },
+    {
+      "id": "n-jin031-jingxian-yanghou-father-name",
+      "person_id": "dqd_5q9_pkz_B",
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+          "quote": "景獻羊皇后諱徽瑜，泰山南城人。父茞，上黨太守；后母陳留蔡氏，漢左中郎將邕之女也。",
+          "person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0003"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "父茞原字；羊姓只依本源女明姓及明父證首選，不由家族ID或羊祜家譜補。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "father-name"
+      },
+      "chapter_id": "c-jinshu-031-jingxian-yanghou",
+      "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+      "quote": "景獻羊皇后諱徽瑜，泰山南城人。父茞，上黨太守；后母陳留蔡氏，漢左中郎將邕之女也。",
+      "person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0003",
+      "surname": "羊",
+      "ming": "茞",
+      "additional_names": [],
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_witness_slots",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "seed_name_slot": "queen-name",
+        "source_assertion_slot": "queen-father",
+        "rationale": "同源女明姓＋明父角色；保茞，不默改道/衜。"
+      }
+    },
+    {
+      "id": "n-jin031-jingxian-yanghou-mother-name",
+      "person_id": "6bs_o1d_9ti",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+          "quote": "景獻羊皇后諱徽瑜，泰山南城人。父茞，上黨太守；后母陳留蔡氏，漢左中郎將邕之女也。",
+          "person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "蔡氏原氏稱，名未知，不猜現代常見補名。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "mother-name"
+      },
+      "chapter_id": "c-jinshu-031-jingxian-yanghou",
+      "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+      "quote": "景獻羊皇后諱徽瑜，泰山南城人。父茞，上黨太守；后母陳留蔡氏，漢左中郎將邕之女也。",
+      "person_mention_id": "c-jinshu-031-jingxian-yanghou:p001:m0005",
+      "surname": "蔡",
+      "ming": null,
+      "additional_names": [],
+      "clan_style": {
+        "kind": "received_clan_appellation",
+        "value": "蔡氏",
+        "source_term": "蔡氏",
+        "assertion_ids": [],
+        "status": "source_attested",
+        "rationale": "本源后母陳留蔡氏，未知名。",
+        "human_reviewed": false
+      }
+    }
+  ]
+}

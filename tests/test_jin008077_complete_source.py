@@ -38,8 +38,8 @@ class CompleteSources(unittest.TestCase):
   p=read('source-evidence/jin008077/caoyanyuan-name-bridge.json');raw=(self.e/'jin090-fixed.txt').read_bytes();self.assertEqual(hashlib.sha256(raw).hexdigest(),p['primary_context']['raw_sha256']);self.assertIn('曹攄，字顏遠',p['primary_context']['complete_unit']);self.assertFalse(p['image_verified']);self.assertEqual(p['person_id'],'h7n_w5t_i1c_AAA*A')
 
  def test_wangxizhi_is_not_wuling_xi(self):
-  p=self.b['paragraphs'][4];m=next(m for m in p['mentions']if m['surface']=='王羲之');self.assertEqual(m['person_id'],'326_faf_cd3');self.assertNotEqual(m['person_id'],'dkn_ge4_286_AAAAAAAD')
-  p=self.b['paragraphs'][11];m=next(m for m in p['mentions']if m['surface']=='武陵王晞');self.assertEqual(m['person_id'],'dkn_ge4_286_AAAAAAAD');self.assertNotEqual(m['person_id'],'326_faf_cd3')
+  p=self.b['paragraphs'][4];m=next(m for m in p['mentions']if m['surface']=='王羲之');self.assertEqual(m['person_id'],'7r6_k52_qji_ABDCB');self.assertNotEqual(m['person_id'],'dkn_ge4_286_AAAAAAAD')
+  p=self.b['paragraphs'][11];m=next(m for m in p['mentions']if m['surface']=='武陵王晞');self.assertEqual(m['person_id'],'dkn_ge4_286_AAAAAAAD');self.assertNotEqual(m['person_id'],'7r6_k52_qji_ABDCB')
 
  def test_prior_emperor_has_complete_caimo_context(self):
   p=self.b['paragraphs'][7];m=next(m for m in p['mentions']if m['surface']=='先帝');self.assertEqual(m['person_id'],'qpk_4pt_y6r');context=read('source-evidence/jin008077/caimo-kangdi-context.json');self.assertEqual([p['raw_line']for p in context['paragraphs']],[93,95,97]);self.assertIn('康帝即位',context['paragraphs'][0]['quote']);self.assertIn('謨先帝師傅',context['paragraphs'][2]['quote'])

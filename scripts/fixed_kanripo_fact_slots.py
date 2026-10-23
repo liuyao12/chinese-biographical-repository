@@ -10,15 +10,28 @@ def strict(a,b):
  if isinstance(a,dict):return a.keys()==b.keys()and all(strict(a[k],b[k])for k in a)
  if isinstance(a,list):return len(a)==len(b)and all(strict(x,y)for x,y in zip(a,b))
  return a==b
+def recipe_for(key,root=ROOT):
+ legacy=json.loads(RECIPE_PATH.read_text())
+ if key==legacy['key']:return legacy,False
+ path=Path(root).resolve()/'scripts/fixed_kanripo_additional_fact_slots.json';assert path.resolve()==path and path.is_file()
+ d=json.loads(path.read_text());assert d['format_version']=='0.1'and isinstance(d['recipes'],dict)and key in d['recipes']
+ r=d['recipes'][key];assert r['key']==key and r['kind']==KIND
+ return r,True
 def grammar(ch,root=ROOT):
  try:from scripts.fixed_kanripo_projection import errors
  except ImportError:from fixed_kanripo_projection import errors
- r=json.loads(RECIPE_PATH.read_text());assert ch['annotation']['fixed_kanripo_fact_slots_ref']==dict(kind=KIND,key=r['key'])
+ r,additional=recipe_for(ch['annotation']['fixed_kanripo_fact_slots_ref']['key'],root);assert ch['annotation']['fixed_kanripo_fact_slots_ref']==dict(kind=KIND,key=r['key'])
  assert ch['annotation'].get('fixed_kanripo_projection_ref')and not errors(ch,root)
- raw_path=Path(ch['source']['raw_path']);assert not raw_path.is_absolute()and raw_path.parts[0]=='source-evidence'and'..'not in raw_path.parts
- raw_file=Path(root).resolve()/raw_path;assert raw_file.resolve()==raw_file
- projection=json.loads((Path(root)/ch['annotation']['fixed_kanripo_projection_ref']).read_text());assert projection['raw_file']==str(raw_path)
- assert ch['source']['revision_id']==r['source_revision']and ch['source']['raw_file_sha256']==r['raw_sha256']and hashlib.sha256((Path(root)/ch['source']['raw_path']).read_bytes()).hexdigest()==r['raw_sha256']
+ projection=json.loads((Path(root)/ch['annotation']['fixed_kanripo_projection_ref']).read_text())
+ raw_path=Path(projection['raw_file']if additional else ch['source']['raw_path']);assert not raw_path.is_absolute()and raw_path.parts[0]=='source-evidence'and'..'not in raw_path.parts
+ raw_file=Path(root).resolve()/raw_path;assert raw_file.resolve()==raw_file and projection['raw_file']==str(raw_path)
+ assert ch['source']['revision_id']==r['source_revision']and hashlib.sha256(raw_file.read_bytes()).hexdigest()==r['raw_sha256']
+ if additional:
+  pinpath=Path(root).resolve()/'scripts/fixed_kanripo_witness_pins.json';assert pinpath.resolve()==pinpath and pinpath.is_file();pins=json.loads(pinpath.read_text())
+  assert pins['chapter_bindings'][ch['id']]==projection['witness_key']==r['witness_key']and pins['witnesses'][r['witness_key']]['raw_sha256']==r['raw_sha256']
+  assert projection['raw_file_sha256']==ch['source']['response_sha256']==r['raw_sha256']
+  assert len(r['paragraph_layers'])==len(ch['paragraphs'])and all(p['text_layer']==layer['text_layer']and p['source_position']['source_layer']==layer['source_layer']for p,layer in zip(ch['paragraphs'],r['paragraph_layers']))
+ else:assert ch['source']['raw_file_sha256']==r['raw_sha256']
  assert len(ch['paragraphs'])==len(r['paragraphs']);roles=[]
  for p,pattern in zip(ch['paragraphs'],r['paragraphs']):
   mm=[m for m in p['mentions']if m['kind']=='person'];pos=0;used=[]
@@ -27,6 +40,9 @@ def grammar(ch,root=ROOT):
     i=int(part[2:-1]);m=mm[i];assert m['start']==pos and p['text'][pos:m['end']]==m['surface'];pos=m['end'];used.append(i)
    else:assert p['text'].startswith(part,pos);pos+=len(part)
   assert pos==len(p['text'])and used==list(range(len(mm)));roles.append(mm)
+ if additional:
+  for group in r['same_person_groups']:
+   assert len(group)>=2 and len({roles[i][j]['person_id']for i,j in group})==1
  return r,roles
 def expand(v,roles):
  if isinstance(v,dict):
@@ -75,7 +91,7 @@ def errors(root,rows):
 
 def valid_from_paragraphs(v,paragraphs,root=ROOT):
  try:
-  r=json.loads(RECIPE_PATH.read_text());ch=json.loads((Path(root)/r['chapter_path']).read_text())
+  key=v['fixed_source_fact_binding'].get('key');r,_=recipe_for(key,root)if key is not None else(json.loads(RECIPE_PATH.read_text()),False);rel=Path(r['chapter_path']);assert not rel.is_absolute()and rel.parts[0]=='corpus'and'..'not in rel.parts;path=Path(root).resolve()/rel;assert path.resolve()==path;ch=json.loads(path.read_text())
   assert all(paragraphs[p['id']]==(ch['id'],p)for p in ch['paragraphs'])
   return valid(v,ch,root)
  except(AssertionError,KeyError,ValueError,TypeError,OSError):return False

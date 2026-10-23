@@ -2,6 +2,10 @@
 
 
 def maternal_role_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule') == 'complete_received_kinship_unit':
+        try:from scripts.received_unit_kinship import valid as unit_relation_valid
+        except ImportError:from received_unit_kinship import valid as unit_relation_valid
+        return unit_relation_valid(assertion, paragraphs)
     if assertion.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
         try:from scripts.fixed_kanripo_fact_slots import valid_from_paragraphs
         except ImportError:from fixed_kanripo_fact_slots import valid_from_paragraphs
