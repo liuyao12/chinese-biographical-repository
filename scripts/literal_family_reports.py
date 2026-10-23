@@ -74,6 +74,10 @@ def kinship_valid(a,paragraphs,chapters,root):
  except(KeyError,ValueError,TypeError,StopIteration,AssertionError,OSError,IndexError):return False
 
 def count_valid(report,paragraphs,chapters,root,parse):
+ if 'received_unit_count_binding' in report:
+  try:from scripts.fixed_wikisource_units import unit_son_count_valid
+  except ImportError:from fixed_wikisource_units import unit_son_count_valid
+  return unit_son_count_valid(report,chapters.get(report.get('evidence',[{}])[0].get('chapter_id'),{}),root,parse)
  try:
   e,=report['evidence'];b=report['literal_source_binding'];p,r,c=bound(e,b,paragraphs,chapters,root);a=report['count_anchor'];n=report['source_number'];parent=r['parent'];member=r['named_child'];t=p['text']
   return (b['kind']=='position_bound_parent_sons_count'and b['rule']=='parent_has_sons_then_named_youngest'and set(r)=={'parent','named_child'}and anchor(p,a)

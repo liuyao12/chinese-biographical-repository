@@ -1,0 +1,80 @@
+{
+  "corrected_entry": "cbr-yangshu-reading-correction/correction.json",
+  "comparison_scope": "只比較完整官方錄文與舊研究資格，不把初讀錯字升格真異文",
+  "items": [
+    {
+      "field": "courtesy_name",
+      "zju_text": "字延景",
+      "older_report": "報告正文敘字未見，先前我拓片初讀延宗",
+      "status": "保官方延景為此數位見證原字；原拓片宗/景仍需覆核；不宣稱宗已證實異文"
+    },
+    {
+      "field": "title",
+      "zju_text": "華州刺史",
+      "older_report": "蓋題描述華州；圖五我的初讀疑東荊州",
+      "status": "此見證明華州，疑東荊州不是已定原石異文，禁止默改任何見證"
+    },
+    {
+      "field": "excavation_date",
+      "zju_text": "1985年8月",
+      "older_report": "1984年7月12日至8月4日基本結束",
+      "status": "實際兩來源衝突，不合併"
+    },
+    {
+      "field": "parentage",
+      "zju_text": "河內清河二郡府君之孫，洛州刺史恒農簡公之第六子。",
+      "older_report": "先前父名真之誤讀已撤回",
+      "status": "本錄文可作有源候選；與魏058同指另逐案，不本包連族"
+    },
+    {
+      "field": "place_graph",
+      "zju_text": "恒農華陰潼鄉習仙里",
+      "older_report": "我的初讀召仙/鄉卿未決",
+      "status": "保各自資格，不用官方字串冒自拓片已辨"
+    },
+    {
+      "field": "quoted_place_diaodu",
+      "zju_text": "鈞城",
+      "scholar_review": "梁春勝2012條34認釣應為鈞之俗字，並引魏書田益宗傳同事件",
+      "status": "研究可參，但本官方已作鈞；不將兩現代來源當獨立古證"
+    }
+  ],
+  "potential_digital_transcription_errors_not_corrected": [
+    {
+      "text": "器春",
+      "reason": "文義/字形疑應器眷；未改本見證"
+    },
+    {
+      "text": "皇鑒乃春",
+      "reason": "疑眷，未改本見證"
+    },
+    {
+      "text": "追增顯秩",
+      "reason": "疑贈，未改本見證"
+    },
+    {
+      "text": "窺〓之望",
+      "reason": "〓原數位錄文未定符，原樣存；非自行補缺"
+    },
+    {
+      "text": "文薄",
+      "reason": "可能古文/轉錄疑，未改"
+    },
+    {
+      "text": "簫宏/粱城/剬",
+      "reason": "所見原數位字保留，不換今通字"
+    }
+  ],
+  "covered": {
+    "official_transcription": "整段完整",
+    "official_metadata": "完整單件欄位",
+    "official_large_image": "只外鏈，未視讀",
+    "1985_rubbing_full_transcription": false,
+    "published_book_page": false,
+    "native_markup": false
+  },
+  "identity_gate": [
+    "楊舒之名不足同人；需對延昌死/熙平葬、年46、洛州簡公第六子、各官/戰事綜合逐項對讀。",
+    "魏058楊昱第六叔舒/妻元和妹為明確後續候選，但本包沒有先合或rekey。"
+  ]
+}

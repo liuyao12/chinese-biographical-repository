@@ -126,6 +126,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 26,
+      "category": "",
+      "title": "卷二十六：郭淮完整傳及裴注、四傳合評與清考證選錄",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+      "paragraph_ids": [
+        "c-sanguozhi-026-guohuai:unit016"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-026-guohuai:unit016:m0062"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-026-guohuai:unit016:m0062": "c-sanguozhi-026-guohuai:unit016"
+      },
+      "mention_id": "c-sanguozhi-026-guohuai:unit016:m0062",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-026-guohuai:unit016:m0062",
+          "mention_ids": [
+            "c-sanguozhi-026-guohuai:unit016:m0062"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "source_id": "s-sanguozhi-026-guohuai",
+      "work_title": "三國志"
+    },
+    {
       "number": 35,
       "category": "",
       "title": "裴楷及附傳近系",
@@ -14427,6 +14462,36 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "source_id": "s-sanguozhi-026-guohuai",
+      "source": {
+        "title": "三國志／魏書卷二十六／郭淮傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "99d0bad47453cda17150ad08d87eefe461707ba9",
+        "raw_file_sha256": "6764b2f841c384aec769c7ceea35deddf8bd05c56d1743b9fc77e10884530590",
+        "raw_path": "sources/sanguozhi/KR2a0012_026-214fcaf.txt",
+        "accessed_on": "2026-10-22",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "302–380郭淮完整傳及三注；381–385四傳合評；395–400郭淮相關清考證。滿寵、田豫、牽招完整本傳未匯，不稱全卷完成。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保全部郭淮傳與三注及合評/郭淮考證；只去版面符號、縮排與注括號。緼/縕/蘊、泰業等收到原字不正字，逐行片段完整投影。",
+          "excerpts": []
+        }
+      }
     }
   ],
   "relations": [
@@ -14468,10 +14533,60 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-sgz026-guohuai-family-008",
+      "subject_person_id": "4rl_6u1_b3j",
+      "predicate": "spouse",
+      "object_person_id": "b0c_13f_c3a",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "適",
+        "source_kinship_frame": {
+          "kind": "received_quoted_family_frame",
+          "rule": "named_woman_marriage",
+          "roles": {
+            "wife": "c-sanguozhi-026-guohuai:unit016:m0060",
+            "husband": "c-sanguozhi-026-guohuai:unit016:m0062"
+          },
+          "fields": {},
+          "scope_anchor": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+            "start": 60,
+            "end": 64,
+            "surface": "女適王衍"
+          },
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_sha256": "544ebaa0b2afab06818689cbf811ac94f2a0f237c3b8cdb2ee1c7a46e15cd1ad",
+          "source_layer": "witness_appended_pei_songzhi_note",
+          "human_reviewed": false,
+          "fixed_witness_reference": {
+            "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+            "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-026",
+          "source_id": "s-sanguozhi-026-guohuai",
+          "chapter_id": "c-sanguozhi-026-guohuai",
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+          "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+          "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0060",
+          "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0062"
+        }
+      ],
+      "interpretation_note": "收到原文層內明示近親；祖不降為父，兄弟不補同父/生母/絕對排行，未名配偶不造名或假定兩女各婚。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "48e_04a_3d8": "王戎",
+    "4rl_6u1_b3j": "郭氏〔王衍妻〕",
     "b0c_13f_c3a": "王衍"
   },
   "dates": [],
@@ -14586,6 +14701,55 @@
         }
       ],
       "interpretation_note": "從弟只父系同輩及年幼；親等共祖未知，不接遠祖。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz026-guohuai-family-008",
+      "subject_person_id": "4rl_6u1_b3j",
+      "predicate": "spouse",
+      "object_person_id": "b0c_13f_c3a",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "適",
+        "source_kinship_frame": {
+          "kind": "received_quoted_family_frame",
+          "rule": "named_woman_marriage",
+          "roles": {
+            "wife": "c-sanguozhi-026-guohuai:unit016:m0060",
+            "husband": "c-sanguozhi-026-guohuai:unit016:m0062"
+          },
+          "fields": {},
+          "scope_anchor": {
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+            "start": 60,
+            "end": 64,
+            "surface": "女適王衍"
+          },
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_sha256": "544ebaa0b2afab06818689cbf811ac94f2a0f237c3b8cdb2ee1c7a46e15cd1ad",
+          "source_layer": "witness_appended_pei_songzhi_note",
+          "human_reviewed": false,
+          "fixed_witness_reference": {
+            "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+            "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-026",
+          "source_id": "s-sanguozhi-026-guohuai",
+          "chapter_id": "c-sanguozhi-026-guohuai",
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+          "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+          "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0060",
+          "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0062"
+        }
+      ],
+      "interpretation_note": "收到原文層內明示近親；祖不降為父，兄弟不補同父/生母/絕對排行，未名配偶不造名或假定兩女各婚。",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null

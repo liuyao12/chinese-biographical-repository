@@ -20,6 +20,10 @@ def errors(chapters,records,root=None):
  return out
 
 def valid(d,ch,hs,qs,root=None):
+ if 'received_source_frame'in d:
+  try:from scripts.fixed_received_career import nonholding_valid
+  except ImportError:from fixed_received_career import nonholding_valid
+  return nonholding_valid(d,ch,root,'detail',hs)
  if 'source_career_role' in d:
   try:from scripts.received_career_roles import detail_valid
   except ImportError:from received_career_roles import detail_valid

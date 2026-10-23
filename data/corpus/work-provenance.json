@@ -416,6 +416,21 @@
       "human_reviewed": false,
       "quote": "並於儀鳳元年（676）上其著作。",
       "evidence_kind": "modern_scholarship"
+    },
+    "r-yangshu-zju-official": {
+      "title": "北魏楊舒墓誌 B-XABL-004",
+      "author": "浙江大學圖書館",
+      "url": "http://csid.zju.edu.cn/tomb/stone/detail?id=40288b955bd07752015bfb74a80002de",
+      "access_scope": "完整公開單件metadata及article文字已讀；圖片僅外鏈未視讀，錄文來源標碑林新藏彙編，刊本未親見。",
+      "human_reviewed": false
+    },
+    "r-yangshu-1985-report": {
+      "title": "陝西華陰北魏楊舒墓發掘簡報",
+      "author": "崔漢林、夏振英",
+      "publication": "文博1985年第2期4–11",
+      "url": "https://lishiwenhua.snnu.edu.cn/__local/B/34/C6/59AB72CB019305C4C1970E62517_0C177A70_1D8465.pdf?e=.pdf#page=1",
+      "access_scope": "PDF1–8印4–11正文及末注、9–10圖版已逐張視讀；只用發掘日期與地點，未冒全誌圖校。",
+      "human_reviewed": false
     }
   },
   "editions": {
@@ -203037,6 +203052,156 @@
         "status": "not_researched",
         "assertions": []
       }
+    },
+    "w-epitaph-yangshu": {
+      "work_id": "w-epitaph-yangshu",
+      "title": "楊舒墓誌",
+      "transmission": "excavated",
+      "composition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "誌撰刻日未明，不以515卒或517葬直接作撰刻日期。"
+      },
+      "earliest_extant_edition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "數位錄文不是原石/原拓或最早刊布日期。"
+      },
+      "burial": {
+        "status": "reported",
+        "assertions": [
+          {
+            "date": {
+              "calendar": "chinese_civil",
+              "year_numbering": "historical_no_year_zero",
+              "start_year": 517,
+              "end_year": 517,
+              "precision": "day",
+              "month": 9,
+              "day": 2
+            },
+            "source_expression": "粵以熙平二年九月二日，卜窆於本縣之舊塋焉。",
+            "reference_ids": [
+              "r-yangshu-zju-official"
+            ],
+            "qualification": "年517由官方本件metadata報告；原文及月日為中國曆，與515死亡另存，未據此定撰刻日。"
+          }
+        ]
+      },
+      "excavation": {
+        "status": "disputed",
+        "assertions": [
+          {
+            "event_kind": "reported_unearthing",
+            "date": {
+              "calendar": "gregorian",
+              "year_numbering": "historical_no_year_zero",
+              "start_year": 1985,
+              "end_year": 1985,
+              "precision": "month",
+              "month": 8
+            },
+            "place_as_reported": "陝西省華陰縣五方鄉",
+            "source_expression": "1985年8月陝西省華陰縣五方鄉出土。",
+            "reference_ids": [
+              "r-yangshu-zju-official"
+            ],
+            "qualification": "官方資料庫報告；與原發掘簡報1984年不合，不覆蓋原報。"
+          },
+          {
+            "event_kind": "excavation_campaign",
+            "date": {
+              "calendar": "gregorian",
+              "year_numbering": "historical_no_year_zero",
+              "start_year": 1984,
+              "end_year": 1984,
+              "precision": "year"
+            },
+            "place_as_reported": "華山北麓華陰縣五方鄉楊家城北2.5華里簡易公路西側",
+            "source_expression": "1984年7月12日開始，到8月4日基本結束",
+            "reference_ids": [
+              "r-yangshu-1985-report"
+            ],
+            "qualification": "已完整視讀印4的實際發掘起迄；date年值是campaign所在年，不代表僅一年精度原記或發現日；月日起迄保source_expression，與資料庫1985出土值並存。"
+          }
+        ]
+      },
+      "human_reviewed": false
+    },
+    "w-guoshi-pu-sgz026-reference": {
+      "work_id": "w-guoshi-pu-sgz026-reference",
+      "title": "郭氏譜（郭淮單元引書）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "郭氏譜",
+      "citation_title_qualification": "裴注按郭氏譜，作者與確切譜題未署；只保本串所引譜。",
+      "citation_qualification": "裴注按郭氏譜，作者與確切譜題未署；只保本串所引譜。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-shantao-qishi-sgz026-reference": {
+      "work_id": "w-shantao-qishi-sgz026-reference",
+      "title": "山濤啓事（郭淮單元引書）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "山濤啓事",
+      "citation_title_qualification": "收到串為山濤啓事；山濤作者/題名邊界未經書目核定，不默改山公啟事。",
+      "citation_qualification": "收到串為山濤啓事；山濤作者/題名邊界未經書目核定，不默改山公啟事。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-taiping-yulan-sgz026-reference": {
+      "work_id": "w-taiping-yulan-sgz026-reference",
+      "title": "太平御覽（郭淮單元引書）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "太平御覽",
+      "citation_title_qualification": "清考以太平御覽報異文；本批未親核被引御覽卷次或版本。",
+      "citation_qualification": "清考以太平御覽報異文；本批未親核被引御覽卷次或版本。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
     }
   },
   "text_bases": {
@@ -205242,6 +205407,50 @@
         "raw_sha256": "a53ae2dbced88decaa460fbf34f87bb5e65a0b37b524480cb362a3bebb1bc19d",
         "image_verified": false
       }
+    },
+    "s-epitaph-yangshu-zju-b-xabl-004": {
+      "source_id": "s-epitaph-yangshu-zju-b-xabl-004",
+      "work_id": "w-epitaph-yangshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "當前數位底本為浙大B-XABL-004所刊《西安碑林博物館新藏墓誌彙編》錄文；刊本版本/頁未親見。"
+    },
+    "s-sanguozhi-026-guohuai": {
+      "source_id": "s-sanguozhi-026-guohuai",
+      "work_id": "w-sanguozhi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "Kanripo BASEEDITION WYG是數位標示；未親核實際刊本/書影，古本及最早見證年代未知。作品既有撰作/裴注奏進時間另存，不以本commit代替。"
+    },
+    "s-weishu-weishou-058-yangjin-ws2087998": {
+      "source_id": "s-weishu-weishou-058-yangjin-ws2087998",
+      "work_id": "w-weishu-weishou",
+      "status": "unknown",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "本源為維基文庫固定修訂2087998的數位轉錄；本卷所據古本／近現代校點本未確認，不能把作品已知最早刻本當本段底本，亦不能以2021數位修訂日期當成書或古本年代。原字、網站所載校勘與外參分層；未核影像。",
+      "digital_witness": {
+        "provider": "Wikisource",
+        "revision_id": 2087998,
+        "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
+        "raw_path": "sources/weishu-weishou/weishu058-ws2087998.wikitext",
+        "raw_sha256": "a53ae2dbced88decaa460fbf34f87bb5e65a0b37b524480cb362a3bebb1bc19d",
+        "image_verified": false
+      }
+    },
+    "s-jinshu-045-ws2595687-guoyi": {
+      "source_id": "s-jinshu-045-ws2595687-guoyi",
+      "work_id": "w-jinshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "WS2595687數位轉錄；未核實際古本或最早存本。作品既有撰作/版本報告不覆寫。"
     }
   }
 }

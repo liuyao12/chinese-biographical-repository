@@ -4,7 +4,7 @@ KIND='epitaph_named_family_full'
 def errors(chapters,records):
  out=[]
  for c in chapters.values():
-  rs=[r for r in records if r.get('chapter_id')==c['id'] and r.get('record_type')in {'person_assertion_set','person_life_event_assertion_set','person_name_component_set','person_address_assertion_set'}]
+  rs=[r for r in records if r.get('chapter_id')==c['id'] and r.get('record_type')in {'person_assertion_set','person_life_event_assertion_set','person_name_component_set','person_address_assertion_set','person_event_assertion_set'}]
   binding=c.get('annotation',{}).get('epitaph_fact_binding')
   if not binding:
    if c.get('paragraphs')and c['paragraphs'][0].get('text_layer')=='epitaph_as_modernly_transcribed'and rs:out.append('Typed epitaph facts need complete source binding')
@@ -14,6 +14,17 @@ def errors(chapters,records):
  return out
 
 def _valid(c,rs,b):
+ if b.get('kind')=='epitaph_named_head_titled_ancestors':
+  try:
+   from scripts.epitaph_titled_ancestors import valid
+  except ImportError:
+   from epitaph_titled_ancestors import valid
+  if c.get('annotation',{}).get('epitaph_life_binding'):
+   try:from scripts.epitaph_named_lifecycle import valid as life_valid
+   except ImportError:from epitaph_named_lifecycle import valid as life_valid
+   life_valid(c,rs)
+   return valid(c,[r for r in rs if r['record_type']=='person_assertion_set'],b)
+  return valid(c,rs,b)
  assert set(b)=={'kind','paragraph_id','roles','paragraph_sha256','source_id','witness_pdf_sha256'} and b['kind']==KIND
  p,=c['paragraphs'];t=p['text'];assert b['paragraph_id']==p['id']and b['source_id']==c['source_id']and hashlib.sha256(t.encode()).hexdigest()==b['paragraph_sha256']
  witness=c['source']['transcription_witness'];assert witness['pdf_sha256']==b['witness_pdf_sha256']and witness['original_stone_or_rubbing_image_verified']is False and c['source']['revision_id']is None

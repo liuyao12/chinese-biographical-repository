@@ -1,5 +1,13 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
-def validate(name,names,chapters,assertions):
+def validate(name,names,chapters,assertions,root=None):
+ if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_received_kinship':
+  try:from .received_family_names import validate as received_names_validate
+  except ImportError:from received_family_names import validate as received_names_validate
+  return received_names_validate(name,names,chapters,assertions,root)
+ if name.get("surname_basis",{}).get("kind")=="contextual_surname_from_bound_received_family_units":
+  try:from .surname_received_family_units import validate as units_validate
+  except ImportError:from surname_received_family_units import validate as units_validate
+  return units_validate(name,names,chapters,assertions,root)
  if 'surname_basis'not in name:return
  if name['surname_basis'].get('kind')=='contextual_surname_from_bound_paternal_ancestor':
   try:from .surname_bound_ancestor import validate as ancestor_validate

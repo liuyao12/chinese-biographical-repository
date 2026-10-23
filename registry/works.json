@@ -1383,6 +1383,15 @@
             "c-sanguozhi-009-caoxiu",
             "c-sanguozhi-009-caozhen"
           ]
+        },
+        {
+          "id": "b-sanguozhi-026",
+          "work_id": "w-sanguozhi",
+          "number": 26,
+          "title": "卷二十六",
+          "chapter_ids": [
+            "c-sanguozhi-026-guohuai"
+          ]
         }
       ],
       "reference_attestations": [
@@ -1760,6 +1769,15 @@
           "chapter_ids": [
             "c-jinshu-043-wangrong",
             "c-jinshu-043-wangyan"
+          ]
+        },
+        {
+          "id": "b-jinshu-045",
+          "work_id": "w-jinshu",
+          "number": 45,
+          "title": "卷045",
+          "chapter_ids": [
+            "c-jinshu-045-guoyi"
           ]
         }
       ]
@@ -2353,7 +2371,8 @@
           "title": "卷五十八 列傳第四十六",
           "chapter_ids": [
             "c-weishu-weishou-058-yangbo-yangkan",
-            "c-weishu-weishou-058-yangchun"
+            "c-weishu-weishou-058-yangchun",
+            "c-weishu-weishou-058-yangjin"
           ]
         }
       ],
@@ -5387,6 +5406,58 @@
           "quote": "轉長水校尉領本職沖之造安邊論欲開屯田廣農殖建武中明帝使沖之巡行四方興造大業可以利百姓者㑹連有軍事事竟不行"
         }
       ]
+    },
+    {
+      "id": "w-epitaph-yangshu",
+      "title": "楊舒墓誌",
+      "author": null,
+      "work_type": "single_epitaph",
+      "status": "in_progress",
+      "expected_books": 1,
+      "numbering_note": "原物單方墓誌，book為編輯全文容器，不冒古代卷一。",
+      "books": [
+        {
+          "id": "b-epitaph-yangshu-full",
+          "work_id": "w-epitaph-yangshu",
+          "number": null,
+          "title": "全文（編輯容器）",
+          "unit_kind": "editorial_single_text_container",
+          "original_volume_number": null,
+          "chapter_ids": [
+            "c-epitaph-yangshu-zju-full"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w-guoshi-pu-sgz026-reference",
+      "title": "郭氏譜（郭淮單元引書）",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "citation_title": "郭氏譜",
+      "citation_title_qualification": "裴注按郭氏譜，作者與確切譜題未署；只保本串所引譜。",
+      "citation_qualification": "裴注按郭氏譜，作者與確切譜題未署；只保本串所引譜。"
+    },
+    {
+      "id": "w-shantao-qishi-sgz026-reference",
+      "title": "山濤啓事（郭淮單元引書）",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "citation_title": "山濤啓事",
+      "citation_title_qualification": "收到串為山濤啓事；山濤作者/題名邊界未經書目核定，不默改山公啟事。",
+      "citation_qualification": "收到串為山濤啓事；山濤作者/題名邊界未經書目核定，不默改山公啟事。"
+    },
+    {
+      "id": "w-taiping-yulan-sgz026-reference",
+      "title": "太平御覽（郭淮單元引書）",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "citation_title": "太平御覽",
+      "citation_title_qualification": "清考以太平御覽報異文；本批未親核被引御覽卷次或版本。",
+      "citation_qualification": "清考以太平御覽報異文；本批未親核被引御覽卷次或版本。"
     }
   ],
   "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"

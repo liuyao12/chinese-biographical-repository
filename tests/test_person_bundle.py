@@ -482,7 +482,7 @@ class PersonBundleTests(unittest.TestCase):
         for page in page_texts:
             self.assertLess(len(page.encode('utf-8')), 500_000)
             source_refs = set(re.findall(r'\[《[^]]+》\]\[(\d+)\]', page))
-            definitions = set(re.findall(r'^\[(\d+)\]: https://', page, re.M))
+            definitions = set(re.findall(r'^\[(\d+)\]: https?://', page, re.M))
             self.assertTrue(source_refs.issubset(definitions))
         text = '\n'.join(page_texts)
         extra = next(row for row in index['persons'] if row['person_id'] == '5dd_l1c_6g8_C')
@@ -497,7 +497,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(text.count('<details>'), text.count('</details>'))
         self.assertIn('%2A', text)
         source_refs = set(re.findall(r'\[《[^]]+》\]\[(\d+)\]', text))
-        definitions = set(re.findall(r'^\[(\d+)\]: https://', text, re.M))
+        definitions = set(re.findall(r'^\[(\d+)\]: https?://', text, re.M))
         self.assertTrue(source_refs)
         self.assertTrue(source_refs.issubset(definitions))
 

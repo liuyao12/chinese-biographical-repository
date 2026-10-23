@@ -133,6 +133,9 @@ def build(root=ROOT, person_ids=None):
             profile['date_ranges'] = [x for x in b['date_range_normalizations'] if x['person_id'] in own]
         profile['age_assertions'] = b.get('age_assertions', [])
         profile['life_events'] = [x for x in b.get('life_events', []) if x['person_id'] in own]
+        person_events = [x for x in (b.get('person_events') or []) if x['person_id'] in own]
+        if person_events:
+            profile['person_events'] = person_events
         if b.get('chinese_civil_year_normalizations'):
             profile['chinese_civil_year_normalizations'] = [x for x in b['chinese_civil_year_normalizations'] if x['person_id'] in own]
         profile['life_event_date_decisions'] = b.get('life_event_date_decisions', [])

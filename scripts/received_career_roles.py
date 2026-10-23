@@ -93,6 +93,14 @@ def analyse(record,ch):
  return p,roles,fields,slots
 
 def holding_valid(h,ch):
+ if h.get('source_career_role',{}).get('kind')=='punctuated_biography_career_frame':
+  try:from scripts.punctuated_biography_career import holding_valid as punctuated_valid
+  except ImportError:from punctuated_biography_career import holding_valid as punctuated_valid
+  return punctuated_valid(h,ch)
+ if h.get('source_career_role',{}).get('kind')=='epitaph_named_head_career_clause':
+  try:from scripts.epitaph_career_roles import holding_valid as epitaph_valid
+  except ImportError:from epitaph_career_roles import holding_valid as epitaph_valid
+  return epitaph_valid(h,ch)
  if h.get('source_career_role',{}).get('kind')=='layered_biographical_role_frame':
   try:from scripts.layered_biography_titles import holding_valid as layered_valid
   except ImportError:from layered_biography_titles import holding_valid as layered_valid
@@ -112,6 +120,14 @@ def holding_valid(h,ch):
  except(KeyError,TypeError,ValueError,AssertionError,StopIteration,IndexError):return False
 
 def detail_valid(d,ch,holdings):
+ if d.get('source_career_role',{}).get('kind')=='punctuated_biography_career_frame':
+  try:from scripts.punctuated_biography_career import detail_valid as punctuated_detail_valid
+  except ImportError:from punctuated_biography_career import detail_valid as punctuated_detail_valid
+  return punctuated_detail_valid(d,ch,holdings)
+ if d.get('source_career_role',{}).get('kind')=='epitaph_named_head_military_duty':
+  try:from scripts.epitaph_career_roles import detail_valid as epitaph_detail_valid
+  except ImportError:from epitaph_career_roles import detail_valid as epitaph_detail_valid
+  return epitaph_detail_valid(d,ch)
  if d.get('source_career_role',{}).get('kind')=='layered_biographical_role_frame':
   try:from scripts.layered_biography_titles import detail_valid as layered_detail_valid
   except ImportError:from layered_biography_titles import detail_valid as layered_detail_valid

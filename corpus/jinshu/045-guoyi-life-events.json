@@ -1,0 +1,161 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-jinshu-045-guoyi",
+  "events": [
+    {
+      "id": "le-jin045-guoyi-death",
+      "person_id": "64e_ce8_aba",
+      "event_type": "death",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-045-guoyi:p002",
+        "start": 73,
+        "end": 74,
+        "surface": "卒"
+      },
+      "date_expression": "太康八年",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-045",
+          "source_id": "s-jinshu-045-ws2595687-guoyi",
+          "chapter_id": "c-jinshu-045-guoyi",
+          "paragraph_id": "c-jinshu-045-guoyi:p002",
+          "quote": "太康中，徵為尚書。奕有重名，當世朝臣皆出其下。時帝委任楊駿，奕表駿小器，不可任以社稷。帝不聽，駿後果誅。及奕疾病，詔賜錢二十萬，日給酒米。太康八年卒，太常上諡為景。有司議以貴賤不同號，諡與景皇同，不可，請諡曰穆。詔曰：「諡所以旌德表行，按諡法一德不懈為簡。奕忠毅清直，立德不渝。」於是遂賜諡曰簡。",
+          "person_mention_id": "c-jinshu-045-guoyi:p002:m0009"
+        }
+      ],
+      "interpretation_note": "本傳太康八年明卒287中國曆年；無出生/葬或死亡地，不能推任終。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 287,
+        "year": 287,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "太康八年",
+        "status": "editorial_provisional",
+        "original_quote": "太康中，徵為尚書。奕有重名，當世朝臣皆出其下。時帝委任楊駿，奕表駿小器，不可任以社稷。帝不聽，駿後果誅。及奕疾病，詔賜錢二十萬，日給酒米。太康八年卒，太常上諡為景。有司議以貴賤不同號，諡與景皇同，不可，請諡曰穆。詔曰：「諡所以旌德表行，按諡法一德不懈為簡。奕忠毅清直，立德不渝。」於是遂賜諡曰簡。",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-045",
+            "source_id": "s-jinshu-045-ws2595687-guoyi",
+            "chapter_id": "c-jinshu-045-guoyi",
+            "paragraph_id": "c-jinshu-045-guoyi:p002",
+            "quote": "太康中，徵為尚書。奕有重名，當世朝臣皆出其下。時帝委任楊駿，奕表駿小器，不可任以社稷。帝不聽，駿後果誅。及奕疾病，詔賜錢二十萬，日給酒米。太康八年卒，太常上諡為景。有司議以貴賤不同號，諡與景皇同，不可，請諡曰穆。詔曰：「諡所以旌德表行，按諡法一德不懈為簡。奕忠毅清直，立德不渝。」於是遂賜諡曰簡。",
+            "person_mention_id": "c-jinshu-045-guoyi:p002:m0009"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "太康",
+            "scope": "modern_era_year_equivalence_only",
+            "columns": {
+              "dynasty": "西晉",
+              "era_name": "太康",
+              "first_year": "280",
+              "last_year": "289"
+            },
+            "accessed_on": "2026-10-22",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "reference_index": 0,
+          "start_ce_year": 280,
+          "end_ce_year": 289,
+          "regnal_year": 8,
+          "source_number": "八",
+          "era_name": "太康"
+        },
+        "rationale": "實讀官方太康280–289表，八年換算287中國曆年；不作西曆月日。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false
+      },
+      "source_death_context": {
+        "kind": "punctuated_biography_death_report",
+        "rule": "illness_gift_then_dated_death",
+        "source_revision": 2595687,
+        "paragraph_sha256": "6c7232e072213a4abad8764653545676a9151f76764096ce270e734858d81273",
+        "subject_mention_id": "c-jinshu-045-guoyi:p002:m0009",
+        "clause_anchor": {
+          "paragraph_id": "c-jinshu-045-guoyi:p002",
+          "start": 52,
+          "end": 74,
+          "surface": "及奕疾病，詔賜錢二十萬，日給酒米。太康八年卒"
+        },
+        "death_anchor": {
+          "paragraph_id": "c-jinshu-045-guoyi:p002",
+          "start": 73,
+          "end": 74,
+          "surface": "卒"
+        },
+        "date_anchor": {
+          "paragraph_id": "c-jinshu-045-guoyi:p002",
+          "start": 69,
+          "end": 73,
+          "surface": "太康八年"
+        },
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "le-jin045-yangjun-death",
+      "person_id": "603_131_11e",
+      "event_type": "death",
+      "source_term": "誅",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-045-guoyi:p002",
+        "start": 50,
+        "end": 51,
+        "surface": "誅"
+      },
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-045",
+          "source_id": "s-jinshu-045-ws2595687-guoyi",
+          "chapter_id": "c-jinshu-045-guoyi",
+          "paragraph_id": "c-jinshu-045-guoyi:p002",
+          "quote": "太康中，徵為尚書。奕有重名，當世朝臣皆出其下。時帝委任楊駿，奕表駿小器，不可任以社稷。帝不聽，駿後果誅。及奕疾病，詔賜錢二十萬，日給酒米。太康八年卒，太常上諡為景。有司議以貴賤不同號，諡與景皇同，不可，請諡曰穆。詔曰：「諡所以旌德表行，按諡法一德不懈為簡。奕忠毅清直，立德不渝。」於是遂賜諡曰簡。",
+          "person_mention_id": "c-jinshu-045-guoyi:p002:m0008"
+        }
+      ],
+      "interpretation_note": "後果誅為楊駿死亡回顧，原句無年，不借郭奕卒年287。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "source_death_context": {
+        "kind": "punctuated_biography_death_report",
+        "rule": "later_executed_subject",
+        "source_revision": 2595687,
+        "paragraph_sha256": "6c7232e072213a4abad8764653545676a9151f76764096ce270e734858d81273",
+        "subject_mention_id": "c-jinshu-045-guoyi:p002:m0008",
+        "clause_anchor": {
+          "paragraph_id": "c-jinshu-045-guoyi:p002",
+          "start": 47,
+          "end": 51,
+          "surface": "駿後果誅"
+        },
+        "death_anchor": {
+          "paragraph_id": "c-jinshu-045-guoyi:p002",
+          "start": 50,
+          "end": 51,
+          "surface": "誅"
+        },
+        "human_reviewed": false
+      }
+    }
+  ]
+}

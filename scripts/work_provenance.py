@@ -56,6 +56,15 @@ def scaffold(root):
     return data
 
 
+
+def public_reference_url(value):
+    if not isinstance(value,str) or any(c.isspace() or ord(c)<32 or ord(c)==127 for c in value):return False
+    try:
+        from urllib.parse import urlsplit
+        u=urlsplit(value)
+        return u.scheme in ('http','https') and bool(u.hostname) and u.username is None and u.password is None
+    except ValueError:return False
+
 def validate(data, root=None):
     assert data['schema_version'] == 1
     refs, editions = data['references'], data['editions']
@@ -74,7 +83,7 @@ def validate(data, root=None):
         if value['precision'] == 'day':
             assert 1 <= value['day'] <= 31
     for ref in refs.values():
-        assert ref['title'] and ref['url'].startswith('https://')
+        assert ref['title'] and public_reference_url(ref['url'])
         assert ref['access_scope'] and ref['human_reviewed'] is False
     for eid, edition in editions.items():
         assert edition['id'] == eid and edition['work_id'] in data['works']

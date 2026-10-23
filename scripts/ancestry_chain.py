@@ -67,7 +67,7 @@ def explicit_four_ancestor_sequence_valid(near, far, assertions, chapters):
     return False
 
 
-def consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
+def consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=None):
     c = member.get('parent_connection')
     if not isinstance(c, dict):
         return False
@@ -81,6 +81,10 @@ def consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
         try:from .punctuated_ancestor_offices import valid as punctuated_valid
         except ImportError:from punctuated_ancestor_offices import valid as punctuated_valid
         return punctuated_valid(member, rows, assertions, chapters)
+    if c.get('interpretation_basis') == 'epitaph_bound_titled_ancestor_sequence':
+        try:from .epitaph_titled_ancestry import valid as titled_valid
+        except ImportError:from epitaph_titled_ancestry import valid as titled_valid
+        return titled_valid(member, rows, assertions, chapters, root)
     if c.get('interpretation_basis') == 'epitaph_named_family_sequence':
         try:
             from .epitaph_ancestry import valid as epitaph_parent_valid

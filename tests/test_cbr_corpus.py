@@ -16,13 +16,9 @@ class CorpusTests(unittest.TestCase):
         # Source-scoped display choices bind records in the editorial name dataset.
         (self.root/'data/corpus').mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT/'data/corpus/profile-names.json', self.root/'data/corpus/profile-names.json')
-        shutil.copytree(ROOT/'sources/calendar-context',self.root/'sources/calendar-context')
-        shutil.copytree(ROOT/'sources/witnesses',self.root/'sources/witnesses')
-        shutil.copytree(ROOT/'sources/weishu-weishou',self.root/'sources/weishu-weishou')
-        shutil.copytree(ROOT/'sources/songshu',self.root/'sources/songshu')
-        # Source-bound cousin claims validate their actual fixed raw witnesses.
-        for folder in ('liangshu', 'nanshi'):
-            shutil.copytree(ROOT/'sources'/folder, self.root/'sources'/folder)
+        # Source-bound claims need their complete fixed witnesses and date references.
+        shutil.copytree(ROOT/'sources', self.root/'sources')
+        shutil.copytree(ROOT/'data/works', self.root/'data/works')
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_work_mention_cannot_link_person(self):

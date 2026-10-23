@@ -128,7 +128,7 @@ def load_assemblies(root, catalog):
                 connection = member.get('parent_connection')
                 if connection:
                     if connection.get('type') == 'parent_between_consecutive_ancestors':
-                        if not consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
+                        if not consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=root):
                             raise ValueError('連續具名祖先組裝缺少相符世次及同段證據')
                     elif connection.get('type') == 'parent_between_body_and_attached_note_ancestors':
                         try:

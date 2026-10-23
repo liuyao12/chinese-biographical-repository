@@ -1,0 +1,840 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_name_component_set",
+  "chapter_id": "c-sanguozhi-026-guohuai",
+  "records": [
+    {
+      "id": "name-sgz026-guohuai",
+      "person_id": "d7u_f1n_let",
+      "surname": "郭",
+      "ming": "淮",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit001",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit001:m0000",
+      "quote": "郭淮字伯濟太原陽曲人也",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原字與原人物錨保留；姓名構件是來源內閱讀，不改原稱或擴全局alias。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "full_name",
+        "paragraph_sha256": "9d6e928acfe223605e3473d7ce06c4a9c98b0f5ac1053c30aa15984660f80826",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "courtesy_anchor": {
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit001",
+          "start": 3,
+          "end": 5,
+          "surface": "伯濟"
+        }
+      },
+      "zi": "伯濟"
+    },
+    {
+      "id": "name-sgz026-wangling",
+      "person_id": "f89_ad1_61d",
+      "surname": "王",
+      "ming": "凌",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit014",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit014:m0005",
+      "quote": "世語曰淮妻王凌之妹凌誅妹當從坐御史往収督將及羌胡渠帥數千人叩頭請淮表留妻淮不從妻上道莫不流涕人人扼腕欲劫留之淮五子叩頭流血請淮淮不忍視乃命左右追妻於是追者數千騎數日而還淮以書白司馬宣王曰五子哀母不惜其身若無其母是無五子無五子亦無淮也今輒追還若於法未通當受罪於主者覲展在近書至宣王亦宥之",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原字與原人物錨保留；姓名構件是來源內閱讀，不改原稱或擴全局alias。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "full_name",
+        "paragraph_sha256": "d64bf196bb5af4f2be47561b6176810453cdff30734b3ae2e54763292534cd7a",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        }
+      }
+    },
+    {
+      "id": "name-sgz026-quan",
+      "person_id": "r02_hoi_pu7",
+      "surname": "郭",
+      "ming": "全",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0006",
+      "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原人物錨只明名；姓郭為固定收到同源明親屬路徑的有資格編輯推姓，不把拼名當原引句、不造未知父或同父。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "ming_only",
+        "paragraph_sha256": "812f07703b93f010dfd6a4e5288525d6de80539747c07afe58fa67b17459a0ba",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        }
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_received_kinship",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "已讀完整收到單元，以原全文名郭淮及逐條已驗父/祖/兄弟來源角色作有限姓氏承接，不據ID或後譜。",
+        "source_name_record_id": "name-sgz026-guohuai",
+        "source_full_quote": "郭淮字伯濟太原陽曲人也",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-002",
+            "from_person_id": "d7u_f1n_let",
+            "to_person_id": "r02_hoi_pu7",
+            "traversal": "child_to_grandfather",
+            "generation_before": 0,
+            "generation_after": -2,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+                "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0004",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0006"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-sgz026-wen",
+      "person_id": "ozn_wl2_nrm",
+      "surname": "郭",
+      "ming": "緼",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0011",
+      "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原人物錨只明名；姓郭為固定收到同源明親屬路徑的有資格編輯推姓，不把拼名當原引句、不造未知父或同父。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "ming_only",
+        "paragraph_sha256": "812f07703b93f010dfd6a4e5288525d6de80539747c07afe58fa67b17459a0ba",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        }
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_received_kinship",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "已讀完整收到單元，以原全文名郭淮及逐條已驗父/祖/兄弟來源角色作有限姓氏承接，不據ID或後譜。",
+        "source_name_record_id": "name-sgz026-guohuai",
+        "source_full_quote": "郭淮字伯濟太原陽曲人也",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-001",
+            "from_person_id": "d7u_f1n_let",
+            "to_person_id": "ozn_wl2_nrm",
+            "traversal": "child_to_father",
+            "generation_before": 0,
+            "generation_after": -1,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+                "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0004",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit002:m0011"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-sgz026-pei",
+      "person_id": "vji_mqe_2dj",
+      "surname": "郭",
+      "ming": "配",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0007",
+      "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原人物錨只明名；姓郭為固定收到同源明親屬路徑的有資格編輯推姓，不把拼名當原引句、不造未知父或同父。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "ming_only",
+        "paragraph_sha256": "544ebaa0b2afab06818689cbf811ac94f2a0f237c3b8cdb2ee1c7a46e15cd1ad",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "courtesy_anchor": {
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+          "start": 9,
+          "end": 11,
+          "surface": "仲南"
+        }
+      },
+      "zi": "仲南",
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_received_kinship",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "已讀完整收到單元，以原全文名郭淮及逐條已驗父/祖/兄弟來源角色作有限姓氏承接，不據ID或後譜。",
+        "source_name_record_id": "name-sgz026-guohuai",
+        "source_full_quote": "郭淮字伯濟太原陽曲人也",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-006",
+            "from_person_id": "d7u_f1n_let",
+            "to_person_id": "vji_mqe_2dj",
+            "traversal": "older_to_younger",
+            "generation_before": 0,
+            "generation_after": 0,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0007",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0005"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-sgz026-zhan",
+      "person_id": "8bq_8u2_yd8",
+      "surname": "郭",
+      "ming": "展",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0029",
+      "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原人物錨只明名；姓郭為固定收到同源明親屬路徑的有資格編輯推姓，不把拼名當原引句、不造未知父或同父。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "ming_only",
+        "paragraph_sha256": "544ebaa0b2afab06818689cbf811ac94f2a0f237c3b8cdb2ee1c7a46e15cd1ad",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "courtesy_anchor": {
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+          "start": 31,
+          "end": 33,
+          "surface": "泰舒"
+        }
+      },
+      "zi": "泰舒",
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_received_kinship",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "已讀完整收到單元，以原全文名郭淮及逐條已驗父/祖/兄弟來源角色作有限姓氏承接，不據ID或後譜。",
+        "source_name_record_id": "name-sgz026-guohuai",
+        "source_full_quote": "郭淮字伯濟太原陽曲人也",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-006",
+            "from_person_id": "d7u_f1n_let",
+            "to_person_id": "vji_mqe_2dj",
+            "traversal": "older_to_younger",
+            "generation_before": 0,
+            "generation_after": 0,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0007",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0005"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-sgz026-guohuai-family-009",
+            "from_person_id": "vji_mqe_2dj",
+            "to_person_id": "8bq_8u2_yd8",
+            "traversal": "father_to_child",
+            "generation_before": 0,
+            "generation_after": 1,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0029",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0025"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-sgz026-yu",
+      "person_id": "28k_44w_ibb",
+      "surname": "郭",
+      "ming": "豫",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0048",
+      "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原人物錨只明名；姓郭為固定收到同源明親屬路徑的有資格編輯推姓，不把拼名當原引句、不造未知父或同父。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "ming_only",
+        "paragraph_sha256": "544ebaa0b2afab06818689cbf811ac94f2a0f237c3b8cdb2ee1c7a46e15cd1ad",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "courtesy_anchor": {
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+          "start": 50,
+          "end": 52,
+          "surface": "泰寧"
+        }
+      },
+      "zi": "泰寧",
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_received_kinship",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "已讀完整收到單元，以原全文名郭淮及逐條已驗父/祖/兄弟來源角色作有限姓氏承接，不據ID或後譜。",
+        "source_name_record_id": "name-sgz026-guohuai",
+        "source_full_quote": "郭淮字伯濟太原陽曲人也",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-006",
+            "from_person_id": "d7u_f1n_let",
+            "to_person_id": "vji_mqe_2dj",
+            "traversal": "older_to_younger",
+            "generation_before": 0,
+            "generation_after": 0,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0007",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0005"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-sgz026-guohuai-family-009",
+            "from_person_id": "vji_mqe_2dj",
+            "to_person_id": "8bq_8u2_yd8",
+            "traversal": "father_to_child",
+            "generation_before": 0,
+            "generation_after": 1,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0029",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0025"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-sgz026-guohuai-family-010",
+            "from_person_id": "8bq_8u2_yd8",
+            "to_person_id": "28k_44w_ibb",
+            "traversal": "older_to_younger",
+            "generation_before": 1,
+            "generation_after": 1,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0048",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0029"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-sgz026-zhen",
+      "person_id": "d2s_53o_65p",
+      "surname": "郭",
+      "ming": "鎮",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0066",
+      "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原人物錨只明名；姓郭為固定收到同源明親屬路徑的有資格編輯推姓，不把拼名當原引句、不造未知父或同父。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "ming_only",
+        "paragraph_sha256": "544ebaa0b2afab06818689cbf811ac94f2a0f237c3b8cdb2ee1c7a46e15cd1ad",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "courtesy_anchor": {
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+          "start": 68,
+          "end": 70,
+          "surface": "季南"
+        }
+      },
+      "zi": "季南",
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_received_kinship",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "已讀完整收到單元，以原全文名郭淮及逐條已驗父/祖/兄弟來源角色作有限姓氏承接，不據ID或後譜。",
+        "source_name_record_id": "name-sgz026-guohuai",
+        "source_full_quote": "郭淮字伯濟太原陽曲人也",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-006",
+            "from_person_id": "d7u_f1n_let",
+            "to_person_id": "vji_mqe_2dj",
+            "traversal": "older_to_younger",
+            "generation_before": 0,
+            "generation_after": 0,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0007",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0005"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-sgz026-guohuai-family-007",
+            "from_person_id": "vji_mqe_2dj",
+            "to_person_id": "d2s_53o_65p",
+            "traversal": "older_to_younger",
+            "generation_before": 0,
+            "generation_after": 0,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0066",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0064"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-sgz026-yi",
+      "person_id": "64e_ce8_aba",
+      "surname": "郭",
+      "ming": "奕",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0076",
+      "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原人物錨只明名；姓郭為固定收到同源明親屬路徑的有資格編輯推姓，不把拼名當原引句、不造未知父或同父。 此record字泰業只屬本段裴注引《晉諸公贊》；《晉書》045另收到大業，分源並存，未設global preferred，未圖校裁正。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "ming_only",
+        "paragraph_sha256": "544ebaa0b2afab06818689cbf811ac94f2a0f237c3b8cdb2ee1c7a46e15cd1ad",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "courtesy_anchor": {
+          "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+          "start": 78,
+          "end": 80,
+          "surface": "泰業"
+        }
+      },
+      "zi": "泰業",
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_received_kinship",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "已讀完整收到單元，以原全文名郭淮及逐條已驗父/祖/兄弟來源角色作有限姓氏承接，不據ID或後譜。",
+        "source_name_record_id": "name-sgz026-guohuai",
+        "source_full_quote": "郭淮字伯濟太原陽曲人也",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-006",
+            "from_person_id": "d7u_f1n_let",
+            "to_person_id": "vji_mqe_2dj",
+            "traversal": "older_to_younger",
+            "generation_before": 0,
+            "generation_after": 0,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0007",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0005"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-sgz026-guohuai-family-007",
+            "from_person_id": "vji_mqe_2dj",
+            "to_person_id": "d2s_53o_65p",
+            "traversal": "older_to_younger",
+            "generation_before": 0,
+            "generation_after": 0,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0066",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0064"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-sgz026-guohuai-family-005",
+            "from_person_id": "d2s_53o_65p",
+            "to_person_id": "64e_ce8_aba",
+            "traversal": "father_to_child",
+            "generation_before": 0,
+            "generation_after": 1,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit016",
+                "quote": "晉諸公贊曰淮弟配字仲南有重名位至城陽太守裴秀賈充皆配女婿子展字泰舒有器度幹用歴職著績終於太僕次弟豫字泰寧相國參軍知名早卒女適王衍配弟鎮字季南謁者僕射鎮子奕字泰業山濤啓事稱奕高簡有雅量歴位雍州刺史尚書",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0076",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit016:m0074"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-sgz026-tong",
+      "person_id": "1cz_c76_jxs",
+      "surname": "郭",
+      "ming": "統",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0015",
+      "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原人物錨只明名；姓郭為固定收到同源明親屬路徑的有資格編輯推姓，不把拼名當原引句、不造未知父或同父。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "ming_only",
+        "paragraph_sha256": "dbf344e683c7ddc944939b1d6369ba8e6b54974c2fc1ba520d6ea9397de00374",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        }
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_received_kinship",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "已讀完整收到單元，以原全文名郭淮及逐條已驗父/祖/兄弟來源角色作有限姓氏承接，不據ID或後譜。",
+        "source_name_record_id": "name-sgz026-guohuai",
+        "source_full_quote": "郭淮字伯濟太原陽曲人也",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-013",
+            "from_person_id": "d7u_f1n_let",
+            "to_person_id": "1cz_c76_jxs",
+            "traversal": "father_to_child",
+            "generation_before": 0,
+            "generation_after": 1,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+                "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0015",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0036"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-sgz026-zheng",
+      "person_id": "tiq_tug_olu",
+      "surname": "郭",
+      "ming": "正",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026",
+      "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "原人物錨只明名；姓郭為固定收到同源明親屬路徑的有資格編輯推姓，不把拼名當原引句、不造未知父或同父。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "ming_only",
+        "paragraph_sha256": "dbf344e683c7ddc944939b1d6369ba8e6b54974c2fc1ba520d6ea9397de00374",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        }
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_received_kinship",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "已讀完整收到單元，以原全文名郭淮及逐條已驗父/祖/兄弟來源角色作有限姓氏承接，不據ID或後譜。",
+        "source_name_record_id": "name-sgz026-guohuai",
+        "source_full_quote": "郭淮字伯濟太原陽曲人也",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-013",
+            "from_person_id": "d7u_f1n_let",
+            "to_person_id": "1cz_c76_jxs",
+            "traversal": "father_to_child",
+            "generation_before": 0,
+            "generation_after": 1,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+                "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0015",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0036"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-sgz026-guohuai-family-014",
+            "from_person_id": "1cz_c76_jxs",
+            "to_person_id": "tiq_tug_olu",
+            "traversal": "father_to_child",
+            "generation_before": 1,
+            "generation_after": 2,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit015",
+                "quote": "正元二年薨追贈大將軍諡曰貞侯子統嗣統官至荆州刺史薨子正嗣咸熙中開建五等以淮著勲前朝改封汾陽子",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0026",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit015:m0017"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-sgz026-guohuai-wife-wang-clan",
+      "person_id": "foz_lt0_au5",
+      "surname": "王",
+      "ming": null,
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit014",
+      "person_mention_id": "c-sanguozhi-026-guohuai:unit014:m0008",
+      "quote": "世語曰淮妻王凌之妹凌誅妹當從坐御史往収督將及羌胡渠帥數千人叩頭請淮表留妻淮不從妻上道莫不流涕人人扼腕欲劫留之淮五子叩頭流血請淮淮不忍視乃命左右追妻於是追者數千騎數日而還淮以書白司馬宣王曰五子哀母不惜其身若無其母是無五子無五子亦無淮也今輒追還若於法未通當受罪於主者覲展在近書至宣王亦宥之",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "依王凌之妹的明示來源角色作王氏編輯氏稱，未載本名；不以郭淮配偶取得郭姓，不把五子配各子生母。",
+      "component_source_binding": {
+        "kind": "fixed_received_name_component",
+        "name_form": "sister_clan",
+        "paragraph_sha256": "d64bf196bb5af4f2be47561b6176810453cdff30734b3ae2e54763292534cd7a",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        }
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_received_kinship",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "來源明王凌之妹，終端姊妹原角色只供氏稱，不生成未知父。",
+        "source_name_record_id": "name-sgz026-wangling",
+        "source_full_quote": "世語曰淮妻王凌之妹凌誅妹當從坐御史往収督將及羌胡渠帥數千人叩頭請淮表留妻淮不從妻上道莫不流涕人人扼腕欲劫留之淮五子叩頭流血請淮淮不忍視乃命左右追妻於是追者數千騎數日而還淮以書白司馬宣王曰五子哀母不惜其身若無其母是無五子無五子亦無淮也今輒追還若於法未通當受罪於主者覲展在近書至宣王亦宥之",
+        "fixed_witness_reference": {
+          "path": "source-evidence/sanguozhi026-guohuai-typed/fixed-source-projection.json",
+          "sha256": "2796dc7b6322ca065601ffd677044654a37d1b91c87819cb21bcd1afd69554f8"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-004",
+            "from_person_id": "f89_ad1_61d",
+            "to_person_id": "foz_lt0_au5",
+            "traversal": "older_brother_to_younger_sister_clan",
+            "generation_before": 0,
+            "generation_after": 0,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-026",
+                "source_id": "s-sanguozhi-026-guohuai",
+                "chapter_id": "c-sanguozhi-026-guohuai",
+                "paragraph_id": "c-sanguozhi-026-guohuai:unit014",
+                "quote": "世語曰淮妻王凌之妹凌誅妹當從坐御史往収督將及羌胡渠帥數千人叩頭請淮表留妻淮不從妻上道莫不流涕人人扼腕欲劫留之淮五子叩頭流血請淮淮不忍視乃命左右追妻於是追者數千騎數日而還淮以書白司馬宣王曰五子哀母不惜其身若無其母是無五子無五子亦無淮也今輒追還若於法未通當受罪於主者覲展在近書至宣王亦宥之",
+                "subject_person_mention_id": "c-sanguozhi-026-guohuai:unit014:m0008",
+                "object_person_mention_id": "c-sanguozhi-026-guohuai:unit014:m0005"
+              }
+            ]
+          }
+        ]
+      },
+      "clan_style": {
+        "kind": "bound_named_sister_clan_appellation",
+        "value": "王氏",
+        "source_term": "王凌之妹",
+        "assertion_ids": [
+          "a-sgz026-guohuai-family-004"
+        ],
+        "status": "editorial_provisional",
+        "rationale": "原句為王凌之妹，不冒作收到王氏二字，未載本名。",
+        "human_reviewed": false
+      }
+    }
+  ]
+}

@@ -4378,6 +4378,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 26,
+      "category": "",
+      "title": "卷二十六：郭淮完整傳及裴注、四傳合評與清考證選錄",
+      "paragraph_id": "c-sanguozhi-026-guohuai:unit012",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "嘉平元年遷征西將軍都督雍涼諸軍事是歲與雍州刺史陳泰協策降蜀牙門將句安等於翅上",
+      "paragraph_ids": [
+        "c-sanguozhi-026-guohuai:unit012"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-026-guohuai:unit012:m0023"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-026-guohuai:unit012:m0023": "c-sanguozhi-026-guohuai:unit012"
+      },
+      "mention_id": "c-sanguozhi-026-guohuai:unit012:m0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-026-guohuai:unit012:m0023",
+          "mention_ids": [
+            "c-sanguozhi-026-guohuai:unit012:m0023"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "source_id": "s-sanguozhi-026-guohuai",
+      "work_title": "三國志"
+    },
+    {
       "number": 39,
       "category": "",
       "title": "王沈荀顗荀勖馮紞列傳第九",
@@ -16344,6 +16379,36 @@
           "extraction_note": "正文兩完整傳主分段，古注十四層另段；去¶、頁碼、古注逐行括號包裝，原字不校改。完整raw與逐字runs另存。"
         }
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-026-guohuai",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-026",
+      "source_id": "s-sanguozhi-026-guohuai",
+      "source": {
+        "title": "三國志／魏書卷二十六／郭淮傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "99d0bad47453cda17150ad08d87eefe461707ba9",
+        "raw_file_sha256": "6764b2f841c384aec769c7ceea35deddf8bd05c56d1743b9fc77e10884530590",
+        "raw_path": "sources/sanguozhi/KR2a0012_026-214fcaf.txt",
+        "accessed_on": "2026-10-22",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "302–380郭淮完整傳及三注；381–385四傳合評；395–400郭淮相關清考證。滿寵、田豫、牽招完整本傳未匯，不稱全卷完成。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保全部郭淮傳與三注及合評/郭淮考證；只去版面符號、縮排與注括號。緼/縕/蘊、泰業等收到原字不正字，逐行片段完整投影。",
+          "excerpts": []
+        }
+      }
     }
   ],
   "relations": [
@@ -17720,6 +17785,55 @@
         }
       ],
       "interpretation_note": "此為裴松之注所引魏氏春秋獨立死亡報告：泰答語後遂歐血薨。段首帝之崩是高貴鄉公，非陳泰；大將軍亦非死者。不把正文景元元年移填本注，不合併為另一人或新增第二次死亡；報告用語保留，不推醫學死因。裴松之下一段批評孫盛改易記言，分存不抹去。"
+    }
+  ],
+  "person_events": [
+    {
+      "id": "pe-sgz022-chentai-succession-1",
+      "person_id": "9w8_tqh_ysn_AAA",
+      "predecessor_person_id": "9w8_tqh_ysn_AA",
+      "event_type": "noble_title_succession",
+      "mode": "accession",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "子泰嗣",
+      "title": null,
+      "holding_id": null,
+      "source_clause_binding": {
+        "kind": "biographical_head_named_son_succession",
+        "roles": {
+          "predecessor": "c-sanguozhi-022-chenqun-chentai:p001:m0000",
+          "heir": "c-sanguozhi-022-chenqun-chentai:p001:m1899"
+        },
+        "succession_anchor": {
+          "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p001",
+          "start": 1898,
+          "end": 1901,
+          "surface": "子泰嗣"
+        },
+        "resumed_predecessor_mention_id": "c-sanguozhi-022-chenqun-chentai:p001:m1880",
+        "death_succession_context_anchor": {
+          "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p001",
+          "start": 1880,
+          "end": 1901,
+          "surface": "其弘博不伐皆此類也青龍四年薨諡曰靖侯子泰嗣"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-chenqun-chentai",
+          "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+          "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p001",
+          "quote": "陳羣字長文潁川許昌人也祖父寔父紀叔父諶皆有盛名羣為兒時寔常奇異之謂宗人父老曰此兒必興吾宗魯國孔融高才倨傲年在紀羣之間先與紀友後與羣交更為紀拜由是顯名劉備臨豫州辟羣為别駕時陶謙病死徐州迎備備欲往羣說備曰袁術尚彊今東必與之爭吕布若襲將軍之後將軍雖得徐州事必無成備遂東與袁術戰布果襲下邳遣兵助術大破備軍備恨不用羣言舉茂才除柘令不行隨紀避難徐州屬吕布破太祖辟羣為司空西曹掾屬時有薦樂安王模下邳周逵者太祖辟之羣封還教以為模逵穢徳終必敗太祖不聽後模逵皆坐姦宄誅太祖以謝羣羣薦廣陵陳矯丹陽戴乾太祖皆用之後吳人叛乾忠義死難矯遂為名臣世以羣為知人除蕭贊長平令父卒去官後以司徒掾舉高第為治書侍御史轉參丞相軍事魏國既建遷為御史中丞時太祖議復肉刑令曰安得通理君子達於古今者使平斯事乎昔陳鴻臚以為死刑有可加於仁恩者正謂此也御史中丞能申其父之論乎羣對曰臣父紀以為漢除肉刑而增加笞本興仁惻而死者更衆所謂名輕而實重者也名輕則易犯實重則傷民書曰惟敬五刑以成三徳易著劓刖滅趾之法所以輔政助教懲惡息殺也且殺人償死合於古制至於傷人或殘毁其體而裁翦毛髪非其理也若用古刑使淫者下蠶室盗者則其足則永無淫放穿踰之姦矣夫三千之屬雖未可悉復若斯數者時之所患宜先施用漢律所殺殊死之罪仁所不及也其餘逮死者可以刑殺如此則所刑之與所生足以相貿矣今以笞死之法易不殺之刑是重人支體而輕人軀命也時鍾繇與羣議同王朗及議者多以為未可行太祖深善繇羣言以軍事未罷顧衆議故且寢羣轉為侍中領丞相東西曹掾在朝無適無莫雅仗名義不以非道假人文帝在東宫深敬器焉待以交友之禮常歎曰自吾有回門人日以親及即王位封羣昌武亭侯徙為尚書制九品官人之法羣所建也及踐阼遷尚書僕射加侍中徙尚書令進爵潁鄉侯帝征孫權至廣陵使羣領中領軍帝還假節都督水軍還許昌以羣為鎮軍大將軍領中䕶軍錄尚書事帝寢疾羣與曹真司馬宣王等並受遺詔輔政明帝即位進封潁隂侯增邑五百并前千三百戸與征東大將軍曹休中軍大將軍曹真撫軍大將軍司馬宣王並開府頃之為司空故錄尚書事是時帝初莅政羣上疏曰詩稱儀刑文王萬邦作孚又曰刑于寡妻至于兄弟以御于家邦道自近始而化洽於天下自喪亂已來干戈未戢百姓不識王教之本懼其陵遲已甚陛下當盛魏之隆荷二祖之業天下想望至治唯有以崇徳布化惠恤黎庶則兆民幸甚夫臣下雷同是非相蔽國之大患也若不和睦則有讐黨有讐黨則毁譽無端毁譽無端則真偽失實不可不深防備有以絶其源流太和中曹真表欲數道伐蜀從斜谷入羣以為太祖昔到陽平攻張魯多收豆麥以益軍糧魯未下而食猶乏今既無所因且斜谷阻險難以進退轉運必見鈔截多留兵守要則損戰士不可不熟慮也帝從羣議真復表從子午道羣又陳其不便并言軍事用度之計詔以羣議下真真據之遂行㑹霖雨積日羣又以為宜詔真還帝從之後皇女淑薨追封諡平原懿公主羣上疏曰長短有命存亡有分故聖人制禮或抑或致以求厥中防墓有不修之儉嬴傅有不歸之魂夫大人動合天地垂之無窮又大徳不踰閑動為師表故也八歲下殤禮所不備况未朞月而以成人禮送之加為制服舉朝素衣朝夕哭臨自古已來未有此比而乃復自往視陵親臨祖載願陛下抑割無益有損之事但悉聽羣臣送葬乞車駕不行此萬國之至望也聞車駕欲幸摩陂實到許昌二宫上下皆悉俱東舉朝大小莫不驚怪或言欲以避衰或言欲於便處移殿舍或不知何故臣以為吉凶有命禍福由人移徙求安則亦無益若必當移避繕治金墉城西宫及孟津别宫皆可權時分止可無舉宫暴露野次廢損盛節蠶農之要又賊地聞之以為大衰加所煩費不可計量且由吉士賢人當盛衰處安危秉道信命非徙其家以寧鄉邑從其風化無恐懼之心况乃帝王萬國之主靜則天下安動則天下擾行止動靜豈可輕脫哉帝不聽青龍中營治宫室百姓失農時羣上疏曰禹承唐虞之盛猶卑宫室而惡衣服况今喪亂之後人民至少比漢文景之時不過一大郡加邊境有事將士勞苦若有水旱之患國家之深憂也且吳蜀未滅社稷不安宜及其未動講武勸農有以待之今舎此急而先宫室臣懼百姓遂困將何以應敵昔劉備自成都至白水多作傳舎興費人役太祖知其疲民也今中國勞力亦吳蜀之所願此安危之機也惟陛下慮之帝答曰王者宫室亦宜並立滅賊之後但當罷守耳豈可復興役邪是故君之職蕭何之大略也羣又曰昔漢祖唯與項羽爭天下羽已滅宫室燒焚是以蕭何建武庫太倉皆是要急然猶非其壯麗今二虜未平誠不宜與古同也夫人之所欲莫不有辭况乃天王莫之敢違前欲壞武庫謂不可不壞也後欲置之謂不可不置也若必作之固非臣下辭言所屈若少留神卓然回意亦非臣下之所及也漢明帝欲起徳陽殿鍾離意諫即用其言後乃復作之殿成謂羣臣曰鍾離尚書在不得成此殿也夫王者豈憚一臣蓋為百姓也今臣曾不能少凝聖聽不及意遠矣帝於是有所減省初太祖時劉廙坐弟與魏諷謀反當誅羣言之太祖太祖曰廙名臣也吾亦欲赦之乃復位廙深徳羣羣曰夫議刑為國非為私也且自明主之意吾何知焉其弘博不伐皆此類也青龍四年薨諡曰靖侯子泰嗣帝追思羣功徳分羣戸邑封一子列侯",
+          "person_mention_id": "c-sanguozhi-022-chenqun-chentai:p001:m1899"
+        }
+      ],
+      "interpretation_note": "明載嗣／紹封，依本傳主語與具名嗣者/亡兄分角色。此處未重出爵名，title和holding保持null；不把諡穆侯當所嗣爵，不補母親或排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "life_event_date_decisions": [],

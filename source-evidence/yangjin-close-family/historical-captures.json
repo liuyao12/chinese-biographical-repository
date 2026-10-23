@@ -1,0 +1,29 @@
+{
+  "role": "two_exact_hash_qualified_historical_files_prior_editorial_views_and_captures",
+  "files": [
+    {
+      "path": "source-evidence/weishu058-yangjin/identity-review.json",
+      "sha256": "7649d7103f2f82b734a4546468ce6c847fe7a9ea35dfe104332f8c23c1e01869",
+      "classification": "complete prior captured source paragraphs plus then-current editorial identity review",
+      "current_projection_path": "source-evidence/yangjin-close-family/current-projections/identity-review.json",
+      "masked_capture_keys": [
+        "prior_complete_paragraph",
+        "complete_captured_paragraph"
+      ],
+      "qualification": "原hash/ID/capture保持；不是宣稱所有原內容原本皆immutable。當前端點依獨立projection，無alias。"
+    },
+    {
+      "path": "source-evidence/weishu058-yangjin/reused-reading-captures.json",
+      "sha256": "e5fc2cd74ece5400a0dca5d6c916603a5c93afd7f0eb5c0c60511cd78e5ae1dc",
+      "classification": "complete prior source paragraph captures",
+      "current_projection_path": "source-evidence/yangjin-close-family/current-projections/reused-reading-captures.json",
+      "masked_capture_keys": [
+        "prior_complete_paragraph",
+        "complete_captured_paragraph"
+      ],
+      "qualification": "原hash/ID/capture保持；不是宣稱所有原內容原本皆immutable。當前端點依獨立projection，無alias。"
+    }
+  ],
+  "qualification": "原檔、原hash、原ID完整保留，current projection不帶capture副本；不是alias，且不宣稱原identity review全屬不可變史料。",
+  "human_reviewed": false
+}

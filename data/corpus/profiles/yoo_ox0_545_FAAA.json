@@ -18,7 +18,8 @@
     "我",
     "父",
     "己",
-    "安陽"
+    "安陽",
+    "之"
   ],
   "titles": [
     {
@@ -1589,6 +1590,105 @@
         ]
       },
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-jin045-guoyi-003",
+      "person_id": "yoo_ox0_545_FAAA",
+      "title": "掾",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "reported_service",
+      "status": "source_attested",
+      "source_career_role": {
+        "kind": "punctuated_biography_career_frame",
+        "rule": "staff_and_exclusion",
+        "paragraph_id": "c-jinshu-045-guoyi:p001",
+        "source_revision": 2595687,
+        "paragraph_sha256": "04aac0d8f0b77dae77c7c9739473a61a894296ddac84273c62300f7167fc2bad",
+        "head_mention_id": "c-jinshu-045-guoyi:p001:m0000",
+        "scope_anchor": {
+          "paragraph_id": "c-jinshu-045-guoyi:p001",
+          "start": 90,
+          "end": 144,
+          "surface": "咸熙末，為文帝相國主薄。時鍾會反于蜀，荀勖即會之從甥，少長會家，勖為文帝掾，奕啟出之。帝雖不用，然知其雅正。"
+        },
+        "roles": {
+          "ruler": "c-jinshu-045-guoyi:p001:m0011",
+          "rebel": "c-jinshu-045-guoyi:p001:m0012",
+          "other": "c-jinshu-045-guoyi:p001:m0013",
+          "rebel_repeat": "c-jinshu-045-guoyi:p001:m0014",
+          "rebel_repeat2": "c-jinshu-045-guoyi:p001:m0015",
+          "other_repeat": "c-jinshu-045-guoyi:p001:m0016",
+          "ruler_repeat": "c-jinshu-045-guoyi:p001:m0017",
+          "subject": "c-jinshu-045-guoyi:p001:m0018",
+          "other_repeat2": "c-jinshu-045-guoyi:p001:m0019",
+          "ruler_repeat2": "c-jinshu-045-guoyi:p001:m0020",
+          "subject_repeat": "c-jinshu-045-guoyi:p001:m0021"
+        },
+        "fields": {
+          "time": {
+            "paragraph_id": "c-jinshu-045-guoyi:p001",
+            "start": 90,
+            "end": 93,
+            "surface": "咸熙末"
+          },
+          "office": {
+            "paragraph_id": "c-jinshu-045-guoyi:p001",
+            "start": 97,
+            "end": 101,
+            "surface": "相國主薄"
+          },
+          "otheroffice": {
+            "paragraph_id": "c-jinshu-045-guoyi:p001",
+            "start": 126,
+            "end": 127,
+            "surface": "掾"
+          }
+        },
+        "human_reviewed": false,
+        "slot": "otheroffice",
+        "recipient_role": "other"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-045",
+          "source_id": "s-jinshu-045-ws2595687-guoyi",
+          "chapter_id": "c-jinshu-045-guoyi",
+          "paragraph_id": "c-jinshu-045-guoyi:p001",
+          "quote": "郭奕，字大業，太原陽曲人也。少有重名，山濤稱其高簡有雅量。初為野王令，羊祜常過之，奕歎曰：「羊叔子何必減郭大業！」少選復往，又歎曰：「羊叔子去人遠矣。」遂送祜出界數百里，坐此免官。咸熙末，為文帝相國主薄。時鍾會反于蜀，荀勖即會之從甥，少長會家，勖為文帝掾，奕啟出之。帝雖不用，然知其雅正。武帝踐阼，初建東宮，以奕及鄭默並為中庶子。遷右衛率、驍騎將軍，封平陵男。咸寧初，遷雍州刺史、鷹揚將軍，尋假赤幢曲蓋、鼓吹。奕有寡姊，隨奕之官，姊下僮僕多有奸犯，而為人所糾。奕省按畢，曰：「大丈夫豈當以老姊求名？」遂遣而不問。時亭長李含有俊才，而門寒為豪族所排，奕用為別駕，含後果有名位，時以奕為知人。",
+          "person_mention_id": "c-jinshu-045-guoyi:p001:m0013"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin045-guoyi-003:a001",
+          "paragraph_id": "c-jinshu-045-guoyi:p001",
+          "start": 126,
+          "end": 127,
+          "surface": "掾",
+          "person_mention_id": "c-jinshu-045-guoyi:p001:m0013",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "按完整官序原角色及原字保存。任終未知，不借卒年；咸熙末未推鍾會反日期；儀仗為許可而非官爵；簡為實賜，景穆另存提議。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -2389,6 +2489,59 @@
       "book_id": "b-jinshu-043",
       "chapter_id": "c-jinshu-043-wangrong",
       "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "work_title": "晉書"
+    },
+    {
+      "number": 45,
+      "category": "",
+      "title": "郭奕傳",
+      "paragraph_id": "c-jinshu-045-guoyi:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。」遂送祜出界數百里，坐此免官。咸熙末，為文帝相國主薄。時鍾會反于蜀，荀勖即會之從甥，少長會家，勖為文帝掾，奕啟出之。帝雖不用，然知其雅正。武帝踐阼，初建東宮，以奕及鄭默並為中庶子。遷右衛率、驍騎將軍，封平陵男。咸寧初，遷雍州刺史、鷹揚將軍，尋假赤幢曲蓋、鼓吹。奕有寡姊，隨",
+      "paragraph_ids": [
+        "c-jinshu-045-guoyi:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-045-guoyi:p001:m0013",
+        "c-jinshu-045-guoyi:p001:m0016",
+        "c-jinshu-045-guoyi:p001:m0019"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-045-guoyi:p001:m0013": "c-jinshu-045-guoyi:p001",
+        "c-jinshu-045-guoyi:p001:m0016": "c-jinshu-045-guoyi:p001",
+        "c-jinshu-045-guoyi:p001:m0019": "c-jinshu-045-guoyi:p001"
+      },
+      "mention_id": "c-jinshu-045-guoyi:p001:m0013",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-045-guoyi:p001:m0013",
+          "mention_ids": [
+            "c-jinshu-045-guoyi:p001:m0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-045-guoyi:p001:m0016",
+          "mention_ids": [
+            "c-jinshu-045-guoyi:p001:m0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-045-guoyi:p001:m0019",
+          "mention_ids": [
+            "c-jinshu-045-guoyi:p001:m0019"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-045",
+      "chapter_id": "c-jinshu-045-guoyi",
+      "source_id": "s-jinshu-045-ws2595687-guoyi",
       "work_title": "晉書"
     }
   ],
@@ -14277,6 +14430,35 @@
           "character_conversion": {},
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原缺閉引號、季劄、鐘會、𦃩、報嘗均保留。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-045-guoyi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-045",
+      "source_id": "s-jinshu-045-ws2595687-guoyi",
+      "source": {
+        "title": "《晉書》卷四十五郭奕完整本傳（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷045&oldid=2595687",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷045&oldid=2595687",
+        "revision_id": 2595687,
+        "accessed_on": "2026-10-22",
+        "extent": "郭奕完整本傳兩原段，止侯史光節題之前；不含同卷其他傳。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "caa053b497649ca478661493e4ff1b87fbe3432e480af71f0d0033f6e64693b0",
+        "raw_file": "sources/witnesses/jin045-ws2595687.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白及展開YL年號模板；原相國主薄、大業及咸熙末追敘鍾會反均不改。"
+        },
+        "raw_path": "sources/witnesses/jin045-ws2595687.wikitext",
+        "raw_file_sha256": "caa053b497649ca478661493e4ff1b87fbe3432e480af71f0d0033f6e64693b0"
       }
     },
     {

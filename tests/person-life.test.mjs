@@ -127,3 +127,13 @@ test('orphanhood age stays a lifetime report and supplies neither birth nor age 
  assert.deepEqual(life.birth,[]);assert.equal(life.death.length,1);assert.equal(life.ages[0].age_context.kind,'during_life');
  assert.equal(life.death[0].age,undefined);assert.equal(life.death[0].birth_year,undefined);
 });
+
+ test('death age precedes lifetime reports without changing evidence or inventing dates',()=>{
+ const rows=[{person_id:'a',value:11,age_context:{kind:'during_life'},evidence:[{quote:'lifetime'}]},
+ {person_id:'a',value:63,age_context:{kind:'at_death',life_event_id:'death-a'},evidence:[{quote:'death'}]},
+ {person_id:'a',value:null,age_context:{kind:'during_life'},source_term:'over sixty',evidence:[{quote:'bound'}]}];
+ const p={id:'a',age_assertions:rows};const before=JSON.stringify(p);const life=summarizeLife(p);
+ assert.deepEqual(life.ages.map(a=>a.value),[63,11,null]);assert.deepEqual(life.birth,[]);assert.deepEqual(life.death,[]);
+ assert.equal(JSON.stringify(p),before);assert.deepEqual(life.ages[0].evidence,rows[1].evidence);
+ assert.deepEqual(summarizeLife({id:'a',age_assertions:[rows[0],rows[2]]}).ages.map(a=>a.value),[11,null]);
+});
