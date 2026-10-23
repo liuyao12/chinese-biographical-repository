@@ -1,0 +1,96 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-sanguozhi-015-wenhui",
+  "assertions": [
+    {
+      "id": "a-sgz015-wen-head",
+      "subject_person_id": "8uz_r1g_a0f_A",
+      "predicate": "father",
+      "object_person_id": "8uz_r1g_a0f",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父恕",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "head_named_father",
+          "roles": {
+            "child": "c-sanguozhi-015-wenhui:p001:m0000",
+            "style": "c-sanguozhi-015-wenhui:p001:m0003",
+            "parent": "c-sanguozhi-015-wenhui:p001:m0011"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-015-wenhui:p001",
+            "start": 0,
+            "end": 12,
+            "surface": "溫恢字曼基太原祁人也父恕"
+          },
+          "paragraph_sha256": "33816a26bfcaf4faf3dd9057f5063c7ede906ea4ba1247d66b203baa0d1a63b6",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "received_chapter"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-015",
+          "source_id": "s-sanguozhi-015-wenhui",
+          "chapter_id": "c-sanguozhi-015-wenhui",
+          "paragraph_id": "c-sanguozhi-015-wenhui:p001",
+          "quote": "溫恢字曼基太原祁人也父恕為涿郡太守卒恢年十五送喪還歸鄉里内足於財恢曰世方亂安以富為一朝盡㪚振施宗族州里髙之比之郇越舉孝廉為廪丘長鄢陵廣川令彭城魯相所在見稱",
+          "subject_person_mention_id": "c-sanguozhi-015-wenhui:p001:m0000",
+          "object_person_mention_id": "c-sanguozhi-015-wenhui:p001:m0011"
+        }
+      ],
+      "interpretation_note": "只記此完整來源明文父子，不以爵絕補絕嗣、未名母親或恭等旁支。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz015-wen-son",
+      "subject_person_id": "8uz_r1g_a0f_AA",
+      "predicate": "father",
+      "object_person_id": "8uz_r1g_a0f_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子生",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "named_sons",
+          "roles": {
+            "parent": "c-sanguozhi-015-wenhui:p005:m0049",
+            "child_1": "c-sanguozhi-015-wenhui:p005:m0051"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-015-wenhui:p005",
+            "start": 49,
+            "end": 52,
+            "surface": "恢子生"
+          },
+          "paragraph_sha256": "dffb6f2ba2227cf2a68c6ebffd79f5dec9abe07c453cd2ee6b8500f80a74396e",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "received_chapter"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-015",
+          "source_id": "s-sanguozhi-015-wenhui",
+          "chapter_id": "c-sanguozhi-015-wenhui",
+          "paragraph_id": "c-sanguozhi-015-wenhui:p005",
+          "quote": "詔曰恢有柱石之質服事先帝功勤明著及為朕執事忠於王室故授之以萬里之任任之以一方之事如何不遂吾甚愍之賜恢子生爵關内侯生早卒爵絶恢卒後汝南孟建為涼州刺史有治名官至征東將軍",
+          "subject_person_mention_id": "c-sanguozhi-015-wenhui:p005:m0051",
+          "object_person_mention_id": "c-sanguozhi-015-wenhui:p005:m0049"
+        }
+      ],
+      "interpretation_note": "只記此完整來源明文父子，不以爵絕補絕嗣、未名母親或恭等旁支。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

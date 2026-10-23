@@ -6,7 +6,8 @@
   "identity_note": "以本批完整傳文及上下文辨識；同姓不合併，未明父母／配偶／出生年保持未知。",
   "review": "ai_provisional",
   "names": [
-    "張遼"
+    "張遼",
+    "遼"
   ],
   "titles": [],
   "addresses": [],
@@ -44,6 +45,69 @@
       "book_id": "b-sanguozhi-009",
       "chapter_id": "c-sanguozhi-009-caoxiu",
       "source_id": "s-sanguozhi-009-caoxiu",
+      "work_title": "三國志"
+    },
+    {
+      "number": 15,
+      "category": "",
+      "title": "溫恢本傳及裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-015-wenhui:p002",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "書云股肱良哉庶事康哉得無當得蔣濟為治中邪時濟見為丹陽太守乃遣濟還州又語張遼樂進等曰揚州刺史曉達軍事動静與共咨議",
+      "paragraph_ids": [
+        "c-sanguozhi-015-wenhui:p002",
+        "c-sanguozhi-015-wenhui:p003"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-015-wenhui:p002:m0067",
+        "c-sanguozhi-015-wenhui:p003:m0128",
+        "c-sanguozhi-015-wenhui:p003:m0135",
+        "c-sanguozhi-015-wenhui:p003:m0167"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-015-wenhui:p002:m0067": "c-sanguozhi-015-wenhui:p002",
+        "c-sanguozhi-015-wenhui:p003:m0128": "c-sanguozhi-015-wenhui:p003",
+        "c-sanguozhi-015-wenhui:p003:m0135": "c-sanguozhi-015-wenhui:p003",
+        "c-sanguozhi-015-wenhui:p003:m0167": "c-sanguozhi-015-wenhui:p003"
+      },
+      "mention_id": "c-sanguozhi-015-wenhui:p002:m0067",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-015-wenhui:p002:m0067",
+          "mention_ids": [
+            "c-sanguozhi-015-wenhui:p002:m0067"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-015-wenhui:p003:m0128",
+          "mention_ids": [
+            "c-sanguozhi-015-wenhui:p003:m0128"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-015-wenhui:p003:m0135",
+          "mention_ids": [
+            "c-sanguozhi-015-wenhui:p003:m0135"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-015-wenhui:p003:m0167",
+          "mention_ids": [
+            "c-sanguozhi-015-wenhui:p003:m0167"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-015",
+      "chapter_id": "c-sanguozhi-015-wenhui",
+      "source_id": "s-sanguozhi-015-wenhui",
       "work_title": "三國志"
     },
     {
@@ -144,6 +208,34 @@
           "extraction_note": "刪原行尾¶與頁標並串接；各注層只移除行內注釋括號語法，原字符逐字映射；不改顔逺/襄陽/呉等字。",
           "excerpts": []
         }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-015-wenhui",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-015",
+      "source_id": "s-sanguozhi-015-wenhui",
+      "source": {
+        "title": "三國志魏書卷十五溫恢本傳及裴注",
+        "provider": "Kanripo",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_015.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_015.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "31fbefa47ba1bb895430867835edcffe53e86f11bc05e235470306b8e85971ed",
+        "edition": "WYG數位轉錄，未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定raw338–363行，溫恢完整本傳及傳末孟建附述、魏畧裴注；364賈逵傳開始，不含前張既尾。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文，保留Kanripo數位轉錄歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "移除¶/換行/pb及逐行古注括號；正文/裴注分層，原字不改；raw_positions逐字投影。"
+        },
+        "quality_note": "非全卷匯入；WYG數位轉錄未圖校，異字不擅校。"
       }
     },
     {

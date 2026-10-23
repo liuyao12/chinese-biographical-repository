@@ -1,0 +1,79 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-nanqishu-052-zuchongzhi",
+  "events": [
+    {
+      "id": "le-nanqi052-zu-death",
+      "person_id": "vcm_d77_tsz_AA",
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": "永元二年",
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 500,
+        "year": 500,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "永元二年",
+        "status": "editorial_provisional",
+        "original_quote": "又特善算永元二年沖之卒年七十二著易老莊義釋論語孝經注九章造綴述數十篇",
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-052",
+            "source_id": "s-nanqishu-052-zuchongzhi",
+            "chapter_id": "c-nanqishu-052-zuchongzhi",
+            "paragraph_id": "c-nanqishu-052-zuchongzhi:p009",
+            "quote": "又特善算永元二年沖之卒年七十二著易老莊義釋論語孝經注九章造綴述數十篇",
+            "person_mention_id": "c-nanqishu-052-zuchongzhi:p009:m0008"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "永元",
+            "scope": "modern_era_year_equivalence_only",
+            "columns": {
+              "era_name": "永元",
+              "first_year": "499",
+              "last_year": "501"
+            },
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "永元",
+          "source_number": "二",
+          "regnal_year": 2,
+          "start_ce_year": 499,
+          "end_ce_year": 501,
+          "reference_index": 0
+        },
+        "rationale": "只依本句永元二年及官方年號表，499起第二年為500中國曆年；不倒算出生、不作任終。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "source_id": "s-nanqishu-052-zuchongzhi",
+          "chapter_id": "c-nanqishu-052-zuchongzhi",
+          "paragraph_id": "c-nanqishu-052-zuchongzhi:p009",
+          "quote": "又特善算永元二年沖之卒年七十二著易老莊義釋論語孝經注九章造綴述數十篇",
+          "person_mention_id": "c-nanqishu-052-zuchongzhi:p009:m0008"
+        }
+      ],
+      "interpretation_note": "本傳明卒，地點與月日未載；報齡不倒算生年，不填其他職任終。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

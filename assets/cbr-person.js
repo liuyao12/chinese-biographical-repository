@@ -281,7 +281,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
       birth_place: '出生地', residence: '居地', capital_location: '所都', service_location: '任事地', death_place: '卒地', burial_place: '葬地'}[x.relation];
     return label && x.place?.source_name ? label + '：' + x.place.source_name : x.term;
   };
-  const ageApproximation = age => age.approximation?.kind === 'adjacent_age_numbers' ? `（${ui('Source age approximation')}）` : '';
+  const ageApproximation = age => ['adjacent_age_numbers', 'quoted_kin_age_designation'].includes(age.approximation?.kind) ? `（${ui('Source age approximation')}）` : '';
   const lifeRows = lifeRow('生', life.birth) + lifeRow('卒', life.death) + (ages.length ? `<dt>年齡</dt><dd>${ages.map(e => `${h(ageLabel(e))}${ageApproximation(e)}${ageWhen(e)}<details><summary>報齡原文</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}</details>`).join('')}</dd>` : '');
   const lifeHTML = lifeRows ? `<section class="person-life-summary"><dl>${lifeRows}</dl></section>` : '';
   const orderDecisions = p.relative_birth_order_decisions || [];

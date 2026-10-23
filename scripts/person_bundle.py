@@ -354,7 +354,9 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 from surname_from_father import validate as validate_inferred_surname
             validate_inferred_surname(name,
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
-                {c['id']: c for c, p in paragraphs.values()}, relations)
+                {c['id']: c for c, p in paragraphs.values()},
+                ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
+                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path') else relations))
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:

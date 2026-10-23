@@ -1,0 +1,89 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanqishu-052-zuchongzhi",
+  "assertions": [
+    {
+      "id": "a-nanqi052-zu-father",
+      "subject_person_id": "vcm_d77_tsz_AA",
+      "predicate": "father",
+      "object_person_id": "vcm_d77_tsz_A",
+      "qualifiers": {
+        "source_term": "父朔之",
+        "lineage": "paternal",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_unpunctuated_head_grandfather_father",
+          "roles": {
+            "head": "c-nanqishu-052-zuchongzhi:p001:m0000",
+            "style": "c-nanqishu-052-zuchongzhi:p001:m0004",
+            "grandfather": "c-nanqishu-052-zuchongzhi:p001:m0012",
+            "father": "c-nanqishu-052-zuchongzhi:p001:m0018"
+          },
+          "clause_start": 0,
+          "clause_end": 23,
+          "paragraph_sha256": "3c9e7d2d7a120baa949a18550b394865e0c944df8673174e0c326ddee752b1a7",
+          "revision_id": "787dd9a7da495542e8f17c26c96900ce37b2c211"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "source_id": "s-nanqishu-052-zuchongzhi",
+          "chapter_id": "c-nanqishu-052-zuchongzhi",
+          "paragraph_id": "c-nanqishu-052-zuchongzhi:p001",
+          "quote": "祖沖之字文逺范陽薊人也祖昌宋大匠卿父朔之奉朝請沖之少稽古有機思宋孝武使直華林學省賜宅宇車服解褐南徐州迎從事公府叅軍",
+          "subject_person_mention_id": "c-nanqishu-052-zuchongzhi:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-052-zuchongzhi:p001:m0018"
+        }
+      ],
+      "interpretation_note": "傳首明父／祖，兩關係分存；不把祖當父、不推生母、不填排行，未作family組裝。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi052-zu-grandfather",
+      "subject_person_id": "vcm_d77_tsz_AA",
+      "predicate": "grandfather",
+      "object_person_id": "vcm_d77_tsz",
+      "qualifiers": {
+        "source_term": "祖昌",
+        "lineage": "paternal",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_unpunctuated_head_grandfather_father",
+          "roles": {
+            "head": "c-nanqishu-052-zuchongzhi:p001:m0000",
+            "style": "c-nanqishu-052-zuchongzhi:p001:m0004",
+            "grandfather": "c-nanqishu-052-zuchongzhi:p001:m0012",
+            "father": "c-nanqishu-052-zuchongzhi:p001:m0018"
+          },
+          "clause_start": 0,
+          "clause_end": 23,
+          "paragraph_sha256": "3c9e7d2d7a120baa949a18550b394865e0c944df8673174e0c326ddee752b1a7",
+          "revision_id": "787dd9a7da495542e8f17c26c96900ce37b2c211"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-052",
+          "source_id": "s-nanqishu-052-zuchongzhi",
+          "chapter_id": "c-nanqishu-052-zuchongzhi",
+          "paragraph_id": "c-nanqishu-052-zuchongzhi:p001",
+          "quote": "祖沖之字文逺范陽薊人也祖昌宋大匠卿父朔之奉朝請沖之少稽古有機思宋孝武使直華林學省賜宅宇車服解褐南徐州迎從事公府叅軍",
+          "subject_person_mention_id": "c-nanqishu-052-zuchongzhi:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-052-zuchongzhi:p001:m0012"
+        }
+      ],
+      "interpretation_note": "傳首明父／祖，兩關係分存；不把祖當父、不推生母、不填排行，未作family組裝。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

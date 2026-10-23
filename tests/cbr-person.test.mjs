@@ -661,3 +661,12 @@ test('source-backed customary titles head the new Wang profiles',()=>{
   const heading=personCard(p,true).match(/<h1>([\s\S]*?)<\/h1>/)?.[1];assert(heading);assert(heading.includes(title));assert(heading.includes(ming));
  }
 });
+
+
+test('quoted kin age is marked approximate while its literal words and unknown exact value remain intact',()=>{
+ const p={id:'synthetic-parent',label:'Synthetic parent',age_assertions:[{person_id:'synthetic-parent',value:null,source_number:'八十',source_term:'八十老父',approximation:{kind:'quoted_kin_age_designation',target_age:80},birth_year:null,counting:'unspecified_source_age',age_context:{kind:'during_life'},evidence:[{paragraph_id:'synthetic-paragraph',quote:'Synthetic quotation with 八十老父'}]}]};const before=JSON.stringify(p);
+ try{for(const full of [false,true]){
+  setLocale('zh-Hant');let html=personCard(p,full);assert.match(html,/八十老父（<span[^>]*data-i18n="Source age approximation"[^>]*>來源約數/);assert.doesNotMatch(html,/80 歲|享年|出生年|NaN|undefined/);
+  setLocale('en');html=personCard(p,full);assert.match(html,/八十老父/);assert.match(html,/Source age approximation/);assert.doesNotMatch(html,/80 years old/);
+ }}finally{setLocale('zh-Hant');}assert.equal(JSON.stringify(p),before);
+});

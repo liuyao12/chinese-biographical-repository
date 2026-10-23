@@ -30,7 +30,7 @@ def source_age_number(number):
 def direct_source_age_valid(age):
     number = age.get('source_number'); parsed = source_age_number(number)
     return (type(age.get('value')) is int and parsed is not None and age['value'] == parsed
-            and age.get('source_term') in ('年' + str(number), '年登' + str(number), str(number) + '歲', str(number) + '歳', str(number) + '嵗'))
+            and age.get('source_term') in ('年' + str(number), '年登' + str(number), '年始' + str(number), str(number) + '歲', str(number) + '歳', str(number) + '嵗'))
 
 
 def named_office_end_valid(holding, paragraphs, mentions):
@@ -494,6 +494,16 @@ def validate(root=ROOT):
             except ModuleNotFoundError:
                 from work_reference_resolution import chapter_errors as work_reference_errors
             errors.extend(work_reference_errors(d))
+            try:
+                from scripts.fixed_wikisource_units import source_errors as fixed_wikisource_unit_errors
+            except ImportError:
+                from fixed_wikisource_units import source_errors as fixed_wikisource_unit_errors
+            errors.extend(fixed_wikisource_unit_errors(d, root))
+            try:
+                from scripts.fixed_kanripo_projection import errors as fixed_kanripo_projection_errors
+            except ImportError:
+                from fixed_kanripo_projection import errors as fixed_kanripo_projection_errors
+            errors.extend(fixed_kanripo_projection_errors(d, root))
             if any('annotation_status' in p for p in d['paragraphs']):
                 for p in d['paragraphs']:
                     check(p.get('annotation_status') in ('pending','in_progress','named_mentions_first_pass','reviewed'),'段落標註狀態無效或缺失')
@@ -1912,7 +1922,11 @@ def validate(root=ROOT):
             for age in chapter['annotation'].get('age_assertions', []):
                 check(age['id'] not in age_ids, '年齡記錄 ID 重複'); age_ids.add(age['id'])
                 number = age.get('source_number'); parsed = source_age_number(number)
-                if 'approximation' in age:
+                if age.get('approximation', {}).get('kind') == 'quoted_kin_age_designation':
+                    try:from scripts.fixed_wikisource_units import kin_age_designation_valid
+                    except ImportError:from fixed_wikisource_units import kin_age_designation_valid
+                    check(kin_age_designation_valid(age, chapter, root), '引語父親約數報齡須綁發言者、父子原證與原數，不推精齡或生年')
+                elif 'approximation' in age:
                     try:
                         from scripts.age_approximations import age_approximation_errors
                     except ModuleNotFoundError:
