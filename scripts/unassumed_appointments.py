@@ -17,6 +17,13 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if 'source_career_role' in proposal:
+        try:
+            from scripts.received_career_roles import unassumed_valid
+        except ImportError:
+            from received_career_roles import unassumed_valid
+        return unassumed_valid(proposal, chapter)
+
     if 'resumed_decline_context' in proposal:
         try:
             from scripts.resumed_biography_lifecycle import declined_valid

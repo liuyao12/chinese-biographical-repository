@@ -119,3 +119,11 @@ test('same-year lifetime age and death age stay distinct while same-kind source 
  assert.equal(life.ages.find(a=>a.age_context.kind==='during_life').evidence.length,1);
  assert.equal(rows[0].evidence.length,1);
 });
+
+test('orphanhood age stays a lifetime report and supplies neither birth nor age at death',()=>{
+ const age={person_id:'child',value:10,source_term:'十歲',age_context:{kind:'during_life'}};
+ assert.equal(ageLabel(age),'10 歲（生前報齡）');
+ const life=summarizeLife({id:'child',age_assertions:[age],life_events:[{id:'death',person_id:'child',event_type:'death',normalized_date:{era:'CE',era_year:257}}]});
+ assert.deepEqual(life.birth,[]);assert.equal(life.death.length,1);assert.equal(life.ages[0].age_context.kind,'during_life');
+ assert.equal(life.death[0].age,undefined);assert.equal(life.death[0].birth_year,undefined);
+});

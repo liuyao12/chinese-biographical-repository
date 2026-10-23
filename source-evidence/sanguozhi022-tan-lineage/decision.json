@@ -1,0 +1,51 @@
+{
+  "id": "decision-sanguozhi022-tan-qualified-missing-generation",
+  "human_reviewed": false,
+  "status": "contextual_provisional",
+  "current_person_id": "9w8_tqh_ysn_B*B",
+  "historical_rekey": {
+    "old_person_id": "k9s_gmw_ywi",
+    "new_person_id": "9w8_tqh_ysn_B*B",
+    "role": "audit_only_not_alias"
+  },
+  "basis_assertion_ids": [
+    "a-sanguozhi022-chen-016",
+    "a-sanguozhi022-chen-015"
+  ],
+  "source_id": "s-sanguozhi-022-chenqun-chentai",
+  "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
+  "source_quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
+  "source_layer": "witness_appended_pei_songzhi_note",
+  "rationale": "同一裴引陳氏譜先言諶孫佐，續言佐弟坦，以近系兄弟共享父系祖父作編輯推導；未知父仍為null。新唐表列忠二子佐和，未證和=坦，保異說而不補忠。",
+  "not_asserted": {
+    "father_person_id": null,
+    "father_name": null,
+    "mother_person_id": null,
+    "tan_direct_grandfather_assertion_added": false,
+    "tan_direct_father_assertion_added": false,
+    "absolute_birth_ordinal": null
+  },
+  "parallel_qualification": {
+    "path": "source-evidence/sanguozhi022-daizheng/parallel-tang-reading.json",
+    "received": "生青州刺史忠。二子：佐、和。",
+    "not_resolved": "和是否坦的異文/同人未知；不新增和、忠、不以晚出表覆原譜。"
+  },
+  "kan_unresolved": {
+    "person_id": "ebp_cc5_u3h",
+    "source_term": "從弟",
+    "paternal_same_generation": true,
+    "shared_ancestor_person_id": null,
+    "generation_distance": null,
+    "placement": "separate_unassembled",
+    "reason": "從弟不足唯一決定共同祖先世數；不可套brother_connects或由佐祖父延伸堪。"
+  },
+  "current_endpoint_scope": [
+    "registry JSON",
+    "corpus JSON/XML"
+  ],
+  "historical_snapshots_preserved": [
+    "source-evidence/sanguozhi022-daizheng/wyg-complete-unit.json",
+    "source-evidence/sanguozhi022-ner-review/review.json"
+  ],
+  "export_policy": "在最終完整export後由production prune撤舊JSON；本plan不寫衍生export、不留相容alias。"
+}

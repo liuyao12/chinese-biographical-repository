@@ -120,7 +120,7 @@ def errors(chapters,records,root=None):
   if not ch:continue
   for h in r.get('holdings',[]):
    if 'source_role_sequence'in h and not holding_valid(h,ch,root):out.append('官爵本傳角色／語法／時段不符:'+str(h.get('id')))
-   if 'shared_title_suffix'in h and root is not None:
+   if 'shared_title_suffix'in h and 'source_role_sequence'in h and root is not None:
     try:
      import json
      from pathlib import Path

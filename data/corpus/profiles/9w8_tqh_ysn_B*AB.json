@@ -75,6 +75,34 @@
           "extraction_note": "正文兩完整傳主分段，古注十四層另段；去¶、頁碼、古注逐行括號包裝，原字不校改。完整raw與逐字runs另存。"
         }
       }
+    },
+    {
+      "chapter_id": "c-xintangshu-071xia-chen-preface",
+      "work_id": "w-xintangshu",
+      "book_id": "b-xintangshu-071-xia",
+      "source_id": "s-xintangshu-071xia-chen-preface",
+      "source": {
+        "title": "新唐書/卷071下",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7071%E4%B8%8B&oldid=2405769",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7071%E4%B8%8B&oldid=2405769",
+        "revision_id": 2405769,
+        "response_sha256": "141e30b0a02865af6c2b7ce5538dd30febde373d07bbd1b148ffb4df11f263cf",
+        "raw_sha256": "2f764391521a46b9a7eb1b6bc8fc145ed307e7a35cc1c98088078ff262e39639",
+        "edition": "收到數位轉錄；所據最早現存古本未知，未校圖",
+        "image_verified": false,
+        "text_scope": "partial_chapter",
+        "extent": "固定raw第747行陳氏序完整409字；不含後續wikitable、不含其他姓、不是卷七十一下完成",
+        "rights": "古代原文，WS數位編輯層CC BY-SA 4.0，見來源頁",
+        "accessed_on": "2026-10-22",
+        "retrieval_qualification": "此日重讀庫內既存固定檔；非本批新HTTP擷取，授權沿封存metadata未重新開權利頁。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "text_checked",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "固定raw第747行409字逐字截取；不改古字、標點，不含後續wikitable。"
+        }
+      }
     }
   ],
   "relations": [
@@ -123,9 +151,31 @@
   ],
   "related_people": {
     "9w8_tqh_ysn_B*AA": "凖（陳佐子）",
-    "9w8_tqh_ysn_B*AB": "戴（凖弟）"
+    "9w8_tqh_ysn_B*AB": "戴（凖弟）",
+    "9w8_tqh_ysn_B*AC": "徵（凖弟）",
+    "rao_be6_abu": "徽〔新唐陳氏序〕"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "case-xts071xia-chen-hui",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "rao_be6_abu",
+        "9w8_tqh_ysn_B*AB",
+        "9w8_tqh_ysn_B*AC"
+      ],
+      "candidate_list_exhaustive": false,
+      "paragraph_ids": [
+        "c-xintangshu-071xia-chen-preface:p001",
+        "c-sanguozhi-022-chenqun-chentai:p016"
+      ],
+      "note": "唐表佐二子準徽；裴引譜凖弟戴徵。徽/戴/徵是否訛文未定，不依二子或列次合。",
+      "human_reviewed": false,
+      "chapter_id": "c-xintangshu-071xia-chen-preface",
+      "source_id": "s-xintangshu-071xia-chen-preface"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "9w8_tqh_ysn_B*AB"

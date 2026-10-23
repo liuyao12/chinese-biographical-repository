@@ -3,7 +3,7 @@ These records never create office holdings, parentage, salary payments or burial
 """
 import hashlib,re
 
-def errors(chapters,records):
+def errors(chapters,records,root=None):
  out=[];holdings={h['id']:h for r in records for h in r.get('holdings',[])};offers={q['id']:q for ch in chapters.values()for q in ch.get('annotation',{}).get('title_proposals',[])}
  for record in records:
   if record.get('record_type')!='biographical_source_detail_set':continue
@@ -13,13 +13,29 @@ def errors(chapters,records):
   for d in record.get('records',[]):
    if d.get('id')in seen:out.append('來源細節ID重複')
    seen.add(d.get('id'))
-   if not valid(d,ch,holdings,offers):out.append('來源細節格式／原句／角色不符:'+str(d.get('id')))
+   if not valid(d,ch,holdings,offers,root):out.append('來源細節格式／原句／角色不符:'+str(d.get('id')))
  for ch in chapters.values():
   for h in [h for r in records if r.get('chapter_id')==ch['id']for h in r.get('holdings',[])]:
    if (any(k in h for k in ('collective_designation','same_office_designation_as','assumption_basis')) or str(h.get('reported_duration',{}).get('source_term','')).startswith('視事'))and not holding_valid(h,ch,holdings):out.append('稱號額外句法不符:'+h['id'])
  return out
 
-def valid(d,ch,hs,qs):
+def valid(d,ch,hs,qs,root=None):
+ if 'source_career_role' in d:
+  try:from scripts.received_career_roles import detail_valid
+  except ImportError:from received_career_roles import detail_valid
+  return detail_valid(d,ch,hs)
+
+ if 'source_family_duty_frame' in d:
+  try:from scripts.named_family_offices import duty_valid
+  except ImportError:from named_family_offices import duty_valid
+  return duty_valid(d,{ch['id']:ch},hs)
+
+ if 'source_detail_pattern' in d:
+  try:
+   from scripts.source_office_reports import detail_valid
+  except ImportError:
+   from source_office_reports import detail_valid
+  return detail_valid(d,ch,hs,root)
  if 'source_role_sequence' in d:
   try:
    from scripts.biographical_appointment_sequence import detail_valid

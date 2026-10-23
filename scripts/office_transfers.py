@@ -6,7 +6,7 @@ def office_transfer_valid(holding, paragraphs, mentions):
     if (holding.get('kind') != 'office' or holding.get('mode') != 'transfer'
             or not isinstance(b, dict) or set(b) != {'kind', 'verb', 'titles', 'source_term', 'evidence'}
             or b.get('kind') != 'explicit_office_transfer'
-            or b.get('verb') not in ('轉', '轉拜', '遷', '徙', '復轉')
+            or b.get('verb') not in ('轉', '轉拜', '轉為', '遷', '徙', '復轉')
             or not isinstance(b.get('titles'), list) or not b['titles']
             or not all(isinstance(t, str) and t for t in b['titles'])
             or holding.get('title') not in b['titles']

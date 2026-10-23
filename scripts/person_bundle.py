@@ -291,6 +291,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             ids = expanded
     related_equivalences = [d for d in equivalences if ids.intersection(d['person_ids'])]
     mentions, relations, titles, identities, addresses, life_events, ages, person_events, age_differences = [], [], [], [], [], [], [], [], []
+    family_counts = []
     table_occurrences, occurrence_cells = [], {}
     name_components = []
     chapters, paragraphs, tables = {}, {}, {}
@@ -299,6 +300,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         if kind == 'marked_chapter':
             chapters[record['id']] = record
             ages.extend(a for a in record['annotation'].get('age_assertions', []) if a['person_id'] in ids)
+            family_counts.extend(a for a in record['annotation'].get('family_count_reports', []) if a['parent_person_id'] in ids)
             age_differences.extend(a for a in record['annotation'].get('age_difference_assertions', []) if ids.intersection((a['person_id'], a['reference_person_id'])))
             for paragraph in record['paragraphs']:
                 paragraphs[paragraph['id']] = (record, paragraph)
@@ -482,7 +484,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids.update(pid for case in unresolved_cases + resolved_cases for pid in case['paragraph_ids'])
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)
     paragraph_ids.update(c['paragraph_id'] for c in referent_cases)
-    for record in relations + titles + identities + addresses + life_events + person_events + ages + age_differences + related_equivalences + tree_decisions + distinctions:
+    for record in relations + titles + identities + addresses + life_events + person_events + ages + family_counts + age_differences + related_equivalences + tree_decisions + distinctions:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []) if e.get('kind') != 'table_cell')
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []) if e.get('kind') != 'table_cell')
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date_range', {}).get('evidence', []) if e.get('kind') != 'table_cell')
@@ -777,6 +779,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                if any('chinese_civil_year' in e for e in life_events + person_events) else {}),
             **({'life_event_date_decisions': date_decisions, 'selected_life_event_dates': selected_life_dates} if date_decisions else {}),
             **({'age_assertions': ages} if ages else {}),
+            **({'family_count_reports': family_counts} if family_counts else {}),
             **({'age_difference_assertions': age_differences} if age_differences else {}),
             'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
             'table_occurrences': table_occurrences,

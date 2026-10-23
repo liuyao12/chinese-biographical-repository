@@ -1,5 +1,11 @@
 """A complete received son/heir/supplied-son chain binds 國除 to its last heir."""
 def valid(event, paragraphs):
+ if event.get('source_clause_binding',{}).get('kind') in ('biographical_head_named_son_succession','named_childless_brother_succession'):
+  try:
+   from scripts.source_office_reports import succession_valid
+  except ImportError:
+   from source_office_reports import succession_valid
+  return succession_valid(event,paragraphs)
  try:
   keys={'id','person_id','event_type','status','date_expression','source_term','title','holding_id','source_clause_binding','evidence','interpretation_note','reviewer','human_reviewed','model'}
   if event.get('event_type')=='noble_title_succession':keys|={'mode','predecessor_person_id'}

@@ -1,0 +1,473 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-sanguozhi-022-luyu",
+  "assertions": [
+    {
+      "id": "a-sgz022-lu-yu-father-zhi-head",
+      "subject_person_id": "m8n_ntm_79h_A",
+      "predicate": "father",
+      "object_person_id": "m8n_ntm_79h",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父植",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "head_named_father",
+          "roles": {
+            "child": "c-sanguozhi-022-luyu:p001:m0000",
+            "style": "c-sanguozhi-022-luyu:p001:m0003",
+            "parent": "c-sanguozhi-022-luyu:p001:m0011"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p001",
+            "start": 0,
+            "end": 12,
+            "surface": "盧毓字子家涿郡涿人也父植"
+          },
+          "paragraph_sha256": "dae6c80b2b90f9bc3a0ec0d6e3bed84d86b484b79e0372c07c11b477be81c6fd",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "received_chapter"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p001",
+          "quote": "盧毓字子家涿郡涿人也父植有名於世",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p001:m0000",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p001:m0011"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz022-lu-yu-father-zhi-youngest",
+      "subject_person_id": "m8n_ntm_79h_A",
+      "predicate": "father",
+      "object_person_id": "m8n_ntm_79h",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "最小",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "parent_count_named_youngest",
+          "roles": {
+            "parent": "c-sanguozhi-022-luyu:p002:m0255",
+            "child": "c-sanguozhi-022-luyu:p002:m0259"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p002",
+            "start": 255,
+            "end": 262,
+            "surface": "植有四子毓最小"
+          },
+          "paragraph_sha256": "2e59640fbf62a48cfeb66e0f90f2945b12fbac7a2a2fbaaaae8eefb159a1ccce",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "witness_appended_pei_songzhi_note"
+        },
+        "birth_order": {
+          "parent_person_id": "m8n_ntm_79h",
+          "scope": "sons_of_parent",
+          "ordinal": null,
+          "position": "youngest",
+          "source_term": "最小",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p002",
+          "quote": "續漢書曰植字子幹少事馬融與鄭玄同門相友植剛毅有大節常喟然有濟世之志不茍合取容不應州郡命召建寧中徴博士出補九江太守以病去官作尚書章句禮記解詁稍遷侍中尚書張角起以植為北中郎將征角失利抵罪頃之復以為尚書張讓劫少帝奔小平津植手劒責數讓等讓等皆放兵垂泣謝罪遂自殺董卓議欲廢帝衆莫敢對植獨正言語在卓傳植以老病去位隱居上谷軍都山初平三年卒太祖北征柳城過涿郡令告太守曰故北中郎將盧植名著海内學為儒宗士之楷模乃國之楨幹也昔武王入殷封商容之閭鄭喪子産而仲尼隕涕孤到此州嘉其餘風春秋之義賢者之後有異於人敬遣丞掾修墳墓并致薄醊以彰厥徳植有四子毓最小",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p002:m0259",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p002:m0255"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz022-lu-yu-son-1",
+      "subject_person_id": "m8n_ntm_79h_AA",
+      "predicate": "father",
+      "object_person_id": "m8n_ntm_79h_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子欽珽",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "named_sons",
+          "roles": {
+            "parent": "c-sanguozhi-022-luyu:p007:m0104",
+            "child_1": "c-sanguozhi-022-luyu:p007:m0106",
+            "child_2": "c-sanguozhi-022-luyu:p007:m0107"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p007",
+            "start": 104,
+            "end": 108,
+            "surface": "毓子欽珽"
+          },
+          "paragraph_sha256": "5acb9eab4e08f783425a88dbf090e2ae5c4b9a4858c346df5e7184934d392597",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "received_chapter"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p007",
+          "quote": "高貴鄉公即位進封大梁鄉侯封一子高亭侯毌丘儉作亂大將軍司馬景王出征毓綱紀後事加侍中正元三年疾病遜位遷為司空固推驃騎將軍王昶光祿大夫王觀司隸校尉王祥詔使使者即授印綬進爵封容城侯邑二十三百戸甘露二年薨諡曰成侯孫藩嗣毓子欽珽咸熙中欽為尚書珽泰山太守",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p007:m0106",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p007:m0104"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz022-lu-yu-son-2",
+      "subject_person_id": "m8n_ntm_79h_AB",
+      "predicate": "father",
+      "object_person_id": "m8n_ntm_79h_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子欽珽",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "named_sons",
+          "roles": {
+            "parent": "c-sanguozhi-022-luyu:p007:m0104",
+            "child_1": "c-sanguozhi-022-luyu:p007:m0106",
+            "child_2": "c-sanguozhi-022-luyu:p007:m0107"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p007",
+            "start": 104,
+            "end": 108,
+            "surface": "毓子欽珽"
+          },
+          "paragraph_sha256": "5acb9eab4e08f783425a88dbf090e2ae5c4b9a4858c346df5e7184934d392597",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "received_chapter"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p007",
+          "quote": "高貴鄉公即位進封大梁鄉侯封一子高亭侯毌丘儉作亂大將軍司馬景王出征毓綱紀後事加侍中正元三年疾病遜位遷為司空固推驃騎將軍王昶光祿大夫王觀司隸校尉王祥詔使使者即授印綬進爵封容城侯邑二十三百戸甘露二年薨諡曰成侯孫藩嗣毓子欽珽咸熙中欽為尚書珽泰山太守",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p007:m0107",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p007:m0104"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz022-lu-fan-grandfather-yu",
+      "subject_person_id": "m8n_ntm_79h_A*A",
+      "predicate": "grandfather",
+      "object_person_id": "m8n_ntm_79h_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "孫藩",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "grandson_before_resumed_sons",
+          "roles": {
+            "grandchild": "c-sanguozhi-022-luyu:p007:m0102",
+            "grandparent": "c-sanguozhi-022-luyu:p007:m0104",
+            "child_1": "c-sanguozhi-022-luyu:p007:m0106",
+            "child_2": "c-sanguozhi-022-luyu:p007:m0107"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p007",
+            "start": 101,
+            "end": 108,
+            "surface": "孫藩嗣毓子欽珽"
+          },
+          "paragraph_sha256": "5acb9eab4e08f783425a88dbf090e2ae5c4b9a4858c346df5e7184934d392597",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "received_chapter"
+        },
+        "generation_distance": 2,
+        "parent_person_id": null,
+        "intermediate_person_ids": [
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p007",
+          "quote": "高貴鄉公即位進封大梁鄉侯封一子高亭侯毌丘儉作亂大將軍司馬景王出征毓綱紀後事加侍中正元三年疾病遜位遷為司空固推驃騎將軍王昶光祿大夫王觀司隸校尉王祥詔使使者即授印綬進爵封容城侯邑二十三百戸甘露二年薨諡曰成侯孫藩嗣毓子欽珽咸熙中欽為尚書珽泰山太守",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p007:m0102",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p007:m0104"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz022-lu-fu-father-qin",
+      "subject_person_id": "m8n_ntm_79h_AAA",
+      "predicate": "father",
+      "object_person_id": "m8n_ntm_79h_AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子浮",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "named_sons",
+          "roles": {
+            "parent": "c-sanguozhi-022-luyu:p008:m0075",
+            "child_1": "c-sanguozhi-022-luyu:p008:m0077"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p008",
+            "start": 75,
+            "end": 78,
+            "surface": "欽子浮"
+          },
+          "paragraph_sha256": "4413c5604971b39b9f97b28933498791ca53bacce5ff80986607283c30a1a4b0",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "witness_appended_pei_songzhi_note"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p008",
+          "quote": "世語曰欽字子若珽字子笏欽泰始中為尚書僕射領選咸寧四年卒追贈衛將軍開府虞預晉書曰欽少居名位不顧財利清虚淡薄勤修禮典同郡張華家單少孤不為鄉邑所知惟欽貴異焉欽子浮字子雲晉諸公贊曰張華博識多聞無物不知浮高朗經博有美於華起家太子舍人病疽截手遂廢朝廷器重之就家以為國子博士遷祭酒永平中為祕書監珽及子皓志並至尚書志子諶字子諒溫嶠表稱諶清飭有文思諶别傳曰諶善著文章洛陽傾覆北投劉琨琨以為司空從事中郎琨敗諶歸段末波元帝之初累召為散騎中書侍郎不得南赴永和六年卒於胡胡中子孫過江妖賊帥盧循諶之曾孫",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p008:m0077",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p008:m0075"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz022-lu-ting-son-1",
+      "subject_person_id": "m8n_ntm_79h_ABA",
+      "predicate": "father",
+      "object_person_id": "m8n_ntm_79h_AB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "及子皓志",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "parent_and_sons",
+          "roles": {
+            "parent": "c-sanguozhi-022-luyu:p008:m0140",
+            "child_1": "c-sanguozhi-022-luyu:p008:m0143",
+            "child_2": "c-sanguozhi-022-luyu:p008:m0144"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p008",
+            "start": 140,
+            "end": 145,
+            "surface": "珽及子皓志"
+          },
+          "paragraph_sha256": "4413c5604971b39b9f97b28933498791ca53bacce5ff80986607283c30a1a4b0",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "witness_appended_pei_songzhi_note"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p008",
+          "quote": "世語曰欽字子若珽字子笏欽泰始中為尚書僕射領選咸寧四年卒追贈衛將軍開府虞預晉書曰欽少居名位不顧財利清虚淡薄勤修禮典同郡張華家單少孤不為鄉邑所知惟欽貴異焉欽子浮字子雲晉諸公贊曰張華博識多聞無物不知浮高朗經博有美於華起家太子舍人病疽截手遂廢朝廷器重之就家以為國子博士遷祭酒永平中為祕書監珽及子皓志並至尚書志子諶字子諒溫嶠表稱諶清飭有文思諶别傳曰諶善著文章洛陽傾覆北投劉琨琨以為司空從事中郎琨敗諶歸段末波元帝之初累召為散騎中書侍郎不得南赴永和六年卒於胡胡中子孫過江妖賊帥盧循諶之曾孫",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p008:m0143",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p008:m0140"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz022-lu-ting-son-2",
+      "subject_person_id": "m8n_ntm_79h_ABB",
+      "predicate": "father",
+      "object_person_id": "m8n_ntm_79h_AB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "及子皓志",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "parent_and_sons",
+          "roles": {
+            "parent": "c-sanguozhi-022-luyu:p008:m0140",
+            "child_1": "c-sanguozhi-022-luyu:p008:m0143",
+            "child_2": "c-sanguozhi-022-luyu:p008:m0144"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p008",
+            "start": 140,
+            "end": 145,
+            "surface": "珽及子皓志"
+          },
+          "paragraph_sha256": "4413c5604971b39b9f97b28933498791ca53bacce5ff80986607283c30a1a4b0",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "witness_appended_pei_songzhi_note"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p008",
+          "quote": "世語曰欽字子若珽字子笏欽泰始中為尚書僕射領選咸寧四年卒追贈衛將軍開府虞預晉書曰欽少居名位不顧財利清虚淡薄勤修禮典同郡張華家單少孤不為鄉邑所知惟欽貴異焉欽子浮字子雲晉諸公贊曰張華博識多聞無物不知浮高朗經博有美於華起家太子舍人病疽截手遂廢朝廷器重之就家以為國子博士遷祭酒永平中為祕書監珽及子皓志並至尚書志子諶字子諒溫嶠表稱諶清飭有文思諶别傳曰諶善著文章洛陽傾覆北投劉琨琨以為司空從事中郎琨敗諶歸段末波元帝之初累召為散騎中書侍郎不得南赴永和六年卒於胡胡中子孫過江妖賊帥盧循諶之曾孫",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p008:m0144",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p008:m0140"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz022-lu-chen-father-zhi",
+      "subject_person_id": "m8n_ntm_79h_ABBA",
+      "predicate": "father",
+      "object_person_id": "m8n_ntm_79h_ABB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子諶",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "named_sons",
+          "roles": {
+            "parent": "c-sanguozhi-022-luyu:p008:m0149",
+            "child_1": "c-sanguozhi-022-luyu:p008:m0151"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p008",
+            "start": 149,
+            "end": 152,
+            "surface": "志子諶"
+          },
+          "paragraph_sha256": "4413c5604971b39b9f97b28933498791ca53bacce5ff80986607283c30a1a4b0",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "witness_appended_pei_songzhi_note"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p008",
+          "quote": "世語曰欽字子若珽字子笏欽泰始中為尚書僕射領選咸寧四年卒追贈衛將軍開府虞預晉書曰欽少居名位不顧財利清虚淡薄勤修禮典同郡張華家單少孤不為鄉邑所知惟欽貴異焉欽子浮字子雲晉諸公贊曰張華博識多聞無物不知浮高朗經博有美於華起家太子舍人病疽截手遂廢朝廷器重之就家以為國子博士遷祭酒永平中為祕書監珽及子皓志並至尚書志子諶字子諒溫嶠表稱諶清飭有文思諶别傳曰諶善著文章洛陽傾覆北投劉琨琨以為司空從事中郎琨敗諶歸段末波元帝之初累召為散騎中書侍郎不得南赴永和六年卒於胡胡中子孫過江妖賊帥盧循諶之曾孫",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p008:m0151",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p008:m0149"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz022-lu-xun-great-grandfather-chen",
+      "subject_person_id": "m8n_ntm_79h_ABBA**A",
+      "predicate": "great_grandfather",
+      "object_person_id": "m8n_ntm_79h_ABBA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "曾孫",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "named_great_grandson",
+          "roles": {
+            "descendant": "c-sanguozhi-022-luyu:p008:m0231",
+            "ancestor": "c-sanguozhi-022-luyu:p008:m0233"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p008",
+            "start": 231,
+            "end": 237,
+            "surface": "盧循諶之曾孫"
+          },
+          "paragraph_sha256": "4413c5604971b39b9f97b28933498791ca53bacce5ff80986607283c30a1a4b0",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "witness_appended_pei_songzhi_note"
+        },
+        "generation_distance": 3,
+        "parent_person_id": null,
+        "intermediate_person_ids": [
+          null,
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p008",
+          "quote": "世語曰欽字子若珽字子笏欽泰始中為尚書僕射領選咸寧四年卒追贈衛將軍開府虞預晉書曰欽少居名位不顧財利清虚淡薄勤修禮典同郡張華家單少孤不為鄉邑所知惟欽貴異焉欽子浮字子雲晉諸公贊曰張華博識多聞無物不知浮高朗經博有美於華起家太子舍人病疽截手遂廢朝廷器重之就家以為國子博士遷祭酒永平中為祕書監珽及子皓志並至尚書志子諶字子諒溫嶠表稱諶清飭有文思諶别傳曰諶善著文章洛陽傾覆北投劉琨琨以為司空從事中郎琨敗諶歸段末波元帝之初累召為散騎中書侍郎不得南赴永和六年卒於胡胡中子孫過江妖賊帥盧循諶之曾孫",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p008:m0231",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p008:m0233"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

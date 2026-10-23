@@ -35,6 +35,22 @@ def source_author_errors(works, chapters):
      # Restrict source grammar to an explicit subject-led biographical predicate,
      # an optional marriage object, character description, then authorship.
      require(re.fullmatch(r'(?:長於|生於|居於)[^曰云。；！？@]{1,12}(?:又?尚@P@)?(?:少以[^曰云。；！？@]{1,12}知名)?(?:好[^曰云。；！？@]{1,12}言)?(?:作|著|撰)',masked) is not None,'not explicit continued-subject authorship clause')
+    elif kind=='resumed_biographical_subject_named_works':
+     head=ms.get(syntax.get('biographical_head_mention_id'));reporter=ms.get(syntax.get('reporting_work_mention_id'))
+     require(head is not None and reporter is not None,'missing biography/reporting anchors')
+     require(head.get('kind')=='person' and head.get('person_id')==a.get('person_id') and head['end']<a['start'],'head and resumed subject differ')
+     require(reporter.get('kind')=='work' and reporter['start']==0 and head['start']==reporter['end']+1 and text[reporter['end']:head['start']]=='曰' and text[head['end']:head['end']+1]=='字','not reported biography opening')
+     listed=[ms.get(i) for i in syntax.get('listed_work_mention_ids',[])]
+     require(len(listed)>=2 and len(listed)<=4 and all(x and x.get('kind')=='work' for x in listed),'missing listed works')
+     require(len({x['id'] for x in listed})==len(listed) and w['id'] in [x['id'] for x in listed],'duplicate/unbound listed title')
+     require(all(x['end']==y['start'] for x,y in zip(listed,listed[1:])),'not contiguous named works')
+     first=listed[0];g=text[a['end']:first['start']]
+     require(a['end']<first['start'] and len(g)<=120 and re.fullmatch(r'[^曰云。；！？]{1,118}(?:作|著|撰)',g) is not None,'not resumed explicit authorship clause')
+     require(not re.search(r'(?:不|未|無|欲|將|當|議|請|可|宜)(?:作|著|撰)$',g),'negative/intended authorship')
+     require(not [m for m in p['mentions'] if m.get('kind')=='person' and a['end']<=m['start']<listed[-1]['end']],'intervening person')
+     for x in [head,reporter]+listed:
+      require(text[x['start']:x['end']]==x['surface'],'resumption/list anchor span differs')
+     require(syntax.get('scope_quote')==text[a['start']:listed[-1]['end']] and not syntax.get('object_person_mention_ids'),'scope quote/objects differ')
     else:raise ValueError('unknown/missing source authorship syntax')
    except (KeyError,TypeError,ValueError) as exc:errors.append('source-author-prefix: '+str(ev.get('work_mention_id'))+': '+str(exc))
  return errors

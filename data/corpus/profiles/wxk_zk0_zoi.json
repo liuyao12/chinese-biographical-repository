@@ -6,11 +6,57 @@
   "identity_note": "王祥完整本傳來源內具體人物；同名異人不合併，原文姓名組件與親屬另層。",
   "review": "ai_provisional",
   "names": [
-    "鄭沖"
+    "鄭沖",
+    "鄭冲",
+    "文和"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 22,
+      "category": "",
+      "title": "《三國志》魏書卷二十二盧毓本傳及裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-022-luyu:p005",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "謂明試有功不懈于位者也其以毓為吏部尚書使毓自選代曰得如卿者乃可毓舉常侍鄭冲帝曰文和吾自知之更舉吾所未聞者乃舉阮武孫邕帝於是用邕前此諸葛誕鄧颺等馳名譽有四窓八達之誚帝疾之時舉中書郎詔曰得其人與否在盧生耳選舉莫取有名名如畫地作餅不可啖也毓對曰名不足以致異人而可以得常士常士畏教慕",
+      "paragraph_ids": [
+        "c-sanguozhi-022-luyu:p005"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-022-luyu:p005:m0187",
+        "c-sanguozhi-022-luyu:p005:m0191"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-022-luyu:p005:m0187": "c-sanguozhi-022-luyu:p005",
+        "c-sanguozhi-022-luyu:p005:m0191": "c-sanguozhi-022-luyu:p005"
+      },
+      "mention_id": "c-sanguozhi-022-luyu:p005:m0187",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-022-luyu:p005:m0187",
+          "mention_ids": [
+            "c-sanguozhi-022-luyu:p005:m0187"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-022-luyu:p005:m0191",
+          "mention_ids": [
+            "c-sanguozhi-022-luyu:p005:m0191"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-022",
+      "chapter_id": "c-sanguozhi-022-luyu",
+      "source_id": "s-sanguozhi-022-luyu",
+      "work_title": "三國志"
+    },
     {
       "number": 33,
       "category": "",
@@ -173,6 +219,34 @@
           ],
           "completion_appendix": "同固定修訂2650519補入原始行20–35八段；原八段全文、ID與mentions全值保留。原字漢未、乙太保、Я脯等不靜改。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-022-luyu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-022",
+      "source_id": "s-sanguozhi-022-luyu",
+      "source": {
+        "title": "三國志魏書卷二十二盧毓本傳及裴注完整單元",
+        "provider": "Kanripo",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "3bac47f1f63c9556bc3b4087fda3cfb04f3470a267595521d236e22e58b00a3b",
+        "edition": "WYG數位轉錄，未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定原行432–505，盧毓本傳與兩處完整裴注（含盧植與子孫附敘）；431衛臻注尾及506起全卷評曰排除。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文，保留Kanripo數位轉錄歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "刪¶/換行與pb頁碼；括號只為古注逐行包裝，移為text_layer。原字（含珽/諶别傳/尸等）不改，逐字raw_positions固定。"
+        },
+        "quality_note": "沿既存固定WYG數位轉錄，未讀版本影像；本傳及古注保全不等同逐項生平已核。"
       }
     }
   ],

@@ -2,6 +2,17 @@
 import hashlib,re
 KIND='biography_family_clause'
 def valid(a,paragraphs,assertions=()):
+ q_new=a.get('qualifiers', {})
+ if not isinstance(q_new, dict):return False
+ b_new=q_new.get('source_clause_binding', {})
+ if not isinstance(b_new, dict)or not isinstance(b_new.get('rule', ''), str):return False
+ if b_new.get('rule', '').startswith('genealogical_preface_'):
+     try:
+         from scripts.received_genealogy_kinship import valid as genealogy_valid
+     except ImportError:
+         from received_genealogy_kinship import valid as genealogy_valid
+     return genealogy_valid(a, paragraphs)
+
  if a.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('continued_biography_'):
      try:
          from scripts.continued_biography_family import valid as continued_valid
