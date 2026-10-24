@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1];KEY='sgz024-cuilin-four-kinship';CID='c
 class CuilinKinship(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
-  cls.ch=json.loads((ROOT/'corpus/sanguozhi/024-cuilin.json').read_bytes());cls.facts=records(cls.ch,ROOT);cls.by={a['id'].removeprefix('a-sgz024-cuilin-'):a for a in cls.facts};cls.roles=[[m for m in p['mentions']if m['kind']=='person']for p in cls.ch['paragraphs']]
+  cls.ch=json.loads((ROOT/'corpus/sanguozhi/024-cuilin.json').read_bytes());cls.all_facts=records(cls.ch,ROOT);cls.facts=[a for a in cls.all_facts if a['fixed_source_fact_binding']['slot']in('shu-father-lin','sui-younger-brother-shu','wei-grandfather-lin','lin-younger-agnatic-cousin-yan')];cls.by={a['id'].removeprefix('a-sgz024-cuilin-'):a for a in cls.facts};cls.roles=[[m for m in p['mentions']if m['kind']=='person']for p in cls.ch['paragraphs']]
  def test_full_ten_units_and_projection_pin(self):self.assertEqual(len(self.ch['paragraphs']),10);self.assertEqual(projection_errors(self.ch,ROOT),[]);self.assertEqual(len(self.facts),4);self.assertTrue(all(valid(a,self.ch,ROOT)for a in self.facts))
  def test_father_from_son_word_not_inheritance_alone(self):
   a=self.by['shu-father-lin'];self.assertEqual(a['predicate'],'father');self.assertEqual(a['subject_person_id'],self.roles[8][3]['person_id']);self.assertEqual(a['object_person_id'],self.roles[8][1]['person_id']);self.assertEqual(a['qualifiers']['source_term'],'子述嗣')
@@ -46,7 +46,7 @@ class CuilinKinship(unittest.TestCase):
  def test_projection_ref_and_wrong_slot_rejected(self):
   ch=copy.deepcopy(self.ch);ch['annotation'].pop('fixed_kanripo_projection_ref');self.assertFalse(valid(self.facts[0],ch,ROOT));a=copy.deepcopy(self.facts[0]);a['fixed_source_fact_binding']['slot']='wrong';self.assertFalse(valid(a,self.ch,ROOT))
  def test_missing_duplicate_and_extra_facts_rejected(self):
-  for facts in(self.facts[:-1],self.facts+[self.facts[0]],self.facts+[dict(self.facts[0],id='invented')]):
+  for facts in([a for a in self.all_facts if a['id']!=self.facts[0]['id']],self.all_facts+[self.facts[0]],self.all_facts+[dict(self.facts[0],id='invented')]):
    self.assertTrue(errors(ROOT,[self.ch,dict(record_type='person_assertion_set',chapter_id=CID,assertions=facts)]))
  def test_no_new_source_father_for_sui_or_wei(self):
   self.assertFalse(any(a['predicate']=='father'and a['subject_person_id']in(self.roles[9][1]['person_id'],self.roles[9][7]['person_id'])for a in self.facts))

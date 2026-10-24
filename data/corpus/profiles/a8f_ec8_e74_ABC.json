@@ -534,6 +534,33 @@
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-jinshu-043-wangyan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "source": {
+        "title": "《晉書》卷四十三從弟王衍完整敘事單元（含子玄附敘）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-21",
+        "extent": "從弟衍節十個完整原段，含子玄末段；止衍弟澄節之前，不含王澄與全卷史評。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
+        }
+      }
     }
   ],
   "relations": [
@@ -598,10 +625,11 @@
     }
   ],
   "related_people": {
-    "8sa_o0b_y2i": "王澄〔八王之一〕",
+    "8sa_o0b_y2i": "王澄",
     "a8f_ec8_e74_AB": "王渾",
     "a8f_ec8_e74_ABB": "王濟",
-    "a8f_ec8_e74_ABC": "王澄〔王濟弟〕"
+    "a8f_ec8_e74_ABC": "王澄〔王濟弟〕",
+    "rlk_lzd_86c": "澄〔王衍弟，荊州刺史〕"
   },
   "dates": [],
   "unresolved_identity_cases": [
@@ -610,13 +638,32 @@
       "status": "unresolved",
       "candidate_person_ids": [
         "8sa_o0b_y2i",
-        "a8f_ec8_e74_ABC"
+        "a8f_ec8_e74_ABC",
+        "rlk_lzd_86c"
       ],
       "paragraph_ids": [
         "c-jinshu-035-peikai-family:p019",
-        "c-jinshu-042-taiyuan-wang:line017"
+        "c-jinshu-042-taiyuan-wang:line017",
+        "c-jinshu-043-wangyan:p006",
+        "c-jinshu-042-taiyuan-wang:line042"
       ],
-      "note": "八王評比王澄與042王渾子澄缺交證，不按同名合。",
+      "note": "八名王氏評比中的王澄為本源身份；043王衍弟、荊州刺史澄為未決同指候選，042父渾/字道深者保具體反候選。未裁定035澄即任一人，不因同名合。",
+      "candidate_qualifications": [
+        {
+          "person_id": "8sa_o0b_y2i",
+          "role": "source_local_referent"
+        },
+        {
+          "person_id": "rlk_lzd_86c",
+          "role": "contextual_candidate_not_identified",
+          "basis": "043王衍弟、荊州刺史；平子字另見已讀完整附傳。"
+        },
+        {
+          "person_id": "a8f_ec8_e74_ABC",
+          "role": "known_other_lineage_countercandidate",
+          "basis": "042王渾子/王濟弟，明字道深，與043平子父乂不同；035不記父字，仍保未決比對。"
+        }
+      ],
       "chapter_id": "c-jinshu-035-peikai-family",
       "source_id": "s-jinshu-035-peikai-ws2506399"
     }

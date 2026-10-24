@@ -1041,6 +1041,7 @@
 | `du3_6o0_zew` | 尒朱仲遠〔楊昱所拒〕 | [《魏書（魏收）・卷五十八：楊津至楊鈞近系完整傳（部分卷）》][243] | [JSON](du3_6o0_zew.json) |
 | `du3_ej1_q8i` | 劉肇〔南郡太守〕 | [《晉書・王衍傳》][38] | [JSON](du3_ej1_q8i.json) |
 | `duy_acg_01x` | 素女 | [《史記・孝武本紀》][111] | [JSON](duy_acg_01x.json) |
+| `duy_kcy_44o` | 王玄 | [《晉書・裴楷及附傳近系》][30] | [JSON](duy_kcy_44o.json) |
 | `dvm_i4n_dg2` | 劉僧秀 | [《宋書・劉懷肅及附家族完整選錄單元》][220] | [JSON](dvm_i4n_dg2.json) |
 | `dw0_uvv_mjl` | 魏王宜陽盟 | [《史記・樗里子甘茂列傳》][152] | [JSON](dw0_uvv_mjl.json) |
 | `dwe_x5u_t0q` | 衞康叔（季札論樂稱） | [《史記・吳太伯世家》][112] | [JSON](dwe_x5u_t0q.json) |
@@ -1925,7 +1926,6 @@
 | `i9s_twj_pgk` | 劉瑾 | [《晉書・桓玄完整本傳單元》][68] | [JSON](i9s_twj_pgk.json) |
 | `ia8_8tw_gey` | 公山不狃 | [《史記・孔子世家》][128] | [JSON](ia8_8tw_gey.json) |
 | `iaa_8y5_xpc` | 劉軌 | [《晉書・桓玄完整本傳單元》][68] | [JSON](iaa_8y5_xpc.json) |
-| `iai_csf_zlg` | 鄭幽公 | [《史記・韓世家》][126] | [JSON](iai_csf_zlg.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

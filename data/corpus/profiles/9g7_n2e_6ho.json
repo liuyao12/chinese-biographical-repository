@@ -17,6 +17,91 @@
   ],
   "titles": [
     {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "th-sgz024-cuilin-xiaohou",
+      "person_id": "9g7_n2e_6ho",
+      "title": "孝侯",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
+      "appointment_role": "posthumous_naming",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-024",
+          "source_id": "s-sanguozhi-024-cuilin",
+          "chapter_id": "c-sanguozhi-024-cuilin",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+          "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+          "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-sgz024-cuilin-xiaohou:a001",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+          "start": 18,
+          "end": 20,
+          "surface": "孝侯",
+          "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "posthumous_naming",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-sanguozhi",
+              "book_id": "b-sanguozhi-024",
+              "source_id": "s-sanguozhi-024-cuilin",
+              "chapter_id": "c-sanguozhi-024-cuilin",
+              "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+              "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+              "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "naming_basis": {
+        "source_term": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+        "death_term": "薨",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-024",
+            "source_id": "s-sanguozhi-024-cuilin",
+            "chapter_id": "c-sanguozhi-024-cuilin",
+            "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+            "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+            "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004"
+          }
+        ]
+      },
+      "interpretation_note": "諡曰孝侯屬林，不給述；授諡年空，不把244卒年直接填入。",
+      "source_career_role": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "lin-posthumous-name"
+      },
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "lin-posthumous-name"
+      },
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-cui53-f034",
       "person_id": "9g7_n2e_6ho",
       "status": "source_attested",
@@ -64,7 +149,49 @@
       "period": "未定 → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "pa-sgz024-cuilin-origin",
+      "person_id": "9g7_n2e_6ho",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "清河東武城",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "source_term": "清河東武城人也",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-024-cuilin:p001",
+        "start": 5,
+        "end": 12,
+        "surface": "清河東武城人也"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-024",
+          "source_id": "s-sanguozhi-024-cuilin",
+          "chapter_id": "c-sanguozhi-024-cuilin",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p001",
+          "quote": "崔林字徳儒清河東武城人也少時晚成宗族莫知惟從兄琰異之太祖定冀州召除鄔長貧無車馬單歩之官太祖征壺關問長吏徳政最者并州刺史張陟以林對於是擢為冀州主簿徙署别駕丞相掾屬魏國既建稍遷御史中丞文帝踐阼拜尚書出為幽州刺史北中郎將吳質統河北軍事涿郡太守王雄謂林别駕曰吳中郎將上所親重國之貴臣也杖節統事州郡莫不奉牋致敬而崔使君初不與相聞若以邊塞不修斬卿使君寧能䕶卿邪别駕具以白林林曰刺史視去此州如脫屣寧當相累邪此州與胡虜接宜鎮之以靜擾之則動其逆心特為國家生北顧憂以此為寄在官一期冦竊寢息",
+          "person_mention_id": "c-sanguozhi-024-cuilin:p001:m0000"
+        }
+      ],
+      "interpretation_note": "傳首籍貫原語，不當出生地/葬地，不外推子孫或王經的縣籍。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "lin-origin"
+      },
+      "term": "清河東武城人也",
+      "quote": "崔林字徳儒清河東武城人也少時晚成宗族莫知惟從兄琰異之太祖定冀州召除鄔長貧無車馬單歩之官太祖征壺關問長吏徳政最者并州刺史張陟以林對於是擢為冀州主簿徙署别駕丞相掾屬魏國既建稍遷御史中丞文帝踐阼拜尚書出為幽州刺史北中郎將吳質統河北軍事涿郡太守王雄謂林别駕曰吳中郎將上所親重國之貴臣也杖節統事州郡莫不奉牋致敬而崔使君初不與相聞若以邊塞不修斬卿使君寧能䕶卿邪别駕具以白林林曰刺史視去此州如脫屣寧當相累邪此州與胡虜接宜鎮之以靜擾之則動其逆心特為國家生北顧憂以此為寄在官一期冦竊寢息"
+    }
+  ],
   "occurrences": [
     {
       "number": 21,
@@ -599,6 +726,75 @@
   ],
   "relations": [
     {
+      "id": "a-jin044-ancestor",
+      "subject_person_id": "yd9_rqt_a0v",
+      "predicate": "great_grandfather",
+      "object_person_id": "9g7_n2e_6ho",
+      "qualifiers": {
+        "source_term": "曾孫",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "frame": "jin044_luchen_cuiyue_p004",
+          "paragraph_id": "c-jinshu-044-luchen-cuiyue:p004",
+          "source_revision": 1775345,
+          "paragraph_sha256": "2edce04ff095de4840d7820d95f578caa278b57254ecdc96a4916d7bf9282282",
+          "roles": {
+            "r0": "c-jinshu-044-luchen-cuiyue:p004:m0000",
+            "r1": "c-jinshu-044-luchen-cuiyue:p004:m0002",
+            "r2": "c-jinshu-044-luchen-cuiyue:p004:m0005",
+            "r3": "c-jinshu-044-luchen-cuiyue:p004:m0012",
+            "r4": "c-jinshu-044-luchen-cuiyue:p004:m0021",
+            "r5": "c-jinshu-044-luchen-cuiyue:p004:m0024",
+            "r6": "c-jinshu-044-luchen-cuiyue:p004:m0034",
+            "r7": "c-jinshu-044-luchen-cuiyue:p004:m0049",
+            "r8": "c-jinshu-044-luchen-cuiyue:p004:m0051",
+            "r9": "c-jinshu-044-luchen-cuiyue:p004:m0053"
+          },
+          "fields": {
+            "career_0": {
+              "paragraph_id": "c-jinshu-044-luchen-cuiyue:p004",
+              "start": 25,
+              "end": 31,
+              "surface": "司空從事中郎"
+            },
+            "career_1": {
+              "paragraph_id": "c-jinshu-044-luchen-cuiyue:p004",
+              "start": 36,
+              "end": 38,
+              "surface": "佐史"
+            }
+          },
+          "inside_role_fields": {},
+          "human_reviewed": false,
+          "slot": "ancestor",
+          "rule": "attached_received_biography_frame"
+        },
+        "lineage": "paternal",
+        "generation_distance": 3,
+        "intermediate_person_ids": [
+          null,
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luchen-cuiyue",
+          "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+          "paragraph_id": "c-jinshu-044-luchen-cuiyue:p004",
+          "quote": "悅字道儒，魏司空林曾孫，劉琨妻子之侄也。與諶俱為琨司空從事中郎，後為末波佐史。沒石氏，亦居大官。其綽、憲、暢並別有傳。",
+          "subject_person_mention_id": "c-jinshu-044-luchen-cuiyue:p004:m0000",
+          "object_person_mention_id": "c-jinshu-044-luchen-cuiyue:p004:m0005"
+        }
+      ],
+      "interpretation_note": "只採原明角色與原詞。未成禮不建夫妻；母稱非生母，從母不補中介母身分；曾祖兩代未知不組族；弟只相對長幼。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-sgz024-cuilin-shu-father-lin",
       "predicate": "father",
       "subject_person_id": "wsx_4f7_xtj",
@@ -751,10 +947,94 @@
     "i6e_n75_es1": "崔琰",
     "s0r_qhp_wik": "瑋〔崔林孫，太子右衛率〕",
     "wsx_4f7_xtj": "述〔崔林嗣子〕",
+    "yd9_rqt_a0v": "崔悅",
     "yd9_rqt_a0v_AA": "崔宏"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "CE",
+      "era_year": 244,
+      "year": 244,
+      "calendar": "chinese_civil",
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "source_expression": "正始五年",
+      "original_quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-024",
+          "source_id": "s-sanguozhi-024-cuilin",
+          "chapter_id": "c-sanguozhi-024-cuilin",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+          "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+          "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004"
+        }
+      ],
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=1",
+          "quote": "正始",
+          "columns": {
+            "dynasty": "魏",
+            "era_name": "正始",
+            "first_year": "240",
+            "last_year": "249"
+          },
+          "scope": "modern_era_year_equivalence_only",
+          "read_on": "2026-10-23",
+          "web_extracted_line": 129,
+          "raw_response_sha256": null,
+          "image_verified": false
+        }
+      ],
+      "regnal_year_mapping": {
+        "kind": "ce_regnal_era_span",
+        "era_name": "正始",
+        "source_number": "五",
+        "regnal_year": 5,
+        "start_ce_year": 240,
+        "end_ce_year": 249,
+        "reference_index": 0
+      },
+      "rationale": "本源正始五年薨，角色明林；年號表僅提供對照，按中國年標244，未定月份/日或授諡年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-sgz024-cuilin-lin-death",
+      "person_id": "9g7_n2e_6ho",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [
+    {
+      "id": "nc-sgz024-cuilin-lin",
+      "person_id": "9g7_n2e_6ho",
+      "surname": "崔",
+      "ming": "林",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-024-cuilin",
+      "paragraph_id": "c-sanguozhi-024-cuilin:p001",
+      "person_mention_id": "c-sanguozhi-024-cuilin:p001:m0000",
+      "quote": "崔林字徳儒清河東武城人也少時晚成宗族莫知惟從兄琰異之太祖定冀州召除鄔長貧無車馬單歩之官太祖征壺關問長吏徳政最者并州刺史張陟以林對於是擢為冀州主簿徙署别駕丞相掾屬魏國既建稍遷御史中丞文帝踐阼拜尚書出為幽州刺史北中郎將吳質統河北軍事涿郡太守王雄謂林别駕曰吳中郎將上所親重國之貴臣也杖節統事州郡莫不奉牋致敬而崔使君初不與相聞若以邊塞不修斬卿使君寧能䕶卿邪别駕具以白林林曰刺史視去此州如脫屣寧當相累邪此州與胡虜接宜鎮之以靜擾之則動其逆心特為國家生北顧憂以此為寄在官一期冦竊寢息",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源姓名構件；承姓是有資格來源角色路徑，不由label/ID/組裝補父或母，不改原字。",
+      "zi": "徳儒",
+      "courtesy_person_mention_id": "c-sanguozhi-024-cuilin:p001:m0003",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "lin"
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-024",
+      "source_id": "s-sanguozhi-024-cuilin"
+    },
     {
       "person_id": "9g7_n2e_6ho",
       "surname": null,
@@ -777,6 +1057,75 @@
     "9g7_n2e_6ho"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin044-ancestor",
+      "subject_person_id": "yd9_rqt_a0v",
+      "predicate": "great_grandfather",
+      "object_person_id": "9g7_n2e_6ho",
+      "qualifiers": {
+        "source_term": "曾孫",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "frame": "jin044_luchen_cuiyue_p004",
+          "paragraph_id": "c-jinshu-044-luchen-cuiyue:p004",
+          "source_revision": 1775345,
+          "paragraph_sha256": "2edce04ff095de4840d7820d95f578caa278b57254ecdc96a4916d7bf9282282",
+          "roles": {
+            "r0": "c-jinshu-044-luchen-cuiyue:p004:m0000",
+            "r1": "c-jinshu-044-luchen-cuiyue:p004:m0002",
+            "r2": "c-jinshu-044-luchen-cuiyue:p004:m0005",
+            "r3": "c-jinshu-044-luchen-cuiyue:p004:m0012",
+            "r4": "c-jinshu-044-luchen-cuiyue:p004:m0021",
+            "r5": "c-jinshu-044-luchen-cuiyue:p004:m0024",
+            "r6": "c-jinshu-044-luchen-cuiyue:p004:m0034",
+            "r7": "c-jinshu-044-luchen-cuiyue:p004:m0049",
+            "r8": "c-jinshu-044-luchen-cuiyue:p004:m0051",
+            "r9": "c-jinshu-044-luchen-cuiyue:p004:m0053"
+          },
+          "fields": {
+            "career_0": {
+              "paragraph_id": "c-jinshu-044-luchen-cuiyue:p004",
+              "start": 25,
+              "end": 31,
+              "surface": "司空從事中郎"
+            },
+            "career_1": {
+              "paragraph_id": "c-jinshu-044-luchen-cuiyue:p004",
+              "start": 36,
+              "end": 38,
+              "surface": "佐史"
+            }
+          },
+          "inside_role_fields": {},
+          "human_reviewed": false,
+          "slot": "ancestor",
+          "rule": "attached_received_biography_frame"
+        },
+        "lineage": "paternal",
+        "generation_distance": 3,
+        "intermediate_person_ids": [
+          null,
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luchen-cuiyue",
+          "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+          "paragraph_id": "c-jinshu-044-luchen-cuiyue:p004",
+          "quote": "悅字道儒，魏司空林曾孫，劉琨妻子之侄也。與諶俱為琨司空從事中郎，後為末波佐史。沒石氏，亦居大官。其綽、憲、暢並別有傳。",
+          "subject_person_mention_id": "c-jinshu-044-luchen-cuiyue:p004:m0000",
+          "object_person_mention_id": "c-jinshu-044-luchen-cuiyue:p004:m0005"
+        }
+      ],
+      "interpretation_note": "只採原明角色與原詞。未成禮不建夫妻；母稱非生母，從母不補中介母身分；曾祖兩代未知不組族；弟只相對長幼。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-sgz024-cuilin-shu-father-lin",
       "predicate": "father",
@@ -926,7 +1275,95 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "le-sgz024-cuilin-lin-death",
+      "person_id": "9g7_n2e_6ho",
+      "event_type": "death",
+      "source_term": "薨",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+        "start": 15,
+        "end": 16,
+        "surface": "薨"
+      },
+      "date_expression": "正始五年",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-024",
+          "source_id": "s-sanguozhi-024-cuilin",
+          "chapter_id": "c-sanguozhi-024-cuilin",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+          "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+          "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004"
+        }
+      ],
+      "interpretation_note": "原文明同一主語死亡；林正始五只年換算244，隨無年保持空；不借倫敗定301，不推生日/卒齡或全部職爵終期。",
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 244,
+        "year": 244,
+        "calendar": "chinese_civil",
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "source_expression": "正始五年",
+        "original_quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-024",
+            "source_id": "s-sanguozhi-024-cuilin",
+            "chapter_id": "c-sanguozhi-024-cuilin",
+            "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+            "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+            "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=1",
+            "quote": "正始",
+            "columns": {
+              "dynasty": "魏",
+              "era_name": "正始",
+              "first_year": "240",
+              "last_year": "249"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "read_on": "2026-10-23",
+            "web_extracted_line": 129,
+            "raw_response_sha256": null,
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "正始",
+          "source_number": "五",
+          "regnal_year": 5,
+          "start_ce_year": 240,
+          "end_ce_year": 249,
+          "reference_index": 0
+        },
+        "rationale": "本源正始五年薨，角色明林；年號表僅提供對照，按中國年標244，未定月份/日或授諡年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "lin-death"
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
