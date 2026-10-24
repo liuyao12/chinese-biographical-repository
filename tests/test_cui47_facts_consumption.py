@@ -14,7 +14,7 @@ class Cui47Consumption(unittest.TestCase):
  def test_qualified_posthumous_not_living(self):
   self.assertEqual(self.h['mode'],'posthumous_grant');self.assertTrue(posthumous_gift_valid(self.h,self.pars,self.ms,{e['id']:e for e in self.es}));self.assertEqual(self.h['attestations'],self.fixture['old_title']['attestations']);self.assertEqual(self.h['evidence'],self.fixture['old_title']['evidence']);self.assertIsNone(self.h['effective_period']['start']['date_expression']);self.assertIsNone(self.h['posthumous_basis']['issuer']['person_id'])
  def test_no_living_grant_or_ancestor_conversion(self):
-  bad=copy.deepcopy(self.h);bad['mode']='grant';self.assertFalse(posthumous_gift_valid(bad,self.pars,self.ms,{e['id']:e for e in self.es}));ancestor=next(h for h in self.hs if h['id']=='th-cui53-f034');self.assertEqual(ancestor['person_id'],'cvr_exv_dku');self.assertEqual(ancestor['mode'],'attestation')
+  bad=copy.deepcopy(self.h);bad['mode']='grant';self.assertFalse(posthumous_gift_valid(bad,self.pars,self.ms,{e['id']:e for e in self.es}));ancestor=next(h for h in self.hs if h['id']=='th-cui53-f034');self.assert_ancestor_attestation(ancestor)
  def test_443_is_same_death_original_wording(self):
   self.assertEqual(self.e['person_id'],'xb3_qm5_kf6');self.assertEqual(self.e['source_term'],'真君四年卒');self.assertEqual(self.e['date_expression'],'真君四年');self.assertEqual(self.e['normalized_date']['year'],443);self.assertEqual(self.e['evidence'],self.fixture['old_death']['evidence']);self.assertEqual(normalized_date_errors(self.e['normalized_date'],{self.c['id']:self.c},root=ROOT),[])
  def test_418_hong_not_replaced_by_443(self):
@@ -37,3 +37,14 @@ class Cui47Consumption(unittest.TestCase):
    if columns=='missing':d['references'][0].pop('columns')
    else:d['references'][0]['columns']=columns
    self.assertIs(valid(d,{self.c['id']:self.c},ROOT),False);self.assertTrue(normalized_date_errors(d,{self.c['id']:self.c},root=ROOT))
+
+ def assert_ancestor_attestation(self,holding):
+  # Retired cvr_exv_dku is not a query alias; use the reviewed fixed source anchor.
+  p=next(p for p in self.c['paragraphs']if p['id']=='c-weishu-weishou-024-cuixuanbo:p001');m=next(m for m in p['mentions']if m['id']==p['id']+':m0019')
+  self.assertEqual(m['surface'],'林');self.assertEqual(holding['person_id'],m['person_id']);self.assertEqual(holding['mode'],'attestation')
+  self.assertEqual(holding['evidence'][0]['person_mention_id'],m['id']);self.assertEqual(holding['evidence'][0]['quote'],p['text']);self.assertEqual(holding['attestations'][0]['person_mention_id'],m['id'])
+ def test_ancestor_wrong_person_or_living_grant_still_rejected(self):
+  original=next(h for h in self.hs if h['id']=='th-cui53-f034')
+  for key,value in [('person_id','cvr_exv_dku'),('person_id',self.h['person_id']),('mode','grant')]:
+   bad=copy.deepcopy(original);bad[key]=value
+   with self.assertRaises(AssertionError):self.assert_ancestor_attestation(bad)
