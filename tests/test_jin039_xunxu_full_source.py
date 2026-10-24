@@ -18,7 +18,7 @@ class XunXuFull(unittest.TestCase):
  def test_full_fixed_body_and_boundary(self):
   self.assertTrue(valid(C));self.assertEqual(LINES[64],'==荀勖==');self.assertEqual(LINES[135],'==馮紞==');self.assertEqual(len(P['units']),34);self.assertEqual(sum(len(u['display_text'])for u in P['units']),4903);self.assertTrue(next(p for p in C['paragraphs'] if p['id']=='c-jinshu-039-wangxun-feng:xu-full:l134')['text'].endswith('諡曰定。'))
  def test_all_old_paragraph_objects_mentions_unchanged(self):
-  self.assertTrue(all(p in C['paragraphs']for p in P['old_paragraphs_preserved']));old_ids={p['id'] for p in P['old_paragraphs_preserved']};self.assertEqual([p for p in C['paragraphs'] if p['id'] in old_ids],P['old_paragraphs_preserved']);self.assertEqual(PS[P['old_paragraphs_preserved'][8]['id']],P['old_paragraphs_preserved'][8]);self.assertEqual(len(PS[P['old_paragraphs_preserved'][8]['id']]['text']),35);self.assertEqual(len(P['old_paragraphs_preserved'][9]['text']),14)
+  self.assert_old_paragraphs_preserved(C);self.assertEqual(len(PS[P['old_paragraphs_preserved'][8]['id']]['text']),35);self.assertEqual(len(P['old_paragraphs_preserved'][9]['text']),14)
  def test_order_no_duplicate_old_raw_positions(self):
   for u in P['units']:
    a=0
@@ -70,3 +70,27 @@ class XunXuFull(unittest.TestCase):
    if m['surface']=='荀綽':m['person_id']='yoo_ox0_545_FAAAB'
   self.assertFalse(bridge(bad,p104,decision))
   aa=J(R/'corpus/jinshu/039-assertions.json')['assertions'];fact=next(a for a in aa if a['id']=='a-jin039-xunchuo-father-001');self.assertEqual(fact['subject_person_id'],pid);e=fact['evidence'][0];self.assertEqual(e['quote'],p102['text']);anchor=e['relationship_anchor'];self.assertEqual(p102['text'][anchor['start']:anchor['end']],'輯子綽');mm={m['id']:m for m in p102['mentions']};self.assertEqual(mm[e['subject_person_mention_id']]['person_id'],pid);self.assertEqual(mm[e['object_person_mention_id']]['person_id'],fact['object_person_id']);self.assertEqual(mm[e['object_person_mention_id']]['surface'],'輯');self.assertEqual(fact['predicate'],'father');self.assertEqual(fact['status'],'source_attested')
+
+ def projected_old_paragraphs(self):
+  # Keep the historical full-source capture byte-exact; only its reviewed 羊祜 endpoint changes.
+  q=J(R/'source-evidence/yang-family-assembly/current-source-projections/jin039-xunxu-full-projection.json');raw=(R/'source-evidence/jin039-xunxu-full-projection.json').read_bytes()
+  self.assertEqual(q['historical_file'],'source-evidence/jin039-xunxu-full-projection.json');self.assertEqual(hashlib.sha256(raw).hexdigest(),q['historical_sha256']);self.assertFalse(q['person_aliases_created'])
+  receipt=J(R/q['mapping_receipt_ref']);self.assertIn('cys_s5z_uqq',receipt['retired_person_ids']);self.assertFalse(receipt['person_aliases_created'])
+  c=J(R/'corpus/jinshu/034-yanghu.json');m=next(m for p in c['paragraphs']for m in p['mentions']if m['id']=='c-jinshu-034-yanghu:p001:m0000');self.assertEqual(m['surface'],'羊祜')
+  expected=copy.deepcopy(P['old_paragraphs_preserved']);changed=0
+  for p in expected:
+   for mention in p['mentions']:
+    if mention.get('person_id')=='cys_s5z_uqq':mention['person_id']=m['person_id'];changed+=1
+  self.assertEqual(changed,1);self.assertEqual(q['records']['old_paragraphs_preserved'],expected)
+  return expected
+ def assert_old_paragraphs_preserved(self,c):
+  expected=self.projected_old_paragraphs();old_ids={p['id']for p in expected};self.assertEqual([p for p in c['paragraphs']if p['id']in old_ids],expected)
+ def test_old_capture_projection_rejects_retired_id_and_source_mutation(self):
+  expected=self.projected_old_paragraphs();pid=next(p['id']for p in P['old_paragraphs_preserved']if any(m.get('person_id')=='cys_s5z_uqq'for m in p['mentions']));mid=next(m['id']for p in P['old_paragraphs_preserved']for m in p['mentions']if m.get('person_id')=='cys_s5z_uqq')
+  for field in ['person_id','text','start','surface']:
+   bad=copy.deepcopy(C);p=next(p for p in bad['paragraphs']if p['id']==pid);m=next(m for m in p['mentions']if m['id']==mid)
+   if field=='person_id':m[field]='cys_s5z_uqq'
+   elif field=='text':p[field]+='異'
+   elif field=='start':m[field]+=1
+   else:m[field]='異'
+   with self.assertRaises(AssertionError):self.assert_old_paragraphs_preserved(bad)

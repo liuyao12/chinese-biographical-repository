@@ -208,7 +208,7 @@ class HanLuIdentityTests(unittest.TestCase):
         import tempfile, shutil
         from scripts.validate_corpus import validate
         with tempfile.TemporaryDirectory() as folder:
-            target = Path(folder) / 'repo'
+            target = (Path(folder) / 'repo').resolve()
             # Native validation reads these inputs; public bundles, reader imports
             # and other generated outputs do not participate in this operation.
             for name in ('registry', 'corpus', 'source-evidence', 'sources'):
@@ -216,6 +216,11 @@ class HanLuIdentityTests(unittest.TestCase):
             shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables')
             (target / 'data/corpus').mkdir(parents=True)
             shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
+            # Complete source validation also consumes trusted recipe/pin JSON and work records.
+            shutil.copytree(ROOT / 'data/works', target / 'data/works')
+            (target / 'scripts').mkdir()
+            for config in (ROOT / 'scripts').glob('*.json'):
+                shutil.copy2(config, target / 'scripts' / config.name)
             self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())
@@ -228,7 +233,7 @@ class HanLuIdentityTests(unittest.TestCase):
         import tempfile, shutil
         from scripts.validate_corpus import validate
         with tempfile.TemporaryDirectory() as folder:
-            target = Path(folder) / 'repo'
+            target = (Path(folder) / 'repo').resolve()
             # Native validation reads these inputs; public bundles, reader imports
             # and other generated outputs do not participate in this operation.
             for name in ('registry', 'corpus', 'source-evidence', 'sources'):
@@ -236,6 +241,11 @@ class HanLuIdentityTests(unittest.TestCase):
             shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables')
             (target / 'data/corpus').mkdir(parents=True)
             shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
+            # Complete source validation also consumes trusted recipe/pin JSON and work records.
+            shutil.copytree(ROOT / 'data/works', target / 'data/works')
+            (target / 'scripts').mkdir()
+            for config in (ROOT / 'scripts').glob('*.json'):
+                shutil.copy2(config, target / 'scripts' / config.name)
             self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())

@@ -10,7 +10,7 @@ v=importlib.util.module_from_spec(spec);spec.loader.exec_module(v)
 class CorpusTests(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
-        self.root=Path(self.tmp.name)
+        self.root=Path(self.tmp.name).resolve()
         for folder in ('registry','corpus','source-evidence'):shutil.copytree(ROOT/folder,self.root/folder)
         shutil.copytree(ROOT/'data/historical-tables',self.root/'data/historical-tables')
         # Source-scoped display choices bind records in the editorial name dataset.
@@ -19,6 +19,11 @@ class CorpusTests(unittest.TestCase):
         # Source-bound claims need their complete fixed witnesses and date references.
         shutil.copytree(ROOT/'sources', self.root/'sources')
         shutil.copytree(ROOT/'data/works', self.root/'data/works')
+        # Validators bind complete witnesses to trusted JSON recipes/pins in root/scripts.
+        # Copy data only; production code stays imported from the actual repository.
+        (self.root/'scripts').mkdir()
+        for config in (ROOT/'scripts').glob('*.json'):
+            shutil.copy2(config, self.root/'scripts'/config.name)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_work_mention_cannot_link_person(self):
