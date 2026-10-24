@@ -104,41 +104,104 @@
             }
           },
           "basis": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": [
-              "kind",
-              "source_id",
-              "chapter_id",
-              "paragraph_id",
-              "quote",
-              "anchors"
-            ],
-            "properties": {
-              "kind": {
-                "const": "same_paragraph_mixed_name_spellings"
+            "oneOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "source_id",
+                  "chapter_id",
+                  "paragraph_id",
+                  "quote",
+                  "anchors"
+                ],
+                "properties": {
+                  "kind": {
+                    "const": "same_paragraph_mixed_name_spellings"
+                  },
+                  "source_id": {
+                    "type": "string"
+                  },
+                  "chapter_id": {
+                    "type": "string"
+                  },
+                  "paragraph_id": {
+                    "type": "string"
+                  },
+                  "quote": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "anchors": {
+                    "type": "array",
+                    "minItems": 2,
+                    "items": {
+                      "type": "object"
+                    }
+                  }
+                }
               },
-              "source_id": {
-                "type": "string"
-              },
-              "chapter_id": {
-                "type": "string"
-              },
-              "paragraph_id": {
-                "type": "string"
-              },
-              "quote": {
-                "type": "string",
-                "minLength": 1
-              },
-              "anchors": {
-                "type": "array",
-                "minItems": 2,
-                "items": {
-                  "type": "object"
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "records",
+                  "identity_decision_id"
+                ],
+                "properties": {
+                  "kind": {
+                    "const": "cross_source_attested_name_spellings"
+                  },
+                  "identity_decision_id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "records": {
+                    "type": "array",
+                    "minItems": 2,
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "record",
+                        "anchor",
+                        "source_id"
+                      ],
+                      "properties": {
+                        "record": {
+                          "type": "object",
+                          "required": [
+                            "id",
+                            "person_id",
+                            "chapter_id",
+                            "paragraph_id",
+                            "surname",
+                            "ming",
+                            "quote"
+                          ]
+                        },
+                        "anchor": {
+                          "type": "object",
+                          "required": [
+                            "id",
+                            "start",
+                            "end",
+                            "surface",
+                            "person_id"
+                          ]
+                        },
+                        "source_id": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      }
+                    }
+                  }
                 }
               }
-            }
+            ]
           },
           "coverage": {
             "const": "listed_records_only"

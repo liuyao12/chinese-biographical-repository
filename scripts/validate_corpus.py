@@ -1605,7 +1605,12 @@ def validate(root=ROOT):
                         from scripts.song047_collateral_care import valid, chronology_caution_valid
                     except ImportError:
                         from song047_collateral_care import valid, chronology_caution_valid
-                    check(valid(a, paragraphs), '母系旁親／哺養須有固定原句與雙人物錨點，不得補父母或親等')
+                    attached_maternal_aunt = False
+                    if qualifiers.get('source_clause_binding',{}).get('rule')=='attached_received_biography_frame':
+                        try:from scripts.attached_biography_frames import kinship_valid as attached_aunt_valid
+                        except ImportError:from attached_biography_frames import kinship_valid as attached_aunt_valid
+                        attached_maternal_aunt = attached_aunt_valid(a,paragraphs,chapters)
+                    check(attached_maternal_aunt or valid(a, paragraphs), '母系旁親／哺養須有固定原句與雙人物錨點，不得補父母或親等')
                     if 'relative_age_interpretation' in qualifiers:
                         check(chronology_caution_valid(a, root), '從母兄年代張力須綁既有407／41／363原證，不得默採長幼或推生日')
                 if qualifiers.get('parentage_basis') == 'marital_biographical_birth_context':

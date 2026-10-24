@@ -1,0 +1,91 @@
+{
+  "format_version": "0.2",
+  "record_type": "title_holding_assertion_set",
+  "chapter_id": "c-sanguozhi-024-cuilin",
+  "holdings": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "th-sgz024-cuilin-xiaohou",
+      "person_id": "9g7_n2e_6ho",
+      "title": "孝侯",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
+      "appointment_role": "posthumous_naming",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-024",
+          "source_id": "s-sanguozhi-024-cuilin",
+          "chapter_id": "c-sanguozhi-024-cuilin",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+          "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+          "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-sgz024-cuilin-xiaohou:a001",
+          "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+          "start": 18,
+          "end": 20,
+          "surface": "孝侯",
+          "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "posthumous_naming",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-sanguozhi",
+              "book_id": "b-sanguozhi-024",
+              "source_id": "s-sanguozhi-024-cuilin",
+              "chapter_id": "c-sanguozhi-024-cuilin",
+              "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+              "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+              "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "naming_basis": {
+        "source_term": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+        "death_term": "薨",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-024",
+            "source_id": "s-sanguozhi-024-cuilin",
+            "chapter_id": "c-sanguozhi-024-cuilin",
+            "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+            "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+            "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0004"
+          }
+        ]
+      },
+      "interpretation_note": "諡曰孝侯屬林，不給述；授諡年空，不把244卒年直接填入。",
+      "source_career_role": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "lin-posthumous-name"
+      },
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "lin-posthumous-name"
+      }
+    }
+  ]
+}

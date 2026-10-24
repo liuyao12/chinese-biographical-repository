@@ -1,0 +1,177 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_name_component_set",
+  "chapter_id": "c-sanguozhi-024-cuilin",
+  "records": [
+    {
+      "id": "nc-sgz024-cuilin-lin",
+      "person_id": "9g7_n2e_6ho",
+      "surname": "崔",
+      "ming": "林",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-024-cuilin",
+      "paragraph_id": "c-sanguozhi-024-cuilin:p001",
+      "person_mention_id": "c-sanguozhi-024-cuilin:p001:m0000",
+      "quote": "崔林字徳儒清河東武城人也少時晚成宗族莫知惟從兄琰異之太祖定冀州召除鄔長貧無車馬單歩之官太祖征壺關問長吏徳政最者并州刺史張陟以林對於是擢為冀州主簿徙署别駕丞相掾屬魏國既建稍遷御史中丞文帝踐阼拜尚書出為幽州刺史北中郎將吳質統河北軍事涿郡太守王雄謂林别駕曰吳中郎將上所親重國之貴臣也杖節統事州郡莫不奉牋致敬而崔使君初不與相聞若以邊塞不修斬卿使君寧能䕶卿邪别駕具以白林林曰刺史視去此州如脫屣寧當相累邪此州與胡虜接宜鎮之以靜擾之則動其逆心特為國家生北顧憂以此為寄在官一期冦竊寢息",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源姓名構件；承姓是有資格來源角色路徑，不由label/ID/組裝補父或母，不改原字。",
+      "zi": "徳儒",
+      "courtesy_person_mention_id": "c-sanguozhi-024-cuilin:p001:m0003",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "lin"
+      }
+    },
+    {
+      "id": "nc-sgz024-cuilin-shu",
+      "person_id": "wsx_4f7_xtj",
+      "surname": "崔",
+      "ming": "述",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-024-cuilin",
+      "paragraph_id": "c-sanguozhi-024-cuilin:p009",
+      "person_mention_id": "c-sanguozhi-024-cuilin:p009:m0021",
+      "quote": "明帝又分林邑封一子列侯正始五年薨諡曰孝侯子述嗣",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源姓名構件；承姓是有資格來源角色路徑，不由label/ID/組裝補父或母，不改原字。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_kanripo_slots",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "seed_name_record_id": "nc-sgz024-cuilin-lin",
+        "seed_full_name_mention_id": "c-sanguozhi-024-cuilin:p001:m0000",
+        "steps": [
+          {
+            "assertion_id": "a-sgz024-cuilin-shu-father-lin",
+            "from_person_id": "9g7_n2e_6ho",
+            "to_person_id": "wsx_4f7_xtj",
+            "predicate": "father",
+            "qualification": "object_to_subject"
+          }
+        ],
+        "rationale": "只沿本源明父、明弟或明父系祖的有限角色鏈承姓，沒有新增source父；未知中介不造人。"
+      },
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "shu"
+      }
+    },
+    {
+      "id": "nc-sgz024-cuilin-sui",
+      "person_id": "23o_dzg_ugz",
+      "surname": "崔",
+      "ming": "隨",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-024-cuilin",
+      "paragraph_id": "c-sanguozhi-024-cuilin:p010",
+      "person_mention_id": "c-sanguozhi-024-cuilin:p010:m0007",
+      "quote": "晉諸公贊曰述弟隨晉尚書僕射為人亮濟趙王倫簒位隨與其事倫敗隨亦廢錮而卒林孫瑋性率而踈至太子右衛率也初林識拔同郡王經於民伍之中卒為名士世以此稱之",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源姓名構件；承姓是有資格來源角色路徑，不由label/ID/組裝補父或母，不改原字。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_kanripo_slots",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "seed_name_record_id": "nc-sgz024-cuilin-lin",
+        "seed_full_name_mention_id": "c-sanguozhi-024-cuilin:p001:m0000",
+        "steps": [
+          {
+            "assertion_id": "a-sgz024-cuilin-shu-father-lin",
+            "from_person_id": "9g7_n2e_6ho",
+            "to_person_id": "wsx_4f7_xtj",
+            "predicate": "father",
+            "qualification": "object_to_subject"
+          },
+          {
+            "assertion_id": "a-sgz024-cuilin-sui-younger-brother-shu",
+            "from_person_id": "wsx_4f7_xtj",
+            "to_person_id": "23o_dzg_ugz",
+            "predicate": "brother",
+            "qualification": "object_to_subject"
+          }
+        ],
+        "rationale": "只沿本源明父、明弟或明父系祖的有限角色鏈承姓，沒有新增source父；未知中介不造人。"
+      },
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "sui"
+      }
+    },
+    {
+      "id": "nc-sgz024-cuilin-wei",
+      "person_id": "s0r_qhp_wik",
+      "surname": "崔",
+      "ming": "瑋",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-024-cuilin",
+      "paragraph_id": "c-sanguozhi-024-cuilin:p010",
+      "person_mention_id": "c-sanguozhi-024-cuilin:p010:m0036",
+      "quote": "晉諸公贊曰述弟隨晉尚書僕射為人亮濟趙王倫簒位隨與其事倫敗隨亦廢錮而卒林孫瑋性率而踈至太子右衛率也初林識拔同郡王經於民伍之中卒為名士世以此稱之",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源姓名構件；承姓是有資格來源角色路徑，不由label/ID/組裝補父或母，不改原字。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_kanripo_slots",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "seed_name_record_id": "nc-sgz024-cuilin-lin",
+        "seed_full_name_mention_id": "c-sanguozhi-024-cuilin:p001:m0000",
+        "steps": [
+          {
+            "assertion_id": "a-sgz024-cuilin-wei-grandfather-lin",
+            "from_person_id": "9g7_n2e_6ho",
+            "to_person_id": "s0r_qhp_wik",
+            "predicate": "grandfather",
+            "qualification": "object_to_subject;parent_unknown"
+          }
+        ],
+        "rationale": "只沿本源明父、明弟或明父系祖的有限角色鏈承姓，沒有新增source父；未知中介不造人。"
+      },
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "wei"
+      }
+    },
+    {
+      "id": "nc-sgz024-cuilin-wangxiong",
+      "person_id": "ehx_cqg_nfx",
+      "surname": "王",
+      "ming": "雄",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-024-cuilin",
+      "paragraph_id": "c-sanguozhi-024-cuilin:p002",
+      "person_mention_id": "c-sanguozhi-024-cuilin:p002:m0004",
+      "quote": "案王氏譜雄字元伯太保祥之宗也魏名臣表載安定太守孟達薦䧺曰臣聞明君以求賢為業忠臣以進善為效故易稱拔茅連茹傳曰舉爾所知臣不自量竊慕其義臣昔以人乏謬充備部職時涿郡太守王雄為西部從事與臣同僚雄天性良固果而有謀歴試三縣政成人和及在近職奉宣威恩懷柔有術清慎持法臣往年出使經過雄郡自說特受陛下拔擢之恩常勵節精心思投命為効言辭激揚情趣欵惻臣雖愚闇不識真偽以謂雄才兼資文武忠烈之性踰越倫輩今涿郡領戸三千孤寡之家參居其半北有守兵藩衛之固誠不足舒雄智力展其勤幹也臣受恩深厚無以報國不勝慺慺淺見之情謹冐陳聞詔曰昔蕭何薦韓信鄧禹進吳漢惟賢知賢也雄有膽智技能文武之姿吾宿知之今便以參散騎之選方使少在吾門下知指歸便大用之矣天下之士欲使皆先歴散騎然後出據州郡是吾本意也雄後為幽州刺史子渾涼州刺史次乂平北將軍司徒安豐侯戎渾之子太尉武陵侯衍荆州刺史澄皆乂之子",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源姓名構件；承姓是有資格來源角色路徑，不由label/ID/組裝補父或母，不改原字。",
+      "zi": "元伯",
+      "courtesy_person_mention_id": "c-sanguozhi-024-cuilin:p002:m0006",
+      "source_full_name_seed": {
+        "person_id": "ehx_cqg_nfx",
+        "person_mention_id": "c-sanguozhi-024-cuilin:p001:m0118",
+        "paragraph_id": "c-sanguozhi-024-cuilin:p001",
+        "quote": "崔林字徳儒清河東武城人也少時晚成宗族莫知惟從兄琰異之太祖定冀州召除鄔長貧無車馬單歩之官太祖征壺關問長吏徳政最者并州刺史張陟以林對於是擢為冀州主簿徙署别駕丞相掾屬魏國既建稍遷御史中丞文帝踐阼拜尚書出為幽州刺史北中郎將吳質統河北軍事涿郡太守王雄謂林别駕曰吳中郎將上所親重國之貴臣也杖節統事州郡莫不奉牋致敬而崔使君初不與相聞若以邊塞不修斬卿使君寧能䕶卿邪别駕具以白林林曰刺史視去此州如脫屣寧當相累邪此州與胡虜接宜鎮之以靜擾之則動其逆心特為國家生北顧憂以此為寄在官一期冦竊寢息",
+        "surname": "王",
+        "ming": "雄"
+      },
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz024-cuilin-four-kinship",
+        "slot": "wangxiong"
+      }
+    }
+  ]
+}

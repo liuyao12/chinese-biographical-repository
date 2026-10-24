@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `iai_csf_zlg` | 鄭幽公 | [《史記・韓世家》][126] | [JSON](iai_csf_zlg.json) |
 | `iaq_zsz_960` | 趙略〔魏書058津鈞單元〕 | [《魏書（魏收）・卷五十八：楊津至楊鈞近系完整傳（部分卷）》][243] | [JSON](iaq_zsz_960.json) |
 | `ib9_41m_5gi` | 王鑒〔前秦將〕 | [《晉書・桓彝及附桓氏家族完整單元》][50]、[《晉書・桓溫完整本傳單元》][67] | [JSON](ib9_41m_5gi.json) |
 | `ibi_qk6_07w` | 趙利 | [《史記・高祖本紀》][107]、[《史記・匈奴列傳》][191] | [JSON](ibi_qk6_07w.json) |
@@ -1999,7 +2000,6 @@
 | `u1j_dr2_488` | 潘尪（楚入鄭盟者） | [《史記・楚世家》][121] | [JSON](u1j_dr2_488.json) |
 | `u20_r6q_88g` | 安國少季 | [《史記・南越列傳》][194] | [JSON](u20_r6q_88g.json) |
 | `u25_mhc_xap` | 楊喜 | [《史記・項羽本紀》][106] | [JSON](u25_mhc_xap.json) |
-| `u2c_fe5_16n` | 唐勒 | [《史記・屈原賈生列傳》][165] | [JSON](u2c_fe5_16n.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

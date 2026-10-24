@@ -7,7 +7,7 @@ from pathlib import Path
 import json,re,hashlib
 KIND='attached_received_biography_frame'
 RECIPES=json.loads(Path(__file__).with_name('attached_biography_frames.json').read_text())
-OFFICES=('令','主簿','功曹','掾','從事','郎中','中郎','國相','吏部郎','長史','軍司馬','鴻臚','都尉','刺史','將軍','侍中','尚書','議郎','卿','傅','常侍','僕射','左丞','大夫','司徒','校尉','左率','吏部郎','舍人','庶子','黃門郎','督護','內史','郎將','侍郎','太守')
+OFFICES=('令','主簿','功曹','掾','從事','郎中','中郎','國相','吏部郎','長史','軍司馬','鴻臚','都尉','刺史','將軍','侍中','尚書','議郎','卿','傅','常侍','僕射','左丞','大夫','司徒','校尉','左率','吏部郎','舍人','庶子','黃門郎','督護','內史','郎將','侍郎','太守','佐史')
 def anchor(p,x):return isinstance(x,dict)and set(x)=={'paragraph_id','start','end','surface'}and x['paragraph_id']==p['id']and type(x['start'])is int and type(x['end'])is int and 0<=x['start']<x['end']<=len(p['text'])and p['text'][x['start']:x['end']]==x['surface']
 def paragraph_frame(b,ch):
  assert (b['kind']==KIND or b['kind']=='biography_family_clause'and b.get('rule')==KIND)and b['human_reviewed']is False and b['source_revision']==ch['source']['revision_id']
@@ -95,7 +95,12 @@ def kin_qualifiers(slot,rs,b):
   q['kinship_structure']=dict(lineage='paternal',generation_difference=0,collateral=True,distance=None,common_ancestor_person_id=None,subject_relative_age=slot['relative_age'])
   older,younger=(o,s)if slot['relative_age']=='younger'else(s,o)
   q['relative_birth_order']=dict(older_person_id=older['person_id'],younger_person_id=younger['person_id'],operator='lt',scope='agnatic_cousins',older_ordinal=None,younger_ordinal=None)
- elif pred=='brother':q['relative_birth_order']=dict(older_person_id=s['person_id'],younger_person_id=o['person_id'],operator='lt',scope='siblings',older_ordinal=None,younger_ordinal=None)
+ elif pred=='brother':
+  age=slot.get('subject_relative_age','older');assert age in('older','younger')
+  older,younger=(s,o)if age=='older'else(o,s)
+  q['relative_birth_order']=dict(older_person_id=older['person_id'],younger_person_id=younger['person_id'],operator='lt',scope='siblings',older_ordinal=None,younger_ordinal=None)
+ elif pred=='maternal_aunt':q.update(maternal_path='mother_sister',generation_difference=-1,mother_person_id=None)
+ elif pred=='great_grandfather':q.update(lineage='paternal',generation_distance=3,intermediate_person_ids=[None,None])
  elif pred=='ritual_successor_of':q.update(succession_kind='named_ji_hou',legal_adoption_status='not_stated',parentage_inference='not_inferred')
  elif pred=='kinship_unspecified':q.update(kinship_basis='explicit_zhongbiao_relationship',lineage='unspecified',generation_difference=None,exact_distance=None,common_ancestor_person_id=None)
  return q
@@ -140,7 +145,7 @@ def age_valid(v,ch):
   p,m,s,b=typed_slot(v,ch,'attached_biography_age_frame','ages');term=s['source_term'];assert term in p['text']and v['source_term']==term and v['source_number']==s['source_number']and v['value']==s['value']and v['source_anchor']==expected_anchor(p,term)
   assert v['birth_year']is None and v['counting']=='unspecified_source_age'and v['unit']=='source_age_years'
   want=dict(kind=s['age_context'])
-  if s['age_context']=='at_death':want['life_event_id']='le-jin043-shantao-'+s['life_slot']
+  if s['age_context']=='at_death':want['life_event_id']=s.get('life_event_id','le-jin043-shantao-'+s['life_slot'])
   assert v['age_context']==want
   try:from scripts.chinese_civil_years import numeral
   except ImportError:from chinese_civil_years import numeral
@@ -164,6 +169,7 @@ def address_valid(v,ch):
  try:
   p,m,s,b=typed_slot(v,ch,'source_address_binding','addresses');assert v['relation']==s['relation']and v['source_term']==s['source_term']and v['place']==dict(source_name=s['place'],place_id=None,modern_identification=None)and v['source_anchor']==expected_anchor(p,s['source_term'])and v['date_expression']is None and not any(k in v for k in('normalized_date','normalized_date_range'))
   if s['relation']=='service_location':assert v.get('qualifiers')==dict(source_position='鎮')
+  elif s['relation']=='source_locality_designation':assert v.get('qualifiers')==dict(designation_kind='geographical_person_reference',origin_or_residence=None)
   else:assert 'qualifiers'not in v
   return True
  except(KeyError,ValueError,TypeError,AssertionError,StopIteration,IndexError):return False

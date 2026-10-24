@@ -1873,7 +1873,7 @@
 | `8rl_z9b_qjh` | 公孫余假 | [《史記・孔子世家》][128] | [JSON](8rl_z9b_qjh.json) |
 | `8rz_6rw_rik` | 殷（大司馬） | [《史記・太史公自序》][211] | [JSON](8rz_6rw_rik.json) |
 | `8s7_pof_xsh` | 鄭季 | [《史記・衛將軍驃騎列傳》][192] | [JSON](8s7_pof_xsh.json) |
-| `8sa_o0b_y2i` | 王澄〔八王之一〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](8sa_o0b_y2i.json) |
+| `8sa_o0b_y2i` | 王澄 | [《晉書・裴楷及附傳近系》][30] | [JSON](8sa_o0b_y2i.json) |
 | `8sb_tti_0yc` | 始皇 | [《史記・陳涉世家》][129] | [JSON](8sb_tti_0yc.json) |
 | `8sq_zq4_x84` | 公孫痤 | [《史記・秦本紀》][104] | [JSON](8sq_zq4_x84.json) |
 | `8st_c0j_4fk` | 劉澤 | [《史記・齊悼惠王世家》][133] | [JSON](8st_c0j_4fk.json) |

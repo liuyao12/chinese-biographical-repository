@@ -140,10 +140,134 @@
       }
     ],
     "limitations": [
-      "本批只來源/身份，不新增typed親屬、生卒、稱號或家族組裝。",
+      "首輪來源標記資格保留；後繼已分源記姓名、有限明近親、諶本源死亡/報齡/遇害地、地望式用稱與三短官稱。未知任期/生年、母非必生母、婚約未成禮及妻子之侄疑句不解，無圖校。",
       "永和六年與六十七原值不改、不反推生年；主薄不校主簿。",
       "劉琨妻子之侄保疑句，不造父/妻父；崔林曾孫不藉本批接缺代。",
       "原題頭保文，前段父子context另記，不混四段正文。"
+    ],
+    "age_assertions": [
+      {
+        "id": "age-jin044-chen-death",
+        "person_id": "m8n_ntm_79h_ABBA",
+        "source_number": "六十七",
+        "source_term": "時年六十七",
+        "source_anchor": {
+          "paragraph_id": "c-jinshu-044-luchen-cuiyue:p002",
+          "start": 181,
+          "end": 186,
+          "surface": "時年六十七"
+        },
+        "value": 67,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-jin044-chen-death"
+        },
+        "reporting_status": "direct_report",
+        "date_expression": "永和六年",
+        "normalized_date": {
+          "era": "CE",
+          "era_year": 350,
+          "year": 350,
+          "year_numbering": "astronomical",
+          "precision": "year",
+          "calendar": "chinese_civil",
+          "status": "editorial_provisional",
+          "source_expression": "永和六年",
+          "original_quote": "建興末，隨琨投段匹磾。匹磾自領幽州，取諶為別駕。匹磾既害琨，尋亦敗喪。時南路阻絕，段末波在遼西，諶往投之。元帝之初，末波通使于江左，諶因其使抗表理琨，文旨甚切，於是即加弔祭。累徵諶為散騎中書侍郎，而為末波所留，遂不得南渡。末波死，弟遼代立，諶流離世故且二十載。石季龍破遼西，復為季龍所得，以為中書侍郎、國子祭酒、侍中、中書監。屬冉閔誅石氏，諶隨閔軍，于襄國遇害，時年六十七，是歲永和六年也。",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-044",
+              "chapter_id": "c-jinshu-044-luchen-cuiyue",
+              "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+              "paragraph_id": "c-jinshu-044-luchen-cuiyue:p002",
+              "quote": "建興末，隨琨投段匹磾。匹磾自領幽州，取諶為別駕。匹磾既害琨，尋亦敗喪。時南路阻絕，段末波在遼西，諶往投之。元帝之初，末波通使于江左，諶因其使抗表理琨，文旨甚切，於是即加弔祭。累徵諶為散騎中書侍郎，而為末波所留，遂不得南渡。末波死，弟遼代立，諶流離世故且二十載。石季龍破遼西，復為季龍所得，以為中書侍郎、國子祭酒、侍中、中書監。屬冉閔誅石氏，諶隨閔軍，于襄國遇害，時年六十七，是歲永和六年也。",
+              "person_mention_id": "c-jinshu-044-luchen-cuiyue:p002:m0170"
+            }
+          ],
+          "references": [
+            {
+              "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+              "quote": "永和",
+              "scope": "modern_era_year_equivalence_only",
+              "columns": {
+                "era_name": "永和",
+                "first_year": "345",
+                "last_year": "356",
+                "dynasty": "東晉"
+              }
+            }
+          ],
+          "rationale": "按既核官方永和345–356換算原第六年350中國曆年度；保本來源原年，未圖校、不以戰事改年，不推生年或任終。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "regnal_year_mapping": {
+            "kind": "ce_regnal_era_span",
+            "era_name": "永和",
+            "source_number": "六",
+            "regnal_year": 6,
+            "start_ce_year": 345,
+            "end_ce_year": 356,
+            "reference_index": 0
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-044",
+            "chapter_id": "c-jinshu-044-luchen-cuiyue",
+            "source_id": "s-jinshu-044-ws1775345-luchen-cuiyue",
+            "paragraph_id": "c-jinshu-044-luchen-cuiyue:p002",
+            "quote": "建興末，隨琨投段匹磾。匹磾自領幽州，取諶為別駕。匹磾既害琨，尋亦敗喪。時南路阻絕，段末波在遼西，諶往投之。元帝之初，末波通使于江左，諶因其使抗表理琨，文旨甚切，於是即加弔祭。累徵諶為散騎中書侍郎，而為末波所留，遂不得南渡。末波死，弟遼代立，諶流離世故且二十載。石季龍破遼西，復為季龍所得，以為中書侍郎、國子祭酒、侍中、中書監。屬冉閔誅石氏，諶隨閔軍，于襄國遇害，時年六十七，是歲永和六年也。",
+            "person_mention_id": "c-jinshu-044-luchen-cuiyue:p002:m0170"
+          }
+        ],
+        "attached_biography_age_frame": {
+          "kind": "attached_received_biography_frame",
+          "frame": "jin044_luchen_cuiyue_p002",
+          "paragraph_id": "c-jinshu-044-luchen-cuiyue:p002",
+          "source_revision": 1775345,
+          "paragraph_sha256": "0b26231ffd464e8d2e5805a5c946d59f17a1a3d4f5213e942e8ba898b0e2e94b",
+          "roles": {
+            "r0": "c-jinshu-044-luchen-cuiyue:p002:m0005",
+            "r1": "c-jinshu-044-luchen-cuiyue:p002:m0007",
+            "r2": "c-jinshu-044-luchen-cuiyue:p002:m0011",
+            "r3": "c-jinshu-044-luchen-cuiyue:p002:m0019",
+            "r4": "c-jinshu-044-luchen-cuiyue:p002:m0024",
+            "r5": "c-jinshu-044-luchen-cuiyue:p002:m0028",
+            "r6": "c-jinshu-044-luchen-cuiyue:p002:m0041",
+            "r7": "c-jinshu-044-luchen-cuiyue:p002:m0048",
+            "r8": "c-jinshu-044-luchen-cuiyue:p002:m0051",
+            "r9": "c-jinshu-044-luchen-cuiyue:p002:m0053",
+            "r10": "c-jinshu-044-luchen-cuiyue:p002:m0058",
+            "r11": "c-jinshu-044-luchen-cuiyue:p002:m0066",
+            "r12": "c-jinshu-044-luchen-cuiyue:p002:m0068",
+            "r13": "c-jinshu-044-luchen-cuiyue:p002:m0073",
+            "r14": "c-jinshu-044-luchen-cuiyue:p002:m0089",
+            "r15": "c-jinshu-044-luchen-cuiyue:p002:m0100",
+            "r16": "c-jinshu-044-luchen-cuiyue:p002:m0111",
+            "r17": "c-jinshu-044-luchen-cuiyue:p002:m0116",
+            "r18": "c-jinshu-044-luchen-cuiyue:p002:m0120",
+            "r19": "c-jinshu-044-luchen-cuiyue:p002:m0130",
+            "r20": "c-jinshu-044-luchen-cuiyue:p002:m0139",
+            "r21": "c-jinshu-044-luchen-cuiyue:p002:m0164",
+            "r22": "c-jinshu-044-luchen-cuiyue:p002:m0170",
+            "r23": "c-jinshu-044-luchen-cuiyue:p002:m0172"
+          },
+          "fields": {},
+          "inside_role_fields": {},
+          "human_reviewed": false,
+          "slot": "age"
+        },
+        "interpretation_note": "原報齡，不認定虛歲/周歲、不倒推出生年。",
+        "status": "source_attested",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     ]
   },
   "paragraphs": [
