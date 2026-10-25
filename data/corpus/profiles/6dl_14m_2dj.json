@@ -141,7 +141,7 @@
     {
       "id": "a-sgz009-cc-ren-grandfather-bao",
       "predicate": "grandfather",
-      "subject_person_id": "8po_0xd_0vn",
+      "subject_person_id": "6dl_14m_2dj_AA",
       "object_person_id": "6dl_14m_2dj",
       "status": "source_attested",
       "qualifiers": {
@@ -180,7 +180,7 @@
   ],
   "related_people": {
     "6dl_14m_2dj": "襃〔曹仁祖〕",
-    "8po_0xd_0vn": "曹仁（子孝）"
+    "6dl_14m_2dj_AA": "曹仁（子孝）"
   },
   "dates": [],
   "name_components": [],
@@ -191,7 +191,7 @@
     {
       "id": "a-sgz009-cc-ren-grandfather-bao",
       "predicate": "grandfather",
-      "subject_person_id": "8po_0xd_0vn",
+      "subject_person_id": "6dl_14m_2dj_AA",
       "object_person_id": "6dl_14m_2dj",
       "status": "source_attested",
       "qualifiers": {
@@ -226,6 +226,76 @@
         "key": "sgz009-caoren-caochun-finite",
         "slot": "ren-grandfather-bao"
       }
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "6dl_14m_2dj",
+    "representative_source_person_id": "6dl_14m_2dj",
+    "source_person_ids": [
+      "6dl_14m_2dj"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": null,
+    "assembly_id": "family-caoren-caochun",
+    "root_person_id": "6dl_14m_2dj",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
+  "assembled_children": [
+    {
+      "person_id": "6dl_14m_2dj_A",
+      "representative_source_person_id": "6dl_14m_2dj_A",
+      "source_person_ids": [
+        "6dl_14m_2dj_A"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "6dl_14m_2dj",
+      "source_assertion_id": null,
+      "connection": "father",
+      "parent_connection": {
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同一魏書注仁祖襃與父熾為連續祖先，編輯推導熾父襃，不冒原句直說。",
+        "references": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-009",
+            "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+            "chapter_id": "c-sanguozhi-009-caoren-caochun",
+            "paragraph_id": "c-sanguozhi-009-caoren-caochun:p002",
+            "quote": "魏書曰仁祖襃頴川太守父熾侍中長水校尉",
+            "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0003",
+            "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0011",
+            "assertion_id": "a-sgz009-cc-ren-father-chi",
+            "scope": "完整固定來源；編輯父系推導，不新增來源明父",
+            "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt"
+          },
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-009",
+            "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+            "chapter_id": "c-sanguozhi-009-caoren-caochun",
+            "paragraph_id": "c-sanguozhi-009-caoren-caochun:p002",
+            "quote": "魏書曰仁祖襃頴川太守父熾侍中長水校尉",
+            "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0003",
+            "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0005",
+            "assertion_id": "a-sgz009-cc-ren-grandfather-bao",
+            "scope": "完整固定來源；編輯父系推導，不新增來源明父",
+            "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt"
+          }
+        ],
+        "type": "parent_between_consecutive_ancestors",
+        "interpretation_basis": "fixed_complete_witness_zu_fu_sequence",
+        "fixed_witness_assembly_key": "sgz009-zu-fu",
+        "chain_subject_person_id": "6dl_14m_2dj_AA",
+        "nearer_ancestor_assertion_id": "a-sgz009-cc-ren-father-chi",
+        "farther_ancestor_assertion_id": "a-sgz009-cc-ren-grandfather-bao"
+      },
+      "assembly_id": "family-caoren-caochun",
+      "root_person_id": "6dl_14m_2dj",
+      "status": "editorial_preferred",
+      "human_reviewed": false
     }
   ],
   "age_assertions": [],

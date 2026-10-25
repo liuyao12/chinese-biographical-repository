@@ -28,7 +28,7 @@ class JiaChongSourceTests(unittest.TestCase):
  def test_wu_sunxiu_not_zhao_sunxiu_and_wangjun_not_northern(self):
   self.assertNotEqual(self.ms('p011','孫秀')[0]['person_id'],'8x5_e5i_yle');self.assertEqual(self.ms('p015','王浚')[0]['person_id'],'36c_6b6_4b3');self.assertNotEqual(self.ms('p015','王浚')[0]['person_id'],'9c1_ff0_1b5')
  def test_received_peiyi_link_not_glyph_correction(self):
-  m=self.ms('p029','裴顗')[0];self.assertEqual(m['person_id'],'svm_6fh_34r');self.assertNotIn('裴頠',self.ps['p029']['text']);self.assertIn('裴顗',self.ps['p029']['text'])
+  m=self.ms('p029','裴顗')[0];self.assertEqual(m['person_id'],'4ni_4t1_4o9_AAB');self.assertNotIn('裴頠',self.ps['p029']['text']);self.assertIn('裴顗',self.ps['p029']['text'])
  def test_wives_daughters_and_mothers_distinct(self):
   self.assertNotEqual(self.ids['郭槐'],self.ids['李氏〔賈充前妻，李豐女〕']);self.assertNotEqual(self.ms('p009','女')[0]['person_id'],self.ms('p010','女')[0]['person_id']);self.assertEqual(self.ms('p018','女')[0]['person_id'],self.ids['郭槐'])
   self.assertEqual({m['person_id']for m in self.ms('p018','母')},{self.ids['柳氏〔賈充母〕'],self.ids['李氏〔賈充前妻，李豐女〕'],self.ids['母〔劉含母，毌丘儉孫女〕']})

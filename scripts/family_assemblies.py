@@ -80,6 +80,11 @@ def load_assemblies(root, catalog):
                             from collateral_descendant_ancestor import valid as collateral_valid
                         if not collateral_valid(member, rows, assertions, chapters, root):
                             raise ValueError('Collateral descendant ancestor requires fixed unnamed sibling and explicit reference ancestors')
+                    elif connection.get('type') == 'ancestor_from_qualified_first_cousin_and_known_paternal_chain':
+                        try:from .qualified_cousin_ancestor import valid as cousin_ancestor_valid
+                        except ImportError:from qualified_cousin_ancestor import valid as cousin_ancestor_valid
+                        if not cousin_ancestor_valid(member, rows, assertions, chapters, root):
+                            raise ValueError('特指從父弟缺父祖先須有固定詞義、同源明父鏈與正確方向，不得泛套從弟或補造人物')
                     elif connection.get('type') == 'ancestor_through_paternal_uncle':
                         try:
                             from .ancestor_through_uncle import valid as uncle_ancestor_valid
@@ -144,7 +149,7 @@ def load_assemblies(root, catalog):
                     raise ValueError('組裝父親不在同族')
                 connection = member.get('parent_connection')
                 if connection:
-                    if connection.get('interpretation_basis') in ('fixed_received_zu_fu_sequence','fixed_received_shared_father','fixed_complete_witness_shared_father'):
+                    if connection.get('interpretation_basis') in ('fixed_received_zu_fu_sequence','fixed_received_shared_father','fixed_complete_witness_shared_father','fixed_complete_witness_zu_fu_sequence','shared_father_with_estate'):
                         try:from .received_kin_assembly import valid as received_assembly_valid
                         except ImportError:from received_kin_assembly import valid as received_assembly_valid
                         if not received_assembly_valid(member,rows,assertions,chapters,root):

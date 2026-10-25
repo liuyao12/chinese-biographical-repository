@@ -99,7 +99,7 @@ export async function traceFamily(person, load) {
       if (row?.connection === kind && ids.has(row.person_id) && id && !ids.has(id)
           && !result.has(id) && row.assembly_id
           && ['editorial_preferred', 'contextual_provisional'].includes(row.status)
-          && ['shared_ancestor_through_sibling', 'ancestor_through_paternal_uncle'].includes(connection?.type)
+          && ['shared_ancestor_through_sibling', 'ancestor_through_paternal_uncle', 'ancestor_from_qualified_first_cousin_and_known_paternal_chain'].includes(connection?.type)
           && connection.status === 'contextual_provisional'
           && connection.rationale && connection.references?.length) {
         result.set(id, {id, role: 'assembly_inferred', inference_note: connection.rationale,

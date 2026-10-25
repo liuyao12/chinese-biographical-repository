@@ -32,7 +32,12 @@ class PeiqianTyped(unittest.TestCase):
   ev=next(r for r in self.rs if r.get('event_type')=='death');self.assertEqual(ev['date_expression'],'正始五年');self.assertEqual(ev['normalized_date']['year'],244)
   for r in self.rs:
    if 'attestations'in r:
-    self.assertIsNone(r['effective_period']['start']['date_expression']);self.assertEqual(r['effective_period']['end'],{'status':'unknown','date_expression':None,'evidence':[]});self.assertNotIn('normalized_date',r['effective_period']['end'])
+    self.assertIsNone(r['effective_period']['start']['date_expression'])
+    if r['id']=='th-sgz023-peiqian-pqt-049':
+     from scripts.fixed_peiqian_structural import office_end_valid
+     self.assertEqual(r['end_basis']['departure_event_id'],'pe-sgz023-peiqian-phaseb-005-office-departure');self.assertEqual(r['end_basis']['prior_office_anchor']['surface'],'尚書令');self.assertEqual(r['end_basis']['following_office_anchor']['surface'],'拜光祿大夫');self.assertIsNone(r['effective_period']['end']['date_expression']);self.assertTrue(office_end_valid(r,self.ch,ROOT))
+    else:self.assertEqual(r['effective_period']['end'],{'status':'unknown','date_expression':None,'evidence':[]})
+    self.assertNotIn('normalized_date',r['effective_period']['end'])
   bad=copy.deepcopy(ev);bad['normalized_date']['year']=245;self.assertFalse(valid(bad,self.ch,ROOT))
  def test_unrealized_duke_and_staff_duty_not_holdings(self):
   hs=[r for r in self.rs if 'attestations'in r];self.assertNotIn('公',[h['title']for h in hs]);self.assertNotIn('參丞相軍事',[h['title']for h in hs]);self.assertTrue(any(r.get('source_term')=='時遠近皆云當為公'for r in self.rs))
@@ -43,7 +48,11 @@ class PeiqianTyped(unittest.TestCase):
  def test_no_native_marriage_or_mother_fabrication(self):
   self.assertFalse(any(r.get('predicate')in ['spouse','mother','adoptive_father']for r in self.rs));self.assertFalse(any(r.get('event_type')=='birth'for r in self.rs))
  def test_fixed_official_era_row_and_name_variants(self):
-  proof=json.loads((ROOT/'source-evidence/sgz023-peiqian-typed/calendar-equivalence.json').read_text());raw=(ROOT/proof['source_path']).read_bytes();self.assertEqual(hashlib.sha256(raw).hexdigest(),proof['raw_sha256']);row=re.search(r"<tr id='av445'>.*?</tr>",raw.decode(),re.S).group();self.assertEqual(row,proof['complete_html_table_row']);self.assertIn('正始',row);self.assertIn('240',row);self.assertIn('249',row)
+  proof=json.loads((ROOT/'source-evidence/sgz023-peiqian-typed/calendar-equivalence.json').read_text());raw=(ROOT/proof['source_path']).read_bytes();self.assertEqual(hashlib.sha256(raw).hexdigest(),proof['raw_sha256'])
+  if proof.get('source_storage_kind')=='selected_official_table_rows':
+   excerpt=json.loads(raw);self.assertEqual(excerpt['record_type'],'official_era_table_row_excerpt_set');self.assertEqual(excerpt['source_response_sha256'],proof['source_response_sha256']);entry,=[r for r in excerpt['rows']if r['row_id']==proof['row_id']];row=entry['complete_html_table_row'];self.assertEqual((entry['dynasty'],entry['era_name'],entry['first_year'],entry['last_year']),('魏','正始',240,249))
+  else:row=re.search(r"<tr id='av445'>.*?</tr>",raw.decode(),re.S).group()
+  self.assertEqual(row,proof['complete_html_table_row']);self.assertIn('正始',row);self.assertIn('240',row);self.assertIn('249',row)
   ev=next(r for r in self.rs if r.get('event_type')=='death');self.assertEqual(ev['normalized_date']['references'][0]['url'],proof['url']);self.assertEqual(proof['url'],'https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=1');self.assertEqual(proof['common_era_chinese_civil_year'],240+5-1)
   li=next(r for r in self.rs if r.get('ming')=='黎');self.assertEqual(li['zi'],'伯宗');self.assertEqual(li['additional_names'],['一名演']);self.assertIn('黎字伯宗一名演',li['quote'])
  def test_duration_and_estate_link_exact_holding(self):

@@ -34,9 +34,16 @@ def direct_source_age_valid(age):
             and age.get('source_term') in ('年' + str(number), '年至' + str(number), '時年' + str(number), '年登' + str(number), '年始' + str(number), str(number) + '歲', str(number) + '歳', str(number) + '嵗'))
 
 
-def named_office_end_valid(holding, paragraphs, mentions):
+def named_office_end_valid(holding, paragraphs, mentions, root=None, chapters=None):
     """明言終於此職的終期，不能以一般死亡替代所有官爵終期。"""
+    if not isinstance(holding,dict):return False
     basis = holding.get('end_basis'); end = holding.get('effective_period',{}).get('end',{})
+    if isinstance(basis,dict) and basis.get('kind')=='fixed_named_prior_office_departure':
+        try:from scripts.fixed_peiqian_structural import office_end_valid
+        except ImportError:from fixed_peiqian_structural import office_end_valid
+        supplied=holding.get('evidence');first=supplied[0]if isinstance(supplied,list)and supplied and isinstance(supplied[0],dict)else {}
+        return (root is not None and isinstance(chapters,dict)
+                and office_end_valid(holding,chapters.get(first.get('chapter_id'),{}),root))
     if isinstance(basis, dict) and basis.get('kind') in ('named_last_office_mourning_leave', 'named_son_office_removed_for_slaughtering_cattle'):
         try:
             from scripts.lifecycle_offered_biography import end_valid
@@ -166,6 +173,11 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                 first_evidence=safe_evidence[0]if isinstance(safe_evidence,list)and safe_evidence and isinstance(safe_evidence[0],dict)else {}
                 ch=(chapters if isinstance(chapters,dict)else {}).get(first_evidence.get('chapter_id'),{})
                 valid=slot_date_valid(date,bound_record,ch,root)
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_parallel_death_era_variant':
+                try:from scripts.fixed_parallel_death_era_variant import valid as parallel_death_era_valid
+                except ImportError:from fixed_parallel_death_era_variant import valid as parallel_death_era_valid
+                valid = (bound_role == 'life_event' and isinstance(bound_record, dict)
+                         and parallel_death_era_valid(date, bound_record, chapters or {}, root))
             if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_received_local_regnal_year':
                 try:from scripts.fixed_received_career import local_date_valid
                 except ImportError:from fixed_received_career import local_date_valid
@@ -1100,7 +1112,7 @@ def validate(root=ROOT):
                         from office_attributions import punctuation_attribution_errors
                     errors.extend(punctuation_attribution_errors(h, paragraphs, mentions))
                 if 'end_basis' in h:
-                    check(named_office_end_valid(h, paragraphs, mentions), '明示終職須綁同人此職原詞，不得以一般死亡補所有職爵')
+                    check(named_office_end_valid(h, paragraphs, mentions, root, chapters), '明示終職須綁同人此職原詞，不得以一般死亡補所有職爵')
                 if 'inheritance' in h:
                     inheritance = h['inheritance']
                     valid = isinstance(inheritance, dict) and set(inheritance) - {'predecessor_relation'} == {
@@ -1482,6 +1494,11 @@ def validate(root=ROOT):
                             except ImportError:from fixed_kanripo_fact_slots import inherited_surface_valid as fixed_inherited_surface_valid
                             inherited_surface_ok=fixed_inherited_surface_valid(h,a,chapters[d['chapter_id']],title_records,family_relations,root)
                         check(inherited_surface_ok,'父爵省稱須有同段明父與同源實際爵位，不承接錯父或舊爵')
+                    if 'source_office_prefix_binding' in h:
+                        try:from scripts.fixed_peiqian_structural import prefix_surface_valid
+                        except ImportError:from fixed_peiqian_structural import prefix_surface_valid
+                        shared_suffix_valid = prefix_surface_valid(h,a,chapters[d['chapter_id']],root)
+                        check(shared_suffix_valid,'省稱令須綁固定整組官稱、尚書前綴與本源持有人，不造連續全銜')
                     check((a['surface']==h['title'] or shared_suffix_valid or inherited_surface_ok) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
                     if hit:
                         check(isinstance(a['start'],int) and isinstance(a['end'],int) and 0<=a['start']<a['end']<=len(hit[1]['text']) and hit[1]['text'][a['start']:a['end']]==a['surface'],'稱號用稱字元位置不符')
@@ -2377,7 +2394,7 @@ def validate(root=ROOT):
             check(record.get('record_type') in ('person_life_event_assertion_set', 'person_event_assertion_set') and record.get('chapter_id') in chapters, '生卒事件集類型或篇不存在')
             for event in record['events']:
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
-                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
+                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession', 'office_departure')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
                 if event.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
                     try:from scripts.fixed_witness_fact_slots import valid as witness_fact_valid
@@ -2400,6 +2417,10 @@ def validate(root=ROOT):
                     try:from scripts.layered_biography_titles import explicit_death_report_valid
                     except ImportError:from layered_biography_titles import explicit_death_report_valid
                     check(explicit_death_report_valid(event,chapters[record['chapter_id']]),'明示死亡須綁實際主體與完整死因句，不移給引述/夢中他人或補年月')
+                if 'source_death_interpretation' in event:
+                    try:from scripts.fixed_peiqian_structural import wrongful_killing_valid
+                    except ImportError:from fixed_peiqian_structural import wrongful_killing_valid
+                    check(wrongful_killing_valid(event,chapters[record['chapter_id']],root),'被枉害死亡解讀須綁此完整史段主體與原詞，不補年、不泛化害字')
                 if 'literal_source_binding' in event:
                     try:
                         from scripts.literal_family_reports import death_valid
@@ -2412,8 +2433,18 @@ def validate(root=ROOT):
                     except ModuleNotFoundError:
                         from regnal_relationships import accession_death_interval_valid
                     check(accession_death_interval_valid(event, paragraphs, mentions), '未逾年須連同人立後死亡的原句，不得當生齡或推曆年')
+                if event['event_type']=='office_departure':
+                    try:from scripts.fixed_peiqian_structural import office_departure_valid
+                    except ImportError:from fixed_peiqian_structural import office_departure_valid
+                    check(office_departure_valid(event,chapters[record['chapter_id']],root),'離職事件只收固定潛去官／秀被免原文，未知職名任終與日期不補')
                 if record.get('record_type') == 'person_event_assertion_set' and event['event_type'] == 'recruitment':
-                    check(any('徵' in e.get('quote', '') for e in event.get('evidence', [])) or (event.get('source_fact_frame', {}).get('rule') == 'lifetime_recruitment_age' and event.get('source_term', '').startswith('辟')), '徵召事件缺少原文徵召用語')
+                    fixed_recruitment_ok=False
+                    if 'source_recruitment_binding' in event:
+                        try:from scripts.fixed_peiqian_structural import recruitment_valid
+                        except ImportError:from fixed_peiqian_structural import recruitment_valid
+                        fixed_recruitment_ok=recruitment_valid(event,chapters[record['chapter_id']],root)
+                        check(fixed_recruitment_ok,'曹爽辟須綁固定全文與兩端角色，不借八歲或假稱職')
+                    check((fixed_recruitment_ok if 'source_recruitment_binding' in event else any('徵' in e.get('quote', '') for e in event.get('evidence', [])) or (event.get('source_fact_frame', {}).get('rule') == 'lifetime_recruitment_age' and event.get('source_term', '').startswith('辟'))), '徵召事件缺少原文徵召用語')
                 if event['event_type'] in ('noble_state_abolition', 'noble_title_succession'):
                     try:
                         from scripts.noble_state_abolition import valid as noble_abolition_valid
@@ -2553,6 +2584,10 @@ def validate(root=ROOT):
                             try:from scripts.layered_biography_titles import death_context_valid
                             except ImportError:from layered_biography_titles import death_context_valid
                             carried_subject=death_context_valid(context,event,chapters[record['chapter_id']],evidence)
+                        if isinstance(context,dict) and context.get('kind')=='fixed_named_parent_bereavement':
+                            try:from scripts.fixed_peiqian_structural import bereavement_context_valid
+                            except ImportError:from fixed_peiqian_structural import bereavement_context_valid
+                            carried_subject=bereavement_context_valid(context,event,chapters[record['chapter_id']],evidence,root,family_relations)
                         check(carried_subject, '生卒主語承接須有近前同篇人物錨點、引句及完整中間段落')
                     check(carried_subject or bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == event['person_id'], '生卒事件人物錨點不符')
                     if valid and mention and not carried_subject:

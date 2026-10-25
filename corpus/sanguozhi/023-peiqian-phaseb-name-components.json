@@ -1,0 +1,276 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_name_component_set",
+  "chapter_id": "c-sanguozhi-023-peiqian",
+  "records": [
+    {
+      "id": "nc-sgz023-peiqian-phaseb-contextual-li",
+      "person_id": "4ni_4t1_4o9_BA",
+      "surname": "裴",
+      "ming": "黎",
+      "zi": "伯宗",
+      "additional_names": [
+        "一名演"
+      ],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0035",
+      "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0035"
+        }
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本條原單稱黎另保；裴為同源明稱裴楷及兩條已證父系所作AI上下文首選，不由ID或registry label，不補茂→徽。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "phaseb-surname-li"
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_kanripo_slots",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "魏晉此支近父系及同源明名，有資格推姓，並非其他時代姓氏通則。",
+        "seed_name_record_id": "nc-sgz023-peiqian-phaseb-surname-seed-kai",
+        "seed_person_id": "4ni_4t1_4o9_BC",
+        "source_full_quote": "晉諸公贊曰康有弘量綽以明達為稱楷少與瑯邪王戎俱為掾發名鍾㑹致之大將軍司馬文王曰裴楷清通王戎簡要文王即辟為掾進歴顯位",
+        "source_token_name_record_id": "nc-sgz023-peiqian-pqt-068",
+        "assertion_ids": [
+          "a-sgz023-peiqian-pqt-010",
+          "a-sgz023-peiqian-pqt-008"
+        ],
+        "steps": [
+          {
+            "assertion_id": "a-sgz023-peiqian-pqt-010",
+            "from_person_id": "4ni_4t1_4o9_BC",
+            "to_person_id": "4ni_4t1_4o9_B",
+            "traversal": "child_to_father",
+            "generation_before": 0,
+            "generation_after": -1,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-023",
+                "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+                "chapter_id": "c-sanguozhi-023-peiqian",
+                "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+                "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+                "subject_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0057",
+                "object_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0003"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-sgz023-peiqian-pqt-008",
+            "from_person_id": "4ni_4t1_4o9_B",
+            "to_person_id": "4ni_4t1_4o9_BA",
+            "traversal": "father_to_child",
+            "generation_before": -1,
+            "generation_after": 0,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-023",
+                "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+                "chapter_id": "c-sanguozhi-023-peiqian",
+                "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+                "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+                "subject_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0035",
+                "object_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0003"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "nc-sgz023-peiqian-phaseb-contextual-kang",
+      "person_id": "4ni_4t1_4o9_BB",
+      "surname": "裴",
+      "ming": "康",
+      "zi": "仲豫",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0047",
+      "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0047"
+        }
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本條原單稱康另保；裴為同源明稱裴楷及兩條已證父系所作AI上下文首選，不由ID或registry label，不補茂→徽。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "phaseb-surname-kang"
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_kanripo_slots",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "魏晉此支近父系及同源明名，有資格推姓，並非其他時代姓氏通則。",
+        "seed_name_record_id": "nc-sgz023-peiqian-phaseb-surname-seed-kai",
+        "seed_person_id": "4ni_4t1_4o9_BC",
+        "source_full_quote": "晉諸公贊曰康有弘量綽以明達為稱楷少與瑯邪王戎俱為掾發名鍾㑹致之大將軍司馬文王曰裴楷清通王戎簡要文王即辟為掾進歴顯位",
+        "source_token_name_record_id": "nc-sgz023-peiqian-pqt-069",
+        "assertion_ids": [
+          "a-sgz023-peiqian-pqt-010",
+          "a-sgz023-peiqian-pqt-009"
+        ],
+        "steps": [
+          {
+            "assertion_id": "a-sgz023-peiqian-pqt-010",
+            "from_person_id": "4ni_4t1_4o9_BC",
+            "to_person_id": "4ni_4t1_4o9_B",
+            "traversal": "child_to_father",
+            "generation_before": 0,
+            "generation_after": -1,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-023",
+                "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+                "chapter_id": "c-sanguozhi-023-peiqian",
+                "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+                "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+                "subject_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0057",
+                "object_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0003"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-sgz023-peiqian-pqt-009",
+            "from_person_id": "4ni_4t1_4o9_B",
+            "to_person_id": "4ni_4t1_4o9_BB",
+            "traversal": "father_to_child",
+            "generation_before": -1,
+            "generation_after": 0,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-023",
+                "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+                "chapter_id": "c-sanguozhi-023-peiqian",
+                "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+                "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+                "subject_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0047",
+                "object_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0003"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "nc-sgz023-peiqian-phaseb-contextual-chuo",
+      "person_id": "4ni_4t1_4o9_BD",
+      "surname": "裴",
+      "ming": "綽",
+      "zi": "季舒",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0073",
+      "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0073"
+        }
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本條原單稱綽另保；裴為同源明稱裴楷及兩條已證父系所作AI上下文首選，不由ID或registry label，不補茂→徽。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "phaseb-surname-chuo"
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_kanripo_slots",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "魏晉此支近父系及同源明名，有資格推姓，並非其他時代姓氏通則。",
+        "seed_name_record_id": "nc-sgz023-peiqian-phaseb-surname-seed-kai",
+        "seed_person_id": "4ni_4t1_4o9_BC",
+        "source_full_quote": "晉諸公贊曰康有弘量綽以明達為稱楷少與瑯邪王戎俱為掾發名鍾㑹致之大將軍司馬文王曰裴楷清通王戎簡要文王即辟為掾進歴顯位",
+        "source_token_name_record_id": "nc-sgz023-peiqian-pqt-071",
+        "assertion_ids": [
+          "a-sgz023-peiqian-pqt-010",
+          "a-sgz023-peiqian-pqt-011"
+        ],
+        "steps": [
+          {
+            "assertion_id": "a-sgz023-peiqian-pqt-010",
+            "from_person_id": "4ni_4t1_4o9_BC",
+            "to_person_id": "4ni_4t1_4o9_B",
+            "traversal": "child_to_father",
+            "generation_before": 0,
+            "generation_after": -1,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-023",
+                "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+                "chapter_id": "c-sanguozhi-023-peiqian",
+                "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+                "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+                "subject_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0057",
+                "object_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0003"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-sgz023-peiqian-pqt-011",
+            "from_person_id": "4ni_4t1_4o9_B",
+            "to_person_id": "4ni_4t1_4o9_BD",
+            "traversal": "father_to_child",
+            "generation_before": -1,
+            "generation_after": 0,
+            "evidence": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-023",
+                "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+                "chapter_id": "c-sanguozhi-023-peiqian",
+                "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+                "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+                "subject_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0073",
+                "object_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0003"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

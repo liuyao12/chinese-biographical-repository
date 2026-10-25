@@ -1,0 +1,32 @@
+"""PROPOSAL: one pinned double-source death spelling decision, never a global alias."""
+from pathlib import Path
+import json,hashlib
+PROOF_PATH='source-evidence/sgz023-peiqian-phaseb/date-variant-proof.json'
+PROOF_SHA='52617ff3b1fa3fdc1792cd2323725e6de5defbd24bf818b5a7aa0d4f7212bf28'
+KIND='fixed_parallel_death_era_variant'
+def valid(date,event,chapters,root):
+ try:
+  if not all(isinstance(v,dict)for v in [date,event,chapters])or not isinstance(root,(str,Path)):return False
+  if not isinstance(date.get('regnal_year_mapping'),dict)or not isinstance(event.get('normalized_date'),dict):return False
+  assert event.get('normalized_date')==date
+  assert all(type(date.get(k))is int for k in ['year','era_year'])
+  assert all(type(date.get('regnal_year_mapping',{}).get(k))is int for k in ['reference_index','start_ce_year','end_ce_year','regnal_year'])
+  root=Path(root);raw=(root/PROOF_PATH).read_bytes();assert hashlib.sha256(raw).hexdigest()==PROOF_SHA;p=json.loads(raw)
+  def side(spec):
+   dims=spec['dimensions'];c=chapters.get(dims['id']);assert isinstance(c,dict)and isinstance(c.get('source'),dict)and isinstance(c.get('paragraphs'),list)and all(isinstance(u,dict)for u in c['paragraphs']);assert c['id']==dims['id']and all(c[k]==dims[k]for k in ['work_id','book_id','source_id']);s=c['source'];url=s.get('permalink')or s.get('url');assert isinstance(url,str)and url.startswith('https://');assert all(isinstance(s[k],str)and s[k].startswith('https://')for k in ['permalink','url']if k in s);assert s['revision_id']==spec['revision_id'];assert s.get('response_sha256',s.get('raw_file_sha256'))==spec['raw_sha256'];assert hashlib.sha256((root/spec['raw_path']).read_bytes()).hexdigest()==spec['raw_sha256']
+   u=next(u for u in c['paragraphs']if u.get('id')==spec['paragraph_id']);assert isinstance(u.get('text'),str)and isinstance(u.get('mentions'),list)and all(isinstance(m,dict)for m in u['mentions']);assert u['text']==spec['full_quote']and hashlib.sha256(u['text'].encode()).hexdigest()==spec['paragraph_sha256'];m=next(m for m in u['mentions']if m['id']==spec['subject_mid']);assert type(m.get('start'))is int and type(m.get('end'))is int and isinstance(m.get('person_id'),str)and m['person_id']and m['kind']=='person'and m['surface']==spec['subject_surface']and u['text'][m['start']:m['end']]==m['surface']
+   for key in ['year_anchor','death_anchor','age_anchor']:
+    a=spec[key];assert a['paragraph_id']==u['id']and u['text'][a['start']:a['end']]==a['surface']
+   return c,u,m
+  sc,sp,sm=side(p['source']);rc,rp,rm=side(p['reference']);assert sm['person_id']==rm['person_id']==event['person_id'];assert p['source']['source_era']=='秦始'and p['reference']['source_era']=='泰始'and p['source']['age_number']==p['reference']['age_number']==48 and p['source']['regnal_year_number']==p['reference']['regnal_year_number']==7
+  def evidence(c,u,m):return dict(work_id=c['work_id'],book_id=c['book_id'],source_id=c['source_id'],chapter_id=c['id'],paragraph_id=u['id'],quote=u['text'],person_mention_id=m['id'])
+  se=evidence(sc,sp,sm);re=evidence(rc,rp,rm);assert event['event_type']=='death'and event['status']=='source_attested'and event['id']=='le-sgz023-peiqian-phaseb-death-xiu'and event['source_term']==p['source']['death_anchor']['surface']and event['source_anchor']==p['source']['death_anchor']and event['date_expression']=='秦始七年'and event['evidence']==[se]
+  reference_events=json.loads((root/p['reference_life_events_path']).read_text())['events'];ref,=[v for v in reference_events if v['id']==p['reference_life_event_id']];assert ref['event_type']=='death'and ref['person_id']==event['person_id']and ref['source_term']=='泰始七年薨'and ref['date_expression']=='泰始七年'and ref['evidence']==[re]
+  rd=ref['normalized_date'];assert rd['year']==rd['era_year']==271 and rd['era']=='CE'and rd['calendar']=='chinese_civil'and rd['regnal_year_mapping']['era_name']=='泰始'and rd['regnal_year_mapping']['regnal_year']==7
+  cal=p['calendar'];cb=(root/cal['raw_path']).read_bytes();assert hashlib.sha256(cb).hexdigest()==cal['raw_sha256']and cal['full_table_row']in cb.decode();cols=cal['columns'];assert cols=={'dynasty':'西晉','era_name':'泰始','first_year':'265','last_year':'274'}
+  calendar_ref=dict(url=cal['url'],quote='泰始',scope='modern_era_year_equivalence_only',columns=cols)
+  assert rd['regnal_year_mapping']==dict(kind='ce_regnal_era_span',reference_index=0,start_ce_year=265,end_ce_year=274,regnal_year=7,source_number='七',era_name='泰始')and rd['references'][0]==calendar_ref and rd['evidence']==[re]and rd['original_quote']==rp['text']and rd['source_expression']=='泰始七年'and rd['precision']=='year'and rd['year_numbering']=='astronomical'and rd['human_reviewed']is False and rd['status']=='editorial_provisional'
+  primary_ref=dict(url=(rc['source'].get('permalink')or rc['source'].get('url')),quote=rp['text'],scope='received_parallel_death_era_variant',image_verified=False)
+  bridge=date['death_era_variant_binding'];assert set(bridge)=={'kind','key','reference_life_event_id','source_subject_mention_id','reference_subject_mention_id','source_reading','preferred_reading','status','human_reviewed','rationale'}and bridge['kind']=='fixed_same_person_death_era_spelling'and bridge['key']==p['key']and bridge['reference_life_event_id']==ref['id']and bridge['source_subject_mention_id']==sm['id']and bridge['reference_subject_mention_id']==rm['id']and bridge['source_reading']=='秦始'and bridge['preferred_reading']=='泰始'and bridge['status']=='editorial_provisional'and bridge['human_reviewed']is False and isinstance(bridge['rationale'],str)and bool(bridge['rationale'].strip())
+  assert date['regnal_year_mapping']==dict(kind=KIND,reference_index=0,start_ce_year=265,end_ce_year=274,regnal_year=7,source_number='七',source_era_name='秦始',era_name='泰始');assert date['year']==date['era_year']==265+7-1==271 and date['era']=='CE'and date['calendar']=='chinese_civil'and date['precision']=='year'and date['year_numbering']=='astronomical'and date['status']=='editorial_provisional'and date['source_expression']=='秦始七年'and date['original_quote']==sp['text']and date['evidence']==[se]and date['references']==[calendar_ref,primary_ref]and date['human_reviewed']is False and isinstance(date['reviewer'],str)and bool(date['reviewer'].strip())and isinstance(date['rationale'],str)and bool(date['rationale'].strip());return True
+ except(AssertionError,KeyError,TypeError,ValueError,StopIteration,OSError,IndexError):return False
