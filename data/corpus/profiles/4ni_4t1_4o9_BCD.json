@@ -124,7 +124,94 @@
     "4ni_4t1_4o9_BCD": "禮〔楷子〕"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-elided-literal-c76165a1036f46",
+      "person_id": "4ni_4t1_4o9_BCD",
+      "surname": null,
+      "ming": "禮",
+      "additional_names": [],
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-jinshu-035-peikai-family",
+      "paragraph_id": "c-jinshu-035-peikai-family:p009",
+      "person_mention_id": "c-jinshu-035-peikai-family:p009:m0049",
+      "quote": "初，楷家炊黍在甑，或變如拳，或作血，或作蕪菁子。其年而卒，時年五十五，諡曰元。有五子：輿、瓚、憲、禮、遜。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p009",
+          "quote": "初，楷家炊黍在甑，或變如拳，或作血，或作蕪菁子。其年而卒，時年五十五，諡曰元。有五子：輿、瓚、憲、禮、遜。",
+          "person_mention_id": "c-jinshu-035-peikai-family:p009:m0049"
+        }
+      ],
+      "bounded_source_name_binding": {
+        "kind": "bounded_source_name_components",
+        "key": "legacy-peikai",
+        "slot": "literal-c76165a1036f46"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-peikai-ws2506399"
+    },
+    {
+      "id": "nc-elided-context-c76165a1036f46",
+      "person_id": "4ni_4t1_4o9_BCD",
+      "surname": "裴",
+      "ming": "禮",
+      "additional_names": [],
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-jinshu-035-peikai-family",
+      "paragraph_id": "c-jinshu-035-peikai-family:p009",
+      "person_mention_id": "c-jinshu-035-peikai-family:p009:m0049",
+      "quote": "初，楷家炊黍在甑，或變如拳，或作血，或作蕪菁子。其年而卒，時年五十五，諡曰元。有五子：輿、瓚、憲、禮、遜。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p009",
+          "quote": "初，楷家炊黍在甑，或變如拳，或作血，或作蕪菁子。其年而卒，時年五十五，諡曰元。有五子：輿、瓚、憲、禮、遜。",
+          "person_mention_id": "c-jinshu-035-peikai-family:p009:m0049"
+        }
+      ],
+      "interpretation_note": "編輯省姓首選；原來源單稱／surname:null另筆全值保留，不冒原文明全名，不由familyID或組裝父系推姓。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_bound_legacy_biography",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "固定完整裴楷附傳內實見裴楷全文名及已驗父子角色；非段首seed仍逐原MID，不借ID或編輯父。",
+        "seed_name_record_id": "nc-elided-literal-7609dbfe80bbac",
+        "steps": [
+          {
+            "assertion_id": "a-jin035-pei-kai-child-li",
+            "from_person_id": "4ni_4t1_4o9_BC",
+            "to_person_id": "4ni_4t1_4o9_BCD",
+            "generation_before": 0,
+            "generation_after": 1,
+            "traversal": "object_to_subject"
+          }
+        ]
+      },
+      "bounded_source_name_binding": {
+        "kind": "bounded_source_name_components",
+        "key": "legacy-peikai",
+        "slot": "context-c76165a1036f46"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-peikai-ws2506399"
+    }
+  ],
   "person_ids": [
     "4ni_4t1_4o9_BCD"
   ],

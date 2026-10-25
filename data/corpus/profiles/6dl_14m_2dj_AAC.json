@@ -196,7 +196,102 @@
     "6dl_14m_2dj_AAC": "範〔泰弟〕"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-elided-literal-85d75a8132af8e",
+      "person_id": "6dl_14m_2dj_AAC",
+      "surname": null,
+      "ming": "範",
+      "additional_names": [],
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "paragraph_id": "c-sanguozhi-009-caoren-caochun:p005",
+      "person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0027",
+      "quote": "子泰嗣官至鎮東將軍假節轉封寗陵侯泰薨子初嗣又分封泰弟楷範皆為列侯而牛金官至後將軍仁弟純",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p005",
+          "quote": "子泰嗣官至鎮東將軍假節轉封寗陵侯泰薨子初嗣又分封泰弟楷範皆為列侯而牛金官至後將軍仁弟純",
+          "person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0027"
+        }
+      ],
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "nc-elided-literal-85d75a8132af8e"
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa"
+    },
+    {
+      "id": "nc-elided-context-85d75a8132af8e",
+      "person_id": "6dl_14m_2dj_AAC",
+      "surname": "曹",
+      "ming": "範",
+      "additional_names": [],
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "paragraph_id": "c-sanguozhi-009-caoren-caochun:p005",
+      "person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0027",
+      "quote": "子泰嗣官至鎮東將軍假節轉封寗陵侯泰薨子初嗣又分封泰弟楷範皆為列侯而牛金官至後將軍仁弟純",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p005",
+          "quote": "子泰嗣官至鎮東將軍假節轉封寗陵侯泰薨子初嗣又分封泰弟楷範皆為列侯而牛金官至後將軍仁弟純",
+          "person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0027"
+        }
+      ],
+      "interpretation_note": "編輯省姓首選；原來源單稱／surname:null另筆全值保留，不冒原文明全名，不由familyID或組裝父系推姓。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_kanripo_slots",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同完整固定來源明全名seed及已驗父／兄弟／從父弟路徑；不造中間父。",
+        "seed_name_record_id": "nc-sgz009-cc-ren",
+        "steps": [
+          {
+            "assertion_id": "a-sgz009-cc-tai-father-ren",
+            "from_person_id": "6dl_14m_2dj_AA",
+            "to_person_id": "6dl_14m_2dj_AAA",
+            "generation_before": 0,
+            "generation_after": 1,
+            "traversal": "object_to_subject"
+          },
+          {
+            "assertion_id": "a-sgz009-cc-fan-younger-tai",
+            "from_person_id": "6dl_14m_2dj_AAA",
+            "to_person_id": "6dl_14m_2dj_AAC",
+            "generation_before": 1,
+            "generation_after": 1,
+            "traversal": "object_to_subject"
+          }
+        ]
+      },
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "nc-elided-context-85d75a8132af8e"
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa"
+    }
+  ],
   "person_ids": [
     "6dl_14m_2dj_AAC"
   ],

@@ -1,0 +1,13 @@
+# 有資格的來源親屬判讀
+
+person_relationship_interpretation_set 是來源判讀族別，與 source_attested person_assertion_set 分開。初版僅固定《南齊書》043收到完整八段的父莊、四兄與謝莊名兒同段語境；records完整二項，不能泛化成所有兄弟同父。
+
+每項有 predicate:father、subject_person_id（子）、object_person_id（父）、status:contextual_provisional、interpretation_basis、source_context（九角色MID、三組literal span、全文/原raw hash/修訂）、evidence（全段與雙端MID/role_mentions）、qualification（原文沒有逐人明父、父系、未推同母/絕對排行、source_query_only）、AI署名及human_reviewed:false。roles按固定MID解析當前人物，不能從label/ID形狀推親。
+
+原person_assertion_set的source_attested限制不變；既有kinship_interpretation_cases的注語爭論契約不變。新sidecar固定完整槽、來源projection、種類/role/state皆fail-closed。無來源interpretation時舊bundle所有值不變。
+
+person_source_bundle可有relationship_interpretations，僅所選身份集合任一端命中時傳回。預設集合只有請求的canonical ID；--include-provisional沿既有等價判斷傳遞集合，並非此旗標才顯示暫定親屬；同一實際端點兩模式都傳回。另一端persons及證據passages/sources保全。沒有新增interpretation時不輸出空欄。
+
+新記錄不加入relations、preferred_relations、birth_order_constraints、preferred_birth_order_constraints、family_paths或family_assemblies；不自動選父、替代原兄弟或把既有組裝升確證。JSON使用端按predicate/endpoints/qualification直接解析，不做執行期AI。
+
+直接門檢：python scripts/received_parentage_interpretations.py --root ROOT；單人源查詢可加--person-id CURRENT_ID。load_catalog及validate_corpus的實際入口同驗；person_bundle direct/import沿相同helper，不改既有身份旗標。

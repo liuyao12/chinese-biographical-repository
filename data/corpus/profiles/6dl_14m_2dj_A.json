@@ -326,7 +326,99 @@
     "6dl_14m_2dj_AA": "曹仁（子孝）"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-elided-literal-151fb63fb42b3d",
+      "person_id": "6dl_14m_2dj_A",
+      "surname": null,
+      "ming": "熾",
+      "additional_names": [],
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "paragraph_id": "c-sanguozhi-009-caoren-caochun:p002",
+      "person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0011",
+      "quote": "魏書曰仁祖襃頴川太守父熾侍中長水校尉",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p002",
+          "quote": "魏書曰仁祖襃頴川太守父熾侍中長水校尉",
+          "person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0011"
+        }
+      ],
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "nc-elided-literal-151fb63fb42b3d"
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa"
+    },
+    {
+      "id": "nc-elided-context-151fb63fb42b3d",
+      "person_id": "6dl_14m_2dj_A",
+      "surname": "曹",
+      "ming": "熾",
+      "additional_names": [],
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "paragraph_id": "c-sanguozhi-009-caoren-caochun:p002",
+      "person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0011",
+      "quote": "魏書曰仁祖襃頴川太守父熾侍中長水校尉",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p002",
+          "quote": "魏書曰仁祖襃頴川太守父熾侍中長水校尉",
+          "person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0011"
+        }
+      ],
+      "interpretation_note": "編輯省姓首選；原來源單稱／surname:null另筆全值保留，不冒原文明全名，不由familyID或組裝父系推姓。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_same_source_father_chain",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "完整源內全文名及明父子路徑；不讀ID/label/組裝父鏈",
+        "source_name_record_id": "nc-sgz009-cc-ren",
+        "source_full_quote": "曹仁字子孝太祖從弟也",
+        "steps": [
+          {
+            "assertion_id": "a-sgz009-cc-ren-father-chi",
+            "from_person_id": "6dl_14m_2dj_AA",
+            "to_person_id": "6dl_14m_2dj_A",
+            "traversal": "child_to_father",
+            "evidence": {
+              "work_id": "w-sanguozhi",
+              "book_id": "b-sanguozhi-009",
+              "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+              "chapter_id": "c-sanguozhi-009-caoren-caochun",
+              "paragraph_id": "c-sanguozhi-009-caoren-caochun:p002",
+              "quote": "魏書曰仁祖襃頴川太守父熾侍中長水校尉",
+              "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0003",
+              "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0011"
+            },
+            "source_term": "父熾"
+          }
+        ]
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa"
+    }
+  ],
   "source_details": [
     {
       "id": "bd-sgz009-cc-chi-shoujia",

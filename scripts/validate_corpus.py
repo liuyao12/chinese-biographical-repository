@@ -2699,6 +2699,10 @@ def validate(root=ROOT):
         except ImportError:
             from biography_source_details import errors as biography_detail_errors
         errors.extend(biography_detail_errors(chapters, catalog[1], root))
+        if (root/'corpus/nanqishu/043-xieyue-relationship-interpretations.json').exists() or any(r.get('record_type') == 'person_relationship_interpretation_set' for r in catalog[1]):
+            try:from scripts.received_parentage_interpretations import errors as parentage_errors
+            except ImportError:from received_parentage_interpretations import errors as parentage_errors
+            errors.extend(parentage_errors(root, catalog[1], pids))
 
         try:
             from scripts.preferred_name_components import validated_readings
