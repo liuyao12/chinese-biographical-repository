@@ -28,7 +28,7 @@ def resolve(records,people,root):
    assert isinstance(d,dict)and set(d)==KEYS and isinstance(d['id'],str)and d['id']and d['id']not in seen;seen.add(d['id'])
    pid=d['person_id'];assert pid in people and pid not in aliases and pid not in out
    assert d['selection_kind']=='default_profile_title'and d['scope']=='timeless_profile_heading'and d['temporal_claim']=='none'and d['status']=='editorial_provisional'and d['human_reviewed']is False and isinstance(d['rationale'],str)and d['rationale'].strip()
-   h=hs[d['holding_id']];assert h['person_id']==pid and h['status']=='source_attested'and h['mode']in MODES and h.get('source_qualification',{}).get('kind')!='reported_office_challenged_by_commentary'
+   h=hs[d['holding_id']];assert h['person_id']==pid and h['status']=='source_attested'and (h['mode']in MODES or h['mode']=='attestation') and h.get('source_qualification',{}).get('kind')!='reported_office_challenged_by_commentary'
    a,=[a for a in h['attestations']if a['id']==d['attestation_id']];ref=d['source_ref'];assert isinstance(ref,dict)and set(ref)==REF
    c=chs[ref['chapter_id']];p,=[p for p in c['paragraphs']if p['id']==ref['paragraph_id']];m,=[m for m in p['mentions']if m['id']==ref['person_mention_id']]
    assert all(ref[k]==c[k]for k in('work_id','book_id','source_id','chapter_id')if k!='chapter_id')and ref['chapter_id']==c['id']
@@ -39,6 +39,11 @@ def resolve(records,people,root):
    # The holding's existing finite grammar, not a preference-supplied title/regex,
    # must attest the actual recipient and mode. Unknown source contracts fail closed.
    assert holding_valid(h,c,root=root)
+   if h['mode']=='attestation':
+    assert h.get('source_career_role',{}).get('kind')=='attached_received_biography_frame'
+    try:from scripts.attached_biography_frames import pinned_attestation_source_valid
+    except ImportError:from attached_biography_frames import pinned_attestation_source_valid
+    assert pinned_attestation_source_valid(h,c,root)
    for case in c.get('annotation',{}).get('unresolved_identity_cases',[])+c.get('annotation',{}).get('unresolved_title_attestations',[]):
     ids={case.get('person_mention_id'),case.get('source_mention_id'),case.get('mention_id')}
     ids.update(case.get('mention_ids',[]));assert m['id']not in ids
@@ -68,9 +73,9 @@ class PreferenceCatalog(list):
    deps=[r for r in self if r.get('record_type')==TYPE or(r.get('record_type')=='marked_chapter'and r['id']==choice['source_ref']['chapter_id'])or(r.get('record_type')=='title_holding_assertion_set'and any(h['id']==choice['holding_id']for h in r['holdings']))]
    self.dependencies[pid]=[(r,copy.deepcopy(r))for r in deps]
    for row in deps:
-    if row.get('record_type')=='marked_chapter'and row.get('source',{}).get('raw_file'):
+    if row.get('record_type')=='marked_chapter'and (row.get('source',{}).get('raw_file') or row.get('source',{}).get('raw_path')):
      import hashlib
-     raw=self.root/row['source']['raw_file'];self.raw_dependencies[pid]=(raw,hashlib.sha256(raw.read_bytes()).hexdigest())
+     raw=self.root/(row['source'].get('raw_file') or row['source']['raw_path']);self.raw_dependencies[pid]=(raw,hashlib.sha256(raw.read_bytes()).hexdigest())
  def choice(self,pid,root):
   import copy
   if Path(root).resolve()!=self.root:raise ValueError('預設稱號索引不可跨root重用')

@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "id": "ehx_cqg_nfx_BAC",
+  "canonical_person_id": "ehx_cqg_nfx_BAC",
+  "label": "王衍女〔湣懷太子妃，未名〕",
+  "identity_note": "固定王衍敘事單元來源身份；不加typed親屬、不以同名逕合。",
+  "review": "ai_provisional",
+  "names": [
+    "女",
+    "妃"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 43,
+      "category": "",
+      "title": "王衍傳",
+      "paragraph_id": "c-jinshu-043-wangyan:p005",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "後曆北軍中候、中領軍、尚書令。女為湣懷太子妃，太子為賈后所誣，衍懼禍，自表離婚。賈后既廢，有司奏衍，曰：「衍與司徒梁王肜書，寫呈皇太子手與妃及衍書，陳見誣見狀。肜等伏讀，辭旨懇惻。衍備位大臣，應以議責也。太子被誣得罪，衍不能守死善道",
+      "paragraph_ids": [
+        "c-jinshu-043-wangyan:p005"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-wangyan:p005:m0015",
+        "c-jinshu-043-wangyan:p005:m0021",
+        "c-jinshu-043-wangyan:p005:m0069"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-wangyan:p005:m0015": "c-jinshu-043-wangyan:p005",
+        "c-jinshu-043-wangyan:p005:m0021": "c-jinshu-043-wangyan:p005",
+        "c-jinshu-043-wangyan:p005:m0069": "c-jinshu-043-wangyan:p005"
+      },
+      "mention_id": "c-jinshu-043-wangyan:p005:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-wangyan:p005:m0015",
+          "mention_ids": [
+            "c-jinshu-043-wangyan:p005:m0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-wangyan:p005:m0021",
+          "mention_ids": [
+            "c-jinshu-043-wangyan:p005:m0021"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-wangyan:p005:m0069",
+          "mention_ids": [
+            "c-jinshu-043-wangyan:p005:m0069"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-wangyan",
+      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-043-wangyan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "source": {
+        "title": "《晉書》卷四十三從弟王衍完整敘事單元（含子玄附敘）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-21",
+        "extent": "從弟衍節十個完整原段，含子玄末段；止衍弟澄節之前，不含王澄與全卷史評。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin043-wangyan-daughter-father-yan",
+      "predicate": "father",
+      "subject_person_id": "ehx_cqg_nfx_BAC",
+      "object_person_id": "ehx_cqg_nfx_BA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女為湣懷太子妃",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p005",
+          "quote": "後曆北軍中候、中領軍、尚書令。女為湣懷太子妃，太子為賈后所誣，衍懼禍，自表離婚。賈后既廢，有司奏衍，曰：「衍與司徒梁王肜書，寫呈皇太子手與妃及衍書，陳見誣見狀。肜等伏讀，辭旨懇惻。衍備位大臣，應以議責也。太子被誣得罪，衍不能守死善道，即求離婚。得太子手書，隱蔽不出。志在苟免，無忠蹇之操。宜加顯責，以厲臣節。可禁錮終身。」從之。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p005:m0015",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p005:m0031"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "未名女→衍 father，正文女承衍；不補郭氏為母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "daughter-father-yan"
+      }
+    },
+    {
+      "id": "a-jin043-wangyan-daughter-prince-marriage",
+      "predicate": "spouse",
+      "subject_person_id": "ehx_cqg_nfx_BAC",
+      "object_person_id": "74e_68c_9ae",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女為湣懷太子妃",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p005",
+          "quote": "後曆北軍中候、中領軍、尚書令。女為湣懷太子妃，太子為賈后所誣，衍懼禍，自表離婚。賈后既廢，有司奏衍，曰：「衍與司徒梁王肜書，寫呈皇太子手與妃及衍書，陳見誣見狀。肜等伏讀，辭旨懇惻。衍備位大臣，應以議責也。太子被誣得罪，衍不能守死善道，即求離婚。得太子手書，隱蔽不出。志在苟免，無忠蹇之操。宜加顯責，以厲臣節。可禁錮終身。」從之。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p005:m0015",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p005:m0017"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "女與遹配偶；自表離婚是請求，不自動標已完成離婚。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "daughter-prince-marriage"
+      }
+    }
+  ],
+  "related_people": {
+    "74e_68c_9ae": "愍懷太子（王浚/孫慮害者）",
+    "ehx_cqg_nfx_BA": "王衍",
+    "ehx_cqg_nfx_BAC": "王衍女〔湣懷太子妃，未名〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "ehx_cqg_nfx_BAC"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin043-wangyan-daughter-father-yan",
+      "predicate": "father",
+      "subject_person_id": "ehx_cqg_nfx_BAC",
+      "object_person_id": "ehx_cqg_nfx_BA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女為湣懷太子妃",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p005",
+          "quote": "後曆北軍中候、中領軍、尚書令。女為湣懷太子妃，太子為賈后所誣，衍懼禍，自表離婚。賈后既廢，有司奏衍，曰：「衍與司徒梁王肜書，寫呈皇太子手與妃及衍書，陳見誣見狀。肜等伏讀，辭旨懇惻。衍備位大臣，應以議責也。太子被誣得罪，衍不能守死善道，即求離婚。得太子手書，隱蔽不出。志在苟免，無忠蹇之操。宜加顯責，以厲臣節。可禁錮終身。」從之。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p005:m0015",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p005:m0031"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "未名女→衍 father，正文女承衍；不補郭氏為母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "daughter-father-yan"
+      }
+    },
+    {
+      "id": "a-jin043-wangyan-daughter-prince-marriage",
+      "predicate": "spouse",
+      "subject_person_id": "ehx_cqg_nfx_BAC",
+      "object_person_id": "74e_68c_9ae",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女為湣懷太子妃",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p005",
+          "quote": "後曆北軍中候、中領軍、尚書令。女為湣懷太子妃，太子為賈后所誣，衍懼禍，自表離婚。賈后既廢，有司奏衍，曰：「衍與司徒梁王肜書，寫呈皇太子手與妃及衍書，陳見誣見狀。肜等伏讀，辭旨懇惻。衍備位大臣，應以議責也。太子被誣得罪，衍不能守死善道，即求離婚。得太子手書，隱蔽不出。志在苟免，無忠蹇之操。宜加顯責，以厲臣節。可禁錮終身。」從之。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p005:m0015",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p005:m0017"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "女與遹配偶；自表離婚是請求，不自動標已完成離婚。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "daughter-prince-marriage"
+      }
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "ehx_cqg_nfx_BAC",
+    "source_person_ids": [
+      "ehx_cqg_nfx_BAC"
+    ],
+    "representative_source_person_id": "ehx_cqg_nfx_BAC",
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "ehx_cqg_nfx_BA",
+    "source_assertion_id": "a-jin043-wangyan-daughter-father-yan",
+    "assembly_id": "family-langye-wang-xiong-core",
+    "root_person_id": "ehx_cqg_nfx",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

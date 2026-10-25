@@ -8,7 +8,66 @@
   "names": [
     "李陽"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin043-wangyan-career_09",
+      "person_id": "pfd_g6t_zy5",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "paragraph_id": "c-jinshu-043-wangyan:p004",
+          "quote": "衍妻郭氏，賈后之親，藉中宮之勢，剛愎貪戾，聚斂無厭，好干預人事，衍患之而不能禁。時有鄉人幽州刺史李陽，京師大俠也，郭氏素憚也。衍謂郭曰：「非但我言卿不可，李陽亦謂不可。」郭氏為之小損。衍疾郭之貪鄙，故口未嘗言錢。郭欲試之，令婢以錢繞床，使不得行。衍晨起見錢，謂婢曰：「舉阿堵物卻！」其措意如此。",
+          "person_mention_id": "c-jinshu-043-wangyan:p004:m0048"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "李陽職，非王雄/乂；勿按同州官合人。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "career_09"
+      },
+      "title": "幽州刺史",
+      "kind": "office",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "career_09"
+      },
+      "attestations": [
+        {
+          "id": "th-jin043-wangyan-career_09:a001",
+          "paragraph_id": "c-jinshu-043-wangyan:p004",
+          "start": 44,
+          "end": 48,
+          "surface": "幽州刺史",
+          "person_mention_id": "c-jinshu-043-wangyan:p004:m0048",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -82,7 +141,9 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
-        }
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
       }
     }
   ],

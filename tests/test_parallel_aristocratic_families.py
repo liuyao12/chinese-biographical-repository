@@ -44,7 +44,7 @@ class ParallelAristocraticFamilies(unittest.TestCase):
     def test_cross_packet_identifications_are_one_identity_with_all_passages(self):
         ds=read('corpus/jinshu/079-parallel-family-identities.json')['decisions']
         self.assertEqual(len(ds),3)
-        for label,pid in [('庾冰','4qr_wrk_3vd_D'),('王戎','48e_04a_3d8'),('郗超','57b_1cb_a1b')]:
+        for label,pid in [('庾冰','4qr_wrk_3vd_D'),('王戎',next(m['person_id'] for q in read('corpus/jinshu/043-wangrong.json')['paragraphs'] for m in q['mentions'] if m['id']=='c-jinshu-043-wangrong:p001:m0000')),('郗超','57b_1cb_a1b')]:
             self.assertEqual([p['id'] for p in self.people.values() if p['label']==label],[pid])
             d=next(d for d in ds if d['person_id']==pid)
             self.assertGreaterEqual(len(d['chapter_ids']),2)
