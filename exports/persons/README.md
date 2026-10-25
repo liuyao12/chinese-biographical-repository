@@ -614,6 +614,43 @@
 
 </details>
 
+<details><summary><code>4ni_4t1_4o9</code> 茂〔裴秀祖〕（30 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 茂〔裴秀祖〕 | [《晉書・裴秀傳》][32]、[《三國志・《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）》][101] | [JSON](4ni_4t1_4o9.json) |
+| `A` | 裴潛 | [《三國志・《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）》][101] | [JSON](4ni_4t1_4o9_A.json) |
+| `A*A` | 邈〔八裴之一〕 | [《三國志・《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）》][101] | [JSON](4ni_4t1_4o9_A%2AA.json) |
+| `AA` | 裴秀 | [《晉書・裴秀傳》][32] | [JSON](4ni_4t1_4o9_AA.json) |
+| `AAA` | 浚〔裴秀子、頠兄〕 | [《晉書・裴秀傳》][32] | [JSON](4ni_4t1_4o9_AAA.json) |
+| `AAAA` | 憬〔浚庶子、頠兄子〕 | [《晉書・裴頠傳》][31] | [JSON](4ni_4t1_4o9_AAAA.json) |
+| `AAB` | 裴頠 | [《晉書・裴頠傳》][31] | [JSON](4ni_4t1_4o9_AAB.json) |
+| `AABA` | 嵩〔裴頠子〕 | [《三國志・《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）》][101] | [JSON](4ni_4t1_4o9_AABA.json) |
+| `AABB` | 該〔裴頠次子〕 | [《晉書・裴頠傳》][31] | [JSON](4ni_4t1_4o9_AABB.json) |
+| `B` | 裴徽 | [《晉書・裴楷及附傳近系》][30]、[《三國志・《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）》][101] | [JSON](4ni_4t1_4o9_B.json) |
+| `BA` | 黎〔康兄〕 | [《三國志・《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）》][101] | [JSON](4ni_4t1_4o9_BA.json) |
+| `BAA` | 苞〔黎子，秦州刺史〕 | [《三國志・《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）》][101] | [JSON](4ni_4t1_4o9_BAA.json) |
+| `BB` | 康〔晉太子左率，子野遠祖〕 | [《三國志・《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）》][101] | [JSON](4ni_4t1_4o9_BB.json) |
+| `BBA` | 純〔康子，黃門侍郎〕 | [《三國志・《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）》][101] | [JSON](4ni_4t1_4o9_BBA.json) |
+| `BBB` | 盾〔康子〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BBB.json) |
+| `BBBA` | 盾女〔固妻〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BBBA.json) |
+| `BBC` | 邵〔盾弟，字道期〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BBC.json) |
+| `BBD` | 廓〔康子，中壘將軍〕 | [《三國志・《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）》][101] | [JSON](4ni_4t1_4o9_BBD.json) |
+| `BBE` | 盾妹〔越妻〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BBE.json) |
+| `BC` | 裴楷 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BC.json) |
+| `BCA` | 輿〔楷長子，字祖明〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BCA.json) |
+| `BCB` | 瓚〔楷子，字國寶〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BCB.json) |
+| `BCC` | 裴憲 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BCC.json) |
+| `BCCA` | 挹〔憲子〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BCCA.json) |
+| `BCCB` | 㲄〔憲子，原字不改〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BCCB.json) |
+| `BCD` | 禮〔楷子〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BCD.json) |
+| `BCE` | 遜〔楷子〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BCE.json) |
+| `BCF` | 楷女〔適衛瓘子〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BCF.json) |
+| `BD` | 綽〔康弟，楷弟〕 | [《三國志・《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）》][101] | [JSON](4ni_4t1_4o9_BD.json) |
+| `BDA` | 遐〔綽子〕 | [《晉書・裴楷及附傳近系》][30] | [JSON](4ni_4t1_4o9_BDA.json) |
+
+</details>
+
 <details><summary><code>4qr_wrk_3vd</code> 庾琛（32 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -894,6 +931,23 @@
 | `AAADAAA` | 晉悼公 | [《史記・晉世家》][128] | [JSON](6di_ywz_ju4_AAADAAA.json) |
 | `AAB` | 申生 | [《史記・晉世家》][128] | [JSON](6di_ywz_ju4_AAB.json) |
 | `AAC` | 奚齊 | [《史記・晉世家》][128] | [JSON](6di_ywz_ju4_AAC.json) |
+
+</details>
+
+<details><summary><code>6dl_14m_2dj</code> 襃〔曹仁祖〕（10 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 襃〔曹仁祖〕 | [《三國志・曹仁本傳及曹純附傳》][89] | [JSON](6dl_14m_2dj.json) |
+| `A` | 熾〔曹仁父〕 | [《三國志・曹仁本傳及曹純附傳》][89] | [JSON](6dl_14m_2dj_A.json) |
+| `AA` | 曹仁（子孝） | [《三國志・曹仁本傳及曹純附傳》][89] | [JSON](6dl_14m_2dj_AA.json) |
+| `AAA` | 泰〔曹仁子〕 | [《三國志・曹仁本傳及曹純附傳》][89] | [JSON](6dl_14m_2dj_AAA.json) |
+| `AAAA` | 初〔泰子〕 | [《三國志・曹仁本傳及曹純附傳》][89] | [JSON](6dl_14m_2dj_AAAA.json) |
+| `AAB` | 楷〔泰弟〕 | [《三國志・曹仁本傳及曹純附傳》][89] | [JSON](6dl_14m_2dj_AAB.json) |
+| `AAC` | 範〔泰弟〕 | [《三國志・曹仁本傳及曹純附傳》][89] | [JSON](6dl_14m_2dj_AAC.json) |
+| `AB` | 純〔曹仁弟〕 | [《三國志・曹仁本傳及曹純附傳》][89] | [JSON](6dl_14m_2dj_AB.json) |
+| `ABA` | 演〔純子〕 | [《三國志・曹仁本傳及曹純附傳》][89] | [JSON](6dl_14m_2dj_ABA.json) |
+| `ABAA` | 亮〔演子〕 | [《三國志・曹仁本傳及曹純附傳》][89] | [JSON](6dl_14m_2dj_ABAA.json) |
 
 </details>
 
@@ -3888,88 +3942,6 @@
 
 </details>
 
-<details><summary><code>yaj_2vc_98w</code> 吳廣（趙世家娃嬴父候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 吳廣 | [《史記・趙世家》][132]、[《史記・六國年表》][260] | [JSON](yaj_2vc_98w.json) |
-| `A` | 娃嬴 | [《史記・趙世家》][132] | [JSON](yaj_2vc_98w_A.json) |
-
-</details>
-
-<details><summary><code>yay_w6f_lis</code> 渾邪（公孫賀父）（衛將軍驃騎列傳候選）（3 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 渾邪（公孫賀父） | [《史記・衛將軍驃騎列傳》][200] | [JSON](yay_w6f_lis.json) |
-| `A` | 公孫賀 | [《史記・衛將軍驃騎列傳》][200] | [JSON](yay_w6f_lis_A.json) |
-| `AA` | 敬聲（公孫賀子） | [《史記・衛將軍驃騎列傳》][200] | [JSON](yay_w6f_lis_AA.json) |
-
-</details>
-
-<details><summary><code>yd9_rqt_a0v</code> 崔悅（8 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 崔悅 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][246] | [JSON](yd9_rqt_a0v.json) |
-| `A` | 潛〔玄伯父〕 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][246] | [JSON](yd9_rqt_a0v_A.json) |
-| `AA` | 崔宏 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][246] | [JSON](yd9_rqt_a0v_AA.json) |
-| `AAA` | 簡〔玄伯次子，一名覽〕 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][246] | [JSON](yd9_rqt_a0v_AAA.json) |
-| `AAB` | 崔浩 | [《魏書（魏收）・卷三十五：崔浩完整本傳、史臣論及清考證》][247] | [JSON](yd9_rqt_a0v_AAB.json) |
-| `AABA` | 崔浩女〔盧遐妻，未名〕 | [《魏書（魏收）・卷三十八：王慧龍及寶興、瓊、遵業、松年完整附敘與共評》][248] | [JSON](yd9_rqt_a0v_AABA.json) |
-| `AAC` | 崔恬 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][246] | [JSON](yd9_rqt_a0v_AAC.json) |
-| `AACA` | 崔恬女〔王慧龍妻，未名〕 | [《魏書（魏收）・卷三十八：王慧龍及寶興、瓊、遵業、松年完整附敘與共評》][248] | [JSON](yd9_rqt_a0v_AACA.json) |
-
-</details>
-
-<details><summary><code>yhm_h9f_8p0</code> 范蠡（越世家候選）（4 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 范蠡 | [《史記・越王勾踐世家》][130] | [JSON](yhm_h9f_8p0.json) |
-| `A` | 朱公長男（越世家未名者） | [《史記・越王勾踐世家》][130] | [JSON](yhm_h9f_8p0_A.json) |
-| `B` | 朱公中男（越世家未名者） | [《史記・越王勾踐世家》][130] | [JSON](yhm_h9f_8p0_B.json) |
-| `C` | 朱公少子（越世家未名者） | [《史記・越王勾踐世家》][130] | [JSON](yhm_h9f_8p0_C.json) |
-
-</details>
-
-<details><summary><code>yht_8tu_hv4</code> 齊景公（田世家候選）（4 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 齊景公 | [《史記・田敬仲完世家》][135] | [JSON](yht_8tu_hv4.json) |
-| `A` | 荼 | [《史記・田敬仲完世家》][135] | [JSON](yht_8tu_hv4_A.json) |
-| `B` | 陽生 | [《史記・田敬仲完世家》][135] | [JSON](yht_8tu_hv4_B.json) |
-| `BA` | 壬 | [《史記・田敬仲完世家》][135] | [JSON](yht_8tu_hv4_BA.json) |
-
-</details>
-
-<details><summary><code>ylb_ttg_8dr</code> 百里傒（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 百里傒 | [《史記・秦本紀》][112] | [JSON](ylb_ttg_8dr.json) |
-| `A` | 孟明視 | [《史記・秦本紀》][112] | [JSON](ylb_ttg_8dr_A.json) |
-
-</details>
-
-<details><summary><code>ymr_gcs_kii</code> 熊嚴（楚君）（10 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 熊嚴（楚君） | [《史記・楚世家》][129] | [JSON](ymr_gcs_kii.json) |
-| `A` | 伯霜（熊霜） | [《史記・楚世家》][129] | [JSON](ymr_gcs_kii_A.json) |
-| `B` | 仲雪（熊嚴子） | [《史記・楚世家》][129] | [JSON](ymr_gcs_kii_B.json) |
-| `C` | 叔堪（熊嚴子） | [《史記・楚世家》][129] | [JSON](ymr_gcs_kii_C.json) |
-| `D` | 季徇（熊徇） | [《史記・楚世家》][129] | [JSON](ymr_gcs_kii_D.json) |
-| `DA` | 熊咢（楚君） | [《史記・楚世家》][129] | [JSON](ymr_gcs_kii_DA.json) |
-| `DAA` | 熊儀（若敖） | [《史記・楚世家》][129] | [JSON](ymr_gcs_kii_DAA.json) |
-| `DAAA` | 熊坎（霄敖） | [《史記・楚世家》][129] | [JSON](ymr_gcs_kii_DAAA.json) |
-| `DAAAA` | 熊眴（蚡冒） | [《史記・楚世家》][129] | [JSON](ymr_gcs_kii_DAAAA.json) |
-| `DAAAAA` | 蚡冒子（熊通所弒未名者） | [《史記・楚世家》][129] | [JSON](ymr_gcs_kii_DAAAAA.json) |
-
-</details>
-
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
 [3]: http://csid.zju.edu.cn/tomb/stone/detail?id=40288b955bd07752015bfb74a80002de
 [7]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_007.txt
@@ -3991,6 +3963,8 @@
 [28]: https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662
 [29]: https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662
 [30]: https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399
+[31]: https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399
+[32]: https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399
 [33]: https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7037&oldid=2630018
 [34]: https://zh.wikisource.org/w/index.php?oldid=2444513
 [35]: https://zh.wikisource.org/w/index.php?title=晉書/卷039&oldid=2108782
@@ -4040,6 +4014,7 @@
 [86]: https://github.com/kanripo/KR2a0024/blob/3c7bdbb072bf8e1eb70d134a94570c4b8de058ea/KR2a0024_022.txt
 [87]: https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B724&oldid=1765279
 [88]: https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233
+[89]: https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt
 [90]: https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt
 [91]: https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt
 [92]: https://da.library.pref.osaka.jp/api/items/01-0015983/manifest.json
@@ -4050,6 +4025,7 @@
 [98]: https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_019.txt
 [99]: https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt
 [100]: https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt
+[101]: https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt
 [103]: https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_024.txt
 [104]: https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_025.txt
 [105]: https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt

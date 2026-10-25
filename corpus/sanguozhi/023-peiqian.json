@@ -38,7 +38,121 @@
     "fixed_kanripo_fact_slots_ref": {
       "kind": "fixed_kanripo_person_fact_slots",
       "key": "sgz023-peiqian-family-qian-finite"
-    }
+    },
+    "age_assertions": [
+      {
+        "id": "age-sgz023-peiqian-phaseb-009",
+        "person_id": "4ni_4t1_4o9_AA",
+        "value": 8,
+        "source_number": "八",
+        "source_term": "八歲",
+        "counting": "unspecified_source_age",
+        "unit": "source_age_years",
+        "birth_year": null,
+        "date_expression": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-023",
+            "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+            "chapter_id": "c-sanguozhi-023-peiqian",
+            "paragraph_id": "c-sanguozhi-023-peiqian:p006",
+            "quote": "文章敘錄曰秀字季彦弘通博濟八歲能屬文遂知名大將軍曹爽辟喪父服終推財與兄弟年二十五遷黄門侍郎爽誅以故吏免遷衛國相累遷散騎常侍尚書僕射令光祿大夫咸熙中晉文王始建五等命秀典為制度封廣川侯晉室受禪進左光祿大夫改封鉅鹿公遷司空著易及樂論又畫地域圖十八篇傳行于世盟㑹圖及典治官制皆未成年四十八秦始七年薨諡元公配食宗廟少子頠字逸民襲封",
+            "person_mention_id": "c-sanguozhi-023-peiqian:p006:m0005"
+          }
+        ],
+        "age_context": {
+          "kind": "during_life"
+        },
+        "source_event_scope": "able_to_compose_text",
+        "source_holding_id": null,
+        "fixed_source_fact_binding": {
+          "kind": "fixed_kanripo_person_fact_slots",
+          "key": "sgz023-peiqian-family-qian-finite",
+          "slot": "phaseb-009"
+        },
+        "interpretation_note": "只原報齡與相應事件；未定計歲、不反推生年、不把八歲附受辟。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-sgz023-peiqian-phaseb-012",
+        "person_id": "4ni_4t1_4o9_AA",
+        "value": 25,
+        "source_number": "二十五",
+        "source_term": "年二十五",
+        "counting": "unspecified_source_age",
+        "unit": "source_age_years",
+        "birth_year": null,
+        "date_expression": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-023",
+            "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+            "chapter_id": "c-sanguozhi-023-peiqian",
+            "paragraph_id": "c-sanguozhi-023-peiqian:p006",
+            "quote": "文章敘錄曰秀字季彦弘通博濟八歲能屬文遂知名大將軍曹爽辟喪父服終推財與兄弟年二十五遷黄門侍郎爽誅以故吏免遷衛國相累遷散騎常侍尚書僕射令光祿大夫咸熙中晉文王始建五等命秀典為制度封廣川侯晉室受禪進左光祿大夫改封鉅鹿公遷司空著易及樂論又畫地域圖十八篇傳行于世盟㑹圖及典治官制皆未成年四十八秦始七年薨諡元公配食宗廟少子頠字逸民襲封",
+            "person_mention_id": "c-sanguozhi-023-peiqian:p006:m0005"
+          }
+        ],
+        "age_context": {
+          "kind": "during_life"
+        },
+        "source_event_scope": "transferred_to_huangmen_shilang",
+        "source_holding_id": "th-sgz023-peiqian-phaseb-013",
+        "fixed_source_fact_binding": {
+          "kind": "fixed_kanripo_person_fact_slots",
+          "key": "sgz023-peiqian-family-qian-finite",
+          "slot": "phaseb-012"
+        },
+        "interpretation_note": "只原報齡與相應事件；未定計歲、不反推生年、不把八歲附受辟。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-sgz023-peiqian-phaseb-025",
+        "person_id": "4ni_4t1_4o9_AA",
+        "value": 48,
+        "source_number": "四十八",
+        "source_term": "年四十八",
+        "counting": "unspecified_source_age",
+        "unit": "source_age_years",
+        "birth_year": null,
+        "date_expression": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-023",
+            "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+            "chapter_id": "c-sanguozhi-023-peiqian",
+            "paragraph_id": "c-sanguozhi-023-peiqian:p006",
+            "quote": "文章敘錄曰秀字季彦弘通博濟八歲能屬文遂知名大將軍曹爽辟喪父服終推財與兄弟年二十五遷黄門侍郎爽誅以故吏免遷衛國相累遷散騎常侍尚書僕射令光祿大夫咸熙中晉文王始建五等命秀典為制度封廣川侯晉室受禪進左光祿大夫改封鉅鹿公遷司空著易及樂論又畫地域圖十八篇傳行于世盟㑹圖及典治官制皆未成年四十八秦始七年薨諡元公配食宗廟少子頠字逸民襲封",
+            "person_mention_id": "c-sanguozhi-023-peiqian:p006:m0005"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-sgz023-peiqian-phaseb-death-xiu"
+        },
+        "source_event_scope": "died",
+        "source_holding_id": null,
+        "fixed_source_fact_binding": {
+          "kind": "fixed_kanripo_person_fact_slots",
+          "key": "sgz023-peiqian-family-qian-finite",
+          "slot": "phaseb-025"
+        },
+        "interpretation_note": "只原報齡與相應事件；未定計歲、不反推生年、不把八歲附受辟。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
   },
   "paragraphs": [
     {
@@ -53,7 +167,7 @@
           "end": 2,
           "surface": "裴潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -63,7 +177,7 @@
           "end": 5,
           "surface": "文行",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         }
@@ -98,7 +212,7 @@
           "end": 4,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -138,7 +252,7 @@
           "end": 42,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         }
@@ -173,7 +287,7 @@
           "end": 11,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -233,7 +347,7 @@
           "end": 51,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -253,7 +367,7 @@
           "end": 70,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -263,7 +377,7 @@
           "end": 72,
           "surface": "卿",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "曹操問潛引語；卿指潛、備承前劉備，非字串全庫規則"
         },
@@ -283,7 +397,7 @@
           "end": 81,
           "surface": "卿",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "曹操問潛引語；卿指潛、備承前劉備，非字串全庫規則"
         },
@@ -303,7 +417,7 @@
           "end": 88,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -313,7 +427,7 @@
           "end": 120,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -343,7 +457,7 @@
           "end": 156,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -353,7 +467,7 @@
           "end": 163,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -363,7 +477,7 @@
           "end": 230,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -373,7 +487,7 @@
           "end": 255,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -413,7 +527,7 @@
           "end": 304,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -423,7 +537,7 @@
           "end": 306,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -433,7 +547,7 @@
           "end": 322,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -453,7 +567,7 @@
           "end": 370,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -483,7 +597,7 @@
           "end": 396,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -548,7 +662,7 @@
           "end": 16,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -568,7 +682,7 @@
           "end": 64,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -598,7 +712,7 @@
           "end": 135,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         }
@@ -623,7 +737,7 @@
           "end": 2,
           "surface": "秀",
           "kind": "person",
-          "person_id": "057_a27_29b",
+          "person_id": "4ni_4t1_4o9_AA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -633,7 +747,7 @@
           "end": 24,
           "surface": "秀",
           "kind": "person",
-          "person_id": "057_a27_29b",
+          "person_id": "4ni_4t1_4o9_AA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         }
@@ -668,7 +782,7 @@
           "end": 6,
           "surface": "秀",
           "kind": "person",
-          "person_id": "057_a27_29b",
+          "person_id": "4ni_4t1_4o9_AA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -678,7 +792,7 @@
           "end": 9,
           "surface": "季彦",
           "kind": "person",
-          "person_id": "057_a27_29b",
+          "person_id": "4ni_4t1_4o9_AA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -718,7 +832,7 @@
           "end": 82,
           "surface": "秀",
           "kind": "person",
-          "person_id": "057_a27_29b",
+          "person_id": "4ni_4t1_4o9_AA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -768,7 +882,7 @@
           "end": 155,
           "surface": "頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "4ni_4t1_4o9_AAB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -778,7 +892,7 @@
           "end": 158,
           "surface": "逸民",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "4ni_4t1_4o9_AAB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         }
@@ -823,7 +937,7 @@
           "end": 7,
           "surface": "頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "4ni_4t1_4o9_AAB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -898,7 +1012,7 @@
           "end": 13,
           "surface": "頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "4ni_4t1_4o9_AAB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         }
@@ -923,7 +1037,7 @@
           "end": 1,
           "surface": "頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "4ni_4t1_4o9_AAB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -953,7 +1067,7 @@
           "end": 32,
           "surface": "嵩",
           "kind": "person",
-          "person_id": "js2_y2t_fkw",
+          "person_id": "4ni_4t1_4o9_AABA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -963,7 +1077,7 @@
           "end": 35,
           "surface": "道文",
           "kind": "person",
-          "person_id": "js2_y2t_fkw",
+          "person_id": "4ni_4t1_4o9_AABA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -983,7 +1097,7 @@
           "end": 39,
           "surface": "嵩",
           "kind": "person",
-          "person_id": "js2_y2t_fkw",
+          "person_id": "4ni_4t1_4o9_AABA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -993,7 +1107,7 @@
           "end": 50,
           "surface": "頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "4ni_4t1_4o9_AAB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1003,7 +1117,7 @@
           "end": 54,
           "surface": "邈",
           "kind": "person",
-          "person_id": "sra_yp5_n8o",
+          "person_id": "4ni_4t1_4o9_A*A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1013,7 +1127,7 @@
           "end": 57,
           "surface": "景聲",
           "kind": "person",
-          "person_id": "sra_yp5_n8o",
+          "person_id": "4ni_4t1_4o9_A*A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1048,7 +1162,7 @@
           "end": 1,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1058,7 +1172,7 @@
           "end": 4,
           "surface": "徽",
           "kind": "person",
-          "person_id": "nx3_l5c_jlj",
+          "person_id": "4ni_4t1_4o9_B",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1068,7 +1182,7 @@
           "end": 7,
           "surface": "文季",
           "kind": "person",
-          "person_id": "nx3_l5c_jlj",
+          "person_id": "4ni_4t1_4o9_B",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1088,7 +1202,7 @@
           "end": 33,
           "surface": "徽",
           "kind": "person",
-          "person_id": "nx3_l5c_jlj",
+          "person_id": "4ni_4t1_4o9_B",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1098,7 +1212,7 @@
           "end": 36,
           "surface": "黎",
           "kind": "person",
-          "person_id": "2vl_svq_ynl",
+          "person_id": "4ni_4t1_4o9_BA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1108,7 +1222,7 @@
           "end": 39,
           "surface": "伯宗",
           "kind": "person",
-          "person_id": "2vl_svq_ynl",
+          "person_id": "4ni_4t1_4o9_BA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1118,7 +1232,7 @@
           "end": 42,
           "surface": "演",
           "kind": "person",
-          "person_id": "2vl_svq_ynl",
+          "person_id": "4ni_4t1_4o9_BA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1128,7 +1242,7 @@
           "end": 48,
           "surface": "康",
           "kind": "person",
-          "person_id": "y8f_xr3_osd",
+          "person_id": "4ni_4t1_4o9_BB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1138,7 +1252,7 @@
           "end": 51,
           "surface": "仲豫",
           "kind": "person",
-          "person_id": "y8f_xr3_osd",
+          "person_id": "4ni_4t1_4o9_BB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1148,7 +1262,7 @@
           "end": 58,
           "surface": "楷",
           "kind": "person",
-          "person_id": "530_f9d_4bd",
+          "person_id": "4ni_4t1_4o9_BC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1158,7 +1272,7 @@
           "end": 61,
           "surface": "叔則",
           "kind": "person",
-          "person_id": "530_f9d_4bd",
+          "person_id": "4ni_4t1_4o9_BC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1168,7 +1282,7 @@
           "end": 74,
           "surface": "綽",
           "kind": "person",
-          "person_id": "2xw_y7a_0ek",
+          "person_id": "4ni_4t1_4o9_BD",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1178,7 +1292,7 @@
           "end": 77,
           "surface": "季舒",
           "kind": "person",
-          "person_id": "2xw_y7a_0ek",
+          "person_id": "4ni_4t1_4o9_BD",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1188,7 +1302,7 @@
           "end": 90,
           "surface": "康",
           "kind": "person",
-          "person_id": "y8f_xr3_osd",
+          "person_id": "4ni_4t1_4o9_BB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1198,7 +1312,7 @@
           "end": 91,
           "surface": "楷",
           "kind": "person",
-          "person_id": "530_f9d_4bd",
+          "person_id": "4ni_4t1_4o9_BC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1208,7 +1322,7 @@
           "end": 92,
           "surface": "綽",
           "kind": "person",
-          "person_id": "2xw_y7a_0ek",
+          "person_id": "4ni_4t1_4o9_BD",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1218,7 +1332,7 @@
           "end": 98,
           "surface": "楷",
           "kind": "person",
-          "person_id": "530_f9d_4bd",
+          "person_id": "4ni_4t1_4o9_BC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         }
@@ -1253,7 +1367,7 @@
           "end": 6,
           "surface": "康",
           "kind": "person",
-          "person_id": "y8f_xr3_osd",
+          "person_id": "4ni_4t1_4o9_BB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1263,7 +1377,7 @@
           "end": 10,
           "surface": "綽",
           "kind": "person",
-          "person_id": "2xw_y7a_0ek",
+          "person_id": "4ni_4t1_4o9_BD",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1273,7 +1387,7 @@
           "end": 16,
           "surface": "楷",
           "kind": "person",
-          "person_id": "530_f9d_4bd",
+          "person_id": "4ni_4t1_4o9_BC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1313,7 +1427,7 @@
           "end": 41,
           "surface": "裴楷",
           "kind": "person",
-          "person_id": "530_f9d_4bd",
+          "person_id": "4ni_4t1_4o9_BC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1378,7 +1492,7 @@
           "end": 8,
           "surface": "楷",
           "kind": "person",
-          "person_id": "530_f9d_4bd",
+          "person_id": "4ni_4t1_4o9_BC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         }
@@ -1403,7 +1517,7 @@
           "end": 1,
           "surface": "黎",
           "kind": "person",
-          "person_id": "2vl_svq_ynl",
+          "person_id": "4ni_4t1_4o9_BA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1413,7 +1527,7 @@
           "end": 3,
           "surface": "苞",
           "kind": "person",
-          "person_id": "lhx_9l6_27e",
+          "person_id": "4ni_4t1_4o9_BAA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1423,7 +1537,7 @@
           "end": 8,
           "surface": "康",
           "kind": "person",
-          "person_id": "y8f_xr3_osd",
+          "person_id": "4ni_4t1_4o9_BB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1433,7 +1547,7 @@
           "end": 10,
           "surface": "純",
           "kind": "person",
-          "person_id": "nkx_kjd_zue",
+          "person_id": "4ni_4t1_4o9_BBA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1443,7 +1557,7 @@
           "end": 16,
           "surface": "盾",
           "kind": "person",
-          "person_id": "gul_dv0_595",
+          "person_id": "4ni_4t1_4o9_BBB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1453,7 +1567,7 @@
           "end": 22,
           "surface": "郃",
           "kind": "person",
-          "person_id": "863_zcy_ahs",
+          "person_id": "4ni_4t1_4o9_BBC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1473,7 +1587,7 @@
           "end": 34,
           "surface": "郃",
           "kind": "person",
-          "person_id": "863_zcy_ahs",
+          "person_id": "4ni_4t1_4o9_BBC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1503,7 +1617,7 @@
           "end": 49,
           "surface": "裴郃",
           "kind": "person",
-          "person_id": "863_zcy_ahs",
+          "person_id": "4ni_4t1_4o9_BBC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         }
@@ -1528,7 +1642,7 @@
           "end": 2,
           "surface": "廓",
           "kind": "person",
-          "person_id": "hwh_nlw_vtx",
+          "person_id": "4ni_4t1_4o9_BBD",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1538,7 +1652,7 @@
           "end": 7,
           "surface": "楷",
           "kind": "person",
-          "person_id": "530_f9d_4bd",
+          "person_id": "4ni_4t1_4o9_BC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1548,7 +1662,7 @@
           "end": 9,
           "surface": "瓚",
           "kind": "person",
-          "person_id": "99p_632_txb",
+          "person_id": "4ni_4t1_4o9_BCB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1558,7 +1672,7 @@
           "end": 14,
           "surface": "憲",
           "kind": "person",
-          "person_id": "c6e_8f3_014",
+          "person_id": "4ni_4t1_4o9_BCC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1568,7 +1682,7 @@
           "end": 19,
           "surface": "綽",
           "kind": "person",
-          "person_id": "2xw_y7a_0ek",
+          "person_id": "4ni_4t1_4o9_BD",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1578,7 +1692,7 @@
           "end": 21,
           "surface": "遐",
           "kind": "person",
-          "person_id": "xyc_ae4_fbe",
+          "person_id": "4ni_4t1_4o9_BDA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1588,7 +1702,7 @@
           "end": 26,
           "surface": "瓚",
           "kind": "person",
-          "person_id": "99p_632_txb",
+          "person_id": "4ni_4t1_4o9_BCB",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1598,7 +1712,7 @@
           "end": 27,
           "surface": "遐",
           "kind": "person",
-          "person_id": "xyc_ae4_fbe",
+          "person_id": "4ni_4t1_4o9_BDA",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         },
@@ -1618,7 +1732,7 @@
           "end": 39,
           "surface": "憲",
           "kind": "person",
-          "person_id": "c6e_8f3_014",
+          "person_id": "4ni_4t1_4o9_BCC",
           "status": "contextual_provisional",
           "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
         }
@@ -1723,7 +1837,7 @@
           "end": 21,
           "surface": "裴潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
         },
@@ -1783,7 +1897,7 @@
           "end": 34,
           "surface": "潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "回前十人名單"
         },
@@ -3041,7 +3155,7 @@
           "end": 164,
           "surface": "裴",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "評裴潛"
         }
@@ -3116,7 +3230,7 @@
           "end": 34,
           "surface": "裴潛",
           "kind": "person",
-          "person_id": "c46_ile_6k8",
+          "person_id": "4ni_4t1_4o9_A",
           "status": "contextual_provisional",
           "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
         },

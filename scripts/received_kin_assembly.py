@@ -2,6 +2,11 @@
 No new source father assertions, family-name guesses or inferred generations.
 """
 def valid(member,rows,assertions,chapters,root):
+ if not isinstance(member,dict) or not isinstance(member.get('parent_connection'),dict):return False
+ if member.get('parent_connection',{}).get('interpretation_basis') in ('fixed_complete_witness_zu_fu_sequence','shared_father_with_estate'):
+  try:from .fixed_witness_assembly_roles import valid as fixed_assembly_valid
+  except ImportError:from fixed_witness_assembly_roles import valid as fixed_assembly_valid
+  return fixed_assembly_valid(member,rows,assertions,chapters,root)
  try:
   c=member['parent_connection'];basis=c['interpretation_basis'];assert c['status']=='contextual_provisional'and c['human_reviewed']is False and c['rationale']and member['source_assertion_id']is None
   try:from .received_quoted_family import valid as kin_valid

@@ -1,0 +1,74 @@
+{
+  "format_version": "0.1",
+  "bindings": {
+    "sgz009-zu-fu": {
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "recipe_key": "sgz009-caoren-caochun-finite",
+      "basis": "fixed_complete_witness_zu_fu_sequence",
+      "assertion_ids": [
+        "a-sgz009-cc-ren-father-chi",
+        "a-sgz009-cc-ren-grandfather-bao"
+      ],
+      "work_markers": [
+        {
+          "paragraph_index": 1,
+          "text_layer": "witness_appended_pei_songzhi_note",
+          "kind": "work",
+          "surface": "魏書",
+          "work_id": "w-weishu-wangshen",
+          "start": 0,
+          "end": 2
+        }
+      ]
+    },
+    "sgz009-shared-estate": {
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "recipe_key": "sgz009-caoren-caochun-finite",
+      "basis": "shared_father_with_estate",
+      "assertion_ids": [
+        "a-sgz009-cc-chun-same-mother-ren",
+        "a-sgz009-cc-ren-father-chi"
+      ],
+      "work_markers": [
+        {
+          "paragraph_index": 1,
+          "text_layer": "witness_appended_pei_songzhi_note",
+          "kind": "work",
+          "surface": "魏書",
+          "work_id": "w-weishu-wangshen",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "paragraph_index": 5,
+          "text_layer": "witness_appended_pei_songzhi_note",
+          "kind": "work",
+          "surface": "英雄記",
+          "work_id": "w-hanmo-yingxiongji",
+          "start": 0,
+          "end": 3
+        }
+      ],
+      "estate_frame": {
+        "paragraph_index": 5,
+        "literal_spans": [
+          {
+            "start": 12,
+            "end": 14,
+            "surface": "喪父"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "surface": "同産兄"
+          },
+          {
+            "start": 19,
+            "end": 24,
+            "surface": "别居承父業"
+          }
+        ]
+      }
+    }
+  }
+}

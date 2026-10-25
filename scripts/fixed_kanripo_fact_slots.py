@@ -139,7 +139,9 @@ def noble_replacement_valid(h,holdings,paragraphs,mentions,chapters,root):
   assert h['kind']==previous['kind']=='noble_rank'and h['person_id']==previous['person_id']and not previous['mode'].startswith('posthumous')
   assert b['kind']=='fixed_source_noble_replacement'and b['previous_title_status']=='source_context'and b['status']=='contextual_provisional'and b['human_reviewed']is False
   status=link['interpretation_status'];assert b['interpretation_status']==status
-  prefix='轉封'if status=='explicit_source_transfer'else'進封';assert status in('explicit_source_transfer','contextual_source_rank_progression')
+  assert status in('explicit_source_transfer','contextual_source_rank_progression')
+  term=link['source_term'];title=h['title'];assert isinstance(term,str)and isinstance(title,str)and title and term.endswith(title)
+  prefix=term[:-len(title)];assert prefix in (('轉封','改封')if status=='explicit_source_transfer'else('進封',))
   assert h['mode']==('transfer'if status=='explicit_source_transfer'else'grant')and b['source_term']==link['source_term']==prefix+h['title']
   a=h['attestations'][0];p,=[p for p in ch['paragraphs']if p['id']==a['paragraph_id']];assert p['text'][a['start']-len(prefix):a['end']]==b['source_term']
   actor,=[m for m in p['mentions']if m['id']==b['actor_mention_id']];assert actor['person_id']==h['person_id']

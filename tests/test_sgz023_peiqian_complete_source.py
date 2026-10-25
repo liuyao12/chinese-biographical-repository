@@ -44,7 +44,7 @@ class PeiqianSource(unittest.TestCase):
    if m['surface']=='先賢傳':self.assertEqual(self.works[m['work_id']]['citation_title'],'汝南先賢傳')
  def test_xu_fu_not_qin_fangshi_and_retired_hui_not_revived(self):
   ms=[m for p in self.body['paragraphs']for m in p['mentions']];xs=[m['person_id']for m in ms if m['surface']=='徐福'];self.assertTrue(xs);self.assertNotIn('9nc_i02_15v',xs);self.assertNotIn('047_850_e7d',self.people)
-  hui=[m['person_id']for m in ms if m['surface']in['徽','文季']];self.assertEqual(set(hui),{'nx3_l5c_jlj'})
+  hui=[m['person_id']for m in ms if m['surface']in['徽','文季']];self.assertEqual(set(hui),{'4ni_4t1_4o9_B'})
  def test_two_xu_xu_and_qiao_xuan_are_not_collapsed_by_short_names(self):
   p=self.q['paragraphs'][0];xs=[m for m in p['mentions']if m['surface']=='許栩'];self.assertEqual(len(xs),2);self.assertNotEqual(xs[0]['person_id'],xs[1]['person_id']);end=p['text'].index('代玄為司徒');x=next(m for m in p['mentions']if m['start']==end-2);g=next(m for m in p['mentions']if m['start']==end+1);self.assertEqual(x['person_id'],xs[1]['person_id']);full=next(m for m in p['mentions']if m['surface']=='橋玄');self.assertEqual(g['person_id'],full['person_id'])
  def test_critical_xu_you_exclusion_preserves_two_people(self):
