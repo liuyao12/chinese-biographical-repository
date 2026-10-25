@@ -15,7 +15,9 @@
       "note": "傳首明記裴子野字幾原，姓與雙字名分存；不將八世祖康之兄弟誤作子野兄弟。",
       "status": "editorial_provisional",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "id": "name-liang030-ziye-full",
+      "person_mention_id": "c-liangshu-030-peiziye:p001:m0000"
     },
     {
       "id": "name-liang030-jian-literal",
@@ -31,6 +33,48 @@
       "status": "editorial_provisional",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "name-liang030-jian-contextual",
+      "person_id": "4ni_4t1_4o9_BB*AAAAAAA",
+      "surname": "裴",
+      "ming": "謇",
+      "additional_names": [],
+      "chapter_id": "c-liangshu-030-peiziye",
+      "paragraph_id": "c-liangshu-030-peiziye:p008",
+      "person_mention_id": "c-liangshu-030-peiziye:p008:m0103",
+      "quote": "子野少時，《集注喪服》、《續裴氏家傳》各二卷，抄合後漢事四十餘卷，又敕撰《衆僧傳》二十卷，《百官九品》二卷，《附益諡法》一卷，《方國使圖》一卷，文集二十卷，並行於世。又欲撰《齊梁春秋》，始草創，未就而卒。子謇，官至通直郎。",
+      "note": "同章原全文名裴子野與本傳末子謇之明父來源，一步讀裴謇；literal謇省姓null仍保，不改南史騫或選preferred_ming。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_same_source_father_chain",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同章原全文名裴子野與本傳末子謇之明父來源，一步讀裴謇；literal謇省姓null仍保，不改南史騫或選preferred_ming。",
+        "source_name_record_id": "name-liang030-ziye-full",
+        "source_full_quote": "裴子野字幾原，河東聞喜人，晉太子左率康八世孫。兄黎，弟楷、綽，並有盛名，所謂「四裴」也。曾祖松之，宋太中大夫。祖駰，南中郎外兵參軍。父昭明，通直散騎常侍。",
+        "steps": [
+          {
+            "assertion_id": "a-liang030-jian-father",
+            "from_person_id": "4ni_4t1_4o9_BB*AAAAAA",
+            "to_person_id": "4ni_4t1_4o9_BB*AAAAAAA",
+            "traversal": "father_to_child",
+            "source_term": "子謇",
+            "evidence": {
+              "work_id": "w-liangshu",
+              "book_id": "b-liangshu-030",
+              "source_id": "s-liang030-ws1508510",
+              "chapter_id": "c-liangshu-030-peiziye",
+              "paragraph_id": "c-liangshu-030-peiziye:p008",
+              "quote": "子野少時，《集注喪服》、《續裴氏家傳》各二卷，抄合後漢事四十餘卷，又敕撰《衆僧傳》二十卷，《百官九品》二卷，《附益諡法》一卷，《方國使圖》一卷，文集二十卷，並行於世。又欲撰《齊梁春秋》，始草創，未就而卒。子謇，官至通直郎。",
+              "subject_person_mention_id": "c-liangshu-030-peiziye:p008:m0103",
+              "object_person_mention_id": "c-liangshu-030-peiziye:p008:m0000"
+            }
+          }
+        ]
+      }
     }
   ]
 }
