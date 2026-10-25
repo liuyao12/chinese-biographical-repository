@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "id": "vpy_180_2oi",
-  "canonical_person_id": "vpy_180_2oi",
+  "id": "4ni_4t1_4o9_BB*A",
+  "canonical_person_id": "4ni_4t1_4o9_BB*A",
   "label": "昧〔裴松之祖〕",
   "identity_note": "祖昧只原文明名，與先秦昧、公孫昧及昧蔡不同語境，不同名合。",
   "review": "ai_provisional",
@@ -187,9 +187,9 @@
   "relations": [
     {
       "id": "a-nanshi033-songzhi-grandfather",
-      "subject_person_id": "vpy_180_2oi_AA",
+      "subject_person_id": "4ni_4t1_4o9_BB*AAA",
       "predicate": "grandfather",
-      "object_person_id": "vpy_180_2oi",
+      "object_person_id": "4ni_4t1_4o9_BB*A",
       "status": "source_attested",
       "evidence": [
         {
@@ -214,9 +214,9 @@
     },
     {
       "id": "a-song064-songzhi-grandfather",
-      "subject_person_id": "vpy_180_2oi_AA",
+      "subject_person_id": "4ni_4t1_4o9_BB*AAA",
       "predicate": "grandfather",
-      "object_person_id": "vpy_180_2oi",
+      "object_person_id": "4ni_4t1_4o9_BB*A",
       "status": "source_attested",
       "evidence": [
         {
@@ -241,20 +241,20 @@
     }
   ],
   "related_people": {
-    "vpy_180_2oi": "昧〔裴松之祖〕",
-    "vpy_180_2oi_AA": "裴松之"
+    "4ni_4t1_4o9_BB*A": "昧〔裴松之祖〕",
+    "4ni_4t1_4o9_BB*AAA": "裴松之"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "vpy_180_2oi"
+    "4ni_4t1_4o9_BB*A"
   ],
   "preferred_relations": [
     {
       "id": "a-nanshi033-songzhi-grandfather",
-      "subject_person_id": "vpy_180_2oi_AA",
+      "subject_person_id": "4ni_4t1_4o9_BB*AAA",
       "predicate": "grandfather",
-      "object_person_id": "vpy_180_2oi",
+      "object_person_id": "4ni_4t1_4o9_BB*A",
       "status": "source_attested",
       "evidence": [
         {
@@ -279,9 +279,9 @@
     },
     {
       "id": "a-song064-songzhi-grandfather",
-      "subject_person_id": "vpy_180_2oi_AA",
+      "subject_person_id": "4ni_4t1_4o9_BB*AAA",
       "predicate": "grandfather",
-      "object_person_id": "vpy_180_2oi",
+      "object_person_id": "4ni_4t1_4o9_BB*A",
       "status": "source_attested",
       "evidence": [
         {
@@ -306,32 +306,177 @@
     }
   ],
   "assembled_identity": {
-    "person_id": "vpy_180_2oi",
-    "representative_source_person_id": "vpy_180_2oi",
+    "person_id": "4ni_4t1_4o9_BB*A",
+    "representative_source_person_id": "4ni_4t1_4o9_BB*A",
     "source_person_ids": [
-      "vpy_180_2oi"
+      "4ni_4t1_4o9_BB*A"
     ],
     "identity_equivalence_decision_ids": [],
     "parent_person_id": null,
     "source_assertion_id": null,
-    "assembly_id": "family-hedong-pei-songzhi",
-    "root_person_id": "vpy_180_2oi",
+    "ancestor_person_id": "4ni_4t1_4o9_BB",
+    "connection": "grandfather",
+    "generation_distance": 2,
+    "intermediate_person_ids": [
+      null
+    ],
+    "interpretation_note": "子野至康首選父子距7、已知近鏈至昧距5，故昧至康缺父一代；保八邊替代，不造純或其他中間人。",
+    "ancestor_connection": {
+      "type": "ancestor_from_interpreted_generation_and_known_descendant_chain",
+      "interpretation_basis": "fixed_pei_kang_ziye_inclusive_eight_v1",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "rationale": "只就康八世孫此固定句作有資格七邊首選，減去已核近鏈五邊；末邊保既有珪與昧的連續祖先編輯資格。",
+      "generation_decision_ref": "source-evidence/pei-kang-generation-interpretation/decision.json",
+      "generation_decision_id": "decision-pei-kang-ziye-inclusive-eight",
+      "reported_descendant_person_id": "4ni_4t1_4o9_BB*AAAAAA",
+      "known_chain_person_ids": [
+        "4ni_4t1_4o9_BB*AAAAAA",
+        "4ni_4t1_4o9_BB*AAAAA",
+        "4ni_4t1_4o9_BB*AAAA",
+        "4ni_4t1_4o9_BB*AAA",
+        "4ni_4t1_4o9_BB*AA",
+        "4ni_4t1_4o9_BB*A"
+      ],
+      "steps": [
+        {
+          "kind": "source_assertion",
+          "assertion_id": "a-nanshi033-ziye-father"
+        },
+        {
+          "kind": "source_assertion",
+          "assertion_id": "a-nanshi033-zhaoming-father"
+        },
+        {
+          "kind": "source_assertion",
+          "assertion_id": "a-nanshi033-yin-father"
+        },
+        {
+          "kind": "source_assertion",
+          "assertion_id": "a-nanshi033-songzhi-father"
+        },
+        {
+          "kind": "editorial_parent_between_consecutive_ancestors",
+          "nearer_ancestor_assertion_id": "a-nanshi033-songzhi-father",
+          "farther_ancestor_assertion_id": "a-nanshi033-songzhi-grandfather"
+        }
+      ],
+      "references": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-030",
+          "chapter_id": "c-liangshu-030-peiziye",
+          "source_id": "s-liang030-ws1508510",
+          "paragraph_id": "c-liangshu-030-peiziye:p001",
+          "quote": "裴子野字幾原，河東聞喜人，晉太子左率康八世孫。兄黎，弟楷、綽，並有盛名，所謂「四裴」也。曾祖松之，宋太中大夫。祖駰，南中郎外兵參軍。父昭明，通直散騎常侍。",
+          "subject_person_mention_id": "c-liangshu-030-peiziye:p001:m0000",
+          "object_person_mention_id": "c-liangshu-030-peiziye:p001:m0018",
+          "assertion_id": "a-liang030-ziye-kang-ancestor",
+          "scope": "遠祖報數、指定編輯世距解碼及完整近鏈；珪→昧仍屬連續祖先編輯父邊，不作來源明父。",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%A2%81%E6%9B%B8%2F%E5%8D%B730&oldid=1508510"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-033",
+          "source_id": "s-nanshi033-ws1554233",
+          "chapter_id": "c-nanshi-033-pei-family",
+          "paragraph_id": "c-nanshi-033-pei-family:p013",
+          "quote": "九年復北使。建武初，為王玄邈安北長史、廣陵太守。明帝以其在事無啟奏，代還責之，昭明曰：「臣不欲競執關鍵故耳。」昭明曆郡皆清勤，常謂人曰：「人生何事須聚畜，一身之外亦復何須。子孫若不才，我聚彼散。若能自立，則不如一經。」故終身一不事產業。中興二年卒。子子野。",
+          "subject_person_mention_id": "c-nanshi-033-pei-family:p013:m0125",
+          "object_person_mention_id": "c-nanshi-033-pei-family:p013:m0039",
+          "assertion_id": "a-nanshi033-ziye-father",
+          "scope": "遠祖報數、指定編輯世距解碼及完整近鏈；珪→昧仍屬連續祖先編輯父邊，不作來源明父。",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-033",
+          "source_id": "s-nanshi033-ws1554233",
+          "chapter_id": "c-nanshi-033-pei-family",
+          "paragraph_id": "c-nanshi-033-pei-family:p009",
+          "quote": "子駰，南中郎參軍。松之所著文論及晉記，駰注司馬遷《史記》，並行於世。駰子昭明。",
+          "subject_person_mention_id": "c-nanshi-033-pei-family:p009:m0036",
+          "object_person_mention_id": "c-nanshi-033-pei-family:p009:m0001",
+          "assertion_id": "a-nanshi033-zhaoming-father",
+          "scope": "遠祖報數、指定編輯世距解碼及完整近鏈；珪→昧仍屬連續祖先編輯父邊，不作來源明父。",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-033",
+          "source_id": "s-nanshi033-ws1554233",
+          "chapter_id": "c-nanshi-033-pei-family",
+          "paragraph_id": "c-nanshi-033-pei-family:p009",
+          "quote": "子駰，南中郎參軍。松之所著文論及晉記，駰注司馬遷《史記》，並行於世。駰子昭明。",
+          "subject_person_mention_id": "c-nanshi-033-pei-family:p009:m0001",
+          "object_person_mention_id": "c-nanshi-033-pei-family:p009:m0009",
+          "assertion_id": "a-nanshi033-yin-father",
+          "scope": "遠祖報數、指定編輯世距解碼及完整近鏈；珪→昧仍屬連續祖先編輯父邊，不作來源明父。",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-033",
+          "source_id": "s-nanshi033-ws1554233",
+          "chapter_id": "c-nanshi-033-pei-family",
+          "paragraph_id": "c-nanshi-033-pei-family:p001",
+          "quote": "裴松之字世期，河東聞喜人也。祖昧，光祿大夫。父珪，正員外郎。",
+          "subject_person_mention_id": "c-nanshi-033-pei-family:p001:m0000",
+          "object_person_mention_id": "c-nanshi-033-pei-family:p001:m0023",
+          "assertion_id": "a-nanshi033-songzhi-father",
+          "scope": "遠祖報數、指定編輯世距解碼及完整近鏈；珪→昧仍屬連續祖先編輯父邊，不作來源明父。",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-033",
+          "source_id": "s-nanshi033-ws1554233",
+          "chapter_id": "c-nanshi-033-pei-family",
+          "paragraph_id": "c-nanshi-033-pei-family:p001",
+          "quote": "裴松之字世期，河東聞喜人也。祖昧，光祿大夫。父珪，正員外郎。",
+          "subject_person_mention_id": "c-nanshi-033-pei-family:p001:m0000",
+          "object_person_mention_id": "c-nanshi-033-pei-family:p001:m0015",
+          "assertion_id": "a-nanshi033-songzhi-grandfather",
+          "scope": "遠祖報數、指定編輯世距解碼及完整近鏈；珪→昧仍屬連續祖先編輯父邊，不作來源明父。",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233"
+        }
+      ],
+      "generation_interpretation": {
+        "decision_id": "decision-pei-kang-ziye-inclusive-eight",
+        "source_assertion_id": "a-liang030-ziye-kang-ancestor",
+        "reported_generation_number": 8,
+        "preferred_generation_distance": 7,
+        "alternative_generation_distances": [
+          8
+        ],
+        "known_descendant_chain_distance": 5,
+        "effective_assembly_generation_distance": 2,
+        "supersedes_scope": "this_family_ancestor_connection_only",
+        "raw_source_qualifiers_unchanged": true,
+        "preserves_editorial_gui_mei_parent": true,
+        "modern_opinion_independently_validated": false,
+        "modern_reference_url": "https://www.waseda.jp/flas/glas/assets/uploads/2019/04/HAKAMADA-Yuichi_1264-1249.pdf",
+        "human_reviewed": false
+      }
+    },
+    "assembly_id": "family-hedong-pei-mao-core",
+    "root_person_id": "4ni_4t1_4o9",
     "status": "editorial_preferred",
     "human_reviewed": false
   },
   "assembled_children": [
     {
-      "person_id": "vpy_180_2oi_A",
-      "representative_source_person_id": "vpy_180_2oi_A",
+      "person_id": "4ni_4t1_4o9_BB*AA",
+      "representative_source_person_id": "4ni_4t1_4o9_BB*AA",
       "source_person_ids": [
-        "vpy_180_2oi_A"
+        "4ni_4t1_4o9_BB*AA"
       ],
       "identity_equivalence_decision_ids": [],
-      "parent_person_id": "vpy_180_2oi",
+      "parent_person_id": "4ni_4t1_4o9_BB*A",
       "source_assertion_id": null,
       "parent_connection": {
         "type": "parent_between_consecutive_ancestors",
-        "chain_subject_person_id": "vpy_180_2oi_AA",
+        "chain_subject_person_id": "4ni_4t1_4o9_BB*AAA",
         "nearer_ancestor_assertion_id": "a-nanshi033-songzhi-father",
         "farther_ancestor_assertion_id": "a-nanshi033-songzhi-grandfather",
         "status": "contextual_provisional",
@@ -362,8 +507,8 @@
           }
         ]
       },
-      "assembly_id": "family-hedong-pei-songzhi",
-      "root_person_id": "vpy_180_2oi",
+      "assembly_id": "family-hedong-pei-mao-core",
+      "root_person_id": "4ni_4t1_4o9",
       "status": "editorial_preferred",
       "human_reviewed": false
     }

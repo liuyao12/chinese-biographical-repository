@@ -10,17 +10,17 @@
         "王興之夫婦墓誌",
         "相關王氏墓誌與原始發掘報告"
       ],
-      "status": "accessible_published_transcription_found_not_yet_imported",
+      "status": "wangminzhi_transcription_imported_other_targets_research_reference_read",
       "discovery_links": [
         {
           "url": "https://www.dpm.org.cn/Uploads/File/2020/03/30/u5e81cb7f040eb.pdf",
           "role": "館藏墓誌研究線索",
-          "access_result": "搜尋可發現；全文工具讀取逾時，未據摘要建立任何人物或斷言"
+          "access_result": "2026-10-25已直接讀取官方PDF文字層；印頁22表1可供王興之、宋和之墓誌館藏／出土單元定位。不是原誌全文或原拓核驗。"
         },
         {
           "url": "https://www.dpm.org.cn/journal/246990.html",
-          "role": "原始發掘報告書目之搜尋線索",
-          "access_result": "搜尋可發現；全文讀取逾時，報告篇名頁碼待原刊核對"
+          "role": "現代研究〈葬以殊禮：弩機與世家大族墓葬〉頁面；先前誤標發掘報告線索",
+          "access_result": "2026-10-25已開啟並核頁面篇名；此頁不是王興之墓發掘報告，尚未讀取其內嵌PDF，不據此建立墓誌斷言。"
         },
         {
           "url": "https://history.ntu.edu.tw/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf",
@@ -88,8 +88,119 @@
             "total_characters": 84,
             "correction_note": "主代理初讀誤將第4欄元子之後另分；放大覆核及代理座標核查後更正，未採為原石行款"
           }
+        },
+        {
+          "url": "https://www.dpm.org.cn/Uploads/File/2020/03/30/u5e81cb7f040eb.pdf",
+          "author": "白寧",
+          "title": "南京出土六朝時期墓誌特徵淺析",
+          "title_display_normalization": "現代論文篇名簡體轉繁體；未轉錄或改動古代誌文。",
+          "publication": "故宮學刊",
+          "volume": 17,
+          "publication_year": 2016,
+          "read_scope": "官方PDF文字層印頁22表1第3、5項及文末作者單位；來源佇列定位，不作原誌全文或圖像校勘。",
+          "source_layer": "南京市博物館作者之現代館藏研究；非原始發掘報告",
+          "pdf_page_index": 3,
+          "printed_page": 22,
+          "reported_locations": [
+            {
+              "target": "王興之墓誌",
+              "excavation_unit_reported": "南京象山M1",
+              "date_label_reported": "東晉咸康七年（341）"
+            },
+            {
+              "target": "宋和之墓誌",
+              "excavation_unit_reported": "南京象山M1",
+              "date_label_reported": "東晉永和四年（348）"
+            }
+          ],
+          "date_qualification": "表列誌年代不自動當作撰刻日、葬日或發掘日。未取得兩誌原錄文前不新增人物紀年斷言。",
+          "primary_publication_reference_reported": "《新中國出土墓誌·江蘇》貳，文物出版社，2014年；本輪未親讀該書。",
+          "image_verified": false,
+          "human_reviewed": false,
+          "new_person_or_source_assertion_created": false,
+          "reported_primary_publications_not_directly_read": [
+            {
+              "target": "王興之墓誌",
+              "publication": "新中國出土墓誌·江蘇",
+              "volume": "貳上冊",
+              "year": 2014,
+              "page": 3,
+              "article_printed_page": 24,
+              "article_note": 1,
+              "directly_read": false
+            },
+            {
+              "target": "宋和之墓誌",
+              "publication": "新中國出土墓誌·江蘇",
+              "volume": "貳上冊",
+              "year": 2014,
+              "page": 5,
+              "article_printed_page": 26,
+              "article_note": 5,
+              "directly_read": false
+            },
+            {
+              "author": "南京市文物保管委員會",
+              "title": "南京人台山東晉興之夫婦墓發掘報告",
+              "publication": "文物",
+              "year": 1965,
+              "issue": 6,
+              "article_printed_page": 26,
+              "article_note": 7,
+              "directly_read": false
+            }
+          ]
+        }
+      ],
+      "transcription_target_status": [
+        {
+          "target": "王閩之墓誌",
+          "status": "marked_transcription_present_in_current_working_catalog",
+          "chapter_id": "c-epitaph-wangminzhi-full",
+          "native_path": "corpus/epitaph-wangminzhi/full.json",
+          "qualification": "已入工作資料不代表本輪新發布；錄文層及未核原拓資格以該篇source為準。"
+        },
+        {
+          "target": "王興之墓誌及宋和之墓誌",
+          "status": "research_reference_read_primary_transcription_pending",
+          "person_ids_created_in_this_review": 0,
+          "historical_assertions_created_in_this_review": 0
         }
       ]
+    },
+    {
+      "topic": "謝珫墓誌六磚本",
+      "status": "museum_reference_read_primary_report_pending",
+      "image_storage": "external_links_only",
+      "human_reviewed": false,
+      "image_verified": false,
+      "no_person_ids_created": true,
+      "no_text_transcribed": true,
+      "discovery_links": [
+        {
+          "url": "https://www.dpm.org.cn/Uploads/File/2020/03/30/u5e81cb7f040eb.pdf#page=9",
+          "role": "現代館藏研究所引原報告",
+          "access_result": "已讀印頁27六磚段及注7；原發掘報告未讀。"
+        }
+      ],
+      "reported_primary_publications_not_directly_read": [
+        {
+          "author": "南京市博物館、雨花區文化局",
+          "title": "南京南郊六朝謝珫墓",
+          "publication": "文物",
+          "year": 1998,
+          "issue": 5,
+          "directly_read": false
+        },
+        {
+          "publication": "新中國出土墓誌·江蘇",
+          "volume": "貳上冊",
+          "year": 2014,
+          "page": 26,
+          "directly_read": false
+        }
+      ],
+      "qualification": "未取得完整六磚錄文，不從研究概述建亲屬斷言。"
     }
   ]
 }
