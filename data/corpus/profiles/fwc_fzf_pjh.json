@@ -109,6 +109,41 @@
       "chapter_id": "c-nanshi-033-pei-family",
       "source_id": "s-nanshi033-ws1554233",
       "work_title": "南史"
+    },
+    {
+      "number": 47,
+      "category": "",
+      "title": "清四庫卷四十七考證",
+      "paragraph_id": "c-nanqishu-047-qing-collation:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "作彼謝朓傳沈昭畧謂朓曰卿人地之美無忝此職但恨今日刑于寡妻○南史作尚書郎范縝嘲朓之語",
+      "paragraph_ids": [
+        "c-nanqishu-047-qing-collation:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-047-qing-collation:p001:m0090"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-047-qing-collation:p001:m0090": "c-nanqishu-047-qing-collation:p001"
+      },
+      "mention_id": "c-nanqishu-047-qing-collation:p001:m0090",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-047-qing-collation:p001:m0090",
+          "mention_ids": [
+            "c-nanqishu-047-qing-collation:p001:m0090"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "chapter_id": "c-nanqishu-047-qing-collation",
+      "source_id": "s-nanqishu-047-qing-collation-kr787dd9a7",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
@@ -143,6 +178,42 @@
           "omitted_digital_paratext": []
         },
         "extent": "裴子野完整本傳8段1836字，止於顧協傳前；不是卷三十全卷。"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-047-qing-collation",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "source_id": "s-nanqishu-047-qing-collation-kr787dd9a7",
+      "source": {
+        "title": "《南齊書》卷四十七清四庫考證",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0017/blob/787dd9a7da495542e8f17c26c96900ce37b2c211/KR2a0017_047.txt",
+        "permalink": "https://github.com/kanripo/KR2a0017/blob/787dd9a7da495542e8f17c26c96900ce37b2c211/KR2a0017_047.txt",
+        "revision_id": "787dd9a7da495542e8f17c26c96900ce37b2c211",
+        "source_commit": "787dd9a7da495542e8f17c26c96900ce37b2c211",
+        "response_sha256": "ef7a016f8e2b2ffac03253a754ad75774e02e67c174793fc769792ac92a0a439",
+        "raw_sha256": "ef7a016f8e2b2ffac03253a754ad75774e02e67c174793fc769792ac92a0a439",
+        "source_blob_sha": "d207dceb3395d749531629e0f08cfd295811c868",
+        "raw_file": "source-evidence/nanqi047-xietiao/KR2a0017_047-787dd9a7.txt",
+        "edition": "WYG數位轉錄；未圖校",
+        "accessed_on": "2026-10-25",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及Kanripo固定數位轉錄；保留數位來源歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去原換行與版面標記；不添標點、不正字。原碼點投影另存。"
+        },
+        "extent": "原檔完整行280–285；卷內選定單元，非全卷。",
+        "source_role": "Qing_Siku_collation_independent_appendix",
+        "composition_date": {
+          "source_term": "清四庫考證",
+          "year": null,
+          "status": "period_only"
+        }
       }
     },
     {
@@ -218,7 +289,26 @@
     "fwc_fzf_pjh": "范縝"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-nanqi047-fanzhen-literal",
+      "person_id": "fwc_fzf_pjh",
+      "surname": "范",
+      "ming": "縝",
+      "additional_names": [],
+      "chapter_id": "c-nanqishu-047-qing-collation",
+      "paragraph_id": "c-nanqishu-047-qing-collation:p001",
+      "person_mention_id": "c-nanqishu-047-qing-collation:p001:m0090",
+      "quote": "王融傳居中自見○汲古閣本見下注宋本作是事符則感○汲古閣本感下注宋本作咸按感字為是宋本誤也不容都無主此○主南監本作彼謝朓傳沈昭畧謂朓曰卿人地之美無忝此職但恨今日刑于寡妻○南史作尚書郎范縝嘲朓之語",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "此原詞明示姓與名，逐字分項；不把官爵混為姓或名。",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "source_id": "s-nanqishu-047-qing-collation-kr787dd9a7"
+    }
+  ],
   "person_ids": [
     "fwc_fzf_pjh"
   ],

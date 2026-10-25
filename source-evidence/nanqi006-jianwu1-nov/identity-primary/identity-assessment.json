@@ -1,0 +1,52 @@
+{
+  "record_type": "editorial_external_primary_identity_research",
+  "status": "contextual_preferred",
+  "human_reviewed": false,
+  "selected_existing_person_id_at_capture": "bni_9ky_npc",
+  "resolution_seed": {
+    "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+    "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p009",
+    "person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p009:m0005",
+    "surface": "蕭寶夤"
+  },
+  "candidate_source_surface": "寳寅",
+  "candidate_source_scope": "南齊書006建武元年十一月庚辰皇子授王爵；本包不造原生chapter/MID",
+  "preferred_conclusion": "南齊006的明帝皇子寳寅建安王、魏059的蕭鸞第六子蕭寶夤建安王及現已匯魏058雍州刺史蕭寶夤為同一人；沿已存source seed重用現役canonical，不另登人。",
+  "positive_bridges": [
+    {
+      "kind": "specified_parent_and_enfeoffment",
+      "evidence_refs": ["nanqi006-contexts.json#/identity_opening", "nanqi006-contexts.json#/november", "complete-units-and-anchors.json#/anchors/0"],
+      "reason": "006明帝本紀首指明皇帝鸞，十一月明立皇子寳寅為建安王；059首明蕭鸞第六子寶夤並鸞封建安王。父名、皇子角色與特定王爵相合，不是同名加一般時代相容。"
+    },
+    {
+      "kind": "named_sibling_and_continuous_entry_to_wei",
+      "evidence_refs": ["nanqi006-contexts.json#/november", "complete-units-and-anchors.json#/units/ancestry_title_and_entry_to_wei"],
+      "reason": "006同月立皇太子寳卷；059稱寶夤為寶卷母弟，敘寶卷在位、寶融改封、蕭衍克建業、寶夤逃入壽春與受魏詔授連續事跡，將南齊身世接到入魏後同一主體。此項不自行補母姓名。"
+    },
+    {
+      "kind": "specific_rebellion_campaign_sequence",
+      "evidence_refs": ["capture/weishu058-complete-target-paragraphs.json", "complete-units-and-anchors.json#/units/western_campaign_rebellion_and_death"],
+      "reason": "魏058五個完整原段的軍敗還雍、任雍州刺史、殺御史中尉酈道元、據州反、尚書僕射長孫稚討與潼關華州長安路線，和059主傳同一人連續事跡相合。059沒有在該單元逐名提楊椿/侃，不能冒作兩篇逐字引或說其全部細節相同。"
+    }
+  ],
+  "source_specific_qualifications": [
+    "006寳寅與059寶夤/寳夤原字分存；同指不是全局字形映射、繁簡規則或影校正字。",
+    "059蕭鸞第六子是該源直接親子與source ordinal敘述，不由006六王列表順序推排行；本包不採native father/ordinal或家族rekey。",
+    "059與058是同一著作不同單元交證，不當兩份獨立古代史源；006是另一著作。數位WYG與WS仍未影校。",
+    "所讀059主傳及三子附敘完整；未聲稱讀全卷059，未讀劉昶/蕭正表全傳；006僅傳首/即位與十一月完整段，058僅五個列名原段。",
+    "059編年只作身世至叛亂連續身份證據；本包不向058無明年句填年、不新增卒年或由年十六反推生年。",
+    "059原作鸞之竊位及寶融僭立等政治修辭照錄，是魏書敘述層，不把修辭轉作本庫正統政策。",
+    "本研究不新造人、不寫native/registry、不退休或改ID、不增API、不匯全059、不擴遠祖。"
+  ],
+  "competing_candidates_and_counterevidence": {
+    "current_registry_candidate_inventory_ref": "capture/current-registry-candidate-inventory.json",
+    "result": "實際全registry按相關全名/原名異字alias及label前綴僅得已存bni；此搜尋僅排重，不作身份證明。未見父鸞/建安王/同一叛亂序列的競爭人物。",
+    "not_merged": ["不以蕭姓將蕭正表/蕭衍/其他齊梁王子併入", "不把建安王一般爵名或寅夤同字音單獨當同指充分條件"],
+    "unresolved": "本任務範圍內未見實質異人反證；不代表所有059生平、日期及親屬均已逐項typed核定。"
+  },
+  "readable_primary_urls": [
+    "https://github.com/kanripo/KR2a0020/blob/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_059.txt#L144-L437",
+    "https://github.com/kanripo/KR2a0017/blob/787dd9a7da495542e8f17c26c96900ce37b2c211/KR2a0017_006.txt#L13-L80",
+    "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998"
+  ]
+}

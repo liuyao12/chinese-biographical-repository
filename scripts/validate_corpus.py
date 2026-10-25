@@ -565,6 +565,12 @@ def validate(root=ROOT):
             try:from scripts.fixed_kanripo_collation import errors as fixed_collation_errors
             except ImportError:from fixed_kanripo_collation import errors as fixed_collation_errors
             errors.extend(fixed_collation_errors(d, root))
+            try:from scripts.fixed_nanqi047_source import errors as nanqi047_source_errors
+            except ImportError:from fixed_nanqi047_source import errors as nanqi047_source_errors
+            errors.extend(nanqi047_source_errors(d, root))
+            try:from scripts.fixed_nanqi006_november import source_errors as nanqi006_source_errors
+            except ImportError:from fixed_nanqi006_november import source_errors as nanqi006_source_errors
+            errors.extend(nanqi006_source_errors(d, root))
             if any('annotation_status' in p for p in d['paragraphs']):
                 for p in d['paragraphs']:
                     check(p.get('annotation_status') in ('pending','in_progress','named_mentions_first_pass','reviewed'),'段落標註狀態無效或缺失')
@@ -628,7 +634,7 @@ def validate(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation'),'文字層次無效')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','received_compiler_appraisal','received_compiler_praise','witness_appended_qing_siku_collation','witness_appended_liu_xiaobiao_note'),'文字層次無效')
                 try:
                     from scripts.houhan_text_layers import layer_errors
                 except ImportError:
@@ -727,6 +733,10 @@ def validate(root=ROOT):
         except ImportError:
             from relative_birth_order_decisions import decision_errors as relative_order_errors
         errors.extend(relative_order_errors(root, chapters, assertion_index, pids))
+        try:from scripts.source_pair_order_preference import errors as pair_order_errors
+        except ImportError:from source_pair_order_preference import errors as pair_order_errors
+        pair_records = list(chapters.values()) + [{'record_type':'person_assertion_set','assertions':list(assertion_index.values())}] + [json.loads(p.read_text()) for p in (root/'corpus').glob('*/*-order-decisions.json')]
+        errors.extend(pair_order_errors(root, pair_records, {p['id']:p for p in people}))
         try:
             from scripts.song047_title_semantics import unresolved_title_errors
         except ImportError:
@@ -1630,6 +1640,10 @@ def validate(root=ROOT):
                     try:from scripts.received_unit_kinship import valid as unit_kinship_valid
                     except ImportError:from received_unit_kinship import valid as unit_kinship_valid
                     check(unit_kinship_valid(a, paragraphs, chapters, root), '完整本傳親屬須保固定全單元、各人物原位與角色，不得補生母收養或未知父')
+                if a.get('id','').startswith('a-nanqi006-jianwu1-nov-father-') or qualifiers.get('source_clause_binding',{}).get('rule')=='fixed_nanqi006_jianwu1_nov':
+                    try:from scripts.fixed_nanqi006_november import kinship_valid as nanqi006_kinship_valid
+                    except ImportError:from fixed_nanqi006_november import kinship_valid as nanqi006_kinship_valid
+                    check(nanqi006_kinship_valid(a,paragraphs,chapters,root),'固定十一月六皇子須保完整本紀主體、皇子列表及父子端點，不補排行或母親')
                 if qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_family_clause':
                     try:
                         from scripts.biography_family_clause import valid as biography_family_clause_valid

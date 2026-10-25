@@ -1,0 +1,103 @@
+{
+  "references": [
+    {
+      "unit_id": "xietiao-main:u003",
+      "start": 10,
+      "end": 13,
+      "source_expression": "隆昌初",
+      "kind": "era_stage",
+      "event_scope": "接北使事件",
+      "normalized_candidate": {
+        "earliest_year": 494,
+        "latest_year": 494,
+        "source_stage": "初",
+        "row": "av523"
+      },
+      "qualification": "不灌前兼尚書殿中郎任始"
+    },
+    {
+      "unit_id": "xietiao-main:u004",
+      "start": 0,
+      "end": 4,
+      "source_expression": "建武四年",
+      "kind": "regnal_year",
+      "event_scope": "晉安王鎭北諮議/南東海太守/行南徐州事",
+      "normalized_candidate": {
+        "year": 497,
+        "era_start_year": 494,
+        "era_year": 4,
+        "row": "av525"
+      },
+      "qualification": "齊年號，不接晉建武304或317；不延伸至後報謀/吏部授官/死亡"
+    },
+    {
+      "unit_id": "xietiao-main:u004",
+      "start": 61,
+      "end": 65,
+      "source_expression": "宋元嘉中",
+      "kind": "quoted_era_stage",
+      "event_scope": "沈約引范曅/朱脩之/蔡興宗舊例",
+      "normalized_candidate": null,
+      "qualification": "不是謝脁事件年；本包不作他人官年換算"
+    },
+    {
+      "unit_id": "xietiao-main:u005",
+      "start": 12,
+      "end": 16,
+      "source_expression": "二百年來",
+      "kind": "literary_evaluation_period",
+      "event_scope": "沈約評詩",
+      "normalized_candidate": {
+        "source_number": "二百",
+        "value": 200
+      },
+      "qualification": "不是精確年代區間/人壽/任期"
+    },
+    {
+      "unit_id": "xietiao-main:u007",
+      "start": 32,
+      "end": 34,
+      "source_expression": "少日",
+      "kind": "relative_time_unspecified",
+      "event_scope": "遥光委兼知衞尉事",
+      "normalized_candidate": null,
+      "qualification": "不補日數"
+    },
+    {
+      "unit_id": "xietiao-main:u009",
+      "start": 70,
+      "end": 72,
+      "source_expression": "去夏",
+      "kind": "relative_season_unspecified",
+      "event_scope": "詔辭回顧告反之事",
+      "normalized_candidate": null,
+      "qualification": "詔年未明，未交叉查本紀，不填上一年數字"
+    },
+    {
+      "unit_id": "xietiao-main:u010",
+      "start": 14,
+      "end": 19,
+      "source_expression": "時年三十六",
+      "kind": "age",
+      "event_scope": "謝脁獄死",
+      "normalized_candidate": {
+        "source_number": "三十六",
+        "value": 36,
+        "counting": "unspecified_source_age"
+      },
+      "qualification": "不反推生年/填通行卒年499"
+    },
+    {
+      "unit_id": "xietiao-main:u011",
+      "start": 45,
+      "end": 47,
+      "source_expression": "今日",
+      "kind": "reported_speech_time",
+      "event_scope": "沈昭畧諷語",
+      "normalized_candidate": null,
+      "qualification": "不把篇末敘述順序當死後日期"
+    }
+  ],
+  "calendar_source": "calendar-row-excerpts.json",
+  "normalization_status": "AI editorial candidates; no new native normalized_date records emitted"
+}

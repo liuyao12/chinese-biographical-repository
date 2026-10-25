@@ -1188,3 +1188,6 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 ### 完整收到的作品序
 
 受信選錄可顯式選main_to_attached_subsection，固定二級開題到三級附傳閉界、raw SHA/位置/逐碼點責任及精確wikipedia數位metadata模板排除；模板不是身份權威。complete_received_work_preface另驗作…其序曰引言、作者與作品雙錨及固定work ID/主體來源seed、完整三段quote容器。不放寬舊乃著分支，不等獨立原作或十八篇全文。
+
+<!-- fixed-nanqi006-jianwu1-nov -->
+《南齊書》006完整建武元年十一月採獨立固定日期單元投影，不擴張通用整行投影規則。`source_clause_binding.kind=fixed_regnal_royal_sons`、`rule=fixed_nanqi006_jianwu1_nov`僅允六個固定皇子角色與固定本紀主體父端，逐碼點原文／raw SHA／完整傳首主體資格／先前source MID與registry逆證同核。每條為有來源父斷言，不推排行、全子名單、生母或百官七十為個人報齡。新來源本地身份沿本源MID與逆證，不以opaque ownership key作不可變身份限制。

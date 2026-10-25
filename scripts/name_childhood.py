@@ -1,6 +1,8 @@
 """Explicit 'X者Y小字也' only; never infer a personal alias from generic source forms."""
 def validate_childhood_name(name,paragraph=None):
     value=name.get('xiaozhi');basis=name.get('xiaozhi_basis')
+    if isinstance(basis,dict)and basis.get('kind')=='explicit_comma_xiaozhi_apposition':
+        return validate_comma_apposition_xiaozhi(name,paragraph)
     if isinstance(basis,dict)and basis.get('kind')=='explicit_xiaozhi_apposition':
         return validate_apposition_xiaozhi(name,paragraph)
     if isinstance(basis,dict)and basis.get('kind')=='explicit_subject_xiaozhi':
@@ -67,3 +69,28 @@ def validate_apposition_xiaozhi(name,paragraph):
     if (a['person_mention_id']==s['person_mention_id'] or a['surface']!=v or k['surface']!='小字'
         or a['end']!=s['start']or s['end']!=k['start']or t[k['end']:k['end']+1]!='也'
         or b.get('source_term')!=term or t[a['start']:k['end']+1]!=term):fail()
+
+def validate_comma_apposition_xiaozhi(name,paragraph):
+    """X，Y小字也: an explicit comma only; old apposition remains adjacent."""
+    def fail():raise ValueError('逗號小字同位句須完整同段、同人雙錨、明示全形逗號與小字也，不能冒者句/本名')
+    if not isinstance(name,dict)or not isinstance(paragraph,dict):fail()
+    b=name.get('xiaozhi_basis');value=name.get('xiaozhi');text=paragraph.get('text')
+    if (not isinstance(b,dict)or set(b)!={'kind','source_term','value_anchor','subject_anchor','separator_anchor','marker_anchor','status','human_reviewed','rationale'}
+        or b.get('kind')!='explicit_comma_xiaozhi_apposition'or b.get('status')!='source_attested'or b.get('human_reviewed')is not False
+        or not isinstance(b.get('rationale'),str)or not b['rationale'].strip()or not isinstance(value,str)or not value or value!=value.strip()
+        or not isinstance(text,str)or name.get('quote')!=text or 'xiaoming'in name or 'xiaoming_basis'in name
+        or name.get('chapter_id')!=str(paragraph.get('id','')).rsplit(':',1)[0]):fail()
+    anchors=[b[k]for k in('value_anchor','subject_anchor','separator_anchor','marker_anchor')]
+    for i,a in enumerate(anchors):
+        keys={'paragraph_id','start','end','surface'}|({'person_mention_id'}if i<2 else set())
+        if (not isinstance(a,dict)or set(a)!=keys or a.get('paragraph_id')!=paragraph.get('id')or a.get('paragraph_id')!=name.get('paragraph_id')
+            or type(a.get('start'))is not int or type(a.get('end'))is not int or not 0<=a['start']<a['end']<=len(text)or text[a['start']:a['end']]!=a.get('surface')):fail()
+        if i<2:
+            hits=[m for m in paragraph.get('mentions',[])if isinstance(m,dict)and m.get('id')==a.get('person_mention_id')]
+            if len(hits)!=1:fail()
+            m=hits[0]
+            if m.get('kind')!='person'or not name.get('person_id')or m.get('person_id')!=name['person_id']or any(m.get(k)!=a[k]for k in('start','end','surface')):fail()
+    a,s,separator,k=anchors;term=value+'，'+s['surface']+'小字也'
+    if (a['person_mention_id']==s['person_mention_id']or a['surface']!=value or separator['surface']!='，'or k['surface']!='小字'
+        or a['end']!=separator['start']or separator['end']!=s['start']or s['end']!=k['start']or text[k['end']:k['end']+1]!='也'
+        or b['source_term']!=term or text[a['start']:k['end']+1]!=term):fail()

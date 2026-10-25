@@ -1,0 +1,103 @@
+{
+  "record_type": "editorial_research_capture_public_projection",
+  "qualification": "只移除研究機器的絕對路徑；史料原文、引文、人物號及捕獲時的登記雜湊均不改。private-research-capture 表示未收錄的私人研究暫存檔，不是可下載的庫內路徑；來源連結與固定版本另存原記錄。原捕獲與公開投影各記雜湊，公開研究檔並非原始捕獲位元組。",
+  "files": [
+    {
+      "path": "source-evidence/nanqi047-xietiao/existing-primary-identity-contexts.json",
+      "research_capture_sha256": "016f32ada48bb36f5ebbe1b781aeceefd9bf4efee9aacc616311e15af1b5d34c",
+      "public_projection_sha256": "33569caa02e3befb98960f35eae0ec31333c19cb88bcbab90e2fb0b0406ea986",
+      "locations": [
+        {
+          "pointer": "/3/source/source/parallel_witnesses/sources/5/input_sealed_path",
+          "original_value_sha256": "095fc793d55145f42fb8b4d19a6ad15d33644ca86f41550a9162d75b1ed7705b",
+          "public_value": "private-research-capture:sgz021-api.json"
+        },
+        {
+          "pointer": "/3/source/source/parallel_witnesses/sources/6/input_sealed_path",
+          "original_value_sha256": "19015c4d043aff6a6ab85defa6c6eb0c13352643c87b345b65f2e353614c20c4",
+          "public_value": "private-research-capture:jin067-fixed-raw.txt"
+        }
+      ]
+    },
+    {
+      "path": "source-evidence/nanqi047-xietiao/appraisal-existing-identity-contexts.json",
+      "research_capture_sha256": "2ec29107a10bf4d44442659648ccc5937b72f612e6722ad4b655f606507682d4",
+      "public_projection_sha256": "0c28ff2eb4dcf4adc3b09e40fcbb574432d10a15a1f604e405a24a68ed657f6f",
+      "locations": [
+        {
+          "pointer": "/1/source/source/parallel_witnesses/sources/5/input_sealed_path",
+          "original_value_sha256": "095fc793d55145f42fb8b4d19a6ad15d33644ca86f41550a9162d75b1ed7705b",
+          "public_value": "private-research-capture:sgz021-api.json"
+        },
+        {
+          "pointer": "/1/source/source/parallel_witnesses/sources/6/input_sealed_path",
+          "original_value_sha256": "19015c4d043aff6a6ab85defa6c6eb0c13352643c87b345b65f2e353614c20c4",
+          "public_value": "private-research-capture:jin067-fixed-raw.txt"
+        }
+      ]
+    },
+    {
+      "path": "source-evidence/nanqi047-xietiao/supporting-research/liuanxi/registry-capture.json",
+      "research_capture_sha256": "11ec198d6cbf013d81e3e7b5cb566ea092412de5efafa489c646b9be3b993576",
+      "public_projection_sha256": "9b9c25188652038bf3901e9db7b915819450938c9eacd7d277c11bf34c6569f6",
+      "locations": [
+        {
+          "pointer": "/source_path",
+          "original_value_sha256": "695885b5efe43580e340dd8356cf7e4f135d057bbb6482f8c00afe0d4d8e5c86",
+          "public_value": "registry/persons.json"
+        }
+      ]
+    },
+    {
+      "path": "source-evidence/nanqi047-xietiao/supporting-research/jinghuanghou/registry-review.json",
+      "research_capture_sha256": "1201b697ab5c774883bc60ce40a45e2eb3e6d46f09f5d5eb1cf80fab8852affe",
+      "public_projection_sha256": "f4aa0e20352f6818d90ffab96a12a3b273e05167a1367ea0f0824d9c802a2735",
+      "locations": [
+        {
+          "pointer": "/source_file",
+          "original_value_sha256": "695885b5efe43580e340dd8356cf7e4f135d057bbb6482f8c00afe0d4d8e5c86",
+          "public_value": "registry/persons.json"
+        }
+      ]
+    },
+    {
+      "path": "source-evidence/nanqi047-xietiao/supporting-research/jinghuanghou/calendar-evidence.json",
+      "research_capture_sha256": "b9ebd605cd87afd1426e30df36cb406145b11f6281f7d092fbfd43be73f97e50",
+      "public_projection_sha256": "082e7d5c48949991b60f34e70fab536a697616ebd16d415042d0e94d767cbbef",
+      "locations": [
+        {
+          "pointer": "/capture_file",
+          "original_value_sha256": "3a0fa70496f0a59c6764fc5864b16ee4896b1ac60f6583b9ad49ec80195b7b37",
+          "public_value": "private-research-capture:moe-era-table-page2.html"
+        }
+      ]
+    },
+    {
+      "path": "source-evidence/nanqi047-xietiao/supporting-research/shaozheng/shiji-capture.json",
+      "research_capture_sha256": "d5f0dfb589d87e8eca037630fd1ce67d26e6cfa440a19679716bd211febdd1a2",
+      "public_projection_sha256": "213e336bcc4648b79767403f13df4483523d1ec5c40bd7103052f90a6dfeaa5e",
+      "locations": [
+        {
+          "pointer": "/hashes_before/@key",
+          "original_value_sha256": "e71855f69fe76136d87784e6a9d037788737e43fc11329572cb2a8f20910c114",
+          "public_value": "corpus/shiji/047.json"
+        },
+        {
+          "pointer": "/hashes_before/@key",
+          "original_value_sha256": "695885b5efe43580e340dd8356cf7e4f135d057bbb6482f8c00afe0d4d8e5c86",
+          "public_value": "registry/persons.json"
+        },
+        {
+          "pointer": "/hashes_after/@key",
+          "original_value_sha256": "e71855f69fe76136d87784e6a9d037788737e43fc11329572cb2a8f20910c114",
+          "public_value": "corpus/shiji/047.json"
+        },
+        {
+          "pointer": "/hashes_after/@key",
+          "original_value_sha256": "695885b5efe43580e340dd8356cf7e4f135d057bbb6482f8c00afe0d4d8e5c86",
+          "public_value": "registry/persons.json"
+        }
+      ]
+    }
+  ]
+}

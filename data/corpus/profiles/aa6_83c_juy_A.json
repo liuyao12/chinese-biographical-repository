@@ -12,6 +12,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 1,
+      "category": "",
+      "title": "《世說新語·言語》71（正文及劉孝標注完整條）",
+      "paragraph_id": "c-shishuoxinyu-yanyu-071:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "〈胡兒，謝朗小字也。《續晉陽秋》曰：「朗字長度，安次兄據之長子。安蚤知之。文義艷發，名亞於玄，仕至東陽太守。」〉",
+      "paragraph_ids": [
+        "c-shishuoxinyu-yanyu-071:p002"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-yanyu-071:p002:m0027"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-yanyu-071:p002:m0027": "c-shishuoxinyu-yanyu-071:p002"
+      },
+      "mention_id": "c-shishuoxinyu-yanyu-071:p002:m0027",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0027",
+          "mention_ids": [
+            "c-shishuoxinyu-yanyu-071:p002:m0027"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-001",
+      "chapter_id": "c-shishuoxinyu-yanyu-071",
+      "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+      "work_title": "世說新語"
+    },
+    {
       "number": 52,
       "category": "",
       "title": "《宋書》卷五十二謝景仁完整本傳及純、述附傳（編輯選錄題）",
@@ -745,6 +780,41 @@
               "revision_id": 2645985
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-yanyu-071",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-001",
+      "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+      "source": {
+        "title": "世說新語／言語第二第71條，兼劉孝標注",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "revision_id": 2567463,
+        "raw_path": "source-evidence/shishuo-yanyu071/raw-entry.wiki",
+        "raw_file_sha256": "e88b5f1bee61105118cdbfeda6a05c3b9b0ca4b22f92eb2370e23c49648a98b0",
+        "response_sha256": "c7b033daa48d17bdfade6bdd3b3758e6935a0a5716d413258d19255bc3658478",
+        "edition": "維基文庫數位正文及劉注；未核影像或古本底本",
+        "accessed_on": "2026-10-25",
+        "extent": "僅完整言語71正文及兩附注容器，其他條未匯",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "rights": "古代正文及維基文庫數位轉錄，保留固定版本與署名，CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "移除ProperNoun模板及顯示轉換保護符號；保留原標點/異字。〈〉為本資料編輯分注界符，非raw wikitext所含文字；對應劉注模板，正文/劉注按原序分4段，不把劉注所引書當親讀原書。",
+          "complete_entry_wikitext_sha256": "e88b5f1bee61105118cdbfeda6a05c3b9b0ca4b22f92eb2370e23c49648a98b0",
+          "editorial_note_delimiters": {
+            "opening": "〈",
+            "closing": "〉",
+            "literal_in_raw_wikitext": false,
+            "basis": "劉注模板容器的編輯分注界符"
+          }
         }
       }
     },
@@ -1871,6 +1941,81 @@
       "model": null
     },
     {
+      "id": "a-shishuo071-ju-an-brother",
+      "subject_person_id": "aa6_83c_juy_A",
+      "predicate": "brother",
+      "object_person_id": "aa6_83c_juy_B",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "安次兄據",
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_A",
+          "younger_person_id": "aa6_83c_juy_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "source_claim_layer": "liu_xiaobiao_note_quoting_received_work",
+        "reported_source_work_id": "w-xujinyangqiu-shishuo071-reference",
+        "quoted_work_directly_read": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p002",
+          "quote": "〈胡兒，謝朗小字也。《續晉陽秋》曰：「朗字長度，安次兄據之長子。安蚤知之。文義艷發，名亞於玄，仕至東陽太守。」〉",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0027",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0024"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-shishuo071-lang-father",
+      "subject_person_id": "aa6_83c_juy_AA",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "據之長子",
+        "lineage": "paternal",
+        "source_claim_layer": "liu_xiaobiao_note_quoting_received_work",
+        "reported_source_work_id": "w-xujinyangqiu-shishuo071-reference",
+        "quoted_work_directly_read": false,
+        "birth_order": {
+          "parent_person_id": "aa6_83c_juy_A",
+          "scope": "sons_of_parent",
+          "ordinal": 1,
+          "position": "eldest",
+          "source_term": "長子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p002",
+          "quote": "〈胡兒，謝朗小字也。《續晉陽秋》曰：「朗字長度，安次兄據之長子。安蚤知之。文義艷發，名亞於玄，仕至東陽太守。」〉",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0001",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0027"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-song052-xie-jingren-grandfather",
       "subject_person_id": "aa6_83c_juy_ABA",
       "predicate": "grandfather",
@@ -2031,6 +2176,82 @@
       "model": null
     },
     {
+      "id": "a-shishuo071-ju-an-brother",
+      "subject_person_id": "aa6_83c_juy_A",
+      "predicate": "brother",
+      "object_person_id": "aa6_83c_juy_B",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "安次兄據",
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_A",
+          "younger_person_id": "aa6_83c_juy_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "source_claim_layer": "liu_xiaobiao_note_quoting_received_work",
+        "reported_source_work_id": "w-xujinyangqiu-shishuo071-reference",
+        "quoted_work_directly_read": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p002",
+          "quote": "〈胡兒，謝朗小字也。《續晉陽秋》曰：「朗字長度，安次兄據之長子。安蚤知之。文義艷發，名亞於玄，仕至東陽太守。」〉",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0027",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0024"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "relative_birth_order_preference_id": "d-shishuo071-xieju-xiean-relative-order"
+    },
+    {
+      "id": "a-shishuo071-lang-father",
+      "subject_person_id": "aa6_83c_juy_AA",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "據之長子",
+        "lineage": "paternal",
+        "source_claim_layer": "liu_xiaobiao_note_quoting_received_work",
+        "reported_source_work_id": "w-xujinyangqiu-shishuo071-reference",
+        "quoted_work_directly_read": false,
+        "birth_order": {
+          "parent_person_id": "aa6_83c_juy_A",
+          "scope": "sons_of_parent",
+          "ordinal": 1,
+          "position": "eldest",
+          "source_term": "長子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p002",
+          "quote": "〈胡兒，謝朗小字也。《續晉陽秋》曰：「朗字長度，安次兄據之長子。安蚤知之。文義艷發，名亞於玄，仕至東陽太守。」〉",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0001",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0027"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-song052-xie-jingren-grandfather",
       "subject_person_id": "aa6_83c_juy_ABA",
       "predicate": "grandfather",
@@ -2064,15 +2285,7 @@
       "object_person_id": "aa6_83c_juy_B",
       "status": "source_attested",
       "qualifiers": {
-        "source_term": "太傅安第二弟",
-        "relative_birth_order": {
-          "older_person_id": "aa6_83c_juy_B",
-          "younger_person_id": "aa6_83c_juy_A",
-          "operator": "lt",
-          "scope": "siblings",
-          "older_ordinal": null,
-          "younger_ordinal": null
-        }
+        "source_term": "太傅安第二弟"
       },
       "evidence": [
         {
@@ -2089,7 +2302,45 @@
       "interpretation_note": "只保據為安弟及原第二弟作用域；不轉全家絕對排行。",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "relative_birth_order_preference_id": "d-shishuo071-xieju-xiean-relative-order"
+    }
+  ],
+  "relative_birth_order_preferences": [
+    {
+      "id": "d-shishuo071-xieju-xiean-relative-order",
+      "kind": "fixed_xie_ju_an_commentary_order_preference",
+      "person_ids": [
+        "aa6_83c_juy_A",
+        "aa6_83c_juy_B"
+      ],
+      "claim_assertion_ids": [
+        "a-song052-xie-ju-brother-an",
+        "a-shishuo071-ju-an-brother"
+      ],
+      "preferred_assertion_id": "a-shishuo071-ju-an-brother",
+      "alternative_assertion_id": "a-song052-xie-ju-brother-an",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "rationale": "劉注引續晉陽秋直接安次兄據，咏雪正文兄子與朗明名、晉079家嫂同方向；首選據年長，宋052第二弟原source/方向不刪不改。家嫂泛敬稱不足單獨消解；宋書訛記層次未明，不冒已見兄傳本。",
+      "display_note": "謝據較謝安年長（《宋書》作弟）",
+      "study_references": [
+        {
+          "author": "劉浩洋",
+          "title": "「誤國」者的側寫——東晉謝氏之清談興家的營謀",
+          "journal": "政大中文學報",
+          "issue": 13,
+          "publication_date": "2010-06",
+          "pages": "151–176",
+          "relevant_page": 167,
+          "note": 89,
+          "url": "https://bdcl.nccu.edu.tw/uploads/chapter_file/file/649ccf8a367376432d68517d/6_%E8%AA%A4%E5%9C%8B_%E8%80%85%E7%9A%84%E5%81%B4%E5%AF%AB__%E6%9D%B1%E6%99%89%E8%AC%9D%E6%B0%8F%E4%B9%8B%E6%B8%85%E8%AB%87%E8%88%88%E5%AE%B6%E7%9A%84%E7%87%9F%E8%AC%80.pdf",
+          "short_quote": "謝安仲兄謝據之子",
+          "paraphrase": "作者於咏雪故事註89採謝據為謝安仲兄。",
+          "qualification": "本輪視讀完整相關PDF頁、核書目/短引及作者所採說法；不重驗作者年齡推算，不採註90估算為出生年。PDF/頁圖不收入本包。",
+          "human_reviewed": false
+        }
+      ]
     }
   ],
   "assembled_identity": {

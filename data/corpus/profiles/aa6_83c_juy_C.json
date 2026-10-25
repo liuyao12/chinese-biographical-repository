@@ -468,6 +468,41 @@
   ],
   "occurrences": [
     {
+      "number": 1,
+      "category": "",
+      "title": "《世說新語·言語》71（正文及劉孝標注完整條）",
+      "paragraph_id": "c-shishuoxinyu-yanyu-071:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "「撒鹽空中差可擬。」兄女曰：「未若柳絮因風起。」公大笑樂。即公大兄無奕女，左將軍王凝之妻也。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-yanyu-071:p003"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-yanyu-071:p003:m0033"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-yanyu-071:p003:m0033": "c-shishuoxinyu-yanyu-071:p003"
+      },
+      "mention_id": "c-shishuoxinyu-yanyu-071:p003:m0033",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-yanyu-071:p003:m0033",
+          "mention_ids": [
+            "c-shishuoxinyu-yanyu-071:p003:m0033"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-001",
+      "chapter_id": "c-shishuoxinyu-yanyu-071",
+      "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+      "work_title": "世說新語"
+    },
+    {
       "number": 75,
       "category": "",
       "title": "王湛、王承、王述、王坦之及附傳完整敘事單元",
@@ -2834,6 +2869,41 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-yanyu-071",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-001",
+      "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+      "source": {
+        "title": "世說新語／言語第二第71條，兼劉孝標注",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "revision_id": 2567463,
+        "raw_path": "source-evidence/shishuo-yanyu071/raw-entry.wiki",
+        "raw_file_sha256": "e88b5f1bee61105118cdbfeda6a05c3b9b0ca4b22f92eb2370e23c49648a98b0",
+        "response_sha256": "c7b033daa48d17bdfade6bdd3b3758e6935a0a5716d413258d19255bc3658478",
+        "edition": "維基文庫數位正文及劉注；未核影像或古本底本",
+        "accessed_on": "2026-10-25",
+        "extent": "僅完整言語71正文及兩附注容器，其他條未匯",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "rights": "古代正文及維基文庫數位轉錄，保留固定版本與署名，CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "移除ProperNoun模板及顯示轉換保護符號；保留原標點/異字。〈〉為本資料編輯分注界符，非raw wikitext所含文字；對應劉注模板，正文/劉注按原序分4段，不把劉注所引書當親讀原書。",
+          "complete_entry_wikitext_sha256": "e88b5f1bee61105118cdbfeda6a05c3b9b0ca4b22f92eb2370e23c49648a98b0",
+          "editorial_note_delimiters": {
+            "opening": "〈",
+            "closing": "〉",
+            "literal_in_raw_wikitext": false,
+            "basis": "劉注模板容器的編輯分注界符"
+          }
+        }
+      }
     }
   ],
   "relations": [
@@ -3002,6 +3072,33 @@
         "human_reviewed": false,
         "rationale": "謝奕附傳緊接三子名單，完整連續原段與原行；不以數位節題作證。"
       }
+    },
+    {
+      "id": "a-shishuo071-daoyun-father",
+      "subject_person_id": "aa6_83c_juy_CE",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_C",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "公大兄無奕女",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p003",
+          "quote": "「撒鹽空中差可擬。」兄女曰：「未若柳絮因風起。」公大笑樂。即公大兄無奕女，左將軍王凝之妻也。",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p003:m0010",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p003:m0033"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
@@ -3009,7 +3106,8 @@
     "aa6_83c_juy_CA": "謝康",
     "aa6_83c_juy_CB": "謝泉",
     "aa6_83c_juy_CC": "謝靖",
-    "aa6_83c_juy_CD": "謝玄"
+    "aa6_83c_juy_CD": "謝玄",
+    "aa6_83c_juy_CE": "謝道蘊"
   },
   "dates": [],
   "name_components": [
@@ -3201,6 +3299,33 @@
         "human_reviewed": false,
         "rationale": "謝奕附傳緊接三子名單，完整連續原段與原行；不以數位節題作證。"
       }
+    },
+    {
+      "id": "a-shishuo071-daoyun-father",
+      "subject_person_id": "aa6_83c_juy_CE",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_C",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "公大兄無奕女",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p003",
+          "quote": "「撒鹽空中差可擬。」兄女曰：「未若柳絮因風起。」公大笑樂。即公大兄無奕女，左將軍王凝之妻也。",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p003:m0010",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p003:m0033"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "assembled_identity": {

@@ -26,6 +26,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 1,
+      "category": "",
+      "title": "《世說新語·言語》71（正文及劉孝標注完整條）",
+      "paragraph_id": "c-shishuoxinyu-yanyu-071:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "〈《王氏譜》曰：「凝之字叔平，右將軍羲之第二子也。歴江州刺史、左將軍、會稽内史。」《晉安帝紀》曰：「凝之事五斗米道。孫恩之攻會稽，凝之謂民吏曰：『不須備防，吾已請大道，許遣鬼兵相助，賊自破矣。』既不設備，遂爲恩所害。」《婦人集》曰：「謝夫人",
+      "paragraph_ids": [
+        "c-shishuoxinyu-yanyu-071:p004"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-yanyu-071:p004:m0018"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-yanyu-071:p004:m0018": "c-shishuoxinyu-yanyu-071:p004"
+      },
+      "mention_id": "c-shishuoxinyu-yanyu-071:p004:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-yanyu-071:p004:m0018",
+          "mention_ids": [
+            "c-shishuoxinyu-yanyu-071:p004:m0018"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-001",
+      "chapter_id": "c-shishuoxinyu-yanyu-071",
+      "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+      "work_title": "世說新語"
+    },
+    {
       "number": 33,
       "category": "",
       "title": "《南齊書》卷三十三王僧䖍完整本傳（編輯選錄題）",
@@ -4681,6 +4716,41 @@
               "evidence_scope": "independent_parallel_reference_not_033_body",
               "image_verified": false
             }
+          }
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-yanyu-071",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-001",
+      "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+      "source": {
+        "title": "世說新語／言語第二第71條，兼劉孝標注",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "revision_id": 2567463,
+        "raw_path": "source-evidence/shishuo-yanyu071/raw-entry.wiki",
+        "raw_file_sha256": "e88b5f1bee61105118cdbfeda6a05c3b9b0ca4b22f92eb2370e23c49648a98b0",
+        "response_sha256": "c7b033daa48d17bdfade6bdd3b3758e6935a0a5716d413258d19255bc3658478",
+        "edition": "維基文庫數位正文及劉注；未核影像或古本底本",
+        "accessed_on": "2026-10-25",
+        "extent": "僅完整言語71正文及兩附注容器，其他條未匯",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "rights": "古代正文及維基文庫數位轉錄，保留固定版本與署名，CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "移除ProperNoun模板及顯示轉換保護符號；保留原標點/異字。〈〉為本資料編輯分注界符，非raw wikitext所含文字；對應劉注模板，正文/劉注按原序分4段，不把劉注所引書當親讀原書。",
+          "complete_entry_wikitext_sha256": "e88b5f1bee61105118cdbfeda6a05c3b9b0ca4b22f92eb2370e23c49648a98b0",
+          "editorial_note_delimiters": {
+            "opening": "〈",
+            "closing": "〉",
+            "literal_in_raw_wikitext": false,
+            "basis": "劉注模板容器的編輯分注界符"
           }
         }
       }
@@ -14383,6 +14453,44 @@
       ],
       "interpretation_note": "來源明教習或學習關係；非親屬或任職。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-shishuo071-ningzhi-father",
+      "subject_person_id": "7r6_k52_qji_ABDCBB",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABDCB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "羲之第二子也",
+        "lineage": "paternal",
+        "source_claim_layer": "liu_xiaobiao_note_quoting_received_work",
+        "reported_source_work_id": "w-wangshipu-shishuo071-reference",
+        "quoted_work_directly_read": false,
+        "birth_order": {
+          "parent_person_id": "7r6_k52_qji_ABDCB",
+          "scope": "sons_of_parent",
+          "ordinal": 2,
+          "position": "unspecified",
+          "source_term": "第二子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p004",
+          "quote": "〈《王氏譜》曰：「凝之字叔平，右將軍羲之第二子也。歴江州刺史、左將軍、會稽内史。」《晉安帝紀》曰：「凝之事五斗米道。孫恩之攻會稽，凝之謂民吏曰：『不須備防，吾已請大道，許遣鬼兵相助，賊自破矣。』既不設備，遂爲恩所害。」《婦人集》曰：「謝夫人名道蘊，有文才。所著詩、賦、誄、頌傳於世。」〉",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p004:m0009",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p004:m0018"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }
@@ -24161,6 +24269,44 @@
       ],
       "interpretation_note": "來源明教習或學習關係；非親屬或任職。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-shishuo071-ningzhi-father",
+      "subject_person_id": "7r6_k52_qji_ABDCBB",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABDCB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "羲之第二子也",
+        "lineage": "paternal",
+        "source_claim_layer": "liu_xiaobiao_note_quoting_received_work",
+        "reported_source_work_id": "w-wangshipu-shishuo071-reference",
+        "quoted_work_directly_read": false,
+        "birth_order": {
+          "parent_person_id": "7r6_k52_qji_ABDCB",
+          "scope": "sons_of_parent",
+          "ordinal": 2,
+          "position": "unspecified",
+          "source_term": "第二子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p004",
+          "quote": "〈《王氏譜》曰：「凝之字叔平，右將軍羲之第二子也。歴江州刺史、左將軍、會稽内史。」《晉安帝紀》曰：「凝之事五斗米道。孫恩之攻會稽，凝之謂民吏曰：『不須備防，吾已請大道，許遣鬼兵相助，賊自破矣。』既不設備，遂爲恩所害。」《婦人集》曰：「謝夫人名道蘊，有文才。所著詩、賦、誄、頌傳於世。」〉",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p004:m0009",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p004:m0018"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }

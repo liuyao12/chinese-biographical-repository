@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "id": "w3c_uh3_9up_A",
+  "canonical_person_id": "w3c_uh3_9up_A",
+  "label": "王敬則之未名女〔謝脁妻〕",
+  "identity_note": "本次來源限定身份；跨篇同指依逐項來源判讀，不宣稱與所有同名者必異。",
+  "review": "ai_provisional",
+  "names": [
+    "女",
+    "妻",
+    "寡妻"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 47,
+      "category": "",
+      "title": "謝脁傳",
+      "paragraph_id": "c-nanqishu-047-xietiao:p011",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "朓初告王敬則敬則女為脁妻常懐刀欲報脁脁不敢相見及為吏部郎沈昭畧謂脁曰卿人地之美無忝此職但恨今日刑於寡妻",
+      "paragraph_ids": [
+        "c-nanqishu-047-xietiao:p011"
+      ],
+      "mention_ids": [
+        "c-nanqishu-047-xietiao:p011:m0008",
+        "c-nanqishu-047-xietiao:p011:m0011",
+        "c-nanqishu-047-xietiao:p011:m0049"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-047-xietiao:p011:m0008": "c-nanqishu-047-xietiao:p011",
+        "c-nanqishu-047-xietiao:p011:m0011": "c-nanqishu-047-xietiao:p011",
+        "c-nanqishu-047-xietiao:p011:m0049": "c-nanqishu-047-xietiao:p011"
+      },
+      "mention_id": "c-nanqishu-047-xietiao:p011:m0008",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-047-xietiao:p011:m0008",
+          "mention_ids": [
+            "c-nanqishu-047-xietiao:p011:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-047-xietiao:p011:m0011",
+          "mention_ids": [
+            "c-nanqishu-047-xietiao:p011:m0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-047-xietiao:p011:m0049",
+          "mention_ids": [
+            "c-nanqishu-047-xietiao:p011:m0049"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "chapter_id": "c-nanqishu-047-xietiao",
+      "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+      "work_title": "南齊書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanqishu-047-xietiao",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+      "source": {
+        "title": "《南齊書》卷四十七謝脁傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0017/blob/787dd9a7da495542e8f17c26c96900ce37b2c211/KR2a0017_047.txt",
+        "permalink": "https://github.com/kanripo/KR2a0017/blob/787dd9a7da495542e8f17c26c96900ce37b2c211/KR2a0017_047.txt",
+        "revision_id": "787dd9a7da495542e8f17c26c96900ce37b2c211",
+        "source_commit": "787dd9a7da495542e8f17c26c96900ce37b2c211",
+        "response_sha256": "ef7a016f8e2b2ffac03253a754ad75774e02e67c174793fc769792ac92a0a439",
+        "raw_sha256": "ef7a016f8e2b2ffac03253a754ad75774e02e67c174793fc769792ac92a0a439",
+        "source_blob_sha": "d207dceb3395d749531629e0f08cfd295811c868",
+        "raw_file": "source-evidence/nanqi047-xietiao/KR2a0017_047-787dd9a7.txt",
+        "edition": "WYG數位轉錄；未圖校",
+        "accessed_on": "2026-10-25",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及Kanripo固定數位轉錄；保留數位來源歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去原換行與版面標記；不添標點、不正字。原碼點投影另存。"
+        },
+        "extent": "原檔完整行192–257；卷內選定單元，非全卷。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi047-wife-father",
+      "subject_person_id": "w3c_uh3_9up_A",
+      "predicate": "father",
+      "object_person_id": "w3c_uh3_9up",
+      "qualifiers": {
+        "source_term": "敬則女為脁妻",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_nanqi047_narrative_family",
+          "slot": "wife-father",
+          "paragraph_sha256": "ea4ce4df220dc1fa922062f438e4e013f4001e26d5aad9d4d8ff140e321762ba",
+          "roles": {
+            "wife": "c-nanqishu-047-xietiao:p011:m0008",
+            "wangjingze": "c-nanqishu-047-xietiao:p011:m0003",
+            "xietiao": "c-nanqishu-047-xietiao:p011:m0000"
+          }
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "paragraph_id": "c-nanqishu-047-xietiao:p011",
+          "quote": "朓初告王敬則敬則女為脁妻常懐刀欲報脁脁不敢相見及為吏部郎沈昭畧謂脁曰卿人地之美無忝此職但恨今日刑於寡妻",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao:p011:m0008",
+          "object_person_mention_id": "c-nanqishu-047-xietiao:p011:m0003"
+        }
+      ],
+      "interpretation_note": "完整敘事明詞角色，保未名女／弟，不推母親、共同父或絕對排行。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi047-wife-spouse",
+      "subject_person_id": "w3c_uh3_9up_A",
+      "predicate": "spouse",
+      "object_person_id": "aa6_83c_juy_ABDCA",
+      "qualifiers": {
+        "source_term": "敬則女為脁妻",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_nanqi047_narrative_family",
+          "slot": "wife-spouse",
+          "paragraph_sha256": "ea4ce4df220dc1fa922062f438e4e013f4001e26d5aad9d4d8ff140e321762ba",
+          "roles": {
+            "wife": "c-nanqishu-047-xietiao:p011:m0008",
+            "wangjingze": "c-nanqishu-047-xietiao:p011:m0003",
+            "xietiao": "c-nanqishu-047-xietiao:p011:m0000"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "paragraph_id": "c-nanqishu-047-xietiao:p011",
+          "quote": "朓初告王敬則敬則女為脁妻常懐刀欲報脁脁不敢相見及為吏部郎沈昭畧謂脁曰卿人地之美無忝此職但恨今日刑於寡妻",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao:p011:m0008",
+          "object_person_mention_id": "c-nanqishu-047-xietiao:p011:m0000"
+        }
+      ],
+      "interpretation_note": "完整敘事明詞角色，保未名女／弟，不推母親、共同父或絕對排行。"
+    }
+  ],
+  "related_people": {
+    "aa6_83c_juy_ABDCA": "謝脁",
+    "w3c_uh3_9up": "王敬則",
+    "w3c_uh3_9up_A": "王敬則之未名女〔謝脁妻〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "w3c_uh3_9up_A"
+  ],
+  "preferred_relations": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi047-wife-father",
+      "subject_person_id": "w3c_uh3_9up_A",
+      "predicate": "father",
+      "object_person_id": "w3c_uh3_9up",
+      "qualifiers": {
+        "source_term": "敬則女為脁妻",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_nanqi047_narrative_family",
+          "slot": "wife-father",
+          "paragraph_sha256": "ea4ce4df220dc1fa922062f438e4e013f4001e26d5aad9d4d8ff140e321762ba",
+          "roles": {
+            "wife": "c-nanqishu-047-xietiao:p011:m0008",
+            "wangjingze": "c-nanqishu-047-xietiao:p011:m0003",
+            "xietiao": "c-nanqishu-047-xietiao:p011:m0000"
+          }
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "paragraph_id": "c-nanqishu-047-xietiao:p011",
+          "quote": "朓初告王敬則敬則女為脁妻常懐刀欲報脁脁不敢相見及為吏部郎沈昭畧謂脁曰卿人地之美無忝此職但恨今日刑於寡妻",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao:p011:m0008",
+          "object_person_mention_id": "c-nanqishu-047-xietiao:p011:m0003"
+        }
+      ],
+      "interpretation_note": "完整敘事明詞角色，保未名女／弟，不推母親、共同父或絕對排行。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi047-wife-spouse",
+      "subject_person_id": "w3c_uh3_9up_A",
+      "predicate": "spouse",
+      "object_person_id": "aa6_83c_juy_ABDCA",
+      "qualifiers": {
+        "source_term": "敬則女為脁妻",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_nanqi047_narrative_family",
+          "slot": "wife-spouse",
+          "paragraph_sha256": "ea4ce4df220dc1fa922062f438e4e013f4001e26d5aad9d4d8ff140e321762ba",
+          "roles": {
+            "wife": "c-nanqishu-047-xietiao:p011:m0008",
+            "wangjingze": "c-nanqishu-047-xietiao:p011:m0003",
+            "xietiao": "c-nanqishu-047-xietiao:p011:m0000"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "paragraph_id": "c-nanqishu-047-xietiao:p011",
+          "quote": "朓初告王敬則敬則女為脁妻常懐刀欲報脁脁不敢相見及為吏部郎沈昭畧謂脁曰卿人地之美無忝此職但恨今日刑於寡妻",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao:p011:m0008",
+          "object_person_mention_id": "c-nanqishu-047-xietiao:p011:m0000"
+        }
+      ],
+      "interpretation_note": "完整敘事明詞角色，保未名女／弟，不推母親、共同父或絕對排行。"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

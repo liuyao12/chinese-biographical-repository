@@ -310,6 +310,10 @@ def load_catalog(root=ROOT):
         except ImportError:from received_parentage_interpretations import errors as parentage_errors
         issues = parentage_errors(root, records, people)
         if issues:raise ValueError(';'.join(issues))
+    try:from scripts.source_pair_order_preference import errors as pair_order_errors
+    except ImportError:from source_pair_order_preference import errors as pair_order_errors
+    pair_issues=pair_order_errors(root,records,people)
+    if pair_issues:raise ValueError(';'.join(pair_issues))
     try:from scripts.profile_title_preferences import PreferenceCatalog
     except ImportError:from profile_title_preferences import PreferenceCatalog
     return people, PreferenceCatalog(records,people,root)
@@ -514,11 +518,15 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     except ImportError:
         from relative_birth_order_decisions import relevant_decisions, preferred_relation
     order_decisions = relevant_decisions(chapters, ids)
+    try:from scripts.source_pair_order_preference import relevant as pair_order_relevant, preferred_relation as pair_order_relation
+    except ImportError:from source_pair_order_preference import relevant as pair_order_relevant, preferred_relation as pair_order_relation
+    pair_order_preferences = pair_order_relevant(root, records, people, ids)
     preferred_relations = []
     for assertion in relations:
         if assertion['id'] in excluded:
             continue
         preferred = preferred_relation(assertion, order_decisions)
+        preferred = pair_order_relation(preferred, pair_order_preferences)
         if 'relative_age_interpretation' in assertion.get('qualifiers', {}):
             try:
                 from scripts.song047_collateral_care import preferred_relation as preferred_age_relation
@@ -834,6 +842,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'source_temporal_attestations': source_temporal_attestations} if source_temporal_attestations else {}),
             **({'unresolved_kinship_references': unresolved_kinship_references} if unresolved_kinship_references else {}),
             **({'relative_birth_order_decisions': order_decisions} if order_decisions else {}),
+            **({'relative_birth_order_preferences': pair_order_preferences} if pair_order_preferences else {}),
             **({'referent_interpretations': referent_cases} if referent_cases else {}),
             **({'title_proposals': title_proposals} if title_proposals else {}),
             **({'unresolved_title_attestations': unresolved_titles} if unresolved_titles else {}),

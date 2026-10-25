@@ -1,0 +1,208 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanqishu-047-xietiao",
+  "assertions": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi047-xietiao-father",
+      "subject_person_id": "aa6_83c_juy_ABDCA",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_ABDC",
+      "qualifiers": {
+        "source_term": "父緯",
+        "lineage": "paternal",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_unpunctuated_head_grandfather_father",
+          "roles": {
+            "head": "c-nanqishu-047-xietiao:p001:m0000",
+            "style": "c-nanqishu-047-xietiao:p001:m0003",
+            "grandfather": "c-nanqishu-047-xietiao:p001:m0012",
+            "father": "c-nanqishu-047-xietiao:p001:m0018"
+          },
+          "clause_start": 0,
+          "clause_end": 23,
+          "paragraph_sha256": "398c9dfdea0822a094a66ca06e107a32c72bcb06e73ff8d28c15abcd4a461cce",
+          "revision_id": "787dd9a7da495542e8f17c26c96900ce37b2c211"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "paragraph_id": "c-nanqishu-047-xietiao:p001",
+          "quote": "謝脁字𤣥暉陳郡陽夏人也祖述吳興太守父緯散騎侍郎脁少好學有美名文章清麗觧褐豫章王太尉行參軍歴隨王東中郎府轉王儉衛軍東閣祭酒太子舍人隨王鎭西功曹轉文學",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-047-xietiao:p001:m0018"
+        }
+      ],
+      "interpretation_note": "本傳明父與祖各自保存；緯→述只可作另一編輯組裝推理，不造來源明父。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi047-xietiao-grandfather",
+      "subject_person_id": "aa6_83c_juy_ABDCA",
+      "predicate": "grandfather",
+      "object_person_id": "aa6_83c_juy_ABD",
+      "qualifiers": {
+        "source_term": "祖述",
+        "lineage": "paternal",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "close_family_unpunctuated_head_grandfather_father",
+          "roles": {
+            "head": "c-nanqishu-047-xietiao:p001:m0000",
+            "style": "c-nanqishu-047-xietiao:p001:m0003",
+            "grandfather": "c-nanqishu-047-xietiao:p001:m0012",
+            "father": "c-nanqishu-047-xietiao:p001:m0018"
+          },
+          "clause_start": 0,
+          "clause_end": 23,
+          "paragraph_sha256": "398c9dfdea0822a094a66ca06e107a32c72bcb06e73ff8d28c15abcd4a461cce",
+          "revision_id": "787dd9a7da495542e8f17c26c96900ce37b2c211"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "paragraph_id": "c-nanqishu-047-xietiao:p001",
+          "quote": "謝脁字𤣥暉陳郡陽夏人也祖述吳興太守父緯散騎侍郎脁少好學有美名文章清麗觧褐豫章王太尉行參軍歴隨王東中郎府轉王儉衛軍東閣祭酒太子舍人隨王鎭西功曹轉文學",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-047-xietiao:p001:m0012"
+        }
+      ],
+      "interpretation_note": "本傳明父與祖各自保存；緯→述只可作另一編輯組裝推理，不造來源明父。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi047-wife-father",
+      "subject_person_id": "w3c_uh3_9up_A",
+      "predicate": "father",
+      "object_person_id": "w3c_uh3_9up",
+      "qualifiers": {
+        "source_term": "敬則女為脁妻",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_nanqi047_narrative_family",
+          "slot": "wife-father",
+          "paragraph_sha256": "ea4ce4df220dc1fa922062f438e4e013f4001e26d5aad9d4d8ff140e321762ba",
+          "roles": {
+            "wife": "c-nanqishu-047-xietiao:p011:m0008",
+            "wangjingze": "c-nanqishu-047-xietiao:p011:m0003",
+            "xietiao": "c-nanqishu-047-xietiao:p011:m0000"
+          }
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "paragraph_id": "c-nanqishu-047-xietiao:p011",
+          "quote": "朓初告王敬則敬則女為脁妻常懐刀欲報脁脁不敢相見及為吏部郎沈昭畧謂脁曰卿人地之美無忝此職但恨今日刑於寡妻",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao:p011:m0008",
+          "object_person_mention_id": "c-nanqishu-047-xietiao:p011:m0003"
+        }
+      ],
+      "interpretation_note": "完整敘事明詞角色，保未名女／弟，不推母親、共同父或絕對排行。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi047-wife-spouse",
+      "subject_person_id": "w3c_uh3_9up_A",
+      "predicate": "spouse",
+      "object_person_id": "aa6_83c_juy_ABDCA",
+      "qualifiers": {
+        "source_term": "敬則女為脁妻",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_nanqi047_narrative_family",
+          "slot": "wife-spouse",
+          "paragraph_sha256": "ea4ce4df220dc1fa922062f438e4e013f4001e26d5aad9d4d8ff140e321762ba",
+          "roles": {
+            "wife": "c-nanqishu-047-xietiao:p011:m0008",
+            "wangjingze": "c-nanqishu-047-xietiao:p011:m0003",
+            "xietiao": "c-nanqishu-047-xietiao:p011:m0000"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "paragraph_id": "c-nanqishu-047-xietiao:p011",
+          "quote": "朓初告王敬則敬則女為脁妻常懐刀欲報脁脁不敢相見及為吏部郎沈昭畧謂脁曰卿人地之美無忝此職但恨今日刑於寡妻",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao:p011:m0008",
+          "object_person_mention_id": "c-nanqishu-047-xietiao:p011:m0000"
+        }
+      ],
+      "interpretation_note": "完整敘事明詞角色，保未名女／弟，不推母親、共同父或絕對排行。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanqi047-younger-brother",
+      "subject_person_id": "nuy_gcj_nsy",
+      "predicate": "brother",
+      "object_person_id": "lvo_bd3_po1",
+      "qualifiers": {
+        "source_term": "與弟祀",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_nanqi047_narrative_family",
+          "slot": "younger-brother",
+          "paragraph_sha256": "a81d2e3e218401d7698823d1cd6531f860b59da0e976132763982cadb3efc056",
+          "roles": {
+            "jiangsi": "c-nanqishu-047-xietiao:p006:m0019",
+            "jiangshi": "c-nanqishu-047-xietiao:p006:m0004"
+          }
+        },
+        "relative_birth_order": {
+          "older_person_id": "lvo_bd3_po1",
+          "younger_person_id": "nuy_gcj_nsy",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "paragraph_id": "c-nanqishu-047-xietiao:p006",
+          "quote": "東昬失德江祏欲立江夏王寳𤣥末更囘惑與弟祀密謂朓曰江夏年少輕脱不堪負荷神器不可復行廢立始安年長入纂不乖物望非以此要富貴政是求安國家耳",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao:p006:m0019",
+          "object_person_mention_id": "c-nanqishu-047-xietiao:p006:m0004"
+        }
+      ],
+      "interpretation_note": "完整敘事明詞角色，保未名女／弟，不推母親、共同父或絕對排行。"
+    }
+  ]
+}

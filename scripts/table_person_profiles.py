@@ -125,6 +125,8 @@ def build(root=ROOT, person_ids=None):
         profile['preferred_relations'] = b.get('preferred_relations', b['relations'])
         if b.get('relative_birth_order_decisions'):
             profile['relative_birth_order_decisions'] = b['relative_birth_order_decisions']
+        if b.get('relative_birth_order_preferences'):
+            profile['relative_birth_order_preferences'] = b['relative_birth_order_preferences']
         if b.get('unresolved_relation_identity_groups'):
             profile['unresolved_relation_identity_groups'] = b['unresolved_relation_identity_groups']
         if b.get('assembled_identity'):

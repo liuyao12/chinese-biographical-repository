@@ -1,0 +1,173 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-shishuoxinyu-yanyu-071",
+  "assertions": [
+    {
+      "id": "a-shishuo071-ju-an-brother",
+      "subject_person_id": "aa6_83c_juy_A",
+      "predicate": "brother",
+      "object_person_id": "aa6_83c_juy_B",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "安次兄據",
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_A",
+          "younger_person_id": "aa6_83c_juy_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "source_claim_layer": "liu_xiaobiao_note_quoting_received_work",
+        "reported_source_work_id": "w-xujinyangqiu-shishuo071-reference",
+        "quoted_work_directly_read": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p002",
+          "quote": "〈胡兒，謝朗小字也。《續晉陽秋》曰：「朗字長度，安次兄據之長子。安蚤知之。文義艷發，名亞於玄，仕至東陽太守。」〉",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0027",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0024"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-shishuo071-lang-father",
+      "subject_person_id": "aa6_83c_juy_AA",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "據之長子",
+        "lineage": "paternal",
+        "source_claim_layer": "liu_xiaobiao_note_quoting_received_work",
+        "reported_source_work_id": "w-xujinyangqiu-shishuo071-reference",
+        "quoted_work_directly_read": false,
+        "birth_order": {
+          "parent_person_id": "aa6_83c_juy_A",
+          "scope": "sons_of_parent",
+          "ordinal": 1,
+          "position": "eldest",
+          "source_term": "長子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p002",
+          "quote": "〈胡兒，謝朗小字也。《續晉陽秋》曰：「朗字長度，安次兄據之長子。安蚤知之。文義艷發，名亞於玄，仕至東陽太守。」〉",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0001",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p002:m0027"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-shishuo071-daoyun-father",
+      "subject_person_id": "aa6_83c_juy_CE",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_C",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "公大兄無奕女",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p003",
+          "quote": "「撒鹽空中差可擬。」兄女曰：「未若柳絮因風起。」公大笑樂。即公大兄無奕女，左將軍王凝之妻也。",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p003:m0010",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p003:m0033"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-shishuo071-daoyun-spouse",
+      "subject_person_id": "aa6_83c_juy_CE",
+      "predicate": "spouse",
+      "object_person_id": "7r6_k52_qji_ABDCBB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "左將軍王凝之妻也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p003",
+          "quote": "「撒鹽空中差可擬。」兄女曰：「未若柳絮因風起。」公大笑樂。即公大兄無奕女，左將軍王凝之妻也。",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p003:m0010",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p003:m0040"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-shishuo071-ningzhi-father",
+      "subject_person_id": "7r6_k52_qji_ABDCBB",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABDCB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "羲之第二子也",
+        "lineage": "paternal",
+        "source_claim_layer": "liu_xiaobiao_note_quoting_received_work",
+        "reported_source_work_id": "w-wangshipu-shishuo071-reference",
+        "quoted_work_directly_read": false,
+        "birth_order": {
+          "parent_person_id": "7r6_k52_qji_ABDCB",
+          "scope": "sons_of_parent",
+          "ordinal": 2,
+          "position": "unspecified",
+          "source_term": "第二子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-yanyu-071",
+          "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+          "paragraph_id": "c-shishuoxinyu-yanyu-071:p004",
+          "quote": "〈《王氏譜》曰：「凝之字叔平，右將軍羲之第二子也。歴江州刺史、左將軍、會稽内史。」《晉安帝紀》曰：「凝之事五斗米道。孫恩之攻會稽，凝之謂民吏曰：『不須備防，吾已請大道，許遣鬼兵相助，賊自破矣。』既不設備，遂爲恩所害。」《婦人集》曰：「謝夫人名道蘊，有文才。所著詩、賦、誄、頌傳於世。」〉",
+          "subject_person_mention_id": "c-shishuoxinyu-yanyu-071:p004:m0009",
+          "object_person_mention_id": "c-shishuoxinyu-yanyu-071:p004:m0018"
+        }
+      ],
+      "interpretation_note": "收到正文/古注所言；若古注引用另一書，只表示本次讀到此注所報，未冒直接讀原書。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

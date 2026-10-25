@@ -445,6 +445,63 @@
       "access_scope": "根代理固定年表完整HTML核讀，本包JSON保景德/大中祥符完整表列、原raw SHA與換算；不複HTML進資料庫。",
       "human_reviewed": false,
       "raw_sha256": "caa12a6f98a69a4d7e364693c05611cb43ef0edb12892bc64c1438350d1ce32d"
+    },
+    "ref-ncl-songshu-01470-catalog": {
+      "title": "宋書：古籍與特藏文獻書目01470號",
+      "url": "https://rbook.ncl.edu.tw/NCLSearch/Search/SearchDetail?HasImage=&SourceID=1&item=fc91541f6aac460a8df4fc27bd3ce65dfDQxMzIy0.HhbQC6W5wZMtuWm6kDyE8IDLou7fXYe0BjuCtknjq4A_&page=&sourceWhereString=&whereString=IChEYXRlX0NyZWF0ZWQgbGlrZSAnJTExMjctMTE4OSUnIG9yIERvY3VtZW50X1llYXIgbGlrZSAnJTExMjctMTE4OSUnICkg0.rKk0hD_wJqHfloT94ZHJCpvBCc_lm8qeuKVE6va0h3I_",
+      "author": "國家圖書館",
+      "access_scope": "完整公開書目頁，未開影像；附註所引阿部隆、李氏研究未另讀",
+      "human_reviewed": false,
+      "source_kind": "official_library_catalog",
+      "source_evidence_path": "source-evidence/songshu-early-edition-catalog-reference.json"
+    },
+    "r-shishuo-provenance-moe": {
+      "title": "教育部《重編國語辭典修訂本》「世說新語」",
+      "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=128543&la=0&powerMode=0",
+      "access_scope": "完整詞條釋義與書目頁面；web rendered lines0–59；無影像校勘。",
+      "summary": "南朝宋劉義慶撰、梁劉孝標注。未給確切完成年。",
+      "accessed_on": "2026-10-25",
+      "human_reviewed": false
+    },
+    "r-shishuo-provenance-kyoto": {
+      "title": "e國寶：世説新書巻第六残巻（京都國立博物館 B甲549）",
+      "url": "https://emuseum.nich.go.jp/detail?content_base_id=101395&content_pict_id=0",
+      "access_scope": "完整物件目錄與解說 lines36–55；未檢視藏品影像。",
+      "summary": "館方定書寫年代為7世紀後半至8世紀前半；存卷六規箴後半111行、捷悟61行，共172行。館方稱最古寫本，本候選只登具名早期見證，不自行宣稱全球最早。",
+      "accessed_on": "2026-10-25",
+      "human_reviewed": false
+    },
+    "r-shishuo-provenance-tokyo": {
+      "title": "e國寶：世說新書第六卷殘卷（東京國立博物館）",
+      "url": "https://emuseum.nich.go.jp/detail?content_base_id=100230&content_part_id=4&content_pict_id=0&langId=zh&webView=",
+      "access_scope": "完整物件目錄與解說 lines45–55；未檢視藏品影像。",
+      "summary": "館方定唐代7–8世紀；現件為卷六豪爽段、四紙相連。原卷後分四段；不當作與京都本互不相關的兩部完整作品。",
+      "accessed_on": "2026-10-25",
+      "human_reviewed": false
+    },
+    "r-shishuo-provenance-kunaicho": {
+      "title": "宮內廳圖書寮文庫：世説新語（３巻），500・5",
+      "url": "https://shoryobu.kunaicho.go.jp/Toshoryo/Detail/1000068840000",
+      "access_scope": "完整目錄、解說及圖像公開範圍 lines17–44；未檢視影像或1960解題。",
+      "summary": "實物目錄列宋版、南宋12–13世紀、三點、金澤文庫舊藏；網頁影像僅上卷。不能從這頁再定為1138年董弅原刻或完整三卷均無缺。",
+      "accessed_on": "2026-10-25",
+      "human_reviewed": false
+    },
+    "r-shishuo-provenance-wang2023": {
+      "title": "王乙珈（2023）〈類書引録《世説新語》及其書籍史意義探考〉",
+      "url": "https://commons.ln.edu.hk/ljcs_new/vol19/iss1/3/",
+      "access_scope": "完整文章落地頁之題名、作者、摘要、中英文摘要與引文格式 lines16–45；未下載或閱讀論文39–56頁。",
+      "summary": "摘要報告1138年董弅嚴州校勘本。僅作版本史研究參考，不將所述版本等同已核現存特定實物。",
+      "accessed_on": "2026-10-25",
+      "human_reviewed": false
+    },
+    "r-shishuo-provenance-ndl1929": {
+      "title": "國立國會圖書館：世説新語：尊経閣叢刊／世説人名譜，155-80",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000039-I1190237",
+      "access_scope": "完整書目及數位資料metadata lines12–240；未開數位頁面或20頁影宋本解題。",
+      "summary": "書目實體出版年為1929、出版者育德財團，附影宋本解題；這是後出影印出版物，不能把1929當宋本年代，也不能由本頁反推宋本1138年。",
+      "accessed_on": "2026-10-25",
+      "human_reviewed": false
     }
   },
   "editions": {
@@ -645,6 +702,68 @@
       ],
       "qualification": "依官方出版社前言的刻本傳承報告；未核具體藏本索書號、圖像或刻印年月，不與四庫轉錄底本混同。",
       "image_verified": false
+    },
+    "edition-songshu-ncl01470-composite-reported": {
+      "id": "edition-songshu-ncl01470-composite-reported",
+      "work_id": "w-songshu",
+      "label": "國家圖書館01470號宋書宋元明遞修混配存本",
+      "extent": "not_established",
+      "date": {
+        "calendar": "common_era_year",
+        "year_numbering": "historical_no_year_zero",
+        "start_year": 1127,
+        "end_year": 1189,
+        "precision": "range"
+      },
+      "reference_ids": [
+        "ref-ncl-songshu-01470-catalog"
+      ],
+      "period_label": "館藏書目西曆欄1127–1189；後經宋元明遞修",
+      "qualification": "年代範圍照錄書目，非各版片或全部現存紙葉的同一製作年代。兩殘本混配；題一百卷、54冊不單獨證逐卷完整。附註對刊刻地與孝宗朝的推定是書目研究意見，未獨立驗證。",
+      "image_verified": false,
+      "composite_copy": true,
+      "catalog_number": "01470",
+      "catalogued_juan": 100,
+      "catalogued_physical_items": 54
+    },
+    "edition-shishuo-kyoto-b549": {
+      "id": "edition-shishuo-kyoto-b549",
+      "work_id": "w-shishuoxinyu",
+      "label": "京都國立博物館 B甲549 卷六殘卷",
+      "extent": "fragment",
+      "date": null,
+      "period_label": "唐；7世紀後半至8世紀前半",
+      "reference_ids": [
+        "r-shishuo-provenance-kyoto"
+      ],
+      "image_verified": false,
+      "qualification": "館目所述早期殘卷，非完整本；含規箴／捷悟而非本庫言語71。只確認具名見證，不證全球最早，不作Wikisource底本。"
+    },
+    "edition-shishuo-tokyo-vol6": {
+      "id": "edition-shishuo-tokyo-vol6",
+      "work_id": "w-shishuoxinyu",
+      "label": "東京國立博物館 卷六豪爽殘卷",
+      "extent": "fragment",
+      "date": null,
+      "period_label": "唐；7–8世紀",
+      "reference_ids": [
+        "r-shishuo-provenance-tokyo"
+      ],
+      "image_verified": false,
+      "qualification": "同一原卷分藏之一；非完整本，非言語71見證。只確認具名見證，不作Wikisource底本。"
+    },
+    "edition-shishuo-kunaicho-500-5": {
+      "id": "edition-shishuo-kunaicho-500-5",
+      "work_id": "w-shishuoxinyu",
+      "label": "宮內廳圖書寮文庫500・5《世説新語》三卷",
+      "extent": "not_established",
+      "date": null,
+      "period_label": "南宋；12–13世紀",
+      "reference_ids": [
+        "r-shishuo-provenance-kunaicho"
+      ],
+      "image_verified": false,
+      "qualification": "目錄有三卷三點，不由此聲稱物理完整性；本頁未明刻年、刻者，故不強配1138董弅原刻。不作Wikisource底本。"
     }
   },
   "works": {
@@ -1142,8 +1261,17 @@
         ]
       },
       "earliest_extant_edition": {
-        "status": "not_researched",
-        "assertions": []
+        "status": "reported",
+        "assertions": [
+          {
+            "edition_id": "edition-songshu-ncl01470-composite-reported",
+            "scope": "known_witness_only",
+            "reference_ids": [
+              "ref-ncl-songshu-01470-catalog"
+            ],
+            "qualification": "只提供一部館藏已知存本，尚未證為全球最早或現用WYG數位文字的底本；不覆蓋既有37卷殘本研究，也不據書目年代定單年。"
+          }
+        ]
       },
       "burial": {
         "status": "not_researched",
@@ -204657,6 +204785,168 @@
         "assertions": []
       },
       "human_reviewed": false
+    },
+    "w-shishuoxinyu": {
+      "work_id": "w-shishuoxinyu",
+      "title": "世說新語",
+      "transmission": "received",
+      "composition": {
+        "status": "reported",
+        "assertions": [
+          {
+            "layer": "compilation",
+            "event_kind": "compilation",
+            "date": null,
+            "period_label": "南朝宋（館目亦稱5世紀頃）",
+            "attributed_author": "劉義慶",
+            "source_expression": "南朝宋劉義慶撰",
+            "reference_ids": [
+              "r-shishuo-provenance-moe",
+              "r-shishuo-provenance-kunaicho"
+            ],
+            "qualification": "僅據已讀官方辭典／館目作時期級記錄；不由作者生卒年倒填完成年，不將所記東漢至東晉事件年代當編纂年代。"
+          },
+          {
+            "layer": "commentary",
+            "event_kind": "commentary",
+            "date": null,
+            "period_label": "南朝梁",
+            "attributed_author": "劉孝標（劉峻）",
+            "source_expression": "梁劉孝標注",
+            "reference_ids": [
+              "r-shishuo-provenance-moe",
+              "r-shishuo-provenance-kyoto"
+            ],
+            "qualification": "劉孝標注與正文編纂分層；本輪已讀資料未給確切撰注年，作者462–521不是撰注起訖，故不轉成年份區間。"
+          }
+        ]
+      },
+      "earliest_extant_edition": {
+        "status": "reported",
+        "assertions": [
+          {
+            "edition_id": "edition-shishuo-kyoto-b549",
+            "scope": "known_witness_only",
+            "reference_ids": [
+              "r-shishuo-provenance-kyoto"
+            ],
+            "qualification": "館目所述早期殘卷，非完整本；含規箴／捷悟而非本庫言語71。只確認具名見證，不證全球最早，不作Wikisource底本。"
+          },
+          {
+            "edition_id": "edition-shishuo-tokyo-vol6",
+            "scope": "known_witness_only",
+            "reference_ids": [
+              "r-shishuo-provenance-tokyo"
+            ],
+            "qualification": "同一原卷分藏之一；非完整本，非言語71見證。只確認具名見證，不作Wikisource底本。"
+          },
+          {
+            "edition_id": "edition-shishuo-kunaicho-500-5",
+            "scope": "known_witness_only",
+            "reference_ids": [
+              "r-shishuo-provenance-kunaicho"
+            ],
+            "qualification": "目錄有三卷三點，不由此聲稱物理完整性；本頁未明刻年、刻者，故不強配1138董弅原刻。不作Wikisource底本。"
+          }
+        ]
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "human_reviewed": false
+    },
+    "w-xujinyangqiu-shishuo071-reference": {
+      "work_id": "w-xujinyangqiu-shishuo071-reference",
+      "title": "續晉陽秋（世說劉注所引）",
+      "transmission": "not_researched",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "human_reviewed": false
+    },
+    "w-wangshipu-shishuo071-reference": {
+      "work_id": "w-wangshipu-shishuo071-reference",
+      "title": "王氏譜（世說劉注所引）",
+      "transmission": "not_researched",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "human_reviewed": false
+    },
+    "w-jinandiji-shishuo071-reference": {
+      "work_id": "w-jinandiji-shishuo071-reference",
+      "title": "晉安帝紀（世說劉注所引）",
+      "transmission": "not_researched",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "human_reviewed": false
+    },
+    "w-furenji-shishuo071-reference": {
+      "work_id": "w-furenji-shishuo071-reference",
+      "title": "婦人集（世說劉注所引）",
+      "transmission": "not_researched",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "human_reviewed": false
     }
   },
   "text_bases": {
@@ -207095,6 +207385,51 @@
       "earliest_extant_basis_edition_id": null,
       "reference_ids": [],
       "note": "本次使用Kanripo固定提交e80c057667e3c8684f11d5088251e10244d5a264之WYG標籤數位轉錄；固定修訂與全文雜湊見正文source。未圖校、未核實際所據古本與最早現存本的關係，不能以提交日期或WYG標籤充當成書及最早版本年代。"
+    },
+    "s-nanqishu-047-appraisal-kr787dd9a7": {
+      "source_id": "s-nanqishu-047-appraisal-kr787dd9a7",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "固定Kanripo提交787dd9a7da495542e8f17c26c96900ce37b2c211之WYG標籤數位轉錄；未圖校、未核實際所據古本與最早現存本，提交日期或WYG標籤不作成書/最早版本日期。收到正文與史臣曰/贊各層分存，選錄不等於全卷完成。"
+    },
+    "s-nanqishu-047-qing-collation-kr787dd9a7": {
+      "source_id": "s-nanqishu-047-qing-collation-kr787dd9a7",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "固定Kanripo提交787dd9a7da495542e8f17c26c96900ce37b2c211之WYG標籤數位轉錄；未圖校、未核實際所據古本與最早現存本，提交日期或WYG標籤不作成書/最早版本日期。後出清四庫考證；所報宋本/南監本/汲古閣本只為報告異文，並未親見。"
+    },
+    "s-nanqishu-047-xietiao-kr787dd9a7": {
+      "source_id": "s-nanqishu-047-xietiao-kr787dd9a7",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "固定Kanripo提交787dd9a7da495542e8f17c26c96900ce37b2c211之WYG標籤數位轉錄；未圖校、未核實際所據古本與最早現存本，提交日期或WYG標籤不作成書/最早版本日期。收到正文與史臣曰/贊各層分存，選錄不等於全卷完成。"
+    },
+    "s-shishuoxinyu-yanyu-ws2567463": {
+      "source_id": "s-shishuoxinyu-yanyu-ws2567463",
+      "work_id": "w-shishuoxinyu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "本條只核固定數位轉錄及劉注引用；數位修訂號不是成書/古本年代，最早傳本與實際底本待專核。"
+    },
+    "s-nanqishu006-jianwu1-nov-kr787dd9a7": {
+      "source_id": "s-nanqishu006-jianwu1-nov-kr787dd9a7",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "固定Kanripo WYG數位轉錄，未圖校或核最早現存本；提交非古籍撰作日。選錄建武元年十一月完整單元，不宣稱全卷。"
     }
   }
 }

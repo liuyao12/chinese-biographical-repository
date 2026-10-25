@@ -1,0 +1,11 @@
+# 同一具名人物對的來源相對年序首選
+
+本限定kind為fixed_xie_ju_an_commentary_order_preference，只處理謝據/謝安。宋052原兄弟斷言與安長據幼相對方向完全不改；新世說言語71完整條中劉注所引續晉陽秋「安次兄據」另存source_attested兄弟來源主張。這表示本次讀到劉注所報，不表示親讀續晉陽秋原書。
+
+獨立person_relative_birth_order_preference_set僅選定世說古注assertion，保留宋原assertion為alternative；preferred_relations只刪宋複本的relative_birth_order，原relations/birth_order_constraints仍有兩個相反原證。preferred_birth_order_constraints只輸出據older/安younger；不改source_term弟，不改父系、ID、生年、絕對排行或其他人物排序。兩卡/頁明示「謝據較謝安年長（《宋書》作弟）」。
+
+helper嚴驗固定人物對、兩端MIDs、兩個相反原來源主張、固定宋段/完整世說四段及原wiki指紋、劉注層與引書資格；modern study只參考不替代primary claim。未知kind、換pair、反序、假人工審閱、改字/URL/revision、漏原條、注冒正文、錯引書或假親讀原書皆拒。
+
+既有relative_birth_order_decisions與identity_alternatives模組及舊行為保留。新kind不是通用同人合併或無限制權威排序；未涉及此pair時不生效。新文字層witness_appended_liu_xiaobiao_note僅忠實顯示本源注容器，與正文分層，書名用既有work mention，不把王氏譜題中姓氏當人物。
+
+人物ID可變：helper不硬編永久人物號。固定宋/世說MIDs與原位/原字解析current據/安，跨源角色及registry雙向aliases/evidence必須一致；source pins只用@ju/@an/@person身份無關角色模板。合法全source/registry/decision rekey保年序語義，單端偷換或逆向不更新須拒。道蘊已採後也沿固定本源MID辨現身份，不要求ownership key。

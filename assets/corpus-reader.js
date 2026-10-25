@@ -67,7 +67,7 @@ export function chapterParagraph(paragraph, people = {}, context = null, workTit
     end = mention.end;
   }
   fragments.push(h(chars.slice(end).join('')));
-  const layerLabels={witness_appended_pei_songzhi_note:'劉宋・裴松之注',witness_peisongzhi_quoted_simabiao_xuzhuan:'裴松之注引司馬彪序傳',witness_appended_lixian_note:'唐・李賢注',witness_appended_liuban_collation:'宋・劉攽校',witness_appended_qing_siku_collation:'清・四庫考證'};
+  const layerLabels={received_compiler_appraisal:'史臣曰・史評',received_compiler_praise:'贊',witness_appended_liu_xiaobiao_note:'劉孝標注',witness_appended_pei_songzhi_note:'劉宋・裴松之注',witness_peisongzhi_quoted_simabiao_xuzhuan:'裴松之注引司馬彪序傳',witness_appended_lixian_note:'唐・李賢注',witness_appended_liuban_collation:'宋・劉攽校',witness_appended_qing_siku_collation:'清・四庫考證'};
   const label=layerLabels[paragraph.text_layer];
   const layerLabel=label?`<div class="corpus-text-layer" data-text-layer-label="${h(paragraph.text_layer)}">${h(label)}</div>`:'';
   return layerLabel+`<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`;
