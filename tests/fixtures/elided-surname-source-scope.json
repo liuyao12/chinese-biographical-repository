@@ -1,0 +1,861 @@
+{
+  "native_paths": [
+    "corpus/jinshu/035-pei-family-assertions.json",
+    "corpus/jinshu/035-pei-family.json",
+    "corpus/jinshu/035-peikai-elided-name-readings.json",
+    "corpus/jinshu/035-peiwei-assertions.json",
+    "corpus/jinshu/035-peiwei-name-components.json",
+    "corpus/jinshu/035-peiwei.json",
+    "corpus/jinshu/035-peixiu-assertions.json",
+    "corpus/jinshu/035-peixiu-elided-name-readings.json",
+    "corpus/jinshu/035-peixiu-name-components.json",
+    "corpus/jinshu/035-peixiu.json",
+    "corpus/jinshu/040-jiachong-family-name-components.json",
+    "corpus/jinshu/043-leguang-name-components.json",
+    "corpus/jinshu/043-leguang.json",
+    "corpus/liangshu/030-peiziye-assertions.json",
+    "corpus/liangshu/030-peiziye.json",
+    "corpus/sanguozhi/009-caoren-caochun-assertions.json",
+    "corpus/sanguozhi/009-caoren-caochun-name-components.json",
+    "corpus/sanguozhi/009-caoren-caochun.json",
+    "corpus/sanguozhi/009-elided-name-readings.json",
+    "corpus/sanguozhi/023-elided-name-readings.json",
+    "corpus/sanguozhi/023-peiqian-assertions.json",
+    "corpus/sanguozhi/023-peiqian-familyb-contextual-name-components.json",
+    "corpus/sanguozhi/023-peiqian-familyb-name-components.json",
+    "corpus/sanguozhi/023-peiqian-name-components.json",
+    "corpus/sanguozhi/023-peiqian-phaseb-name-components.json",
+    "corpus/sanguozhi/023-peiqian.json",
+    "corpus/sanguozhi/026-guohuai.json"
+  ],
+  "new_sidecars": [
+    "corpus/sanguozhi/009-elided-name-readings.json",
+    "corpus/sanguozhi/023-elided-name-readings.json",
+    "corpus/jinshu/035-peixiu-elided-name-readings.json",
+    "corpus/jinshu/035-peikai-elided-name-readings.json"
+  ],
+  "original_literal_null_records_without_mutable_pid": {
+    "nc-sgz023-peiqian-pqt-063": {
+      "id": "nc-sgz023-peiqian-pqt-063",
+      "surname": null,
+      "ming": "秀",
+      "zi": "季彦",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p006",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p006:m0005",
+      "quote": "文章敘錄曰秀字季彦弘通博濟八歲能屬文遂知名大將軍曹爽辟喪父服終推財與兄弟年二十五遷黄門侍郎爽誅以故吏免遷衛國相累遷散騎常侍尚書僕射令光祿大夫咸熙中晉文王始建五等命秀典為制度封廣川侯晉室受禪進左光祿大夫改封鉅鹿公遷司空著易及樂論又畫地域圖十八篇傳行于世盟㑹圖及典治官制皆未成年四十八秦始七年薨諡元公配食宗廟少子頠字逸民襲封",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p006",
+          "quote": "文章敘錄曰秀字季彦弘通博濟八歲能屬文遂知名大將軍曹爽辟喪父服終推財與兄弟年二十五遷黄門侍郎爽誅以故吏免遷衛國相累遷散騎常侍尚書僕射令光祿大夫咸熙中晉文王始建五等命秀典為制度封廣川侯晉室受禪進左光祿大夫改封鉅鹿公遷司空著易及樂論又畫地域圖十八篇傳行于世盟㑹圖及典治官制皆未成年四十八秦始七年薨諡元公配食宗廟少子頠字逸民襲封",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p006:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原字保留；既存同來源不重複。全姓傳給兒子若需要另走已證父系surname推得契約，不用registry label或ID。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-063"
+      }
+    },
+    "nc-sgz023-peiqian-pqt-064": {
+      "id": "nc-sgz023-peiqian-pqt-064",
+      "surname": null,
+      "ming": "頠",
+      "zi": "逸民",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p006",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p006:m0154",
+      "quote": "文章敘錄曰秀字季彦弘通博濟八歲能屬文遂知名大將軍曹爽辟喪父服終推財與兄弟年二十五遷黄門侍郎爽誅以故吏免遷衛國相累遷散騎常侍尚書僕射令光祿大夫咸熙中晉文王始建五等命秀典為制度封廣川侯晉室受禪進左光祿大夫改封鉅鹿公遷司空著易及樂論又畫地域圖十八篇傳行于世盟㑹圖及典治官制皆未成年四十八秦始七年薨諡元公配食宗廟少子頠字逸民襲封",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p006",
+          "quote": "文章敘錄曰秀字季彦弘通博濟八歲能屬文遂知名大將軍曹爽辟喪父服終推財與兄弟年二十五遷黄門侍郎爽誅以故吏免遷衛國相累遷散騎常侍尚書僕射令光祿大夫咸熙中晉文王始建五等命秀典為制度封廣川侯晉室受禪進左光祿大夫改封鉅鹿公遷司空著易及樂論又畫地域圖十八篇傳行于世盟㑹圖及典治官制皆未成年四十八秦始七年薨諡元公配食宗廟少子頠字逸民襲封",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p006:m0154"
+        }
+      ],
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原字保留；既存同來源不重複。全姓傳給兒子若需要另走已證父系surname推得契約，不用registry label或ID。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-064"
+      }
+    },
+    "nc-sgz023-peiqian-pqt-065": {
+      "id": "nc-sgz023-peiqian-pqt-065",
+      "surname": null,
+      "ming": "嵩",
+      "zi": "道文",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p009",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p009:m0031",
+      "quote": "頠理具淵博贍於論難著崇有貴無二論以矯虚誕之弊文辭精富為世名論子嵩字道文荀綽稱嵩有父祖風為中書郎早卒頠從父弟邈字景聲有雋才為太傅司馬越從事中郎假節監中外營諸軍事",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p009",
+          "quote": "頠理具淵博贍於論難著崇有貴無二論以矯虚誕之弊文辭精富為世名論子嵩字道文荀綽稱嵩有父祖風為中書郎早卒頠從父弟邈字景聲有雋才為太傅司馬越從事中郎假節監中外營諸軍事",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p009:m0031"
+        }
+      ],
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原字保留；既存同來源不重複。全姓傳給兒子若需要另走已證父系surname推得契約，不用registry label或ID。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-065"
+      }
+    },
+    "nc-sgz023-peiqian-pqt-066": {
+      "id": "nc-sgz023-peiqian-pqt-066",
+      "surname": null,
+      "ming": "邈",
+      "zi": "景聲",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p009",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p009:m0053",
+      "quote": "頠理具淵博贍於論難著崇有貴無二論以矯虚誕之弊文辭精富為世名論子嵩字道文荀綽稱嵩有父祖風為中書郎早卒頠從父弟邈字景聲有雋才為太傅司馬越從事中郎假節監中外營諸軍事",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p009",
+          "quote": "頠理具淵博贍於論難著崇有貴無二論以矯虚誕之弊文辭精富為世名論子嵩字道文荀綽稱嵩有父祖風為中書郎早卒頠從父弟邈字景聲有雋才為太傅司馬越從事中郎假節監中外營諸軍事",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p009:m0053"
+        }
+      ],
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原字保留；既存同來源不重複。全姓傳給兒子若需要另走已證父系surname推得契約，不用registry label或ID。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-066"
+      }
+    },
+    "nc-sgz023-peiqian-pqt-067": {
+      "id": "nc-sgz023-peiqian-pqt-067",
+      "surname": null,
+      "ming": "徽",
+      "zi": "文季",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0003",
+      "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0003"
+        }
+      ],
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原字保留；既存同來源不重複。全姓傳給兒子若需要另走已證父系surname推得契約，不用registry label或ID。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-067"
+      }
+    },
+    "nc-sgz023-peiqian-pqt-068": {
+      "id": "nc-sgz023-peiqian-pqt-068",
+      "surname": null,
+      "ming": "黎",
+      "zi": "伯宗",
+      "additional_names": [
+        "一名演"
+      ],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0035",
+      "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0035"
+        }
+      ],
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原字保留；既存同來源不重複。全姓傳給兒子若需要另走已證父系surname推得契約，不用registry label或ID。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-068"
+      }
+    },
+    "nc-sgz023-peiqian-pqt-069": {
+      "id": "nc-sgz023-peiqian-pqt-069",
+      "surname": null,
+      "ming": "康",
+      "zi": "仲豫",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0047",
+      "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0047"
+        }
+      ],
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原字保留；既存同來源不重複。全姓傳給兒子若需要另走已證父系surname推得契約，不用registry label或ID。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-069"
+      }
+    },
+    "nc-sgz023-peiqian-pqt-070": {
+      "id": "nc-sgz023-peiqian-pqt-070",
+      "surname": null,
+      "ming": "楷",
+      "zi": "叔則",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0057",
+      "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0057"
+        }
+      ],
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原字保留；既存同來源不重複。全姓傳給兒子若需要另走已證父系surname推得契約，不用registry label或ID。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-070"
+      }
+    },
+    "nc-sgz023-peiqian-pqt-071": {
+      "id": "nc-sgz023-peiqian-pqt-071",
+      "surname": null,
+      "ming": "綽",
+      "zi": "季舒",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0073",
+      "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0073"
+        }
+      ],
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原字保留；既存同來源不重複。全姓傳給兒子若需要另走已證父系surname推得契約，不用registry label或ID。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-071"
+      }
+    },
+    "nc-sgz023-peiqian-phaseb-name-bao": {
+      "id": "nc-sgz023-peiqian-phaseb-name-bao",
+      "surname": null,
+      "ming": "苞",
+      "additional_names": [],
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+          "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p013:m0002"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本條來源只單稱苞，此筆只錄原字名，不把此處未寫姓視為本人姓氏歷史上未知；有源父系與時代用姓的contextual推姓另核，不從ID或label概加。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "phaseb-name-bao"
+      },
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p013:m0002",
+      "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之"
+    },
+    "nc-sgz023-peiqian-phaseb-name-chun": {
+      "id": "nc-sgz023-peiqian-phaseb-name-chun",
+      "surname": null,
+      "ming": "純",
+      "additional_names": [],
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+          "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p013:m0009"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本條來源只單稱純，此筆只錄原字名，不把此處未寫姓視為本人姓氏歷史上未知；有源父系與時代用姓的contextual推姓另核，不從ID或label概加。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "phaseb-name-chun"
+      },
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p013:m0009",
+      "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之"
+    },
+    "nc-sgz023-peiqian-phaseb-name-dun": {
+      "id": "nc-sgz023-peiqian-phaseb-name-dun",
+      "surname": null,
+      "ming": "盾",
+      "additional_names": [],
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+          "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p013:m0015"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本條來源只單稱盾，此筆只錄原字名，不把此處未寫姓視為本人姓氏歷史上未知；有源父系與時代用姓的contextual推姓另核，不從ID或label概加。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "phaseb-name-dun"
+      },
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p013:m0015",
+      "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之"
+    },
+    "nc-sgz023-peiqian-phaseb-name-kuo": {
+      "id": "nc-sgz023-peiqian-phaseb-name-kuo",
+      "surname": null,
+      "ming": "廓",
+      "additional_names": [],
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+          "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p014:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本條來源只單稱廓，此筆只錄原字名，不把此處未寫姓視為本人姓氏歷史上未知；有源父系與時代用姓的contextual推姓另核，不從ID或label概加。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "phaseb-name-kuo"
+      },
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p014:m0001",
+      "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識"
+    },
+    "nc-sgz023-peiqian-phaseb-name-zan": {
+      "id": "nc-sgz023-peiqian-phaseb-name-zan",
+      "surname": null,
+      "ming": "瓚",
+      "additional_names": [],
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+          "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p014:m0008"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本條來源只單稱瓚，此筆只錄原字名，不把此處未寫姓視為本人姓氏歷史上未知；有源父系與時代用姓的contextual推姓另核，不從ID或label概加。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "phaseb-name-zan"
+      },
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p014:m0008",
+      "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識"
+    },
+    "nc-sgz023-peiqian-phaseb-name-xian": {
+      "id": "nc-sgz023-peiqian-phaseb-name-xian",
+      "surname": null,
+      "ming": "憲",
+      "additional_names": [],
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+          "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p014:m0013"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本條來源只單稱憲，此筆只錄原字名，不把此處未寫姓視為本人姓氏歷史上未知；有源父系與時代用姓的contextual推姓另核，不從ID或label概加。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "phaseb-name-xian"
+      },
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p014:m0013",
+      "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識"
+    },
+    "nc-sgz023-peiqian-phaseb-name-xia": {
+      "id": "nc-sgz023-peiqian-phaseb-name-xia",
+      "surname": null,
+      "ming": "遐",
+      "additional_names": [],
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+          "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p014:m0020"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本條來源只單稱遐，此筆只錄原字名，不把此處未寫姓視為本人姓氏歷史上未知；有源父系與時代用姓的contextual推姓另核，不從ID或label概加。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "phaseb-name-xia"
+      },
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p014:m0020",
+      "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識"
+    },
+    "nc-sgz009-cc-chun": {
+      "id": "nc-sgz009-cc-chun",
+      "surname": null,
+      "ming": "純",
+      "zi": "子和",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "paragraph_id": "c-sanguozhi-009-caoren-caochun:p006",
+      "person_mention_id": "c-sanguozhi-009-caoren-caochun:p006:m0004",
+      "courtesy_person_mention_id": "c-sanguozhi-009-caoren-caochun:p006:m0006",
+      "quote": "英雄記曰純字子和年十四而喪父與同産兄仁别居承父業富於財僮僕人客以百數純綱紀督御不失其理鄉里咸以為能好學問敬愛學士學士多歸焉由是為逺近所稱年十八為黄門侍郎二十從太祖到襄邑募兵遂常從征戰",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本句原字；不由人物標籤或族ID拆姓。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "name-chun"
+      }
+    },
+    "nc-jin035-peiwei-name-jing": {
+      "id": "nc-jin035-peiwei-name-jing",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p002",
+          "quote": "初，頠兄子憬為白衣，頠論述世勳，賜爵高陽亭侯。楊駿將誅也，駿党左軍將軍劉豫陳兵在門，遇頠，問太傅所在。頠紿之曰：「向於西掖門遇公乘素車，從二人西出矣。」豫曰：「吾何之？」頠曰：「宜至廷尉。」豫從頠言，遂委而去。尋而詔頠代豫領左軍將軍，屯萬春門。及駿誅，以功當封武昌侯，頠請以封憬，帝竟封頠次子該。頠苦陳憬本承嫡，宜襲钜鹿，先帝恩旨，辭不獲命。武昌之封，己之所蒙，特請以封憬。該時尚主，故帝不聽。累遷侍中。",
+          "person_mention_id": "c-jinshu-035-peiwei:p002:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本源可見姓名組件，無姓原字者保名；不靠label補裴或改籓字。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "name-jing"
+      },
+      "surname": null,
+      "ming": "憬",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-035-peiwei",
+      "paragraph_id": "c-jinshu-035-peiwei:p002",
+      "person_mention_id": "c-jinshu-035-peiwei:p002:m0005",
+      "quote": "初，頠兄子憬為白衣，頠論述世勳，賜爵高陽亭侯。楊駿將誅也，駿党左軍將軍劉豫陳兵在門，遇頠，問太傅所在。頠紿之曰：「向於西掖門遇公乘素車，從二人西出矣。」豫曰：「吾何之？」頠曰：「宜至廷尉。」豫從頠言，遂委而去。尋而詔頠代豫領左軍將軍，屯萬春門。及駿誅，以功當封武昌侯，頠請以封憬，帝竟封頠次子該。頠苦陳憬本承嫡，宜襲钜鹿，先帝恩旨，辭不獲命。武昌之封，己之所蒙，特請以封憬。該時尚主，故帝不聽。累遷侍中。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2506399,
+        "paragraph_sha256": "67df61ad24a536f6e5c2216f5f306ba12570939fd3c93f4b0a095f3149554fe1",
+        "mode": "ming_only",
+        "name_mention_id": "c-jinshu-035-peiwei:p002:m0005",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      }
+    },
+    "nc-jin035-peixiu-name-mao": {
+      "id": "nc-jin035-peixiu-name-mao",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "person_mention_id": "c-jinshu-035-peixiu:p001:m0015"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本來源明名，不按label/familyID直接填裴姓；既有全名/他源選讀不覆。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "name-mao"
+      },
+      "chapter_id": "c-jinshu-035-peixiu",
+      "paragraph_id": "c-jinshu-035-peixiu:p001",
+      "person_mention_id": "c-jinshu-035-peixiu:p001:m0015",
+      "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+      "surname": null,
+      "ming": "茂",
+      "additional_names": [],
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2506399,
+        "paragraph_sha256": "0d6217c58eaf183a6e9473ad39b82d33deccedf2bc9e4685899dbe1fac84fa54",
+        "mode": "ming_only",
+        "name_mention_id": "c-jinshu-035-peixiu:p001:m0015",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      }
+    },
+    "nc-jin035-peixiu-name-qian": {
+      "id": "nc-jin035-peixiu-name-qian",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "person_mention_id": "c-jinshu-035-peixiu:p001:m0023"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本來源明名，不按label/familyID直接填裴姓；既有全名/他源選讀不覆。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "name-qian"
+      },
+      "chapter_id": "c-jinshu-035-peixiu",
+      "paragraph_id": "c-jinshu-035-peixiu:p001",
+      "person_mention_id": "c-jinshu-035-peixiu:p001:m0023",
+      "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+      "surname": null,
+      "ming": "潛",
+      "additional_names": [],
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2506399,
+        "paragraph_sha256": "0d6217c58eaf183a6e9473ad39b82d33deccedf2bc9e4685899dbe1fac84fa54",
+        "mode": "ming_only",
+        "name_mention_id": "c-jinshu-035-peixiu:p001:m0023",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      }
+    },
+    "nc-jin035-peixiu-name-hui": {
+      "id": "nc-jin035-peixiu-name-hui",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "person_mention_id": "c-jinshu-035-peixiu:p001:m0047"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本來源明名，不按label/familyID直接填裴姓；既有全名/他源選讀不覆。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "name-hui"
+      },
+      "chapter_id": "c-jinshu-035-peixiu",
+      "paragraph_id": "c-jinshu-035-peixiu:p001",
+      "person_mention_id": "c-jinshu-035-peixiu:p001:m0047",
+      "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+      "surname": null,
+      "ming": "徽",
+      "additional_names": [],
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2506399,
+        "paragraph_sha256": "0d6217c58eaf183a6e9473ad39b82d33deccedf2bc9e4685899dbe1fac84fa54",
+        "mode": "ming_only",
+        "name_mention_id": "c-jinshu-035-peixiu:p001:m0047",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      }
+    },
+    "nc-jin035-peixiu-name-jun": {
+      "id": "nc-jin035-peixiu-name-jun",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p013",
+          "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+          "person_mention_id": "c-jinshu-035-peixiu:p013:m0022"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本來源明名，不按label/familyID直接填裴姓；既有全名/他源選讀不覆。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "name-jun"
+      },
+      "chapter_id": "c-jinshu-035-peixiu",
+      "paragraph_id": "c-jinshu-035-peixiu:p013",
+      "person_mention_id": "c-jinshu-035-peixiu:p013:m0022",
+      "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+      "surname": null,
+      "ming": "浚",
+      "additional_names": [],
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2506399,
+        "paragraph_sha256": "5f36b5dd19f7e63ba36f54e2a4354bf9f47747636ef1549ed9fe7761862cc928",
+        "mode": "ming_only",
+        "name_mention_id": "c-jinshu-035-peixiu:p013:m0022",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      }
+    },
+    "nc-jin035-peixiu-name-wei": {
+      "id": "nc-jin035-peixiu-name-wei",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p013",
+          "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+          "person_mention_id": "c-jinshu-035-peixiu:p013:m0024"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本來源明名，不按label/familyID直接填裴姓；既有全名/他源選讀不覆。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "name-wei"
+      },
+      "chapter_id": "c-jinshu-035-peixiu",
+      "paragraph_id": "c-jinshu-035-peixiu:p013",
+      "person_mention_id": "c-jinshu-035-peixiu:p013:m0024",
+      "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+      "surname": null,
+      "ming": "頠",
+      "additional_names": [],
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2506399,
+        "paragraph_sha256": "5f36b5dd19f7e63ba36f54e2a4354bf9f47747636ef1549ed9fe7761862cc928",
+        "mode": "ming_only",
+        "name_mention_id": "c-jinshu-035-peixiu:p013:m0024",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      }
+    },
+    "nc-jin035-peixiu-name-jing": {
+      "id": "nc-jin035-peixiu-name-jing",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p013",
+          "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+          "person_mention_id": "c-jinshu-035-peixiu:p013:m0042"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本來源明名，不按label/familyID直接填裴姓；既有全名/他源選讀不覆。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "name-jing"
+      },
+      "chapter_id": "c-jinshu-035-peixiu",
+      "paragraph_id": "c-jinshu-035-peixiu:p013",
+      "person_mention_id": "c-jinshu-035-peixiu:p013:m0042",
+      "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+      "surname": null,
+      "ming": "憬",
+      "additional_names": [],
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2506399,
+        "paragraph_sha256": "5f36b5dd19f7e63ba36f54e2a4354bf9f47747636ef1549ed9fe7761862cc928",
+        "mode": "ming_only",
+        "name_mention_id": "c-jinshu-035-peixiu:p013:m0042",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      }
+    }
+  }
+}

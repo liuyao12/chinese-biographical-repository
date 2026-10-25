@@ -300,6 +300,12 @@ def load_catalog(root=ROOT):
     except ImportError:from fixed_compiler_chronology import errors as chronology_errors
     placement_errors=chronology_errors(root,records)
     if placement_errors:raise ValueError(';'.join(placement_errors))
+    # Independently qualified source-parentage interpretations are not assertions.
+    if (root/'corpus/nanqishu/043-xieyue-relationship-interpretations.json').exists() or any(r.get('record_type') == 'person_relationship_interpretation_set' for r in records):
+        try:from scripts.received_parentage_interpretations import errors as parentage_errors
+        except ImportError:from received_parentage_interpretations import errors as parentage_errors
+        issues = parentage_errors(root, records, people)
+        if issues:raise ValueError(';'.join(issues))
     try:from scripts.profile_title_preferences import PreferenceCatalog
     except ImportError:from profile_title_preferences import PreferenceCatalog
     return people, PreferenceCatalog(records,people,root)
@@ -392,7 +398,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         validate_clan_style(name, name_paragraph[1] if name_paragraph else None, relations)
         validate_full_name(name, name_paragraph[1] if name_paragraph else None)
         validate_courtesy_name(name)
-        if 'surname_basis' in name:
+        if 'surname_basis' in name or 'bounded_source_name_binding' in name:
             try:
                 from .surname_from_father import validate as validate_inferred_surname
             except ImportError:
@@ -401,7 +407,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
                 ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_received_fact_chain', 'contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_fixed_biography_family', 'contextual_surname_from_fixed_witness_slots') else relations), root=root)
+                 if 'bounded_source_name_binding' in name or name.get('surname_basis',{}).get('kind') in ('contextual_surname_from_received_fact_chain', 'contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_fixed_biography_family', 'contextual_surname_from_fixed_witness_slots') else relations), root=root)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:
@@ -450,6 +456,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         from life_event_dates import selected_dates
     selected_life_dates = selected_dates(life_events, date_decisions)
     kinship_cases = [case for chapter in chapters.values() for case in chapter['annotation'].get('kinship_interpretation_cases', []) if ids.intersection((case['subject_person_id'], case['object_person_id']))]
+    relationship_interpretations = []
+    if any(r.get('record_type') == 'person_relationship_interpretation_set' for r in records):
+        try:from scripts.received_parentage_interpretations import select as parentage_select
+        except ImportError:from received_parentage_interpretations import select as parentage_select
+        relationship_interpretations = parentage_select(records, people, root, ids)
     unresolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('unresolved_identity_cases', []) if ids.intersection(case['candidate_person_ids'])]
     referent_cases = [dict(case, work_id=chapter['work_id'], book_id=chapter['book_id'], chapter_id=chapter['id'], source_id=chapter['source_id'])
                       for chapter in chapters.values() for case in chapter['annotation'].get('referent_interpretations', [])
@@ -527,6 +538,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids = {m['paragraph_id'] for m in mentions}
     paragraph_ids.update(n['paragraph_id'] for n in name_components if n.get('kind') != 'table_cell')
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case['evidence'])
+    paragraph_ids.update(e['paragraph_id'] for case in relationship_interpretations for e in case['evidence'])
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
     paragraph_ids.update(pid for case in unresolved_cases + resolved_cases for pid in case['paragraph_ids'])
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)
@@ -754,6 +766,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     neighbor_ids.update(p for case in unresolved_cases for p in case['candidate_person_ids'])
     neighbor_ids.update(p for case in referent_cases for a in case['alternatives'] for p in a['candidate_person_ids'])
     neighbor_ids.update(p for case in kinship_cases for p in (case['subject_person_id'], case['object_person_id']))
+    neighbor_ids.update(p for case in relationship_interpretations for p in (case['subject_person_id'], case['object_person_id']))
     for chapter in chapters.values():
         for case in chapter['annotation'].get('unresolved_kinship_references', []):
             if case['person_id'] in ids or ids.intersection(case['reference_person_candidates']):
@@ -805,6 +818,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'most_mentioned_source_ids': most_mentioned,
             'mention_count_policy': {'scope': 'independent_fixed_witness_occurrences', 'raw_mentions_preserved': True, 'passage_count_scope': 'annotation_containers', 'explanation': '頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。', 'included_kinds': ['paragraph', 'table_cell'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
+            **({'relationship_interpretations': relationship_interpretations} if relationship_interpretations else {}),
             **({'source_title_uses': source_title_uses} if source_title_uses else {}),
             **({'source_details': source_details} if source_details else {}),
             **({'source_temporal_attestations': source_temporal_attestations} if source_temporal_attestations else {}),

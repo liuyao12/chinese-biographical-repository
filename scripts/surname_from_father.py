@@ -1,5 +1,10 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions,root=None):
+ if not isinstance(name,dict):raise ValueError('Name record must be a dictionary')
+ if 'bounded_source_name_binding' in name:
+  try:from scripts.bounded_source_surname import validate as bound_validate
+  except ImportError:from bounded_source_surname import validate as bound_validate
+  return bound_validate(name,names,chapters,assertions,root)
  if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_cross_source_subject_or_father':
   try:from scripts.fixed_cross_source_surname import validate as cross_source_validate
   except ImportError:from fixed_cross_source_surname import validate as cross_source_validate

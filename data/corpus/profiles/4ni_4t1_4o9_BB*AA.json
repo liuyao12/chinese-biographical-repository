@@ -245,7 +245,71 @@
     "4ni_4t1_4o9_BB*AAA": "裴松之"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-song064-gui-literal",
+      "person_id": "4ni_4t1_4o9_BB*AA",
+      "surname": null,
+      "ming": "珪",
+      "additional_names": [],
+      "chapter_id": "c-songshu-064-peisongzhi",
+      "paragraph_id": "c-songshu-064-peisongzhi:p001",
+      "person_mention_id": "c-songshu-064-peisongzhi:p001:m0024",
+      "quote": "裴松之，字世期，河東聞喜人也。祖昧，光祿大夫。父珪，正員外郎。松之年八歳，學通論語、毛詩。博覽墳籍，立身簡素。年二十，拜殿中將軍。此官直衞左右，晉孝武太元中革選名家以參顧問，始用琅邪王茂之、會稽謝輶，皆南北之望。舅庾楷在江陵，欲得松之西上，除新野太守，以事難不行。拜員外散騎侍郎。義熙初，爲吳興故鄣令，在縣有績。入爲尚書祠部郎。",
+      "note": "原文父珪只寫名，字面省姓保null；contextual裴珪另列，不覆寫本筆。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-064",
+      "source_id": "s-song064-ws1748217"
+    },
+    {
+      "id": "name-song064-gui-contextual",
+      "person_id": "4ni_4t1_4o9_BB*AA",
+      "surname": "裴",
+      "ming": "珪",
+      "additional_names": [],
+      "chapter_id": "c-songshu-064-peisongzhi",
+      "paragraph_id": "c-songshu-064-peisongzhi:p001",
+      "person_mention_id": "c-songshu-064-peisongzhi:p001:m0024",
+      "quote": "裴松之，字世期，河東聞喜人也。祖昧，光祿大夫。父珪，正員外郎。松之年八歳，學通論語、毛詩。博覽墳籍，立身簡素。年二十，拜殿中將軍。此官直衞左右，晉孝武太元中革選名家以參顧問，始用琅邪王茂之、會稽謝輶，皆南北之望。舅庾楷在江陵，欲得松之西上，除新野太守，以事難不行。拜員外散騎侍郎。義熙初，爲吳興故鄣令，在縣有績。入爲尚書祠部郎。",
+      "note": "同篇原全文名裴松之與同段明父珪，可反向一步有資格讀裴珪；不經祖昧或編輯父邊。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_same_source_father_chain",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同篇原全文名裴松之與同段明父珪，可反向一步有資格讀裴珪；不經祖昧或編輯父邊。",
+        "source_name_record_id": "name-song064-songzhi-full",
+        "source_full_quote": "裴松之，字世期，河東聞喜人也。祖昧，光祿大夫。父珪，正員外郎。松之年八歳，學通論語、毛詩。博覽墳籍，立身簡素。年二十，拜殿中將軍。此官直衞左右，晉孝武太元中革選名家以參顧問，始用琅邪王茂之、會稽謝輶，皆南北之望。舅庾楷在江陵，欲得松之西上，除新野太守，以事難不行。拜員外散騎侍郎。義熙初，爲吳興故鄣令，在縣有績。入爲尚書祠部郎。",
+        "steps": [
+          {
+            "assertion_id": "a-song064-songzhi-father",
+            "from_person_id": "4ni_4t1_4o9_BB*AAA",
+            "to_person_id": "4ni_4t1_4o9_BB*AA",
+            "traversal": "child_to_father",
+            "source_term": "父珪",
+            "evidence": {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-064",
+              "source_id": "s-song064-ws1748217",
+              "chapter_id": "c-songshu-064-peisongzhi",
+              "paragraph_id": "c-songshu-064-peisongzhi:p001",
+              "quote": "裴松之，字世期，河東聞喜人也。祖昧，光祿大夫。父珪，正員外郎。松之年八歳，學通論語、毛詩。博覽墳籍，立身簡素。年二十，拜殿中將軍。此官直衞左右，晉孝武太元中革選名家以參顧問，始用琅邪王茂之、會稽謝輶，皆南北之望。舅庾楷在江陵，欲得松之西上，除新野太守，以事難不行。拜員外散騎侍郎。義熙初，爲吳興故鄣令，在縣有績。入爲尚書祠部郎。",
+              "subject_person_mention_id": "c-songshu-064-peisongzhi:p001:m0000",
+              "object_person_mention_id": "c-songshu-064-peisongzhi:p001:m0024"
+            }
+          }
+        ]
+      },
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-064",
+      "source_id": "s-song064-ws1748217"
+    }
+  ],
   "person_ids": [
     "4ni_4t1_4o9_BB*AA"
   ],

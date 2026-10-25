@@ -216,7 +216,110 @@
     "6dl_14m_2dj_ABAA": "亮〔演子〕"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-elided-literal-af5e4c4c9056a9",
+      "person_id": "6dl_14m_2dj_ABAA",
+      "surname": null,
+      "ming": "亮",
+      "additional_names": [],
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "paragraph_id": "c-sanguozhi-009-caoren-caochun:p009",
+      "person_mention_id": "c-sanguozhi-009-caoren-caochun:p009:m0021",
+      "quote": "子演嗣官至領軍將軍正元中進封平樂鄉侯演薨子亮嗣",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p009",
+          "quote": "子演嗣官至領軍將軍正元中進封平樂鄉侯演薨子亮嗣",
+          "person_mention_id": "c-sanguozhi-009-caoren-caochun:p009:m0021"
+        }
+      ],
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "nc-elided-literal-af5e4c4c9056a9"
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa"
+    },
+    {
+      "id": "nc-elided-context-af5e4c4c9056a9",
+      "person_id": "6dl_14m_2dj_ABAA",
+      "surname": "曹",
+      "ming": "亮",
+      "additional_names": [],
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "paragraph_id": "c-sanguozhi-009-caoren-caochun:p009",
+      "person_mention_id": "c-sanguozhi-009-caoren-caochun:p009:m0021",
+      "quote": "子演嗣官至領軍將軍正元中進封平樂鄉侯演薨子亮嗣",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p009",
+          "quote": "子演嗣官至領軍將軍正元中進封平樂鄉侯演薨子亮嗣",
+          "person_mention_id": "c-sanguozhi-009-caoren-caochun:p009:m0021"
+        }
+      ],
+      "interpretation_note": "編輯省姓首選；原來源單稱／surname:null另筆全值保留，不冒原文明全名，不由familyID或組裝父系推姓。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_kanripo_slots",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同完整固定來源明全名seed及已驗父／兄弟／從父弟路徑；不造中間父。",
+        "seed_name_record_id": "nc-sgz009-cc-ren",
+        "steps": [
+          {
+            "assertion_id": "a-sgz009-cc-chun-younger-ren",
+            "from_person_id": "6dl_14m_2dj_AA",
+            "to_person_id": "6dl_14m_2dj_AB",
+            "generation_before": 0,
+            "generation_after": 0,
+            "traversal": "object_to_subject"
+          },
+          {
+            "assertion_id": "a-sgz009-cc-yan-father-chun",
+            "from_person_id": "6dl_14m_2dj_AB",
+            "to_person_id": "6dl_14m_2dj_ABA",
+            "generation_before": 0,
+            "generation_after": 1,
+            "traversal": "object_to_subject"
+          },
+          {
+            "assertion_id": "a-sgz009-cc-liang-father-yan",
+            "from_person_id": "6dl_14m_2dj_ABA",
+            "to_person_id": "6dl_14m_2dj_ABAA",
+            "generation_before": 1,
+            "generation_after": 2,
+            "traversal": "object_to_subject"
+          }
+        ]
+      },
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "nc-elided-context-af5e4c4c9056a9"
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa"
+    }
+  ],
   "person_ids": [
     "6dl_14m_2dj_ABAA"
   ],

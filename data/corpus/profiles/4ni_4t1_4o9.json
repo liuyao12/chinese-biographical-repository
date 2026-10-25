@@ -618,6 +618,97 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-035",
       "source_id": "s-jinshu-035-ws2506399-peixiu"
+    },
+    {
+      "id": "nc-elided-literal-59f086abd77dd9",
+      "person_id": "4ni_4t1_4o9",
+      "surname": null,
+      "ming": "茂",
+      "additional_names": [],
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p002",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p002:m0009",
+      "quote": "魏略曰潛世為著姓父茂仕靈帝時歴縣令郡守尚書建安初以奉使率導關中諸將討李傕有功封列侯潛少不修細行由此為父所不禮",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p002",
+          "quote": "魏略曰潛世為著姓父茂仕靈帝時歴縣令郡守尚書建安初以奉使率導關中諸將討李傕有功封列侯潛少不修細行由此為父所不禮",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p002:m0009"
+        }
+      ],
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "nc-elided-literal-59f086abd77dd9"
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa"
+    },
+    {
+      "id": "nc-elided-context-59f086abd77dd9",
+      "person_id": "4ni_4t1_4o9",
+      "surname": "裴",
+      "ming": "茂",
+      "additional_names": [],
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p002",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p002:m0009",
+      "quote": "魏略曰潛世為著姓父茂仕靈帝時歴縣令郡守尚書建安初以奉使率導關中諸將討李傕有功封列侯潛少不修細行由此為父所不禮",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p002",
+          "quote": "魏略曰潛世為著姓父茂仕靈帝時歴縣令郡守尚書建安初以奉使率導關中諸將討李傕有功封列侯潛少不修細行由此為父所不禮",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p002:m0009"
+        }
+      ],
+      "interpretation_note": "編輯省姓首選；原來源單稱／surname:null另筆全值保留，不冒原文明全名，不由familyID或組裝父系推姓。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_same_source_father_chain",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "完整源內全文名及明父子路徑；不讀ID/label/組裝父鏈",
+        "source_name_record_id": "nc-sgz023-peiqian-pqt-062",
+        "source_full_quote": "裴潛字文行河東聞喜人也",
+        "steps": [
+          {
+            "assertion_id": "a-sgz023-peiqian-pqt-001",
+            "from_person_id": "4ni_4t1_4o9_A",
+            "to_person_id": "4ni_4t1_4o9",
+            "traversal": "child_to_father",
+            "evidence": {
+              "work_id": "w-sanguozhi",
+              "book_id": "b-sanguozhi-023",
+              "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+              "chapter_id": "c-sanguozhi-023-peiqian",
+              "paragraph_id": "c-sanguozhi-023-peiqian:p002",
+              "quote": "魏略曰潛世為著姓父茂仕靈帝時歴縣令郡守尚書建安初以奉使率導關中諸將討李傕有功封列侯潛少不修細行由此為父所不禮",
+              "subject_person_mention_id": "c-sanguozhi-023-peiqian:p002:m0003",
+              "object_person_mention_id": "c-sanguozhi-023-peiqian:p002:m0009"
+            },
+            "source_term": "父茂"
+          }
+        ]
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa"
     }
   ],
   "person_ids": [

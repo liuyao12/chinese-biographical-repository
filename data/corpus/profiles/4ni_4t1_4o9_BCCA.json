@@ -142,7 +142,102 @@
     "4ni_4t1_4o9_BCCA": "挹〔憲子〕"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-elided-literal-8ab36795c13209",
+      "person_id": "4ni_4t1_4o9_BCCA",
+      "surname": null,
+      "ming": "挹",
+      "additional_names": [],
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-jinshu-035-peikai-family",
+      "paragraph_id": "c-jinshu-035-peikai-family:p014",
+      "person_mention_id": "c-jinshu-035-peikai-family:p014:m0016",
+      "quote": "及季龍之世，彌加禮重。憲有二子：挹、㲄，並以文才知名。㲄仕季龍為太子中庶子、散騎常侍。挹、㲄俱豪俠耽酒，好臧否人物。與河間邢魚有隙，魚竊乘㲄馬奔段遼，為人所獲，魚誣㲄使己以季龍當襲鮮卑，告之為備。時季龍適謀伐遼，而與魚辭正合。季龍悉誅挹、㲄，憲亦坐免。未幾，復以為右光祿大夫、司徒、太傅，封安定郡公。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p014",
+          "quote": "及季龍之世，彌加禮重。憲有二子：挹、㲄，並以文才知名。㲄仕季龍為太子中庶子、散騎常侍。挹、㲄俱豪俠耽酒，好臧否人物。與河間邢魚有隙，魚竊乘㲄馬奔段遼，為人所獲，魚誣㲄使己以季龍當襲鮮卑，告之為備。時季龍適謀伐遼，而與魚辭正合。季龍悉誅挹、㲄，憲亦坐免。未幾，復以為右光祿大夫、司徒、太傅，封安定郡公。",
+          "person_mention_id": "c-jinshu-035-peikai-family:p014:m0016"
+        }
+      ],
+      "bounded_source_name_binding": {
+        "kind": "bounded_source_name_components",
+        "key": "legacy-peikai",
+        "slot": "literal-8ab36795c13209"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-peikai-ws2506399"
+    },
+    {
+      "id": "nc-elided-context-8ab36795c13209",
+      "person_id": "4ni_4t1_4o9_BCCA",
+      "surname": "裴",
+      "ming": "挹",
+      "additional_names": [],
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "reviewer": "Codex（AI代理）",
+      "chapter_id": "c-jinshu-035-peikai-family",
+      "paragraph_id": "c-jinshu-035-peikai-family:p014",
+      "person_mention_id": "c-jinshu-035-peikai-family:p014:m0016",
+      "quote": "及季龍之世，彌加禮重。憲有二子：挹、㲄，並以文才知名。㲄仕季龍為太子中庶子、散騎常侍。挹、㲄俱豪俠耽酒，好臧否人物。與河間邢魚有隙，魚竊乘㲄馬奔段遼，為人所獲，魚誣㲄使己以季龍當襲鮮卑，告之為備。時季龍適謀伐遼，而與魚辭正合。季龍悉誅挹、㲄，憲亦坐免。未幾，復以為右光祿大夫、司徒、太傅，封安定郡公。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p014",
+          "quote": "及季龍之世，彌加禮重。憲有二子：挹、㲄，並以文才知名。㲄仕季龍為太子中庶子、散騎常侍。挹、㲄俱豪俠耽酒，好臧否人物。與河間邢魚有隙，魚竊乘㲄馬奔段遼，為人所獲，魚誣㲄使己以季龍當襲鮮卑，告之為備。時季龍適謀伐遼，而與魚辭正合。季龍悉誅挹、㲄，憲亦坐免。未幾，復以為右光祿大夫、司徒、太傅，封安定郡公。",
+          "person_mention_id": "c-jinshu-035-peikai-family:p014:m0016"
+        }
+      ],
+      "interpretation_note": "編輯省姓首選；原來源單稱／surname:null另筆全值保留，不冒原文明全名，不由familyID或組裝父系推姓。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_bound_legacy_biography",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "固定完整裴楷附傳內實見裴楷全文名及已驗父子角色；非段首seed仍逐原MID，不借ID或編輯父。",
+        "seed_name_record_id": "nc-elided-literal-7609dbfe80bbac",
+        "steps": [
+          {
+            "assertion_id": "a-jin035-pei-kai-child-xian",
+            "from_person_id": "4ni_4t1_4o9_BC",
+            "to_person_id": "4ni_4t1_4o9_BCC",
+            "generation_before": 0,
+            "generation_after": 1,
+            "traversal": "object_to_subject"
+          },
+          {
+            "assertion_id": "a-jin035-pei-xian-child-yi",
+            "from_person_id": "4ni_4t1_4o9_BCC",
+            "to_person_id": "4ni_4t1_4o9_BCCA",
+            "generation_before": 1,
+            "generation_after": 2,
+            "traversal": "object_to_subject"
+          }
+        ]
+      },
+      "bounded_source_name_binding": {
+        "kind": "bounded_source_name_components",
+        "key": "legacy-peikai",
+        "slot": "context-8ab36795c13209"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-peikai-ws2506399"
+    }
+  ],
   "person_ids": [
     "4ni_4t1_4o9_BCCA"
   ],

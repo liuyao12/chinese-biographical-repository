@@ -293,6 +293,75 @@
   "dates": [],
   "name_components": [
     {
+      "id": "nc-elided-context-a078d316fb59b1",
+      "person_id": "4ni_4t1_4o9_A*A",
+      "surname": "裴",
+      "ming": "邈",
+      "zi": "景聲",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p009",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p009:m0053",
+      "quote": "頠理具淵博贍於論難著崇有貴無二論以矯虚誕之弊文辭精富為世名論子嵩字道文荀綽稱嵩有父祖風為中書郎早卒頠從父弟邈字景聲有雋才為太傅司馬越從事中郎假節監中外營諸軍事",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p009",
+          "quote": "頠理具淵博贍於論難著崇有貴無二論以矯虚誕之弊文辭精富為世名論子嵩字道文荀綽稱嵩有父祖風為中書郎早卒頠從父弟邈字景聲有雋才為太傅司馬越從事中郎假節監中外營諸軍事",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p009:m0053"
+        }
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "編輯省姓首選；原來源單稱／surname:null另筆全值保留，不冒原文明全名，不由familyID或組裝父系推姓。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_kanripo_slots",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同完整固定來源明全名seed及已驗父／兄弟／從父弟路徑；不造中間父。",
+        "seed_name_record_id": "nc-sgz023-peiqian-pqt-062",
+        "steps": [
+          {
+            "assertion_id": "a-sgz023-peiqian-pqt-005",
+            "from_person_id": "4ni_4t1_4o9_A",
+            "to_person_id": "4ni_4t1_4o9_AA",
+            "generation_before": 0,
+            "generation_after": 1,
+            "traversal": "object_to_subject"
+          },
+          {
+            "assertion_id": "a-sgz023-peiqian-pqt-006",
+            "from_person_id": "4ni_4t1_4o9_AA",
+            "to_person_id": "4ni_4t1_4o9_AAB",
+            "generation_before": 1,
+            "generation_after": 2,
+            "traversal": "object_to_subject"
+          },
+          {
+            "assertion_id": "a-sgz023-peiqian-pqt-029",
+            "from_person_id": "4ni_4t1_4o9_AAB",
+            "to_person_id": "4ni_4t1_4o9_A*A",
+            "generation_before": 2,
+            "generation_after": 2,
+            "traversal": "object_to_subject"
+          }
+        ]
+      },
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "nc-elided-context-a078d316fb59b1"
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa"
+    },
+    {
       "id": "nc-sgz023-peiqian-pqt-066",
       "person_id": "4ni_4t1_4o9_A*A",
       "surname": null,

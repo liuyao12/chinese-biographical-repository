@@ -73,3 +73,10 @@ python3 scripts/person_bundle.py jx9_cov_qe0 --include-provisional --output /tmp
 `source_mention_summary` 的提及次數合計正文及年表逐人錨點；`paragraph_ids` 與 `table_cell_ids` 分列，`passage_count` 為不同正文段落與原格的總數。同格兩次出現算兩次提及、一個格位；其他人物在同格的標記不計入本人物頻次。`most_mentioned_source_ids` 仍保留所有並列最多來源，頻次不作史料權重。索引 `mention_count` 合計兩類，另列 `paragraph_mention_count`、`table_mention_count`，可檢查計數。
 
 尚未完成CBR人物登記的年表獨立候選仍在閱讀器人物資料中分存；本來源包不因同名自動建立同指或家族，不能把此次匯出視為年表全部人物身份覆核完成。
+
+
+## 暫定來源親屬判讀
+
+`relationship_interpretations` 保存獨立的可解析來源判讀，與 `relations` 的原文直接主張分開。每項保留 `predicate`、子／父兩端、`status: contextual_provisional`、`qualification`、完整原段與固定角色／範圍。可從任一端查到同一筆，不手工複製反向主張；不寫入預設父系、排行或組裝。
+
+目前僅《南齊書》謝𤅢傳「父莊」「四兄」「謝莊名兒」完整同段語境的顥、嵷兩項；既有組裝層推得父莊保留原資格。無本類資料不輸出空欄。預設精確人物與 `--include-provisional` 身份集合遵循原語義；該旗標不決定是否顯示暫定親屬，命中任一實際端點即返回。
