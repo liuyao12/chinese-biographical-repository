@@ -5,16 +5,60 @@ on:
 permissions:
   contents: read
 jobs:
-  validate:
+  corpus:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Bind manifest revision to checkout
+        run: test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
       - run: python3 scripts/validate.py
       - run: python3 scripts/validate_corpus.py
       - run: python3 scripts/render_corpus.py --check
       - run: python3 -m scripts.reading_catalog --check
       - run: python3 -m scripts.historical_tables validate
-      - run: python3 -m unittest discover -s tests -v
+      - name: Run complete-suite shard
+        run: >-
+          python3 scripts/python_test_shards.py run
+          --index ${{ matrix.shard }} --count 2
+          --revision "$GITHUB_SHA"
+          --manifest "shard-results/shard-${{ matrix.shard }}.json"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: corpus-shard-${{ matrix.shard }}
+          path: shard-results/shard-${{ matrix.shard }}.json
+          if-no-files-found: error
+  validate:
+    needs: corpus
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Require every shard job to succeed
+        env:
+          SHARD_RESULT: ${{ needs.corpus.result }}
+        run: |
+          test "$SHARD_RESULT" = success
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: corpus-shard-*
+          path: shard-results
+          merge-multiple: true
+      - name: Verify full-suite coverage and checkout revision
+        run: >-
+          python3 scripts/python_test_shards.py verify
+          --revision "$GITHUB_SHA" --count 2
+          shard-results/shard-*.json

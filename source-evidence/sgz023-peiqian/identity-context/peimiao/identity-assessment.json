@@ -1,0 +1,49 @@
+{
+  "record_type": "source_specific_identity_research_not_native_decision",
+  "subject": "SGZ023裴潛注頠從父弟邈與Jin035八裴邈",
+  "preferred_disposition": "same_person_contextual_provisional",
+  "preferred_existing_seed": {
+    "chapter_id": "c-jinshu-035-peikai-family",
+    "paragraph_id": "c-jinshu-035-peikai-family:p019",
+    "mention_id": "c-jinshu-035-peikai-family:p019:m0059",
+    "person_id_at_capture": "sra_yp5_n8o",
+    "resolve_current_by_source_mid": true
+  },
+  "suggested_source_agent_action": "023來源匯入時可重用既有MID解析的canonical；本研究不執行merge、不造新ID、不登字號或親屬fact。",
+  "positive_evidence": [
+    {
+      "claim": "023與SSXY注為同一具體人物的高度相合敘述",
+      "anchors": [
+        "sgz023-miao-complete-biographical-clause",
+        "ssxy-name-clan",
+        "ssxy-kin",
+        "ssxy-office"
+      ],
+      "qualification": "同邈字景聲、頠之從父弟/頠為從兄、太傅從事中郎及監東海王軍事。可能共享更早材料，不能當四個獨立見證投票。"
+    },
+    {
+      "claim": "八裴邈首選即上述人",
+      "anchors": [
+        "jin035-current-miao-seed",
+        "ssxy-wangyan-contact",
+        "jin062-yue-household-miao"
+      ],
+      "qualification": "035明裴王二族、與頠並列；SSXY景聲與王夷甫交往；062裴邈在東海王越府為三才，均屬相容西晉裴氏士林。這是上下文首選，沒有原句明說八裴邈字景聲。"
+    }
+  ],
+  "limits": [
+    "八裴列表含不同世代，不能說八人嚴格同代或列表證任兩人父子。",
+    "從父弟及從兄保原詞，本研究不由其自動補父名、同祖、精確世距或絕對排行。",
+    "035八裴邈無字/官，缺共同精確事件限制確定度，但不是異人的反證。",
+    "未見同名異字、異父、互斥年代或官職反證；未完成所有傳世文獻同名窮盡。",
+    "SSXY注為劉孝標轉引晉諸公贊；不是獨立原書親讀，與023是否共源未定。",
+    "王夷甫交往及越府官僚相容不足各自單獨決定同指。",
+    "不採WS作者頁把邈稱楷之從弟的現代概述為權威；兩 primary 讀到的是與頠之關係。",
+    "所有原字、035句末雲與MIDs保留；不由比較名單創造裴邈王玄間親屬。"
+  ],
+  "new_person_created": false,
+  "native_merge_performed": false,
+  "human_reviewed": false,
+  "image_verified": false,
+  "review": "ai_provisional"
+}

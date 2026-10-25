@@ -1,0 +1,570 @@
+[
+  {
+    "slot": "name-guoshu",
+    "category": "name",
+    "source_term": null,
+    "interpretation_note": "本源明稱分存，非全庫首選；璠省姓不以ID或label補姓，硃字原樣。",
+    "person_role": {
+      "$person": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "slot": "name-fangui",
+    "category": "name",
+    "source_term": null,
+    "interpretation_note": "本源明稱分存，非全庫首選；璠省姓不以ID或label補姓，硃字原樣。",
+    "person_role": {
+      "$person": [
+        0,
+        4
+      ]
+    }
+  },
+  {
+    "slot": "name-guojing",
+    "category": "name",
+    "source_term": null,
+    "interpretation_note": "本源明稱分存，非全庫首選；璠省姓不以ID或label補姓，硃字原樣。",
+    "person_role": {
+      "$person": [
+        0,
+        5
+      ]
+    }
+  },
+  {
+    "slot": "name-xiahouhan",
+    "category": "name",
+    "source_term": null,
+    "interpretation_note": "本源明稱分存，非全庫首選；璠省姓不以ID或label補姓，硃字原樣。",
+    "person_role": {
+      "$person": [
+        0,
+        9
+      ]
+    }
+  },
+  {
+    "slot": "name-zongdai",
+    "category": "name",
+    "source_term": null,
+    "interpretation_note": "本源明稱分存，非全庫首選；璠省姓不以ID或label補姓，硃字原樣。",
+    "person_role": {
+      "$person": [
+        0,
+        13
+      ]
+    }
+  },
+  {
+    "slot": "name-liuhong",
+    "category": "name",
+    "source_term": null,
+    "interpretation_note": "本源明稱分存，非全庫首選；璠省姓不以ID或label補姓，硃字原樣。",
+    "person_role": {
+      "$person": [
+        0,
+        15
+      ]
+    }
+  },
+  {
+    "slot": "name-liufan",
+    "category": "name",
+    "source_term": null,
+    "interpretation_note": "原文明稱璠；姓劉依同段完整劉弘、弘子璠與晉代父系稱姓習慣作編輯首選，不稱原文明載劉璠；未經人工覆核。",
+    "person_role": {
+      "$person": [
+        0,
+        19
+      ]
+    }
+  },
+  {
+    "slot": "name-guomai",
+    "category": "name",
+    "source_term": null,
+    "interpretation_note": "本源明稱分存，非全庫首選；璠省姓不以ID或label補姓，硃字原樣。",
+    "person_role": {
+      "$person": [
+        0,
+        20
+      ]
+    }
+  },
+  {
+    "slot": "name-zongdan",
+    "category": "name",
+    "source_term": null,
+    "interpretation_note": "本源明稱分存，非全庫首選；璠省姓不以ID或label補姓，硃字原樣。",
+    "person_role": {
+      "$person": [
+        4,
+        9
+      ]
+    }
+  },
+  {
+    "slot": "name-lekai",
+    "category": "name",
+    "source_term": null,
+    "interpretation_note": "本源明稱分存，非全庫首選；璠省姓不以ID或label補姓，硃字原樣。",
+    "person_role": {
+      "$person": [
+        4,
+        19
+      ]
+    }
+  },
+  {
+    "slot": "name-zhuyun",
+    "category": "name",
+    "source_term": null,
+    "interpretation_note": "本源明稱分存，非全庫首選；璠省姓不以ID或label補姓，硃字原樣。",
+    "person_role": {
+      "$person": [
+        4,
+        33
+      ]
+    }
+  },
+  {
+    "slot": "guoshu-mother",
+    "category": "assertion",
+    "source_term": null,
+    "interpretation_note": "幼請其母及喪母同敘事母角色，未明生養，不標生母。",
+    "person_role": {
+      "subject": {
+        "$person": [
+          0,
+          0
+        ]
+      },
+      "object": {
+        "$person": [
+          0,
+          3
+        ]
+      }
+    }
+  },
+  {
+    "slot": "liufan-father",
+    "category": "assertion",
+    "source_term": null,
+    "interpretation_note": "弘子璠明父子；不以推為主當授官，不補母或排行。",
+    "person_role": {
+      "subject": {
+        "$person": [
+          0,
+          19
+        ]
+      },
+      "object": {
+        "$person": [
+          0,
+          18
+        ]
+      }
+    }
+  },
+  {
+    "slot": "mother-death",
+    "category": "life",
+    "source_term": "喪母",
+    "interpretation_note": "喪母只證母卒，非郭舒卒或生母資格。",
+    "person_role": {
+      "$person": [
+        0,
+        14
+      ]
+    }
+  },
+  {
+    "slot": "liuhong-death",
+    "category": "life",
+    "source_term": "弘卒",
+    "interpretation_note": "劉弘卒未明年，不借其他事件。",
+    "person_role": {
+      "$person": [
+        0,
+        16
+      ]
+    }
+  },
+  {
+    "slot": "zhoufang-death",
+    "category": "life",
+    "source_term": "周訪卒",
+    "interpretation_note": "旁見周訪卒，未明年。",
+    "person_role": {
+      "$person": [
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "slot": "guoshu-death",
+    "category": "life",
+    "source_term": "病卒",
+    "interpretation_note": "末傳主郭舒病卒；不據此前王敦事件定年或每職任終。",
+    "person_role": {
+      "$person": [
+        4,
+        48
+      ]
+    }
+  },
+  {
+    "slot": "career-01",
+    "category": "holding",
+    "source_term": "領軍校尉",
+    "interpretation_note": "始為：主體郭舒；不以後擅放推精確免官。",
+    "person_role": {
+      "$person": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "slot": "career-02",
+    "category": "holding",
+    "source_term": "西曹",
+    "interpretation_note": "夏侯含辟郭舒；西曹省稱不補掾。",
+    "person_role": {
+      "$person": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "slot": "career-03",
+    "category": "holding",
+    "source_term": "主簿",
+    "interpretation_note": "轉主簿；不把含自坐事的罪移郭舒。",
+    "person_role": {
+      "$person": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "slot": "career-04",
+    "category": "holding",
+    "source_term": "治中",
+    "interpretation_note": "宗岱命為治中，與後劉弘再引分開。",
+    "person_role": {
+      "$person": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "slot": "career-05",
+    "category": "holding",
+    "source_term": "治中",
+    "interpretation_note": "劉弘牧荊州引為治中，非沿宗岱同一任。",
+    "person_role": {
+      "$person": [
+        0,
+        17
+      ]
+    }
+  },
+  {
+    "slot": "career-06",
+    "category": "holding",
+    "source_term": "別駕",
+    "interpretation_note": "王澄引郭舒為別駕。",
+    "person_role": {
+      "$person": [
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "slot": "career-07",
+    "category": "holding",
+    "source_term": "南郡",
+    "interpretation_note": "領南郡是官署省稱，不補未明太守字；兼領角色機讀，不推兼領哪一他職。",
+    "person_role": {
+      "$person": [
+        2,
+        1
+      ]
+    }
+  },
+  {
+    "slot": "career-08",
+    "category": "holding",
+    "source_term": "順陽太守",
+    "interpretation_note": "王澄轉舒順陽太守，後遭杜曾襲，未有明離任年月。",
+    "person_role": {
+      "$person": [
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "slot": "career-09",
+    "category": "holding",
+    "source_term": "參軍",
+    "interpretation_note": "王敦召為，隨後轉職序可證任職；不把官當王敦官。",
+    "person_role": {
+      "$person": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "slot": "career-10",
+    "category": "holding",
+    "source_term": "從事中郎",
+    "interpretation_note": "郭舒轉從事中郎。",
+    "person_role": {
+      "$person": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "slot": "office-fangui",
+    "category": "holding",
+    "source_term": "少府",
+    "interpretation_note": "本源旁見持職；不推任起終，太守/刺史未明轄地不補。",
+    "person_role": {
+      "$person": [
+        0,
+        4
+      ]
+    }
+  },
+  {
+    "slot": "office-guojing",
+    "category": "holding",
+    "source_term": "武陵太守",
+    "interpretation_note": "本源旁見持職；不推任起終，太守/刺史未明轄地不補。",
+    "person_role": {
+      "$person": [
+        0,
+        5
+      ]
+    }
+  },
+  {
+    "slot": "office-xiahouhan",
+    "category": "holding",
+    "source_term": "刺史",
+    "interpretation_note": "本源旁見持職；不推任起終，太守/刺史未明轄地不補。",
+    "person_role": {
+      "$person": [
+        0,
+        9
+      ]
+    }
+  },
+  {
+    "slot": "office-zongdai",
+    "category": "holding",
+    "source_term": "刺史",
+    "interpretation_note": "本源旁見持職；不推任起終，太守/刺史未明轄地不補。",
+    "person_role": {
+      "$person": [
+        0,
+        13
+      ]
+    }
+  },
+  {
+    "slot": "office-zhoufang",
+    "category": "holding",
+    "source_term": "襄陽都督",
+    "interpretation_note": "本源旁見持職；不推任起終，太守/刺史未明轄地不補。",
+    "person_role": {
+      "$person": [
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "slot": "office-zongdan",
+    "category": "holding",
+    "source_term": "荊州別駕",
+    "interpretation_note": "本源旁見持職；不推任起終，太守/刺史未明轄地不補。",
+    "person_role": {
+      "$person": [
+        4,
+        9
+      ]
+    }
+  },
+  {
+    "slot": "office-miutan",
+    "category": "holding",
+    "source_term": "高官督護",
+    "interpretation_note": "本源旁見持職；不推任起終，太守/刺史未明轄地不補。",
+    "person_role": {
+      "$person": [
+        4,
+        18
+      ]
+    }
+  },
+  {
+    "slot": "office-lekai",
+    "category": "holding",
+    "source_term": "太守",
+    "interpretation_note": "本源旁見持職；不推任起終，太守/刺史未明轄地不補。",
+    "person_role": {
+      "$person": [
+        4,
+        19
+      ]
+    }
+  },
+  {
+    "slot": "mourning-departure",
+    "category": "source_detail",
+    "source_term": "喪母去職",
+    "interpretation_note": "只宗岱治中喪母去職，不自動結束所有官或填年月。",
+    "person_role": {
+      "$person": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "slot": "unaccepted-duzeng",
+    "category": "source_detail",
+    "source_term": "曾嘗召之，不往",
+    "interpretation_note": "召不往，未明所授官，不當實任或杜曾官。",
+    "person_role": {
+      "$person": [
+        3,
+        3
+      ]
+    }
+  },
+  {
+    "slot": "you-cheng-not-sent",
+    "category": "source_detail",
+    "source_term": "朝廷征舒為右丞，敦留不遣",
+    "interpretation_note": "朝廷徵而王敦留未遣，不造右丞實任或擅補尚書。",
+    "person_role": {
+      "$person": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "slot": "liangzhou-memorial",
+    "category": "source_detail",
+    "source_term": "表為梁州刺史",
+    "interpretation_note": "王敦為郭舒表薦；未見詔授/赴任，不建實任holding。",
+    "person_role": {
+      "$person": [
+        4,
+        48
+      ]
+    }
+  },
+  {
+    "slot": "monitor-xiangyang",
+    "category": "source_detail",
+    "source_term": "監襄陽軍",
+    "interpretation_note": "周訪卒後監軍；甘卓至乃還，不補都督為舒官。",
+    "person_role": {
+      "$person": [
+        4,
+        3
+      ]
+    }
+  },
+  {
+    "slot": "guard-wuchang",
+    "category": "source_detail",
+    "source_term": "使守武昌",
+    "interpretation_note": "王敦使舒守武昌，不推太守職。",
+    "person_role": {
+      "$person": [
+        4,
+        8
+      ]
+    }
+  },
+  {
+    "slot": "liuhong-jingzhou",
+    "category": "source_detail",
+    "source_term": "劉弘牧荊州",
+    "interpretation_note": "牧荊州來源職掌，非郭舒官或籍貫；未另造省稱全銜。",
+    "person_role": {
+      "$person": [
+        0,
+        15
+      ]
+    }
+  },
+  {
+    "slot": "fan-supported",
+    "category": "source_detail",
+    "source_term": "推弘子璠為主",
+    "interpretation_note": "軍士推璠為主，不等王朝任命或繼位即父子（父子另由弘子證）。",
+    "person_role": {
+      "$person": [
+        0,
+        19
+      ]
+    }
+  },
+  {
+    "slot": "guoshu-confinement",
+    "category": "source_detail",
+    "source_term": "坐擅放司馬彪，系廷尉",
+    "interpretation_note": "郭舒受系；廷尉為拘繫機關，不是郭舒官。",
+    "person_role": {
+      "$person": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "slot": "dukou-station",
+    "category": "address",
+    "source_term": "乃留屯沌口",
+    "interpretation_note": "留屯沌口來源駐屯，不是原籍或死亡地。",
+    "person_role": {
+      "$person": [
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "slot": "zongxin-locality",
+    "category": "address",
+    "source_term": "荊土士人",
+    "interpretation_note": "荊土士人地域稱，不升精確出生／原籍。宗廞首選身份原span宗庾廞保留。",
+    "person_role": {
+      "$person": [
+        1,
+        8
+      ]
+    }
+  }
+]

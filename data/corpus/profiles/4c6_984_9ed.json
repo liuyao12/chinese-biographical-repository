@@ -80,6 +80,64 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-jin043-leguang-yi-rank",
+      "person_id": "4c6_984_9ed",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-leguang",
+          "chapter_id": "c-jinshu-043-leguang",
+          "paragraph_id": "c-jinshu-043-leguang:p010",
+          "quote": "成都王穎，廣之婿也，及與長沙王乂遘難，而廣既處朝望，群小讒謗之。乂以問廣，廣神色不變，徐答曰：「廣豈以五男易一女。」乂猶以為疑，廣竟以憂卒。荀籓聞廣之不免也，為之流涕。三子：凱、肇、謨。",
+          "person_mention_id": "c-jinshu-043-leguang:p010:m0012"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本源用稱見證，湣懷太子為收到的追稱；不推授封/追諡日期，未知起終不補，王號身份見逐人判讀。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-leguang-finite",
+        "slot": "yi-rank"
+      },
+      "title": "長沙王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-leguang-finite",
+        "slot": "yi-rank"
+      },
+      "attestations": [
+        {
+          "id": "th-jin043-leguang-yi-rank:a001",
+          "paragraph_id": "c-jinshu-043-leguang:p010",
+          "start": 12,
+          "end": 15,
+          "surface": "長沙王",
+          "person_mention_id": "c-jinshu-043-leguang:p010:m0012",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-phase4-j-077",
       "person_id": "4c6_984_9ed",
       "title": "長沙王",
@@ -306,6 +364,59 @@
       "book_id": "b-jinshu-039",
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "source_id": "s-jinshu-039-wangxun-feng",
+      "work_title": "晉書"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "樂廣傳",
+      "paragraph_id": "c-jinshu-043-leguang:p010",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "成都王穎，廣之婿也，及與長沙王乂遘難，而廣既處朝望，群小讒謗之。乂以問廣，廣神色不變，徐答曰：「廣豈以五男易一女。」乂猶以為疑，廣竟以憂卒。荀籓聞廣之不免也，為之流涕。三子：凱、肇、謨。",
+      "paragraph_ids": [
+        "c-jinshu-043-leguang:p010"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-leguang:p010:m0012",
+        "c-jinshu-043-leguang:p010:m0032",
+        "c-jinshu-043-leguang:p010:m0058"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-leguang:p010:m0012": "c-jinshu-043-leguang:p010",
+        "c-jinshu-043-leguang:p010:m0032": "c-jinshu-043-leguang:p010",
+        "c-jinshu-043-leguang:p010:m0058": "c-jinshu-043-leguang:p010"
+      },
+      "mention_id": "c-jinshu-043-leguang:p010:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-leguang:p010:m0012",
+          "mention_ids": [
+            "c-jinshu-043-leguang:p010:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-leguang:p010:m0032",
+          "mention_ids": [
+            "c-jinshu-043-leguang:p010:m0032"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-leguang:p010:m0058",
+          "mention_ids": [
+            "c-jinshu-043-leguang:p010:m0058"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-leguang",
+      "source_id": "s-jinshu-043-ws2618531-leguang",
       "work_title": "晉書"
     },
     {
@@ -12943,6 +13054,35 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-043-leguang",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-leguang",
+      "source": {
+        "title": "《晉書》卷四十三樂廣傳完整敘事單元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-24",
+        "extent": "樂廣節全部十一自然段，含三子附敘；止史評之前，不重複全卷共評，非卷043全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "完整樂廣本傳及三子附敘，郎徹／廣雲／潘嶽／楊准／喬／荀籓等原字保持；姓名同指判讀分層，不混改正文。"
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-059-jiong",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-059",
@@ -13663,6 +13803,52 @@
     }
   ],
   "name_components": [
+    {
+      "id": "nc-jin043-leguang-name-simayi",
+      "person_id": "4c6_984_9ed",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-leguang",
+          "chapter_id": "c-jinshu-043-leguang",
+          "paragraph_id": "c-jinshu-043-leguang:p010",
+          "quote": "成都王穎，廣之婿也，及與長沙王乂遘難，而廣既處朝望，群小讒謗之。乂以問廣，廣神色不變，徐答曰：「廣豈以五男易一女。」乂猶以為疑，廣竟以憂卒。荀籓聞廣之不免也，為之流涕。三子：凱、肇、謨。",
+          "person_mention_id": "c-jinshu-043-leguang:p010:m0012"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文王號與名分存，不從全庫標籤擅補來源所無司馬複姓。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-leguang-finite",
+        "slot": "name-simayi"
+      },
+      "surname": null,
+      "ming": "乂",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-043-leguang",
+      "paragraph_id": "c-jinshu-043-leguang:p010",
+      "person_mention_id": "c-jinshu-043-leguang:p010:m0012",
+      "quote": "成都王穎，廣之婿也，及與長沙王乂遘難，而廣既處朝望，群小讒謗之。乂以問廣，廣神色不變，徐答曰：「廣豈以五男易一女。」乂猶以為疑，廣竟以憂卒。荀籓聞廣之不免也，為之流涕。三子：凱、肇、謨。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2618531,
+        "paragraph_sha256": "b45e517b499b128578267fbada77b94fae28b6084f601330c0e60f0dd552ed58",
+        "mode": "titled_given",
+        "name_mention_id": "c-jinshu-043-leguang:p010:m0012",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": "長沙王",
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-leguang"
+    },
     {
       "id": "name-jin090-f53-006",
       "person_id": "4c6_984_9ed",

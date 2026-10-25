@@ -17,7 +17,7 @@ def component_valid(n,c,root,assertions=()):
   m=ms[b['name_mention_id']];assert m['kind']=='person'and m['person_id']==n['person_id']and m['id']==n['person_mention_id']and t[m['start']:m['end']]==m['surface']
   mode=b['mode'];surname=n.get('surname');ming=n.get('ming')
   if mode=='full_name':assert surname and ming and m['surface']==surname+ming and not n.get('surname_basis')
-  elif mode=='ming_only':assert ming and m['surface']==ming and(not surname or n.get('surname_basis',{}).get('kind')==SURNAME_KIND)
+  elif mode=='ming_only':assert ming and m['surface']==ming and(not surname or n.get('surname_basis',{}).get('kind')in(SURNAME_KIND,'contextual_surname_from_fixed_cross_source_subject_or_father'))
   elif mode=='clan_only':assert surname and ming is None and m['surface']==surname+'氏'and not n.get('surname_basis')
   elif mode=='titled_clan':assert surname and ming is None and b['title_prefix']=='夫人'and m['surface']=='夫人'+surname+'氏'and not n.get('surname_basis')
   elif mode=='role_only':assert surname and ming is None and n.get('surname_basis',{}).get('kind')==SURNAME_KIND

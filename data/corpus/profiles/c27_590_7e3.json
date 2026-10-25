@@ -21,7 +21,8 @@
     "魯公充",
     "爾",
     "汝",
-    "己"
+    "己",
+    "從母夫"
   ],
   "titles": [
     {
@@ -64,6 +65,64 @@
           "end": 5,
           "surface": "車騎將軍",
           "person_mention_id": "c-jinshu-034-duyu:p002:m0005",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-jin035-peixiu-title-047",
+      "person_id": "c27_590_7e3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p004",
+          "quote": "初，文帝未定嗣，而屬意舞陽侯攸。武帝懼不得立，問秀曰：「人有相否？」因以奇表示之。秀後言于文帝曰：「中撫軍人望既茂，天表如此，固非人臣之相也。」由是世子乃定。武帝既即王位，拜尚書令、右光祿大夫，與御史大夫王沈、衛將軍賈充俱開府，加給事中。及帝受禪，加左光祿大夫，封钜鹿郡公，邑三千戶。",
+          "person_mention_id": "c-jinshu-035-peixiu:p004:m0108"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "完整固定來源所述；未知年月/計歲/任終不推補。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "title-047"
+      },
+      "title": "衛將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "title-047"
+      },
+      "attestations": [
+        {
+          "id": "th-jin035-peixiu-title-047:a001",
+          "paragraph_id": "c-jinshu-035-peixiu:p004",
+          "start": 105,
+          "end": 108,
+          "surface": "衛將軍",
+          "person_mention_id": "c-jinshu-035-peixiu:p004:m0108",
           "usage": "narrative",
           "date_expression": null
         }
@@ -2998,6 +3057,95 @@
       "work_title": "晉書"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "裴頠傳",
+      "paragraph_id": "c-jinshu-035-peiwei:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，自少知名。御史中丞周弼見而歎曰：「頠若武庫，五兵縱橫，一時之傑也。」賈充即頠從母夫也，表「秀有佐命之勳，不幸嫡長喪亡，遺孤稚弱。頠才德英茂，足以興隆國嗣。」詔頠襲爵，頠固讓，不許。太康二年，徵為太子中庶子，遷散騎常侍。惠帝既位，轉國子祭酒，兼右軍將軍。",
+      "paragraph_ids": [
+        "c-jinshu-035-peiwei:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peiwei:p001:m0050",
+        "c-jinshu-035-peiwei:p001:m0054"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peiwei:p001:m0050": "c-jinshu-035-peiwei:p001",
+        "c-jinshu-035-peiwei:p001:m0054": "c-jinshu-035-peiwei:p001"
+      },
+      "mention_id": "c-jinshu-035-peiwei:p001:m0050",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p001:m0050",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p001:m0050"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p001:m0054",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p001:m0054"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peiwei",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "work_title": "晉書"
+    },
+    {
+      "number": 35,
+      "category": "",
+      "title": "裴秀傳",
+      "paragraph_id": "c-jinshu-035-peixiu:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，進爵縣侯，增邑七百戶，遷尚書僕射。魏咸熙初，厘革憲司。時荀顗定禮儀，賈充正法律，而秀改官制焉。秀議五等之爵，自騎督已上六百餘人皆封。於是秀封濟川侯，地方六十里，邑千四百戶，以高苑縣濟川墟為侯國。",
+      "paragraph_ids": [
+        "c-jinshu-035-peixiu:p003",
+        "c-jinshu-035-peixiu:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peixiu:p003:m0099",
+        "c-jinshu-035-peixiu:p004:m0108"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peixiu:p003:m0099": "c-jinshu-035-peixiu:p003",
+        "c-jinshu-035-peixiu:p004:m0108": "c-jinshu-035-peixiu:p004"
+      },
+      "mention_id": "c-jinshu-035-peixiu:p003:m0099",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu:p003:m0099",
+          "mention_ids": [
+            "c-jinshu-035-peixiu:p003:m0099"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu:p004:m0108",
+          "mention_ids": [
+            "c-jinshu-035-peixiu:p004:m0108"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peixiu",
+      "source_id": "s-jinshu-035-ws2506399-peixiu",
+      "work_title": "晉書"
+    },
+    {
       "number": 39,
       "category": "",
       "title": "王沈荀顗荀勖馮紞列傳第九",
@@ -4548,6 +4696,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 43,
+      "category": "",
+      "title": "樂廣傳",
+      "paragraph_id": "c-jinshu-043-leguang:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "我所不如也。」王戎為荊州刺史，聞廣為夏侯玄所嘗，乃舉為秀才。楷又薦廣于賈充，遂辟太尉掾，轉太子舍人。尚書令衛瓘，朝之耆舊，逮與魏正始中諸名士談論，見廣而奇之，曰：「自昔諸賢既沒，常恐微言將絕，而今乃復聞斯言於君矣。」命諸子造焉，曰：「此人之水鏡，見之瑩然，若披雲霧而睹青天也",
+      "paragraph_ids": [
+        "c-jinshu-043-leguang:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-leguang:p001:m0209"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-leguang:p001:m0209": "c-jinshu-043-leguang:p001"
+      },
+      "mention_id": "c-jinshu-043-leguang:p001:m0209",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-leguang:p001:m0209",
+          "mention_ids": [
+            "c-jinshu-043-leguang:p001:m0209"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-leguang",
+      "source_id": "s-jinshu-043-ws2618531-leguang",
+      "work_title": "晉書"
+    },
+    {
       "number": 53,
       "category": "",
       "title": "《宋書》卷五十三〈庾登之、沖遠及附弟炳之〉",
@@ -4714,6 +4897,64 @@
           "character_conversion": {},
           "extraction_note": "展開連結顯示字、去粗體排版；標題另層。㲄、俊郎、雲及缺閉引號原樣保留。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peiwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "source": {
+        "title": "《晉書》卷三十五子頠完整附傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-24",
+        "extent": "子頠附傳完整十五自然段，含晉書收到崇有之論全部引文容器及二子敘述；非裴秀全傳/卷035全卷或獨立原著全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅排quote模板/顯示wiki標記/段間空白；保每碼點責任。無pipe易鏈接保易原字；內引層非獨立原著見證。"
+        },
+        "raw_path": "sources/witnesses/jin035-ws2506399.wikitext",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peixiu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peixiu",
+      "source": {
+        "title": "《晉書》卷三十五裴秀完整主傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-24",
+        "extent": "裴秀完整十三自然段及篇末浚憬，含本傳收到禹貢地域圖序全部三段；非卷035全卷/十八篇圖或獨立原著全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只排固定二/三級節題、精確wikipedia數位metadata模板、quote容器及顯示wiki標記/空白；全原碼點責任，不以metadata模板作身份權威。"
+        },
+        "raw_path": "sources/witnesses/jin035-ws2506399.wikitext",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
       }
     },
     {
@@ -16604,6 +16845,35 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-043-leguang",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-leguang",
+      "source": {
+        "title": "《晉書》卷四十三樂廣傳完整敘事單元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-24",
+        "extent": "樂廣節全部十一自然段，含三子附敘；止史評之前，不重複全卷共評，非卷043全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "完整樂廣本傳及三子附敘，郎徹／廣雲／潘嶽／楊准／喬／荀籓等原字保持；姓名同指判讀分層，不混改正文。"
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-079-xielang-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-079",
@@ -22648,6 +22918,52 @@
   ],
   "name_components": [
     {
+      "id": "nc-jin035-peiwei-name-jiachong",
+      "person_id": "c27_590_7e3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p001",
+          "quote": "頠字逸民。弘雅有遠識，博學稽古，自少知名。御史中丞周弼見而歎曰：「頠若武庫，五兵縱橫，一時之傑也。」賈充即頠從母夫也，表「秀有佐命之勳，不幸嫡長喪亡，遺孤稚弱。頠才德英茂，足以興隆國嗣。」詔頠襲爵，頠固讓，不許。太康二年，徵為太子中庶子，遷散騎常侍。惠帝既位，轉國子祭酒，兼右軍將軍。",
+          "person_mention_id": "c-jinshu-035-peiwei:p001:m0050"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本源可見姓名組件，無姓原字者保名；不靠label補裴或改籓字。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "name-jiachong"
+      },
+      "surname": "賈",
+      "ming": "充",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-035-peiwei",
+      "paragraph_id": "c-jinshu-035-peiwei:p001",
+      "person_mention_id": "c-jinshu-035-peiwei:p001:m0050",
+      "quote": "頠字逸民。弘雅有遠識，博學稽古，自少知名。御史中丞周弼見而歎曰：「頠若武庫，五兵縱橫，一時之傑也。」賈充即頠從母夫也，表「秀有佐命之勳，不幸嫡長喪亡，遺孤稚弱。頠才德英茂，足以興隆國嗣。」詔頠襲爵，頠固讓，不許。太康二年，徵為太子中庶子，遷散騎常侍。惠帝既位，轉國子祭酒，兼右軍將軍。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2506399,
+        "paragraph_sha256": "873cf6d6ed964fb0ad020a5744359dc24d56161a14474dd707e05ddd645448fe",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-035-peiwei:p001:m0050",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peiwei"
+    },
+    {
       "id": "nc-jin040-jiachong-001",
       "person_id": "c27_590_7e3",
       "surname": "賈",
@@ -22676,9 +22992,95 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-040",
       "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    },
+    {
+      "id": "nc-jin043-leguang-name-jiachong",
+      "person_id": "c27_590_7e3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-leguang",
+          "chapter_id": "c-jinshu-043-leguang",
+          "paragraph_id": "c-jinshu-043-leguang:p001",
+          "quote": "樂廣，字彥輔，南陽淯陽人也。父方，參魏征西將軍夏侯玄軍事。廣時年八歲，玄常見廣在路，因呼與語，還謂方曰：「向見廣神姿郎徹，當為名士。卿家雖貧，可令專學，必能興卿門戶也。」方早卒。廣孤貧，僑居山陽，寒素為業，人無知者。性沖約，有遠識，寡嗜欲，與物無競。尤善談論，每以約言析理，以厭人之心，其所不知，默如也。裴楷嘗引廣共談，自夕申旦，雅相欽挹，歎曰：「我所不如也。」王戎為荊州刺史，聞廣為夏侯玄所嘗，乃舉為秀才。楷又薦廣于賈充，遂辟太尉掾，轉太子舍人。尚書令衛瓘，朝之耆舊，逮與魏正始中諸名士談論，見廣而奇之，曰：「自昔諸賢既沒，常恐微言將絕，而今乃復聞斯言於君矣。」命諸子造焉，曰：「此人之水鏡，見之瑩然，若披雲霧而睹青天也。」王衍自言：「與人語甚簡至，及見廣，便覺己之煩。」其為識者所歎美如此。",
+          "person_mention_id": "c-jinshu-043-leguang:p001:m0209"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本源實稱逐字分存；喬／嶽／准／籓不改別本字，無改名年，不把字號當名。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-leguang-finite",
+        "slot": "name-jiachong"
+      },
+      "surname": "賈",
+      "ming": "充",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-043-leguang",
+      "paragraph_id": "c-jinshu-043-leguang:p001",
+      "person_mention_id": "c-jinshu-043-leguang:p001:m0209",
+      "quote": "樂廣，字彥輔，南陽淯陽人也。父方，參魏征西將軍夏侯玄軍事。廣時年八歲，玄常見廣在路，因呼與語，還謂方曰：「向見廣神姿郎徹，當為名士。卿家雖貧，可令專學，必能興卿門戶也。」方早卒。廣孤貧，僑居山陽，寒素為業，人無知者。性沖約，有遠識，寡嗜欲，與物無競。尤善談論，每以約言析理，以厭人之心，其所不知，默如也。裴楷嘗引廣共談，自夕申旦，雅相欽挹，歎曰：「我所不如也。」王戎為荊州刺史，聞廣為夏侯玄所嘗，乃舉為秀才。楷又薦廣于賈充，遂辟太尉掾，轉太子舍人。尚書令衛瓘，朝之耆舊，逮與魏正始中諸名士談論，見廣而奇之，曰：「自昔諸賢既沒，常恐微言將絕，而今乃復聞斯言於君矣。」命諸子造焉，曰：「此人之水鏡，見之瑩然，若披雲霧而睹青天也。」王衍自言：「與人語甚簡至，及見廣，便覺己之煩。」其為識者所歎美如此。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2618531,
+        "paragraph_sha256": "caa56aed6a9431e46905f8f7812b8cabaff62ae92d5448a2f4569b8590489a60",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-043-leguang:p001:m0209",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-leguang"
     }
   ],
   "source_details": [
+    {
+      "id": "sd-jin035-peixiu-detail-035-jiachong",
+      "person_id": "c27_590_7e3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p003",
+          "quote": "帝之討諸葛誕也，秀與尚書僕射陳泰、黃門侍郎鍾會以行台從，豫參謀略。及誕平，轉尚書，進封魯陽鄉侯，增邑千戶。常道鄉公立，以豫議定策，進爵縣侯，增邑七百戶，遷尚書僕射。魏咸熙初，厘革憲司。時荀顗定禮儀，賈充正法律，而秀改官制焉。秀議五等之爵，自騎督已上六百餘人皆封。於是秀封濟川侯，地方六十里，邑千四百戶，以高苑縣濟川墟為侯國。",
+          "person_mention_id": "c-jinshu-035-peixiu:p003:m0099"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "不是三人任同一職或著同一書。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "detail-035-jiachong"
+      },
+      "chapter_id": "c-jinshu-035-peixiu",
+      "source_term": "荀顗定禮儀，賈充正法律，而秀改官制焉",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-035-peixiu:p003",
+        "start": 93,
+        "end": 111,
+        "surface": "荀顗定禮儀，賈充正法律，而秀改官制焉"
+      },
+      "source_revision": 2506399,
+      "paragraph_sha256": "a540d4802ab553e6f3f59c6b8a1f9ebe96717a37032167fcd767f9d0fb496dbb",
+      "date_expression": null,
+      "kind": "administrative_activity",
+      "values": {
+        "activity_source_term": "正法律"
+      }
+    },
     {
       "id": "bd-jin040-jiachong-family-detail_007",
       "person_id": "c27_590_7e3",

@@ -1,0 +1,94 @@
+{
+  "record_type": "editorial_identity_research",
+  "human_reviewed": false,
+  "model": null,
+  "image_verified": false,
+  "decisions": [
+    {
+      "case": "kai-kai",
+      "status": "unresolved",
+      "person_ids": [
+        "8xc_4gv_fcu",
+        "530_f9d_4bd"
+      ],
+      "merge_proposed": false,
+      "source_surfaces": [
+        "凱",
+        "楷"
+      ],
+      "positive": [
+        "同裴氏敘事環境、時代未見明文直接衝突；凱／楷字近只供檢索線索。"
+      ],
+      "counterevidence": [
+        "該出後從伯凱中的該是頠子，頠父秀、秀父潛；楷父徽而徽為潛弟。由實際來源逐代追溯，楷與秀同代，與該之父頠不同代。",
+        "若採從伯為父之從兄之狹義，世次不合；目前未讀到直接同指、從祖伯寬用或校字證據，不能用字近覆蓋此反證。"
+      ],
+      "source_chain": [
+        {
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p015",
+          "quote": "二子嵩、該",
+          "relation": "該之父頠，原生father斷言另有完整上下文。"
+        },
+        {
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p015",
+          "quote": "該出後從伯凱",
+          "relation": "出後對象凱，與生父頠區別。"
+        },
+        {
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "父潛",
+          "relation": "秀父潛。"
+        },
+        {
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽",
+          "relation": "徽為潛弟。"
+        },
+        {
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p001",
+          "quote": "楷字叔則。父徽",
+          "relation": "楷父徽。"
+        }
+      ],
+      "qualification": "來源沒有明說凱是楷之子或其他具體已知親族，不另造這些連線。楷傳五子未列該不單獨當作絕對反證；世次問題才是目前實質限制。先前把楷與秀同代當作從伯相容的假設已撤回。"
+    },
+    {
+      "case": "he-shao",
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "keep_person_id": "863_zcy_ahs",
+      "retire_person_id": "daf_ywm_uay",
+      "source_surfaces": [
+        "邵",
+        "道期",
+        "裴道期",
+        "郃",
+        "裴郃"
+      ],
+      "merge_proposed": true,
+      "positive": [
+        "兩源同為裴康家：三國志裴注康子純、次盾、次郃；晉書康子盾後續盾弟邵。",
+        "同一君主晉元帝在安東將軍時期、同任長史；晉書並記王導同府司馬，三國志又有王曠與司馬越書稱裴郃在此的人際環境。",
+        "兄盾同任徐州刺史，父康字仲豫由兩來源同時連接；不是只憑同音近形或同一職稱。"
+      ],
+      "counterevidence_review": [
+        "郃與邵字形不同，兩數位見證未直接說一名/改名，故判斷是來源上下文同指而非明示異名。",
+        "晉書所記道期及其後任官未見三國志本段，屬來源詳略差異，現無相斥年代/父親/君主/職位事件。",
+        "不因此消去兄盾、父康或任長史外其他人的身份；亦不把所有郃或邵字全域連到此人。"
+      ],
+      "source_paragraph_ids": [
+        "c-sanguozhi-023-peiqian:p010",
+        "c-sanguozhi-023-peiqian:p013",
+        "c-sanguozhi-023-peiqian:p014",
+        "c-jinshu-035-peikai-family:p016",
+        "c-jinshu-035-peikai-family:p017"
+      ],
+      "qualification": "正文原郃及原邵均保留、來源MID不改，不造source-attested全名裴邵；同指是AI首選，非校字、非已核版刻圖像。"
+    }
+  ]
+}

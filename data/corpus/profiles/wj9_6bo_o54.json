@@ -8,7 +8,8 @@
   "names": [
     "李豐",
     "豐",
-    "父"
+    "父",
+    "宣國"
   ],
   "titles": [],
   "addresses": [],
@@ -185,6 +186,50 @@
       "work_title": "三國志"
     },
     {
+      "number": 23,
+      "category": "",
+      "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p016",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "郡請義以為軍祭酒又為魏尚書左僕射及文帝即位拜諫議大夫執金吾衛尉卒官義子豐字宣國見夏侯玄傳幹以孝廉拜蒲阪令病去官復舉至孝為公車司馬令為州所請詔拜議郎還參州事㑹以建策捕高幹又追錄前討郭援功封武鄉侯遷弘農太守及馬超反幹郡近超民人分散超破為濮陽太守遷益州刺史以道不通黃初中轉為五官",
+      "paragraph_ids": [
+        "c-sanguozhi-023-peiqian:p016"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-023-peiqian:p016:m0252",
+        "c-sanguozhi-023-peiqian:p016:m0254"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-023-peiqian:p016:m0252": "c-sanguozhi-023-peiqian:p016",
+        "c-sanguozhi-023-peiqian:p016:m0254": "c-sanguozhi-023-peiqian:p016"
+      },
+      "mention_id": "c-sanguozhi-023-peiqian:p016:m0252",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p016:m0252",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p016:m0252"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p016:m0254",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p016:m0254"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+      "work_title": "三國志"
+    },
+    {
       "number": 40,
       "category": "",
       "title": "賈充傳",
@@ -312,6 +357,33 @@
           "extraction_note": "刪¶/換行與pb頁碼；括號只為古注逐行包裝，移為text_layer。原字（含珽/諶别傳/尸等）不改，逐字raw_positions固定。"
         },
         "quality_note": "沿既存固定WYG數位轉錄，未讀版本影像；本傳及古注保全不等同逐項生平已核。"
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+      "source": {
+        "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "d6f42012810a7643dbf554325f4f653b5ae8758322d9afaa0caf1b385b51d4f3",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-24",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo固定數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面頁標、注括號及換行/¶；不添標點、不正字。逐字positions另存。"
+        },
+        "extent": "原行374–467：本傳、魏略/裴氏家族長注、完整四人補傳與魚豢論、陳壽章評；清考證另章。"
       }
     }
   ],

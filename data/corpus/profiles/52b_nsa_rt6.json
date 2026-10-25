@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "id": "52b_nsa_rt6",
+  "canonical_person_id": "52b_nsa_rt6",
+  "label": "周弼〔御史中丞〕",
+  "identity_note": "依固定晉書035裴頠完整附傳暫登來源身份；近親/生平另依來源陳述，本批僅標記，不藉同名合併。",
+  "review": "ai_provisional",
+  "names": [
+    "周弼"
+  ],
+  "titles": [
+    {
+      "id": "th-jin035-peiwei-zhoubi-office",
+      "person_id": "52b_nsa_rt6",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p001",
+          "quote": "頠字逸民。弘雅有遠識，博學稽古，自少知名。御史中丞周弼見而歎曰：「頠若武庫，五兵縱橫，一時之傑也。」賈充即頠從母夫也，表「秀有佐命之勳，不幸嫡長喪亡，遺孤稚弱。頠才德英茂，足以興隆國嗣。」詔頠襲爵，頠固讓，不許。太康二年，徵為太子中庶子，遷散騎常侍。惠帝既位，轉國子祭酒，兼右軍將軍。",
+          "person_mention_id": "c-jinshu-035-peiwei:p001:m0025"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "明文任官或用稱，未明任年與終年不補；一般辭讓不作已離任。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "zhoubi-office"
+      },
+      "title": "御史中丞",
+      "kind": "office",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "zhoubi-office"
+      },
+      "attestations": [
+        {
+          "id": "th-jin035-peiwei-zhoubi-office:a001",
+          "paragraph_id": "c-jinshu-035-peiwei:p001",
+          "start": 21,
+          "end": 25,
+          "surface": "御史中丞",
+          "person_mention_id": "c-jinshu-035-peiwei:p001:m0025",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 35,
+      "category": "",
+      "title": "裴頠傳",
+      "paragraph_id": "c-jinshu-035-peiwei:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "頠字逸民。弘雅有遠識，博學稽古，自少知名。御史中丞周弼見而歎曰：「頠若武庫，五兵縱橫，一時之傑也。」賈充即頠從母夫也，表「秀有佐命之勳，不幸嫡長喪亡，遺孤稚弱。頠才德英茂，足以興隆國嗣。」詔頠襲爵，頠固讓，不許。太康二年，徵為太子中庶子，遷散騎常侍。惠帝",
+      "paragraph_ids": [
+        "c-jinshu-035-peiwei:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peiwei:p001:m0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peiwei:p001:m0025": "c-jinshu-035-peiwei:p001"
+      },
+      "mention_id": "c-jinshu-035-peiwei:p001:m0025",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p001:m0025",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p001:m0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peiwei",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-035-peiwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "source": {
+        "title": "《晉書》卷三十五子頠完整附傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-24",
+        "extent": "子頠附傳完整十五自然段，含晉書收到崇有之論全部引文容器及二子敘述；非裴秀全傳/卷035全卷或獨立原著全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅排quote模板/顯示wiki標記/段間空白；保每碼點責任。無pipe易鏈接保易原字；內引層非獨立原著見證。"
+        },
+        "raw_path": "sources/witnesses/jin035-ws2506399.wikitext",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "52b_nsa_rt6": "周弼〔御史中丞〕"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "nc-jin035-peiwei-name-zhoubi",
+      "person_id": "52b_nsa_rt6",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p001",
+          "quote": "頠字逸民。弘雅有遠識，博學稽古，自少知名。御史中丞周弼見而歎曰：「頠若武庫，五兵縱橫，一時之傑也。」賈充即頠從母夫也，表「秀有佐命之勳，不幸嫡長喪亡，遺孤稚弱。頠才德英茂，足以興隆國嗣。」詔頠襲爵，頠固讓，不許。太康二年，徵為太子中庶子，遷散騎常侍。惠帝既位，轉國子祭酒，兼右軍將軍。",
+          "person_mention_id": "c-jinshu-035-peiwei:p001:m0025"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本源可見姓名組件，無姓原字者保名；不靠label補裴或改籓字。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "name-zhoubi"
+      },
+      "surname": "周",
+      "ming": "弼",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-035-peiwei",
+      "paragraph_id": "c-jinshu-035-peiwei:p001",
+      "person_mention_id": "c-jinshu-035-peiwei:p001:m0025",
+      "quote": "頠字逸民。弘雅有遠識，博學稽古，自少知名。御史中丞周弼見而歎曰：「頠若武庫，五兵縱橫，一時之傑也。」賈充即頠從母夫也，表「秀有佐命之勳，不幸嫡長喪亡，遺孤稚弱。頠才德英茂，足以興隆國嗣。」詔頠襲爵，頠固讓，不許。太康二年，徵為太子中庶子，遷散騎常侍。惠帝既位，轉國子祭酒，兼右軍將軍。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2506399,
+        "paragraph_sha256": "873cf6d6ed964fb0ad020a5744359dc24d56161a14474dd707e05ddd645448fe",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-035-peiwei:p001:m0025",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peiwei"
+    }
+  ],
+  "person_ids": [
+    "52b_nsa_rt6"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

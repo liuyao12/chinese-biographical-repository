@@ -105,7 +105,7 @@ def holding_valid(h,ch,root=None):
  if h.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
   try:from scripts.fixed_kanripo_fact_slots import valid
   except ImportError:from fixed_kanripo_fact_slots import valid
-  return valid(h,ch)
+  return valid(h,ch) if root is None else valid(h,ch,root)
  if h.get('source_career_role',{}).get('kind')=='fixed_complete_family_career':
   try:from scripts.fixed_complete_family_career import valid
   except ImportError:from fixed_complete_family_career import valid

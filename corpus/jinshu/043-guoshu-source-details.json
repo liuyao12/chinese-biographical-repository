@@ -1,0 +1,396 @@
+{
+  "format_version": "0.2",
+  "record_type": "biographical_source_detail_set",
+  "chapter_id": "c-jinshu-043-guoshu",
+  "records": [
+    {
+      "id": "sd-jin043-guoshu-mourning-departure",
+      "person_id": "7mp_r23_bds",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "person_mention_id": "c-jinshu-043-guoshu:p001:m0096"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只宗岱治中喪母去職，不自動結束所有官或填年月。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "mourning-departure"
+      },
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_term": "喪母去職",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-guoshu:p001",
+        "start": 115,
+        "end": 119,
+        "surface": "喪母去職"
+      },
+      "source_revision": 2618531,
+      "paragraph_sha256": "faa8ae70bfc3cd3262159dc66bb3ba29da752d447b708437c9300d03829fa7fb",
+      "date_expression": null,
+      "kind": "office_departure",
+      "values": {
+        "departure_code": "maternal_mourning",
+        "linked_holding_id": "th-jin043-guoshu-career-04",
+        "all_other_offices_ended": false,
+        "death_event_id": "le-jin043-guoshu-mother-death"
+      }
+    },
+    {
+      "id": "sd-jin043-guoshu-unaccepted-duzeng",
+      "person_id": "7mp_r23_bds",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p004",
+          "quote": "舒少與杜曾厚，曾嘗召之，不往，曾銜之。至是，澄又轉舒為順陽太守，曾密遣兵襲舒，遁逃得免。",
+          "person_mention_id": "c-jinshu-043-guoshu:p004:m0010"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "召不往，未明所授官，不當實任或杜曾官。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "unaccepted-duzeng"
+      },
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_term": "曾嘗召之，不往",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-guoshu:p004",
+        "start": 7,
+        "end": 14,
+        "surface": "曾嘗召之，不往"
+      },
+      "source_revision": 2618531,
+      "paragraph_sha256": "134a882a0f45fc49d795438485e04268ec8a6041592bd10726fb1b9d6fd5c358",
+      "date_expression": null,
+      "kind": "unaccepted_recruitment_report",
+      "values": {
+        "source_group": "杜曾",
+        "service_attested": false,
+        "office_title": null
+      }
+    },
+    {
+      "id": "sd-jin043-guoshu-you-cheng-not-sent",
+      "person_id": "7mp_r23_bds",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p005",
+          "quote": "王敦召為參軍，轉從事中郎。襄陽都督周訪卒，敦遣舒監襄陽軍。甘卓至，乃還。朝廷征舒為右丞，敦留不遣。敦謀為逆，舒諫不從，使守武昌。荊州別駕宗澹忌舒才能，數譖之于王暠。暠疑舒與甘卓同謀，密以白敦，敦不受。高官督護繆坦嘗請武昌城西地為營，太守樂凱言於敦曰：「百姓久買此地，種菜自贍，不宜奪之。」敦大怒曰：「王處仲不來江湖，當有武昌地不，而人云是我地邪！」凱懼，不敢言。舒曰：「公聽舒一言。」敦曰：「平子以卿病狂，故掐鼻灸眉頭，舊疢復發邪！」舒曰：「古之狂也直，周昌、汲黯、硃雲不狂也。昔堯立誹謗之木，舜置敢諫之鼓，然後事無枉縱。公為勝堯、舜邪？乃逆折舒，使不得言。何與古人相遠！」敦曰：「卿欲何言？」舒曰：「繆坦可謂小人，疑誤視聽，奪人私地，以強陵弱。晏子稱：君曰其可，臣獻其否，以成其可。是以舒等不敢不言。」敦即使還地，眾咸壯之。敦重舒公亮，給賜轉豐，數詣其家。表為梁州刺史。病卒。",
+          "person_mention_id": "c-jinshu-043-guoshu:p005:m0039"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "朝廷徵而王敦留未遣，不造右丞實任或擅補尚書。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "you-cheng-not-sent"
+      },
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_term": "朝廷征舒為右丞，敦留不遣",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-guoshu:p005",
+        "start": 36,
+        "end": 48,
+        "surface": "朝廷征舒為右丞，敦留不遣"
+      },
+      "source_revision": 2618531,
+      "paragraph_sha256": "bc2630be943318bd005d114eb7db8643afda7e4f34cf63ce96aba654a804a6e8",
+      "date_expression": null,
+      "kind": "unassumed_appointment",
+      "values": {
+        "office_title": "右丞",
+        "appointment_stage": "summons",
+        "source_appointment_term": "朝廷征舒為右丞",
+        "source_non_assumption_term": "敦留不遣",
+        "outcome": "not_departed_due_to_retention",
+        "holding_created": false,
+        "service_start_year": null
+      }
+    },
+    {
+      "id": "sd-jin043-guoshu-liangzhou-memorial",
+      "person_id": "7mp_r23_bds",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p005",
+          "quote": "王敦召為參軍，轉從事中郎。襄陽都督周訪卒，敦遣舒監襄陽軍。甘卓至，乃還。朝廷征舒為右丞，敦留不遣。敦謀為逆，舒諫不從，使守武昌。荊州別駕宗澹忌舒才能，數譖之于王暠。暠疑舒與甘卓同謀，密以白敦，敦不受。高官督護繆坦嘗請武昌城西地為營，太守樂凱言於敦曰：「百姓久買此地，種菜自贍，不宜奪之。」敦大怒曰：「王處仲不來江湖，當有武昌地不，而人云是我地邪！」凱懼，不敢言。舒曰：「公聽舒一言。」敦曰：「平子以卿病狂，故掐鼻灸眉頭，舊疢復發邪！」舒曰：「古之狂也直，周昌、汲黯、硃雲不狂也。昔堯立誹謗之木，舜置敢諫之鼓，然後事無枉縱。公為勝堯、舜邪？乃逆折舒，使不得言。何與古人相遠！」敦曰：「卿欲何言？」舒曰：「繆坦可謂小人，疑誤視聽，奪人私地，以強陵弱。晏子稱：君曰其可，臣獻其否，以成其可。是以舒等不敢不言。」敦即使還地，眾咸壯之。敦重舒公亮，給賜轉豐，數詣其家。表為梁州刺史。病卒。",
+          "person_mention_id": "c-jinshu-043-guoshu:p005:m0365"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "王敦為郭舒表薦；未見詔授/赴任，不建實任holding。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "liangzhou-memorial"
+      },
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_term": "表為梁州刺史",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-guoshu:p005",
+        "start": 379,
+        "end": 385,
+        "surface": "表為梁州刺史"
+      },
+      "source_revision": 2618531,
+      "paragraph_sha256": "bc2630be943318bd005d114eb7db8643afda7e4f34cf63ce96aba654a804a6e8",
+      "date_expression": null,
+      "kind": "appointment_service_unreported",
+      "values": {
+        "report_code": "received_career_context",
+        "office_source_name": "梁州刺史",
+        "appointment_stage": "memorial_recommendation",
+        "recommendation_reported": true,
+        "appointment_reported": false,
+        "arrival_status": "not_reported",
+        "actual_service_attested": false,
+        "tenure_boundary": false
+      }
+    },
+    {
+      "id": "sd-jin043-guoshu-monitor-xiangyang",
+      "person_id": "7mp_r23_bds",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p005",
+          "quote": "王敦召為參軍，轉從事中郎。襄陽都督周訪卒，敦遣舒監襄陽軍。甘卓至，乃還。朝廷征舒為右丞，敦留不遣。敦謀為逆，舒諫不從，使守武昌。荊州別駕宗澹忌舒才能，數譖之于王暠。暠疑舒與甘卓同謀，密以白敦，敦不受。高官督護繆坦嘗請武昌城西地為營，太守樂凱言於敦曰：「百姓久買此地，種菜自贍，不宜奪之。」敦大怒曰：「王處仲不來江湖，當有武昌地不，而人云是我地邪！」凱懼，不敢言。舒曰：「公聽舒一言。」敦曰：「平子以卿病狂，故掐鼻灸眉頭，舊疢復發邪！」舒曰：「古之狂也直，周昌、汲黯、硃雲不狂也。昔堯立誹謗之木，舜置敢諫之鼓，然後事無枉縱。公為勝堯、舜邪？乃逆折舒，使不得言。何與古人相遠！」敦曰：「卿欲何言？」舒曰：「繆坦可謂小人，疑誤視聽，奪人私地，以強陵弱。晏子稱：君曰其可，臣獻其否，以成其可。是以舒等不敢不言。」敦即使還地，眾咸壯之。敦重舒公亮，給賜轉豐，數詣其家。表為梁州刺史。病卒。",
+          "person_mention_id": "c-jinshu-043-guoshu:p005:m0023"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "周訪卒後監軍；甘卓至乃還，不補都督為舒官。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "monitor-xiangyang"
+      },
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_term": "監襄陽軍",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-guoshu:p005",
+        "start": 24,
+        "end": 28,
+        "surface": "監襄陽軍"
+      },
+      "source_revision": 2618531,
+      "paragraph_sha256": "bc2630be943318bd005d114eb7db8643afda7e4f34cf63ce96aba654a804a6e8",
+      "date_expression": null,
+      "kind": "official_duty",
+      "values": {
+        "duty_code": "military_supervision",
+        "organ_source_name": "襄陽軍",
+        "linked_holding_id": "th-jin043-guoshu-career-10"
+      }
+    },
+    {
+      "id": "sd-jin043-guoshu-guard-wuchang",
+      "person_id": "7mp_r23_bds",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p005",
+          "quote": "王敦召為參軍，轉從事中郎。襄陽都督周訪卒，敦遣舒監襄陽軍。甘卓至，乃還。朝廷征舒為右丞，敦留不遣。敦謀為逆，舒諫不從，使守武昌。荊州別駕宗澹忌舒才能，數譖之于王暠。暠疑舒與甘卓同謀，密以白敦，敦不受。高官督護繆坦嘗請武昌城西地為營，太守樂凱言於敦曰：「百姓久買此地，種菜自贍，不宜奪之。」敦大怒曰：「王處仲不來江湖，當有武昌地不，而人云是我地邪！」凱懼，不敢言。舒曰：「公聽舒一言。」敦曰：「平子以卿病狂，故掐鼻灸眉頭，舊疢復發邪！」舒曰：「古之狂也直，周昌、汲黯、硃雲不狂也。昔堯立誹謗之木，舜置敢諫之鼓，然後事無枉縱。公為勝堯、舜邪？乃逆折舒，使不得言。何與古人相遠！」敦曰：「卿欲何言？」舒曰：「繆坦可謂小人，疑誤視聽，奪人私地，以強陵弱。晏子稱：君曰其可，臣獻其否，以成其可。是以舒等不敢不言。」敦即使還地，眾咸壯之。敦重舒公亮，給賜轉豐，數詣其家。表為梁州刺史。病卒。",
+          "person_mention_id": "c-jinshu-043-guoshu:p005:m0054"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "王敦使舒守武昌，不推太守職。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "guard-wuchang"
+      },
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_term": "使守武昌",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-guoshu:p005",
+        "start": 59,
+        "end": 63,
+        "surface": "使守武昌"
+      },
+      "source_revision": 2618531,
+      "paragraph_sha256": "bc2630be943318bd005d114eb7db8643afda7e4f34cf63ce96aba654a804a6e8",
+      "date_expression": null,
+      "kind": "official_duty",
+      "values": {
+        "duty_code": "guard_location",
+        "organ_source_name": "武昌",
+        "linked_holding_id": "th-jin043-guoshu-career-10"
+      }
+    },
+    {
+      "id": "sd-jin043-guoshu-liuhong-jingzhou",
+      "person_id": "cxd_9ak_zvl",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "person_mention_id": "c-jinshu-043-guoshu:p001:m0120"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "牧荊州來源職掌，非郭舒官或籍貫；未另造省稱全銜。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "liuhong-jingzhou"
+      },
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_term": "劉弘牧荊州",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-guoshu:p001",
+        "start": 120,
+        "end": 125,
+        "surface": "劉弘牧荊州"
+      },
+      "source_revision": 2618531,
+      "paragraph_sha256": "faa8ae70bfc3cd3262159dc66bb3ba29da752d447b708437c9300d03829fa7fb",
+      "date_expression": null,
+      "kind": "official_duty",
+      "values": {
+        "duty_code": "provincial_governance",
+        "organ_source_name": "荊州"
+      }
+    },
+    {
+      "id": "sd-jin043-guoshu-fan-supported",
+      "person_id": "ad6_vlm_nnq",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "person_mention_id": "c-jinshu-043-guoshu:p001:m0141"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "軍士推璠為主，不等王朝任命或繼位即父子（父子另由弘子證）。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "fan-supported"
+      },
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_term": "推弘子璠為主",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-guoshu:p001",
+        "start": 138,
+        "end": 144,
+        "surface": "推弘子璠為主"
+      },
+      "source_revision": 2618531,
+      "paragraph_sha256": "faa8ae70bfc3cd3262159dc66bb3ba29da752d447b708437c9300d03829fa7fb",
+      "date_expression": null,
+      "kind": "selection_report",
+      "values": {
+        "selection_code": "military_leader_supported_by_soldiers",
+        "source_selection_term": "推為主",
+        "formal_office_title": null,
+        "formal_appointment_attested": false
+      }
+    },
+    {
+      "id": "sd-jin043-guoshu-guoshu-confinement",
+      "person_id": "7mp_r23_bds",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "person_mention_id": "c-jinshu-043-guoshu:p001:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "郭舒受系；廷尉為拘繫機關，不是郭舒官。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "guoshu-confinement"
+      },
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_term": "坐擅放司馬彪，系廷尉",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-guoshu:p001",
+        "start": 62,
+        "end": 72,
+        "surface": "坐擅放司馬彪，系廷尉"
+      },
+      "source_revision": 2618531,
+      "paragraph_sha256": "faa8ae70bfc3cd3262159dc66bb3ba29da752d447b708437c9300d03829fa7fb",
+      "date_expression": null,
+      "kind": "official_penalty_report",
+      "values": {
+        "source_outcome": "系廷尉",
+        "source_reason": "擅放司馬彪",
+        "death_sentence_inferred": false,
+        "tenure_boundary": false
+      }
+    }
+  ]
+}

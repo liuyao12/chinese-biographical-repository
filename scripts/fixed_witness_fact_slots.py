@@ -81,6 +81,18 @@ def _dates(r,ch,slots,root):
    slot=proof['slot'];path=proof['record_path'];v=slots[slot];date=value_at(v,path)
    assert prove(date,v,proof,r,ch,root)
    allowed.setdefault(slot,[]).append(tuple(path));continue
+  if proof.get('kind')=='fixed_calendar_era_phase_range':
+   try:from scripts.date_ranges import year_range_errors
+   except ImportError:from date_ranges import year_range_errors
+   slot=proof['slot'];path=proof['record_path'];v=slots[slot];date=v
+   for key in path:date=date[key]
+   p=ch['paragraphs'][proof['paragraph_index']];a=proof['date_anchor'];assert type(a['start'])is int and type(a['end'])is int and p['text'][a['start']:a['end']]==a['surface']
+   row=rows[proof['calendar_row_id']];mapping=date['era_span_mapping'];source_name=mapping.get('source_era_name',mapping['era_name']);phase=proof['source_phase']
+   assert phase in ('初','中','末') and a['surface']==source_name+phase==date['source_expression']
+   assert not year_range_errors(date,v['evidence'],a['surface'],root)
+   assert mapping['era_name']==row['era_name'] and mapping['polity_source_name']==row['dynasty'] and mapping['start_ce_year']==row['first_year'] and mapping['end_ce_year']==row['last_year']
+   assert date['original_quote']==p['text'] and date['source_stage']==phase
+   allowed.setdefault(slot,[]).append(tuple(path));continue
   slot=proof['slot'];path=proof['record_path'];v=slots[slot];date=v
   for key in path:date=date[key]
   p=ch['paragraphs'][proof['paragraph_index']];a=proof['date_anchor'];assert type(a['start'])is int and type(a['end'])is int and p['text'][a['start']:a['end']]==a['surface']
@@ -110,7 +122,8 @@ def _maternal_context(r,slots,root):
  required={k for k,v in slots.items()if 'supporting_source_references'in v.get('qualifiers',{}).get('maternal_interpretation',{})}
  assert required=={p['slot']for p in proofs}
  for proof in proofs:
-  assert set(proof)=={'slot','kind','witnesses','record_roles','same_identity_groups','distinct_identity_groups'}and proof['kind']=='fixed_complete_witness_maternal_context'
+  keys={'slot','kind','witnesses','record_roles','same_identity_groups','distinct_identity_groups'}
+  assert set(proof)in(keys,keys|{'principal_mother_contrast'})and proof['kind']=='fixed_complete_witness_maternal_context'
   v=slots[proof['slot']];mi=v['qualifiers']['maternal_interpretation'];assert v['predicate']=='mother'and mi['status']=='contextual_preferred'and mi['source_explicit_birth']is False
   try:from scripts.fixed_wikisource_units import source_errors
   except ImportError:from fixed_wikisource_units import source_errors
@@ -128,6 +141,21 @@ def _maternal_context(r,slots,root):
   for field,coord in proof['record_roles'].items():assert field in('subject','object')and v[field+'_person_id']==roles[coord[0]][coord[1]]
   for group in proof['same_identity_groups']:assert len(group)>=2 and len({roles[j][k]for j,k in group})==1
   for group in proof['distinct_identity_groups']:assert len(group)>=2 and len({roles[j][k]for j,k in group})==len(group)
+  if 'principal_mother_contrast'in proof:
+   x=proof['principal_mother_contrast'];assert set(x)=={'principal_slot','witness_index','child_role','mother_roles','principal_roles','contrast_anchor'}
+   i=x['witness_index'];assert type(i)is int and 0<=i<len(roles)
+   rr=roles[i];wb=proof['witnesses'][i]['role_bindings'];quote=refs[i]['quote'];pr=slots[x['principal_slot']];pq=pr['qualifiers']
+   assert mi['basis']=='same_complete_paragraph_mother_and_principal_mother_contrast'
+   assert pr['predicate']=='maternal_role'and pq['role']=='principal_mother'and pq['biological_mother']is None and pq['father_person_id']is None
+   assert rr[x['child_role']]==v['subject_person_id']==pr['subject_person_id']
+   mm=x['mother_roles'];pm=x['principal_roles'];assert isinstance(mm,list)and isinstance(pm,list)and len(mm)>=2 and len(pm)>=2 and len(set(mm+pm))==len(mm+pm)
+   assert {rr[k]for k in mm}=={v['object_person_id']} and {rr[k]for k in pm}=={pr['object_person_id']}and len({v['subject_person_id'],v['object_person_id'],pr['object_person_id']})==3
+   assert wb[mm[0]]['surface'].endswith('母')and all(wb[k]['surface']==wb[mm[0]]['surface']for k in mm)
+   assert wb[pm[0]]['surface'].startswith('嫡母')and wb[pm[0]]['surface'][2:].endswith('氏')and all(wb[k]['surface']==wb[pm[0]]['surface'][2:]for k in pm[1:])
+   assert pq['source_term']==wb[pm[0]]['surface']and wb[mm[0]]['surface']in v['qualifiers']['source_term']
+   a=x['contrast_anchor'];assert set(a)=={'start','end','surface'}and type(a['start'])is int and type(a['end'])is int and quote[a['start']:a['end']]==a['surface']
+   assert a['start']<=wb[mm[0]]['start']<wb[mm[0]]['end']<=wb[pm[0]]['start']<wb[pm[0]]['end']<=a['end']
+
 
 def records(ch,root=ROOT):
  r,roles=grammar(ch,root);slots=r['slots'];assert len({s['slot']for s in slots})==len(slots)

@@ -158,6 +158,14 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                          and ref.get('columns', {}).get('era_name') == name
                          and ref.get('columns', {}).get('first_year') == str(first)
                          and ref.get('columns', {}).get('last_year') == str(last))
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_kanripo_direct_slot_regnal_year':
+                try:from scripts.fixed_kanripo_slot_dates import valid as slot_date_valid
+                except ImportError:from fixed_kanripo_slot_dates import valid as slot_date_valid
+                safe_record=bound_record if isinstance(bound_record,dict)else {}
+                safe_evidence=safe_record.get('evidence')
+                first_evidence=safe_evidence[0]if isinstance(safe_evidence,list)and safe_evidence and isinstance(safe_evidence[0],dict)else {}
+                ch=(chapters if isinstance(chapters,dict)else {}).get(first_evidence.get('chapter_id'),{})
+                valid=slot_date_valid(date,bound_record,ch,root)
             if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_received_local_regnal_year':
                 try:from scripts.fixed_received_career import local_date_valid
                 except ImportError:from fixed_received_career import local_date_valid
@@ -542,6 +550,9 @@ def validate(root=ROOT):
             except ImportError:
                 from fixed_kanripo_projection import errors as fixed_kanripo_projection_errors
             errors.extend(fixed_kanripo_projection_errors(d, root))
+            try:from scripts.fixed_kanripo_collation import errors as fixed_collation_errors
+            except ImportError:from fixed_kanripo_collation import errors as fixed_collation_errors
+            errors.extend(fixed_collation_errors(d, root))
             if any('annotation_status' in p for p in d['paragraphs']):
                 for p in d['paragraphs']:
                     check(p.get('annotation_status') in ('pending','in_progress','named_mentions_first_pass','reviewed'),'段落標註狀態無效或缺失')
@@ -1177,7 +1188,7 @@ def validate(root=ROOT):
                             from scripts.noble_transfers import noble_transfer_errors
                         except ModuleNotFoundError:
                             from noble_transfers import noble_transfer_errors
-                        errors.extend(noble_transfer_errors(h, title_records, paragraphs, mentions, chapters))
+                        errors.extend(noble_transfer_errors(h, title_records, paragraphs, mentions, chapters, root=root))
                     else:
                         try:
                             from scripts.royal_transfers import royal_transfer_errors
@@ -1283,6 +1294,10 @@ def validate(root=ROOT):
                     if h.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
                         try:from scripts.fixed_witness_fact_slots import valid as fixed_naming_valid
                         except ImportError:from fixed_witness_fact_slots import valid as fixed_naming_valid
+                        valid = fixed_naming_valid(h,chapters[d['chapter_id']],root)
+                    if h.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
+                        try:from scripts.fixed_kanripo_fact_slots import valid as fixed_naming_valid
+                        except ImportError:from fixed_kanripo_fact_slots import valid as fixed_naming_valid
                         valid = fixed_naming_valid(h,chapters[d['chapter_id']],root)
                     check(valid,'死後諡名缺少相符命名詞、死亡詞與起點證據')
                     if valid:
@@ -1462,6 +1477,10 @@ def validate(root=ROOT):
                         try:from scripts.attached_biography_frames import inherited_surface_valid
                         except ImportError:from attached_biography_frames import inherited_surface_valid
                         inherited_surface_ok = inherited_surface_valid(h,a,chapters[d['chapter_id']],title_records,family_relations,paragraphs,chapters)
+                        if h.get('inherited_title_binding',{}).get('kind')=='fixed_kanripo_named_father_rank_succession':
+                            try:from scripts.fixed_kanripo_fact_slots import inherited_surface_valid as fixed_inherited_surface_valid
+                            except ImportError:from fixed_kanripo_fact_slots import inherited_surface_valid as fixed_inherited_surface_valid
+                            inherited_surface_ok=fixed_inherited_surface_valid(h,a,chapters[d['chapter_id']],title_records,family_relations,root)
                         check(inherited_surface_ok,'父爵省稱須有同段明父與同源實際爵位，不承接錯父或舊爵')
                     check((a['surface']==h['title'] or shared_suffix_valid or inherited_surface_ok) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
                     if hit:
@@ -1950,7 +1969,13 @@ def validate(root=ROOT):
                     if isinstance(context,dict):
                         ids=context.get('paragraph_ids')
                         order=[p['id'] for p in chapters.get(d['chapter_id'],{}).get('paragraphs',[])]
-                        if context.get('kind') == 'received_biography_family_unit':
+                        if context.get('kind') == 'fixed_complete_witness_role_evidence':
+                            valid=((witness_family_bound or kanripo_family_bound) and context.get('status')=='contextual_provisional' and context.get('human_reviewed')is False and bool(context.get('rationale'))
+                                   and isinstance(ids,list) and len(ids)>=2 and len(set(ids))==len(ids) and all(i in order for i in ids)
+                                   and ids==sorted(ids,key=order.index) and ids==[e['paragraph_id']for e in a['evidence']])
+                            check(valid,'完整受信見證跨段角色須保原段次序/完整語義槽，不得偽作相鄰或失去雙端')
+                            if valid:adjacent=ids
+                        elif context.get('kind') == 'received_biography_family_unit':
                             try:from scripts.received_unit_kinship import valid as unit_context_valid
                             except ImportError:from received_unit_kinship import valid as unit_context_valid
                             context_valid = unit_context_valid(a, paragraphs, chapters, root)
@@ -2133,6 +2158,10 @@ def validate(root=ROOT):
                               and age['qualified_source_term'].startswith(str(marker))
                               and age['qualified_source_term'].endswith(str(age.get('source_term')))
                               and any(age['qualified_source_term'] in e.get('quote', '') for e in age.get('evidence', [])), '個人報齡缺來源限定詞或傳聞狀態')
+                elif age.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
+                    try:from scripts.fixed_kanripo_fact_slots import valid as fixed_age_valid
+                    except ImportError:from fixed_kanripo_fact_slots import valid as fixed_age_valid
+                    check(fixed_age_valid(age,chapter,root),'固定Kanripo報齡須綁完整原段角色、來源數詞及未推生年')
                 else:
                     check(direct_source_age_valid(age) or (chapter.get('annotation',{}).get('epitaph_life_binding',{}).get('kind')=='epitaph_named_head_dated_death_and_burial' and age.get('source_term')=='春秋'+str(age.get('source_number')) and source_age_number(age.get('source_number'))==age.get('value')), '來源年齡數值與原詞不符')
                 check(age.get('counting') == 'unspecified_source_age' and age.get('unit') == 'source_age_years'
@@ -2236,6 +2265,11 @@ def validate(root=ROOT):
                 if address['relation'] == 'fief' or 'fief_kind' in address.get('qualifiers', {}):
                     kind = address.get('qualifiers', {}).get('fief_kind')
                     word = {'tangmu_estate':'湯沐邑', 'maintenance_allocation':'奉', 'territorial_grant':'賜', 'approved_enfeoffment':'許之', 'household_revenue':'食'}.get(kind)
+                    if kind=='complete_witness_marquis_state_locality':
+                        try:from scripts.fixed_witness_fact_slots import valid as fixed_domain_valid
+                        except ImportError:from fixed_witness_fact_slots import valid as fixed_domain_valid
+                        check(address.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots' and fixed_domain_valid(address,chapters[record['chapter_id']],root),'侯國地望須經完整受信原段角色槽驗證，不得任意新增食邑或居地')
+                        word='為侯國'
                     if kind == 'household_revenue':
                         check(bool(re.fullmatch(r'食.+[萬千百十〇零一二三四五六七八九兩0-9]+戶', address.get('source_term', ''))), '食戶地望須保存食地名與戶數原語，不得當人口或居處')
                     if kind == 'approved_enfeoffment':
@@ -2401,6 +2435,10 @@ def validate(root=ROOT):
                         try:from scripts.received_biography_facts import valid as received_fact_valid
                         except ImportError:from received_biography_facts import valid as received_fact_valid
                         noble_valid = received_fact_valid(event, chapters[record['chapter_id']], root)
+                    if event.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
+                        try:from scripts.fixed_kanripo_fact_slots import valid as fixed_succession_valid
+                        except ImportError:from fixed_kanripo_fact_slots import valid as fixed_succession_valid
+                        noble_valid=fixed_succession_valid(event,chapters[record['chapter_id']],root)
                     check(noble_valid, '承爵與國除須綁完整承嗣句的明示端點，不補爵名、前任或日期')
                 if event['event_type'] == 'diplomatic_service':
                     duration = event.get('reported_duration', {}); number = duration.get('source_number')

@@ -79,16 +79,192 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin043-guoshu-liufan-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "subject_person_mention_id": "c-jinshu-043-guoshu:p001:m0141",
+          "object_person_mention_id": "c-jinshu-043-guoshu:p001:m0139"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "弘子璠明父子；不以推為主當授官，不補母或排行。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "liufan-father"
+      },
+      "subject_person_id": "ad6_vlm_nnq",
+      "object_person_id": "cxd_9ak_zvl",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "弘子璠",
+        "lineage": "paternal"
+      }
+    }
+  ],
   "related_people": {
-    "ad6_vlm_nnq": "璠〔劉弘子〕"
+    "ad6_vlm_nnq": "璠〔劉弘子〕",
+    "cxd_9ak_zvl": "劉弘"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-jin043-guoshu-name-liufan",
+      "person_id": "ad6_vlm_nnq",
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "person_mention_id": "c-jinshu-043-guoshu:p001:m0141"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文明稱璠；姓劉依同段完整劉弘、弘子璠與晉代父系稱姓習慣作編輯首選，不稱原文明載劉璠；未經人工覆核。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "name-liufan"
+      },
+      "surname": "劉",
+      "ming": "璠",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-043-guoshu",
+      "paragraph_id": "c-jinshu-043-guoshu:p001",
+      "person_mention_id": "c-jinshu-043-guoshu:p001:m0141",
+      "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2618531,
+        "paragraph_sha256": "faa8ae70bfc3cd3262159dc66bb3ba29da752d447b708437c9300d03829fa7fb",
+        "mode": "ming_only",
+        "name_mention_id": "c-jinshu-043-guoshu:p001:m0141",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_biography_family",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "完整同源劉弘…弘子璠明父子，從已明全名父弘反向一步推姓劉；不按ID、標籤或宗人推姓。",
+        "seed_name_record_id": "nc-jin043-guoshu-name-liuhong",
+        "steps": [
+          {
+            "assertion_id": "a-jin043-guoshu-liufan-father",
+            "from_person_id": "cxd_9ak_zvl",
+            "to_person_id": "ad6_vlm_nnq",
+            "generation_before": 0,
+            "generation_after": 1,
+            "traversal": "object_to_subject"
+          }
+        ]
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-guoshu"
+    }
+  ],
+  "source_details": [
+    {
+      "id": "sd-jin043-guoshu-fan-supported",
+      "person_id": "ad6_vlm_nnq",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "person_mention_id": "c-jinshu-043-guoshu:p001:m0141"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "軍士推璠為主，不等王朝任命或繼位即父子（父子另由弘子證）。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "fan-supported"
+      },
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_term": "推弘子璠為主",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-guoshu:p001",
+        "start": 138,
+        "end": 144,
+        "surface": "推弘子璠為主"
+      },
+      "source_revision": 2618531,
+      "paragraph_sha256": "faa8ae70bfc3cd3262159dc66bb3ba29da752d447b708437c9300d03829fa7fb",
+      "date_expression": null,
+      "kind": "selection_report",
+      "values": {
+        "selection_code": "military_leader_supported_by_soldiers",
+        "source_selection_term": "推為主",
+        "formal_office_title": null,
+        "formal_appointment_attested": false
+      }
+    }
+  ],
   "person_ids": [
     "ad6_vlm_nnq"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin043-guoshu-liufan-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "subject_person_mention_id": "c-jinshu-043-guoshu:p001:m0141",
+          "object_person_mention_id": "c-jinshu-043-guoshu:p001:m0139"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "弘子璠明父子；不以推為主當授官，不補母或排行。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "liufan-father"
+      },
+      "subject_person_id": "ad6_vlm_nnq",
+      "object_person_id": "cxd_9ak_zvl",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "弘子璠",
+        "lineage": "paternal"
+      }
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

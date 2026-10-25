@@ -34,11 +34,11 @@
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false,
     "model": null,
-    "coverage": "郭舒完整五段逐人/稱謂首輪；親屬官爵生卒地望typed後批，非全卷。",
+    "coverage": "郭舒完整五段逐人首輪及46有限姓名/近親/死亡/地望/官序報告槽；未知年月及版本仍待，非全卷。",
     "limitations": [
       "本傳/引古均完整保字，不以平行本混改正文。",
       "古注無獨立標記段，不憑外參捏造此raw古注；段末病卒無年，不數值化。",
-      "宗人不給共同祖/親等；劉弘子璠明源，只人物標記，typed後批。",
+      "宗人不給共同祖/親等；劉弘子璠已存明父與有資格推姓，不補母或排行。",
       "郭舒母僅母，生養未明；鄉人/卿盜牛者單複未定，不造確定個人。",
       "王暠/宗庾廞平行讀法有資格首選，非裁字誤；039王暠不合號。",
       "公/我/其/之逐引語角色辨；晏子所引君臣為泛論，不套本段王敦/郭舒。",
@@ -89,8 +89,29 @@
         "external_reference_file": "source-evidence/jin043-guoshu-source/external-references/jin043-wyg-rendered-unit.json",
         "interpretation_note": "完整實讀四庫數位043郭舒單元，同一宗澹譖舒/甘卓/白敦事件作王廙；既存076王廙四段明王敦荊州任命、甘卓助戰及受任助亂。原王暠/暠字不改，以平行事件首選王廙；039舊王暠949仍候選另待比，不合其ID。",
         "human_reviewed": false
+      },
+      {
+        "id": "rc-jin043-guoshu-finite-facts",
+        "person_id": "7mp_r23_bds",
+        "classification": "finite_source_bound_facts",
+        "status": "editorial_provisional",
+        "source_id": "s-jinshu-043-ws2618531-guoshu",
+        "paragraph_ids": [
+          "c-jinshu-043-guoshu:p001",
+          "c-jinshu-043-guoshu:p002",
+          "c-jinshu-043-guoshu:p003",
+          "c-jinshu-043-guoshu:p004",
+          "c-jinshu-043-guoshu:p005"
+        ],
+        "interpretation_note": "完整五段46槽：11姓名、2親屬、4死亡、2地望、18持職、9職掌/去職/未遣/表薦等報告。母未明生養；宗人不推親等；右丞未遣與梁州表薦均不實任，領南郡保省稱。全年月及任終未明，不從相鄰事件反推。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false
       }
-    ]
+    ],
+    "fixed_witness_fact_slots_ref": {
+      "kind": "fixed_witness_person_fact_slots",
+      "key": "jin043-guoshu-finite"
+    }
   },
   "paragraphs": [
     {

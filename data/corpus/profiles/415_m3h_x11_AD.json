@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "id": "415_m3h_x11_AD",
+  "canonical_person_id": "415_m3h_x11_AD",
+  "label": "樂廣女〔成都王穎妻，未名〕",
+  "identity_note": "成都王穎為廣之婿，廣說五男易一女，女指這位婚姻中的女兒；不把單一女引為全部女兒數，不補名字、生母。 本批只來源內人物標記與身份判讀，未添加typed親屬、官爵、生卒地望；未經人工覆核。",
+  "review": "ai_provisional",
+  "names": [
+    "女"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 43,
+      "category": "",
+      "title": "樂廣傳",
+      "paragraph_id": "c-jinshu-043-leguang:p010",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "廣既處朝望，群小讒謗之。乂以問廣，廣神色不變，徐答曰：「廣豈以五男易一女。」乂猶以為疑，廣竟以憂卒。荀籓聞廣之不免也，為之流涕。三子：凱、肇、謨。",
+      "paragraph_ids": [
+        "c-jinshu-043-leguang:p010"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-leguang:p010:m0055"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-leguang:p010:m0055": "c-jinshu-043-leguang:p010"
+      },
+      "mention_id": "c-jinshu-043-leguang:p010:m0055",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-leguang:p010:m0055",
+          "mention_ids": [
+            "c-jinshu-043-leguang:p010:m0055"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-leguang",
+      "source_id": "s-jinshu-043-ws2618531-leguang",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-043-leguang",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-leguang",
+      "source": {
+        "title": "《晉書》卷四十三樂廣傳完整敘事單元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-24",
+        "extent": "樂廣節全部十一自然段，含三子附敘；止史評之前，不重複全卷共評，非卷043全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "完整樂廣本傳及三子附敘，郎徹／廣雲／潘嶽／楊准／喬／荀籓等原字保持；姓名同指判讀分層，不混改正文。"
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin043-leguang-daughter-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-leguang",
+          "chapter_id": "c-jinshu-043-leguang",
+          "paragraph_id": "c-jinshu-043-leguang:p010",
+          "quote": "成都王穎，廣之婿也，及與長沙王乂遘難，而廣既處朝望，群小讒謗之。乂以問廣，廣神色不變，徐答曰：「廣豈以五男易一女。」乂猶以為疑，廣竟以憂卒。荀籓聞廣之不免也，為之流涕。三子：凱、肇、謨。",
+          "subject_person_mention_id": "c-jinshu-043-leguang:p010:m0055",
+          "object_person_mention_id": "c-jinshu-043-leguang:p010:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "廣之婿及一女對話同一婚親語境，廣女未名；只此婚姻女，不當全部女兒數。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-leguang-finite",
+        "slot": "daughter-father"
+      },
+      "predicate": "father",
+      "subject_person_id": "415_m3h_x11_AD",
+      "object_person_id": "415_m3h_x11_A",
+      "qualifiers": {
+        "source_term": "成都王穎，廣之婿也",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      }
+    },
+    {
+      "id": "a-jin043-leguang-daughter-spouse",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-leguang",
+          "chapter_id": "c-jinshu-043-leguang",
+          "paragraph_id": "c-jinshu-043-leguang:p010",
+          "quote": "成都王穎，廣之婿也，及與長沙王乂遘難，而廣既處朝望，群小讒謗之。乂以問廣，廣神色不變，徐答曰：「廣豈以五男易一女。」乂猶以為疑，廣竟以憂卒。荀籓聞廣之不免也，為之流涕。三子：凱、肇、謨。",
+          "subject_person_mention_id": "c-jinshu-043-leguang:p010:m0055",
+          "object_person_mention_id": "c-jinshu-043-leguang:p010:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "廣女與成都王穎的婚姻；不把她移為王衍之女，不推生母或婚年。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-leguang-finite",
+        "slot": "daughter-spouse"
+      },
+      "predicate": "spouse",
+      "subject_person_id": "415_m3h_x11_AD",
+      "object_person_id": "e81_f09_000",
+      "qualifiers": {
+        "source_term": "成都王穎，廣之婿也",
+        "source_interpretation_status": "explicit_source_wording"
+      }
+    }
+  ],
+  "related_people": {
+    "415_m3h_x11_A": "樂廣",
+    "415_m3h_x11_AD": "樂廣女〔成都王穎妻，未名〕",
+    "e81_f09_000": "成都王"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "415_m3h_x11_AD"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin043-leguang-daughter-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-leguang",
+          "chapter_id": "c-jinshu-043-leguang",
+          "paragraph_id": "c-jinshu-043-leguang:p010",
+          "quote": "成都王穎，廣之婿也，及與長沙王乂遘難，而廣既處朝望，群小讒謗之。乂以問廣，廣神色不變，徐答曰：「廣豈以五男易一女。」乂猶以為疑，廣竟以憂卒。荀籓聞廣之不免也，為之流涕。三子：凱、肇、謨。",
+          "subject_person_mention_id": "c-jinshu-043-leguang:p010:m0055",
+          "object_person_mention_id": "c-jinshu-043-leguang:p010:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "廣之婿及一女對話同一婚親語境，廣女未名；只此婚姻女，不當全部女兒數。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-leguang-finite",
+        "slot": "daughter-father"
+      },
+      "predicate": "father",
+      "subject_person_id": "415_m3h_x11_AD",
+      "object_person_id": "415_m3h_x11_A",
+      "qualifiers": {
+        "source_term": "成都王穎，廣之婿也",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      }
+    },
+    {
+      "id": "a-jin043-leguang-daughter-spouse",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-leguang",
+          "chapter_id": "c-jinshu-043-leguang",
+          "paragraph_id": "c-jinshu-043-leguang:p010",
+          "quote": "成都王穎，廣之婿也，及與長沙王乂遘難，而廣既處朝望，群小讒謗之。乂以問廣，廣神色不變，徐答曰：「廣豈以五男易一女。」乂猶以為疑，廣竟以憂卒。荀籓聞廣之不免也，為之流涕。三子：凱、肇、謨。",
+          "subject_person_mention_id": "c-jinshu-043-leguang:p010:m0055",
+          "object_person_mention_id": "c-jinshu-043-leguang:p010:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "廣女與成都王穎的婚姻；不把她移為王衍之女，不推生母或婚年。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-leguang-finite",
+        "slot": "daughter-spouse"
+      },
+      "predicate": "spouse",
+      "subject_person_id": "415_m3h_x11_AD",
+      "object_person_id": "e81_f09_000",
+      "qualifiers": {
+        "source_term": "成都王穎，廣之婿也",
+        "source_interpretation_status": "explicit_source_wording"
+      }
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "415_m3h_x11_AD",
+    "source_person_ids": [
+      "415_m3h_x11_AD"
+    ],
+    "representative_source_person_id": "415_m3h_x11_AD",
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "415_m3h_x11_A",
+    "source_assertion_id": "a-jin043-leguang-daughter-father",
+    "assembly_id": "family-le-fang-guang-core",
+    "root_person_id": "415_m3h_x11",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

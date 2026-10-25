@@ -1,0 +1,9 @@
+# 固定跨源主體或明生父一步補姓
+
+`contextual_surname_from_fixed_cross_source_subject_or_father` 是獨立有限 `surname_basis`。035省稱頠以043原全文名裴頠為同一已採身份種子；嵩該只各沿035「二子嵩、該」既有明生父斷言一步從該原全文名seed攜姓，不使用剛推導的035名作seed。原名、字、quote及MID保留，status contextual_provisional；本處並非逐字全名。凱不補。
+
+兩完整原生單元分別核固定raw/revision/source層與原生內容等於catalog，不能把不同revision或卷假稱同一見證。明全名seed不可已推姓，固定原MID、字位、裴頠三字及全段SHA均驗；target限省名/明二子角色，並逐驗實際father斷言、p015頠及子名兩端、原詞與完整段。生父不能換母、配偶或養父；不走ID字母、label、assembly。來源角色全體PID一致rekey可重解，沒有PID白名單。新增相反的literal surname會拒絕此fill-missing規則，不能暗改異文。
+
+既有同章/同固定見證推姓分支不變；ming_only新增此kind的組件資格，實際姓氏仍須surname_from_father分派到獨立validator。finite recipe同步更新三條既有姓名槽，其他67槽不變，不新增重複043源姓名。原040裴顗、019裘頠及其他来源姓名保持。此新增不仲裁頠/顗、不推改名年份。
+
+同批default profile titles只選既有grant尚書左僕射、武昌侯的精確holding/attestation，scope timeless_profile_heading且temporal_claim none，不變任期、最高官或死時持職。

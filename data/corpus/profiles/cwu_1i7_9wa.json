@@ -8,7 +8,66 @@
   "names": [
     "郭景"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin043-guoshu-office-guojing",
+      "person_id": "cwu_1i7_9wa",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "person_mention_id": "c-jinshu-043-guoshu:p001:m0037"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本源旁見持職；不推任起終，太守/刺史未明轄地不補。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "office-guojing"
+      },
+      "title": "武陵太守",
+      "kind": "office",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "office-guojing"
+      },
+      "attestations": [
+        {
+          "id": "th-jin043-guoshu-office-guojing:a001",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "start": 33,
+          "end": 37,
+          "surface": "武陵太守",
+          "person_mention_id": "c-jinshu-043-guoshu:p001:m0037",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -84,7 +143,54 @@
     "cwu_1i7_9wa": "郭景"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-jin043-guoshu-name-guojing",
+      "person_id": "cwu_1i7_9wa",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "person_mention_id": "c-jinshu-043-guoshu:p001:m0037"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本源明稱分存，非全庫首選；璠省姓不以ID或label補姓，硃字原樣。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "name-guojing"
+      },
+      "surname": "郭",
+      "ming": "景",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-043-guoshu",
+      "paragraph_id": "c-jinshu-043-guoshu:p001",
+      "person_mention_id": "c-jinshu-043-guoshu:p001:m0037",
+      "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2618531,
+        "paragraph_sha256": "faa8ae70bfc3cd3262159dc66bb3ba29da752d447b708437c9300d03829fa7fb",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-043-guoshu:p001:m0037",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-guoshu"
+    }
+  ],
   "person_ids": [
     "cwu_1i7_9wa"
   ],

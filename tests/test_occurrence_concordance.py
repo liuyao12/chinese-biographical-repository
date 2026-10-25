@@ -84,7 +84,10 @@ class Concordance(unittest.TestCase):
    for m in p['mentions']:
     actual=mentions[m['id']]
     if m['id']!=mid:
-     expected_m=copy.deepcopy(m);mapping=J(R/'source-evidence/xunyou-ancestor-assembly/rekey-fidelity.json')['historical_rekey_mapping'];expected_m['person_id']=mapping.get(expected_m.get('person_id'),expected_m.get('person_id'));family_mapping=J(R/'source-evidence/wangxiong-family-assembly/annotation-chain.json')['person_id_mapping'];expected_m['person_id']=family_mapping.get(expected_m.get('person_id'),expected_m.get('person_id'));self.assertEqual({k:actual.get(k)for k in m},expected_m);continue
+     expected_m=copy.deepcopy(m);mapping=J(R/'source-evidence/xunyou-ancestor-assembly/rekey-fidelity.json')['historical_rekey_mapping'];expected_m['person_id']=mapping.get(expected_m.get('person_id'),expected_m.get('person_id'));family_mapping=J(R/'source-evidence/wangxiong-family-assembly/annotation-chain.json')['person_id_mapping'];expected_m['person_id']=family_mapping.get(expected_m.get('person_id'),expected_m.get('person_id'));
+     if m['id']=='c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029:m0324':
+      self.assertEqual(m['person_id'],'047_850_e7d');decision=next(x for x in J(R/'corpus/sanguozhi/010-peihui-identities.json')['decisions']if x['id']=='d-sanguozhi010-peihui-xuncan-peikai');other=next(x for x in RECORDS if x.get('id')=='c-jinshu-035-peikai-family');anchor=getmention(other,'c-jinshu-035-peikai-family:p001:m0006');self.assertEqual(decision['person_id'],anchor['person_id']);self.assertEqual(anchor['surface'],'徽');self.assertEqual(decision['scope'],'cross_chapter');self.assertTrue(any(e['paragraph_id']==p['id']and e['quote']==current['text']for e in decision['evidence']));expected_m['person_id']=decision['person_id']
+     self.assertEqual({k:actual.get(k)for k in m},expected_m);continue
     corrected+=1
     self.assertEqual(m,{'id':mid,'start':11,'end':13,'surface':'禰衡','person_id':'727_51c_19b'})
     self.assertEqual(actual,{'id':mid,'start':9,'end':14,'surface':'平原禰衡傳','kind':'work','person_id':None,'work_id':wid,'status':'source_explicit'})
@@ -111,6 +114,10 @@ class Concordance(unittest.TestCase):
   self.assertTrue(matches)
   for m in matches:getmention(d,m['id'])['person_id']=m['person_id']
   with self.assertRaises(AssertionError):self.assert_original_source_anchors(d)
+ def test_reviewed_peihui_merge_cannot_restore_old_or_wrong_person(self):
+  for wrong in ['047_850_e7d','dad_b77_b38']:
+   d=copy.deepcopy(D);getmention(d,'c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029:m0324')['person_id']=wrong
+   with self.assertRaises(AssertionError):self.assert_original_source_anchors(d)
  def test_reviewed_work_correction_cannot_revert_to_person(self):
   d=copy.deepcopy(D);getmention(d,d['id']+':full:u012:m0011').update(kind='person',person_id='727_51c_19b')
   with self.assertRaises(AssertionError):self.assert_original_source_anchors(d)

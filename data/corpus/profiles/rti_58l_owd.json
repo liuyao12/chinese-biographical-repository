@@ -88,8 +88,44 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin043-guoshu-guoshu-mother",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "subject_person_mention_id": "c-jinshu-043-guoshu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-043-guoshu:p001:m0010"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "幼請其母及喪母同敘事母角色，未明生養，不標生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "guoshu-mother"
+      },
+      "subject_person_id": "7mp_r23_bds",
+      "object_person_id": "rti_58l_owd",
+      "predicate": "maternal_role",
+      "qualifiers": {
+        "source_term": "其母",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null
+      }
+    }
+  ],
   "related_people": {
+    "7mp_r23_bds": "郭舒",
     "rti_58l_owd": "郭舒母〔未名〕"
   },
   "dates": [],
@@ -97,9 +133,79 @@
   "person_ids": [
     "rti_58l_owd"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin043-guoshu-guoshu-mother",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "subject_person_mention_id": "c-jinshu-043-guoshu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-043-guoshu:p001:m0010"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "幼請其母及喪母同敘事母角色，未明生養，不標生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "guoshu-mother"
+      },
+      "subject_person_id": "7mp_r23_bds",
+      "object_person_id": "rti_58l_owd",
+      "predicate": "maternal_role",
+      "qualifiers": {
+        "source_term": "其母",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null
+      }
+    }
+  ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin043-guoshu-mother-death",
+      "person_id": "rti_58l_owd",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "person_mention_id": "c-jinshu-043-guoshu:p001:m0116"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "喪母只證母卒，非郭舒卒或生母資格。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "mother-death"
+      },
+      "source_term": "喪母",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-guoshu:p001",
+        "start": 115,
+        "end": 117,
+        "surface": "喪母"
+      },
+      "date_expression": null,
+      "event_type": "death"
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

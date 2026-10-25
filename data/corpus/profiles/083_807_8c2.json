@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "杜襲",
-    "杜子緒"
+    "杜子緒",
+    "襲"
   ],
   "titles": [],
   "addresses": [],
@@ -80,6 +81,85 @@
       "book_id": "b-sanguozhi-015",
       "chapter_id": "c-sanguozhi-015-wenhui",
       "source_id": "s-sanguozhi-015-wenhui",
+      "work_title": "三國志"
+    },
+    {
+      "number": 23,
+      "category": "",
+      "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p021",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "評曰和洽清和幹理常林素業純固楊俊人倫行義杜襲溫粹識統趙儼剛毅有度裴潛平恒貞幹皆一世之美士也至林能不繫心於三司以大夫告老美矣哉",
+      "paragraph_ids": [
+        "c-sanguozhi-023-peiqian:p021"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-023-peiqian:p021:m0020"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-023-peiqian:p021:m0020": "c-sanguozhi-023-peiqian:p021"
+      },
+      "mention_id": "c-sanguozhi-023-peiqian:p021:m0020",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p021:m0020",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p021:m0020"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+      "work_title": "三國志"
+    },
+    {
+      "number": 23,
+      "category": "",
+      "title": "《三國志》卷二十三清四庫考證（獨立附錄）",
+      "paragraph_id": "c-sanguozhi-023-qing-collation:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　論也○是冊府作臻　又注於叙人才不能寛○太平御覽作至於叙人才　不能寛大杜襲彊識博聞○元本彊上有粲字嘗獨見至於夜半○元本嘗上多一襲字時將軍許攸擁部曲不附太祖○此非南陽許攸也太　平御覽作許遊增邑三百戸○毛本無戸字趙儼太祖遣將軍劉柱將二千人當須到乃發遣○二　千人下通鑑有往字舊兵既",
+      "paragraph_ids": [
+        "c-sanguozhi-023-qing-collation:p001"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-023-qing-collation:p001:m0382",
+        "c-sanguozhi-023-qing-collation:p001:m0410"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-023-qing-collation:p001:m0382": "c-sanguozhi-023-qing-collation:p001",
+        "c-sanguozhi-023-qing-collation:p001:m0410": "c-sanguozhi-023-qing-collation:p001"
+      },
+      "mention_id": "c-sanguozhi-023-qing-collation:p001:m0382",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-023-qing-collation:p001:m0382",
+          "mention_ids": [
+            "c-sanguozhi-023-qing-collation:p001:m0382"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-023-qing-collation:p001:m0410",
+          "mention_ids": [
+            "c-sanguozhi-023-qing-collation:p001:m0410"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "chapter_id": "c-sanguozhi-023-qing-collation",
+      "source_id": "s-sanguozhi-023-qing-collation-kr214fcafa",
       "work_title": "三國志"
     }
   ],
@@ -3849,6 +3929,60 @@
           "extraction_note": "移除¶/換行/pb及逐行古注括號；正文/裴注分層，原字不改；raw_positions逐字投影。"
         },
         "quality_note": "非全卷匯入；WYG數位轉錄未圖校，異字不擅校。"
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+      "source": {
+        "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "d6f42012810a7643dbf554325f4f653b5ae8758322d9afaa0caf1b385b51d4f3",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-24",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo固定數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面頁標、注括號及換行/¶；不添標點、不正字。逐字positions另存。"
+        },
+        "extent": "原行374–467：本傳、魏略/裴氏家族長注、完整四人補傳與魚豢論、陳壽章評；清考證另章。"
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-023-qing-collation",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "source_id": "s-sanguozhi-023-qing-collation-kr214fcafa",
+      "source": {
+        "title": "《三國志》卷二十三清四庫考證（獨立附錄）",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "d6f42012810a7643dbf554325f4f653b5ae8758322d9afaa0caf1b385b51d4f3",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-24",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo固定數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面頁標、注括號及換行/¶；不添標點、不正字。逐字positions另存。"
+        },
+        "extent": "原行471–520完整魏志卷二十三考證；清四庫館臣附錄，並非陳壽正文或裴松之注。"
       }
     }
   ],

@@ -1,0 +1,442 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-sanguozhi-009-caoren-caochun",
+  "assertions": [
+    {
+      "id": "a-sgz009-cc-ren-cousin-cao",
+      "predicate": "agnatic_cousin",
+      "subject_person_id": "8po_0xd_0vn",
+      "object_person_id": "dad_b77_b38",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "太祖從弟也",
+        "source_interpretation_status": "explicit_source_wording",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "dad_b77_b38",
+          "younger_person_id": "8po_0xd_0vn",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p001",
+          "quote": "曹仁字子孝太祖從弟也",
+          "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p001:m0000",
+          "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p001:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只保本源原詞及方向；無補名、婚配、任期或生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "ren-cousin-cao"
+      }
+    },
+    {
+      "id": "a-sgz009-cc-ren-father-chi",
+      "predicate": "father",
+      "subject_person_id": "8po_0xd_0vn",
+      "object_person_id": "rir_in9_tmg",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父熾",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p002",
+          "quote": "魏書曰仁祖襃頴川太守父熾侍中長水校尉",
+          "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0003",
+          "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0011"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只保本源原詞及方向；無補名、婚配、任期或生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "ren-father-chi"
+      }
+    },
+    {
+      "id": "a-sgz009-cc-ren-grandfather-bao",
+      "predicate": "grandfather",
+      "subject_person_id": "8po_0xd_0vn",
+      "object_person_id": "6dl_14m_2dj",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "仁祖襃",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal",
+        "generation_distance": 2,
+        "generation_difference": -2,
+        "parent_person_id": null,
+        "intermediate_person_ids": [
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p002",
+          "quote": "魏書曰仁祖襃頴川太守父熾侍中長水校尉",
+          "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0003",
+          "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p002:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只保本源原詞及方向；無補名、婚配、任期或生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "ren-grandfather-bao"
+      }
+    },
+    {
+      "id": "a-sgz009-cc-tai-father-ren",
+      "predicate": "father",
+      "subject_person_id": "zd3_zgt_oju",
+      "object_person_id": "8po_0xd_0vn",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子泰嗣",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p005",
+          "quote": "子泰嗣官至鎮東將軍假節轉封寗陵侯泰薨子初嗣又分封泰弟楷範皆為列侯而牛金官至後將軍仁弟純",
+          "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0001",
+          "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0040"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只保本源原詞及方向；無補名、婚配、任期或生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "tai-father-ren"
+      }
+    },
+    {
+      "id": "a-sgz009-cc-chu-father-tai",
+      "predicate": "father",
+      "subject_person_id": "37w_59c_p7g",
+      "object_person_id": "zd3_zgt_oju",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "泰薨子初嗣",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p005",
+          "quote": "子泰嗣官至鎮東將軍假節轉封寗陵侯泰薨子初嗣又分封泰弟楷範皆為列侯而牛金官至後將軍仁弟純",
+          "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0019",
+          "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只保本源原詞及方向；無補名、婚配、任期或生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "chu-father-tai"
+      }
+    },
+    {
+      "id": "a-sgz009-cc-kai-younger-tai",
+      "predicate": "brother",
+      "subject_person_id": "mj3_3kp_o5y",
+      "object_person_id": "zd3_zgt_oju",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "泰弟楷範",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_age": "younger",
+        "relative_birth_order": {
+          "older_person_id": "zd3_zgt_oju",
+          "younger_person_id": "mj3_3kp_o5y",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p005",
+          "quote": "子泰嗣官至鎮東將軍假節轉封寗陵侯泰薨子初嗣又分封泰弟楷範皆為列侯而牛金官至後將軍仁弟純",
+          "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0026",
+          "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只保本源原詞及方向；無補名、婚配、任期或生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "kai-younger-tai"
+      }
+    },
+    {
+      "id": "a-sgz009-cc-fan-younger-tai",
+      "predicate": "brother",
+      "subject_person_id": "klz_2z7_yqd",
+      "object_person_id": "zd3_zgt_oju",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "泰弟楷範",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_age": "younger",
+        "relative_birth_order": {
+          "older_person_id": "zd3_zgt_oju",
+          "younger_person_id": "klz_2z7_yqd",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p005",
+          "quote": "子泰嗣官至鎮東將軍假節轉封寗陵侯泰薨子初嗣又分封泰弟楷範皆為列侯而牛金官至後將軍仁弟純",
+          "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0027",
+          "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只保本源原詞及方向；無補名、婚配、任期或生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "fan-younger-tai"
+      }
+    },
+    {
+      "id": "a-sgz009-cc-chun-younger-ren",
+      "predicate": "brother",
+      "subject_person_id": "1mv_9dr_vwr",
+      "object_person_id": "8po_0xd_0vn",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "仁弟純",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_age": "younger",
+        "relative_birth_order": {
+          "older_person_id": "8po_0xd_0vn",
+          "younger_person_id": "1mv_9dr_vwr",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p005",
+          "quote": "子泰嗣官至鎮東將軍假節轉封寗陵侯泰薨子初嗣又分封泰弟楷範皆為列侯而牛金官至後將軍仁弟純",
+          "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0042",
+          "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p005:m0040"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只保本源原詞及方向；無補名、婚配、任期或生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "chun-younger-ren"
+      }
+    },
+    {
+      "id": "a-sgz009-cc-chun-same-mother-ren",
+      "predicate": "brother",
+      "subject_person_id": "1mv_9dr_vwr",
+      "object_person_id": "8po_0xd_0vn",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "與同産兄仁别居承父業",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_age": "younger",
+        "relative_birth_order": {
+          "older_person_id": "8po_0xd_0vn",
+          "younger_person_id": "1mv_9dr_vwr",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        },
+        "shared_maternal_origin": {
+          "source_term": "同産",
+          "status": "source_attested",
+          "mother_person_id": null,
+          "not_proof_of_same_father_by_itself": true
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p006",
+          "quote": "英雄記曰純字子和年十四而喪父與同産兄仁别居承父業富於財僮僕人客以百數純綱紀督御不失其理鄉里咸以為能好學問敬愛學士學士多歸焉由是為逺近所稱年十八為黄門侍郎二十從太祖到襄邑募兵遂常從征戰",
+          "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p006:m0004",
+          "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p006:m0018"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只保本源原詞及方向；無補名、婚配、任期或生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "chun-same-mother-ren"
+      }
+    },
+    {
+      "id": "a-sgz009-cc-yan-father-chun",
+      "predicate": "father",
+      "subject_person_id": "fqn_zey_8sg",
+      "object_person_id": "1mv_9dr_vwr",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子演嗣",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p007",
+          "quote": "初以議郎參司空軍事督虎豹騎從圍南皮袁譚出戰士卒多死太祖欲緩之純曰今千里蹈敵進不能克退必喪威且縣師深入難以持久彼勝而驕我敗而懼以懼敵驕必可克也太祖善其言遂急攻之譚敗純麾下騎斬譚首級北征三部純部騎獲單于蹋頓以前後功封高陵亭侯邑三百戸從征荆州追劉備於長坂獲其二女輜重収其散卒進降江陵從還譙建安十五年薨文帝即位追諡曰威侯",
+          "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p007:m0030"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p009",
+          "quote": "子演嗣官至領軍將軍正元中進封平樂鄉侯演薨子亮嗣",
+          "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p009:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只保本源原詞及方向；無補名、婚配、任期或生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "yan-father-chun"
+      },
+      "context": {
+        "kind": "fixed_complete_witness_role_evidence",
+        "paragraph_ids": [
+          "c-sanguozhi-009-caoren-caochun:p007",
+          "c-sanguozhi-009-caoren-caochun:p009"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "曹純完整本傳後子演嗣，跨中間魏書虎豹騎注，保完整本傳角色而不冒同段明父姓名。"
+      }
+    },
+    {
+      "id": "a-sgz009-cc-liang-father-yan",
+      "predicate": "father",
+      "subject_person_id": "vcc_inp_ve5",
+      "object_person_id": "fqn_zey_8sg",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "演薨子亮嗣",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p009",
+          "quote": "子演嗣官至領軍將軍正元中進封平樂鄉侯演薨子亮嗣",
+          "subject_person_mention_id": "c-sanguozhi-009-caoren-caochun:p009:m0021",
+          "object_person_mention_id": "c-sanguozhi-009-caoren-caochun:p009:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "只保本源原詞及方向；無補名、婚配、任期或生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "liang-father-yan"
+      }
+    }
+  ]
+}

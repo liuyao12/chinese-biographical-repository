@@ -1,0 +1,90 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_name_component_set",
+  "chapter_id": "c-sanguozhi-009-caoren-caochun",
+  "records": [
+    {
+      "id": "nc-sgz009-cc-ren",
+      "person_id": "8po_0xd_0vn",
+      "surname": "曹",
+      "ming": "仁",
+      "zi": "子孝",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "paragraph_id": "c-sanguozhi-009-caoren-caochun:p001",
+      "person_mention_id": "c-sanguozhi-009-caoren-caochun:p001:m0000",
+      "courtesy_person_mention_id": "c-sanguozhi-009-caoren-caochun:p001:m0003",
+      "quote": "曹仁字子孝太祖從弟也",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本句原字；不由人物標籤或族ID拆姓。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "name-ren"
+      }
+    },
+    {
+      "id": "nc-sgz009-cc-chun",
+      "person_id": "1mv_9dr_vwr",
+      "surname": null,
+      "ming": "純",
+      "zi": "子和",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "paragraph_id": "c-sanguozhi-009-caoren-caochun:p006",
+      "person_mention_id": "c-sanguozhi-009-caoren-caochun:p006:m0004",
+      "courtesy_person_mention_id": "c-sanguozhi-009-caoren-caochun:p006:m0006",
+      "quote": "英雄記曰純字子和年十四而喪父與同産兄仁别居承父業富於財僮僕人客以百數純綱紀督御不失其理鄉里咸以為能好學問敬愛學士學士多歸焉由是為逺近所稱年十八為黄門侍郎二十從太祖到襄邑募兵遂常從征戰",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本句原字；不由人物標籤或族ID拆姓。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "name-chun"
+      }
+    },
+    {
+      "id": "nc-sgz009-cc-chun-contextual-cao",
+      "person_id": "1mv_9dr_vwr",
+      "surname": "曹",
+      "ming": "純",
+      "zi": "子和",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "paragraph_id": "c-sanguozhi-009-caoren-caochun:p006",
+      "person_mention_id": "c-sanguozhi-009-caoren-caochun:p006:m0004",
+      "courtesy_person_mention_id": "c-sanguozhi-009-caoren-caochun:p006:m0006",
+      "quote": "英雄記曰純字子和年十四而喪父與同産兄仁别居承父業富於財僮僕人客以百數純綱紀督御不失其理鄉里咸以為能好學問敬愛學士學士多歸焉由是為逺近所稱年十八為黄門侍郎二十從太祖到襄邑募兵遂常從征戰",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "編輯有資格姓氏推定；原純字子和姓名行保持省姓。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz009-caoren-caochun-finite",
+        "slot": "name-chun-contextual-cao"
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_kanripo_slots",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "seed_name_record_id": "nc-sgz009-cc-ren",
+        "seed_full_name_mention_id": "c-sanguozhi-009-caoren-caochun:p001:m0000",
+        "steps": [
+          {
+            "assertion_id": "a-sgz009-cc-chun-younger-ren",
+            "from_person_id": "8po_0xd_0vn",
+            "to_person_id": "1mv_9dr_vwr",
+            "predicate": "brother",
+            "qualification": "object_to_subject"
+          }
+        ],
+        "rationale": "曹仁全文名與仁弟純、同産兄仁别居承父業的完整來源脈絡支持同姓首選；非源token明載姓，不創父子斷言。"
+      }
+    }
+  ]
+}

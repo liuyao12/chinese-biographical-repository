@@ -2,6 +2,10 @@
 
 
 def chuji_parentage_valid(a, paragraphs, assertions):
+    if a.get('qualifiers', {}).get('adoption_basis') == 'fixed_received_chuhou_named_congbo':
+        try:from scripts.chuhou_congbo import chuhou_congbo_valid
+        except ImportError:from chuhou_congbo import chuhou_congbo_valid
+        return chuhou_congbo_valid(a, paragraphs, assertions)
     if 'received_family_frame' in a.get('qualifiers', {}):
         try:from scripts.punctuated_family_frames import valid
         except ImportError:from punctuated_family_frames import valid

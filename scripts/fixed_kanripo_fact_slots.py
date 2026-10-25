@@ -99,3 +99,89 @@ def valid_from_paragraphs(v,paragraphs,root=ROOT):
   assert all(paragraphs[p['id']]==(ch['id'],p)for p in ch['paragraphs'])
   return valid(v,ch,root)
  except(AssertionError,KeyError,ValueError,TypeError,OSError):return False
+
+def inherited_surface_valid(h,a,ch,holdings,relations,root):
+ """Resolve an omitted rank only through a trusted source succession and father."""
+ try:
+  assert root is not None and valid(h,ch,root)
+  recipe,roles=grammar(ch,root);expected={v['id']:v for v in records(ch,root)}
+  link,=[x for x in recipe.get('succession_links',[])if x['holding_id']==h['id']]
+  assert set(link)=={'holding_id','event_id','father_assertion_id','predecessor_holding_id'}
+  binding=h['inherited_title_binding'];i=h['inheritance'];raw=expected[h['id']]['inherited_title_binding']['raw_surface'];assert isinstance(raw,str)and raw
+  assert binding==dict(kind='fixed_kanripo_named_father_rank_succession',father_assertion_id=link['father_assertion_id'],predecessor_holding_id=link['predecessor_holding_id'],raw_surface=raw,succession_event_id=link['event_id'])
+  parent=holdings[link['predecessor_holding_id']];father,=[v for v in relations if v['id']==link['father_assertion_id']]
+  assert strict(parent,expected[parent['id']])and valid(parent,ch,root)and strict(father,expected[father['id']])and valid(father,ch,root)
+  assert father['predicate']=='father'and father['subject_person_id']==h['person_id']and father['object_person_id']==parent['person_id']==i['predecessor_person_id']
+  assert parent['kind']==h['kind']=='noble_rank'and not parent['mode'].startswith('posthumous')and parent['title']==h['title']==i['resolved_title']and h['mode']=='accession'
+  # The event is read from its real native sidecar; a trusted recipe alone cannot hide a broken reciprocal link.
+  rel=Path(recipe['chapter_path']);ep=Path(root).resolve()/rel.with_name(rel.stem+'-person-events.json');assert ep.resolve()==ep
+  payload=json.loads(ep.read_bytes());assert payload['record_type']=='person_event_assertion_set'and payload['chapter_id']==ch['id']
+  event,=[v for v in payload['events']if v['id']==link['event_id']]
+  assert strict(event,expected[event['id']])and valid(event,ch,root)and event['person_id']==h['person_id']and event['title_holding_id']==h['id']
+  eb=event['source_succession_binding'];assert eb==dict(kind=binding['kind'],predecessor_holding_id=parent['id'],father_assertion_id=father['id'],resolved_title=h['title'],interpretation_status='contextual_provisional',human_reviewed=False)
+  assert event['date_expression']is None and'normalized_date'not in event and'normalized_date_range'not in event
+  assert h['effective_period']==dict(start=dict(status='source_event',event_type='accession',date_expression=None,evidence=h['evidence']),end=dict(status='unknown',date_expression=None,evidence=[]))
+  assert a==h['attestations'][0]and a['surface']==raw and a['date_expression']is None and a['person_mention_id']==event['evidence'][0]['person_mention_id']
+  p,=[p for p in ch['paragraphs']if p['id']==a['paragraph_id']];assert p['text'][a['start']:a['end']]==raw
+  ea=event['source_anchor'];assert event['source_term'].endswith(raw)and ea['paragraph_id']==a['paragraph_id']and ea['start']<=a['start']<a['end']<=ea['end']
+  return True
+ except(AssertionError,KeyError,TypeError,ValueError,IndexError,StopIteration,OSError):return False
+
+def noble_replacement_valid(h,holdings,paragraphs,mentions,chapters,root):
+ """Only reviewed, complete-source rank changes close a specific former rank."""
+ try:
+  assert root is not None and isinstance(chapters,dict)
+  ch=chapters[h['evidence'][0]['chapter_id']];assert valid(h,ch,root)
+  recipe,roles=grammar(ch,root);expected={v['id']:v for v in records(ch,root)}
+  link,=[x for x in recipe.get('noble_replacement_links',[])if x['successor_holding_id']==h['id']]
+  previous=holdings[link['previous_holding_id']];b=h['transfer_basis'];assert strict(previous,expected[previous['id']])and valid(previous,ch,root)
+  assert h['previous_holding_id']==b['previous_holding_id']==previous['id']and previous['id']!=h['id']
+  assert h['kind']==previous['kind']=='noble_rank'and h['person_id']==previous['person_id']and not previous['mode'].startswith('posthumous')
+  assert b['kind']=='fixed_source_noble_replacement'and b['previous_title_status']=='source_context'and b['status']=='contextual_provisional'and b['human_reviewed']is False
+  status=link['interpretation_status'];assert b['interpretation_status']==status
+  prefix='轉封'if status=='explicit_source_transfer'else'進封';assert status in('explicit_source_transfer','contextual_source_rank_progression')
+  assert h['mode']==('transfer'if status=='explicit_source_transfer'else'grant')and b['source_term']==link['source_term']==prefix+h['title']
+  a=h['attestations'][0];p,=[p for p in ch['paragraphs']if p['id']==a['paragraph_id']];assert p['text'][a['start']-len(prefix):a['end']]==b['source_term']
+  actor,=[m for m in p['mentions']if m['id']==b['actor_mention_id']];assert actor['person_id']==h['person_id']
+  start=h['effective_period']['start'];end=previous['effective_period']['end'];assert start['status']=='source_event'and start['event_type']==h['mode']and end['status']=='source_event'and end['event_type']=='explicit_end'
+  assert b['evidence']==h['evidence']==start['evidence']==end['evidence']and all(end.get(k)==start.get(k)for k in('date_expression','normalized_date','normalized_date_range'))
+  # Follow only explicit trusted change edges; accidental cycles cannot close every title.
+  nxt={x['previous_holding_id']:x['successor_holding_id']for x in recipe.get('noble_replacement_links',[])};assert len(nxt)==len(recipe.get('noble_replacement_links',[]));seen=set();cur=previous['id']
+  while cur in nxt:assert cur not in seen;seen.add(cur);cur=nxt[cur]
+  return True
+ except(AssertionError,KeyError,TypeError,ValueError,IndexError,StopIteration,OSError):return False
+
+# Preserve the complete core-v1 implementation for unchanged, open-ended cases.
+_core_v1_inherited_surface_valid = inherited_surface_valid
+
+def _replacement_qualified_inherited_surface_valid(h,a,ch,holdings,relations,root):
+ try:
+  assert root is not None and valid(h,ch,root)
+  recipe,roles=grammar(ch,root);expected={v['id']:v for v in records(ch,root)}
+  link,=[x for x in recipe.get('succession_links',[])if x['holding_id']==h['id']]
+  binding=h['inherited_title_binding'];i=h['inheritance'];raw=expected[h['id']]['inherited_title_binding']['raw_surface'];assert isinstance(raw,str)and raw
+  assert binding==dict(kind='fixed_kanripo_named_father_rank_succession',father_assertion_id=link['father_assertion_id'],predecessor_holding_id=link['predecessor_holding_id'],raw_surface=raw,succession_event_id=link['event_id'])
+  parent=holdings[link['predecessor_holding_id']];father,=[v for v in relations if v['id']==link['father_assertion_id']]
+  assert strict(parent,expected[parent['id']])and valid(parent,ch,root)and strict(father,expected[father['id']])and valid(father,ch,root)
+  assert father['predicate']=='father'and father['subject_person_id']==h['person_id']and father['object_person_id']==parent['person_id']==i['predecessor_person_id']
+  assert parent['kind']==h['kind']=='noble_rank'and not parent['mode'].startswith('posthumous')and parent['title']==h['title']==i['resolved_title']and h['mode']=='accession'
+  path=Path(root).resolve()/Path(recipe['chapter_path']).with_name(Path(recipe['chapter_path']).stem+'-person-events.json');assert path.resolve()==path
+  payload=json.loads(path.read_bytes());assert payload['record_type']=='person_event_assertion_set'and payload['chapter_id']==ch['id'];event,=[v for v in payload['events']if v['id']==link['event_id']]
+  assert strict(event,expected[event['id']])and valid(event,ch,root)and event['person_id']==h['person_id']and event['title_holding_id']==h['id']
+  assert event['source_succession_binding']==dict(kind=binding['kind'],predecessor_holding_id=parent['id'],father_assertion_id=father['id'],resolved_title=h['title'],interpretation_status='contextual_provisional',human_reviewed=False)
+  assert event['date_expression']is None and'normalized_date'not in event and'normalized_date_range'not in event
+  assert h['effective_period']['start']==dict(status='source_event',event_type='accession',date_expression=None,evidence=h['evidence'])
+  successors=[x for x in recipe.get('noble_replacement_links',[])if x['previous_holding_id']==h['id']];assert len(successors)==1
+  next_h=holdings[successors[0]['successor_holding_id']];assert noble_replacement_valid(next_h,holdings,{}, {},{ch['id']:ch},root)
+  assert a==h['attestations'][0]and a['surface']==raw and a['date_expression']is None and a['person_mention_id']==event['evidence'][0]['person_mention_id'];p,=[p for p in ch['paragraphs']if p['id']==a['paragraph_id']];assert p['text'][a['start']:a['end']]==raw
+  ea=event['source_anchor'];assert event['source_term'].endswith(raw)and ea['paragraph_id']==a['paragraph_id']and ea['start']<=a['start']<a['end']<=ea['end']
+  return True
+ except(AssertionError,KeyError,TypeError,ValueError,IndexError,StopIteration,OSError):return False
+
+def inherited_surface_valid(h,a,ch,holdings,relations,root):
+ try:
+  assert isinstance(h,dict)and isinstance(ch,dict)and root is not None
+  recipe,roles=grammar(ch,root);rel=Path(recipe['chapter_path']);assert not rel.is_absolute()and'..'not in rel.parts and rel.parts[0]=='corpus'
+  if h.get('effective_period',{}).get('end',{}).get('status')=='unknown':return _core_v1_inherited_surface_valid(h,a,ch,holdings,relations,root)
+  return _replacement_qualified_inherited_surface_valid(h,a,ch,holdings,relations,root)
+ except(AssertionError,KeyError,TypeError,ValueError,IndexError,OSError):return False

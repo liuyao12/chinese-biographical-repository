@@ -19,6 +19,74 @@
   ],
   "titles": [
     {
+      "id": "th-jin035-peixiu-title-062",
+      "person_id": "xd8_uww_5ok",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p008",
+          "quote": "圖書之設，由來尚矣。自古立象垂制，而賴其用。三代置其官，國史掌厥職。暨漢屠咸陽，丞相蕭何盡收秦之圖籍。今秘書既無古之地圖，又無蕭何所得，惟有漢氏《輿地》及《括地》諸雜圖。各不設分率，又不考正准望，亦不備載名山大川。雖有粗形，皆不精審，不可依據。或荒外迂誕之言，不合事實，於義無取。",
+          "person_mention_id": "c-jinshu-035-peixiu:p008:m0042"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "屬收到裴秀序內引史，不是裴秀當時任官/行動。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "title-062"
+      },
+      "title": "丞相",
+      "kind": "office",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "title-062"
+      },
+      "attestations": [
+        {
+          "id": "th-jin035-peixiu-title-062:a001",
+          "paragraph_id": "c-jinshu-035-peixiu:p008",
+          "start": 40,
+          "end": 42,
+          "surface": "丞相",
+          "person_mention_id": "c-jinshu-035-peixiu:p008:m0042",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_evidence_scope": {
+        "kind": "received_embedded_work_preface",
+        "work_id": "w-yugongdiyutu-peixiu",
+        "container_paragraph_ids": [
+          "c-jinshu-035-peixiu:p008",
+          "c-jinshu-035-peixiu:p009",
+          "c-jinshu-035-peixiu:p010"
+        ],
+        "independent_primary_witness": false
+      },
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji008-036",
       "person_id": "xd8_uww_5ok",
       "title": "主吏",
@@ -1557,6 +1625,85 @@
       "book_id": "b-jinshu-034",
       "chapter_id": "c-jinshu-034-yanghu",
       "source_id": "s-jinshu-034-ws2567662-yanghu",
+      "work_title": "晉書"
+    },
+    {
+      "number": 35,
+      "category": "",
+      "title": "裴頠傳",
+      "paragraph_id": "c-jinshu-035-peiwei:p006",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "禮之饗，臣亦不敢聞殊常之詔。」又表云：「咎繇謨虞，伊尹相商，呂望翊周，蕭張佐漢，咸播功化，光格四極。暨于繼體，咎單、傅說，祖己、樊仲，亦隆中興。或明揚側陋，或起自庶族，豈非尚德之舉，以臻斯美哉！曆觀近世，不能慕遠，溺於近情，多任後親，以致不靜。昔疏廣戒太子以舅氏為官屬，前",
+      "paragraph_ids": [
+        "c-jinshu-035-peiwei:p006"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peiwei:p006:m0182"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peiwei:p006:m0182": "c-jinshu-035-peiwei:p006"
+      },
+      "mention_id": "c-jinshu-035-peiwei:p006:m0182",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p006:m0182",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p006:m0182"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peiwei",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "work_title": "晉書"
+    },
+    {
+      "number": 35,
+      "category": "",
+      "title": "裴秀傳",
+      "paragraph_id": "c-jinshu-035-peixiu:p008",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "尚矣。自古立象垂制，而賴其用。三代置其官，國史掌厥職。暨漢屠咸陽，丞相蕭何盡收秦之圖籍。今秘書既無古之地圖，又無蕭何所得，惟有漢氏《輿地》及《括地》諸雜圖。各不設分率，又不考正准望，亦不備載名山大川。雖有粗形，皆不精審，不可依據。或荒外迂誕之言，不合事實，於義無取。",
+      "paragraph_ids": [
+        "c-jinshu-035-peixiu:p008"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peixiu:p008:m0042",
+        "c-jinshu-035-peixiu:p008:m0063"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peixiu:p008:m0042": "c-jinshu-035-peixiu:p008",
+        "c-jinshu-035-peixiu:p008:m0063": "c-jinshu-035-peixiu:p008"
+      },
+      "mention_id": "c-jinshu-035-peixiu:p008:m0042",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu:p008:m0042",
+          "mention_ids": [
+            "c-jinshu-035-peixiu:p008:m0042"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu:p008:m0063",
+          "mention_ids": [
+            "c-jinshu-035-peixiu:p008:m0063"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peixiu",
+      "source_id": "s-jinshu-035-ws2506399-peixiu",
       "work_title": "晉書"
     },
     {
@@ -3153,6 +3300,64 @@
           "character_conversion": {},
           "extraction_note": "僅排版空白、quote/YL模板外殼、wiki連結/粗體標記投影；原字/標點不改，原文與所有排版排除位合為完整節界。實際古本未核。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peiwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "source": {
+        "title": "《晉書》卷三十五子頠完整附傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-24",
+        "extent": "子頠附傳完整十五自然段，含晉書收到崇有之論全部引文容器及二子敘述；非裴秀全傳/卷035全卷或獨立原著全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅排quote模板/顯示wiki標記/段間空白；保每碼點責任。無pipe易鏈接保易原字；內引層非獨立原著見證。"
+        },
+        "raw_path": "sources/witnesses/jin035-ws2506399.wikitext",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peixiu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peixiu",
+      "source": {
+        "title": "《晉書》卷三十五裴秀完整主傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-24",
+        "extent": "裴秀完整十三自然段及篇末浚憬，含本傳收到禹貢地域圖序全部三段；非卷035全卷/十八篇圖或獨立原著全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只排固定二/三級節題、精確wikipedia數位metadata模板、quote容器及顯示wiki標記/空白；全原碼點責任，不以metadata模板作身份權威。"
+        },
+        "raw_path": "sources/witnesses/jin035-ws2506399.wikitext",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
       }
     },
     {

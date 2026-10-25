@@ -213,6 +213,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "裴頠傳",
+      "paragraph_id": "c-jinshu-035-peiwei:p007",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "時以陳准子匡、韓蔚子嵩並侍東宮，頠諫曰：「東宮之建，以儲皇極。其所與遊接，必簡英俊，宜用成德。匡、嵩幼弱，未識人理立身之節。東宮實體夙成之表，而今有童子侍從之聲，未是光闡遐風之弘理也。」湣懷太子之廢也，頠與張",
+      "paragraph_ids": [
+        "c-jinshu-035-peiwei:p007"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peiwei:p007:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peiwei:p007:m0002": "c-jinshu-035-peiwei:p007"
+      },
+      "mention_id": "c-jinshu-035-peiwei:p007:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p007:m0002",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p007:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peiwei",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "work_title": "晉書"
+    },
+    {
       "number": 60,
       "category": "",
       "title": "王韶之荀伯子等列傳",
@@ -393,6 +428,35 @@
           "character_conversion": {},
           "extraction_note": "僅排版空白、quote/YL模板外殼、wiki連結/粗體標記投影；原字/標點不改，原文與所有排版排除位合為完整節界。實際古本未核。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peiwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "source": {
+        "title": "《晉書》卷三十五子頠完整附傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-24",
+        "extent": "子頠附傳完整十五自然段，含晉書收到崇有之論全部引文容器及二子敘述；非裴秀全傳/卷035全卷或獨立原著全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅排quote模板/顯示wiki標記/段間空白；保每碼點責任。無pipe易鏈接保易原字；內引層非獨立原著見證。"
+        },
+        "raw_path": "sources/witnesses/jin035-ws2506399.wikitext",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
       }
     },
     {
@@ -637,6 +701,39 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-jin035-peiwei-kuang-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p007",
+          "quote": "時以陳准子匡、韓蔚子嵩並侍東宮，頠諫曰：「東宮之建，以儲皇極。其所與遊接，必簡英俊，宜用成德。匡、嵩幼弱，未識人理立身之節。東宮實體夙成之表，而今有童子侍從之聲，未是光闡遐風之弘理也。」湣懷太子之廢也，頠與張華苦爭不從，語在《華傳》。",
+          "subject_person_mention_id": "c-jinshu-035-peiwei:p007:m0005",
+          "object_person_mention_id": "c-jinshu-035-peiwei:p007:m0002"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "逐字父子；p002兄與前接浚的身份已採，保來源角色，不混裴嵩／韓嵩。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "kuang-father"
+      },
+      "subject_person_id": "4ps_s80_751",
+      "object_person_id": "9w8_tqh_ysn_B*AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "陳准子匡",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      }
+    },
     {
       "id": "a-sanguozhi022-chen-017",
       "subject_person_id": "9w8_tqh_ysn_B*AA",
@@ -920,6 +1017,7 @@
     }
   ],
   "related_people": {
+    "4ps_s80_751": "匡〔陳准子〕",
     "9w8_tqh_ysn_B*A": "佐（陳諶孫）",
     "9w8_tqh_ysn_B*AA": "凖（陳佐子）",
     "9w8_tqh_ysn_B*AA*A": "逵（字林道）",
@@ -934,6 +1032,39 @@
     "9w8_tqh_ysn_B*AA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin035-peiwei-kuang-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p007",
+          "quote": "時以陳准子匡、韓蔚子嵩並侍東宮，頠諫曰：「東宮之建，以儲皇極。其所與遊接，必簡英俊，宜用成德。匡、嵩幼弱，未識人理立身之節。東宮實體夙成之表，而今有童子侍從之聲，未是光闡遐風之弘理也。」湣懷太子之廢也，頠與張華苦爭不從，語在《華傳》。",
+          "subject_person_mention_id": "c-jinshu-035-peiwei:p007:m0005",
+          "object_person_mention_id": "c-jinshu-035-peiwei:p007:m0002"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "逐字父子；p002兄與前接浚的身份已採，保來源角色，不混裴嵩／韓嵩。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "kuang-father"
+      },
+      "subject_person_id": "4ps_s80_751",
+      "object_person_id": "9w8_tqh_ysn_B*AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "陳准子匡",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      }
+    },
     {
       "id": "a-sanguozhi022-chen-017",
       "subject_person_id": "9w8_tqh_ysn_B*AA",

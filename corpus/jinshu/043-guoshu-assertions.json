@@ -1,0 +1,73 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-043-guoshu",
+  "assertions": [
+    {
+      "id": "a-jin043-guoshu-guoshu-mother",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "subject_person_mention_id": "c-jinshu-043-guoshu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-043-guoshu:p001:m0010"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "幼請其母及喪母同敘事母角色，未明生養，不標生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "guoshu-mother"
+      },
+      "subject_person_id": "7mp_r23_bds",
+      "object_person_id": "rti_58l_owd",
+      "predicate": "maternal_role",
+      "qualifiers": {
+        "source_term": "其母",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null
+      }
+    },
+    {
+      "id": "a-jin043-guoshu-liufan-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p001",
+          "quote": "郭舒，字稚行。幼請其母從師，歲餘便歸，粗識大義。鄉人少府范晷、宗人武陵太守郭景，咸稱舒當為後來之秀，終成國器。始為領軍校尉，坐擅放司馬彪，系廷尉，世多義之。刺史夏侯含辟為西曹，轉主簿。含坐事，舒自系理含，事得釋。刺史宗岱命為治中，喪母去職。劉弘牧荊州，引為治中。弘卒，舒率將士推弘子璠為主，討逆賊郭勱。滅之，保全一州。",
+          "subject_person_mention_id": "c-jinshu-043-guoshu:p001:m0141",
+          "object_person_mention_id": "c-jinshu-043-guoshu:p001:m0139"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "弘子璠明父子；不以推為主當授官，不補母或排行。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "liufan-father"
+      },
+      "subject_person_id": "ad6_vlm_nnq",
+      "object_person_id": "cxd_9ak_zvl",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "弘子璠",
+        "lineage": "paternal"
+      }
+    }
+  ]
+}

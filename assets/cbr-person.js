@@ -72,26 +72,54 @@ export function titleUsageHTML(usages = [], full = false, sources = []) {
 export function personCard(p, full = false, sourceRef = 'main', family = null, mention = null) {
   const evidenceLinks = evidence => sourceEvidenceLinks(evidence, p.sources || []);
   const evidenceQuotes = e => `<blockquote>${h(e.quote)}</blockquote>` + (e.kind === 'table_cell' && e.subject_quote ? `<blockquote class="person-table-subject-quote">${h(e.subject_quote)}</blockquote>` : '');
+  const contextualMother = r => r.predicate === 'mother'
+    && r.qualifiers?.maternal_interpretation?.status === 'contextual_preferred'
+    && r.qualifiers.maternal_interpretation.source_explicit_birth === false;
+  const maternalBadge = () => `<small class="person-maternal-interpretation">${ui('Birth-mother reading: contextually preferred; the source does not explicitly state birth')}</small>`;
+  // Deduplicate displayed quotations only. Every original reference still reaches
+  // the existing link renderer, including different mention/subject/object anchors.
+  const maternalEvidence = (evidence, rows) => {
+    const all = [...evidence, ...rows.flatMap(r => r.qualifiers.maternal_interpretation.supporting_source_references || [])];
+    const seen = new Set();
+    const quotes = all.filter(e => {const key=JSON.stringify([e.quote,e.subject_quote]);if(seen.has(key))return false;seen.add(key);return true;});
+    const linked = all.flatMap(e => {
+      const mids = [e.mention_id, e.subject_person_mention_id, e.object_person_mention_id,
+        ...Object.values(e.role_mentions && typeof e.role_mentions === 'object' && !Array.isArray(e.role_mentions) ? e.role_mentions : {})]
+        .filter(mid => typeof mid === 'string' && mid.length > 0);
+      return [e, ...[...new Set(mids)].map(mention_id => ({...e, mention_id}))];
+    });
+    return quotes.map(evidenceQuotes).join('') + [...new Set(linked.map(e => evidenceLinks([e])).filter(Boolean))].join(' · ');
+  };
+  const maternalReasons = rows => rows.map(r => {
+    const reason=r.qualifiers.maternal_interpretation.qualification;
+    return reason ? `<p>${h(reason)}</p>` : '';
+  }).join('');
+  const familyMotherReadings = x => {
+    const own = new Set(p.person_ids || [p.id]);
+    const mother = new Set([x.id,x.person?.id,...(x.person?.person_ids || [])].filter(Boolean));
+    return (p.relations || []).filter(r => contextualMother(r)
+      && own.has(r.subject_person_id) && mother.has(r.object_person_id));
+  };
   const titleReadings=new Map((p.preferred_title_readings || []).map(x=>[x.holding_id,x]));
   const unassumedAppointments = (p.title_proposals || []).filter(x => x.proposal_kind === 'unassumed_appointment' && x.outcome === 'not_assumed');
   const titleLabel=x=>{
     const reading=challengedOffice(x) ? null : titleReadings.get(x.id);
     const inherited = x.inheritance?.resolved_title;
-    const label=reading?`<strong>${h(reading.preferred_title)}</strong><br><small>${ui('Provisional reading; source spelling: {text}',{text:reading.source_title})}</small>`:inherited ? `<strong>${h(inherited)}</strong><br><small>${ui('Inherited title inferred from predecessor; source wording: {text}', {text:x.title})}</small>` : `<strong>${h(x.title)}</strong>`;
+    const label=reading?`<strong>${h(reading.preferred_title)}</strong><br><small>${ui('Provisional reading; source spelling: {text}',{text:reading.source_title})}</small>`:inherited ? `<strong>${h(inherited)}</strong><br><small>${ui('Inherited title inferred from predecessor; source wording: {text}', {text:x.inherited_title_binding?.raw_surface || x.title})}</small>` : `<strong>${h(x.title)}</strong>`;
     return label+challengedOfficeBadge(x)+(x.mode === 'posthumous_grant' ? ' <small class="person-posthumous-grant">追贈（非生前實任）</small>' : '')+(x.appointment_role==='acting'?` <small class="person-acting-office">${ui('Acting appointment')}</small>`:'')
       +(x.mode==='attestation'&&unassumedAppointments.some(a=>a.title===x.title)?` <small class="person-unassumed-office">${ui('Separate record of appointment not taken up')}</small>`:'');
   };
   const titleSuccessionEvidence = x => x.inheritance ? `<details class="person-holding-succession"><summary>${ui('Title succession evidence')}</summary><p>${h(x.inheritance.rationale)}</p><p>${x.inheritance.predecessor_relation === 'named_source_line_succession' ? '爵位來源' : ui('Predecessor')}: <a href="${h(profileURL(x.inheritance.predecessor_person_id))}">${h(p.related_people?.[x.inheritance.predecessor_person_id] || x.inheritance.predecessor_person_id)}</a></p><p><q>${h(x.inheritance.source_term)}</q></p>${x.inheritance.ritual_predecessor_person_id ? `<p>宗祧承繼所指：<a href="${h(profileURL(x.inheritance.ritual_predecessor_person_id))}">${h(p.related_people?.[x.inheritance.ritual_predecessor_person_id] || x.inheritance.ritual_predecessor_person_id)}</a>（未斷定曾實持爵）</p>` : ''}${(x.inheritance.evidence || []).map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details>` : '';
   const ancestryPathsHTML = x => x.ancestry_paths?.length ? `<details class="person-ancestry-paths"><summary>世系路徑與限定</summary>${x.ancestry_paths.map(route => `<section class="person-ancestry-path" data-qualification="${h(route.qualification)}"><h5>${route.qualification === 'assembly_inferred' ? '含父系暫定連接的推導路徑' : '原文關係連接路徑'}${route.cycle ? '（循環，停止追溯）' : ''}${route.unavailable ? '（資料未載入）' : ''}</h5>${route.steps.map(step => `<p>${h(step.from_label)} → ${h(step.to_label)} · ${step.qualification === 'assembly_inferred' ? '父系暫定連接' : '原文明記' + ({father:'父',grandfather:'祖父',great_grandfather:'曾祖父'}[step.relationship] || '親屬')}${step.inference_note ? `<br>${h(step.inference_note)}` : ''}</p>${step.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}`).join('')}</section>`).join('')}</details>` : '';
-  const relativeList = entries => entries?.length ? entries.map(x => `<div class="person-family-member"><a href="${h(profileURL(x.person?.id || x.id))}">${h(x.label)}</a>${x.cycle ? '（世系循環，停止追溯）' : ''}${x.unavailable ? '（資料未載入）' : ''}${x.role === 'legal_or_dynastic' ? '（法定／宗統）' : ''}${x.role === 'assembly_inferred' ? '（父系暫定）' : ''}${x.marriage_status === 'source_attested_divorce' ? ` <small>（${h(t('Divorced (source-attested)'))}）</small>` : ''}<details><summary>親屬來源</summary>${x.inference_note ? `<p>${h(x.inference_note)}</p>` : ''}${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}${ancestryPathsHTML(x)}</details></div>`).join('') : '';
+  const relativeList = (entries, maternal = false) => entries?.length ? entries.map(x => { const readings = maternal ? familyMotherReadings(x) : []; return `<div class="person-family-member"><a href="${h(profileURL(x.person?.id || x.id))}">${h(x.label)}</a>${x.cycle ? '（世系循環，停止追溯）' : ''}${x.unavailable ? '（資料未載入）' : ''}${x.role === 'legal_or_dynastic' ? '（法定／宗統）' : ''}${x.role === 'assembly_inferred' ? '（父系暫定）' : ''}${readings.length ? ` <small class="person-maternal-interpretation">${ui('Includes a contextually preferred birth-mother reading')}</small>` : ''}${x.marriage_status === 'source_attested_divorce' ? ` <small>（${h(t('Divorced (source-attested)'))}）</small>` : ''}<details><summary>親屬來源</summary>${x.inference_note ? `<p>${h(x.inference_note)}</p>` : ''}${readings.length ? maternalReasons(readings) + maternalEvidence(x.evidence,readings) : x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}${ancestryPathsHTML(x)}</details></div>`; }).join('') : '';
   const familyRows = family ? [
     ...family.ancestors.map((entries, i) => [ ['父','祖','曾祖'][i], entries, entries.length > 1 ? '多項來源主張，尚未統一' : '' ]),
-    ['生母', family.mother, family.mother.length > 1 ? '多項生母記錄，身份或說法待整合' : ''],
+    ['生母', family.mother, family.mother.length > 1 ? '多項生母記錄，身份或說法待整合' : '', true],
     [t('Adoptive father (source-attested chuji)'), family.adoptive_father || [], ''],
     [t('Adopted children (source-attested chuji)'), family.adopted_children || [], ''],
     ['配偶', family.spouses, ''], ['子女', family.children, ''],
     ['同族旁支（編輯接合；共同父未名）', family.family_namespace?.roots || [], '']
-  ].filter(([, entries]) => entries.length).map(([label, entries, note]) => `<dt>${label}</dt><dd>${note ? `<small>${note}</small><br>` : ''}${relativeList(entries)}</dd>`).join('') : '';
+  ].filter(([, entries]) => entries.length).map(([label, entries, note, maternal]) => `<dt>${label}</dt><dd>${note ? `<small>${note}</small><br>` : ''}${relativeList(entries,maternal)}</dd>`).join('') : '';
   const unresolvedSpouses = (family?.unresolved_spouse_groups || []).map(g => `<div class="person-pending-spouse-group" data-identity-group="${h(g.id)}"><strong>配偶指涉未決：是否同一人尚未判定</strong><p>${h(g.rationale)}</p><ul>${g.references.map(r => `<li>來源稱法：${h(r.span.surface)}${evidenceQuotes(r)}${evidenceLinks([r])}</li>`).join('')}</ul><small>此組不表示已證一人或兩人；原始配偶陳述均保留。</small></div>`).join('');
   const familyHTML = familyRows || unresolvedSpouses ? `<section class="person-family"><h4>家族</h4><dl>${familyRows}</dl>${unresolvedSpouses}</section>` : '';
   const ownIDs = new Set(p.person_ids || [p.id]);
@@ -111,8 +139,11 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
   const preserveLabelForPartialName = Boolean(names && !names.clan_style?.value && !names.full_name && names.ming && !names.surname && p.label?.endsWith(names.ming) && p.label.length > names.ming.length);
   const personalName = names?.clan_style?.value || names?.full_name || (names ? `${names.surname || ''}${names.ming || ''}` : '');
   const defaultTitle = profileTitlePreference(p);
-  const titleCanPrefix = Boolean(defaultTitle && names && nameDisplay.canHead && !preserveLabelForPartialName && personalName);
-  const heading = titleCanPrefix ? `${defaultTitle.title} ${personalName}` : preserveLabelForPartialName ? p.label : names && nameDisplay.canHead ? `${names.title || ''} ${personalName}`.trim() || p.label : p.label;
+  // Core-name alternatives already fall back to this label. A validated title
+  // may qualify that same display without selecting one of the conflicting names.
+  const titleName = nameDisplay.canHead ? personalName : nameDisplay.coreConflict && typeof p.label === 'string' && p.label.trim() ? p.label : '';
+  const titleCanPrefix = Boolean(defaultTitle && names && !preserveLabelForPartialName && titleName && (nameDisplay.canHead || !titleName.startsWith(defaultTitle.title)));
+  const heading = titleCanPrefix ? `${defaultTitle.title} ${titleName}` : preserveLabelForPartialName ? p.label : names && nameDisplay.canHead ? `${names.title || ''} ${personalName}`.trim() || p.label : p.label;
   const profileTitleChoiceHTML = profileTitleHTML(p,titleCanPrefix);
   const additional = names ? nameAliases(names) : [];
   const componentAlternatives = components.flatMap(x => x.component_alternatives || []).map(a => {
@@ -301,7 +332,14 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
   const relationPersonLink = id => `<a class="person-kinship-link" href="${h(profileURL(id))}">${h(p.related_people?.[id] || id)}</a>`;
   const relationLabel = x => {
     if (x.qualifiers?.kinship_basis === 'stepfamily_grandparent_appellation') return '繼室母家外祖稱（非已證生系）';
-    if (x.predicate === 'maternal_role') return x.qualifiers?.role === 'prior_mother' ? t('Prior mother (source wording)') : t('Mother (birth unspecified)');
+    if (x.predicate === 'maternal_role') {
+      // Preserve an explicit source role without selecting a biological mother.
+      if (x.qualifiers?.role === 'principal_mother' && x.qualifiers?.biological_mother === null
+          && (x.qualifiers?.source_term === '嫡母' || (typeof x.qualifiers?.source_term === 'string'
+            && x.qualifiers.source_term.startsWith('嫡母')
+            && (x.evidence || []).some(e => typeof e.quote === 'string' && e.quote.includes(x.qualifiers.source_term))))) return t('Principal mother (source wording)');
+      return x.qualifiers?.role === 'prior_mother' ? t('Prior mother (source wording)') : t('Mother (birth unspecified)');
+    }
     if (x.predicate === 'grandfather' && x.qualifiers?.lineage === 'maternal') return t('Maternal grandfather');
     const order=x.qualifiers?.relative_birth_order;
     if(x.predicate==='sister') {
@@ -333,7 +371,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
   ${titles.length || addresses.length ? `<div class="person-facts">${titles.length ? `<section><h4>稱號與持職</h4>${titles.slice(0, full ? undefined : 2).map(x => `<div class="person-title">${titleLabel(x)}${titleKind(x)}${titleJurisdictions(x)}${challengedOfficeEvidence(x,p)}${titlePeriod(x) ? `<br><small>${h(titlePeriod(x))}</small>` : ''}${titleUsageHTML(x.source_usages, full, p.sources || [])}${officeCounts(x)}${titleDuration(x)}${titleSuccessionEvidence(x)}${titleChronology(x, true)}${full ? `<details><summary>${x.evidence.length} 筆來源證據</summary>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}${x.interpretation_note ? `<p>${h(x.interpretation_note)}</p>` : ''}${officeAttribution(x)}${titleChronology(x)}${dateReferences(x)}</details>` : ''}${titleDateSources(x)}${!full && x.mode !== 'attestation' && x.evidence.length ? `<p class="person-title-source">${evidenceLinks(x.evidence)}</p>` : ''}</div>`).join('')}</section>` : ''}
   ${addresses.length ? `<section><h4>來源所記地望</h4>${addresses.slice(0, full ? undefined : 2).map(x => `<div class="person-address"><strong>${h(addressHeading(x))}</strong>${full ? `<details><summary>查看原文證據</summary><blockquote>${h(x.quote)}</blockquote>${evidenceLinks(x.evidence)}${x.interpretation_note ? `<p>${h(x.interpretation_note)}</p>` : ''}</details>` : ''}</div>`).join('')}</section>` : ''}</div>` : ''}
   ${full && teaching.length ? `<section class="person-teaching"><h4>${ui('Teaching and learning')}</h4><ul>${teaching.map(x => `<li><a href="${h(profileURL(x.subject_person_id))}">${h(p.related_people?.[x.subject_person_id] || x.subject_person_id)}</a> · ${ui('Studied with')} <a href="${h(profileURL(x.object_person_id))}">${h(p.related_people?.[x.object_person_id] || x.object_person_id)}</a><details><summary>${ui('Source evidence')}</summary><p>${h(x.qualifiers?.source_term || '')}</p>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details></li>`).join('')}</ul></section>` : ''}
-  ${full && relations.length ? `<section><h4>來源所記親屬</h4><ul>${relations.map(x => `<li>${relationPersonLink(x.subject_person_id)} · ${h(relationLabel(x))}：${relationPersonLink(x.object_person_id)}${x.qualifiers?.adopted_for_family_tree === false ? ' <small class="person-unadopted-ancestry">'+ui('Relationship claim not adopted into family tree')+'</small>' : ''}<details><summary>來源與關係原詞</summary><p>${h(x.qualifiers?.source_term || '')}</p>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details></li>`).join('')}</ul></section>` : ''}
+  ${full && relations.length ? `<section><h4>來源所記親屬</h4><ul>${relations.map(x => `<li>${relationPersonLink(x.subject_person_id)} · ${h(relationLabel(x))}：${relationPersonLink(x.object_person_id)}${contextualMother(x) ? ' ' + maternalBadge() : ''}${x.qualifiers?.adopted_for_family_tree === false ? ' <small class="person-unadopted-ancestry">'+ui('Relationship claim not adopted into family tree')+'</small>' : ''}<details><summary>來源與關係原詞</summary><p>${h(x.qualifiers?.source_term || '')}</p>${contextualMother(x) ? maternalReasons([x]) + maternalEvidence(x.evidence,[x]) : x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details></li>`).join('')}</ul></section>` : ''}
   ${full && p.table_occurrences?.length ? `<section><h4>表中原文</h4><ul class="person-occurrences">${(p.table_occurrences || []).map(x => `<li><a href="${h(tableOccurrenceURL(x))}">${h(x.title)} · ${h(yearLabel(x.year))} →</a><blockquote>${h(x.quote)}</blockquote>${x.mention?.identity_evidence?.length ? `<details class="person-identity-evidence"><summary>人物同指的篇文證據 · 暫定</summary>${x.mention.identity_evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}${e.source_revision ? `<p><small>固定修訂 <code>${h(e.source_revision)}</code></small></p>` : ''}`).join('')}</details>` : ''}</li>`).join('')}</ul></section>` : ''}
   ${occurrences.length ? `<section><h4>出現篇章</h4><ul class="person-occurrences">${occurrences.slice(0, full ? undefined : 3).map(x => `<li><a href="${h(sourcePassageURL(x))}">${h(sourceCaption(x.work_title || '史記',x.title))} →</a>${full ? `<p><q>${h(x.quote)}</q></p>` : ''}<small>${h(occurrenceCountLabel(x))}</small></li>`).join('')}</ul></section>` : ''}
   ${memorialHTML}${contextHTML}

@@ -1,0 +1,81 @@
+{
+  "record_type": "source_bound_cross_chapter_identity_review",
+  "canonical_person_id": "nx3_l5c_jlj",
+  "identity_decision_id": "d-sanguozhi010-peihui-xuncan-peikai",
+  "rationale": "固定023裴注親屬附敘明徽為潛少弟、冀州刺史，子楷字叔則，且明指事見荀粲傅嘏等傳；010何邵粲傳正敘荀粲與傅嘏談玄、裴徽通彼我之懷，035又明楷字叔則父徽魏冀州刺史、秀父潛叔父徽。據具體跨傳指引、交遊、官職與親屬共同首選同人，非僅同名。原字、篇章及正文/裴注層分存，未核影像，不新增父系、官期或姓名異字。",
+  "parallel_primary": {
+    "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt#L374-L427",
+    "revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+    "raw_file": "sgz023-peiqian-fixed-primary.txt",
+    "raw_sha256": "d6f42012810a7643dbf554325f4f653b5ae8758322d9afaa0caf1b385b51d4f3",
+    "git_blob_sha1": "78b3841be4cb93f1c70f4304753ac4b15b900562",
+    "raw_offset_unit": "Unicode code points in UTF-8 decoded fixed raw, no normalization",
+    "image_verified": false,
+    "native_chapter_id": null,
+    "native_scope": "not_imported",
+    "reading_scope": {
+      "first_line": 374,
+      "last_line": 427,
+      "boundary_only_additional_lines": [
+        428,
+        433
+      ]
+    },
+    "bridge_fragments": [
+      {
+        "line": 420,
+        "raw_start": 11835,
+        "raw_end": 11881,
+        "raw": "(節監中外營諸軍事潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長)¶\n",
+        "sha256": "f4fd40815b4a4da4e66e1c679af0996f82e1f7f679a12848fe337c4db79b2d12"
+      },
+      {
+        "line": 422,
+        "raw_start": 11908,
+        "raw_end": 11954,
+        "raw": "(子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季)¶\n",
+        "sha256": "7ff33d4b32522bd040c642a4af065626a8c03e6a5626167fd1dfe168e5a72596"
+      }
+    ],
+    "raw_path": "source-evidence/peihui-identity-merge/primary/KR2a0012_023.txt"
+  },
+  "current_projection_bindings": [
+    {
+      "current_path": "source-evidence/yang-family-assembly/current-source-projections/sgz025-xinpi-zhonghui/current-reuse-contexts.json",
+      "current_pointer": "/records/contexts/a28_f5c_105/0/complete_paragraph/mentions/41/person_id",
+      "historical_file": "source-evidence/sgz025-xinpi-zhonghui/current-reuse-contexts.json",
+      "historical_sha256": "38d0abee3b4daa358ffba75d90fd3474020e5697df970a4a5c1c90272379bc27",
+      "historical_pointer": "/contexts/a28_f5c_105/0/complete_paragraph/mentions/41/person_id",
+      "source_path": "corpus/sanguozhi/010.json",
+      "source_chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+      "source_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029:m0324",
+      "source_surface": "裴徽",
+      "current_person_id": "nx3_l5c_jlj"
+    },
+    {
+      "current_path": "source-evidence/yang-family-assembly/current-source-projections/sgz025-xinpi/reuse-captures.json",
+      "current_pointer": "/records/a28_f5c_105/0/complete_paragraph/mentions/41/person_id",
+      "historical_file": "source-evidence/sgz025-xinpi/reuse-captures.json",
+      "historical_sha256": "1d01196bf6d0aef898167b43129f1eae4d70ca77258b4c0a05a8badb38f976f8",
+      "historical_pointer": "/a28_f5c_105/0/complete_paragraph/mentions/41/person_id",
+      "source_path": "corpus/sanguozhi/010.json",
+      "source_chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+      "source_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029:m0324",
+      "source_surface": "裴徽",
+      "current_person_id": "nx3_l5c_jlj"
+    }
+  ],
+  "prior_case_ref": "source-evidence/peihui-identity-merge/prior-case.json",
+  "supersedes_initial_readings": [
+    {
+      "path": "source-evidence/jin035-peixiu-source/context-collision-review.json",
+      "pointer": "/hui_qualification"
+    },
+    {
+      "path": "source-evidence/jin035-peixiu-source/identity-review.json",
+      "pointer": "/entities/3"
+    }
+  ],
+  "human_reviewed": false,
+  "image_verified": false
+}
