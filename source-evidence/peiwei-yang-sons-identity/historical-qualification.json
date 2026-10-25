@@ -1,0 +1,18 @@
+{
+  "record_type": "historical_snapshot_qualification",
+  "historical_files": [
+    {
+      "path": "source-evidence/jin043-leguang-source/reuse-native-contexts.json",
+      "sha256": "b3118ef29ed5ab19d8ac371d5bac0bcf65207d2615a86e8e9200140d40a2f2b7",
+      "role": "exact_full_source_capture_not_current_endpoint",
+      "current_review": "source-evidence/peiwei-yang-sons-identity/current-reading.json"
+    },
+    {
+      "path": "source-evidence/peiwei-yang-sons-identity/historical-reading.json",
+      "sha256": "2123121ef92b5b79430b8c5bc0fa1fb3b4a4ffaddb870fe14d55d461a4ad654a",
+      "role": "historical_read_before_identity_merge_not_runtime"
+    }
+  ],
+  "image_verified": false,
+  "human_reviewed": false
+}

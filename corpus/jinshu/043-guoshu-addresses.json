@@ -1,0 +1,77 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_address_assertion_set",
+  "chapter_id": "c-jinshu-043-guoshu",
+  "assertions": [
+    {
+      "id": "ad-jin043-guoshu-dukou-station",
+      "person_id": "7mp_r23_bds",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p003",
+          "quote": "澄之奔敗也，以舒領南郡。澄又欲將舒東下，舒曰：「舒為萬里紀綱，不能匡正，令使君奔亡，不忍渡江。」乃留屯沌口，采穭湖澤以自給。鄉人盜食舒牛，事覺，來謝。舒曰：「卿饑，所以食牛耳，餘肉可共啖之。」世以此服其弘量。",
+          "person_mention_id": "c-jinshu-043-guoshu:p003:m0024"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "留屯沌口來源駐屯，不是原籍或死亡地。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "dukou-station"
+      },
+      "relation": "residence",
+      "source_term": "乃留屯沌口",
+      "place": {
+        "source_name": "沌口",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "date_expression": null
+    },
+    {
+      "id": "ad-jin043-guoshu-zongxin-locality",
+      "person_id": "4id_osw_zuz",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-guoshu",
+          "chapter_id": "c-jinshu-043-guoshu",
+          "paragraph_id": "c-jinshu-043-guoshu:p002",
+          "quote": "王澄聞其名，引為別駕。澄終日酣飲，不以眾務在意，舒常切諫之。及天下大亂，又勸澄修德養威，保完州境。澄以為亂自京都起，非復一州所能匡禦，雖不能從，然重其忠亮。荊土士人宗庾廞嘗因酒忤澄，澄怒，叱左右棒廞。舒厲色謂左右曰：「使君過醉，汝輩何敢妄動！」澄恚曰：「別駕狂邪，誑言我醉！」因遣掐其鼻，灸其眉頭，舒跪而受之。澄意少釋，而廞遂得免。",
+          "person_mention_id": "c-jinshu-043-guoshu:p002:m0082"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "荊土士人地域稱，不升精確出生／原籍。宗廞首選身份原span宗庾廞保留。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-guoshu-finite",
+        "slot": "zongxin-locality"
+      },
+      "relation": "source_locality_designation",
+      "qualifiers": {
+        "designation_kind": "geographical_person_reference",
+        "origin_or_residence": null
+      },
+      "source_term": "荊土士人",
+      "place": {
+        "source_name": "荊土",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "date_expression": null
+    }
+  ]
+}

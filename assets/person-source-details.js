@@ -1,5 +1,6 @@
 import {escapeHTML as h} from './core.js';
 import {ui} from './i18n.js';
+import {compilerChronologyPlacements} from './compiler-chronology.js';
 import {sourcePassageURL} from './corpus-reader.js';
 const text = value => typeof value === 'string' && value.trim() ? value : '';
 const list = value => Array.isArray(value) ? value : [];
@@ -44,6 +45,15 @@ const officeHTML = (record, person) => {
 };
 function detailView(record, person) {
   const v = record.values || {};
+  if (record.kind === 'compiler_chronological_placement') {
+    const placement = compilerChronologyPlacements(person).find(p => p.record_id === record.id);
+    if (!placement) return {key:'Source detail',values:''};
+    const proof = placement.evidence, url = safeURL(proof.source.url);
+    const aids = proof.anchors.filter(a => text(a.reading_aid) && text(a.reading_aid_qualification));
+    const raw = proof.anchors.map(a => `<blockquote>${h(a.quote)}</blockquote>`).join('');
+    const reading = aids.map(a => `<blockquote class="person-compiler-reading-aid">${h(a.reading_aid)}</blockquote><p class="note">${h(a.reading_aid_qualification)}</p>`).join('');
+    return {key:'Compiler chronological placement',values:`<p>${h(placement.year)} · ${h(placement.source_expression)} (${ui('Provisional preferred placement')})</p><p class="note">${h(placement.qualification)}</p>${reading}${reading ? `<details class="person-compiler-raw-witness"><summary>${ui('Raw witness transcription')}</summary>${raw}</details>` : raw}${url ? `<a href="${h(url)}" target="_blank" rel="noopener">${ui('Fixed primary witness')}</a>` : ''}`};
+  }
   const careerLabels = new Map([
     ['unassumed_appointment',v.appointment_stage === 'recommendation' ? 'Appointment not assumed' : 'Non-assumption reported'],
     ['refused_rank_offer','Rank offer declined'],

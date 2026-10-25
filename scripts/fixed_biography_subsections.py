@@ -5,12 +5,15 @@ Every raw code point is either visible or assigned one explicit markup/layout re
 from pathlib import Path
 import hashlib,json,re
 KIND='fixed_wikisource_biography_subsections_links'
-def project(raw,title,opening_heading=None,following_heading=None):
+def project(raw,title,opening_heading=None,following_heading=None,projection_features=(),selection_mode=None,metadata_templates=()):
+ assert isinstance(projection_features,(tuple,list)) and len(projection_features)==len(set(projection_features)) and set(projection_features)<=set(("block_quote_template","unpiped_wiki_display"))
+ quote_enabled="block_quote_template" in projection_features; unpiped_enabled="unpiped_wiki_display" in projection_features; in_quote=False
  if opening_heading is None:
   assert isinstance(title,str)and title.endswith('傳')and len(title)>1
   heading='=='+title[:-1]+'=='
  else:
-  assert isinstance(opening_heading,str)and re.fullmatch(r'===[^=\n]+===',opening_heading)
+  assert selection_mode in (None,'main_to_attached_subsection')
+  assert isinstance(opening_heading,str)and re.fullmatch((r'==[^=\n]+==' if selection_mode=='main_to_attached_subsection' else r'===[^=\n]+==='),opening_heading)
   heading=opening_heading
  assert raw.count(heading)==1
  start=raw.index(heading)
@@ -20,27 +23,39 @@ def project(raw,title,opening_heading=None,following_heading=None):
   assert opening_heading is not None and re.fullmatch(r'(={2,3})[^=\n]+\1',following_heading)
   following=re.search(r'^(={2,3})[^=\n]+\1[ \t]*$',raw[start+len(heading):],re.M);assert following
   assert following.group(0).strip()==following_heading
- end=start+len(heading)+following.start();ps=[];classes=[]
+ end=start+len(heading)+following.start();ps=[];classes=[];quote_count=0
  for m in re.finditer(r'[^\n]*\n|[^\n]+$',raw[start:end]):
   line=m[0].rstrip('\n');a=start+m.start();z=a+len(line);trim=line.strip()
   if not trim:classes.append(dict(start=a,end=start+m.end(),kind='layout_whitespace'));continue
   if re.fullmatch(r'(={2,3})[^=\n]+\1',trim):classes.append(dict(start=a,end=start+m.end(),kind='editorial_heading',text=line));continue
+  if metadata_templates and any(trim==v for v in metadata_templates):
+   assert line==trim and trim.startswith('{{wikipedia|') and trim.endswith('}}') and trim.count('|')==1
+   classes.append(dict(start=a,end=start+m.end(),kind='digital_metadata_template',text=line));continue
   assert not trim.startswith('=')
-  out=[];ix=[];i=0
+  out=[];ix=[];i=0;paragraph_quote=in_quote
   while i<len(line):
    if line[i].isspace()and(i==0 or all(c.isspace()for c in line[:i])):classes.append(dict(start=a+i,end=a+i+1,kind='paragraph_indentation'));i+=1;continue
-   if line.startswith('{{YL|',i):
+   if quote_enabled and line.startswith('{{quote|',i):
+    assert not in_quote and not out; in_quote=True;paragraph_quote=True;quote_count+=1
+    classes.append(dict(start=a+i,end=a+i+8,kind='quoted_document_template_open'));i+=8
+   elif quote_enabled and line.startswith('}}',i):
+    assert in_quote and i+2==len(line);in_quote=False
+    classes.append(dict(start=a+i,end=a+i+2,kind='quoted_document_template_close'));i+=2
+   elif line.startswith('{{YL|',i):
     c=line.index('}}',i);v=line[i+5:c];assert v and not any(x in v for x in '{}[]<>|')
     classes.extend([dict(start=a+i,end=a+i+5,kind='year_template_markup'),dict(start=a+c,end=a+c+2,kind='year_template_markup')]);out.extend(v);ix.extend(range(a+i+5,a+c));i=c+2
    elif line.startswith('[[',i):
-    c=line.index(']]',i);bar=line.index('|',i,c);target=line[i+2:bar];display=line[bar+1:c];assert target and display and not any(x in target+display for x in '{}[]<>|')
+    c=line.index(']]',i);bar=line.find('|',i,c)
+    if bar<0:
+     assert unpiped_enabled;bar=i+1
+    target=line[i+2:bar] if bar>i+1 else line[i+2:c];display=line[bar+1:c];assert target and display and not any(x in target+display for x in '{}[]<>|')
     classes.extend([dict(start=a+i,end=a+bar+1,kind='wiki_link_target_and_markup'),dict(start=a+c,end=a+c+2,kind='wiki_link_markup')]);out.extend(display);ix.extend(range(a+bar+1,a+c));i=c+2
    else:
     assert not any(line.startswith(x,i)for x in ('{{','}}','[[',']]','<','>'))
     out.append(line[i]);ix.append(a+i);i+=1
   if m[0].endswith('\n'):classes.append(dict(start=z,end=z+1,kind='layout_newline'))
-  if out:ps.append(dict(text=''.join(out),raw_start=a,raw_end=z,raw_character_offsets=ix,first_line=raw.count('\n',0,a)+1,last_line=raw.count('\n',0,z)+1))
- assert ps
+  if out:ps.append(dict(**({'source_layer':'received_quoted_document' if paragraph_quote else 'received_biography'} if quote_enabled else {}),text=''.join(out),raw_start=a,raw_end=z,raw_character_offsets=ix,first_line=raw.count('\n',0,a)+1,last_line=raw.count('\n',0,z)+1))
+ assert ps and not in_quote and (not quote_enabled or quote_count==1)
  visible=[i for p in ps for i in p['raw_character_offsets']];excluded=[i for c in classes for i in range(c['start'],c['end'])]
  assert len(set(visible))==len(visible)and len(set(excluded))==len(excluded)and not set(visible)&set(excluded)and set(visible)|set(excluded)==set(range(start,end))
  return start,end,ps,classes

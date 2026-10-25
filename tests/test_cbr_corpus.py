@@ -5,25 +5,28 @@ import shutil
 import tempfile
 import unittest
 ROOT=Path(__file__).resolve().parents[1]
+_fixture_spec=importlib.util.spec_from_file_location('fixture_copy',ROOT/'tests/fixture_copy.py')
+_fixture_copy=importlib.util.module_from_spec(_fixture_spec);_fixture_spec.loader.exec_module(_fixture_copy)
+copy_fixture_file=_fixture_copy.copy_fixture_file
 spec=importlib.util.spec_from_file_location('corpus_validator',ROOT/'scripts/validate_corpus.py')
 v=importlib.util.module_from_spec(spec);spec.loader.exec_module(v)
 class CorpusTests(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.root=Path(self.tmp.name).resolve()
-        for folder in ('registry','corpus','source-evidence'):shutil.copytree(ROOT/folder,self.root/folder)
-        shutil.copytree(ROOT/'data/historical-tables',self.root/'data/historical-tables')
+        for folder in ('registry','corpus','source-evidence'):shutil.copytree(ROOT/folder,self.root/folder, copy_function=copy_fixture_file)
+        shutil.copytree(ROOT/'data/historical-tables',self.root/'data/historical-tables', copy_function=copy_fixture_file)
         # Source-scoped display choices bind records in the editorial name dataset.
         (self.root/'data/corpus').mkdir(parents=True, exist_ok=True)
-        shutil.copy2(ROOT/'data/corpus/profile-names.json', self.root/'data/corpus/profile-names.json')
+        copy_fixture_file(ROOT/'data/corpus/profile-names.json', self.root/'data/corpus/profile-names.json')
         # Source-bound claims need their complete fixed witnesses and date references.
-        shutil.copytree(ROOT/'sources', self.root/'sources')
-        shutil.copytree(ROOT/'data/works', self.root/'data/works')
+        shutil.copytree(ROOT/'sources', self.root/'sources', copy_function=copy_fixture_file)
+        shutil.copytree(ROOT/'data/works', self.root/'data/works', copy_function=copy_fixture_file)
         # Validators bind complete witnesses to trusted JSON recipes/pins in root/scripts.
         # Copy data only; production code stays imported from the actual repository.
         (self.root/'scripts').mkdir()
         for config in (ROOT/'scripts').glob('*.json'):
-            shutil.copy2(config, self.root/'scripts'/config.name)
+            copy_fixture_file(config, self.root/'scripts'/config.name)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_work_mention_cannot_link_person(self):

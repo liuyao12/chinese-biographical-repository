@@ -296,6 +296,10 @@ def load_catalog(root=ROOT):
     except ImportError:from fixed_witness_fact_slots import errors as witness_fact_errors
     fact_errors=witness_fact_errors(root,records)
     if fact_errors:raise ValueError(';'.join(fact_errors))
+    try:from scripts.fixed_compiler_chronology import errors as chronology_errors
+    except ImportError:from fixed_compiler_chronology import errors as chronology_errors
+    placement_errors=chronology_errors(root,records)
+    if placement_errors:raise ValueError(';'.join(placement_errors))
     try:from scripts.profile_title_preferences import PreferenceCatalog
     except ImportError:from profile_title_preferences import PreferenceCatalog
     return people, PreferenceCatalog(records,people,root)
@@ -779,6 +783,13 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             for item in value: found.update(context_ids(item))
         return found
     source_details = [d for r in records if r.get('record_type') == 'biographical_source_detail_set' for d in r['records'] if d['person_id'] in ids]
+    for detail in source_details:
+        if detail.get('kind')=='compiler_chronological_placement':
+            try:from scripts.fixed_compiler_chronology import valid as chronology_valid
+            except ImportError:from fixed_compiler_chronology import valid as chronology_valid
+            if not chronology_valid(detail,chapters[detail['evidence'][0]['chapter_id']],root):raise ValueError('Invalid qualified chronological placement')
+            linked=[event for event in life_events if event['id']==detail['linked_life_event_id']]
+            if len(linked)!=1 or linked[0]['person_id']!=detail['person_id'] or linked[0]['event_type']!='death' or linked[0].get('date_expression') is not None or 'normalized_date' in linked[0] or 'normalized_date_range' in linked[0] or any(linked[0].get(k)!=detail.get(k) for k in ('source_term','source_anchor','evidence')):raise ValueError('Chronological placement linked event changed')
     source_temporal_attestations = [r for record in records if record.get('record_type') == 'source_temporal_attestation_set' for r in record['records'] if r['person_id'] in ids]
     unresolved_kinship_references = [r for chapter in chapters.values() for r in chapter['annotation'].get('unresolved_kinship_references', []) if r['person_id'] in ids or ids.intersection(r['reference_person_candidates'])]
     source_title_uses = [u for chapter in chapters.values() for u in chapter['annotation'].get('source_title_uses', []) if u['person_id'] in ids]

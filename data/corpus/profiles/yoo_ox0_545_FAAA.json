@@ -1984,6 +1984,50 @@
       "work_title": "晉書"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "裴頠傳",
+      "paragraph_id": "c-jinshu-035-peiwei:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "學，刻石寫經。皇太子既講，釋奠祀孔子，飲饗射侯，甚有儀序。又令荀籓終父勖之志，鑄鐘鑿磬，以備郊廟朝享禮樂。頠通博多聞，兼明醫術。荀勖之修律度也，檢得古尺，短世所用四分有餘。頠上言：「宜改諸度量。若未能悉革，可先改太醫權衡。此若差違，遂失神農、岐伯之正。藥物輕重，分兩乖互，",
+      "paragraph_ids": [
+        "c-jinshu-035-peiwei:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peiwei:p003:m0045",
+        "c-jinshu-035-peiwei:p003:m0074"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peiwei:p003:m0045": "c-jinshu-035-peiwei:p003",
+        "c-jinshu-035-peiwei:p003:m0074": "c-jinshu-035-peiwei:p003"
+      },
+      "mention_id": "c-jinshu-035-peiwei:p003:m0045",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p003:m0045",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p003:m0045"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p003:m0074",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p003:m0074"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peiwei",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "work_title": "晉書"
+    },
+    {
       "number": 39,
       "category": "",
       "title": "王沈荀顗荀勖馮紞列傳第九",
@@ -2921,6 +2965,35 @@
           "character_conversion": {},
           "extraction_note": "僅排版空白、quote/YL模板外殼、wiki連結/粗體標記投影；原字/標點不改，原文與所有排版排除位合為完整節界。實際古本未核。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peiwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "source": {
+        "title": "《晉書》卷三十五子頠完整附傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-24",
+        "extent": "子頠附傳完整十五自然段，含晉書收到崇有之論全部引文容器及二子敘述；非裴秀全傳/卷035全卷或獨立原著全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅排quote模板/顯示wiki標記/段間空白；保每碼點責任。無pipe易鏈接保易原字；內引層非獨立原著見證。"
+        },
+        "raw_path": "sources/witnesses/jin035-ws2506399.wikitext",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
       }
     },
     {
@@ -18607,6 +18680,39 @@
   ],
   "relations": [
     {
+      "id": "a-jin035-peiwei-fan-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p003",
+          "quote": "時天下暫寧，頠奏修國學，刻石寫經。皇太子既講，釋奠祀孔子，飲饗射侯，甚有儀序。又令荀籓終父勖之志，鑄鐘鑿磬，以備郊廟朝享禮樂。頠通博多聞，兼明醫術。荀勖之修律度也，檢得古尺，短世所用四分有餘。頠上言：「宜改諸度量。若未能悉革，可先改太醫權衡。此若差違，遂失神農、岐伯之正。藥物輕重，分兩乖互，所可傷夭，為害尤深。古壽考而今短折者，未必不由此也。」卒不能用。樂廣嘗與頠清言，欲以理服之，而頠辭論豐博，廣笑而不言。時人謂頠為言談之林藪。",
+          "subject_person_mention_id": "c-jinshu-035-peiwei:p003:m0041",
+          "object_person_mention_id": "c-jinshu-035-peiwei:p003:m0045"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "逐字父子；p002兄與前接浚的身份已採，保來源角色，不混裴嵩／韓嵩。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "fan-father"
+      },
+      "subject_person_id": "yoo_ox0_545_FAAAA",
+      "object_person_id": "yoo_ox0_545_FAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "荀籓終父勖之志",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      }
+    },
+    {
       "id": "a-jinshu039-xun-002",
       "subject_person_id": "yoo_ox0_545_FAAA",
       "predicate": "father",
@@ -18827,6 +18933,52 @@
   ],
   "name_components": [
     {
+      "id": "nc-jin035-peiwei-name-xunxu",
+      "person_id": "yoo_ox0_545_FAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p003",
+          "quote": "時天下暫寧，頠奏修國學，刻石寫經。皇太子既講，釋奠祀孔子，飲饗射侯，甚有儀序。又令荀籓終父勖之志，鑄鐘鑿磬，以備郊廟朝享禮樂。頠通博多聞，兼明醫術。荀勖之修律度也，檢得古尺，短世所用四分有餘。頠上言：「宜改諸度量。若未能悉革，可先改太醫權衡。此若差違，遂失神農、岐伯之正。藥物輕重，分兩乖互，所可傷夭，為害尤深。古壽考而今短折者，未必不由此也。」卒不能用。樂廣嘗與頠清言，欲以理服之，而頠辭論豐博，廣笑而不言。時人謂頠為言談之林藪。",
+          "person_mention_id": "c-jinshu-035-peiwei:p003:m0074"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本源可見姓名組件，無姓原字者保名；不靠label補裴或改籓字。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "name-xunxu"
+      },
+      "surname": "荀",
+      "ming": "勖",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-035-peiwei",
+      "paragraph_id": "c-jinshu-035-peiwei:p003",
+      "person_mention_id": "c-jinshu-035-peiwei:p003:m0074",
+      "quote": "時天下暫寧，頠奏修國學，刻石寫經。皇太子既講，釋奠祀孔子，飲饗射侯，甚有儀序。又令荀籓終父勖之志，鑄鐘鑿磬，以備郊廟朝享禮樂。頠通博多聞，兼明醫術。荀勖之修律度也，檢得古尺，短世所用四分有餘。頠上言：「宜改諸度量。若未能悉革，可先改太醫權衡。此若差違，遂失神農、岐伯之正。藥物輕重，分兩乖互，所可傷夭，為害尤深。古壽考而今短折者，未必不由此也。」卒不能用。樂廣嘗與頠清言，欲以理服之，而頠辭論豐博，廣笑而不言。時人謂頠為言談之林藪。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2506399,
+        "paragraph_sha256": "6304ffa88d4c3f082412c0f2782e9e304d07ae4566141d0d11d277e06243de99",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-035-peiwei:p003:m0074",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peiwei"
+    },
+    {
       "id": "nc-jin040-jiachong-011",
       "person_id": "yoo_ox0_545_FAAA",
       "surname": "荀",
@@ -18877,6 +19029,39 @@
     "yoo_ox0_545_FAAA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin035-peiwei-fan-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p003",
+          "quote": "時天下暫寧，頠奏修國學，刻石寫經。皇太子既講，釋奠祀孔子，飲饗射侯，甚有儀序。又令荀籓終父勖之志，鑄鐘鑿磬，以備郊廟朝享禮樂。頠通博多聞，兼明醫術。荀勖之修律度也，檢得古尺，短世所用四分有餘。頠上言：「宜改諸度量。若未能悉革，可先改太醫權衡。此若差違，遂失神農、岐伯之正。藥物輕重，分兩乖互，所可傷夭，為害尤深。古壽考而今短折者，未必不由此也。」卒不能用。樂廣嘗與頠清言，欲以理服之，而頠辭論豐博，廣笑而不言。時人謂頠為言談之林藪。",
+          "subject_person_mention_id": "c-jinshu-035-peiwei:p003:m0041",
+          "object_person_mention_id": "c-jinshu-035-peiwei:p003:m0045"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "逐字父子；p002兄與前接浚的身份已採，保來源角色，不混裴嵩／韓嵩。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "fan-father"
+      },
+      "subject_person_id": "yoo_ox0_545_FAAAA",
+      "object_person_id": "yoo_ox0_545_FAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "荀籓終父勖之志",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      }
+    },
     {
       "id": "a-jinshu039-xun-002",
       "subject_person_id": "yoo_ox0_545_FAAA",

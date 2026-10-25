@@ -1,0 +1,77 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_address_assertion_set",
+  "chapter_id": "c-jinshu-035-peixiu",
+  "assertions": [
+    {
+      "id": "ad-jin035-peixiu-address-002",
+      "person_id": "057_a27_29b",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "person_mention_id": "c-jinshu-035-peixiu:p001:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "不是出生地/現居，不補現代座標。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "address-002"
+      },
+      "relation": "biographical_origin",
+      "source_term": "河東聞喜人也",
+      "place": {
+        "source_name": "河東聞喜",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "date_expression": null
+    },
+    {
+      "id": "ad-jin035-peixiu-address-039",
+      "person_id": "057_a27_29b",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p003",
+          "quote": "帝之討諸葛誕也，秀與尚書僕射陳泰、黃門侍郎鍾會以行台從，豫參謀略。及誕平，轉尚書，進封魯陽鄉侯，增邑千戶。常道鄉公立，以豫議定策，進爵縣侯，增邑七百戶，遷尚書僕射。魏咸熙初，厘革憲司。時荀顗定禮儀，賈充正法律，而秀改官制焉。秀議五等之爵，自騎督已上六百餘人皆封。於是秀封濟川侯，地方六十里，邑千四百戶，以高苑縣濟川墟為侯國。",
+          "person_mention_id": "c-jinshu-035-peixiu:p003:m0008"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "不是出生/籍貫/現居。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "address-039"
+      },
+      "relation": "fief",
+      "source_term": "以高苑縣濟川墟為侯國",
+      "place": {
+        "source_name": "高苑縣濟川墟",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "date_expression": null,
+      "qualifiers": {
+        "fief_kind": "complete_witness_marquis_state_locality",
+        "not_birth_or_residence": true
+      }
+    }
+  ]
+}

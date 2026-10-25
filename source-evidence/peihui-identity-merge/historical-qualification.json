@@ -1,0 +1,74 @@
+{
+  "record_type": "bounded_historical_identity_capture_qualification",
+  "prior_case_sha256": "a8ad3527132268a224fb57e4bd33319e16a06817f6a0482ff6d936cf777890b3",
+  "qualified_pointers": [
+    {
+      "path": "source-evidence/jin035-pei-source-reading/identity-review.json",
+      "file_sha256": "aaeeef90a10d1a75bae237982c9bb5c40fb777a31c84f874acf3a56a38ecc8f0",
+      "pointer": "/25/preflight_candidates/0/person_id",
+      "class": "published_exact_wholefile_historical"
+    },
+    {
+      "path": "source-evidence/jin035-peixiu-source/context-collision-review.json",
+      "file_sha256": "bd381f66ddafe8cd3751f722834e9dfec421cd554307c1475a482db1d30408bc",
+      "pointer": "/hui_complete_native_paragraphs/0/paragraph/mentions/41/person_id",
+      "class": "explicit_before_registry_context_capture"
+    },
+    {
+      "path": "source-evidence/jin035-peixiu-source/identity-review.json",
+      "file_sha256": "8e9e6369d6bb66096987afae39a59a8cb6c53cec7165f49ffc7dd54cbd911322",
+      "pointer": "/entities/3/existing_candidates/0",
+      "class": "historical_candidate_subtree"
+    },
+    {
+      "path": "source-evidence/jin039-xunxu-identity-distinction.json",
+      "file_sha256": "93b8c9a21cd1d5d6a1c5c0c949078d4ce29226f9eac101be66eab4e1db0d3af5",
+      "pointer": "/complete_existing_paragraphs/evidence/7/paragraph/mentions/38/person_id",
+      "class": "published_exact_wholefile_historical"
+    },
+    {
+      "path": "source-evidence/jin080-wangxizhi-source/native-parallel-full-paragraphs.json",
+      "file_sha256": "87c47cef9ff837f71ae83e97e829bc39991b6146e7352299a0437c88a578d946",
+      "pointer": "/5/paragraph/mentions/41/person_id",
+      "class": "published_exact_wholefile_historical"
+    },
+    {
+      "path": "source-evidence/sgz025-xinpi-zhonghui/current-reuse-contexts.json",
+      "file_sha256": "38d0abee3b4daa358ffba75d90fd3474020e5697df970a4a5c1c90272379bc27",
+      "pointer": "/contexts/a28_f5c_105/0/complete_paragraph/mentions/41/person_id",
+      "class": "captured_source_or_candidate_value_requires_new_exact_qualification"
+    },
+    {
+      "path": "source-evidence/sgz025-xinpi/reuse-captures.json",
+      "file_sha256": "1d01196bf6d0aef898167b43129f1eae4d70ca77258b4c0a05a8badb38f976f8",
+      "pointer": "/a28_f5c_105/0/complete_paragraph/mentions/41/person_id",
+      "class": "captured_source_or_candidate_value_requires_new_exact_qualification"
+    },
+    {
+      "path": "source-evidence/shan-family-assembly/current-source-projections/jin035-pei-source-reading/identity-review.json",
+      "file_sha256": "ca0d2fd6175965ff4d40082daec9605c6f72a8cdb4d79c9e60c710cf2b196a1e",
+      "pointer": "/25/preflight_candidates/0/person_id",
+      "class": "published_exact_wholefile_historical"
+    },
+    {
+      "path": "source-evidence/wangxiong-family-assembly/current-projections/jin080-wangxizhi-source/native-parallel-full-paragraphs.json",
+      "file_sha256": "5a6478017e2503bd921f9d06404a06c96b50c1eb5b21c6b8a833bca5f9aee9b9",
+      "pointer": "/records/5/paragraph/mentions/41/person_id",
+      "class": "published_exact_protected_subtree"
+    },
+    {
+      "path": "source-evidence/wangxiong-family-assembly/current-projections/shan-family-assembly/current-source-projections/jin035-pei-source-reading/identity-review.json",
+      "file_sha256": "89f8a66cdad7d0f9d6e9df20903feb9279f84f369b7d0cba52e017e9a119be73",
+      "pointer": "/records/25/preflight_candidates/0/person_id",
+      "class": "published_exact_protected_subtree"
+    },
+    {
+      "path": "tests/fixtures/occurrence-concordance/original-anchors.json",
+      "file_sha256": "be1a62a56654522d65f66945de17476ba02e350ef5958d04d0c99ff5ef17afe6",
+      "pointer": "/29/mentions/38/person_id",
+      "class": "published_exact_wholefile_historical"
+    }
+  ],
+  "human_reviewed": false,
+  "qualification": "只按明列path/wholeSHA/pointer保原快照；不作alias、不豁免其他欄。"
+}

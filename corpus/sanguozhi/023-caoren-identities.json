@@ -1,0 +1,53 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_identity_decision_set",
+  "chapter_id": "c-sanguozhi-023-qing-collation",
+  "decisions": [
+    {
+      "id": "d-sgz015-023-caoren-zixiao-crossidentity",
+      "person_id": "8po_0xd_0vn",
+      "surfaces": [
+        "子孝",
+        "仁",
+        "曹仁"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-sanguozhi-015-wenhui",
+        "c-sanguozhi-023-qing-collation"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-sanguozhi-015-wenhui:p003:m0046",
+          "c-sanguozhi-023-qing-collation:p001:m0528",
+          "c-sanguozhi-023-qing-collation:p001:m0562",
+          "c-sanguozhi-023-qing-collation:p001:m0585"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-015",
+          "source_id": "s-sanguozhi-015-wenhui",
+          "chapter_id": "c-sanguozhi-015-wenhui",
+          "paragraph_id": "c-sanguozhi-015-wenhui:p003",
+          "quote": "建安二十四年孫權攻合肥是時諸州皆屯戌恢謂兖州刺史裴潛曰此間雖有賊不足憂而畏征南方有變今水生而子孝縣軍無有遠備關羽驍銳乘利而進必將為患於是有樊城之事詔書召潛及豫州刺史吕貢等潛等緩之恢密語潛曰此必襄陽之急欲赴之也所以不為急㑹者不欲驚動遠衆一二日必有密書促卿進道張遼等又將被召遼等素知王意後召前至卿受其責矣潛受其言置輜重更為輕裝速發果被促令遼等尋各見召如恢所䇿"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-qing-collation-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-qing-collation",
+          "paragraph_id": "c-sanguozhi-023-qing-collation:p001",
+          "quote": "　魏志卷二十三考證和洽洽獨以冀州土平兵彊○毛本兵彊作民彊必有讒慝間其中者○毛本無必字太祖定荆州○定監本訛作奪今改正天下大器在位與人不可以一節儉也○冊府作不可　以一節論也所謂悅武無震古人之誡也○悅武冊府作玩武臣照　按國語云武不可覿文不可匿覿武無震匿文不祥　此必引此語自當作覿悅玩二字俱非明帝時為尚書注召李叔才鄉閭之間○叔宋本作淑　又注莫不頼劭顧歎之榮○毛本作顧採　又注劭宗人許栩沉没榮利致位司徒○何焯曰按　後漢書言劭從祖敬敬子訓訓子相並為三公相以　能諂事宦官故自致台司封侯數遣請劭劭惡其薄　行終不候之栩疑相之誤也靈帝初為三公者亦有　許栩史不詳其何所人建寧元年由大鴻臚為司空　二年免時許訓為司徒四年訓免橋玄代之是年栩　代玄為司徒名輩在子將之前蓋先賢傳失之也常林峕弟靜紹封注未是夫窮理盡性陶冶變化之實　論也○是冊府作臻　又注於叙人才不能寛○太平御覽作至於叙人才　不能寛大杜襲彊識博聞○元本彊上有粲字嘗獨見至於夜半○元本嘗上多一襲字時將軍許攸擁部曲不附太祖○此非南陽許攸也太　平御覽作許遊增邑三百戸○毛本無戸字趙儼太祖遣將軍劉柱將二千人當須到乃發遣○二　千人下通鑑有往字舊兵既少東兵未到○東兵監本誤䇿兵今改正如有緩救之戮余為諸軍當之○諸軍通鑑作諸君便作地道箭飛書與仁○箭字上太平御覽多射字孫權冦邊征東大將軍曹休統五州軍禦之○監本作　曹仁臣明楷按曹休傳云帝征孫權以休為征東大　將軍仁未嘗為征東也監本誤今改正轉大司馬軍師入為大司農○大司馬監本訛作大司　農今改正裴潛諡曰貞侯注潛為人材博有雅要容○要字疑衍咸熙中為尚書僕射注餘幹等四人載之於後○監本　作徐韓等四人臣明楷按此即指下嚴幹李義韓宣　黃朗等四人也且上文已云徐福事在諸葛亮傳不　應又云徐韓監本誤今改正　又注馮翊甲族桓田吉郭○桓田監本誤桓甲今改　正　魏志卷二十三考證"
+        }
+      ],
+      "rationale": "009完整本傳明曹仁字子孝；015子孝與023趙儼引句均為關羽圍樊、漢水、征南、徐晃救援的同一受援者。清考證監本作曹仁是被否定異文；人物同指不等於該異文事件正確，不與曹休合。固定外證原文見source-evidence/caoren-zixiao-identity/primary-proof.json。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

@@ -264,6 +264,41 @@
     {
       "number": 43,
       "category": "",
+      "title": "樂廣傳",
+      "paragraph_id": "c-jinshu-043-leguang:p006",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "是時王澄、胡毋輔之等，皆亦任放為達，或至裸體者。廣聞而笑曰：「名教內自有樂地，何必乃爾！」其居才愛物，動有理中，皆此類也。值世道多虞，朝章紊亂，清己中立，任誠保素而已。時人莫有見其際焉。",
+      "paragraph_ids": [
+        "c-jinshu-043-leguang:p006"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-leguang:p006:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-leguang:p006:m0002": "c-jinshu-043-leguang:p006"
+      },
+      "mention_id": "c-jinshu-043-leguang:p006:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-leguang:p006:m0002",
+          "mention_ids": [
+            "c-jinshu-043-leguang:p006:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-leguang",
+      "source_id": "s-jinshu-043-ws2618531-leguang",
+      "work_title": "晉書"
+    },
+    {
+      "number": 43,
+      "category": "",
       "title": "王澄傳",
       "paragraph_id": "c-jinshu-043-wangcheng:p001",
       "count": 53,
@@ -875,6 +910,35 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-043-leguang",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-leguang",
+      "source": {
+        "title": "《晉書》卷四十三樂廣傳完整敘事單元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-24",
+        "extent": "樂廣節全部十一自然段，含三子附敘；止史評之前，不重複全卷共評，非卷043全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "完整樂廣本傳及三子附敘，郎徹／廣雲／潘嶽／楊准／喬／荀籓等原字保持；姓名同指判讀分層，不混改正文。"
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-043-wangcheng",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
@@ -1128,6 +1192,52 @@
   "dates": [],
   "name_components": [
     {
+      "id": "nc-jin043-leguang-name-wangcheng",
+      "person_id": "ehx_cqg_nfx_BB",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-leguang",
+          "chapter_id": "c-jinshu-043-leguang",
+          "paragraph_id": "c-jinshu-043-leguang:p006",
+          "quote": "是時王澄、胡毋輔之等，皆亦任放為達，或至裸體者。廣聞而笑曰：「名教內自有樂地，何必乃爾！」其居才愛物，動有理中，皆此類也。值世道多虞，朝章紊亂，清己中立，任誠保素而已。時人莫有見其際焉。",
+          "person_mention_id": "c-jinshu-043-leguang:p006:m0002"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本源實稱逐字分存；喬／嶽／准／籓不改別本字，無改名年，不把字號當名。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-leguang-finite",
+        "slot": "name-wangcheng"
+      },
+      "surname": "王",
+      "ming": "澄",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-043-leguang",
+      "paragraph_id": "c-jinshu-043-leguang:p006",
+      "person_mention_id": "c-jinshu-043-leguang:p006:m0002",
+      "quote": "是時王澄、胡毋輔之等，皆亦任放為達，或至裸體者。廣聞而笑曰：「名教內自有樂地，何必乃爾！」其居才愛物，動有理中，皆此類也。值世道多虞，朝章紊亂，清己中立，任誠保素而已。時人莫有見其際焉。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2618531,
+        "paragraph_sha256": "f9b6817a0c19195f4060ebf3788a8c6789c2eead6a8cb5dfd9c2872d46ac519f",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-043-leguang:p006:m0002",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-leguang"
+    },
+    {
       "id": "nc-jin043-wangcheng-cheng",
       "person_id": "ehx_cqg_nfx_BB",
       "status": "source_attested",
@@ -1200,6 +1310,146 @@
     }
   ],
   "source_details": [
+    {
+      "id": "sd-jin043-wangcheng-compiler-death-placement",
+      "person_id": "ehx_cqg_nfx_BB",
+      "kind": "compiler_chronological_placement",
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "source_term": "敦令力士路戎搤殺之",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-043-wangcheng:p007",
+        "start": 186,
+        "end": 195,
+        "surface": "敦令力士路戎搤殺之"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangcheng",
+          "chapter_id": "c-jinshu-043-wangcheng",
+          "paragraph_id": "c-jinshu-043-wangcheng:p007",
+          "quote": "時王敦為江州，鎮豫章，澄過詣敦。澄夙有盛名，出於敦右，士庶莫不傾慕之。兼勇力絕人，素為敦所憚，澄猶以舊意侮敦。敦益忿怒，請澄入宿，陰欲殺之。而澄左右有二十絕人，持鐵馬鞭為衛，澄手嘗捉玉枕以自防，故敦未之得發。後敦賜澄左右酒，皆醉，借玉枕觀之。因下床而謂澄曰：「何與杜弢通信？」澄曰：「事自可驗。」敦欲入內，澄手引敦衣，至於絕帶。乃登于梁，因罵敦曰：「行事如此，殃將及焉。」敦令力士路戎搤殺之，時年四十四，載屍還其家。劉琨聞澄之死，歎曰：「澄自取之。」及敦平，澄故吏佐著作郎桓稚上表理澄，請加贈諡。詔復澄本官，諡曰憲。長子詹，早卒。次子徽，右軍司馬。",
+          "person_mention_id": "c-jinshu-043-wangcheng:p007:m0011"
+        }
+      ],
+      "linked_life_event_id": "le-jin043-wangcheng-cheng",
+      "placement": {
+        "calendar": "chinese_civil",
+        "year": 312,
+        "month": null,
+        "day": null,
+        "precision": "year",
+        "source_expression": "永嘉六年",
+        "evidence_kind": "received_compiler_editorial_placement",
+        "selection_status": "preferred_provisional",
+        "human_reviewed": false
+      },
+      "timeline_use": {
+        "eligible": true,
+        "required_qualification": "compiler_editorial_placement_provisional",
+        "must_display_qualification": true,
+        "replace_source_event_date": false,
+        "birth_year_inference_permitted": false
+      },
+      "external_chronology_proof": {
+        "kind": "fixed_compiler_editorial_chronology",
+        "key": "jin043-wangcheng-tj088-placement",
+        "path": "source-evidence/jin043-wangcheng-compiler-chronology/proof.json"
+      },
+      "interpretation_note": "《考異》轉引自明紀傳皆無年月，據衛玠傳關聯事件附繫；312屬有據編年推繫暫定首選，非043原文明年。",
+      "external_evidence": {
+        "format_version": "0.1",
+        "kind": "fixed_compiler_editorial_chronology",
+        "source": {
+          "work_title": "資治通鑑",
+          "volume": "088",
+          "url": "https://github.com/kanripo/KR2b0007/blob/80174f61e491db29f9921d0d3e54a59649419aa9/KR2b0007_088.txt",
+          "revision_id": "80174f61e491db29f9921d0d3e54a59649419aa9",
+          "raw_file": "source-evidence/jin043-wangcheng-compiler-chronology/primary/KR2b0007_088-80174f6.txt",
+          "sha256": "c35e47fed3c12e09347d3a26d507839ac41b22244644e3d58e9b036e201308b1",
+          "image_verified": false,
+          "edition_qualification": "Header and page-marker evidence only; no image collation or earliest-extant claim",
+          "work_id": "w-zizhitongjian",
+          "work_provenance_ref": "registry/work-provenance.json#/works/w-zizhitongjian"
+        },
+        "unit": {
+          "path": "source-evidence/jin043-wangcheng-compiler-chronology/primary/KR2b0007_088-80174f6.txt",
+          "source_id": "tj088",
+          "start": 8210,
+          "end": 9320,
+          "quote": "王¶\n澄少與兄衍名冠海内(少詩照翻/冠古玩翻)劉琨謂澄曰卿形雖¶\n<pb:KR2b0007_WYG_088-16b>¶\n散朗而内實動俠(言其心輕易動/又豪俠自喜也)以此處世(處昌/吕翻)難得¶\n其死及在荆州悅成都内史王機謂為已亞使之内綜¶\n心膂(綜機縷也所以持經而施緯使不失其/條理者也故謂能統理衆事者為綜理)外為爪牙¶\n澄屢為杜弢所敗(弢土刀翻/敗補邁翻)望實俱損猶傲然自得無¶\n憂懼之意但與機日夜縱酒博奕由是上下離心南平¶\n太守應詹屢諫不聽澄自出軍擊杜弢軍于作塘(作塘/縣後)¶\n(漢屬武陵郡晉屬南平郡五代/志澧陽郡孱陵縣舊曰作塘)故山簡參軍王冲擁衆¶\n迎應詹為刺史詹以冲無賴棄之還南平(南平郡/治江安)冲乃¶\n<pb:KR2b0007_WYG_088-17a>¶\n自稱刺史澄懼使其將杜㽔守江陵徙治孱陵(孱陵縣/漢屬武)¶\n(陵郡晉屬南平郡應劭曰孱音踐師古音/士連翻劉昫曰澧州安鄉縣漢孱陵地)尋又犇沓中¶\n(此沓中非姜維種麥之/沓中葢在孱陵之東)别駕郭舒諫曰使君臨州雖無¶\n異政然一州人心所繫今西收華容之兵足以擒此小¶\n醜(華容縣/屬南郡)奈何自棄遽為奔亡乎澄不從欲將舒東下¶\n舒曰舒為萬里紀綱(舒為州别駕故/自謂萬里紀綱)不能匡正令使君¶\n犇亡誠不忍渡江乃留屯沌口(水經註沌水南通沔陽/縣之太白湖湖水東南)¶\n(通江謂之沌/口沌持兖翻)琅邪王睿聞之召澄為軍諮祭酒以軍諮¶\n<pb:KR2b0007_WYG_088-17b>¶\n祭酒周顗代之澄乃赴召顗始至州(顗魚/里翻)建平流民傅¶\n宻等叛迎杜弢弢别將王真襲沔陽(沔陽梁武帝時方/置郡據沈約志陶)¶\n(侃為荆州刺史初治沔陽則是時已有沔陽城矣當屬/竟陵郡界宋白曰復州沔陽縣漢縣也郡國志曰沔陽)¶\n(縣即楚/王城)顗狼狽失據征討都督王敦遣武昌太守陶侃¶\n尋陽太守周訪厯陽内史甘卓(懷帝永嘉五年睿加敦/都督征討諸軍事惠帝)¶\n(永興元年分淮南之烏/江厯陽二縣置厯陽郡)共擊弢郭進屯豫章為諸軍繼¶\n援(敦考異曰王澄傳曰時王敦為江州鎮豫章按/  時為揚州刺史都督征討諸軍非為江州也)王澄¶\n過詣敦自以名聲素出敦右猶以舊意侮敦敦怒誣其¶\n<pb:KR2b0007_WYG_088-18a>¶\n與杜弢通信遣壯士搤殺之(搤乙/革翻)王機聞澄死懼禍以¶\n其父毅兄矩皆嘗為廣州刺史就敦求廣州敦不許㑹¶\n廣州將温邵等叛刺史郭訥迎機為刺史機遂將奴客¶\n門生千餘人入廣州(豫考異曰王澄死周顗敗王敦鎮/  章機入廣州紀傳皆無年月按)¶\n(衛玠傳玠依敦於豫章以/永嘉六年卒故附於此)訥遣兵拒之將士皆機父兄¶\n時部曲(王機父毅為廣州刺/史甚得南越之情)不戰迎降(降户江/翻下同)訥乃避¶\n位以州授之",
+          "sha256": "c35e47fed3c12e09347d3a26d507839ac41b22244644e3d58e9b036e201308b1",
+          "first_line": 284,
+          "last_line": 320,
+          "id": "tj088-complete-wangcheng-wangji-event"
+        },
+        "anchors": [
+          {
+            "path": "source-evidence/jin043-wangcheng-compiler-chronology/primary/KR2b0007_088-80174f6.txt",
+            "source_id": "tj088",
+            "start": 262,
+            "end": 266,
+            "quote": "永嘉六年",
+            "sha256": "c35e47fed3c12e09347d3a26d507839ac41b22244644e3d58e9b036e201308b1",
+            "first_line": 13,
+            "last_line": 13,
+            "id": "tj088-year-heading",
+            "layer": "annal_year_heading"
+          },
+          {
+            "path": "source-evidence/jin043-wangcheng-compiler-chronology/primary/KR2b0007_088-80174f6.txt",
+            "source_id": "tj088",
+            "start": 9073,
+            "end": 9138,
+            "quote": "王澄¶\n過詣敦自以名聲素出敦右猶以舊意侮敦敦怒誣其¶\n<pb:KR2b0007_WYG_088-18a>¶\n與杜弢通信遣壯士搤殺之",
+            "sha256": "c35e47fed3c12e09347d3a26d507839ac41b22244644e3d58e9b036e201308b1",
+            "first_line": 311,
+            "last_line": 314,
+            "id": "tj088-death-event",
+            "layer": "received_tongjian_annal_body"
+          },
+          {
+            "path": "source-evidence/jin043-wangcheng-compiler-chronology/primary/KR2b0007_088-80174f6.txt",
+            "source_id": "tj088",
+            "start": 9209,
+            "end": 9263,
+            "quote": "(豫考異曰王澄死周顗敗王敦鎮/  章機入廣州紀傳皆無年月按)¶\n(衛玠傳玠依敦於豫章以/永嘉六年卒故附於此)",
+            "sha256": "c35e47fed3c12e09347d3a26d507839ac41b22244644e3d58e9b036e201308b1",
+            "first_line": 317,
+            "last_line": 318,
+            "id": "tj088-kaoyi-dating-qualification",
+            "layer": "received_combined_edition_quote_of_kaoyi_not_independent_kaoyi_witness",
+            "reading_aid": "《考異》曰：王澄死、周顗敗、王敦鎮豫章、機入廣州，紀傳皆無年月。按《衛玠傳》，玠依敦於豫章，以永嘉六年卒，故附於此。",
+            "reading_aid_qualification": "編輯便讀標點及雙行轉錄讀序整理；逐字原quote另存，不冒原刻版面或已見《考異》原書。"
+          }
+        ],
+        "calendar": {
+          "raw_file": "sources/calendar-context/moe-era-table-page2.html",
+          "sha256": "193f33b9351675fe6b1e72cab84f5b88977a91c37717cf67e611262cad09ac65",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "row_id": "av489",
+          "dynasty": "西晉",
+          "era_name": "永嘉",
+          "first_year": 307,
+          "last_year": 313,
+          "regnal_number": "六",
+          "regnal_year": 6
+        },
+        "layers": {
+          "event": "received_tongjian_annal_body",
+          "qualification": "received_combined_edition_quote_of_kaoyi_not_independent_kaoyi_witness"
+        },
+        "reading_scope": "完整相關事件與紀年題頭；非全卷已讀；未親見獨立考異原書或所引衛玠傳。",
+        "identity_bridge": "同王澄、王敦、過詣、舊意侮敦、誣通杜弢、搤殺的連續事件；非只同名。",
+        "qualification": "《考異》轉引自明紀傳皆無年月，據衛玠傳關聯事件附繫；312屬有據編年推繫暫定首選，非043原文明年。",
+        "qualification_reading_aid": "《考異》曰：王澄死、周顗敗、王敦鎮豫章、機入廣州，紀傳皆無年月。按《衛玠傳》，玠依敦於豫章，以永嘉六年卒，故附於此。",
+        "human_reviewed": false
+      }
+    },
     {
       "id": "sd-jin043-wangyan-career_23",
       "person_id": "ehx_cqg_nfx_BB",

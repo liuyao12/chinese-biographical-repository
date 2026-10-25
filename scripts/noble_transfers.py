@@ -1,7 +1,12 @@
 """An explicit noble-rank change may leave the former title unidentified."""
 
 
-def noble_transfer_errors(holding, holdings, paragraphs, mentions, chapters=None):
+def noble_transfer_errors(holding, holdings, paragraphs, mentions, chapters=None, root=None):
+    if holding.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
+        try:from scripts.fixed_kanripo_fact_slots import noble_replacement_valid
+        except ImportError:from fixed_kanripo_fact_slots import noble_replacement_valid
+        ok=noble_replacement_valid(holding,holdings,paragraphs,mentions,chapters,root)
+        return [] if ok else ['固定Kanripo爵替代須綁同人前爵、原改封/進封與同事件終點']
     basis = holding.get('transfer_basis')
     keys = {'kind', 'previous_holding_id', 'previous_title_status', 'source_term',
             'actor_mention_id', 'evidence', 'rationale', 'status', 'human_reviewed'}

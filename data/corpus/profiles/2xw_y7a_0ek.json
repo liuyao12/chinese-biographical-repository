@@ -13,6 +13,79 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 23,
+      "category": "",
+      "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+      "paragraph_ids": [
+        "c-sanguozhi-023-peiqian:p010",
+        "c-sanguozhi-023-peiqian:p011",
+        "c-sanguozhi-023-peiqian:p014"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-023-peiqian:p010:m0073",
+        "c-sanguozhi-023-peiqian:p010:m0075",
+        "c-sanguozhi-023-peiqian:p010:m0091",
+        "c-sanguozhi-023-peiqian:p011:m0009",
+        "c-sanguozhi-023-peiqian:p014:m0018"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-023-peiqian:p010:m0073": "c-sanguozhi-023-peiqian:p010",
+        "c-sanguozhi-023-peiqian:p010:m0075": "c-sanguozhi-023-peiqian:p010",
+        "c-sanguozhi-023-peiqian:p010:m0091": "c-sanguozhi-023-peiqian:p010",
+        "c-sanguozhi-023-peiqian:p011:m0009": "c-sanguozhi-023-peiqian:p011",
+        "c-sanguozhi-023-peiqian:p014:m0018": "c-sanguozhi-023-peiqian:p014"
+      },
+      "mention_id": "c-sanguozhi-023-peiqian:p010:m0073",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p010:m0073",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p010:m0073"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p010:m0075",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p010:m0075"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p010:m0091",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p010:m0091"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p011:m0009",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p011:m0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p014:m0018",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p014:m0018"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+      "work_title": "三國志"
+    },
+    {
       "number": 30,
       "category": "",
       "title": "裴子野完整本傳（卷三十選錄）",
@@ -172,6 +245,33 @@
         },
         "extent": "裴子野完整本傳8段1836字，止於顧協傳前；不是卷三十全卷。"
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+      "source": {
+        "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "d6f42012810a7643dbf554325f4f653b5ae8758322d9afaa0caf1b385b51d4f3",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-24",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo固定數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面頁標、注括號及換行/¶；不添標點、不正字。逐字positions另存。"
+        },
+        "extent": "原行374–467：本傳、魏略/裴氏家族長注、完整四人補傳與魚豢論、陳壽章評；清考證另章。"
+      }
     }
   ],
   "relations": [
@@ -306,16 +406,160 @@
       "human_reviewed": false,
       "reviewer": "Codex（AI代理）",
       "model": null
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-011",
+      "predicate": "father",
+      "subject_person_id": "2xw_y7a_0ek",
+      "object_person_id": "nx3_l5c_jlj",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0073",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0003"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次綽",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "按完整列舉主體承接；只生父，生母未知，不由嗣獨推。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-011"
+      }
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-019",
+      "predicate": "father",
+      "subject_person_id": "xyc_ae4_fbe",
+      "object_person_id": "2xw_y7a_0ek",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+          "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p014:m0020",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p014:m0018"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "綽子遐",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "按完整列舉主體承接；只生父，生母未知，不由嗣獨推。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-019"
+      }
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-023",
+      "predicate": "brother",
+      "subject_person_id": "2xw_y7a_0ek",
+      "object_person_id": "530_f9d_4bd",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0073",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0057"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次綽",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_birth_order": {
+          "older_person_id": "530_f9d_4bd",
+          "younger_person_id": "2xw_y7a_0ek",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "純及瓚非長子明文，不填絕對1；跨信廓同上聯證。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-023"
+      }
     }
   ],
   "related_people": {
     "2xw_y7a_0ek": "綽〔康弟，楷弟〕",
     "530_f9d_4bd": "裴楷",
+    "nx3_l5c_jlj": "裴徽",
     "xyc_ae4_fbe": "遐〔綽子〕",
     "y8f_xr3_osd": "康〔晉太子左率，子野遠祖〕"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-sgz023-peiqian-pqt-071",
+      "person_id": "2xw_y7a_0ek",
+      "surname": null,
+      "ming": "綽",
+      "zi": "季舒",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0073",
+      "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p010:m0073"
+        }
+      ],
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原字保留；既存同來源不重複。全姓傳給兒子若需要另走已證父系surname推得契約，不用registry label或ID。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-071"
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa"
+    }
+  ],
   "person_ids": [
     "2xw_y7a_0ek"
   ],
@@ -451,6 +695,112 @@
       "human_reviewed": false,
       "reviewer": "Codex（AI代理）",
       "model": null
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-011",
+      "predicate": "father",
+      "subject_person_id": "2xw_y7a_0ek",
+      "object_person_id": "nx3_l5c_jlj",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0073",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0003"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次綽",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "按完整列舉主體承接；只生父，生母未知，不由嗣獨推。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-011"
+      }
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-019",
+      "predicate": "father",
+      "subject_person_id": "xyc_ae4_fbe",
+      "object_person_id": "2xw_y7a_0ek",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+          "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p014:m0020",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p014:m0018"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "綽子遐",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "按完整列舉主體承接；只生父，生母未知，不由嗣獨推。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-019"
+      }
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-023",
+      "predicate": "brother",
+      "subject_person_id": "2xw_y7a_0ek",
+      "object_person_id": "530_f9d_4bd",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p010",
+          "quote": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0073",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p010:m0057"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次綽",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_birth_order": {
+          "older_person_id": "530_f9d_4bd",
+          "younger_person_id": "2xw_y7a_0ek",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "純及瓚非長子明文，不填絕對1；跨信廓同上聯證。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-023"
+      }
     }
   ],
   "age_assertions": [],

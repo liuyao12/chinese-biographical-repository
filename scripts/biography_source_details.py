@@ -20,6 +20,10 @@ def errors(chapters,records,root=None):
  return out
 
 def valid(d,ch,hs,qs,root=None):
+ if d.get('kind')=='compiler_chronological_placement':
+  try:from scripts.fixed_compiler_chronology import valid as chronology_valid
+  except ImportError:from fixed_compiler_chronology import valid as chronology_valid
+  return chronology_valid(d,ch,root)
  if d.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
   try:from scripts.fixed_witness_fact_slots import valid as witness_fact_valid
   except ImportError:from fixed_witness_fact_slots import valid as witness_fact_valid

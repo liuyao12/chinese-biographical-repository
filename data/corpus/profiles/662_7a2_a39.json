@@ -15,6 +15,59 @@
     {
       "number": 9,
       "category": "",
+      "title": "曹仁本傳及曹純附傳",
+      "paragraph_id": "c-sanguozhi-009-caoren-caochun:p003",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "乗船臨城圍數重外内斷絶糧食欲盡救兵不至仁激厲將士示以必死將士感之皆無二徐晃救至水亦稍減晃從外擊羽仁得潰圍出羽退走仁少時不脩行檢及長為將嚴整奉法令常置科於左右案以從事鄢陵侯彰北征烏丸文帝在東宮為書戒彰曰為將奉法不當如征南邪及即王位拜仁車騎將軍都督荆揚益州諸軍事進封陳侯增邑二千",
+      "paragraph_ids": [
+        "c-sanguozhi-009-caoren-caochun:p003"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-009-caoren-caochun:p003:m0857",
+        "c-sanguozhi-009-caoren-caochun:p003:m0865",
+        "c-sanguozhi-009-caoren-caochun:p003:m1001"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-009-caoren-caochun:p003:m0857": "c-sanguozhi-009-caoren-caochun:p003",
+        "c-sanguozhi-009-caoren-caochun:p003:m0865": "c-sanguozhi-009-caoren-caochun:p003",
+        "c-sanguozhi-009-caoren-caochun:p003:m1001": "c-sanguozhi-009-caoren-caochun:p003"
+      },
+      "mention_id": "c-sanguozhi-009-caoren-caochun:p003:m0857",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-009-caoren-caochun:p003:m0857",
+          "mention_ids": [
+            "c-sanguozhi-009-caoren-caochun:p003:m0857"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-009-caoren-caochun:p003:m0865",
+          "mention_ids": [
+            "c-sanguozhi-009-caoren-caochun:p003:m0865"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-009-caoren-caochun:p003:m1001",
+          "mention_ids": [
+            "c-sanguozhi-009-caoren-caochun:p003:m1001"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+      "work_title": "三國志"
+    },
+    {
+      "number": 9,
+      "category": "",
       "title": "曹真曹爽完整本傳及附敘",
       "paragraph_id": "c-sanguozhi-009-caozhen:p004",
       "count": 1,
@@ -94,6 +147,35 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-sanguozhi-009-caoren-caochun",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+      "source": {
+        "title": "三國志魏書卷九曹仁本傳及曹純附傳與全部裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "raw_file_sha256": "dd430a2e31130eb1c392b1e2a034686685fed0366ff713ece75226ba8cdedf03",
+        "response_sha256": "dd430a2e31130eb1c392b1e2a034686685fed0366ff713ece75226ba8cdedf03",
+        "raw_path": "source-evidence/sgz009-caoren-caochun/primary009.txt",
+        "edition": "WYG數位轉錄，未核影像",
+        "accessed_on": "2026-10-25",
+        "extent": "固定raw165–239行；曹仁字子孝起至曹純附敘末子亮嗣；240曹洪字子廉不截入。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo固定數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去pb、¶、換行及古注逐行括號；同層相連括號合為完整收到注，全部原字保留。傳子/守家/㶏等不靜校。"
+        }
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-009-caozhen",
       "work_id": "w-sanguozhi",

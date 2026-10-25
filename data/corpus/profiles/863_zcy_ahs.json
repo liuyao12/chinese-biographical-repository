@@ -3,16 +3,71 @@
   "id": "863_zcy_ahs",
   "canonical_person_id": "863_zcy_ahs",
   "label": "邵〔盾弟，字道期〕",
-  "identity_note": "康為盾父明文；邵與康父子僅可另提同父推導，不冒原文直接說父康。 本批已暫登本來源身份；未定跨篇同指不作等同合併，本批未新增關係斷言。",
+  "identity_note": "康為盾父明文；邵與康父子僅可另提同父推導，不冒原文直接說父康。 本批已暫登本來源身份；未定跨篇同指不作等同合併，本批未新增關係斷言。 同指補充：三國志裴注原郃／裴郃與晉書原邵／道期，依父康家系、兄盾、元帝安東府同任長史的具體事件首選同人。各來源原字不改；不是明示改名或圖像校勘，AI判斷未經人工覆核。",
   "review": "ai_provisional",
   "names": [
     "邵",
     "道期",
-    "裴道期"
+    "裴道期",
+    "郃",
+    "裴郃"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 23,
+      "category": "",
+      "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+      "paragraph_ids": [
+        "c-sanguozhi-023-peiqian:p013"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-023-peiqian:p013:m0021",
+        "c-sanguozhi-023-peiqian:p013:m0033",
+        "c-sanguozhi-023-peiqian:p013:m0047"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-023-peiqian:p013:m0021": "c-sanguozhi-023-peiqian:p013",
+        "c-sanguozhi-023-peiqian:p013:m0033": "c-sanguozhi-023-peiqian:p013",
+        "c-sanguozhi-023-peiqian:p013:m0047": "c-sanguozhi-023-peiqian:p013"
+      },
+      "mention_id": "c-sanguozhi-023-peiqian:p013:m0021",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p013:m0021",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p013:m0021"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p013:m0033",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p013:m0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p013:m0047",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p013:m0047"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+      "work_title": "三國志"
+    },
     {
       "number": 35,
       "category": "",
@@ -105,6 +160,33 @@
           "extraction_note": "展開連結顯示字、去粗體排版；標題另層。㲄、俊郎、雲及缺閉引號原樣保留。"
         }
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+      "source": {
+        "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "d6f42012810a7643dbf554325f4f653b5ae8758322d9afaa0caf1b385b51d4f3",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-24",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo固定數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面頁標、注括號及換行/¶；不添標點、不正字。逐字positions另存。"
+        },
+        "extent": "原行374–467：本傳、魏略/裴氏家族長注、完整四人補傳與魚豢論、陳壽章評；清考證另章。"
+      }
     }
   ],
   "relations": [
@@ -153,14 +235,180 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-015",
+      "predicate": "father",
+      "subject_person_id": "863_zcy_ahs",
+      "object_person_id": "y8f_xr3_osd",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+          "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p013:m0021",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p013:m0007"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次郃",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "按完整列舉主體承接；只生父，生母未知，不由嗣獨推。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-015"
+      }
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-025",
+      "predicate": "brother",
+      "subject_person_id": "863_zcy_ahs",
+      "object_person_id": "gul_dv0_595",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+          "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p013:m0021",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p013:m0015"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次郃",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_birth_order": {
+          "older_person_id": "gul_dv0_595",
+          "younger_person_id": "863_zcy_ahs",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "純及瓚非長子明文，不填絕對1；跨信廓同上聯證。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-025"
+      }
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-026",
+      "predicate": "brother",
+      "subject_person_id": "hwh_nlw_vtx",
+      "object_person_id": "863_zcy_ahs",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+          "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p013:m0021"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+          "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p014:m0001"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次廓",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_birth_order": {
+          "older_person_id": "863_zcy_ahs",
+          "younger_person_id": "hwh_nlw_vtx",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-sanguozhi-023-peiqian:p013",
+          "c-sanguozhi-023-peiqian:p014"
+        ]
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "純及瓚非長子明文，不填絕對1；跨信廓同上聯證。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-026"
+      }
     }
   ],
   "related_people": {
     "863_zcy_ahs": "邵〔盾弟，字道期〕",
-    "gul_dv0_595": "盾〔康子〕"
+    "gul_dv0_595": "盾〔康子〕",
+    "hwh_nlw_vtx": "廓〔康子，中壘將軍〕",
+    "y8f_xr3_osd": "康〔晉太子左率，子野遠祖〕"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-sgz023-peiqian-phaseb-name-he",
+      "person_id": "863_zcy_ahs",
+      "surname": "裴",
+      "ming": "郃",
+      "additional_names": [],
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+          "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+          "person_mention_id": "c-sanguozhi-023-peiqian:p013:m0047"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本段m0047明稱裴郃，姓裴名郃逐原字拆出；不把郃校成邵，不以alias/label或ID推姓，與其他來源名讀分存。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "phaseb-name-he"
+      },
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+      "person_mention_id": "c-sanguozhi-023-peiqian:p013:m0047",
+      "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa"
+    }
+  ],
   "person_ids": [
     "863_zcy_ahs"
   ],
@@ -210,6 +458,134 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-015",
+      "predicate": "father",
+      "subject_person_id": "863_zcy_ahs",
+      "object_person_id": "y8f_xr3_osd",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+          "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p013:m0021",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p013:m0007"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次郃",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "按完整列舉主體承接；只生父，生母未知，不由嗣獨推。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-015"
+      }
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-025",
+      "predicate": "brother",
+      "subject_person_id": "863_zcy_ahs",
+      "object_person_id": "gul_dv0_595",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+          "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p013:m0021",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p013:m0015"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次郃",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_birth_order": {
+          "older_person_id": "gul_dv0_595",
+          "younger_person_id": "863_zcy_ahs",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "純及瓚非長子明文，不填絕對1；跨信廓同上聯證。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-025"
+      }
+    },
+    {
+      "id": "a-sgz023-peiqian-pqt-026",
+      "predicate": "brother",
+      "subject_person_id": "hwh_nlw_vtx",
+      "object_person_id": "863_zcy_ahs",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p013",
+          "quote": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian:p013:m0021"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+          "chapter_id": "c-sanguozhi-023-peiqian",
+          "paragraph_id": "c-sanguozhi-023-peiqian:p014",
+          "quote": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian:p014:m0001"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次廓",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_birth_order": {
+          "older_person_id": "863_zcy_ahs",
+          "younger_person_id": "hwh_nlw_vtx",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-sanguozhi-023-peiqian:p013",
+          "c-sanguozhi-023-peiqian:p014"
+        ]
+      },
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "純及瓚非長子明文，不填絕對1；跨信廓同上聯證。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz023-peiqian-family-qian-finite",
+        "slot": "pqt-026"
+      }
     }
   ],
   "age_assertions": [],

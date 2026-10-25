@@ -1178,3 +1178,13 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 ## 固定維基文庫完整本傳與家族附傳投影
 
 `fixed_wikisource_family_subsections` 僅完整主傳至下一同級節題；附傳節題原文/字位另存paratext，不當正文提及。支援有限無選項原字包裹、YL、單純wiki連結與粗體；其餘markup拒絕。固定raw SHA/revision、每字位置及完整段數/順序皆重新投影驗證，不能截掉婦/子/從子附傳、改字重hash或共移offset掩缺文。實際古本與最早存本未核則分層未知，不因網站日期推年。
+
+
+### 完整收到的內引文章容器
+
+受信附傳projection可顯式啟用block_quote_template及unpiped_wiki_display；只對固定raw/SHA/開閉題頭與完整容器驗證後生效，舊project預設不變。embedded_documents.kind為complete_received_quotation，保乃著引言整段、作者MID/作品MID及固定work_id、五段ID與原模板開閉碼點；source_position.source_layer區分received_biography與received_quoted_document，text_layer仍received_chapter。這只表示史書所收引文完整，不等獨立原著全文或版本。不得換已知作品、錯作者/主體、刪容器或把外段標quoted以降級。
+
+
+### 完整收到的作品序
+
+受信選錄可顯式選main_to_attached_subsection，固定二級開題到三級附傳閉界、raw SHA/位置/逐碼點責任及精確wikipedia數位metadata模板排除；模板不是身份權威。complete_received_work_preface另驗作…其序曰引言、作者與作品雙錨及固定work ID/主體來源seed、完整三段quote容器。不放寬舊乃著分支，不等獨立原作或十八篇全文。

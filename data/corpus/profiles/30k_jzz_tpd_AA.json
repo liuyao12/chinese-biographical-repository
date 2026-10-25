@@ -14,6 +14,64 @@
   ],
   "titles": [
     {
+      "id": "th-jin035-peixiu-title-014",
+      "person_id": "30k_jzz_tpd_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p002",
+          "quote": "渡遼將軍毌丘儉嘗薦秀于大將軍曹爽，曰：「生而岐嶷，長蹈自然，玄靜守真，性入道奧；博學強記，無文不該；孝友著于鄉党，高聲聞於遠近。誠宜弼佐謨明，助和鼎味，毗贊大府，光昭盛化。非徒子奇、甘羅之儔，兼包顏、冉、游、夏之美。」爽乃辟為掾，襲父爵清陽亭侯，遷黃門侍郎。爽誅，以故吏免。頃之，為廷尉正，曆文帝安東及衛將軍司馬，軍國之政，多見信納。遷散騎常侍。",
+          "person_mention_id": "c-jinshu-035-peixiu:p002:m0014"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "不能把被薦之秀當大將軍。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "title-014"
+      },
+      "title": "大將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "title-014"
+      },
+      "attestations": [
+        {
+          "id": "th-jin035-peixiu-title-014:a001",
+          "paragraph_id": "c-jinshu-035-peixiu:p002",
+          "start": 11,
+          "end": 14,
+          "surface": "大將軍",
+          "person_mention_id": "c-jinshu-035-peixiu:p002:m0014",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-jin039-rest37-007",
       "person_id": "30k_jzz_tpd_AA",
       "title": "大將軍",
@@ -2648,6 +2706,50 @@
       "work_title": "三國志"
     },
     {
+      "number": 23,
+      "category": "",
+      "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-023-peiqian:p006",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "文章敘錄曰秀字季彦弘通博濟八歲能屬文遂知名大將軍曹爽辟喪父服終推財與兄弟年二十五遷黄門侍郎爽誅以故吏免遷衛國相累遷散騎常侍尚書僕射令光祿大夫咸熙中晉文王始建五等命秀典為制度封廣川侯晉室受禪進左光祿大夫改封鉅鹿公遷司空著易及樂論又畫地域圖十八篇傳行于世盟",
+      "paragraph_ids": [
+        "c-sanguozhi-023-peiqian:p006"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-023-peiqian:p006:m0024",
+        "c-sanguozhi-023-peiqian:p006:m0045"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-023-peiqian:p006:m0024": "c-sanguozhi-023-peiqian:p006",
+        "c-sanguozhi-023-peiqian:p006:m0045": "c-sanguozhi-023-peiqian:p006"
+      },
+      "mention_id": "c-sanguozhi-023-peiqian:p006:m0024",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p006:m0024",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p006:m0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-023-peiqian:p006:m0045",
+          "mention_ids": [
+            "c-sanguozhi-023-peiqian:p006:m0045"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+      "work_title": "三國志"
+    },
+    {
       "number": 25,
       "category": "",
       "title": "辛毗本傳及全部裴注（完整單元，編輯選錄題）",
@@ -2898,6 +3000,59 @@
       "work_title": "晉書"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "裴秀傳",
+      "paragraph_id": "c-jinshu-035-peixiu:p002",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "渡遼將軍毌丘儉嘗薦秀于大將軍曹爽，曰：「生而岐嶷，長蹈自然，玄靜守真，性入道奧；博學強記，無文不該；孝友著于鄉党，高聲聞於遠近。誠宜弼佐謨明，助和鼎味，毗贊大府，光昭盛化。非徒子奇、甘羅之儔，兼包顏、冉、游、夏之美。」爽乃辟為掾，襲",
+      "paragraph_ids": [
+        "c-jinshu-035-peixiu:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peixiu:p002:m0014",
+        "c-jinshu-035-peixiu:p002:m0109",
+        "c-jinshu-035-peixiu:p002:m0129"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peixiu:p002:m0014": "c-jinshu-035-peixiu:p002",
+        "c-jinshu-035-peixiu:p002:m0109": "c-jinshu-035-peixiu:p002",
+        "c-jinshu-035-peixiu:p002:m0129": "c-jinshu-035-peixiu:p002"
+      },
+      "mention_id": "c-jinshu-035-peixiu:p002:m0014",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu:p002:m0014",
+          "mention_ids": [
+            "c-jinshu-035-peixiu:p002:m0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu:p002:m0109",
+          "mention_ids": [
+            "c-jinshu-035-peixiu:p002:m0109"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu:p002:m0129",
+          "mention_ids": [
+            "c-jinshu-035-peixiu:p002:m0129"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peixiu",
+      "source_id": "s-jinshu-035-ws2506399-peixiu",
+      "work_title": "晉書"
+    },
+    {
       "number": 39,
       "category": "",
       "title": "王沈荀顗荀勖馮紞列傳第九",
@@ -3089,6 +3244,35 @@
           "character_conversion": {},
           "extraction_note": "僅排版空白、quote/YL模板外殼、wiki連結/粗體標記投影；原字/標點不改，原文與所有排版排除位合為完整節界。實際古本未核。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peixiu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peixiu",
+      "source": {
+        "title": "《晉書》卷三十五裴秀完整主傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-24",
+        "extent": "裴秀完整十三自然段及篇末浚憬，含本傳收到禹貢地域圖序全部三段；非卷035全卷/十八篇圖或獨立原著全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只排固定二/三級節題、精確wikipedia數位metadata模板、quote容器及顯示wiki標記/空白；全原碼點責任，不以metadata模板作身份權威。"
+        },
+        "raw_path": "sources/witnesses/jin035-ws2506399.wikitext",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
       }
     },
     {
@@ -15422,6 +15606,33 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-023-peiqian",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-023",
+      "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+      "source": {
+        "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "d6f42012810a7643dbf554325f4f653b5ae8758322d9afaa0caf1b385b51d4f3",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-24",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo固定數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面頁標、注括號及換行/¶；不添標點、不正字。逐字positions另存。"
+        },
+        "extent": "原行374–467：本傳、魏略/裴氏家族長注、完整四人補傳與魚豢論、陳壽章評；清考證另章。"
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-025-xinpi",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-025",
@@ -16875,6 +17086,40 @@
   },
   "age_assertions": [],
   "life_events": [
+    {
+      "id": "le-jin035-peixiu-death-shuang",
+      "person_id": "30k_jzz_tpd_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p002",
+          "quote": "渡遼將軍毌丘儉嘗薦秀于大將軍曹爽，曰：「生而岐嶷，長蹈自然，玄靜守真，性入道奧；博學強記，無文不該；孝友著于鄉党，高聲聞於遠近。誠宜弼佐謨明，助和鼎味，毗贊大府，光昭盛化。非徒子奇、甘羅之儔，兼包顏、冉、游、夏之美。」爽乃辟為掾，襲父爵清陽亭侯，遷黃門侍郎。爽誅，以故吏免。頃之，為廷尉正，曆文帝安東及衛將軍司馬，軍國之政，多見信納。遷散騎常侍。",
+          "person_mention_id": "c-jinshu-035-peixiu:p002:m0014"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本句無年；若他源已249，另源保存，不回填成本句明年。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "death-shuang"
+      },
+      "event_type": "death",
+      "source_term": "爽誅",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-035-peixiu:p002",
+        "start": 129,
+        "end": 131,
+        "surface": "爽誅"
+      },
+      "date_expression": null
+    },
     {
       "id": "le-jin039-rest37-011",
       "person_id": "30k_jzz_tpd_AA",

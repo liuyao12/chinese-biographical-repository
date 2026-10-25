@@ -9,7 +9,66 @@
     "毌丘儉",
     "儉"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin035-peixiu-title-013",
+      "person_id": "b61_784_cbb",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p002",
+          "quote": "渡遼將軍毌丘儉嘗薦秀于大將軍曹爽，曰：「生而岐嶷，長蹈自然，玄靜守真，性入道奧；博學強記，無文不該；孝友著于鄉党，高聲聞於遠近。誠宜弼佐謨明，助和鼎味，毗贊大府，光昭盛化。非徒子奇、甘羅之儔，兼包顏、冉、游、夏之美。」爽乃辟為掾，襲父爵清陽亭侯，遷黃門侍郎。爽誅，以故吏免。頃之，為廷尉正，曆文帝安東及衛將軍司馬，軍國之政，多見信納。遷散騎常侍。",
+          "person_mention_id": "c-jinshu-035-peixiu:p002:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "此官屬薦者，不屬裴秀。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "title-013"
+      },
+      "title": "渡遼將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "title-013"
+      },
+      "attestations": [
+        {
+          "id": "th-jin035-peixiu-title-013:a001",
+          "paragraph_id": "c-jinshu-035-peixiu:p002",
+          "start": 0,
+          "end": 4,
+          "surface": "渡遼將軍",
+          "person_mention_id": "c-jinshu-035-peixiu:p002:m0004",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -159,6 +218,41 @@
       "book_id": "b-jinshu-033",
       "chapter_id": "c-jinshu-033-wanglan-family",
       "source_id": "s-jinshu-033-wanglan-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 35,
+      "category": "",
+      "title": "裴秀傳",
+      "paragraph_id": "c-jinshu-035-peixiu:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "渡遼將軍毌丘儉嘗薦秀于大將軍曹爽，曰：「生而岐嶷，長蹈自然，玄靜守真，性入道奧；博學強記，無文不該；孝友著于鄉党，高聲聞於遠近。誠宜弼佐謨明，助和鼎味，毗贊大府，光昭盛化。非徒子奇、甘羅之儔，兼包顏、冉、游、夏之美",
+      "paragraph_ids": [
+        "c-jinshu-035-peixiu:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peixiu:p002:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peixiu:p002:m0004": "c-jinshu-035-peixiu:p002"
+      },
+      "mention_id": "c-jinshu-035-peixiu:p002:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu:p002:m0004",
+          "mention_ids": [
+            "c-jinshu-035-peixiu:p002:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peixiu",
+      "source_id": "s-jinshu-035-ws2506399-peixiu",
       "work_title": "晉書"
     },
     {
@@ -377,6 +471,35 @@
           ],
           "completion_appendix": "同固定修訂2650519補入原始行20–35八段；原八段全文、ID與mentions全值保留。原字漢未、乙太保、Я脯等不靜改。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peixiu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peixiu",
+      "source": {
+        "title": "《晉書》卷三十五裴秀完整主傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-24",
+        "extent": "裴秀完整十三自然段及篇末浚憬，含本傳收到禹貢地域圖序全部三段；非卷035全卷/十八篇圖或獨立原著全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只排固定二/三級節題、精確wikipedia數位metadata模板、quote容器及顯示wiki標記/空白；全原碼點責任，不以metadata模板作身份權威。"
+        },
+        "raw_path": "sources/witnesses/jin035-ws2506399.wikitext",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
       }
     },
     {

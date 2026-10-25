@@ -1,0 +1,604 @@
+[
+  {
+    "inventory_id": "inventory-001",
+    "quote": "頠字逸民",
+    "disposition": "supported",
+    "reason": "字明文",
+    "candidate_slots": [
+      "name-wei"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-002",
+    "quote": "御史中丞周弼",
+    "disposition": "supported",
+    "reason": "旁人官稱 attestation，非新授官",
+    "candidate_slots": [
+      "name-zhoubi",
+      "zhoubi-office"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-003",
+    "quote": "賈充即頠從母夫也",
+    "disposition": "supported_qualified",
+    "reason": "從母夫保原親屬距離，不造母親姓名或共同祖父",
+    "candidate_slots": [
+      "name-jiachong",
+      "jiachong-aunt-husband"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-004",
+    "quote": "詔頠襲爵，頠固讓，不許",
+    "disposition": "supported_qualified",
+    "reason": "繼襲實授且辭讓未許；爵名須回查前接裴秀傳，單句未名爵",
+    "candidate_slots": [
+      "inherited-rank"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-005",
+    "quote": "太康二年，徵為太子中庶子",
+    "disposition": "supported",
+    "reason": "明年僅繫本項徵授",
+    "candidate_slots": [
+      "wei-01"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-006",
+    "quote": "遷散騎常侍",
+    "disposition": "supported",
+    "reason": "官序後移，未明同年",
+    "candidate_slots": [
+      "wei-02"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-007",
+    "quote": "惠帝既位，轉國子祭酒，兼右軍將軍",
+    "disposition": "supported_qualified",
+    "reason": "繫即位事件，數值年需獨立紀年依據；兩官轉任與兼任分開",
+    "candidate_slots": [
+      "wei-03",
+      "wei-04"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-008",
+    "quote": "頠兄子憬",
+    "disposition": "supported_qualified",
+    "reason": "憬為頠兄之子；父浚沿既有前接證據，非兄=頠之子",
+    "candidate_slots": [
+      "name-jing",
+      "jing-father"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-009",
+    "quote": "賜爵高陽亭侯",
+    "disposition": "supported",
+    "reason": "主語憬；實授，未知年",
+    "candidate_slots": [
+      "jing-gaoyang"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-010",
+    "quote": "左軍將軍劉豫",
+    "disposition": "supported",
+    "reason": "劉豫官稱 attestation",
+    "candidate_slots": [
+      "name-liuyu",
+      "liuyu-office"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-011",
+    "quote": "頠紿之曰",
+    "disposition": "exclude_as_factual_location",
+    "reason": "下文楊駿西出是欺紿引語，不能存真實行蹤",
+    "candidate_slots": [],
+    "no_new_record_reason": "欺紿引語，不記真實行蹤。"
+  },
+  {
+    "inventory_id": "inventory-012",
+    "quote": "詔頠代豫領左軍將軍，屯萬春門",
+    "disposition": "supported",
+    "reason": "實授領職與屯兵地點分開；屯門非籍貫/居所",
+    "candidate_slots": [
+      "wei-05",
+      "wei-garrison"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-013",
+    "quote": "以功當封武昌侯，頠請以封憬，帝竟封頠次子該",
+    "disposition": "supported_split",
+    "reason": "當封頠/請封憬是擬議；實授該。次子可記2，不將頠或憬列武昌侯",
+    "candidate_slots": [
+      "gai-father",
+      "gai-birth-order",
+      "gai-wuchang",
+      "wuchang-proposals"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-014",
+    "quote": "憬本承嫡，宜襲钜鹿",
+    "disposition": "exclude_holding",
+    "reason": "宜襲是裴頠陳請，不是憬已襲钜鹿的詔授",
+    "candidate_slots": [
+      "jing-julu-request"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-015",
+    "quote": "該時尚主",
+    "disposition": "supported_qualified",
+    "reason": "該娶公主但未名，不補公主身份、生母或子女",
+    "candidate_slots": [
+      "gai-spouse"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-016",
+    "quote": "累遷侍中",
+    "disposition": "supported",
+    "reason": "實職官序，不推精確起年",
+    "candidate_slots": [
+      "wei-06"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-017",
+    "quote": "頠奏修國學，刻石寫經",
+    "disposition": "supported_qualified",
+    "reason": "保奏議與敘述實施層次，不擴成裴頠私人職銜",
+    "candidate_slots": [
+      "school-memorial"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-018",
+    "quote": "皇太子既講",
+    "disposition": "supported",
+    "reason": "太子 source attestation，指同敘湣懷太子；未補太子始年",
+    "candidate_slots": [],
+    "no_new_record_reason": "皇太子既講保人物原標記與敘事，不另造授太子事件。"
+  },
+  {
+    "inventory_id": "inventory-019",
+    "quote": "荀籓終父勖之志",
+    "disposition": "supported",
+    "reason": "籓父勖，保原籓字；不把終志改任官",
+    "candidate_slots": [
+      "name-xunfan",
+      "fan-father"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-020",
+    "quote": "荀勖之修律度也",
+    "disposition": "supported",
+    "reason": "插敘先事，非裴頠新任",
+    "candidate_slots": [
+      "name-xunxu"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-021",
+    "quote": "宜改諸度量",
+    "disposition": "proposal_not_implemented",
+    "reason": "下明卒不能用，不存改制成功",
+    "candidate_slots": [
+      "metrology-memorial"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-022",
+    "quote": "樂廣嘗與頠清言",
+    "disposition": "supported",
+    "reason": "往來明文，不造親屬、精確時年",
+    "candidate_slots": [
+      "wei-le-discussion"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-023",
+    "quote": "太子所生謝淑妃",
+    "disposition": "supported",
+    "reason": "birth_mother為太子→謝淑妃；不把賈后當生母",
+    "candidate_slots": [
+      "prince-birth-mother",
+      "xie-shufei",
+      "prince-title"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-024",
+    "quote": "抗表請增崇太子所生謝淑妃位號",
+    "disposition": "proposal_not_grant",
+    "reason": "請增位號未名新號，不能存皇后或已晉位",
+    "candidate_slots": [
+      "xie-shufei",
+      "xie-promotion-request"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-025",
+    "quote": "仍啟增置後衛率吏，給三千兵，於是東宮宿衛萬人",
+    "disposition": "supported_qualified",
+    "reason": "啟請及於是結果分開；不將機構名當裴頠官職",
+    "candidate_slots": [
+      "eastern-palace-guard"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-026",
+    "quote": "遷尚書，侍中如故，加光祿大夫",
+    "disposition": "supported",
+    "reason": "三項分存：遷、如故續任、加；不推同日起訖",
+    "candidate_slots": [
+      "wei-07",
+      "wei-08",
+      "wei-shizhong-continued-p004"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-027",
+    "quote": "每授一職，未嘗不殷勤固讓",
+    "disposition": "supported_qualified",
+    "reason": "一般辭讓總述，不表示所有任職未成或終止",
+    "candidate_slots": [
+      "general-refusals"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-028",
+    "quote": "司空張華、侍中賈模",
+    "disposition": "supported",
+    "reason": "兩旁人明名職稱 attestations",
+    "candidate_slots": [
+      "zhanghua-office",
+      "jiamo-office"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-029",
+    "quote": "議廢之而立謝淑妃",
+    "disposition": "not_implemented",
+    "reason": "下文明此謀遂寢；非賈后此時已廢或謝已立",
+    "candidate_slots": [
+      "deposition-plan"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-030",
+    "quote": "從母廣城君",
+    "disposition": "supported_qualified",
+    "reason": "從母原詞及廣城君 attestation；跨接郭槐依已採身份，不新增母名",
+    "candidate_slots": [
+      "guangcheng-aunt"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-031",
+    "quote": "則可辭病摒退",
+    "disposition": "exclude_departure",
+    "reason": "他人建議，頠竟不能行，非已辭職",
+    "candidate_slots": [],
+    "no_new_record_reason": "辭病摒退是建議且竟不能行，不建離職。"
+  },
+  {
+    "inventory_id": "inventory-032",
+    "quote": "遷尚書左僕射，侍中如故",
+    "disposition": "supported",
+    "reason": "遷與續任分開",
+    "candidate_slots": [
+      "wei-09",
+      "wei-shizhong-continued-p006"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-033",
+    "quote": "使頠專任門下事，固讓，不聽",
+    "disposition": "supported",
+    "reason": "職掌專任非另造連續官銜；固讓未獲准",
+    "candidate_slots": [
+      "door-duties"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-034",
+    "quote": "賈模適亡",
+    "disposition": "supported_qualified",
+    "reason": "賈模死亡明文，年未知；不是裴頠死亡",
+    "candidate_slots": [
+      "jiamo-death"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-035",
+    "quote": "漢二十四帝惟孝文、光武、明帝",
+    "disposition": "historical_argument",
+    "reason": "古人論證，不轉裴頠同時任官或當時事件",
+    "candidate_slots": [],
+    "no_new_record_reason": "引古、哲理引文或評論保完整來源與人物錨，不建立同時生平／官爵事件。"
+  },
+  {
+    "inventory_id": "inventory-036",
+    "quote": "咎繇謨虞，伊尹相商，呂望翊周，蕭張佐漢",
+    "disposition": "historical_argument",
+    "reason": "引古人物仍保來源錨點，不新製同時事件",
+    "candidate_slots": [],
+    "no_new_record_reason": "引古、哲理引文或評論保完整來源與人物錨，不建立同時生平／官爵事件。"
+  },
+  {
+    "inventory_id": "inventory-037",
+    "quote": "暨于繼體，咎單、傅說，祖己、樊仲",
+    "disposition": "historical_argument",
+    "reason": "引古人物，不外推未知生平；疏廣太子MID由root另處理，不納本包",
+    "candidate_slots": [],
+    "no_new_record_reason": "引古、哲理引文或評論保完整來源與人物錨，不建立同時生平／官爵事件。"
+  },
+  {
+    "inventory_id": "inventory-038",
+    "quote": "陳准子匡、韓蔚子嵩並侍東宮",
+    "disposition": "supported",
+    "reason": "兩父子分開；韓嵩≠裴嵩；侍東宮未明正式官名",
+    "candidate_slots": [
+      "kuang-father",
+      "han-song-father"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-039",
+    "quote": "匡、嵩幼弱",
+    "disposition": "qualitative_only",
+    "reason": "幼弱非數值年齡，不反推出生",
+    "candidate_slots": [],
+    "no_new_record_reason": "幼弱僅定性評語，不生數值年齡。"
+  },
+  {
+    "inventory_id": "inventory-040",
+    "quote": "湣懷太子之廢也，頠與張華苦爭不從",
+    "disposition": "supported",
+    "reason": "實際被廢與諫爭未從，與p005廢賈后計畫不同",
+    "candidate_slots": [],
+    "no_new_record_reason": "苦爭不從保已標記政治敘事，非官爵授罷或新親屬。"
+  },
+  {
+    "inventory_id": "inventory-041",
+    "quote": "乃著崇有之論",
+    "disposition": "supported",
+    "reason": "著作歸屬明文；p009至013為收到引文完整容器，不聲稱另見原著全文",
+    "candidate_slots": [
+      "chongyou-authorship"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-042",
+    "quote": "何晏、阮籍素有高名於世",
+    "disposition": "retrospective_evaluation",
+    "reason": "不能存何阮與裴頠同時往來或共事",
+    "candidate_slots": [],
+    "no_new_record_reason": "引古、哲理引文或評論保完整來源與人物錨，不建立同時生平／官爵事件。"
+  },
+  {
+    "inventory_id": "inventory-043",
+    "quote": "夫總混群本，宗極之道也。方以族異，庶類之品也。形象著分，有生之體也。化感錯綜，理跡之原也。夫品而為族，則所稟者偏，偏無自足，故憑乎外資。是以生而可尋，所謂理也。理之所體，所謂有也。有之所須，所謂資也。資有攸合，所謂宜也。擇乎厥宜，所謂情也。識智既授，雖出處異業，默語殊塗，所以寶生存宜，其情一也。眾理並而無害，故貴賤形焉。失得由乎所接，故吉凶兆焉。是以賢人君子，知欲不可絕，而交物有會。觀乎往復，稽中定務。惟夫用天之道，分地之利，躬其力任，勞而後饗。居以仁順，守以恭儉，率以忠信，行以敬讓，志無盈求，事無過用，乃可濟乎！故大建厥極，綏理群生，訓物垂範，於是乎在，斯則聖人為政之由也。",
+    "disposition": "no_additional_typed_biography",
+    "reason": "哲理引文整段保留；無本傳個人親屬/任官/日期新明文，不由泛稱造人物",
+    "candidate_slots": [],
+    "no_new_record_reason": "引古、哲理引文或評論保完整來源與人物錨，不建立同時生平／官爵事件。"
+  },
+  {
+    "inventory_id": "inventory-044",
+    "quote": "若乃淫抗陵肆，則危害萌矣。故欲衍則速患，情佚則怨博，擅恣則興攻，專利則延寇，可謂以厚生而失生者也。悠悠之徒，駭乎若茲之釁，而尋艱爭所緣。察夫偏質有弊，而睹簡損之善，遂闡貴無之議，而建賤有之論。賤有則必外形，外形則必遺制，遺制則必忽防，忽防則必忘禮。禮制弗存，則無以為政矣。眾之從上，猶水之居器也。故兆庶之情，信于所習；習則心服其業，業服則謂之理然。是以君人必慎所教，班其政刑一切之務，分宅百姓，各授四職，能令稟命之者不肅而安，忽然忘異，莫有遷志。況於據在三之尊，懷所隆之情，敦以為訓者哉！斯乃昏明所階，不可不審。",
+    "disposition": "no_additional_typed_biography",
+    "reason": "哲理引文整段保留；無本傳個人親屬/任官/日期新明文，不由泛稱造人物",
+    "candidate_slots": [],
+    "no_new_record_reason": "引古、哲理引文或評論保完整來源與人物錨，不建立同時生平／官爵事件。"
+  },
+  {
+    "inventory_id": "inventory-045",
+    "quote": "夫盈欲可損而未可絕有也，過用可節而未可謂無貴也。蓋有講言之具者，深列有形之故，盛稱空無之美。形器之故有征，空無之義難檢，辯巧之文可悅，似象之言足惑，眾聽眩焉，溺其成說。雖頗有異此心者，辭不獲濟，屈於所狎，因謂虛無之理，誠不可蓋。唱而有和，多往弗反，遂薄綜世之務，賤功烈之用，高浮游之業，埤經實之賢。人情所殉，篤夫名利。於是文者衍其辭，訥者贊其旨，染其眾也。是以立言藉於虛無，謂之玄妙；處官不親所司，謂之雅遠；奉身散其廉操，謂之曠達。故砥礪之風，彌以陵遲。放者因斯，或悖吉凶之禮，而忽容止之表，瀆棄長幼之序，混漫貴賤之級。其甚者至於裸裎，言笑忘宜，以不惜為弘，士行又虧矣。",
+    "disposition": "no_additional_typed_biography",
+    "reason": "哲理引文整段保留；無本傳個人親屬/任官/日期新明文，不由泛稱造人物",
+    "candidate_slots": [],
+    "no_new_record_reason": "引古、哲理引文或評論保完整來源與人物錨，不建立同時生平／官爵事件。"
+  },
+  {
+    "inventory_id": "inventory-046",
+    "quote": "夫至無者無以能生，故始生者自生也。自生而必體有，則有遺而生虧矣。生以有為已分，則虛無是有之所謂遺者也。故養既化之有，非無用之所能全也；理既有之眾，非無為之所能循也。心非事也，而制事必由於心，然不可以制事以非事，謂心為無也。匠非器也，而制器必須於匠，然不可以制器以非器，謂匠非有也。是以欲收重泉之鱗，非偃息之所能獲也；隕高墉之禽，非靜拱之所能捷也；審投弦餌之用，非無知之所能覽也。由此而觀，濟有者皆有也，虛無奚益於已有之群生哉！",
+    "disposition": "no_additional_typed_biography",
+    "reason": "哲理引文整段保留；無本傳個人親屬/任官/日期新明文，不由泛稱造人物",
+    "candidate_slots": [],
+    "no_new_record_reason": "引古、哲理引文或評論保完整來源與人物錨，不建立同時生平／官爵事件。"
+  },
+  {
+    "inventory_id": "inventory-047",
+    "quote": "老子既著五千之文",
+    "disposition": "historical_literary_claim",
+    "reason": "裴頠著作中對老子之書的論述，非本傳同時事件",
+    "candidate_slots": [],
+    "no_new_record_reason": "引古、哲理引文或評論保完整來源與人物錨，不建立同時生平／官爵事件。"
+  },
+  {
+    "inventory_id": "inventory-048",
+    "quote": "惟班固著難，未足折其情。孫卿、楊雄大體抑之",
+    "disposition": "historical_literary_claim",
+    "reason": "保班固/孫卿/楊雄原字與文本層次；不按字形改揚雄",
+    "candidate_slots": [],
+    "no_new_record_reason": "引古、哲理引文或評論保完整來源與人物錨，不建立同時生平／官爵事件。"
+  },
+  {
+    "inventory_id": "inventory-049",
+    "quote": "頠退而思之",
+    "disposition": "author_self_reference",
+    "reason": "內引自述不是獨立原著見證，不由此另推撰年",
+    "candidate_slots": [],
+    "no_new_record_reason": "引古、哲理引文或評論保完整來源與人物錨，不建立同時生平／官爵事件。"
+  },
+  {
+    "inventory_id": "inventory-050",
+    "quote": "又著《辯才論》",
+    "disposition": "supported_qualified",
+    "reason": "著作進行中；後明未成而遇禍",
+    "candidate_slots": [
+      "biancai-unfinished"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-051",
+    "quote": "倫數求官，頠與張華復固執不許",
+    "disposition": "exclude_grant",
+    "reason": "倫求官被拒，未名官職；不造實授",
+    "candidate_slots": [],
+    "no_new_record_reason": "倫求官被拒且官名未詳，不建holding。"
+  },
+  {
+    "inventory_id": "inventory-052",
+    "quote": "因廢賈后之際遂誅之，時年三十四",
+    "disposition": "supported",
+    "reason": "誅裴頠與報齡34；原文無年，計歲法未明，不由34倒推生年",
+    "candidate_slots": [
+      "wei-death",
+      "wei-age-34"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-053",
+    "quote": "二子嵩、該",
+    "disposition": "supported",
+    "reason": "兩明名子；與p002次子該相容，不把列舉自動推嵩絕對長子",
+    "candidate_slots": [
+      "name-song",
+      "name-gai",
+      "song-father",
+      "gai-father",
+      "two-sons"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-054",
+    "quote": "倫亦欲害之",
+    "disposition": "exclude_death",
+    "reason": "欲害二子未遂，下明故得不死",
+    "candidate_slots": [],
+    "no_new_record_reason": "欲害二子未遂，不建該時死亡。"
+  },
+  {
+    "inventory_id": "inventory-055",
+    "quote": "頠父秀",
+    "disposition": "supported",
+    "reason": "直接父子明文",
+    "candidate_slots": [
+      "wei-father"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-056",
+    "quote": "配食太廟",
+    "disposition": "supported_qualified",
+    "reason": "主語父秀，非頠；不推開始年",
+    "candidate_slots": [],
+    "no_new_record_reason": "父秀配食保原敘事，不當裴頠爵位或另造未知榮典起年。"
+  },
+  {
+    "inventory_id": "inventory-057",
+    "quote": "故得不死，徙帶方",
+    "disposition": "supported_qualified",
+    "reason": "二子徙帶方；非頠籍貫/卒地/葬地",
+    "candidate_slots": [
+      "sons-relocated"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-058",
+    "quote": "惠帝反正，追復頠本官，改葬以卿禮，諡曰成",
+    "disposition": "supported_split",
+    "reason": "追復/改葬禮/諡分開；本官需官序來源，卿禮非爵名、無葬地與確年",
+    "candidate_slots": [
+      "restored-office",
+      "reburial",
+      "wei-posthumous-name"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-059",
+    "quote": "以嵩嗣爵，為中書黃門侍郎",
+    "disposition": "supported_qualified",
+    "reason": "嵩實襲爵及任職；嗣爵爵名需父爵明文資格，不借弟武昌侯",
+    "candidate_slots": [
+      "song-office",
+      "song-inherits"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-060",
+    "quote": "該出後從伯凱，為散騎常侍",
+    "disposition": "supported_qualified",
+    "reason": "該出後凱，保生父頠；從伯距離原詞，不先合凱=裴楷，不推共同祖先",
+    "candidate_slots": [
+      "name-kai",
+      "gai-office",
+      "gai-adoption-report",
+      "gai-adoptive-father"
+    ],
+    "no_new_record_reason": null
+  },
+  {
+    "inventory_id": "inventory-061",
+    "quote": "並為乞活賊陳午所害",
+    "disposition": "supported",
+    "reason": "嵩該二子均為陳午所害，無日期/卒地；不可附裴頠年34",
+    "candidate_slots": [
+      "song-death",
+      "gai-death"
+    ],
+    "no_new_record_reason": null
+  }
+]

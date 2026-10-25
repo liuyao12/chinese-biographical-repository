@@ -9,7 +9,8 @@
     "愍懷太子",
     "太子",
     "湣懷太子",
-    "皇太子"
+    "皇太子",
+    "其"
   ],
   "titles": [
     {
@@ -71,6 +72,122 @@
       "source_wording_qualification": {
         "kind": "retrospective_narrative_title_usage",
         "new_lifetime_grant_inferred": false
+      },
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-jin035-peiwei-prince-title",
+      "person_id": "74e_68c_9ae",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p004",
+          "quote": "頠以賈后不悅太子，抗表請增崇太子所生謝淑妃位號，仍啟增置後衛率吏，給三千兵，於是東宮宿衛萬人。遷尚書，侍中如故，加光祿大夫。每授一職，未嘗不殷勤固讓，表疏十餘上，博引古今成敗以為言，覽之者莫不寒心。",
+          "person_mention_id": "c-jinshu-035-peiwei:p004:m0014"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "明文任官或用稱，未明任年與終年不補；一般辭讓不作已離任。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "prince-title"
+      },
+      "title": "太子",
+      "kind": "honorific",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "prince-title"
+      },
+      "attestations": [
+        {
+          "id": "th-jin035-peiwei-prince-title:a001",
+          "paragraph_id": "c-jinshu-035-peiwei:p004",
+          "start": 6,
+          "end": 8,
+          "surface": "太子",
+          "person_mention_id": "c-jinshu-035-peiwei:p004:m0014",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-jin043-leguang-minhuai-designation",
+      "person_id": "74e_68c_9ae",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-leguang",
+          "chapter_id": "c-jinshu-043-leguang",
+          "paragraph_id": "c-jinshu-043-leguang:p008",
+          "quote": "湣懷太子之廢也，詔故臣不得辭送，眾官不勝憤歎，皆冒禁拜辭。司隸校尉滿奮敕河南中部收縛拜者送獄，廣即便解遣。眾人代廣危懼。孫琰說賈謐曰：「前以太子罪惡，有斯廢黜，其臣不懼嚴詔，冒罪而送。今若系之，是彰太子之善，不如釋去。」謐然其言，廣故得不坐。",
+          "person_mention_id": "c-jinshu-043-leguang:p008:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本源用稱見證，湣懷太子為收到的追稱；不推授封/追諡日期，未知起終不補，王號身份見逐人判讀。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-leguang-finite",
+        "slot": "minhuai-designation"
+      },
+      "title": "湣懷太子",
+      "kind": "honorific",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-leguang-finite",
+        "slot": "minhuai-designation"
+      },
+      "attestations": [
+        {
+          "id": "th-jin043-leguang-minhuai-designation:a001",
+          "paragraph_id": "c-jinshu-043-leguang:p008",
+          "start": 0,
+          "end": 4,
+          "surface": "湣懷太子",
+          "person_mention_id": "c-jinshu-043-leguang:p008:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
       },
       "period": "未定 → 未定"
     }
@@ -168,6 +285,70 @@
       "book_id": "b-jinshu-034",
       "chapter_id": "c-jinshu-034-duyu",
       "source_id": "s-jinshu-034-ws2567662-duyu",
+      "work_title": "晉書"
+    },
+    {
+      "number": 35,
+      "category": "",
+      "title": "裴頠傳",
+      "paragraph_id": "c-jinshu-035-peiwei:p003",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "時天下暫寧，頠奏修國學，刻石寫經。皇太子既講，釋奠祀孔子，飲饗射侯，甚有儀序。又令荀籓終父勖之志，鑄鐘鑿磬，以備郊廟朝享禮樂。頠通博多聞，兼明醫術。荀勖之修律度也，檢得古尺，短世所用四分有餘。頠上言：「宜改諸度量。若未能悉革，可先改太醫權衡",
+      "paragraph_ids": [
+        "c-jinshu-035-peiwei:p003",
+        "c-jinshu-035-peiwei:p004",
+        "c-jinshu-035-peiwei:p007"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peiwei:p003:m0017",
+        "c-jinshu-035-peiwei:p004:m0006",
+        "c-jinshu-035-peiwei:p004:m0014",
+        "c-jinshu-035-peiwei:p007:m0093"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peiwei:p003:m0017": "c-jinshu-035-peiwei:p003",
+        "c-jinshu-035-peiwei:p004:m0006": "c-jinshu-035-peiwei:p004",
+        "c-jinshu-035-peiwei:p004:m0014": "c-jinshu-035-peiwei:p004",
+        "c-jinshu-035-peiwei:p007:m0093": "c-jinshu-035-peiwei:p007"
+      },
+      "mention_id": "c-jinshu-035-peiwei:p003:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p003:m0017",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p003:m0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p004:m0006",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p004:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p004:m0014",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p004:m0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p007:m0093",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p007:m0093"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peiwei",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
       "work_title": "晉書"
     },
     {
@@ -284,6 +465,68 @@
       "book_id": "b-jinshu-040",
       "chapter_id": "c-jinshu-040-jiachong-family",
       "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "樂廣傳",
+      "paragraph_id": "c-jinshu-043-leguang:p008",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "湣懷太子之廢也，詔故臣不得辭送，眾官不勝憤歎，皆冒禁拜辭。司隸校尉滿奮敕河南中部收縛拜者送獄，廣即便解遣。眾人代廣危懼。孫琰說賈謐曰：「前以太子罪惡，有斯廢黜，其臣不懼嚴詔，冒罪而送。今若系之，是彰太子之善，",
+      "paragraph_ids": [
+        "c-jinshu-043-leguang:p008"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-leguang:p008:m0000",
+        "c-jinshu-043-leguang:p008:m0070",
+        "c-jinshu-043-leguang:p008:m0080",
+        "c-jinshu-043-leguang:p008:m0099"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-leguang:p008:m0000": "c-jinshu-043-leguang:p008",
+        "c-jinshu-043-leguang:p008:m0070": "c-jinshu-043-leguang:p008",
+        "c-jinshu-043-leguang:p008:m0080": "c-jinshu-043-leguang:p008",
+        "c-jinshu-043-leguang:p008:m0099": "c-jinshu-043-leguang:p008"
+      },
+      "mention_id": "c-jinshu-043-leguang:p008:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-leguang:p008:m0000",
+          "mention_ids": [
+            "c-jinshu-043-leguang:p008:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-leguang:p008:m0070",
+          "mention_ids": [
+            "c-jinshu-043-leguang:p008:m0070"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-leguang:p008:m0080",
+          "mention_ids": [
+            "c-jinshu-043-leguang:p008:m0080"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-leguang:p008:m0099",
+          "mention_ids": [
+            "c-jinshu-043-leguang:p008:m0099"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-leguang",
+      "source_id": "s-jinshu-043-ws2618531-leguang",
       "work_title": "晉書"
     },
     {
@@ -422,6 +665,35 @@
           "character_conversion": {},
           "extraction_note": "只投影排版空白、quote/YL/粗體及wiki連結外殼；原字/標點保留，全部可見字與排除位構成完整節界。未核實際古本。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peiwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "source": {
+        "title": "《晉書》卷三十五子頠完整附傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-24",
+        "extent": "子頠附傳完整十五自然段，含晉書收到崇有之論全部引文容器及二子敘述；非裴秀全傳/卷035全卷或獨立原著全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅排quote模板/顯示wiki標記/段間空白；保每碼點責任。無pipe易鏈接保易原字；內引層非獨立原著見證。"
+        },
+        "raw_path": "sources/witnesses/jin035-ws2506399.wikitext",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
       }
     },
     {
@@ -12312,6 +12584,35 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-043-leguang",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-leguang",
+      "source": {
+        "title": "《晉書》卷四十三樂廣傳完整敘事單元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-24",
+        "extent": "樂廣節全部十一自然段，含三子附敘；止史評之前，不重複全卷共評，非卷043全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "完整樂廣本傳及三子附敘，郎徹／廣雲／潘嶽／楊准／喬／荀籓等原字保持；姓名同指判讀分層，不混改正文。"
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-043-wangrong",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
@@ -12370,6 +12671,44 @@
   ],
   "relations": [
     {
+      "id": "a-jin035-peiwei-prince-birth-mother",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p004",
+          "quote": "頠以賈后不悅太子，抗表請增崇太子所生謝淑妃位號，仍啟增置後衛率吏，給三千兵，於是東宮宿衛萬人。遷尚書，侍中如故，加光祿大夫。每授一職，未嘗不殷勤固讓，表疏十餘上，博引古今成敗以為言，覽之者莫不寒心。",
+          "subject_person_mention_id": "c-jinshu-035-peiwei:p004:m0014",
+          "object_person_mention_id": "c-jinshu-035-peiwei:p004:m0018"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "所生明指生母；不接賈后，不補謝氏個人名、配偶或子女生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "prince-birth-mother"
+      },
+      "subject_person_id": "74e_68c_9ae",
+      "object_person_id": "ao5_3hi_5gz",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "太子所生謝淑妃",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "maternal",
+        "birth_mother_interpretation": {
+          "status": "source_attested",
+          "source_explicit_birth": true,
+          "basis": "explicit_suoshen_maternal_phrase"
+        }
+      }
+    },
+    {
       "id": "a-jin043-wangyan-daughter-prince-marriage",
       "predicate": "spouse",
       "subject_person_id": "ehx_cqg_nfx_BAC",
@@ -12404,6 +12743,7 @@
   ],
   "related_people": {
     "74e_68c_9ae": "愍懷太子（王浚/孫慮害者）",
+    "ao5_3hi_5gz": "謝淑妃〔太子所生〕",
     "ehx_cqg_nfx_BAC": "王衍女〔湣懷太子妃，未名〕"
   },
   "dates": [],
@@ -12412,6 +12752,44 @@
     "74e_68c_9ae"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin035-peiwei-prince-birth-mother",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p004",
+          "quote": "頠以賈后不悅太子，抗表請增崇太子所生謝淑妃位號，仍啟增置後衛率吏，給三千兵，於是東宮宿衛萬人。遷尚書，侍中如故，加光祿大夫。每授一職，未嘗不殷勤固讓，表疏十餘上，博引古今成敗以為言，覽之者莫不寒心。",
+          "subject_person_mention_id": "c-jinshu-035-peiwei:p004:m0014",
+          "object_person_mention_id": "c-jinshu-035-peiwei:p004:m0018"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "所生明指生母；不接賈后，不補謝氏個人名、配偶或子女生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "prince-birth-mother"
+      },
+      "subject_person_id": "74e_68c_9ae",
+      "object_person_id": "ao5_3hi_5gz",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "太子所生謝淑妃",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "maternal",
+        "birth_mother_interpretation": {
+          "status": "source_attested",
+          "source_explicit_birth": true,
+          "basis": "explicit_suoshen_maternal_phrase"
+        }
+      }
+    },
     {
       "id": "a-jin043-wangyan-daughter-prince-marriage",
       "predicate": "spouse",

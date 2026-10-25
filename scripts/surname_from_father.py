@@ -1,5 +1,9 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions,root=None):
+ if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_cross_source_subject_or_father':
+  try:from scripts.fixed_cross_source_surname import validate as cross_source_validate
+  except ImportError:from fixed_cross_source_surname import validate as cross_source_validate
+  return cross_source_validate(name,names,chapters,assertions,root)
  if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_archived_excerpt_paths':
   try:from scripts.archived_excerpt_facts import valid
   except ImportError:from archived_excerpt_facts import valid

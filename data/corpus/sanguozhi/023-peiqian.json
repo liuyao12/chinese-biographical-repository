@@ -1,0 +1,3144 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-sanguozhi-023-peiqian",
+  "work_id": "w-sanguozhi",
+  "book_id": "b-sanguozhi-023",
+  "source_id": "s-sanguozhi-023-peiqian-kr214fcafa",
+  "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+  "source": {
+    "title": "《三國志》卷二十三裴潛本傳及完整裴注、章評（編輯選錄題）",
+    "provider": "Kanripo WYG",
+    "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+    "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_023.txt",
+    "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+    "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+    "response_sha256": "d6f42012810a7643dbf554325f4f653b5ae8758322d9afaa0caf1b385b51d4f3",
+    "edition": "WYG數位轉錄；未核影像",
+    "accessed_on": "2026-10-24",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古籍原文；保留Kanripo固定數位見證歸屬",
+    "license_url": "https://www.kanripo.org/",
+    "normalization": {
+      "character_conversion": {},
+      "extraction_note": "只去版面頁標、注括號及換行/¶；不添標點、不正字。逐字positions另存。"
+    },
+    "extent": "原行374–467：本傳、魏略/裴氏家族長注、完整四人補傳與魚豢論、陳壽章評；清考證另章。"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "human_reviewed": false,
+    "model": null,
+    "reviewer": "Codex（AI代理）",
+    "scope": "complete_selected_source_unit_named_mentions_first_pass",
+    "completion_note": "完整收到的原文單元；人物/作品初讀，泛稱群體及未決代詞另留，不冒已完全部人物辨識",
+    "fixed_kanripo_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json",
+    "fixed_kanripo_fact_slots_ref": {
+      "kind": "fixed_kanripo_person_fact_slots",
+      "key": "sgz023-peiqian-family-qian-finite"
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "c-sanguozhi-023-peiqian:p001",
+      "text": "裴潛字文行河東聞喜人也",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p001:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "裴潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p001:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "文行",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 374,
+        "last_line": 374,
+        "source_layer": "received_body",
+        "unit_key": "peiqian-unit-01",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p002",
+      "text": "魏略曰潛世為著姓父茂仕靈帝時歴縣令郡守尚書建安初以奉使率導關中諸將討李傕有功封列侯潛少不修細行由此為父所不禮",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p002:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏略",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-weilue-sgz028-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p002:m0003",
+          "start": 3,
+          "end": 4,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p002:m0009",
+          "start": 9,
+          "end": 10,
+          "surface": "茂",
+          "kind": "person",
+          "person_id": "4ni_4t1_4o9",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p002:m0011",
+          "start": 11,
+          "end": 13,
+          "surface": "靈帝",
+          "kind": "person",
+          "person_id": "0wg_vtn_yqb",
+          "status": "contextual_provisional",
+          "resolution_note": "依完整原段及固定平行primary辨識，見additional-persons-root-capture；原㑹/會/高髙字保留，馬超不接宋元徽同名者。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p002:m0034",
+          "start": 34,
+          "end": 36,
+          "surface": "李傕",
+          "kind": "person",
+          "person_id": "9d3_b88_e99",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p002:m0041",
+          "start": 41,
+          "end": 42,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 374,
+        "last_line": 376,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-02",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p003",
+      "text": "避亂荆州劉表待以賓禮潛私謂所親王粲司馬芝曰劉牧非霸王之才乃欲西伯自處其敗無日矣遂南適長沙太祖定荆州以潛參丞相軍事出歴三縣令入為倉曹屬太祖問潛曰卿前與劉備俱在荆州卿以備才略何如潛曰使居中國能亂人而不能為治也若乗間守險足以為一方主時代郡大亂以潛為代郡太守烏丸王及其大人凡三人各自稱單于專制郡事前太守莫能治正太祖欲授潛精兵以鎮討之潛辭曰代郡戸口殷衆士馬控弦動有萬數單于自知放橫日久内不自安今多將兵往必懼而拒境少將則不見憚宜以計謀圖之不可以兵威廹也遂單車之郡單于驚喜潛撫之以靜單于以下脫㡌稽顙悉還前後所略婦女器械財物潛案誅郡中大吏與單于為表裏者郝溫郭端等十餘人北邊大震百姓歸心在代三年還為丞相理曹掾太祖襃稱治代之功潛曰潛於百姓雖寛於諸胡為峻今計者必以潛為理過嚴而事加寛惠彼素驕恣過寛必弛既弛又將攝之以法此訟爭所由生也以勢料之代必復叛於是太祖深悔還潛之速後數十日三單于反問至乃遣鄢陵侯彰為驍騎將軍征之潛出為沛國相遷兗州刺史太祖次摩陂歎其軍陳齊整特加賞賜文帝踐阼入為散騎常侍出為魏郡潁川典農中郎將奏通貢舉比之郡國由是農官進仕路泰遷荆州刺史賜爵關内侯明帝即位入為尚書出為河南尹轉太尉軍師大司農封清陽亭侯邑二百戸入為尚書令奏正分職料簡名實出事使斷官府者百五十餘條喪父去官拜光祿大夫正始五年薨追贈太常諡曰貞侯",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0004",
+          "start": 4,
+          "end": 6,
+          "surface": "劉表",
+          "kind": "person",
+          "person_id": "866_0fd_205",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0010",
+          "start": 10,
+          "end": 11,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0015",
+          "start": 15,
+          "end": 17,
+          "surface": "王粲",
+          "kind": "person",
+          "person_id": "ad4_a63_862",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0017",
+          "start": 17,
+          "end": 20,
+          "surface": "司馬芝",
+          "kind": "person",
+          "person_id": "85e_8t3_1n3",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0021",
+          "start": 21,
+          "end": 23,
+          "surface": "劉牧",
+          "kind": "person",
+          "person_id": "866_0fd_205",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0030",
+          "start": 30,
+          "end": 32,
+          "surface": "西伯",
+          "kind": "person",
+          "person_id": "y4i_pjk_4gn_A",
+          "status": "contextual_provisional",
+          "resolution_note": "劉牧乃欲西伯自處的引古比擬，循史記003殷p029西伯昌／西伯同指；不作劉表與周文王同時事件。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0044",
+          "start": 44,
+          "end": 46,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0050",
+          "start": 50,
+          "end": 51,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0066",
+          "start": 66,
+          "end": 68,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0069",
+          "start": 69,
+          "end": 70,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0071",
+          "start": 71,
+          "end": 72,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "曹操問潛引語；卿指潛、備承前劉備，非字串全庫規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0074",
+          "start": 74,
+          "end": 76,
+          "surface": "劉備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0080",
+          "start": 80,
+          "end": 81,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "曹操問潛引語；卿指潛、備承前劉備，非字串全庫規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0082",
+          "start": 82,
+          "end": 83,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "resolution_note": "曹操問潛引語；卿指潛、備承前劉備，非字串全庫規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0087",
+          "start": 87,
+          "end": 88,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0119",
+          "start": 119,
+          "end": 120,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0125",
+          "start": 125,
+          "end": 128,
+          "surface": "烏丸王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "resolution_note": "未名王者與大人合稱三人"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0151",
+          "start": 151,
+          "end": 153,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0155",
+          "start": 155,
+          "end": 156,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0162",
+          "start": 162,
+          "end": 163,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0229",
+          "start": 229,
+          "end": 230,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0254",
+          "start": 254,
+          "end": 255,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0268",
+          "start": 268,
+          "end": 270,
+          "surface": "郝溫",
+          "kind": "person",
+          "person_id": "9xa_b2h_x3z",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0270",
+          "start": 270,
+          "end": 272,
+          "surface": "郭端",
+          "kind": "person",
+          "person_id": "syb_0gp_uac",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0295",
+          "start": 295,
+          "end": 297,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0303",
+          "start": 303,
+          "end": 304,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0305",
+          "start": 305,
+          "end": 306,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0321",
+          "start": 321,
+          "end": 322,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0364",
+          "start": 364,
+          "end": 366,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0369",
+          "start": 369,
+          "end": 370,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0376",
+          "start": 376,
+          "end": 379,
+          "surface": "三單于",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "resolution_note": "三人集體；不造三名姓名"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0384",
+          "start": 384,
+          "end": 388,
+          "surface": "鄢陵侯彰",
+          "kind": "person",
+          "person_id": "dlo_f1n_cyx",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0395",
+          "start": 395,
+          "end": 396,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0406",
+          "start": 406,
+          "end": 408,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0421",
+          "start": 421,
+          "end": 423,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p003:m0468",
+          "start": 468,
+          "end": 470,
+          "surface": "明帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 376,
+        "last_line": 405,
+        "source_layer": "received_body",
+        "unit_key": "peiqian-unit-03",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p004",
+      "text": "魏略曰時遠近皆云當為公㑹病亡始潛自感所生微賤無舅氏又為父所不禮即折節仕進雖多所更歴清省恪然每之官不將妻子妻子貧乏織藜芘以自供又潛為兗州時嘗作一胡牀及其去也留以掛柱又以父在京師出入薄軬車羣弟之田廬常歩行家人小大或并日而食其家教上下相奉事有似於石奮其履檢校度自魏興少能及者潛為人材博有雅要容然但如此而已終無所推進故世歸其潔而不宗其餘",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p004:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏略",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-weilue-sgz028-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p004:m0015",
+          "start": 15,
+          "end": 16,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p004:m0050",
+          "start": 50,
+          "end": 52,
+          "surface": "妻子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "resolution_note": "妻子群體未名，非已知某妻生平"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p004:m0063",
+          "start": 63,
+          "end": 64,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p004:m0092",
+          "start": 92,
+          "end": 94,
+          "surface": "羣弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "resolution_note": "群體未名，不推絕對排行"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p004:m0120",
+          "start": 120,
+          "end": 122,
+          "surface": "石奮",
+          "kind": "person",
+          "person_id": "esh_e0a_jrw_A",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p004:m0134",
+          "start": 134,
+          "end": 135,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 405,
+        "last_line": 409,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-04",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p005",
+      "text": "子秀嗣遺令儉葬墓中惟置一坐瓦器數枚其餘一無所設秀咸熙中為尚書僕射",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p005:m0001",
+          "start": 1,
+          "end": 2,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "057_a27_29b",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p005:m0023",
+          "start": 23,
+          "end": 24,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "057_a27_29b",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 409,
+        "last_line": 412,
+        "source_layer": "received_body",
+        "unit_key": "peiqian-unit-05",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p006",
+      "text": "文章敘錄曰秀字季彦弘通博濟八歲能屬文遂知名大將軍曹爽辟喪父服終推財與兄弟年二十五遷黄門侍郎爽誅以故吏免遷衛國相累遷散騎常侍尚書僕射令光祿大夫咸熙中晉文王始建五等命秀典為制度封廣川侯晉室受禪進左光祿大夫改封鉅鹿公遷司空著易及樂論又畫地域圖十八篇傳行于世盟㑹圖及典治官制皆未成年四十八秦始七年薨諡元公配食宗廟少子頠字逸民襲封",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0000",
+          "start": 0,
+          "end": 4,
+          "surface": "文章敘錄",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-wenzhang-xulu-sgz023-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0005",
+          "start": 5,
+          "end": 6,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "057_a27_29b",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0007",
+          "start": 7,
+          "end": 9,
+          "surface": "季彦",
+          "kind": "person",
+          "person_id": "057_a27_29b",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0024",
+          "start": 24,
+          "end": 26,
+          "surface": "曹爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0045",
+          "start": 45,
+          "end": 46,
+          "surface": "爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0073",
+          "start": 73,
+          "end": 76,
+          "surface": "晉文王",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAI",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0081",
+          "start": 81,
+          "end": 82,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "057_a27_29b",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0109",
+          "start": 109,
+          "end": 110,
+          "surface": "易",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-yi-peixiu-sgz023-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0111",
+          "start": 111,
+          "end": 113,
+          "surface": "樂論",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-lelun-peixiu-sgz023-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0115",
+          "start": 115,
+          "end": 118,
+          "surface": "地域圖",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-yugongdiyutu-peixiu"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0125",
+          "start": 125,
+          "end": 128,
+          "surface": "盟㑹圖",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-menghuitu-peixiu-sgz023-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0154",
+          "start": 154,
+          "end": 155,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "svm_6fh_34r",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p006:m0156",
+          "start": 156,
+          "end": 158,
+          "surface": "逸民",
+          "kind": "person",
+          "person_id": "svm_6fh_34r",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 412,
+        "last_line": 415,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-06",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p007",
+      "text": "荀綽冀州記曰頠為人弘雅有遠識博學稽古履行高整自少知名歴位太子中庶子侍中尚書元康末為尚書左僕射趙王倫以其望重畏而惡之知其不與賈氏同心猶被枉害",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p007:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "荀綽",
+          "kind": "person",
+          "person_id": "yoo_ox0_545_FAAABB",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p007:m0002",
+          "start": 2,
+          "end": 5,
+          "surface": "冀州記",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-jizhouji-sgz023-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p007:m0006",
+          "start": 6,
+          "end": 7,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "svm_6fh_34r",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p007:m0046",
+          "start": 46,
+          "end": 49,
+          "surface": "趙王倫",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAG",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p007:m0061",
+          "start": 61,
+          "end": 63,
+          "surface": "賈氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "resolution_note": "賈氏政治家族合稱，本句未指定單一具名個人；不任意等同賈后或賈謐。"
+        }
+      ],
+      "source_position": {
+        "first_line": 416,
+        "last_line": 417,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-07",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p008",
+      "text": "臣松之案陸機惠帝起居注稱頠雅有遠量當朝名士也又曰民之望也",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p008:m0001",
+          "start": 1,
+          "end": 3,
+          "surface": "松之",
+          "kind": "person",
+          "person_id": "vpy_180_2oi_AA",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p008:m0004",
+          "start": 4,
+          "end": 6,
+          "surface": "陸機",
+          "kind": "person",
+          "person_id": "69h_uhy_hta",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p008:m0006",
+          "start": 6,
+          "end": 11,
+          "surface": "惠帝起居注",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-huidi-qiju-zhu-sgz023-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p008:m0012",
+          "start": 12,
+          "end": 13,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "svm_6fh_34r",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 417,
+        "last_line": 418,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-08",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p009",
+      "text": "頠理具淵博贍於論難著崇有貴無二論以矯虚誕之弊文辭精富為世名論子嵩字道文荀綽稱嵩有父祖風為中書郎早卒頠從父弟邈字景聲有雋才為太傅司馬越從事中郎假節監中外營諸軍事",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p009:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "svm_6fh_34r",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p009:m0010",
+          "start": 10,
+          "end": 12,
+          "surface": "崇有",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-chongyouzhilun-jin035-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p009:m0012",
+          "start": 12,
+          "end": 14,
+          "surface": "貴無",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-guiwu-peiwei-sgz023-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p009:m0031",
+          "start": 31,
+          "end": 32,
+          "surface": "嵩",
+          "kind": "person",
+          "person_id": "js2_y2t_fkw",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p009:m0033",
+          "start": 33,
+          "end": 35,
+          "surface": "道文",
+          "kind": "person",
+          "person_id": "js2_y2t_fkw",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p009:m0035",
+          "start": 35,
+          "end": 37,
+          "surface": "荀綽",
+          "kind": "person",
+          "person_id": "yoo_ox0_545_FAAABB",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p009:m0038",
+          "start": 38,
+          "end": 39,
+          "surface": "嵩",
+          "kind": "person",
+          "person_id": "js2_y2t_fkw",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p009:m0049",
+          "start": 49,
+          "end": 50,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "svm_6fh_34r",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p009:m0053",
+          "start": 53,
+          "end": 54,
+          "surface": "邈",
+          "kind": "person",
+          "person_id": "sra_yp5_n8o",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p009:m0055",
+          "start": 55,
+          "end": 57,
+          "surface": "景聲",
+          "kind": "person",
+          "person_id": "sra_yp5_n8o",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p009:m0063",
+          "start": 63,
+          "end": 66,
+          "surface": "司馬越",
+          "kind": "person",
+          "person_id": "9o2_vhv_r7y",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 418,
+        "last_line": 420,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-09",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p010",
+      "text": "潛少弟徽字文季冀州刺史有高才遠度善言玄妙事見荀粲傅嘏王弼管輅諸傳徽長子黎字伯宗一名演遊擊將軍次康字仲豫太子左衛率次楷字叔則侍中中書令光祿大夫開府次綽字季舒黃門侍郎早卒追贈長水校尉康楷綽皆為名士而楷才望最重",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0003",
+          "start": 3,
+          "end": 4,
+          "surface": "徽",
+          "kind": "person",
+          "person_id": "nx3_l5c_jlj",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0005",
+          "start": 5,
+          "end": 7,
+          "surface": "文季",
+          "kind": "person",
+          "person_id": "nx3_l5c_jlj",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0022",
+          "start": 22,
+          "end": 32,
+          "surface": "荀粲傅嘏王弼管輅諸傳",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-sanguozhi"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0032",
+          "start": 32,
+          "end": 33,
+          "surface": "徽",
+          "kind": "person",
+          "person_id": "nx3_l5c_jlj",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0035",
+          "start": 35,
+          "end": 36,
+          "surface": "黎",
+          "kind": "person",
+          "person_id": "2vl_svq_ynl",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0037",
+          "start": 37,
+          "end": 39,
+          "surface": "伯宗",
+          "kind": "person",
+          "person_id": "2vl_svq_ynl",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0041",
+          "start": 41,
+          "end": 42,
+          "surface": "演",
+          "kind": "person",
+          "person_id": "2vl_svq_ynl",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0047",
+          "start": 47,
+          "end": 48,
+          "surface": "康",
+          "kind": "person",
+          "person_id": "y8f_xr3_osd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0049",
+          "start": 49,
+          "end": 51,
+          "surface": "仲豫",
+          "kind": "person",
+          "person_id": "y8f_xr3_osd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0057",
+          "start": 57,
+          "end": 58,
+          "surface": "楷",
+          "kind": "person",
+          "person_id": "530_f9d_4bd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0059",
+          "start": 59,
+          "end": 61,
+          "surface": "叔則",
+          "kind": "person",
+          "person_id": "530_f9d_4bd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0073",
+          "start": 73,
+          "end": 74,
+          "surface": "綽",
+          "kind": "person",
+          "person_id": "2xw_y7a_0ek",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0075",
+          "start": 75,
+          "end": 77,
+          "surface": "季舒",
+          "kind": "person",
+          "person_id": "2xw_y7a_0ek",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0089",
+          "start": 89,
+          "end": 90,
+          "surface": "康",
+          "kind": "person",
+          "person_id": "y8f_xr3_osd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0090",
+          "start": 90,
+          "end": 91,
+          "surface": "楷",
+          "kind": "person",
+          "person_id": "530_f9d_4bd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0091",
+          "start": 91,
+          "end": 92,
+          "surface": "綽",
+          "kind": "person",
+          "person_id": "2xw_y7a_0ek",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p010:m0097",
+          "start": 97,
+          "end": 98,
+          "surface": "楷",
+          "kind": "person",
+          "person_id": "530_f9d_4bd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 420,
+        "last_line": 423,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-10",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p011",
+      "text": "晉諸公贊曰康有弘量綽以明達為稱楷少與瑯邪王戎俱為掾發名鍾㑹致之大將軍司馬文王曰裴楷清通王戎簡要文王即辟為掾進歴顯位",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p011:m0000",
+          "start": 0,
+          "end": 4,
+          "surface": "晉諸公贊",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-jinzhugongzan-sgz022-luyu-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p011:m0005",
+          "start": 5,
+          "end": 6,
+          "surface": "康",
+          "kind": "person",
+          "person_id": "y8f_xr3_osd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p011:m0009",
+          "start": 9,
+          "end": 10,
+          "surface": "綽",
+          "kind": "person",
+          "person_id": "2xw_y7a_0ek",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p011:m0015",
+          "start": 15,
+          "end": 16,
+          "surface": "楷",
+          "kind": "person",
+          "person_id": "530_f9d_4bd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p011:m0020",
+          "start": 20,
+          "end": 22,
+          "surface": "王戎",
+          "kind": "person",
+          "person_id": "ehx_cqg_nfx_AA",
+          "status": "contextual_provisional",
+          "resolution_note": "依完整原段及固定平行primary辨識，見additional-persons-root-capture；原㑹/會/高髙字保留，馬超不接宋元徽同名者。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p011:m0027",
+          "start": 27,
+          "end": 29,
+          "surface": "鍾㑹",
+          "kind": "person",
+          "person_id": "a6a_4c2_670",
+          "status": "contextual_provisional",
+          "resolution_note": "依完整原段及固定平行primary辨識，見additional-persons-root-capture；原㑹/會/高髙字保留，馬超不接宋元徽同名者。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p011:m0034",
+          "start": 34,
+          "end": 38,
+          "surface": "司馬文王",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAI",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p011:m0039",
+          "start": 39,
+          "end": 41,
+          "surface": "裴楷",
+          "kind": "person",
+          "person_id": "530_f9d_4bd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p011:m0043",
+          "start": 43,
+          "end": 45,
+          "surface": "王戎",
+          "kind": "person",
+          "person_id": "ehx_cqg_nfx_AA",
+          "status": "contextual_provisional",
+          "resolution_note": "依完整原段及固定平行primary辨識，見additional-persons-root-capture；原㑹/會/高髙字保留，馬超不接宋元徽同名者。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p011:m0047",
+          "start": 47,
+          "end": 49,
+          "surface": "文王",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAI",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 423,
+        "last_line": 424,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-11",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p012",
+      "text": "謝鯤為樂廣傳稱楷雋朗有識具當時獨歩",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p012:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "謝鯤",
+          "kind": "person",
+          "person_id": "4ij_7ik_fgy",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p012:m0003",
+          "start": 3,
+          "end": 6,
+          "surface": "樂廣傳",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-leguang-zhuan-sgz023-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p012:m0007",
+          "start": 7,
+          "end": 8,
+          "surface": "楷",
+          "kind": "person",
+          "person_id": "530_f9d_4bd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 424,
+        "last_line": 425,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-12",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p013",
+      "text": "黎子苞秦州刺史康子純黃門侍郎次盾徐州刺史次郃有器望晉元帝為安東將軍郃為長史侍中王曠與司馬越書曰裴郃在此雖不治事然識量弘達此下人士大敬附之",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p013:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "黎",
+          "kind": "person",
+          "person_id": "2vl_svq_ynl",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p013:m0002",
+          "start": 2,
+          "end": 3,
+          "surface": "苞",
+          "kind": "person",
+          "person_id": "lhx_9l6_27e",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p013:m0007",
+          "start": 7,
+          "end": 8,
+          "surface": "康",
+          "kind": "person",
+          "person_id": "y8f_xr3_osd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p013:m0009",
+          "start": 9,
+          "end": 10,
+          "surface": "純",
+          "kind": "person",
+          "person_id": "nkx_kjd_zue",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p013:m0015",
+          "start": 15,
+          "end": 16,
+          "surface": "盾",
+          "kind": "person",
+          "person_id": "gul_dv0_595",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p013:m0021",
+          "start": 21,
+          "end": 22,
+          "surface": "郃",
+          "kind": "person",
+          "person_id": "863_zcy_ahs",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p013:m0025",
+          "start": 25,
+          "end": 28,
+          "surface": "晉元帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAAAA",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p013:m0033",
+          "start": 33,
+          "end": 34,
+          "surface": "郃",
+          "kind": "person",
+          "person_id": "863_zcy_ahs",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p013:m0039",
+          "start": 39,
+          "end": 41,
+          "surface": "王曠",
+          "kind": "person",
+          "person_id": "2hq_5un_2av",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p013:m0042",
+          "start": 42,
+          "end": 45,
+          "surface": "司馬越",
+          "kind": "person",
+          "person_id": "9o2_vhv_r7y",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p013:m0047",
+          "start": 47,
+          "end": 49,
+          "surface": "裴郃",
+          "kind": "person",
+          "person_id": "863_zcy_ahs",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 425,
+        "last_line": 426,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-13",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p014",
+      "text": "次廓中壘將軍楷子瓚中書郎次憲豫州刺史綽子遐太傅主簿瓚遐並有盛名早卒晉諸公贊稱憲有清識",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p014:m0001",
+          "start": 1,
+          "end": 2,
+          "surface": "廓",
+          "kind": "person",
+          "person_id": "hwh_nlw_vtx",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p014:m0006",
+          "start": 6,
+          "end": 7,
+          "surface": "楷",
+          "kind": "person",
+          "person_id": "530_f9d_4bd",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p014:m0008",
+          "start": 8,
+          "end": 9,
+          "surface": "瓚",
+          "kind": "person",
+          "person_id": "99p_632_txb",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p014:m0013",
+          "start": 13,
+          "end": 14,
+          "surface": "憲",
+          "kind": "person",
+          "person_id": "c6e_8f3_014",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p014:m0018",
+          "start": 18,
+          "end": 19,
+          "surface": "綽",
+          "kind": "person",
+          "person_id": "2xw_y7a_0ek",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p014:m0020",
+          "start": 20,
+          "end": 21,
+          "surface": "遐",
+          "kind": "person",
+          "person_id": "xyc_ae4_fbe",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p014:m0025",
+          "start": 25,
+          "end": 26,
+          "surface": "瓚",
+          "kind": "person",
+          "person_id": "99p_632_txb",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p014:m0026",
+          "start": 26,
+          "end": 27,
+          "surface": "遐",
+          "kind": "person",
+          "person_id": "xyc_ae4_fbe",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p014:m0033",
+          "start": 33,
+          "end": 37,
+          "surface": "晉諸公贊",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-jinzhugongzan-sgz022-luyu-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p014:m0038",
+          "start": 38,
+          "end": 39,
+          "surface": "憲",
+          "kind": "person",
+          "person_id": "c6e_8f3_014",
+          "status": "contextual_provisional",
+          "resolution_note": "依本固定完整敘事單元與現有來源身份核對；未補姓名/關係。"
+        }
+      ],
+      "source_position": {
+        "first_line": 427,
+        "last_line": 427,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-14",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p015",
+      "text": "魏略列傳以徐福嚴幹李義張既游楚梁習趙儼裴潛韓宣黃朗十人共卷其既習儼潛四人自有傳徐福事在諸葛亮傳游楚事在張既傳餘幹等四人載之於後",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏略",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-weilue-sgz028-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0005",
+          "start": 5,
+          "end": 7,
+          "surface": "徐福",
+          "kind": "person",
+          "person_id": "iy5_kbn_8lt",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0007",
+          "start": 7,
+          "end": 9,
+          "surface": "嚴幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0009",
+          "start": 9,
+          "end": 11,
+          "surface": "李義",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0011",
+          "start": 11,
+          "end": 13,
+          "surface": "張既",
+          "kind": "person",
+          "person_id": "kfo_nh8_to3",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0013",
+          "start": 13,
+          "end": 15,
+          "surface": "游楚",
+          "kind": "person",
+          "person_id": "n1b_arb_w8t",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0015",
+          "start": 15,
+          "end": 17,
+          "surface": "梁習",
+          "kind": "person",
+          "person_id": "ef8_jl5_5er",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0017",
+          "start": 17,
+          "end": 19,
+          "surface": "趙儼",
+          "kind": "person",
+          "person_id": "9ce_e37_1dc",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0019",
+          "start": 19,
+          "end": 21,
+          "surface": "裴潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0021",
+          "start": 21,
+          "end": 23,
+          "surface": "韓宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0023",
+          "start": 23,
+          "end": 25,
+          "surface": "黃朗",
+          "kind": "person",
+          "person_id": "rdm_wvl_czs",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0030",
+          "start": 30,
+          "end": 31,
+          "surface": "既",
+          "kind": "person",
+          "person_id": "kfo_nh8_to3",
+          "status": "contextual_provisional",
+          "resolution_note": "回前十人名單"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0031",
+          "start": 31,
+          "end": 32,
+          "surface": "習",
+          "kind": "person",
+          "person_id": "ef8_jl5_5er",
+          "status": "contextual_provisional",
+          "resolution_note": "回前十人名單"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0032",
+          "start": 32,
+          "end": 33,
+          "surface": "儼",
+          "kind": "person",
+          "person_id": "9ce_e37_1dc",
+          "status": "contextual_provisional",
+          "resolution_note": "回前十人名單"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0033",
+          "start": 33,
+          "end": 34,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "回前十人名單"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0039",
+          "start": 39,
+          "end": 41,
+          "surface": "徐福",
+          "kind": "person",
+          "person_id": "iy5_kbn_8lt",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0043",
+          "start": 43,
+          "end": 47,
+          "surface": "諸葛亮傳",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-sanguozhi"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0047",
+          "start": 47,
+          "end": 49,
+          "surface": "游楚",
+          "kind": "person",
+          "person_id": "n1b_arb_w8t",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0051",
+          "start": 51,
+          "end": 54,
+          "surface": "張既傳",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-sanguozhi"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p015:m0055",
+          "start": 55,
+          "end": 56,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        }
+      ],
+      "source_position": {
+        "first_line": 428,
+        "last_line": 430,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-15",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p016",
+      "text": "嚴幹字公仲李義字孝懿皆馮翊東縣人也馮翊東縣舊無冠族故二人並單家其器性皆重厚當中平末同年二十餘幹好擊劒義好辨䕶喪事馮翊甲族桓田吉郭及故侍中鄭文信等頗以其各有器實共紀識之㑹三輔亂人多流宕而幹義不去與諸知故相浮沈採樵自活逮建安初關中始開詔分馮翊西數縣為左内史郡治高陵以東數縣為本郡治臨晉義於縣分當西屬義謂幹曰西縣兒曹不可與爭坐席今當共作方牀耳遂相附結皆仕東郡為右職司隸辟幹不至歲終郡舉幹孝廉義上計掾義留京師為平陵令遷冗從僕射遂歴顯職逮魏封十郡請義以為軍祭酒又為魏尚書左僕射及文帝即位拜諫議大夫執金吾衛尉卒官義子豐字宣國見夏侯玄傳幹以孝廉拜蒲阪令病去官復舉至孝為公車司馬令為州所請詔拜議郎還參州事㑹以建策捕高幹又追錄前討郭援功封武鄉侯遷弘農太守及馬超反幹郡近超民人分散超破為濮陽太守遷益州刺史以道不通黃初中轉為五官中郎將明帝時遷永安太僕數歲卒始李義以直道推誠於人故于時陳羣等與之齊好雖無他材力而終仕進不頓躓幹從破亂之後更折節學問特善春秋公羊司隸鍾繇不好公羊而好左氏謂左氏為大官而謂公羊為賣餅家故數與幹共辨析長短繇為人機捷善持論而幹訥口臨時屈無以應繇謂幹曰公羊高竟為左丘明服矣幹曰直故吏為明使君服耳公羊未肯也",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "嚴幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "公仲",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0005",
+          "start": 5,
+          "end": 7,
+          "surface": "李義",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0008",
+          "start": 8,
+          "end": 10,
+          "surface": "孝懿",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0046",
+          "start": 46,
+          "end": 47,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0050",
+          "start": 50,
+          "end": 51,
+          "surface": "義",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0060",
+          "start": 60,
+          "end": 64,
+          "surface": "桓田吉郭",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "resolution_note": "族稱集合，非四個具名個人"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0068",
+          "start": 68,
+          "end": 71,
+          "surface": "鄭文信",
+          "kind": "person",
+          "person_id": "9si_zoy_sht",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0092",
+          "start": 92,
+          "end": 93,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0093",
+          "start": 93,
+          "end": 94,
+          "surface": "義",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0140",
+          "start": 140,
+          "end": 141,
+          "surface": "義",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0147",
+          "start": 147,
+          "end": 148,
+          "surface": "義",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0149",
+          "start": 149,
+          "end": 150,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0182",
+          "start": 182,
+          "end": 183,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0189",
+          "start": 189,
+          "end": 190,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0192",
+          "start": 192,
+          "end": 193,
+          "surface": "義",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0196",
+          "start": 196,
+          "end": 197,
+          "surface": "義",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0219",
+          "start": 219,
+          "end": 220,
+          "surface": "義",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0234",
+          "start": 234,
+          "end": 236,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0250",
+          "start": 250,
+          "end": 251,
+          "surface": "義",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0252",
+          "start": 252,
+          "end": 253,
+          "surface": "豐",
+          "kind": "person",
+          "person_id": "wj9_6bo_o54",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0254",
+          "start": 254,
+          "end": 256,
+          "surface": "宣國",
+          "kind": "person",
+          "person_id": "wj9_6bo_o54",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0257",
+          "start": 257,
+          "end": 261,
+          "surface": "夏侯玄傳",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-sanguozhi"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0261",
+          "start": 261,
+          "end": 262,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0299",
+          "start": 299,
+          "end": 301,
+          "surface": "高幹",
+          "kind": "person",
+          "person_id": "e06_e9f_c30",
+          "status": "contextual_provisional",
+          "resolution_note": "依完整原段及固定平行primary辨識，見additional-persons-root-capture；原㑹/會/高髙字保留，馬超不接宋元徽同名者。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0306",
+          "start": 306,
+          "end": 308,
+          "surface": "郭援",
+          "kind": "person",
+          "person_id": "715_4e6_890",
+          "status": "contextual_provisional",
+          "resolution_note": "依完整原段及固定平行primary辨識，見additional-persons-root-capture；原㑹/會/高髙字保留，馬超不接宋元徽同名者。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0319",
+          "start": 319,
+          "end": 321,
+          "surface": "馬超",
+          "kind": "person",
+          "person_id": "50b_399_d54",
+          "status": "contextual_provisional",
+          "resolution_note": "依完整原段及固定平行primary辨識，見additional-persons-root-capture；原㑹/會/高髙字保留，馬超不接宋元徽同名者。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0322",
+          "start": 322,
+          "end": 323,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0325",
+          "start": 325,
+          "end": 326,
+          "surface": "超",
+          "kind": "person",
+          "person_id": "50b_399_d54",
+          "status": "contextual_provisional",
+          "resolution_note": "依完整原段及固定平行primary辨識，見additional-persons-root-capture；原㑹/會/高髙字保留，馬超不接宋元徽同名者。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0330",
+          "start": 330,
+          "end": 331,
+          "surface": "超",
+          "kind": "person",
+          "person_id": "50b_399_d54",
+          "status": "contextual_provisional",
+          "resolution_note": "依完整原段及固定平行primary辨識，見additional-persons-root-capture；原㑹/會/高髙字保留，馬超不接宋元徽同名者。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0356",
+          "start": 356,
+          "end": 358,
+          "surface": "明帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0368",
+          "start": 368,
+          "end": 370,
+          "surface": "李義",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0380",
+          "start": 380,
+          "end": 382,
+          "surface": "陳羣",
+          "kind": "person",
+          "person_id": "9w8_tqh_ysn_AA",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0399",
+          "start": 399,
+          "end": 400,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0412",
+          "start": 412,
+          "end": 416,
+          "surface": "春秋公羊",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-gongyang-hhs064-luzhi-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0418",
+          "start": 418,
+          "end": 420,
+          "surface": "鍾繇",
+          "kind": "person",
+          "person_id": "9hu_q3h_aug",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0422",
+          "start": 422,
+          "end": 424,
+          "surface": "公羊",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-gongyang-hhs064-luzhi-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0426",
+          "start": 426,
+          "end": 428,
+          "surface": "左氏",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-zushi-hhs064-luzhi-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0429",
+          "start": 429,
+          "end": 431,
+          "surface": "左氏",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-zushi-hhs064-luzhi-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0436",
+          "start": 436,
+          "end": 438,
+          "surface": "公羊",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-gongyang-hhs064-luzhi-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0445",
+          "start": 445,
+          "end": 446,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0451",
+          "start": 451,
+          "end": 452,
+          "surface": "繇",
+          "kind": "person",
+          "person_id": "9hu_q3h_aug",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0460",
+          "start": 460,
+          "end": 461,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0469",
+          "start": 469,
+          "end": 470,
+          "surface": "繇",
+          "kind": "person",
+          "person_id": "9hu_q3h_aug",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0471",
+          "start": 471,
+          "end": 472,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0473",
+          "start": 473,
+          "end": 476,
+          "surface": "公羊高",
+          "kind": "person",
+          "person_id": "8k9_qop_y1z",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0478",
+          "start": 478,
+          "end": 481,
+          "surface": "左丘明",
+          "kind": "person",
+          "person_id": "99j_eyj_m1z",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0483",
+          "start": 483,
+          "end": 484,
+          "surface": "幹",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0486",
+          "start": 486,
+          "end": 488,
+          "surface": "故吏",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "嚴幹自指"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0489",
+          "start": 489,
+          "end": 492,
+          "surface": "明使君",
+          "kind": "person",
+          "person_id": "9hu_q3h_aug",
+          "status": "contextual_provisional",
+          "resolution_note": "直指論辯對手鍾繇，不作任何其他司隸通名規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p016:m0494",
+          "start": 494,
+          "end": 496,
+          "surface": "公羊",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "candidate_work_ids": [
+            "w-gongyang-hhs064-luzhi-reference"
+          ],
+          "resolution_note": "公羊未肯為擬人，公羊傳/公羊高指涉未決；不作同時人物或強定作品。"
+        }
+      ],
+      "source_position": {
+        "first_line": 430,
+        "last_line": 443,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-16",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p017",
+      "text": "韓宣字景然渤海人也為人短小建安中丞相召置軍謀掾冗散在鄴嘗於鄴出入宫於東掖門内與臨菑侯植相遇時天新雨地有泥潦宣欲避之閡潦不得去乃以扇自障住於道邊植嫌宣既不去又不為禮乃駐車使其常從問宣何官宣云丞相軍謀掾也植又問曰應得唐突列侯否宣曰春秋之義王人雖微列于諸侯之上未聞宰士而為下土諸侯禮也植又曰即如所言為人父吏見其子應有禮否宣又曰於禮臣子一例也而宣年又長植知其枝柱難窮乃釋去具為太子言以為辯黃初中為尚書郎嘗以職事當受罰於殿前已縳束杖未行文帝輦過問此為誰左右對曰尚書郎渤海韓宣也帝追念前臨菑侯所說乃寤曰是子建所道韓宣邪特原之遂解其縳時天大寒宣前以當受杖豫脫袴纒褌面縛及其原褌腰不下乃趨而去帝目而送之笑曰此家有瞻諦之士也後出為清河東郡太守明帝時為尚書大鴻臚數歲卒宣前後當官在能否之間然善以已恕人始南陽韓暨以宿徳在宣前為大鴻臚暨為人賢及宣在後亦稱職故鴻臚中為之語曰大鴻臚小鴻臚前後治行曷相如",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "韓宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "景然",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0016",
+          "start": 16,
+          "end": 18,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "resolution_note": "依本完整句內時代與承接作局部人物辨識；原字不改，不作全域簡稱規則。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0039",
+          "start": 39,
+          "end": 43,
+          "surface": "臨菑侯植",
+          "kind": "person",
+          "person_id": "p6s_2qn_p8n",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0053",
+          "start": 53,
+          "end": 54,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0071",
+          "start": 71,
+          "end": 72,
+          "surface": "植",
+          "kind": "person",
+          "person_id": "p6s_2qn_p8n",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0073",
+          "start": 73,
+          "end": 74,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0089",
+          "start": 89,
+          "end": 90,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0092",
+          "start": 92,
+          "end": 93,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0100",
+          "start": 100,
+          "end": 101,
+          "surface": "植",
+          "kind": "person",
+          "person_id": "p6s_2qn_p8n",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0111",
+          "start": 111,
+          "end": 112,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0139",
+          "start": 139,
+          "end": 140,
+          "surface": "植",
+          "kind": "person",
+          "person_id": "p6s_2qn_p8n",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0157",
+          "start": 157,
+          "end": 158,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0168",
+          "start": 168,
+          "end": 169,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0172",
+          "start": 172,
+          "end": 173,
+          "surface": "植",
+          "kind": "person",
+          "person_id": "p6s_2qn_p8n",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0184",
+          "start": 184,
+          "end": 186,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "resolution_note": "曹植具告太子，後文文帝追念此事"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0213",
+          "start": 213,
+          "end": 215,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0230",
+          "start": 230,
+          "end": 232,
+          "surface": "韓宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0233",
+          "start": 233,
+          "end": 234,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "resolution_note": "文帝當前敘事"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0237",
+          "start": 237,
+          "end": 240,
+          "surface": "臨菑侯",
+          "kind": "person",
+          "person_id": "p6s_2qn_p8n",
+          "status": "contextual_provisional",
+          "resolution_note": "承前臨菑侯植"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0246",
+          "start": 246,
+          "end": 248,
+          "surface": "子建",
+          "kind": "person",
+          "person_id": "p6s_2qn_p8n",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0250",
+          "start": 250,
+          "end": 252,
+          "surface": "韓宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0264",
+          "start": 264,
+          "end": 265,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0288",
+          "start": 288,
+          "end": 289,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "tix_jqk_w1o",
+          "status": "contextual_provisional",
+          "resolution_note": "文帝當前敘事"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0312",
+          "start": 312,
+          "end": 314,
+          "surface": "明帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0324",
+          "start": 324,
+          "end": 325,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0343",
+          "start": 343,
+          "end": 345,
+          "surface": "韓暨",
+          "kind": "person",
+          "person_id": "38v_df1_sv5",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0349",
+          "start": 349,
+          "end": 350,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0355",
+          "start": 355,
+          "end": 356,
+          "surface": "暨",
+          "kind": "person",
+          "person_id": "38v_df1_sv5",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p017:m0360",
+          "start": 360,
+          "end": 361,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        }
+      ],
+      "source_position": {
+        "first_line": 443,
+        "last_line": 453,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-17",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p018",
+      "text": "案本志宣名都不見惟魏略有此傳而世語列於名臣之流",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p018:m0003",
+          "start": 3,
+          "end": 4,
+          "surface": "宣",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p018:m0009",
+          "start": 9,
+          "end": 11,
+          "surface": "魏略",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-weilue-sgz028-reference"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p018:m0015",
+          "start": 15,
+          "end": 17,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "work_id": "w-shiyu-sgz027-reference"
+        }
+      ],
+      "source_position": {
+        "first_line": 453,
+        "last_line": 454,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-18",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p019",
+      "text": "黃朗字文達沛郡人也為人弘通有性實父為本縣卒朗感其如此抗志游學由是為方國及其郡士大夫所禮異特與東平右姓王惠陽為碩交惠陽親拜朗母於牀下朗始仕黃初中為長吏遷長安令㑹喪母不赴復為魏令遷襄城典農中郎將涿郡太守以明帝時疾病卒始朗為君長自以父故常忌不呼鈴下伍伯而呼其姓字至於忿怒亦終不言朗既仕至二千石而惠陽亦歴長安令酒泉太守故時人謂惠陽外似麤疏而内堅密能不顧朗之本末事朗母如已母為通度也",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "黃朗",
+          "kind": "person",
+          "person_id": "rdm_wvl_czs",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "文達",
+          "kind": "person",
+          "person_id": "rdm_wvl_czs",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0016",
+          "start": 16,
+          "end": 21,
+          "surface": "父為本縣卒",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "resolution_note": "黃朗未名父；不補姓名"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0021",
+          "start": 21,
+          "end": 22,
+          "surface": "朗",
+          "kind": "person",
+          "person_id": "rdm_wvl_czs",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0050",
+          "start": 50,
+          "end": 53,
+          "surface": "王惠陽",
+          "kind": "person",
+          "person_id": "pa6_1p3_p2c",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0056",
+          "start": 56,
+          "end": 58,
+          "surface": "惠陽",
+          "kind": "person",
+          "person_id": "pa6_1p3_p2c",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0060",
+          "start": 60,
+          "end": 61,
+          "surface": "朗",
+          "kind": "person",
+          "person_id": "rdm_wvl_czs",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0065",
+          "start": 65,
+          "end": 66,
+          "surface": "朗",
+          "kind": "person",
+          "person_id": "rdm_wvl_czs",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0100",
+          "start": 100,
+          "end": 102,
+          "surface": "明帝",
+          "kind": "person",
+          "person_id": "932_46f_026",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0107",
+          "start": 107,
+          "end": 108,
+          "surface": "朗",
+          "kind": "person",
+          "person_id": "rdm_wvl_czs",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0136",
+          "start": 136,
+          "end": 137,
+          "surface": "朗",
+          "kind": "person",
+          "person_id": "rdm_wvl_czs",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0144",
+          "start": 144,
+          "end": 146,
+          "surface": "惠陽",
+          "kind": "person",
+          "person_id": "pa6_1p3_p2c",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0159",
+          "start": 159,
+          "end": 161,
+          "surface": "惠陽",
+          "kind": "person",
+          "person_id": "pa6_1p3_p2c",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0172",
+          "start": 172,
+          "end": 173,
+          "surface": "朗",
+          "kind": "person",
+          "person_id": "rdm_wvl_czs",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p019:m0177",
+          "start": 177,
+          "end": 178,
+          "surface": "朗",
+          "kind": "person",
+          "person_id": "rdm_wvl_czs",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        }
+      ],
+      "source_position": {
+        "first_line": 454,
+        "last_line": 459,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-19",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p020",
+      "text": "魚豢曰世稱君子之徳其猶龍乎蓋以其善變也昔長安市儈有劉仲始者一為市吏所辱乃感激蹋其尺折之遂行學問經明行修流名海内後以有道徴不肯就衆人歸其高余以為前世偶有此耳而今徐嚴復參之若皆非似龍之志也其何能至於此哉李推至道張工度主韓見識異黃能抜萃各著根於石上而垂隂乎千里亦未為易也游翁慷慨展布腹心全軀保郡見延帝王又放陸生優游宴戲亦一賢也梁趙及裴雖張楊不足至於檢已老而益明亦難能也",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魚豢",
+          "kind": "person",
+          "person_id": "h7h_hrt_880",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0025",
+          "start": 25,
+          "end": 28,
+          "surface": "劉仲始",
+          "kind": "person",
+          "person_id": "cky_knj_wof",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0068",
+          "start": 68,
+          "end": 69,
+          "surface": "余",
+          "kind": "person",
+          "person_id": "h7h_hrt_880",
+          "status": "contextual_provisional",
+          "resolution_note": "魚豢曰內作者自指"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0079",
+          "start": 79,
+          "end": 80,
+          "surface": "徐",
+          "kind": "person",
+          "person_id": "iy5_kbn_8lt",
+          "status": "contextual_provisional",
+          "resolution_note": "魚豢論回徐福"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0080",
+          "start": 80,
+          "end": 81,
+          "surface": "嚴",
+          "kind": "person",
+          "person_id": "h6y_1yv_a99",
+          "status": "contextual_provisional",
+          "resolution_note": "魚豢論回嚴幹"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0099",
+          "start": 99,
+          "end": 100,
+          "surface": "李",
+          "kind": "person",
+          "person_id": "5fz_7u8_d00",
+          "status": "contextual_provisional",
+          "resolution_note": "評李義"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0103",
+          "start": 103,
+          "end": 104,
+          "surface": "張",
+          "kind": "person",
+          "person_id": "kfo_nh8_to3",
+          "status": "contextual_provisional",
+          "resolution_note": "評張既"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0107",
+          "start": 107,
+          "end": 108,
+          "surface": "韓",
+          "kind": "person",
+          "person_id": "w16_6fw_jhh",
+          "status": "contextual_provisional",
+          "resolution_note": "評韓宣"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0111",
+          "start": 111,
+          "end": 112,
+          "surface": "黃",
+          "kind": "person",
+          "person_id": "rdm_wvl_czs",
+          "status": "contextual_provisional",
+          "resolution_note": "評黃朗"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0132",
+          "start": 132,
+          "end": 134,
+          "surface": "游翁",
+          "kind": "person",
+          "person_id": "n1b_arb_w8t",
+          "status": "contextual_provisional",
+          "resolution_note": "評游楚"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0150",
+          "start": 150,
+          "end": 152,
+          "surface": "陸生",
+          "kind": "person",
+          "person_id": "fpv_2sb_uay",
+          "status": "contextual_provisional",
+          "resolution_note": "魚豢論引古比擬游楚；史記097 p013/014陸賈安車歌舞酒食游居/與絳侯戲具體相合，首選陸賈，非本源明全名，不建同時交友或全域別名規則。"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0160",
+          "start": 160,
+          "end": 161,
+          "surface": "梁",
+          "kind": "person",
+          "person_id": "ef8_jl5_5er",
+          "status": "contextual_provisional",
+          "resolution_note": "評梁習"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0161",
+          "start": 161,
+          "end": 162,
+          "surface": "趙",
+          "kind": "person",
+          "person_id": "9ce_e37_1dc",
+          "status": "contextual_provisional",
+          "resolution_note": "評趙儼"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p020:m0163",
+          "start": 163,
+          "end": 164,
+          "surface": "裴",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "評裴潛"
+        }
+      ],
+      "source_position": {
+        "first_line": 459,
+        "last_line": 463,
+        "source_layer": "pei_annotation",
+        "unit_key": "peiqian-unit-20",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-023-peiqian:p021",
+      "text": "評曰和洽清和幹理常林素業純固楊俊人倫行義杜襲溫粹識統趙儼剛毅有度裴潛平恒貞幹皆一世之美士也至林能不繫心於三司以大夫告老美矣哉",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-023-peiqian:p021:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "和洽",
+          "kind": "person",
+          "person_id": "x6x_j37_rl0",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p021:m0008",
+          "start": 8,
+          "end": 10,
+          "surface": "常林",
+          "kind": "person",
+          "person_id": "ft5_u2z_mj2",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p021:m0014",
+          "start": 14,
+          "end": 16,
+          "surface": "楊俊",
+          "kind": "person",
+          "person_id": "05q_rr2_8ki",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p021:m0020",
+          "start": 20,
+          "end": 22,
+          "surface": "杜襲",
+          "kind": "person",
+          "person_id": "083_807_8c2",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p021:m0026",
+          "start": 26,
+          "end": 28,
+          "surface": "趙儼",
+          "kind": "person",
+          "person_id": "9ce_e37_1dc",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p021:m0032",
+          "start": 32,
+          "end": 34,
+          "surface": "裴潛",
+          "kind": "person",
+          "person_id": "c46_ile_6k8",
+          "status": "contextual_provisional",
+          "resolution_note": "逐單元上下文首讀，不作跨全庫字串規則"
+        },
+        {
+          "id": "c-sanguozhi-023-peiqian:p021:m0046",
+          "start": 46,
+          "end": 47,
+          "surface": "林",
+          "kind": "person",
+          "person_id": "ft5_u2z_mj2",
+          "status": "contextual_provisional",
+          "resolution_note": "同一陳壽評承前常林"
+        }
+      ],
+      "source_position": {
+        "first_line": 464,
+        "last_line": 467,
+        "source_layer": "received_body",
+        "unit_key": "peiqian-unit-21",
+        "raw_projection_ref": "source-evidence/sgz023-peiqian/complete-unit-projection.json"
+      }
+    }
+  ],
+  "text_sha256": "ea330e4e1da272b6d56fea804650c33e9ea8c19fd90dd1f982e8c134f9b60b0b"
+}

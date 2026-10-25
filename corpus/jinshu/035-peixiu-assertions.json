@@ -1,0 +1,367 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-035-peixiu",
+  "assertions": [
+    {
+      "id": "a-jin035-peixiu-kin-003",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "subject_person_mention_id": "c-jinshu-035-peixiu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-035-peixiu:p001:m0015"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "祖詞在本傳父系敘法；不變成父，不直接造潛父茂source句。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "kin-003"
+      },
+      "subject_person_id": "057_a27_29b",
+      "object_person_id": "4ni_4t1_4o9",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖茂",
+        "lineage": "paternal",
+        "generation_difference": -2
+      }
+    },
+    {
+      "id": "a-jin035-peixiu-kin-005",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "subject_person_mention_id": "c-jinshu-035-peixiu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-035-peixiu:p001:m0023"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "完整固定來源所述；未知年月/計歲/任終不推補。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "kin-005"
+      },
+      "subject_person_id": "057_a27_29b",
+      "object_person_id": "c46_ile_6k8",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父潛",
+        "lineage": "paternal"
+      }
+    },
+    {
+      "id": "a-jin035-peixiu-kin-008",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "subject_person_mention_id": "c-jinshu-035-peixiu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-035-peixiu:p001:m0047"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "徽與潛之兄弟可作有據組裝，不把此句改成潛與徽直說同父。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "kin-008"
+      },
+      "subject_person_id": "057_a27_29b",
+      "object_person_id": "nx3_l5c_jlj",
+      "predicate": "paternal_uncle",
+      "qualifiers": {
+        "source_term": "叔父徽",
+        "lineage": "paternal",
+        "generation_difference": -1,
+        "relative_paternal_order": "younger_than_father",
+        "father_person_id": null
+      }
+    },
+    {
+      "id": "a-jin035-peixiu-kin-010",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "subject_person_mention_id": "c-jinshu-035-peixiu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-035-peixiu:p001:m0074"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "母稱與嫡母不同人；賤是來源身份敘述，不斷生物母或法律配偶。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "kin-010"
+      },
+      "subject_person_id": "057_a27_29b",
+      "object_person_id": "t4o_p7v_bel",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "秀母賤",
+        "maternal_interpretation": {
+          "status": "contextual_preferred",
+          "basis": "same_complete_paragraph_mother_and_principal_mother_contrast",
+          "source_explicit_birth": false,
+          "qualification": "秀母賤與嫡母宣氏對舉，兩次秀母/兩次宣氏分人，首選前者為生母；非母字本身明生，不建婚姻。",
+          "supporting_source_references": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-ws2506399-peixiu",
+              "chapter_id": "c-jinshu-035-peixiu",
+              "paragraph_id": "c-jinshu-035-peixiu:p001",
+              "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+              "role_mentions": {
+                "xiu0": "c-jinshu-035-peixiu:p001:m0000",
+                "mother0": "c-jinshu-035-peixiu:p001:m0074",
+                "mother1": "c-jinshu-035-peixiu:p001:m0100",
+                "xuan0": "c-jinshu-035-peixiu:p001:m0078",
+                "xuan1": "c-jinshu-035-peixiu:p001:m0119"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "a-jin035-peixiu-kin-011",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "subject_person_mention_id": "c-jinshu-035-peixiu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-035-peixiu:p001:m0078"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "不能套stepmother或把嫡母變生母；目前未見明列principal_mother enum。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "kin-011"
+      },
+      "subject_person_id": "057_a27_29b",
+      "object_person_id": "3mc_b28_ddf",
+      "predicate": "maternal_role",
+      "qualifiers": {
+        "source_term": "嫡母宣氏",
+        "role": "principal_mother",
+        "biological_mother": null,
+        "father_person_id": null
+      }
+    },
+    {
+      "id": "a-jin035-peixiu-kin-074-jun",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "person_mention_id": "c-jinshu-035-peixiu:p001:m0000"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p013",
+          "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+          "subject_person_mention_id": "c-jinshu-035-peixiu:p013:m0022"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "若頠父秀他源已有，仍本源獨立證據，不造duplicate person。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "kin-074-jun"
+      },
+      "subject_person_id": "2ft_ap7_e1v",
+      "object_person_id": "057_a27_29b",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "浚、頠",
+        "lineage": "paternal"
+      },
+      "context": {
+        "kind": "fixed_complete_witness_role_evidence",
+        "paragraph_ids": [
+          "c-jinshu-035-peixiu:p001",
+          "c-jinshu-035-peixiu:p013"
+        ],
+        "rationale": "同一完整13段本傳，p001傳主秀與p013有二子承接；不是相鄰段，也不補未名連接人。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "a-jin035-peixiu-kin-074-wei",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "person_mention_id": "c-jinshu-035-peixiu:p001:m0000"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p013",
+          "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+          "subject_person_mention_id": "c-jinshu-035-peixiu:p013:m0024"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "若頠父秀他源已有，仍本源獨立證據，不造duplicate person。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "kin-074-wei"
+      },
+      "subject_person_id": "svm_6fh_34r",
+      "object_person_id": "057_a27_29b",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "浚、頠",
+        "lineage": "paternal"
+      },
+      "context": {
+        "kind": "fixed_complete_witness_role_evidence",
+        "paragraph_ids": [
+          "c-jinshu-035-peixiu:p001",
+          "c-jinshu-035-peixiu:p013"
+        ],
+        "rationale": "同一完整13段本傳，p001傳主秀與p013有二子承接；不是相鄰段，也不補未名連接人。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "a-jin035-peixiu-kin-078",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p013",
+          "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+          "subject_person_mention_id": "c-jinshu-035-peixiu:p013:m0042",
+          "object_person_mention_id": "c-jinshu-035-peixiu:p013:m0022"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "不得省庶子原詞或造具名生母/婚姻；父浚不變頠。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "kin-078"
+      },
+      "subject_person_id": "7mo_1o6_neo",
+      "object_person_id": "2ft_ap7_e1v",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "浚庶子憬",
+        "lineage": "paternal",
+        "birth_status_source": "庶子"
+      }
+    },
+    {
+      "id": "a-jin035-peixiu-kin-081",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peixiu",
+          "chapter_id": "c-jinshu-035-peixiu",
+          "paragraph_id": "c-jinshu-035-peixiu:p013",
+          "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+          "subject_person_mention_id": "c-jinshu-035-peixiu:p013:m0024",
+          "object_person_mention_id": "c-jinshu-035-peixiu:p013:m0022"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "少弟只相對長幼；不從二子名單另標頠2。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peixiu-finite",
+        "slot": "kin-081"
+      },
+      "subject_person_id": "svm_6fh_34r",
+      "object_person_id": "2ft_ap7_e1v",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "浚少弟頠",
+        "lineage": "paternal",
+        "relative_birth_order": {
+          "scope": "siblings",
+          "operator": "lt",
+          "older_person_id": "2ft_ap7_e1v",
+          "younger_person_id": "svm_6fh_34r"
+        },
+        "absolute_ordinal": null
+      }
+    }
+  ]
+}

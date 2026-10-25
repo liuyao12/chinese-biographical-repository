@@ -72,6 +72,64 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-jin035-peiwei-zhanghua-office",
+      "person_id": "1dq_vh2_eru",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-ws2506399-peiwei",
+          "chapter_id": "c-jinshu-035-peiwei",
+          "paragraph_id": "c-jinshu-035-peiwei:p005",
+          "quote": "頠深慮賈后亂政，與司空張華、侍中賈模議廢之而立謝淑妃。華、模皆曰：「帝自無廢黜之意，若吾等專行之，上心不以為是。且諸王方剛，朋黨異議，恐禍如發機，身死國危，無益社稷。」頠曰：「誠如公慮。但昏虐之人，無所忌憚，亂可立待，將如之何？」華曰：「卿二人猶且見信，然勤為左右陳禍福之戒，冀無大悖。幸天下尚安，庶可優遊卒歲。」此謀遂寢。頠旦夕勸說從母廣城君，令戒喻賈后親待太子而已。或說頠曰：「幸與中宮內外可得盡言。言若不行，則可辭病摒退。若二者不立，雖有十表，難乎免矣。」頠慨然久之，而竟不能行。",
+          "person_mention_id": "c-jinshu-035-peiwei:p005:m0011"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "明文任官或用稱，未明任年與終年不補；一般辭讓不作已離任。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "zhanghua-office"
+      },
+      "title": "司空",
+      "kind": "office",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin035-peiwei-finite",
+        "slot": "zhanghua-office"
+      },
+      "attestations": [
+        {
+          "id": "th-jin035-peiwei-zhanghua-office:a001",
+          "paragraph_id": "c-jinshu-035-peiwei:p005",
+          "start": 9,
+          "end": 11,
+          "surface": "司空",
+          "person_mention_id": "c-jinshu-035-peiwei:p005:m0011",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-jin040-jiachong-family-holding_166",
       "person_id": "1dq_vh2_eru",
       "status": "source_attested",
@@ -382,6 +440,79 @@
       "book_id": "b-jinshu-035",
       "chapter_id": "c-jinshu-035-peikai-family",
       "source_id": "s-jinshu-035-peikai-ws2506399",
+      "work_title": "晉書"
+    },
+    {
+      "number": 35,
+      "category": "",
+      "title": "裴頠傳",
+      "paragraph_id": "c-jinshu-035-peiwei:p005",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "頠深慮賈后亂政，與司空張華、侍中賈模議廢之而立謝淑妃。華、模皆曰：「帝自無廢黜之意，若吾等專行之，上心不以為是。且諸王方剛，朋黨異議，恐禍如發機，身死國危，無益社稷。」頠曰：「誠如公慮。但昏虐之人，無所忌憚，亂可立待，將如之何",
+      "paragraph_ids": [
+        "c-jinshu-035-peiwei:p005",
+        "c-jinshu-035-peiwei:p007",
+        "c-jinshu-035-peiwei:p015"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peiwei:p005:m0011",
+        "c-jinshu-035-peiwei:p005:m0027",
+        "c-jinshu-035-peiwei:p005:m0115",
+        "c-jinshu-035-peiwei:p007:m0103",
+        "c-jinshu-035-peiwei:p015:m0022"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peiwei:p005:m0011": "c-jinshu-035-peiwei:p005",
+        "c-jinshu-035-peiwei:p005:m0027": "c-jinshu-035-peiwei:p005",
+        "c-jinshu-035-peiwei:p005:m0115": "c-jinshu-035-peiwei:p005",
+        "c-jinshu-035-peiwei:p007:m0103": "c-jinshu-035-peiwei:p007",
+        "c-jinshu-035-peiwei:p015:m0022": "c-jinshu-035-peiwei:p015"
+      },
+      "mention_id": "c-jinshu-035-peiwei:p005:m0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p005:m0011",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p005:m0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p005:m0027",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p005:m0027"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p005:m0115",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p005:m0115"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p007:m0103",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p007:m0103"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peiwei:p015:m0022",
+          "mention_ids": [
+            "c-jinshu-035-peiwei:p015:m0022"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peiwei",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
       "work_title": "晉書"
     },
     {
@@ -822,6 +953,35 @@
           "character_conversion": {},
           "extraction_note": "展開連結顯示字、去粗體排版；標題另層。㲄、俊郎、雲及缺閉引號原樣保留。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peiwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-ws2506399-peiwei",
+      "source": {
+        "title": "《晉書》卷三十五子頠完整附傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-24",
+        "extent": "子頠附傳完整十五自然段，含晉書收到崇有之論全部引文容器及二子敘述；非裴秀全傳/卷035全卷或獨立原著全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅排quote模板/顯示wiki標記/段間空白；保每碼點責任。無pipe易鏈接保易原字；內引層非獨立原著見證。"
+        },
+        "raw_path": "sources/witnesses/jin035-ws2506399.wikitext",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
       }
     },
     {
