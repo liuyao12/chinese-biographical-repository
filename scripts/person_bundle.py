@@ -300,6 +300,10 @@ def load_catalog(root=ROOT):
     except ImportError:from fixed_compiler_chronology import errors as chronology_errors
     placement_errors=chronology_errors(root,records)
     if placement_errors:raise ValueError(';'.join(placement_errors))
+    try:from scripts.received_life_year_scopes import errors as received_life_scope_errors
+    except ImportError:from received_life_year_scopes import errors as received_life_scope_errors
+    received_life_issues=received_life_scope_errors(root,records)
+    if received_life_issues:raise ValueError(';'.join(received_life_issues))
     # Independently qualified source-parentage interpretations are not assertions.
     if (root/'corpus/nanqishu/043-xieyue-relationship-interpretations.json').exists() or any(r.get('record_type') == 'person_relationship_interpretation_set' for r in records):
         try:from scripts.received_parentage_interpretations import errors as parentage_errors
@@ -448,6 +452,12 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     preferred_name_components = validated_readings(records,
         [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
         chapters, ids)
+    for received_life_event in life_events:
+        received_life_date=received_life_event.get('normalized_date')
+        if isinstance(received_life_date,dict) and isinstance(received_life_date.get('event_evidence_binding'),dict) and received_life_date['event_evidence_binding'].get('kind')=='fixed_received_retained_topic_ordinal_death':
+            try:from scripts.received_life_year_scopes import valid as received_life_scope_valid
+            except ImportError:from received_life_year_scopes import valid as received_life_scope_valid
+            if not received_life_scope_valid(received_life_date,received_life_event,chapters,root=root):raise ValueError('固定本傳死亡序年與主體綁定無效')
     date_decisions = [d for r in records if r.get('record_type') == 'life_event_date_decision_set'
                       for d in r['decisions'] if set(d['person_ids']).issubset(ids)]
     try:

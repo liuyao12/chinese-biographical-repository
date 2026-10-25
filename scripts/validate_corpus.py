@@ -2379,6 +2379,11 @@ def validate(root=ROOT):
                         check(carried or any(m.get('person_id') == address['person_id'] for m in hit[1]['mentions']), '地址人物未見於證據段')
                         check(chapters[hit[0]]['source_id'] == evidence['source_id'], '地址來源 ID 不符')
         life_event_ids = set()
+        try:
+            from scripts.received_life_year_scopes import native_errors as received_life_scope_errors
+        except ImportError:
+            from received_life_year_scopes import native_errors as received_life_scope_errors
+        errors.extend(received_life_scope_errors(root, chapters))
         for path in list((root / 'corpus').glob('*/*-life-events.json')) + list((root / 'corpus').glob('*/*-person-events.json')):
             record = json.loads(path.read_text(encoding='utf-8'))
             if record.get('record_type') == 'table_person_life_event_assertion_set':
@@ -2680,6 +2685,26 @@ def validate(root=ROOT):
             from surname_from_father import validate as validate_inferred_surname
         all_name_records = [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']]
         for n in all_name_records:
+            if isinstance(n,dict) and ('zi' in n or 'zi_basis' in n):
+                try:
+                    from scripts.person_bundle import validate_courtesy_name
+                except ImportError:
+                    from person_bundle import validate_courtesy_name
+                try:
+                    validate_courtesy_name(n)
+                except ValueError as exc:
+                    errors.append('字姓名組件無效：' + str(exc))
+            if isinstance(n,dict) and ('xiaozhi' in n or 'xiaozhi_basis' in n):
+                try:
+                    from scripts.name_childhood import validate_childhood_name
+                except ImportError:
+                    from name_childhood import validate_childhood_name
+                childhood_chapter = chapters.get(n.get('chapter_id'), {})
+                childhood_paragraph = next((p for p in childhood_chapter.get('paragraphs', []) if p.get('id') == n.get('paragraph_id')), None)
+                try:
+                    validate_childhood_name(n, childhood_paragraph)
+                except ValueError as exc:
+                    errors.append('小字姓名組件無效：' + str(exc))
             if 'fixed_biography_name_binding' in n:
                 try:from scripts.fixed_biography_names import component_valid as fixed_biography_component_valid
                 except ImportError:from fixed_biography_names import component_valid as fixed_biography_component_valid
