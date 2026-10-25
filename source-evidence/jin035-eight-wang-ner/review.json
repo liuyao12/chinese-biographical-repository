@@ -22,12 +22,12 @@
     "end": 63,
     "surface": "王玄",
     "kind": "person",
-    "person_id": "duy_kcy_44o",
+    "person_id": "ehx_cqg_nfx_BAA",
     "status": "contextual_provisional"
   },
   "classification": {
     "id": "rc-jin035-eight-wang-ending-yun",
-    "person_id": "duy_kcy_44o",
+    "person_id": "ehx_cqg_nfx_BAA",
     "classification": "source_person_span_and_comparison_group",
     "status": "editorial_provisional",
     "person_mention_ids": [
@@ -41,12 +41,12 @@
     "source_quote": "初，裴、王二族盛于魏晉之世，時人以為八裴方八王：徽比王祥，楷比王衍，康比王綏，綽比王澄，瓚比王敦，遐比王導，頠比王戎，邈比王玄雲。",
     "source_id": "s-jinshu-035-peikai-ws2506399",
     "paragraph_id": "c-jinshu-035-peikai-family:p019",
-    "interpretation_note": "完整八對X比Y的句法支持末對人名王玄及結語雲；不改原字。八王為八名王氏人物，非爵稱。兩個跨篇同指各保未決，不加親屬。",
+    "interpretation_note": "完整八對句法支持人名王玄與結語雲，原字不改；八王是八名王氏評比，非爵稱。王玄及王澄各依有資格跨篇證據首選接合，不加親屬。",
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false
   },
-  "cross_chapter_same_person_decided": false,
-  "new_person_id": "duy_kcy_44o",
+  "cross_chapter_same_person_decided": true,
+  "new_person_id": "ehx_cqg_nfx_BAA",
   "compatibility_alias_created": false,
   "kinship_added": false,
   "historical_annotation_captures": [
@@ -134,5 +134,7 @@
       "scope": "only the old m0061 span is a fixed reading snapshot, not current annotation",
       "superseded_by": "d-jin035-wangxuan-source-span"
     }
-  ]
+  ],
+  "identity_decision_id": "d-jin035-wangxuan-crossidentity",
+  "new_person_id_qualification": "此鍵沿舊schema保留；今為合併後canonical，不新建第二人。"
 }

@@ -1,0 +1,340 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-043-wangyan",
+  "assertions": [
+    {
+      "id": "a-jin043-wangyan-yan-father-yi",
+      "predicate": "father",
+      "subject_person_id": "ehx_cqg_nfx_BA",
+      "object_person_id": "ehx_cqg_nfx_B",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父乂",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p001",
+          "quote": "衍字夷甫，神情明秀，風姿詳雅。總角嘗造山濤，濤嗟歎良久，既去，目而送之曰：「何物老嫗，生甯馨兒！然誤天下蒼生者，未必非此人也。」父乂，為平北將軍，常有公事，使行人列上，不時報。衍年十四，時在京師，造僕射羊祜，申陳事狀，辭甚清辯。祜名德貴重，而衍幼年無屈下之色，眾咸異之。楊駿欲以女妻焉，衍恥之，遂陽狂自免。武帝聞其名，問戎曰：「夷甫當世誰比？」戎曰：「未見其比，當從古人中求之。」",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p001:m0000",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p001:m0065"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "衍→乂 father，原平北將軍與024末同名/同職/同二子橋正證。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "yan-father-yi"
+      }
+    },
+    {
+      "id": "a-jin043-wangyan-cheng-younger-brother-yan",
+      "predicate": "brother",
+      "subject_person_id": "ehx_cqg_nfx_BB",
+      "object_person_id": "ehx_cqg_nfx_BA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "弟澄",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_birth_order": {
+          "older_person_id": "ehx_cqg_nfx_BA",
+          "younger_person_id": "ehx_cqg_nfx_BB",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        },
+        "relative_age": "younger"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p006",
+          "quote": "衍素輕趙王倫之為人。及倫篡位，衍陽狂斫婢以自免。及倫誅，拜河南尹，轉尚書，又為中書令。時齊王乂有匡復之功，而專權自恣，公卿皆為之拜，衍獨長揖焉。以病去官。成都王穎以衍為中軍師，累遷尚書僕射，領吏部，後拜尚書令、司空、司徒。衍雖居宰輔之重，不以經國為念，而思自全之計。說東海王越曰：「中國已亂，當賴方伯，宜得文武兼資以任之。」乃以弟澄為荊州，族弟敦為青州。因謂澄、敦曰：「荊州有江、漢之固，青州有負海之險，卿二人在外，而吾留此，足以為三窟矣。」識者鄙之。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p006:m0165",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p006:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "澄→衍 brother younger，只相對序。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "cheng-younger-brother-yan"
+      }
+    },
+    {
+      "id": "a-jin043-wangyan-dun-younger-agnatic-cousin-yan",
+      "predicate": "agnatic_cousin",
+      "subject_person_id": "39o_b6y_n74",
+      "object_person_id": "ehx_cqg_nfx_BA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "族弟敦",
+        "source_interpretation_status": "explicit_source_wording",
+        "relative_birth_order": {
+          "older_person_id": "ehx_cqg_nfx_BA",
+          "younger_person_id": "39o_b6y_n74",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins"
+        },
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p006",
+          "quote": "衍素輕趙王倫之為人。及倫篡位，衍陽狂斫婢以自免。及倫誅，拜河南尹，轉尚書，又為中書令。時齊王乂有匡復之功，而專權自恣，公卿皆為之拜，衍獨長揖焉。以病去官。成都王穎以衍為中軍師，累遷尚書僕射，領吏部，後拜尚書令、司空、司徒。衍雖居宰輔之重，不以經國為念，而思自全之計。說東海王越曰：「中國已亂，當賴方伯，宜得文武兼資以任之。」乃以弟澄為荊州，族弟敦為青州。因謂澄、敦曰：「荊州有江、漢之固，青州有負海之險，卿二人在外，而吾留此，足以為三窟矣。」識者鄙之。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p006:m0172",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p006:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "敦→衍同父系同代較幼，親等/共祖未知；不是直接弟。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "dun-younger-agnatic-cousin-yan"
+      }
+    },
+    {
+      "id": "a-jin043-wangyan-yan-guo-spouses",
+      "predicate": "spouse",
+      "subject_person_id": "ehx_cqg_nfx_BA",
+      "object_person_id": "4rl_6u1_b3j",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "衍妻郭氏",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p004",
+          "quote": "衍妻郭氏，賈后之親，藉中宮之勢，剛愎貪戾，聚斂無厭，好干預人事，衍患之而不能禁。時有鄉人幽州刺史李陽，京師大俠也，郭氏素憚也。衍謂郭曰：「非但我言卿不可，李陽亦謂不可。」郭氏為之小損。衍疾郭之貪鄙，故口未嘗言錢。郭欲試之，令婢以錢繞床，使不得行。衍晨起見錢，謂婢曰：「舉阿堵物卻！」其措意如此。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p004:m0000",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p004:m0002"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "已有026 spouse同兩人；本043新增來源而非新發現婚姻。不可由郭氏直接推每子女母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "yan-guo-spouses"
+      }
+    },
+    {
+      "id": "a-jin043-wangyan-daughter-father-yan",
+      "predicate": "father",
+      "subject_person_id": "ehx_cqg_nfx_BAC",
+      "object_person_id": "ehx_cqg_nfx_BA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女為湣懷太子妃",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p005",
+          "quote": "後曆北軍中候、中領軍、尚書令。女為湣懷太子妃，太子為賈后所誣，衍懼禍，自表離婚。賈后既廢，有司奏衍，曰：「衍與司徒梁王肜書，寫呈皇太子手與妃及衍書，陳見誣見狀。肜等伏讀，辭旨懇惻。衍備位大臣，應以議責也。太子被誣得罪，衍不能守死善道，即求離婚。得太子手書，隱蔽不出。志在苟免，無忠蹇之操。宜加顯責，以厲臣節。可禁錮終身。」從之。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p005:m0015",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p005:m0031"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "未名女→衍 father，正文女承衍；不補郭氏為母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "daughter-father-yan"
+      }
+    },
+    {
+      "id": "a-jin043-wangyan-daughter-prince-marriage",
+      "predicate": "spouse",
+      "subject_person_id": "ehx_cqg_nfx_BAC",
+      "object_person_id": "74e_68c_9ae",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女為湣懷太子妃",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p005",
+          "quote": "後曆北軍中候、中領軍、尚書令。女為湣懷太子妃，太子為賈后所誣，衍懼禍，自表離婚。賈后既廢，有司奏衍，曰：「衍與司徒梁王肜書，寫呈皇太子手與妃及衍書，陳見誣見狀。肜等伏讀，辭旨懇惻。衍備位大臣，應以議責也。太子被誣得罪，衍不能守死善道，即求離婚。得太子手書，隱蔽不出。志在苟免，無忠蹇之操。宜加顯責，以厲臣節。可禁錮終身。」從之。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p005:m0015",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p005:m0017"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "女與遹配偶；自表離婚是請求，不自動標已完成離婚。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "daughter-prince-marriage"
+      }
+    },
+    {
+      "id": "a-jin043-wangyan-youngson-father-yan",
+      "predicate": "father",
+      "subject_person_id": "ehx_cqg_nfx_BAB",
+      "object_person_id": "ehx_cqg_nfx_BA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "衍嘗喪幼子",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p003",
+          "quote": "魏正始中，何晏、王弼等祖述《老》《莊》，立論以為：「天地萬物皆以無為本。無也者，開物成務，無往不存者也。陰陽恃以化生，萬物恃以成形，賢者恃以成德，不肖恃以免身。故無之為用，無爵而貴矣。」衍甚重之。惟裴頠以為非，著論以譏之，而衍處之自若。衍既有盛才美貌，明悟若神，常自比子貢。兼聲名藉甚，傾動當世。妙善玄言，唯談《老》《莊》為事。每捉玉柄麈尾，與手同色。義理有所不安，隨即改更，世號「口中雌黃。」朝野翕然，謂之「一世龍門」矣。累居顯職，後進之士，莫不景慕放效。選舉登朝，皆以為稱首。矜高浮誕，遂成風俗焉。衍嘗喪幼子，山簡吊之。衍悲不自勝，簡曰：「孩抱中物，何至於此！」衍曰：「聖人忘情，最下不及於情。然則情之所鐘，正在我輩。」簡服其言，更為之慟。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p003:m0254",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p003:m0093"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "幼子→衍 father，未名；不能合末段成年玄。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "youngson-father-yan"
+      }
+    },
+    {
+      "id": "a-jin043-wangyan-xuan-father-yan",
+      "predicate": "father",
+      "subject_person_id": "ehx_cqg_nfx_BAA",
+      "object_person_id": "ehx_cqg_nfx_BA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子玄",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p009",
+          "quote": "衍俊秀有令望，希心玄遠，未嘗語利。王敦過江，常稱之曰：「夷甫處眾中，如珠玉在瓦石間。」顧愷之作畫贊，亦稱衍岩岩清峙，壁立千仞。其為人所尚如此。",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p009:m0000"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p010",
+          "quote": "子玄，字眉子，少慕簡曠，亦有俊才，與衛玠齊名。荀籓用為陳留太守，屯尉氏。玄素名家，有豪氣，荒弊之時，人情不附，將赴祖逖，為盜所害焉。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p010:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "玄→衍 father，章末子承主傳衍。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "xuan-father-yan"
+      },
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-jinshu-043-wangyan:p009",
+          "c-jinshu-043-wangyan:p010"
+        ]
+      }
+    },
+    {
+      "id": "a-jin043-wangyan-yangjun-daughter",
+      "predicate": "father",
+      "subject_person_id": "78g_qkv_lpp",
+      "object_person_id": "603_131_11e",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "楊駿欲以女妻焉",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p001",
+          "quote": "衍字夷甫，神情明秀，風姿詳雅。總角嘗造山濤，濤嗟歎良久，既去，目而送之曰：「何物老嫗，生甯馨兒！然誤天下蒼生者，未必非此人也。」父乂，為平北將軍，常有公事，使行人列上，不時報。衍年十四，時在京師，造僕射羊祜，申陳事狀，辭甚清辯。祜名德貴重，而衍幼年無屈下之色，眾咸異之。楊駿欲以女妻焉，衍恥之，遂陽狂自免。武帝聞其名，問戎曰：「夷甫當世誰比？」戎曰：「未見其比，當從古人中求之。」",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p001:m0139",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p001:m0135"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "未名女→楊駿 father，欲妻不作與衍已婚，不補名楊芷。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "yangjun-daughter"
+      }
+    }
+  ]
+}

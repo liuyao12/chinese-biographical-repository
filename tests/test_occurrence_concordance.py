@@ -84,7 +84,7 @@ class Concordance(unittest.TestCase):
    for m in p['mentions']:
     actual=mentions[m['id']]
     if m['id']!=mid:
-     expected_m=copy.deepcopy(m);mapping=J(R/'source-evidence/xunyou-ancestor-assembly/rekey-fidelity.json')['historical_rekey_mapping'];expected_m['person_id']=mapping.get(expected_m.get('person_id'),expected_m.get('person_id'));self.assertEqual({k:actual.get(k)for k in m},expected_m);continue
+     expected_m=copy.deepcopy(m);mapping=J(R/'source-evidence/xunyou-ancestor-assembly/rekey-fidelity.json')['historical_rekey_mapping'];expected_m['person_id']=mapping.get(expected_m.get('person_id'),expected_m.get('person_id'));family_mapping=J(R/'source-evidence/wangxiong-family-assembly/annotation-chain.json')['person_id_mapping'];expected_m['person_id']=family_mapping.get(expected_m.get('person_id'),expected_m.get('person_id'));self.assertEqual({k:actual.get(k)for k in m},expected_m);continue
     corrected+=1
     self.assertEqual(m,{'id':mid,'start':11,'end':13,'surface':'禰衡','person_id':'727_51c_19b'})
     self.assertEqual(actual,{'id':mid,'start':9,'end':14,'surface':'平原禰衡傳','kind':'work','person_id':None,'work_id':wid,'status':'source_explicit'})
@@ -105,6 +105,12 @@ class Concordance(unittest.TestCase):
     self.assertIn({'chapter_id':d['id'],'source_id':d['source_id'],'paragraph_id':p['id'],'mention_id':mid,'quote':current['text']},work['reference_attestations'])
   self.assertEqual(corrected,1)
  def test_original_source_anchors_preserved_without_freezing_registry_or_chapter_size(self):self.assert_original_source_anchors(D)
+ def test_audited_wangrong_rekey_cannot_restore_retired_endpoint(self):
+  fixture=J(R/'tests/fixtures/occurrence-concordance/original-anchors.json');mapping=J(R/'source-evidence/wangxiong-family-assembly/annotation-chain.json')['person_id_mapping'];d=copy.deepcopy(D)
+  matches=[m for p in fixture for m in p['mentions'] if m.get('person_id') in mapping]
+  self.assertTrue(matches)
+  for m in matches:getmention(d,m['id'])['person_id']=m['person_id']
+  with self.assertRaises(AssertionError):self.assert_original_source_anchors(d)
  def test_reviewed_work_correction_cannot_revert_to_person(self):
   d=copy.deepcopy(D);getmention(d,d['id']+':full:u012:m0011').update(kind='person',person_id='727_51c_19b')
   with self.assertRaises(AssertionError):self.assert_original_source_anchors(d)

@@ -2812,6 +2812,64 @@
         }
       },
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-jin043-wangyan-career_02",
+      "person_id": "dqd_5q9_pkz_BD",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "paragraph_id": "c-jinshu-043-wangyan:p001",
+          "quote": "衍字夷甫，神情明秀，風姿詳雅。總角嘗造山濤，濤嗟歎良久，既去，目而送之曰：「何物老嫗，生甯馨兒！然誤天下蒼生者，未必非此人也。」父乂，為平北將軍，常有公事，使行人列上，不時報。衍年十四，時在京師，造僕射羊祜，申陳事狀，辭甚清辯。祜名德貴重，而衍幼年無屈下之色，眾咸異之。楊駿欲以女妻焉，衍恥之，遂陽狂自免。武帝聞其名，問戎曰：「夷甫當世誰比？」戎曰：「未見其比，當從古人中求之。」",
+          "person_mention_id": "c-jinshu-043-wangyan:p001:m0101"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "羊祜用稱，非衍職；不擅展左右。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "career_02"
+      },
+      "title": "僕射",
+      "kind": "office",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "career_02"
+      },
+      "attestations": [
+        {
+          "id": "th-jin043-wangyan-career_02:a001",
+          "paragraph_id": "c-jinshu-043-wangyan:p001",
+          "start": 99,
+          "end": 101,
+          "surface": "僕射",
+          "person_mention_id": "c-jinshu-043-wangyan:p001:m0101",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -16539,7 +16597,9 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
-        }
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
       }
     },
     {
@@ -20199,7 +20259,7 @@
     },
     {
       "id": "a-jin034-yanghu-wangyan-congsheng",
-      "subject_person_id": "b0c_13f_c3a",
+      "subject_person_id": "ehx_cqg_nfx_BA",
       "predicate": "kinship_unspecified",
       "object_person_id": "dqd_5q9_pkz_BD",
       "qualifiers": {
@@ -20514,7 +20574,6 @@
   "related_people": {
     "14s_zxj_kz7": "蔡襲〔羊祜舅子〕",
     "6bs_o1d_9ti": "蔡氏〔景獻后母〕",
-    "b0c_13f_c3a": "王衍",
     "by8_vu2_dig": "羊祜女夫〔未名〕",
     "cac_ca2_008": "司馬攸",
     "dqd_5q9_pkz": "續〔羊祜祖〕",
@@ -20528,6 +20587,7 @@
     "dqd_5q9_pkz_BD": "羊祜",
     "dqd_5q9_pkz_C": "羊耽",
     "dqd_5q9_pkz_CB": "羊琇",
+    "ehx_cqg_nfx_BA": "王衍",
     "gs5_qqu_9ui": "蔡邕〔宋書碑銘引古〕",
     "lvt_rxg_vuj": "憲英",
     "qex_k3n_7mi": "夏侯氏〔羊祜妻，夏侯霸女〕",
@@ -24692,7 +24752,7 @@
     },
     {
       "id": "a-jin034-yanghu-wangyan-congsheng",
-      "subject_person_id": "b0c_13f_c3a",
+      "subject_person_id": "ehx_cqg_nfx_BA",
       "predicate": "kinship_unspecified",
       "object_person_id": "dqd_5q9_pkz_BD",
       "qualifiers": {

@@ -43,10 +43,11 @@ def nominal(title,kind,role):
  if kind=='honorific':return role in('posthumous_name','posthumous_rank')and(title=='儀同三司'or len(title)==1)
  return kind=='unclassified'and((role=='recommendation_qualification'and title in('孝廉','秀才'))or(role=='command_scope'and re.fullmatch(r'都督[^曰云非不未]+諸軍事',title))or(role=='credential_authority'and title=='假節'))
 
-def holding_valid(h,ch):
+def holding_valid(h,ch,root=None):
  try:
   if 'inherited_title_binding'in h:return inherited_holding_valid(h,ch)
   p,m,a,s,b=analyse(h,ch);assert s['state']=='holding'and nominal(h['title'],s['kind'],s['appointment_role'])
+  if 'source_pin'in RECIPES[b['frame']]:assert pinned_attestation_source_valid(h,ch,root)
   assert h['title']==a['surface']and h['kind']==s['kind']and h['mode']==s['mode']and h['appointment_role']==s['appointment_role']and h['status']=='source_attested'and h['human_reviewed']is False
   phase=s['date_expression'];ev=h['evidence'];unknown=dict(status='unknown',date_expression=None,evidence=[]);att,=h['attestations']
   assert att['paragraph_id']==p['id']and att['start']==a['start']and att['end']==a['end']and att['surface']==a['surface']and att['person_mention_id']==m['id']and att['usage']=='narrative'
@@ -235,3 +236,29 @@ def inherited_surface_valid(h,a,ch,holdings,relations,paragraphs,chapters):
   assert parent['kind']=='noble_rank'and parent['title']==h['title']and parent['mode']!='accession'and holding_valid(parent,chapters[parent['evidence'][0]['chapter_id']])and any(e['paragraph_id']==a['paragraph_id']for e in f['evidence'])
   return True
  except(KeyError,ValueError,TypeError,AssertionError,StopIteration,IndexError):return False
+
+
+def pinned_attestation_source_valid(h,ch,root):
+ """Trusted complete role recipe plus exact original Kanripo position map.
+ Only an explicitly pinned, undated noble source-use may be a heading choice.
+ """
+ try:
+  assert root is not None
+  p,m,a,slot,b=analyse(h,ch);r=RECIPES[b['frame']];pin=r['source_pin']
+  assert set(pin)=={'kind','revision_id','raw_path','raw_sha256','paragraph_id','text_layer','source_layer','first_line','last_line','raw_position_map_sha256'}
+  assert pin['kind']=='kanripo_received_position_map'and h['kind']=='noble_rank'and h['mode']=='attestation'and h['appointment_role']=='source_attested_use'
+  unknown=dict(status='unknown',date_expression=None,evidence=[]);assert h['effective_period']==dict(start=unknown,end=unknown)and slot['date_expression']is None
+  assert pin['revision_id']==ch['source']['revision_id']==ch['source']['source_commit']and pin['raw_path']==ch['source']['raw_path']and pin['raw_sha256']==ch['source']['raw_file_sha256']
+  assert pin['paragraph_id']==p['id']and pin['text_layer']==p['text_layer']=='received_chapter'and pin['source_layer']==p['source_position']['source_layer']=='received_biography'
+  assert p['source_position']['revision_id']==pin['revision_id']and p['source_position']['first_line']==pin['first_line']and p['source_position']['last_line']==pin['last_line']
+  root=Path(root).resolve();rel=Path(pin['raw_path']);assert not rel.is_absolute()and'..'not in rel.parts and rel.parts[0]in('sources','source-evidence')
+  current=root
+  for part in rel.parts:
+   current=current/part;assert not current.is_symlink()
+  assert current.resolve()==current and current.is_file();raw=current.read_bytes();assert hashlib.sha256(raw).hexdigest()==pin['raw_sha256'];lines=raw.decode('utf8').splitlines(keepends=True)
+  coords=p['source_position']['raw_character_positions'];assert len(coords)==len(p['text'])and hashlib.sha256(json.dumps(coords,sort_keys=True,separators=(',',':')).encode()).hexdigest()==pin['raw_position_map_sha256']
+  assert all(isinstance(x,dict)and set(x)=={'line','column'}and type(x['line'])is int and type(x['column'])is int and pin['first_line']<=x['line']<=pin['last_line']and x['column']>=0 for x in coords)
+  pairs=[(x['line'],x['column'])for x in coords];assert pairs==sorted(set(pairs))and pairs[0][0]==pin['first_line']and pairs[-1][0]==pin['last_line']
+  assert ''.join(lines[x['line']-1][x['column']]for x in coords)==p['text']
+  return True
+ except(KeyError,ValueError,TypeError,AssertionError,StopIteration,IndexError,AttributeError,OSError,UnicodeError):return False

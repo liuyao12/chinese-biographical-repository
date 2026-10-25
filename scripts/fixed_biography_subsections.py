@@ -5,7 +5,7 @@ Every raw code point is either visible or assigned one explicit markup/layout re
 from pathlib import Path
 import hashlib,json,re
 KIND='fixed_wikisource_biography_subsections_links'
-def project(raw,title,opening_heading=None):
+def project(raw,title,opening_heading=None,following_heading=None):
  if opening_heading is None:
   assert isinstance(title,str)and title.endswith('傳')and len(title)>1
   heading='=='+title[:-1]+'=='
@@ -13,7 +13,13 @@ def project(raw,title,opening_heading=None):
   assert isinstance(opening_heading,str)and re.fullmatch(r'===[^=\n]+===',opening_heading)
   heading=opening_heading
  assert raw.count(heading)==1
- start=raw.index(heading);following=re.search(r'^==[^=\n]+==\s*$',raw[start+len(heading):],re.M);assert following
+ start=raw.index(heading)
+ if following_heading is None:
+  following=re.search(r'^==[^=\n]+==\s*$',raw[start+len(heading):],re.M);assert following
+ else:
+  assert opening_heading is not None and re.fullmatch(r'(={2,3})[^=\n]+\1',following_heading)
+  following=re.search(r'^(={2,3})[^=\n]+\1[ \t]*$',raw[start+len(heading):],re.M);assert following
+  assert following.group(0).strip()==following_heading
  end=start+len(heading)+following.start();ps=[];classes=[]
  for m in re.finditer(r'[^\n]*\n|[^\n]+$',raw[start:end]):
   line=m[0].rstrip('\n');a=start+m.start();z=a+len(line);trim=line.strip()

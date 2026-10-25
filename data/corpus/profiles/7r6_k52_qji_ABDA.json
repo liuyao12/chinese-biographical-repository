@@ -10,7 +10,9 @@
     "世將",
     "廙",
     "王平南廙",
-    "王廣"
+    "王廣",
+    "王暠",
+    "暠"
   ],
   "titles": [
     {
@@ -1342,6 +1344,50 @@
       "work_title": "南齊書"
     },
     {
+      "number": 43,
+      "category": "",
+      "title": "郭舒傳",
+      "paragraph_id": "c-jinshu-043-guoshu:p005",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "敦留不遣。敦謀為逆，舒諫不從，使守武昌。荊州別駕宗澹忌舒才能，數譖之于王暠。暠疑舒與甘卓同謀，密以白敦，敦不受。高官督護繆坦嘗請武昌城西地為營，太守樂凱言於敦曰：「百姓久買此地，種菜自贍，不宜奪之。」敦大怒曰：「王處仲不來江湖，當有武昌地不，而人云是我地邪！」凱懼，不敢言。",
+      "paragraph_ids": [
+        "c-jinshu-043-guoshu:p005"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-guoshu:p005:m0079",
+        "c-jinshu-043-guoshu:p005:m0082"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-guoshu:p005:m0079": "c-jinshu-043-guoshu:p005",
+        "c-jinshu-043-guoshu:p005:m0082": "c-jinshu-043-guoshu:p005"
+      },
+      "mention_id": "c-jinshu-043-guoshu:p005:m0079",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-guoshu:p005:m0079",
+          "mention_ids": [
+            "c-jinshu-043-guoshu:p005:m0079"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-guoshu:p005:m0082",
+          "mention_ids": [
+            "c-jinshu-043-guoshu:p005:m0082"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_id": "s-jinshu-043-ws2618531-guoshu",
+      "work_title": "晉書"
+    },
+    {
       "number": 61,
       "category": "",
       "title": "周浚及嵩、謨、馥完整選定單元",
@@ -1674,6 +1720,35 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-043-guoshu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-guoshu",
+      "source": {
+        "title": "《晉書》卷四十三郭舒附傳完整敘事單元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-24",
+        "extent": "郭舒節全部五自然段，止樂廣主傳之前；非卷043全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "完整郭舒附傳，原宗庾廞/王暠/硃雲等原字保持；另本讀法分層，不混改正文。"
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
+      }
+    },
     {
       "chapter_id": "c-jinshu-061-zhou-family",
       "work_id": "w-jinshu",
@@ -5425,6 +5500,32 @@
       "human_reviewed": false,
       "model": null,
       "zi": "世將"
+    }
+  ],
+  "source_reading_cases": [
+    {
+      "id": "rc-jin043-guoshu-wanggao-wangyi",
+      "classification": "qualified_parallel_same_event_person",
+      "status": "editorial_provisional",
+      "person_id": "7r6_k52_qji_ABDA",
+      "person_mention_ids": [
+        "c-jinshu-043-guoshu:p005:m0079",
+        "c-jinshu-043-guoshu:p005:m0082"
+      ],
+      "received_surfaces": [
+        "王暠",
+        "暠"
+      ],
+      "preferred_person_id": "7r6_k52_qji_ABDA",
+      "countercandidate_person_ids": [
+        "949_a20_e10"
+      ],
+      "source_quote": "王敦召為參軍，轉從事中郎。襄陽都督周訪卒，敦遣舒監襄陽軍。甘卓至，乃還。朝廷征舒為右丞，敦留不遣。敦謀為逆，舒諫不從，使守武昌。荊州別駕宗澹忌舒才能，數譖之于王暠。暠疑舒與甘卓同謀，密以白敦，敦不受。高官督護繆坦嘗請武昌城西地為營，太守樂凱言於敦曰：「百姓久買此地，種菜自贍，不宜奪之。」敦大怒曰：「王處仲不來江湖，當有武昌地不，而人云是我地邪！」凱懼，不敢言。舒曰：「公聽舒一言。」敦曰：「平子以卿病狂，故掐鼻灸眉頭，舊疢復發邪！」舒曰：「古之狂也直，周昌、汲黯、硃雲不狂也。昔堯立誹謗之木，舜置敢諫之鼓，然後事無枉縱。公為勝堯、舜邪？乃逆折舒，使不得言。何與古人相遠！」敦曰：「卿欲何言？」舒曰：「繆坦可謂小人，疑誤視聽，奪人私地，以強陵弱。晏子稱：君曰其可，臣獻其否，以成其可。是以舒等不敢不言。」敦即使還地，眾咸壯之。敦重舒公亮，給賜轉豐，數詣其家。表為梁州刺史。病卒。",
+      "external_reference_file": "source-evidence/jin043-guoshu-source/external-references/jin043-wyg-rendered-unit.json",
+      "interpretation_note": "完整實讀四庫數位043郭舒單元，同一宗澹譖舒/甘卓/白敦事件作王廙；既存076王廙四段明王敦荊州任命、甘卓助戰及受任助亂。原王暠/暠字不改，以平行事件首選王廙；039舊王暠949仍候選另待比，不合其ID。",
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-043-guoshu",
+      "source_id": "s-jinshu-043-ws2618531-guoshu"
     }
   ],
   "person_ids": [

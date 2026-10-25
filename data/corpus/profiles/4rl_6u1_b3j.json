@@ -9,7 +9,8 @@
     "郭氏",
     "郭",
     "卿",
-    "女"
+    "女",
+    "新婦"
   ],
   "titles": [],
   "addresses": [],
@@ -48,6 +49,77 @@
       "chapter_id": "c-sanguozhi-026-guohuai",
       "source_id": "s-sanguozhi-026-guohuai",
       "work_title": "三國志"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "王澄傳",
+      "paragraph_id": "c-jinshu-043-wangcheng:p001",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "澄字平子。生而警悟，雖未能言，見人舉動，便識其意。衍妻郭性貪鄙，欲令婢路上擔糞。澄年十四，諫郭以為不可。郭大怒，謂澄曰：「昔夫人臨終，以小郎屬新婦，不以新婦屬小郎。」因捉其衣裾，將杖之。澄爭得脫，逾窗而走。",
+      "paragraph_ids": [
+        "c-jinshu-043-wangcheng:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-wangcheng:p001:m0027",
+        "c-jinshu-043-wangcheng:p001:m0046",
+        "c-jinshu-043-wangcheng:p001:m0052",
+        "c-jinshu-043-wangcheng:p001:m0071",
+        "c-jinshu-043-wangcheng:p001:m0076"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-wangcheng:p001:m0027": "c-jinshu-043-wangcheng:p001",
+        "c-jinshu-043-wangcheng:p001:m0046": "c-jinshu-043-wangcheng:p001",
+        "c-jinshu-043-wangcheng:p001:m0052": "c-jinshu-043-wangcheng:p001",
+        "c-jinshu-043-wangcheng:p001:m0071": "c-jinshu-043-wangcheng:p001",
+        "c-jinshu-043-wangcheng:p001:m0076": "c-jinshu-043-wangcheng:p001"
+      },
+      "mention_id": "c-jinshu-043-wangcheng:p001:m0027",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-wangcheng:p001:m0027",
+          "mention_ids": [
+            "c-jinshu-043-wangcheng:p001:m0027"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-wangcheng:p001:m0046",
+          "mention_ids": [
+            "c-jinshu-043-wangcheng:p001:m0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-wangcheng:p001:m0052",
+          "mention_ids": [
+            "c-jinshu-043-wangcheng:p001:m0052"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-wangcheng:p001:m0071",
+          "mention_ids": [
+            "c-jinshu-043-wangcheng:p001:m0071"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-wangcheng:p001:m0076",
+          "mention_ids": [
+            "c-jinshu-043-wangcheng:p001:m0076"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-wangcheng",
+      "source_id": "s-jinshu-043-ws2618531-wangcheng",
+      "work_title": "晉書"
     },
     {
       "number": 43,
@@ -142,6 +214,35 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-043-wangcheng",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-wangcheng",
+      "source": {
+        "title": "《晉書》卷四十三衍弟澄完整敘事單元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-24",
+        "extent": "衍弟澄節全部七自然段，止郭舒附傳之前；非王衍全傳或卷043全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅原生既有三級選錄投影；保杜弢為主，，、雲/云等收到字，標題另存，不入正文。"
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-043-wangyan",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
@@ -165,7 +266,9 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
-        }
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
       }
     },
     {
@@ -201,10 +304,42 @@
   ],
   "relations": [
     {
+      "id": "a-jin043-wangyan-yan-guo-spouses",
+      "predicate": "spouse",
+      "subject_person_id": "ehx_cqg_nfx_BA",
+      "object_person_id": "4rl_6u1_b3j",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "衍妻郭氏",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p004",
+          "quote": "衍妻郭氏，賈后之親，藉中宮之勢，剛愎貪戾，聚斂無厭，好干預人事，衍患之而不能禁。時有鄉人幽州刺史李陽，京師大俠也，郭氏素憚也。衍謂郭曰：「非但我言卿不可，李陽亦謂不可。」郭氏為之小損。衍疾郭之貪鄙，故口未嘗言錢。郭欲試之，令婢以錢繞床，使不得行。衍晨起見錢，謂婢曰：「舉阿堵物卻！」其措意如此。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p004:m0000",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p004:m0002"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "已有026 spouse同兩人；本043新增來源而非新發現婚姻。不可由郭氏直接推每子女母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "yan-guo-spouses"
+      }
+    },
+    {
       "id": "a-sgz026-guohuai-family-008",
       "subject_person_id": "4rl_6u1_b3j",
       "predicate": "spouse",
-      "object_person_id": "b0c_13f_c3a",
+      "object_person_id": "ehx_cqg_nfx_BA",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "適",
@@ -252,7 +387,7 @@
   ],
   "related_people": {
     "4rl_6u1_b3j": "郭氏〔王衍妻〕",
-    "b0c_13f_c3a": "王衍"
+    "ehx_cqg_nfx_BA": "王衍"
   },
   "dates": [],
   "name_components": [
@@ -289,10 +424,42 @@
   ],
   "preferred_relations": [
     {
+      "id": "a-jin043-wangyan-yan-guo-spouses",
+      "predicate": "spouse",
+      "subject_person_id": "ehx_cqg_nfx_BA",
+      "object_person_id": "4rl_6u1_b3j",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "衍妻郭氏",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p004",
+          "quote": "衍妻郭氏，賈后之親，藉中宮之勢，剛愎貪戾，聚斂無厭，好干預人事，衍患之而不能禁。時有鄉人幽州刺史李陽，京師大俠也，郭氏素憚也。衍謂郭曰：「非但我言卿不可，李陽亦謂不可。」郭氏為之小損。衍疾郭之貪鄙，故口未嘗言錢。郭欲試之，令婢以錢繞床，使不得行。衍晨起見錢，謂婢曰：「舉阿堵物卻！」其措意如此。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p004:m0000",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p004:m0002"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "已有026 spouse同兩人；本043新增來源而非新發現婚姻。不可由郭氏直接推每子女母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "yan-guo-spouses"
+      }
+    },
+    {
       "id": "a-sgz026-guohuai-family-008",
       "subject_person_id": "4rl_6u1_b3j",
       "predicate": "spouse",
-      "object_person_id": "b0c_13f_c3a",
+      "object_person_id": "ehx_cqg_nfx_BA",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "適",

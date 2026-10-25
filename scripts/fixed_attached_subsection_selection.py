@@ -11,7 +11,7 @@ def required_ref_error(ch,root):
  try:
   b=pin(root,ch.get('id'))
   if b is not None:
-   assert set(b)=={'source_revision','raw_sha256','raw_file','source_id','opening_heading','following_heading','raw_start','raw_end','projection_ref'}
+   assert set(b)==({'selection_mode'}if b.get('selection_mode')=='next_sibling_subsection'else set())|{'source_revision','raw_sha256','raw_file','source_id','opening_heading','following_heading','raw_start','raw_end','projection_ref'}
    assert ch.get('annotation',{}).get('fixed_wikisource_unit_ref')==b['projection_ref']
    f=Path(root)/b['projection_ref'];assert f.resolve()==f and f.is_file();d=json.loads(f.read_text());assert d.get('record_type')==KIND and d.get('chapter_id')==ch['id']
   return []
@@ -22,10 +22,10 @@ def errors(ch,root,b):
   except ImportError:from fixed_biography_subsections import project
   root=Path(root).resolve();p=pin(root,ch['id']);assert p is not None and not required_ref_error(ch,root)
   assert b['record_type']==KIND and b['chapter_id']==ch['id']and b['source_revision']==p['source_revision']and b['raw_sha256']==p['raw_sha256']and b['raw_file']==p['raw_file']
-  rel=Path(p['raw_file']);assert not rel.is_absolute()and '..'not in rel.parts and rel.parts[0]=='source-evidence'
+  rel=Path(p['raw_file']);assert not rel.is_absolute()and '..'not in rel.parts and rel.parts[0]in (('source-evidence','sources')if p.get('selection_mode')=='next_sibling_subsection'else ('source-evidence',))
   f=root/rel;assert f.resolve()==f and f.is_file();data=f.read_bytes();assert hashlib.sha256(data).hexdigest()==p['raw_sha256'];raw=data.decode('utf8');s=ch['source']
   assert ch['source_id']==p['source_id']and s['revision_id']==p['source_revision']and s['raw_file']==s['raw_path']==p['raw_file']and s['raw_file_sha256']==s['wikitext_sha256']==p['raw_sha256']
-  a,z,ps,excluded=project(raw,ch['title'],p['opening_heading']);assert (a,z)==(p['raw_start'],p['raw_end'])and raw[z:raw.index('\n',z)]==p['following_heading']
+  a,z,ps,excluded=project(raw,ch['title'],p['opening_heading'],p['following_heading']if p.get('selection_mode')=='next_sibling_subsection'else None);assert (a,z)==(p['raw_start'],p['raw_end'])and raw[z:raw.index('\n',z)]==p['following_heading']
   assert b['selection']==dict(start=a,end=z,opening_heading=p['opening_heading'],following_heading=p['following_heading'],raw=raw[a:z])and b['excluded']==excluded
   assert ch['annotation']['preserved_source_headings']==[dict(raw_start=x['start'],raw_end=x['end']-1,raw_text=x['text'])for x in excluded if x['kind']=='editorial_heading']
   assert len(ps)==len(ch['paragraphs'])and len({x['id']for x in ch['paragraphs']})==len(ps)

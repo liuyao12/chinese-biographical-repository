@@ -1,0 +1,40 @@
+{
+  "record_type": "editorial_rekey_fidelity_extension",
+  "historical_rekey_mapping": {
+    "35b_mo3_adg": "ehx_cqg_nfx_BAA",
+    "pw6_mer_j2p": "ehx_cqg_nfx_BAB",
+    "y5y_cch_05n": "ehx_cqg_nfx_BAC",
+    "pus_rbc_9pm": "ehx_cqg_nfx_BBA",
+    "nql_avh_d4f": "ehx_cqg_nfx_BBB"
+  },
+  "mapping_role": "audit_only_not_alias_or_current_person_endpoint",
+  "chapters": {
+    "corpus/jinshu/035-pei-family.json": {
+      "source_scalar_exact": true,
+      "all_paragraph_fields_exact_mapping_only": true,
+      "before_xml_sha256": "5332e2c08f0803c4fb7d6824324dc97e4988f2a26f1b572bb9853ea443ec90c2",
+      "after_xml_sha256": "7d2d3052cb30100758cd5a566d857cddf8325a3e3f733ed57848da084011458c"
+    },
+    "corpus/jinshu/043-wangcheng.json": {
+      "source_scalar_exact": true,
+      "all_paragraph_fields_exact_mapping_only": true,
+      "before_xml_sha256": "70da7799f8d7564e8fde0034d32a46c57691437b09060d31b5522f0277511ec5",
+      "after_xml_sha256": "d4305a91b208b558eed4f4024b7c774cb44daf3d1b9cb80e4e19651d71f038ab"
+    },
+    "corpus/jinshu/043-wangyan.json": {
+      "source_scalar_exact": true,
+      "all_paragraph_fields_exact_mapping_only": true,
+      "before_xml_sha256": "d1a3252eea1f6080b45f88395ac1d0beadfb953e80340a3fd97ef8f5f75e7854",
+      "after_xml_sha256": "910db374fd386e8253422689843948000a43e9caa499bbb8947d093096418357"
+    }
+  },
+  "source_father_assertions_added": 0,
+  "registry_physical_list": {
+    "before_rows": 8620,
+    "after_rows": 8620,
+    "before_unique": 8620,
+    "after_unique": 8620,
+    "exact": true
+  },
+  "prior_retirement_qualification_preserved": "source-evidence/wangxiong-family-assembly/prior-retirement-endpoint-qualification.json"
+}

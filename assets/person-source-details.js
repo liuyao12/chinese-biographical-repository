@@ -44,6 +44,35 @@ const officeHTML = (record, person) => {
 };
 function detailView(record, person) {
   const v = record.values || {};
+  const careerLabels = new Map([
+    ['unassumed_appointment',v.appointment_stage === 'recommendation' ? 'Appointment not assumed' : 'Non-assumption reported'],
+    ['refused_rank_offer','Rank offer declined'],
+    ['declined_collective_nomination','Collective nomination declined'],
+    ['military_authority','Military authority recorded'],
+    ['office_continuation','Office continued'],
+    ['appointment_with_omitted_office','Appointment with office unspecified'],
+    ['office_disqualification','Disqualification from office ordered']
+  ]);
+  if (careerLabels.has(record.kind)) {
+    const own = new Set([text(person.id), ...list(person.person_ids).map(text)].filter(Boolean));
+    if (!own.has(record.person_id)) return {key:'Source detail',values:''};
+    const linked = v.linked_holding_id != null || v.office_title_holding_id != null;
+    const named = linked ? '' : (text(v.office_title) || text(v.named_title));
+    let values = officeHTML(record, person) + (named ? `<p>${ui('Source office or rank')}：${h(named)}</p>` : '');
+    if (record.kind === 'appointment_with_omitted_office') {
+      values += text(v.jurisdiction_source_name) ? `<p>${ui('Source jurisdiction')}：${h(v.jurisdiction_source_name)}</p>` : '';
+      values += `<p class="note">${ui('The office name is omitted; no specific office is supplied.')}</p>`;
+    }
+    const note = new Map([
+      ['unassumed_appointment',v.outcome === 'not_assumed' ? 'The source reports non-assumption; no service tenure is inferred.' : ''],
+      ['refused_rank_offer',v.acceptance === 'declined' ? 'The source says the rank offer was declined; it is not shown as a held rank.' : ''],
+      ['declined_collective_nomination',v.outcome === 'not_assumed' ? 'The collective nomination was declined; no service tenure is inferred.' : ''],
+      ['military_authority',v.office_title_created === false ? 'Authority wording is recorded separately from an office title.' : ''],
+      ['office_continuation',v.new_appointment_created === false ? 'The existing office continued; no new appointment or end year is inferred.' : ''],
+      ['office_disqualification',v.not_reinterpreted_as_lifetime_actual_nonservice === true ? 'A lifelong disqualification order is reported; this does not establish lifelong actual non-service.' : '']
+    ]).get(record.kind);
+    return {key:careerLabels.get(record.kind),values:values+(note ? `<p class="note">${ui(note)}</p>` : '')};
+  }
   if (record.kind === 'official_duty') {
     const key = new Map([['personnel_selection','Personnel selection duty'],['general_administration_of_mobile_secretariat','Mobile secretariat duty'],['lecture_attendance','Lecture attendance duty']]).get(v.duty_code) || 'Source duty';
     return {key, values:officeHTML(record, person) + (text(v.organ_source_name) ? `<p>${ui('Source institution')}：${h(v.organ_source_name)}</p>` : '')};
@@ -53,8 +82,8 @@ function detailView(record, person) {
     return {key:'Reported service duration', values:officeHTML(record, person) + (duration ? `<p>${ui('Reported service duration: {count} years', {count:v.duration_years})}</p><p class="note">${ui('Duration does not establish a start or end year.')}</p>` : '')};
   }
   if (record.kind === 'office_departure') {
-    const key = new Map([['illness_departure','Departure due to illness'],['dismissal_after_accusation','Dismissal following an accusation'],['illness_relinquishment_report','Illness and relinquishment reported'],['disability_departure','Departure following disability'],['old_age_illness_departure_unspecified_office','Departure in old age and illness']]).get(v.departure_code) || 'Office departure report';
-    return {key,values:officeHTML(record,person) + (v.all_other_offices_ended === false ? `<p class="note">${ui('This report does not end every office or title.')}</p>` : '')};
+    const key = new Map([['illness_departure','Departure due to illness'],['illness_resignation','Departure due to illness'],['dismissal_after_accusation','Dismissal following an accusation'],['illness_relinquishment_report','Illness and relinquishment reported'],['disability_departure','Departure following disability'],['old_age_illness_departure_unspecified_office','Departure in old age and illness']]).get(v.departure_code || v.departure_kind) || 'Office departure report';
+    return {key,values:officeHTML(record,person) + ((v.all_other_offices_ended === false || v.all_office_end_dates_inferred === false) ? `<p class="note">${ui('This report does not end every office or title.')}</p>` : '')};
   }
   if (record.kind === 'unaccepted_recruitment_report') return {key:'Recruitment not accepted',values:(text(v.source_group) ? `<p>${ui('Source recruiters')}：${h(v.source_group)}</p>` : '') + (v.service_attested === false ? `<p class="note">${ui('No service is attested by this recruitment report.')}</p>` : '')};
   if (record.kind === 'official_penalty_report') return {key:'Official penalty reported',values:(text(v.source_outcome) ? `<p>${ui('Source outcome')}：${h(v.source_outcome)}</p>` : '') + (v.death_sentence_inferred === false ? `<p class="note">${ui('No death sentence is inferred from this wording.')}</p>` : '')};

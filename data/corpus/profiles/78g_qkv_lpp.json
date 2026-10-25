@@ -73,12 +73,49 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
-        }
+        },
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe"
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin043-wangyan-yangjun-daughter",
+      "predicate": "father",
+      "subject_person_id": "78g_qkv_lpp",
+      "object_person_id": "603_131_11e",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "楊駿欲以女妻焉",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p001",
+          "quote": "衍字夷甫，神情明秀，風姿詳雅。總角嘗造山濤，濤嗟歎良久，既去，目而送之曰：「何物老嫗，生甯馨兒！然誤天下蒼生者，未必非此人也。」父乂，為平北將軍，常有公事，使行人列上，不時報。衍年十四，時在京師，造僕射羊祜，申陳事狀，辭甚清辯。祜名德貴重，而衍幼年無屈下之色，眾咸異之。楊駿欲以女妻焉，衍恥之，遂陽狂自免。武帝聞其名，問戎曰：「夷甫當世誰比？」戎曰：「未見其比，當從古人中求之。」",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p001:m0139",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p001:m0135"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "未名女→楊駿 father，欲妻不作與衍已婚，不補名楊芷。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "yangjun-daughter"
+      }
+    }
+  ],
   "related_people": {
+    "603_131_11e": "楊駿",
     "78g_qkv_lpp": "楊駿女〔欲妻王衍，未名〕"
   },
   "dates": [],
@@ -86,7 +123,41 @@
   "person_ids": [
     "78g_qkv_lpp"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin043-wangyan-yangjun-daughter",
+      "predicate": "father",
+      "subject_person_id": "78g_qkv_lpp",
+      "object_person_id": "603_131_11e",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "楊駿欲以女妻焉",
+        "source_interpretation_status": "explicit_source_wording",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p001",
+          "quote": "衍字夷甫，神情明秀，風姿詳雅。總角嘗造山濤，濤嗟歎良久，既去，目而送之曰：「何物老嫗，生甯馨兒！然誤天下蒼生者，未必非此人也。」父乂，為平北將軍，常有公事，使行人列上，不時報。衍年十四，時在京師，造僕射羊祜，申陳事狀，辭甚清辯。祜名德貴重，而衍幼年無屈下之色，眾咸異之。楊駿欲以女妻焉，衍恥之，遂陽狂自免。武帝聞其名，問戎曰：「夷甫當世誰比？」戎曰：「未見其比，當從古人中求之。」",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p001:m0139",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p001:m0135"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "未名女→楊駿 father，欲妻不作與衍已婚，不補名楊芷。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin043-wangyan-finite",
+        "slot": "yangjun-daughter"
+      }
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
