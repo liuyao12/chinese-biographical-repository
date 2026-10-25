@@ -34,5 +34,38 @@
     "quote": "《魏書》曰：仁時年五十六。《傅子》曰：曹大司馬之勇，賁、育弗加也。張辽其次焉。",
     "qualification": "實讀固定數位頁同句，非下載原raw或圖像校勘；不能將另一數位本拼回本WYG正文。"
   },
-  "human_reviewed": false
+  "human_reviewed": false,
+  "decisions": [
+    {
+      "work_id": "w-weishu-wangshen",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "qualification": "本篇裴注引題魏書，依已核裴注同題作品及王沈等所撰魏書的既有首選作來源限定接合；不接魏收所撰北魏《魏書》。本章未署作者，不把此判斷稱原文明署或親見原著。",
+      "evidence": [
+        {
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p002",
+          "mention_id": "c-sanguozhi-009-caoren-caochun:p002:w0000",
+          "quote": "魏書曰仁祖襃頴川太守父熾侍中長水校尉"
+        },
+        {
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p004",
+          "mention_id": "c-sanguozhi-009-caoren-caochun:p004:w0000",
+          "quote": "魏書曰仁時年五十六傳子曰曹大司馬之勇賁育弗加也張遼其次焉"
+        },
+        {
+          "chapter_id": "c-sanguozhi-009-caoren-caochun",
+          "source_id": "s-sanguozhi-009-caoren-caochun-kr214fcafa",
+          "paragraph_id": "c-sanguozhi-009-caoren-caochun:p008",
+          "mention_id": "c-sanguozhi-009-caoren-caochun:p008:w0000",
+          "quote": "魏書曰純所督虎豹騎皆天下驍鋭或從百人将補之太祖難其帥純以選為督撫循甚得人心及卒有司白選代太祖曰純之比何可復得吾獨不中督邪遂不選"
+        }
+      ],
+      "existing_review_ref": "source-evidence/pei-weishu-author-identity/review.json"
+    }
+  ]
 }
