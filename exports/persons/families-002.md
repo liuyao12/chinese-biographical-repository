@@ -17,6 +17,56 @@
 
 [第1頁](README.md) · [第2頁](families-002.md)
 
+<details><summary><code>y97_huh_vuz</code> 秦襄公（34 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 秦襄公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz.json) |
+| `A` | 秦文公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_A.json) |
+| `AA` | 靜公（卷末世系） | [《史記・秦始皇本紀》][113] | [JSON](y97_huh_vuz_AA.json) |
+| `AAA` | 憲公（卷末世系） | [《史記・秦始皇本紀》][113] | [JSON](y97_huh_vuz_AAA.json) |
+| `AAAA` | 秦德公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAA.json) |
+| `AAAAA` | 秦穆公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAA.json) |
+| `AAAAAA` | 秦康公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAA.json) |
+| `AAAAAAA` | 秦共公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAA.json) |
+| `AAAAAAAA` | 秦桓公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAA.json) |
+| `AAAAAAAAA` | 秦景公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAA.json) |
+| `AAAAAAAAAA` | 秦哀公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAA.json) |
+| `AAAAAAAAAAA` | 秦夷公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAAA.json) |
+| `AAAAAAAAAAAA` | 秦惠公（夷公子） | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAAAA.json) |
+| `AAAAAAAAAAAAA` | 秦悼公 | [《史記・秦本紀》][112]、[《史記・秦始皇本紀》][113] | [JSON](y97_huh_vuz_AAAAAAAAAAAAA.json) |
+| `AAAAAAAAAAAAAA` | 秦厲共公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAAAAAA.json) |
+| `AAAAAAAAAAAAAAA` | 秦躁公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAAAAAAA.json) |
+| `AAAAAAAAAAAAAB` | 剌龔公（本文字形） | [《史記・秦始皇本紀》][113] | [JSON](y97_huh_vuz_AAAAAAAAAAAAAB.json) |
+| `AAAAAAAAAAAAABA` | 秦懷公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABA.json) |
+| `AAAAAAAAAAAAABAA` | 昭子（秦懷公太子） | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAA.json) |
+| `AAAAAAAAAAAAABAAA` | 秦靈公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAA.json) |
+| `AAAAAAAAAAAAABAAAA` | 秦獻公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAAA.json) |
+| `AAAAAAAAAAAAABAAAAA` | 秦孝公 | [《史記・商君列傳》][157] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAAAA.json) |
+| `AAAAAAAAAAAAABAAAAAA` | 秦惠王 | [《史記・張儀列傳》][159] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAAAAA.json) |
+| `AAAAAAAAAAAAABAAAAAAA` | 秦武王 | [《史記・樗里子甘茂列傳》][160] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAAAAAA.json) |
+| `AAAAAAAAAAAAABAAAAAAB` | 秦惠王女（燕太子婦） | [《史記・燕召公世家》][123] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAAAAAB.json) |
+| `AAAAAAAAAAAAABAB` | 秦簡公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAB.json) |
+| `AAAAAAAAAAAAABABA` | 秦惠公（簡公子） | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABABA.json) |
+| `AAAAAAAAAAAAABABAA` | 出子（秦惠公子） | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABABAA.json) |
+| `AAAAAAAAAB` | 畢公（秦卷末世系） | [《史記・秦始皇本紀》][113] | [JSON](y97_huh_vuz_AAAAAAAAAB.json) |
+| `AAAAB` | 秦宣公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAB.json) |
+| `AAAAC` | 秦成公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAAC.json) |
+| `AAAB` | 秦武公 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAB.json) |
+| `AAABA` | 白（秦武公子） | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAABA.json) |
+| `AAAC` | 出子 | [《史記・秦本紀》][112] | [JSON](y97_huh_vuz_AAAC.json) |
+
+</details>
+
+<details><summary><code>yaj_2vc_98w</code> 吳廣（趙世家娃嬴父候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 吳廣 | [《史記・趙世家》][132]、[《史記・六國年表》][261] | [JSON](yaj_2vc_98w.json) |
+| `A` | 娃嬴 | [《史記・趙世家》][132] | [JSON](yaj_2vc_98w_A.json) |
+
+</details>
+
 <details><summary><code>yay_w6f_lis</code> 渾邪（公孫賀父）（衛將軍驃騎列傳候選）（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -31,14 +81,14 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 崔悅 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][246] | [JSON](yd9_rqt_a0v.json) |
-| `A` | 潛〔玄伯父〕 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][246] | [JSON](yd9_rqt_a0v_A.json) |
-| `AA` | 崔宏 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][246] | [JSON](yd9_rqt_a0v_AA.json) |
-| `AAA` | 簡〔玄伯次子，一名覽〕 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][246] | [JSON](yd9_rqt_a0v_AAA.json) |
-| `AAB` | 崔浩 | [《魏書（魏收）・卷三十五：崔浩完整本傳、史臣論及清考證》][247] | [JSON](yd9_rqt_a0v_AAB.json) |
-| `AABA` | 崔浩女〔盧遐妻，未名〕 | [《魏書（魏收）・卷三十八：王慧龍及寶興、瓊、遵業、松年完整附敘與共評》][248] | [JSON](yd9_rqt_a0v_AABA.json) |
-| `AAC` | 崔恬 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][246] | [JSON](yd9_rqt_a0v_AAC.json) |
-| `AACA` | 崔恬女〔王慧龍妻，未名〕 | [《魏書（魏收）・卷三十八：王慧龍及寶興、瓊、遵業、松年完整附敘與共評》][248] | [JSON](yd9_rqt_a0v_AACA.json) |
+| `根` | 崔悅 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][247] | [JSON](yd9_rqt_a0v.json) |
+| `A` | 潛〔玄伯父〕 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][247] | [JSON](yd9_rqt_a0v_A.json) |
+| `AA` | 崔宏 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][247] | [JSON](yd9_rqt_a0v_AA.json) |
+| `AAA` | 簡〔玄伯次子，一名覽〕 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][247] | [JSON](yd9_rqt_a0v_AAA.json) |
+| `AAB` | 崔浩 | [《魏書（魏收）・卷三十五：崔浩完整本傳、史臣論及清考證》][248] | [JSON](yd9_rqt_a0v_AAB.json) |
+| `AABA` | 崔浩女〔盧遐妻，未名〕 | [《魏書（魏收）・卷三十八：王慧龍及寶興、瓊、遵業、松年完整附敘與共評》][249] | [JSON](yd9_rqt_a0v_AABA.json) |
+| `AAC` | 崔恬 | [《魏書（魏收）・卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘》][247] | [JSON](yd9_rqt_a0v_AAC.json) |
+| `AACA` | 崔恬女〔王慧龍妻，未名〕 | [《魏書（魏收）・卷三十八：王慧龍及寶興、瓊、遵業、松年完整附敘與共評》][249] | [JSON](yd9_rqt_a0v_AACA.json) |
 
 </details>
 
@@ -107,9 +157,9 @@
 | `BABAAAA` | 荀蕤 | [《晉書・荀崧及荀蕤、荀羨傳》][58] | [JSON](yoo_ox0_545_BABAAAA.json) |
 | `BABAAAAA` | 荀籍 | [《晉書・荀蕤附傳（四庫數位平行選段）》][57]、[《晉書・荀崧及荀蕤、荀羨傳》][58] | [JSON](yoo_ox0_545_BABAAAAA.json) |
 | `BABAAAB` | 荀羨 | [《晉書・荀崧及荀蕤、荀羨傳》][58] | [JSON](yoo_ox0_545_BABAAAB.json) |
-| `BABAAABA` | 荀猗 | [《宋書・王韶之荀伯子等列傳》][235] | [JSON](yoo_ox0_545_BABAAABA.json) |
-| `BABAAABAA` | 荀伯子 | [《宋書・王韶之荀伯子等列傳》][235] | [JSON](yoo_ox0_545_BABAAABAA.json) |
-| `BABAAABAAA` | 荀赤松 | [《宋書・王韶之荀伯子等列傳》][235] | [JSON](yoo_ox0_545_BABAAABAAA.json) |
+| `BABAAABA` | 荀猗 | [《宋書・王韶之荀伯子等列傳》][236] | [JSON](yoo_ox0_545_BABAAABA.json) |
+| `BABAAABAA` | 荀伯子 | [《宋書・王韶之荀伯子等列傳》][236] | [JSON](yoo_ox0_545_BABAAABAA.json) |
+| `BABAAABAAA` | 荀赤松 | [《宋書・王韶之荀伯子等列傳》][236] | [JSON](yoo_ox0_545_BABAAABAAA.json) |
 | `BABAAAC` | 荀灌 | [《晉書・列女傳·列傳》][71] | [JSON](yoo_ox0_545_BABAAAC.json) |
 | `BABB` | 荀霬 | [《三國志・荀彧荀攸賈詡傳》][93] | [JSON](yoo_ox0_545_BABB.json) |
 | `BABBA` | 荀愷 | [《三國志・荀彧荀攸賈詡傳》][93] | [JSON](yoo_ox0_545_BABBA.json) |
@@ -174,15 +224,15 @@
 | `ABD` | 辟光（濟南王） | [《史記・齊悼惠王世家》][141] | [JSON](yqp_nlb_p1p_ABD.json) |
 | `ABE` | 雄渠（膠東王） | [《史記・齊悼惠王世家》][141]、[《史記・吳王濞列傳》][195] | [JSON](yqp_nlb_p1p_ABE.json) |
 | `ABF` | 章（城陽景王） | [《史記・齊悼惠王世家》][141] | [JSON](yqp_nlb_p1p_ABF.json) |
-| `ABFA` | 喜（城陽共王） | [《史記・齊悼惠王世家》][141]、[《史記・漢興以來諸侯王年表》][262] | [JSON](yqp_nlb_p1p_ABFA.json) |
+| `ABFA` | 喜（城陽共王） | [《史記・齊悼惠王世家》][141]、[《史記・漢興以來諸侯王年表》][263] | [JSON](yqp_nlb_p1p_ABFA.json) |
 | `ABFAA` | 延校勘建未定 | [《史記・齊悼惠王世家》][141] | [JSON](yqp_nlb_p1p_ABFAA.json) |
 | `ABFAAA` | 義 | [《史記・齊悼惠王世家》][141] | [JSON](yqp_nlb_p1p_ABFAAA.json) |
 | `ABFAAAA` | 武城陽惠王 | [《史記・齊悼惠王世家》][141] | [JSON](yqp_nlb_p1p_ABFAAAA.json) |
 | `ABFAAAAA` | 順 | [《史記・齊悼惠王世家》][141] | [JSON](yqp_nlb_p1p_ABFAAAAA.json) |
 | `ABFAAAAAA` | 恢城陽戴王 | [《史記・齊悼惠王世家》][141] | [JSON](yqp_nlb_p1p_ABFAAAAAA.json) |
 | `ABFAAAAAAA` | 景城陽末王 | [《史記・齊悼惠王世家》][141] | [JSON](yqp_nlb_p1p_ABFAAAAAAA.json) |
-| `ABFAB` | 劉福 | [《史記・東越列傳》][203]、[《史記・建元以來侯者年表》][265]、[《史記・建元已來王子侯者年表》][266] | [JSON](yqp_nlb_p1p_ABFAB.json) |
-| `ABFAC` | 劉齒 | [《史記・建元已來王子侯者年表》][266] | [JSON](yqp_nlb_p1p_ABFAC.json) |
+| `ABFAB` | 劉福 | [《史記・東越列傳》][203]、[《史記・建元以來侯者年表》][266]、[《史記・建元已來王子侯者年表》][267] | [JSON](yqp_nlb_p1p_ABFAB.json) |
+| `ABFAC` | 劉齒 | [《史記・建元已來王子侯者年表》][267] | [JSON](yqp_nlb_p1p_ABFAC.json) |
 | `ABG` | 賢（菑川王） | [《史記・齊悼惠王世家》][141]、[《史記・吳王濞列傳》][195] | [JSON](yqp_nlb_p1p_ABG.json) |
 | `ABH` | 志（濟北王，後王菑川） | [《史記・齊悼惠王世家》][141] | [JSON](yqp_nlb_p1p_ABH.json) |
 | `ABHA` | 建菑川靖王 | [《史記・齊悼惠王世家》][141] | [JSON](yqp_nlb_p1p_ABHA.json) |
@@ -210,10 +260,10 @@
 | `ACAB` | 德 | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACAB.json) |
 | `ACABA` | 不害 | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACABA.json) |
 | `ACABAA` | 基 | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACABAA.json) |
-| `ACABAAA` | 授 | [《史記・五宗世家》][148]、[《史記・漢興以來諸侯王年表》][262] | [JSON](yqp_nlb_p1p_ACABAAA.json) |
+| `ACABAAA` | 授 | [《史記・五宗世家》][148]、[《史記・漢興以來諸侯王年表》][263] | [JSON](yqp_nlb_p1p_ACABAAA.json) |
 | `ACAC` | 閼于 | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACAC.json) |
 | `ACAD` | 發 | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACAD.json) |
-| `ACADA` | 庸 | [《史記・五宗世家》][148]、[《史記・漢興以來諸侯王年表》][262] | [JSON](yqp_nlb_p1p_ACADA.json) |
+| `ACADA` | 庸 | [《史記・五宗世家》][148]、[《史記・漢興以來諸侯王年表》][263] | [JSON](yqp_nlb_p1p_ACADA.json) |
 | `ACADAA` | 鮒鮈 | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACADAA.json) |
 | `ACAE` | 乘 | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACAE.json) |
 | `ACAF` | 趙王彭祖 | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACAF.json) |
@@ -224,7 +274,7 @@
 | `ACAGCA` | 安世 | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACAGCA.json) |
 | `ACAH` | 栗太子（本卷未名） | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACAH.json) |
 | `ACAI` | 勝（景帝子） | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACAI.json) |
-| `ACAIA` | 昌 | [《史記・五宗世家》][148]、[《史記・漢興以來諸侯王年表》][262] | [JSON](yqp_nlb_p1p_ACAIA.json) |
+| `ACAIA` | 昌 | [《史記・五宗世家》][148]、[《史記・漢興以來諸侯王年表》][263] | [JSON](yqp_nlb_p1p_ACAIA.json) |
 | `ACAIAA` | 昆侈 | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACAIAA.json) |
 | `ACAJ` | 越（景帝子） | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACAJ.json) |
 | `ACAJA` | 齊 | [《史記・五宗世家》][148] | [JSON](yqp_nlb_p1p_ACAJA.json) |
@@ -255,8 +305,8 @@
 | `AD` | 恢（高祖子） | [《史記・呂太后本紀》][116] | [JSON](yqp_nlb_p1p_AD.json) |
 | `AE` | 友（高祖子） | [《史記・呂太后本紀》][116] | [JSON](yqp_nlb_p1p_AE.json) |
 | `AEA` | 遂（趙幽王子） | [《史記・楚元王世家》][139] | [JSON](yqp_nlb_p1p_AEA.json) |
-| `AEB` | 辟彊（趙幽王子） | [《史記・孝文本紀》][117]、[《史記・楚元王世家》][139]、[《史記・漢興以來諸侯王年表》][262] | [JSON](yqp_nlb_p1p_AEB.json) |
-| `AEBA` | 福 | [《史記・楚元王世家》][139]、[《史記・漢興以來諸侯王年表》][262] | [JSON](yqp_nlb_p1p_AEBA.json) |
+| `AEB` | 辟彊（趙幽王子） | [《史記・孝文本紀》][117]、[《史記・楚元王世家》][139]、[《史記・漢興以來諸侯王年表》][263] | [JSON](yqp_nlb_p1p_AEB.json) |
+| `AEBA` | 福 | [《史記・楚元王世家》][139]、[《史記・漢興以來諸侯王年表》][263] | [JSON](yqp_nlb_p1p_AEBA.json) |
 | `AF` | 長（高祖子） | [《史記・淮南衡山列傳》][207] | [JSON](yqp_nlb_p1p_AF.json) |
 | `AFA` | 淮南王安 | [《史記・淮南衡山列傳》][207] | [JSON](yqp_nlb_p1p_AFA.json) |
 | `AFAA` | 陵（淮南王女） | [《史記・淮南衡山列傳》][207] | [JSON](yqp_nlb_p1p_AFAA.json) |
@@ -268,8 +318,8 @@
 | `AFCA` | 爽（衡山太子） | [《史記・淮南衡山列傳》][207] | [JSON](yqp_nlb_p1p_AFCA.json) |
 | `AFCB` | 孝（衡山王子） | [《史記・淮南衡山列傳》][207] | [JSON](yqp_nlb_p1p_AFCB.json) |
 | `AFCC` | 無采 | [《史記・淮南衡山列傳》][207] | [JSON](yqp_nlb_p1p_AFCC.json) |
-| `AFD` | 東城侯良 | [《史記・淮南衡山列傳》][207]、[《史記・惠景間侯者年表》][264] | [JSON](yqp_nlb_p1p_AFD.json) |
-| `AG` | 建（高祖子） | [《史記・高祖本紀》][115]、[《史記・呂太后本紀》][116]、[《史記・漢興以來諸侯王年表》][262] | [JSON](yqp_nlb_p1p_AG.json) |
+| `AFD` | 東城侯良 | [《史記・淮南衡山列傳》][207]、[《史記・惠景間侯者年表》][265] | [JSON](yqp_nlb_p1p_AFD.json) |
+| `AG` | 建（高祖子） | [《史記・高祖本紀》][115]、[《史記・呂太后本紀》][116]、[《史記・漢興以來諸侯王年表》][263] | [JSON](yqp_nlb_p1p_AG.json) |
 | `AH` | 如意（高祖子） | [《史記・呂太后本紀》][116] | [JSON](yqp_nlb_p1p_AH.json) |
 | `AI` | 魯元（本卷稱呼） | [《史記・呂太后本紀》][116] | [JSON](yqp_nlb_p1p_AI.json) |
 | `B` | 伯 | [《史記・楚元王世家》][139] | [JSON](yqp_nlb_p1p_B.json) |
@@ -314,7 +364,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 路人 | [《史記・朝鮮列傳》][204] | [JSON](z9d_qn5_wg8.json) |
-| `A` | 最 | [《史記・建元以來侯者年表》][265] | [JSON](z9d_qn5_wg8_A.json) |
+| `A` | 最 | [《史記・建元以來侯者年表》][266] | [JSON](z9d_qn5_wg8_A.json) |
 
 </details>
 
@@ -374,14 +424,17 @@
 [71]: https://zh.wikisource.org/w/index.php?title=晉書/卷096&oldid=2625341
 [93]: https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_010.txt
 [112]: https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286
+[113]: https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969
 [115]: https://zh.wikisource.org/w/index.php?title=史記/卷008&oldid=2440965
 [116]: https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062
 [117]: https://zh.wikisource.org/w/index.php?title=史記/卷010&oldid=2599229
 [118]: https://zh.wikisource.org/w/index.php?title=史記/卷011&oldid=2520527
 [119]: https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061
+[123]: https://zh.wikisource.org/w/index.php?title=史記/卷034&oldid=2559287
 [128]: https://zh.wikisource.org/w/index.php?title=史記/卷039&oldid=2588534
 [129]: https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796
 [130]: https://zh.wikisource.org/w/index.php?title=史記/卷041&oldid=2018395
+[132]: https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603
 [135]: https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838
 [138]: https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610
 [139]: https://zh.wikisource.org/w/index.php?title=史記/卷050&oldid=8737728
@@ -392,6 +445,9 @@
 [148]: https://zh.wikisource.org/w/index.php?title=史記/卷059&oldid=2621125
 [149]: https://zh.wikisource.org/w/index.php?title=史記/卷060&oldid=7909290
 [156]: https://zh.wikisource.org/w/index.php?title=史記/卷067&oldid=7869003
+[157]: https://zh.wikisource.org/w/index.php?title=史記/卷068&oldid=8764712
+[159]: https://zh.wikisource.org/w/index.php?title=史記/卷070&oldid=2621148
+[160]: https://zh.wikisource.org/w/index.php?title=史記/卷071&oldid=2621152
 [173]: https://zh.wikisource.org/w/index.php?title=史記/卷084&oldid=1568305
 [185]: https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206
 [193]: https://zh.wikisource.org/w/index.php?title=史記/卷104&oldid=8739534
@@ -402,11 +458,12 @@
 [204]: https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220
 [207]: https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122
 [210]: https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621
-[235]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B760&oldid=1996694
-[246]: https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_024.txt
-[247]: https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt
-[248]: https://github.com/kanripo/KR2a0020/blob/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_038.txt
-[262]: https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010
-[264]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
-[265]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
-[266]: https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037
+[236]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B760&oldid=1996694
+[247]: https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_024.txt
+[248]: https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt
+[249]: https://github.com/kanripo/KR2a0020/blob/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_038.txt
+[261]: https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002
+[263]: https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010
+[265]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
+[266]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
+[267]: https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037

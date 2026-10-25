@@ -1,6 +1,8 @@
 """Explicit 'X者Y小字也' only; never infer a personal alias from generic source forms."""
 def validate_childhood_name(name,paragraph=None):
     value=name.get('xiaozhi');basis=name.get('xiaozhi_basis')
+    if isinstance(basis,dict)and basis.get('kind')=='explicit_xiaozhi_apposition':
+        return validate_apposition_xiaozhi(name,paragraph)
     if isinstance(basis,dict)and basis.get('kind')=='explicit_subject_xiaozhi':
         return validate_subject_xiaozhi(name,paragraph)
     if value is None and basis is None:return
@@ -35,3 +37,33 @@ def validate_subject_xiaozhi(name,paragraph):
     s,a,k=anchors
     term=s['surface']+'又小字'+v
     if a['surface']!=v or k['surface']!='小字'or t[s['end']:k['start']]!='又'or k['end']!=a['start']or t[s['start']:a['end']]!=term or b['source_term']!=term or t[a['end']:a['end']+1]not in('', '，','。','；'):fail()
+
+
+def validate_apposition_xiaozhi(name,paragraph):
+    """X Y 小字也: exact adjacent value, named subject, marker and final 也."""
+    def fail():raise ValueError('小字同位句須值、同人主語、小字及也相接，完整原段與雙人物錨不可移換')
+    if not isinstance(name,dict) or not isinstance(paragraph,dict):fail()
+    b=name.get('xiaozhi_basis');v=name.get('xiaozhi')
+    if (not isinstance(b,dict) or set(b)!={'kind','source_term','value_anchor','subject_anchor','marker_anchor','status','human_reviewed','rationale'}
+        or b.get('kind')!='explicit_xiaozhi_apposition' or b.get('status')!='source_attested' or b.get('human_reviewed')is not False
+        or not isinstance(b.get('rationale'),str)or not b['rationale'].strip()
+        or not isinstance(v,str)or not v or v!=v.strip() or name.get('quote')!=paragraph.get('text')
+        or 'xiaoming'in name or 'xiaoming_basis'in name):fail()
+    t=paragraph.get('text');pid=name.get('person_id')
+    if not isinstance(t,str)or not isinstance(pid,str)or not pid:fail()
+    anchors=[b[k]for k in ('value_anchor','subject_anchor','marker_anchor')]
+    for i,a in enumerate(anchors):
+        keys={'paragraph_id','start','end','surface'}|({'person_mention_id'}if i<2 else set())
+        if (not isinstance(a,dict)or set(a)!=keys or a.get('paragraph_id')!=name.get('paragraph_id')
+            or a.get('paragraph_id')!=paragraph.get('id')or type(a.get('start'))is not int or type(a.get('end'))is not int
+            or not 0<=a['start']<a['end']<=len(t)or t[a['start']:a['end']]!=a.get('surface')):fail()
+        if i<2:
+            hits=[m for m in paragraph.get('mentions',[])if isinstance(m,dict)and m.get('id')==a.get('person_mention_id')]
+            if len(hits)!=1:fail()
+            m=hits[0]
+            if m.get('kind')!='person'or m.get('person_id')!=pid or any(m.get(k)!=a[k]for k in ('start','end','surface')):fail()
+    a,s,k=anchors
+    term=v+s['surface']+'小字也'
+    if (a['person_mention_id']==s['person_mention_id'] or a['surface']!=v or k['surface']!='小字'
+        or a['end']!=s['start']or s['end']!=k['start']or t[k['end']:k['end']+1]!='也'
+        or b.get('source_term')!=term or t[a['start']:k['end']+1]!=term):fail()

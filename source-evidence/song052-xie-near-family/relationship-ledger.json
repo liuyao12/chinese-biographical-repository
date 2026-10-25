@@ -1,0 +1,127 @@
+{
+  "record_type": "source_relationship_reading_ledger",
+  "status": "in_progress",
+  "source_chapter_id": "c-songshu-052-xiejingren",
+  "source_assertions_typed": 19,
+  "not_all_relationships_typed": true,
+  "pending": [
+    {
+      "id": "pending-song052-hui-congshufu",
+      "status": "pending_typed_contract",
+      "subject_person_id": "aa6_83c_juy_AAAA",
+      "object_person_id": "aa6_83c_juy_ABA",
+      "source_expression": "晦從叔父",
+      "chapter_id": "c-songshu-052-xiejingren",
+      "source_id": "s-songshu052-kr-e80c057-xiejingren",
+      "paragraph_id": "c-songshu-052-xiejingren:p001",
+      "full_paragraph": "謝景仁陳郡陽夏人衞將軍晦從叔父也名與高祖同諱故稱字祖據太傅安第二弟父允宣城内史景仁幼時與安相及為安所知始為前軍行參軍輔國參軍事會稽王世子元顯嬖人張法順權傾一時内外無不造門者唯景仁不至年三十方為著作郎桓𤣥誅元顯見景仁甚知之謂四坐曰司馬庻人父子云何不敗遂令謝景仁三十方作著作郎𤣥為太尉以𥙷行參軍府轉大將軍仍參軍事𤣥建楚臺以補黃門侍郎及簒位領驍騎將軍",
+      "paragraph_sha256": "a66ac3384f58e8dc784f7a53c359486699caf68f80735afe0a0a7de355c3eaac",
+      "mention_ids": [
+        "c-songshu-052-xiejingren:p001:m0000",
+        "c-songshu-052-xiejingren:p001:m0011",
+        "c-songshu-052-xiejingren:p001:m0039",
+        "c-songshu-052-xiejingren:p001:m0087",
+        "c-songshu-052-xiejingren:p001:m0105",
+        "c-songshu-052-xiejingren:p001:m0126"
+      ],
+      "note": "景仁為晦從叔父，保父系旁支晚一代、未知共祖與親等。現agnatic_senior_kin gate限從子等已定原式，未以本句假作直接叔父。",
+      "human_reviewed": false
+    },
+    {
+      "id": "pending-song052-jingren-congxiong-hun",
+      "status": "pending_typed_contract",
+      "subject_person_id": "aa6_83c_juy_ABA",
+      "object_person_id": "aa6_83c_juy_BAC",
+      "source_expression": "從兄混",
+      "chapter_id": "c-songshu-052-xiejingren",
+      "source_id": "s-songshu052-kr-e80c057-xiejingren",
+      "paragraph_id": "c-songshu-052-xiejingren:p006",
+      "full_paragraph": "又遷吏部尚書時從兄混為左僕射依制不得相臨高祖啓依僕射王彪之尚書王劭前例不解職坐選吏部令史邢安泰為都令史平原太守二官共除安泰以令史職拜謁陵廟為御史中丞鄭鮮之所糾白衣領職八年遷領軍將軍十一年轉右僕射仍轉左僕射",
+      "paragraph_sha256": "672baa1ee684a34351baf2d879b8c3651565940199c7b5d795084ef6d7358793",
+      "mention_ids": [
+        "c-songshu-052-xiejingren:p006:m0009"
+      ],
+      "note": "混為景仁從兄，具名雙端；可後續復用同輩父系旁親及相對年序型別，不補共祖。",
+      "human_reviewed": false
+    },
+    {
+      "id": "pending-song052-reported-mistaken-ansun",
+      "status": "reported_belief_not_adopted_for_parentage",
+      "subject_person_id": "aa6_83c_juy_ABA",
+      "object_person_id": "aa6_83c_juy_B",
+      "source_expression": "嘗謂景仁是太傅安孫",
+      "chapter_id": "c-songshu-052-xiejingren",
+      "source_id": "s-songshu052-kr-e80c057-xiejingren",
+      "paragraph_id": "c-songshu-052-xiejingren:p003",
+      "full_paragraph": "高祖為桓修撫軍中兵參軍嘗詣景仁諮事景仁與語悅之因留高祖共食食未辦而景仁為𤣥所召𤣥性促急俄頃之間騎詔續至高祖屢求去景仁不許曰主上見待要應有方我欲與客共食豈當不得待竟安坐飽食然後應召高祖甚感之嘗謂景仁是太傅安孫",
+      "paragraph_sha256": "f61f9b85f244864a8f1c52a5c3321455f06d262ac9795fe708150d3cae96f3cf",
+      "mention_ids": [
+        "c-songshu-052-xiejingren:p003:m0013",
+        "c-songshu-052-xiejingren:p003:m0017",
+        "c-songshu-052-xiejingren:p003:m0033",
+        "c-songshu-052-xiejingren:p003:m0056",
+        "c-songshu-052-xiejingren:p003:m0096",
+        "c-songshu-052-xiejingren:p003:m0099"
+      ],
+      "note": "劉裕曾以為景仁是安孫，是本傳報告的認知，不採作祖安；首段明祖據。",
+      "human_reviewed": false
+    }
+  ],
+  "reported_relative_ordinal_observations": [
+    {
+      "source_expression": "太傅安第二弟",
+      "reported_number": 2,
+      "reported_kin_term": "弟",
+      "ordinal_scope": "原相對兄弟稱謂，非全家絕對子女排行",
+      "absolute_child_ordinal": null,
+      "target_person_id": "aa6_83c_juy_A",
+      "reference_person_id": "aa6_83c_juy_B",
+      "paragraph_id": "c-songshu-052-xiejingren:p001",
+      "full_paragraph": "謝景仁陳郡陽夏人衞將軍晦從叔父也名與高祖同諱故稱字祖據太傅安第二弟父允宣城内史景仁幼時與安相及為安所知始為前軍行參軍輔國參軍事會稽王世子元顯嬖人張法順權傾一時内外無不造門者唯景仁不至年三十方為著作郎桓𤣥誅元顯見景仁甚知之謂四坐曰司馬庻人父子云何不敗遂令謝景仁三十方作著作郎𤣥為太尉以𥙷行參軍府轉大將軍仍參軍事𤣥建楚臺以補黃門侍郎及簒位領驍騎將軍",
+      "mention_ids": [
+        "c-songshu-052-xiejingren:p001:m0026",
+        "c-songshu-052-xiejingren:p001:m0027",
+        "c-songshu-052-xiejingren:p001:m0044",
+        "c-songshu-052-xiejingren:p001:m0048"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_expression": "其第三弟甝",
+      "reported_number": 3,
+      "reported_kin_term": "弟",
+      "ordinal_scope": "原相對兄弟稱謂，非全家絕對子女排行",
+      "absolute_child_ordinal": null,
+      "target_person_id": "aa6_83c_juy_ABC",
+      "reference_person_id": "aa6_83c_juy_ABA",
+      "paragraph_id": "c-songshu-052-xiejingren:p013",
+      "full_paragraph": "景仁愛其第三弟甝而憎述嘗設饌請知高祖希命甝豫坐而高祖召述述知景仁夙意又慮高祖命之請急不從高祖馳遣呼述須至乃懽及景仁有疾述盡心營視湯藥飲食必嘗而後進不解帶不盥櫛者累旬景仁深懷感愧",
+      "mention_ids": [
+        "c-songshu-052-xiejingren:p013:m0000",
+        "c-songshu-052-xiejingren:p013:m0007",
+        "c-songshu-052-xiejingren:p013:m0020",
+        "c-songshu-052-xiejingren:p013:m0030",
+        "c-songshu-052-xiejingren:p013:m0055",
+        "c-songshu-052-xiejingren:p013:m0082"
+      ],
+      "human_reviewed": false
+    },
+    {
+      "source_expression": "太祖第五女長城公主",
+      "reported_number": 5,
+      "reported_kin_term": "女",
+      "ordinal_scope": "父文帝之女性子女範圍",
+      "absolute_all_children_ordinal": null,
+      "target_person_id": "3bh_k4m_fg4_B",
+      "reference_person_id": "3bh_k4m_fg4",
+      "paragraph_id": "c-songshu-052-xiejingren:p019",
+      "full_paragraph": "三子綜約緯綜有才藝善𨽻書為太子中舍人與舅范曄謀反伏誅約亦坐死緯尚太祖第五女長城公主素為約所憎免死徙廣州孝建中還京師方雅有父風太宗泰始中至正員郎中",
+      "mention_ids": [
+        "c-songshu-052-xiejingren:p019:m0032",
+        "c-songshu-052-xiejingren:p019:m0037"
+      ],
+      "human_reviewed": false
+    }
+  ],
+  "human_reviewed": false
+}
