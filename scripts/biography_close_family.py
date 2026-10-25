@@ -38,7 +38,7 @@ def valid(a,paragraphs,assertions=()):
    origin=t[z['end']:g['start']];grand_office=t[g['end']:f['start']];father_office=t[f['end']:end]
    if not re.fullmatch(r'[^字祖父曰云言「」『』非未無不，。]{1,16}人也祖',origin):return False
    if not re.fullmatch(r'[^字祖父曰云言「」『』非未無不，。]{1,12}(?:卿|守|牧|將軍|尚書|侍中)父',grand_office):return False
-   if not re.fullmatch(r'(?:奉朝請|[^字祖父曰云言「」『』非未無不，。]{0,12}(?:卿|守|牧|將軍|尚書|侍中))',father_office):return False
+   if not re.fullmatch(r'(?:奉朝請|[^字祖父曰云言「」『』非未無不，。]{0,12}(?:卿|守|牧|將軍|尚書|侍中|侍郎))',father_office):return False
    if not h['end']<z['end']<g['start']<g['end']<f['start']<f['end']<=end:return False
    if any(m.get('kind')=='person'and start<=m['start']<end and m['id']not in b['roles'].values()for m in p['mentions']):return False
    allowed=[('father','head','father'),('grandfather','head','grandfather')]

@@ -7,6 +7,10 @@ def _attached_family(a,paragraphs,chapters=None):
  return kinship_valid(a,paragraphs,chapters)
 
 def valid(a,paragraphs,assertions=(),chapters=None):
+ if isinstance(a,dict) and a.get('qualifiers',{}).get('source_clause_binding',{}).get('rule')=='fixed_nanqi047_narrative_family':
+  try:from scripts.fixed_nanqi047_source import kinship_valid
+  except ImportError:from fixed_nanqi047_source import kinship_valid
+  return kinship_valid(a,paragraphs)
  if a.get('qualifiers', {}).get('source_clause_binding', {}).get('rule') == 'complete_received_kinship_unit':
      try:from scripts.received_unit_kinship import valid as unit_relation_valid
      except ImportError:from received_unit_kinship import valid as unit_relation_valid

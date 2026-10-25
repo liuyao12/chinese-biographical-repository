@@ -1,0 +1,139 @@
+{
+  "sha256_before": "1275ab1e18255018d4cc5d0cb055ee532923636a4ba3bbaf81004f017fbab2cb",
+  "sha256_after": "1275ab1e18255018d4cc5d0cb055ee532923636a4ba3bbaf81004f017fbab2cb",
+  "person_count": 8709,
+  "source_file": "registry/persons.json",
+  "method": "全persons完整JSON召回，再檢角色；不是exact label miss就認不存在",
+  "terms": [
+    "惠端",
+    "恵端",
+    "敬皇后",
+    "敬后",
+    "明敬",
+    "眀敬",
+    "鸞妻",
+    "鸞之妻",
+    "寶卷母",
+    "寳卷母"
+  ],
+  "hits": [
+    {
+      "terms": [
+        "敬后"
+      ],
+      "person": {
+        "id": "jqx_jns_jae_A",
+        "label": "虞孟母",
+        "status": "active",
+        "historicity": "historical_tradition",
+        "aliases": [
+          {
+            "surface": "敬后",
+            "mention_ids": [
+              "c-jinshu-032-zheng-achun-family:zheng-marriages:p001:m0045",
+              "c-jinshu-032-zheng-achun-family:zheng-death-and-son:p001:m0081"
+            ]
+          },
+          {
+            "surface": "元敬虞皇后",
+            "mention_ids": [
+              "c-jinshu-032-zheng-achun-family:yumengmu-intro:p001:m0000"
+            ]
+          },
+          {
+            "surface": "孟母",
+            "mention_ids": [
+              "c-jinshu-032-zheng-achun-family:yumengmu-intro:p001:m0006"
+            ]
+          },
+          {
+            "surface": "后",
+            "mention_ids": [
+              "c-jinshu-032-zheng-achun-family:yumengmu-intro:p001:m0033"
+            ]
+          },
+          {
+            "surface": "虞后",
+            "mention_ids": [
+              "c-jinshu-032-zheng-achun-family:xun-lady-care:p001:m0028"
+            ]
+          },
+          {
+            "surface": "虞妃",
+            "mention_ids": [
+              "c-jinshu-064-yuandi-six-sons:pou-care-succession:p001:m0023"
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-032",
+            "chapter_id": "c-jinshu-032-zheng-achun-family",
+            "source_id": "s-jinshu-032-zheng-achun-family",
+            "paragraph_id": "c-jinshu-032-zheng-achun-family:zheng-marriages:p001",
+            "mention_id": "c-jinshu-032-zheng-achun-family:zheng-marriages:p001:m0045",
+            "quote": "敬后"
+          },
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-032",
+            "chapter_id": "c-jinshu-032-zheng-achun-family",
+            "source_id": "s-jinshu-032-zheng-achun-family",
+            "paragraph_id": "c-jinshu-032-zheng-achun-family:zheng-death-and-son:p001",
+            "mention_id": "c-jinshu-032-zheng-achun-family:zheng-death-and-son:p001:m0081",
+            "quote": "敬后"
+          },
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-032",
+            "chapter_id": "c-jinshu-032-zheng-achun-family",
+            "source_id": "s-jinshu-032-zheng-achun-family",
+            "paragraph_id": "c-jinshu-032-zheng-achun-family:yumengmu-intro:p001",
+            "mention_id": "c-jinshu-032-zheng-achun-family:yumengmu-intro:p001:m0000",
+            "quote": "元敬虞皇后"
+          },
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-032",
+            "chapter_id": "c-jinshu-032-zheng-achun-family",
+            "source_id": "s-jinshu-032-zheng-achun-family",
+            "paragraph_id": "c-jinshu-032-zheng-achun-family:yumengmu-intro:p001",
+            "mention_id": "c-jinshu-032-zheng-achun-family:yumengmu-intro:p001:m0006",
+            "quote": "孟母"
+          },
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-032",
+            "chapter_id": "c-jinshu-032-zheng-achun-family",
+            "source_id": "s-jinshu-032-zheng-achun-family",
+            "paragraph_id": "c-jinshu-032-zheng-achun-family:yumengmu-intro:p001",
+            "mention_id": "c-jinshu-032-zheng-achun-family:yumengmu-intro:p001:m0033",
+            "quote": "后"
+          },
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-032",
+            "chapter_id": "c-jinshu-032-zheng-achun-family",
+            "source_id": "s-jinshu-032-zheng-achun-family",
+            "paragraph_id": "c-jinshu-032-zheng-achun-family:xun-lady-care:p001",
+            "mention_id": "c-jinshu-032-zheng-achun-family:xun-lady-care:p001:m0028",
+            "quote": "虞后"
+          },
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-064",
+            "chapter_id": "c-jinshu-064-yuandi-six-sons",
+            "source_id": "s-jinshu-064-yuandi-six-sons",
+            "paragraph_id": "c-jinshu-064-yuandi-six-sons:pou-care-succession:p001",
+            "mention_id": "c-jinshu-064-yuandi-six-sons:pou-care-succession:p001:m0023",
+            "quote": "虞妃"
+          }
+        ],
+        "identity_note": "固定正文具名或明示親屬；未知姓名、年月與親等不補。",
+        "review": "ai_provisional"
+      }
+    }
+  ],
+  "conclusion": "只有敬后命中晉元帝虞孟母；時代、夫帝與遷祔陵均不同，不可重用。其他查詞無命中。這是有界身份召回，不宣稱全庫人工逐人窮盡。"
+}

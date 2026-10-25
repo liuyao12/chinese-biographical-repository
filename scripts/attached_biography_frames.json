@@ -4267,5 +4267,318 @@
       "last_line": 257,
       "raw_position_map_sha256": "9f1e1831e19e7603c814b23835c1193058b25519b1325481feb13bb205c923ad"
     }
+  },
+  "song052_career_p007": {
+    "template": "<r0>性矜嚴整潔居宇靜麗毎唾轉唾左石人衣事畢即聽一日澣濯每欲唾左右爭來受<r1>雅相重申以婚姻<r2><r3><r4>女也十二年卒時年四十七追贈{career_000}加{career_001}𦵏日<r5>親臨哭之甚慟與驃騎將軍<r6>書曰<r7>殞逝悲痛摧割不能自勝汝聞問惋愕亦不可堪其器體淹中情寄實重方欲與之共康時務一旦至此痛惜兼深往矣奈何當復奈何",
+    "inside_role_fields": {},
+    "same_person_groups": [
+      [
+        "r0",
+        "r4",
+        "r7"
+      ],
+      [
+        "r1",
+        "r5"
+      ],
+      [
+        "r2"
+      ],
+      [
+        "r3"
+      ],
+      [
+        "r6"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r0",
+        "r6"
+      ],
+      [
+        "r1",
+        "r2"
+      ],
+      [
+        "r1",
+        "r3"
+      ],
+      [
+        "r1",
+        "r6"
+      ],
+      [
+        "r2",
+        "r3"
+      ],
+      [
+        "r2",
+        "r6"
+      ],
+      [
+        "r3",
+        "r6"
+      ]
+    ],
+    "slots": {
+      "career-001": {
+        "state": "holding",
+        "field": "career_000",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "posthumous_grant",
+        "appointment_role": "posthumous_office",
+        "date_expression": null
+      },
+      "career-002": {
+        "state": "holding",
+        "field": "career_001",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "posthumous_grant",
+        "appointment_role": "posthumous_office",
+        "date_expression": null
+      }
+    }
+  },
+  "song052_career_p008": {
+    "template": "子<r0>{career_000}<r1>子<r2>善吹笙官至{career_001}",
+    "inside_role_fields": {},
+    "same_person_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r2"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r2"
+      ]
+    ],
+    "slots": {
+      "career-001": {
+        "state": "holding",
+        "field": "career_000",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "source_report",
+        "date_expression": null
+      },
+      "career-002": {
+        "state": "holding",
+        "field": "career_001",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_attainment",
+        "date_expression": null
+      }
+    }
+  },
+  "song052_career_p009": {
+    "template": "<r0>弟<r1>字<r2>初為<r3>豫州别駕<r4>鎮江陵以為{career_000}南平相<r5>率軍襲<r6>已至城下時<r7>疾病佐吏皆入參承<r8>參承畢已出聞兵至馳還入府左右引車欲還外解<r9>叱之曰我人吏也逃欲何之乃入及<r10>兵敗衆散時已暗夜司馬<r11>謂<r12>曰君但隨僕<r13>不從扶兩人出火光中為人所殺",
+    "inside_role_fields": {},
+    "same_person_groups": [
+      [
+        "r0"
+      ],
+      [
+        "r1",
+        "r2",
+        "r8",
+        "r9",
+        "r12",
+        "r13"
+      ],
+      [
+        "r3",
+        "r4",
+        "r6",
+        "r7",
+        "r10"
+      ],
+      [
+        "r5"
+      ],
+      [
+        "r11"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r0",
+        "r5"
+      ],
+      [
+        "r0",
+        "r11"
+      ],
+      [
+        "r1",
+        "r3"
+      ],
+      [
+        "r1",
+        "r5"
+      ],
+      [
+        "r1",
+        "r11"
+      ],
+      [
+        "r3",
+        "r5"
+      ],
+      [
+        "r3",
+        "r11"
+      ],
+      [
+        "r5",
+        "r11"
+      ]
+    ],
+    "slots": {
+      "career-001": {
+        "state": "holding",
+        "field": "career_000",
+        "recipient_role": "r1",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "staff_appointment",
+        "date_expression": null
+      }
+    }
+  },
+  "song052_career_p015": {
+    "template": "<r0>入相<r1>又為{career_000}轉左衞将軍蒞官清約私無宅舍<r2>遇之甚厚尚書僕射<r3>領軍將軍<r4>並與<r5>為異常之交羙風姿善舉止<r6>每謂人曰我見<r7>未嘗足<r8><r9>小字也雍州刺史<r10>以黷貨下廷尉將致大辟<r11>上表陳<r12>先朝舊勲宜䝉優貸<r13>手詔酬納焉",
+    "inside_role_fields": {},
+    "same_person_groups": [
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r1",
+        "r5",
+        "r7",
+        "r8",
+        "r9",
+        "r11"
+      ],
+      [
+        "r3"
+      ],
+      [
+        "r4",
+        "r6"
+      ],
+      [
+        "r10",
+        "r12"
+      ],
+      [
+        "r13"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r0",
+        "r4"
+      ],
+      [
+        "r0",
+        "r10"
+      ],
+      [
+        "r0",
+        "r13"
+      ],
+      [
+        "r1",
+        "r3"
+      ],
+      [
+        "r1",
+        "r4"
+      ],
+      [
+        "r1",
+        "r10"
+      ],
+      [
+        "r1",
+        "r13"
+      ],
+      [
+        "r3",
+        "r4"
+      ],
+      [
+        "r3",
+        "r10"
+      ],
+      [
+        "r3",
+        "r13"
+      ],
+      [
+        "r4",
+        "r10"
+      ],
+      [
+        "r4",
+        "r13"
+      ],
+      [
+        "r10",
+        "r13"
+      ]
+    ],
+    "slots": {
+      "career-001": {
+        "state": "holding",
+        "field": "career_000",
+        "recipient_role": "r1",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "appointment",
+        "date_expression": null
+      }
+    }
   }
 }

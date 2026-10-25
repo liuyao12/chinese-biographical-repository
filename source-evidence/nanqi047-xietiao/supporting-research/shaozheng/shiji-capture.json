@@ -1,0 +1,126 @@
+{
+  "human_reviewed": false,
+  "hashes_before": {
+    "corpus/shiji/047.json": "7e577e255b259a711bd2039cccec3dde26d420e63372f156f97c94423b0b48cc",
+    "registry/persons.json": "1275ab1e18255018d4cc5d0cb055ee532923636a4ba3bbaf81004f017fbab2cb"
+  },
+  "hashes_after": {
+    "corpus/shiji/047.json": "7e577e255b259a711bd2039cccec3dde26d420e63372f156f97c94423b0b48cc",
+    "registry/persons.json": "1275ab1e18255018d4cc5d0cb055ee532923636a4ba3bbaf81004f017fbab2cb"
+  },
+  "chapter_identity": {
+    "id": "c-shiji-047-kong",
+    "work_id": "w-shiji",
+    "book_id": "b-shiji-047",
+    "source_id": "s-shiji-047-kong",
+    "title": "孔子世家第十七",
+    "source": {
+      "title": "史記／卷047",
+      "provider": "維基文庫",
+      "url": "https://zh.wikisource.org/wiki/史記/卷047",
+      "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷047&oldid=7903609",
+      "revision_id": 7903609,
+      "accessed_on": "2026-10-09",
+      "extent": "85段正文及1段索隱述贊，後者分層；排除2個dd導覽與現代分節標題，只去除段落外緣空白。",
+      "image_verified": false,
+      "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "normalization": {
+        "character_conversion": {},
+        "editorial_readings": [],
+        "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
+        "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
+      }
+    },
+    "text_sha256": "2aa9e02454f33487aeb3bb3d42da9b41c2ff4285a8532392c317f9d059daf838"
+  },
+  "paragraph": {
+    "id": "c-shiji-047-kong:p019",
+    "text": "定公十四年，孔子年五十六，由大司寇行攝相事，有喜色。門人曰：「聞君子禍至不懼，福至不喜。」孔子曰：「有是言也。不曰『樂其以貴下人』乎？」於是誅魯大夫亂政者少正卯。與聞國政三月，粥羔豚者弗飾賈，男女行者別於塗，塗不拾遺；四方之客至乎邑者不求有司，皆予之以歸。",
+    "annotation_status": "named_mentions_first_pass",
+    "text_layer": "received_chapter",
+    "mentions": [
+      {
+        "id": "c-shiji-047-kong:m019-0000",
+        "start": 0,
+        "end": 2,
+        "surface": "定公",
+        "kind": "person",
+        "person_id": "dgz_tme_821",
+        "status": "contextual_provisional"
+      },
+      {
+        "id": "c-shiji-047-kong:m019-0006",
+        "start": 6,
+        "end": 8,
+        "surface": "孔子",
+        "kind": "person",
+        "person_id": "fp6_ia6_7yw",
+        "status": "contextual_provisional"
+      },
+      {
+        "id": "c-shiji-047-kong:m019-0026",
+        "start": 26,
+        "end": 28,
+        "surface": "門人",
+        "kind": "unresolved",
+        "person_id": null,
+        "status": "unresolved",
+        "note": "宗族、群體、神怪、官稱或說話對象未定，不補成員姓名及親屬。"
+      },
+      {
+        "id": "c-shiji-047-kong:m019-0045",
+        "start": 45,
+        "end": 47,
+        "surface": "孔子",
+        "kind": "person",
+        "person_id": "fp6_ia6_7yw",
+        "status": "contextual_provisional"
+      },
+      {
+        "id": "c-shiji-047-kong:m019-0077",
+        "start": 77,
+        "end": 80,
+        "surface": "少正卯",
+        "kind": "person",
+        "person_id": "q7s_6hz_yak",
+        "status": "contextual_provisional"
+      }
+    ]
+  },
+  "person": {
+    "id": "q7s_6hz_yak",
+    "label": "少正卯（孔子世家候選）",
+    "status": "active",
+    "historicity": "historical_tradition",
+    "aliases": [
+      {
+        "surface": "少正卯",
+        "mention_ids": [
+          "c-shiji-047-kong:m019-0077"
+        ]
+      },
+      {
+        "surface": "卯",
+        "mention_ids": [
+          "c-shiji-047-kong:m086-0050"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "mention_id": "c-shiji-047-kong:m019-0077",
+        "chapter_id": "c-shiji-047-kong",
+        "paragraph_id": "c-shiji-047-kong:p019",
+        "quote": "少正卯"
+      },
+      {
+        "mention_id": "c-shiji-047-kong:m086-0050",
+        "chapter_id": "c-shiji-047-kong",
+        "paragraph_id": "c-shiji-047-kong:p086",
+        "quote": "卯"
+      }
+    ]
+  },
+  "read_scope": "本次完整讀p018、p019、p020；未聲稱重讀全卷。"
+}
