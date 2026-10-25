@@ -2999,6 +2999,76 @@
     "reviewer": "Codex（AI代理）",
     "model": null,
     "human_reviewed": false,
-    "note": "完整選定家傳逐人首輪；桓文兩引古人物與三世子均依明源辨識；父子群稱仍不作單一人物，非全卷完成。"
+    "note": "完整選定家傳逐人首輪；桓文兩引古人物與三世子均依明源辨識；父子群稱仍不作單一人物，非全卷完成。",
+    "age_assertions": [
+      {
+        "id": "age-song052-jingren-death",
+        "person_id": "aa6_83c_juy_ABA",
+        "value": 47,
+        "source_number": "四十七",
+        "source_term": "時年四十七",
+        "source_expression": "時年四十七",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "unit": "source_age_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-052",
+            "source_id": "s-songshu052-kr-e80c057-xiejingren",
+            "chapter_id": "c-songshu-052-xiejingren",
+            "paragraph_id": "c-songshu-052-xiejingren:p007",
+            "quote": "景仁性矜嚴整潔居宇靜麗毎唾轉唾左石人衣事畢即聽一日澣濯每欲唾左右爭來受高祖雅相重申以婚姻廬陵王義眞妃景仁女也十二年卒時年四十七追贈金紫光禄大夫加散騎常侍𦵏日高祖親臨哭之甚慟與驃騎將軍道憐書曰謝景仁殞逝悲痛摧割不能自勝汝聞問惋愕亦不可堪其器體淹中情寄實重方欲與之共康時務一旦至此痛惜兼深往矣奈何當復奈何",
+            "person_mention_id": "c-songshu-052-xiejingren:p007:m0000"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-song052-jingren-death"
+        },
+        "interpretation_note": "來源報齡，未明計歲方式；不反推出生年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-song052-shu-death",
+        "person_id": "aa6_83c_juy_ABD",
+        "value": 46,
+        "source_number": "四十六",
+        "source_term": "時年四十六",
+        "source_expression": "時年四十六",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "unit": "source_age_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-052",
+            "source_id": "s-songshu052-kr-e80c057-xiejingren",
+            "chapter_id": "c-songshu-052-xiejingren",
+            "paragraph_id": "c-songshu-052-xiejingren:p018",
+            "quote": "十二年卒時年四十六喪還京師未至數十里殷景仁劉湛同乗迎赴望船流涕十七年劉湛誅義康外鎮將行歎曰謝述唯勸吾退劉湛唯勸吾進今述亡而湛存吾所以得罪也太祖亦曰謝述若存義康必不至此",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-songshu-052-xiejingren:p017",
+              "person_mention_id": "c-songshu-052-xiejingren:p017:m0000",
+              "quote": "述有心虗疾性理時或乖謬除呉郡太守以疾不之官病差補呉興太守在郡清省為吏民所懷",
+              "intervening_paragraph_ids": []
+            }
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-song052-shu-death"
+        },
+        "interpretation_note": "來源報齡，未明計歲方式；不反推出生年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
   }
 }

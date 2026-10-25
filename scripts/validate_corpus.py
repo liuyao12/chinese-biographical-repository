@@ -2379,6 +2379,11 @@ def validate(root=ROOT):
                         check(carried or any(m.get('person_id') == address['person_id'] for m in hit[1]['mentions']), '地址人物未見於證據段')
                         check(chapters[hit[0]]['source_id'] == evidence['source_id'], '地址來源 ID 不符')
         life_event_ids = set()
+        try:
+            from scripts.received_life_year_scopes import native_errors as received_life_scope_errors
+        except ImportError:
+            from received_life_year_scopes import native_errors as received_life_scope_errors
+        errors.extend(received_life_scope_errors(root, chapters))
         for path in list((root / 'corpus').glob('*/*-life-events.json')) + list((root / 'corpus').glob('*/*-person-events.json')):
             record = json.loads(path.read_text(encoding='utf-8'))
             if record.get('record_type') == 'table_person_life_event_assertion_set':
