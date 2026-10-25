@@ -1,0 +1,131 @@
+{
+  "record_type": "cross_family_current_projection_keymove_qualification",
+  "human_reviewed": false,
+  "composition": "immutable original capture -> reviewed Pei30 current projection -> Cao10 current endpoint mapping -> Pei7 reviewed current container key + pointer table migration",
+  "prior_cao_qualification_ref": "source-evidence/caoren-near-family-rekey/after-pei30-projection-qualification.json",
+  "prior_cao_qualification_sha256": "81bd9aa8e057b8103dad3a1cb5b1b2e0a67afd284c7e47428d81ef82a238a8d2",
+  "prior_cao_qualification_scope": "historical pre-Pei7 table, preserved unchanged; new table bindings below supersede only its current snapshot scope",
+  "old_pei30_after_noop_claimed": false,
+  "old_cao_after_noop_claimed": false,
+  "projections": [
+    {
+      "record_type": "protected_only_wrapper_qualification",
+      "path": "source-evidence/pei-mao-family-assembly/current-projections/le-fang-guang-family/current-projections/peiwei-current-native-units.json",
+      "sha256": "dfaec4aafb1afac48be7609a46ba0e328e10ffe4cb32e4bf54ba3c82f279c4ba",
+      "protected_subtree_count": 3,
+      "current_endpoint_delta": 0,
+      "before_sha256": "dfaec4aafb1afac48be7609a46ba0e328e10ffe4cb32e4bf54ba3c82f279c4ba",
+      "after_sha256": "dfaec4aafb1afac48be7609a46ba0e328e10ffe4cb32e4bf54ba3c82f279c4ba"
+    },
+    {
+      "record_type": "protected_only_wrapper_qualification",
+      "path": "source-evidence/pei-mao-family-assembly/current-projections/liang030-peiziye-source-reading/existing-native-context-bridges.json",
+      "sha256": "deb77a2ad22ba358506ae656247018153ddb39ba6df6a65193bfc47a5ed2b62a",
+      "protected_subtree_count": 6,
+      "current_endpoint_delta": 0,
+      "before_sha256": "deb77a2ad22ba358506ae656247018153ddb39ba6df6a65193bfc47a5ed2b62a",
+      "after_sha256": "deb77a2ad22ba358506ae656247018153ddb39ba6df6a65193bfc47a5ed2b62a"
+    },
+    {
+      "record_type": "protected_only_wrapper_qualification",
+      "path": "source-evidence/pei-mao-family-assembly/current-projections/pei-he-shao-identity/complete-read-contexts.json",
+      "sha256": "254c0fac2e8a117c26fc80e58a4e7d7d11d09e365d532e5eb139127d0e727af6",
+      "protected_subtree_count": 68,
+      "current_endpoint_delta": 0,
+      "before_sha256": "254c0fac2e8a117c26fc80e58a4e7d7d11d09e365d532e5eb139127d0e727af6",
+      "after_sha256": "254c0fac2e8a117c26fc80e58a4e7d7d11d09e365d532e5eb139127d0e727af6"
+    },
+    {
+      "record_type": "bounded_protected_pointer_keymove_proof",
+      "before_pointer_table_sha256": "f477820266100b3d0cdb79a9ee0ac5206cc4c61dea69174c0057136b4d7d1d4a",
+      "after_pointer_table_sha256": "fa5599341435dff9d15ccdea9e233080b1d1f86bc49766bbb0d31a7f887a3b06",
+      "protected_subtree_count": 54,
+      "all_original_pointers_and_value_hashes_preserved": true,
+      "key_moves": [
+        {
+          "before": "/records/captures/vpy_180_2oi_AA",
+          "after": "/records/captures/4ni_4t1_4o9_BB*AAA"
+        }
+      ],
+      "projection_pointers_moved": 2,
+      "protected_subtrees_deep_rewritten": false,
+      "reviewed_transparent_wrapper_paths": [],
+      "person_aliases_created": false,
+      "path": "source-evidence/pei-mao-family-assembly/current-projections/sgz014-guojia/reuse-captures.json",
+      "before_sha256": "89c30288d117bf1e37d1bbe29f8b2206f1e4508dc7b0ab1707280c4898b8d463",
+      "after_sha256": "10fd5cdc3b20ad680a753757498570c08df0b8d92612d8c457d711d92f75711e"
+    },
+    {
+      "record_type": "protected_only_wrapper_qualification",
+      "path": "source-evidence/pei-mao-family-assembly/current-projections/wangxiong-family-assembly/current-projections/yang-family-assembly/current-source-projections/jin043-wangrong-source/identity-review.json",
+      "sha256": "49312b4d02df56fc6ccaebc38658c7d7b781dcd106f51695db1d04089696fff6",
+      "protected_subtree_count": 55,
+      "current_endpoint_delta": 0,
+      "before_sha256": "49312b4d02df56fc6ccaebc38658c7d7b781dcd106f51695db1d04089696fff6",
+      "after_sha256": "49312b4d02df56fc6ccaebc38658c7d7b781dcd106f51695db1d04089696fff6"
+    },
+    {
+      "record_type": "protected_only_wrapper_qualification",
+      "path": "source-evidence/pei-mao-family-assembly/current-projections/wangxiong-family-assembly/current-projections/yang-family-assembly/current-source-projections/shan-family-assembly/current-source-projections/jin043-wangrong-source/identity-review.json",
+      "sha256": "7dbcba536eef5479eacaa82605d6f5ba20d43fbc9edfef1e68d52a3890cc9d5f",
+      "protected_subtree_count": 55,
+      "current_endpoint_delta": 0,
+      "before_sha256": "7dbcba536eef5479eacaa82605d6f5ba20d43fbc9edfef1e68d52a3890cc9d5f",
+      "after_sha256": "7dbcba536eef5479eacaa82605d6f5ba20d43fbc9edfef1e68d52a3890cc9d5f"
+    },
+    {
+      "record_type": "protected_only_wrapper_qualification",
+      "path": "source-evidence/pei-mao-family-assembly/current-projections/wangxiong-family-assembly/current-projections/yang-family-assembly/current-source-projections/wangxizhi-family-assembly/current-source-projections/jin043-wangrong-source/identity-review.json",
+      "sha256": "824ca9cac31c1f72c2b34128058e54c5766e2131e0645ceb91d79ba9096201ba",
+      "protected_subtree_count": 55,
+      "current_endpoint_delta": 0,
+      "before_sha256": "824ca9cac31c1f72c2b34128058e54c5766e2131e0645ceb91d79ba9096201ba",
+      "after_sha256": "824ca9cac31c1f72c2b34128058e54c5766e2131e0645ceb91d79ba9096201ba"
+    },
+    {
+      "record_type": "bounded_protected_pointer_keymove_proof",
+      "before_pointer_table_sha256": "8bb7dcbcaadfa2562441c1f320a58367eae10524913d33b2f88182dd93d42d2a",
+      "after_pointer_table_sha256": "28f12d8f216c710fb284d48ca4362e6af67c9075bbc158b4264e8654f9e3c2b0",
+      "protected_subtree_count": 47,
+      "all_original_pointers_and_value_hashes_preserved": true,
+      "key_moves": [
+        {
+          "before": "/records/records/vpy_180_2oi_AA",
+          "after": "/records/records/4ni_4t1_4o9_BB*AAA"
+        }
+      ],
+      "projection_pointers_moved": 1,
+      "protected_subtrees_deep_rewritten": false,
+      "reviewed_transparent_wrapper_paths": [
+        "/records"
+      ],
+      "person_aliases_created": false,
+      "path": "source-evidence/pei-mao-family-assembly/current-projections/yang-family-assembly/current-source-projections/sgz025-xinpi/reuse-captures.json",
+      "before_sha256": "d0625d661120a294ea75b0440e491f7791005cfa88ef64a879e6dd5c46e3d5f5",
+      "after_sha256": "b69411fd8c2abda90f661ad0b5cfd316decff5b13f2d21c03b48d193f7a37e8b"
+    },
+    {
+      "record_type": "bounded_protected_pointer_keymove_proof",
+      "before_pointer_table_sha256": "1bda7beacbfce554df821eded9f957a1bf26282a62ede223b85934e3cd6bd762",
+      "after_pointer_table_sha256": "c7a5f427451ebcc34eedeaef34c36e4a77cb1f9ae2d7490514b964a6118663fd",
+      "protected_subtree_count": 48,
+      "all_original_pointers_and_value_hashes_preserved": true,
+      "key_moves": [
+        {
+          "before": "/records/records/contexts/vpy_180_2oi_AA",
+          "after": "/records/records/contexts/4ni_4t1_4o9_BB*AAA"
+        }
+      ],
+      "projection_pointers_moved": 1,
+      "protected_subtrees_deep_rewritten": false,
+      "reviewed_transparent_wrapper_paths": [
+        "/records"
+      ],
+      "person_aliases_created": false,
+      "path": "source-evidence/pei-mao-family-assembly/current-projections/yang-family-assembly/current-source-projections/sgz025-xinpi-zhonghui/current-reuse-contexts.json",
+      "before_sha256": "654b0c3f1c6df403aaba04d2ddb1ea67c56db52f92067af75a8774a15ca88236",
+      "after_sha256": "bd9da732738b2f09722db60b98f6e8d10247ceccb63b2a3a9b6f05b8bbf88c68"
+    }
+  ],
+  "person_aliases_created": false
+}

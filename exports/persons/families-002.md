@@ -17,15 +17,6 @@
 
 [第1頁](README.md) · [第2頁](families-002.md)
 
-<details><summary><code>yaj_2vc_98w</code> 吳廣（趙世家娃嬴父候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 吳廣 | [《史記・趙世家》][132]、[《史記・六國年表》][260] | [JSON](yaj_2vc_98w.json) |
-| `A` | 娃嬴 | [《史記・趙世家》][132] | [JSON](yaj_2vc_98w_A.json) |
-
-</details>
-
 <details><summary><code>yay_w6f_lis</code> 渾邪（公孫賀父）（衛將軍驃騎列傳候選）（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -391,7 +382,6 @@
 [128]: https://zh.wikisource.org/w/index.php?title=史記/卷039&oldid=2588534
 [129]: https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796
 [130]: https://zh.wikisource.org/w/index.php?title=史記/卷041&oldid=2018395
-[132]: https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603
 [135]: https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838
 [138]: https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610
 [139]: https://zh.wikisource.org/w/index.php?title=史記/卷050&oldid=8737728
@@ -416,7 +406,6 @@
 [246]: https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_024.txt
 [247]: https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt
 [248]: https://github.com/kanripo/KR2a0020/blob/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_038.txt
-[260]: https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002
 [262]: https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010
 [264]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
 [265]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036

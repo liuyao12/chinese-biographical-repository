@@ -85,6 +85,11 @@ def load_assemblies(root, catalog):
                         except ImportError:from qualified_cousin_ancestor import valid as cousin_ancestor_valid
                         if not cousin_ancestor_valid(member, rows, assertions, chapters, root):
                             raise ValueError('特指從父弟缺父祖先須有固定詞義、同源明父鏈與正確方向，不得泛套從弟或補造人物')
+                    elif connection.get('type') == 'ancestor_from_interpreted_generation_and_known_descendant_chain':
+                        try:from .interpreted_generation_ancestor import valid as interpreted_generation_valid
+                        except ImportError:from interpreted_generation_ancestor import valid as interpreted_generation_valid
+                        if not interpreted_generation_valid(member, rows, assertions, chapters, root, assembly):
+                            raise ValueError('指定世孫解讀須保原報數、明示取代編輯解釋及逐邊近鏈，不得補名或混用母養系')
                     elif connection.get('type') == 'ancestor_through_paternal_uncle':
                         try:
                             from .ancestor_through_uncle import valid as uncle_ancestor_valid
