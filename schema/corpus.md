@@ -1189,3 +1189,12 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `source_clause_binding.kind: wyd_song044_named_younger_brother` 僅綁兩條完整本傳原句：「晦弟黃門侍郎㬭」與「劉粹遣弟竟陵太守道濟」。`brother`由弟指兄，另有`relative_birth_order`明示兄的出生序小於弟，兩人絕對排行均null。完整段hash、原來源資格、固定人物MID及registry雙向alias/evidence須一致；既有宋056／宋053／宋047等身份種子由原有正式角色gate核現役canonical，不用永久PID白名單。合法全引用改號可過，單端改號、互換主客、借檀道濟、共移全文/字位均拒。
 
 此型不新增父母／婚配，不修改家族組裝、原文或NER。不以㬭為瞻弟的既有斷言替代本句晦與㬭的明示相對年序，也不把明弟推成明同父。新固定record ID即使刪binding仍須驗來源，不能藉刪資格繞過。無此兩新記錄時，既有其他親屬及bundle行為不變。
+
+
+## 閱讀見證首選與比較轉錄
+
+`registry/reading-witness-preferences.json` 保存代理逐一作出的閱讀選讀，不由程式從書名、URL或正文推斷版本。`application_scope: reading_display_only` 明示此排序不決定人物同指、親屬或其他歷史陳述的首選。每項記錄 work/book/chapter/source、實際所據 edition ID、原版本依據 reference IDs、獨立選錄標籤 `selection_label`、理由及 `scope: source_extent_only`；不能以一篇選錄代表全卷底本已校完。未知版本不得標為已查明，也不因文獻含四庫考證便認定整份正文的底本。
+
+`preferred_received_selection` 只能指向實際已匯入的單一來源選錄，並與版本登記中的 documented text basis、edition及參考資料相符。其餘入口標為 `comparison_transcription`；底本未核者另外顯示「底本待核」，不冒稱四庫或武英殿。首選書影轉錄仍保留原有AI／人工校勘資格。
+
+閱讀匯出將政策原樣另存 `data/corpus/reading-witness-preferences.json`，並在各書目錄項附 source ID、reading role、text-base status及edition ID/label；同卷首選在比較轉錄之前，舊深層連結保持其所引見證。版本及用途另列，不加進正式書名／篇名，也不覆寫原文、標記錨點或任何人物檔。無此政策的歷史快照維持原輸出。
