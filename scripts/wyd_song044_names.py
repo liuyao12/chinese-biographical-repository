@@ -23,6 +23,12 @@ SPECS={
  'wife-cao':('曹',None,'wife_clan',None,('wife-cao',)),
  'zongshuxian':(None,'獻','ming_unknown_clan',None,()),
 }
+try:
+ from scripts.validation_context import memoized
+except ImportError:
+ from validation_context import memoized
+
+@memoized(0)
 def _context(root):
  try:
   from .wyd_song044_nephew import _context as source_context
@@ -40,6 +46,7 @@ def _context(root):
   if byid.get(a['id'])!=a:raise ValueError('姓名推定所依親屬原詞／方向／資格已變')
  return ch,roles,byid
 
+@memoized(0)
 def records(root):
  ch,roles,facts=_context(root);result=[]
  for role,(surname,ming,form,seed,proof)in SPECS.items():

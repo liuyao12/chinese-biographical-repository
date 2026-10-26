@@ -3,11 +3,18 @@ from pathlib import Path
 import json,copy,hashlib,importlib.util
 CID='c-songshu-044-wyd1739-xiehui'
 CH='corpus/songshu/044-wyd1739.json'
+try:
+ from scripts.validation_context import memoized
+except ImportError:
+ from validation_context import memoized
+
 def need(ok,message):
  if not ok:raise ValueError('宋044正式角色：'+message)
 def load_known_model():
  p=Path(__file__).resolve().parent/'wyd_song044_role_seed.py';s=importlib.util.spec_from_file_location('song044_known_dependency',p);m=importlib.util.module_from_spec(s);s.loader.exec_module(m);return m
+@memoized(0)
 def resolve_existing(root,contract):return load_known_model().resolve(root,contract)
+@memoized(0)
 def local_current(root,contract):
  """Current native MID and reverse endpoint, never a draft ownership key or old PID."""
  root=Path(root);ch=json.loads((root/CH).read_bytes());people={p['id']:p for p in json.loads((root/'registry/persons.json').read_bytes())['persons']};out={}

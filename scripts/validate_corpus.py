@@ -388,7 +388,31 @@ def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
     return errors
 
 
-def validate(root=ROOT):
+def validate(root=ROOT, *, shared_context=True):
+    """One content-checked readonly snapshot; uncached mode is the comparison path."""
+    try:
+        from scripts.validation_context import scope, fingerprint, DRIFT_ERROR
+    except ImportError:
+        from validation_context import scope, fingerprint, DRIFT_ERROR
+    if not shared_context:
+        with scope(root, enabled=False):
+            return _validate_uncached(root)
+    try:
+        before = fingerprint(root)
+    except (OSError, ValueError) as error:
+        return [DRIFT_ERROR + '：' + str(error)]
+    with scope(root):
+        errors = _validate_uncached(root)
+        try:
+            after = fingerprint(root)
+            if before != after:
+                errors.append(DRIFT_ERROR)
+        except (OSError, ValueError) as error:
+            errors.append(DRIFT_ERROR + '：' + str(error))
+        return errors
+
+
+def _validate_uncached(root=ROOT):
     errors = []
     def check(ok, message):
         if not ok: errors.append(message)

@@ -231,7 +231,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
   const dateReferences = date => (Array.isArray(date?.references) ? date.references : []).filter(r => r?.quote).map(r => {
     let url = '';
     try { const parsed = new URL(r.url); if (['http:', 'https:'].includes(parsed.protocol)) url = parsed.href; } catch {}
-    return `<blockquote>${h(sourceReferenceQuote(r))}</blockquote>${url ? `<a href="${h(url)}" target="_blank" rel="noopener">${h(r.title || '來源')}</a>` : h(r.title || '')}`;
+    return `<blockquote>${h(sourceReferenceQuote(r))}</blockquote>${url ? `<a href="${h(url)}" target="_blank" rel="noopener">${h(r.title || '來源')}</a>` : h(r.title || '')}${typeof r.access_scope_display === 'string' && r.access_scope_display.trim() ? `<p class="person-reference-access-scope"><small>取得範圍／校勘限制：${h(r.access_scope_display)}</small></p>` : ''}`;
   }).join('');
   const nameFieldLabels = {surname:ui('Surname'),ming:ui('Given name'),zi:ui('Courtesy name'),xiaozhi:ui('Childhood name'),xiaoming:ui('Childhood name (xiaoming)'),hao:'號',former_ming:ui('Former given name'),full_name:'全名',clan_style:'氏稱'};
   const nameConflictHTML = nameConflicts.length ? `<p class="person-name-conflicts">姓名構件有異說：${nameConflicts.map(x => `${nameFieldLabels[x.field]} ${x.values.map(h).join('／')}`).join('；')}。${nameDisplay.coreConflict ? '姓名標題沿用人物標籤；未任選來源構件。' : '有差異的欄位未選作預設。'}</p>` : '';

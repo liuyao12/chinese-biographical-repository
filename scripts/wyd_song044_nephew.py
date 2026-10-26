@@ -4,6 +4,12 @@ from pathlib import Path
 CID='c-songshu-044-wyd1739-xiehui'
 REF='source-evidence/song044-wyd1739-xiehui/formal-role-contract.json'
 CONTRACT_SHA='2b1bc6f3dc350c2450fa2e86feff969faaa3a3b1fd6b8870f7149e53003b9973'
+try:
+ from scripts.validation_context import memoized
+except ImportError:
+ from validation_context import memoized
+
+@memoized(0)
 def _context(root):
  try:from scripts.fixed_wuyingdian_song044 import validate_source
  except ImportError:from fixed_wuyingdian_song044 import validate_source
