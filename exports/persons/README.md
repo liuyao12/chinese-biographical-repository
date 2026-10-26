@@ -4345,3 +4345,4 @@
 [248]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
 [249]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
 [250]: https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037
+[252]: https://zh.wikisource.org/w/index.php?oldid=2374254&title=漢書/髙惠髙后文功臣表
