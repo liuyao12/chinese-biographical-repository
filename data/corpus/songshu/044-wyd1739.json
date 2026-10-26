@@ -148,7 +148,112 @@
     "fixed_transcription_contract": "wuyingdian_song044_transcription",
     "ner_draft_status": "full_individual_first_pass_in_progress",
     "ner_role_contract": "source-evidence/song044-wyd1739-xiehui/formal-role-contract.json",
-    "coverage_note": "第一輪來源確指個體使用合法PID；source_local_candidate不表示已證異人。19處真正未定與3書名保留；跨篇身份及親屬並非全史學定案。"
+    "coverage_note": "第一輪來源確指個體使用合法PID；source_local_candidate不表示已證異人。19處真正未定與3書名保留；跨篇身份及親屬並非全史學定案。",
+    "age_assertions": [
+      {
+        "id": "age-song044-wyd-hui-answer",
+        "person_id": "aa6_83c_juy_AAAA",
+        "value": 33,
+        "source_number": "三十三",
+        "source_term": "晦答曰三十三",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-044",
+            "source_id": "s-songshu-044-wyd1739-xiehui",
+            "chapter_id": "c-songshu-044-wyd1739-xiehui",
+            "paragraph_id": "c-songshu-044-wyd1739-xiehui:p003",
+            "quote": "北秦七州諸軍事撫軍將軍領諸南蠻校尉荆州刺史欲令居外為援慮太祖至或用別人故遽有此授精兵舊將悉以配之器仗軍資甚盛太祖卽位加使持節依本位除授晦慮不得去甚憂惶及發新亭顧望石頭城喜曰今得脫矣尋進號衞將軍加散騎常侍進封建平郡公食邑四千戶固讓進封又給鼓吹一部初為荆州甚有自矜之色將之鎮詣從叔光祿大夫澹別澹問晦年晦答曰三十三澹笑曰昔荀中郎年二十七為北府都督卿比之已為老矣晦有愧色至江陵深結侍中王華冀以免禍二女當配彭城王義康新野侯義賓元嘉二年遣妻曹及長子世休送女還京邑先是景平中索虜為寇覆沒河南至是上欲誅羡之等并討晦聲言北伐又言拜景陵治裝舟艦傅亮與晦書曰薄伐河朔事猶未已朝野之慮憂懼者多又言朝士多諫北征上當遣外監萬幼宗往相諮訪時朝廷處分異常其謀頗泄三年正月晦弟黃門侍郎㬭馳使告晦晦猶謂不然呼諮議參軍何承天示以亮書曰計幼宗一二日必至傅公慮我好事故先遣此書承天曰外間所聞咸謂西討已定幼宗豈有上理晦尚謂虛妄使承天豫立答詔啟草伐虜宜須明年江夏內史程道惠得尋陽人書言朝",
+            "person_mention_id": "c-songshu-044-wyd1739-xiehui:p003:m0148"
+          }
+        ],
+        "age_context": {
+          "kind": "during_life"
+        },
+        "interpretation_note": "澹問晦年，晦本人回答三十三；保存問答原詞，不虛造年三十三或當卒齡，不倒算生年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "source_age_answer_binding": {
+          "kind": "wyd_song044_named_age_answer",
+          "question_person_mention_id": "c-songshu-044-wyd1739-xiehui:p003:m0146",
+          "answer_person_mention_id": "c-songshu-044-wyd1739-xiehui:p003:m0148",
+          "asker_person_mention_id": "c-songshu-044-wyd1739-xiehui:p003:m0144",
+          "clause": {
+            "paragraph_id": "c-songshu-044-wyd1739-xiehui:p003",
+            "start": 144,
+            "end": 154,
+            "surface": "澹問晦年晦答曰三十三"
+          }
+        }
+      },
+      {
+        "id": "age-song044-wyd-xun-recollection",
+        "person_id": "yoo_ox0_545_BABAAAB",
+        "value": 27,
+        "source_number": "二十七",
+        "source_term": "年二十七",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-044",
+            "source_id": "s-songshu-044-wyd1739-xiehui",
+            "chapter_id": "c-songshu-044-wyd1739-xiehui",
+            "paragraph_id": "c-songshu-044-wyd1739-xiehui:p003",
+            "quote": "北秦七州諸軍事撫軍將軍領諸南蠻校尉荆州刺史欲令居外為援慮太祖至或用別人故遽有此授精兵舊將悉以配之器仗軍資甚盛太祖卽位加使持節依本位除授晦慮不得去甚憂惶及發新亭顧望石頭城喜曰今得脫矣尋進號衞將軍加散騎常侍進封建平郡公食邑四千戶固讓進封又給鼓吹一部初為荆州甚有自矜之色將之鎮詣從叔光祿大夫澹別澹問晦年晦答曰三十三澹笑曰昔荀中郎年二十七為北府都督卿比之已為老矣晦有愧色至江陵深結侍中王華冀以免禍二女當配彭城王義康新野侯義賓元嘉二年遣妻曹及長子世休送女還京邑先是景平中索虜為寇覆沒河南至是上欲誅羡之等并討晦聲言北伐又言拜景陵治裝舟艦傅亮與晦書曰薄伐河朔事猶未已朝野之慮憂懼者多又言朝士多諫北征上當遣外監萬幼宗往相諮訪時朝廷處分異常其謀頗泄三年正月晦弟黃門侍郎㬭馳使告晦晦猶謂不然呼諮議參軍何承天示以亮書曰計幼宗一二日必至傅公慮我好事故先遣此書承天曰外間所聞咸謂西討已定幼宗豈有上理晦尚謂虛妄使承天豫立答詔啟草伐虜宜須明年江夏內史程道惠得尋陽人書言朝",
+            "person_mention_id": "c-songshu-044-wyd1739-xiehui:p003:m0158"
+          }
+        ],
+        "age_context": {
+          "kind": "during_life"
+        },
+        "interpretation_note": "謝澹引述荀中郎任北府都督時的往事，非謝晦本人的年齡；不由此補年份或出生年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-song044-wyd-hui-death",
+        "person_id": "aa6_83c_juy_AAAA",
+        "value": 37,
+        "source_number": "三十七",
+        "source_term": "年三十七",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-044",
+            "source_id": "s-songshu-044-wyd1739-xiehui",
+            "chapter_id": "c-songshu-044-wyd1739-xiehui",
+            "paragraph_id": "c-songshu-044-wyd1739-xiehui:p016",
+            "quote": "方以自牧非矜石之圜照孰違禍以取福著殷鑒於自古豈獨歎於季叔能安親而揚名諒見稱於先哲保歸全而終孝傷在余而皆缺辱歷世之平素忽盛滿而傾滅惟烝嘗與灑掃痛一朝而永絕問其誰而為之冀孤人之險戾豈有踰於丘山雖萬死其何補羌無面於衡閻親朋交兮平義雖履尚兮不一隆兮好兮情寄俱憚耕兮從祿覩世道兮艱蔽規志局兮功名每謂之兮為易今定諡兮闔棺聽明智兮昔議雖待盡兮為恥嗜厚顏兮靡寘長揖兮數子謝爾兮明智百齡兮浮促終焉兮罔克臥盡兮斧斤理命兮同得世安彼兮非此豈曉分兮辨惑御莊生之達言請承風以為則周超旣降到彦之以參府事劉粹遣參軍沈敞之告彦之沙橋之敗事由周超彦之乃執之先繫檻等猶未卽戮於是與晦遯兄子世基世猷及同黨庾登之孔延秀周超費愔竇應期蔣虔嚴千斯等並伏誅世基絢之子也有才氣臨死為連句詩曰偉哉橫海鱗壯矣垂天翼一旦失風水翻為螻蟻食晦續之曰功遂侔昔人保退無智力旣涉太行險斯路信難陟晦死時年三十七庾登之殿道鸞何承天並皆原免初河東人商玄石為晦參軍晦為逆玄石密欲推西人庾田夫及到彦之從弟為主田夫等",
+            "person_mention_id": "c-songshu-044-wyd1739-xiehui:p016:m0365"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-song044-wyd-hui"
+        },
+        "interpretation_note": "本源明言晦死時年三十七，連到同人同段死亡記載；不把生前答齡當享年或倒算生年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
   },
   "paragraphs": [
     {

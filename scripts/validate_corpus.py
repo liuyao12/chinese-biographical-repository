@@ -163,6 +163,10 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                 except ImportError:from fixed_received_career import local_date_valid
                 chapter=(chapters or {}).get((bound_record or {}).get('evidence',[{}])[0].get('chapter_id'),{})
                 valid=local_date_valid(date,chapter,root,bound_record,bound_role)
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_wyd_execution_narrative_year':
+                try:from scripts.wyd_song044_life import date_valid as wyd_execution_date_valid
+                except ImportError:from wyd_song044_life import date_valid as wyd_execution_date_valid
+                valid = bound_role == 'life_event' and wyd_execution_date_valid(date,bound_record,chapters or {},root)
             if isinstance(mapping, dict) and mapping.get('kind') == 'relative_ce_regnal_era_span':
                 try:
                     from scripts.relative_regnal_year import relative_regnal_year_valid
@@ -1981,6 +1985,10 @@ def validate(root=ROOT):
                     try:from scripts.fixed_wikisource_units import kin_age_designation_valid
                     except ImportError:from fixed_wikisource_units import kin_age_designation_valid
                     check(kin_age_designation_valid(age, chapter, root), '引語父親約數報齡須綁發言者、父子原證與原數，不推精齡或生年')
+                elif 'source_age_answer_binding' in age:
+                    try:from scripts.wyd_song044_age import answer_valid
+                    except ImportError:from wyd_song044_age import answer_valid
+                    check(answer_valid(age,chapter,root),'問年答齡須綁詢問與回答同人、完整原詞，不借他人之齡或造引句')
                 elif 'approximation' in age:
                     try:
                         from scripts.age_approximations import age_approximation_errors
@@ -2255,6 +2263,10 @@ def validate(root=ROOT):
                     errors.extend(native_death_errors(record, event, tables, pids))
                 continue
             check(record.get('record_type') in ('person_life_event_assertion_set', 'person_event_assertion_set') and record.get('chapter_id') in chapters, '生卒事件集類型或篇不存在')
+            if record.get('chapter_id') == 'c-songshu-044-wyd1739-xiehui' and record.get('record_type') == 'person_life_event_assertion_set':
+                try:from scripts.wyd_song044_life import valid as wyd_life_valid
+                except ImportError:from wyd_song044_life import valid as wyd_life_valid
+                check(wyd_life_valid(record,root),'武英殿謝晦篇死亡須依具名列舉、主語承接及同段原免，不借日期或刪矛盾')
             for event in record['events']:
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')

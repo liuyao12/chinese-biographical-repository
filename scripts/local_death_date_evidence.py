@@ -4,6 +4,10 @@ The binding is an explicit source reading, not a claim to infer an event from NL
 The existing relative-year and biography-scope validators remain mandatory.
 """
 def local_death_date_evidence_valid(date, event, chapters, parse_number, root=None):
+    if isinstance(date, dict) and date.get('event_evidence_binding', {}).get('kind') == 'wyd_song044_execution_narrative_year':
+        try:from scripts.wyd_song044_life import date_valid
+        except ImportError:from wyd_song044_life import date_valid
+        return date_valid(date,event,chapters,root)
     if isinstance(date, dict) and date.get('event_evidence_binding', {}).get('kind') == 'biographical_subject_ordinal_chain_death':
         try:
             from scripts.biographical_death_year_chain import valid
