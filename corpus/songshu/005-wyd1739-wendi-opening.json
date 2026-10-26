@@ -56,21 +56,153 @@
     "reviewer": "Codex（AI）",
     "human_reviewed": false,
     "model": null,
-    "coverage": "文帝完整傳首246字AI轉錄初稿；尚未進行逐人NER，所有提及空白。",
+    "coverage": "完整所選246字傳首的姓名、稱謂與代詞第一輪14錨；不稱卷005全卷NER完成。",
     "limitations": [
       "本單元未置未辨字占位，仍為AI影像轉錄初稿。",
       "完整轉錄不等於完整圖校，所有字形編碼仍待覆核。",
       "僅傳首246字，不稱卷005全卷、全冊或全書完成。"
     ],
-    "fixed_transcription_contract": "wuyingdian_song005_opening_transcription"
+    "fixed_transcription_contract": "wuyingdian_song005_opening_transcription",
+    "formal_phase": "song005_opening_emperor_identity_bridge_phase1"
   },
   "paragraphs": [
     {
       "id": "c-songshu-005-wyd1739-wendi-opening:p001",
       "text": "太祖文皇帝諱義隆小字車兒武帝第三子也晉安帝義熙三年生於京口盧循之難上年四歲高祖使諮議參軍劉粹輔上鎮京城十二年封彭城縣公高祖伐羌至彭城將進路板上行冠軍將軍留守晉朝加授使持節監徐兗青冀四州諸軍事徐州刺史將軍如故關中平定高祖還彭城又授監司州豫州之淮西兗州之陳",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0000",
+          "kind": "person",
+          "start": 0,
+          "end": 5,
+          "surface": "太祖文皇帝",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional",
+          "source_role_key": "taizu"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0006",
+          "kind": "person",
+          "start": 6,
+          "end": 8,
+          "surface": "義隆",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional",
+          "source_role_key": "taizu"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0010",
+          "kind": "person",
+          "start": 10,
+          "end": 12,
+          "surface": "車兒",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional",
+          "source_role_key": "taizu"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0012",
+          "kind": "person",
+          "start": 12,
+          "end": 14,
+          "surface": "武帝",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional",
+          "source_role_key": "gaozu"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0018",
+          "kind": "person",
+          "start": 18,
+          "end": 21,
+          "surface": "晉安帝",
+          "person_id": "s6y_280_81r",
+          "status": "contextual_provisional",
+          "source_role_key": "jinandi"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0029",
+          "kind": "person",
+          "start": 29,
+          "end": 31,
+          "surface": "盧循",
+          "person_id": "m8n_ntm_79h_ABBA**A",
+          "status": "contextual_provisional",
+          "source_role_key": "luxun"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0033",
+          "kind": "person",
+          "start": 33,
+          "end": 34,
+          "surface": "上",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional",
+          "source_role_key": "taizu"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0037",
+          "kind": "person",
+          "start": 37,
+          "end": 39,
+          "surface": "高祖",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional",
+          "source_role_key": "gaozu"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0044",
+          "kind": "person",
+          "start": 44,
+          "end": 46,
+          "surface": "劉粹",
+          "person_id": "921_112_227",
+          "status": "contextual_provisional",
+          "source_role_key": "liucui"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0047",
+          "kind": "person",
+          "start": 47,
+          "end": 48,
+          "surface": "上",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional",
+          "source_role_key": "taizu"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0059",
+          "kind": "person",
+          "start": 59,
+          "end": 61,
+          "surface": "高祖",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional",
+          "source_role_key": "gaozu"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0070",
+          "kind": "person",
+          "start": 70,
+          "end": 71,
+          "surface": "上",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional",
+          "source_role_key": "taizu"
+        },
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p001:m0107",
+          "kind": "person",
+          "start": 107,
+          "end": 109,
+          "surface": "高祖",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional",
+          "source_role_key": "gaozu"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song005-wyd1739-wendi-opening/transcription-projection.json",
         "raw_file_sha256": "c19e753cacc68d40ef13c61d732d8da7cdaf889c222561fa721960d5c8460976",
@@ -84,8 +216,19 @@
       "id": "c-songshu-005-wyd1739-wendi-opening:p002",
       "text": "留諸軍事前將軍司州刺史持節如故將鎮洛陽仍改授都督荆益寧雍梁秦六州豫州之河南廣平揚州之義成松滋四郡諸軍事西中郎將荆州刺史持節如故永初元年封宜都王食邑三千戶進督北秦并前七州進號鎮西將軍給鼓吹一部又進督湘州是歲入朝時年十四長七尺五寸博涉經史善隸書",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-005-wyd1739-wendi-opening:p002:m0068",
+          "kind": "person",
+          "start": 68,
+          "end": 71,
+          "surface": "宜都王",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional",
+          "source_role_key": "taizu"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song005-wyd1739-wendi-opening/transcription-projection.json",
         "raw_file_sha256": "c19e753cacc68d40ef13c61d732d8da7cdaf889c222561fa721960d5c8460976",

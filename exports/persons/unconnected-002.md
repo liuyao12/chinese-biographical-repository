@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `a16_cc7_d03` | 員（馮紞父） | [《晉書・王沈 荀顗 荀勖 馮紞》][30] | [JSON](a16_cc7_d03.json) |
-| `a16_d7f_d7e` | 長孫道生 | [《魏書・崔浩》][232] | [JSON](a16_d7f_d7e.json) |
-| `a16_zm9_diw` | 石生 | [《史記・秦始皇本紀》][93] | [JSON](a16_zm9_diw.json) |
-| `a19_9ni_9mq` | 陳嬰母 | [《史記・項羽本紀》][94] | [JSON](a19_9ni_9mq.json) |
 | `a1q_99a_t22` | 司馬氏（荀霬妻） | [《三國志・二荀賈傳》][79] | [JSON](a1q_99a_t22.json) |
 | `a1r_v0c_ghw` | 監祿 | [《史記・平津侯主父列傳》][181] | [JSON](a1r_v0c_ghw.json) |
 | `a1u_jzk_000` | 吳季札 | [《史記・韓世家》][114] | [JSON](a1u_jzk_000.json) |
@@ -70,6 +66,7 @@
 | `a9f_5ms_y31` | 陳恢 | [《史記・高祖本紀》][95] | [JSON](a9f_5ms_y31.json) |
 | `a9s_6ix_kzx` | 趙袑 | [《史記・趙世家》][112] | [JSON](a9s_6ix_kzx.json) |
 | `a9s_bmk_9h5` | 彭祖（陸終子） | [《史記・楚世家》][109] | [JSON](a9s_bmk_9h5.json) |
+| `a9s_uvg_yox` | 曹氏〔臨川太妃〕 | [《宋書・宗室》][212] | [JSON](a9s_uvg_yox.json) |
 | `aa5_798_24b` | 全熙 | [《三國志・徐胡二王傳》][86] | [JSON](aa5_798_24b.json) |
 | `aa5_df8_038` | 蘭延 | [《魏書・崔浩》][232] | [JSON](aa5_df8_038.json) |
 | `aa9_8gx_l6j` | 御說（宋桓公） | [《史記・宋微子世家》][107] | [JSON](aa9_8gx_l6j.json) |
@@ -1760,7 +1757,7 @@
 | `j0b_rzq_6s1` | 姜檀 | [《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][211] | [JSON](j0b_rzq_6s1.json) |
 | `j0g_kpf_v3u` | 呂后長女 | [《史記・外戚世家》][118] | [JSON](j0g_kpf_v3u.json) |
 | `j0k_8uz_am1` | 女房 | [《史記・殷本紀》][90] | [JSON](j0k_8uz_am1.json) |
-| `j14_z5t_w01` | 檀珪祖姑（長沙景王配偶，未名） | [《南齊書・王僧虔 張緒》][67] | [JSON](j14_z5t_w01.json) |
+| `j14_z5t_w01` | 檀珪祖姑（長沙景王配偶，未名） | [《宋書・宗室》][212] | [JSON](j14_z5t_w01.json) |
 | `j16_o3y_zot` | 劉歆 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47] | [JSON](j16_o3y_zot.json) |
 | `j17_pm7_hng` | 王子虎（命晉伯使者） | [《史記・晉世家》][108] | [JSON](j17_pm7_hng.json) |
 | `j1b_ffs_x7d` | 桓公 | [《史記・貨殖列傳》][198] | [JSON](j1b_ffs_x7d.json) |
@@ -2111,6 +2108,8 @@
 | `lai_2xb_0rl` | 呉漢 | [《三國志・諸夏侯曹傳》][77] | [JSON](lai_2xb_0rl.json) |
 | `lap_qc0_yqm` | 呂不韋姬（始皇生母） | [《史記・呂不韋列傳》][154] | [JSON](lap_qc0_yqm.json) |
 | `lat_m8g_z1j` | 彪〔史家班彪首選〕 | [《南齊書・文學》][71] | [JSON](lat_m8g_z1j.json) |
+| `lb8_4u3_h91` | 燕王（趙世家會趙未名者） | [《史記・趙世家》][112] | [JSON](lb8_4u3_h91.json) |
+| `lb8_err_mkx` | 少帝〔張讓劫持者，盧毓裴注〕 | [《三國志・桓二陳徐衞盧傳》][84] | [JSON](lb8_err_mkx.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
@@ -2296,6 +2295,7 @@
 [209]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt
 [210]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt
 [211]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_047.txt
+[212]: https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763
 [213]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt
 [214]: https://zh.wikisource.org/w/index.php?oldid=1996685
 [215]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt

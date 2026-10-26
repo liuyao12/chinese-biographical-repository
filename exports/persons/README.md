@@ -441,15 +441,6 @@
 
 </details>
 
-<details><summary><code>3bh_k4m_fg4</code> 宋太祖義隆（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 宋太祖義隆 | [《宋書・王華 王曇首 殷景仁 沈演之》][221] | [JSON](3bh_k4m_fg4.json) |
-| `A` | 東陽獻公主 | [《宋書・徐湛之 江湛 王僧綽》][226] | [JSON](3bh_k4m_fg4_A.json) |
-
-</details>
-
 <details><summary><code>3c9_d1d_870</code> 王謐（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -482,7 +473,7 @@
 
 </details>
 
-<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（6 名）</summary>
+<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（19 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -490,7 +481,20 @@
 | `A` | 靖〔翹父；東安太守〕 | [《宋書・武帝上》][200] | [JSON](3qs_nqa_ioa_A.json) |
 | `AA` | 翹〔孝皇帝；高祖之父〕 | [《宋書・后妃》][204] | [JSON](3qs_nqa_ioa_AA.json) |
 | `AAA` | 宋高祖裕 | [《魏書・崔浩》][232] | [JSON](3qs_nqa_ioa_AAA.json) |
-| `AAB` | 道憐 | [《宋書・張茂度 庾登之 謝方明 江夷》][215] | [JSON](3qs_nqa_ioa_AAB.json) |
+| `AAAA` | 宋文帝劉義隆 | [《宋書・王華 王曇首 殷景仁 沈演之》][221] | [JSON](3qs_nqa_ioa_AAAA.json) |
+| `AAAAA` | 東陽獻公主 | [《宋書・徐湛之 江湛 王僧綽》][226] | [JSON](3qs_nqa_ioa_AAAAA.json) |
+| `AAB` | 道憐 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AAB.json) |
+| `AABA` | 長沙王義欣 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABA.json) |
+| `AABB` | 劉義慶 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABB.json) |
+| `AABBA` | 臨川王義慶女（王僧達妻，未名） | [《宋書・王僧達 顏竣》][227] | [JSON](3qs_nqa_ioa_AABBA.json) |
+| `AABC` | 劉義融 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABC.json) |
+| `AABD` | 劉義宗 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABD.json) |
+| `AABE` | 義賓 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABE.json) |
+| `AABEA` | 劉綜 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEA.json) |
+| `AABEAA` | 劉憲 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEAA.json) |
+| `AABEB` | 劉珪 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEB.json) |
+| `AABF` | 劉義綦 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABF.json) |
+| `AABFA` | 劉長歆 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABFA.json) |
 | `AAC` | 臨川王道規 | [《晉書・叛臣二》][60] | [JSON](3qs_nqa_ioa_AAC.json) |
 
 </details>
@@ -2858,15 +2862,6 @@
 
 </details>
 
-<details><summary><code>ptn_sz3_vro</code> 劉義慶（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 劉義慶 | [《宋書・謝靈運》][225] | [JSON](ptn_sz3_vro.json) |
-| `A` | 臨川王義慶女（王僧達妻，未名） | [《宋書・王僧達 顏竣》][227] | [JSON](ptn_sz3_vro_A.json) |
-
-</details>
-
 <details><summary><code>pyb_nda_bwz</code> 鄖公與懷之父（伍胥列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -4310,6 +4305,7 @@
 [206]: https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf&oldid=979637198
 [209]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt
 [210]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt
+[212]: https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763
 [213]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt
 [214]: https://zh.wikisource.org/w/index.php?oldid=1996685
 [215]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt

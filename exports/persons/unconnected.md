@@ -319,7 +319,6 @@
 | `1ek_3vw_o3p` | 張倪 | [《南史・王曇首》][73] | [JSON](1ek_3vw_o3p.json) |
 | `1eo_0xn_30q` | 黃公〔酒壚主人〕 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](1eo_0xn_30q.json) |
 | `1f1_f1a_b17` | 荀昱 | [《後漢書・荀韓鍾陳列傳》][15]、[《三國志・二荀賈傳》][79] | [JSON](1f1_f1a_b17.json) |
-| `1f5_x7z_phn` | 義賓 | [《宋書・謝晦》][206] | [JSON](1f5_x7z_phn.json) |
 | `1fa_jx6_oun` | 高不識 | [《史記・衛將軍驃騎列傳》][180]、[《史記・建元以來侯者年表》][250] | [JSON](1fa_jx6_oun.json) |
 | `1fr_ilo_r7y` | 公孫瓚 | [《三國志・桓二陳徐衞盧傳》][84] | [JSON](1fr_ilo_r7y.json) |
 | `1gj_dvk_m38` | 尚席 | [《史記・絳侯周勃世家》][126] | [JSON](1gj_dvk_m38.json) |
@@ -425,7 +424,6 @@
 | `224_en7_aho` | 王朔 | [《史記・李將軍列傳》][178] | [JSON](224_en7_aho.json) |
 | `227_8fc_jvj` | 悼惠（齊） | [《史記・太史公自序》][199] | [JSON](227_8fc_jvj.json) |
 | `22a_55a_8e9` | 羅脩 | [《魏書・刁雍 王慧龍 韓延之 袁式》][233] | [JSON](22a_55a_8e9.json) |
-| `22c_ebb_6e0` | 劉義隆 | [《魏書・崔浩》][232] | [JSON](22c_ebb_6e0.json) |
 | `22o_cth_7hm` | 淳于髡 | [《史記・孟子荀卿列傳》][143] | [JSON](22o_cth_7hm.json) |
 | `22r_5ks_fa9` | 畢軌子 | [《三國志・諸夏侯曹傳》][77] | [JSON](22r_5ks_fa9.json) |
 | `23d_95b_500` | 士匄 | [《三國志・徐胡二王傳》][86]、[《史記・晉世家》][108]、[《魏書・崔浩》][232] | [JSON](23d_95b_500.json) |
@@ -1104,7 +1102,6 @@
 | `598_66i_v3t` | 叔封 | [《史記・太史公自序》][199] | [JSON](598_66i_v3t.json) |
 | `599_933_f74` | 孫佑 | [《晉書・王沈 荀顗 荀勖 馮紞》][30] | [JSON](599_933_f74.json) |
 | `59d_72d_924` | 王雅 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][45] | [JSON](59d_72d_924.json) |
-| `59f_167_cb3` | 長沙王義欣 | [《宋書・謝晦》][206]、[《宋書・張茂度 庾登之 謝方明 江夷》][214] | [JSON](59f_167_cb3.json) |
 | `59m_lub_ftn` | 燕伋 | [《史記・仲尼弟子列傳》][136] | [JSON](59m_lub_ftn.json) |
 | `59o_pnz_um0` | 呂釋之嗣子（未名） | [《史記・呂后本紀》][96] | [JSON](59o_pnz_um0.json) |
 | `59p_dir_tdq` | 檀祗 | [《宋書・趙倫之 王懿 張邵》][210] | [JSON](59p_dir_tdq.json) |
@@ -2103,6 +2100,10 @@
 | `a0f_cc7_f65` | 石堪 | [《晉書・王沈 荀顗 荀勖 馮紞》][30] | [JSON](a0f_cc7_f65.json) |
 | `a0l_8nr_2to` | 齊湣王相（議歸楚太子未名者） | [《史記・楚世家》][109] | [JSON](a0l_8nr_2to.json) |
 | `a0o_gfd_aj2` | 田單 | [《史記・太史公自序》][199] | [JSON](a0o_gfd_aj2.json) |
+| `a16_cc7_d03` | 員（馮紞父） | [《晉書・王沈 荀顗 荀勖 馮紞》][30] | [JSON](a16_cc7_d03.json) |
+| `a16_d7f_d7e` | 長孫道生 | [《魏書・崔浩》][232] | [JSON](a16_d7f_d7e.json) |
+| `a16_zm9_diw` | 石生 | [《史記・秦始皇本紀》][93] | [JSON](a16_zm9_diw.json) |
+| `a19_9ni_9mq` | 陳嬰母 | [《史記・項羽本紀》][94] | [JSON](a19_9ni_9mq.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

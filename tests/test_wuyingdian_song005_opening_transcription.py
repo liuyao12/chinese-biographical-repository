@@ -8,12 +8,23 @@ except ImportError:
  from render_corpus import render
 ROOT=Path(__file__).resolve().parents[1]
 class Song005(unittest.TestCase):
- def setUp(self):self.c=json.loads((ROOT/'corpus/songshu/005-wyd1739-wendi-opening.json').read_text())
+ def setUp(self):
+  self.actual=json.loads((ROOT/'corpus/songshu/005-wyd1739-wendi-opening.json').read_text());self.c=self.actual;self.formal_count=None
+  if self.actual.get('annotation',{}).get('formal_phase')=='song005_opening_emperor_identity_bridge_phase1':
+   from scripts.fixed_wuyingdian_song051_family_phase import source_errors005 as formal_errors
+   errors=formal_errors(self.actual,ROOT)
+   if errors:raise AssertionError(errors)
+   contract=json.loads((ROOT/'source-evidence/song051-wyd1739-zongshi/formal-role-contract.json').read_bytes())
+   self.c=copy.deepcopy(contract['song005_opening_bridge']['source_before']);self.formal_count=len(contract['song005_opening_bridge']['markers'])
+  self.assertEqual([(p['id'],p['text'],p['source_position'])for p in self.c['paragraphs']],[(p['id'],p['text'],p['source_position'])for p in self.actual['paragraphs']])
  def test_complete_pending_source_and_xml(self):
   self.assertEqual(source_errors(self.c,ROOT),[])
-  self.assertEqual(render(self.c),(ROOT/'corpus/songshu/005-wyd1739-wendi-opening.xml').read_text())
+  self.assertEqual(render(self.actual),(ROOT/'corpus/songshu/005-wyd1739-wendi-opening.xml').read_text())
   self.assertEqual(len(self.c['paragraphs']),2)
   self.assertTrue(all(p['annotation_status']=='pending'and not p['mentions']for p in self.c['paragraphs']))
+  if self.formal_count is not None:
+   self.assertEqual(sum(len(p['mentions'])for p in self.actual['paragraphs']),self.formal_count)
+   self.assertTrue(all(p['annotation_status']==('in_progress'if p['mentions']else'pending')for p in self.actual['paragraphs']))
  def test_wrong_layer_and_missing_binding(self):
   for field in ('layer','binding'):
    c=copy.deepcopy(self.c)

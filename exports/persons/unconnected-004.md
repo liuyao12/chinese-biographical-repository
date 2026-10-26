@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `y22_27d_6v9` | 楊暨 | [《三國志・諸夏侯曹傳》][76] | [JSON](y22_27d_6v9.json) |
-| `y2c_5yn_lpn` | 沈尹戍 | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](y2c_5yn_lpn.json) |
 | `y38_ic5_9vk` | 卜齮 | [《史記・魯周公世家》][102] | [JSON](y38_ic5_9vk.json) |
 | `y39_cg2_ep7` | 春申 | [《史記・貨殖列傳》][198] | [JSON](y39_cg2_ep7.json) |
 | `y3l_45z_mfp` | 帝辛 | [《史記・太史公自序》][199] | [JSON](y3l_45z_mfp.json) |
@@ -324,7 +322,6 @@
 [67]: https://github.com/kanripo/KR2a0017/blob/787dd9a7da495542e8f17c26c96900ce37b2c211/KR2a0017_033.txt
 [69]: https://zh.wikisource.org/w/index.php?title=南齊書/卷43&oldid=2400356
 [74]: https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B724&oldid=1765279
-[76]: https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt
 [77]: https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt
 [79]: https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_010.txt
 [81]: https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_015.txt

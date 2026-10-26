@@ -552,9 +552,9 @@ def _validate_uncached(root=ROOT):
             errors.extend(fixed_kanripo_projection_errors(d, root))
             # fixed-wuyingdian-song051-transcription: exact pending AI witness, not generic layers.
             try:
-                from scripts.fixed_wuyingdian_song051 import source_errors as wuyingdian_song051_errors
+                from scripts.fixed_wuyingdian_song051_family_phase import source_errors as wuyingdian_song051_errors
             except ImportError:
-                from fixed_wuyingdian_song051 import source_errors as wuyingdian_song051_errors
+                from fixed_wuyingdian_song051_family_phase import source_errors as wuyingdian_song051_errors
             wuyingdian_051_issues = wuyingdian_song051_errors(d, root)
             errors.extend(wuyingdian_051_issues)
             wuyingdian_song051_layer_valid = (d.get('id') == 'c-songshu-051-wyd1739-zongshi'
@@ -562,9 +562,9 @@ def _validate_uncached(root=ROOT):
                 and not wuyingdian_051_issues)
             # fixed-wuyingdian-song005-opening-transcription: exact pending partial-chapter witness.
             try:
-                from scripts.fixed_wuyingdian_song005_opening import source_errors as wuyingdian_song005_opening_errors
+                from scripts.fixed_wuyingdian_song051_family_phase import source_errors005 as wuyingdian_song005_opening_errors
             except ImportError:
-                from fixed_wuyingdian_song005_opening import source_errors as wuyingdian_song005_opening_errors
+                from fixed_wuyingdian_song051_family_phase import source_errors005 as wuyingdian_song005_opening_errors
             errors.extend(wuyingdian_song005_opening_errors(d, root))
             # fixed-wuyingdian-song045-liucui-transcription: exact pending partial-chapter witness.
             try:
@@ -1601,6 +1601,10 @@ def _validate_uncached(root=ROOT):
                 check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','father_in_law','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                # Exact WYD051 family and WYD005 opening roles, preserving original pending source branches.
+                try:from scripts.fixed_wuyingdian_song051_family_phase import applies as song051_applies, family_valid as song051_family_valid
+                except ImportError:from fixed_wuyingdian_song051_family_phase import applies as song051_applies, family_valid as song051_family_valid
+                if song051_applies(a):check(song051_family_valid(a,paragraphs,chapters,root),'武英殿宋051/005有限親族須原字、來源、主客角色及雙向引用全符')
                 # Exact two WYD044 younger-brother clauses, including their source-role reverse evidence.
                 try:from scripts.wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
                 except ImportError:from wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
@@ -1776,7 +1780,7 @@ def _validate_uncached(root=ROOT):
                           and qualifiers.get('exact_distance') is None
                           and any('大父行' in e.get('quote', '') for e in a['evidence']),
                           '大父行只記祖父輩，不得補直系祖父或親等')
-                if a['predicate'] == 'adoptive_father':
+                if a['predicate'] == 'adoptive_father' and not (song051_applies(a) and song051_family_valid(a,paragraphs,chapters,root)):
                     try:
                         from scripts.chuji_parentage import chuji_parentage_valid
                     except ImportError:

@@ -300,6 +300,9 @@ def load_catalog(root=ROOT):
 
 def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     people, records = catalog if catalog is not None else load_catalog(root)
+    try:from .fixed_wuyingdian_song051_family_phase import guard_bundle as guard_song051_bundle
+    except ImportError:from fixed_wuyingdian_song051_family_phase import guard_bundle as guard_song051_bundle
+    guard_song051_bundle(root,person_id,people,records)
     requested_id = person_id
     aliases = {alias: pid for pid, person in people.items() for alias in person.get('id_aliases', [])}
     person_id = aliases.get(person_id, person_id)
@@ -386,7 +389,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
                 ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship') else relations), root=root)
+                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship', 'contextual_surname_from_wyd_song051_named_path') else relations), root=root)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:
