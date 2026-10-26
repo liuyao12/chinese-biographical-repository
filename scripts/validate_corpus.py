@@ -550,6 +550,16 @@ def _validate_uncached(root=ROOT):
             except ImportError:
                 from fixed_kanripo_projection import errors as fixed_kanripo_projection_errors
             errors.extend(fixed_kanripo_projection_errors(d, root))
+            # fixed-wuyingdian-song051-transcription: exact pending AI witness, not generic layers.
+            try:
+                from scripts.fixed_wuyingdian_song051 import source_errors as wuyingdian_song051_errors
+            except ImportError:
+                from fixed_wuyingdian_song051 import source_errors as wuyingdian_song051_errors
+            wuyingdian_051_issues = wuyingdian_song051_errors(d, root)
+            errors.extend(wuyingdian_051_issues)
+            wuyingdian_song051_layer_valid = (d.get('id') == 'c-songshu-051-wyd1739-zongshi'
+                and isinstance(d.get('annotation'), dict) and d['annotation'].get('fixed_transcription_contract') == 'wuyingdian_song051_transcription'
+                and not wuyingdian_051_issues)
             # fixed-wuyingdian-song044-transcription: source-only exact witness gate.
             try:
                 from scripts.fixed_wuyingdian_song044 import source_errors as wuyingdian_song044_errors
@@ -628,7 +638,7 @@ def _validate_uncached(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation') or (p.get('text_layer') in ('received_compiler_appraisal','witness_appended_wuyingdian_collation') and wuyingdian_song044_layer_valid),'文字層次無效')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation') or (p.get('text_layer') in ('received_compiler_appraisal','witness_appended_wuyingdian_collation') and (wuyingdian_song044_layer_valid or wuyingdian_song051_layer_valid)),'文字層次無效')
                 try:
                     from scripts.houhan_text_layers import layer_errors
                 except ImportError:
