@@ -58,6 +58,11 @@ class Song045(unittest.TestCase):
   for before,after,index in [('日','曰',11),('毋','母',11),('謙之','謙送',12)]:
    c=copy.deepcopy(self.c);p=c['paragraphs'][index];p['text']=p['text'].replace(before,after,1)
    self.assertTrue(source_errors(c,ROOT))
+ def test_image_year_three_only(self):
+  self.assertTrue(self.c['paragraphs'][3]['text'].startswith('沙門二千餘人以補府史元嘉三年討謝晦'))
+  c=copy.deepcopy(self.c);p=c['paragraphs'][3];p['text']=p['text'][:12]+'二'+p['text'][13:]
+  self.assertTrue(source_errors(c,ROOT))
+  self.assertEqual(self.c['paragraphs'][3]['text'][2],'二')
  def test_bad_types_and_legacy_non_target(self):
   for c in (None,[],42,'bad'):self.assertTrue(source_errors(c,ROOT))
   self.assertEqual(source_errors({'id':'other','source_id':'other','annotation':{}},ROOT),[])
