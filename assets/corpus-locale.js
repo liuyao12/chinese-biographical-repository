@@ -1,4 +1,5 @@
 export default {
+  'Source-attested brothers (parent unidentified)':'明文弟兄（父未名）',
   'Preferred source transcription':'首選轉錄',
   'Comparison transcription':'比較轉錄',
   'Base edition not researched':'底本待核',

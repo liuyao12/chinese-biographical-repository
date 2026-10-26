@@ -16,6 +16,11 @@ def fixed(root,name):
  need(p.is_relative_to(root/'source-evidence'),'路徑越界')
  b=p.read_bytes();need(hashlib.sha256(b).hexdigest()==PINS[name],name+' SHA不符');return b
 def validate_source(chapter,root):
+ # fixed-wyd045-ner-projection: validate this finite role layer, then retain original source-only gate.
+ if isinstance(chapter,dict)and isinstance(chapter.get('annotation'),dict)and 'fixed_ner_role_layer'in chapter['annotation']:
+  try:from scripts.wyd_song045_roles import source_only_projection
+  except ImportError:from wyd_song045_roles import source_only_projection
+  chapter=source_only_projection(chapter,root)
  need(isinstance(chapter,dict),'章須為物件')
  c=json.loads(fixed(root,'transcription-witness-contract.json'))
  need(all(chapter.get(k)==v for k,v in c['chapter_dimensions'].items()),'來源維度不符')

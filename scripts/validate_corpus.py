@@ -1601,6 +1601,10 @@ def _validate_uncached(root=ROOT):
                 check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','father_in_law','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                # fixed-wyd045-relations: full finite source roles, not membership exemption.
+                try:from scripts.wyd_song045_roles import relation_applies as wyd045_applies, relation_valid as wyd045_valid
+                except ImportError:from wyd_song045_roles import relation_applies as wyd045_applies, relation_valid as wyd045_valid
+                if wyd045_applies(a):check(wyd045_valid(a,paragraphs,chapters,root),'宋045近親須綁完整段落、來源角色、方向及未知親等')
                 # Exact WYD051 family and WYD005 opening roles, preserving original pending source branches.
                 try:from scripts.fixed_wuyingdian_song051_family_phase import applies as song051_applies, family_valid as song051_family_valid
                 except ImportError:from fixed_wuyingdian_song051_family_phase import applies as song051_applies, family_valid as song051_family_valid
@@ -2595,6 +2599,10 @@ def _validate_uncached(root=ROOT):
             from surname_from_father import validate as validate_inferred_surname
         all_name_records = [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']]
         for n in all_name_records:
+            # fixed-wyd045-name-components
+            try:from scripts.wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid
+            except ImportError:from wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid
+            if wyd045_name_applies(n):check(wyd045_name_valid(n,all_name_records,chapters,family_relations,root),'宋045姓名須依原名錨點及完整近系姓氏證據')
             if 'component_source_binding' in n:
                 try:from scripts.received_family_names import source_component_valid
                 except ImportError:from received_family_names import source_component_valid

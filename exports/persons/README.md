@@ -1189,6 +1189,20 @@
 
 </details>
 
+<details><summary><code>8lh_jgi_l6a</code> 劉恢（7 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 劉恢 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](8lh_jgi_l6a.json) |
+| `*A` | 劉粹 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](8lh_jgi_l6a_%2AA.json) |
+| `*AA` | 劉曠之 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](8lh_jgi_l6a_%2AAA.json) |
+| `*AAA` | 劉琛 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](8lh_jgi_l6a_%2AAAA.json) |
+| `*AAB` | 劉亮〔琛弟〕 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](8lh_jgi_l6a_%2AAAB.json) |
+| `*AB` | 劉懷之 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](8lh_jgi_l6a_%2AAB.json) |
+| `*B` | 劉道濟 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](8lh_jgi_l6a_%2AB.json) |
+
+</details>
+
 <details><summary><code>8rw_c97_jpz</code> 梁伯（晉惠公外家）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1516,6 +1530,15 @@
 | `AA` | 張偃 | [《史記・呂后本紀》][96]、[《史記・張耳陳餘列傳》][158] | [JSON](agx_sqm_4ou_AA.json) |
 | `AB` | 張壽 | [《史記・張耳陳餘列傳》][158] | [JSON](agx_sqm_4ou_AB.json) |
 | `AC` | 張侈 | [《史記・張耳陳餘列傳》][158] | [JSON](agx_sqm_4ou_AC.json) |
+
+</details>
+
+<details><summary><code>ajf_qc7_zd5</code> 劉鎮之（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 劉鎮之 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](ajf_qc7_zd5.json) |
+| `A` | 劉損 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](ajf_qc7_zd5_A.json) |
 
 </details>
 
@@ -2071,6 +2094,15 @@
 | `A` | 周昌（蒯成侯之子） | [《漢書・樊酈滕灌傅靳周傳》][9]、[《史記・傅靳蒯成列傳》][167]、[《史記・高祖功臣侯者年表》][248] | [JSON](fvm_66f_0k3_A.json) |
 | `C` | 周應 | [《漢書・樊酈滕灌傅靳周傳》][9] | [JSON](fvm_66f_0k3_C.json) |
 | `CA` | 周仲居 | [《史記・高祖功臣侯者年表》][248] | [JSON](fvm_66f_0k3_CA.json) |
+
+</details>
+
+<details><summary><code>g5q_uxb_7wo</code> 程道養等弟兄（原文明記；父未名）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `A` | 程道養 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](g5q_uxb_7wo_A.json) |
+| `B` | 程道助 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](g5q_uxb_7wo_B.json) |
 
 </details>
 
@@ -4303,6 +4335,7 @@
 [204]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_041.txt
 [205]: https://zh.wikisource.org/w/index.php?title=宋書/卷42&oldid=1478172
 [206]: https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf&oldid=979637198
+[208]: https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf&oldid=979637198
 [209]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt
 [210]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt
 [212]: https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763

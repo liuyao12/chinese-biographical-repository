@@ -35,7 +35,7 @@ def load_assemblies(root, catalog):
                 from personless_namespace import namespace_members
             if any(row.get('namespace_id') == assembly.get('namespace_id') for row in assembled.values()):
                 raise ValueError('Namespace reused by another assembly')
-            namespace_rows = namespace_members(assembly, people, assertions, chapters)
+            namespace_rows = namespace_members(assembly, people, assertions, chapters, root=root)
             if any(pid in assembled or source in source_map for pid, row in namespace_rows.items() for source in row['source_person_ids']):
                 raise ValueError('Namespace member already assembled')
             for pid, row in namespace_rows.items():
