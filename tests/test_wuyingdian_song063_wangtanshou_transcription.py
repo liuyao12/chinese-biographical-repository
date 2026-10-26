@@ -59,6 +59,11 @@ class Song063(unittest.TestCase):
   for off,bad in [(9,'主'),(12,'表'),(16,'須')]:
    c=copy.deepcopy(self.c);v=c['paragraphs'][5];v['text']=v['text'][:off]+bad+v['text'][off+1:]
    self.assertTrue(source_errors(c,ROOT))
+ def test_xin_image_glyph_not_comparison_normalization(self):
+  self.assertEqual(self.c['paragraphs'][3]['text'][201],'舋')
+  for glyph in ['豈','釁']:
+   c=copy.deepcopy(self.c);p=c['paragraphs'][3];p['text']=p['text'][:201]+glyph+p['text'][202:]
+   self.assertTrue(source_errors(c,ROOT))
  def test_badtypes_and_legacy_non_target(self):
   for c in (None,[],42,'bad'):self.assertTrue(source_errors(c,ROOT))
   self.assertEqual(source_errors({'id':'other','source_id':'other','annotation':{}},ROOT),[])
