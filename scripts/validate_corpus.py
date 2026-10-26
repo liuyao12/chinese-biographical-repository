@@ -111,6 +111,11 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
         try:from scripts.wyd_song044_noble_year import valid as noble_year_valid
         except ImportError:from wyd_song044_noble_year import valid as noble_year_valid
         return [] if noble_year_valid(date,bound_record,bound_role,chapters or {},root) else ['跨來源同詔封年須綁完整比較單元、兩人同爵食邑、明年及取得資格']
+    # fixed-wyd045-life-date
+    if date.get('event_evidence_binding',{}).get('kind')=='fixed_wyd045_death_local_year':
+        try:from scripts.wyd_song045_lifecycle import date_valid
+        except ImportError:from wyd_song045_lifecycle import date_valid
+        return [] if bound_role=='life_event'and date_valid(date,bound_record,chapters or {},root)else['宋045死亡日期須綁本源人物、完整年鏈及固定宋元嘉對照，不借旁人或月日']
     era, year, number = date.get('era'), date.get('year'), date.get('era_year')
     if era not in ('BCE', 'CE') or type(year) is not int or type(number) is not int or number <= 0:
         errors.append('紀年換算須有數字年份與正整數時代年')
@@ -2348,6 +2353,11 @@ def _validate_uncached(root=ROOT):
                 try:from scripts.wyd_song044_life import valid as wyd_life_valid
                 except ImportError:from wyd_song044_life import valid as wyd_life_valid
                 check(wyd_life_valid(record,root),'武英殿謝晦篇死亡須依具名列舉、主語承接及同段原免，不借日期或刪矛盾')
+            # fixed-wyd045-life-record
+            if record.get('chapter_id')=='c-songshu-045-wyd1739-liucui'and record.get('record_type')=='person_life_event_assertion_set':
+                try:from scripts.wyd_song045_lifecycle import valid as wyd045_life_valid
+                except ImportError:from wyd_song045_lifecycle import valid as wyd045_life_valid
+                check(all(wyd045_life_valid(e,root)for e in record['events']),'宋045死亡本源角色/敘事時點不符')
             for event in record['events']:
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')

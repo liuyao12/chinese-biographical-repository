@@ -443,6 +443,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         from .life_event_dates import selected_dates
     except ImportError:
         from life_event_dates import selected_dates
+    # fixed-wyd045-life-consumer
+    try:from scripts.wyd_song045_lifecycle import valid as wyd045_life_valid
+    except ImportError:from wyd_song045_lifecycle import valid as wyd045_life_valid
+    for event in life_events:
+        if event.get('source_wyd045_death_scope',{}).get('kind')=='fixed_wyd045_death_scope'and not wyd045_life_valid(event,root):raise ValueError('宋045死亡日期/來源角色不符')
     selected_life_dates = selected_dates(life_events, date_decisions)
     kinship_cases = [case for chapter in chapters.values() for case in chapter['annotation'].get('kinship_interpretation_cases', []) if ids.intersection((case['subject_person_id'], case['object_person_id']))]
     unresolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('unresolved_identity_cases', []) if ids.intersection(case['candidate_person_ids'])]

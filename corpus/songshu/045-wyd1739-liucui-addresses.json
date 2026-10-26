@@ -1,0 +1,58 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_address_assertion_set",
+  "chapter_id": "c-songshu-045-wyd1739-liucui",
+  "assertions": [
+    {
+      "id": "addr-song045-wyd-liucui-origin",
+      "person_id": "8lh_jgi_l6a_*A",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "沛郡蕭",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "source_term": "沛郡蕭人也",
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-045",
+          "source_id": "s-songshu-045-wyd1739-liucui",
+          "chapter_id": "c-songshu-045-wyd1739-liucui",
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p001",
+          "quote": "劉粹字道沖沛郡蕭人也祖恢持節監河中軍事征虜將軍粹家在京口少有志幹初為州從事高祖克京城參建武軍事從平京邑轉參鎮軍事尋加建武將軍沛郡太守又領下邳太守復為車騎中軍參軍從征廣固戰功居多以義功封西安縣五等侯軍還轉中軍諮議參軍盧循逼京邑京口任重太祖時年四歲高祖使粹",
+          "person_mention_id": "c-songshu-045-wyd1739-liucui:p001:m0000"
+        }
+      ],
+      "source_address_binding": {
+        "kind": "layered_biography_address",
+        "rule": "biography_origin",
+        "source_revision": "cbr-ai-transcription-sha256:ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
+        "paragraph_sha256": "81bcfc53cb3599f35db40712715cce66838d23143c8153e9a2b8ae60e9db4d73",
+        "roles": {
+          "subject": "c-songshu-045-wyd1739-liucui:p001:m0000",
+          "style": "c-songshu-045-wyd1739-liucui:p001:m0003"
+        },
+        "subject_role": "subject",
+        "scope_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p001",
+          "start": 0,
+          "end": 10,
+          "surface": "劉粹字道沖沛郡蕭人也"
+        },
+        "place_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p001",
+          "start": 5,
+          "end": 8,
+          "surface": "沛郡蕭"
+        }
+      },
+      "interpretation_note": "傳首明稱沛郡蕭人；不當出生地，不換現代行政區，也不傳給祖、弟或子。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

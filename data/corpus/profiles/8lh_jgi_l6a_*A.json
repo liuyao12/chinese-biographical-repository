@@ -11,7 +11,61 @@
     "粹"
   ],
   "titles": [],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "addr-song045-wyd-liucui-origin",
+      "person_id": "8lh_jgi_l6a_*A",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "沛郡蕭",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "source_term": "沛郡蕭人也",
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-045",
+          "source_id": "s-songshu-045-wyd1739-liucui",
+          "chapter_id": "c-songshu-045-wyd1739-liucui",
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p001",
+          "quote": "劉粹字道沖沛郡蕭人也祖恢持節監河中軍事征虜將軍粹家在京口少有志幹初為州從事高祖克京城參建武軍事從平京邑轉參鎮軍事尋加建武將軍沛郡太守又領下邳太守復為車騎中軍參軍從征廣固戰功居多以義功封西安縣五等侯軍還轉中軍諮議參軍盧循逼京邑京口任重太祖時年四歲高祖使粹",
+          "person_mention_id": "c-songshu-045-wyd1739-liucui:p001:m0000"
+        }
+      ],
+      "source_address_binding": {
+        "kind": "layered_biography_address",
+        "rule": "biography_origin",
+        "source_revision": "cbr-ai-transcription-sha256:ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
+        "paragraph_sha256": "81bcfc53cb3599f35db40712715cce66838d23143c8153e9a2b8ae60e9db4d73",
+        "roles": {
+          "subject": "c-songshu-045-wyd1739-liucui:p001:m0000",
+          "style": "c-songshu-045-wyd1739-liucui:p001:m0003"
+        },
+        "subject_role": "subject",
+        "scope_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p001",
+          "start": 0,
+          "end": 10,
+          "surface": "劉粹字道沖沛郡蕭人也"
+        },
+        "place_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p001",
+          "start": 5,
+          "end": 8,
+          "surface": "沛郡蕭"
+        }
+      },
+      "interpretation_note": "傳首明稱沛郡蕭人；不當出生地，不換現代行政區，也不傳給祖、弟或子。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "term": "沛郡蕭人也",
+      "quote": "劉粹字道沖沛郡蕭人也祖恢持節監河中軍事征虜將軍粹家在京口少有志幹初為州從事高祖克京城參建武軍事從平京邑轉參鎮軍事尋加建武將軍沛郡太守又領下邳太守復為車騎中軍參軍從征廣固戰功居多以義功封西安縣五等侯軍還轉中軍諮議參軍盧循逼京邑京口任重太祖時年四歲高祖使粹"
+    }
+  ],
   "occurrences": [
     {
       "number": 5,
@@ -1201,7 +1255,98 @@
     "a59_2c3_a2e": "劉毅（護軍將軍）",
     "ajf_qc7_zd5_A": "劉損"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "CE",
+      "year": 427,
+      "era_year": 427,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "calendar": "chinese_civil",
+      "source_expression": "明年",
+      "original_quote": "沙門二千餘人以補府史元嘉三年討謝晦遣粹弟車騎從事中郎道濟龍驤將軍沈敞之就粹自陸道向江陵粹以道濟行竟陵內史與敞之及南陽太守沈道興步騎至沙橋為晦司馬周超所敗士衆傷死者過半降號寧朔將軍初晦與粹厚善以粹子曠之為參軍粹受命南討一無所顧太祖以此嘉之晦遣送曠之還粹亦不害也明年粹卒時年五十三追贈安北將軍持節本官如故曠之嗣官至晉熙太守曠之卒子琛嗣琛卒無子國除琛弟亮順帝昇明末尚書駕部郎粹庶長子懷之為臨川內史與臧質同逆伏誅粹弟道濟尚書起部",
+      "status": "editorial_provisional",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-045",
+          "source_id": "s-songshu-045-wyd1739-liucui",
+          "chapter_id": "c-songshu-045-wyd1739-liucui",
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+          "quote": "沙門二千餘人以補府史元嘉三年討謝晦遣粹弟車騎從事中郎道濟龍驤將軍沈敞之就粹自陸道向江陵粹以道濟行竟陵內史與敞之及南陽太守沈道興步騎至沙橋為晦司馬周超所敗士衆傷死者過半降號寧朔將軍初晦與粹厚善以粹子曠之為參軍粹受命南討一無所顧太祖以此嘉之晦遣送曠之還粹亦不害也明年粹卒時年五十三追贈安北將軍持節本官如故曠之嗣官至晉熙太守曠之卒子琛嗣琛卒無子國除琛弟亮順帝昇明末尚書駕部郎粹庶長子懷之為臨川內史與臧質同逆伏誅粹弟道濟尚書起部",
+          "person_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0018"
+        }
+      ],
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "scope": "modern_era_year_equivalence_only",
+          "quote": "元嘉",
+          "columns": {
+            "dynasty": "宋",
+            "era_name": "元嘉",
+            "first_year": "424",
+            "last_year": "453"
+          },
+          "fixed_row_reference": {
+            "path": "source-evidence/song045-wyd1739-liucui/life-moe-yuanjia-row.json",
+            "sha256": "fc8a17ad4e6050f84622b4dd3360c3e37eecfc4fdac0be4608d9281dc121847c"
+          },
+          "image_verified": false
+        }
+      ],
+      "rationale": "AI依完整本源段落與逐年/月錨點換算中國曆年；正月保原詞，不補西曆月日或農曆日序。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_evidence_binding": {
+        "kind": "fixed_wyd045_death_local_year",
+        "event_id": "le-song045-wyd-cui",
+        "person_id": "8lh_jgi_l6a_*A",
+        "subject_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0131",
+        "chain": [
+          {
+            "anchor": {
+              "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+              "start": 10,
+              "end": 14,
+              "surface": "元嘉三年"
+            },
+            "regnal_year": 3,
+            "paragraph_sha256": "033d6f616bc63e335d753f8d3b42c5fc08e5c8f547d4a02505345428d389101f"
+          },
+          {
+            "anchor": {
+              "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+              "start": 129,
+              "end": 131,
+              "surface": "明年"
+            },
+            "regnal_year": 4,
+            "paragraph_sha256": "033d6f616bc63e335d753f8d3b42c5fc08e5c8f547d4a02505345428d389101f"
+          }
+        ],
+        "calendar_row": {
+          "path": "source-evidence/song045-wyd1739-liucui/life-moe-yuanjia-row.json",
+          "sha256": "fc8a17ad4e6050f84622b4dd3360c3e37eecfc4fdac0be4608d9281dc121847c"
+        },
+        "human_reviewed": false
+      },
+      "regnal_year_mapping": {
+        "kind": "fixed_wyd045_death_local_year",
+        "era_name": "元嘉",
+        "start_ce_year": 424,
+        "end_ce_year": 453,
+        "regnal_year": 4,
+        "reference_index": 0
+      },
+      "record_id": "le-song045-wyd-cui",
+      "person_id": "8lh_jgi_l6a_*A",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [
     {
       "id": "name-song045-wyd-liucui",
@@ -1528,8 +1673,176 @@
     "status": "editorial_preferred",
     "human_reviewed": false
   },
-  "age_assertions": [],
-  "life_events": [],
+  "age_assertions": [
+    {
+      "id": "age-song045-wyd-cui-death",
+      "person_id": "8lh_jgi_l6a_*A",
+      "value": 53,
+      "source_number": "五十三",
+      "source_term": "年五十三",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-045",
+          "source_id": "s-songshu-045-wyd1739-liucui",
+          "chapter_id": "c-songshu-045-wyd1739-liucui",
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+          "quote": "沙門二千餘人以補府史元嘉三年討謝晦遣粹弟車騎從事中郎道濟龍驤將軍沈敞之就粹自陸道向江陵粹以道濟行竟陵內史與敞之及南陽太守沈道興步騎至沙橋為晦司馬周超所敗士衆傷死者過半降號寧朔將軍初晦與粹厚善以粹子曠之為參軍粹受命南討一無所顧太祖以此嘉之晦遣送曠之還粹亦不害也明年粹卒時年五十三追贈安北將軍持節本官如故曠之嗣官至晉熙太守曠之卒子琛嗣琛卒無子國除琛弟亮順帝昇明末尚書駕部郎粹庶長子懷之為臨川內史與臧質同逆伏誅粹弟道濟尚書起部",
+          "person_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0131"
+        }
+      ],
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-song045-wyd-cui"
+      },
+      "age_interpretation": {
+        "kind": "traditional_nominal_age_editorial_reading",
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "rationale": "本庫依傳統虛歲理解此史籍報齡；原句未明計歲法，不偽稱source明說虛歲，不推周歲或出生年。"
+      },
+      "interpretation_note": "明年粹卒時年五十三：53為本源卒齡，連同人同段死亡；與明年換算分存，不倒生年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "life_events": [
+    {
+      "id": "le-song045-wyd-cui",
+      "person_id": "8lh_jgi_l6a_*A",
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": "明年",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-045",
+          "source_id": "s-songshu-045-wyd1739-liucui",
+          "chapter_id": "c-songshu-045-wyd1739-liucui",
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+          "quote": "沙門二千餘人以補府史元嘉三年討謝晦遣粹弟車騎從事中郎道濟龍驤將軍沈敞之就粹自陸道向江陵粹以道濟行竟陵內史與敞之及南陽太守沈道興步騎至沙橋為晦司馬周超所敗士衆傷死者過半降號寧朔將軍初晦與粹厚善以粹子曠之為參軍粹受命南討一無所顧太祖以此嘉之晦遣送曠之還粹亦不害也明年粹卒時年五十三追贈安北將軍持節本官如故曠之嗣官至晉熙太守曠之卒子琛嗣琛卒無子國除琛弟亮順帝昇明末尚書駕部郎粹庶長子懷之為臨川內史與臧質同逆伏誅粹弟道濟尚書起部",
+          "person_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0131"
+        }
+      ],
+      "source_wyd045_death_scope": {
+        "kind": "fixed_wyd045_death_scope",
+        "slot": "cui",
+        "subject_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0131",
+        "paragraph_sha256": "033d6f616bc63e335d753f8d3b42c5fc08e5c8f547d4a02505345428d389101f",
+        "source_revision": "cbr-ai-transcription-sha256:ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
+        "clause_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+          "start": 129,
+          "end": 138,
+          "surface": "明年粹卒時年五十三"
+        },
+        "death_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+          "start": 132,
+          "end": 133,
+          "surface": "卒"
+        },
+        "human_reviewed": false
+      },
+      "interpretation_note": "只記此明示死亡；不由卒年/報齡倒生年或結束全部官爵。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "year": 427,
+        "era_year": 427,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "明年",
+        "original_quote": "沙門二千餘人以補府史元嘉三年討謝晦遣粹弟車騎從事中郎道濟龍驤將軍沈敞之就粹自陸道向江陵粹以道濟行竟陵內史與敞之及南陽太守沈道興步騎至沙橋為晦司馬周超所敗士衆傷死者過半降號寧朔將軍初晦與粹厚善以粹子曠之為參軍粹受命南討一無所顧太祖以此嘉之晦遣送曠之還粹亦不害也明年粹卒時年五十三追贈安北將軍持節本官如故曠之嗣官至晉熙太守曠之卒子琛嗣琛卒無子國除琛弟亮順帝昇明末尚書駕部郎粹庶長子懷之為臨川內史與臧質同逆伏誅粹弟道濟尚書起部",
+        "status": "editorial_provisional",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-045",
+            "source_id": "s-songshu-045-wyd1739-liucui",
+            "chapter_id": "c-songshu-045-wyd1739-liucui",
+            "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+            "quote": "沙門二千餘人以補府史元嘉三年討謝晦遣粹弟車騎從事中郎道濟龍驤將軍沈敞之就粹自陸道向江陵粹以道濟行竟陵內史與敞之及南陽太守沈道興步騎至沙橋為晦司馬周超所敗士衆傷死者過半降號寧朔將軍初晦與粹厚善以粹子曠之為參軍粹受命南討一無所顧太祖以此嘉之晦遣送曠之還粹亦不害也明年粹卒時年五十三追贈安北將軍持節本官如故曠之嗣官至晉熙太守曠之卒子琛嗣琛卒無子國除琛弟亮順帝昇明末尚書駕部郎粹庶長子懷之為臨川內史與臧質同逆伏誅粹弟道濟尚書起部",
+            "person_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0018"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "scope": "modern_era_year_equivalence_only",
+            "quote": "元嘉",
+            "columns": {
+              "dynasty": "宋",
+              "era_name": "元嘉",
+              "first_year": "424",
+              "last_year": "453"
+            },
+            "fixed_row_reference": {
+              "path": "source-evidence/song045-wyd1739-liucui/life-moe-yuanjia-row.json",
+              "sha256": "fc8a17ad4e6050f84622b4dd3360c3e37eecfc4fdac0be4608d9281dc121847c"
+            },
+            "image_verified": false
+          }
+        ],
+        "rationale": "AI依完整本源段落與逐年/月錨點換算中國曆年；正月保原詞，不補西曆月日或農曆日序。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "event_evidence_binding": {
+          "kind": "fixed_wyd045_death_local_year",
+          "event_id": "le-song045-wyd-cui",
+          "person_id": "8lh_jgi_l6a_*A",
+          "subject_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0131",
+          "chain": [
+            {
+              "anchor": {
+                "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+                "start": 10,
+                "end": 14,
+                "surface": "元嘉三年"
+              },
+              "regnal_year": 3,
+              "paragraph_sha256": "033d6f616bc63e335d753f8d3b42c5fc08e5c8f547d4a02505345428d389101f"
+            },
+            {
+              "anchor": {
+                "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+                "start": 129,
+                "end": 131,
+                "surface": "明年"
+              },
+              "regnal_year": 4,
+              "paragraph_sha256": "033d6f616bc63e335d753f8d3b42c5fc08e5c8f547d4a02505345428d389101f"
+            }
+          ],
+          "calendar_row": {
+            "path": "source-evidence/song045-wyd1739-liucui/life-moe-yuanjia-row.json",
+            "sha256": "fc8a17ad4e6050f84622b4dd3360c3e37eecfc4fdac0be4608d9281dc121847c"
+          },
+          "human_reviewed": false
+        },
+        "regnal_year_mapping": {
+          "kind": "fixed_wyd045_death_local_year",
+          "era_name": "元嘉",
+          "start_ce_year": 424,
+          "end_ce_year": 453,
+          "regnal_year": 4,
+          "reference_index": 0
+        }
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
