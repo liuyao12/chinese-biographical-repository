@@ -1168,3 +1168,18 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `contextual_surname_from_fixed_received_kinship` 只接受同一完整固定收到單元，全文名seed及已通過received_quoted_family的father/grandfather/brother有限三步；代距顯式、拒環/重邊/配偶/母系/收養/結義/遠親/編者父邊，不用結構ID或label。姊妹只准末端氏稱，明名兄之妹不補父或本名。`component_source_binding` 另綁各自人物原錨與緊接字詞，不能以同段出現他人字混填。源外推姓為contextual_provisional，不拼成原文全名、不加全局alias。明郭氏只氏，未知ming為null。
 
 字隨每來源record記，不因錄入先後成全庫權威字；郭奕裴注泰業與晉書045大業由各自原生來源保存，未圖校且無global preferred。
+
+
+# 武英殿宋044封爵與有辭讓而受封結果未載
+
+`source_career_role.kind: wyd_song044_noble_grant` 只認固定武英殿本p002「以佐命功封武昌縣公食邑二千戶」與同段晦主體，保存grant及獨立title span；原NER不變。`reported_households` 保存數字2000、原詞二千、戶及食邑字位，scope為明封分配，actual_revenue:null，不當人口或實收。起點為source_event/grant；本源未明日期，420年外源首選另依下列完整同詔日期橋保存，未偽成本文literal。終點unknown，不以建平辭讓或426卒年終止武昌。
+
+`title_proposals.proposal_kind: appointment_declination_outcome_unreported`／`outcome: not_reported` 是窄非持有子型：appointment_issued:true、reported_declination.reported:true與原「固讓進封」獨立span、acceptance_status:not_reported、effective_service_attested:false。這不是not_enacted，也不是確定not_assumed/neverheld。武英殿p003進封建平、四千戶及固讓均完整綁定；不入holdings，不生noble replacement，不關前爵。4000限`offered_advancement_not_confirmed_held`案額，不當已受食邑。普通人物頁另列「辭讓已載，受封結果未載」及原文，無此子型不顯示。
+
+新guard依固定來源與完整p002/p003hash、現有謝晦首MID及本段MID解現役PID，不用永久PID白名單。兩個typed record分別全值驗證；只將已驗的本筆annotation.title_proposals自原角色契約比較中剝離，未知extra annotation／改壞紀年年齡姓名叔侄仍拒。舊unassumed與offered-office分支不放寬，也不得借相鄰「進號衞將軍」替建平「進封」。
+
+## 同詔群授與同詔人物本傳明年之外部日期橋
+
+`normalized_date.rendered_collective_award_year_binding.kind: rendered_same_collective_award_explicit_peer_year` 是有界編輯首選，不能冒充本底本明文紀年。宋044武昌爵的端點可有 `date_expression: 永初元年`，但 `expression_scope: external_rendered_peer_biography_not_literal_in_wyd044` 明示原年詞來自比較本傅亮傳。`calendar: chinese_civil`、`precision: year`、`status: editorial_provisional`、人審false；CE420只是中國曆年度標號，不含月日。完整群授詔、傅亮同次建城縣公二千戶的永初元年明文、前後受禪初敘事及官方宋永初420–422完整表列均保存。比較資料是rendered閱讀、頁尾revision觀察、固定頁直取cache miss，沒有已取raw或書影資格；比較頁底本未知，不更換武英殿044底本。
+
+日期gate須傳實際root，逐一核外部payload SHA與全文單元SHA、同詔兩角色/兩爵/兩食邑/年詞的字位及取得scope，沿044既有謝晦與傅亮MID動態解現役PID。原本year校驗和literal歸屬規則不放寬；只有此已驗日期橋允許外源年詞，不虛建宋043 native章或MID。持有record須與本源明授完全一致，建平不入holding，未知終點不變，不借中領軍庚午任命日或死亡426年。bundle也依實際root驗外證後才輸出，完整比較引文與限制由一般紀年依據consumer顯示。

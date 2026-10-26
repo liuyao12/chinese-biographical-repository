@@ -107,6 +107,10 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
     errors = []
     if not isinstance(date, dict):
         return ['紀年換算須為物件']
+    if 'rendered_collective_award_year_binding' in date:
+        try:from scripts.wyd_song044_noble_year import valid as noble_year_valid
+        except ImportError:from wyd_song044_noble_year import valid as noble_year_valid
+        return [] if noble_year_valid(date,bound_record,bound_role,chapters or {},root) else ['跨來源同詔封年須綁完整比較單元、兩人同爵食邑、明年及取得資格']
     era, year, number = date.get('era'), date.get('year'), date.get('era_year')
     if era not in ('BCE', 'CE') or type(year) is not int or type(number) is not int or number <= 0:
         errors.append('紀年換算須有數字年份與正整數時代年')
@@ -274,6 +278,10 @@ def reported_relationship_errors(variant, paragraph):
 
 
 def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
+    if isinstance(proposal,dict) and proposal.get('source_appointment_context',{}).get('kind')=='wyd_song044_declined_noble_advance':
+        try:from scripts.wyd_song044_nobles import proposal_errors as noble_proposal_errors
+        except ImportError:from wyd_song044_nobles import proposal_errors as noble_proposal_errors
+        return noble_proposal_errors(proposal,chapter,person_ids)
     if proposal.get('source_appointment_context',{}).get('kind')=='punctuated_biography_career_frame':
         try:from scripts.punctuated_biography_career import proposal_errors
         except ImportError:from punctuated_biography_career import proposal_errors
@@ -967,6 +975,8 @@ def validate(root=ROOT):
                 check(binding_valid(date, bound_record, bound_role), '初中末年號紀年須綁實際同人同官授任／生卒記錄')
             if not isinstance(date, dict):
                 return
+            if 'rendered_collective_award_year_binding' in date:
+                return # the exact external-source guard above validates both the date and its holding
             context_ids = {e['paragraph_id'] for e in context_evidence}
             anchored = False
             for evidence in date.get('evidence', []):
@@ -1022,7 +1032,7 @@ def validate(root=ROOT):
                         from scripts.received_career_roles import holding_valid as career_holding_valid
                     except ImportError:
                         from received_career_roles import holding_valid as career_holding_valid
-                    check(career_holding_valid(h, chapters[d['chapter_id']]), '來源職歷須逐原句角色綁實際受任者、共享職尾及任期界線')
+                    check(career_holding_valid(h, chapters[d['chapter_id']],root), '來源職歷須逐原句角色綁實際受任者、共享職尾及任期界線')
                 if 'source_office_role' in h:
                     try:
                         from scripts.source_office_reports import holding_role_valid
@@ -1154,7 +1164,7 @@ def validate(root=ROOT):
                             from scripts.received_career_roles import holding_valid as career_holding_valid
                         except ImportError:
                             from received_career_roles import holding_valid as career_holding_valid
-                        valid_transfer = career_holding_valid(h, chapters[d['chapter_id']])
+                        valid_transfer = career_holding_valid(h, chapters[d['chapter_id']],root)
                     if 'received_source_frame' in h:
                         try:from scripts.fixed_received_career import holding_valid as fixed_received_transfer_valid
                         except ImportError:from fixed_received_career import holding_valid as fixed_received_transfer_valid
@@ -1226,7 +1236,7 @@ def validate(root=ROOT):
                             from scripts.received_career_roles import holding_valid as career_holding_valid
                         except ImportError:
                             from received_career_roles import holding_valid as career_holding_valid
-                        valid = valid or career_holding_valid(h, chapters[d['chapter_id']])
+                        valid = valid or career_holding_valid(h, chapters[d['chapter_id']],root)
                     check(valid,'追尊授號缺少相符原詞與起點證據')
                     if valid:
                         for e in basis['evidence']:title_evidence(e)
@@ -1433,7 +1443,7 @@ def validate(root=ROOT):
                                 from scripts.received_career_roles import holding_valid as career_holding_valid
                             except ImportError:
                                 from received_career_roles import holding_valid as career_holding_valid
-                            shared_suffix_valid = career_holding_valid(h, chapters[d['chapter_id']])
+                            shared_suffix_valid = career_holding_valid(h, chapters[d['chapter_id']],root)
                     check((a['surface']==h['title'] or shared_suffix_valid) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
                     if hit:
                         check(isinstance(a['start'],int) and isinstance(a['end'],int) and 0<=a['start']<a['end']<=len(hit[1]['text']) and hit[1]['text'][a['start']:a['end']]==a['surface'],'稱號用稱字元位置不符')
@@ -1481,6 +1491,10 @@ def validate(root=ROOT):
                             except ImportError:
                                 from cross_chapter_annal_date import cross_chapter_annal_date_valid
                             cross_endpoint_date = cross_chapter_annal_date_valid(boundary['normalized_date'], h, endpoint, chapters)
+                        if 'rendered_collective_award_year_binding' in boundary.get('normalized_date', {}):
+                            try:from scripts.wyd_song044_noble_year import valid as noble_year_valid
+                            except ImportError:from wyd_song044_noble_year import valid as noble_year_valid
+                            cross_endpoint_date=noble_year_valid(boundary['normalized_date'],h,endpoint,chapters,root)
                         check(cross_endpoint_date or date is None or isinstance(date,str) and bool(date) and any(date in e['quote'] for e in boundary['evidence']),'稱號日期表述不在端點證據')
                         if 'normalized_date' in boundary:
                             check(isinstance(date, str) and bool(date) or parallel_event_date(boundary['normalized_date']), '稱號數字紀年須有原始日期表述')
