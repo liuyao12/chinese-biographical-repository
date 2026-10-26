@@ -6,6 +6,8 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `9x9_12x_dhb` | 李延年 | [《史記・孝武本紀》][99] | [JSON](9x9_12x_dhb.json) |
+| `9xv_kho_tfy` | 張芝 | [《南齊書・王僧虔 張緒》][67] | [JSON](9xv_kho_tfy.json) |
 | `9y3_c3o_5zb` | 秦將卻軍未名 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](9y3_c3o_5zb.json) |
 | `9yu_h0u_07p` | 李斯引古 | [《史記・屈原賈生列傳》][153] | [JSON](9yu_h0u_07p.json) |
 | `9yu_yd9_29x` | 臧艾父妾 | [《三國志・諸夏侯曹傳》][77] | [JSON](9yu_yd9_29x.json) |
@@ -699,7 +701,7 @@
 | `ded_ea4_21d` | 袁淑 | [《宋書・謝莊 王景文》][228] | [JSON](ded_ea4_21d.json) |
 | `dep_bjj_vwe` | 蟜（長公主子） | [《史記・孝景本紀》][98] | [JSON](dep_bjj_vwe.json) |
 | `df2_820_bad` | 李重 | [《晉書・王沈 荀顗 荀勖 馮紞》][30] | [JSON](df2_820_bad.json) |
-| `df4_d80_73a` | 朱容子 | [《宋書・王華 王曇首 殷景仁 沈演之》][221] | [JSON](df4_d80_73a.json) |
+| `df4_d80_73a` | 朱容子 | [《宋書・王華 王曇首 殷景仁 沈演之》][221]、[《宋書・王華 王曇首 殷景仁 沈演之》][222] | [JSON](df4_d80_73a.json) |
 | `df6_0d0_a2f` | 武陵王遵 | [《晉書・叛臣二》][60] | [JSON](df6_0d0_a2f.json) |
 | `dfq_kor_hpu` | 祁傒（薦人者） | [《史記・晉世家》][108] | [JSON](dfq_kor_hpu.json) |
 | `dfy_5r0_ek4` | 田文子 | [《史記・齊太公世家》][101] | [JSON](dfy_5r0_ek4.json) |
@@ -1706,7 +1708,7 @@
 | `ij0_gmq_io0` | 何劭 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47]、[《三國志・二荀賈傳》][79] | [JSON](ij0_gmq_io0.json) |
 | `ij6_2nr_3gc` | 冠受〔元顥子〕 | [《魏書・楊播》][234] | [JSON](ij6_2nr_3gc.json) |
 | `ije_3uz_q79` | 智伯瑤 | [《史記・春申君列傳》][147] | [JSON](ije_3uz_q79.json) |
-| `ije_ngm_cmj` | 晉恭帝德文 | [《晉書・叛臣二》][60]、[《宋書・王華 王曇首 殷景仁 沈演之》][221] | [JSON](ije_ngm_cmj.json) |
+| `ije_ngm_cmj` | 晉恭帝德文 | [《晉書・叛臣二》][60]、[《宋書・王華 王曇首 殷景仁 沈演之》][221]、[《宋書・王華 王曇首 殷景仁 沈演之》][222] | [JSON](ije_ngm_cmj.json) |
 | `ijg_1jf_haz` | 王紹之 | [《宋書・謝晦》][206] | [JSON](ijg_1jf_haz.json) |
 | `ijh_3fs_6u2` | 豫章王嶷 | [《南齊書・王秀之 王慈 蔡約 陸慧曉 顧憲之 蕭惠基》][70] | [JSON](ijh_3fs_6u2.json) |
 | `ijk_q79_sjg` | 夫槩 | [《史記・吳太伯世家》][100] | [JSON](ijk_q79_sjg.json) |
@@ -2104,9 +2106,6 @@
 | `l1q_uxi_bn7` | 鷄鳴客未名 | [《史記・孟嘗君列傳》][144] | [JSON](l1q_uxi_bn7.json) |
 | `l1s_jbu_ux0` | 虞舜 | [《史記・游俠列傳》][193] | [JSON](l1s_jbu_ux0.json) |
 | `l1w_swd_dj8` | 王肅〔北魏尚書令〕 | [《魏書・楊播》][235] | [JSON](l1w_swd_dj8.json) |
-| `l23_2g0_02j` | 鍾離意 | [《三國志・桓二陳徐衞盧傳》][83] | [JSON](l23_2g0_02j.json) |
-| `l24_c0r_qj2` | 扈輒 | [《史記・趙世家》][112] | [JSON](l24_c0r_qj2.json) |
-| `l26_15v_yeo` | 裴方明 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](l26_15v_yeo.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
@@ -2303,6 +2302,7 @@
 [219]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B760&oldid=1996694
 [220]: https://github.com/kanripo/KR2a0016/blob/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_062.txt
 [221]: https://zh.wikisource.org/w/index.php?title=宋書/卷63&oldid=2118589
+[222]: https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12245_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC147%E5%86%8A.pdf&oldid=991952839
 [223]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B764&oldid=1748217
 [224]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B766&oldid=2069104
 [225]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_067.txt
