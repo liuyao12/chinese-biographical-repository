@@ -15,7 +15,9 @@ def _context(root):
  if len(roles)!=96:raise ValueError('宋044角色未完整')
  try:from scripts.wyd_song044_role_seed import materialize
  except ImportError:from wyd_song044_role_seed import materialize
- if ch.get('annotation')!=c['required_annotation']or len(ch['paragraphs'])!=22:raise ValueError('宋044本源角色資格')
+ try:from scripts.wyd_song044_age import base_annotation
+ except ImportError:from wyd_song044_age import base_annotation
+ if base_annotation(ch)!=c['required_annotation']or len(ch['paragraphs'])!=22:raise ValueError('宋044本源角色資格')
  for p,spec in zip(ch['paragraphs'],c['paragraphs']):
   if p['id']!=spec['id']or p['mentions']!=materialize(spec['mentions'],roles):raise ValueError('宋044本源MID或角色不一致')
  people={p['id']:p for p in json.loads((root/'registry/persons.json').read_bytes())['persons']}
