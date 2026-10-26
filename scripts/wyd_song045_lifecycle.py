@@ -43,6 +43,10 @@ def records(root):
  return out
 
 def valid(event,root):
+ # fixed-wyd045-extra-heir-deaths
+ try:from scripts.wyd_song045_nobles import death_valid,death_applies
+ except ImportError:from wyd_song045_nobles import death_valid,death_applies
+ if death_applies(event):return death_valid(event,root)
  if not isinstance(event,dict)or not isinstance(event.get('source_wyd045_death_scope'),dict):return False
  try:return any(json.dumps(event,ensure_ascii=False,sort_keys=True,separators=(',',':'))==json.dumps(x,ensure_ascii=False,sort_keys=True,separators=(',',':'))for x in records(root))
  except(KeyError,TypeError,ValueError,AssertionError,StopIteration,OSError,AttributeError):return False

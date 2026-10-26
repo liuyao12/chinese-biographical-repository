@@ -1073,6 +1073,10 @@ def _validate_uncached(root=ROOT):
                 check(h['id'] not in title_ids,'稱號持有 ID 重複');title_ids.add(h['id'])
                 check(h['person_id'] in pids and bool(h['title']),'稱號持有人或用稱無效')
                 check(h['status']=='source_attested','稱號持有狀態無效')
+                # fixed-wyd045-noble-mandatory-records
+                try:from scripts.wyd_song045_nobles import holding_applies as wyd045_noble_applies, holding_dispatch_valid as wyd045_noble_valid
+                except ImportError:from wyd_song045_nobles import holding_applies as wyd045_noble_applies, holding_dispatch_valid as wyd045_noble_valid
+                if wyd045_noble_applies(h):check(wyd045_noble_valid(h,chapters[d['chapter_id']],root),'宋045已登記爵序不得刪角色證據或借別爵／旁人')
                 check(h['kind'] in ('royal_rank','imperial_rank','noble_rank','office','honorific','unclassified'),'稱號種類無效')
                 check(h['mode'] in ('grant','transfer','posthumous_grant','posthumous_enfeoffment','posthumous_naming','self_proclamation','accession','demotion','attestation'),'稱號事件種類無效')
                 check(bool(h['evidence']) and bool(h['attestations']),'稱號缺少來源或用稱錨點')
@@ -2399,7 +2403,7 @@ def _validate_uncached(root=ROOT):
                             from scripts.received_career_roles import event_valid as career_event_valid
                         except ImportError:
                             from received_career_roles import event_valid as career_event_valid
-                        noble_valid = career_event_valid(event, chapters[event['evidence'][0]['chapter_id']])
+                        noble_valid = career_event_valid(event, chapters[event['evidence'][0]['chapter_id']],root)
                     else:
                         noble_valid = noble_abolition_valid(event, paragraphs)
                     if 'received_source_frame' in event:

@@ -47,7 +47,9 @@ class Cases(unittest.TestCase):
    with self.assertRaises(ValueError):base_annotation(c)
  def test_existing_grammar_holdings(self):
   d=json.loads((F/'corpus/songshu/045-wyd1739-liucui-titles.json').read_bytes())
-  for h in d['holdings']:
+  own=[h for h in d['holdings']if h['id']in ('th-song045-wyd-huaizhi-reported','th-song045-wyd-kuangzhi-reported')]
+  self.assertEqual(len(own),2)
+  for h in own:
    self.assertTrue(holding_valid(h,self.ch));self.assertEqual(h['mode'],'attestation');self.assertEqual(h['effective_period']['start']['status'],'unknown');self.assertEqual(h['effective_period']['end']['status'],'unknown')
    for key,value in [('person_id','abc_def_123'),('mode','grant'),('title','太常')]:
     b=copy.deepcopy(h);b[key]=value;self.assertFalse(holding_valid(b,self.ch))

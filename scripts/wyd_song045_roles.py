@@ -30,6 +30,11 @@ def resolve_roles(ch,root,contract=None):
  need(len(out)==len(set(out.values())),'不同來源角色不可無判讀合併');return out
 
 def source_only_projection(ch,root):
+ # fixed-wyd045-noble-proposal-projection
+ if isinstance(ch,dict)and isinstance(ch.get('annotation'),dict)and 'title_proposals'in ch['annotation']:
+  try:from scripts.wyd_song045_nobles import base_annotation as noble_annotation
+  except ImportError:from wyd_song045_nobles import base_annotation as noble_annotation
+  ch=copy.deepcopy(ch);ch['annotation']=noble_annotation(ch)
  # fixed-wyd045-age-addition: strip only the exact validated finite age row.
  if isinstance(ch,dict)and isinstance(ch.get('annotation'),dict)and 'age_assertions'in ch['annotation']:
   try:from scripts.wyd_song045_lifecycle import base_annotation
