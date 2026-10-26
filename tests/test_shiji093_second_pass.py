@@ -216,6 +216,7 @@ class HanLuIdentityTests(unittest.TestCase):
             shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables')
             (target / 'data/corpus').mkdir(parents=True)
             shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
+            shutil.copy2(ROOT / 'data/corpus/chapter-directory.json', target / 'data/corpus/chapter-directory.json')
             self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())
@@ -236,6 +237,7 @@ class HanLuIdentityTests(unittest.TestCase):
             shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables')
             (target / 'data/corpus').mkdir(parents=True)
             shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
+            shutil.copy2(ROOT / 'data/corpus/chapter-directory.json', target / 'data/corpus/chapter-directory.json')
             self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())
