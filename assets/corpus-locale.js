@@ -19,6 +19,7 @@ export default {
   "Appointment not assumed": "受舉未就",
   'Source title use': '來源用稱',
   'Editorial profile title': '編輯選稱',
+  'Title granted at this mention': '本處授爵',
   'Title source': '稱號來源',
   'Granted title': '已授',
   'Transferred office': '轉任',
