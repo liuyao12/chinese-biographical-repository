@@ -8,7 +8,7 @@ except ImportError:
 CID='c-songshu-063-wyd1739-wangtanshou'
 SID='s-songshu-063-wyd1739-wangtanshou'
 BASE='source-evidence/song063-wyd1739-wangtanshou/'
-PINS={'image-column-locations.json': 'eced330a783c97840dc7ff7d632bbb18193cc45d0c6f55ab5210fcebbb2adc55', 'acquisition-provenance.json': '41a6ae9ad68991049e463ee2e8dca8ba08da8c110f844624cc6d89b8ccbcc3f6', 'glyph-review-qualification.json': 'e4a191dee42df8c733c097bbf71f9a051aee5d9f963559ca40d86a2ebbfe496e', 'transcription-projection.json': 'efef8e8f6b95040c195b8db22b289be4893dcf7cd8248691d27451da00d1f4d5', 'transcription-witness-contract.json': '6346038ce3be9cf3be5ce4551b51663961cbe47e5dac3e1f27418434dc057b26', 'transcription-columns.txt': '355513e59fefc781bdfef4cf7c07f8af774841fc890b300c22e8449fe5906a8b'}
+PINS={'image-column-locations.json': 'b61beb8cac7682e82e1dee5d8763f02fb07b6c12001c7e76699578cecd58ce84', 'acquisition-provenance.json': '41a6ae9ad68991049e463ee2e8dca8ba08da8c110f844624cc6d89b8ccbcc3f6', 'glyph-review-qualification.json': 'e4a191dee42df8c733c097bbf71f9a051aee5d9f963559ca40d86a2ebbfe496e', 'transcription-projection.json': '54ae1a447a8d3fc596b048d834cf75446e26b36a108428a7a3bf286ebe4c4c67', 'transcription-witness-contract.json': 'dc5f631cd8378addf4183dcad40c2ddcc64671b7c429b383e85abfdf0f980ab4', 'transcription-columns.txt': '6b33c779e78c825140ac3a6b531b5e1fcb0031d19b260a7cdcba355c348dd6df'}
 def need(ok,msg):
  if not ok:raise ValueError('武英殿宋063轉錄：'+msg)
 def fixed(root,name):

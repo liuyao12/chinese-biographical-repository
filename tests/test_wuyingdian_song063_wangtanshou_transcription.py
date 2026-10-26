@@ -53,6 +53,12 @@ class Song063(unittest.TestCase):
   for before,after in [('慍','愠'),('怏怏','快快')]:
    c=copy.deepcopy(self.c);p=next(p for p in c['paragraphs']if before in p['text']);p['text']=p['text'].replace(before,after)
    self.assertTrue(source_errors(c,ROOT))
+ def test_three_image_readings_and_old_encoding_rejected(self):
+  p=self.c['paragraphs'][5]
+  self.assertTrue(p['text'].startswith('中書舍人周起侍側曰王家欲衰賢者先殞上曰直是'))
+  for off,bad in [(9,'主'),(12,'表'),(16,'須')]:
+   c=copy.deepcopy(self.c);v=c['paragraphs'][5];v['text']=v['text'][:off]+bad+v['text'][off+1:]
+   self.assertTrue(source_errors(c,ROOT))
  def test_badtypes_and_legacy_non_target(self):
   for c in (None,[],42,'bad'):self.assertTrue(source_errors(c,ROOT))
   self.assertEqual(source_errors({'id':'other','source_id':'other','annotation':{}},ROOT),[])
