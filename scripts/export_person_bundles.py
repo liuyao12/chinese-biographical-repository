@@ -34,7 +34,7 @@ def write_reading_pages(destination, first_path, continuation_prefix, heading, i
     navigation = ' · '.join(f'[第{i}頁]({name})' for i, name in enumerate(filenames, 1))
     for filename, content in zip(filenames, pages):
         body = '\n\n'.join(content)
-        used = {int(number) for number in re.findall(r'\[《[^]]+》\]\[(\d+)\]', body)}
+        used = {int(number) for number in re.findall(r'\]\[(\d+)\]', body)}
         definitions = [reference for i, reference in enumerate(references, 1) if i in used]
         text = '\n\n'.join([heading, introduction, navigation, body, '\n'.join(definitions)]) + '\n'
         if len(text.encode('utf-8')) >= 500_000:
