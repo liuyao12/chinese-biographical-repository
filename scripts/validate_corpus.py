@@ -560,6 +560,12 @@ def _validate_uncached(root=ROOT):
             wuyingdian_song051_layer_valid = (d.get('id') == 'c-songshu-051-wyd1739-zongshi'
                 and isinstance(d.get('annotation'), dict) and d['annotation'].get('fixed_transcription_contract') == 'wuyingdian_song051_transcription'
                 and not wuyingdian_051_issues)
+            # fixed-wuyingdian-song005-opening-transcription: exact pending partial-chapter witness.
+            try:
+                from scripts.fixed_wuyingdian_song005_opening import source_errors as wuyingdian_song005_opening_errors
+            except ImportError:
+                from fixed_wuyingdian_song005_opening import source_errors as wuyingdian_song005_opening_errors
+            errors.extend(wuyingdian_song005_opening_errors(d, root))
             # fixed-wuyingdian-song044-transcription: source-only exact witness gate.
             try:
                 from scripts.fixed_wuyingdian_song044 import source_errors as wuyingdian_song044_errors
