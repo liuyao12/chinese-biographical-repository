@@ -449,6 +449,14 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             if errors:
                 raise ValueError('；'.join(errors))
     source_reading_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('source_reading_cases', []) if case['person_id'] in ids]
+    # External rendered references are qualified date evidence, never invented native paragraphs.
+    for holding in titles:
+        date=holding.get('effective_period',{}).get('start',{}).get('normalized_date',{})
+        if 'rendered_collective_award_year_binding' in date:
+            try:from .wyd_song044_noble_year import valid as noble_year_valid
+            except ImportError:from wyd_song044_noble_year import valid as noble_year_valid
+            if not noble_year_valid(date,holding,'start',chapters,root):
+                raise ValueError('跨來源同詔封年證據或人物資格漂移')
     title_proposals = [proposal for chapter in chapters.values() for proposal in chapter['annotation'].get('title_proposals', []) if proposal['person_id'] in ids]
     resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]

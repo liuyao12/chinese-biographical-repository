@@ -54,4 +54,9 @@ def base_annotation(ch):
     if 'age_assertions' in annotation:
         if annotation.pop('age_assertions')!=records(ch):
             raise ValueError('報齡主語或問答原詞漂移')
+    if 'title_proposals' in annotation:
+        try:from .wyd_song044_nobles import proposal_record as noble_record
+        except ImportError:from wyd_song044_nobles import proposal_record as noble_record
+        if annotation.pop('title_proposals') != [noble_record(ch)]:
+            raise ValueError('進封辭讓或受封結果資格漂移')
     return annotation

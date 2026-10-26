@@ -92,7 +92,11 @@ def analyse(record,ch):
   assert matching and all(roles[slot[1]]['person_id']==m['person_id']for slot in matching)
  return p,roles,fields,slots
 
-def holding_valid(h,ch):
+def holding_valid(h,ch,root=None):
+ if isinstance(h,dict)and h.get('source_career_role',{}).get('kind')=='wyd_song044_noble_grant':
+  try:from scripts.wyd_song044_nobles import holding_valid as noble_valid
+  except ImportError:from wyd_song044_nobles import holding_valid as noble_valid
+  return noble_valid(h,ch,root)
  if h.get('source_career_role',{}).get('kind')=='punctuated_biography_career_frame':
   try:from scripts.punctuated_biography_career import holding_valid as punctuated_valid
   except ImportError:from punctuated_biography_career import holding_valid as punctuated_valid
