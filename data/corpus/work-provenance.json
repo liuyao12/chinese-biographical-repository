@@ -493,6 +493,17 @@
       "transcription_revision": "cbr-ai-transcription-sha256:c19e753cacc68d40ef13c61d732d8da7cdaf889c222561fa721960d5c8460976",
       "transcription_sha256": "c19e753cacc68d40ef13c61d732d8da7cdaf889c222561fa721960d5c8460976",
       "qualification": "原PDF未下載；SHA256是AI逐列轉錄，非PDF。私JPEG不入repo；未辨〓與AI字形編碼待核，不冒人工圖校。"
+    },
+    "ref-songshu045-wyd1739-received-ai-transcription": {
+      "title": "宋書卷四十五武英殿本：Commons所載NLC書影與AI轉錄見證",
+      "url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf&oldid=979637198",
+      "access_scope": "PDF34左第5列至41左第5列完整劉粹及附敘，保道濟伏誅後先是追敘；此前諸傳與此後全卷史臣論/考證不入。",
+      "human_reviewed": false,
+      "source_kind": "received_transcription_witness",
+      "commons_description_revision": 979637198,
+      "transcription_revision": "cbr-ai-transcription-sha256:1a045e9d8ce38dbd568c45a4dec0bdb49326b2eb78c8243ab77a10c1ce0f2b95",
+      "transcription_sha256": "1a045e9d8ce38dbd568c45a4dec0bdb49326b2eb78c8243ab77a10c1ce0f2b95",
+      "qualification": "原PDF未下載；SHA256是AI逐列轉錄，非PDF。私JPEG不入repo；未辨〓與AI字形編碼待核，不冒人工圖校。"
     }
   },
   "editions": {
@@ -768,6 +779,25 @@
         "ref-songshu005-wyd1739-received-ai-transcription"
       ],
       "qualification": "僅卷005文帝完整傳首246字書影AI轉錄，不稱全卷/全書/原PDF取得/全球最早。",
+      "image_verified": false
+    },
+    "edition-songshu045-wyd1739-received-ai-transcription": {
+      "id": "edition-songshu045-wyd1739-received-ai-transcription",
+      "work_id": "w-songshu",
+      "label": "清乾隆四年武英殿本宋書卷四十五所見轉錄見證",
+      "extent": "incomplete",
+      "date": {
+        "calendar": "chinese_civil",
+        "year_numbering": "historical_no_year_zero",
+        "start_year": 1739,
+        "end_year": 1739,
+        "precision": "year"
+      },
+      "period_label": "乾隆四年校刊",
+      "reference_ids": [
+        "ref-songshu045-wyd1739-received-ai-transcription"
+      ],
+      "qualification": "僅卷045劉粹/道濟/損完整選錄書影AI轉錄，不稱全卷/全書/原PDF取得/全球最早。",
       "image_verified": false
     }
   },
@@ -205958,6 +205988,38 @@
         "human_image_reviewed": false
       },
       "transcription_raw_sha256": "c19e753cacc68d40ef13c61d732d8da7cdaf889c222561fa721960d5c8460976",
+      "note": "實際所據為武英殿本書影AI轉錄，非下載PDF；所有原字編碼待獨立覆核，earliest不推定。",
+      "human_reviewed": false
+    },
+    "s-songshu-045-wyd1739-liucui": {
+      "source_id": "s-songshu-045-wyd1739-liucui",
+      "work_id": "w-songshu",
+      "status": "documented",
+      "edition_id": "edition-songshu045-wyd1739-received-ai-transcription",
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "ref-songshu045-wyd1739-received-ai-transcription"
+      ],
+      "basis_role": "received_transcription_witness",
+      "received_transcription_witness": {
+        "transcription_path": "source-evidence/song045-wyd1739-liucui/transcription-columns.txt",
+        "transcription_sha256": "1a045e9d8ce38dbd568c45a4dec0bdb49326b2eb78c8243ab77a10c1ce0f2b95",
+        "transcription_revision": "cbr-ai-transcription-sha256:1a045e9d8ce38dbd568c45a4dec0bdb49326b2eb78c8243ab77a10c1ce0f2b95",
+        "reported_pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+        "reported_pdf_bytes": 28800137,
+        "original_pdf_locally_obtained": false,
+        "commons_description_revision": 979637198,
+        "reported_pdf_pages": 95,
+        "nlc_bookid": "411999017142",
+        "nlc_volumeid": "12779",
+        "nlc_rare_book_number": "09753",
+        "composition_date": null,
+        "edition_year": 1739,
+        "earliest_extant_edition_claim": null,
+        "edition_year_role": "catalogued_printed_edition_year",
+        "human_image_reviewed": false
+      },
+      "transcription_raw_sha256": "1a045e9d8ce38dbd568c45a4dec0bdb49326b2eb78c8243ab77a10c1ce0f2b95",
       "note": "實際所據為武英殿本書影AI轉錄，非下載PDF；所有原字編碼待獨立覆核，earliest不推定。",
       "human_reviewed": false
     }
