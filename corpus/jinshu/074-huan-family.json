@@ -15803,5 +15803,73 @@
       ]
     }
   ],
-  "text_sha256": "55f15fa4deb96c8682a92ac2700c50a9978c111371faf020de0fff87a8ad1c94"
+  "text_sha256": "55f15fa4deb96c8682a92ac2700c50a9978c111371faf020de0fff87a8ad1c94",
+  "cross_chapter_references": [
+    {
+      "id": "xref-jin074-huanyi-huanwen",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-074",
+        "source_id": "s-jinshu-074-ws1536331",
+        "chapter_id": "c-jinshu-074-huan-family",
+        "revision_id": 1536331,
+        "paragraph_id": "c-jinshu-074-huan-family:p005",
+        "paragraph_text": "初，彝與郭璞善，嘗令璞筮。卦成，璞以手壞之。彝問其故。曰：「卦與吾同。丈夫當此非命，如何！」竟如其言。有五子：溫、雲、豁、秘、沖。溫別有傳。",
+        "paragraph_text_sha256": "d852755de1e9fd0bfa7ebee7d94f33cd4e2fb98ea3e22b8426280cfaa323276f",
+        "start": 66,
+        "end": 69,
+        "surface": "別有傳"
+      },
+      "target": {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-098",
+        "section_label": "桓溫",
+        "text_status": "imported",
+        "chapter_id": "c-jinshu-098-huanwen",
+        "paragraph_id": "c-jinshu-098-huanwen:p001"
+      },
+      "resolution": {
+        "status": "contextually_identified",
+        "rationale": "來源列彝五子並明溫別有傳；目標首桓溫字元子、宣城太守彝之子，同述父遇害及復仇。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=晉書/卷098&oldid=2614273",
+        "read_scope": "已收數位見證之完整來源段與目標定位段；非圖像校勘。",
+        "short_quote": "桓溫，字元子，宣城太守彝之子也。生未期而太原溫嶠見之，曰：「此兒有奇骨，可試使啼。」及聞其聲，曰：「真英物也！」以嶠所賞",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "xref-jin074-xuning-huanyi",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-074",
+        "source_id": "s-jinshu-074-ws1536331",
+        "chapter_id": "c-jinshu-074-huan-family",
+        "revision_id": 1536331,
+        "paragraph_id": "c-jinshu-074-huan-family:p041",
+        "paragraph_text": "徐寧者，東海郯人也。少知名，為輿縣令。時廷尉桓彝稱有人倫鑒識，彝嘗去職，至廣陵尋親舊，還遇風，停浦中，累日憂悒，因上岸，見一室宇，有似廨署，訪之，云是輿縣。彝乃造之。甯清惠博涉，相遇欣然，因留數夕。彝大賞之，結交而別。至都，謂庾亮曰：「吾為卿得一佳吏部郎。」語在〈彝傳〉。即遷吏部郎、左將軍、江州刺史，卒官。",
+        "paragraph_text_sha256": "68f1cec4561c91f671af28f4fc40f40e59b287ccc13d2c6dd99c75d275292bd9",
+        "start": 129,
+        "end": 135,
+        "surface": "語在〈彝傳〉"
+      },
+      "target": {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-074",
+        "section_label": "桓彝",
+        "text_status": "imported",
+        "chapter_id": "c-jinshu-074-huan-family",
+        "paragraph_id": "c-jinshu-074-huan-family:p002"
+      },
+      "resolution": {
+        "status": "contextually_identified",
+        "rationale": "同卷不同傳單元：徐寧在輿縣與桓彝相遇、受薦吏部郎，目標彝傳p002直接重述徐甯字安期與庾亮求吏部事件；寧甯異字各保。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=晉書/卷074&oldid=1536331",
+        "read_scope": "已收數位見證之完整來源段與目標定位段；非圖像校勘。",
+        "short_quote": "于時王敦擅權，嫌忌士望，彝以疾去職。嘗過輿縣，縣宰徐甯字安期，通朗博涉，彝遇之，欣然停留累日，結交而別。先是，庾亮每屬彝",
+        "human_reviewed": false
+      }
+    }
+  ]
 }

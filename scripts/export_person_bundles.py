@@ -68,13 +68,16 @@ def export(root=ROOT):
     catalog = load_catalog(root)
     destination = root / 'exports/persons'
     destination.mkdir(parents=True, exist_ok=True)
-    works = {w['id']: w['title'] for w in json.loads((root / 'registry/works.json').read_text())['works']}
+    try:
+        from .formal_source_citations import load_citation_index, source_caption
+    except ImportError:
+        from formal_source_citations import load_citation_index, source_caption
+    citations = load_citation_index(root)
     source_labels = {}
     source_references = []
     for record in catalog[1]:
         if record.get('record_type') == 'marked_chapter':
-            title = re.sub(r'第[一二三四五六七八九十百千〇零]+$', '', record['title'])
-            label = '《' + works[record['work_id']] + '・' + title + '》'
+            label = source_caption(record, citations)
             url = record['source'].get('permalink') or record['source']['url']
             source_id = record['source_id']
         elif record.get('record_type') == 'historical_table_source':
