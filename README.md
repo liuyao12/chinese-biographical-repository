@@ -2,9 +2,11 @@
 
 以史料為中心、由人與 AI 代理共同維護的中國歷史人物資料庫。CBR 已整合 **人文 · Ren-Wen** 的資料、閱讀器與 Git 歷史。
 
-[開啟人文閱讀器](https://liuyao12.github.io/ren-wen/) · [人物](https://liuyao12.github.io/ren-wen/profiles.html) · [著作](https://liuyao12.github.io/ren-wen/works.html) · [傳記目錄](https://liuyao12.github.io/ren-wen/library.html) · [《史記》分類閱讀](https://liuyao12.github.io/ren-wen/shiji.html) · [連續年表](https://liuyao12.github.io/ren-wen/tables.html)
+[開啟人文閱讀器](https://liuyao12.github.io/ren-wen/) · [CBR 人物](https://liuyao12.github.io/ren-wen/cbr.html) · [清代人物](https://liuyao12.github.io/ren-wen/profiles.html) · [著作](https://liuyao12.github.io/ren-wen/works.html) · [傳記目錄](https://liuyao12.github.io/ren-wen/library.html) · [《史記》分類閱讀](https://liuyao12.github.io/ren-wen/shiji.html) · [連續年表](https://liuyao12.github.io/ren-wen/tables.html)
 
 ## 收錄目標與目前範圍
+
+閱讀器已建立二十四史及《資治通鑑》的完整編號卷目，與既有其他文獻合計29部作品、3,642個卷／分卷入口。尚未收錄的卷明示「正文尚未收錄」；目錄占位不表示已有正文、完成標記或底本校勘。各版本未編號序例與附文另待整理。
 
 2026-10-18 起，主要增補優先轉入[三國兩晉南北朝跨史家系](docs/early-medieval-family-priorities.md)，先做潁川荀氏、琅邪王氏、陳郡謝氏。《史記》《漢書》的未完成工作保留，不標為完成；以下分卷數字是各批整理時的進度記錄。
 

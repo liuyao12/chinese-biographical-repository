@@ -1,3 +1,7 @@
+import {commentaryControls,bindCommentaryControls} from './commentary-layers.js';
+import {crossChapterReferences} from './cross-chapter-references.js';
+import {chapterDirectoryMap,sourceCitation,sourceChapterTitle} from './source-caption.js';
+import {loadVolumeDirectory,volumeModel,volumeNavigation,volumeLanding} from './volume-directory.js';
 import {loadWorkTitles, bindWorkTitles} from './work-titles.js';
 import {chapterReadingLayout,revealSourceTarget} from './reading-layout.js';
 import {mountHistoricalTable} from './historical-table-view.js';
@@ -11,7 +15,9 @@ import {safeSourceURL} from './historical-tables.js';
 import {bindPersonCards} from './cbr-person.js';
 
 const $=id=>document.getElementById(id);
-let manifest,work,index,selected,ticket=0,removeCards,tableView,workTitles={},removeWorkTitles;
+const commentaryState=new Map();let commentaryController;
+let manifest,work,index,selected,ticket=0,removeCards,tableView,workTitles={},chapterDirectory={},removeWorkTitles;
+let volumeDirectory={schema_version:1,works:[]};
 const cache=new Map();
 const languageReading = createLanguageReadingTransition(()=>$('corpus-content'),()=>({ticket,hash:location.hash}));
 const catalogPath=path=>/^data\/corpus\/[a-z0-9-]+\/index\.json$/.test(path);
@@ -25,16 +31,24 @@ async function json(path) {
   return cache.get(path);
 }
 function list() {
-  $('corpus-work-title').textContent=work?.title || t('Choose a work');
-  $('corpus-work-list').innerHTML=manifest.works.map(w=>`<a href="${h(w.reader_kind==='shiji'?'shiji.html':'reader.html#'+new URLSearchParams({work:w.id}))}" aria-current="${w.id===work?.id?'page':'false'}">${h(w.title)}</a>`).join('');
+  $('corpus-work-title').textContent=chapterDirectory[work?.id]?.title || work?.title || t('Choose a work');
+  $('corpus-work-list').innerHTML=manifest.works.map(w=>`<a href="${h(w.reader_kind==='shiji'?'shiji.html':'reader.html#'+new URLSearchParams({work:w.id}))}" aria-current="${w.id===work?.id?'page':'false'}">${h(chapterDirectory[w.id]?.title || w.title)}</a>`).join('');
+  const model=volumeModel(volumeDirectory,work?.id,index,$('chapter-search').value);
+  if(model){
+    const params=new URLSearchParams(location.hash.slice(1));
+    $('chapter-count').textContent=t('{volumes} volumes · {imported} imported sections',{volumes:model.volume_count,imported:model.imported_count});
+    $('chapter-list').innerHTML=volumeNavigation(model,params.get('book'),selected?.chapter_id);
+    return;
+  }
   const entries=index?filteredChapters(index,'all',$('chapter-search').value):[];
   $('chapter-count').textContent=t('{count} chapters',{count:entries.length});
-  $('chapter-list').innerHTML=entries.map(e=>`<a class="chapter-entry" href="${h(sourcePassageURL(e))}" aria-current="${e.chapter_id===selected?.chapter_id?'page':'false'}"><span class="chapter-number">${h(e.book_title)}</span><span>${h(e.title)}</span>${['partial_chapter','partial_table'].includes(e.text_scope)?`<small>${ui('Partial chapter')}</small>`:''}</a>`).join('');
+  $('chapter-list').innerHTML=entries.map(e=>`<a class="chapter-entry" href="${h(sourcePassageURL(e))}" aria-current="${e.chapter_id===selected?.chapter_id?'page':'false'}"><span class="chapter-number">${h(e.book_title)}</span><span>${h(sourceChapterTitle(e,chapterDirectory))}</span>${['partial_chapter','partial_table'].includes(e.text_scope)?`<small>${ui('Partial chapter')}</small>`:''}</a>`).join('');
 }
 const external=(url,label)=>safeSourceURL(url)?`<a href="${h(safeSourceURL(url))}" rel="noopener" target="_blank">${ui(label)} ↗</a>`:'';
 async function render(keepScroll=false) {
   const current=++ticket,params=new URLSearchParams(location.hash.slice(1));
   const readingState=languageReading.start(keepScroll && $('corpus-content').querySelector('article.corpus-text')?.dataset.chapterId===params.get('chapter'),current);
+  commentaryController?.destroy();commentaryController=null;
   removeWorkTitles?.(); removeWorkTitles=null;
   removeCards?.();removeCards=null;
   tableView?.destroy();tableView=null;
@@ -42,18 +56,23 @@ async function render(keepScroll=false) {
   if (!work || work.reader_kind!=='corpus' || !catalogPath(work.catalog_path)) {
     index=null;selected=null;list();$('corpus-content').innerHTML=`<p>${ui('This source is not available in the imported catalog.')}</p>`;return;
   }
+  work={...work,title:chapterDirectory[work.id]?.title || work.title};
   index=await json(work.catalog_path);
   if(current!==ticket)return;
   selected=index.chapters.find(e=>e.chapter_id===params.get('chapter') && (!params.has('book') || e.book_id===params.get('book')));
   list();
+  if (!params.has('chapter') && params.has('book')) {
+    const landing=volumeLanding(volumeModel(volumeDirectory,work.id,index),params.get('book'));
+    if(landing){document.title=landing.title+' · 人文';$('corpus-content').innerHTML=landing.html;if(!keepScroll)$('corpus-content').scrollIntoView({block:'start'});return;}
+  }
   if (!selected) {
     document.title=work.title+' · 人文';
-    $('corpus-content').innerHTML=`<div class="chapter-intro"><h1>${h(work.title)}</h1><p>${ui('Choose an imported chapter.')}</p><p>${ui('Only the listed passages have been imported.')}</p><p>${h(index.policy)}</p></div>`;return;
+    $('corpus-content').innerHTML=`<div class="chapter-intro"><h1>${h(work.title)}</h1><p>${ui('Choose a volume or imported section.')}</p><p>${ui('Only the listed passages have been imported.')}</p><p>${h(index.policy)}</p></div>`;return;
   }
   if(selected.available==='table') {
     if(!/^[a-z][a-z0-9-]*-\d{3}[a-z]?$/.test(selected.table_id))throw Error(t('Table data could not be loaded.'));
-    document.title=work.title+'·'+selected.title+' · 人文';
-    $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(selected.title)}</h1><p class="corpus-note" data-source-scope>${h(selected.scope_note)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><section data-native-table>${historicalTableMarkup}</section>`;
+    document.title=sourceCitation(selected,chapterDirectory,workTitles)+' · 人文';
+    $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(sourceCitation(selected,chapterDirectory,workTitles))}</h1><p class="corpus-note" data-source-scope>${h(selected.scope_note)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><section data-native-table>${historicalTableMarkup}</section>`;
     tableView=mountHistoricalTable($('corpus-content').querySelector('[data-native-table]'),selected.table_id);
     await tableView.ready;
     return;
@@ -62,13 +81,15 @@ async function render(keepScroll=false) {
   const chapter=await json(selected.path);
   if(current!==ticket)return;
   if(chapter.id!==selected.chapter_id || chapter.work_id!==work.id || chapter.book_id!==selected.book_id)throw Error(t('Source text could not be loaded.'));
-  document.title=work.title+'·'+selected.title+' · 人文';
+  document.title=sourceCitation(selected,chapterDirectory,workTitles)+' · 人文';
   const context={work_id:chapter.work_id,book_id:chapter.book_id,chapter_id:chapter.id,reading_layout:!!chapter.reading_layout};
-  const layout=chapterReadingLayout(chapter), paragraphHTML=p=>chapterParagraph(p,{},context,workTitles)+referentInterpretations(chapter,p.id);
+  const layout=chapterReadingLayout(chapter), paragraphHTML=p=>chapterParagraph(p,{},context,workTitles,referentInterpretations(chapter,p.id)+crossChapterReferences(chapter,p.id,volumeDirectory));
   const readingHTML=layout.primary.map(paragraphHTML).join('')+layout.archival.map(({entry,paragraph})=>`<details class="corpus-archival-excerpt" data-archival-excerpt><summary>${h(entry.label)}</summary><p class="corpus-note">這是同一固定底本的歷史節引；主文已按原行展開，原錨點與引用保留。</p>${paragraphHTML(paragraph)}</details>`).join('');
-  $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(chapter.title)}</h1><p class="corpus-note" data-source-scope>${h(chapter.source.extent)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><nav class="chapter-pagination">${external(chapter.source.permalink,'Fixed source version')}<a href="${h(selected.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p>${h(chapter.source.rights)}</p><p>${h(chapter.source.normalization?.note || '')}</p><p>${h(chapter.source.normalization?.extraction_note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text" data-chapter-id="${h(chapter.id)}">${readingHTML}</article>`;
+  $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(sourceCitation(selected,chapterDirectory,workTitles))}</h1><p class="corpus-note volume-selection-scope">${ui('Selected scope')}: ${h(chapter.title)}</p><p class="corpus-note" data-source-scope>${h(chapter.source.extent)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><nav class="chapter-pagination">${external(chapter.source.permalink,'Fixed source version')}<a href="${h(selected.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p>${h(chapter.source.rights)}</p><p>${h(chapter.source.normalization?.note || '')}</p><p>${h(chapter.source.normalization?.extraction_note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details>${commentaryControls(chapter)}<article class="corpus-text" data-chapter-id="${h(chapter.id)}">${readingHTML}</article>`;
   removeCards=bindPersonCards($('corpus-content'));
   removeWorkTitles=bindWorkTitles($('corpus-content'));
+  commentaryController=bindCommentaryControls($('corpus-content'),chapter,commentaryState);
+  if(!readingState)commentaryController.reveal(params);
   const passage=params.get('passage');
   if(readingState)restoreReadingState($('corpus-content'),readingState);
   else if(!revealSourceTarget($('corpus-content'),chapter,params))window.scrollTo(0,0);
@@ -78,7 +99,8 @@ const fail=error=>{$('corpus-content').innerHTML=`<p role="alert">${h(error.mess
 (async()=>{
   try {
     manifest=await json('data/corpus/works.json');
-    workTitles=await loadWorkTitles();
+    [workTitles,volumeDirectory]=await Promise.all([loadWorkTitles(),loadVolumeDirectory()]);
+    chapterDirectory=chapterDirectoryMap(volumeDirectory);
     $('chapter-search').oninput=list;
     window.addEventListener('hashchange',()=>render().catch(fail));
     window.addEventListener('renwen:beforelanguagechange',()=>languageReading.before());

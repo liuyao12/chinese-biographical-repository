@@ -1,3 +1,5 @@
+import {revealSourceTarget} from './reading-layout.js';
+import {commentaryControls,bindCommentaryControls} from './commentary-layers.js';
 import {loadWorkTitles, bindWorkTitles} from './work-titles.js';
 import {createLanguageReadingTransition, restoreReadingState} from './corpus-reading-state.js';
 import {referentInterpretations} from './referent-interpretations.js';
@@ -12,6 +14,7 @@ const $ = id => document.getElementById(id);
 let index, people, selected, category = 'all', ticket = 0;
 const cache = new Map();
 const languageReading = createLanguageReadingTransition(()=>$('corpus-content'),()=>({ticket,hash:location.hash}));
+const commentaryState=new Map();let commentaryController;
 let tableReader, removeTextPersonCards, workTitles={}, removeWorkTitles;
 const labels = {marked_text: 'Annotated text', table: 'Continuous table', pending: 'Not yet imported'};
 const ext = (url, label) => safeSourceURL(url) ? `<a href="${h(safeSourceURL(url))}" rel="noopener" target="_blank">${ui(label)} ↗</a>` : '';
@@ -33,6 +36,7 @@ async function render(keepReadingState = false) {
   category = index.categories.some(c => c.id === params.get('category')) ? params.get('category') : 'all';
   const number = Number(params.get('chapter')), entry = index.chapters.find(e => e.number === number);
   const readingState = languageReading.start(keepReadingState && selected?.number === number,current);
+  commentaryController?.destroy();commentaryController=null;
   removeWorkTitles?.(); removeWorkTitles=null;
   removeTextPersonCards?.(); removeTextPersonCards = null;
   tableReader?.destroy(); tableReader = null;
@@ -67,12 +71,14 @@ async function render(keepReadingState = false) {
   }
   if (current !== ticket) return;
   const chapter = cache.get(number); selected = {...entry, chapter};
-  $('corpus-content').innerHTML = heading + `<p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><p class="corpus-note">${ui('Annotation in progress · no independently reviewed edition claimed')}</p><nav class="chapter-pagination">${ext(chapter.source.permalink, 'Fixed source version')}<a href="${h(entry.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p data-original>${h(chapter.source.extent)}</p><p data-original>${h(chapter.source.rights)}</p><p data-original>${h(chapter.source.normalization?.note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text" data-chapter-id="${h(chapter.id)}">${chapter.paragraphs.map(p => chapterParagraph(p, people, null, workTitles) + referentInterpretations(chapter, p.id, people)).join('')}</article>${navigation(entry)}`;
+  $('corpus-content').innerHTML = heading + `<p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><p class="corpus-note">${ui('Annotation in progress · no independently reviewed edition claimed')}</p><nav class="chapter-pagination">${ext(chapter.source.permalink, 'Fixed source version')}<a href="${h(entry.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p data-original>${h(chapter.source.extent)}</p><p data-original>${h(chapter.source.rights)}</p><p data-original>${h(chapter.source.normalization?.note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details>${commentaryControls(chapter)}<article class="corpus-text" data-chapter-id="${h(chapter.id)}">${chapter.paragraphs.map(p => chapterParagraph(p, people, null, workTitles, referentInterpretations(chapter, p.id, people))).join('')}</article>${navigation(entry)}`;
   removeTextPersonCards = bindPersonCards($('corpus-content'));
   removeWorkTitles=bindWorkTitles($('corpus-content'));
+  commentaryController=bindCommentaryControls($('corpus-content'),chapter,commentaryState);
+  if(!readingState)commentaryController.reveal(params);
   const passage = params.get('passage');
   if (readingState) restoreReadingState($('corpus-content'), readingState);
-  else if (passage && chapter.paragraphs.some(p => p.id === passage)) document.getElementById(passage).scrollIntoView();
+  else if (revealSourceTarget($('corpus-content'),chapter,params)) { /* Exact source anchor revealed. */ }
   else window.scrollTo(0, 0);
   languageReading.finish(current);
 }

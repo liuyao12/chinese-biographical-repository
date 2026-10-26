@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "aa6_83c_juy_DA",
   "canonical_person_id": "aa6_83c_juy_DA",
-  "label": "謝萬女（王珣妻，未名）",
-  "identity_note": "本卷完整敘事單元來源人物；有父系者依明文，未知母親、生年及婚姻不補。謝混沿用王氏尚未發布來源候選。",
+  "label": "謝氏（王珣妻）",
+  "identity_note": "本卷完整敘事單元來源人物；有父系者依明文，未知母親、生年及婚姻不補。謝混沿用王氏尚未發布來源候選。 氏稱依原生姓名記錄name-xie-women-wan-daughter-clan；本人名未載，父女及婚姻來源原值保留，不由夫姓或結構ID推姓。",
   "review": "ai_provisional",
   "names": [
     "女"
@@ -773,10 +773,62 @@
   "related_people": {
     "7r6_k52_qji_ABAAAA": "王珣",
     "aa6_83c_juy_D": "謝萬",
-    "aa6_83c_juy_DA": "謝萬女（王珣妻，未名）"
+    "aa6_83c_juy_DA": "謝氏（王珣妻）"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-xie-women-wan-daughter-clan",
+      "person_id": "aa6_83c_juy_DA",
+      "surname": "謝",
+      "ming": null,
+      "additional_names": [],
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "paragraph_id": "c-jinshu-079-xielang-family:phase6-line063",
+      "person_mention_id": "c-jinshu-079-xielang-family:phase6-line063:m0233",
+      "quote": "琰字瑗度。弱冠以貞幹稱，美風姿。與從兄護軍淡雖比居，不往來，宗中子弟惟與才令者數人相接。拜著作郎，轉秘書丞，累遷散騎常侍、侍中。苻堅之役，安以琰有軍國才用，出為輔國將軍，以精卒八千，與從兄玄俱陷陣破堅，以勳封望蔡公，尋遭父憂去官，服闋，除征虜將軍、會稽內史。頃之。徵為尚書右僕射，領太子詹事，加散騎常侍，將軍如故。又遭母憂，朝廷疑其葬禮。時議者云：「潘岳為賈充婦《宜城宣君誄》云：'昔在武侯，喪禮殊倫。伉儷一體，朝儀則均。'謂宜資給葬，悉依太傅故事。」先是，王珣娶萬女，珣弟瑉娶安女，並不終，由是與謝氏有隙。珣時為僕射，猶以前憾緩其事。琰聞恥之，遂自造轀輬車以葬，議者譏之。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "clan_style": {
+        "kind": "paternal_clan_appellation",
+        "value": "謝氏",
+        "source_term": "王珣娶萬女",
+        "assertion_ids": [
+          "a-phase6-079-63-7"
+        ],
+        "status": "editorial_provisional",
+        "rationale": "原文明父及父親同人完整姓名支持氏稱；本人名未載，不從夫姓、家系ID或label取姓，不推生母。",
+        "human_reviewed": false
+      },
+      "clan_style_basis": {
+        "kind": "fixed_explicit_father_and_literal_parent_name",
+        "case_id": "wan-daughter",
+        "parent_full_name_source": {
+          "native_path": "corpus/jinshu/079.json",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "source_fingerprints": {
+            "revision_id": 2645985,
+            "response_sha256": "d163328c2cd16ad7f6eb3d805fb7f9dbd03f98297a3bfd1d9c51897d21fe1333",
+            "wikitext_sha256": "5fa1f639fa36f784fc45cc19fc9b185fa59a64dab7b01f9390d09942c4f071ca"
+          },
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p002",
+          "quote": "弱冠，辟司徒掾，遷右西屬，不就。簡文帝作相，聞其名，召為撫軍從事中郎。萬著白綸巾，鶴氅裘，履版而前。既見，與帝共談移日。太原王述，萬之妻父也，為揚州刺史。萬嘗衣白綸巾，乘平肩輿，徑至聽事前，謂述曰：「人言君侯癡，君侯信自癡。」述曰：「非無此論，但晚合耳。」萬再遷豫州刺史、領淮南太守、監司豫冀並四州軍事、假節。王羲之與桓溫箋曰：「謝萬才流經通，處廊廟，參諷議，故是後來一器。而今屈其邁往之氣，以俯順荒餘，近是違才易務矣。」溫不從。",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xiewan-p002:m0165",
+          "parent_person_id": "aa6_83c_juy_D",
+          "surface": "謝萬"
+        },
+        "father_assertion_id": "a-phase6-079-63-7",
+        "local_father_mention_id": "c-jinshu-079-xielang-family:phase6-line063:m0232"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-079",
+      "source_id": "s-jinshu-079-xielang-family"
+    }
+  ],
   "person_ids": [
     "aa6_83c_juy_DA"
   ],

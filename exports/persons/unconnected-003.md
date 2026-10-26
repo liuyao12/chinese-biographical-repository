@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `iy8_wgd_wnk` | 湯 | [《史記・蘇秦列傳》][138] | [JSON](iy8_wgd_wnk.json) |
-| `iyk_qvv_07j` | 樂叔 | [《史記・樂毅列傳》][149] | [JSON](iyk_qvv_07j.json) |
 | `izd_fga_3aj` | 劉惔 | [《晉書・桓溫完整本傳單元》][59] | [JSON](izd_fga_3aj.json) |
 | `j0a_7ai_tbu` | 寬舒 | [《史記・孝武本紀》][99] | [JSON](j0a_7ai_tbu.json) |
 | `j0b_1s6_k98` | 開方 | [《史記・齊太公世家》][101] | [JSON](j0b_1s6_k98.json) |
@@ -639,7 +637,7 @@
 | `n1i_qiv_h8g` | 桀引古 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](n1i_qiv_h8g.json) |
 | `n1j_kbh_u02` | 丞史未名（鼂錯） | [《史記・袁盎鼂錯列傳》][170] | [JSON](n1j_kbh_u02.json) |
 | `n1v_fc6_tgj` | 曾勰〔本紀來源局部〕 | [《晉書・成帝紀咸和三年完整紀年》][18] | [JSON](n1v_fc6_tgj.json) |
-| `n21_jh1_wtj` | 褚淵之未名女〔謝𤅢妻〕 | [《南齊書・謝𤅢傳（含兄顥附傳）》][69] | [JSON](n21_jh1_wtj.json) |
+| `n21_jh1_wtj` | 褚氏（謝𤅢妻） | [《南齊書・謝𤅢傳（含兄顥附傳）》][69] | [JSON](n21_jh1_wtj.json) |
 | `n22_unt_6ec` | 魏齊 | [《史記・范睢蔡澤列傳》][148] | [JSON](n22_unt_6ec.json) |
 | `n28_twg_d1m` | 張廣昌 | [《史記・淮南衡山列傳》][187] | [JSON](n28_twg_d1m.json) |
 | `n2o_l90_fnm` | 韓非 | [《史記・老子韓非列傳》][132] | [JSON](n2o_l90_fnm.json) |
@@ -1034,7 +1032,7 @@
 | `pgv_xst_ss3` | 太公家令（高祖本紀） | [《史記・高祖本紀》][95] | [JSON](pgv_xst_ss3.json) |
 | `pgw_7wx_2g6` | 王離 | [《史記・絳侯周勃世家》][126] | [JSON](pgw_7wx_2g6.json) |
 | `pgz_pbh_533` | 公孫敢（衛門者） | [《史記・衛康叔世家》][106] | [JSON](pgz_pbh_533.json) |
-| `ph1_0cf_nxw` | 澹〔謝該弟〕 | [《晉書・謝氏家族選段及謝尚、奕、玄、石、邈完整單元》][53] | [JSON](ph1_0cf_nxw.json) |
+| `ph1_0cf_nxw` | 謝澹 | [《晉書・謝氏家族選段及謝尚、奕、玄、石、邈完整單元》][53] | [JSON](ph1_0cf_nxw.json) |
 | `ph1_kpk_evr` | 王匡 | [《後漢書・孝獻帝紀第九（開篇、中平六年及初平元年）》][14] | [JSON](ph1_kpk_evr.json) |
 | `pha_cmo_p9d` | 魏章 | [《史記・魏世家》][113] | [JSON](pha_cmo_p9d.json) |
 | `phx_4fq_fnx` | 蘇代 | [《史記・蘇秦列傳》][138] | [JSON](phx_4fq_fnx.json) |
@@ -1369,7 +1367,7 @@
 | `rdl_pp9_ce4` | 周矯 | [《晉書・王彪之傳》][48] | [JSON](rdl_pp9_ce4.json) |
 | `re9_nb5_fi9` | 蹻 | [《史記・游俠列傳》][193] | [JSON](re9_nb5_fi9.json) |
 | `rec_qtq_9ve` | 司馬錯 | [《史記・秦本紀》][92] | [JSON](rec_qtq_9ve.json) |
-| `ret_r51_eip` | 模〔謝該弟〕 | [《晉書・謝氏家族選段及謝尚、奕、玄、石、邈完整單元》][53] | [JSON](ret_r51_eip.json) |
+| `ret_r51_eip` | 謝模 | [《晉書・謝氏家族選段及謝尚、奕、玄、石、邈完整單元》][53] | [JSON](ret_r51_eip.json) |
 | `rf6_xhq_gm3` | 范獻子〔范鞅〕 | [《史記・晉世家》][108] | [JSON](rf6_xhq_gm3.json) |
 | `rfm_591_1ls` | 熊羆 | [《史記・五帝本紀》][88] | [JSON](rfm_591_1ls.json) |
 | `rfo_sjy_tc6` | 后勝 | [《史記・秦始皇本紀》][93] | [JSON](rfo_sjy_tc6.json) |
@@ -2009,6 +2007,8 @@
 | `v7r_a6g_3tw` | 輿〔楷長子，字祖明〕 | [《晉書・裴楷及附傳近系》][27] | [JSON](v7r_a6g_3tw.json) |
 | `v7s_dh4_n43` | 子良 | [《史記・穰侯列傳》][141] | [JSON](v7s_dh4_n43.json) |
 | `v8l_ue6_un4` | 弦高 | [《史記・秦本紀》][92]、[《史記・晉世家》][108]、[《史記・十二諸侯年表》][239] | [JSON](v8l_ue6_un4.json) |
+| `v8p_pcs_28s` | 聲子（惠公妾） | [《史記・魯周公世家》][102] | [JSON](v8p_pcs_28s.json) |
+| `v8p_xn6_zmf` | 單于使者（未名） | [《史記・韓長孺列傳》][177] | [JSON](v8p_xn6_zmf.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

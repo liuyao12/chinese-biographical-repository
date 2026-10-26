@@ -85,6 +85,18 @@ def validate_clan_style(name, paragraph=None, relations=()):
         valid = clan_valid(name, paragraph, relations)
     else:
         valid = False
+    if not valid and isinstance(style, dict) and style.get('kind') == 'sibling_clan_appellation':
+        try:
+            from .sibling_clan_biography import valid as biography_sibling_clan_valid
+        except ImportError:
+            from sibling_clan_biography import valid as biography_sibling_clan_valid
+        valid = biography_sibling_clan_valid(name, paragraph, relations)
+    if not valid and isinstance(style, dict) and style.get('kind') == 'paternal_clan_appellation':
+        try:
+            from .paternal_clan_appellation import valid as paternal_clan_valid
+        except ImportError:
+            from paternal_clan_appellation import valid as paternal_clan_valid
+        valid = paternal_clan_valid(name, paragraph, relations)
     if not valid:
         raise ValueError('氏稱須保留未知本名、原文或具名兄弟的姊妹證據，不得把字作名')
 
