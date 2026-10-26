@@ -13627,5 +13627,39 @@
       }
     ]
   },
-  "text_sha256": "90b2eca1423a2de92a00be96f65c9fe6a262c5709c6e8e1fe6de6711449b0e0a"
+  "text_sha256": "90b2eca1423a2de92a00be96f65c9fe6a262c5709c6e8e1fe6de6711449b0e0a",
+  "cross_chapter_references": [
+    {
+      "id": "xref-jin079-xieshi-fanhongzhi",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-079",
+        "chapter_id": "c-jinshu-079-xielang-family",
+        "source_id": "s-jinshu-079-xielang-family",
+        "revision_id": 2645985,
+        "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshi-p003",
+        "paragraph_text": "石少患面創，療之莫愈，乃自匿。夜有物來舐其瘡，隨舐隨差，舐處甚白，故世呼為「謝白面」。石在職務存文刻，既無他才望，直以宰相弟兼有大才，遂居清顯，而聚斂無饜，取譏當世。追贈司空，禮官議諡，博士范弘之議諡曰襄墨公，語在弘之傳。朝議不從，單諡曰襄。",
+        "paragraph_text_sha256": "10f5bf8e1feac451e0541786ebd4862fbdca4a73ec9e0071d383e297609ca51d",
+        "start": 105,
+        "end": 110,
+        "surface": "語在弘之傳"
+      },
+      "target": {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-091",
+        "section_label": "范弘之",
+        "text_status": "not_imported",
+        "chapter_id": null
+      },
+      "resolution": {
+        "status": "contextually_identified",
+        "rationale": "本段明稱博士范弘之議襄墨公，隨即語在弘之傳；卷091儒林范弘之單元具名並載同一諡議。不是因最近同名人物自動接傳。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=晉書/卷091&oldid=2835558",
+        "read_scope": "卷091范弘之完整單元，頁面render lines261–279；只核target小節與同議諡事件，非全卷重讀/圖校。",
+        "short_quote": "時衛將軍謝石薨，請諡，下禮官議。弘之議曰",
+        "human_reviewed": false
+      }
+    }
+  ]
 }

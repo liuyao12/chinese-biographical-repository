@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "n21_jh1_wtj",
   "canonical_person_id": "n21_jh1_wtj",
-  "label": "褚淵之未名女〔謝𤅢妻〕",
-  "identity_note": "p002褚淵聞𤅢…以女結婚厚爲資送，女屬褚淵，實際婚配𤅢。前句詔尚公主因景和敗事寢，不是此女或既成配偶。",
+  "label": "褚氏（謝𤅢妻）",
+  "identity_note": "p002褚淵聞𤅢…以女結婚厚爲資送，女屬褚淵，實際婚配𤅢。前句詔尚公主因景和敗事寢，不是此女或既成配偶。 氏稱依原生姓名記錄name-xie-women-yue-wife-clan；本人名未載，父女及婚姻來源原值保留，不由夫姓或結構ID推姓。",
   "review": "ai_provisional",
   "names": [
     "女"
@@ -163,10 +163,62 @@
   "related_people": {
     "aa6_83c_juy_DBABAC": "謝𤅢〔字義潔〕",
     "jyx_72x_8t2": "褚淵",
-    "n21_jh1_wtj": "褚淵之未名女〔謝𤅢妻〕"
+    "n21_jh1_wtj": "褚氏（謝𤅢妻）"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-xie-women-yue-wife-clan",
+      "person_id": "n21_jh1_wtj",
+      "surname": "褚",
+      "ming": null,
+      "additional_names": [],
+      "chapter_id": "c-nanqishu-043-xieyue",
+      "paragraph_id": "c-nanqishu-043-xieyue:p002",
+      "person_mention_id": "c-nanqishu-043-xieyue:p002:m0072",
+      "quote": "𤅢年七歲，王彧見而異之，言於宋孝武，孝武召見於稠人廣衆之中，𤅢舉動閑詳，應對合旨，帝甚悅。詔尚公主，值景和敗，事寢。僕射褚淵聞𤅢年少清正不惡，以女結婚，厚爲資送。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "clan_style": {
+        "kind": "paternal_clan_appellation",
+        "value": "褚氏",
+        "source_term": "以女結婚",
+        "assertion_ids": [
+          "a-nanqi043-xieyue-wife-father"
+        ],
+        "status": "editorial_provisional",
+        "rationale": "原文明父及父親同人完整姓名支持氏稱；本人名未載，不從夫姓、家系ID或label取姓，不推生母。",
+        "human_reviewed": false
+      },
+      "clan_style_basis": {
+        "kind": "fixed_explicit_father_and_literal_parent_name",
+        "case_id": "yue-wife",
+        "parent_full_name_source": {
+          "native_path": "corpus/nanqishu/043-xieyue.json",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "source_fingerprints": {
+            "revision_id": 2400356,
+            "response_sha256": "3a6a97e651528165730c9449870379efdfddd44a36b17e7600fab6060b7b24ae",
+            "wikitext_sha256": "7a65e9b58b508ef0dbc64a4a650c99c30dcd94f8f13ea9a23d171f539174baed"
+          },
+          "paragraph_id": "c-nanqishu-043-xieyue:p002",
+          "quote": "𤅢年七歲，王彧見而異之，言於宋孝武，孝武召見於稠人廣衆之中，𤅢舉動閑詳，應對合旨，帝甚悅。詔尚公主，值景和敗，事寢。僕射褚淵聞𤅢年少清正不惡，以女結婚，厚爲資送。",
+          "person_mention_id": "c-nanqishu-043-xieyue:p002:m0060",
+          "parent_person_id": "jyx_72x_8t2",
+          "surface": "褚淵"
+        },
+        "father_assertion_id": "a-nanqi043-xieyue-wife-father",
+        "local_father_mention_id": "c-nanqishu-043-xieyue:p002:m0060"
+      },
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-043",
+      "source_id": "s-nanqishu043-ws2400356"
+    }
+  ],
   "person_ids": [
     "n21_jh1_wtj"
   ],

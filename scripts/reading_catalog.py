@@ -50,6 +50,7 @@ def outputs(root=None):
     # Work-specific catalogs retain native chapter IDs. The established Shiji
     # reader (including its tables) remains its own specialized entry point.
     works = json.loads((root / 'registry/works.json').read_text())['works']
+    navigation_work_ids = {w['work_id'] for w in json.loads((directory / 'chapter-directory.json').read_text())['works'] if w.get('books')}
     manifest = [{'id':'w-shiji','title':'史記','author':'司馬遷',
                  'reader_kind':'shiji','catalog_path':'data/corpus/index.json'}]
     other_chapters = []
@@ -90,11 +91,11 @@ def outputs(root=None):
                 'text_scope':source.get('text_scope','table'), 'scope_note':source.get('extent',source['note']),
                 'annotation_status':source['review_status']})
         selected.sort(key=lambda c:(c['number'],c['chapter_id']))
-        if not selected:
+        if not selected and work['id'] not in navigation_work_ids:
             continue
         path = f'data/corpus/{slug}/index.json'
         other = {'schema_version':1,'work_id':work['id'],'title':work['title'],'author':work.get('author'),
-                 'chapters':selected,'policy':'只列已實錄卷篇；部分傳文不代表整卷或全書完成。'}
+                 'chapters':selected,'policy':('只列已實錄卷篇；部分傳文不代表整卷或全書完成。' if selected else '僅有卷篇導航占位；正文尚未收錄，不代表開始正文覆核。')}
         result[root / path] = (json.dumps(other,ensure_ascii=False,indent=2)+'\n').encode()
         manifest.append({'id':work['id'],'title':work['title'],'author':work.get('author'),
                          'reader_kind':'corpus','catalog_path':path})

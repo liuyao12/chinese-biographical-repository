@@ -16,7 +16,10 @@ def validate(name, names, chapters, assertions):
   sp=ps[seed['paragraph_id']];sm=mark(sp,seed['person_mention_id'],seed['person_id'])
   assert seed['quote']==sp['text']==b['source_full_quote']
   assert sm['start']==0 and sm['surface']==seed['surname']+seed['ming']
-  assert re.match(r'^[，,]?字',sp['text'][sm['end']:])
+  if not re.match(r'^[，,]?字',sp['text'][sm['end']:]):
+   try:from .surname_fixed_birthplace_head import valid as fixed_head_valid
+   except ImportError:from surname_fixed_birthplace_head import valid as fixed_head_valid
+   assert fixed_head_valid(seed,name,c,assertions)
   tp=ps[name['paragraph_id']];tm=mark(tp,name['person_mention_id'],name['person_id'])
   assert name['quote']==tp['text'] and tm['surface']==name['ming']
   steps=b['steps'];assert 1<=len(steps)<=2

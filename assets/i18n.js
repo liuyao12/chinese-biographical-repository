@@ -5,7 +5,8 @@ import round1Chinese from './round1-locale.js';
 import namesChinese from './names-locale.js';
 import tablesChinese from './tables-locale.js';
 import corpusChinese from './corpus-locale.js';
-const chinese = {...baseChinese, ...familyChinese, ...round1Chinese, ...namesChinese, ...tablesChinese, ...corpusChinese};
+import discoveryChinese from './discovery-locale.js';
+const chinese = {...baseChinese, ...familyChinese, ...round1Chinese, ...namesChinese, ...tablesChinese, ...corpusChinese, ...discoveryChinese};
 
 export const DEFAULT_LOCALE = 'zh-Hant';
 export const STORAGE_KEY = 'ren-wen:language:v1';

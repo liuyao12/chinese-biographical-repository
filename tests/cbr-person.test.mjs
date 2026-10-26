@@ -300,10 +300,10 @@ test('親屬表格來源回到原格，不冒作正文段落',()=>{
 });
 test('其他作品的主要來源、親屬引用及出現篇章使用實際書名',()=>{
  const e={work_id:'w-hanshu',book_id:'b-hanshu-041',chapter_id:'c-hanshu-041-synthetic',paragraph_id:'synthetic-p',quote:'合成原句'};
- const p={id:'synthetic_person',label:'合成人物',occurrences:[{...e,work_title:'漢書',title:'合成篇',count:2}],relations:[{subject_person_id:'synthetic_person',object_person_id:'synthetic_parent',predicate:'father',evidence:[e]}]};
+ const p={id:'synthetic_person',label:'合成人物',source_chapter_directory:{'w-hanshu':{title:'漢書',books:{'b-hanshu-041':{title:'卷四十一',citation_title:'合成篇'}}}},occurrences:[{...e,work_title:'漢書',title:'編輯選錄說明',count:2}],relations:[{subject_person_id:'synthetic_person',object_person_id:'synthetic_parent',predicate:'father',evidence:[e]}]};
  const html=personCard(p,true);
- assert.match(html,/《漢書·合成篇》/);assert.match(html,/reader\.html#work=w-hanshu/);
- assert.doesNotMatch(html,/《史記·合成篇》|shiji\.html#chapter=41/);
+ assert.match(html,/《漢書・合成篇》/);assert.match(html,/reader\.html#work=w-hanshu/);
+ assert.doesNotMatch(html,/《史記[·・]合成篇》|shiji\.html#chapter=41|編輯選錄說明/);
 });
 test('稱號首選校讀與來源原字分列，不改其他持職字面',()=>{
  const title={id:'synthetic_holding',title:'合成原字',kind:'noble_rank',evidence:[],effective_period:{start:{status:'unknown'},end:{status:'unknown'}}};

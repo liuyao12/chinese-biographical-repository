@@ -3,7 +3,7 @@ import {loadNameHistory, sourceNameGroups, nameHistoryHTML, typedAttestationsHTM
 import {t, ui, bindText, getLocale} from './i18n.js';
 import {escapeHTML as h, safeURL} from './core.js';
 import {canonicalName, ageAtDeath, loadProfiles} from './profiles.js';
-import {loadWorks,workURL,readerURL,eccpDestination,occurrences} from './library.js';
+import {loadWorks,workURL,readerURL,eccpDestination,profileReaderURL,occurrences} from './library.js';
 import {personHeading, chineseYearText, chineseYearLabel, profilesWithStubs} from './person-display.js';
 
 const link = (url, label) => {
@@ -27,7 +27,7 @@ function render(p) {
     <div class="eyebrow">${h(p.collection)} · ${ui("PERSON PROFILE")} · ${ui(p.reviewStatus)}</div>
     ${personHeading(p)}
     <p class="romanization">${(p.name.romanizations || []).map(r => h(r.value)).join(' · ')}</p>
-    <div class="profile-source-navigation"><a href="./">${ui("Three-panel reader →")}</a>${(p.accounts || []).filter(a => a.readerWitness).map(a => `<a href="${h(readerURL(a.readerWitness, /^[a-z0-9-]+$/.test(a.passage||'') ? a.passage : '', p.id))}">${h(p.sources[a.source].title)} →</a>`).join('')}</div>
+    <div class="profile-source-navigation"><a href="${h(profileReaderURL(p,libraryCatalog))}">${ui("Three-panel reader →")}</a>${(p.accounts || []).filter(a => a.readerWitness).map(a => `<a href="${h(readerURL(a.readerWitness, /^[a-z0-9-]+$/.test(a.passage||'') ? a.passage : '', p.id))}">${h(p.sources[a.source].title)} →</a>`).join('')}</div>
     ${destination?`<div class="reading-links"><a href="${h(destination.url)}"${destination.external?' target="_blank" rel="noopener"':''}>${ui(destination.label)}${destination.external?' ↗':' →'}</a></div>`:''}
     <p class="coverage">${ui(p.coverage)}</p>
     <div class="life-grid">

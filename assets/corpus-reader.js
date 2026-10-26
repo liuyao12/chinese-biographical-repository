@@ -1,4 +1,5 @@
-import {sourceCaption} from './source-caption.js';
+import {layerParagraph} from './commentary-layers.js';
+import {sourceCitation} from './source-caption.js';
 import {workMentionHTML} from './work-titles.js';
 import {nativeProfileReturn} from './native-table-links.js';
 import {escapeHTML as h} from './core.js';
@@ -41,9 +42,9 @@ export function profileSourceContext(person, params) {
   const mention=requestedMention && occurrence.mention_ids?.includes(requestedMention)?requestedMention:null;
   const actualPassage=mention?occurrence.mention_paragraph_ids?.[mention] || passage:passage;
   const href=sourcePassageURL({...occurrence,paragraph_id:actualPassage,mention_id:mention});
-  return href?{href,text:`回到${sourceCaption(occurrence.work_title,occurrence.title)} →`}:null;
+  return href?{href,text:`回到${sourceCitation(occurrence,person.source_chapter_directory,person.source_work_titles)} →`}:null;
 }
-export function chapterParagraph(paragraph, people = {}, context = null, workTitles = {}) {
+export function chapterParagraph(paragraph, people = {}, context = null, workTitles = {}, extraHTML = '') {
   const chars = Array.from(paragraph.text), fragments = [];
   let end = 0;
   for (const mention of paragraph.mentions) {
@@ -67,10 +68,7 @@ export function chapterParagraph(paragraph, people = {}, context = null, workTit
     end = mention.end;
   }
   fragments.push(h(chars.slice(end).join('')));
-  const layerLabels={witness_appended_pei_songzhi_note:'劉宋・裴松之注',witness_peisongzhi_quoted_simabiao_xuzhuan:'裴松之注引司馬彪序傳',witness_appended_lixian_note:'唐・李賢注',witness_appended_liuban_collation:'宋・劉攽校',witness_appended_qing_siku_collation:'清・四庫考證'};
-  const label=layerLabels[paragraph.text_layer];
-  const layerLabel=label?`<div class="corpus-text-layer" data-text-layer-label="${h(paragraph.text_layer)}">${h(label)}</div>`:'';
-  return layerLabel+`<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`;
+  return layerParagraph(paragraph,`<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`,extraHTML);
 }
 export function filteredChapters(index, category, query = '') {
   const term = query.trim();

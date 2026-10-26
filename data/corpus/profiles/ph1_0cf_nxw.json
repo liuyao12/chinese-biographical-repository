@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "ph1_0cf_nxw",
   "canonical_person_id": "ph1_0cf_nxw",
-  "label": "澹〔謝該弟〕",
-  "identity_note": "來源明該弟澹，劉裕封柴桑侯奉安祀，後兼太尉與王謐奉冊；只此明文身份。既有謝琰從兄護軍淡（6f2_43f_c93）字形與世代角色不同，無平行原證不得自動合。",
+  "label": "謝澹",
+  "identity_note": "來源明該弟澹，劉裕封柴桑侯奉安祀，後兼太尉與王謐奉冊；只此明文身份。既有謝琰從兄護軍淡（6f2_43f_c93）字形與世代角色不同，無平行原證不得自動合。 顯示姓名謝澹依原生姓名構件name-jin079-xie-dan-contextual；原文單稱及各來源別名保留，推姓資格以該記錄為準。",
   "review": "ai_provisional",
   "names": [
     "澹"
@@ -1231,11 +1231,130 @@
     }
   ],
   "related_people": {
-    "ph1_0cf_nxw": "澹〔謝該弟〕",
-    "y5j_mi7_xz8": "該〔謝瑤子〕"
+    "ph1_0cf_nxw": "謝澹",
+    "y5j_mi7_xz8": "謝該"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "surname": "謝",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "human_reviewed": false,
+      "model": null,
+      "id": "name-jin079-xie-dan-contextual",
+      "person_id": "ph1_0cf_nxw",
+      "ming": "澹",
+      "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line059",
+      "person_mention_id": "c-jinshu-079-xielang-family:xieyao-line059:m0014",
+      "quote": "劉裕以安勳德濟世，特更封該弟澹為柴桑侯，邑千戶，奉安祀。澹少曆顯位，桓玄篡位，以澹兼太尉，與王謐俱齎冊到姑孰。元熙中，為光祿大夫，復兼太保，持節奉冊禪宋。",
+      "status": "contextual_provisional",
+      "note": "原文此錨只稱名；姓謝為同源全名與有來源近系的AI判讀，不增父子或改正文。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_bounded_named_family_path",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同一已收固定見證傳首明謝安；沿明文父子及具名兄弟句補回近系姓氏。模、澹不藉兄弟規則新增生父，承嗣不作生父證據。",
+        "source_name_record_id": "name-jin079-xiean-explicit",
+        "source_full_quote": "謝安，字安石，尚從弟也。父裒，太常卿。安年四歲時，譙郡桓彝見而歎曰：「此兒風神秀徹，後當不減王東海。」及總角，神識沈敏，風宇條暢，善行書。弱冠，詣王蒙，清言良久，既去，蒙子修曰：「向客何如大人？」蒙曰：「此客亹亹，為來逼人。」王導亦深器之。由是少有重名。",
+        "seed_frame": {
+          "paragraph_id": "c-jinshu-079-xielang-family:p001",
+          "paragraph_sha256": "812019dedb73fc9d58a79c6eb6ae3a327f7cc8005412a41c9c76b1e3a5fa0562",
+          "source_revision": 2645985,
+          "raw_sha256": "5fa1f639fa36f784fc45cc19fc9b185fa59a64dab7b01f9390d09942c4f071ca"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-jin079-xieyao-an-yao",
+            "from_person_id": "aa6_83c_juy_B",
+            "to_person_id": "6na_bet_3ch",
+            "traversal": "father_to_child",
+            "generation_before": 0,
+            "generation_after": 1,
+            "evidence": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-079",
+                "source_id": "s-jinshu-079-xielang-family",
+                "chapter_id": "c-jinshu-079-xielang-family",
+                "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line053",
+                "quote": "羊曇者，太山人，知名士也，為安所愛重。安薨後，輟樂彌年，行不由西州路。嘗因石頭大醉，扶路唱樂，不覺至州門。左右白曰：「此西州門。」曇悲感不已，以馬策扣扉，誦曹子建詩曰：「生存華屋處，零落歸山丘。」慟哭而去。安有二子：瑤、琰。",
+                "subject_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line053:m0108",
+                "object_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line053:m0103"
+              }
+            ],
+            "source_frames": [
+              {
+                "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line053",
+                "paragraph_sha256": "eb9b2c8a95df2cdacd1e73f9478bd02648b55c3538151ce98543a0e9fd616a33",
+                "source_revision": 2645985,
+                "raw_sha256": "5fa1f639fa36f784fc45cc19fc9b185fa59a64dab7b01f9390d09942c4f071ca"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-jin079-xieyao-yao-gai",
+            "from_person_id": "6na_bet_3ch",
+            "to_person_id": "y5j_mi7_xz8",
+            "traversal": "father_to_child",
+            "generation_before": 1,
+            "generation_after": 2,
+            "evidence": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-079",
+                "source_id": "s-jinshu-079-xielang-family",
+                "chapter_id": "c-jinshu-079-xielang-family",
+                "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line057",
+                "quote": "瑤襲爵，官至琅邪王友，早卒。子該嗣，終東陽太守。無子，弟光祿勳模以子承伯嗣，有罪，國除。",
+                "subject_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0015",
+                "object_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0000"
+              }
+            ],
+            "source_frames": [
+              {
+                "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line057",
+                "paragraph_sha256": "f62d8c87c52da786cfdd9d6a6788529649486f400f1f23879a419de53b475465",
+                "source_revision": 2645985,
+                "raw_sha256": "5fa1f639fa36f784fc45cc19fc9b185fa59a64dab7b01f9390d09942c4f071ca"
+              }
+            ]
+          },
+          {
+            "assertion_id": "a-jin079-xieyao-gai-dan",
+            "from_person_id": "y5j_mi7_xz8",
+            "to_person_id": "ph1_0cf_nxw",
+            "traversal": "older_to_younger",
+            "generation_before": 2,
+            "generation_after": 2,
+            "evidence": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-079",
+                "source_id": "s-jinshu-079-xielang-family",
+                "chapter_id": "c-jinshu-079-xielang-family",
+                "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line059",
+                "quote": "劉裕以安勳德濟世，特更封該弟澹為柴桑侯，邑千戶，奉安祀。澹少曆顯位，桓玄篡位，以澹兼太尉，與王謐俱齎冊到姑孰。元熙中，為光祿大夫，復兼太保，持節奉冊禪宋。",
+                "subject_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line059:m0014",
+                "object_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line059:m0012"
+              }
+            ],
+            "source_frames": [
+              {
+                "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line059",
+                "paragraph_sha256": "6fde6951a577e27311052c14cc56b9af7062812e748817d8975a9aac9891bb43",
+                "source_revision": 2645985,
+                "raw_sha256": "5fa1f639fa36f784fc45cc19fc9b185fa59a64dab7b01f9390d09942c4f071ca"
+              }
+            ]
+          }
+        ]
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-079",
+      "source_id": "s-jinshu-079-xielang-family"
+    }
+  ],
   "person_ids": [
     "ph1_0cf_nxw"
   ],

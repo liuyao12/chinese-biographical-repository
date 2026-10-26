@@ -1,0 +1,3 @@
+import assert from 'node:assert/strict';import {layerInfo,commentaryControls,layerParagraph}from '../assets/commentary-layers.js';
+const pure={id:'pure',text:'杜預曰',mentions:[],text_layer:'witness_duyu_annotation_excerpt'},mixed={...pure,id:'mixed',text_layer:'witness_received_text_and_duyu_annotation_excerpt'};
+assert.equal(layerInfo(pure)[0],'duyu');assert.equal(layerInfo(mixed),null);assert.equal((commentaryControls({paragraphs:[pure,pure,mixed]}).match(/type="checkbox"/g)||[]).length,1);assert(layerParagraph(pure,'<p data-source-text>杜預曰</p>').includes('data-commentary-group="duyu"'));assert.equal(layerParagraph(mixed,'<p data-source-text>正文及注</p>'),'<p data-source-text>正文及注</p>');console.log('Du Yu exact pure/mixed layer guards PASS');

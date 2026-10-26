@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "6na_bet_3ch",
   "canonical_person_id": "6na_bet_3ch",
-  "label": "瑤〔謝安子〕",
-  "identity_note": "來源內安有二子瑤琰後，緊接瑤襲爵、子該；按完整敘事主語辨識謝安子瑤。無既存同身份原生錨點，新增來源局部身份，不藉此補排行或家族ID。",
+  "label": "謝瑤",
+  "identity_note": "來源內安有二子瑤琰後，緊接瑤襲爵、子該；按完整敘事主語辨識謝安子瑤。無既存同身份原生錨點，新增來源局部身份，不藉此補排行或家族ID。 顯示姓名謝瑤依原生姓名構件name-jin079-xie-yao-contextual；原文單稱及各來源別名保留，推姓資格以該記錄為準。",
   "review": "ai_provisional",
   "names": [
     "瑤"
@@ -890,12 +890,75 @@
     }
   ],
   "related_people": {
-    "6na_bet_3ch": "瑤〔謝安子〕",
+    "6na_bet_3ch": "謝瑤",
     "aa6_83c_juy_B": "謝安",
-    "y5j_mi7_xz8": "該〔謝瑤子〕"
+    "y5j_mi7_xz8": "謝該"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "surname": "謝",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "human_reviewed": false,
+      "model": null,
+      "id": "name-jin079-xie-yao-contextual",
+      "person_id": "6na_bet_3ch",
+      "ming": "瑤",
+      "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line053",
+      "person_mention_id": "c-jinshu-079-xielang-family:xieyao-line053:m0108",
+      "quote": "羊曇者，太山人，知名士也，為安所愛重。安薨後，輟樂彌年，行不由西州路。嘗因石頭大醉，扶路唱樂，不覺至州門。左右白曰：「此西州門。」曇悲感不已，以馬策扣扉，誦曹子建詩曰：「生存華屋處，零落歸山丘。」慟哭而去。安有二子：瑤、琰。",
+      "status": "contextual_provisional",
+      "note": "原文此錨只稱名；姓謝為同源全名與有來源近系的AI判讀，不增父子或改正文。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_bounded_named_family_path",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同一已收固定見證傳首明謝安；沿明文父子及具名兄弟句補回近系姓氏。模、澹不藉兄弟規則新增生父，承嗣不作生父證據。",
+        "source_name_record_id": "name-jin079-xiean-explicit",
+        "source_full_quote": "謝安，字安石，尚從弟也。父裒，太常卿。安年四歲時，譙郡桓彝見而歎曰：「此兒風神秀徹，後當不減王東海。」及總角，神識沈敏，風宇條暢，善行書。弱冠，詣王蒙，清言良久，既去，蒙子修曰：「向客何如大人？」蒙曰：「此客亹亹，為來逼人。」王導亦深器之。由是少有重名。",
+        "seed_frame": {
+          "paragraph_id": "c-jinshu-079-xielang-family:p001",
+          "paragraph_sha256": "812019dedb73fc9d58a79c6eb6ae3a327f7cc8005412a41c9c76b1e3a5fa0562",
+          "source_revision": 2645985,
+          "raw_sha256": "5fa1f639fa36f784fc45cc19fc9b185fa59a64dab7b01f9390d09942c4f071ca"
+        },
+        "steps": [
+          {
+            "assertion_id": "a-jin079-xieyao-an-yao",
+            "from_person_id": "aa6_83c_juy_B",
+            "to_person_id": "6na_bet_3ch",
+            "traversal": "father_to_child",
+            "generation_before": 0,
+            "generation_after": 1,
+            "evidence": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-079",
+                "source_id": "s-jinshu-079-xielang-family",
+                "chapter_id": "c-jinshu-079-xielang-family",
+                "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line053",
+                "quote": "羊曇者，太山人，知名士也，為安所愛重。安薨後，輟樂彌年，行不由西州路。嘗因石頭大醉，扶路唱樂，不覺至州門。左右白曰：「此西州門。」曇悲感不已，以馬策扣扉，誦曹子建詩曰：「生存華屋處，零落歸山丘。」慟哭而去。安有二子：瑤、琰。",
+                "subject_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line053:m0108",
+                "object_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line053:m0103"
+              }
+            ],
+            "source_frames": [
+              {
+                "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line053",
+                "paragraph_sha256": "eb9b2c8a95df2cdacd1e73f9478bd02648b55c3538151ce98543a0e9fd616a33",
+                "source_revision": 2645985,
+                "raw_sha256": "5fa1f639fa36f784fc45cc19fc9b185fa59a64dab7b01f9390d09942c4f071ca"
+              }
+            ]
+          }
+        ]
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-079",
+      "source_id": "s-jinshu-079-xielang-family"
+    }
+  ],
   "person_ids": [
     "6na_bet_3ch"
   ],

@@ -33,6 +33,19 @@ export function eccpDestination(profile, catalog) {
   }
   return null;
 }
+export function profileReaderURL(profile, catalog) {
+  const destination=eccpDestination(profile,catalog);
+  if(destination && !destination.external)return destination.url;
+  for(const account of profile.accounts || []){
+    const url=readerURL(account.readerWitness,account.passage || '',profile.id);
+    if(url)return url;
+  }
+  for(const source of catalog.sources || []){
+    const url=readerURL(source.id);
+    if(url)return url;
+  }
+  return './#eccp';
+}
 export function occurrences(catalog, id) {
   return (catalog.mentions || []).filter(m=>m.entity===id);
 }
