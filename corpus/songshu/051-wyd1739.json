@@ -79,21 +79,37 @@
     "reviewer": "Codex（AI）",
     "human_reviewed": false,
     "model": null,
-    "coverage": "完整卷五十一AI轉錄初稿；尚未進行逐人NER，所有提及空白。",
+    "coverage": "有限親族NER第一批：49個人物錨；僅道憐六子與義賓/義綦近系及出繼上下文，其餘仍待逐段處理，不宣稱全卷首輪完成。",
     "limitations": [
       "〓為AI未辨字占位，不是原刻字。",
       "完整轉錄不等於完整圖校，所有字形編碼仍待覆核。",
-      "僅本卷及其考證，不稱全冊或全書完成。"
+      "僅本卷及其考證，不稱全冊或全書完成。",
+      "六子名單不推排行；出繼不改生父，未載生母、婚配、出生年不補。",
+      "兩處來源所報2分存為未決ordinal讀法，不作已解出生序。",
+      "p028所養、命紹、還本及定義慶分存歷史經過；不產義隆永久嗣父。",
+      "p029兩太妃氏稱實指人物保留；後薨無年，不推生母/養母；未處理的微管/兩獻典故另列後續，不稱該段所有典故完成。"
     ],
-    "fixed_transcription_contract": "wuyingdian_song051_transcription"
+    "fixed_transcription_contract": "wuyingdian_song051_transcription",
+    "formal_phase": "song051_direct_family_phase1"
   },
   "paragraphs": [
     {
       "id": "c-songshu-051-wyd1739-zongshi:p001",
       "text": "長沙景王道憐高祖中弟也初為國子學生謝琰為徐州命為從事史高祖克京城進平京邑道憐常留家侍慰太后桓玄走大將軍武陵王遵承制除員外散騎侍郎尋遷建威將軍南彭城內史時北青州刺史劉該反引索虜為援清河陽平二郡太守孫全聚衆應之義熙元年索虜托跋開遣僞豫州刺史索度真先將軍解斯",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p001:m0004",
+          "kind": "person",
+          "start": 4,
+          "end": 6,
+          "surface": "道憐",
+          "person_id": "3qs_nqa_ioa_AAB",
+          "status": "contextual_provisional",
+          "source_role_key": "daolian"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
@@ -122,8 +138,39 @@
       "id": "c-songshu-051-wyd1739-zongshi:p003",
       "text": "不復立道憐請據彭城以漸修朔朝議以彭城縣遠使鎮山陽進號征虜將軍督淮北軍郡事北東海太守并州刺史義昌太守如故以破索度真功封新渝縣男食邑五百戶從高祖征廣固常為軍鋒及城陷慕容超將親兵突圍走道憐所部獲之加使持節進號左將軍七年解并州加北徐州刺史移鎮彭城八年高祖伐劉毅徵為都督兗青二州晉陵京口淮南諸軍郡事兗青州刺史持節將軍太守如故還鎮京口九年甲仗五十人入殿以廣固功改封竟陵縣公食邑千戶減先封戶邑之半以賜次子義宗十一年進號中軍將軍加散騎常",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p003:m0003",
+          "kind": "person",
+          "start": 3,
+          "end": 5,
+          "surface": "道憐",
+          "person_id": "3qs_nqa_ioa_AAB",
+          "status": "contextual_provisional",
+          "source_role_key": "daolian"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p003:m0089",
+          "kind": "person",
+          "start": 89,
+          "end": 91,
+          "surface": "道憐",
+          "person_id": "3qs_nqa_ioa_AAB",
+          "status": "contextual_provisional",
+          "source_role_key": "daolian"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p003:m0195",
+          "kind": "person",
+          "start": 195,
+          "end": 197,
+          "surface": "義宗",
+          "person_id": "3qs_nqa_ioa_AABD",
+          "status": "contextual_provisional",
+          "source_role_key": "yizong"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
@@ -197,8 +244,79 @@
       "id": "c-songshu-051-wyd1739-zongshi:p008",
       "text": "配祭廟廷俾示徽章垂美長世茂績遠猷永傳不朽道憐六子義欣義慶義融義宗義賓義綦義欣嗣為員外散騎侍郎不拜歷中領軍征虜將軍青州刺史魏郡太守將軍如故戍石頭元嘉元年進號後將軍加散騎常侍三年以本號為南兗州刺史七年到彥之率大衆入河義欣進彭城為衆軍聲援彥之退敗青齊擾壞將佐虜寇大至勸義欣委鎮還都義欣堅志不動還使持節監豫司雍并四州諸軍豫州刺史將軍如故給鼓吹一部鎮壽陽于時土境荒毀人民彫散城郭頹敗盜賊公行義欣綱維補緝隨宜經理劫盜所經立討誅之制境",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0020",
+          "kind": "person",
+          "start": 20,
+          "end": 22,
+          "surface": "道憐",
+          "person_id": "3qs_nqa_ioa_AAB",
+          "status": "contextual_provisional",
+          "source_role_key": "daolian"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0024",
+          "kind": "person",
+          "start": 24,
+          "end": 26,
+          "surface": "義欣",
+          "person_id": "3qs_nqa_ioa_AABA",
+          "status": "contextual_provisional",
+          "source_role_key": "yixin"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0026",
+          "kind": "person",
+          "start": 26,
+          "end": 28,
+          "surface": "義慶",
+          "person_id": "3qs_nqa_ioa_AABB",
+          "status": "contextual_provisional",
+          "source_role_key": "yiqing"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0028",
+          "kind": "person",
+          "start": 28,
+          "end": 30,
+          "surface": "義融",
+          "person_id": "3qs_nqa_ioa_AABC",
+          "status": "contextual_provisional",
+          "source_role_key": "yirong"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0030",
+          "kind": "person",
+          "start": 30,
+          "end": 32,
+          "surface": "義宗",
+          "person_id": "3qs_nqa_ioa_AABD",
+          "status": "contextual_provisional",
+          "source_role_key": "yizong"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0032",
+          "kind": "person",
+          "start": 32,
+          "end": 34,
+          "surface": "義賓",
+          "person_id": "3qs_nqa_ioa_AABE",
+          "status": "contextual_provisional",
+          "source_role_key": "yibin"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0034",
+          "kind": "person",
+          "start": 34,
+          "end": 36,
+          "surface": "義綦",
+          "person_id": "3qs_nqa_ioa_AABF",
+          "status": "contextual_provisional",
+          "source_role_key": "yiqi"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
@@ -257,8 +375,59 @@
       "id": "c-songshu-051-wyd1739-zongshi:p012",
       "text": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯覬嗣官至太子翊軍校尉為元凶所殺世祖",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0104",
+          "kind": "person",
+          "start": 104,
+          "end": 106,
+          "surface": "義欣",
+          "person_id": "3qs_nqa_ioa_AABA",
+          "status": "contextual_provisional",
+          "source_role_key": "yixin"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0107",
+          "kind": "person",
+          "start": 107,
+          "end": 109,
+          "surface": "義慶",
+          "person_id": "3qs_nqa_ioa_AABB",
+          "status": "contextual_provisional",
+          "source_role_key": "yiqing"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0116",
+          "kind": "person",
+          "start": 116,
+          "end": 118,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "daogui"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0118",
+          "kind": "person",
+          "start": 118,
+          "end": 120,
+          "surface": "義慶",
+          "person_id": "3qs_nqa_ioa_AABB",
+          "status": "contextual_provisional",
+          "source_role_key": "yiqing"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0121",
+          "kind": "person",
+          "start": 121,
+          "end": 123,
+          "surface": "義融",
+          "person_id": "3qs_nqa_ioa_AABC",
+          "status": "contextual_provisional",
+          "source_role_key": "yirong"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
@@ -347,8 +516,89 @@
       "id": "c-songshu-051-wyd1739-zongshi:p018",
       "text": "黃門侍郎都官尚書吳郡太守兄秉旣死齊王遣誅之遐人才甚凡自謂名常對賓客曰孝武無道枉我殺母其頑騃若此秉當權遐累求方伯秉曰我在用汝作州於聽望不足遐曰富貴時則云不可相關從坐之日為得免不至是果死焉義宗弟義賓元嘉二年封新野縣侯六年以新野荒敝改封興安縣侯黃門郎祕書監左衞將軍位至輔國將軍徐州刺史二十五年卒追贈後將軍諡曰肅侯子惠侯綜嗣卒子憲嗣昇明二年齊受禪國除綜弟珪晉平太守義賓弟義綦元嘉六年封營道縣侯凡鄙無識知每為始興王濬兄弟所戲弄濬常",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p018:m0092",
+          "kind": "person",
+          "start": 92,
+          "end": 94,
+          "surface": "義宗",
+          "person_id": "3qs_nqa_ioa_AABD",
+          "status": "contextual_provisional",
+          "source_role_key": "yizong"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p018:m0095",
+          "kind": "person",
+          "start": 95,
+          "end": 97,
+          "surface": "義賓",
+          "person_id": "3qs_nqa_ioa_AABE",
+          "status": "contextual_provisional",
+          "source_role_key": "yibin"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p018:m0156",
+          "kind": "person",
+          "start": 156,
+          "end": 157,
+          "surface": "綜",
+          "person_id": "3qs_nqa_ioa_AABEA",
+          "status": "contextual_provisional",
+          "source_role_key": "zong_yibin_son"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p018:m0160",
+          "kind": "person",
+          "start": 160,
+          "end": 161,
+          "surface": "憲",
+          "person_id": "3qs_nqa_ioa_AABEAA",
+          "status": "contextual_provisional",
+          "source_role_key": "xian_zong_son"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p018:m0171",
+          "kind": "person",
+          "start": 171,
+          "end": 172,
+          "surface": "綜",
+          "person_id": "3qs_nqa_ioa_AABEA",
+          "status": "contextual_provisional",
+          "source_role_key": "zong_yibin_son"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p018:m0173",
+          "kind": "person",
+          "start": 173,
+          "end": 174,
+          "surface": "珪",
+          "person_id": "3qs_nqa_ioa_AABEB",
+          "status": "contextual_provisional",
+          "source_role_key": "gui_zong_brother"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p018:m0178",
+          "kind": "person",
+          "start": 178,
+          "end": 180,
+          "surface": "義賓",
+          "person_id": "3qs_nqa_ioa_AABE",
+          "status": "contextual_provisional",
+          "source_role_key": "yibin"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p018:m0181",
+          "kind": "person",
+          "start": 181,
+          "end": 183,
+          "surface": "義綦",
+          "person_id": "3qs_nqa_ioa_AABF",
+          "status": "contextual_provisional",
+          "source_role_key": "yiqi"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
@@ -362,8 +612,39 @@
       "id": "c-songshu-051-wyd1739-zongshi:p019",
       "text": "謂義綦曰陸士衡詩云營道無烈心其何意苦阿父如此義綦曰下官初不識何忽見苦其庸塞可笑類若此歷左衞將軍湘州刺史孝建三年卒贈平南將軍諡曰僖侯子長歆嗣官至步兵校尉昇平三年卒齊受禪國除臨川烈武王道規字道則高祖少弟也少倜儻有大志高祖奇之與謀桓玄時桓弘鎮廣陵以為征虜中兵參軍高祖克京城道規亦以其日與劉毅孟昶共斬弘收衆濟江進平京邑玄敗走晉大將軍武陵王遵承制以道規為振武將軍義昌太守與劉毅何無忌追玄玄西",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p019:m0001",
+          "kind": "person",
+          "start": 1,
+          "end": 3,
+          "surface": "義綦",
+          "person_id": "3qs_nqa_ioa_AABF",
+          "status": "contextual_provisional",
+          "source_role_key": "yiqi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p019:m0022",
+          "kind": "person",
+          "start": 22,
+          "end": 24,
+          "surface": "義綦",
+          "person_id": "3qs_nqa_ioa_AABF",
+          "status": "contextual_provisional",
+          "source_role_key": "yiqi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p019:m0066",
+          "kind": "person",
+          "start": 66,
+          "end": 68,
+          "surface": "長歆",
+          "person_id": "3qs_nqa_ioa_AABFA",
+          "status": "contextual_provisional",
+          "source_role_key": "changxin_yiqi_son"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
@@ -497,8 +778,139 @@
       "id": "c-songshu-051-wyd1739-zongshi:p028",
       "text": "四十三追贈侍中司徒加班劍三十人諡曰烈武公平桓謙功進封南郡公邑五千戶高祖受命贈大司馬追封臨川王食邑如先道規無子以長沙景王第二子義慶為嗣初太祖少為道規所養高祖命紹焉咸以禮無二繼太祖還本而定義慶為荆州廟主當隨往江陵太祖詔曰褒崇道勳經國之盛典尊親追遠因心之所隆故侍中大司馬臨川烈武王體道欽明至德淵邈叡哲自天孝友光備爰始協規則翼贊景業陵威致討則克剪梟鯨速妖逆交侵方難孔棘勢踰累棊心無固志王神暮獨運靈武宏發輯寧內外謀覆羣凶固已化被江",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0033",
+          "kind": "person",
+          "start": 33,
+          "end": 35,
+          "surface": "高祖",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional",
+          "source_role_key": "gaozu"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0043",
+          "kind": "person",
+          "start": 43,
+          "end": 46,
+          "surface": "臨川王",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "daogui"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0050",
+          "kind": "person",
+          "start": 50,
+          "end": 52,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "daogui"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0055",
+          "kind": "person",
+          "start": 55,
+          "end": 59,
+          "surface": "長沙景王",
+          "person_id": "3qs_nqa_ioa_AAB",
+          "status": "contextual_provisional",
+          "source_role_key": "daolian"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0062",
+          "kind": "person",
+          "start": 62,
+          "end": 64,
+          "surface": "義慶",
+          "person_id": "3qs_nqa_ioa_AABB",
+          "status": "contextual_provisional",
+          "source_role_key": "yiqing"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0067",
+          "kind": "person",
+          "start": 67,
+          "end": 69,
+          "surface": "太祖",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional",
+          "source_role_key": "taizu"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0071",
+          "kind": "person",
+          "start": 71,
+          "end": 73,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "daogui"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0075",
+          "kind": "person",
+          "start": 75,
+          "end": 77,
+          "surface": "高祖",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional",
+          "source_role_key": "gaozu"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0086",
+          "kind": "person",
+          "start": 86,
+          "end": 88,
+          "surface": "太祖",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional",
+          "source_role_key": "taizu"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0092",
+          "kind": "person",
+          "start": 92,
+          "end": 94,
+          "surface": "義慶",
+          "person_id": "3qs_nqa_ioa_AABB",
+          "status": "contextual_provisional",
+          "source_role_key": "yiqing"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0104",
+          "kind": "person",
+          "start": 104,
+          "end": 106,
+          "surface": "太祖",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional",
+          "source_role_key": "taizu"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0132",
+          "kind": "person",
+          "start": 132,
+          "end": 137,
+          "surface": "臨川烈武王",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "daogui"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0188",
+          "kind": "person",
+          "start": 188,
+          "end": 189,
+          "surface": "王",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "daogui"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
@@ -512,8 +924,99 @@
       "id": "c-songshu-051-wyd1739-zongshi:p029",
       "text": "漢勳高微管遠猷粹於二南英雄邁於兩獻眷矣朕幼蒙殊愛德蔭特隆豐恩慈訓義深情戚永惟仁範感慕纏懷今當擁移寢祏初祀西夏思崇嘉禮式備徽章庶以昭宣風度允副幽顯其追崇丞相加殊禮鸞輅九旒黃屋左纛給節鉞前後部羽葆鼓吹虎賁班劍百人侍中如故及長沙太妃檀氏臨川太妃曹氏後薨祭皆給鸞輅九旒黃屋左纛轀輬車挽歌一部前後部羽葆鼓吹虎賁班劍百人義慶幼為高祖所知常曰此吾家豐城也年十三襲封南郡公除給事不拜義熙十二年從伐長安還輔國將軍北青州刺史未之任徙督豫州諸",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p029:m0019",
+          "kind": "person",
+          "start": 19,
+          "end": 20,
+          "surface": "朕",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional",
+          "source_role_key": "taizu"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p029:m0109",
+          "kind": "person",
+          "start": 109,
+          "end": 113,
+          "surface": "長沙太妃",
+          "person_id": "j14_z5t_w01",
+          "status": "contextual_provisional",
+          "source_role_key": "tan_taifei"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p029:m0113",
+          "kind": "person",
+          "start": 113,
+          "end": 115,
+          "surface": "檀氏",
+          "person_id": "j14_z5t_w01",
+          "status": "contextual_provisional",
+          "source_role_key": "tan_taifei"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p029:m0115",
+          "kind": "person",
+          "start": 115,
+          "end": 119,
+          "surface": "臨川太妃",
+          "person_id": "a9s_uvg_yox",
+          "status": "contextual_provisional",
+          "source_role_key": "cao_taifei"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p029:m0119",
+          "kind": "person",
+          "start": 119,
+          "end": 121,
+          "surface": "曹氏",
+          "person_id": "a9s_uvg_yox",
+          "status": "contextual_provisional",
+          "source_role_key": "cao_taifei"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p029:m0154",
+          "kind": "person",
+          "start": 154,
+          "end": 156,
+          "surface": "義慶",
+          "person_id": "3qs_nqa_ioa_AABB",
+          "status": "contextual_provisional",
+          "source_role_key": "yiqing"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p029:m0158",
+          "kind": "person",
+          "start": 158,
+          "end": 160,
+          "surface": "高祖",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional",
+          "source_role_key": "gaozu"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p029:m0164",
+          "kind": "person",
+          "start": 164,
+          "end": 165,
+          "surface": "此",
+          "person_id": "3qs_nqa_ioa_AABB",
+          "status": "contextual_provisional",
+          "source_role_key": "yiqing"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p029:m0165",
+          "kind": "person",
+          "start": 165,
+          "end": 166,
+          "surface": "吾",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional",
+          "source_role_key": "gaozu"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",

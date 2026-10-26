@@ -8,6 +8,7 @@ from scripts.relative_regnal_year import relative_regnal_year_valid
 from scripts.unassumed_appointments import unassumed_appointment_valid
 from scripts.person_bundle import load_catalog,bundle
 J=lambda p:json.loads(p.read_text());CH=J(ROOT/'corpus/songshu/085-xiezhuang.json');A=CH['annotation'];H=J(ROOT/'corpus/songshu/085-xiezhuang-titles.json')['holdings'];EV=J(ROOT/'corpus/songshu/085-xiezhuang-life-events.json')['events'];N=[x for x in J(ROOT/'data/corpus/profile-names.json')['records']if str(x.get('id','')).startswith('name-song085-f13-')];P=[x for x in J(ROOT/'data/research/early-medieval-family-pending.json')['records']if x['id'].startswith('pending-song085-f13-')]
+CURRENT_WENDI=next(m['person_id']for p in CH['paragraphs']for m in p['mentions']if m['id']=='c-songshu-085-xiezhuang:p001:m0032')
 def same():return copy.deepcopy(next(h for h in H if h['title']=='吏部尚書'and h['attestations'][0]['date_expression']=='其年')['effective_period']['start']['normalized_date'])
 class XiezhuangFacts(unittest.TestCase):
  @classmethod
@@ -72,7 +73,7 @@ class RegnalYuanGuards(unittest.TestCase):
   d=same();ch=copy.deepcopy(CH);p=ch['paragraphs'][7];p['text']='明年'+p['text'][2:];d['source_expression']='明年';d['year']=d['era_year']=455;d['regnal_year_mapping'].update(year_offset=1,target_regnal_year=2);d['relative_year_reference']['source_term']='明年';d['original_quote']=p['text'];d['evidence'][-1]['quote']=p['text'];d['narrative_era_scope']['event_date_anchor']['surface']='明年'
   if kind=='era':ch['paragraphs'][6]['text']='大明元年'+ch['paragraphs'][6]['text'][4:]
   if kind=='ruler':
-   q=ch['paragraphs'][6];q['text']='文帝'+q['text'][2:];q['mentions'].append({'id':'synthetic-other-ruler','start':0,'end':2,'surface':'文帝','kind':'person','person_id':'3bh_k4m_fg4'})
+   q=ch['paragraphs'][6];q['text']='文帝'+q['text'][2:];q['mentions'].append({'id':'synthetic-other-ruler','start':0,'end':2,'surface':'文帝','kind':'person','person_id':(CURRENT_WENDI)})
   for row in d['narrative_era_scope']['full_paragraphs']:row['quote']=next(x['text']for x in ch['paragraphs']if x['id']==row['paragraph_id'])
   return d,ch
  def test_yuan_next_year_scoped_positive(self):

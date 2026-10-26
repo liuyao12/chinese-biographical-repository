@@ -300,6 +300,9 @@ def load_catalog(root=ROOT):
 
 def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     people, records = catalog if catalog is not None else load_catalog(root)
+    try:from .fixed_wuyingdian_song051_family_phase import guard_bundle as guard_song051_bundle
+    except ImportError:from fixed_wuyingdian_song051_family_phase import guard_bundle as guard_song051_bundle
+    guard_song051_bundle(root,person_id,people,records)
     requested_id = person_id
     aliases = {alias: pid for pid, person in people.items() for alias in person.get('id_aliases', [])}
     person_id = aliases.get(person_id, person_id)
@@ -374,6 +377,13 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             except ImportError:from received_family_names import source_component_valid
             if not name_paragraph or not source_component_valid(name,name_paragraph[0],root):
                 raise ValueError('收到姓名構件須逐原人物錨、緊接字詞與固定見證，不借同段他人字或拼全名冒原稱')
+        # fixed-wyd045-name-consumer
+        try:from scripts.wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid
+        except ImportError:from wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid
+        if wyd045_name_applies(name):
+            ns=[n for r in records if r.get('record_type')=='person_name_component_set'for n in r['records']]
+            cs={c['id']:c for c,p in paragraphs.values()};aa=[a for r in records if r.get('record_type')=='person_assertion_set'for a in r['assertions']]
+            if not wyd045_name_valid(name,ns,cs,aa,root):raise ValueError('宋045姓名/原角色或推姓證據不符')
         validate_clan_style(name, name_paragraph[1] if name_paragraph else None, relations)
         validate_full_name(name, name_paragraph[1] if name_paragraph else None)
         validate_courtesy_name(name)
@@ -386,7 +396,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
                 ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship') else relations), root=root)
+                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship', 'contextual_surname_from_wyd_song051_named_path', 'contextual_surname_from_wyd_song045_kinship') else relations), root=root)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:
@@ -464,6 +474,13 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         if direct_brothers_applies(relation):
             ps={p['id']:(ch['id'],p)for ch in chapters.values()for p in ch['paragraphs']}
             if not direct_brothers_valid(relation,ps,chapters,root):raise ValueError('武英殿宋044明弟來源／方向或現役端點漂移')
+    # fixed-wyd045-relation-consumer
+    try:from scripts.wyd_song045_roles import relation_applies as wyd045_relation_applies, relation_valid as wyd045_relation_valid
+    except ImportError:from wyd_song045_roles import relation_applies as wyd045_relation_applies, relation_valid as wyd045_relation_valid
+    for relation in relations:
+        if wyd045_relation_applies(relation):
+            ps={p['id']:(c['id'],p)for c in chapters.values()for p in c['paragraphs']}
+            if not wyd045_relation_valid(relation,ps,chapters,root):raise ValueError('宋045親屬原文/方向/角色或未知資格不符')
     title_proposals = [proposal for chapter in chapters.values() for proposal in chapter['annotation'].get('title_proposals', []) if proposal['person_id'] in ids]
     resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]

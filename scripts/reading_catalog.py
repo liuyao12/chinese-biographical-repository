@@ -121,7 +121,11 @@ def outputs(root=None):
     except ImportError:
         from work_title_index import outputs as work_title_outputs
     result.update(work_title_outputs(root))
-    return result
+    try:
+        from .reading_witness_preferences import enrich_outputs
+    except ImportError:
+        from reading_witness_preferences import enrich_outputs
+    return enrich_outputs(result, root)
 
 
 def run(check=False, root=None):

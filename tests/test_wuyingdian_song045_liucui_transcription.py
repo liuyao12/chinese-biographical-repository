@@ -13,7 +13,10 @@ class Song045(unittest.TestCase):
   self.assertEqual(source_errors(self.c,ROOT),[])
   self.assertEqual(render(self.c),(ROOT/'corpus/songshu/045-wyd1739-liucui.xml').read_text())
   self.assertEqual(len(self.c['paragraphs']),15)
-  self.assertTrue(all(p['annotation_status']=='pending'and not p['mentions']for p in self.c['paragraphs']))
+  # fixed-wyd045-pending-projection-test
+  from scripts.wyd_song045_roles import source_only_projection
+  pending=source_only_projection(self.c,ROOT)if 'fixed_ner_role_layer'in self.c['annotation']else self.c
+  self.assertTrue(all(p['annotation_status']=='pending'and not p['mentions']for p in pending['paragraphs']))
  def test_wrong_layer_and_missing_binding(self):
   for field in ('layer','binding'):
    c=copy.deepcopy(self.c)
@@ -34,6 +37,9 @@ class Song045(unittest.TestCase):
    r=Path(t);shutil.copytree(ROOT/BASE,r/BASE)
    p=r/BASE/'transcription-columns.txt';p.write_bytes(b'\n'+p.read_bytes())
    c=copy.deepcopy(self.c)
+   if 'fixed_ner_role_layer'in c['annotation']:
+    from scripts.wyd_song045_roles import source_only_projection
+    c=source_only_projection(c,ROOT)
    import hashlib
    c['source']['raw_sha256']=hashlib.sha256(p.read_bytes()).hexdigest()
    self.assertTrue(source_errors(c,r))
@@ -58,6 +64,11 @@ class Song045(unittest.TestCase):
   for before,after,index in [('日','曰',11),('毋','母',11),('謙之','謙送',12)]:
    c=copy.deepcopy(self.c);p=c['paragraphs'][index];p['text']=p['text'].replace(before,after,1)
    self.assertTrue(source_errors(c,ROOT))
+ def test_image_year_three_only(self):
+  self.assertTrue(self.c['paragraphs'][3]['text'].startswith('沙門二千餘人以補府史元嘉三年討謝晦'))
+  c=copy.deepcopy(self.c);p=c['paragraphs'][3];p['text']=p['text'][:12]+'二'+p['text'][13:]
+  self.assertTrue(source_errors(c,ROOT))
+  self.assertEqual(self.c['paragraphs'][3]['text'][2],'二')
  def test_bad_types_and_legacy_non_target(self):
   for c in (None,[],42,'bad'):self.assertTrue(source_errors(c,ROOT))
   self.assertEqual(source_errors({'id':'other','source_id':'other','annotation':{}},ROOT),[])

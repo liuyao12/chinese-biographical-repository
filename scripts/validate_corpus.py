@@ -552,9 +552,9 @@ def _validate_uncached(root=ROOT):
             errors.extend(fixed_kanripo_projection_errors(d, root))
             # fixed-wuyingdian-song051-transcription: exact pending AI witness, not generic layers.
             try:
-                from scripts.fixed_wuyingdian_song051 import source_errors as wuyingdian_song051_errors
+                from scripts.fixed_wuyingdian_song051_family_phase import source_errors as wuyingdian_song051_errors
             except ImportError:
-                from fixed_wuyingdian_song051 import source_errors as wuyingdian_song051_errors
+                from fixed_wuyingdian_song051_family_phase import source_errors as wuyingdian_song051_errors
             wuyingdian_051_issues = wuyingdian_song051_errors(d, root)
             errors.extend(wuyingdian_051_issues)
             wuyingdian_song051_layer_valid = (d.get('id') == 'c-songshu-051-wyd1739-zongshi'
@@ -562,9 +562,9 @@ def _validate_uncached(root=ROOT):
                 and not wuyingdian_051_issues)
             # fixed-wuyingdian-song005-opening-transcription: exact pending partial-chapter witness.
             try:
-                from scripts.fixed_wuyingdian_song005_opening import source_errors as wuyingdian_song005_opening_errors
+                from scripts.fixed_wuyingdian_song051_family_phase import source_errors005 as wuyingdian_song005_opening_errors
             except ImportError:
-                from fixed_wuyingdian_song005_opening import source_errors as wuyingdian_song005_opening_errors
+                from fixed_wuyingdian_song051_family_phase import source_errors005 as wuyingdian_song005_opening_errors
             errors.extend(wuyingdian_song005_opening_errors(d, root))
             # fixed-wuyingdian-song045-liucui-transcription: exact pending partial-chapter witness.
             try:
@@ -572,6 +572,14 @@ def _validate_uncached(root=ROOT):
             except ImportError:
                 from fixed_wuyingdian_song045_liucui import source_errors as wuyingdian_song045_liucui_errors
             errors.extend(wuyingdian_song045_liucui_errors(d, root))
+            # fixed-wuyingdian-song063-wangtanshou-transcription: exact pending partial-chapter witness.
+            try:
+                from scripts.fixed_wuyingdian_song063_wangtanshou import source_errors as wuyingdian_song063_wangtanshou_errors
+            except ImportError:
+                from fixed_wuyingdian_song063_wangtanshou import source_errors as wuyingdian_song063_wangtanshou_errors
+            wuyingdian_song063_issues = wuyingdian_song063_wangtanshou_errors(d, root)
+            errors.extend(wuyingdian_song063_issues)
+            wuyingdian_song063_layer_valid = (d.get("id") == "c-songshu-063-wyd1739-wangtanshou" and isinstance(d.get("annotation"), dict) and d["annotation"].get("fixed_transcription_contract") == "wuyingdian_song063_wangtanshou_transcription" and not wuyingdian_song063_issues)
             # fixed-wuyingdian-song044-transcription: source-only exact witness gate.
             try:
                 from scripts.fixed_wuyingdian_song044 import source_errors as wuyingdian_song044_errors
@@ -650,7 +658,7 @@ def _validate_uncached(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation') or (p.get('text_layer') in ('received_compiler_appraisal','witness_appended_wuyingdian_collation') and (wuyingdian_song044_layer_valid or wuyingdian_song051_layer_valid)),'文字層次無效')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation') or (p.get('text_layer') in ('received_compiler_appraisal','witness_appended_wuyingdian_collation') and (wuyingdian_song044_layer_valid or wuyingdian_song051_layer_valid or wuyingdian_song063_layer_valid)),'文字層次無效')
                 try:
                     from scripts.houhan_text_layers import layer_errors
                 except ImportError:
@@ -1593,6 +1601,14 @@ def _validate_uncached(root=ROOT):
                 check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','father_in_law','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                # fixed-wyd045-relations: full finite source roles, not membership exemption.
+                try:from scripts.wyd_song045_roles import relation_applies as wyd045_applies, relation_valid as wyd045_valid
+                except ImportError:from wyd_song045_roles import relation_applies as wyd045_applies, relation_valid as wyd045_valid
+                if wyd045_applies(a):check(wyd045_valid(a,paragraphs,chapters,root),'宋045近親須綁完整段落、來源角色、方向及未知親等')
+                # Exact WYD051 family and WYD005 opening roles, preserving original pending source branches.
+                try:from scripts.fixed_wuyingdian_song051_family_phase import applies as song051_applies, family_valid as song051_family_valid
+                except ImportError:from fixed_wuyingdian_song051_family_phase import applies as song051_applies, family_valid as song051_family_valid
+                if song051_applies(a):check(song051_family_valid(a,paragraphs,chapters,root),'武英殿宋051/005有限親族須原字、來源、主客角色及雙向引用全符')
                 # Exact two WYD044 younger-brother clauses, including their source-role reverse evidence.
                 try:from scripts.wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
                 except ImportError:from wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
@@ -1768,7 +1784,7 @@ def _validate_uncached(root=ROOT):
                           and qualifiers.get('exact_distance') is None
                           and any('大父行' in e.get('quote', '') for e in a['evidence']),
                           '大父行只記祖父輩，不得補直系祖父或親等')
-                if a['predicate'] == 'adoptive_father':
+                if a['predicate'] == 'adoptive_father' and not (song051_applies(a) and song051_family_valid(a,paragraphs,chapters,root)):
                     try:
                         from scripts.chuji_parentage import chuji_parentage_valid
                     except ImportError:
@@ -2583,6 +2599,10 @@ def _validate_uncached(root=ROOT):
             from surname_from_father import validate as validate_inferred_surname
         all_name_records = [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']]
         for n in all_name_records:
+            # fixed-wyd045-name-components
+            try:from scripts.wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid
+            except ImportError:from wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid
+            if wyd045_name_applies(n):check(wyd045_name_valid(n,all_name_records,chapters,family_relations,root),'宋045姓名須依原名錨點及完整近系姓氏證據')
             if 'component_source_binding' in n:
                 try:from scripts.received_family_names import source_component_valid
                 except ImportError:from received_family_names import source_component_valid

@@ -1,7 +1,9 @@
+import {explicitBrothersNamespace} from './explicit-brothers-namespace.js';
 import {orderChildren} from './sibling-order.js';
 // Read validated namespace metadata; its unnamed structural slot is never loaded as a person.
 export async function namespaceNavigation(person, load) {
   const row = person.assembled_identity, group = row?.collateral_root_group;
+  if (group?.type === 'explicit_received_brothers_parent_unidentified') return explicitBrothersNamespace(person, load);
   if (!row?.namespace_id || row.root_person_id !== null
       || group?.type !== 'unknown_shared_father_from_qualified_first_cousins'
       || group.status !== 'contextual_provisional' || !Array.isArray(group.references) || !group.references.length

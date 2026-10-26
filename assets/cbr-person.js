@@ -91,7 +91,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
     [t('Adoptive father (source-attested chuji)'), family.adoptive_father || [], ''],
     [t('Adopted children (source-attested chuji)'), family.adopted_children || [], ''],
     ['配偶', family.spouses, ''], ['子女', family.children, ''],
-    ['同族旁支（編輯接合；共同父未名）', family.family_namespace?.roots || [], '']
+    [family.family_namespace?.namespace_kind === 'explicit_received_brothers_parent_unidentified' ? t('Source-attested brothers (parent unidentified)') : '同族旁支（編輯接合；共同父未名）', family.family_namespace?.roots || [], '']
   ].filter(([, entries]) => entries.length).map(([label, entries, note]) => `<dt>${label}</dt><dd>${note ? `<small>${note}</small><br>` : ''}${relativeList(entries)}</dd>`).join('') : '';
   const unresolvedSpouses = (family?.unresolved_spouse_groups || []).map(g => `<div class="person-pending-spouse-group" data-identity-group="${h(g.id)}"><strong>配偶指涉未決：是否同一人尚未判定</strong><p>${h(g.rationale)}</p><ul>${g.references.map(r => `<li>來源稱法：${h(r.span.surface)}${evidenceQuotes(r)}${evidenceLinks([r])}</li>`).join('')}</ul><small>此組不表示已證一人或兩人；原始配偶陳述均保留。</small></div>`).join('');
   const familyHTML = familyRows || unresolvedSpouses ? `<section class="person-family"><h4>家族</h4><dl>${familyRows}</dl>${unresolvedSpouses}</section>` : '';

@@ -1,4 +1,11 @@
 export default {
+  'Source-attested brothers (parent unidentified)':'明文弟兄（父未名）',
+  'Preferred source transcription':'首選轉錄',
+  'Comparison transcription':'比較轉錄',
+  'Base edition not researched':'底本待核',
+  'Reading preference covers only the recorded selection.':'閱讀首選僅涵蓋所列選錄。',
+  'Comparison witness; not selected as the reading base.':'此為比較轉錄，未選作閱讀底本。',
+  'Reading selection rationale':'閱讀選讀依據',
   'Noble advancement and declination':'進封與辭讓',
   'Recorded declination; acceptance not reported':'辭讓已載，受封結果未載',
   'Offered fief households (not confirmed held)':'進封案食邑（未證實持）',

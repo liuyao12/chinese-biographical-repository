@@ -501,9 +501,20 @@
       "human_reviewed": false,
       "source_kind": "received_transcription_witness",
       "commons_description_revision": 979637198,
-      "transcription_revision": "cbr-ai-transcription-sha256:1a045e9d8ce38dbd568c45a4dec0bdb49326b2eb78c8243ab77a10c1ce0f2b95",
-      "transcription_sha256": "1a045e9d8ce38dbd568c45a4dec0bdb49326b2eb78c8243ab77a10c1ce0f2b95",
+      "transcription_revision": "cbr-ai-transcription-sha256:ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
+      "transcription_sha256": "ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
       "qualification": "原PDF未下載；SHA256是AI逐列轉錄，非PDF。私JPEG不入repo；未辨〓與AI字形編碼待核，不冒人工圖校。"
+    },
+    "ref-songshu063-wyd1739-received-ai-transcription": {
+      "title": "宋書卷六十三武英殿本：Commons所載NLC書影與AI轉錄見證",
+      "url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12245_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC147%E5%86%8A.pdf&oldid=991952839",
+      "access_scope": "PDF18左第8列至21右第5列王曇首主傳及二子本卷附敘；另30右1–3專屬考證，分層；非王僧綽/王僧虔獨立本傳或全卷。",
+      "human_reviewed": false,
+      "source_kind": "received_transcription_witness",
+      "commons_description_revision": 991952839,
+      "transcription_revision": "cbr-ai-transcription-sha256:1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
+      "transcription_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
+      "qualification": "原PDF未下載；SHA256是本次AI逐列轉錄，不是PDF。私JPEG不入repo；AI字形編碼待覆核。"
     }
   },
   "editions": {
@@ -798,6 +809,25 @@
         "ref-songshu045-wyd1739-received-ai-transcription"
       ],
       "qualification": "僅卷045劉粹/道濟/損完整選錄書影AI轉錄，不稱全卷/全書/原PDF取得/全球最早。",
+      "image_verified": false
+    },
+    "edition-songshu063-wyd1739-received-ai-transcription": {
+      "id": "edition-songshu063-wyd1739-received-ai-transcription",
+      "work_id": "w-songshu",
+      "label": "清乾隆四年武英殿本宋書卷六十三所見轉錄見證",
+      "extent": "incomplete",
+      "date": {
+        "calendar": "chinese_civil",
+        "year_numbering": "historical_no_year_zero",
+        "start_year": 1739,
+        "end_year": 1739,
+        "precision": "year"
+      },
+      "period_label": "乾隆四年校刊",
+      "reference_ids": [
+        "ref-songshu063-wyd1739-received-ai-transcription"
+      ],
+      "qualification": "王曇首及本卷二子附敘與專屬考證選錄；非全卷/全書，非原PDF下載或全球最早本普查。",
       "image_verified": false
     }
   },
@@ -206003,8 +206033,8 @@
       "basis_role": "received_transcription_witness",
       "received_transcription_witness": {
         "transcription_path": "source-evidence/song045-wyd1739-liucui/transcription-columns.txt",
-        "transcription_sha256": "1a045e9d8ce38dbd568c45a4dec0bdb49326b2eb78c8243ab77a10c1ce0f2b95",
-        "transcription_revision": "cbr-ai-transcription-sha256:1a045e9d8ce38dbd568c45a4dec0bdb49326b2eb78c8243ab77a10c1ce0f2b95",
+        "transcription_sha256": "ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
+        "transcription_revision": "cbr-ai-transcription-sha256:ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
         "reported_pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
         "reported_pdf_bytes": 28800137,
         "original_pdf_locally_obtained": false,
@@ -206019,8 +206049,40 @@
         "edition_year_role": "catalogued_printed_edition_year",
         "human_image_reviewed": false
       },
-      "transcription_raw_sha256": "1a045e9d8ce38dbd568c45a4dec0bdb49326b2eb78c8243ab77a10c1ce0f2b95",
+      "transcription_raw_sha256": "ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
       "note": "實際所據為武英殿本書影AI轉錄，非下載PDF；所有原字編碼待獨立覆核，earliest不推定。",
+      "human_reviewed": false
+    },
+    "s-songshu-063-wyd1739-wangtanshou": {
+      "source_id": "s-songshu-063-wyd1739-wangtanshou",
+      "work_id": "w-songshu",
+      "status": "documented",
+      "edition_id": "edition-songshu063-wyd1739-received-ai-transcription",
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "ref-songshu063-wyd1739-received-ai-transcription"
+      ],
+      "basis_role": "received_transcription_witness",
+      "received_transcription_witness": {
+        "transcription_path": "source-evidence/song063-wyd1739-wangtanshou/transcription-columns.txt",
+        "transcription_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
+        "transcription_revision": "cbr-ai-transcription-sha256:1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
+        "reported_pdf_sha1": "be94edb02fc35d1c10c58e68dca95b2d18323427",
+        "reported_pdf_bytes": 23542876,
+        "original_pdf_locally_obtained": false,
+        "commons_description_revision": 991952839,
+        "reported_pdf_pages": 78,
+        "nlc_bookid": "411999017142",
+        "nlc_volumeid": "12245",
+        "nlc_rare_book_number": "09753",
+        "composition_date": null,
+        "edition_year": 1739,
+        "earliest_extant_edition_claim": null,
+        "edition_year_role": "catalogued_printed_edition_year",
+        "human_image_reviewed": false
+      },
+      "transcription_raw_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
+      "note": "實際所據為武英殿本書影AI轉錄，非下載PDF；1739是此見證版本時間，不是宋書撰作時間；不覆原work編撰/奏進資料。",
       "human_reviewed": false
     }
   }
