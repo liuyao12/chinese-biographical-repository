@@ -2382,5 +2382,40 @@
       }
     }
   ],
-  "text_sha256": "a9ba560e6b5f914e858b5314bb7db12ef7e6d18cf4cc017df928ae70bfc9f2b0"
+  "text_sha256": "a9ba560e6b5f914e858b5314bb7db12ef7e6d18cf4cc017df928ae70bfc9f2b0",
+  "cross_chapter_references": [
+    {
+      "id": "xref-song063-tanshou-sengchuo",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-063",
+        "source_id": "s-songshu-063-wanghua-tanshou",
+        "chapter_id": "c-songshu-063-wanghua-tanshou",
+        "revision_id": 2118589,
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line039",
+        "paragraph_text": "七年，卒。太祖為之慟，中書舍人周赳侍側，曰：「王家欲衰，賢者先殞。」上曰：「直是我家衰耳。」追贈左光祿大夫，加散騎常侍，詹事如故。九年，以預誅羨之等謀，追封豫寧縣侯，邑千戶，諡曰文侯。世祖即位，配饗太祖廟庭。子僧綽嗣，別有傳。少子僧虔，昇明末，為尚書令。",
+        "paragraph_text_sha256": "32cd47a281ddafa2567a6b0e6a8cd8267f02e3c69772a3be15bb8106159ba06e",
+        "start": 109,
+        "end": 112,
+        "surface": "別有傳"
+      },
+      "target": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-071",
+        "section_label": "王僧綽",
+        "text_status": "imported",
+        "chapter_id": "c-songshu-071-wangsengchuo",
+        "paragraph_id": "c-songshu-071-wangsengchuo:p001"
+      },
+      "resolution": {
+        "status": "contextually_identified",
+        "rationale": "來源曇首卒贈及子僧綽嗣別有傳；目標明王僧綽為左光祿大夫曇首子並述襲封，非從同姓猜測。",
+        "reference_url": "https://github.com/kanripo/KR2a0016/blob/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_071.txt",
+        "read_scope": "已收數位見證之完整來源段與目標定位段；非圖像校勘。",
+        "short_quote": "王僧綽琅邪臨沂人左光禄大夫曇首子也幼有大成之度弱年衆以國器許之好學有理思練悉朝典年十三太祖引見下拜便流涕哽咽上亦悲不自勝",
+        "human_reviewed": false
+      }
+    }
+  ]
 }

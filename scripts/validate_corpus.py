@@ -514,6 +514,21 @@ def validate(root=ROOT):
             except ImportError:
                 from fixed_kanripo_projection import errors as fixed_kanripo_projection_errors
             errors.extend(fixed_kanripo_projection_errors(d, root))
+            # fixed-wuyingdian-song044-transcription: source-only exact witness gate.
+            try:
+                from scripts.fixed_wuyingdian_song044 import source_errors as wuyingdian_song044_errors
+            except ImportError:
+                from fixed_wuyingdian_song044 import source_errors as wuyingdian_song044_errors
+            wuyingdian_issues = wuyingdian_song044_errors(d, root)
+            errors.extend(wuyingdian_issues)
+            try:
+                from scripts.wyd_song044_formal_roles import source_errors as wyd_formal_role_errors
+            except ImportError:
+                from wyd_song044_formal_roles import source_errors as wyd_formal_role_errors
+            errors.extend(wyd_formal_role_errors(d, root))
+            wuyingdian_song044_layer_valid = (d.get('id') == 'c-songshu-044-wyd1739-xiehui'
+                and isinstance(d.get('annotation'),dict) and d.get('annotation', {}).get('fixed_transcription_contract') == 'wuyingdian_song044_transcription'
+                and not wuyingdian_issues)
             if any('annotation_status' in p for p in d['paragraphs']):
                 for p in d['paragraphs']:
                     check(p.get('annotation_status') in ('pending','in_progress','named_mentions_first_pass','reviewed'),'段落標註狀態無效或缺失')
@@ -577,7 +592,7 @@ def validate(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation'),'文字層次無效')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation') or (p.get('text_layer') in ('received_compiler_appraisal','witness_appended_wuyingdian_collation') and wuyingdian_song044_layer_valid),'文字層次無效')
                 try:
                     from scripts.houhan_text_layers import layer_errors
                 except ImportError:
@@ -1645,7 +1660,11 @@ def validate(root=ROOT):
                         from scripts.directed_uncle_roles import paternal_uncle_direction_valid
                     except ImportError:
                         from directed_uncle_roles import paternal_uncle_direction_valid
-                    check(paternal_uncle_direction_valid(a, paragraphs),
+                    try:
+                        from scripts.wyd_song044_nephew import nephew_valid as wyd_nephew_valid
+                    except ImportError:
+                        from wyd_song044_nephew import nephew_valid as wyd_nephew_valid
+                    check(paternal_uncle_direction_valid(a, paragraphs) or wyd_nephew_valid(a, paragraphs, root),
                           '叔父關係須依原詞與人物字位定向，不得互換叔侄端點')
                 if a['predicate'] == 'maternal_uncle':
                     try:
@@ -2510,6 +2529,11 @@ def validate(root=ROOT):
         validated_readings(catalog[1],
             [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']],
             {r['id']:r for r in catalog[1] if r.get('record_type') == 'marked_chapter'})
+        try:
+            from scripts.cross_chapter_references import errors as cross_reference_errors
+        except ImportError:
+            from cross_chapter_references import errors as cross_reference_errors
+        errors.extend(cross_reference_errors(chapters, root))
         load_assemblies(root, catalog)
         def citation_dimensions(value):
             if isinstance(value, dict):

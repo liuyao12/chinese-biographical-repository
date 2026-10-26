@@ -2043,5 +2043,40 @@
       }
     }
   ],
-  "text_sha256": "a04889ffa48418938beea185b4526433b5fbb54f8266add84b639483bec95cc6"
+  "text_sha256": "a04889ffa48418938beea185b4526433b5fbb54f8266add84b639483bec95cc6",
+  "cross_chapter_references": [
+    {
+      "id": "xref-jin033-wanglan-wangdao",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-033",
+        "chapter_id": "c-jinshu-033-wanglan-family",
+        "source_id": "s-jinshu-033-wanglan-family",
+        "revision_id": 2650519,
+        "paragraph_id": "c-jinshu-033-wanglan-family:p008",
+        "paragraph_text": "初，呂虔有佩刀，工相之，以爲必登三公，可服此刀。虔謂祥曰：「苟非其人，刀或爲害。卿有公輔之量，故以相與。」祥固辭，強之乃受。祥臨薨，以刀授覽，曰：「汝後必興，足稱此刀。」覽後奕世多賢才，興於江左矣。裁子導，別有傳。",
+        "paragraph_text_sha256": "19ba4970c1e7d6440a46690f3e567bf0af4efe92c07358ffca2a20c540acb2d0",
+        "start": 103,
+        "end": 106,
+        "surface": "別有傳"
+      },
+      "target": {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-065",
+        "section_label": "王導",
+        "text_status": "imported",
+        "chapter_id": "c-jinshu-065-wangdao-family",
+        "paragraph_id": "c-jinshu-065-wangdao-family:p001"
+      },
+      "resolution": {
+        "status": "contextually_identified",
+        "rationale": "來源明裁子導，目標傳首王導字茂弘、祖覽父裁，兩代親屬及姓名共同指向卷065，不因單字導全域配對。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7065&oldid=1756144",
+        "read_scope": "corpus/jinshu/065.json c-jinshu-065-wangdao-family:p001；只核已收完整段及此單元上下文，不稱全卷已讀或圖校。",
+        "short_quote": "王導，字茂弘，光祿大夫覽之孫也。父裁，鎮軍司馬。導少有風鑒，識量清遠。年十四，陳留高士張公見而奇之，謂其從兄敦曰：「此兒容貌志氣，將相之器也。」初襲祖爵即丘子。司空劉實尋引爲東閣祭",
+        "human_reviewed": false
+      }
+    }
+  ]
 }

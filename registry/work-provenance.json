@@ -34,7 +34,7 @@
       "title": "宋書成書及版本研究",
       "url": "https://lib.ahnu.edu.cn/info/1010/9215.htm",
       "author": "《宋書》修訂組（署名二〇一八年四月；頁面修訂主持人丁福林）",
-      "access_scope": "實取並讀網頁所載《點校本宋書修訂前言》全文；特別核成書第一節及版本第四節，非實讀所列古本、正文全書或影像",
+      "access_scope": "實讀機構頁面所載可見前言文字；頁中省略第四、第五節，非完整前言。已核成書第一節與修訂第六節，非實讀所列古本或影像。",
       "human_reviewed": false,
       "source_kind": "institution_hosted_modern_scholarly_preface"
     },
@@ -431,6 +431,46 @@
       "url": "https://lishiwenhua.snnu.edu.cn/__local/B/34/C6/59AB72CB019305C4C1970E62517_0C177A70_1D8465.pdf?e=.pdf#page=1",
       "access_scope": "PDF1–8印4–11正文及末注、9–10圖版已逐張視讀；只用發掘日期與地點，未冒全誌圖校。",
       "human_reviewed": false
+    },
+    "ref-songshu-self-submission-ws2083420": {
+      "title": "宋書 100 自序 表 書目原證",
+      "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷100&oldid=2083420",
+      "access_scope": "rendered web lines304–313 complete self-narration and submission table; line341 modern collation note separately read；AI逐項記錄所見數位文字；不暗示真人覆核。",
+      "human_reviewed": false,
+      "source_kind": "received_primary_rendered_excerpt",
+      "qualification": "底本未知的數位對讀研究，不採為本庫正文底本；oldid由所讀頁footer明載，oldid direct fetch cache miss，非獨立成功回取",
+      "revision_id": "2083420",
+      "raw_response_sha256": null
+    },
+    "ref-liangshu-peiziye-circulation-ws1508510": {
+      "title": "梁書 30 裴子野 書目原證",
+      "url": "https://zh.wikisource.org/w/index.php?title=梁書/卷30&oldid=1508510",
+      "access_scope": "rendered lines132–142完整裴子野單元；本研究只抽錄136完整自然段；AI逐項記錄所見數位文字；不暗示真人覆核。",
+      "human_reviewed": false,
+      "source_kind": "received_primary_rendered_excerpt",
+      "qualification": "頁面自註以中華書局1973年版為本校；未圖校、不作武英殿見證",
+      "revision_id": "1508510",
+      "raw_response_sha256": null
+    },
+    "ref-ncl-songshu01470-catalogue": {
+      "title": "國家圖書館古籍影像檢索資料庫：宋書，書號01470",
+      "url": "https://rbook.ncl.edu.tw/NCLSearch/Search/SearchDetail?HasImage=&SourceID=1&item=fc91541f6aac460a8df4fc27bd3ce65dfDQxMzIy0.HhbQC6W5wZMtuWm6kDyE8IDLou7fXYe0BjuCtknjq4A_&page=&sourceWhereString=&whereString=IChEYXRlX0NyZWF0ZWQgbGlrZSAnJTExMjctMTE4OSUnIG9yIERvY3VtZW50X1llYXIgbGlrZSAnJTExMjctMTE4OSUnICkg0.rKk0hD_wJqHfloT94ZHJCpvBCc_lm8qeuKVE6va0h3I_",
+      "access_scope": "完整詳目lines35–57，含版本、刻工長附註、年代、數量、索書號；未入影像；AI逐項記錄所見數位文字；不暗示真人覆核。",
+      "human_reviewed": false,
+      "source_kind": "institution_catalogue",
+      "qualification": "catalogue-only，非原書影像；原刻與宋元明修版各層分開。不得僅據此聲稱最早本",
+      "raw_response_sha256": null
+    },
+    "ref-songshu044-wyd1739-received-ai-transcription": {
+      "title": "宋書卷四十四武英殿本：Commons所載NLC書影與AI轉錄見證",
+      "url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf&oldid=979637198",
+      "access_scope": "AI所見PDF頁2–19，含本傳/史評/考證；非第144冊全冊。Commons描述revision979637198；未下載原PDF，未親讀NLC原站權利頁。",
+      "human_reviewed": false,
+      "source_kind": "received_transcription_witness",
+      "commons_description_revision": 979637198,
+      "transcription_revision": "cbr-ai-transcription-sha256:8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
+      "transcription_sha256": "8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
+      "qualification": "raw SHA為AI逐列轉錄文本，不是PDF SHA。PDF SHA1只平台報告；一〓未定與二印缺分開，75異體queue非全字已校。圖像/PDF不host。"
     }
   },
   "editions": {
@@ -630,6 +670,44 @@
         "ref-nlcpress-houhanshu-early-print-preface"
       ],
       "qualification": "依官方出版社前言的刻本傳承報告；未核具體藏本索書號、圖像或刻印年月，不與四庫轉錄底本混同。",
+      "image_verified": false
+    },
+    "edition-songshu-ncl01470-song-yuan-ming-composite": {
+      "id": "edition-songshu-ncl01470-song-yuan-ming-composite",
+      "work_id": "w-songshu",
+      "label": "國家圖書館01470南宋初期刊宋元明弘治嘉靖遞修合成本",
+      "extent": "complete",
+      "date": {
+        "calendar": "chinese_civil",
+        "year_numbering": "historical_no_year_zero",
+        "start_year": 1127,
+        "end_year": 1189,
+        "precision": "range"
+      },
+      "period_label": "南宋初期原刻；後修及合裝至明",
+      "reference_ids": [
+        "ref-ncl-songshu01470-catalogue"
+      ],
+      "qualification": "date僅轉錄館方寬範圍原刊年代，不是全冊各葉或印裝日期。館方長附註另主張孝宗朝杭州翻刻，不填1144。extent complete按100卷著錄，未逐葉驗完整。",
+      "image_verified": false
+    },
+    "edition-songshu044-wyd1739-received-ai-transcription": {
+      "id": "edition-songshu044-wyd1739-received-ai-transcription",
+      "work_id": "w-songshu",
+      "label": "清乾隆四年武英殿本宋書卷四十四所見轉錄見證",
+      "extent": "incomplete",
+      "date": {
+        "calendar": "chinese_civil",
+        "year_numbering": "historical_no_year_zero",
+        "start_year": 1739,
+        "end_year": 1739,
+        "precision": "year"
+      },
+      "period_label": "乾隆四年校刊",
+      "reference_ids": [
+        "ref-songshu044-wyd1739-received-ai-transcription"
+      ],
+      "qualification": "刊年依Commons著錄及所見卷首校刊字；本項只記卷44所見，不稱100卷已讀或全球最早。實際資料層為AI轉錄，不等原PDF二進位取得。",
       "image_verified": false
     }
   },
@@ -1080,7 +1158,8 @@
             },
             "source_expression": "南齊永明五年",
             "reference_ids": [
-              "ref-ahnu-songshu-revision-preface"
+              "ref-ahnu-songshu-revision-preface",
+              "ref-songshu-self-submission-ws2083420"
             ],
             "qualification": "沈約奉齊武帝命修宋書；不等於前代國史起修"
           },
@@ -1097,7 +1176,8 @@
             },
             "source_expression": "永明六年二月",
             "reference_ids": [
-              "ref-ahnu-songshu-revision-preface"
+              "ref-ahnu-songshu-revision-preface",
+              "ref-songshu-self-submission-ws2083420"
             ],
             "qualification": "本紀10卷、列傳60卷，共70卷；不稱全100卷同時完成"
           },
@@ -1107,9 +1187,10 @@
             "date": null,
             "source_expression": null,
             "reference_ids": [
-              "ref-ahnu-songshu-revision-preface"
+              "ref-ahnu-songshu-revision-preface",
+              "ref-liangshu-peiziye-circulation-ws1508510"
             ],
-            "qualification": "志30卷當時待續；前言據裴子野傳推至永明末已行，不訂確切年"
+            "qualification": "諸志奏進時待續，確切完成年未明。梁30永明末既行直接證作品流傳；由此推全部諸志已成是2018修訂組判斷，不冒原傳逐字明載全100卷完成。"
           },
           {
             "layer": "revision",
@@ -1128,8 +1209,17 @@
         ]
       },
       "earliest_extant_edition": {
-        "status": "not_researched",
-        "assertions": []
+        "status": "reported",
+        "assertions": [
+          {
+            "edition_id": "edition-songshu-ncl01470-song-yuan-ming-composite",
+            "scope": "known_witness_only",
+            "reference_ids": [
+              "ref-ncl-songshu01470-catalogue"
+            ],
+            "qualification": "已查官方館藏的早期刊本遞修合成見證，非全球最早、最早殘葉或最早完整本判定。catalogue100卷由兩殘本合成；原宋葉與後修葉不等年。與本庫實際WYD1739轉錄見證無關。"
+          }
+        ]
       },
       "burial": {
         "status": "not_researched",
@@ -205715,6 +205805,37 @@
       "earliest_extant_basis_edition_id": null,
       "reference_ids": [],
       "note": "WS2595687數位轉錄；未核實際古本或最早存本。作品既有撰作/版本報告不覆寫。"
+    },
+    "s-songshu-044-wyd1739-xiehui": {
+      "source_id": "s-songshu-044-wyd1739-xiehui",
+      "work_id": "w-songshu",
+      "status": "documented",
+      "edition_id": "edition-songshu044-wyd1739-received-ai-transcription",
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "ref-songshu044-wyd1739-received-ai-transcription"
+      ],
+      "basis_role": "received_transcription_witness",
+      "received_transcription_witness": {
+        "transcription_path": "source-evidence/song044-wyd1739-xiehui/transcription-columns.txt",
+        "transcription_sha256": "8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
+        "transcription_revision": "cbr-ai-transcription-sha256:8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
+        "reported_pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+        "original_pdf_locally_obtained": false,
+        "commons_description_revision": 979637198,
+        "reported_pdf_pages": 95,
+        "nlc_bookid": "411999017142",
+        "nlc_volumeid": "12779",
+        "nlc_rare_book_number": "09753",
+        "composition_date": null,
+        "edition_year": 1739,
+        "earliest_extant_edition_claim": null,
+        "edition_year_role": "catalogued_printed_edition_year",
+        "human_image_reviewed": false
+      },
+      "transcription_raw_sha256": "8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
+      "note": "實際所據為此印本書影的AI轉錄；hash固定的是轉錄文本，非原PDF。未圖像人工校定，一疑二缺及75queue資格照source保留。不是作品成書/最早存世見證。",
+      "human_reviewed": false
     }
   }
 }

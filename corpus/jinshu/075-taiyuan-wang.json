@@ -7417,5 +7417,40 @@
       }
     }
   ],
-  "text_sha256": "a10c438d76f387575f5a8733d1b16c079a1aea11d011a8eff38e9a71c0eac14a"
+  "text_sha256": "a10c438d76f387575f5a8733d1b16c079a1aea11d011a8eff38e9a71c0eac14a",
+  "cross_chapter_references": [
+    {
+      "id": "xref-jin075-guobao-wangxun",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-075",
+        "chapter_id": "c-jinshu-075-taiyuan-wang",
+        "source_id": "s-jinshu-075-taiyuan-wang",
+        "revision_id": 2645530,
+        "paragraph_id": "c-jinshu-075-taiyuan-wang:line098",
+        "paragraph_text": "時王恭與殷仲堪並以才器，各居名籓。恭惡道子、國寶亂政，屢有憂國之言。道子等亦深忌憚之，將謀去其兵。未及行，而恭檄至，以討國寶為名，國寶惶遽不知所為。緒說國寶，令矯道子命，召王珣、車胤殺之，以除群望，因挾主相以討諸侯。國寶許之。珣、胤既至，而不敢害，反問計於珣。珣勸國寶放兵權以迎恭，國寶信之。語在《珣傳》。又問計於胤，胤曰：「南北同舉，而荊州未至，若朝廷遣軍，恭必城守。昔桓公圍壽陽，彌時乃克。若京城未拔，而上流奄至，君將何以待之？」國寶尤懼，遂上疏解職，詣闕待罪。既而悔之，祚稱詔復其本官，欲收其兵距王恭。",
+        "paragraph_text_sha256": "2e9373ce021194122a834721c4a55a678ba24dc7981b562cb26b0b2a436cb210",
+        "start": 146,
+        "end": 152,
+        "surface": "語在《珣傳》"
+      },
+      "target": {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-065",
+        "section_label": "王珣",
+        "text_status": "imported",
+        "chapter_id": "c-jinshu-065-wangdao-family",
+        "paragraph_id": "c-jinshu-065-wangdao-family:line084"
+      },
+      "resolution": {
+        "status": "contextually_identified",
+        "rationale": "本段先明王珣，隨即語在珣傳；卷065王珣單元字元琳，明述同一王恭與國寶衝突。其現已收段未逐字重複所有放兵權細節，不把互見當成兩段逐字相同。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7065&oldid=1756144",
+        "read_scope": "corpus/jinshu/065.json c-jinshu-065-wangdao-family:line084，另讀line078；只核已收完整段及此單元上下文，不稱全卷已讀或圖校。",
+        "short_quote": "隆安初，國寶用事，謀黜舊臣，遷珣尚書令。王恭赴山陵，欲殺國寶，珣止之曰：「國寶雖終爲禍亂，要罪逆未彰，今便先事而發，必大失朝野之望。況擁強兵，竊發於京輦，誰謂非逆！國寶若遂不改，惡",
+        "human_reviewed": false
+      }
+    }
+  ]
 }

@@ -1,5 +1,9 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions,root=None):
+ if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_wyd_song044_kinship':
+  try:from .wyd_song044_names import validate_surname
+  except ImportError:from wyd_song044_names import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
  if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_received_kinship':
   try:from .received_family_names import validate as received_names_validate
   except ImportError:from received_family_names import validate as received_names_validate
