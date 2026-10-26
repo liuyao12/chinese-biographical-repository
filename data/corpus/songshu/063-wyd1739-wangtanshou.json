@@ -56,21 +56,110 @@
     "reviewer": "Codex（AI）",
     "human_reviewed": false,
     "model": null,
-    "coverage": "王曇首主傳及本卷二子附敘完整選錄，專屬考證另層；AI轉錄初稿未NER，所有提及空白。",
+    "coverage": "完整王曇首及本卷二子附敘994字+專屬考證42字明名與必要代稱首輪；群體/太史/作者跨篇身份未定，官爵/紀年待後續；非全卷。",
     "limitations": [
       "〓為AI未辨字占位，不是原刻字。",
       "完整轉錄不等於完整圖校，所有字形編碼仍待覆核。",
       "僅王曇首及本卷附敘與專屬考證選錄，不稱卷063全卷、全冊或全書完成。"
     ],
-    "fixed_transcription_contract": "wuyingdian_song063_wangtanshou_transcription"
+    "fixed_transcription_contract": "wuyingdian_song063_wangtanshou_transcription",
+    "fixed_ner_role_layer": {
+      "kind": "wuyingdian_song063_complete_selected_roles",
+      "status": "ai_provisional",
+      "human_reviewed": false,
+      "coverage": "complete_selected_text_named_roles_first_pass_with_explicit_unresolved"
+    }
   },
   "paragraphs": [
     {
       "id": "c-songshu-063-wyd1739-wangtanshou:p001",
       "text": "王曇首琅邪臨沂人太保弘少弟也幼有業尚除著作郎不就兄弟分財曇首唯取圖書而已辟琅邪王大司馬屬從府公脩復洛陽園陵與從弟球俱詣高祖時謝",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0000",
+          "start": 0,
+          "end": 3,
+          "surface": "王曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0010",
+          "start": 10,
+          "end": 11,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0024",
+          "start": 24,
+          "end": 26,
+          "surface": "兄弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "known includes曇首/弘，完整集合未知，不造其餘兄弟"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0028",
+          "start": 28,
+          "end": 30,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0037",
+          "start": 37,
+          "end": 40,
+          "surface": "琅邪王",
+          "kind": "person",
+          "person_id": "ije_ngm_cmj",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0045",
+          "start": 45,
+          "end": 47,
+          "surface": "府公",
+          "kind": "person",
+          "person_id": "ije_ngm_cmj",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0056",
+          "start": 56,
+          "end": 57,
+          "surface": "球",
+          "kind": "person",
+          "person_id": "3c9_d1d_870_B",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0059",
+          "start": 59,
+          "end": 61,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0062",
+          "start": 62,
+          "end": 63,
+          "surface": "謝",
+          "kind": "person",
+          "person_id": "aa6_83c_juy_AAAA",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song063-wyd1739-wangtanshou/transcription-projection.json",
         "raw_file_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
@@ -84,8 +173,255 @@
       "id": "c-songshu-063-wyd1739-wangtanshou:p002",
       "text": "晦在坐高祖曰此君並膏粱盛德乃能屈志戎旅曇首答曰既從神武之師自使懦夫有立志晦曰仁者果有勇高祖悅行至彭城高祖大會戲馬臺豫坐者皆賦詩曇首文先成高祖覽讀因問弘曰卿弟何如卿弘答曰若但如臣門戶何寄高祖大笑曇首有識局智度喜慍不見於色閨門之內雍雍如也手不執金玉婦女不得為飾玩自非祿賜所及一毫不受於人太祖為冠軍徐州刺史留鎮彭城以曇首為府功曹太祖鎮江陵自功曹為長史隨府轉鎮西長史高祖甚知之謂太祖曰王曇首沈毅有器度宰相才也汝每事咨之景平中有龍",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "晦",
+          "kind": "person",
+          "person_id": "aa6_83c_juy_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0006",
+          "start": 6,
+          "end": 8,
+          "surface": "此君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "同到高祖處的曇首/球相關語境；不硬作一名新人物。"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0019",
+          "start": 19,
+          "end": 21,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0025",
+          "start": 25,
+          "end": 29,
+          "surface": "神武之師",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "軍隊/師主修辭，可關聯高祖語境，不拆神武為新個人"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0036",
+          "start": 36,
+          "end": 37,
+          "surface": "晦",
+          "kind": "person",
+          "person_id": "aa6_83c_juy_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0043",
+          "start": 43,
+          "end": 45,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0050",
+          "start": 50,
+          "end": 52,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0063",
+          "start": 63,
+          "end": 65,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0068",
+          "start": 68,
+          "end": 70,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0074",
+          "start": 74,
+          "end": 75,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0076",
+          "start": 76,
+          "end": 78,
+          "surface": "卿弟",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0080",
+          "start": 80,
+          "end": 81,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0081",
+          "start": 81,
+          "end": 82,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0087",
+          "start": 87,
+          "end": 88,
+          "surface": "臣",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0092",
+          "start": 92,
+          "end": 94,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0096",
+          "start": 96,
+          "end": 98,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0122",
+          "start": 122,
+          "end": 124,
+          "surface": "婦女",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "家庭婦女泛稱，不造妻女或生母"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0141",
+          "start": 141,
+          "end": 143,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0155",
+          "start": 155,
+          "end": 157,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0161",
+          "start": 161,
+          "end": 163,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0179",
+          "start": 179,
+          "end": 181,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0183",
+          "start": 183,
+          "end": 184,
+          "surface": "之",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0185",
+          "start": 185,
+          "end": 187,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0188",
+          "start": 188,
+          "end": 191,
+          "surface": "王曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0200",
+          "start": 200,
+          "end": 201,
+          "surface": "汝",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0204",
+          "start": 204,
+          "end": 205,
+          "surface": "之",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song063-wyd1739-wangtanshou/transcription-projection.json",
         "raw_file_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
@@ -99,8 +435,257 @@
       "id": "c-songshu-063-wyd1739-wangtanshou:p003",
       "text": "見西方牛斗騰上虛五緯雲京都遠近聚觀太史奏曰西方有天子氣太祖入奉大統上及議者皆疑不敢下曇首與到彥之從兄華固勸上猶未許曇首又固陳并言天人符應上乃下率府州文武嚴兵自衞臺所遣百官衆力不得近部伍中兵參軍朱容子抱刀在平乘戶外不解帶者數旬既下在道有黃龍出負上所乘舟左右皆失色上謂曇首曰此乃夏禹所以受天命我何堪之及即位又謂曇首曰非宋昌獨見無以致此以曇首為侍中尋領右衞將軍領驍騎將軍以朱容子為右軍將軍誅徐羨之等平謝晦曇首及華之力也元嘉四年",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0017",
+          "start": 17,
+          "end": 19,
+          "surface": "太史",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "奏者明官稱，但個體/官署及姓名未定；不添最近帝臣姓名。"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0027",
+          "start": 27,
+          "end": 29,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0033",
+          "start": 33,
+          "end": 34,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0035",
+          "start": 35,
+          "end": 37,
+          "surface": "議者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "議政者群，不按數造人"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0042",
+          "start": 42,
+          "end": 44,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0045",
+          "start": 45,
+          "end": 48,
+          "surface": "到彥之",
+          "kind": "person",
+          "person_id": "6bo_qfq_pl9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0048",
+          "start": 48,
+          "end": 51,
+          "surface": "從兄華",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAFAB",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0053",
+          "start": 53,
+          "end": 54,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0057",
+          "start": 57,
+          "end": 59,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0068",
+          "start": 68,
+          "end": 69,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0072",
+          "start": 72,
+          "end": 76,
+          "surface": "府州文武",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官僚群"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0083",
+          "start": 83,
+          "end": 85,
+          "surface": "百官",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官僚群"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0096",
+          "start": 96,
+          "end": 99,
+          "surface": "朱容子",
+          "kind": "person",
+          "person_id": "df4_d80_73a",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0121",
+          "start": 121,
+          "end": 122,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0125",
+          "start": 125,
+          "end": 127,
+          "surface": "左右",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "隨從群"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0130",
+          "start": 130,
+          "end": 131,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0132",
+          "start": 132,
+          "end": 134,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0137",
+          "start": 137,
+          "end": 139,
+          "surface": "夏禹",
+          "kind": "person",
+          "person_id": "6ip_dr3_fbl",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0144",
+          "start": 144,
+          "end": 145,
+          "surface": "我",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0153",
+          "start": 153,
+          "end": 155,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0157",
+          "start": 157,
+          "end": 159,
+          "surface": "宋昌",
+          "kind": "person",
+          "person_id": "al3_w9j_0ng",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0166",
+          "start": 166,
+          "end": 168,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0183",
+          "start": 183,
+          "end": 186,
+          "surface": "朱容子",
+          "kind": "person",
+          "person_id": "df4_d80_73a",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0192",
+          "start": 192,
+          "end": 195,
+          "surface": "徐羨之",
+          "kind": "person",
+          "person_id": "4y6_myv_ojh",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0197",
+          "start": 197,
+          "end": 199,
+          "surface": "謝晦",
+          "kind": "person",
+          "person_id": "aa6_83c_juy_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0199",
+          "start": 199,
+          "end": 201,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0202",
+          "start": 202,
+          "end": 203,
+          "surface": "華",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAFAB",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song063-wyd1739-wangtanshou/transcription-projection.json",
         "raw_file_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
@@ -114,8 +699,137 @@
       "id": "c-songshu-063-wyd1739-wangtanshou:p004",
       "text": "車駕出北堂嘗使三更竟開廣莫門南臺云應須白虎幡銀字棨不肯開門尚書左丞羊玄保奏免御史中丞傅隆以下曇首繼啟曰既無墨敕又闕幡棨雖稱上旨不異單刺元嘉二年雖有再開門例此乃前事之違今之守舊未為非禮但既據舊使應有疑却本末曾無此狀猶宜厥咎其不請白虎幡銀字棨致門不時開由尚書相承之失亦合糾正上特無所問更立科條還太子詹事侍中如故晦平後上欲封曇首等會讌集舉酒勸之因拊御牀曰此坐非卿兄弟無復今日時封詔已成出以示曇首曇首曰近日之事舋難將成賴陛下英明",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "車駕",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0033",
+          "start": 33,
+          "end": 36,
+          "surface": "羊玄保",
+          "kind": "person",
+          "person_id": "4c1_84a_183",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0042",
+          "start": 42,
+          "end": 44,
+          "surface": "傅隆",
+          "kind": "person",
+          "person_id": "c1d_31f_070",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0044",
+          "start": 44,
+          "end": 46,
+          "surface": "以下",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "奏免群體範圍，不造人"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0046",
+          "start": 46,
+          "end": 48,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0061",
+          "start": 61,
+          "end": 62,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0135",
+          "start": 135,
+          "end": 136,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0153",
+          "start": 153,
+          "end": 154,
+          "surface": "晦",
+          "kind": "person",
+          "person_id": "aa6_83c_juy_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0156",
+          "start": 156,
+          "end": 157,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0159",
+          "start": 159,
+          "end": 161,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0177",
+          "start": 177,
+          "end": 180,
+          "surface": "卿兄弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "受話有曇首；兄弟集合未逐名，不直接作同父兩兄弟或補固定人數。"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0192",
+          "start": 192,
+          "end": 194,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0194",
+          "start": 194,
+          "end": 196,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0206",
+          "start": 206,
+          "end": 208,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song063-wyd1739-wangtanshou/transcription-projection.json",
         "raw_file_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
@@ -129,8 +843,237 @@
       "id": "c-songshu-063-wyd1739-wangtanshou:p005",
       "text": "速斷故罪人斯戮臣等雖得仰憑天光効其毫露豈可因國之災以為身幸陛下雖欲私臣當如直史何上不能奪故封事遂寢時兄弘錄尚書事又為揚州刺史曇首為上所親委任兼兩宮彭城王義康與弘並錄意常怏怏又欲得揚州形於辭旨以曇首居中分其權任愈不悅曇首固乞吳郡太祖曰豈有欲建大廈而遺其棟梁者哉賢兄比屢稱疾固辭州任將來若相申許者此處非卿而誰亦何吳郡之有時弘久疾屢遜位不許義康謂賓客曰王公久疾不起神州詎合臥治曇首勸弘減府兵之半以配義康義康乃悅七年卒太祖為之慟",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "罪人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "受誅群；本段知道徐羨之/謝晦，不能外補完整名單"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0007",
+          "start": 7,
+          "end": 9,
+          "surface": "臣等",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "說者曇首+未逐名共事者"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0029",
+          "start": 29,
+          "end": 31,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0034",
+          "start": 34,
+          "end": 35,
+          "surface": "臣",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0040",
+          "start": 40,
+          "end": 41,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0050",
+          "start": 50,
+          "end": 52,
+          "surface": "兄弘",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0062",
+          "start": 62,
+          "end": 64,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0065",
+          "start": 65,
+          "end": 66,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0073",
+          "start": 73,
+          "end": 78,
+          "surface": "彭城王義康",
+          "kind": "person",
+          "person_id": "e9f_a95_f00",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0079",
+          "start": 79,
+          "end": 80,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0096",
+          "start": 96,
+          "end": 98,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0107",
+          "start": 107,
+          "end": 109,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0113",
+          "start": 113,
+          "end": 115,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0129",
+          "start": 129,
+          "end": 131,
+          "surface": "賢兄",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0149",
+          "start": 149,
+          "end": 150,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0159",
+          "start": 159,
+          "end": 160,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0167",
+          "start": 167,
+          "end": 169,
+          "surface": "義康",
+          "kind": "person",
+          "person_id": "e9f_a95_f00",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0170",
+          "start": 170,
+          "end": 172,
+          "surface": "賓客",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "義康受話群"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0173",
+          "start": 173,
+          "end": 175,
+          "surface": "王公",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0185",
+          "start": 185,
+          "end": 187,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0188",
+          "start": 188,
+          "end": 189,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0196",
+          "start": 196,
+          "end": 198,
+          "surface": "義康",
+          "kind": "person",
+          "person_id": "e9f_a95_f00",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0198",
+          "start": 198,
+          "end": 200,
+          "surface": "義康",
+          "kind": "person",
+          "person_id": "e9f_a95_f00",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0205",
+          "start": 205,
+          "end": 207,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0208",
+          "start": 208,
+          "end": 209,
+          "surface": "之",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song063-wyd1739-wangtanshou/transcription-projection.json",
         "raw_file_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
@@ -144,8 +1087,101 @@
       "id": "c-songshu-063-wyd1739-wangtanshou:p006",
       "text": "中書舍人周起侍側曰王家欲衰賢者先殞上曰直是我家衰耳追贈左光祿大夫加散騎常侍詹事如故九年以預誅羨之等謀追封豫寧縣侯邑千戶諡曰文侯世祖即位配饗太祖廟庭子僧綽嗣別有傳少子僧虔昇明末為尚書令",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0004",
+          "start": 4,
+          "end": 6,
+          "surface": "周起",
+          "kind": "person",
+          "person_id": "573_89e_405",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0009",
+          "start": 9,
+          "end": 11,
+          "surface": "王家",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "王氏家族群，非君主稱謂主家"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0013",
+          "start": 13,
+          "end": 15,
+          "surface": "賢者",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAE",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0017",
+          "start": 17,
+          "end": 18,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0021",
+          "start": 21,
+          "end": 23,
+          "surface": "我家",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "說者太祖所指君家群，非單一個人"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0046",
+          "start": 46,
+          "end": 48,
+          "surface": "羨之",
+          "kind": "person",
+          "person_id": "4y6_myv_ojh",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0063",
+          "start": 63,
+          "end": 65,
+          "surface": "世祖",
+          "kind": "person",
+          "person_id": "hx8_st4_jdd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0069",
+          "start": 69,
+          "end": 71,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0074",
+          "start": 74,
+          "end": 76,
+          "surface": "僧綽",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAEA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0082",
+          "start": 82,
+          "end": 84,
+          "surface": "僧虔",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAAAAEB",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song063-wyd1739-wangtanshou/transcription-projection.json",
         "raw_file_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
@@ -159,8 +1195,93 @@
       "id": "c-songshu-063-wyd1739-wangtanshou:p007",
       "text": "王曇首傳中書舍人周起侍側○周起南史作周赳臣承蒼按張敷殷景仁傳俱有中書舍人周赳作赳為是",
       "text_layer": "witness_appended_wuyingdian_collation",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0000",
+          "start": 0,
+          "end": 4,
+          "surface": "王曇首傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-songshu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0008",
+          "start": 8,
+          "end": 10,
+          "surface": "周起",
+          "kind": "person",
+          "person_id": "573_89e_405",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0013",
+          "start": 13,
+          "end": 15,
+          "surface": "周起",
+          "kind": "person",
+          "person_id": "573_89e_405",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0015",
+          "start": 15,
+          "end": 17,
+          "surface": "南史",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-nanshi",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0018",
+          "start": 18,
+          "end": 20,
+          "surface": "周赳",
+          "kind": "person",
+          "person_id": "573_89e_405",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0020",
+          "start": 20,
+          "end": 23,
+          "surface": "臣承蒼",
+          "kind": "person",
+          "person_id": "7wa_nw8_xod",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0024",
+          "start": 24,
+          "end": 30,
+          "surface": "張敷殷景仁傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-songshu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0036",
+          "start": 36,
+          "end": 38,
+          "surface": "周赳",
+          "kind": "person",
+          "person_id": "573_89e_405",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0039",
+          "start": 39,
+          "end": 40,
+          "surface": "赳",
+          "kind": "person",
+          "person_id": "573_89e_405",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song063-wyd1739-wangtanshou/transcription-projection.json",
         "raw_file_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
@@ -171,5 +1292,34 @@
       }
     }
   ],
-  "text_sha256": "4f75dac00c6f7e86f33680e5e96e4a4113f1375dee9f8f217d538b4d01923555"
+  "text_sha256": "4f75dac00c6f7e86f33680e5e96e4a4113f1375dee9f8f217d538b4d01923555",
+  "cross_chapter_references": [
+    {
+      "id": "xref-song063-wyd-sengchuo-biography",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-063",
+        "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+        "source_id": "s-songshu-063-wyd1739-wangtanshou",
+        "revision_id": "cbr-ai-transcription-sha256:1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+        "paragraph_text": "中書舍人周起侍側曰王家欲衰賢者先殞上曰直是我家衰耳追贈左光祿大夫加散騎常侍詹事如故九年以預誅羨之等謀追封豫寧縣侯邑千戶諡曰文侯世祖即位配饗太祖廟庭子僧綽嗣別有傳少子僧虔昇明末為尚書令",
+        "paragraph_text_sha256": "d8d116fef428d2fc2900d462b6642019528960242f7b8e4298d45a323f2dd762",
+        "start": 77,
+        "end": 80,
+        "surface": "別有傳"
+      },
+      "target": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-071",
+        "text_status": "imported",
+        "chapter_id": "c-songshu-071-wangsengchuo",
+        "paragraph_id": "c-songshu-071-wangsengchuo:p001"
+      },
+      "human_reviewed": false,
+      "model": null,
+      "qualification": "本卷子僧綽/071明曇首子身份橋；target WYG只作既有導航，不換WYD底本；豫寧/豫章異文保。"
+    }
+  ]
 }

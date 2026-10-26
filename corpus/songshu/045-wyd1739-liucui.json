@@ -91,7 +91,94 @@
       "status": "ai_provisional",
       "human_reviewed": false,
       "coverage": "complete_selected_text_named_roles_first_pass_with_explicit_unresolved"
-    }
+    },
+    "age_assertions": [
+      {
+        "id": "age-song045-wyd-cui-death",
+        "person_id": "8lh_jgi_l6a_*A",
+        "value": 53,
+        "source_number": "五十三",
+        "source_term": "年五十三",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-045",
+            "source_id": "s-songshu-045-wyd1739-liucui",
+            "chapter_id": "c-songshu-045-wyd1739-liucui",
+            "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+            "quote": "沙門二千餘人以補府史元嘉三年討謝晦遣粹弟車騎從事中郎道濟龍驤將軍沈敞之就粹自陸道向江陵粹以道濟行竟陵內史與敞之及南陽太守沈道興步騎至沙橋為晦司馬周超所敗士衆傷死者過半降號寧朔將軍初晦與粹厚善以粹子曠之為參軍粹受命南討一無所顧太祖以此嘉之晦遣送曠之還粹亦不害也明年粹卒時年五十三追贈安北將軍持節本官如故曠之嗣官至晉熙太守曠之卒子琛嗣琛卒無子國除琛弟亮順帝昇明末尚書駕部郎粹庶長子懷之為臨川內史與臧質同逆伏誅粹弟道濟尚書起部",
+            "person_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0131"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-song045-wyd-cui"
+        },
+        "age_interpretation": {
+          "kind": "traditional_nominal_age_editorial_reading",
+          "status": "editorial_provisional",
+          "human_reviewed": false,
+          "rationale": "本庫依傳統虛歲理解此史籍報齡；原句未明計歲法，不偽稱source明說虛歲，不推周歲或出生年。"
+        },
+        "interpretation_note": "明年粹卒時年五十三：53為本源卒齡，連同人同段死亡；與明年換算分存，不倒生年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "title_proposals": [
+      {
+        "id": "proposal-song045-wyd-zhenzhi-nonassumption",
+        "person_id": "ajf_qc7_zd5",
+        "person_mention_id": "c-songshu-045-wyd1739-liucui:p015:m0027",
+        "title": "左光祿大夫",
+        "kind": "office",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "role_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p015",
+          "start": 30,
+          "end": 35,
+          "surface": "左光祿大夫"
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p015",
+          "start": 35,
+          "end": 36,
+          "surface": "徵"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p015",
+          "start": 36,
+          "end": 38,
+          "surface": "不就"
+        },
+        "non_assumption_kind": "did_not_take_up",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-045",
+            "source_id": "s-songshu-045-wyd1739-liucui",
+            "chapter_id": "c-songshu-045-wyd1739-liucui",
+            "paragraph_id": "c-songshu-045-wyd1739-liucui:p015",
+            "quote": "嘗應召常謂毅汝必破我家毅甚憚之每還京未嘗敢以羽儀人從入鎮之門左光祿大夫徵不就元嘉二年年九十餘卒於家損元嘉中歷職義興太守東土饑饉太祖遣揚州治中沈演之東入賑卹以損綏撫有方稱為良守官至吳郡太守追贈太常",
+            "person_mention_id": "c-songshu-045-wyd1739-liucui:p015:m0027"
+          }
+        ],
+        "date_expression": null,
+        "status": "contextual_provisional",
+        "interpretation_note": "左光祿大夫徵不就：明記未赴任，不入實持；不以元嘉二年卒或年九十餘當徵召日期。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
   },
   "paragraphs": [
     {

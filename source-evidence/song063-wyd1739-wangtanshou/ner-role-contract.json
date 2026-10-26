@@ -1,0 +1,1824 @@
+{
+  "record_type": "fixed_wyd_ner_role_contract",
+  "chapter_path": "corpus/songshu/063-wyd1739-wangtanshou.json",
+  "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+  "source_id": "s-songshu-063-wyd1739-wangtanshou",
+  "text_sha256": "4f75dac00c6f7e86f33680e5e96e4a4113f1375dee9f8f217d538b4d01923555",
+  "base_annotation": {
+    "status": "in_progress",
+    "reviewer": "Codex（AI）",
+    "human_reviewed": false,
+    "model": null,
+    "coverage": "王曇首主傳及本卷二子附敘完整選錄，專屬考證另層；AI轉錄初稿未NER，所有提及空白。",
+    "limitations": [
+      "〓為AI未辨字占位，不是原刻字。",
+      "完整轉錄不等於完整圖校，所有字形編碼仍待覆核。",
+      "僅王曇首及本卷附敘與專屬考證選錄，不稱卷063全卷、全冊或全書完成。"
+    ],
+    "fixed_transcription_contract": "wuyingdian_song063_wangtanshou_transcription"
+  },
+  "paragraphs": [
+    {
+      "id": "c-songshu-063-wyd1739-wangtanshou:p001",
+      "paragraph_sha256": "b00351ddac76d684287547b2bd35d6e10e77352af8c86c7a516bd930d169c54c",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0000",
+          "start": 0,
+          "end": 3,
+          "surface": "王曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0010",
+          "start": 10,
+          "end": 11,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": {
+            "role": "hong"
+          },
+          "role_key": "hong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0024",
+          "start": 24,
+          "end": 26,
+          "surface": "兄弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "known includes曇首/弘，完整集合未知，不造其餘兄弟"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0028",
+          "start": 28,
+          "end": 30,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0037",
+          "start": 37,
+          "end": 40,
+          "surface": "琅邪王",
+          "kind": "person",
+          "person_id": {
+            "role": "langya"
+          },
+          "role_key": "langya",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0045",
+          "start": 45,
+          "end": 47,
+          "surface": "府公",
+          "kind": "person",
+          "person_id": {
+            "role": "langya"
+          },
+          "role_key": "langya",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0056",
+          "start": 56,
+          "end": 57,
+          "surface": "球",
+          "kind": "person",
+          "person_id": {
+            "role": "qiu"
+          },
+          "role_key": "qiu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0059",
+          "start": 59,
+          "end": 61,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": {
+            "role": "gaozu"
+          },
+          "role_key": "gaozu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p001:m0062",
+          "start": 62,
+          "end": 63,
+          "surface": "謝",
+          "kind": "person",
+          "person_id": {
+            "role": "hui"
+          },
+          "role_key": "hui",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-songshu-063-wyd1739-wangtanshou:p002",
+      "paragraph_sha256": "4c005f4c9f72b0a69b01c0d337c8a83a4106b533354c980a110ea0fa38c8baf6",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "晦",
+          "kind": "person",
+          "person_id": {
+            "role": "hui"
+          },
+          "role_key": "hui",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": {
+            "role": "gaozu"
+          },
+          "role_key": "gaozu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0006",
+          "start": 6,
+          "end": 8,
+          "surface": "此君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "同到高祖處的曇首/球相關語境；不硬作一名新人物。"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0019",
+          "start": 19,
+          "end": 21,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0025",
+          "start": 25,
+          "end": 29,
+          "surface": "神武之師",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "軍隊/師主修辭，可關聯高祖語境，不拆神武為新個人"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0036",
+          "start": 36,
+          "end": 37,
+          "surface": "晦",
+          "kind": "person",
+          "person_id": {
+            "role": "hui"
+          },
+          "role_key": "hui",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0043",
+          "start": 43,
+          "end": 45,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": {
+            "role": "gaozu"
+          },
+          "role_key": "gaozu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0050",
+          "start": 50,
+          "end": 52,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": {
+            "role": "gaozu"
+          },
+          "role_key": "gaozu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0063",
+          "start": 63,
+          "end": 65,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0068",
+          "start": 68,
+          "end": 70,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": {
+            "role": "gaozu"
+          },
+          "role_key": "gaozu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0074",
+          "start": 74,
+          "end": 75,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": {
+            "role": "hong"
+          },
+          "role_key": "hong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0076",
+          "start": 76,
+          "end": 78,
+          "surface": "卿弟",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0080",
+          "start": 80,
+          "end": 81,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": {
+            "role": "hong"
+          },
+          "role_key": "hong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0081",
+          "start": 81,
+          "end": 82,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": {
+            "role": "hong"
+          },
+          "role_key": "hong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0087",
+          "start": 87,
+          "end": 88,
+          "surface": "臣",
+          "kind": "person",
+          "person_id": {
+            "role": "hong"
+          },
+          "role_key": "hong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0092",
+          "start": 92,
+          "end": 94,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": {
+            "role": "gaozu"
+          },
+          "role_key": "gaozu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0096",
+          "start": 96,
+          "end": 98,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0122",
+          "start": 122,
+          "end": 124,
+          "surface": "婦女",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "家庭婦女泛稱，不造妻女或生母"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0141",
+          "start": 141,
+          "end": 143,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0155",
+          "start": 155,
+          "end": 157,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0161",
+          "start": 161,
+          "end": 163,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0179",
+          "start": 179,
+          "end": 181,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": {
+            "role": "gaozu"
+          },
+          "role_key": "gaozu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0183",
+          "start": 183,
+          "end": 184,
+          "surface": "之",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0185",
+          "start": 185,
+          "end": 187,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0188",
+          "start": 188,
+          "end": 191,
+          "surface": "王曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0200",
+          "start": 200,
+          "end": 201,
+          "surface": "汝",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p002:m0204",
+          "start": 204,
+          "end": 205,
+          "surface": "之",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-songshu-063-wyd1739-wangtanshou:p003",
+      "paragraph_sha256": "f991991de1696bc683af2d0fddc9efcd928507d0a876fc69777e82eef6c4d60e",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0017",
+          "start": 17,
+          "end": 19,
+          "surface": "太史",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "奏者明官稱，但個體/官署及姓名未定；不添最近帝臣姓名。"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0027",
+          "start": 27,
+          "end": 29,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0033",
+          "start": 33,
+          "end": 34,
+          "surface": "上",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0035",
+          "start": 35,
+          "end": 37,
+          "surface": "議者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "議政者群，不按數造人"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0042",
+          "start": 42,
+          "end": 44,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0045",
+          "start": 45,
+          "end": 48,
+          "surface": "到彥之",
+          "kind": "person",
+          "person_id": {
+            "role": "daoyan"
+          },
+          "role_key": "daoyan",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0048",
+          "start": 48,
+          "end": 51,
+          "surface": "從兄華",
+          "kind": "person",
+          "person_id": {
+            "role": "hua"
+          },
+          "role_key": "hua",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0053",
+          "start": 53,
+          "end": 54,
+          "surface": "上",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0057",
+          "start": 57,
+          "end": 59,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0068",
+          "start": 68,
+          "end": 69,
+          "surface": "上",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0072",
+          "start": 72,
+          "end": 76,
+          "surface": "府州文武",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官僚群"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0083",
+          "start": 83,
+          "end": 85,
+          "surface": "百官",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官僚群"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0096",
+          "start": 96,
+          "end": 99,
+          "surface": "朱容子",
+          "kind": "person",
+          "person_id": {
+            "role": "rongzi"
+          },
+          "role_key": "rongzi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0121",
+          "start": 121,
+          "end": 122,
+          "surface": "上",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0125",
+          "start": 125,
+          "end": 127,
+          "surface": "左右",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "隨從群"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0130",
+          "start": 130,
+          "end": 131,
+          "surface": "上",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0132",
+          "start": 132,
+          "end": 134,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0137",
+          "start": 137,
+          "end": 139,
+          "surface": "夏禹",
+          "kind": "person",
+          "person_id": {
+            "role": "yu"
+          },
+          "role_key": "yu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0144",
+          "start": 144,
+          "end": 145,
+          "surface": "我",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0153",
+          "start": 153,
+          "end": 155,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0157",
+          "start": 157,
+          "end": 159,
+          "surface": "宋昌",
+          "kind": "person",
+          "person_id": {
+            "role": "songchang"
+          },
+          "role_key": "songchang",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0166",
+          "start": 166,
+          "end": 168,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0183",
+          "start": 183,
+          "end": 186,
+          "surface": "朱容子",
+          "kind": "person",
+          "person_id": {
+            "role": "rongzi"
+          },
+          "role_key": "rongzi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0192",
+          "start": 192,
+          "end": 195,
+          "surface": "徐羨之",
+          "kind": "person",
+          "person_id": {
+            "role": "xuxian"
+          },
+          "role_key": "xuxian",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0197",
+          "start": 197,
+          "end": 199,
+          "surface": "謝晦",
+          "kind": "person",
+          "person_id": {
+            "role": "hui"
+          },
+          "role_key": "hui",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0199",
+          "start": 199,
+          "end": 201,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p003:m0202",
+          "start": 202,
+          "end": 203,
+          "surface": "華",
+          "kind": "person",
+          "person_id": {
+            "role": "hua"
+          },
+          "role_key": "hua",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-songshu-063-wyd1739-wangtanshou:p004",
+      "paragraph_sha256": "02327b0a8e1454a31a11a33882917eae5536623842e3384faf56885914764bb5",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "車駕",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0033",
+          "start": 33,
+          "end": 36,
+          "surface": "羊玄保",
+          "kind": "person",
+          "person_id": {
+            "role": "yangxuan"
+          },
+          "role_key": "yangxuan",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0042",
+          "start": 42,
+          "end": 44,
+          "surface": "傅隆",
+          "kind": "person",
+          "person_id": {
+            "role": "fulong"
+          },
+          "role_key": "fulong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0044",
+          "start": 44,
+          "end": 46,
+          "surface": "以下",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "奏免群體範圍，不造人"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0046",
+          "start": 46,
+          "end": 48,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0061",
+          "start": 61,
+          "end": 62,
+          "surface": "上",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0135",
+          "start": 135,
+          "end": 136,
+          "surface": "上",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0153",
+          "start": 153,
+          "end": 154,
+          "surface": "晦",
+          "kind": "person",
+          "person_id": {
+            "role": "hui"
+          },
+          "role_key": "hui",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0156",
+          "start": 156,
+          "end": 157,
+          "surface": "上",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0159",
+          "start": 159,
+          "end": 161,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0177",
+          "start": 177,
+          "end": 180,
+          "surface": "卿兄弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "受話有曇首；兄弟集合未逐名，不直接作同父兩兄弟或補固定人數。"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0192",
+          "start": 192,
+          "end": 194,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0194",
+          "start": 194,
+          "end": 196,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p004:m0206",
+          "start": 206,
+          "end": 208,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-songshu-063-wyd1739-wangtanshou:p005",
+      "paragraph_sha256": "36920b1ead4b08d0e57739a23cfdde879b3bae3dee4acc106ad1c61761b6f045",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "罪人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "受誅群；本段知道徐羨之/謝晦，不能外補完整名單"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0007",
+          "start": 7,
+          "end": 9,
+          "surface": "臣等",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "說者曇首+未逐名共事者"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0029",
+          "start": 29,
+          "end": 31,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0034",
+          "start": 34,
+          "end": 35,
+          "surface": "臣",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0040",
+          "start": 40,
+          "end": 41,
+          "surface": "上",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0050",
+          "start": 50,
+          "end": 52,
+          "surface": "兄弘",
+          "kind": "person",
+          "person_id": {
+            "role": "hong"
+          },
+          "role_key": "hong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0062",
+          "start": 62,
+          "end": 64,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0065",
+          "start": 65,
+          "end": 66,
+          "surface": "上",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0073",
+          "start": 73,
+          "end": 78,
+          "surface": "彭城王義康",
+          "kind": "person",
+          "person_id": {
+            "role": "yikang"
+          },
+          "role_key": "yikang",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0079",
+          "start": 79,
+          "end": 80,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": {
+            "role": "hong"
+          },
+          "role_key": "hong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0096",
+          "start": 96,
+          "end": 98,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0107",
+          "start": 107,
+          "end": 109,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0113",
+          "start": 113,
+          "end": 115,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0129",
+          "start": 129,
+          "end": 131,
+          "surface": "賢兄",
+          "kind": "person",
+          "person_id": {
+            "role": "hong"
+          },
+          "role_key": "hong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0149",
+          "start": 149,
+          "end": 150,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0159",
+          "start": 159,
+          "end": 160,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": {
+            "role": "hong"
+          },
+          "role_key": "hong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0167",
+          "start": 167,
+          "end": 169,
+          "surface": "義康",
+          "kind": "person",
+          "person_id": {
+            "role": "yikang"
+          },
+          "role_key": "yikang",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0170",
+          "start": 170,
+          "end": 172,
+          "surface": "賓客",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "義康受話群"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0173",
+          "start": 173,
+          "end": 175,
+          "surface": "王公",
+          "kind": "person",
+          "person_id": {
+            "role": "hong"
+          },
+          "role_key": "hong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0185",
+          "start": 185,
+          "end": 187,
+          "surface": "曇首",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0188",
+          "start": 188,
+          "end": 189,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": {
+            "role": "hong"
+          },
+          "role_key": "hong",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0196",
+          "start": 196,
+          "end": 198,
+          "surface": "義康",
+          "kind": "person",
+          "person_id": {
+            "role": "yikang"
+          },
+          "role_key": "yikang",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0198",
+          "start": 198,
+          "end": 200,
+          "surface": "義康",
+          "kind": "person",
+          "person_id": {
+            "role": "yikang"
+          },
+          "role_key": "yikang",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0205",
+          "start": 205,
+          "end": 207,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p005:m0208",
+          "start": 208,
+          "end": 209,
+          "surface": "之",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-songshu-063-wyd1739-wangtanshou:p006",
+      "paragraph_sha256": "d8d116fef428d2fc2900d462b6642019528960242f7b8e4298d45a323f2dd762",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0004",
+          "start": 4,
+          "end": 6,
+          "surface": "周起",
+          "kind": "person",
+          "person_id": {
+            "role": "zhou"
+          },
+          "role_key": "zhou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0009",
+          "start": 9,
+          "end": 11,
+          "surface": "王家",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "王氏家族群，非君主稱謂主家"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0013",
+          "start": 13,
+          "end": 15,
+          "surface": "賢者",
+          "kind": "person",
+          "person_id": {
+            "role": "tanshou"
+          },
+          "role_key": "tanshou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0017",
+          "start": 17,
+          "end": 18,
+          "surface": "上",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0021",
+          "start": 21,
+          "end": 23,
+          "surface": "我家",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "說者太祖所指君家群，非單一個人"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0046",
+          "start": 46,
+          "end": 48,
+          "surface": "羨之",
+          "kind": "person",
+          "person_id": {
+            "role": "xuxian"
+          },
+          "role_key": "xuxian",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0063",
+          "start": 63,
+          "end": 65,
+          "surface": "世祖",
+          "kind": "person",
+          "person_id": {
+            "role": "shizu"
+          },
+          "role_key": "shizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0069",
+          "start": 69,
+          "end": 71,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": {
+            "role": "taizu"
+          },
+          "role_key": "taizu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0074",
+          "start": 74,
+          "end": 76,
+          "surface": "僧綽",
+          "kind": "person",
+          "person_id": {
+            "role": "sengchuo"
+          },
+          "role_key": "sengchuo",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0082",
+          "start": 82,
+          "end": 84,
+          "surface": "僧虔",
+          "kind": "person",
+          "person_id": {
+            "role": "sengqian"
+          },
+          "role_key": "sengqian",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-songshu-063-wyd1739-wangtanshou:p007",
+      "paragraph_sha256": "ad6aa23d62d636c641404d34be05a2c3df9e44f88adc0118acf52e7ae8839d22",
+      "mentions": [
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0000",
+          "start": 0,
+          "end": 4,
+          "surface": "王曇首傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-songshu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0008",
+          "start": 8,
+          "end": 10,
+          "surface": "周起",
+          "kind": "person",
+          "person_id": {
+            "role": "zhou"
+          },
+          "role_key": "zhou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0013",
+          "start": 13,
+          "end": 15,
+          "surface": "周起",
+          "kind": "person",
+          "person_id": {
+            "role": "zhou"
+          },
+          "role_key": "zhou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0015",
+          "start": 15,
+          "end": 17,
+          "surface": "南史",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-nanshi",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0018",
+          "start": 18,
+          "end": 20,
+          "surface": "周赳",
+          "kind": "person",
+          "person_id": {
+            "role": "zhou"
+          },
+          "role_key": "zhou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0020",
+          "start": 20,
+          "end": 23,
+          "surface": "臣承蒼",
+          "kind": "person",
+          "person_id": {
+            "role": "chengcang"
+          },
+          "role_key": "chengcang",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0024",
+          "start": 24,
+          "end": 30,
+          "surface": "張敷殷景仁傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-songshu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0036",
+          "start": 36,
+          "end": 38,
+          "surface": "周赳",
+          "kind": "person",
+          "person_id": {
+            "role": "zhou"
+          },
+          "role_key": "zhou",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-063-wyd1739-wangtanshou:p007:m0039",
+          "start": 39,
+          "end": 40,
+          "surface": "赳",
+          "kind": "person",
+          "person_id": {
+            "role": "zhou"
+          },
+          "role_key": "zhou",
+          "status": "contextual_provisional"
+        }
+      ]
+    }
+  ],
+  "foreign_seeds": {
+    "tanshou": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+      "paragraph_sha256": "13c85f1221253e18a00cd88ae740fb552dc8f3aaf68e946c3abfe0c8e633bd26",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line022:m0076",
+      "surface": "曇首",
+      "start": 76,
+      "end": 78,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "hong": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+      "paragraph_sha256": "3a4116af5e0dbdfe06533280028275fcd9aa92d1537d2cd118cc6cd1721dbdf2",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line010:m0014",
+      "surface": "弘",
+      "start": 14,
+      "end": 15,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "langya": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line031",
+      "paragraph_sha256": "cef05c8432582ea28d6622a6a6a01439c7a61834b1cb162ec2ca4fd82c88ecdf",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line031:m0028",
+      "surface": "琅邪王",
+      "start": 28,
+      "end": 31,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "qiu": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line031",
+      "paragraph_sha256": "cef05c8432582ea28d6622a6a6a01439c7a61834b1cb162ec2ca4fd82c88ecdf",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line031:m0049",
+      "surface": "球",
+      "start": 49,
+      "end": 50,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "gaozu": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line012",
+      "paragraph_sha256": "6ee78cb643991348fc224766cd3e072c2f008bc3163157ae0b802652494006a6",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line012:m0038",
+      "surface": "高祖",
+      "start": 38,
+      "end": 40,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "hui": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line031",
+      "paragraph_sha256": "cef05c8432582ea28d6622a6a6a01439c7a61834b1cb162ec2ca4fd82c88ecdf",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line031:m0056",
+      "surface": "謝晦",
+      "start": 56,
+      "end": 58,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "taizu": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line014",
+      "paragraph_sha256": "a17aa5471506add1cdcba350ae8bafee987c0c1aedd6984b8efc39a5b7401aae",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line014:m0047",
+      "surface": "太祖",
+      "start": 47,
+      "end": 49,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "hua": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+      "paragraph_sha256": "3a4116af5e0dbdfe06533280028275fcd9aa92d1537d2cd118cc6cd1721dbdf2",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line010:m0000",
+      "surface": "王華",
+      "start": 0,
+      "end": 2,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "daoyan": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line033",
+      "paragraph_sha256": "cedce3d7d785b9554d03c7e29e918e8cbcfbbc4a0fcad40edc8b0796e4544844",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line033:m0140",
+      "surface": "到彥之",
+      "start": 140,
+      "end": 143,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "rongzi": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line033",
+      "paragraph_sha256": "cedce3d7d785b9554d03c7e29e918e8cbcfbbc4a0fcad40edc8b0796e4544844",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line033:m0200",
+      "surface": "朱容子",
+      "start": 200,
+      "end": 203,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "yu": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line033",
+      "paragraph_sha256": "cedce3d7d785b9554d03c7e29e918e8cbcfbbc4a0fcad40edc8b0796e4544844",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line033:m0248",
+      "surface": "夏禹",
+      "start": 248,
+      "end": 250,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "songchang": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line033",
+      "paragraph_sha256": "cedce3d7d785b9554d03c7e29e918e8cbcfbbc4a0fcad40edc8b0796e4544844",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line033:m0276",
+      "surface": "宋昌",
+      "start": 276,
+      "end": 278,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "xuxian": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+      "paragraph_sha256": "59a76797fb4c56374b5b0d96fcba030420888fd9a39486058238c09fc856d77b",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line016:m0024",
+      "surface": "羨之",
+      "start": 24,
+      "end": 26,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "yangxuan": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line035",
+      "paragraph_sha256": "c25283a041a06cbf89c939ef756ce417559260b66600c0204fd2e86ae42c6193",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line035:m0046",
+      "surface": "羊玄保",
+      "start": 46,
+      "end": 49,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "fulong": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line035",
+      "paragraph_sha256": "c25283a041a06cbf89c939ef756ce417559260b66600c0204fd2e86ae42c6193",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line035:m0051",
+      "surface": "御史中丞",
+      "start": 51,
+      "end": 55,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "yikang": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line037",
+      "paragraph_sha256": "e36328a376fdd83aab2dfd9884e9c28aac33148b75a372984e7dee012d4261f4",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line037:m0160",
+      "surface": "彭城王義康",
+      "start": 160,
+      "end": 165,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "zhou": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line039",
+      "paragraph_sha256": "32cd47a281ddafa2567a6b0e6a8cd8267f02e3c69772a3be15bb8106159ba06e",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line039:m0015",
+      "surface": "周赳",
+      "start": 15,
+      "end": 17,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "shizu": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+      "paragraph_sha256": "13c85f1221253e18a00cd88ae740fb552dc8f3aaf68e946c3abfe0c8e633bd26",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line022:m0169",
+      "surface": "世祖",
+      "start": 169,
+      "end": 171,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "sengchuo": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line039",
+      "paragraph_sha256": "32cd47a281ddafa2567a6b0e6a8cd8267f02e3c69772a3be15bb8106159ba06e",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line039:m0105",
+      "surface": "僧綽",
+      "start": 105,
+      "end": 107,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    },
+    "sengqian": {
+      "path": "corpus/songshu/063-wanghua-tanshou.json",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "source_id": "s-songshu-063-wanghua-tanshou",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line039",
+      "paragraph_sha256": "32cd47a281ddafa2567a6b0e6a8cd8267f02e3c69772a3be15bb8106159ba06e",
+      "mention_id": "c-songshu-063-wanghua-tanshou:line039:m0115",
+      "surface": "僧虔",
+      "start": 115,
+      "end": 117,
+      "source_sha256": "e36c615dc5c3ce6fda398970b4d4494f257e6fa52f57d9b3f7cd94515dd0ac50"
+    }
+  },
+  "xref_role_seeds": {
+    "sengchuo": {
+      "path": "corpus/songshu/071-wangsengchuo.json",
+      "chapter_id": "c-songshu-071-wangsengchuo",
+      "source_id": "s-songshu-071-wangsengchuo",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-071",
+      "paragraph_id": "c-songshu-071-wangsengchuo:p001",
+      "paragraph_sha256": "829cca0130887d85dd746115b144d7864193332d1069a19ad639073b8a43581d",
+      "mention_id": "c-songshu-071-wangsengchuo:p001:m0000",
+      "surface": "王僧綽",
+      "start": 0,
+      "end": 3,
+      "source_sha256": "493cca7cb281418814c33c8a0f47cfa7aba032b37b0b4915eadd521112122407"
+    },
+    "tanshou": {
+      "path": "corpus/songshu/071-wangsengchuo.json",
+      "chapter_id": "c-songshu-071-wangsengchuo",
+      "source_id": "s-songshu-071-wangsengchuo",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-071",
+      "paragraph_id": "c-songshu-071-wangsengchuo:p001",
+      "paragraph_sha256": "829cca0130887d85dd746115b144d7864193332d1069a19ad639073b8a43581d",
+      "mention_id": "c-songshu-071-wangsengchuo:p001:m0013",
+      "surface": "曇首",
+      "start": 13,
+      "end": 15,
+      "source_sha256": "493cca7cb281418814c33c8a0f47cfa7aba032b37b0b4915eadd521112122407"
+    }
+  },
+  "cross_chapter_references": [
+    {
+      "id": "xref-song063-wyd-sengchuo-biography",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-063",
+        "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+        "source_id": "s-songshu-063-wyd1739-wangtanshou",
+        "revision_id": "cbr-ai-transcription-sha256:1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+        "paragraph_text": "中書舍人周起侍側曰王家欲衰賢者先殞上曰直是我家衰耳追贈左光祿大夫加散騎常侍詹事如故九年以預誅羨之等謀追封豫寧縣侯邑千戶諡曰文侯世祖即位配饗太祖廟庭子僧綽嗣別有傳少子僧虔昇明末為尚書令",
+        "paragraph_text_sha256": "d8d116fef428d2fc2900d462b6642019528960242f7b8e4298d45a323f2dd762",
+        "start": 77,
+        "end": 80,
+        "surface": "別有傳"
+      },
+      "target": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-071",
+        "text_status": "imported",
+        "chapter_id": "c-songshu-071-wangsengchuo",
+        "paragraph_id": "c-songshu-071-wangsengchuo:p001"
+      },
+      "human_reviewed": false,
+      "model": null,
+      "qualification": "本卷子僧綽/071明曇首子身份橋；target WYG只作既有導航，不換WYD底本；豫寧/豫章異文保。"
+    }
+  ],
+  "qualification": "完整994+42所選單元明名與代稱首輪；群體/太史保未定；非官爵生平全typed。",
+  "human_reviewed": false,
+  "ner_annotation_overrides": {
+    "coverage": "完整王曇首及本卷二子附敘994字+專屬考證42字明名與必要代稱首輪；群體/太史/作者跨篇身份未定，官爵/紀年待後續；非全卷。"
+  }
+}

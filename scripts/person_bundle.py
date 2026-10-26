@@ -443,6 +443,20 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         from .life_event_dates import selected_dates
     except ImportError:
         from life_event_dates import selected_dates
+    # fixed-wyd045-life-consumer
+    try:from scripts.wyd_song045_lifecycle import valid as wyd045_life_valid
+    except ImportError:from wyd_song045_lifecycle import valid as wyd045_life_valid
+    for event in life_events:
+        if event.get('source_wyd045_death_scope',{}).get('kind')=='fixed_wyd045_death_scope'and not wyd045_life_valid(event,root):raise ValueError('宋045死亡日期/來源角色不符')
+    # fixed-wyd045-noble-consumer
+    try:from scripts.wyd_song045_nobles import holding_dispatch_valid as noble_holding_valid, death_valid as noble_death_valid, event_valid as noble_event_valid, proposal_valid as noble_proposal_valid, holding_applies as noble_holding_applies,death_applies as noble_death_applies,event_applies as noble_event_applies,proposal_applies as noble_proposal_applies
+    except ImportError:from wyd_song045_nobles import holding_dispatch_valid as noble_holding_valid, death_valid as noble_death_valid, event_valid as noble_event_valid, proposal_valid as noble_proposal_valid, holding_applies as noble_holding_applies,death_applies as noble_death_applies,event_applies as noble_event_applies,proposal_applies as noble_proposal_applies
+    for h in titles:
+        if noble_holding_applies(h)and not noble_holding_valid(h,chapters[h['evidence'][0]['chapter_id']],root):raise ValueError('宋045爵序／父子承嗣或戶數資格不符')
+    for e in life_events:
+        if noble_death_applies(e)and not noble_death_valid(e,root):raise ValueError('宋045繼承人卒主體不符')
+    for e in person_events:
+        if noble_event_applies(e)and not noble_event_valid(e,chapters[e['evidence'][0]['chapter_id']],root):raise ValueError('宋045國除來源爵鏈不符')
     selected_life_dates = selected_dates(life_events, date_decisions)
     kinship_cases = [case for chapter in chapters.values() for case in chapter['annotation'].get('kinship_interpretation_cases', []) if ids.intersection((case['subject_person_id'], case['object_person_id']))]
     unresolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('unresolved_identity_cases', []) if ids.intersection(case['candidate_person_ids'])]
@@ -482,6 +496,9 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             ps={p['id']:(c['id'],p)for c in chapters.values()for p in c['paragraphs']}
             if not wyd045_relation_valid(relation,ps,chapters,root):raise ValueError('宋045親屬原文/方向/角色或未知資格不符')
     title_proposals = [proposal for chapter in chapters.values() for proposal in chapter['annotation'].get('title_proposals', []) if proposal['person_id'] in ids]
+    # fixed-wyd045-unassumed-consumer
+    for q in title_proposals:
+        if noble_proposal_applies(q)and not noble_proposal_valid(q,chapters[q['evidence'][0]['chapter_id']],root):raise ValueError('宋045左光祿徵不就主體或結果不符')
     resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]
     unresolved_titles = [dict(a, chapter_id=ch['id'], source_id=ch['source_id']) for ch in chapters.values() for a in ch.get('annotation', {}).get('unresolved_title_attestations', []) if ids.intersection(a['candidate_person_ids'])]

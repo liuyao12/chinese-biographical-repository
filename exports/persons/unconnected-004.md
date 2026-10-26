@@ -6,6 +6,9 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `xs7_jo2_pjd` | 燕文侯 | [《史記・蘇秦列傳》][138] | [JSON](xs7_jo2_pjd.json) |
+| `xs8_f3t_113` | 呼于屠王（未名） | [《史記・衛將軍驃騎列傳》][180] | [JSON](xs8_f3t_113.json) |
+| `xse_vcr_aju` | 姚萇 | [《晉書・桓彝》][44] | [JSON](xse_vcr_aju.json) |
 | `xsl_5ma_w95` | 韓太子蒼 | [《史記・秦本紀》][92] | [JSON](xsl_5ma_w95.json) |
 | `xsm_2m5_ptl` | 壽燭 | [《史記・穰侯列傳》][141] | [JSON](xsm_2m5_ptl.json) |
 | `xss_xz7_oym` | 隨但（匈奴列傳第60段） | [《史記・匈奴列傳》][179] | [JSON](xss_xz7_oym.json) |

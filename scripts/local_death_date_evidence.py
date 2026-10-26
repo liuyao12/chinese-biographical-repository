@@ -26,6 +26,11 @@ def local_death_date_evidence_valid(date, event, chapters, parse_number, root=No
         except ImportError:
             from cross_chapter_annal_date import cross_chapter_annal_date_valid
         return cross_chapter_annal_date_valid(date, event, 'life_event', chapters)
+    # fixed-wyd045-life-date
+    if isinstance(date,dict)and date.get('event_evidence_binding',{}).get('kind')=='fixed_wyd045_death_local_year':
+        try:from scripts.wyd_song045_lifecycle import date_valid
+        except ImportError:from wyd_song045_lifecycle import date_valid
+        return date_valid(date,event,chapters,root)
     try:
         from scripts.relative_regnal_year import relative_regnal_year_valid
         from scripts.relative_biography_scope import valid as biography_scope_valid

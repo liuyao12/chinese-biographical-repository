@@ -8,7 +8,7 @@ except ImportError:
 CID='c-songshu-051-wyd1739-zongshi'
 SID='s-songshu-051-wyd1739-zongshi'
 BASE='source-evidence/song051-wyd1739-zongshi/'
-PINS={'image-column-locations.json': '7ad531c3368985f2f2770619d3d5f250a01a3bc154e11f9addd1eefd7b44f0ee', 'acquisition-provenance.json': '9659974cb11596965ae74c7853e915056ee40e0a65c64c061ad9856eb5861cdb', 'glyph-review-qualification.json': '624b20b2e4b6c6c30b90ba1ca5be839ca6f95924034d392c79b5019866f6adef', 'transcription-projection.json': '7f987f1852f77ce51ef56db77f83499700b2c487c070340d460265da3edb580b', 'transcription-witness-contract.json': 'c024bfa51f8be034714d8fba6eff94dcb233bd3d030a0074323558390fe37dfd', 'transcription-columns.txt': '8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3'}
+PINS={'image-column-locations.json': '8a92dba3533b0c7c618fc698d19d21e722aced925969276d874aa18731de4b68', 'acquisition-provenance.json': 'ae78710bee703680e3a49d15fffe5f4ea6f2b4c944fcf7a633c5b368b5592a59', 'glyph-review-qualification.json': '624b20b2e4b6c6c30b90ba1ca5be839ca6f95924034d392c79b5019866f6adef', 'transcription-projection.json': 'a465733697bf6dbef937e76c9e9a2dcc55fb567a90feec8ba4a8f0e559669c83', 'transcription-witness-contract.json': '399bef4d5fbc86e81a9273e22f355fc2b062f78101a050e4ac19a840bc8f0835', 'transcription-columns.txt': '6a1ea58d5207fcd15d7cbc5a71a17082681930a039904ce789c4debbf7a29d9f', 'two-glyph-correction.json': '899feecbd32f57327f1c9c48437c7d48b556f6864ca085435d492175b4824e96'}
 def need(ok,msg):
  if not ok:raise ValueError('武英殿宋051轉錄：'+msg)
 def fixed(root,name):
@@ -24,6 +24,7 @@ def validate_source(chapter,root):
  raw=fixed(root,'transcription-columns.txt');sha=hashlib.sha256(raw).hexdigest();lines=raw.decode().splitlines()
  loc=json.loads(fixed(root,'image-column-locations.json'));proj=json.loads(fixed(root,'transcription-projection.json'))
  fixed(root,'glyph-review-qualification.json');fixed(root,'acquisition-provenance.json')
+ fixed(root,'two-glyph-correction.json')
  need(loc['raw_sha256']==proj['raw_sha256']==sha,'raw版本不符')
  coords=loc['column_coordinates'];need(len(coords)==len(lines)==c['raw_lines'],'原列遺漏')
  need([x['raw_line']for x in coords]==list(range(1,len(lines)+1)),'列序不符')

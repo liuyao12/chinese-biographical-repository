@@ -920,7 +920,7 @@
 | `4bb_se5_6zs` | 季孫引古未定 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](4bb_se5_6zs.json) |
 | `4bx_elr_66i` | 子反（宋圍城記事） | [《史記・宋微子世家》][107] | [JSON](4bx_elr_66i.json) |
 | `4bx_x9i_210` | 叔瞻（鄭臣） | [《史記・鄭世家》][111] | [JSON](4bx_x9i_210.json) |
-| `4c1_84a_183` | 羊玄保 | [《宋書・王華 王曇首 殷景仁 沈演之》][221] | [JSON](4c1_84a_183.json) |
+| `4c1_84a_183` | 羊玄保 | [《宋書・王華 王曇首 殷景仁 沈演之》][221]、[《宋書・王華 王曇首 殷景仁 沈演之》][222] | [JSON](4c1_84a_183.json) |
 | `4c2_19b_bf4` | 沈充 | [《晉書・庾亮》][43] | [JSON](4c2_19b_bf4.json) |
 | `4c6_984_9ed` | 乂（長沙王） | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][36] | [JSON](4c6_984_9ed.json) |
 | `4ck_c0z_a0t` | 五羖 | [《史記・孔子世家》][116] | [JSON](4ck_c0z_a0t.json) |
@@ -1089,7 +1089,7 @@
 | `56r_ewo_1hp` | 毀隃 | [《史記・周本紀》][91]、[《史記・三代世表》][243] | [JSON](56r_ewo_1hp.json) |
 | `570_a78_5b2` | 具慶 | [《宋書・謝莊 王景文》][228] | [JSON](570_a78_5b2.json) |
 | `572_278_cba` | 孫仲謀（引古） | [《三國志・二荀賈傳》][79] | [JSON](572_278_cba.json) |
-| `573_89e_405` | 周赳 | [《宋書・趙倫之 王懿 張邵》][210] | [JSON](573_89e_405.json) |
+| `573_89e_405` | 周赳 | [《宋書・王華 王曇首 殷景仁 沈演之》][222] | [JSON](573_89e_405.json) |
 | `573_c2d_68f` | 何顒 | [《三國志・二荀賈傳》][79] | [JSON](573_c2d_68f.json) |
 | `579_495_546` | 安頡 | [《魏書・崔浩》][232]、[《魏書・刁雍 王慧龍 韓延之 袁式》][233] | [JSON](579_495_546.json) |
 | `57a_8f8_a32` | 薛瑩 | [《晉書・王渾 王濬 唐彬》][31] | [JSON](57a_8f8_a32.json) |
@@ -1661,6 +1661,7 @@
 | `7vi_sab_7i7` | 呉太子（越世家黃池留守未名者） | [《史記・越王勾踐世家》][110] | [JSON](7vi_sab_7i7.json) |
 | `7vk_c99_qcj` | 呂勝 | [《史記・項羽本紀》][94] | [JSON](7vk_c99_qcj.json) |
 | `7vn_izu_nhv` | 韓武子（楚篇三晉記事） | [《史記・楚世家》][109] | [JSON](7vn_izu_nhv.json) |
+| `7wa_nw8_xod` | 承蒼 | [《宋書・王華 王曇首 殷景仁 沈演之》][222] | [JSON](7wa_nw8_xod.json) |
 | `7wi_fa7_wbo` | 符昭 | [《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][211] | [JSON](7wi_fa7_wbo.json) |
 | `7wj_a59_ofd` | 趙君（京兆尹） | [《史記・張丞相列傳》][165] | [JSON](7wj_a59_ofd.json) |
 | `7wk_awi_f4x` | 單于未詳名 | [《史記・酈生陸賈列傳》][166] | [JSON](7wk_awi_f4x.json) |
@@ -2098,8 +2099,6 @@
 | `9wc_0x7_wcc` | 种松 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](9wc_0x7_wcc.json) |
 | `9wg_gdm_8pd` | 亭長未名 | [《史記・淮陰侯列傳》][161] | [JSON](9wg_gdm_8pd.json) |
 | `9x5_a0a_og5` | 王彬之 | [《晉書・陸曄 何充 褚翜 蔡謨 諸葛恢 殷浩》][52] | [JSON](9x5_a0a_og5.json) |
-| `9x9_12x_dhb` | 李延年 | [《史記・孝武本紀》][99] | [JSON](9x9_12x_dhb.json) |
-| `9xv_kho_tfy` | 張芝 | [《南齊書・王僧虔 張緒》][67] | [JSON](9xv_kho_tfy.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
@@ -2302,6 +2301,7 @@
 [219]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B760&oldid=1996694
 [220]: https://github.com/kanripo/KR2a0016/blob/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_062.txt
 [221]: https://zh.wikisource.org/w/index.php?title=宋書/卷63&oldid=2118589
+[222]: https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12245_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC147%E5%86%8A.pdf&oldid=991952839
 [223]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B764&oldid=1748217
 [224]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B766&oldid=2069104
 [225]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_067.txt

@@ -30,6 +30,16 @@ def resolve_roles(ch,root,contract=None):
  need(len(out)==len(set(out.values())),'不同來源角色不可無判讀合併');return out
 
 def source_only_projection(ch,root):
+ # fixed-wyd045-noble-proposal-projection
+ if isinstance(ch,dict)and isinstance(ch.get('annotation'),dict)and 'title_proposals'in ch['annotation']:
+  try:from scripts.wyd_song045_nobles import base_annotation as noble_annotation
+  except ImportError:from wyd_song045_nobles import base_annotation as noble_annotation
+  ch=copy.deepcopy(ch);ch['annotation']=noble_annotation(ch)
+ # fixed-wyd045-age-addition: strip only the exact validated finite age row.
+ if isinstance(ch,dict)and isinstance(ch.get('annotation'),dict)and 'age_assertions'in ch['annotation']:
+  try:from scripts.wyd_song045_lifecycle import base_annotation
+  except ImportError:from wyd_song045_lifecycle import base_annotation
+  ch=copy.deepcopy(ch);ch['annotation']=base_annotation(ch)
  need(isinstance(ch,dict),'章須物件');c=load_contract(root);need(ch.get('id')==CID,'章ID');a=ch.get('annotation');need(isinstance(a,dict)and isinstance(a.get(KEY),dict)and a.get(KEY)==LAYER and a[KEY].get('human_reviewed')is False,'人物層資格');base=copy.deepcopy(a);base.pop(KEY);expected_annotation={**c['base_annotation'],**c['ner_annotation_overrides']};need(base==expected_annotation,'其他annotation不可漂移');roles=resolve_roles(ch,root,c);need(len(ch['paragraphs'])==len(c['paragraphs']),'段數');out=copy.deepcopy(ch)
  for p,s in zip(ch['paragraphs'],c['paragraphs']):
   need(p['id']==s['id']and p.get('annotation_status')=='named_mentions_first_pass','段界或進度');expected=[]

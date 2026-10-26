@@ -6,6 +6,9 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `l23_2g0_02j` | 鍾離意 | [《三國志・桓二陳徐衞盧傳》][83] | [JSON](l23_2g0_02j.json) |
+| `l24_c0r_qj2` | 扈輒 | [《史記・趙世家》][112] | [JSON](l24_c0r_qj2.json) |
+| `l26_15v_yeo` | 裴方明 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](l26_15v_yeo.json) |
 | `l2m_bae_5ox` | 簡公引古未定 | [《史記・李斯列傳》][156] | [JSON](l2m_bae_5ox.json) |
 | `l2p_ktv_dyf` | 李權〔李勢從兄〕 | [《晉書・叛臣一》][59] | [JSON](l2p_ktv_dyf.json) |
 | `l2s_7p5_dlo` | 恩（謝韶子，晉書079原字） | [《晉書・謝尚 謝安》][53] | [JSON](l2s_7p5_dlo.json) |
@@ -2102,9 +2105,6 @@
 | `xra_0wq_395` | 蔡湛之〔南史弘微本傳〕 | [《南史・謝弘微》][72] | [JSON](xra_0wq_395.json) |
 | `xrb_rjt_eac` | 超〔冏子，淮陵王〕 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][35] | [JSON](xrb_rjt_eac.json) |
 | `xru_mbd_dle` | 齊王受虞卿未名 | [《史記・平原君虞卿列傳》][145] | [JSON](xru_mbd_dle.json) |
-| `xs7_jo2_pjd` | 燕文侯 | [《史記・蘇秦列傳》][138] | [JSON](xs7_jo2_pjd.json) |
-| `xs8_f3t_113` | 呼于屠王（未名） | [《史記・衛將軍驃騎列傳》][180] | [JSON](xs8_f3t_113.json) |
-| `xse_vcr_aju` | 姚萇 | [《晉書・桓彝》][44] | [JSON](xse_vcr_aju.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
