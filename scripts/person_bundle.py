@@ -457,6 +457,13 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             except ImportError:from wyd_song044_noble_year import valid as noble_year_valid
             if not noble_year_valid(date,holding,'start',chapters,root):
                 raise ValueError('跨來源同詔封年證據或人物資格漂移')
+    # Validate the two source-explicit WYD044 brother records before publication.
+    try:from .wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
+    except ImportError:from wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
+    for relation in relations:
+        if direct_brothers_applies(relation):
+            ps={p['id']:(ch['id'],p)for ch in chapters.values()for p in ch['paragraphs']}
+            if not direct_brothers_valid(relation,ps,chapters,root):raise ValueError('武英殿宋044明弟來源／方向或現役端點漂移')
     title_proposals = [proposal for chapter in chapters.values() for proposal in chapter['annotation'].get('title_proposals', []) if proposal['person_id'] in ids]
     resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]

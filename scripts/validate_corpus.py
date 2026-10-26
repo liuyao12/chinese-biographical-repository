@@ -1571,6 +1571,11 @@ def _validate_uncached(root=ROOT):
                 check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','father_in_law','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                # Exact two WYD044 younger-brother clauses, including their source-role reverse evidence.
+                try:from scripts.wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
+                except ImportError:from wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
+                if direct_brothers_applies(a):
+                    check(direct_brothers_valid(a,paragraphs,chapters,root), '武英殿宋044明弟須有固定完整原句、現役雙MID與反向引用，不補排行或父母')
                 if 'source_kinship_frame' in qualifiers or a['predicate'] == 'father_in_law':
                     try:
                         from scripts.received_quoted_family import valid as received_quoted_family_valid

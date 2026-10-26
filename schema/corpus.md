@@ -1183,3 +1183,9 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `normalized_date.rendered_collective_award_year_binding.kind: rendered_same_collective_award_explicit_peer_year` 是有界編輯首選，不能冒充本底本明文紀年。宋044武昌爵的端點可有 `date_expression: 永初元年`，但 `expression_scope: external_rendered_peer_biography_not_literal_in_wyd044` 明示原年詞來自比較本傅亮傳。`calendar: chinese_civil`、`precision: year`、`status: editorial_provisional`、人審false；CE420只是中國曆年度標號，不含月日。完整群授詔、傅亮同次建城縣公二千戶的永初元年明文、前後受禪初敘事及官方宋永初420–422完整表列均保存。比較資料是rendered閱讀、頁尾revision觀察、固定頁直取cache miss，沒有已取raw或書影資格；比較頁底本未知，不更換武英殿044底本。
 
 日期gate須傳實際root，逐一核外部payload SHA與全文單元SHA、同詔兩角色/兩爵/兩食邑/年詞的字位及取得scope，沿044既有謝晦與傅亮MID動態解現役PID。原本year校驗和literal歸屬規則不放寬；只有此已驗日期橋允許外源年詞，不虛建宋043 native章或MID。持有record須與本源明授完全一致，建平不入holding，未知終點不變，不借中領軍庚午任命日或死亡426年。bundle也依實際root驗外證後才輸出，完整比較引文與限制由一般紀年依據consumer顯示。
+
+## 武英殿宋044兩項明弟與相對年序
+
+`source_clause_binding.kind: wyd_song044_named_younger_brother` 僅綁兩條完整本傳原句：「晦弟黃門侍郎㬭」與「劉粹遣弟竟陵太守道濟」。`brother`由弟指兄，另有`relative_birth_order`明示兄的出生序小於弟，兩人絕對排行均null。完整段hash、原來源資格、固定人物MID及registry雙向alias/evidence須一致；既有宋056／宋053／宋047等身份種子由原有正式角色gate核現役canonical，不用永久PID白名單。合法全引用改號可過，單端改號、互換主客、借檀道濟、共移全文/字位均拒。
+
+此型不新增父母／婚配，不修改家族組裝、原文或NER。不以㬭為瞻弟的既有斷言替代本句晦與㬭的明示相對年序，也不把明弟推成明同父。新固定record ID即使刪binding仍須驗來源，不能藉刪資格繞過。無此兩新記錄時，既有其他親屬及bundle行為不變。
