@@ -178,6 +178,10 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                 except ImportError:from fixed_parallel_death_era_variant import valid as parallel_death_era_valid
                 valid = (bound_role == 'life_event' and isinstance(bound_record, dict)
                          and parallel_death_era_valid(date, bound_record, chapters or {}, root))
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_nanqi006_annal_year':
+                try:from scripts.nanqi006_royal_enfeoffments import normalized_valid as nanqi006_grant_date_valid
+                except ImportError:from nanqi006_royal_enfeoffments import normalized_valid as nanqi006_grant_date_valid
+                valid=nanqi006_grant_date_valid(date,bound_record,bound_role,chapters or {},root)
             if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_received_local_regnal_year':
                 try:from scripts.fixed_received_career import local_date_valid
                 except ImportError:from fixed_received_career import local_date_valid

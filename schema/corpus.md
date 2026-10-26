@@ -1191,3 +1191,6 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 
 <!-- fixed-nanqi006-jianwu1-nov -->
 《南齊書》006完整建武元年十一月採獨立固定日期單元投影，不擴張通用整行投影規則。`source_clause_binding.kind=fixed_regnal_royal_sons`、`rule=fixed_nanqi006_jianwu1_nov`僅允六個固定皇子角色與固定本紀主體父端，逐碼點原文／raw SHA／完整傳首主體資格／先前source MID與registry逆證同核。每條為有來源父斷言，不推排行、全子名單、生母或百官七十為個人報齡。新來源本地身份沿本源MID與逆證，不以opaque ownership key作不可變身份限制。
+
+<!-- nanqi006-six-royal-enfeoffments -->
+六皇子同日各爵沿既有 title_holding_assertion_set／royal_rank／grant／effective_period。source_career_role.kind=fixed_nanqi006_royal_enfeoffment只綁固定完整十一月本紀及逐人逐爵MID，不從順序推排行；六項共group_id但各自保實授起點。normalized_date.regnal_year_mapping.kind=fixed_nanqi006_annal_year只給中國曆CE494年精度；source_expression是本段原「庚辰」。source_date_parts另保明示十一月(month=11)、庚辰原干支、未知日序day=null與三處source anchors，composed_display明示為前文年首＋本段月首＋局部日詞的編輯組合，非連續原句，不能把干支換算成未證公曆日期。教育部齊建武494–498摘錄僅現代數值對照；原年首完整固定raw作同年語境，未知任終不補。

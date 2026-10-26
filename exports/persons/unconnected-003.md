@@ -1952,7 +1952,6 @@
 | `tb2_zhz_mol` | 鐘離眛 | [《史記・淮陰侯列傳》][185] | [JSON](tb2_zhz_mol.json) |
 | `tba_8dy_6gi` | 太史公 | [《史記・三王世家》][153] | [JSON](tba_8dy_6gi.json) |
 | `tbj_acl_sow` | 壯（汲鄭） | [《史記・太史公自序》][223] | [JSON](tbj_acl_sow.json) |
-| `tbn_5t5_xwp` | 謝綜 | [《南齊書・《南齊書》卷三十三王僧䖍完整本傳（編輯選錄題）》][81] | [JSON](tbn_5t5_xwp.json) |
 | `tbv_g3c_03d` | 唐眛 | [《史記・韓世家》][138] | [JSON](tbv_g3c_03d.json) |
 | `tby_8vk_ybz` | 獻善馬者未名 | [《史記・孟子荀卿列傳》][167] | [JSON](tby_8vk_ybz.json) |
 | `tc3_89x_102` | 梁冀 | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](tc3_89x_102.json) |
@@ -1994,6 +1993,8 @@
 | `tks_56f_4ir` | 于定國 | [《史記・張丞相列傳》][189] | [JSON](tks_56f_4ir.json) |
 | `tkv_k8m_7hc` | 郭太后 | [《三國志・曹真曹爽完整本傳及附敘》][95] | [JSON](tkv_k8m_7hc.json) |
 | `tl1_p6f_czj` | 趙謙 | [《後漢書・孝獻帝紀第九（開篇、中平六年及初平元年）》][14] | [JSON](tl1_p6f_czj.json) |
+| `tl8_t89_cgn` | 鄭鮮之 | [《宋書・《宋書》卷五十二謝景仁完整本傳及純、述附傳（編輯選錄題）》][234] | [JSON](tl8_t89_cgn.json) |
+| `tl9_dsb_r6q` | 白起 | [《史記・魏世家》][137] | [JSON](tl9_dsb_r6q.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

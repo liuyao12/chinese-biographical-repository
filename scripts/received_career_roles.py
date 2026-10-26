@@ -98,6 +98,11 @@ def _attached_holding(h,ch,root=None):
  return attached_valid(h,ch,root)
 
 def holding_valid(h,ch,root=None):
+ if not isinstance(h,dict)or not isinstance(h.get('source_career_role',{}),dict):return False
+ if h.get('source_career_role',{}).get('kind')=='fixed_nanqi006_royal_enfeoffment':
+  try:from scripts.nanqi006_royal_enfeoffments import valid as nanqi006_grant_valid
+  except ImportError:from nanqi006_royal_enfeoffments import valid as nanqi006_grant_valid
+  return nanqi006_grant_valid(h,ch,root)
  if h.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
   try:from scripts.fixed_witness_fact_slots import valid as witness_fact_valid
   except ImportError:from fixed_witness_fact_slots import valid as witness_fact_valid

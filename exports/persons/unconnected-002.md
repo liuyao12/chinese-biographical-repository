@@ -375,7 +375,6 @@
 | `afb_ahe_sqp` | 趙堯 | [《史記・張丞相列傳》][189] | [JSON](afb_ahe_sqp.json) |
 | `afc_k9r_hjr` | 衡父 | [《史記・秦本紀》][116] | [JSON](afc_k9r_hjr.json) |
 | `afe_vxj_iuk` | 中御府長信 | [《史記・扁鵲倉公列傳》][198] | [JSON](afe_vxj_iuk.json) |
-| `afp_p47_7v4` | 謝綜舅（未名） | [《南齊書・《南齊書》卷三十三王僧䖍完整本傳（編輯選錄題）》][81] | [JSON](afp_p47_7v4.json) |
 | `afy_rj9_84r` | 秦皇帝 | [《史記・齊悼惠王世家》][145] | [JSON](afy_rj9_84r.json) |
 | `agc_zmx_tap` | 鄦公 | [《史記・鄭世家》][135] | [JSON](agc_zmx_tap.json) |
 | `agn_6ch_sus` | 李勢 | [《晉書・桓溫完整本傳單元》][72] | [JSON](agn_6ch_sus.json) |
@@ -649,7 +648,7 @@
 | `bwx_d97_fb5` | 太康 | [《史記・夏本紀》][113] | [JSON](bwx_d97_fb5.json) |
 | `bx9_am2_k4h` | 欒書 | [《史記・趙世家》][136] | [JSON](bx9_am2_k4h.json) |
 | `bxd_xuo_1x0` | 劉柱 | [《三國志・《三國志》卷二十三清四庫考證（獨立附錄）》][106] | [JSON](bxd_xuo_1x0.json) |
-| `bxh_oop_5ic` | 范曄 | [《宋書・《宋書》卷五十三〈庾登之、沖遠及附弟炳之〉》][236] | [JSON](bxh_oop_5ic.json) |
+| `bxh_oop_5ic` | 范曄 | [《南齊書・《南齊書》卷三十三王僧䖍完整本傳（編輯選錄題）》][81]、[《宋書・《宋書》卷五十三〈庾登之、沖遠及附弟炳之〉》][236] | [JSON](bxh_oop_5ic.json) |
 | `bxr_8km_7zg` | 襄平侯通 | [《史記・孝文本紀》][121] | [JSON](bxr_8km_7zg.json) |
 | `bxs_hkv_8kv` | 周旨〔杜預牙門〕 | [《晉書・杜預傳》][28] | [JSON](bxs_hkv_8kv.json) |
 | `bxt_308_d5a` | 索邈 | [《晉書・桓彝及附桓氏家族完整單元》][55] | [JSON](bxt_308_d5a.json) |

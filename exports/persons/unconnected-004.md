@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tl8_t89_cgn` | 鄭鮮之 | [《宋書・《宋書》卷五十二謝景仁完整本傳及純、述附傳（編輯選錄題）》][234] | [JSON](tl8_t89_cgn.json) |
-| `tl9_dsb_r6q` | 白起 | [《史記・魏世家》][137] | [JSON](tl9_dsb_r6q.json) |
 | `tlk_hmr_kra` | 朱房 | [《史記・陳涉世家》][141] | [JSON](tlk_hmr_kra.json) |
 | `tlo_jrj_80q` | 壺叔（從亡賤臣） | [《史記・晉世家》][132] | [JSON](tlo_jrj_80q.json) |
 | `tlo_znj_7bn` | 裴肅之 | [《宋書・劉懷肅及附家族完整選錄單元》][233] | [JSON](tlo_znj_7bn.json) |
