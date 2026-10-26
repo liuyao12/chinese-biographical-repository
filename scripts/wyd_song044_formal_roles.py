@@ -19,7 +19,10 @@ def source_errors(ch,root):
   c=json.loads(raw);roles=resolve_existing(root,c);local=local_current(root,c)
   if len(roles)!=51 or len(local)!=45:raise ValueError('來源角色未全登記')
   roles.update(local)
-  if ch['annotation']!=c['required_annotation']or len(ch['paragraphs'])!=22:raise ValueError('分層或資格漂移')
+  try:from scripts.wyd_song044_age import base_annotation
+  except ImportError:from wyd_song044_age import base_annotation
+  annotation=base_annotation(ch)
+  if annotation!=c['required_annotation']or len(ch['paragraphs'])!=22:raise ValueError('分層或資格漂移')
   people={p['id']:p for p in json.loads((Path(root)/'registry/persons.json').read_bytes())['persons']}
   for p,s in zip(ch['paragraphs'],c['paragraphs']):
    if p['id']!=s['id']or p['mentions']!=materialize(s['mentions'],roles)or p['annotation_status']!=s['annotation_status']:raise ValueError('固定MID/角色/未定漂移')
