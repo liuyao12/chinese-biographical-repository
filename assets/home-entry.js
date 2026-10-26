@@ -6,6 +6,7 @@ async function open() {
   document.getElementById('home-library').hidden = !home;
   document.getElementById('workspace').hidden = home;
   document.querySelector('.context-bar').hidden = home;
+  if (home) import('./home-catalog.js').then(m => m.loadHomeCatalog()).catch(console.error);
   if (!home && !installed) {
     installed = true;
     await Promise.all([

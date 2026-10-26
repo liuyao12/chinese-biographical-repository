@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "21w_524_9g9",
   "canonical_person_id": "21w_524_9g9",
-  "label": "謝萬妻（未名，父王述）",
-  "identity_note": "源內匿名妻，原稱未載姓氏或名字；父王述、夫謝萬分別有原文主張，不推生母或子女。",
+  "label": "王氏（謝萬妻）",
+  "identity_note": "源內匿名妻，原稱未載姓氏或名字；父王述、夫謝萬分別有原文主張，不推生母或子女。 氏稱依原生姓名記錄name-xie-women-wan-wife-clan；本人名未載，父女及婚姻來源原值保留，不由夫姓或結構ID推姓。",
   "review": "ai_provisional",
   "names": [
     "妻"
@@ -806,12 +806,64 @@
     }
   ],
   "related_people": {
-    "21w_524_9g9": "謝萬妻（未名，父王述）",
+    "21w_524_9g9": "王氏（謝萬妻）",
     "a8f_ec8_e74_AAAA": "王述",
     "aa6_83c_juy_D": "謝萬"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-xie-women-wan-wife-clan",
+      "person_id": "21w_524_9g9",
+      "surname": "王",
+      "ming": null,
+      "additional_names": [],
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p002",
+      "person_mention_id": "c-jinshu-079-xielang-family:exp-xiewan-p002:m0067",
+      "quote": "弱冠，辟司徒掾，遷右西屬，不就。簡文帝作相，聞其名，召為撫軍從事中郎。萬著白綸巾，鶴氅裘，履版而前。既見，與帝共談移日。太原王述，萬之妻父也，為揚州刺史。萬嘗衣白綸巾，乘平肩輿，徑至聽事前，謂述曰：「人言君侯癡，君侯信自癡。」述曰：「非無此論，但晚合耳。」萬再遷豫州刺史、領淮南太守、監司豫冀並四州軍事、假節。王羲之與桓溫箋曰：「謝萬才流經通，處廊廟，參諷議，故是後來一器。而今屈其邁往之氣，以俯順荒餘，近是違才易務矣。」溫不從。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "clan_style": {
+        "kind": "paternal_clan_appellation",
+        "value": "王氏",
+        "source_term": "妻父",
+        "assertion_ids": [
+          "a-jinshu079-xiewan-facts-wife-father"
+        ],
+        "status": "editorial_provisional",
+        "rationale": "原文明父及父親同人完整姓名支持氏稱；本人名未載，不從夫姓、家系ID或label取姓，不推生母。",
+        "human_reviewed": false
+      },
+      "clan_style_basis": {
+        "kind": "fixed_explicit_father_and_literal_parent_name",
+        "case_id": "wan-wife",
+        "parent_full_name_source": {
+          "native_path": "corpus/jinshu/079.json",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "source_fingerprints": {
+            "revision_id": 2645985,
+            "response_sha256": "d163328c2cd16ad7f6eb3d805fb7f9dbd03f98297a3bfd1d9c51897d21fe1333",
+            "wikitext_sha256": "5fa1f639fa36f784fc45cc19fc9b185fa59a64dab7b01f9390d09942c4f071ca"
+          },
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p002",
+          "quote": "弱冠，辟司徒掾，遷右西屬，不就。簡文帝作相，聞其名，召為撫軍從事中郎。萬著白綸巾，鶴氅裘，履版而前。既見，與帝共談移日。太原王述，萬之妻父也，為揚州刺史。萬嘗衣白綸巾，乘平肩輿，徑至聽事前，謂述曰：「人言君侯癡，君侯信自癡。」述曰：「非無此論，但晚合耳。」萬再遷豫州刺史、領淮南太守、監司豫冀並四州軍事、假節。王羲之與桓溫箋曰：「謝萬才流經通，處廊廟，參諷議，故是後來一器。而今屈其邁往之氣，以俯順荒餘，近是違才易務矣。」溫不從。",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xiewan-p002:m0062",
+          "parent_person_id": "a8f_ec8_e74_AAAA",
+          "surface": "王述"
+        },
+        "father_assertion_id": "a-jinshu079-xiewan-facts-wife-father",
+        "local_father_mention_id": "c-jinshu-079-xielang-family:exp-xiewan-p002:m0062"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-079",
+      "source_id": "s-jinshu-079-xielang-family"
+    }
+  ],
   "person_ids": [
     "21w_524_9g9"
   ],

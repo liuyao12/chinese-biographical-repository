@@ -10,5 +10,9 @@ assert.deepEqual(principalOccurrences([]),[]);
 const occurrence={...row,work_id:'w-sanguozhi',work_title:'三國志',book_id:'b-010',chapter_id:'c-010',paragraph_id:'old-paragraph',paragraph_ids:['old-paragraph','new-paragraph'],title:'荀彧',quote:'荀彧字文若'};
 const p={id:'unit',label:'甲',names:[],titles:[],addresses:[],dates:[],relations:[],related_people:{},sources:[],occurrences:[occurrence,{...occurrence,chapter_id:'c-other',title:'同數來源'}]};
 const html=personCard(p,true);
-assert.match(html,/143 處獨立位置/);assert.match(html,/145 個原始錨點/);assert.match(html,/同數來源/);assert.match(html,/不代表來源權威度/);assert.match(html,/passage=old-paragraph/);
+assert.match(html,/143 處獨立位置/);assert.match(html,/145 個原始錨點/);assert.match(html,/不代表來源權威度/);assert.match(html,/passage=old-paragraph/);
+const principal=html.split('class="person-principal-source"')[1].split('</p>')[0];
+assert.equal((principal.match(/<a href=/g)||[]).length,2);
+assert.match(principal,/chapter=c-010/);assert.match(principal,/chapter=c-other/);
+assert.doesNotMatch(html,/同數來源/); // Editorial selection labels are not formal chapter titles.
 console.log('profile/card count tests PASS: raw, independent, ties, legacy, source backlink');

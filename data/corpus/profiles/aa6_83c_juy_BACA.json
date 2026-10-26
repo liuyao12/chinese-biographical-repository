@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "aa6_83c_juy_BACA",
   "canonical_person_id": "aa6_83c_juy_BACA",
-  "label": "謝混女（殷叡妻，未名）",
-  "identity_note": "本傳數位見證來源人物；標籤使用編輯通行稱呼，原錨點字形不變。匿名者不補姓名、生母或未知生卒。司馬文宣不拆姓/官與名。",
+  "label": "謝氏（殷叡妻）",
+  "identity_note": "本傳數位見證來源人物；標籤使用編輯通行稱呼，原錨點字形不變。匿名者不補姓名、生母或未知生卒。司馬文宣不拆姓/官與名。 氏稱依原生姓名記錄name-xie-women-hun-daughter-clan；本人名未載，父女及婚姻來源原值保留，不由夫姓或結構ID推姓。",
   "review": "ai_provisional",
   "names": [
     "女",
@@ -1041,11 +1041,63 @@
   "related_people": {
     "43f_92d_790": "殷叡",
     "aa6_83c_juy_BAC": "謝混",
-    "aa6_83c_juy_BACA": "謝混女（殷叡妻，未名）",
+    "aa6_83c_juy_BACA": "謝氏（殷叡妻）",
     "b2f_9c4_339": "殷叡妻妹（未名）"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-xie-women-hun-daughter-clan",
+      "person_id": "aa6_83c_juy_BACA",
+      "surname": "謝",
+      "ming": null,
+      "additional_names": [],
+      "chapter_id": "c-songshu-058-xiehongwei",
+      "paragraph_id": "c-songshu-058-xiehongwei:p009",
+      "person_mention_id": "c-songshu-058-xiehongwei:p009:m0072",
+      "quote": "九年東鄉君薨資財鉅萬園宅十餘所又會稽吳興琅邪諸處太傅司空琰時事業奴僮猶有數百人公私咸謂室内資財宜歸二女田宅僮僕應屬𢎞微𢎞微一無所取自以私禄營𦵏混女夫殷叡素好樗蒱聞𢎞微不取財物乃濫奪其妻妹及伯母兩姑之分以還戲責内人皆化𢎞微之譲一無所爭𢎞微舅子領軍将軍劉湛性不堪其非謂𢎞微曰天下事宜有裁𠂻卿此不治何以治官𢎞微笑而不荅或有譏之曰謝氏累世財産充殷君一朝戲責理之不允莫此為大卿親而不言譬棄物江海以為亷耳設使立淸名而令家内不足亦吾所不取也𢎞微曰親戚爭財為鄙之甚今内人尚能無言豈可導之使爭今分多共少不至有乏身死之後豈復見闗東鄉君葬混墓開𢎞微牽疾臨赴病遂甚十年卒時年四十二時有一長鬼寄司馬文宣家云受遣殺𢎞微𢎞微疾增劇輙豫告文宣𢎞微既死與文宣分别而去𢎞微臨終語左右曰有二封書須劉領軍至可於前燒之愼勿開也書皆是太祖手勑上甚痛惜之使二衛千人營畢葬事追贈太常子荘别有傳",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "clan_style": {
+        "kind": "paternal_clan_appellation",
+        "value": "謝氏",
+        "source_term": "混女夫殷叡",
+        "assertion_ids": [
+          "a-song058-hw-007"
+        ],
+        "status": "editorial_provisional",
+        "rationale": "原文明父及父親同人完整姓名支持氏稱；本人名未載，不從夫姓、家系ID或label取姓，不推生母。",
+        "human_reviewed": false
+      },
+      "clan_style_basis": {
+        "kind": "fixed_explicit_father_and_literal_parent_name",
+        "case_id": "hun-daughter",
+        "parent_full_name_source": {
+          "native_path": "corpus/songshu/042.json",
+          "chapter_id": "c-songshu-042-wanghong",
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-042",
+          "source_id": "s-songshu-042-wanghong",
+          "source_fingerprints": {
+            "revision_id": 1478172,
+            "response_sha256": "f3b86f860fc26a00310d8b6ae9e6dd08ce281800ed5f33007943e87d08580cf7",
+            "wikitext_sha256": "c3e4fb2a07e04deb2d70c1406dfd1b67901db932b4126278c715e3c9b07fb440"
+          },
+          "paragraph_id": "c-songshu-042-wanghong:line047",
+          "quote": "弘少好學，以清恬知名，與尚書僕射謝混善。弱冠，為會稽王司馬道子驃騎參軍主簿。時農務頓息，末役繁興，弘以為宜建屯田，陳之曰：「近面所諮立屯田事，已具簡聖懷。南畝事興，時不可失，宜早督田畯，以要歲功。而府資役單刻，控引無所，雖復厲以重勸，肅以嚴威，適足令囹圄充積，而無救於事實也。伏見南局諸冶，募吏數百，雖資以廩贍，收入甚微。愚謂若回以配農，必功利百倍矣。然軍器所須，不可都廢，今欲留銅官大冶及都邑小冶各一所，重其功課，一准揚州，州之求取，亦當無乏，餘者罷之，以充東作之要。又欲二局田曹，各立典軍募吏，依冶募比例，并聽取山湖人，此皆無損於私，有益於公者也。其中亦應疇量，分判番假，及給廩多少，自可一以委之本曹。親局所統，必當練悉，且近東曹板水曹參軍納之領此任，其人頗有幹能，自足了其事耳。頃年以來，斯務弛廢，田蕪廩虛，實亦由此。弘過蒙飾擢，志輸短効，豈可相與寢默，有懷弗聞邪！至於當否，尊自當裁以遠鑒。若所啟謬允者，伏願便以時施行，庶歲有務農之勤，倉有盈廩之實，禮節之興，可以垂拱待也。」道子欲以為黃門侍郎，珣以其年少固辭。",
+          "person_mention_id": "c-songshu-042-wanghong:line047:m0016",
+          "parent_person_id": "aa6_83c_juy_BAC",
+          "surface": "謝混"
+        },
+        "father_assertion_id": "a-song058-hw-007",
+        "local_father_mention_id": "c-songshu-058-xiehongwei:p009:m0071"
+      },
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-058",
+      "source_id": "s-songshu-058-xiehongwei"
+    }
+  ],
   "person_ids": [
     "aa6_83c_juy_BACA"
   ],

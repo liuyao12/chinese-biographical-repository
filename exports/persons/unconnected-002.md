@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `956_c0f_28b` | 應瑒 | [《三國志・《三國志》卷十九楊脩完整附傳裴注（編輯選錄題）》][82] | [JSON](956_c0f_28b.json) |
 | `959_qw8_f4y` | 郭縱（匈奴列傳第52段） | [《史記・匈奴列傳》][179] | [JSON](959_qw8_f4y.json) |
 | `95b_56f_0de` | 陳代 | [《晉書・王渾、王濟完整敘事單元》][31] | [JSON](95b_56f_0de.json) |
 | `95d_c34_dd3` | 王鴻 | [《宋書・王華、王曇首完整傳主單元》][217] | [JSON](95d_c34_dd3.json) |
@@ -1932,6 +1931,8 @@
 | `ix2_thv_ltx` | 遼東太守 | [《史記・朝鮮列傳》][184] | [JSON](ix2_thv_ltx.json) |
 | `ixa_izg_wta` | 嬰（議者） | [《史記・淮南衡山列傳》][187] | [JSON](ixa_izg_wta.json) |
 | `ixq_92p_8b8` | 留（陳君） | [《史記・陳杞世家》][105] | [JSON](ixq_92p_8b8.json) |
+| `iy8_wgd_wnk` | 湯 | [《史記・蘇秦列傳》][138] | [JSON](iy8_wgd_wnk.json) |
+| `iyk_qvv_07j` | 樂叔 | [《史記・樂毅列傳》][149] | [JSON](iyk_qvv_07j.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
