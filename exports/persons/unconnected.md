@@ -209,7 +209,6 @@
 | `0xe_mxp_vls` | 顏何 | [《史記・仲尼弟子列傳》][136] | [JSON](0xe_mxp_vls.json) |
 | `0xm_s1t_gt4` | 齊湣王 | [《史記・魏世家》][113] | [JSON](0xm_s1t_gt4.json) |
 | `0xp_j8o_cl2` | 閻奉 | [《史記・酷吏列傳》][191] | [JSON](0xp_j8o_cl2.json) |
-| `0xr_z2z_lne` | 伏羲 | [《史記・太史公自序》][199] | [JSON](0xr_z2z_lne.json) |
 | `0xx_ozc_454` | 趙高 | [《史記・李斯列傳》][156] | [JSON](0xx_ozc_454.json) |
 | `0yh_g69_8b8` | 堯引古傳說 | [《史記・李斯列傳》][156] | [JSON](0yh_g69_8b8.json) |
 | `0yn_ay5_kio` | 張咨 | [《後漢書・孝獻帝紀》][14] | [JSON](0yn_ay5_kio.json) |
@@ -2103,6 +2102,7 @@
 | `a0f_cc7_f65` | 石堪 | [《晉書・王沈 荀顗 荀勖 馮紞》][30] | [JSON](a0f_cc7_f65.json) |
 | `a0l_8nr_2to` | 齊湣王相（議歸楚太子未名者） | [《史記・楚世家》][109] | [JSON](a0l_8nr_2to.json) |
 | `a0o_gfd_aj2` | 田單 | [《史記・太史公自序》][199] | [JSON](a0o_gfd_aj2.json) |
+| `a16_cc7_d03` | 員（馮紞父） | [《晉書・王沈 荀顗 荀勖 馮紞》][30] | [JSON](a16_cc7_d03.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
