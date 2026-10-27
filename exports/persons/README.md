@@ -2844,11 +2844,11 @@
 
 </details>
 
-<details><summary><code>pme_eis_xqi</code> 司馬錯（太史公自序候選）（7 名）</summary>
+<details><summary><code>pme_eis_xqi</code> 司馬錯（7 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 司馬錯 | [《史記・太史公自序》][199] | [JSON](pme_eis_xqi.json) |
+| `根` | 司馬錯 | [《史記・秦本紀》][92] | [JSON](pme_eis_xqi.json) |
 | `*A` | 司馬靳 | [《史記・太史公自序》][199] | [JSON](pme_eis_xqi_%2AA.json) |
 | `*A*A` | 司馬昌 | [《史記・太史公自序》][199] | [JSON](pme_eis_xqi_%2AA%2AA.json) |
 | `*A*AA` | 司馬無澤 | [《史記・太史公自序》][199] | [JSON](pme_eis_xqi_%2AA%2AAA.json) |
