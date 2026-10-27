@@ -443,6 +443,41 @@
       "chapter_id": "c-shiji-087-lisi",
       "source_id": "s-shiji-087-lisi",
       "work_title": "史記"
+    },
+    {
+      "number": 130,
+      "category": "liezhuan",
+      "title": "太史公自序第七十",
+      "paragraph_id": "c-shiji-130-taishigong:p057",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "韓厥陰德，趙武攸興。紹絕立廢，晉人宗之。昭侯顯列，申子庸之。疑非不信，秦人襲之。嘉厥輔晉匡周天子之賦，作韓世家第十五。",
+      "paragraph_ids": [
+        "c-shiji-130-taishigong:p057"
+      ],
+      "mention_ids": [
+        "c-shiji-130-taishigong:m057-0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-130-taishigong:m057-0025": "c-shiji-130-taishigong:p057"
+      },
+      "mention_id": "c-shiji-130-taishigong:m057-0025",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-130-taishigong:m057-0025",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m057-0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "chapter_id": "c-shiji-130-taishigong",
+      "source_id": "s-shiji130-taishigong",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [
@@ -1029,6 +1064,30 @@
           "editorial_readings": [],
           "extraction_note": "固定HTML與取得時版本一致，只去外緣空白及空段；保留dd上書區塊，普通異體不擅校。",
           "note": "全38個正文區塊與HTML篇界已核讀，未核底本影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-130-taishigong",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "source_id": "s-shiji130-taishigong",
+      "source": {
+        "title": "史記／卷130",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷130",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+        "revision_id": 2609362,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文143段，全部篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
         }
       }
     },

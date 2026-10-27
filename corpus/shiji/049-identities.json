@@ -720,7 +720,7 @@
     },
     {
       "id": "d-shiji049-027",
-      "person_id": "6c6_lvq_rd4",
+      "person_id": "bs4_1ga_74d",
       "surfaces": [
         "大任"
       ],
@@ -2605,6 +2605,64 @@
         }
       ],
       "rationale": "八篇均以同一傳本署稱褚先生發言；七篇有為郎／為侍郎、讀太史公傳、採集補綴的自述互合。陳涉附論亦沿用同一傳本署稱，不把不同篇章當不同歷史人物。原書作者歸屬與實際成文層次的爭議另記，不藉此重建八個分身。 同一傳本作者身份之辨識，不宣稱每篇每句均已證明為褚少孫親筆；不將博士受業改讀成博士任官，不由為郎十餘年推定任官起訖。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji130-remaining11-006",
+      "person_id": "bs4_1ga_74d",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-049-waiqi",
+        "c-shiji-004-zhou"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "source_context_confidence": "high_contextual",
+      "surfaces": [
+        "大任"
+      ],
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-049-waiqi:m001-0071"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p001",
+          "quote": "自古受命帝王及繼體守文之君，非獨內德茂也，蓋亦有外戚之助焉。夏之興也以涂山，而桀之放也以末喜。殷之興也以有娀，紂之殺也嬖妲己。周之興也以姜原及大任，而幽王之禽也淫於褒姒。故易基乾坤，詩始關雎，書美釐降，春秋譏不親迎。夫婦之際，人道之大倫也。禮之用，唯婚姻為兢兢。夫樂調而四時和，陰陽之變，萬物之統也。可不慎與？人能弘道，無如命何。甚哉，妃匹之愛，君不能得之於臣，父不能得之於子，況卑下乎！既驩合矣，或不能成子姓；能成子姓矣，或不能要其終：豈非命也哉？孔子罕稱命，蓋難言之也。非通幽明之變，惡能識乎性命哉？"
+        },
+        {
+          "chapter_id": "c-shiji-004-zhou",
+          "paragraph_id": "c-shiji-004-zhou:p005",
+          "quote": "古公有長子曰太伯，次曰虞仲。太姜生少子季歷，季歷娶太任，皆賢婦人，生昌，有聖瑞。古公曰：「我世當有興者，其在昌乎？」長子太伯、虞仲知古公欲立季歷以傳昌，乃二人亡如荊蠻，文身斷髪，以讓季歷。"
+        }
+      ],
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-049-waiqi:m001-0071"
+          ],
+          "metadata": {
+            "label": "大任（外戚世家候選）",
+            "status": "active",
+            "historicity": "legendary_tradition"
+          },
+          "original_registry_record_sha256": "5a3de373a90604b0d97149d13993c55dc77234dcd2f8ec9615d3c50001d78f57",
+          "qualification": "合併前來源限定人物label/status/historicity逐值保留；非對現役人物資格的改寫。"
+        }
+      ],
+      "identity_scope_qualifications": {
+        "source_specific_review": "049p001周之興姜原/大任與004太任同指可採；原historicity=legendary_tradition與130來源historical_tradition應逐記錄完整保，keep原historical_tradition不被靜改，也不把失去ID之來源資格刪掉。",
+        "new_event_kinship_date_assertions": false,
+        "quote_attribution_verified": null,
+        "confidence": "high_contextual",
+        "source_historicity_not_overwritten": true,
+        "ten_children_birth_assertions_added": false
+      },
+      "rationale": "049p001周之興姜原/大任與004太任同指可採；原historicity=legendary_tradition與130來源historical_tradition應逐記錄完整保，keep原historical_tradition不被靜改，也不把失去ID之來源資格刪掉。 僅辨同一來源人物，保原字、篇題引用、人名錨及頻次；不由此新增親屬或紀年。",
       "human_reviewed": false,
       "model": null
     }

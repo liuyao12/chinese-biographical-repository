@@ -1247,7 +1247,7 @@
     },
     {
       "id": "d-shiji067-030",
-      "person_id": "4fa_1v4_jmc",
+      "person_id": "8pi_259_b4u",
       "surfaces": [
         "南子",
         "夫人"
@@ -3651,6 +3651,68 @@
         }
       ],
       "rationale": "孔子所嚴事按國別列於鄭子產，與後文冉季字子產分屬兩個人物。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji130-remaining11-008",
+      "person_id": "8pi_259_b4u",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-067-disciples",
+        "c-shiji-047-kong"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "source_context_confidence": "high_contextual",
+      "surfaces": [
+        "南子",
+        "夫人"
+      ],
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-067-disciples:m029-0009",
+          "c-shiji-067-disciples:m029-0020",
+          "c-shiji-067-disciples:m029-0033"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-067-disciples",
+          "paragraph_id": "c-shiji-067-disciples:p029",
+          "quote": "初，衞靈公有寵姬曰南子。靈公太子蕢聵得過南子，懼誅出奔。及靈公卒而夫人欲立公子郢。郢不肯，曰：「亡人太子之子輒在。」於是衞立輒爲君，是爲出公。出公立十二年，其父蕢聵居外，不得入。子路爲衞大夫孔悝之邑宰。蕢聵乃與孔悝作亂，謀入孔悝家，遂與其徒襲攻出公。出公奔魯，而蕢聵入立，是爲莊公。方孔悝作亂，子路在外，聞之而馳往。遇子羔出衞城門，謂子路曰：「出公去矣，而門已閉，子可還矣，毋空受其禍。」子路曰：「食其食者不避其難。」子羔卒去。有使者入城，城門開，子路隨而入。造蕢聵，蕢聵與孔悝登臺。子路曰：「君焉用孔悝？請得而殺之。」蕢聵弗聽。於是子路欲燔臺，蕢聵懼，乃下石乞、壺黶攻子路，擊斷子路之纓。子路曰：「君子死而冠不免。」遂結纓而死。"
+        },
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p023",
+          "quote": "去即過蒲。月餘，反乎衞，主蘧伯玉家。靈公夫人有南子者，使人謂孔子曰：「四方之君子不辱欲與寡君為兄弟者，必見寡小君。寡小君願見。」孔子辭謝，不得已而見之。夫人在絺帷中。孔子入門，北面稽首。夫人自帷中再拜，環珮玉聲璆然。孔子曰：「吾鄉為弗見，見之禮答焉。」子路不說。孔子矢之曰：「予所不者，天厭之！天厭之！」居衞月餘，靈公與夫人同車，宦者雍渠參乘，出，使孔子為次乘，招搖市過之。孔子曰：「吾未見好德如好色者也。」於是醜之，去衞，過曹。是歲，魯定公卒。"
+        }
+      ],
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-067-disciples:m029-0009",
+            "c-shiji-067-disciples:m029-0020",
+            "c-shiji-067-disciples:m029-0033"
+          ],
+          "metadata": {
+            "label": "南子（弟子列傳候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "4f97beac28f9e1ef82159add41432830b505fedbbed9f128cc591bdf05cbc4a6",
+          "qualification": "合併前來源限定人物label/status/historicity逐值保留；非對現役人物資格的改寫。"
+        }
+      ],
+      "identity_scope_qualifications": {
+        "source_specific_review": "067p029寵姬南子與047p023夫人南子同一衛靈公；保兩篇各事與原字蕢/蒯，不把靈公任意夫人泛稱全庫合併。",
+        "new_event_kinship_date_assertions": false,
+        "quote_attribution_verified": null,
+        "confidence": "high_contextual",
+        "source_historicity_not_overwritten": true
+      },
+      "rationale": "067p029寵姬南子與047p023夫人南子同一衛靈公；保兩篇各事與原字蕢/蒯，不把靈公任意夫人泛稱全庫合併。 僅辨同一來源人物，保原字、篇題引用、人名錨及頻次；不由此新增親屬或紀年。",
       "human_reviewed": false,
       "model": null
     }
