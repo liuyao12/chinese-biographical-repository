@@ -79,6 +79,10 @@ def validate_clan_style(name, paragraph=None, relations=()):
                  and any(m.get('kind') == 'person' and m.get('person_id') == selected[0].get('object_person_id')
                          and m.get('surface', '').startswith(name['surname'])
                          and style['source_term'] == '妻弟' + m.get('surface', '') for m in paragraph.get('mentions', [])))
+    elif valid and style['kind'] == 'bound_wyd_wife_clan_appellation':
+        try:from .wyd_song044_names import clan_valid
+        except ImportError:from wyd_song044_names import clan_valid
+        valid = clan_valid(name, paragraph, relations)
     elif valid and style['kind'] == 'bound_named_sister_clan_appellation':
         try:from .received_family_names import clan_valid
         except ImportError:from received_family_names import clan_valid
@@ -382,7 +386,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
                 ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship') else relations), root=root)
+                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship') else relations), root=root)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:
@@ -445,6 +449,14 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             if errors:
                 raise ValueError('；'.join(errors))
     source_reading_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('source_reading_cases', []) if case['person_id'] in ids]
+    # External rendered references are qualified date evidence, never invented native paragraphs.
+    for holding in titles:
+        date=holding.get('effective_period',{}).get('start',{}).get('normalized_date',{})
+        if 'rendered_collective_award_year_binding' in date:
+            try:from .wyd_song044_noble_year import valid as noble_year_valid
+            except ImportError:from wyd_song044_noble_year import valid as noble_year_valid
+            if not noble_year_valid(date,holding,'start',chapters,root):
+                raise ValueError('跨來源同詔封年證據或人物資格漂移')
     title_proposals = [proposal for chapter in chapters.values() for proposal in chapter['annotation'].get('title_proposals', []) if proposal['person_id'] in ids]
     resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]

@@ -1,0 +1,70 @@
+{
+  "record_type": "source_life_age_reading_review",
+  "chapter_id": "c-songshu-044-wyd1739-xiehui",
+  "source_id": "s-songshu-044-wyd1739-xiehui",
+  "source_revision": "cbr-ai-transcription-sha256:8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
+  "human_reviewed": false,
+  "model": null,
+  "original_text_positions_layers_and_source_unchanged": true,
+  "death_records": 12,
+  "age_records": 3,
+  "age_readings": [
+    {
+      "role": "hui",
+      "source_term": "晦答曰三十三",
+      "value": 33,
+      "occasion": "during_life_named_answer",
+      "birth_year_inferred": false
+    },
+    {
+      "role": "xunjun",
+      "source_term": "年二十七",
+      "value": 27,
+      "occasion": "during_life_recollection_by_xiedan",
+      "birth_year_inferred": false
+    },
+    {
+      "role": "hui",
+      "source_term": "年三十七",
+      "value": 37,
+      "occasion": "at_death",
+      "life_event_id": "le-song044-wyd-hui",
+      "birth_year_inferred": false
+    }
+  ],
+  "source_internal_conflict": {
+    "paragraph_id": "c-songshu-044-wyd1739-xiehui:p016",
+    "earlier_clause": "庾登之孔延秀周超費愔竇應期蔣虔嚴千斯等並伏誅",
+    "later_clause": "庾登之殿道鸞何承天並皆原免",
+    "adopted_death": false,
+    "decision": "同段原免及既收本傳較晚死亡記載支持不將本次伏誅作確定死亡，原文矛盾照存。",
+    "existing_parallel_record": {
+      "path": "corpus/songshu/053-yu-dengzhi-life-events.json",
+      "event_id": "le-yu2-s49-4qr_wrk_3vd_DDBA",
+      "source_id": "s-songshu-053-yu-dengzhi",
+      "date_expression": "二十年",
+      "reading_scope": "本次核讀庫內已收引句，未重新取得線上完整版本；非武英殿同版證據。",
+      "quote": "元嘉五年，起為衡陽王義季征虜長史。義季年少，未親政，眾事一以委之。尋加南東海太守。入為司徒右長史，尚書吏部郎，司徒左長史，南東海太守。府公彭城王義康專覽政事，不欲自下厝懷，而登之性剛，每陳己意，義康甚不悅，出為吳郡太守。州郡相臨，執意無改，因其莅任贓貨，以事免官。弟炳之時為臨川內史，登之隨弟之郡，優游自適。俄而除豫章太守，便道之官。登之初至臨川，吏民咸相輕侮，豫章與臨川接境，郡又華大，儀迓光赫，土人並驚歎焉。十八年，遷江州刺史。疾篤，徵為中護軍，未拜。二十年，卒，時年六十二。即以為贈。"
+    }
+  },
+  "validation_policy": "原角色契約的正文、人物錨及資格仍完整檢查；只另驗證三筆可重建報齡後比較原角色annotation，不略過未知欄位。現役人物ID沿固定來源MID解析，不設永久人物號白名單。",
+  "remaining_work": [
+    "絢蚤卒與商玄石投水尚無精確年份，本批留空；並非無法日後核定。",
+    "檢查其餘逐段死亡、爵官時段及報齡，不把此批視為謝晦全傳完成。",
+    "最後一次全量匯出、全文Python／JavaScript及人物頁驗收後另提PR。"
+  ],
+  "dated_execution_events": {
+    "count": 10,
+    "date_expression": "三年",
+    "ce_year": 426,
+    "calendar": "chinese_civil",
+    "precision": "year",
+    "source_year_chain": [
+      "元嘉二年",
+      "三年正月"
+    ],
+    "interpretation": "依完整同役敘事延至伏誅，保留p003至p016完整段文與原字位；引語追述不改主線紀年，只取年，不移正月為死亡月。",
+    "human_reviewed": false,
+    "model": null
+  }
+}

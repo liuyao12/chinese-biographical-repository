@@ -16,6 +16,8 @@ class CorpusTests(unittest.TestCase):
         # Source-scoped display choices bind records in the editorial name dataset.
         (self.root/'data/corpus').mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT/'data/corpus/profile-names.json', self.root/'data/corpus/profile-names.json')
+        # Source-bound cross-chapter links require the registered volume directory.
+        shutil.copy2(ROOT/'data/corpus/chapter-directory.json', self.root/'data/corpus/chapter-directory.json')
         # Source-bound claims need their complete fixed witnesses and date references.
         shutil.copytree(ROOT/'sources', self.root/'sources')
         shutil.copytree(ROOT/'data/works', self.root/'data/works')

@@ -1,3 +1,4 @@
+import {sourcePassageURL} from './corpus-reader.js';
 import {escapeHTML as h} from './core.js';
 import {ui,t} from './i18n.js';
 import {sourceCaption} from './source-caption.js';
@@ -30,6 +31,15 @@ export function crossChapterTarget(target,directory) {
   if(books?.length!==1)return null;
   const book=books[0];
   if(typeof work.title!=='string' || typeof book.title!=='string')return null;
+  if(target.text_status==='imported') {
+    if(!id(target.chapter_id,'c-') || typeof target.paragraph_id!=='string'
+      || !target.paragraph_id.startsWith(target.chapter_id+':')
+      || !/^[a-zA-Z0-9:_-]+$/.test(target.paragraph_id))return null;
+    // Native validation binds these IDs to the actual target work/book/paragraph.
+    const href=sourcePassageURL(target);
+    return href?{href,label:sourceCaption(work.title,book.citation_title)+' · '+book.title}:null;
+  }
+  if(target.text_status!=='not_imported' || target.chapter_id!=null || target.paragraph_id!=null)return null;
   const params=new URLSearchParams({work:target.work_id,book:target.book_id});
   // A registered whole-volume landing is valid even before any text is imported.
   return {href:'reader.html#'+params,label:sourceCaption(work.title,book.citation_title)+' · '+book.title};

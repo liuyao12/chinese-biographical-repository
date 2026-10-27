@@ -2659,5 +2659,40 @@
       }
     }
   ],
-  "text_sha256": "ae5b1e051153f0e9375b1f812ba4db5436e3858216d988e3868908a44bc04c2d"
+  "text_sha256": "ae5b1e051153f0e9375b1f812ba4db5436e3858216d988e3868908a44bc04c2d",
+  "cross_chapter_references": [
+    {
+      "id": "xref-song042-wanghong-tanshou",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-042",
+        "source_id": "s-songshu-042-wanghong",
+        "chapter_id": "c-songshu-042-wanghong",
+        "revision_id": 1478172,
+        "paragraph_id": "c-songshu-042-wanghong:line095",
+        "paragraph_text": "弘弟虞，廷尉卿。虞子深，有美名，官至新安太守。虞弟抑，光祿大夫。抑弟孺，侍中。孺弟曇首，別有傳。",
+        "paragraph_text_sha256": "0d9475697ad09a42ab714015aec0849d69418214e3f1d05d8c73242e1d11ad0b",
+        "start": 44,
+        "end": 47,
+        "surface": "別有傳"
+      },
+      "target": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-063",
+        "section_label": "王曇首",
+        "text_status": "imported",
+        "chapter_id": "c-songshu-063-wanghua-tanshou",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line029"
+      },
+      "resolution": {
+        "status": "contextually_identified",
+        "rationale": "來源以弘弟虞及其弟抑孺曇首連列，末稱曇首別有傳；目標明王曇首為太保弘少弟，相互限定。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=宋書/卷63&oldid=2118589",
+        "read_scope": "已收數位見證之完整來源段與目標定位段；非圖像校勘。",
+        "short_quote": "王曇首，琅邪臨沂人，太保弘少弟也。",
+        "human_reviewed": false
+      }
+    }
+  ]
 }

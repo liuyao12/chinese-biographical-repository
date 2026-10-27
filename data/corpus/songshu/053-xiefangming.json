@@ -1948,5 +1948,40 @@
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false,
     "model": null
-  }
+  },
+  "cross_chapter_references": [
+    {
+      "id": "xref-song053-huilian-lingyun",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "paragraph_text": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "paragraph_text_sha256": "9a9fb5e40e624c33a467dea65496c31bc0683bb96347648d67e6b8dacc02b74c",
+        "start": 290,
+        "end": 295,
+        "surface": "事在靈運傳"
+      },
+      "target": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-067",
+        "section_label": "謝靈運",
+        "text_status": "imported",
+        "chapter_id": "c-songshu-067-xielingyun",
+        "paragraph_id": "c-songshu-067-xielingyun:p008"
+      },
+      "resolution": {
+        "status": "contextually_identified",
+        "rationale": "來源在惠連幼敏與族兄靈運深相知賞後指靈運傳；目標明惠連父方明、與靈運相賞並為山澤遊，人物及事件相合。",
+        "reference_url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_067.txt",
+        "read_scope": "corpus/songshu/067-xielingyun.json c-songshu-067-xielingyun:p008；只核已收完整段及此單元上下文，不稱全卷已讀或圖校。",
+        "short_quote": "是歲元嘉五年靈運旣東還與族弟惠連東海何長瑜潁川荀雍太山羊璿之以文章賞㑹共為山澤之游時人謂之四友惠連㓜有才悟而輕薄不為父方明所知靈運去永嘉還始寧時方明為㑹稽郡靈運嘗自始寧至㑹稽造方明",
+        "human_reviewed": false
+      }
+    }
+  ]
 }

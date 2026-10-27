@@ -1,4 +1,8 @@
 export default {
+  'Noble advancement and declination':'進封與辭讓',
+  'Recorded declination; acceptance not reported':'辭讓已載，受封結果未載',
+  'Offered fief households (not confirmed held)':'進封案食邑（未證實持）',
+  'Fief households':'食邑戶數',
   'Imported section {number}':'已收單元{number}',
   'Selected scope':'選錄範圍',
   'Choose a volume or imported section.':'請選擇卷篇或已收單元。',

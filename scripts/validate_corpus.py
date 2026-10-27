@@ -107,6 +107,10 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
     errors = []
     if not isinstance(date, dict):
         return ['紀年換算須為物件']
+    if 'rendered_collective_award_year_binding' in date:
+        try:from scripts.wyd_song044_noble_year import valid as noble_year_valid
+        except ImportError:from wyd_song044_noble_year import valid as noble_year_valid
+        return [] if noble_year_valid(date,bound_record,bound_role,chapters or {},root) else ['跨來源同詔封年須綁完整比較單元、兩人同爵食邑、明年及取得資格']
     era, year, number = date.get('era'), date.get('year'), date.get('era_year')
     if era not in ('BCE', 'CE') or type(year) is not int or type(number) is not int or number <= 0:
         errors.append('紀年換算須有數字年份與正整數時代年')
@@ -163,6 +167,10 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                 except ImportError:from fixed_received_career import local_date_valid
                 chapter=(chapters or {}).get((bound_record or {}).get('evidence',[{}])[0].get('chapter_id'),{})
                 valid=local_date_valid(date,chapter,root,bound_record,bound_role)
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_wyd_execution_narrative_year':
+                try:from scripts.wyd_song044_life import date_valid as wyd_execution_date_valid
+                except ImportError:from wyd_song044_life import date_valid as wyd_execution_date_valid
+                valid = bound_role == 'life_event' and wyd_execution_date_valid(date,bound_record,chapters or {},root)
             if isinstance(mapping, dict) and mapping.get('kind') == 'relative_ce_regnal_era_span':
                 try:
                     from scripts.relative_regnal_year import relative_regnal_year_valid
@@ -270,6 +278,10 @@ def reported_relationship_errors(variant, paragraph):
 
 
 def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
+    if isinstance(proposal,dict) and proposal.get('source_appointment_context',{}).get('kind')=='wyd_song044_declined_noble_advance':
+        try:from scripts.wyd_song044_nobles import proposal_errors as noble_proposal_errors
+        except ImportError:from wyd_song044_nobles import proposal_errors as noble_proposal_errors
+        return noble_proposal_errors(proposal,chapter,person_ids)
     if proposal.get('source_appointment_context',{}).get('kind')=='punctuated_biography_career_frame':
         try:from scripts.punctuated_biography_career import proposal_errors
         except ImportError:from punctuated_biography_career import proposal_errors
@@ -376,7 +388,31 @@ def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
     return errors
 
 
-def validate(root=ROOT):
+def validate(root=ROOT, *, shared_context=True):
+    """One content-checked readonly snapshot; uncached mode is the comparison path."""
+    try:
+        from scripts.validation_context import scope, fingerprint, DRIFT_ERROR
+    except ImportError:
+        from validation_context import scope, fingerprint, DRIFT_ERROR
+    if not shared_context:
+        with scope(root, enabled=False):
+            return _validate_uncached(root)
+    try:
+        before = fingerprint(root)
+    except (OSError, ValueError) as error:
+        return [DRIFT_ERROR + '：' + str(error)]
+    with scope(root):
+        errors = _validate_uncached(root)
+        try:
+            after = fingerprint(root)
+            if before != after:
+                errors.append(DRIFT_ERROR)
+        except (OSError, ValueError) as error:
+            errors.append(DRIFT_ERROR + '：' + str(error))
+        return errors
+
+
+def _validate_uncached(root=ROOT):
     errors = []
     def check(ok, message):
         if not ok: errors.append(message)
@@ -514,6 +550,21 @@ def validate(root=ROOT):
             except ImportError:
                 from fixed_kanripo_projection import errors as fixed_kanripo_projection_errors
             errors.extend(fixed_kanripo_projection_errors(d, root))
+            # fixed-wuyingdian-song044-transcription: source-only exact witness gate.
+            try:
+                from scripts.fixed_wuyingdian_song044 import source_errors as wuyingdian_song044_errors
+            except ImportError:
+                from fixed_wuyingdian_song044 import source_errors as wuyingdian_song044_errors
+            wuyingdian_issues = wuyingdian_song044_errors(d, root)
+            errors.extend(wuyingdian_issues)
+            try:
+                from scripts.wyd_song044_formal_roles import source_errors as wyd_formal_role_errors
+            except ImportError:
+                from wyd_song044_formal_roles import source_errors as wyd_formal_role_errors
+            errors.extend(wyd_formal_role_errors(d, root))
+            wuyingdian_song044_layer_valid = (d.get('id') == 'c-songshu-044-wyd1739-xiehui'
+                and isinstance(d.get('annotation'),dict) and d.get('annotation', {}).get('fixed_transcription_contract') == 'wuyingdian_song044_transcription'
+                and not wuyingdian_issues)
             if any('annotation_status' in p for p in d['paragraphs']):
                 for p in d['paragraphs']:
                     check(p.get('annotation_status') in ('pending','in_progress','named_mentions_first_pass','reviewed'),'段落標註狀態無效或缺失')
@@ -577,7 +628,7 @@ def validate(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation'),'文字層次無效')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation') or (p.get('text_layer') in ('received_compiler_appraisal','witness_appended_wuyingdian_collation') and wuyingdian_song044_layer_valid),'文字層次無效')
                 try:
                     from scripts.houhan_text_layers import layer_errors
                 except ImportError:
@@ -948,6 +999,8 @@ def validate(root=ROOT):
                 check(binding_valid(date, bound_record, bound_role), '初中末年號紀年須綁實際同人同官授任／生卒記錄')
             if not isinstance(date, dict):
                 return
+            if 'rendered_collective_award_year_binding' in date:
+                return # the exact external-source guard above validates both the date and its holding
             context_ids = {e['paragraph_id'] for e in context_evidence}
             anchored = False
             for evidence in date.get('evidence', []):
@@ -1003,7 +1056,7 @@ def validate(root=ROOT):
                         from scripts.received_career_roles import holding_valid as career_holding_valid
                     except ImportError:
                         from received_career_roles import holding_valid as career_holding_valid
-                    check(career_holding_valid(h, chapters[d['chapter_id']]), '來源職歷須逐原句角色綁實際受任者、共享職尾及任期界線')
+                    check(career_holding_valid(h, chapters[d['chapter_id']],root), '來源職歷須逐原句角色綁實際受任者、共享職尾及任期界線')
                 if 'source_office_role' in h:
                     try:
                         from scripts.source_office_reports import holding_role_valid
@@ -1135,7 +1188,7 @@ def validate(root=ROOT):
                             from scripts.received_career_roles import holding_valid as career_holding_valid
                         except ImportError:
                             from received_career_roles import holding_valid as career_holding_valid
-                        valid_transfer = career_holding_valid(h, chapters[d['chapter_id']])
+                        valid_transfer = career_holding_valid(h, chapters[d['chapter_id']],root)
                     if 'received_source_frame' in h:
                         try:from scripts.fixed_received_career import holding_valid as fixed_received_transfer_valid
                         except ImportError:from fixed_received_career import holding_valid as fixed_received_transfer_valid
@@ -1207,7 +1260,7 @@ def validate(root=ROOT):
                             from scripts.received_career_roles import holding_valid as career_holding_valid
                         except ImportError:
                             from received_career_roles import holding_valid as career_holding_valid
-                        valid = valid or career_holding_valid(h, chapters[d['chapter_id']])
+                        valid = valid or career_holding_valid(h, chapters[d['chapter_id']],root)
                     check(valid,'追尊授號缺少相符原詞與起點證據')
                     if valid:
                         for e in basis['evidence']:title_evidence(e)
@@ -1414,7 +1467,7 @@ def validate(root=ROOT):
                                 from scripts.received_career_roles import holding_valid as career_holding_valid
                             except ImportError:
                                 from received_career_roles import holding_valid as career_holding_valid
-                            shared_suffix_valid = career_holding_valid(h, chapters[d['chapter_id']])
+                            shared_suffix_valid = career_holding_valid(h, chapters[d['chapter_id']],root)
                     check((a['surface']==h['title'] or shared_suffix_valid) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
                     if hit:
                         check(isinstance(a['start'],int) and isinstance(a['end'],int) and 0<=a['start']<a['end']<=len(hit[1]['text']) and hit[1]['text'][a['start']:a['end']]==a['surface'],'稱號用稱字元位置不符')
@@ -1462,6 +1515,10 @@ def validate(root=ROOT):
                             except ImportError:
                                 from cross_chapter_annal_date import cross_chapter_annal_date_valid
                             cross_endpoint_date = cross_chapter_annal_date_valid(boundary['normalized_date'], h, endpoint, chapters)
+                        if 'rendered_collective_award_year_binding' in boundary.get('normalized_date', {}):
+                            try:from scripts.wyd_song044_noble_year import valid as noble_year_valid
+                            except ImportError:from wyd_song044_noble_year import valid as noble_year_valid
+                            cross_endpoint_date=noble_year_valid(boundary['normalized_date'],h,endpoint,chapters,root)
                         check(cross_endpoint_date or date is None or isinstance(date,str) and bool(date) and any(date in e['quote'] for e in boundary['evidence']),'稱號日期表述不在端點證據')
                         if 'normalized_date' in boundary:
                             check(isinstance(date, str) and bool(date) or parallel_event_date(boundary['normalized_date']), '稱號數字紀年須有原始日期表述')
@@ -1645,7 +1702,11 @@ def validate(root=ROOT):
                         from scripts.directed_uncle_roles import paternal_uncle_direction_valid
                     except ImportError:
                         from directed_uncle_roles import paternal_uncle_direction_valid
-                    check(paternal_uncle_direction_valid(a, paragraphs),
+                    try:
+                        from scripts.wyd_song044_nephew import nephew_valid as wyd_nephew_valid
+                    except ImportError:
+                        from wyd_song044_nephew import nephew_valid as wyd_nephew_valid
+                    check(paternal_uncle_direction_valid(a, paragraphs) or wyd_nephew_valid(a, paragraphs, root),
                           '叔父關係須依原詞與人物字位定向，不得互換叔侄端點')
                 if a['predicate'] == 'maternal_uncle':
                     try:
@@ -1962,6 +2023,10 @@ def validate(root=ROOT):
                     try:from scripts.fixed_wikisource_units import kin_age_designation_valid
                     except ImportError:from fixed_wikisource_units import kin_age_designation_valid
                     check(kin_age_designation_valid(age, chapter, root), '引語父親約數報齡須綁發言者、父子原證與原數，不推精齡或生年')
+                elif 'source_age_answer_binding' in age:
+                    try:from scripts.wyd_song044_age import answer_valid
+                    except ImportError:from wyd_song044_age import answer_valid
+                    check(answer_valid(age,chapter,root),'問年答齡須綁詢問與回答同人、完整原詞，不借他人之齡或造引句')
                 elif 'approximation' in age:
                     try:
                         from scripts.age_approximations import age_approximation_errors
@@ -2236,6 +2301,10 @@ def validate(root=ROOT):
                     errors.extend(native_death_errors(record, event, tables, pids))
                 continue
             check(record.get('record_type') in ('person_life_event_assertion_set', 'person_event_assertion_set') and record.get('chapter_id') in chapters, '生卒事件集類型或篇不存在')
+            if record.get('chapter_id') == 'c-songshu-044-wyd1739-xiehui' and record.get('record_type') == 'person_life_event_assertion_set':
+                try:from scripts.wyd_song044_life import valid as wyd_life_valid
+                except ImportError:from wyd_song044_life import valid as wyd_life_valid
+                check(wyd_life_valid(record,root),'武英殿謝晦篇死亡須依具名列舉、主語承接及同段原免，不借日期或刪矛盾')
             for event in record['events']:
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
@@ -2510,6 +2579,11 @@ def validate(root=ROOT):
         validated_readings(catalog[1],
             [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']],
             {r['id']:r for r in catalog[1] if r.get('record_type') == 'marked_chapter'})
+        try:
+            from scripts.cross_chapter_references import errors as cross_reference_errors
+        except ImportError:
+            from cross_chapter_references import errors as cross_reference_errors
+        errors.extend(cross_reference_errors(chapters, root))
         load_assemblies(root, catalog)
         def citation_dimensions(value):
             if isinstance(value, dict):

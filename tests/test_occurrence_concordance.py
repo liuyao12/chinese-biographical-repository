@@ -70,6 +70,8 @@ class Concordance(unittest.TestCase):
   b=bundle(PID,root=R,catalog=CAT,include_provisional=True)
   with tempfile.TemporaryDirectory()as tmp:
    target=Path(tmp);(target/'registry').mkdir();(target/'registry/works.json').write_bytes((R/'registry/works.json').read_bytes())
+   (target/'data/corpus').mkdir(parents=True)
+   (target/'data/corpus/chapter-directory.json').write_bytes((R/'data/corpus/chapter-directory.json').read_bytes())
    with patch.object(calendar_wiring,'export_calendar_contexts'),patch.object(exporter,'load_catalog',return_value=({PID:CAT[0][PID]},RECORDS)),patch.object(exporter,'load_assemblies',return_value=({},{})),patch.object(exporter,'bundle',return_value=b):exporter.export(target)
    row=J(target/'exports/persons/index.json')['persons'][0];self.assertEqual(row['mention_count'],index_counts(b)['mention_count']);self.assertEqual(row['raw_mention_count'],index_counts(b)['raw_mention_count']);self.assertEqual(row['source_count'],len(b['sources']));self.assertEqual(row['most_mentioned_source_ids'],b['most_mentioned_source_ids']);self.assertIn('原始錨點完整保留',(target/'exports/persons/README.md').read_text());self.assertEqual(J(target/('exports/persons/'+PID+'.json'))['mentions'],b['mentions'])
  def test_table_occurrences_not_globally_collapsed(self):
