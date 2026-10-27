@@ -121,6 +121,11 @@ def outputs(root=None):
     except ImportError:
         from work_title_index import outputs as work_title_outputs
     result.update(work_title_outputs(root))
+    try:
+        from .person_directory import outputs as person_directory_outputs
+    except ImportError:
+        from person_directory import outputs as person_directory_outputs
+    result.update(person_directory_outputs(root))
     return result
 
 

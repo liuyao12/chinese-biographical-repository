@@ -150,5 +150,11 @@ def build(root=ROOT, person_ids=None):
     if person_ids is not None and (out/'index.json').exists():
         entries = [x for x in json.loads((out/'index.json').read_text())['profiles'] if x['id'] not in person_ids] + entries
     (out/'index.json').write_text(json.dumps({'schema_version':1,'profiles':entries},ensure_ascii=False,indent=2)+'\n')
+    if person_ids is None:
+        try:
+            from .person_directory import run as export_person_directory
+        except ImportError:
+            from person_directory import run as export_person_directory
+        export_person_directory(root)
     print('閱讀器人物資料：', len(table_mentions), '份 ID 檔（含同指別名，不是不同人物總數）')
 if __name__=='__main__': build()
