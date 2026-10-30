@@ -197,6 +197,41 @@
       "chapter_id": "c-jinshu-076-wangyi-family",
       "source_id": "s-jinshu-076-wangyi-family",
       "work_title": "晉書"
+    },
+    {
+      "number": 80,
+      "category": "",
+      "title": "王羲之及近系附傳（比較轉錄）",
+      "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。元帝之過江也，曠首創其議。羲之幼訥於言，人未之奇。年十三，嘗謁周顗，顗察而異之。時重牛心炙，坐客未啖，顗先割啖羲之，於是始知名。及長，辯贍，以骨鯁稱，尤善隸書，為古今之冠，論",
+      "paragraph_ids": [
+        "c-jinshu-080-wangxizhi-comparison:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-080-wangxizhi-comparison:p001:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-080-wangxizhi-comparison:p001:m0017": "c-jinshu-080-wangxizhi-comparison:p001"
+      },
+      "mention_id": "c-jinshu-080-wangxizhi-comparison:p001:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi-comparison:p001:m0017",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi-comparison:p001:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+      "source_id": "s-jinshu080-ws2603570-comparison",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -403,6 +438,35 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "source_id": "s-jinshu080-ws2603570-comparison",
+      "source": {
+        "title": "《晉書》卷八十王羲之及近系附傳（比較轉錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "revision_id": 2603570,
+        "accessed_on": "2026-10-27",
+        "extent": "王羲之完整傳及所選近系附敘47數位自然段；含玄之、凝之、徽之、楨之、操之、獻之、靜之語境；不含許邁獨立傳及卷末合贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "edition": "維基文庫固定修訂數位轉錄；底本未核，僅比較見證，非武英殿本，非首選讀本。",
+        "rights": "古代原文及維基文庫數位轉錄；保留修訂與授權歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "source-evidence/jin080-wangxizhi-comparison/raw.wikitext",
+        "raw_path": "source-evidence/jin080-wangxizhi-comparison/raw.wikitext",
+        "wikitext_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "raw_file_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依固定raw逐碼點投影；移除數位段首縮排、節題、連結語法及格式模板，保留可見原字與引語。現代節題不作古文父子直述。完整排除位置另存。"
+        }
+      }
     }
   ],
   "relations": [
@@ -470,12 +534,45 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin080-xizhi-grandfather-zheng",
+      "subject_person_id": "7r6_k52_qji_ABDCA",
+      "predicate": "grandfather",
+      "object_person_id": "7r6_k52_qji_ABD",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "source_id": "s-jinshu080-ws2603570-comparison",
+          "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+          "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p001",
+          "quote": "王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。元帝之過江也，曠首創其議。羲之幼訥於言，人未之奇。年十三，嘗謁周顗，顗察而異之。時重牛心炙，坐客未啖，顗先割啖羲之，於是始知名。及長，辯贍，以骨鯁稱，尤善隸書，為古今之冠，論者稱其筆勢，以為飄若浮雲，矯若驚龍。深為從伯敦、導所器重。時陳留阮裕有重名，為敦主簿。敦嘗謂羲之曰：「汝是吾家佳子弟，當不減阮主簿。」裕亦目羲之與王承、王悅為王氏三少。時太尉郗鑒使門生求女婿于導，導令就東廂遍觀子弟。門生歸，謂鑒曰：「王氏諸少並佳，然聞信至，咸自矜持。惟一人在東床坦腹食，獨若不聞。」鑒曰：「正此佳婿邪！」訪之，乃羲之也，遂以女妻之。",
+          "subject_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p001:m0000",
+          "object_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p001:m0017"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "祖正",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_comparison_jin080_received_roles",
+          "contract_ref": "source-evidence/jin080-wangxizhi-comparison/ner-facts-template.json"
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "父系祖父為可撤回AI首選：080傳首同一傳主連敘「祖正，尚書郎。父曠，淮南太守」，033覽六子之正亦尚書郎，076父正尚書郎與導從弟近系相容；原祖字/原文不改，不冒原文另直述正生曠。原封稿lineage unspecified保留為前一資格階段，無人工或圖校升格。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "7r6_k52_qji_AB": "王覽",
     "7r6_k52_qji_ABD": "王正",
-    "7r6_k52_qji_ABDA": "王廙"
+    "7r6_k52_qji_ABDA": "王廙",
+    "7r6_k52_qji_ABDCA": "王羲之"
   },
   "dates": [],
   "name_components": [
@@ -566,6 +663,38 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin080-xizhi-grandfather-zheng",
+      "subject_person_id": "7r6_k52_qji_ABDCA",
+      "predicate": "grandfather",
+      "object_person_id": "7r6_k52_qji_ABD",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "source_id": "s-jinshu080-ws2603570-comparison",
+          "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+          "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p001",
+          "quote": "王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。元帝之過江也，曠首創其議。羲之幼訥於言，人未之奇。年十三，嘗謁周顗，顗察而異之。時重牛心炙，坐客未啖，顗先割啖羲之，於是始知名。及長，辯贍，以骨鯁稱，尤善隸書，為古今之冠，論者稱其筆勢，以為飄若浮雲，矯若驚龍。深為從伯敦、導所器重。時陳留阮裕有重名，為敦主簿。敦嘗謂羲之曰：「汝是吾家佳子弟，當不減阮主簿。」裕亦目羲之與王承、王悅為王氏三少。時太尉郗鑒使門生求女婿于導，導令就東廂遍觀子弟。門生歸，謂鑒曰：「王氏諸少並佳，然聞信至，咸自矜持。惟一人在東床坦腹食，獨若不聞。」鑒曰：「正此佳婿邪！」訪之，乃羲之也，遂以女妻之。",
+          "subject_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p001:m0000",
+          "object_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p001:m0017"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "祖正",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_comparison_jin080_received_roles",
+          "contract_ref": "source-evidence/jin080-wangxizhi-comparison/ner-facts-template.json"
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "父系祖父為可撤回AI首選：080傳首同一傳主連敘「祖正，尚書郎。父曠，淮南太守」，033覽六子之正亦尚書郎，076父正尚書郎與導從弟近系相容；原祖字/原文不改，不冒原文另直述正生曠。原封稿lineage unspecified保留為前一資格階段，無人工或圖校升格。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "assembled_identity": {
@@ -627,6 +756,57 @@
           }
         ],
         "rationale": "原文明示同族兄弟，具名兄弟的父親另有直接原文；同父為可撤回編輯組裝，不造直接父子引句、不推同母。"
+      },
+      "assembly_id": "family-langye-wang-dao",
+      "root_person_id": "7r6_k52_qji",
+      "status": "editorial_preferred",
+      "human_reviewed": false
+    },
+    {
+      "person_id": "7r6_k52_qji_ABDC",
+      "representative_source_person_id": "7r6_k52_qji_ABDC",
+      "source_person_ids": [
+        "7r6_k52_qji_ABDC"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "7r6_k52_qji_ABD",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "parent_between_consecutive_ancestors",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "033正為覽子、同尚書郎與080祖正相接；080同傳主明祖正/父曠，正→曠存組裝推導，不冒直述生某、不由導從子補祖。",
+        "chain_subject_person_id": "7r6_k52_qji_ABDCA",
+        "nearer_ancestor_assertion_id": "a-jin080-xizhi-father-kuang",
+        "farther_ancestor_assertion_id": "a-jin080-xizhi-grandfather-zheng",
+        "references": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-080",
+            "source_id": "s-jinshu080-ws2603570-comparison",
+            "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+            "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p001",
+            "quote": "王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。元帝之過江也，曠首創其議。羲之幼訥於言，人未之奇。年十三，嘗謁周顗，顗察而異之。時重牛心炙，坐客未啖，顗先割啖羲之，於是始知名。及長，辯贍，以骨鯁稱，尤善隸書，為古今之冠，論者稱其筆勢，以為飄若浮雲，矯若驚龍。深為從伯敦、導所器重。時陳留阮裕有重名，為敦主簿。敦嘗謂羲之曰：「汝是吾家佳子弟，當不減阮主簿。」裕亦目羲之與王承、王悅為王氏三少。時太尉郗鑒使門生求女婿于導，導令就東廂遍觀子弟。門生歸，謂鑒曰：「王氏諸少並佳，然聞信至，咸自矜持。惟一人在東床坦腹食，獨若不聞。」鑒曰：「正此佳婿邪！」訪之，乃羲之也，遂以女妻之。",
+            "subject_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p001:m0000",
+            "object_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p001:m0024",
+            "assertion_id": "a-jin080-xizhi-father-kuang",
+            "scope": "同一固定比較見證完整傳首明祖/父；正→曠屬可撤回父系推導，非另直述生某",
+            "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570"
+          },
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-080",
+            "source_id": "s-jinshu080-ws2603570-comparison",
+            "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+            "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p001",
+            "quote": "王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。元帝之過江也，曠首創其議。羲之幼訥於言，人未之奇。年十三，嘗謁周顗，顗察而異之。時重牛心炙，坐客未啖，顗先割啖羲之，於是始知名。及長，辯贍，以骨鯁稱，尤善隸書，為古今之冠，論者稱其筆勢，以為飄若浮雲，矯若驚龍。深為從伯敦、導所器重。時陳留阮裕有重名，為敦主簿。敦嘗謂羲之曰：「汝是吾家佳子弟，當不減阮主簿。」裕亦目羲之與王承、王悅為王氏三少。時太尉郗鑒使門生求女婿于導，導令就東廂遍觀子弟。門生歸，謂鑒曰：「王氏諸少並佳，然聞信至，咸自矜持。惟一人在東床坦腹食，獨若不聞。」鑒曰：「正此佳婿邪！」訪之，乃羲之也，遂以女妻之。",
+            "subject_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p001:m0000",
+            "object_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p001:m0017",
+            "assertion_id": "a-jin080-xizhi-grandfather-zheng",
+            "scope": "同一固定比較見證完整傳首明祖/父；正→曠屬可撤回父系推導，非另直述生某",
+            "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570"
+          }
+        ]
       },
       "assembly_id": "family-langye-wang-dao",
       "root_person_id": "7r6_k52_qji",

@@ -1,0 +1,188 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_address_assertion_set",
+  "chapter_id": "c-songshu-045-wyd1739-liucui",
+  "assertions": [
+    {
+      "id": "addr-song045-wyd-liucui-origin",
+      "person_id": "8lh_jgi_l6a_*A",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "沛郡蕭",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "source_term": "沛郡蕭人也",
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-045",
+          "source_id": "s-songshu-045-wyd1739-liucui",
+          "chapter_id": "c-songshu-045-wyd1739-liucui",
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p001",
+          "quote": "劉粹字道沖沛郡蕭人也祖恢持節監河中軍事征虜將軍粹家在京口少有志幹初為州從事高祖克京城參建武軍事從平京邑轉參鎮軍事尋加建武將軍沛郡太守又領下邳太守復為車騎中軍參軍從征廣固戰功居多以義功封西安縣五等侯軍還轉中軍諮議參軍盧循逼京邑京口任重太祖時年四歲高祖使粹",
+          "person_mention_id": "c-songshu-045-wyd1739-liucui:p001:m0000"
+        }
+      ],
+      "source_address_binding": {
+        "kind": "layered_biography_address",
+        "rule": "biography_origin",
+        "source_revision": "cbr-ai-transcription-sha256:ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
+        "paragraph_sha256": "81bcfc53cb3599f35db40712715cce66838d23143c8153e9a2b8ae60e9db4d73",
+        "roles": {
+          "subject": "c-songshu-045-wyd1739-liucui:p001:m0000",
+          "style": "c-songshu-045-wyd1739-liucui:p001:m0003"
+        },
+        "subject_role": "subject",
+        "scope_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p001",
+          "start": 0,
+          "end": 10,
+          "surface": "劉粹字道沖沛郡蕭人也"
+        },
+        "place_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p001",
+          "start": 5,
+          "end": 8,
+          "surface": "沛郡蕭"
+        }
+      },
+      "interpretation_note": "傳首明稱沛郡蕭人；不當出生地，不換現代行政區，也不傳給祖、弟或子。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "addr-song045-wyd-zhenzhi-death-home",
+      "person_id": "ajf_qc7_zd5",
+      "relation": "death_place",
+      "place": {
+        "source_name": "家",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "source_term": "卒於家",
+      "date_expression": "元嘉二年",
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 425,
+        "year": 425,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "元嘉二年",
+        "original_quote": "嘗應召常謂毅汝必破我家毅甚憚之每還京未嘗敢以羽儀人從入鎮之門左光祿大夫徵不就元嘉二年年九十餘卒於家損元嘉中歷職義興太守東土饑饉太祖遣揚州治中沈演之東入賑卹以損綏撫有方稱為良守官至吳郡太守追贈太常",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-045",
+            "source_id": "s-songshu-045-wyd1739-liucui",
+            "chapter_id": "c-songshu-045-wyd1739-liucui",
+            "paragraph_id": "c-songshu-045-wyd1739-liucui:p015",
+            "quote": "嘗應召常謂毅汝必破我家毅甚憚之每還京未嘗敢以羽儀人從入鎮之門左光祿大夫徵不就元嘉二年年九十餘卒於家損元嘉中歷職義興太守東土饑饉太祖遣揚州治中沈演之東入賑卹以損綏撫有方稱為良守官至吳郡太守追贈太常",
+            "person_mention_id": "c-songshu-045-wyd1739-liucui:p015:m0027"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "元嘉",
+            "scope": "modern_era_year_equivalence_only",
+            "columns": {
+              "dynasty": "宋",
+              "era_name": "元嘉",
+              "first_year": "424",
+              "last_year": "453"
+            },
+            "fixed_row_reference": {
+              "path": "source-evidence/song045-wyd1739-liucui/life-moe-yuanjia-row.json",
+              "sha256": "fc8a17ad4e6050f84622b4dd3360c3e37eecfc4fdac0be4608d9281dc121847c"
+            },
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "元嘉",
+          "source_number": "二",
+          "regnal_year": 2,
+          "start_ce_year": 424,
+          "end_ce_year": 453,
+          "reference_index": 0
+        },
+        "status": "editorial_provisional",
+        "rationale": "本源同句明元嘉二年，固定宋元嘉424–453對照為中國曆425；年精度，未知月日，不倒出生年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-045",
+          "source_id": "s-songshu-045-wyd1739-liucui",
+          "chapter_id": "c-songshu-045-wyd1739-liucui",
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p015",
+          "quote": "嘗應召常謂毅汝必破我家毅甚憚之每還京未嘗敢以羽儀人從入鎮之門左光祿大夫徵不就元嘉二年年九十餘卒於家損元嘉中歷職義興太守東土饑饉太祖遣揚州治中沈演之東入賑卹以損綏撫有方稱為良守官至吳郡太守追贈太常",
+          "person_mention_id": "c-songshu-045-wyd1739-liucui:p015:m0027"
+        }
+      ],
+      "source_zhenzhi_subject_scope": {
+        "kind": "received_named_father_biography_into_next_page_side",
+        "identity_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p014",
+          "start": 193,
+          "end": 210,
+          "surface": "父鎮之字仲德以毅貴歷顯位閑居京口未"
+        },
+        "father_person_mention_id": "c-songshu-045-wyd1739-liucui:p014:m0194",
+        "resumed_person_mention_id": "c-songshu-045-wyd1739-liucui:p015:m0027",
+        "death_clause_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p015",
+          "start": 38,
+          "end": 49,
+          "surface": "元嘉二年年九十餘卒於家"
+        },
+        "paragraph_ids": [
+          "c-songshu-045-wyd1739-liucui:p014",
+          "c-songshu-045-wyd1739-liucui:p015"
+        ],
+        "full_paragraphs": [
+          {
+            "paragraph_id": "c-songshu-045-wyd1739-liucui:p014",
+            "quote": "年六月太祖遣寧朔將軍蕭汪之統軍討之軍次郪口帛氏奴斬僞衞將軍司馬飛燕歸降汪之擊破道養道養還入郪山十四年四月趙廣張尋梁顯各率部曲歸降僞輔國將軍王道恩斬道養送首餘黨悉平遷趙廣張尋等於京師十六年廣尋復與國山令司馬敬琳謀反伏誅先是道濟振武司馬蜀郡太守任薈之雖不任軍事事寧以為正員郎裴方明虎賁中郎將仍為義慶平西中兵參軍龍驤將軍河東太守費淡太子屯騎校尉周籍之後為益州刺史粹族弟損字子騫衞將軍毅從父弟也父鎮之字仲德以毅貴歷顯位閑居京口未",
+            "source_position": {
+              "raw_projection_ref": "source-evidence/song045-wyd1739-liucui/transcription-projection.json",
+              "raw_file_sha256": "ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
+              "unit_key": "unit014",
+              "source_layer": "received_chapter",
+              "first_line": 127,
+              "last_line": 136
+            }
+          },
+          {
+            "paragraph_id": "c-songshu-045-wyd1739-liucui:p015",
+            "quote": "嘗應召常謂毅汝必破我家毅甚憚之每還京未嘗敢以羽儀人從入鎮之門左光祿大夫徵不就元嘉二年年九十餘卒於家損元嘉中歷職義興太守東土饑饉太祖遣揚州治中沈演之東入賑卹以損綏撫有方稱為良守官至吳郡太守追贈太常",
+            "source_position": {
+              "raw_projection_ref": "source-evidence/song045-wyd1739-liucui/transcription-projection.json",
+              "raw_file_sha256": "ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
+              "unit_key": "unit015",
+              "source_layer": "received_chapter",
+              "first_line": 137,
+              "last_line": 141
+            }
+          }
+        ],
+        "human_reviewed": false
+      },
+      "interpretation_note": "只保卒於家原相對地稱，沒有精確地名或現代行政區；不由閑居京口補卒地京口。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

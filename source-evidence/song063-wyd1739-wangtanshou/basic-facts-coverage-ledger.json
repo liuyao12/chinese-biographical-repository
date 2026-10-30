@@ -1,0 +1,703 @@
+{
+  "human_reviewed": false,
+  "model": null,
+  "claims": [
+    {
+      "claim_id": "research:f001",
+      "category": "name",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+        "start": 0,
+        "end": 3,
+        "quote": "王曇首",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "literal_surname": "王",
+        "literal_ming": "曇首"
+      },
+      "limits": "本單元無字/小字；其他裸弘/球等不冒源文明全名。",
+      "first_batch_disposition": "typed literal name; four other literal names and qualified surname readings added separately"
+    },
+    {
+      "claim_id": "research:f002",
+      "category": "origin",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+        "start": 3,
+        "end": 8,
+        "quote": "琅邪臨沂人",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "type": "origin",
+        "source_place": "琅邪臨沂"
+      },
+      "limits": "不是出生地/現代座標/居地。",
+      "first_batch_disposition": "typed biographical_origin"
+    },
+    {
+      "claim_id": "research:f003",
+      "category": "kinship",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+        "start": 8,
+        "end": 14,
+        "quote": "太保弘少弟也",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "relation": "younger_brother",
+        "other_role": "hong",
+        "source_term": "少弟"
+      },
+      "limits": "僅年序與兄弟關係，不當絕對排行/唯一最少；不補母/共同父名。",
+      "first_batch_disposition": "typed brother plus relative order; no absolute ordinal"
+    },
+    {
+      "claim_id": "research:f004",
+      "category": "title_attestation",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+        "start": 8,
+        "end": 11,
+        "quote": "太保弘",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "hong",
+      "interpretation": {
+        "title": "太保",
+        "mode": "attestation"
+      },
+      "limits": "傳首回顧稱號，不把太保任年灌曇首少時。",
+      "first_batch_disposition": "typed attestation 太保弘 plus explicit timeless default heading selection; not a grant date"
+    },
+    {
+      "claim_id": "research:f005",
+      "category": "career",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+        "start": 18,
+        "end": 24,
+        "quote": "除著作郎不就",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "title": "著作郎",
+        "mode": "appointment_not_assumed"
+      },
+      "limits": "不造實任期間。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f006",
+      "category": "career",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+        "start": 36,
+        "end": 44,
+        "quote": "辟琅邪王大司馬屬",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "title": "大司馬屬",
+        "mode": "appointment",
+        "patron_role": "langya"
+      },
+      "limits": "職府主依完整 primary 橋首選德文；不得把此當大司馬本人。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f007",
+      "category": "event_place",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+        "start": 44,
+        "end": 53,
+        "quote": "從府公脩復洛陽園陵",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "event": "隨府公修復園陵",
+        "other_role": "langya",
+        "place": "洛陽園陵"
+      },
+      "limits": "本句無年；不當籍貫/葬地。比較晉010有同類山陵北征橋，不回填事件精確日。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f008",
+      "category": "kinship",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+        "start": 53,
+        "end": 61,
+        "quote": "與從弟球俱詣高祖",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "relation": "paternal_collateral_younger_relative",
+        "other_role": "qiu",
+        "source_term": "從弟"
+      },
+      "limits": "不推共同祖父或父親是兄弟，保從弟原度量；高祖為另人劉裕。",
+      "first_batch_disposition": "typed agnatic_cousin; distance/common ancestor unknown"
+    },
+    {
+      "claim_id": "research:f009",
+      "category": "career_other_actor",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p002",
+        "start": 141,
+        "end": 154,
+        "quote": "太祖為冠軍徐州刺史留鎮彭城",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "taizu",
+      "interpretation": {
+        "titles": [
+          "冠軍",
+          "徐州刺史"
+        ],
+        "place": "彭城"
+      },
+      "limits": "受任人是太祖義隆，不是曇首；冠軍為原略稱，不冒新增將軍二字literal。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f010",
+      "category": "career",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p002",
+        "start": 154,
+        "end": 161,
+        "quote": "以曇首為府功曹",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "title": "府功曹",
+        "mode": "appointment"
+      },
+      "limits": "府主太祖；不借太祖帝即位年。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f011",
+      "category": "career",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p002",
+        "start": 161,
+        "end": 179,
+        "quote": "太祖鎮江陵自功曹為長史隨府轉鎮西長史",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "sequence": [
+          "功曹",
+          "長史",
+          "鎮西長史"
+        ],
+        "patron_role": "taizu",
+        "place": "江陵"
+      },
+      "limits": "source sequence/隨府轉；不補每項精確開始終止。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f012",
+      "category": "character_evaluation_not_title",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p002",
+        "start": 196,
+        "end": 200,
+        "quote": "宰相才也",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "evaluation": "宰相才"
+      },
+      "limits": "不是已授宰相或default heading。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f013",
+      "category": "date_context",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p002",
+        "start": 205,
+        "end": 208,
+        "quote": "景平中",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "narrative",
+      "interpretation": {
+        "era": "景平",
+        "era_start_ce": 423,
+        "era_end_ce": 424,
+        "phase": "中"
+      },
+      "limits": "年號frame，不定曇首任官年/生年。MoE所讀表列423–424，不用常識倒移。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f014",
+      "category": "kinship",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p003",
+        "start": 48,
+        "end": 51,
+        "quote": "從兄華",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "relation": "collateral_older_relative",
+        "other_role": "hua",
+        "source_term": "從兄"
+      },
+      "limits": "不從稱謂機械補父祖；與本卷王華首稱太保弘從祖弟原詞並存。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f015",
+      "category": "career_other_actor",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p003",
+        "start": 92,
+        "end": 99,
+        "quote": "中兵參軍朱容子",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "rongzi",
+      "interpretation": {
+        "title": "中兵參軍",
+        "mode": "attestation"
+      },
+      "limits": "不是曇首官。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f016",
+      "category": "career",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p003",
+        "start": 165,
+        "end": 182,
+        "quote": "以曇首為侍中尋領右衞將軍領驍騎將軍",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "sequence": [
+          {
+            "title": "侍中",
+            "mode": "appointment"
+          },
+          {
+            "title": "右衞將軍",
+            "mode": "concurrent"
+          },
+          {
+            "title": "驍騎將軍",
+            "mode": "concurrent"
+          }
+        ]
+      },
+      "limits": "明領字保兼領；死亡不自動結束三任。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f017",
+      "category": "career_other_actor",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p003",
+        "start": 182,
+        "end": 191,
+        "quote": "以朱容子為右軍將軍",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "rongzi",
+      "interpretation": {
+        "title": "右軍將軍",
+        "mode": "appointment"
+      },
+      "limits": "不是曇首任官。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f018",
+      "category": "date_context",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p003",
+        "start": 206,
+        "end": 210,
+        "quote": "元嘉四年",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "narrative",
+      "interpretation": {
+        "era": "元嘉",
+        "source_number": 4,
+        "possible_ce_year": 427
+      },
+      "limits": "位於p003末，日期具體事件在p004開頭；後續不得跨所有敘事套427。",
+      "first_batch_disposition": "supporting death era context only, not independent event year"
+    },
+    {
+      "claim_id": "research:f019",
+      "category": "career_other_actor",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p004",
+        "start": 29,
+        "end": 46,
+        "quote": "尚書左丞羊玄保奏免御史中丞傅隆以下",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "yangxuan",
+      "interpretation": {
+        "reporter_office": "尚書左丞",
+        "removal_target_role": "fulong",
+        "target_office": "御史中丞"
+      },
+      "limits": "奏免是請議，隨後上特無所問；不能當已免所有人；以下集合不造人。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f020",
+      "category": "quoted_precedent_date",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p004",
+        "start": 67,
+        "end": 77,
+        "quote": "元嘉二年雖有再開門例",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "quoted_tanshou",
+      "interpretation": {
+        "era": "元嘉",
+        "source_number": 2,
+        "possible_ce_year": 425
+      },
+      "limits": "曇首啟中追述先例；WYD只二年，不照WS加元年；不是新任日期。",
+      "first_batch_disposition": "quoted retrospective year only; excluded as main narrative event year"
+    },
+    {
+      "claim_id": "research:f021",
+      "category": "career",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p004",
+        "start": 144,
+        "end": 153,
+        "quote": "還太子詹事侍中如故",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "title": "太子詹事",
+        "mode": "return_or_reappointment",
+        "continued_title": "侍中"
+      },
+      "limits": "還字保原詞，不校成WS遷；太子未明名，不補劉劭。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f022",
+      "category": "rank_offer_not_grant",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p004",
+        "start": 153,
+        "end": 162,
+        "quote": "晦平後上欲封曇首等",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "mode": "collective_noble_offer",
+        "title": null,
+        "ruler_role": "taizu"
+      },
+      "limits": "晦為謝晦，非封爵主體；群等不猜人名。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f023",
+      "category": "rank_offer_not_grant",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p004",
+        "start": 184,
+        "end": 194,
+        "quote": "時封詔已成出以示曇首",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "mode": "drafted_rank_grant_not_effective"
+      },
+      "limits": "與後續固辭/封事遂寢連讀，不因此造當時已受豫寧。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f024",
+      "category": "rank_offer_not_grant",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p005",
+        "start": 40,
+        "end": 49,
+        "quote": "上不能奪故封事遂寢",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "mode": "offer_not_effected"
+      },
+      "limits": "不把它同死後九年追封混成同一次。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f025",
+      "category": "career_other_actor",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p005",
+        "start": 49,
+        "end": 62,
+        "quote": "時兄弘錄尚書事又為揚州刺史",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "hong",
+      "interpretation": {
+        "titles": [
+          "錄尚書事",
+          "揚州刺史"
+        ]
+      },
+      "limits": "父兄稱謂據此明弘為兄；兩職不得移曇首。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f026",
+      "category": "career_other_actor",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p005",
+        "start": 73,
+        "end": 82,
+        "quote": "彭城王義康與弘並錄",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "yikang",
+      "interpretation": {
+        "title_attestation": "彭城王",
+        "contextual_office": "錄尚書事"
+      },
+      "limits": "並錄省略職名，只能有資格回接前文，不冒源直接重述全官名。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f027",
+      "category": "career_request",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p005",
+        "start": 107,
+        "end": 113,
+        "quote": "曇首固乞吳郡",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "mode": "request_to_serve_in_Wu",
+        "source_term": "乞吳郡",
+        "office_title_literal": null
+      },
+      "limits": "不擅補吳郡太守為source literal；太祖不允，未有赴任。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f028",
+      "category": "career_refusal_other_actor",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p005",
+        "start": 158,
+        "end": 167,
+        "quote": "時弘久疾屢遜位不許",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "hong",
+      "interpretation": {
+        "mode": "resignation_not_allowed",
+        "office_candidates": [
+          "揚州刺史",
+          "錄尚書事"
+        ]
+      },
+      "limits": "位未逐項重述，不終止兩官；不得以曇首七年卒作弘任終。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f029",
+      "category": "death",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p005",
+        "start": 202,
+        "end": 210,
+        "quote": "七年卒太祖為之慟",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "event": "death",
+        "source_year_expression": "七年",
+        "era_context": "元嘉",
+        "possible_ce_year": 430,
+        "age": null,
+        "death_place": null
+      },
+      "limits": "本傳主體承接曇首，不是最近弘/義康。需有限年號/主語binding才typed；不反推生年。",
+      "first_batch_disposition": "typed death 430 with source 七年, no reported age or birth estimate"
+    },
+    {
+      "claim_id": "research:f030",
+      "category": "posthumous_titles",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+        "start": 25,
+        "end": 41,
+        "quote": "追贈左光祿大夫加散騎常侍詹事如故",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "titles": [
+          {
+            "title": "左光祿大夫",
+            "mode": "posthumous_grant"
+          },
+          {
+            "title": "散騎常侍",
+            "mode": "posthumous_addition"
+          },
+          {
+            "title": "詹事",
+            "mode": "retained_in_posthumous_record"
+          }
+        ]
+      },
+      "limits": "皆卒後語境，不能當生前實任或把詹事重授。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f031",
+      "category": "posthumous_rank",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+        "start": 41,
+        "end": 63,
+        "quote": "九年以預誅羨之等謀追封豫寧縣侯邑千戶諡曰文侯",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "source_year_expression": "九年",
+        "era_context": "元嘉",
+        "possible_ce_year": 432,
+        "rank": "豫寧縣侯",
+        "households": 1000,
+        "posthumous_name": "文侯"
+      },
+      "limits": "曇首身後追封/諡，受授人不是僧綽。heading若將來選文侯應編輯偏好非自動最高官。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f032",
+      "category": "honor",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+        "start": 63,
+        "end": 73,
+        "quote": "世祖即位配饗太祖廟庭",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "mode": "posthumous_temple_association",
+        "authorizing_ruler": "shizu",
+        "temple_ancestor": "taizu"
+      },
+      "limits": "世祖孝武帝與太祖文帝分人；本源未寫CE，不添確日。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f033",
+      "category": "kinship_succession",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+        "start": 73,
+        "end": 80,
+        "quote": "子僧綽嗣別有傳",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "sengchuo",
+      "interpretation": {
+        "father_role": "tanshou",
+        "source_term": "子",
+        "event": "succession",
+        "explicit_cross_reference": "別有傳"
+      },
+      "limits": "本源省略承爵名與嗣年；不能把父九年追封或世祖即位當子始年。與071豫章異文需分源。",
+      "first_batch_disposition": "partial: explicit father typed; 別有傳 crossref already typed; 嗣爵待續"
+    },
+    {
+      "claim_id": "research:f034",
+      "category": "kinship",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+        "start": 80,
+        "end": 84,
+        "quote": "少子僧虔",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "sengqian",
+      "interpretation": {
+        "father_role": "tanshou",
+        "source_term": "少子"
+      },
+      "limits": "不改numeric2，不補母，子表只有兩人不證全部兒子。",
+      "first_batch_disposition": "typed father plus 少子 original term, ordinal unknown"
+    },
+    {
+      "claim_id": "research:f035",
+      "category": "career",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+        "start": 84,
+        "end": 91,
+        "quote": "昇明末為尚書令",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "sengqian",
+      "interpretation": {
+        "title": "尚書令",
+        "source_date_expression": "昇明末",
+        "era_domain_ce": [
+          477,
+          479
+        ],
+        "phase": "末"
+      },
+      "limits": "受任人是僧虔；domain不是477–479任期，不以來源在末尾即填任終479。",
+      "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    }
+  ],
+  "claim_count": 35,
+  "no_age_attested_in_selected_unit": true,
+  "no_burial_or_birth_place_attested": true,
+  "all_life_dates_research_only_not_native_patch": true
+}

@@ -56,7 +56,11 @@ def resumption_valid(holding, previous, holdings, mentions):
                and a.get('start')==rank_start and a.get('end')==rank_start+1
                and a.get('context_role')=='pre_transfer_rank' for a in holding.get('attestations',[]))
 
-def royal_transfer_errors(holding, holdings, paragraphs, mentions):
+def royal_transfer_errors(holding, holdings, paragraphs, mentions, *, chapters=None, root=None):
+    if holding.get('transfer_basis',{}).get('kind')=='fixed_jin031_title_change':
+        try:from scripts.fixed_jin031_jia_remaining_titles import transfer_valid
+        except ImportError:from fixed_jin031_jia_remaining_titles import transfer_valid
+        return [] if transfer_valid(holding,holdings,paragraphs,mentions,chapters,root) else ['031公主改封須完整本源、同人前爵與同證終始']
     if (isinstance(holding.get('transfer_basis'), dict)
             and holding['transfer_basis'].get('kind') == 'elided_rank_regrant'):
         try:

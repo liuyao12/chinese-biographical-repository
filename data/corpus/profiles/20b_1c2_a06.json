@@ -9,12 +9,125 @@
     "楚王瑋",
     "瑋",
     "大王",
-    "之",
     "其",
     "己",
-    "楚王"
+    "楚王",
+    "元惡"
   ],
   "titles": [
+    {
+      "id": "th-jin031-more-chu-king",
+      "person_id": "20b_1c2_a06",
+      "title": "楚王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "quote": "后暴戾日甚。侍中賈模，后之族兄，右衛郭彰，后之從舅，並以才望居位，與楚王瑋、東安公繇分掌朝政。后母廣城君養孫賈謐干預國事，權侔人主。繇密欲廢后，賈氏憚之。及太宰亮、衛瓘等表繇徙帶方，奪楚王中候，后知瑋怨之，乃使帝作密詔令瑋誅瓘、亮，以報宿憾。模知后凶暴，恐禍及己，乃與裴頠、王衍謀廢之，衍悔而謀寢。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0034"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-chu-king:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "start": 34,
+          "end": 36,
+          "surface": "楚王",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0034",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:chu-king"
+      },
+      "interpretation_note": "本人源內具體職爵稱謂；只有稱呼，未明授予動作。 不從稱謂補授年/任期；被誅不等於各爵職明廢；齊王與翊軍校尉分存，不合成一個官名。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-jin031-more-chu-zhonghou",
+      "person_id": "20b_1c2_a06",
+      "title": "中候",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "quote": "后暴戾日甚。侍中賈模，后之族兄，右衛郭彰，后之從舅，並以才望居位，與楚王瑋、東安公繇分掌朝政。后母廣城君養孫賈謐干預國事，權侔人主。繇密欲廢后，賈氏憚之。及太宰亮、衛瓘等表繇徙帶方，奪楚王中候，后知瑋怨之，乃使帝作密詔令瑋誅瓘、亮，以報宿憾。模知后凶暴，恐禍及己，乃與裴頠、王衍謀廢之，衍悔而謀寢。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0092"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-chu-zhonghou:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "start": 94,
+          "end": 96,
+          "surface": "中候",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0092",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:chu-zhonghou"
+      },
+      "source_reading_qualification": {
+        "source_term": "表繇徙帶方，奪楚王中候",
+        "preferred_reading": "office_attestation_and_intended_removal",
+        "intended_action": "office_removal",
+        "actual_removal_asserted": false,
+        "actual_outcome": null,
+        "assertion_scope": "此筆不斷言已實免，並非斷言歷史未免或無其他史料。",
+        "comparison_reference": "source-evidence/jin031-jia-comparison/remaining-titles-comparison.json"
+      },
+      "interpretation_note": "楚王同本段瑋；只保中候源詞與奏奪判讀，不補北軍入原title、不定實免/終任，不把楚王爵廢除。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-phase4-j-070",
       "person_id": "20b_1c2_a06",
@@ -66,6 +179,78 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 31,
+      "category": "",
+      "title": "惠賈皇后傳",
+      "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "后暴戾日甚。侍中賈模，后之族兄，右衛郭彰，后之從舅，並以才望居位，與楚王瑋、東安公繇分掌朝政。后母廣城君養孫賈謐干預國事，權侔人主。繇密欲廢后，賈氏憚之。及太宰亮、衛瓘等表繇徙帶方，奪楚王中候，后知瑋怨之，乃使帝作密詔令瑋誅瓘、亮，以報宿憾。模知后凶暴，恐禍及己，乃與裴頠、",
+      "paragraph_ids": [
+        "c-jinshu-031-jia-comparison:p004",
+        "c-jinshu-031-jia-comparison:p006"
+      ],
+      "mention_ids": [
+        "c-jinshu-031-jia-comparison:p004:m0034",
+        "c-jinshu-031-jia-comparison:p004:m0092",
+        "c-jinshu-031-jia-comparison:p004:m0099",
+        "c-jinshu-031-jia-comparison:p004:m0110",
+        "c-jinshu-031-jia-comparison:p006:m0277"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-031-jia-comparison:p004:m0034": "c-jinshu-031-jia-comparison:p004",
+        "c-jinshu-031-jia-comparison:p004:m0092": "c-jinshu-031-jia-comparison:p004",
+        "c-jinshu-031-jia-comparison:p004:m0099": "c-jinshu-031-jia-comparison:p004",
+        "c-jinshu-031-jia-comparison:p004:m0110": "c-jinshu-031-jia-comparison:p004",
+        "c-jinshu-031-jia-comparison:p006:m0277": "c-jinshu-031-jia-comparison:p006"
+      },
+      "mention_id": "c-jinshu-031-jia-comparison:p004:m0034",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-031-jia-comparison:p004:m0034",
+          "mention_ids": [
+            "c-jinshu-031-jia-comparison:p004:m0034"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-031-jia-comparison:p004:m0092",
+          "mention_ids": [
+            "c-jinshu-031-jia-comparison:p004:m0092"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-031-jia-comparison:p004:m0099",
+          "mention_ids": [
+            "c-jinshu-031-jia-comparison:p004:m0099"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-031-jia-comparison:p004:m0110",
+          "mention_ids": [
+            "c-jinshu-031-jia-comparison:p004:m0110"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-031-jia-comparison:p006:m0277",
+          "mention_ids": [
+            "c-jinshu-031-jia-comparison:p006:m0277"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-031",
+      "chapter_id": "c-jinshu-031-jia-comparison",
+      "source_id": "s-jinshu031-jia-ws2479706-comparison",
+      "work_title": "晉書"
+    },
     {
       "number": 35,
       "category": "",
@@ -163,6 +348,150 @@
       "book_id": "b-jinshu-035",
       "chapter_id": "c-jinshu-035-peikai-family",
       "source_id": "s-jinshu-035-peikai-ws2506399",
+      "work_title": "晉書"
+    },
+    {
+      "number": 36,
+      "category": "",
+      "title": "衛瓘傳",
+      "paragraph_id": "c-jinshu-036-wei-comparison:p007",
+      "count": 9,
+      "raw_count": 9,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "與汝南王亮共輔朝政。亮奏遣諸王還籓，與朝臣廷議，無敢應者，唯瓘贊其事，楚王瑋由是憾焉。賈后素怨瓘，且忌其方直，不得騁己淫虐；又聞瓘與瑋有隙，遂謗瓘與亮欲為伊霍之事，啟帝作手詔，使瑋免瓘等官。黃門齎詔授瑋，瑋性輕險，欲聘私怨，夜使清河王遐收瓘。左右疑遐矯詔，咸諫曰：「禮律刑名，",
+      "paragraph_ids": [
+        "c-jinshu-036-wei-comparison:p007",
+        "c-jinshu-036-wei-comparison:p010",
+        "c-jinshu-036-wei-comparison:p015"
+      ],
+      "mention_ids": [
+        "c-jinshu-036-wei-comparison:p007:m0077",
+        "c-jinshu-036-wei-comparison:p007:m0108",
+        "c-jinshu-036-wei-comparison:p007:m0131",
+        "c-jinshu-036-wei-comparison:p007:m0142",
+        "c-jinshu-036-wei-comparison:p007:m0144",
+        "c-jinshu-036-wei-comparison:p010:m0000",
+        "c-jinshu-036-wei-comparison:p010:m0178",
+        "c-jinshu-036-wei-comparison:p010:m0247",
+        "c-jinshu-036-wei-comparison:p015:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-036-wei-comparison:p007:m0077": "c-jinshu-036-wei-comparison:p007",
+        "c-jinshu-036-wei-comparison:p007:m0108": "c-jinshu-036-wei-comparison:p007",
+        "c-jinshu-036-wei-comparison:p007:m0131": "c-jinshu-036-wei-comparison:p007",
+        "c-jinshu-036-wei-comparison:p007:m0142": "c-jinshu-036-wei-comparison:p007",
+        "c-jinshu-036-wei-comparison:p007:m0144": "c-jinshu-036-wei-comparison:p007",
+        "c-jinshu-036-wei-comparison:p010:m0000": "c-jinshu-036-wei-comparison:p010",
+        "c-jinshu-036-wei-comparison:p010:m0178": "c-jinshu-036-wei-comparison:p010",
+        "c-jinshu-036-wei-comparison:p010:m0247": "c-jinshu-036-wei-comparison:p010",
+        "c-jinshu-036-wei-comparison:p015:m0003": "c-jinshu-036-wei-comparison:p015"
+      },
+      "mention_id": "c-jinshu-036-wei-comparison:p007:m0077",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p007:m0077",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p007:m0077"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p007:m0108",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p007:m0108"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p007:m0131",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p007:m0131"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p007:m0142",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p007:m0142"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p007:m0144",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p007:m0144"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p010:m0000",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p010:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p010:m0178",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p010:m0178"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p010:m0247",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p010:m0247"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p015:m0003",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p015:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-036",
+      "chapter_id": "c-jinshu-036-wei-comparison",
+      "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+      "work_title": "晉書"
+    },
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充",
+      "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p024",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "封平陽鄉侯邑千戶及楚王瑋矯詔害汝南王亮太保衞瓘詔使模將中騶三百人收之是時賈后既豫朝政欲委信親黨拜模散騎常侍二日擢為侍中模乃盡心匡弼推張華裴頠同心輔政數年之中朝野寧靜模之力也及加授光祿大夫然模潛執權勢外形欲遠之每事啓奏賈后事入",
+      "paragraph_ids": [
+        "c-jinshu-040-wyd1739-jiachong:p024"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-wyd1739-jiachong:p024:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-wyd1739-jiachong:p024:m0009": "c-jinshu-040-wyd1739-jiachong:p024"
+      },
+      "mention_id": "c-jinshu-040-wyd1739-jiachong:p024:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-wyd1739-jiachong:p024:m0009",
+          "mention_ids": [
+            "c-jinshu-040-wyd1739-jiachong:p024:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+      "source_id": "s-jinshu-040-wyd1739-jiachong",
       "work_title": "晉書"
     },
     {
@@ -463,6 +792,35 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-031-jia-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-031",
+      "source_id": "s-jinshu031-jia-ws2479706-comparison",
+      "source": {
+        "title": "《晉書》卷三十一〈惠賈皇后傳〉",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷031&oldid=2479706",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷031&oldid=2479706",
+        "revision_id": 2479706,
+        "accessed_on": "2026-10-28",
+        "extent": "惠賈皇后完整8自然段1628正文碼點，含臨海公主附敘；兩Wiki ref另存，不含後接惠羊皇后及卷末史評，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "edition": "固定WS2479706數位比較；印本未知，非武英殿本、非首選讀本。",
+        "rights": "沿既存固定Wikisource原文及數位轉錄歸屬；本次重用本地raw，未重新取得固定網頁或書影。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "sources/jinshu/031-jia-ws2479706.wikitext",
+        "raw_path": "sources/jinshu/031-jia-ws2479706.wikitext",
+        "raw_file_sha256": "fce325e2f752536c45c0b03e3fb7ead1f6808bc797adc186cfa32af8173b21b5",
+        "normalization": {
+          "character_conversion": {},
+          "acquisition_scope": "existing_native_raw_reused; fresh Commons image request403; no image obtained",
+          "notes": "精確去除行首空白、單一YL包裝與別有傳連結語法，兩ref全文與raw字位另存；不改为/异體。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-jinshu-035-peikai-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-035",
@@ -487,6 +845,97 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "展開連結顯示字、去粗體排版；標題另層。㲄、俊郎、雲及缺閉引號原樣保留。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-036-wei-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-036",
+      "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+      "source": {
+        "title": "《晉書》卷三十六〈衛瓘傳〉",
+        "provider": "Wikisource fixed-revision rendered capture",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷036&oldid=2108231",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷036&oldid=2108231",
+        "revision_id": 2108231,
+        "accessed_on": "2026-10-28",
+        "extent": "衛瓘至張華前的完整衛氏相關單元，含恆、璪、玠、展及四體書勢全文。25個數位blocks7145字中4題頭13字另存結構，21正文段7129字；數位[1]與現代註另層，不是全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "edition": null,
+        "edition_qualification": "印本底本未核，固定數位比較見證；非武英殿、非首選讀本、未圖校。未確認是否出於四庫，不採作首選base。",
+        "image_verified": false,
+        "human_reviewed": false,
+        "preferred_text_base": false,
+        "capture_ref": "source-evidence/jin036-wei-comparison/rendered-extract.txt",
+        "capture_sha256": "6db27cbd14cb251ba7ab4e58e9064b02d808cd893b02c044e359c7ccedd73659",
+        "capture_kind": "fixed_revision_HTML_rendered_text_extract",
+        "original_wikitext_obtained": false,
+        "source_response_sha256": "6dc95bd5962acbb6d2e8d3854ee215d7693d07f11b5224e5bcaa53af7d531dfb",
+        "source_response_revision_ids": [
+          2108231
+        ],
+        "original_HTML_private_only": true,
+        "rights": "古代原文與維基文庫數位轉錄；原數位修訂與授權歸屬保留。私有HTML不入庫。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除數位h2/h3題頭及[1]現代footnote標記；正文/內嵌四體書勢的異體、標點、空白與換行照留；HTML字元實體按已封rendered文字呈現。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-wyd1739-jiachong",
+      "source": {
+        "title": "晉書卷四十賈充傳",
+        "provider": "CBR AI direct transcription of Commons-hosted NLC scan",
+        "url": "https://commons.wikimedia.org/w/index.php?curid=124071867",
+        "permalink": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12244_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC111%E5%86%8A.pdf&oldid=953943009",
+        "revision_id": "cbr-ai-transcription-sha256:209d9b8a8a2f183a7ad3ed749da0273d85e177f9ff7feaf3ceea7edc3ffeabd0",
+        "edition": "Commons/NLC著錄清乾隆四年武英殿本；本單元版外親見乾隆四年校刊，非最早存本普查",
+        "extent": "PDF81左第5欄至93左第6欄；完整賈充及附郭槐、賈謐、混、模、郭彰；不含楊駿、全卷史論贊與考證。",
+        "text_scope": "partial_chapter",
+        "review_status": "AI_image_transcription_draft",
+        "image_verified": false,
+        "image_verification_qualification": "AI逐頁逐列視讀；無人工全字圖校，未辨字以〓記，其他編碼仍待獨立覆核。",
+        "raw_file": "source-evidence/jin040-wyd1739-jiachong/transcription-columns.txt",
+        "raw_sha256": "209d9b8a8a2f183a7ad3ed749da0273d85e177f9ff7feaf3ceea7edc3ffeabd0",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "由實存原PDF本地渲染書影逐列AI轉錄，非PDF文字抽取；頁側段界為編輯定位而非原刻標點。",
+          "editorial_readings": [],
+          "missing_text_markers": [],
+          "column_locations_ref": "source-evidence/jin040-wyd1739-jiachong/image-column-locations.json",
+          "column_locations_sha256": "7e20be06fda6c822340f1da6a3d59a595f6f93519072221a5437eecb4ec2f16c",
+          "glyph_review_ref": "source-evidence/jin040-wyd1739-jiachong/glyph-review-qualification.json",
+          "glyph_review_sha256": "49593e5e9e88d16ae81555aea4309bf75c20e92309da58e22d4022476ade088c",
+          "ai_transcription_correction_ref": "source-evidence/jin040-wyd1739-jiachong/ai-transcription-correction-pdf92-r3.json",
+          "ai_transcription_correction_sha256": "3c368d3dee16b6764b87234c19879be0c9499697a6c896e9e0d16e641fd86437"
+        },
+        "rights": "Commons本檔imageinfo明載Public domain / PD-scan；僅發布古文AI轉錄、元資料及外鏈，不發布影像或原PDF。",
+        "license_url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12244_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC111%E5%86%8A.pdf&oldid=953943009",
+        "received_transcription_witness": {
+          "transcription_path": "source-evidence/jin040-wyd1739-jiachong/transcription-columns.txt",
+          "transcription_sha256": "209d9b8a8a2f183a7ad3ed749da0273d85e177f9ff7feaf3ceea7edc3ffeabd0",
+          "transcription_revision": "cbr-ai-transcription-sha256:209d9b8a8a2f183a7ad3ed749da0273d85e177f9ff7feaf3ceea7edc3ffeabd0",
+          "reported_pdf_sha1": "4496f73a5a8b4270b6d9399dbf5410a0191ae48c",
+          "reported_pdf_bytes": 31296322,
+          "original_pdf_locally_obtained": true,
+          "commons_description_revision": 953943009,
+          "reported_pdf_pages": 101,
+          "nlc_bookid": "411999017142",
+          "nlc_volumeid": "12244",
+          "nlc_rare_book_number": "09753",
+          "composition_date": null,
+          "edition_year": 1739,
+          "earliest_extant_edition_claim": null,
+          "edition_year_role": "catalogued_printed_edition_year",
+          "human_image_reviewed": false,
+          "original_pdf_sha256": "6dd1eaf62e183b7137aae7075fbede4e81d098d56d92b718696aca61d36291ac"
         }
       }
     },

@@ -1,4 +1,5 @@
 # coding: utf-8
+from tests.portable_fixture_copy import fixture_copy2
 import json
 import unittest
 from pathlib import Path
@@ -211,9 +212,9 @@ class HanLuIdentityTests(unittest.TestCase):
             target = Path(folder) / 'repo'
             # Native validation reads these inputs; public bundles, reader imports
             # and other generated outputs do not participate in this operation.
-            for name in ('registry', 'corpus', 'source-evidence', 'sources'):
-                shutil.copytree(ROOT / name, target / name)
-            shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables')
+            for name in ('registry', 'corpus', 'source-evidence', 'sources', 'scripts', 'docs', 'schema'):
+                shutil.copytree(ROOT / name, target / name, copy_function=fixture_copy2)
+            shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables', copy_function=fixture_copy2)
             (target / 'data/corpus').mkdir(parents=True)
             shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
             shutil.copy2(ROOT / 'data/corpus/chapter-directory.json', target / 'data/corpus/chapter-directory.json')
@@ -232,9 +233,9 @@ class HanLuIdentityTests(unittest.TestCase):
             target = Path(folder) / 'repo'
             # Native validation reads these inputs; public bundles, reader imports
             # and other generated outputs do not participate in this operation.
-            for name in ('registry', 'corpus', 'source-evidence', 'sources'):
-                shutil.copytree(ROOT / name, target / name)
-            shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables')
+            for name in ('registry', 'corpus', 'source-evidence', 'sources', 'scripts', 'docs', 'schema'):
+                shutil.copytree(ROOT / name, target / name, copy_function=fixture_copy2)
+            shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables', copy_function=fixture_copy2)
             (target / 'data/corpus').mkdir(parents=True)
             shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
             shutil.copy2(ROOT / 'data/corpus/chapter-directory.json', target / 'data/corpus/chapter-directory.json')

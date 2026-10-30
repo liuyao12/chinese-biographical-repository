@@ -1194,6 +1194,33 @@
       "human_reviewed": false,
       "reviewer": "Codex（AI代理）",
       "model": null
+    },
+    {
+      "key": "chess-friend",
+      "person_id": "7jd_v67_2hi",
+      "disposition": "source_local_anonymous_individual",
+      "surfaces": [
+        "友人",
+        "友"
+      ],
+      "mention_ids": [
+        "c-nanshi-020-xiehongwei:p017:m0012",
+        "c-nanshi-020-xiehongwei:p017:m0015",
+        "c-nanshi-020-xiehongwei:p017:m0036"
+      ],
+      "qualification": "本源明確未名個體；姓名、性別、跨篇同指未知。未證與慧琳或客兒同指，不宣稱必異人。"
+    },
+    {
+      "key": "chess-guest",
+      "person_id": "pzg_0ow_bhl",
+      "disposition": "source_local_anonymous_individual",
+      "surfaces": [
+        "一客"
+      ],
+      "mention_ids": [
+        "c-nanshi-020-xiehongwei:p017:m0024"
+      ],
+      "qualification": "本源明確未名個體；姓名、性別、跨篇同指未知。未證與慧琳或客兒同指，不宣稱必異人。"
     }
   ],
   "unresolved": [
@@ -1448,58 +1475,6 @@
       }
     },
     {
-      "paragraph_id": "c-nanshi-020-xiehongwei:p017",
-      "mention": {
-        "id": "c-nanshi-020-xiehongwei:p017:m0012",
-        "start": 12,
-        "end": 14,
-        "surface": "友人",
-        "kind": "unresolved",
-        "person_id": null,
-        "status": "unresolved",
-        "interpretation_note": "弘微末年對棋友未名；同一段內重稱可同一角色，但無canonical人名。"
-      }
-    },
-    {
-      "paragraph_id": "c-nanshi-020-xiehongwei:p017",
-      "mention": {
-        "id": "c-nanshi-020-xiehongwei:p017:m0015",
-        "start": 15,
-        "end": 17,
-        "surface": "友人",
-        "kind": "unresolved",
-        "person_id": null,
-        "status": "unresolved",
-        "interpretation_note": "弘微末年對棋友未名；同一段內重稱可同一角色，但無canonical人名。"
-      }
-    },
-    {
-      "paragraph_id": "c-nanshi-020-xiehongwei:p017",
-      "mention": {
-        "id": "c-nanshi-020-xiehongwei:p017:m0024",
-        "start": 24,
-        "end": 26,
-        "surface": "一客",
-        "kind": "unresolved",
-        "person_id": null,
-        "status": "unresolved",
-        "interpretation_note": "提示西南死勢的一客未名，不同對棋友角色，未強合。"
-      }
-    },
-    {
-      "paragraph_id": "c-nanshi-020-xiehongwei:p017",
-      "mention": {
-        "id": "c-nanshi-020-xiehongwei:p017:m0036",
-        "start": 36,
-        "end": 37,
-        "surface": "友",
-        "kind": "unresolved",
-        "person_id": null,
-        "status": "unresolved",
-        "interpretation_note": "友悟乃救之之對棋友，非另一新人物。"
-      }
-    },
-    {
       "paragraph_id": "c-nanshi-020-xiehongwei:p018",
       "mention": {
         "id": "c-nanshi-020-xiehongwei:p018:m0002",
@@ -1728,6 +1703,30 @@
       "person_id": "ije_ngm_cmj",
       "decision_id": "d-nanshi020-langye-king",
       "rationale": "弘微義熙初襲封後任琅邪王大司馬參軍，敘事在義熙八年混被誅前；固定晉書010義熙元年明琅邪王德文為大司馬，義熙六年仍明同號職，恭帝本紀亦敘復琅邪王後拜大司馬。王號、職位及敘事時段相合，辨為司馬德文；不同於同段以琅邪為郡望的王練、王球。不能由府主任命年推出弘微參軍始年。"
+    },
+    {
+      "mention_id": "c-nanshi-020-xiehongwei:p017:m0012",
+      "person_id": "7jd_v67_2hi",
+      "decision_id": "d-nanshi020-hongwei-chess-friend",
+      "rationale": "本源明確未名個體；姓名、性別、跨篇同指未知。未證與慧琳或客兒同指，不宣稱必異人。"
+    },
+    {
+      "mention_id": "c-nanshi-020-xiehongwei:p017:m0015",
+      "person_id": "7jd_v67_2hi",
+      "decision_id": "d-nanshi020-hongwei-chess-friend",
+      "rationale": "本源明確未名個體；姓名、性別、跨篇同指未知。未證與慧琳或客兒同指，不宣稱必異人。"
+    },
+    {
+      "mention_id": "c-nanshi-020-xiehongwei:p017:m0036",
+      "person_id": "7jd_v67_2hi",
+      "decision_id": "d-nanshi020-hongwei-chess-friend",
+      "rationale": "本源明確未名個體；姓名、性別、跨篇同指未知。未證與慧琳或客兒同指，不宣稱必異人。"
+    },
+    {
+      "mention_id": "c-nanshi-020-xiehongwei:p017:m0024",
+      "person_id": "pzg_0ow_bhl",
+      "decision_id": "d-nanshi020-hongwei-second-guest",
+      "rationale": "本源明確未名個體；姓名、性別、跨篇同指未知。未證與慧琳或客兒同指，不宣稱必異人。"
     }
   ]
 }

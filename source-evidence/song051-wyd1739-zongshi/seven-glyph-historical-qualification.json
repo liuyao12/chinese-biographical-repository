@@ -1,0 +1,71 @@
+{
+  "record_type": "historical_source_snapshot_qualification",
+  "current_transcription_sha256": "56753db8e4242acd19dd7729cc4ca460d53795449c5d9e336c923be767dd91ed",
+  "historical_files": [
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/daogui-reading-ledger.json",
+      "sha256": "3ecaf26e8e7bd6bd282a4f66a84ffb0fe0497c6a826f3b9086e9def91f291b89",
+      "qualification": "收到當次轉錄/閱讀/更正之固定快照；其中current_raw_sha256是當時資訊，不是此後current端點。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/daolian-reading-ledger.json",
+      "sha256": "6d52e4e9b4a5c50364338e8a7e35faeb8b875197ef4d5ddce34b73f5ff2b237d",
+      "qualification": "收到當次轉錄/閱讀/更正之固定快照；其中current_raw_sha256是當時資訊，不是此後current端點。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/historical-transcriptions/5e2a4ad7e6d2abf573556c6aad9f1171261b5d68dba8b05724b69c951a912620/qualification.json",
+      "sha256": "49073ec2819ff351cb36157a17d367fb0824a50f95b3ebbfe6ac4e8e5a53e5ed",
+      "qualification": "收到當次轉錄/閱讀/更正之固定快照；其中current_raw_sha256是當時資訊，不是此後current端點。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/yixin-reading-ledger.json",
+      "sha256": "c695d451ab2274b2de42b2f359db848449fb92e3208b0904990bacf435b4d700",
+      "qualification": "收到當次轉錄/閱讀/更正之固定快照；其中current_raw_sha256是當時資訊，不是此後current端點。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/zihui-name-glyph-correction.json",
+      "sha256": "5b29f49cfd63c63f8498653544b7553271c7895dc6ef529db7c4dcf480e5aa10",
+      "qualification": "收到當次轉錄/閱讀/更正之固定快照；其中current_raw_sha256是當時資訊，不是此後current端點。"
+    },
+    {
+      "path": "source-evidence/song051-yizong-bing/complete-unit-reading-ledger.json",
+      "sha256": "6c845e6d5529ee6dc009cf0499f2a9f90e3bf427295c134fe87e8aca8faf9d49",
+      "qualification": "收到當次轉錄/閱讀/更正之固定快照；其中current_raw_sha256是當時資訊，不是此後current端點。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/yinxiao-glyph-ner-correction.json",
+      "sha256": "440278deb18fb31a0c37d0f5c19a42d9f608022f86058e6956301af1e7594fb0",
+      "qualification": "既有更正收據，保完整原bytes，不以新raw回寫歷史。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/zunkao-kunzhi-twelve-glyph-correction.json",
+      "sha256": "7434aa59971ee45991d052ef3205bfdd4307c145ffead82ee7e72a29ef8e470c",
+      "qualification": "既有更正收據，保完整原bytes，不以新raw回寫歷史。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/two-glyph-correction.json",
+      "sha256": "899feecbd32f57327f1c9c48437c7d48b556f6864ca085435d492175b4824e96",
+      "qualification": "既有更正收據，保完整原bytes，不以新raw回寫歷史。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/yiqing-son-aiwang-ye-glyph-correction.json",
+      "sha256": "494b9bed7708427a89400064739d32c744c54c608134147a27e78b9114725658",
+      "qualification": "既有更正收據，保完整原bytes，不以新raw回寫歷史。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/yirong-son-di-glyph-correction.json",
+      "sha256": "0bd2ddaa8c70ac98ab4d33043d892ab4904aea7c5b895795629c952de8145e1d",
+      "qualification": "既有更正收據，保完整原bytes，不以新raw回寫歷史。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/historical-transcriptions/dfbed087b630bd64a0feb3146f20110f028636e78ab4fbe28d8e4653101d1867/transcription-columns.txt",
+      "sha256": "dfbed087b630bd64a0feb3146f20110f028636e78ab4fbe28d8e4653101d1867",
+      "qualification": "七字更正前完整AI列稿；非現役、非別名、非新本底本。"
+    }
+  ],
+  "scope": "逐檔完整path/SHA保護舊reading/correction/transcription snapshot；原檔內current_raw等只是其收到時期之資訊，不是本階段current端點。",
+  "no_directory_or_person_id_exemption": true,
+  "human_reviewed": false,
+  "image_verified": false,
+  "model": null
+}

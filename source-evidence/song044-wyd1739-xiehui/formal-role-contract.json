@@ -2482,6 +2482,33 @@
         }
       ],
       "rationale": "不只糾/赳近形；同一文帝近臣網及同伴狄當為正證。WYD未明周糾字/官，無原句直接說兩字互異；保可撤回contextual首選，原字糾不校改/不新增確定別名。；H046 p002中書舍人狄當周赳並管要務；WYD p009周糾使下及同段狄當譖王華，皆宋文帝王華近臣/使者網絡；H063 line039周赳侍宋文帝並言王曇首之死，時代/宮廷往來相容"
+    },
+    "shuduan-allusion": {
+      "seeds": [
+        {
+          "path": "corpus/shiji/042.json",
+          "chapter_id": "c-shiji-042-zheng",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-042",
+          "source_id": "s-shiji-042-zheng",
+          "source_revision": 2016409,
+          "paragraph_id": "c-shiji-042-zheng:p003",
+          "paragraph_text": "武公十年，娶申侯女爲夫人，曰武姜。生太子寤生，生之難，及生，夫人弗愛。後生少子叔段，段生易，夫人愛之。二十七年，武公疾。夫人請公，欲立段爲太子，公弗聽。是歳，武公卒，寤生立，是爲莊公。",
+          "paragraph_sha256": "6b2e33de3af520515aec24425867f03e1dd0f2bb5ec387c87fb0689975c24589",
+          "marker": {
+            "id": "c-shiji-042-zheng:m003-0039",
+            "start": 39,
+            "end": 41,
+            "surface": "叔段"
+          },
+          "source_metadata_sha256": "17e48b3d76469b3abb359495e7ea64558901a2132d4927fb579a7842270bf74a",
+          "source_identity_fields": {
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷042",
+            "revision_id": 2016409
+          }
+        }
+      ]
     }
   },
   "paragraphs": [
@@ -2760,7 +2787,7 @@
           "start": 0,
           "end": 1,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": {
             "$role": "hui"
           },
@@ -6741,11 +6768,13 @@
           "start": 126,
           "end": 128,
           "surface": "叔段",
-          "status": "unresolved",
-          "interpretation_note": "鄭叔段典故候選；未借熟知故事補全名或父系。",
-          "kind": "unresolved",
-          "person_id": null,
-          "unresolved_kind": "historical_allusion_unresolved"
+          "status": "contextual_provisional",
+          "interpretation_note": "謝晦表引鄭莊公弟叔段之罰；042完整父母/封京/伐段脈絡作有資格同指，不作宋代在場或死亡。",
+          "kind": "person",
+          "person_id": {
+            "$role": "shuduan-allusion"
+          },
+          "source_role_key": "shuduan-allusion"
         },
         {
           "id": "c-songshu-044-wyd1739-xiehui:p012:m0135",
@@ -8554,7 +8583,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI）",
     "human_reviewed": false,
-    "coverage": "完整22段第一輪逐人標記438錨：51既有角色及45可查來源暫分個體（不是45位已證新人）；19未定與3書名保留。身份/親屬與字形仍可覆核，未稱全史學定案。",
+    "coverage": "完整22段第一輪逐人標記438錨：52既有角色及45可查來源暫分個體（不是45位已證新人）；18未定與3書名保留。身份/親屬與字形仍可覆核，未稱全史學定案。",
     "limitations": [
       "一疑字〓為編輯占位，非原刻",
       "75異體編碼queue仍待逐字核，不因契約雜湊相等視為校定",
@@ -8563,7 +8592,7 @@
     "fixed_transcription_contract": "wuyingdian_song044_transcription",
     "ner_draft_status": "full_individual_first_pass_in_progress",
     "ner_role_contract": "source-evidence/song044-wyd1739-xiehui/formal-role-contract.json",
-    "coverage_note": "第一輪來源確指個體使用合法PID；source_local_candidate不表示已證異人。19處真正未定與3書名保留；跨篇身份及親屬並非全史學定案。"
+    "coverage_note": "第一輪來源確指個體使用合法PID；source_local_candidate不表示已證異人。18處真正未定與3書名保留；跨篇身份及親屬並非全史學定案。"
   },
   "human_reviewed": false,
   "local_roles": {

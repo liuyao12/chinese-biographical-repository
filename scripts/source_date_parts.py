@@ -24,6 +24,10 @@ def explicit_month_parts_valid(parts, text, expression_anchor, parse_number):
     except(KeyError,TypeError,IndexError):return False
 
 def source_date_parts_valid(event,chapters,parse_number,root=None):
+    if event.get('source_date_parts',{}).get('kind')=='fixed_jin040_explicit_chinese_calendar_month':
+        try:from scripts.fixed_wuyingdian_jin040_jiachong import death_month_valid
+        except ImportError:from fixed_wuyingdian_jin040_jiachong import death_month_valid
+        return death_month_valid(event,chapters,root)
     if event.get("source_date_parts",{}).get("kind")=="explicit_chinese_calendar_month_and_death_day":
         try:
             from scripts.archived_parallel_death import date_parts_valid

@@ -33,6 +33,11 @@ def validate_xiaoming(name,paragraph=None):
  if value is None and basis is None:return
  def fail():raise ValueError('小名須有完整原段及小名原詞，依父子對舉或傳記諱字小名句保存同人四錨，不得冒作字／小字或取普通果名')
  if not(isinstance(value,str)and value and value==value.strip()and isinstance(paragraph,dict)and name.get('quote')==paragraph.get('text')and isinstance(basis,dict)):fail()
+ if basis.get('kind')=='fixed_jin031_opening_ming_origin_xiaoming':
+  try:from scripts.fixed_jin031_jia_comparison import xiaoming_valid as jia_xiaoming_valid
+  except ImportError:from fixed_jin031_jia_comparison import xiaoming_valid as jia_xiaoming_valid
+  if not jia_xiaoming_valid(name,paragraph):fail()
+  return
  if basis.get('kind')=='explicit_biographical_name_sequence':
   if not biographical_xiaoming_valid(name,paragraph):fail()
   return

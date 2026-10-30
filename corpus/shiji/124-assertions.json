@@ -158,7 +158,7 @@
       "id": "a-shiji124-008",
       "subject_person_id": "5if_pf6_zos_A",
       "predicate": "grandmother",
-      "object_person_id": "qjf_e2p_lm1",
+      "object_person_id": "qlu_yvc_mtu",
       "status": "source_attested",
       "evidence": [
         {
@@ -172,10 +172,30 @@
         "source_term": "外孫",
         "lineage": "maternal",
         "generation_difference": -2,
-        "mother_person_id": null
+        "mother_person_id": null,
+        "interpretation_status": "contextual_provisional",
+        "grandparent_sex_basis": {
+          "kind": "cross_source_reference",
+          "identity_decision_id": "d-shiji-xufu-three-source-context",
+          "reference_path": "source-evidence/xufu-three-source/reference-reading.json",
+          "source_term": "老嫗",
+          "source_only_124_sex": null,
+          "qualification": "124外孫只證母系祖親；女性另依057索隱引應劭＋三源同指首選"
+        }
       },
-      "interpretation_note": "原文明示郭解為許負外孫，記客體為母系祖母、早兩代；本句未名母親保持未知，另段郭解母記錄不改寫此句，也不接父系家族根。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "本段外孫原稱直接證郭解與許負之母系祖親關係、早兩代；單句未明許負性別。客體為母系祖母的讀法另據《史記》卷57索隱引應劭「負，河內溫人，老嫗也」，並經卷49/57/124相者許負有資格同人判斷；外證為未圖核數位轉引，不冒本源明言女性。未補郭解母名或父系連接。",
+      "reviewer": "Codex（AI 代理）",
+      "prior_interpretation_qualification": {
+        "original_note": "原文明示郭解為許負外孫，記客體為母系祖母、早兩代；本句未名母親保持未知，另段郭解母記錄不改寫此句，也不接父系家族根。",
+        "qualification": "先前原註稱本句明示母系祖母，今分明外孫只證母系祖親距2；女性另有索隱外證。"
+      },
+      "references": [
+        {
+          "title": "《史記・絳侯周勃世家》索隱",
+          "path": "source-evidence/xufu-three-source/reference-reading.json",
+          "qualification": "老嫗性別外證＋三源同指；不是124本句自含性別"
+        }
+      ]
     }
   ]
 }

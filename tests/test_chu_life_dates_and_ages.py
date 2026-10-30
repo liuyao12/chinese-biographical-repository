@@ -21,7 +21,7 @@ class ChuLifeDatesAndAges(unittest.TestCase):
         self.assertEqual(self.a['person_id'], 'xke_dj3_6ba')
         self.assertIsNone(self.a['value'])
         self.assertIsNone(self.a['birth_year'])
-        for key, value in [('value', 49), ('bounds', {'upper': 50}), ('birth_year', 300), ('subject_scope', None)]:
+        for key, value in [('value', 49), ('bounds', {'upper': 50}), ('birth_year', 300), ('subject_scope', None), ('subject_scope', []), ('approximation', None), ('approximation_interpretation', None)]:
             a = copy.deepcopy(self.a); a[key] = value
             self.assertTrue(age_approximation_errors(a, self.p), key)
     def test_cannot_move_ancestor_age_to_biography_subject_or_false_quote(self):

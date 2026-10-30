@@ -1,0 +1,17 @@
+{
+  "record_type": "fixed_source_stage_qualification",
+  "prior_source_only_contract": {
+    "path": "source-evidence/jin080-wangxizhi-comparison/contract.json",
+    "sha256": "52673cac21caade1b41bd68238fc7463ef14b5d2c0515f6969445e52b50b7fd1",
+    "role": "immutable_prior_source_only_stage_not_current_ner_contract",
+    "scope": "47段來源轉錄、mentions空的已封前置；不改原hash/bytes，不冒現行NER驗證器仍消費舊空標註模板。"
+  },
+  "current_templates": [
+    "source-evidence/jin080-wangxizhi-comparison/ner-template.json",
+    "source-evidence/jin080-wangxizhi-comparison/ner-facts-template.json",
+    "source-evidence/jin080-wangxizhi-comparison/ner-names-template.json",
+    "source-evidence/jin080-wangxizhi-comparison/ner-identities-template.json"
+  ],
+  "scope": "此記錄只區分實際固定前置與current模板；不授予任何舊人物ID/目錄掃描豁免。",
+  "human_reviewed": false
+}

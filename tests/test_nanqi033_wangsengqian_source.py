@@ -1,6 +1,6 @@
 import unittest,json,re,hashlib
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1];J=lambda p:json.loads(p.read_text());C=J(ROOT/'corpus/nanqishu/033-wangsengqian.json');N=J(ROOT/'corpus/nanshi/022-wangzhi.json');A=J(ROOT/'corpus/nanqishu/033-wangsengqian-assertions.json')['assertions'];B=J(ROOT/'corpus/nanshi/022-wangzhi-assertions.json')['assertions'];I=J(ROOT/'tests/fixtures/nanqi033-wangsengqian/person-ids.json')
+ROOT=Path(__file__).resolve().parents[1];J=lambda p:json.loads(p.read_text());C=J(ROOT/'corpus/nanqishu/033-wangsengqian.json');N=J(ROOT/'corpus/nanshi/022-wangzhi.json');A=J(ROOT/'corpus/nanqishu/033-wangsengqian-assertions.json')['assertions'];B=J(ROOT/'corpus/nanshi/022-wangzhi-assertions.json')['assertions'];I=J(ROOT/'tests/fixtures/nanqi033-wangsengqian/person-ids.json');I=dict(I,xizhi='7r6_k52_qji_ABDCA')
 def at(i,term,off=0):
  p=C['paragraphs'][i-1];a=p['text'].index(term)+off;return next(m for m in p['mentions']if m['start']==a)
 class Nanqi033WangsengqianSource(unittest.TestCase):

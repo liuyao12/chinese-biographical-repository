@@ -8,7 +8,7 @@
   "names": [
     "王凌",
     "凌",
-    "之"
+    "王淩"
   ],
   "titles": [
     {
@@ -2315,10 +2315,83 @@
       "chapter_id": "c-sanguozhi-028-wangling",
       "source_id": "s-sanguozhi-028-wangling",
       "work_title": "三國志"
+    },
+    {
+      "number": 98,
+      "category": "",
+      "title": "王敦傳",
+      "paragraph_id": "c-jinshu-098-wangdun-comparison:p036",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "儒斬沈充，並傳首京師。有司議曰：「王敦滔天作逆，有無君之心，宜依崔杼、王浚故事，剖棺戮屍，以彰元惡。」於是發瘞出屍，焚其衣冠，跽而刑之。敦、充首同日懸于南桁，觀者莫不稱慶。敦首既懸，莫敢收葬者。尚書令郗鑒言於帝曰：「昔王莽漆頭以輗車，董卓然腹以照市，王淩儭土，徐馥焚首。前朝",
+      "paragraph_ids": [
+        "c-jinshu-098-wangdun-comparison:p036"
+      ],
+      "mention_ids": [
+        "c-jinshu-098-wangdun-comparison:p036:m0044",
+        "c-jinshu-098-wangdun-comparison:p036:m0134"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-098-wangdun-comparison:p036:m0044": "c-jinshu-098-wangdun-comparison:p036",
+        "c-jinshu-098-wangdun-comparison:p036:m0134": "c-jinshu-098-wangdun-comparison:p036"
+      },
+      "mention_id": "c-jinshu-098-wangdun-comparison:p036:m0044",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-098-wangdun-comparison:p036:m0044",
+          "mention_ids": [
+            "c-jinshu-098-wangdun-comparison:p036:m0044"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-098-wangdun-comparison:p036:m0134",
+          "mention_ids": [
+            "c-jinshu-098-wangdun-comparison:p036:m0134"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "chapter_id": "c-jinshu-098-wangdun-comparison",
+      "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-098-wangdun-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+      "source": {
+        "title": "《晉書》卷九十八〈王敦傳〉",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷098&oldid=2614273",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷098&oldid=2614273",
+        "revision_id": 2614273,
+        "accessed_on": "2026-10-27",
+        "extent": "完整王敦37段、附沈充3段與相接史臣曰1段；41段7827字。原raw202:8177，不含桓溫、孟嘉及卷末合贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "edition": "固定數位轉錄，底本未核；僅比較，非武英殿本，非首選讀本。",
+        "rights": "古代原文與維基文庫固定數位轉錄；原修訂及授權歸屬保留。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "sources/jinshu/wikisource-2614273-raw.wikitext",
+        "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
+        "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "wikitext_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼點投影移除數位節題、段首縮排與連結語法。𩦎保固定模板第一參數；不解原刻。奏表/詔書/引語留正文，史臣曰獨立層。"
+        }
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-026-guohuai",
       "work_id": "w-sanguozhi",
@@ -7203,7 +7276,110 @@
       "event_type": "death"
     }
   ],
+  "reading_decisions": [
+    {
+      "id": "d-jin098-wangling",
+      "person_id": "f89_ad1_61d",
+      "surfaces": [
+        "王淩"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-jinshu-098-wangdun-comparison",
+        "c-sanguozhi-027-wangchang",
+        "c-sanguozhi-028-wangling"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "moderate",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+          "chapter_id": "c-jinshu-098-wangdun-comparison",
+          "paragraph_id": "c-jinshu-098-wangdun-comparison:p036",
+          "quote": "既而周光斬錢鳳，吳儒斬沈充，並傳首京師。有司議曰：「王敦滔天作逆，有無君之心，宜依崔杼、王浚故事，剖棺戮屍，以彰元惡。」於是發瘞出屍，焚其衣冠，跽而刑之。敦、充首同日懸于南桁，觀者莫不稱慶。敦首既懸，莫敢收葬者。尚書令郗鑒言於帝曰：「昔王莽漆頭以輗車，董卓然腹以照市，王淩儭土，徐馥焚首。前朝誅楊駿等，皆先極官刑，後聽私殯。然《春秋》許齊襄之葬紀侯，魏武義王修之哭袁譚。由斯言之，王誅加於上，私義行於下。臣以為可聽私葬，於義為弘。」昭許之，於是敦家收葬焉。含父子乘單船奔荊州刺史王舒，舒使人沈之于江，餘黨悉平。",
+          "mention_ids": [
+            "c-jinshu-098-wangdun-comparison:p036:m0044",
+            "c-jinshu-098-wangdun-comparison:p036:m0134"
+          ]
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-027",
+          "source_id": "s-sanguozhi-027-wangchang",
+          "chapter_id": "c-sanguozhi-027-wangchang",
+          "paragraph_id": "c-sanguozhi-027-wangchang:unit003",
+          "quote": "少與同郡王凌俱知名凌年長昶兄事之文帝在東宫昶為太子文學遷中庶子文帝踐阼徙散騎侍郎為洛陽典農時都畿樹木成林昶斫開荒萊勤勸百姓墾田特多遷兖州刺史眀帝即位加揚烈將軍賜爵關内侯昶雖在外任心存朝廷以為魏承秦漢之弊法制苛碎不大釐改國典以凖先王之風而望治化復興不可得也乃著治論略依古制而合於時務者二十餘篇又著兵書十餘篇言竒正之用",
+          "mention_id": "c-sanguozhi-027-wangchang:unit003:m0004"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-028",
+          "source_id": "s-sanguozhi-028-wangling",
+          "chapter_id": "c-sanguozhi-028-wangling",
+          "paragraph_id": "c-sanguozhi-028-wangling:unit013",
+          "quote": "朝議咸以為春秋之義齊崔杼鄭歸生皆加追戮陳尸斵棺載在方策凌愚罪宜如舊典乃發凌愚冡剖棺暴尸於所近市三日燒其印綬朝服親土埋之",
+          "mention_id": "c-sanguozhi-028-wangling:unit013:m0027"
+        }
+      ],
+      "rationale": "原王浚，與同段後文王淩儭土及028王凌傳明引崔杼/剖棺刑例相合，AI可撤回首選指王淩。疑轉錄/傳寫誤，未圖校，不作真正別名；既有王浚/濬與468主簿王淩各保原狀。",
+      "human_reviewed": false,
+      "model": null,
+      "parallel_context_reading": {
+        "kind": "fixed_jin098_quoted_legal_precedent",
+        "person_mention_id": "c-jinshu-098-wangdun-comparison:p036:m0044",
+        "target_mention_ids": [
+          "c-jinshu-098-wangdun-comparison:p036:m0044"
+        ],
+        "received_surface": "王浚",
+        "preferred_surface": "王淩",
+        "candidate_person_ids": [
+          "f89_ad1_61d",
+          "9c1_ff0_1b5",
+          "36c_6b6_4b3"
+        ],
+        "source_spelling_is_not_alias": true,
+        "status": "editorial_provisional",
+        "rationale": "原王浚，與同段後文王淩儭土及028王凌傳明引崔杼/剖棺刑例相合，AI可撤回首選指王淩。疑轉錄/傳寫誤，未圖校，不作真正別名；既有王浚/濬與468主簿王淩各保原狀。",
+        "fixed_reference": "source-evidence/jin098-wangdun-comparison/ner-legal-precedent.json"
+      },
+      "references": [
+        {
+          "title": "《三國志》魏書卷二十八〈王凌傳〉刑例比較",
+          "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt",
+          "quote": "朝議咸以為春秋之義齊崔杼鄭歸生皆加追戮陳尸斵棺載在方策凌愚罪宜如舊典乃發凌愚冡剖棺暴尸於所近市三日燒其印綬朝服親土埋之",
+          "scope": "existing_digital_wyg_comparison_only_not_jin098_text_base",
+          "image_verified": false
+        }
+      ]
+    }
+  ],
   "name_components": [
+    {
+      "id": "name-jin098-wangling-literal",
+      "person_id": "f89_ad1_61d",
+      "surname": "王",
+      "ming": "淩",
+      "hao": null,
+      "title": null,
+      "additional_names": [],
+      "chapter_id": "c-jinshu-098-wangdun-comparison",
+      "paragraph_id": "c-jinshu-098-wangdun-comparison:p036",
+      "person_mention_id": "c-jinshu-098-wangdun-comparison:p036:m0134",
+      "source_anchor": {
+        "start": 134,
+        "end": 136,
+        "surface": "王淩"
+      },
+      "quote": "既而周光斬錢鳳，吳儒斬沈充，並傳首京師。有司議曰：「王敦滔天作逆，有無君之心，宜依崔杼、王浚故事，剖棺戮屍，以彰元惡。」於是發瘞出屍，焚其衣冠，跽而刑之。敦、充首同日懸于南桁，觀者莫不稱慶。敦首既懸，莫敢收葬者。尚書令郗鑒言於帝曰：「昔王莽漆頭以輗車，董卓然腹以照市，王淩儭土，徐馥焚首。前朝誅楊駿等，皆先極官刑，後聽私殯。然《春秋》許齊襄之葬紀侯，魏武義王修之哭袁譚。由斯言之，王誅加於上，私義行於下。臣以為可聽私葬，於義為弘。」昭許之，於是敦家收葬焉。含父子乘單船奔荊州刺史王舒，舒使人沈之于江，餘黨悉平。",
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "source_id": "s-jinshu098-wangdun-ws2614273-comparison"
+    },
     {
       "id": "name-sgz026-wangling",
       "person_id": "f89_ad1_61d",

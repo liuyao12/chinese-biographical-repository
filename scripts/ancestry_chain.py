@@ -67,7 +67,7 @@ def explicit_four_ancestor_sequence_valid(near, far, assertions, chapters):
     return False
 
 
-def consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=None):
+def consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=None, *, people=None):
     c = member.get('parent_connection')
     if not isinstance(c, dict):
         return False
@@ -77,6 +77,10 @@ def consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=N
             or not isinstance(c.get('rationale'), str) or not c['rationale'].strip()
             or member.get('source_assertion_id') is not None):
         return False
+    if c.get('interpretation_basis') == 'wei_same_passage_high_great_pair':
+        try:from scripts.wei_paternal_assembly import high_great_pair_parent_valid
+        except ImportError:from wei_paternal_assembly import high_great_pair_parent_valid
+        return high_great_pair_parent_valid(member,rows,assertions,chapters,root,people=people)
     if c.get('interpretation_basis') == 'punctuated_biography_four_ancestor_office_sequence':
         try:from .punctuated_ancestor_offices import valid as punctuated_valid
         except ImportError:from punctuated_ancestor_offices import valid as punctuated_valid

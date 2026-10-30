@@ -1,7 +1,8 @@
+from scripts.snapshot_test_expectations import current_snapshot
 # coding: utf-8
 import unittest,json,copy,hashlib
 from pathlib import Path
-R=Path(__file__).resolve().parents[1];J=lambda p:json.loads(p.read_text());C=J(R/'corpus/jinshu/039.json');P=J(R/'source-evidence/jin039-xunxu-full-projection.json');RAW=(R/'sources/jinshu/039-ws2108782.wikitext').read_bytes();LINES=RAW.decode().splitlines();PS={p['id']:p for p in C['paragraphs']}
+R=Path(__file__).resolve().parents[1];J=lambda p:json.loads(p.read_text());C=J(R/'corpus/jinshu/039.json');P=current_snapshot(J(R/'source-evidence/jin039-xunxu-full-projection.json'));RAW=(R/'sources/jinshu/039-ws2108782.wikitext').read_bytes();LINES=RAW.decode().splitlines();PS={p['id']:p for p in C['paragraphs']}
 def valid(c,proof=None):
  proof=proof or P
  try:

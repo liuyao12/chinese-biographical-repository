@@ -112,8 +112,55 @@ def validate(root):
         return ['來源位置對應無效：' + str(exc)]
 
 
-def summarize_occurrences(mentions, table_occurrences, chapters, root, records, person_ids=None):
+def appellation_continuations(root, records, mentions, groups=None, name_groups=None):
+    """Only source-validated title/name continuations; never witness duplicates."""
+    groups = [] if groups is None else groups
+    name_groups = [] if name_groups is None else name_groups
+    if type(groups) is not list or type(name_groups) is not list:
+        raise ValueError('文字續接groups須JSON陣列')
+    if not groups and not name_groups:
+        return {}, {}
+    try:
+        from .wyd_song051_yixin import source_appellation_fragments, source_name_fragments, same
+    except ImportError:
+        from wyd_song051_yixin import source_appellation_fragments, source_name_fragments, same
+    registered = {p['id']:p for p in json.loads((Path(root)/'registry/persons.json').read_text())['persons']}
+    actor_ids = {m.get('person_id') for m in mentions if m.get('person_id')}
+    try:from scripts.fixed_wuyingdian_jin040_jiachong import source_name_fragments as jin040_source_name_fragments
+    except ImportError:from fixed_wuyingdian_jin040_jiachong import source_name_fragments as jin040_source_name_fragments
+    expected_name_groups=source_name_fragments(root, actor_ids, registered, records)+jin040_source_name_fragments(root, actor_ids, registered, records)
+    if not same(groups, source_appellation_fragments(root, actor_ids, registered, records)) or not same(name_groups, expected_name_groups):
+        raise ValueError('文字續接須與受驗來源完整group一致')
+    by_mid = {m['id']:m for m in mentions}
+    source_ids = {r['id']:r['source_id'] for r in records if r.get('record_type') == 'marked_chapter'}
+    aliases, details, used = {}, {}, set()
+    for group, fragment_kind in [(g,'appellation')for g in groups] + [(g,'name')for g in name_groups]:
+        mids = group['mention_ids']; canonical = group.get('canonical_mention_id', mids[0])
+        kind = 'source_bound_appellation_fragment_group' if fragment_kind == 'appellation' else 'source_bound_name_fragment_group'
+        if (group['kind'] != kind or canonical != mids[0] or len(mids) < 2
+                or len(set(mids)) != len(mids) or used.intersection(mids)
+                or any(mid not in by_mid for mid in mids)):
+            raise ValueError('文字續接錨點缺漏、重複或錯序')
+        for mid in mids:
+            m = by_mid[mid]
+            if (m['person_id'] != group['person_id'] or m['chapter_id'] != group['chapter_id']
+                    or source_ids.get(m['chapter_id']) != group['source_id']):
+                raise ValueError('文字續接不可跨人物或來源')
+        used.update(mids); aliases.update({mid:canonical for mid in mids[1:]})
+        gid = group['id'] if fragment_kind == 'appellation' else group['complete_component']['record_id']
+        details[canonical] = {'source_fragment_group_id':gid,
+            'counting_basis':'source_bound_fragment_continuation', 'fragment_kind':fragment_kind,
+            'continuation_fragment_count':len(mids)-1,
+            **({'complete_appellation':group['complete_appellation']} if fragment_kind == 'appellation' else {'complete_component':group['complete_component']})}
+    return aliases, details
+
+
+def summarize_occurrences(mentions, table_occurrences, chapters, root, records, person_ids=None, *, appellation_fragments=None, name_fragments=None):
     aliases, details = occurrence_catalog(root, records, person_ids)
+    joined, join_details = appellation_continuations(root, records, mentions, appellation_fragments, name_fragments)
+    if set(joined).union(joined.values()).intersection(set(aliases).union(aliases.values())):
+        raise ValueError('稱謂續接與同位置重出不得交疊')
+    aliases.update(joined); details.update(join_details)
     rows = {}
     for mention, table in [(m, False) for m in mentions] + [(m, True) for m in table_occurrences]:
         chapter = None if table else chapters[mention['chapter_id']]
@@ -134,13 +181,16 @@ def summarize_occurrences(mentions, table_occurrences, chapters, root, records, 
         for group in groups: group['mention_ids'].sort()
         row['occurrence_groups'] = sorted(groups,key=lambda g:g['canonical_mention_id'])
         row['mention_count'] = len(groups)
-        row['duplicate_mention_count'] = row['raw_mention_count'] - len(groups)
+        continuation = sum(g.get('continuation_fragment_count',0) for g in groups)
+        row['duplicate_mention_count'] = row['raw_mention_count'] - len(groups) - continuation
+        if continuation:
+            row['continuation_fragment_count'] = continuation
         row['paragraph_occurrence_count'] = sum(g['kind']=='paragraph' for g in groups)
         row['table_occurrence_count'] = sum(g['kind']=='table_cell' for g in groups)
         for key in ['paragraph_ids','table_cell_ids','mention_ids']: row[key] = sorted(row[key])
         row['passage_count'] = len(row['paragraph_ids']) + len(row['table_cell_ids'])
         row['passage_count_scope'] = 'annotation_containers_not_independent_witness_passages'
-        row['count_explanation'] = f"{row['mention_count']}處獨立位置，{row['raw_mention_count']}個原始錨點；{row['duplicate_mention_count']}項為同底本同位置重出。頻次不是來源權威度。"
+        row['count_explanation'] = (f"{row['mention_count']}處人物指稱，{row['raw_mention_count']}個原始錨點；{row['duplicate_mention_count']}項為同底本同位置重出，{continuation}項為跨頁文字續接片段（不是重出）。頻次不是來源權威度。" if continuation else f"{row['mention_count']}處獨立位置，{row['raw_mention_count']}個原始錨點；{row['duplicate_mention_count']}項為同底本同位置重出。頻次不是來源權威度。")
     result = sorted(rows.values(),key=lambda r:(-r['mention_count'],r['source_id']))
     maximum = result[0]['mention_count'] if result else 0
     return result, [r['source_id'] for r in result if r['mention_count']==maximum]
@@ -151,6 +201,7 @@ def index_counts(result):
     return {'mention_count':sum(r['mention_count'] for r in rows),
         'raw_mention_count':len(result['mentions'])+len(result['table_occurrences']),
         'duplicate_mention_count':sum(r.get('duplicate_mention_count',0) for r in rows),
+        **({'continuation_fragment_count':sum(r.get('continuation_fragment_count',0) for r in rows)} if any(r.get('continuation_fragment_count',0) for r in rows) else {}),
         'paragraph_mention_count':sum(r['paragraph_occurrence_count'] for r in rows),
         'table_mention_count':sum(r['table_occurrence_count'] for r in rows),
         'source_count':len(result['sources']), 'most_mentioned_source_ids':result['most_mentioned_source_ids']}

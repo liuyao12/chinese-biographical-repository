@@ -94,6 +94,41 @@
       "chapter_id": "c-jinshu-043-wangrong",
       "source_id": "s-jinshu-043-ws2618531-wangrong",
       "work_title": "晉書"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "王戎傳",
+      "paragraph_id": "c-jinshu-043-wyd1739-wangrong:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王戎字濬沖琅邪臨沂人也祖雄幽州刺史父渾涼州",
+      "paragraph_ids": [
+        "c-jinshu-043-wyd1739-wangrong:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-wyd1739-wangrong:p001:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-wyd1739-wangrong:p001:m0012": "c-jinshu-043-wyd1739-wangrong:p001"
+      },
+      "mention_id": "c-jinshu-043-wyd1739-wangrong:p001:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-wyd1739-wangrong:p001:m0012",
+          "mention_ids": [
+            "c-jinshu-043-wyd1739-wangrong:p001:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-wyd1739-wangrong",
+      "source_id": "s-jinshu-043-wyd1739-wangrong",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -124,12 +159,59 @@
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原缺閉引號、季劄、鐘會、𦃩、報嘗均保留。"
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-043-wyd1739-wangrong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-wyd1739-wangrong",
+      "source": {
+        "title": "《晉書》卷四十三〈王戎傳〉",
+        "provider": "CBR AI direct transcription of Commons-hosted NLC scan",
+        "url": "https://commons.wikimedia.org/w/index.php?curid=124071879",
+        "permalink": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12280_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC112%E5%86%8A.pdf&oldid=927284037",
+        "revision_id": "cbr-ai-transcription-sha256:a83b9c867852fb34a0ed3e4b9e9ec76b1edc7c4e7c527aed81153a898ce624ae",
+        "edition": "Commons及同冊既有版記AI讀錄著錄為武英殿清乾隆4年[1739]；本單元逐列取同冊王戎書影，不稱本次另作版記普查或人工圖校",
+        "extent": "PDF47左第10欄至52右第7欄第7字，完整王戎本傳及子孫承嗣末；原刻47左第9欄王戎題名另層。王衍以下不入，非卷43全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "AI_image_transcription_draft",
+        "image_verified": false,
+        "image_verification_qualification": "AI逐頁逐列視讀；無人工全字圖校，未辨字以〓記，其他編碼仍待獨立覆核。",
+        "raw_file": "source-evidence/jin043-wyd1739-wangrong/transcription-columns.txt",
+        "raw_sha256": "a83b9c867852fb34a0ed3e4b9e9ec76b1edc7c4e7c527aed81153a898ce624ae",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "直接AI逐列讀書影；raw逐列轉錄，頁側分段非原刻自然段。三個〓為AI未辨字，非原刻空白；不以比較本補字。",
+          "column_locations_ref": "source-evidence/jin043-wyd1739-wangrong/image-column-locations.json",
+          "glyph_review_ref": "source-evidence/jin043-wyd1739-wangrong/glyph-review-qualification.json"
+        },
+        "rights": "Commons本檔imageinfo明載Public domain / PD-scan；僅發布古文AI轉錄、元資料及外鏈，不發布影像或原PDF。",
+        "license_url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12280_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC112%E5%86%8A.pdf&oldid=927284037",
+        "received_transcription_witness": {
+          "transcription_path": "source-evidence/jin043-wyd1739-wangrong/transcription-columns.txt",
+          "transcription_sha256": "a83b9c867852fb34a0ed3e4b9e9ec76b1edc7c4e7c527aed81153a898ce624ae",
+          "transcription_revision": "cbr-ai-transcription-sha256:a83b9c867852fb34a0ed3e4b9e9ec76b1edc7c4e7c527aed81153a898ce624ae",
+          "reported_pdf_sha1": "e2338f976f7109e6d41b9e0bb41f5dcc9bb87c38",
+          "reported_pdf_bytes": 33157596,
+          "original_pdf_locally_obtained": false,
+          "commons_description_revision": 927284037,
+          "reported_pdf_pages": 108,
+          "nlc_bookid": "411999017142",
+          "nlc_volumeid": "12280",
+          "nlc_rare_book_number": "09753",
+          "composition_date": null,
+          "edition_year": 1739,
+          "earliest_extant_edition_claim": null,
+          "edition_year_role": "catalogued_printed_edition_year",
+          "human_image_reviewed": false
+        }
+      }
     }
   ],
   "relations": [
     {
       "id": "a-jin043-wangrong-002",
-      "subject_person_id": "48e_04a_3d8",
+      "subject_person_id": "ehx_cqg_nfx_AA",
       "predicate": "grandfather",
       "object_person_id": "ehx_cqg_nfx",
       "status": "source_attested",
@@ -169,8 +251,8 @@
     }
   ],
   "related_people": {
-    "48e_04a_3d8": "王戎",
-    "ehx_cqg_nfx": "雄〔王戎祖，幽州刺史〕"
+    "ehx_cqg_nfx": "雄〔王戎祖，幽州刺史〕",
+    "ehx_cqg_nfx_AA": "王戎"
   },
   "dates": [],
   "name_components": [],
@@ -180,7 +262,7 @@
   "preferred_relations": [
     {
       "id": "a-jin043-wangrong-002",
-      "subject_person_id": "48e_04a_3d8",
+      "subject_person_id": "ehx_cqg_nfx_AA",
       "predicate": "grandfather",
       "object_person_id": "ehx_cqg_nfx",
       "status": "source_attested",
@@ -217,6 +299,74 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "ehx_cqg_nfx",
+    "representative_source_person_id": "ehx_cqg_nfx",
+    "source_person_ids": [
+      "ehx_cqg_nfx"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": null,
+    "assembly_id": "family-jin043-wangrong-paternal",
+    "root_person_id": "ehx_cqg_nfx",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
+  "assembled_children": [
+    {
+      "person_id": "ehx_cqg_nfx_A",
+      "representative_source_person_id": "ehx_cqg_nfx_A",
+      "source_person_ids": [
+        "ehx_cqg_nfx_A"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "ehx_cqg_nfx",
+      "source_assertion_id": null,
+      "connection": "father",
+      "parent_connection": {
+        "type": "parent_between_consecutive_ancestors",
+        "chain_subject_person_id": "ehx_cqg_nfx_AA",
+        "nearer_ancestor_assertion_id": "a-jin043-wangrong-001",
+        "farther_ancestor_assertion_id": "a-jin043-wangrong-002",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同一傳首王戎明父渾、父系祖雄，據相鄰世距組裝渾至雄；未偽稱正文另載雄生渾，不補更遠祖。",
+        "references": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-043",
+            "chapter_id": "c-jinshu-043-wangrong",
+            "source_id": "s-jinshu-043-ws2618531-wangrong",
+            "paragraph_id": "c-jinshu-043-wangrong:p001",
+            "quote": "王戎，字濬沖，琅邪臨沂人也。祖雄，幽州刺史。父渾，涼州刺史、貞陵亭侯。戎幼而穎悟，神彩秀徹。視日不眩，裴楷見而目之曰：「戎眼燦燦，如岩下電。」年六七歲，于宣武場觀戲，猛獸在檻中虓吼震地，眾皆奔走，戎獨立不動，神色自若。魏明帝於閣上見而奇之。又嘗與群兒嬉於道側，見李樹多實，等輩兢趣之，戎獨不往。或問其故，其曰：「樹在道邊而多子，必苦李也。」取之信然。",
+            "subject_person_mention_id": "c-jinshu-043-wangrong:p001:m0000",
+            "object_person_mention_id": "c-jinshu-043-wangrong:p001:m0023",
+            "assertion_id": "a-jin043-wangrong-001",
+            "scope": "同一傳首具名父與父系祖之相鄰世次組裝，非另造正文父子句",
+            "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531"
+          },
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-043",
+            "chapter_id": "c-jinshu-043-wangrong",
+            "source_id": "s-jinshu-043-ws2618531-wangrong",
+            "paragraph_id": "c-jinshu-043-wangrong:p001",
+            "quote": "王戎，字濬沖，琅邪臨沂人也。祖雄，幽州刺史。父渾，涼州刺史、貞陵亭侯。戎幼而穎悟，神彩秀徹。視日不眩，裴楷見而目之曰：「戎眼燦燦，如岩下電。」年六七歲，于宣武場觀戲，猛獸在檻中虓吼震地，眾皆奔走，戎獨立不動，神色自若。魏明帝於閣上見而奇之。又嘗與群兒嬉於道側，見李樹多實，等輩兢趣之，戎獨不往。或問其故，其曰：「樹在道邊而多子，必苦李也。」取之信然。",
+            "subject_person_mention_id": "c-jinshu-043-wangrong:p001:m0000",
+            "object_person_mention_id": "c-jinshu-043-wangrong:p001:m0015",
+            "assertion_id": "a-jin043-wangrong-002",
+            "scope": "同一傳首具名父與父系祖之相鄰世次組裝，非另造正文父子句",
+            "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531"
+          }
+        ]
+      },
+      "assembly_id": "family-jin043-wangrong-paternal",
+      "root_person_id": "ehx_cqg_nfx",
+      "status": "editorial_preferred",
+      "human_reviewed": false
     }
   ],
   "age_assertions": [],

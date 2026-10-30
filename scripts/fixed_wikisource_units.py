@@ -12,6 +12,10 @@ def source_errors(ch,root):
    p=Path(name);assert not p.is_absolute()and p.parts[0]in('source-evidence','sources','corpus')and'..'not in p.parts
    q=root/p;assert q.resolve()==q and q.is_file();return q
   b=json.loads(local(ref).read_text())
+  if b.get('record_type')=='fixed_jin031_jia_complete_biography':
+   try:from scripts.fixed_jin031_jia_comparison import source_errors as jia_source_errors
+   except ImportError:from fixed_jin031_jia_comparison import source_errors as jia_source_errors
+   return jia_source_errors(ch,root)
   if b.get('record_type')=='fixed_wikisource_plain_biography_year_templates':
    try:from scripts.fixed_plain_wikisource_biography import errors as plain_errors
    except ImportError:from fixed_plain_wikisource_biography import errors as plain_errors

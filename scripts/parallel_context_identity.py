@@ -17,6 +17,10 @@ def _safe(root,relative,prefix):
  return q
 
 def valid(decision,chapters,people,root):
+ if isinstance(decision,dict)and isinstance(decision.get('parallel_context_reading'),dict)and decision['parallel_context_reading'].get('kind')=='fixed_jin098_quoted_legal_precedent':
+  try:from scripts.fixed_jin098_wangdun_comparison import reading_valid
+  except ImportError:from fixed_jin098_wangdun_comparison import reading_valid
+  return reading_valid(decision,chapters,people,root)
  try:
   r=decision['parallel_context_reading'];pid=decision['person_id'];ids=r['candidate_person_ids'];other=r['countercandidate_person_id']
   if set(r)!={'kind','person_mention_id','target_mention_ids','received_surface','preferred_surface','candidate_person_ids','countercandidate_person_id','countercandidate_surface','source_spelling_is_not_alias','status','rationale','local_paragraph_id','local_quote','local_cues','local_binding','parallel_reference'}:return False

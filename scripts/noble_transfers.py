@@ -1,7 +1,11 @@
 """An explicit noble-rank change may leave the former title unidentified."""
 
 
-def noble_transfer_errors(holding, holdings, paragraphs, mentions, chapters=None):
+def noble_transfer_errors(holding, holdings, paragraphs, mentions, chapters=None, *, root=None):
+    if holding.get('transfer_basis',{}).get('kind')=='fixed_jin031_title_change':
+        try:from scripts.fixed_jin031_jia_remaining_titles import transfer_valid
+        except ImportError:from fixed_jin031_jia_remaining_titles import transfer_valid
+        return [] if transfer_valid(holding,holdings,paragraphs,mentions,chapters,root) else ['031女爵改封須完整本源、同人前爵與同證終始']
     basis = holding.get('transfer_basis')
     keys = {'kind', 'previous_holding_id', 'previous_title_status', 'source_term',
             'actor_mention_id', 'evidence', 'rationale', 'status', 'human_reviewed'}

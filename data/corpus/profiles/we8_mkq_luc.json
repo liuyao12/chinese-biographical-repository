@@ -9,7 +9,8 @@
     "閔子騫",
     "閔損",
     "子騫",
-    "閔子"
+    "閔子",
+    "閔"
   ],
   "titles": [],
   "addresses": [],
@@ -47,6 +48,41 @@
       "book_id": "b-jinshu-033",
       "chapter_id": "c-jinshu-033-wanglan-family",
       "source_id": "s-jinshu-033-wanglan-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 34,
+      "category": "",
+      "title": "羊祜傳",
+      "paragraph_id": "c-jinshu-034-yanghu-comparison:p030",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "貴遂服，自天子達；而漢文除之，毀禮傷義，常以歎息。今主上天縱至孝，有曾閔之性，雖奪其服，實行喪禮。喪禮實行，除服何為邪！若因此革漢魏之薄，而興先王之法，以敦風俗，垂美百代，不亦善乎！」玄曰：「漢文以末世淺薄，不能行國君之喪，故因而除之。除之數百年，一旦復古，難行也。」祜曰",
+      "paragraph_ids": [
+        "c-jinshu-034-yanghu-comparison:p030"
+      ],
+      "mention_ids": [
+        "c-jinshu-034-yanghu-comparison:p030:m0054"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-034-yanghu-comparison:p030:m0054": "c-jinshu-034-yanghu-comparison:p030"
+      },
+      "mention_id": "c-jinshu-034-yanghu-comparison:p030:m0054",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu-comparison:p030:m0054",
+          "mention_ids": [
+            "c-jinshu-034-yanghu-comparison:p030:m0054"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
       "work_title": "晉書"
     },
     {
@@ -243,6 +279,38 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+      "source": {
+        "title": "《晉書》卷三十四〈羊祜傳〉",
+        "provider": "維基文庫固定修訂頁呈現文字",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷034",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "revision_id": 2567662,
+        "accessed_on": "2026-10-28",
+        "edition": null,
+        "edition_qualification": "印本未核的固定數位比較見證；非首選底本，非武英殿，未核書影。未確認是否出於四庫，不採為preferred base。",
+        "preferred_text_base": false,
+        "image_verified": false,
+        "human_reviewed": false,
+        "extent": "羊祜題下至杜預題頭前完整單元，含羊發、秘、亮、陶及承嗣附敘；41呈現文字段，非全卷，不含杜預及卷末評贊。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "capture_ref": "source-evidence/jin034-yanghu-comparison/rendered-extract.txt",
+        "capture_sha256": "35dc69590312f9b13541d3df2c8cd75c43721cd22251530def3d6acda41ec5b6",
+        "capture_kind": "fixed_revision_webtool_rendered_text_extract",
+        "original_wikitext_obtained": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0保留署名與固定修訂。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去數位題頭/工具行號/blockquote呈現符與行首排版縮排；工具連結標記僅保可見詞，未改正文標點、字形或疑字。未取得HTML或wikitext。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-067-disciples",
       "work_id": "w-shiji",
       "book_id": "b-shiji-067",
@@ -269,10 +337,63 @@
   ],
   "relations": [],
   "related_people": {
+    "c7w_nyj_95u": "曾參（弟子列傳候選）",
     "we8_mkq_luc": "閔損（弟子列傳候選）"
   },
   "dates": [],
   "name_components": [],
+  "source_reference_readings": [
+    {
+      "id": "reading-jin034-30-53",
+      "interpretation_kind": "collective_resolution",
+      "source_term": "曾閔",
+      "marker_ids": [
+        "c-jinshu-034-yanghu-comparison:p030:m0053",
+        "c-jinshu-034-yanghu-comparison:p030:m0054"
+      ],
+      "candidate_person_ids": [],
+      "preferred_person_id": null,
+      "resolved_member_refs": [
+        {
+          "person_id": "c7w_nyj_95u",
+          "evidence": {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-034",
+            "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+            "chapter_id": "c-jinshu-034-yanghu-comparison",
+            "paragraph_id": "c-jinshu-034-yanghu-comparison:p030",
+            "mention_id": "c-jinshu-034-yanghu-comparison:p030:m0053",
+            "quote": "曾"
+          }
+        },
+        {
+          "person_id": "we8_mkq_luc",
+          "evidence": {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-034",
+            "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+            "chapter_id": "c-jinshu-034-yanghu-comparison",
+            "paragraph_id": "c-jinshu-034-yanghu-comparison:p030",
+            "mention_id": "c-jinshu-034-yanghu-comparison:p030:m0054",
+            "quote": "閔"
+          }
+        }
+      ],
+      "source_ranges": [
+        {
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p030",
+          "start": 53,
+          "end": 55,
+          "surface": "曾閔",
+          "paragraph_text_sha256": "9890f4eddd90816e48df5a48d5a284d0622bc602cbe55a9a12b2cb5d0304ed78"
+        }
+      ],
+      "status": "editorial_provisional",
+      "rationale": "引古合稱逐人拆錨，非同場/親屬，不把本段當古人實歷證明。",
+      "references": [],
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "we8_mkq_luc"
   ],

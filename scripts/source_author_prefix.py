@@ -1,7 +1,7 @@
 """Validate source-attributed authorship syntax; no historical-name whitelist."""
 import re
 
-def source_author_errors(works, chapters):
+def source_author_errors(works, chapters, root=None):
  errors=[]
  for wid, work in works.items():
   for ev in work.get('source_author_attributions',[]):
@@ -19,6 +19,21 @@ def source_author_errors(works, chapters):
     text=p['text'];order=(w['end']<=a['start'] if ev.get('authorship_syntax',{}).get('kind')=='title_author_suo_zhu' else a['end']<=w['start']);require(text[a['start']:a['end']]==a['surface'] and text[w['start']:w['end']]==w['surface'] and order,'author/title span differs')
     syntax=ev.get('authorship_syntax',{});kind=syntax.get('kind');gap=text[a['end']:w['start']]
     people=[m for m in p['mentions'] if m.get('kind')=='person' and a['end']<=m['start'] and m['end']<=w['start']]
+    if kind=='source_bound_fixed_jin034_context':
+     try:from scripts.fixed_jin034_yanghu_ner import work_author_valid
+     except ImportError:from fixed_jin034_yanghu_ner import work_author_valid
+     require(work_author_valid(ev,work,c,root),'fixed complete Yang Hu author differs')
+     continue
+    if kind=='source_bound_fixed_jin036_context':
+     try:from scripts.fixed_jin036_wei_ner import work_author_valid
+     except ImportError:from fixed_jin036_wei_ner import work_author_valid
+     require(work_author_valid(ev,work,c,root),'fixed complete Wei source author differs')
+     continue
+    if kind=='source_bound_wyd_song051_context':
+     try:from scripts.wyd_song051_yixin import work_author_valid
+     except ImportError:from wyd_song051_yixin import work_author_valid
+     require(work_author_valid(ev,work,c,root),'fixed source-context author differs')
+     continue
     if kind=='author_title_prefix':
      require(not people and gap in ('','著','所著','撰','所撰','作','所作','編','所編'),'not adjacent source author prefix')
      require(not syntax.get('object_person_mention_ids'),'unexpected prefix objects')
