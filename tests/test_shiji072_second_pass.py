@@ -49,7 +49,7 @@ class RanghouSourceTests(unittest.TestCase):
         self.assertEqual(appointment['start']['normalized_date']['era_year'], 295)
         self.assertEqual(appointment['end']['normalized_date']['era_year'], 292)
         death = next(e for e in self.read('life-events', 'events')
-                     if e['person_id'] == 'zev_jx4_vaz')
+                     if e['person_id'] == 'r9n_0vc_ywa')
         self.assertEqual(death['normalized_date']['era_year'], 300)
         table = json.loads((ROOT / 'data/historical-tables/shiji-015.json').read_text())
         cells = {c['id']: c for f in table['fragments'] for r in f['rows'] for c in r['cells']}

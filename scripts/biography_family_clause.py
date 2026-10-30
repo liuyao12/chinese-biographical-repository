@@ -1,12 +1,30 @@
 """Position-bound received biographical family clauses, without person-ID allowlists."""
 import hashlib,re
 KIND='biography_family_clause'
-def valid(a,paragraphs,assertions=(),chapters=None):
+def valid(a,paragraphs,assertions=(),chapters=None,root=None):
  if not isinstance(a, dict):return False
  q_guard=a.get('qualifiers', {})
  if not isinstance(q_guard, dict):return False
  b_guard=q_guard.get('source_clause_binding', {})
  if not isinstance(b_guard, dict) or not isinstance(b_guard.get('rule', ''), str):return False
+ if b_guard.get('rule')=='fixed_jin031_typed_complete_unit':
+  try:from scripts.fixed_jin031_jia_typed import family_valid
+  except ImportError:from fixed_jin031_jia_typed import family_valid
+  return family_valid(a,paragraphs,root)
+ if b_guard.get('rule')=='fixed_comparison_jin080_received_roles':
+  try:from scripts.fixed_jin080_wangxizhi_comparison import family_valid
+  except ImportError:from fixed_jin080_wangxizhi_comparison import family_valid
+  return family_valid(a,paragraphs,root)
+ if b_guard.get('rule')=='fixed_comparison_jin098_received_roles':
+  try:from scripts.fixed_jin098_wangdun_comparison import family_valid
+  except ImportError:from fixed_jin098_wangdun_comparison import family_valid
+  return family_valid(a,paragraphs,root)
+ if b_guard.get("rule")=="natural_received_head_father":
+  try:
+   try:from scripts.biographical_kinship import natural_parentage_errors
+   except ImportError:from biographical_kinship import natural_parentage_errors
+   return not natural_parentage_errors(a,(chapters or {})[a["evidence"][0]["chapter_id"]],root)
+  except (KeyError,TypeError,IndexError):return False
  if a.get('qualifiers',{}).get('source_clause_binding',{}).get('rule','').startswith('layered_'):
   try:from scripts.layered_biography_titles import family_valid
   except ImportError:from layered_biography_titles import family_valid

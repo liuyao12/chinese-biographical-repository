@@ -126,6 +126,41 @@
       "chapter_id": "c-jinshu-079-xielang-family",
       "source_id": "s-jinshu-079-xielang-family",
       "work_title": "晉書"
+    },
+    {
+      "number": 80,
+      "category": "",
+      "title": "王羲之及近系附傳（比較轉錄）",
+      "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p047",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "法應首過，問其有何得失。對曰：「不覺餘事，惟憶與郗家離婚。」獻之前妻，郗曇女也。俄而卒於官。安僖皇后立，以後父追贈侍中、特進、光祿大夫、太宰，諡曰憲。無子，以兄子靜之嗣，位至義興太守。時議者以為羲之草隸，江左中朝莫有及者，獻之骨力遠不及父，而頗有媚趣。桓玄雅愛其父子書，各為",
+      "paragraph_ids": [
+        "c-jinshu-080-wangxizhi-comparison:p047"
+      ],
+      "mention_ids": [
+        "c-jinshu-080-wangxizhi-comparison:p047:m0051"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-080-wangxizhi-comparison:p047:m0051": "c-jinshu-080-wangxizhi-comparison:p047"
+      },
+      "mention_id": "c-jinshu-080-wangxizhi-comparison:p047:m0051",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi-comparison:p047:m0051",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi-comparison:p047:m0051"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+      "source_id": "s-jinshu080-ws2603570-comparison",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -793,18 +828,139 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "source_id": "s-jinshu080-ws2603570-comparison",
+      "source": {
+        "title": "《晉書》卷八十王羲之及近系附傳（比較轉錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "revision_id": 2603570,
+        "accessed_on": "2026-10-27",
+        "extent": "王羲之完整傳及所選近系附敘47數位自然段；含玄之、凝之、徽之、楨之、操之、獻之、靜之語境；不含許邁獨立傳及卷末合贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "edition": "維基文庫固定修訂數位轉錄；底本未核，僅比較見證，非武英殿本，非首選讀本。",
+        "rights": "古代原文及維基文庫數位轉錄；保留修訂與授權歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "source-evidence/jin080-wangxizhi-comparison/raw.wikitext",
+        "raw_path": "source-evidence/jin080-wangxizhi-comparison/raw.wikitext",
+        "wikitext_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "raw_file_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依固定raw逐碼點投影；移除數位段首縮排、節題、連結語法及格式模板，保留可見原字與引語。現代節題不作古文父子直述。完整排除位置另存。"
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin080-former-wife-father-xitan",
+      "subject_person_id": "e5k_f2i_cog_A",
+      "predicate": "father",
+      "object_person_id": "e5k_f2i_cog",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "source_id": "s-jinshu080-ws2603570-comparison",
+          "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+          "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p047",
+          "quote": "未幾，獻之遇疾，家人為上章，道家法應首過，問其有何得失。對曰：「不覺餘事，惟憶與郗家離婚。」獻之前妻，郗曇女也。俄而卒於官。安僖皇后立，以後父追贈侍中、特進、光祿大夫、太宰，諡曰憲。無子，以兄子靜之嗣，位至義興太守。時議者以為羲之草隸，江左中朝莫有及者，獻之骨力遠不及父，而頗有媚趣。桓玄雅愛其父子書，各為一帙，置左右以玩之。始羲之所與共游者許邁。",
+          "subject_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p047:m0048",
+          "object_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p047:m0051"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "郗曇女",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_comparison_jin080_received_roles",
+          "contract_ref": "source-evidence/jin080-wangxizhi-comparison/ner-facts-template.json"
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "明郗曇女，不以女字補個人名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "e5k_f2i_cog": "郗曇"
+    "e5k_f2i_cog": "郗曇",
+    "e5k_f2i_cog_A": "郗氏〔王獻之前妻，未名〕"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-jin080-xitan-literal",
+      "person_id": "e5k_f2i_cog",
+      "surname": "郗",
+      "ming": "曇",
+      "hao": null,
+      "title": null,
+      "additional_names": [],
+      "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+      "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p047",
+      "person_mention_id": "c-jinshu-080-wangxizhi-comparison:p047:m0051",
+      "source_anchor": {
+        "start": 51,
+        "end": 53,
+        "surface": "郗曇"
+      },
+      "quote": "未幾，獻之遇疾，家人為上章，道家法應首過，問其有何得失。對曰：「不覺餘事，惟憶與郗家離婚。」獻之前妻，郗曇女也。俄而卒於官。安僖皇后立，以後父追贈侍中、特進、光祿大夫、太宰，諡曰憲。無子，以兄子靜之嗣，位至義興太守。時議者以為羲之草隸，江左中朝莫有及者，獻之骨力遠不及父，而頗有媚趣。桓玄雅愛其父子書，各為一帙，置左右以玩之。始羲之所與共游者許邁。",
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "source_id": "s-jinshu080-ws2603570-comparison"
+    }
+  ],
   "person_ids": [
     "e5k_f2i_cog"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin080-former-wife-father-xitan",
+      "subject_person_id": "e5k_f2i_cog_A",
+      "predicate": "father",
+      "object_person_id": "e5k_f2i_cog",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "source_id": "s-jinshu080-ws2603570-comparison",
+          "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+          "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p047",
+          "quote": "未幾，獻之遇疾，家人為上章，道家法應首過，問其有何得失。對曰：「不覺餘事，惟憶與郗家離婚。」獻之前妻，郗曇女也。俄而卒於官。安僖皇后立，以後父追贈侍中、特進、光祿大夫、太宰，諡曰憲。無子，以兄子靜之嗣，位至義興太守。時議者以為羲之草隸，江左中朝莫有及者，獻之骨力遠不及父，而頗有媚趣。桓玄雅愛其父子書，各為一帙，置左右以玩之。始羲之所與共游者許邁。",
+          "subject_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p047:m0048",
+          "object_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p047:m0051"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "郗曇女",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_comparison_jin080_received_roles",
+          "contract_ref": "source-evidence/jin080-wangxizhi-comparison/ner-facts-template.json"
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "明郗曇女，不以女字補個人名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

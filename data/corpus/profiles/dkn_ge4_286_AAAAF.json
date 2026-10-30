@@ -63,6 +63,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 31,
+      "category": "",
+      "title": "惠賈皇后傳",
+      "paragraph_id": "c-jinshu-031-jia-comparison:p007",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "曰：「陛下有婦，使人廢之，亦行自廢。」又問冏曰：「起事者誰？」冏曰：「梁、趙。」后曰：「繫狗當繫頸，今反繫其尾，何得不然！」至宮西，見謐尸，再舉聲而哭遽止。倫乃矯詔遣尚書劉弘等持節齎金屑酒賜后死。后在位十一年。趙粲、賈午、韓壽、董猛等皆伏誅。",
+      "paragraph_ids": [
+        "c-jinshu-031-jia-comparison:p007"
+      ],
+      "mention_ids": [
+        "c-jinshu-031-jia-comparison:p007:m0166"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-031-jia-comparison:p007:m0166": "c-jinshu-031-jia-comparison:p007"
+      },
+      "mention_id": "c-jinshu-031-jia-comparison:p007:m0166",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-031-jia-comparison:p007:m0166",
+          "mention_ids": [
+            "c-jinshu-031-jia-comparison:p007:m0166"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-031",
+      "chapter_id": "c-jinshu-031-jia-comparison",
+      "source_id": "s-jinshu031-jia-ws2479706-comparison",
+      "work_title": "晉書"
+    },
+    {
       "number": 35,
       "category": "",
       "title": "裴楷及附傳近系",
@@ -173,12 +208,41 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
       "chapter_id": "c-jinshu-043-wangyan",
-      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "source_id": "s-jinshu-043-ws2618531-wangyan",
       "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-031-jia-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-031",
+      "source_id": "s-jinshu031-jia-ws2479706-comparison",
+      "source": {
+        "title": "《晉書》卷三十一〈惠賈皇后傳〉",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷031&oldid=2479706",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷031&oldid=2479706",
+        "revision_id": 2479706,
+        "accessed_on": "2026-10-28",
+        "extent": "惠賈皇后完整8自然段1628正文碼點，含臨海公主附敘；兩Wiki ref另存，不含後接惠羊皇后及卷末史評，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "edition": "固定WS2479706數位比較；印本未知，非武英殿本、非首選讀本。",
+        "rights": "沿既存固定Wikisource原文及數位轉錄歸屬；本次重用本地raw，未重新取得固定網頁或書影。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "sources/jinshu/031-jia-ws2479706.wikitext",
+        "raw_path": "sources/jinshu/031-jia-ws2479706.wikitext",
+        "raw_file_sha256": "fce325e2f752536c45c0b03e3fb7ead1f6808bc797adc186cfa32af8173b21b5",
+        "normalization": {
+          "character_conversion": {},
+          "acquisition_scope": "existing_native_raw_reused; fresh Commons image request403; no image obtained",
+          "notes": "精確去除行首空白、單一YL包裝與別有傳連結語法，兩ref全文與raw字位另存；不改为/异體。"
+        }
+      }
+    },
     {
       "chapter_id": "c-jinshu-035-peikai-family",
       "work_id": "w-jinshu",
@@ -296,7 +360,7 @@
       "chapter_id": "c-jinshu-043-wangyan",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
-      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "source_id": "s-jinshu-043-ws2618531-wangyan",
       "source": {
         "title": "《晉書》卷四十三從弟王衍完整敘事單元（含子玄附敘）",
         "provider": "Wikisource",

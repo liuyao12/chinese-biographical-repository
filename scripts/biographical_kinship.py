@@ -64,7 +64,9 @@ def received_paragraphs_contiguous(chapter, first, second):
         cursor = right + 1
     return cursor == start
 
-def child_continuation_errors(assertion, chapter):
+def child_continuation_errors(assertion, chapter, root=None):
+    if isinstance(assertion, dict) and isinstance(assertion.get("context"), dict) and isinstance(assertion["context"].get("source_continuity"), dict) and assertion["context"]["source_continuity"].get("kind") == "fixed_received_raw_natural_paragraphs":
+        return natural_parentage_errors(assertion, chapter, root)
     if 'secondary_child_clause' in assertion.get('context', {}):
         try:
             from scripts.continued_biography_family import children_errors
@@ -121,3 +123,65 @@ def child_continuation_errors(assertion, chapter):
             or assertion.get('qualifiers', {}).get('lineage') != 'paternal'):
         errors.append('傳主子嗣承接的父名錨點或段首子某錨點不符')
     return errors
+
+# Opt-in natural received paragraphs; older excerpt contracts remain unchanged.
+def natural_parentage_context(assertion, chapter, root):
+    from pathlib import Path
+    import json, hashlib
+    if not isinstance(assertion, dict) or not isinstance(chapter, dict) or root is None:
+        raise ValueError('Natural parentage needs a fixed physical source root')
+    q=assertion['qualifiers'];ctx=assertion.get('context',{});binding=q.get('source_clause_binding',{})
+    ref=(ctx.get('source_continuity',{}).get('fixed_witness_reference')
+         if ctx.get('kind')=='biographical_child_continuation' else binding.get('fixed_witness_reference'))
+    if not isinstance(ref,dict)or set(ref)!={'path','sha256'} or ref.get('path')!='source-evidence/jin043-wangyan-family/fixed-natural-units.json' or ref.get('sha256')!='ccb8afd52371a3a5c129c44eedf5c6fbe83d0f2e27a1f7639a22d4d222677f54':raise ValueError('Natural parentage source reference')
+    root=Path(root).resolve();rel=Path(ref['path']);path=root/rel
+    if rel.is_absolute()or '..'in rel.parts or rel.parts[0]!='source-evidence'or path.resolve()!=path:raise ValueError('Natural source path boundary')
+    rb=path.read_bytes()
+    if hashlib.sha256(rb).hexdigest()!=ref['sha256']:raise ValueError('Natural source contract drift')
+    spec=json.loads(rb);c=chapter;s=c['source']
+    if any(spec[k]!=c[k]for k in ('chapter_id','work_id','book_id','source_id')if k!='chapter_id')or spec['chapter_id']!=c['id']or spec['source_revision']!=s['revision_id']:raise ValueError('Natural source identity')
+    rawrel=Path(spec['raw_file']);rawpath=root/rawrel
+    if rawrel.is_absolute()or '..'in rawrel.parts or rawrel.parts[0]!='sources'or rawpath.resolve()!=rawpath:raise ValueError('Natural raw path boundary')
+    raw=rawpath.read_bytes()
+    if hashlib.sha256(raw).hexdigest()!=spec['raw_sha256']or spec['raw_sha256']!=s['wikitext_sha256']or spec['raw_file']!=s['raw_file']:raise ValueError('Natural raw drift')
+    lines=raw.decode().splitlines();units=[dict(paragraph_id=p['id'],text=p['text'],text_layer=p['text_layer'],source_position=p['source_position'])for p in c['paragraphs']]
+    if units!=spec['units']:raise ValueError('Natural complete unit changed')
+    last=None
+    for p in c['paragraphs']:
+        pos=p['source_position'];lo,hi=pos['first_line'],pos['last_line']
+        if type(lo)is not int or lo!=hi or pos['revision_id']!=s['revision_id']or p['text_layer']!='received_chapter':raise ValueError('Not a complete received natural paragraph')
+        if last is not None and(any(x.strip()for x in lines[last:lo-1])or lo<=last):raise ValueError('Prose/title omitted between natural paragraphs')
+        last=hi
+    roles={}
+    for key,loc in spec['roles'].items():
+        p=next(p for p in c['paragraphs']if p['id']==loc['paragraph_id']);m,=[m for m in p['mentions']if m['id']==loc['mention_id']]
+        if lines[p['source_position']['first_line']-1].strip()!=p['text']:raise ValueError('Role paragraph must be literal raw')
+        if m['kind']!='person'or any(m[k]!=loc[k]for k in ('start','end','surface'))or p['text'][m['start']:m['end']]!=m['surface']:raise ValueError('Natural source role drift')
+        people=json.loads((root/'registry/persons.json').read_text())['persons']
+        person,=[x for x in people if x['id']==m['person_id']]
+        if not any(e.get('mention_id')==m['id'] and e.get('paragraph_id')==p['id'] for e in person['evidence']):raise ValueError('Natural inverse role mismatch')
+        roles[key]=(p,m)
+    return spec,roles
+
+
+def natural_parentage_errors(a,ch,root):
+    try:
+        spec,r=natural_parentage_context(a,ch,root);q=a['qualifiers'];ctx=a.get('context',{});b=q.get('source_clause_binding',{})
+        hp,head=r['head'];fp,father=r['father'];rp,resumed=r['resumed'];cp,child=r['child']
+        if(len({head['person_id'],father['person_id'],child['person_id']})!=3 or a['predicate']!='father'or a['status']!='source_attested'or a['human_reviewed']is not False or head['start']!=0 or not hp['text'].startswith(head['surface']+'字')or hp['id']!=ch['paragraphs'][0]['id']or head['person_id']!=resumed['person_id']):raise ValueError('Natural biography topic')
+        def ev(p):return dict(work_id=ch['work_id'],book_id=ch['book_id'],source_id=ch['source_id'],chapter_id=ch['id'],paragraph_id=p['id'],quote=p['text'])
+        if b.get('rule')=='natural_received_head_father':
+            if set(q)!={'source_term','lineage','source_clause_binding'}or q['lineage']!='paternal'or q['source_term']!='父'+father['surface']or set(b)!={'kind','rule','head_mention_id','father_mention_id','fixed_witness_reference'}or b['kind']!='biography_family_clause'or b['head_mention_id']!=head['id']or b['father_mention_id']!=father['id']or fp['id']!=hp['id']or a['subject_person_id']!=head['person_id']or a['object_person_id']!=father['person_id']:raise ValueError('Natural named father endpoints')
+            text=hp['text'];prefix=text[:father['start']-1]
+            if text[father['start']-1:father['end']]!=q['source_term']or prefix.count('「')!=prefix.count('」')or prefix.count('『')!=prefix.count('』'):raise ValueError('Father term is quoted or absent')
+            e=ev(hp);e.update(subject_person_mention_id=head['id'],object_person_mention_id=father['id'])
+            if a['evidence']!=[e]:raise ValueError('Natural father full evidence')
+        else:
+            if set(q)!={'source_term','lineage'}or q!={'source_term':'子','lineage':'paternal'}or ctx.get('kind')!='biographical_child_continuation'or set(ctx)!={'kind','paragraph_ids','parent_mention_id','child_mention_id','status','human_reviewed','rationale','source_continuity'}or ctx['source_continuity'].get('kind')!='fixed_received_raw_natural_paragraphs'or set(ctx['source_continuity'])!={'kind','fixed_witness_reference'}or ctx['status']!='contextual_provisional'or ctx['human_reviewed']is not False or not ctx['rationale']:raise ValueError('Natural adjacent child format')
+            order=[p['id']for p in ch['paragraphs']]
+            if(order.index(cp['id'])!=order.index(rp['id'])+1 or ctx['paragraph_ids']!=[rp['id'],cp['id']]or ctx['parent_mention_id']!=resumed['id']or ctx['child_mention_id']!=child['id']or resumed['start']!=0 or child['start']!=1 or not cp['text'].startswith('子'+child['surface']+'，字')or a['subject_person_id']!=child['person_id']or a['object_person_id']!=head['person_id']):raise ValueError('Natural child topic/son position')
+            e1,e2=ev(rp),ev(cp);e1['object_person_mention_id']=resumed['id'];e2['subject_person_mention_id']=child['id']
+            if a['evidence']!=[e1,e2]:raise ValueError('Natural child evidence')
+        return []
+    except(KeyError,TypeError,ValueError,IndexError,StopIteration,AttributeError,OSError):
+        return ['自然段父子須綁完整固定raw、真空行、傳首及續述同父錨、段首子錨；不借旁人或換題']

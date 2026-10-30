@@ -35,7 +35,7 @@ def load_assemblies(root, catalog):
                 from personless_namespace import namespace_members
             if any(row.get('namespace_id') == assembly.get('namespace_id') for row in assembled.values()):
                 raise ValueError('Namespace reused by another assembly')
-            namespace_rows = namespace_members(assembly, people, assertions, chapters)
+            namespace_rows = namespace_members(assembly, people, assertions, chapters, root=root)
             if any(pid in assembled or source in source_map for pid, row in namespace_rows.items() for source in row['source_person_ids']):
                 raise ValueError('Namespace member already assembled')
             for pid, row in namespace_rows.items():
@@ -68,13 +68,24 @@ def load_assemblies(root, catalog):
                 if parent is not None or ancestor not in rows or ancestor == pid:
                     raise ValueError('缺代組裝祖先或父親欄位無效')
                 connection = member.get('ancestor_connection')
-                if isinstance(connection, dict) and connection.get('type') == 'wyd_song044_paternal_nephew_to_uncle_father':
+                if isinstance(connection, dict) and connection.get('type') == 'fixed_jin080_paternal_nephew_to_uncle_father':
+                    try:
+                        from scripts.jin080_nephew_assembly import ancestor_valid as jin080_nephew_ancestor_valid
+                    except ImportError:
+                        from jin080_nephew_assembly import ancestor_valid as jin080_nephew_ancestor_valid
+                    if not jin080_nephew_ancestor_valid(member, rows, assertions, chapters, root):
+                        raise ValueError('晉080叔侄缺父祖連須固定叔侄及叔父明父；不得造父或拿承嗣當生父')
+                elif isinstance(connection, dict) and connection.get('type') == 'wyd_song044_paternal_nephew_to_uncle_father':
                     try:
                         from scripts.wyd_song044_nephew import ancestor_valid as wyd_nephew_ancestor_valid
                     except ImportError:
                         from wyd_song044_nephew import ancestor_valid as wyd_nephew_ancestor_valid
                     if not wyd_nephew_ancestor_valid(member, rows, assertions, chapters, root):
                         raise ValueError('宋044兄子缺父祖連須有固定叔侄與明父來源；不得造父、倒向或改母嗣系')
+                elif isinstance(connection,dict)and connection.get('type')=='ancestor_through_explicit_child_parent':
+                    try:from scripts.wei_paternal_assembly import known_child_parent_ancestor_valid
+                    except ImportError:from wei_paternal_assembly import known_child_parent_ancestor_valid
+                    if not known_child_parent_ancestor_valid(member,rows,assertions,chapters,root,people=people):raise ValueError('衛氏明子/明父祖差投影須完整來源、caller與未知兩代')
                 elif connection:
                     if not isinstance(connection, dict):
                         raise ValueError('同父兄弟祖先組裝格式無效')
@@ -135,7 +146,7 @@ def load_assemblies(root, catalog):
                 connection = member.get('parent_connection')
                 if connection:
                     if connection.get('type') == 'parent_between_consecutive_ancestors':
-                        if not consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=root):
+                        if not consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=root, people=people):
                             raise ValueError('連續具名祖先組裝缺少相符世次及同段證據')
                     elif connection.get('type') == 'parent_between_body_and_attached_note_ancestors':
                         try:

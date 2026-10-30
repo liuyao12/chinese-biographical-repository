@@ -1,0 +1,84 @@
+{
+  "format_version": "0.2",
+  "record_type": "identity_decision_set",
+  "chapter_id": "c-shiji-124-youxia",
+  "decisions": [
+    {
+      "id": "d-shiji124-zhaotayu-editorial-name-parse",
+      "person_id": "k66_l92_10i",
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-124-youxia"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "medium_high",
+      "surfaces": [
+        "趙他",
+        "羽公子"
+      ],
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-124",
+          "source_id": "s-shiji124-youxia",
+          "chapter_id": "c-shiji-124-youxia",
+          "paragraph_id": "c-shiji-124-youxia:p015",
+          "quote": "自是之後，為俠者極眾，敖而無足數者。然關中長安樊仲子，槐裏趙王孫，長陵高公子，西河郭公仲，太原鹵公孺，臨淮兒長卿，東陽田君孺，雖為俠而逡逡有退讓君子之風。至若北道姚氏，西道諸杜，南道仇景，東道趙他、羽公子，南陽趙調之徒，此盜跖居民間者耳，曷足道哉！此乃鄉者朱家之羞也。"
+        }
+      ],
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-124-youxia:m015-0096"
+          ],
+          "metadata": {
+            "label": "趙他（游俠列傳候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "e9a6be556c029eb722e195ce43d5861adcd7b13521de883b95246a578c2cd834",
+          "qualification": "原先兩人讀的label/status/historicity等完整保留；舊解不因本次首選而宣稱已證偽。"
+        },
+        {
+          "source_mention_ids": [
+            "c-shiji-124-youxia:m015-0099"
+          ],
+          "metadata": {
+            "label": "羽公子（游俠列傳候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "85877cd595184c9ea39000d8bd80a9995d5aa199b05bb378cdfdba08b32070f9",
+          "qualification": "原先兩人讀的label/status/historicity等完整保留；舊解不因本次首選而宣稱已證偽。"
+        }
+      ],
+      "rationale": "索隱明存舊解趙他、羽公子為二人，又明說姓趙、名他羽、字公子。首選一人，但保舊解與本文頓號/兩MID。漢書同一列名語境作佗羽公子，只作文本比較，不當獨立證據票；不以他佗全域等價，不接南越王。",
+      "references": [
+        {
+          "title": "《史記・游俠列傳》索隱",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷124&oldid=2514795",
+          "quote": "舊解以趙他、羽公子爲二人，今案：此姓趙，名他羽，字公子也。",
+          "scope": "editorial_reference",
+          "access_scope_display": "已核讀數位列名段及注語；印本未核，未取得原始文字或書影校勘。"
+        },
+        {
+          "title": "《漢書・游俠傳》",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷092&oldid=2271691",
+          "quote": "東道佗羽公子",
+          "scope": "comparison_only_not_independent_vote",
+          "access_scope_display": "已核讀郭解完整數位單元；底本未知，非武英殿見證。"
+        }
+      ],
+      "source_reference_name_parse": {
+        "kind": "fixed_shiji124_suoyin_reference_name_parse",
+        "name_record_id": "name-shiji124-zhaotayu-reference",
+        "reference_path": "source-evidence/shiji124-zhaotayu/reference-units.json",
+        "raw_two_person_reading_retained": true,
+        "human_reviewed": false
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

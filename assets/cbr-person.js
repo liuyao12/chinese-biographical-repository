@@ -10,8 +10,10 @@ import {traceFamily} from './person-family.js';
 import {summarizeLife, ageLabel, lifeYearLabel, civilYearLabelData, sourceDateLabel, studyReferencesHTML} from './person-life.js';
 import {t,ui} from './i18n.js';
 import {loadWorkTitles} from './work-titles.js';
+import {profileTitlePreference,profileTitleHTML} from './profile-title.js';
 import {challengedOffice, challengedOfficeBadge, challengedOfficeEvidence, sourceDetailsHTML} from './person-source-details.js';
 import {summarizeNameComponents, nameAliases} from './name-components.js';
+import {nameSourceFragmentsHTML} from './name-source-fragments.js';
 export const loadFamily = p => traceFamily(p, loadPerson);
 export {nativeTableURL as tableOccurrenceURL} from './native-table-links.js';
 import {nativeTableURL as tableOccurrenceURL, nativeProfileURL} from './native-table-links.js';
@@ -92,7 +94,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
     [t('Adoptive father (source-attested chuji)'), family.adoptive_father || [], ''],
     [t('Adopted children (source-attested chuji)'), family.adopted_children || [], ''],
     ['配偶', family.spouses, ''], ['子女', family.children, ''],
-    ['同族旁支（編輯接合；共同父未名）', family.family_namespace?.roots || [], '']
+    [family.family_namespace?.namespace_kind === 'explicit_received_brothers_parent_unidentified' ? t('Source-attested brothers (parent unidentified)') : '同族旁支（編輯接合；共同父未名）', family.family_namespace?.roots || [], '']
   ].filter(([, entries]) => entries.length).map(([label, entries, note]) => `<dt>${label}</dt><dd>${note ? `<small>${note}</small><br>` : ''}${relativeList(entries)}</dd>`).join('') : '';
   const unresolvedSpouses = (family?.unresolved_spouse_groups || []).map(g => `<div class="person-pending-spouse-group" data-identity-group="${h(g.id)}"><strong>配偶指涉未決：是否同一人尚未判定</strong><p>${h(g.rationale)}</p><ul>${g.references.map(r => `<li>來源稱法：${h(r.span.surface)}${evidenceQuotes(r)}${evidenceLinks([r])}</li>`).join('')}</ul><small>此組不表示已證一人或兩人；原始配偶陳述均保留。</small></div>`).join('');
   const familyHTML = familyRows || unresolvedSpouses ? `<section class="person-family"><h4>家族</h4><dl>${familyRows}</dl>${unresolvedSpouses}</section>` : '';
@@ -112,7 +114,10 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
   const {names, records:components, conflicts:nameConflicts} = nameDisplay;
   const preserveLabelForPartialName = Boolean(names && !names.clan_style?.value && !names.full_name && names.ming && !names.surname && p.label?.endsWith(names.ming) && p.label.length > names.ming.length);
   const personalName = names?.clan_style?.value || names?.full_name || (names ? `${names.surname || ''}${names.ming || ''}` : '');
-  const heading = preserveLabelForPartialName ? p.label : names && nameDisplay.canHead ? `${names.title || ''} ${personalName}`.trim() || p.label : p.label;
+  const defaultTitle = profileTitlePreference(p);
+  const titleCanPrefix = Boolean(defaultTitle && names && nameDisplay.canHead && !preserveLabelForPartialName && personalName);
+  const heading = titleCanPrefix ? `${defaultTitle.title} ${personalName}` : preserveLabelForPartialName ? p.label : names && nameDisplay.canHead ? `${names.title || ''} ${personalName}`.trim() || p.label : p.label;
+  const profileTitleChoiceHTML = profileTitleHTML(p,titleCanPrefix);
   const additional = names ? nameAliases(names) : [];
   const componentAlternatives = components.flatMap(x => x.component_alternatives || []).map(a => {
     const c=a.components || {}, labels=[['surname','Surname'],['ming','Given name'],['zi','Courtesy name']].filter(([k])=>c[k]).map(([k,label])=>`${ui(label)} ${h(c[k])}`);
@@ -241,7 +246,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
     const fields = ['surname','ming','zi','xiaozhi','xiaoming','hao','former_ming','full_name'].filter(k => typeof n[k] === 'string' && n[k].trim());
     const source = {...(p.sources || []).find(x => x.chapter_id === n.chapter_id), ...n};
     return `<div class="person-name-source">${fields.length ? `<p>${fields.map(k => `${nameFieldLabels[k]} ${h(n[k])}`).join(' · ')}</p>` : ''}${typeof n.title === 'string' && n.title.trim() ? `<p class="person-name-source-title">本筆姓名來源所列稱號：${h(n.title)}</p>` : ''}<blockquote>${h(n.quote || '')}</blockquote>${evidenceLinks([source])}${n.note ? `<p>${h(n.note)}</p>` : ''}${dateReferences(n)}</div>`;
-  }).join('')}${componentAlternatives}</details>` : '';
+  }).join('')}${componentAlternatives}${nameSourceFragmentsHTML(p)}</details>` : '';
   const civilYearEvidence = event => {
     const normalized=event.normalized_date;
     if (!event.chinese_civil_year && normalized?.calendar==='chinese_civil') {
@@ -287,6 +292,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
   const ageApproximation = age => ['adjacent_age_numbers', 'quoted_kin_age_designation'].includes(age.approximation?.kind) ? `（${ui('Source age approximation')}）` : '';
   const lifeRows = lifeRow('生', life.birth) + lifeRow('卒', life.death) + (ages.length ? `<dt>年齡</dt><dd>${ages.map(e => `${h(ageLabel(e))}${ageApproximation(e)}${ageWhen(e)}<details><summary>報齡原文</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}</details>`).join('')}</dd>` : '');
   const lifeHTML = lifeRows ? `<section class="person-life-summary"><dl>${lifeRows}</dl></section>` : '';
+  const deathRecordEvidence = life.death.filter(e=>e.source_event_group).map(e=>`<details class="person-life-event-evidence"><summary>${ui('Death records')}</summary><p>${ui('Two source witnesses, provisionally read as one death')}</p>${(e.evidence || []).map(x=>`<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}</details>`).join('');
   const orderDecisions = p.relative_birth_order_decisions || [];
   const orderWarning = orderDecisions.length ? `<section class="person-relative-order-decisions"><p>${ui('Sibling age order has conflicting accounts; no order is preferred.')}</p>${full ? orderDecisions.map(d => `<details><summary>${ui('Age-order accounts and sources')}</summary><p>${h(d.rationale)}</p>${d.claims.map(c => `<blockquote>${h(c.witness.quote)}</blockquote><p><a href="${h(c.witness.fixed_url)}" target="_blank" rel="noopener">${ui('Fixed source text')}</a></p>`).join('')}</details>`).join('') : ''}</section>` : '';
   const unresolvedSourceTitles = full && p.unresolved_title_attestations?.length ? `<section class="person-unresolved-source-titles"><h4>${ui('Source titles with unresolved holders')}</h4><p>${ui('Not assigned as this person’s holdings.')}</p>${p.unresolved_title_attestations.map(a => `<details><summary>${h(a.title)} · ${h(a.holder_surface)}</summary><p>${h(a.interpretation_note)}</p>${a.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details>`).join('')}</section>` : '';
@@ -322,7 +328,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
   const memorialHTML = memorials.length ? `<details class="person-memorial-title-requests"><summary>奏請與實行回證</summary>${memorials.map(x => `<p><strong>${h(x.title)}</strong> · ${h(x.outcome === 'not_reported' ? '實行情況未載' : x.outcome === 'partially_confirmed' ? '爵種有回證，戶數未證實' : '後文有實授回證')}</p><p>${h(x.interpretation_note)}</p>${x.requested_households ? '<p>奏請五百戶；未當已授分配。</p>' : ''}${(x.evidence || []).map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}`).join('')}</details>` : '';
   const arrangementHTML = full && arrangements.length ? `<section class="person-appointment-arrangements"><h4>任官安排</h4><ul>${arrangements.map(x => `<li><strong>${h(x.title)}</strong> · 實行情況未載<p>${h(x.interpretation_note || '')}</p><details><summary>${x.proposal_kind === 'appointment_service_unreported' ? '任用原文' : '約定原文'}</summary>${(x.evidence || []).map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details></li>`).join('')}</ul></section>` : '';
   const mentionReadingHTML = !full && typeof mention?.interpretation_note === 'string' && mention.interpretation_note.trim() ? `<details class="person-mention-reading" open><summary>${ui('Identification of “{name}” here', {name:mention.surface || ''})}</summary><p>${h(mention.interpretation_note)}</p></details>` : '';
-  return `<article class="cbr-profile"><p class="eyebrow">人物資料 · ${p.review === 'source_local_candidate' ? '來源局部候選' : '來源辨認暫定'}</p><h${full ? 1 : 3}>${h(heading)}</h${full ? 1 : 3}>${p.historicity === 'legendary_tradition' ? '<p class="person-historicity">傳說敘事人物</p>' : ''}${additional.length ? `<p class="person-aliases">${additional.map(x => `<span>${x.kind === 'zi' ? ui('Courtesy name') + ' ' : x.kind === 'xiaozhi' ? ui('Childhood name') + ' ' : x.kind === 'xiaoming' ? ui('Childhood name (xiaoming)') + ' ' : x.kind === 'former_ming' ? ui('Former given name') + ' ' : ''}${h(x.value)}</span>`).join(' ')}</p>` : ''}${nameEvidence}${(p.names || []).length ? `<details class="person-source-names"><summary>來源中的其他稱呼</summary><p>${p.names.map(x => h(x)).join('、')}</p></details>` : ''}${lifeHTML}${chronologyWarning}${orderWarning}${collateralAgeWarning}${familyHTML}${mentionReadingHTML}${successionHTML}${unresolvedSourceTitles}${full && p.identity_note ? `<details class="person-identity-note"><summary>${ui('Identity interpretation')}</summary><p class="note">${h(p.identity_note)}</p></details>` : ''}${identityCasesHTML}${referentCases}${distinctionsHTML}${readingHTML}${proposalHTML}${unassumedHTML}${arrangementHTML}${declinedNobleHTML}${sourceDetailsHTML(p,full)}${principal ? `<blockquote class="person-overview">${h(principal.quote.slice(0, full ? 220 : 110))}</blockquote><p class="person-principal-source"><a href="${h(sourcePassageURL(principal))}">${h(sourceCitation(principal,p.source_chapter_directory,p.source_work_titles))} →</a>${principals.slice(1).map(x => ` · <a href="${h(sourcePassageURL(x))}">${h(sourceCitation(x,p.source_chapter_directory,p.source_work_titles))} →</a>`).join('')}<br><small>已標記正文中最多提及的來源（頻次不代表來源權威度）</small></p>` : ''}
+  return `<article class="cbr-profile"><p class="eyebrow">人物資料 · ${p.review === 'source_local_candidate' ? '來源局部候選' : '來源辨認暫定'}</p><h${full ? 1 : 3}>${h(heading)}</h${full ? 1 : 3}>${profileTitleChoiceHTML}${p.historicity === 'legendary_tradition' ? '<p class="person-historicity">傳說敘事人物</p>' : ''}${additional.length ? `<p class="person-aliases">${additional.map(x => `<span>${x.kind === 'zi' ? ui('Courtesy name') + ' ' : x.kind === 'xiaozhi' ? ui('Childhood name') + ' ' : x.kind === 'xiaoming' ? ui('Childhood name (xiaoming)') + ' ' : x.kind === 'former_ming' ? ui('Former given name') + ' ' : ''}${h(x.value)}</span>`).join(' ')}</p>` : ''}${nameEvidence}${(p.names || []).length ? `<details class="person-source-names"><summary>來源中的其他稱呼</summary><p>${p.names.map(x => h(x)).join('、')}</p></details>` : ''}${lifeHTML}${chronologyWarning}${orderWarning}${collateralAgeWarning}${familyHTML}${mentionReadingHTML}${successionHTML}${unresolvedSourceTitles}${full && p.identity_note ? `<details class="person-identity-note"><summary>${ui('Identity interpretation')}</summary><p class="note">${h(p.identity_note)}</p></details>` : ''}${identityCasesHTML}${referentCases}${distinctionsHTML}${readingHTML}${proposalHTML}${unassumedHTML}${arrangementHTML}${declinedNobleHTML}${sourceDetailsHTML(p,full)}${sourceFamilyCountHTML(p,evidenceLinks)}${deathRecordEvidence}${principal ? `<blockquote class="person-overview">${h(principal.quote.slice(0, full ? 220 : 110))}</blockquote><p class="person-principal-source"><a href="${h(sourcePassageURL(principal))}">${h(sourceCitation(principal,p.source_chapter_directory,p.source_work_titles))} →</a>${principals.slice(1).map(x => ` · <a href="${h(sourcePassageURL(x))}">${h(sourceCitation(x,p.source_chapter_directory,p.source_work_titles))} →</a>`).join('')}<br><small>已標記正文中最多提及的來源（頻次不代表來源權威度）</small></p>` : ''}
   ${!principal && tableExample ? `<blockquote class="person-overview">${h(tableExample.quote.slice(0, full ? 220 : 150))}</blockquote><p class="person-principal-source"><a href="${h(tableOccurrenceURL(tableExample))}">${h(tableExample.title)} · 查看原格 →</a></p>${!full && p.identity_note ? `<p class="note">${h(p.identity_note)}</p>` : ''}` : ''}
   ${dates.length ? `<section class="person-date-evidence"><h4>紀年對照</h4>${dates.slice(0, full ? undefined : 2).map(x => `<div class="person-date-item"><p><strong>西元${x.era === 'BCE' ? '前' : ''}${x.era_year}年</strong> <small>編輯對照 · 暫定${h(dateChoice(x))}</small><br><q>${h(x.original_quote)}</q>${full ? '<br>' + evidenceLinks(x.evidence) : ''}</p>${lifeDateSources(x)}</div>`).join('')}</section>` : ''}
   ${full && dateDecisions.length ? `<section class="person-date-decisions"><h4>生卒紀年取捨 · 暫定</h4>${dateDecisions.map(d => `<p>${h(d.rationale)}</p>${evidenceLinks(d.evidence)}${dateReferences(d)}`).join('')}</section>` : ''}
@@ -401,4 +407,23 @@ export function bindPersonCards(root) {
   view?.addEventListener?.('resize', place);
   view?.addEventListener?.('scroll', place, {passive:true});
   return () => {hide(); clearTimeout(timer); root.removeEventListener('pointerover', over); root.removeEventListener('pointermove', move); root.removeEventListener('focusin', over); root.removeEventListener('pointerout', out); root.removeEventListener('click', click, true); keyTarget.removeEventListener('keydown', key); view?.removeEventListener?.('resize', place); view?.removeEventListener?.('scroll', place); card.remove();};
+}
+
+// Received count reports are scoped quotations, never a reconstructed lifetime child list.
+function boundedSourceFamilyReportHTML(r, evidenceLinks) {
+  const labels = {
+    lineage_generations: `本句記為${r.reported_count}世；起算祖先未名，不補世系。`,
+    indefinite_plural: '本句稱「諸子」；人數與是否生子未定。',
+    existence: '本句明有女兒，至少一位；姓名及確切人數未載。',
+    source_absence: '本條記為「無」；僅保本段敘述範圍。',
+    qualified_generation_expression: '原稱「兄玄孫之子」；兄及中間世代未名。'
+  };
+  const label = labels[r.report_kind];
+  if (!label) throw new Error('未知來源親屬報數類型');
+  return `<p>${h((r.source_terms || []).join('／'))}：${h(label)}${h(r.scope_qualification || '')}</p>${(r.evidence || []).map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('')}`;
+}
+function sourceFamilyCountHTML(person, evidenceLinks) {
+  const reports = Array.isArray(person.source_family_count_reports) ? person.source_family_count_reports : [];
+  if (!reports.length) return '';
+  return `<details class="person-source-family-counts"><summary>${reports.some(r => r.report_kind) ? '來源親屬稱語與世次' : '原文所載親屬人數'}</summary>${reports.map(r => r.report_kind ? boundedSourceFamilyReportHTML(r, evidenceLinks) : `<p>${h((r.source_terms || []).join('／'))}：${h(({sons_of_reference:"兒子",younger_brothers_of_reference:"弟弟",reference_and_sons_and_grandchildren_victims:"本人與子孫遇害者"})[r.count_scope] || "本條人數")}原文記為 ${h(String(r.reported_count))} 人。${r.named_list_complete_for_reported_count === true ? '本條具名名單齊備；' : '僅列已辨識子集；'}不據此補全終生親屬名單或出生排行。</p>${(r.evidence || []).map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('')}`).join('')}</details>`;
 }

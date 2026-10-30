@@ -60,6 +60,8 @@ export function chapterParagraph(paragraph, people = {}, context = null, workTit
       if(params && context?.work_id && context.work_id !== 'w-shiji')params.set('mention',mention.id);
       const href = 'person.html' + (params ? '?'+params : '') + '#' + encodeURIComponent(mention.person_id);
       fragments.push(`<a id="${h(mention.id)}" class="cbr-person-link" data-person-id="${h(mention.person_id)}"${typeof mention.interpretation_note === 'string' && mention.interpretation_note.trim() ? ` data-person-reading-note="${h(mention.interpretation_note)}"` : ''} href="${h(href)}" title="${h(person?.label || mention.surface)}">${text}</a>`);
+    } else if (mention.kind === 'pronoun' && mention.surface === '之' && mention.person_id) {
+      fragments.push(`<span id="${h(mention.id)}" class="cbr-pronoun">${text}</span>`);
     } else if (mention.kind === 'work' && mention.work_id && mention.person_id == null) {
       fragments.push(workMentionHTML(mention, workTitles));
     } else if (mention.kind === 'non_person' && mention.person_id == null) {

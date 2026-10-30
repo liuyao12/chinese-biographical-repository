@@ -1,0 +1,1218 @@
+{
+  "record_type": "fixed_jin031_remaining_titles_phase",
+  "human_reviewed": false,
+  "model": null,
+  "parent_typed_path": "source-evidence/jin031-jia-comparison/typed-phase-proof.json",
+  "parent_typed_sha256": "6487c1ce4f48bf53fb96dff69ede69c2b4ef2d970dd1dee0847068b4f215150c",
+  "parent_ner_path": "source-evidence/jin031-jia-comparison/full-ner-proof.json",
+  "parent_ner_sha256": "fd0f82c98d6a465494a22e0d857dfbd0d9edfa4c4548f24050a7caddbd76ab26",
+  "chapter_id": "c-jinshu-031-jia-comparison",
+  "new_mention": {
+    "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+    "mention": {
+      "id": "c-jinshu-031-jia-comparison:p004:m0092",
+      "start": 92,
+      "end": 94,
+      "surface": "楚王",
+      "kind": "person",
+      "person_id": "$simawei",
+      "status": "contextual_provisional"
+    },
+    "corroborating_mention_ids": [
+      "c-jinshu-031-jia-comparison:p004:m0034",
+      "c-jinshu-031-jia-comparison:p004:m0099"
+    ]
+  },
+  "holdings": [
+    {
+      "id": "th-jin031-more-zhaocan-chonghua",
+      "person_id": "$zhaocan",
+      "title": "充華",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p003",
+          "quote": "妃性酷虐，嘗手殺數人。或以戟擲孕妾，子隨刃墮地。帝聞之，大怒，已修金墉城，將廢之。充華趙粲從容言曰：「賈妃年少，妒是婦人之情耳，長自當差。願陛下察之。」其後楊珧亦為之言曰：「陛下忘賈公閭耶？」荀勖深救之，故得不廢。惠帝即位，立為皇后，生河東、臨海、始平公主、哀獻皇女。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p003:m0043"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-zhaocan-chonghua:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p003",
+          "start": 41,
+          "end": 43,
+          "surface": "充華",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p003:m0043",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:zhaocan-chonghua"
+      },
+      "interpretation_note": "充華趙粲，傳文職銜在姓名前；未明授任動作或任年。 不以趙粲勸解事件推任官起訖或正式品秩。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-guo-guangcheng",
+      "person_id": "$guohuai",
+      "title": "廣城君",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "quote": "后暴戾日甚。侍中賈模，后之族兄，右衛郭彰，后之從舅，並以才望居位，與楚王瑋、東安公繇分掌朝政。后母廣城君養孫賈謐干預國事，權侔人主。繇密欲廢后，賈氏憚之。及太宰亮、衛瓘等表繇徙帶方，奪楚王中候，后知瑋怨之，乃使帝作密詔令瑋誅瓘、亮，以報宿憾。模知后凶暴，恐禍及己，乃與裴頠、王衍謀廢之，衍悔而謀寢。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0049"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-guo-guangcheng:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "start": 49,
+          "end": 52,
+          "surface": "廣城君",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0049",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-031",
+              "source_id": "s-jinshu031-jia-ws2479706-comparison",
+              "chapter_id": "c-jinshu-031-jia-comparison",
+              "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+              "quote": "初，后詐有身，內稿物為產具，遂取妹夫韓壽子慰祖養之，託諒闇所生，故弗顯。遂謀廢太子，以所養代立。時洛中謠曰：「南風烈烈吹黃沙，遙望魯國鬱嵯峨，前至三月滅汝家。」后母廣城君以后無子，甚敬重愍懷，每勸厲后，使加慈愛。賈謐恃貴驕縱，不能推崇太子，廣城君恒切責之。及廣城君病篤，占術謂不宜封廣城，乃改封宜城。后出侍疾十餘日，太子常往宜城第，將醫出入，恂恂盡禮。宜城臨終執后手，令盡意于太子，言甚切至。又曰：「趙粲及午必亂汝事，我死後，勿復聽入，深憶吾言。」后不能遵之，遂專制天下，威服內外。更與粲、午專為姦謀，誣害太子，眾惡彰著。初，誅楊駿及汝南王亮、太保衛瓘、楚王瑋等，皆臨機專斷，宦人董猛參預其事。猛，武帝時為寺人監，侍東宮，得親信于后，預誅楊駿，封武安侯，猛三兄皆為亭侯，天下咸怨。",
+              "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0129"
+            }
+          ]
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:guo-guangcheng"
+      },
+      "interpretation_note": "后母廣城君；p006三次廣城君及宜城m0176為同一人承接。 不是p006當時新授廣城；不據后母地位推封年或封邑現代地理。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "same_source_title_change": {
+        "replacement_holding_id": "th-jin031-more-guo-yicheng",
+        "scope": "only_this_former_title",
+        "rationale": "同人明改封，不補年月或把死亡當通用終界。"
+      }
+    },
+    {
+      "id": "th-jin031-more-guo-yicheng",
+      "person_id": "$guohuai",
+      "title": "宜城君",
+      "kind": "noble_rank",
+      "mode": "transfer",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+          "quote": "初，后詐有身，內稿物為產具，遂取妹夫韓壽子慰祖養之，託諒闇所生，故弗顯。遂謀廢太子，以所養代立。時洛中謠曰：「南風烈烈吹黃沙，遙望魯國鬱嵯峨，前至三月滅汝家。」后母廣城君以后無子，甚敬重愍懷，每勸厲后，使加慈愛。賈謐恃貴驕縱，不能推崇太子，廣城君恒切責之。及廣城君病篤，占術謂不宜封廣城，乃改封宜城。后出侍疾十餘日，太子常往宜城第，將醫出入，恂恂盡禮。宜城臨終執后手，令盡意于太子，言甚切至。又曰：「趙粲及午必亂汝事，我死後，勿復聽入，深憶吾言。」后不能遵之，遂專制天下，威服內外。更與粲、午專為姦謀，誣害太子，眾惡彰著。初，誅楊駿及汝南王亮、太保衛瓘、楚王瑋等，皆臨機專斷，宦人董猛參預其事。猛，武帝時為寺人監，侍東宮，得親信于后，預誅楊駿，封武安侯，猛三兄皆為亭侯，天下咸怨。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0129"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-guo-yicheng:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+          "start": 147,
+          "end": 149,
+          "surface": "宜城",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0129",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "transfer",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-031",
+              "source_id": "s-jinshu031-jia-ws2479706-comparison",
+              "chapter_id": "c-jinshu-031-jia-comparison",
+              "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+              "quote": "初，后詐有身，內稿物為產具，遂取妹夫韓壽子慰祖養之，託諒闇所生，故弗顯。遂謀廢太子，以所養代立。時洛中謠曰：「南風烈烈吹黃沙，遙望魯國鬱嵯峨，前至三月滅汝家。」后母廣城君以后無子，甚敬重愍懷，每勸厲后，使加慈愛。賈謐恃貴驕縱，不能推崇太子，廣城君恒切責之。及廣城君病篤，占術謂不宜封廣城，乃改封宜城。后出侍疾十餘日，太子常往宜城第，將醫出入，恂恂盡禮。宜城臨終執后手，令盡意于太子，言甚切至。又曰：「趙粲及午必亂汝事，我死後，勿復聽入，深憶吾言。」后不能遵之，遂專制天下，威服內外。更與粲、午專為姦謀，誣害太子，眾惡彰著。初，誅楊駿及汝南王亮、太保衛瓘、楚王瑋等，皆臨機專斷，宦人董猛參預其事。猛，武帝時為寺人監，侍東宮，得親信于后，預誅楊駿，封武安侯，猛三兄皆為亭侯，天下咸怨。",
+              "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0129"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:guo-yicheng"
+      },
+      "interpretation_note": "及廣城君病篤，占術謂不宜封廣城，乃改封宜城；m0176宜城同PID重申本人。 不補改封者；不把臨終/我死後作確定卒年；不借惠帝即位填290。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "source_title_interpretation": {
+        "source_surface": "宜城",
+        "preferred_title": "宜城君",
+        "added_suffix": "君",
+        "rationale": "同段舊號廣城君與同人改封；040 p014明母郭為宜城君另源互證",
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "model": null
+      },
+      "shared_title_suffix": {
+        "component_anchor": {
+          "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+          "start": 147,
+          "end": 149,
+          "surface": "宜城"
+        },
+        "suffix_anchor": {
+          "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+          "start": 131,
+          "end": 132,
+          "surface": "君"
+        },
+        "expansion_status": "editorial_preferred",
+        "qualification": "同人同段舊稱/傳首的位號尾字；完整稱號是有資格展開，非原文連寫。"
+      },
+      "transfer_basis": {
+        "kind": "fixed_jin031_title_change",
+        "previous_holding_id": "th-jin031-more-guo-guangcheng",
+        "previous_title_status": "source_context",
+        "source_term": "改封宜城",
+        "actor_mention_id": "c-jinshu-031-jia-comparison:p006:m0129",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-031",
+            "source_id": "s-jinshu031-jia-ws2479706-comparison",
+            "chapter_id": "c-jinshu-031-jia-comparison",
+            "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+            "quote": "初，后詐有身，內稿物為產具，遂取妹夫韓壽子慰祖養之，託諒闇所生，故弗顯。遂謀廢太子，以所養代立。時洛中謠曰：「南風烈烈吹黃沙，遙望魯國鬱嵯峨，前至三月滅汝家。」后母廣城君以后無子，甚敬重愍懷，每勸厲后，使加慈愛。賈謐恃貴驕縱，不能推崇太子，廣城君恒切責之。及廣城君病篤，占術謂不宜封廣城，乃改封宜城。后出侍疾十餘日，太子常往宜城第，將醫出入，恂恂盡禮。宜城臨終執后手，令盡意于太子，言甚切至。又曰：「趙粲及午必亂汝事，我死後，勿復聽入，深憶吾言。」后不能遵之，遂專制天下，威服內外。更與粲、午專為姦謀，誣害太子，眾惡彰著。初，誅楊駿及汝南王亮、太保衛瓘、楚王瑋等，皆臨機專斷，宦人董猛參預其事。猛，武帝時為寺人監，侍東宮，得親信于后，預誅楊駿，封武安侯，猛三兄皆為亭侯，天下咸怨。",
+            "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0129"
+          }
+        ],
+        "rationale": "同源同人兩稱明改封，未知年日；完整位號展開與原詞分存。",
+        "status": "editorial_provisional",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "th-jin031-more-dongmeng-wuan",
+      "person_id": "$dongmeng",
+      "title": "武安侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+          "quote": "初，后詐有身，內稿物為產具，遂取妹夫韓壽子慰祖養之，託諒闇所生，故弗顯。遂謀廢太子，以所養代立。時洛中謠曰：「南風烈烈吹黃沙，遙望魯國鬱嵯峨，前至三月滅汝家。」后母廣城君以后無子，甚敬重愍懷，每勸厲后，使加慈愛。賈謐恃貴驕縱，不能推崇太子，廣城君恒切責之。及廣城君病篤，占術謂不宜封廣城，乃改封宜城。后出侍疾十餘日，太子常往宜城第，將醫出入，恂恂盡禮。宜城臨終執后手，令盡意于太子，言甚切至。又曰：「趙粲及午必亂汝事，我死後，勿復聽入，深憶吾言。」后不能遵之，遂專制天下，威服內外。更與粲、午專為姦謀，誣害太子，眾惡彰著。初，誅楊駿及汝南王亮、太保衛瓘、楚王瑋等，皆臨機專斷，宦人董猛參預其事。猛，武帝時為寺人監，侍東宮，得親信于后，預誅楊駿，封武安侯，猛三兄皆為亭侯，天下咸怨。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0297"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-dongmeng-wuan:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+          "start": 323,
+          "end": 326,
+          "surface": "武安侯",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0297",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-031",
+              "source_id": "s-jinshu031-jia-ws2479706-comparison",
+              "chapter_id": "c-jinshu-031-jia-comparison",
+              "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+              "quote": "初，后詐有身，內稿物為產具，遂取妹夫韓壽子慰祖養之，託諒闇所生，故弗顯。遂謀廢太子，以所養代立。時洛中謠曰：「南風烈烈吹黃沙，遙望魯國鬱嵯峨，前至三月滅汝家。」后母廣城君以后無子，甚敬重愍懷，每勸厲后，使加慈愛。賈謐恃貴驕縱，不能推崇太子，廣城君恒切責之。及廣城君病篤，占術謂不宜封廣城，乃改封宜城。后出侍疾十餘日，太子常往宜城第，將醫出入，恂恂盡禮。宜城臨終執后手，令盡意于太子，言甚切至。又曰：「趙粲及午必亂汝事，我死後，勿復聽入，深憶吾言。」后不能遵之，遂專制天下，威服內外。更與粲、午專為姦謀，誣害太子，眾惡彰著。初，誅楊駿及汝南王亮、太保衛瓘、楚王瑋等，皆臨機專斷，宦人董猛參預其事。猛，武帝時為寺人監，侍東宮，得親信于后，預誅楊駿，封武安侯，猛三兄皆為亭侯，天下咸怨。",
+              "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0297"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:dongmeng-wuan"
+      },
+      "interpretation_note": "猛，武帝時為寺人監…預誅楊駿，封武安侯；前m0290全名董猛同人。 武帝時只約束寺人監，不能借為此授爵年/頒授者；不補縣字、邑戶或291；不以p007伏誅全止所有爵職。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-linhai-prior-qinghe",
+      "person_id": "$daughter_linhai",
+      "title": "清河公主",
+      "kind": "royal_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+          "quote": "臨海公主先封清河，洛陽之亂，為人所略，傳賣吳興錢溫。溫以送女，女遇主甚酷。元帝鎮建鄴，主詣縣自言。元帝誅溫及女，改封臨海，宗正曹統尚之。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p008:m0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-linhai-prior-qinghe:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+          "start": 6,
+          "end": 8,
+          "surface": "清河",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p008:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-031",
+              "source_id": "s-jinshu031-jia-ws2479706-comparison",
+              "chapter_id": "c-jinshu-031-jia-comparison",
+              "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+              "quote": "臨海公主先封清河，洛陽之亂，為人所略，傳賣吳興錢溫。溫以送女，女遇主甚酷。元帝鎮建鄴，主詣縣自言。元帝誅溫及女，改封臨海，宗正曹統尚之。",
+              "person_mention_id": "c-jinshu-031-jia-comparison:p008:m0000"
+            }
+          ]
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-031",
+              "source_id": "s-jinshu031-jia-ws2479706-comparison",
+              "chapter_id": "c-jinshu-031-jia-comparison",
+              "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+              "quote": "臨海公主先封清河，洛陽之亂，為人所略，傳賣吳興錢溫。溫以送女，女遇主甚酷。元帝鎮建鄴，主詣縣自言。元帝誅溫及女，改封臨海，宗正曹統尚之。",
+              "person_mention_id": "c-jinshu-031-jia-comparison:p008:m0043"
+            }
+          ]
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:linhai-prior-qinghe"
+      },
+      "interpretation_note": "臨海公主先封清河；先封明舊號，和後改封臨海同一人。 不因被略/販賣自動廢爵；不以洛陽之亂填311；不推父親或出生日。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "source_title_interpretation": {
+        "source_surface": "清河",
+        "preferred_title": "清河公主",
+        "added_suffix": "公主",
+        "rationale": "同段傳首臨海公主及先封/改封對舉",
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "model": null
+      },
+      "shared_title_suffix": {
+        "component_anchor": {
+          "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+          "start": 6,
+          "end": 8,
+          "surface": "清河"
+        },
+        "suffix_anchor": {
+          "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+          "start": 2,
+          "end": 4,
+          "surface": "公主"
+        },
+        "expansion_status": "editorial_preferred",
+        "qualification": "同人同段舊稱/傳首的位號尾字；完整稱號是有資格展開，非原文連寫。"
+      },
+      "same_source_title_change": {
+        "replacement_holding_id": "th-jin031-more-linhai-renamed",
+        "scope": "only_this_former_title",
+        "rationale": "同人明改封，不補年月或把死亡當通用終界。"
+      }
+    },
+    {
+      "id": "th-jin031-more-linhai-renamed",
+      "person_id": "$daughter_linhai",
+      "title": "臨海公主",
+      "kind": "royal_rank",
+      "mode": "transfer",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+          "quote": "臨海公主先封清河，洛陽之亂，為人所略，傳賣吳興錢溫。溫以送女，女遇主甚酷。元帝鎮建鄴，主詣縣自言。元帝誅溫及女，改封臨海，宗正曹統尚之。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p008:m0043"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-linhai-renamed:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+          "start": 58,
+          "end": 60,
+          "surface": "臨海",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p008:m0043",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "transfer",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-031",
+              "source_id": "s-jinshu031-jia-ws2479706-comparison",
+              "chapter_id": "c-jinshu-031-jia-comparison",
+              "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+              "quote": "臨海公主先封清河，洛陽之亂，為人所略，傳賣吳興錢溫。溫以送女，女遇主甚酷。元帝鎮建鄴，主詣縣自言。元帝誅溫及女，改封臨海，宗正曹統尚之。",
+              "person_mention_id": "c-jinshu-031-jia-comparison:p008:m0043"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:linhai-renamed"
+      },
+      "interpretation_note": "元帝誅溫及女，改封臨海，宗正曹統尚之；明授新號。 元帝是後稱，不把鎮建鄴當已即帝位或據此推改封確年；尚之是婚配，不是爵位授任。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "source_title_interpretation": {
+        "source_surface": "臨海",
+        "preferred_title": "臨海公主",
+        "added_suffix": "公主",
+        "rationale": "同段傳首完整臨海公主",
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "model": null
+      },
+      "shared_title_suffix": {
+        "component_anchor": {
+          "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+          "start": 58,
+          "end": 60,
+          "surface": "臨海"
+        },
+        "suffix_anchor": {
+          "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+          "start": 2,
+          "end": 4,
+          "surface": "公主"
+        },
+        "expansion_status": "editorial_preferred",
+        "qualification": "同人同段舊稱/傳首的位號尾字；完整稱號是有資格展開，非原文連寫。"
+      },
+      "transfer_basis": {
+        "kind": "fixed_jin031_title_change",
+        "previous_holding_id": "th-jin031-more-linhai-prior-qinghe",
+        "previous_title_status": "source_context",
+        "source_term": "改封臨海",
+        "actor_mention_id": "c-jinshu-031-jia-comparison:p008:m0043",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-031",
+            "source_id": "s-jinshu031-jia-ws2479706-comparison",
+            "chapter_id": "c-jinshu-031-jia-comparison",
+            "paragraph_id": "c-jinshu-031-jia-comparison:p008",
+            "quote": "臨海公主先封清河，洛陽之亂，為人所略，傳賣吳興錢溫。溫以送女，女遇主甚酷。元帝鎮建鄴，主詣縣自言。元帝誅溫及女，改封臨海，宗正曹統尚之。",
+            "person_mention_id": "c-jinshu-031-jia-comparison:p008:m0043"
+          }
+        ],
+        "rationale": "同源同人兩稱明改封，未知年日；完整位號展開與原詞分存。",
+        "status": "editorial_provisional",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "th-jin031-more-hedong-princess",
+      "person_id": "$daughter_hedong",
+      "title": "河東公主",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p005",
+          "quote": "后遂荒淫放恣，與太醫令程據等亂彰內外。洛南有盜尉部小吏，端麗美容止，既給冢役，忽有非常衣服，眾咸疑其竊盜，尉嫌而辯之。賈后疏親欲求盜物，往聽對辭。小吏云：「先行逢一老嫗，說家有疾病，師卜云宜得城南少年厭之，欲暫相煩，必有重報。於是隨去，上車下帷，內簏箱中，行可十餘里，過六七門限，開簏箱，忽見樓闕好屋。問此是何處，云是天上，即以香湯見浴，好衣美食將入。見一婦人，年可三十五六，短形青黑色，眉後有疵。見留數夕，共寢歡宴，臨出贈此眾物。」聽者聞其形狀，知是賈后，慚笑而去，尉亦解意。時他人入者多死，惟此小吏，以后愛之，得全而出。及河東公主有疾，師巫以為宜施寬令，乃稱詔大赦天下。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p005:m0263"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-hedong-princess:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p005",
+          "start": 263,
+          "end": 267,
+          "surface": "河東公主",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p005:m0263",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:hedong-princess"
+      },
+      "interpretation_note": "p003生河東的本人，p005原文完整河東公主。 不把生字作當時封授，不賦四女排行，不填父或冊封年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-shiping-princess",
+      "person_id": "$daughter_shiping",
+      "title": "始平公主",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p003",
+          "quote": "妃性酷虐，嘗手殺數人。或以戟擲孕妾，子隨刃墮地。帝聞之，大怒，已修金墉城，將廢之。充華趙粲從容言曰：「賈妃年少，妒是婦人之情耳，長自當差。願陛下察之。」其後楊珧亦為之言曰：「陛下忘賈公閭耶？」荀勖深救之，故得不廢。惠帝即位，立為皇后，生河東、臨海、始平公主、哀獻皇女。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p003:m0124"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-shiping-princess:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p003",
+          "start": 124,
+          "end": 128,
+          "surface": "始平公主",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p003:m0124",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:shiping-princess"
+      },
+      "interpretation_note": "生河東、臨海、始平公主、哀獻皇女，姓名錨即完整稱號。 只記有此號，非明冊封或持號始年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-aixian-daughter",
+      "person_id": "$daughter_aixian",
+      "title": "哀獻皇女",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p003",
+          "quote": "妃性酷虐，嘗手殺數人。或以戟擲孕妾，子隨刃墮地。帝聞之，大怒，已修金墉城，將廢之。充華趙粲從容言曰：「賈妃年少，妒是婦人之情耳，長自當差。願陛下察之。」其後楊珧亦為之言曰：「陛下忘賈公閭耶？」荀勖深救之，故得不廢。惠帝即位，立為皇后，生河東、臨海、始平公主、哀獻皇女。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p003:m0129"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-aixian-daughter:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p003",
+          "start": 129,
+          "end": 133,
+          "surface": "哀獻皇女",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p003:m0129",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:aixian-daughter"
+      },
+      "interpretation_note": "四女列舉的來源稱號/皇女位分。 未見諡曰/贈/卒，不按哀獻自動造死亡或posthumous_grant。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-chu-king",
+      "person_id": "$simawei",
+      "title": "楚王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "quote": "后暴戾日甚。侍中賈模，后之族兄，右衛郭彰，后之從舅，並以才望居位，與楚王瑋、東安公繇分掌朝政。后母廣城君養孫賈謐干預國事，權侔人主。繇密欲廢后，賈氏憚之。及太宰亮、衛瓘等表繇徙帶方，奪楚王中候，后知瑋怨之，乃使帝作密詔令瑋誅瓘、亮，以報宿憾。模知后凶暴，恐禍及己，乃與裴頠、王衍謀廢之，衍悔而謀寢。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0034"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-chu-king:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "start": 34,
+          "end": 36,
+          "surface": "楚王",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0034",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:chu-king"
+      },
+      "interpretation_note": "本人源內具體職爵稱謂；只有稱呼，未明授予動作。 不從稱謂補授年/任期；被誅不等於各爵職明廢；齊王與翊軍校尉分存，不合成一個官名。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-dongan-gong",
+      "person_id": "$simayao",
+      "title": "東安公",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "quote": "后暴戾日甚。侍中賈模，后之族兄，右衛郭彰，后之從舅，並以才望居位，與楚王瑋、東安公繇分掌朝政。后母廣城君養孫賈謐干預國事，權侔人主。繇密欲廢后，賈氏憚之。及太宰亮、衛瓘等表繇徙帶方，奪楚王中候，后知瑋怨之，乃使帝作密詔令瑋誅瓘、亮，以報宿憾。模知后凶暴，恐禍及己，乃與裴頠、王衍謀廢之，衍悔而謀寢。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0038"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-dongan-gong:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "start": 38,
+          "end": 41,
+          "surface": "東安公",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0038",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:dongan-gong"
+      },
+      "interpretation_note": "本人源內具體職爵稱謂；只有稱呼，未明授予動作。 不從稱謂補授年/任期；被誅不等於各爵職明廢；齊王與翊軍校尉分存，不合成一個官名。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-runan-king",
+      "person_id": "$simaliang",
+      "title": "汝南王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+          "quote": "初，后詐有身，內稿物為產具，遂取妹夫韓壽子慰祖養之，託諒闇所生，故弗顯。遂謀廢太子，以所養代立。時洛中謠曰：「南風烈烈吹黃沙，遙望魯國鬱嵯峨，前至三月滅汝家。」后母廣城君以后無子，甚敬重愍懷，每勸厲后，使加慈愛。賈謐恃貴驕縱，不能推崇太子，廣城君恒切責之。及廣城君病篤，占術謂不宜封廣城，乃改封宜城。后出侍疾十餘日，太子常往宜城第，將醫出入，恂恂盡禮。宜城臨終執后手，令盡意于太子，言甚切至。又曰：「趙粲及午必亂汝事，我死後，勿復聽入，深憶吾言。」后不能遵之，遂專制天下，威服內外。更與粲、午專為姦謀，誣害太子，眾惡彰著。初，誅楊駿及汝南王亮、太保衛瓘、楚王瑋等，皆臨機專斷，宦人董猛參預其事。猛，武帝時為寺人監，侍東宮，得親信于后，預誅楊駿，封武安侯，猛三兄皆為亭侯，天下咸怨。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0267"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-runan-king:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+          "start": 267,
+          "end": 270,
+          "surface": "汝南王",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0267",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:runan-king"
+      },
+      "interpretation_note": "本人源內具體職爵稱謂；只有稱呼，未明授予動作。 不從稱謂補授年/任期；被誅不等於各爵職明廢；齊王與翊軍校尉分存，不合成一個官名。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-zhao-king",
+      "person_id": "$simalun",
+      "title": "趙王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p007",
+          "quote": "及太子廢黜，趙王倫、孫秀等因眾怨謀欲廢后。后數遣宮婢微服於人間視聽，其謀頗泄。后甚懼，遂害太子，以絕眾望。趙王倫乃率兵入宮，使翊軍校尉齊王冏入殿廢后。后與冏母有隙，故倫使之。后驚曰：「卿何為來！」冏曰：「有詔收后。」后曰：「詔當從我出，何詔也？」后至上閤，遙呼帝曰：「陛下有婦，使人廢之，亦行自廢。」又問冏曰：「起事者誰？」冏曰：「梁、趙。」后曰：「繫狗當繫頸，今反繫其尾，何得不然！」至宮西，見謐尸，再舉聲而哭遽止。倫乃矯詔遣尚書劉弘等持節齎金屑酒賜后死。后在位十一年。趙粲、賈午、韓壽、董猛等皆伏誅。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p007:m0006"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-zhao-king:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p007",
+          "start": 6,
+          "end": 8,
+          "surface": "趙王",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p007:m0006",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:zhao-king"
+      },
+      "interpretation_note": "本人源內具體職爵稱謂；只有稱呼，未明授予動作。 不從稱謂補授年/任期；被誅不等於各爵職明廢；齊王與翊軍校尉分存，不合成一個官名。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-qi-king",
+      "person_id": "$simajiong",
+      "title": "齊王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p007",
+          "quote": "及太子廢黜，趙王倫、孫秀等因眾怨謀欲廢后。后數遣宮婢微服於人間視聽，其謀頗泄。后甚懼，遂害太子，以絕眾望。趙王倫乃率兵入宮，使翊軍校尉齊王冏入殿廢后。后與冏母有隙，故倫使之。后驚曰：「卿何為來！」冏曰：「有詔收后。」后曰：「詔當從我出，何詔也？」后至上閤，遙呼帝曰：「陛下有婦，使人廢之，亦行自廢。」又問冏曰：「起事者誰？」冏曰：「梁、趙。」后曰：「繫狗當繫頸，今反繫其尾，何得不然！」至宮西，見謐尸，再舉聲而哭遽止。倫乃矯詔遣尚書劉弘等持節齎金屑酒賜后死。后在位十一年。趙粲、賈午、韓壽、董猛等皆伏誅。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p007:m0067"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-qi-king:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p007",
+          "start": 67,
+          "end": 69,
+          "surface": "齊王",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p007:m0067",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:qi-king"
+      },
+      "interpretation_note": "本人源內具體職爵稱謂；只有稱呼，未明授予動作。 不從稱謂補授年/任期；被誅不等於各爵職明廢；齊王與翊軍校尉分存，不合成一個官名。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-taizai-liang",
+      "person_id": "$simaliang",
+      "title": "太宰",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "quote": "后暴戾日甚。侍中賈模，后之族兄，右衛郭彰，后之從舅，並以才望居位，與楚王瑋、東安公繇分掌朝政。后母廣城君養孫賈謐干預國事，權侔人主。繇密欲廢后，賈氏憚之。及太宰亮、衛瓘等表繇徙帶方，奪楚王中候，后知瑋怨之，乃使帝作密詔令瑋誅瓘、亮，以報宿憾。模知后凶暴，恐禍及己，乃與裴頠、王衍謀廢之，衍悔而謀寢。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0078"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-taizai-liang:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "start": 78,
+          "end": 80,
+          "surface": "太宰",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0078",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:taizai-liang"
+      },
+      "interpretation_note": "本人源內具體職爵稱謂；只有稱呼，未明授予動作。 不從稱謂補授年/任期；被誅不等於各爵職明廢；齊王與翊軍校尉分存，不合成一個官名。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-taibao-wei",
+      "person_id": "$weiguan",
+      "title": "太保",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+          "quote": "初，后詐有身，內稿物為產具，遂取妹夫韓壽子慰祖養之，託諒闇所生，故弗顯。遂謀廢太子，以所養代立。時洛中謠曰：「南風烈烈吹黃沙，遙望魯國鬱嵯峨，前至三月滅汝家。」后母廣城君以后無子，甚敬重愍懷，每勸厲后，使加慈愛。賈謐恃貴驕縱，不能推崇太子，廣城君恒切責之。及廣城君病篤，占術謂不宜封廣城，乃改封宜城。后出侍疾十餘日，太子常往宜城第，將醫出入，恂恂盡禮。宜城臨終執后手，令盡意于太子，言甚切至。又曰：「趙粲及午必亂汝事，我死後，勿復聽入，深憶吾言。」后不能遵之，遂專制天下，威服內外。更與粲、午專為姦謀，誣害太子，眾惡彰著。初，誅楊駿及汝南王亮、太保衛瓘、楚王瑋等，皆臨機專斷，宦人董猛參預其事。猛，武帝時為寺人監，侍東宮，得親信于后，預誅楊駿，封武安侯，猛三兄皆為亭侯，天下咸怨。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0272"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-taibao-wei:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p006",
+          "start": 272,
+          "end": 274,
+          "surface": "太保",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p006:m0272",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:taibao-wei"
+      },
+      "interpretation_note": "本人源內具體職爵稱謂；只有稱呼，未明授予動作。 不從稱謂補授年/任期；被誅不等於各爵職明廢；齊王與翊軍校尉分存，不合成一個官名。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-early-prince",
+      "person_id": "$huidi",
+      "title": "太子",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p001",
+          "quote": "惠賈皇后諱南風，平陽人也，小名時。父充，別有傳。初，武帝欲為太子取衛瓘女，元后納賈郭親黨之說，欲婚賈氏。帝曰：「衛公女有五可，賈公女有五不可。衛家種賢而多子，美而長白；賈家種妒而少子，醜而短黑。」元后固請，荀顗、荀勖並稱充女之賢，乃定婚。始欲聘后妹午，午年十二，小太子一歲，短小未勝衣。更娶南風，時年十五，大太子二歲。泰始八年二月辛卯，冊拜太子妃。妒忌多權詐，太子畏而惑之，嬪御罕有進幸者。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p001:m0030"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-early-prince:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p001",
+          "start": 30,
+          "end": 32,
+          "surface": "太子",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p001:m0030",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:early-prince"
+      },
+      "interpretation_note": "p001–002太子為後來惠帝，與後半愍懷太子不同人。 不因已知惠帝/太子妃272而倒算該人冊立年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin031-more-late-prince",
+      "person_id": "$late_prince",
+      "title": "太子",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p007",
+          "quote": "及太子廢黜，趙王倫、孫秀等因眾怨謀欲廢后。后數遣宮婢微服於人間視聽，其謀頗泄。后甚懼，遂害太子，以絕眾望。趙王倫乃率兵入宮，使翊軍校尉齊王冏入殿廢后。后與冏母有隙，故倫使之。后驚曰：「卿何為來！」冏曰：「有詔收后。」后曰：「詔當從我出，何詔也？」后至上閤，遙呼帝曰：「陛下有婦，使人廢之，亦行自廢。」又問冏曰：「起事者誰？」冏曰：「梁、趙。」后曰：「繫狗當繫頸，今反繫其尾，何得不然！」至宮西，見謐尸，再舉聲而哭遽止。倫乃矯詔遣尚書劉弘等持節齎金屑酒賜后死。后在位十一年。趙粲、賈午、韓壽、董猛等皆伏誅。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p007:m0001"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-late-prince:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p007",
+          "start": 1,
+          "end": 3,
+          "surface": "太子",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p007:m0001",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "deposition",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-031",
+              "source_id": "s-jinshu031-jia-ws2479706-comparison",
+              "chapter_id": "c-jinshu-031-jia-comparison",
+              "paragraph_id": "c-jinshu-031-jia-comparison:p007",
+              "quote": "及太子廢黜，趙王倫、孫秀等因眾怨謀欲廢后。后數遣宮婢微服於人間視聽，其謀頗泄。后甚懼，遂害太子，以絕眾望。趙王倫乃率兵入宮，使翊軍校尉齊王冏入殿廢后。后與冏母有隙，故倫使之。后驚曰：「卿何為來！」冏曰：「有詔收后。」后曰：「詔當從我出，何詔也？」后至上閤，遙呼帝曰：「陛下有婦，使人廢之，亦行自廢。」又問冏曰：「起事者誰？」冏曰：「梁、趙。」后曰：「繫狗當繫頸，今反繫其尾，何得不然！」至宮西，見謐尸，再舉聲而哭遽止。倫乃矯詔遣尚書劉弘等持節齎金屑酒賜后死。后在位十一年。趙粲、賈午、韓壽、董猛等皆伏誅。",
+              "person_mention_id": "c-jinshu-031-jia-comparison:p007:m0001"
+            }
+          ]
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:late-prince"
+      },
+      "interpretation_note": "p006–007太子為愍懷；p007及太子廢黜明言已廢。 只此太子稱號可討論廢黜終界；不移惠帝的太子時期、不推確年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "explicit_end_source_term": "太子廢黜"
+    },
+    {
+      "id": "th-jin031-more-chu-zhonghou",
+      "person_id": "$simawei",
+      "title": "中候",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu031-jia-ws2479706-comparison",
+          "chapter_id": "c-jinshu-031-jia-comparison",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "quote": "后暴戾日甚。侍中賈模，后之族兄，右衛郭彰，后之從舅，並以才望居位，與楚王瑋、東安公繇分掌朝政。后母廣城君養孫賈謐干預國事，權侔人主。繇密欲廢后，賈氏憚之。及太宰亮、衛瓘等表繇徙帶方，奪楚王中候，后知瑋怨之，乃使帝作密詔令瑋誅瓘、亮，以報宿憾。模知后凶暴，恐禍及己，乃與裴頠、王衍謀廢之，衍悔而謀寢。",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0092"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin031-more-chu-zhonghou:a001",
+          "paragraph_id": "c-jinshu-031-jia-comparison:p004",
+          "start": 94,
+          "end": 96,
+          "surface": "中候",
+          "person_mention_id": "c-jinshu-031-jia-comparison:p004:m0092",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_jin031_complete_unit_typed",
+        "slot": "remaining:chu-zhonghou"
+      },
+      "source_reading_qualification": {
+        "source_term": "表繇徙帶方，奪楚王中候",
+        "preferred_reading": "office_attestation_and_intended_removal",
+        "intended_action": "office_removal",
+        "actual_removal_asserted": false,
+        "actual_outcome": null,
+        "assertion_scope": "此筆不斷言已實免，並非斷言歷史未免或無其他史料。",
+        "comparison_reference": "source-evidence/jin031-jia-comparison/remaining-titles-comparison.json"
+      },
+      "interpretation_note": "楚王同本段瑋；只保中候源詞與奏奪判讀，不補北軍入原title、不定實免/終任，不把楚王爵廢除。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "comparison_path": "source-evidence/jin031-jia-comparison/remaining-titles-comparison.json",
+  "comparison_sha256": "953d39c89152a3261b12cb84dca1018df722d37acb1dd1387d9fb5c8390c6b03",
+  "group_path": "source-evidence/jin031-jia-comparison/three-brothers-tinghou-pending.json",
+  "group_sha256": "27f729c54c1904ed9f67a76366060536494eb2bc5dca6d1afbb1e8b58ae6887b",
+  "original_person_mid_count": 204,
+  "after_person_mid_count": 205,
+  "qualification": "完整8段字/層不變；原11holding、14近系、報齡/差/死亡和兩原證照逐值保；本包非全篇事實完成。"
+}

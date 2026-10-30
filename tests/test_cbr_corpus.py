@@ -1,3 +1,4 @@
+from tests.portable_fixture_copy import fixture_copy2
 import importlib.util
 import json
 from pathlib import Path
@@ -11,16 +12,17 @@ class CorpusTests(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.root=Path(self.tmp.name)
-        for folder in ('registry','corpus','source-evidence'):shutil.copytree(ROOT/folder,self.root/folder)
-        shutil.copytree(ROOT/'data/historical-tables',self.root/'data/historical-tables')
+        # Finite source contracts read their real helper, schema and documentation pins.
+        for folder in ('registry','corpus','source-evidence','scripts','docs','schema'):shutil.copytree(ROOT/folder,self.root/folder, copy_function=fixture_copy2)
+        shutil.copytree(ROOT/'data/historical-tables',self.root/'data/historical-tables', copy_function=fixture_copy2)
         # Source-scoped display choices bind records in the editorial name dataset.
         (self.root/'data/corpus').mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT/'data/corpus/profile-names.json', self.root/'data/corpus/profile-names.json')
         # Source-bound cross-chapter links require the registered volume directory.
         shutil.copy2(ROOT/'data/corpus/chapter-directory.json', self.root/'data/corpus/chapter-directory.json')
         # Source-bound claims need their complete fixed witnesses and date references.
-        shutil.copytree(ROOT/'sources', self.root/'sources')
-        shutil.copytree(ROOT/'data/works', self.root/'data/works')
+        shutil.copytree(ROOT/'sources', self.root/'sources', copy_function=fixture_copy2)
+        shutil.copytree(ROOT/'data/works', self.root/'data/works', copy_function=fixture_copy2)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_work_mention_cannot_link_person(self):

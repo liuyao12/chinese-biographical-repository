@@ -16,6 +16,12 @@
 
 每個段落有唯一 ID，每個提及有唯一 ID、`start`、`end`、`surface`。位置為段落內 Unicode code point，起點含、終點不含；JavaScript 使用 `Array.from(text)`，不可直接把 UTF-16 字串位置當此格式的位置。所有提及不重疊，依起點排列。人物提及含 `person_id`；未定指代的 `person_id` 為 `null`。
 
+## 代詞共指與姓名標記
+
+`kind: "person"` 表示專名或作為人物指稱的姓名／稱謂文字。單獨的代詞「之」另用 `kind: "pronoun"`，保留原 `person_id` 作為已判定的指涉人物，以及原 MID、字位、原文、狀態與既有判讀說明（若有）。這不增加新的同指判斷，也不把代詞變成姓名。
+
+人物 `evidence` 及親屬、稱號、生卒等已引用這個 MID 的證據保持原樣；姓名 `aliases` 不得包含代詞錨點。身份判斷的 `surfaces` 可保留原有代詞稱呼，但必須由該判斷所列篇章內、人物反向證據對應的確切錨點支持，不能因此列作姓名異稱。閱讀器僅呈現保留 ID 的普通文字，不加姓名底線、人物卡或未定標記。XML 使用 `<seg type="pronoun" ref="人物ID">之</seg>`，不能使用 `persName`。包含「之」的完整姓名仍按專名處理。
+
 ## 行內文本
 
 XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒稱符合 TEI：
@@ -1183,3 +1189,139 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `normalized_date.rendered_collective_award_year_binding.kind: rendered_same_collective_award_explicit_peer_year` 是有界編輯首選，不能冒充本底本明文紀年。宋044武昌爵的端點可有 `date_expression: 永初元年`，但 `expression_scope: external_rendered_peer_biography_not_literal_in_wyd044` 明示原年詞來自比較本傅亮傳。`calendar: chinese_civil`、`precision: year`、`status: editorial_provisional`、人審false；CE420只是中國曆年度標號，不含月日。完整群授詔、傅亮同次建城縣公二千戶的永初元年明文、前後受禪初敘事及官方宋永初420–422完整表列均保存。比較資料是rendered閱讀、頁尾revision觀察、固定頁直取cache miss，沒有已取raw或書影資格；比較頁底本未知，不更換武英殿044底本。
 
 日期gate須傳實際root，逐一核外部payload SHA與全文單元SHA、同詔兩角色/兩爵/兩食邑/年詞的字位及取得scope，沿044既有謝晦與傅亮MID動態解現役PID。原本year校驗和literal歸屬規則不放寬；只有此已驗日期橋允許外源年詞，不虛建宋043 native章或MID。持有record須與本源明授完全一致，建平不入holding，未知終點不變，不借中領軍庚午任命日或死亡426年。bundle也依實際root驗外證後才輸出，完整比較引文與限制由一般紀年依據consumer顯示。
+
+## 人物顯示選稱與來源姓名片段
+
+`profile_title_preference_set`是明示的編輯顯示選擇，並非新授官事實；`selection_kind:default_profile_title`、`scope:timeless_profile_heading`、`temporal_claim:none`、`status:editorial_provisional`、`human_reviewed:false`。同canonical僅一個已驗holding及其精確attestation，source_ref完整work/book/chapter/source/人物MID及官名字位須吻合。未就proposal、爭議任官、錯人、拼接稱號不得成為標題。追贈／用稱等mode仍明示，不代表最高官、死亡時任官或任期。普通卡片與目錄共用profile-title.js，只讀後端已驗選擇及所選holding來源證明；無選擇時保持舊姓名標題邏輯。
+
+`source_name_fragments`不是新的native記錄種類，是已驗固定來源契約輸出的個人組：kind/source/person、完整name record ID及field/value、ordered mention_ids/fragments、AI資格與保留原錨聲明。原文跨頁字子／流不作兩個別名姓名，顯示完整字子流並分列兩個原MID連結。前端不得由任意字串推名，僅在同本人、對應完整name component及來源維度、片段/位置/MID一致時呈現；無此資料輸出空。registry原aliases、原文及錨不修改。
+
+## 閱讀見證首選與比較轉錄
+
+`registry/reading-witness-preferences.json` 保存代理逐一作出的閱讀選讀，不由程式從書名、URL或正文推斷版本。`application_scope: reading_display_only` 明示此排序不決定人物同指、親屬或其他歷史陳述的首選。每項記錄 work/book/chapter/source、實際所據 edition ID、原版本依據 reference IDs、獨立選錄標籤 `selection_label`、理由及 `scope: source_extent_only`；不能以一篇選錄代表全卷底本已校完。未知版本不得標為已查明，也不因文獻含四庫考證便認定整份正文的底本。
+
+`preferred_received_selection` 只能指向實際已匯入的單一來源選錄，並與版本登記中的 documented text basis、edition及參考資料相符。其餘入口標為 `comparison_transcription`；底本未核者另外顯示「底本待核」，不冒稱四庫或武英殿。首選書影轉錄仍保留原有AI／人工校勘資格。
+
+閱讀匯出將政策原樣另存 `data/corpus/reading-witness-preferences.json`，並在各書目錄項附 source ID、reading role、text-base status及edition ID/label；同卷首選在比較轉錄之前，舊深層連結保持其所引見證。版本及用途另列，不加進正式書名／篇名，也不覆寫原文、標記錨點或任何人物檔。無此政策的歷史快照維持原輸出。
+
+### 固定來源國名述語與負向退休
+
+`non_person` 的 `lexical_role: polity_predicate` 只供已核固定來源判讀，並非任何同字串的全域規則。本次衛頃保同MID、25–27字位及原字，components依原位分國名衛與述語頃；傾／傾覆僅存editorial reading。完整來源、反證、競爭古注及取得資格存source-bound negative review。舊角色和無context呼叫的既有結果不變；新角色沒有完整context／負向證據即拒。
+
+`source_non_person_retirement_receipt` 不是positive identity decision，也沒有keeper、別名或redirect。其唯一負向review owner、固定源MID及完整原文／來源層、分類、components、先前編輯登記、hash及registry撤登須逐項通過。原editorial record只在typed review的`prior_editorial_record`審計欄保留，不能進人物API或冒為歷史人物；除這一精確typed audit及reservation外，不允許舊號current端點。reader只把驗證成功的舊號保留，發號器不得重用；不增加全目錄歷史豁免。
+
+
+### 固定比較傳的完整親屬承接（晉080有限契約）
+
+`complete_received_biography_continuation` 明示完整所選傳與附敘承接，不冒相鄰段落。只有固定比較見證全文/raw投影、原字層、逐詞MID與registry反向角色、全部有限斷言槽同時通過時准入；不得只靠membership或PID。原兩相鄰段落分支不變。來源仍底本未知、非武英殿、非首選，source_attested指來源所報而非歷史事實已證。
+
+`contextual_surname_from_fixed_jin080_received_family` 將本源全名seed與明親屬完整frame作有資格復姓，原ming-only記錄另保。未名妻女沿既有 `paternal_clan_appellation` 記錄族，`fixed_comparison_jin080_paternal_role` 只准具名父角色及有限來源斷言，ming保null，不補生母或個人名。靜之只叔侄與宗祧承嗣，父未名；不由列表補絕對排行。
+
+
+### 晉080受驗叔侄缺父祖連
+
+`fixed_jin080_paternal_nephew_to_uncle_father` 僅沿固定比較見證明叔侄與叔父明父兩斷言作組裝層 grandfather；parent_person_id 與 intermediate_person_ids 留 null，不新增直述祖孫 assertion、不把宗嗣當生父。完整來源/反向角色、兩端、原段、既有父系反證逐一驗證；status contextual_provisional，human_reviewed false。
+
+## 本源兼領部門職掌（晉043）
+
+`biographical_source_detail_set.records` 的既有 `kind: official_duty` 可用具名窄 `source_detail_pattern.kind: concurrent_department_function`，只由完整武英殿晉043山濤單元契約支持。`values` 保存 `duty_code: personnel_selection`、`appointment_role: concurrent`、`organ_source_name: 吏部`、`office_title: null` 及同人同句實際主職的 `linked_holding_id`。來源「領吏部」是兼領部門／銓選職掌省稱，不擴寫吏部尚書，不生成獨立官秩holding或品級。
+
+規則逐字鎖「除主職加附職領部門」或「徵為主職領部門」全局部句、完整段hash、授職與領字位置、主職實際holding／owner／attestation及本源角色。濤後段「辭不獲已乃起視事」另附完整證據，不借前次自力就職、不把再居選職十有餘年分配為這次任期；簡不借前面永嘉初補兼領始年。未知日期保持null。普通類型與舊frame不放寬。
+
+`source_title_interpretation_correction` 是本來源記錄語義更正收據，非人物退休／alias。兩個舊holding opaque ID保留為本來源禁重用清單，替代為新的職掌detail ID；其他53個holding ID與所有MID保留。原source/seals與影像核讀資格不因此改寫。
+
+
+### 晉098完整比較單元的有限人物與親屬判讀
+
+`complete_selected_41_person_roles` 僅固定WS2614273的王敦37段、沈充3段及史評1段；底本未知、非武英殿、非首選資格不變。`fixed_comparison_jin098_received_roles` 沿person_assertion既有記錄族，逐原MID與反向登記、全文和raw投影核親屬主客；不補從親共同祖父、同父或官職襲任。`adoptive_father` 的養含子應與明父含分開，法律收養未載。
+
+`contextual_surname_from_fixed_jin098_received_family` 僅用既有076逐字王含原錨與098同人父角色及含子瑜明父子復姓；source ming與AI復姓分層，不把原文略名冒全名，不接蜀中書監王瑜。其餘能用既有same_source_father_chain者沿原型別。身份種子由現役來源MID/完整段/registry反向證據解出，不以永久PID或source_identity_key作授權；沒有全局改號。
+
+`parallel_context_reading.kind=fixed_jin098_quoted_legal_precedent` 只綁098完整刑例段、同段後句王淩及已收028完整剖棺段/固定raw/真MID。原王浚不改字，AI可撤回首選對王淩；source_spelling_is_not_alias=true，不編造別本異文、不污染真姓名或通用alias，亦不以四庫比較轉錄作098底本。既有two_candidates_same_event_parallel_context分支不變。
+
+
+### 具名且來源限定的同一生命事件見證分組
+
+`person_life_event_group_set` 保留各原始life_event，僅明確列出的受驗group可合呈；不是同名或相同日期推斷。首個kind `fixed_jin076_jin098_same_death` 限076敦死與098p034真卒兩筆，固定原文/版本/現役MID及registry反查，person_id沿來源動態解析。member_event_ids與representative_event_id是opaque事件ID，不因改人物號改寫。兩原記錄及所有證據保留，date=null/date_status=not_reported，status=editorial_provisional/human_reviewed=false；不作生卒紀年選讀、不造年份或生年。bundle兩policy均帶來源見證group（不接合人物身份）；原始life_events不刪。人物卡未知日期列保持隱藏，只在死亡記載來源區顯兩完整引文與回鏈。報齡仍用既有source_age_years/unspecified_source_age與at_death連本源event。
+
+
+### 晉098完整前期官序
+
+`fixed_jin098_received_career_phase1`為`source_career_role`族的固定比較見證有限owner，綁完整p001–p019/raw/角色MID及reverse。44來源槽分25holding、7未受任proposal、13detail（員額另拆一筆），不把導之官職借敦。自署細節`source_self_assumption`明`authority:self_assumed`、本人appointing_person_id/MID、role_name/event/service_status，非朝廷grant。自督寧益的`military_authority`只有command_regions及shared州，不造官名。自貶未許不產降任；儀衛、假節、開府續行與屬吏員額不混爵邑。太甯元年→323僅本p019事件的source-qualified太甯/太寧橋，固定官方東晉row/hash，非全域換字；永嘉初/建武初不當元年，未知任終空。life及career owner均驗完整actualroot章後才合剝自身annotation；鍵衝突/缺一owner拒絕，原NER、life及legacy傳首guard不變。
+
+
+### 武英殿晉四十賈充完整單元第一輪
+
+`jin040_jiachong_complete_unit_ner_v1`僅適用固定25頁側段5016字；原pending轉錄入口保留。完整章、頁列投影、原角色及反向引用全值受驗。`received_wyd_jin040_literal_full_name`保實際完整名而不暗拆複姓；`received_wyd_jin040_page_split_name`僅依真相鄰尾首王｜粹兩錨還原`full_name`，另有來源限定姓王名粹行。`source_name_fragments.complete_component.field`可為受本來源驗證的`full_name`，兩原錨計一續接指稱，不是同位置重出，片段不進真正別名。
+
+`received_wyd_jin040_adjacent_address`僅韓壽本人跨p016/p017南｜陽堵陽之完整籍貫，明存兩片、字位、完整相鄰段與本人MID。其他普通地址及所有舊姓名、親屬、續接規則保持；不得借賈午主語、補缺代、以配偶推全部生母或將從舅當直接舅父。
+
+
+### 晉098七日期有限補強
+
+`fixed_jin098_career_outer_year_chain`僅p011末永昌元年經完整兩表至p018四未受授命及自督事件，數字322保中國曆年；p019另年為界，不及更早俄加或死亡。原年詞完整引文與事件完整引文分列，非p018連續literal。兩初`within_named_era`範圍僅西晉永嘉307–313與東晉建武317–317事件可能外界，保初，不作任期或元年。source comparison資格與曆表換算分存；全部原45槽除七項日期欄不變，舊p019太甯323分支原樣。
+
+### 晉040賈充有年月死亡與039同死亡
+
+具名 `fixed_jin039_jin040_jiachong_same_death` 僅連039既有 `le-jin039-xu30-jia` 與040本傳 `le-jin040-wyd-jiachong-death`；原039 event全值保留。兩個同人MID、完整段、來源版本與反查皆受C40完整owner及新固定契約驗證。040 representative 明示太康三年四月：282中國曆年，source_date_parts.kind=`fixed_jin040_explicit_chinese_calendar_month`，month=4、day/leap_month=null；官方既存太康280–289 row只供換年。不是076/098未載年特例，也不是同位置重出。bundle保兩原事件，呈現明示group一次並列兩引文。
+
+040報齡66採 `source_age_years`/`unspecified_source_age`，birth_year=null，age_context.at_death指本040死亡；不由282與66反算生年。主語依p011疾篤至p012省疾/薨的連續敘事，不能借皇太子或黎民。新stage精確受完整source owner驗，既有boundary、母舅及其他source branches均保留。
+
+
+### 晉031惠賈皇后比較單元核心姓名
+
+`fixed_jin031_jia_complete_biography`只受理WS2479706原raw及惠賈皇后至惠羊皇后前完整8段；去除已固定連結/YL包裝，兩ref全文與raw字位以modern_collation_reports保留，曆日推算與版本校語各別標記，不作唐修正文、不新增text_layer枚舉。`fixed_jin031_opening_ming_origin_xiaoming`綁惠賈皇后／南風／時同人三錨與完整原段，無字不補zi；復姓以`contextual_surname_from_fixed_jin031_received_family`綁既有賈充全名及039明父證，不取label/ID。平陽僅biographical_origin。正文完整不等於全文NER完成；首段in_progress、其餘pending，未立母／姊妹／生日或死亡年。
+
+
+### 晉031完整惠賈皇后比較單元人物階段
+
+`fixed_jin031_full_ner_phase`為同一固定8段、1628字及兩Wiki編輯ref之有限人物後繼，不是通用Wiki/語意解析。原core proof繼續固定核心5錨、兩姓名、原籍及父傳互見；full-ner-proof另嚴驗全部新錨、外篇完整角色seed與七欄reverse、source-local首MID及身份側車。PID只沿current來源解析；初次私配置不成永久白名單。群體/未定用既有unresolved，不造個人。文字、原raw、字位與兩注資格不變；印本未核、比較本，非武英殿。完整NER階段不宣稱官爵/生卒/親屬typed已全建。 七筆普通literal姓名與四筆title-only公主稱號另存names側車，原核心兩筆不變；title不是授任/任期，未知名不塞入ming。韓慰祖僅label作有據編輯復姓，資格在identity_note與身份引用，非原文直書三字。
+
+
+### 晉036衛瓘完整數位比較來源單元
+
+`jin036_complete_wei_source_only_v1`固定WS2108231實得rendered HTML的plaintext擷取。25數位blocks7145字分為4題頭13字與21正文段（移除現代[1]標記3字後7129字），包括恆全部《四體書勢》及附璪/玠/展；不是全卷。`captured_source_position`與固定投影連到plaintext capture；HTML response hash/原位另欄，不冒原wikitext或書影。唯一數位腳注作modern_collation_reports，不將其紀年當正文/古注。未知印本比較、非WYD、非首選、人審/圖校false；source-only全部mentions空/pending，後繼須逐人完整標記。宋060崇世代異說保留，未採父子。
+
+
+### 惠賈皇后完整比較單元：親屬、報齡與稱號的來源限定
+
+`c-jinshu-031-jia-comparison` 的具名結構化後繼固定於 `source-evidence/jin031-jia-comparison/typed-phase-proof.json`。這是固定維基文庫修訂的比較見證，印本未核，不是武英殿首選底本；正文、原文字位與人物錨點保持。原核心及完整人物標記證照繼續核驗，新階段不取代原證據。
+
+- 親屬的 `source_clause_binding.rule: fixed_jin031_typed_complete_unit` 綁完整原段、當前人物角色與雙端反查。四女的 `mother` 依明載「生」；一般「母」另作 `maternal_role`，不補生父或確定生母。族兄保父系同代及相對年序，從舅保母系上一代旁親；不補親等或共同祖先。
+- 「養孫」保 `relationship_class: adoptive_or_raised_grandchild`、`generation_distance: 2`、`direction: grandchild_to_grandparent`，中間父母未知留空。`biological_grandparentage_asserted: false` 只表示本筆沒有作血親斷言，不是否定別源的外孫記載；`legal_adoption_status: not_stated` 不替古代用語補現代法律判斷。「養之」另作 `raised_by`，不改為親生或已證法律收養。
+- 十二及十五為來源報齡，計法未明。「年可三十五六」的 `approximation: {"kind":"adjacent_age_numbers","numbers":[35,36]}` 與 `subject_scope.kind: quoted_appearance_estimate` 綁小吏引語、被述婦人及段末識別賈后語境。這是外貌估齡，`value`、`birth_year` 均為 `null`，不是嚴格上下界、享年或出生年依據；不開放任意雙位數報齡語法。
+- 「小太子一歲」及「大太子二歲」保原詞，以既有 `comparison: younger_than`、當事人及參考人物端點數值化；第二筆反向表示太子較南風年幼。不得據此另造太子十三歲或任何生年。
+- 皇后「在位十一年」附在皇后持號的 `reported_duration`，`value: 11`、`unit: title_year`、`counting: unspecified_source_years`，證據使用同句本人錨點。這不是公曆年時長，不倒算起訖。明載被廢可記此稱號的終界事件，不能用死亡終止全部官爵。
+- 太子妃冊拜的 `normalized_date` 僅確定 `year: 272`、`precision: year`、`calendar: chinese_civil`，依西晉泰始官方年號列。二月、辛卯原詞另保；未核曆日留空，不聲稱已換成公曆月日。其餘敘事官稱只作 `attestation`，不由官稱補任期。
+- 無年的賜死及伏誅各作來源死亡說；韓壽與另一傳的卒事差異分存。報齡、任期年數與死亡說不能互相推成未載年月；本階段也不宣稱全傳所有事實已完成。
+
+## 固定來源內的人物合稱與未定閱讀
+
+`source_person_reference_group_set` 是有限 owner 的來源角色集。本批 owner 為 `fixed_jin036_wei_ner`，完整來源 guard 驗證固定比較見證、整篇、個人與群體 MID、原詞及全部側車；正常 catalog 與 bundle 對每一此型別記錄派發驗證。未知 owner、重複集或額外群體均拒絕，不能由未知 type 自動產生輸出。
+
+`groups[]` 保存 `group_marker_ids`、`source_term`、`completeness`（`complete`／`known_subset`）、來源所報 `reported_count`（整數或 null，不接受布林）、`unknown_members` 及各個 `members[].person_id/evidence`。群體錨保持 `unresolved` 與空 person ID；已知成員依真正個人 MID 與七欄 reverse 查核。群體詞不成為個人 alias、直接 evidence 或額外人物提及，不隱含親屬或同場。未名成員數未確定時不能據此發人號。
+
+`unresolved_readings[]` 保存來源原詞、標記、候選、首選（未決時 null）、原詞/編輯解讀之資格及 `human_reviewed:false`。魏文兩候選不是第三人物；隸勢作者承接為編輯判讀，與直稱作者分層，不掛最近的劉德升。
+
+普通 bundle 僅在有值時輸出 `source_person_groups`／`source_reference_readings`；其參照人物可在 related people 讀取，但不轉為關係斷言。舊資料無此集時不增加空欄位。API 不執行自由文字辨識，所有本批解讀由有限原生資料與正常來源 guard 事先核驗。
+
+`interpretation_kind` 在此有限 owner 另區分 `collective_resolution`、`partial_collective_resolution`、`external_name_reading` 與 `authorship_continuation`。已解個人的 `resolved_member_refs` 是具體原錨及七欄反查，可含同一人的多次來源引用；其長度不是人數。未解部分仍保存候選與單複不明，參校名稱的 `preferred_name_components` 不混成 `literal_source_components`。現代辭典與太平廣記轉引只作已述取得範圍的編輯閱讀，沒有外部偽MID或偽raw。
+
+本源明字伯玉、巨山、仲寶、道舒使用普通姓名record的 `zi` scalar 與同一實際原段／人物MID；恆、璪分別在p012、p016另記，不將後段字塞入早段quote。沮誦、倉頡保持史前整稱而不機械拆姓／名。`annotation.non_person_exclusions` 限定本源杜伯的原字位及蠍名判讀，不新增通用詞性enum、不下線為人物，原文不改。
+
+
+### 史記124單一參考釋名
+
+`fixed_shiji124_suoyin_reference_name_parse` 僅允已具名契約的趙他／羽公子兩source MID同指與索隱姓趙、名他羽、字公子釋名。`name_form=editorial_reference` 不把完整姓名冒作本文連字或跨頁continuation。本文頓號、兩MID、兩地望與舊二人說保留；漢書092僅對照，不當獨立見證票。此owner驗證後才允唯一same_chapter身份退休receipt；其他未核同章退休仍拒。
+
+### 固定晉034羊祜比較單元NER
+固定WS2567662未知印本比較見證，完整41段；fixed_jin034_yanghu_ner以全文/來源role錨/七欄反查與各有限側車契約驗證，無PID白名單。contextual_surname_from_fixed_jin034_received_family僅復本傳明名家系省姓，不補未知父。source_person_reference_group_set的新owner須經完整固定契約，未知/額外群體拒絕；source_role_qualification僅保原母/前母及異聞邊界，不新增生母/前世同一關係。source_bound_fixed_jin034_context僅驗老子傳所著主體，墮淚碑不由命名句推作者。
+
+
+`received_song067_selfcommentary_literal_full_name` 僅驗既有固定宋067作者自注的完整原稱文種，`full_name`保存本源字面，`surname`／`ming`均null；不借用平行拼寫資格、不拆姓。有限owner驗全賦raw投影、自注範圍、真MID及041范蠡遺大夫種書的動態同人與反查，原WYG比較資格不提高；不新增事件、任期或年代。
+
+### 固定晉034羊祜核心近系與來源報數
+
+固定未知印本比較單元的 close-kin phase 以完整41段NER前置、角色MID/七欄reverse、有限方向及來源詞義核親屬；不增新人物或改familyID。泛母/前母為maternal_role，生物母欄null；孔氏生發另記明生。蔡邕母系祖父的性別另據蔡文姬完整數位比較單元父角色，未取fixed raw或影像，不能由男性外孫推祖親性別。長兄只存相對年序；長子倫之1限sons scope。拒嗣不作成功收養，奉嗣不作生父。
+
+既有source_family_count_report_set由有限036/034 owner dispatcher驗證，unknown/orphan拒；原036 helper不變。034 reports的report_kind分lineage_generations、indefinite_plural、existence、source_absence、qualified_generation_expression，所有數值/界限/單位須完整來源限定。九世起祖不明不生九代；女夫明至少一女，女ID與確切數未知；相墓故事無子及杜預表無胤嗣不是終生子女0。法興之未名祜兄不可選發/承。普通bundle/profile保source_family_count_reports，卡片按明示report_kind/單位呈來源資格，不將null顯為人數。

@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "id": "cu3_9z7_rmy",
+  "canonical_person_id": "cu3_9z7_rmy",
+  "label": "姓名未詳（羊祜所稱母）",
+  "identity_note": "固定晉034未知印本比較見證的來源個體；AI暫定，未人審、未核圖；不以來源-local暫分斷言與他篇人物必異。 母為原稱，不自動型別化生母，不與孔融女前母合併，也不由蔡邕外孫補姓名。",
+  "review": "ai_provisional",
+  "names": [
+    "母"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 34,
+      "category": "",
+      "title": "羊祜傳",
+      "paragraph_id": "c-jinshu-034-yanghu-comparison:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "夏侯霸之降蜀也，姻親多告絕，祜獨安其室，恩禮有加焉。尋遭母憂，長兄發又卒，毀慕寢頓十餘年，以道素自居，恂恂若儒者。",
+      "paragraph_ids": [
+        "c-jinshu-034-yanghu-comparison:p002",
+        "c-jinshu-034-yanghu-comparison:p040"
+      ],
+      "mention_ids": [
+        "c-jinshu-034-yanghu-comparison:p002:m0028",
+        "c-jinshu-034-yanghu-comparison:p040:m0035"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-034-yanghu-comparison:p002:m0028": "c-jinshu-034-yanghu-comparison:p002",
+        "c-jinshu-034-yanghu-comparison:p040:m0035": "c-jinshu-034-yanghu-comparison:p040"
+      },
+      "mention_id": "c-jinshu-034-yanghu-comparison:p002:m0028",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu-comparison:p002:m0028",
+          "mention_ids": [
+            "c-jinshu-034-yanghu-comparison:p002:m0028"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu-comparison:p040:m0035",
+          "mention_ids": [
+            "c-jinshu-034-yanghu-comparison:p040:m0035"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+      "source": {
+        "title": "《晉書》卷三十四〈羊祜傳〉",
+        "provider": "維基文庫固定修訂頁呈現文字",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷034",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "revision_id": 2567662,
+        "accessed_on": "2026-10-28",
+        "edition": null,
+        "edition_qualification": "印本未核的固定數位比較見證；非首選底本，非武英殿，未核書影。未確認是否出於四庫，不採為preferred base。",
+        "preferred_text_base": false,
+        "image_verified": false,
+        "human_reviewed": false,
+        "extent": "羊祜題下至杜預題頭前完整單元，含羊發、秘、亮、陶及承嗣附敘；41呈現文字段，非全卷，不含杜預及卷末評贊。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "capture_ref": "source-evidence/jin034-yanghu-comparison/rendered-extract.txt",
+        "capture_sha256": "35dc69590312f9b13541d3df2c8cd75c43721cd22251530def3d6acda41ec5b6",
+        "capture_kind": "fixed_revision_webtool_rendered_text_extract",
+        "original_wikitext_obtained": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0保留署名與固定修訂。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去數位題頭/工具行號/blockquote呈現符與行首排版縮排；工具連結標記僅保可見詞，未改正文標點、字形或疑字。未取得HTML或wikitext。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin034-hu-mother-general",
+      "subject_person_id": "cys_s5z_uqq",
+      "predicate": "maternal_role",
+      "object_person_id": "cu3_9z7_rmy",
+      "status": "source_attested",
+      "qualifiers": {
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null,
+        "source_term": "尋遭母憂",
+        "source_clause_binding": {
+          "kind": "fixed_jin034_close_kin",
+          "rule": "fixed_jin034_complete_unit_close_kin",
+          "slot": "hu-mother-general"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p002",
+          "quote": "夏侯霸之降蜀也，姻親多告絕，祜獨安其室，恩禮有加焉。尋遭母憂，長兄發又卒，毀慕寢頓十餘年，以道素自居，恂恂若儒者。",
+          "subject_person_mention_id": "c-jinshu-034-yanghu-comparison:p002:m0014",
+          "object_person_mention_id": "c-jinshu-034-yanghu-comparison:p002:m0028"
+        }
+      ],
+      "interpretation_note": "泛母角色保原母字，單此句不升生母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin034-hu-mother-second-source",
+      "subject_person_id": "cys_s5z_uqq",
+      "predicate": "maternal_role",
+      "object_person_id": "cu3_9z7_rmy",
+      "status": "source_attested",
+      "qualifiers": {
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null,
+        "source_term": "祜母度不能兩存",
+        "source_clause_binding": {
+          "kind": "fixed_jin034_close_kin",
+          "rule": "fixed_jin034_complete_unit_close_kin",
+          "slot": "hu-mother-second-source"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p040",
+          "quote": "祜前母，孔融女，生兄發，官至都督淮北護軍。初，發與祜同母兄承俱得病，祜母度不能兩存，乃專心養發，故得濟，而承竟死。",
+          "subject_person_mention_id": "c-jinshu-034-yanghu-comparison:p040:m0000",
+          "object_person_mention_id": "c-jinshu-034-yanghu-comparison:p040:m0035"
+        }
+      ],
+      "interpretation_note": "泛母角色同本傳回指；養發是撫養不反蓋前句孔氏生發。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "cu3_9z7_rmy": "姓名未詳（羊祜所稱母）",
+    "cys_s5z_uqq": "羊祜",
+    "wvd_0zp_ekm": "羊承"
+  },
+  "dates": [],
+  "name_components": [],
+  "source_reference_readings": [
+    {
+      "id": "reading-jin034-hu_mother",
+      "interpretation_kind": "source_role_qualification",
+      "subject_person_id": "cu3_9z7_rmy",
+      "marker_ids": [
+        "c-jinshu-034-yanghu-comparison:p002:m0028"
+      ],
+      "candidate_person_ids": [
+        "cu3_9z7_rmy"
+      ],
+      "preferred_person_id": "cu3_9z7_rmy",
+      "status": "editorial_provisional",
+      "qualifiers": {
+        "source_role": "母",
+        "biological_mother_status": "not_stated",
+        "prior_mother_identity_equality": "not_asserted"
+      },
+      "rationale": "僅保本源角色語詞及資訊邊界，非新增生母/父子/前世同一人物斷言。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p002",
+          "quote": "夏侯霸之降蜀也，姻親多告絕，祜獨安其室，恩禮有加焉。尋遭母憂，長兄發又卒，毀慕寢頓十餘年，以道素自居，恂恂若儒者。",
+          "mention_ids": [
+            "c-jinshu-034-yanghu-comparison:p002:m0028"
+          ]
+        }
+      ],
+      "human_reviewed": false
+    },
+    {
+      "id": "reading-jin034-hu-cheng-shared-mother-qualified",
+      "interpretation_kind": "source_role_qualification",
+      "subject_person_id": "wvd_0zp_ekm",
+      "marker_ids": [
+        "c-jinshu-034-yanghu-comparison:p040:m0029"
+      ],
+      "candidate_person_ids": [
+        "wvd_0zp_ekm",
+        "cys_s5z_uqq",
+        "cu3_9z7_rmy"
+      ],
+      "preferred_person_id": "wvd_0zp_ekm",
+      "status": "editorial_provisional",
+      "qualifiers": {
+        "reading_kind": "editorial_shared_birthmother_continuity",
+        "shared_mother_person_id": "cu3_9z7_rmy",
+        "children_person_ids": [
+          "cys_s5z_uqq",
+          "wvd_0zp_ekm"
+        ],
+        "direct_maternal_role_biological_status": null,
+        "native_biological_mother_assertion_created": false,
+        "same_father": null,
+        "source_term": "祜同母兄承"
+      },
+      "rationale": "固定完整來源的有限資格，不新增生母、父系或成功承嗣關係。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p040",
+          "quote": "祜前母，孔融女，生兄發，官至都督淮北護軍。初，發與祜同母兄承俱得病，祜母度不能兩存，乃專心養發，故得濟，而承竟死。",
+          "mention_id": "c-jinshu-034-yanghu-comparison:p040:m0029"
+        }
+      ],
+      "human_reviewed": false
+    }
+  ],
+  "person_ids": [
+    "cu3_9z7_rmy"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin034-hu-mother-general",
+      "subject_person_id": "cys_s5z_uqq",
+      "predicate": "maternal_role",
+      "object_person_id": "cu3_9z7_rmy",
+      "status": "source_attested",
+      "qualifiers": {
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null,
+        "source_term": "尋遭母憂",
+        "source_clause_binding": {
+          "kind": "fixed_jin034_close_kin",
+          "rule": "fixed_jin034_complete_unit_close_kin",
+          "slot": "hu-mother-general"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p002",
+          "quote": "夏侯霸之降蜀也，姻親多告絕，祜獨安其室，恩禮有加焉。尋遭母憂，長兄發又卒，毀慕寢頓十餘年，以道素自居，恂恂若儒者。",
+          "subject_person_mention_id": "c-jinshu-034-yanghu-comparison:p002:m0014",
+          "object_person_mention_id": "c-jinshu-034-yanghu-comparison:p002:m0028"
+        }
+      ],
+      "interpretation_note": "泛母角色保原母字，單此句不升生母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin034-hu-mother-second-source",
+      "subject_person_id": "cys_s5z_uqq",
+      "predicate": "maternal_role",
+      "object_person_id": "cu3_9z7_rmy",
+      "status": "source_attested",
+      "qualifiers": {
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null,
+        "source_term": "祜母度不能兩存",
+        "source_clause_binding": {
+          "kind": "fixed_jin034_close_kin",
+          "rule": "fixed_jin034_complete_unit_close_kin",
+          "slot": "hu-mother-second-source"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p040",
+          "quote": "祜前母，孔融女，生兄發，官至都督淮北護軍。初，發與祜同母兄承俱得病，祜母度不能兩存，乃專心養發，故得濟，而承竟死。",
+          "subject_person_mention_id": "c-jinshu-034-yanghu-comparison:p040:m0000",
+          "object_person_mention_id": "c-jinshu-034-yanghu-comparison:p040:m0035"
+        }
+      ],
+      "interpretation_note": "泛母角色同本傳回指；養發是撫養不反蓋前句孔氏生發。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

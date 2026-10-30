@@ -1,11 +1,12 @@
 """Portable exact-witness/source-layer regressions; no private path or remote fetch."""
+from tests.portable_fixture_copy import fixture_copy2
 import unittest,json,hashlib,copy,tempfile,shutil
 from pathlib import Path
 from scripts.witness_projection import repository_positions
 Q=Path(__file__).parent/'fixtures/houhan009_early'
 class Houhan009EarlySource(unittest.TestCase):
  def setUp(self):
-  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);shutil.copytree(Q,self.root,dirs_exist_ok=True);self.c=json.loads((self.root/'chapter.json').read_text());self.raw=(self.root/'fixed-witness.txt').read_bytes();self.lines=self.raw.decode().splitlines();self.proj=json.loads((self.root/'source-evidence/houhan009-xiandi-projection.json').read_text())
+  self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup);self.root=Path(self.tmp.name);shutil.copytree(Q,self.root,dirs_exist_ok=True, copy_function=fixture_copy2);self.c=json.loads((self.root/'chapter.json').read_text());self.raw=(self.root/'fixed-witness.txt').read_bytes();self.lines=self.raw.decode().splitlines();self.proj=json.loads((self.root/'source-evidence/houhan009-xiandi-projection.json').read_text())
  def project(self,p=None):return repository_positions(self.root,p or self.c['paragraphs'][0],self.lines)
  def write(self):(self.root/'source-evidence/houhan009-xiandi-projection.json').write_text(json.dumps(self.proj,ensure_ascii=False))
  def test_all_nineteen_exact_projections_and_mentions(self):

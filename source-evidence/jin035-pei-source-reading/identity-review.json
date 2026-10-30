@@ -4193,7 +4193,7 @@
         ]
       },
       {
-        "person_id": "ipb_xvn_egt",
+        "person_id": "y4i_pjk_4gn_AA",
         "label": "武王（武）（游俠列傳候選）",
         "evidence": [
           {
@@ -6617,12 +6617,12 @@
   },
   {
     "key": "jia-chong",
-    "person_id": "c27_590_7e3",
+    "person_id": "jmv_vc4_gep_*AA",
     "disposition": "existing_contextual_reuse",
     "rationale": "逐段角色明確；全庫姓名命中供下批來源化核對，未自動採用。",
     "preflight_candidates": [
       {
-        "person_id": "c27_590_7e3",
+        "person_id": "jmv_vc4_gep_*AA",
         "label": "賈充",
         "evidence": [
           {
@@ -6787,7 +6787,7 @@
   },
   {
     "key": "jia-daughter",
-    "person_id": "c27_590_7e3_A",
+    "person_id": "jmv_vc4_gep_*AAA",
     "disposition": "existing_contextual_reuse",
     "rationale": "同一賈充出鎮關中/太子婚姻事件，已讀039荀勖完整原段，重用既有賈充女；不補本名。",
     "preflight_candidates": [],
@@ -7518,12 +7518,12 @@
   },
   {
     "key": "shan-tao",
-    "person_id": "96a_987_925",
+    "person_id": "4kf_elm_6ww_A",
     "disposition": "existing_contextual_reuse",
     "rationale": "逐段角色明確；全庫姓名命中供下批來源化核對，未自動採用。",
     "preflight_candidates": [
       {
-        "person_id": "96a_987_925",
+        "person_id": "4kf_elm_6ww_A",
         "label": "山濤",
         "evidence": [
           {
@@ -9426,9 +9426,9 @@
   },
   {
     "key": "wang-cheng",
-    "person_id": "8sa_o0b_y2i",
-    "disposition": "new_source_local_identity",
-    "rationale": "現太原王濟弟澄未有評比交證；不因同名合，不補王平子身份。 本批已暫登本來源身份；未定跨篇同指不作等同合併，本批未新增關係斷言。",
+    "person_id": "rlk_lzd_86c",
+    "disposition": "preferred_existing_contextual",
+    "rationale": "同表王澄字平子，固定043完整澄附傳明澄字平子/兄衍，與現役043p006弟澄荊州同角色；不接太原王濟弟澄。",
     "preflight_candidates": [
       {
         "person_id": "a8f_ec8_e74_ABC",
@@ -9461,8 +9461,12 @@
     "source_mention_ids": [
       "c-jinshu-035-peikai-family:p019:m0041"
     ],
-    "primary_context_paragraphs": [],
-    "human_reviewed": false
+    "primary_context_paragraphs": [
+      "c-jinshu-043-wangyan:p006"
+    ],
+    "human_reviewed": false,
+    "current_identity_decision_id": "d-jin035-eight-wang-cheng",
+    "prior_source_local_qualification_capture": "source-evidence/eight-wang-contextual-identity/prior-source-local-records.json"
   },
   {
     "key": "wang-dao",
@@ -11511,12 +11515,12 @@
   },
   {
     "key": "wang-dun",
-    "person_id": "39o_b6y_n74",
+    "person_id": "7r6_k52_qji_ABBA",
     "disposition": "existing_contextual_reuse",
     "rationale": "依本段上下文辨人；此包不配置新ID或採用同指。",
     "preflight_candidates": [
       {
-        "person_id": "39o_b6y_n74",
+        "person_id": "7r6_k52_qji_ABBA",
         "label": "王敦",
         "evidence": [
           {
@@ -13883,12 +13887,12 @@
   },
   {
     "key": "wang-rong",
-    "person_id": "48e_04a_3d8",
+    "person_id": "ehx_cqg_nfx_AA",
     "disposition": "existing_contextual_reuse",
     "rationale": "依本段上下文辨人；此包不配置新ID或採用同指。",
     "preflight_candidates": [
       {
-        "person_id": "48e_04a_3d8",
+        "person_id": "ehx_cqg_nfx_AA",
         "label": "王戎",
         "evidence": [
           {
@@ -13978,9 +13982,9 @@
   },
   {
     "key": "wang-sui-comparison",
-    "person_id": "vk5_fsh_iyt",
-    "disposition": "new_source_local_identity",
-    "rationale": "評比不明父職；不能直接把本段王戎子綏與評比綏確合，也不套父愉之綏。 本批已暫登本來源身份；未定跨篇同指不作等同合併，本批未新增關係斷言。",
+    "person_id": "ehx_cqg_nfx_AAA",
+    "disposition": "preferred_existing_contextual",
+    "rationale": "同一八裴八王列表明王綏字萬子，經世說劉注王綏字萬子戎之子與既有035父戎/043萬首選相接；父愉字彥猷綏有宋092/晉075反證，不因同名或純年代排除。",
     "preflight_candidates": [
       {
         "person_id": "a8f_ec8_e74_AAAAABA",
@@ -14103,12 +14107,16 @@
     "source_mention_ids": [
       "c-jinshu-035-peikai-family:p019:m0036"
     ],
-    "primary_context_paragraphs": [],
-    "human_reviewed": false
+    "primary_context_paragraphs": [
+      "c-jinshu-035-peikai-family:p011"
+    ],
+    "human_reviewed": false,
+    "current_identity_decision_id": "d-jin035-eight-wang-sui",
+    "prior_source_local_qualification_capture": "source-evidence/eight-wang-contextual-identity/prior-source-local-records.json"
   },
   {
     "key": "wang-sui-rong-son",
-    "person_id": "brc_n26_ekm",
+    "person_id": "ehx_cqg_nfx_AAA",
     "disposition": "new_source_local_identity",
     "rationale": "本段父戎，現a8f...075明父愉並於劉裕建義後死，不能重用；035王綏可獨立來源人物，本批已配置來源局部ID，跨篇同指仍未定。 本批已暫登本來源身份；未定跨篇同指不作等同合併，本批未新增關係斷言。",
     "preflight_candidates": [
@@ -14821,12 +14829,12 @@
   },
   {
     "key": "wei-guan",
-    "person_id": "67b_2b2_4b8",
+    "person_id": "q1l_utb_rfn_**AA",
     "disposition": "existing_contextual_reuse",
     "rationale": "逐段角色明確；全庫姓名命中供下批來源化核對，未自動採用。",
     "preflight_candidates": [
       {
-        "person_id": "67b_2b2_4b8",
+        "person_id": "q1l_utb_rfn_**AA",
         "label": "衛瓘",
         "evidence": [
           {
@@ -14919,7 +14927,7 @@
   },
   {
     "key": "wei-son",
-    "person_id": "mrt_mhf_3td",
+    "person_id": "q1l_utb_rfn_**AAF",
     "disposition": "new_source_local_identity",
     "rationale": "不因衛恆/衛玠知名補名。 本批已暫登本來源身份；未定跨篇同指不作等同合併，本批未新增關係斷言。",
     "preflight_candidates": [],

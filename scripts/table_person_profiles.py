@@ -10,8 +10,10 @@ def build_summaries(root):
     node = os.environ.get('CBR_NODE') or shutil.which('node')
     if not node:
         raise RuntimeError('Node.js required for person summary export')
-    subprocess.run([node, str(Path(__file__).with_name('export_person_summaries.mjs')),
-                    str(root)], check=True)
+    result = subprocess.run([node, str(Path(__file__).with_name('export_person_summaries.mjs')),
+                            str(root)], check=True, stdout=subprocess.PIPE, text=True)
+    if result.stdout:
+        print(result.stdout, end='')
 
 def build(root=ROOT, person_ids=None):
     ROOT = root
@@ -30,6 +32,9 @@ def build(root=ROOT, person_ids=None):
             chapters.update({x['chapter_id']:x for x in other['chapters']})
     people = {p['id']: p for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
     candidates = {p['id']:p for p in json.loads((ROOT/'data/historical-tables/person-candidates.json').read_text())['persons']}
+    try:from scripts.source_person_reference_groups import validated_sets as validate_source_group_sets, reading_person_ids
+    except ImportError:from source_person_reference_groups import validated_sets as validate_source_group_sets, reading_person_ids
+    source_group_sets = validate_source_group_sets([json.loads(p.read_text()) for p in sorted((ROOT/'corpus').glob('*/*.json'))], people, ROOT)
     table_mentions = defaultdict(list)
     try:
         from .table_evidence import load_tables
@@ -56,6 +61,7 @@ def build(root=ROOT, person_ids=None):
     # retired IDs are removed after all source references have been migrated.
     for path in out.glob('*.json'):
         if person_ids is None and path.stem != 'index' and path.stem not in table_mentions: path.unlink()
+    appellation_catalog = None
     for pid, cells in sorted(table_mentions.items()):
         if pid in candidates:
             candidate = candidates[pid]
@@ -64,6 +70,26 @@ def build(root=ROOT, person_ids=None):
             continue
         b = json.loads((ROOT/'exports/persons'/f'{pid}.json').read_text())
         own = set(b['person_ids']); ps = {p['id']:p for p in b['passages']}
+        expected_groups=[]; expected_readings=[]
+        for source_set in source_group_sets:
+            expected_groups.extend(g for g in source_set['groups'] if own.intersection(m['person_id'] for m in g['members']))
+            expected_readings.extend(r for r in source_set['unresolved_readings'] if own.intersection(reading_person_ids(r)))
+        if b.get('source_person_groups',[]) != expected_groups or b.get('source_reference_readings',[]) != expected_readings:
+            raise ValueError('人物頁來源合稱/閱讀須與已驗原生集一致，不得缺漏或冒造')
+        try:
+            from .wyd_song051_yixin import CID as appellation_source_CID, source_appellation_fragments, same
+        except ImportError:
+            from wyd_song051_yixin import CID as appellation_source_CID, source_appellation_fragments, same
+        if b.get('source_appellation_fragments') or any(e.get('chapter_id') == appellation_source_CID for x in own | {pid} for e in people.get(x,{}).get('evidence',[])):
+            if appellation_catalog is None:
+                try:
+                    from .person_bundle import load_catalog
+                except ImportError:
+                    from person_bundle import load_catalog
+                appellation_catalog = load_catalog(ROOT)
+            expected_fragments = source_appellation_fragments(ROOT, own | {pid}, people, appellation_catalog[1])
+            if not same(b.get('source_appellation_fragments', []), expected_fragments):
+                raise ValueError('人物頁稱謂片段須與受驗原生來源一致，不得遺漏或冒造')
         try:
             from .profile_occurrence_counts import profile_occurrences
         except ImportError:
@@ -89,6 +115,12 @@ def build(root=ROOT, person_ids=None):
         addresses=[dict(x, term=x.get('source_term') or x['place']['source_name'], quote=x['evidence'][0]['quote']) for x in b['address_assertions'] if x['person_id'] in own]
         non_alias_mentions = {d['preferred_reading']['person_mention_id'] for d in b.get('identity_decisions', [])
                               if d.get('preferred_reading', {}).get('source_spelling_is_not_alias') is True}
+        non_alias_mentions.update(mid for group in b.get('source_name_fragments', [])
+                                  if group.get('kind') == 'source_bound_name_fragment_group'
+                                  for mid in group['mention_ids'])
+        non_alias_mentions.update(mid for group in b.get('source_appellation_fragments', [])
+                                  if group.get('kind') == 'source_bound_appellation_fragment_group'
+                                  for mid in group['mention_ids'])
         names=[]
         for p in b['persons']:
             if p['id'] in own:
@@ -106,8 +138,14 @@ def build(root=ROOT, person_ids=None):
         preferred_readings = [dict(d['preferred_reading'], decision_id=d['id']) for d in b.get('identity_decisions', []) if d.get('preferred_reading')]
         if preferred_readings:
             profile['preferred_readings'] = preferred_readings
+        if b.get('source_name_fragments'):
+            profile['source_name_fragments'] = b['source_name_fragments']
+        if b.get('source_appellation_fragments'):
+            profile['source_appellation_fragments'] = b['source_appellation_fragments']
         if b.get('preferred_name_component_readings'):
             profile['preferred_name_component_readings'] = b['preferred_name_component_readings']
+        if b.get('default_profile_title') and b['default_profile_title']['person_id'] == pid:
+            profile['default_profile_title'] = b['default_profile_title']
         if b.get('preferred_title_readings'):
             profile['preferred_title_readings'] = b['preferred_title_readings']
         if b.get('referent_interpretations'):
@@ -125,8 +163,9 @@ def build(root=ROOT, person_ids=None):
             profile['unresolved_title_attestations'] = b['unresolved_title_attestations']
         profile['name_components'] = b.get('name_components', [])
         if 'source_title_uses' in b: profile['source_title_uses'] = b['source_title_uses']
-        for key in ('source_temporal_attestations', 'unresolved_kinship_references', 'source_details', 'source_reading_cases'):
+        for key in ('source_temporal_attestations', 'unresolved_kinship_references', 'source_details', 'source_reading_cases', 'source_person_groups', 'source_reference_readings'):
             if key in b: profile[key] = b[key]
+        if 'source_family_count_reports' in b: profile['source_family_count_reports'] = b['source_family_count_reports']
         profile['person_ids'] = b['person_ids']
         profile['relations'] = b['relations']
         profile['preferred_relations'] = b.get('preferred_relations', b['relations'])
@@ -142,6 +181,8 @@ def build(root=ROOT, person_ids=None):
             profile['date_ranges'] = [x for x in b['date_range_normalizations'] if x['person_id'] in own]
         profile['age_assertions'] = b.get('age_assertions', [])
         profile['life_events'] = [x for x in b.get('life_events', []) if x['person_id'] in own]
+        if b.get('life_event_groups'):
+            profile['life_event_groups'] = b['life_event_groups']
         person_events = [x for x in (b.get('person_events') or []) if x['person_id'] in own]
         if person_events:
             profile['person_events'] = person_events

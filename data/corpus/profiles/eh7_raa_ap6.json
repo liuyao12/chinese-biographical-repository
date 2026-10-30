@@ -6,7 +6,8 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "伯夷"
+    "伯夷",
+    "夷"
   ],
   "titles": [],
   "addresses": [
@@ -68,6 +69,32 @@
       "human_reviewed": false,
       "term": "遂餓死於首陽山",
       "quote": "遂餓死於首陽山。由此觀之，怨邪非邪？"
+    },
+    {
+      "id": "pa-shiji124-023",
+      "person_id": "eh7_raa_ap6",
+      "relation": "death_place",
+      "place": {
+        "source_name": "首陽山",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-124-youxia",
+          "source_id": "s-shiji124-youxia",
+          "paragraph_id": "c-shiji-124-youxia:p003",
+          "quote": "鄙人有言曰：「何知仁義，已饗其利者為有德。」故伯夷醜周，餓死首陽山，而文武不以其故貶王；跖、蹻暴戾，其徒誦義無窮。由此觀之，「竊鉤者誅，竊國者侯，侯之門仁義存」，非虛言也。"
+        }
+      ],
+      "source_term": "餓死首陽山",
+      "interpretation_note": "按傳首或列名地望、居處、遷徙與死亡地分型保留原稱，不推出生地或現代轄區；南道東道只保留原文相對地望。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "餓死首陽山",
+      "quote": "鄙人有言曰：「何知仁義，已饗其利者為有德。」故伯夷醜周，餓死首陽山，而文武不以其故貶王；跖、蹻暴戾，其徒誦義無窮。由此觀之，「竊鉤者誅，竊國者侯，侯之門仁義存」，非虛言也。"
     }
   ],
   "occurrences": [
@@ -105,6 +132,51 @@
       "chapter_id": "c-shiji-004-zhou",
       "source_id": "s-shiji-004-zhou",
       "work_title": "史記"
+    },
+    {
+      "number": 34,
+      "category": "",
+      "title": "羊祜傳",
+      "paragraph_id": "c-jinshu-034-yanghu-comparison:p029",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "不以侯斂之意，帝乃詔曰：「祜固讓歷年，志不可奪。身沒讓存，遺操益厲，此夷叔所以稱賢，季子所以全節也。今聽復本封，以彰高美。」",
+      "paragraph_ids": [
+        "c-jinshu-034-yanghu-comparison:p029",
+        "c-jinshu-034-yanghu-comparison:p033"
+      ],
+      "mention_ids": [
+        "c-jinshu-034-yanghu-comparison:p029:m0141",
+        "c-jinshu-034-yanghu-comparison:p033:m0111"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-034-yanghu-comparison:p029:m0141": "c-jinshu-034-yanghu-comparison:p029",
+        "c-jinshu-034-yanghu-comparison:p033:m0111": "c-jinshu-034-yanghu-comparison:p033"
+      },
+      "mention_id": "c-jinshu-034-yanghu-comparison:p029:m0141",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu-comparison:p029:m0141",
+          "mention_ids": [
+            "c-jinshu-034-yanghu-comparison:p029:m0141"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu-comparison:p033:m0111",
+          "mention_ids": [
+            "c-jinshu-034-yanghu-comparison:p033:m0111"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+      "work_title": "晉書"
     },
     {
       "number": 47,
@@ -353,6 +425,41 @@
       "work_title": "史記"
     },
     {
+      "number": 124,
+      "category": "liezhuan",
+      "title": "游俠列傳第六十四",
+      "paragraph_id": "c-shiji-124-youxia:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "鄙人有言曰：「何知仁義，已饗其利者為有德。」故伯夷醜周，餓死首陽山，而文武不以其故貶王；跖、蹻暴戾，其徒誦義無窮。由此觀之，「竊鉤者誅，竊國者侯，侯之門仁義存」，非虛言也。",
+      "paragraph_ids": [
+        "c-shiji-124-youxia:p003"
+      ],
+      "mention_ids": [
+        "c-shiji-124-youxia:m003-0023"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-124-youxia:m003-0023": "c-shiji-124-youxia:p003"
+      },
+      "mention_id": "c-shiji-124-youxia:m003-0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-124-youxia:m003-0023",
+          "mention_ids": [
+            "c-shiji-124-youxia:m003-0023"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-124",
+      "chapter_id": "c-shiji-124-youxia",
+      "source_id": "s-shiji124-youxia",
+      "work_title": "史記"
+    },
+    {
       "number": 130,
       "category": "liezhuan",
       "title": "太史公自序第七十",
@@ -390,6 +497,38 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+      "source": {
+        "title": "《晉書》卷三十四〈羊祜傳〉",
+        "provider": "維基文庫固定修訂頁呈現文字",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷034",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "revision_id": 2567662,
+        "accessed_on": "2026-10-28",
+        "edition": null,
+        "edition_qualification": "印本未核的固定數位比較見證；非首選底本，非武英殿，未核書影。未確認是否出於四庫，不採為preferred base。",
+        "preferred_text_base": false,
+        "image_verified": false,
+        "human_reviewed": false,
+        "extent": "羊祜題下至杜預題頭前完整單元，含羊發、秘、亮、陶及承嗣附敘；41呈現文字段，非全卷，不含杜預及卷末評贊。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "capture_ref": "source-evidence/jin034-yanghu-comparison/rendered-extract.txt",
+        "capture_sha256": "35dc69590312f9b13541d3df2c8cd75c43721cd22251530def3d6acda41ec5b6",
+        "capture_kind": "fixed_revision_webtool_rendered_text_extract",
+        "original_wikitext_obtained": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0保留署名與固定修訂。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去數位題頭/工具行號/blockquote呈現符與行首排版縮排；工具連結標記僅保可見詞，未改正文標點、字形或疑字。未取得HTML或wikitext。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-001-wudi",
       "work_id": "w-shiji",
@@ -585,6 +724,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-124-youxia",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-124",
+      "source_id": "s-shiji124-youxia",
+      "source": {
+        "title": "史記／卷124",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷124",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷124&oldid=367994",
+        "revision_id": 367994,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文17段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標、Textquality及wikipedia導覽模板；原文字面保留，原字未轉換，未核影像。",
+          "note": "末段索隱述贊另分層。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
@@ -635,6 +798,8 @@
   "related_people": {
     "98v_uic_i4i": "孤竹君（伯夷列傳候選）",
     "eh7_raa_ap6": "伯夷（孔子世家比擬候選）",
+    "ktv_rwx_hp3": "叔齊（孔子世家比擬候選）",
+    "myy_zdg_6b6": "柳下惠",
     "uxv_pg9_8rm": "伯夷（舜時）"
   },
   "dates": [],
@@ -669,6 +834,108 @@
     }
   ],
   "name_components": [],
+  "source_reference_readings": [
+    {
+      "id": "reading-jin034-29-141",
+      "interpretation_kind": "collective_resolution",
+      "source_term": "夷叔",
+      "marker_ids": [
+        "c-jinshu-034-yanghu-comparison:p029:m0141",
+        "c-jinshu-034-yanghu-comparison:p029:m0142"
+      ],
+      "candidate_person_ids": [],
+      "preferred_person_id": null,
+      "resolved_member_refs": [
+        {
+          "person_id": "eh7_raa_ap6",
+          "evidence": {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-034",
+            "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+            "chapter_id": "c-jinshu-034-yanghu-comparison",
+            "paragraph_id": "c-jinshu-034-yanghu-comparison:p029",
+            "mention_id": "c-jinshu-034-yanghu-comparison:p029:m0141",
+            "quote": "夷"
+          }
+        },
+        {
+          "person_id": "ktv_rwx_hp3",
+          "evidence": {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-034",
+            "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+            "chapter_id": "c-jinshu-034-yanghu-comparison",
+            "paragraph_id": "c-jinshu-034-yanghu-comparison:p029",
+            "mention_id": "c-jinshu-034-yanghu-comparison:p029:m0142",
+            "quote": "叔"
+          }
+        }
+      ],
+      "source_ranges": [
+        {
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p029",
+          "start": 141,
+          "end": 143,
+          "surface": "夷叔",
+          "paragraph_text_sha256": "adebdf83d3c54a5071a6fffc0c24d69216209d1991dce3562032d148d2e848c7"
+        }
+      ],
+      "status": "editorial_provisional",
+      "rationale": "引古合稱逐人拆錨，非同場/親屬，不把本段當古人實歷證明。",
+      "references": [],
+      "human_reviewed": false
+    },
+    {
+      "id": "reading-jin034-33-111",
+      "interpretation_kind": "collective_resolution",
+      "source_term": "夷惠",
+      "marker_ids": [
+        "c-jinshu-034-yanghu-comparison:p033:m0111",
+        "c-jinshu-034-yanghu-comparison:p033:m0112"
+      ],
+      "candidate_person_ids": [],
+      "preferred_person_id": null,
+      "resolved_member_refs": [
+        {
+          "person_id": "eh7_raa_ap6",
+          "evidence": {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-034",
+            "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+            "chapter_id": "c-jinshu-034-yanghu-comparison",
+            "paragraph_id": "c-jinshu-034-yanghu-comparison:p033",
+            "mention_id": "c-jinshu-034-yanghu-comparison:p033:m0111",
+            "quote": "夷"
+          }
+        },
+        {
+          "person_id": "myy_zdg_6b6",
+          "evidence": {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-034",
+            "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+            "chapter_id": "c-jinshu-034-yanghu-comparison",
+            "paragraph_id": "c-jinshu-034-yanghu-comparison:p033",
+            "mention_id": "c-jinshu-034-yanghu-comparison:p033:m0112",
+            "quote": "惠"
+          }
+        }
+      ],
+      "source_ranges": [
+        {
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p033",
+          "start": 111,
+          "end": 113,
+          "surface": "夷惠",
+          "paragraph_text_sha256": "14ff7fa18b17b6edb31e1f2b861d2d6b0b72c19546cb15fa396da7d2f5dd907e"
+        }
+      ],
+      "status": "editorial_provisional",
+      "rationale": "引古合稱逐人拆錨，非同場/親屬，不把本段當古人實歷證明。",
+      "references": [],
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "eh7_raa_ap6"
   ],
@@ -727,6 +994,26 @@
         }
       ],
       "interpretation_note": "僅保存本篇傳世敘事所言死亡，不宣稱傳說已考定；無年份與卒齡不補數值。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji124-003",
+      "person_id": "eh7_raa_ap6",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-124-youxia",
+          "source_id": "s-shiji124-youxia",
+          "paragraph_id": "c-shiji-124-youxia:p003",
+          "quote": "鄙人有言曰：「何知仁義，已饗其利者為有德。」故伯夷醜周，餓死首陽山，而文武不以其故貶王；跖、蹻暴戾，其徒誦義無窮。由此觀之，「竊鉤者誅，竊國者侯，侯之門仁義存」，非虛言也。",
+          "person_mention_id": "c-shiji-124-youxia:m003-0023"
+        }
+      ],
+      "source_term": "餓死首陽山",
+      "interpretation_note": "明示死亡敘述連個人與原句；概數及朝代範圍不換算單一年，誅族不據此逐一補造家屬死亡。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }

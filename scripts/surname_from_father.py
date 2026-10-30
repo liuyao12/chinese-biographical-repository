@@ -1,5 +1,62 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions,root=None):
+ if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_jin034_received_family':
+  try:from scripts.fixed_jin034_yanghu_ner import validate_surname as yang034_surname_valid
+  except ImportError:from fixed_jin034_yanghu_ner import validate_surname as yang034_surname_valid
+  return yang034_surname_valid(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_jin036_received_family':
+  try:from scripts.fixed_jin036_wei_ner import validate_surname as wei_surname_valid
+  except ImportError:from fixed_jin036_wei_ner import validate_surname as wei_surname_valid
+  return wei_surname_valid(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_wyd_sgz015_reference_parent_fullname':
+  try:from scripts.fixed_wyd_sgz015_jia_opening import validate_surname as sgz015_reference_surname
+  except ImportError:from fixed_wyd_sgz015_jia_opening import validate_surname as sgz015_reference_surname
+  return sgz015_reference_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_jin031_received_family':
+  try:from scripts.fixed_jin031_jia_comparison import validate_surname as jia_surname_valid
+  except ImportError:from fixed_jin031_jia_comparison import validate_surname as jia_surname_valid
+  return jia_surname_valid(name,names,chapters,assertions,root)
+ if isinstance(name,dict) and isinstance(name.get('surname_basis'),dict) and name['surname_basis'].get('kind')=='contextual_surname_from_wyd_sgz015_named_grandfather':
+  try:from scripts.fixed_wyd_sgz015_jia_opening import validate_surname
+  except ImportError:from fixed_wyd_sgz015_jia_opening import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_wyd_jin040_jiachong':
+  try:from scripts.fixed_wuyingdian_jin040_jiachong import validate_surname
+  except ImportError:from fixed_wuyingdian_jin040_jiachong import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and isinstance(name.get('surname_basis'),dict)and name['surname_basis'].get('kind')=='contextual_surname_from_fixed_jin098_received_family':
+  try:from scripts.fixed_jin098_wangdun_comparison import validate_surname
+  except ImportError:from fixed_jin098_wangdun_comparison import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict) and isinstance(name.get('surname_basis'),dict) and name['surname_basis'].get('kind')=='contextual_surname_from_fixed_jin080_received_family':
+  try:from scripts.fixed_jin080_wangxizhi_comparison import validate_surname
+  except ImportError:from fixed_jin080_wangxizhi_comparison import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and isinstance(name.get('surname_basis'),dict)and name['surname_basis'].get('kind')=='contextual_surname_from_wyd_jin043_shantao':
+  try:from scripts.fixed_wuyingdian_jin043_shantao import validate_surname
+  except ImportError:from fixed_wuyingdian_jin043_shantao import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict) and isinstance(name.get("surname_basis"),dict) and name["surname_basis"].get("kind")=="contextual_surname_from_cross_chapter_same_canonical_family_path":
+  try:from scripts.surname_family_chain import validate_cross_chapter
+  except ImportError:from surname_family_chain import validate_cross_chapter
+  return validate_cross_chapter(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and isinstance(name.get('surname_basis'),dict)and name['surname_basis'].get('kind')=='contextual_surname_from_wyd063_fixed_near_kin':
+  try:from scripts.wyd_song063_basics import validate_surname
+  except ImportError:from wyd_song063_basics import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and isinstance(name.get('surname_basis'),dict)and name['surname_basis'].get('kind')=='contextual_surname_from_wyd_song051_yixin':
+  try:from .wyd_song051_yixin import validate_surname
+  except ImportError:from wyd_song051_yixin import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ # fixed-wyd045-surname
+ if isinstance(name,dict)and isinstance(name.get('surname_basis'),dict)and name['surname_basis'].get('kind')=='contextual_surname_from_wyd_song045_kinship':
+  try:from scripts.wyd_song045_roles import validate_surname
+  except ImportError:from wyd_song045_roles import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict) and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_wyd_song051_named_path':
+  try:from .fixed_wuyingdian_song051_family_phase import validate_surname
+  except ImportError:from fixed_wuyingdian_song051_family_phase import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
  if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_wyd_song044_kinship':
   try:from .wyd_song044_names import validate_surname
   except ImportError:from wyd_song044_names import validate_surname

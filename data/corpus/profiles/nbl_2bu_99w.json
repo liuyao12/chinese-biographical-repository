@@ -227,6 +227,60 @@
       "chapter_id": "c-jinshu-076-wangbin",
       "source_id": "s-jinshu-076-wangbin",
       "work_title": "晉書"
+    },
+    {
+      "number": 98,
+      "category": "",
+      "title": "王敦傳",
+      "paragraph_id": "c-jinshu-098-wangdun-comparison:p020",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "獻多入己府，將相嶽牧悉出其門。徙含為征東將軍、都督揚州江西諸軍事，從弟舒為荊州，彬為江州，邃為徐州。含字處弘，凶頑剛暴，時所不齒，以敦貴重，故曆顯位。敦以沈充、錢鳳為謀主，諸葛瑤、鄧岳、周撫、李恆、謝雍為爪牙。充等並凶險驕恣，共相驅扇，殺戮自己；又大起營府，侵人田宅，發掘",
+      "paragraph_ids": [
+        "c-jinshu-098-wangdun-comparison:p020",
+        "c-jinshu-098-wangdun-comparison:p036"
+      ],
+      "mention_ids": [
+        "c-jinshu-098-wangdun-comparison:p020:m0048",
+        "c-jinshu-098-wangdun-comparison:p036:m0239",
+        "c-jinshu-098-wangdun-comparison:p036:m0242"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-098-wangdun-comparison:p020:m0048": "c-jinshu-098-wangdun-comparison:p020",
+        "c-jinshu-098-wangdun-comparison:p036:m0239": "c-jinshu-098-wangdun-comparison:p036",
+        "c-jinshu-098-wangdun-comparison:p036:m0242": "c-jinshu-098-wangdun-comparison:p036"
+      },
+      "mention_id": "c-jinshu-098-wangdun-comparison:p020:m0048",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-098-wangdun-comparison:p020:m0048",
+          "mention_ids": [
+            "c-jinshu-098-wangdun-comparison:p020:m0048"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-098-wangdun-comparison:p036:m0239",
+          "mention_ids": [
+            "c-jinshu-098-wangdun-comparison:p036:m0239"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-098-wangdun-comparison:p036:m0242",
+          "mention_ids": [
+            "c-jinshu-098-wangdun-comparison:p036:m0242"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "chapter_id": "c-jinshu-098-wangdun-comparison",
+      "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -593,14 +647,116 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-098-wangdun-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+      "source": {
+        "title": "《晉書》卷九十八〈王敦傳〉",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷098&oldid=2614273",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷098&oldid=2614273",
+        "revision_id": 2614273,
+        "accessed_on": "2026-10-27",
+        "extent": "完整王敦37段、附沈充3段與相接史臣曰1段；41段7827字。原raw202:8177，不含桓溫、孟嘉及卷末合贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "edition": "固定數位轉錄，底本未核；僅比較，非武英殿本，非首選讀本。",
+        "rights": "古代原文與維基文庫固定數位轉錄；原修訂及授權歸屬保留。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "sources/jinshu/wikisource-2614273-raw.wikitext",
+        "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
+        "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "wikitext_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼點投影移除數位節題、段首縮排與連結語法。𩦎保固定模板第一參數；不解原刻。奏表/詔書/引語留正文，史臣曰獨立層。"
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin098-shu-younger-cousin-dun",
+      "subject_person_id": "nbl_2bu_99w",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "7r6_k52_qji_ABBA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+          "chapter_id": "c-jinshu-098-wangdun-comparison",
+          "paragraph_id": "c-jinshu-098-wangdun-comparison:p020",
+          "quote": "敦既得志，暴慢愈甚，四方貢獻多入己府，將相嶽牧悉出其門。徙含為征東將軍、都督揚州江西諸軍事，從弟舒為荊州，彬為江州，邃為徐州。含字處弘，凶頑剛暴，時所不齒，以敦貴重，故曆顯位。敦以沈充、錢鳳為謀主，諸葛瑤、鄧岳、周撫、李恆、謝雍為爪牙。充等並凶險驕恣，共相驅扇，殺戮自己；又大起營府，侵人田宅，發掘古墓，剽掠市道，士庶解體，咸知其禍敗焉。敦從弟豫章太守棱日夜切諫，敦怒，陰殺之。敦無子，養含子應。及敦病甚，拜應為武衛將軍以自副。錢鳳謂敦曰：「脫其不諱，便當以後事付應。」敦曰：「非常之事，豈常人所能！且應年少，安可當大事。我死之後，莫若解眾放兵，歸身朝廷，保全門戶，此計之上也。退還武昌，收兵自守，貢獻不廢，亦中計也。及吾尚存，悉眾而下，萬一僥倖，計之下也。」鳳謂其黨曰：「公之下計，乃上策也。」遂與沈充定謀，須敦死後作難。",
+          "subject_person_mention_id": "c-jinshu-098-wangdun-comparison:p020:m0048",
+          "object_person_mention_id": "c-jinshu-098-wangdun-comparison:p020:m0000"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "從弟",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_comparison_jin098_received_roles",
+          "contract_ref": "source-evidence/jin098-wangdun-comparison/ner-facts-template.json"
+        },
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABBA",
+          "younger_person_id": "nbl_2bu_99w",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins"
+        }
+      },
+      "interpretation_note": "僅保存本源從父兄/從弟/族兄語義及相對長幼；不補父、親等或共同祖。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "7r6_k52_qji_ABBA": "王敦",
     "nbl_2bu_99w": "王舒"
   },
   "dates": [],
   "name_components": [
+    {
+      "id": "name-jin098-wangshu-literal",
+      "person_id": "nbl_2bu_99w",
+      "surname": "王",
+      "ming": "舒",
+      "hao": null,
+      "title": null,
+      "additional_names": [],
+      "chapter_id": "c-jinshu-098-wangdun-comparison",
+      "paragraph_id": "c-jinshu-098-wangdun-comparison:p036",
+      "person_mention_id": "c-jinshu-098-wangdun-comparison:p036:m0239",
+      "source_anchor": {
+        "start": 239,
+        "end": 241,
+        "surface": "王舒"
+      },
+      "quote": "既而周光斬錢鳳，吳儒斬沈充，並傳首京師。有司議曰：「王敦滔天作逆，有無君之心，宜依崔杼、王浚故事，剖棺戮屍，以彰元惡。」於是發瘞出屍，焚其衣冠，跽而刑之。敦、充首同日懸于南桁，觀者莫不稱慶。敦首既懸，莫敢收葬者。尚書令郗鑒言於帝曰：「昔王莽漆頭以輗車，董卓然腹以照市，王淩儭土，徐馥焚首。前朝誅楊駿等，皆先極官刑，後聽私殯。然《春秋》許齊襄之葬紀侯，魏武義王修之哭袁譚。由斯言之，王誅加於上，私義行於下。臣以為可聽私葬，於義為弘。」昭許之，於是敦家收葬焉。含父子乘單船奔荊州刺史王舒，舒使人沈之于江，餘黨悉平。",
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "source_id": "s-jinshu098-wangdun-ws2614273-comparison"
+    },
     {
       "person_id": "nbl_2bu_99w",
       "title": null,
@@ -622,7 +778,55 @@
   "person_ids": [
     "nbl_2bu_99w"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin098-shu-younger-cousin-dun",
+      "subject_person_id": "nbl_2bu_99w",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "7r6_k52_qji_ABBA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+          "chapter_id": "c-jinshu-098-wangdun-comparison",
+          "paragraph_id": "c-jinshu-098-wangdun-comparison:p020",
+          "quote": "敦既得志，暴慢愈甚，四方貢獻多入己府，將相嶽牧悉出其門。徙含為征東將軍、都督揚州江西諸軍事，從弟舒為荊州，彬為江州，邃為徐州。含字處弘，凶頑剛暴，時所不齒，以敦貴重，故曆顯位。敦以沈充、錢鳳為謀主，諸葛瑤、鄧岳、周撫、李恆、謝雍為爪牙。充等並凶險驕恣，共相驅扇，殺戮自己；又大起營府，侵人田宅，發掘古墓，剽掠市道，士庶解體，咸知其禍敗焉。敦從弟豫章太守棱日夜切諫，敦怒，陰殺之。敦無子，養含子應。及敦病甚，拜應為武衛將軍以自副。錢鳳謂敦曰：「脫其不諱，便當以後事付應。」敦曰：「非常之事，豈常人所能！且應年少，安可當大事。我死之後，莫若解眾放兵，歸身朝廷，保全門戶，此計之上也。退還武昌，收兵自守，貢獻不廢，亦中計也。及吾尚存，悉眾而下，萬一僥倖，計之下也。」鳳謂其黨曰：「公之下計，乃上策也。」遂與沈充定謀，須敦死後作難。",
+          "subject_person_mention_id": "c-jinshu-098-wangdun-comparison:p020:m0048",
+          "object_person_mention_id": "c-jinshu-098-wangdun-comparison:p020:m0000"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "從弟",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_comparison_jin098_received_roles",
+          "contract_ref": "source-evidence/jin098-wangdun-comparison/ner-facts-template.json"
+        },
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABBA",
+          "younger_person_id": "nbl_2bu_99w",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins"
+        }
+      },
+      "interpretation_note": "僅保存本源從父兄/從弟/族兄語義及相對長幼；不補父、親等或共同祖。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

@@ -1,0 +1,76 @@
+{
+  "format_version": "0.2",
+  "record_type": "identity_decision_set",
+  "chapter_id": "c-shiji-003-yin",
+  "decisions": [
+    {
+      "id": "d-shiji-fushuo-specific-context-crosschapter",
+      "person_id": "p77_x5q_v4n",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-003-yin",
+        "c-shiji-084-qujia",
+        "c-shiji-124-youxia",
+        "c-shiji-130-taishigong"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "surfaces": [
+        "傅說"
+      ],
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-003",
+          "source_id": "s-shiji-003-yin",
+          "chapter_id": "c-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p021",
+          "quote": "帝小乙崩，子帝武丁立。帝武丁即位，思復興殷，而未得其佐。三年不言，政事決定於冢宰，以觀國風。武丁夜夢得聖人，名曰說。以夢所見視群臣百吏，皆非也。於是迺使百工營求之野，得說於傅險中。是時說為胥靡，筑於傅險。見於武丁，武丁曰是也。得而與之語，果聖人，舉以為相，殷國大治。故遂以傅險姓之，號曰傅說。"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-084",
+          "source_id": "s-shiji-084-qujia",
+          "chapter_id": "c-shiji-084-qujia",
+          "paragraph_id": "c-shiji-084-qujia:p028",
+          "quote": "萬物變化兮，固無休息。斡流而遷兮，或推而還。形氣轉續兮，變化而嬗。沕穆無窮兮，胡可勝言！禍兮福所倚，福兮禍所伏；憂喜聚門兮，吉凶同域。彼吳彊大兮，夫差以敗；越棲會稽兮，句踐霸世。斯游遂成兮，卒被五刑；傅說胥靡兮，乃相武丁。夫禍之與福兮，何異糾纆。命不可說兮，孰知其極？水激則旱兮，矢激則遠。萬物回薄兮，振蕩相轉。雲蒸雨降兮，錯繆相紛。大專槃物兮，坱軋無垠。天不可與慮兮，道不可與謀。遲數有命兮，惡識其時？"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-124",
+          "source_id": "s-shiji124-youxia",
+          "chapter_id": "c-shiji-124-youxia",
+          "paragraph_id": "c-shiji-124-youxia:p002",
+          "quote": "且緩急，人之所時有也。太史公曰：昔者虞舜窘於井廩，伊尹負於鼎俎，傅說匿於傅險，呂尚困於棘津，夷吾桎梏，百里飯牛，仲尼畏匡，菜色陳、蔡。此皆學士所謂有道仁人也，猶然遭此菑，況以中材而涉亂世之末流乎？其遇害何可勝道哉！"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-130",
+          "source_id": "s-shiji130-taishigong",
+          "chapter_id": "c-shiji-130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p015",
+          "quote": "維契作商，爰及成湯；太甲居桐，德盛阿衡；武丁得說，乃稱高宗；帝辛湛湎，諸侯不享。作殷本紀第三。"
+        }
+      ],
+      "prior_source_qualifications": [
+        {
+          "metadata": {
+            "label": "傅說引古（屈原賈生列傳候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "source_mention_ids": [
+            "c-shiji-084-qujia:m028-0100"
+          ],
+          "original_registry_record_sha256": "7b66b9a8ec122170663c9aaec519d75e08792a17878fa1c897e427b228474808",
+          "qualification": "原來源人物所有非alias/evidence欄位逐值保留；只辨同指，不提高史實或引古事件資格。"
+        }
+      ],
+      "rationale": "084服鳥賦引古明言傅說胥靡乃相武丁；003同述說為胥靡筑傅險、武丁舉以為相，並號傅說。姓名、胥靡身分、武丁及由困至相的事件鏈全部相合。",
+      "interpretation_note": "084是賈生賦中引古，不是賈生時代在場者；003夢得說與聖人稱述屬傳世敘事，合人不提高夢兆／上古史實可驗性。保持historical_tradition，不新增任期／生卒或姓氏構件。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

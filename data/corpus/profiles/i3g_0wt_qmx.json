@@ -6,7 +6,8 @@
   "identity_note": "書法名家，源內具名不補親屬",
   "review": "ai_provisional",
   "names": [
-    "索靖"
+    "索靖",
+    "靖"
   ],
   "titles": [],
   "addresses": [],
@@ -90,10 +91,91 @@
       "chapter_id": "c-nanqishu-033-wangsengqian",
       "source_id": "s-nanqishu-033-wangsengqian",
       "work_title": "南齊書"
+    },
+    {
+      "number": 36,
+      "category": "",
+      "title": "衛瓘傳",
+      "paragraph_id": "c-jinshu-036-wei-comparison:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "法禦下，視尚書若參佐，尚書郎若掾屬。瓘學問深博，明習文藝，與尚書郎敦煌索靖俱善草書，時人號為「一台二妙」。漢末張芝亦善草書，論者謂「瓘得伯英筋，靖得伯英肉」。太康初，遷司空，侍中、令如故。為政清簡，甚得朝野聲譽。武帝敕瓘第四子宣尚繁昌公主。瓘自以諸生之胄，婚對微素，抗表固辭",
+      "paragraph_ids": [
+        "c-jinshu-036-wei-comparison:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-036-wei-comparison:p003:m0345",
+        "c-jinshu-036-wei-comparison:p003:m0382"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-036-wei-comparison:p003:m0345": "c-jinshu-036-wei-comparison:p003",
+        "c-jinshu-036-wei-comparison:p003:m0382": "c-jinshu-036-wei-comparison:p003"
+      },
+      "mention_id": "c-jinshu-036-wei-comparison:p003:m0345",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p003:m0345",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p003:m0345"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p003:m0382",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p003:m0382"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-036",
+      "chapter_id": "c-jinshu-036-wei-comparison",
+      "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-036-wei-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-036",
+      "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+      "source": {
+        "title": "《晉書》卷三十六〈衛瓘傳〉",
+        "provider": "Wikisource fixed-revision rendered capture",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷036&oldid=2108231",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷036&oldid=2108231",
+        "revision_id": 2108231,
+        "accessed_on": "2026-10-28",
+        "extent": "衛瓘至張華前的完整衛氏相關單元，含恆、璪、玠、展及四體書勢全文。25個數位blocks7145字中4題頭13字另存結構，21正文段7129字；數位[1]與現代註另層，不是全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "edition": null,
+        "edition_qualification": "印本底本未核，固定數位比較見證；非武英殿、非首選讀本、未圖校。未確認是否出於四庫，不採作首選base。",
+        "image_verified": false,
+        "human_reviewed": false,
+        "preferred_text_base": false,
+        "capture_ref": "source-evidence/jin036-wei-comparison/rendered-extract.txt",
+        "capture_sha256": "6db27cbd14cb251ba7ab4e58e9064b02d808cd893b02c044e359c7ccedd73659",
+        "capture_kind": "fixed_revision_HTML_rendered_text_extract",
+        "original_wikitext_obtained": false,
+        "source_response_sha256": "6dc95bd5962acbb6d2e8d3854ee215d7693d07f11b5224e5bcaa53af7d531dfb",
+        "source_response_revision_ids": [
+          2108231
+        ],
+        "original_HTML_private_only": true,
+        "rights": "古代原文與維基文庫數位轉錄；原數位修訂與授權歸屬保留。私有HTML不入庫。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除數位h2/h3題頭及[1]現代footnote標記；正文/內嵌四體書勢的異體、標點、空白與換行照留；HTML字元實體按已封rendered文字呈現。"
+        }
+      }
+    },
     {
       "chapter_id": "c-nanqishu-033-wangsengqian",
       "work_id": "w-nanqishu",
@@ -3150,10 +3232,51 @@
   ],
   "relations": [],
   "related_people": {
-    "i3g_0wt_qmx": "索靖"
+    "i3g_0wt_qmx": "索靖",
+    "q1l_utb_rfn_**AA": "衛瓘"
   },
   "dates": [],
   "name_components": [],
+  "source_person_groups": [
+    {
+      "id": "g-jin036-group_two_calligraphers",
+      "source_term": "一台二妙",
+      "group_marker_ids": [
+        "c-jinshu-036-wei-comparison:p003:m0357"
+      ],
+      "completeness": "complete",
+      "reported_count": 2,
+      "unknown_members": false,
+      "members": [
+        {
+          "person_id": "q1l_utb_rfn_**AA",
+          "evidence": {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-036",
+            "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+            "chapter_id": "c-jinshu-036-wei-comparison",
+            "paragraph_id": "c-jinshu-036-wei-comparison:p001",
+            "mention_id": "c-jinshu-036-wei-comparison:p001:m0000",
+            "quote": "衛瓘"
+          }
+        },
+        {
+          "person_id": "i3g_0wt_qmx",
+          "evidence": {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-036",
+            "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+            "chapter_id": "c-jinshu-036-wei-comparison",
+            "paragraph_id": "c-jinshu-036-wei-comparison:p003",
+            "mention_id": "c-jinshu-036-wei-comparison:p003:m0345",
+            "quote": "索靖"
+          }
+        }
+      ],
+      "scope_qualification": "僅此完整來源內合稱/聯名範圍；不是親屬或同場斷言，不增加個人直接提及頻次。",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "i3g_0wt_qmx"
   ],
