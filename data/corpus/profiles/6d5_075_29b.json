@@ -12667,6 +12667,39 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+      "work_id": "w-zhoushu",
+      "book_id": "b-zhoushu-041",
+      "source_id": "s-zhoushu041-ws2432538",
+      "source": {
+        "title": "《周書》卷四十一王襃完整本傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2432538",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2432538",
+        "revision_id": 2432538,
+        "revision_timestamp": "2024-07-05T14:24:28Z",
+        "accessed_on": "2026-10-30",
+        "text_scope": "partial_chapter",
+        "extent": "完整王襃本傳14段及10收到現代ref校記；起王襃字子淵，止子鼒嗣，下一庾信傳排除，非全卷。",
+        "review_status": "text_checked",
+        "actual_print_edition": null,
+        "printed_base_edition": null,
+        "edition": "固定數位轉錄，實際印本未知；未核書影，不冒宋本、武英殿或所報版本已讀。",
+        "human_reviewed": false,
+        "image_verified": false,
+        "rights": "古代公有領域正文及維基文庫數位轉錄，保留歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "source-evidence/zhou041-wangbao-ws2432538/zhou041-fixed.wikitext",
+        "raw_path": "source-evidence/zhou041-wangbao-ws2432538/zhou041-fixed.wikitext",
+        "raw_file_sha256": "9d70386dd59b9a9dd3faec01c63ac20e2b01f6ab6f1e35c5f3ac2fb8729e4aa9",
+        "wikitext_sha256": "9d70386dd59b9a9dd3faec01c63ac20e2b01f6ab6f1e35c5f3ac2fb8729e4aa9",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅分離ref為現代收到校勘報告、展{{*|...}}為原文字參數、去書信行首冒號；襃、宣成、智武及（宣）〔宜〕等收到符號全保，不默改古字。"
+        }
+      }
     }
   ],
   "relations": [],
@@ -12674,6 +12707,50 @@
     "6d5_075_29b": "阮籍"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "d-zhou041-sizong",
+      "person_id": null,
+      "surfaces": [
+        "嗣宗"
+      ],
+      "scope": "chapter",
+      "chapter_ids": [
+        "c-zhoushu-041-wangbao-ws2432538"
+      ],
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "6d5_075_29b"
+      ],
+      "evidence": [
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-041",
+          "source_id": "s-zhoushu041-ws2432538",
+          "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p009",
+          "quote": "嗣宗窮途，楊朱歧路。征蓬長逝，流水不歸。舒慘殊方，炎涼異節，木皮春厚，桂樹冬榮。想攝衞惟宜，動靜多豫。賢兄入關，敬承款曲。猶依杜陵之水，尚保池陽之田，鏟迹幽蹊，銷聲穹谷。何期愉樂，幸甚！幸甚！",
+          "mention_ids": [
+            "c-zhoushu-041-wangbao-ws2432538:p009:m0000"
+          ]
+        }
+      ],
+      "human_reviewed": false,
+      "model": null,
+      "note": "引古/群稱/校改語塊未足唯一同指，不以現代ref或同字自動選人。",
+      "paragraph_ids": [
+        "c-zhoushu-041-wangbao-ws2432538:p009",
+        "c-jinshu-039-wangxun-feng:wang-full:l011"
+      ],
+      "candidate_list_exhaustive": false,
+      "unknown_identity_possible": true,
+      "unresolved_mention_ids": [
+        "c-zhoushu-041-wangbao-ws2432538:p009:m0000"
+      ],
+      "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+      "source_id": "s-zhoushu041-ws2432538"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "6d5_075_29b"

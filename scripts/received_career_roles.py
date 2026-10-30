@@ -93,6 +93,10 @@ def analyse(record,ch):
  return p,roles,fields,slots
 
 def holding_valid(h,ch,root=None):
+ if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_zhou041_explicit_noble_rank':
+  try:from scripts.zhou041_wangbao_noble_ranks import holding_valid as zhou041_noble_valid
+  except ImportError:from zhou041_wangbao_noble_ranks import holding_valid as zhou041_noble_valid
+  return zhou041_noble_valid(h,ch,root)
  if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_liang041_explicit_inherited_rank':
   try:from scripts.fixed_liang041_wanggui import inherited_rank_valid
   except ImportError:from fixed_liang041_wanggui import inherited_rank_valid

@@ -1,0 +1,351 @@
+{
+  "record_type": "fixed_zhou041_profile_facts_contract",
+  "base_source_contract": "source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json",
+  "base_source_contract_sha256": "3e6008028d663e86ca0a1a2b114f584268d88a1d858dbfc03fa5a211e585149e",
+  "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+  "role_mids": {
+    "bao": "c-zhoushu-041-wangbao-ws2432538:p001:m0000",
+    "zi": "c-zhoushu-041-wangbao-ws2432538:p014:m0024"
+  },
+  "annotation_templates": {
+    "age_assertions": [
+      {
+        "id": "age-zhou041-wangbao-death",
+        "person_id": "$bao",
+        "value": 64,
+        "source_number": "六十四",
+        "source_term": "時年六十四",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-zhou041-wangbao-death"
+        },
+        "evidence": [
+          {
+            "work_id": "w-zhoushu",
+            "book_id": "b-zhoushu-041",
+            "source_id": "s-zhoushu041-ws2432538",
+            "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+            "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p014",
+            "quote": "尋出為（宣）〔宜〕州刺史。卒於位，時年六十四。子鼒嗣。",
+            "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p013:m0249",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p013",
+              "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p013:m0249",
+              "quote": "與弟分袂西陝，言反東區，雖保周陵，還依蔣徑，三姜離㭊，二仲不歸。糜鹿為曹，更多悲緒。丹經在握，貧病莫諧；芝术可求，恆為採掇。昔吾壯日，及弟富年，俱值邕熙，竝歡衡泌。南風雅操，清商妙曲，絃琴促坐，無乏名晨。玉瀝金華，冀獲難老。不虞一旦，翻覆波瀾。吾已愒陰，弟非茂齒。禽、尚之契，各在天涯，永念生平，難為胷臆。且當視陰數箭，排愁破涕。人生樂耳，憂戚何為。豈能遽悲次房，遊魂不反。遠〔傷金〕（產）〔彥〕，骸柩無託。但願愛玉體，珍金箱，保期頤，享黃髮。猶冀蒼（膺）〔雁〕頳鯉，時傳尺素，清風朗月，俱寄相思。子淵，子淵，長為別矣！握管操觚，聲淚俱咽。",
+              "intervening_paragraph_ids": []
+            }
+          }
+        ],
+        "interpretation_note": "只保存本源所報卒齡六十四，計歲方式未明；死亡年及生年皆不推算。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "profile_facts_ref": {
+      "kind": "fixed_zhou041_wangbao_profile_basics",
+      "contract_ref": "source-evidence/zhou041-wangbao-ws2432538/profile-facts-contract.json",
+      "human_reviewed": false
+    }
+  },
+  "sidecar_templates": {
+    "corpus/zhoushu/041-wangbao-ws2432538-name-components.json": {
+      "format_version": "0.2",
+      "record_type": "person_name_component_set",
+      "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+      "records": [
+        {
+          "id": "name-zhou041-wangbao-literal",
+          "person_id": "$bao",
+          "surname": "王",
+          "ming": "襃",
+          "zi": "子淵",
+          "additional_names": [],
+          "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p001",
+          "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p001:m0000",
+          "source_anchor": {
+            "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+            "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p001",
+            "mention_id": "c-zhoushu-041-wangbao-ws2432538:p001:m0000",
+            "start": 0,
+            "end": 2,
+            "surface": "王襃",
+            "person_id": "$bao"
+          },
+          "quote": "王襃字子淵，琅邪臨沂人也。曾祖儉，齊侍中、太尉、南昌文憲公。祖騫，梁侍中、金紫光祿大夫、南昌安侯。父規，梁侍中、左民尚書、南昌章侯。竝有重名於江左。",
+          "status": "editorial_provisional",
+          "human_reviewed": false,
+          "model": null,
+          "note": "周書傳首原字王襃字子淵；保留梁書褒字子漢及新唐書褒字子淵，不以此覆寫他源。",
+          "name_source_binding": {
+            "kind": "literal_full_name_and_zi",
+            "person_anchor": {
+              "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+              "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p001",
+              "mention_id": "c-zhoushu-041-wangbao-ws2432538:p001:m0000",
+              "start": 0,
+              "end": 2,
+              "surface": "王襃",
+              "person_id": "$bao"
+            },
+            "zi_anchor": {
+              "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+              "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p001",
+              "mention_id": "c-zhoushu-041-wangbao-ws2432538:p001:m0003",
+              "start": 3,
+              "end": 5,
+              "surface": "子淵",
+              "person_id": "$bao"
+            },
+            "source_name_kind": "surname_plus_ming",
+            "status": "source_attested",
+            "human_reviewed": false
+          }
+        }
+      ]
+    },
+    "corpus/zhoushu/041-wangbao-ws2432538-preferred-name-readings.json": {
+      "format_version": "0.1",
+      "record_type": "preferred_name_component_reading_set",
+      "readings": [
+        {
+          "id": "pnc-zhou041-bao-source-ming",
+          "person_id": "$bao",
+          "field": "ming",
+          "preferred_value": "褒",
+          "source_values": [
+            "褒",
+            "襃"
+          ],
+          "records": [
+            {
+              "record": {
+                "id": "name-liang041-bao",
+                "person_id": "$bao",
+                "chapter_id": "c-liangshu-041-wanggui-ws1512987",
+                "paragraph_id": "c-liangshu-041-wanggui-ws1512987:p005",
+                "surname": "王",
+                "ming": "褒",
+                "quote": "子褒，字子漢，七歲能屬文。外祖司空袁昂愛之，謂賓客曰：「此兒當成吾宅相。」弱冠舉秀才，除秘書郎、太子舍人，以父憂去職。服闋，襲封南昌侯，除武昌王文學、太子洗馬，兼東宮管記，遷司徒屬，秘書丞，出爲安成內史。太清中，侯景陷京城，江州刺史當陽公大心舉州附賊，賊轉寇南中，褒猶據郡拒守。大寶二年，世祖命徵褒赴江陵，旣至，以爲忠武將軍、南平內史，俄遷吏部尚書、侍中。承聖二年，遷尚書右僕射，仍參掌選事，又加侍中。其年，遷左僕射，參掌如故。三年，江陵陷，入于周。"
+              },
+              "anchor": {
+                "id": "c-liangshu-041-wanggui-ws1512987:p005:m0001",
+                "start": 1,
+                "end": 2,
+                "surface": "褒",
+                "kind": "person",
+                "person_id": "$bao",
+                "status": "contextual_provisional",
+                "interpretation_note": "限此完整段落、下列承接主語的來源內省名；未作跨篇或全域單字比對。"
+              },
+              "source_id": "s-liangshu041-ws1512987"
+            },
+            {
+              "record": {
+                "id": "name-xintang072-wyd-bao_zhou",
+                "person_id": "$bao",
+                "chapter_id": "c-xintangshu-072zhong-wyd1739-wang-preface",
+                "paragraph_id": "c-xintangshu-072zhong-wyd1739-wang-preface:p003",
+                "surname": "王",
+                "ming": "褒",
+                "quote": "昌安侯生規字威明左戶尚書南昌章侯生褒褒字子淵後周光祿大夫石泉康侯生鼒字玉鉉隋安都通守石泉明威侯子弘讓弘直"
+              },
+              "anchor": {
+                "start": 17,
+                "end": 18,
+                "surface": "褒",
+                "kind": "person",
+                "id": "c-xintangshu-072zhong-wyd1739-wang-preface:p003:m0017",
+                "person_id": "$bao",
+                "status": "contextual_provisional",
+                "resolution_note": "本序具名角色；原文/字/諡按本來源範圍，身份同指不等同所敘遠祖譜為真。"
+              },
+              "source_id": "s-xintangshu-072zhong-wyd1739-wang-preface"
+            },
+            {
+              "record": {
+                "id": "name-zhou041-wangbao-literal",
+                "person_id": "$bao",
+                "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+                "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p001",
+                "surname": "王",
+                "ming": "襃",
+                "quote": "王襃字子淵，琅邪臨沂人也。曾祖儉，齊侍中、太尉、南昌文憲公。祖騫，梁侍中、金紫光祿大夫、南昌安侯。父規，梁侍中、左民尚書、南昌章侯。竝有重名於江左。"
+              },
+              "anchor": {
+                "id": "c-zhoushu-041-wangbao-ws2432538:p001:m0000",
+                "start": 0,
+                "end": 2,
+                "surface": "王襃",
+                "kind": "person",
+                "person_id": "$bao",
+                "status": "contextual_provisional",
+                "source_role": "bao",
+                "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
+                "identity_decision_id": "d-zhou041-bao"
+              },
+              "source_id": "s-zhoushu041-ws2432538"
+            }
+          ],
+          "coverage": "listed_records_only",
+          "status": "editorial_provisional",
+          "human_reviewed": false,
+          "rationale": "沿本庫梁書與新唐書已明載褒作三個已列姓名構件的顯示字形；周書王襃原record及全文不改，字子漢/子淵仍各源保留，不作字的顯示裁決。",
+          "basis": {
+            "kind": "cross_chapter_same_person_source_variant",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "王規之子與王襃本傳、既有同指決議及真MID均為同一現役人物，兩個收到名形分源並存；本筆只在listed_records_only範圍選讀，不作新同人或校訂。"
+          }
+        }
+      ]
+    },
+    "corpus/zhoushu/041-wangbao-ws2432538-addresses.json": {
+      "format_version": "0.2",
+      "record_type": "person_address_assertion_set",
+      "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+      "assertions": [
+        {
+          "id": "pa-zhou041-wangbao-origin",
+          "person_id": "$bao",
+          "relation": "biographical_origin",
+          "place": {
+            "source_name": "琅邪臨沂",
+            "place_id": null,
+            "modern_identification": null
+          },
+          "status": "source_attested",
+          "date_expression": null,
+          "source_term": "琅邪臨沂人也",
+          "evidence": [
+            {
+              "work_id": "w-zhoushu",
+              "book_id": "b-zhoushu-041",
+              "source_id": "s-zhoushu041-ws2432538",
+              "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+              "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p001",
+              "quote": "王襃字子淵，琅邪臨沂人也。曾祖儉，齊侍中、太尉、南昌文憲公。祖騫，梁侍中、金紫光祿大夫、南昌安侯。父規，梁侍中、左民尚書、南昌章侯。竝有重名於江左。",
+              "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p001:m0000"
+            }
+          ],
+          "interpretation_note": "傳首本人籍望，非出生地或後代居所，不補今日行政區。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      ]
+    },
+    "corpus/zhoushu/041-wangbao-ws2432538-life-events.json": {
+      "format_version": "0.2",
+      "record_type": "person_life_event_assertion_set",
+      "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+      "events": [
+        {
+          "id": "le-zhou041-wangbao-death",
+          "person_id": "$bao",
+          "event_type": "death",
+          "status": "source_attested",
+          "date_expression": null,
+          "source_term": "卒於位",
+          "source_anchor": {
+            "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p014",
+            "start": 13,
+            "end": 16,
+            "surface": "卒於位"
+          },
+          "evidence": [
+            {
+              "work_id": "w-zhoushu",
+              "book_id": "b-zhoushu-041",
+              "source_id": "s-zhoushu041-ws2432538",
+              "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+              "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p014",
+              "quote": "尋出為（宣）〔宜〕州刺史。卒於位，時年六十四。子鼒嗣。",
+              "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p013:m0249",
+              "context": {
+                "kind": "prior_paragraph_subject",
+                "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p013",
+                "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p013:m0249",
+                "quote": "與弟分袂西陝，言反東區，雖保周陵，還依蔣徑，三姜離㭊，二仲不歸。糜鹿為曹，更多悲緒。丹經在握，貧病莫諧；芝术可求，恆為採掇。昔吾壯日，及弟富年，俱值邕熙，竝歡衡泌。南風雅操，清商妙曲，絃琴促坐，無乏名晨。玉瀝金華，冀獲難老。不虞一旦，翻覆波瀾。吾已愒陰，弟非茂齒。禽、尚之契，各在天涯，永念生平，難為胷臆。且當視陰數箭，排愁破涕。人生樂耳，憂戚何為。豈能遽悲次房，遊魂不反。遠〔傷金〕（產）〔彥〕，骸柩無託。但願愛玉體，珍金箱，保期頤，享黃髮。猶冀蒼（膺）〔雁〕頳鯉，時傳尺素，清風朗月，俱寄相思。子淵，子淵，長為別矣！握管操觚，聲淚俱咽。",
+                "intervening_paragraph_ids": []
+              }
+            }
+          ],
+          "interpretation_note": "書信引文p013末子淵為王襃受話人真錨，p014尋出恢復完整本傳主語後卒於位；死者為王襃，不是末句子鼒。無原紀年，日期未知；宜州刺史職名不作卒地，不反推出生年或結束其他官爵。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      ]
+    },
+    "corpus/zhoushu/041-wangbao-ws2432538-profile-assertions.json": {
+      "format_version": "0.2",
+      "record_type": "person_assertion_set",
+      "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+      "assertions": [
+        {
+          "id": "a-zhou041-zi-father-bao",
+          "subject_person_id": "$zi",
+          "predicate": "father",
+          "object_person_id": "$bao",
+          "status": "source_attested",
+          "qualifiers": {
+            "lineage": "paternal",
+            "source_term": "子鼒"
+          },
+          "context": {
+            "kind": "adjacent_paragraphs",
+            "paragraph_ids": [
+              "c-zhoushu-041-wangbao-ws2432538:p013",
+              "c-zhoushu-041-wangbao-ws2432538:p014"
+            ]
+          },
+          "evidence": [
+            {
+              "work_id": "w-zhoushu",
+              "book_id": "b-zhoushu-041",
+              "source_id": "s-zhoushu041-ws2432538",
+              "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+              "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p013",
+              "quote": "與弟分袂西陝，言反東區，雖保周陵，還依蔣徑，三姜離㭊，二仲不歸。糜鹿為曹，更多悲緒。丹經在握，貧病莫諧；芝术可求，恆為採掇。昔吾壯日，及弟富年，俱值邕熙，竝歡衡泌。南風雅操，清商妙曲，絃琴促坐，無乏名晨。玉瀝金華，冀獲難老。不虞一旦，翻覆波瀾。吾已愒陰，弟非茂齒。禽、尚之契，各在天涯，永念生平，難為胷臆。且當視陰數箭，排愁破涕。人生樂耳，憂戚何為。豈能遽悲次房，遊魂不反。遠〔傷金〕（產）〔彥〕，骸柩無託。但願愛玉體，珍金箱，保期頤，享黃髮。猶冀蒼（膺）〔雁〕頳鯉，時傳尺素，清風朗月，俱寄相思。子淵，子淵，長為別矣！握管操觚，聲淚俱咽。",
+              "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p013:m0249",
+              "object_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p013:m0249"
+            },
+            {
+              "work_id": "w-zhoushu",
+              "book_id": "b-zhoushu-041",
+              "source_id": "s-zhoushu041-ws2432538",
+              "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+              "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p014",
+              "quote": "尋出為（宣）〔宜〕州刺史。卒於位，時年六十四。子鼒嗣。",
+              "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p014:m0024",
+              "subject_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p014:m0024"
+            }
+          ],
+          "interpretation_note": "完整王襃傳末子鼒明子父稱，父親依全傳主語及書信後回敘；不是僅由嗣推父，不推絕對排行、母親、承爵名或年份。與新唐書生鼒原斷言分源並存。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      ]
+    }
+  },
+  "source_qualification": {
+    "actual_print_edition": null,
+    "image_verified": false,
+    "human_reviewed": false
+  },
+  "narrative_subject_boundary": {
+    "biography_resumes_at": "尋出為（宣）〔宜〕州刺史。卒於位，時年六十四。子鼒嗣。",
+    "previous_named_recipient_mid": "c-zhoushu-041-wangbao-ws2432538:p013:m0249",
+    "child_not_deceased_mid": "c-zhoushu-041-wangbao-ws2432538:p014:m0024",
+    "no_date_no_death_place_no_birth_year": true
+  },
+  "human_reviewed": false
+}

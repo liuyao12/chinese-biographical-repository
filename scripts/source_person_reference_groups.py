@@ -1,6 +1,9 @@
 """Closed source-owned collective/reference readings; never identity or occurrence aliases."""
 TYPE='source_person_reference_group_set'
 def validated_sets(records,people,root):
+ try:from scripts.fixed_zhou041_erlu import guard_catalog
+ except ImportError:from fixed_zhou041_erlu import guard_catalog
+ guard_catalog(records,people,root)
  docs=[x for x in records if x.get('record_type')==TYPE];seen=set()
  for d in docs:
   key=(d.get('owner'),d.get('chapter_id'))
@@ -12,6 +15,9 @@ def validated_sets(records,people,root):
   elif d.get('owner')=='fixed_jin036_wei_ner':
    try:from scripts.fixed_jin036_wei_ner import group_set_valid
    except ImportError:from fixed_jin036_wei_ner import group_set_valid
+  elif d.get('owner')=='fixed_zhou041_erlu':
+   try:from scripts.fixed_zhou041_erlu import group_set_valid
+   except ImportError:from fixed_zhou041_erlu import group_set_valid
   else:raise ValueError('未知來源人物群體owner')
   group_set_valid(d,people,root)
  return docs

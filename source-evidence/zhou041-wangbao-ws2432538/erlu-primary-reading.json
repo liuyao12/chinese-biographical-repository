@@ -1,0 +1,85 @@
+{
+  "record_type": "editorial_collective_reference_review_proposal",
+  "status": "primary_text_read_not_adopted",
+  "human_reviewed": false,
+  "source_chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+  "source_mention": {
+    "id": "c-zhoushu-041-wangbao-ws2432538:p006:m0036",
+    "start": 36,
+    "end": 38,
+    "surface": "二陸",
+    "kind": "unresolved",
+    "person_id": null,
+    "status": "unresolved",
+    "source_role": "erlu",
+    "interpretation_note": "此處典故/群稱身份仍待原始單元交證，保收到文字及候選資格，不自動接既有近名。",
+    "candidate_person_ids": [
+      "69h_uhy_hta",
+      "soe_xif_gxb"
+    ]
+  },
+  "source_paragraph": {
+    "id": "c-zhoushu-041-wangbao-ws2432538:p006",
+    "text": "襃與王克、劉瑴、宗懍、殷不害等數十人，俱至長安。太祖喜曰：「昔平吳之利，二陸而已。今定楚之功，羣賢畢至。可謂過之矣。」又謂襃及王克曰：「吾即王氏甥也，卿等竝吾之舅氏。當以親戚為情，勿以去鄉介意。」於是授襃及克、殷不害等車騎大將軍、儀同三司。常從容上席，資餼甚厚。襃等亦竝荷恩眄，忘其羈旅焉。",
+    "sha256": "e1f060516f3593b94308af2504f1c4bd87294a5732fcac8f385514aba89e511d"
+  },
+  "reading": {
+    "referent_kind": "collective_person_reference",
+    "completeness": "complete",
+    "reported_count": 2,
+    "members": [
+      {
+        "current_person_id": "69h_uhy_hta",
+        "label": "陸機",
+        "existing_individual_evidence": {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-wyd1739-jiachong",
+          "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+          "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p018",
+          "mention_id": "c-jinshu-040-wyd1739-jiachong:p018:m0188",
+          "quote": "陸機"
+        },
+        "reverse_reference_verified": true
+      },
+      {
+        "current_person_id": "soe_xif_gxb",
+        "label": "陸雲",
+        "existing_individual_evidence": {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-wyd1739-jiachong",
+          "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+          "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p018",
+          "mention_id": "c-jinshu-040-wyd1739-jiachong:p018:m0190",
+          "quote": "陸雲"
+        },
+        "reverse_reference_verified": true
+      }
+    ],
+    "rationale": "《晉書·陸雲傳》明載與兄機齊名，號曰二陸；本篇比較平吳所得人才之語與之相應。兩人是完整合稱的成員，並非二選一。"
+  },
+  "observed_primary_transcription": {
+    "url": "https://www.shidianguji.com/zh/book/LS0005/chapter/LS0005_798",
+    "exact_quote": "雲字士龍，六歲能屬文，性清正，有才理。少與兄機齊名，雖文章不及機，而持論過之，號曰“二陸。”",
+    "acquisition": "actual rendered primary text read through web open",
+    "print_base": "not_verified",
+    "image_examined": false,
+    "fixed_revision_acquired": false
+  },
+  "corroborating_reading": {
+    "url": "https://zh.wikisource.org/zh-hant/晉書/卷054",
+    "exact_quote": "至太康末，與弟雲俱入洛，造太常張華。華素重其名，如舊相識，曰：「伐吳之役，利獲二俊。」",
+    "acquisition": "actual rendered text read; observed permalink oldid2605147 fetch failed cache miss",
+    "fixed_revision_acquired": false,
+    "print_base": "not_verified"
+  },
+  "integration_requirements": [
+    "保留群體原MID、原文字位及空person_id，不強綁一人或建立重疊的個人錨。",
+    "將二選一候選語義改存完整群體判讀；群稱不成為個人別名或直接人物提及。",
+    "依現行source_person_reference_group_set擴充有限來源owner及原生驗證；現有fixed_jin036_wei_ner不授權本篇。",
+    "普通bundle輸出預先辨識的source_person_groups；沿個人MID與雙向證據讀取現行人物號，不設永久人物號白名單。"
+  ],
+  "source_mutated": false,
+  "created_unix": 1793368284.08588
+}

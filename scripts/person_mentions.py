@@ -13,13 +13,21 @@ def _source_first_person(mention, text=None):
     return source_first_person(mention, text)
 
 
+def _source_letter_reference(mention, text=None):
+    try:
+        from scripts.fixed_zhou041_wangbao import source_letter_reference
+    except ImportError:
+        from fixed_zhou041_wangbao import source_letter_reference
+    return source_letter_reference(mention, text)
+
+
 def is_person_reference(mention):
     if not isinstance(mention, dict):
         return False
     pid = mention.get('person_id')
     return (isinstance(pid, str) and bool(pid)
             and (mention.get('kind') == 'person'
-                 or (mention.get('kind') == 'pronoun' and (mention.get('surface') == '之' or _source_first_person(mention)))))
+                 or (mention.get('kind') == 'pronoun' and (mention.get('surface') == '之' or _source_first_person(mention) or _source_letter_reference(mention)))))
 
 
 def pronoun_errors(mention, text, person_ids=None):
@@ -28,7 +36,7 @@ def pronoun_errors(mention, text, person_ids=None):
              and mention.get('work_id') is None
              and type(start) is int and type(end) is int
              and 0 <= start < end <= len(text) and text[start:end] == mention.get('surface')
-             and (mention.get('surface') == '之' or _source_first_person(mention, text))
+             and (mention.get('surface') == '之' or _source_first_person(mention, text) or _source_letter_reference(mention, text))
              and mention.get('status') in (None, 'source_explicit', 'source_attested',
                                           'contextual_provisional', 'resolved_contextual')
              and (person_ids is None or mention.get('person_id') in person_ids))

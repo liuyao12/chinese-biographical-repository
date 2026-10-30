@@ -13,6 +13,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 41,
+      "category": "",
+      "title": "王襃傳",
+      "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p014",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "尋出為（宣）〔宜〕州刺史。卒於位，時年六十四。子鼒嗣。",
+      "paragraph_ids": [
+        "c-zhoushu-041-wangbao-ws2432538:p014"
+      ],
+      "mention_ids": [
+        "c-zhoushu-041-wangbao-ws2432538:p014:m0024"
+      ],
+      "mention_paragraph_ids": {
+        "c-zhoushu-041-wangbao-ws2432538:p014:m0024": "c-zhoushu-041-wangbao-ws2432538:p014"
+      },
+      "mention_id": "c-zhoushu-041-wangbao-ws2432538:p014:m0024",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zhoushu-041-wangbao-ws2432538:p014:m0024",
+          "mention_ids": [
+            "c-zhoushu-041-wangbao-ws2432538:p014:m0024"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zhoushu",
+      "book_id": "b-zhoushu-041",
+      "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+      "source_id": "s-zhoushu041-ws2432538",
+      "work_title": "周書"
+    },
+    {
       "number": 72,
       "category": "",
       "title": "宰相世系二中",
@@ -105,6 +140,39 @@
           "human_image_reviewed": false
         }
       }
+    },
+    {
+      "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+      "work_id": "w-zhoushu",
+      "book_id": "b-zhoushu-041",
+      "source_id": "s-zhoushu041-ws2432538",
+      "source": {
+        "title": "《周書》卷四十一王襃完整本傳選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2432538",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2432538",
+        "revision_id": 2432538,
+        "revision_timestamp": "2024-07-05T14:24:28Z",
+        "accessed_on": "2026-10-30",
+        "text_scope": "partial_chapter",
+        "extent": "完整王襃本傳14段及10收到現代ref校記；起王襃字子淵，止子鼒嗣，下一庾信傳排除，非全卷。",
+        "review_status": "text_checked",
+        "actual_print_edition": null,
+        "printed_base_edition": null,
+        "edition": "固定數位轉錄，實際印本未知；未核書影，不冒宋本、武英殿或所報版本已讀。",
+        "human_reviewed": false,
+        "image_verified": false,
+        "rights": "古代公有領域正文及維基文庫數位轉錄，保留歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "source-evidence/zhou041-wangbao-ws2432538/zhou041-fixed.wikitext",
+        "raw_path": "source-evidence/zhou041-wangbao-ws2432538/zhou041-fixed.wikitext",
+        "raw_file_sha256": "9d70386dd59b9a9dd3faec01c63ac20e2b01f6ab6f1e35c5f3ac2fb8729e4aa9",
+        "wikitext_sha256": "9d70386dd59b9a9dd3faec01c63ac20e2b01f6ab6f1e35c5f3ac2fb8729e4aa9",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅分離ref為現代收到校勘報告、展{{*|...}}為原文字參數、去書信行首冒號；襃、宣成、智武及（宣）〔宜〕等收到符號全保，不默改古字。"
+        }
+      }
     }
   ],
   "relations": [
@@ -143,6 +211,50 @@
       ],
       "interpretation_note": "本源明生子；另核早出梁書/周書完整單元近系，同角色對應後採局部配置。不據本序遠祖譜連線，不給排行。",
       "reviewer": "Codex（AI）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-zhou041-zi-father-bao",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAAAAAA",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAAAAEAAAAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "子鼒"
+      },
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-zhoushu-041-wangbao-ws2432538:p013",
+          "c-zhoushu-041-wangbao-ws2432538:p014"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-041",
+          "source_id": "s-zhoushu041-ws2432538",
+          "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p013",
+          "quote": "與弟分袂西陝，言反東區，雖保周陵，還依蔣徑，三姜離㭊，二仲不歸。糜鹿為曹，更多悲緒。丹經在握，貧病莫諧；芝术可求，恆為採掇。昔吾壯日，及弟富年，俱值邕熙，竝歡衡泌。南風雅操，清商妙曲，絃琴促坐，無乏名晨。玉瀝金華，冀獲難老。不虞一旦，翻覆波瀾。吾已愒陰，弟非茂齒。禽、尚之契，各在天涯，永念生平，難為胷臆。且當視陰數箭，排愁破涕。人生樂耳，憂戚何為。豈能遽悲次房，遊魂不反。遠〔傷金〕（產）〔彥〕，骸柩無託。但願愛玉體，珍金箱，保期頤，享黃髮。猶冀蒼（膺）〔雁〕頳鯉，時傳尺素，清風朗月，俱寄相思。子淵，子淵，長為別矣！握管操觚，聲淚俱咽。",
+          "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p013:m0249",
+          "object_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p013:m0249"
+        },
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-041",
+          "source_id": "s-zhoushu041-ws2432538",
+          "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p014",
+          "quote": "尋出為（宣）〔宜〕州刺史。卒於位，時年六十四。子鼒嗣。",
+          "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p014:m0024",
+          "subject_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p014:m0024"
+        }
+      ],
+      "interpretation_note": "完整王襃傳末子鼒明子父稱，父親依全傳主語及書信後回敘；不是僅由嗣推父，不推絕對排行、母親、承爵名或年份。與新唐書生鼒原斷言分源並存。",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }
@@ -226,6 +338,50 @@
       ],
       "interpretation_note": "本源明生子；另核早出梁書/周書完整單元近系，同角色對應後採局部配置。不據本序遠祖譜連線，不給排行。",
       "reviewer": "Codex（AI）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-zhou041-zi-father-bao",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAAAAAA",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAAAAEAAAAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "子鼒"
+      },
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-zhoushu-041-wangbao-ws2432538:p013",
+          "c-zhoushu-041-wangbao-ws2432538:p014"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-041",
+          "source_id": "s-zhoushu041-ws2432538",
+          "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p013",
+          "quote": "與弟分袂西陝，言反東區，雖保周陵，還依蔣徑，三姜離㭊，二仲不歸。糜鹿為曹，更多悲緒。丹經在握，貧病莫諧；芝术可求，恆為採掇。昔吾壯日，及弟富年，俱值邕熙，竝歡衡泌。南風雅操，清商妙曲，絃琴促坐，無乏名晨。玉瀝金華，冀獲難老。不虞一旦，翻覆波瀾。吾已愒陰，弟非茂齒。禽、尚之契，各在天涯，永念生平，難為胷臆。且當視陰數箭，排愁破涕。人生樂耳，憂戚何為。豈能遽悲次房，遊魂不反。遠〔傷金〕（產）〔彥〕，骸柩無託。但願愛玉體，珍金箱，保期頤，享黃髮。猶冀蒼（膺）〔雁〕頳鯉，時傳尺素，清風朗月，俱寄相思。子淵，子淵，長為別矣！握管操觚，聲淚俱咽。",
+          "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p013:m0249",
+          "object_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p013:m0249"
+        },
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-041",
+          "source_id": "s-zhoushu041-ws2432538",
+          "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p014",
+          "quote": "尋出為（宣）〔宜〕州刺史。卒於位，時年六十四。子鼒嗣。",
+          "person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p014:m0024",
+          "subject_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p014:m0024"
+        }
+      ],
+      "interpretation_note": "完整王襃傳末子鼒明子父稱，父親依全傳主語及書信後回敘；不是僅由嗣推父，不推絕對排行、母親、承爵名或年份。與新唐書生鼒原斷言分源並存。",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }

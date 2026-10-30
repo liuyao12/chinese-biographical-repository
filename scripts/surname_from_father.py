@@ -1,5 +1,9 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions,root=None):
+ if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_zhou041_imperial_roles':
+  try:from scripts.zhou041_imperial_name_components import validate_surname
+  except ImportError:from zhou041_imperial_name_components import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
  if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_sgz023_explicit_shared_father':
   try:from scripts.sgz023_pei_name_components import validate_surname
   except ImportError:from sgz023_pei_name_components import validate_surname

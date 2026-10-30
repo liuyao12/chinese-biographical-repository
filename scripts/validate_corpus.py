@@ -183,6 +183,10 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                          and ref.get('columns', {}).get('era_name') == name
                          and ref.get('columns', {}).get('first_year') == str(first)
                          and ref.get('columns', {}).get('last_year') == str(last))
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_zhou041_xiaomin_accession':
+                try:from scripts.zhou041_wangbao_noble_ranks import date_valid as zhou041_noble_date_valid
+                except ImportError:from zhou041_wangbao_noble_ranks import date_valid as zhou041_noble_date_valid
+                valid = zhou041_noble_date_valid(date, bound_record, bound_role, chapters or {}, root)
             if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_received_local_regnal_year':
                 try:from scripts.fixed_received_career import local_date_valid
                 except ImportError:from fixed_received_career import local_date_valid

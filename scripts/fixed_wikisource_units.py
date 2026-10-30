@@ -4,6 +4,10 @@ from pathlib import Path
 import hashlib,json,re
 
 def source_errors(ch,root):
+ if ch.get('id')=='c-zhoushu-041-wangbao-ws2432538' or ch.get('source_id')=='s-zhoushu041-ws2432538' or 'fixed_zhou041_ner_ref'in ch.get('annotation',{}):
+  try:from scripts.fixed_zhou041_wangbao import errors as zhou_errors
+  except ImportError:from fixed_zhou041_wangbao import errors as zhou_errors
+  return zhou_errors(ch,root)
  if ch.get('id')=='c-liangshu-041-wanggui-ws1512987' or ch.get('source_id')=='s-liangshu041-ws1512987' or 'fixed_liang041_ner_ref'in ch.get('annotation',{}):
   try:from scripts.fixed_liang041_wanggui import errors as liang_errors
   except ImportError:from fixed_liang041_wanggui import errors as liang_errors

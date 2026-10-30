@@ -352,6 +352,9 @@ def load_catalog(root=ROOT):
 
 def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     people, records = catalog if catalog is not None else load_catalog(root)
+    try:from scripts.fixed_zhou041_wangbao import guard_bundle as guard_zhou041
+    except ImportError:from fixed_zhou041_wangbao import guard_bundle as guard_zhou041
+    guard_zhou041(root,person_id,people,records)
     try:from scripts.sgz023_pei_name_components import guard_bundle as guard_pei_three_names
     except ImportError:from sgz023_pei_name_components import guard_bundle as guard_pei_three_names
     guard_pei_three_names(root,person_id,people,records)

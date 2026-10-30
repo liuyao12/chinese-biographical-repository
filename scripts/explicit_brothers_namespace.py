@@ -3,6 +3,10 @@ import copy,json,re
 from pathlib import Path
 TYPE='explicit_received_brothers_parent_unidentified'
 def _members(assembly,people,assertions,chapters,root):
+ if isinstance(assembly,dict)and assembly.get("id")=="family-zhou041-zhou-brothers":
+  try:from .fixed_zhou041_wangbao import brothers_namespace_members
+  except ImportError:from fixed_zhou041_wangbao import brothers_namespace_members
+  return brothers_namespace_members(assembly,people,assertions,chapters,root)
  try:
   from scripts.wyd_song045_roles import CID,relation_records,relation_valid,name_records,name_valid,resolve_roles
   from scripts.fixed_wuyingdian_song045_liucui import validate_source

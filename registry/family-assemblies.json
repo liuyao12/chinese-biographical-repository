@@ -16803,6 +16803,76 @@
           "connection": "father"
         }
       ]
+    },
+    {
+      "id": "family-zhou041-zhou-brothers",
+      "schema_mode": "personless_namespace",
+      "namespace_id": "y41_7yk_ksf",
+      "root_person_id": null,
+      "entry_person_id": "y41_7yk_ksf_A",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "collateral_root_group": {
+        "id": "group-zhou041-zhou-explicit-brothers",
+        "type": "explicit_received_brothers_parent_unidentified",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "root_person_ids": [
+          "y41_7yk_ksf_A",
+          "y41_7yk_ksf_B"
+        ],
+        "brother_assertion_id": "a-zhou041-hongzheng-older-brother-hongrang",
+        "name_record_ids": [],
+        "source_term": "兄",
+        "common_parent_person_id": null,
+        "common_parent_name": null,
+        "common_parent_registered": false,
+        "relative_age": {
+          "older_person_id": "y41_7yk_ksf_A",
+          "younger_person_id": "y41_7yk_ksf_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "biological_verification": false,
+        "references": [
+          {
+            "assertion_id": "a-zhou041-hongzheng-older-brother-hongrang",
+            "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+            "source_id": "s-zhoushu041-ws2432538",
+            "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p008",
+            "quote": "初，襃與梁處士汝南周弘讓相善。及弘讓兄弘正自陳來聘，高祖許襃等通親知音問。襃贈弘讓詩，并致書曰：",
+            "url": "https://zh.wikisource.org/w/index.php?oldid=2432538",
+            "scope": "史臣明弘讓兄弘正及相對長幼；兩全名在本傳明列，父母未名，不建立父親profile。"
+          }
+        ],
+        "rationale": "周弘正、周弘讓全名及弘讓兄弘正明文；同代_A/_B僅兩真人物結構位，非絕對排行。root_person_id與共同parent ID/name為null、registered=false、biological_verification=false，不添共同父母或假父子。兩全名直接受本章有限source-role proof保護，未虛引不存在的name_record。"
+      },
+      "members": [
+        {
+          "person_id": "y41_7yk_ksf_A",
+          "representative_source_person_id": "y41_7yk_ksf_A",
+          "source_person_ids": [
+            "y41_7yk_ksf_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "collateral_root_group_id": "group-zhou041-zhou-explicit-brothers"
+        },
+        {
+          "person_id": "y41_7yk_ksf_B",
+          "representative_source_person_id": "y41_7yk_ksf_B",
+          "source_person_ids": [
+            "y41_7yk_ksf_B"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "collateral_root_group_id": "group-zhou041-zhou-explicit-brothers"
+        }
+      ]
     }
   ]
 }

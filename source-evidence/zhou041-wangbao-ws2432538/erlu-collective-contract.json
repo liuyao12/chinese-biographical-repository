@@ -1,0 +1,105 @@
+{
+  "record_type": "fixed_zhou041_erlu_collective_contract",
+  "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+  "marker_id": "c-zhoushu-041-wangbao-ws2432538:p006:m0036",
+  "group_path": "corpus/zhoushu/041-wangbao-ws2432538-reference-groups.json",
+  "review_path": "source-evidence/zhou041-wangbao-ws2432538/erlu-primary-reading.json",
+  "review_sha256": "51c8f3bb4cf5263d57f8df9e94e8443f668448c350a001728ac33259c032de23",
+  "groups_template": {
+    "format_version": 1,
+    "record_type": "source_person_reference_group_set",
+    "owner": "fixed_zhou041_erlu",
+    "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+    "source_id": "s-zhoushu041-ws2432538",
+    "groups": [
+      {
+        "id": "g-zhou041-erlu",
+        "source_term": "二陸",
+        "group_marker_ids": [
+          "c-zhoushu-041-wangbao-ws2432538:p006:m0036"
+        ],
+        "completeness": "complete",
+        "reported_count": 2,
+        "unknown_members": false,
+        "members": [
+          {
+            "person_id": "$candidate_erlu_luji",
+            "evidence": {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-040",
+              "source_id": "s-jinshu-040-wyd1739-jiachong",
+              "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+              "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p018",
+              "mention_id": "c-jinshu-040-wyd1739-jiachong:p018:m0188",
+              "quote": "陸機"
+            }
+          },
+          {
+            "person_id": "$candidate_erlu_luyun",
+            "evidence": {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-040",
+              "source_id": "s-jinshu-040-wyd1739-jiachong",
+              "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+              "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p018",
+              "mention_id": "c-jinshu-040-wyd1739-jiachong:p018:m0190",
+              "quote": "陸雲"
+            }
+          }
+        ],
+        "source_range": {
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p006",
+          "start": 36,
+          "end": 38,
+          "surface": "二陸",
+          "paragraph_text_sha256": "e1f060516f3593b94308af2504f1c4bd87294a5732fcac8f385514aba89e511d"
+        },
+        "scope_qualification": "完整二人合稱；不是二選一，不作個人別名或直接提及，不由群稱增加同場、親屬或官爵斷言。",
+        "human_reviewed": false
+      }
+    ],
+    "unresolved_readings": []
+  },
+  "fixed_primary_reading_path": "source-evidence/zhou041-wangbao-ws2432538/erlu-jin054-local-fixed-reading.json",
+  "fixed_primary_reading_sha256": "7ff4162d32296db3eceee485ccae0f5b618a6a88f285032a0b7b4bd84eaa1c0a",
+  "member_source_anchors": [
+    {
+      "path": "corpus/jinshu/040-wyd1739-jiachong.json",
+      "source_dimensions": {
+        "id": "c-jinshu-040-wyd1739-jiachong",
+        "source_id": "s-jinshu-040-wyd1739-jiachong",
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-040"
+      },
+      "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p018",
+      "paragraph_text_sha256": "890e60b2c2b1464e3507568f96258027229d2803115921188ec7facd98f62436",
+      "marker": {
+        "id": "c-jinshu-040-wyd1739-jiachong:p018:m0188",
+        "start": 188,
+        "end": 190,
+        "surface": "陸機",
+        "kind": "person",
+        "status": "contextual_provisional"
+      }
+    },
+    {
+      "path": "corpus/jinshu/040-wyd1739-jiachong.json",
+      "source_dimensions": {
+        "id": "c-jinshu-040-wyd1739-jiachong",
+        "source_id": "s-jinshu-040-wyd1739-jiachong",
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-040"
+      },
+      "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p018",
+      "paragraph_text_sha256": "890e60b2c2b1464e3507568f96258027229d2803115921188ec7facd98f62436",
+      "marker": {
+        "id": "c-jinshu-040-wyd1739-jiachong:p018:m0190",
+        "start": 190,
+        "end": 192,
+        "surface": "陸雲",
+        "kind": "person",
+        "status": "contextual_provisional"
+      }
+    }
+  ]
+}
