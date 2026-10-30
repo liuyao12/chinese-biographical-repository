@@ -3,14 +3,14 @@ import hashlib,re
 KIND='biography_family_clause'
 def valid(a,paragraphs,assertions=(),chapters=None,root=None):
  if not isinstance(a, dict):return False
- if a.get('qualifiers',{}).get('source_clause_binding',{}).get('rule')=='fixed_jin035_registered_unit':
-  try:from scripts.fixed_jin035_peixiu_peiwei_registration import family_valid
-  except ImportError:from fixed_jin035_peixiu_peiwei_registration import family_valid
-  return family_valid(a,paragraphs,root)
  q_guard=a.get('qualifiers', {})
  if not isinstance(q_guard, dict):return False
  b_guard=q_guard.get('source_clause_binding', {})
  if not isinstance(b_guard, dict) or not isinstance(b_guard.get('rule', ''), str):return False
+ if b_guard.get('rule')=='fixed_jin035_registered_unit':
+  try:from scripts.fixed_jin035_peixiu_peiwei_registration import family_valid
+  except ImportError:from fixed_jin035_peixiu_peiwei_registration import family_valid
+  return family_valid(a,paragraphs,root)
  if b_guard.get('rule')=='fixed_repository_witness_near_parent':
   try:from scripts.fixed_xintang072_wang_preface import family_valid
   except ImportError:from fixed_xintang072_wang_preface import family_valid
