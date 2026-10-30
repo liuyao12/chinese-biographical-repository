@@ -1,0 +1,44 @@
+{
+  "record_type": "specific_historical_old_identity_reference_inventory",
+  "human_reviewed": false,
+  "records": [
+    {
+      "path": "source-evidence/jin039-xunxu-identity-distinction.json",
+      "sha256": "5de893b0ee5d0954196ab14f026882d72528e310c4d835e1f30207ec85d03729",
+      "old_identity_value_json_pointers": [
+        "/complete_existing_paragraphs/evidence/7/paragraph/mentions/38/person_id"
+      ],
+      "qualification_ref": "source-evidence/xunchuo-family-rekey/historical-capture-followup.json",
+      "role": "specific_immutable_prior_capture_not_current_person_endpoint"
+    },
+    {
+      "path": "source-evidence/jin035-pei-source-reading/identity-review.json",
+      "sha256": "4a4fddca28197798aa7a25c7df4711030b3e3e9e11f954efaa8901f6d3a7a481",
+      "old_identity_value_json_pointers": [
+        "/25/preflight_candidates/0/person_id"
+      ],
+      "qualification_ref": "source-evidence/xunchuo-family-rekey/historical-capture-followup.json",
+      "role": "specific_immutable_prior_capture_not_current_person_endpoint"
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/aaeeef90a10d1a75bae237982c9bb5c40fb777a31c84f874acf3a56a38ecc8f0.json",
+      "sha256": "aaeeef90a10d1a75bae237982c9bb5c40fb777a31c84f874acf3a56a38ecc8f0",
+      "old_identity_value_json_pointers": [
+        "/25/preflight_candidates/0/person_id"
+      ],
+      "qualification_ref": "source-evidence/xunchuo-family-rekey/historical-capture-followup.json",
+      "role": "specific_immutable_prior_capture_not_current_person_endpoint"
+    },
+    {
+      "path": "tests/fixtures/occurrence-concordance/original-anchors.json",
+      "sha256": "be1a62a56654522d65f66945de17476ba02e350ef5958d04d0c99ff5ef17afe6",
+      "old_identity_value_json_pointers": [
+        "/29/mentions/38/person_id"
+      ],
+      "qualification_ref": "tests/test_occurrence_concordance.py::assert_original_source_anchors",
+      "role": "specific_immutable_prior_capture_not_current_person_endpoint"
+    }
+  ],
+  "not_directory_wide_exemption": true,
+  "new_retirement_metadata": "retirement-047.json reserves old ID; original-fields.json is exact qualified prior-state audit, not live person JSON or redirect."
+}

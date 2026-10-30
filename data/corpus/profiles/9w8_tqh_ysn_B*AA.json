@@ -213,6 +213,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "裴秀裴頠傳",
+      "paragraph_id": "c-jinshu-035-peixiu-peiwei:p020",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "時以陳准子匡、韓蔚子嵩並侍東宮，頠諫曰：「東宮之建，以儲皇極。其所與遊接，必簡英俊，宜用成德。匡、嵩幼弱，未識人理立身之節。東宮實體夙成之表，而今有童子侍從之聲，未是光闡遐風之弘理也。」湣懷太子之廢也，頠與張",
+      "paragraph_ids": [
+        "c-jinshu-035-peixiu-peiwei:p020"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peixiu-peiwei:p020:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peixiu-peiwei:p020:m0002": "c-jinshu-035-peixiu-peiwei:p020"
+      },
+      "mention_id": "c-jinshu-035-peixiu-peiwei:p020:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu-peiwei:p020:m0002",
+          "mention_ids": [
+            "c-jinshu-035-peixiu-peiwei:p020:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peixiu-peiwei",
+      "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+      "work_title": "晉書"
+    },
+    {
       "number": 60,
       "category": "",
       "title": "王韶之荀伯子等列傳",
@@ -395,6 +430,34 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "去數位題頭/工具行號/blockquote呈現符與行首排版縮排；工具連結標記僅保可見詞，未改正文標點、字形或疑字。未取得HTML或wikitext。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peixiu-peiwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+      "source": {
+        "title": "《晉書・裴秀裴頠傳》",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-21",
+        "extent": "裴秀傳及子頠附傳完整單元，固定原文第18–75行；止秀從弟楷前，不含裴楷或全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留見證歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "response_sha256": "e7fc20a0864866bfb68f1f92b542b6f542edebed2052fcf550244ed46206fa35",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "note": "僅去quote及wikilink包裝；逐字raw_runs保留完整可見文字，不用掃描或ctext覆寫。"
         }
       }
     },

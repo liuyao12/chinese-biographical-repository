@@ -573,7 +573,33 @@
       "model": null
     }
   ],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-jin035-wangsui-literal",
+      "person_id": "ehx_cqg_nfx_AAA",
+      "surname": "王",
+      "ming": "綏",
+      "hao": null,
+      "title": null,
+      "additional_names": [],
+      "chapter_id": "c-jinshu-035-peikai-family",
+      "paragraph_id": "c-jinshu-035-peikai-family:p011",
+      "person_mention_id": "c-jinshu-035-peikai-family:p011:m0022",
+      "source_anchor": {
+        "start": 22,
+        "end": 24,
+        "surface": "王綏"
+      },
+      "quote": "瓚字國寶，中書郎，風神高邁，見者皆敬之。特為王綏所重，每從其遊。綏父戎謂之曰：「國寶初不來，汝數往，何也？」對曰：「國寶雖不知綏，綏自知國寶。」楊駿之誅，為亂兵所害。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "本段直書王綏，分姓王、名綏；未將旁人的字國寶借給綏，也未把043原字萬改寫或抹除既有同指資格。",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-peikai-ws2506399"
+    }
+  ],
   "person_ids": [
     "ehx_cqg_nfx_AAA"
   ],
@@ -698,10 +724,14 @@
           "person_mention_id": "c-jinshu-043-wangrong:p014:m0001"
         }
       ],
-      "interpretation_note": "來源報齡，未推計歲法或出生年。",
+      "interpretation_note": "來源報齡，未推計歲法或出生年。 子萬之年十九卒同句，綁該同人死亡事件；原萬字與綏之跨篇同指資格保留，仍不推生年。",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-jin043-wangrong-wan"
+      }
     }
   ],
   "life_events": [

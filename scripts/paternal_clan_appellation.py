@@ -2,7 +2,11 @@
 from pathlib import Path
 import json,hashlib
 PROOF_SHA='cdf313175baa2e4a9a690b9802d91b60c523ead486dfa807c97e3c5d0f776778'
-def valid(n,p,relations):
+def valid(n,p,relations,root=None):
+ if isinstance(n,dict)and n.get('clan_style_basis',{}).get('kind')=='fixed_repository_biography_head_daughter':
+  try:from scripts.fixed_repository_family_names import clan_valid
+  except ImportError:from fixed_repository_family_names import clan_valid
+  return clan_valid(n,p,relations,root=root if root is not None else Path(__file__).resolve().parents[1])
  if isinstance(n,dict)and isinstance(n.get('clan_style_basis'),dict)and n['clan_style_basis'].get('kind')=='fixed_comparison_jin080_paternal_role':
   try:from scripts.fixed_jin080_wangxizhi_comparison import clan_valid
   except ImportError:from fixed_jin080_wangxizhi_comparison import clan_valid

@@ -329,6 +329,51 @@
       "work_title": "晉書"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "裴秀裴頠傳",
+      "paragraph_id": "c-jinshu-035-peixiu-peiwei:p021",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "術，何晏、阮籍素有高名於世，口談浮虛，不遵禮法，屍祿耽寵，仕不事事；至王衍之徒，聲譽太盛，位高勢重，不以物務自嬰，遂相放效，風教陵遲，乃著崇有之論以釋其蔽曰：",
+      "paragraph_ids": [
+        "c-jinshu-035-peixiu-peiwei:p021",
+        "c-jinshu-035-peixiu-peiwei:p027"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peixiu-peiwei:p021:m0046",
+        "c-jinshu-035-peixiu-peiwei:p027:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peixiu-peiwei:p021:m0046": "c-jinshu-035-peixiu-peiwei:p021",
+        "c-jinshu-035-peixiu-peiwei:p027:m0000": "c-jinshu-035-peixiu-peiwei:p027"
+      },
+      "mention_id": "c-jinshu-035-peixiu-peiwei:p021:m0046",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu-peiwei:p021:m0046",
+          "mention_ids": [
+            "c-jinshu-035-peixiu-peiwei:p021:m0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu-peiwei:p027:m0000",
+          "mention_ids": [
+            "c-jinshu-035-peixiu-peiwei:p027:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peixiu-peiwei",
+      "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+      "work_title": "晉書"
+    },
+    {
       "number": 39,
       "category": "",
       "title": "王沈荀顗荀勖馮紞列傳第九",
@@ -1433,6 +1478,34 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "展開連結顯示字、去粗體排版；標題另層。㲄、俊郎、雲及缺閉引號原樣保留。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peixiu-peiwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+      "source": {
+        "title": "《晉書・裴秀裴頠傳》",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-21",
+        "extent": "裴秀傳及子頠附傳完整單元，固定原文第18–75行；止秀從弟楷前，不含裴楷或全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留見證歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "response_sha256": "e7fc20a0864866bfb68f1f92b542b6f542edebed2052fcf550244ed46206fa35",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "note": "僅去quote及wikilink包裝；逐字raw_runs保留完整可見文字，不用掃描或ctext覆寫。"
         }
       }
     },

@@ -86,7 +86,7 @@ class Concordance(unittest.TestCase):
    for m in p['mentions']:
     actual=mentions[m['id']]
     if m['id']!=mid:
-     expected_m=copy.deepcopy(m);mapping=J(R/'source-evidence/xunyou-ancestor-assembly/rekey-fidelity.json')['historical_rekey_mapping'];mapping.update(J(R/'source-evidence/jiaxi-earliest-paternal-root/current-review.json')['mapping']);mapping.update(J(R/'source-evidence/jin043-wangrong-paternal/annotation-chain.json')['historical_rekey_mapping']);expected_m['person_id']=mapping.get(expected_m.get('person_id'),expected_m.get('person_id'));self.assertEqual({k:actual.get(k)for k in m},expected_m);continue
+     expected_m=copy.deepcopy(m);mapping=J(R/'source-evidence/xunyou-ancestor-assembly/rekey-fidelity.json')['historical_rekey_mapping'];mapping.update(J(R/'source-evidence/jiaxi-earliest-paternal-root/current-review.json')['mapping']);mapping.update(J(R/'source-evidence/jin043-wangrong-paternal/annotation-chain.json')['historical_rekey_mapping']);mapping.update(J(R/'source-evidence/two-hui-identity/current-review.json')['historical_mapping']);mapping.update(J(R/'source-evidence/pei-mao-common-root-rekey/annotation-chain.json')['historical_rekey_mapping']);expected_m['person_id']=mapping.get(expected_m.get('person_id'),expected_m.get('person_id'));self.assertEqual({k:actual.get(k)for k in m},expected_m);continue
     corrected+=1
     self.assertEqual(m,{'id':mid,'start':11,'end':13,'surface':'禰衡','person_id':'727_51c_19b'})
     self.assertEqual(actual,{'id':mid,'start':9,'end':14,'surface':'平原禰衡傳','kind':'work','person_id':None,'work_id':wid,'status':'source_explicit'})

@@ -93,6 +93,10 @@ def analyse(record,ch):
  return p,roles,fields,slots
 
 def holding_valid(h,ch,root=None):
+ if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_liang041_explicit_inherited_rank':
+  try:from scripts.fixed_liang041_wanggui import inherited_rank_valid
+  except ImportError:from fixed_liang041_wanggui import inherited_rank_valid
+  return inherited_rank_valid(h,ch,root)
  if not isinstance(h,dict)or not isinstance(h.get('source_career_role'),dict):return False
  if isinstance(h,dict)and h.get('source_career_role',{}).get('kind')=='fixed_jin031_complete_unit_typed':
   try:from scripts.fixed_jin031_jia_typed import holding_valid as valid031

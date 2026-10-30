@@ -61,10 +61,13 @@
             "person_mention_id": "c-jinshu-043-wangrong:p002:m0007"
           }
         ],
-        "interpretation_note": "來源報齡，未推計歲法或出生年。",
+        "interpretation_note": "來源報齡，未推計歲法或出生年。 此年十五為生前隨父與阮籍往來之報齡，不是卒齡。",
         "reviewer": "Codex（AI代理）",
         "human_reviewed": false,
-        "model": null
+        "model": null,
+        "age_context": {
+          "kind": "during_life"
+        }
       },
       {
         "id": "age-jin043-wangrong-002",
@@ -88,10 +91,14 @@
             "person_mention_id": "c-jinshu-043-wangrong:p012:m0015"
           }
         ],
-        "interpretation_note": "來源報齡，未推計歲法或出生年。",
+        "interpretation_note": "來源報齡，未推計歲法或出生年。 同段永興二年薨於郟縣，時年七十二；綁本人的死亡事件，仍不推計歲法或生年。",
         "reviewer": "Codex（AI代理）",
         "human_reviewed": false,
-        "model": null
+        "model": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-jin043-wangrong-rong"
+        }
       },
       {
         "id": "age-jin043-wangrong-003",
@@ -115,12 +122,21 @@
             "person_mention_id": "c-jinshu-043-wangrong:p014:m0001"
           }
         ],
-        "interpretation_note": "來源報齡，未推計歲法或出生年。",
+        "interpretation_note": "來源報齡，未推計歲法或出生年。 子萬之年十九卒同句，綁該同人死亡事件；原萬字與綏之跨篇同指資格保留，仍不推生年。",
         "reviewer": "Codex（AI代理）",
         "human_reviewed": false,
-        "model": null
+        "model": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-jin043-wangrong-wan"
+        }
       }
-    ]
+    ],
+    "family_name_phase_ref": {
+      "kind": "fixed_repository_biography_family_names",
+      "path": "source-evidence/jin043-wangrong-family-names/name-proof.json",
+      "sha256": "813d37604d7ed24ad380b8f3db5c88d0cd9864b2b521590f272b2ef1468657e5"
+    }
   },
   "paragraphs": [
     {
@@ -185,7 +201,7 @@
           "end": 53,
           "surface": "裴楷",
           "kind": "person",
-          "person_id": "530_f9d_4bd",
+          "person_id": "kbq_kjc_n2f_BC",
           "status": "contextual_provisional",
           "resolution_note": "傳首王戎祖雄父渾的本傳身份；與太原王渾嚴分。魏明帝屬幼年觀戲插敘。"
         },
@@ -498,7 +514,7 @@
           "end": 166,
           "surface": "裴頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -1063,7 +1079,7 @@
           "end": 63,
           "surface": "裴頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "孝喪插敘武帝問劉毅，不與劉裕時護軍劉毅同人；母稱不升生母。"
         },
@@ -1412,7 +1428,7 @@
           "end": 2,
           "surface": "裴頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1432,7 +1448,7 @@
           "end": 9,
           "surface": "頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1815,7 +1831,7 @@
           "end": 176,
           "surface": "裴頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "女適裴頠與歸寧同一女；從子單衣婚事不補其父/姓名。"
         },
@@ -1981,7 +1997,7 @@
           "end": 53,
           "surface": "裴頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },

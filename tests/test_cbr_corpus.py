@@ -23,6 +23,10 @@ class CorpusTests(unittest.TestCase):
         # Source-bound claims need their complete fixed witnesses and date references.
         shutil.copytree(ROOT/'sources', self.root/'sources', copy_function=fixture_copy2)
         shutil.copytree(ROOT/'data/works', self.root/'data/works', copy_function=fixture_copy2)
+        # Preserve the declared immutable capture required by the Pei source proof.
+        capture='tests/fixtures/occurrence-concordance/original-anchors.json'
+        (self.root/capture).parent.mkdir(parents=True,exist_ok=True)
+        fixture_copy2(ROOT/capture,self.root/capture)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_work_mention_cannot_link_person(self):

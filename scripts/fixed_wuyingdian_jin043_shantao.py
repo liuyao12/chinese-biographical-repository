@@ -49,7 +49,7 @@ def source_errors(chapter,root):
 
 # Named complete-unit NER successor; the source-only branch above remains intact.
 FORMAL_KIND='jin043_shantao_complete_unit_ner_v1'
-FORMAL_CONTRACT_SHA='89aebca793ef3caeed7c6a7384af19b4fe4295e95115e10841ea47de4b8c73da'
+FORMAL_CONTRACT_SHA='1e14f8e28e3d9f80f2a435339c901d017e4e45ee307dd8056ab5053b4c878429'
 FORMAL_PATH=BASE+'ner-family-contract.json'
 def same(a,b):
  import math

@@ -30,6 +30,13 @@ class ExportReadonlyContextTests(unittest.TestCase):
  def fixture(self,root):
   for rel in ['data/corpus/native.json','registry/persons.json','data/historical-tables/person-candidates.json','scripts/dynamic_seed.py']:
    p=root/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_text('{}')
+  # The fixture enables the ordinary reader with person-candidates.json;
+  # give its pure preflight genuine minimal inputs rather than mocking it.
+  minimal={'registry/persons.json':{'persons':[]},'registry/works.json':{'works':[]},
+   'corpus/progress.json':{'books':[]},'data/corpus/shiji-contents.json':{'chapters':[],'source':'synthetic context transport only'},
+   'data/corpus/chapter-directory.json':{'works':[]},'data/historical-tables/index.json':{'tables':[]}}
+  for rel,value in minimal.items():
+   path=root/rel;path.parent.mkdir(parents=True,exist_ok=True);path.write_text(json.dumps(value))
  def test_writes_are_outside_shared_context_and_new_call_is_fresh(self):
   with tempfile.TemporaryDirectory()as td:
    root=Path(td);self.fixture(root)

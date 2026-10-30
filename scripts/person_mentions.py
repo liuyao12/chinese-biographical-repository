@@ -5,13 +5,21 @@ used as a personal name or as the reader's interactive name markup.
 """
 
 
+def _source_first_person(mention, text=None):
+    try:
+        from scripts.fixed_jin035_contemporary import source_first_person
+    except ImportError:
+        from fixed_jin035_contemporary import source_first_person
+    return source_first_person(mention, text)
+
+
 def is_person_reference(mention):
     if not isinstance(mention, dict):
         return False
     pid = mention.get('person_id')
     return (isinstance(pid, str) and bool(pid)
             and (mention.get('kind') == 'person'
-                 or (mention.get('kind') == 'pronoun' and mention.get('surface') == '之')))
+                 or (mention.get('kind') == 'pronoun' and (mention.get('surface') == '之' or _source_first_person(mention)))))
 
 
 def pronoun_errors(mention, text, person_ids=None):
@@ -19,7 +27,8 @@ def pronoun_errors(mention, text, person_ids=None):
     valid = (mention.get('kind') == 'pronoun' and is_person_reference(mention)
              and mention.get('work_id') is None
              and type(start) is int and type(end) is int
-             and 0 <= start < end <= len(text) and text[start:end] == '之'
+             and 0 <= start < end <= len(text) and text[start:end] == mention.get('surface')
+             and (mention.get('surface') == '之' or _source_first_person(mention, text))
              and mention.get('status') in (None, 'source_explicit', 'source_attested',
                                           'contextual_provisional', 'resolved_contextual')
              and (person_ids is None or mention.get('person_id') in person_ids))

@@ -550,7 +550,12 @@ def _validate_uncached(root=ROOT):
                     if m['kind'] in ('person', 'pronoun'):
                         if m['kind'] == 'pronoun': errors.extend(pronoun_errors(m, p['text'], pids))
                         check(m['person_id'] in pids, '提及引用未知人物 ID')
-                        check(any(ch.isalnum() for ch in m['surface']), '人物提及不得僅為標點或空白')
+                        alphanumeric = any(ch.isalnum() for ch in m['surface'])
+                        if not alphanumeric:
+                            try:from scripts.fixed_repository_witness import glyph_person_valid
+                            except ImportError:from fixed_repository_witness import glyph_person_valid
+                            alphanumeric = glyph_person_valid(d, m, root)
+                        check(alphanumeric, '人物提及不得僅為標點或空白')
                     elif m['kind'] == 'unresolved': check(m['person_id'] is None and m['status']=='unresolved', '未定提及不得暗選人物')
                     elif m['kind'] == 'non_person':
                         try:
@@ -1859,7 +1864,11 @@ def _validate_uncached(root=ROOT):
                         from scripts.wyd_song044_nephew import nephew_valid as wyd_nephew_valid
                     except ImportError:
                         from wyd_song044_nephew import nephew_valid as wyd_nephew_valid
-                    check((paternal_uncle_direction_valid(a, paragraphs, root=root) if qualifiers.get('source_clause_binding', {}).get('rule') in ('fixed_comparison_jin080_received_roles','fixed_comparison_jin098_received_roles') else paternal_uncle_direction_valid(a, paragraphs)) or wyd_nephew_valid(a, paragraphs, root) or (jin034_applies(a) and jin034_family_valid(a,paragraphs,root)),
+                    try:from scripts.fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_uncle_valid
+                    except ImportError:from fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_uncle_valid
+                    try:from scripts.fixed_liang041_wanggui import uncle_applies as liang041_uncle_applies, uncle_valid as liang041_uncle_valid
+                    except ImportError:from fixed_liang041_wanggui import uncle_applies as liang041_uncle_applies, uncle_valid as liang041_uncle_valid
+                    check((liang041_uncle_applies(a) and liang041_uncle_valid(a,paragraphs,root)) or (qualifiers.get('source_clause_binding',{}).get('rule')=='fixed_jin035_registered_unit' and jin035_uncle_valid(a,paragraphs,root)) or (paternal_uncle_direction_valid(a, paragraphs, root=root) if qualifiers.get('source_clause_binding', {}).get('rule') in ('fixed_comparison_jin080_received_roles','fixed_comparison_jin098_received_roles') else paternal_uncle_direction_valid(a, paragraphs)) or wyd_nephew_valid(a, paragraphs, root) or (jin034_applies(a) and jin034_family_valid(a,paragraphs,root)),
                           '叔父關係須依原詞與人物字位定向，不得互換叔侄端點')
                 if a['predicate'] == 'maternal_uncle':
                     try:from scripts.fixed_wuyingdian_jin040_jiachong import wangqian_maternal_uncle_valid
@@ -1914,7 +1923,9 @@ def _validate_uncached(root=ROOT):
                         from scripts.maternal_roles import maternal_role_valid
                     except ImportError:
                         from maternal_roles import maternal_role_valid
-                    check(maternal_role_valid(a, paragraphs) or (song051_applies(a) and song051_family_valid(a, paragraphs, chapters, root)) or (jin043_applies(a) and jin043_family_valid(a,paragraphs,chapters,root)) or (jin040_applies(a) and jin040_family_valid(a,paragraphs,chapters,root)) or (jin031_applies(a) and jin031_family_valid(a,paragraphs,root)) or (jin036_applies(a) and jin036_family_valid(a,paragraphs,root)) or (jin034_applies(a) and jin034_family_valid(a,paragraphs,root)), '母親稱謂須有原詞及雙人物錨點，不得推生母或父親')
+                    try:from scripts.fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_family_valid
+                    except ImportError:from fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_family_valid
+                    check((qualifiers.get('source_clause_binding',{}).get('rule')=='fixed_jin035_registered_unit' and jin035_family_valid(a,paragraphs,root)) or maternal_role_valid(a, paragraphs) or (song051_applies(a) and song051_family_valid(a, paragraphs, chapters, root)) or (jin043_applies(a) and jin043_family_valid(a,paragraphs,chapters,root)) or (jin040_applies(a) and jin040_family_valid(a,paragraphs,chapters,root)) or (jin031_applies(a) and jin031_family_valid(a,paragraphs,root)) or (jin036_applies(a) and jin036_family_valid(a,paragraphs,root)) or (jin034_applies(a) and jin034_family_valid(a,paragraphs,root)), '母親稱謂須有原詞及雙人物錨點，不得推生母或父親')
                 if a['predicate'] == 'adoptive_mother':
                     check('所母' in qualifiers.get('source_term', '') and any(qualifiers.get('source_term', '') in e.get('quote', '') for e in a['evidence']), '所母關係須保存原詞，不得由一般母稱推定')
                 if a['predicate'] == 'stepmother':
@@ -2111,6 +2122,12 @@ def _validate_uncached(root=ROOT):
                             except ImportError:from fixed_jin080_wangxizhi_comparison import family_valid as jin080_frame_valid
                             frame_valid=jin080_frame_valid(a,paragraphs,root)
                             check(frame_valid,'完整比較傳承接須有固定全文及逐端點原角色，不得冒相鄰段落')
+                            if frame_valid:adjacent=ids
+                        elif context.get('kind') == 'fixed_jin035_received_unit_continuation':
+                            try:from scripts.fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_continuation_valid
+                            except ImportError:from fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_continuation_valid
+                            frame_valid=jin035_continuation_valid(a,paragraphs,root)
+                            check(frame_valid,'035完整裴秀傳承接須有固定13段、父子雙端及全部原來源；不得冒相鄰或換父')
                             if frame_valid:adjacent=ids
                         elif context.get('kind') == 'biographical_child_continuation':
                             try:
@@ -2768,7 +2785,23 @@ def _validate_uncached(root=ROOT):
             from scripts.surname_from_father import validate as validate_inferred_surname
         except ImportError:
             from surname_from_father import validate as validate_inferred_surname
+        try:
+            from scripts.fixed_repository_family_names import validate_installed as validate_repository_family_names
+        except ImportError:
+            from fixed_repository_family_names import validate_installed as validate_repository_family_names
+        try:validate_repository_family_names(root,catalog[0],catalog[1])
+        except (ValueError,KeyError,TypeError,OSError,IndexError,StopIteration) as exc:errors.append(str(exc))
         all_name_records = [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']]
+        try:
+            from scripts.fixed_liang041_wanggui import validate_names_installed as liang041_names_installed
+        except ImportError:
+            from fixed_liang041_wanggui import validate_names_installed as liang041_names_installed
+        try:liang041_names_installed(root,all_name_records)
+        except (AssertionError,ValueError,KeyError,TypeError,OSError) as exc:errors.append('梁041姓名固定側錄不符')
+        try:from scripts.sgz023_pei_name_components import installed as pei_three_names_installed
+        except ImportError:from sgz023_pei_name_components import installed as pei_three_names_installed
+        try:pei_three_names_installed(root,all_name_records)
+        except (AssertionError,KeyError,ValueError,TypeError,OSError) as exc:errors.append('裴氏三姓名有限來源側錄不符')
         for n in all_name_records:
             if isinstance(n,dict)and(n.get('chapter_id')=='c-jinshu-034-yanghu-comparison'or str(n.get('person_mention_id','')).startswith('c-jinshu-034-yanghu-comparison:')):
                 try:from scripts.fixed_jin034_yanghu_ner import name_record_valid as yang034_name_valid
@@ -2787,7 +2820,7 @@ def _validate_uncached(root=ROOT):
                 except ImportError:from fixed_jin098_wangdun_comparison import name_record_valid as jin098_name_valid
                 check(jin098_name_valid(n,root),'晉098姓名須為完整有限原名/復姓槽，不得把疑誤字當姓名')
             # fixed-wyd051-received-name-semantic-gates
-            if isinstance(n,dict)and ((isinstance(n.get('full_name_basis'),dict)and n['full_name_basis'].get('kind')in('received_wyd_complete_unit_unsplit_name','received_song067_selfcommentary_literal_full_name'))or(isinstance(n.get('xiaozhi_basis'),dict)and n['xiaozhi_basis'].get('kind')=='received_wyd_complete_unit_xiaozhi_apposition')):
+            if isinstance(n,dict)and ((isinstance(n.get('full_name_basis'),dict)and n['full_name_basis'].get('kind')in('received_wyd_complete_unit_unsplit_name','received_song067_selfcommentary_literal_full_name','fixed_repository_witness_unsplit_name'))or(isinstance(n.get('xiaozhi_basis'),dict)and n['xiaozhi_basis'].get('kind')=='received_wyd_complete_unit_xiaozhi_apposition')):
                 try:from scripts.person_bundle import validate_full_name
                 except ImportError:from person_bundle import validate_full_name
                 try:from scripts.name_childhood import validate_childhood_name

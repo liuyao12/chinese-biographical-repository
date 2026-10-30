@@ -19,6 +19,11 @@ def source_author_errors(works, chapters, root=None):
     text=p['text'];order=(w['end']<=a['start'] if ev.get('authorship_syntax',{}).get('kind')=='title_author_suo_zhu' else a['end']<=w['start']);require(text[a['start']:a['end']]==a['surface'] and text[w['start']:w['end']]==w['surface'] and order,'author/title span differs')
     syntax=ev.get('authorship_syntax',{});kind=syntax.get('kind');gap=text[a['end']:w['start']]
     people=[m for m in p['mentions'] if m.get('kind')=='person' and a['end']<=m['start'] and m['end']<=w['start']]
+    if kind=='source_bound_fixed_sgz023_work_context':
+     try:from scripts.fixed_sgz023_works import author_valid
+     except ImportError:from fixed_sgz023_works import author_valid
+     require(author_valid(ev,work,c,root),'fixed Pei cited-work author differs')
+     continue
     if kind=='source_bound_fixed_jin034_context':
      try:from scripts.fixed_jin034_yanghu_ner import work_author_valid
      except ImportError:from fixed_jin034_yanghu_ner import work_author_valid

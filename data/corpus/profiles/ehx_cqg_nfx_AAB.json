@@ -209,7 +209,59 @@
     "ehx_cqg_nfx_AAB": "興〔王戎庶子〕"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-jin043-wangrong-family-xing",
+      "person_id": "ehx_cqg_nfx_AAB",
+      "surname": "王",
+      "ming": "興",
+      "hao": null,
+      "title": null,
+      "additional_names": [],
+      "chapter_id": "c-jinshu-043-wangrong",
+      "paragraph_id": "c-jinshu-043-wangrong:p014",
+      "person_mention_id": "c-jinshu-043-wangrong:p014:m0030",
+      "source_anchor": {
+        "start": 30,
+        "end": 31,
+        "surface": "興"
+      },
+      "quote": "子萬，有美名。少而大肥，戎令食穅，而肥愈甚。年十九卒。有庶子興，戎所不齒。以從弟陽平太守愔子為嗣。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_same_source_father_chain",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "本傳王戎全名為種子，依同一來源明示父系關係復省姓；原文渾／興原字不改，不據家族ID或標籤補名。",
+        "source_name_record_id": "name-jin043-wangrong-family-head",
+        "source_full_quote": "王戎，字濬沖，琅邪臨沂人也。祖雄，幽州刺史。父渾，涼州刺史、貞陵亭侯。戎幼而穎悟，神彩秀徹。視日不眩，裴楷見而目之曰：「戎眼燦燦，如岩下電。」年六七歲，于宣武場觀戲，猛獸在檻中虓吼震地，眾皆奔走，戎獨立不動，神色自若。魏明帝於閣上見而奇之。又嘗與群兒嬉於道側，見李樹多實，等輩兢趣之，戎獨不往。或問其故，其曰：「樹在道邊而多子，必苦李也。」取之信然。",
+        "steps": [
+          {
+            "assertion_id": "a-jin043-wangrong-005",
+            "from_person_id": "ehx_cqg_nfx_AA",
+            "to_person_id": "ehx_cqg_nfx_AAB",
+            "traversal": "father_to_child",
+            "evidence": {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-043",
+              "chapter_id": "c-jinshu-043-wangrong",
+              "source_id": "s-jinshu-043-ws2618531-wangrong",
+              "paragraph_id": "c-jinshu-043-wangrong:p014",
+              "quote": "子萬，有美名。少而大肥，戎令食穅，而肥愈甚。年十九卒。有庶子興，戎所不齒。以從弟陽平太守愔子為嗣。",
+              "subject_person_mention_id": "c-jinshu-043-wangrong:p014:m0030",
+              "object_person_mention_id": "c-jinshu-043-wangrong:p014:m0012"
+            },
+            "source_term": "庶子興"
+          }
+        ]
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-wangrong"
+    }
+  ],
   "person_ids": [
     "ehx_cqg_nfx_AAB"
   ],

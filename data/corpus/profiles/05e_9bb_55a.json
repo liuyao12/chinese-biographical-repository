@@ -115,6 +115,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "裴秀裴頠傳",
+      "paragraph_id": "c-jinshu-035-peixiu-peiwei:p012",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "宜使諸卿任職，未及奏而薨。其友人料其書記，得表草言平吳之事，其詞曰：「孫皓酷虐，不及聖明禦世兼弱攻昧，使遺子孫，將遂不能臣；時有否泰，非萬安之勢也。臣昔雖已屢言，未有成旨。今既疾篤不起，謹重屍啟。願陛下時共施用。」乃封以上聞。詔報曰：「司空薨，痛悼不能去心。又得表草，雖在危",
+      "paragraph_ids": [
+        "c-jinshu-035-peixiu-peiwei:p012"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peixiu-peiwei:p012:m0052"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peixiu-peiwei:p012:m0052": "c-jinshu-035-peixiu-peiwei:p012"
+      },
+      "mention_id": "c-jinshu-035-peixiu-peiwei:p012:m0052",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu-peiwei:p012:m0052",
+          "mention_ids": [
+            "c-jinshu-035-peixiu-peiwei:p012:m0052"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peixiu-peiwei",
+      "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+      "work_title": "晉書"
+    },
+    {
       "number": 39,
       "category": "",
       "title": "王沈荀顗荀勖馮紞列傳第九",
@@ -517,6 +552,34 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "去數位題頭/工具行號/blockquote呈現符與行首排版縮排；工具連結標記僅保可見詞，未改正文標點、字形或疑字。未取得HTML或wikitext。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peixiu-peiwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+      "source": {
+        "title": "《晉書・裴秀裴頠傳》",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-21",
+        "extent": "裴秀傳及子頠附傳完整單元，固定原文第18–75行；止秀從弟楷前，不含裴楷或全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留見證歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "response_sha256": "e7fc20a0864866bfb68f1f92b542b6f542edebed2052fcf550244ed46206fa35",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "note": "僅去quote及wikilink包裝；逐字raw_runs保留完整可見文字，不用掃描或ctext覆寫。"
         }
       }
     },

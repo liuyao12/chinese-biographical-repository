@@ -10,7 +10,8 @@
     "侃",
     "老子",
     "元帥",
-    "陶公"
+    "陶公",
+    "陶士衡"
   ],
   "titles": [
     {
@@ -206,6 +207,41 @@
       "chapter_id": "c-jinshu-007-huan-annal-xianhe3",
       "source_id": "s-jinshu-007-huan-annal-xianhe3",
       "work_title": "晉書"
+    },
+    {
+      "number": 41,
+      "category": "",
+      "title": "王規傳（含王褒、劉瑴、宗懍附傳）",
+      "paragraph_id": "c-liangshu-041-wanggui-ws1512987:p007",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "陶士衡曰：「昔大禹不吝尺璧而重寸陰。」文士何不誦書，武士何不馬射？若乃玄冬脩夜，朱明永日，肅其居處，崇其牆仞，門無糅雜，坐闕號呶。以之求學，則仲尼之門人也；以之爲文，則賈生之升堂也。古者盤盂有銘，几杖有誡，",
+      "paragraph_ids": [
+        "c-liangshu-041-wanggui-ws1512987:p007"
+      ],
+      "mention_ids": [
+        "c-liangshu-041-wanggui-ws1512987:p007:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-041-wanggui-ws1512987:p007:m0000": "c-liangshu-041-wanggui-ws1512987:p007"
+      },
+      "mention_id": "c-liangshu-041-wanggui-ws1512987:p007:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-041-wanggui-ws1512987:p007:m0000",
+          "mention_ids": [
+            "c-liangshu-041-wanggui-ws1512987:p007:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-041",
+      "chapter_id": "c-liangshu-041-wanggui-ws1512987",
+      "source_id": "s-liangshu041-ws1512987",
+      "work_title": "梁書"
     },
     {
       "number": 69,
@@ -1454,6 +1490,37 @@
       }
     },
     {
+      "chapter_id": "c-liangshu-041-wanggui-ws1512987",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-041",
+      "source_id": "s-liangshu041-ws1512987",
+      "source": {
+        "title": "《梁書》卷四十一王規及王褒、劉瑴、宗懍完整選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1512987",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1512987",
+        "revision_id": 1512987,
+        "accessed_on": "2026-10-29",
+        "extent": "完整王規本傳、子王褒及劉瑴／宗懍附傳；止王承獨立傳前，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "human_reviewed": false,
+        "image_verified": false,
+        "printed_base_edition": null,
+        "edition": "固定數位轉錄，實際印本未知；未核書影，非武英殿本。",
+        "rights": "古代原文及維基文庫數位轉錄，保留數位歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "source-evidence/liang041-wanggui-ws1512987/liang041-fixed.wikitext",
+        "raw_path": "source-evidence/liang041-wanggui-ws1512987/liang041-fixed.wikitext",
+        "wikitext_sha256": "c19683a05200034bc5e35a92e79d390e2653d9c6f94cc021e06719a6062a0e4f",
+        "raw_file_sha256": "c19683a05200034bc5e35a92e79d390e2653d9c6f94cc021e06719a6062a0e4f",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只展YL為原年號字串，去縮排及引文行首冒號；原字鐧、普通初及子漢保留。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-zizhitongjian-094-xiyang-kinship",
       "work_id": "w-zizhitongjian",
       "book_id": "b-zizhitongjian-094",
@@ -1486,6 +1553,68 @@
     "twd_erg_kmz": "陶侃"
   },
   "dates": [],
+  "reading_decisions": [
+    {
+      "id": "d-liang041-taoshiheng-taokan",
+      "person_id": "twd_erg_kmz",
+      "surfaces": [
+        "陶士衡"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-liangshu-041-wanggui-ws1512987",
+        "c-jinshu-076-wangyi-family"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-041",
+          "source_id": "s-liangshu041-ws1512987",
+          "chapter_id": "c-liangshu-041-wanggui-ws1512987",
+          "paragraph_id": "c-liangshu-041-wanggui-ws1512987:p007",
+          "quote": "陶士衡曰：「昔大禹不吝尺璧而重寸陰。」文士何不誦書，武士何不馬射？若乃玄冬脩夜，朱明永日，肅其居處，崇其牆仞，門無糅雜，坐闕號呶。以之求學，則仲尼之門人也；以之爲文，則賈生之升堂也。古者盤盂有銘，几杖有誡，進退循焉，俯仰觀焉。文王之詩曰：「靡不有初，鮮克有終。」立身行道，終始若一。「造次必於是」，君子之言歟。",
+          "mention_ids": [
+            "c-liangshu-041-wanggui-ws1512987:p007:m0000"
+          ]
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "source_id": "s-jinshu-076-wangyi-family",
+          "chapter_id": "c-jinshu-076-wangyi-family",
+          "paragraph_id": "c-jinshu-076-wangyi-family:p002",
+          "quote": "初，王敦左遷陶侃，使廙代為荊州。將吏馬俊、鄭攀等上書請留侃，敦不許。廙為俊等所襲，奔于江安。賊杜曾與俊、攀北迎第五猗以距廙。廙督諸軍討曾，又為曾所敗。敦命湘州刺史甘卓、豫章太守周廣等助廙擊曾，曾衆潰，廙得到州。廙性俊率，嘗從南下，旦自尋陽，迅風飛帆，暮至都，倚舫樓長嘯，神氣甚逸。王導謂庾亮曰：「世將為傷時識事。」亮曰：「正足舒其逸氣耳。」廙在州大誅戮侃時將佐，及征士皇甫方回，於是大失荊土之望，人情乖阻。帝乃征廙為輔國將軍，加散騎常侍。以母喪去職。服闋，拜征虜將軍，進左衛將軍。",
+          "mention_ids": [
+            "c-jinshu-076-wangyi-family:p002:m0006"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "世說新語卷2，陶公/庾亮拜謝完整單元",
+          "url": "https://github.com/kanripo/KR3l0002/blob/c6c870dd30b16e97405e0fb9d3b42c47f48c52d6/KR3l0002_002.txt",
+          "commit": "c6c870dd30b16e97405e0fb9d3b42c47f48c52d6",
+          "raw_file": "source-evidence/wangsui-wanzi-identity/KR3l0002_002-c6c870d.txt",
+          "raw_sha256": "6b8a3fcf4fb07152c567a25fe56e9511f45a9748b83c107e6a8956aa7e65367a",
+          "raw_unit": {
+            "start": 81172,
+            "end": 81468,
+            "raw": "陶公自上流來赴蘇峻之難令誅庾公謂必戮庾可¶\n以謝峻(令庾亮以元舅輔政欲以風軌格政繩御四/晉陽秋曰是時成帝在繦褓太后臨朝中書)¶\n(不欲亮曰蘇峻豺狼終為禍亂晁錯所謂削亦反不/海而峻擁兵近甸為逋逃藪亮圖召峻王導卞壷並)¶\n(殺我也遂克京邑平南温嶠聞亂號泣登舟遣叅軍/削亦反遂下優詔以大司農徵之峻怒曰庾亮欲誘)¶\n(奔嶠人皆尤而少之嶠愈相崇重分兵以配給之/王愆期推征西陶侃為盟主俱赴京師時亮敗績)庾¶\n欲奔竄則不可欲㑹恐見執進退無計温公勸庾詣¶\n陶曰卿但遥拜必無它我為卿保之庾從温言詣陶¶\n至便拜陶自起止之曰庾元規何縁拜陶士衡畢又¶\n降就下坐陶又自要起同坐坐定庾乃引咎責躬深¶\n相遜謝陶不覺釋然¶\n",
+            "pb": "KR3l0002_SBCK_002-80a",
+            "first_line": 2822,
+            "last_line": 2832
+          },
+          "layer_qualification": "主文陶士衡與附古注明陶侃分層；古注引晉陽秋不是已讀獨立晉陽秋原書；SBCK只是倉儲標記，不冒圖校。",
+          "image_verified": false
+        }
+      ],
+      "rationale": "梁王褒幼訓引陶士衡大禹重寸陰。固定世說完整單元陶公/陶自稱陶士衡，附古注同蘇峻、溫嶠、庾亮事件明稱陶侃；與既有王廙傳陶侃及晉書陶侃惜寸陰相應。不是只按字士衡接陸機；梁原字不改，不裁定異寫原因，不認定引句逐字同文、同時交遊或新親屬。晉066收到頁尾1527632顯示閱讀為旁證，固定raw未取回故不作必要信任輸入。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [
     {
       "id": "name-jin098-taokan-literal",

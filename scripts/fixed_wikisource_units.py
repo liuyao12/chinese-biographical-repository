@@ -4,6 +4,18 @@ from pathlib import Path
 import hashlib,json,re
 
 def source_errors(ch,root):
+ if ch.get('id')=='c-liangshu-041-wanggui-ws1512987' or ch.get('source_id')=='s-liangshu041-ws1512987' or 'fixed_liang041_ner_ref'in ch.get('annotation',{}):
+  try:from scripts.fixed_liang041_wanggui import errors as liang_errors
+  except ImportError:from fixed_liang041_wanggui import errors as liang_errors
+  return liang_errors(ch,root)
+ if ch.get('id')=='c-sanguozhi-023-peiqian-ws2376966' or ch.get('source_id')=='s-sanguozhi-023-peiqian-ws2376966' or 'fixed_sgz023_peiqian_ref'in ch.get('annotation',{}):
+  try:from scripts.fixed_sgz023_peiqian import errors as peiqian_errors
+  except ImportError:from fixed_sgz023_peiqian import errors as peiqian_errors
+  return peiqian_errors(ch,root)
+ if ch.get('id')=='c-jinshu-035-peixiu-peiwei' or ch.get('source_id')=='s-jinshu-035-peixiu-peiwei-ws2506399':
+  try:from scripts.fixed_jin035_peixiu_peiwei_registration import errors as registration_errors
+  except ImportError:from fixed_jin035_peixiu_peiwei_registration import errors as registration_errors
+  return registration_errors(ch,root)
  ref=ch.get('annotation',{}).get('fixed_wikisource_unit_ref')
  if ref is None:return []
  try:
@@ -12,6 +24,10 @@ def source_errors(ch,root):
    p=Path(name);assert not p.is_absolute()and p.parts[0]in('source-evidence','sources','corpus')and'..'not in p.parts
    q=root/p;assert q.resolve()==q and q.is_file();return q
   b=json.loads(local(ref).read_text())
+  if b.get('record_type')=='jin035_peixiu_peiwei_source_registration':
+   try:from scripts.fixed_jin035_peixiu_peiwei_registration import errors as registration_errors
+   except ImportError:from fixed_jin035_peixiu_peiwei_registration import errors as registration_errors
+   return registration_errors(ch,root,b)
   if b.get('record_type')=='fixed_jin031_jia_complete_biography':
    try:from scripts.fixed_jin031_jia_comparison import source_errors as jia_source_errors
    except ImportError:from fixed_jin031_jia_comparison import source_errors as jia_source_errors

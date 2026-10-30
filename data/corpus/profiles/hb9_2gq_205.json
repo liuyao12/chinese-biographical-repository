@@ -12,6 +12,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 41,
+      "category": "",
+      "title": "王規傳（含王褒、劉瑴、宗懍附傳）",
+      "paragraph_id": "c-liangshu-041-wanggui-ws1512987:p005",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子褒，字子漢，七歲能屬文。外祖司空袁昂愛之，謂賓客曰：「此兒當成吾宅相。」弱冠舉秀才，除秘書郎、太子舍人，以父憂去職。服闋，襲封南昌侯，除武昌王文學、太子洗馬，兼東宮管記，遷司徒屬，秘書丞，出爲安成內史。太清中，侯景陷京城，江州刺史當陽公",
+      "paragraph_ids": [
+        "c-liangshu-041-wanggui-ws1512987:p005"
+      ],
+      "mention_ids": [
+        "c-liangshu-041-wanggui-ws1512987:p005:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-041-wanggui-ws1512987:p005:m0017": "c-liangshu-041-wanggui-ws1512987:p005"
+      },
+      "mention_id": "c-liangshu-041-wanggui-ws1512987:p005:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-041-wanggui-ws1512987:p005:m0017",
+          "mention_ids": [
+            "c-liangshu-041-wanggui-ws1512987:p005:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-041",
+      "chapter_id": "c-liangshu-041-wanggui-ws1512987",
+      "source_id": "s-liangshu041-ws1512987",
+      "work_title": "梁書"
+    },
+    {
       "number": 58,
       "category": "",
       "title": "卷五十八：楊椿、楊昱及穎順近系完整傳與共評（部分卷）",
@@ -50,6 +85,37 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-liangshu-041-wanggui-ws1512987",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-041",
+      "source_id": "s-liangshu041-ws1512987",
+      "source": {
+        "title": "《梁書》卷四十一王規及王褒、劉瑴、宗懍完整選錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1512987",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1512987",
+        "revision_id": 1512987,
+        "accessed_on": "2026-10-29",
+        "extent": "完整王規本傳、子王褒及劉瑴／宗懍附傳；止王承獨立傳前，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "human_reviewed": false,
+        "image_verified": false,
+        "printed_base_edition": null,
+        "edition": "固定數位轉錄，實際印本未知；未核書影，非武英殿本。",
+        "rights": "古代原文及維基文庫數位轉錄，保留數位歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "source-evidence/liang041-wanggui-ws1512987/liang041-fixed.wikitext",
+        "raw_path": "source-evidence/liang041-wanggui-ws1512987/liang041-fixed.wikitext",
+        "wikitext_sha256": "c19683a05200034bc5e35a92e79d390e2653d9c6f94cc021e06719a6062a0e4f",
+        "raw_file_sha256": "c19683a05200034bc5e35a92e79d390e2653d9c6f94cc021e06719a6062a0e4f",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只展YL為原年號字串，去縮排及引文行首冒號；原字鐧、普通初及子漢保留。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-weishu-weishou-058-yangchun",
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-058",
@@ -77,8 +143,38 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-liang041-bao-maternal-grandfather",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAAAAA",
+      "predicate": "grandfather",
+      "object_person_id": "hb9_2gq_205",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "外祖司空袁昂",
+        "lineage": "maternal",
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-041",
+          "source_id": "s-liangshu041-ws1512987",
+          "chapter_id": "c-liangshu-041-wanggui-ws1512987",
+          "paragraph_id": "c-liangshu-041-wanggui-ws1512987:p005",
+          "quote": "子褒，字子漢，七歲能屬文。外祖司空袁昂愛之，謂賓客曰：「此兒當成吾宅相。」弱冠舉秀才，除秘書郎、太子舍人，以父憂去職。服闋，襲封南昌侯，除武昌王文學、太子洗馬，兼東宮管記，遷司徒屬，秘書丞，出爲安成內史。太清中，侯景陷京城，江州刺史當陽公大心舉州附賊，賊轉寇南中，褒猶據郡拒守。大寶二年，世祖命徵褒赴江陵，旣至，以爲忠武將軍、南平內史，俄遷吏部尚書、侍中。承聖二年，遷尚書右僕射，仍參掌選事，又加侍中。其年，遷左僕射，參掌如故。三年，江陵陷，入于周。",
+          "subject_person_mention_id": "c-liangshu-041-wanggui-ws1512987:p005:m0001",
+          "object_person_mention_id": "c-liangshu-041-wanggui-ws1512987:p005:m0017"
+        }
+      ],
+      "interpretation_note": "保原文親屬詞；不補原文未名母親、婚配、年份或排行。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "related_people": {
+    "7r6_k52_qji_ABAAAAEAAAAA": "王褒",
     "hb9_2gq_205": "袁昂〔吳郡不降梁〕"
   },
   "dates": [],
@@ -86,7 +182,36 @@
   "person_ids": [
     "hb9_2gq_205"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-liang041-bao-maternal-grandfather",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAAAAA",
+      "predicate": "grandfather",
+      "object_person_id": "hb9_2gq_205",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "外祖司空袁昂",
+        "lineage": "maternal",
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-041",
+          "source_id": "s-liangshu041-ws1512987",
+          "chapter_id": "c-liangshu-041-wanggui-ws1512987",
+          "paragraph_id": "c-liangshu-041-wanggui-ws1512987:p005",
+          "quote": "子褒，字子漢，七歲能屬文。外祖司空袁昂愛之，謂賓客曰：「此兒當成吾宅相。」弱冠舉秀才，除秘書郎、太子舍人，以父憂去職。服闋，襲封南昌侯，除武昌王文學、太子洗馬，兼東宮管記，遷司徒屬，秘書丞，出爲安成內史。太清中，侯景陷京城，江州刺史當陽公大心舉州附賊，賊轉寇南中，褒猶據郡拒守。大寶二年，世祖命徵褒赴江陵，旣至，以爲忠武將軍、南平內史，俄遷吏部尚書、侍中。承聖二年，遷尚書右僕射，仍參掌選事，又加侍中。其年，遷左僕射，參掌如故。三年，江陵陷，入于周。",
+          "subject_person_mention_id": "c-liangshu-041-wanggui-ws1512987:p005:m0001",
+          "object_person_mention_id": "c-liangshu-041-wanggui-ws1512987:p005:m0017"
+        }
+      ],
+      "interpretation_note": "保原文親屬詞；不補原文未名母親、婚配、年份或排行。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

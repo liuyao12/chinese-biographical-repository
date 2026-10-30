@@ -279,6 +279,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "裴秀裴頠傳",
+      "paragraph_id": "c-jinshu-035-peixiu-peiwei:p018",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "福之戒，冀無大悖。幸天下尚安，庶可優遊卒歲。」此謀遂寢。頠旦夕勸說從母廣城君，令戒喻賈后親待太子而已。或說頠曰：「幸與中宮內外可得盡言。言若不行，則可辭病摒退。若二者不立，雖有十表，難乎免矣。」頠慨然久之，而竟不能行。",
+      "paragraph_ids": [
+        "c-jinshu-035-peixiu-peiwei:p018"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peixiu-peiwei:p018:m0169"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peixiu-peiwei:p018:m0169": "c-jinshu-035-peixiu-peiwei:p018"
+      },
+      "mention_id": "c-jinshu-035-peixiu-peiwei:p018:m0169",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peixiu-peiwei:p018:m0169",
+          "mention_ids": [
+            "c-jinshu-035-peixiu-peiwei:p018:m0169"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peixiu-peiwei",
+      "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+      "work_title": "晉書"
+    },
+    {
       "number": 40,
       "category": "",
       "title": "賈充",
@@ -510,6 +545,34 @@
           "character_conversion": {},
           "acquisition_scope": "existing_native_raw_reused; fresh Commons image request403; no image obtained",
           "notes": "精確去除行首空白、單一YL包裝與別有傳連結語法，兩ref全文與raw字位另存；不改为/异體。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-035-peixiu-peiwei",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+      "source": {
+        "title": "《晉書・裴秀裴頠傳》",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-21",
+        "extent": "裴秀傳及子頠附傳完整單元，固定原文第18–75行；止秀從弟楷前，不含裴楷或全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留見證歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "response_sha256": "e7fc20a0864866bfb68f1f92b542b6f542edebed2052fcf550244ed46206fa35",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "note": "僅去quote及wikilink包裝；逐字raw_runs保留完整可見文字，不用掃描或ctext覆寫。"
         }
       }
     },

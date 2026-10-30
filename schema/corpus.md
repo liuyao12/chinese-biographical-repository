@@ -1325,3 +1325,14 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 固定未知印本比較單元的 close-kin phase 以完整41段NER前置、角色MID/七欄reverse、有限方向及來源詞義核親屬；不增新人物或改familyID。泛母/前母為maternal_role，生物母欄null；孔氏生發另記明生。蔡邕母系祖父的性別另據蔡文姬完整數位比較單元父角色，未取fixed raw或影像，不能由男性外孫推祖親性別。長兄只存相對年序；長子倫之1限sons scope。拒嗣不作成功收養，奉嗣不作生父。
 
 既有source_family_count_report_set由有限036/034 owner dispatcher驗證，unknown/orphan拒；原036 helper不變。034 reports的report_kind分lineage_generations、indefinite_plural、existence、source_absence、qualified_generation_expression，所有數值/界限/單位須完整來源限定。九世起祖不明不生九代；女夫明至少一女，女ID與確切數未知；相墓故事無子及杜預表無胤嗣不是終生子女0。法興之未名祜兄不可選發/承。普通bundle/profile保source_family_count_reports，卡片按明示report_kind/單位呈來源資格，不將null顯為人數。
+
+## 固定武英殿見證與王戎近系姓名讀法
+
+`contextual_surname_from_fixed_repository_biography_family` 與 `fixed_repository_biography_head_daughter` 僅限完整固定WYD043原文、現役來源角色及WS043已驗祖父／女之父原斷言。王雄不另造渾父雄的來源句；未名女只王氏、ming為null，不以夫姓、父名＋女或ID推名。渾／興仍用既有同源明父鏈；王綏用035真全名，043萬字及身份資格保留。報齡15為during_life，72及萬19為at_death綁同人同段現有死亡事件，皆不推生年或歲法。來源phase_ref只觸發必需驗證，不能授予未知proof權威；完整契約及正常入口缺失、錯向、缺catalog或反查皆拒絕。
+
+
+### 裴潛完整單元的引書作者有限後繼
+
+`fixed_sgz023_typed_work_author_v1` 保完整263錨、原文及人物端點，只把明確未決書題升解為work；易及樂論分題、荀綽稱嵩的省題及冀／翼州記同書仍分存。章目互見沿既有directory，未原生目標的chapter／paragraph為null，不以同卷另一選段充數。
+
+真current章、works作者行、未知作品履歷及兩徽接合先驗，才把精確保存的NER父章交私有`_base_proof`。normal API guard仍比真current caller people／records，不能以父view恢復舊ID、藏NER或書題層。`source_bound_fixed_sgz023_work_context`僅驗本段頠著崇有／貴無二論及謝鯤為樂廣傳，不放寬通用作者前綴。p010目次及p012案本志為裴注比較敘述；魚豢曰只署本段說話者，不能補全部作品作者或成書年。

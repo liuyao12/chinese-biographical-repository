@@ -1,5 +1,25 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions,root=None):
+ if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_sgz023_explicit_shared_father':
+  try:from scripts.sgz023_pei_name_components import validate_surname
+  except ImportError:from sgz023_pei_name_components import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_liang041_family':
+  try:from scripts.fixed_liang041_wanggui import validate_surname
+  except ImportError:from fixed_liang041_wanggui import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_repository_witness':
+  try:from scripts.fixed_xintang072_wang_preface import validate_surname
+  except ImportError:from fixed_xintang072_wang_preface import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_jin035_received_family':
+  try:from scripts.fixed_jin035_peixiu_peiwei_registration import validate_surname
+  except ImportError:from fixed_jin035_peixiu_peiwei_registration import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_repository_biography_family':
+  try:from scripts.fixed_repository_family_names import validate_surname
+  except ImportError:from fixed_repository_family_names import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
  if isinstance(name,dict)and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_jin034_received_family':
   try:from scripts.fixed_jin034_yanghu_ner import validate_surname as yang034_surname_valid
   except ImportError:from fixed_jin034_yanghu_ner import validate_surname as yang034_surname_valid

@@ -1,4 +1,20 @@
 import {orderChildren} from './sibling-order.js';
+import {summarizeNameComponents} from './name-components.js';
+
+// Relatives use the same source-qualified name consensus as their own profile.
+// Titles and generic surname-only forms are not personal-name replacements.
+export function familyPersonLabel(person) {
+  const fallback = person?.label || person?.id || '';
+  const {names, canHead} = summarizeNameComponents(person?.name_components, person?.preferred_name_component_readings);
+  if (!canHead || !names) return fallback;
+  if (names.clan_style?.value) return names.clan_style.value;
+  if (names.full_name) return names.full_name;
+  if (names.surname && names.ming) return names.surname + names.ming;
+  // A lone given name cannot safely replace a fuller registered label. No
+  // surname, title or relationship is guessed from that label at runtime.
+  if (names.ming && !person?.label) return names.ming;
+  return fallback;
+}
 // Read validated namespace metadata; its unnamed structural slot is never loaded as a person.
 export async function namespaceNavigation(person, load) {
   const row = person.assembled_identity, group = row?.collateral_root_group;
@@ -22,7 +38,7 @@ export async function namespaceNavigation(person, load) {
     const roots = await Promise.all(ids.map(async id => {
       let data;
       try { data = await load(id); } catch { data = null; }
-      return {id, label: data?.label || id, ...(data ? {person: data} : {unavailable: true}),
+      return {id, label: data ? familyPersonLabel(data) : id, ...(data ? {person: data} : {unavailable: true}),
         role: 'source_attested', inference_note: group.rationale, evidence: group.references};
     }));
     return {namespace_id: row.namespace_id, entry_person_id: row.namespace_entry_person_id,
@@ -41,7 +57,7 @@ export async function namespaceNavigation(person, load) {
   const roots = await Promise.all(group.root_person_ids.map(async id => {
     let data;
     try { data = await load(id); } catch { data = null; }
-    return {id, label: data?.label || id, ...(data ? {person: data} : {unavailable: true}),
+    return {id, label: data ? familyPersonLabel(data) : id, ...(data ? {person: data} : {unavailable: true}),
       role: 'assembly_inferred', inference_note: group.rationale, evidence: group.references};
   }));
   return {namespace_id: row.namespace_id, entry_person_id: row.namespace_entry_person_id,
@@ -159,7 +175,7 @@ export async function traceFamily(person, load) {
   }
   async function resolve(entries) {
     const resolved = await Promise.all(entries.map(async entry => {
-      try {const p = await load(entry.id); return {...entry, person: p, id: [...own(p)].sort()[0], label: p.label};}
+      try {const p = await load(entry.id); return {...entry, person: p, id: [...own(p)].sort()[0], label: familyPersonLabel(p)};}
       catch {return {...entry, label: person.related_people?.[entry.id] || entry.id, unavailable: true};}
     }));
     const unique = new Map();
@@ -168,7 +184,7 @@ export async function traceFamily(person, load) {
   }
   function qualifyAncestor(parent, branch, relationship, distance) {
     const step = {from_person_id: branch.resolvedId || branch.person.id, to_person_id: parent.id,
-      from_label: branch.person.label || branch.person.id, to_label: parent.label || parent.id,
+      from_label: familyPersonLabel(branch.person), to_label: parent.label || parent.id,
       relationship, generation_distance: distance,
       qualification: parent.role === 'assembly_inferred' ? 'assembly_inferred' : 'source_linked',
       inference_note: parent.inference_note || null, evidence: [...parent.evidence]};

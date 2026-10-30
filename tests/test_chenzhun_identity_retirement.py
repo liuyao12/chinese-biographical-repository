@@ -11,5 +11,5 @@ class ChenzhunIdentityTests(unittest.TestCase):
  def test_chenpu_and_jin089_retained(self):
   c=J('corpus/jinshu/089-jishao.json');m=next(m for p in c['paragraphs']for m in p['mentions']if m['surface']=='陳准');self.assertEqual(m['person_id'],CANON);reg=J('registry/persons.json');p=next(p for p in reg['persons']if p['id']==CANON);sources={e['source_id']for e in p['evidence']};self.assertTrue({'s-songshu-060-xunbozi','s-sanguozhi-022-chenqun-chentai','s-jinshu-089-jishao'}<=sources)
  def test_pei_remains_unresolved_candidate(self):
-  c=J('corpus/jinshu/089-jishao.json');m=next(m for p in c['paragraphs']for m in p['mentions']if m['surface']=='裴頠');self.assertEqual(m['kind'],'unresolved');self.assertEqual(m['candidate_person_ids'],['svm_6fh_34r'])
+  c=J('corpus/jinshu/089-jishao.json');m=next(m for p in c['paragraphs']for m in p['mentions']if m['surface']=='裴頠');self.assertEqual(m['kind'],'unresolved');self.assertEqual(m['candidate_person_ids'],['kbq_kjc_n2f_AAB'])
 if __name__=='__main__':unittest.main()

@@ -16,6 +16,10 @@ def _copy_source_fixture(root):
     (root/'data/corpus').mkdir(parents=True,exist_ok=True)
     for name in ('profile-names.json','chapter-directory.json'):
         shutil.copy2(ROOT/'data/corpus'/name,root/'data/corpus'/name)
+    # Preserve the declared immutable capture required by the Pei source proof.
+    capture='tests/fixtures/occurrence-concordance/original-anchors.json'
+    (root/capture).parent.mkdir(parents=True,exist_ok=True)
+    fixture_copy2(ROOT/capture,root/capture)
 
 class ChunshenEvidenceTests(unittest.TestCase):
     def test_unmodified_source_fixture_has_no_errors(self):

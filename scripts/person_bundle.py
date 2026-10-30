@@ -110,13 +110,20 @@ def validate_clan_style(name, paragraph=None, relations=(), *, root=None):
             from .paternal_clan_appellation import valid as paternal_clan_valid
         except ImportError:
             from paternal_clan_appellation import valid as paternal_clan_valid
-        valid = paternal_clan_valid(name, paragraph, relations)
+        valid = paternal_clan_valid(name, paragraph, relations, root=root if root is not None else ROOT)
     if not valid:
         raise ValueError('氏稱須保留未知本名、原文或具名兄弟的姊妹證據，不得把字作名')
 
 
 def validate_full_name(name, paragraph=None, *, chapter=None, root=None):
     """An unsegmented source name is not an inferred surname/given-name split."""
+    try:from scripts.sgz023_pei_name_components import applies as pei_three_name_applies, name_valid as pei_three_name_valid
+    except ImportError:from sgz023_pei_name_components import applies as pei_three_name_applies, name_valid as pei_three_name_valid
+    if pei_three_name_applies(name)and not pei_three_name_valid(name,root if root is not None else ROOT):raise ValueError('裴氏三姓名須原字與有限同父復姓證據')
+    if isinstance(name,dict)and(name.get('chapter_id')=='c-liangshu-041-wanggui-ws1512987' or str(name.get('person_mention_id','')).startswith('c-liangshu-041-wanggui-ws1512987:')):
+        try:from scripts.fixed_liang041_wanggui import name_valid
+        except ImportError:from fixed_liang041_wanggui import name_valid
+        if not name_valid(name,root if root is not None else ROOT):raise ValueError('梁041姓名須固定原名與復姓分型、字號及來源錨')
     if isinstance(name,dict)and (name.get('chapter_id')=='c-jinshu-098-wangdun-comparison'or str(name.get('person_mention_id','')).startswith('c-jinshu-098-wangdun-comparison:')):
         try:from scripts.fixed_jin098_wangdun_comparison import name_record_valid as jin098_name_valid
         except ImportError:from fixed_jin098_wangdun_comparison import name_record_valid as jin098_name_valid
@@ -130,6 +137,11 @@ def validate_full_name(name, paragraph=None, *, chapter=None, root=None):
         try:from scripts.fixed_song067_wenzhong_literal_name import valid as song067_literal_name_valid
         except ImportError:from fixed_song067_wenzhong_literal_name import valid as song067_literal_name_valid
         if not song067_literal_name_valid(name,paragraph,chapter,root if root is not None else ROOT):raise ValueError('宋067原稱文種須完整自注/原錨/固定投影/同人反查，不得暗拆姓或借字')
+        return
+    if isinstance(name.get('full_name_basis'),dict)and name['full_name_basis'].get('kind')=='fixed_repository_witness_unsplit_name':
+        try:from scripts.fixed_xintang072_wang_preface import full_name_valid
+        except ImportError:from fixed_xintang072_wang_preface import full_name_valid
+        if not full_name_valid(name,paragraph,chapter,root if root is not None else ROOT):raise ValueError('王氏前敘未分姓名須固定原稱宗敬與完整來源，不得暗拆姓氏')
         return
     if 'full_name' not in name:
         return
@@ -340,9 +352,24 @@ def load_catalog(root=ROOT):
 
 def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     people, records = catalog if catalog is not None else load_catalog(root)
+    try:from scripts.sgz023_pei_name_components import guard_bundle as guard_pei_three_names
+    except ImportError:from sgz023_pei_name_components import guard_bundle as guard_pei_three_names
+    guard_pei_three_names(root,person_id,people,records)
+    try:from scripts.fixed_liang041_wanggui import guard_bundle as guard_liang041
+    except ImportError:from fixed_liang041_wanggui import guard_bundle as guard_liang041
+    guard_liang041(root,person_id,people,records)
+    try:from scripts.fixed_sgz023_four_biographies import guard_bundle as guard_sgz023_four
+    except ImportError:from fixed_sgz023_four_biographies import guard_bundle as guard_sgz023_four
+    guard_sgz023_four(root,person_id,people,records)
+    try:from scripts.fixed_jin035_peixiu_peiwei_registration import guard_bundle as guard_jin035_registration
+    except ImportError:from fixed_jin035_peixiu_peiwei_registration import guard_bundle as guard_jin035_registration
+    guard_jin035_registration(root,person_id,people,records)
     try:from scripts.fixed_repository_witness import guard_bundle as guard_repository_witness
     except ImportError:from fixed_repository_witness import guard_bundle as guard_repository_witness
     guard_repository_witness(root,person_id,people,records)
+    try:from scripts.fixed_repository_family_names import guard_bundle as guard_repository_family_names
+    except ImportError:from fixed_repository_family_names import guard_bundle as guard_repository_family_names
+    guard_repository_family_names(root,person_id,people,records)
     try:from scripts.xie_three_source_roles import guard_bundle as guard_xie_three
     except ImportError:from xie_three_source_roles import guard_bundle as guard_xie_three
     guard_xie_three(root,person_id,people,records)
@@ -482,7 +509,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
                 ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_cross_chapter_same_canonical_family_path', 'contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship', 'contextual_surname_from_wyd_song051_named_path', 'contextual_surname_from_wyd_song051_yixin', 'contextual_surname_from_wyd_song045_kinship','contextual_surname_from_wyd_jin043_shantao', 'contextual_surname_from_fixed_jin080_received_family', 'contextual_surname_from_fixed_jin098_received_family','contextual_surname_from_wyd_jin040_jiachong','contextual_surname_from_fixed_jin031_received_family','contextual_surname_from_wyd_sgz015_named_grandfather','contextual_surname_from_fixed_jin036_received_family','contextual_surname_from_fixed_jin034_received_family') else relations), root=root)
+                 if name['surname_basis'].get('kind') in ('contextual_surname_from_cross_chapter_same_canonical_family_path', 'contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship', 'contextual_surname_from_wyd_song051_named_path', 'contextual_surname_from_wyd_song051_yixin', 'contextual_surname_from_wyd_song045_kinship','contextual_surname_from_wyd_jin043_shantao', 'contextual_surname_from_fixed_jin080_received_family', 'contextual_surname_from_fixed_jin098_received_family','contextual_surname_from_wyd_jin040_jiachong','contextual_surname_from_fixed_jin031_received_family','contextual_surname_from_wyd_sgz015_named_grandfather','contextual_surname_from_fixed_jin036_received_family','contextual_surname_from_fixed_jin034_received_family','contextual_surname_from_fixed_jin035_received_family') else relations), root=root)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:

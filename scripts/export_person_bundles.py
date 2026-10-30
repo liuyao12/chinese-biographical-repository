@@ -227,6 +227,15 @@ def export(root=ROOT, *, shared_context=True, checkpoint_dir=None, resume=False,
         except ImportError:
             from calendar_wiring import export_calendar_contexts
         export_calendar_contexts(root)
+        candidate_path = root / 'data/historical-tables/person-candidates.json'
+        if candidate_path.exists():
+            # Preflight only the ordinary reader phase this producer will run.
+            # Discard the read-only bytes; retain the later normal reader writes.
+            try:
+                from .reading_catalog import outputs as reading_preflight
+            except ImportError:
+                from reading_catalog import outputs as reading_preflight
+            reading_preflight(root)
         before = fingerprint(root)
         if checkpoint_config is not None:
             source = SourceSnapshot(root, before, [Path(__file__).parent, Path(bundle_code.__file__).parent])
@@ -240,7 +249,6 @@ def export(root=ROOT, *, shared_context=True, checkpoint_dir=None, resume=False,
                     _export_person_outputs(root, checkpoint_options=checkpoint_config))
             if before != fingerprint(root):
                 raise ValueError(DRIFT_ERROR)
-        candidate_path = root / 'data/historical-tables/person-candidates.json'
         if candidate_path.exists():
             try:
                 from .reading_catalog import run as export_reading_catalog
