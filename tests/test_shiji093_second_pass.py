@@ -218,6 +218,11 @@ class HanLuIdentityTests(unittest.TestCase):
             (target / 'data/corpus').mkdir(parents=True)
             shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
             shutil.copy2(ROOT / 'data/corpus/chapter-directory.json', target / 'data/corpus/chapter-directory.json')
+            # The Pei source proof checks this explicitly declared historical
+            # capture; it is not a current person endpoint or test selection.
+            capture = 'tests/fixtures/occurrence-concordance/original-anchors.json'
+            (target / capture).parent.mkdir(parents=True, exist_ok=True)
+            fixture_copy2(ROOT / capture, target / capture)
             self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())
@@ -239,6 +244,11 @@ class HanLuIdentityTests(unittest.TestCase):
             (target / 'data/corpus').mkdir(parents=True)
             shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
             shutil.copy2(ROOT / 'data/corpus/chapter-directory.json', target / 'data/corpus/chapter-directory.json')
+            # The Pei source proof checks this explicitly declared historical
+            # capture; it is not a current person endpoint or test selection.
+            capture = 'tests/fixtures/occurrence-concordance/original-anchors.json'
+            (target / capture).parent.mkdir(parents=True, exist_ok=True)
+            fixture_copy2(ROOT / capture, target / capture)
             self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())
