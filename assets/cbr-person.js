@@ -1,3 +1,4 @@
+import {loadPersonSummary, personSummaryCard} from './person-summary.js';
 import {declinedNobleOutcomeUnreported,nobleHouseholds} from './noble-declination.js';
 import {sourceCitation,loadChapterDirectory} from './source-caption.js';
 import {principalOccurrences,occurrenceCountLabel} from './occurrence-counts.js';
@@ -385,7 +386,7 @@ export function bindPersonCards(root) {
     clearTimeout(timer); const current = ++ticket; activeAnchor = node; card.hidden = false;
     card.innerHTML = '<p role="status">載入人物資料…</p>';
     place();
-    try {const p = await loadPerson(node.dataset.personId); const family = await loadFamily(p); if (current !== ticket) return; card.innerHTML = `<button type="button" class="close-person-card" aria-label="關閉人物資料">關閉</button>` + personCard(p, false, 'main', family, {surface:node.textContent, interpretation_note:node.dataset.personReadingNote}); card.querySelector('button').onclick = hide; card.querySelector('.person-profile-button').href = node.href; card.scrollTop = 0; place(); if (focus) card.querySelector('.close-person-card').focus({preventScroll:true});}
+    try {const p = await loadPersonSummary(node.dataset.personId); if (current !== ticket) return; card.innerHTML = `<button type="button" class="close-person-card" aria-label="關閉人物資料">關閉</button>` + personSummaryCard(p, {surface:node.textContent, interpretation_note:node.dataset.personReadingNote}); card.querySelector('button').onclick = hide; card.querySelector('.person-profile-button').href = node.href; card.scrollTop = 0; place(); if (focus) card.querySelector('.close-person-card').focus({preventScroll:true});}
     catch {if (current === ticket) {card.innerHTML = `<p>人物資料尚未載入。</p><a href="${h(profileURL(node.dataset.personId))}">開啟人物頁</a>`; place();}}
   }
   function hide() {clearTimeout(timer); ticket++; pinned = false; hoverArmed = false; activeAnchor = null; card.hidden = true;}
