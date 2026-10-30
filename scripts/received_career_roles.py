@@ -93,6 +93,29 @@ def analyse(record,ch):
  return p,roles,fields,slots
 
 def holding_valid(h,ch,root=None):
+ if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_liang041_explicit_inherited_rank':
+  try:from scripts.fixed_liang041_wanggui import inherited_rank_valid
+  except ImportError:from fixed_liang041_wanggui import inherited_rank_valid
+  return inherited_rank_valid(h,ch,root)
+ if not isinstance(h,dict)or not isinstance(h.get('source_career_role'),dict):return False
+ if isinstance(h,dict)and h.get('source_career_role',{}).get('kind')=='fixed_jin031_complete_unit_typed':
+  try:from scripts.fixed_jin031_jia_typed import holding_valid as valid031
+  except ImportError:from fixed_jin031_jia_typed import holding_valid as valid031
+  return valid031(h,ch,root)
+ if isinstance(h,dict)and h.get('source_career_role',{}).get('kind')=='fixed_jin098_received_career_phase1':
+  try:from scripts.fixed_jin098_wangdun_career import record_valid
+  except ImportError:from fixed_jin098_wangdun_career import record_valid
+  return record_valid(h,ch,root,'holding')
+ if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_wyd063_related_title_attestation':
+  try:from scripts.wyd_song063_basics import holding_valid as valid063
+  except ImportError:from wyd_song063_basics import holding_valid as valid063
+  return valid063(h,ch,root)
+ if not isinstance(h,dict)or not isinstance(h.get('source_career_role'),dict):return False
+ # fixed-wyd045-noble-holding
+ if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_wyd045_noble_sequence':
+  try:from scripts.wyd_song045_nobles import holding_dispatch_valid
+  except ImportError:from wyd_song045_nobles import holding_dispatch_valid
+  return holding_dispatch_valid(h,ch,root)
  if isinstance(h,dict)and h.get('source_career_role',{}).get('kind')=='wyd_song044_noble_grant':
   try:from scripts.wyd_song044_nobles import holding_valid as noble_valid
   except ImportError:from wyd_song044_nobles import holding_valid as noble_valid
@@ -123,7 +146,12 @@ def holding_valid(h,ch,root=None):
   return True
  except(KeyError,TypeError,ValueError,AssertionError,StopIteration,IndexError):return False
 
-def detail_valid(d,ch,holdings):
+def detail_valid(d,ch,holdings,root=None):
+ if not isinstance(d,dict)or not isinstance(d.get('source_career_role'),dict):return False
+ if isinstance(d,dict)and d.get('source_career_role',{}).get('kind')=='fixed_jin098_received_career_phase1':
+  try:from scripts.fixed_jin098_wangdun_career import record_valid
+  except ImportError:from fixed_jin098_wangdun_career import record_valid
+  return record_valid(d,ch,root,'detail')
  if d.get('source_career_role',{}).get('kind')=='punctuated_biography_career_frame':
   try:from scripts.punctuated_biography_career import detail_valid as punctuated_detail_valid
   except ImportError:from punctuated_biography_career import detail_valid as punctuated_detail_valid
@@ -160,7 +188,13 @@ def unassumed_valid(q,ch):
   p,rs,fs,slots=analyse(q,ch);b=q['source_career_role'];field=fs[b['slot']];m=rs['subject'];ev,=q['evidence'];assert b['rule']=='northern_service_and_unassumed_calls'and b['slot']in('offer1','offer2')and b['recipient_role']=='subject'and q['person_id']==m['person_id']and q['person_mention_id']==m['id']and q['title']==field['surface']and q['role_anchor']==field and q['non_assumption_anchor']==fs['nonassumption']and fs['nonassumption']['surface']=='不得南赴'and q['proposal_kind']=='unassumed_appointment'and q['outcome']=='not_assumed'and q['status']=='contextual_provisional'and q['human_reviewed']is False and q['effective_service_attested']is False and q['appointment_stage']=='appointment'and q['non_assumption_kind']=='did_not_take_up'and q['appointment_anchor']==dict(paragraph_id=p['id'],start=fs['offer1']['start']-3,end=fs['offer1']['start'],surface='累召為')and p['text'][fs['offer1']['start']-3:fs['offer1']['start']]=='累召為'and ev['quote']==p['text']and ev['person_mention_id']==m['id'];return True
  except(KeyError,TypeError,ValueError,AssertionError,StopIteration,IndexError):return False
 
-def event_valid(e,ch):
+def event_valid(e,ch,root=None):
+ if not isinstance(e,dict):return False
+ # fixed-wyd045-noble-event
+ if isinstance(e,dict)and isinstance(e.get('source_clause_binding'),dict)and e['source_clause_binding'].get('kind')=='fixed_wyd045_noble_line_abolition':
+  try:from scripts.wyd_song045_nobles import event_valid as noble_event_valid
+  except ImportError:from wyd_song045_nobles import event_valid as noble_event_valid
+  return noble_event_valid(e,ch,root)
  try:
   p,rs,fs,slots=analyse(e,ch);b=e['source_career_role'];heir=rs['heir'];subject=rs['subject'];ev,=e['evidence'];a=e['succession_anchor'];assert b['rule']=='late_advancement_and_children'and b['slot']=='heir'and b['recipient_role']=='heir'and e['event_type']=='noble_title_succession'and e['status']=='source_attested'and e['mode']=='accession'and e['title']is None and e['holding_id']is None and e['predecessor_person_id']==subject['person_id']and e['person_id']==heir['person_id']!=subject['person_id']and e['date_expression']is None and'normalized_date'not in e and e['human_reviewed']is False and a==dict(paragraph_id=p['id'],start=heir['start']-1,end=heir['end']+1,surface='孫'+heir['surface']+'嗣')and e['source_term']==a['surface']and p['text'][a['start']:a['end']]==a['surface']and ev['quote']==p['text']and ev['person_mention_id']==heir['id']and ev['chapter_id']==ch['id']and ev['source_id']==ch['source_id'];return True
  except(KeyError,TypeError,ValueError,AssertionError,StopIteration,IndexError):return False

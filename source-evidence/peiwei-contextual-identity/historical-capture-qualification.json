@@ -1,0 +1,255 @@
+{
+  "record_type": "exact_historical_reference_qualification",
+  "scope": "Only preexisting historical path/fullSHA/exact scalar pointers. No directory/person-ID exception; current wrappers separately migrated.",
+  "records": [
+    {
+      "path": "source-evidence/jin035-pei-source-reading/read-parallel-contexts.json",
+      "sha256": "d6496be9e47c1a3bcf105492b99506f6cf0cb73754476026fb7154724165645c",
+      "protected_json_pointers": [
+        {
+          "pointer": "/17/paragraph/mentions/7/candidate_person_ids/0",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        },
+        {
+          "pointer": "/35/paragraph/mentions/12/person_id",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        },
+        {
+          "pointer": "/35/paragraph/mentions/14/candidate_person_ids/0",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        },
+        {
+          "pointer": "/35/paragraph/mentions/15/person_id",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        },
+        {
+          "pointer": "/35/paragraph/mentions/29/person_id",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        }
+      ],
+      "preexisting_declarations": [
+        {
+          "qualification_path": "source-evidence/xunchuo-family-rekey/historical-capture-followup.json",
+          "qualification_sha256": "e3fb2b39b33b4ea887a7c9b4f45028b610f82151e7752d55917fd212709aa330",
+          "pointer": "/historical_files/7",
+          "declaration": {
+            "path": "source-evidence/jin035-pei-source-reading/read-parallel-contexts.json",
+            "sha256": "d6496be9e47c1a3bcf105492b99506f6cf0cb73754476026fb7154724165645c",
+            "root_type": "list",
+            "top_keys": null,
+            "classification": "captured_primary_or_prior_editorial_review_frozen_at_rekey",
+            "current_route": "source-evidence/xunchuo-family-rekey/current-review.json"
+          }
+        },
+        {
+          "qualification_path": "source-evidence/jin043-shan-paternal-family/historical-reference-qualification.json",
+          "qualification_sha256": "840eb6854b406a717e6ba39a8b6680c236fa30d9c26872cb772420dee6452e71",
+          "pointer": "/records/2",
+          "declaration": {
+            "path": "source-evidence/jin035-pei-source-reading/read-parallel-contexts.json",
+            "sha256": "d6496be9e47c1a3bcf105492b99506f6cf0cb73754476026fb7154724165645c",
+            "role": "existing_fixed_historical_capture_not_current_endpoint_not_alias",
+            "protected_json_pointers": [
+              {
+                "pointer": "/16/paragraph/mentions/40/person_id",
+                "value": "96a_987_925"
+              },
+              {
+                "pointer": "/16/paragraph/mentions/43/person_id",
+                "value": "96a_987_925"
+              }
+            ],
+            "existing_declaration": {
+              "path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+              "pointer": "/captures/16",
+              "sha256": "d6496be9e47c1a3bcf105492b99506f6cf0cb73754476026fb7154724165645c",
+              "text": "原始固定研究捕獲，非現役人物端點、別名或轉址；現役身份以本傳穩定MID與registry反向證據為準。"
+            },
+            "qualification": "只保本檔本雜湊所列山氏舊字面；原捕獲非current查詢、alias或redirect，不豁免同目錄其他檔或同PID其他位置。"
+          }
+        }
+      ]
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/1c7fb65f81aa26db239f69cf092898aec1abb74541d2bf55eba9cd4c3eb8c1f6.json",
+      "sha256": "1c7fb65f81aa26db239f69cf092898aec1abb74541d2bf55eba9cd4c3eb8c1f6",
+      "protected_json_pointers": [
+        {
+          "pointer": "/30/paragraph/mentions/12/person_id",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        },
+        {
+          "pointer": "/30/paragraph/mentions/14/candidate_person_ids/0",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        },
+        {
+          "pointer": "/30/paragraph/mentions/15/person_id",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        },
+        {
+          "pointer": "/30/paragraph/mentions/29/person_id",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        }
+      ],
+      "preexisting_declarations": [
+        {
+          "qualification_path": "source-evidence/jin043-shan-paternal-family/historical-reference-qualification.json",
+          "qualification_sha256": "840eb6854b406a717e6ba39a8b6680c236fa30d9c26872cb772420dee6452e71",
+          "pointer": "/records/9",
+          "declaration": {
+            "path": "source-evidence/medieval-integration-archive/1c7fb65f81aa26db239f69cf092898aec1abb74541d2bf55eba9cd4c3eb8c1f6.json",
+            "sha256": "1c7fb65f81aa26db239f69cf092898aec1abb74541d2bf55eba9cd4c3eb8c1f6",
+            "role": "existing_fixed_historical_capture_not_current_endpoint_not_alias",
+            "protected_json_pointers": [
+              {
+                "pointer": "/2/paragraph/mentions/40/person_id",
+                "value": "96a_987_925"
+              },
+              {
+                "pointer": "/2/paragraph/mentions/43/person_id",
+                "value": "96a_987_925"
+              },
+              {
+                "pointer": "/3/paragraph/mentions/31/person_id",
+                "value": "96a_987_925"
+              },
+              {
+                "pointer": "/3/paragraph/mentions/35/person_id",
+                "value": "96a_987_925"
+              },
+              {
+                "pointer": "/27/paragraph/mentions/7/person_id",
+                "value": "96a_987_925"
+              }
+            ],
+            "existing_declaration": {
+              "path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+              "pointer": "/captures/7",
+              "sha256": "1c7fb65f81aa26db239f69cf092898aec1abb74541d2bf55eba9cd4c3eb8c1f6",
+              "text": "原始固定研究捕獲，非現役人物端點、別名或轉址；現役身份以本傳穩定MID與registry反向證據為準。"
+            },
+            "qualification": "只保本檔本雜湊所列山氏舊字面；原捕獲非current查詢、alias或redirect，不豁免同目錄其他檔或同PID其他位置。"
+          }
+        },
+        {
+          "qualification": "existing content-addressed historical archive; never current projection",
+          "path_sha": "1c7fb65f81aa26db239f69cf092898aec1abb74541d2bf55eba9cd4c3eb8c1f6"
+        }
+      ]
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/4543696296429b974e32a8ab036098a371904c385427f98586ac65c5f5206ca5.json",
+      "sha256": "4543696296429b974e32a8ab036098a371904c385427f98586ac65c5f5206ca5",
+      "protected_json_pointers": [
+        {
+          "pointer": "/12/prior_complete_paragraph/paragraph/mentions/12/person_id",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        },
+        {
+          "pointer": "/12/prior_complete_paragraph/paragraph/mentions/14/candidate_person_ids/0",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        },
+        {
+          "pointer": "/12/prior_complete_paragraph/paragraph/mentions/15/person_id",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        },
+        {
+          "pointer": "/12/prior_complete_paragraph/paragraph/mentions/29/person_id",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        }
+      ],
+      "preexisting_declarations": [
+        {
+          "qualification": "existing content-addressed historical archive; never current projection",
+          "path_sha": "4543696296429b974e32a8ab036098a371904c385427f98586ac65c5f5206ca5"
+        }
+      ]
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c.json",
+      "sha256": "3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c",
+      "protected_json_pointers": [
+        {
+          "pointer": "/5/same_surface_candidates/0/person_id",
+          "kind": "scalar",
+          "value": "dc7_573_800"
+        }
+      ],
+      "preexisting_declarations": [
+        {
+          "qualification_path": "source-evidence/jin043-shan-paternal-family/historical-reference-qualification.json",
+          "qualification_sha256": "840eb6854b406a717e6ba39a8b6680c236fa30d9c26872cb772420dee6452e71",
+          "pointer": "/records/10",
+          "declaration": {
+            "path": "source-evidence/medieval-integration-archive/3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c.json",
+            "sha256": "3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c",
+            "role": "existing_fixed_historical_capture_not_current_endpoint_not_alias",
+            "protected_json_pointers": [
+              {
+                "pointer": "/0/same_surface_candidates/86/person_id",
+                "value": "96a_987_925"
+              },
+              {
+                "pointer": "/25/person_id",
+                "value": "96a_987_925"
+              },
+              {
+                "pointer": "/31/same_surface_candidates/64/person_id",
+                "value": "96a_987_925"
+              }
+            ],
+            "existing_declaration": {
+              "path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+              "pointer": "/captures/10",
+              "sha256": "3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c",
+              "text": "原始固定研究捕獲，非現役人物端點、別名或轉址；現役身份以本傳穩定MID與registry反向證據為準。"
+            },
+            "qualification": "只保本檔本雜湊所列山氏舊字面；原捕獲非current查詢、alias或redirect，不豁免同目錄其他檔或同PID其他位置。"
+          }
+        },
+        {
+          "qualification_path": "source-evidence/jin080-wangxizhi-family-rekey/historical-literals.json",
+          "qualification_sha256": "dc501bb7d494c158fc751328e350672d60063efae42fd14b3fd298941292d834",
+          "pointer": "/records/0",
+          "declaration": {
+            "path": "source-evidence/medieval-integration-archive/3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c.json",
+            "sha256": "3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c",
+            "classification": "exact_preexisting_qualified_historical_capture_not_current_endpoint",
+            "locations": [
+              {
+                "pointer": "/0/same_surface_candidates/45/person_id",
+                "historical_literal": "sm1_jfi_7k2"
+              },
+              {
+                "pointer": "/0/same_surface_candidates/126/person_id",
+                "historical_literal": "326_faf_cd3"
+              }
+            ],
+            "current_projection_ref": {
+              "path": "source-evidence/jin043-wangrong-source/identity-review.json",
+              "role": "current_reference_not_original_capture_not_person_alias"
+            }
+          }
+        },
+        {
+          "qualification": "existing content-addressed historical archive; never current projection",
+          "path_sha": "3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c"
+        }
+      ]
+    }
+  ],
+  "human_reviewed": false
+}

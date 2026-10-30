@@ -1,13 +1,13 @@
 """Source-bound care and ritual succession do not create biological parentage."""
 
 
-def non_parental_relation_valid(assertion, paragraphs, assertions=None):
+def non_parental_relation_valid(assertion, paragraphs, assertions=None, *, root=None, chapters=None):
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'biography_family_clause':
         try:
             from scripts.biography_family_clause import valid
         except ImportError:
             from biography_family_clause import valid
-        return valid(assertion, paragraphs, assertions or [])
+        return valid(assertion, paragraphs, assertions or [], chapters, root)
     if isinstance(assertion.get('qualifiers'), dict) and isinstance(assertion['qualifiers'].get('source_clause_binding'), dict) and assertion['qualifiers']['source_clause_binding'].get('kind') == 'biography_head_birth_mother_dies_grandmother_care':
         try:
             from scripts.biography_orphan_grandmother_care import valid
@@ -56,7 +56,7 @@ def non_parental_relation_valid(assertion, paragraphs, assertions=None):
     child = ms.get(e.get('subject_person_mention_id'))
     other = ms.get(e.get('object_person_mention_id'))
     if (not isinstance(term, str) or not term or term not in text
-            or not child or not other or child.get('kind') != 'person' or other.get('kind') != 'person'
+            or not child or not other or not(child.get('kind') == 'person' or (q.get('care_basis') == 'explicit_yang' and child.get('kind') == 'pronoun' and child.get('surface') == '之')) or other.get('kind') != 'person'
             or child.get('person_id') != assertion.get('subject_person_id')
             or other.get('person_id') != assertion.get('object_person_id')
             or child['person_id'] == other['person_id']):

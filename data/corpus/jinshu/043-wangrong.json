@@ -41,7 +41,7 @@
     "age_assertions": [
       {
         "id": "age-jin043-wangrong-001",
-        "person_id": "48e_04a_3d8",
+        "person_id": "ehx_cqg_nfx_AA",
         "value": 15,
         "unit": "source_age_years",
         "source_number": "十五",
@@ -61,14 +61,17 @@
             "person_mention_id": "c-jinshu-043-wangrong:p002:m0007"
           }
         ],
-        "interpretation_note": "來源報齡，未推計歲法或出生年。",
+        "interpretation_note": "來源報齡，未推計歲法或出生年。 此年十五為生前隨父與阮籍往來之報齡，不是卒齡。",
         "reviewer": "Codex（AI代理）",
         "human_reviewed": false,
-        "model": null
+        "model": null,
+        "age_context": {
+          "kind": "during_life"
+        }
       },
       {
         "id": "age-jin043-wangrong-002",
-        "person_id": "48e_04a_3d8",
+        "person_id": "ehx_cqg_nfx_AA",
         "value": 72,
         "unit": "source_age_years",
         "source_number": "七十二",
@@ -88,14 +91,18 @@
             "person_mention_id": "c-jinshu-043-wangrong:p012:m0015"
           }
         ],
-        "interpretation_note": "來源報齡，未推計歲法或出生年。",
+        "interpretation_note": "來源報齡，未推計歲法或出生年。 同段永興二年薨於郟縣，時年七十二；綁本人的死亡事件，仍不推計歲法或生年。",
         "reviewer": "Codex（AI代理）",
         "human_reviewed": false,
-        "model": null
+        "model": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-jin043-wangrong-rong"
+        }
       },
       {
         "id": "age-jin043-wangrong-003",
-        "person_id": "brc_n26_ekm",
+        "person_id": "ehx_cqg_nfx_AAA",
         "value": 19,
         "unit": "source_age_years",
         "source_number": "十九",
@@ -115,12 +122,21 @@
             "person_mention_id": "c-jinshu-043-wangrong:p014:m0001"
           }
         ],
-        "interpretation_note": "來源報齡，未推計歲法或出生年。",
+        "interpretation_note": "來源報齡，未推計歲法或出生年。 子萬之年十九卒同句，綁該同人死亡事件；原萬字與綏之跨篇同指資格保留，仍不推生年。",
         "reviewer": "Codex（AI代理）",
         "human_reviewed": false,
-        "model": null
+        "model": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-jin043-wangrong-wan"
+        }
       }
-    ]
+    ],
+    "family_name_phase_ref": {
+      "kind": "fixed_repository_biography_family_names",
+      "path": "source-evidence/jin043-wangrong-family-names/name-proof.json",
+      "sha256": "813d37604d7ed24ad380b8f3db5c88d0cd9864b2b521590f272b2ef1468657e5"
+    }
   },
   "paragraphs": [
     {
@@ -135,7 +151,7 @@
           "end": 2,
           "surface": "王戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傳首王戎祖雄父渾的本傳身份；與太原王渾嚴分。魏明帝屬幼年觀戲插敘。"
         },
@@ -145,7 +161,7 @@
           "end": 6,
           "surface": "濬沖",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傳首王戎祖雄父渾的本傳身份；與太原王渾嚴分。魏明帝屬幼年觀戲插敘。"
         },
@@ -165,7 +181,7 @@
           "end": 24,
           "surface": "渾",
           "kind": "person",
-          "person_id": "rj2_m1s_n3l",
+          "person_id": "ehx_cqg_nfx_A",
           "status": "contextual_provisional",
           "resolution_note": "傳首王戎祖雄父渾的本傳身份；與太原王渾嚴分。魏明帝屬幼年觀戲插敘。"
         },
@@ -175,7 +191,7 @@
           "end": 36,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傳首王戎祖雄父渾的本傳身份；與太原王渾嚴分。魏明帝屬幼年觀戲插敘。"
         },
@@ -185,7 +201,7 @@
           "end": 53,
           "surface": "裴楷",
           "kind": "person",
-          "person_id": "530_f9d_4bd",
+          "person_id": "kbq_kjc_n2f_BC",
           "status": "contextual_provisional",
           "resolution_note": "傳首王戎祖雄父渾的本傳身份；與太原王渾嚴分。魏明帝屬幼年觀戲插敘。"
         },
@@ -194,8 +210,8 @@
           "start": 56,
           "end": 57,
           "surface": "之",
-          "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "kind": "pronoun",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "裴楷目王戎。"
         },
@@ -205,7 +221,7 @@
           "end": 61,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傳首王戎祖雄父渾的本傳身份；與太原王渾嚴分。魏明帝屬幼年觀戲插敘。"
         },
@@ -215,7 +231,7 @@
           "end": 99,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傳首王戎祖雄父渾的本傳身份；與太原王渾嚴分。魏明帝屬幼年觀戲插敘。"
         },
@@ -245,7 +261,7 @@
           "end": 143,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傳首王戎祖雄父渾的本傳身份；與太原王渾嚴分。魏明帝屬幼年觀戲插敘。"
         },
@@ -265,7 +281,7 @@
           "end": 150,
           "surface": "其",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "問其故與其曰承戎；此錨只標首其，未用近名猜人。"
         }
@@ -298,7 +314,7 @@
           "end": 4,
           "surface": "渾",
           "kind": "person",
-          "person_id": "rj2_m1s_n3l",
+          "person_id": "ehx_cqg_nfx_A",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -308,7 +324,7 @@
           "end": 8,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -318,7 +334,7 @@
           "end": 14,
           "surface": "渾",
           "kind": "person",
-          "person_id": "rj2_m1s_n3l",
+          "person_id": "ehx_cqg_nfx_A",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -328,7 +344,7 @@
           "end": 19,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -357,8 +373,8 @@
           "start": 28,
           "end": 29,
           "surface": "之",
-          "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "kind": "pronoun",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "籍與十五歲戎交。"
         },
@@ -378,7 +394,7 @@
           "end": 35,
           "surface": "渾",
           "kind": "person",
-          "person_id": "rj2_m1s_n3l",
+          "person_id": "ehx_cqg_nfx_A",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -388,7 +404,7 @@
           "end": 44,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -398,7 +414,7 @@
           "end": 53,
           "surface": "渾",
           "kind": "person",
-          "person_id": "rj2_m1s_n3l",
+          "person_id": "ehx_cqg_nfx_A",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -408,7 +424,7 @@
           "end": 58,
           "surface": "濬沖",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -418,7 +434,7 @@
           "end": 63,
           "surface": "卿",
           "kind": "person",
-          "person_id": "rj2_m1s_n3l",
+          "person_id": "ehx_cqg_nfx_A",
           "status": "contextual_provisional",
           "resolution_note": "阮籍向渾稱卿。"
         },
@@ -428,7 +444,7 @@
           "end": 68,
           "surface": "卿",
           "kind": "person",
-          "person_id": "rj2_m1s_n3l",
+          "person_id": "ehx_cqg_nfx_A",
           "status": "contextual_provisional",
           "resolution_note": "同一對渾引語。"
         },
@@ -438,7 +454,7 @@
           "end": 75,
           "surface": "阿戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -448,7 +464,7 @@
           "end": 80,
           "surface": "渾",
           "kind": "person",
-          "person_id": "rj2_m1s_n3l",
+          "person_id": "ehx_cqg_nfx_A",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -458,7 +474,7 @@
           "end": 94,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -498,7 +514,7 @@
           "end": 166,
           "surface": "裴頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -508,7 +524,7 @@
           "end": 179,
           "surface": "王戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
@@ -551,7 +567,7 @@
           "end": 1,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "阮籍、公榮與王戎引語分域；保原引號缺閉，不補改。"
         },
@@ -621,7 +637,7 @@
           "end": 36,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "阮籍、公榮與王戎引語分域；保原引號缺閉，不補改。"
         },
@@ -681,7 +697,7 @@
           "end": 89,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "阮籍、公榮與王戎引語分域；保原引號缺閉，不補改。"
         },
@@ -701,7 +717,7 @@
           "end": 99,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "阮籍、公榮與王戎引語分域；保原引號缺閉，不補改。"
         },
@@ -721,7 +737,7 @@
           "end": 109,
           "surface": "俗物",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "籍戲稱後至的戎。"
         },
@@ -731,7 +747,7 @@
           "end": 118,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "阮籍、公榮與王戎引語分域；保原引號缺閉，不補改。"
         },
@@ -774,7 +790,7 @@
           "end": 8,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "鐘會伐蜀問策；鐘原字不改鍾。"
         },
@@ -784,7 +800,7 @@
           "end": 17,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "鐘會伐蜀問策；鐘原字不改鍾。"
         },
@@ -817,7 +833,7 @@
           "end": 2,
           "surface": "父",
           "kind": "person",
-          "person_id": "rj2_m1s_n3l",
+          "person_id": "ehx_cqg_nfx_A",
           "status": "contextual_provisional",
           "resolution_note": "平吳軍事敘述逐將辨識；父為前文渾，非爵位主體新身份。"
         },
@@ -827,7 +843,7 @@
           "end": 65,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "平吳軍事敘述逐將辨識；父為前文渾，非爵位主體新身份。"
         },
@@ -887,7 +903,7 @@
           "end": 101,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "平吳軍事敘述逐將辨識；父為前文渾，非爵位主體新身份。"
         },
@@ -897,7 +913,7 @@
           "end": 104,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "平吳軍事敘述逐將辨識；父為前文渾，非爵位主體新身份。"
         },
@@ -930,7 +946,7 @@
           "end": 1,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "吳石偉與皓朝/晉武帝評戎分國別與敘事先後。"
         },
@@ -960,7 +976,7 @@
           "end": 34,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "吳石偉與皓朝/晉武帝評戎分國別與敘事先後。"
         },
@@ -990,7 +1006,7 @@
           "end": 77,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "吳石偉與皓朝/晉武帝評戎分國別與敘事先後。"
         },
@@ -1010,7 +1026,7 @@
           "end": 116,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "吳石偉與皓朝/晉武帝評戎分國別與敘事先後。"
         },
@@ -1043,7 +1059,7 @@
           "end": 1,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "孝喪插敘武帝問劉毅，不與劉裕時護軍劉毅同人；母稱不升生母。"
         },
@@ -1063,7 +1079,7 @@
           "end": 63,
           "surface": "裴頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "孝喪插敘武帝問劉毅，不與劉裕時護軍劉毅同人；母稱不升生母。"
         },
@@ -1073,7 +1089,7 @@
           "end": 82,
           "surface": "濬沖",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "孝喪插敘武帝問劉毅，不與劉裕時護軍劉毅同人；母稱不升生母。"
         },
@@ -1103,7 +1119,7 @@
           "end": 116,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "孝喪插敘武帝問劉毅，不與劉裕時護軍劉毅同人；母稱不升生母。"
         },
@@ -1163,7 +1179,7 @@
           "end": 157,
           "surface": "王戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "孝喪插敘武帝問劉毅，不與劉裕時護軍劉毅同人；母稱不升生母。"
         },
@@ -1183,7 +1199,7 @@
           "end": 172,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "孝喪插敘武帝問劉毅，不與劉裕時護軍劉毅同人；母稱不升生母。"
         },
@@ -1246,7 +1262,7 @@
           "end": 31,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "東安公繇為司馬繇；不是後段博士王繇。"
         },
@@ -1289,7 +1305,7 @@
           "end": 1,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傅咸奏文引用堯舜，賈郭通親只留氏族未決；湣懷太子廢事。"
         },
@@ -1309,7 +1325,7 @@
           "end": 27,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傅咸奏文引用堯舜，賈郭通親只留氏族未決；湣懷太子廢事。"
         },
@@ -1319,7 +1335,7 @@
           "end": 61,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傅咸奏文引用堯舜，賈郭通親只留氏族未決；湣懷太子廢事。"
         },
@@ -1329,7 +1345,7 @@
           "end": 93,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傅咸奏文引用堯舜，賈郭通親只留氏族未決；湣懷太子廢事。"
         },
@@ -1359,7 +1375,7 @@
           "end": 125,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傅咸奏文引用堯舜，賈郭通親只留氏族未決；湣懷太子廢事。"
         },
@@ -1369,7 +1385,7 @@
           "end": 134,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "傅咸奏文引用堯舜，賈郭通親只留氏族未決；湣懷太子廢事。"
         },
@@ -1412,7 +1428,7 @@
           "end": 2,
           "surface": "裴頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1422,7 +1438,7 @@
           "end": 4,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1432,7 +1448,7 @@
           "end": 9,
           "surface": "頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1442,7 +1458,7 @@
           "end": 12,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1472,7 +1488,7 @@
           "end": 26,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1502,7 +1518,7 @@
           "end": 37,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1522,7 +1538,7 @@
           "end": 50,
           "surface": "濬沖",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1552,7 +1568,7 @@
           "end": 73,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1602,7 +1618,7 @@
           "end": 106,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1652,7 +1668,7 @@
           "end": 161,
           "surface": "卿",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1672,7 +1688,7 @@
           "end": 170,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1752,7 +1768,7 @@
           "end": 294,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         }
@@ -1775,7 +1791,7 @@
           "end": 1,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "女適裴頠與歸寧同一女；從子單衣婚事不補其父/姓名。"
         },
@@ -1795,7 +1811,7 @@
           "end": 90,
           "surface": "三公",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "乘小馬出遊者戎。"
         },
@@ -1805,7 +1821,7 @@
           "end": 173,
           "surface": "女",
           "kind": "person",
-          "person_id": "cxf_421_onp",
+          "person_id": "ehx_cqg_nfx_AAC",
           "status": "contextual_provisional",
           "resolution_note": "女適裴頠與歸寧同一女；從子單衣婚事不補其父/姓名。"
         },
@@ -1815,7 +1831,7 @@
           "end": 176,
           "surface": "裴頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "女適裴頠與歸寧同一女；從子單衣婚事不補其父/姓名。"
         },
@@ -1825,7 +1841,7 @@
           "end": 188,
           "surface": "女",
           "kind": "person",
-          "person_id": "cxf_421_onp",
+          "person_id": "ehx_cqg_nfx_AAC",
           "status": "contextual_provisional",
           "resolution_note": "女適裴頠與歸寧同一女；從子單衣婚事不補其父/姓名。"
         },
@@ -1835,7 +1851,7 @@
           "end": 193,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "女適裴頠與歸寧同一女；從子單衣婚事不補其父/姓名。"
         },
@@ -1845,7 +1861,7 @@
           "end": 198,
           "surface": "女",
           "kind": "person",
-          "person_id": "cxf_421_onp",
+          "person_id": "ehx_cqg_nfx_AAC",
           "status": "contextual_provisional",
           "resolution_note": "女適裴頠與歸寧同一女；從子單衣婚事不補其父/姓名。"
         },
@@ -1865,7 +1881,7 @@
           "end": 213,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "女適裴頠與歸寧同一女；從子單衣婚事不補其父/姓名。"
         }
@@ -1898,7 +1914,7 @@
           "end": 16,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "蕩陰戰敗及洛陽西遷，帝/車駕為惠帝。"
         },
@@ -1928,7 +1944,7 @@
           "end": 34,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "蕩陰戰敗及洛陽西遷，帝/車駕為惠帝。"
         }
@@ -1951,7 +1967,7 @@
           "end": 1,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -1961,7 +1977,7 @@
           "end": 11,
           "surface": "山濤",
           "kind": "person",
-          "person_id": "96a_987_925",
+          "person_id": "4kf_elm_6ww_A",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -1971,7 +1987,7 @@
           "end": 31,
           "surface": "王衍",
           "kind": "person",
-          "person_id": "b0c_13f_c3a",
+          "person_id": "kwx_czc_d4c_A",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -1981,7 +1997,7 @@
           "end": 53,
           "surface": "裴頠",
           "kind": "person",
-          "person_id": "svm_6fh_34r",
+          "person_id": "kbq_kjc_n2f_AAB",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -2011,7 +2027,7 @@
           "end": 78,
           "surface": "敦",
           "kind": "person",
-          "person_id": "39o_b6y_n74",
+          "person_id": "7r6_k52_qji_ABBA",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -2021,7 +2037,7 @@
           "end": 83,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -2031,7 +2047,7 @@
           "end": 87,
           "surface": "敦",
           "kind": "person",
-          "person_id": "39o_b6y_n74",
+          "person_id": "7r6_k52_qji_ABBA",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -2041,7 +2057,7 @@
           "end": 90,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -2051,7 +2067,7 @@
           "end": 98,
           "surface": "敦",
           "kind": "person",
-          "person_id": "39o_b6y_n74",
+          "person_id": "7r6_k52_qji_ABBA",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -2081,7 +2097,7 @@
           "end": 130,
           "surface": "吾",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "戎回憶竹林。"
         },
@@ -2131,7 +2147,7 @@
           "end": 161,
           "surface": "吾",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "同段戎自稱。"
         },
@@ -2151,7 +2167,7 @@
           "end": 199,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -2161,7 +2177,7 @@
           "end": 202,
           "surface": "衍",
           "kind": "person",
-          "person_id": "b0c_13f_c3a",
+          "person_id": "kwx_czc_d4c_A",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -2171,7 +2187,7 @@
           "end": 207,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -2191,7 +2207,7 @@
           "end": 228,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         },
@@ -2201,7 +2217,7 @@
           "end": 230,
           "surface": "衍",
           "kind": "person",
-          "person_id": "b0c_13f_c3a",
+          "person_id": "kwx_czc_d4c_A",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
         }
@@ -2224,7 +2240,7 @@
           "end": 2,
           "surface": "萬",
           "kind": "person",
-          "person_id": "brc_n26_ekm",
+          "person_id": "ehx_cqg_nfx_AAA",
           "status": "contextual_provisional",
           "resolution_note": "萬/庶子興/從弟愔/愔子四身份分開；愔子為嗣不補名或生父以外關係。"
         },
@@ -2234,7 +2250,7 @@
           "end": 13,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "萬/庶子興/從弟愔/愔子四身份分開；愔子為嗣不補名或生父以外關係。"
         },
@@ -2244,7 +2260,7 @@
           "end": 31,
           "surface": "興",
           "kind": "person",
-          "person_id": "tl9_wy3_3bk",
+          "person_id": "ehx_cqg_nfx_AAB",
           "status": "contextual_provisional",
           "resolution_note": "萬/庶子興/從弟愔/愔子四身份分開；愔子為嗣不補名或生父以外關係。"
         },
@@ -2254,7 +2270,7 @@
           "end": 33,
           "surface": "戎",
           "kind": "person",
-          "person_id": "48e_04a_3d8",
+          "person_id": "ehx_cqg_nfx_AA",
           "status": "contextual_provisional",
           "resolution_note": "萬/庶子興/從弟愔/愔子四身份分開；愔子為嗣不補名或生父以外關係。"
         },

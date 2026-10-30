@@ -34,7 +34,7 @@ def write_reading_pages(destination, first_path, continuation_prefix, heading, i
     navigation = ' · '.join(f'[第{i}頁]({name})' for i, name in enumerate(filenames, 1))
     for filename, content in zip(filenames, pages):
         body = '\n\n'.join(content)
-        used = {int(number) for number in re.findall(r'\[《[^]]+》\]\[(\d+)\]', body)}
+        used = {int(number) for number in re.findall(r'\]\[(\d+)\]', body)}
         definitions = [reference for i, reference in enumerate(references, 1) if i in used]
         text = '\n\n'.join([heading, introduction, navigation, body, '\n'.join(definitions)]) + '\n'
         if len(text.encode('utf-8')) >= 500_000:
@@ -59,12 +59,7 @@ def table_blocks(rows):
     return blocks
 
 
-def export(root=ROOT):
-    try:
-        from .calendar_wiring import export_calendar_contexts
-    except ImportError:
-        from calendar_wiring import export_calendar_contexts
-    export_calendar_contexts(root)
+def _export_person_outputs(root, *, checkpoint_options=None):
     catalog = load_catalog(root)
     destination = root / 'exports/persons'
     destination.mkdir(parents=True, exist_ok=True)
@@ -102,16 +97,33 @@ def export(root=ROOT):
     for member in assemblies.values():
         if member.get('parent_person_id') and member.get('parent_connection'):
             assembled_children.setdefault(member['parent_person_id'], []).append(member)
+    checkpoint = None
+    if checkpoint_options is not None:
+        try:
+            from .person_export_checkpoint import PersonExportCheckpoint
+        except ImportError:
+            from person_export_checkpoint import PersonExportCheckpoint
+        aliases_for_checkpoint = {alias for person in catalog[0].values() for alias in person.get('id_aliases', [])}
+        checkpoint = PersonExportCheckpoint(root, person_ids=set(catalog[0]),
+            output_ids=set(catalog[0]) | set(assemblies) | aliases_for_checkpoint,
+            **checkpoint_options)
     rows = []
     for pid, person in sorted(catalog[0].items()):
-        result = bundle(pid, root=root, include_provisional=True, catalog=catalog)
+        result = checkpoint.reuse(pid) if checkpoint else None
+        if result is None:
+            result = bundle(pid, root=root, include_provisional=True, catalog=catalog)
         assembly = source_map.get(pid)
         if assembly:
             result['assembled_identity'] = assembly
         if pid in assembled_children:
             result['assembled_children'] = assembled_children[pid]
         filename = pid + '.json'
-        (destination / filename).write_text(json.dumps(result, ensure_ascii=False, separators=(',', ':')) + '\n')
+        output_text = json.dumps(result, ensure_ascii=False, separators=(',', ':')) + '\n'
+        if checkpoint:
+            checkpoint.write_output(pid, output_text)
+            checkpoint.mark(pid)
+        else:
+            (destination / filename).write_text(output_text)
         if assembly and pid != assembly['representative_source_person_id']:
             continue
         output_id = assembly['person_id'] if assembly else pid
@@ -128,6 +140,8 @@ def export(root=ROOT):
             rows[-1].update(preferred_parent_status='unresolved', parent_decision_ids=omitted_parent_decisions)
         if assembly:
             rows[-1].update(source_person_id=pid, assembled_identity=assembly)
+    if checkpoint:
+        checkpoint.flush()
     aliases = {alias: source_map.get(pid, {}).get('person_id', pid) for pid, person in catalog[0].items() for alias in person.get('id_aliases', [])}
     aliases.update({pid: row['person_id'] for pid, row in source_map.items() if pid != row['person_id']})
     for alias in sorted(aliases):
@@ -177,20 +191,84 @@ def export(root=ROOT):
     single_pages = write_reading_pages(destination, 'unconnected.md', 'unconnected', '# 尚未連入同族的人物', '返回 [可展開家族索引](README.md)。以下人物尚未依已記錄的父系資料連入其他節點；同姓不表示同族。索引分頁不改人物 ID 或 JSON 入口。', table_blocks(single_rows), source_references)
     (destination / 'index.json').write_text(json.dumps({'format_version': '0.1', 'persons': rows, 'id_aliases': aliases,
         'reading_indexes': {'family_pages': family_pages, 'unconnected_pages': single_pages}}, ensure_ascii=False, indent=2) + '\n')
-    candidate_path = root / 'data/historical-tables/person-candidates.json'
-    if candidate_path.exists():
+    if checkpoint:
+        checkpoint.finish()
+    return rows
+
+
+# single-readonly-person-export-phase
+def export(root=ROOT, *, shared_context=True, checkpoint_dir=None, resume=False, checkpoint_batch_size=32):
+    """Memoize only one content-checked source-readonly person-output phase."""
+    try:
+        from .validation_context import scope, fingerprint, DRIFT_ERROR
+    except ImportError:
+        from validation_context import scope, fingerprint, DRIFT_ERROR
+    if type(resume) is not bool or type(checkpoint_batch_size) is not int or not 1 <= checkpoint_batch_size <= 64:
+        raise ValueError('Checkpoint resume must be boolean and batch size an integer in 1..64.')
+    checkpoint_config = None
+    if checkpoint_dir is not None or resume or checkpoint_batch_size != 32:
         try:
-            from .reading_catalog import run as export_reading_catalog
+            from .person_export_checkpoint import validate_options, SourceSnapshot
+            from . import person_bundle as bundle_code
+            from .validate_corpus import validate
         except ImportError:
-            from reading_catalog import run as export_reading_catalog
-        export_reading_catalog(root=root)
+            from person_export_checkpoint import validate_options, SourceSnapshot
+            import person_bundle as bundle_code
+            from validate_corpus import validate
+        directory = validate_options(root, checkpoint_dir, resume, checkpoint_batch_size)
+        if directory is None:
+            raise ValueError('A checkpoint directory is required for checkpoint options.')
+        checkpoint_config = {'directory': directory, 'resume': resume, 'batch_size': checkpoint_batch_size}
+    # Calendar and downstream reading/profile producers write data dependencies.
+    # Do not inherit a caller's proof memo into those ordinary write phases.
+    with scope(root, enabled=False):
         try:
-            from .table_person_profiles import build as build_table_person_profiles
+            from .calendar_wiring import export_calendar_contexts
         except ImportError:
-            from table_person_profiles import build as build_table_person_profiles
-        build_table_person_profiles(root)
-    print('人物 JSON：', len(rows))
+            from calendar_wiring import export_calendar_contexts
+        export_calendar_contexts(root)
+        candidate_path = root / 'data/historical-tables/person-candidates.json'
+        if candidate_path.exists():
+            # Preflight only the ordinary reader phase this producer will run.
+            # Discard the read-only bytes; retain the later normal reader writes.
+            try:
+                from .reading_catalog import outputs as reading_preflight
+            except ImportError:
+                from reading_catalog import outputs as reading_preflight
+            reading_preflight(root)
+        before = fingerprint(root)
+        if checkpoint_config is not None:
+            source = SourceSnapshot(root, before, [Path(__file__).parent, Path(bundle_code.__file__).parent])
+            errors = validate(root)
+            if errors:
+                raise ValueError('Checkpoint export requires normal source validation: ' + '; '.join(errors))
+            source.assert_current()
+            checkpoint_config['source'] = source
+        with scope(root, enabled=shared_context):
+            rows = (_export_person_outputs(root) if checkpoint_config is None else
+                    _export_person_outputs(root, checkpoint_options=checkpoint_config))
+            if before != fingerprint(root):
+                raise ValueError(DRIFT_ERROR)
+        if candidate_path.exists():
+            try:
+                from .reading_catalog import run as export_reading_catalog
+            except ImportError:
+                from reading_catalog import run as export_reading_catalog
+            export_reading_catalog(root=root)
+            try:
+                from .table_person_profiles import build as build_table_person_profiles
+            except ImportError:
+                from table_person_profiles import build as build_table_person_profiles
+            build_table_person_profiles(root)
+        print('人物 JSON：', len(rows))
 
 
 if __name__ == '__main__':
-    export()
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--checkpoint-dir', type=Path)
+    parser.add_argument('--resume', action='store_true')
+    parser.add_argument('--checkpoint-batch-size', type=int, default=32)
+    args = parser.parse_args()
+    export(checkpoint_dir=args.checkpoint_dir, resume=args.resume,
+           checkpoint_batch_size=args.checkpoint_batch_size)

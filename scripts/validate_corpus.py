@@ -11,6 +11,10 @@ try:
     from scripts.era_stage_dates import binding_valid
 except ImportError:
     from era_stage_dates import binding_valid
+try:
+    from scripts.person_mentions import is_person_reference, pronoun_errors, identity_surfaces_supported
+except ImportError:
+    from person_mentions import is_person_reference, pronoun_errors, identity_surfaces_supported
 ROOT = Path(__file__).resolve().parents[1]
 
 def source_age_number(number):
@@ -104,6 +108,18 @@ except ImportError:
 
 
 def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bound_role=None):
+    if isinstance(date,dict)and date.get('event_evidence_binding',{}).get('kind')=='fixed_jin098_career_outer_year_chain':
+        try:from scripts.fixed_jin098_wangdun_career_dates import date_valid
+        except ImportError:from fixed_jin098_wangdun_career_dates import date_valid
+        return []if date_valid(date,bound_record,bound_role,chapters or {},root)else['098永昌元年僅完整p011–018外層鏈的五事件，不得跨段借年或作實持任期']
+    if isinstance(date,dict)and date.get('event_evidence_binding',{}).get('kind')=='fixed_jin098_career_local_year':
+        try:from scripts.fixed_jin098_wangdun_career import date_valid
+        except ImportError:from fixed_jin098_wangdun_career import date_valid
+        return []if date_valid(date,bound_record,bound_role,chapters or {},root)else['098太甯元年僅本段事件及官方東晉太寧323列，不作全域字形或年份借用']
+    if isinstance(date,dict)and isinstance(date.get('event_evidence_binding'),dict)and date['event_evidence_binding'].get('kind')=='fixed_wyd063_death_local_year':
+        try:from scripts.wyd_song063_basics import date_valid
+        except ImportError:from wyd_song063_basics import date_valid
+        return [] if bound_role=='life_event'and date_valid(date,bound_record,chapters,root)else['宋063七年卒須綁完整主敘/回述分層、當事人與宋元嘉年號欄']
     errors = []
     if not isinstance(date, dict):
         return ['紀年換算須為物件']
@@ -111,6 +127,11 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
         try:from scripts.wyd_song044_noble_year import valid as noble_year_valid
         except ImportError:from wyd_song044_noble_year import valid as noble_year_valid
         return [] if noble_year_valid(date,bound_record,bound_role,chapters or {},root) else ['跨來源同詔封年須綁完整比較單元、兩人同爵食邑、明年及取得資格']
+    # fixed-wyd045-life-date
+    if date.get('event_evidence_binding',{}).get('kind')=='fixed_wyd045_death_local_year':
+        try:from scripts.wyd_song045_lifecycle import date_valid
+        except ImportError:from wyd_song045_lifecycle import date_valid
+        return [] if bound_role=='life_event'and date_valid(date,bound_record,chapters or {},root)else['宋045死亡日期須綁本源人物、完整年鏈及固定宋元嘉對照，不借旁人或月日']
     era, year, number = date.get('era'), date.get('year'), date.get('era_year')
     if era not in ('BCE', 'CE') or type(year) is not int or type(number) is not int or number <= 0:
         errors.append('紀年換算須有數字年份與正整數時代年')
@@ -277,7 +298,11 @@ def reported_relationship_errors(variant, paragraph):
     return errors
 
 
-def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
+def title_proposal_errors(proposal, chapter, person_ids, holdings=None, root=None):
+    if isinstance(proposal,dict)and proposal.get('source_appointment_context',{}).get('kind')=='fixed_jin098_received_career_phase1':
+        try:from scripts.fixed_jin098_wangdun_career import record_valid
+        except ImportError:from fixed_jin098_wangdun_career import record_valid
+        return []if proposal.get('person_id')in person_ids and record_valid(proposal,chapter,root,'proposal')else['098未受任須綁全階段原授命/不就/偽讓不受及本人，不能作持有']
     if isinstance(proposal,dict) and proposal.get('source_appointment_context',{}).get('kind')=='wyd_song044_declined_noble_advance':
         try:from scripts.wyd_song044_nobles import proposal_errors as noble_proposal_errors
         except ImportError:from wyd_song044_nobles import proposal_errors as noble_proposal_errors
@@ -382,7 +407,7 @@ def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
                 role = unassumed_role(proposal, p)
             check(bool(role) and role.get('kind') == 'unresolved' and role.get('person_id') is None
                   and role.get('surface') == proposal.get('title'), '稱號提議職稱不得當人物')
-        check(bool(person) and person.get('kind') == 'person' and person.get('person_id') == proposal.get('person_id'), '稱號提議人物錨點不符')
+        check(is_person_reference(person) and person.get('person_id') == proposal.get('person_id'), '稱號提議人物錨點不符')
         check(bool(role) and bool(person) and any(i <= (role['start'] if carried_proposal else min(role['start'], person['start']))
               and (role['end'] if carried_proposal else max(role['end'], person['end'])) <= i + len(quote) for i in starts), '稱號提議引句須涵蓋人物及職稱')
     return errors
@@ -522,16 +547,22 @@ def _validate_uncached(root=ROOT):
                     check(m['start'] >= last, '提及位置重疊或未排序')
                     check(p['text'][m['start']:m['end']] == m['surface'], '提及引句與位置不符')
                     last=m['end']
-                    if m['kind'] == 'person':
+                    if m['kind'] in ('person', 'pronoun'):
+                        if m['kind'] == 'pronoun': errors.extend(pronoun_errors(m, p['text'], pids))
                         check(m['person_id'] in pids, '提及引用未知人物 ID')
-                        check(any(ch.isalnum() for ch in m['surface']), '人物提及不得僅為標點或空白')
+                        alphanumeric = any(ch.isalnum() for ch in m['surface'])
+                        if not alphanumeric:
+                            try:from scripts.fixed_repository_witness import glyph_person_valid
+                            except ImportError:from fixed_repository_witness import glyph_person_valid
+                            alphanumeric = glyph_person_valid(d, m, root)
+                        check(alphanumeric, '人物提及不得僅為標點或空白')
                     elif m['kind'] == 'unresolved': check(m['person_id'] is None and m['status']=='unresolved', '未定提及不得暗選人物')
                     elif m['kind'] == 'non_person':
                         try:
                             from scripts.lexical_annotations import non_person_errors
                         except ModuleNotFoundError:
                             from lexical_annotations import non_person_errors
-                        errors.extend(non_person_errors(m, p['text']))
+                        errors.extend(non_person_errors(m, p['text'], context={'root': root, 'chapter': d, 'paragraph': p}, chapter=d, root=root))
                     elif m['kind'] == 'work':
                         check(m.get('person_id') is None and m.get('work_id') in works and m.get('status') in ('source_explicit', 'contextual_provisional'), '著作提及須引用已登記著作且不得連人物')
                     else: check(False,'未知提及類型')
@@ -550,6 +581,89 @@ def _validate_uncached(root=ROOT):
             except ImportError:
                 from fixed_kanripo_projection import errors as fixed_kanripo_projection_errors
             errors.extend(fixed_kanripo_projection_errors(d, root))
+            # fixed-wuyingdian-song051-transcription: exact pending AI witness, not generic layers.
+            try:
+                from scripts.fixed_wuyingdian_song051_family_phase import source_errors as wuyingdian_song051_errors
+            except ImportError:
+                from fixed_wuyingdian_song051_family_phase import source_errors as wuyingdian_song051_errors
+            wuyingdian_051_issues = wuyingdian_song051_errors(d, root)
+            errors.extend(wuyingdian_051_issues)
+            wuyingdian_song051_layer_valid = (d.get('id') == 'c-songshu-051-wyd1739-zongshi'
+                and isinstance(d.get('annotation'), dict) and d['annotation'].get('fixed_transcription_contract') == 'wuyingdian_song051_transcription'
+                and not wuyingdian_051_issues)
+            # fixed-wuyingdian-song005-opening-transcription: exact pending partial-chapter witness.
+            try:
+                from scripts.fixed_wuyingdian_song051_family_phase import source_errors005 as wuyingdian_song005_opening_errors
+            except ImportError:
+                from fixed_wuyingdian_song051_family_phase import source_errors005 as wuyingdian_song005_opening_errors
+            errors.extend(wuyingdian_song005_opening_errors(d, root))
+            # fixed-jin080-wangxizhi-comparison: fixed, edition-unverified comparison only.
+            try:
+                from scripts.fixed_jin080_wangxizhi_comparison import source_errors as jin080_comparison_errors
+            except ImportError:
+                from fixed_jin080_wangxizhi_comparison import source_errors as jin080_comparison_errors
+            errors.extend(jin080_comparison_errors(d, root))
+            # fixed-jin049-rendered-comparison: locally captured text, original raw not obtained.
+            try:
+                from scripts.fixed_jin049_jikang_rendered_comparison import source_errors as jin049_rendered_errors
+            except ImportError:
+                from fixed_jin049_jikang_rendered_comparison import source_errors as jin049_rendered_errors
+            errors.extend(jin049_rendered_errors(d, root, source_path=path))
+            # fixed-jin034-complete-yanghu: fixed 41-unit comparison NER.
+            try:from scripts.fixed_jin034_yanghu_ner import source_errors as jin034_source_errors
+            except ImportError:from fixed_jin034_yanghu_ner import source_errors as jin034_source_errors
+            errors.extend(jin034_source_errors(d,root,source_path=path))
+            # fixed-jin036-complete-wei-rendered-comparison: all 21 received units, separate modern footnote.
+            try:from scripts.fixed_jin036_wei_comparison import source_errors as jin036_source_errors
+            except ImportError:from fixed_jin036_wei_comparison import source_errors as jin036_source_errors
+            errors.extend(jin036_source_errors(d,root,source_path=path))
+            # fixed-wuyingdian-song045-liucui-transcription: exact pending partial-chapter witness.
+            try:
+                from scripts.fixed_wuyingdian_song045_liucui import source_errors as wuyingdian_song045_liucui_errors
+            except ImportError:
+                from fixed_wuyingdian_song045_liucui import source_errors as wuyingdian_song045_liucui_errors
+            errors.extend(wuyingdian_song045_liucui_errors(d, root))
+            # fixed-wuyingdian-song063-wangtanshou-transcription: exact pending partial-chapter witness.
+            try:
+                from scripts.fixed_wuyingdian_song063_wangtanshou import source_errors as wuyingdian_song063_wangtanshou_errors
+            except ImportError:
+                from fixed_wuyingdian_song063_wangtanshou import source_errors as wuyingdian_song063_wangtanshou_errors
+            wuyingdian_song063_issues = wuyingdian_song063_wangtanshou_errors(d, root)
+            errors.extend(wuyingdian_song063_issues)
+            try:from scripts.fixed_jin098_wangdun_comparison import source_errors as jin098_source_errors
+            except ImportError:from fixed_jin098_wangdun_comparison import source_errors as jin098_source_errors
+            jin098_source_issues=jin098_source_errors(d,root)
+            errors.extend(jin098_source_issues)
+            jin098_source_layer_valid=(d.get('id')=='c-jinshu-098-wangdun-comparison' and not jin098_source_issues)
+            wuyingdian_song063_layer_valid = (d.get("id") == "c-songshu-063-wyd1739-wangtanshou" and isinstance(d.get("annotation"), dict) and d["annotation"].get("fixed_transcription_contract") == "wuyingdian_song063_wangtanshou_transcription" and not wuyingdian_song063_issues)
+            # Finite exact repository witness; data ownership tags cannot activate it.
+            try:from scripts.fixed_repository_witness import source_errors as repository_witness_errors
+            except ImportError:from fixed_repository_witness import source_errors as repository_witness_errors
+            errors.extend(repository_witness_errors(d,root,source_path=path))
+            # fixed-wuyingdian-jin043-shantao: complete bounded pending transcription witness.
+            try:
+                from scripts.fixed_wuyingdian_jin043_shantao import source_errors as wyd_jin043_errors
+            except ImportError:
+                from fixed_wuyingdian_jin043_shantao import source_errors as wyd_jin043_errors
+            wyd_jin043_issues = wyd_jin043_errors(d, root)
+            errors.extend(wyd_jin043_issues)
+            wyd_jin043_layer_valid = (d.get('id') == 'c-jinshu-043-wyd1739-shantao'
+                and isinstance(d.get('annotation'), dict) and d['annotation'].get('fixed_transcription_contract') == 'wuyingdian_jin043_shantao_transcription'
+                and not wyd_jin043_issues)
+            # fixed-wyd-sgz015-jia-opening: exact selected body and complete WeiLue note.
+            try:from scripts.fixed_wyd_sgz015_jia_opening import source_errors as sgz015_opening_errors
+            except ImportError:from fixed_wyd_sgz015_jia_opening import source_errors as sgz015_opening_errors
+            errors.extend(sgz015_opening_errors(d,root))
+            # fixed-wuyingdian-jin040-jiachong: complete bounded pending transcription witness.
+            try:
+                from scripts.fixed_wuyingdian_jin040_jiachong import source_errors as wyd_jin040_errors
+            except ImportError:
+                from fixed_wuyingdian_jin040_jiachong import source_errors as wyd_jin040_errors
+            wyd_jin040_issues = wyd_jin040_errors(d, root)
+            errors.extend(wyd_jin040_issues)
+            wyd_jin040_layer_valid = (d.get('id') == 'c-jinshu-040-wyd1739-jiachong'
+                and isinstance(d.get('annotation'), dict) and d['annotation'].get('fixed_transcription_contract') == 'wuyingdian_jin040_jiachong_transcription'
+                and not wyd_jin040_issues)
             # fixed-wuyingdian-song044-transcription: source-only exact witness gate.
             try:
                 from scripts.fixed_wuyingdian_song044 import source_errors as wuyingdian_song044_errors
@@ -562,6 +676,9 @@ def _validate_uncached(root=ROOT):
             except ImportError:
                 from wyd_song044_formal_roles import source_errors as wyd_formal_role_errors
             errors.extend(wyd_formal_role_errors(d, root))
+            try:from scripts.xie_three_source_roles import source_errors as xie_three_source_errors
+            except ImportError:from xie_three_source_roles import source_errors as xie_three_source_errors
+            errors.extend(xie_three_source_errors(d,root))
             wuyingdian_song044_layer_valid = (d.get('id') == 'c-songshu-044-wyd1739-xiehui'
                 and isinstance(d.get('annotation'),dict) and d.get('annotation', {}).get('fixed_transcription_contract') == 'wuyingdian_song044_transcription'
                 and not wuyingdian_issues)
@@ -604,7 +721,7 @@ def _validate_uncached(root=ROOT):
                 refs=case.get('paragraph_ids',[])
                 local={p['id']:p for p in d['paragraphs']}
                 check(bool(refs) and any(ref in local for ref in refs) and all(ref in case_paragraphs for ref in refs),'未決身份段落引用無效')
-                supported={m['person_id'] for ref in refs if ref in case_paragraphs for m in case_paragraphs[ref]['mentions'] if m['kind']=='person'}
+                supported={m['person_id'] for ref in refs if ref in case_paragraphs for m in case_paragraphs[ref]['mentions'] if is_person_reference(m)}
                 check(set(candidates)<=supported,'未決身份缺少各候選人物的段落證據')
                 if unknown:
                     unresolved = case.get('unresolved_mention_ids', [])
@@ -628,7 +745,7 @@ def _validate_uncached(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation') or (p.get('text_layer') in ('received_compiler_appraisal','witness_appended_wuyingdian_collation') and wuyingdian_song044_layer_valid),'文字層次無效')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation') or (p.get('text_layer') in ('received_compiler_appraisal','witness_appended_wuyingdian_collation') and (wuyingdian_song044_layer_valid or wuyingdian_song051_layer_valid or wuyingdian_song063_layer_valid or wyd_jin043_layer_valid) or (p.get('text_layer') == 'received_compiler_appraisal' and jin098_source_layer_valid)),'文字層次無效')
                 try:
                     from scripts.houhan_text_layers import layer_errors
                 except ImportError:
@@ -639,8 +756,9 @@ def _validate_uncached(root=ROOT):
                 check(all(e.tag in ('persName','rs','title','seg') for e in x),'XML 含未知正文標籤')
                 for e,m in zip(xm,p['mentions']):
                     check(e.get('id')==m['id'] and e.text==m['surface'], 'XML 提及錨點不符')
-                    check(e.tag==({'person':'persName','work':'title','non_person':'seg'}.get(m['kind'], 'rs')), 'XML 提及類型不符')
+                    check(e.tag==({'person':'persName','pronoun':'seg','work':'title','non_person':'seg'}.get(m['kind'], 'rs')), 'XML 提及類型不符')
                     check(e.get('ref')==(m.get('work_id') if m['kind']=='work' else m['person_id']), 'XML 人物或著作引用不符')
+                    if m['kind']=='pronoun': check(e.get('type')=='pronoun','XML 代詞共指類型不符')
                     if m['kind']=='unresolved': check(e.get('type')=='unresolved','XML 未定類型不符')
                     if m['kind']=='non_person': check(e.get('type')=='non-person' and e.get('subtype')==m.get('lexical_role'),'XML 非人物詞性不符')
         check(not set(chapters).intersection(table_chapters), '正文與表格篇ID不得重複')
@@ -663,7 +781,7 @@ def _validate_uncached(root=ROOT):
             from scripts.source_author_prefix import source_author_errors
         except ImportError:
             from source_author_prefix import source_author_errors
-        for issue in source_author_errors(works, chapters):
+        for issue in source_author_errors(works, chapters, root):
             check(False, issue)
         kinship_case_ids = set()
         for chapter in chapters.values():
@@ -692,7 +810,7 @@ def _validate_uncached(root=ROOT):
                           and evidence['quote'] == hit[1]['text'] and case['source_term'] in evidence['quote']
                           and evidence['source_id'] == chapter['source_id'], '親屬詮釋引句或篇來源不符')
                     if hit:
-                        local = {m['person_id'] for m in hit[1]['mentions'] if m['kind'] == 'person'}
+                        local = {m['person_id'] for m in hit[1]['mentions'] if is_person_reference(m)}
                         check(endpoints.issubset(local), '親屬詮釋兩端未見於正文證據')
                 for alternative in case['alternatives']:
                     predicate = alternative['predicate']; qualifiers = alternative['qualifiers']; reference = alternative['reference']
@@ -841,6 +959,7 @@ def _validate_uncached(root=ROOT):
                 for mid in alias['mention_ids']:
                     hit=registry_mentions.get(mid)
                     check(mid in evidenced and bool(hit) and hit[2]['surface']==alias['surface'], '異稱證據不符')
+                    check(not hit or hit[2].get('kind') != 'pronoun', '代詞不得列入姓名別名')
             expected=set(mention_ids_by_person.get(p['id'], set()))
             if scope == 'corpus_and_native_table_mentions':
                 expected.update(table_mids_by_person.get(p['id'], set()))
@@ -913,7 +1032,7 @@ def _validate_uncached(root=ROOT):
                         from parallel_context_identity import valid as parallel_context_identity_valid
                     check(parallel_context_identity_valid(decision, chapters, {p['id']: p for p in people}, root), '平行敘事身份須有兩候選、完整固定原證、同事件字面及非別名界限')
                 target=next((p for p in people if p['id']==decision['person_id']),None)
-                if target: check(set(decision['surfaces']).issubset({a['surface'] for a in target['aliases']}),'身份判斷包含未見異稱')
+                if target: check(identity_surfaces_supported(decision, target, paragraphs, chapters, allowed),'身份判斷包含未見異稱')
         for path in (root/'corpus').glob('*/*-distinctions.json'):
             d=json.loads(path.read_text(encoding='utf-8'))
             check(d['record_type']=='person_distinction_set','人物區分集類型不符')
@@ -1038,6 +1157,10 @@ def _validate_uncached(root=ROOT):
                 check(h['id'] not in title_ids,'稱號持有 ID 重複');title_ids.add(h['id'])
                 check(h['person_id'] in pids and bool(h['title']),'稱號持有人或用稱無效')
                 check(h['status']=='source_attested','稱號持有狀態無效')
+                # fixed-wyd045-noble-mandatory-records
+                try:from scripts.wyd_song045_nobles import holding_applies as wyd045_noble_applies, holding_dispatch_valid as wyd045_noble_valid
+                except ImportError:from wyd_song045_nobles import holding_applies as wyd045_noble_applies, holding_dispatch_valid as wyd045_noble_valid
+                if wyd045_noble_applies(h):check(wyd045_noble_valid(h,chapters[d['chapter_id']],root),'宋045已登記爵序不得刪角色證據或借別爵／旁人')
                 check(h['kind'] in ('royal_rank','imperial_rank','noble_rank','office','honorific','unclassified'),'稱號種類無效')
                 check(h['mode'] in ('grant','transfer','posthumous_grant','posthumous_enfeoffment','posthumous_naming','self_proclamation','accession','demotion','attestation'),'稱號事件種類無效')
                 check(bool(h['evidence']) and bool(h['attestations']),'稱號缺少來源或用稱錨點')
@@ -1200,13 +1323,13 @@ def _validate_uncached(root=ROOT):
                             from scripts.noble_transfers import noble_transfer_errors
                         except ModuleNotFoundError:
                             from noble_transfers import noble_transfer_errors
-                        errors.extend(noble_transfer_errors(h, title_records, paragraphs, mentions, chapters))
+                        errors.extend(noble_transfer_errors(h, title_records, paragraphs, mentions, chapters, root=root))
                     else:
                         try:
                             from scripts.royal_transfers import royal_transfer_errors
                         except ModuleNotFoundError:
                             from royal_transfers import royal_transfer_errors
-                        errors.extend(royal_transfer_errors(h, title_records, paragraphs, mentions))
+                        errors.extend(royal_transfer_errors(h, title_records, paragraphs, mentions, chapters=chapters, root=root))
                 if 'chronology_source_choice' in h:
                     try:
                         from scripts.royal_transfers import chronology_choice_errors
@@ -1440,7 +1563,7 @@ def _validate_uncached(root=ROOT):
                                        for place in places))
                         if not royal and h.get('mode') == 'transfer' and (
                                 'resumption_basis' in h or h.get('transfer_basis', {}).get('kind') == 'elided_rank_regrant'):
-                            royal = not royal_transfer_errors(h, title_records, paragraphs, mentions)
+                            royal = not royal_transfer_errors(h, title_records, paragraphs, mentions, chapters=chapters, root=root)
                         check(royal,'王國範圍須保留王某地原句，不得由任意地名補入')
                 for a in h['attestations']:
                     check(a['id'] not in title_occurrence_ids,'稱號用稱 ID 重複');title_occurrence_ids.add(a['id'])
@@ -1468,6 +1591,10 @@ def _validate_uncached(root=ROOT):
                             except ImportError:
                                 from received_career_roles import holding_valid as career_holding_valid
                             shared_suffix_valid = career_holding_valid(h, chapters[d['chapter_id']],root)
+                    if h.get('source_career_role',{}).get('kind')=='fixed_jin098_received_career_phase1'and 'contextual_role_expansion'in h:
+                        try:from scripts.fixed_jin098_wangdun_career import record_valid as career_expansion_valid
+                        except ImportError:from fixed_jin098_wangdun_career import record_valid as career_expansion_valid
+                        shared_suffix_valid=career_expansion_valid(h,chapters[d['chapter_id']],root,'holding')
                     check((a['surface']==h['title'] or shared_suffix_valid) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
                     if hit:
                         check(isinstance(a['start'],int) and isinstance(a['end'],int) and 0<=a['start']<a['end']<=len(hit[1]['text']) and hit[1]['text'][a['start']:a['end']]==a['surface'],'稱號用稱字元位置不符')
@@ -1571,12 +1698,43 @@ def _validate_uncached(root=ROOT):
                 check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','father_in_law','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                try:from scripts.xie_three_source_roles import family_applies as xie_three_applies, family_valid as xie_three_family_valid
+                except ImportError:from xie_three_source_roles import family_applies as xie_three_applies, family_valid as xie_three_family_valid
+                if xie_three_applies(a):check(xie_three_family_valid(a,paragraphs,root),'056明撫養不得轉母/收養/別人')
+                try:from scripts.fixed_jin031_jia_typed import family_applies as jin031_applies, family_valid as jin031_family_valid
+                except ImportError:from fixed_jin031_jia_typed import family_applies as jin031_applies, family_valid as jin031_family_valid
+                if jin031_applies(a):check(jin031_family_valid(a,paragraphs,root),'031完整近系須原段、角色方向及雙端反查')
+                try:from scripts.fixed_jin036_wei_ner import close_kin_applies as jin036_applies, close_kin_valid as jin036_family_valid
+                except ImportError:from fixed_jin036_wei_ner import close_kin_applies as jin036_applies, close_kin_valid as jin036_family_valid
+                if jin036_applies(a):check(jin036_family_valid(a,paragraphs,root),'036完整近系須原段、主客/長幼、來源詞義及雙端反查')
+                try:from scripts.fixed_jin034_core_kinship import applies as jin034_applies,valid as jin034_family_valid
+                except ImportError:from fixed_jin034_core_kinship import applies as jin034_applies,valid as jin034_family_valid
+                if d.get('chapter_id')=='c-jinshu-034-yanghu-comparison' or jin034_applies(a):check(jin034_family_valid(a,paragraphs,root),'034完整近系須原段/方向/母系資格/未知環節及反查')
+                try:from scripts.fixed_wuyingdian_jin040_jiachong import family_applies as jin040_applies, family_valid as jin040_family_valid
+                except ImportError:from fixed_wuyingdian_jin040_jiachong import family_applies as jin040_applies, family_valid as jin040_family_valid
+                if jin040_applies(a):check(jin040_family_valid(a,paragraphs,chapters,root),'武英殿晉040完整近系角色/雙端/原詞不符')
+                try:from scripts.fixed_wuyingdian_jin043_shantao import family_applies as jin043_applies, family_valid as jin043_family_valid
+                except ImportError:from fixed_wuyingdian_jin043_shantao import family_applies as jin043_applies, family_valid as jin043_family_valid
+                if jin043_applies(a):check(jin043_family_valid(a,paragraphs,chapters,root),'武英殿晉043近系須有完整本源角色、方向、原詞與反查')
+                # fixed-wyd045-relations: full finite source roles, not membership exemption.
+                try:from scripts.wyd_song045_roles import relation_applies as wyd045_applies, relation_valid as wyd045_valid
+                except ImportError:from wyd_song045_roles import relation_applies as wyd045_applies, relation_valid as wyd045_valid
+                if wyd045_applies(a):check(wyd045_valid(a,paragraphs,chapters,root),'宋045近親須綁完整段落、來源角色、方向及未知親等')
+                # Exact WYD051 family and WYD005 opening roles, preserving original pending source branches.
+                try:from scripts.fixed_wuyingdian_song051_family_phase import applies as song051_applies, family_valid as song051_family_valid
+                except ImportError:from fixed_wuyingdian_song051_family_phase import applies as song051_applies, family_valid as song051_family_valid
+                if song051_applies(a):check(song051_family_valid(a,paragraphs,chapters,root),'武英殿宋051/005有限親族須原字、來源、主客角色及雙向引用全符')
+                # Exact two WYD044 younger-brother clauses, including their source-role reverse evidence.
+                try:from scripts.wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
+                except ImportError:from wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
+                if direct_brothers_applies(a):
+                    check(direct_brothers_valid(a,paragraphs,chapters,root), '武英殿宋044明弟須有固定完整原句、現役雙MID與反向引用，不補排行或父母')
                 if 'source_kinship_frame' in qualifiers or a['predicate'] == 'father_in_law':
                     try:
                         from scripts.received_quoted_family import valid as received_quoted_family_valid
                     except ImportError:
                         from received_quoted_family import valid as received_quoted_family_valid
-                    check(received_quoted_family_valid(a, paragraphs, chapters, root), '收到本傳或引書親屬須綁完整原句、固定raw、實際角色及方向，不補未名連接人')
+                    check(received_quoted_family_valid(a, paragraphs, chapters, root) or (jin036_applies(a) and jin036_family_valid(a,paragraphs,root)) or (jin034_applies(a) and jin034_family_valid(a,paragraphs,root)), '收到本傳或引書親屬須綁完整原句、固定raw、實際角色及方向，不補未名連接人')
                 if 'literal_source_binding' in qualifiers:
                     try:
                         from scripts.literal_family_reports import kinship_valid
@@ -1588,7 +1746,7 @@ def _validate_uncached(root=ROOT):
                         from scripts.biography_family_clause import valid as biography_family_clause_valid
                     except ImportError:
                         from biography_family_clause import valid as biography_family_clause_valid
-                    check(biography_family_clause_valid(a, paragraphs, d['assertions'], chapters), '傳記親屬句須有完整上下文、逐詞人物錨點及明確方向')
+                    check(biography_family_clause_valid(a, paragraphs, d['assertions'], chapters, root), '傳記親屬句須有完整上下文、逐詞人物錨點及明確方向')
                 if a['predicate'] == 'maternal_aunt' or 'relative_age_interpretation' in qualifiers:
                     try:
                         from scripts.song047_collateral_care import valid, chronology_caution_valid
@@ -1639,7 +1797,7 @@ def _validate_uncached(root=ROOT):
                         from scripts.non_parental_family import non_parental_relation_valid
                     except ModuleNotFoundError:
                         from non_parental_family import non_parental_relation_valid
-                    check(non_parental_relation_valid(a, paragraphs, family_relations), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
+                    check((non_parental_relation_valid(a, paragraphs, family_relations, root=root, chapters=chapters) if qualifiers.get('source_clause_binding', {}).get('rule') in ('fixed_comparison_jin080_received_roles','fixed_comparison_jin098_received_roles') else non_parental_relation_valid(a, paragraphs, family_relations)) or (xie_three_applies(a) and xie_three_family_valid(a,paragraphs,root)) or (song051_applies(a) and song051_family_valid(a, paragraphs, chapters, root)) or (jin040_applies(a) and jin040_family_valid(a,paragraphs,chapters,root)) or (jin031_applies(a) and jin031_family_valid(a,paragraphs,root)) or (jin034_applies(a) and jin034_family_valid(a,paragraphs,root)), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
                 if a['predicate'] == 'agnatic_senior_kin':
                     check('kinship_structure' in qualifiers, '父系晚一代稱謂缺少世代結構')
                 if a['predicate'] == 'maternal_cousin':
@@ -1706,9 +1864,15 @@ def _validate_uncached(root=ROOT):
                         from scripts.wyd_song044_nephew import nephew_valid as wyd_nephew_valid
                     except ImportError:
                         from wyd_song044_nephew import nephew_valid as wyd_nephew_valid
-                    check(paternal_uncle_direction_valid(a, paragraphs) or wyd_nephew_valid(a, paragraphs, root),
+                    try:from scripts.fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_uncle_valid
+                    except ImportError:from fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_uncle_valid
+                    try:from scripts.fixed_liang041_wanggui import uncle_applies as liang041_uncle_applies, uncle_valid as liang041_uncle_valid
+                    except ImportError:from fixed_liang041_wanggui import uncle_applies as liang041_uncle_applies, uncle_valid as liang041_uncle_valid
+                    check((liang041_uncle_applies(a) and liang041_uncle_valid(a,paragraphs,root)) or (qualifiers.get('source_clause_binding',{}).get('rule')=='fixed_jin035_registered_unit' and jin035_uncle_valid(a,paragraphs,root)) or (paternal_uncle_direction_valid(a, paragraphs, root=root) if qualifiers.get('source_clause_binding', {}).get('rule') in ('fixed_comparison_jin080_received_roles','fixed_comparison_jin098_received_roles') else paternal_uncle_direction_valid(a, paragraphs)) or wyd_nephew_valid(a, paragraphs, root) or (jin034_applies(a) and jin034_family_valid(a,paragraphs,root)),
                           '叔父關係須依原詞與人物字位定向，不得互換叔侄端點')
                 if a['predicate'] == 'maternal_uncle':
+                    try:from scripts.fixed_wuyingdian_jin040_jiachong import wangqian_maternal_uncle_valid
+                    except ImportError:from fixed_wuyingdian_jin040_jiachong import wangqian_maternal_uncle_valid
                     try:
                         from scripts.uncle_parentage import explicit_maternal_uncle_valid
                     except ImportError:
@@ -1718,7 +1882,9 @@ def _validate_uncached(root=ROOT):
                           and qualifiers.get('lineage') == 'maternal'
                           and qualifiers.get('mother_person_id') is None
                           and any('姊子' in e.get('quote', '') for e in a['evidence']))
-                          or explicit_maternal_uncle_valid(a, paragraphs),
+                          or explicit_maternal_uncle_valid(a, paragraphs)
+                          or (jin036_applies(a) and jin036_family_valid(a,paragraphs,root))
+                          or wangqian_maternal_uncle_valid(a,d,paragraphs,root),
                           '甥舅關係須有姊子原詞、舅某或相鄰具名某之外甥錨點，保留母系世代與未名母親')
                 if a['predicate'] == 'grandmother':
                     try:
@@ -1726,7 +1892,7 @@ def _validate_uncached(root=ROOT):
                     except ImportError:
                         from reported_grandmother import reported_grandmother_valid
                     explicit_grandmother = reported_grandmother_valid(a, paragraphs)
-                    check(explicit_grandmother or (qualifiers.get('source_term') == '外孫'
+                    check(explicit_grandmother or (jin040_applies(a) and jin040_family_valid(a,paragraphs,chapters,root)) or (qualifiers.get('source_term') == '外孫'
                           and qualifiers.get('generation_difference') == -2
                           and qualifiers.get('lineage') == 'maternal'
                           and qualifiers.get('mother_person_id') is None
@@ -1741,7 +1907,11 @@ def _validate_uncached(root=ROOT):
                           and qualifiers.get('exact_distance') is None
                           and any('大父行' in e.get('quote', '') for e in a['evidence']),
                           '大父行只記祖父輩，不得補直系祖父或親等')
-                if a['predicate'] == 'adoptive_father':
+                if a['predicate'] == 'adoptive_father' and qualifiers.get('source_clause_binding',{}).get('rule')=='fixed_comparison_jin098_received_roles':
+                    try:from scripts.fixed_jin098_wangdun_comparison import family_valid as jin098_adoptive_valid
+                    except ImportError:from fixed_jin098_wangdun_comparison import family_valid as jin098_adoptive_valid
+                    check(jin098_adoptive_valid(a,paragraphs,root),'晉098養父須完整無子養含子應及獨立生父含來源，不得置換兩父')
+                elif a['predicate'] == 'adoptive_father' and not ((song051_applies(a) and song051_family_valid(a,paragraphs,chapters,root)) or (jin040_applies(a) and jin040_family_valid(a,paragraphs,chapters,root))):
                     try:
                         from scripts.chuji_parentage import chuji_parentage_valid
                     except ImportError:
@@ -1753,7 +1923,9 @@ def _validate_uncached(root=ROOT):
                         from scripts.maternal_roles import maternal_role_valid
                     except ImportError:
                         from maternal_roles import maternal_role_valid
-                    check(maternal_role_valid(a, paragraphs), '母親稱謂須有原詞及雙人物錨點，不得推生母或父親')
+                    try:from scripts.fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_family_valid
+                    except ImportError:from fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_family_valid
+                    check((qualifiers.get('source_clause_binding',{}).get('rule')=='fixed_jin035_registered_unit' and jin035_family_valid(a,paragraphs,root)) or maternal_role_valid(a, paragraphs) or (song051_applies(a) and song051_family_valid(a, paragraphs, chapters, root)) or (jin043_applies(a) and jin043_family_valid(a,paragraphs,chapters,root)) or (jin040_applies(a) and jin040_family_valid(a,paragraphs,chapters,root)) or (jin031_applies(a) and jin031_family_valid(a,paragraphs,root)) or (jin036_applies(a) and jin036_family_valid(a,paragraphs,root)) or (jin034_applies(a) and jin034_family_valid(a,paragraphs,root)), '母親稱謂須有原詞及雙人物錨點，不得推生母或父親')
                 if a['predicate'] == 'adoptive_mother':
                     check('所母' in qualifiers.get('source_term', '') and any(qualifiers.get('source_term', '') in e.get('quote', '') for e in a['evidence']), '所母關係須保存原詞，不得由一般母稱推定')
                 if a['predicate'] == 'stepmother':
@@ -1763,6 +1935,7 @@ def _validate_uncached(root=ROOT):
                           and '遺腹' in qualifiers.get('source_term', ''), '遺腹子欄位須有父親與原詞證據')
                 if 'shared_mother' in qualifiers:
                     terms = ('異母',) if qualifiers['shared_mother'] is False else ('同母', '母弟', '母兄')
+                    if jin034_applies(a) and jin034_family_valid(a,paragraphs,root):terms=terms+('同產',)
                     check(a['predicate'] in ('brother', 'sister') and type(qualifiers['shared_mother']) is bool
                           and any(term in qualifiers.get('source_term', '')
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
@@ -1774,8 +1947,14 @@ def _validate_uncached(root=ROOT):
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
                           '同父或異父關係須有相符原詞與布林值，不補父親端點')
                 if a['predicate'] == 'kinship_unspecified':
-                    if qualifiers.get('kinship_basis') == 'explicit_clan_member':
-                        check(qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_family_clause' and biography_family_clause_valid(a, paragraphs, d['assertions'], chapters), '族人不補世代、親等或共祖')
+                    if qualifiers.get('kinship_basis')=='received_jin036_elder_brother_spouse':
+                        check(jin036_applies(a) and jin036_family_valid(a,paragraphs,root),'嫂僅明兄之配偶，夫未知，不得補共同父母或挑既有人')
+                    elif qualifiers.get('kinship_basis')in ('received_jin031_collateral_appellation','received_jin031_adoptive_grandchild_appellation'):
+                        check(jin031_applies(a) and jin031_family_valid(a,paragraphs,root),'031旁親/養孫稱謂須保世代方向及來源限制')
+                    elif qualifiers.get('kinship_basis')=='received_wyd_jin040_collateral_appellation':
+                        check(jin040_applies(a) and jin040_family_valid(a,paragraphs,chapters,root),'晉040旁親原詞不符；不得補父或共祖')
+                    elif qualifiers.get('kinship_basis') == 'explicit_clan_member':
+                        check(qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_family_clause' and biography_family_clause_valid(a, paragraphs, d['assertions'], chapters, root), '族人不補世代、親等或共祖')
                     elif qualifiers.get('kinship_basis') == 'congzhongbiao_named_pair':
                         try:
                             from scripts.congzhongbiao import valid as congzhongbiao_valid
@@ -1820,13 +1999,13 @@ def _validate_uncached(root=ROOT):
                             from scripts.collateral_kinship import agnatic_senior_kin_valid
                         except ImportError:
                             from collateral_kinship import agnatic_senior_kin_valid
-                        check(agnatic_senior_kin_valid(a, paragraphs), '父系晚一代稱謂須有從子原詞與雙人物錨點，不得補父親、親等或年齡')
+                        check(agnatic_senior_kin_valid(a, paragraphs) or (jin040_applies(a) and jin040_family_valid(a,paragraphs,chapters,root)), '父系晚一代稱謂須有從子原詞與雙人物錨點，不得補父親、親等或年齡')
                     elif a['predicate'] == 'maternal_cousin':
                         try:
                             from scripts.maternal_cousins import maternal_cousin_valid
                         except ImportError:
                             from maternal_cousins import maternal_cousin_valid
-                        check(maternal_cousin_valid(a, paragraphs), '姨表旁親須有母系路徑、雙人物錨點及姨弟原詞，不得接成父系')
+                        check(maternal_cousin_valid(a, paragraphs) or (song051_applies(a) and song051_family_valid(a, paragraphs, chapters, root)), '姨表旁親須有母系路徑、雙人物錨點及姨弟原詞，不得接成父系')
                     else:
                         check(a['predicate'] == 'agnatic_cousin' and structure.get('lineage') == 'paternal' and structure.get('generation_difference') == 0 and structure.get('collateral') is True, '同世代父系旁親結構無效')
                     if a['predicate'] == 'agnatic_cousin' and 'source_clause_binding' in qualifiers and qualifiers['source_clause_binding'].get('kind') != 'biography_family_clause':
@@ -1834,7 +2013,7 @@ def _validate_uncached(root=ROOT):
                             from scripts.historical_family_clauses import explicit_congdi_valid
                         except ImportError:
                             from historical_family_clauses import explicit_congdi_valid
-                        check(explicit_congdi_valid(a, paragraphs), '從弟須有具名雙端、原詞字位與完整引文，不得補親等共祖')
+                        check(explicit_congdi_valid(a, paragraphs) or (jin036_applies(a) and jin036_family_valid(a,paragraphs,root)) or (jin034_applies(a) and jin034_family_valid(a,paragraphs,root)), '從弟須有具名雙端、原詞字位與完整引文，不得補親等共祖')
                     precise_congfudi = False
                     if a['predicate'] == 'agnatic_cousin' and qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_head_named_congfudi_of_named_reference':
                         try:
@@ -1938,12 +2117,24 @@ def _validate_uncached(root=ROOT):
                             context_errors = children_list_errors(a, chapters.get(d['chapter_id'], {}), source_age_number)
                             errors.extend(context_errors)
                             if not context_errors: adjacent = ids
+                        elif context.get('kind') == 'complete_received_biography_continuation':
+                            try:from scripts.fixed_jin080_wangxizhi_comparison import family_valid as jin080_frame_valid
+                            except ImportError:from fixed_jin080_wangxizhi_comparison import family_valid as jin080_frame_valid
+                            frame_valid=jin080_frame_valid(a,paragraphs,root)
+                            check(frame_valid,'完整比較傳承接須有固定全文及逐端點原角色，不得冒相鄰段落')
+                            if frame_valid:adjacent=ids
+                        elif context.get('kind') == 'fixed_jin035_received_unit_continuation':
+                            try:from scripts.fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_continuation_valid
+                            except ImportError:from fixed_jin035_peixiu_peiwei_registration import family_valid as jin035_continuation_valid
+                            frame_valid=jin035_continuation_valid(a,paragraphs,root)
+                            check(frame_valid,'035完整裴秀傳承接須有固定13段、父子雙端及全部原來源；不得冒相鄰或換父')
+                            if frame_valid:adjacent=ids
                         elif context.get('kind') == 'biographical_child_continuation':
                             try:
                                 from scripts.biographical_kinship import child_continuation_errors
                             except ImportError:
                                 from biographical_kinship import child_continuation_errors
-                            context_errors = child_continuation_errors(a, chapters.get(d['chapter_id'], {}))
+                            context_errors = child_continuation_errors(a, chapters.get(d['chapter_id'], {}), root)
                             errors.extend(context_errors)
                             if not context_errors: adjacent = ids
                         else:
@@ -1979,28 +2170,33 @@ def _validate_uncached(root=ROOT):
                     check(bool(hit) and hit[0]==d['chapter_id']==e['chapter_id'] and e['quote'] in hit[1]['text'],'人物陳述引句與所屬篇不符')
                     check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'人物陳述來源 ID 不符')
                     if hit:
-                        local={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'}
+                        local={m['person_id'] for m in hit[1]['mentions'] if is_person_reference(m)}
                         if adjacent is None:
                             check(a['subject_person_id'] in local and a['object_person_id'] in local,'人物陳述端點未見於證據段落')
                         else:
                             quote=e['quote'];text=hit[1]['text']
                             starts=[i for i in range(len(text)+1) if text.startswith(quote,i)]
-                            quoted={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'
+                            quoted={m['person_id'] for m in hit[1]['mentions'] if is_person_reference(m)
                                     and any(i<=m['start'] and m['end']<=i+len(quote) for i in starts)}
                             quoted_endpoints.append(quoted)
                 if adjacent is not None:
                     check(len(quoted_endpoints)==len(adjacent) and a['object_person_id'] in quoted_endpoints[0]
-                          and a['subject_person_id'] in quoted_endpoints[-1],
+                          and a['subject_person_id'] in quoted_endpoints[-1] or (jin040_applies(a) and jin040_family_valid(a,paragraphs,chapters,root)),
                           '人物陳述承接的前段客體及後段主體未見於引句')
         proposal_ids = set()
         for chapter in chapters.values():
             for proposal in chapter['annotation'].get('title_proposals', []):
                 check(proposal.get('id') and proposal['id'] not in proposal_ids, '稱號提議 ID 缺失或重複')
                 proposal_ids.add(proposal.get('id'))
-                errors.extend(title_proposal_errors(proposal, chapter, set(pids), title_records))
+                errors.extend(title_proposal_errors(proposal, chapter, set(pids), title_records, root))
                 if isinstance(proposal.get('source_appointment_context'), dict) and 'normalized_date' in proposal:
-                    check(proposal['normalized_date'].get('evidence') == proposal.get('evidence')
-                          and proposal['normalized_date'].get('source_expression') == proposal.get('date_expression'), '任命通知紀年須綁同一原句')
+                    jin098_outer_year_valid = False
+                    if proposal['normalized_date'].get('event_evidence_binding', {}).get('kind') == 'fixed_jin098_career_outer_year_chain':
+                        try:from scripts.fixed_jin098_wangdun_career_dates import date_valid as jin098_outer_year_date_valid
+                        except ImportError:from fixed_jin098_wangdun_career_dates import date_valid as jin098_outer_year_date_valid
+                        jin098_outer_year_valid = jin098_outer_year_date_valid(proposal['normalized_date'], proposal, 'appointment_notice', chapters, root)
+                    check((proposal['normalized_date'].get('evidence') == proposal.get('evidence')
+                          and proposal['normalized_date'].get('source_expression') == proposal.get('date_expression')) or jin098_outer_year_valid, '任命通知紀年須綁同一原句')
                     errors.extend(normalized_date_errors(proposal['normalized_date'], chapters, root, proposal, 'appointment_notice'))
 
         try:
@@ -2035,7 +2231,7 @@ def _validate_uncached(root=ROOT):
                     for evidence in age.get('evidence', []):
                         hit = paragraphs.get(evidence.get('paragraph_id'))
                         if hit:
-                            errors.extend(age_approximation_errors(age, hit[1]))
+                            errors.extend(age_approximation_errors(age, hit[1], root=root, chapter=chapter))
                     check(bool(age.get('evidence')), '約數報齡缺少來源證據')
                 elif 'bounds' in age:
                     bounds = age.get('bounds'); group = age.get('group_reference')
@@ -2164,7 +2360,9 @@ def _validate_uncached(root=ROOT):
                                       for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(quote, i)), '年齡差人物未在引句中')
                     if reference and isinstance(quote, str):
                         terms = ['少' + reference[2]['surface'] + str(age.get('source_number')) + suffix for suffix in ('歲', '歳')]
-                        check(age.get('source_term') in terms and age.get('source_term') in quote, '年齡差原詞與參考人物不符')
+                        try:from scripts.fixed_jin031_jia_typed import difference_valid as jin031_difference_valid
+                        except ImportError:from fixed_jin031_jia_typed import difference_valid as jin031_difference_valid
+                        check((age.get('source_term') in terms and age.get('source_term') in quote) or jin031_difference_valid(age,chapter,root), '年齡差原詞與參考人物不符')
         for report in age_report_groups.values():
             check('qualified_report' in report['statuses'], '報齡替代傳聞缺同組主報齡')
         try:
@@ -2178,8 +2376,10 @@ def _validate_uncached(root=ROOT):
             for case in chapter['annotation'].get('unresolved_kinship_references', []):
                 errors.extend(unresolved_kin_errors(case, chapters, pids))
         address_ids = set()
+        group_address_records=[]
         for path in (root / 'corpus').glob('*/*-addresses.json'):
             record = json.loads(path.read_text(encoding='utf-8'))
+            group_address_records.append(record)
             check(record['record_type'] == 'person_address_assertion_set' and record['chapter_id'] in chapters, '地址主張集格式或篇不存在')
             for address in record['assertions']:
                 if 'received_source_frame' in address:
@@ -2192,6 +2392,10 @@ def _validate_uncached(root=ROOT):
                     check(address_valid(address,chapters[record['chapter_id']]),'地望須逐角色綁原詞與來源，隱居不作卒地、共稱不擴及後人')
                 check(address['id'] not in address_ids, '地址主張 ID 重複'); address_ids.add(address['id'])
                 check(address['person_id'] in pids and address['status'] == 'source_attested', '地址人物或狀態無效')
+                # fixed-wyd045-zhenzhi-home
+                try:from scripts.wyd_song045_zhenzhi_life import address_applies,address_valid
+                except ImportError:from wyd_song045_zhenzhi_life import address_applies,address_valid
+                if address_applies(address):check(address_valid(address,chapters[record['chapter_id']],root),'鎮之卒於家須保未知具名地點，不借京口或他人')
                 check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place', 'capital_location', 'polity_lineage_affiliation', 'source_locality_designation', 'service_location', 'fief'), '地址關係類型未知')
                 if address['relation'] == 'fief' or 'fief_kind' in address.get('qualifiers', {}):
                     kind = address.get('qualifiers', {}).get('fief_kind')
@@ -2257,7 +2461,10 @@ def _validate_uncached(root=ROOT):
                     valid = bool(hit) and hit[0] == record['chapter_id'] == evidence['chapter_id']
                     check(valid and evidence['quote'] in hit[1]['text'], '地址證據篇段不符')
                     if valid:
-                        check(address['place']['source_name'] in evidence['quote'] and address['source_term'] in evidence['quote'], '地址原詞不在證據')
+                        try:from scripts.fixed_wuyingdian_jin040_jiachong import address_fragment_valid as jin040_address_fragment_valid
+                        except ImportError:from fixed_wuyingdian_jin040_jiachong import address_fragment_valid as jin040_address_fragment_valid
+                        fragment_address=jin040_address_fragment_valid(address,root)if address.get('qualifiers',{}).get('source_address_fragments',{}).get('kind')=='received_wyd_jin040_adjacent_address'else False
+                        check((address['place']['source_name'] in evidence['quote'] and address['source_term'] in evidence['quote'])or fragment_address, '地址原詞不在證據')
                         check(address['date_expression'] is None or address['date_expression'] in evidence['quote'], '地址日期不在證據')
                         context = evidence.get('context'); carried = False
                         if context is not None:
@@ -2285,7 +2492,7 @@ def _validate_uncached(root=ROOT):
                                         for i in range(len(previous[1]['text'])) if previous[1]['text'].startswith(quote, i))
                                 and bool(address.get('interpretation_note')))
                             check(carried, '地址主語承接須有同篇人物錨點、引句及完整中間段落')
-                        check(carried or any(m.get('person_id') == address['person_id'] for m in hit[1]['mentions']), '地址人物未見於證據段')
+                        check(carried or fragment_address or any(m.get('person_id') == address['person_id'] for m in hit[1]['mentions']), '地址人物未見於證據段')
                         check(chapters[hit[0]]['source_id'] == evidence['source_id'], '地址來源 ID 不符')
         life_event_ids = set()
         for path in list((root / 'corpus').glob('*/*-life-events.json')) + list((root / 'corpus').glob('*/*-person-events.json')):
@@ -2305,7 +2512,15 @@ def _validate_uncached(root=ROOT):
                 try:from scripts.wyd_song044_life import valid as wyd_life_valid
                 except ImportError:from wyd_song044_life import valid as wyd_life_valid
                 check(wyd_life_valid(record,root),'武英殿謝晦篇死亡須依具名列舉、主語承接及同段原免，不借日期或刪矛盾')
+            # fixed-wyd045-life-record
+            if record.get('chapter_id')=='c-songshu-045-wyd1739-liucui'and record.get('record_type')=='person_life_event_assertion_set':
+                try:from scripts.wyd_song045_lifecycle import valid as wyd045_life_valid
+                except ImportError:from wyd_song045_lifecycle import valid as wyd045_life_valid
+                check(all(wyd045_life_valid(e,root)for e in record['events']),'宋045死亡本源角色/敘事時點不符')
             for event in record['events']:
+                try:from scripts.xie_three_source_roles import event_applies as xie_three_event_applies, event_valid as xie_three_event_valid
+                except ImportError:from xie_three_source_roles import event_applies as xie_three_event_applies, event_valid as xie_three_event_valid
+                if xie_three_event_applies(event):check(xie_three_event_valid(event,root),'叔段引古不可當宋代在場/死亡')
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
@@ -2346,7 +2561,7 @@ def _validate_uncached(root=ROOT):
                             from scripts.received_career_roles import event_valid as career_event_valid
                         except ImportError:
                             from received_career_roles import event_valid as career_event_valid
-                        noble_valid = career_event_valid(event, chapters[event['evidence'][0]['chapter_id']])
+                        noble_valid = career_event_valid(event, chapters[event['evidence'][0]['chapter_id']],root)
                     else:
                         noble_valid = noble_abolition_valid(event, paragraphs)
                     if 'received_source_frame' in event:
@@ -2502,6 +2717,16 @@ def _validate_uncached(root=ROOT):
             from life_event_dates import date_decision_errors, date_record_scope_errors
         dated_events = {e['id']: e for path in (root / 'corpus').glob('*/*-life-events.json')
                         for e in json.loads(path.read_text())['events']}
+        try:from scripts.life_event_groups import validated_groups as validate_life_groups
+        except ImportError:from life_event_groups import validated_groups as validate_life_groups
+        group_records=[]
+        for group_path in (root/'corpus').glob('*/*-life-event-groups.json'):
+            group_record=json.loads(group_path.read_text())
+            check(group_record.get('record_type')=='person_life_event_group_set','同事件資料類型不符')
+            group_records.append(group_record)
+        try:
+            validate_life_groups(list(chapters.values())+[{'record_type':'person_life_event_assertion_set','events':list(dated_events.values())}]+group_records+group_address_records,{p['id']:p for p in people},root)
+        except ValueError as error:errors.append(str(error))
         try:
             from scripts.age_context import age_context_valid
         except ImportError:
@@ -2545,6 +2770,12 @@ def _validate_uncached(root=ROOT):
                 from family_assemblies import load_assemblies
                 from person_bundle import load_catalog
         catalog = load_catalog(root)
+        try:from scripts.source_family_counts import close_kin_counts
+        except ImportError:from source_family_counts import close_kin_counts
+        close_kin_counts(catalog[1],catalog[0],root,set(catalog[0]))
+        try:from scripts.profile_title_preferences import errors as profile_title_errors
+        except ImportError:from profile_title_preferences import errors as profile_title_errors
+        errors.extend(profile_title_errors(root,catalog[1],catalog[0]))
         try:
             from scripts.biographical_appointment_sequence import errors as appointment_sequence_errors
         except ImportError:
@@ -2554,8 +2785,53 @@ def _validate_uncached(root=ROOT):
             from scripts.surname_from_father import validate as validate_inferred_surname
         except ImportError:
             from surname_from_father import validate as validate_inferred_surname
+        try:
+            from scripts.fixed_repository_family_names import validate_installed as validate_repository_family_names
+        except ImportError:
+            from fixed_repository_family_names import validate_installed as validate_repository_family_names
+        try:validate_repository_family_names(root,catalog[0],catalog[1])
+        except (ValueError,KeyError,TypeError,OSError,IndexError,StopIteration) as exc:errors.append(str(exc))
         all_name_records = [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']]
+        try:
+            from scripts.fixed_liang041_wanggui import validate_names_installed as liang041_names_installed
+        except ImportError:
+            from fixed_liang041_wanggui import validate_names_installed as liang041_names_installed
+        try:liang041_names_installed(root,all_name_records)
+        except (AssertionError,ValueError,KeyError,TypeError,OSError) as exc:errors.append('梁041姓名固定側錄不符')
+        try:from scripts.sgz023_pei_name_components import installed as pei_three_names_installed
+        except ImportError:from sgz023_pei_name_components import installed as pei_three_names_installed
+        try:pei_three_names_installed(root,all_name_records)
+        except (AssertionError,KeyError,ValueError,TypeError,OSError) as exc:errors.append('裴氏三姓名有限來源側錄不符')
         for n in all_name_records:
+            if isinstance(n,dict)and(n.get('chapter_id')=='c-jinshu-034-yanghu-comparison'or str(n.get('person_mention_id','')).startswith('c-jinshu-034-yanghu-comparison:')):
+                try:from scripts.fixed_jin034_yanghu_ner import name_record_valid as yang034_name_valid
+                except ImportError:from fixed_jin034_yanghu_ner import name_record_valid as yang034_name_valid
+                check(yang034_name_valid(n,root,all_name_records),'晉034姓名須完整有限來源與原名/復姓/未知本名分層')
+            if isinstance(n,dict)and(n.get('chapter_id')=='c-jinshu-036-wei-comparison'or str(n.get('person_mention_id','')).startswith('c-jinshu-036-wei-comparison:')):
+                try:from scripts.fixed_jin036_wei_ner import name_record_valid as wei036_name_valid
+                except ImportError:from fixed_jin036_wei_ner import name_record_valid as wei036_name_valid
+                check(wei036_name_valid(n,root,all_name_records),'晉036姓名必須依完整來源槽及literal/編輯復姓分層')
+            if isinstance(n,dict)and(n.get('chapter_id')=='c-jinshu-031-jia-comparison'or str(n.get('person_mention_id','')).startswith('c-jinshu-031-jia-comparison:')):
+                try:from scripts.fixed_jin031_jia_full_ner import name_record_valid as jia031_name_valid
+                except ImportError:from fixed_jin031_jia_full_ner import name_record_valid as jia031_name_valid
+                check(jia031_name_valid(n,root,all_name_records),'晉031姓名須為本源原名/公主稱號與原核心姓名，不能借同段別人姓名或把未名稱號填ming')
+            if isinstance(n,dict)and (n.get('chapter_id')=='c-jinshu-098-wangdun-comparison'or str(n.get('person_mention_id','')).startswith('c-jinshu-098-wangdun-comparison:')):
+                try:from scripts.fixed_jin098_wangdun_comparison import name_record_valid as jin098_name_valid
+                except ImportError:from fixed_jin098_wangdun_comparison import name_record_valid as jin098_name_valid
+                check(jin098_name_valid(n,root),'晉098姓名須為完整有限原名/復姓槽，不得把疑誤字當姓名')
+            # fixed-wyd051-received-name-semantic-gates
+            if isinstance(n,dict)and ((isinstance(n.get('full_name_basis'),dict)and n['full_name_basis'].get('kind')in('received_wyd_complete_unit_unsplit_name','received_song067_selfcommentary_literal_full_name','fixed_repository_witness_unsplit_name'))or(isinstance(n.get('xiaozhi_basis'),dict)and n['xiaozhi_basis'].get('kind')=='received_wyd_complete_unit_xiaozhi_apposition')):
+                try:from scripts.person_bundle import validate_full_name
+                except ImportError:from person_bundle import validate_full_name
+                try:from scripts.name_childhood import validate_childhood_name
+                except ImportError:from name_childhood import validate_childhood_name
+                nc=chapters.get(n.get('chapter_id'));np=next((p for p in nc['paragraphs']if p['id']==n.get('paragraph_id')),None)if isinstance(nc,dict)else None
+                try:validate_full_name(n,np,chapter=nc,root=root);validate_childhood_name(n,np,chapter=nc,root=root)
+                except ValueError as exc:errors.append(str(exc))
+            # fixed-wyd045-name-components
+            try:from scripts.wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid
+            except ImportError:from wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid
+            if wyd045_name_applies(n):check(wyd045_name_valid(n,all_name_records,chapters,family_relations,root),'宋045姓名須依原名錨點及完整近系姓氏證據')
             if 'component_source_binding' in n:
                 try:from scripts.received_family_names import source_component_valid
                 except ImportError:from received_family_names import source_component_valid
@@ -2578,7 +2854,7 @@ def _validate_uncached(root=ROOT):
             from preferred_name_components import validated_readings
         validated_readings(catalog[1],
             [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']],
-            {r['id']:r for r in catalog[1] if r.get('record_type') == 'marked_chapter'})
+            {r['id']:r for r in catalog[1] if r.get('record_type') == 'marked_chapter'}, root=root)
         try:
             from scripts.cross_chapter_references import errors as cross_reference_errors
         except ImportError:
@@ -2636,6 +2912,9 @@ def _validate_uncached(root=ROOT):
     except ImportError:
         from name_xiaoming import validate_records as validate_xiaoming_records
     errors.extend(validate_xiaoming_records(root))
+    try:from scripts.fixed_shiji124_zhaotayu_reference_name import errors as zhaotayu_errors
+    except ImportError:from fixed_shiji124_zhaotayu_reference_name import errors as zhaotayu_errors
+    errors.extend(zhaotayu_errors(root,chapters))
     return errors
 
 def main():

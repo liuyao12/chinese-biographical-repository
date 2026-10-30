@@ -1,0 +1,373 @@
+{
+  "record_type": "exact_historical_reference_qualification",
+  "scope": "Only the listed exact files, hashes and JSON pointers. No directory or person-ID exception; no runtime aliases.",
+  "records": [
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/historical-before/fanyang-lu-family-assembly/current-review.json",
+      "sha256": "4f83edf6b923f9933ff0f4c4433bf713b01a1c6e065b8b5733185dd73d1d9931",
+      "role": "historical_before_current_projection_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/records/8/projection/people/11/id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/records/9/projection/rows/9/id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/records/10/projection/entries/9/person_id",
+          "value": "22c_ebb_6e0"
+        }
+      ],
+      "purpose": "現役reference投影；只改列出的人物端點，historical_file/hash/ref及原捕獲子樹不改。"
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c.json",
+      "sha256": "3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/11/same_surface_candidates/29/person_id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/11/same_surface_candidates/50/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/18/same_surface_candidates/154/person_id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/21/same_surface_candidates/36/person_id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/21/same_surface_candidates/52/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/47/same_surface_candidates/21/person_id",
+          "value": "ptn_sz3_vro_A"
+        }
+      ],
+      "purpose": "當時同表面召回候選清單，不是人物查詢端點；逐候選保真。"
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/7e44cd0f1d095dae577accd6069f15dc71d2d8184d8f06f2d1255982c3a3b62a.json",
+      "sha256": "7e44cd0f1d095dae577accd6069f15dc71d2d8184d8f06f2d1255982c3a3b62a",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/e-liang030-gaozu/hits/22/id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/e-liang030-gaozu/hits/36/id",
+          "value": "22c_ebb_6e0"
+        }
+      ],
+      "purpose": "初讀梁030時捕獲當時完整registry候選，用作排重研究；不能因檔名current即回寫舊快照。"
+    },
+    {
+      "path": "source-evidence/liang030-peiziye-source-reading/existing-native-context-bridges.json",
+      "sha256": "d19126d64f1f969b749cf860b58a331e37b66597d85e4bebb0d891b48cd1aba8",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/0/paragraph/mentions/21/person_id",
+          "value": "59f_167_cb3"
+        }
+      ],
+      "purpose": "初讀時擷取既收宋053整段含原標記的跨源橋捕獲。"
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/8d6553e871968304acb30d64713d254e53beab44dc843fad884e7e34aa2fe025.json",
+      "sha256": "8d6553e871968304acb30d64713d254e53beab44dc843fad884e7e34aa2fe025",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/identity_rows/14/person_id",
+          "value": "3bh_k4m_fg4"
+        }
+      ],
+      "purpose": "已完成該次閱讀的角色處置與MID清單；正式當前端點在corpus本章與registry，不以研究結果表充當查詢。"
+    },
+    {
+      "path": "source-evidence/nanshi033-pei-source-reading/review.json",
+      "sha256": "b50e0d47d996c223d03e653b18ccf6ff007e57f47c87d72337a058c9ee129b95",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/identities/11/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/paragraph_dispositions/6/marked/0/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/paragraph_dispositions/6/marked/3/person_id",
+          "value": "22c_ebb_6e0"
+        }
+      ],
+      "purpose": "初讀來源、逐段處置與引用的既有evidence快照；保當時身份記錄及元資料。"
+    },
+    {
+      "path": "source-evidence/sanguozhi022-luyu-identity-qualification/review.json",
+      "sha256": "df2a73d55e05872e5abac956e1d186149fc8216208c98bf9a6c67375b90257e7",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/decisions/2/existing_complete_citations/3/paragraph/mentions/62/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/decisions/2/existing_complete_citations/3/paragraph/mentions/72/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/decisions/2/existing_complete_citations/4/paragraph/mentions/31/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/decisions/2/existing_complete_citations/4/paragraph/mentions/32/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/decisions/2/existing_complete_citations/4/paragraph/mentions/39/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/decisions/2/existing_complete_citations/4/paragraph/mentions/40/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/decisions/2/existing_complete_citations/4/paragraph/mentions/42/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/decisions/2/existing_complete_citations/4/paragraph/mentions/45/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/decisions/2/existing_complete_citations/4/paragraph/mentions/54/person_id",
+          "value": "22c_ebb_6e0"
+        }
+      ],
+      "purpose": "完整既有引文paragraph/mentions歷史捕獲，非現役章副本。"
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/4c7333eaed2e053c32184f97cac75da5a581d04b8bf6618e8a7189a4359787ac.json",
+      "sha256": "4c7333eaed2e053c32184f97cac75da5a581d04b8bf6618e8a7189a4359787ac",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/reused_current_id_contexts/1/paragraph/mentions/0/person_id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/reused_current_id_contexts/1/paragraph/mentions/48/person_id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/reused_current_id_contexts/3/paragraph/mentions/0/person_id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/reused_current_id_contexts/3/paragraph/mentions/48/person_id",
+          "value": "3bh_k4m_fg4"
+        }
+      ],
+      "purpose": "已引用宋053整段的閱讀捕獲，非當前marked_chapter。"
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/480bcd7709e9dce5e0ab1c46b40834635dd69fc6f7656e5c986100c70591823c.json",
+      "sha256": "480bcd7709e9dce5e0ab1c46b40834635dd69fc6f7656e5c986100c70591823c",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/people/2/all_exact_surface_candidates/46/id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/people/11/id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/people/11/all_exact_surface_candidates/32/id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/people/19/all_exact_surface_candidates/19/id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/people/24/all_exact_surface_candidates/28/id",
+          "value": "3bh_k4m_fg4"
+        }
+      ],
+      "purpose": "附base_commit及當時全registry召回的身份審閱原件；已有兩current projection指向其歷史hash。",
+      "captured_from_path": "source-evidence/song046-zhangshao-native/identity-review.json"
+    },
+    {
+      "path": "source-evidence/song047-liuhuaisu-recovery/identity-decisions.json",
+      "sha256": "7c372a16d5c918354e73908e0b9e9b1e4cec8536a0c4507b2606f0ba2cc87d2c",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/1/resolved/太祖",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/1/resolved/上",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/1/resolved/予",
+          "value": "22c_ebb_6e0"
+        }
+      ],
+      "purpose": "來源重建階段保存角色resolved決定的研究原件；現役身份在native章與identity sidecar。"
+    },
+    {
+      "path": "source-evidence/song047-liuhuaisu-recovery/initial-identity-decisions.json",
+      "sha256": "8afa3abe0d5496cf1532fc148717233ba5dc07a151c9d033306206427cec661a",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/records/1/resolved/太祖",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/records/1/resolved/上",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/records/1/resolved/予",
+          "value": "22c_ebb_6e0"
+        }
+      ],
+      "purpose": "明標initial的恢復讀稿與當時resolved映射原件。"
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/3604795d97467287a9b979e94050f458ac0b6b87baaafbfd73357566922732d9.json",
+      "sha256": "3604795d97467287a9b979e94050f458ac0b6b87baaafbfd73357566922732d9",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/rows/9/id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/rows/9/all_exact_surface_candidates/19/id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/rows/9/all_exact_surface_candidates/34/id",
+          "value": "22c_ebb_6e0"
+        }
+      ],
+      "purpose": "當時input_D_person_count與全registry碰撞召回；有current projection指回其精確候選子樹。"
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/44df412fd7993a1ead9a9bf9282790a5b69535c7169d344746e46259aeecf8c0.json",
+      "sha256": "44df412fd7993a1ead9a9bf9282790a5b69535c7169d344746e46259aeecf8c0",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/entries/9/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/entries/9/all_registry_surface_candidates/19/person_id",
+          "value": "3bh_k4m_fg4"
+        }
+      ],
+      "purpose": "base_commit下的原姓名召回與選定處置；current projection另存當前端點。"
+    },
+    {
+      "path": "source-evidence/song059-zhangchang-recovery/identity-bridges.json",
+      "sha256": "80c49a47de5b4a11291e822f40b9147f447b0e6b87bfe81ff605ff852ff90492",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/title_scopes/太祖",
+          "value": "22c_ebb_6e0"
+        }
+      ],
+      "purpose": "當時source reading title scopes與身份橋原件，非runtime身份表。"
+    },
+    {
+      "path": "source-evidence/song064-peisongzhi-reading/entity-dispositions.json",
+      "sha256": "16dac3dabee010b7d8b9aa58c7ea50a4dcb18f1a197f6c802a08627bc92e5ba4",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/13/person_id",
+          "value": "22c_ebb_6e0"
+        }
+      ],
+      "purpose": "初讀每角色的reuse依據與MID閱讀結果；正式人物mark/identity別存native。"
+    },
+    {
+      "path": "source-evidence/song064-peisongzhi-reading/unconsumed-proposals.json",
+      "sha256": "4e451d29b7815b61e0d7e7dbf13e4ba3d8880e3e9a24f7373b061ed9d2d13d43",
+      "role": "historical_reading_capture_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/proposals/11/person_id",
+          "value": "22c_ebb_6e0"
+        },
+        {
+          "pointer": "/proposals/60/person_id",
+          "value": "22c_ebb_6e0"
+        }
+      ],
+      "purpose": "明標all_unconsumed的未採提案快照，不能當current可查typed事實。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/historical-before/weishu038-wang44-consumption.json",
+      "sha256": "6b7d61006f83507adb47148333581036bc4467155700266d96231c247280fa33",
+      "role": "historical_before_current_projection_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/proposal_records/54/person_id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/proposal_records/57/person_id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/proposal_records/62/person_id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/proposal_records/78/person_id",
+          "value": "3bh_k4m_fg4"
+        },
+        {
+          "pointer": "/proposal_records/87/person_id",
+          "value": "3bh_k4m_fg4"
+        }
+      ],
+      "purpose": "tests/test_weishu038_wanghuilong_source.py setUpClass真讀proposal_records；供native消費狀態核查，原件需另路徑封存，只改當前person_id端點。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/historical-before/xunyou-ancestor-assembly/current-review.json",
+      "sha256": "22b174c0774681c0ccc0b5ca574cf2be7cdc0565418a2814da11c1cf494869f7",
+      "role": "historical_before_current_projection_not_current_endpoint_not_alias",
+      "protected_json_pointers": [
+        {
+          "pointer": "/records/3/projection/people/11/id",
+          "value": "22c_ebb_6e0"
+        }
+      ],
+      "purpose": "現役reference投影；只改列出的人物端點，historical_file/hash/ref及原捕獲子樹不改。"
+    }
+  ],
+  "human_reviewed": false,
+  "model": null
+}

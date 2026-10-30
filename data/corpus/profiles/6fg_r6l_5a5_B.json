@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "id": "6fg_r6l_5a5_B",
+  "canonical_person_id": "6fg_r6l_5a5_B",
+  "label": "嵇康未名女（絕交書）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "女"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 49,
+      "category": "",
+      "title": "嵇康",
+      "paragraph_id": "c-jinshu-049-jikang-rendered-comparison:p009",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "吾新失母兄之歡，意常淒切。女年十三，男年八歳，未及成人，況復多疾，顧此悢悢，如何可言。今但欲守陋巷，教養子孫，時時與親舊敘離闊，陳説平生，濁酒一盃，彈琴一曲，志意畢矣，豈可見黃門而稱貞哉！若趣欲共登王塗，期於相致，時爲懽益，一旦",
+      "paragraph_ids": [
+        "c-jinshu-049-jikang-rendered-comparison:p009"
+      ],
+      "mention_ids": [
+        "c-jinshu-049-jikang-rendered-comparison:p009:m0013"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-049-jikang-rendered-comparison:p009:m0013": "c-jinshu-049-jikang-rendered-comparison:p009"
+      },
+      "mention_id": "c-jinshu-049-jikang-rendered-comparison:p009:m0013",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-049-jikang-rendered-comparison:p009:m0013",
+          "mention_ids": [
+            "c-jinshu-049-jikang-rendered-comparison:p009:m0013"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-049",
+      "chapter_id": "c-jinshu-049-jikang-rendered-comparison",
+      "source_id": "s-jinshu049-jikang-web-rendered-comparison",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-049-jikang-rendered-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-049",
+      "source_id": "s-jinshu049-jikang-web-rendered-comparison",
+      "source": {
+        "title": "晉書卷四十九嵇康",
+        "provider": "Wikisource web-rendered capture",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷049",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷049&oldid=2199702",
+        "revision_id": null,
+        "revision_id_observed_in_navigation": 2199702,
+        "fixed_revision_independently_obtained": false,
+        "original_wikitext_obtained": false,
+        "original_HTML_obtained": false,
+        "capture_ref": "source-evidence/jin049-jikang-rendered-comparison/web-rendered-extract.txt",
+        "capture_sha256": "29c47ce1cafc7ab2c1318b007e5fd9a4f92bc4c6610cc85d604422533bdfa8eb",
+        "capture_kind": "web_tool_rendered_text_capture",
+        "accessed_on": "2026-10-27",
+        "extent": "嵇康傳首至子紹別有傳完整17個數位自然段；全收其論、絕交書與幽憤詩；非卷四十九全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "edition": null,
+        "witness_role": "comparison_only",
+        "rights": "古代正文；維基文庫數位轉錄保留來源與CC BY-SA 4.0歸屬；本地擷取hash不是原網站raw/PDF hash。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "從實際web工具rendered列226–253抽取；只移工具列標、連結顯示語法與段首縮排。座標指捕獲文字本身，不冒原HTML/wikitext或印本行字。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin049-daughter-father-kang",
+      "subject_person_id": "6fg_r6l_5a5_B",
+      "predicate": "father",
+      "object_person_id": "6fg_r6l_5a5",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "吾…女年十三"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-049",
+          "source_id": "s-jinshu049-jikang-web-rendered-comparison",
+          "chapter_id": "c-jinshu-049-jikang-rendered-comparison",
+          "paragraph_id": "c-jinshu-049-jikang-rendered-comparison:p009",
+          "quote": "吾新失母兄之歡，意常淒切。女年十三，男年八歳，未及成人，況復多疾，顧此悢悢，如何可言。今但欲守陋巷，教養子孫，時時與親舊敘離闊，陳説平生，濁酒一盃，彈琴一曲，志意畢矣，豈可見黃門而稱貞哉！若趣欲共登王塗，期於相致，時爲懽益，一旦迫之，必發狂疾。自非重讎，不至此也。既以解足下，并以爲別。",
+          "subject_person_mention_id": "c-jinshu-049-jikang-rendered-comparison:p009:m0013",
+          "object_person_mention_id": "c-jinshu-049-jikang-rendered-comparison:p009:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "比較擷取原詞；引語歸屬保留，不推共同父、生母、生年或絕對排行。"
+    }
+  ],
+  "related_people": {
+    "6fg_r6l_5a5": "嵇康",
+    "6fg_r6l_5a5_B": "嵇康未名女（絕交書）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "6fg_r6l_5a5_B"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin049-daughter-father-kang",
+      "subject_person_id": "6fg_r6l_5a5_B",
+      "predicate": "father",
+      "object_person_id": "6fg_r6l_5a5",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "吾…女年十三"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-049",
+          "source_id": "s-jinshu049-jikang-web-rendered-comparison",
+          "chapter_id": "c-jinshu-049-jikang-rendered-comparison",
+          "paragraph_id": "c-jinshu-049-jikang-rendered-comparison:p009",
+          "quote": "吾新失母兄之歡，意常淒切。女年十三，男年八歳，未及成人，況復多疾，顧此悢悢，如何可言。今但欲守陋巷，教養子孫，時時與親舊敘離闊，陳説平生，濁酒一盃，彈琴一曲，志意畢矣，豈可見黃門而稱貞哉！若趣欲共登王塗，期於相致，時爲懽益，一旦迫之，必發狂疾。自非重讎，不至此也。既以解足下，并以爲別。",
+          "subject_person_mention_id": "c-jinshu-049-jikang-rendered-comparison:p009:m0013",
+          "object_person_mention_id": "c-jinshu-049-jikang-rendered-comparison:p009:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "比較擷取原詞；引語歸屬保留，不推共同父、生母、生年或絕對排行。"
+    }
+  ],
+  "age_assertions": [
+    {
+      "id": "age-jin049-daughter13",
+      "person_id": "6fg_r6l_5a5_B",
+      "value": 13,
+      "source_number": "十三",
+      "source_term": "年十三",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "date_expression": null,
+      "status": "source_attested",
+      "age_context": {
+        "kind": "during_life"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-049",
+          "source_id": "s-jinshu049-jikang-web-rendered-comparison",
+          "chapter_id": "c-jinshu-049-jikang-rendered-comparison",
+          "paragraph_id": "c-jinshu-049-jikang-rendered-comparison:p009",
+          "person_mention_id": "c-jinshu-049-jikang-rendered-comparison:p009:m0013",
+          "quote": "吾新失母兄之歡，意常淒切。女年十三，男年八歳，未及成人，況復多疾，顧此悢悢，如何可言。今但欲守陋巷，教養子孫，時時與親舊敘離闊，陳説平生，濁酒一盃，彈琴一曲，志意畢矣，豈可見黃門而稱貞哉！若趣欲共登王塗，期於相致，時爲懽益，一旦迫之，必發狂疾。自非重讎，不至此也。既以解足下，并以爲別。"
+        }
+      ],
+      "interpretation_note": "保原報齡，不預設虛/周歲；書中兩子女報齡只繫該書敘述時點，書年未知，男首選紹不推唯一子或生年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

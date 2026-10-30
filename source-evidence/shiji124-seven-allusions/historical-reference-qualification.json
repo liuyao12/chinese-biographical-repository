@@ -1,0 +1,38 @@
+{
+  "record_type": "editorial_exact_historical_capture_qualification",
+  "captures": [
+    {
+      "path": "source-evidence/medieval-integration-archive/62e9116f974c75890e148acd0d71dd186a3e6e4601fe35de631931aafc2ac511.json",
+      "sha256": "62e9116f974c75890e148acd0d71dd186a3e6e4601fe35de631931aafc2ac511",
+      "historical_person_id_pointers": [
+        "/persons/1/name_lookup_candidates/5"
+      ],
+      "retained_person_ids_at_capture": [
+        "2lw_0ht_eid"
+      ],
+      "qualification": "既有不可變歷史捕獲的精確位置，保留原bytes；不是現役人物端點、別名、查詢入口或來源目錄豁免。"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/historical-before/xunyou-ancestor-assembly/current-review.json",
+      "sha256": "22b174c0774681c0ccc0b5ca574cf2be7cdc0565418a2814da11c1cf494869f7",
+      "historical_person_id_pointers": [
+        "/records/2/projection/unresolved/16/candidate_person_ids/5",
+        "/records/2/projection/unresolved/17/candidate_person_ids/2"
+      ],
+      "retained_person_ids_at_capture": [
+        "2lw_0ht_eid",
+        "u9a_n9v_y7z"
+      ],
+      "qualification": "既有不可變歷史捕獲的精確位置，保留原bytes；不是現役人物端點、別名、查詢入口或來源目錄豁免。"
+    }
+  ],
+  "active_rekey_paths": [
+    "source-evidence/huan-four-unit-reading/identity-worksheet.json",
+    "source-evidence/jia-empress-ws2479706-identity-proof.json",
+    "source-evidence/jin039-complete33-reading-review.json",
+    "source-evidence/xunyou-ancestor-assembly/current-review.json"
+  ],
+  "historical_values_not_current_aliases": true,
+  "composition_note": "relocation-provenance內protected_G_H_original_files的舊hash記錄先前整合時的歷史狀態，不凍結其後現役候選清單。此批實更新四份current帳本；舊文件完整bytes見before.json，未改歷史回指hash。",
+  "human_reviewed": false
+}

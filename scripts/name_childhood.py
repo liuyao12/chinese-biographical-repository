@@ -1,9 +1,14 @@
 """Explicit 'X者Y小字也' only; never infer a personal alias from generic source forms."""
-def validate_childhood_name(name,paragraph=None):
+def validate_childhood_name(name,paragraph=None,*,chapter=None,root=None):
     value=name.get('xiaozhi');basis=name.get('xiaozhi_basis')
     if value is None and basis is None:return
     def fail():raise ValueError('小字須有原文小字也、同人雙錨點及精確字位，不得冒作字或從泛稱推定')
     if not isinstance(value,str)or not value or value!=value.strip()or not isinstance(paragraph,dict)or name.get('quote')!=paragraph.get('text'):fail()
+    if isinstance(basis,dict)and basis.get('kind')=='received_wyd_complete_unit_xiaozhi_apposition':
+        try:from scripts.wyd_song051_yixin import childhood_apposition_valid
+        except ImportError:from wyd_song051_yixin import childhood_apposition_valid
+        if not childhood_apposition_valid(name,paragraph,chapter,root):fail()
+        return
     required={'kind','source_term','value_anchor','subject_anchor','marker_anchor','status','human_reviewed','rationale'}
     if not isinstance(basis,dict)or set(basis)!=required or basis.get('kind')!='explicit_xiaozhi_statement'or basis.get('status')!='source_attested'or basis.get('human_reviewed')is not False or not basis.get('rationale'):fail()
     text=paragraph['text'];pid=name.get('person_id');anchors=[basis.get(k)for k in ('value_anchor','subject_anchor','marker_anchor')]

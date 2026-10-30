@@ -13,11 +13,11 @@ def exact(anchor,p):
          and anchor['paragraph_id']==p.get('id')and type(anchor['start'])is int and type(anchor['end'])is int
          and 0<=anchor['start']<anchor['end']<=len(p['text'])and p['text'][anchor['start']:anchor['end']]==anchor['surface'])
 
-def marked(p,mid,pid):
+def marked(p,mid,pid,*,allow_pronoun=False):
  hits=[m for m in p.get('mentions',[])if m.get('id')==mid]
  if len(hits)!=1:return None
  m=hits[0]
- return m if m.get('kind')=='person'and m.get('person_id')==pid and p['text'][m['start']:m['end']]==m['surface'] else None
+ return m if (m.get('kind')=='person'or(allow_pronoun and m.get('kind')=='pronoun'and m.get('surface')=='之'))and m.get('person_id')==pid and p['text'][m['start']:m['end']]==m['surface'] else None
 
 def cross_chapter_annal_date_valid(date,record,role,chapters):
  try:
@@ -50,13 +50,13 @@ def cross_chapter_annal_date_valid(date,record,role,chapters):
       or not all(isinstance(v,str)and v for v in list(of.values())+list(af.values()))):return False
   op=next(p for p in oc['paragraphs']if p['id']==origin['paragraph_id']);ap=next(p for p in ac['paragraphs']if p['id']==annal['paragraph_id'])
   if ap.get('text_layer')!='received_chapter'or ap.get('source_position',{}).get('source_layer')!='received_annal':return False
-  om=marked(op,origin['person_mention_id'],record['person_id']);am=marked(ap,annal['person_mention_id'],record['person_id'])
+  om=marked(op,origin['person_mention_id'],record['person_id'],allow_pronoun=True);am=marked(ap,annal['person_mention_id'],record['person_id'])
   if not om or not am:return False
   for side,p,m in [(origin,op,om),(annal,ap,am)]:
    ea,sa=side['event_anchor'],side['subject_clause_anchor']
    if not(exact(ea,p)and exact(sa,p)and sa['start']==m['start']and m['end']<=ea['end']==sa['end']and sa['start']<=ea['start']):return False
    # Every explicitly marked person between this subject and event must be this person.
-   if (side is annal or role=='start')and any(x.get('kind')=='person'and sa['start']<=x['start']<sa['end']and x.get('person_id')!=record['person_id']for x in p['mentions']):return False
+   if (side is annal or role=='start')and any(x.get('kind')in ('person','pronoun')and sa['start']<=x['start']<sa['end']and x.get('person_id')!=record['person_id']for x in p['mentions']):return False
   oa,aa=origin['event_anchor'],annal['event_anchor']
   year,clause=annal['year_anchor'],annal['date_clause_anchor']
   if (not exact(year,ap)or not exact(clause,ap)or year['surface']!=date.get('source_expression')
@@ -80,7 +80,7 @@ def cross_chapter_annal_date_valid(date,record,role,chapters):
    if set(linkage)!={'kind','biography_head_mention_id'}or linkage['kind']!='existing_illness_death_of_biography_subject':return False
    prefix=clause['surface'][:-len(am['surface']+'薨')]
    if not re.fullmatch(r'[春夏秋冬]?(?:正|[一二三四五六七八九十]+)月[甲乙丙丁戊己庚辛壬癸子丑寅卯辰巳午未申酉戌亥]{0,2}[^年月死卒薨殺害生曰云，。；]{0,12}',prefix):return False
-   if any(m.get('kind')=='person'and clause['start']<=m['start']<am['start']and m.get('person_id')!=record['person_id']for m in ap['mentions']):return False
+   if any(m.get('kind')in ('person','pronoun')and clause['start']<=m['start']<am['start']and m.get('person_id')!=record['person_id']for m in ap['mentions']):return False
    # This narrow annal grammar is a named person immediately followed by 薨.
    if aa['start']!=am['start']or aa['end']!=am['end']+1:return False
   else:

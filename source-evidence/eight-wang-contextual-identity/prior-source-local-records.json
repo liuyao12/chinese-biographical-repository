@@ -1,0 +1,273 @@
+{
+  "record_type": "historical_person_and_editorial_records_capture",
+  "scope": "Exact actual pre-adoption source-local qualifications and editorial states; not current canonical endpoints or aliases",
+  "human_reviewed": false,
+  "model": null,
+  "persons": [
+    {
+      "id": "vk5_fsh_iyt",
+      "label": "王綏〔八王評比〕",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "王綏",
+          "mention_ids": [
+            "c-jinshu-035-peikai-family:p019:m0036"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p019",
+          "mention_id": "c-jinshu-035-peikai-family:p019:m0036",
+          "quote": "王綏"
+        }
+      ],
+      "identity_note": "評比不明父職；不能直接把本段王戎子綏與評比綏確合，也不套父愉之綏。 本批已暫登本來源身份；未定跨篇同指不作等同合併，本批未新增關係斷言。",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "8sa_o0b_y2i",
+      "label": "王澄〔八王之一〕",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "王澄",
+          "mention_ids": [
+            "c-jinshu-035-peikai-family:p019:m0041"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p019",
+          "mention_id": "c-jinshu-035-peikai-family:p019:m0041",
+          "quote": "王澄"
+        }
+      ],
+      "identity_note": "現太原王濟弟澄未有評比交證；不因同名合，不補王平子身份。 本批已暫登本來源身份；未定跨篇同指不作等同合併，本批未新增關係斷言。",
+      "review": "ai_provisional"
+    }
+  ],
+  "identity_review_rows": [
+    {
+      "key": "wang-cheng",
+      "person_id": "8sa_o0b_y2i",
+      "disposition": "new_source_local_identity",
+      "rationale": "現太原王濟弟澄未有評比交證；不因同名合，不補王平子身份。 本批已暫登本來源身份；未定跨篇同指不作等同合併，本批未新增關係斷言。",
+      "preflight_candidates": [
+        {
+          "person_id": "a8f_ec8_e74_ABC",
+          "label": "王澄〔王濟弟〕",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-042",
+              "source_id": "s-jinshu-042-taiyuan-wang",
+              "chapter_id": "c-jinshu-042-taiyuan-wang",
+              "paragraph_id": "c-jinshu-042-taiyuan-wang:line017",
+              "mention_id": "c-jinshu-042-taiyuan-wang:line017:m0209",
+              "quote": "澄"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-042",
+              "source_id": "s-jinshu-042-taiyuan-wang",
+              "chapter_id": "c-jinshu-042-taiyuan-wang",
+              "paragraph_id": "c-jinshu-042-taiyuan-wang:line042",
+              "mention_id": "c-jinshu-042-taiyuan-wang:line042:m0062",
+              "quote": "澄"
+            }
+          ]
+        }
+      ],
+      "excluded_candidate_ids": [
+        "a8f_ec8_e74_ABC"
+      ],
+      "source_mention_ids": [
+        "c-jinshu-035-peikai-family:p019:m0041"
+      ],
+      "primary_context_paragraphs": [],
+      "human_reviewed": false
+    },
+    {
+      "key": "wang-sui-comparison",
+      "person_id": "vk5_fsh_iyt",
+      "disposition": "new_source_local_identity",
+      "rationale": "評比不明父職；不能直接把本段王戎子綏與評比綏確合，也不套父愉之綏。 本批已暫登本來源身份；未定跨篇同指不作等同合併，本批未新增關係斷言。",
+      "preflight_candidates": [
+        {
+          "person_id": "a8f_ec8_e74_AAAAABA",
+          "label": "王綏",
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-092",
+              "chapter_id": "c-songshu-092-wangzhenzhi",
+              "source_id": "s-songshu-092-wangzhenzhi",
+              "paragraph_id": "c-songshu-092-wangzhenzhi:line014",
+              "mention_id": "c-songshu-092-wangzhenzhi:line014:m0109",
+              "quote": "綏"
+            },
+            {
+              "work_id": "w-nanshi",
+              "book_id": "b-nanshi-024",
+              "chapter_id": "c-nanshi-024-wang-family",
+              "source_id": "s-nanshi-024-wang-family",
+              "paragraph_id": "c-nanshi-024-wang-family:line071",
+              "mention_id": "c-nanshi-024-wang-family:line071:m0107",
+              "quote": "綏"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-075",
+              "source_id": "s-jinshu-075-taiyuan-wang",
+              "chapter_id": "c-jinshu-075-taiyuan-wang",
+              "paragraph_id": "c-jinshu-075-taiyuan-wang:line110",
+              "mention_id": "c-jinshu-075-taiyuan-wang:line110:m0000",
+              "quote": "綏"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-075",
+              "source_id": "s-jinshu-075-taiyuan-wang",
+              "chapter_id": "c-jinshu-075-taiyuan-wang",
+              "paragraph_id": "c-jinshu-075-taiyuan-wang:line110",
+              "mention_id": "c-jinshu-075-taiyuan-wang:line110:m0029",
+              "quote": "綏"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-075",
+              "source_id": "s-jinshu-075-taiyuan-wang",
+              "chapter_id": "c-jinshu-075-taiyuan-wang",
+              "paragraph_id": "c-jinshu-075-taiyuan-wang:line110",
+              "mention_id": "c-jinshu-075-taiyuan-wang:line110:m0070",
+              "quote": "綏"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-075",
+              "source_id": "s-jinshu-075-taiyuan-wang",
+              "chapter_id": "c-jinshu-075-taiyuan-wang",
+              "paragraph_id": "c-jinshu-075-taiyuan-wang:line112",
+              "mention_id": "c-jinshu-075-taiyuan-wang:line112:m0002",
+              "quote": "綏"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-075",
+              "source_id": "s-jinshu-075-taiyuan-wang",
+              "chapter_id": "c-jinshu-075-taiyuan-wang",
+              "paragraph_id": "c-jinshu-075-taiyuan-wang:line112",
+              "mention_id": "c-jinshu-075-taiyuan-wang:line112:m0040",
+              "quote": "綏"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-075",
+              "source_id": "s-jinshu-075-taiyuan-wang",
+              "chapter_id": "c-jinshu-075-taiyuan-wang",
+              "paragraph_id": "c-jinshu-075-taiyuan-wang:line112",
+              "mention_id": "c-jinshu-075-taiyuan-wang:line112:m0080",
+              "quote": "綏"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-065",
+              "chapter_id": "c-jinshu-065-wangdao-family",
+              "source_id": "s-jinshu-065-wangdao-family",
+              "paragraph_id": "c-jinshu-065-wangdao-family:line100",
+              "mention_id": "c-jinshu-065-wangdao-family:line100:m0018",
+              "quote": "王綏"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-065",
+              "chapter_id": "c-jinshu-065-wangdao-family",
+              "source_id": "s-jinshu-065-wangdao-family",
+              "paragraph_id": "c-jinshu-065-wangdao-family:line102",
+              "mention_id": "c-jinshu-065-wangdao-family:line102:m0096",
+              "quote": "王綏"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-065",
+              "chapter_id": "c-jinshu-065-wangdao-family",
+              "source_id": "s-jinshu-065-wangdao-family",
+              "paragraph_id": "c-jinshu-065-wangdao-family:line102",
+              "mention_id": "c-jinshu-065-wangdao-family:line102:m0144",
+              "quote": "王綏"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-099",
+              "chapter_id": "c-jinshu-099-huanxuan",
+              "source_id": "s-jinshu-099-huanxuan-ws2644703",
+              "paragraph_id": "c-jinshu-099-huanxuan:p021",
+              "mention_id": "c-jinshu-099-huanxuan:p021:m1210",
+              "quote": "王綏"
+            }
+          ]
+        }
+      ],
+      "excluded_candidate_ids": [
+        "a8f_ec8_e74_AAAAABA"
+      ],
+      "source_mention_ids": [
+        "c-jinshu-035-peikai-family:p019:m0036"
+      ],
+      "primary_context_paragraphs": [],
+      "human_reviewed": false
+    }
+  ],
+  "unresolved_xuan_row": {
+    "mention_id": "c-jinshu-035-peikai-family:p019:m0061",
+    "paragraph_id": "c-jinshu-035-peikai-family:p019",
+    "surface": "王玄雲",
+    "start": 61,
+    "end": 64,
+    "person_id": null,
+    "kind": "uncertain_referent_or_name_boundary",
+    "contextually_named_member_person_ids": [],
+    "note": "王玄＋雲語尾為分詞候選，保原雲字，不創王玄雲身份。"
+  },
+  "original_annotation_cases": [
+    {
+      "id": "ic-jin035-sui-internal",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "brc_n26_ekm",
+        "vk5_fsh_iyt"
+      ],
+      "paragraph_ids": [
+        "c-jinshu-035-peikai-family:p011",
+        "c-jinshu-035-peikai-family:p019"
+      ],
+      "note": "前者父戎，末評比無父職，是否同人未定；不套現父愉王綏。"
+    },
+    {
+      "id": "ic-jin035-cheng",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "8sa_o0b_y2i",
+        "a8f_ec8_e74_ABC"
+      ],
+      "paragraph_ids": [
+        "c-jinshu-035-peikai-family:p019",
+        "c-jinshu-042-taiyuan-wang:line017"
+      ],
+      "note": "八王評比王澄與042王渾子澄缺交證，不按同名合。"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-051-wyd1739-zongshi",
+  "assertions": [
+    {
+      "id": "a-song051-yixin-daolian-relative-brother",
+      "subject_person_id": "3qs_nqa_ioa_AAB",
+      "predicate": "brother",
+      "object_person_id": "3qs_nqa_ioa_AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "高祖中弟也",
+        "source_unit_binding": {
+          "kind": "fixed_wyd_song051_yixin_complete_unit",
+          "case": "daolian-relative-brother",
+          "start": 6,
+          "end": 11,
+          "raw_sha256": "8d2ae0cd97228ef9a252a07a5886f2f0c3d445e305f311e484b38a97f462fcad"
+        },
+        "shared_father": null,
+        "source_child_sex": "male",
+        "relative_birth_order": {
+          "older_person_id": "3qs_nqa_ioa_AAA",
+          "younger_person_id": "3qs_nqa_ioa_AAB",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p001",
+          "quote": "長沙景王道憐高祖中弟也初為國子學生謝琰為徐州命為從事史高祖克京城進平京邑道憐常留家侍慰太后桓玄走大將軍武陵王遵承制除員外散騎侍郎尋遷建威將軍南彭城內史時北青州刺史劉該反引索虜為援清河陽平二郡太守孫全聚衆應之義熙元年索虜托跋開遣僞豫州刺史索度真先將軍解斯",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p001:m0000",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p001:m0006"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song051-yixin-daolian-mi-father",
+      "subject_person_id": "sp6_k2v_4kg_A",
+      "predicate": "father",
+      "object_person_id": "sp6_k2v_4kg",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "刁逵子彌",
+        "source_unit_binding": {
+          "kind": "fixed_wyd_song051_yixin_complete_unit",
+          "case": "daolian-mi-father",
+          "start": 157,
+          "end": 161,
+          "raw_sha256": "8d2ae0cd97228ef9a252a07a5886f2f0c3d445e305f311e484b38a97f462fcad"
+        },
+        "lineage": "paternal",
+        "source_child_term": "子",
+        "source_child_sex": "male"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p005",
+          "quote": "中都督刺史如故永初二年朝正入在殿省先是廬陵王義真為揚州刺史太后謂上曰道憐汝布衣兄弟故宜為揚州上曰寄奴於道憐豈有所惜揚州根本所寄事務至多非道憐所了太后曰道憐年出五十豈當不如汝十歲兒邪上曰車士雖為刺史事無大小悉由寄奴道憐年長不親其事於聽望不足太后乃無言車士義真小字也三年春高祖不豫加班劍三十人時道憐入朝留司馬陸仲元居守刁逵子彌為亡命率數十人入京城仲元擊斬之先是府史陳豔告彌有異謀至是賜錢二十萬除縣令五月宮車晏駕道憐疾患不堪臨",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p005:m0160",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p005:m0157"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

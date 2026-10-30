@@ -1,7 +1,51 @@
 import {orderChildren} from './sibling-order.js';
+import {summarizeNameComponents} from './name-components.js';
+
+// Relatives use the same source-qualified name consensus as their own profile.
+// Titles and generic surname-only forms are not personal-name replacements.
+export function familyPersonLabel(person) {
+  const fallback = person?.label || person?.id || '';
+  const {names, canHead} = summarizeNameComponents(person?.name_components, person?.preferred_name_component_readings);
+  if (!canHead || !names) return fallback;
+  if (names.clan_style?.value) return names.clan_style.value;
+  if (names.full_name) return names.full_name;
+  if (names.surname && names.ming) return names.surname + names.ming;
+  // A lone given name cannot safely replace a fuller registered label. No
+  // surname, title or relationship is guessed from that label at runtime.
+  if (names.ming && !person?.label) return names.ming;
+  return fallback;
+}
 // Read validated namespace metadata; its unnamed structural slot is never loaded as a person.
 export async function namespaceNavigation(person, load) {
   const row = person.assembled_identity, group = row?.collateral_root_group;
+  if (group?.type === 'explicit_received_brothers_parent_unidentified') {
+    const ids = group.root_person_ids, age = group.relative_age;
+    if (typeof row.namespace_id !== 'string' || row.root_person_id !== null
+        || group.status !== 'contextual_provisional'
+        || !Array.isArray(group.references) || !group.references.length
+        || !Array.isArray(ids) || ids.length !== 2 || new Set(ids).size !== 2
+        || ids.some(id => typeof id !== 'string' || !id.startsWith(row.namespace_id + '_')
+          || !/^[A-Z]$/.test(id.slice(row.namespace_id.length + 1)))
+        || !ids.includes(row.namespace_entry_person_id) || !ids.includes(person.id)
+        || group.common_parent_person_id !== null || group.common_parent_name !== null
+        || group.common_parent_registered !== false || group.biological_verification !== false
+        || typeof group.brother_assertion_id !== 'string' || !group.brother_assertion_id
+        || !Array.isArray(group.name_record_ids) || group.name_record_ids.length !== 2
+        || !group.name_record_ids.every(id => typeof id === 'string' && id)
+        || !age || age.operator !== 'lt' || age.scope !== 'siblings'
+        || age.older_person_id !== ids[0] || age.younger_person_id !== ids[1]
+        || age.older_ordinal !== null || age.younger_ordinal !== null) return null;
+    const roots = await Promise.all(ids.map(async id => {
+      let data;
+      try { data = await load(id); } catch { data = null; }
+      return {id, label: data ? familyPersonLabel(data) : id, ...(data ? {person: data} : {unavailable: true}),
+        role: 'source_attested', inference_note: group.rationale, evidence: group.references};
+    }));
+    return {namespace_id: row.namespace_id, entry_person_id: row.namespace_entry_person_id,
+      namespace_kind: group.type, roots, common_parent_person_id: null,
+      qualification: 'source_attested_brothers_parent_unidentified',
+      inference_note: group.rationale, evidence: group.references};
+  }
   if (!row?.namespace_id || row.root_person_id !== null
       || group?.type !== 'unknown_shared_father_from_qualified_first_cousins'
       || group.status !== 'contextual_provisional' || !Array.isArray(group.references) || !group.references.length
@@ -13,7 +57,7 @@ export async function namespaceNavigation(person, load) {
   const roots = await Promise.all(group.root_person_ids.map(async id => {
     let data;
     try { data = await load(id); } catch { data = null; }
-    return {id, label: data?.label || id, ...(data ? {person: data} : {unavailable: true}),
+    return {id, label: data ? familyPersonLabel(data) : id, ...(data ? {person: data} : {unavailable: true}),
       role: 'assembly_inferred', inference_note: group.rationale, evidence: group.references};
   }));
   return {namespace_id: row.namespace_id, entry_person_id: row.namespace_entry_person_id,
@@ -99,7 +143,23 @@ export async function traceFamily(person, load) {
       if (row?.connection === kind && ids.has(row.person_id) && id && !ids.has(id)
           && !result.has(id) && row.assembly_id
           && ['editorial_preferred', 'contextual_provisional'].includes(row.status)
-          && ['shared_ancestor_through_sibling', 'wyd_song044_paternal_nephew_to_uncle_father'].includes(connection?.type)
+          && ['shared_ancestor_through_sibling', 'wyd_song044_paternal_nephew_to_uncle_father', 'fixed_jin080_paternal_nephew_to_uncle_father', 'ancestor_through_explicit_child_parent'].includes(connection?.type)
+          && (connection.type !== 'ancestor_through_explicit_child_parent' || (kind === 'great_grandfather' && row.parent_person_id === null && row.generation_distance === 3 && row.intermediate_person_ids?.length === 2 && row.intermediate_person_ids.every(x => x === null) && connection.human_reviewed === false && connection.source_child_ancestor_distance === 4 && connection.source_child_parent_distance === 1 && connection.projected_parent_ancestor_distance === 3 && typeof connection.child_person_id === 'string' && Array.isArray(connection.references) && connection.references.length >= 2 && connection.child_ancestor_assertion_id !== connection.child_parent_assertion_id && [connection.child_ancestor_assertion_id, connection.child_parent_assertion_id].every(id => typeof id === 'string' && connection.references.some(ref => ref.assertion_id === id))))
+          && (connection.type !== 'fixed_jin080_paternal_nephew_to_uncle_father'
+            || (kind === 'grandfather' && row.parent_person_id === null
+              && row.generation_distance === 2
+              && Array.isArray(row.intermediate_person_ids) && row.intermediate_person_ids.length === 1
+              && row.intermediate_person_ids[0] === null && connection.human_reviewed === false
+              && typeof connection.nephew_assertion_id === 'string'
+              && typeof connection.uncle_father_assertion_id === 'string'
+              && Array.isArray(connection.references)
+              && [connection.nephew_assertion_id, connection.uncle_father_assertion_id]
+                .every(id => connection.references.some(ref => ref?.assertion_id === id))
+              && connection.references.every(ref => typeof ref?.quote === 'string' && ref.quote
+                && typeof ref?.source_id === 'string' && ref.source_id
+                && typeof ref?.chapter_id === 'string' && ref.chapter_id
+                && typeof ref?.paragraph_id === 'string' && ref.paragraph_id
+                && typeof ref?.scope === 'string' && ref.scope)))
           && connection.status === 'contextual_provisional'
           && connection.rationale && connection.references?.length) {
         result.set(id, {id, role: 'assembly_inferred', inference_note: connection.rationale,
@@ -115,7 +175,7 @@ export async function traceFamily(person, load) {
   }
   async function resolve(entries) {
     const resolved = await Promise.all(entries.map(async entry => {
-      try {const p = await load(entry.id); return {...entry, person: p, id: [...own(p)].sort()[0], label: p.label};}
+      try {const p = await load(entry.id); return {...entry, person: p, id: [...own(p)].sort()[0], label: familyPersonLabel(p)};}
       catch {return {...entry, label: person.related_people?.[entry.id] || entry.id, unavailable: true};}
     }));
     const unique = new Map();
@@ -124,7 +184,7 @@ export async function traceFamily(person, load) {
   }
   function qualifyAncestor(parent, branch, relationship, distance) {
     const step = {from_person_id: branch.resolvedId || branch.person.id, to_person_id: parent.id,
-      from_label: branch.person.label || branch.person.id, to_label: parent.label || parent.id,
+      from_label: familyPersonLabel(branch.person), to_label: parent.label || parent.id,
       relationship, generation_distance: distance,
       qualification: parent.role === 'assembly_inferred' ? 'assembly_inferred' : 'source_linked',
       inference_note: parent.inference_note || null, evidence: [...parent.evidence]};

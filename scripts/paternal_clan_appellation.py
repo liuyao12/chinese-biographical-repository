@@ -1,8 +1,16 @@
 """Finite source-first clan style, retaining an unnamed woman's unknown ming."""
 from pathlib import Path
 import json,hashlib
-PROOF_SHA='d050aa20d26ff72098523232fee748a13ccc3cdad483bfbf7b1ac4a669cd9fc2'
-def valid(n,p,relations):
+PROOF_SHA='cdf313175baa2e4a9a690b9802d91b60c523ead486dfa807c97e3c5d0f776778'
+def valid(n,p,relations,root=None):
+ if isinstance(n,dict)and n.get('clan_style_basis',{}).get('kind')=='fixed_repository_biography_head_daughter':
+  try:from scripts.fixed_repository_family_names import clan_valid
+  except ImportError:from fixed_repository_family_names import clan_valid
+  return clan_valid(n,p,relations,root=root if root is not None else Path(__file__).resolve().parents[1])
+ if isinstance(n,dict)and isinstance(n.get('clan_style_basis'),dict)and n['clan_style_basis'].get('kind')=='fixed_comparison_jin080_paternal_role':
+  try:from scripts.fixed_jin080_wangxizhi_comparison import clan_valid
+  except ImportError:from fixed_jin080_wangxizhi_comparison import clan_valid
+  return clan_valid(n,p,relations)
  try:
   root=Path(__file__).resolve().parents[1];raw=(root/'source-evidence/name-context/xie-women-paternal-clans.json').read_bytes();assert hashlib.sha256(raw).hexdigest()==PROOF_SHA
   cases=json.loads(raw);basis=n['clan_style_basis'];assert set(basis)=={'kind','case_id','parent_full_name_source','father_assertion_id','local_father_mention_id'}and basis['kind']=='fixed_explicit_father_and_literal_parent_name';case,=[c for c in cases if c['case_id']==basis['case_id']];assert basis['local_father_mention_id']==case['father_mention_id']

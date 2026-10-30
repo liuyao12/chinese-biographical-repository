@@ -1,3 +1,4 @@
+from tests.portable_fixture_copy import fixture_copy2
 import unittest,json,copy,tempfile,shutil
 from pathlib import Path
 from scripts.epitaph_transcription_witness import errors
@@ -5,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 class ModernEpitaphWitness(unittest.TestCase):
  def setUp(self):
   self.c=json.loads((ROOT/'corpus/epitaph-wangminzhi/full.json').read_text());cat=json.loads((ROOT/'registry/works.json').read_text());self.works={w['id']:w for w in cat['works']};self.books={b['id']:b for w in cat['works']for b in w['books']}
-  self.temp=tempfile.TemporaryDirectory(prefix='cbr-epitaph-witness-test-');self.r=Path(self.temp.name);p=self.r/'source-evidence/wangminzhi-epitaph-ntu2009';p.parent.mkdir();shutil.copytree(ROOT/'source-evidence/wangminzhi-epitaph-ntu2009',p)
+  self.temp=tempfile.TemporaryDirectory(prefix='cbr-epitaph-witness-test-');self.r=Path(self.temp.name);p=self.r/'source-evidence/wangminzhi-epitaph-ntu2009';p.parent.mkdir();shutil.copytree(ROOT/'source-evidence/wangminzhi-epitaph-ntu2009',p, copy_function=fixture_copy2)
  def tearDown(self):self.temp.cleanup()
  def check(self):return errors(self.c,self.r,self.works,self.books)
  def mutate_file(self,key,fn):

@@ -109,10 +109,87 @@
       "chapter_id": "c-sanguozhi-026-guohuai",
       "source_id": "s-sanguozhi-026-guohuai",
       "work_title": "三國志"
+    },
+    {
+      "number": 34,
+      "category": "",
+      "title": "羊祜傳",
+      "paragraph_id": "c-jinshu-034-yanghu-comparison:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰",
+      "paragraph_ids": [
+        "c-jinshu-034-yanghu-comparison:p001",
+        "c-jinshu-034-yanghu-comparison:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-034-yanghu-comparison:p001:m0161",
+        "c-jinshu-034-yanghu-comparison:p002:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-034-yanghu-comparison:p001:m0161": "c-jinshu-034-yanghu-comparison:p001",
+        "c-jinshu-034-yanghu-comparison:p002:m0000": "c-jinshu-034-yanghu-comparison:p002"
+      },
+      "mention_id": "c-jinshu-034-yanghu-comparison:p001:m0161",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu-comparison:p001:m0161",
+          "mention_ids": [
+            "c-jinshu-034-yanghu-comparison:p001:m0161"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu-comparison:p002:m0000",
+          "mention_ids": [
+            "c-jinshu-034-yanghu-comparison:p002:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+      "source": {
+        "title": "《晉書》卷三十四〈羊祜傳〉",
+        "provider": "維基文庫固定修訂頁呈現文字",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷034",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "revision_id": 2567662,
+        "accessed_on": "2026-10-28",
+        "edition": null,
+        "edition_qualification": "印本未核的固定數位比較見證；非首選底本，非武英殿，未核書影。未確認是否出於四庫，不採為preferred base。",
+        "preferred_text_base": false,
+        "image_verified": false,
+        "human_reviewed": false,
+        "extent": "羊祜題下至杜預題頭前完整單元，含羊發、秘、亮、陶及承嗣附敘；41呈現文字段，非全卷，不含杜預及卷末評贊。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "capture_ref": "source-evidence/jin034-yanghu-comparison/rendered-extract.txt",
+        "capture_sha256": "35dc69590312f9b13541d3df2c8cd75c43721cd22251530def3d6acda41ec5b6",
+        "capture_kind": "fixed_revision_webtool_rendered_text_extract",
+        "original_wikitext_obtained": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0保留署名與固定修訂。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去數位題頭/工具行號/blockquote呈現符與行首排版縮排；工具連結標記僅保可見詞，未改正文標點、字形或疑字。未取得HTML或wikitext。"
+        }
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "work_id": "w-sanguozhi",
@@ -171,16 +248,164 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin034-wife-father",
+      "subject_person_id": "f8i_tla_uro",
+      "predicate": "father",
+      "object_person_id": "mjt_gqs_5ym",
+      "status": "source_attested",
+      "qualifiers": {
+        "child_sex_reading": "female_from_marriage_clause",
+        "literal_child_term": "子",
+        "source_term": "以兄霸之子妻之",
+        "source_clause_binding": {
+          "kind": "fixed_jin034_close_kin",
+          "rule": "fixed_jin034_complete_unit_close_kin",
+          "slot": "wife-father"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p001",
+          "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+          "subject_person_mention_id": "c-jinshu-034-yanghu-comparison:p001:m0163",
+          "object_person_mention_id": "c-jinshu-034-yanghu-comparison:p001:m0161"
+        }
+      ],
+      "interpretation_note": "子在妻之婚配句指女，霸為她父；男女判讀依句法，不把子字擅改女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin034-xiahou-brothers",
+      "subject_person_id": "mjt_gqs_5ym",
+      "predicate": "brother",
+      "object_person_id": "zvt_36a_c3o",
+      "status": "source_attested",
+      "qualifiers": {
+        "relative_birth_order": {
+          "older_person_id": "mjt_gqs_5ym",
+          "younger_person_id": "zvt_36a_c3o",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "source_term": "以兄霸之子妻之",
+        "source_clause_binding": {
+          "kind": "fixed_jin034_close_kin",
+          "rule": "fixed_jin034_complete_unit_close_kin",
+          "slot": "xiahou-brothers"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p001",
+          "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+          "subject_person_mention_id": "c-jinshu-034-yanghu-comparison:p001:m0161",
+          "object_person_mention_id": "c-jinshu-034-yanghu-comparison:p001:m0153"
+        }
+      ],
+      "interpretation_note": "霸為威的兄；不從兩兄弟補共同父親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "mjt_gqs_5ym": "夏侯霸"
+    "f8i_tla_uro": "夏侯氏（羊祜妻）",
+    "mjt_gqs_5ym": "夏侯霸",
+    "zvt_36a_c3o": "夏侯威"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "mjt_gqs_5ym"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin034-wife-father",
+      "subject_person_id": "f8i_tla_uro",
+      "predicate": "father",
+      "object_person_id": "mjt_gqs_5ym",
+      "status": "source_attested",
+      "qualifiers": {
+        "child_sex_reading": "female_from_marriage_clause",
+        "literal_child_term": "子",
+        "source_term": "以兄霸之子妻之",
+        "source_clause_binding": {
+          "kind": "fixed_jin034_close_kin",
+          "rule": "fixed_jin034_complete_unit_close_kin",
+          "slot": "wife-father"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p001",
+          "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+          "subject_person_mention_id": "c-jinshu-034-yanghu-comparison:p001:m0163",
+          "object_person_mention_id": "c-jinshu-034-yanghu-comparison:p001:m0161"
+        }
+      ],
+      "interpretation_note": "子在妻之婚配句指女，霸為她父；男女判讀依句法，不把子字擅改女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin034-xiahou-brothers",
+      "subject_person_id": "mjt_gqs_5ym",
+      "predicate": "brother",
+      "object_person_id": "zvt_36a_c3o",
+      "status": "source_attested",
+      "qualifiers": {
+        "relative_birth_order": {
+          "older_person_id": "mjt_gqs_5ym",
+          "younger_person_id": "zvt_36a_c3o",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "source_term": "以兄霸之子妻之",
+        "source_clause_binding": {
+          "kind": "fixed_jin034_close_kin",
+          "rule": "fixed_jin034_complete_unit_close_kin",
+          "slot": "xiahou-brothers"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p001",
+          "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+          "subject_person_mention_id": "c-jinshu-034-yanghu-comparison:p001:m0161",
+          "object_person_mention_id": "c-jinshu-034-yanghu-comparison:p001:m0153"
+        }
+      ],
+      "interpretation_note": "霸為威的兄；不從兩兄弟補共同父親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

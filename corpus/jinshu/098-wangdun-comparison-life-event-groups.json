@@ -1,0 +1,58 @@
+{
+  "record_type": "person_life_event_group_set",
+  "work_id": "w-jinshu",
+  "chapter_id": "c-jinshu-098-wangdun-comparison",
+  "groups": [
+    {
+      "id": "leg-jin076-jin098-wangdun-same-death",
+      "kind": "fixed_jin076_jin098_same_death",
+      "person_id": "7r6_k52_qji_ABBA",
+      "event_type": "death",
+      "member_event_ids": [
+        "le-jin076-wangbin-50-3",
+        "le-jin098-wangdun-death-undated"
+      ],
+      "representative_event_id": "le-jin098-wangdun-death-undated",
+      "date_status": "not_reported",
+      "status": "editorial_provisional",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "source_id": "s-jinshu-076-wangbin",
+          "chapter_id": "c-jinshu-076-wangbin",
+          "paragraph_id": "c-jinshu-076-wangbin:line050",
+          "quote": "及敦死，王含欲投王舒，王應勸含投彬。含曰：「大將軍平素與江州云何，汝欲歸之？」應曰：「此乃所以宜往也。江州當人強盛時，能立同異，此非常人所及。睹衰厄，必興湣惻。荊州守文，豈能意外行事！」含不從，遂共投舒，舒果沈含父子于江。彬聞應來，密具船以待之。既不至，深以為恨。",
+          "person_mention_id": "c-jinshu-076-wangbin:line050:m0001"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+          "chapter_id": "c-jinshu-098-wangdun-comparison",
+          "paragraph_id": "c-jinshu-098-wangdun-comparison:p034",
+          "quote": "鳳等至京師，屯于水南。帝親率六軍以禦鳳，頻戰破之。敦謂羊鑒及子應曰：「我亡後，應便即位，先立朝廷百官，然後乃營葬事。」初，敦始病，夢白犬自天而下齧之，又見刁協乘軺車導從，瞋目令左右執之。俄而敦死，時年五十九。應秘不發喪，裹屍以席，蠟塗其外，埋於廳事中，與諸葛瑤等恆縱酒淫樂。",
+          "person_mention_id": "c-jinshu-098-wangdun-comparison:p034:m0095"
+        }
+      ],
+      "rationale": "076及敦死與098俄而敦死時年五十九明指同一王敦終亡，兩筆是不同篇來源見證，不是兩次死亡；兩源均無確切死亡年。098偽死詔與導書傳聞不在分組內。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "date": null,
+      "member_bindings": [
+        {
+          "event_id": "le-jin076-wangbin-50-3",
+          "person_mention_id": "c-jinshu-076-wangbin:line050:m0001",
+          "event_evidence_mention_id": "c-jinshu-076-wangbin:line050:m0022"
+        },
+        {
+          "event_id": "le-jin098-wangdun-death-undated",
+          "person_mention_id": "c-jinshu-098-wangdun-comparison:p034:m0095",
+          "event_evidence_mention_id": "c-jinshu-098-wangdun-comparison:p034:m0095"
+        }
+      ]
+    }
+  ],
+  "format_version": "0.1"
+}

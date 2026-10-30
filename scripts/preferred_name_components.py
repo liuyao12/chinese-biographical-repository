@@ -2,7 +2,15 @@
 def locator(name):
     return {k:name.get(k) for k in ('id','person_id','chapter_id','paragraph_id','surname','ming','quote')}
 
-def reading_errors(reading, names, chapters):
+def reading_errors(reading, names, chapters, *, root=None):
+    if isinstance(reading,dict)and isinstance(reading.get('basis'),dict)and reading['basis'].get('kind')=='cross_chapter_same_person_source_variant':
+        try:from scripts.cross_chapter_name_reading import reading_errors as cross_errors
+        except ImportError:from cross_chapter_name_reading import reading_errors as cross_errors
+        return cross_errors(reading,names,chapters)
+    if isinstance(reading,dict)and isinstance(reading.get('basis'),dict)and reading['basis'].get('kind')=='source_bound_wyd_song051_adjacent_name_variant':
+        try:from scripts.wyd_song051_yixin import preferred_name_reading_errors
+        except ImportError:from wyd_song051_yixin import preferred_name_reading_errors
+        return preferred_name_reading_errors(reading,names,chapters,root)
     errors=[]
     if (not isinstance(reading,dict) or set(reading)!={'id','person_id','field','preferred_value','source_values','records','status','human_reviewed','rationale','coverage','basis'}
         or reading.get('field')!='ming' or reading.get('status')!='editorial_provisional'
@@ -47,14 +55,14 @@ def reading_errors(reading, names, chapters):
             if observed!=set(values):errors.append('姓名選讀同段未見兩原字形')
     return errors
 
-def validated_readings(records, names, chapters, person_ids=None):
+def validated_readings(records, names, chapters, person_ids=None, *, root=None):
     sets=[r for r in records if r.get('record_type')=='preferred_name_component_reading_set']
     for r in sets:
         if set(r)!={'format_version','record_type','readings'}or r.get('format_version')!='0.1'or not isinstance(r.get('readings'),list)or not r['readings']:raise ValueError('姓名顯示選讀集契約無效')
     readings=[d for r in sets for d in r['readings']]
     ids=set();scopes=set()
     for r in readings:
-        errors=reading_errors(r,names,chapters)
+        errors=reading_errors(r,names,chapters,root=root)
         if errors:raise ValueError('；'.join(errors))
         if r.get('id')in ids:raise ValueError('姓名顯示選讀ID重複')
         scope=(r.get('person_id'),r.get('field'))

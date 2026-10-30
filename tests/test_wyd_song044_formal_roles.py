@@ -1,3 +1,4 @@
+from tests.portable_fixture_copy import fixture_copy2
 import unittest,json,copy,sys
 from pathlib import Path
 BASE=Path(__file__).resolve().parent
@@ -44,7 +45,7 @@ class FormalRoleTests(unittest.TestCase):
     if entry.name not in ('registry','source-evidence'):(view/entry.name).symlink_to(entry,target_is_directory=entry.is_dir())
    (view/'source-evidence').mkdir()
    for entry in(ROOT/'source-evidence').iterdir():
-    if entry.name=='song044-wyd1739-xiehui':shutil.copytree(entry,view/'source-evidence'/entry.name)
+    if entry.name=='song044-wyd1739-xiehui':shutil.copytree(entry,view/'source-evidence'/entry.name, copy_function=fixture_copy2)
     else:(view/'source-evidence'/entry.name).symlink_to(entry,target_is_directory=entry.is_dir())
    (view/'registry').mkdir()
    for entry in(ROOT/'registry').iterdir():

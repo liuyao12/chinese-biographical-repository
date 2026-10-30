@@ -3,7 +3,7 @@ import json,hashlib
 from pathlib import Path
 CID='c-songshu-044-wyd1739-xiehui'
 REF='source-evidence/song044-wyd1739-xiehui/formal-role-contract.json'
-CONTRACT_SHA='2b1bc6f3dc350c2450fa2e86feff969faaa3a3b1fd6b8870f7149e53003b9973'
+CONTRACT_SHA='42f36c0b14a6d996d156e692af4c59b3c4e3dff91f10b21686b9e8e483fdfe5d'
 try:
  from scripts.validation_context import memoized
 except ImportError:
@@ -18,7 +18,7 @@ def _context(root):
  root=Path(root);raw=(root/REF).read_bytes()
  if hashlib.sha256(raw).hexdigest()!=CONTRACT_SHA:raise ValueError('宋044契約SHA')
  c=json.loads(raw);ch=json.loads((root/'corpus/songshu/044-wyd1739.json').read_bytes());validate_source(ch,root);roles=resolve_existing(root,c);roles.update(local_current(root,c))
- if len(roles)!=96:raise ValueError('宋044角色未完整')
+ if len(roles)!=97:raise ValueError('宋044角色未完整')
  try:from scripts.wyd_song044_role_seed import materialize
  except ImportError:from wyd_song044_role_seed import materialize
  try:from scripts.wyd_song044_age import base_annotation
@@ -31,7 +31,7 @@ def _context(root):
   for m in p['mentions']:
    if m.get('source_role_key')not in ('hui','chong','shao','shiyou'):continue
    person=people[m['person_id']]
-   if not any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']):raise ValueError('宋044父叔侄反向alias')
+   if m.get('kind')=='person'and not any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']):raise ValueError('宋044父叔侄反向alias')
    if not any(e.get('chapter_id')==CID and e.get('paragraph_id')==p['id']and e.get('mention_id')==m['id']for e in person['evidence']):raise ValueError('宋044父叔侄反向evidence')
  return ch,c,roles
 

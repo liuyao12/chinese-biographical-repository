@@ -74,7 +74,19 @@ def metadata(p):
   if a.get('person_id')not in own or a.get('relation')not in ('biographical_origin','native_place'):continue
   value=text(a.get('place',{}).get('source_name'))
   if value:places.append(dict(value=value,record_id=a.get('id'),source_refs=source_ref(a),relation=a['relation']))
- return dict(name_components=names,preferred_name_component_readings=prefs,jiguan=places,period_assignments=period_assignments(p) )
+ result=dict(id=p['id'],name_components=names,preferred_name_component_readings=prefs,jiguan=places,period_assignments=period_assignments(p))
+ choice=p.get('default_profile_title')
+ if isinstance(choice,dict):
+  # Carry only the selected holding's proof for the existing browser validator.
+  result['default_profile_title']=choice
+  result['titles']=[]
+  for h in p.get('titles',[]):
+   if h.get('id')!=choice.get('holding_id'):continue
+   row={k:h[k]for k in ('id','person_id','title','mode','kind','status','source_qualification')if k in h}
+   row['attestations']=[{k:a[k]for k in ('id','paragraph_id','person_mention_id','start','end','surface')if k in a}for a in h.get('attestations',[])if a.get('id')==choice.get('attestation_id')]
+   row['evidence']=[{k:e[k]for k in ('work_id','book_id','source_id','chapter_id','paragraph_id','person_mention_id')if k in e}for e in h.get('evidence',[])]
+   result['titles'].append(row)
+ return result
 
 def outputs(root=ROOT):
  root=Path(root);directory=root/'data/corpus/profiles';index=directory/'index.json'

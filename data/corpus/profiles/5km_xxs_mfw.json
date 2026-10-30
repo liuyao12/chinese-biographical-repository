@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "id": "5km_xxs_mfw",
+  "canonical_person_id": "5km_xxs_mfw",
+  "label": "新安公主〔王獻之婚配〕",
+  "identity_note": "比較見證晉080來源內人物；完整角色與未定同指資格見source-evidence/jin080-wangxizhi-comparison/ner-dispositions.json，不表示底本已核。",
+  "review": "ai_provisional",
+  "names": [
+    "新安公主"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 80,
+      "category": "",
+      "title": "王羲之及近系附傳（比較轉錄）",
+      "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p044",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "起家州主簿、秘書郎，轉丞，以選尚新安公主。嘗經吳郡，聞顧辟彊有名園。先不相識，乘平肩輿徑入。時辟彊方集賓友，而獻之遊歷既畢，傍若無人。辟彊勃然數之曰：「傲主人，非禮也。以貴驕士，非道也。失是二者，不足齒之傖耳。」便驅出門。獻之傲如也，不以屑",
+      "paragraph_ids": [
+        "c-jinshu-080-wangxizhi-comparison:p044"
+      ],
+      "mention_ids": [
+        "c-jinshu-080-wangxizhi-comparison:p044:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-080-wangxizhi-comparison:p044:m0016": "c-jinshu-080-wangxizhi-comparison:p044"
+      },
+      "mention_id": "c-jinshu-080-wangxizhi-comparison:p044:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi-comparison:p044:m0016",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi-comparison:p044:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+      "source_id": "s-jinshu080-ws2603570-comparison",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "source_id": "s-jinshu080-ws2603570-comparison",
+      "source": {
+        "title": "《晉書》卷八十王羲之及近系附傳（比較轉錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570",
+        "revision_id": 2603570,
+        "accessed_on": "2026-10-27",
+        "extent": "王羲之完整傳及所選近系附敘47數位自然段；含玄之、凝之、徽之、楨之、操之、獻之、靜之語境；不含許邁獨立傳及卷末合贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "edition": "維基文庫固定修訂數位轉錄；底本未核，僅比較見證，非武英殿本，非首選讀本。",
+        "rights": "古代原文及維基文庫數位轉錄；保留修訂與授權歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "source-evidence/jin080-wangxizhi-comparison/raw.wikitext",
+        "raw_path": "source-evidence/jin080-wangxizhi-comparison/raw.wikitext",
+        "wikitext_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "raw_file_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依固定raw逐碼點投影；移除數位段首縮排、節題、連結語法及格式模板，保留可見原字與引語。現代節題不作古文父子直述。完整排除位置另存。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin080-xianzhi-princess-spouse",
+      "subject_person_id": "5km_xxs_mfw",
+      "predicate": "spouse",
+      "object_person_id": "7r6_k52_qji_ABDCAE",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "source_id": "s-jinshu080-ws2603570-comparison",
+          "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+          "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p042",
+          "quote": "獻之字子敬。少有盛名，而高邁不羈，雖閒居終日，容止不怠，風流為一時之冠。年數歲，嘗觀門生樗蒱，曰：「南風不競。」門生曰：「此郎亦管中窺豹，時見一斑。」獻之怒曰：「遠慚荀奉倩，近愧劉真長。」遂拂衣而去。嘗與兄徽之、操之俱詣謝安，二兄多言俗事，獻之寒溫而已。既出，客問安王氏兄弟優劣，安曰：「小者佳。」客問其故，安曰：「吉人之辭寡，以其少言，故知之。」嘗與徽之共在一室，忽然火發，徽之遽走，不遑取履。獻之神色恬然，徐呼左右扶出。夜臥齋中而有偷人入其室，盜物都盡。獻之徐曰：「偷兒，氈青我家舊物，可特置之。」群偷驚走。",
+          "object_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p042:m0000"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "source_id": "s-jinshu080-ws2603570-comparison",
+          "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+          "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p044",
+          "quote": "起家州主簿、秘書郎，轉丞，以選尚新安公主。嘗經吳郡，聞顧辟彊有名園。先不相識，乘平肩輿徑入。時辟彊方集賓友，而獻之遊歷既畢，傍若無人。辟彊勃然數之曰：「傲主人，非禮也。以貴驕士，非道也。失是二者，不足齒之傖耳。」便驅出門。獻之傲如也，不以屑意。",
+          "subject_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p044:m0016"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "尚新安公主",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_comparison_jin080_received_roles",
+          "contract_ref": "source-evidence/jin080-wangxizhi-comparison/ner-facts-template.json"
+        }
+      },
+      "interpretation_note": "獻之完整附傳任官段明尚；公主個人名、父母未載。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "context": {
+        "kind": "complete_received_biography_continuation",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "paragraph_ids": [
+          "c-jinshu-080-wangxizhi-comparison:p042",
+          "c-jinshu-080-wangxizhi-comparison:p044"
+        ],
+        "source_qualification": "固定比較本完整傳文承接，不取現代節題作逐字父句"
+      }
+    }
+  ],
+  "related_people": {
+    "5km_xxs_mfw": "新安公主〔王獻之婚配〕",
+    "7r6_k52_qji_ABDCAE": "王獻之"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "5km_xxs_mfw"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin080-xianzhi-princess-spouse",
+      "subject_person_id": "5km_xxs_mfw",
+      "predicate": "spouse",
+      "object_person_id": "7r6_k52_qji_ABDCAE",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "source_id": "s-jinshu080-ws2603570-comparison",
+          "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+          "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p042",
+          "quote": "獻之字子敬。少有盛名，而高邁不羈，雖閒居終日，容止不怠，風流為一時之冠。年數歲，嘗觀門生樗蒱，曰：「南風不競。」門生曰：「此郎亦管中窺豹，時見一斑。」獻之怒曰：「遠慚荀奉倩，近愧劉真長。」遂拂衣而去。嘗與兄徽之、操之俱詣謝安，二兄多言俗事，獻之寒溫而已。既出，客問安王氏兄弟優劣，安曰：「小者佳。」客問其故，安曰：「吉人之辭寡，以其少言，故知之。」嘗與徽之共在一室，忽然火發，徽之遽走，不遑取履。獻之神色恬然，徐呼左右扶出。夜臥齋中而有偷人入其室，盜物都盡。獻之徐曰：「偷兒，氈青我家舊物，可特置之。」群偷驚走。",
+          "object_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p042:m0000"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "source_id": "s-jinshu080-ws2603570-comparison",
+          "chapter_id": "c-jinshu-080-wangxizhi-comparison",
+          "paragraph_id": "c-jinshu-080-wangxizhi-comparison:p044",
+          "quote": "起家州主簿、秘書郎，轉丞，以選尚新安公主。嘗經吳郡，聞顧辟彊有名園。先不相識，乘平肩輿徑入。時辟彊方集賓友，而獻之遊歷既畢，傍若無人。辟彊勃然數之曰：「傲主人，非禮也。以貴驕士，非道也。失是二者，不足齒之傖耳。」便驅出門。獻之傲如也，不以屑意。",
+          "subject_person_mention_id": "c-jinshu-080-wangxizhi-comparison:p044:m0016"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "尚新安公主",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_comparison_jin080_received_roles",
+          "contract_ref": "source-evidence/jin080-wangxizhi-comparison/ner-facts-template.json"
+        }
+      },
+      "interpretation_note": "獻之完整附傳任官段明尚；公主個人名、父母未載。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "context": {
+        "kind": "complete_received_biography_continuation",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "paragraph_ids": [
+          "c-jinshu-080-wangxizhi-comparison:p042",
+          "c-jinshu-080-wangxizhi-comparison:p044"
+        ],
+        "source_qualification": "固定比較本完整傳文承接，不取現代節題作逐字父句"
+      }
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

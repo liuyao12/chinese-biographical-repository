@@ -1,0 +1,58 @@
+{
+  "record_type": "AI_transcription_correction_review",
+  "human_reviewed": false,
+  "image_verified": false,
+  "model": null,
+  "source_id": "s-songshu-063-wyd1739-wangtanshou",
+  "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+  "prior_transcription_raw_sha256": "355513e59fefc781bdfef4cf7c07f8af774841fc890b300c22e8449fe5906a8b",
+  "corrected_transcription_raw_sha256": "6b33c779e78c825140ac3a6b531b5e1fcb0031d19b260a7cdcba355c348dd6df",
+  "prior_manifest_sha256": "caff15274a00eb656d0eb04f3b261b707196e871a5a5f97e5ad26730292c1183",
+  "scope": "three glyph encodings corrected by direct private image reading; no NER/identity/relationship/date change",
+  "pdf_page": 21,
+  "side": "right",
+  "physical_column_from_right_1based": 1,
+  "raw_line": 44,
+  "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+  "source_image_sha256": "3f6a6590f7f64eda9c1864c044ee600a977f87548d8148ac93aaacaba162ea5c",
+  "before_full_column": "中書舍人周起侍側曰主家欲表賢者先須上曰直是",
+  "after_full_column": "中書舍人周起侍側曰王家欲衰賢者先殞上曰直是",
+  "changes": [
+    {
+      "paragraph_offset_0based": 9,
+      "raw_character_1based": 10,
+      "before": "主",
+      "after": "王"
+    },
+    {
+      "paragraph_offset_0based": 12,
+      "raw_character_1based": 13,
+      "before": "表",
+      "after": "衰"
+    },
+    {
+      "paragraph_offset_0based": 16,
+      "raw_character_1based": 17,
+      "before": "須",
+      "after": "殞"
+    }
+  ],
+  "qualification": "王三橫無點；衰中有口、下衣；殞左歹右員。據實圖，不據通行本文意。全994+42碼點與原列/段界/未NER資格保。prior raw及37seal不改。",
+  "source_page_url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12245_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC147%E5%86%8A.pdf&oldid=991952839&page=21",
+  "source_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/NLC892-411999017142-12245_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC147%E5%86%8A.pdf/page21-3840px-NLC892-411999017142-12245_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC147%E5%86%8A.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "private_crop_regions_px": {
+    "王家欲衰": [
+      3470,
+      1500,
+      3710,
+      2300
+    ],
+    "衰及殞": [
+      3470,
+      1900,
+      3710,
+      3210
+    ]
+  },
+  "coordinate_qualification": "原JPEG3840×3480；裁切矩形含相鄰字而非宣稱精密單字邊框，精確定位用頁側/列/原列字位。"
+}

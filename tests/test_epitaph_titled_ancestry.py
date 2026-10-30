@@ -1,3 +1,4 @@
+from tests.portable_fixture_copy import fixture_copy2
 import unittest,copy,json,tempfile,shutil
 from pathlib import Path
 from scripts.person_bundle import load_catalog
@@ -33,7 +34,7 @@ class TitledEpitaphAncestry(unittest.TestCase):
   with tempfile.TemporaryDirectory()as t:
    base=Path(t)
    for rel in ['source-evidence/yangshu-epitaph-zju','source-evidence/yangshu-family-placement']:
-    shutil.copytree(R/rel,base/rel)
+    shutil.copytree(R/rel,base/rel, copy_function=fixture_copy2)
    q=base/'corpus/weishu-weishou/058-yangbo-yangkan.json';q.parent.mkdir(parents=True,exist_ok=True);q.write_bytes((R/'corpus/weishu-weishou/058-yangbo-yangkan.json').read_bytes())
    self.assertTrue(self.check(root=base));rel=self.member['parent_connection']['ancestor_identity_reference']['path'];q=base/rel;old=q.read_bytes();d=json.loads(old);g=next(x for x in d['decisions']if x['key']=='grandfather')
    for key,value in [('status','source_attested'),('qualification',''),('person_id',self.member['person_id'])]:
@@ -42,7 +43,7 @@ class TitledEpitaphAncestry(unittest.TestCase):
  def test_actual_transcription_and_hash_cannot_drift(self):
   with tempfile.TemporaryDirectory()as t:
    base=Path(t)
-   for rel in ['source-evidence/yangshu-epitaph-zju','source-evidence/yangshu-family-placement']:shutil.copytree(R/rel,base/rel)
+   for rel in ['source-evidence/yangshu-epitaph-zju','source-evidence/yangshu-family-placement']:shutil.copytree(R/rel,base/rel, copy_function=fixture_copy2)
    q=base/'source-evidence/yangshu-epitaph-zju/transcription.json';d=json.loads(q.read_text());d['text']=d['text']+'錯';q.write_text(json.dumps(d,ensure_ascii=False));self.assertFalse(self.check(root=base))
  def test_reference_scope_and_exact_quotes(self):
   for k,v in [('quote','孫'),('source_id','synthetic-other'),('scope','')]:

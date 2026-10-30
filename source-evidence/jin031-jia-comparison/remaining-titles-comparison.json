@@ -1,0 +1,46 @@
+{
+  "record_type": "qualified_rendered_reference_receipt",
+  "human_reviewed": false,
+  "model": null,
+  "reader": "root agent AI read receipt",
+  "basis": "動態工具呈現，不是固定revision/raw/印本/WYD取得；不是新增原生本傳",
+  "root_judgment_sha256": "b2ed8ad8db110315985fcfaf57abbb266a46594f72bcde9dbc315b4c764034fb",
+  "references": [
+    {
+      "work": "晉書",
+      "book": "059",
+      "unit": "楚隱王瑋傳完整179–183工具行",
+      "finding": "有北軍中候全稱；權力爭議及建議就國與司馬瑋相合",
+      "url": "https://zh.wikisource.org/zh-hant/晉書/卷059",
+      "fixed_revision_fetched": false
+    },
+    {
+      "work": "資治通鑑",
+      "book": "082",
+      "unit": "元康元年完整事件197–220工具行",
+      "finding": "欲奪兵權、裴楷不敢拜，支持提案與實任終界分別；董猛封侯另有291紀年可待固定參校",
+      "url": "https://zh.wikisource.org/zh-hant/資治通鑑/卷082",
+      "capture_sha256": "4991362e3f539b2f6f66216ad67a29144c5d571e80f29421af880d39c3da9852",
+      "fixed_revision_fetched": false
+    }
+  ],
+  "source_limit": "工具動態頁呈現核讀；未親見印本，不是武英殿底本核讀。固定059請求失敗保留。",
+  "native_application": "只支持中候奏奪首選及北軍全稱旁見，不改原title中候；291不進031的任何normalized_date。",
+  "rendered_text_capture": {
+    "capture_sha256": "4991362e3f539b2f6f66216ad67a29144c5d571e80f29421af880d39c3da9852",
+    "format": "JSON string of actual dynamic web tool response, not HTML/PDF/wikitext",
+    "fixed_revision_fetched": false,
+    "edition": null,
+    "read_scope": "完整可見工具行L209及L215；其餘元康元年閱讀依root獨立receipt，不冒本包另已取得完整固定卷",
+    "units": [
+      {
+        "tool_line": 209,
+        "quote": "壬寅，征汝南王亮為太宰，與太保衛瓘皆錄尚書事，輔政。以秦王柬為大將軍，東平王楙為撫軍大將軍，楚王瑋為衛將軍、領北軍中候，下邳王晃為尚書令，東安公繇為尚書左僕射，進爵為王。楙，望之子也。封董猛為武安侯，三兄皆為亭侯。"
+      },
+      {
+        "tool_line": 215,
+        "quote": "太宰亮、太保瓘以楚王瑋剛愎好殺，惡之，欲奪其兵權，以臨海侯裴楷代瑋為北軍中候。瑋怒；楷聞之，不敢拜。亮復與瓘謀，遣瑋與諸王之國，瑋益忿怨。瑋長史公孫宏、舍人岐盛，皆有寵於瑋，勸瑋自暱於賈后；後留瑋領太子太傅，盛素善於楊駿，衛瓘惡其反覆，將收之。盛乃與宏謀，因積弩將軍李肇矯稱瑋命，譖亮、瓘於賈后，雲將謀廢立。後素怨瓘，且患二公執政，己不得專恣；夏，六月，後使帝作手詔賜瑋曰：「太宰、太保欲為伊、霍之事，王宜宣詔，令淮南、長沙、成都王屯諸宮門，免亮及瓘官。」夜，使黃門繼以授瑋。瑋欲覆奏，黃門曰：「事恐漏洩，非密詔本意也。」瑋亦欲因此復私怨，遂勒本軍，復矯詔召三十六軍，告以「二公潛圖不軌，吾今受詔都督中外諸軍，諸在直衛者，皆嚴加警備；其在外營，便相帥徑詣行府，助順討逆。」又矯詔「亮、瓘官屬，一無所問，皆罷遣之；若不奉詔，便軍法從事。」遣公孫宏、李肇以兵圍亮府，侍中、清河王遐收瓘。亮帳下督李龍，白「外有變，請拒之」，亮不聽。俄而兵登牆大呼，亮驚曰：「吾無貳心，何故至此！詔書其可見乎？」宏等不許，趣兵攻之。長史劉准謂亮曰：「觀此必是奸謀。府中俊乂如林，猶可力戰。」又不聽。遂為肇所執，歎曰：「我之赤心，可破示天下也。」與世子矩俱死。"
+      }
+    ]
+  }
+}

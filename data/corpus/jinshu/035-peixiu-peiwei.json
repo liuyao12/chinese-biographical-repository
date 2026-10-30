@@ -1,0 +1,3000 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-jinshu-035-peixiu-peiwei",
+  "work_id": "w-jinshu",
+  "book_id": "b-jinshu-035",
+  "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+  "title": "裴秀裴頠傳",
+  "source": {
+    "title": "《晉書・裴秀裴頠傳》",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+    "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+    "revision_id": 2506399,
+    "accessed_on": "2026-10-21",
+    "extent": "裴秀傳及子頠附傳完整單元，固定原文第18–75行；止秀從弟楷前，不含裴楷或全卷。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文及維基文庫數位轉錄，保留見證歸屬；數位文字依CC BY-SA 4.0。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "edition": null,
+    "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+    "response_sha256": "e7fc20a0864866bfb68f1f92b542b6f542edebed2052fcf550244ed46206fa35",
+    "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+    "normalization": {
+      "character_conversion": {},
+      "note": "僅去quote及wikilink包裝；逐字raw_runs保留完整可見文字，不用掃描或ctext覆寫。"
+    }
+  },
+  "annotation": {
+    "status": "in_progress",
+    "reviewer": "Codex（AI代理）",
+    "human_reviewed": false,
+    "coverage": "完整28段來源已讀；當代人物、帝號及六處非姓名第一人稱的初讀標記已完成。本單元共252錨：223處人物／稱謂、6處非姓名第一人稱、23處未決。這是有資格的來源內辨識與標記，不是完整史實抽取。",
+    "limitations": [
+      "unknown-print數位比較，未核書影，不冒武英殿或人審。",
+      "親屬、稱號、生卒、任職及其它史實仍須分項核證與結構化；23處未決保留各自候選與資格，包括遺孤的憬／頠兩讀，不以標記完成宣稱同指或史實皆已定。",
+      "凱與裴楷同指未決；冉未定；今上考是考察動詞，不標今上君主。",
+      "本次元凱群稱、冉、孫卿異名資格、尚分號古人及作品ID保持未決；不以書名內字作人名，不把今上考標成君主。"
+    ],
+    "registration_case_ref": "source-evidence/jin035-peixiu-peiwei/registration-contract.json",
+    "fixed_wikisource_unit_ref": "source-evidence/jin035-peixiu-peiwei/registration-contract.json",
+    "typed_family_phase_ref": "source-evidence/jin035-peixiu-peiwei/typed-family-contract.json",
+    "allusion_ner_phase_ref": "source-evidence/jin035-peixiu-peiwei/allusion-ner-contract.json",
+    "contemporary_ner_phase_ref": "source-evidence/jin035-peixiu-peiwei/contemporary-ner-contract.json"
+  },
+  "paragraphs": [
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p001",
+      "text": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "裴秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0004",
+          "start": 4,
+          "end": 6,
+          "surface": "季彥",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0015",
+          "start": 15,
+          "end": 16,
+          "surface": "茂",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0023",
+          "start": 23,
+          "end": 24,
+          "surface": "潛",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0030",
+          "start": 30,
+          "end": 31,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0047",
+          "start": 47,
+          "end": 48,
+          "surface": "徽",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_B",
+          "status": "contextual_provisional",
+          "interpretation_note": "同035近系之秀叔父徽與楷父徽/八裴徽相容；首選現役nx3，不冒SGZ10裴徽047已合，不新增父邊。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0057",
+          "start": 57,
+          "end": 58,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0065",
+          "start": 65,
+          "end": 66,
+          "surface": "徽",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_B",
+          "status": "contextual_provisional",
+          "interpretation_note": "同035近系之秀叔父徽與楷父徽/八裴徽相容；首選現役nx3，不冒SGZ10裴徽047已合，不新增父邊。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0071",
+          "start": 71,
+          "end": 72,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0074",
+          "start": 74,
+          "end": 76,
+          "surface": "秀母",
+          "kind": "person",
+          "person_id": "0qi_1ao_5u8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0080",
+          "start": 80,
+          "end": 82,
+          "surface": "宣氏",
+          "kind": "person",
+          "person_id": "5n7_xnv_jfj",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0100",
+          "start": 100,
+          "end": 102,
+          "surface": "秀母",
+          "kind": "person",
+          "person_id": "0qi_1ao_5u8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0113",
+          "start": 113,
+          "end": 115,
+          "surface": "小兒",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "秀母因客人禮敬自己而稱小兒，指本段裴秀；不是另一未名兒。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0119",
+          "start": 119,
+          "end": 121,
+          "surface": "宣氏",
+          "kind": "person",
+          "person_id": "5n7_xnv_jfj",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p001:m0141",
+          "start": 141,
+          "end": 143,
+          "surface": "裴秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "source_explicit"
+        }
+      ],
+      "source_position": {
+        "first_line": 20,
+        "last_line": 20,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line020",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p002",
+      "text": "渡遼將軍毌丘儉嘗薦秀于大將軍曹爽，曰：「生而岐嶷，長蹈自然，玄靜守真，性入道奧；博學強記，無文不該；孝友著于鄉党，高聲聞於遠近。誠宜弼佐謨明，助和鼎味，毗贊大府，光昭盛化。非徒子奇、甘羅之儔，兼包顏、冉、游、夏之美。」爽乃辟為掾，襲父爵清陽亭侯，遷黃門侍郎。爽誅，以故吏免。頃之，為廷尉正，曆文帝安東及衛將軍司馬，軍國之政，多見信納。遷散騎常侍。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0004",
+          "start": 4,
+          "end": 7,
+          "surface": "毌丘儉",
+          "kind": "person",
+          "person_id": "b61_784_cbb",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0009",
+          "start": 9,
+          "end": 10,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0014",
+          "start": 14,
+          "end": 16,
+          "surface": "曹爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0088",
+          "start": 88,
+          "end": 90,
+          "surface": "子奇",
+          "kind": "person",
+          "person_id": "0gm_qok_o0r",
+          "status": "source_explicit",
+          "narrative_qualification": {
+            "kind": "allusive_comparison",
+            "qualification": "毌丘儉薦秀引古，不是同時在場。"
+          }
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0091",
+          "start": 91,
+          "end": 93,
+          "surface": "甘羅",
+          "kind": "person",
+          "person_id": "8im_m5e_cpy_*A",
+          "status": "contextual_provisional",
+          "interpretation_note": "與子奇少年才俊對舉，首選秦甘羅。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0098",
+          "start": 98,
+          "end": 99,
+          "surface": "顏",
+          "kind": "person",
+          "person_id": "gsq_vgq_esv",
+          "status": "contextual_provisional",
+          "interpretation_note": "顏冉游夏儒門弟子典故，顏首選顏回／顏淵；不是整個顏氏家族。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0100",
+          "start": 100,
+          "end": 101,
+          "surface": "冉",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "原文僅冉；可能冉耕、冉雍或冉求。不得因顏冉習語選最近或最常見者，現有冉求另有重複候選，本案不先合號。",
+          "candidate_person_ids": [
+            "n7v_qo9_v4f",
+            "5bo_dxd_69k_A",
+            "wnp_vk6_qhe",
+            "twa_vor_7j0"
+          ]
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0102",
+          "start": 102,
+          "end": 103,
+          "surface": "游",
+          "kind": "person",
+          "person_id": "mqt_zhu_byy",
+          "status": "contextual_provisional",
+          "interpretation_note": "顏冉游夏中的游首選子游言偃。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0104",
+          "start": 104,
+          "end": 105,
+          "surface": "夏",
+          "kind": "person",
+          "person_id": "z8l_wje_08d",
+          "status": "contextual_provisional",
+          "interpretation_note": "顏冉游夏中的夏首選子夏卜商；不是夏朝。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0109",
+          "start": 109,
+          "end": 110,
+          "surface": "爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0129",
+          "start": 129,
+          "end": 130,
+          "surface": "爽",
+          "kind": "person",
+          "person_id": "30k_jzz_tpd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p002:m0146",
+          "start": 146,
+          "end": 148,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAI",
+          "status": "contextual_provisional",
+          "interpretation_note": "辟曹爽掾免官後轉司馬昭安東/衛將軍幕府；此文帝非曹丕。"
+        }
+      ],
+      "source_position": {
+        "first_line": 22,
+        "last_line": 22,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line022",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p003",
+      "text": "帝之討諸葛誕也，秀與尚書僕射陳泰、黃門侍郎鍾會以行台從，豫參謀略。及誕平，轉尚書，進封魯陽鄉侯，增邑千戶。常道鄉公立，以豫議定策，進爵縣侯，增邑七百戶，遷尚書僕射。魏咸熙初，厘革憲司。時荀顗定禮儀，賈充正法律，而秀改官制焉。秀議五等之爵，自騎督已上六百餘人皆封。於是秀封濟川侯，地方六十里，邑千四百戶，以高苑縣濟川墟為侯國。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAI",
+          "status": "contextual_provisional",
+          "interpretation_note": "承上文文帝，討諸葛誕的主將司馬昭；未至後段武帝受禪。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0003",
+          "start": 3,
+          "end": 6,
+          "surface": "諸葛誕",
+          "kind": "person",
+          "person_id": "655_392_7f8",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0008",
+          "start": 8,
+          "end": 9,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0014",
+          "start": 14,
+          "end": 16,
+          "surface": "陳泰",
+          "kind": "person",
+          "person_id": "9w8_tqh_ysn_AAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0021",
+          "start": 21,
+          "end": 23,
+          "surface": "鍾會",
+          "kind": "person",
+          "person_id": "a6a_4c2_670",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0034",
+          "start": 34,
+          "end": 35,
+          "surface": "誕",
+          "kind": "person",
+          "person_id": "655_392_7f8",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0053",
+          "start": 53,
+          "end": 57,
+          "surface": "常道鄉公",
+          "kind": "person",
+          "person_id": "4m1_lym_noz",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0093",
+          "start": 93,
+          "end": 95,
+          "surface": "荀顗",
+          "kind": "person",
+          "person_id": "yoo_ox0_545_BAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0099",
+          "start": 99,
+          "end": 101,
+          "surface": "賈充",
+          "kind": "person",
+          "person_id": "jmv_vc4_gep_*AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0106",
+          "start": 106,
+          "end": 107,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0112",
+          "start": 112,
+          "end": 113,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p003:m0133",
+          "start": 133,
+          "end": 134,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        }
+      ],
+      "source_position": {
+        "first_line": 24,
+        "last_line": 24,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line024",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p004",
+      "text": "初，文帝未定嗣，而屬意舞陽侯攸。武帝懼不得立，問秀曰：「人有相否？」因以奇表示之。秀後言于文帝曰：「中撫軍人望既茂，天表如此，固非人臣之相也。」由是世子乃定。武帝既即王位，拜尚書令、右光祿大夫，與御史大夫王沈、衛將軍賈充俱開府，加給事中。及帝受禪，加左光祿大夫，封钜鹿郡公，邑三千戶。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAI",
+          "status": "contextual_provisional",
+          "interpretation_note": "未定嗣且屬意攸，受裴秀言世子的父代司馬昭。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0011",
+          "start": 11,
+          "end": 15,
+          "surface": "舞陽侯攸",
+          "kind": "person",
+          "person_id": "cac_ca2_008",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0016",
+          "start": 16,
+          "end": 18,
+          "surface": "武帝",
+          "kind": "person",
+          "person_id": "hgm_jvn_hle",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0024",
+          "start": 24,
+          "end": 25,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0041",
+          "start": 41,
+          "end": 42,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0045",
+          "start": 45,
+          "end": 47,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAI",
+          "status": "contextual_provisional",
+          "interpretation_note": "未定嗣且屬意攸，受裴秀言世子的父代司馬昭。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0050",
+          "start": 50,
+          "end": 53,
+          "surface": "中撫軍",
+          "kind": "person",
+          "person_id": "hgm_jvn_hle",
+          "status": "contextual_provisional",
+          "interpretation_note": "武帝問相/秀向文帝論其人望，指後來司馬炎；保原印/數位中撫軍，不校撫字。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0074",
+          "start": 74,
+          "end": 76,
+          "surface": "世子",
+          "kind": "person",
+          "person_id": "hgm_jvn_hle",
+          "status": "contextual_provisional",
+          "interpretation_note": "攸與武帝立嗣競爭中，經秀進言而定的世子承武帝。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0079",
+          "start": 79,
+          "end": 81,
+          "surface": "武帝",
+          "kind": "person",
+          "person_id": "hgm_jvn_hle",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0102",
+          "start": 102,
+          "end": 104,
+          "surface": "王沈",
+          "kind": "person",
+          "person_id": "175_99c_b41_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0108",
+          "start": 108,
+          "end": 110,
+          "surface": "賈充",
+          "kind": "person",
+          "person_id": "jmv_vc4_gep_*AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p004:m0120",
+          "start": 120,
+          "end": 121,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "hgm_jvn_hle",
+          "status": "contextual_provisional",
+          "interpretation_note": "及帝受禪承前武帝即王位，已轉司馬炎，不接前文父代文帝。"
+        }
+      ],
+      "source_position": {
+        "first_line": 26,
+        "last_line": 26,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line026",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p005",
+      "text": "時安遠護軍郝詡與故人書云：「與尚書令裴秀相知，望其為益。」有司奏免秀官，詔曰：「不能使人之不加諸我，此古人所難。交關人事，詡之罪耳，豈尚書令能防乎！其勿有所問。」司隸校尉李憙復上言，騎都尉劉尚為尚書令裴秀占官稻田，求禁止秀。詔又以秀幹翼朝政，有勳績於王室，不可以小疵掩大德，使推正尚罪而解秀禁止焉。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0005",
+          "start": 5,
+          "end": 7,
+          "surface": "郝詡",
+          "kind": "person",
+          "person_id": "vcg_bqj_ixo",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0018",
+          "start": 18,
+          "end": 20,
+          "surface": "裴秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0033",
+          "start": 33,
+          "end": 34,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0061",
+          "start": 61,
+          "end": 62,
+          "surface": "詡",
+          "kind": "person",
+          "person_id": "vcg_bqj_ixo",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0067",
+          "start": 67,
+          "end": 70,
+          "surface": "尚書令",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "豈尚書令能防乎是詔對被奏秀的官稱代人；不是新增該官任。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0085",
+          "start": 85,
+          "end": 87,
+          "surface": "李憙",
+          "kind": "person",
+          "person_id": "3vy_cjq_eco",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0094",
+          "start": 94,
+          "end": 96,
+          "surface": "劉尚",
+          "kind": "person",
+          "person_id": "mfv_6lw_iu1",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0100",
+          "start": 100,
+          "end": 102,
+          "surface": "裴秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0110",
+          "start": 110,
+          "end": 111,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0115",
+          "start": 115,
+          "end": 116,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0140",
+          "start": 140,
+          "end": 141,
+          "surface": "尚",
+          "kind": "person",
+          "person_id": "mfv_6lw_iu1",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p005:m0144",
+          "start": 144,
+          "end": 145,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        }
+      ],
+      "source_position": {
+        "first_line": 28,
+        "last_line": 28,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line028",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p006",
+      "text": "久之，詔曰：「夫三司之任，以翼宣皇極，弼成王事者也。故經國論道，賴之明喆，苟非其人，官不虛備。尚書令、左光祿大夫裴秀，雅量弘博，思心通遠，先帝登庸，贊事前朝。朕受明命，光佐大業，勳德茂著，配蹤元凱。宜正位居體，以康庶績。其以秀為司空。」",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p006:m0056",
+          "start": 56,
+          "end": 58,
+          "surface": "裴秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p006:m0069",
+          "start": 69,
+          "end": 71,
+          "surface": "先帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAI",
+          "status": "contextual_provisional",
+          "interpretation_note": "朕受明命之晉武帝詔追述先帝登庸，指司馬昭；非由最近一字帝機械選人。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p006:m0079",
+          "start": 79,
+          "end": 80,
+          "surface": "朕",
+          "kind": "pronoun",
+          "person_id": "hgm_jvn_hle",
+          "status": "contextual_provisional",
+          "source_reference_owner": "jin035-contemporary-first-person",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。",
+          "source_voice": "wudi_edict"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p006:m0096",
+          "start": 96,
+          "end": 98,
+          "surface": "元凱",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "配蹤元凱以古賢相比擬，暫存八元八凱群稱，不逐字拆成兩人，不接當代杜預字元凱。；群稱未拆分，不登記為單一人物。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p006:m0112",
+          "start": 112,
+          "end": 113,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        }
+      ],
+      "source_position": {
+        "first_line": 30,
+        "last_line": 30,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line030",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p007",
+      "text": "秀儒學洽聞，且留心政事，當禪代之際，總納言之要，其所裁當，禮無違者。又以職在地官，以《禹貢》山川地名，從來久遠，多有變易。後世說者或強牽引，漸以暗昧。於是甄摘舊文，疑者則闕，古有名而今無者，皆隨事注列，作《禹貢地域圖》十八篇，奏之，藏于秘府。其序曰：",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p007:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p007:m0043",
+          "start": 43,
+          "end": 45,
+          "surface": "禹貢",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p007:m0103",
+          "start": 103,
+          "end": 108,
+          "surface": "禹貢地域圖",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        }
+      ],
+      "source_position": {
+        "first_line": 32,
+        "last_line": 32,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line032",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p008",
+      "text": "圖書之設，由來尚矣。自古立象垂制，而賴其用。三代置其官，國史掌厥職。暨漢屠咸陽，丞相蕭何盡收秦之圖籍。今秘書既無古之地圖，又無蕭何所得，惟有漢氏《輿地》及《括地》諸雜圖。各不設分率，又不考正准望，亦不備載名山大川。雖有粗形，皆不精審，不可依據。或荒外迂誕之言，不合事實，於義無取。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p008:m0042",
+          "start": 42,
+          "end": 44,
+          "surface": "蕭何",
+          "kind": "person",
+          "person_id": "xd8_uww_5ok",
+          "status": "contextual_provisional",
+          "interpretation_note": "收秦圖籍之漢丞相，兩次完整姓名皆同人。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p008:m0063",
+          "start": 63,
+          "end": 65,
+          "surface": "蕭何",
+          "kind": "person",
+          "person_id": "xd8_uww_5ok",
+          "status": "contextual_provisional",
+          "interpretation_note": "收秦圖籍之漢丞相，兩次完整姓名皆同人。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p008:m0073",
+          "start": 73,
+          "end": 75,
+          "surface": "輿地",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p008:m0078",
+          "start": 78,
+          "end": 80,
+          "surface": "括地",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        }
+      ],
+      "source_position": {
+        "first_line": 34,
+        "last_line": 34,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line034",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p009",
+      "text": "大晉龍興，混一六合，以清宇宙，始於庸蜀，冞入其岨。文皇帝乃命有司，撰訪吳蜀地圖。蜀土既定，六軍所經，地域遠近，山川險易，征路迂直，校驗圖記，罔或有差。今上考《禹貢》山海川流，原隰陂澤，古之九州，及今之十六州，郡國縣邑，疆界鄉陬，及古國盟會舊名，水陸徑路，為地圖十八篇。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p009:m0025",
+          "start": 25,
+          "end": 28,
+          "surface": "文皇帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAI",
+          "status": "contextual_provisional",
+          "interpretation_note": "序追述庸蜀/訪吳蜀圖，受禪前司馬昭；今上考是今、上考的動詞，不另標今上。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p009:m0079",
+          "start": 79,
+          "end": 81,
+          "surface": "禹貢",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        }
+      ],
+      "source_position": {
+        "first_line": 36,
+        "last_line": 36,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line036",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p010",
+      "text": "製圖之體有六焉。一曰分率，所以辨廣輪之度也。二曰准望，所以正彼此之體也。三曰道里，所以定所由之數也。四曰高下，五曰方邪，六曰迂直，此三者各因地而制宜，所以校夷險之異也。有圖像而無分率，則無以審遠近之差；有分率而無准望，雖得之於一隅，必失之于他方；有准望而無道里，則施於山海絕隔之地，不能以相通；有道里而無高下、方邪、迂直之校，則徑路之數必與遠近之實相違，失准望之正矣，故以此六者參而考之。然遠近之實定於分率，彼此之實定於道里，度數之實定于高下、方邪、迂直之算。故雖有峻山钜海之隔，絕域殊方之迥，登降詭曲之因，皆可得舉而定者。准望之法既正，則曲直遠近無所隱其形也。",
+      "text_layer": "received_chapter",
+      "annotation_status": "pending",
+      "mentions": [],
+      "source_position": {
+        "first_line": 38,
+        "last_line": 38,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line038",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p011",
+      "text": "秀創制朝儀，廣陳刑政，朝廷多遵用之，以為故事。在位四載，為當世名公。服寒食散，當飲熱酒而飲冷酒，泰始七年薨，時年四十八。詔曰：「司空經德履哲，體蹈儒雅，佐命翼世，勳業弘茂。方將宣獻敷制，為世宗範，不幸薨殂，朕甚痛之。其賜秘器、朝服一具、衣一襲、錢三十萬、布百匹。諡曰元。」",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p011:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p011:m0064",
+          "start": 64,
+          "end": 66,
+          "surface": "司空",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "詔稱司空經德履哲、不幸薨殂，明裴秀原職代人，非新立另一司空。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p011:m0103",
+          "start": 103,
+          "end": 104,
+          "surface": "朕",
+          "kind": "pronoun",
+          "person_id": "hgm_jvn_hle",
+          "status": "contextual_provisional",
+          "source_reference_owner": "jin035-contemporary-first-person",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。",
+          "source_voice": "wudi_death_edict"
+        }
+      ],
+      "source_position": {
+        "first_line": 40,
+        "last_line": 40,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line040",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p012",
+      "text": "初，秀以尚書三十六曹統事准例不明，宜使諸卿任職，未及奏而薨。其友人料其書記，得表草言平吳之事，其詞曰：「孫皓酷虐，不及聖明禦世兼弱攻昧，使遺子孫，將遂不能臣；時有否泰，非萬安之勢也。臣昔雖已屢言，未有成旨。今既疾篤不起，謹重屍啟。願陛下時共施用。」乃封以上聞。詔報曰：「司空薨，痛悼不能去心。又得表草，雖在危困，不忘王室，盡忠憂國。省益傷切，輒當與諸賢共論也。」",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p012:m0002",
+          "start": 2,
+          "end": 3,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p012:m0052",
+          "start": 52,
+          "end": 54,
+          "surface": "孫皓",
+          "kind": "person",
+          "person_id": "05e_9bb_55a",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p012:m0059",
+          "start": 59,
+          "end": 61,
+          "surface": "聖明",
+          "kind": "person",
+          "person_id": "hgm_jvn_hle",
+          "status": "contextual_provisional",
+          "interpretation_note": "裴秀平吳表草稱當今陛下禦世，指司馬炎，不當正式爵號。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p012:m0091",
+          "start": 91,
+          "end": 92,
+          "surface": "臣",
+          "kind": "pronoun",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "source_reference_owner": "jin035-contemporary-first-person",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。",
+          "source_voice": "peixiu_unsubmitted_memorial"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p012:m0116",
+          "start": 116,
+          "end": 118,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "hgm_jvn_hle",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p012:m0135",
+          "start": 135,
+          "end": 137,
+          "surface": "司空",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "詔報司空薨承本傳秀死/得其表草，不是另任司空者。"
+        }
+      ],
+      "source_position": {
+        "first_line": 42,
+        "last_line": 42,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line042",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p013",
+      "text": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p013:m0005",
+          "start": 5,
+          "end": 7,
+          "surface": "石苞",
+          "kind": "person",
+          "person_id": "d39_856_53f",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p013:m0022",
+          "start": 22,
+          "end": 23,
+          "surface": "浚",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p013:m0024",
+          "start": 24,
+          "end": 25,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p013:m0026",
+          "start": 26,
+          "end": 27,
+          "surface": "浚",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p013:m0039",
+          "start": 39,
+          "end": 40,
+          "surface": "浚",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p013:m0042",
+          "start": 42,
+          "end": 43,
+          "surface": "憬",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAAA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p013:m0054",
+          "start": 54,
+          "end": 55,
+          "surface": "浚",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p013:m0057",
+          "start": 57,
+          "end": 58,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        }
+      ],
+      "source_position": {
+        "first_line": 44,
+        "last_line": 44,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line044",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p014",
+      "text": "頠字逸民。弘雅有遠識，博學稽古，自少知名。御史中丞周弼見而歎曰：「頠若武庫，五兵縱橫，一時之傑也。」賈充即頠從母夫也，表「秀有佐命之勳，不幸嫡長喪亡，遺孤稚弱。頠才德英茂，足以興隆國嗣。」詔頠襲爵，頠固讓，不許。太康二年，徵為太子中庶子，遷散騎常侍。惠帝既位，轉國子祭酒，兼右軍將軍。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "逸民",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0025",
+          "start": 25,
+          "end": 27,
+          "surface": "周弼",
+          "kind": "person",
+          "person_id": "ggr_mq6_5e7",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0033",
+          "start": 33,
+          "end": 34,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0050",
+          "start": 50,
+          "end": 52,
+          "surface": "賈充",
+          "kind": "person",
+          "person_id": "jmv_vc4_gep_*AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0053",
+          "start": 53,
+          "end": 54,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0061",
+          "start": 61,
+          "end": 62,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0070",
+          "start": 70,
+          "end": 72,
+          "surface": "嫡長",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "秀二子浚頠，前段浚早卒/頠少弟；充表嫡長喪亡指浚。本次僅同指，不添生序typed或生母。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0075",
+          "start": 75,
+          "end": 77,
+          "surface": "遺孤",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "candidate_person_ids": [
+            "kbq_kjc_n2f_AAAA",
+            "kbq_kjc_n2f_AAB"
+          ],
+          "interpretation_note": "充表先述秀嫡長（浚）喪亡、遺孤稚弱，後稱頠才德可興國嗣：遺孤較可能指浚子憬，但也須保秀遺孤頠的舊解。暫不默選任何人；不由稚弱反推年齡或生年。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0080",
+          "start": 80,
+          "end": 81,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0095",
+          "start": 95,
+          "end": 96,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0099",
+          "start": 99,
+          "end": 100,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p014:m0125",
+          "start": 125,
+          "end": 127,
+          "surface": "惠帝",
+          "kind": "person",
+          "person_id": "7e0_f69_1ac",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        }
+      ],
+      "source_position": {
+        "first_line": 46,
+        "last_line": 46,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line046",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p015",
+      "text": "初，頠兄子憬為白衣，頠論述世勳，賜爵高陽亭侯。楊駿將誅也，駿党左軍將軍劉豫陳兵在門，遇頠，問太傅所在。頠紿之曰：「向於西掖門遇公乘素車，從二人西出矣。」豫曰：「吾何之？」頠曰：「宜至廷尉。」豫從頠言，遂委而去。尋而詔頠代豫領左軍將軍，屯萬春門。及駿誅，以功當封武昌侯，頠請以封憬，帝竟封頠次子該。頠苦陳憬本承嫡，宜襲钜鹿，先帝恩旨，辭不獲命。武昌之封，己之所蒙，特請以封憬。該時尚主，故帝不聽。累遷侍中。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0002",
+          "start": 2,
+          "end": 3,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0005",
+          "start": 5,
+          "end": 6,
+          "surface": "憬",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAAA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0010",
+          "start": 10,
+          "end": 11,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0023",
+          "start": 23,
+          "end": 25,
+          "surface": "楊駿",
+          "kind": "person",
+          "person_id": "603_131_11e",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0029",
+          "start": 29,
+          "end": 30,
+          "surface": "駿",
+          "kind": "person",
+          "person_id": "603_131_11e",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0035",
+          "start": 35,
+          "end": 37,
+          "surface": "劉豫",
+          "kind": "person",
+          "person_id": "op5_nwa_729",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0043",
+          "start": 43,
+          "end": 44,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0046",
+          "start": 46,
+          "end": 48,
+          "surface": "太傅",
+          "kind": "person",
+          "person_id": "603_131_11e",
+          "status": "contextual_provisional",
+          "interpretation_note": "劉豫是楊駿黨，問太傅所在，承楊駿未誅；不是司馬懿。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0051",
+          "start": 51,
+          "end": 52,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0063",
+          "start": 63,
+          "end": 64,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "603_131_11e",
+          "status": "contextual_provisional",
+          "interpretation_note": "頠紿劉豫稱公乘素車西出，公仍楊駿；同指不表示西出之事真發生。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0076",
+          "start": 76,
+          "end": 77,
+          "surface": "豫",
+          "kind": "person",
+          "person_id": "op5_nwa_729",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0080",
+          "start": 80,
+          "end": 81,
+          "surface": "吾",
+          "kind": "pronoun",
+          "person_id": "op5_nwa_729",
+          "status": "contextual_provisional",
+          "source_reference_owner": "jin035-contemporary-first-person",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。",
+          "source_voice": "liuyu_question"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0085",
+          "start": 85,
+          "end": 86,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0095",
+          "start": 95,
+          "end": 96,
+          "surface": "豫",
+          "kind": "person",
+          "person_id": "op5_nwa_729",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0097",
+          "start": 97,
+          "end": 98,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0108",
+          "start": 108,
+          "end": 109,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0110",
+          "start": 110,
+          "end": 111,
+          "surface": "豫",
+          "kind": "person",
+          "person_id": "op5_nwa_729",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0123",
+          "start": 123,
+          "end": 124,
+          "surface": "駿",
+          "kind": "person",
+          "person_id": "603_131_11e",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0134",
+          "start": 134,
+          "end": 135,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0138",
+          "start": 138,
+          "end": 139,
+          "surface": "憬",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAAA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0140",
+          "start": 140,
+          "end": 141,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "7e0_f69_1ac",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0143",
+          "start": 143,
+          "end": 144,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0146",
+          "start": 146,
+          "end": 147,
+          "surface": "該",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AABB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0148",
+          "start": 148,
+          "end": 149,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0151",
+          "start": 151,
+          "end": 152,
+          "surface": "憬",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAAA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0161",
+          "start": 161,
+          "end": 163,
+          "surface": "先帝",
+          "kind": "person",
+          "person_id": "hgm_jvn_hle",
+          "status": "contextual_provisional",
+          "interpretation_note": "惠帝時頠述先帝對襲爵的恩旨，指司馬炎；不仍接早期文帝。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0185",
+          "start": 185,
+          "end": 186,
+          "surface": "憬",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAAA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0187",
+          "start": 187,
+          "end": 188,
+          "surface": "該",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AABB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0190",
+          "start": 190,
+          "end": 191,
+          "surface": "主",
+          "kind": "person",
+          "person_id": "lzb_bsi_bu7",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p015:m0193",
+          "start": 193,
+          "end": 194,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "7e0_f69_1ac",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        }
+      ],
+      "source_position": {
+        "first_line": 48,
+        "last_line": 48,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line048",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p016",
+      "text": "時天下暫寧，頠奏修國學，刻石寫經。皇太子既講，釋奠祀孔子，飲饗射侯，甚有儀序。又令荀籓終父勖之志，鑄鐘鑿磬，以備郊廟朝享禮樂。頠通博多聞，兼明醫術。荀勖之修律度也，檢得古尺，短世所用四分有餘。頠上言：「宜改諸度量。若未能悉革，可先改太醫權衡。此若差違，遂失神農、岐伯之正。藥物輕重，分兩乖互，所可傷夭，為害尤深。古壽考而今短折者，未必不由此也。」卒不能用。樂廣嘗與頠清言，欲以理服之，而頠辭論豐博，廣笑而不言。時人謂頠為言談之林藪。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0006",
+          "start": 6,
+          "end": 7,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0017",
+          "start": 17,
+          "end": 20,
+          "surface": "皇太子",
+          "kind": "person",
+          "person_id": "74e_68c_9ae",
+          "status": "contextual_provisional",
+          "interpretation_note": "惠帝朝頠侍臣，接下段賈后不悅之太子及p020湣懷太子，與現役同一太子；不以官名太子中庶子造額外提及。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0026",
+          "start": 26,
+          "end": 28,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "fp6_ia6_7yw",
+          "status": "contextual_provisional",
+          "interpretation_note": "釋奠祀孔子為儒家先師，首選既有孔子主身份，不按同名候選隨機選號。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0041",
+          "start": 41,
+          "end": 43,
+          "surface": "荀籓",
+          "kind": "person",
+          "person_id": "yoo_ox0_545_FAAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0045",
+          "start": 45,
+          "end": 46,
+          "surface": "勖",
+          "kind": "person",
+          "person_id": "yoo_ox0_545_FAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0063",
+          "start": 63,
+          "end": 64,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0074",
+          "start": 74,
+          "end": 76,
+          "surface": "荀勖",
+          "kind": "person",
+          "person_id": "yoo_ox0_545_FAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0096",
+          "start": 96,
+          "end": 97,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0128",
+          "start": 128,
+          "end": 130,
+          "surface": "神農",
+          "kind": "person",
+          "person_id": "kzy_ysk_775",
+          "status": "contextual_provisional",
+          "interpretation_note": "神農岐伯之正指醫藥先賢並稱，人物典故而非本段引書；保留legendary_tradition，不接炎帝。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0131",
+          "start": 131,
+          "end": 133,
+          "surface": "岐伯",
+          "kind": "person",
+          "person_id": "l4l_iz8_ao0",
+          "status": "contextual_provisional",
+          "interpretation_note": "神農岐伯之正的醫藥先賢。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0178",
+          "start": 178,
+          "end": 180,
+          "surface": "樂廣",
+          "kind": "person",
+          "person_id": "591_360_8ca",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0182",
+          "start": 182,
+          "end": 183,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0193",
+          "start": 193,
+          "end": 194,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0199",
+          "start": 199,
+          "end": 200,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "591_360_8ca",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p016:m0208",
+          "start": 208,
+          "end": 209,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        }
+      ],
+      "source_position": {
+        "first_line": 50,
+        "last_line": 50,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line050",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p017",
+      "text": "頠以賈后不悅太子，抗表請增崇太子所生謝淑妃位號，仍啟增置後衛率吏，給三千兵，於是東宮宿衛萬人。遷尚書，侍中如故，加光祿大夫。每授一職，未嘗不殷勤固讓，表疏十餘上，博引古今成敗以為言，覽之者莫不寒心。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p017:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p017:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "賈后",
+          "kind": "person",
+          "person_id": "jmv_vc4_gep_*AAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p017:m0006",
+          "start": 6,
+          "end": 8,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "74e_68c_9ae",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p017:m0014",
+          "start": 14,
+          "end": 16,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "74e_68c_9ae",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p017:m0018",
+          "start": 18,
+          "end": 21,
+          "surface": "謝淑妃",
+          "kind": "person",
+          "person_id": "ok2_ghf_354",
+          "status": "source_explicit"
+        }
+      ],
+      "source_position": {
+        "first_line": 52,
+        "last_line": 52,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line052",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p018",
+      "text": "頠深慮賈后亂政，與司空張華、侍中賈模議廢之而立謝淑妃。華、模皆曰：「帝自無廢黜之意，若吾等專行之，上心不以為是。且諸王方剛，朋黨異議，恐禍如發機，身死國危，無益社稷。」頠曰：「誠如公慮。但昏虐之人，無所忌憚，亂可立待，將如之何？」華曰：「卿二人猶且見信，然勤為左右陳禍福之戒，冀無大悖。幸天下尚安，庶可優遊卒歲。」此謀遂寢。頠旦夕勸說從母廣城君，令戒喻賈后親待太子而已。或說頠曰：「幸與中宮內外可得盡言。言若不行，則可辭病摒退。若二者不立，雖有十表，難乎免矣。」頠慨然久之，而竟不能行。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "賈后",
+          "kind": "person",
+          "person_id": "jmv_vc4_gep_*AAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0011",
+          "start": 11,
+          "end": 13,
+          "surface": "張華",
+          "kind": "person",
+          "person_id": "1dq_vh2_eru",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0016",
+          "start": 16,
+          "end": 18,
+          "surface": "賈模",
+          "kind": "person",
+          "person_id": "sjl_3g6_zl8",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0023",
+          "start": 23,
+          "end": 26,
+          "surface": "謝淑妃",
+          "kind": "person",
+          "person_id": "ok2_ghf_354",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0027",
+          "start": 27,
+          "end": 28,
+          "surface": "華",
+          "kind": "person",
+          "person_id": "1dq_vh2_eru",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0029",
+          "start": 29,
+          "end": 30,
+          "surface": "模",
+          "kind": "person",
+          "person_id": "sjl_3g6_zl8",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0034",
+          "start": 34,
+          "end": 35,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "7e0_f69_1ac",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0049",
+          "start": 49,
+          "end": 50,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "7e0_f69_1ac",
+          "status": "contextual_provisional",
+          "interpretation_note": "上心不以為是之上為在位惠帝，非裴頠表上/上言動詞。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0084",
+          "start": 84,
+          "end": 85,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0115",
+          "start": 115,
+          "end": 116,
+          "surface": "華",
+          "kind": "person",
+          "person_id": "1dq_vh2_eru",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0162",
+          "start": 162,
+          "end": 163,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0169",
+          "start": 169,
+          "end": 172,
+          "surface": "廣城君",
+          "kind": "person",
+          "person_id": "vji_mqe_2dj_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "從母廣城君與郭槐的同一C40原稱＋氏名，保從母資格而不推生母。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0176",
+          "start": 176,
+          "end": 178,
+          "surface": "賈后",
+          "kind": "person",
+          "person_id": "jmv_vc4_gep_*AAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0180",
+          "start": 180,
+          "end": 182,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "74e_68c_9ae",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0187",
+          "start": 187,
+          "end": 188,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0193",
+          "start": 193,
+          "end": 195,
+          "surface": "中宮",
+          "kind": "person",
+          "person_id": "jmv_vc4_gep_*AAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p018:m0231",
+          "start": 231,
+          "end": 232,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        }
+      ],
+      "source_position": {
+        "first_line": 54,
+        "last_line": 54,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line054",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p019",
+      "text": "遷尚書左僕射，侍中如故。頠雖後之親屬，然雅望素隆，四海不謂之以親戚進也，惟恐其不居位。俄復使頠專任門下事，固讓，不聽。頠上言：「賈模適亡，復以臣代，崇外戚之望，彰偏私之舉。後族何常有能自保，皆知重親無脫者也。然漢二十四帝惟孝文、光武、明帝不重外戚，皆保其宗，豈將獨賢，實以安理故也。昔穆叔不拜越禮之饗，臣亦不敢聞殊常之詔。」又表云：「咎繇謨虞，伊尹相商，呂望翊周，蕭張佐漢，咸播功化，光格四極。暨于繼體，咎單、傅說，祖己、樊仲，亦隆中興。或明揚側陋，或起自庶族，豈非尚德之舉，以臻斯美哉！曆觀近世，不能慕遠，溺於近情，多任後親，以致不靜。昔疏廣戒太子以舅氏為官屬，前世以為知禮。況朝廷何取于外戚，正復才均，尚當先其疏者，以明至公。漢世不用馮野王，即其事也。」表上，皆優詔敦譬。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0012",
+          "start": 12,
+          "end": 13,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0014",
+          "start": 14,
+          "end": 15,
+          "surface": "後",
+          "kind": "person",
+          "person_id": "jmv_vc4_gep_*AAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "頠雖後之親屬承賈后；後族/後親是群體，不各標后個體。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0046",
+          "start": 46,
+          "end": 47,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0059",
+          "start": 59,
+          "end": 60,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0064",
+          "start": 64,
+          "end": 66,
+          "surface": "賈模",
+          "kind": "person",
+          "person_id": "sjl_3g6_zl8",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0071",
+          "start": 71,
+          "end": 72,
+          "surface": "臣",
+          "kind": "pronoun",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "contextual_provisional",
+          "source_reference_owner": "jin035-contemporary-first-person",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。",
+          "source_voice": "peiwei_memorials"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0111",
+          "start": 111,
+          "end": 113,
+          "surface": "孝文",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_AC",
+          "status": "contextual_provisional",
+          "interpretation_note": "漢二十四帝所列不重外戚者，明示漢代，不能接晉／魏同稱帝王。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0114",
+          "start": 114,
+          "end": 116,
+          "surface": "光武",
+          "kind": "person",
+          "person_id": "6c9_c43_555",
+          "status": "contextual_provisional",
+          "interpretation_note": "漢二十四帝所列不重外戚者，明示漢代，不能接晉／魏同稱帝王。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0117",
+          "start": 117,
+          "end": 119,
+          "surface": "明帝",
+          "kind": "person",
+          "person_id": "rdh_7yg_9xk",
+          "status": "contextual_provisional",
+          "interpretation_note": "漢二十四帝所列不重外戚者，明示漢代，不能接晉／魏同稱帝王。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0142",
+          "start": 142,
+          "end": 144,
+          "surface": "穆叔",
+          "kind": "person",
+          "person_id": "18r_wn6_nhh",
+          "status": "contextual_provisional",
+          "interpretation_note": "不拜越禮之饗指魯穆叔；現役穆叔為昭公立時人物。此為有資格首選，事件本身另需平行原文覆核，不新增不拜事件。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0151",
+          "start": 151,
+          "end": 152,
+          "surface": "臣",
+          "kind": "pronoun",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "contextual_provisional",
+          "source_reference_owner": "jin035-contemporary-first-person",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。",
+          "source_voice": "peiwei_memorials"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0167",
+          "start": 167,
+          "end": 169,
+          "surface": "咎繇",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "謨虞指皋陶；現役主身份p3l與宋書引古p7b尚分號，本批不偷作跨來源同指。先列p3l為審查首選。",
+          "candidate_person_ids": [
+            "p3l_pp3_n6i",
+            "p7b_fs6_0uh"
+          ]
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0172",
+          "start": 172,
+          "end": 174,
+          "surface": "伊尹",
+          "kind": "person",
+          "person_id": "itn_zi2_il4",
+          "status": "contextual_provisional",
+          "interpretation_note": "相商明定商代伊尹。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0177",
+          "start": 177,
+          "end": 179,
+          "surface": "呂望",
+          "kind": "person",
+          "person_id": "1g3_02y_oor",
+          "status": "contextual_provisional",
+          "interpretation_note": "翊周明定太公望；不把呂作現代姓氏補入名字。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0182",
+          "start": 182,
+          "end": 183,
+          "surface": "蕭",
+          "kind": "person",
+          "person_id": "xd8_uww_5ok",
+          "status": "contextual_provisional",
+          "interpretation_note": "蕭張佐漢的蕭首選蕭何；與本單元收圖籍之蕭何一致。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0183",
+          "start": 183,
+          "end": 184,
+          "surface": "張",
+          "kind": "person",
+          "person_id": "ea5_zvr_hlp",
+          "status": "contextual_provisional",
+          "interpretation_note": "蕭張佐漢的張暫解張良；與漢初開國輔佐典故相容，需保留複稱解讀資格，非泛指本篇張華。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0202",
+          "start": 202,
+          "end": 204,
+          "surface": "咎單",
+          "kind": "person",
+          "person_id": "0h0_68r_si5",
+          "status": "contextual_provisional",
+          "interpretation_note": "商代咎單，與咎繇不同；殷本紀現役原文有作明居及訓伊尹事。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0205",
+          "start": 205,
+          "end": 207,
+          "surface": "傅說",
+          "kind": "person",
+          "person_id": "p77_x5q_v4n",
+          "status": "contextual_provisional",
+          "interpretation_note": "商武丁輔臣，與咎單祖己並列中興，不拆說為語詞。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0208",
+          "start": 208,
+          "end": 210,
+          "surface": "祖己",
+          "kind": "person",
+          "person_id": "80h_7uw_251",
+          "status": "contextual_provisional",
+          "interpretation_note": "商代祖己，與商中興敘述相容；不因己字接祖甲。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0211",
+          "start": 211,
+          "end": 213,
+          "surface": "樊仲",
+          "kind": "person",
+          "person_id": "x2u_81x_m6e",
+          "status": "contextual_provisional",
+          "interpretation_note": "首選周樊仲山父；現役三國志009亦以樊仲與吉甫對舉。registry保留與仲山甫候選未接合，本批不合drr與x2u。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0270",
+          "start": 270,
+          "end": 272,
+          "surface": "疏廣",
+          "kind": "person",
+          "person_id": "ia8_iqc_juv",
+          "status": "contextual_provisional",
+          "interpretation_note": "戒太子以舅氏為官屬的漢疏廣。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p019:m0319",
+          "start": 319,
+          "end": 322,
+          "surface": "馮野王",
+          "kind": "person",
+          "person_id": "py5_y2c_pxi",
+          "status": "source_explicit",
+          "narrative_qualification": {
+            "kind": "historical_allusion",
+            "qualification": "裴頠表引漢世舊例，不是當時在場或任官。"
+          }
+        }
+      ],
+      "source_position": {
+        "first_line": 56,
+        "last_line": 56,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line056",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p020",
+      "text": "時以陳准子匡、韓蔚子嵩並侍東宮，頠諫曰：「東宮之建，以儲皇極。其所與遊接，必簡英俊，宜用成德。匡、嵩幼弱，未識人理立身之節。東宮實體夙成之表，而今有童子侍從之聲，未是光闡遐風之弘理也。」湣懷太子之廢也，頠與張華苦爭不從，語在《華傳》。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "陳准",
+          "kind": "person",
+          "person_id": "9w8_tqh_ysn_B*AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0005",
+          "start": 5,
+          "end": 6,
+          "surface": "匡",
+          "kind": "person",
+          "person_id": "lj8_ytn_qyi",
+          "status": "contextual_provisional",
+          "interpretation_note": "同陳氏準近支的稀名匡，首選現役唐表匡；但本源稱準子，唐表準生伯眕生匡，差一代仍未決。不把姓名同指變父系優先，亦不接王匡。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0007",
+          "start": 7,
+          "end": 9,
+          "surface": "韓蔚",
+          "kind": "person",
+          "person_id": "0hq_wga_qie",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0010",
+          "start": 10,
+          "end": 11,
+          "surface": "嵩",
+          "kind": "person",
+          "person_id": "mhj_6is_kld",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0016",
+          "start": 16,
+          "end": 17,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0047",
+          "start": 47,
+          "end": 48,
+          "surface": "匡",
+          "kind": "person",
+          "person_id": "lj8_ytn_qyi",
+          "status": "contextual_provisional",
+          "interpretation_note": "同陳氏準近支的稀名匡，首選現役唐表匡；但本源稱準子，唐表準生伯眕生匡，差一代仍未決。不把姓名同指變父系優先，亦不接王匡。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0049",
+          "start": 49,
+          "end": 50,
+          "surface": "嵩",
+          "kind": "person",
+          "person_id": "mhj_6is_kld",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0062",
+          "start": 62,
+          "end": 64,
+          "surface": "東宮",
+          "kind": "person",
+          "person_id": "74e_68c_9ae",
+          "status": "contextual_provisional",
+          "interpretation_note": "東宮實體夙成之表形容儲君資質，明以宮代人；前句侍東宮/東宮之建為府/制度，另列非個體。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0093",
+          "start": 93,
+          "end": 97,
+          "surface": "湣懷太子",
+          "kind": "person",
+          "person_id": "74e_68c_9ae",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0101",
+          "start": 101,
+          "end": 102,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0103",
+          "start": 103,
+          "end": 105,
+          "surface": "張華",
+          "kind": "person",
+          "person_id": "1dq_vh2_eru",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p020:m0113",
+          "start": 113,
+          "end": 115,
+          "surface": "華傳",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        }
+      ],
+      "source_position": {
+        "first_line": 58,
+        "last_line": 58,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line058",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p021",
+      "text": "頠深患時俗放蕩，不尊儒術，何晏、阮籍素有高名於世，口談浮虛，不遵禮法，屍祿耽寵，仕不事事；至王衍之徒，聲譽太盛，位高勢重，不以物務自嬰，遂相放效，風教陵遲，乃著崇有之論以釋其蔽曰：",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p021:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p021:m0013",
+          "start": 13,
+          "end": 15,
+          "surface": "何晏",
+          "kind": "person",
+          "person_id": "0db_22c_332_*A",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p021:m0016",
+          "start": 16,
+          "end": 18,
+          "surface": "阮籍",
+          "kind": "person",
+          "person_id": "6d5_075_29b",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p021:m0046",
+          "start": 46,
+          "end": 48,
+          "surface": "王衍",
+          "kind": "person",
+          "person_id": "kwx_czc_d4c_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p021:m0080",
+          "start": 80,
+          "end": 84,
+          "surface": "崇有之論",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        }
+      ],
+      "source_position": {
+        "first_line": 60,
+        "last_line": 60,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line060",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p022",
+      "text": "夫總混群本，宗極之道也。方以族異，庶類之品也。形象著分，有生之體也。化感錯綜，理跡之原也。夫品而為族，則所稟者偏，偏無自足，故憑乎外資。是以生而可尋，所謂理也。理之所體，所謂有也。有之所須，所謂資也。資有攸合，所謂宜也。擇乎厥宜，所謂情也。識智既授，雖出處異業，默語殊塗，所以寶生存宜，其情一也。眾理並而無害，故貴賤形焉。失得由乎所接，故吉凶兆焉。是以賢人君子，知欲不可絕，而交物有會。觀乎往復，稽中定務。惟夫用天之道，分地之利，躬其力任，勞而後饗。居以仁順，守以恭儉，率以忠信，行以敬讓，志無盈求，事無過用，乃可濟乎！故大建厥極，綏理群生，訓物垂範，於是乎在，斯則聖人為政之由也。",
+      "text_layer": "received_chapter",
+      "annotation_status": "pending",
+      "mentions": [],
+      "source_position": {
+        "first_line": 62,
+        "last_line": 62,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line062",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p023",
+      "text": "若乃淫抗陵肆，則危害萌矣。故欲衍則速患，情佚則怨博，擅恣則興攻，專利則延寇，可謂以厚生而失生者也。悠悠之徒，駭乎若茲之釁，而尋艱爭所緣。察夫偏質有弊，而睹簡損之善，遂闡貴無之議，而建賤有之論。賤有則必外形，外形則必遺制，遺制則必忽防，忽防則必忘禮。禮制弗存，則無以為政矣。眾之從上，猶水之居器也。故兆庶之情，信于所習；習則心服其業，業服則謂之理然。是以君人必慎所教，班其政刑一切之務，分宅百姓，各授四職，能令稟命之者不肅而安，忽然忘異，莫有遷志。況於據在三之尊，懷所隆之情，敦以為訓者哉！斯乃昏明所階，不可不審。",
+      "text_layer": "received_chapter",
+      "annotation_status": "pending",
+      "mentions": [],
+      "source_position": {
+        "first_line": 64,
+        "last_line": 64,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line064",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p024",
+      "text": "夫盈欲可損而未可絕有也，過用可節而未可謂無貴也。蓋有講言之具者，深列有形之故，盛稱空無之美。形器之故有征，空無之義難檢，辯巧之文可悅，似象之言足惑，眾聽眩焉，溺其成說。雖頗有異此心者，辭不獲濟，屈於所狎，因謂虛無之理，誠不可蓋。唱而有和，多往弗反，遂薄綜世之務，賤功烈之用，高浮游之業，埤經實之賢。人情所殉，篤夫名利。於是文者衍其辭，訥者贊其旨，染其眾也。是以立言藉於虛無，謂之玄妙；處官不親所司，謂之雅遠；奉身散其廉操，謂之曠達。故砥礪之風，彌以陵遲。放者因斯，或悖吉凶之禮，而忽容止之表，瀆棄長幼之序，混漫貴賤之級。其甚者至於裸裎，言笑忘宜，以不惜為弘，士行又虧矣。",
+      "text_layer": "received_chapter",
+      "annotation_status": "pending",
+      "mentions": [],
+      "source_position": {
+        "first_line": 66,
+        "last_line": 66,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line066",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p025",
+      "text": "老子既著五千之文，表摭穢雜之弊，甄舉靜一之義，有以令人釋然自夷，合于《易》之《損》、《謙》、《艮》、《節》之旨。而靜一守本，無虛無之謂也；《損》《艮》之屬，蓋君子之一道，非《易》之所以為體守本無也。觀老子之書雖博有所經，而云「有生於無」，以虛為主，偏立一家之辭，豈有以而然哉！人之既生，以保生為全，全之所階，以順感為務。若味近以虧業，則沈溺之釁興；懷末以忘本，則天理之真滅。故動之所交，存亡之會也。夫有非有，於無非無；于無非無，於有非有。是以申縱播之累，而著貴無之文。將以絕所非之盈謬，存大善之中節，收流遁於既過，反澄正於胸懷。宜其以無為辭，而旨在全有，故其辭曰「以為文不足」。若斯，則是所寄之塗，一方之言也。若謂至理信以無為宗，則偏而害當矣。先賢達識，以非所滯，示之深論。惟班固著難，未足折其情。孫卿、楊雄大體抑之，猶偏有所許。而虛無之言，日以廣衍，眾家扇起，各列其說。上及造化，下被萬事，莫不貴無，所存僉同。情以眾固，乃號凡有之理皆義之埤者，薄而鄙焉。辯論人倫及經明之業，遂易門肆。頠用矍然，申其所懷，而攻者盈集。或以為一時口言。有客幸過，咸見命著文，擿列虛無不允之征。若未能每事釋正，則無家之義弗可奪也。頠退而思之，雖君子宅情，無求於顯，及其立言，在乎達旨而已。然去聖久遠，異同紛糾，苟少有仿佛，可以崇濟先典，扶明大業，有益於時，則惟患言之不能，焉得靜默，及未舉一隅，略示所存而已哉！",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "老子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "著五千之文及觀老子之書均作者人物指稱；兩處首選既有老子主候選jg1，並保留李耳／老聃等身份未全庫接合的資格，不在此合併。",
+          "candidate_person_ids": [
+            "jg1_ag9_033",
+            "99a_8f0_ec3"
+          ]
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0035",
+          "start": 35,
+          "end": 36,
+          "surface": "易",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0039",
+          "start": 39,
+          "end": 40,
+          "surface": "損",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0043",
+          "start": 43,
+          "end": 44,
+          "surface": "謙",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0047",
+          "start": 47,
+          "end": 48,
+          "surface": "艮",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0051",
+          "start": 51,
+          "end": 52,
+          "surface": "節",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0070",
+          "start": 70,
+          "end": 71,
+          "surface": "損",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0073",
+          "start": 73,
+          "end": 74,
+          "surface": "艮",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0087",
+          "start": 87,
+          "end": 88,
+          "surface": "易",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0100",
+          "start": 100,
+          "end": 102,
+          "surface": "老子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "著五千之文及觀老子之書均作者人物指稱；兩處首選既有老子主候選jg1，並保留李耳／老聃等身份未全庫接合的資格，不在此合併。",
+          "candidate_person_ids": [
+            "jg1_ag9_033",
+            "99a_8f0_ec3"
+          ]
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0338",
+          "start": 338,
+          "end": 340,
+          "surface": "班固",
+          "kind": "person",
+          "person_id": "gxd_15x_9d0",
+          "status": "contextual_provisional",
+          "interpretation_note": "班固著難的作者人物指稱；不把難當人名。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0349",
+          "start": 349,
+          "end": 351,
+          "surface": "孫卿",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "通常解作荀卿，與批評老子虛無的引古脈絡相合；registry尚無孫卿alias，此列僅列荀卿供覆核，需平行異名原文才可正式補alias。",
+          "candidate_person_ids": [
+            "wuo_ghc_ajx"
+          ]
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0352",
+          "start": 352,
+          "end": 354,
+          "surface": "楊雄",
+          "kind": "person",
+          "person_id": "5bd_a4e_ad6",
+          "status": "contextual_provisional",
+          "interpretation_note": "既有揚雄有楊雄alias。保留底本楊字，不改寫正文。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0443",
+          "start": 443,
+          "end": 444,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p025:m0505",
+          "start": 505,
+          "end": 506,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        }
+      ],
+      "source_position": {
+        "first_line": 68,
+        "last_line": 68,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line068",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p026",
+      "text": "夫至無者無以能生，故始生者自生也。自生而必體有，則有遺而生虧矣。生以有為已分，則虛無是有之所謂遺者也。故養既化之有，非無用之所能全也；理既有之眾，非無為之所能循也。心非事也，而制事必由於心，然不可以制事以非事，謂心為無也。匠非器也，而制器必須於匠，然不可以制器以非器，謂匠非有也。是以欲收重泉之鱗，非偃息之所能獲也；隕高墉之禽，非靜拱之所能捷也；審投弦餌之用，非無知之所能覽也。由此而觀，濟有者皆有也，虛無奚益於已有之群生哉！",
+      "text_layer": "received_chapter",
+      "annotation_status": "pending",
+      "mentions": [],
+      "source_position": {
+        "first_line": 70,
+        "last_line": 70,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line070",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p027",
+      "text": "王衍之徒攻難交至，並莫能屈。又著《辯才論》，古今精義皆辨釋焉，未成而遇禍。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p027:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "王衍",
+          "kind": "person",
+          "person_id": "kwx_czc_d4c_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p027:m0017",
+          "start": 17,
+          "end": 20,
+          "surface": "辯才論",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "作品／篇章指稱，不能從題名內字拆人物。華傳指張華本傳回指；易各卦為篇章，非新增人物。work/book/chapter實際ID由主代理按catalog核定。；本後繼僅作未決作品標記，不套用其他裴注來源的同題work_id，不產生人物反向alias。"
+        }
+      ],
+      "source_position": {
+        "first_line": 72,
+        "last_line": 72,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line072",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    },
+    {
+      "id": "c-jinshu-035-peixiu-peiwei:p028",
+      "text": "初，趙王倫諂事賈后，頠甚惡之，倫數求官，頠與張華復固執不許，由是深為倫所怨。倫又潛懷篡逆，欲先除朝望，因廢賈后之際遂誅之，時年三十四。二子嵩、該，倫亦欲害之。梁王肜、東海王越稱頠父秀有勳王室，配食太廟，不宜滅其後嗣，故得不死，徙帶方；惠帝反正，追復頠本官，改葬以卿禮，諡曰成。以嵩嗣爵，為中書黃門侍郎。該出後從伯凱，為散騎常侍，並為乞活賊陳午所害。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0002",
+          "start": 2,
+          "end": 5,
+          "surface": "趙王倫",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAG",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0007",
+          "start": 7,
+          "end": 9,
+          "surface": "賈后",
+          "kind": "person",
+          "person_id": "jmv_vc4_gep_*AAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0010",
+          "start": 10,
+          "end": 11,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0015",
+          "start": 15,
+          "end": 16,
+          "surface": "倫",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAG",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0020",
+          "start": 20,
+          "end": 21,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0022",
+          "start": 22,
+          "end": 24,
+          "surface": "張華",
+          "kind": "person",
+          "person_id": "1dq_vh2_eru",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0034",
+          "start": 34,
+          "end": 35,
+          "surface": "倫",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAG",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0038",
+          "start": 38,
+          "end": 39,
+          "surface": "倫",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAG",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0053",
+          "start": 53,
+          "end": 55,
+          "surface": "賈后",
+          "kind": "person",
+          "person_id": "jmv_vc4_gep_*AAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0069",
+          "start": 69,
+          "end": 70,
+          "surface": "嵩",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AABA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0071",
+          "start": 71,
+          "end": 72,
+          "surface": "該",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AABB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0073",
+          "start": 73,
+          "end": 74,
+          "surface": "倫",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAG",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0079",
+          "start": 79,
+          "end": 82,
+          "surface": "梁王肜",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAF",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0083",
+          "start": 83,
+          "end": 87,
+          "surface": "東海王越",
+          "kind": "person",
+          "person_id": "9o2_vhv_r7y",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0088",
+          "start": 88,
+          "end": 89,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0090",
+          "start": 90,
+          "end": 91,
+          "surface": "秀",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0117",
+          "start": 117,
+          "end": 119,
+          "surface": "惠帝",
+          "kind": "person",
+          "person_id": "7e0_f69_1ac",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整裴秀／裴頠單元的具名、當時職位及敘事事件與已錄同時期seed相合；不由單純同名自動合。"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0124",
+          "start": 124,
+          "end": 125,
+          "surface": "頠",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AAB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0139",
+          "start": 139,
+          "end": 140,
+          "surface": "嵩",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AABA",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0151",
+          "start": 151,
+          "end": 152,
+          "surface": "該",
+          "kind": "person",
+          "person_id": "kbq_kjc_n2f_AABB",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-jinshu-035-peixiu-peiwei:p028:m0169",
+          "start": 169,
+          "end": 171,
+          "surface": "陳午",
+          "kind": "person",
+          "person_id": "qcu_r8c_lzw",
+          "status": "source_explicit"
+        }
+      ],
+      "source_position": {
+        "first_line": 74,
+        "last_line": 74,
+        "revision_id": 2506399,
+        "source_layer": "received_biography",
+        "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+        "unit_key": "line074",
+        "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+      }
+    }
+  ],
+  "text_sha256": "8fdc9e1b5c19dd80809b5557f9382c070b1d7b487d091726553970d23f21cef7"
+}

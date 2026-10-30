@@ -1,0 +1,98 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-043-wangyan",
+  "assertions": [
+    {
+      "id": "a-jin043-wangyan-father-yi",
+      "subject_person_id": "kwx_czc_d4c_A",
+      "predicate": "father",
+      "object_person_id": "kwx_czc_d4c",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父乂",
+        "lineage": "paternal",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "natural_received_head_father",
+          "head_mention_id": "c-jinshu-043-wangyan:p001:m0000",
+          "father_mention_id": "c-jinshu-043-wangyan:p001:m0065",
+          "fixed_witness_reference": {
+            "path": "source-evidence/jin043-wangyan-family/fixed-natural-units.json",
+            "sha256": "ccb8afd52371a3a5c129c44eedf5c6fbe83d0f2e27a1f7639a22d4d222677f54"
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangyan",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p001",
+          "quote": "衍字夷甫，神情明秀，風姿詳雅。總角嘗造山濤，濤嗟歎良久，既去，目而送之曰：「何物老嫗，生甯馨兒！然誤天下蒼生者，未必非此人也。」父乂，為平北將軍，常有公事，使行人列上，不時報。衍年十四，時在京師，造僕射羊祜，申陳事狀，辭甚清辯。祜名德貴重，而衍幼年無屈下之色，眾咸異之。楊駿欲以女妻焉，衍恥之，遂陽狂自免。武帝聞其名，問戎曰：「夷甫當世誰比？」戎曰：「未見其比，當從古人中求之。」",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p001:m0000",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p001:m0065"
+        }
+      ],
+      "interpretation_note": "完整原自然段與固定raw承接；不補共同遠祖、母親、出生年或排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin043-wangyan-xuan-father",
+      "subject_person_id": "kwx_czc_d4c_AA",
+      "predicate": "father",
+      "object_person_id": "kwx_czc_d4c_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangyan",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p009",
+          "quote": "衍俊秀有令望，希心玄遠，未嘗語利。王敦過江，常稱之曰：「夷甫處眾中，如珠玉在瓦石間。」顧愷之作畫贊，亦稱衍岩岩清峙，壁立千仞。其為人所尚如此。",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p009:m0000"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-wangyan",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "paragraph_id": "c-jinshu-043-wangyan:p010",
+          "quote": "子玄，字眉子，少慕簡曠，亦有俊才，與衛玠齊名。荀籓用為陳留太守，屯尉氏。玄素名家，有豪氣，荒弊之時，人情不附，將赴祖逖，為盜所害焉。",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p010:m0001"
+        }
+      ],
+      "interpretation_note": "完整原自然段與固定raw承接；不補共同遠祖、母親、出生年或排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "context": {
+        "kind": "biographical_child_continuation",
+        "paragraph_ids": [
+          "c-jinshu-043-wangyan:p009",
+          "c-jinshu-043-wangyan:p010"
+        ],
+        "parent_mention_id": "c-jinshu-043-wangyan:p009:m0000",
+        "child_mention_id": "c-jinshu-043-wangyan:p010:m0001",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "完整自然段傳主衍承接下一原段子玄；王敦與顧愷之為評述者，不借為父。",
+        "source_continuity": {
+          "kind": "fixed_received_raw_natural_paragraphs",
+          "fixed_witness_reference": {
+            "path": "source-evidence/jin043-wangyan-family/fixed-natural-units.json",
+            "sha256": "ccb8afd52371a3a5c129c44eedf5c6fbe83d0f2e27a1f7639a22d4d222677f54"
+          }
+        }
+      }
+    }
+  ]
+}

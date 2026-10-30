@@ -1,0 +1,62 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_life_event_group_set",
+  "work_id": "w-jinshu",
+  "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+  "groups": [
+    {
+      "id": "leg-jin039-jin040-jiachong-same-death",
+      "kind": "fixed_jin039_jin040_jiachong_same_death",
+      "person_id": "jmv_vc4_gep_*AA",
+      "event_type": "death",
+      "member_event_ids": [
+        "le-jin039-xu30-jia",
+        "le-jin040-wyd-jiachong-death"
+      ],
+      "representative_event_id": "le-jin040-wyd-jiachong-death",
+      "date_status": "year_month_reported_by_representative_source",
+      "status": "editorial_provisional",
+      "date": {
+        "year": 282,
+        "calendar": "chinese_civil",
+        "month": 4,
+        "day": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:xu-full:l092",
+          "quote": "太康中詔曰：「勖明哲聰達，經識天序，有佐命之功，兼博洽之才。久典內任，著勳弘茂，詢事考言，謀猷允誠。宜登大位，毗贊朝政。今以勖為光祿大夫、儀同三司、開府辟召，守中書監、侍中、侯如故。」時太尉賈充、司徒李胤並薨，太子太傅又缺，勖表陳：「三公保傅，宜得其人。若使楊珧參輔東宮，必當仰稱聖意。尚書令衛瓘、吏部尚書山濤皆可為司徒。若以瓘新為令未出者，濤即其人。」帝並從之。",
+          "person_mention_id": "c-jinshu-039-wangxun-feng:xu-full:l092:m0095"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-wyd1739-jiachong",
+          "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+          "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p012",
+          "quote": "牀帳錢帛自皇太子宗室躬省起居太康三年四月薨時年六十六帝為之慟使使持節太常奉策追贈太宰加袞冕之服綠綟綬御劒賜東園祕器朝服一具衣一襲大鴻臚護喪事假節鉞前後部羽葆鼓吹緹麾大路鑾路轀輬車帳下司馬大車椎斧文衣武賁輕車介士葬禮依霍光及安平獻王故事給塋田一頃與石苞等為王功配饗廟庭諡曰武追贈充子黎民為魯殤公充婦廣城君郭槐性妬忌初黎民年三歲乳母抱之當閣黎民見充入喜笑充就而拊之槐望見謂充私乳母即鞭殺之黎民戀念發病而死後又生男過期復為乳母",
+          "person_mention_id": "c-jinshu-040-wyd1739-jiachong:p012:m0138"
+        }
+      ],
+      "member_bindings": [
+        {
+          "event_id": "le-jin039-xu30-jia",
+          "person_mention_id": "c-jinshu-039-wangxun-feng:xu-full:l092:m0095",
+          "event_evidence_mention_id": "c-jinshu-039-wangxun-feng:xu-full:l092:m0095"
+        },
+        {
+          "event_id": "le-jin040-wyd-jiachong-death",
+          "person_mention_id": "c-jinshu-040-wyd1739-jiachong:p012:m0138",
+          "event_evidence_mention_id": "c-jinshu-040-wyd1739-jiachong:p012:m0138"
+        }
+      ],
+      "rationale": "039時太尉賈充…並薨與040本傳太康三年四月薨為同一賈充終亡；保兩原事件與引文，只040明年月，不倒填039，也不作同位置重出。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

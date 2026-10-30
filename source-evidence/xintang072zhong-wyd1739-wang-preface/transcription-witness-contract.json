@@ -1,0 +1,30 @@
+{
+  "status": "source-only draft for root review; no native source record/IDs or NER claims yet",
+  "headings": [
+    "唐書卷七十二中",
+    "宋翰林學士歐陽修撰",
+    "表第十二中",
+    "宰相世系表"
+  ],
+  "body_raw_sha256": "44148094464d70d3d8f574d94cd6d0e16874e8f086ab5220db320741531828c0",
+  "raw_line_count": 19,
+  "unit_keys": [
+    "wang-preface-78-left",
+    "wang-preface-79-right",
+    "wang-preface-79-left"
+  ],
+  "body_characters": 404,
+  "extent": "國圖善本09753，《二十四史》同書411999017142冊365，書目著錄武英殿清乾隆四年[1739]；78/79頁側刊乾隆四年校刊。",
+  "opening_anchor": "王氏出自姬姓周靈王太",
+  "closing_anchor": "明威侯子弘讓弘直",
+  "excluded_first_table_opening": "弘讓字敬宗中書舍人專掌機密／方士字玄逸臨邛令",
+  "qualification": "字文逐列候選，不將原格改寫為傳記段落；3個unit只是影像頁側容器，非原自然段。",
+  "not_done": [
+    "normal native witness dispatch",
+    "NER including repeated賁distinct generations",
+    "person ID creation or merging",
+    "title/life/age/address assertions",
+    "family assembly preference",
+    "API/export/browser/publication"
+  ]
+}
