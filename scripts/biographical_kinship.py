@@ -65,6 +65,8 @@ def received_paragraphs_contiguous(chapter, first, second):
     return cursor == start
 
 def child_continuation_errors(assertion, chapter, root=None):
+    if isinstance(assertion, dict) and isinstance(assertion.get('context'), dict) and isinstance(assertion['context'].get('source_continuity'), dict) and assertion['context']['source_continuity'].get('kind') == 'editorial_received_subject_parentage':
+        return editorial_received_parentage_errors(assertion, chapter, root)
     if isinstance(assertion, dict) and isinstance(assertion.get("context"), dict) and isinstance(assertion["context"].get("source_continuity"), dict) and assertion["context"]["source_continuity"].get("kind") == "fixed_received_raw_natural_paragraphs":
         return natural_parentage_errors(assertion, chapter, root)
     if 'secondary_child_clause' in assertion.get('context', {}):
@@ -185,3 +187,161 @@ def natural_parentage_errors(a,ch,root):
         return []
     except(KeyError,TypeError,ValueError,IndexError,StopIteration,AttributeError,OSError):
         return ['自然段父子須綁完整固定raw、真空行、傳首及續述同父錨、段首子錨；不借旁人或換題']
+
+
+def editorial_received_parentage_errors(assertion, chapter, root):
+    """Validate an explicit editor's subject continuation, not historical NLU.
+
+    Entire intervening paragraphs and their observed acquisition frames remain
+    physical inputs. The parent marker is never manufactured in the child list.
+    """
+    try:
+        from scripts.surname_source_frames import source_view, same, read, at
+    except ImportError:
+        from surname_source_frames import source_view, same, read, at
+    try:
+        ctx = assertion['context']; binding = ctx['source_continuity']
+        ids = ctx['paragraph_ids']; evidence = assertion['evidence']
+        if (root is None or ctx.get('kind') != 'biographical_child_continuation'
+                or ctx.get('status') != 'contextual_provisional'
+                or ctx.get('human_reviewed') is not False
+                or not isinstance(ctx.get('rationale'), str) or not ctx['rationale'].strip()
+                or assertion.get('predicate') != 'father'
+                or assertion.get('status') != 'source_attested'
+                or assertion.get('human_reviewed') is not False
+                or set(binding) not in ({'kind', 'frames', 'parentage_clause', 'source_positions'},
+                                        {'kind', 'frames', 'parentage_list', 'source_positions'})
+                or binding['kind'] != 'editorial_received_subject_parentage'
+                or type(ids) is not list or len(ids) < 2 or len(set(ids)) != len(ids)
+                or ids != [e.get('paragraph_id') for e in evidence]):
+            raise ValueError('Explicit editor/context/evidence shape')
+        order = [p['id'] for p in chapter['paragraphs']]
+        if ids != order[order.index(ids[0]):order.index(ids[-1]) + 1]:
+            raise ValueError('All intervening paragraphs are required')
+        frames = binding['frames']
+        if type(frames) is not list or [f['paragraph_id'] for f in frames] != ids:
+            raise ValueError('One exact source frame per paragraph')
+        ps, cs, people, marker, anchor, existing = source_view(
+            frames, {chapter['id']: chapter}, [], root)
+        selected = [ps[i][1] for i in ids]
+        revision = chapter['source']['revision_id']
+        positions = binding['source_positions']
+        if type(positions) is not list or [p['paragraph_id'] for p in positions] != ids:
+            raise ValueError('Capture-bound source positions')
+        import json
+        for p, e, f, position_ref in zip(selected, evidence, frames, positions):
+            if set(position_ref) != {'paragraph_id','first_line_pointer','last_line_pointer'}:
+                raise ValueError('Capture position pointer shape')
+            captured = json.loads(read(root, f['capture_path']))
+            pos = p.get('source_position', {})
+            if (p.get('text_layer') != 'received_chapter'
+                    or pos.get('editorial_excerpt_boundary') is not True
+                    or not same(at(captured, position_ref['first_line_pointer']), pos.get('first_line'))
+                    or not same(at(captured, position_ref['last_line_pointer']), pos.get('last_line'))
+                    or not same(pos.get('revision_id'), revision)
+                    or type(pos.get('first_line')) is not int
+                    or type(pos.get('last_line')) is not int
+                    or not 0 < pos['first_line'] <= pos['last_line']
+                    or any(e.get(k) != chapter[k] for k in ('work_id','book_id','source_id'))
+                    or e.get('chapter_id') != chapter['id']
+                    or e.get('quote') != p['text']):
+                raise ValueError('Whole received paragraph/source identity')
+        if any(not received_paragraphs_contiguous(chapter, a, b)
+               for a, b in zip(selected, selected[1:])):
+            raise ValueError('Observed source continuity may not omit prose')
+        _, first, parent = marker(ids[0], ctx['parent_mention_id'])
+        _, last, child = marker(ids[-1], ctx['child_mention_id'])
+        if (parent['person_id'] != assertion['object_person_id']
+                or child['person_id'] != assertion['subject_person_id']
+                or parent['person_id'] == child['person_id']):
+            raise ValueError('Actual distinct parent/child roles')
+        if 'parentage_list' in binding:
+            return editorial_parentage_list_errors(assertion, last, parent, child, marker, anchor)
+        clause = binding['parentage_clause']; anchor(clause)
+        term = assertion['qualifiers'].get('source_term')
+        if (clause['paragraph_id'] != last['id']
+                or term not in ('子', '長子', '次子', '少子')
+                or assertion['qualifiers'].get('lineage') != 'paternal'
+                or clause['surface'] != term + child['surface']
+                or clause['start'] + len(term) != child['start']
+                or clause['end'] != child['end']
+                or clause['start'] > 0 and last['text'][clause['start']-1] not in '。；，：'):
+            raise ValueError('Exact selected kin term and named child')
+        birth = assertion['qualifiers'].get('birth_order')
+        if birth is not None:
+            ordinal = {'長子': 1, '次子': 2}.get(term)
+            if (ordinal is None or type(birth) is not dict
+                    or type(birth.get('ordinal')) is not int or birth['ordinal'] != ordinal
+                    or birth.get('parent_person_id') != parent['person_id']
+                    or birth.get('scope') != 'sons_of_parent'
+                    or birth.get('position') != ('eldest' if ordinal == 1 else 'unspecified')
+                    or birth.get('interpretation_status') != 'source_attested'):
+                raise ValueError('Source-reported ordinal, not list order')
+        return []
+    except (AssertionError, KeyError, TypeError, ValueError, IndexError, StopIteration, OSError):
+        return ['編者傳主親屬承接須有完整連續原段、取得資格、真實父子錨與反查及所選親屬詞；不以schema證明歷史同指']
+
+
+def editorial_parentage_list_errors(assertion, paragraph, parent, child, marker, anchor):
+    """Check source-bound list membership; AI, not this function, reads the list."""
+    try:
+        listing = assertion['context']['source_continuity']['parentage_list']
+        if set(listing) != {'kind','scope_anchor','members'} or listing['kind'] != 'editorial_source_named_children_list':
+            raise ValueError('Explicit list binding')
+        scope = listing['scope_anchor']; anchor(scope)
+        members = listing['members']
+        if (scope['paragraph_id'] != paragraph['id'] or type(members) is not list
+                or not members or len({m['child_mention_id'] for m in members}) != len(members)):
+            raise ValueError('One complete scoped list')
+        selected = None; prior_end = scope['start']; child_ids = set(); explicit = 0
+        for member in members:
+            if set(member) != {'child_mention_id','kinship_term_anchor','intervening_office_anchor'}:
+                raise ValueError('Typed list member')
+            _, _, m = marker(paragraph['id'], member['child_mention_id'])
+            if (not prior_end <= m['start'] < m['end'] <= scope['end']
+                    or m['person_id'] in child_ids or m['person_id'] == parent['person_id']):
+                raise ValueError('Distinct ordered source children')
+            prior_end = m['end']; child_ids.add(m['person_id'])
+            term, office = member['kinship_term_anchor'], member['intervening_office_anchor']
+            if term is not None:
+                anchor(term)
+                if (term['paragraph_id'] != paragraph['id']
+                        or term['surface'] not in ('子','長子','次子','少子')
+                        or not scope['start'] <= term['start'] < term['end'] <= m['start']):
+                    raise ValueError('Literal selected parentage term')
+                explicit += 1
+                if office is None:
+                    if term['end'] != m['start']:raise ValueError('No omitted office gap')
+                else:
+                    anchor(office)
+                    if (office['paragraph_id'] != paragraph['id'] or office['start'] != term['end']
+                            or office['end'] != m['start']
+                            or any(c in office['surface'] for c in '。；，：「」『』')):
+                        raise ValueError('Exact intervening office, not a fabricated name')
+            elif office is not None or not explicit:
+                raise ValueError('Implicit members follow an explicit source child expression')
+            if m['id'] == child['id']:selected = member
+        if selected is None or not explicit:
+            raise ValueError('Selected child belongs to this list')
+        # A title/name may occur more than once, but no unaccounted person may
+        # be silently converted into a child by the list's broad text span.
+        for m in paragraph['mentions']:
+            if m.get('kind') == 'person' and m['start'] < scope['end'] and scope['start'] < m['end']:
+                marker(paragraph['id'], m['id'])
+                if m['person_id'] not in child_ids or not scope['start'] <= m['start'] < m['end'] <= scope['end']:
+                    raise ValueError('Foreign person in selected children list')
+        q = assertion['qualifiers']; term = selected['kinship_term_anchor']
+        if q.get('lineage') != 'paternal' or q.get('source_term') != (term['surface'] if term else scope['surface']):
+            raise ValueError('Preserve original term or complete implicit list, never invented 子')
+        birth = q.get('birth_order')
+        if birth is not None:
+            ordinal = {'長子':1,'次子':2}.get(term['surface']) if term else None
+            if (ordinal is None or type(birth) is not dict or type(birth.get('ordinal')) is not int
+                    or birth['ordinal'] != ordinal or birth.get('parent_person_id') != parent['person_id']
+                    or birth.get('scope') != 'sons_of_parent'
+                    or birth.get('position') != ('eldest' if ordinal == 1 else 'unspecified')
+                    or birth.get('interpretation_status') != 'source_attested'):
+                raise ValueError('No ordinal inferred from remaining list position')
+        return []
+    except (AssertionError,KeyError,TypeError,ValueError,IndexError,StopIteration,OSError):
+        return ['編者子名單承接須保存真子名錨、原有子詞／官職間隔及完整名單範圍；省略子詞者不補字或排行']

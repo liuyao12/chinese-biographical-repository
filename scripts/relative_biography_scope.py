@@ -6,6 +6,8 @@ Embedded quotations are explicit exact spans; they do not reset the narrator's e
 import re
 
 def valid(date,chapters):
+    if date.get('narrative_era_scope',{}).get('kind') == 'source_bound_local_era_chain':
+        return source_bound_local_chain_valid(date, chapters)
     if date.get('narrative_era_scope',{}).get('kind')=='same_paragraph_explicit_year':
         try:from scripts.layered_biography_titles import same_paragraph_year_valid
         except ImportError:from layered_biography_titles import same_paragraph_year_valid
@@ -46,3 +48,59 @@ def valid(date,chapters):
                 if match[1]!=date['regnal_year_mapping']['era_name']and not quoted(lo+match.start(),lo+match.end()):return False
         return bool(es)and es[-1]['paragraph_id']==b['paragraph_id']and es[-1]['quote']==by[b['paragraph_id']]['text']
     except(KeyError,ValueError,TypeError,IndexError,StopIteration):return False
+
+
+def source_bound_local_chain_valid(date, chapters):
+    """Check an editor-bound local era chain without inventing a fixed witness."""
+    import hashlib
+    try:
+        s = date['narrative_era_scope']; ch = chapters[s['chapter_id']]
+        p = next(p for p in ch['paragraphs'] if p['id'] == s['paragraph_id'])
+        text = p['text']; r = date['relative_year_reference']
+        if (s['human_reviewed'] is not False or s['source_id'] != ch['source_id']
+                or s['source_metadata'] != ch['source']
+                or s['paragraph_sha256'] != hashlib.sha256(text.encode()).hexdigest()):
+            return False
+        def exact(a):
+            return (set(a) == {'paragraph_id','start','end','surface'}
+                    and a['paragraph_id'] == p['id']
+                    and type(a['start']) is int and type(a['end']) is int
+                    and 0 <= a['start'] < a['end'] <= len(text)
+                    and text[a['start']:a['end']] == a['surface'])
+        era, prior, event = (s[k] for k in ('era_anchor','antecedent_anchor','event_date_anchor'))
+        if (not all(exact(a) for a in (era, prior, event))
+                or not era['end'] <= prior['start'] <= event['start']
+                or era['surface'] != r['era_expression']
+                or prior['surface'] != r['antecedent_expression']
+                or event['surface'] != date['source_expression']):
+            return False
+        topic = next(m for m in p['mentions'] if m['id'] == s['subject_person_mention_id'])
+        head = ch['paragraphs'][0]['mentions'][0]
+        if (topic.get('kind') != 'person' or topic.get('person_id') != s['subject_person_id']
+                or head.get('person_id') != s['subject_person_id'] or head['start'] != 0
+                or topic['end'] > era['start']):
+            return False
+        es = date['evidence']
+        for key, a in (('era_evidence_index',era),('antecedent_evidence_index',prior),('event_evidence_index',event)):
+            e = es[r[key]]; q = e['source_quote_anchor']
+            if (not exact(q) or q['start'] > a['start'] or q['end'] < a['end']
+                    or e['quote'] != q['surface'] or e['paragraph_id'] != p['id']
+                    or any(e[k] != ch[k] for k in ('work_id','book_id','source_id'))
+                    or e['chapter_id'] != ch['id']):
+                return False
+        # A local chain cannot silently cross a new era, quotation or another dated year.
+        from scripts.era_stage_dates import KNOWN_ERAS
+        from scripts.quotation_boundaries import unquoted_span
+        if not unquoted_span(text, era['start'], event['end']):
+            return False
+        between = text[era['end']:event['end']]
+        if any(t in between for t in ('曰','云','「','」','先是','初，')):
+            return False
+        if any(name in between for name in KNOWN_ERAS):
+            return False
+        allowed = {(prior['start'],prior['end']), (event['start'],event['end'])}
+        actual = {(era['end']+m.start(),era['end']+m.end())
+                  for m in re.finditer(r'[元一二三四五六七八九十]+年|明年|其年', between)}
+        return actual == allowed
+    except (KeyError,TypeError,ValueError,IndexError,StopIteration):
+        return False

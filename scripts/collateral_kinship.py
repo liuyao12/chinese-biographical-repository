@@ -2,6 +2,10 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    q = assertion.get('qualifiers')
+    binding = q.get('source_clause_binding') if isinstance(q, dict) else None
+    if isinstance(binding, dict) and binding.get('kind') == 'biographical_senior_head_named_junior':
+        return _biographical_senior_head_valid(assertion, paragraphs)
     # Position-bound close-family clauses; retain all older grammar contracts.
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('close_family_'):
         try:
@@ -146,3 +150,105 @@ def source_sibling_group_valid(assertion, paragraphs, person_ids, parse_number):
         if pid not in values or (order.get(direction + '_ordinal'), order.get(direction + '_position')) != values[pid]:
             return False
     return True
+
+
+def _biographical_senior_head_valid(assertion, paragraphs):
+    """A biography head is the named junior's 從父/從叔父, not its child.
+
+    Only paragraph-local proof is available here. Source/edition acquisition and
+    registry reciprocity remain the ordinary marked-source/registry owners' job.
+    """
+    import hashlib
+    import re
+    try:
+        q = assertion['qualifiers']; b = q['source_clause_binding']
+        structure = q['kinship_structure']
+        expected = {'lineage': 'paternal', 'generation_difference': -1,
+                    'collateral': True, 'distance': None,
+                    'common_ancestor_person_id': None, 'subject_relative_age': 'unknown'}
+        if (set(q) != {'source_term', 'kinship_structure', 'source_clause_binding'}
+                or type(structure) is not dict or set(structure) != set(expected)
+                or any(type(structure[k]) is not type(v) or structure[k] != v for k, v in expected.items())
+                or assertion['predicate'] != 'agnatic_senior_kin'
+                or assertion['status'] != 'source_attested'
+                or assertion['human_reviewed'] is not False
+                or b.get('kind') != 'biographical_senior_head_named_junior'
+                or set(b) != {'kind', 'paragraph_sha256', 'head_person_mention_id',
+                              'courtesy_name_mention_id', 'origin_span', 'parentage_clause',
+                              'junior_title_span', 'relationship_span'}):
+            return False
+        evidence, = assertion['evidence']
+        cid, p = paragraphs[evidence['paragraph_id']]; text = p['text']
+        if (cid != evidence['chapter_id'] or p['id'] != evidence['paragraph_id']
+                or evidence['quote'] != text or p.get('text_layer') != 'received_chapter'
+                or hashlib.sha256(text.encode()).hexdigest() != b['paragraph_sha256']):
+            return False
+        items = p['mentions']; mentions = {m['id']: m for m in items}
+        if len(mentions) != len(items):return False
+        head = mentions[b['head_person_mention_id']]
+        senior = mentions[evidence['object_person_mention_id']]
+        junior = mentions[evidence['subject_person_mention_id']]
+        if (head['id'] != senior['id'] or head['start'] != 0
+                or senior['person_id'] != assertion['object_person_id']
+                or junior['person_id'] != assertion['subject_person_id']
+                or junior['person_id'] == senior['person_id']):
+            return False
+        roles = [head, junior]
+        cursor = 0
+
+        def word(m):
+            return (m.get('kind') == 'person' and isinstance(m.get('person_id'), str)
+                    and bool(m['person_id']) and type(m.get('start')) is int
+                    and type(m.get('end')) is int and 0 <= m['start'] < m['end'] <= len(text)
+                    and isinstance(m.get('surface'), str) and re.fullmatch(r'[^\s，。；：「」『』]+', m['surface']) is not None
+                    and text[m['start']:m['end']] == m['surface'])
+
+        def take(literal):
+            nonlocal cursor
+            if not text.startswith(literal, cursor):return False
+            cursor += len(literal)
+            return True
+
+        def person(m):
+            return word(m) and m['start'] == cursor and take(m['surface'])
+
+        def span(value):
+            return (type(value) is dict and set(value) == {'start', 'end', 'surface'}
+                    and type(value['start']) is int and type(value['end']) is int
+                    and value['start'] == cursor and 0 <= value['start'] < value['end'] <= len(text)
+                    and isinstance(value['surface'], str)
+                    and text[value['start']:value['end']] == value['surface']
+                    and take(value['surface']))
+
+        if not person(head):return False
+        style_id = b['courtesy_name_mention_id']
+        if style_id is not None:
+            style = mentions[style_id]
+            if style['person_id'] != head['person_id'] or not take('字') or not person(style):return False
+            roles.append(style)
+        if not take('，'):return False
+        origin = b['origin_span']
+        if origin is not None:
+            if (not span(origin) or not re.fullmatch(r'[^，。；：曰云言「」『』非未無不也父母祖兄弟之]{1,24}人(?:也)?', origin['surface'])
+                    or not take('，')):return False
+        parentage = b['parentage_clause']
+        if parentage is not None:
+            if type(parentage) is not dict or set(parentage) != {'older_person_mention_id', 'father_person_mention_id'}:return False
+            older = mentions[parentage['older_person_mention_id']]; father = mentions[parentage['father_person_mention_id']]
+            if (len({head['person_id'], junior['person_id'], older['person_id'], father['person_id']}) != 4
+                    or not person(older) or not take('弟') or not person(father) or not take('之子、而')):return False
+            roles.extend([older, father])
+        title = b['junior_title_span']
+        if title is not None:
+            if (not span(title) or not re.fullmatch(r'[^，。；：曰云言「」『』非未無不父母祖兄弟之]{1,12}(?:將軍|刺史|太守|內史|尚書|侍中|司徒|司空|太傅|太尉|僕射|中郎將|令|王|公|侯)', title['surface'])):return False
+        if not person(junior):return False
+        relation = b['relationship_span']; term = q['source_term']
+        if term not in ('從叔父', '從父') or not span(relation) or relation['surface'] != term or not take('也。'):return False
+        if len({m['id'] for m in roles}) != len(roles) or any(not word(m) for m in roles):return False
+        # Other people later in the full paragraph are allowed. In the bounded
+        # opening clause every person must have a declared physical role.
+        local = [m for m in items if type(m.get('start')) is int and m['start'] < cursor]
+        if {m['id'] for m in local} != {m['id'] for m in roles}:return False
+        return True
+    except (KeyError, TypeError, ValueError, IndexError, AttributeError):
+        return False

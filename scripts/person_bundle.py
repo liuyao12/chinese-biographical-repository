@@ -117,6 +117,10 @@ def validate_clan_style(name, paragraph=None, relations=(), *, root=None):
 
 def validate_full_name(name, paragraph=None, *, chapter=None, root=None):
     """An unsegmented source name is not an inferred surname/given-name split."""
+    if isinstance(name,dict)and name.get('chapter_id')=='c-jinshu-054-lu-openings-ws2605147':
+        try:from scripts.fixed_jin054_lu_openings import name_valid as lu054_name_valid
+        except ImportError:from fixed_jin054_lu_openings import name_valid as lu054_name_valid
+        if not lu054_name_valid(name,root if root is not None else ROOT):raise ValueError('晉054姓名須明名/字號與完整來源角色，不能把陸士龍/荀鳴鶴當名或借他人')
     try:from scripts.sgz023_pei_name_components import applies as pei_three_name_applies, name_valid as pei_three_name_valid
     except ImportError:from sgz023_pei_name_components import applies as pei_three_name_applies, name_valid as pei_three_name_valid
     if pei_three_name_applies(name)and not pei_three_name_valid(name,root if root is not None else ROOT):raise ValueError('裴氏三姓名須原字與有限同父復姓證據')
@@ -183,8 +187,13 @@ def validate_full_name(name, paragraph=None, *, chapter=None, root=None):
         raise ValueError('未分姓名須有原稱、固定平行原文及判讀，不得暗拆姓與名')
 
 
-def validate_courtesy_name(name):
+def validate_courtesy_name(name, *, root=None):
     """字須有明示來源，不從顯示名稱推拆或冒作本名。"""
+    if isinstance(name,dict)and isinstance(name.get('zi_basis'),dict)and name['zi_basis'].get('kind')=='fixed_jin054_inverted_courtesy_name':
+        try:from scripts.fixed_jin054_lu_openings import name_valid as lu054_name_valid
+        except ImportError:from fixed_jin054_lu_openings import name_valid as lu054_name_valid
+        if not lu054_name_valid(name,root if root is not None else ROOT):raise ValueError('晉054逆式字號須完整原句與本人姓名來源角色')
+        return
     if 'zi' not in name:
         if 'zi_basis' in name:
             raise ValueError('稱字判讀須有相符字名')
@@ -352,9 +361,48 @@ def load_catalog(root=ROOT):
 
 def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     people, records = catalog if catalog is not None else load_catalog(root)
+    try:from scripts.jin002_004_imperial_openings import guard_bundle as imperial_guard,ordinal_reports as imperial_ordinal_reports
+    except ImportError:from jin002_004_imperial_openings import guard_bundle as imperial_guard,ordinal_reports as imperial_ordinal_reports
+    imperial_guard(root,person_id,people,records)
+    try:from scripts.jin038_wen_you_source import guard_bundle as jin038_guard
+    except ImportError:from jin038_wen_you_source import guard_bundle as jin038_guard
+    jin038_guard(root,person_id,people,records)
+    try:from scripts.jin038_wen_children_source import guard_bundle as jin038_children_guard
+    except ImportError:from jin038_wen_children_source import guard_bundle as jin038_children_guard
+    jin038_children_guard(root,person_id,people,records)
+    try:from scripts.jin005031_wen_family_source import guard_bundle as jin005031_guard
+    except ImportError:from jin005031_wen_family_source import guard_bundle as jin005031_guard
+    jin005031_guard(root,person_id,people,records)
+    try:from scripts.fixed_jin037_qiao_cheng_wuji import guard_bundle as guard_qiao
+    except ImportError:from fixed_jin037_qiao_cheng_wuji import guard_bundle as guard_qiao
+    guard_qiao(root,person_id,people,records)
+    try:from scripts.fixed_jin073_yuyi_rendered import guard_bundle as guard_jin073_yuyi
+    except ImportError:from fixed_jin073_yuyi_rendered import guard_bundle as guard_jin073_yuyi
+    guard_jin073_yuyi(root,person_id,people,records)
+    try:from scripts.lu_near_paternal_family import guard_bundle as guard_lu_near_family
+    except ImportError:from lu_near_paternal_family import guard_bundle as guard_lu_near_family
+    guard_lu_near_family(root,person_id,people,records)
+    try:from scripts.liang_xiao_close_family import guard_bundle as guard_liang_xiao_family
+    except ImportError:from liang_xiao_close_family import guard_bundle as guard_liang_xiao_family
+    guard_liang_xiao_family(root,person_id,people,records)
+    try:from scripts.fixed_jin044_lu_rendered import guard_bundle as guard_jin044_lu
+    except ImportError:from fixed_jin044_lu_rendered import guard_bundle as guard_jin044_lu
+    guard_jin044_lu(root,person_id,people,records)
+    try:from scripts.fixed_jin037_gaomi_nanyang import guard_bundle as guard_jin037
+    except ImportError:from fixed_jin037_gaomi_nanyang import guard_bundle as guard_jin037
+    guard_jin037(root,person_id,people,records)
+    try:from scripts.jin039_wangyi_parallel import guard_bundle as guard_wangyi_identity
+    except ImportError:from jin039_wangyi_parallel import guard_bundle as guard_wangyi_identity
+    guard_wangyi_identity(root,person_id,people,records)
+    try:from scripts.received_sima_family_sources import guard_bundle as guard_sima_family
+    except ImportError:from received_sima_family_sources import guard_bundle as guard_sima_family
+    guard_sima_family(root,person_id,people,records)
     try:from scripts.fixed_zhou041_wangbao import guard_bundle as guard_zhou041
     except ImportError:from fixed_zhou041_wangbao import guard_bundle as guard_zhou041
     guard_zhou041(root,person_id,people,records)
+    try:from scripts.fixed_jin054_lu_openings import guard_bundle as guard_lu054
+    except ImportError:from fixed_jin054_lu_openings import guard_bundle as guard_lu054
+    guard_lu054(root,person_id,people,records)
     try:from scripts.sgz023_pei_name_components import guard_bundle as guard_pei_three_names
     except ImportError:from sgz023_pei_name_components import guard_bundle as guard_pei_three_names
     guard_pei_three_names(root,person_id,people,records)
@@ -485,6 +533,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 evidence.append(dict(item, chapter_id=chapter['id'], work_id=chapter['work_id'],
                                      book_id=chapter['book_id'], source_id=chapter['source_id']))
             distinctions.append(dict(decision, evidence=evidence))
+    surname_graph_context = None
+    if any(isinstance(n.get('surname_basis'),dict) and n['surname_basis'].get('kind') == 'contextual_surname_from_source_bound_kinship_graph' for n in name_components):
+        try:from scripts.surname_source_graph import prepare as prepare_surname_graph
+        except ImportError:from surname_source_graph import prepare as prepare_surname_graph
+        surname_graph_context = prepare_surname_graph(root, (people, records))
     enriched_names = []
     for name in name_components:
         name_paragraph = paragraphs.get(name.get('paragraph_id'))
@@ -502,7 +555,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             if not wyd045_name_valid(name,ns,cs,aa,root):raise ValueError('宋045姓名/原角色或推姓證據不符')
         validate_clan_style(name, name_paragraph[1] if name_paragraph else None, relations, root=root)
         validate_full_name(name, name_paragraph[1] if name_paragraph else None, chapter=name_paragraph[0] if name_paragraph else None, root=root)
-        validate_courtesy_name(name)
+        validate_courtesy_name(name, root=root)
         if 'surname_basis' in name:
             try:
                 from .surname_from_father import validate as validate_inferred_surname
@@ -511,8 +564,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             validate_inferred_surname(name,
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
-                ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_cross_chapter_same_canonical_family_path', 'contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship', 'contextual_surname_from_wyd_song051_named_path', 'contextual_surname_from_wyd_song051_yixin', 'contextual_surname_from_wyd_song045_kinship','contextual_surname_from_wyd_jin043_shantao', 'contextual_surname_from_fixed_jin080_received_family', 'contextual_surname_from_fixed_jin098_received_family','contextual_surname_from_wyd_jin040_jiachong','contextual_surname_from_fixed_jin031_received_family','contextual_surname_from_wyd_sgz015_named_grandfather','contextual_surname_from_fixed_jin036_received_family','contextual_surname_from_fixed_jin034_received_family','contextual_surname_from_fixed_jin035_received_family') else relations), root=root)
+                [a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']], root=root, graph_context=surname_graph_context)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:
@@ -982,6 +1034,13 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     calendar_context_assertions = [c for record in records
         if record.get('record_type') == 'calendar_context_assertion_set'
         for c in record['records'] if c['id'] in used_context_ids]
+    imperial_ordinals = imperial_ordinal_reports(root,ids)
+    try:from scripts.jin038_wen_children_source import ordinal_reports as jin038_children_ordinals
+    except ImportError:from jin038_wen_children_source import ordinal_reports as jin038_children_ordinals
+    imperial_ordinals += jin038_children_ordinals(root,ids)
+    try:from scripts.jin005031_wen_family_source import ordinal_reports as jin005031_ordinals
+    except ImportError:from jin005031_wen_family_source import ordinal_reports as jin005031_ordinals
+    imperial_ordinals += jin005031_ordinals(root,ids)
     return {'format_version': '0.1', 'record_type': 'person_source_bundle', 'requested_person_id': requested_id,
             'canonical_person_id': person_id, 'id_aliases': people[person_id].get('id_aliases', []),
             **({'source_person_groups': source_person_groups} if source_person_groups else {}),
@@ -994,6 +1053,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'most_mentioned_source_ids': most_mentioned,
             'mention_count_policy': {'scope': 'independent_fixed_witness_occurrences', 'raw_mentions_preserved': True, 'passage_count_scope': 'annotation_containers', 'explanation': ('頻次依已驗同底本同位置去重；已驗跨頁文字片段合計一處，續接不是重出；原始錨點完整保留，頻次不代表來源權威度。' if appellation_fragment_groups or source_name_fragment_groups else '頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。'), 'included_kinds': ['paragraph', 'table_cell'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
+            **({'source_reported_ordinals': imperial_ordinals} if imperial_ordinals else {}),
             **({'source_title_uses': source_title_uses} if source_title_uses else {}),
             **({'source_details': source_details} if source_details else {}),
             **({'source_temporal_attestations': source_temporal_attestations} if source_temporal_attestations else {}),

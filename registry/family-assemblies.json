@@ -3233,7 +3233,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "以晉書具名父祖、父子、兄弟及宋書王弘家世接合。中間父子與同父推導獨立標示；漢王吉遠祖泛稱不納入組裝，字母不是出生次序。 晉書卷65補導子洽、洽子珣及珣子弘等直接父子來源，替換組裝所選的連續祖先推導；宋書祖先斷言仍保留。 晉書76王廙父正及宋書66敬弘父祖接回王正支；胡之父廙為獨立的連續祖先推導。謝重的外祖胡之共享此完整身份，不另建截斷副本。 王敬弘子恢之、女及昇之子延之依宋書正文續接；瓚之、昇之的共同父親由明載兄弟鏈另標推導，不按字母作排行。 宋書92王鎮之父隨之、祖耆之、曾祖廙續接此近支，連續祖先與兄弟同父推導另標；母系未知不補。 卷76王彬、王棱近支依直接父子及明示兄弟續接；同父推導與相鄰原段承接另標，籍之父親未定不補。 墓誌明載彬之孫及興之元子，接興之與閩之；興之為彬子單列連續祖先推導，不為三弟補父母。 本後繼以080同傳主祖正/父曠作可撤回父系推導，接入曠羲之近系；未新增原文直父斷言，未接405同名王曠。",
+      "rationale": "以晉書具名父祖、父子、兄弟及宋書王弘家世接合。中間父子與同父推導獨立標示；漢王吉遠祖泛稱不納入組裝，字母不是出生次序。 晉書卷65補導子洽、洽子珣及珣子弘等直接父子來源，替換組裝所選的連續祖先推導；宋書祖先斷言仍保留。 晉書76王廙父正及宋書66敬弘父祖接回王正支；胡之父廙為獨立的連續祖先推導。謝重的外祖胡之共享此完整身份，不另建截斷副本。 王敬弘子恢之、女及昇之子延之依宋書正文續接；瓚之、昇之的共同父親由明載兄弟鏈另標推導，不按字母作排行。 宋書92王鎮之父隨之、祖耆之、曾祖廙續接此近支，連續祖先與兄弟同父推導另標；母系未知不補。 卷76王彬、王棱近支依直接父子及明示兄弟續接；同父推導與相鄰原段承接另標，籍之父親未定不補。 墓誌明載彬之孫及興之元子，接興之與閩之；興之為彬子單列連續祖先推導，不為三弟補父母。 本後繼以080同傳主祖正/父曠作可撤回父系推導，接入曠羲之近系；未新增原文直父斷言，未接405同名王曠。 梁033與梁021接楫/揖、筠及慈子泰；揖父僧虔為連續父祖編者推接，子筠與慈子泰明父仍各存。原獨立來源支判讀：來源明親屬支，缺代不造父名，後綴非排行。",
       "members": [
         {
           "person_id": "7r6_k52_qji",
@@ -4787,6 +4787,72 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "7r6_k52_qji_ABB",
           "source_assertion_id": "a-jin098-dun-father-ji"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABAAAAEBD",
+          "representative_source_person_id": "7r6_k52_qji_ABAAAAEBD",
+          "source_person_ids": [
+            "7r6_k52_qji_ABAAAAEBD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABAAAAEB",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "梁033王筠完整傳首明父楫、祖僧虔，僅編者推楫為僧虔子，非原文明父；楫/揖異字依同子筠及同家族語境首選同人，母未知。",
+            "chain_subject_person_id": "7r6_k52_qji_ABAAAAEBDA",
+            "nearer_ancestor_assertion_id": "a-liang033-wangyun-father",
+            "farther_ancestor_assertion_id": "a-liang033-wangyun-grandfather",
+            "references": [
+              {
+                "assertion_id": "a-liang033-wangyun-father",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-033",
+                "chapter_id": "c-liangshu-033-wangyun-rendered",
+                "source_id": "s-liangshu-033-current-rendered-wangyun",
+                "paragraph_id": "c-liangshu-033-wangyun-rendered:p001",
+                "quote": "王筠字元禮，一字德柔，琅邪臨沂人。祖僧虔，齊司空簡穆公。父楫，太中大夫。",
+                "url": "https://zh.wikisource.org/wiki/梁書/卷33",
+                "scope": "同一完整原段的較近祖先明文"
+              },
+              {
+                "assertion_id": "a-liang033-wangyun-grandfather",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-033",
+                "chapter_id": "c-liangshu-033-wangyun-rendered",
+                "source_id": "s-liangshu-033-current-rendered-wangyun",
+                "paragraph_id": "c-liangshu-033-wangyun-rendered:p001",
+                "quote": "王筠字元禮，一字德柔，琅邪臨沂人。祖僧虔，齊司空簡穆公。父楫，太中大夫。",
+                "url": "https://zh.wikisource.org/wiki/梁書/卷33",
+                "scope": "同一完整原段的下一代祖先明文"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "7r6_k52_qji_ABAAAAEBDA",
+          "representative_source_person_id": "7r6_k52_qji_ABAAAAEBDA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABAAAAEBDA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABAAAAEBD",
+          "source_assertion_id": "a-nanshi022-wangzhi-012",
+          "connection": "father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABAAAAEBAA",
+          "representative_source_person_id": "7r6_k52_qji_ABAAAAEBAA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABAAAAEBAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABAAAAEBA",
+          "source_assertion_id": "a-liangshu-021-wangtai-opening-rendered-wang_tai-father-wangci",
+          "connection": "father"
         }
       ]
     },
@@ -4797,7 +4863,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "晉書具名父叔與宋書父祖接合；據接裒為獨立編輯推導，朗重絢直接父子另存。謝玄依謝奕附傳連續正文三子名單接為奕子，玄、瑍、靈運三代另有具名原文。三代母系分開；謝尚仍在另組已證近系，不因同姓或數位標題補未知父系。未宣稱全族完成。 本批以萬子韶、弘微父思祖韶及曜兄弘微串接萬至宋后近系；思父韶與曜父思僅為可撤回編輯推定，出繼峻與所繼叔父混分角色，不合恩思。 本批接謝莊子朏、𤅢與朏子諼篹之明載父系；顥嵷依四兄與名兒上下文暫作同父組裝，不補母或絕對排行。",
+      "rationale": "晉書具名父叔與宋書父祖接合；據接裒為獨立編輯推導，朗重絢直接父子另存。謝玄依謝奕附傳連續正文三子名單接為奕子，玄、瑍、靈運三代另有具名原文。三代母系分開；謝尚仍在另組已證近系，不因同姓或數位標題補未知父系。未宣稱全族完成。 本批以萬子韶、弘微父思祖韶及曜兄弘微串接萬至宋后近系；思父韶與曜父思僅為可撤回編輯推定，出繼峻與所繼叔父混分角色，不合恩思。 本批接謝莊子朏、𤅢與朏子諼篹之明載父系；顥嵷依四兄與名兒上下文暫作同父組裝，不補母或絕對排行。 梁037謝舉父瀹與齊043𤅢同近系首選；覽據明兄弟與舉明父接同父，推接另標且未補同母。",
       "members": [
         {
           "person_id": "aa6_83c_juy",
@@ -5936,6 +6002,333 @@
               }
             ]
           }
+        },
+        {
+          "person_id": "aa6_83c_juy_AB",
+          "representative_source_person_id": "aa6_83c_juy_AB",
+          "source_person_ids": [
+            "aa6_83c_juy_AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "aa6_83c_juy_AA",
+            "sibling_assertion_id": "a-nanshi019-xie-support-yun-younger-brother-lang",
+            "sibling_father_assertion_id": "a-jinshu079-xie-006",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "原文明示具名兄弟及其中一人之父；同父為可撤回的近系編者首選，未獨立明載，不造另一條literal父子。",
+            "references": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-019",
+                "source_id": "s-nanshi-019-current-rendered-xieyu-opening",
+                "chapter_id": "c-nanshi-019-xieyu-opening-rendered",
+                "paragraph_id": "c-nanshi-019-xieyu-opening-rendered:p001",
+                "quote": "謝裕字景仁，朗弟允之子、而晦從父也。名與宋武帝諱同，故以字行。允字令度，位宣城內史。景仁幼爲從祖安所知，始爲前軍行參軍，會稽王世子元顯嬖人張法順權傾一時，內外無不造門，唯景仁不至，年三十而方爲著作佐郎。桓玄誅元顯，見景仁，謂四坐曰：「司馬庶人父子雲何不敗，遂令謝景仁三十而方佐著作郎。」玄建楚臺，以補黃門侍郎。及篡位，領驍騎將軍。",
+                "subject_person_mention_id": "c-nanshi-019-xieyu-opening-rendered:p001:m0004",
+                "object_person_mention_id": "c-nanshi-019-xieyu-opening-rendered:p001:m0003",
+                "assertion_id": "a-nanshi019-xie-support-yun-younger-brother-lang",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南史/卷19"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-079",
+                "source_id": "s-jinshu-079-xielang-family",
+                "chapter_id": "c-jinshu-079-xielang-family",
+                "paragraph_id": "c-jinshu-079-xielang-family:p003",
+                "quote": "朗字長度。父據，早卒。朗善言玄理，文義豔發，名亞于玄。總角時，病新起，體甚贏，未堪勞，于叔父安前與沙門支遁朗論，遂至相苦。其母王氏再遣信令還，安欲留，使竟論，王氏因出云：「新婦少遭艱難，一生所寄惟在此兒。」遂流涕攜朗去。安謂坐客曰：「家嫂辭情慷慨，恨不使朝士見之。」朗終於東陽太守。",
+                "assertion_id": "a-jinshu079-xie-006",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7079&oldid=2645985"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "aa6_83c_juy_ABA",
+          "representative_source_person_id": "aa6_83c_juy_ABA",
+          "source_person_ids": [
+            "aa6_83c_juy_ABA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_AB",
+          "source_assertion_id": "a-songshu052-xie-support-jingren-father-yun"
+        },
+        {
+          "person_id": "aa6_83c_juy_ABB",
+          "representative_source_person_id": "aa6_83c_juy_ABB",
+          "source_person_ids": [
+            "aa6_83c_juy_ABB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_AB",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "aa6_83c_juy_ABA",
+            "sibling_assertion_id": "a-songshu052-xie-support-chun-younger-brother-jingren",
+            "sibling_father_assertion_id": "a-songshu052-xie-support-jingren-father-yun",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "原文明示具名兄弟及其中一人之父；同父為可撤回的近系編者首選，未獨立明載，不造另一條literal父子。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-052",
+                "source_id": "s-songshu-052-current-rendered-xiejingren-near-family",
+                "chapter_id": "c-songshu-052-xiejingren-near-family-rendered",
+                "paragraph_id": "c-songshu-052-xiejingren-near-family-rendered:p002",
+                "quote": "景仁弟純字景懋，初為劉毅豫州別駕。毅鎮江陵，以為衞軍長史、南平相。王鎮惡率軍襲毅，已至城下，時毅疾病，佐吏皆入參承。純參承畢，已出，聞兵至，馳還入府。左右引車欲還外解，純叱之曰：「我人吏也，逃欲何之！」乃入。及毅兵敗眾散，時已暗夜，司馬毛脩之謂純曰：「君但隨僕。」純不從，扶兩人出，火光中為人所殺。純孫沈，太宗泰始初，為巴陵王休若衞軍錄事參軍、山陰令，坐事誅。",
+                "subject_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p002:m0002",
+                "object_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p002:m0001",
+                "assertion_id": "a-songshu052-xie-support-chun-younger-brother-jingren",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/宋書/卷52"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-052",
+                "source_id": "s-songshu-052-current-rendered-xiejingren-near-family",
+                "chapter_id": "c-songshu-052-xiejingren-near-family-rendered",
+                "paragraph_id": "c-songshu-052-xiejingren-near-family-rendered:p001",
+                "quote": "謝景仁，陳郡陽夏人，衞將軍晦從叔父也。名與高祖同諱，故稱字。祖據，太傅安第二弟。父允，宣城內史。",
+                "subject_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p001:m0001",
+                "object_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p001:m0006",
+                "assertion_id": "a-songshu052-xie-support-jingren-father-yun",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/宋書/卷52"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "aa6_83c_juy_ABC",
+          "representative_source_person_id": "aa6_83c_juy_ABC",
+          "source_person_ids": [
+            "aa6_83c_juy_ABC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_AB",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling_chain",
+            "sibling_person_ids": [
+              "aa6_83c_juy_ABB",
+              "aa6_83c_juy_ABA"
+            ],
+            "sibling_assertion_ids": [
+              "a-songshu052-xie-support-shu-elder-brother-chun",
+              "a-songshu052-xie-support-chun-younger-brother-jingren"
+            ],
+            "sibling_father_assertion_id": "a-songshu052-xie-support-jingren-father-yun",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "述隨兄純，純為景仁弟，景仁父允；透過明確中介純作同父近系首選，不把述誤稱景仁原文明言之弟。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-052",
+                "source_id": "s-songshu-052-current-rendered-xiejingren-near-family",
+                "chapter_id": "c-songshu-052-xiejingren-near-family-rendered",
+                "paragraph_id": "c-songshu-052-xiejingren-near-family-rendered:p003",
+                "quote": "述字景先，少有志行，隨兄純在江陵。純遇害，述奉純喪還都。行至西塞，值暴風，純喪舫流漂，不知所在，述乘小船尋求之。經純妻庾舫過，庾遣人謂述曰：「喪舫存沒，已應有在，風波如此，豈可小船所冒？小郎去必無及，寧可存亡俱盡邪。」述號泣答曰：「若安全至岸，當須營理。如其已致意外，述亦無心獨存。」因冒浪而進，見純喪幾沒，述號叫呼天，幸而獲免，咸以為精誠所致也。高祖聞而嘉之，及臨豫州，諷中正以述為主簿，甚被知器。景仁愛其第三弟甝而憎述，嘗設饌請高祖，希命甝豫坐，而高祖召述。述知非景仁夙意，又慮高祖命之，請急不從。高祖馳遣呼述，須至乃歡。及景仁有疾，述盡心營視，湯藥飲食，必嘗而後進，不解帶、不盥櫛者累旬，景仁深懷感愧。",
+                "subject_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p003:m0001",
+                "object_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p003:m0003",
+                "assertion_id": "a-songshu052-xie-support-shu-elder-brother-chun",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/宋書/卷52"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-052",
+                "source_id": "s-songshu-052-current-rendered-xiejingren-near-family",
+                "chapter_id": "c-songshu-052-xiejingren-near-family-rendered",
+                "paragraph_id": "c-songshu-052-xiejingren-near-family-rendered:p002",
+                "quote": "景仁弟純字景懋，初為劉毅豫州別駕。毅鎮江陵，以為衞軍長史、南平相。王鎮惡率軍襲毅，已至城下，時毅疾病，佐吏皆入參承。純參承畢，已出，聞兵至，馳還入府。左右引車欲還外解，純叱之曰：「我人吏也，逃欲何之！」乃入。及毅兵敗眾散，時已暗夜，司馬毛脩之謂純曰：「君但隨僕。」純不從，扶兩人出，火光中為人所殺。純孫沈，太宗泰始初，為巴陵王休若衞軍錄事參軍、山陰令，坐事誅。",
+                "subject_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p002:m0002",
+                "object_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p002:m0001",
+                "assertion_id": "a-songshu052-xie-support-chun-younger-brother-jingren",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/宋書/卷52"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-052",
+                "source_id": "s-songshu-052-current-rendered-xiejingren-near-family",
+                "chapter_id": "c-songshu-052-xiejingren-near-family-rendered",
+                "paragraph_id": "c-songshu-052-xiejingren-near-family-rendered:p001",
+                "quote": "謝景仁，陳郡陽夏人，衞將軍晦從叔父也。名與高祖同諱，故稱字。祖據，太傅安第二弟。父允，宣城內史。",
+                "subject_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p001:m0001",
+                "object_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p001:m0006",
+                "assertion_id": "a-songshu052-xie-support-jingren-father-yun",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/宋書/卷52"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "aa6_83c_juy_ABCA",
+          "representative_source_person_id": "aa6_83c_juy_ABCA",
+          "source_person_ids": [
+            "aa6_83c_juy_ABCA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_ABC",
+          "source_assertion_id": "a-songshu052-xie-support-zong-father-shu"
+        },
+        {
+          "person_id": "aa6_83c_juy_ABCB",
+          "representative_source_person_id": "aa6_83c_juy_ABCB",
+          "source_person_ids": [
+            "aa6_83c_juy_ABCB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_ABC",
+          "source_assertion_id": "a-songshu052-xie-support-xie_wei-father-shu"
+        },
+        {
+          "person_id": "aa6_83c_juy_ABCC",
+          "representative_source_person_id": "aa6_83c_juy_ABCC",
+          "source_person_ids": [
+            "aa6_83c_juy_ABCC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_ABC",
+          "source_assertion_id": "a-songshu052-xie-support-xie_yue-father-shu"
+        },
+        {
+          "person_id": "aa6_83c_juy_ABCBA",
+          "representative_source_person_id": "aa6_83c_juy_ABCBA",
+          "source_person_ids": [
+            "aa6_83c_juy_ABCBA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_ABCB",
+          "source_assertion_id": "a-nanqi047-xietiao-father"
+        },
+        {
+          "person_id": "aa6_83c_juy_ABD",
+          "representative_source_person_id": "aa6_83c_juy_ABD",
+          "source_person_ids": [
+            "aa6_83c_juy_ABD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_AB",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "aa6_83c_juy_ABA",
+            "sibling_assertion_id": "a-songshu052-xie-support-han-younger-brother-jingren",
+            "sibling_father_assertion_id": "a-songshu052-xie-support-jingren-father-yun",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "原文明示具名兄弟及其中一人之父；同父為可撤回的近系編者首選，未獨立明載，不造另一條literal父子。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-052",
+                "source_id": "s-songshu-052-current-rendered-xiejingren-near-family",
+                "chapter_id": "c-songshu-052-xiejingren-near-family-rendered",
+                "paragraph_id": "c-songshu-052-xiejingren-near-family-rendered:p003",
+                "quote": "述字景先，少有志行，隨兄純在江陵。純遇害，述奉純喪還都。行至西塞，值暴風，純喪舫流漂，不知所在，述乘小船尋求之。經純妻庾舫過，庾遣人謂述曰：「喪舫存沒，已應有在，風波如此，豈可小船所冒？小郎去必無及，寧可存亡俱盡邪。」述號泣答曰：「若安全至岸，當須營理。如其已致意外，述亦無心獨存。」因冒浪而進，見純喪幾沒，述號叫呼天，幸而獲免，咸以為精誠所致也。高祖聞而嘉之，及臨豫州，諷中正以述為主簿，甚被知器。景仁愛其第三弟甝而憎述，嘗設饌請高祖，希命甝豫坐，而高祖召述。述知非景仁夙意，又慮高祖命之，請急不從。高祖馳遣呼述，須至乃歡。及景仁有疾，述盡心營視，湯藥飲食，必嘗而後進，不解帶、不盥櫛者累旬，景仁深懷感愧。",
+                "subject_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p003:m0020",
+                "object_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p003:m0019",
+                "assertion_id": "a-songshu052-xie-support-han-younger-brother-jingren",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/宋書/卷52"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-052",
+                "source_id": "s-songshu-052-current-rendered-xiejingren-near-family",
+                "chapter_id": "c-songshu-052-xiejingren-near-family-rendered",
+                "paragraph_id": "c-songshu-052-xiejingren-near-family-rendered:p001",
+                "quote": "謝景仁，陳郡陽夏人，衞將軍晦從叔父也。名與高祖同諱，故稱字。祖據，太傅安第二弟。父允，宣城內史。",
+                "subject_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p001:m0001",
+                "object_person_mention_id": "c-songshu-052-xiejingren-near-family-rendered:p001:m0006",
+                "assertion_id": "a-songshu052-xie-support-jingren-father-yun",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/宋書/卷52"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "aa6_83c_juy_ABB*A",
+          "representative_source_person_id": "aa6_83c_juy_ABB*A",
+          "source_person_ids": [
+            "aa6_83c_juy_ABB*A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": "a-songshu052-xie-support-shen-grandfather-chun",
+          "ancestor_person_id": "aa6_83c_juy_ABB",
+          "connection": "grandfather",
+          "generation_distance": 2,
+          "interpretation_note": "純孫沈明載祖父；父名未知，ID保留缺代，不補任何父親。",
+          "intermediate_person_ids": [
+            null
+          ]
+        },
+        {
+          "person_id": "aa6_83c_juy_DBABACA",
+          "representative_source_person_id": "aa6_83c_juy_DBABACA",
+          "source_person_ids": [
+            "aa6_83c_juy_DBABACA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBABAC",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "sibling_person_id": "aa6_83c_juy_DBABACB",
+            "sibling_assertion_id": "a-liangshu-033-wangyun-rendered-xie_ju-brother-xie_lan",
+            "sibling_father_assertion_id": "a-liangshu-037-xieju-hejingrong-kin-rendered-xie_ju-father-xie_yue",
+            "rationale": "梁033明覽弟舉，梁037明舉父瀹；與現役齊043𤅢同近系有資格首選，覽接同父為編者推接，非另有覽父瀹literal句，不補同母。",
+            "references": [
+              {
+                "assertion_id": "a-liangshu-033-wangyun-rendered-xie_ju-brother-xie_lan",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-033",
+                "chapter_id": "c-liangshu-033-wangyun-rendered",
+                "source_id": "s-liangshu-033-current-rendered-wangyun",
+                "paragraph_id": "c-liangshu-033-wangyun-rendered:p002",
+                "quote": "筠幼警寤，七歲能屬文。年十六，爲《芍藥賦》，甚美。及長，清靜好學，與從兄泰齊名。陳郡謝覽，覽弟舉，亦有重譽，時人爲之語曰：「謝有覽舉，王有養炬。」炬是泰，養卽筠，並小字也。",
+                "url": "https://zh.wikisource.org/wiki/梁書/卷33",
+                "scope": "明兄弟及相對長幼"
+              },
+              {
+                "assertion_id": "a-liangshu-037-xieju-hejingrong-kin-rendered-xie_ju-father-xie_yue",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-037",
+                "chapter_id": "c-liangshu-037-xieju-hejingrong-kin-rendered",
+                "source_id": "s-liangshu-037-xieju-hejingrong-kin-current-rendered",
+                "paragraph_id": "c-liangshu-037-xieju-hejingrong-kin-rendered:p002",
+                "quote": "四年，加侍中。五年，遷尚書右僕射，侍中如故。大同三年，以疾陳解，徙為右光祿大夫，給親信二十人。其年，出為雲麾將軍、吳郡太守。先是，何敬容居郡有美績，世稱為何吳郡。及舉為政，聲跡略相比。六年，入為侍中、中書監，未拜，遷太子詹事、翊左將軍，侍中如故。舉父瀹，齊世終此官，累表乞改授，敕不許，久之方就職。九年，遷尚書僕射，侍中、將軍如故。舉雖居端揆，未嘗肯預時務，多因疾陳解。敕輒賜假，並手敕處方，加給上藥。其恩遇如此。其年，以本官參掌選事。",
+                "url": "https://zh.wikisource.org/zh-hant/梁書/卷37",
+                "scope": "弟舉明父瀹；同父仍為編者首選"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "aa6_83c_juy_DBABACB",
+          "representative_source_person_id": "aa6_83c_juy_DBABACB",
+          "source_person_ids": [
+            "aa6_83c_juy_DBABACB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBABAC",
+          "source_assertion_id": "a-liangshu-037-xieju-hejingrong-kin-rendered-xie_ju-father-xie_yue",
+          "connection": "father"
         }
       ]
     },
@@ -7178,38 +7571,896 @@
           "parent_person_id": "dkn_ge4_286_AAADAAA",
           "source_assertion_id": "a-phase5-037-紘-father-釋",
           "connection": "father"
-        }
-      ]
-    },
-    {
-      "id": "family-shixing-xiao-dan",
-      "root_person_id": "fjm_eo3_0zz",
-      "label": "始興王憺與繁昌主",
-      "status": "contextual_provisional",
-      "human_reviewed": false,
-      "reviewer": "Codex（AI 代理）",
-      "rationale": "只接南史王氏傳明言始興王女繁昌主；憺身份依同書宗室傳及時序另辨。未補遠祖、生母或完整梁宗室，婚配與離婚另存。",
-      "members": [
-        {
-          "person_id": "fjm_eo3_0zz",
-          "representative_source_person_id": "fjm_eo3_0zz",
-          "source_person_ids": [
-            "fjm_eo3_0zz"
-          ],
-          "identity_equivalence_decision_ids": [],
-          "parent_person_id": null,
-          "source_assertion_id": null,
-          "connection": null
         },
         {
-          "person_id": "fjm_eo3_0zz_A",
-          "representative_source_person_id": "fjm_eo3_0zz_A",
+          "person_id": "dkn_ge4_286_AAADB",
+          "representative_source_person_id": "dkn_ge4_286_AAADB",
           "source_person_ids": [
-            "fjm_eo3_0zz_A"
+            "dkn_ge4_286_AAADB"
           ],
           "identity_equivalence_decision_ids": [],
-          "parent_person_id": "fjm_eo3_0zz",
-          "source_assertion_id": "a-nanshi024-fanchang-father",
+          "parent_person_id": "dkn_ge4_286_AAAD",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "dkn_ge4_286_AAADA",
+            "sibling_assertion_id": "a-jin037-near-001",
+            "sibling_father_assertion_id": "a-phase5-037-權-father-馗",
+            "status": "contextual_provisional",
+            "rationale": "同一宗室近系明言權之弟／季弟，首選與權同父馗；同父未另獨證，原斷言只有兄弟及權父，不冒作原文直記父子。",
+            "same_father_independently_attested": false,
+            "literal_father_assertion_created": false,
+            "references": [
+              {
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
+                "quote": "高密文獻王泰，字子舒，彭城穆王權之弟，魏陽亭侯，補陽翟令，遷扶風太守。武帝受禪，封隴西王，邑三千二百戶，拜遊擊將軍。出為兗州刺史，加鷹揚將軍。遷使持節、都督甯益二州諸軍事、安西將軍，領益州刺史，稱疾不行。轉安北將軍，代兄權督鄴城守事。安西將軍、都督關中事。太康初，入為散騎常侍、前將軍，領鄴城門校尉，以疾去官。後代下邳王晃為尚書左僕射。出為鎮西將軍，領護西戎校尉、假節，代扶風王駿都督關中軍事，以疾還京師。永熙初，代石鑒為司空，尋領太子太保。及楊駿誅，泰領駿營，加侍中，給步兵二千五百人，騎五百匹。泰固辭，乃給千兵百騎。",
+                "scope": "同宗室近系兄弟關係支持編輯首選，同父未獨證"
+              },
+              {
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
+                "quote": "彭城穆王權，字子輿，宣帝弟魏魯相東武城侯馗之子也。",
+                "scope": "權父馗明文；非泰／綏明父"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "dkn_ge4_286_AAADC",
+          "representative_source_person_id": "dkn_ge4_286_AAADC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAADC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAD",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "dkn_ge4_286_AAADA",
+            "sibling_assertion_id": "a-jin037-near-016",
+            "sibling_father_assertion_id": "a-phase5-037-權-father-馗",
+            "status": "contextual_provisional",
+            "rationale": "同一宗室近系明言權之弟／季弟，首選與權同父馗；同父未另獨證，原斷言只有兄弟及權父，不冒作原文直記父子。",
+            "same_father_independently_attested": false,
+            "literal_father_assertion_created": false,
+            "references": [
+              {
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
+                "quote": "范陽康王綏，字子都，彭城王權季弟也，初為諫議大夫。泰始元年受封，在位十五年。咸寧五年薨，子虓立焉。",
+                "scope": "同宗室近系兄弟關係支持編輯首選，同父未獨證"
+              },
+              {
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
+                "quote": "彭城穆王權，字子輿，宣帝弟魏魯相東武城侯馗之子也。",
+                "scope": "權父馗明文；非泰／綏明父"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "dkn_ge4_286_AAADBA",
+          "representative_source_person_id": "dkn_ge4_286_AAADBA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAADBA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAADB",
+          "source_assertion_id": "a-jin037-near-002"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAADBB",
+          "representative_source_person_id": "dkn_ge4_286_AAADBB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAADBB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAADB",
+          "source_assertion_id": "a-jin037-near-003"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAADBC",
+          "representative_source_person_id": "dkn_ge4_286_AAADBC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAADBC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAADB",
+          "source_assertion_id": "a-jin037-near-004"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAADBD",
+          "representative_source_person_id": "dkn_ge4_286_AAADBD",
+          "source_person_ids": [
+            "dkn_ge4_286_AAADBD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAADB",
+          "source_assertion_id": "a-jin037-near-005"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAADBDA",
+          "representative_source_person_id": "dkn_ge4_286_AAADBDA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAADBDA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAADBD",
+          "source_assertion_id": "a-jin037-near-011"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAADBDB",
+          "representative_source_person_id": "dkn_ge4_286_AAADBDB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAADBDB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAADBD",
+          "source_assertion_id": "a-jin037-near-019"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAADBCA",
+          "representative_source_person_id": "dkn_ge4_286_AAADBCA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAADBCA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAADBC",
+          "source_assertion_id": "a-jin037-near-007"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAADCA",
+          "representative_source_person_id": "dkn_ge4_286_AAADCA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAADCA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAADC",
+          "source_assertion_id": "a-jin037-near-017"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAADAAABA",
+          "representative_source_person_id": "dkn_ge4_286_AAADAAABA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAADAAABA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAADAAAB",
+          "source_assertion_id": "a-jin037-near-008"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAFA",
+          "representative_source_person_id": "dkn_ge4_286_AAAFA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAFA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAF",
+          "source_assertion_id": "a-jin037-qiao-father-xun",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAFAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAFAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAFAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAFA",
+          "source_assertion_id": "a-jin037-qiao-father-sui",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAFAB",
+          "representative_source_person_id": "dkn_ge4_286_AAAFAB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAFAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAFA",
+          "source_assertion_id": "a-jin037-qiao-father-cheng",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAFAAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAFAAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAFAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAFAA",
+          "source_assertion_id": "a-jin037-qiao-father-sui2",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAFABA",
+          "representative_source_person_id": "dkn_ge4_286_AAAFABA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAFABA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAFAB",
+          "source_assertion_id": "a-jin037-qiao-father-wuji",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAFABAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAFABAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAFABAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAFABA",
+          "source_assertion_id": "a-jin037-qiao-father-tian",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAFABAB",
+          "representative_source_person_id": "dkn_ge4_286_AAAFABAB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAFABAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAFABA",
+          "source_assertion_id": "a-jin037-qiao-father-yin",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAI",
+          "source_assertion_id": "a-jin031-wen-family-yan_son-father-zhao",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAI",
+          "source_assertion_id": "a-jin031-wen-family-you_son-father-zhao",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIC",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAI",
+          "source_assertion_id": "a-jin031-wen-family-zhao_son-father-zhao",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAID",
+          "representative_source_person_id": "dkn_ge4_286_AAAAID",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAID"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAI",
+          "source_assertion_id": "a-jin031-wen-family-dingguo_son-father-zhao",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIE",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIE",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAI",
+          "source_assertion_id": "a-jin031-wen-family-guangde_son-father-zhao",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIF",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIF",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIF"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAI",
+          "source_assertion_id": "a-jin038-wen-you-jian-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIG",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIG",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIG"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAI",
+          "source_assertion_id": "a-jin038-children-ji-father-zhao",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIH",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIH",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIH"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAI",
+          "source_assertion_id": "a-jin038-wen-you-yongzuo-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAII",
+          "representative_source_person_id": "dkn_ge4_286_AAAAII",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAII"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAI",
+          "source_assertion_id": "a-jin038-wen-you-yanzuo-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIJ",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIJ",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIJ"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAI",
+          "source_assertion_id": "a-jin031-wen-family-princess_daughter-father-zhao",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin004-zhong-father-yan",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-wei-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAC",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-ying-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAD",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAD",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-yun-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAE",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAE",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-huai-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAF",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAF",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAF"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-xia-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAG",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAG",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAG"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-gui-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAH",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAH",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAH"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-jian_wudi_son-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAI",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAI",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAI"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-jing-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAJ",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAJ",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAJ"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-xian-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAK",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAK",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAK"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-zhi-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAL",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAL",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAL"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-yu_wudi_son-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAM",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAM",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAM"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-yan_dai-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAN",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAN",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAN"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-yan-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAO",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAO",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAO"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-gai-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAP",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAP",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAP"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-mo-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAQ",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAQ",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAQ"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin064-hui-father-wu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIBA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIBA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIBA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIB",
+          "source_assertion_id": "a-jin038-children-rui-father-you",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIBB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIBB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIBB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIB",
+          "source_assertion_id": "a-jin038-children-zan-father-you",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIBC",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIBC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIBC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIB",
+          "source_assertion_id": "a-jin038-children-shi-father-you",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIFA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIFA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIFA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIF",
+          "source_assertion_id": "a-jin038-children-ji-jian-father-jian",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAR",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAR",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAR"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin059-yi-direct-001",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIBD",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIBD",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIBD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIB",
+          "source_assertion_id": "a-jin059-jiong-direct-001",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAS",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAS",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAS"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin044-lu-011",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAT",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAT",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAT"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "source_assertion_id": "a-jin098-princess-father-wudi",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAA",
+          "source_assertion_id": "a-jin053-yu-father-hui",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAFA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAFA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAFA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAF",
+          "source_assertion_id": "a-jin064-qin-father-xia",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAFB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAFB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAFB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAF",
+          "source_assertion_id": "a-jin064-yue-father-xia",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAFC",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAFC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAFC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAF",
+          "source_assertion_id": "a-jin064-quan-father-xia",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAFD",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAFD",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAFD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAF",
+          "source_assertion_id": "a-jin064-duan-father-xia",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIBAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIBAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIBAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIBA",
+          "source_assertion_id": "a-jin038-children-zun-father-rui",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIANA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIANA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIANA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAN",
+          "source_assertion_id": "a-jin064-xiang-father-yan",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIANB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIANB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIANB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAN",
+          "source_assertion_id": "a-jin064-gu-father-yan",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIANC",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIANC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIANC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAN",
+          "source_assertion_id": "a-jin064-yan_yan_son-father-yan",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIADA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIADA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIADA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAD",
+          "source_assertion_id": "a-jin064-yu_yun_son-father-yun",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIADB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIADB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIADB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAD",
+          "source_assertion_id": "a-jin064-di-father-yun",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIACA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIACA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIACA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAC",
+          "source_assertion_id": "a-jin059-pu-father-ying",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIACB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIACB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIACB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAC",
+          "source_assertion_id": "a-jin059-kuo-father-ying",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIARA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIARA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIARA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAR",
+          "source_assertion_id": "a-jin059-yi-direct-002",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIBDA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIBDA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIBDA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIBD",
+          "source_assertion_id": "a-jin059-jiong-direct-002",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIBDB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIBDB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIBDB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIBD",
+          "source_assertion_id": "a-jin038-children-bing-father-jiong",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIBDC",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIBDC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIBDC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIBD",
+          "source_assertion_id": "a-jin059-jiong-direct-004",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAND",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAND",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAND"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAN",
+          "source_assertion_id": "a-jin064-min-father-yan",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIABA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIABA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIABA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAB",
+          "source_assertion_id": "a-jin059-fan-father-wei",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIABB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIABB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIABB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAB",
+          "source_assertion_id": "a-jin064-yi_wei_son-father-wei",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIBDD",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIBDD",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIBDD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIBD",
+          "source_assertion_id": "a-jin038-children-ji-source-father-jiong",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAAAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAAAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAAA",
+          "source_assertion_id": "a-jin053-bin-father-yu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAAAB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAAAB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAAAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAAA",
+          "source_assertion_id": "a-jin053-zang-father-yu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIAAAC",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIAAAC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIAAAC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAAA",
+          "source_assertion_id": "a-jin053-shang-father-yu",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAIANE",
+          "representative_source_person_id": "dkn_ge4_286_AAAAIANE",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAIANE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAIAN",
+          "source_assertion_id": "a-jin064-yan_unnamed_eldest-father-yan",
           "connection": "father"
         }
       ]
@@ -8520,6 +9771,28 @@
           "parent_person_id": "4qr_wrk_3vd_DDBB",
           "source_assertion_id": "a-yu7-song053-003",
           "connection": "father"
+        },
+        {
+          "person_id": "4qr_wrk_3vd_FA",
+          "representative_source_person_id": "4qr_wrk_3vd_FA",
+          "source_person_ids": [
+            "4qr_wrk_3vd_FA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "4qr_wrk_3vd_F",
+          "source_assertion_id": "a-jin073-yuyi-father-fangzhi",
+          "connection": "father"
+        },
+        {
+          "person_id": "4qr_wrk_3vd_FB",
+          "representative_source_person_id": "4qr_wrk_3vd_FB",
+          "source_person_ids": [
+            "4qr_wrk_3vd_FB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "4qr_wrk_3vd_F",
+          "source_assertion_id": "a-jin073-yuyi-father-yuanzhi",
+          "connection": "father"
         }
       ]
     },
@@ -9202,38 +10475,6 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "hx8_st4_jdd",
           "source_assertion_id": "a-nanshi022-wangzhi-005",
-          "connection": "father"
-        }
-      ]
-    },
-    {
-      "id": "family-nanqi033-yi2",
-      "root_person_id": "mxz_qw8_acd",
-      "label": "王揖：來源明親屬支",
-      "status": "editorial_preferred",
-      "human_reviewed": false,
-      "reviewer": "Codex（AI 代理）",
-      "rationale": "來源明親屬支，缺代不造父名，後綴非排行。",
-      "members": [
-        {
-          "person_id": "mxz_qw8_acd",
-          "representative_source_person_id": "mxz_qw8_acd",
-          "source_person_ids": [
-            "mxz_qw8_acd"
-          ],
-          "identity_equivalence_decision_ids": [],
-          "parent_person_id": null,
-          "source_assertion_id": null
-        },
-        {
-          "person_id": "mxz_qw8_acd_A",
-          "representative_source_person_id": "mxz_qw8_acd_A",
-          "source_person_ids": [
-            "mxz_qw8_acd_A"
-          ],
-          "identity_equivalence_decision_ids": [],
-          "parent_person_id": "mxz_qw8_acd",
-          "source_assertion_id": "a-nanshi022-wangzhi-012",
           "connection": "father"
         }
       ]
@@ -13110,6 +14351,16 @@
               "a-song051-yixin-yiqing-yan-brother"
             ]
           }
+        },
+        {
+          "person_id": "3qs_nqa_ioa_AAAAB",
+          "representative_source_person_id": "3qs_nqa_ioa_AAAAB",
+          "source_person_ids": [
+            "3qs_nqa_ioa_AAAAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "3qs_nqa_ioa_AAAA",
+          "source_assertion_id": "a-songshu052-xie-support-changcheng-father-songwen"
         }
       ]
     },
@@ -13654,6 +14905,93 @@
           "parent_person_id": "m8n_ntm_79h_ABBAA",
           "source_assertion_id": "a-cui53-007",
           "connection": "father"
+        },
+        {
+          "person_id": "m8n_ntm_79h_ABBB",
+          "representative_source_person_id": "m8n_ntm_79h_ABBB",
+          "source_person_ids": [
+            "m8n_ntm_79h_ABBB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "m8n_ntm_79h_ABB",
+          "source_assertion_id": "a-jin044-lu-007",
+          "connection": "father"
+        },
+        {
+          "person_id": "m8n_ntm_79h_ABBC",
+          "representative_source_person_id": "m8n_ntm_79h_ABBC",
+          "source_person_ids": [
+            "m8n_ntm_79h_ABBC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "m8n_ntm_79h_ABB",
+          "source_assertion_id": "a-jin044-lu-008",
+          "connection": "father"
+        },
+        {
+          "person_id": "m8n_ntm_79h_AB*A",
+          "representative_source_person_id": "m8n_ntm_79h_AB*A",
+          "source_person_ids": [
+            "m8n_ntm_79h_AB*A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": "grandfather",
+          "ancestor_person_id": "m8n_ntm_79h_AB",
+          "generation_distance": 2,
+          "intermediate_person_ids": [
+            null
+          ],
+          "ancestor_connection": {
+            "type": "fixed_jin044_paternal_nephew_unknown_father",
+            "uncle_person_id": "m8n_ntm_79h_ABB",
+            "nephew_assertion_id": "a-jin044-lu-010",
+            "uncle_father_assertion_id": "a-jin044-lu-005",
+            "status": "contextual_provisional",
+            "owner": "c-jinshu-044-luqin-family-rendered",
+            "human_reviewed": false,
+            "placement_status": "editorial_inferred",
+            "literal_grandfather_assertion": false,
+            "same_father_independently_attested": false,
+            "unknown_father_person_id": null,
+            "unknown_father_name": null,
+            "father_is_hao_asserted": false,
+            "rationale": "本篇明志兄子綝、珽子志；編輯首選依盧氏近系，暫將志之未知兄視作與志同父而把綝接祖珽。此同父尚無獨立明文，故只是有資格的父系推接，不是來源直接祖孫斷言；父名留空，不補為皓。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-044",
+                "source_id": "s-jinshu044-lu-rendered-oldcapture",
+                "chapter_id": "c-jinshu-044-luqin-family-rendered",
+                "paragraph_id": "c-jinshu-044-luqin-family-rendered:p007",
+                "quote": "及乂死，穎表志為中書監，留鄴，參署相府事。乘與敗于蕩陰，穎遣志督兵迎帝。及王浚攻鄴，志勸穎奉天子還洛陽。時甲士尚萬五千人，志夜部分，至曉，眾皆成列，而程太妃戀鄴不欲去，穎未能決。俄而眾潰，唯志與子謐、兄子綝、殿中武賁千人而已，志復勸穎早發。時有道士姓黃，號曰聖人，太妃信之。及使呼人，道士求兩杯酒，飲訖，拋杯而去，於是志計始決。而人馬復散，志于營陣間尋索，得數乘鹿車，司馬督韓玄收集黃門，得百餘人。志入，帝問志曰：「何故散敗至此？」志曰：「賊去鄴尚八十里，而人士一朝駭散，太弟今欲奉陛下還洛陽。」帝曰：「甚佳。」於是禦犢車便發。屯騎校尉郝昌先領兵八千守洛陽，帝召之，至汲郡而昌至，兵仗甚盛。志喜於復振，啟天子宜下赦書，與百姓同其休慶。既達洛陽，志啟以滿奮為司隸校尉。奔散者多還，百官粗備，帝悅，賜志絹二百匹、綿百斤、衣一襲、鶴綾袍一領。",
+                "subject_person_mention_id": "c-jinshu-044-luqin-family-rendered:p007:m0102",
+                "object_person_mention_id": "c-jinshu-044-luqin-family-rendered:p007:m0006",
+                "assertion_id": "a-jin044-lu-010",
+                "scope": "source_nephew_of_elder_brother",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1775345&title=晉書/卷044",
+                "source_layer": "received_chapter",
+                "human_reviewed": false
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-044",
+                "source_id": "s-jinshu044-lu-rendered-oldcapture",
+                "chapter_id": "c-jinshu-044-luqin-family-rendered",
+                "paragraph_id": "c-jinshu-044-luqin-family-rendered:p004",
+                "quote": "欽弟珽，字子笏，衛尉卿。珽子志。",
+                "subject_person_mention_id": "c-jinshu-044-luqin-family-rendered:p004:m0014",
+                "object_person_mention_id": "c-jinshu-044-luqin-family-rendered:p004:m0002",
+                "assertion_id": "a-jin044-lu-005",
+                "scope": "source_uncle_named_father",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1775345&title=晉書/卷044",
+                "source_layer": "received_chapter",
+                "human_reviewed": false
+              }
+            ]
+          },
+          "interpretation_note": "本篇明志兄子綝、珽子志；編輯首選依盧氏近系，暫將志之未知兄視作與志同父而把綝接祖珽。此同父尚無獨立明文，故只是有資格的父系推接，不是來源直接祖孫斷言；父名留空，不補為皓。"
         }
       ]
     },
@@ -16871,6 +18209,1651 @@
           "parent_person_id": null,
           "source_assertion_id": null,
           "collateral_root_group_id": "group-zhou041-zhou-explicit-brothers"
+        }
+      ]
+    },
+    {
+      "id": "family-wanglang-wangsu-yuanji-near-family",
+      "root_person_id": "d21_081_910",
+      "label": "王朗、王肅與王元姬近系",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "依031明父肅、祖朗及所附013直接父朗參校接近世父系；王元姬配偶昭及所生子女保留獨立關係，字母不代表排行。",
+      "members": [
+        {
+          "person_id": "d21_081_910",
+          "representative_source_person_id": "d21_081_910",
+          "source_person_ids": [
+            "d21_081_910"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": null
+        },
+        {
+          "person_id": "d21_081_910_A",
+          "representative_source_person_id": "d21_081_910_A",
+          "source_person_ids": [
+            "d21_081_910_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "d21_081_910",
+          "source_assertion_id": "a-jin031-wen-family-wangsu-father-wanglang",
+          "connection": "father"
+        },
+        {
+          "person_id": "d21_081_910_AA",
+          "representative_source_person_id": "d21_081_910_AA",
+          "source_person_ids": [
+            "d21_081_910_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "d21_081_910_A",
+          "source_assertion_id": "a-jin031-wen-family-queen-father-wangsu",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-jin064-zhou-hui-near-family",
+      "root_person_id": "7c9_e07_973",
+      "label": "晉周氏：周恢、清河康王正妃周氏",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "rationale": "周氏為覃明生母，恢為同一覃母系祖父，合讀周氏之父；非逐字父句。恢有資格首選現役周恢仍provisional，不補周氏婚年、不把遐配偶或覃生母混入父系、不添更遠祖。結構ID字元不是排行，普通father組裝分支不把contextual來源升作literal。",
+      "members": [
+        {
+          "person_id": "7c9_e07_973",
+          "representative_source_person_id": "7c9_e07_973",
+          "source_person_ids": [
+            "7c9_e07_973"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "7c9_e07_973_A",
+          "representative_source_person_id": "7c9_e07_973_A",
+          "source_person_ids": [
+            "7c9_e07_973_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7c9_e07_973",
+          "source_assertion_id": "a-jin064-zhou-father-hui",
+          "source_assertion_status": "contextual_provisional",
+          "human_reviewed": false,
+          "relationship_qualification": {
+            "source_composed_parent_bridge": {
+              "basis": [
+                "覃生母周氏",
+                "覃外祖恢"
+              ],
+              "literal_father_sentence": false,
+              "kind": "mother_and_maternal_grandfather_same_child",
+              "mother_assertion_id": "a-jin064-qin-mother-zhou",
+              "maternal_grandfather_assertion_id": "a-jin064-qin-maternal-grandfather-hui",
+              "child_person_id": "dkn_ge4_286_AAAAIAFA",
+              "mother_person_id": "7c9_e07_973_A",
+              "maternal_grandfather_person_id": "7c9_e07_973",
+              "same_child": true,
+              "same_mother": true,
+              "lineage": "maternal",
+              "derived": true,
+              "status": "contextual_provisional",
+              "identity_status": "contextual_provisional",
+              "basis_kind": "editorial_input_labels_not_literal_quotes"
+            },
+            "literal_father_sentence": false,
+            "rationale": "周氏為覃明生母，恢為同一覃母系祖父，合讀周氏之父；非逐字父句。恢有資格首選現役周恢仍provisional，不補周氏婚年、不把遐配偶或覃生母混入父系、不添更遠祖。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "family-xun-lang-near-ancestry",
+      "root_person_id": "vh4_rsb_xo3",
+      "label": "荀氏近系：延祖至法尚",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "rationale": "僅傳首父祖及明子法尚接四代；伯道父延祖是有資格合成，只放parent_connection。昂、曉、晷仍獨立來源人物並保相對兄弟導航，不補同父母或遠荀卿族源。",
+      "members": [
+        {
+          "person_id": "vh4_rsb_xo3",
+          "representative_source_person_id": "vh4_rsb_xo3",
+          "source_person_ids": [
+            "vh4_rsb_xo3"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "vh4_rsb_xo3_A",
+          "representative_source_person_id": "vh4_rsb_xo3_A",
+          "source_person_ids": [
+            "vh4_rsb_xo3_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vh4_rsb_xo3",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "interpretation_basis": "punctuated_biography_explicit_paternal_zu_fu_pair",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一完整傳首荀朗的祖延祖與父伯道明示父系，合成相鄰層級伯道→延祖；保兩literal主張，不產生第7corpus father。",
+            "chain_subject_person_id": "vh4_rsb_xo3_AA",
+            "nearer_ancestor_assertion_id": "a-chenshu013-lang-father-bodao",
+            "farther_ancestor_assertion_id": "a-chenshu013-lang-grandfather-yanzu",
+            "references": [
+              {
+                "assertion_id": "a-chenshu013-lang-father-bodao",
+                "work_id": "w-chenshu",
+                "book_id": "b-chenshu-013",
+                "source_id": "s-chenshu-013-ws1511906-rendered-xunlang",
+                "chapter_id": "c-chenshu-013-xunlang-rendered",
+                "paragraph_id": "c-chenshu-013-xunlang-rendered:p001",
+                "quote": "荀朗字深明，潁川潁陰人也。祖延祖，梁潁川太守，父伯道，衛尉卿。",
+                "scope": "完整傳首同一荀朗明父與明祖，僅編輯推得伯道父延祖；非新增逐字父句。",
+                "url": "https://zh.wikisource.org/wiki/陳書/卷13"
+              },
+              {
+                "assertion_id": "a-chenshu013-lang-grandfather-yanzu",
+                "work_id": "w-chenshu",
+                "book_id": "b-chenshu-013",
+                "source_id": "s-chenshu-013-ws1511906-rendered-xunlang",
+                "chapter_id": "c-chenshu-013-xunlang-rendered",
+                "paragraph_id": "c-chenshu-013-xunlang-rendered:p001",
+                "quote": "荀朗字深明，潁川潁陰人也。祖延祖，梁潁川太守，父伯道，衛尉卿。",
+                "scope": "完整傳首同一荀朗明父與明祖，僅編輯推得伯道父延祖；非新增逐字父句。",
+                "url": "https://zh.wikisource.org/wiki/陳書/卷13"
+              }
+            ],
+            "paternal_pair_frame": {
+              "chapter_path": "corpus/chenshu/013-xunlang-rendered.json",
+              "assertions_path": "corpus/chenshu/013-xunlang-rendered-assertions.json",
+              "observation_path": "source-evidence/chenshu013-xunlang-rendered/received-p001-observation.json",
+              "observation_sha256": "e72558b5485c78d8adf505d6aea3cbfc559119414bc226f6f10fd9e1f1a661b6",
+              "chapter_id": "c-chenshu-013-xunlang-rendered",
+              "paragraph_id": "c-chenshu-013-xunlang-rendered:p001",
+              "head_mention_id": "c-chenshu-013-xunlang-rendered:p001:m0001",
+              "grandfather_mention_id": "c-chenshu-013-xunlang-rendered:p001:m0002",
+              "father_mention_id": "c-chenshu-013-xunlang-rendered:p001:m0003"
+            }
+          }
+        },
+        {
+          "person_id": "vh4_rsb_xo3_AA",
+          "representative_source_person_id": "vh4_rsb_xo3_AA",
+          "source_person_ids": [
+            "vh4_rsb_xo3_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vh4_rsb_xo3_A",
+          "source_assertion_id": "a-chenshu013-lang-father-bodao"
+        },
+        {
+          "person_id": "vh4_rsb_xo3_AAA",
+          "representative_source_person_id": "vh4_rsb_xo3_AAA",
+          "source_person_ids": [
+            "vh4_rsb_xo3_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vh4_rsb_xo3_AA",
+          "source_assertion_id": "a-chenshu013-fashang-father-lang"
+        }
+      ]
+    },
+    {
+      "id": "family-chen-wenzan-near",
+      "root_person_id": "sko_1z7_fje",
+      "label": "陳氏近系：文讚及子孫",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "rationale": "文讚root本人不改派；三子依現役新唐完整源內三子句，蒨依陳3始興昭烈王長子。談先/道談/道譚同指保來源資格，字母不等於兄弟排行，遠舜/陳寔譜不入此組。",
+      "members": [
+        {
+          "person_id": "sko_1z7_fje",
+          "representative_source_person_id": "sko_1z7_fje",
+          "source_person_ids": [
+            "sko_1z7_fje"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "sko_1z7_fje_A",
+          "representative_source_person_id": "sko_1z7_fje_A",
+          "source_person_ids": [
+            "sko_1z7_fje_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "sko_1z7_fje",
+          "source_assertion_id": "a-chen-near-chen_daotan-father-wenzan"
+        },
+        {
+          "person_id": "sko_1z7_fje_B",
+          "representative_source_person_id": "sko_1z7_fje_B",
+          "source_person_ids": [
+            "sko_1z7_fje_B"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "sko_1z7_fje",
+          "source_assertion_id": "a-chen-near-chen_baxian-father-wenzan"
+        },
+        {
+          "person_id": "sko_1z7_fje_C",
+          "representative_source_person_id": "sko_1z7_fje_C",
+          "source_person_ids": [
+            "sko_1z7_fje_C"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "sko_1z7_fje",
+          "source_assertion_id": "a-chen-near-chen_xiuxian-father-wenzan"
+        },
+        {
+          "person_id": "sko_1z7_fje_AA",
+          "representative_source_person_id": "sko_1z7_fje_AA",
+          "source_person_ids": [
+            "sko_1z7_fje_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "sko_1z7_fje_A",
+          "source_assertion_id": "a-chen003-qian-father-daotan"
+        }
+      ]
+    },
+    {
+      "id": "family-liang-xiao-close-ancestry",
+      "root_person_id": "cav_2xc_9bq",
+      "label": "梁蕭氏近系：道賜、順之以下已選支系",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "rationale": "實際T尚無cav assembly row，故keyed-add同既有道賜root；不是另造衍root。全9現役cav成員逐真father assertion與雙MID核定，保道賜→順之→衍近系及已有所選各支；僅加續，不添全八男，不以prefix代來源。成員列序為拓撲需要，不是兄弟絕對排行。",
+      "members": [
+        {
+          "person_id": "cav_2xc_9bq",
+          "representative_source_person_id": "cav_2xc_9bq",
+          "source_person_ids": [
+            "cav_2xc_9bq"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "cav_2xc_9bq_A",
+          "representative_source_person_id": "cav_2xc_9bq_A",
+          "source_person_ids": [
+            "cav_2xc_9bq_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq",
+          "source_assertion_id": "a-liang-close-family-shunzhi-father-daoci"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AA",
+          "representative_source_person_id": "cav_2xc_9bq_AA",
+          "source_person_ids": [
+            "cav_2xc_9bq_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_A",
+          "source_assertion_id": "a-liang-close-family-liangwu-father-shunzhi"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AB",
+          "representative_source_person_id": "cav_2xc_9bq_AB",
+          "source_person_ids": [
+            "cav_2xc_9bq_AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_A",
+          "source_assertion_id": "a-liang-close-family-hui-father-shunzhi"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AAB",
+          "representative_source_person_id": "cav_2xc_9bq_AAB",
+          "source_person_ids": [
+            "cav_2xc_9bq_AAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AA",
+          "source_assertion_id": "a-liang-close-family-yuan-father-liangwu"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AAA",
+          "representative_source_person_id": "cav_2xc_9bq_AAA",
+          "source_person_ids": [
+            "cav_2xc_9bq_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AA",
+          "source_assertion_id": "a-liang-close-family-liangjian-father-liangwu"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AAC",
+          "representative_source_person_id": "cav_2xc_9bq_AAC",
+          "source_person_ids": [
+            "cav_2xc_9bq_AAC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AA",
+          "source_assertion_id": "a-liang-close-family-ji-father-liangwu"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AAD",
+          "representative_source_person_id": "cav_2xc_9bq_AAD",
+          "source_person_ids": [
+            "cav_2xc_9bq_AAD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AA",
+          "source_assertion_id": "a-liang029-xu-father-liangwu"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AAAA",
+          "representative_source_person_id": "cav_2xc_9bq_AAAA",
+          "source_person_ids": [
+            "cav_2xc_9bq_AAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AAA",
+          "source_assertion_id": "a-zhou041-close-kin-daqifather"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AC",
+          "representative_source_person_id": "cav_2xc_9bq_AC",
+          "source_person_ids": [
+            "cav_2xc_9bq_AC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_A",
+          "source_assertion_id": "a-liang022-hong-father-shunzhi"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AAE",
+          "representative_source_person_id": "cav_2xc_9bq_AAE",
+          "source_person_ids": [
+            "cav_2xc_9bq_AAE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AA",
+          "source_assertion_id": "a-liang008-zhaoming-father-gaozu"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AAEA",
+          "representative_source_person_id": "cav_2xc_9bq_AAEA",
+          "source_person_ids": [
+            "cav_2xc_9bq_AAEA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AAE",
+          "source_assertion_id": "a-nanshi053-zhaoming-huan-father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AAEB",
+          "representative_source_person_id": "cav_2xc_9bq_AAEB",
+          "source_person_ids": [
+            "cav_2xc_9bq_AAEB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AAE",
+          "source_assertion_id": "a-nanshi053-zhaoming-yu-father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AAEC",
+          "representative_source_person_id": "cav_2xc_9bq_AAEC",
+          "source_person_ids": [
+            "cav_2xc_9bq_AAEC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AAE",
+          "source_assertion_id": "a-nanshi053-zhaoming-cha-father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AAED",
+          "representative_source_person_id": "cav_2xc_9bq_AAED",
+          "source_person_ids": [
+            "cav_2xc_9bq_AAED"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AAE",
+          "source_assertion_id": "a-nanshi053-zhaoming-pi-father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AAEE",
+          "representative_source_person_id": "cav_2xc_9bq_AAEE",
+          "source_person_ids": [
+            "cav_2xc_9bq_AAEE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AAE",
+          "source_assertion_id": "a-nanshi053-zhaoming-jian-father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AD",
+          "representative_source_person_id": "cav_2xc_9bq_AD",
+          "source_person_ids": [
+            "cav_2xc_9bq_AD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_A",
+          "source_assertion_id": "a-liang022-taizu-ten-sons-yi-father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AE",
+          "representative_source_person_id": "cav_2xc_9bq_AE",
+          "source_person_ids": [
+            "cav_2xc_9bq_AE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_A",
+          "source_assertion_id": "a-liang022-taizu-ten-sons-chang-father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AF",
+          "representative_source_person_id": "cav_2xc_9bq_AF",
+          "source_person_ids": [
+            "cav_2xc_9bq_AF"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_A",
+          "source_assertion_id": "a-liang022-taizu-ten-sons-wei-father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AG",
+          "representative_source_person_id": "cav_2xc_9bq_AG",
+          "source_person_ids": [
+            "cav_2xc_9bq_AG"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_A",
+          "source_assertion_id": "a-liang022-taizu-ten-sons-fu-father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AH",
+          "representative_source_person_id": "cav_2xc_9bq_AH",
+          "source_person_ids": [
+            "cav_2xc_9bq_AH"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_A",
+          "source_assertion_id": "a-liang022-taizu-ten-sons-rong-father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AI",
+          "representative_source_person_id": "cav_2xc_9bq_AI",
+          "source_person_ids": [
+            "cav_2xc_9bq_AI"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_A",
+          "source_assertion_id": "a-liang022-taizu-ten-sons-xiu-father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AJ",
+          "representative_source_person_id": "cav_2xc_9bq_AJ",
+          "source_person_ids": [
+            "cav_2xc_9bq_AJ"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_A",
+          "source_assertion_id": "a-liang022-taizu-ten-sons-dan-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "cav_2xc_9bq_AJA",
+          "representative_source_person_id": "cav_2xc_9bq_AJA",
+          "source_person_ids": [
+            "cav_2xc_9bq_AJA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "cav_2xc_9bq_AJ",
+          "source_assertion_id": "a-nanshi024-fanchang-father",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-yang-zhong-jian-jun-near",
+      "root_person_id": "yg4_edl_tq2",
+      "label": "楊氏近系：忠、堅、俊",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "rationale": "本次選定近祖忠→堅→俊，隋01與45父句真錨；普六茹賜姓另保原source，不由姓／王號推父。上承禎等本次未配置，非主張忠無父；震八代遠譜不入選定根，不擴全宗室。",
+      "members": [
+        {
+          "person_id": "yg4_edl_tq2",
+          "representative_source_person_id": "yg4_edl_tq2",
+          "source_person_ids": [
+            "yg4_edl_tq2"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "yg4_edl_tq2_A",
+          "representative_source_person_id": "yg4_edl_tq2_A",
+          "source_person_ids": [
+            "yg4_edl_tq2_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "yg4_edl_tq2",
+          "source_assertion_id": "a-sui001-jian-father-zhong"
+        },
+        {
+          "person_id": "yg4_edl_tq2_AA",
+          "representative_source_person_id": "yg4_edl_tq2_AA",
+          "source_person_ids": [
+            "yg4_edl_tq2_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "yg4_edl_tq2_A",
+          "source_assertion_id": "a-sui045-jun-father-jian"
+        }
+      ]
+    },
+    {
+      "id": "family-nanqi045-daosheng-near",
+      "label": "蕭道生近系",
+      "root_person_id": "z5d_9zy_u5h",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "據已讀完整近系來源逐項組裝；生父、宗祀、母親及未知世代分層，ID字母不作原文排行。",
+      "members": [
+        {
+          "person_id": "z5d_9zy_u5h",
+          "representative_source_person_id": "z5d_9zy_u5h",
+          "source_person_ids": [
+            "z5d_9zy_u5h"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "z5d_9zy_u5h_A",
+          "representative_source_person_id": "z5d_9zy_u5h_A",
+          "source_person_ids": [
+            "z5d_9zy_u5h_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h",
+          "source_assertion_id": "a-nanqishu045-xie-support-xiao_feng-father-daosheng"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_B",
+          "representative_source_person_id": "z5d_9zy_u5h_B",
+          "source_person_ids": [
+            "z5d_9zy_u5h_B"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h",
+          "source_assertion_id": "a-nanqishu045-xie-support-qimingdi-father-daosheng"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_C",
+          "representative_source_person_id": "z5d_9zy_u5h_C",
+          "source_person_ids": [
+            "z5d_9zy_u5h_C"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h",
+          "source_assertion_id": "a-nanqishu045-xie-support-xiao_mian-father-daosheng"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_AA",
+          "representative_source_person_id": "z5d_9zy_u5h_AA",
+          "source_person_ids": [
+            "z5d_9zy_u5h_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h_A",
+          "source_assertion_id": "a-nanqishu045-xie-support-yaoguang-father-feng"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_BA",
+          "representative_source_person_id": "z5d_9zy_u5h_BA",
+          "source_person_ids": [
+            "z5d_9zy_u5h_BA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h_B",
+          "source_assertion_id": "a-nanqishu050-xie-support-donghun-father-ming"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_BB",
+          "representative_source_person_id": "z5d_9zy_u5h_BB",
+          "source_person_ids": [
+            "z5d_9zy_u5h_BB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h_B",
+          "source_assertion_id": "a-nanqishu050-xie-support-baoyi-father-ming-numbered"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_BC",
+          "representative_source_person_id": "z5d_9zy_u5h_BC",
+          "source_person_ids": [
+            "z5d_9zy_u5h_BC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h_B",
+          "source_assertion_id": "a-nanqishu050-xie-support-baoxuan-father-ming-numbered"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_BD",
+          "representative_source_person_id": "z5d_9zy_u5h_BD",
+          "source_person_ids": [
+            "z5d_9zy_u5h_BD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h_B",
+          "source_assertion_id": "a-nanqishu050-xie-support-baoyin-father-ming"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_BE",
+          "representative_source_person_id": "z5d_9zy_u5h_BE",
+          "source_person_ids": [
+            "z5d_9zy_u5h_BE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h_B",
+          "source_assertion_id": "a-nanqishu050-xie-support-qihedi-father-ming"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_BF",
+          "representative_source_person_id": "z5d_9zy_u5h_BF",
+          "source_person_ids": [
+            "z5d_9zy_u5h_BF"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h_B",
+          "source_assertion_id": "a-nanqishu050-xie-support-baosong-father-ming"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_BG",
+          "representative_source_person_id": "z5d_9zy_u5h_BG",
+          "source_person_ids": [
+            "z5d_9zy_u5h_BG"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h_B",
+          "source_assertion_id": "a-nanqishu050-xie-support-baoyuan-father-ming"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_BH",
+          "representative_source_person_id": "z5d_9zy_u5h_BH",
+          "source_person_ids": [
+            "z5d_9zy_u5h_BH"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h_B",
+          "source_assertion_id": "a-nanqishu050-xie-support-baoyou-father-ming"
+        },
+        {
+          "person_id": "z5d_9zy_u5h_BI",
+          "representative_source_person_id": "z5d_9zy_u5h_BI",
+          "source_person_ids": [
+            "z5d_9zy_u5h_BI"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "z5d_9zy_u5h_B",
+          "source_assertion_id": "a-nanqishu050-xie-support-baozhen-father-ming"
+        }
+      ]
+    },
+    {
+      "id": "family-nanqi020-liu-huiduan-near",
+      "label": "劉惠端父祖近系",
+      "root_person_id": "q46_fom_xor",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "據已讀完整近系來源逐項組裝；生父、宗祀、母親及未知世代分層，ID字母不作原文排行。",
+      "members": [
+        {
+          "person_id": "q46_fom_xor",
+          "representative_source_person_id": "q46_fom_xor",
+          "source_person_ids": [
+            "q46_fom_xor"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "q46_fom_xor_A",
+          "representative_source_person_id": "q46_fom_xor_A",
+          "source_person_ids": [
+            "q46_fom_xor_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "q46_fom_xor",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "q46_fom_xor_AA",
+            "nearer_ancestor_assertion_id": "a-nanqishu020-xie-support-huiduan-father-jingyou",
+            "farther_ancestor_assertion_id": "a-nanqishu020-xie-support-huiduan-grandfather-daohong",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一完整本傳同一主體明載父與父系祖父；只作編者相鄰祖代接合，不增第七條假literal父子，其他來源祖代異說保留。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-020",
+                "source_id": "s-nanqishu-020-current-rendered-huiduan",
+                "chapter_id": "c-nanqishu-020-huiduan-rendered",
+                "paragraph_id": "c-nanqishu-020-huiduan-rendered:p001",
+                "quote": "明敬劉皇后諱惠端，彭城人，光祿大夫道弘孫也。太祖為高宗納之。建元三年，除西昌侯夫人。永明七年，卒，葬江乘縣張山。延興元年，贈宣城王妃。高宗即位，追尊為敬皇后。贈父通直郎景猷金紫光祿大夫，母王氏平陽鄉君。永泰元年，高宗崩，改葬，祔于興安陵。",
+                "subject_person_mention_id": "c-nanqishu-020-huiduan-rendered:p001:m0002",
+                "object_person_mention_id": "c-nanqishu-020-huiduan-rendered:p001:m0007",
+                "assertion_id": "a-nanqishu020-xie-support-huiduan-father-jingyou",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷20"
+              },
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-020",
+                "source_id": "s-nanqishu-020-current-rendered-huiduan",
+                "chapter_id": "c-nanqishu-020-huiduan-rendered",
+                "paragraph_id": "c-nanqishu-020-huiduan-rendered:p001",
+                "quote": "明敬劉皇后諱惠端，彭城人，光祿大夫道弘孫也。太祖為高宗納之。建元三年，除西昌侯夫人。永明七年，卒，葬江乘縣張山。延興元年，贈宣城王妃。高宗即位，追尊為敬皇后。贈父通直郎景猷金紫光祿大夫，母王氏平陽鄉君。永泰元年，高宗崩，改葬，祔于興安陵。",
+                "subject_person_mention_id": "c-nanqishu-020-huiduan-rendered:p001:m0002",
+                "object_person_mention_id": "c-nanqishu-020-huiduan-rendered:p001:m0003",
+                "assertion_id": "a-nanqishu020-xie-support-huiduan-grandfather-daohong",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷20"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "q46_fom_xor_AA",
+          "representative_source_person_id": "q46_fom_xor_AA",
+          "source_person_ids": [
+            "q46_fom_xor_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "q46_fom_xor_A",
+          "source_assertion_id": "a-nanqishu020-xie-support-huiduan-father-jingyou"
+        },
+        {
+          "person_id": "q46_fom_xor_AB",
+          "representative_source_person_id": "q46_fom_xor_AB",
+          "source_person_ids": [
+            "q46_fom_xor_AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "q46_fom_xor_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "q46_fom_xor_AA",
+            "sibling_assertion_id": "a-nanqishu042-xie-support-liuxuan-elder-sister-huiduan",
+            "sibling_father_assertion_id": "a-nanqishu020-xie-support-huiduan-father-jingyou",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "原文明示具名兄弟及其中一人之父；同父為可撤回的近系編者首選，未獨立明載，不造另一條literal父子。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-042",
+                "source_id": "s-nanqishu-042-current-rendered-jiangshi-near-family",
+                "chapter_id": "c-nanqishu-042-jiangshi-near-family-rendered",
+                "paragraph_id": "c-nanqishu-042-jiangshi-near-family-rendered:p003",
+                "quote": "上寢疾，永泰元年，轉祏爲侍中、中書令，出入殿省。上崩，遺詔轉右僕射，祏弟衞尉祀爲侍中，敬皇后弟劉暄爲衞尉。東昏卽位，參掌選事。高宗雖顧命羣公，而意寄多在祏兄弟。至是更直殿內，動止關諮。永元元年，領太子詹事。劉暄遷散騎常侍，右衞將軍。祏兄弟與暄及始安王遙光、尚書令徐孝嗣、領軍蕭坦之六人，更日帖敕，時呼爲「六貴」。",
+                "subject_person_mention_id": "c-nanqishu-042-jiangshi-near-family-rendered:p003:m0006",
+                "object_person_mention_id": "c-nanqishu-042-jiangshi-near-family-rendered:p003:m0007",
+                "assertion_id": "a-nanqishu042-xie-support-liuxuan-elder-sister-huiduan",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷42"
+              },
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-020",
+                "source_id": "s-nanqishu-020-current-rendered-huiduan",
+                "chapter_id": "c-nanqishu-020-huiduan-rendered",
+                "paragraph_id": "c-nanqishu-020-huiduan-rendered:p001",
+                "quote": "明敬劉皇后諱惠端，彭城人，光祿大夫道弘孫也。太祖為高宗納之。建元三年，除西昌侯夫人。永明七年，卒，葬江乘縣張山。延興元年，贈宣城王妃。高宗即位，追尊為敬皇后。贈父通直郎景猷金紫光祿大夫，母王氏平陽鄉君。永泰元年，高宗崩，改葬，祔于興安陵。",
+                "subject_person_mention_id": "c-nanqishu-020-huiduan-rendered:p001:m0002",
+                "object_person_mention_id": "c-nanqishu-020-huiduan-rendered:p001:m0007",
+                "assertion_id": "a-nanqishu020-xie-support-huiduan-father-jingyou",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷20"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "family-nanqi042-jiangshi-near",
+      "label": "江祏父祖近系",
+      "root_person_id": "qfs_t8x_ez4",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "據已讀完整近系來源逐項組裝；生父、宗祀、母親及未知世代分層，ID字母不作原文排行。",
+      "members": [
+        {
+          "person_id": "qfs_t8x_ez4",
+          "representative_source_person_id": "qfs_t8x_ez4",
+          "source_person_ids": [
+            "qfs_t8x_ez4"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "qfs_t8x_ez4_A",
+          "representative_source_person_id": "qfs_t8x_ez4_A",
+          "source_person_ids": [
+            "qfs_t8x_ez4_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "qfs_t8x_ez4",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "qfs_t8x_ez4_AA",
+            "nearer_ancestor_assertion_id": "a-nanqishu042-xie-support-jiangshi-father-delin",
+            "farther_ancestor_assertion_id": "a-nanqishu042-xie-support-jiangshi-grandfather-zun",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一完整本傳同一主體明載父與父系祖父；只作編者相鄰祖代接合，不增第七條假literal父子，其他來源祖代異說保留。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-042",
+                "source_id": "s-nanqishu-042-current-rendered-jiangshi-near-family",
+                "chapter_id": "c-nanqishu-042-jiangshi-near-family-rendered",
+                "paragraph_id": "c-nanqishu-042-jiangshi-near-family-rendered:p001",
+                "quote": "江祏字弘業，濟陽考城人也。祖遵，寧朔參軍。父德隣，司徒右長史。",
+                "subject_person_mention_id": "c-nanqishu-042-jiangshi-near-family-rendered:p001:m0001",
+                "object_person_mention_id": "c-nanqishu-042-jiangshi-near-family-rendered:p001:m0004",
+                "assertion_id": "a-nanqishu042-xie-support-jiangshi-father-delin",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷42"
+              },
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-042",
+                "source_id": "s-nanqishu-042-current-rendered-jiangshi-near-family",
+                "chapter_id": "c-nanqishu-042-jiangshi-near-family-rendered",
+                "paragraph_id": "c-nanqishu-042-jiangshi-near-family-rendered:p001",
+                "quote": "江祏字弘業，濟陽考城人也。祖遵，寧朔參軍。父德隣，司徒右長史。",
+                "subject_person_mention_id": "c-nanqishu-042-jiangshi-near-family-rendered:p001:m0001",
+                "object_person_mention_id": "c-nanqishu-042-jiangshi-near-family-rendered:p001:m0003",
+                "assertion_id": "a-nanqishu042-xie-support-jiangshi-grandfather-zun",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷42"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "qfs_t8x_ez4_AA",
+          "representative_source_person_id": "qfs_t8x_ez4_AA",
+          "source_person_ids": [
+            "qfs_t8x_ez4_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "qfs_t8x_ez4_A",
+          "source_assertion_id": "a-nanqishu042-xie-support-jiangshi-father-delin"
+        },
+        {
+          "person_id": "qfs_t8x_ez4_AB",
+          "representative_source_person_id": "qfs_t8x_ez4_AB",
+          "source_person_ids": [
+            "qfs_t8x_ez4_AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "qfs_t8x_ez4_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "qfs_t8x_ez4_AA",
+            "sibling_assertion_id": "a-nanqishu042-xie-support-jiangsi-elder-brother-jiangshi",
+            "sibling_father_assertion_id": "a-nanqishu042-xie-support-jiangshi-father-delin",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "原文明示具名兄弟及其中一人之父；同父為可撤回的近系編者首選，未獨立明載，不造另一條literal父子。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-042",
+                "source_id": "s-nanqishu-042-current-rendered-jiangshi-near-family",
+                "chapter_id": "c-nanqishu-042-jiangshi-near-family-rendered",
+                "paragraph_id": "c-nanqishu-042-jiangshi-near-family-rendered:p003",
+                "quote": "上寢疾，永泰元年，轉祏爲侍中、中書令，出入殿省。上崩，遺詔轉右僕射，祏弟衞尉祀爲侍中，敬皇后弟劉暄爲衞尉。東昏卽位，參掌選事。高宗雖顧命羣公，而意寄多在祏兄弟。至是更直殿內，動止關諮。永元元年，領太子詹事。劉暄遷散騎常侍，右衞將軍。祏兄弟與暄及始安王遙光、尚書令徐孝嗣、領軍蕭坦之六人，更日帖敕，時呼爲「六貴」。",
+                "subject_person_mention_id": "c-nanqishu-042-jiangshi-near-family-rendered:p003:m0005",
+                "object_person_mention_id": "c-nanqishu-042-jiangshi-near-family-rendered:p003:m0004",
+                "assertion_id": "a-nanqishu042-xie-support-jiangsi-elder-brother-jiangshi",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷42"
+              },
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-042",
+                "source_id": "s-nanqishu-042-current-rendered-jiangshi-near-family",
+                "chapter_id": "c-nanqishu-042-jiangshi-near-family-rendered",
+                "paragraph_id": "c-nanqishu-042-jiangshi-near-family-rendered:p001",
+                "quote": "江祏字弘業，濟陽考城人也。祖遵，寧朔參軍。父德隣，司徒右長史。",
+                "subject_person_mention_id": "c-nanqishu-042-jiangshi-near-family-rendered:p001:m0001",
+                "object_person_mention_id": "c-nanqishu-042-jiangshi-near-family-rendered:p001:m0004",
+                "assertion_id": "a-nanqishu042-xie-support-jiangshi-father-delin",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷42"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "qfs_t8x_ez4_B",
+          "representative_source_person_id": "qfs_t8x_ez4_B",
+          "source_person_ids": [
+            "qfs_t8x_ez4_B"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "qfs_t8x_ez4",
+          "source_assertion_id": "a-nanqishu042-xie-support-jiangqueen-father-zun"
+        }
+      ]
+    },
+    {
+      "id": "family-nanqi042-xiaotanzhi-near",
+      "label": "蕭坦之父祖近系",
+      "root_person_id": "ur9_mm4_0ny",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "據已讀完整近系來源逐項組裝；生父、宗祀、母親及未知世代分層，ID字母不作原文排行。",
+      "members": [
+        {
+          "person_id": "ur9_mm4_0ny",
+          "representative_source_person_id": "ur9_mm4_0ny",
+          "source_person_ids": [
+            "ur9_mm4_0ny"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "ur9_mm4_0ny_A",
+          "representative_source_person_id": "ur9_mm4_0ny_A",
+          "source_person_ids": [
+            "ur9_mm4_0ny_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "ur9_mm4_0ny",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "ur9_mm4_0ny_AA",
+            "nearer_ancestor_assertion_id": "a-nanqishu042-xie-support-tanzhi-father-xinzu",
+            "farther_ancestor_assertion_id": "a-nanqishu042-xie-support-tanzhi-grandfather-daoji",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一完整本傳同一主體明載父與父系祖父；只作編者相鄰祖代接合，不增第七條假literal父子，其他來源祖代異說保留。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-042",
+                "source_id": "s-nanqishu-042-current-rendered-xiaotanzhi-opening",
+                "chapter_id": "c-nanqishu-042-xiaotanzhi-opening-rendered",
+                "paragraph_id": "c-nanqishu-042-xiaotanzhi-opening-rendered:p001",
+                "quote": "蕭坦之，南蘭陵蘭陵人也。祖道濟，太中大夫。父欣祖，有勳於世祖，至武進令。",
+                "subject_person_mention_id": "c-nanqishu-042-xiaotanzhi-opening-rendered:p001:m0001",
+                "object_person_mention_id": "c-nanqishu-042-xiaotanzhi-opening-rendered:p001:m0003",
+                "assertion_id": "a-nanqishu042-xie-support-tanzhi-father-xinzu",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷42"
+              },
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-042",
+                "source_id": "s-nanqishu-042-current-rendered-xiaotanzhi-opening",
+                "chapter_id": "c-nanqishu-042-xiaotanzhi-opening-rendered",
+                "paragraph_id": "c-nanqishu-042-xiaotanzhi-opening-rendered:p001",
+                "quote": "蕭坦之，南蘭陵蘭陵人也。祖道濟，太中大夫。父欣祖，有勳於世祖，至武進令。",
+                "subject_person_mention_id": "c-nanqishu-042-xiaotanzhi-opening-rendered:p001:m0001",
+                "object_person_mention_id": "c-nanqishu-042-xiaotanzhi-opening-rendered:p001:m0002",
+                "assertion_id": "a-nanqishu042-xie-support-tanzhi-grandfather-daoji",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷42"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "ur9_mm4_0ny_AA",
+          "representative_source_person_id": "ur9_mm4_0ny_AA",
+          "source_person_ids": [
+            "ur9_mm4_0ny_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "ur9_mm4_0ny_A",
+          "source_assertion_id": "a-nanqishu042-xie-support-tanzhi-father-xinzu"
+        }
+      ]
+    },
+    {
+      "id": "family-nanqi042-xiaochen-near",
+      "label": "蕭諶父祖近系",
+      "root_person_id": "5c7_6at_22b",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "據已讀完整近系來源逐項組裝；生父、宗祀、母親及未知世代分層，ID字母不作原文排行。",
+      "members": [
+        {
+          "person_id": "5c7_6at_22b",
+          "representative_source_person_id": "5c7_6at_22b",
+          "source_person_ids": [
+            "5c7_6at_22b"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "5c7_6at_22b_A",
+          "representative_source_person_id": "5c7_6at_22b_A",
+          "source_person_ids": [
+            "5c7_6at_22b_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "5c7_6at_22b",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "5c7_6at_22b_AA",
+            "nearer_ancestor_assertion_id": "a-nanqishu042-xie-support-chen-father-xianbo",
+            "farther_ancestor_assertion_id": "a-nanqishu042-xie-support-chen-grandfather-daoqing",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一完整本傳同一主體明載父與父系祖父；只作編者相鄰祖代接合，不增第七條假literal父子，其他來源祖代異說保留。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-042",
+                "source_id": "s-nanqishu-042-current-rendered-xiaochen-near-family",
+                "chapter_id": "c-nanqishu-042-xiaochen-near-family-rendered",
+                "paragraph_id": "c-nanqishu-042-xiaochen-near-family-rendered:p001",
+                "quote": "蕭諶字彥孚，南蘭陵蘭陵人也。祖道清，員外郎。父仙伯，桂陽國參軍。",
+                "subject_person_mention_id": "c-nanqishu-042-xiaochen-near-family-rendered:p001:m0001",
+                "object_person_mention_id": "c-nanqishu-042-xiaochen-near-family-rendered:p001:m0004",
+                "assertion_id": "a-nanqishu042-xie-support-chen-father-xianbo",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷42"
+              },
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-042",
+                "source_id": "s-nanqishu-042-current-rendered-xiaochen-near-family",
+                "chapter_id": "c-nanqishu-042-xiaochen-near-family-rendered",
+                "paragraph_id": "c-nanqishu-042-xiaochen-near-family-rendered:p001",
+                "quote": "蕭諶字彥孚，南蘭陵蘭陵人也。祖道清，員外郎。父仙伯，桂陽國參軍。",
+                "subject_person_mention_id": "c-nanqishu-042-xiaochen-near-family-rendered:p001:m0001",
+                "object_person_mention_id": "c-nanqishu-042-xiaochen-near-family-rendered:p001:m0003",
+                "assertion_id": "a-nanqishu042-xie-support-chen-grandfather-daoqing",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷42"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "5c7_6at_22b_AA",
+          "representative_source_person_id": "5c7_6at_22b_AA",
+          "source_person_ids": [
+            "5c7_6at_22b_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "5c7_6at_22b_A",
+          "source_assertion_id": "a-nanqishu042-xie-support-chen-father-xianbo"
+        },
+        {
+          "person_id": "5c7_6at_22b_AB",
+          "representative_source_person_id": "5c7_6at_22b_AB",
+          "source_person_ids": [
+            "5c7_6at_22b_AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "5c7_6at_22b_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "5c7_6at_22b_AA",
+            "sibling_assertion_id": "a-nanqishu042-xie-support-lei-elder-brother-chen",
+            "sibling_father_assertion_id": "a-nanqishu042-xie-support-chen-father-xianbo",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "原文明示具名兄弟及其中一人之父；同父為可撤回的近系編者首選，未獨立明載，不造另一條literal父子。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-042",
+                "source_id": "s-nanqishu-042-current-rendered-xiaochen-near-family",
+                "chapter_id": "c-nanqishu-042-xiaochen-near-family-rendered",
+                "paragraph_id": "c-nanqishu-042-xiaochen-near-family-rendered:p002",
+                "quote": "諶弟誄，與諶同豫廢立，爲寧朔將軍、東莞太守，轉西中郎司馬。建武初，封西昌侯，千戶。轉太子左率。領軍解司州圍還，同伏誅。諶伯父仙民，官至太中大夫，卒。",
+                "subject_person_mention_id": "c-nanqishu-042-xiaochen-near-family-rendered:p002:m0002",
+                "object_person_mention_id": "c-nanqishu-042-xiaochen-near-family-rendered:p002:m0001",
+                "assertion_id": "a-nanqishu042-xie-support-lei-elder-brother-chen",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷42"
+              },
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-042",
+                "source_id": "s-nanqishu-042-current-rendered-xiaochen-near-family",
+                "chapter_id": "c-nanqishu-042-xiaochen-near-family-rendered",
+                "paragraph_id": "c-nanqishu-042-xiaochen-near-family-rendered:p001",
+                "quote": "蕭諶字彥孚，南蘭陵蘭陵人也。祖道清，員外郎。父仙伯，桂陽國參軍。",
+                "subject_person_mention_id": "c-nanqishu-042-xiaochen-near-family-rendered:p001:m0001",
+                "object_person_mention_id": "c-nanqishu-042-xiaochen-near-family-rendered:p001:m0004",
+                "assertion_id": "a-nanqishu042-xie-support-chen-father-xianbo",
+                "scope": "完整原段明載關係；本父系接合屬可撤回編者判讀，非新增原文明載父子。",
+                "url": "https://zh.wikisource.org/wiki/南齊書/卷42"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "family-nanqi047-wangjingze-daughter",
+      "label": "王敬則及謝朓妻",
+      "root_person_id": "8to_rk3_dcc",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "據已讀完整近系來源逐項組裝；生父、宗祀、母親及未知世代分層，ID字母不作原文排行。",
+      "members": [
+        {
+          "person_id": "8to_rk3_dcc",
+          "representative_source_person_id": "8to_rk3_dcc",
+          "source_person_ids": [
+            "8to_rk3_dcc"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "8to_rk3_dcc_A",
+          "representative_source_person_id": "8to_rk3_dcc_A",
+          "source_person_ids": [
+            "8to_rk3_dcc_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "8to_rk3_dcc",
+          "source_assertion_id": "a-nanqi047-xietiao-wife-father"
+        }
+      ]
+    },
+    {
+      "id": "family-liu-mian-hui-ran",
+      "root_person_id": "va5_2sy_7kk",
+      "label": "劉氏：勔、繪、冉近系",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "梁033孝綽本名冉、祖勔父繪；繪接勔只據同段父祖作編者推接。",
+      "members": [
+        {
+          "person_id": "va5_2sy_7kk",
+          "representative_source_person_id": "va5_2sy_7kk",
+          "source_person_ids": [
+            "va5_2sy_7kk"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "va5_2sy_7kk_A",
+          "representative_source_person_id": "va5_2sy_7kk_A",
+          "source_person_ids": [
+            "va5_2sy_7kk_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "va5_2sy_7kk",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同傳主明父繪、祖勔，推繪為勔子；不造獨立literal父。",
+            "chain_subject_person_id": "va5_2sy_7kk_AA",
+            "nearer_ancestor_assertion_id": "a-liangshu-033-liuxiaochuo-opening-rendered-liu_xiaochuo-father-liu_hui",
+            "farther_ancestor_assertion_id": "a-liangshu-033-liuxiaochuo-opening-rendered-liu_xiaochuo-grandfather-liu_mian",
+            "references": [
+              {
+                "assertion_id": "a-liangshu-033-liuxiaochuo-opening-rendered-liu_xiaochuo-father-liu_hui",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-033",
+                "chapter_id": "c-liangshu-033-liuxiaochuo-opening-rendered",
+                "source_id": "s-liangshu-033-liuxiaochuo-opening-current-rendered",
+                "paragraph_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001",
+                "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+                "url": "https://zh.wikisource.org/zh-hant/梁書/卷33",
+                "scope": "同一完整原段的較近祖先明文"
+              },
+              {
+                "assertion_id": "a-liangshu-033-liuxiaochuo-opening-rendered-liu_xiaochuo-grandfather-liu_mian",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-033",
+                "chapter_id": "c-liangshu-033-liuxiaochuo-opening-rendered",
+                "source_id": "s-liangshu-033-liuxiaochuo-opening-current-rendered",
+                "paragraph_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001",
+                "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+                "url": "https://zh.wikisource.org/zh-hant/梁書/卷33",
+                "scope": "同一完整原段的下一代祖先明文"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "va5_2sy_7kk_AA",
+          "representative_source_person_id": "va5_2sy_7kk_AA",
+          "source_person_ids": [
+            "va5_2sy_7kk_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "va5_2sy_7kk_A",
+          "source_assertion_id": "a-liangshu-033-liuxiaochuo-opening-rendered-liu_xiaochuo-father-liu_hui",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-lu-wan-zhongyuan-zizhen",
+      "root_person_id": "9jp_jmf_6jv",
+      "label": "陸氏：玩、仲元、子真至倕近系",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "宋053曾孫距三與弟同祖推接；宋064陸子真有資格同指而不直接證親屬。梁027父慧曉祖子真補近系，六世孫不改原詞，可能含玩本世計六世，不硬加一代。",
+      "members": [
+        {
+          "person_id": "9jp_jmf_6jv",
+          "representative_source_person_id": "9jp_jmf_6jv",
+          "source_person_ids": [
+            "9jp_jmf_6jv"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "9jp_jmf_6jv_**A",
+          "representative_source_person_id": "9jp_jmf_6jv_**A",
+          "source_person_ids": [
+            "9jp_jmf_6jv_**A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": "a-song053-zhangmaodu-009",
+          "ancestor_person_id": "9jp_jmf_6jv",
+          "generation_distance": 3,
+          "intermediate_person_ids": [
+            null,
+            null
+          ],
+          "connection": "great_grandfather",
+          "interpretation_note": "宋053明玩曾孫，缺兩代均未知，不造父名。"
+        },
+        {
+          "person_id": "9jp_jmf_6jv_**B",
+          "representative_source_person_id": "9jp_jmf_6jv_**B",
+          "source_person_ids": [
+            "9jp_jmf_6jv_**B"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "ancestor_person_id": "9jp_jmf_6jv",
+          "generation_distance": 3,
+          "intermediate_person_ids": [
+            null,
+            null
+          ],
+          "connection": "great_grandfather",
+          "interpretation_note": "子眞為仲元弟；同祖是有資格編者推接，兩未知代仍空，不把梁027六世孫直接作六edge。",
+          "ancestor_connection": {
+            "type": "shared_ancestor_through_sibling",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "sibling_person_id": "9jp_jmf_6jv_**A",
+            "sibling_assertion_id": "a-song053-zhangmaodu-010",
+            "sibling_ancestor_assertion_id": "a-song053-zhangmaodu-009",
+            "rationale": "同段仲元玩曾孫、弟子眞；採同父祖的編者首選，未獨立證實同父、不增子真曾祖literal斷言。梁027六世孫保inclusive計世資格。",
+            "references": [
+              {
+                "assertion_id": "a-song053-zhangmaodu-010",
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-053",
+                "chapter_id": "c-songshu-053-zhangmaodu",
+                "source_id": "s-songshu-053-zhangmaodu",
+                "paragraph_id": "c-songshu-053-zhangmaodu:p001",
+                "quote": "張茂度呉郡呉人張良後也名與髙帝諱同故稱字良七世孫為長沙太守始遷於呉髙祖嘉曾祖澄晉光祿大夫祖彭祖廣州刺史父敞侍中尚書呉國内史茂度郡上計吏主簿功曹州命從事史並不就除琅邪王衛軍參軍員外散騎侍郎尚書度支郎父憂不拜服闋為何無忌鎭南參軍頃之出補晉安太守盧循為宼覆没江州茂度及建安太守孫虯之並受其符書供其調役循走俱坐免官復以為始興相郡經賊宼廨宇焚燒民物凋散百不存一茂度剏立城寺弔死撫傷收集離散民戸漸復在郡一周徵為太尉參軍尋轉主簿揚州治中從事史髙祖西伐劉毅茂度居守留州事悉委之軍還遷中書侍郎出為司馬休之平西司馬河南太守高祖將討休之茂度聞知乘輕船逃下逢高祖於中路以為錄事參軍太守如故江陵平驃騎將軍道憐為荆州茂度仍為咨議參軍太守如故還為揚州别駕從事史高祖北伐關洛復任留州事出為使持節督廣交二州諸軍事建武將軍平越中郎將廣州刺史綏靜百越嶺外安之以疾求還復為道憐司馬丁繼母憂服闋除廷尉轉尚書吏部郎太祖元嘉元年出為使持節督益寕二州梁州之巴西梓潼宕渠南漢中秦州之懷寧安固六郡諸軍事冠軍將軍益州刺史三年太祖討荆州刺史謝晦詔益州遣軍襲江陵晦已平而軍始至白帝茂度與晦素善議者疑其出軍遲留時茂度弟劭為湘州刺史起兵應大駕上以劭誠節故不加罪被代還京師七年起為廷尉加奉車都尉領本州中正入為五兵尚書徙太常以脚疾出為義興太守加秩中二千石上從容謂茂度曰勿復以西蜀介懷對曰臣若不遭陛下之明墓木拱矣頃之解職還家徵為都官尚書加散騎常侍固辭以疾就拜光祿大夫加金章紫綬茂度内足於財自絶人事經始本縣之華山以為居止優游野澤如此者七年十八年除會稽太守素有吏能在郡縣職事甚理明年卒官時年六十七諡曰恭子茂度同郡陸仲元者晉太尉玩曾孫也以事用見知歴清資吏部郎右衛將軍侍中呉郡太守自玩洎仲元四世為侍中時人方之金張二族弟子眞元嘉十年為海陵太守中書舍人狄當為太祖所信委家在海陵死還葬橋路毁壞不通喪車縣求發民脩治子眞不許司徒彭城王義康聞而善之召為國子博士司徒左西掾州治中臨海東陽太守茂度子演太子中舍人演弟鏡新安太守皆有盛名並早卒",
+                "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt",
+                "scope": "完整原段明弟子眞"
+              },
+              {
+                "assertion_id": "a-song053-zhangmaodu-009",
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-053",
+                "chapter_id": "c-songshu-053-zhangmaodu",
+                "source_id": "s-songshu-053-zhangmaodu",
+                "paragraph_id": "c-songshu-053-zhangmaodu:p001",
+                "quote": "張茂度呉郡呉人張良後也名與髙帝諱同故稱字良七世孫為長沙太守始遷於呉髙祖嘉曾祖澄晉光祿大夫祖彭祖廣州刺史父敞侍中尚書呉國内史茂度郡上計吏主簿功曹州命從事史並不就除琅邪王衛軍參軍員外散騎侍郎尚書度支郎父憂不拜服闋為何無忌鎭南參軍頃之出補晉安太守盧循為宼覆没江州茂度及建安太守孫虯之並受其符書供其調役循走俱坐免官復以為始興相郡經賊宼廨宇焚燒民物凋散百不存一茂度剏立城寺弔死撫傷收集離散民戸漸復在郡一周徵為太尉參軍尋轉主簿揚州治中從事史髙祖西伐劉毅茂度居守留州事悉委之軍還遷中書侍郎出為司馬休之平西司馬河南太守高祖將討休之茂度聞知乘輕船逃下逢高祖於中路以為錄事參軍太守如故江陵平驃騎將軍道憐為荆州茂度仍為咨議參軍太守如故還為揚州别駕從事史高祖北伐關洛復任留州事出為使持節督廣交二州諸軍事建武將軍平越中郎將廣州刺史綏靜百越嶺外安之以疾求還復為道憐司馬丁繼母憂服闋除廷尉轉尚書吏部郎太祖元嘉元年出為使持節督益寕二州梁州之巴西梓潼宕渠南漢中秦州之懷寧安固六郡諸軍事冠軍將軍益州刺史三年太祖討荆州刺史謝晦詔益州遣軍襲江陵晦已平而軍始至白帝茂度與晦素善議者疑其出軍遲留時茂度弟劭為湘州刺史起兵應大駕上以劭誠節故不加罪被代還京師七年起為廷尉加奉車都尉領本州中正入為五兵尚書徙太常以脚疾出為義興太守加秩中二千石上從容謂茂度曰勿復以西蜀介懷對曰臣若不遭陛下之明墓木拱矣頃之解職還家徵為都官尚書加散騎常侍固辭以疾就拜光祿大夫加金章紫綬茂度内足於財自絶人事經始本縣之華山以為居止優游野澤如此者七年十八年除會稽太守素有吏能在郡縣職事甚理明年卒官時年六十七諡曰恭子茂度同郡陸仲元者晉太尉玩曾孫也以事用見知歴清資吏部郎右衛將軍侍中呉郡太守自玩洎仲元四世為侍中時人方之金張二族弟子眞元嘉十年為海陵太守中書舍人狄當為太祖所信委家在海陵死還葬橋路毁壞不通喪車縣求發民脩治子眞不許司徒彭城王義康聞而善之召為國子博士司徒左西掾州治中臨海東陽太守茂度子演太子中舍人演弟鏡新安太守皆有盛名並早卒",
+                "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt",
+                "scope": "同段仲元明玩曾孫"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "9jp_jmf_6jv_**BA",
+          "representative_source_person_id": "9jp_jmf_6jv_**BA",
+          "source_person_ids": [
+            "9jp_jmf_6jv_**BA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "9jp_jmf_6jv_**B",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "梁027倕同段明父慧曉、祖子真，慧曉接子真只為編者推接。",
+            "chain_subject_person_id": "9jp_jmf_6jv_**BAA",
+            "nearer_ancestor_assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-lu_chui-father-lu_huixiao",
+            "farther_ancestor_assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-lu_chui-grandfather-lu_zizhen",
+            "references": [
+              {
+                "assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-lu_chui-father-lu_huixiao",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-027",
+                "chapter_id": "c-liangshu-027-luchui-daoqia-openings-rendered",
+                "source_id": "s-liangshu-027-luchui-daoqia-openings-current-rendered",
+                "paragraph_id": "c-liangshu-027-luchui-daoqia-openings-rendered:p001",
+                "quote": "陸倕字佐公，吳郡吳人也。晉太尉玩六世孫。祖子真，宋東陽太守。父慧曉，齊太常卿。",
+                "url": "https://zh.wikisource.org/zh-hant/梁書/卷27",
+                "scope": "同一完整原段的較近祖先明文"
+              },
+              {
+                "assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-lu_chui-grandfather-lu_zizhen",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-027",
+                "chapter_id": "c-liangshu-027-luchui-daoqia-openings-rendered",
+                "source_id": "s-liangshu-027-luchui-daoqia-openings-current-rendered",
+                "paragraph_id": "c-liangshu-027-luchui-daoqia-openings-rendered:p001",
+                "quote": "陸倕字佐公，吳郡吳人也。晉太尉玩六世孫。祖子真，宋東陽太守。父慧曉，齊太常卿。",
+                "url": "https://zh.wikisource.org/zh-hant/梁書/卷27",
+                "scope": "同一完整原段的下一代祖先明文"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "9jp_jmf_6jv_**BAA",
+          "representative_source_person_id": "9jp_jmf_6jv_**BAA",
+          "source_person_ids": [
+            "9jp_jmf_6jv_**BAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "9jp_jmf_6jv_**BA",
+          "source_assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-lu_chui-father-lu_huixiao",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-dao-yanzhi-zhongdu-qia",
+      "root_person_id": "6bo_qfq_pl9",
+      "label": "到氏：彥之、仲度至洽近系",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "梁027完整傳首曾祖彥之、祖仲度、父坦三代；兩父祖間連接為編者推導，不補母與全體排行。",
+      "members": [
+        {
+          "person_id": "6bo_qfq_pl9",
+          "representative_source_person_id": "6bo_qfq_pl9",
+          "source_person_ids": [
+            "6bo_qfq_pl9"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "6bo_qfq_pl9_A",
+          "representative_source_person_id": "6bo_qfq_pl9_A",
+          "source_person_ids": [
+            "6bo_qfq_pl9_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "6bo_qfq_pl9",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同段洽祖仲度、曾祖彥之；距二與距三相連的編者推接。",
+            "chain_subject_person_id": "6bo_qfq_pl9_AAA",
+            "nearer_ancestor_assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-dao_qia-grandfather-dao_zhongdu",
+            "farther_ancestor_assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-dao_qia-great_grandfather-dao_yanzhi",
+            "references": [
+              {
+                "assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-dao_qia-grandfather-dao_zhongdu",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-027",
+                "chapter_id": "c-liangshu-027-luchui-daoqia-openings-rendered",
+                "source_id": "s-liangshu-027-luchui-daoqia-openings-current-rendered",
+                "paragraph_id": "c-liangshu-027-luchui-daoqia-openings-rendered:p002",
+                "quote": "到洽字茂㳂，彭城武原人也。宋驃騎將軍彥之曾孫。祖仲度，驃騎江夏王從事中郎。父坦，齊中書郎。",
+                "url": "https://zh.wikisource.org/zh-hant/梁書/卷27",
+                "scope": "同一完整原段的較近祖先明文"
+              },
+              {
+                "assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-dao_qia-great_grandfather-dao_yanzhi",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-027",
+                "chapter_id": "c-liangshu-027-luchui-daoqia-openings-rendered",
+                "source_id": "s-liangshu-027-luchui-daoqia-openings-current-rendered",
+                "paragraph_id": "c-liangshu-027-luchui-daoqia-openings-rendered:p002",
+                "quote": "到洽字茂㳂，彭城武原人也。宋驃騎將軍彥之曾孫。祖仲度，驃騎江夏王從事中郎。父坦，齊中書郎。",
+                "url": "https://zh.wikisource.org/zh-hant/梁書/卷27",
+                "scope": "同一完整原段的下一代祖先明文"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "6bo_qfq_pl9_AA",
+          "representative_source_person_id": "6bo_qfq_pl9_AA",
+          "source_person_ids": [
+            "6bo_qfq_pl9_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "6bo_qfq_pl9_A",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同段洽父坦、祖仲度；編者推接。",
+            "chain_subject_person_id": "6bo_qfq_pl9_AAA",
+            "nearer_ancestor_assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-dao_qia-father-dao_tan",
+            "farther_ancestor_assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-dao_qia-grandfather-dao_zhongdu",
+            "references": [
+              {
+                "assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-dao_qia-father-dao_tan",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-027",
+                "chapter_id": "c-liangshu-027-luchui-daoqia-openings-rendered",
+                "source_id": "s-liangshu-027-luchui-daoqia-openings-current-rendered",
+                "paragraph_id": "c-liangshu-027-luchui-daoqia-openings-rendered:p002",
+                "quote": "到洽字茂㳂，彭城武原人也。宋驃騎將軍彥之曾孫。祖仲度，驃騎江夏王從事中郎。父坦，齊中書郎。",
+                "url": "https://zh.wikisource.org/zh-hant/梁書/卷27",
+                "scope": "同一完整原段的較近祖先明文"
+              },
+              {
+                "assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-dao_qia-grandfather-dao_zhongdu",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-027",
+                "chapter_id": "c-liangshu-027-luchui-daoqia-openings-rendered",
+                "source_id": "s-liangshu-027-luchui-daoqia-openings-current-rendered",
+                "paragraph_id": "c-liangshu-027-luchui-daoqia-openings-rendered:p002",
+                "quote": "到洽字茂㳂，彭城武原人也。宋驃騎將軍彥之曾孫。祖仲度，驃騎江夏王從事中郎。父坦，齊中書郎。",
+                "url": "https://zh.wikisource.org/zh-hant/梁書/卷27",
+                "scope": "同一完整原段的下一代祖先明文"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "6bo_qfq_pl9_AAA",
+          "representative_source_person_id": "6bo_qfq_pl9_AAA",
+          "source_person_ids": [
+            "6bo_qfq_pl9_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "6bo_qfq_pl9_AA",
+          "source_assertion_id": "a-liangshu-027-luchui-daoqia-openings-rendered-dao_qia-father-dao_tan",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-he-youzhi-changxu-jingrong",
+      "root_person_id": "rw6_c00_bk5",
+      "label": "何氏：攸之、昌珝至敬容近系",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "梁037敬容完整傳首祖攸之父昌珝；不因同姓或另段何氏泛稱連何充/何尚之遠祖。",
+      "members": [
+        {
+          "person_id": "rw6_c00_bk5",
+          "representative_source_person_id": "rw6_c00_bk5",
+          "source_person_ids": [
+            "rw6_c00_bk5"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "rw6_c00_bk5_A",
+          "representative_source_person_id": "rw6_c00_bk5_A",
+          "source_person_ids": [
+            "rw6_c00_bk5_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "rw6_c00_bk5",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一完整傳首明父昌珝、祖攸之，父祖之間為編者推接。",
+            "chain_subject_person_id": "rw6_c00_bk5_AA",
+            "nearer_ancestor_assertion_id": "a-liangshu-037-xieju-hejingrong-kin-rendered-he_jingrong-father-he_changxu",
+            "farther_ancestor_assertion_id": "a-liangshu-037-xieju-hejingrong-kin-rendered-he_jingrong-grandfather-he_youzhii",
+            "references": [
+              {
+                "assertion_id": "a-liangshu-037-xieju-hejingrong-kin-rendered-he_jingrong-father-he_changxu",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-037",
+                "chapter_id": "c-liangshu-037-xieju-hejingrong-kin-rendered",
+                "source_id": "s-liangshu-037-xieju-hejingrong-kin-current-rendered",
+                "paragraph_id": "c-liangshu-037-xieju-hejingrong-kin-rendered:p003",
+                "quote": "何敬容，字國禮，廬江人也。祖攸之，宋太常卿；父昌珝，齊吏部尚書；並有名前代。",
+                "url": "https://zh.wikisource.org/zh-hant/梁書/卷37",
+                "scope": "同一完整原段的較近祖先明文"
+              },
+              {
+                "assertion_id": "a-liangshu-037-xieju-hejingrong-kin-rendered-he_jingrong-grandfather-he_youzhii",
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-037",
+                "chapter_id": "c-liangshu-037-xieju-hejingrong-kin-rendered",
+                "source_id": "s-liangshu-037-xieju-hejingrong-kin-current-rendered",
+                "paragraph_id": "c-liangshu-037-xieju-hejingrong-kin-rendered:p003",
+                "quote": "何敬容，字國禮，廬江人也。祖攸之，宋太常卿；父昌珝，齊吏部尚書；並有名前代。",
+                "url": "https://zh.wikisource.org/zh-hant/梁書/卷37",
+                "scope": "同一完整原段的下一代祖先明文"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "rw6_c00_bk5_AA",
+          "representative_source_person_id": "rw6_c00_bk5_AA",
+          "source_person_ids": [
+            "rw6_c00_bk5_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "rw6_c00_bk5_A",
+          "source_assertion_id": "a-liangshu-037-xieju-hejingrong-kin-rendered-he_jingrong-father-he_changxu",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-nanqi-wudi-ziqing",
+      "root_person_id": "kix_r92_2ed",
+      "label": "齊武帝與廬陵王子卿已選父子",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "只加入本傳開篇明世祖第三子子卿；不補兄弟四人的其餘名或母親，也不以ID字母定排行。",
+      "members": [
+        {
+          "person_id": "kix_r92_2ed",
+          "representative_source_person_id": "kix_r92_2ed",
+          "source_person_ids": [
+            "kix_r92_2ed"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "kix_r92_2ed_A",
+          "representative_source_person_id": "kix_r92_2ed_A",
+          "source_person_ids": [
+            "kix_r92_2ed_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "kix_r92_2ed",
+          "source_assertion_id": "a-nanqi040-ziqing-ziqing-father"
         }
       ]
     }
