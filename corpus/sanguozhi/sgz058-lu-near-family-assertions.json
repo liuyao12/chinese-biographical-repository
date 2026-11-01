@@ -1,0 +1,158 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-sgz058-lu-near-family",
+  "assertions": [
+    {
+      "id": "a-lu-near-xun-father-jun",
+      "subject_person_id": "ne6_xba_s8z_AA",
+      "predicate": "father",
+      "object_person_id": "ne6_xba_s8z_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父骏",
+        "source_clause_binding": {
+          "kind": "fixed_lu_six_near_family",
+          "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+          "case": "xun-father-jun"
+        },
+        "lineage": "paternal",
+        "source_layer": "裴松之注引陸氏世頌"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "source_id": "s-sgz058-lu-near-family",
+          "chapter_id": "c-sgz058-lu-near-family",
+          "paragraph_id": "c-sgz058-lu-near-family:p002",
+          "quote": "〈陆氏世颂曰：逊祖纡，字叔盘，敏淑有思学，守城门校尉。父骏，字季才，淳懿信厚，为邦族所怀，官至九江都尉。〉",
+          "subject_person_mention_id": "c-sgz058-lu-near-family:p002:m0007",
+          "object_person_mention_id": "c-sgz058-lu-near-family:p002:m0028"
+        }
+      ],
+      "interpretation_note": "有限來源角色與近父系世代；保原引文層，不由嗣/爵/兄弟單獨造父，不把字母ID當排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lu-near-xun-grandfather-yu",
+      "subject_person_id": "ne6_xba_s8z_AA",
+      "predicate": "grandfather",
+      "object_person_id": "ne6_xba_s8z",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "逊祖纡",
+        "source_clause_binding": {
+          "kind": "fixed_lu_six_near_family",
+          "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+          "case": "xun-grandfather-yu"
+        },
+        "lineage": "paternal",
+        "source_layer": "裴松之注引陸氏世頌"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "source_id": "s-sgz058-lu-near-family",
+          "chapter_id": "c-sgz058-lu-near-family",
+          "paragraph_id": "c-sgz058-lu-near-family:p002",
+          "quote": "〈陆氏世颂曰：逊祖纡，字叔盘，敏淑有思学，守城门校尉。父骏，字季才，淳懿信厚，为邦族所怀，官至九江都尉。〉",
+          "subject_person_mention_id": "c-sgz058-lu-near-family:p002:m0007",
+          "object_person_mention_id": "c-sgz058-lu-near-family:p002:m0009"
+        }
+      ],
+      "interpretation_note": "有限來源角色與近父系世代；保原引文層，不由嗣/爵/兄弟單獨造父，不把字母ID當排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lu-near-jun-father-yu-derived",
+      "subject_person_id": "ne6_xba_s8z_A",
+      "predicate": "father",
+      "object_person_id": "ne6_xba_s8z",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "逊祖纡",
+        "source_clause_binding": {
+          "kind": "fixed_lu_six_near_family",
+          "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+          "case": "jun-father-yu-derived"
+        },
+        "lineage": "paternal",
+        "source_statement_mode": "derived_adjacent_paternal_generations",
+        "derivation_basis": {
+          "topic_role": "xun",
+          "reported_grandfather_role": "yu",
+          "reported_father_role": "jun",
+          "literal_clauses": [
+            "逊祖纡",
+            "父骏"
+          ],
+          "not_verbatim_father_statement": true
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "source_id": "s-sgz058-lu-near-family",
+          "chapter_id": "c-sgz058-lu-near-family",
+          "paragraph_id": "c-sgz058-lu-near-family:p002",
+          "quote": "〈陆氏世颂曰：逊祖纡，字叔盘，敏淑有思学，守城门校尉。父骏，字季才，淳懿信厚，为邦族所怀，官至九江都尉。〉",
+          "subject_person_mention_id": "c-sgz058-lu-near-family:p002:m0028",
+          "object_person_mention_id": "c-sgz058-lu-near-family:p002:m0009"
+        }
+      ],
+      "interpretation_note": "有限來源角色與近父系世代；保原引文層，不由嗣/爵/兄弟單獨造父，不把字母ID當排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lu-near-kang-father-xun",
+      "subject_person_id": "ne6_xba_s8z_AAA",
+      "predicate": "father",
+      "object_person_id": "ne6_xba_s8z_AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "次子抗",
+        "source_clause_binding": {
+          "kind": "fixed_lu_six_near_family",
+          "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+          "case": "kang-father-xun"
+        },
+        "lineage": "paternal",
+        "source_layer": "陳壽正文",
+        "source_reported_ordinal": {
+          "value": 2,
+          "source_number": "次",
+          "source_term": "次子抗",
+          "scope": "sons_of_reported_father",
+          "parent_person_id": "ne6_xba_s8z_AA",
+          "preferred_all_sibling_order_selected": false,
+          "basis": "同一完整來源單元明記「長子延早夭，次子抗襲爵」；長、次對舉所報之子排行，不把原文改寫為二，不推全部兄弟姊妹次序。"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "source_id": "s-sgz058-lu-near-family",
+          "chapter_id": "c-sgz058-lu-near-family",
+          "paragraph_id": "c-sgz058-lu-near-family:p004",
+          "quote": "　　初，暨艷造營府之論，遜諫戒之，以為必禍。又謂諸葛恪曰：「在我前者，吾必奉之同升；在我下者，則扶持之。今觀君氣陵其上，意蔑乎下。非安德之基也。」又廣陵楊竺少獲聲名，而遜謂之終敗。勸竺兄穆令與別族。其先睹如此。長子延早夭，次子抗襲爵。孫休時，追謚遜曰昭侯。",
+          "subject_person_mention_id": "c-sgz058-lu-near-family:p004:m0113",
+          "object_person_mention_id": "c-sgz058-lu-near-family:p004:m0012"
+        }
+      ],
+      "interpretation_note": "有限來源角色與近父系世代；保原引文層，不由嗣/爵/兄弟單獨造父，不把字母ID當排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

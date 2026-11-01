@@ -1,8 +1,11 @@
 """Closed source-owned collective/reference readings; never identity or occurrence aliases."""
 TYPE='source_person_reference_group_set'
-def validated_sets(records,people,root):
+def _validated_sets_uncached(records,people,root):
  try:from scripts.fixed_zhou041_erlu import guard_catalog
  except ImportError:from fixed_zhou041_erlu import guard_catalog
+ guard_catalog(records,people,root)
+ try:from scripts.fixed_shiji130_six_roles import guard_catalog
+ except ImportError:from fixed_shiji130_six_roles import guard_catalog
  guard_catalog(records,people,root)
  docs=[x for x in records if x.get('record_type')==TYPE];seen=set()
  for d in docs:
@@ -18,6 +21,12 @@ def validated_sets(records,people,root):
   elif d.get('owner')=='fixed_zhou041_erlu':
    try:from scripts.fixed_zhou041_erlu import group_set_valid
    except ImportError:from fixed_zhou041_erlu import group_set_valid
+  elif d.get('owner')=='fixed_jin054_lu_openings':
+   try:from scripts.fixed_jin054_lu_openings import group_set_valid
+   except ImportError:from fixed_jin054_lu_openings import group_set_valid
+  elif d.get('owner')=='fixed_shiji130_six_roles':
+   try:from scripts.fixed_shiji130_six_roles import group_set_valid
+   except ImportError:from fixed_shiji130_six_roles import group_set_valid
   else:raise ValueError('未知來源人物群體owner')
   group_set_valid(d,people,root)
  return docs
@@ -27,12 +36,12 @@ def reading_person_ids(r):
  ids.update(m['person_id']for m in r.get('resolved_member_refs',[]))
  return ids
 def for_people(records,people,root,ids):
- groups=[];readings=[];related=set()
- for d in validated_sets(records,people,root):
-  for g in d['groups']:
-   members={m['person_id']for m in g['members']}
-   if ids&members:groups.append(g);related.update(members)
-  for r in d['unresolved_readings']:
-   candidates=reading_person_ids(r)
-   if ids&candidates:readings.append(r);related.update(candidates)
- return groups,readings,related
+ try:from scripts.source_group_catalog_cache import run
+ except ImportError:from source_group_catalog_cache import run
+ return run(root,records,people,lambda:_validated_sets_uncached(records,people,root),ids=ids)
+
+
+def validated_sets(records,people,root):
+ try:from scripts.source_group_catalog_cache import run
+ except ImportError:from source_group_catalog_cache import run
+ return run(root,records,people,lambda:_validated_sets_uncached(records,people,root))

@@ -1,0 +1,90 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-shishuo-shangyu-lu-near-family",
+  "assertions": [
+    {
+      "id": "a-lu-near-yun-father-kang",
+      "subject_person_id": "ne6_xba_s8z_AAAB",
+      "predicate": "father",
+      "object_person_id": "ne6_xba_s8z_AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "吳大司馬抗之第五子",
+        "source_clause_binding": {
+          "kind": "fixed_lu_six_near_family",
+          "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+          "case": "yun-father-kang"
+        },
+        "lineage": "paternal",
+        "source_layer": "劉孝標注引陸雲別傳",
+        "source_reported_ordinal": {
+          "value": 5,
+          "source_number": "五",
+          "source_term": "第五子",
+          "scope": "sons_of_reported_father",
+          "parent_person_id": "ne6_xba_s8z_AAA",
+          "preferred_all_sibling_order_selected": false
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-shangyu",
+          "source_id": "s-shishuo-shangyu-lu-near-family",
+          "chapter_id": "c-shishuo-shangyu-lu-near-family",
+          "paragraph_id": "c-shishuo-shangyu-lu-near-family:p002",
+          "quote": "〈秀才，蔡洪也。集載洪與刺史周俊書曰：「一日侍坐，言及吳士，詢于芻蕘，遂見下問。造次承顏，載辭不舉，敕令條列名狀，退輒思之。今稱疏所知：吳展字士季，下邳人。忠足矯非，清足厲俗，信可結神，才堪榦世。仕吳為廣州刺史、吳郡太守。吳平，還下邳，閉門自守，不交賓客。誠聖王之老成，明時之俊乂也。朱誕字永長，吳郡人。體履清和，黃中通理。吳朝舉賢良，累遷議郎，今歸在家。誠理物之至德，清選之高望也。嚴隱字仲弼，吳郡人。稟氣清純，思度淵偉。吳朝舉賢良，宛陵令。吳平，去職。九皋之鳴鶴，空谷之白駒也。張暢字威伯，吳郡人。稟性堅明，志行清朗，居磨涅之中，無淄磷之損。歲寒之松柏，幽夜之逸光也。」陸雲別傳曰：「雲字士龍，吳大司馬抗之第五子，機同母之弟也。儒雅有俊才，容貌瑰偉，口敏能談，博聞彊記。善著述，六歲便能賦詩，時人以為項託、揚烏之儔也。年十八，刺史周俊命為主簿。俊常歎曰：『陸士龍當今之顏淵也！』累遷太子舍人、清河內史。為成都王所害。」〉",
+          "subject_person_mention_id": "c-shishuo-shangyu-lu-near-family:p002:m0294",
+          "object_person_mention_id": "c-shishuo-shangyu-lu-near-family:p002:m0303"
+        }
+      ],
+      "interpretation_note": "有限來源角色與近父系世代；保原引文層，不由嗣/爵/兄弟單獨造父，不把字母ID當排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lu-near-yun-younger-shared-mother-ji",
+      "subject_person_id": "ne6_xba_s8z_AAAB",
+      "predicate": "brother",
+      "object_person_id": "ne6_xba_s8z_AAAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "機同母之弟",
+        "source_clause_binding": {
+          "kind": "fixed_lu_six_near_family",
+          "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+          "case": "yun-younger-shared-mother-ji"
+        },
+        "shared_mother": true,
+        "mother_person_id": null,
+        "relative_birth_order": {
+          "older_person_id": "ne6_xba_s8z_AAAA",
+          "younger_person_id": "ne6_xba_s8z_AAAB",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "source_layer": "劉孝標注引陸雲別傳"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-shangyu",
+          "source_id": "s-shishuo-shangyu-lu-near-family",
+          "chapter_id": "c-shishuo-shangyu-lu-near-family",
+          "paragraph_id": "c-shishuo-shangyu-lu-near-family:p002",
+          "quote": "〈秀才，蔡洪也。集載洪與刺史周俊書曰：「一日侍坐，言及吳士，詢于芻蕘，遂見下問。造次承顏，載辭不舉，敕令條列名狀，退輒思之。今稱疏所知：吳展字士季，下邳人。忠足矯非，清足厲俗，信可結神，才堪榦世。仕吳為廣州刺史、吳郡太守。吳平，還下邳，閉門自守，不交賓客。誠聖王之老成，明時之俊乂也。朱誕字永長，吳郡人。體履清和，黃中通理。吳朝舉賢良，累遷議郎，今歸在家。誠理物之至德，清選之高望也。嚴隱字仲弼，吳郡人。稟氣清純，思度淵偉。吳朝舉賢良，宛陵令。吳平，去職。九皋之鳴鶴，空谷之白駒也。張暢字威伯，吳郡人。稟性堅明，志行清朗，居磨涅之中，無淄磷之損。歲寒之松柏，幽夜之逸光也。」陸雲別傳曰：「雲字士龍，吳大司馬抗之第五子，機同母之弟也。儒雅有俊才，容貌瑰偉，口敏能談，博聞彊記。善著述，六歲便能賦詩，時人以為項託、揚烏之儔也。年十八，刺史周俊命為主簿。俊常歎曰：『陸士龍當今之顏淵也！』累遷太子舍人、清河內史。為成都王所害。」〉",
+          "subject_person_mention_id": "c-shishuo-shangyu-lu-near-family:p002:m0294",
+          "object_person_mention_id": "c-shishuo-shangyu-lu-near-family:p002:m0309"
+        }
+      ],
+      "interpretation_note": "有限來源角色與近父系世代；保原引文層，不由嗣/爵/兄弟單獨造父，不把字母ID當排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

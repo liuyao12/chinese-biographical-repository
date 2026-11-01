@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 REF = 'source-evidence/zhou041-wangbao-ws2432538/profile-facts-contract.json'
-SHA = 'ab51c139b3fae612f8f4a19a2ebb7f05b982beae4010dff92dd2dad12131db33'
+SHA = 'e3ed24896ad49c71e55697d65dafc8cf0c4bd6788c8b3bbabbb3ddb4aea65207'
 CID = 'c-zhoushu-041-wangbao-ws2432538'
 
 

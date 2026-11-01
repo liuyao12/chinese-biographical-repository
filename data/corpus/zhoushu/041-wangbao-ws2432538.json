@@ -7,7 +7,7 @@
   "source_id": "s-zhoushu041-ws2432538",
   "title": "王襃傳",
   "source": {
-    "title": "《周書》卷四十一王襃完整本傳選錄",
+    "title": "《周書》卷四十一·王襃傳",
     "provider": "Wikisource",
     "url": "https://zh.wikisource.org/w/index.php?oldid=2432538",
     "permalink": "https://zh.wikisource.org/w/index.php?oldid=2432538",
@@ -37,12 +37,12 @@
     "status": "named_mentions_first_pass",
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false,
-    "coverage": "完整王襃選錄14正文段首輪NER：97人物/稱謂、9書信代詞角色、14未決語塊；10現代校記另層，不是全卷或全部史實抽取。",
+    "coverage": "完整王襃選錄14正文段首輪NER：100人物/稱謂、9書信代詞角色、11未決語塊；10現代校記另層，不是全卷或全部史實抽取。",
     "limitations": [
       "梁子漢、周子淵分源；此本淵/子淵與ref所報淹/子深不默合，不稱親見所報異本。",
       "姑夫、恢女妻襃、姑子大器與王氏甥/舅氏分層，此批不補未知母妻姑名/共父或遙遠族譜。",
       "太祖/孝閔/世宗/高祖依同書本紀實讀明諱及41時序辨；固定raw未得者如實分記，不將見證取得限制當身份未知。",
-      "14未決包括典故/群稱/校改語塊，不靠現代ref替古人發號；生卒、官爵、作品、更多親屬各待後繼。"
+      "11未決仍含典故/群稱/校改語塊；嗣宗已依字與窮途慟哭原始敘事交證為阮籍引古，不靠現代ref發號；其餘未收日期、官職、作品與親屬分批處理。"
     ],
     "fixed_zhou041_ner_ref": "source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json",
     "modern_collation_reports": [
@@ -216,88 +216,7 @@
         "qualification": "pre-native完整收到校改語塊，非純姓名或已定金彥身份；正文及opaqueMID不變，root已批准詞界修正。"
       }
     ],
-    "unresolved_identity_cases": [
-      {
-        "id": "d-zhou041-liangjian",
-        "person_id": null,
-        "surfaces": [
-          "簡文帝"
-        ],
-        "scope": "chapter",
-        "chapter_ids": [
-          "c-zhoushu-041-wangbao-ws2432538"
-        ],
-        "status": "unresolved",
-        "candidate_person_ids": [
-          "do2_gpw_a3q"
-        ],
-        "evidence": [
-          {
-            "work_id": "w-zhoushu",
-            "book_id": "b-zhoushu-041",
-            "source_id": "s-zhoushu041-ws2432538",
-            "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
-            "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p002",
-            "quote": "襃識量淵通，志懷沉靜。美風儀，善談笑，博覽史傳，尤工屬文。梁國子祭酒蕭子雲，襃之姑夫也，特善草隸。襃少以姻戚，去來其家，遂相模範。俄而名亞子雲，竝見重於世。梁武帝喜其才藝，遂以弟鄱陽王恢之女妻之。起家祕書郎，轉太子舍人，襲爵南昌縣侯。稍遷祕書丞。宣成王大器，簡文帝之冢嫡，即襃之姑子也。于時盛選僚佐，乃以襃為文學。尋遷安成郡守。及侯景渡江，建業擾亂，襃輯寧所部，見稱於時。",
-            "mention_ids": [
-              "c-zhoushu-041-wangbao-ws2432538:p002:m0129"
-            ]
-          }
-        ],
-        "human_reviewed": false,
-        "model": null,
-        "note": "引古/群稱/校改語塊未足唯一同指，不以現代ref或同字自動選人。",
-        "paragraph_ids": [
-          "c-zhoushu-041-wangbao-ws2432538:p002",
-          "c-liangshu-041-wanggui-ws1512987:p003"
-        ],
-        "candidate_list_exhaustive": false,
-        "unknown_identity_possible": true,
-        "unresolved_mention_ids": [
-          "c-zhoushu-041-wangbao-ws2432538:p002:m0129"
-        ]
-      },
-      {
-        "id": "d-zhou041-sizong",
-        "person_id": null,
-        "surfaces": [
-          "嗣宗"
-        ],
-        "scope": "chapter",
-        "chapter_ids": [
-          "c-zhoushu-041-wangbao-ws2432538"
-        ],
-        "status": "unresolved",
-        "candidate_person_ids": [
-          "6d5_075_29b"
-        ],
-        "evidence": [
-          {
-            "work_id": "w-zhoushu",
-            "book_id": "b-zhoushu-041",
-            "source_id": "s-zhoushu041-ws2432538",
-            "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
-            "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p009",
-            "quote": "嗣宗窮途，楊朱歧路。征蓬長逝，流水不歸。舒慘殊方，炎涼異節，木皮春厚，桂樹冬榮。想攝衞惟宜，動靜多豫。賢兄入關，敬承款曲。猶依杜陵之水，尚保池陽之田，鏟迹幽蹊，銷聲穹谷。何期愉樂，幸甚！幸甚！",
-            "mention_ids": [
-              "c-zhoushu-041-wangbao-ws2432538:p009:m0000"
-            ]
-          }
-        ],
-        "human_reviewed": false,
-        "model": null,
-        "note": "引古/群稱/校改語塊未足唯一同指，不以現代ref或同字自動選人。",
-        "paragraph_ids": [
-          "c-zhoushu-041-wangbao-ws2432538:p009",
-          "c-jinshu-039-wangxun-feng:wang-full:l011"
-        ],
-        "candidate_list_exhaustive": false,
-        "unknown_identity_possible": true,
-        "unresolved_mention_ids": [
-          "c-zhoushu-041-wangbao-ws2432538:p009:m0000"
-        ]
-      }
-    ],
+    "unresolved_identity_cases": [],
     "unresolved_source_reference_readings": [
       {
         "id": "d-zhou041-cifang",
@@ -371,44 +290,6 @@
         ],
         "unresolved_mention_ids": [
           "c-zhoushu-041-wangbao-ws2432538:p013:m0027"
-        ],
-        "candidate_list_exhaustive": false,
-        "scope_note": "收到引古、群稱或校改語塊未足身份提名；尚無受證候選PID，不是已作候選人物同指的identity_case。"
-      },
-      {
-        "id": "d-zhou041-guanling",
-        "person_id": null,
-        "surfaces": [
-          "關令"
-        ],
-        "scope": "chapter",
-        "chapter_ids": [
-          "c-zhoushu-041-wangbao-ws2432538"
-        ],
-        "status": "unresolved",
-        "candidate_person_ids": [],
-        "evidence": [
-          {
-            "work_id": "w-zhoushu",
-            "book_id": "b-zhoushu-041",
-            "source_id": "s-zhoushu041-ws2432538",
-            "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
-            "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p010",
-            "quote": "弟昔因多疾，亟覽九仙之方；晚涉世途，常懷五嶽之舉。同夫關令，物色異人；譬彼客卿，服膺高士。上經說道，屢聽玄牝之談；中藥養神，每稟丹沙之說。頃年事遒盡，容髮衰謝，芸其黃矣，零落無時。還念生涯，繁憂總集。視陰愒日，猶趙孟之徂年；負杖行吟，同劉琨之積慘。河陽北臨，空思鞏縣；霸陵南望，還見長安。所冀書生之魂，來依舊壤；射聲之鬼，無恨他鄉。白雲在天，長離別矣，會見之期，邈無日矣。援筆攬紙，龍鍾橫集。",
-            "mention_ids": [
-              "c-zhoushu-041-wangbao-ws2432538:p010:m0027"
-            ]
-          }
-        ],
-        "rationale": "引古/群稱/校改語塊未足唯一同指，不以現代ref或同字自動選人。",
-        "human_reviewed": false,
-        "model": null,
-        "record_type": "unresolved_source_reference_reading",
-        "paragraph_ids": [
-          "c-zhoushu-041-wangbao-ws2432538:p010"
-        ],
-        "unresolved_mention_ids": [
-          "c-zhoushu-041-wangbao-ws2432538:p010:m0027"
         ],
         "candidate_list_exhaustive": false,
         "scope_note": "收到引古、群稱或校改語塊未足身份提名；尚無受證候選PID，不是已作候選人物同指的identity_case。"
@@ -762,7 +643,23 @@
       "contract_ref": "source-evidence/zhou041-wangbao-ws2432538/profile-facts-contract.json",
       "human_reviewed": false
     },
-    "fixed_zhou041_erlu_ref": "source-evidence/zhou041-wangbao-ws2432538/erlu-collective-contract.json"
+    "fixed_zhou041_erlu_ref": "source-evidence/zhou041-wangbao-ws2432538/erlu-collective-contract.json",
+    "resolved_identity_reviews": [
+      {
+        "identity_decision_id": "d-zhou041-sizong",
+        "person_id": "6d5_075_29b",
+        "mention_ids": [
+          "c-zhoushu-041-wangbao-ws2432538:p009:m0000"
+        ],
+        "status": "contextual_provisional",
+        "scope": "allusion_not_contemporary_contact",
+        "rationale": "《晉書》阮籍傳明字嗣宗，且記車跡所窮輒慟哭而反，與本封王襃致周弘讓書嗣宗窮途雙證相合；此為引古比擬，不作同場人物、交往或新日期事件。",
+        "primary_reading_ref": "source-evidence/zhou041-wangbao-ws2432538/sizong-primary-resolution.json",
+        "image_verified": false,
+        "human_reviewed": false
+      }
+    ],
+    "primary_reference_resolutions_ref": "source-evidence/zhou041-wangbao-ws2432538/primary-reference-resolutions.json"
   },
   "paragraphs": [
     {
@@ -992,7 +889,7 @@
           "end": 81,
           "surface": "梁武帝",
           "kind": "person",
-          "person_id": "fo7_f8v_rmf",
+          "person_id": "cav_2xc_9bq_AA",
           "status": "contextual_provisional",
           "source_role": "liangwu",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -1004,7 +901,7 @@
           "end": 93,
           "surface": "鄱陽王恢",
           "kind": "person",
-          "person_id": "o4d_mig_prw",
+          "person_id": "cav_2xc_9bq_AB",
           "status": "contextual_provisional",
           "source_role": "hui",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -1016,7 +913,7 @@
           "end": 128,
           "surface": "宣成王大器",
           "kind": "person",
-          "person_id": "luu_1zy_uu5",
+          "person_id": "cav_2xc_9bq_AAAA",
           "status": "contextual_provisional",
           "source_role": "daqi",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -1027,14 +924,11 @@
           "start": 129,
           "end": 132,
           "surface": "簡文帝",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "cav_2xc_9bq_AAA",
+          "status": "contextual_provisional",
           "source_role": "liangjian",
-          "interpretation_note": "此處典故/群稱身份仍待原始單元交證，保收到文字及候選資格，不自動接既有近名。",
-          "candidate_person_ids": [
-            "do2_gpw_a3q"
-          ]
+          "interpretation_note": "梁004諱綱—晉安王—南徐州—皇太子與既有梁041現役綱交證；本篇簡文帝為梁帝，不接晉簡文帝。"
         },
         {
           "id": "c-zhoushu-041-wangbao-ws2432538:p002:m0137",
@@ -1296,7 +1190,7 @@
           "end": 3,
           "surface": "梁元帝",
           "kind": "person",
-          "person_id": "rvc_bqx_v5w",
+          "person_id": "cav_2xc_9bq_AAB",
           "status": "contextual_provisional",
           "source_role": "liangyuan",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -1356,7 +1250,7 @@
           "end": 57,
           "surface": "元帝",
           "kind": "person",
-          "person_id": "rvc_bqx_v5w",
+          "person_id": "cav_2xc_9bq_AAB",
           "status": "contextual_provisional",
           "source_role": "liangyuan",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -1560,7 +1454,7 @@
           "end": 4,
           "surface": "元帝",
           "kind": "person",
-          "person_id": "rvc_bqx_v5w",
+          "person_id": "cav_2xc_9bq_AAB",
           "status": "contextual_provisional",
           "source_role": "liangyuan",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -1584,7 +1478,7 @@
           "end": 13,
           "surface": "武陵王紀",
           "kind": "person",
-          "person_id": "5iy_lk0_nat",
+          "person_id": "cav_2xc_9bq_AAC",
           "status": "contextual_provisional",
           "source_role": "ji",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -1644,7 +1538,7 @@
           "end": 182,
           "surface": "元帝",
           "kind": "person",
-          "person_id": "rvc_bqx_v5w",
+          "person_id": "cav_2xc_9bq_AAB",
           "status": "contextual_provisional",
           "source_role": "liangyuan",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -1704,7 +1598,7 @@
           "end": 223,
           "surface": "元帝",
           "kind": "person",
-          "person_id": "rvc_bqx_v5w",
+          "person_id": "cav_2xc_9bq_AAB",
           "status": "contextual_provisional",
           "source_role": "liangyuan",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -1716,7 +1610,7 @@
           "end": 255,
           "surface": "元帝",
           "kind": "person",
-          "person_id": "rvc_bqx_v5w",
+          "person_id": "cav_2xc_9bq_AAB",
           "status": "contextual_provisional",
           "source_role": "liangyuan",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -2113,7 +2007,7 @@
           "end": 9,
           "surface": "元帝",
           "kind": "person",
-          "person_id": "rvc_bqx_v5w",
+          "person_id": "cav_2xc_9bq_AAB",
           "status": "contextual_provisional",
           "source_role": "liangyuan",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -2149,7 +2043,7 @@
           "end": 57,
           "surface": "元帝",
           "kind": "person",
-          "person_id": "rvc_bqx_v5w",
+          "person_id": "cav_2xc_9bq_AAB",
           "status": "contextual_provisional",
           "source_role": "liangyuan",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -2221,7 +2115,7 @@
           "end": 116,
           "surface": "元帝",
           "kind": "person",
-          "person_id": "rvc_bqx_v5w",
+          "person_id": "cav_2xc_9bq_AAB",
           "status": "contextual_provisional",
           "source_role": "liangyuan",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -2233,7 +2127,7 @@
           "end": 129,
           "surface": "元帝",
           "kind": "person",
-          "person_id": "rvc_bqx_v5w",
+          "person_id": "cav_2xc_9bq_AAB",
           "status": "contextual_provisional",
           "source_role": "liangyuan",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -2293,7 +2187,7 @@
           "end": 168,
           "surface": "元帝",
           "kind": "person",
-          "person_id": "rvc_bqx_v5w",
+          "person_id": "cav_2xc_9bq_AAB",
           "status": "contextual_provisional",
           "source_role": "liangyuan",
           "interpretation_note": "依完整本傳及書信換聲/政權時間的來源角色辨識；不由全域單字、近名或同廟號自動選人。",
@@ -3344,14 +3238,12 @@
           "start": 0,
           "end": 2,
           "surface": "嗣宗",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "6d5_075_29b",
+          "status": "contextual_provisional",
           "source_role": "sizong",
-          "interpretation_note": "此處典故/群稱身份仍待原始單元交證，保收到文字及候選資格，不自動接既有近名。",
-          "candidate_person_ids": [
-            "6d5_075_29b"
-          ]
+          "interpretation_note": "《晉書》阮籍傳明字嗣宗，且記車跡所窮輒慟哭而反，與本封王襃致周弘讓書嗣宗窮途雙證相合；此為引古比擬，不作同場人物、交往或新日期事件。",
+          "identity_decision_id": "d-zhou041-sizong"
         },
         {
           "id": "c-zhoushu-041-wangbao-ws2432538:p009:m0005",
@@ -3520,12 +3412,12 @@
           "start": 27,
           "end": 29,
           "surface": "關令",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "2b1_faa_7h8",
+          "status": "contextual_provisional",
           "source_role": "guanling",
-          "interpretation_note": "此處典故/群稱身份仍待原始單元交證，保收到文字及候選資格，不自動接既有近名。",
-          "candidate_person_ids": []
+          "interpretation_note": "關令與物色異人合指尹喜待老子之典；《史記》集解引《列仙傳》明關令尹喜、候物色而迹之，與本封書札及玄牝語境相合。此為離線AI編者有資格同指判讀，非schema自動證明歷史同一；不推同場交往、官職起訖或神仙事實。",
+          "identity_decision_id": "d-zhou041-guanling"
         },
         {
           "id": "c-zhoushu-041-wangbao-ws2432538:p010:m0037",

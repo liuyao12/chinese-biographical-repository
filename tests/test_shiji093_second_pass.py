@@ -1,5 +1,5 @@
 # coding: utf-8
-from tests.portable_fixture_copy import fixture_copy2
+from tests.portable_fixture_copy import fixture_copy2, copy_required_native_source_fixtures
 import json
 import unittest
 from pathlib import Path
@@ -220,9 +220,7 @@ class HanLuIdentityTests(unittest.TestCase):
             shutil.copy2(ROOT / 'data/corpus/chapter-directory.json', target / 'data/corpus/chapter-directory.json')
             # The Pei source proof checks this explicitly declared historical
             # capture; it is not a current person endpoint or test selection.
-            capture = 'tests/fixtures/occurrence-concordance/original-anchors.json'
-            (target / capture).parent.mkdir(parents=True, exist_ok=True)
-            fixture_copy2(ROOT / capture, target / capture)
+            copy_required_native_source_fixtures(ROOT, target)
             self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())
@@ -246,9 +244,7 @@ class HanLuIdentityTests(unittest.TestCase):
             shutil.copy2(ROOT / 'data/corpus/chapter-directory.json', target / 'data/corpus/chapter-directory.json')
             # The Pei source proof checks this explicitly declared historical
             # capture; it is not a current person endpoint or test selection.
-            capture = 'tests/fixtures/occurrence-concordance/original-anchors.json'
-            (target / capture).parent.mkdir(parents=True, exist_ok=True)
-            fixture_copy2(ROOT / capture, target / capture)
+            copy_required_native_source_fixtures(ROOT, target)
             self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())

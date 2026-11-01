@@ -1,0 +1,73 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_identity_decision_set",
+  "chapter_id": "c-songshu-051-wyd1739-zongshi",
+  "decisions": [
+    {
+      "id": "d-song051-lushiheng-courtesy-primary",
+      "person_id": "69h_uhy_hta",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-songshu-051-wyd1739-zongshi",
+        "c-jinshu-075-xunsong-families"
+      ],
+      "surfaces": [
+        "陸士衡",
+        "陸機"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-051-wyd1739-zongshi:p019:m0004",
+          "c-jinshu-075-xunsong-families:xunsong-intro:p001:m0173"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p019",
+          "quote": "謂義綦曰陸士衡詩云營道無烈心其何意苦阿父如此義綦曰下官初不識何忽見苦其庸塞可笑類若此歷左衞將軍湘州刺史孝建二年卒贈平南將軍諡曰僖侯子長猷嗣官至步兵校尉昇平三年卒齊受禪國除臨川烈武王道規字道則高祖少弟也少倜儻有大志高祖奇之與謀桓玄時桓弘鎮廣陵以為征虜中兵參軍高祖克京城道規亦以其日與劉毅孟昶共斬弘收衆濟江進平京邑玄敗走晉大將軍武陵王遵承制以道規為振武將軍義昌太守與劉毅何無忌追玄玄西"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "source_id": "s-jinshu-075-xunsong-families",
+          "chapter_id": "c-jinshu-075-xunsong-families",
+          "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-intro:p001",
+          "quote": "荀崧，字景猷，潁川臨潁人，魏太尉彧之玄孫也。父頵，羽林右監、安陵鄉侯，與王濟、何劭為拜親之友。崧志操清純，雅好文學。齠齔時，族曾祖顗見而奇之，以為必興頵門。弱冠，太原王濟甚相器重，以方其外祖陳郡袁侃，謂侃弟奧曰：「近見荀監子，清虛名理，當不及父，德性純粹，是賢兄輩人也。」其為名流所賞如此。泰始中，詔以崧代兄襲父爵，補濮陽王允文學。與王敦、顧榮、陸機等友善，趙王倫引為相國參軍。倫篡，轉護軍司馬、給事中，稍遷尚書吏部郎、太弟中庶子，累遷侍中、中護軍。"
+        }
+      ],
+      "references": [
+        {
+          "work_id": "w-jinshu",
+          "work_title": "晉書",
+          "volume": "卷五十四",
+          "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷054&oldid=2605147",
+          "revision_id": 2605147,
+          "quote": "　　陸機，字士衡，吳郡人也。祖遜，吳丞相。父抗，吳大司馬。機身長七尺，其聲如鐘。少有異才，文章冠世，伏膺儒術，非禮不動。抗卒，領父兵為牙門將。年二十而吳滅，退居舊-{里}-，閉門勤學，積有十年。以孫氏在吳，而祖父世為將相，有大勳於江表，深慨孫皓舉而棄之，乃論權所以得，皓所以亡，又欲述其祖父功業，遂作《[[辯亡論]]》二篇。其上篇曰：",
+          "raw_path": "source-evidence/song051-wyd1739-zongshi/annotation-corrections/jin054-ws2605147.wikitext",
+          "raw_sha256": "77518bfb06b9a1a917849c9d669f0459fca826ab6fe88d54706f72b0314606c0",
+          "raw_start": 173,
+          "raw_end": 340,
+          "qualification": {
+            "revision_id": 2605147,
+            "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷054&oldid=2605147",
+            "edition": null,
+            "image_verified": false,
+            "human_reviewed": false,
+            "model": null,
+            "scope": "完整陸機傳首敘事段，止辯亡論引文前；不稱全卷閱讀或武英殿版本"
+          }
+        }
+      ],
+      "rationale": "本源引詩稱陸士衡；固定晉054完整傳首明陸機字士衡，與既存晉075同時代陸機文士角色有資格同指。不改原稱、不新發ID，不由此新增姓名分件/親屬/官爵/生年。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

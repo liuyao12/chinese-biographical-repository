@@ -8,7 +8,7 @@ except ImportError:
     from zhou041_wangbao_profile_facts import same, expand
 
 REF = 'source-evidence/zhou041-wangbao-ws2432538/explicit-noble-ranks-contract.json'
-SHA = '7b475cbafc8d73bc5e84e24388ac9d1e6b8c0dabec4b50255d9c9352e13770b2'
+SHA = 'f1752aa98469f40769ceb31f585b3ce7a9fc619416be647f7f55441595df6684'
 KIND = 'fixed_zhou041_explicit_noble_rank'
 
 

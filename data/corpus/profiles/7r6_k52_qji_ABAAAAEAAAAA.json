@@ -1030,7 +1030,7 @@
       "book_id": "b-zhoushu-041",
       "source_id": "s-zhoushu041-ws2432538",
       "source": {
-        "title": "《周書》卷四十一王襃完整本傳選錄",
+        "title": "《周書》卷四十一·王襃傳",
         "provider": "Wikisource",
         "url": "https://zh.wikisource.org/w/index.php?oldid=2432538",
         "permalink": "https://zh.wikisource.org/w/index.php?oldid=2432538",
@@ -1164,6 +1164,38 @@
       "model": null
     },
     {
+      "id": "a-zhou041-close-kin-baofatherinlaw",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAAAAA",
+      "predicate": "father_in_law",
+      "object_person_id": "cav_2xc_9bq_AB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "鄱陽王恢之女妻之",
+        "spouse_person_id": null,
+        "spouse_identity_status": "not_identified_by_this_clause",
+        "source_clause_binding": {
+          "kind": "fixed_zhou041_jianwen_close_kin",
+          "case": "baofatherinlaw",
+          "contract_ref": "source-evidence/zhou041-wangbao-ws2432538/jianwen-close-kin-contract.json"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-041",
+          "source_id": "s-zhoushu041-ws2432538",
+          "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p002",
+          "quote": "襃識量淵通，志懷沉靜。美風儀，善談笑，博覽史傳，尤工屬文。梁國子祭酒蕭子雲，襃之姑夫也，特善草隸。襃少以姻戚，去來其家，遂相模範。俄而名亞子雲，竝見重於世。梁武帝喜其才藝，遂以弟鄱陽王恢之女妻之。起家祕書郎，轉太子舍人，襲爵南昌縣侯。稍遷祕書丞。宣成王大器，簡文帝之冢嫡，即襃之姑子也。于時盛選僚佐，乃以襃為文學。尋遷安成郡守。及侯景渡江，建業擾亂，襃輯寧所部，見稱於時。",
+          "subject_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p002:m0049",
+          "object_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p002:m0089"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-zhou041-zi-father-bao",
       "subject_person_id": "7r6_k52_qji_ABAAAAEAAAAAA",
       "predicate": "father",
@@ -1212,6 +1244,7 @@
     "7r6_k52_qji_ABAAAAEAAAA": "王規",
     "7r6_k52_qji_ABAAAAEAAAAA": "王褒",
     "7r6_k52_qji_ABAAAAEAAAAAA": "王鼒",
+    "cav_2xc_9bq_AB": "鄱陽王恢",
     "hb9_2gq_205": "袁昂〔吳郡不降梁〕"
   },
   "dates": [
@@ -1660,6 +1693,38 @@
       ],
       "interpretation_note": "本源明生子；另核早出梁書/周書完整單元近系，同角色對應後採局部配置。不據本序遠祖譜連線，不給排行。",
       "reviewer": "Codex（AI）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-zhou041-close-kin-baofatherinlaw",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAAAAA",
+      "predicate": "father_in_law",
+      "object_person_id": "cav_2xc_9bq_AB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "鄱陽王恢之女妻之",
+        "spouse_person_id": null,
+        "spouse_identity_status": "not_identified_by_this_clause",
+        "source_clause_binding": {
+          "kind": "fixed_zhou041_jianwen_close_kin",
+          "case": "baofatherinlaw",
+          "contract_ref": "source-evidence/zhou041-wangbao-ws2432538/jianwen-close-kin-contract.json"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-041",
+          "source_id": "s-zhoushu041-ws2432538",
+          "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p002",
+          "quote": "襃識量淵通，志懷沉靜。美風儀，善談笑，博覽史傳，尤工屬文。梁國子祭酒蕭子雲，襃之姑夫也，特善草隸。襃少以姻戚，去來其家，遂相模範。俄而名亞子雲，竝見重於世。梁武帝喜其才藝，遂以弟鄱陽王恢之女妻之。起家祕書郎，轉太子舍人，襲爵南昌縣侯。稍遷祕書丞。宣成王大器，簡文帝之冢嫡，即襃之姑子也。于時盛選僚佐，乃以襃為文學。尋遷安成郡守。及侯景渡江，建業擾亂，襃輯寧所部，見稱於時。",
+          "subject_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p002:m0049",
+          "object_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p002:m0089"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     },

@@ -1,6 +1,7 @@
 import copy,json,unittest
 from pathlib import Path
 from unittest.mock import patch
+from contextlib import ExitStack
 from scripts.fixed_zhou041_wangbao import proof,errors,brothers_namespace_members,guard_bundle,CH,CID,REF,source_letter_reference
 from scripts.explicit_brothers_namespace import members
 from scripts.person_bundle import load_catalog,bundle
@@ -13,13 +14,22 @@ class Zhou041(unittest.TestCase):
   cls.assembly=next(a for a in json.loads((ROOT/'registry/family-assemblies.json').read_bytes())['assemblies']if a['id']=='family-zhou041-zhou-brothers')
   cls.assertions={a['id']:a for rec in cls.records for a in rec.get('assertions',[])}
  def overlay(self,changes):
-  original=Path.read_bytes
-  return patch.object(Path,'read_bytes',lambda p:json.dumps(changes[str(p.relative_to(ROOT))],ensure_ascii=False).encode()if p.is_relative_to(ROOT)and str(p.relative_to(ROOT))in changes else original(p))
+  ob,ot=Path.read_bytes,Path.read_text
+  def raw(p):
+   rel=str(p.relative_to(ROOT))if p.is_relative_to(ROOT)else None
+   if rel not in changes:return None
+   return changes[rel]if isinstance(changes[rel],bytes)else json.dumps(changes[rel],ensure_ascii=False).encode()
+  stack=ExitStack();stack.enter_context(patch.object(Path,'read_bytes',lambda p:raw(p)if raw(p)is not None else ob(p)));stack.enter_context(patch.object(Path,'read_text',lambda p,*a,**k:raw(p).decode()if raw(p)is not None else ot(p,*a,**k)));return stack
  def marker(self,ch,role,kind='person'):
   return next(m for p in ch['paragraphs']for m in p['mentions']if m.get('source_role')==role and m['kind']==kind)
  def test_01_complete_projection(self):
   self.assertEqual(len(self.ch['paragraphs']),14);self.assertEqual(len(self.ch['annotation']['modern_collation_reports']),10)
-  counts={k:sum(m['kind']==k for p in self.ch['paragraphs']for m in p['mentions'])for k in ['person','pronoun','unresolved']};self.assertEqual(counts,{'person':97,'pronoun':9,'unresolved':14})
+  from scripts.fixed_zhou041_wangbao import project, LETTER_REFERENCES
+  raw=(ROOT/self.contract['raw_file']).read_text();selection=self.contract['selection'];paragraphs,notes=project(raw,selection['start'],selection['end'])
+  self.assertEqual([{k:p[k]for k in ('id','text','source_position')}for p in self.ch['paragraphs']],paragraphs);self.assertEqual(len(self.ch['annotation']['modern_collation_reports']),len(notes))
+  current={m['id']:m for p in self.ch['paragraphs']for m in p['mentions']};original={m['id']:m for p in self.contract['chapter_template']['paragraphs']for m in p['mentions']};self.assertEqual(set(current),set(original))
+  for mid,m in current.items():self.assertIs(type(m['start']),int);self.assertIs(type(m['end']),int);self.assertEqual({k:m[k]for k in ('id','start','end','surface')},{k:original[mid][k]for k in ('id','start','end','surface')})
+  self.assertEqual({m['id']for m in current.values()if m['kind']=='pronoun'},set(LETTER_REFERENCES))
  def test_02_modern_reports_not_ancient(self):
   for r in self.ch['annotation']['modern_collation_reports']:self.assertEqual(r['layer'],'modern_received_witness_collation_report');self.assertFalse(r['image_verified'])
  def test_03_correction_block_unresolved(self):
@@ -79,6 +89,11 @@ class Zhou041(unittest.TestCase):
    return x
   paths=[CH,'registry/persons.json','registry/family-assemblies.json',*self.contract['sidecar_templates']]
   changes={p:replace(json.loads((ROOT/p).read_bytes()))for p in paths}
+  if (ROOT/'source-evidence/liang-xiao-close-family/family-source-contract.json').exists():
+   # The new complete-current projection also checks exact XML endpoints.
+   xml=CH[:-5]+'.xml';text=(ROOT/xml).read_text()
+   for old,new in mapping.items():text=text.replace('ref="'+old+'"','ref="'+new+'"')
+   changes[xml]=text.encode()
   original=(ROOT/REF).read_bytes()
   with self.overlay(changes):
    ch,c,r=proof(ROOT);self.assertEqual(r['$zhouhongzheng'],ns+'_A');self.assertEqual((ROOT/REF).read_bytes(),original)
@@ -98,6 +113,17 @@ class Zhou041(unittest.TestCase):
   rows=[{'person_id':p,'label':self.people[p]['label'],'assembled_identity':assembled[p]}for p in pids]
   heading=namespace_index_root(self.assembly['namespace_id'],rows);self.assertEqual(heading['person_id'],pids[0]);self.assertIn('弟兄',heading['label'])
  def test_24_unresolved_schema_separates_no_candidate_readings(self):
-  self.assertEqual(len(self.ch['annotation']['unresolved_identity_cases']),2);self.assertEqual(len(self.ch['annotation']['unresolved_source_reference_readings']),11)
-  for c in self.ch['annotation']['unresolved_identity_cases']:self.assertTrue(c['note']);self.assertTrue(c['paragraph_ids']);self.assertTrue(c['unknown_identity_possible'])
+  markers={m['id']:(p,m)for p in self.ch['paragraphs']for m in p['mentions']};case_mids=[];pending_mids=[];group_mids=[]
+  for c in self.ch['annotation']['unresolved_identity_cases']:
+   self.assertTrue(c['note']);self.assertTrue(c['paragraph_ids']);self.assertTrue(c['unknown_identity_possible']);self.assertTrue(c['candidate_person_ids']);self.assertTrue(set(c['candidate_person_ids'])<=set(self.people));case_mids.extend(c['unresolved_mention_ids'])
+  for r in self.ch['annotation']['unresolved_source_reference_readings']:
+   self.assertEqual(r['record_type'],'unresolved_source_reference_reading');self.assertIsNone(r['person_id']);self.assertEqual(r['candidate_person_ids'],[]);self.assertTrue(r['paragraph_ids']);self.assertTrue(r['unresolved_mention_ids']);pending_mids.extend(r['unresolved_mention_ids'])
+  for doc in self.records:
+   if doc.get('record_type')=='source_person_reference_group_set'and doc.get('chapter_id')==CID:
+    for group in doc['groups']:
+     self.assertTrue(group['group_marker_ids']);group_mids.extend(group['group_marker_ids'])
+     for mid in group['group_marker_ids']:self.assertEqual(markers[mid][1]['surface'],group['source_term'])
+  covered=case_mids+pending_mids+group_mids;self.assertEqual(len(covered),len(set(covered)));self.assertEqual(set(covered),{mid for mid,(p,m)in markers.items()if m['kind']=='unresolved'})
+  for mid in covered:
+   p,m=markers[mid];self.assertIsNone(m['person_id']);self.assertEqual(p['text'][m['start']:m['end']],m['surface'])
 if __name__=='__main__':unittest.main()

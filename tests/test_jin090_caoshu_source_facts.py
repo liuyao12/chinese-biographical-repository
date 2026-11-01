@@ -1,3 +1,4 @@
+from scripts.sima_snapshot_source_roles import resolve_roles as sima_roles
 # coding:utf-8
 """完整曹攄單元的身份、主語、祖孫、官職與日期邊界。"""
 import unittest,json,hashlib,xml.etree.ElementTree as ET
@@ -19,7 +20,7 @@ class CaoShuSource(unittest.TestCase):
  def test_same_glyph_different_referents(self):
   widow=self.at(1,'姑以其年少','其')['person_id'];self.assertNotEqual(widow,'h7n_w5t_i1c_AAA*A');self.assertEqual(self.at(1,'攄知其有冤','其')['person_id'],widow);self.assertEqual(self.at(1,'時稱其明','其')['person_id'],'h7n_w5t_i1c_AAA*A')
  def test_royal_speech_subjects(self):
-  king=self.at(2,'齊王冏','齊王冏')['person_id'];self.assertEqual(self.at(2,'吾率四海','吾')['person_id'],king);self.assertEqual(self.at(2,'大王之盛','大王')['person_id'],king);self.assertEqual(self.at(2,'於卿意如何','卿')['person_id'],'h7n_w5t_i1c_AAA*A');self.assertEqual(self.at(2,'天子為賊臣','天子')['person_id'],'7e0_f69_1ac');self.assertEqual(self.at(2,'賊臣','賊臣')['kind'],'unresolved')
+  king=self.at(2,'齊王冏','齊王冏')['person_id'];self.assertEqual(self.at(2,'吾率四海','吾')['person_id'],king);self.assertEqual(self.at(2,'大王之盛','大王')['person_id'],king);self.assertEqual(self.at(2,'於卿意如何','卿')['person_id'],'h7n_w5t_i1c_AAA*A');self.assertEqual(self.at(2,'天子為賊臣','天子')['person_id'],sima_roles(R)['huidi']);self.assertEqual(self.at(2,'賊臣','賊臣')['kind'],'unresolved')
  def test_highmi_not_han_hong_or_formal_name_jian(self):
   m=self.at(3,'高密王簡','高密王簡');self.assertNotEqual(m['person_id'],'yqp_nlb_p1p_ACAACD');self.assertEqual(self.at(3,'簡遣參軍','簡')['person_id'],m['person_id']);names=[n for n in J('data/corpus/profile-names.json')['records']if n.get('id')=='name-jin090-f53-008'];self.assertEqual(len(names),1);self.assertIsNone(names[0]['ming']);ctx=J(N+'jin037-highmi-context.json');self.assertIn('孝王略，字元簡',ctx['raw_quote']);self.assertFalse(ctx['marked_chapter'])
  def test_grandfather_without_invented_father(self):

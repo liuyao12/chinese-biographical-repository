@@ -862,11 +862,103 @@
     "8ft_8ic_nez": "太姒（文王正妃）",
     "y4i_pjk_4gn_A": "西伯昌",
     "y4i_pjk_4gn_AA": "周武王",
+    "y4i_pjk_4gn_AB": "管叔",
     "y4i_pjk_4gn_AC": "蔡叔",
     "y4i_pjk_4gn_ACA": "胡（蔡仲）"
   },
   "dates": [],
   "name_components": [],
+  "source_person_groups": [
+    {
+      "id": "g-shiji130-six-roles-4",
+      "source_term": "管蔡",
+      "group_marker_ids": [
+        "c-shiji-130-taishigong:m046-0017",
+        "c-shiji-130-taishigong:m047-0000",
+        "c-shiji-130-taishigong:m047-0016"
+      ],
+      "completeness": "complete",
+      "reported_count": 2,
+      "unknown_members": false,
+      "members": [
+        {
+          "person_id": "y4i_pjk_4gn_AB",
+          "label": "管叔鮮",
+          "evidence": {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-035",
+            "source_id": "s-shiji-035-guancai",
+            "chapter_id": "c-shiji-035-guancai",
+            "paragraph_id": "c-shiji-035-guancai:p001",
+            "mention_id": "c-shiji-035-guancai:m001-0000",
+            "quote": "管叔鮮"
+          }
+        },
+        {
+          "person_id": "y4i_pjk_4gn_AC",
+          "label": "蔡叔度",
+          "evidence": {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-035",
+            "source_id": "s-shiji-035-guancai",
+            "chapter_id": "c-shiji-035-guancai",
+            "paragraph_id": "c-shiji-035-guancai:p001",
+            "mention_id": "c-shiji-035-guancai:m001-0004",
+            "quote": "蔡叔度"
+          }
+        }
+      ],
+      "scope_qualification": "此處管蔡、二叔指管叔鮮、蔡叔度；篇末管蔡世家是篇名。",
+      "human_reviewed": false,
+      "source_ranges": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-130",
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "source_revision": 2609362,
+          "source_permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+          "paragraph_id": "c-shiji-130-taishigong:p046",
+          "mention_id": "c-shiji-130-taishigong:m046-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "管蔡",
+          "quote": "武王克紂，天下未協而崩。成王既幼，管蔡疑之，淮夷叛之，於是召公率德，安集王室，以寧東土。燕噲之禪，乃成禍亂。嘉甘棠之詩，作燕世家第四。",
+          "paragraph_text_sha256": "f62767fdccb65b61133b65f48529417364f383ebd420656da54e08b542645e0b"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-130",
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "source_revision": 2609362,
+          "source_permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+          "paragraph_id": "c-shiji-130-taishigong:p047",
+          "mention_id": "c-shiji-130-taishigong:m047-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "管蔡",
+          "quote": "管蔡相武庚，將寧舊商；及旦攝政，二叔不饗；殺鮮放度，周公為盟；大任十子，周以宗彊。嘉仲悔過，作管蔡世家第五。",
+          "paragraph_text_sha256": "1c5321f5a1008de14de53d0004b699d6ae88153e1bca9f918fc11e261082e53e"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-130",
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "source_revision": 2609362,
+          "source_permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+          "paragraph_id": "c-shiji-130-taishigong:p047",
+          "mention_id": "c-shiji-130-taishigong:m047-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "二叔",
+          "quote": "管蔡相武庚，將寧舊商；及旦攝政，二叔不饗；殺鮮放度，周公為盟；大任十子，周以宗彊。嘉仲悔過，作管蔡世家第五。",
+          "paragraph_text_sha256": "1c5321f5a1008de14de53d0004b699d6ae88153e1bca9f918fc11e261082e53e"
+        }
+      ]
+    }
+  ],
   "person_ids": [
     "y4i_pjk_4gn_AC"
   ],

@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "id": "dkn_ge4_286_AAAAIBDD",
+  "canonical_person_id": "dkn_ge4_286_AAAAIBDD",
+  "label": "司馬幾",
+  "identity_note": "固定此數位見證明名來源人物；同指與跨記差異依各來源qualification，不由角色數宣稱必為異人。",
+  "review": "ai_provisional",
+  "names": [
+    "幾"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 38,
+      "category": "",
+      "title": "晉書·卷三十八·列傳第八",
+      "paragraph_id": "c-jinshu-038-wen-children-rendered:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "平、上谷、廣甯郡一萬三百三十七戶增燕國為二萬戶。薨，無子，齊王冏表以子幾嗣。後冏敗，國除。",
+      "paragraph_ids": [
+        "c-jinshu-038-wen-children-rendered:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-038-wen-children-rendered:p001:m0140"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-038-wen-children-rendered:p001:m0140": "c-jinshu-038-wen-children-rendered:p001"
+      },
+      "mention_id": "c-jinshu-038-wen-children-rendered:p001:m0140",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-038-wen-children-rendered:p001:m0140",
+          "mention_ids": [
+            "c-jinshu-038-wen-children-rendered:p001:m0140"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-038",
+      "chapter_id": "c-jinshu-038-wen-children-rendered",
+      "source_id": "s-jinshu-038-wen-children-rendered",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-038-wen-children-rendered",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-038",
+      "source_id": "s-jinshu-038-wen-children-rendered",
+      "source": {
+        "title": "晉書·卷三十八·列傳第八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷038",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷038&oldid=2444513",
+        "revision_id": 2444513,
+        "accessed_on": "2026-10-30",
+        "edition": null,
+        "extent": "工具L197、282、288、293、299、305六完整原段；非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "capture_kind": "current_rendered_text_not_raw",
+        "raw_acquired": false,
+        "raw_revision": null,
+        "revision_link_observed": 2444513,
+        "quality_note": "普通頁所報修訂，未取得本次fixed body/raw；實際印本未知。工具注標另層，不改原字。",
+        "rights": "古代原文及Wikisource數位轉錄，保留來源歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin038-children-ji-source-father-jiong",
+      "subject_person_id": "dkn_ge4_286_AAAAIBDD",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAIBD",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "齊王冏表以子幾嗣",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "ji-source-father-jiong",
+          "subject_role_key": "ji_jiong_son",
+          "object_role_key": "jiong_proposes"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p001",
+          "quote": "清惠亭侯京，字子佐，魏末以公子賜爵。年二十四薨，追贈射聲校尉，以文帝子機字太玄為嗣。泰始元年，封燕王，邑六千六百六十三戶。機之國，咸甯初徵為步兵校尉，以漁陽郡益其國，加侍中之服。拜青州都督、鎮東將軍、假節，以北平、上谷、廣甯郡一萬三百三十七戶增燕國為二萬戶。薨，無子，齊王冏表以子幾嗣。後冏敗，國除。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p001:m0140",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p001:m0134"
+        }
+      ],
+      "interpretation_note": "原字幾明作冏子；來源人物登記並保現代校記疑誤/可能同指，不宣稱幾與現役三子必異人。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin038-children-ji-source-successor-ji",
+      "subject_person_id": "dkn_ge4_286_AAAAIBDD",
+      "predicate": "ritual_successor_of",
+      "object_person_id": "dkn_ge4_286_AAAAIG",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子幾嗣",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "ji-source-successor-ji",
+          "subject_role_key": "ji_jiong_son",
+          "object_role_key": "ji_goes"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p001",
+          "quote": "清惠亭侯京，字子佐，魏末以公子賜爵。年二十四薨，追贈射聲校尉，以文帝子機字太玄為嗣。泰始元年，封燕王，邑六千六百六十三戶。機之國，咸甯初徵為步兵校尉，以漁陽郡益其國，加侍中之服。拜青州都督、鎮東將軍、假節，以北平、上谷、廣甯郡一萬三百三十七戶增燕國為二萬戶。薨，無子，齊王冏表以子幾嗣。後冏敗，國除。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p001:m0140",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p001:m0061"
+        }
+      ],
+      "interpretation_note": "機為本敘事嗣爵者/先代傳主，幾是冏所表之子；不因同音/校記直接合人。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "dkn_ge4_286_AAAAIBD": "冏（齊王）",
+    "dkn_ge4_286_AAAAIBDD": "司馬幾",
+    "dkn_ge4_286_AAAAIG": "司馬機"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "name-jin038-children-ji_jiong_son",
+      "person_id": "dkn_ge4_286_AAAAIBDD",
+      "surname": "司馬",
+      "ming": "幾",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-038-wen-children-rendered",
+      "paragraph_id": "c-jinshu-038-wen-children-rendered:p001",
+      "person_mention_id": "c-jinshu-038-wen-children-rendered:p001:m0140",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-038-wen-children-rendered:p001",
+        "start": 140,
+        "end": 141,
+        "surface": "幾"
+      },
+      "quote": "清惠亭侯京，字子佐，魏末以公子賜爵。年二十四薨，追贈射聲校尉，以文帝子機字太玄為嗣。泰始元年，封燕王，邑六千六百六十三戶。機之國，咸甯初徵為步兵校尉，以漁陽郡益其國，加侍中之服。拜青州都督、鎮東將軍、假節，以北平、上谷、廣甯郡一萬三百三十七戶增燕國為二萬戶。薨，無子，齊王冏表以子幾嗣。後冏敗，國除。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "source_bound_jin038_wen_children_name_roles",
+        "role_key": "ji_jiong_son",
+        "source_contract": "source-evidence/jin038-wen-children-rendered/source-contract.json",
+        "qualification": "韓起/田蘇為原句完整姓氏；司馬氏依既有明父/近父系姓氏來源，非王號或ID字母推姓。"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-038",
+      "source_id": "s-jinshu-038-wen-children-rendered"
+    }
+  ],
+  "person_ids": [
+    "dkn_ge4_286_AAAAIBDD"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin038-children-ji-source-father-jiong",
+      "subject_person_id": "dkn_ge4_286_AAAAIBDD",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAIBD",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "齊王冏表以子幾嗣",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "ji-source-father-jiong",
+          "subject_role_key": "ji_jiong_son",
+          "object_role_key": "jiong_proposes"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p001",
+          "quote": "清惠亭侯京，字子佐，魏末以公子賜爵。年二十四薨，追贈射聲校尉，以文帝子機字太玄為嗣。泰始元年，封燕王，邑六千六百六十三戶。機之國，咸甯初徵為步兵校尉，以漁陽郡益其國，加侍中之服。拜青州都督、鎮東將軍、假節，以北平、上谷、廣甯郡一萬三百三十七戶增燕國為二萬戶。薨，無子，齊王冏表以子幾嗣。後冏敗，國除。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p001:m0140",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p001:m0134"
+        }
+      ],
+      "interpretation_note": "原字幾明作冏子；來源人物登記並保現代校記疑誤/可能同指，不宣稱幾與現役三子必異人。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin038-children-ji-source-successor-ji",
+      "subject_person_id": "dkn_ge4_286_AAAAIBDD",
+      "predicate": "ritual_successor_of",
+      "object_person_id": "dkn_ge4_286_AAAAIG",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子幾嗣",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "ji-source-successor-ji",
+          "subject_role_key": "ji_jiong_son",
+          "object_role_key": "ji_goes"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p001",
+          "quote": "清惠亭侯京，字子佐，魏末以公子賜爵。年二十四薨，追贈射聲校尉，以文帝子機字太玄為嗣。泰始元年，封燕王，邑六千六百六十三戶。機之國，咸甯初徵為步兵校尉，以漁陽郡益其國，加侍中之服。拜青州都督、鎮東將軍、假節，以北平、上谷、廣甯郡一萬三百三十七戶增燕國為二萬戶。薨，無子，齊王冏表以子幾嗣。後冏敗，國除。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p001:m0140",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p001:m0061"
+        }
+      ],
+      "interpretation_note": "機為本敘事嗣爵者/先代傳主，幾是冏所表之子；不因同音/校記直接合人。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "dkn_ge4_286_AAAAIBDD",
+    "representative_source_person_id": "dkn_ge4_286_AAAAIBDD",
+    "source_person_ids": [
+      "dkn_ge4_286_AAAAIBDD"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "dkn_ge4_286_AAAAIBD",
+    "source_assertion_id": "a-jin038-children-ji-source-father-jiong",
+    "connection": "father",
+    "assembly_id": "family-sima-jun-near-ancestry",
+    "root_person_id": "dkn_ge4_286",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "rv-jin038-children-ji-name",
+      "paragraph_id": "c-jinshu-038-wen-children-rendered:p001",
+      "person_ids": [
+        "dkn_ge4_286_AAAAIBDD"
+      ],
+      "source_term": "幾",
+      "received_reading": "幾",
+      "reported_reading": "疑傳誤",
+      "commentator": "數位頁後出校記（勞校等轉引；未親見原校本）",
+      "quote": "  8. 【132†↑】 齊王冏表以子幾嗣勞校：據冏傳，冏三子，淮南王超、樂安王冰、濟陽王英，無「幾」名。且「幾」既為「機」嗣，則不當亦名「幾」，疑傳誤。",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷038",
+      "status": "reported_not_collated",
+      "adopted": false,
+      "image_verified": false,
+      "comparison_reference": {
+        "path": "source-evidence/jin038-wen-children-rendered/reported-modern-apparatus.json",
+        "sha256": "575036f64c1e258924960aa5e5898b4c356012820140f635e90e9fecfffd8dd3",
+        "rendered_tool_line": 323,
+        "source_layer": "later_critical_apparatus",
+        "fixed_revision_reported": 2444513,
+        "fixed_body_obtained": false,
+        "actual_print_edition": null,
+        "image_verified": false,
+        "human_reviewed": false
+      },
+      "editorial_summary": "勞校疑「幾」傳誤，未定改字或合併對象"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from tests.portable_fixture_copy import fixture_copy2
+from tests.portable_fixture_copy import fixture_copy2, copy_required_native_source_fixtures
 import json
 from pathlib import Path
 import shutil
@@ -28,9 +28,7 @@ class AgeDifferenceTests(unittest.TestCase):
             shutil.copy2(ROOT/'data/corpus/chapter-directory.json',root/'data/corpus/chapter-directory.json')
             # The current Pei source proof verifies this declared historical
             # capture byte-for-byte; it is not an active person endpoint.
-            capture='tests/fixtures/occurrence-concordance/original-anchors.json'
-            (root/capture).parent.mkdir(parents=True,exist_ok=True)
-            fixture_copy2(ROOT/capture,root/capture)
+            copy_required_native_source_fixtures(ROOT, root)
             path=root/'corpus/shiji/067.json';data=json.loads(path.read_text())
             change(data['annotation']['age_difference_assertions'][0])
             path.write_text(json.dumps(data,ensure_ascii=False))

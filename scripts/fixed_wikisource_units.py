@@ -4,10 +4,30 @@ from pathlib import Path
 import hashlib,json,re
 
 def source_errors(ch,root):
+ if ch.get('id')=='c-jinshu-037-qiao-cheng-wuji-ws2630018' or ch.get('source_id')=='s-jinshu037-qiao-cheng-wuji-ws2630018' or 'fixed_jin037_qiao_ref'in ch.get('annotation',{}):
+  try:from scripts.fixed_jin037_qiao_cheng_wuji import errors as qiao_errors
+  except ImportError:from fixed_jin037_qiao_cheng_wuji import errors as qiao_errors
+  return qiao_errors(ch,root)
+ if ch.get('id')=='c-jinshu-073-yuyi-ws2296501-rendered' or ch.get('source_id')=='s-jinshu073-yuyi-ws2296501-rendered' or 'fixed_jin073_yuyi_ref'in ch.get('annotation',{}):
+  try:from scripts.fixed_jin073_yuyi_rendered import errors as jin073_errors
+  except ImportError:from fixed_jin073_yuyi_rendered import errors as jin073_errors
+  return jin073_errors(ch,root)
+ if ch.get('id')=='c-jinshu-044-luqin-family-rendered' or ch.get('source_id')=='s-jinshu044-lu-rendered-oldcapture' or 'fixed_jin044_lu_ref'in ch.get('annotation',{}):
+  try:from scripts.fixed_jin044_lu_rendered import errors as lu_errors
+  except ImportError:from fixed_jin044_lu_rendered import errors as lu_errors
+  return lu_errors(ch,root)
  if ch.get('id')=='c-zhoushu-041-wangbao-ws2432538' or ch.get('source_id')=='s-zhoushu041-ws2432538' or 'fixed_zhou041_ner_ref'in ch.get('annotation',{}):
   try:from scripts.fixed_zhou041_wangbao import errors as zhou_errors
   except ImportError:from fixed_zhou041_wangbao import errors as zhou_errors
   return zhou_errors(ch,root)
+ if ch.get('id')=='c-jinshu-054-lu-openings-ws2605147'or ch.get('source_id')=='s-jinshu054-lu-openings-ws2605147'or'fixed_jin054_lu_ref'in ch.get('annotation',{}):
+  try:from scripts.fixed_jin054_lu_openings import errors as lu_errors
+  except ImportError:from fixed_jin054_lu_openings import errors as lu_errors
+  return lu_errors(ch,root)
+ if ch.get('id')=='c-shiji-130-taishigong' or 'fixed_shiji130_six_roles_ref'in ch.get('annotation',{}):
+  try:from scripts.fixed_shiji130_six_roles import errors as role_errors
+  except ImportError:from fixed_shiji130_six_roles import errors as role_errors
+  return role_errors(ch,root)
  if ch.get('id')=='c-liangshu-041-wanggui-ws1512987' or ch.get('source_id')=='s-liangshu041-ws1512987' or 'fixed_liang041_ner_ref'in ch.get('annotation',{}):
   try:from scripts.fixed_liang041_wanggui import errors as liang_errors
   except ImportError:from fixed_liang041_wanggui import errors as liang_errors

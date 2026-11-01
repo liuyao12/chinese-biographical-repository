@@ -212,7 +212,37 @@
     "dkn_ge4_286_AAADA": "彭城穆王權"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-jin037-near-kui",
+      "person_id": "dkn_ge4_286_AAAD",
+      "surname": "司馬",
+      "ming": "馗",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-037-phase5-pengcheng",
+      "paragraph_id": "c-jinshu-037-phase5-pengcheng:phase6-line014",
+      "person_mention_id": "c-jinshu-037-phase5-pengcheng:phase6-line014:m0034",
+      "source_anchor": {
+        "start": 34,
+        "end": 35,
+        "surface": "馗"
+      },
+      "quote": "安平獻王孚，字叔達，宣帝次弟也。初，孚長兄朗字伯達，宣帝字仲達，孚弟馗字季達，恂字顯達，進字惠達，通字雅達，敏字幼達，俱知名，故時號為「八達」焉。孚溫厚廉讓，博涉經史。漢末喪亂，與兄弟處危亡之中，簞食瓢飲，而披閱不倦。性通恕，以貞白自立，未嘗有怨於人。陳留殷武有名於海內，嘗罹罪譴，孚往省之，遂與同處分食，談者稱焉。",
+      "note": "依既有宗室完整近系明名與本宗室單元編輯復姓司馬；不改原字、不把爵號當本名、不依ID拆姓。",
+      "surname_interpretation": {
+        "kind": "royal_house_near_family_context",
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "literal_surname_in_this_mention": false
+      },
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-037",
+      "source_id": "s-jinshu-037-phase5"
+    }
+  ],
   "person_ids": [
     "dkn_ge4_286_AAAD"
   ],
@@ -362,6 +392,80 @@
     "status": "contextual_provisional",
     "human_reviewed": false
   },
+  "assembled_children": [
+    {
+      "person_id": "dkn_ge4_286_AAADB",
+      "representative_source_person_id": "dkn_ge4_286_AAADB",
+      "source_person_ids": [
+        "dkn_ge4_286_AAADB"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "dkn_ge4_286_AAAD",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling",
+        "sibling_person_id": "dkn_ge4_286_AAADA",
+        "sibling_assertion_id": "a-jin037-near-001",
+        "sibling_father_assertion_id": "a-phase5-037-權-father-馗",
+        "status": "contextual_provisional",
+        "rationale": "同一宗室近系明言權之弟／季弟，首選與權同父馗；同父未另獨證，原斷言只有兄弟及權父，不冒作原文直記父子。",
+        "same_father_independently_attested": false,
+        "literal_father_assertion_created": false,
+        "references": [
+          {
+            "url": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
+            "quote": "高密文獻王泰，字子舒，彭城穆王權之弟，魏陽亭侯，補陽翟令，遷扶風太守。武帝受禪，封隴西王，邑三千二百戶，拜遊擊將軍。出為兗州刺史，加鷹揚將軍。遷使持節、都督甯益二州諸軍事、安西將軍，領益州刺史，稱疾不行。轉安北將軍，代兄權督鄴城守事。安西將軍、都督關中事。太康初，入為散騎常侍、前將軍，領鄴城門校尉，以疾去官。後代下邳王晃為尚書左僕射。出為鎮西將軍，領護西戎校尉、假節，代扶風王駿都督關中軍事，以疾還京師。永熙初，代石鑒為司空，尋領太子太保。及楊駿誅，泰領駿營，加侍中，給步兵二千五百人，騎五百匹。泰固辭，乃給千兵百騎。",
+            "scope": "同宗室近系兄弟關係支持編輯首選，同父未獨證"
+          },
+          {
+            "url": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
+            "quote": "彭城穆王權，字子輿，宣帝弟魏魯相東武城侯馗之子也。",
+            "scope": "權父馗明文；非泰／綏明父"
+          }
+        ]
+      },
+      "assembly_id": "family-sima-jun-near-ancestry",
+      "root_person_id": "dkn_ge4_286",
+      "status": "contextual_provisional",
+      "human_reviewed": false
+    },
+    {
+      "person_id": "dkn_ge4_286_AAADC",
+      "representative_source_person_id": "dkn_ge4_286_AAADC",
+      "source_person_ids": [
+        "dkn_ge4_286_AAADC"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "dkn_ge4_286_AAAD",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling",
+        "sibling_person_id": "dkn_ge4_286_AAADA",
+        "sibling_assertion_id": "a-jin037-near-016",
+        "sibling_father_assertion_id": "a-phase5-037-權-father-馗",
+        "status": "contextual_provisional",
+        "rationale": "同一宗室近系明言權之弟／季弟，首選與權同父馗；同父未另獨證，原斷言只有兄弟及權父，不冒作原文直記父子。",
+        "same_father_independently_attested": false,
+        "literal_father_assertion_created": false,
+        "references": [
+          {
+            "url": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
+            "quote": "范陽康王綏，字子都，彭城王權季弟也，初為諫議大夫。泰始元年受封，在位十五年。咸寧五年薨，子虓立焉。",
+            "scope": "同宗室近系兄弟關係支持編輯首選，同父未獨證"
+          },
+          {
+            "url": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
+            "quote": "彭城穆王權，字子輿，宣帝弟魏魯相東武城侯馗之子也。",
+            "scope": "權父馗明文；非泰／綏明父"
+          }
+        ]
+      },
+      "assembly_id": "family-sima-jun-near-ancestry",
+      "root_person_id": "dkn_ge4_286",
+      "status": "contextual_provisional",
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

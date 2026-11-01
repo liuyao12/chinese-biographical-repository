@@ -15,6 +15,27 @@ def build_summaries(root):
     if result.stdout:
         print(result.stdout, end='')
 
+def project_title_holdings(holdings, person_ids):
+    titles = []
+    for x in holdings:
+        if x['person_id'] not in person_ids: continue
+        period = x.get('effective_period',{}); bounds=[]
+        for key in ('start','end'):
+            z=period.get(key,{}); d=z.get('normalized_date') or {}; value=d.get('era_year')
+            try:
+                from .date_ranges import year_range_label
+            except ImportError:
+                from date_ranges import year_range_label
+            if z.get('normalized_date_range'):
+                label = year_range_label(z['normalized_date_range'])
+                bounds.append(label + (' · ' + z['date_expression'] if z.get('date_expression_kind')=='table_columns_composed' else ''))
+                continue
+            label = (f'西元{"前" if d.get("era")=="BCE" else ""}{value}年（暫定）' if value else z.get('date_expression')) or '未定'
+            bounds.append(label + (' · ' + z['date_expression'] if z.get('date_expression_kind')=='table_columns_composed' else ''))
+        titles.append(dict(x, period=' → '.join(bounds)))
+    return titles
+
+
 def build(root=ROOT, person_ids=None):
     ROOT = root
     catalog = json.loads((ROOT/'data/corpus/index.json').read_text())
@@ -95,23 +116,7 @@ def build(root=ROOT, person_ids=None):
         except ImportError:
             from profile_occurrence_counts import profile_occurrences
         occurrences = profile_occurrences(b, chapters, work_titles)
-        titles = []
-        for x in b['title_holdings']:
-            if x['person_id'] not in own: continue
-            period = x.get('effective_period',{}); bounds=[]
-            for key in ('start','end'):
-                z=period.get(key,{}); d=z.get('normalized_date') or {}; value=d.get('era_year')
-                try:
-                    from .date_ranges import year_range_label
-                except ImportError:
-                    from date_ranges import year_range_label
-                if z.get('normalized_date_range'):
-                    label = year_range_label(z['normalized_date_range'])
-                    bounds.append(label + (' · ' + z['date_expression'] if z.get('date_expression_kind')=='table_columns_composed' else ''))
-                    continue
-                label = (f'西元{"前" if d.get("era")=="BCE" else ""}{value}年（暫定）' if value else z.get('date_expression')) or '未定'
-                bounds.append(label + (' · ' + z['date_expression'] if z.get('date_expression_kind')=='table_columns_composed' else ''))
-            titles.append(dict(x, period=' → '.join(bounds)))
+        titles = project_title_holdings(b['title_holdings'], own)
         addresses=[dict(x, term=x.get('source_term') or x['place']['source_name'], quote=x['evidence'][0]['quote']) for x in b['address_assertions'] if x['person_id'] in own]
         non_alias_mentions = {d['preferred_reading']['person_mention_id'] for d in b.get('identity_decisions', [])
                               if d.get('preferred_reading', {}).get('source_spelling_is_not_alias') is True}

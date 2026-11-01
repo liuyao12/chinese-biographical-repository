@@ -74,7 +74,9 @@ class ParallelAristocraticFamilies(unittest.TestCase):
                 self.assertIn(evidence['chapter_id'], decision['chapter_ids'])
 
     def test_east_sea_prince_yue_has_one_identity_across_received_passages(self):
-        pid = '9o2_vhv_r7y'
+        chapter = read('corpus/jinshu/065.json')
+        paragraph = next(p for p in chapter['paragraphs'] if p['id'] == 'c-jinshu-065-wangdao-family:p001')
+        pid = next(m['person_id'] for m in paragraph['mentions'] if m['id'] == 'c-jinshu-065-wangdao-family:p001:m0112')
         self.assertNotIn('169_279_d9c', self.people)
         decision = read('corpus/jinshu/075-simayue-identities.json')['decisions'][0]
         self.assertEqual(decision['person_id'], pid)

@@ -8,6 +8,9 @@ def same(a,b):
  return type(a)is type(b)and (a.keys()==b.keys()and all(same(a[k],b[k])for k in a)if isinstance(a,dict)else len(a)==len(b)and all(same(x,y)for x,y in zip(a,b))if isinstance(a,list)else a==b)
 def _base_proof(root,ch=None,people=None):
  root=Path(root);b=(root/REF).read_bytes();assert hashlib.sha256(b).hexdigest()==SHA;c=json.loads(b)
+ try:from scripts.liang_xiao_close_family import project_prior_contract
+ except ImportError:from liang_xiao_close_family import project_prior_contract
+ c=project_prior_contract(root,c,REF)
  if ch is None:ch=json.loads((root/c['chapter_path']).read_text())
  if people is None:people={p['id']:p for p in json.loads((root/'registry/persons.json').read_text())['persons']}
  rawb=(root/c['raw_file']).read_bytes();assert hashlib.sha256(rawb).hexdigest()==c['raw_sha256'];raw=rawb.decode();s=c['selection'];assert raw.count(s['opening_heading'])==raw.count(s['following_heading'])==1 and raw.index(s['opening_heading'])==s['start']and raw.index(s['following_heading'])==s['end']and raw[s['start']:s['end']]==s['raw']

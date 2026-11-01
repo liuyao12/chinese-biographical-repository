@@ -143,7 +143,8 @@ export async function traceFamily(person, load) {
       if (row?.connection === kind && ids.has(row.person_id) && id && !ids.has(id)
           && !result.has(id) && row.assembly_id
           && ['editorial_preferred', 'contextual_provisional'].includes(row.status)
-          && ['shared_ancestor_through_sibling', 'wyd_song044_paternal_nephew_to_uncle_father', 'fixed_jin080_paternal_nephew_to_uncle_father', 'ancestor_through_explicit_child_parent'].includes(connection?.type)
+          && ['shared_ancestor_through_sibling', 'wyd_song044_paternal_nephew_to_uncle_father', 'fixed_jin080_paternal_nephew_to_uncle_father', 'fixed_jin044_paternal_nephew_unknown_father', 'ancestor_through_explicit_child_parent'].includes(connection?.type)
+          && (connection.type !== 'fixed_jin044_paternal_nephew_unknown_father' || (kind === 'grandfather' && row.parent_person_id === null && row.generation_distance === 2 && row.intermediate_person_ids?.length === 1 && row.intermediate_person_ids[0] === null && connection.owner === 'c-jinshu-044-luqin-family-rendered' && connection.placement_status === 'editorial_inferred' && connection.literal_grandfather_assertion === false && connection.same_father_independently_attested === false && connection.unknown_father_person_id === null && connection.unknown_father_name === null && connection.father_is_hao_asserted === false && connection.human_reviewed === false && typeof connection.nephew_assertion_id === 'string' && typeof connection.uncle_father_assertion_id === 'string' && connection.nephew_assertion_id !== connection.uncle_father_assertion_id && connection.references?.length === 2 && [connection.nephew_assertion_id, connection.uncle_father_assertion_id].every(id => connection.references.some(ref => ref.assertion_id === id)) && connection.references.every(ref => ref.chapter_id === connection.owner && ref.source_id === 's-jinshu044-lu-rendered-oldcapture' && typeof ref.paragraph_id === 'string' && typeof ref.quote === 'string' && ref.quote && typeof ref.scope === 'string' && ref.scope)))
           && (connection.type !== 'ancestor_through_explicit_child_parent' || (kind === 'great_grandfather' && row.parent_person_id === null && row.generation_distance === 3 && row.intermediate_person_ids?.length === 2 && row.intermediate_person_ids.every(x => x === null) && connection.human_reviewed === false && connection.source_child_ancestor_distance === 4 && connection.source_child_parent_distance === 1 && connection.projected_parent_ancestor_distance === 3 && typeof connection.child_person_id === 'string' && Array.isArray(connection.references) && connection.references.length >= 2 && connection.child_ancestor_assertion_id !== connection.child_parent_assertion_id && [connection.child_ancestor_assertion_id, connection.child_parent_assertion_id].every(id => typeof id === 'string' && connection.references.some(ref => ref.assertion_id === id))))
           && (connection.type !== 'fixed_jin080_paternal_nephew_to_uncle_father'
             || (kind === 'grandfather' && row.parent_person_id === null
@@ -163,6 +164,7 @@ export async function traceFamily(person, load) {
           && connection.status === 'contextual_provisional'
           && connection.rationale && connection.references?.length) {
         result.set(id, {id, role: 'assembly_inferred', inference_note: connection.rationale,
+          ...(connection.type === 'fixed_jin044_paternal_nephew_unknown_father' ? {inference_basis: {kind: 'same_father_assumption_through_elder_brothers_son', independently_attested: false, literal_grandfather_assertion: false, unknown_father_person_id: null, father_is_hao_asserted: false}} : {}),
           evidence: connection.references.map(ref => ({...ref}))});
       }
     }
@@ -187,7 +189,7 @@ export async function traceFamily(person, load) {
       from_label: familyPersonLabel(branch.person), to_label: parent.label || parent.id,
       relationship, generation_distance: distance,
       qualification: parent.role === 'assembly_inferred' ? 'assembly_inferred' : 'source_linked',
-      inference_note: parent.inference_note || null, evidence: [...parent.evidence]};
+      inference_note: parent.inference_note || null, ...(parent.inference_basis ? {inference_basis: {...parent.inference_basis}} : {}), evidence: [...parent.evidence]};
     const steps = [...(branch.ancestrySteps || []), step];
     const inferred = steps.some(x => x.qualification === 'assembly_inferred');
     const cycle = Boolean(parent.person && [...own(parent.person)].some(id => branch.path.has(id)));

@@ -2,6 +2,16 @@
 
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
+    if isinstance(holding, dict) and isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') == 'explicit_recipient_joint_resistance_gift':
+        try:
+            from scripts.explicit_topic_gifts import explicit_recipient_joint_resistance_gift_valid
+        except ImportError:
+            from explicit_topic_gifts import explicit_recipient_joint_resistance_gift_valid
+        return explicit_recipient_joint_resistance_gift_valid(holding, paragraphs, mentions, life_events or {})
+    if isinstance(holding,dict)and isinstance(holding.get('posthumous_basis'),dict)and holding['posthumous_basis'].get('kind')=='fixed_jin037_qiao_received_offices':
+        try:from scripts.jin037_qiao_office_reports import gift_valid
+        except ImportError:from jin037_qiao_office_reports import gift_valid
+        return gift_valid(holding,paragraphs,mentions,life_events or {})
     # evaluated-biography-topic-gift
     if isinstance(holding,dict) and isinstance(holding.get('posthumous_basis'),dict) and holding['posthumous_basis'].get('kind')=='evaluated_biography_topic_career_death_gift':
         try:from scripts.evaluated_biography_gift import valid

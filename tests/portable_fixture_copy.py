@@ -45,3 +45,24 @@ def fixture_copy2(source, destination, *, follow_symlinks=True):
         return shutil.copy2(source, destination, follow_symlinks=follow_symlinks)
     shutil.copystat(source, destination, follow_symlinks=follow_symlinks)
     return destination
+
+
+def copy_required_native_source_fixtures(source_root, destination_root):
+    """Copy the two declared physical inputs required by native source proofs."""
+    from pathlib import Path
+    source_root, destination_root = Path(source_root), Path(destination_root)
+    # Pei immutable occurrence capture and Liang's current source-role fixture.
+    paths = (
+        'tests/fixtures/occurrence-concordance/original-anchors.json',
+        'tests/fixtures/nanqi033-wangsengqian/person-ids.json',
+    )
+    for relative in paths:
+        source, destination = source_root / relative, destination_root / relative
+        if not source.is_file():
+            raise FileNotFoundError(source)
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        fixture_copy2(source, destination)
+        if os.path.samefile(source, destination):
+            raise ValueError('native source fixture must be an independent copy')
+        if source.read_bytes() != destination.read_bytes():
+            raise ValueError('native source fixture copy differs from current source')

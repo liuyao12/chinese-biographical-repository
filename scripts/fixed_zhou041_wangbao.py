@@ -2,8 +2,10 @@
 """Complete received Zhou041 Wang Bao unit and finite source-role NER/letter references."""
 import json,hashlib,re
 from pathlib import Path
+try:from scripts import source_primary_reference_resolutions as primary_refs
+except ImportError:import source_primary_reference_resolutions as primary_refs
 REF='source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json'
-SHA='3e6008028d663e86ca0a1a2b114f584268d88a1d858dbfc03fa5a211e585149e'
+SHA='2e9a4cb2d1e35ea305aee43ac6ca1c32a3a4fe09e3219ee34fb5e0bd1d2c180f'
 CID='c-zhoushu-041-wangbao-ws2432538'
 CH='corpus/zhoushu/041-wangbao-ws2432538.json'
 LETTER_REFERENCES={'c-zhoushu-041-wangbao-ws2432538:p009:m0051': {'id': 'c-zhoushu-041-wangbao-ws2432538:p009:m0051', 'start': 51, 'end': 53, 'surface': '賢兄', 'kind': 'pronoun', 'status': 'resolved_contextual', 'source_role': 'zhouhongzheng', 'source_letter_role_binding': {'kind': 'fixed_zhou041_letter_reference', 'contract_ref': 'source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json', 'role_key': 'zhouhongzheng', 'paragraph_sha256': '7ebcb04a70d61d6198a73f6074af638bfb894a5e52e2e0cefc8d29037099bf8a'}}, 'c-zhoushu-041-wangbao-ws2432538:p012:m0031': {'id': 'c-zhoushu-041-wangbao-ws2432538:p012:m0031', 'start': 31, 'end': 33, 'surface': '家兄', 'kind': 'pronoun', 'status': 'resolved_contextual', 'source_role': 'zhouhongzheng', 'source_letter_role_binding': {'kind': 'fixed_zhou041_letter_reference', 'contract_ref': 'source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json', 'role_key': 'zhouhongzheng', 'paragraph_sha256': '369e808c206105105e622c48ed4a8e0786b3e56468c37f5251e07228b58d94f1'}}, 'c-zhoushu-041-wangbao-ws2432538:p010:m0000': {'id': 'c-zhoushu-041-wangbao-ws2432538:p010:m0000', 'start': 0, 'end': 1, 'surface': '弟', 'kind': 'pronoun', 'status': 'resolved_contextual', 'source_role': 'bao', 'source_letter_role_binding': {'kind': 'fixed_zhou041_letter_reference', 'contract_ref': 'source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json', 'role_key': 'bao', 'paragraph_sha256': '0527e993d3691cb8bb62a546b0786f030bb8860370e2ede147d3208dca568e8d'}}, 'c-zhoushu-041-wangbao-ws2432538:p012:m0044': {'id': 'c-zhoushu-041-wangbao-ws2432538:p012:m0044', 'start': 44, 'end': 46, 'surface': '故人', 'kind': 'pronoun', 'status': 'resolved_contextual', 'source_role': 'bao', 'source_letter_role_binding': {'kind': 'fixed_zhou041_letter_reference', 'contract_ref': 'source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json', 'role_key': 'bao', 'paragraph_sha256': '369e808c206105105e622c48ed4a8e0786b3e56468c37f5251e07228b58d94f1'}}, 'c-zhoushu-041-wangbao-ws2432538:p013:m0001': {'id': 'c-zhoushu-041-wangbao-ws2432538:p013:m0001', 'start': 1, 'end': 2, 'surface': '弟', 'kind': 'pronoun', 'status': 'resolved_contextual', 'source_role': 'bao', 'source_letter_role_binding': {'kind': 'fixed_zhou041_letter_reference', 'contract_ref': 'source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json', 'role_key': 'bao', 'paragraph_sha256': 'ae5c73d286e6f3b10b6b85eae1f3b321a8aaee8a419b09753247eac2bd070ad3'}}, 'c-zhoushu-041-wangbao-ws2432538:p013:m0068': {'id': 'c-zhoushu-041-wangbao-ws2432538:p013:m0068', 'start': 68, 'end': 69, 'surface': '弟', 'kind': 'pronoun', 'status': 'resolved_contextual', 'source_role': 'bao', 'source_letter_role_binding': {'kind': 'fixed_zhou041_letter_reference', 'contract_ref': 'source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json', 'role_key': 'bao', 'paragraph_sha256': 'ae5c73d286e6f3b10b6b85eae1f3b321a8aaee8a419b09753247eac2bd070ad3'}}, 'c-zhoushu-041-wangbao-ws2432538:p013:m0127': {'id': 'c-zhoushu-041-wangbao-ws2432538:p013:m0127', 'start': 127, 'end': 128, 'surface': '弟', 'kind': 'pronoun', 'status': 'resolved_contextual', 'source_role': 'bao', 'source_letter_role_binding': {'kind': 'fixed_zhou041_letter_reference', 'contract_ref': 'source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json', 'role_key': 'bao', 'paragraph_sha256': 'ae5c73d286e6f3b10b6b85eae1f3b321a8aaee8a419b09753247eac2bd070ad3'}}, 'c-zhoushu-041-wangbao-ws2432538:p013:m0063': {'id': 'c-zhoushu-041-wangbao-ws2432538:p013:m0063', 'start': 63, 'end': 64, 'surface': '吾', 'kind': 'pronoun', 'status': 'resolved_contextual', 'source_role': 'zhouhongrang', 'source_letter_role_binding': {'kind': 'fixed_zhou041_letter_reference', 'contract_ref': 'source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json', 'role_key': 'zhouhongrang', 'paragraph_sha256': 'ae5c73d286e6f3b10b6b85eae1f3b321a8aaee8a419b09753247eac2bd070ad3'}}, 'c-zhoushu-041-wangbao-ws2432538:p013:m0122': {'id': 'c-zhoushu-041-wangbao-ws2432538:p013:m0122', 'start': 122, 'end': 123, 'surface': '吾', 'kind': 'pronoun', 'status': 'resolved_contextual', 'source_role': 'zhouhongrang', 'source_letter_role_binding': {'kind': 'fixed_zhou041_letter_reference', 'contract_ref': 'source-evidence/zhou041-wangbao-ws2432538/source-ner-contract.json', 'role_key': 'zhouhongrang', 'paragraph_sha256': 'ae5c73d286e6f3b10b6b85eae1f3b321a8aaee8a419b09753247eac2bd070ad3'}}}
@@ -54,6 +56,11 @@ def proof(root,ch=None,people=None):
  assert re.fullmatch('[a-z0-9]{3}_[a-z0-9]{3}_[a-z0-9]{3}',ns)and ns not in people and older==ns+'_A'and younger==ns+'_B'
  roles['$zhou_brothers_namespace']=ns
  active=[roles['$'+k]for k in c['role_seeds']];assert len(active)==len(set(active))
+ try:from scripts.zhou041_sizong_resolution import validate_primary as sizong_primary
+ except ImportError:from zhou041_sizong_resolution import validate_primary as sizong_primary
+ sizong_primary(root,roles,people,c['sizong_primary_resolution'])
+ reference_state=primary_refs.resolve(root,CH,people)
+ primary_refs.extend_roles(reference_state,roles)
  def expand(x):
   if isinstance(x,str):return roles.get(x,x)
   if isinstance(x,list):return[expand(v)for v in x]
@@ -65,8 +72,12 @@ def proof(root,ch=None,people=None):
  except ImportError:import fixed_zhou041_erlu as erlu
  try:from scripts.zhou041_imperial_name_components import source_record as imperial_names_installed
  except ImportError:from zhou041_imperial_name_components import source_record as imperial_names_installed
+ try:from scripts import zhou041_jianwen_close_kin as jianwen
+ except ImportError:import zhou041_jianwen_close_kin as jianwen
+ jianwen_state=jianwen.installed(root,ch,people,roles)
  imperial_names_installed(root,ch,roles)
- assert same(erlu.source_projection(base_chapter(root,ch,roles),root,roles,c),expand(c['chapter_template']))
+ projected=jianwen.source_projection(erlu.source_projection(base_chapter(root,ch,roles),root,roles,c),jianwen_state,c,roles)
+ assert same(primary_refs.semantic_view(projected,reference_state),primary_refs.semantic_view(expand(c['chapter_template']),reference_state,prior=True))
  rawb=local(c['raw_file']).read_bytes();assert hashlib.sha256(rawb).hexdigest()==c['raw_sha256'];raw=rawb.decode();s=c['selection'];assert raw.index(s['opening_heading'])==s['start']and raw.index(s['following_heading'],s['start'])==s['end']and raw[s['start']:s['end']]==s['raw'];assert hashlib.sha256(local(c['source_unit_existing_path']).read_bytes()).hexdigest()==c['unit_sha256']and raw[s['start']:s['end']].encode()==local(c['source_unit_existing_path']).read_bytes()
  projected,notes=project(raw,s['start'],s['end']);assert len(projected)==14 and len(notes)==10 and len(projected)==len(ch['paragraphs'])
  for p,want in zip(ch['paragraphs'],projected):assert p['id']==want['id']and p['text']==want['text']and same(p['source_position'],want['source_position'])and p['text_layer']=='received_chapter'
@@ -74,9 +85,17 @@ def proof(root,ch=None,people=None):
  for r,want in zip(reports,notes):assert all(same(r[k],v)for k,v in want.items())and r['layer']=='modern_received_witness_collation_report'and r['image_verified']is False and r['human_reviewed']is False
  primaryb=local(c['primary_readings_path']).read_bytes();assert hashlib.sha256(primaryb).hexdigest()==c['primary_readings_sha256'];primary=json.loads(primaryb)
  for r in primary['rulers']:assert hashlib.sha256(r['quote'].encode()).hexdigest()==r['quote_sha256']and r['image_verified']is False and r['human_reviewed']is False
+ family_paths=[]
  for key,template in c['new_people'].items():
-  p=people[roles['$'+key]];expected=expand(template);assert all(same(p.get(k),v)for k,v in expected.items()if k not in('aliases','evidence'));assert not p.get('id_aliases')and not p.get('family_path')
+  p=people[roles['$'+key]];expected=expand(template);assert all(same(p.get(k),v)for k,v in expected.items()if k not in('aliases','evidence'));assert not p.get('id_aliases')
+  if p.get('family_path'):family_paths.append((roles['$'+key],p['family_path']))
+ if family_paths:
+  try:from scripts.liang_xiao_close_family import family_paths_valid as liang_xiao_paths_valid
+  except ImportError:from liang_xiao_close_family import family_paths_valid as liang_xiao_paths_valid
+  assert liang_xiao_paths_valid(root,family_paths)
  expected_reverse={roles['$'+k]:v for k,v in c['reverse_by_role'].items()};expected_alias={roles['$'+k]:v for k,v in c['proper_aliases_by_role'].items()}
+ jianwen.augment_reverse(jianwen_state,roles,expected_reverse,expected_alias)
+ primary_refs.augment_reverse(reference_state,expected_reverse,expected_alias)
  for pid,p in people.items():
   assert same([e for e in p['evidence']if e.get('chapter_id')==CID],expected_reverse.get(pid,[]))
   aliases=[{'surface':a['surface'],'mention_ids':[mid for mid in a['mention_ids']if mid.startswith(CID+':')]}for a in p['aliases']if any(mid.startswith(CID+':')for mid in a['mention_ids'])];assert same(aliases,expected_alias.get(pid,[]))
@@ -86,7 +105,7 @@ def proof(root,ch=None,people=None):
    if m['kind']=='pronoun':assert source_letter_reference(m,p['text'])and m['person_id']==roles['$'+m['source_role']]
    elif m['kind']=='person':assert m['person_id']==roles['$'+m['source_role']]
    else:assert m['kind']=='unresolved'and m['person_id']is None and m['status']=='unresolved'
- for rel,template in c['sidecar_templates'].items():assert same(read(rel),expand(template))
+ for rel,template in c['sidecar_templates'].items():assert same(primary_refs.semantic_view(read(rel),reference_state),primary_refs.semantic_view(expand(template),reference_state,prior=True))
  works={w['id']:w for w in read('registry/works.json')['works']};assert any(b['id']=='b-zhoushu-041'and CID in b['chapter_ids']for b in works['w-zhoushu']['books']);assert same(read('registry/work-provenance.json')['text_bases'][ch['source_id']],c['text_base_row'])
  assemblies=read('registry/family-assemblies.json')['assemblies'];assert [a for a in assemblies if a.get('id')=='family-zhou041-zhou-brothers']==[expand(c['brothers_namespace_template'])]
  erlu.validate_state(root,ch,people,roles,c)
@@ -101,20 +120,27 @@ def guard_bundle(root,pid,people,records):
  if not(root/REF).exists():return
  # Derive ownership from true current anchors: loss of caller reverse/catalog cannot suppress this guard.
  actual=json.loads((root/CH).read_bytes());owned={m.get('person_id')for p in actual['paragraphs']for m in p['mentions']if m.get('kind')in('person','pronoun')}
- if pid not in owned and not any(e.get('chapter_id')==CID for e in people.get(pid,{}).get('evidence',[])):return
+ caller_owned={m.get('person_id')for r in records if isinstance(r,dict)for p in r.get('paragraphs',[])for m in p.get('mentions',[])if isinstance(m.get('id'),str)and m['id'].startswith(CID+':')}
+ if pid not in owned|caller_owned and not any(e.get('chapter_id')==CID for e in people.get(pid,{}).get('evidence',[])):return
  ch,c,roles=proof(root,people=people);assert sum(same(r,ch)for r in records)==1
  def expand(x):
   if isinstance(x,str):return roles.get(x,x)
   if isinstance(x,list):return[expand(v)for v in x]
   if isinstance(x,dict):return{k:expand(v)for k,v in x.items()}
   return x
- for rel,template in c['sidecar_templates'].items():assert sum(same(r,expand(template))for r in records)==1
+ reference_state=primary_refs.resolve(root,CH,people)
+ for rel,template in c['sidecar_templates'].items():
+  expected=primary_refs.semantic_view(expand(template),reference_state,prior=True)
+  assert sum(same(primary_refs.semantic_view(r,reference_state),expected)for r in records if r.get('record_type')==template['record_type'])==1
  try:from scripts.zhou041_wangbao_profile_facts import guard_catalog as guard_profile_facts
  except ImportError:from zhou041_wangbao_profile_facts import guard_catalog as guard_profile_facts
  guard_profile_facts(root,pid,people,records,ch,roles)
  try:from scripts.zhou041_imperial_name_components import guard_catalog as guard_imperial_names
  except ImportError:from zhou041_imperial_name_components import guard_catalog as guard_imperial_names
  guard_imperial_names(root,pid,records,ch,roles)
+ try:from scripts import zhou041_jianwen_close_kin as jianwen
+ except ImportError:import zhou041_jianwen_close_kin as jianwen
+ jianwen.guard_catalog(root,pid,records,jianwen.installed(root,ch,people,roles),roles)
 
 
 def brothers_namespace_members(assembly,people,assertions,chapters,root):

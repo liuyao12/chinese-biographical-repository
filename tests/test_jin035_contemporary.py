@@ -1,3 +1,4 @@
+from scripts.sima_snapshot_source_roles import resolve_roles as sima_roles
 import unittest,json,copy,os
 from pathlib import Path
 from unittest.mock import patch
@@ -53,7 +54,7 @@ class ContemporarySuccessor(unittest.TestCase):
   people=copy.deepcopy(self.people);p,m=self.first();people[m['person_id']]['evidence']=[e for e in people[m['person_id']]['evidence']if e['mention_id']!=m['id']]
   with self.assertRaises(AssertionError):guard_bundle(ROOT,m['person_id'],people,self.records)
  def test_normal_API_keeps_six_first_person_passage_references(self):
-  for pid in ['hgm_jvn_hle','kbq_kjc_n2f_AA','kbq_kjc_n2f_AAB','op5_nwa_729']:
+  for pid in [sima_roles(ROOT)['wudi'],'kbq_kjc_n2f_AA','kbq_kjc_n2f_AAB','op5_nwa_729']:
    out=bundle(pid,root=ROOT,include_provisional=True,catalog=(self.people,self.records));self.assertEqual(out['canonical_person_id'],pid)
    for p in self.ch['paragraphs']:
     for m in p['mentions']:

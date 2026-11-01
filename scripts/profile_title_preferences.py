@@ -38,7 +38,12 @@ def resolve(records,people,root):
    assert any(e.get('work_id')==c['work_id']and e.get('book_id')==c['book_id']and e.get('source_id')==c['source_id']and e.get('chapter_id')==c['id']and e.get('paragraph_id')==p['id']and e.get('person_mention_id')==m['id']and e.get('quote')and e['quote']in p['text']for e in h['evidence'])
    # The holding's existing finite grammar, not a preference-supplied title/regex,
    # must attest the actual recipient and mode. Unknown source contracts fail closed.
-   assert holding_valid(h,c,root=root)
+   if 'received_header_attestation' in h:
+    try:from scripts.received_header_titles import valid as header_valid
+    except ImportError:from received_header_titles import valid as header_valid
+    assert header_valid(h,c,people,root)
+   else:
+    assert holding_valid(h,c,root=root)
    for case in c.get('annotation',{}).get('unresolved_identity_cases',[])+c.get('annotation',{}).get('unresolved_title_attestations',[]):
     ids={case.get('person_mention_id'),case.get('source_mention_id'),case.get('mention_id')}
     ids.update(case.get('mention_ids',[]));assert m['id']not in ids
@@ -63,9 +68,12 @@ class PreferenceCatalog(list):
  def __init__(self,records,people,root):
   import copy
   list.__init__(self,records);self.root=Path(root).resolve();self._profile_title_index=resolve(self,people,self.root)
-  self.dependencies={};self.raw_dependencies={}
+  self.dependencies={};self.raw_dependencies={};self._header_people={}
   for pid,choice in self._profile_title_index.items():
    deps=[r for r in self if r.get('record_type')==TYPE or(r.get('record_type')=='marked_chapter'and r['id']==choice['source_ref']['chapter_id'])or(r.get('record_type')=='title_holding_assertion_set'and any(h['id']==choice['holding_id']for h in r['holdings']))]
+   header=any(r.get('record_type')=='title_holding_assertion_set'and any(h['id']==choice['holding_id']and 'received_header_attestation'in h for h in r['holdings'])for r in deps)
+   if header:
+    deps.append(people[pid]);self._header_people[pid]=copy.deepcopy(people[pid])
    self.dependencies[pid]=[(r,copy.deepcopy(r))for r in deps]
    import hashlib
    todo=[]
@@ -78,6 +86,7 @@ class PreferenceCatalog(list):
     elif isinstance(value,list):
      for v in value:collect(v)
    for row in deps:collect(row)
+   if header:todo.extend([self.root/'registry/persons.json',self.root/'registry/works.json'])
    files={}
    while todo:
     path=todo.pop()
@@ -107,5 +116,10 @@ class PreferenceCatalog(list):
  append=extend=insert=pop=remove=clear=sort=reverse=__setitem__=__delitem__=__iadd__=__imul__=_readonly
 
 def choice(records,people,person_id,root):
- if isinstance(records,PreferenceCatalog):return records.choice(person_id,root)
+ if isinstance(records,PreferenceCatalog):
+  if person_id in records._header_people:
+   try:from scripts.received_header_titles import same
+   except ImportError:from received_header_titles import same
+   if not same(people.get(person_id),records._header_people[person_id]):raise ValueError('書首稱號人物交易已變，須重新載入並驗證')
+  return records.choice(person_id,root)
  return resolve(records,people,root).get(person_id)

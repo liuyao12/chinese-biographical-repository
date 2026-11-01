@@ -46,6 +46,50 @@
   ],
   "occurrences": [
     {
+      "number": 2,
+      "category": "",
+      "title": "景帝、文帝紀",
+      "paragraph_id": "c-jinshu-002-jingwen-openings:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "帝諱師，字子元，宣帝長子也。雅有風彩，沈毅多大略。少流美譽，與夏侯玄、何晏齊名。晏常稱曰：「惟幾也能成天下之務，司馬子元是也。」魏景初中，拜散騎常侍，累遷中護軍。為選用之法，舉不越功，吏無私焉。宣穆皇后崩，居喪以至孝聞。宣帝之將誅曹爽，深謀秘策，獨與帝潛畫，文帝弗之知也。將",
+      "paragraph_ids": [
+        "c-jinshu-002-jingwen-openings:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-002-jingwen-openings:p001:m0037",
+        "c-jinshu-002-jingwen-openings:p001:m0042"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-002-jingwen-openings:p001:m0037": "c-jinshu-002-jingwen-openings:p001",
+        "c-jinshu-002-jingwen-openings:p001:m0042": "c-jinshu-002-jingwen-openings:p001"
+      },
+      "mention_id": "c-jinshu-002-jingwen-openings:p001:m0037",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-002-jingwen-openings:p001:m0037",
+          "mention_ids": [
+            "c-jinshu-002-jingwen-openings:p001:m0037"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-002-jingwen-openings:p001:m0042",
+          "mention_ids": [
+            "c-jinshu-002-jingwen-openings:p001:m0042"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-002",
+      "chapter_id": "c-jinshu-002-jingwen-openings",
+      "source_id": "s-jinshu-002-jingwen-openings",
+      "work_title": "晉書"
+    },
+    {
       "number": 9,
       "category": "",
       "title": "曹真曹爽完整本傳及附敘",
@@ -734,6 +778,42 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-002-jingwen-openings",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-002",
+      "source_id": "s-jinshu-002-jingwen-openings",
+      "source": {
+        "title": "《晉書》卷二·景帝、文帝紀",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷002",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷002&oldid=2603563",
+        "accessed_on": "2026-10-30",
+        "extent": "景帝開篇、景帝終段文帝表、文帝開篇三完整原段",
+        "text_scope": "partial_chapter",
+        "review_status": "in_progress",
+        "image_verified": false,
+        "human_reviewed": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留取得資格與見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "數位轉錄實際印本未知，未圖校",
+        "acquisition": {
+          "reported_revision": 2603563,
+          "fixed_body_obtained": true,
+          "raw_obtained": true,
+          "actual_print_edition": null,
+          "image_verified": false,
+          "human_reviewed": false,
+          "raw_path": "source-evidence/liang015-xiefei-reading/external/jin002-fixed.wikitext",
+          "raw_sha256": "c6222bb93a59c996139850e9fe97fdb102f39ffb9fbd5d81463a8b9ece679d21"
+        },
+        "normalization": {
+          "character_conversion": {},
+          "rule": "僅去排版/粗體外殼及YL/工具link外框；ref另層；保原字，不以現代本名改正文"
+        },
+        "revision_id": 2603563
+      }
+    },
     {
       "chapter_id": "c-jinshu-035-peixiu-peiwei",
       "work_id": "w-jinshu",

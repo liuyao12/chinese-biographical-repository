@@ -25,7 +25,7 @@ class ThreeXiaoNames(unittest.TestCase):
         ob, ot = Path.read_bytes, Path.read_text
         def raw(p):
             rel = str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else None
-            return json.dumps(changes[rel], ensure_ascii=False).encode() if rel in changes else None
+            return (changes[rel] if isinstance(changes[rel],bytes) else json.dumps(changes[rel], ensure_ascii=False).encode()) if rel in changes else None
         stack = ExitStack()
         stack.enter_context(patch.object(Path, 'read_bytes', lambda p: raw(p) if raw(p) is not None else ob(p)))
         stack.enter_context(patch.object(Path, 'read_text', lambda p, *a, **k: raw(p).decode() if raw(p) is not None else ot(p, *a, **k)))
@@ -103,6 +103,21 @@ console.log(JSON.stringify(m.summarizeNameComponents(b.name_components,b.preferr
             self.assertFalse(n['human_reviewed'])
 
     def test_coherent_current_rekey_preserves_opaque_ids_and_captures(self):
+        if (ROOT/'source-evidence/liang-xiao-close-family/family-source-contract.json').exists():
+            from tests.test_liang_xiao_close_family import coherent_family_rekey_fixture
+            changes,people,records,mapping=coherent_family_rekey_fixture(ROOT,self.people,self.records)
+            captures={p:p.read_bytes()for p in (ROOT/'source-evidence/zhou041-wangbao-ws2432538').iterdir()if p.is_file()}
+            mids={m['id']for p in self.chapter['paragraphs']for m in p['mentions']}
+            with self.overlay(changes):
+                ch,_,roles=proof(ROOT,people=people)
+                new=roles['$daqi'];self.assertEqual(new,mapping[self.roles['$daqi']])
+                result=bundle(new,ROOT,catalog=(people,records));self.assertEqual(result['canonical_person_id'],new)
+                self.assertEqual(mids,{m['id']for p in ch['paragraphs']for m in p['mentions']})
+                for p,b in captures.items():self.assertEqual(p.read_bytes(),b)
+                hidden=[r for r in records if r.get('record_type')!='person_name_component_set']
+                people[new]['evidence']=[]
+                with self.assertRaises(AssertionError):guard_bundle(ROOT,new,people,hidden)
+            return
         old = self.roles['$daqi']
         new = 'z99_4xx_aa1'
         self.assertNotIn(new, self.people)

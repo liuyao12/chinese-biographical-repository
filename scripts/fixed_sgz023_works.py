@@ -32,7 +32,7 @@ def state(root):
   need(m.get('kind')=='person','來源角色仍為人物');r['$'+key]=m['person_id']
  need(same(ch,expand(c['chapter_template'],r)),'真實caller章的263錨/書名/作者層/章目資格')
  works={w['id']:w for w in read(root,'registry/works.json')['works']};expected=expand(c['expected_affected_works'],r)
- for wid,w in expected.items():need(same(works.get(wid),w),'引書/作者/同書未決登記')
+ for wid,w in expected.items():need(work_with_additive_books_valid(works.get(wid),w,root),'引書/作者/同書未決登記')
  prov=read(root,'registry/work-provenance.json')
  for wid,p in c['expected_new_provenance'].items():need(same(prov['works'].get(wid),p),'未知作品履歷不得補年/底本')
  directory=read(root,'data/corpus/chapter-directory.json');bookrows={(w['work_id'],b['book_id']):b for w in directory['works']for b in w['books']}
@@ -50,7 +50,7 @@ def state(root):
  try:from scripts.two_hui_identity import validate as validate_hui
  except ImportError:from two_hui_identity import validate as validate_hui
  validate_hui(root,ch)
- return c,ch,old,r,expected
+ return c,ch,old,r,{wid:works[wid]for wid in expected}
 
 def proof(root):
  c,ch,old,r,works=state(root)
@@ -73,3 +73,34 @@ def author_valid(ev,work,ch,root):
   else:need(a['surface']=='謝鯤'and w['surface']=='樂廣傳'and p['text'][a['end']:w['start']]=='爲'and p['text'][w['end']:].startswith('，稱楷'),'原文謝鯤為傳，不冒題前緊接')
   return True
  except (AssertionError,ValueError,KeyError,TypeError,OSError,StopIteration):return False
+
+
+def work_with_additive_books_valid(actual,expected,root):
+ """Books are a growing source collection; existing rows and other fields stay exact."""
+ try:
+  assert isinstance(actual,dict)and isinstance(expected,dict)
+  assert same({k:v for k,v in actual.items()if k!='books'},{k:v for k,v in expected.items()if k!='books'})
+  before=expected['books'];after=actual['books'];oldids=[b['id']for b in before];newids=[b['id']for b in after]
+  assert len(oldids)==len(set(oldids))and len(newids)==len(set(newids))
+  assert same([b for b in after if b['id']in set(oldids)],before)
+  additions=[b for b in after if b['id']not in set(oldids)]
+  if not additions:return same(actual,expected)
+  # Same work/book/chapter ownership conditions as normal corpus validation.
+  catalogue=read(root,'registry/works.json')['works'];bookids=[];chapterids=[]
+  for work in catalogue:
+   for book in work['books']:
+    assert book['work_id']==work['id'];bookids.append(book['id']);chapterids.extend(book['chapter_ids'])
+  assert len(bookids)==len(set(bookids))and len(chapterids)==len(set(chapterids))
+  chapters={}
+  for path in (Path(root)/'corpus').glob('*/*.json'):
+   ch=json.loads(path.read_bytes())
+   if ch.get('record_type')=='marked_chapter':
+    assert ch['id']not in chapters;chapters[ch['id']]=ch
+  for book in additions:
+   assert book['work_id']==actual['id']and isinstance(book.get('title'),str)and bool(book['title'])
+   assert isinstance(book.get('chapter_ids'),list)and book['chapter_ids']
+   assert len(book['chapter_ids'])==len(set(book['chapter_ids']))
+   for cid in book['chapter_ids']:
+    ch=chapters[cid];assert ch['book_id']==book['id']and ch['work_id']==actual['id']
+  return True
+ except(AssertionError,KeyError,ValueError,TypeError,OSError):return False

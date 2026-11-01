@@ -6,7 +6,8 @@
   "identity_note": "源只氏稱及位號，不逕補名玖；不是褚蒜子母謝氏。 僅按固定裴秀／裴頠完整單元登記；未證同人者不作永久必異斷言。",
   "review": "ai_provisional",
   "names": [
-    "謝淑妃"
+    "謝淑妃",
+    "謝才人"
   ],
   "titles": [],
   "addresses": [],
@@ -55,6 +56,41 @@
       "chapter_id": "c-jinshu-035-peixiu-peiwei",
       "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
       "work_title": "晉書"
+    },
+    {
+      "number": 53,
+      "category": "",
+      "title": "愍懷太子",
+      "paragraph_id": "c-jinshu-053-minhuai-family:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "湣懷太子遹，字熙祖，惠帝長子，母曰謝才人。幼而聰慧，武帝愛之，恆在左右。嘗與諸皇子共戲殿上，惠帝來朝，執諸皇子手，次至太子，帝曰：「是汝兒也。」惠帝乃止。宮中嘗夜失火，武帝登樓望之。太子時年五歲，牽帝裾入暗中。帝問其故，太子曰：「暮夜倉卒，",
+      "paragraph_ids": [
+        "c-jinshu-053-minhuai-family:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-053-minhuai-family:p001:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-053-minhuai-family:p001:m0017": "c-jinshu-053-minhuai-family:p001"
+      },
+      "mention_id": "c-jinshu-053-minhuai-family:p001:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-053-minhuai-family:p001:m0017",
+          "mention_ids": [
+            "c-jinshu-053-minhuai-family:p001:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-053",
+      "chapter_id": "c-jinshu-053-minhuai-family",
+      "source_id": "s-jinshu-053-ws2595666-rendered-family",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -86,10 +122,82 @@
           "note": "僅去quote及wikilink包裝；逐字raw_runs保留完整可見文字，不用掃描或ctext覆寫。"
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-053-minhuai-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-053",
+      "source_id": "s-jinshu-053-ws2595666-rendered-family",
+      "source": {
+        "title": "《晉書》卷五十三·愍懷太子",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷053",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷053&oldid=2595666",
+        "accessed_on": "2026-10-30",
+        "extent": "傳首完整段及三子完整子嗣單元，共五個接收原段；中間未選敘事不冒已原生",
+        "text_scope": "partial_chapter",
+        "review_status": "in_progress",
+        "image_verified": false,
+        "human_reviewed": false,
+        "rights": "古代原文公有領域；維基文庫數位轉錄CC BY-SA4.0，保留取得與見證資格。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "實際印本未知，未圖校",
+        "acquisition": {
+          "reported_revision": 2595666,
+          "fixed_body_obtained": false,
+          "raw_obtained": false,
+          "actual_print_edition": null,
+          "image_verified": false,
+          "human_reviewed": false,
+          "observed_url": "https://zh.wikisource.org/wiki/晉書/卷053",
+          "tool_line_units": [
+            130,
+            145,
+            150,
+            152,
+            154
+          ]
+        },
+        "normalization": {
+          "character_conversion": {},
+          "rule": "僅解工具link wrapper與去display縮排、明示現代腳注callout；不改原字。現代校勘正文留外部audit。"
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin053-yu-mother-xie",
+      "subject_person_id": "dkn_ge4_286_AAAAIAAA",
+      "predicate": "mother",
+      "object_person_id": "ok2_ghf_354",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "母曰謝才人",
+        "source_clause_binding": {
+          "kind": "received_sima_family_roles",
+          "role": "yu-mother-xie"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-053",
+          "source_id": "s-jinshu-053-ws2595666-rendered-family",
+          "chapter_id": "c-jinshu-053-minhuai-family",
+          "paragraph_id": "c-jinshu-053-minhuai-family:p001",
+          "quote": "湣懷太子遹，字熙祖，惠帝長子，母曰謝才人。幼而聰慧，武帝愛之，恆在左右。嘗與諸皇子共戲殿上，惠帝來朝，執諸皇子手，次至太子，帝曰：「是汝兒也。」惠帝乃止。宮中嘗夜失火，武帝登樓望之。太子時年五歲，牽帝裾入暗中。帝問其故，太子曰：「暮夜倉卒，宜備非常，不宜令照見人君也。」由是奇之。嘗從帝觀豕牢，言於帝曰：「豕甚肥，何不殺以享士，而使久費五穀？」帝嘉其意，即使烹之。因撫其背，謂廷尉傅祗曰：「此兒當興我家。」嘗對群臣稱太子似宣帝，於是令譽流於天下。",
+          "subject_person_mention_id": "c-jinshu-053-minhuai-family:p001:m0000",
+          "object_person_mention_id": "c-jinshu-053-minhuai-family:p001:m0017"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "dkn_ge4_286_AAAAIAAA": "愍懷太子（王浚/孫慮害者）",
     "ok2_ghf_354": "謝淑妃"
   },
   "dates": [],
@@ -97,7 +205,37 @@
   "person_ids": [
     "ok2_ghf_354"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin053-yu-mother-xie",
+      "subject_person_id": "dkn_ge4_286_AAAAIAAA",
+      "predicate": "mother",
+      "object_person_id": "ok2_ghf_354",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "母曰謝才人",
+        "source_clause_binding": {
+          "kind": "received_sima_family_roles",
+          "role": "yu-mother-xie"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-053",
+          "source_id": "s-jinshu-053-ws2595666-rendered-family",
+          "chapter_id": "c-jinshu-053-minhuai-family",
+          "paragraph_id": "c-jinshu-053-minhuai-family:p001",
+          "quote": "湣懷太子遹，字熙祖，惠帝長子，母曰謝才人。幼而聰慧，武帝愛之，恆在左右。嘗與諸皇子共戲殿上，惠帝來朝，執諸皇子手，次至太子，帝曰：「是汝兒也。」惠帝乃止。宮中嘗夜失火，武帝登樓望之。太子時年五歲，牽帝裾入暗中。帝問其故，太子曰：「暮夜倉卒，宜備非常，不宜令照見人君也。」由是奇之。嘗從帝觀豕牢，言於帝曰：「豕甚肥，何不殺以享士，而使久費五穀？」帝嘉其意，即使烹之。因撫其背，謂廷尉傅祗曰：「此兒當興我家。」嘗對群臣稱太子似宣帝，於是令譽流於天下。",
+          "subject_person_mention_id": "c-jinshu-053-minhuai-family:p001:m0000",
+          "object_person_mention_id": "c-jinshu-053-minhuai-family:p001:m0017"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

@@ -3,6 +3,10 @@ def locator(name):
     return {k:name.get(k) for k in ('id','person_id','chapter_id','paragraph_id','surname','ming','quote')}
 
 def reading_errors(reading, names, chapters, *, root=None):
+    if isinstance(reading,dict)and reading.get('basis',{}).get('kind')=='source_bound_editorial_glyph_conversion':
+        try:from scripts.lu_near_paternal_family import preferred_reading_errors
+        except ImportError:from lu_near_paternal_family import preferred_reading_errors
+        return preferred_reading_errors(reading,names,chapters,root)
     if isinstance(reading,dict)and isinstance(reading.get('basis'),dict)and reading['basis'].get('kind')=='cross_chapter_same_person_source_variant':
         try:from scripts.cross_chapter_name_reading import reading_errors as cross_errors
         except ImportError:from cross_chapter_name_reading import reading_errors as cross_errors

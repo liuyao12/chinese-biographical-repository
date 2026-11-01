@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "id": "dkn_ge4_286_AAAAIBC",
+  "canonical_person_id": "dkn_ge4_286_AAAAIBC",
+  "label": "司馬寔",
+  "identity_note": "固定此數位見證明名來源人物；同指與跨記差異依各來源qualification，不由角色數宣稱必為異人。",
+  "review": "ai_provisional",
+  "names": [
+    "寔"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 38,
+      "category": "",
+      "title": "晉書·卷三十八·列傳第八",
+      "paragraph_id": "c-jinshu-038-wen-children-rendered:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "廣德，年二歲薨。咸甯初追加封諡，齊王攸以第五子贊紹封。薨，攸更以第二子寔嗣廣德。",
+      "paragraph_ids": [
+        "c-jinshu-038-wen-children-rendered:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-038-wen-children-rendered:p004:m0039"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-038-wen-children-rendered:p004:m0039": "c-jinshu-038-wen-children-rendered:p004"
+      },
+      "mention_id": "c-jinshu-038-wen-children-rendered:p004:m0039",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-038-wen-children-rendered:p004:m0039",
+          "mention_ids": [
+            "c-jinshu-038-wen-children-rendered:p004:m0039"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-038",
+      "chapter_id": "c-jinshu-038-wen-children-rendered",
+      "source_id": "s-jinshu-038-wen-children-rendered",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-038-wen-children-rendered",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-038",
+      "source_id": "s-jinshu-038-wen-children-rendered",
+      "source": {
+        "title": "晉書·卷三十八·列傳第八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷038",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷038&oldid=2444513",
+        "revision_id": 2444513,
+        "accessed_on": "2026-10-30",
+        "edition": null,
+        "extent": "工具L197、282、288、293、299、305六完整原段；非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "capture_kind": "current_rendered_text_not_raw",
+        "raw_acquired": false,
+        "raw_revision": null,
+        "revision_link_observed": 2444513,
+        "quality_note": "普通頁所報修訂，未取得本次fixed body/raw；實際印本未知。工具注標另層，不改原字。",
+        "rights": "古代原文及Wikisource數位轉錄，保留來源歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin038-children-shi-father-you",
+      "subject_person_id": "dkn_ge4_286_AAAAIBC",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAIB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "第二子",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "shi-father-you",
+          "subject_role_key": "shi_second",
+          "object_role_key": "you_gives_shi"
+        },
+        "lineage": "paternal",
+        "reported_ordinal": 2,
+        "accepted_birth_order": null,
+        "ordinal_scope": "sons_of_reported_father",
+        "ordinal_qualification": "source_reported_numeric_not_unqualified_all_source_preferred_order"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p004",
+          "quote": "廣漢殤王廣德，年二歲薨。咸甯初追加封諡，齊王攸以第五子贊紹封。薨，攸更以第二子寔嗣廣德。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p004:m0039",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p004:m0033"
+        }
+      ],
+      "interpretation_note": "按固定完整段主語及實際雙錨；生父、立嗣與爵位後繼分存，不由嗣補生父/母或以列表次序補排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin038-children-shi-successor-guangde",
+      "subject_person_id": "dkn_ge4_286_AAAAIBC",
+      "predicate": "ritual_successor_of",
+      "object_person_id": "dkn_ge4_286_AAAAIE",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "以第二子寔嗣廣德",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "shi-successor-guangde",
+          "subject_role_key": "shi_second",
+          "object_role_key": "guangde_heir"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p004",
+          "quote": "廣漢殤王廣德，年二歲薨。咸甯初追加封諡，齊王攸以第五子贊紹封。薨，攸更以第二子寔嗣廣德。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p004:m0039",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p004:m0041"
+        }
+      ],
+      "interpretation_note": "按固定完整段主語及實際雙錨；生父、立嗣與爵位後繼分存，不由嗣補生父/母或以列表次序補排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "dkn_ge4_286_AAAAIB": "司馬攸",
+    "dkn_ge4_286_AAAAIBC": "司馬寔",
+    "dkn_ge4_286_AAAAIE": "司馬廣德"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "name-jin038-children-shi_second",
+      "person_id": "dkn_ge4_286_AAAAIBC",
+      "surname": "司馬",
+      "ming": "寔",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-038-wen-children-rendered",
+      "paragraph_id": "c-jinshu-038-wen-children-rendered:p004",
+      "person_mention_id": "c-jinshu-038-wen-children-rendered:p004:m0039",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-038-wen-children-rendered:p004",
+        "start": 39,
+        "end": 40,
+        "surface": "寔"
+      },
+      "quote": "廣漢殤王廣德，年二歲薨。咸甯初追加封諡，齊王攸以第五子贊紹封。薨，攸更以第二子寔嗣廣德。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "source_bound_jin038_wen_children_name_roles",
+        "role_key": "shi_second",
+        "source_contract": "source-evidence/jin038-wen-children-rendered/source-contract.json",
+        "qualification": "韓起/田蘇為原句完整姓氏；司馬氏依既有明父/近父系姓氏來源，非王號或ID字母推姓。"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-038",
+      "source_id": "s-jinshu-038-wen-children-rendered"
+    }
+  ],
+  "person_ids": [
+    "dkn_ge4_286_AAAAIBC"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin038-children-shi-father-you",
+      "subject_person_id": "dkn_ge4_286_AAAAIBC",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAIB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "第二子",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "shi-father-you",
+          "subject_role_key": "shi_second",
+          "object_role_key": "you_gives_shi"
+        },
+        "lineage": "paternal",
+        "reported_ordinal": 2,
+        "accepted_birth_order": null,
+        "ordinal_scope": "sons_of_reported_father",
+        "ordinal_qualification": "source_reported_numeric_not_unqualified_all_source_preferred_order"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p004",
+          "quote": "廣漢殤王廣德，年二歲薨。咸甯初追加封諡，齊王攸以第五子贊紹封。薨，攸更以第二子寔嗣廣德。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p004:m0039",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p004:m0033"
+        }
+      ],
+      "interpretation_note": "按固定完整段主語及實際雙錨；生父、立嗣與爵位後繼分存，不由嗣補生父/母或以列表次序補排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin038-children-shi-successor-guangde",
+      "subject_person_id": "dkn_ge4_286_AAAAIBC",
+      "predicate": "ritual_successor_of",
+      "object_person_id": "dkn_ge4_286_AAAAIE",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "以第二子寔嗣廣德",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "shi-successor-guangde",
+          "subject_role_key": "shi_second",
+          "object_role_key": "guangde_heir"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p004",
+          "quote": "廣漢殤王廣德，年二歲薨。咸甯初追加封諡，齊王攸以第五子贊紹封。薨，攸更以第二子寔嗣廣德。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p004:m0039",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p004:m0041"
+        }
+      ],
+      "interpretation_note": "按固定完整段主語及實際雙錨；生父、立嗣與爵位後繼分存，不由嗣補生父/母或以列表次序補排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "dkn_ge4_286_AAAAIBC",
+    "representative_source_person_id": "dkn_ge4_286_AAAAIBC",
+    "source_person_ids": [
+      "dkn_ge4_286_AAAAIBC"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "dkn_ge4_286_AAAAIB",
+    "source_assertion_id": "a-jin038-children-shi-father-you",
+    "connection": "father",
+    "assembly_id": "family-sima-jun-near-ancestry",
+    "root_person_id": "dkn_ge4_286",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

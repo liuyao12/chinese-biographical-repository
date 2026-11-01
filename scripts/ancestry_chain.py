@@ -77,6 +77,10 @@ def consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=N
             or not isinstance(c.get('rationale'), str) or not c['rationale'].strip()
             or member.get('source_assertion_id') is not None):
         return False
+    if c.get('interpretation_basis') == 'punctuated_biography_explicit_paternal_zu_fu_pair':
+        try:from .biographical_ancestry import punctuated_paternal_pair_valid
+        except ImportError:from biographical_ancestry import punctuated_paternal_pair_valid
+        return punctuated_paternal_pair_valid(member, rows, assertions, chapters, root, people=people)
     if c.get('interpretation_basis') == 'wei_same_passage_high_great_pair':
         try:from scripts.wei_paternal_assembly import high_great_pair_parent_valid
         except ImportError:from wei_paternal_assembly import high_great_pair_parent_valid

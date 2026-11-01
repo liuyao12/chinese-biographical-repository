@@ -5,13 +5,24 @@ export function summarizeNameComponents(value, preferredReadings = []) {
   const records = Array.isArray(value) ? value.filter(x => x && typeof x === 'object' && !Array.isArray(x)) : [];
   if (!records.length) return {names:null, records, conflicts:[], coreConflict:false, canHead:false};
   // Decisions apply only to exact source-record locators, never a global character map.
-  const readings = Array.isArray(preferredReadings) ? preferredReadings.filter(r => r?.field === 'ming'
-    && r.coverage === 'listed_records_only' && r.status === 'editorial_provisional'
-    && typeof r.human_reviewed === 'boolean' && r.source_values?.includes(r.preferred_value)
-    && Array.isArray(r.records)) : [];
+  const readings = Array.isArray(preferredReadings) ? preferredReadings.filter(r => r &&
+    r.coverage === 'listed_records_only' && r.status === 'editorial_provisional'
+    && typeof r.human_reviewed === 'boolean' && Array.isArray(r.records)
+    && ((r.field === 'ming' && r.source_values?.includes(r.preferred_value))
+      || (r.basis?.kind === 'source_bound_editorial_glyph_conversion'
+        && ['ming','zi'].includes(r.field) && r.basis.not_an_additional_received_witness === true
+        && r.basis.conversion_kind === 'declared_simplified_to_traditional_glyph_display_only'
+        && r.source_values?.includes(r.basis.received_value)
+        && r.preferred_value === r.basis.display_value))) : [];
   const displayRecords = records.map(n => {
-    const choices = readings.filter(r => r.person_id === n.person_id && r.records.some(x => recordMatches(n, x.record)));
-    return choices.length === 1 ? {...n, ming:choices[0].preferred_value} : n;
+    let display = n;
+    for (const field of ['ming','zi']) {
+      const choices = readings.filter(r => r.field === field && r.person_id === n.person_id
+        && r.records.some(x => recordMatches(n, x.record))
+        && (r.basis?.kind !== 'source_bound_editorial_glyph_conversion' || n[field] === r.basis.received_value));
+      if (choices.length === 1) display = {...display, [field]:choices[0].preferred_value};
+    }
+    return display;
   });
   const names = {}, conflicts = [];
   const fields = ['surname','ming','zi','xiaozhi','xiaoming','hao','former_ming','full_name'];

@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 REF = 'source-evidence/zhou041-wangbao-ws2432538/imperial-name-components-contract.json'
-SHA = '0110f4879214ef8b50870b3d31c105ee2f4768ca2081288280b5feafe56752dc'
+SHA = '760ca7efa53918db53684403f11432713b2b6f622e0d89ebd97398fc99e2e7a0'
 CH = 'corpus/zhoushu/041-wangbao-ws2432538.json'
 KIND = 'contextual_surname_from_fixed_zhou041_imperial_roles'
 

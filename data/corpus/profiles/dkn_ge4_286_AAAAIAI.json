@@ -1,0 +1,1011 @@
+{
+  "schema_version": 1,
+  "id": "dkn_ge4_286_AAAAIAI",
+  "canonical_person_id": "dkn_ge4_286_AAAAIAI",
+  "label": "司馬景",
+  "identity_note": "固定此數位見證明名來源人物；同指與跨記差異依各來源qualification，不由角色數宣稱必為異人。\n本來源角色及具名/個別稱謂明確，跨篇是否另有同人可另存候選，不由slot字母證獨特歷史身份。",
+  "review": "ai_provisional",
+  "names": [
+    "皇子景度",
+    "景度",
+    "城陽懷王景"
+  ],
+  "titles": [
+    {
+      "id": "th-jin064-jing-territorial-grant",
+      "person_id": "dkn_ge4_286_AAAAIAI",
+      "title": "城陽王",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "received_title_analysis": {
+        "kind": "received_territorial_posthumous_rank_heading",
+        "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+        "paragraph_sha256": "1a2140abf7cdcd609719db6cae092f176fb902ebdd095d78c8d59f50f92e4aac",
+        "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000",
+        "surface_anchor": {
+          "start": 0,
+          "end": 4,
+          "surface": "城陽懷王"
+        },
+        "territory_anchor": {
+          "start": 0,
+          "end": 2,
+          "surface": "城陽"
+        },
+        "posthumous_anchor": {
+          "start": 2,
+          "end": 3,
+          "surface": "懷"
+        },
+        "rank_anchor": {
+          "start": 3,
+          "end": 4,
+          "surface": "王"
+        },
+        "grant_anchor": {
+          "start": 21,
+          "end": 27,
+          "surface": "泰始五年受封"
+        },
+        "normalized_title": "城陽王",
+        "grant_applies_to": "territorial_rank_only",
+        "posthumous_date": null,
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "model": null,
+        "rationale": "題首原surface逐字分領土、諡、爵等；領土王爵是編者結構化名稱，不冒原文連續同字。帶諡完整用稱另存unknown-date attestation。"
+      },
+      "attestations": [
+        {
+          "id": "th-jin064-jing-territorial-grant:occ1",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "start": 0,
+          "end": 4,
+          "surface": "城陽懷王",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000",
+          "usage": "retrospective",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "泰始五年",
+          "normalized_date": {
+            "era": "CE",
+            "era_year": 269,
+            "year": 269,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "calendar": "chinese_civil",
+            "status": "editorial_provisional",
+            "source_expression": "泰始五年",
+            "original_quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+            "evidence": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-064",
+                "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+                "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+                "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+                "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+                "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+              }
+            ],
+            "references": [
+              {
+                "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+                "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+                "quote": "泰始",
+                "columns": {
+                  "dynasty": "西晉",
+                  "era_name": "泰始",
+                  "first_year": "265",
+                  "last_year": "274"
+                },
+                "scope": "modern_era_year_equivalence_only",
+                "accessed_on": "2026-10-30",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本完整段明受封年；只給領土王爵授封年，不給題首諡字授予日期，不因死亡補爵終年。",
+            "reviewer": "Codex（AI代理）",
+            "human_reviewed": false,
+            "model": null,
+            "regnal_year_mapping": {
+              "kind": "ce_regnal_era_span",
+              "era_name": "泰始",
+              "source_number": "五",
+              "regnal_year": 5,
+              "start_ce_year": 265,
+              "end_ce_year": 274,
+              "reference_index": 0
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-064",
+              "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+              "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+              "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+              "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+              "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+        }
+      ],
+      "interpretation_note": "授封城陽王的原年；諡懷只見題首用稱、授諡日期未知。原字城陽懷王不改、不把帶諡全稱授在生前。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "西元269年（暫定） → 未定"
+    },
+    {
+      "id": "th-jin064-jing-received-posthumous-designation",
+      "person_id": "dkn_ge4_286_AAAAIAI",
+      "title": "城陽懷王",
+      "kind": "honorific",
+      "mode": "attestation",
+      "status": "source_attested",
+      "attestations": [
+        {
+          "id": "th-jin064-jing-received-posthumous-designation:occ1",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "start": 0,
+          "end": 4,
+          "surface": "城陽懷王",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000",
+          "usage": "posthumous_usage",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+        }
+      ],
+      "interpretation_note": "帶諡題首完整用稱；未載授諡年。與另列領土王爵受封年分開，不以其年作授諡年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 38,
+      "category": "",
+      "title": "晉書·卷三十八·列傳第八",
+      "paragraph_id": "c-jinshu-038-wen-children-rendered:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，先帝先後特所哀湣。先後欲紹立其後，而竟未遂，每追遺意，情懷感傷。其以皇子景度為千秋後，雖非典禮，亦近世之所行，且以述先後本旨也。」於是追加兆封諡。景度以泰始六年薨，復以第五子憲繼哀王后。薨，復以第六子祗為東海王，繼哀王后。薨，咸甯初又封第十三子遐為清河王，以繼兆後。",
+      "paragraph_ids": [
+        "c-jinshu-038-wen-children-rendered:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-038-wen-children-rendered:p002:m0079",
+        "c-jinshu-038-wen-children-rendered:p002:m0118"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-038-wen-children-rendered:p002:m0079": "c-jinshu-038-wen-children-rendered:p002",
+        "c-jinshu-038-wen-children-rendered:p002:m0118": "c-jinshu-038-wen-children-rendered:p002"
+      },
+      "mention_id": "c-jinshu-038-wen-children-rendered:p002:m0079",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-038-wen-children-rendered:p002:m0079",
+          "mention_ids": [
+            "c-jinshu-038-wen-children-rendered:p002:m0079"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-038-wen-children-rendered:p002:m0118",
+          "mention_ids": [
+            "c-jinshu-038-wen-children-rendered:p002:m0118"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-038",
+      "chapter_id": "c-jinshu-038-wen-children-rendered",
+      "source_id": "s-jinshu-038-wen-children-rendered",
+      "work_title": "晉書"
+    },
+    {
+      "number": 64,
+      "category": "",
+      "title": "武十三王",
+      "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "武帝二十六男：楊元后生毗陵悼王軌、惠帝、秦獻王柬。審美人生城陽懷王景、楚隱王瑋、長沙厲王乂。徐才人生城陽殤王憲。匱才人生東海沖王祗。趙才人生始平哀王裕。趙美人生代哀王演。李夫人生淮南忠壯王允、吳孝王晏。嚴保林生新都懷王該。陳美人生清河康王遐。諸姬生汝陰哀王謨。程才人生",
+      "paragraph_ids": [
+        "c-jinshu-064-wudi-sons-rendered:p001",
+        "c-jinshu-064-wudi-sons-rendered:p006"
+      ],
+      "mention_ids": [
+        "c-jinshu-064-wudi-sons-rendered:p001:m0029",
+        "c-jinshu-064-wudi-sons-rendered:p006:m0000",
+        "c-jinshu-064-wudi-sons-rendered:p006:m0007"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-064-wudi-sons-rendered:p001:m0029": "c-jinshu-064-wudi-sons-rendered:p001",
+        "c-jinshu-064-wudi-sons-rendered:p006:m0000": "c-jinshu-064-wudi-sons-rendered:p006",
+        "c-jinshu-064-wudi-sons-rendered:p006:m0007": "c-jinshu-064-wudi-sons-rendered:p006"
+      },
+      "mention_id": "c-jinshu-064-wudi-sons-rendered:p001:m0029",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-064-wudi-sons-rendered:p001:m0029",
+          "mention_ids": [
+            "c-jinshu-064-wudi-sons-rendered:p001:m0029"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000",
+          "mention_ids": [
+            "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0007",
+          "mention_ids": [
+            "c-jinshu-064-wudi-sons-rendered:p006:m0007"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+      "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-038-wen-children-rendered",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-038",
+      "source_id": "s-jinshu-038-wen-children-rendered",
+      "source": {
+        "title": "晉書·卷三十八·列傳第八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷038",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷038&oldid=2444513",
+        "revision_id": 2444513,
+        "accessed_on": "2026-10-30",
+        "edition": null,
+        "extent": "工具L197、282、288、293、299、305六完整原段；非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "capture_kind": "current_rendered_text_not_raw",
+        "raw_acquired": false,
+        "raw_revision": null,
+        "revision_link_observed": 2444513,
+        "quality_note": "普通頁所報修訂，未取得本次fixed body/raw；實際印本未知。工具注標另層，不改原字。",
+        "rights": "古代原文及Wikisource數位轉錄，保留來源歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+      "source": {
+        "title": "《晉書》卷六十四·武十三王",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷064",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷064&oldid=2622004",
+        "accessed_on": "2026-10-30",
+        "extent": "武十三王所選二十一完整原段：母子總段、已選傳首及子嗣段；允戰役長段、卷後元四王與簡文三子未在本包",
+        "text_scope": "partial_chapter",
+        "review_status": "in_progress",
+        "edition": "實際印本未知，未圖校",
+        "image_verified": false,
+        "human_reviewed": false,
+        "rights": "古代原文公有領域；維基文庫數位轉錄CC BY-SA4.0，保留取得與見證資格。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "acquisition": {
+          "reported_revision": 2622004,
+          "fixed_body_obtained": false,
+          "raw_obtained": false,
+          "actual_print_edition": null,
+          "image_verified": false,
+          "human_reviewed": false,
+          "observed_url": "https://zh.wikisource.org/wiki/晉書/卷064",
+          "tool_line_units": [
+            146,
+            152,
+            157,
+            159,
+            161,
+            166,
+            168,
+            170,
+            175,
+            179,
+            184,
+            186,
+            191,
+            192,
+            194,
+            196,
+            197,
+            202,
+            208,
+            210,
+            216
+          ]
+        },
+        "normalization": {
+          "character_conversion": {},
+          "rule": "只解工具link wrapper、display縮排及明示現代footnote callout；不校原字。現代校記另留外審計。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin038-children-jing-father-yan",
+      "subject_person_id": "dkn_ge4_286_AAAAIAI",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAIA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "皇子景度",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "jing-father-yan",
+          "subject_role_key": "jing_for_zhao",
+          "object_role_key": "emperor_grants"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p002",
+          "quote": "城陽哀王兆，字千秋，年十歲而夭。武帝踐阼，詔曰：「亡弟千秋，少聰慧，有夙成之質，不幸早亡，先帝先後特所哀湣。先後欲紹立其後，而竟未遂，每追遺意，情懷感傷。其以皇子景度為千秋後，雖非典禮，亦近世之所行，且以述先後本旨也。」於是追加兆封諡。景度以泰始六年薨，復以第五子憲繼哀王后。薨，復以第六子祗為東海王，繼哀王后。薨，咸甯初又封第十三子遐為清河王，以繼兆後。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p002:m0079",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p002:m0016"
+        }
+      ],
+      "interpretation_note": "完整武帝踐阼詔及承後敘事；子稱與序數的生父是武帝，不是所繼城陽哀王兆；景度為另篇景字景度的同指，不造本名景度。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin038-children-jing-successor-zhao",
+      "subject_person_id": "dkn_ge4_286_AAAAIAI",
+      "predicate": "ritual_successor_of",
+      "object_person_id": "dkn_ge4_286_AAAAIC",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "為千秋後",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "jing-successor-zhao",
+          "subject_role_key": "jing_for_zhao",
+          "object_role_key": "zhao_head"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p002",
+          "quote": "城陽哀王兆，字千秋，年十歲而夭。武帝踐阼，詔曰：「亡弟千秋，少聰慧，有夙成之質，不幸早亡，先帝先後特所哀湣。先後欲紹立其後，而竟未遂，每追遺意，情懷感傷。其以皇子景度為千秋後，雖非典禮，亦近世之所行，且以述先後本旨也。」於是追加兆封諡。景度以泰始六年薨，復以第五子憲繼哀王后。薨，復以第六子祗為東海王，繼哀王后。薨，咸甯初又封第十三子遐為清河王，以繼兆後。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p002:m0079",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p002:m0000"
+        }
+      ],
+      "interpretation_note": "按固定完整段主語及實際雙錨；生父、立嗣與爵位後繼分存，不由嗣補生父/母或以列表次序補排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin064-jing-father-wu",
+      "subject_person_id": "dkn_ge4_286_AAAAIAI",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAIA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "武帝二十六男",
+        "source_clause_binding": {
+          "kind": "received_sima_family_roles",
+          "source_scope": "c-jinshu-064-wudi-sons-rendered",
+          "role": "jing-father-wu"
+        },
+        "source_list_membership": true,
+        "absolute_birth_order_not_inferred": true
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p001",
+          "quote": "武帝二十六男：楊元后生毗陵悼王軌、惠帝、秦獻王柬。審美人生城陽懷王景、楚隱王瑋、長沙厲王乂。徐才人生城陽殤王憲。匱才人生東海沖王祗。趙才人生始平哀王裕。趙美人生代哀王演。李夫人生淮南忠壯王允、吳孝王晏。嚴保林生新都懷王該。陳美人生清河康王遐。諸姬生汝陰哀王謨。程才人生成都王穎。王才人生孝懷帝。楊悼后生渤海殤王恢。餘八子不顯母氏，並早夭，又無封國及追諡，今並略之。其瑋、乂、穎自有傳。",
+          "subject_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p001:m0029",
+          "object_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p001:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin064-jing-mother",
+      "subject_person_id": "dkn_ge4_286_AAAAIAI",
+      "predicate": "mother",
+      "object_person_id": "tje_7m0_3ze",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "審美人生城陽懷王景、楚隱王瑋、長沙厲王乂",
+        "source_clause_binding": {
+          "kind": "received_sima_family_roles",
+          "source_scope": "c-jinshu-064-wudi-sons-rendered",
+          "role": "jing-mother"
+        },
+        "list_clause_span_continuity": "同一母名下並列子；不將省略重排成假連續引文"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p001",
+          "quote": "武帝二十六男：楊元后生毗陵悼王軌、惠帝、秦獻王柬。審美人生城陽懷王景、楚隱王瑋、長沙厲王乂。徐才人生城陽殤王憲。匱才人生東海沖王祗。趙才人生始平哀王裕。趙美人生代哀王演。李夫人生淮南忠壯王允、吳孝王晏。嚴保林生新都懷王該。陳美人生清河康王遐。諸姬生汝陰哀王謨。程才人生成都王穎。王才人生孝懷帝。楊悼后生渤海殤王恢。餘八子不顯母氏，並早夭，又無封國及追諡，今並略之。其瑋、乂、穎自有傳。",
+          "subject_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p001:m0029",
+          "object_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p001:m0025"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin064-jing-successor-zhao",
+      "subject_person_id": "dkn_ge4_286_AAAAIAI",
+      "predicate": "ritual_successor_of",
+      "object_person_id": "dkn_ge4_286_AAAAIC",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "出繼叔父城陽哀王兆後",
+        "source_clause_binding": {
+          "kind": "received_sima_family_roles",
+          "source_scope": "c-jinshu-064-wudi-sons-rendered",
+          "role": "jing-successor-zhao"
+        },
+        "succession_kind": "named_child_as_ritual_successor",
+        "legal_adoption_status": "not_stated",
+        "biological_father_unchanged": true,
+        "parentage_inference": "not_inferred"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+          "subject_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000",
+          "object_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0014"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "dkn_ge4_286_AAAAIA": "晉武帝",
+    "dkn_ge4_286_AAAAIAI": "司馬景",
+    "dkn_ge4_286_AAAAIC": "司馬兆",
+    "tje_7m0_3ze": "審美人"
+  },
+  "dates": [
+    {
+      "era": "CE",
+      "era_year": 270,
+      "year": 270,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "calendar": "chinese_civil",
+      "status": "editorial_provisional",
+      "source_expression": "六年",
+      "original_quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+        }
+      ],
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "quote": "泰始",
+          "columns": {
+            "dynasty": "西晉",
+            "era_name": "泰始",
+            "first_year": "265",
+            "last_year": "274"
+          },
+          "scope": "modern_era_year_equivalence_only",
+          "accessed_on": "2026-10-30",
+          "image_verified": false
+        }
+      ],
+      "rationale": "完整本段明年號或承同段明年，僅換中國曆年度；月詞保原字，不作西曆月/日，不推生日或爵官終點。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "regnal_year_mapping": {
+        "kind": "relative_ce_regnal_era_span",
+        "era_name": "泰始",
+        "source_number": "六",
+        "regnal_year": 6,
+        "start_ce_year": 265,
+        "end_ce_year": 274,
+        "reference_index": 0,
+        "year_offset": 0,
+        "target_regnal_year": 6
+      },
+      "relative_year_reference": {
+        "kind": "omitted_era_regnal_year",
+        "source_term": "六年",
+        "era_evidence_index": 0,
+        "antecedent_evidence_index": 0,
+        "event_evidence_index": 0,
+        "era_expression": "泰始五年",
+        "antecedent_expression": "六年"
+      },
+      "record_id": "le-jin064-jing-death",
+      "person_id": "dkn_ge4_286_AAAAIAI",
+      "date_role": "life_event",
+      "event_type": "death"
+    },
+    {
+      "era": "CE",
+      "era_year": 269,
+      "year": 269,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "calendar": "chinese_civil",
+      "status": "editorial_provisional",
+      "source_expression": "泰始五年",
+      "original_quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+        }
+      ],
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "quote": "泰始",
+          "columns": {
+            "dynasty": "西晉",
+            "era_name": "泰始",
+            "first_year": "265",
+            "last_year": "274"
+          },
+          "scope": "modern_era_year_equivalence_only",
+          "accessed_on": "2026-10-30",
+          "image_verified": false
+        }
+      ],
+      "rationale": "本完整段明受封年；只給領土王爵授封年，不給題首諡字授予日期，不因死亡補爵終年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "regnal_year_mapping": {
+        "kind": "ce_regnal_era_span",
+        "era_name": "泰始",
+        "source_number": "五",
+        "regnal_year": 5,
+        "start_ce_year": 265,
+        "end_ce_year": 274,
+        "reference_index": 0
+      },
+      "record_id": "th-jin064-jing-territorial-grant",
+      "person_id": "dkn_ge4_286_AAAAIAI",
+      "endpoint": "start",
+      "title": "城陽王"
+    }
+  ],
+  "name_components": [
+    {
+      "id": "name-jin064-jing",
+      "person_id": "dkn_ge4_286_AAAAIAI",
+      "surname": "司馬",
+      "ming": "景",
+      "zi": "景度",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+      "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+      "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+        "start": 4,
+        "end": 5,
+        "surface": "景"
+      },
+      "zi_source_anchor": {
+        "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+        "start": 7,
+        "end": 9,
+        "surface": "景度"
+      },
+      "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_received_sima_family_roles",
+        "source_scope": "c-jinshu-064-wudi-sons-rendered",
+        "role": "jing",
+        "source_contract": "source-evidence/sima-family-source-bridges/jin064-source-contract.json",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "001司馬氏與本源明父鏈；字母slot不作排行。"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons"
+    }
+  ],
+  "person_ids": [
+    "dkn_ge4_286_AAAAIAI"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin038-children-jing-father-yan",
+      "subject_person_id": "dkn_ge4_286_AAAAIAI",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAIA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "皇子景度",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "jing-father-yan",
+          "subject_role_key": "jing_for_zhao",
+          "object_role_key": "emperor_grants"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p002",
+          "quote": "城陽哀王兆，字千秋，年十歲而夭。武帝踐阼，詔曰：「亡弟千秋，少聰慧，有夙成之質，不幸早亡，先帝先後特所哀湣。先後欲紹立其後，而竟未遂，每追遺意，情懷感傷。其以皇子景度為千秋後，雖非典禮，亦近世之所行，且以述先後本旨也。」於是追加兆封諡。景度以泰始六年薨，復以第五子憲繼哀王后。薨，復以第六子祗為東海王，繼哀王后。薨，咸甯初又封第十三子遐為清河王，以繼兆後。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p002:m0079",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p002:m0016"
+        }
+      ],
+      "interpretation_note": "完整武帝踐阼詔及承後敘事；子稱與序數的生父是武帝，不是所繼城陽哀王兆；景度為另篇景字景度的同指，不造本名景度。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin038-children-jing-successor-zhao",
+      "subject_person_id": "dkn_ge4_286_AAAAIAI",
+      "predicate": "ritual_successor_of",
+      "object_person_id": "dkn_ge4_286_AAAAIC",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "為千秋後",
+        "source_clause_binding": {
+          "kind": "jin038_wen_children_received_roles",
+          "claim_key": "jing-successor-zhao",
+          "subject_role_key": "jing_for_zhao",
+          "object_role_key": "zhao_head"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p002",
+          "quote": "城陽哀王兆，字千秋，年十歲而夭。武帝踐阼，詔曰：「亡弟千秋，少聰慧，有夙成之質，不幸早亡，先帝先後特所哀湣。先後欲紹立其後，而竟未遂，每追遺意，情懷感傷。其以皇子景度為千秋後，雖非典禮，亦近世之所行，且以述先後本旨也。」於是追加兆封諡。景度以泰始六年薨，復以第五子憲繼哀王后。薨，復以第六子祗為東海王，繼哀王后。薨，咸甯初又封第十三子遐為清河王，以繼兆後。",
+          "subject_person_mention_id": "c-jinshu-038-wen-children-rendered:p002:m0079",
+          "object_person_mention_id": "c-jinshu-038-wen-children-rendered:p002:m0000"
+        }
+      ],
+      "interpretation_note": "按固定完整段主語及實際雙錨；生父、立嗣與爵位後繼分存，不由嗣補生父/母或以列表次序補排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin064-jing-father-wu",
+      "subject_person_id": "dkn_ge4_286_AAAAIAI",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAIA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "武帝二十六男",
+        "source_clause_binding": {
+          "kind": "received_sima_family_roles",
+          "source_scope": "c-jinshu-064-wudi-sons-rendered",
+          "role": "jing-father-wu"
+        },
+        "source_list_membership": true,
+        "absolute_birth_order_not_inferred": true
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p001",
+          "quote": "武帝二十六男：楊元后生毗陵悼王軌、惠帝、秦獻王柬。審美人生城陽懷王景、楚隱王瑋、長沙厲王乂。徐才人生城陽殤王憲。匱才人生東海沖王祗。趙才人生始平哀王裕。趙美人生代哀王演。李夫人生淮南忠壯王允、吳孝王晏。嚴保林生新都懷王該。陳美人生清河康王遐。諸姬生汝陰哀王謨。程才人生成都王穎。王才人生孝懷帝。楊悼后生渤海殤王恢。餘八子不顯母氏，並早夭，又無封國及追諡，今並略之。其瑋、乂、穎自有傳。",
+          "subject_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p001:m0029",
+          "object_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p001:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin064-jing-mother",
+      "subject_person_id": "dkn_ge4_286_AAAAIAI",
+      "predicate": "mother",
+      "object_person_id": "tje_7m0_3ze",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "審美人生城陽懷王景、楚隱王瑋、長沙厲王乂",
+        "source_clause_binding": {
+          "kind": "received_sima_family_roles",
+          "source_scope": "c-jinshu-064-wudi-sons-rendered",
+          "role": "jing-mother"
+        },
+        "list_clause_span_continuity": "同一母名下並列子；不將省略重排成假連續引文"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p001",
+          "quote": "武帝二十六男：楊元后生毗陵悼王軌、惠帝、秦獻王柬。審美人生城陽懷王景、楚隱王瑋、長沙厲王乂。徐才人生城陽殤王憲。匱才人生東海沖王祗。趙才人生始平哀王裕。趙美人生代哀王演。李夫人生淮南忠壯王允、吳孝王晏。嚴保林生新都懷王該。陳美人生清河康王遐。諸姬生汝陰哀王謨。程才人生成都王穎。王才人生孝懷帝。楊悼后生渤海殤王恢。餘八子不顯母氏，並早夭，又無封國及追諡，今並略之。其瑋、乂、穎自有傳。",
+          "subject_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p001:m0029",
+          "object_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p001:m0025"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin064-jing-successor-zhao",
+      "subject_person_id": "dkn_ge4_286_AAAAIAI",
+      "predicate": "ritual_successor_of",
+      "object_person_id": "dkn_ge4_286_AAAAIC",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "出繼叔父城陽哀王兆後",
+        "source_clause_binding": {
+          "kind": "received_sima_family_roles",
+          "source_scope": "c-jinshu-064-wudi-sons-rendered",
+          "role": "jing-successor-zhao"
+        },
+        "succession_kind": "named_child_as_ritual_successor",
+        "legal_adoption_status": "not_stated",
+        "biological_father_unchanged": true,
+        "parentage_inference": "not_inferred"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+          "subject_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000",
+          "object_person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0014"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "dkn_ge4_286_AAAAIAI",
+    "representative_source_person_id": "dkn_ge4_286_AAAAIAI",
+    "source_person_ids": [
+      "dkn_ge4_286_AAAAIAI"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "dkn_ge4_286_AAAAIA",
+    "source_assertion_id": "a-jin064-jing-father-wu",
+    "connection": "father",
+    "assembly_id": "family-sima-jun-near-ancestry",
+    "root_person_id": "dkn_ge4_286",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-jin064-jing-death",
+      "person_id": "dkn_ge4_286_AAAAIAI",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "六年",
+      "source_term": "薨",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+        "start": 30,
+        "end": 31,
+        "surface": "薨"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+        }
+      ],
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 270,
+        "year": 270,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "status": "editorial_provisional",
+        "source_expression": "六年",
+        "original_quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-064",
+            "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+            "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+            "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+            "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+            "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "泰始",
+            "columns": {
+              "dynasty": "西晉",
+              "era_name": "泰始",
+              "first_year": "265",
+              "last_year": "274"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-10-30",
+            "image_verified": false
+          }
+        ],
+        "rationale": "完整本段明年號或承同段明年，僅換中國曆年度；月詞保原字，不作西曆月/日，不推生日或爵官終點。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "regnal_year_mapping": {
+          "kind": "relative_ce_regnal_era_span",
+          "era_name": "泰始",
+          "source_number": "六",
+          "regnal_year": 6,
+          "start_ce_year": 265,
+          "end_ce_year": 274,
+          "reference_index": 0,
+          "year_offset": 0,
+          "target_regnal_year": 6
+        },
+        "relative_year_reference": {
+          "kind": "omitted_era_regnal_year",
+          "source_term": "六年",
+          "era_evidence_index": 0,
+          "antecedent_evidence_index": 0,
+          "event_evidence_index": 0,
+          "era_expression": "泰始五年",
+          "antecedent_expression": "六年"
+        }
+      },
+      "interpretation_note": "本段傳主死亡；不借旁人薨詞或段內嗣子之死，報齡不推生年、不推死地、不補全部官爵終年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

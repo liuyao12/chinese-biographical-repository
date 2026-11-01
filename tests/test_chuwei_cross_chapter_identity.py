@@ -2,9 +2,10 @@
 import json
 import unittest
 from pathlib import Path
+from scripts.sima_snapshot_source_roles import resolve_roles as sima_roles
 
 ROOT = Path(__file__).resolve().parents[1]
-KEEP = '20b_1c2_a06'
+KEEP = sima_roles(ROOT)['wei']
 OLD = 'yt9_gts_k6b'
 DID = 'd-songshu060-chuwei-cross-chapter'
 

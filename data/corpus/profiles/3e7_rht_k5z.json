@@ -8,7 +8,8 @@
   "names": [
     "和",
     "和帝",
-    "穆宗"
+    "穆宗",
+    "孝和"
   ],
   "titles": [
     {
@@ -241,6 +242,41 @@
       "chapter_id": "c-houhanshu-009-xiandi-early",
       "source_id": "s-houhanshu-009-xiandi-early",
       "work_title": "後漢書"
+    },
+    {
+      "number": 64,
+      "category": "",
+      "title": "武十三王",
+      "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p014",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，非祖宗之遺志，社稷之長計也。禮，兄弟之子猶子，故漢成無嗣，繼由定陶；孝和之絕，安以紹興。此先王之令典，往代之成式也。清河王覃神姿岐嶷，慧智早成，康王正妃周氏所生，先帝眾孫之中，於今為嫡。昔薄姬賢明，文則承位。覃外祖恢世載名德，覃宜奉宗廟之重，統無窮之祚，以甯四海顒顒之望。",
+      "paragraph_ids": [
+        "c-jinshu-064-wudi-sons-rendered:p014"
+      ],
+      "mention_ids": [
+        "c-jinshu-064-wudi-sons-rendered:p014:m0097"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-064-wudi-sons-rendered:p014:m0097": "c-jinshu-064-wudi-sons-rendered:p014"
+      },
+      "mention_id": "c-jinshu-064-wudi-sons-rendered:p014:m0097",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-064-wudi-sons-rendered:p014:m0097",
+          "mention_ids": [
+            "c-jinshu-064-wudi-sons-rendered:p014:m0097"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+      "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -270,6 +306,63 @@
         "response_sha256": "e0459bbe8ebcc6a3bf0ac881302a830b7b8b77284da70faf0723686b9c9bbba5",
         "source_blob_sha": "1d565549277da141b973c906f61aeef06cff7d7e",
         "raw_path": "sources/houhanshu/009-kr6db36b6-xiandi-fixed.txt"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-064",
+      "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+      "source": {
+        "title": "《晉書》卷六十四·武十三王",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷064",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷064&oldid=2622004",
+        "accessed_on": "2026-10-30",
+        "extent": "武十三王所選二十一完整原段：母子總段、已選傳首及子嗣段；允戰役長段、卷後元四王與簡文三子未在本包",
+        "text_scope": "partial_chapter",
+        "review_status": "in_progress",
+        "edition": "實際印本未知，未圖校",
+        "image_verified": false,
+        "human_reviewed": false,
+        "rights": "古代原文公有領域；維基文庫數位轉錄CC BY-SA4.0，保留取得與見證資格。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "acquisition": {
+          "reported_revision": 2622004,
+          "fixed_body_obtained": false,
+          "raw_obtained": false,
+          "actual_print_edition": null,
+          "image_verified": false,
+          "human_reviewed": false,
+          "observed_url": "https://zh.wikisource.org/wiki/晉書/卷064",
+          "tool_line_units": [
+            146,
+            152,
+            157,
+            159,
+            161,
+            166,
+            168,
+            170,
+            175,
+            179,
+            184,
+            186,
+            191,
+            192,
+            194,
+            196,
+            197,
+            202,
+            208,
+            210,
+            216
+          ]
+        },
+        "normalization": {
+          "character_conversion": {},
+          "rule": "只解工具link wrapper、display縮排及明示現代footnote callout；不校原字。現代校記另留外審計。"
+        }
       }
     }
   ],

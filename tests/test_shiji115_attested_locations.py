@@ -1,4 +1,4 @@
-from tests.portable_fixture_copy import fixture_copy2
+from tests.portable_fixture_copy import fixture_copy2, copy_required_native_source_fixtures
 import copy,json,shutil,tempfile,unittest
 from pathlib import Path
 from scripts.validate_corpus import validate
@@ -12,9 +12,7 @@ def _copy_source_fixture(root):
     for name in ('profile-names.json','chapter-directory.json'):
         shutil.copy2(R/'data/corpus'/name,root/'data/corpus'/name)
     # Preserve the declared immutable capture required by the Pei source proof.
-    capture='tests/fixtures/occurrence-concordance/original-anchors.json'
-    (root/capture).parent.mkdir(parents=True,exist_ok=True)
-    fixture_copy2(R/capture,root/capture)
+    copy_required_native_source_fixtures(R, root)
 
 class ChaoxianAttestedLocations(unittest.TestCase):
  def test_unmodified_source_fixture_has_no_errors(self):

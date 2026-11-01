@@ -1,3 +1,4 @@
+import {collectiveMarkerHTML,collectiveNotesHTML,chapterTitleHTML} from './source-role-readings.js';
 import {layerParagraph} from './commentary-layers.js';
 import {sourceCitation} from './source-caption.js';
 import {workMentionHTML} from './work-titles.js';
@@ -63,14 +64,14 @@ export function chapterParagraph(paragraph, people = {}, context = null, workTit
     } else if (mention.kind === 'pronoun') {
       fragments.push(`<span id="${h(mention.id)}" class="cbr-pronoun">${text}</span>`);
     } else if (mention.kind === 'work' && mention.work_id && mention.person_id == null) {
-      fragments.push(workMentionHTML(mention, workTitles));
+      fragments.push(chapterTitleHTML(mention,paragraph,sourcePassageURL) || workMentionHTML(mention, workTitles));
     } else if (mention.kind === 'non_person' && mention.person_id == null) {
       fragments.push(`<span id="${h(mention.id)}" class="cbr-non-person" data-lexical-role="${h(mention.lexical_role)}" title="${h(mention.interpretation_note)}">${text}</span>`);
-    } else fragments.push(`<span id="${h(mention.id)}" class="unresolved-mention" title="${h(mention.interpretation_note || '未定指稱')}">${text}</span>`);
+    } else fragments.push(collectiveMarkerHTML(mention) || `<span id="${h(mention.id)}" class="unresolved-mention" title="${h(mention.interpretation_note || '未定指稱')}">${text}</span>`);
     end = mention.end;
   }
   fragments.push(h(chars.slice(end).join('')));
-  return layerParagraph(paragraph,`<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`,extraHTML);
+  return layerParagraph(paragraph,`<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`,extraHTML+collectiveNotesHTML(paragraph));
 }
 export function filteredChapters(index, category, query = '') {
   const term = query.trim();

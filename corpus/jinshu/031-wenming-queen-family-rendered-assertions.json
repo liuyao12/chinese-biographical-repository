@@ -1,0 +1,544 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+  "assertions": [
+    {
+      "id": "a-jin031-wen-family-queen-father-wangsu",
+      "subject_person_id": "d21_081_910_AA",
+      "predicate": "father",
+      "object_person_id": "d21_081_910_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父肅",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "queen-father-wangsu",
+          "subject_role_key": "queen_ming",
+          "object_role_key": "queen_father"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p001",
+          "quote": "文明王皇后諱元姬，東海郯人也。父肅，魏中領軍、蘭陵侯。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p001:m0006",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p001:m0016"
+        }
+      ],
+      "interpretation_note": "固定完整段、跨段傳主鏈及真MID；生父母與收繼分開，不由帝/后最近字或爵號猜親。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-queen-grandfather-wanglang",
+      "subject_person_id": "d21_081_910_AA",
+      "predicate": "grandfather",
+      "object_person_id": "d21_081_910",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖朗",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "queen-grandfather-wanglang",
+          "subject_role_key": "queen_child",
+          "object_role_key": "grandfather_lang"
+        },
+        "lineage": "paternal",
+        "father_person_id": "d21_081_910_A",
+        "father_to_grandfather_step": "explicit_parallel_parent_phrase_not_native_verbatim"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p002",
+          "quote": "后年八歲，誦詩論，尤善喪服；苟有文義，目所一見，必貫於心。年九歲，遇母疾，扶侍不捨左右，衣不解帶者久之。每先意候指，動中所適，由是父母令攝家事，每盡其理。祖朗甚愛異之，曰：「興吾家者，必此女也，惜不為男矣！」年十二，朗薨，后哀戚哭泣，發于自然，其父益加敬異。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p002:m0000",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p002:m0078"
+        }
+      ],
+      "interpretation_note": "本段祖朗為王后之祖；031父肅與三國志013裴注肅父朗相互閉合，不冒祖朗為031逐字肅父朗。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-wangsu-father-wanglang",
+      "subject_person_id": "d21_081_910_A",
+      "predicate": "father",
+      "object_person_id": "d21_081_910",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖朗",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "wangsu-father-wanglang",
+          "subject_role_key": "father_respects",
+          "object_role_key": "grandfather_lang"
+        },
+        "lineage": "paternal",
+        "parent_statement_basis": "primary_parallel_explicit_father_phrase",
+        "parallel_reference": "source-evidence/jin031-wenming-queen-family-rendered/wangsu-parent-primary-reference.json"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p002",
+          "quote": "后年八歲，誦詩論，尤善喪服；苟有文義，目所一見，必貫於心。年九歲，遇母疾，扶侍不捨左右，衣不解帶者久之。每先意候指，動中所適，由是父母令攝家事，每盡其理。祖朗甚愛異之，曰：「興吾家者，必此女也，惜不為男矣！」年十二，朗薨，后哀戚哭泣，發于自然，其父益加敬異。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p002:m0123",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p002:m0078"
+        }
+      ],
+      "interpretation_note": "031同段其父指肅、祖朗指王后父祖；父子直接語句來自三國志013裴注肅父朗與許靖書云，非把原031祖孫文改寫成父子。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-queen-spouse-zhao",
+      "subject_person_id": "d21_081_910_AA",
+      "predicate": "spouse",
+      "object_person_id": "dkn_ge4_286_AAAAI",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "歸于文帝",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "queen-spouse-zhao",
+          "subject_role_key": "queen_serves",
+          "object_role_key": "zhao_husband"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0042",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0005"
+        }
+      ],
+      "interpretation_note": "固定完整段、跨段傳主鏈及真MID；生父母與收繼分開，不由帝/后最近字或爵號猜親。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-yan_son-mother-queen",
+      "subject_person_id": "dkn_ge4_286_AAAAIA",
+      "predicate": "mother",
+      "object_person_id": "d21_081_910_AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "生武帝及",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "yan_son-mother-queen",
+          "subject_role_key": "yan_son",
+          "object_role_key": "queen_serves"
+        },
+        "biological_status": "explicit_bore_child"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0009",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0042"
+        }
+      ],
+      "interpretation_note": "本傳先明文明王皇后諱元姬，再同傳婚育段明生六人；不是就近把任何后/王氏接成生母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-yan_son-father-zhao",
+      "subject_person_id": "dkn_ge4_286_AAAAIA",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAI",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "歸于文帝，生",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "yan_son-father-zhao",
+          "subject_role_key": "yan_son",
+          "object_role_key": "zhao_husband"
+        },
+        "lineage": "paternal",
+        "father_basis": "same_received_mother_marriage_and_birth_sentence"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0009",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0005"
+        }
+      ],
+      "interpretation_note": "完整母傳明歸文帝並生列名子女；王后主語由本傳開篇/中段/后詞真MID閉合，不以稱號臆定生父。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-dingguo_son-mother-queen",
+      "subject_person_id": "dkn_ge4_286_AAAAID",
+      "predicate": "mother",
+      "object_person_id": "d21_081_910_AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "生武帝及",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "dingguo_son-mother-queen",
+          "subject_role_key": "dingguo_son",
+          "object_role_key": "queen_serves"
+        },
+        "biological_status": "explicit_bore_child"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0012",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0042"
+        }
+      ],
+      "interpretation_note": "本傳先明文明王皇后諱元姬，再同傳婚育段明生六人；不是就近把任何后/王氏接成生母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-dingguo_son-father-zhao",
+      "subject_person_id": "dkn_ge4_286_AAAAID",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAI",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "歸于文帝，生",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "dingguo_son-father-zhao",
+          "subject_role_key": "dingguo_son",
+          "object_role_key": "zhao_husband"
+        },
+        "lineage": "paternal",
+        "father_basis": "same_received_mother_marriage_and_birth_sentence"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0012",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0005"
+        }
+      ],
+      "interpretation_note": "完整母傳明歸文帝並生列名子女；王后主語由本傳開篇/中段/后詞真MID閉合，不以稱號臆定生父。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-you_son-mother-queen",
+      "subject_person_id": "dkn_ge4_286_AAAAIB",
+      "predicate": "mother",
+      "object_person_id": "d21_081_910_AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "生武帝及",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "you_son-mother-queen",
+          "subject_role_key": "you_son",
+          "object_role_key": "queen_serves"
+        },
+        "biological_status": "explicit_bore_child"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0019",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0042"
+        }
+      ],
+      "interpretation_note": "本傳先明文明王皇后諱元姬，再同傳婚育段明生六人；不是就近把任何后/王氏接成生母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-you_son-father-zhao",
+      "subject_person_id": "dkn_ge4_286_AAAAIB",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAI",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "歸于文帝，生",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "you_son-father-zhao",
+          "subject_role_key": "you_son",
+          "object_role_key": "zhao_husband"
+        },
+        "lineage": "paternal",
+        "father_basis": "same_received_mother_marriage_and_birth_sentence"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0019",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0005"
+        }
+      ],
+      "interpretation_note": "完整母傳明歸文帝並生列名子女；王后主語由本傳開篇/中段/后詞真MID閉合，不以稱號臆定生父。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-zhao_son-mother-queen",
+      "subject_person_id": "dkn_ge4_286_AAAAIC",
+      "predicate": "mother",
+      "object_person_id": "d21_081_910_AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "生武帝及",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "zhao_son-mother-queen",
+          "subject_role_key": "zhao_son",
+          "object_role_key": "queen_serves"
+        },
+        "biological_status": "explicit_bore_child"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0024",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0042"
+        }
+      ],
+      "interpretation_note": "本傳先明文明王皇后諱元姬，再同傳婚育段明生六人；不是就近把任何后/王氏接成生母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-zhao_son-father-zhao",
+      "subject_person_id": "dkn_ge4_286_AAAAIC",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAI",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "歸于文帝，生",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "zhao_son-father-zhao",
+          "subject_role_key": "zhao_son",
+          "object_role_key": "zhao_husband"
+        },
+        "lineage": "paternal",
+        "father_basis": "same_received_mother_marriage_and_birth_sentence"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0024",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0005"
+        }
+      ],
+      "interpretation_note": "完整母傳明歸文帝並生列名子女；王后主語由本傳開篇/中段/后詞真MID閉合，不以稱號臆定生父。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-guangde_son-mother-queen",
+      "subject_person_id": "dkn_ge4_286_AAAAIE",
+      "predicate": "mother",
+      "object_person_id": "d21_081_910_AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "生武帝及",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "guangde_son-mother-queen",
+          "subject_role_key": "guangde_son",
+          "object_role_key": "queen_serves"
+        },
+        "biological_status": "explicit_bore_child"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0030",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0042"
+        }
+      ],
+      "interpretation_note": "本傳先明文明王皇后諱元姬，再同傳婚育段明生六人；不是就近把任何后/王氏接成生母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-guangde_son-father-zhao",
+      "subject_person_id": "dkn_ge4_286_AAAAIE",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAI",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "歸于文帝，生",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "guangde_son-father-zhao",
+          "subject_role_key": "guangde_son",
+          "object_role_key": "zhao_husband"
+        },
+        "lineage": "paternal",
+        "father_basis": "same_received_mother_marriage_and_birth_sentence"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0030",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0005"
+        }
+      ],
+      "interpretation_note": "完整母傳明歸文帝並生列名子女；王后主語由本傳開篇/中段/后詞真MID閉合，不以稱號臆定生父。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-princess_daughter-mother-queen",
+      "subject_person_id": "dkn_ge4_286_AAAAIJ",
+      "predicate": "mother",
+      "object_person_id": "d21_081_910_AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "生武帝及",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "princess_daughter-mother-queen",
+          "subject_role_key": "princess_daughter",
+          "object_role_key": "queen_serves"
+        },
+        "biological_status": "explicit_bore_child"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0037",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0042"
+        }
+      ],
+      "interpretation_note": "本傳先明文明王皇后諱元姬，再同傳婚育段明生六人；不是就近把任何后/王氏接成生母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin031-wen-family-princess_daughter-father-zhao",
+      "subject_person_id": "dkn_ge4_286_AAAAIJ",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAI",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "歸于文帝，生",
+        "source_clause_binding": {
+          "kind": "jin005031_wen_family_received_roles",
+          "claim_key": "princess_daughter-father-zhao",
+          "subject_role_key": "princess_daughter",
+          "object_role_key": "zhao_husband"
+        },
+        "lineage": "paternal",
+        "father_basis": "same_received_mother_marriage_and_birth_sentence"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-wenming-queen-family-rendered",
+          "chapter_id": "c-jinshu-031-wenming-queen-family-rendered",
+          "paragraph_id": "c-jinshu-031-wenming-queen-family-rendered:p003",
+          "quote": "既笄，歸于文帝，生武帝及遼東悼王定國、齊獻王攸、城陽哀王兆、廣漢殤王廣德、京兆公主。后事舅姑盡婦道，謙沖接下，嬪御有序。及居父喪，身不勝衣，言與淚俱。時鍾會以才能見任，后每言于帝曰：「會見利忘義，好為事端，寵過必亂，不可大任。」會後果反。",
+          "subject_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0037",
+          "object_person_mention_id": "c-jinshu-031-wenming-queen-family-rendered:p003:m0005"
+        }
+      ],
+      "interpretation_note": "完整母傳明歸文帝並生列名子女；王后主語由本傳開篇/中段/后詞真MID閉合，不以稱號臆定生父。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

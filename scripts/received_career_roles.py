@@ -93,6 +93,10 @@ def analyse(record,ch):
  return p,roles,fields,slots
 
 def holding_valid(h,ch,root=None):
+ if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_jin037_qiao_received_offices':
+  try:from scripts.jin037_qiao_office_reports import record_valid
+  except ImportError:from jin037_qiao_office_reports import record_valid
+  return record_valid(h,ch,root,'holding')
  if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_zhou041_explicit_noble_rank':
   try:from scripts.zhou041_wangbao_noble_ranks import holding_valid as zhou041_noble_valid
   except ImportError:from zhou041_wangbao_noble_ranks import holding_valid as zhou041_noble_valid
@@ -151,6 +155,10 @@ def holding_valid(h,ch,root=None):
  except(KeyError,TypeError,ValueError,AssertionError,StopIteration,IndexError):return False
 
 def detail_valid(d,ch,holdings,root=None):
+ if isinstance(d,dict)and isinstance(d.get('source_career_role'),dict)and d['source_career_role'].get('kind')=='fixed_jin037_qiao_received_offices':
+  try:from scripts.jin037_qiao_office_reports import record_valid
+  except ImportError:from jin037_qiao_office_reports import record_valid
+  return record_valid(d,ch,root,'detail')
  if not isinstance(d,dict)or not isinstance(d.get('source_career_role'),dict):return False
  if isinstance(d,dict)and d.get('source_career_role',{}).get('kind')=='fixed_jin098_received_career_phase1':
   try:from scripts.fixed_jin098_wangdun_career import record_valid

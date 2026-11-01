@@ -90,10 +90,15 @@ class TitlePreference(unittest.TestCase):
   try:from scripts.person_bundle import load_catalog
   except ImportError:from person_bundle import load_catalog
   self.people,self.records=load_catalog(ROOT)
+ def song063_preference(self,records=None):
+  rows=self.records if records is None else records
+  matches=[(r,d) for r in rows if r.get('record_type')=='profile_title_preference_set' for d in r['decisions'] if d['source_ref']['chapter_id']=='c-songshu-063-wyd1739-wangtanshou']
+  self.assertEqual(len(matches),1)
+  return matches[0]
  def test_actual_attestation_and_transaction_cache(self):
   try:from scripts.profile_title_preferences import choice
   except ImportError:from profile_title_preferences import choice
-  title=next(r for r in self.records if r.get('record_type')=='profile_title_preference_set')['decisions'][0]
+  title=self.song063_preference()[1]
   selected=choice(self.records,self.people,title['person_id'],ROOT)
   self.assertEqual(selected['title'],'太保');self.assertEqual(selected['mode'],'attestation')
   with patch('scripts.profile_title_preferences.resolve' if 'scripts.profile_title_preferences'in __import__('sys').modules else 'profile_title_preferences.resolve',side_effect=AssertionError('rescan')):
@@ -104,7 +109,7 @@ class TitlePreference(unittest.TestCase):
   except ImportError:from profile_title_preferences import choice
   self.assertIs(type(copy.deepcopy(self.records)),list)
   for change in ['person','proposal','title','time','duplicate']:
-   records=copy.deepcopy(self.records);pref=next(r for r in records if r.get('record_type')=='profile_title_preference_set');d=pref['decisions'][0];original=d['person_id']
+   records=copy.deepcopy(self.records);pref,d=self.song063_preference(records);original=d['person_id']
    if change=='person':d['person_id']=next(p for p in self.people if p!=original)
    elif change=='proposal':d['holding_id']='not-assumed-proposal'
    elif change=='title':next(h for r in records if r.get('record_type')=='title_holding_assertion_set' for h in r['holdings'] if h['id']==d['holding_id'])['title']='太傅'
@@ -114,7 +119,7 @@ class TitlePreference(unittest.TestCase):
  def test_selected_raw_dependency_change_rejected_without_reusing_old_index(self):
   try:from scripts.profile_title_preferences import choice
   except ImportError:from profile_title_preferences import choice
-  d=next(r for r in self.records if r.get('record_type')=='profile_title_preference_set')['decisions'][0];raw=Path.read_bytes
+  d=self.song063_preference()[1];raw=Path.read_bytes
   ch=next(r for r in self.records if r.get('id')=='c-songshu-063-wyd1739-wangtanshou');target=ROOT/ch['source']['raw_file']
   def reader(p):return raw(p)+b'bad'if p.resolve()==target.resolve()else raw(p)
   with patch.object(Path,'read_bytes',reader):

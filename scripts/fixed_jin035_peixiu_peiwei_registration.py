@@ -77,7 +77,12 @@ def _typed_base_state(root, chapter_override=None, extra_sidecars=()):
  for key,spec in {**parent['known_seeds'],**case['known_seeds']}.items():
   seed=read(spec['chapter_path']);assert same(seed['source'],spec['source'])and same({k:seed[k]for k in spec['dimensions']},spec['dimensions'])
   if 'paragraph'in spec:
-   expected=expand(spec['paragraph']);p=next(p for p in seed['paragraphs']if p['id']==expected['id']);assert same(p,expected);m=next(m for m in p['mentions']if m['id']==spec['reverse']['mention_id'])
+   expected=expand(spec['paragraph'])
+   if key=='hanwei'and spec is case['known_seeds'].get('hanwei'):
+    try:from scripts.sima_current_legacy_projection import _state as sima_state
+    except ImportError:from sima_current_legacy_projection import _state as sima_state
+    wu,=[m for m in expected['mentions']if m['id']=='c-jinshu-040-wyd1739-jiachong:p021:m0020'];assert wu['kind']=='person'and wu['surface']=='太子';wu['person_id']=sima_state(root,people)[1]['yu_minhuai']
+   p=next(p for p in seed['paragraphs']if p['id']==expected['id']);assert same(p,expected);m=next(m for m in p['mentions']if m['id']==spec['reverse']['mention_id'])
   else:
    p=next(p for p in seed['paragraphs']if p['id']==spec['paragraph_id']);m=next(m for m in p['mentions']if m['id']==spec['marker']['id']);assert p['text']==spec['quote']and same({k:v for k,v in m.items()if k!='person_id'},spec['marker'])
   assert m['person_id']==roles['$'+key];person=people[m['person_id']];assert same([e for e in person['evidence']if e['mention_id']==m['id']],[spec['reverse']])and any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases'])

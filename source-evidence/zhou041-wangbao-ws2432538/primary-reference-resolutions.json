@@ -1,0 +1,97 @@
+{
+  "format_version": 1,
+  "record_type": "primary_source_reference_resolution_set",
+  "owner": {
+    "chapter_path": "corpus/zhoushu/041-wangbao-ws2432538.json",
+    "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+    "work_id": "w-zhoushu",
+    "book_id": "b-zhoushu-041",
+    "source_id": "s-zhoushu041-ws2432538"
+  },
+  "decision_path": "corpus/zhoushu/041-wangbao-ws2432538-identities.json",
+  "entries": [
+    {
+      "id": "d-zhou041-guanling",
+      "role": "guanling",
+      "kind": "allusive_person",
+      "target": {
+        "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p010",
+        "mention_id": "c-zhoushu-041-wangbao-ws2432538:p010:m0027",
+        "start": 27,
+        "end": 29,
+        "surface": "關令",
+        "paragraph_sha256": "0527e993d3691cb8bb62a546b0786f030bb8860370e2ede147d3208dca568e8d"
+      },
+      "canonical_anchor": {
+        "path": "corpus/shiji/063.json",
+        "source_dimensions": {
+          "id": "c-shiji-063-laohan",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-063",
+          "source_id": "s-shiji-063-laohan"
+        },
+        "source_metadata_sha256": "111919dc22292f73c7f488fba5d7a924382f068ace50dd4019ee01954858d874",
+        "paragraph_id": "c-shiji-063-laohan:p003",
+        "paragraph_text_sha256": "5a699a24d62708367db65163139b61949d63dabc49e8b80b9834e5b443f58879",
+        "marker": {
+          "id": "c-shiji-063-laohan:m003-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "尹喜",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        "reverse": {
+          "mention_id": "c-shiji-063-laohan:m003-0035",
+          "chapter_id": "c-shiji-063-laohan",
+          "paragraph_id": "c-shiji-063-laohan:p003",
+          "quote": "尹喜"
+        }
+      },
+      "primary": {
+        "acquisition_kind": "current_rendered_unknown_print",
+        "observation_path": "source-evidence/zhou041-wangbao-ws2432538/shiji063-guanling-rendered-observation.json",
+        "observation_sha256": "70e3e4bce23e1055155fd5c899c89e311bbfaab923a0a529f498a7489a09880e",
+        "fixed_attempt_path": "source-evidence/zhou041-wangbao-ws2432538/shiji063-guanling-fixed-link-attempt.json",
+        "fixed_attempt_sha256": "0559667b25218cee4670a7252c08f459655492a4c9f6f3f13d75f4f9a300af47",
+        "read_url": "https://zh.wikisource.org/wiki/史記三家註/卷063",
+        "reported_permalink": "https://zh.wikisource.org/w/index.php?oldid=2514732&title=史記三家註/卷063",
+        "reported_revision": 2514732,
+        "current_rendered_body_read": true,
+        "fixed_permalink_body_read": false,
+        "original_wikitext_obtained": false,
+        "actual_print_edition": null,
+        "image_verified": false,
+        "human_reviewed": false,
+        "complete_tool_lines": [
+          127,
+          127
+        ],
+        "complete_unit": "老子脩道德，其學以自隱無名爲務。居周久之，見周之衰，迺遂去。至關，〈索隱李尤函谷關銘云「尹喜要老子留作二篇」，而崔浩以尹喜又爲散關令是也。　正義抱朴子云：「老子西遊，遇關令尹喜於散關，爲喜著道德經一卷，謂之老子。」或以爲函谷關。《【46†括地志】》云：「散關在岐州陳倉縣東南五十二里。函谷關在陝州桃林縣西南十二里。」強，其兩反。爲于僞反。〉關令尹喜曰：「子將隱矣，彊爲我著書。」於是老子迺著書上下篇，言道德之意五千餘言而去，莫知其所終。〈集解《【48†列仙傳】》曰：「關令尹喜者，周大夫也。善內學星宿，服精華，隱德行仁，時人莫知。老子西游，喜先見其氣，知真人當過，候物色而迹之，果得老子。老子亦知其奇，爲著書。與老子俱之流沙之西，服臣勝實，莫知其所終。亦著書九篇，名關令子。」　索隱《【48†列仙傳】》是劉向所記。物色而迹之，謂視其氣物有異色而尋迹之。又按：《【48†列仙傳】》「老子西遊，關令尹喜望見有紫氣浮關，而老子果乘青牛而過也」。〉",
+        "normalized_unit_sha256": "cb2d980a61f1c2efc6d031b41f33f8ca56d26e71f23747919443965d0c02e54d",
+        "normalization": "strip_numbered_link_wrappers_only",
+        "citation_layer_kind": "ancient_commentary_quotation",
+        "source_layer": "裴駰集解引列仙傳；索隱釋物色另列，不混正文或冒稱已讀獨立列仙傳",
+        "identity_quote": "關令尹喜者，周大夫也。",
+        "context_quote": "老子西游，喜先見其氣，知真人當過，候物色而迹之，果得老子。"
+      },
+      "interpretation": {
+        "reviewer_kind": "offline_ai_editor",
+        "automated_historical_identity_proof": false,
+        "human_reviewed": false,
+        "rationale": "關令與物色異人合指尹喜待老子之典；《史記》集解引《列仙傳》明關令尹喜、候物色而迹之，與本封書札及玄牝語境相合。此為離線AI編者有資格同指判讀，非schema自動證明歷史同一；不推同場交往、官職起訖或神仙事實。"
+      }
+    }
+  ],
+  "progress_formatters": [
+    {
+      "pointer": "/annotation/coverage",
+      "template": "完整王襃選錄14正文段首輪NER：{person}人物/稱謂、{pronoun}書信代詞角色、{unresolved}未決語塊；10現代校記另層，不是全卷或全部史實抽取。"
+    },
+    {
+      "pointer": "/annotation/limitations/3",
+      "template": "{unresolved}未決仍含典故/群稱/校改語塊；嗣宗已依字與窮途慟哭原始敘事交證為阮籍引古，不靠現代ref發號；其餘未收日期、官職、作品與親屬分批處理。"
+    }
+  ],
+  "editorial_notice": "離線AI編者的可修訂歷史判讀；驗證器僅驗收到來源、完整引用、穩定錨與葉片/反查一致，不能自動證明歷史同指。"
+}

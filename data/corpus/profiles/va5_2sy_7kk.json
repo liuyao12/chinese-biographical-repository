@@ -6,11 +6,47 @@
   "identity_note": "本源義宗／秉完整單元明確實指人物的暫定登記，不由同名自動合併、未知父母不補。",
   "review": "ai_provisional",
   "names": [
-    "劉勔"
+    "劉勔",
+    "勔"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 33,
+      "category": "",
+      "title": "卷三十三·劉孝綽",
+      "paragraph_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+      "paragraph_ids": [
+        "c-liangshu-033-liuxiaochuo-opening-rendered:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-033-liuxiaochuo-opening-rendered:p001:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-033-liuxiaochuo-opening-rendered:p001:m0004": "c-liangshu-033-liuxiaochuo-opening-rendered:p001"
+      },
+      "mention_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001:m0004",
+          "mention_ids": [
+            "c-liangshu-033-liuxiaochuo-opening-rendered:p001:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-033",
+      "chapter_id": "c-liangshu-033-liuxiaochuo-opening-rendered",
+      "source_id": "s-liangshu-033-liuxiaochuo-opening-current-rendered",
+      "work_title": "梁書"
+    },
     {
       "number": 51,
       "category": "",
@@ -49,6 +85,38 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-liangshu-033-liuxiaochuo-opening-rendered",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-033",
+      "source_id": "s-liangshu-033-liuxiaochuo-opening-current-rendered",
+      "source": {
+        "title": "《梁書》卷三十三·劉孝綽",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/zh-hant/梁書/卷33",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1514481",
+        "revision_id": 1514481,
+        "revision_timestamp": null,
+        "accessed_on": "2026-10-31",
+        "text_scope": "partial_chapter",
+        "extent": "只本批明列完整敘事段落；非全傳/全卷。原段序按來源行號，不將未採段落假作相鄰。",
+        "review_status": "text_checked",
+        "human_reviewed": false,
+        "image_verified": false,
+        "actual_print_edition": null,
+        "printed_base_edition": null,
+        "edition": "comparison_transcription；current rendered頁尾報修訂，未取得fixed正文/raw，實際印本與書影未知，不稱武英殿或四庫底本。",
+        "rights": "古代公有領域作品；數位轉錄保留Wikisource署名及CC BY-SA4.0連結。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去各工具文字區塊行首全形縮排；原字/疑字不校改；完整觀測map沿sealed來源包。"
+        },
+        "observation_kind": "current_rendered_observation",
+        "fixed_body_obtained": false,
+        "raw_capture_obtained": false
+      }
+    },
     {
       "chapter_id": "c-songshu-051-wyd1739-zongshi",
       "work_id": "w-songshu",
@@ -149,9 +217,38 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-liangshu-033-liuxiaochuo-opening-rendered-liu_xiaochuo-grandfather-liu_mian",
+      "subject_person_id": "va5_2sy_7kk_AA",
+      "predicate": "grandfather",
+      "object_person_id": "va5_2sy_7kk",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖勔",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-liuxiaochuo-opening-current-rendered",
+          "chapter_id": "c-liangshu-033-liuxiaochuo-opening-rendered",
+          "paragraph_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001",
+          "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+          "subject_person_mention_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001:m0001",
+          "object_person_mention_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001:m0004"
+        }
+      ],
+      "interpretation_note": "保本來源literal親屬詞及完整段，未知共同父母/世次不補；編者父祖合成另在assembly，不冒literal父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "va5_2sy_7kk": "劉勔"
+    "va5_2sy_7kk": "劉勔",
+    "va5_2sy_7kk_AA": "劉孝綽"
   },
   "dates": [],
   "name_components": [
@@ -182,7 +279,99 @@
   "person_ids": [
     "va5_2sy_7kk"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-liangshu-033-liuxiaochuo-opening-rendered-liu_xiaochuo-grandfather-liu_mian",
+      "subject_person_id": "va5_2sy_7kk_AA",
+      "predicate": "grandfather",
+      "object_person_id": "va5_2sy_7kk",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖勔",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-liuxiaochuo-opening-current-rendered",
+          "chapter_id": "c-liangshu-033-liuxiaochuo-opening-rendered",
+          "paragraph_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001",
+          "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+          "subject_person_mention_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001:m0001",
+          "object_person_mention_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001:m0004"
+        }
+      ],
+      "interpretation_note": "保本來源literal親屬詞及完整段，未知共同父母/世次不補；編者父祖合成另在assembly，不冒literal父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "va5_2sy_7kk",
+    "representative_source_person_id": "va5_2sy_7kk",
+    "source_person_ids": [
+      "va5_2sy_7kk"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": null,
+    "assembly_id": "family-liu-mian-hui-ran",
+    "root_person_id": "va5_2sy_7kk",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
+  "assembled_children": [
+    {
+      "person_id": "va5_2sy_7kk_A",
+      "representative_source_person_id": "va5_2sy_7kk_A",
+      "source_person_ids": [
+        "va5_2sy_7kk_A"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "va5_2sy_7kk",
+      "source_assertion_id": null,
+      "connection": "father",
+      "parent_connection": {
+        "type": "parent_between_consecutive_ancestors",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同傳主明父繪、祖勔，推繪為勔子；不造獨立literal父。",
+        "chain_subject_person_id": "va5_2sy_7kk_AA",
+        "nearer_ancestor_assertion_id": "a-liangshu-033-liuxiaochuo-opening-rendered-liu_xiaochuo-father-liu_hui",
+        "farther_ancestor_assertion_id": "a-liangshu-033-liuxiaochuo-opening-rendered-liu_xiaochuo-grandfather-liu_mian",
+        "references": [
+          {
+            "assertion_id": "a-liangshu-033-liuxiaochuo-opening-rendered-liu_xiaochuo-father-liu_hui",
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-033",
+            "chapter_id": "c-liangshu-033-liuxiaochuo-opening-rendered",
+            "source_id": "s-liangshu-033-liuxiaochuo-opening-current-rendered",
+            "paragraph_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001",
+            "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+            "url": "https://zh.wikisource.org/zh-hant/梁書/卷33",
+            "scope": "同一完整原段的較近祖先明文"
+          },
+          {
+            "assertion_id": "a-liangshu-033-liuxiaochuo-opening-rendered-liu_xiaochuo-grandfather-liu_mian",
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-033",
+            "chapter_id": "c-liangshu-033-liuxiaochuo-opening-rendered",
+            "source_id": "s-liangshu-033-liuxiaochuo-opening-current-rendered",
+            "paragraph_id": "c-liangshu-033-liuxiaochuo-opening-rendered:p001",
+            "quote": "劉孝綽字孝綽，彭城人，本名冉。祖勔，宋司空忠昭公。父繪，齊大司馬霸府從事中郎。",
+            "url": "https://zh.wikisource.org/zh-hant/梁書/卷33",
+            "scope": "同一完整原段的下一代祖先明文"
+          }
+        ]
+      },
+      "assembly_id": "family-liu-mian-hui-ran",
+      "root_person_id": "va5_2sy_7kk",
+      "status": "editorial_preferred",
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

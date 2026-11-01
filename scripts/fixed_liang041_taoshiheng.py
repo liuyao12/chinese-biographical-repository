@@ -15,6 +15,9 @@ def _state(root,ch=None,people=None):
   p=Path(rel);assert not p.is_absolute()and '..'not in p.parts;q=(root/p).resolve();assert q.is_relative_to(root)and q.is_file();return q
  def read(rel):return json.loads(local(rel).read_bytes())
  b=local(REF).read_bytes();assert hashlib.sha256(b).hexdigest()==SHA;captured=json.loads(b)
+ try:from scripts.liang_xiao_close_family import project_prior_contract
+ except ImportError:from liang_xiao_close_family import project_prior_contract
+ captured=project_prior_contract(root,captured,REF)
  seed=captured['source_seed'];doc=read(seed['path']);p=next(p for p in doc['paragraphs']if p['id']==seed['paragraph_id']);sm=next(m for m in p['mentions']if m['id']==seed['marker']['id']);assert same(doc['source'],seed['source'])and p['text']==seed['quote']and same({k:v for k,v in sm.items()if k!='person_id'},seed['marker'])and sm['kind']=='person'
  role=sm['person_id']
  def expand(x):
@@ -26,7 +29,7 @@ def _state(root,ch=None,people=None):
  if people is None:people={p['id']:p for p in read('registry/persons.json')['persons']}
  assert role in people and c['target_pid']==role
  for rel,expected in c['protected_file_sha256'].items():assert hashlib.sha256(local(rel).read_bytes()).hexdigest()==expected
- parentraw=local(c['parent_ref']).read_bytes();assert hashlib.sha256(parentraw).hexdigest()==c['parent_sha256'];parent=json.loads(parentraw)
+ parentraw=local(c['parent_ref']).read_bytes();assert hashlib.sha256(parentraw).hexdigest()==c['parent_sha256'];parent=json.loads(parentraw);parent=project_prior_contract(root,parent,c['parent_ref'])
  actor=people[c['target_pid']];assert [e for e in actor['evidence']if e.get('mention_id')==sm['id']]==[seed['reverse']];assert any(a.get('surface')==sm['surface']and sm['id']in a.get('mention_ids',[])for a in actor['aliases'])
  cap=c['ssxy_capture'];raw=local(cap['path']).read_bytes();assert hashlib.sha256(raw).hexdigest()==cap['sha256'];t=raw.decode('utf8');sel=cap['selection'];assert t[sel['start']:sel['end']]==sel['raw']and '王愆期推征西陶侃為盟主'in sel['raw']and '庾元規何縁拜陶士衡'in sel['raw']
  markers={m['id']:(p,m)for p in ch['paragraphs']for m in p['mentions']};p,m=markers[c['target_mid']];assert m['kind']=='person'and m['person_id']==c['target_pid']and m['surface']=='陶士衡'and m['start']==0 and m['end']==3 and p['text'].startswith('陶士衡曰：「昔大禹不吝尺璧而重寸陰。」')

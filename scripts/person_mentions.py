@@ -21,13 +21,51 @@ def _source_letter_reference(mention, text=None):
     return source_letter_reference(mention, text)
 
 
+def _source_lu054_reference(mention, text=None):
+    try:from scripts.fixed_jin054_lu_openings import source_reference
+    except ImportError:from fixed_jin054_lu_openings import source_reference
+    return source_reference(mention, text)
+
+
+def _source_jin073_reference(mention,text=None):
+    try:from scripts.fixed_jin073_yuyi_rendered import source_reference
+    except ImportError:from fixed_jin073_yuyi_rendered import source_reference
+    return source_reference(mention,text)
+
+
+def _source_imperial_reference(m,text=None):
+    try:from scripts.jin002_004_imperial_openings import source_reference
+    except ImportError:from jin002_004_imperial_openings import source_reference
+    return source_reference(m,text)
+
+def _source_jin038_reference(m,text=None):
+    try:from scripts.jin038_wen_you_source import source_reference
+    except ImportError:from jin038_wen_you_source import source_reference
+    return source_reference(m,text)
+
+def _source_jin038_children_reference(m,text=None):
+    try:from scripts.jin038_wen_children_source import source_reference
+    except ImportError:from jin038_wen_children_source import source_reference
+    return source_reference(m,text)
+
+def _source_jin005031_reference(m,text=None):
+    try:from scripts.jin005031_wen_family_source import source_reference
+    except ImportError:from jin005031_wen_family_source import source_reference
+    return source_reference(m,text)
+
+def _source_sima_family_reference(m,text=None):
+    try:from scripts.received_sima_family_sources import source_reference
+    except ImportError:from received_sima_family_sources import source_reference
+    return source_reference(m,text)
+
+
 def is_person_reference(mention):
     if not isinstance(mention, dict):
         return False
     pid = mention.get('person_id')
     return (isinstance(pid, str) and bool(pid)
             and (mention.get('kind') == 'person'
-                 or (mention.get('kind') == 'pronoun' and (mention.get('surface') == '之' or _source_first_person(mention) or _source_letter_reference(mention)))))
+                 or (mention.get('kind') == 'pronoun' and (mention.get('surface') == '之' or _source_first_person(mention) or _source_letter_reference(mention) or _source_lu054_reference(mention) or _source_jin073_reference(mention) or _source_imperial_reference(mention) or _source_jin038_reference(mention) or _source_jin038_children_reference(mention) or _source_jin005031_reference(mention) or _source_sima_family_reference(mention)))))
 
 
 def pronoun_errors(mention, text, person_ids=None):
@@ -36,7 +74,7 @@ def pronoun_errors(mention, text, person_ids=None):
              and mention.get('work_id') is None
              and type(start) is int and type(end) is int
              and 0 <= start < end <= len(text) and text[start:end] == mention.get('surface')
-             and (mention.get('surface') == '之' or _source_first_person(mention, text) or _source_letter_reference(mention, text))
+             and (mention.get('surface') == '之' or _source_first_person(mention, text) or _source_letter_reference(mention, text) or _source_lu054_reference(mention, text) or _source_jin073_reference(mention, text) or _source_imperial_reference(mention, text) or _source_jin038_reference(mention, text) or _source_jin038_children_reference(mention, text) or _source_jin005031_reference(mention, text) or _source_sima_family_reference(mention,text))
              and mention.get('status') in (None, 'source_explicit', 'source_attested',
                                           'contextual_provisional', 'resolved_contextual')
              and (person_ids is None or mention.get('person_id') in person_ids))

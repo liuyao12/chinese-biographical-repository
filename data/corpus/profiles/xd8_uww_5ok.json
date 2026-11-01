@@ -1049,6 +1049,50 @@
   ],
   "occurrences": [
     {
+      "number": 2,
+      "category": "",
+      "title": "景帝、文帝紀",
+      "paragraph_id": "c-jinshu-002-jingwen-openings:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "禮，亡兄不敢受相國之位，誠以太祖常所階歷也。今諡與二祖同，必所祗懼。昔蕭何、張良、霍光咸有匡佐之功，何諡文終，良諡文成，光諡宣成。必以文武為諡，請依何等就加。」詔許之，諡曰忠武。晉國既建，追尊曰景王。武帝受禪，上尊號曰景皇帝，陵曰峻平，廟稱世宗。",
+      "paragraph_ids": [
+        "c-jinshu-002-jingwen-openings:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-002-jingwen-openings:p002:m0234",
+        "c-jinshu-002-jingwen-openings:p002:m0249"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-002-jingwen-openings:p002:m0234": "c-jinshu-002-jingwen-openings:p002",
+        "c-jinshu-002-jingwen-openings:p002:m0249": "c-jinshu-002-jingwen-openings:p002"
+      },
+      "mention_id": "c-jinshu-002-jingwen-openings:p002:m0234",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-002-jingwen-openings:p002:m0234",
+          "mention_ids": [
+            "c-jinshu-002-jingwen-openings:p002:m0234"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-002-jingwen-openings:p002:m0249",
+          "mention_ids": [
+            "c-jinshu-002-jingwen-openings:p002:m0249"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-002",
+      "chapter_id": "c-jinshu-002-jingwen-openings",
+      "source_id": "s-jinshu-002-jingwen-openings",
+      "work_title": "晉書"
+    },
+    {
       "number": 7,
       "category": "benji",
       "title": "項羽本紀第七",
@@ -3207,6 +3251,42 @@
         "response_sha256": "e0459bbe8ebcc6a3bf0ac881302a830b7b8b77284da70faf0723686b9c9bbba5",
         "source_blob_sha": "1d565549277da141b973c906f61aeef06cff7d7e",
         "raw_path": "sources/houhanshu/009-kr6db36b6-xiandi-fixed.txt"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-002-jingwen-openings",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-002",
+      "source_id": "s-jinshu-002-jingwen-openings",
+      "source": {
+        "title": "《晉書》卷二·景帝、文帝紀",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷002",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷002&oldid=2603563",
+        "accessed_on": "2026-10-30",
+        "extent": "景帝開篇、景帝終段文帝表、文帝開篇三完整原段",
+        "text_scope": "partial_chapter",
+        "review_status": "in_progress",
+        "image_verified": false,
+        "human_reviewed": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留取得資格與見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "數位轉錄實際印本未知，未圖校",
+        "acquisition": {
+          "reported_revision": 2603563,
+          "fixed_body_obtained": true,
+          "raw_obtained": true,
+          "actual_print_edition": null,
+          "image_verified": false,
+          "human_reviewed": false,
+          "raw_path": "source-evidence/liang015-xiefei-reading/external/jin002-fixed.wikitext",
+          "raw_sha256": "c6222bb93a59c996139850e9fe97fdb102f39ffb9fbd5d81463a8b9ece679d21"
+        },
+        "normalization": {
+          "character_conversion": {},
+          "rule": "僅去排版/粗體外殼及YL/工具link外框；ref另層；保原字，不以現代本名改正文"
+        },
+        "revision_id": 2603563
       }
     },
     {
