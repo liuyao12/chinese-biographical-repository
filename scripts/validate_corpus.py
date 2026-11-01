@@ -7,6 +7,11 @@ import re
 import sys
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
+
+# Direct-file invocation places scripts/, rather than the repository, on sys.path.
+ROOT = Path(__file__).resolve().parents[1]
+if __package__ in (None, '') and str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 try:
     from scripts.era_stage_dates import binding_valid
 except ImportError:
@@ -15,7 +20,6 @@ try:
     from scripts.person_mentions import is_person_reference, pronoun_errors, identity_surfaces_supported
 except ImportError:
     from person_mentions import is_person_reference, pronoun_errors, identity_surfaces_supported
-ROOT = Path(__file__).resolve().parents[1]
 
 def source_age_number(number):
     digits = '一二三四五六七八九'

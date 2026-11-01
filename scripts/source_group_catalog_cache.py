@@ -11,7 +11,7 @@ try:from scripts.validation_context import _ACTIVE,_json_tree,scope,DEPENDENCIES
 except ImportError:from validation_context import _ACTIVE,_json_tree,scope,DEPENDENCIES
 
 _NAMESPACE='source_group_catalog_cache_prototype_v1'
-_REVIEWED_GUARD_CODE_SHA256='52ec93e43f3facb7f0f6c25dbb0974fabf6fd2cc0725dbe452afb340069c2bf8'
+_REVIEWED_GUARD_CODE_SHA256='e513b93c63e28ee3e45fd729c4441b252952df771f3dce02a1ad8b25adfb6298'
 _OBSERVER=ContextVar('source_group_proof_read_observer',default=None)
 _METHODS=('read_bytes','read_text','open','stat','exists','is_file','is_dir','resolve','glob','rglob')
 _PATH_BASE={n:getattr(Path,n)for n in _METHODS}
