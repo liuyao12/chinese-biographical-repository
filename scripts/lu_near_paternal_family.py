@@ -122,7 +122,7 @@ def _supported_annotation_extensions(chapter,expected,paragraphs,old_mentions,ne
  old_limits=list(old.get('limitations',[]));new_limits=list(new.get('limitations',[]))
  assert len(old_limits)==len(new_limits)==5 and old_limits[0]==new_limits[0] and old_limits[2:]==new_limits[2:]
  assert old_limits[1]=='荀崧未名母已依本段敘事錄入；姓與名未載，未名兄長與未定協仍待核。'
- assert new_limits[1]=='荀崧未名母已依本段敘事錄入；姓與名未載，未名兄長仍待核；協已由平行傳文辨為刁協，canonical ID 尚待全庫核定。'
+ assert new_limits[1]=='荀崧未名母已依本段敘事錄入；姓與名未載，未名兄長仍待核；協據平行傳文暫連既有人物刁協（CBR ID c20_ec4_36f），身份仍按來源支持的暫定判讀處理。'
  assert {k:v for k,v in old.items() if k!='limitations'}=={k:v for k,v in new.items() if k not in ('limitations','identity_resolution_notes','secondary_references')}
  expected['annotation']['limitations']=new_limits
  note=chapter['annotation'].get('identity_resolution_notes')
