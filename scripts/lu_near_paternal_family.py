@@ -148,11 +148,11 @@ def _supported_note_refinement(chapter,paragraph,old,new):
  rows=[n for n in notes if n.get('mention_id')==mid]
  assert len(rows)==1
  n=rows[0];roles={e.get('role') for e in n.get('evidence',[])}
- assert n.get('identified_as')=='刁協' and n.get('status')=='identified_but_canonical_id_pending' and n.get('human_reviewed') is False
+ assert n.get('identified_as')=='刁協' and n.get('person_id')=='c20_ec4_36f' and n.get('status')=='matched_existing_registry_person_provisional' and n.get('human_reviewed') is False
  assert roles=={'parallel_text_expanding_abbreviated_name','cross_chapter_biography'}
  assert any(e.get('role')=='parallel_text_expanding_abbreviated_name' and '刁協' in e.get('quote','') and '共定中興禮儀' in e.get('quote','') for e in n['evidence'])
  assert any(e.get('role')=='cross_chapter_biography' and '晉書》卷69' in e.get('title','') and '制度' in e.get('quote','') for e in n['evidence'])
- assert new.get('interpretation_note')=='平行傳本文字明作「刁協」；卷69本傳亦記其熟悉並制定中興朝廷制度，故此「協」可辨為刁協。CBR canonical ID 尚待全庫核定，暫保留未連結。'
+ assert new.get('interpretation_note')=='平行傳文明作「刁協」；《晉書》卷69本傳與卷39、卷98既有記載可合為同一刁協（CBR ID c20_ec4_36f）。本處仍保留原文單稱「協」，此處合人屬來源支持的暫定判讀。'
  return True
 
 def proof(root,people=None,records=None):

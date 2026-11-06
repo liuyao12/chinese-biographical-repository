@@ -880,8 +880,8 @@
         "mention_id": "c-jinshu-075-xunsong-families:xunsong-cousins:p001:m0015",
         "surface": "協",
         "identified_as": "刁協",
-        "status": "identified_but_canonical_id_pending",
-        "rationale": "卷75本段省稱「協」；平行傳本文字明載「刁協」，而《晉書》卷69〈刁協傳〉載刁協參與中興朝廷制度，與本句「共定中興禮儀」相合。此可辨明所指，但未核得 CBR 既有人物 ID，故暫不把 mention 強行連到未確認的 ID。",
+        "status": "matched_existing_registry_person_provisional",
+        "rationale": "本卷省稱「協」；《晉書》卷75平行傳本文字明載「刁協」，卷69〈刁協傳〉載其熟習中朝舊事並掌制度，與「共定中興禮儀」相合。既有卷39〈荀勖傳〉與卷98〈王敦傳〉的人物ID及稱名可核對為同人，故連至既有 c20_ec4_36f；正文仍保存「協」，同人判讀維持暫定。",
         "evidence": [
           {
             "title": "《晉書》卷75〈荀崧傳〉（平行傳本文字）",
@@ -897,7 +897,8 @@
           }
         ],
         "reviewer": "Codex（AI 代理）",
-        "human_reviewed": false
+        "human_reviewed": false,
+        "person_id": "c20_ec4_36f"
       }
     ],
     "secondary_references": [
@@ -1421,10 +1422,10 @@
           "start": 15,
           "end": 16,
           "surface": "協",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "interpretation_note": "平行傳本文字明作「刁協」；卷69本傳亦記其熟悉並制定中興朝廷制度，故此「協」可辨為刁協。CBR canonical ID 尚待全庫核定，暫保留未連結。"
+          "kind": "person",
+          "person_id": "c20_ec4_36f",
+          "status": "contextual_provisional",
+          "interpretation_note": "平行傳文明作「刁協」；《晉書》卷69本傳與卷39、卷98既有記載可合為同一刁協（CBR ID c20_ec4_36f）。本處仍保留原文單稱「協」，此處合人屬來源支持的暫定判讀。"
         },
         {
           "id": "c-jinshu-075-xunsong-families:xunsong-cousins:p001:m0025",
