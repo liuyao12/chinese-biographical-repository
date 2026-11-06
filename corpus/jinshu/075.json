@@ -873,6 +873,32 @@
         "human_reviewed": false,
         "model": null
       }
+    ],
+    "identity_resolution_notes": [
+      {
+        "id": "n-jinshu075-xunxie-diao-xie",
+        "mention_id": "c-jinshu-075-xunsong-families:xunsong-cousins:p001:m0002",
+        "surface": "協",
+        "identified_as": "刁協",
+        "status": "identified_banonical_id_pending",
+        "rationale": "卷75本段省稱「協」；平行傳本文字明載「刁協」，而《晉書》卷69〈刁協傳〉載刁協參與中興朝廷制度，與本句「共定中興禮儀」相合。此可辨明所指，但未核得 CBR 既有人物 ID，故暫不把 mention 強行連到未確認的 ID。",
+        "evidence": [
+          {
+            "title": "《晉書》卷75〈荀崧傳〉（平行傳本文字）",
+            "url": "https://ctext.org/wiki.pl?if=gb&chapter=777912",
+            "quote": "元帝踐阼，徵拜尚書僕射，使崧與刁協共定中興禮儀。",
+            "role": "parallel_text_expanding_abbreviated_name"
+          },
+          {
+            "title": "《晉書》卷69〈刁協傳〉",
+            "url": "https://www.shidianguji.com/zh/book/LS0005/chapter/LS0005_945",
+            "quote": "字玄亮，渤海饒安人也。……中興建，拜尚書左僕射。于時朝廷草創，憲章未立，朝臣無習舊儀者。協久在中朝，諳練舊事，凡所制度，皆禀於協焉。",
+            "role": "cross_chapter_biography"
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
