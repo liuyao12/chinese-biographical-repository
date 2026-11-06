@@ -7,7 +7,7 @@ from pathlib import Path
 try:from scripts.liang_xiao_close_family import same,expand,typed_projection,raw,read
 except ImportError:from liang_xiao_close_family import same,expand,typed_projection,raw,read
 REF='source-evidence/lu-six-near-family/family-source-contract.json'
-SHA='fdc2b2ab0a6870dc22881eb540f16c9aba22c37770720a2269064d29aae4b6bd'
+SHA='60b2d3866ce39058d13cb35f2a509693ceb545e9ff93b016dc0754da39608b69'
 KIND='fixed_lu_six_near_family'
 
 def active(root):return(Path(root)/REF).is_file()
@@ -84,6 +84,77 @@ def _external_growth_valid(actor,want,ownids,ownmids,additions,physical):
   if mids:aliases.append(dict(surface=a['surface'],mention_ids=mids))
  assert same(aliases,want['aliases'])
 
+def _supported_annotation_refinement(chapter,paragraph,mention,people):
+ assert mention.get('kind')=='person' and mention.get('person_id') in people
+ person=people[mention['person_id']]
+ expected={k:chapter[k] for k in ('work_id','book_id','source_id')}
+ expected.update(chapter_id=chapter['id'],paragraph_id=paragraph['id'],mention_id=mention['id'],quote=mention['surface'])
+ assert [e for e in person.get('evidence',[]) if e.get('mention_id')==mention['id']]==[expected]
+ assert sum(a.get('surface')==mention['surface'] and mention['id'] in a.get('mention_ids',[]) for a in person.get('aliases',[]))==1
+
+def _archive_projection(before,current,mapping,people):
+ expected=typed_projection(before,mapping)
+ old={m['id']:m for p in expected['paragraphs'] for m in p.get('mentions',[])}
+ new={m['id']:m for p in current['paragraphs'] for m in p.get('mentions',[])}
+ assert old.keys()==new.keys()
+ paragraphs={m['id']:p for p in current['paragraphs'] for m in p.get('mentions',[])}
+ for mid,om in old.items():
+  nm=new[mid]
+  if om.get('kind')=='unresolved' and nm.get('kind')=='person':
+   assert om.get('person_id') is None
+   assert all(same(om.get(k),nm.get(k)) for k in ('id','start','end','surface','source_role'))
+   _supported_annotation_refinement(current,paragraphs[mid],nm,people)
+   mutable={'kind','person_id','status','interpretation_note'}
+   assert {k:v for k,v in om.items() if k not in mutable}=={k:v for k,v in nm.items() if k not in mutable}
+   om.update({k:nm[k] for k in mutable if k in nm})
+  elif om.get('interpretation_note')!=nm.get('interpretation_note'):
+   assert _supported_note_refinement(current,paragraphs[mid],om,nm)
+   om['interpretation_note']=nm['interpretation_note']
+ ann_old=expected.get('annotation',{});ann_new=current.get('annotation',{})
+ if ann_old!=ann_new:
+  assert _supported_annotation_extensions(current,expected,paragraphs,old,new)
+  expected['annotation']=copy.deepcopy(ann_new)
+ return same(expected,current)
+
+def _supported_annotation_extensions(chapter,expected,paragraphs,old_mentions,new_mentions):
+ old=expected.get('annotation',{});new=chapter.get('annotation',{})
+ assert isinstance(old,dict) and isinstance(new,dict)
+ old_limits=list(old.get('limitations',[]));new_limits=list(new.get('limitations',[]))
+ assert len(old_limits)==len(new_limits)==5 and old_limits[0]==new_limits[0] and old_limits[2:]==new_limits[2:]
+ assert old_limits[1]=='荀崧未名母已依本段敘事錄入；姓與名未載，未名兄長與未定協仍待核。'
+ assert new_limits[1]=='荀崧未名母已依本段敘事錄入；姓與名未載，未名兄長仍待核；協已由平行傳文辨為刁協，canonical ID 尚待全庫核定。'
+ assert {k:v for k,v in old.items() if k!='limitations'}=={k:v for k,v in new.items() if k not in ('limitations','identity_resolution_notes','secondary_references')}
+ expected['annotation']['limitations']=new_limits
+ note=chapter['annotation'].get('identity_resolution_notes')
+ assert isinstance(note,list) and len(note)==1
+ n=note[0];mid='c-jinshu-075-xunsong-families:xunsong-cousins:p001:m0015'
+ assert n.get('mention_id')==mid
+ assert _supported_note_refinement(chapter,paragraphs[mid],old_mentions[mid],new_mentions[mid])
+ refs=chapter['annotation'].get('secondary_references')
+ assert isinstance(refs,list) and len(refs)==1
+ r=refs[0]
+ assert r.get('id')=='ref-jinshu075-weichutai-taixue'
+ assert r.get('scope')=='secondary_reference_only' and r.get('human_reviewed') is False
+ assert r.get('author')=='程蘇東' and r.get('publication_date')=='2016-05'
+ assert '不據此把本傳' in r.get('use_note','') and '原文單姓錨點保持未決' in r.get('use_note','')
+ return True
+
+def _supported_note_refinement(chapter,paragraph,old,new):
+ mid='c-jinshu-075-xunsong-families:xunsong-cousins:p001:m0015'
+ assert chapter.get('id')=='c-jinshu-075-xunsong-families' and paragraph.get('id')=='c-jinshu-075-xunsong-families:xunsong-cousins:p001'
+ assert old.get('id')==new.get('id')==mid and old.get('surface')==new.get('surface')=='協'
+ assert all(same(old.get(k),new.get(k)) for k in ('start','end','kind','person_id','source_role'))
+ notes=chapter.get('annotation',{}).get('identity_resolution_notes',[])
+ rows=[n for n in notes if n.get('mention_id')==mid]
+ assert len(rows)==1
+ n=rows[0];roles={e.get('role') for e in n.get('evidence',[])}
+ assert n.get('identified_as')=='刁協' and n.get('status')=='identified_but_canonical_id_pending' and n.get('human_reviewed') is False
+ assert roles=={'parallel_text_expanding_abbreviated_name','cross_chapter_biography'}
+ assert any(e.get('role')=='parallel_text_expanding_abbreviated_name' and '刁協' in e.get('quote','') and '共定中興禮儀' in e.get('quote','') for e in n['evidence'])
+ assert any(e.get('role')=='cross_chapter_biography' and '晉書》卷69' in e.get('title','') and '制度' in e.get('quote','') for e in n['evidence'])
+ assert new.get('interpretation_note')=='平行傳本文字明作「刁協」；卷69本傳亦記其熟悉並制定中興朝廷制度，故此「協」可辨為刁協。CBR canonical ID 尚待全庫核定，暫保留未連結。'
+ return True
+
 def proof(root,people=None,records=None):
  c=contract(root)
  physical={p['id']:p for p in read(root,'registry/persons.json')['persons']}
@@ -110,9 +181,12 @@ def proof(root,people=None,records=None):
   if a['kind']=='registry'or not a['path'].endswith('.json'):continue
   before=read(root,a['before_capture'])
   if before.get('record_type')!='marked_chapter':continue
-  now=read(root,a['path']);source_dirs.setdefault(now['work_id'],set()).add(str(Path(a['path']).parent));oldm={m['id']:m for p in before['paragraphs']for m in p['mentions']};newm={m['id']:m for p in now['paragraphs']for m in p['mentions']};assert oldm.keys()==newm.keys()
+  now=read(root,a['path']);source_dirs.setdefault(now['work_id'],set()).add(str(Path(a['path']).parent));oldm={m['id']:m for p in before['paragraphs']for m in p['mentions']};newm={m['id']:m for p in now['paragraphs']for m in p['mentions']};newp={m['id']:p for p in now['paragraphs']for m in p['mentions']};assert oldm.keys()==newm.keys()
   for mid,om in oldm.items():
-   nm=newm[mid];assert all(same(om.get(k),nm.get(k))for k in ('id','start','end','surface','kind','source_role'))
+   nm=newm[mid];assert all(same(om.get(k),nm.get(k))for k in ('id','start','end','surface','source_role'))
+   if om.get('kind')!=nm.get('kind'):
+    assert om.get('kind')=='unresolved' and om.get('person_id') is None and nm.get('kind')=='person'
+    _supported_annotation_refinement(now,newp[mid],nm,people)
    if om.get('kind')in('person','pronoun'):
     old,new=om['person_id'],nm['person_id'];assert new in people
     if old in mapping:assert mapping[old]==new
@@ -125,7 +199,10 @@ def proof(root,people=None,records=None):
  for a in c['archives']:
   b=raw(root,a['before_capture']);assert hashlib.sha256(b).hexdigest()==a['before_sha256']
   if a['kind']=='registry'or a['path']=='registry/works.json':continue
-  if a['path'].endswith('.json'):assert same(read(root,a['path']),typed_projection(json.loads(b),mapping))
+  if a['path'].endswith('.json'):
+   before=json.loads(b);current=read(root,a['path'])
+   if before.get('record_type')=='marked_chapter':assert _archive_projection(before,current,mapping,physical)
+   else:assert same(current,typed_projection(before,mapping))
   else:
    text=b.decode()
    for old,new in mapping.items():text=text.replace('ref="'+old+'"','ref="'+new+'"')
