@@ -7,7 +7,7 @@ from pathlib import Path
 try:from scripts.liang_xiao_close_family import same,expand,typed_projection,raw,read
 except ImportError:from liang_xiao_close_family import same,expand,typed_projection,raw,read
 REF='source-evidence/lu-six-near-family/family-source-contract.json'
-SHA='60b2d3866ce39058d13cb35f2a509693ceb545e9ff93b016dc0754da39608b69'
+SHA='fdc2b2ab0a6870dc22881eb540f16c9aba22c37770720a2269064d29aae4b6bd'
 KIND='fixed_lu_six_near_family'
 
 def active(root):return(Path(root)/REF).is_file()
