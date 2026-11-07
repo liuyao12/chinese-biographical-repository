@@ -115,7 +115,7 @@ class HanLuIdentityTests(unittest.TestCase):
         p = self.paragraph('093', 'p006')
         self.assertEqual(self.ids(p, '種'), {'gu2_fde_5bw'})
         self.assertEqual(self.ids(p, '蠡'), {'yhm_h9f_8p0'})
-        self.assertEqual(self.ids(p, '伍子胥'), {'g9h_5ih_ug1_A'})
+        self.assertEqual(self.ids(p, '伍子胥'), {'zk0_g6b_nbq_B'})
         self.assertIn('種、蠡無一罪，身死亡', p['text'])
         self.assertIn('范蠡浮海出齊', self.paragraph('041', 'p020')['text'])
         self.assertIn('種遂自殺', self.paragraph('041', 'p013')['text'])

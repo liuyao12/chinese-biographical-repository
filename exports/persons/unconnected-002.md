@@ -1680,6 +1680,7 @@
 | `jpu_12d_8pa` | 郭公仲 | [《史記・游俠列傳》][193] | [JSON](jpu_12d_8pa.json) |
 | `jq8_7fa_9zk` | 郭卓 | [《宋書・謝晦》][205] | [JSON](jq8_7fa_9zk.json) |
 | `jqp_2f4_gts` | 宰予引古 | [《史記・李斯列傳》][156] | [JSON](jqp_2f4_gts.json) |
+| `jqs_iyr_w7v` | 曾參（魯人同姓名殺人者） | [《史記・樗里子甘茂列傳》][140] | [JSON](jqs_iyr_w7v.json) |
 | `jqy_1fv_u7v` | 后稷 | [《史記・周本紀》][91] | [JSON](jqy_1fv_u7v.json) |
 | `jr1_767_vq6` | 魏像 | [《宋書・謝晦》][205] | [JSON](jr1_767_vq6.json) |
 | `jr4_bd1_vzg` | 田混 | [《南齊書・王僧虔 張緒》][67] | [JSON](jr4_bd1_vzg.json) |
