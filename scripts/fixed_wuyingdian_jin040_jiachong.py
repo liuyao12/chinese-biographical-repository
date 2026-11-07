@@ -388,3 +388,29 @@ def _c40_contract(root):
   for part in row['pointer'].split('/')[1:-1]:current=current[int(part)]if isinstance(current,list)else current[part]
   key=row['pointer'].split('/')[-1];need(same(current[key],case['before_shape']),'C40兩seed原shape/位置漂移');current[key]=copy.deepcopy(case['after_shape'])
  return c
+
+# A new person annotation in Jinshu 075 changes the frozen Lu Ji seed paragraph.
+# Keep the old C40 contract immutable and admit only this exact added marker.
+XUN075_SEED_CASE_PATH='source-evidence/xunsong-elder-brother/c40-seed-shape-successor.json'
+XUN075_SEED_CASE_SHA='f1e4bd9522c59e71bfd96d457f755fdd37a434128ba397472990586242e27384'
+_xun075_seed_base_c40_contract=_c40_contract
+def _c40_contract(root):
+ c=_xun075_seed_base_c40_contract(root);path=Path(root)/XUN075_SEED_CASE_PATH
+ if not path.exists():return c
+ case=_wq_pinned(path.read_bytes(),XUN075_SEED_CASE_SHA,'荀崧兄長新增標記之C40 seed後繼')
+ need(case.get('kind')=='jin075_xunsong_elder_brother_c40_seed_shape_successor'and case.get('base_complete_contract_sha256')==C40_CONTRACT_SHA,'荀崧兄長seed親本/類型不符')
+ need(case.get('human_reviewed')is False and case.get('model')is None,'荀崧兄長seed資格不可提升')
+ need(case.get('source_path')=='corpus/jinshu/075.json'and case.get('seed_pointer')=='/role_specs/luji/seeds/0/paragraph','荀崧兄長seed來源/位置不符')
+ ch=_c40_read(root,case['source_path']);need(all(ch.get(k)==v for k,v in case['source_dimensions'].items()),'荀崧兄長seed篇章維度漂移')
+ source=ch.get('source',{});need(all(source.get(k)==v for k,v in case['source_identity'].items()),'荀崧兄長seed來源版本漂移')
+ p=next(p for p in ch['paragraphs']if p['id']==case['paragraph_id']);need(p.get('text')==case['full_quote'],'荀崧兄長seed原文漂移')
+ after=_c40_strip_ids(p);need(hashlib.sha256(json.dumps(after,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()==case['after_shape_sha256'],'荀崧兄長seed新shape漂移')
+ added=case['added_mention'];matches=[m for m in p['mentions']if m.get('id')==added.get('id')];need(len(matches)==1 and same(_c40_strip_ids(matches[0]),added),'荀崧兄長新增人物錨漂移')
+ c=copy.deepcopy(c);current=c
+ for part in case['seed_pointer'].split('/')[1:-1]:current=current[int(part)]if isinstance(current,list)else current[part]
+ key=case['seed_pointer'].split('/')[-1];before=current[key]
+ need(hashlib.sha256(json.dumps(before,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()==case['before_shape_sha256'],'荀崧兄長seed原shape漂移')
+ without=copy.deepcopy(after);without['mentions']=[m for m in without['mentions']if m.get('id')!=added['id']]
+ need(same(without,before),'荀崧兄長seed僅准新增已列明的人物錨')
+ current[key]=after
+ return c

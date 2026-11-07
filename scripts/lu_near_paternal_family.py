@@ -92,12 +92,20 @@ def _supported_annotation_refinement(chapter,paragraph,mention,people):
  assert [e for e in person.get('evidence',[]) if e.get('mention_id')==mention['id']]==[expected]
  assert sum(a.get('surface')==mention['surface'] and mention['id'] in a.get('mention_ids',[]) for a in person.get('aliases',[]))==1
 
-def _archive_projection(before,current,mapping,people):
+def _archive_projection(before,current,mapping,people,root,path):
  expected=typed_projection(before,mapping)
+ try:from scripts.source_annotation_successors import xunsong_elder_brother_additions
+ except ImportError:from source_annotation_successors import xunsong_elder_brother_additions
+ additions=xunsong_elder_brother_additions(root,path,before,current)
+ for marker in additions:
+  paragraph_id=marker['id'].rsplit(':m',1)[0]
+  target=next(p for p in expected['paragraphs']if p['id']==paragraph_id)
+  target['mentions'].append(copy.deepcopy(marker));target['mentions'].sort(key=lambda m:m['start'])
  old={m['id']:m for p in expected['paragraphs'] for m in p.get('mentions',[])}
  new={m['id']:m for p in current['paragraphs'] for m in p.get('mentions',[])}
  assert old.keys()==new.keys()
  paragraphs={m['id']:p for p in current['paragraphs'] for m in p.get('mentions',[])}
+ for marker in additions:_supported_annotation_refinement(current,paragraphs[marker['id']],marker,people)
  for mid,om in old.items():
   nm=new[mid]
   if om.get('kind')=='unresolved' and nm.get('kind')=='person':
@@ -181,7 +189,13 @@ def proof(root,people=None,records=None):
   if a['kind']=='registry'or not a['path'].endswith('.json'):continue
   before=read(root,a['before_capture'])
   if before.get('record_type')!='marked_chapter':continue
-  now=read(root,a['path']);source_dirs.setdefault(now['work_id'],set()).add(str(Path(a['path']).parent));oldm={m['id']:m for p in before['paragraphs']for m in p['mentions']};newm={m['id']:m for p in now['paragraphs']for m in p['mentions']};newp={m['id']:p for p in now['paragraphs']for m in p['mentions']};assert oldm.keys()==newm.keys()
+  now=read(root,a['path']);source_dirs.setdefault(now['work_id'],set()).add(str(Path(a['path']).parent))
+  try:from scripts.source_annotation_successors import xunsong_elder_brother_additions
+  except ImportError:from source_annotation_successors import xunsong_elder_brother_additions
+  additions=xunsong_elder_brother_additions(root,a['path'],before,now)
+  oldm={m['id']:m for p in before['paragraphs']for m in p['mentions']};newm={m['id']:m for p in now['paragraphs']for m in p['mentions']};newp={m['id']:p for p in now['paragraphs']for m in p['mentions']}
+  assert newm.keys()-oldm.keys()=={m['id']for m in additions}and not(oldm.keys()-newm.keys())
+  for m in additions:_supported_annotation_refinement(now,newp[m['id']],newm[m['id']],physical)
   for mid,om in oldm.items():
    nm=newm[mid];assert all(same(om.get(k),nm.get(k))for k in ('id','start','end','surface','source_role'))
    if om.get('kind')!=nm.get('kind'):
@@ -201,12 +215,16 @@ def proof(root,people=None,records=None):
   if a['kind']=='registry'or a['path']=='registry/works.json':continue
   if a['path'].endswith('.json'):
    before=json.loads(b);current=read(root,a['path'])
-   if before.get('record_type')=='marked_chapter':assert _archive_projection(before,current,mapping,physical)
+   if before.get('record_type')=='marked_chapter':assert _archive_projection(before,current,mapping,physical,root,a['path'])
    else:assert same(current,typed_projection(before,mapping))
   else:
    text=b.decode()
    for old,new in mapping.items():text=text.replace('ref="'+old+'"','ref="'+new+'"')
-   assert raw(root,a['path']).decode()==text
+   if a['path']=='corpus/jinshu/075.xml':
+    try:from scripts.render_corpus import render
+    except ImportError:from render_corpus import render
+    assert raw(root,a['path']).decode()==render(read(root,'corpus/jinshu/075.json'))
+   else:assert raw(root,a['path']).decode()==text
  pref=expand(c['preferred_reading_template'],roles);assert same(read(root,c['preferred_reading_path']),pref)
  sources={p:expand(t,roles)for p,t in c['source_templates'].items()};sidecars={p:expand(t,roles)for p,t in c['sidecar_templates'].items()};ns=expand(c['name_set_template'],roles)
  for rel,want in {**sources,**sidecars,c['name_path']:ns}.items():assert same(read(root,rel),want)
