@@ -36,6 +36,24 @@
       "張仲參與女孫婚議不證女孫為其女；盜嫂及受金指控保存引語，不當史實已核。",
       "楚漢都尉、左右丞相與爵位變動分存；曾孫不改成直接子，願續封而不得不當已封；全官爵時段及版本仍待覆核。",
       "曹參卒原孝惠帝六年與卷54惠帝二年差異保留；持爵年數不倒推生年，諸呂群體不補個別死亡；原爲、戸、鄕異體保持。"
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "u-shiji056-chen-sao",
+        "status": "unresolved",
+        "candidate_person_ids": [
+          "8xv_ax8_bpe",
+          "aqp_pc2_igk"
+        ],
+        "paragraph_ids": [
+          "c-shiji-056-chen:p001",
+          "c-shiji-056-chen:p002",
+          "c-shiji-056-chen:p007"
+        ],
+        "candidate_list_exhaustive": false,
+        "note": "卷001稱陳平之嫂嫉其不治家產，伯遂逐其婦。卷002張負告誡孫女「事嫂如母」，卷007諸將指控陳平「盜其嫂」，魏無知又反詰「盜嫂」。後兩段稱嫂者是否為已被逐之婦、伯是否另娶，原文均未交代；保留卷001人選 ID 8xv_ax8_bpe 與後段來源內候選 aqp_pc2_igk，不強合亦不斷言必異。卷007所載盜嫂是指控，不作已證事實。",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
@@ -452,10 +470,9 @@
           "start": 241,
           "end": 242,
           "surface": "嫂",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "先前伯婦已被逐；此處婚後勸語／指控的嫂未定是否同一人，亦不以盜嫂引語當已核事實。"
+          "kind": "person",
+          "person_id": "aqp_pc2_igk",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m002-0246",
@@ -1101,10 +1118,9 @@
           "start": 40,
           "end": 41,
           "surface": "嫂",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "先前伯婦已被逐；此處婚後勸語／指控的嫂未定是否同一人，亦不以盜嫂引語當已核事實。"
+          "kind": "person",
+          "person_id": "aqp_pc2_igk",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m007-0075",
@@ -1184,10 +1200,9 @@
           "start": 195,
           "end": 196,
           "surface": "嫂",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "先前伯婦已被逐；此處婚後勸語／指控的嫂未定是否同一人，亦不以盜嫂引語當已核事實。"
+          "kind": "person",
+          "person_id": "aqp_pc2_igk",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m007-0205",
