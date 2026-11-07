@@ -1957,6 +1957,59 @@
       ],
       "rationale": "本句明記天子入營禮畢後另「使人稱謝」，此人為代皇帝稱謝的匿名傳話者。雖同在一段，與前文持節傳詔者無足夠證據可合併，故分立 ID。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji057-shaozhu-wudi",
+      "person_id": "yqp_nlb_p1p_ACAA",
+      "surfaces": [
+        "少主"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-057-zhou",
+        "c-shiji-012-wudi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "moderate",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-057-zhou:m020-0089",
+          "c-shiji-012-wudi:m001-0046",
+          "c-shiji-012-wudi:m001-0050"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-057",
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p020",
+          "quote": "頃之，景帝居禁中，召條侯，賜食。獨置大胾，無切肉，又不置櫡。條侯心不平，顧謂尚席取櫡。景帝視而笑曰：「此不足君所乎？」條侯免冠謝。上起，條侯因趨出。景帝以目送之，曰：「此怏怏者非少主臣也！」"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-012",
+          "chapter_id": "c-shiji-012-wudi",
+          "source_id": "s-shiji-012-wudi",
+          "paragraph_id": "c-shiji-012-wudi:p001",
+          "quote": "孝武皇帝者，孝景中子也。母曰王太后。孝景四年，以皇子為膠東王。孝景七年，栗太子廢為臨江王，以膠東王為太子。孝景十六年崩，太子即位，為孝武皇帝。孝武皇帝初即位，尤敬鬼神之祀。"
+        }
+      ],
+      "references": [
+        {
+          "title": "Ctext 周亞夫人物條目（候選判讀參考）",
+          "url": "https://ctext.org/datawiki.pl?if=gb&res=865369",
+          "quote": "少主（指當時年紀尚輕的漢武帝劉徹）",
+          "scope": "interpretive_candidate_only",
+          "authority": "參考線索；不作身份判斷的唯一依據"
+        }
+      ],
+      "rationale": "本句只稱「少主」，未明言姓名。卷五十七先記景帝廢栗太子，後記景帝中三年免亞夫相位、頃之召見；卷十二明記孝景七年栗太子廢後以膠東王為太子。按篇內先後及太子更替，暫將「少主」連至後來的孝武帝劉徹。Ctext 人物條目提供相同候選說法，僅作參考；本判斷仍保留 contextual_provisional，不把原文泛稱改作姓名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }
