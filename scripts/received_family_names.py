@@ -12,6 +12,18 @@ def witness(c,root,ref):
   fs=p['source_position']['source_fragments'];assert ''.join(f['text']for f in fs)==p['text']
   for f in fs:assert ls[f['line']-1][f['raw_start']:f['raw_end']]==f['text']
 def source_component_valid(n,c,root):
+ if isinstance(n,dict)and n.get('component_source_binding',{}).get('kind')=='fixed_shiji124_suoyin_reference_name_parse':
+  try:from scripts.fixed_shiji124_zhaotayu_reference_name import component_valid
+  except ImportError:from fixed_shiji124_zhaotayu_reference_name import component_valid
+  return component_valid(n,c,root)
+ if isinstance(n,dict)and isinstance(n.get('component_source_binding'),dict)and n['component_source_binding'].get('kind')=='fixed_wyd_song051_yixin_name_component':
+  try:from .fixed_wuyingdian_song051_family_phase import component_valid
+  except ImportError:from fixed_wuyingdian_song051_family_phase import component_valid
+  return component_valid(n,c,root)
+ if isinstance(n,dict) and (str(n.get('id','')).startswith(('name-song051-phase1-','name-song051-external-fullname-','name-jin099-song051-')) or isinstance(n.get('component_source_binding'),dict) and n['component_source_binding'].get('kind')in('fixed_wyd_song051_literal_ming','fixed_wyd_song051_literal_clan','fixed_wyd_song051_contextual_name','fixed_wyd_song051_external_fullname_seed')):
+  try:from .fixed_wuyingdian_song051_family_phase import component_valid
+  except ImportError:from fixed_wuyingdian_song051_family_phase import component_valid
+  return component_valid(n,c,root)
  if isinstance(n,dict) and isinstance(n.get('component_source_binding'),dict) and n['component_source_binding'].get('kind')=='fixed_wyd_song044_name_component':
   try:from .wyd_song044_names import component_valid
   except ImportError:from wyd_song044_names import component_valid

@@ -1,0 +1,64 @@
+{
+  "record_type": "editorial_transcription_glyph_correction",
+  "chapter_id": "c-songshu-051-wyd1739-zongshi",
+  "source_id": "s-songshu-051-wyd1739-zongshi",
+  "before_raw_sha256": "5e2a4ad7e6d2abf573556c6aad9f1171261b5d68dba8b05724b69c951a912620",
+  "after_raw_sha256": "dfbed087b630bd64a0feb3146f20110f028636e78ab4fbe28d8e4653101d1867",
+  "change": {
+    "paragraph_id": "c-songshu-051-wyd1739-zongshi:p018",
+    "start": 27,
+    "end": 28,
+    "before": "謂",
+    "after": "諱",
+    "raw_line_1based": 168,
+    "raw_char_0based": 6,
+    "pdf_page": 26,
+    "side": "right",
+    "column_right_to_left": 2,
+    "character_1based": 7,
+    "full_column_before": "遐人才甚凡自謂名常對賓客曰孝武無道枉我殺母",
+    "full_column_after": "遐人才甚凡自諱名常對賓客曰孝武無道枉我殺母"
+  },
+  "basis": "兩獨立AI親視既有高清圖，右部韋而非胃；NS平行僅觸發回看，不當訂字正證。",
+  "image_evidence": {
+    "original_jpeg_sha256": "f9435c862b573189e66a4d0e20a59448b60e005e2585ad377ae458ed613e2500",
+    "private_crop_sha256": "c31ba41f1cbe7a65aa99498d8f2c75e4dd852f9009f28553aaf56a2a76253813",
+    "crop_rectangle_pixels": [
+      3260,
+      720,
+      3570,
+      1930
+    ],
+    "pdf_page": 26,
+    "side": "right",
+    "column_right_to_left": 2,
+    "character_1based": 7,
+    "read_form": "諱（言旁、右韋）",
+    "misread_form": "謂（言旁、右胃）",
+    "independent_ai_reviews": 2,
+    "human_reviewed": false,
+    "image_verified": false,
+    "model": null
+  },
+  "scope": "僅一字轉錄更正；147人物錨、UID/親屬端點/爵官/日期不變。",
+  "fixed_historical_qualifications_unchanged": [
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/yixin-child-cheng-reading-qualification.json",
+      "sha256": "aeb3d68eae3d742dcee0edb1fc47ca630f40ba97a1d720816077e5d9aa7e4577"
+    }
+  ],
+  "active_unit_ledgers": "只同步current閱讀範圍的來源版本/完整段quote；兩已採完整單元字文未變，未冒全卷重新圖校。",
+  "human_reviewed": false,
+  "image_verified": false,
+  "model": null,
+  "retained_exact_prior_unit_ledger": {
+    "path": "source-evidence/song051-wyd1739-zongshi/yirong-reading-ledger.json",
+    "sha256": "944b42ca87c6ad675184d2bc7120d1a88444d7833fbc19b1da3e146174c27cb4",
+    "reported_raw_sha256_values": [
+      "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+    ],
+    "role": "fixed_prior_unit_reading_not_current_whole_book_raw_binding",
+    "scope_text_equal_before_and_after_this_fix": true,
+    "qualification": "義融300字逐範圍相同；保其原AA7讀版，不冒全卷新版已重新核讀，也不把舊來源hash當現役全文hash。"
+  }
+}

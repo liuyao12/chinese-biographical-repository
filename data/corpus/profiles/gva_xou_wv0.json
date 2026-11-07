@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "id": "gva_xou_wv0",
+  "canonical_person_id": "gva_xou_wv0",
+  "label": "羊祉",
+  "identity_note": "固定晉034未知印本比較見證的來源個體；AI暫定，未人審、未核圖；不以來源-local暫分斷言與他篇人物必異。 羊姓依本傳傳主及明祖父/父/兄弟/伯叔與承嗣上下文編輯復原，原字錨仍略名；此期不拼父系結構ID。 秘子魏郡太守，與北魏軍司羊祉r2o不合。",
+  "review": "ai_provisional",
+  "names": [
+    "祉"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 34,
+      "category": "",
+      "title": "羊祜傳",
+      "paragraph_id": "c-jinshu-034-yanghu-comparison:p041",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令",
+      "paragraph_ids": [
+        "c-jinshu-034-yanghu-comparison:p041"
+      ],
+      "mention_ids": [
+        "c-jinshu-034-yanghu-comparison:p041:m0074"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-034-yanghu-comparison:p041:m0074": "c-jinshu-034-yanghu-comparison:p041"
+      },
+      "mention_id": "c-jinshu-034-yanghu-comparison:p041:m0074",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu-comparison:p041:m0074",
+          "mention_ids": [
+            "c-jinshu-034-yanghu-comparison:p041:m0074"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+      "source": {
+        "title": "《晉書》卷三十四〈羊祜傳〉",
+        "provider": "維基文庫固定修訂頁呈現文字",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷034",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "revision_id": 2567662,
+        "accessed_on": "2026-10-28",
+        "edition": null,
+        "edition_qualification": "印本未核的固定數位比較見證；非首選底本，非武英殿，未核書影。未確認是否出於四庫，不採為preferred base。",
+        "preferred_text_base": false,
+        "image_verified": false,
+        "human_reviewed": false,
+        "extent": "羊祜題下至杜預題頭前完整單元，含羊發、秘、亮、陶及承嗣附敘；41呈現文字段，非全卷，不含杜預及卷末評贊。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "capture_ref": "source-evidence/jin034-yanghu-comparison/rendered-extract.txt",
+        "capture_sha256": "35dc69590312f9b13541d3df2c8cd75c43721cd22251530def3d6acda41ec5b6",
+        "capture_kind": "fixed_revision_webtool_rendered_text_extract",
+        "original_wikitext_obtained": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0保留署名與固定修訂。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去數位題頭/工具行號/blockquote呈現符與行首排版縮排；工具連結標記僅保可見詞，未改正文標點、字形或疑字。未取得HTML或wikitext。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin034-zhi-father",
+      "subject_person_id": "gva_xou_wv0",
+      "predicate": "father",
+      "object_person_id": "0zr_pdp_zo0",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祜伯父秘，官至京兆太守。子祉",
+        "source_clause_binding": {
+          "kind": "fixed_jin034_close_kin",
+          "rule": "fixed_jin034_complete_unit_close_kin",
+          "slot": "zhi-father"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p041",
+          "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+          "subject_person_mention_id": "c-jinshu-034-yanghu-comparison:p041:m0074",
+          "object_person_mention_id": "c-jinshu-034-yanghu-comparison:p041:m0064"
+        }
+      ],
+      "interpretation_note": "子祉承秘，直記父秘，不借下一孫亮把祉當亮父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "0zr_pdp_zo0": "羊秘",
+    "gva_xou_wv0": "羊祉"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "name-jin034-yang-zhi-literal",
+      "person_id": "gva_xou_wv0",
+      "surname": null,
+      "ming": "祉",
+      "hao": null,
+      "title": null,
+      "additional_names": [],
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "paragraph_id": "c-jinshu-034-yanghu-comparison:p041",
+      "person_mention_id": "c-jinshu-034-yanghu-comparison:p041:m0074",
+      "source_anchor": {
+        "start": 74,
+        "end": 75,
+        "surface": "祉"
+      },
+      "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison"
+    },
+    {
+      "id": "name-jin034-yang-zhi-context-restored",
+      "person_id": "gva_xou_wv0",
+      "surname": "羊",
+      "ming": "祉",
+      "hao": null,
+      "title": null,
+      "additional_names": [],
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "paragraph_id": "c-jinshu-034-yanghu-comparison:p041",
+      "person_mention_id": "c-jinshu-034-yanghu-comparison:p041:m0074",
+      "source_anchor": {
+        "start": 74,
+        "end": 75,
+        "surface": "祉"
+      },
+      "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_jin034_received_family",
+        "source_term": "祉",
+        "rationale": "本傳羊祜明姓與逐項明祖/父/兄弟/伯叔及承嗣上下文的有限復姓；與literal原名分層，不從ID或label推姓，不補未知父。",
+        "human_reviewed": false
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison"
+    }
+  ],
+  "person_ids": [
+    "gva_xou_wv0"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin034-zhi-father",
+      "subject_person_id": "gva_xou_wv0",
+      "predicate": "father",
+      "object_person_id": "0zr_pdp_zo0",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祜伯父秘，官至京兆太守。子祉",
+        "source_clause_binding": {
+          "kind": "fixed_jin034_close_kin",
+          "rule": "fixed_jin034_complete_unit_close_kin",
+          "slot": "zhi-father"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+          "chapter_id": "c-jinshu-034-yanghu-comparison",
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p041",
+          "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+          "subject_person_mention_id": "c-jinshu-034-yanghu-comparison:p041:m0074",
+          "object_person_mention_id": "c-jinshu-034-yanghu-comparison:p041:m0064"
+        }
+      ],
+      "interpretation_note": "子祉承秘，直記父秘，不借下一孫亮把祉當亮父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

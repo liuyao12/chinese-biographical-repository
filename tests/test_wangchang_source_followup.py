@@ -9,7 +9,7 @@ class WangSource(unittest.TestCase):
  def test_twenty_exact_name_pronoun_anchors_have_reverse_evidence(self):
   self.assertEqual(len(self.review['decisions']),20)
   for row in self.review['decisions']:
-   p,m=self.by[row['mention_id']];self.assertEqual(p['text'][row['start']:row['end']],row['surface']);self.assertEqual(m['kind'],'person');self.assertEqual(m['person_id'],row['selected_person_id']);reg=self.catalog[0][m['person_id']];self.assertTrue(any(e.get('mention_id')==m['id']for e in reg['evidence']));self.assertTrue(any(m['id']in a['mention_ids']and a['surface']==m['surface']for a in reg['aliases']))
+   p,m=self.by[row['mention_id']];self.assertEqual(p['text'][row['start']:row['end']],row['surface']);self.assertEqual(m['kind'],'pronoun' if row['surface']=='之' else 'person');self.assertEqual(m['person_id'],row['selected_person_id']);reg=self.catalog[0][m['person_id']];self.assertTrue(any(e.get('mention_id')==m['id']for e in reg['evidence']));self.assertEqual(any(m['id']in a['mention_ids']and a['surface']==m['surface']for a in reg['aliases']),m['kind']=='person')
  def test_no_new_family_title_life_or_name_component_claims(self):
   for pid in self.ids.values():
    p=self.catalog[0][pid];self.assertNotIn('family_path',p);b=bundle(pid,root=R,catalog=self.catalog);self.assertTrue(all(r['id']in ['a-sanguozhi027-wangchang-011','a-sanguozhi027-wangchang-012','a-sanguozhi027-wangchang-013']for r in b['relations']));self.assertEqual(b['title_holdings'],[]);self.assertEqual(b['date_normalizations'],[])

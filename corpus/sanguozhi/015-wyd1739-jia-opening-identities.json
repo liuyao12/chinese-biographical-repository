@@ -1,0 +1,68 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_identity_decision_set",
+  "chapter_id": "c-sanguozhi-015-wyd1739-jia-opening",
+  "decisions": [
+    {
+      "id": "d-sgz015-wyd-kui-reuse",
+      "person_id": "jmv_vc4_gep_*A",
+      "surfaces": [
+        "賈逵",
+        "梁道",
+        "之",
+        "汝",
+        "逵",
+        "其"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-sanguozhi-015-wyd1739-jia-opening",
+        "c-jinshu-040-wyd1739-jiachong"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-sanguozhi-015-wyd1739-jia-opening:p001:m0000",
+          "c-sanguozhi-015-wyd1739-jia-opening:p001:m0003",
+          "c-sanguozhi-015-wyd1739-jia-opening:p001:m0025",
+          "c-sanguozhi-015-wyd1739-jia-opening:p001:m0027",
+          "c-sanguozhi-015-wyd1739-jia-opening:p002:m0003",
+          "c-sanguozhi-015-wyd1739-jia-opening:p002:m0017",
+          "c-jinshu-040-wyd1739-jiachong:p001:m0012"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-015",
+          "source_id": "s-sanguozhi-015-wyd1739-jia-opening",
+          "chapter_id": "c-sanguozhi-015-wyd1739-jia-opening",
+          "paragraph_id": "c-sanguozhi-015-wyd1739-jia-opening:p001",
+          "quote": "賈逵字梁道河東襄陵人也自為兒童戲弄常設部伍祖父習異之曰汝大必為將率口授兵法數萬言"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-wyd1739-jiachong",
+          "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+          "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p001",
+          "quote": "賈充字公閭平陽襄陵人也父逵魏豫州刺史陽里亭侯逵晚始生充言後當有充閭之慶故以為名字焉充少孤居喪以孝聞襲父爵為侯拜尚書郎典定科令兼度支考課辨章節度事皆施用累遷黃門侍郎汲郡典農中郎將參大將軍軍事從景帝討毌丘儉文欽於樂嘉帝疾篤還許昌留充監諸軍事以勞增邑三百五十"
+        }
+      ],
+      "rationale": "完整已讀本傳後文之豫州/陽里亭侯/子充字公閭與晉040父逵/充同脈絡，非僅同名；本段完整名賈逵字梁道，與現役魏晉官員來源同指，不合後漢通儒賈逵。實際canonical沿C40父逵MID解析。",
+      "references": [
+        {
+          "title": "武英殿三國志卷十五賈逵完整本傳/子充及裴注讀證",
+          "url": "https://commons.wikimedia.org/w/index.php?title=File:Harvard_drs_24091909_三國志_v.5.pdf&oldid=978636326",
+          "locator": "PDF58左10–65右8；本傳豫州/陽里亭/子充等另已完整閱讀，並非本78字選段含全部證據。",
+          "capture_reference": "source-evidence/sgz015-wyd1739-jia-opening/full-unit-readscope-evidence.json",
+          "human_reviewed": false
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

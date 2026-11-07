@@ -19,7 +19,7 @@ def analyse(record,ch):
  assert exact(a)and (a['start']==0 or t[a['start']-1]in '。；，'or t[:a['start']].endswith(('。」','。』','！」','？」')))and t[:a['start']].count('「')==t[:a['start']].count('」')and t[:a['start']].count('『')==t[:a['start']].count('』');roles={k:ms[v]for k,v in b['roles'].items()};fields=b['fields'];template,slots=FRAMES[b['rule']];cursor=a['start'];usedr=set();usedf=set()
  for token in re.split(r'(<[^>]+>|\{[^}]+\})',template):
   if not token:continue
-  if token.startswith('<'):k=token[1:-1];x=roles[k];assert x['kind']=='person'and x['start']==cursor and t[x['start']:x['end']]==x['surface'];usedr.add(k)
+  if token.startswith('<'):k=token[1:-1];x=roles[k];assert (x['kind']=='person'or(x['kind']=='pronoun'and x['surface']=='之'))and x['start']==cursor and t[x['start']:x['end']]==x['surface'];usedr.add(k)
   elif token.startswith('{'):k=token[1:-1];x=fields[k];assert exact(x)and x['start']==cursor and len(x['surface'])<=20 and not any(c in x['surface']for c in '曰云詔非未不欲請薨卒，。；：「」');usedf.add(k)
   else:assert t.startswith(token,cursor);cursor+=len(token);continue
   cursor=x['end']
@@ -32,7 +32,7 @@ def analyse(record,ch):
  # No subject changes can be hidden in scalar slots. All actual person marks are role-bound.
  roleids={m['id']for m in roles.values()}
  for m in p['mentions']:
-  if m['kind']=='person'and a['start']<=m['start']<a['end']:assert m['id']in roleids
+  if m['kind']in ('person','pronoun')and a['start']<=m['start']<a['end']:assert m['id']in roleids
  roles['head']=head
  ev,=record['evidence'];assert ev==dict(work_id=ch['work_id'],book_id=ch['book_id'],source_id=ch['source_id'],chapter_id=ch['id'],paragraph_id=p['id'],quote=t,person_mention_id=roles[b['recipient_role']]['id'])
  return p,roles,fields,slots

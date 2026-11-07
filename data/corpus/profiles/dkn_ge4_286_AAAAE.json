@@ -107,8 +107,81 @@
       "period": "未定 → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-jinshu-sima-heneiweng-inherited",
+      "person_id": "dkn_ge4_286_AAAAE",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "河內溫縣孝敬里",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "contextual_provisional",
+      "date_expression": null,
+      "source_term": "河內溫縣孝敬里人",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-001",
+          "chapter_id": "c-jinshu-001-sima-near-ancestry",
+          "source_id": "s-jinshu-001-sima-near-ancestry",
+          "paragraph_id": "c-jinshu-001-sima-near-ancestry:p001",
+          "quote": "宣皇帝諱懿，字仲達，河內溫縣孝敬里人，姓司馬氏。其先出自帝高陽之子重黎，為夏官祝融。歷唐、虞、夏、商，世序其職。及周，以夏官為司馬。其後程伯休父，周宣王時，以世官克平徐方，錫以官族，因而為氏。楚漢間，司馬卬為趙將，與諸侯伐秦。秦亡，立為殷王，都河內。漢以其地為郡，子孫遂家焉。自卬八世，生征西將軍鈞，字叔平。鈞生豫章太守量，字公度。量生潁川太守儁，字元異。儁生京兆尹防，字建公。帝即防之第二子也。少有奇節，聰朗多大略，博學洽聞，伏膺儒教。漢末大亂，常慨然有憂天下心。南陽太守同郡楊俊名知人，見帝，未弱冠，以為非常之器。尚書清河崔琰與帝兄朗善，亦謂朗曰：「君弟聰亮明允，剛斷英特，非子所及也。」",
+          "person_mention_id": "c-jinshu-001-sima-near-ancestry:p001:m0000"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-038",
+          "chapter_id": "c-jinshu-038-langye-near-family",
+          "source_id": "s-jinshu-038-langye-near-family",
+          "paragraph_id": "c-jinshu-038-langye-near-family:line012",
+          "quote": "宣帝九男，穆張皇后生景帝、文帝、平原王幹，伏夫人生汝南文成王亮、琅邪武王伷、清惠亭侯京、扶風武王駿，張夫人生梁王肜，柏夫人生趙王倫。亮及倫別有傳。",
+          "person_mention_id": "c-jinshu-038-langye-near-family:line012:m0048"
+        }
+      ],
+      "interpretation_note": "此人本傳未直接載籍貫；《晉書》卷38以「宣帝九男」明列此人為司馬懿之子，卷1明載司馬懿為河內溫縣孝敬里人，故依明載父系承傳。此為《晉書》全書脈絡支持的 contextual_provisional 主張，不作現代地理定位。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "occurrences": [
+    {
+      "number": 37,
+      "category": "",
+      "title": "宗室",
+      "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "疾去官。後代下邳王晃為尚書左僕射。出為鎮西將軍，領護西戎校尉、假節，代扶風王駿都督關中軍事，以疾還京師。永熙初，代石鑒為司空，尋領太子太保。及楊駿誅，泰領駿營，加侍中，給步兵二千五百人，騎五百匹。泰固辭，乃給千兵百騎。",
+      "paragraph_ids": [
+        "c-jinshu-037-gaomi-nanyang-ws2630018:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0186"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0186": "c-jinshu-037-gaomi-nanyang-ws2630018:p001"
+      },
+      "mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0186",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0186",
+          "mention_ids": [
+            "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0186"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-037",
+      "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+      "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+      "work_title": "晉書"
+    },
     {
       "number": 38,
       "category": "",
@@ -217,6 +290,30 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-037",
+      "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+      "source": {
+        "title": "《晉書》卷三十七宗室",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷037",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
+        "revision_id": 2630018,
+        "edition": null,
+        "review_status": "text_checked",
+        "image_verified": false,
+        "text_scope": "partial_chapter",
+        "extent": "泰三段、略整段、模三段、保三段、綏及虓完整敘事與兩疏；不重複權既有段。",
+        "raw_path": "source-evidence/jin090-caoshu/jin037-fixed.txt",
+        "raw_file_sha256": "557274fb21e7041782d93622e5fc32d67cf56ed38d6f5a3994e238b60b9638d6",
+        "raw_capture_kind": "reused_existing_fixed_capture",
+        "quality_note": "重用既存本機固定修訂文字；實際印本未知，不據網站題名冒稱武英殿或圖校。數位校記另層保存。",
+        "rights": "古代原文；維基文庫數位轉錄CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
     {
       "chapter_id": "c-jinshu-038-langye-near-family",
       "work_id": "w-jinshu",

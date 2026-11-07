@@ -158,7 +158,15 @@ def _direction(p, subjects, objects, term):
     return False
 
 
-def paternal_uncle_direction_valid(assertion, paragraphs):
+def paternal_uncle_direction_valid(assertion, paragraphs, *, root=None):
+    if isinstance(assertion,dict)and isinstance(assertion.get('qualifiers'),dict)and isinstance(assertion['qualifiers'].get('source_clause_binding'),dict)and assertion['qualifiers']['source_clause_binding'].get('rule')=='fixed_comparison_jin098_received_roles':
+        try:from scripts.fixed_jin098_wangdun_comparison import family_valid
+        except ImportError:from fixed_jin098_wangdun_comparison import family_valid
+        return family_valid(assertion,paragraphs,root)
+    if isinstance(assertion,dict) and isinstance(assertion.get('qualifiers'),dict) and isinstance(assertion['qualifiers'].get('source_clause_binding'),dict) and assertion['qualifiers']['source_clause_binding'].get('rule')=='fixed_comparison_jin080_received_roles':
+        try:from scripts.fixed_jin080_wangxizhi_comparison import family_valid
+        except ImportError:from fixed_jin080_wangxizhi_comparison import family_valid
+        return family_valid(assertion,paragraphs,root)
     if 'source_uncle_ordinal' in assertion.get('qualifiers', {}):
         try:from scripts.fixed_wikisource_units import ordinal_uncle_valid
         except ImportError:from fixed_wikisource_units import ordinal_uncle_valid

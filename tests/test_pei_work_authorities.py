@@ -1,3 +1,4 @@
+from tests.portable_fixture_copy import fixture_copy2
 import copy,json,shutil,tempfile,unittest
 from pathlib import Path
 from scripts.pei_work_authorities import validate,PATH
@@ -5,7 +6,7 @@ from scripts.work_provenance import validate as metadata_validate
 R=Path(__file__).resolve().parents[1]
 class PeiWorkAuthorityTests(unittest.TestCase):
  def setUp(self):
-  self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name);(self.root/'registry').mkdir();shutil.copyfile(R/'registry/works.json',self.root/'registry/works.json');shutil.copytree(R/'source-evidence/pei-work-authorities',self.root/'source-evidence/pei-work-authorities');self.data=json.loads((R/'registry/work-provenance.json').read_text());self.p=json.loads((self.root/PATH).read_text())
+  self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name);(self.root/'registry').mkdir();shutil.copyfile(R/'registry/works.json',self.root/'registry/works.json');shutil.copytree(R/'source-evidence/pei-work-authorities',self.root/'source-evidence/pei-work-authorities', copy_function=fixture_copy2);self.data=json.loads((R/'registry/work-provenance.json').read_text());self.p=json.loads((self.root/PATH).read_text())
  def tearDown(self):self.tmp.cleanup()
  def save(self): (self.root/PATH).write_text(json.dumps(self.p,ensure_ascii=False,indent=2)+'\n')
  def test_all_archives_and_exact_spans_positive(self):self.assertEqual(8,len(self.p['archives']));self.assertEqual(11,len(self.p['evidence']));self.assertTrue(validate(self.data,self.root))

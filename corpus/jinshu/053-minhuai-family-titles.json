@@ -1,0 +1,132 @@
+{
+  "format_version": "0.2",
+  "record_type": "title_holding_assertion_set",
+  "chapter_id": "c-jinshu-053-minhuai-family",
+  "holdings": [
+    {
+      "id": "th-jin053-bin-posthumous-nanyang",
+      "person_id": "dkn_ge4_286_AAAAIAAAA",
+      "title": "南陽王",
+      "kind": "noble_rank",
+      "mode": "posthumous_enfeoffment",
+      "status": "source_attested",
+      "attestations": [
+        {
+          "id": "th-jin053-bin-posthumous-nanyang:occ1",
+          "paragraph_id": "c-jinshu-053-minhuai-family:p003",
+          "start": 19,
+          "end": 22,
+          "surface": "南陽王",
+          "person_mention_id": "c-jinshu-053-minhuai-family:p003:m0000",
+          "usage": "posthumous_usage",
+          "date_expression": "四月"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "posthumous_enfeoffment",
+          "date_expression": "四月",
+          "normalized_date": {
+            "era": "CE",
+            "era_year": 300,
+            "year": 300,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "calendar": "chinese_civil",
+            "status": "editorial_provisional",
+            "source_expression": "永康元年",
+            "original_quote": "虨字道文，永康元年正月，薨。四月，追封南陽王。",
+            "evidence": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-053",
+                "source_id": "s-jinshu-053-ws2595666-rendered-family",
+                "chapter_id": "c-jinshu-053-minhuai-family",
+                "paragraph_id": "c-jinshu-053-minhuai-family:p003",
+                "quote": "虨字道文，永康元年正月，薨。四月，追封南陽王。",
+                "person_mention_id": "c-jinshu-053-minhuai-family:p003:m0000"
+              }
+            ],
+            "references": [
+              {
+                "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+                "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+                "quote": "永康",
+                "columns": {
+                  "dynasty": "西晉",
+                  "era_name": "永康",
+                  "first_year": "300",
+                  "last_year": "301"
+                },
+                "scope": "modern_era_year_equivalence_only",
+                "accessed_on": "2026-10-30",
+                "image_verified": false
+              }
+            ],
+            "rationale": "完整本段明年號或承同段明年，僅換中國曆年度；月詞保原字，不作西曆月/日，不推生日或爵官終點。",
+            "reviewer": "Codex（AI代理）",
+            "human_reviewed": false,
+            "model": null,
+            "regnal_year_mapping": {
+              "kind": "ce_regnal_era_span",
+              "era_name": "永康",
+              "source_number": "元",
+              "regnal_year": 1,
+              "start_ce_year": 300,
+              "end_ce_year": 301,
+              "reference_index": 0
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-053",
+              "source_id": "s-jinshu-053-ws2595666-rendered-family",
+              "chapter_id": "c-jinshu-053-minhuai-family",
+              "paragraph_id": "c-jinshu-053-minhuai-family:p003",
+              "quote": "虨字道文，永康元年正月，薨。四月，追封南陽王。",
+              "person_mention_id": "c-jinshu-053-minhuai-family:p003:m0000"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-053",
+          "source_id": "s-jinshu-053-ws2595666-rendered-family",
+          "chapter_id": "c-jinshu-053-minhuai-family",
+          "paragraph_id": "c-jinshu-053-minhuai-family:p003",
+          "quote": "虨字道文，永康元年正月，薨。四月，追封南陽王。",
+          "person_mention_id": "c-jinshu-053-minhuai-family:p003:m0000"
+        }
+      ],
+      "enfeoffment_basis": {
+        "kind": "explicit_posthumous_enfeoffment",
+        "source_term": "追封南陽王",
+        "death_event_id": "le-jin053-bin-death",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-053",
+            "source_id": "s-jinshu-053-ws2595666-rendered-family",
+            "chapter_id": "c-jinshu-053-minhuai-family",
+            "paragraph_id": "c-jinshu-053-minhuai-family:p003",
+            "quote": "虨字道文，永康元年正月，薨。四月，追封南陽王。",
+            "person_mention_id": "c-jinshu-053-minhuai-family:p003:m0000"
+          }
+        ]
+      },
+      "interpretation_note": "明追封，年度承同一完整短段永康元年；正月/四月留原字，不作Gregorian月或追諡日期。\n紀年語境：同虨完整短段先永康元年正月薨，後四月追封；年度承本段，不把死亡本身當封授。 原年詞「永康元年」；授封原句「四月，追封南陽王」。 語境類型：same_complete_paragraph_explicit_year。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

@@ -1,0 +1,3138 @@
+{
+  "record_type": "jin035_registered_unit_typed_family_phase",
+  "parent_contract_path": "source-evidence/jin035-peixiu-peiwei/registration-contract.json",
+  "parent_contract_sha256": "4229063b85517c9018a2d350f64e7b11cd4f7d70ff0b2518e13285b805e3c5ee",
+  "chapter_path": "corpus/jinshu/035-peixiu-peiwei.json",
+  "chapter_template": {
+    "format_version": "0.2",
+    "record_type": "marked_chapter",
+    "id": "c-jinshu-035-peixiu-peiwei",
+    "work_id": "w-jinshu",
+    "book_id": "b-jinshu-035",
+    "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+    "title": "裴秀裴頠傳",
+    "source": {
+      "title": "《晉書・裴秀裴頠傳》",
+      "provider": "Wikisource",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+      "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+      "revision_id": 2506399,
+      "accessed_on": "2026-10-21",
+      "extent": "裴秀傳及子頠附傳完整單元，固定原文第18–75行；止秀從弟楷前，不含裴楷或全卷。",
+      "text_scope": "partial_chapter",
+      "review_status": "text_checked",
+      "image_verified": false,
+      "rights": "古代原文及維基文庫數位轉錄，保留見證歸屬；數位文字依CC BY-SA 4.0。",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "edition": null,
+      "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+      "response_sha256": "e7fc20a0864866bfb68f1f92b542b6f542edebed2052fcf550244ed46206fa35",
+      "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+      "normalization": {
+        "character_conversion": {},
+        "note": "僅去quote及wikilink包裝；逐字raw_runs保留完整可見文字，不用掃描或ctext覆寫。"
+      }
+    },
+    "annotation": {
+      "status": "in_progress",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "coverage": "完整28段來源已讀；本phase僅17新增角色及裴秀／裴頠本人之有限標記。",
+      "limitations": [
+        "unknown-print數位比較，未核書影，不冒武英殿或人審。",
+        "其餘既有人物、帝號、引古及代詞尚待下一具名NER phase；不是完整人物標註。",
+        "凱與裴楷同指未決；冉未定；今上考是考察動詞，不標今上君主。"
+      ],
+      "registration_case_ref": "source-evidence/jin035-peixiu-peiwei/registration-contract.json",
+      "fixed_wikisource_unit_ref": "source-evidence/jin035-peixiu-peiwei/registration-contract.json",
+      "typed_family_phase_ref": "source-evidence/jin035-peixiu-peiwei/typed-family-contract.json"
+    },
+    "paragraphs": [
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p001",
+        "text": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p001:m0000",
+            "start": 0,
+            "end": 2,
+            "surface": "裴秀",
+            "kind": "person",
+            "person_id": "$xiu",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p001:m0015",
+            "start": 15,
+            "end": 16,
+            "surface": "茂",
+            "kind": "person",
+            "person_id": "$mao",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p001:m0023",
+            "start": 23,
+            "end": 24,
+            "surface": "潛",
+            "kind": "person",
+            "person_id": "$qian",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p001:m0074",
+            "start": 74,
+            "end": 76,
+            "surface": "秀母",
+            "kind": "person",
+            "person_id": "$xiu_mother",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p001:m0080",
+            "start": 80,
+            "end": 82,
+            "surface": "宣氏",
+            "kind": "person",
+            "person_id": "$xuan",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p001:m0100",
+            "start": 100,
+            "end": 102,
+            "surface": "秀母",
+            "kind": "person",
+            "person_id": "$xiu_mother",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p001:m0119",
+            "start": 119,
+            "end": 121,
+            "surface": "宣氏",
+            "kind": "person",
+            "person_id": "$xuan",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p001:m0141",
+            "start": 141,
+            "end": 143,
+            "surface": "裴秀",
+            "kind": "person",
+            "person_id": "$xiu",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 20,
+          "last_line": 20,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line020",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p002",
+        "text": "渡遼將軍毌丘儉嘗薦秀于大將軍曹爽，曰：「生而岐嶷，長蹈自然，玄靜守真，性入道奧；博學強記，無文不該；孝友著于鄉党，高聲聞於遠近。誠宜弼佐謨明，助和鼎味，毗贊大府，光昭盛化。非徒子奇、甘羅之儔，兼包顏、冉、游、夏之美。」爽乃辟為掾，襲父爵清陽亭侯，遷黃門侍郎。爽誅，以故吏免。頃之，為廷尉正，曆文帝安東及衛將軍司馬，軍國之政，多見信納。遷散騎常侍。",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p002:m0088",
+            "start": 88,
+            "end": 90,
+            "surface": "子奇",
+            "kind": "person",
+            "person_id": "$ziqi",
+            "status": "source_explicit",
+            "narrative_qualification": {
+              "kind": "allusive_comparison",
+              "qualification": "毌丘儉薦秀引古，不是同時在場。"
+            }
+          }
+        ],
+        "source_position": {
+          "first_line": 22,
+          "last_line": 22,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line022",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p003",
+        "text": "帝之討諸葛誕也，秀與尚書僕射陳泰、黃門侍郎鍾會以行台從，豫參謀略。及誕平，轉尚書，進封魯陽鄉侯，增邑千戶。常道鄉公立，以豫議定策，進爵縣侯，增邑七百戶，遷尚書僕射。魏咸熙初，厘革憲司。時荀顗定禮儀，賈充正法律，而秀改官制焉。秀議五等之爵，自騎督已上六百餘人皆封。於是秀封濟川侯，地方六十里，邑千四百戶，以高苑縣濟川墟為侯國。",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 24,
+          "last_line": 24,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line024",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p004",
+        "text": "初，文帝未定嗣，而屬意舞陽侯攸。武帝懼不得立，問秀曰：「人有相否？」因以奇表示之。秀後言于文帝曰：「中撫軍人望既茂，天表如此，固非人臣之相也。」由是世子乃定。武帝既即王位，拜尚書令、右光祿大夫，與御史大夫王沈、衛將軍賈充俱開府，加給事中。及帝受禪，加左光祿大夫，封钜鹿郡公，邑三千戶。",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 26,
+          "last_line": 26,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line026",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p005",
+        "text": "時安遠護軍郝詡與故人書云：「與尚書令裴秀相知，望其為益。」有司奏免秀官，詔曰：「不能使人之不加諸我，此古人所難。交關人事，詡之罪耳，豈尚書令能防乎！其勿有所問。」司隸校尉李憙復上言，騎都尉劉尚為尚書令裴秀占官稻田，求禁止秀。詔又以秀幹翼朝政，有勳績於王室，不可以小疵掩大德，使推正尚罪而解秀禁止焉。",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p005:m0005",
+            "start": 5,
+            "end": 7,
+            "surface": "郝詡",
+            "kind": "person",
+            "person_id": "$haoxu",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p005:m0018",
+            "start": 18,
+            "end": 20,
+            "surface": "裴秀",
+            "kind": "person",
+            "person_id": "$xiu",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p005:m0061",
+            "start": 61,
+            "end": 62,
+            "surface": "詡",
+            "kind": "person",
+            "person_id": "$haoxu",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p005:m0094",
+            "start": 94,
+            "end": 96,
+            "surface": "劉尚",
+            "kind": "person",
+            "person_id": "$liushang",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p005:m0100",
+            "start": 100,
+            "end": 102,
+            "surface": "裴秀",
+            "kind": "person",
+            "person_id": "$xiu",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p005:m0140",
+            "start": 140,
+            "end": 141,
+            "surface": "尚",
+            "kind": "person",
+            "person_id": "$liushang",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 28,
+          "last_line": 28,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line028",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p006",
+        "text": "久之，詔曰：「夫三司之任，以翼宣皇極，弼成王事者也。故經國論道，賴之明喆，苟非其人，官不虛備。尚書令、左光祿大夫裴秀，雅量弘博，思心通遠，先帝登庸，贊事前朝。朕受明命，光佐大業，勳德茂著，配蹤元凱。宜正位居體，以康庶績。其以秀為司空。」",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p006:m0056",
+            "start": 56,
+            "end": 58,
+            "surface": "裴秀",
+            "kind": "person",
+            "person_id": "$xiu",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 30,
+          "last_line": 30,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line030",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p007",
+        "text": "秀儒學洽聞，且留心政事，當禪代之際，總納言之要，其所裁當，禮無違者。又以職在地官，以《禹貢》山川地名，從來久遠，多有變易。後世說者或強牽引，漸以暗昧。於是甄摘舊文，疑者則闕，古有名而今無者，皆隨事注列，作《禹貢地域圖》十八篇，奏之，藏于秘府。其序曰：",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 32,
+          "last_line": 32,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line032",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p008",
+        "text": "圖書之設，由來尚矣。自古立象垂制，而賴其用。三代置其官，國史掌厥職。暨漢屠咸陽，丞相蕭何盡收秦之圖籍。今秘書既無古之地圖，又無蕭何所得，惟有漢氏《輿地》及《括地》諸雜圖。各不設分率，又不考正准望，亦不備載名山大川。雖有粗形，皆不精審，不可依據。或荒外迂誕之言，不合事實，於義無取。",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 34,
+          "last_line": 34,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line034",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p009",
+        "text": "大晉龍興，混一六合，以清宇宙，始於庸蜀，冞入其岨。文皇帝乃命有司，撰訪吳蜀地圖。蜀土既定，六軍所經，地域遠近，山川險易，征路迂直，校驗圖記，罔或有差。今上考《禹貢》山海川流，原隰陂澤，古之九州，及今之十六州，郡國縣邑，疆界鄉陬，及古國盟會舊名，水陸徑路，為地圖十八篇。",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 36,
+          "last_line": 36,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line036",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p010",
+        "text": "製圖之體有六焉。一曰分率，所以辨廣輪之度也。二曰准望，所以正彼此之體也。三曰道里，所以定所由之數也。四曰高下，五曰方邪，六曰迂直，此三者各因地而制宜，所以校夷險之異也。有圖像而無分率，則無以審遠近之差；有分率而無准望，雖得之於一隅，必失之于他方；有准望而無道里，則施於山海絕隔之地，不能以相通；有道里而無高下、方邪、迂直之校，則徑路之數必與遠近之實相違，失准望之正矣，故以此六者參而考之。然遠近之實定於分率，彼此之實定於道里，度數之實定于高下、方邪、迂直之算。故雖有峻山钜海之隔，絕域殊方之迥，登降詭曲之因，皆可得舉而定者。准望之法既正，則曲直遠近無所隱其形也。",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 38,
+          "last_line": 38,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line038",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p011",
+        "text": "秀創制朝儀，廣陳刑政，朝廷多遵用之，以為故事。在位四載，為當世名公。服寒食散，當飲熱酒而飲冷酒，泰始七年薨，時年四十八。詔曰：「司空經德履哲，體蹈儒雅，佐命翼世，勳業弘茂。方將宣獻敷制，為世宗範，不幸薨殂，朕甚痛之。其賜秘器、朝服一具、衣一襲、錢三十萬、布百匹。諡曰元。」",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 40,
+          "last_line": 40,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line040",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p012",
+        "text": "初，秀以尚書三十六曹統事准例不明，宜使諸卿任職，未及奏而薨。其友人料其書記，得表草言平吳之事，其詞曰：「孫皓酷虐，不及聖明禦世兼弱攻昧，使遺子孫，將遂不能臣；時有否泰，非萬安之勢也。臣昔雖已屢言，未有成旨。今既疾篤不起，謹重屍啟。願陛下時共施用。」乃封以上聞。詔報曰：「司空薨，痛悼不能去心。又得表草，雖在危困，不忘王室，盡忠憂國。省益傷切，輒當與諸賢共論也。」",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 42,
+          "last_line": 42,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line042",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p013",
+        "text": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p013:m0022",
+            "start": 22,
+            "end": 23,
+            "surface": "浚",
+            "kind": "person",
+            "person_id": "$jun",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p013:m0024",
+            "start": 24,
+            "end": 25,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p013:m0026",
+            "start": 26,
+            "end": 27,
+            "surface": "浚",
+            "kind": "person",
+            "person_id": "$jun",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p013:m0039",
+            "start": 39,
+            "end": 40,
+            "surface": "浚",
+            "kind": "person",
+            "person_id": "$jun",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p013:m0042",
+            "start": 42,
+            "end": 43,
+            "surface": "憬",
+            "kind": "person",
+            "person_id": "$jing",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p013:m0054",
+            "start": 54,
+            "end": 55,
+            "surface": "浚",
+            "kind": "person",
+            "person_id": "$jun",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p013:m0057",
+            "start": 57,
+            "end": 58,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 44,
+          "last_line": 44,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line044",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p014",
+        "text": "頠字逸民。弘雅有遠識，博學稽古，自少知名。御史中丞周弼見而歎曰：「頠若武庫，五兵縱橫，一時之傑也。」賈充即頠從母夫也，表「秀有佐命之勳，不幸嫡長喪亡，遺孤稚弱。頠才德英茂，足以興隆國嗣。」詔頠襲爵，頠固讓，不許。太康二年，徵為太子中庶子，遷散騎常侍。惠帝既位，轉國子祭酒，兼右軍將軍。",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p014:m0000",
+            "start": 0,
+            "end": 1,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p014:m0025",
+            "start": 25,
+            "end": 27,
+            "surface": "周弼",
+            "kind": "person",
+            "person_id": "$zhoubi",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p014:m0033",
+            "start": 33,
+            "end": 34,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p014:m0053",
+            "start": 53,
+            "end": 54,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p014:m0080",
+            "start": 80,
+            "end": 81,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p014:m0095",
+            "start": 95,
+            "end": 96,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p014:m0099",
+            "start": 99,
+            "end": 100,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 46,
+          "last_line": 46,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line046",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p015",
+        "text": "初，頠兄子憬為白衣，頠論述世勳，賜爵高陽亭侯。楊駿將誅也，駿党左軍將軍劉豫陳兵在門，遇頠，問太傅所在。頠紿之曰：「向於西掖門遇公乘素車，從二人西出矣。」豫曰：「吾何之？」頠曰：「宜至廷尉。」豫從頠言，遂委而去。尋而詔頠代豫領左軍將軍，屯萬春門。及駿誅，以功當封武昌侯，頠請以封憬，帝竟封頠次子該。頠苦陳憬本承嫡，宜襲钜鹿，先帝恩旨，辭不獲命。武昌之封，己之所蒙，特請以封憬。該時尚主，故帝不聽。累遷侍中。",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0002",
+            "start": 2,
+            "end": 3,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0005",
+            "start": 5,
+            "end": 6,
+            "surface": "憬",
+            "kind": "person",
+            "person_id": "$jing",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0010",
+            "start": 10,
+            "end": 11,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0035",
+            "start": 35,
+            "end": 37,
+            "surface": "劉豫",
+            "kind": "person",
+            "person_id": "$liuyu",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0043",
+            "start": 43,
+            "end": 44,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0051",
+            "start": 51,
+            "end": 52,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0076",
+            "start": 76,
+            "end": 77,
+            "surface": "豫",
+            "kind": "person",
+            "person_id": "$liuyu",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0085",
+            "start": 85,
+            "end": 86,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0095",
+            "start": 95,
+            "end": 96,
+            "surface": "豫",
+            "kind": "person",
+            "person_id": "$liuyu",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0097",
+            "start": 97,
+            "end": 98,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0108",
+            "start": 108,
+            "end": 109,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0110",
+            "start": 110,
+            "end": 111,
+            "surface": "豫",
+            "kind": "person",
+            "person_id": "$liuyu",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0134",
+            "start": 134,
+            "end": 135,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0138",
+            "start": 138,
+            "end": 139,
+            "surface": "憬",
+            "kind": "person",
+            "person_id": "$jing",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0143",
+            "start": 143,
+            "end": 144,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0146",
+            "start": 146,
+            "end": 147,
+            "surface": "該",
+            "kind": "person",
+            "person_id": "$gai_pei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0148",
+            "start": 148,
+            "end": 149,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0151",
+            "start": 151,
+            "end": 152,
+            "surface": "憬",
+            "kind": "person",
+            "person_id": "$jing",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0185",
+            "start": 185,
+            "end": 186,
+            "surface": "憬",
+            "kind": "person",
+            "person_id": "$jing",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0187",
+            "start": 187,
+            "end": 188,
+            "surface": "該",
+            "kind": "person",
+            "person_id": "$gai_pei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p015:m0190",
+            "start": 190,
+            "end": 191,
+            "surface": "主",
+            "kind": "person",
+            "person_id": "$princess",
+            "status": "contextual_provisional"
+          }
+        ],
+        "source_position": {
+          "first_line": 48,
+          "last_line": 48,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line048",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p016",
+        "text": "時天下暫寧，頠奏修國學，刻石寫經。皇太子既講，釋奠祀孔子，飲饗射侯，甚有儀序。又令荀籓終父勖之志，鑄鐘鑿磬，以備郊廟朝享禮樂。頠通博多聞，兼明醫術。荀勖之修律度也，檢得古尺，短世所用四分有餘。頠上言：「宜改諸度量。若未能悉革，可先改太醫權衡。此若差違，遂失神農、岐伯之正。藥物輕重，分兩乖互，所可傷夭，為害尤深。古壽考而今短折者，未必不由此也。」卒不能用。樂廣嘗與頠清言，欲以理服之，而頠辭論豐博，廣笑而不言。時人謂頠為言談之林藪。",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p016:m0006",
+            "start": 6,
+            "end": 7,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p016:m0063",
+            "start": 63,
+            "end": 64,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p016:m0096",
+            "start": 96,
+            "end": 97,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p016:m0182",
+            "start": 182,
+            "end": 183,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p016:m0193",
+            "start": 193,
+            "end": 194,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p016:m0208",
+            "start": 208,
+            "end": 209,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 50,
+          "last_line": 50,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line050",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p017",
+        "text": "頠以賈后不悅太子，抗表請增崇太子所生謝淑妃位號，仍啟增置後衛率吏，給三千兵，於是東宮宿衛萬人。遷尚書，侍中如故，加光祿大夫。每授一職，未嘗不殷勤固讓，表疏十餘上，博引古今成敗以為言，覽之者莫不寒心。",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p017:m0000",
+            "start": 0,
+            "end": 1,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p017:m0018",
+            "start": 18,
+            "end": 21,
+            "surface": "謝淑妃",
+            "kind": "person",
+            "person_id": "$xie_shufei",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 52,
+          "last_line": 52,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line052",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p018",
+        "text": "頠深慮賈后亂政，與司空張華、侍中賈模議廢之而立謝淑妃。華、模皆曰：「帝自無廢黜之意，若吾等專行之，上心不以為是。且諸王方剛，朋黨異議，恐禍如發機，身死國危，無益社稷。」頠曰：「誠如公慮。但昏虐之人，無所忌憚，亂可立待，將如之何？」華曰：「卿二人猶且見信，然勤為左右陳禍福之戒，冀無大悖。幸天下尚安，庶可優遊卒歲。」此謀遂寢。頠旦夕勸說從母廣城君，令戒喻賈后親待太子而已。或說頠曰：「幸與中宮內外可得盡言。言若不行，則可辭病摒退。若二者不立，雖有十表，難乎免矣。」頠慨然久之，而竟不能行。",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p018:m0000",
+            "start": 0,
+            "end": 1,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p018:m0023",
+            "start": 23,
+            "end": 26,
+            "surface": "謝淑妃",
+            "kind": "person",
+            "person_id": "$xie_shufei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p018:m0084",
+            "start": 84,
+            "end": 85,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p018:m0162",
+            "start": 162,
+            "end": 163,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p018:m0187",
+            "start": 187,
+            "end": 188,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p018:m0231",
+            "start": 231,
+            "end": 232,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 54,
+          "last_line": 54,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line054",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p019",
+        "text": "遷尚書左僕射，侍中如故。頠雖後之親屬，然雅望素隆，四海不謂之以親戚進也，惟恐其不居位。俄復使頠專任門下事，固讓，不聽。頠上言：「賈模適亡，復以臣代，崇外戚之望，彰偏私之舉。後族何常有能自保，皆知重親無脫者也。然漢二十四帝惟孝文、光武、明帝不重外戚，皆保其宗，豈將獨賢，實以安理故也。昔穆叔不拜越禮之饗，臣亦不敢聞殊常之詔。」又表云：「咎繇謨虞，伊尹相商，呂望翊周，蕭張佐漢，咸播功化，光格四極。暨于繼體，咎單、傅說，祖己、樊仲，亦隆中興。或明揚側陋，或起自庶族，豈非尚德之舉，以臻斯美哉！曆觀近世，不能慕遠，溺於近情，多任後親，以致不靜。昔疏廣戒太子以舅氏為官屬，前世以為知禮。況朝廷何取于外戚，正復才均，尚當先其疏者，以明至公。漢世不用馮野王，即其事也。」表上，皆優詔敦譬。",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p019:m0012",
+            "start": 12,
+            "end": 13,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p019:m0046",
+            "start": 46,
+            "end": 47,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p019:m0059",
+            "start": 59,
+            "end": 60,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p019:m0319",
+            "start": 319,
+            "end": 322,
+            "surface": "馮野王",
+            "kind": "person",
+            "person_id": "$fengyewang",
+            "status": "source_explicit",
+            "narrative_qualification": {
+              "kind": "historical_allusion",
+              "qualification": "裴頠表引漢世舊例，不是當時在場或任官。"
+            }
+          }
+        ],
+        "source_position": {
+          "first_line": 56,
+          "last_line": 56,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line056",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p020",
+        "text": "時以陳准子匡、韓蔚子嵩並侍東宮，頠諫曰：「東宮之建，以儲皇極。其所與遊接，必簡英俊，宜用成德。匡、嵩幼弱，未識人理立身之節。東宮實體夙成之表，而今有童子侍從之聲，未是光闡遐風之弘理也。」湣懷太子之廢也，頠與張華苦爭不從，語在《華傳》。",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p020:m0007",
+            "start": 7,
+            "end": 9,
+            "surface": "韓蔚",
+            "kind": "person",
+            "person_id": "$hanwei",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p020:m0010",
+            "start": 10,
+            "end": 11,
+            "surface": "嵩",
+            "kind": "person",
+            "person_id": "$song_han",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p020:m0016",
+            "start": 16,
+            "end": 17,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p020:m0049",
+            "start": 49,
+            "end": 50,
+            "surface": "嵩",
+            "kind": "person",
+            "person_id": "$song_han",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p020:m0101",
+            "start": 101,
+            "end": 102,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 58,
+          "last_line": 58,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line058",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p021",
+        "text": "頠深患時俗放蕩，不尊儒術，何晏、阮籍素有高名於世，口談浮虛，不遵禮法，屍祿耽寵，仕不事事；至王衍之徒，聲譽太盛，位高勢重，不以物務自嬰，遂相放效，風教陵遲，乃著崇有之論以釋其蔽曰：",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p021:m0000",
+            "start": 0,
+            "end": 1,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 60,
+          "last_line": 60,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line060",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p022",
+        "text": "夫總混群本，宗極之道也。方以族異，庶類之品也。形象著分，有生之體也。化感錯綜，理跡之原也。夫品而為族，則所稟者偏，偏無自足，故憑乎外資。是以生而可尋，所謂理也。理之所體，所謂有也。有之所須，所謂資也。資有攸合，所謂宜也。擇乎厥宜，所謂情也。識智既授，雖出處異業，默語殊塗，所以寶生存宜，其情一也。眾理並而無害，故貴賤形焉。失得由乎所接，故吉凶兆焉。是以賢人君子，知欲不可絕，而交物有會。觀乎往復，稽中定務。惟夫用天之道，分地之利，躬其力任，勞而後饗。居以仁順，守以恭儉，率以忠信，行以敬讓，志無盈求，事無過用，乃可濟乎！故大建厥極，綏理群生，訓物垂範，於是乎在，斯則聖人為政之由也。",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 62,
+          "last_line": 62,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line062",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p023",
+        "text": "若乃淫抗陵肆，則危害萌矣。故欲衍則速患，情佚則怨博，擅恣則興攻，專利則延寇，可謂以厚生而失生者也。悠悠之徒，駭乎若茲之釁，而尋艱爭所緣。察夫偏質有弊，而睹簡損之善，遂闡貴無之議，而建賤有之論。賤有則必外形，外形則必遺制，遺制則必忽防，忽防則必忘禮。禮制弗存，則無以為政矣。眾之從上，猶水之居器也。故兆庶之情，信于所習；習則心服其業，業服則謂之理然。是以君人必慎所教，班其政刑一切之務，分宅百姓，各授四職，能令稟命之者不肅而安，忽然忘異，莫有遷志。況於據在三之尊，懷所隆之情，敦以為訓者哉！斯乃昏明所階，不可不審。",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 64,
+          "last_line": 64,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line064",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p024",
+        "text": "夫盈欲可損而未可絕有也，過用可節而未可謂無貴也。蓋有講言之具者，深列有形之故，盛稱空無之美。形器之故有征，空無之義難檢，辯巧之文可悅，似象之言足惑，眾聽眩焉，溺其成說。雖頗有異此心者，辭不獲濟，屈於所狎，因謂虛無之理，誠不可蓋。唱而有和，多往弗反，遂薄綜世之務，賤功烈之用，高浮游之業，埤經實之賢。人情所殉，篤夫名利。於是文者衍其辭，訥者贊其旨，染其眾也。是以立言藉於虛無，謂之玄妙；處官不親所司，謂之雅遠；奉身散其廉操，謂之曠達。故砥礪之風，彌以陵遲。放者因斯，或悖吉凶之禮，而忽容止之表，瀆棄長幼之序，混漫貴賤之級。其甚者至於裸裎，言笑忘宜，以不惜為弘，士行又虧矣。",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 66,
+          "last_line": 66,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line066",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p025",
+        "text": "老子既著五千之文，表摭穢雜之弊，甄舉靜一之義，有以令人釋然自夷，合于《易》之《損》、《謙》、《艮》、《節》之旨。而靜一守本，無虛無之謂也；《損》《艮》之屬，蓋君子之一道，非《易》之所以為體守本無也。觀老子之書雖博有所經，而云「有生於無」，以虛為主，偏立一家之辭，豈有以而然哉！人之既生，以保生為全，全之所階，以順感為務。若味近以虧業，則沈溺之釁興；懷末以忘本，則天理之真滅。故動之所交，存亡之會也。夫有非有，於無非無；于無非無，於有非有。是以申縱播之累，而著貴無之文。將以絕所非之盈謬，存大善之中節，收流遁於既過，反澄正於胸懷。宜其以無為辭，而旨在全有，故其辭曰「以為文不足」。若斯，則是所寄之塗，一方之言也。若謂至理信以無為宗，則偏而害當矣。先賢達識，以非所滯，示之深論。惟班固著難，未足折其情。孫卿、楊雄大體抑之，猶偏有所許。而虛無之言，日以廣衍，眾家扇起，各列其說。上及造化，下被萬事，莫不貴無，所存僉同。情以眾固，乃號凡有之理皆義之埤者，薄而鄙焉。辯論人倫及經明之業，遂易門肆。頠用矍然，申其所懷，而攻者盈集。或以為一時口言。有客幸過，咸見命著文，擿列虛無不允之征。若未能每事釋正，則無家之義弗可奪也。頠退而思之，雖君子宅情，無求於顯，及其立言，在乎達旨而已。然去聖久遠，異同紛糾，苟少有仿佛，可以崇濟先典，扶明大業，有益於時，則惟患言之不能，焉得靜默，及未舉一隅，略示所存而已哉！",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p025:m0443",
+            "start": 443,
+            "end": 444,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p025:m0505",
+            "start": 505,
+            "end": 506,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 68,
+          "last_line": 68,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line068",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p026",
+        "text": "夫至無者無以能生，故始生者自生也。自生而必體有，則有遺而生虧矣。生以有為已分，則虛無是有之所謂遺者也。故養既化之有，非無用之所能全也；理既有之眾，非無為之所能循也。心非事也，而制事必由於心，然不可以制事以非事，謂心為無也。匠非器也，而制器必須於匠，然不可以制器以非器，謂匠非有也。是以欲收重泉之鱗，非偃息之所能獲也；隕高墉之禽，非靜拱之所能捷也；審投弦餌之用，非無知之所能覽也。由此而觀，濟有者皆有也，虛無奚益於已有之群生哉！",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 70,
+          "last_line": 70,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line070",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p027",
+        "text": "王衍之徒攻難交至，並莫能屈。又著《辯才論》，古今精義皆辨釋焉，未成而遇禍。",
+        "text_layer": "received_chapter",
+        "annotation_status": "pending",
+        "mentions": [],
+        "source_position": {
+          "first_line": 72,
+          "last_line": 72,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line072",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      },
+      {
+        "id": "c-jinshu-035-peixiu-peiwei:p028",
+        "text": "初，趙王倫諂事賈后，頠甚惡之，倫數求官，頠與張華復固執不許，由是深為倫所怨。倫又潛懷篡逆，欲先除朝望，因廢賈后之際遂誅之，時年三十四。二子嵩、該，倫亦欲害之。梁王肜、東海王越稱頠父秀有勳王室，配食太廟，不宜滅其後嗣，故得不死，徙帶方；惠帝反正，追復頠本官，改葬以卿禮，諡曰成。以嵩嗣爵，為中書黃門侍郎。該出後從伯凱，為散騎常侍，並為乞活賊陳午所害。",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p028:m0010",
+            "start": 10,
+            "end": 11,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p028:m0020",
+            "start": 20,
+            "end": 21,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p028:m0069",
+            "start": 69,
+            "end": 70,
+            "surface": "嵩",
+            "kind": "person",
+            "person_id": "$song_pei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p028:m0071",
+            "start": 71,
+            "end": 72,
+            "surface": "該",
+            "kind": "person",
+            "person_id": "$gai_pei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p028:m0088",
+            "start": 88,
+            "end": 89,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p028:m0090",
+            "start": 90,
+            "end": 91,
+            "surface": "秀",
+            "kind": "person",
+            "person_id": "$xiu",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p028:m0124",
+            "start": 124,
+            "end": 125,
+            "surface": "頠",
+            "kind": "person",
+            "person_id": "$wei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p028:m0139",
+            "start": 139,
+            "end": 140,
+            "surface": "嵩",
+            "kind": "person",
+            "person_id": "$song_pei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p028:m0151",
+            "start": 151,
+            "end": 152,
+            "surface": "該",
+            "kind": "person",
+            "person_id": "$gai_pei",
+            "status": "source_explicit"
+          },
+          {
+            "id": "c-jinshu-035-peixiu-peiwei:p028:m0169",
+            "start": 169,
+            "end": 171,
+            "surface": "陳午",
+            "kind": "person",
+            "person_id": "$chenwu",
+            "status": "source_explicit"
+          }
+        ],
+        "source_position": {
+          "first_line": 74,
+          "last_line": 74,
+          "revision_id": 2506399,
+          "source_layer": "received_biography",
+          "raw_projection_ref": "source-evidence/jin035-peixiu-peiwei/raw-projection.json",
+          "unit_key": "line074",
+          "raw_file_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      }
+    ],
+    "text_sha256": "8fdc9e1b5c19dd80809b5557f9382c070b1d7b487d091726553970d23f21cef7"
+  },
+  "sidecars": {
+    "corpus/jinshu/035-peixiu-peiwei-assertions.json": {
+      "format_version": "0.2",
+      "record_type": "person_assertion_set",
+      "chapter_id": "c-jinshu-035-peixiu-peiwei",
+      "assertions": [
+        {
+          "id": "a-jin035-xiuwei-xiu-qian",
+          "subject_person_id": "$xiu",
+          "predicate": "father",
+          "object_person_id": "$qian",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p001",
+              "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0000",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0023"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "父潛",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "lineage": "paternal"
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin035-xiuwei-xiu-mao",
+          "subject_person_id": "$xiu",
+          "predicate": "grandfather",
+          "object_person_id": "$mao",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p001",
+              "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0000",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0015"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "祖茂",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "lineage": "paternal",
+            "generation_difference": -2
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin035-xiuwei-jun-xiu",
+          "subject_person_id": "$jun",
+          "predicate": "father",
+          "object_person_id": "$xiu",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p001",
+              "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0000"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p002",
+              "quote": "渡遼將軍毌丘儉嘗薦秀于大將軍曹爽，曰：「生而岐嶷，長蹈自然，玄靜守真，性入道奧；博學強記，無文不該；孝友著于鄉党，高聲聞於遠近。誠宜弼佐謨明，助和鼎味，毗贊大府，光昭盛化。非徒子奇、甘羅之儔，兼包顏、冉、游、夏之美。」爽乃辟為掾，襲父爵清陽亭侯，遷黃門侍郎。爽誅，以故吏免。頃之，為廷尉正，曆文帝安東及衛將軍司馬，軍國之政，多見信納。遷散騎常侍。"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p003",
+              "quote": "帝之討諸葛誕也，秀與尚書僕射陳泰、黃門侍郎鍾會以行台從，豫參謀略。及誕平，轉尚書，進封魯陽鄉侯，增邑千戶。常道鄉公立，以豫議定策，進爵縣侯，增邑七百戶，遷尚書僕射。魏咸熙初，厘革憲司。時荀顗定禮儀，賈充正法律，而秀改官制焉。秀議五等之爵，自騎督已上六百餘人皆封。於是秀封濟川侯，地方六十里，邑千四百戶，以高苑縣濟川墟為侯國。"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p004",
+              "quote": "初，文帝未定嗣，而屬意舞陽侯攸。武帝懼不得立，問秀曰：「人有相否？」因以奇表示之。秀後言于文帝曰：「中撫軍人望既茂，天表如此，固非人臣之相也。」由是世子乃定。武帝既即王位，拜尚書令、右光祿大夫，與御史大夫王沈、衛將軍賈充俱開府，加給事中。及帝受禪，加左光祿大夫，封钜鹿郡公，邑三千戶。"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p005",
+              "quote": "時安遠護軍郝詡與故人書云：「與尚書令裴秀相知，望其為益。」有司奏免秀官，詔曰：「不能使人之不加諸我，此古人所難。交關人事，詡之罪耳，豈尚書令能防乎！其勿有所問。」司隸校尉李憙復上言，騎都尉劉尚為尚書令裴秀占官稻田，求禁止秀。詔又以秀幹翼朝政，有勳績於王室，不可以小疵掩大德，使推正尚罪而解秀禁止焉。"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p006",
+              "quote": "久之，詔曰：「夫三司之任，以翼宣皇極，弼成王事者也。故經國論道，賴之明喆，苟非其人，官不虛備。尚書令、左光祿大夫裴秀，雅量弘博，思心通遠，先帝登庸，贊事前朝。朕受明命，光佐大業，勳德茂著，配蹤元凱。宜正位居體，以康庶績。其以秀為司空。」"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p007",
+              "quote": "秀儒學洽聞，且留心政事，當禪代之際，總納言之要，其所裁當，禮無違者。又以職在地官，以《禹貢》山川地名，從來久遠，多有變易。後世說者或強牽引，漸以暗昧。於是甄摘舊文，疑者則闕，古有名而今無者，皆隨事注列，作《禹貢地域圖》十八篇，奏之，藏于秘府。其序曰："
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p008",
+              "quote": "圖書之設，由來尚矣。自古立象垂制，而賴其用。三代置其官，國史掌厥職。暨漢屠咸陽，丞相蕭何盡收秦之圖籍。今秘書既無古之地圖，又無蕭何所得，惟有漢氏《輿地》及《括地》諸雜圖。各不設分率，又不考正准望，亦不備載名山大川。雖有粗形，皆不精審，不可依據。或荒外迂誕之言，不合事實，於義無取。"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p009",
+              "quote": "大晉龍興，混一六合，以清宇宙，始於庸蜀，冞入其岨。文皇帝乃命有司，撰訪吳蜀地圖。蜀土既定，六軍所經，地域遠近，山川險易，征路迂直，校驗圖記，罔或有差。今上考《禹貢》山海川流，原隰陂澤，古之九州，及今之十六州，郡國縣邑，疆界鄉陬，及古國盟會舊名，水陸徑路，為地圖十八篇。"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p010",
+              "quote": "製圖之體有六焉。一曰分率，所以辨廣輪之度也。二曰准望，所以正彼此之體也。三曰道里，所以定所由之數也。四曰高下，五曰方邪，六曰迂直，此三者各因地而制宜，所以校夷險之異也。有圖像而無分率，則無以審遠近之差；有分率而無准望，雖得之於一隅，必失之于他方；有准望而無道里，則施於山海絕隔之地，不能以相通；有道里而無高下、方邪、迂直之校，則徑路之數必與遠近之實相違，失准望之正矣，故以此六者參而考之。然遠近之實定於分率，彼此之實定於道里，度數之實定于高下、方邪、迂直之算。故雖有峻山钜海之隔，絕域殊方之迥，登降詭曲之因，皆可得舉而定者。准望之法既正，則曲直遠近無所隱其形也。"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p011",
+              "quote": "秀創制朝儀，廣陳刑政，朝廷多遵用之，以為故事。在位四載，為當世名公。服寒食散，當飲熱酒而飲冷酒，泰始七年薨，時年四十八。詔曰：「司空經德履哲，體蹈儒雅，佐命翼世，勳業弘茂。方將宣獻敷制，為世宗範，不幸薨殂，朕甚痛之。其賜秘器、朝服一具、衣一襲、錢三十萬、布百匹。諡曰元。」"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p012",
+              "quote": "初，秀以尚書三十六曹統事准例不明，宜使諸卿任職，未及奏而薨。其友人料其書記，得表草言平吳之事，其詞曰：「孫皓酷虐，不及聖明禦世兼弱攻昧，使遺子孫，將遂不能臣；時有否泰，非萬安之勢也。臣昔雖已屢言，未有成旨。今既疾篤不起，謹重屍啟。願陛下時共施用。」乃封以上聞。詔報曰：「司空薨，痛悼不能去心。又得表草，雖在危困，不忘王室，盡忠憂國。省益傷切，輒當與諸賢共論也。」"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p013",
+              "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p013:m0022"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "有二子",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "lineage": "paternal"
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null,
+          "context": {
+            "kind": "fixed_jin035_received_unit_continuation",
+            "paragraph_ids": [
+              "c-jinshu-035-peixiu-peiwei:p001",
+              "c-jinshu-035-peixiu-peiwei:p002",
+              "c-jinshu-035-peixiu-peiwei:p003",
+              "c-jinshu-035-peixiu-peiwei:p004",
+              "c-jinshu-035-peixiu-peiwei:p005",
+              "c-jinshu-035-peixiu-peiwei:p006",
+              "c-jinshu-035-peixiu-peiwei:p007",
+              "c-jinshu-035-peixiu-peiwei:p008",
+              "c-jinshu-035-peixiu-peiwei:p009",
+              "c-jinshu-035-peixiu-peiwei:p010",
+              "c-jinshu-035-peixiu-peiwei:p011",
+              "c-jinshu-035-peixiu-peiwei:p012",
+              "c-jinshu-035-peixiu-peiwei:p013"
+            ],
+            "parent_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0000",
+            "child_mention_id": "c-jinshu-035-peixiu-peiwei:p013:m0022",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "裴秀自段首具名至薨後配享與有二子完整13段，無改傳主或跳文；非以最近石苞為父。名單次序不作生序。"
+          }
+        },
+        {
+          "id": "a-jin035-xiuwei-wei-xiu",
+          "subject_person_id": "$wei",
+          "predicate": "father",
+          "object_person_id": "$xiu",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p028",
+              "quote": "初，趙王倫諂事賈后，頠甚惡之，倫數求官，頠與張華復固執不許，由是深為倫所怨。倫又潛懷篡逆，欲先除朝望，因廢賈后之際遂誅之，時年三十四。二子嵩、該，倫亦欲害之。梁王肜、東海王越稱頠父秀有勳王室，配食太廟，不宜滅其後嗣，故得不死，徙帶方；惠帝反正，追復頠本官，改葬以卿禮，諡曰成。以嵩嗣爵，為中書黃門侍郎。該出後從伯凱，為散騎常侍，並為乞活賊陳午所害。",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p028:m0088",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p028:m0090"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "頠父秀",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "lineage": "paternal"
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin035-xiuwei-jing-jun",
+          "subject_person_id": "$jing",
+          "predicate": "father",
+          "object_person_id": "$jun",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p013",
+              "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p013:m0042",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p013:m0039"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "浚庶子憬",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "lineage": "paternal",
+            "reported_child_status": "庶子",
+            "biological_mother_person_id": null
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin035-xiuwei-wei-jun",
+          "subject_person_id": "$wei",
+          "predicate": "brother",
+          "object_person_id": "$jun",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p013",
+              "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p013:m0057",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p013:m0054"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "浚少弟頠",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "relative_birth_order": {
+              "older_person_id": "$jun",
+              "younger_person_id": "$wei",
+              "operator": "lt",
+              "older_ordinal": null,
+              "younger_ordinal": null,
+              "scope": "siblings"
+            }
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin035-xiuwei-song-wei",
+          "subject_person_id": "$song_pei",
+          "predicate": "father",
+          "object_person_id": "$wei",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p028",
+              "quote": "初，趙王倫諂事賈后，頠甚惡之，倫數求官，頠與張華復固執不許，由是深為倫所怨。倫又潛懷篡逆，欲先除朝望，因廢賈后之際遂誅之，時年三十四。二子嵩、該，倫亦欲害之。梁王肜、東海王越稱頠父秀有勳王室，配食太廟，不宜滅其後嗣，故得不死，徙帶方；惠帝反正，追復頠本官，改葬以卿禮，諡曰成。以嵩嗣爵，為中書黃門侍郎。該出後從伯凱，為散騎常侍，並為乞活賊陳午所害。",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p028:m0069",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p028:m0010"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "二子嵩、該",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "lineage": "paternal"
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin035-xiuwei-gai-wei",
+          "subject_person_id": "$gai_pei",
+          "predicate": "father",
+          "object_person_id": "$wei",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p015",
+              "quote": "初，頠兄子憬為白衣，頠論述世勳，賜爵高陽亭侯。楊駿將誅也，駿党左軍將軍劉豫陳兵在門，遇頠，問太傅所在。頠紿之曰：「向於西掖門遇公乘素車，從二人西出矣。」豫曰：「吾何之？」頠曰：「宜至廷尉。」豫從頠言，遂委而去。尋而詔頠代豫領左軍將軍，屯萬春門。及駿誅，以功當封武昌侯，頠請以封憬，帝竟封頠次子該。頠苦陳憬本承嫡，宜襲钜鹿，先帝恩旨，辭不獲命。武昌之封，己之所蒙，特請以封憬。該時尚主，故帝不聽。累遷侍中。",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p015:m0146",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p015:m0143"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "頠次子該",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "lineage": "paternal",
+            "birth_order": {
+              "scope": "sons_of_parent",
+              "ordinal": 2,
+              "source_term": "次子",
+              "source_number": "二",
+              "parent_person_id": "$wei",
+              "position": "unspecified",
+              "interpretation_status": "source_attested"
+            }
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin035-xiuwei-song-hanwei",
+          "subject_person_id": "$song_han",
+          "predicate": "father",
+          "object_person_id": "$hanwei",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p020",
+              "quote": "時以陳准子匡、韓蔚子嵩並侍東宮，頠諫曰：「東宮之建，以儲皇極。其所與遊接，必簡英俊，宜用成德。匡、嵩幼弱，未識人理立身之節。東宮實體夙成之表，而今有童子侍從之聲，未是光闡遐風之弘理也。」湣懷太子之廢也，頠與張華苦爭不從，語在《華傳》。",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p020:m0010",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p020:m0007"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "韓蔚子嵩",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "lineage": "paternal"
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin035-xiuwei-gai-princess",
+          "subject_person_id": "$gai_pei",
+          "predicate": "spouse",
+          "object_person_id": "$princess",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p015",
+              "quote": "初，頠兄子憬為白衣，頠論述世勳，賜爵高陽亭侯。楊駿將誅也，駿党左軍將軍劉豫陳兵在門，遇頠，問太傅所在。頠紿之曰：「向於西掖門遇公乘素車，從二人西出矣。」豫曰：「吾何之？」頠曰：「宜至廷尉。」豫從頠言，遂委而去。尋而詔頠代豫領左軍將軍，屯萬春門。及駿誅，以功當封武昌侯，頠請以封憬，帝竟封頠次子該。頠苦陳憬本承嫡，宜襲钜鹿，先帝恩旨，辭不獲命。武昌之封，己之所蒙，特請以封憬。該時尚主，故帝不聽。累遷侍中。",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p015:m0187",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p015:m0190"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "該時尚主",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "marriage_date": null,
+            "princess_father_person_id": null
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin035-xiuwei-xiu-mother",
+          "subject_person_id": "$xiu",
+          "predicate": "maternal_role",
+          "object_person_id": "$xiu_mother",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p001",
+              "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0000",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0074"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "秀母",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "role": "mother_unspecified",
+            "biological_mother": null,
+            "father_person_id": null
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin035-xiuwei-xiu-principal-mother",
+          "subject_person_id": "$xiu",
+          "predicate": "maternal_role",
+          "object_person_id": "$xuan",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p001",
+              "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0000",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0080"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "嫡母宣氏",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "role": "principal_mother",
+            "biological_mother": null,
+            "father_person_id": null
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin035-xiuwei-jing-wei-uncle",
+          "subject_person_id": "$jing",
+          "predicate": "paternal_uncle",
+          "object_person_id": "$wei",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-035",
+              "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+              "chapter_id": "c-jinshu-035-peixiu-peiwei",
+              "paragraph_id": "c-jinshu-035-peixiu-peiwei:p015",
+              "quote": "初，頠兄子憬為白衣，頠論述世勳，賜爵高陽亭侯。楊駿將誅也，駿党左軍將軍劉豫陳兵在門，遇頠，問太傅所在。頠紿之曰：「向於西掖門遇公乘素車，從二人西出矣。」豫曰：「吾何之？」頠曰：「宜至廷尉。」豫從頠言，遂委而去。尋而詔頠代豫領左軍將軍，屯萬春門。及駿誅，以功當封武昌侯，頠請以封憬，帝竟封頠次子該。頠苦陳憬本承嫡，宜襲钜鹿，先帝恩旨，辭不獲命。武昌之封，己之所蒙，特請以封憬。該時尚主，故帝不聽。累遷侍中。",
+              "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p015:m0005",
+              "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p015:m0002"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "頠兄子憬",
+            "source_clause_binding": {
+              "kind": "biography_family_clause",
+              "rule": "fixed_jin035_registered_unit"
+            },
+            "lineage": "paternal",
+            "generation_difference": -1,
+            "father_person_id": "$jun"
+          },
+          "interpretation_note": "只取固定完整本傳所述，身份同指與親屬句語義分層；不從嗣爵補收養、母職補生母或列表補排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      ]
+    },
+    "corpus/jinshu/035-peixiu-peiwei-names.json": {
+      "format_version": "0.1",
+      "record_type": "person_name_component_set",
+      "chapter_id": "c-jinshu-035-peixiu-peiwei",
+      "records": [
+        {
+          "id": "name-jin035-xiuwei-xiu",
+          "person_id": "$xiu",
+          "surname": "裴",
+          "ming": "秀",
+          "hao": null,
+          "title": null,
+          "additional_names": [],
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p001",
+          "person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0000",
+          "source_anchor": {
+            "start": 0,
+            "end": 2,
+            "surface": "裴秀"
+          },
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "status": "editorial_provisional",
+          "human_reviewed": false,
+          "model": null,
+          "zi": "季彥"
+        },
+        {
+          "id": "name-jin035-xiuwei-qian",
+          "person_id": "$qian",
+          "surname": "裴",
+          "ming": "潛",
+          "hao": null,
+          "title": null,
+          "additional_names": [],
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p001",
+          "person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0023",
+          "source_anchor": {
+            "start": 23,
+            "end": 24,
+            "surface": "潛"
+          },
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "model": null,
+          "surname_basis": {
+            "kind": "contextual_surname_from_fixed_jin035_received_family",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "僅沿本篇已驗父子／父系祖稱與literal全名seed恢復省姓；不由ID、母親、婚配或嗣爵推姓。",
+            "source_name_record_id": "name-jin035-xiuwei-xiu",
+            "assertion_ids": [
+              "a-jin035-xiuwei-xiu-qian"
+            ],
+            "literal_source_components": {
+              "surname": null,
+              "ming": "潛"
+            },
+            "source_term": "潛"
+          }
+        },
+        {
+          "id": "name-jin035-xiuwei-mao",
+          "person_id": "$mao",
+          "surname": "裴",
+          "ming": "茂",
+          "hao": null,
+          "title": null,
+          "additional_names": [],
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p001",
+          "person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0015",
+          "source_anchor": {
+            "start": 15,
+            "end": 16,
+            "surface": "茂"
+          },
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "model": null,
+          "surname_basis": {
+            "kind": "contextual_surname_from_fixed_jin035_received_family",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "僅沿本篇已驗父子／父系祖稱與literal全名seed恢復省姓；不由ID、母親、婚配或嗣爵推姓。",
+            "source_name_record_id": "name-jin035-xiuwei-xiu",
+            "assertion_ids": [
+              "a-jin035-xiuwei-xiu-mao"
+            ],
+            "literal_source_components": {
+              "surname": null,
+              "ming": "茂"
+            },
+            "source_term": "茂"
+          }
+        },
+        {
+          "id": "name-jin035-xiuwei-jun",
+          "person_id": "$jun",
+          "surname": "裴",
+          "ming": "浚",
+          "hao": null,
+          "title": null,
+          "additional_names": [],
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p013",
+          "person_mention_id": "c-jinshu-035-peixiu-peiwei:p013:m0022",
+          "source_anchor": {
+            "start": 22,
+            "end": 23,
+            "surface": "浚"
+          },
+          "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "model": null,
+          "surname_basis": {
+            "kind": "contextual_surname_from_fixed_jin035_received_family",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "僅沿本篇已驗父子／父系祖稱與literal全名seed恢復省姓；不由ID、母親、婚配或嗣爵推姓。",
+            "source_name_record_id": "name-jin035-xiuwei-xiu",
+            "assertion_ids": [
+              "a-jin035-xiuwei-jun-xiu"
+            ],
+            "literal_source_components": {
+              "surname": null,
+              "ming": "浚"
+            },
+            "source_term": "浚"
+          }
+        },
+        {
+          "id": "name-jin035-xiuwei-jing",
+          "person_id": "$jing",
+          "surname": "裴",
+          "ming": "憬",
+          "hao": null,
+          "title": null,
+          "additional_names": [],
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p013",
+          "person_mention_id": "c-jinshu-035-peixiu-peiwei:p013:m0042",
+          "source_anchor": {
+            "start": 42,
+            "end": 43,
+            "surface": "憬"
+          },
+          "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "model": null,
+          "surname_basis": {
+            "kind": "contextual_surname_from_fixed_jin035_received_family",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "僅沿本篇已驗父子／父系祖稱與literal全名seed恢復省姓；不由ID、母親、婚配或嗣爵推姓。",
+            "source_name_record_id": "name-jin035-xiuwei-xiu",
+            "assertion_ids": [
+              "a-jin035-xiuwei-jun-xiu",
+              "a-jin035-xiuwei-jing-jun"
+            ],
+            "literal_source_components": {
+              "surname": null,
+              "ming": "憬"
+            },
+            "source_term": "憬"
+          }
+        },
+        {
+          "id": "name-jin035-xiuwei-wei",
+          "person_id": "$wei",
+          "surname": "裴",
+          "ming": "頠",
+          "hao": null,
+          "title": null,
+          "additional_names": [],
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p014",
+          "person_mention_id": "c-jinshu-035-peixiu-peiwei:p014:m0000",
+          "source_anchor": {
+            "start": 0,
+            "end": 1,
+            "surface": "頠"
+          },
+          "quote": "頠字逸民。弘雅有遠識，博學稽古，自少知名。御史中丞周弼見而歎曰：「頠若武庫，五兵縱橫，一時之傑也。」賈充即頠從母夫也，表「秀有佐命之勳，不幸嫡長喪亡，遺孤稚弱。頠才德英茂，足以興隆國嗣。」詔頠襲爵，頠固讓，不許。太康二年，徵為太子中庶子，遷散騎常侍。惠帝既位，轉國子祭酒，兼右軍將軍。",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "model": null,
+          "zi": "逸民",
+          "surname_basis": {
+            "kind": "contextual_surname_from_fixed_jin035_received_family",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "僅沿本篇已驗父子／父系祖稱與literal全名seed恢復省姓；不由ID、母親、婚配或嗣爵推姓。",
+            "source_name_record_id": "name-jin035-xiuwei-xiu",
+            "assertion_ids": [
+              "a-jin035-xiuwei-wei-xiu"
+            ],
+            "literal_source_components": {
+              "surname": null,
+              "ming": "頠"
+            },
+            "source_term": "頠"
+          }
+        },
+        {
+          "id": "name-jin035-xiuwei-song-pei",
+          "person_id": "$song_pei",
+          "surname": "裴",
+          "ming": "嵩",
+          "hao": null,
+          "title": null,
+          "additional_names": [],
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p028",
+          "person_mention_id": "c-jinshu-035-peixiu-peiwei:p028:m0069",
+          "source_anchor": {
+            "start": 69,
+            "end": 70,
+            "surface": "嵩"
+          },
+          "quote": "初，趙王倫諂事賈后，頠甚惡之，倫數求官，頠與張華復固執不許，由是深為倫所怨。倫又潛懷篡逆，欲先除朝望，因廢賈后之際遂誅之，時年三十四。二子嵩、該，倫亦欲害之。梁王肜、東海王越稱頠父秀有勳王室，配食太廟，不宜滅其後嗣，故得不死，徙帶方；惠帝反正，追復頠本官，改葬以卿禮，諡曰成。以嵩嗣爵，為中書黃門侍郎。該出後從伯凱，為散騎常侍，並為乞活賊陳午所害。",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "model": null,
+          "surname_basis": {
+            "kind": "contextual_surname_from_fixed_jin035_received_family",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "僅沿本篇已驗父子／父系祖稱與literal全名seed恢復省姓；不由ID、母親、婚配或嗣爵推姓。",
+            "source_name_record_id": "name-jin035-xiuwei-xiu",
+            "assertion_ids": [
+              "a-jin035-xiuwei-wei-xiu",
+              "a-jin035-xiuwei-song-wei"
+            ],
+            "literal_source_components": {
+              "surname": null,
+              "ming": "嵩"
+            },
+            "source_term": "嵩"
+          }
+        },
+        {
+          "id": "name-jin035-xiuwei-gai",
+          "person_id": "$gai_pei",
+          "surname": "裴",
+          "ming": "該",
+          "hao": null,
+          "title": null,
+          "additional_names": [],
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p015",
+          "person_mention_id": "c-jinshu-035-peixiu-peiwei:p015:m0146",
+          "source_anchor": {
+            "start": 146,
+            "end": 147,
+            "surface": "該"
+          },
+          "quote": "初，頠兄子憬為白衣，頠論述世勳，賜爵高陽亭侯。楊駿將誅也，駿党左軍將軍劉豫陳兵在門，遇頠，問太傅所在。頠紿之曰：「向於西掖門遇公乘素車，從二人西出矣。」豫曰：「吾何之？」頠曰：「宜至廷尉。」豫從頠言，遂委而去。尋而詔頠代豫領左軍將軍，屯萬春門。及駿誅，以功當封武昌侯，頠請以封憬，帝竟封頠次子該。頠苦陳憬本承嫡，宜襲钜鹿，先帝恩旨，辭不獲命。武昌之封，己之所蒙，特請以封憬。該時尚主，故帝不聽。累遷侍中。",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "model": null,
+          "surname_basis": {
+            "kind": "contextual_surname_from_fixed_jin035_received_family",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "僅沿本篇已驗父子／父系祖稱與literal全名seed恢復省姓；不由ID、母親、婚配或嗣爵推姓。",
+            "source_name_record_id": "name-jin035-xiuwei-xiu",
+            "assertion_ids": [
+              "a-jin035-xiuwei-wei-xiu",
+              "a-jin035-xiuwei-gai-wei"
+            ],
+            "literal_source_components": {
+              "surname": null,
+              "ming": "該"
+            },
+            "source_term": "該"
+          }
+        },
+        {
+          "id": "name-jin035-xiuwei-hanwei",
+          "person_id": "$hanwei",
+          "surname": "韓",
+          "ming": "蔚",
+          "hao": null,
+          "title": null,
+          "additional_names": [],
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p020",
+          "person_mention_id": "c-jinshu-035-peixiu-peiwei:p020:m0007",
+          "source_anchor": {
+            "start": 7,
+            "end": 9,
+            "surface": "韓蔚"
+          },
+          "quote": "時以陳准子匡、韓蔚子嵩並侍東宮，頠諫曰：「東宮之建，以儲皇極。其所與遊接，必簡英俊，宜用成德。匡、嵩幼弱，未識人理立身之節。東宮實體夙成之表，而今有童子侍從之聲，未是光闡遐風之弘理也。」湣懷太子之廢也，頠與張華苦爭不從，語在《華傳》。",
+          "status": "editorial_provisional",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "name-jin035-xiuwei-song-han",
+          "person_id": "$song_han",
+          "surname": "韓",
+          "ming": "嵩",
+          "hao": null,
+          "title": null,
+          "additional_names": [],
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p020",
+          "person_mention_id": "c-jinshu-035-peixiu-peiwei:p020:m0010",
+          "source_anchor": {
+            "start": 10,
+            "end": 11,
+            "surface": "嵩"
+          },
+          "quote": "時以陳准子匡、韓蔚子嵩並侍東宮，頠諫曰：「東宮之建，以儲皇極。其所與遊接，必簡英俊，宜用成德。匡、嵩幼弱，未識人理立身之節。東宮實體夙成之表，而今有童子侍從之聲，未是光闡遐風之弘理也。」湣懷太子之廢也，頠與張華苦爭不從，語在《華傳》。",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "model": null,
+          "surname_basis": {
+            "kind": "contextual_surname_from_fixed_jin035_received_family",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "僅沿本篇已驗父子／父系祖稱與literal全名seed恢復省姓；不由ID、母親、婚配或嗣爵推姓。",
+            "source_name_record_id": "name-jin035-xiuwei-hanwei",
+            "assertion_ids": [
+              "a-jin035-xiuwei-song-hanwei"
+            ],
+            "literal_source_components": {
+              "surname": null,
+              "ming": "嵩"
+            },
+            "source_term": "嵩"
+          }
+        },
+        {
+          "id": "name-jin035-xiuwei-xuan",
+          "person_id": "$xuan",
+          "surname": "宣",
+          "ming": null,
+          "hao": null,
+          "title": null,
+          "additional_names": [],
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p001",
+          "person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0080",
+          "source_anchor": {
+            "start": 80,
+            "end": 82,
+            "surface": "宣氏"
+          },
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "status": "editorial_provisional",
+          "human_reviewed": false,
+          "model": null,
+          "clan_style": {
+            "kind": "received_clan_appellation",
+            "value": "宣氏",
+            "source_term": "宣氏",
+            "assertion_ids": [],
+            "status": "source_attested",
+            "rationale": "本源氏稱，未知本名，嫡母職不作生母。",
+            "human_reviewed": false
+          }
+        }
+      ]
+    }
+  },
+  "new_role_first_mids": {
+    "qian": "c-jinshu-035-peixiu-peiwei:p001:m0023",
+    "hanwei": "c-jinshu-035-peixiu-peiwei:p020:m0007"
+  },
+  "known_seeds": {
+    "qian": {
+      "chapter_path": "corpus/sanguozhi/015-wenhui.json",
+      "source": {
+        "title": "三國志魏書卷十五溫恢本傳及裴注",
+        "provider": "Kanripo",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_015.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_015.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "31fbefa47ba1bb895430867835edcffe53e86f11bc05e235470306b8e85971ed",
+        "edition": "WYG數位轉錄，未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定raw338–363行，溫恢完整本傳及傳末孟建附述、魏畧裴注；364賈逵傳開始，不含前張既尾。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文，保留Kanripo數位轉錄歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "移除¶/換行/pb及逐行古注括號；正文/裴注分層，原字不改；raw_positions逐字投影。"
+        },
+        "quality_note": "非全卷匯入；WYG數位轉錄未圖校，異字不擅校。"
+      },
+      "dimensions": {
+        "id": "c-sanguozhi-015-wenhui",
+        "work_id": "w-sanguozhi",
+        "book_id": "b-sanguozhi-015",
+        "source_id": "s-sanguozhi-015-wenhui"
+      },
+      "paragraph": {
+        "id": "c-sanguozhi-015-wenhui:p003",
+        "text": "建安二十四年孫權攻合肥是時諸州皆屯戌恢謂兖州刺史裴潛曰此間雖有賊不足憂而畏征南方有變今水生而子孝縣軍無有遠備關羽驍銳乘利而進必將為患於是有樊城之事詔書召潛及豫州刺史吕貢等潛等緩之恢密語潛曰此必襄陽之急欲赴之也所以不為急㑹者不欲驚動遠衆一二日必有密書促卿進道張遼等又將被召遼等素知王意後召前至卿受其責矣潛受其言置輜重更為輕裝速發果被促令遼等尋各見召如恢所䇿",
+        "text_layer": "received_chapter",
+        "annotation_status": "named_mentions_first_pass",
+        "mentions": [
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0006",
+            "start": 6,
+            "end": 8,
+            "surface": "孫權",
+            "kind": "person",
+            "person_id": "572_278_cba",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0018",
+            "start": 18,
+            "end": 19,
+            "surface": "恢",
+            "kind": "person",
+            "person_id": "8uz_r1g_a0f_A",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0024",
+            "start": 24,
+            "end": 26,
+            "surface": "裴潛",
+            "kind": "person",
+            "person_id": "$qian",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0046",
+            "start": 46,
+            "end": 48,
+            "surface": "子孝",
+            "kind": "person",
+            "person_id": "8po_0xd_0vn",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0054",
+            "start": 54,
+            "end": 56,
+            "surface": "關羽",
+            "kind": "person",
+            "person_id": "1c2_03c_9ea",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0076",
+            "start": 76,
+            "end": 77,
+            "surface": "潛",
+            "kind": "person",
+            "person_id": "$qian",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0082",
+            "start": 82,
+            "end": 84,
+            "surface": "吕貢",
+            "kind": "person",
+            "person_id": "rvu_cow_06d",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0085",
+            "start": 85,
+            "end": 86,
+            "surface": "潛",
+            "kind": "person",
+            "person_id": "$qian",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0089",
+            "start": 89,
+            "end": 90,
+            "surface": "恢",
+            "kind": "person",
+            "person_id": "8uz_r1g_a0f_A",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0092",
+            "start": 92,
+            "end": 93,
+            "surface": "潛",
+            "kind": "person",
+            "person_id": "$qian",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0125",
+            "start": 125,
+            "end": 126,
+            "surface": "卿",
+            "kind": "person",
+            "person_id": "$qian",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0128",
+            "start": 128,
+            "end": 130,
+            "surface": "張遼",
+            "kind": "person",
+            "person_id": "9b5_3dc_f80",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0135",
+            "start": 135,
+            "end": 136,
+            "surface": "遼",
+            "kind": "person",
+            "person_id": "9b5_3dc_f80",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0139",
+            "start": 139,
+            "end": 140,
+            "surface": "王",
+            "kind": "person",
+            "person_id": "dad_b77_b38",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0145",
+            "start": 145,
+            "end": 146,
+            "surface": "卿",
+            "kind": "person",
+            "person_id": "$qian",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0150",
+            "start": 150,
+            "end": 151,
+            "surface": "潛",
+            "kind": "person",
+            "person_id": "$qian",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0167",
+            "start": 167,
+            "end": 168,
+            "surface": "遼",
+            "kind": "person",
+            "person_id": "9b5_3dc_f80",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          },
+          {
+            "id": "c-sanguozhi-015-wenhui:p003:m0174",
+            "start": 174,
+            "end": 175,
+            "surface": "恢",
+            "kind": "person",
+            "person_id": "8uz_r1g_a0f_A",
+            "status": "contextual_provisional",
+            "resolution_note": "完整本傳敘述/引語角色辨識，原稱及位置保留。"
+          }
+        ],
+        "source_position": {
+          "first_line": 346,
+          "last_line": 356,
+          "source_layer": "received_body",
+          "unit_key": "wenhui-complete",
+          "raw_projection_ref": "source-evidence/sgz015-wenhui/projection.json"
+        }
+      },
+      "reverse": {
+        "work_id": "w-sanguozhi",
+        "book_id": "b-sanguozhi-015",
+        "source_id": "s-sanguozhi-015-wenhui",
+        "chapter_id": "c-sanguozhi-015-wenhui",
+        "paragraph_id": "c-sanguozhi-015-wenhui:p003",
+        "quote": "裴潛",
+        "mention_id": "c-sanguozhi-015-wenhui:p003:m0024"
+      },
+      "qualification": "contextual_provisional：本篇潛/韓蔚與現役同時期具名/明兄弟seed相容；非由姓字相同獨自斷同人。"
+    },
+    "hanwei": {
+      "chapter_path": "corpus/jinshu/040-wyd1739-jiachong.json",
+      "source": {
+        "title": "晉書卷四十賈充傳",
+        "provider": "CBR AI direct transcription of Commons-hosted NLC scan",
+        "url": "https://commons.wikimedia.org/w/index.php?curid=124071867",
+        "permalink": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12244_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC111%E5%86%8A.pdf&oldid=953943009",
+        "revision_id": "cbr-ai-transcription-sha256:209d9b8a8a2f183a7ad3ed749da0273d85e177f9ff7feaf3ceea7edc3ffeabd0",
+        "edition": "Commons/NLC著錄清乾隆四年武英殿本；本單元版外親見乾隆四年校刊，非最早存本普查",
+        "extent": "PDF81左第5欄至93左第6欄；完整賈充及附郭槐、賈謐、混、模、郭彰；不含楊駿、全卷史論贊與考證。",
+        "text_scope": "partial_chapter",
+        "review_status": "AI_image_transcription_draft",
+        "image_verified": false,
+        "image_verification_qualification": "AI逐頁逐列視讀；無人工全字圖校，未辨字以〓記，其他編碼仍待獨立覆核。",
+        "raw_file": "source-evidence/jin040-wyd1739-jiachong/transcription-columns.txt",
+        "raw_sha256": "209d9b8a8a2f183a7ad3ed749da0273d85e177f9ff7feaf3ceea7edc3ffeabd0",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "由實存原PDF本地渲染書影逐列AI轉錄，非PDF文字抽取；頁側段界為編輯定位而非原刻標點。",
+          "editorial_readings": [],
+          "missing_text_markers": [],
+          "column_locations_ref": "source-evidence/jin040-wyd1739-jiachong/image-column-locations.json",
+          "column_locations_sha256": "7e20be06fda6c822340f1da6a3d59a595f6f93519072221a5437eecb4ec2f16c",
+          "glyph_review_ref": "source-evidence/jin040-wyd1739-jiachong/glyph-review-qualification.json",
+          "glyph_review_sha256": "49593e5e9e88d16ae81555aea4309bf75c20e92309da58e22d4022476ade088c",
+          "ai_transcription_correction_ref": "source-evidence/jin040-wyd1739-jiachong/ai-transcription-correction-pdf92-r3.json",
+          "ai_transcription_correction_sha256": "3c368d3dee16b6764b87234c19879be0c9499697a6c896e9e0d16e641fd86437"
+        },
+        "rights": "Commons本檔imageinfo明載Public domain / PD-scan；僅發布古文AI轉錄、元資料及外鏈，不發布影像或原PDF。",
+        "license_url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12244_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC111%E5%86%8A.pdf&oldid=953943009",
+        "received_transcription_witness": {
+          "transcription_path": "source-evidence/jin040-wyd1739-jiachong/transcription-columns.txt",
+          "transcription_sha256": "209d9b8a8a2f183a7ad3ed749da0273d85e177f9ff7feaf3ceea7edc3ffeabd0",
+          "transcription_revision": "cbr-ai-transcription-sha256:209d9b8a8a2f183a7ad3ed749da0273d85e177f9ff7feaf3ceea7edc3ffeabd0",
+          "reported_pdf_sha1": "4496f73a5a8b4270b6d9399dbf5410a0191ae48c",
+          "reported_pdf_bytes": 31296322,
+          "original_pdf_locally_obtained": true,
+          "commons_description_revision": 953943009,
+          "reported_pdf_pages": 101,
+          "nlc_bookid": "411999017142",
+          "nlc_volumeid": "12244",
+          "nlc_rare_book_number": "09753",
+          "composition_date": null,
+          "edition_year": 1739,
+          "earliest_extant_edition_claim": null,
+          "edition_year_role": "catalogued_printed_edition_year",
+          "human_image_reviewed": false,
+          "original_pdf_sha256": "6dd1eaf62e183b7137aae7075fbede4e81d098d56d92b718696aca61d36291ac"
+        }
+      },
+      "dimensions": {
+        "id": "c-jinshu-040-wyd1739-jiachong",
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-040",
+        "source_id": "s-jinshu-040-wyd1739-jiachong"
+      },
+      "paragraph": {
+        "id": "c-jinshu-040-wyd1739-jiachong:p021",
+        "text": "牀帳謐甚恐及遷侍中專掌禁內遂與后成謀誣陷太子及趙王倫廢后以詔召謐於殿前將戮之走入西鐘下呼曰阿后救我乃就斬之韓壽少弟蔚有器望及壽兄鞏令保弟散騎侍郎預吳王友鑒謐母賈午皆伏誅初充伐吳時嘗屯項城軍中忽失充所在充帳下都督周勤時晝寢夢見百餘人錄充引入一逕勤驚覺聞失充乃出尋索忽覩所夢之道遂往求之果見充行至一府舍侍衞甚盛府公南面坐聲色甚厲謂充曰將亂吾家事必爾與荀勗既惑吾子又亂吾孫間使任愷黜汝而不去又使庾純罵汝而不改今吳寇當平汝方表斬",
+        "text_layer": "received_chapter",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0002",
+            "start": 2,
+            "end": 3,
+            "surface": "謐",
+            "kind": "person",
+            "person_id": "ga3_phu_mfa",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0015",
+            "start": 15,
+            "end": 16,
+            "surface": "后",
+            "kind": "person",
+            "person_id": "jmv_vc4_gep_*AAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0020",
+            "start": 20,
+            "end": 22,
+            "surface": "太子",
+            "kind": "person",
+            "person_id": "74e_68c_9ae",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0023",
+            "start": 23,
+            "end": 26,
+            "surface": "趙王倫",
+            "kind": "person",
+            "person_id": "dkn_ge4_286_AAAAG",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0027",
+            "start": 27,
+            "end": 28,
+            "surface": "后",
+            "kind": "person",
+            "person_id": "jmv_vc4_gep_*AAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0031",
+            "start": 31,
+            "end": 32,
+            "surface": "謐",
+            "kind": "person",
+            "person_id": "ga3_phu_mfa",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0046",
+            "start": 46,
+            "end": 47,
+            "surface": "后",
+            "kind": "person",
+            "person_id": "jmv_vc4_gep_*AAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0053",
+            "start": 53,
+            "end": 55,
+            "surface": "韓壽",
+            "kind": "person",
+            "person_id": "dxw_1dq_t6h",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0057",
+            "start": 57,
+            "end": 58,
+            "surface": "蔚",
+            "kind": "person",
+            "person_id": "$hanwei",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0062",
+            "start": 62,
+            "end": 63,
+            "surface": "壽",
+            "kind": "person",
+            "person_id": "dxw_1dq_t6h",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0066",
+            "start": 66,
+            "end": 67,
+            "surface": "保",
+            "kind": "person",
+            "person_id": "y1i_p50_tca",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0072",
+            "start": 72,
+            "end": 73,
+            "surface": "預",
+            "kind": "person",
+            "person_id": "ubo_jqj_o2l",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0076",
+            "start": 76,
+            "end": 77,
+            "surface": "鑒",
+            "kind": "person",
+            "person_id": "hxr_jn2_qas",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0077",
+            "start": 77,
+            "end": 78,
+            "surface": "謐",
+            "kind": "person",
+            "person_id": "ga3_phu_mfa",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0079",
+            "start": 79,
+            "end": 81,
+            "surface": "賈午",
+            "kind": "person",
+            "person_id": "jmv_vc4_gep_*AAE",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0085",
+            "start": 85,
+            "end": 86,
+            "surface": "充",
+            "kind": "person",
+            "person_id": "jmv_vc4_gep_*AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0097",
+            "start": 97,
+            "end": 98,
+            "surface": "充",
+            "kind": "person",
+            "person_id": "jmv_vc4_gep_*AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0100",
+            "start": 100,
+            "end": 101,
+            "surface": "充",
+            "kind": "person",
+            "person_id": "jmv_vc4_gep_*AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0105",
+            "start": 105,
+            "end": 107,
+            "surface": "周勤",
+            "kind": "person",
+            "person_id": "qyy_mqp_diq",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0116",
+            "start": 116,
+            "end": 117,
+            "surface": "充",
+            "kind": "person",
+            "person_id": "jmv_vc4_gep_*AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0121",
+            "start": 121,
+            "end": 122,
+            "surface": "勤",
+            "kind": "person",
+            "person_id": "qyy_mqp_diq",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0126",
+            "start": 126,
+            "end": 127,
+            "surface": "充",
+            "kind": "person",
+            "person_id": "jmv_vc4_gep_*AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0143",
+            "start": 143,
+            "end": 144,
+            "surface": "充",
+            "kind": "person",
+            "person_id": "jmv_vc4_gep_*AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0153",
+            "start": 153,
+            "end": 155,
+            "surface": "府公",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "reason": "周勤夢中南面府公，無明名；不依吾子吾孫推定司馬氏。"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0163",
+            "start": 163,
+            "end": 164,
+            "surface": "充",
+            "kind": "person",
+            "person_id": "jmv_vc4_gep_*AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0173",
+            "start": 173,
+            "end": 175,
+            "surface": "荀勗",
+            "kind": "person",
+            "person_id": "yoo_ox0_545_FAAA",
+            "status": "contextual_provisional",
+            "narrative_qualification": {
+              "kind": "reported_dream_speech",
+              "historical_event_asserted_by_this_marker": false
+            }
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0177",
+            "start": 177,
+            "end": 179,
+            "surface": "吾子",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "reason": "夢言中的子未明名；不作真人親屬端點。",
+            "narrative_qualification": {
+              "kind": "reported_dream_speech",
+              "historical_event_asserted_by_this_marker": false
+            }
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0181",
+            "start": 181,
+            "end": 183,
+            "surface": "吾孫",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "reason": "夢言中的孫未明名；不作真人親屬端點。",
+            "narrative_qualification": {
+              "kind": "reported_dream_speech",
+              "historical_event_asserted_by_this_marker": false
+            }
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0185",
+            "start": 185,
+            "end": 187,
+            "surface": "任愷",
+            "kind": "person",
+            "person_id": "fb5_190_43f",
+            "status": "contextual_provisional",
+            "narrative_qualification": {
+              "kind": "reported_dream_speech",
+              "historical_event_asserted_by_this_marker": false
+            }
+          },
+          {
+            "id": "c-jinshu-040-wyd1739-jiachong:p021:m0194",
+            "start": 194,
+            "end": 196,
+            "surface": "庾純",
+            "kind": "person",
+            "person_id": "u6c_3lq_78b",
+            "status": "contextual_provisional",
+            "narrative_qualification": {
+              "kind": "reported_dream_speech",
+              "historical_event_asserted_by_this_marker": false
+            }
+          }
+        ],
+        "source_position": {
+          "raw_projection_ref": "source-evidence/jin040-wyd1739-jiachong/transcription-projection.json",
+          "raw_file_sha256": "209d9b8a8a2f183a7ad3ed749da0273d85e177f9ff7feaf3ceea7edc3ffeabd0",
+          "unit_key": "unit021",
+          "source_layer": "received_chapter",
+          "first_line": 197,
+          "last_line": 206
+        }
+      },
+      "reverse": {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-040",
+        "source_id": "s-jinshu-040-wyd1739-jiachong",
+        "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+        "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p021",
+        "mention_id": "c-jinshu-040-wyd1739-jiachong:p021:m0057",
+        "quote": "蔚"
+      },
+      "qualification": "contextual_provisional：本篇潛/韓蔚與現役同時期具名/明兄弟seed相容；非由姓字相同獨自斷同人。"
+    }
+  },
+  "family_path_templates": {
+    "jun": {
+      "connection": "father",
+      "generation_distance": 1,
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "parent_person_id": "$xiu",
+      "source_assertion_id": "a-jin035-xiuwei-jun-xiu",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p001",
+          "quote": "裴秀，字季彥，河東聞喜人也。祖茂，漢尚書令。父潛，魏尚書令。秀少好學，有風操，八歲能屬文。叔父徽有盛名，賓客甚眾。秀年十餘歲，有詣徽者，出則過秀。然秀母賤，嫡母宣氏不之禮，嘗使進饌於客，見者皆為之起。秀母曰：「微賤如此，當應為小兒故也。」宣氏知之，後遂止。時人為之語曰：「後進領袖有裴秀。」",
+          "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p001:m0000"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p002",
+          "quote": "渡遼將軍毌丘儉嘗薦秀于大將軍曹爽，曰：「生而岐嶷，長蹈自然，玄靜守真，性入道奧；博學強記，無文不該；孝友著于鄉党，高聲聞於遠近。誠宜弼佐謨明，助和鼎味，毗贊大府，光昭盛化。非徒子奇、甘羅之儔，兼包顏、冉、游、夏之美。」爽乃辟為掾，襲父爵清陽亭侯，遷黃門侍郎。爽誅，以故吏免。頃之，為廷尉正，曆文帝安東及衛將軍司馬，軍國之政，多見信納。遷散騎常侍。"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p003",
+          "quote": "帝之討諸葛誕也，秀與尚書僕射陳泰、黃門侍郎鍾會以行台從，豫參謀略。及誕平，轉尚書，進封魯陽鄉侯，增邑千戶。常道鄉公立，以豫議定策，進爵縣侯，增邑七百戶，遷尚書僕射。魏咸熙初，厘革憲司。時荀顗定禮儀，賈充正法律，而秀改官制焉。秀議五等之爵，自騎督已上六百餘人皆封。於是秀封濟川侯，地方六十里，邑千四百戶，以高苑縣濟川墟為侯國。"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p004",
+          "quote": "初，文帝未定嗣，而屬意舞陽侯攸。武帝懼不得立，問秀曰：「人有相否？」因以奇表示之。秀後言于文帝曰：「中撫軍人望既茂，天表如此，固非人臣之相也。」由是世子乃定。武帝既即王位，拜尚書令、右光祿大夫，與御史大夫王沈、衛將軍賈充俱開府，加給事中。及帝受禪，加左光祿大夫，封钜鹿郡公，邑三千戶。"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p005",
+          "quote": "時安遠護軍郝詡與故人書云：「與尚書令裴秀相知，望其為益。」有司奏免秀官，詔曰：「不能使人之不加諸我，此古人所難。交關人事，詡之罪耳，豈尚書令能防乎！其勿有所問。」司隸校尉李憙復上言，騎都尉劉尚為尚書令裴秀占官稻田，求禁止秀。詔又以秀幹翼朝政，有勳績於王室，不可以小疵掩大德，使推正尚罪而解秀禁止焉。"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p006",
+          "quote": "久之，詔曰：「夫三司之任，以翼宣皇極，弼成王事者也。故經國論道，賴之明喆，苟非其人，官不虛備。尚書令、左光祿大夫裴秀，雅量弘博，思心通遠，先帝登庸，贊事前朝。朕受明命，光佐大業，勳德茂著，配蹤元凱。宜正位居體，以康庶績。其以秀為司空。」"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p007",
+          "quote": "秀儒學洽聞，且留心政事，當禪代之際，總納言之要，其所裁當，禮無違者。又以職在地官，以《禹貢》山川地名，從來久遠，多有變易。後世說者或強牽引，漸以暗昧。於是甄摘舊文，疑者則闕，古有名而今無者，皆隨事注列，作《禹貢地域圖》十八篇，奏之，藏于秘府。其序曰："
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p008",
+          "quote": "圖書之設，由來尚矣。自古立象垂制，而賴其用。三代置其官，國史掌厥職。暨漢屠咸陽，丞相蕭何盡收秦之圖籍。今秘書既無古之地圖，又無蕭何所得，惟有漢氏《輿地》及《括地》諸雜圖。各不設分率，又不考正准望，亦不備載名山大川。雖有粗形，皆不精審，不可依據。或荒外迂誕之言，不合事實，於義無取。"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p009",
+          "quote": "大晉龍興，混一六合，以清宇宙，始於庸蜀，冞入其岨。文皇帝乃命有司，撰訪吳蜀地圖。蜀土既定，六軍所經，地域遠近，山川險易，征路迂直，校驗圖記，罔或有差。今上考《禹貢》山海川流，原隰陂澤，古之九州，及今之十六州，郡國縣邑，疆界鄉陬，及古國盟會舊名，水陸徑路，為地圖十八篇。"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p010",
+          "quote": "製圖之體有六焉。一曰分率，所以辨廣輪之度也。二曰准望，所以正彼此之體也。三曰道里，所以定所由之數也。四曰高下，五曰方邪，六曰迂直，此三者各因地而制宜，所以校夷險之異也。有圖像而無分率，則無以審遠近之差；有分率而無准望，雖得之於一隅，必失之于他方；有准望而無道里，則施於山海絕隔之地，不能以相通；有道里而無高下、方邪、迂直之校，則徑路之數必與遠近之實相違，失准望之正矣，故以此六者參而考之。然遠近之實定於分率，彼此之實定於道里，度數之實定于高下、方邪、迂直之算。故雖有峻山钜海之隔，絕域殊方之迥，登降詭曲之因，皆可得舉而定者。准望之法既正，則曲直遠近無所隱其形也。"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p011",
+          "quote": "秀創制朝儀，廣陳刑政，朝廷多遵用之，以為故事。在位四載，為當世名公。服寒食散，當飲熱酒而飲冷酒，泰始七年薨，時年四十八。詔曰：「司空經德履哲，體蹈儒雅，佐命翼世，勳業弘茂。方將宣獻敷制，為世宗範，不幸薨殂，朕甚痛之。其賜秘器、朝服一具、衣一襲、錢三十萬、布百匹。諡曰元。」"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p012",
+          "quote": "初，秀以尚書三十六曹統事准例不明，宜使諸卿任職，未及奏而薨。其友人料其書記，得表草言平吳之事，其詞曰：「孫皓酷虐，不及聖明禦世兼弱攻昧，使遺子孫，將遂不能臣；時有否泰，非萬安之勢也。臣昔雖已屢言，未有成旨。今既疾篤不起，謹重屍啟。願陛下時共施用。」乃封以上聞。詔報曰：「司空薨，痛悼不能去心。又得表草，雖在危困，不忘王室，盡忠憂國。省益傷切，輒當與諸賢共論也。」"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p013",
+          "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+          "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p013:m0022"
+        }
+      ],
+      "interpretation_note": "以本源明父／子稱與具名傳主承接配置父系；字母只作結構位置，不作排行。",
+      "reviewer": "Codex（AI代理）"
+    },
+    "jing": {
+      "connection": "father",
+      "generation_distance": 1,
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "parent_person_id": "$jun",
+      "source_assertion_id": "a-jin035-xiuwei-jing-jun",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p013",
+          "quote": "咸甯初，與石苞等並為王公，配享廟庭。有二子：浚、頠。浚嗣位，至散騎常侍，早卒。浚庶子憬不惠，別封高陽亭侯，以浚少弟頠嗣。",
+          "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p013:m0042",
+          "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p013:m0039"
+        }
+      ],
+      "interpretation_note": "以本源明父／子稱與具名傳主承接配置父系；字母只作結構位置，不作排行。",
+      "reviewer": "Codex（AI代理）"
+    },
+    "song_pei": {
+      "connection": "father",
+      "generation_distance": 1,
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "parent_person_id": "$wei",
+      "source_assertion_id": "a-jin035-xiuwei-song-wei",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p028",
+          "quote": "初，趙王倫諂事賈后，頠甚惡之，倫數求官，頠與張華復固執不許，由是深為倫所怨。倫又潛懷篡逆，欲先除朝望，因廢賈后之際遂誅之，時年三十四。二子嵩、該，倫亦欲害之。梁王肜、東海王越稱頠父秀有勳王室，配食太廟，不宜滅其後嗣，故得不死，徙帶方；惠帝反正，追復頠本官，改葬以卿禮，諡曰成。以嵩嗣爵，為中書黃門侍郎。該出後從伯凱，為散騎常侍，並為乞活賊陳午所害。",
+          "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p028:m0069",
+          "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p028:m0010"
+        }
+      ],
+      "interpretation_note": "以本源明父／子稱與具名傳主承接配置父系；字母只作結構位置，不作排行。",
+      "reviewer": "Codex（AI代理）"
+    },
+    "gai_pei": {
+      "connection": "father",
+      "generation_distance": 1,
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "parent_person_id": "$wei",
+      "source_assertion_id": "a-jin035-xiuwei-gai-wei",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peixiu-peiwei-ws2506399",
+          "chapter_id": "c-jinshu-035-peixiu-peiwei",
+          "paragraph_id": "c-jinshu-035-peixiu-peiwei:p015",
+          "quote": "初，頠兄子憬為白衣，頠論述世勳，賜爵高陽亭侯。楊駿將誅也，駿党左軍將軍劉豫陳兵在門，遇頠，問太傅所在。頠紿之曰：「向於西掖門遇公乘素車，從二人西出矣。」豫曰：「吾何之？」頠曰：「宜至廷尉。」豫從頠言，遂委而去。尋而詔頠代豫領左軍將軍，屯萬春門。及駿誅，以功當封武昌侯，頠請以封憬，帝竟封頠次子該。頠苦陳憬本承嫡，宜襲钜鹿，先帝恩旨，辭不獲命。武昌之封，己之所蒙，特請以封憬。該時尚主，故帝不聽。累遷侍中。",
+          "subject_person_mention_id": "c-jinshu-035-peixiu-peiwei:p015:m0146",
+          "object_person_mention_id": "c-jinshu-035-peixiu-peiwei:p015:m0143"
+        }
+      ],
+      "interpretation_note": "以本源明父／子稱與具名傳主承接配置父系；字母只作結構位置，不作排行。",
+      "reviewer": "Codex（AI代理）"
+    }
+  },
+  "preserved_parent_marker_ids": [
+    "c-jinshu-035-peixiu-peiwei:p001:m0000",
+    "c-jinshu-035-peixiu-peiwei:p001:m0015",
+    "c-jinshu-035-peixiu-peiwei:p001:m0074",
+    "c-jinshu-035-peixiu-peiwei:p001:m0080",
+    "c-jinshu-035-peixiu-peiwei:p001:m0100",
+    "c-jinshu-035-peixiu-peiwei:p001:m0119",
+    "c-jinshu-035-peixiu-peiwei:p001:m0141",
+    "c-jinshu-035-peixiu-peiwei:p002:m0088",
+    "c-jinshu-035-peixiu-peiwei:p005:m0005",
+    "c-jinshu-035-peixiu-peiwei:p005:m0018",
+    "c-jinshu-035-peixiu-peiwei:p005:m0061",
+    "c-jinshu-035-peixiu-peiwei:p005:m0094",
+    "c-jinshu-035-peixiu-peiwei:p005:m0100",
+    "c-jinshu-035-peixiu-peiwei:p005:m0140",
+    "c-jinshu-035-peixiu-peiwei:p006:m0056",
+    "c-jinshu-035-peixiu-peiwei:p013:m0022",
+    "c-jinshu-035-peixiu-peiwei:p013:m0024",
+    "c-jinshu-035-peixiu-peiwei:p013:m0026",
+    "c-jinshu-035-peixiu-peiwei:p013:m0039",
+    "c-jinshu-035-peixiu-peiwei:p013:m0042",
+    "c-jinshu-035-peixiu-peiwei:p013:m0054",
+    "c-jinshu-035-peixiu-peiwei:p013:m0057",
+    "c-jinshu-035-peixiu-peiwei:p014:m0000",
+    "c-jinshu-035-peixiu-peiwei:p014:m0025",
+    "c-jinshu-035-peixiu-peiwei:p014:m0033",
+    "c-jinshu-035-peixiu-peiwei:p014:m0053",
+    "c-jinshu-035-peixiu-peiwei:p014:m0080",
+    "c-jinshu-035-peixiu-peiwei:p014:m0095",
+    "c-jinshu-035-peixiu-peiwei:p014:m0099",
+    "c-jinshu-035-peixiu-peiwei:p015:m0002",
+    "c-jinshu-035-peixiu-peiwei:p015:m0005",
+    "c-jinshu-035-peixiu-peiwei:p015:m0010",
+    "c-jinshu-035-peixiu-peiwei:p015:m0035",
+    "c-jinshu-035-peixiu-peiwei:p015:m0043",
+    "c-jinshu-035-peixiu-peiwei:p015:m0051",
+    "c-jinshu-035-peixiu-peiwei:p015:m0076",
+    "c-jinshu-035-peixiu-peiwei:p015:m0085",
+    "c-jinshu-035-peixiu-peiwei:p015:m0095",
+    "c-jinshu-035-peixiu-peiwei:p015:m0097",
+    "c-jinshu-035-peixiu-peiwei:p015:m0108",
+    "c-jinshu-035-peixiu-peiwei:p015:m0110",
+    "c-jinshu-035-peixiu-peiwei:p015:m0134",
+    "c-jinshu-035-peixiu-peiwei:p015:m0138",
+    "c-jinshu-035-peixiu-peiwei:p015:m0143",
+    "c-jinshu-035-peixiu-peiwei:p015:m0146",
+    "c-jinshu-035-peixiu-peiwei:p015:m0148",
+    "c-jinshu-035-peixiu-peiwei:p015:m0151",
+    "c-jinshu-035-peixiu-peiwei:p015:m0185",
+    "c-jinshu-035-peixiu-peiwei:p015:m0187",
+    "c-jinshu-035-peixiu-peiwei:p015:m0190",
+    "c-jinshu-035-peixiu-peiwei:p016:m0006",
+    "c-jinshu-035-peixiu-peiwei:p016:m0063",
+    "c-jinshu-035-peixiu-peiwei:p016:m0096",
+    "c-jinshu-035-peixiu-peiwei:p016:m0182",
+    "c-jinshu-035-peixiu-peiwei:p016:m0193",
+    "c-jinshu-035-peixiu-peiwei:p016:m0208",
+    "c-jinshu-035-peixiu-peiwei:p017:m0000",
+    "c-jinshu-035-peixiu-peiwei:p017:m0018",
+    "c-jinshu-035-peixiu-peiwei:p018:m0000",
+    "c-jinshu-035-peixiu-peiwei:p018:m0023",
+    "c-jinshu-035-peixiu-peiwei:p018:m0084",
+    "c-jinshu-035-peixiu-peiwei:p018:m0162",
+    "c-jinshu-035-peixiu-peiwei:p018:m0187",
+    "c-jinshu-035-peixiu-peiwei:p018:m0231",
+    "c-jinshu-035-peixiu-peiwei:p019:m0012",
+    "c-jinshu-035-peixiu-peiwei:p019:m0046",
+    "c-jinshu-035-peixiu-peiwei:p019:m0059",
+    "c-jinshu-035-peixiu-peiwei:p019:m0319",
+    "c-jinshu-035-peixiu-peiwei:p020:m0010",
+    "c-jinshu-035-peixiu-peiwei:p020:m0016",
+    "c-jinshu-035-peixiu-peiwei:p020:m0049",
+    "c-jinshu-035-peixiu-peiwei:p020:m0101",
+    "c-jinshu-035-peixiu-peiwei:p021:m0000",
+    "c-jinshu-035-peixiu-peiwei:p025:m0443",
+    "c-jinshu-035-peixiu-peiwei:p025:m0505",
+    "c-jinshu-035-peixiu-peiwei:p028:m0010",
+    "c-jinshu-035-peixiu-peiwei:p028:m0020",
+    "c-jinshu-035-peixiu-peiwei:p028:m0069",
+    "c-jinshu-035-peixiu-peiwei:p028:m0071",
+    "c-jinshu-035-peixiu-peiwei:p028:m0088",
+    "c-jinshu-035-peixiu-peiwei:p028:m0124",
+    "c-jinshu-035-peixiu-peiwei:p028:m0139",
+    "c-jinshu-035-peixiu-peiwei:p028:m0151",
+    "c-jinshu-035-peixiu-peiwei:p028:m0169"
+  ],
+  "additional_marker_ids": [
+    "c-jinshu-035-peixiu-peiwei:p001:m0023",
+    "c-jinshu-035-peixiu-peiwei:p020:m0007",
+    "c-jinshu-035-peixiu-peiwei:p028:m0090"
+  ],
+  "interpretations": {
+    "mother_role": "母與嫡母只記母職；生母未明。",
+    "succession": "嗣位/襲爵不是收養；出後從伯凱未定同指，不在本批造養父。",
+    "ordering": "僅次子該=2與少弟頠的相對年序，列嵩該不給嵩ordinal1。",
+    "father_chain": "祖茂距2，不改造茂生潛的literal父子；現有裴秀／頠來源關係獨立記本傳證。"
+  }
+}

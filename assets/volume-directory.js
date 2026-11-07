@@ -1,6 +1,7 @@
 import {escapeHTML as h,safeURL} from './core.js';
 import {ui} from './i18n.js';
 import {chapterDirectoryMap,sourceCitation} from './source-caption.js';
+import {readingWitnessBadge} from './reading-witness.js';
 import {sourcePassageURL} from './corpus-reader.js';
 const empty=()=>({schema_version:1,works:[]});
 export function usableVolumeDirectory(value) {
@@ -30,7 +31,7 @@ export function volumeModel(directory,workId,index,query='') {
 }
 const bookLabel=b=>[b.title || (Number.isInteger(b.number)?`卷${b.number}`:''),b.citation_title].filter(x=>typeof x==='string'&&x).join(' · ') || b.book_id;
 const citation=(model,book)=>sourceCitation({work_id:model.work.work_id,book_id:book.book_id,work_title:model.work.title,book_title:book.title || (Number.isInteger(book.number)?`卷${book.number}`:'')},chapterDirectoryMap({schema_version:1,works:[model.work]}));
-const selection=(entry,number)=>`<small class="volume-selection-scope">${ui('Imported section {number}',{number})}${typeof entry.title==='string'&&entry.title?` · ${ui('Selected scope')}: ${h(entry.title)}`:''}</small>`;
+const selection=(entry,number)=>`<small class="volume-selection-scope">${ui('Imported section {number}',{number})}${typeof (entry.selection_label || entry.title)==='string'&&(entry.selection_label || entry.title)?` · ${ui('Selected scope')}: ${h(entry.selection_label || entry.title)}`:''}</small>${readingWitnessBadge(entry)}`;
 export function volumeNavigation(model,selectedBook='',selectedChapter='') {
  if(!model)return '';
  return model.books.map(b=>`<section class="volume-directory-entry"><a class="chapter-entry volume-entry" href="${h(volumeURL(model.work.work_id,b.book_id))}" aria-current="${b.book_id===selectedBook&&!selectedChapter?'page':'false'}">${h(bookLabel(b))}</a>${b.entries.map((e,i)=>`<a class="chapter-entry volume-subchapter" href="${h(sourcePassageURL(e))}" aria-current="${e.chapter_id===selectedChapter?'page':'false'}">${h(citation(model,b))}${selection(e,i+1)}${e.text_scope?.startsWith('partial')?` <small>${ui('Partial chapter')}</small>`:''}</a>`).join('')}</section>`).join('');

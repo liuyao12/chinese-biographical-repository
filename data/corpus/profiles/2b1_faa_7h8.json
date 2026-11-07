@@ -6,7 +6,8 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "尹喜"
+    "尹喜",
+    "關令"
   ],
   "titles": [
     {
@@ -54,6 +55,41 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 41,
+      "category": "",
+      "title": "王襃傳",
+      "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p010",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "弟昔因多疾，亟覽九仙之方；晚涉世途，常懷五嶽之舉。同夫關令，物色異人；譬彼客卿，服膺高士。上經說道，屢聽玄牝之談；中藥養神，每稟丹沙之說。頃年事遒盡，容髮衰謝，芸其黃矣，零落無時。還念生涯，繁憂總集。視陰愒日，猶趙孟之徂年；負杖行吟，同劉琨之積慘。河陽北臨，",
+      "paragraph_ids": [
+        "c-zhoushu-041-wangbao-ws2432538:p010"
+      ],
+      "mention_ids": [
+        "c-zhoushu-041-wangbao-ws2432538:p010:m0027"
+      ],
+      "mention_paragraph_ids": {
+        "c-zhoushu-041-wangbao-ws2432538:p010:m0027": "c-zhoushu-041-wangbao-ws2432538:p010"
+      },
+      "mention_id": "c-zhoushu-041-wangbao-ws2432538:p010:m0027",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zhoushu-041-wangbao-ws2432538:p010:m0027",
+          "mention_ids": [
+            "c-zhoushu-041-wangbao-ws2432538:p010:m0027"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zhoushu",
+      "book_id": "b-zhoushu-041",
+      "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+      "source_id": "s-zhoushu041-ws2432538",
+      "work_title": "周書"
+    },
     {
       "number": 63,
       "category": "liezhuan",
@@ -113,6 +149,39 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留耼、儋、絀、闚、剽剝、洸洋與慘礉等原字。說難引文保留於正文，不當另一本獨立見證。",
           "note": "全26段已核讀，未核可靠底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+      "work_id": "w-zhoushu",
+      "book_id": "b-zhoushu-041",
+      "source_id": "s-zhoushu041-ws2432538",
+      "source": {
+        "title": "《周書》卷四十一·王襃傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2432538",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2432538",
+        "revision_id": 2432538,
+        "revision_timestamp": "2024-07-05T14:24:28Z",
+        "accessed_on": "2026-10-30",
+        "text_scope": "partial_chapter",
+        "extent": "完整王襃本傳14段及10收到現代ref校記；起王襃字子淵，止子鼒嗣，下一庾信傳排除，非全卷。",
+        "review_status": "text_checked",
+        "actual_print_edition": null,
+        "printed_base_edition": null,
+        "edition": "固定數位轉錄，實際印本未知；未核書影，不冒宋本、武英殿或所報版本已讀。",
+        "human_reviewed": false,
+        "image_verified": false,
+        "rights": "古代公有領域正文及維基文庫數位轉錄，保留歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_file": "source-evidence/zhou041-wangbao-ws2432538/zhou041-fixed.wikitext",
+        "raw_path": "source-evidence/zhou041-wangbao-ws2432538/zhou041-fixed.wikitext",
+        "raw_file_sha256": "9d70386dd59b9a9dd3faec01c63ac20e2b01f6ab6f1e35c5f3ac2fb8729e4aa9",
+        "wikitext_sha256": "9d70386dd59b9a9dd3faec01c63ac20e2b01f6ab6f1e35c5f3ac2fb8729e4aa9",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅分離ref為現代收到校勘報告、展{{*|...}}為原文字參數、去書信行首冒號；襃、宣成、智武及（宣）〔宜〕等收到符號全保，不默改古字。"
         }
       }
     }

@@ -1,0 +1,64 @@
+{
+  "format_version": "0.2",
+  "record_type": "identity_decision_set",
+  "chapter_id": "c-shiji-072-rang",
+  "decisions": [
+    {
+      "id": "d-shiji072-wuwang-wife-crosschapter",
+      "person_id": "cij_zvk_7rn",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-072-rang",
+        "c-shiji-005-qin"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "surfaces": [
+        "武王后"
+      ],
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-072",
+          "source_id": "s-shiji-072-rang",
+          "chapter_id": "c-shiji-072-rang",
+          "paragraph_id": "c-shiji-072-rang:p002",
+          "quote": "秦武王卒，無子，立其弟為昭王。昭王母故號為羋八子，及昭王即位，羋八子號為宣太后。宣太后非武王母。武王母號曰惠文后，先武王死。宣太后二弟：其異父長弟曰穰侯，姓魏氏，名冉；同父弟曰羋戎，為華陽君。而昭王同母弟曰高陵君、涇陽君。而魏冉最賢，自惠王、武王時任職用事。武王卒，諸弟爭立，唯魏冉力為能立昭王。昭王即位，以冉為將軍，衛咸陽。誅季君之亂，而逐武王后出之魏，昭王諸兄弟不善者皆滅之，威振秦國。昭王少，宣太后自治，任魏冉為政。",
+          "mention_ids": [
+            "c-shiji-072-rang:m002-0171"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-005",
+          "source_id": "s-shiji-005-qin",
+          "chapter_id": "c-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p069",
+          "quote": "昭襄王元年，嚴君疾為相。甘茂出之魏。二年，彗星見。庶長壯與大臣、諸侯、公子為逆，皆誅，及惠文后皆不得良死。悼武王后出歸魏。三年，王冠。與楚王會黃棘，與楚上庸。四年，取蒲阪。彗星見。五年，魏王來朝應亭，復與魏蒲阪。六年，蜀侯煇反，司馬錯定蜀。庶長奐伐楚，斬首二萬。涇陽君質於齊。日食，晝晦。七年，拔新城。摢裏子卒。八年，使將軍羋戎攻楚，取新市。齊使章子，魏使公孫喜，韓使暴鳶共攻楚方城，取唐眛。趙破中山，其君亡，竟死齊。魏公子勁、韓公子長為諸侯。九年，孟嘗君薛文來相秦。奐攻楚，取八城，殺其將景快。十年，楚懷王入朝秦，秦留之。薛文以金受免。樓緩為丞相。十一年，齊、韓、魏、趙、宋、中山五國共攻秦，至鹽氏而還。秦與韓、魏河北及封陵以和。彗星見。楚懷王走之趙，趙不受，還之秦，即死，歸葬。十二年，樓緩免，穰侯魏冉為相。予楚粟五萬石。",
+          "mention_ids": [
+            "c-shiji-005-qin:m069-0053"
+          ]
+        }
+      ],
+      "rationale": "072武王后在魏冉立昭王後被逐出魏，005武王取魏女為后無子且昭襄二年悼武王后出歸魏，配偶/出歸/王代三橋相合。",
+      "interpretation_note": "不解005魏女unresolved、不推魏姓/本名/父母或婚年；不合季君與庶長壯；母后與妻后分開。",
+      "prior_source_qualifications": [
+        {
+          "metadata": {
+            "label": "武王后（穰侯列傳候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "14fcb3d86cdfe9f55285558b8470840e22c28289e4caf1de1b3258aecb555021",
+          "source_mention_ids": [
+            "c-shiji-072-rang:m002-0171"
+          ],
+          "qualification": "失去者全部非alias/evidence欄逐值保；身份同指不提高日期/稱號/事件真偽或來源資格。"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

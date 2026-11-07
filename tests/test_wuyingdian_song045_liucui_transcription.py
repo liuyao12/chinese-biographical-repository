@@ -1,0 +1,76 @@
+from tests.portable_fixture_copy import fixture_copy2
+import copy,json,unittest,tempfile,shutil
+from pathlib import Path
+try:
+ from scripts.fixed_wuyingdian_song045_liucui import source_errors,BASE
+ from scripts.render_corpus import render
+except ImportError:
+ from fixed_wuyingdian_song045_liucui import source_errors,BASE
+ from render_corpus import render
+ROOT=Path(__file__).resolve().parents[1]
+class Song045(unittest.TestCase):
+ def setUp(self):self.c=json.loads((ROOT/'corpus/songshu/045-wyd1739-liucui.json').read_text())
+ def test_complete_pending_source_and_xml(self):
+  self.assertEqual(source_errors(self.c,ROOT),[])
+  self.assertEqual(render(self.c),(ROOT/'corpus/songshu/045-wyd1739-liucui.xml').read_text())
+  self.assertEqual(len(self.c['paragraphs']),15)
+  # fixed-wyd045-pending-projection-test
+  from scripts.wyd_song045_roles import source_only_projection
+  pending=source_only_projection(self.c,ROOT)if 'fixed_ner_role_layer'in self.c['annotation']else self.c
+  self.assertTrue(all(p['annotation_status']=='pending'and not p['mentions']for p in pending['paragraphs']))
+ def test_wrong_layer_and_missing_binding(self):
+  for field in ('layer','binding'):
+   c=copy.deepcopy(self.c)
+   if field=='layer':c['paragraphs'][-1]['text_layer']='witness_appended_pei_songzhi_note'
+   else:del c['annotation']['fixed_transcription_contract']
+   self.assertTrue(source_errors(c,ROOT))
+ def test_wrong_source_flags_and_glyph(self):
+  for field in ('edition','image','pdf','glyph'):
+   c=copy.deepcopy(self.c)
+   if field=='edition':c['source']['edition']='四庫'
+   if field=='image':c['source']['image_verified']=True
+   if field=='pdf':c['source']['received_transcription_witness']['original_pdf_locally_obtained']=True
+   if field=='glyph':
+    p=next(p for p in c['paragraphs']if'〓'in p['text']);p['text']=p['text'].replace('〓','祗')
+   self.assertTrue(source_errors(c,ROOT))
+ def test_raw_cochange_cannot_repin_itself(self):
+  with tempfile.TemporaryDirectory()as t:
+   r=Path(t);shutil.copytree(ROOT/BASE,r/BASE, copy_function=fixture_copy2)
+   p=r/BASE/'transcription-columns.txt';p.write_bytes(b'\n'+p.read_bytes())
+   c=copy.deepcopy(self.c)
+   if 'fixed_ner_role_layer'in c['annotation']:
+    from scripts.wyd_song045_roles import source_only_projection
+    c=source_only_projection(c,ROOT)
+   import hashlib
+   c['source']['raw_sha256']=hashlib.sha256(p.read_bytes()).hexdigest()
+   self.assertTrue(source_errors(c,r))
+ def test_pending_ai_stage_cannot_be_promoted(self):
+  for key,value in [('human_reviewed',True),('model','unverified-model'),('status','reviewed')]:
+   c=copy.deepcopy(self.c);c['annotation'][key]=value
+   self.assertTrue(source_errors(c,ROOT))
+  for mutation in ('status','mentions','missing_mentions','missing_status'):
+   c=copy.deepcopy(self.c);p=c['paragraphs'][0]
+   if mutation=='status':p['annotation_status']='in_progress'
+   if mutation=='mentions':p['mentions']=[{'kind':'unresolved','person_id':None}]
+   if mutation=='missing_mentions':del p['mentions']
+   if mutation=='missing_status':del p['annotation_status']
+   self.assertTrue(source_errors(c,ROOT))
+ def test_formal_title_only(self):
+  self.assertEqual(self.c['title'],'王鎮惡 檀韶 向靖 劉懷慎 劉粹')
+  c=copy.deepcopy(self.c);c['title']='劉粹及附敘（武英殿本）'
+  self.assertTrue(source_errors(c,ROOT))
+ def test_image_reading_successor(self):
+  self.assertTrue(self.c['paragraphs'][11]['text'].startswith('異常日故雖毋妻不知也'))
+  self.assertIn('謙之道濟喪',self.c['paragraphs'][12]['text'])
+  for before,after,index in [('日','曰',11),('毋','母',11),('謙之','謙送',12)]:
+   c=copy.deepcopy(self.c);p=c['paragraphs'][index];p['text']=p['text'].replace(before,after,1)
+   self.assertTrue(source_errors(c,ROOT))
+ def test_image_year_three_only(self):
+  self.assertTrue(self.c['paragraphs'][3]['text'].startswith('沙門二千餘人以補府史元嘉三年討謝晦'))
+  c=copy.deepcopy(self.c);p=c['paragraphs'][3];p['text']=p['text'][:12]+'二'+p['text'][13:]
+  self.assertTrue(source_errors(c,ROOT))
+  self.assertEqual(self.c['paragraphs'][3]['text'][2],'二')
+ def test_bad_types_and_legacy_non_target(self):
+  for c in (None,[],42,'bad'):self.assertTrue(source_errors(c,ROOT))
+  self.assertEqual(source_errors({'id':'other','source_id':'other','annotation':{}},ROOT),[])
+if __name__=='__main__':unittest.main()

@@ -12,10 +12,10 @@ class JiaEmpressIdentity(unittest.TestCase):
             p = next(p for p in read(path)["paragraphs"] if p["id"] == paragraph_id)
             marks = [m for m in p["mentions"] if m["surface"] == surface]
             self.assertTrue(marks)
-            self.assertEqual({m["person_id"] for m in marks}, {"c27_590_7e3_A"})
+            self.assertEqual({m["person_id"] for m in marks}, {"jmv_vc4_gep_*AAA"})
         assertions = read("corpus/jinshu/039-assertions.json")["assertions"]
         father = next(a for a in assertions if a["id"] == "a-jinshu039-yi-full-003")
-        self.assertEqual((father["predicate"], father["subject_person_id"], father["object_person_id"]), ("father", "c27_590_7e3_A", "c27_590_7e3"))
+        self.assertEqual((father["predicate"], father["subject_person_id"], father["object_person_id"]), ("father", "jmv_vc4_gep_*AAA", "jmv_vc4_gep_*AA"))
 
     def test_fixed_bridge_distinguishes_sister_from_empress(self):
         raw = (ROOT / "sources/jinshu/031-jia-ws2479706.wikitext").read_text()

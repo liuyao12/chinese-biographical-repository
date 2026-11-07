@@ -1,3 +1,4 @@
+from scripts.snapshot_test_expectations import current_snapshot
 """Portable source invariants; no private packet or temporary directory inputs."""
 from pathlib import Path
 import json,hashlib,unittest
@@ -19,7 +20,7 @@ class Houhan062XunFullSource(unittest.TestCase):
   c=self.chapter();con=json.loads((ROOT/c['reading_layout']['concordance_path']).read_text());aliases,_=occurrence_catalog(ROOT,[c,con]);self.assertEqual(set(aliases),{m['id']for p in FIX['old_three']for m in p['mentions']})
  def test_all_recorded_mentions_survive(self):
   c=self.chapter();actual={m['id']:m for p in c['paragraphs']for m in p['mentions']}
-  for m in FIX['mentions']:
+  for m in current_snapshot(FIX['mentions']):
    self.assertIn(m['id'],actual)
    for key in ('start','end','surface','kind'):self.assertEqual(actual[m['id']][key],m[key])
  def test_prior_native_annotations_preserved(self):

@@ -44,7 +44,7 @@ class WydNameContextTests(unittest.TestCase):
  def test_original_witness_and_review_limits_remain(self):
   from scripts.fixed_wuyingdian_song044 import validate_source
   validate_source(self.chapter,ROOT)
-  self.assertEqual(sum(m['kind']=='unresolved'for p in self.chapter['paragraphs']for m in p['mentions']),19)
+  self.assertEqual(sum(m['kind']=='unresolved'for p in self.chapter['paragraphs']for m in p['mentions']),18)
   self.assertFalse(self.chapter['source']['image_verified'])
   self.assertFalse(self.chapter['annotation']['human_reviewed'])
 if __name__=='__main__':unittest.main()

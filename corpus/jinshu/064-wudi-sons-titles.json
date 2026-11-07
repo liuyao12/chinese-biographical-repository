@@ -1,0 +1,610 @@
+{
+  "format_version": "0.2",
+  "record_type": "title_holding_assertion_set",
+  "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+  "holdings": [
+    {
+      "id": "th-jin064-jing-territorial-grant",
+      "person_id": "dkn_ge4_286_AAAAIAI",
+      "title": "城陽王",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "received_title_analysis": {
+        "kind": "received_territorial_posthumous_rank_heading",
+        "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+        "paragraph_sha256": "1a2140abf7cdcd609719db6cae092f176fb902ebdd095d78c8d59f50f92e4aac",
+        "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000",
+        "surface_anchor": {
+          "start": 0,
+          "end": 4,
+          "surface": "城陽懷王"
+        },
+        "territory_anchor": {
+          "start": 0,
+          "end": 2,
+          "surface": "城陽"
+        },
+        "posthumous_anchor": {
+          "start": 2,
+          "end": 3,
+          "surface": "懷"
+        },
+        "rank_anchor": {
+          "start": 3,
+          "end": 4,
+          "surface": "王"
+        },
+        "grant_anchor": {
+          "start": 21,
+          "end": 27,
+          "surface": "泰始五年受封"
+        },
+        "normalized_title": "城陽王",
+        "grant_applies_to": "territorial_rank_only",
+        "posthumous_date": null,
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "model": null,
+        "rationale": "題首原surface逐字分領土、諡、爵等；領土王爵是編者結構化名稱，不冒原文連續同字。帶諡完整用稱另存unknown-date attestation。"
+      },
+      "attestations": [
+        {
+          "id": "th-jin064-jing-territorial-grant:occ1",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "start": 0,
+          "end": 4,
+          "surface": "城陽懷王",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000",
+          "usage": "retrospective",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "泰始五年",
+          "normalized_date": {
+            "era": "CE",
+            "era_year": 269,
+            "year": 269,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "calendar": "chinese_civil",
+            "status": "editorial_provisional",
+            "source_expression": "泰始五年",
+            "original_quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+            "evidence": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-064",
+                "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+                "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+                "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+                "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+                "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+              }
+            ],
+            "references": [
+              {
+                "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+                "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+                "quote": "泰始",
+                "columns": {
+                  "dynasty": "西晉",
+                  "era_name": "泰始",
+                  "first_year": "265",
+                  "last_year": "274"
+                },
+                "scope": "modern_era_year_equivalence_only",
+                "accessed_on": "2026-10-30",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本完整段明受封年；只給領土王爵授封年，不給題首諡字授予日期，不因死亡補爵終年。",
+            "reviewer": "Codex（AI代理）",
+            "human_reviewed": false,
+            "model": null,
+            "regnal_year_mapping": {
+              "kind": "ce_regnal_era_span",
+              "era_name": "泰始",
+              "source_number": "五",
+              "regnal_year": 5,
+              "start_ce_year": 265,
+              "end_ce_year": 274,
+              "reference_index": 0
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-064",
+              "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+              "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+              "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+              "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+              "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+        }
+      ],
+      "interpretation_note": "授封城陽王的原年；諡懷只見題首用稱、授諡日期未知。原字城陽懷王不改、不把帶諡全稱授在生前。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin064-jing-received-posthumous-designation",
+      "person_id": "dkn_ge4_286_AAAAIAI",
+      "title": "城陽懷王",
+      "kind": "honorific",
+      "mode": "attestation",
+      "status": "source_attested",
+      "attestations": [
+        {
+          "id": "th-jin064-jing-received-posthumous-designation:occ1",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "start": 0,
+          "end": 4,
+          "surface": "城陽懷王",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000",
+          "usage": "posthumous_usage",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p006",
+          "quote": "城陽懷王景，字景度，出繼叔父城陽哀王兆後。泰始五年受封，六年薨。",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p006:m0000"
+        }
+      ],
+      "interpretation_note": "帶諡題首完整用稱；未載授諡年。與另列領土王爵受封年分開，不以其年作授諡年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin064-zhi-territorial-grant",
+      "person_id": "dkn_ge4_286_AAAAIAK",
+      "title": "東海王",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "received_title_analysis": {
+        "kind": "received_territorial_posthumous_rank_heading",
+        "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p007",
+        "paragraph_sha256": "b3667c6d743a8351e963f4a16c02fab5d7dd31db9f03e796593da195c9d72c12",
+        "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p007:m0000",
+        "surface_anchor": {
+          "start": 0,
+          "end": 4,
+          "surface": "東海沖王"
+        },
+        "territory_anchor": {
+          "start": 0,
+          "end": 2,
+          "surface": "東海"
+        },
+        "posthumous_anchor": {
+          "start": 2,
+          "end": 3,
+          "surface": "沖"
+        },
+        "rank_anchor": {
+          "start": 3,
+          "end": 4,
+          "surface": "王"
+        },
+        "grant_anchor": {
+          "start": 10,
+          "end": 18,
+          "surface": "泰始九年五月受封"
+        },
+        "normalized_title": "東海王",
+        "grant_applies_to": "territorial_rank_only",
+        "posthumous_date": null,
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "model": null,
+        "rationale": "題首原surface逐字分領土、諡、爵等；領土王爵是編者結構化名稱，不冒原文連續同字。帶諡完整用稱另存unknown-date attestation。"
+      },
+      "attestations": [
+        {
+          "id": "th-jin064-zhi-territorial-grant:occ1",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p007",
+          "start": 0,
+          "end": 4,
+          "surface": "東海沖王",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p007:m0000",
+          "usage": "retrospective",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "泰始九年五月",
+          "normalized_date": {
+            "era": "CE",
+            "era_year": 273,
+            "year": 273,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "calendar": "chinese_civil",
+            "status": "editorial_provisional",
+            "source_expression": "泰始九年",
+            "original_quote": "東海沖王祗，字敬度，泰始九年五月受封。殤王薨，復以祗繼兆，其年薨，時年三歲。",
+            "evidence": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-064",
+                "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+                "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+                "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p007",
+                "quote": "東海沖王祗，字敬度，泰始九年五月受封。殤王薨，復以祗繼兆，其年薨，時年三歲。",
+                "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p007:m0000"
+              }
+            ],
+            "references": [
+              {
+                "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+                "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+                "quote": "泰始",
+                "columns": {
+                  "dynasty": "西晉",
+                  "era_name": "泰始",
+                  "first_year": "265",
+                  "last_year": "274"
+                },
+                "scope": "modern_era_year_equivalence_only",
+                "accessed_on": "2026-10-30",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本完整段明受封年；只給領土王爵授封年，不給題首諡字授予日期，不因死亡補爵終年。",
+            "reviewer": "Codex（AI代理）",
+            "human_reviewed": false,
+            "model": null,
+            "regnal_year_mapping": {
+              "kind": "ce_regnal_era_span",
+              "era_name": "泰始",
+              "source_number": "九",
+              "regnal_year": 9,
+              "start_ce_year": 265,
+              "end_ce_year": 274,
+              "reference_index": 0
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-064",
+              "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+              "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+              "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p007",
+              "quote": "東海沖王祗，字敬度，泰始九年五月受封。殤王薨，復以祗繼兆，其年薨，時年三歲。",
+              "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p007:m0000"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p007",
+          "quote": "東海沖王祗，字敬度，泰始九年五月受封。殤王薨，復以祗繼兆，其年薨，時年三歲。",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p007:m0000"
+        }
+      ],
+      "interpretation_note": "授封東海王的原年；諡沖只見題首用稱、授諡日期未知。原字東海沖王不改、不把帶諡全稱授在生前。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《晉書》卷三十八·列傳第八",
+          "url": "https://zh.wikisource.org/wiki/晉書/卷038",
+          "quote": "城陽哀王兆，字千秋，年十歲而夭。武帝踐阼，詔曰：「亡弟千秋，少聰慧，有夙成之質，不幸早亡，先帝先後特所哀湣。先後欲紹立其後，而竟未遂，每追遺意，情懷感傷。其以皇子景度為千秋後，雖非典禮，亦近世之所行，且以述先後本旨也。」於是追加兆封諡。景度以泰始六年薨，復以第五子憲繼哀王后。薨，復以第六子祗為東海王，繼哀王后。薨，咸甯初又封第十三子遐為清河王，以繼兆後。",
+          "chapter_id": "c-jinshu-038-wen-children-rendered",
+          "source_id": "s-jinshu-038-wen-children-rendered",
+          "paragraph_id": "c-jinshu-038-wen-children-rendered:p002",
+          "person_mention_id": "c-jinshu-038-wen-children-rendered:p002:m0147",
+          "scope": "parallel_literal_rank_only_not_source_of_064_date",
+          "reported_revision": 2444513,
+          "fixed_body_obtained": false,
+          "raw_obtained": false,
+          "actual_print_edition": null,
+          "image_verified": false,
+          "human_reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "th-jin064-zhi-received-posthumous-designation",
+      "person_id": "dkn_ge4_286_AAAAIAK",
+      "title": "東海沖王",
+      "kind": "honorific",
+      "mode": "attestation",
+      "status": "source_attested",
+      "attestations": [
+        {
+          "id": "th-jin064-zhi-received-posthumous-designation:occ1",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p007",
+          "start": 0,
+          "end": 4,
+          "surface": "東海沖王",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p007:m0000",
+          "usage": "posthumous_usage",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p007",
+          "quote": "東海沖王祗，字敬度，泰始九年五月受封。殤王薨，復以祗繼兆，其年薨，時年三歲。",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p007:m0000"
+        }
+      ],
+      "interpretation_note": "帶諡題首完整用稱；未載授諡年。與另列領土王爵受封年分開，不以其年作授諡年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin064-yu_wudi_son-territorial-grant",
+      "person_id": "dkn_ge4_286_AAAAIAL",
+      "title": "始平王",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "received_title_analysis": {
+        "kind": "received_territorial_posthumous_rank_heading",
+        "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p008",
+        "paragraph_sha256": "b628c6a8753dfeb22dec0420a586a000497ad54d73f1f3b23919b80f6093a17d",
+        "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p008:m0000",
+        "surface_anchor": {
+          "start": 0,
+          "end": 4,
+          "surface": "始平哀王"
+        },
+        "territory_anchor": {
+          "start": 0,
+          "end": 2,
+          "surface": "始平"
+        },
+        "posthumous_anchor": {
+          "start": 2,
+          "end": 3,
+          "surface": "哀"
+        },
+        "rank_anchor": {
+          "start": 3,
+          "end": 4,
+          "surface": "王"
+        },
+        "grant_anchor": {
+          "start": 10,
+          "end": 16,
+          "surface": "咸寧三年受封"
+        },
+        "normalized_title": "始平王",
+        "grant_applies_to": "territorial_rank_only",
+        "posthumous_date": null,
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "model": null,
+        "rationale": "題首原surface逐字分領土、諡、爵等；領土王爵是編者結構化名稱，不冒原文連續同字。帶諡完整用稱另存unknown-date attestation。"
+      },
+      "attestations": [
+        {
+          "id": "th-jin064-yu_wudi_son-territorial-grant:occ1",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p008",
+          "start": 0,
+          "end": 4,
+          "surface": "始平哀王",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p008:m0000",
+          "usage": "retrospective",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "咸寧三年",
+          "normalized_date": {
+            "era": "CE",
+            "era_year": 277,
+            "year": 277,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "calendar": "chinese_civil",
+            "status": "editorial_provisional",
+            "source_expression": "咸寧三年",
+            "original_quote": "始平哀王裕，字濬度，咸寧三年受封，其年薨，年七歲。無子，以淮南王允子迪為嗣。太康十年，改封漢王，為趙王倫所害。",
+            "evidence": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-064",
+                "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+                "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+                "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p008",
+                "quote": "始平哀王裕，字濬度，咸寧三年受封，其年薨，年七歲。無子，以淮南王允子迪為嗣。太康十年，改封漢王，為趙王倫所害。",
+                "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p008:m0000"
+              }
+            ],
+            "references": [
+              {
+                "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+                "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+                "quote": "咸寧",
+                "columns": {
+                  "dynasty": "西晉",
+                  "era_name": "咸寧",
+                  "first_year": "275",
+                  "last_year": "280"
+                },
+                "scope": "modern_era_year_equivalence_only",
+                "accessed_on": "2026-10-30",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本完整段明受封年；只給領土王爵授封年，不給題首諡字授予日期，不因死亡補爵終年。",
+            "reviewer": "Codex（AI代理）",
+            "human_reviewed": false,
+            "model": null,
+            "regnal_year_mapping": {
+              "kind": "ce_regnal_era_span",
+              "era_name": "咸寧",
+              "source_number": "三",
+              "regnal_year": 3,
+              "start_ce_year": 275,
+              "end_ce_year": 280,
+              "reference_index": 0
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-064",
+              "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+              "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+              "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p008",
+              "quote": "始平哀王裕，字濬度，咸寧三年受封，其年薨，年七歲。無子，以淮南王允子迪為嗣。太康十年，改封漢王，為趙王倫所害。",
+              "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p008:m0000"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p008",
+          "quote": "始平哀王裕，字濬度，咸寧三年受封，其年薨，年七歲。無子，以淮南王允子迪為嗣。太康十年，改封漢王，為趙王倫所害。",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p008:m0000"
+        }
+      ],
+      "interpretation_note": "授封始平王的原年；諡哀只見題首用稱、授諡日期未知。原字始平哀王不改、不把帶諡全稱授在生前。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-jin064-yu_wudi_son-received-posthumous-designation",
+      "person_id": "dkn_ge4_286_AAAAIAL",
+      "title": "始平哀王",
+      "kind": "honorific",
+      "mode": "attestation",
+      "status": "source_attested",
+      "attestations": [
+        {
+          "id": "th-jin064-yu_wudi_son-received-posthumous-designation:occ1",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p008",
+          "start": 0,
+          "end": 4,
+          "surface": "始平哀王",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p008:m0000",
+          "usage": "posthumous_usage",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-064",
+          "source_id": "s-jinshu-064-ws2622004-rendered-wudi-sons",
+          "chapter_id": "c-jinshu-064-wudi-sons-rendered",
+          "paragraph_id": "c-jinshu-064-wudi-sons-rendered:p008",
+          "quote": "始平哀王裕，字濬度，咸寧三年受封，其年薨，年七歲。無子，以淮南王允子迪為嗣。太康十年，改封漢王，為趙王倫所害。",
+          "person_mention_id": "c-jinshu-064-wudi-sons-rendered:p008:m0000"
+        }
+      ],
+      "interpretation_note": "帶諡題首完整用稱；未載授諡年。與另列領土王爵受封年分開，不以其年作授諡年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

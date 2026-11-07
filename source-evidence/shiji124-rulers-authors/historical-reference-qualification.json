@@ -1,0 +1,64 @@
+{
+  "record_type": "editorial_exact_historical_capture_qualification",
+  "captures": [
+    {
+      "path": "source-evidence/medieval-integration-archive/7e44cd0f1d095dae577accd6069f15dc71d2d8184d8f06f2d1255982c3a3b62a.json",
+      "sha256": "7e44cd0f1d095dae577accd6069f15dc71d2d8184d8f06f2d1255982c3a3b62a",
+      "historical_person_id_pointers": [
+        "/e-liang030-gaozu/hits/9/id"
+      ],
+      "retained_person_ids_at_capture": [
+        "jkv_j2g_82m"
+      ],
+      "qualification": "既有不可變歷史捕獲的精確位置，保留原bytes；不是現役人物端點、別名、查詢入口或來源目錄豁免。"
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/3604795d97467287a9b979e94050f458ac0b6b87baaafbfd73357566922732d9.json",
+      "sha256": "3604795d97467287a9b979e94050f458ac0b6b87baaafbfd73357566922732d9",
+      "historical_person_id_pointers": [
+        "/rows/5/all_exact_surface_candidates/4/id",
+        "/rows/9/all_exact_surface_candidates/8/id"
+      ],
+      "retained_person_ids_at_capture": [
+        "6wj_fmx_svw",
+        "jkv_j2g_82m"
+      ],
+      "qualification": "既有不可變歷史捕獲的精確位置，保留原bytes；不是現役人物端點、別名、查詢入口或來源目錄豁免。"
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/aaeeef90a10d1a75bae237982c9bb5c40fb777a31c84f874acf3a56a38ecc8f0.json",
+      "sha256": "aaeeef90a10d1a75bae237982c9bb5c40fb777a31c84f874acf3a56a38ecc8f0",
+      "historical_person_id_pointers": [
+        "/3/preflight_candidates/14/person_id"
+      ],
+      "retained_person_ids_at_capture": [
+        "ipb_xvn_egt"
+      ],
+      "qualification": "既有不可變歷史捕獲的精確位置，保留原bytes；不是現役人物端點、別名、查詢入口或來源目錄豁免。"
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/44df412fd7993a1ead9a9bf9282790a5b69535c7169d344746e46259aeecf8c0.json",
+      "sha256": "44df412fd7993a1ead9a9bf9282790a5b69535c7169d344746e46259aeecf8c0",
+      "historical_person_id_pointers": [
+        "/entries/5/all_registry_surface_candidates/4/person_id",
+        "/entries/9/all_registry_surface_candidates/8/person_id"
+      ],
+      "retained_person_ids_at_capture": [
+        "6wj_fmx_svw",
+        "jkv_j2g_82m"
+      ],
+      "qualification": "既有不可變歷史捕獲的精確位置，保留原bytes；不是現役人物端點、別名、查詢入口或來源目錄豁免。"
+    }
+  ],
+  "active_rekey_paths": [
+    "source-evidence/jin035-pei-source-reading/identity-review.json",
+    "source-evidence/liang030-peiziye-source-reading/current-registry-context-candidates.json",
+    "source-evidence/song046-zhangshao-native/identity-review.json",
+    "source-evidence/song053-zhangmaodu-native/d-registry-collision-review.json",
+    "source-evidence/song053-zhangmaodu-native/name-collision-review.json",
+    "tests/fixtures/narrow_kinship_roles.json"
+  ],
+  "historical_values_not_current_aliases": true,
+  "composition_note": "relocation-provenance內protected_G_H_original_files的舊hash記錄先前整合時的歷史狀態，不凍結其後現役候選清單。此批實更新五份current帳本及一份正向測試fixture；舊文件完整bytes見before.json，未改歷史回指hash。",
+  "human_reviewed": false
+}

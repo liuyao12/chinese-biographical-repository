@@ -1,0 +1,1381 @@
+{
+  "record_type": "source_capture_relocation_provenance",
+  "schema_version": 1,
+  "status": "editorial_provisional",
+  "human_reviewed": false,
+  "image_verified": false,
+  "model": null,
+  "scope": "Only the listed exact SHA files and RFC6901 scalar/key locations; no directory exception and no old-to-current person mapping.",
+  "purpose": "immutable_historical_relocation_only_no_current_endpoint_authority",
+  "mapping_input_sha256": "48e3fe78cf78e4262ddf5974e180be46be0a2aa05c2f02e647e97db2b6497912",
+  "current_person_endpoint_authority": false,
+  "qualifications": [
+    {
+      "path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "original_sha256": "cdca01f0fe7fbc9329828876344920d0da5035c4bd00c5165eb76d5d97bb501a",
+      "relocated_sha256": "5fbdb71679e57b2d816b324a08263b5de3a9e43c3ffa530ec49c05be48443619"
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "original_sha256": "ff9df66573e9cd9df5db0d6b801d939384c843a8699e522b76236952933ea4b1",
+      "relocated_sha256": "f8645285ab0b8a6410d6cf9d7892967e3fe15b3bd43cb3b0586c7205bd285508"
+    }
+  ],
+  "relocations": [
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "qualification_original_sha256": "cdca01f0fe7fbc9329828876344920d0da5035c4bd00c5165eb76d5d97bb501a",
+      "capture_path_pointer": "/captures/0/path",
+      "captured_from_path": "source-evidence/huan-four-unit-reading/identity-worksheet.json",
+      "archive_path": "source-evidence/medieval-integration-archive/62e9116f974c75890e148acd0d71dd186a3e6e4601fe35de631931aafc2ac511.json",
+      "original_capture_sha256": "62e9116f974c75890e148acd0d71dd186a3e6e4601fe35de631931aafc2ac511",
+      "role": "relocation_only_not_new_capture_not_current_endpoint"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "qualification_original_sha256": "cdca01f0fe7fbc9329828876344920d0da5035c4bd00c5165eb76d5d97bb501a",
+      "capture_path_pointer": "/captures/1/path",
+      "captured_from_path": "source-evidence/jin059-jiong-yi-source/identity-review.json",
+      "archive_path": "source-evidence/medieval-integration-archive/4543696296429b974e32a8ab036098a371904c385427f98586ac65c5f5206ca5.json",
+      "original_capture_sha256": "4543696296429b974e32a8ab036098a371904c385427f98586ac65c5f5206ca5",
+      "role": "relocation_only_not_new_capture_not_current_endpoint"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "qualification_original_sha256": "cdca01f0fe7fbc9329828876344920d0da5035c4bd00c5165eb76d5d97bb501a",
+      "capture_path_pointer": "/captures/10/path",
+      "captured_from_path": "source-evidence/jin043-wangrong-source/identity-review.json",
+      "archive_path": "source-evidence/medieval-integration-archive/3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c.json",
+      "original_capture_sha256": "3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c",
+      "role": "relocation_only_not_new_capture_not_current_endpoint"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "qualification_original_sha256": "cdca01f0fe7fbc9329828876344920d0da5035c4bd00c5165eb76d5d97bb501a",
+      "capture_path_pointer": "/captures/15/path",
+      "captured_from_path": "source-evidence/jin035-pei-source-reading/identity-review.json",
+      "archive_path": "source-evidence/medieval-integration-archive/aaeeef90a10d1a75bae237982c9bb5c40fb777a31c84f874acf3a56a38ecc8f0.json",
+      "original_capture_sha256": "aaeeef90a10d1a75bae237982c9bb5c40fb777a31c84f874acf3a56a38ecc8f0",
+      "role": "relocation_only_not_new_capture_not_current_endpoint"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "qualification_original_sha256": "cdca01f0fe7fbc9329828876344920d0da5035c4bd00c5165eb76d5d97bb501a",
+      "capture_path_pointer": "/captures/7/path",
+      "captured_from_path": "source-evidence/jin043-wangyan-source/parallel-evidence.json",
+      "archive_path": "source-evidence/medieval-integration-archive/1c7fb65f81aa26db239f69cf092898aec1abb74541d2bf55eba9cd4c3eb8c1f6.json",
+      "original_capture_sha256": "1c7fb65f81aa26db239f69cf092898aec1abb74541d2bf55eba9cd4c3eb8c1f6",
+      "role": "relocation_only_not_new_capture_not_current_endpoint"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "qualification_original_sha256": "ff9df66573e9cd9df5db0d6b801d939384c843a8699e522b76236952933ea4b1",
+      "capture_path_pointer": "/records/1/path",
+      "captured_from_path": "source-evidence/jin043-wangrong-source/identity-review.json",
+      "archive_path": "source-evidence/medieval-integration-archive/3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c.json",
+      "original_capture_sha256": "3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c",
+      "role": "relocation_only_not_new_capture_not_current_endpoint"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "qualification_original_sha256": "ff9df66573e9cd9df5db0d6b801d939384c843a8699e522b76236952933ea4b1",
+      "capture_path_pointer": "/records/11/path",
+      "captured_from_path": "source-evidence/song053-zhangmaodu-native/d-registry-collision-review.json",
+      "archive_path": "source-evidence/medieval-integration-archive/3604795d97467287a9b979e94050f458ac0b6b87baaafbfd73357566922732d9.json",
+      "original_capture_sha256": "3604795d97467287a9b979e94050f458ac0b6b87baaafbfd73357566922732d9",
+      "role": "relocation_only_not_new_capture_not_current_endpoint"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "qualification_original_sha256": "ff9df66573e9cd9df5db0d6b801d939384c843a8699e522b76236952933ea4b1",
+      "capture_path_pointer": "/records/12/path",
+      "captured_from_path": "source-evidence/song053-zhangmaodu-native/name-collision-review.json",
+      "archive_path": "source-evidence/medieval-integration-archive/44df412fd7993a1ead9a9bf9282790a5b69535c7169d344746e46259aeecf8c0.json",
+      "original_capture_sha256": "44df412fd7993a1ead9a9bf9282790a5b69535c7169d344746e46259aeecf8c0",
+      "role": "relocation_only_not_new_capture_not_current_endpoint"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "qualification_original_sha256": "ff9df66573e9cd9df5db0d6b801d939384c843a8699e522b76236952933ea4b1",
+      "capture_path_pointer": "/records/2/path",
+      "captured_from_path": "source-evidence/liang030-peiziye-source-reading/current-registry-context-candidates.json",
+      "archive_path": "source-evidence/medieval-integration-archive/7e44cd0f1d095dae577accd6069f15dc71d2d8184d8f06f2d1255982c3a3b62a.json",
+      "original_capture_sha256": "7e44cd0f1d095dae577accd6069f15dc71d2d8184d8f06f2d1255982c3a3b62a",
+      "role": "relocation_only_not_new_capture_not_current_endpoint"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "qualification_original_sha256": "ff9df66573e9cd9df5db0d6b801d939384c843a8699e522b76236952933ea4b1",
+      "capture_path_pointer": "/records/4/path",
+      "captured_from_path": "source-evidence/nanshi020-xiehongwei-reading/review.json",
+      "archive_path": "source-evidence/medieval-integration-archive/8d6553e871968304acb30d64713d254e53beab44dc843fad884e7e34aa2fe025.json",
+      "original_capture_sha256": "8d6553e871968304acb30d64713d254e53beab44dc843fad884e7e34aa2fe025",
+      "role": "relocation_only_not_new_capture_not_current_endpoint"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "qualification_original_sha256": "ff9df66573e9cd9df5db0d6b801d939384c843a8699e522b76236952933ea4b1",
+      "capture_path_pointer": "/records/7/path",
+      "captured_from_path": "source-evidence/sgz015-wenhui/reading-review.json",
+      "archive_path": "source-evidence/medieval-integration-archive/4c7333eaed2e053c32184f97cac75da5a581d04b8bf6618e8a7189a4359787ac.json",
+      "original_capture_sha256": "4c7333eaed2e053c32184f97cac75da5a581d04b8bf6618e8a7189a4359787ac",
+      "role": "relocation_only_not_new_capture_not_current_endpoint"
+    }
+  ],
+  "archives": [
+    {
+      "archive_path": "source-evidence/medieval-integration-archive/1c7fb65f81aa26db239f69cf092898aec1abb74541d2bf55eba9cd4c3eb8c1f6.json",
+      "sha256": "1c7fb65f81aa26db239f69cf092898aec1abb74541d2bf55eba9cd4c3eb8c1f6",
+      "bytes": 4873707,
+      "captured_from_paths": [
+        "source-evidence/jin043-wangyan-source/parallel-evidence.json"
+      ],
+      "role": "immutable_historical_capture_only",
+      "current_person_endpoint_authority": false,
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/0/paragraph/mentions/1/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/1/paragraph/mentions/2/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/14/paragraph/mentions/0/candidate_person_ids/1",
+          "kind": "scalar_value",
+          "value": "eey_euc_j6a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/18/paragraph/mentions/3/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/46/paragraph/mentions/3/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    },
+    {
+      "archive_path": "source-evidence/medieval-integration-archive/3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c.json",
+      "sha256": "3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c",
+      "bytes": 168643,
+      "captured_from_paths": [
+        "source-evidence/jin043-wangrong-source/identity-review.json"
+      ],
+      "role": "immutable_historical_capture_only",
+      "current_person_endpoint_authority": false,
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/0/same_surface_candidates/87/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/2/same_surface_candidates/3/person_id",
+          "kind": "scalar_value",
+          "value": "789_h72_iju",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/6/same_surface_candidates/0/person_id",
+          "kind": "scalar_value",
+          "value": "lhc_hxk_fui",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/11/same_surface_candidates/29/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/11/same_surface_candidates/50/person_id",
+          "kind": "scalar_value",
+          "value": "22c_ebb_6e0",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/15/same_surface_candidates/9/person_id",
+          "kind": "scalar_value",
+          "value": "0ea_a78_okm",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/16/same_surface_candidates/7/person_id",
+          "kind": "scalar_value",
+          "value": "ab2_pxs_34r",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/18/same_surface_candidates/154/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/21/same_surface_candidates/21/person_id",
+          "kind": "scalar_value",
+          "value": "xqy_bvp_g1a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/21/same_surface_candidates/36/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/21/same_surface_candidates/52/person_id",
+          "kind": "scalar_value",
+          "value": "22c_ebb_6e0",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/26/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/31/same_surface_candidates/32/person_id",
+          "kind": "scalar_value",
+          "value": "hnu_8zd_5n9",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/47/same_surface_candidates/21/person_id",
+          "kind": "scalar_value",
+          "value": "ptn_sz3_vro_A",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    },
+    {
+      "archive_path": "source-evidence/medieval-integration-archive/3604795d97467287a9b979e94050f458ac0b6b87baaafbfd73357566922732d9.json",
+      "sha256": "3604795d97467287a9b979e94050f458ac0b6b87baaafbfd73357566922732d9",
+      "bytes": 37668,
+      "captured_from_paths": [
+        "source-evidence/song053-zhangmaodu-native/d-registry-collision-review.json"
+      ],
+      "role": "immutable_historical_capture_only",
+      "current_person_endpoint_authority": false,
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/rows/2/all_exact_surface_candidates/27/id",
+          "kind": "scalar_value",
+          "value": "hnu_8zd_5n9",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/rows/5/all_exact_surface_candidates/6/id",
+          "kind": "scalar_value",
+          "value": "c34_m74_tgb",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/rows/9/id",
+          "kind": "scalar_value",
+          "value": "22c_ebb_6e0",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/rows/9/all_exact_surface_candidates/19/id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/rows/9/all_exact_surface_candidates/34/id",
+          "kind": "scalar_value",
+          "value": "22c_ebb_6e0",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    },
+    {
+      "archive_path": "source-evidence/medieval-integration-archive/44df412fd7993a1ead9a9bf9282790a5b69535c7169d344746e46259aeecf8c0.json",
+      "sha256": "44df412fd7993a1ead9a9bf9282790a5b69535c7169d344746e46259aeecf8c0",
+      "bytes": 41149,
+      "captured_from_paths": [
+        "source-evidence/song053-zhangmaodu-native/name-collision-review.json"
+      ],
+      "role": "immutable_historical_capture_only",
+      "current_person_endpoint_authority": false,
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/entries/2/all_registry_surface_candidates/27/person_id",
+          "kind": "scalar_value",
+          "value": "hnu_8zd_5n9",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/entries/5/all_registry_surface_candidates/6/person_id",
+          "kind": "scalar_value",
+          "value": "c34_m74_tgb",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/entries/9/person_id",
+          "kind": "scalar_value",
+          "value": "22c_ebb_6e0",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/entries/9/all_registry_surface_candidates/19/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    },
+    {
+      "archive_path": "source-evidence/medieval-integration-archive/4543696296429b974e32a8ab036098a371904c385427f98586ac65c5f5206ca5.json",
+      "sha256": "4543696296429b974e32a8ab036098a371904c385427f98586ac65c5f5206ca5",
+      "bytes": 3394221,
+      "captured_from_paths": [
+        "source-evidence/jin059-jiong-yi-source/identity-review.json"
+      ],
+      "role": "immutable_historical_capture_only",
+      "current_person_endpoint_authority": false,
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/23/prior_complete_paragraph/paragraph/mentions/7/person_id",
+          "kind": "scalar_value",
+          "value": "ifc_pry_e72",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/23/prior_complete_paragraph/paragraph/mentions/8/person_id",
+          "kind": "scalar_value",
+          "value": "ifc_pry_e72",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/66/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/66/prior_complete_paragraph/paragraph/mentions/1/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    },
+    {
+      "archive_path": "source-evidence/medieval-integration-archive/4c7333eaed2e053c32184f97cac75da5a581d04b8bf6618e8a7189a4359787ac.json",
+      "sha256": "4c7333eaed2e053c32184f97cac75da5a581d04b8bf6618e8a7189a4359787ac",
+      "bytes": 146174,
+      "captured_from_paths": [
+        "source-evidence/sgz015-wenhui/reading-review.json"
+      ],
+      "role": "immutable_historical_capture_only",
+      "current_person_endpoint_authority": false,
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/reused_current_id_contexts/1/paragraph/mentions/0/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/reused_current_id_contexts/1/paragraph/mentions/48/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/reused_current_id_contexts/3/paragraph/mentions/0/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/reused_current_id_contexts/3/paragraph/mentions/48/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/reused_current_id_contexts/8/paragraph/mentions/7/person_id",
+          "kind": "scalar_value",
+          "value": "ifc_pry_e72",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/reused_current_id_contexts/8/paragraph/mentions/8/person_id",
+          "kind": "scalar_value",
+          "value": "ifc_pry_e72",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    },
+    {
+      "archive_path": "source-evidence/medieval-integration-archive/62e9116f974c75890e148acd0d71dd186a3e6e4601fe35de631931aafc2ac511.json",
+      "sha256": "62e9116f974c75890e148acd0d71dd186a3e6e4601fe35de631931aafc2ac511",
+      "bytes": 464178,
+      "captured_from_paths": [
+        "source-evidence/huan-four-unit-reading/identity-worksheet.json"
+      ],
+      "role": "immutable_historical_capture_only",
+      "current_person_endpoint_authority": false,
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/persons/2/name_lookup_candidates/1",
+          "kind": "scalar_value",
+          "value": "0xr_z2z_lne",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/persons/79/name_lookup_candidates/10",
+          "kind": "scalar_value",
+          "value": "0ea_a78_okm",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/persons/81/name_lookup_candidates/1",
+          "kind": "scalar_value",
+          "value": "fmk_you_bxl",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/persons/90/name_lookup_candidates/2",
+          "kind": "scalar_value",
+          "value": "8zh_d7n_e93",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/persons/206/name_lookup_candidates/4",
+          "kind": "scalar_value",
+          "value": "ywm_fb0_94l",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/persons/261/name_lookup_candidates/0",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/persons/261/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/persons/291/name_lookup_candidates/8",
+          "kind": "scalar_value",
+          "value": "ab2_pxs_34r",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/persons/364/name_lookup_candidates/1",
+          "kind": "scalar_value",
+          "value": "g95_wsg_ola",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    },
+    {
+      "archive_path": "source-evidence/medieval-integration-archive/7e44cd0f1d095dae577accd6069f15dc71d2d8184d8f06f2d1255982c3a3b62a.json",
+      "sha256": "7e44cd0f1d095dae577accd6069f15dc71d2d8184d8f06f2d1255982c3a3b62a",
+      "bytes": 1885226,
+      "captured_from_paths": [
+        "source-evidence/liang030-peiziye-source-reading/current-registry-context-candidates.json"
+      ],
+      "role": "immutable_historical_capture_only",
+      "current_person_endpoint_authority": false,
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/e-liang030-gaozu/hits/11/id",
+          "kind": "scalar_value",
+          "value": "c34_m74_tgb",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/e-liang030-gaozu/hits/22/id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/e-liang030-gaozu/hits/36/id",
+          "kind": "scalar_value",
+          "value": "22c_ebb_6e0",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    },
+    {
+      "archive_path": "source-evidence/medieval-integration-archive/8d6553e871968304acb30d64713d254e53beab44dc843fad884e7e34aa2fe025.json",
+      "sha256": "8d6553e871968304acb30d64713d254e53beab44dc843fad884e7e34aa2fe025",
+      "bytes": 92935,
+      "captured_from_paths": [
+        "source-evidence/nanshi020-xiehongwei-reading/review.json"
+      ],
+      "role": "immutable_historical_capture_only",
+      "current_person_endpoint_authority": false,
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/identity_rows/14/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/unresolved/3/mention/candidate_person_ids/1",
+          "kind": "scalar_value",
+          "value": "2nc_zh1_7ld",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    },
+    {
+      "archive_path": "source-evidence/medieval-integration-archive/aaeeef90a10d1a75bae237982c9bb5c40fb777a31c84f874acf3a56a38ecc8f0.json",
+      "sha256": "aaeeef90a10d1a75bae237982c9bb5c40fb777a31c84f874acf3a56a38ecc8f0",
+      "bytes": 615948,
+      "captured_from_paths": [
+        "source-evidence/jin035-pei-source-reading/identity-review.json"
+      ],
+      "role": "immutable_historical_capture_only",
+      "current_person_endpoint_authority": false,
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/2/preflight_candidates/8/person_id",
+          "kind": "scalar_value",
+          "value": "ab2_pxs_34r",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/3/preflight_candidates/17/person_id",
+          "kind": "scalar_value",
+          "value": "a8q_r4j_swi",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/4/preflight_candidates/10/person_id",
+          "kind": "scalar_value",
+          "value": "0ea_a78_okm",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/5/preflight_candidates/15/person_id",
+          "kind": "scalar_value",
+          "value": "y3l_45z_mfp",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/71/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/71/preflight_candidates/0/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    }
+  ],
+  "retained_noncollision_claims": [
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/2/path",
+      "original_path": "source-evidence/jin059-jiong-yi-source/identity-reading-notes.json",
+      "original_sha256": "b9fd94375b3f1d462c02729bec104131081a346c993f20e9bc63f5b5c26f7ee7"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/3/path",
+      "original_path": "source-evidence/jin059-jiong-yi-source/identity-records.json",
+      "original_sha256": "8f10d016f03786455c5b95eecfaa5799aab5330dfd1b9648aeb0045b3559485d"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/4/path",
+      "original_path": "source-evidence/jin059-jiong-yi-source/mention-review.json",
+      "original_sha256": "87f2ea65467f617c30e53a849cc76895dc9ba5cb15ab04e5dd7036cfdae2e527"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/5/path",
+      "original_path": "source-evidence/jin043-wangyan-source/unresolved-identities.json",
+      "original_sha256": "6495b3e9b4b30ed44f9640effc70381404033a836b17072840e4b40f9485b3fb"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/6/path",
+      "original_path": "source-evidence/jin043-wangyan-source/identity-review.json",
+      "original_sha256": "2bd1424c4dd7bde64a650c941ad6812c7a0b6166abf7a99542766848c8533757"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/8/path",
+      "original_path": "source-evidence/jin043-wangyan-source/identity-records.json",
+      "original_sha256": "9b68880b245a6967f33602e0a7bf579bf226dac3db1fcf0faec49128638c4237"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/9/path",
+      "original_path": "source-evidence/jin043-wangyan-source/mention-review.json",
+      "original_sha256": "633891dfb8ca7f0d79d45fa62afe4b2c39d2e214b605ed59e12c7c10812f7298"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/11/path",
+      "original_path": "source-evidence/jin043-wangrong-source/parallel-evidence.json",
+      "original_sha256": "03ef87707e8005413a6ddf3c6090c6d7317e628629535d64ed22aef09ff6c6b1"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/12/path",
+      "original_path": "source-evidence/jin043-wangrong-source/identity-records.json",
+      "original_sha256": "92f601d870a3d4b43b7d9f30ada34a08de47f3cd0464b9c6920c9b2968cb5316"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/13/path",
+      "original_path": "source-evidence/jin043-wangrong-source/mention-review.json",
+      "original_sha256": "b5aa4c5407a952c46c2768cf7c54527a465576477b03416230cf7d00cdb03d43"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/14/path",
+      "original_path": "source-evidence/jin035-pei-source-reading/native-source-fidelity.json",
+      "original_sha256": "3a977a33ee4c65d39da8af54e5ccbc968062c69933e8d1eaa819b622acdbf9c5"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/16/path",
+      "original_path": "source-evidence/jin035-pei-source-reading/read-parallel-contexts.json",
+      "original_sha256": "6e6c12f5af23d153d70f606f08029ab9b789fa69a75c2ccf963739ebe4a01d20"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/17/path",
+      "original_path": "source-evidence/jin035-pei-source-reading/entity-dispositions.json",
+      "original_sha256": "48b26ed6f15abf58e4a350a75515a8c623677fc020cb375e7153922a500296c3"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/18/path",
+      "original_path": "source-evidence/sanguozhi022-luyu-identity-qualification/review.json",
+      "original_sha256": "05cce0709d1247b7b6788134cc07eeb652b8c4f4424fd28e947152739c2b2e4d"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/19/path",
+      "original_path": "source-evidence/song051-wyd1739-zongshi/historical-before/fanyang-lu-family-assembly/current-review.json",
+      "original_sha256": "4f83edf6b923f9933ff0f4c4433bf713b01a1c6e065b8b5733185dd73d1d9931"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/20/path",
+      "original_path": "source-evidence/song051-wyd1739-zongshi/historical-before/xunyou-ancestor-assembly/current-review.json",
+      "original_sha256": "22b174c0774681c0ccc0b5ca574cf2be7cdc0565418a2814da11c1cf494869f7"
+    },
+    {
+      "qualification_path": "source-evidence/jin043-wangyan-family/historical-reference-qualification.json",
+      "capture_path_pointer": "/captures/21/path",
+      "original_path": "source-evidence/jin045-guoyi-source/primary/jin060-reading.json",
+      "original_sha256": "606a01f459e8881a3c7e703fdd4e7bd1cf60c532715ac0f0589afc9c5b411ddd"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/0/path",
+      "original_path": "source-evidence/song051-wyd1739-zongshi/historical-before/fanyang-lu-family-assembly/current-review.json",
+      "original_sha256": "4f83edf6b923f9933ff0f4c4433bf713b01a1c6e065b8b5733185dd73d1d9931"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/3/path",
+      "original_path": "source-evidence/liang030-peiziye-source-reading/existing-native-context-bridges.json",
+      "original_sha256": "9520c5bdbb3a2fdf927712b35fddff7b825cdaafd43c5f5b7f25c2f71560aca3"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/5/path",
+      "original_path": "source-evidence/nanshi033-pei-source-reading/review.json",
+      "original_sha256": "b50e0d47d996c223d03e653b18ccf6ff007e57f47c87d72337a058c9ee129b95"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/6/path",
+      "original_path": "source-evidence/sanguozhi022-luyu-identity-qualification/review.json",
+      "original_sha256": "05cce0709d1247b7b6788134cc07eeb652b8c4f4424fd28e947152739c2b2e4d"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/8/path",
+      "original_path": "source-evidence/song046-zhangshao-native/identity-review.json",
+      "original_sha256": "480bcd7709e9dce5e0ab1c46b40834635dd69fc6f7656e5c986100c70591823c"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/9/path",
+      "original_path": "source-evidence/song047-liuhuaisu-recovery/identity-decisions.json",
+      "original_sha256": "7c372a16d5c918354e73908e0b9e9b1e4cec8536a0c4507b2606f0ba2cc87d2c"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/10/path",
+      "original_path": "source-evidence/song047-liuhuaisu-recovery/initial-identity-decisions.json",
+      "original_sha256": "8afa3abe0d5496cf1532fc148717233ba5dc07a151c9d033306206427cec661a"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/13/path",
+      "original_path": "source-evidence/song059-zhangchang-recovery/identity-bridges.json",
+      "original_sha256": "80c49a47de5b4a11291e822f40b9147f447b0e6b87bfe81ff605ff852ff90492"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/14/path",
+      "original_path": "source-evidence/song064-peisongzhi-reading/entity-dispositions.json",
+      "original_sha256": "16dac3dabee010b7d8b9aa58c7ea50a4dcb18f1a197f6c802a08627bc92e5ba4"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/15/path",
+      "original_path": "source-evidence/song064-peisongzhi-reading/unconsumed-proposals.json",
+      "original_sha256": "4e451d29b7815b61e0d7e7dbf13e4ba3d8880e3e9a24f7373b061ed9d2d13d43"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/16/path",
+      "original_path": "source-evidence/song051-wyd1739-zongshi/historical-before/weishu038-wang44-consumption.json",
+      "original_sha256": "6b7d61006f83507adb47148333581036bc4467155700266d96231c247280fa33"
+    },
+    {
+      "qualification_path": "source-evidence/song051-wyd1739-zongshi/historical-reference-qualification.json",
+      "capture_path_pointer": "/records/17/path",
+      "original_path": "source-evidence/song051-wyd1739-zongshi/historical-before/xunyou-ancestor-assembly/current-review.json",
+      "original_sha256": "22b174c0774681c0ccc0b5ca574cf2be7cdc0565418a2814da11c1cf494869f7"
+    },
+    {
+      "qualification_path": "source-evidence/song045-wyd1739-liu-family/historical-reference-qualification.json",
+      "original_path": "source-evidence/liang030-peiziye-source-reading/existing-native-context-bridges.json",
+      "original_sha256": "9520c5bdbb3a2fdf927712b35fddff7b825cdaafd43c5f5b7f25c2f71560aca3"
+    },
+    {
+      "qualification_path": "source-evidence/song051-yizong-liuyu-rekey/historical-capture-qualification.json",
+      "original_path": "source-evidence/liang015-xiefei-facts/source-reading.json",
+      "original_sha256": "e47e2bffd8ae507436df673f39cff0134d376129f29555a8de322dd6cc35eff9"
+    },
+    {
+      "qualification_path": "source-evidence/song051-yizong-liuyu-rekey/historical-capture-qualification.json",
+      "original_path": "tests/fixtures/eldest-xie/aa6_83c_juy_DBABAB.json",
+      "original_sha256": "459586b3e429134f8f9916f58e8904400111c7ec808b281415a8c9e379468fc6"
+    }
+  ],
+  "restored_historical_before": [
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/historical-before/fanyang-lu-family-assembly/current-review.json",
+      "sha256": "4f83edf6b923f9933ff0f4c4433bf713b01a1c6e065b8b5733185dd73d1d9931",
+      "bytes": 1864604,
+      "role": "historical_before_current_projection_not_current_endpoint",
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/records/2/projection/persons/261/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/3/projection/0/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/3/projection/36/person_id",
+          "kind": "scalar_value",
+          "value": "35b_mo3_adg",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/4/projection/0/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/4/projection/36/person_id",
+          "kind": "scalar_value",
+          "value": "35b_mo3_adg",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/0/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/1/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/4/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/6/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/7/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/10/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/13/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/16/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/17/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/19/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/21/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/23/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/24/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/27/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/28/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/32/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/37/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/39/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/40/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/42/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/45/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/47/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/51/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/52/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/56/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/59/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/61/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/65/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/68/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/70/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/72/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/78/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/80/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/81/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/85/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/87/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/89/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/91/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/94/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/99/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/101/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/102/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/109/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/112/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/114/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/118/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/121/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/123/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/124/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/125/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/130/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/131/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/132/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/134/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/135/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/136/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/139/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/140/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/144/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/146/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/147/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/151/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/153/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/155/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/156/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/158/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/159/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/160/person_id",
+          "kind": "scalar_value",
+          "value": "35b_mo3_adg",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/161/person_id",
+          "kind": "scalar_value",
+          "value": "35b_mo3_adg",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/164/person_id",
+          "kind": "scalar_value",
+          "value": "35b_mo3_adg",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/8/projection/people/11/id",
+          "kind": "scalar_value",
+          "value": "22c_ebb_6e0",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/9/projection/rows/9/id",
+          "kind": "scalar_value",
+          "value": "22c_ebb_6e0",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/10/projection/entries/9/person_id",
+          "kind": "scalar_value",
+          "value": "22c_ebb_6e0",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/historical-before/weishu038-wang44-consumption.json",
+      "sha256": "6b7d61006f83507adb47148333581036bc4467155700266d96231c247280fa33",
+      "bytes": 1201344,
+      "role": "historical_before_current_projection_not_current_endpoint",
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/proposal_records/54/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/proposal_records/57/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/proposal_records/62/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/proposal_records/78/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/proposal_records/87/person_id",
+          "kind": "scalar_value",
+          "value": "3bh_k4m_fg4",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/historical-before/xunyou-ancestor-assembly/current-review.json",
+      "sha256": "22b174c0774681c0ccc0b5ca574cf2be7cdc0565418a2814da11c1cf494869f7",
+      "bytes": 5869515,
+      "role": "historical_before_current_projection_not_current_endpoint",
+      "all_347_old_identifier_locations": [
+        {
+          "pointer": "/records/2/projection/unresolved/25/candidate_person_ids/1",
+          "kind": "scalar_value",
+          "value": "v2z_2j9_d5o",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/3/projection/people/11/id",
+          "kind": "scalar_value",
+          "value": "22c_ebb_6e0",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        },
+        {
+          "pointer": "/records/5/projection/26/person_id",
+          "kind": "scalar_value",
+          "value": "b0c_13f_c3a",
+          "role": "immutable_historical_literal_not_current_endpoint"
+        }
+      ]
+    }
+  ],
+  "protected_G_H_original_files": [
+    {
+      "path": "source-evidence/huan-four-unit-reading/identity-worksheet.json",
+      "sha256": "93f5908ffbcf677c1d57075771c6ba5b2032980401e214ce67d842eb5ce6a80f",
+      "action": "preserve original G/H bytes, not overwritten by the X capture"
+    },
+    {
+      "path": "source-evidence/jin035-pei-source-reading/identity-review.json",
+      "sha256": "6ffa71c8b87f90aae7f118bf716335e40b8c7b2d92faa21323deb2cbe7008a9c",
+      "action": "preserve original G/H bytes, not overwritten by the X capture"
+    },
+    {
+      "path": "source-evidence/jin043-wangrong-source/identity-review.json",
+      "sha256": "3beb22cc6a6075e7a0a1da425f0f91612d94bfd07b98c1735884540ba11d75e2",
+      "action": "preserve original G/H bytes, not overwritten by the X capture"
+    },
+    {
+      "path": "source-evidence/jin043-wangyan-source/parallel-evidence.json",
+      "sha256": "6c014742a5e0b00bba031751a1e851bcae9dc3a6985953183ccb3fedc98f4fc7",
+      "action": "preserve original G/H bytes, not overwritten by the X capture"
+    },
+    {
+      "path": "source-evidence/jin059-jiong-yi-source/identity-review.json",
+      "sha256": "f7d5f6d6fa3830eec6a0b7830465693168ed25f710a965c1c543f31cceea4252",
+      "action": "preserve original G/H bytes, not overwritten by the X capture"
+    },
+    {
+      "path": "source-evidence/liang030-peiziye-source-reading/current-registry-context-candidates.json",
+      "sha256": "92b00ced75a71850af85ca40aec8f497f98b4afff2e3efccfb142b8870257470",
+      "action": "preserve original G/H bytes, not overwritten by the X capture"
+    },
+    {
+      "path": "source-evidence/nanshi020-xiehongwei-reading/review.json",
+      "sha256": "e761850e29b86cf3e7b3bf7a0d06f71a94e3f6020bdf71bd7c5c7464c94a5106",
+      "action": "preserve original G/H bytes, not overwritten by the X capture"
+    },
+    {
+      "path": "source-evidence/sgz015-wenhui/reading-review.json",
+      "sha256": "8ec337ff72cf305eb16be1e7a98f69a6fada04d5a02b2a4549ecd0656036eb34",
+      "action": "preserve original G/H bytes, not overwritten by the X capture"
+    },
+    {
+      "path": "source-evidence/song053-zhangmaodu-native/d-registry-collision-review.json",
+      "sha256": "103793249a8b40b745c6797fbc38d4ddfc50cc64c674b819d634117f931e5e09",
+      "action": "preserve original G/H bytes, not overwritten by the X capture"
+    },
+    {
+      "path": "source-evidence/song053-zhangmaodu-native/name-collision-review.json",
+      "sha256": "526c681ce2844890975415982aa29849c2deda9ea12327dbab3b42b6d2663def",
+      "action": "preserve original G/H bytes, not overwritten by the X capture"
+    }
+  ],
+  "runtime_qualification": "Existing runtime does not consume these wrappers. Plan-time source consistency checks only, no native oldID exemption, alias, redirect, new positive identity decision or retirement reader change."
+}

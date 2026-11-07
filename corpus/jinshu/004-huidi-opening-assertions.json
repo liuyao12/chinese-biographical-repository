@@ -1,0 +1,45 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-004-huidi-opening",
+  "assertions": [
+    {
+      "id": "a-jin004-zhong-father-yan",
+      "subject_person_id": "dkn_ge4_286_AAAAIAA",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAIA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "武帝第二子也",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "dkn_ge4_286_AAAAIA",
+          "scope": "sons_of_parent",
+          "ordinal": 2,
+          "position": "unspecified",
+          "interpretation_status": "source_attested"
+        },
+        "source_clause_binding": {
+          "kind": "jin002_004_imperial_opening_roles",
+          "role": "zhong"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-004",
+          "source_id": "s-jinshu-004-huidi-opening",
+          "chapter_id": "c-jinshu-004-huidi-opening",
+          "paragraph_id": "c-jinshu-004-huidi-opening:p001",
+          "quote": "孝惠皇帝諱衷，字正度，武帝第二子也。泰始三年，立爲皇太子，時年九歲。",
+          "subject_person_mention_id": "c-jinshu-004-huidi-opening:p001:m0005",
+          "object_person_mention_id": "c-jinshu-004-huidi-opening:p001:m0011"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "來源報父子及sons序號，無生年/ID後綴或全子女人數推定。"
+    }
+  ]
+}

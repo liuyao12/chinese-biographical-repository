@@ -1,0 +1,77 @@
+{
+  "type": "ai_transcription_glyph_correction",
+  "id": "corr-jin040-pdf92-r3-qi",
+  "human_reviewed": false,
+  "image_verified": false,
+  "model": null,
+  "reviewer": "Codex（AI代理）",
+  "qualification": "AI轉錄誤字訂正；非原書異文、非全域字型或繁簡轉換；非全卷人工圖校。",
+  "source_id": "s-jinshu-040-wyd1739-jiachong",
+  "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+  "source_pdf_sha256": "6dd1eaf62e183b7137aae7075fbede4e81d098d56d92b718696aca61d36291ac",
+  "glyph_evidence_manifest_sha256": "5f0495290e78a64022184a3be570643def93197d782d71820a763d4f7c8db62a",
+  "before_raw_sha256": "4b1ca3bcdb60bc3edf861894d5947902f920ee074a97efe2a24e8fdf2ccb8c40",
+  "after_raw_sha256": "209d9b8a8a2f183a7ad3ed749da0273d85e177f9ff7feaf3ceea7edc3ffeabd0",
+  "before_text_sha256": "4e9da6f816672dd84bbc54f2eb9f64ec6eef4d398f1e0c4f00a4a863a377324b",
+  "after_text_sha256": "b1aa30850a1067c1e2134190559ebe890dfdad326e4f1226490186fa6bd6d97c",
+  "correction": {
+    "pdf_page": 92,
+    "side": "right",
+    "physical_column_from_right_1based": 3,
+    "physical_character_position_1based": 7,
+    "raw_line_1based": 209,
+    "raw_index_0based": 6,
+    "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p022",
+    "paragraph_index_0based": 48,
+    "before": "繫",
+    "after": "係",
+    "before_column": "之勳耳終當使繫嗣死於鐘虡之間大子斃於金酒之",
+    "after_column": "之勳耳終當使係嗣死於鐘虡之間大子斃於金酒之",
+    "visual_features": "清楚左亻右系；不是繫字上部車／殳複合形，也不是無人旁的系。",
+    "direct_crop_xywh_300dpi": [
+      14083,
+      6292,
+      771,
+      834
+    ],
+    "private_crop_sha256": "4b3c1de83a305854982504ce29ce0cad4f55fa5f9584a50273f647cee7a78261",
+    "image_published": false
+  },
+  "preserved_printed_readings": [
+    {
+      "pdf_page": 92,
+      "side": "right",
+      "column": 3,
+      "character_position_1based": 16,
+      "value": "子",
+      "source_phrase": "大子",
+      "private_crop_sha256": "e508c177fc2b2cd01514f3a4e9c62c940d7b2c567ad42e7fb1c214e2ffe1ff69"
+    },
+    {
+      "pdf_page": 92,
+      "side": "right",
+      "column": 4,
+      "character_position_1based": 3,
+      "value": "子",
+      "source_phrase": "小子"
+    }
+  ],
+  "prior_transcription_capture": {
+    "path": "source-evidence/jin040-wyd1739-jiachong/historical/transcription-columns-before-4b1ca3bc.txt",
+    "sha256": "4b1ca3bcdb60bc3edf861894d5947902f920ee074a97efe2a24e8fdf2ccb8c40",
+    "role": "immutable_superseded_AI_transcription_not_current_raw"
+  },
+  "prior_glyph_review_capture": {
+    "path": "source-evidence/jin040-wyd1739-jiachong/glyph-review-qualification.json",
+    "json_pointer": "/specific_glyph_reviews",
+    "canonical_value_sha256": "d2343e68523ff73fdc87dc214b09bbbecb556022a91868c3974a04c7c85640f3",
+    "qualification": "原AI閱讀記錄逐值保留；其中舊全欄accepted的繫字由本具名更正取代，不冒稱舊讀已寫係。"
+  },
+  "unchanged": {
+    "characters": 5016,
+    "paragraphs": 25,
+    "all_mentions_empty": true,
+    "source_positions": true,
+    "work_book_source_ids": true
+  }
+}

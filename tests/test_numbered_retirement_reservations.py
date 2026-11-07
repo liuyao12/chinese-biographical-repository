@@ -9,6 +9,8 @@ from unittest.mock import patch
 from scripts.person_ids import allocate_person_id
 from scripts.retired_person_ids import retired_person_ids
 
+ROOT = Path(__file__).resolve().parents[1]
+
 
 class NumberedRetirementReservations(unittest.TestCase):
     def fixture(self):
@@ -82,12 +84,13 @@ class NumberedRetirementReservations(unittest.TestCase):
         self.assertEqual(retired_person_ids(root), {'abc_def_123', 'old_def_456'})
 
     def test_every_real_receipt_is_discovered(self):
-        root = Path(__file__).resolve().parents[1]
+        root = ROOT
         expected = set()
         numbered = set()
         for path in (root / 'source-evidence').rglob('*.json'):
             data = json.loads(path.read_text())
-            if not isinstance(data, dict) or data.get('record_type') != 'editorial_annotation_rekey_receipt':
+            if not isinstance(data, dict) or data.get('record_type') not in (
+                    'editorial_annotation_rekey_receipt', 'source_non_person_retirement_receipt'):
                 continue
             ids = set(data.get('retired_person_ids', data.get('historical_rekey_mapping', {})))
             expected.update(ids)
@@ -97,3 +100,18 @@ class NumberedRetirementReservations(unittest.TestCase):
         self.assertEqual(retired_person_ids(root), expected)
         current = {p['id'] for p in json.loads((root / 'registry/persons.json').read_text())['persons']}
         self.assertFalse(current.intersection(expected))
+
+    def test_nonperson_receipt_cannot_spoof_an_unknown_owner(self):
+        root = self.fixture()
+        receipt = {
+            'record_type': 'source_non_person_retirement_receipt',
+            'non_person_review_id': 'nr-synthetic-not-a-real-source',
+            'review_path': 'source-evidence/synthetic/review.json',
+            'review_sha256': '0' * 64,
+            'retired_person_ids': ['old_def_456'],
+            'retirement_policy': 'audit_only_not_person_not_alias_not_reusable',
+            'person_aliases_created': False,
+        }
+        (root / 'source-evidence/synthetic/retirement-nonperson.json').write_text(json.dumps(receipt))
+        with self.assertRaisesRegex(ValueError, 'Unknown non-person reservation owner'):
+            retired_person_ids(root)

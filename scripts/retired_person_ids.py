@@ -8,7 +8,25 @@ except ImportError:
     from person_ids import valid_person_id, FAMILY
 
 
+def _zhaotayu_same_source_retirement(root,decision,ids):
+    try:from scripts.fixed_shiji124_zhaotayu_reference_name import same_source_retirement_valid
+    except ImportError:from fixed_shiji124_zhaotayu_reference_name import same_source_retirement_valid
+    return same_source_retirement_valid(root,decision,ids)
+
+
+try:
+    from .validation_context import memoized
+except ImportError:
+    from validation_context import memoized
+
+
+@memoized(0)
 def retired_person_ids(root):
+    try:
+        from .source_non_person_retirement import ensure_receipt_complete
+    except ImportError:
+        from source_non_person_retirement import ensure_receipt_complete
+    ensure_receipt_complete(root)
     result = set()
     evidence_root = Path(root) / 'source-evidence'
     receipts = set(evidence_root.glob('*/annotation-chain.json'))
@@ -19,6 +37,14 @@ def retired_person_ids(root):
         data = json.loads(path.read_text(encoding='utf-8'))
         if not isinstance(data, dict):
             raise ValueError('Malformed annotation receipt: ' + str(path))
+        if (data.get('record_type') == 'source_non_person_retirement_receipt'
+                or path.relative_to(Path(root)).as_posix() == 'source-evidence/shiji130-weiqing-nonperson/annotation-chain.json'):
+            try:
+                from .source_non_person_retirement import reservation_ids
+            except ImportError:
+                from source_non_person_retirement import reservation_ids
+            result.update(reservation_ids(root, path, data))
+            continue
         if data.get('record_type') != 'editorial_annotation_rekey_receipt':
             continue
         if data.get('person_aliases_created') is not False:
@@ -67,7 +93,10 @@ def retired_person_ids(root):
                     or decisions[0]['person_id'] in ids
                     or decisions[0]['person_id'] not in current_people
                     or current_people.intersection(ids)
-                    or decisions[0].get('scope') != 'cross_chapter'
+                    or not (decisions[0].get('scope') == 'cross_chapter'
+                            or (decisions[0].get('scope') == 'same_chapter'
+                                and decisions[0].get('source_reference_name_parse',{}).get('kind') == 'fixed_shiji124_suoyin_reference_name_parse'
+                                and _zhaotayu_same_source_retirement(root,decisions[0],ids)))
                     or decisions[0].get('status') not in ('contextual_provisional', 'source_explicit')
                     or not decisions[0].get('evidence') or not decisions[0].get('rationale')):
                 raise ValueError('Identity retirement must bind one supported current identity decision: ' + str(path))

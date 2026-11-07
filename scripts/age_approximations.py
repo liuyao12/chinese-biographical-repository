@@ -2,14 +2,20 @@
 """Source-bound adjacent age numerals; never convert approximations to bounds."""
 DIGITS = '一二三四五六七八九'
 
-def age_approximation_errors(age, paragraph):
+def age_approximation_errors(age, paragraph, *, root=None, chapter=None):
+    if not isinstance(age, dict):
+        return ['報齡記錄須為物件']
+    if isinstance(age.get('subject_scope'), dict) and age['subject_scope'].get('kind')=='quoted_appearance_estimate':
+        try:from scripts.fixed_jin031_jia_typed import age_valid
+        except ImportError:from fixed_jin031_jia_typed import age_valid
+        return [] if age_valid(age,paragraph,root,chapter) else ['031引語外貌估齡須有完整本源、原數詞、說者、被述者與識別語境']
     if isinstance(age.get('subject_scope'), dict) and age['subject_scope'].get('kind') == 'immediate_child_age':
         try:
             from scripts.individual_adjacent_age import individual_adjacent_age_errors
         except ImportError:
             from individual_adjacent_age import individual_adjacent_age_errors
         return individual_adjacent_age_errors(age, paragraph)
-    if age.get('approximation', {}).get('kind') != 'approaching_age':
+    if not isinstance(age.get('approximation'), dict) or age['approximation'].get('kind') != 'approaching_age':
         return adjacent_age_errors(age, paragraph)
     number = age.get('source_number')
     # Current source form is a whole tens numeral, not a range or exact age.
@@ -22,7 +28,7 @@ def age_approximation_errors(age, paragraph):
             or age.get('counting') != 'unspecified_source_age' or age.get('status') != 'source_attested'):
         return ['年向報齡須保留趨近數字，不得補確歲、嚴格界限或生年']
     interpretation = age.get('approximation_interpretation', {})
-    if (interpretation.get('status') != 'editorial_provisional'
+    if (not isinstance(interpretation, dict) or interpretation.get('status') != 'editorial_provisional'
             or interpretation.get('human_reviewed') is not False
             or not interpretation.get('reviewer') or not interpretation.get('rationale')):
         return ['年向報齡缺少分存的編者判讀']
@@ -51,12 +57,16 @@ def age_approximation_errors(age, paragraph):
             return ['年垂報齡須保存完整原段及本人錨點']
         return []
     scope = age.get('speaker_scope', {})
+    if not isinstance(scope, dict):
+        return ['年向自報缺少奏表主語範圍']
     ms = {m['id']: m for m in paragraph.get('mentions', [])}
     speaker = ms.get(scope.get('speaker_person_mention_id'), {})
     anchor = scope.get('speech_start_anchor', {})
     text = paragraph['text']
+    if not isinstance(anchor, dict):
+        return ['年向自報缺少奏表起點錨點']
     start, end = anchor.get('start'), anchor.get('end')
-    if (scope.get('kind') != 'self_report_in_memorial'
+    if (not isinstance(anchor, dict) or scope.get('kind') != 'self_report_in_memorial'
             or speaker.get('person_id') != age.get('person_id') or speaker.get('surface') != '臣'
             or type(start) is not int or type(end) is not int or not 0 <= start < end <= len(text)
             or anchor.get('paragraph_id') != paragraph['id'] or anchor.get('surface') != '又表曰：「'

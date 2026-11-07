@@ -1,4 +1,5 @@
 """Synthetic edits exercise mechanics; they are not proposed historical corrections."""
+from tests.portable_fixture_copy import fixture_copy2
 import copy
 import importlib.util
 import json
@@ -66,7 +67,7 @@ class CorpusTests(unittest.TestCase):
             with self.assertRaises(ValueError): rw.inspect_xml(raw)
     def test_checksum_tampering(self):
         with tempfile.TemporaryDirectory() as d:
-            root=Path(d);shutil.copytree(ROOT/'data',root/'data')
+            root=Path(d);shutil.copytree(ROOT/'data',root/'data', copy_function=fixture_copy2)
             with (root/'data/texts/eccp.html').open('a') as f:f.write('x')
             with self.assertRaises(ValueError):rw.validate(root)
     def test_build_sqlite(self):
@@ -77,7 +78,7 @@ class CorpusTests(unittest.TestCase):
                 self.assertEqual(db.execute('PRAGMA foreign_key_check').fetchall(),[])
     def test_apply_is_explicit_and_keeps_upstream(self):
         with tempfile.TemporaryDirectory() as d:
-            root=Path(d);shutil.copytree(ROOT/'data',root/'data');p=root/'proposals.json';p.write_text(json.dumps([self.proposal()]))
+            root=Path(d);shutil.copytree(ROOT/'data',root/'data', copy_function=fixture_copy2);p=root/'proposals.json';p.write_text(json.dumps([self.proposal()]))
             old=(root/'data/upstream/eccp.html').read_bytes();result=rw.apply_proposals(p,'Unit test only',root)
             self.assertEqual(result['accepted'],1);self.assertEqual((root/'data/upstream/eccp.html').read_bytes(),old)
             self.assertTrue((root/'data/reviews.jsonl').exists());rw.validate(root)

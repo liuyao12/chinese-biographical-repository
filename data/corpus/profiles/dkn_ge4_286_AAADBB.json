@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "id": "dkn_ge4_286_AAADBB",
+  "canonical_person_id": "dkn_ge4_286_AAADBB",
+  "label": "司馬騰",
+  "identity_note": "本固定晉書037完整近系單元已明確具名；跨篇同指未定者來源內登記，不宣稱與同名者必異。",
+  "review": "ai_provisional",
+  "names": [
+    "騰"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 37,
+      "category": "",
+      "title": "宗室",
+      "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王，惟泰及下邳王晃以節制見稱。雖並不能振施，其餘莫得比焉。泰四子：越、騰、略、模。越自有傳。騰出後叔父，弟略立。",
+      "paragraph_ids": [
+        "c-jinshu-037-gaomi-nanyang-ws2630018:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0109",
+        "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0120"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0109": "c-jinshu-037-gaomi-nanyang-ws2630018:p003",
+        "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0120": "c-jinshu-037-gaomi-nanyang-ws2630018:p003"
+      },
+      "mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0109",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0109",
+          "mention_ids": [
+            "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0109"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0120",
+          "mention_ids": [
+            "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0120"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-037",
+      "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+      "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-037",
+      "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+      "source": {
+        "title": "《晉書》卷三十七宗室",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷037",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
+        "revision_id": 2630018,
+        "edition": null,
+        "review_status": "text_checked",
+        "image_verified": false,
+        "text_scope": "partial_chapter",
+        "extent": "泰三段、略整段、模三段、保三段、綏及虓完整敘事與兩疏；不重複權既有段。",
+        "raw_path": "source-evidence/jin090-caoshu/jin037-fixed.txt",
+        "raw_file_sha256": "557274fb21e7041782d93622e5fc32d67cf56ed38d6f5a3994e238b60b9638d6",
+        "raw_capture_kind": "reused_existing_fixed_capture",
+        "quality_note": "重用既存本機固定修訂文字；實際印本未知，不據網站題名冒稱武英殿或圖校。數位校記另層保存。",
+        "rights": "古代原文；維基文庫數位轉錄CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin037-near-003",
+      "subject_person_id": "dkn_ge4_286_AAADBB",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAADB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "泰四子：越、騰、略、模",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_jin037_near_family",
+          "contract_ref": "source-evidence/jin037-gaomi-nanyang/source-contract.json"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+          "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+          "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003",
+          "quote": "泰性廉靜，不近聲色。雖為宰輔，食大國之租，服飾肴膳如布衣寒士。任真簡率，每朝會，不識者不知其王公也。事視恭謹，居喪哀戚，謙虛下物，為宗室儀錶。當時諸王，惟泰及下邳王晃以節制見稱。雖並不能振施，其餘莫得比焉。泰四子：越、騰、略、模。越自有傳。騰出後叔父，弟略立。",
+          "subject_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0109",
+          "object_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0000"
+        }
+      ],
+      "interpretation_note": "本完整收到單元原詞與雙人物錨；不由列表補絕對排行或同母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin037-near-006",
+      "subject_person_id": "dkn_ge4_286_AAADBC",
+      "predicate": "brother",
+      "object_person_id": "dkn_ge4_286_AAADBB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "弟略立",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_jin037_near_family",
+          "contract_ref": "source-evidence/jin037-gaomi-nanyang/source-contract.json"
+        },
+        "relative_birth_order": {
+          "older_person_id": "dkn_ge4_286_AAADBB",
+          "younger_person_id": "dkn_ge4_286_AAADBC",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+          "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+          "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003",
+          "quote": "泰性廉靜，不近聲色。雖為宰輔，食大國之租，服飾肴膳如布衣寒士。任真簡率，每朝會，不識者不知其王公也。事視恭謹，居喪哀戚，謙虛下物，為宗室儀錶。當時諸王，惟泰及下邳王晃以節制見稱。雖並不能振施，其餘莫得比焉。泰四子：越、騰、略、模。越自有傳。騰出後叔父，弟略立。",
+          "subject_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0111",
+          "object_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0109"
+        }
+      ],
+      "interpretation_note": "本完整收到單元原詞與雙人物錨；不由列表補絕對排行或同母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "dkn_ge4_286_AAADB": "司馬泰",
+    "dkn_ge4_286_AAADBB": "司馬騰",
+    "dkn_ge4_286_AAADBC": "司馬略（090簡／037略）"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "name-jin037-near-teng",
+      "person_id": "dkn_ge4_286_AAADBB",
+      "surname": "司馬",
+      "ming": "騰",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+      "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003",
+      "person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0109",
+      "source_anchor": {
+        "start": 109,
+        "end": 110,
+        "surface": "騰"
+      },
+      "quote": "泰性廉靜，不近聲色。雖為宰輔，食大國之租，服飾肴膳如布衣寒士。任真簡率，每朝會，不識者不知其王公也。事視恭謹，居喪哀戚，謙虛下物，為宗室儀錶。當時諸王，惟泰及下邳王晃以節制見稱。雖並不能振施，其餘莫得比焉。泰四子：越、騰、略、模。越自有傳。騰出後叔父，弟略立。",
+      "note": "《晉書》宗室近系及本單元明名／父子、兄弟／君王角色支持編輯復姓司馬；原文未寫全姓者不冒作原文字串，非依ID拆姓。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_interpretation": {
+        "kind": "royal_house_near_family_context",
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "literal_surname_in_this_mention": false,
+        "scope": "本固定宗室近系單元，不由結構ID或一般同姓自動擴及他人"
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-037",
+      "source_id": "s-jinshu037-gaomi-nanyang-ws2630018"
+    }
+  ],
+  "unresolved_kinship_references": [
+    {
+      "id": "uk-jin037-teng-unnamed-uncle",
+      "person_id": "dkn_ge4_286_AAADBB",
+      "reference_person_candidates": [],
+      "preferred_reference_person_id": null,
+      "adoptive_father_person_id": null,
+      "common_ancestor_person_id": null,
+      "source_term": "騰出後叔父",
+      "source_kin_term": "叔父",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003",
+        "start": 120,
+        "end": 125,
+        "surface": "騰出後叔父"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+          "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+          "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003",
+          "quote": "泰性廉靜，不近聲色。雖為宰輔，食大國之租，服飾肴膳如布衣寒士。任真簡率，每朝會，不識者不知其王公也。事視恭謹，居喪哀戚，謙虛下物，為宗室儀錶。當時諸王，惟泰及下邳王晃以節制見稱。雖並不能振施，其餘莫得比焉。泰四子：越、騰、略、模。越自有傳。騰出後叔父，弟略立。",
+          "person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0120"
+        }
+      ],
+      "status": "unresolved",
+      "source_occurrence_status": "source_attested",
+      "reference_identity_status": "not_named_by_this_source",
+      "adoption_status": "explicit_out_adoption",
+      "kinship_role": "unidentified_younger_paternal_uncle",
+      "rationale": "出後叔父明文，但未名叔父；不填權／綏，不替換明載生父泰，不另造一名父親。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "biological_father_person_id": "dkn_ge4_286_AAADB",
+      "biological_father_assertion_id": "a-jin037-near-002"
+    }
+  ],
+  "person_ids": [
+    "dkn_ge4_286_AAADBB"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin037-near-003",
+      "subject_person_id": "dkn_ge4_286_AAADBB",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAADB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "泰四子：越、騰、略、模",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_jin037_near_family",
+          "contract_ref": "source-evidence/jin037-gaomi-nanyang/source-contract.json"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+          "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+          "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003",
+          "quote": "泰性廉靜，不近聲色。雖為宰輔，食大國之租，服飾肴膳如布衣寒士。任真簡率，每朝會，不識者不知其王公也。事視恭謹，居喪哀戚，謙虛下物，為宗室儀錶。當時諸王，惟泰及下邳王晃以節制見稱。雖並不能振施，其餘莫得比焉。泰四子：越、騰、略、模。越自有傳。騰出後叔父，弟略立。",
+          "subject_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0109",
+          "object_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0000"
+        }
+      ],
+      "interpretation_note": "本完整收到單元原詞與雙人物錨；不由列表補絕對排行或同母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin037-near-006",
+      "subject_person_id": "dkn_ge4_286_AAADBC",
+      "predicate": "brother",
+      "object_person_id": "dkn_ge4_286_AAADBB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "弟略立",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_jin037_near_family",
+          "contract_ref": "source-evidence/jin037-gaomi-nanyang/source-contract.json"
+        },
+        "relative_birth_order": {
+          "older_person_id": "dkn_ge4_286_AAADBB",
+          "younger_person_id": "dkn_ge4_286_AAADBC",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+          "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+          "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003",
+          "quote": "泰性廉靜，不近聲色。雖為宰輔，食大國之租，服飾肴膳如布衣寒士。任真簡率，每朝會，不識者不知其王公也。事視恭謹，居喪哀戚，謙虛下物，為宗室儀錶。當時諸王，惟泰及下邳王晃以節制見稱。雖並不能振施，其餘莫得比焉。泰四子：越、騰、略、模。越自有傳。騰出後叔父，弟略立。",
+          "subject_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0111",
+          "object_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p003:m0109"
+        }
+      ],
+      "interpretation_note": "本完整收到單元原詞與雙人物錨；不由列表補絕對排行或同母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "dkn_ge4_286_AAADBB",
+    "representative_source_person_id": "dkn_ge4_286_AAADBB",
+    "source_person_ids": [
+      "dkn_ge4_286_AAADBB"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "dkn_ge4_286_AAADB",
+    "source_assertion_id": "a-jin037-near-003",
+    "assembly_id": "family-sima-jun-near-ancestry",
+    "root_person_id": "dkn_ge4_286",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

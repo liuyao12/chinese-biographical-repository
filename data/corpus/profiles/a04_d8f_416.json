@@ -6,7 +6,8 @@
   "identity_note": "按本批完整傳文單元辨識；不由同姓合併，不補未見父母、生母、生卒。",
   "review": "ai_provisional",
   "names": [
-    "王允之"
+    "王允之",
+    "連率"
   ],
   "titles": [
     {
@@ -97,6 +98,41 @@
     {
       "number": 73,
       "category": "",
+      "title": "庾亮",
+      "paragraph_id": "c-jinshu-073-yu-lunzan-rendered:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "哉！幸漏吞舟，免淪昭憲，是庾宗之大福，非晉政之不綱明矣。懌恣凶懷，鴆加連率，再世之後，三陽存僅，餘殃所及，蓋其宜也。",
+      "paragraph_ids": [
+        "c-jinshu-073-yu-lunzan-rendered:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-073-yu-lunzan-rendered:p001:m0297"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-073-yu-lunzan-rendered:p001:m0297": "c-jinshu-073-yu-lunzan-rendered:p001"
+      },
+      "mention_id": "c-jinshu-073-yu-lunzan-rendered:p001:m0297",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-073-yu-lunzan-rendered:p001:m0297",
+          "mention_ids": [
+            "c-jinshu-073-yu-lunzan-rendered:p001:m0297"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-073",
+      "chapter_id": "c-jinshu-073-yu-lunzan-rendered",
+      "source_id": "s-jinshu-073-yu-lunzan-ws2296501-rendered",
+      "work_title": "晉書"
+    },
+    {
+      "number": 73,
+      "category": "",
       "title": "《晉書》卷七十三〈庾懌及統〉〈庾冰及子希等〉〈庾條〉",
       "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line086",
       "count": 2,
@@ -141,6 +177,40 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-073-yu-lunzan-rendered",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-073",
+      "source_id": "s-jinshu-073-yu-lunzan-ws2296501-rendered",
+      "source": {
+        "title": "《晉書》卷七十三·庾亮",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷073",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷073&oldid=2296501",
+        "revision_id": 2296501,
+        "revision_qualification": "reported_by_current_rendered_page_footer; fixed_permalink_body_not_obtained",
+        "accessed_on": "2026-10-30",
+        "extent": "卷末史臣曰及贊曰兩完整原段；不含後出校勘記、不重建已收庾亮與諸弟本傳。",
+        "text_scope": "partial_chapter",
+        "source_role": "comparison_transcription",
+        "edition": "數位轉錄，實際印本未知；未核底本影像。",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "human_reviewed": false,
+        "raw_wikitext_obtained": false,
+        "fixed_permalink_body_read": false,
+        "rights": "古代原文公有領域；維基文庫數位轉錄保留CC BY-SA4.0來源歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "removed_only": [
+            "段首顯示縮排",
+            "一個現代註腳callout"
+          ],
+          "mapping_path": "source-evidence/jin073-yu-lunzan-rendered/selected-source-capsule.json"
+        }
+      }
+    },
     {
       "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
       "work_id": "w-jinshu",

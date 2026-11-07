@@ -1,6 +1,8 @@
 """Finite received role syntax with separately bound elided subjects across annotations."""
 import hashlib,re
 FRAMES={
+ 'named_subject_office_report':('<subject>為{office}',[('office','subject','attestation','source_report',None)]),
+ 'named_heir_attained_office':('<subject>嗣官至{office}',[('office','subject','attestation','reported_attainment',None)]),
  'summoned_then_governor':('{era_phase}徴為{office1}乃始起焉{year}九江蠻反四府選<subject>才兼文武拜{office2}蠻寇賔服{departure}作尚書章句三禮解詁',[('office1','subject','grant','summoned_appointment','era_phase'),('office2','subject','grant','appointment','year')]),
  'governor_after_rebellion':('會南夷反叛以<subject>嘗在九江有恩信拜為{office}<subject_repeat>深達政宜務存清靜𢎞大體而已',[('office','subject','grant','appointment',None)]),
  'court_after_governorship':('嵗餘復徴拜{office1}與{office2}<colleague1>{office3}<colleague2><colleague3><colleague4>等並在東觀校中書五經記傳補續漢記<ruler>以非急務轉為{office4}遷{office5}',[('office1','subject','grant','reappointment',None),('office2','colleague1','attestation','source_report',None),('office3','colleague2','attestation','source_report',None),('office3','colleague3','attestation','source_report',None),('office3','colleague4','attestation','source_report',None),('office4','subject','transfer','transfer',None),('office5','subject','transfer','promotion',None)]),
@@ -16,7 +18,7 @@ FRAMES={
 # Finite nominal office vocabulary: a bare adjacency frame does not itself
 # establish that arbitrary preceding prose is an office. This is deliberately
 # incomplete; unrecognised titles need a separate reviewed role contract.
-OFFICE_NOUNS=frozenset(('博士','太守','議郎','大夫','侍中','尚書','中郎將','將軍','黄門','黃門','州牧','中郎','軍師'))
+OFFICE_NOUNS=frozenset(('博士','內史','太守','議郎','大夫','侍中','尚書','中郎將','將軍','黄門','黃門','州牧','中郎','軍師'))
 def office_noun(surface):
  if not isinstance(surface,str) or not 2<=len(surface)<=12:return False
  if any(c in surface for c in '少與俱事曰云詔非未不欲請薨卒故字為拜遷轉至'):return False
@@ -162,7 +164,7 @@ def address_valid(a,ch):
  try:
   b=a['source_address_binding'];e,=a['evidence'];p=next(p for p in ch['paragraphs']if p['id']==e['paragraph_id']);t=p['text'];ms={m['id']:m for m in p['mentions']};rs={k:ms[v]for k,v in b['roles'].items()};scope=b['scope_anchor'];place=b['place_anchor'];subject=rs[b['subject_role']]
   assert b['kind']=='layered_biography_address'and b['source_revision']==ch['source']['revision_id']and b['paragraph_sha256']==hashlib.sha256(t.encode()).hexdigest()and exact(p,scope)and exact(p,place)and place['surface']==a['place']['source_name']and a['person_id']==subject['person_id']and e['person_mention_id']==subject['id']and e['quote']==t and e['chapter_id']==ch['id']and e['source_id']==ch['source_id']
-  assert all(m['kind']=='person'and t[m['start']:m['end']]==m['surface']for m in rs.values())
+  assert all((m['kind']=='person'or(b['rule']=='same_subject_seclusion'and role=='subject_pronoun'and m['kind']=='pronoun'and m['surface']=='之'))and t[m['start']:m['end']]==m['surface']for role,m in rs.items())
   rule=b['rule']
   if rule=='biography_origin':
    s=rs['subject'];style=rs['style'];return a['relation']=='biographical_origin'and s['start']==scope['start']==0 and style['person_id']==s['person_id']and t[s['end']:style['start']]=='字'and style['end']==place['start']and scope['surface']==s['surface']+'字'+style['surface']+place['surface']+'人也'and a['source_term']==place['surface']+'人也'

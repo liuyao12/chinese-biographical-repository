@@ -12,6 +12,7 @@
     "淮陽王",
     "魯王",
     "王",
+    "魯恭王",
     "恭王"
   ],
   "titles": [
@@ -341,6 +342,41 @@
       "chapter_id": "c-shiji-011-jingdi",
       "source_id": "s-shiji-011-jingdi",
       "work_title": "史記"
+    },
+    {
+      "number": 36,
+      "category": "",
+      "title": "衛瓘傳",
+      "paragraph_id": "c-jinshu-036-wei-comparison:p014",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "也。自黃帝至三代，其文不改。及秦用篆書，焚燒先典，而古文絕矣。漢武時，魯恭王壞孔子宅，得《尚書》、《春秋》、《論語》、《孝經》。時人以不復知有古文，謂之科斗書。漢世秘藏，希得見之。魏初傳古文者，出於邯鄲淳。恆祖敬侯寫淳《尚書》，後以示淳，而淳不別。至正始中，立三字石經，轉失淳",
+      "paragraph_ids": [
+        "c-jinshu-036-wei-comparison:p014"
+      ],
+      "mention_ids": [
+        "c-jinshu-036-wei-comparison:p014:m0238"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-036-wei-comparison:p014:m0238": "c-jinshu-036-wei-comparison:p014"
+      },
+      "mention_id": "c-jinshu-036-wei-comparison:p014:m0238",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p014:m0238",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p014:m0238"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-036",
+      "chapter_id": "c-jinshu-036-wei-comparison",
+      "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+      "work_title": "晉書"
     },
     {
       "number": 59,
@@ -677,6 +713,43 @@
     }
   ],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-036-wei-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-036",
+      "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+      "source": {
+        "title": "《晉書》卷三十六〈衛瓘傳〉",
+        "provider": "Wikisource fixed-revision rendered capture",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷036&oldid=2108231",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷036&oldid=2108231",
+        "revision_id": 2108231,
+        "accessed_on": "2026-10-28",
+        "extent": "衛瓘至張華前的完整衛氏相關單元，含恆、璪、玠、展及四體書勢全文。25個數位blocks7145字中4題頭13字另存結構，21正文段7129字；數位[1]與現代註另層，不是全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "edition": null,
+        "edition_qualification": "印本底本未核，固定數位比較見證；非武英殿、非首選讀本、未圖校。未確認是否出於四庫，不採作首選base。",
+        "image_verified": false,
+        "human_reviewed": false,
+        "preferred_text_base": false,
+        "capture_ref": "source-evidence/jin036-wei-comparison/rendered-extract.txt",
+        "capture_sha256": "6db27cbd14cb251ba7ab4e58e9064b02d808cd893b02c044e359c7ccedd73659",
+        "capture_kind": "fixed_revision_HTML_rendered_text_extract",
+        "original_wikitext_obtained": false,
+        "source_response_sha256": "6dc95bd5962acbb6d2e8d3854ee215d7693d07f11b5224e5bcaa53af7d531dfb",
+        "source_response_revision_ids": [
+          2108231
+        ],
+        "original_HTML_private_only": true,
+        "rights": "古代原文與維基文庫數位轉錄；原數位修訂與授權歸屬保留。私有HTML不入庫。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除數位h2/h3題頭及[1]現代footnote標記；正文/內嵌四體書勢的異體、標點、空白與換行照留；HTML字元實體按已封rendered文字呈現。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-011-jingdi",
       "work_id": "w-shiji",

@@ -1,0 +1,39 @@
+{
+  "record_type": "exact_historical_subtree_qualification",
+  "path": "source-evidence/sanguozhi022-ner-review/review.json",
+  "protected_values": [
+    {
+      "pointer": "/dispositions/398/before",
+      "value": {
+        "id": "c-sanguozhi-022-chenqun-chentai:p012:m0086",
+        "start": 86,
+        "end": 88,
+        "surface": "賈充",
+        "kind": "person",
+        "person_id": "c27_590_7e3",
+        "status": "contextual_provisional"
+      },
+      "sha256": "6c3e3e310d2dc75987dabd008b6b4a1c9f9607167a6ac44d5db6c9f02c53a707",
+      "owner_record_id": "review-sanguozhi022-ner",
+      "mention_id": "c-sanguozhi-022-chenqun-chentai:p012:m0086"
+    },
+    {
+      "pointer": "/dispositions/417/before",
+      "value": {
+        "id": "c-sanguozhi-022-chenqun-chentai:p013:m0063",
+        "start": 63,
+        "end": 65,
+        "surface": "賈充",
+        "kind": "person",
+        "person_id": "c27_590_7e3",
+        "status": "contextual_provisional"
+      },
+      "sha256": "a87cf1c3502506382779532367f8b3164757dc4df842cd4b76573d3479229a4d",
+      "owner_record_id": "review-sanguozhi022-ner",
+      "mention_id": "c-sanguozhi-022-chenqun-chentai:p013:m0063"
+    }
+  ],
+  "qualification": "Only these two actual pre-NER before objects are historical; after fields/current decisions remain active. Not an extension of Tan-specific qualification.",
+  "human_reviewed": false,
+  "model": null
+}

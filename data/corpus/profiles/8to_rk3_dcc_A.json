@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "id": "8to_rk3_dcc_A",
+  "canonical_person_id": "8to_rk3_dcc_A",
+  "label": "王氏（謝朓妻）",
+  "identity_note": "本批完整來源內已具名或明確個別人物；跨篇身份按已讀語境審定，未經人工覆核。父系編者組裝及不同來源異說另存，不以ID字母推排行。",
+  "review": "ai_provisional",
+  "names": [
+    "女"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 47,
+      "category": "",
+      "title": "謝朓",
+      "paragraph_id": "c-nanqishu-047-xietiao-rendered:p008",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "朓初告王敬則，敬則女爲朓妻，常懷刀欲報朓，朓不敢相見。及爲吏部郎，沈昭略謂朓曰：「卿人地之美，無忝此職。但恨今日刑于寡妻。」朓臨敗歎曰：「我不殺王公，王公由我而死。」",
+      "paragraph_ids": [
+        "c-nanqishu-047-xietiao-rendered:p008"
+      ],
+      "mention_ids": [
+        "c-nanqishu-047-xietiao-rendered:p008:m-daughter"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-047-xietiao-rendered:p008:m-daughter": "c-nanqishu-047-xietiao-rendered:p008"
+      },
+      "mention_id": "c-nanqishu-047-xietiao-rendered:p008:m-daughter",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-047-xietiao-rendered:p008:m-daughter",
+          "mention_ids": [
+            "c-nanqishu-047-xietiao-rendered:p008:m-daughter"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "chapter_id": "c-nanqishu-047-xietiao-rendered",
+      "source_id": "s-nanqishu-047-current-rendered-xietiao",
+      "work_title": "南齊書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanqishu-047-xietiao-rendered",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "source_id": "s-nanqishu-047-current-rendered-xietiao",
+      "source": {
+        "title": "《南齊書》卷四十七〈謝朓傳〉",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/南齊書/卷47",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1492435",
+        "revision_id": 1492435,
+        "revision_timestamp": null,
+        "accessed_on": "2026-10-31",
+        "text_scope": "partial_chapter",
+        "extent": "謝朓完整八段；王融前傳不納；全卷共享史論/贊及現代案另存。",
+        "review_status": "text_checked",
+        "human_reviewed": false,
+        "image_verified": false,
+        "actual_print_edition": null,
+        "printed_base_edition": null,
+        "edition": "comparison_transcription；current rendered頁尾報1492435，fixed正文/raw未取得，不冒武英殿或四庫底。頁面自述以中華1972校本校，未查實際印本。",
+        "rights": "古代公有領域作品；數位轉錄保留Wikisource署名及CC BY-SA4.0連結。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去各工具文字區塊行首全形縮排；原字/疑字不校改；完整觀測map沿sealed來源包。"
+        },
+        "observation_kind": "current_rendered_observation",
+        "fixed_body_obtained": false,
+        "raw_capture_obtained": false
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-nanqi047-xietiao-wife-father",
+      "subject_person_id": "8to_rk3_dcc_A",
+      "predicate": "father",
+      "object_person_id": "8to_rk3_dcc",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "敬則女",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-current-rendered-xietiao",
+          "chapter_id": "c-nanqishu-047-xietiao-rendered",
+          "paragraph_id": "c-nanqishu-047-xietiao-rendered:p008",
+          "quote": "朓初告王敬則，敬則女爲朓妻，常懷刀欲報朓，朓不敢相見。及爲吏部郎，沈昭略謂朓曰：「卿人地之美，無忝此職。但恨今日刑于寡妻。」朓臨敗歎曰：「我不殺王公，王公由我而死。」",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao-rendered:p008:m-daughter",
+          "object_person_mention_id": "c-nanqishu-047-xietiao-rendered:p008:m0003"
+        }
+      ],
+      "interpretation_note": "依原句保存；未補母親、同母或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi047-xietiao-spouse",
+      "subject_person_id": "aa6_83c_juy_ABCBA",
+      "predicate": "spouse",
+      "object_person_id": "8to_rk3_dcc_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "敬則女爲朓妻"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-current-rendered-xietiao",
+          "chapter_id": "c-nanqishu-047-xietiao-rendered",
+          "paragraph_id": "c-nanqishu-047-xietiao-rendered:p008",
+          "quote": "朓初告王敬則，敬則女爲朓妻，常懷刀欲報朓，朓不敢相見。及爲吏部郎，沈昭略謂朓曰：「卿人地之美，無忝此職。但恨今日刑于寡妻。」朓臨敗歎曰：「我不殺王公，王公由我而死。」",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao-rendered:p008:m0004",
+          "object_person_mention_id": "c-nanqishu-047-xietiao-rendered:p008:m-daughter"
+        }
+      ],
+      "interpretation_note": "依原句保存；未補母親、同母或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "8to_rk3_dcc": "王敬則",
+    "8to_rk3_dcc_A": "王氏（謝朓妻）",
+    "aa6_83c_juy_ABCBA": "謝朓"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "8to_rk3_dcc_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-nanqi047-xietiao-wife-father",
+      "subject_person_id": "8to_rk3_dcc_A",
+      "predicate": "father",
+      "object_person_id": "8to_rk3_dcc",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "敬則女",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-current-rendered-xietiao",
+          "chapter_id": "c-nanqishu-047-xietiao-rendered",
+          "paragraph_id": "c-nanqishu-047-xietiao-rendered:p008",
+          "quote": "朓初告王敬則，敬則女爲朓妻，常懷刀欲報朓，朓不敢相見。及爲吏部郎，沈昭略謂朓曰：「卿人地之美，無忝此職。但恨今日刑于寡妻。」朓臨敗歎曰：「我不殺王公，王公由我而死。」",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao-rendered:p008:m-daughter",
+          "object_person_mention_id": "c-nanqishu-047-xietiao-rendered:p008:m0003"
+        }
+      ],
+      "interpretation_note": "依原句保存；未補母親、同母或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi047-xietiao-spouse",
+      "subject_person_id": "aa6_83c_juy_ABCBA",
+      "predicate": "spouse",
+      "object_person_id": "8to_rk3_dcc_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "敬則女爲朓妻"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-current-rendered-xietiao",
+          "chapter_id": "c-nanqishu-047-xietiao-rendered",
+          "paragraph_id": "c-nanqishu-047-xietiao-rendered:p008",
+          "quote": "朓初告王敬則，敬則女爲朓妻，常懷刀欲報朓，朓不敢相見。及爲吏部郎，沈昭略謂朓曰：「卿人地之美，無忝此職。但恨今日刑于寡妻。」朓臨敗歎曰：「我不殺王公，王公由我而死。」",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao-rendered:p008:m0004",
+          "object_person_mention_id": "c-nanqishu-047-xietiao-rendered:p008:m-daughter"
+        }
+      ],
+      "interpretation_note": "依原句保存；未補母親、同母或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "8to_rk3_dcc_A",
+    "representative_source_person_id": "8to_rk3_dcc_A",
+    "source_person_ids": [
+      "8to_rk3_dcc_A"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "8to_rk3_dcc",
+    "source_assertion_id": "a-nanqi047-xietiao-wife-father",
+    "assembly_id": "family-nanqi047-wangjingze-daughter",
+    "root_person_id": "8to_rk3_dcc",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

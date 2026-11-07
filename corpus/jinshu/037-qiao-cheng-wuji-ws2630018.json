@@ -1,0 +1,859 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+  "work_id": "w-jinshu",
+  "book_id": "b-jinshu-037",
+  "source_id": "s-jinshu037-qiao-cheng-wuji-ws2630018",
+  "title": "晉書·卷三十七",
+  "source": {
+    "title": "晉書·卷三十七",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷037&oldid=2630018",
+    "revision_id": 2630018,
+    "edition": "既存固定數位文字；實際印本未知",
+    "extent": "5完整選段：譙遜近系開篇、承傳首及末、無忌完整本人2段；承傳中間省略另存reference，不冒全傳或全卷。",
+    "text_scope": "partial_chapter",
+    "image_verified": false,
+    "review_status": "text_checked",
+    "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷037&oldid=2630018",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "human_reviewed": false,
+    "reviewer": "Codex（AI 代理）",
+    "fixed_jin037_qiao_ref": "source-evidence/jin037-qiao-cheng-wuji/source-contract.json",
+    "coverage": "5完整選段具名角色辨識；未逐一指派泛稱王/其/今王及所有省略主語，不宣稱全卷NER完成。",
+    "limitations": [
+      "無書影，實際轉錄印本未知；ref校記分層，原raw完整保存。",
+      "承制、承敦旨、隨桓溫之承/隨為動詞，非姓名。",
+      "近系進→遜→隨/承→邃/無忌→恬/愔依本選段明父子已完整結構化並實體同根；帝高陽/遠祖譜不納。"
+    ],
+    "modern_collation_reports": [
+      {
+        "source_selection_role": "qiao_surname_context",
+        "raw_ref": "承見卷六校記，下同。"
+      }
+    ],
+    "age_assertions": [
+      {
+        "id": "age-jin037-qiao-cheng-59",
+        "person_id": "dkn_ge4_286_AAAFAB",
+        "value": 59,
+        "source_number": "五十九",
+        "source_term": "時年五十九",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-037",
+            "chapter_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+            "source_id": "s-jinshu037-qiao-cheng-wuji-ws2630018",
+            "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003",
+            "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0073",
+            "quote": "卓軍次䐗口，聞王師敗績，停師不進，乂等攻戰日逼，敦又送所得台中人書疏，令乂射以示承。城內知朝廷不守，莫不悵惋。劉翼戰死，相持百餘日，城遂沒。乂檻送承荊州，刺史王暠承敦旨於道中害之，時年五十九。敦平，詔贈車騎將軍。子無忌立。"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-jin037-qiao-cheng-death"
+        },
+        "human_reviewed": false,
+        "model": null,
+        "reviewer": "Codex（AI 代理）"
+      }
+    ],
+    "reported_child_groups": [
+      {
+        "parent_person_id": "dkn_ge4_286_AAAFABA",
+        "parent_person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0000",
+        "parent_paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004",
+        "child_person_ids": [
+          "dkn_ge4_286_AAAFABAA",
+          "dkn_ge4_286_AAAFABAB"
+        ],
+        "source_term": "二子：恬、愔",
+        "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p005",
+        "reported_total": 2,
+        "reported_ordinal": null,
+        "younger_son": {
+          "person_id": "dkn_ge4_286_AAAFABAB",
+          "source_term": "少子愔",
+          "absolute_ordinal": null,
+          "position": "youngest",
+          "ordinal": null
+        },
+        "status": "source_attested",
+        "human_reviewed": false,
+        "father_assertion_ids": [
+          "a-jin037-qiao-father-tian",
+          "a-jin037-qiao-father-yin"
+        ]
+      }
+    ],
+    "reported_variants": [
+      {
+        "id": "rv-jin037-qiao-wangyi-p003",
+        "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003",
+        "person_ids": [
+          "7r6_k52_qji_ABDA"
+        ],
+        "source_term": "王暠",
+        "received_reading": "王暠",
+        "reported_reading": "王廙",
+        "commentator": "太平御覽引晉書之平行數位見證（AI參校）",
+        "quote": "又曰：烈王無忌，閔王承之子也。承爲荊州刺史王廙所害。江州刺史褚裒當之鎮，無忌譏Δ陽尹桓莖θ餞于版橋。時王廙子丹陽丞耆之在坐，無忌志欲復仇，拔刀將手刃之，裒、景命左右救捍，獲免。御史中丞車灌奏無忌欲專煞人，付廷尉科罪。成帝詔曰：「王當以體國爲大，豈可尋繹由來，以亂朝憲？主者其申明法令，自今己往，有犯必誅。」于是聽以贖論。",
+        "url": "https://zh.wikisource.org/wiki/太平御覽/0651",
+        "status": "reported_not_collated",
+        "adopted": false,
+        "image_verified": false,
+        "comparison_reference": {
+          "path": "source-evidence/jin037-qiao-cheng-wuji/taipingyulan651-comparison.json",
+          "sha256": "aec78d34220075c2ccf54618287377508ef6dbcde54149e226f899ce8148d63f",
+          "rendered_tool_line": 189,
+          "source_layer": "太平御覽引晉書",
+          "fixed_revision_reported": 2606289,
+          "fixed_body_obtained": false,
+          "actual_print_edition": null,
+          "image_verified": false,
+          "human_reviewed": false,
+          "quote_extent": "entire rendered L189 paragraph; digital corruption Δ/θ unchanged"
+        }
+      },
+      {
+        "id": "rv-jin037-qiao-wangyi-p004",
+        "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004",
+        "person_ids": [
+          "7r6_k52_qji_ABDA"
+        ],
+        "source_term": "王暠",
+        "received_reading": "王暠",
+        "reported_reading": "王廙",
+        "commentator": "太平御覽引晉書之平行數位見證（AI參校）",
+        "quote": "又曰：烈王無忌，閔王承之子也。承爲荊州刺史王廙所害。江州刺史褚裒當之鎮，無忌譏Δ陽尹桓莖θ餞于版橋。時王廙子丹陽丞耆之在坐，無忌志欲復仇，拔刀將手刃之，裒、景命左右救捍，獲免。御史中丞車灌奏無忌欲專煞人，付廷尉科罪。成帝詔曰：「王當以體國爲大，豈可尋繹由來，以亂朝憲？主者其申明法令，自今己往，有犯必誅。」于是聽以贖論。",
+        "url": "https://zh.wikisource.org/wiki/太平御覽/0651",
+        "status": "reported_not_collated",
+        "adopted": false,
+        "image_verified": false,
+        "comparison_reference": {
+          "path": "source-evidence/jin037-qiao-cheng-wuji/taipingyulan651-comparison.json",
+          "sha256": "aec78d34220075c2ccf54618287377508ef6dbcde54149e226f899ce8148d63f",
+          "rendered_tool_line": 189,
+          "source_layer": "太平御覽引晉書",
+          "fixed_revision_reported": 2606289,
+          "fixed_body_obtained": false,
+          "actual_print_edition": null,
+          "image_verified": false,
+          "human_reviewed": false,
+          "quote_extent": "entire rendered L189 paragraph; digital corruption Δ/θ unchanged"
+        }
+      }
+    ],
+    "title_proposals": [
+      {
+        "id": "tp-jin037-qiao-cheng-longxiang-unassumed",
+        "person_id": "dkn_ge4_286_AAAFAB",
+        "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0000",
+        "title": "龍驤將軍",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "status": "contextual_provisional",
+        "non_assumption_kind": "did_not_take_up",
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002",
+          "start": 101,
+          "end": 103,
+          "surface": "徵為"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002",
+          "start": 108,
+          "end": 110,
+          "surface": "不行"
+        },
+        "source_appointment_context": {
+          "kind": "fixed_jin037_qiao_received_offices",
+          "role": "cheng",
+          "record_key": "cheng-longxiang-unassumed",
+          "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0000"
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-037",
+            "source_id": "s-jinshu037-qiao-cheng-wuji-ws2630018",
+            "chapter_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+            "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002",
+            "quote": "閔王承字敬才，少篤厚有志行。拜奉車都尉、奉朝請，稍遷廣威將軍、安夷護軍，鎮安定。從惠帝還洛陽，拜遊擊將軍。永嘉中，天下漸亂，間行依征南將軍山簡，會簡卒，進至武昌。元帝初鎮揚州，承歸建康，補軍諮祭酒。湣帝徵為龍驤將軍，不行。元帝為晉王，承制更封承為譙王。太興初，拜屯騎校尉，加輔國將軍，領左軍將軍。",
+            "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0000"
+          }
+        ],
+        "interpretation_note": "湣帝徵為龍驤將軍，不行；只記徵任未行，不推主動拒絕、不列實任。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001",
+      "text": "譙剛王遜，字子悌，宣帝弟魏中郎進之子也。仕魏關內侯，改封城陽亭侯，參鎮東軍事，拜輕車將軍、羽林左監。五等建，徙封涇陽男。武帝受禪，封譙王，邑四千四百戶。泰始二年薨。二子：隨、承。定王隨立。薨，子邃立，沒于石勒，元帝以承嗣遜。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "source_position": {
+        "fixed_raw_character_start": 12557,
+        "fixed_raw_character_end": 12697,
+        "raw_selection_sha256": "e5fcb2e01975fb2526ff370d700db3abaa2462f13b197147984ff2f7dfc145e9"
+      },
+      "mentions": [
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0000",
+          "start": 0,
+          "end": 4,
+          "surface": "譙剛王遜",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFA",
+          "status": "contextual_provisional",
+          "source_identity_role": "xun",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#xun"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0009",
+          "start": 9,
+          "end": 11,
+          "surface": "宣帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAA",
+          "status": "contextual_provisional",
+          "source_identity_role": "xuandi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#xuandi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0015",
+          "start": 15,
+          "end": 16,
+          "surface": "進",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAF",
+          "status": "contextual_provisional",
+          "source_identity_role": "jin",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#jin"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0060",
+          "start": 60,
+          "end": 62,
+          "surface": "武帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAIA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wudi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wudi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0085",
+          "start": 85,
+          "end": 86,
+          "surface": "隨",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAA",
+          "status": "contextual_provisional",
+          "source_identity_role": "sui",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#sui"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0087",
+          "start": 87,
+          "end": 88,
+          "surface": "承",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAB",
+          "status": "contextual_provisional",
+          "source_identity_role": "cheng",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#cheng"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0089",
+          "start": 89,
+          "end": 92,
+          "surface": "定王隨",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAA",
+          "status": "contextual_provisional",
+          "source_identity_role": "sui",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#sui"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0097",
+          "start": 97,
+          "end": 98,
+          "surface": "邃",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAAA",
+          "status": "contextual_provisional",
+          "source_identity_role": "sui2",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#sui2"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0102",
+          "start": 102,
+          "end": 104,
+          "surface": "石勒",
+          "kind": "person",
+          "person_id": "0c9_95a_18b",
+          "status": "contextual_provisional",
+          "source_identity_role": "shile",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#shile"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0105",
+          "start": 105,
+          "end": 107,
+          "surface": "元帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAAAA",
+          "status": "contextual_provisional",
+          "source_identity_role": "yuandi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#yuandi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0108",
+          "start": 108,
+          "end": 109,
+          "surface": "承",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAB",
+          "status": "contextual_provisional",
+          "source_identity_role": "cheng",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#cheng"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0110",
+          "start": 110,
+          "end": 111,
+          "surface": "遜",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFA",
+          "status": "contextual_provisional",
+          "source_identity_role": "xun",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#xun"
+        }
+      ]
+    },
+    {
+      "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002",
+      "text": "閔王承字敬才，少篤厚有志行。拜奉車都尉、奉朝請，稍遷廣威將軍、安夷護軍，鎮安定。從惠帝還洛陽，拜遊擊將軍。永嘉中，天下漸亂，間行依征南將軍山簡，會簡卒，進至武昌。元帝初鎮揚州，承歸建康，補軍諮祭酒。湣帝徵為龍驤將軍，不行。元帝為晉王，承制更封承為譙王。太興初，拜屯騎校尉，加輔國將軍，領左軍將軍。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "source_position": {
+        "fixed_raw_character_start": 12710,
+        "fixed_raw_character_end": 12864,
+        "raw_selection_sha256": "8c267cbc048a6c8066aa811935d0a2fdc0a89be9e45a20700911493cfb85a33e"
+      },
+      "mentions": [
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0000",
+          "start": 0,
+          "end": 3,
+          "surface": "閔王承",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAB",
+          "status": "contextual_provisional",
+          "source_identity_role": "cheng",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#cheng"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0041",
+          "start": 41,
+          "end": 43,
+          "surface": "惠帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAIAA",
+          "status": "contextual_provisional",
+          "source_identity_role": "huidi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#huidi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0069",
+          "start": 69,
+          "end": 71,
+          "surface": "山簡",
+          "kind": "person",
+          "person_id": "4kf_elm_6ww_AE",
+          "status": "contextual_provisional",
+          "source_identity_role": "shanjian",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#shanjian"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0081",
+          "start": 81,
+          "end": 83,
+          "surface": "元帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAAAA",
+          "status": "contextual_provisional",
+          "source_identity_role": "yuandi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#yuandi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0088",
+          "start": 88,
+          "end": 89,
+          "surface": "承",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAB",
+          "status": "contextual_provisional",
+          "source_identity_role": "cheng",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#cheng"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0099",
+          "start": 99,
+          "end": 101,
+          "surface": "湣帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAIAND",
+          "status": "contextual_provisional",
+          "source_identity_role": "mindi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#mindi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0111",
+          "start": 111,
+          "end": 113,
+          "surface": "元帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAAAA",
+          "status": "contextual_provisional",
+          "source_identity_role": "yuandi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#yuandi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0121",
+          "start": 121,
+          "end": 122,
+          "surface": "承",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAB",
+          "status": "contextual_provisional",
+          "source_identity_role": "cheng",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#cheng"
+        }
+      ]
+    },
+    {
+      "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003",
+      "text": "卓軍次䐗口，聞王師敗績，停師不進，乂等攻戰日逼，敦又送所得台中人書疏，令乂射以示承。城內知朝廷不守，莫不悵惋。劉翼戰死，相持百餘日，城遂沒。乂檻送承荊州，刺史王暠承敦旨於道中害之，時年五十九。敦平，詔贈車騎將軍。子無忌立。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "source_position": {
+        "fixed_raw_character_start": 14259,
+        "fixed_raw_character_end": 14370,
+        "raw_selection_sha256": "1d020c97d51d65282350f39b83b3a2a44a4ddf6acb82fe3638f19e27db51569b"
+      },
+      "mentions": [
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "卓",
+          "kind": "person",
+          "person_id": "csn_tgm_oe7",
+          "status": "contextual_provisional",
+          "source_identity_role": "ganzhuo",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#ganzhuo"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0017",
+          "start": 17,
+          "end": 18,
+          "surface": "乂",
+          "kind": "person",
+          "person_id": "yi8_uty_4si",
+          "status": "contextual_provisional",
+          "source_identity_role": "wei yi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wei yi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0024",
+          "start": 24,
+          "end": 25,
+          "surface": "敦",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABBA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wangdun",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wangdun"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0036",
+          "start": 36,
+          "end": 37,
+          "surface": "乂",
+          "kind": "person",
+          "person_id": "yi8_uty_4si",
+          "status": "contextual_provisional",
+          "source_identity_role": "wei yi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wei yi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0040",
+          "start": 40,
+          "end": 41,
+          "surface": "承",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAB",
+          "status": "contextual_provisional",
+          "source_identity_role": "cheng",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#cheng"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0055",
+          "start": 55,
+          "end": 57,
+          "surface": "劉翼",
+          "kind": "person",
+          "person_id": "5aa_w5d_dk9",
+          "status": "contextual_provisional",
+          "source_identity_role": "liuyi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#liuyi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0070",
+          "start": 70,
+          "end": 71,
+          "surface": "乂",
+          "kind": "person",
+          "person_id": "yi8_uty_4si",
+          "status": "contextual_provisional",
+          "source_identity_role": "wei yi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wei yi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0073",
+          "start": 73,
+          "end": 74,
+          "surface": "承",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAB",
+          "status": "contextual_provisional",
+          "source_identity_role": "cheng",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#cheng"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0079",
+          "start": 79,
+          "end": 81,
+          "surface": "王暠",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wanggao",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wanggao",
+          "source_preferred_reading_binding": {
+            "kind": "fixed_jin037_qiao_parallel_person_spelling",
+            "received_surface": "王暠",
+            "preferred_surface": "王廙",
+            "source_spelling_is_not_alias": true,
+            "contract_ref": "source-evidence/jin037-qiao-cheng-wuji/source-contract.json",
+            "paragraph_sha256": "1d020c97d51d65282350f39b83b3a2a44a4ddf6acb82fe3638f19e27db51569b"
+          }
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0082",
+          "start": 82,
+          "end": 83,
+          "surface": "敦",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABBA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wangdun",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wangdun"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0096",
+          "start": 96,
+          "end": 97,
+          "surface": "敦",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABBA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wangdun",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wangdun"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0107",
+          "start": 107,
+          "end": 109,
+          "surface": "無忌",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFABA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wuji",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wuji"
+        }
+      ]
+    },
+    {
+      "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004",
+      "text": "烈王無忌字公壽，承之難，以年小獲免。咸和中，拜散騎侍郎，累遷屯騎校尉、中書、黃門侍郎。江州刺史褚裒當之鎮，無忌及丹陽尹桓景等餞於版橋。時王暠子丹陽丞耆之在坐，無忌志欲復仇，拔刀將手刃之，裒、景命左右救捍獲免。御史中丞車灌奏無忌欲專殺人，付廷尉科罪。成帝詔曰：「王敦作亂，閔王遇禍，尋事原情，今王何責。然公私憲制，亦巳有斷，王當以體國為大，豈可尋繹由來，以亂朝憲。主者其申明法令，自今已往，有犯必誅。」於是聽以贖論。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "source_position": {
+        "fixed_raw_character_start": 14387,
+        "fixed_raw_character_end": 14600,
+        "raw_selection_sha256": "3ff555eb70da49b414296c80bee1b0971eb49817ce39e8b76ddc787694de2995"
+      },
+      "mentions": [
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0000",
+          "start": 0,
+          "end": 4,
+          "surface": "烈王無忌",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFABA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wuji",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wuji"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0008",
+          "start": 8,
+          "end": 9,
+          "surface": "承",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAB",
+          "status": "contextual_provisional",
+          "source_identity_role": "cheng",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#cheng"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0047",
+          "start": 47,
+          "end": 49,
+          "surface": "褚裒",
+          "kind": "person",
+          "person_id": "xke_dj3_6ba_AA",
+          "status": "contextual_provisional",
+          "source_identity_role": "chupou",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#chupou"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0053",
+          "start": 53,
+          "end": 55,
+          "surface": "無忌",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFABA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wuji",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wuji"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0059",
+          "start": 59,
+          "end": 61,
+          "surface": "桓景",
+          "kind": "person",
+          "person_id": "qo7_y57_xo3",
+          "status": "contextual_provisional",
+          "source_identity_role": "huanjing",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#huanjing"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0068",
+          "start": 68,
+          "end": 70,
+          "surface": "王暠",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wanggao",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wanggao",
+          "source_preferred_reading_binding": {
+            "kind": "fixed_jin037_qiao_parallel_person_spelling",
+            "received_surface": "王暠",
+            "preferred_surface": "王廙",
+            "source_spelling_is_not_alias": true,
+            "contract_ref": "source-evidence/jin037-qiao-cheng-wuji/source-contract.json",
+            "paragraph_sha256": "6960ef1f24277c4fbce48e581c3c284d0802e6b5e5a61553f6c56628c3e6b3da"
+          }
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0074",
+          "start": 74,
+          "end": 76,
+          "surface": "耆之",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDAC",
+          "status": "contextual_provisional",
+          "source_identity_role": "qizhi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#qizhi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0079",
+          "start": 79,
+          "end": 81,
+          "surface": "無忌",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFABA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wuji",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wuji"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0093",
+          "start": 93,
+          "end": 94,
+          "surface": "裒",
+          "kind": "person",
+          "person_id": "xke_dj3_6ba_AA",
+          "status": "contextual_provisional",
+          "source_identity_role": "chupou",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#chupou"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0095",
+          "start": 95,
+          "end": 96,
+          "surface": "景",
+          "kind": "person",
+          "person_id": "qo7_y57_xo3",
+          "status": "contextual_provisional",
+          "source_identity_role": "huanjing",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#huanjing"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0108",
+          "start": 108,
+          "end": 110,
+          "surface": "車灌",
+          "kind": "person",
+          "person_id": "nlp_uso_3gl",
+          "status": "contextual_provisional",
+          "source_identity_role": "cheguan",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#cheguan"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0111",
+          "start": 111,
+          "end": 113,
+          "surface": "無忌",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFABA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wuji",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wuji"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0124",
+          "start": 124,
+          "end": 126,
+          "surface": "成帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAAAAAA",
+          "status": "contextual_provisional",
+          "source_identity_role": "chengdi",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#chengdi"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0130",
+          "start": 130,
+          "end": 132,
+          "surface": "王敦",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABBA",
+          "status": "contextual_provisional",
+          "source_identity_role": "wangdun",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#wangdun"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0135",
+          "start": 135,
+          "end": 137,
+          "surface": "閔王",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFAB",
+          "status": "contextual_provisional",
+          "source_identity_role": "cheng",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#cheng"
+        }
+      ]
+    },
+    {
+      "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p005",
+      "text": "建元初遷散騎常侍，轉御史中丞，出為輔國將軍、長沙相，又領江夏相，尋轉南郡、河東二郡太守，將軍如故。隨桓溫伐蜀，以勳賜少子愔爵廣晉伯，進號前將軍，永和六年薨，贈衛將軍。二子：恬、愔。恬立。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "source_position": {
+        "fixed_raw_character_start": 14602,
+        "fixed_raw_character_end": 14702,
+        "raw_selection_sha256": "412fac509487facb4e74e35db9dd40aaa743ea1f1dfe7a64db1eb3ec0eadca97"
+      },
+      "mentions": [
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p005:m0050",
+          "start": 50,
+          "end": 52,
+          "surface": "桓溫",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AA",
+          "status": "contextual_provisional",
+          "source_identity_role": "huanwen",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#huanwen"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p005:m0060",
+          "start": 60,
+          "end": 61,
+          "surface": "愔",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFABAB",
+          "status": "contextual_provisional",
+          "source_identity_role": "yin",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#yin"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p005:m0086",
+          "start": 86,
+          "end": 87,
+          "surface": "恬",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFABAA",
+          "status": "contextual_provisional",
+          "source_identity_role": "tian",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#tian"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p005:m0088",
+          "start": 88,
+          "end": 89,
+          "surface": "愔",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFABAB",
+          "status": "contextual_provisional",
+          "source_identity_role": "yin",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#yin"
+        },
+        {
+          "id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p005:m0090",
+          "start": 90,
+          "end": 91,
+          "surface": "恬",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAFABAA",
+          "status": "contextual_provisional",
+          "source_identity_role": "tian",
+          "identity_reading_ref": "source-evidence/jin037-qiao-cheng-wuji/identity-decisions.json#tian"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "daf60a5ee95a13652008132c11839ba624277f6fb298f43e5aec6b362a649096"
+}

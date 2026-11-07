@@ -1,0 +1,72 @@
+{
+  "record_type": "source_based_current_identity_review",
+  "identity_decision_id": "d-sgz023-hui-explicit-xuncan-reference",
+  "current_person_id": "nx3_l5c_jlj",
+  "human_reviewed": false,
+  "retirement_scope": "一個重複身份撤號；不改全族ID、郃邵或遠祖",
+  "source_roles": [
+    {
+      "path": "corpus/sanguozhi/010.json",
+      "source_sha256": "8e979735a708638945ae52a0b1d707f47869a929438218ca0b204f160abe000f",
+      "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029",
+      "paragraph_text_sha256": "4f449e261e13add77b11bee01728b06cc48b119fffe561dbadd1e19f60d5b7d9",
+      "marker": {
+        "start": 324,
+        "end": 326,
+        "surface": "裴徽",
+        "kind": "person",
+        "status": "resolved_contextual",
+        "id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029:m0324"
+      }
+    },
+    {
+      "path": "corpus/sanguozhi/023-peiqian-ws2376966.json",
+      "source_sha256": "03d9d5517439a86cf54e56d28bfd986fff86c75d9695accd6a25bc15989a1b2a",
+      "paragraph_id": "c-sanguozhi-023-peiqian-ws2376966:p009",
+      "paragraph_text_sha256": "3493f6dcf18662e6631e5d823aed256a78645908c00dcbc6a8d76114bc005bf5",
+      "marker": {
+        "id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0417",
+        "start": 417,
+        "end": 418,
+        "surface": "徽",
+        "kind": "person",
+        "status": "contextual_provisional",
+        "interpretation_note": "依完整裴潛單元及既有具名近系原錨交讀；印本未知、未圖校，非人工覆核。"
+      }
+    },
+    {
+      "path": "corpus/jinshu/035-pei-family.json",
+      "source_sha256": "1cfcf90b3e1a113ca20bbd82097f33cf5dafd959f57bb2d4061cb6b6127ba126",
+      "paragraph_id": "c-jinshu-035-peikai-family:p001",
+      "paragraph_text_sha256": "d9081511f47f5d625329f766037d2fa8a4a28097eb9eff2ab858922d7264a1e7",
+      "marker": {
+        "id": "c-jinshu-035-peikai-family:p001:m0006",
+        "start": 6,
+        "end": 7,
+        "surface": "徽",
+        "kind": "person",
+        "status": "contextual_provisional"
+      }
+    },
+    {
+      "path": "corpus/jinshu/035-peixiu-peiwei.json",
+      "source_sha256": "8766f6974c7984eb5e7736b332425b896ac1f1362983070a8a42f7f5580715e2",
+      "paragraph_id": "c-jinshu-035-peixiu-peiwei:p001",
+      "paragraph_text_sha256": "0d6217c58eaf183a6e9473ad39b82d33deccedf2bc9e4685899dbe1fac84fa54",
+      "marker": {
+        "id": "c-jinshu-035-peixiu-peiwei:p001:m0047",
+        "start": 47,
+        "end": 48,
+        "surface": "徽",
+        "kind": "person",
+        "status": "contextual_provisional",
+        "interpretation_note": "同035近系之秀叔父徽與楷父徽/八裴徽相容；首選現役nx3，不冒SGZ10裴徽047已合，不新增父邊。"
+      }
+    }
+  ],
+  "original_fields_capture_sha256": "b23949aede4c6b1f859bcd692857dfc5f535f84f4ca0df54f855e412aa4c3b7d",
+  "mapping_role": "audit_only_not_alias_or_redirect",
+  "historical_mapping": {
+    "047_850_e7d": "nx3_l5c_jlj"
+  }
+}

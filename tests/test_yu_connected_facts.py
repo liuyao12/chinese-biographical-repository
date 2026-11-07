@@ -1,3 +1,4 @@
+from scripts.snapshot_test_expectations import current_snapshot
 # coding: utf-8
 import unittest,json,copy,sys,hashlib
 from pathlib import Path
@@ -24,7 +25,7 @@ class YuConnectedFacts(unittest.TestCase):
  def test_exact_source_and_formal_records(self):
   for rel in ['corpus/songshu/053-yu-dengzhi.json','corpus/nanqishu/034-yugaozhi.json']:
    d=J(ROOT/rel)
-   for key,value in SNAP[rel].items():self.assertEqual(d[key],value)
+   for key,value in SNAP[rel].items():self.assertEqual(d[key],current_snapshot(value))
   for op in OPS:
    if op['packet']=='yu':
     by={a['id']:a for a in records(op)}

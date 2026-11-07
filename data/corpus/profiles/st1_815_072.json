@@ -6,7 +6,8 @@
   "identity_note": "固定晉書選段所載人物；遠祖泛稱、神異故事及編輯父系推導不冒稱獨立史實。",
   "review": "ai_provisional",
   "names": [
-    "吉"
+    "吉",
+    "子陽"
   ],
   "titles": [
     {
@@ -94,6 +95,50 @@
       "chapter_id": "c-jinshu-033-wanglan-family",
       "source_id": "s-jinshu-033-wanglan-family",
       "work_title": "晉書"
+    },
+    {
+      "number": 72,
+      "category": "",
+      "title": "宰相世系二中",
+      "paragraph_id": "c-xintangshu-072zhong-wyd1739-wang-preface:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "將軍生賁字典武陵侯生離字明武城侯二子元威元避秦亂遷於琅邪後徙臨沂四世孫吉字子陽漢諫大夫始家",
+      "paragraph_ids": [
+        "c-xintangshu-072zhong-wyd1739-wang-preface:p001"
+      ],
+      "mention_ids": [
+        "c-xintangshu-072zhong-wyd1739-wang-preface:p001:m0122",
+        "c-xintangshu-072zhong-wyd1739-wang-preface:p001:m0124"
+      ],
+      "mention_paragraph_ids": {
+        "c-xintangshu-072zhong-wyd1739-wang-preface:p001:m0122": "c-xintangshu-072zhong-wyd1739-wang-preface:p001",
+        "c-xintangshu-072zhong-wyd1739-wang-preface:p001:m0124": "c-xintangshu-072zhong-wyd1739-wang-preface:p001"
+      },
+      "mention_id": "c-xintangshu-072zhong-wyd1739-wang-preface:p001:m0122",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-xintangshu-072zhong-wyd1739-wang-preface:p001:m0122",
+          "mention_ids": [
+            "c-xintangshu-072zhong-wyd1739-wang-preface:p001:m0122"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-xintangshu-072zhong-wyd1739-wang-preface:p001:m0124",
+          "mention_ids": [
+            "c-xintangshu-072zhong-wyd1739-wang-preface:p001:m0124"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-xintangshu",
+      "book_id": "b-xintangshu-072-zhong",
+      "chapter_id": "c-xintangshu-072zhong-wyd1739-wang-preface",
+      "source_id": "s-xintangshu-072zhong-wyd1739-wang-preface",
+      "work_title": "新唐書"
     }
   ],
   "table_occurrences": [],
@@ -245,6 +290,53 @@
           "editorial_readings": [],
           "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
           "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-xintangshu-072zhong-wyd1739-wang-preface",
+      "work_id": "w-xintangshu",
+      "book_id": "b-xintangshu-072-zhong",
+      "source_id": "s-xintangshu-072zhong-wyd1739-wang-preface",
+      "source": {
+        "title": "《新唐書》卷七十二中〈宰相世系二中〉",
+        "provider": "CBR AI direct transcription of Commons-hosted NLC scan",
+        "url": "https://commons.wikimedia.org/w/index.php?curid=124074148",
+        "permalink": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12972_二十四史_第365冊.pdf&oldid=1250338740",
+        "revision_id": "cbr-ai-transcription-sha256:44148094464d70d3d8f574d94cd6d0e16874e8f086ab5220db320741531828c0",
+        "edition": "國圖善本09753，《二十四史》同書411999017142冊365，書目著錄武英殿清乾隆四年[1739]；78/79頁側刊乾隆四年校刊。",
+        "extent": "PDF78左王氏出自姬姓起，經79右至79左子弘讓弘直止，完整404字王氏前敘；題名/作者另存，第一弘讓表格不入。",
+        "text_scope": "partial_chapter",
+        "review_status": "AI_image_transcription_draft",
+        "image_verified": false,
+        "image_verification_qualification": "AI視讀及對讀候選，非人工全字圖校；1個頴/穎字族〓保留，未據WS回填。",
+        "raw_file": "source-evidence/xintang072zhong-wyd1739-wang-preface/transcription-columns.txt",
+        "raw_sha256": "44148094464d70d3d8f574d94cd6d0e16874e8f086ab5220db320741531828c0",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐印刷正文列轉錄；三頁側僅影像容器，非新造傳記自然段；WS1519175為另見證，栽等原字不改。",
+          "column_locations_ref": "source-evidence/xintang072zhong-wyd1739-wang-preface/image-column-locations.json",
+          "glyph_review_ref": "source-evidence/xintang072zhong-wyd1739-wang-preface/glyph-review-qualification.json"
+        },
+        "rights": "古文及Commons所標公有領域書影；只發布轉錄、元資料與外鏈，不發布圖片/PDF。",
+        "license_url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12972_二十四史_第365冊.pdf&oldid=1250338740",
+        "received_transcription_witness": {
+          "transcription_path": "source-evidence/xintang072zhong-wyd1739-wang-preface/transcription-columns.txt",
+          "transcription_sha256": "44148094464d70d3d8f574d94cd6d0e16874e8f086ab5220db320741531828c0",
+          "transcription_revision": "cbr-ai-transcription-sha256:44148094464d70d3d8f574d94cd6d0e16874e8f086ab5220db320741531828c0",
+          "reported_pdf_sha1": "6deb4666e780a82b1cf06460ccb69df32a3d93c4",
+          "reported_pdf_bytes": 34739279,
+          "original_pdf_locally_obtained": false,
+          "commons_description_revision": 1250338740,
+          "reported_pdf_pages": 110,
+          "nlc_bookid": "411999017142",
+          "nlc_volumeid": "12972",
+          "nlc_rare_book_number": "09753",
+          "composition_date": null,
+          "edition_year": 1739,
+          "earliest_extant_edition_claim": null,
+          "edition_year_role": "catalogued_printed_edition_year",
+          "human_image_reviewed": false
         }
       }
     }

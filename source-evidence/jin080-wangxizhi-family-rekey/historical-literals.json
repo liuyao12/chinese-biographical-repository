@@ -1,0 +1,70 @@
+{
+  "record_type": "editorial_current_reference_projection",
+  "qualification": "只對逐檔SHA與pointer所列舊捕獲保留原bytes；projection是當前端點，不是原捕獲/alias/舊號查詢；不授予任何目錄豁免。",
+  "records": [
+    {
+      "path": "source-evidence/medieval-integration-archive/3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c.json",
+      "sha256": "3508b1e16311da3f70624cb2eae7c4194f1616dc02bbf2ef18547e5038a2411c",
+      "classification": "exact_preexisting_qualified_historical_capture_not_current_endpoint",
+      "locations": [
+        {
+          "pointer": "/0/same_surface_candidates/45/person_id",
+          "historical_literal": "sm1_jfi_7k2"
+        },
+        {
+          "pointer": "/0/same_surface_candidates/126/person_id",
+          "historical_literal": "326_faf_cd3"
+        }
+      ],
+      "current_projection_ref": {
+        "path": "source-evidence/jin043-wangrong-source/identity-review.json",
+        "role": "current_reference_not_original_capture_not_person_alias"
+      }
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/62e9116f974c75890e148acd0d71dd186a3e6e4601fe35de631931aafc2ac511.json",
+      "sha256": "62e9116f974c75890e148acd0d71dd186a3e6e4601fe35de631931aafc2ac511",
+      "classification": "exact_preexisting_qualified_historical_capture_not_current_endpoint",
+      "locations": [
+        {
+          "pointer": "/persons/238/person_id",
+          "historical_literal": "f7d_ipd_k1o"
+        }
+      ],
+      "current_projection_ref": {
+        "path": "source-evidence/huan-four-unit-reading/identity-worksheet.json",
+        "role": "current_reference_not_original_capture_not_person_alias"
+      }
+    },
+    {
+      "path": "source-evidence/song051-wyd1739-zongshi/historical-before/fanyang-lu-family-assembly/current-review.json",
+      "sha256": "4f83edf6b923f9933ff0f4c4433bf713b01a1c6e065b8b5733185dd73d1d9931",
+      "classification": "exact_preexisting_qualified_historical_capture_not_current_endpoint",
+      "locations": [
+        {
+          "pointer": "/records/2/projection/persons/238/person_id",
+          "historical_literal": "f7d_ipd_k1o"
+        }
+      ],
+      "current_projection_ref": {
+        "path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+        "role": "current_reference_not_original_capture_not_person_alias"
+      }
+    },
+    {
+      "path": "source-evidence/medieval-integration-archive/480bcd7709e9dce5e0ab1c46b40834635dd69fc6f7656e5c986100c70591823c.json",
+      "sha256": "480bcd7709e9dce5e0ab1c46b40834635dd69fc6f7656e5c986100c70591823c",
+      "classification": "relocated_preexisting_exact_historical_capture_not_current_endpoint",
+      "locations": [
+        {
+          "pointer": "/people/30/all_exact_surface_candidates/34/id",
+          "historical_literal": "326_faf_cd3"
+        }
+      ],
+      "current_projection_ref": {
+        "path": "source-evidence/song046-zhangshao-native/identity-review.json",
+        "role": "current_reference_not_original_capture_not_person_alias"
+      }
+    }
+  ]
+}

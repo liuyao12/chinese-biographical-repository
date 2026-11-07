@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "id": "c05_7ra_yw4",
+  "canonical_person_id": "c05_7ra_yw4",
+  "label": "何氏（衛恆嫂）",
+  "identity_note": "未名嫂〔恆嫂，何劭女〕；本源角色可辨，未在NER期推定家系結構或未明世代。",
+  "review": "ai_provisional",
+  "names": [
+    "嫂"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 36,
+      "category": "",
+      "title": "衛瓘傳",
+      "paragraph_id": "c-jinshu-036-wei-comparison:p015",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "及瓘為楚王瑋所構，恆聞變，以何劭，嫂之父也，從牆孔中詣之，以問消息。劭知而不告。恆還經廚下，收人正食，因而遇害。後贈長水校尉，諡蘭陵貞世子。二子：璪、玠。",
+      "paragraph_ids": [
+        "c-jinshu-036-wei-comparison:p015"
+      ],
+      "mention_ids": [
+        "c-jinshu-036-wei-comparison:p015:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-036-wei-comparison:p015:m0017": "c-jinshu-036-wei-comparison:p015"
+      },
+      "mention_id": "c-jinshu-036-wei-comparison:p015:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-036-wei-comparison:p015:m0017",
+          "mention_ids": [
+            "c-jinshu-036-wei-comparison:p015:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-036",
+      "chapter_id": "c-jinshu-036-wei-comparison",
+      "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-036-wei-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-036",
+      "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+      "source": {
+        "title": "《晉書》卷三十六〈衛瓘傳〉",
+        "provider": "Wikisource fixed-revision rendered capture",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷036&oldid=2108231",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷036&oldid=2108231",
+        "revision_id": 2108231,
+        "accessed_on": "2026-10-28",
+        "extent": "衛瓘至張華前的完整衛氏相關單元，含恆、璪、玠、展及四體書勢全文。25個數位blocks7145字中4題頭13字另存結構，21正文段7129字；數位[1]與現代註另層，不是全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "edition": null,
+        "edition_qualification": "印本底本未核，固定數位比較見證；非武英殿、非首選讀本、未圖校。未確認是否出於四庫，不採作首選base。",
+        "image_verified": false,
+        "human_reviewed": false,
+        "preferred_text_base": false,
+        "capture_ref": "source-evidence/jin036-wei-comparison/rendered-extract.txt",
+        "capture_sha256": "6db27cbd14cb251ba7ab4e58e9064b02d808cd893b02c044e359c7ccedd73659",
+        "capture_kind": "fixed_revision_HTML_rendered_text_extract",
+        "original_wikitext_obtained": false,
+        "source_response_sha256": "6dc95bd5962acbb6d2e8d3854ee215d7693d07f11b5224e5bcaa53af7d531dfb",
+        "source_response_revision_ids": [
+          2108231
+        ],
+        "original_HTML_private_only": true,
+        "rights": "古代原文與維基文庫數位轉錄；原數位修訂與授權歸屬保留。私有HTML不入庫。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除數位h2/h3題頭及[1]現代footnote標記；正文/內嵌四體書勢的異體、標點、空白與換行照留；HTML字元實體按已封rendered文字呈現。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin036-kin-021",
+      "subject_person_id": "c05_7ra_yw4",
+      "predicate": "father",
+      "object_person_id": "ij0_gmq_io0",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "以何劭，嫂之父也",
+        "source_terms": [
+          "以何劭，嫂之父也"
+        ],
+        "source_clause_binding": {
+          "rule": "fixed_jin036_complete_unit_close_kin",
+          "slot": "kin-021"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-036",
+          "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+          "chapter_id": "c-jinshu-036-wei-comparison",
+          "paragraph_id": "c-jinshu-036-wei-comparison:p015",
+          "quote": "及瓘為楚王瑋所構，恆聞變，以何劭，嫂之父也，從牆孔中詣之，以問消息。劭知而不告。恆還經廚下，收人正食，因而遇害。後贈長水校尉，諡蘭陵貞世子。二子：璪、玠。",
+          "subject_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0017",
+          "object_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0014"
+        }
+      ],
+      "interpretation_note": "嫂為恆之嫂，何劭明為嫂父；其夫未在此明名，不任配嶽/裔/宣。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin036-kin-022",
+      "subject_person_id": "c05_7ra_yw4",
+      "predicate": "kinship_unspecified",
+      "object_person_id": "q1l_utb_rfn_**AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "以何劭，嫂之父也",
+        "source_terms": [
+          "以何劭，嫂之父也"
+        ],
+        "source_clause_binding": {
+          "rule": "fixed_jin036_complete_unit_close_kin",
+          "slot": "kin-022"
+        },
+        "kinship_basis": "received_jin036_elder_brother_spouse",
+        "affinal_relation": "spouse_of_older_brother",
+        "connecting_spouse_person_id": null,
+        "generation_difference": 0,
+        "biological_relationship_asserted": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-036",
+          "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+          "chapter_id": "c-jinshu-036-wei-comparison",
+          "paragraph_id": "c-jinshu-036-wei-comparison:p015",
+          "quote": "及瓘為楚王瑋所構，恆聞變，以何劭，嫂之父也，從牆孔中詣之，以問消息。劭知而不告。恆還經廚下，收人正食，因而遇害。後贈長水校尉，諡蘭陵貞世子。二子：璪、玠。",
+          "subject_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0017",
+          "object_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0009"
+        }
+      ],
+      "interpretation_note": "主體嫂→客體恆之姻親稱謂；可解析嫂、夫為恆兄的關係角色，但夫無名，不造缺名ID或補瓘父邊。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "c05_7ra_yw4": "何氏（衛恆嫂）",
+    "ij0_gmq_io0": "何劭",
+    "q1l_utb_rfn_**AAA": "衛恆"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "c05_7ra_yw4"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin036-kin-021",
+      "subject_person_id": "c05_7ra_yw4",
+      "predicate": "father",
+      "object_person_id": "ij0_gmq_io0",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "以何劭，嫂之父也",
+        "source_terms": [
+          "以何劭，嫂之父也"
+        ],
+        "source_clause_binding": {
+          "rule": "fixed_jin036_complete_unit_close_kin",
+          "slot": "kin-021"
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-036",
+          "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+          "chapter_id": "c-jinshu-036-wei-comparison",
+          "paragraph_id": "c-jinshu-036-wei-comparison:p015",
+          "quote": "及瓘為楚王瑋所構，恆聞變，以何劭，嫂之父也，從牆孔中詣之，以問消息。劭知而不告。恆還經廚下，收人正食，因而遇害。後贈長水校尉，諡蘭陵貞世子。二子：璪、玠。",
+          "subject_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0017",
+          "object_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0014"
+        }
+      ],
+      "interpretation_note": "嫂為恆之嫂，何劭明為嫂父；其夫未在此明名，不任配嶽/裔/宣。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin036-kin-022",
+      "subject_person_id": "c05_7ra_yw4",
+      "predicate": "kinship_unspecified",
+      "object_person_id": "q1l_utb_rfn_**AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "以何劭，嫂之父也",
+        "source_terms": [
+          "以何劭，嫂之父也"
+        ],
+        "source_clause_binding": {
+          "rule": "fixed_jin036_complete_unit_close_kin",
+          "slot": "kin-022"
+        },
+        "kinship_basis": "received_jin036_elder_brother_spouse",
+        "affinal_relation": "spouse_of_older_brother",
+        "connecting_spouse_person_id": null,
+        "generation_difference": 0,
+        "biological_relationship_asserted": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-036",
+          "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+          "chapter_id": "c-jinshu-036-wei-comparison",
+          "paragraph_id": "c-jinshu-036-wei-comparison:p015",
+          "quote": "及瓘為楚王瑋所構，恆聞變，以何劭，嫂之父也，從牆孔中詣之，以問消息。劭知而不告。恆還經廚下，收人正食，因而遇害。後贈長水校尉，諡蘭陵貞世子。二子：璪、玠。",
+          "subject_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0017",
+          "object_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0009"
+        }
+      ],
+      "interpretation_note": "主體嫂→客體恆之姻親稱謂；可解析嫂、夫為恆兄的關係角色，但夫無名，不造缺名ID或補瓘父邊。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

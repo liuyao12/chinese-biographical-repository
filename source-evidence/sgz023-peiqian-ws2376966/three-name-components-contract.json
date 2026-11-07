@@ -1,0 +1,312 @@
+{
+  "record_type": "finite_sgz023_three_name_components",
+  "chapter_path": "corpus/sanguozhi/023-peiqian-ws2376966.json",
+  "name_path": "corpus/sanguozhi/023-peiqian-ws2376966-name-components.json",
+  "assertion_path": "corpus/sanguozhi/023-peiqian-ws2376966-assertions.json",
+  "literal_seed_path": "corpus/jinshu/040-wyd1739-jiachong-names.json",
+  "role_mids": {
+    "li": "c-sanguozhi-023-peiqian-ws2376966:p009:m0458",
+    "kang": "c-sanguozhi-023-peiqian-ws2376966:p009:m0474",
+    "chuo": "c-sanguozhi-023-peiqian-ws2376966:p009:m0508",
+    "kai": "c-sanguozhi-023-peiqian-ws2376966:p009:m0487",
+    "hui": "c-sanguozhi-023-peiqian-ws2376966:p009:m0417"
+  },
+  "name_template": {
+    "format_version": "0.2",
+    "record_type": "person_name_component_set",
+    "chapter_id": "c-sanguozhi-023-peiqian-ws2376966",
+    "records": [
+      {
+        "id": "name-sgz023-peiqian-li-explicit-components",
+        "person_id": "$li",
+        "surname": "裴",
+        "ming": "黎",
+        "zi": "伯宗",
+        "additional_names": [
+          "演"
+        ],
+        "chapter_id": "c-sanguozhi-023-peiqian-ws2376966",
+        "paragraph_id": "c-sanguozhi-023-peiqian-ws2376966:p009",
+        "person_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0458",
+        "source_anchor": {
+          "start": 458,
+          "end": 459,
+          "surface": "黎"
+        },
+        "quote": "《文章敘錄》曰：秀字季彥。弘通博濟，八歲能屬文，遂知名。大將軍曹爽辟。喪父服終，推財與兄弟。年二十五，遷黃門侍郎。爽誅，以故吏免。遷衛國相，累遷散騎常侍、尚書僕射令、光祿大夫。咸熙中，晉文王始建五等，命秀典爲制度，封廣川侯。晉室受禪，進左光祿大夫，改封钜鹿公，遷司空。著易及樂論，又畫地域圖十八篇，傳行於世。盟會圖及典治官制皆未成。年四十八，泰始七年薨，諡元公，配食宗廟。少子頠，字逸民，襲封。荀綽《冀州記》曰：頠爲人弘雅有遠識，博學稽古，履行高整，自少知名。歷位太子中庶子、侍中尚書。元康末，爲尚書左僕射。趙王倫以其望重，畏而惡之，知其不與賈氏同心，猶被枉害。臣松之案陸機《惠帝起居注》稱「頠雅有遠量，當朝名士也」，又曰「民之望也」。頠理具淵博，贍於論難，著崇有、貴無二論，以矯虛誕之弊，文辭精富，爲世名論。子嵩，字道文。荀綽稱嵩有父祖風。爲中書郎，早卒。頠從父弟邈，字景聲，有雋才，爲太傅司馬越從事中郎，假節監中外營諸軍事。潛少弟徽，字文季，冀州刺史。有高才遠度，善言玄妙。事見荀粲、傅嘏、王弼、管輅諸傳。徽長子黎，字伯宗，一名演，遊擊將軍。次康，字仲豫，太子左衛率。次楷，字叔則，侍中中書令、光祿大夫、開府。次綽，字季舒，黃門侍郎，早卒，追贈長水校尉。康、楷、綽皆爲名士，而楷才望最重。《晉諸公贊》曰：康有弘量，綽以明達爲稱，楷少與琅邪王戎俱爲掾發名，鍾會致之大將軍司馬文王曰：「裴楷清通，王戎簡要。」文王即辟爲掾，進歷顯位。謝鯤爲樂廣傳，稱楷雋朗有識具，當時獨步。黎子苞，秦州刺史。康子純，黃門侍郎。次盾，徐州刺史。次郃，有器望。晉元帝爲安東將軍，郃爲長史，侍中王曠與司馬越書曰：「裴郃在此，雖不治事，然識量弘淹，此下人士大敬附之。」次廓，中壘將軍。楷子瓚，中書郎。次憲，豫州刺史。綽子遐，太傅主簿。瓚、遐並有盛名，早卒。《晉諸公贊》稱憲有清識。",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "model": null,
+        "surname_basis": {
+          "kind": "contextual_surname_from_fixed_sgz023_explicit_shared_father",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "source_name_record_id": "name-jin040-wyd-peikai-18",
+          "source_name_record_path": "corpus/jinshu/040-wyd1739-jiachong-names.json",
+          "common_father_person_id": "$hui",
+          "assertion_ids": [
+            "a-sgz023-peiqian-li-father-hui",
+            "a-sgz023-peiqian-kai-father-hui"
+          ],
+          "literal_source_components": {
+            "surname": null,
+            "ming": "黎",
+            "zi": "伯宗"
+          },
+          "source_term": "黎",
+          "rationale": "本篇明載目標及楷俱為徽子；裴楷既有literal姓名構件供姓裴，兩條明父子關係證同父，復姓為編輯推定，不由ID或label補字。"
+        },
+        "component_binding": {
+          "kind": "fixed_sgz023_three_literal_ming_zi",
+          "contract_ref": "source-evidence/sgz023-peiqian-ws2376966/three-name-components-contract.json",
+          "ming_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0458",
+          "zi_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0461",
+          "literal_source_name_kind": "ming_only",
+          "human_reviewed": false,
+          "additional_name_mention_ids": [
+            "c-sanguozhi-023-peiqian-ws2376966:p009:m0466"
+          ]
+        }
+      },
+      {
+        "id": "name-sgz023-peiqian-kang-explicit-components",
+        "person_id": "$kang",
+        "surname": "裴",
+        "ming": "康",
+        "zi": "仲豫",
+        "additional_names": [],
+        "chapter_id": "c-sanguozhi-023-peiqian-ws2376966",
+        "paragraph_id": "c-sanguozhi-023-peiqian-ws2376966:p009",
+        "person_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0474",
+        "source_anchor": {
+          "start": 474,
+          "end": 475,
+          "surface": "康"
+        },
+        "quote": "《文章敘錄》曰：秀字季彥。弘通博濟，八歲能屬文，遂知名。大將軍曹爽辟。喪父服終，推財與兄弟。年二十五，遷黃門侍郎。爽誅，以故吏免。遷衛國相，累遷散騎常侍、尚書僕射令、光祿大夫。咸熙中，晉文王始建五等，命秀典爲制度，封廣川侯。晉室受禪，進左光祿大夫，改封钜鹿公，遷司空。著易及樂論，又畫地域圖十八篇，傳行於世。盟會圖及典治官制皆未成。年四十八，泰始七年薨，諡元公，配食宗廟。少子頠，字逸民，襲封。荀綽《冀州記》曰：頠爲人弘雅有遠識，博學稽古，履行高整，自少知名。歷位太子中庶子、侍中尚書。元康末，爲尚書左僕射。趙王倫以其望重，畏而惡之，知其不與賈氏同心，猶被枉害。臣松之案陸機《惠帝起居注》稱「頠雅有遠量，當朝名士也」，又曰「民之望也」。頠理具淵博，贍於論難，著崇有、貴無二論，以矯虛誕之弊，文辭精富，爲世名論。子嵩，字道文。荀綽稱嵩有父祖風。爲中書郎，早卒。頠從父弟邈，字景聲，有雋才，爲太傅司馬越從事中郎，假節監中外營諸軍事。潛少弟徽，字文季，冀州刺史。有高才遠度，善言玄妙。事見荀粲、傅嘏、王弼、管輅諸傳。徽長子黎，字伯宗，一名演，遊擊將軍。次康，字仲豫，太子左衛率。次楷，字叔則，侍中中書令、光祿大夫、開府。次綽，字季舒，黃門侍郎，早卒，追贈長水校尉。康、楷、綽皆爲名士，而楷才望最重。《晉諸公贊》曰：康有弘量，綽以明達爲稱，楷少與琅邪王戎俱爲掾發名，鍾會致之大將軍司馬文王曰：「裴楷清通，王戎簡要。」文王即辟爲掾，進歷顯位。謝鯤爲樂廣傳，稱楷雋朗有識具，當時獨步。黎子苞，秦州刺史。康子純，黃門侍郎。次盾，徐州刺史。次郃，有器望。晉元帝爲安東將軍，郃爲長史，侍中王曠與司馬越書曰：「裴郃在此，雖不治事，然識量弘淹，此下人士大敬附之。」次廓，中壘將軍。楷子瓚，中書郎。次憲，豫州刺史。綽子遐，太傅主簿。瓚、遐並有盛名，早卒。《晉諸公贊》稱憲有清識。",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "model": null,
+        "surname_basis": {
+          "kind": "contextual_surname_from_fixed_sgz023_explicit_shared_father",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "source_name_record_id": "name-jin040-wyd-peikai-18",
+          "source_name_record_path": "corpus/jinshu/040-wyd1739-jiachong-names.json",
+          "common_father_person_id": "$hui",
+          "assertion_ids": [
+            "a-sgz023-peiqian-kang-father-hui",
+            "a-sgz023-peiqian-kai-father-hui"
+          ],
+          "literal_source_components": {
+            "surname": null,
+            "ming": "康",
+            "zi": "仲豫"
+          },
+          "source_term": "康",
+          "rationale": "本篇明載目標及楷俱為徽子；裴楷既有literal姓名構件供姓裴，兩條明父子關係證同父，復姓為編輯推定，不由ID或label補字。"
+        },
+        "component_binding": {
+          "kind": "fixed_sgz023_three_literal_ming_zi",
+          "contract_ref": "source-evidence/sgz023-peiqian-ws2376966/three-name-components-contract.json",
+          "ming_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0474",
+          "zi_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0477",
+          "literal_source_name_kind": "ming_only",
+          "human_reviewed": false,
+          "additional_name_mention_ids": []
+        }
+      },
+      {
+        "id": "name-sgz023-peiqian-chuo-explicit-components",
+        "person_id": "$chuo",
+        "surname": "裴",
+        "ming": "綽",
+        "zi": "季舒",
+        "additional_names": [],
+        "chapter_id": "c-sanguozhi-023-peiqian-ws2376966",
+        "paragraph_id": "c-sanguozhi-023-peiqian-ws2376966:p009",
+        "person_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0508",
+        "source_anchor": {
+          "start": 508,
+          "end": 509,
+          "surface": "綽"
+        },
+        "quote": "《文章敘錄》曰：秀字季彥。弘通博濟，八歲能屬文，遂知名。大將軍曹爽辟。喪父服終，推財與兄弟。年二十五，遷黃門侍郎。爽誅，以故吏免。遷衛國相，累遷散騎常侍、尚書僕射令、光祿大夫。咸熙中，晉文王始建五等，命秀典爲制度，封廣川侯。晉室受禪，進左光祿大夫，改封钜鹿公，遷司空。著易及樂論，又畫地域圖十八篇，傳行於世。盟會圖及典治官制皆未成。年四十八，泰始七年薨，諡元公，配食宗廟。少子頠，字逸民，襲封。荀綽《冀州記》曰：頠爲人弘雅有遠識，博學稽古，履行高整，自少知名。歷位太子中庶子、侍中尚書。元康末，爲尚書左僕射。趙王倫以其望重，畏而惡之，知其不與賈氏同心，猶被枉害。臣松之案陸機《惠帝起居注》稱「頠雅有遠量，當朝名士也」，又曰「民之望也」。頠理具淵博，贍於論難，著崇有、貴無二論，以矯虛誕之弊，文辭精富，爲世名論。子嵩，字道文。荀綽稱嵩有父祖風。爲中書郎，早卒。頠從父弟邈，字景聲，有雋才，爲太傅司馬越從事中郎，假節監中外營諸軍事。潛少弟徽，字文季，冀州刺史。有高才遠度，善言玄妙。事見荀粲、傅嘏、王弼、管輅諸傳。徽長子黎，字伯宗，一名演，遊擊將軍。次康，字仲豫，太子左衛率。次楷，字叔則，侍中中書令、光祿大夫、開府。次綽，字季舒，黃門侍郎，早卒，追贈長水校尉。康、楷、綽皆爲名士，而楷才望最重。《晉諸公贊》曰：康有弘量，綽以明達爲稱，楷少與琅邪王戎俱爲掾發名，鍾會致之大將軍司馬文王曰：「裴楷清通，王戎簡要。」文王即辟爲掾，進歷顯位。謝鯤爲樂廣傳，稱楷雋朗有識具，當時獨步。黎子苞，秦州刺史。康子純，黃門侍郎。次盾，徐州刺史。次郃，有器望。晉元帝爲安東將軍，郃爲長史，侍中王曠與司馬越書曰：「裴郃在此，雖不治事，然識量弘淹，此下人士大敬附之。」次廓，中壘將軍。楷子瓚，中書郎。次憲，豫州刺史。綽子遐，太傅主簿。瓚、遐並有盛名，早卒。《晉諸公贊》稱憲有清識。",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "model": null,
+        "surname_basis": {
+          "kind": "contextual_surname_from_fixed_sgz023_explicit_shared_father",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "source_name_record_id": "name-jin040-wyd-peikai-18",
+          "source_name_record_path": "corpus/jinshu/040-wyd1739-jiachong-names.json",
+          "common_father_person_id": "$hui",
+          "assertion_ids": [
+            "a-sgz023-peiqian-chuo-father-hui",
+            "a-sgz023-peiqian-kai-father-hui"
+          ],
+          "literal_source_components": {
+            "surname": null,
+            "ming": "綽",
+            "zi": "季舒"
+          },
+          "source_term": "綽",
+          "rationale": "本篇明載目標及楷俱為徽子；裴楷既有literal姓名構件供姓裴，兩條明父子關係證同父，復姓為編輯推定，不由ID或label補字。"
+        },
+        "component_binding": {
+          "kind": "fixed_sgz023_three_literal_ming_zi",
+          "contract_ref": "source-evidence/sgz023-peiqian-ws2376966/three-name-components-contract.json",
+          "ming_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0508",
+          "zi_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0511",
+          "literal_source_name_kind": "ming_only",
+          "human_reviewed": false,
+          "additional_name_mention_ids": []
+        }
+      }
+    ]
+  },
+  "family_assertion_templates": [
+    {
+      "id": "a-sgz023-peiqian-li-father-hui",
+      "subject_person_id": "$li",
+      "predicate": "father",
+      "object_person_id": "$hui",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "徽長子黎",
+        "fixed_sgz023_source_clause": "li-father-hui",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "$hui",
+          "scope": "sons_of_parent",
+          "ordinal": 1,
+          "position": "eldest",
+          "source_term": "長子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-ws2376966",
+          "chapter_id": "c-sanguozhi-023-peiqian-ws2376966",
+          "paragraph_id": "c-sanguozhi-023-peiqian-ws2376966:p009",
+          "quote": "《文章敘錄》曰：秀字季彥。弘通博濟，八歲能屬文，遂知名。大將軍曹爽辟。喪父服終，推財與兄弟。年二十五，遷黃門侍郎。爽誅，以故吏免。遷衛國相，累遷散騎常侍、尚書僕射令、光祿大夫。咸熙中，晉文王始建五等，命秀典爲制度，封廣川侯。晉室受禪，進左光祿大夫，改封钜鹿公，遷司空。著易及樂論，又畫地域圖十八篇，傳行於世。盟會圖及典治官制皆未成。年四十八，泰始七年薨，諡元公，配食宗廟。少子頠，字逸民，襲封。荀綽《冀州記》曰：頠爲人弘雅有遠識，博學稽古，履行高整，自少知名。歷位太子中庶子、侍中尚書。元康末，爲尚書左僕射。趙王倫以其望重，畏而惡之，知其不與賈氏同心，猶被枉害。臣松之案陸機《惠帝起居注》稱「頠雅有遠量，當朝名士也」，又曰「民之望也」。頠理具淵博，贍於論難，著崇有、貴無二論，以矯虛誕之弊，文辭精富，爲世名論。子嵩，字道文。荀綽稱嵩有父祖風。爲中書郎，早卒。頠從父弟邈，字景聲，有雋才，爲太傅司馬越從事中郎，假節監中外營諸軍事。潛少弟徽，字文季，冀州刺史。有高才遠度，善言玄妙。事見荀粲、傅嘏、王弼、管輅諸傳。徽長子黎，字伯宗，一名演，遊擊將軍。次康，字仲豫，太子左衛率。次楷，字叔則，侍中中書令、光祿大夫、開府。次綽，字季舒，黃門侍郎，早卒，追贈長水校尉。康、楷、綽皆爲名士，而楷才望最重。《晉諸公贊》曰：康有弘量，綽以明達爲稱，楷少與琅邪王戎俱爲掾發名，鍾會致之大將軍司馬文王曰：「裴楷清通，王戎簡要。」文王即辟爲掾，進歷顯位。謝鯤爲樂廣傳，稱楷雋朗有識具，當時獨步。黎子苞，秦州刺史。康子純，黃門侍郎。次盾，徐州刺史。次郃，有器望。晉元帝爲安東將軍，郃爲長史，侍中王曠與司馬越書曰：「裴郃在此，雖不治事，然識量弘淹，此下人士大敬附之。」次廓，中壘將軍。楷子瓚，中書郎。次憲，豫州刺史。綽子遐，太傅主簿。瓚、遐並有盛名，早卒。《晉諸公贊》稱憲有清識。",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0458",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0417"
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "interpretation_note": "只取本見證明載近系；章完整不表示身份、版本或日期全部覆核。"
+    },
+    {
+      "id": "a-sgz023-peiqian-kang-father-hui",
+      "subject_person_id": "$kang",
+      "predicate": "father",
+      "object_person_id": "$hui",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "次康",
+        "fixed_sgz023_source_clause": "kang-father-hui",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-ws2376966",
+          "chapter_id": "c-sanguozhi-023-peiqian-ws2376966",
+          "paragraph_id": "c-sanguozhi-023-peiqian-ws2376966:p009",
+          "quote": "《文章敘錄》曰：秀字季彥。弘通博濟，八歲能屬文，遂知名。大將軍曹爽辟。喪父服終，推財與兄弟。年二十五，遷黃門侍郎。爽誅，以故吏免。遷衛國相，累遷散騎常侍、尚書僕射令、光祿大夫。咸熙中，晉文王始建五等，命秀典爲制度，封廣川侯。晉室受禪，進左光祿大夫，改封钜鹿公，遷司空。著易及樂論，又畫地域圖十八篇，傳行於世。盟會圖及典治官制皆未成。年四十八，泰始七年薨，諡元公，配食宗廟。少子頠，字逸民，襲封。荀綽《冀州記》曰：頠爲人弘雅有遠識，博學稽古，履行高整，自少知名。歷位太子中庶子、侍中尚書。元康末，爲尚書左僕射。趙王倫以其望重，畏而惡之，知其不與賈氏同心，猶被枉害。臣松之案陸機《惠帝起居注》稱「頠雅有遠量，當朝名士也」，又曰「民之望也」。頠理具淵博，贍於論難，著崇有、貴無二論，以矯虛誕之弊，文辭精富，爲世名論。子嵩，字道文。荀綽稱嵩有父祖風。爲中書郎，早卒。頠從父弟邈，字景聲，有雋才，爲太傅司馬越從事中郎，假節監中外營諸軍事。潛少弟徽，字文季，冀州刺史。有高才遠度，善言玄妙。事見荀粲、傅嘏、王弼、管輅諸傳。徽長子黎，字伯宗，一名演，遊擊將軍。次康，字仲豫，太子左衛率。次楷，字叔則，侍中中書令、光祿大夫、開府。次綽，字季舒，黃門侍郎，早卒，追贈長水校尉。康、楷、綽皆爲名士，而楷才望最重。《晉諸公贊》曰：康有弘量，綽以明達爲稱，楷少與琅邪王戎俱爲掾發名，鍾會致之大將軍司馬文王曰：「裴楷清通，王戎簡要。」文王即辟爲掾，進歷顯位。謝鯤爲樂廣傳，稱楷雋朗有識具，當時獨步。黎子苞，秦州刺史。康子純，黃門侍郎。次盾，徐州刺史。次郃，有器望。晉元帝爲安東將軍，郃爲長史，侍中王曠與司馬越書曰：「裴郃在此，雖不治事，然識量弘淹，此下人士大敬附之。」次廓，中壘將軍。楷子瓚，中書郎。次憲，豫州刺史。綽子遐，太傅主簿。瓚、遐並有盛名，早卒。《晉諸公贊》稱憲有清識。",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0474",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0417"
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "interpretation_note": "只取本見證明載近系；章完整不表示身份、版本或日期全部覆核。"
+    },
+    {
+      "id": "a-sgz023-peiqian-kai-father-hui",
+      "subject_person_id": "$kai",
+      "predicate": "father",
+      "object_person_id": "$hui",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "次楷",
+        "fixed_sgz023_source_clause": "kai-father-hui",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-ws2376966",
+          "chapter_id": "c-sanguozhi-023-peiqian-ws2376966",
+          "paragraph_id": "c-sanguozhi-023-peiqian-ws2376966:p009",
+          "quote": "《文章敘錄》曰：秀字季彥。弘通博濟，八歲能屬文，遂知名。大將軍曹爽辟。喪父服終，推財與兄弟。年二十五，遷黃門侍郎。爽誅，以故吏免。遷衛國相，累遷散騎常侍、尚書僕射令、光祿大夫。咸熙中，晉文王始建五等，命秀典爲制度，封廣川侯。晉室受禪，進左光祿大夫，改封钜鹿公，遷司空。著易及樂論，又畫地域圖十八篇，傳行於世。盟會圖及典治官制皆未成。年四十八，泰始七年薨，諡元公，配食宗廟。少子頠，字逸民，襲封。荀綽《冀州記》曰：頠爲人弘雅有遠識，博學稽古，履行高整，自少知名。歷位太子中庶子、侍中尚書。元康末，爲尚書左僕射。趙王倫以其望重，畏而惡之，知其不與賈氏同心，猶被枉害。臣松之案陸機《惠帝起居注》稱「頠雅有遠量，當朝名士也」，又曰「民之望也」。頠理具淵博，贍於論難，著崇有、貴無二論，以矯虛誕之弊，文辭精富，爲世名論。子嵩，字道文。荀綽稱嵩有父祖風。爲中書郎，早卒。頠從父弟邈，字景聲，有雋才，爲太傅司馬越從事中郎，假節監中外營諸軍事。潛少弟徽，字文季，冀州刺史。有高才遠度，善言玄妙。事見荀粲、傅嘏、王弼、管輅諸傳。徽長子黎，字伯宗，一名演，遊擊將軍。次康，字仲豫，太子左衛率。次楷，字叔則，侍中中書令、光祿大夫、開府。次綽，字季舒，黃門侍郎，早卒，追贈長水校尉。康、楷、綽皆爲名士，而楷才望最重。《晉諸公贊》曰：康有弘量，綽以明達爲稱，楷少與琅邪王戎俱爲掾發名，鍾會致之大將軍司馬文王曰：「裴楷清通，王戎簡要。」文王即辟爲掾，進歷顯位。謝鯤爲樂廣傳，稱楷雋朗有識具，當時獨步。黎子苞，秦州刺史。康子純，黃門侍郎。次盾，徐州刺史。次郃，有器望。晉元帝爲安東將軍，郃爲長史，侍中王曠與司馬越書曰：「裴郃在此，雖不治事，然識量弘淹，此下人士大敬附之。」次廓，中壘將軍。楷子瓚，中書郎。次憲，豫州刺史。綽子遐，太傅主簿。瓚、遐並有盛名，早卒。《晉諸公贊》稱憲有清識。",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0487",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0417"
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "interpretation_note": "只取本見證明載近系；章完整不表示身份、版本或日期全部覆核。"
+    },
+    {
+      "id": "a-sgz023-peiqian-chuo-father-hui",
+      "subject_person_id": "$chuo",
+      "predicate": "father",
+      "object_person_id": "$hui",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "次綽",
+        "fixed_sgz023_source_clause": "chuo-father-hui",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-023",
+          "source_id": "s-sanguozhi-023-peiqian-ws2376966",
+          "chapter_id": "c-sanguozhi-023-peiqian-ws2376966",
+          "paragraph_id": "c-sanguozhi-023-peiqian-ws2376966:p009",
+          "quote": "《文章敘錄》曰：秀字季彥。弘通博濟，八歲能屬文，遂知名。大將軍曹爽辟。喪父服終，推財與兄弟。年二十五，遷黃門侍郎。爽誅，以故吏免。遷衛國相，累遷散騎常侍、尚書僕射令、光祿大夫。咸熙中，晉文王始建五等，命秀典爲制度，封廣川侯。晉室受禪，進左光祿大夫，改封钜鹿公，遷司空。著易及樂論，又畫地域圖十八篇，傳行於世。盟會圖及典治官制皆未成。年四十八，泰始七年薨，諡元公，配食宗廟。少子頠，字逸民，襲封。荀綽《冀州記》曰：頠爲人弘雅有遠識，博學稽古，履行高整，自少知名。歷位太子中庶子、侍中尚書。元康末，爲尚書左僕射。趙王倫以其望重，畏而惡之，知其不與賈氏同心，猶被枉害。臣松之案陸機《惠帝起居注》稱「頠雅有遠量，當朝名士也」，又曰「民之望也」。頠理具淵博，贍於論難，著崇有、貴無二論，以矯虛誕之弊，文辭精富，爲世名論。子嵩，字道文。荀綽稱嵩有父祖風。爲中書郎，早卒。頠從父弟邈，字景聲，有雋才，爲太傅司馬越從事中郎，假節監中外營諸軍事。潛少弟徽，字文季，冀州刺史。有高才遠度，善言玄妙。事見荀粲、傅嘏、王弼、管輅諸傳。徽長子黎，字伯宗，一名演，遊擊將軍。次康，字仲豫，太子左衛率。次楷，字叔則，侍中中書令、光祿大夫、開府。次綽，字季舒，黃門侍郎，早卒，追贈長水校尉。康、楷、綽皆爲名士，而楷才望最重。《晉諸公贊》曰：康有弘量，綽以明達爲稱，楷少與琅邪王戎俱爲掾發名，鍾會致之大將軍司馬文王曰：「裴楷清通，王戎簡要。」文王即辟爲掾，進歷顯位。謝鯤爲樂廣傳，稱楷雋朗有識具，當時獨步。黎子苞，秦州刺史。康子純，黃門侍郎。次盾，徐州刺史。次郃，有器望。晉元帝爲安東將軍，郃爲長史，侍中王曠與司馬越書曰：「裴郃在此，雖不治事，然識量弘淹，此下人士大敬附之。」次廓，中壘將軍。楷子瓚，中書郎。次憲，豫州刺史。綽子遐，太傅主簿。瓚、遐並有盛名，早卒。《晉諸公贊》稱憲有清識。",
+          "subject_person_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0508",
+          "object_person_mention_id": "c-sanguozhi-023-peiqian-ws2376966:p009:m0417"
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "interpretation_note": "只取本見證明載近系；章完整不表示身份、版本或日期全部覆核。"
+    }
+  ],
+  "literal_seed_template": {
+    "id": "name-jin040-wyd-peikai-18",
+    "person_id": "$kai",
+    "surname": "裴",
+    "ming": "楷",
+    "hao": null,
+    "title": null,
+    "additional_names": [],
+    "chapter_id": "c-jinshu-040-wyd1739-jiachong",
+    "paragraph_id": "c-jinshu-040-wyd1739-jiachong:p005",
+    "person_mention_id": "c-jinshu-040-wyd1739-jiachong:p005:m0040",
+    "source_anchor": {
+      "start": 40,
+      "end": 42,
+      "surface": "裴楷"
+    },
+    "quote": "傅鄭沖又與司空荀顗中書監荀勗中軍將軍羊祜中護軍王業及廷尉杜友守河南尹杜預散騎侍郎裴楷潁川太守周雄齊相郭頎騎都尉成公綏荀煇尚書郎柳軌等典正其事朕每鑒其用心常慨然嘉之今法律既成始班天下刑寛禁簡足以尅當先旨昔蕭何以定律受封叔孫通以制儀為奉常賜金五百斤弟子皆為郎夫立功立事古之所重自太傅車騎以下皆加祿賞其詳依故典於是賜充子弟一人關內侯絹五百匹固讓不許後代裴秀為尚書令常侍車騎將軍如故尋改常侍為侍中賜絹七百匹以母憂去職詔遣黃門侍郎",
+    "status": "editorial_provisional",
+    "human_reviewed": false,
+    "model": null
+  }
+}

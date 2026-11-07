@@ -1,0 +1,194 @@
+{
+  "life_annotation": {
+    "life_stage": "fixed_jin098_three_basics_and_same_death",
+    "age_assertions": [
+      {
+        "id": "age-jin098-wangdun-death59",
+        "person_id": "$dun",
+        "value": 59,
+        "source_number": "五十九",
+        "source_term": "時年五十九",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-jin098-wangdun-death-undated"
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-098",
+            "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+            "chapter_id": "c-jinshu-098-wangdun-comparison",
+            "paragraph_id": "c-jinshu-098-wangdun-comparison:p034",
+            "quote": "鳳等至京師，屯于水南。帝親率六軍以禦鳳，頻戰破之。敦謂羊鑒及子應曰：「我亡後，應便即位，先立朝廷百官，然後乃營葬事。」初，敦始病，夢白犬自天而下齧之，又見刁協乘軺車導從，瞋目令左右執之。俄而敦死，時年五十九。應秘不發喪，裹屍以席，蠟塗其外，埋於廳事中，與諸葛瑤等恆縱酒淫樂。",
+            "person_mention_id": "c-jinshu-098-wangdun-comparison:p034:m0095"
+          }
+        ],
+        "interpretation_note": "只記原文報齡59，來源未明具體計歲方式；不由虛歲慣例倒算出生，不借323/324作卒年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  },
+  "new_life_record": {
+    "format_version": "0.1",
+    "work_id": "w-jinshu",
+    "chapter_id": "c-jinshu-098-wangdun-comparison",
+    "record_type": "person_life_event_assertion_set",
+    "events": [
+      {
+        "id": "le-jin098-wangdun-death-undated",
+        "person_id": "$dun",
+        "event_type": "death",
+        "status": "source_attested",
+        "date_expression": null,
+        "source_term": "敦死",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-098",
+            "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+            "chapter_id": "c-jinshu-098-wangdun-comparison",
+            "paragraph_id": "c-jinshu-098-wangdun-comparison:p034",
+            "quote": "鳳等至京師，屯于水南。帝親率六軍以禦鳳，頻戰破之。敦謂羊鑒及子應曰：「我亡後，應便即位，先立朝廷百官，然後乃營葬事。」初，敦始病，夢白犬自天而下齧之，又見刁協乘軺車導從，瞋目令左右執之。俄而敦死，時年五十九。應秘不發喪，裹屍以席，蠟塗其外，埋於廳事中，與諸葛瑤等恆縱酒淫樂。",
+            "person_mention_id": "c-jinshu-098-wangdun-comparison:p034:m0095"
+          }
+        ],
+        "interpretation_note": "本源p034實敘真卒，與076及敦死為同一死亡的獨立見證，並非第二次死亡；不取偽死詔，不將太甯元年延用到此，不補卒年或出生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  },
+  "new_address_record": {
+    "format_version": "0.1",
+    "work_id": "w-jinshu",
+    "chapter_id": "c-jinshu-098-wangdun-comparison",
+    "record_type": "person_address_assertion_set",
+    "assertions": [
+      {
+        "id": "pa-jin098-shenchong-wuxing-origin",
+        "person_id": "$shenchong",
+        "relation": "biographical_origin",
+        "place": {
+          "source_name": "吳興",
+          "place_id": null,
+          "modern_identification": null
+        },
+        "status": "source_attested",
+        "date_expression": null,
+        "source_term": "吳興人",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-098",
+            "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+            "chapter_id": "c-jinshu-098-wangdun-comparison",
+            "paragraph_id": "c-jinshu-098-wangdun-comparison:p017",
+            "quote": "敦党吳興人沈充起兵應敦。敦至蕪湖，又上表罪狀刁協。帝大怒，下詔曰：「王敦憑恃寵靈，敢肆狂逆，方朕太甲，欲見幽囚。是可忍也，孰不可忍也！今親率六軍，以誅大逆，有殺敦者，封五千戶侯。」召戴若思、劉隗並會京師。敦兄含時為光祿勳，叛奔於敦。",
+            "person_mention_id": "c-jinshu-098-wangdun-comparison:p017:m0005"
+          }
+        ],
+        "interpretation_note": "本源明吳興人為籍貫；與073沈充之走吳興的遷往目的地不同關係，不補出生地、現代行政區或子勁本籍。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  },
+  "group_record": {
+    "record_type": "person_life_event_group_set",
+    "work_id": "w-jinshu",
+    "chapter_id": "c-jinshu-098-wangdun-comparison",
+    "groups": [
+      {
+        "id": "leg-jin076-jin098-wangdun-same-death",
+        "kind": "fixed_jin076_jin098_same_death",
+        "person_id": "$dun",
+        "event_type": "death",
+        "member_event_ids": [
+          "le-jin076-wangbin-50-3",
+          "le-jin098-wangdun-death-undated"
+        ],
+        "representative_event_id": "le-jin098-wangdun-death-undated",
+        "date_status": "not_reported",
+        "status": "editorial_provisional",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-076",
+            "source_id": "s-jinshu-076-wangbin",
+            "chapter_id": "c-jinshu-076-wangbin",
+            "paragraph_id": "c-jinshu-076-wangbin:line050",
+            "quote": "及敦死，王含欲投王舒，王應勸含投彬。含曰：「大將軍平素與江州云何，汝欲歸之？」應曰：「此乃所以宜往也。江州當人強盛時，能立同異，此非常人所及。睹衰厄，必興湣惻。荊州守文，豈能意外行事！」含不從，遂共投舒，舒果沈含父子于江。彬聞應來，密具船以待之。既不至，深以為恨。",
+            "person_mention_id": "c-jinshu-076-wangbin:line050:m0001"
+          },
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-098",
+            "source_id": "s-jinshu098-wangdun-ws2614273-comparison",
+            "chapter_id": "c-jinshu-098-wangdun-comparison",
+            "paragraph_id": "c-jinshu-098-wangdun-comparison:p034",
+            "quote": "鳳等至京師，屯于水南。帝親率六軍以禦鳳，頻戰破之。敦謂羊鑒及子應曰：「我亡後，應便即位，先立朝廷百官，然後乃營葬事。」初，敦始病，夢白犬自天而下齧之，又見刁協乘軺車導從，瞋目令左右執之。俄而敦死，時年五十九。應秘不發喪，裹屍以席，蠟塗其外，埋於廳事中，與諸葛瑤等恆縱酒淫樂。",
+            "person_mention_id": "c-jinshu-098-wangdun-comparison:p034:m0095"
+          }
+        ],
+        "rationale": "076及敦死與098俄而敦死時年五十九明指同一王敦終亡，兩筆是不同篇來源見證，不是兩次死亡；兩源均無確切死亡年。098偽死詔與導書傳聞不在分組內。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "date": null,
+        "member_bindings": [
+          {
+            "event_id": "le-jin076-wangbin-50-3",
+            "person_mention_id": "c-jinshu-076-wangbin:line050:m0001",
+            "event_evidence_mention_id": "c-jinshu-076-wangbin:line050:m0022"
+          },
+          {
+            "event_id": "le-jin098-wangdun-death-undated",
+            "person_mention_id": "c-jinshu-098-wangdun-comparison:p034:m0095",
+            "event_evidence_mention_id": "c-jinshu-098-wangdun-comparison:p034:m0095"
+          }
+        ]
+      }
+    ],
+    "format_version": "0.1"
+  },
+  "prior_life_record": {
+    "id": "le-jin076-wangbin-50-3",
+    "person_id": "$dun",
+    "event_type": "death",
+    "status": "source_attested",
+    "date_expression": null,
+    "source_term": "敦死",
+    "evidence": [
+      {
+        "work_id": "w-jinshu",
+        "book_id": "b-jinshu-076",
+        "source_id": "s-jinshu-076-wangbin",
+        "chapter_id": "c-jinshu-076-wangbin",
+        "paragraph_id": "c-jinshu-076-wangbin:line050",
+        "quote": "及敦死，王含欲投王舒，王應勸含投彬。含曰：「大將軍平素與江州云何，汝欲歸之？」應曰：「此乃所以宜往也。江州當人強盛時，能立同異，此非常人所及。睹衰厄，必興湣惻。荊州守文，豈能意外行事！」含不從，遂共投舒，舒果沈含父子于江。彬聞應來，密具船以待之。既不至，深以為恨。",
+        "person_mention_id": "c-jinshu-076-wangbin:line050:m0022"
+      }
+    ],
+    "interpretation_note": "只記原段明示死亡；先是等回述不強定同年，不由官名推卒地，不把詐報殺害當死亡事實。",
+    "reviewer": "Codex（AI 代理）",
+    "human_reviewed": false,
+    "model": null
+  },
+  "source076_existing_direct_marker": {
+    "id": "c-jinshu-076-wangbin:line050:m0001",
+    "start": 1,
+    "end": 2,
+    "surface": "敦",
+    "kind": "person",
+    "person_id": "$dun",
+    "status": "contextual_provisional"
+  }
+}

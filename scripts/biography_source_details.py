@@ -27,7 +27,12 @@ def valid(d,ch,hs,qs,root=None):
  if 'source_career_role' in d:
   try:from scripts.received_career_roles import detail_valid
   except ImportError:from received_career_roles import detail_valid
-  return detail_valid(d,ch,hs)
+  valid=detail_valid(d,ch,hs,root)
+  if valid and d.get('source_career_role',{}).get('kind')=='fixed_jin098_received_career_phase1'and 'normalized_date'in d:
+   try:from scripts.validate_corpus import normalized_date_errors
+   except ImportError:from validate_corpus import normalized_date_errors
+   return not normalized_date_errors(d['normalized_date'],{ch['id']:ch},root,d,'source_detail')
+  return valid
 
  if 'source_family_duty_frame' in d:
   try:from scripts.named_family_offices import duty_valid

@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "id": "ne6_xba_s8z_A",
+  "canonical_person_id": "ne6_xba_s8z_A",
+  "label": "陸駿〔陸遜父〕",
+  "identity_note": "裴松之注引陸氏世頌明陸遜祖/父；原觀測簡體纡/骏/叔盘不轉字，實際印本未知、無書影。駿父紆由同主語祖與父相鄰父系世代推導，不冒逐字父句；不接其他陸氏支。",
+  "review": "ai_provisional",
+  "names": [
+    "骏"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 58,
+      "category": "",
+      "title": "陸遜傳",
+      "paragraph_id": "c-sgz058-lu-near-family:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "〈陆氏世颂曰：逊祖纡，字叔盘，敏淑有思学，守城门校尉。父骏，字季才，淳懿信厚，为邦族所怀，官至九江都尉。〉",
+      "paragraph_ids": [
+        "c-sgz058-lu-near-family:p002"
+      ],
+      "mention_ids": [
+        "c-sgz058-lu-near-family:p002:m0028"
+      ],
+      "mention_paragraph_ids": {
+        "c-sgz058-lu-near-family:p002:m0028": "c-sgz058-lu-near-family:p002"
+      },
+      "mention_id": "c-sgz058-lu-near-family:p002:m0028",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sgz058-lu-near-family:p002:m0028",
+          "mention_ids": [
+            "c-sgz058-lu-near-family:p002:m0028"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "chapter_id": "c-sgz058-lu-near-family",
+      "source_id": "s-sgz058-lu-near-family",
+      "work_title": "三國志"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-sgz058-lu-near-family",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "source_id": "s-sgz058-lu-near-family",
+      "source": {
+        "title": "《三國志》·陸遜傳",
+        "provider": "維基文庫固定修訂rendered完整單元既存觀測",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2131313&title=三國志/卷58",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2131313&title=三國志/卷58",
+        "revision_id": 2131313,
+        "accessed_on": "2026-10-30",
+        "edition": null,
+        "edition_qualification": "實際印本未知；只取得rendered，未取得wikitext/原HTML或書影，不冒武英殿。",
+        "image_verified": false,
+        "human_reviewed": false,
+        "original_wikitext_obtained": false,
+        "capture_kind": "reused_fixed_permalink_rendered_complete_unit_observation",
+        "text_scope": "partial_chapter",
+        "extent": "兩完整陸遜敘事段，含完整裴注；只標父祖/父子有限角色，從祖康等其他具名原字保留但未全NER。",
+        "review_status": "text_checked",
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA4.0保留來源歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "received_unit_ledger": "source-evidence/lu-six-near-family/received-complete-units.json",
+        "normalization": {
+          "note": "不作簡繁轉換；三國志開頭觀測轉義縮排僅以明確字位排除，不覆原capture。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-lu-near-xun-father-jun",
+      "subject_person_id": "ne6_xba_s8z_AA",
+      "predicate": "father",
+      "object_person_id": "ne6_xba_s8z_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父骏",
+        "source_clause_binding": {
+          "kind": "fixed_lu_six_near_family",
+          "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+          "case": "xun-father-jun"
+        },
+        "lineage": "paternal",
+        "source_layer": "裴松之注引陸氏世頌"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "source_id": "s-sgz058-lu-near-family",
+          "chapter_id": "c-sgz058-lu-near-family",
+          "paragraph_id": "c-sgz058-lu-near-family:p002",
+          "quote": "〈陆氏世颂曰：逊祖纡，字叔盘，敏淑有思学，守城门校尉。父骏，字季才，淳懿信厚，为邦族所怀，官至九江都尉。〉",
+          "subject_person_mention_id": "c-sgz058-lu-near-family:p002:m0007",
+          "object_person_mention_id": "c-sgz058-lu-near-family:p002:m0028"
+        }
+      ],
+      "interpretation_note": "有限來源角色與近父系世代；保原引文層，不由嗣/爵/兄弟單獨造父，不把字母ID當排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lu-near-jun-father-yu-derived",
+      "subject_person_id": "ne6_xba_s8z_A",
+      "predicate": "father",
+      "object_person_id": "ne6_xba_s8z",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "逊祖纡",
+        "source_clause_binding": {
+          "kind": "fixed_lu_six_near_family",
+          "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+          "case": "jun-father-yu-derived"
+        },
+        "lineage": "paternal",
+        "source_statement_mode": "derived_adjacent_paternal_generations",
+        "derivation_basis": {
+          "topic_role": "xun",
+          "reported_grandfather_role": "yu",
+          "reported_father_role": "jun",
+          "literal_clauses": [
+            "逊祖纡",
+            "父骏"
+          ],
+          "not_verbatim_father_statement": true
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "source_id": "s-sgz058-lu-near-family",
+          "chapter_id": "c-sgz058-lu-near-family",
+          "paragraph_id": "c-sgz058-lu-near-family:p002",
+          "quote": "〈陆氏世颂曰：逊祖纡，字叔盘，敏淑有思学，守城门校尉。父骏，字季才，淳懿信厚，为邦族所怀，官至九江都尉。〉",
+          "subject_person_mention_id": "c-sgz058-lu-near-family:p002:m0028",
+          "object_person_mention_id": "c-sgz058-lu-near-family:p002:m0009"
+        }
+      ],
+      "interpretation_note": "有限來源角色與近父系世代；保原引文層，不由嗣/爵/兄弟單獨造父，不把字母ID當排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "ne6_xba_s8z": "陸紆〔陸遜祖〕",
+    "ne6_xba_s8z_A": "陸駿〔陸遜父〕",
+    "ne6_xba_s8z_AA": "陸遜"
+  },
+  "dates": [],
+  "preferred_name_component_readings": [
+    {
+      "id": "pnc-lu-near-jun-ming",
+      "person_id": "ne6_xba_s8z_A",
+      "field": "ming",
+      "preferred_value": "駿",
+      "source_values": [
+        "骏"
+      ],
+      "records": [
+        {
+          "record": {
+            "id": "name-lu-near-jun",
+            "person_id": "ne6_xba_s8z_A",
+            "chapter_id": "c-sgz058-lu-near-family",
+            "paragraph_id": "c-sgz058-lu-near-family:p002",
+            "surname": "陸",
+            "ming": "骏",
+            "quote": "〈陆氏世颂曰：逊祖纡，字叔盘，敏淑有思学，守城门校尉。父骏，字季才，淳懿信厚，为邦族所怀，官至九江都尉。〉"
+          },
+          "anchor": {
+            "id": "c-sgz058-lu-near-family:p002:m0028",
+            "start": 28,
+            "end": 29,
+            "surface": "骏",
+            "kind": "person",
+            "person_id": "ne6_xba_s8z_A",
+            "status": "contextual_provisional",
+            "source_role": "jun",
+            "interpretation_note": "完整收到單元及具體局部父祖/別傳明名角色，非全域同字接合。"
+          },
+          "source_id": "s-sgz058-lu-near-family"
+        }
+      ],
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "rationale": "顯示層明示簡體至繁體字形轉換，不是另一原文見證；原紀錄、引文、錨及aliases不改。",
+      "coverage": "listed_records_only",
+      "basis": {
+        "kind": "source_bound_editorial_glyph_conversion",
+        "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+        "conversion_kind": "declared_simplified_to_traditional_glyph_display_only",
+        "source_field": "ming",
+        "received_value": "骏",
+        "display_value": "駿",
+        "not_an_additional_received_witness": true,
+        "human_reviewed": false
+      }
+    }
+  ],
+  "name_components": [
+    {
+      "id": "name-lu-near-jun",
+      "person_id": "ne6_xba_s8z_A",
+      "surname": "陸",
+      "ming": "骏",
+      "zi": "季才",
+      "additional_names": [],
+      "chapter_id": "c-sgz058-lu-near-family",
+      "paragraph_id": "c-sgz058-lu-near-family:p002",
+      "person_mention_id": "c-sgz058-lu-near-family:p002:m0028",
+      "source_anchor": {
+        "start": 28,
+        "end": 29,
+        "surface": "骏"
+      },
+      "quote": "〈陆氏世颂曰：逊祖纡，字叔盘，敏淑有思学，守城门校尉。父骏，字季才，淳懿信厚，为邦族所怀，官至九江都尉。〉",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_lu_near_paternal_roles",
+        "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+        "role": "jun",
+        "literal_surname_role": "xun",
+        "literal_surname_mid": "c-sgz058-lu-near-family:p001:m0002",
+        "not_literal_full_name": true
+      },
+      "note": "姓由正文陸遜與裴引同主語近父祖角色明示補回；原纡/骏/叔盘簡體保留，不冒原文全名陸紆/陸駿。",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-058",
+      "source_id": "s-sgz058-lu-near-family"
+    }
+  ],
+  "person_ids": [
+    "ne6_xba_s8z_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-lu-near-xun-father-jun",
+      "subject_person_id": "ne6_xba_s8z_AA",
+      "predicate": "father",
+      "object_person_id": "ne6_xba_s8z_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父骏",
+        "source_clause_binding": {
+          "kind": "fixed_lu_six_near_family",
+          "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+          "case": "xun-father-jun"
+        },
+        "lineage": "paternal",
+        "source_layer": "裴松之注引陸氏世頌"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "source_id": "s-sgz058-lu-near-family",
+          "chapter_id": "c-sgz058-lu-near-family",
+          "paragraph_id": "c-sgz058-lu-near-family:p002",
+          "quote": "〈陆氏世颂曰：逊祖纡，字叔盘，敏淑有思学，守城门校尉。父骏，字季才，淳懿信厚，为邦族所怀，官至九江都尉。〉",
+          "subject_person_mention_id": "c-sgz058-lu-near-family:p002:m0007",
+          "object_person_mention_id": "c-sgz058-lu-near-family:p002:m0028"
+        }
+      ],
+      "interpretation_note": "有限來源角色與近父系世代；保原引文層，不由嗣/爵/兄弟單獨造父，不把字母ID當排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lu-near-jun-father-yu-derived",
+      "subject_person_id": "ne6_xba_s8z_A",
+      "predicate": "father",
+      "object_person_id": "ne6_xba_s8z",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "逊祖纡",
+        "source_clause_binding": {
+          "kind": "fixed_lu_six_near_family",
+          "contract_ref": "source-evidence/lu-six-near-family/family-source-contract.json",
+          "case": "jun-father-yu-derived"
+        },
+        "lineage": "paternal",
+        "source_statement_mode": "derived_adjacent_paternal_generations",
+        "derivation_basis": {
+          "topic_role": "xun",
+          "reported_grandfather_role": "yu",
+          "reported_father_role": "jun",
+          "literal_clauses": [
+            "逊祖纡",
+            "父骏"
+          ],
+          "not_verbatim_father_statement": true
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-058",
+          "source_id": "s-sgz058-lu-near-family",
+          "chapter_id": "c-sgz058-lu-near-family",
+          "paragraph_id": "c-sgz058-lu-near-family:p002",
+          "quote": "〈陆氏世颂曰：逊祖纡，字叔盘，敏淑有思学，守城门校尉。父骏，字季才，淳懿信厚，为邦族所怀，官至九江都尉。〉",
+          "subject_person_mention_id": "c-sgz058-lu-near-family:p002:m0028",
+          "object_person_mention_id": "c-sgz058-lu-near-family:p002:m0009"
+        }
+      ],
+      "interpretation_note": "有限來源角色與近父系世代；保原引文層，不由嗣/爵/兄弟單獨造父，不把字母ID當排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

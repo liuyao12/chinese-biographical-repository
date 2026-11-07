@@ -1,0 +1,202 @@
+{
+  "kind": "wyd_sgz015_caozhang_reference_surname_continuation",
+  "human_reviewed": false,
+  "image_verified": false,
+  "model": null,
+  "parent_ner_contract_sha256": "3adbbc29215bab6e9715a6143817d9e707b678096f24628934bdebf492fd14f8",
+  "names_path": "corpus/sanguozhi/015-wyd1739-jia-opening-full-names.json",
+  "literal_name_template": {
+    "id": "name-sgz015-full-caozhang",
+    "person_id": "$child",
+    "surname": null,
+    "ming": "彰",
+    "hao": null,
+    "title": "鄢陵侯",
+    "additional_names": [],
+    "chapter_id": "c-sanguozhi-015-wyd1739-jia-opening",
+    "paragraph_id": "c-sanguozhi-015-wyd1739-jia-opening:p015",
+    "person_mention_id": "c-sanguozhi-015-wyd1739-jia-opening:p015:m0001",
+    "source_anchor": {
+      "start": 4,
+      "end": 5,
+      "surface": "彰"
+    },
+    "quote": "時鄢陵侯彰行越騎將軍從長安來赴問逵先王璽綬所在逵正色曰太子在鄴國有儲副先王璽綬非君侯所宜問也遂奉梓宮還鄴文帝即王位以鄴縣戶數萬在都下多不法乃以逵為鄴令月餘遷魏郡太守",
+    "status": "editorial_provisional",
+    "human_reviewed": false,
+    "model": null
+  },
+  "editorial_name_template": {
+    "id": "name-sgz015-full-caozhang",
+    "person_id": "$child",
+    "surname": "曹",
+    "ming": "彰",
+    "hao": null,
+    "title": "鄢陵侯",
+    "additional_names": [],
+    "chapter_id": "c-sanguozhi-015-wyd1739-jia-opening",
+    "paragraph_id": "c-sanguozhi-015-wyd1739-jia-opening:p015",
+    "person_mention_id": "c-sanguozhi-015-wyd1739-jia-opening:p015:m0001",
+    "source_anchor": {
+      "start": 4,
+      "end": 5,
+      "surface": "彰"
+    },
+    "quote": "時鄢陵侯彰行越騎將軍從長安來赴問逵先王璽綬所在逵正色曰太子在鄴國有儲副先王璽綬非君侯所宜問也遂奉梓宮還鄴文帝即王位以鄴縣戶數萬在都下多不法乃以逵為鄴令月餘遷魏郡太守",
+    "status": "contextual_provisional",
+    "human_reviewed": false,
+    "model": null,
+    "note": "本源原文作「彰」；「曹」為編者依固定卷十九父子語境及現役曹操姓名證據復姓，不作本源已明寫「曹彰」。參校本印本未明，未經書影校勘。",
+    "surname_basis": {
+      "kind": "contextual_surname_from_wyd_sgz015_reference_parent_fullname",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "literal_source_components": {
+        "surname": null,
+        "ming": "彰"
+      },
+      "father_name_record_id": "name-song051-daogui-literal-caocao",
+      "father_name_source_mention_id": "c-songshu-051-wyd1739-zongshi:p021:m0069",
+      "father_native_role_mention_id": "c-sanguozhi-015-wyd1739-jia-opening:p009:m0109",
+      "reference_unit_id": "ws-sgz019-2347417-zhang-complete3",
+      "reference_actor_role": "taizu",
+      "rationale": "015/019官爵、職務、長安及赴喪時序同指，019諸子與父子引語明示父子；以既有曹操typed姓名的曹作編輯復姓，未新增親屬事實。"
+    },
+    "references": [
+      {
+        "title": "《三國志・任城陳蕭王傳》",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2347417&title=三國志/卷19",
+        "quote": "臨發，太祖戒彰曰：『居家為父子，受事為君臣，動以王法從事，爾其戒之！』",
+        "access_scope_display": "已核讀固定修訂頁呈現的三段正文及注文；印本未核，未取得原始文字檔，未經書影校勘。"
+      }
+    ]
+  },
+  "actor_metadata_before": {
+    "label": "彰",
+    "status": "active",
+    "historicity": "historical_tradition",
+    "identity_note": "SGZ015完整武英殿具名NER來源個體（caozhang）；AI暫定，其他來源同指仍待查，不確認必為另一歷史人；不造父/母/年/家系。 主名依原名或稱謂顯示；先前顯示限定：彰〔鄢陵侯〕。"
+  },
+  "actor_metadata_after": {
+    "label": "曹彰",
+    "status": "active",
+    "historicity": "historical_tradition",
+    "identity_note": "SGZ015完整武英殿具名NER來源個體（caozhang）；AI暫定，其他來源同指仍待查，不確認必為另一歷史人；不造父/母/年/家系。 主名依原名或稱謂顯示；先前顯示限定：彰〔鄢陵侯〕。 編輯復姓：固定卷十九鄢陵侯彰與本源同職、長安赴喪事件相合，且有太祖諸子及居家父子語；重用現役曹操有源曹／操姓名。原文仍彰，不作本源明寫曹彰或新增親屬斷言。"
+  },
+  "native_child_anchors": [
+    {
+      "id": "c-sanguozhi-015-wyd1739-jia-opening:p014:m0008",
+      "start": 8,
+      "end": 11,
+      "surface": "鄢陵侯",
+      "kind": "person",
+      "status": "contextual_provisional",
+      "person_id": "$child"
+    },
+    {
+      "id": "c-sanguozhi-015-wyd1739-jia-opening:p015:m0001",
+      "start": 1,
+      "end": 5,
+      "surface": "鄢陵侯彰",
+      "kind": "person",
+      "status": "contextual_provisional",
+      "person_id": "$child"
+    },
+    {
+      "id": "c-sanguozhi-015-wyd1739-jia-opening:p015:m0040",
+      "start": 40,
+      "end": 42,
+      "surface": "君侯",
+      "kind": "person",
+      "status": "contextual_provisional",
+      "person_id": "$child"
+    }
+  ],
+  "native_father_anchors": [
+    {
+      "id": "c-sanguozhi-015-wyd1739-jia-opening:p009:m0109",
+      "start": 109,
+      "end": 111,
+      "surface": "太祖",
+      "kind": "person",
+      "status": "contextual_provisional",
+      "person_id": "$father"
+    },
+    {
+      "id": "c-sanguozhi-015-wyd1739-jia-opening:p015:m0017",
+      "start": 17,
+      "end": 19,
+      "surface": "先王",
+      "kind": "person",
+      "status": "contextual_provisional",
+      "person_id": "$father"
+    },
+    {
+      "id": "c-sanguozhi-015-wyd1739-jia-opening:p015:m0035",
+      "start": 35,
+      "end": 37,
+      "surface": "先王",
+      "kind": "person",
+      "status": "contextual_provisional",
+      "person_id": "$father"
+    }
+  ],
+  "reference_path": "source-evidence/sgz015-wyd1739-caozhang-surname/reference-019-complete3.json",
+  "reference_sha256": "017746611e27cee016d1acfdba1a5c913f37da2388447c763fe8dfcf72aa7734",
+  "parent_name_seed": {
+    "path": "corpus/songshu/051-wyd1739-daogui-name-components.json",
+    "chapter_path": "corpus/songshu/051-wyd1739.json",
+    "record": {
+      "id": "name-song051-daogui-literal-caocao",
+      "person_id": "$father",
+      "surname": "曹",
+      "ming": "操",
+      "additional_names": [],
+      "chapter_id": "c-songshu-051-wyd1739-zongshi",
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p021",
+      "person_mention_id": "c-songshu-051-wyd1739-zongshi:p021:m0069",
+      "quote": "退還尋陽道規曰不可彼衆我寡彊弱異勢今若畏懦不進必為所乘雖至尋陽豈能自固玄雖竊名雄豪內實恇怯加已經奔敗衆無固心決機兩陣將雄者克昔光武昆陽之戰曹操官渡之師皆以少制多共所聞也今雖才謝古人豈可先為之弱因麾衆而進毅等從之大破玄軍郭銓與玄單舸走江陵不復能守欲入蜀為馮遷所斬義軍遇風不進桓謙桓振復據江陵毅留巴陵道規與無忌俱進攻桓謐於馬頭桓蔚於龍洲皆破之無忌欲乘勝直造江陵道規曰兵法屈申有時不可苟進諸桓世居西楚羣小皆為竭力振勇冠三軍難與",
+      "status": "editorial_provisional",
+      "component_source_binding": {
+        "kind": "fixed_wyd_song051_yixin_name_component",
+        "role": "dg_caocao",
+        "name_form": "source_full_name",
+        "raw_sha256": "8d2ae0cd97228ef9a252a07a5886f2f0c3d445e305f311e484b38a97f462fcad"
+      },
+      "human_reviewed": false,
+      "model": null
+    },
+    "dimensions": {
+      "id": "c-songshu-051-wyd1739-zongshi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-051",
+      "source_id": "s-songshu-051-wyd1739-zongshi"
+    },
+    "source_qualification": {
+      "provider": "CBR AI direct transcription of Commons-hosted NLC scan",
+      "revision_id": "cbr-ai-transcription-sha256:8d2ae0cd97228ef9a252a07a5886f2f0c3d445e305f311e484b38a97f462fcad",
+      "edition": "Commons著錄武英殿清乾隆4年[1739]；頁外版記親見乾隆四年校刊，非獨立刊記普查",
+      "image_verified": false,
+      "raw_file_sha256": null
+    },
+    "annotation_qualification": {
+      "human_reviewed": false,
+      "model": null
+    },
+    "paragraph": {
+      "id": "c-songshu-051-wyd1739-zongshi:p021",
+      "text": "退還尋陽道規曰不可彼衆我寡彊弱異勢今若畏懦不進必為所乘雖至尋陽豈能自固玄雖竊名雄豪內實恇怯加已經奔敗衆無固心決機兩陣將雄者克昔光武昆陽之戰曹操官渡之師皆以少制多共所聞也今雖才謝古人豈可先為之弱因麾衆而進毅等從之大破玄軍郭銓與玄單舸走江陵不復能守欲入蜀為馮遷所斬義軍遇風不進桓謙桓振復據江陵毅留巴陵道規與無忌俱進攻桓謐於馬頭桓蔚於龍洲皆破之無忌欲乘勝直造江陵道規曰兵法屈申有時不可苟進諸桓世居西楚羣小皆為竭力振勇冠三軍難與",
+      "text_layer": "received_chapter"
+    },
+    "marker": {
+      "id": "c-songshu-051-wyd1739-zongshi:p021:m0069",
+      "start": 69,
+      "end": 71,
+      "surface": "曹操",
+      "kind": "person",
+      "person_id": "$father",
+      "status": "contextual_provisional"
+    },
+    "chapter_text_sha256": "8de01d4808b7f048fea1e62e0af17be5f15acc56c655ff6c2f04dad1538943f9"
+  }
+}

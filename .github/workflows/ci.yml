@@ -7,7 +7,7 @@ on:
 permissions:
   contents: read
 jobs:
-  test:
+  python-plan:
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
@@ -27,7 +27,81 @@ jobs:
       - run: python -m scripts.name_history validate
       - run: python -m scripts.reading_catalog --check
       - run: python -m scripts.historical_tables validate
-      - run: python -m unittest discover -s tests -v
+      - run: python -m scripts.python_test_shards plan --commit "$GITHUB_SHA" --require-head-commit --shards 8 --output .ci-results/python-plan.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: python-plan-ci
+          path: .ci-results/python-plan.json
+          if-no-files-found: error
+          include-hidden-files: true
+  python-shards:
+    needs: python-plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      matrix:
+        index: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/download-artifact@v4
+        with:
+          name: python-plan-ci
+          path: .ci-results
+      - run: python -m scripts.python_test_shards run --commit "$GITHUB_SHA" --require-head-commit --plan .ci-results/python-plan.json --index ${{ matrix.index }} --output .ci-results/shard-${{ matrix.index }}.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: python-shard-ci-${{ matrix.index }}
+          path: .ci-results/shard-${{ matrix.index }}.json
+          if-no-files-found: error
+          include-hidden-files: true
+  test:
+    if: always()
+    needs: [python-plan, python-shards]
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/download-artifact@v4
+        if: needs['python-plan'].result == 'success'
+        with:
+          name: python-plan-ci
+          path: .ci-results
+      - uses: actions/download-artifact@v4
+        if: needs['python-plan'].result == 'success'
+        with:
+          pattern: python-shard-ci-*
+          path: .ci-results/reports
+          merge-multiple: true
+      - run: python -m scripts.python_test_shards aggregate --commit "$GITHUB_SHA" --require-head-commit --plan .ci-results/python-plan.json --reports .ci-results/reports --output .ci-results/coverage.json
+        if: needs['python-plan'].result == 'success'
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: python-coverage-ci
+          path: .ci-results/coverage.json
+          if-no-files-found: error
+          include-hidden-files: true
+      - name: Require every Python job and complete coverage
+        if: always()
+        env:
+          PLAN_RESULT: ${{ needs['python-plan'].result }}
+          SHARD_RESULT: ${{ needs['python-shards'].result }}
+        run: python -c "import os; assert os.environ['PLAN_RESULT'] == os.environ['SHARD_RESULT'] == 'success', 'Python plan or shard job failed/cancelled/skipped'"
       - run: npm test && npm run check
       - run: python scripts/renwen.py build-db
       - run: python scripts/profiles.py index-db

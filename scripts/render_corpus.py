@@ -10,6 +10,11 @@ try:
 except ImportError:
     from reading_layout import partition
 
+try:
+    from .person_mentions import is_person_reference
+except ImportError:
+    from person_mentions import is_person_reference
+
 
 def render(chapter):
     escape = lambda value: html.escape(value, quote=True)
@@ -28,6 +33,8 @@ def render(chapter):
             attributes = f'id="{escape(mention["id"])}"'
             if mention['kind'] == 'person' and mention['person_id']:
                 tag = 'persName'; attributes += f' ref="{escape(mention["person_id"])}"'
+            elif mention['kind'] == 'pronoun' and is_person_reference(mention):
+                tag = 'seg'; attributes += f' type="pronoun" ref="{escape(mention["person_id"])}"'
             elif mention['kind'] == 'unresolved' and mention['person_id'] is None:
                 tag = 'rs'; attributes += ' type="unresolved"'
             elif mention['kind'] == 'non_person' and mention['person_id'] is None:

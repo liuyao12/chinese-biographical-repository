@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "id": "tnz_b35_75m",
+  "canonical_person_id": "tnz_b35_75m",
+  "label": "張本",
+  "identity_note": "本固定晉書037完整近系單元已明確具名；跨篇同指未定者來源內登記，不宣稱與同名者必異。",
+  "review": "ai_provisional",
+  "names": [
+    "張本"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 37,
+      "category": "",
+      "title": "宗室",
+      "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p007",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "」模從之，遂降於染。染箕踞攘袂數模之罪，送詣粲。粲殺之，以模妃劉氏賜胡張本為妻。子保立。",
+      "paragraph_ids": [
+        "c-jinshu-037-gaomi-nanyang-ws2630018:p007"
+      ],
+      "mention_ids": [
+        "c-jinshu-037-gaomi-nanyang-ws2630018:p007:m0120"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-037-gaomi-nanyang-ws2630018:p007:m0120": "c-jinshu-037-gaomi-nanyang-ws2630018:p007"
+      },
+      "mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p007:m0120",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p007:m0120",
+          "mention_ids": [
+            "c-jinshu-037-gaomi-nanyang-ws2630018:p007:m0120"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-037",
+      "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+      "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-037",
+      "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+      "source": {
+        "title": "《晉書》卷三十七宗室",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷037",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
+        "revision_id": 2630018,
+        "edition": null,
+        "review_status": "text_checked",
+        "image_verified": false,
+        "text_scope": "partial_chapter",
+        "extent": "泰三段、略整段、模三段、保三段、綏及虓完整敘事與兩疏；不重複權既有段。",
+        "raw_path": "source-evidence/jin090-caoshu/jin037-fixed.txt",
+        "raw_file_sha256": "557274fb21e7041782d93622e5fc32d67cf56ed38d6f5a3994e238b60b9638d6",
+        "raw_capture_kind": "reused_existing_fixed_capture",
+        "quality_note": "重用既存本機固定修訂文字；實際印本未知，不據網站題名冒稱武英殿或圖校。數位校記另層保存。",
+        "rights": "古代原文；維基文庫數位轉錄CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin037-near-014",
+      "subject_person_id": "52l_pdp_2nc",
+      "predicate": "spouse",
+      "object_person_id": "tnz_b35_75m",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "賜胡張本為妻",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_jin037_near_family",
+          "contract_ref": "source-evidence/jin037-gaomi-nanyang/source-contract.json"
+        },
+        "coercion": {
+          "kind": "forced_transfer",
+          "source_term": "賜胡張本為妻"
+        },
+        "children_maternity": "not_inferred"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+          "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+          "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p007",
+          "quote": "洛京傾覆，模使牙門趙染戍蒲阪，染求馮翊太守不得，怒，率眾降于劉聰。聰使其子粲及染攻長安，模使淳於定距之，為染所敗。士眾離叛，倉庫虛竭，軍祭酒韋輔曰：「事急矣，早降可以免。」模從之，遂降於染。染箕踞攘袂數模之罪，送詣粲。粲殺之，以模妃劉氏賜胡張本為妻。子保立。",
+          "subject_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p007:m0116",
+          "object_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p007:m0120"
+        }
+      ],
+      "interpretation_note": "本人妻氏劉氏；粲以模妃轉賜張本，保強制語境，不據妻身分補子女生母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "52l_pdp_2nc": "劉氏（司馬模妃）",
+    "tnz_b35_75m": "張本"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "name-jin037-near-zhangben",
+      "person_id": "tnz_b35_75m",
+      "surname": "張",
+      "ming": "本",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+      "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p007",
+      "person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p007:m0120",
+      "source_anchor": {
+        "start": 120,
+        "end": 122,
+        "surface": "張本"
+      },
+      "quote": "洛京傾覆，模使牙門趙染戍蒲阪，染求馮翊太守不得，怒，率眾降于劉聰。聰使其子粲及染攻長安，模使淳於定距之，為染所敗。士眾離叛，倉庫虛竭，軍祭酒韋輔曰：「事急矣，早降可以免。」模從之，遂降於染。染箕踞攘袂數模之罪，送詣粲。粲殺之，以模妃劉氏賜胡張本為妻。子保立。",
+      "note": "來源具名原字；氏稱不補本名，所報異文分見數位校記，不加成無資格全域異名。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-037",
+      "source_id": "s-jinshu037-gaomi-nanyang-ws2630018"
+    }
+  ],
+  "person_ids": [
+    "tnz_b35_75m"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin037-near-014",
+      "subject_person_id": "52l_pdp_2nc",
+      "predicate": "spouse",
+      "object_person_id": "tnz_b35_75m",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "賜胡張本為妻",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "fixed_jin037_near_family",
+          "contract_ref": "source-evidence/jin037-gaomi-nanyang/source-contract.json"
+        },
+        "coercion": {
+          "kind": "forced_transfer",
+          "source_term": "賜胡張本為妻"
+        },
+        "children_maternity": "not_inferred"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
+          "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
+          "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p007",
+          "quote": "洛京傾覆，模使牙門趙染戍蒲阪，染求馮翊太守不得，怒，率眾降于劉聰。聰使其子粲及染攻長安，模使淳於定距之，為染所敗。士眾離叛，倉庫虛竭，軍祭酒韋輔曰：「事急矣，早降可以免。」模從之，遂降於染。染箕踞攘袂數模之罪，送詣粲。粲殺之，以模妃劉氏賜胡張本為妻。子保立。",
+          "subject_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p007:m0116",
+          "object_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p007:m0120"
+        }
+      ],
+      "interpretation_note": "本人妻氏劉氏；粲以模妃轉賜張本，保強制語境，不據妻身分補子女生母。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

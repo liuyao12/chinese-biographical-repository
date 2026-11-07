@@ -1,0 +1,89 @@
+{
+  "method": "AI direct visual reading of actual private JPEG and diagnostic crops; no OCR/etext used to fill missing characters",
+  "human_reviewed": false,
+  "image_verified": false,
+  "unknown_glyphs": [
+    {
+      "kind": "unresolved_printed_glyph",
+      "raw_line": 12,
+      "pdf_page": 48,
+      "side": "left",
+      "physical_column_from_right_1based": 1,
+      "character_1based": 18,
+      "placeholder": "〓",
+      "placeholder_is_source_glyph": false,
+      "printed_blank_or_missing_notice": false,
+      "accepted_reading": null,
+      "AI_candidate_encodings": [
+        "褉",
+        "禊"
+      ],
+      "qualification": "可見原刻字，但本AI未能確定Unicode讀字；候選不當改讀已採，無人工核驗。",
+      "source_image_link": "https://commons.wikimedia.org/w/index.php?curid=124071879#page=48"
+    },
+    {
+      "kind": "unresolved_printed_glyph",
+      "raw_line": 79,
+      "pdf_page": 51,
+      "side": "left",
+      "physical_column_from_right_1based": 8,
+      "character_1based": 19,
+      "placeholder": "〓",
+      "placeholder_is_source_glyph": false,
+      "printed_blank_or_missing_notice": false,
+      "accepted_reading": null,
+      "AI_candidate_encodings": [
+        "緩",
+        "綏"
+      ],
+      "qualification": "可見原刻字，但本AI未能確定Unicode讀字；候選不當改讀已採，無人工核驗。",
+      "source_image_link": "https://commons.wikimedia.org/w/index.php?curid=124071879#page=51"
+    },
+    {
+      "kind": "unresolved_printed_glyph",
+      "raw_line": 79,
+      "pdf_page": 51,
+      "side": "left",
+      "physical_column_from_right_1based": 8,
+      "character_1based": 20,
+      "placeholder": "〓",
+      "placeholder_is_source_glyph": false,
+      "printed_blank_or_missing_notice": false,
+      "accepted_reading": null,
+      "AI_candidate_encodings": [
+        "緩",
+        "綏"
+      ],
+      "qualification": "可見原刻字，但本AI未能確定Unicode讀字；候選不當改讀已採，無人工核驗。",
+      "source_image_link": "https://commons.wikimedia.org/w/index.php?curid=124071879#page=51"
+    }
+  ],
+  "AI_draft_correction_log": [
+    {
+      "pdf_page": 51,
+      "side": "left",
+      "column": 9,
+      "character_1based": 1,
+      "initial_AI_misread": "斧",
+      "corrected_AI_transcription": "束",
+      "basis": "AI直接讀既存合法取得書影的所列頁欄；不發布研究crop，非received異文。",
+      "is_received_source_variant": false
+    },
+    {
+      "pdf_page": 52,
+      "side": "right",
+      "column": 1,
+      "character_1based": 2,
+      "initial_AI_misread": "謂",
+      "corrected_AI_transcription": "為",
+      "basis": "AI直接讀既存合法取得書影的所列頁欄；不發布研究crop，非received異文。",
+      "is_received_source_variant": false,
+      "qualification": "保留原刻為，不按較習見顧謂擅改source。"
+    }
+  ],
+  "other_encoding_limits": [
+    "字形編碼仍屬AI初稿，不稱逐字人工校定。",
+    "未以Kanripo、四庫或未知WS字文補入原圖。",
+    "未辨〓是AI占位，不表示原版缺字或估算闕文。"
+  ]
+}

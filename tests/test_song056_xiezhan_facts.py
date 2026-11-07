@@ -1,3 +1,4 @@
+from scripts.snapshot_test_expectations import historical_snapshot
 # coding: utf-8
 from pathlib import Path
 import sys,json,hashlib,copy,unittest
@@ -17,7 +18,7 @@ class XiezhanFacts(unittest.TestCase):
  def setUpClass(cls):cls.cat=load_catalog(ROOT)
  def test_scoped_counts(self):self.assertEqual((len(HS),len(N),len(LE),len(AG),len(AD),len(TP)),(23,19,4,3,4,1));self.assertEqual(REVIEW['formal_record_count'],54)
  def test_source_and_ner_exactly_preserved(self):
-  fidelity=J(ROOT/'source-evidence/huan-family-rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(fidelity['before_paragraphs_sha256'],REVIEW['source_paragraphs_sha256']);combined=J(ROOT/'source-evidence/fg-combined-rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(fidelity['after_paragraphs_sha256'],combined['previous_paragraphs_sha256']);extension=J(ROOT/'source-evidence/xie-close-family-assembly/rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(extension['before_paragraphs_sha256'],combined['final_paragraphs_sha256']);self.assertEqual(H(E(P)),extension['after_paragraphs_sha256']);self.assertEqual(H(E(C['source'])),REVIEW['source_metadata_sha256']);self.assertEqual(sum(len(p['mentions'])for p in P),98);self.assertEqual(sum(len(p['text'])for p in P),740)
+  fidelity=J(ROOT/'source-evidence/huan-family-rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(fidelity['before_paragraphs_sha256'],REVIEW['source_paragraphs_sha256']);combined=J(ROOT/'source-evidence/fg-combined-rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(fidelity['after_paragraphs_sha256'],combined['previous_paragraphs_sha256']);extension=J(ROOT/'source-evidence/xie-close-family-assembly/rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(extension['before_paragraphs_sha256'],combined['final_paragraphs_sha256']);self.assertEqual(H(E(historical_snapshot(P))),extension['after_paragraphs_sha256']);self.assertEqual(H(E(C['source'])),REVIEW['source_metadata_sha256']);self.assertEqual(sum(len(p['mentions'])for p in P),98);self.assertEqual(sum(len(p['text'])for p in P),740)
  def test_original_source_annotation_evidence_bound(self):
   b=REVIEW['source_only_annotation'];self.assertEqual(H(E(b)),REVIEW['source_only_annotation_sha256']);self.assertNotIn('age_assertions',b);self.assertNotIn('title_proposals',b);self.assertFalse(b['human_reviewed']);self.assertEqual(len(REVIEW['source_chapter_sha256']),64)
  def test_zhan_two_names_and_courtesy_pairings(self):

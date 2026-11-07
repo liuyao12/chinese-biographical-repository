@@ -17,7 +17,7 @@ class WanglingSource(unittest.TestCase):
  def test_source_variant_and_disputed_speech_preserved(self):
   self.assertIn('郭氾',self.ps['unit001']['text']);self.assertIn('臣松之以為',self.ps['unit004']['text']);self.assertIn('疑悉鑿齒所自造者也',self.ps['unit004']['text']);self.assertIn('令狐及乎',self.ps['unit012']['text']);self.assertIn('及字不可觧疑為反字之誤',self.ps['qing-02']['text'])
  def test_scoped_alias_bridges(self):
-  expected={'子師':'8xv_6ak_y28','何平叔':'0db_22c_332_*A','賈梁道':'47f_f5a_441'}
+  expected={'子師':'8xv_6ak_y28','何平叔':'0db_22c_332_*A','賈梁道':'jmv_vc4_gep_*A'}
   for term,pid in expected.items():self.assertTrue(any(m['surface']==term and m['person_id']==pid for p in self.ps.values()for m in p['mentions']))
  def test_ambiguous_sequence_and_group_not_forced(self):
   for term in ['飛梟金虎','眀山','丁畢桓鄧']:self.assertTrue(any(m['surface']==term and m['kind']=='unresolved'and m['person_id']is None for p in self.ps.values()for m in p['mentions']))

@@ -64,6 +64,10 @@ def maternal_role_valid(assertion, paragraphs):
             return False
         term = q['source_term']
         if q['role'] == 'mother_unspecified':
+            if term == '母曰' + obj['surface']:
+                if not _mother_yue_valid(assertion, p, subject, obj):
+                    return False
+                continue
             if term != '母' + obj['surface'] or p['text'][obj['start']-1:obj['end']] != term:
                 return False
             # Bind the mother word to the child, rather than any marked person
@@ -90,3 +94,34 @@ def maternal_role_valid(assertion, paragraphs):
                     or term not in p['text'] or obj['end'] > p['text'].index('前母')):
                 return False
     return True
+
+
+def _mother_yue_valid(assertion, paragraph, child, mother):
+    """Literal 母曰 names a maternal role, never proof of biological birth."""
+    try:
+        from scripts.quotation_boundaries import unquoted_span
+    except ImportError:
+        from quotation_boundaries import unquoted_span
+    text = paragraph['text']
+    if (assertion.get('status') != 'source_attested'
+            or child.get('kind') != 'person' or mother.get('kind') != 'person'
+            or child['person_id'] == mother['person_id']):
+        return False
+    for m in (child, mother):
+        if (type(m.get('start')) is not int or type(m.get('end')) is not int
+                or not 0 <= m['start'] < m['end'] <= len(text)
+                or text[m['start']:m['end']] != m.get('surface')):
+            return False
+    start = mother['start'] - 2
+    if (start < 0 or text[start:mother['end']] != '母曰' + mother['surface']
+            or not unquoted_span(text, start, mother['end'])):
+        return False
+    # A local explicit child can directly precede 母曰. A biography head may
+    # instead precede its first complete sentence and the 母曰 sentence.
+    if child['end'] == start:
+        return True
+    prefix = text[child['end']:start]
+    return (child['start'] == 0 and prefix.startswith(('字','諱'))
+            and prefix.endswith('也。') and prefix.count('。') == 1
+            and not any(c in prefix for c in '曰云：:「」『』“”‘’')
+            and text[mother['end']:].startswith('。'))

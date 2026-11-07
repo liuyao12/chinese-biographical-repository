@@ -3871,7 +3871,7 @@
               "end": 88,
               "surface": "賈充",
               "kind": "person",
-              "person_id": "c27_590_7e3",
+              "person_id": "jmv_vc4_gep_*AA",
               "status": "contextual_provisional"
             },
             {
@@ -4062,7 +4062,7 @@
               "end": 65,
               "surface": "賈充",
               "kind": "person",
-              "person_id": "c27_590_7e3",
+              "person_id": "jmv_vc4_gep_*AA",
               "status": "contextual_provisional"
             },
             {
@@ -8961,7 +8961,7 @@
               "end": 68,
               "surface": "荊軻",
               "kind": "person",
-              "person_id": "44u_z5w_09n",
+              "person_id": "b83_37f_n0v",
               "status": "contextual_provisional"
             },
             {
@@ -8988,7 +8988,7 @@
               "end": 78,
               "surface": "軻",
               "kind": "person",
-              "person_id": "44u_z5w_09n",
+              "person_id": "b83_37f_n0v",
               "status": "contextual_provisional"
             },
             {
@@ -18474,6 +18474,26 @@
     "status": "historical_annotation_snapshot_not_current_endpoints",
     "superseded_by": "source-evidence/chenzhen-identity-merge/identity-reading.json",
     "identity_decision_id": "d-shiji070-018",
-    "qualification": "原字、來源metadata、原capture mentions及hash保原態；其中陳軫舊號是歷史讀取狀態，不是alias或現行query端點。"
+    "qualification": "原字、來源metadata及各sources/input_sha256保留為原讀取證據；陳軫歷史端點資格仍依既有superseded reading保存。其他來源mentions已維護為現役身份投影，不再聲稱全部mentions均為未改原capture。本次只將046同一荊軻兩MID端點遷至現役keeper，字文/原MID/字位/kind/歷史輸入hash皆不變。",
+    "prior_qualification": {
+      "text": "原字、來源metadata、原capture mentions及hash保原態；其中陳軫舊號是歷史讀取狀態，不是alias或現行query端點。",
+      "before_file_sha256": "614e39f4c07ebb60ab3a76f343f0cf48be37ca21366571912015e4eff7dc5c09",
+      "qualification": "保留先前將整份mentions稱原capture不變的聲稱，今依已發生的current投影維護予以限縮；不冒此前各端點均已不可變。"
+    },
+    "current_projection_update": {
+      "identity_decision_id": "d-shiji-jingke-tian-specific-context",
+      "scope": "two_exact_jingke_endpoints_only",
+      "json_pointers": [
+        "/sources/3/paragraphs/6/mentions/3/person_id",
+        "/sources/3/paragraphs/6/mentions/6/person_id"
+      ],
+      "person_mention_ids": [
+        "c-shiji-046-tian:m053-0066",
+        "c-shiji-046-tian:m053-0077"
+      ],
+      "qualification": "這兩欄為現役身份投影；不是歷史immutable原值、不是alias/redirect服務，不豁免其他現役端點。",
+      "original_private_capture_sha256": "614e39f4c07ebb60ab3a76f343f0cf48be37ca21366571912015e4eff7dc5c09",
+      "human_reviewed": false
+    }
   }
 }

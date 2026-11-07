@@ -1,0 +1,74 @@
+{
+  "format_version": "0.2",
+  "record_type": "title_holding_assertion_set",
+  "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+  "holdings": [
+    {
+      "id": "th-song063-wyd-hong-taibao-use",
+      "person_id": "7r6_k52_qji_ABAAAAA",
+      "title": "太保",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "source_attested_use",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wyd1739-wangtanshou",
+          "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+          "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+          "quote": "王曇首琅邪臨沂人太保弘少弟也幼有業尚除著作郎不就兄弟分財曇首唯取圖書而已辟琅邪王大司馬屬從府公脩復洛陽園陵與從弟球俱詣高祖時謝",
+          "person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p001:m0010"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "att-song063-wyd-hong-taibao",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+          "person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p001:m0010",
+          "start": 8,
+          "end": 10,
+          "surface": "太保"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "source_career_role": {
+        "kind": "fixed_wyd063_related_title_attestation",
+        "source_revision": "cbr-ai-transcription-sha256:1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
+        "raw_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
+        "paragraph_sha256": "b00351ddac76d684287547b2bd35d6e10e77352af8c86c7a516bd930d169c54c",
+        "scope_anchor": {
+          "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+          "start": 0,
+          "end": 14,
+          "surface": "王曇首琅邪臨沂人太保弘少弟也"
+        },
+        "person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p001:m0010",
+        "title_anchor": {
+          "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+          "start": 8,
+          "end": 10,
+          "surface": "太保"
+        },
+        "role_contract_ref": "source-evidence/song063-wyd1739-wangtanshou/ner-role-contract.json"
+      },
+      "interpretation_note": "傳首太保弘為來源用稱；不從此處補授官/追贈時點或任終，不以最高官自動選頭。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

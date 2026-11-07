@@ -6,7 +6,8 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "叔齊"
+    "叔齊",
+    "叔"
   ],
   "titles": [],
   "addresses": [
@@ -105,6 +106,41 @@
       "chapter_id": "c-shiji-004-zhou",
       "source_id": "s-shiji-004-zhou",
       "work_title": "史記"
+    },
+    {
+      "number": 34,
+      "category": "",
+      "title": "羊祜傳",
+      "paragraph_id": "c-jinshu-034-yanghu-comparison:p029",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "以侯斂之意，帝乃詔曰：「祜固讓歷年，志不可奪。身沒讓存，遺操益厲，此夷叔所以稱賢，季子所以全節也。今聽復本封，以彰高美。」",
+      "paragraph_ids": [
+        "c-jinshu-034-yanghu-comparison:p029"
+      ],
+      "mention_ids": [
+        "c-jinshu-034-yanghu-comparison:p029:m0142"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-034-yanghu-comparison:p029:m0142": "c-jinshu-034-yanghu-comparison:p029"
+      },
+      "mention_id": "c-jinshu-034-yanghu-comparison:p029:m0142",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-034-yanghu-comparison:p029:m0142",
+          "mention_ids": [
+            "c-jinshu-034-yanghu-comparison:p029:m0142"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+      "work_title": "晉書"
     },
     {
       "number": 47,
@@ -276,6 +312,38 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-034-yanghu-comparison",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+      "source": {
+        "title": "《晉書》卷三十四〈羊祜傳〉",
+        "provider": "維基文庫固定修訂頁呈現文字",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷034",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "revision_id": 2567662,
+        "accessed_on": "2026-10-28",
+        "edition": null,
+        "edition_qualification": "印本未核的固定數位比較見證；非首選底本，非武英殿，未核書影。未確認是否出於四庫，不採為preferred base。",
+        "preferred_text_base": false,
+        "image_verified": false,
+        "human_reviewed": false,
+        "extent": "羊祜題下至杜預題頭前完整單元，含羊發、秘、亮、陶及承嗣附敘；41呈現文字段，非全卷，不含杜預及卷末評贊。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "capture_ref": "source-evidence/jin034-yanghu-comparison/rendered-extract.txt",
+        "capture_sha256": "35dc69590312f9b13541d3df2c8cd75c43721cd22251530def3d6acda41ec5b6",
+        "capture_kind": "fixed_revision_webtool_rendered_text_extract",
+        "original_wikitext_obtained": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0保留署名與固定修訂。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去數位題頭/工具行號/blockquote呈現符與行首排版縮排；工具連結標記僅保可見詞，未改正文標點、字形或疑字。未取得HTML或wikitext。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-004-zhou",
       "work_id": "w-shiji",
       "book_id": "b-shiji-004",
@@ -409,10 +477,63 @@
   ],
   "related_people": {
     "98v_uic_i4i": "孤竹君（伯夷列傳候選）",
+    "eh7_raa_ap6": "伯夷（孔子世家比擬候選）",
     "ktv_rwx_hp3": "叔齊（孔子世家比擬候選）"
   },
   "dates": [],
   "name_components": [],
+  "source_reference_readings": [
+    {
+      "id": "reading-jin034-29-141",
+      "interpretation_kind": "collective_resolution",
+      "source_term": "夷叔",
+      "marker_ids": [
+        "c-jinshu-034-yanghu-comparison:p029:m0141",
+        "c-jinshu-034-yanghu-comparison:p029:m0142"
+      ],
+      "candidate_person_ids": [],
+      "preferred_person_id": null,
+      "resolved_member_refs": [
+        {
+          "person_id": "eh7_raa_ap6",
+          "evidence": {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-034",
+            "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+            "chapter_id": "c-jinshu-034-yanghu-comparison",
+            "paragraph_id": "c-jinshu-034-yanghu-comparison:p029",
+            "mention_id": "c-jinshu-034-yanghu-comparison:p029:m0141",
+            "quote": "夷"
+          }
+        },
+        {
+          "person_id": "ktv_rwx_hp3",
+          "evidence": {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-034",
+            "source_id": "s-jinshu-034-yanghu-ws2567662-rendered-comparison",
+            "chapter_id": "c-jinshu-034-yanghu-comparison",
+            "paragraph_id": "c-jinshu-034-yanghu-comparison:p029",
+            "mention_id": "c-jinshu-034-yanghu-comparison:p029:m0142",
+            "quote": "叔"
+          }
+        }
+      ],
+      "source_ranges": [
+        {
+          "paragraph_id": "c-jinshu-034-yanghu-comparison:p029",
+          "start": 141,
+          "end": 143,
+          "surface": "夷叔",
+          "paragraph_text_sha256": "adebdf83d3c54a5071a6fffc0c24d69216209d1991dce3562032d148d2e848c7"
+        }
+      ],
+      "status": "editorial_provisional",
+      "rationale": "引古合稱逐人拆錨，非同場/親屬，不把本段當古人實歷證明。",
+      "references": [],
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "ktv_rwx_hp3"
   ],

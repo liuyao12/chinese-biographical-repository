@@ -5,7 +5,7 @@ try:from scripts.wyd_song044_formal_model import resolve_existing,local_current
 except ImportError:from wyd_song044_formal_model import resolve_existing,local_current
 try:from scripts.wyd_song044_role_seed import materialize
 except ImportError:from wyd_song044_role_seed import materialize
-CID='c-songshu-044-wyd1739-xiehui';REF='source-evidence/song044-wyd1739-xiehui/formal-role-contract.json';CONTRACT_SHA='2b1bc6f3dc350c2450fa2e86feff969faaa3a3b1fd6b8870f7149e53003b9973'
+CID='c-songshu-044-wyd1739-xiehui';REF='source-evidence/song044-wyd1739-xiehui/formal-role-contract.json';CONTRACT_SHA='42f36c0b14a6d996d156e692af4c59b3c4e3dff91f10b21686b9e8e483fdfe5d'
 try:
  from scripts.validation_context import memoized
 except ImportError:
@@ -23,7 +23,7 @@ def source_errors(ch,root):
   raw=(Path(root)/REF).read_bytes()
   if hashlib.sha256(raw).hexdigest()!=CONTRACT_SHA:raise ValueError('契約SHA')
   c=json.loads(raw);roles=resolve_existing(root,c);local=local_current(root,c)
-  if len(roles)!=51 or len(local)!=45:raise ValueError('來源角色未全登記')
+  if len(roles)!=52 or len(local)!=45:raise ValueError('來源角色未全登記')
   roles.update(local)
   try:from scripts.wyd_song044_age import base_annotation
   except ImportError:from wyd_song044_age import base_annotation
@@ -33,11 +33,11 @@ def source_errors(ch,root):
   for p,s in zip(ch['paragraphs'],c['paragraphs']):
    if p['id']!=s['id']or p['mentions']!=materialize(s['mentions'],roles)or p['annotation_status']!=s['annotation_status']:raise ValueError('固定MID/角色/未定漂移')
    for m in p['mentions']:
-    if m['kind']!='person':
+    if m['kind']not in('person','pronoun'):
      if m.get('person_id')is not None:raise ValueError('非人物帶人物號')
      continue
     person=people[m['person_id']]
-    if not any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']):raise ValueError('缺反向alias')
+    if m['kind']=='person'and not any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']):raise ValueError('缺反向alias')
     e={'work_id':ch['work_id'],'book_id':ch['book_id'],'source_id':ch['source_id'],'chapter_id':ch['id'],'paragraph_id':p['id'],'mention_id':m['id'],'quote':m['surface']}
     if e not in person['evidence']:raise ValueError('缺反向evidence')
   return []

@@ -1,0 +1,41 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_name_component_set",
+  "records": [
+    {
+      "id": "name-jin004-zhong",
+      "person_id": "dkn_ge4_286_AAAAIAA",
+      "surname": "司馬",
+      "ming": "衷",
+      "zi": "正度",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-004-huidi-opening",
+      "paragraph_id": "c-jinshu-004-huidi-opening:p001",
+      "person_mention_id": "c-jinshu-004-huidi-opening:p001:m0005",
+      "source_anchor": {
+        "start": 5,
+        "end": 6,
+        "surface": "衷",
+        "paragraph_id": "c-jinshu-004-huidi-opening:p001"
+      },
+      "zi_source_anchor": {
+        "start": 8,
+        "end": 10,
+        "surface": "正度",
+        "paragraph_id": "c-jinshu-004-huidi-opening:p001"
+      },
+      "quote": "孝惠皇帝諱衷，字正度，武帝第二子也。泰始三年，立爲皇太子，時年九歲。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_jin002_004_explicit_paternal_chain",
+        "role": "zhong",
+        "source_contract": "source-evidence/jin002-004-imperial-openings/source-contract.json",
+        "rationale": "001姓司馬氏與038既有父師昭、003炎父文帝、004衷父武帝連續明父鏈，非結構ID/label推姓。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      }
+    }
+  ]
+}

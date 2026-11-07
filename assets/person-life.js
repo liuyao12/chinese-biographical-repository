@@ -1,6 +1,7 @@
 import {escapeHTML as h} from './core.js';
 import {t} from './i18n.js';
 import {chineseNumber} from './person-display.js';
+import {sourceGroupedLifeEvents} from './life-event-groups.js';
 export function sourceDateLabel(event) {
   const raw = event.date_expression || '';
   const date = event.normalized_date, mapping = date?.regnal_year_mapping;
@@ -21,6 +22,7 @@ export function ageLabel(age) {
 export function summarizeLife(p) {
   const own = new Set(p.person_ids || [p.id]);
   const events = (p.life_events || []).filter(e => own.has(e.person_id));
+  const displayEvents = sourceGroupedLifeEvents(events,p.life_event_groups || [],own);
   const decisions = p.life_event_date_decisions || [];
   const rank = e => {
     const decision = decisions.find(d => d.candidate_event_ids.includes(e.id));
@@ -31,7 +33,7 @@ export function summarizeLife(p) {
     ?Object.fromEntries(Object.keys(value).filter(key=>!provenance.has(key)).sort().map(key=>[key,facts(value[key])])):value;
   function summary(kind) {
     const rows=[], grouped=new Map();
-    for (const event of events.filter(e=>e.event_type===kind).sort((a,b)=>rank(a)-rank(b))) {
+    for (const event of displayEvents.filter(e=>e.event_type===kind).sort((a,b)=>rank(a)-rank(b))) {
       const date=event.normalized_date || event.normalized_date_range;
       const civil=event.chinese_civil_year;
       const key=date || civil?JSON.stringify([rank(event),event.date_expression,facts(date),facts(civil)]):null;

@@ -1,0 +1,48 @@
+{
+  "record_type": "historical_reference_qualification",
+  "path": "source-evidence/liang030-peiziye-source-reading/existing-native-context-bridges.json",
+  "sha256": "d19126d64f1f969b749cf860b58a331e37b66597d85e4bebb0d891b48cd1aba8",
+  "scope": "原已封研究快照；其中舊人物端點僅歷史證據，不是現役canonical或redirect。",
+  "historical_json_pointers": [
+    "/0/paragraph/mentions/3/person_id"
+  ],
+  "current_role_projection": [
+    {
+      "role": "liucui",
+      "person_id": "8lh_jgi_l6a_*A",
+      "seed": {
+        "path": "corpus/songshu/044-wyd1739.json",
+        "chapter_id": "c-songshu-044-wyd1739-xiehui",
+        "source_id": "s-songshu-044-wyd1739-xiehui",
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-044",
+        "paragraph_id": "c-songshu-044-wyd1739-xiehui:p014",
+        "paragraph_sha256": "a1d00b86e703c8054254f7320781d728413871cff56bccb0ebd15492b4131d21",
+        "mention_id": "c-songshu-044-wyd1739-xiehui:p014:m0005",
+        "surface": "劉粹",
+        "start": 5,
+        "end": 7,
+        "source_sha256": "061fed0d8d0942098345af0a05febccd9ff255fe5f3a5fe1d50b8ddc479a3416"
+      }
+    },
+    {
+      "role": "liudaoji",
+      "person_id": "8lh_jgi_l6a_*B",
+      "seed": {
+        "path": "corpus/songshu/044-wyd1739.json",
+        "chapter_id": "c-songshu-044-wyd1739-xiehui",
+        "source_id": "s-songshu-044-wyd1739-xiehui",
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-044",
+        "paragraph_id": "c-songshu-044-wyd1739-xiehui:p014",
+        "paragraph_sha256": "a1d00b86e703c8054254f7320781d728413871cff56bccb0ebd15492b4131d21",
+        "mention_id": "c-songshu-044-wyd1739-xiehui:p014:m0013",
+        "surface": "道濟",
+        "start": 13,
+        "end": 15,
+        "source_sha256": "061fed0d8d0942098345af0a05febccd9ff255fe5f3a5fe1d50b8ddc479a3416"
+      }
+    }
+  ],
+  "human_reviewed": false
+}

@@ -1,0 +1,1447 @@
+{
+  "record_type": "fixed_jin036_close_kin_phase_contract",
+  "status": "source_bound_typed_continuation",
+  "parent_ner_sha256": "0d7731ac625ab7842aa898c9023bf7f9b547dcd0d2991912a05b22daedcf222a",
+  "source_body_unchanged": true,
+  "annotation_additions": {
+    "fixed_jin036_close_kin_ref": "source-evidence/jin036-wei-comparison/close-kin-phase.json"
+  },
+  "expected_documents": {
+    "corpus/jinshu/036-wei-comparison-assertions.json": {
+      "format_version": "0.1",
+      "record_type": "person_assertion_set",
+      "chapter_id": "c-jinshu-036-wei-comparison",
+      "assertions": [
+        {
+          "id": "a-jin036-kin-001",
+          "subject_person_id": "$role:guan",
+          "predicate": "ancestor",
+          "object_person_id": "$role:gao",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "高祖暠",
+            "source_terms": [
+              "高祖暠"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-001"
+            },
+            "lineage": "paternal",
+            "generation_distance": 4,
+            "known_intermediate_person_ids": [
+              "$role:ji"
+            ],
+            "unnamed_intermediate_generation_count": 2
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p001",
+              "quote": "衛瓘，字伯玉，河東安邑人也。高祖暠，漢明帝時，以儒學自代郡徵，至河東安邑卒，因賜所亡地而葬之，子孫遂家焉。父覬，魏尚書。瓘年十歲喪父，至孝過人。性貞靜有名理，以明識清允稱。襲父爵閿鄉侯。弱冠為魏尚書郎。時魏法嚴苛，母陳氏憂之，瓘自請得徙為通事郎，轉中書郎。時權臣專政，瓘優遊其間，無所親疏，甚為傅嘏所重，謂之甯武子。在位十年，以任職稱，累遷散騎常侍。陳留王即位，拜侍中，持節慰勞河北。以定議功，增邑戶。數歲轉廷尉卿。瓘明法理，每至聽訟，小大以情。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p001:m0000",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p001:m0016"
+            }
+          ],
+          "interpretation_note": "暠至瓘距4；父覬已知，覬以上兩代未名。中間列僅來源層定位，不創人。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-002",
+          "subject_person_id": "$role:guan",
+          "predicate": "father",
+          "object_person_id": "$role:ji",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "父覬，魏尚書。",
+            "source_terms": [
+              "父覬，魏尚書。"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-002"
+            },
+            "lineage": "paternal"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p001",
+              "quote": "衛瓘，字伯玉，河東安邑人也。高祖暠，漢明帝時，以儒學自代郡徵，至河東安邑卒，因賜所亡地而葬之，子孫遂家焉。父覬，魏尚書。瓘年十歲喪父，至孝過人。性貞靜有名理，以明識清允稱。襲父爵閿鄉侯。弱冠為魏尚書郎。時魏法嚴苛，母陳氏憂之，瓘自請得徙為通事郎，轉中書郎。時權臣專政，瓘優遊其間，無所親疏，甚為傅嘏所重，謂之甯武子。在位十年，以任職稱，累遷散騎常侍。陳留王即位，拜侍中，持節慰勞河北。以定議功，增邑戶。數歲轉廷尉卿。瓘明法理，每至聽訟，小大以情。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p001:m0000",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p001:m0054"
+            }
+          ],
+          "interpretation_note": "魏尚書是覬之官，不是母職；不由襲父爵補任職年。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-003",
+          "subject_person_id": "$role:guan",
+          "predicate": "maternal_role",
+          "object_person_id": "$role:guan_mother",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "母陳氏憂之",
+            "source_terms": [
+              "母陳氏憂之"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-003"
+            },
+            "maternal_role_basis": "source_mother_appellation",
+            "role": "mother_unspecified",
+            "biological_mother": null,
+            "father_person_id": null,
+            "biological_motherhood_asserted": false
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p001",
+              "quote": "衛瓘，字伯玉，河東安邑人也。高祖暠，漢明帝時，以儒學自代郡徵，至河東安邑卒，因賜所亡地而葬之，子孫遂家焉。父覬，魏尚書。瓘年十歲喪父，至孝過人。性貞靜有名理，以明識清允稱。襲父爵閿鄉侯。弱冠為魏尚書郎。時魏法嚴苛，母陳氏憂之，瓘自請得徙為通事郎，轉中書郎。時權臣專政，瓘優遊其間，無所親疏，甚為傅嘏所重，謂之甯武子。在位十年，以任職稱，累遷散騎常侍。陳留王即位，拜侍中，持節慰勞河北。以定議功，增邑戶。數歲轉廷尉卿。瓘明法理，每至聽訟，小大以情。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p001:m0000",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p001:m0108"
+            }
+          ],
+          "interpretation_note": "只見陳氏氏稱，未載名、父母；不為所有兄弟補同母。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-004",
+          "subject_person_id": "$role:shi",
+          "predicate": "brother",
+          "object_person_id": "$role:guan",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "以余爵封弟實開陽亭侯",
+            "source_terms": [
+              "以余爵封弟實開陽亭侯"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-004"
+            },
+            "relative_birth_order": {
+              "older_person_id": "$role:guan",
+              "younger_person_id": "$role:shi",
+              "operator": "lt",
+              "scope": "siblings",
+              "older_ordinal": null,
+              "younger_ordinal": null
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p003",
+              "quote": "事平，朝議封瓘。瓘以克蜀之功，羣帥之力，二將跋扈，自取滅亡，雖運智謀，而無搴旗之效，固讓不受。除使持節、都督關中諸軍事、鎮西將軍，尋遷都督徐州諸軍事、鎮東將軍，增封菑陽侯，以余爵封弟實開陽亭侯。泰始初，轉征東將軍，進爵為公，都督青州諸軍事、青州刺史，加征東大將軍、青州牧。所在皆有政績。除征北大將軍、都督幽州諸軍事、幽州刺史、護烏桓校尉。至鎮，表立平州，後兼督之。于時幽并東有務桓，西有力微，並為邊害。瓘離間二虜，遂致嫌隙，於是務桓降而力微以憂死。朝廷嘉其功，賜一子亭侯。瓘乞以封弟，未受命而卒，子密受封為亭侯。瓘六男無爵，悉讓二弟，遠近稱之。累求入朝，既至，武帝善遇之，俄使旋鎮。咸甯初，徵拜尚書令，加侍中。性嚴整，以法禦下，視尚書若參佐，尚書郎若掾屬。瓘學問深博，明習文藝，與尚書郎敦煌索靖俱善草書，時人號為「一台二妙」。漢末張芝亦善草書，論者謂「瓘得伯英筋，靖得伯英肉」。太康初，遷司空，侍中、令如故。為政清簡，甚得朝野聲譽。武帝敕瓘第四子宣尚繁昌公主。瓘自以諸生之胄，婚對微素，抗表固辭，不許。又領太子少傅，加千兵百騎鼓吹之府。以日蝕，瓘與太尉汝南王亮、司徒魏舒俱遜位，帝不聽。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0091",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0006"
+            }
+          ],
+          "interpretation_note": "實是瓘弟；未明同父或母，不直接填覬為實父。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-005",
+          "subject_person_id": "$role:brother_deceased",
+          "predicate": "brother",
+          "object_person_id": "$role:guan",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "瓘乞以封弟，未受命而卒，子密受封為亭侯。",
+            "source_terms": [
+              "瓘乞以封弟，未受命而卒，子密受封為亭侯。"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-005"
+            },
+            "relative_birth_order": {
+              "older_person_id": "$role:guan",
+              "younger_person_id": "$role:brother_deceased",
+              "operator": "lt",
+              "scope": "siblings",
+              "older_ordinal": null,
+              "younger_ordinal": null
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p003",
+              "quote": "事平，朝議封瓘。瓘以克蜀之功，羣帥之力，二將跋扈，自取滅亡，雖運智謀，而無搴旗之效，固讓不受。除使持節、都督關中諸軍事、鎮西將軍，尋遷都督徐州諸軍事、鎮東將軍，增封菑陽侯，以余爵封弟實開陽亭侯。泰始初，轉征東將軍，進爵為公，都督青州諸軍事、青州刺史，加征東大將軍、青州牧。所在皆有政績。除征北大將軍、都督幽州諸軍事、幽州刺史、護烏桓校尉。至鎮，表立平州，後兼督之。于時幽并東有務桓，西有力微，並為邊害。瓘離間二虜，遂致嫌隙，於是務桓降而力微以憂死。朝廷嘉其功，賜一子亭侯。瓘乞以封弟，未受命而卒，子密受封為亭侯。瓘六男無爵，悉讓二弟，遠近稱之。累求入朝，既至，武帝善遇之，俄使旋鎮。咸甯初，徵拜尚書令，加侍中。性嚴整，以法禦下，視尚書若參佐，尚書郎若掾屬。瓘學問深博，明習文藝，與尚書郎敦煌索靖俱善草書，時人號為「一台二妙」。漢末張芝亦善草書，論者謂「瓘得伯英筋，靖得伯英肉」。太康初，遷司空，侍中、令如故。為政清簡，甚得朝野聲譽。武帝敕瓘第四子宣尚繁昌公主。瓘自以諸生之胄，婚對微素，抗表固辭，不許。又領太子少傅，加千兵百騎鼓吹之府。以日蝕，瓘與太尉汝南王亮、司徒魏舒俱遜位，帝不聽。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0240",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0236"
+            }
+          ],
+          "interpretation_note": "以瓘主敘承弟；原弟未名，不強指實，不稱已證永不同人。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-006",
+          "subject_person_id": "$role:mi",
+          "predicate": "father",
+          "object_person_id": "$role:brother_deceased",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "瓘乞以封弟，未受命而卒，子密受封為亭侯。",
+            "source_terms": [
+              "瓘乞以封弟，未受命而卒，子密受封為亭侯。"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-006"
+            },
+            "lineage": "paternal"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p003",
+              "quote": "事平，朝議封瓘。瓘以克蜀之功，羣帥之力，二將跋扈，自取滅亡，雖運智謀，而無搴旗之效，固讓不受。除使持節、都督關中諸軍事、鎮西將軍，尋遷都督徐州諸軍事、鎮東將軍，增封菑陽侯，以余爵封弟實開陽亭侯。泰始初，轉征東將軍，進爵為公，都督青州諸軍事、青州刺史，加征東大將軍、青州牧。所在皆有政績。除征北大將軍、都督幽州諸軍事、幽州刺史、護烏桓校尉。至鎮，表立平州，後兼督之。于時幽并東有務桓，西有力微，並為邊害。瓘離間二虜，遂致嫌隙，於是務桓降而力微以憂死。朝廷嘉其功，賜一子亭侯。瓘乞以封弟，未受命而卒，子密受封為亭侯。瓘六男無爵，悉讓二弟，遠近稱之。累求入朝，既至，武帝善遇之，俄使旋鎮。咸甯初，徵拜尚書令，加侍中。性嚴整，以法禦下，視尚書若參佐，尚書郎若掾屬。瓘學問深博，明習文藝，與尚書郎敦煌索靖俱善草書，時人號為「一台二妙」。漢末張芝亦善草書，論者謂「瓘得伯英筋，靖得伯英肉」。太康初，遷司空，侍中、令如故。為政清簡，甚得朝野聲譽。武帝敕瓘第四子宣尚繁昌公主。瓘自以諸生之胄，婚對微素，抗表固辭，不許。又領太子少傅，加千兵百騎鼓吹之府。以日蝕，瓘與太尉汝南王亮、司徒魏舒俱遜位，帝不聽。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0249",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0240"
+            }
+          ],
+          "interpretation_note": "子密承先卒未名弟為父，不是瓘之子；原父未命名，不猜名。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-xuan-father",
+          "subject_person_id": "$role:xuan",
+          "predicate": "father",
+          "object_person_id": "$role:guan",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "武帝敕瓘第四子宣尚繁昌公主",
+            "source_terms": [
+              "武帝敕瓘第四子宣尚繁昌公主"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "xuan-father"
+            },
+            "lineage": "paternal",
+            "birth_order": {
+              "parent_person_id": "$role:guan",
+              "scope": "sons_of_parent",
+              "ordinal": 4,
+              "position": "unspecified",
+              "interpretation_status": "source_attested",
+              "source_term": "第四子"
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p003",
+              "quote": "事平，朝議封瓘。瓘以克蜀之功，羣帥之力，二將跋扈，自取滅亡，雖運智謀，而無搴旗之效，固讓不受。除使持節、都督關中諸軍事、鎮西將軍，尋遷都督徐州諸軍事、鎮東將軍，增封菑陽侯，以余爵封弟實開陽亭侯。泰始初，轉征東將軍，進爵為公，都督青州諸軍事、青州刺史，加征東大將軍、青州牧。所在皆有政績。除征北大將軍、都督幽州諸軍事、幽州刺史、護烏桓校尉。至鎮，表立平州，後兼督之。于時幽并東有務桓，西有力微，並為邊害。瓘離間二虜，遂致嫌隙，於是務桓降而力微以憂死。朝廷嘉其功，賜一子亭侯。瓘乞以封弟，未受命而卒，子密受封為亭侯。瓘六男無爵，悉讓二弟，遠近稱之。累求入朝，既至，武帝善遇之，俄使旋鎮。咸甯初，徵拜尚書令，加侍中。性嚴整，以法禦下，視尚書若參佐，尚書郎若掾屬。瓘學問深博，明習文藝，與尚書郎敦煌索靖俱善草書，時人號為「一台二妙」。漢末張芝亦善草書，論者謂「瓘得伯英筋，靖得伯英肉」。太康初，遷司空，侍中、令如故。為政清簡，甚得朝野聲譽。武帝敕瓘第四子宣尚繁昌公主。瓘自以諸生之胄，婚對微素，抗表固辭，不許。又領太子少傅，加千兵百騎鼓吹之府。以日蝕，瓘與太尉汝南王亮、司徒魏舒俱遜位，帝不聽。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0423",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0419"
+            }
+          ],
+          "interpretation_note": "只宣明父瓘；不補其生母。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-xuan-fanchang-marriage",
+          "subject_person_id": "$role:xuan",
+          "predicate": "spouse",
+          "object_person_id": "$role:fan_chang",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "公主",
+            "source_terms": [
+              "武帝敕瓘第四子宣尚繁昌公主",
+              "宣尚公主"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "xuan-fanchang-marriage"
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p003",
+              "quote": "事平，朝議封瓘。瓘以克蜀之功，羣帥之力，二將跋扈，自取滅亡，雖運智謀，而無搴旗之效，固讓不受。除使持節、都督關中諸軍事、鎮西將軍，尋遷都督徐州諸軍事、鎮東將軍，增封菑陽侯，以余爵封弟實開陽亭侯。泰始初，轉征東將軍，進爵為公，都督青州諸軍事、青州刺史，加征東大將軍、青州牧。所在皆有政績。除征北大將軍、都督幽州諸軍事、幽州刺史、護烏桓校尉。至鎮，表立平州，後兼督之。于時幽并東有務桓，西有力微，並為邊害。瓘離間二虜，遂致嫌隙，於是務桓降而力微以憂死。朝廷嘉其功，賜一子亭侯。瓘乞以封弟，未受命而卒，子密受封為亭侯。瓘六男無爵，悉讓二弟，遠近稱之。累求入朝，既至，武帝善遇之，俄使旋鎮。咸甯初，徵拜尚書令，加侍中。性嚴整，以法禦下，視尚書若參佐，尚書郎若掾屬。瓘學問深博，明習文藝，與尚書郎敦煌索靖俱善草書，時人號為「一台二妙」。漢末張芝亦善草書，論者謂「瓘得伯英筋，靖得伯英肉」。太康初，遷司空，侍中、令如故。為政清簡，甚得朝野聲譽。武帝敕瓘第四子宣尚繁昌公主。瓘自以諸生之胄，婚對微素，抗表固辭，不許。又領太子少傅，加千兵百騎鼓吹之府。以日蝕，瓘與太尉汝南王亮、司徒魏舒俱遜位，帝不聽。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0423",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0425"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p006",
+              "quote": "宣尚公主，數有酒色之過。楊駿素與瓘不平，駿復欲自專權重，宣若離婚，瓘必遜位，於是遂與黃門等毀之，諷帝奪宣公主。瓘慚懼，告老遜立。乃下詔曰：「司空瓘年未致仕，而遜讓歷年，欲及神志未衰，以果本情，至真之風，實感吾心。今聽其所執，進位太保，以公就第。給親兵百人，置長史、司馬、從事中郎掾屬；及大車、官騎、麾蓋、鼓吹諸威儀，一如舊典。給廚田十頃、園五十畝、錢百萬、絹五百匹；床帳簟褥，主者務令優備，以稱吾崇賢之意焉。」有司又奏收宣付廷尉，免瓘位，詔不許。帝后知黃門虛構，欲還復主，而宣疾亡。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p006:m0000",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p006:m0002"
+            }
+          ],
+          "interpretation_note": "賜婚命令不是父女證；p006宣尚公主及離婚敘事證婚配已存在；不填婚年。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-013",
+          "subject_person_id": "$role:heng",
+          "predicate": "father",
+          "object_person_id": "$role:guan",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "遂與子恆、嶽、裔及孫等九人同被害",
+            "source_terms": [
+              "遂與子恆、嶽、裔及孫等九人同被害"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-013"
+            },
+            "lineage": "paternal"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p007",
+              "quote": "惠帝即位，復瓘千兵。及楊駿誅，以瓘錄尚書事，加綠綟綬，劍履上殿，入朝不趨，給騎司馬，與汝南王亮共輔朝政。亮奏遣諸王還籓，與朝臣廷議，無敢應者，唯瓘贊其事，楚王瑋由是憾焉。賈后素怨瓘，且忌其方直，不得騁己淫虐；又聞瓘與瑋有隙，遂謗瓘與亮欲為伊霍之事，啟帝作手詔，使瑋免瓘等官。黃門齎詔授瑋，瑋性輕險，欲聘私怨，夜使清河王遐收瓘。左右疑遐矯詔，咸諫曰：「禮律刑名，台輔大臣，未有此比，且請距之。須自表得報，就戮未晚也。」瓘不從，遂與子恆、嶽、裔及孫等九人同被害，時年七十二。恆二子璪、玠，時在醫家得免。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0215",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0006"
+            }
+          ],
+          "interpretation_note": "子字統三具名子；九人含瓘、子孫，非九子/九孫，不為未名孫逐人建人。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-014",
+          "subject_person_id": "$role:yue",
+          "predicate": "father",
+          "object_person_id": "$role:guan",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "遂與子恆、嶽、裔及孫等九人同被害",
+            "source_terms": [
+              "遂與子恆、嶽、裔及孫等九人同被害"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-014"
+            },
+            "lineage": "paternal"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p007",
+              "quote": "惠帝即位，復瓘千兵。及楊駿誅，以瓘錄尚書事，加綠綟綬，劍履上殿，入朝不趨，給騎司馬，與汝南王亮共輔朝政。亮奏遣諸王還籓，與朝臣廷議，無敢應者，唯瓘贊其事，楚王瑋由是憾焉。賈后素怨瓘，且忌其方直，不得騁己淫虐；又聞瓘與瑋有隙，遂謗瓘與亮欲為伊霍之事，啟帝作手詔，使瑋免瓘等官。黃門齎詔授瑋，瑋性輕險，欲聘私怨，夜使清河王遐收瓘。左右疑遐矯詔，咸諫曰：「禮律刑名，台輔大臣，未有此比，且請距之。須自表得報，就戮未晚也。」瓘不從，遂與子恆、嶽、裔及孫等九人同被害，時年七十二。恆二子璪、玠，時在醫家得免。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0217",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0006"
+            }
+          ],
+          "interpretation_note": "子字統三具名子；九人含瓘、子孫，非九子/九孫，不為未名孫逐人建人。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-015",
+          "subject_person_id": "$role:yi",
+          "predicate": "father",
+          "object_person_id": "$role:guan",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "遂與子恆、嶽、裔及孫等九人同被害",
+            "source_terms": [
+              "遂與子恆、嶽、裔及孫等九人同被害"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-015"
+            },
+            "lineage": "paternal"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p007",
+              "quote": "惠帝即位，復瓘千兵。及楊駿誅，以瓘錄尚書事，加綠綟綬，劍履上殿，入朝不趨，給騎司馬，與汝南王亮共輔朝政。亮奏遣諸王還籓，與朝臣廷議，無敢應者，唯瓘贊其事，楚王瑋由是憾焉。賈后素怨瓘，且忌其方直，不得騁己淫虐；又聞瓘與瑋有隙，遂謗瓘與亮欲為伊霍之事，啟帝作手詔，使瑋免瓘等官。黃門齎詔授瑋，瑋性輕險，欲聘私怨，夜使清河王遐收瓘。左右疑遐矯詔，咸諫曰：「禮律刑名，台輔大臣，未有此比，且請距之。須自表得報，就戮未晚也。」瓘不從，遂與子恆、嶽、裔及孫等九人同被害，時年七十二。恆二子璪、玠，時在醫家得免。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0219",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0006"
+            }
+          ],
+          "interpretation_note": "子字統三具名子；九人含瓘、子孫，非九子/九孫，不為未名孫逐人建人。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-016",
+          "subject_person_id": "$role:zhao",
+          "predicate": "father",
+          "object_person_id": "$role:heng",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "恆二子璪、玠",
+            "source_terms": [
+              "恆二子璪、玠"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-016"
+            },
+            "lineage": "paternal"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p007",
+              "quote": "惠帝即位，復瓘千兵。及楊駿誅，以瓘錄尚書事，加綠綟綬，劍履上殿，入朝不趨，給騎司馬，與汝南王亮共輔朝政。亮奏遣諸王還籓，與朝臣廷議，無敢應者，唯瓘贊其事，楚王瑋由是憾焉。賈后素怨瓘，且忌其方直，不得騁己淫虐；又聞瓘與瑋有隙，遂謗瓘與亮欲為伊霍之事，啟帝作手詔，使瑋免瓘等官。黃門齎詔授瑋，瑋性輕險，欲聘私怨，夜使清河王遐收瓘。左右疑遐矯詔，咸諫曰：「禮律刑名，台輔大臣，未有此比，且請距之。須自表得報，就戮未晚也。」瓘不從，遂與子恆、嶽、裔及孫等九人同被害，時年七十二。恆二子璪、玠，時在醫家得免。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0238",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0235"
+            }
+          ],
+          "interpretation_note": "二子明父恆；列表本身不推璪長玠次，年序另由p018兄。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-017",
+          "subject_person_id": "$role:jie",
+          "predicate": "father",
+          "object_person_id": "$role:heng",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "恆二子璪、玠",
+            "source_terms": [
+              "恆二子璪、玠"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-017"
+            },
+            "lineage": "paternal"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p007",
+              "quote": "惠帝即位，復瓘千兵。及楊駿誅，以瓘錄尚書事，加綠綟綬，劍履上殿，入朝不趨，給騎司馬，與汝南王亮共輔朝政。亮奏遣諸王還籓，與朝臣廷議，無敢應者，唯瓘贊其事，楚王瑋由是憾焉。賈后素怨瓘，且忌其方直，不得騁己淫虐；又聞瓘與瑋有隙，遂謗瓘與亮欲為伊霍之事，啟帝作手詔，使瑋免瓘等官。黃門齎詔授瑋，瑋性輕險，欲聘私怨，夜使清河王遐收瓘。左右疑遐矯詔，咸諫曰：「禮律刑名，台輔大臣，未有此比，且請距之。須自表得報，就戮未晚也。」瓘不從，遂與子恆、嶽、裔及孫等九人同被害，時年七十二。恆二子璪、玠，時在醫家得免。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0240",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0235"
+            }
+          ],
+          "interpretation_note": "二子明父恆；列表本身不推璪長玠次，年序另由p018兄。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-019",
+          "subject_person_id": "$role:guan_daughter",
+          "predicate": "father",
+          "object_person_id": "$role:guan",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "瓘女與國臣書曰",
+            "source_terms": [
+              "瓘女與國臣書曰"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-019"
+            },
+            "lineage": "paternal"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p010",
+              "quote": "楚王瑋之伏誅也，瓘女與國臣書曰：「先公名諡未顯，無異凡人，每怪一國蔑然無言。《春秋》之失，其咎安在？悲憤感慨，故以示意。」於是繇等執黃幡，撾登聞鼓，上言曰：「初，矯詔者至，公承詔當免，即便奉送章綬，雖有兵仗，不施一刃，重敕出第，單車從命。如矯詔之文唯免公官，右軍以下即承詐偽，違其本文，輒戮宰輔，不復表上，橫收公子孫輒皆行刑，賊害大臣父子九人。伏見詔書『為楚王所誑誤，非本同謀者皆弛遣』。如書之旨，謂裏舍人被驅逼齎白杖者耳。律，受教殺人，不得免死。況乎手害功臣，賊殺忠良，雖云非謀，理所不赦。今元惡雖誅，殺賊猶存。臣懼有司未詳事實，或有縱漏，不加精盡，使公父子仇賊不滅，冤魂永恨，訴於穹蒼，酷痛之臣，悲於明世。臣等身被創痍，殯斂始訖。謹條瓘前在司空時，帳下給使榮晦無情被黜，知瓘家人數、小孫名字。晦後轉給右軍，其夜晦在門外揚聲大呼，宣詔免公還第。及門開，晦前到中門，復讀所齎偽詔，手取公章綬貂蟬，催公出第。晦按次錄瓘家口及其子孫，皆兵仗將送，著東亭道北圍守，一時之間，便皆斬斫。害公子孫，實由於晦。及將人劫盜府庫，皆晦所為。考晦一人，眾奸皆出。乞驗盡情偽，加以族誅。」詔從之。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p010:m0009",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p010:m0008"
+            }
+          ],
+          "interpretation_note": "女未名、不派生母/婚夫；信中先公是瓘，不把為女上書者變成新男。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-020",
+          "subject_person_id": "$role:heng",
+          "predicate": "grandfather",
+          "object_person_id": "$role:ji",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "恆祖敬侯寫淳《尚書》",
+            "source_terms": [
+              "恆祖敬侯寫淳《尚書》"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-020"
+            },
+            "lineage": "paternal",
+            "generation_distance": 2
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p014",
+              "quote": "昔在黃帝，創制造物。有沮誦、倉頡者，始作書契，以代結繩，蓋睹鳥跡以興思也。因而遂滋，則謂之字，有六義焉。一曰指事，上、下是也。二曰象形，日、月是也。三曰形聲，江、河是也。四曰會意，武、信是也。五曰轉注，老、考是也。六曰假借，令、長是也。夫指事者，在上為上，在下為下。象形者，日滿月虧，效其形也。形聲者，以類為形，配以聲也。會意者，止戈為武，人言為信也。轉注者，以老壽考也。假借者，數言同字，其聲雖異，文意一也。自黃帝至三代，其文不改。及秦用篆書，焚燒先典，而古文絕矣。漢武時，魯恭王壞孔子宅，得《尚書》、《春秋》、《論語》、《孝經》。時人以不復知有古文，謂之科斗書。漢世秘藏，希得見之。魏初傳古文者，出於邯鄲淳。恆祖敬侯寫淳《尚書》，後以示淳，而淳不別。至正始中，立三字石經，轉失淳法，因科斗之名，遂效其形。太康元年，汲縣人盜發魏襄王塚，得策書十餘萬言。案敬侯所書，猶有仿佛。古書亦有數種，其一卷論楚事者最為工妙。恆竊悅之，故竭愚思，以贊其美，愧不足廁前賢之作，冀以存古人之象焉。古無別名，謂之字勢云。\n　　「黃帝之史，沮誦、倉頡，眺彼鳥跡，始作書契。紀綱萬事，垂法立制，帝典用宣，質文著世。爰暨暴秦，滔天作戾，大道既泯，古文亦滅。魏文好古，世傳丘墳，歷代莫發，真偽靡分。大晉開元，弘道敷訓，天垂其象，地耀其文。其文乃耀，粲矣其章，因聲會意，類物有方：日處君而盈其度，月執臣而虧其旁，雲委蛇而上布，星離離以舒光；禾卉苯䔿以垂穎，山嶽峨嵯而連岡；蟲跂跂其若動，鳥似飛而未揚。觀其錯筆綴墨，用心精專。勢和體均，發止無間。或守正循檢，矩折規旋。或方員靡則，因事制權。其曲如弓，其直如弦。矯然特出，若龍騰於川。森爾下頹，若雨墜於天。或引筆奮力，若鴻雁高飛，邈邈翩翩。或縱肆阿那，若流蘇懸羽，靡靡綿綿。是故遠而望之，若翔風厲水，清波漪漣。就而察之，有若自然。信黃唐之遺跡，為六藝之範先。籀篆蓋其子孫，隸草乃其曾玄。睹物象以致思，非言辭之可宣。」\n　　昔周宣王時，史籀始著《大篆》十五篇，或與古同，或與古異，世謂之籀書者也。及平王東遷，諸侯力政，家殊國異，而文字乖形。秦始皇帝初兼天下。丞相李斯乃奏益之，罷不合秦文者，斯作《倉頡篇》，中車府令趙高作《爰曆篇》，太史令胡毋敬作《博學篇》，皆取史籀大篆，或頗省改，所謂小篆者。或曰，下土人程邈為衙獄吏，得罪始皇，幽繫雲陽十年，從獄中作大篆，少者增益，多者損減，方者使員，員者使方，奏之始皇。始皇善之，出以為御史，使定書。或曰，邈所定乃隸字也。自秦壞古文，有八體，一曰大篆，二曰小篆，三曰刻符，四曰蟲書，五曰摹印，六曰署書，七曰殳書，八曰隸書。王莽時，使司空甄豐校文字部，改定古文，復有六書。一曰古文，孔氏壁中書也。二曰奇字，即古文而異者也。三曰篆書，秦篆書也。四曰佐書，即隸書也。五曰繆篆，所以摹印也。六曰鳥書，所以書幡信也。及許慎撰《說文》，用篆書為正，以為體例，最可得而論也。秦時李斯號為二篆，諸山及銅人銘皆斯書也。漢建初中，扶風曹喜少異於斯，而亦稱善。邯鄲淳師焉，略究其妙，韋誕師淳而不及也。太和中，誕為武都太守，以能書，留補侍中，魏氏寶器銘題皆誕書也。漢末又有蔡邕，采斯喜之法，為古今雜形，然精密閑理不如淳也。\n　　邕作《篆勢》曰：「鳥遺跡，皇頡循。聖作則，制斯文。體有六，篆為真。形要妙，巧入神，或龜文鍼列，櫛比龍鱗；紓體放尾，長短復身；頹若黍稷之垂穎，蘊若蟲蛇之焚縕；揚波振撆，鷹歭鳥震；延頸脅翼，勢似陵雲。或輕筆內投，微本濃末，若絕若連；似水露綠絲，凝垂下端；從者如懸，衡者如編；杳杪邪趣，不方不員；若行若飛，跂歉胗胗。遠而望之，象鴻鵠羣游，駱驛遷延；迫而視之，端際不可得見。指捴不可勝原。研桑不能數其詰屈，離婁不能睹其郤間，般倕揖讓而辭巧，籀誦拱手而韜翰。處篇籍之首目，粲斌斌其可觀。摛華豔於紈素，為學藝之範先。喜文德之弘懿，慍作者之莫刊。思字體之俯仰，舉大略而論旃。」\n　　秦既用篆，奏事繁多，篆字難成，即令隸人佐書，曰隸字。漢因行之，獨符、印璽、幡信、題署用篆。隸書者，篆之捷也。上谷王次仲始作楷法。至靈帝好書，時多能者，而師宜官為最，大則一字徑丈，小則方寸千言，甚矜其能。或時不持錢詣酒家飲，因書其壁，顧觀者以酬酒，討錢足而滅之。每書輒削而焚其柎。梁鵠乃益為版而飲之酒，候其醉而竊其柎。鵠卒以書至選部尚書。宜官後為袁術將，今钜鹿宋子有《耿球碑》，是術所立，其書甚工，云是宜官也。梁鵠奔劉表，魏武帝破荊州，募求鵠。鵠之為選部也，魏武欲為洛陽令，而以為北部尉，故懼而自縛詣門，署軍假司馬；在秘書以勤書自效，是以今者多有鵠手跡。魏武帝懸著帳中，及以釘壁玩之，以為勝宜官。今宮殿題署多是鵠篆。鵠宜為大字，邯鄲淳宜為小字。鵠謂淳得次仲法，然鵠之用筆盡其勢矣。鵠弟子毛弘教于秘書，今八分皆弘法也。漢末有左子邑，小與淳鵠不同，然亦有名。\n　　魏初有鍾胡二家為行書法，俱學之于劉德升，而鍾氏小異，然亦各有巧，今大行於世云。作《隸勢》曰：「鳥跡之變，乃惟佐隸。蠲彼繁文，崇此簡易。厥用既弘，體象有度。煥若星陳，鬱若雲布。其大徑尋，細不容發。隨事從宜，靡有常制。或穹隆恢廓，或櫛比針列，或砥平繩直，或蜿蜒膠戾，或長邪角趣，或規旋矩折。修短相副，異體同勢。奮筆輕舉，離而不絕。纖波濃點，錯落其間，若鍾虡設張，庭燎盡煙，嶄巖𡽱嵯，高下屬連。似崇臺重宇，增雲冠山。遠而望之，若飛龍在天；近而察之，心亂目眩。奇姿譎詭，不可勝原。研桑所不能計，宰賜所不能言。何草篆之足算，而斯文之未宣。豈體大之難睹，將秘奧之不傳？聊俯仰而詳觀，舉大較而論旃。」\n　　漢興而有草書，不知作者姓名。至章帝時，齊相杜度號善作篇。後有崔瑗、崔寔，亦皆稱工，杜氏殺字甚安，而書體微瘦。崔氏甚得筆勢，而結字小疏。弘農張伯英者，因而轉精甚巧。凡家之衣帛，必書而後練之。臨池學書，池水盡黑。下筆必為楷則，號匆匆不暇草書，寸紙不見遺，至今世尤寶其書，韋仲將謂之草聖。伯英弟文舒者，次伯英。又有姜孟穎、梁孔達，田彥和及韋仲將之徒，皆伯英弟子，有名于世，然殊不及文舒也。羅叔景、趙元嗣者，與伯英並時，見稱於西州，而矜巧自與，眾頗惑之。故英自稱「上比崔杜不足，下方羅趙有餘。」河間張超亦有名，然雖與崔氏同州，不如伯英之得其法也。\n\n　　崔瑗作《草書勢》曰：「書契之興，始自頡皇。寫彼鳥跡，以定文章，爰暨末葉，典籍彌繁。時之多僻，政之多權。官事荒蕪，剿其墨翰。惟作佐隸，舊字是刪。草書之法，蓋又簡略。應時諭指，用於卒迫。兼功並用，愛日省力。純儉之變，豈必古式。觀其法象，俯仰有儀。方不中矩，員不副規；抑左揚右，望之若崎。竦企鳥歭，志大飛移。狡獸暴駭，將奔未馳。或𪑜𪐴點𪑮，狀似連珠，絕而不離；畜怒怫鬱，放逸生奇。或淩邃惴慄，若據槁臨危；旁點邪附，似蜩螗挶枝。絕筆收勢，餘綖糾結，若杜伯揵毒緣巇，螣蛇赴穴，頭沒尾垂。是故遠而望之，漼焉若沮岑崩崖；就而察之，一畫不可移。機微要妙，臨時從宜。略舉大較，仿佛若斯。」",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p014:m0306",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p014:m0308"
+            }
+          ],
+          "interpretation_note": "四體書勢內恆自敘祖敬侯；候選接覬需與p001父覬/p007子恆父線合證，不能以稱號自動獨斷。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-021",
+          "subject_person_id": "$role:heng_sao",
+          "predicate": "father",
+          "object_person_id": "$role:he_shao",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "以何劭，嫂之父也",
+            "source_terms": [
+              "以何劭，嫂之父也"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-021"
+            },
+            "lineage": "paternal"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p015",
+              "quote": "及瓘為楚王瑋所構，恆聞變，以何劭，嫂之父也，從牆孔中詣之，以問消息。劭知而不告。恆還經廚下，收人正食，因而遇害。後贈長水校尉，諡蘭陵貞世子。二子：璪、玠。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0017",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0014"
+            }
+          ],
+          "interpretation_note": "嫂為恆之嫂，何劭明為嫂父；其夫未在此明名，不任配嶽/裔/宣。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-022",
+          "subject_person_id": "$role:heng_sao",
+          "predicate": "kinship_unspecified",
+          "object_person_id": "$role:heng",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "以何劭，嫂之父也",
+            "source_terms": [
+              "以何劭，嫂之父也"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-022"
+            },
+            "kinship_basis": "received_jin036_elder_brother_spouse",
+            "affinal_relation": "spouse_of_older_brother",
+            "connecting_spouse_person_id": null,
+            "generation_difference": 0,
+            "biological_relationship_asserted": false
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p015",
+              "quote": "及瓘為楚王瑋所構，恆聞變，以何劭，嫂之父也，從牆孔中詣之，以問消息。劭知而不告。恆還經廚下，收人正食，因而遇害。後贈長水校尉，諡蘭陵貞世子。二子：璪、玠。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0017",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0009"
+            }
+          ],
+          "interpretation_note": "主體嫂→客體恆之姻親稱謂；可解析嫂、夫為恆兄的關係角色，但夫無名，不造缺名ID或補瓘父邊。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-024",
+          "subject_person_id": "$role:chong",
+          "predicate": "ancestor",
+          "object_person_id": "$role:guan",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "元帝以瓘玄孫崇嗣",
+            "source_terms": [
+              "元帝以瓘玄孫崇嗣"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-024"
+            },
+            "lineage": "paternal",
+            "generation_distance": 4,
+            "generation_conflict": {
+              "comparison_source_id": "s-songshu-060-xunbozi",
+              "claim_kind": "source_reported_ancestor_distance",
+              "resolution": "unresolved",
+              "preferred_direct_father_asserted": false
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p016",
+              "quote": "璪字仲寶，襲瓘爵。後東海王越以蘭陵益其國，改封江夏郡公，邑八千五百戶。懷帝即位，為散騎侍郎。永嘉五年，沒于劉聰。元帝以瓘玄孫崇嗣。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p016:m0062",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p016:m0059"
+            }
+          ],
+          "interpretation_note": "玄孫距4原稱；與宋060差代全引用a919研究，不在本表重新裁父。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-025",
+          "subject_person_id": "$role:jie",
+          "predicate": "grandfather",
+          "object_person_id": "$role:guan",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "祖父瓘曰",
+            "source_terms": [
+              "祖父瓘曰"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-025"
+            },
+            "lineage": "paternal",
+            "generation_distance": 2
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p017",
+              "quote": "玠字叔寶，年五歲，風神秀異。祖父瓘曰：「此兒有異于眾，顧吾年老，不見其成長耳！」總角乘羊車入市，見者皆以為玉人，觀之者傾都。驃騎將軍王濟，玠之舅也，俊爽有風姿，每見玠，輒歎曰：「珠玉在側，覺我形穢。」又嘗語人曰：「與玠同遊，冏若明珠之在側，朗然照人。」及長，好言玄理。其後多病體羸，母恆禁其語。遇有勝日，親友時請一言，無不咨嗟，以為入微。琅邪王澄有高名，少所推服，每聞玠言，輒歎息絕倒。故時人為之語曰：「衛玠談道，平子絕倒。」澄及王玄、王濟並有盛名，皆出玠下，世云「王家三子，不如衛家一兒。」玠妻父樂廣，有海內重名，議者以為「婦公冰清，女婿玉潤。」",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0000",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0016"
+            }
+          ],
+          "interpretation_note": "祖父明距2；未給璪以外新增中間父，此處與恆二子相合。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-026",
+          "subject_person_id": "$role:jie",
+          "predicate": "maternal_uncle",
+          "object_person_id": "$role:wang_ji",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "王濟，玠之舅也",
+            "source_terms": [
+              "王濟，玠之舅也"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-026"
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p017",
+              "quote": "玠字叔寶，年五歲，風神秀異。祖父瓘曰：「此兒有異于眾，顧吾年老，不見其成長耳！」總角乘羊車入市，見者皆以為玉人，觀之者傾都。驃騎將軍王濟，玠之舅也，俊爽有風姿，每見玠，輒歎曰：「珠玉在側，覺我形穢。」又嘗語人曰：「與玠同遊，冏若明珠之在側，朗然照人。」及長，好言玄理。其後多病體羸，母恆禁其語。遇有勝日，親友時請一言，無不咨嗟，以為入微。琅邪王澄有高名，少所推服，每聞玠言，輒歎息絕倒。故時人為之語曰：「衛玠談道，平子絕倒。」澄及王玄、王濟並有盛名，皆出玠下，世云「王家三子，不如衛家一兒。」玠妻父樂廣，有海內重名，議者以為「婦公冰清，女婿玉潤。」",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0069",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0066"
+            }
+          ],
+          "interpretation_note": "甥→舅。母未記王姓；不由舅姓反填母姓、父母，或把王濟同場友人全作親屬。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-jie-mother",
+          "subject_person_id": "$role:jie",
+          "predicate": "maternal_role",
+          "object_person_id": "$role:jie_mother",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "母",
+            "source_terms": [
+              "母恆禁其語",
+              "母曰：「我不能舍仲寶去也。」"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "jie-mother"
+            },
+            "maternal_role_basis": "source_mother_appellation",
+            "role": "mother_unspecified",
+            "biological_mother": null,
+            "father_person_id": null,
+            "biological_motherhood_asserted": false
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p017",
+              "quote": "玠字叔寶，年五歲，風神秀異。祖父瓘曰：「此兒有異于眾，顧吾年老，不見其成長耳！」總角乘羊車入市，見者皆以為玉人，觀之者傾都。驃騎將軍王濟，玠之舅也，俊爽有風姿，每見玠，輒歎曰：「珠玉在側，覺我形穢。」又嘗語人曰：「與玠同遊，冏若明珠之在側，朗然照人。」及長，好言玄理。其後多病體羸，母恆禁其語。遇有勝日，親友時請一言，無不咨嗟，以為入微。琅邪王澄有高名，少所推服，每聞玠言，輒歎息絕倒。故時人為之語曰：「衛玠談道，平子絕倒。」澄及王玄、王濟並有盛名，皆出玠下，世云「王家三子，不如衛家一兒。」玠妻父樂廣，有海內重名，議者以為「婦公冰清，女婿玉潤。」",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0000",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0141"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p018",
+              "quote": "闢命屢至，皆不就。久之，為太傅西閣祭酒，拜太子洗馬。璪為散騎侍郎，內侍懷帝。玠以天下大亂，欲移家南行。母曰：「我不能舍仲寶去也。」玠啟諭深至，為門戶大計，母涕泣從之。臨別，玠謂兄曰：「在三之義，人之所重。今可謂致身之日，兄其勉之。」乃扶輿母轉至江夏。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p018:m0038",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p018:m0051"
+            }
+          ],
+          "interpretation_note": "恆是常/一直之副詞，非母名/父衛恆；不給母取名恆或王氏。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-jie-le-father-in-law",
+          "subject_person_id": "$role:jie",
+          "predicate": "father_in_law",
+          "object_person_id": "$role:yue_guang",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "玠妻父樂廣",
+            "source_terms": [
+              "玠妻父樂廣"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "jie-le-father-in-law"
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p017",
+              "quote": "玠字叔寶，年五歲，風神秀異。祖父瓘曰：「此兒有異于眾，顧吾年老，不見其成長耳！」總角乘羊車入市，見者皆以為玉人，觀之者傾都。驃騎將軍王濟，玠之舅也，俊爽有風姿，每見玠，輒歎曰：「珠玉在側，覺我形穢。」又嘗語人曰：「與玠同遊，冏若明珠之在側，朗然照人。」及長，好言玄理。其後多病體羸，母恆禁其語。遇有勝日，親友時請一言，無不咨嗟，以為入微。琅邪王澄有高名，少所推服，每聞玠言，輒歎息絕倒。故時人為之語曰：「衛玠談道，平子絕倒。」澄及王玄、王濟並有盛名，皆出玠下，世云「王家三子，不如衛家一兒。」玠妻父樂廣，有海內重名，議者以為「婦公冰清，女婿玉潤。」",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0246",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0249"
+            }
+          ],
+          "interpretation_note": "妻父=岳父；妻為p019先亡妻有資格承接，不以母玠代妻。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-le-daughter-father",
+          "subject_person_id": "$role:jie_first_wife",
+          "predicate": "father",
+          "object_person_id": "$role:yue_guang",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "玠妻父樂廣",
+            "source_terms": [
+              "玠妻父樂廣"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "le-daughter-father"
+            },
+            "lineage": "paternal"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p017",
+              "quote": "玠字叔寶，年五歲，風神秀異。祖父瓘曰：「此兒有異于眾，顧吾年老，不見其成長耳！」總角乘羊車入市，見者皆以為玉人，觀之者傾都。驃騎將軍王濟，玠之舅也，俊爽有風姿，每見玠，輒歎曰：「珠玉在側，覺我形穢。」又嘗語人曰：「與玠同遊，冏若明珠之在側，朗然照人。」及長，好言玄理。其後多病體羸，母恆禁其語。遇有勝日，親友時請一言，無不咨嗟，以為入微。琅邪王澄有高名，少所推服，每聞玠言，輒歎息絕倒。故時人為之語曰：「衛玠談道，平子絕倒。」澄及王玄、王濟並有盛名，皆出玠下，世云「王家三子，不如衛家一兒。」玠妻父樂廣，有海內重名，議者以為「婦公冰清，女婿玉潤。」",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0247",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0249"
+            }
+          ],
+          "interpretation_note": "由妻父語法解為玠妻之父；妻未載名，未自動補姓樂，姓名另層。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-jie-first-marriage",
+          "subject_person_id": "$role:jie",
+          "predicate": "spouse",
+          "object_person_id": "$role:jie_first_wife",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "妻",
+            "source_terms": [
+              "玠妻父樂廣",
+              "玠妻先亡"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "jie-first-marriage"
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p017",
+              "quote": "玠字叔寶，年五歲，風神秀異。祖父瓘曰：「此兒有異于眾，顧吾年老，不見其成長耳！」總角乘羊車入市，見者皆以為玉人，觀之者傾都。驃騎將軍王濟，玠之舅也，俊爽有風姿，每見玠，輒歎曰：「珠玉在側，覺我形穢。」又嘗語人曰：「與玠同遊，冏若明珠之在側，朗然照人。」及長，好言玄理。其後多病體羸，母恆禁其語。遇有勝日，親友時請一言，無不咨嗟，以為入微。琅邪王澄有高名，少所推服，每聞玠言，輒歎息絕倒。故時人為之語曰：「衛玠談道，平子絕倒。」澄及王玄、王濟並有盛名，皆出玠下，世云「王家三子，不如衛家一兒。」玠妻父樂廣，有海內重名，議者以為「婦公冰清，女婿玉潤。」",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0246",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p017:m0247"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p019",
+              "quote": "玠妻先亡。征南將軍山簡見之，甚相欽重。簡曰：「昔戴叔鸞嫁女，唯賢是與，不問貴賤，況衛氏權貴門戶令望之人乎！」於是以女妻焉。遂進豫章，是時大將軍王敦鎮豫章，長史謝鯤先雅重玠，相見欣然，言論彌日。敦謂鯤曰：「昔王輔嗣吐金聲於中朝，此子復玉振于江表，微言之緒，絕而復續。不意永嘉之末，復聞正始之音，何平叔若在，當復絕倒。」玠嘗以人有不及，可以情恕；非意相干，可以理遣，故終身不見喜慍之容。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p019:m0000",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p019:m0001"
+            }
+          ],
+          "interpretation_note": "與p019妻先亡連續敘事；不生未載子女。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-032",
+          "subject_person_id": "$role:jie",
+          "predicate": "brother",
+          "object_person_id": "$role:zhao",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "臨別，玠謂兄曰",
+            "source_terms": [
+              "臨別，玠謂兄曰"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-032"
+            },
+            "relative_birth_order": {
+              "older_person_id": "$role:zhao",
+              "younger_person_id": "$role:jie",
+              "operator": "lt",
+              "scope": "siblings",
+              "older_ordinal": null,
+              "younger_ordinal": null
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p018",
+              "quote": "闢命屢至，皆不就。久之，為太傅西閣祭酒，拜太子洗馬。璪為散騎侍郎，內侍懷帝。玠以天下大亂，欲移家南行。母曰：「我不能舍仲寶去也。」玠啟諭深至，為門戶大計，母涕泣從之。臨別，玠謂兄曰：「在三之義，人之所重。今可謂致身之日，兄其勉之。」乃扶輿母轉至江夏。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p018:m0086",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p018:m0088"
+            }
+          ],
+          "interpretation_note": "前文璪字仲寶/內侍懷帝、母不能舍仲寶，玠臨別謂兄承璪；真兄字證年序，不靠名列先後。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-034",
+          "subject_person_id": "$role:jie_second_wife",
+          "predicate": "father",
+          "object_person_id": "$role:shan_jian",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "於是以女妻焉",
+            "source_terms": [
+              "於是以女妻焉"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-034"
+            },
+            "lineage": "paternal"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p019",
+              "quote": "玠妻先亡。征南將軍山簡見之，甚相欽重。簡曰：「昔戴叔鸞嫁女，唯賢是與，不問貴賤，況衛氏權貴門戶令望之人乎！」於是以女妻焉。遂進豫章，是時大將軍王敦鎮豫章，長史謝鯤先雅重玠，相見欣然，言論彌日。敦謂鯤曰：「昔王輔嗣吐金聲於中朝，此子復玉振于江表，微言之緒，絕而復續。不意永嘉之末，復聞正始之音，何平叔若在，當復絕倒。」玠嘗以人有不及，可以情恕；非意相干，可以理遣，故終身不見喜慍之容。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p019:m0057",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p019:m0009"
+            }
+          ],
+          "interpretation_note": "山簡為連續主語，以自己女妻玠；不把引古戴叔鸞女當此女。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-035",
+          "subject_person_id": "$role:jie",
+          "predicate": "spouse",
+          "object_person_id": "$role:jie_second_wife",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "於是以女妻焉",
+            "source_terms": [
+              "於是以女妻焉"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-035"
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p019",
+              "quote": "玠妻先亡。征南將軍山簡見之，甚相欽重。簡曰：「昔戴叔鸞嫁女，唯賢是與，不問貴賤，況衛氏權貴門戶令望之人乎！」於是以女妻焉。遂進豫章，是時大將軍王敦鎮豫章，長史謝鯤先雅重玠，相見欣然，言論彌日。敦謂鯤曰：「昔王輔嗣吐金聲於中朝，此子復玉振于江表，微言之緒，絕而復續。不意永嘉之末，復聞正始之音，何平叔若在，當復絕倒。」玠嘗以人有不及，可以情恕；非意相干，可以理遣，故終身不見喜慍之容。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p019:m0000",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p019:m0057"
+            }
+          ],
+          "interpretation_note": "焉承衛玠，山簡女為後次婚配；婚年不詳、女未名，不補生母。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "a-jin036-kin-036",
+          "subject_person_id": "$role:zhan",
+          "predicate": "agnatic_cousin",
+          "object_person_id": "$role:heng",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "恆族弟展字道舒",
+            "source_terms": [
+              "恆族弟展字道舒"
+            ],
+            "source_clause_binding": {
+              "rule": "fixed_jin036_complete_unit_close_kin",
+              "slot": "kin-036"
+            },
+            "kinship_structure": {
+              "lineage": "paternal",
+              "generation_difference": 0,
+              "collateral": true,
+              "distance": null,
+              "common_ancestor_person_id": null,
+              "subject_relative_age": "younger"
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p021",
+              "quote": "恆族弟展字道舒，歷尚書郎、南陽太守。永嘉中，為江州刺史，累遷晉王大理。詔有考子證父，或鞭父母問子所在，展以為恐傷正教，並奏除之。中興建，為廷尉，上疏宜復肉刑，語在《刑法志》。卒，贈光祿大夫。",
+              "subject_person_mention_id": "c-jinshu-036-wei-comparison:p021:m0003",
+              "object_person_mention_id": "c-jinshu-036-wei-comparison:p021:m0000"
+            }
+          ],
+          "interpretation_note": "只存族弟，非明親弟；同族輩分/年幼原詞保，親等與共同祖先、父未知，不倒推出父覬或瓘。",
+          "human_reviewed": false,
+          "model": null
+        }
+      ]
+    },
+    "corpus/jinshu/036-wei-comparison-family-counts.json": {
+      "format_version": 1,
+      "record_type": "source_family_count_report_set",
+      "owner": "fixed_jin036_wei_ner",
+      "chapter_id": "c-jinshu-036-wei-comparison",
+      "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+      "reports": [
+        {
+          "id": "fc-jin036-guan-six-sons",
+          "reference_person_id": "$role:guan",
+          "count_scope": "sons_of_reference",
+          "reported_count": 6,
+          "source_number": "六",
+          "source_terms": [
+            "六男"
+          ],
+          "known_member_person_ids": [
+            "$role:xuan",
+            "$role:heng",
+            "$role:yue",
+            "$role:yi"
+          ],
+          "complete_named_list": false,
+          "named_list_complete_for_reported_count": false,
+          "lifetime_child_inventory_complete": null,
+          "date_expression": null,
+          "normalized_date": null,
+          "scope_qualification": "來源本次敘述報數；非一生完整家屬目錄，不新增未名人、絕對排行或共同父母。",
+          "reference_group_id": "g-jin036-group_six_sons",
+          "unit": "persons",
+          "counting": "source_reported_person_count",
+          "source_binding": {
+            "kind": "fixed_jin036_complete_unit_family_count",
+            "slot": "guan-six-sons"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p003",
+              "quote": "事平，朝議封瓘。瓘以克蜀之功，羣帥之力，二將跋扈，自取滅亡，雖運智謀，而無搴旗之效，固讓不受。除使持節、都督關中諸軍事、鎮西將軍，尋遷都督徐州諸軍事、鎮東將軍，增封菑陽侯，以余爵封弟實開陽亭侯。泰始初，轉征東將軍，進爵為公，都督青州諸軍事、青州刺史，加征東大將軍、青州牧。所在皆有政績。除征北大將軍、都督幽州諸軍事、幽州刺史、護烏桓校尉。至鎮，表立平州，後兼督之。于時幽并東有務桓，西有力微，並為邊害。瓘離間二虜，遂致嫌隙，於是務桓降而力微以憂死。朝廷嘉其功，賜一子亭侯。瓘乞以封弟，未受命而卒，子密受封為亭侯。瓘六男無爵，悉讓二弟，遠近稱之。累求入朝，既至，武帝善遇之，俄使旋鎮。咸甯初，徵拜尚書令，加侍中。性嚴整，以法禦下，視尚書若參佐，尚書郎若掾屬。瓘學問深博，明習文藝，與尚書郎敦煌索靖俱善草書，時人號為「一台二妙」。漢末張芝亦善草書，論者謂「瓘得伯英筋，靖得伯英肉」。太康初，遷司空，侍中、令如故。為政清簡，甚得朝野聲譽。武帝敕瓘第四子宣尚繁昌公主。瓘自以諸生之胄，婚對微素，抗表固辭，不許。又領太子少傅，加千兵百騎鼓吹之府。以日蝕，瓘與太尉汝南王亮、司徒魏舒俱遜位，帝不聽。",
+              "reference_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0006",
+              "count_anchor": {
+                "start": 257,
+                "end": 259,
+                "surface": "六男"
+              }
+            }
+          ],
+          "status": "source_attested",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "fc-jin036-guan-two-younger-brothers",
+          "reference_person_id": "$role:guan",
+          "count_scope": "younger_brothers_of_reference",
+          "reported_count": 2,
+          "source_number": "二",
+          "source_terms": [
+            "二弟"
+          ],
+          "known_member_person_ids": [
+            "$role:shi",
+            "$role:brother_deceased"
+          ],
+          "complete_named_list": false,
+          "named_list_complete_for_reported_count": false,
+          "lifetime_child_inventory_complete": null,
+          "date_expression": null,
+          "normalized_date": null,
+          "scope_qualification": "來源本次敘述報數；非一生完整家屬目錄，不新增未名人、絕對排行或共同父母。",
+          "reference_group_id": "g-jin036-group_two_brothers",
+          "unit": "persons",
+          "counting": "source_reported_person_count",
+          "source_binding": {
+            "kind": "fixed_jin036_complete_unit_family_count",
+            "slot": "guan-two-younger-brothers"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p003",
+              "quote": "事平，朝議封瓘。瓘以克蜀之功，羣帥之力，二將跋扈，自取滅亡，雖運智謀，而無搴旗之效，固讓不受。除使持節、都督關中諸軍事、鎮西將軍，尋遷都督徐州諸軍事、鎮東將軍，增封菑陽侯，以余爵封弟實開陽亭侯。泰始初，轉征東將軍，進爵為公，都督青州諸軍事、青州刺史，加征東大將軍、青州牧。所在皆有政績。除征北大將軍、都督幽州諸軍事、幽州刺史、護烏桓校尉。至鎮，表立平州，後兼督之。于時幽并東有務桓，西有力微，並為邊害。瓘離間二虜，遂致嫌隙，於是務桓降而力微以憂死。朝廷嘉其功，賜一子亭侯。瓘乞以封弟，未受命而卒，子密受封為亭侯。瓘六男無爵，悉讓二弟，遠近稱之。累求入朝，既至，武帝善遇之，俄使旋鎮。咸甯初，徵拜尚書令，加侍中。性嚴整，以法禦下，視尚書若參佐，尚書郎若掾屬。瓘學問深博，明習文藝，與尚書郎敦煌索靖俱善草書，時人號為「一台二妙」。漢末張芝亦善草書，論者謂「瓘得伯英筋，靖得伯英肉」。太康初，遷司空，侍中、令如故。為政清簡，甚得朝野聲譽。武帝敕瓘第四子宣尚繁昌公主。瓘自以諸生之胄，婚對微素，抗表固辭，不許。又領太子少傅，加千兵百騎鼓吹之府。以日蝕，瓘與太尉汝南王亮、司徒魏舒俱遜位，帝不聽。",
+              "reference_person_mention_id": "c-jinshu-036-wei-comparison:p003:m0006",
+              "count_anchor": {
+                "start": 264,
+                "end": 266,
+                "surface": "二弟"
+              }
+            }
+          ],
+          "status": "source_attested",
+          "human_reviewed": false,
+          "model": null,
+          "known_subset_identity_qualification": "實與先卒未名弟為暫分來源角色；不宣稱已證異人或以兩角色數量證足二弟。",
+          "source_role_subset_complete_for_reported_count": true,
+          "member_identity_resolution": "contextual_provisional_not_distinctness_proof"
+        },
+        {
+          "id": "fc-jin036-heng-two-sons",
+          "reference_person_id": "$role:heng",
+          "count_scope": "sons_of_reference",
+          "reported_count": 2,
+          "source_number": "二",
+          "source_terms": [
+            "恆二子璪、玠",
+            "二子：璪、玠"
+          ],
+          "known_member_person_ids": [
+            "$role:zhao",
+            "$role:jie"
+          ],
+          "complete_named_list": true,
+          "named_list_complete_for_reported_count": true,
+          "lifetime_child_inventory_complete": null,
+          "date_expression": null,
+          "normalized_date": null,
+          "scope_qualification": "來源本次敘述報數；非一生完整家屬目錄，不新增未名人、絕對排行或共同父母。",
+          "reference_group_id": null,
+          "unit": "persons",
+          "counting": "source_reported_person_count",
+          "source_binding": {
+            "kind": "fixed_jin036_complete_unit_family_count",
+            "slot": "heng-two-sons"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p007",
+              "quote": "惠帝即位，復瓘千兵。及楊駿誅，以瓘錄尚書事，加綠綟綬，劍履上殿，入朝不趨，給騎司馬，與汝南王亮共輔朝政。亮奏遣諸王還籓，與朝臣廷議，無敢應者，唯瓘贊其事，楚王瑋由是憾焉。賈后素怨瓘，且忌其方直，不得騁己淫虐；又聞瓘與瑋有隙，遂謗瓘與亮欲為伊霍之事，啟帝作手詔，使瑋免瓘等官。黃門齎詔授瑋，瑋性輕險，欲聘私怨，夜使清河王遐收瓘。左右疑遐矯詔，咸諫曰：「禮律刑名，台輔大臣，未有此比，且請距之。須自表得報，就戮未晚也。」瓘不從，遂與子恆、嶽、裔及孫等九人同被害，時年七十二。恆二子璪、玠，時在醫家得免。",
+              "reference_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0215",
+              "count_anchor": {
+                "start": 235,
+                "end": 241,
+                "surface": "恆二子璪、玠"
+              }
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p015",
+              "quote": "及瓘為楚王瑋所構，恆聞變，以何劭，嫂之父也，從牆孔中詣之，以問消息。劭知而不告。恆還經廚下，收人正食，因而遇害。後贈長水校尉，諡蘭陵貞世子。二子：璪、玠。",
+              "reference_person_mention_id": "c-jinshu-036-wei-comparison:p015:m0009",
+              "count_anchor": {
+                "start": 70,
+                "end": 76,
+                "surface": "二子：璪、玠"
+              }
+            }
+          ],
+          "status": "source_attested",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "fc-jin036-nine-victims",
+          "reference_person_id": "$role:guan",
+          "count_scope": "reference_and_sons_and_grandchildren_victims",
+          "reported_count": 9,
+          "source_number": "九",
+          "source_terms": [
+            "遂與子恆、嶽、裔及孫等九人同被害",
+            "賊害大臣父子九人"
+          ],
+          "known_member_person_ids": [
+            "$role:guan",
+            "$role:heng",
+            "$role:yue",
+            "$role:yi"
+          ],
+          "complete_named_list": false,
+          "named_list_complete_for_reported_count": false,
+          "lifetime_child_inventory_complete": null,
+          "date_expression": null,
+          "normalized_date": null,
+          "scope_qualification": "來源本次敘述報數；非一生完整家屬目錄，不新增未名人、絕對排行或共同父母。",
+          "reference_group_id": "g-jin036-group_nine_dead",
+          "unit": "persons",
+          "counting": "source_reported_person_count",
+          "source_binding": {
+            "kind": "fixed_jin036_complete_unit_family_count",
+            "slot": "nine-victims"
+          },
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p007",
+              "quote": "惠帝即位，復瓘千兵。及楊駿誅，以瓘錄尚書事，加綠綟綬，劍履上殿，入朝不趨，給騎司馬，與汝南王亮共輔朝政。亮奏遣諸王還籓，與朝臣廷議，無敢應者，唯瓘贊其事，楚王瑋由是憾焉。賈后素怨瓘，且忌其方直，不得騁己淫虐；又聞瓘與瑋有隙，遂謗瓘與亮欲為伊霍之事，啟帝作手詔，使瑋免瓘等官。黃門齎詔授瑋，瑋性輕險，欲聘私怨，夜使清河王遐收瓘。左右疑遐矯詔，咸諫曰：「禮律刑名，台輔大臣，未有此比，且請距之。須自表得報，就戮未晚也。」瓘不從，遂與子恆、嶽、裔及孫等九人同被害，時年七十二。恆二子璪、玠，時在醫家得免。",
+              "reference_person_mention_id": "c-jinshu-036-wei-comparison:p007:m0006",
+              "count_anchor": {
+                "start": 212,
+                "end": 228,
+                "surface": "遂與子恆、嶽、裔及孫等九人同被害"
+              }
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-036",
+              "source_id": "s-jinshu036-wei-ws2108231-rendered-comparison",
+              "chapter_id": "c-jinshu-036-wei-comparison",
+              "paragraph_id": "c-jinshu-036-wei-comparison:p010",
+              "quote": "楚王瑋之伏誅也，瓘女與國臣書曰：「先公名諡未顯，無異凡人，每怪一國蔑然無言。《春秋》之失，其咎安在？悲憤感慨，故以示意。」於是繇等執黃幡，撾登聞鼓，上言曰：「初，矯詔者至，公承詔當免，即便奉送章綬，雖有兵仗，不施一刃，重敕出第，單車從命。如矯詔之文唯免公官，右軍以下即承詐偽，違其本文，輒戮宰輔，不復表上，橫收公子孫輒皆行刑，賊害大臣父子九人。伏見詔書『為楚王所誑誤，非本同謀者皆弛遣』。如書之旨，謂裏舍人被驅逼齎白杖者耳。律，受教殺人，不得免死。況乎手害功臣，賊殺忠良，雖云非謀，理所不赦。今元惡雖誅，殺賊猶存。臣懼有司未詳事實，或有縱漏，不加精盡，使公父子仇賊不滅，冤魂永恨，訴於穹蒼，酷痛之臣，悲於明世。臣等身被創痍，殯斂始訖。謹條瓘前在司空時，帳下給使榮晦無情被黜，知瓘家人數、小孫名字。晦後轉給右軍，其夜晦在門外揚聲大呼，宣詔免公還第。及門開，晦前到中門，復讀所齎偽詔，手取公章綬貂蟬，催公出第。晦按次錄瓘家口及其子孫，皆兵仗將送，著東亭道北圍守，一時之間，便皆斬斫。害公子孫，實由於晦。及將人劫盜府庫，皆晦所為。考晦一人，眾奸皆出。乞驗盡情偽，加以族誅。」詔從之。",
+              "reference_person_mention_id": "c-jinshu-036-wei-comparison:p010:m0008",
+              "count_anchor": {
+                "start": 163,
+                "end": 171,
+                "surface": "賊害大臣父子九人"
+              }
+            }
+          ],
+          "status": "source_attested",
+          "human_reviewed": false,
+          "model": null
+        }
+      ]
+    }
+  },
+  "authoring_coverage": [
+    {
+      "research_row_id": "research-wei-kin-001",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-002",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-003",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-004",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-005",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-006",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-007",
+      "record_kind": "family_count_report",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-008",
+      "record_kind": "qualified_source_group_family_count",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-009",
+      "record_kind": "assertion",
+      "logical_record_group": "xuan-father"
+    },
+    {
+      "research_row_id": "research-wei-kin-010",
+      "record_kind": "father_assertion_qualifier",
+      "logical_record_group": "xuan-father"
+    },
+    {
+      "research_row_id": "research-wei-kin-011",
+      "record_kind": "assertion",
+      "logical_record_group": "xuan-fanchang-marriage"
+    },
+    {
+      "research_row_id": "research-wei-kin-012",
+      "record_kind": "assertion",
+      "logical_record_group": "xuan-fanchang-marriage"
+    },
+    {
+      "research_row_id": "research-wei-kin-013",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-014",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-015",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-016",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-017",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-018",
+      "record_kind": "family_count_report",
+      "logical_record_group": "heng-two-sons"
+    },
+    {
+      "research_row_id": "research-wei-kin-019",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-020",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-021",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-022",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-023",
+      "record_kind": "family_count_report",
+      "logical_record_group": "heng-two-sons"
+    },
+    {
+      "research_row_id": "research-wei-kin-024",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-025",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-026",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-027",
+      "record_kind": "assertion",
+      "logical_record_group": "jie-mother"
+    },
+    {
+      "research_row_id": "research-wei-kin-028",
+      "record_kind": "assertion",
+      "logical_record_group": "jie-le-father-in-law"
+    },
+    {
+      "research_row_id": "research-wei-kin-029",
+      "record_kind": "assertion",
+      "logical_record_group": "le-daughter-father"
+    },
+    {
+      "research_row_id": "research-wei-kin-030",
+      "record_kind": "assertion",
+      "logical_record_group": "jie-first-marriage"
+    },
+    {
+      "research_row_id": "research-wei-kin-031",
+      "record_kind": "assertion",
+      "logical_record_group": "jie-mother"
+    },
+    {
+      "research_row_id": "research-wei-kin-032",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-033",
+      "record_kind": "assertion",
+      "logical_record_group": "jie-first-marriage"
+    },
+    {
+      "research_row_id": "research-wei-kin-034",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-035",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    },
+    {
+      "research_row_id": "research-wei-kin-036",
+      "record_kind": "assertion",
+      "logical_record_group": null
+    }
+  ],
+  "family_rekey": false,
+  "human_reviewed": false,
+  "model": null
+}

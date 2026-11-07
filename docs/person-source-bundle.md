@@ -73,3 +73,9 @@ python3 scripts/person_bundle.py jx9_cov_qe0 --include-provisional --output /tmp
 `source_mention_summary` 的提及次數合計正文及年表逐人錨點；`paragraph_ids` 與 `table_cell_ids` 分列，`passage_count` 為不同正文段落與原格的總數。同格兩次出現算兩次提及、一個格位；其他人物在同格的標記不計入本人物頻次。`most_mentioned_source_ids` 仍保留所有並列最多來源，頻次不作史料權重。索引 `mention_count` 合計兩類，另列 `paragraph_mention_count`、`table_mention_count`，可檢查計數。
 
 尚未完成CBR人物登記的年表獨立候選仍在閱讀器人物資料中分存；本來源包不因同名自動建立同指或家族，不能把此次匯出視為年表全部人物身份覆核完成。
+
+### 固定來源合稱的普通 API
+
+`person_bundle.load_catalog(root)` 與 `bundle(..., catalog=...)` 均驗證 `source_person_reference_group_set`。對具有已驗成員的本人 bundle，`source_person_groups` 保留完整來源合稱及成員 refs；對候選或編輯解讀涉及的本人，`source_reference_readings` 保留限定。這兩欄有資料才出現，`table_person_profiles` 只傳遞已驗 bundle 的原結構。個人 mentions／獨立出現頻次不加入群體詞；related people 不等於同場或親屬。
+
+晉036為固定 WS2108231 rendered 比較單元，未知印本，非武英殿、非 preferred。21段7129字及唯一現代數位紀年腳注均保原層次。姓名中 literal 與有資格的來源內復姓分行，本源未明本名／字的稱法不機械拆分；文舒／左子邑的參校首選張昶／左伯另在來源閱讀保存，不冒本源字面。NER 首輪完成不等於本傳生平、親屬或爵年已全部型別化。

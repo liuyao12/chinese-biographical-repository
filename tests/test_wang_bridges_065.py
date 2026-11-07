@@ -18,6 +18,12 @@ class WangBridges065(unittest.TestCase):
     def setUpClass(cls):
         cls.c = read('corpus/jinshu/065.json')
         cls.people = {p['label']: p['id'] for p in read('registry/persons.json')['persons']}
+        # Test-local source-spelling selector; not a runtime alias or source correction.
+        shao_paragraph = next(p for p in cls.c['paragraphs'] if p['id'] == 'c-jinshu-065-wangdao-family:line106')
+        shao_mention, = [m for m in shao_paragraph['mentions'] if m['id'] == 'c-jinshu-065-wangdao-family:line106:m0000']
+        if shao_mention['surface'] != '劭' or shao_mention['person_id'] not in cls.people.values():
+            raise ValueError('王氏065實際來源姓名主體不符')
+        cls.people['王邵'] = shao_mention['person_id']
         cls.rels = read('corpus/jinshu/065-assertions.json')['assertions']
         cls.holdings = read('corpus/jinshu/065-titles.json')['holdings']
 
@@ -44,6 +50,46 @@ class WangBridges065(unittest.TestCase):
         self.assertTrue(all('notes=' not in p['text'] for p in self.c['paragraphs']))
         self.assertTrue(all('birth_order' not in a['qualifiers'] for a in self.rels
                             if a['predicate'] == 'father' and a['object_person_id'] == self.people['王導']))
+
+    def test_source_spelling_selector_preserves_six_sons_and_current_family(self):
+        p = next(p for p in self.c['paragraphs'] if p['id'] == 'c-jinshu-065-wangdao-family:p002')
+        self.assertEqual(p['text'], '二弟：穎、敞，少與導俱知名，時人以穎方溫太真，以敞比鄧伯道，並早卒。導六子：悅、恬、洽、協、邵、薈。')
+        m, = [m for m in p['mentions'] if m['id'] == 'c-jinshu-065-wangdao-family:p002:m0046']
+        self.assertEqual((m['surface'], m['person_id']), ('邵', self.people['王邵']))
+        people = read('registry/persons.json')['persons']
+        person, = [person for person in people if person['id'] == m['person_id']]
+        for mid, surface in [(m['id'], '邵'), ('c-jinshu-065-wangdao-family:line106:m0000', '劭')]:
+            self.assertTrue(any(mid in alias['mention_ids'] and alias['surface'] == surface for alias in person['aliases']))
+            self.assertTrue(any(e['mention_id'] == mid and e['quote'] == surface for e in person['evidence']))
+        member, = [member for family in read('registry/family-assemblies.json')['assemblies'] for member in family['members'] if member['person_id'] == person['id']]
+        a, = [a for a in self.rels if a['id'] == member['source_assertion_id']]
+        self.assertEqual((a['predicate'], a['subject_person_id'], a['object_person_id']), ('father', person['id'], self.people['王導']))
+        self.assertEqual(member['parent_person_id'], self.people['王導'])
+
+    def test_six_sons_assertion_still_rejects_missing_or_extra_child(self):
+        original = self.rels
+        try:
+            a = next(a for a in original if a['predicate'] == 'father' and a['subject_person_id'] == self.people['王邵'] and a['object_person_id'] == self.people['王導'])
+            self.rels = [x for x in original if x is not a]
+            with self.assertRaises(AssertionError):
+                self.test_body_six_sons_does_not_repeat_digital_header_error()
+            extra = copy.deepcopy(a);extra['subject_person_id'] = self.people['王珣']
+            self.rels = original + [extra]
+            with self.assertRaises(AssertionError):
+                self.test_body_six_sons_does_not_repeat_digital_header_error()
+        finally:
+            self.rels = original
+
+    def test_six_sons_source_baseline_rejects_seven_header_error(self):
+        original = self.c
+        try:
+            self.c = copy.deepcopy(original)
+            p = next(p for p in self.c['paragraphs'] if p['id'] == 'c-jinshu-065-wangdao-family:p002')
+            p['text'] = p['text'].replace('導六子：', '導七子：')
+            with self.assertRaises(AssertionError):
+                self.test_source_spelling_selector_preserves_six_sons_and_current_family()
+        finally:
+            self.c = original
 
     def test_cousin_age_is_preserved_without_fabricated_distance(self):
         cousins = [a for a in self.rels if a['predicate'] == 'agnatic_cousin']

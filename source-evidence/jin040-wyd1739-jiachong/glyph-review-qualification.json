@@ -1,0 +1,94 @@
+{
+  "status": "AI_image_transcription_draft",
+  "human_reviewed": false,
+  "image_verified": false,
+  "AI_read_scope": {
+    "pdf_pages": [
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93
+    ],
+    "start": "81左第5欄賈充字公閭",
+    "end": "93左第6欄為賈郭謂謐及彰也卒諡曰烈",
+    "included": [
+      "賈充完整本傳及郭槐、賈謐、混、模、郭彰附傳"
+    ],
+    "excluded": [
+      "93左楊駿以下",
+      "本卷其他單元",
+      "全卷史臣論贊與考證"
+    ]
+  },
+  "unknown_glyphs": [],
+  "qualification": "AI逐頁逐列視讀初稿，對列出的三處另作近視覆核；未經人工全字圖校，無占位不表示全字定本。",
+  "specific_glyph_reviews": [
+    {
+      "human_reviewed": false,
+      "image_verified": false,
+      "reviews": [
+        {
+          "pdf_page": 92,
+          "side": "right",
+          "column": 3,
+          "accepted": "之勳耳終當使繫嗣死於鐘虡之間大子斃於金酒之",
+          "correction": "臣繫→子斃；大未加太之點",
+          "private_crop_sha256": "c58247f72fe99e16934ceaf6ef89d5ed95aa3b46f0050b113dec579298a41b80",
+          "image_published": false
+        },
+        {
+          "pdf_page": 92,
+          "side": "left",
+          "column": 10,
+          "accepted": "二宮尚書吏部郎以公事免起為車騎司馬豫謀楊駿",
+          "qualification": "印本謀字保留，未隨比較文誅替換",
+          "private_crop_sha256": "7bec9a16925d3b851bd5707600baf2ab73b1096f33c0e293bf74606703fff683",
+          "image_published": false
+        }
+      ]
+    },
+    {
+      "human_reviewed": false,
+      "image_verified": false,
+      "method": "AI直接近視原PDF本地渲染裁列；無重繪或補筆",
+      "pdf_page": 93,
+      "side": "right",
+      "column_right_to_left": 2,
+      "accepted_text": "衞瓘詔使模將中騶三百人收之是時賈后既豫朝政",
+      "correction": {
+        "before": "駿",
+        "after": "騶"
+      },
+      "preserved_printed_differences_from_digital_comparison": [
+        "三百（非二百）",
+        "收之（非救之）"
+      ],
+      "crop_sha256": "d544a84013e4bf1a6df1736fe2ec7cecabcc0ba8228f9e250aca778dad777c58",
+      "private_crop_sha256": "d544a84013e4bf1a6df1736fe2ec7cecabcc0ba8228f9e250aca778dad777c58",
+      "image_published": false
+    }
+  ],
+  "comparison_witness": {
+    "provider": "Chinese Wikisource",
+    "revision_id": 2606035,
+    "edition": null,
+    "role": "comparison_only_not_transcription_base",
+    "raw_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080"
+  },
+  "preserved_printed_readings": [
+    "中騶三百人收之（不改比較文二百/救之）",
+    "豫謀楊駿（不改比較文誅）"
+  ],
+  "specific_glyph_reviews_qualification": "前身AI閱讀紀錄原值保存；右3欄舊accepted之繫由具名ai_transcription_correction_ref訂正為係，舊讀不是當前轉錄。",
+  "ai_transcription_correction_ref": "source-evidence/jin040-wyd1739-jiachong/ai-transcription-correction-pdf92-r3.json",
+  "ai_transcription_correction_sha256": "3c368d3dee16b6764b87234c19879be0c9499697a6c896e9e0d16e641fd86437"
+}

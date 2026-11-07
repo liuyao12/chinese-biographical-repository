@@ -1,0 +1,315 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+  "events": [
+    {
+      "reviewer": "Codex（AI 代理）",
+      "id": "le-jin037-qiao-xun-death",
+      "person_id": "dkn_ge4_286_AAAFA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "泰始二年",
+      "source_term": "薨",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "chapter_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+          "source_id": "s-jinshu037-qiao-cheng-wuji-ws2630018",
+          "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001",
+          "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0000",
+          "quote": "譙剛王遜，字子悌，宣帝弟魏中郎進之子也。仕魏關內侯，改封城陽亭侯，參鎮東軍事，拜輕車將軍、羽林左監。五等建，徙封涇陽男。武帝受禪，封譙王，邑四千四百戶。泰始二年薨。二子：隨、承。定王隨立。薨，子邃立，沒于石勒，元帝以承嗣遜。"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "譙剛王遜傳首主語延至泰始二年薨；此年266只屬遜，不移給後述隨。",
+      "source_jin037_life_binding": {
+        "kind": "fixed_jin037_qiao_life_role",
+        "contract_ref": "source-evidence/jin037-qiao-cheng-wuji/source-contract.json",
+        "role": "xun"
+      },
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 266,
+        "year": 266,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "status": "editorial_provisional",
+        "source_expression": "泰始二年",
+        "original_quote": "譙剛王遜，字子悌，宣帝弟魏中郎進之子也。仕魏關內侯，改封城陽亭侯，參鎮東軍事，拜輕車將軍、羽林左監。五等建，徙封涇陽男。武帝受禪，封譙王，邑四千四百戶。泰始二年薨。二子：隨、承。定王隨立。薨，子邃立，沒于石勒，元帝以承嗣遜。",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-037",
+            "chapter_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+            "source_id": "s-jinshu037-qiao-cheng-wuji-ws2630018",
+            "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001",
+            "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0000",
+            "quote": "譙剛王遜，字子悌，宣帝弟魏中郎進之子也。仕魏關內侯，改封城陽亭侯，參鎮東軍事，拜輕車將軍、羽林左監。五等建，徙封涇陽男。武帝受禪，封譙王，邑四千四百戶。泰始二年薨。二子：隨、承。定王隨立。薨，子邃立，沒于石勒，元帝以承嗣遜。"
+          }
+        ],
+        "conversion_basis": {
+          "kind": "existing_saved_official_era_table",
+          "ref": "source-evidence/jin037-qiao-cheng-wuji/calendar-normalization.json",
+          "source_row_id": "av474",
+          "source_first_year": 265,
+          "source_era_ordinal": 2
+        },
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "泰始",
+            "scope": "modern_era_year_equivalence_only",
+            "columns": {
+              "dynasty": "西晉",
+              "era_name": "泰始",
+              "first_year": "265",
+              "last_year": "274"
+            },
+            "fixed_row_reference": {
+              "path": "sources/calendar-context/moe-era-table-page2.html",
+              "sha256": "193f33b9351675fe6b1e72cab84f5b88977a91c37717cf67e611262cad09ac65",
+              "row_id": "av474"
+            },
+            "image_verified": false,
+            "human_reviewed": false,
+            "access_scope_display": "只核既存回應av474完整西晉泰始列；僅供年號換算，不作人物生平或印本權威。"
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "reference_index": 0,
+          "start_ce_year": 265,
+          "end_ce_year": 274,
+          "regnal_year": 2,
+          "source_number": "二",
+          "era_name": "泰始"
+        },
+        "rationale": "原句明載泰始二年，以既存教育部西晉泰始265–274完整列換算為266中國曆年，僅年精度；不倒算生年或移作爵年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    },
+    {
+      "reviewer": "Codex（AI 代理）",
+      "id": "le-jin037-qiao-sui-death",
+      "person_id": "dkn_ge4_286_AAAFAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "薨",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "chapter_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+          "source_id": "s-jinshu037-qiao-cheng-wuji-ws2630018",
+          "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001",
+          "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p001:m0089",
+          "quote": "譙剛王遜，字子悌，宣帝弟魏中郎進之子也。仕魏關內侯，改封城陽亭侯，參鎮東軍事，拜輕車將軍、羽林左監。五等建，徙封涇陽男。武帝受禪，封譙王，邑四千四百戶。泰始二年薨。二子：隨、承。定王隨立。薨，子邃立，沒于石勒，元帝以承嗣遜。"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "定王隨立。薨，子邃立之薨承接隨；未載此薨年，不沿用遜泰始二年。",
+      "source_jin037_life_binding": {
+        "kind": "fixed_jin037_qiao_life_role",
+        "contract_ref": "source-evidence/jin037-qiao-cheng-wuji/source-contract.json",
+        "role": "sui"
+      }
+    },
+    {
+      "reviewer": "Codex（AI 代理）",
+      "id": "le-jin037-qiao-shanjian-death",
+      "person_id": "4kf_elm_6ww_AE",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "會簡卒",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "chapter_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+          "source_id": "s-jinshu037-qiao-cheng-wuji-ws2630018",
+          "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002",
+          "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p002:m0069",
+          "quote": "閔王承字敬才，少篤厚有志行。拜奉車都尉、奉朝請，稍遷廣威將軍、安夷護軍，鎮安定。從惠帝還洛陽，拜遊擊將軍。永嘉中，天下漸亂，間行依征南將軍山簡，會簡卒，進至武昌。元帝初鎮揚州，承歸建康，補軍諮祭酒。湣帝徵為龍驤將軍，不行。元帝為晉王，承制更封承為譙王。太興初，拜屯騎校尉，加輔國將軍，領左軍將軍。"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "承傳首征南將軍山簡，會簡卒之簡仍指山簡；無明死亡年。",
+      "source_jin037_life_binding": {
+        "kind": "fixed_jin037_qiao_life_role",
+        "contract_ref": "source-evidence/jin037-qiao-cheng-wuji/source-contract.json",
+        "role": "shanjian"
+      }
+    },
+    {
+      "reviewer": "Codex（AI 代理）",
+      "id": "le-jin037-qiao-liuyi-death",
+      "person_id": "5aa_w5d_dk9",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "劉翼戰死",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "chapter_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+          "source_id": "s-jinshu037-qiao-cheng-wuji-ws2630018",
+          "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003",
+          "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0055",
+          "quote": "卓軍次䐗口，聞王師敗績，停師不進，乂等攻戰日逼，敦又送所得台中人書疏，令乂射以示承。城內知朝廷不守，莫不悵惋。劉翼戰死，相持百餘日，城遂沒。乂檻送承荊州，刺史王暠承敦旨於道中害之，時年五十九。敦平，詔贈車騎將軍。子無忌立。"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "劉翼戰死為具名守城死亡，非承被害或軍中匿名死者；無明年。",
+      "source_jin037_life_binding": {
+        "kind": "fixed_jin037_qiao_life_role",
+        "contract_ref": "source-evidence/jin037-qiao-cheng-wuji/source-contract.json",
+        "role": "liuyi"
+      }
+    },
+    {
+      "reviewer": "Codex（AI 代理）",
+      "id": "le-jin037-qiao-cheng-death",
+      "person_id": "dkn_ge4_286_AAAFAB",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "於道中害之",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "chapter_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+          "source_id": "s-jinshu037-qiao-cheng-wuji-ws2630018",
+          "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003",
+          "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p003:m0073",
+          "quote": "卓軍次䐗口，聞王師敗績，停師不進，乂等攻戰日逼，敦又送所得台中人書疏，令乂射以示承。城內知朝廷不守，莫不悵惋。劉翼戰死，相持百餘日，城遂沒。乂檻送承荊州，刺史王暠承敦旨於道中害之，時年五十九。敦平，詔贈車騎將軍。子無忌立。"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "乂檻送承荊州，王暠承敦旨於道中害之之受害者為承；後接時年五十九，不推出生年。",
+      "source_jin037_life_binding": {
+        "kind": "fixed_jin037_qiao_life_role",
+        "contract_ref": "source-evidence/jin037-qiao-cheng-wuji/source-contract.json",
+        "role": "cheng"
+      }
+    },
+    {
+      "reviewer": "Codex（AI 代理）",
+      "id": "le-jin037-qiao-wuji-death",
+      "person_id": "dkn_ge4_286_AAAFABA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "永和六年",
+      "source_term": "永和六年薨",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-037",
+          "chapter_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+          "source_id": "s-jinshu037-qiao-cheng-wuji-ws2630018",
+          "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p005",
+          "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0000",
+          "quote": "建元初遷散騎常侍，轉御史中丞，出為輔國將軍、長沙相，又領江夏相，尋轉南郡、河東二郡太守，將軍如故。隨桓溫伐蜀，以勳賜少子愔爵廣晉伯，進號前將軍，永和六年薨，贈衛將軍。二子：恬、愔。恬立。",
+          "context": {
+            "kind": "prior_paragraph_subject",
+            "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004",
+            "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0000",
+            "quote": "烈王無忌字公壽，承之難，以年小獲免。咸和中，拜散騎侍郎，累遷屯騎校尉、中書、黃門侍郎。江州刺史褚裒當之鎮，無忌及丹陽尹桓景等餞於版橋。時王暠子丹陽丞耆之在坐，無忌志欲復仇，拔刀將手刃之，裒、景命左右救捍獲免。御史中丞車灌奏無忌欲專殺人，付廷尉科罪。成帝詔曰：「王敦作亂，閔王遇禍，尋事原情，今王何責。然公私憲制，亦巳有斷，王當以體國為大，豈可尋繹由來，以亂朝憲。主者其申明法令，自今已往，有犯必誅。」於是聽以贖論。",
+            "intervening_paragraph_ids": []
+          }
+        }
+      ],
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "無忌完整本人兩段持續傳主；永和六年薨指無忌，不移給近處少子愔；350為中國曆年年精度。",
+      "source_jin037_life_binding": {
+        "kind": "fixed_jin037_qiao_life_role",
+        "contract_ref": "source-evidence/jin037-qiao-cheng-wuji/source-contract.json",
+        "role": "wuji"
+      },
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 350,
+        "year": 350,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "status": "editorial_provisional",
+        "source_expression": "永和六年",
+        "original_quote": "建元初遷散騎常侍，轉御史中丞，出為輔國將軍、長沙相，又領江夏相，尋轉南郡、河東二郡太守，將軍如故。隨桓溫伐蜀，以勳賜少子愔爵廣晉伯，進號前將軍，永和六年薨，贈衛將軍。二子：恬、愔。恬立。",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-037",
+            "chapter_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018",
+            "source_id": "s-jinshu037-qiao-cheng-wuji-ws2630018",
+            "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p005",
+            "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0000",
+            "quote": "建元初遷散騎常侍，轉御史中丞，出為輔國將軍、長沙相，又領江夏相，尋轉南郡、河東二郡太守，將軍如故。隨桓溫伐蜀，以勳賜少子愔爵廣晉伯，進號前將軍，永和六年薨，贈衛將軍。二子：恬、愔。恬立。",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004",
+              "person_mention_id": "c-jinshu-037-qiao-cheng-wuji-ws2630018:p004:m0000",
+              "quote": "烈王無忌字公壽，承之難，以年小獲免。咸和中，拜散騎侍郎，累遷屯騎校尉、中書、黃門侍郎。江州刺史褚裒當之鎮，無忌及丹陽尹桓景等餞於版橋。時王暠子丹陽丞耆之在坐，無忌志欲復仇，拔刀將手刃之，裒、景命左右救捍獲免。御史中丞車灌奏無忌欲專殺人，付廷尉科罪。成帝詔曰：「王敦作亂，閔王遇禍，尋事原情，今王何責。然公私憲制，亦巳有斷，王當以體國為大，豈可尋繹由來，以亂朝憲。主者其申明法令，自今已往，有犯必誅。」於是聽以贖論。",
+              "intervening_paragraph_ids": []
+            }
+          }
+        ],
+        "conversion_basis": {
+          "kind": "existing_saved_official_era_table",
+          "ref": "source-evidence/jin037-qiao-cheng-wuji/calendar-normalization.json",
+          "source_row_id": "av498",
+          "source_first_year": 345,
+          "source_era_ordinal": 6
+        },
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "永和",
+            "scope": "modern_era_year_equivalence_only",
+            "columns": {
+              "dynasty": "東晉",
+              "era_name": "永和",
+              "first_year": "345",
+              "last_year": "356"
+            },
+            "fixed_row_reference": {
+              "path": "sources/calendar-context/moe-era-table-page2.html",
+              "sha256": "193f33b9351675fe6b1e72cab84f5b88977a91c37717cf67e611262cad09ac65",
+              "row_id": "av498"
+            },
+            "image_verified": false,
+            "human_reviewed": false,
+            "access_scope_display": "只核既存回應av498完整東晉永和列；僅供年號換算，不作人物生平或印本權威。"
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "reference_index": 0,
+          "start_ce_year": 345,
+          "end_ce_year": 356,
+          "regnal_year": 6,
+          "source_number": "六",
+          "era_name": "永和"
+        },
+        "rationale": "原句明載永和六年，以既存教育部東晉永和345–356完整列換算為350中國曆年，僅年精度；不倒算生年或移作爵年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ]
+}

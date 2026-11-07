@@ -65,6 +65,60 @@
       "chapter_id": "c-shiji-067-disciples",
       "source_id": "s-shiji-067-disciples",
       "work_title": "史記"
+    },
+    {
+      "number": 124,
+      "category": "liezhuan",
+      "title": "游俠列傳第六十四",
+      "paragraph_id": "c-shiji-124-youxia:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "云。至如以術取宰相卿大夫，輔翼其世主，功名俱著於春秋，固無可言者。及若季次、原憲，閭巷人也，讀書懷獨行君子之德，義不苟合當世，當世亦笑之。故季次、原憲終身空室蓬戶，褐衣疏食不厭。死而已四百餘年，而弟子志之不倦。今遊俠，其行雖不軌於正義，然其言必信，其行必果，已諾必誠，不愛其",
+      "paragraph_ids": [
+        "c-shiji-124-youxia:p001",
+        "c-shiji-124-youxia:p004"
+      ],
+      "mention_ids": [
+        "c-shiji-124-youxia:m001-0066",
+        "c-shiji-124-youxia:m001-0101",
+        "c-shiji-124-youxia:m004-0097"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-124-youxia:m001-0066": "c-shiji-124-youxia:p001",
+        "c-shiji-124-youxia:m001-0101": "c-shiji-124-youxia:p001",
+        "c-shiji-124-youxia:m004-0097": "c-shiji-124-youxia:p004"
+      },
+      "mention_id": "c-shiji-124-youxia:m001-0066",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-124-youxia:m001-0066",
+          "mention_ids": [
+            "c-shiji-124-youxia:m001-0066"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-124-youxia:m001-0101",
+          "mention_ids": [
+            "c-shiji-124-youxia:m001-0101"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-124-youxia:m004-0097",
+          "mention_ids": [
+            "c-shiji-124-youxia:m004-0097"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-124",
+      "chapter_id": "c-shiji-124-youxia",
+      "source_id": "s-shiji124-youxia",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -92,6 +146,30 @@
           "note": "全152段已核讀，人物標註待逐段處理；未核可靠底本、影像或現代研究。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-124-youxia",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-124",
+      "source_id": "s-shiji124-youxia",
+      "source": {
+        "title": "史記／卷124",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷124",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷124&oldid=367994",
+        "revision_id": 367994,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文17段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標、Textquality及wikipedia導覽模板；原文字面保留，原字未轉換，未核影像。",
+          "note": "末段索隱述贊另分層。"
+        }
+      }
     }
   ],
   "relations": [],
@@ -105,7 +183,28 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji124-001",
+      "person_id": "v94_2qu_ypp",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-124-youxia",
+          "source_id": "s-shiji124-youxia",
+          "paragraph_id": "c-shiji-124-youxia:p001",
+          "quote": "韓子曰：「儒以文亂法，而俠以武犯禁。」二者皆譏，而學士多稱於世云。至如以術取宰相卿大夫，輔翼其世主，功名俱著於春秋，固無可言者。及若季次、原憲，閭巷人也，讀書懷獨行君子之德，義不苟合當世，當世亦笑之。故季次、原憲終身空室蓬戶，褐衣疏食不厭。死而已四百餘年，而弟子志之不倦。今遊俠，其行雖不軌於正義，然其言必信，其行必果，已諾必誠，不愛其軀，赴士之阨困，既已存亡死生矣，而不矜其能，羞伐其德，蓋亦有足多者焉。",
+          "person_mention_id": "c-shiji-124-youxia:m001-0066"
+        }
+      ],
+      "source_term": "死而已四百餘年",
+      "interpretation_note": "明示死亡敘述連個人與原句；概數及朝代範圍不換算單一年，誅族不據此逐一補造家屬死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

@@ -1,0 +1,95 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+  "assertions": [
+    {
+      "id": "a-zhou041-hongzheng-older-brother-hongrang",
+      "subject_person_id": "y41_7yk_ksf_A",
+      "predicate": "brother",
+      "object_person_id": "y41_7yk_ksf_B",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "兄",
+        "relative_birth_order": {
+          "older_person_id": "y41_7yk_ksf_A",
+          "younger_person_id": "y41_7yk_ksf_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-041",
+          "source_id": "s-zhoushu041-ws2432538",
+          "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p008",
+          "quote": "初，襃與梁處士汝南周弘讓相善。及弘讓兄弘正自陳來聘，高祖許襃等通親知音問。襃贈弘讓詩，并致書曰：",
+          "subject_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p008:m0019",
+          "object_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p008:m0016"
+        }
+      ],
+      "interpretation_note": "弘讓兄弘正明示，記兄弟及相對長幼；不推同父/同母、未知父母名或絕對排行，兩人source-local正常根ID不造父分支。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-zhou041-qian-father-jian",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAAA",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAAAAEAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "曾祖儉，祖騫",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-041",
+          "source_id": "s-zhoushu041-ws2432538",
+          "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p001",
+          "quote": "王襃字子淵，琅邪臨沂人也。曾祖儉，齊侍中、太尉、南昌文憲公。祖騫，梁侍中、金紫光祿大夫、南昌安侯。父規，梁侍中、左民尚書、南昌章侯。竝有重名於江左。",
+          "subject_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p001:m0031",
+          "object_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p001:m0015"
+        }
+      ],
+      "interpretation_note": "《周書》卷四十一以王褒為傳主，明列曾祖儉、祖騫、父規；按連續世次記錄騫為儉之子。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null
+    },
+    {
+      "id": "a-zhou041-bao-father",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAAAAA",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAAAAEAAAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父規",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zhoushu",
+          "book_id": "b-zhoushu-041",
+          "source_id": "s-zhoushu041-ws2432538",
+          "chapter_id": "c-zhoushu-041-wangbao-ws2432538",
+          "paragraph_id": "c-zhoushu-041-wangbao-ws2432538:p001",
+          "quote": "王襃字子淵，琅邪臨沂人也。曾祖儉，齊侍中、太尉、南昌文憲公。祖騫，梁侍中、金紫光祿大夫、南昌安侯。父規，梁侍中、左民尚書、南昌章侯。竝有重名於江左。",
+          "subject_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p001:m0003",
+          "object_person_mention_id": "c-zhoushu-041-wangbao-ws2432538:p001:m0050"
+        }
+      ],
+      "interpretation_note": "《周書》卷四十一王襃傳明記父規，以較早傳文覆核《新唐書》世系表。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null
+    }
+  ]
+}

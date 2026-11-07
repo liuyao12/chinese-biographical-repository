@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "static_skips": [
+    {
+      "test_id": "test_portable_fixture_copy.PortableFixtureCopy.test_actual_clone_independent_bytes_and_metadata",
+      "reason": "actual Darwin clonefile only",
+      "condition": {"platform_not": "darwin"}
+    },
+    {
+      "test_id": "test_portable_fixture_copy.PortableFixtureCopy.test_symlink_source_follow_and_no_follow_match_copy2",
+      "reason": "symlinks required",
+      "condition": {"missing_os_attribute": "symlink"}
+    },
+    {
+      "test_id": "test_portable_fixture_copy.PortableFixtureCopy.test_existing_destination_symlink_matches_copy2",
+      "reason": "symlinks required",
+      "condition": {"missing_os_attribute": "symlink"}
+    }
+  ],
+  "expected_failures": [],
+  "dynamic_skips": [
+    {
+      "test_id": "test_houhan064_luzhi_source.LuzhiCompleteSource.test_names_when_adopted",
+      "reason": "separate optional name plan not adopted",
+      "condition": {"path_missing": "corpus/houhanshu/064-luzhi-name-components.json"}
+    }
+  ]
+}

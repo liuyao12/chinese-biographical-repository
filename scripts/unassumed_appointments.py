@@ -77,8 +77,8 @@ def unassumed_appointment_valid(proposal, chapter):
         return False
     verbs = ['進號','引為','引爲','召為','召爲','徙','遷','尋加','轉','除','改除','加','以為','征補','徵','徴','徵為','徵爲','命為','命爲','請為','請爲','補','辟','復除','又除','出為','出爲',
              '以'+person['surface']+'為','以'+person['surface']+'爲']
-    terms = {'declined':['固辭不起','固辭開府','固辭不拜','以疾固辭，未行而卒','苦讓，遂不受','讓不拜','固讓不拜','固讓'],
-             'did_not_take_up':['稱疾不起','並不行','未之職','不拜','皆不就','不就','並不就','竝不就','竝不拜','未拜','終以不拜','竟不拜','又不就']}
+    terms = {'declined':['以疾固辭','固辭不起','固辭開府','固辭不拜','以疾固辭，未行而卒','苦讓，遂不受','讓不拜','固讓不拜','固讓'],
+             'did_not_take_up':['稱疾不行','稱疾不起','並不行','未之職','不拜','皆不就','不就','並不就','竝不就','竝不拜','未拜','終以不拜','竟不拜','又不就']}
     stage = proposal.get('appointment_stage')
     invitation = appointment['surface'] in ('請為', '請爲')
     if (stage not in (None, 'invitation', 'appointment')
@@ -95,6 +95,29 @@ def unassumed_appointment_valid(proposal, chapter):
         return False
     if carried and 'source_continuity' in e['context']:
         if e['context']['source_continuity']['target_prefix_anchor']['end'] < refusal['end']:
+            return False
+    if refusal['surface'] == '以疾固辭':
+        b = proposal.get('declined_reassignment_context', {})
+        titles = b.get('title_anchors')
+        replacement = b.get('replacement_appointment_anchor')
+        if (b.get('kind') != 'same_subject_declines_then_reassigned'
+                or b.get('human_reviewed') is not False
+                or not isinstance(titles, list) or not titles
+                or not all(anchor(a) for a in titles) or not anchor(replacement)
+                or not any(a == proposal.get('role_anchor') for a in titles)
+                or appointment['end'] != titles[0]['start']
+                or any(p['text'][a['end']:z['start']] != '、'
+                       for a, z in zip(titles, titles[1:]))
+                or p['text'][titles[-1]['end']:refusal['start']] != '，'
+                or p['text'][refusal['end']:replacement['start']] != '，'
+                or not replacement['surface'].startswith(('徙為','徙爲','改為','改爲'))
+                or len(replacement['surface']) <= 2
+                or any(m.get('kind') == 'person' and m.get('person_id') != proposal['person_id']
+                       and appointment['start'] <= m['start'] < replacement['end']
+                       for m in p['mentions'])):
+            return False
+        from scripts.quotation_boundaries import unquoted_span
+        if not unquoted_span(p['text'], appointment['start'], replacement['end']):
             return False
     if refusal['surface'] == '固辭不起':
         try:

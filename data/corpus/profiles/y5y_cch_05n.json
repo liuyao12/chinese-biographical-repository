@@ -7,7 +7,9 @@
   "review": "ai_provisional",
   "names": [
     "女",
-    "妃"
+    "妃",
+    "王氏",
+    "太孫太妃"
   ],
   "titles": [],
   "addresses": [],
@@ -62,7 +64,51 @@
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
       "chapter_id": "c-jinshu-043-wangyan",
-      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "source_id": "s-jinshu-043-ws2618531-wangyan",
+      "work_title": "晉書"
+    },
+    {
+      "number": 53,
+      "category": "",
+      "title": "愍懷太子",
+      "paragraph_id": "c-jinshu-053-minhuai-family:p004",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，詔曰：「咎徵數發，奸回作變，遹既逼廢，非命而沒。今立臧為皇太孫。還妃王氏以母之，稱太孫太妃。太子官屬即轉為太孫官屬。趙王倫行太孫太傅。」五月，倫與太孫俱之東宮，太孫自西掖門出，車服侍從皆湣懷之舊也。到銅駝街，宮人哭，侍從者皆哽咽，路人抆淚焉。桑復生於西廂，太孫廢，乃枯。永",
+      "paragraph_ids": [
+        "c-jinshu-053-minhuai-family:p004"
+      ],
+      "mention_ids": [
+        "c-jinshu-053-minhuai-family:p004:m0054",
+        "c-jinshu-053-minhuai-family:p004:m0061"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-053-minhuai-family:p004:m0054": "c-jinshu-053-minhuai-family:p004",
+        "c-jinshu-053-minhuai-family:p004:m0061": "c-jinshu-053-minhuai-family:p004"
+      },
+      "mention_id": "c-jinshu-053-minhuai-family:p004:m0054",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-053-minhuai-family:p004:m0054",
+          "mention_ids": [
+            "c-jinshu-053-minhuai-family:p004:m0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-053-minhuai-family:p004:m0061",
+          "mention_ids": [
+            "c-jinshu-053-minhuai-family:p004:m0061"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-053",
+      "chapter_id": "c-jinshu-053-minhuai-family",
+      "source_id": "s-jinshu-053-ws2595666-rendered-family",
       "work_title": "晉書"
     }
   ],
@@ -72,7 +118,7 @@
       "chapter_id": "c-jinshu-043-wangyan",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
-      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "source_id": "s-jinshu-043-ws2618531-wangyan",
       "source": {
         "title": "《晉書》卷四十三從弟王衍完整敘事單元（含子玄附敘）",
         "provider": "Wikisource",
@@ -94,10 +140,84 @@
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-053-minhuai-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-053",
+      "source_id": "s-jinshu-053-ws2595666-rendered-family",
+      "source": {
+        "title": "《晉書》卷五十三·愍懷太子",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/晉書/卷053",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷053&oldid=2595666",
+        "accessed_on": "2026-10-30",
+        "extent": "傳首完整段及三子完整子嗣單元，共五個接收原段；中間未選敘事不冒已原生",
+        "text_scope": "partial_chapter",
+        "review_status": "in_progress",
+        "image_verified": false,
+        "human_reviewed": false,
+        "rights": "古代原文公有領域；維基文庫數位轉錄CC BY-SA4.0，保留取得與見證資格。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "實際印本未知，未圖校",
+        "acquisition": {
+          "reported_revision": 2595666,
+          "fixed_body_obtained": false,
+          "raw_obtained": false,
+          "actual_print_edition": null,
+          "image_verified": false,
+          "human_reviewed": false,
+          "observed_url": "https://zh.wikisource.org/wiki/晉書/卷053",
+          "tool_line_units": [
+            130,
+            145,
+            150,
+            152,
+            154
+          ]
+        },
+        "normalization": {
+          "character_conversion": {},
+          "rule": "僅解工具link wrapper與去display縮排、明示現代腳注callout；不改原字。現代校勘正文留外部audit。"
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin053-zang-raised-by-wang",
+      "subject_person_id": "dkn_ge4_286_AAAAIAAAB",
+      "predicate": "raised_by",
+      "object_person_id": "y5y_cch_05n",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "還妃王氏以母之",
+        "source_clause_binding": {
+          "kind": "received_sima_family_roles",
+          "role": "zang-raised-by-wang"
+        },
+        "biological_mother_not_inferred": true,
+        "source_reported_maternal_role_only": true
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-053",
+          "source_id": "s-jinshu-053-ws2595666-rendered-family",
+          "chapter_id": "c-jinshu-053-minhuai-family",
+          "paragraph_id": "c-jinshu-053-minhuai-family:p004",
+          "quote": "臧字敬文。永康元年四月，封臨淮王。己巳，詔曰：「咎徵數發，奸回作變，遹既逼廢，非命而沒。今立臧為皇太孫。還妃王氏以母之，稱太孫太妃。太子官屬即轉為太孫官屬。趙王倫行太孫太傅。」五月，倫與太孫俱之東宮，太孫自西掖門出，車服侍從皆湣懷之舊也。到銅駝街，宮人哭，侍從者皆哽咽，路人抆淚焉。桑復生於西廂，太孫廢，乃枯。永甯元年正月，趙王倫篡位，廢為濮陽王，與帝俱遷金墉，尋被害。太安初，追諡曰哀。",
+          "subject_person_mention_id": "c-jinshu-053-minhuai-family:p004:m0000",
+          "object_person_mention_id": "c-jinshu-053-minhuai-family:p004:m0054"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "dkn_ge4_286_AAAAIAAAB": "臧〔愍懷太子子〕",
     "y5y_cch_05n": "王衍女〔湣懷太子妃，未名〕"
   },
   "dates": [],
@@ -105,7 +225,39 @@
   "person_ids": [
     "y5y_cch_05n"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin053-zang-raised-by-wang",
+      "subject_person_id": "dkn_ge4_286_AAAAIAAAB",
+      "predicate": "raised_by",
+      "object_person_id": "y5y_cch_05n",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "還妃王氏以母之",
+        "source_clause_binding": {
+          "kind": "received_sima_family_roles",
+          "role": "zang-raised-by-wang"
+        },
+        "biological_mother_not_inferred": true,
+        "source_reported_maternal_role_only": true
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-053",
+          "source_id": "s-jinshu-053-ws2595666-rendered-family",
+          "chapter_id": "c-jinshu-053-minhuai-family",
+          "paragraph_id": "c-jinshu-053-minhuai-family:p004",
+          "quote": "臧字敬文。永康元年四月，封臨淮王。己巳，詔曰：「咎徵數發，奸回作變，遹既逼廢，非命而沒。今立臧為皇太孫。還妃王氏以母之，稱太孫太妃。太子官屬即轉為太孫官屬。趙王倫行太孫太傅。」五月，倫與太孫俱之東宮，太孫自西掖門出，車服侍從皆湣懷之舊也。到銅駝街，宮人哭，侍從者皆哽咽，路人抆淚焉。桑復生於西廂，太孫廢，乃枯。永甯元年正月，趙王倫篡位，廢為濮陽王，與帝俱遷金墉，尋被害。太安初，追諡曰哀。",
+          "subject_person_mention_id": "c-jinshu-053-minhuai-family:p004:m0000",
+          "object_person_mention_id": "c-jinshu-053-minhuai-family:p004:m0054"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

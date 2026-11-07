@@ -1,0 +1,63 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_name_component_set",
+  "chapter_id": "c-shiji-124-youxia",
+  "records": [
+    {
+      "id": "name-shiji124-zhaotayu-reference",
+      "person_id": "k66_l92_10i",
+      "surname": "趙",
+      "ming": "他羽",
+      "zi": "公子",
+      "additional_names": [],
+      "chapter_id": "c-shiji-124-youxia",
+      "paragraph_id": "c-shiji-124-youxia:p015",
+      "person_mention_id": "c-shiji-124-youxia:m015-0096",
+      "quote": "自是之後，為俠者極眾，敖而無足數者。然關中長安樊仲子，槐裏趙王孫，長陵高公子，西河郭公仲，太原鹵公孺，臨淮兒長卿，東陽田君孺，雖為俠而逡逡有退讓君子之風。至若北道姚氏，西道諸杜，南道仇景，東道趙他、羽公子，南陽趙調之徒，此盜跖居民間者耳，曷足道哉！此乃鄉者朱家之羞也。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "component_source_binding": {
+        "kind": "fixed_shiji124_suoyin_reference_name_parse",
+        "name_form": "editorial_reference",
+        "source_mention_ids": [
+          "c-shiji-124-youxia:m015-0096",
+          "c-shiji-124-youxia:m015-0099"
+        ],
+        "source_literal_full_name": null,
+        "literal_surface_components": [
+          {
+            "mention_id": "c-shiji-124-youxia:m015-0096",
+            "start": 96,
+            "end": 98,
+            "surface": "趙他"
+          },
+          {
+            "mention_id": "c-shiji-124-youxia:m015-0099",
+            "start": 99,
+            "end": 102,
+            "surface": "羽公子"
+          }
+        ],
+        "reference_path": "source-evidence/shiji124-zhaotayu/reference-units.json"
+      },
+      "references": [
+        {
+          "title": "《史記・游俠列傳》索隱",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷124&oldid=2514795",
+          "quote": "舊解以趙他、羽公子爲二人，今案：此姓趙，名他羽，字公子也。",
+          "scope": "editorial_reference",
+          "access_scope_display": "已核讀數位列名段及注語；印本未核，未取得原始文字或書影校勘。"
+        },
+        {
+          "title": "《漢書・游俠傳》",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷092&oldid=2271691",
+          "quote": "東道佗羽公子",
+          "scope": "comparison_only_not_independent_vote",
+          "access_scope_display": "已核讀郭解完整數位單元；底本未知，非武英殿見證。"
+        }
+      ],
+      "interpretation_note": "完整姓/名/字依索隱釋名，本文兩片間有頓號，沒有他羽連字引文。舊解二人另層保留；不從公子推出王族/爵稱。"
+    }
+  ]
+}

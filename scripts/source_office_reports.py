@@ -27,7 +27,7 @@ def qualified_office_valid(h,ch):
   return True
  except(KeyError,TypeError,ValueError,AssertionError,StopIteration):return False
 
-def detail_valid(d,ch,holdings,root=None):
+def _detail_valid_legacy(d,ch,holdings,root=None):
  if 'date_observation' in d:
   try:from scripts.source_office_dates import detail_valid as dated_valid
   except ImportError:from source_office_dates import detail_valid as dated_valid
@@ -145,3 +145,10 @@ def holding_role_valid(h,ch,holdings,root=None):
   assert all(x['id']in b['roles'].values()or any(f['start']<=x['start']<x['end']<=f['end']and x['person_id']==roles[recipient]['person_id']for f in fields.values())for x in p['mentions']if x.get('kind')=='person'and scope['start']<=x['start']<scope['end'])
   return True
  except(KeyError,TypeError,ValueError,AssertionError,StopIteration):return False
+# Opt-in existing official_duty kind: exactly source-bound concurrent department wording.
+def detail_valid(d,ch,holdings,root=None):
+ if isinstance(d,dict)and isinstance(d.get('source_detail_pattern'),dict)and d['source_detail_pattern'].get('kind')=='concurrent_department_function':
+  try:from scripts.fixed_wuyingdian_jin043_shantao import concurrent_department_function_valid
+  except ImportError:from fixed_wuyingdian_jin043_shantao import concurrent_department_function_valid
+  return concurrent_department_function_valid(d,ch,holdings,root)
+ return _detail_valid_legacy(d,ch,holdings,root)

@@ -1,4 +1,5 @@
 import {summarizeNameComponents} from './name-components.js';
+import {profileTitlePreference} from './profile-title.js';
 /** Discovery uses published indexes only; aliases never become extra people. */
 export const WORK_GROUPS = [
   {key:'early',title:'Early histories and chronological works',ids:['w-shiji','w-hanshu','w-houhanshu','w-zizhitongjian','w-zuozhuan-zhushu']},
@@ -47,7 +48,8 @@ export function directoryDisplay(metadata, label='') {
   const partial=Boolean(n&&!n.clan_style?.value&&!n.full_name&&n.ming&&!n.surname&&label?.endsWith(n.ming)&&label.length>n.ming.length);
   const personal=n?.clan_style?.value||n?.full_name||(n?`${n.surname||''}${n.ming||''}`:'');
   const name=!partial&&summary.canHead&&personal?personal:label;
-  let title=summary.canHead?present(n?.title):'';
+  const preferred=profileTitlePreference(metadata);
+  let title=preferred&&!partial&&summary.canHead&&personal?preferred.title:summary.canHead?present(n?.title):'';
   const usingFallback=partial||!summary.canHead||!personal;
   if(title&&(title===name||(usingFallback&&name.startsWith(title))))title='';
   const additional=n?unique([n.zi?`字${n.zi}`:'',n.hao?`號${n.hao}`:'']):[];
