@@ -36,6 +36,24 @@
       "張仲參與女孫婚議不證女孫為其女；盜嫂及受金指控保存引語，不當史實已核。",
       "楚漢都尉、左右丞相與爵位變動分存；曾孫不改成直接子，願續封而不得不當已封；全官爵時段及版本仍待覆核。",
       "曹參卒原孝惠帝六年與卷54惠帝二年差異保留；持爵年數不倒推生年，諸呂群體不補個別死亡；原爲、戸、鄕異體保持。"
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "u-shiji056-chen-sao",
+        "status": "unresolved",
+        "candidate_person_ids": [
+          "8xv_ax8_bpe",
+          "aqp_pc2_igk"
+        ],
+        "paragraph_ids": [
+          "c-shiji-056-chen:p001",
+          "c-shiji-056-chen:p002",
+          "c-shiji-056-chen:p007"
+        ],
+        "candidate_list_exhaustive": false,
+        "note": "卷001稱陳平之嫂嫉其不治家產，伯遂逐其婦。卷002張負告誡孫女「事嫂如母」，卷007諸將指控陳平「盜其嫂」，魏無知又反詰「盜嫂」。後兩段稱嫂者是否為已被逐之婦、伯是否另娶，原文均未交代；保留卷001人選 ID 8xv_ax8_bpe 與後段來源內候選 aqp_pc2_igk，不強合亦不斷言必異。卷007所載盜嫂是指控，不作已證事實。",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
@@ -95,10 +113,9 @@
           "start": 53,
           "end": 54,
           "surface": "人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "t65_e31_x78",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m001-0056",
@@ -452,10 +469,9 @@
           "start": 241,
           "end": 242,
           "surface": "嫂",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "先前伯婦已被逐；此處婚後勸語／指控的嫂未定是否同一人，亦不以盜嫂引語當已核事實。"
+          "kind": "person",
+          "person_id": "aqp_pc2_igk",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m002-0246",
@@ -800,14 +816,13 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-shiji-056-chen:m005-0129",
-          "start": 129,
+          "id": "c-shiji-056-chen:m005-0130",
+          "start": 130,
           "end": 131,
-          "surface": "使使",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "surface": "使",
+          "kind": "person",
+          "person_id": "m55_2qo_xib",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m005-0132",
@@ -832,10 +847,9 @@
           "start": 147,
           "end": 149,
           "surface": "船人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "qdu_ndh_c0i",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m005-0176",
@@ -860,10 +874,9 @@
           "start": 190,
           "end": 192,
           "surface": "船人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "qdu_ndh_c0i",
+          "status": "contextual_provisional"
         }
       ]
     },
@@ -1104,10 +1117,9 @@
           "start": 40,
           "end": 41,
           "surface": "嫂",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "先前伯婦已被逐；此處婚後勸語／指控的嫂未定是否同一人，亦不以盜嫂引語當已核事實。"
+          "kind": "person",
+          "person_id": "aqp_pc2_igk",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m007-0075",
@@ -1187,10 +1199,9 @@
           "start": 195,
           "end": 196,
           "surface": "嫂",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "先前伯婦已被逐；此處婚後勸語／指控的嫂未定是否同一人，亦不以盜嫂引語當已核事實。"
+          "kind": "person",
+          "person_id": "aqp_pc2_igk",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m007-0205",
@@ -1601,10 +1612,9 @@
           "start": 89,
           "end": 91,
           "surface": "楚使",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "78p_aq3_jz8",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m009-0101",
@@ -1629,20 +1639,18 @@
           "start": 121,
           "end": 123,
           "surface": "楚使",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "78p_aq3_jz8",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m009-0124",
           "start": 124,
           "end": 126,
           "surface": "楚使",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "78p_aq3_jz8",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m009-0131",
@@ -1771,6 +1779,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-056-chen:m010-0017",
+          "start": 17,
+          "end": 18,
+          "surface": "使",
+          "kind": "person",
+          "person_id": "6x0_716_nn0",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-056-chen:m010-0020",
           "start": 20,
           "end": 22,
@@ -1813,6 +1830,15 @@
           "surface": "漢王",
           "kind": "person",
           "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-056-chen:m010-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "齊使",
+          "kind": "person",
+          "person_id": "6x0_716_nn0",
           "status": "contextual_provisional"
         },
         {
@@ -2444,10 +2470,9 @@
           "start": 38,
           "end": 39,
           "surface": "人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "0oe_fru_sit",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m015-0042",
@@ -2557,16 +2582,6 @@
           "kind": "person",
           "person_id": "b1r_inb_fts",
           "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-056-chen:m015-0126",
-          "start": 126,
-          "end": 127,
-          "surface": "人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
         },
         {
           "id": "c-shiji-056-chen:m015-0135",
@@ -2689,10 +2704,9 @@
           "start": 25,
           "end": 27,
           "surface": "使者",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "emy_e5n_3io",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m016-0028",
@@ -2946,6 +2960,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-056-chen:m018-0089",
+          "start": 89,
+          "end": 90,
+          "surface": "使",
+          "kind": "person",
+          "person_id": "30s_v1e_7q4",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-056-chen:m018-0096",
           "start": 96,
           "end": 98,
@@ -2977,10 +3000,9 @@
           "start": 109,
           "end": 111,
           "surface": "使者",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "30s_v1e_7q4",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m018-0117",
@@ -3032,10 +3054,9 @@
           "start": 148,
           "end": 150,
           "surface": "使者",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "30s_v1e_7q4",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m018-0158",
@@ -3946,10 +3967,9 @@
           "start": 179,
           "end": 181,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_AC",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-056-chen:m025-0211",
@@ -4100,10 +4120,9 @@
           "start": 54,
           "end": 56,
           "surface": "人妻",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "kgn_5f5_by5",
+          "status": "contextual_provisional"
         }
       ]
     },
