@@ -1340,7 +1340,6 @@
 | `hmj_pm8_38e` | 壺遂 | [《史記・韓長孺列傳》][177] | [JSON](hmj_pm8_38e.json) |
 | `hmr_3oo_5m5` | 漢宣帝 | [《史記・張丞相列傳》][165] | [JSON](hmr_3oo_5m5.json) |
 | `hmx_ohe_wso` | 楚考烈王（滅魯記事） | [《史記・魯周公世家》][102] | [JSON](hmx_ohe_wso.json) |
-| `hn4_62t_avw` | 衛君 | [《史記・老子韓非列傳》][132] | [JSON](hn4_62t_avw.json) |
 | `hn4_jh3_9yu` | 郈昭伯 | [《史記・孔子世家》][116] | [JSON](hn4_jh3_9yu.json) |
 | `hnd_3at_h4i` | 劉隗 | [《晉書・后妃下》][25]、[《晉書・王導》][40] | [JSON](hnd_3at_h4i.json) |
 | `hnj_ut6_7z4` | 豐隆 | [《史記・司馬相如列傳》][186] | [JSON](hnj_ut6_7z4.json) |

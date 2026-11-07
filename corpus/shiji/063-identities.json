@@ -661,9 +661,10 @@
     },
     {
       "id": "d-shiji063-029",
-      "person_id": "hn4_62t_avw",
+      "person_id": "i8i_rvh_4lp_AAAAAA",
       "surfaces": [
-        "衛君"
+        "衛君",
+        "君"
       ],
       "scope": "same_chapter",
       "chapter_ids": [
@@ -676,8 +677,18 @@
           "quote": "昔者彌子瑕見愛於衛君。衛國之法，竊駕君車者罪至刖。既而彌子之母病，人聞，往夜告之，彌子矯駕君車而出。君聞之而賢之曰：「孝哉，為母之故而犯刖罪！」與君游果園，彌子食桃而甘，不盡而奉君。君曰：「愛我哉，忘其口而念我！」及彌子色衰而愛弛，得罪於君。君曰：「是嘗矯駕吾車，又嘗食我以其餘桃。」故彌子之行未變於初也，前見賢而後獲罪者，愛憎之至變也。故有愛於主，則知當而加親；見憎於主，則罪當而加疏。故諫說之士不可不察愛憎之主而後說之矣。"
         }
       ],
-      "rationale": "依開篇姓名與敘事局部短稱暫接，未名引例人物不補名。老萊子及太史儋與老子分候選不表示確定不同，書名與否定非字不當人物提及，故事與身份確證分開。",
-      "reviewer": "Codex（AI 代理）"
+      "rationale": "本段首稱「衛君」，後文「君」均承指此君；《韓非子・難四》平行故事明稱衛靈公之時，與〈衛世家〉名元、立為靈公及另兩篇明稱衛靈公可相合。只據平行文本辨認故事人物，不補文中未明姓名為正文異名；老萊子與太史儋的異說仍另存。",
+      "reviewer": "Codex（AI 代理）",
+      "references": [
+        {
+          "title": "《韓非子・難四》平行故事（維基文庫固定版本）",
+          "url": "https://zh.wikisource.org/w/index.php?title=韓非子/難四&oldid=2327689",
+          "quote": "衛靈公之時，彌子瑕有寵，專於衛國。",
+          "scope": "parallel_primary_text_context_not_an_independent_shiji_occurrence",
+          "image_verified": false,
+          "note": "用以辨認《史記》彌子瑕故事中的衛君；未將此引文當作《史記》見證或獨立人名錨點。"
+        }
+      ]
     },
     {
       "id": "d-shiji063-030",
@@ -883,6 +894,96 @@
       ],
       "rationale": "依開篇姓名與敘事局部短稱暫接，未名引例人物不補名。老萊子及太史儋與老子分候選不表示確定不同，書名與否定非字不當人物提及，故事與身份確證分開。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji063-040",
+      "person_id": "i8i_rvh_4lp_AAAAAA",
+      "surfaces": [
+        "衛靈公",
+        "衛君",
+        "君",
+        "元",
+        "靈公"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-037-wei",
+        "c-shiji-035-guancai",
+        "c-shiji-074-mengxun",
+        "c-shiji-063-laohan"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-037",
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p029",
+          "quote": "九年，襄公卒。初，襄公有賤妾，幸之，有身，夢有人謂曰：「我康叔也，令若子必有衞，名而子曰『元』。」妾怪之，問孔成子。成子曰：「康叔者，衞祖也。」及生子，男也，以告襄公。襄公曰：「天所置也。」名之曰元。襄公夫人無子，於是乃立元爲嗣，是爲靈公。",
+          "mention_ids": [
+            "c-shiji-037-wei:m029-0045",
+            "c-shiji-037-wei:m029-0098",
+            "c-shiji-037-wei:m029-0111",
+            "c-shiji-037-wei:m029-0117"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-035",
+          "chapter_id": "c-shiji-035-guancai",
+          "source_id": "s-shiji-035-guancai",
+          "paragraph_id": "c-shiji-035-guancai:p019",
+          "quote": "十三年春，與衛靈公會邵陵。蔡侯私於周萇弘以求長於衛；衛使史言康叔之功德，乃長衛。夏，為晉滅沈，楚怒，攻蔡。蔡昭侯使其子為質於吳，以共伐楚。冬，與吳王闔閭遂破楚入郢。蔡怨子常，子常恐，奔鄭。十四年，吳去而楚昭王復國。十六年，楚令尹為其民泣以謀蔡，蔡昭侯懼。二十六年，孔子如蔡。楚昭王伐蔡，蔡恐，告急於吳。吳為蔡遠，約遷以自近，易以相救；昭侯私許，不與大夫計。吳人來救蔡，因遷蔡于州來。二十八年，昭侯將朝于吳，大夫恐其復遷，乃令賊利殺昭侯；已而誅賊利以解過，而立昭侯子朔，是為成侯。",
+          "mention_ids": [
+            "c-shiji-035-guancai:m019-0006"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-074",
+          "chapter_id": "c-shiji-074-mengxun",
+          "source_id": "s-shiji-074-mengxun",
+          "paragraph_id": "c-shiji-074-mengxun:p005",
+          "quote": "是以騶子重於齊。適梁，惠王郊迎，執賓主之禮。適趙，平原君側行撇席。如燕，昭王擁彗先驅，請列弟子之座而受業，筑碣石宮，身親往師之。作主運。其游諸侯見尊禮如此，豈與仲尼菜色陳蔡，孟軻困於齊梁同乎哉！故武王以仁義伐紂而王，伯夷餓不食周粟；衛靈公問陳，而孔子不答；梁惠王謀欲攻趙，孟軻稱大王去邠。此豈有意阿世俗茍合而已哉！持方枘欲內圜鑿，其能入乎？或曰，伊尹負鼎而勉湯以王，百里奚飯牛車下而繆公用霸，作先合，然後引之大道。騶衍其言雖不軌，儻亦有牛鼎之意乎？",
+          "mention_ids": [
+            "c-shiji-074-mengxun:m005-0116"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-063",
+          "chapter_id": "c-shiji-063-laohan",
+          "source_id": "s-shiji-063-laohan",
+          "paragraph_id": "c-shiji-063-laohan:p022",
+          "quote": "昔者彌子瑕見愛於衛君。衛國之法，竊駕君車者罪至刖。既而彌子之母病，人聞，往夜告之，彌子矯駕君車而出。君聞之而賢之曰：「孝哉，為母之故而犯刖罪！」與君游果園，彌子食桃而甘，不盡而奉君。君曰：「愛我哉，忘其口而念我！」及彌子色衰而愛弛，得罪於君。君曰：「是嘗矯駕吾車，又嘗食我以其餘桃。」故彌子之行未變於初也，前見賢而後獲罪者，愛憎之至變也。故有愛於主，則知當而加親；見憎於主，則罪當而加疏。故諫說之士不可不察愛憎之主而後說之矣。",
+          "mention_ids": [
+            "c-shiji-063-laohan:m022-0008",
+            "c-shiji-063-laohan:m022-0018",
+            "c-shiji-063-laohan:m022-0045",
+            "c-shiji-063-laohan:m022-0050",
+            "c-shiji-063-laohan:m022-0073",
+            "c-shiji-063-laohan:m022-0089",
+            "c-shiji-063-laohan:m022-0091",
+            "c-shiji-063-laohan:m022-0119",
+            "c-shiji-063-laohan:m022-0121"
+          ]
+        }
+      ],
+      "rationale": "〈衛世家〉記名元而後立為靈公；〈管蔡世家〉與〈孟子荀卿列傳〉各明稱衛靈公；〈老子韓非列傳〉彌子瑕故事中的衛君及後續君稱，與《韓非子・難四》明指衛靈公時同一故事相合。用來源內名號與同一敘事辨認人物，保留各篇原稱；只據平行文本作身份判讀，不把它當成《史記》獨立見證。",
+      "references": [
+        {
+          "title": "《韓非子・難四》平行故事（維基文庫固定版本）",
+          "url": "https://zh.wikisource.org/w/index.php?title=韓非子/難四&oldid=2327689",
+          "quote": "衛靈公之時，彌子瑕有寵，專於衛國。",
+          "scope": "parallel_primary_text_context_not_an_independent_shiji_occurrence",
+          "image_verified": false,
+          "note": "用以辨認《史記》彌子瑕故事中的衛君；未將此引文當作《史記》見證或獨立人名錨點。"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }
