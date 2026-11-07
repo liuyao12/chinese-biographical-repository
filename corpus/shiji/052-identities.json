@@ -1952,6 +1952,134 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "d-shiji052-074",
+      "person_id": "yqp_nlb_p1p_ABA",
+      "surfaces": [
+        "皇帝"
+      ],
+      "scope": "specific_mentions",
+      "chapter_ids": [
+        "c-shiji-052-qidaohui"
+      ],
+      "status": "contextual_provisional",
+      "identification_basis": {
+        "target_mention_ids": [
+          "c-shiji-052-qidaohui:m012-0129"
+        ]
+      },
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-052-qidaohui:p012",
+          "quote": "今高后崩，皇帝春秋富，未能治天下"
+        },
+        {
+          "paragraph_id": "c-shiji-009-lvhou:p010",
+          "quote": "立常山王義為帝，更名曰弘"
+        }
+      ],
+      "rationale": "齊哀王此書明言高后已崩而新帝年少；《呂太后本紀》記常山王義改名弘而立為帝，與《齊悼惠王世家》所述時點及後少帝相合。僅接此處官稱，不將「皇帝」全域併為一人。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji052-075",
+      "person_id": "yqp_nlb_p1p_ACA",
+      "surfaces": [
+        "天子"
+      ],
+      "scope": "specific_mentions",
+      "chapter_ids": [
+        "c-shiji-052-qidaohui"
+      ],
+      "status": "contextual_provisional",
+      "identification_basis": {
+        "target_mention_ids": [
+          "c-shiji-052-qidaohui:m025-0088",
+          "c-shiji-052-qidaohui:m025-0091",
+          "c-shiji-052-qidaohui:m041-0000"
+        ]
+      },
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-052-qidaohui:p025",
+          "quote": "齊孝王十一年，吳王濞、楚王戊反……齊王使路中大夫告於天子。天子復令路中大夫還告齊王"
+        },
+        {
+          "paragraph_id": "c-shiji-011-jingdi:p003",
+          "quote": "徙濟北王志為菑川王"
+        }
+      ],
+      "rationale": "p025 明繫齊孝王十一年，即吳楚之亂，對應景帝朝；p041 徙志王菑川一事亦見景帝本紀。兩處「天子」均指孝景帝。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji052-076",
+      "person_id": "yqp_nlb_p1p_ACAA",
+      "surfaces": [
+        "天子"
+      ],
+      "scope": "specific_mentions",
+      "chapter_ids": [
+        "c-shiji-052-qidaohui"
+      ],
+      "status": "contextual_provisional",
+      "identification_basis": {
+        "target_mention_ids": [
+          "c-shiji-052-qidaohui:m028-0271",
+          "c-shiji-052-qidaohui:m029-0006",
+          "c-shiji-052-qidaohui:m029-0040",
+          "c-shiji-052-qidaohui:m029-0096",
+          "c-shiji-052-qidaohui:m030-0033",
+          "c-shiji-052-qidaohui:m032-0022"
+        ]
+      },
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-052-qidaohui:p028",
+          "quote": "事浸潯［不得］聞於天子。主父偃由此亦與齊有卻。"
+        },
+        {
+          "paragraph_id": "c-shiji-052-qidaohui:p029",
+          "quote": "主父偃方幸於天子，用事"
+        },
+        {
+          "paragraph_id": "han-shu-038",
+          "quote": "菑川地比齊，武帝為悼惠王冢園在齊，乃割臨菑東圜悼惠王冢園邑，盡以予菑川，令奉祭祀。",
+          "source_url": "https://www.shidianguji.com/zh/book/LS0002/chapter/1j7m8xl73wr3s_39"
+        }
+      ],
+      "rationale": "p028–030 的主父偃受武帝寵任、劾奏並治齊厲王，時序指向孝武帝；p032 同一割邑奉祀事，漢書卷三十八明稱「武帝」，直接確認此處「天子」。各處僅作本章局部辨識。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji052-077",
+      "person_id": "yqp_nlb_p1p_ABI",
+      "surfaces": [
+        "王"
+      ],
+      "scope": "specific_mentions",
+      "chapter_ids": [
+        "c-shiji-052-qidaohui"
+      ],
+      "status": "contextual_provisional",
+      "identification_basis": {
+        "target_mention_ids": [
+          "c-shiji-052-qidaohui:m029-0079"
+        ]
+      },
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-052-qidaohui:p029",
+          "quote": "呂太后時齊欲反，吳楚時孝王幾為亂。今聞齊王與其姊亂。"
+        },
+        {
+          "paragraph_id": "c-shiji-052-qidaohui:p025",
+          "quote": "齊孝王十一年，吳王濞、楚王戊反"
+        }
+      ],
+      "rationale": "「孝王」在「吳楚時孝王幾為亂」中是諡號稱謂，指齊孝王劉將閭；此字不是動詞。相鄰吳楚紀年與本篇齊孝王敘事互證。",
+      "reviewer": "Codex（AI 代理）"
     }
   ]
 }
