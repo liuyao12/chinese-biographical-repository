@@ -41,8 +41,7 @@ def relative_regnal_year_valid(date, parse_number, chapters=None):
         return False
     prior = context.get('antecedent_expression')
     era_term = context.get('era_expression')
-    local_chain = date.get('narrative_era_scope', {}).get('kind') == 'source_bound_local_era_chain'
-    stage_term = (staged_era or local_chain) and era_term in (name + '初', name + '中', name + '末')
+    stage_term = staged_era and era_term in (name + '初', name + '中', name + '末')
     if (prior not in (str(number) + '年', name + str(number) + '年')
             or not isinstance(era_term, str) or not era_term.startswith(name)
             or not (stage_term or era_term.endswith('年')

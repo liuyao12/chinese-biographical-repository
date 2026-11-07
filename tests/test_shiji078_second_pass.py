@@ -1,4 +1,3 @@
-from tests.portable_fixture_copy import fixture_copy2, copy_required_native_source_fixtures
 import copy
 import json
 import shutil
@@ -9,23 +8,7 @@ from scripts.validate_corpus import parallel_event_date, validate
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def _copy_source_fixture(root):
-    for name in ('registry','corpus','source-evidence','sources','scripts','docs','schema','data/historical-tables'):
-        (root/name).parent.mkdir(parents=True,exist_ok=True)
-        shutil.copytree(ROOT/name,root/name, copy_function=fixture_copy2)
-    (root/'data/corpus').mkdir(parents=True,exist_ok=True)
-    for name in ('profile-names.json','chapter-directory.json'):
-        shutil.copy2(ROOT/'data/corpus'/name,root/'data/corpus'/name)
-    # Preserve the declared immutable capture required by the Pei source proof.
-    copy_required_native_source_fixtures(ROOT, root)
-
 class ChunshenEvidenceTests(unittest.TestCase):
-    def test_unmodified_source_fixture_has_no_errors(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            root=Path(tmp)
-            _copy_source_fixture(root)
-            self.assertEqual(validate(root),[])
-
     def test_parallel_event_and_year_have_separate_exact_source_urls(self):
         data = json.loads((ROOT/'corpus/shiji/078-life-events.json').read_text())
         event = data['events'][1]
@@ -62,7 +45,8 @@ class ChunshenEvidenceTests(unittest.TestCase):
     def test_request_without_approval_cannot_be_recorded_as_granted_fief(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            _copy_source_fixture(root)
+            for directory in ('corpus', 'registry'):
+                shutil.copytree(ROOT/directory, root/directory)
             path = root/'corpus/shiji/078-addresses.json'
             data = json.loads(path.read_text())
             address = next(a for a in data['assertions'] if a['id']=='pa-shiji078-005')

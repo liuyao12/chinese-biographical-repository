@@ -50,25 +50,6 @@ def explicit_congdi_valid(a,paragraphs):
         except ImportError:
             from biography_congfudi import biography_congfudi_valid
         return biography_congfudi_valid(a,paragraphs)
-    if a.get('qualifiers',{}).get('source_clause_binding',{}).get('kind')=='biography_head_named_congdi_of_named_reference':
-        try:
-            t,q,b,ms,s,o,start,end=_parts(a,paragraphs)
-            k=q['kinship_structure'];order=q['relative_birth_order']
-            head=ms[b['head_mention_id']]
-            return (a['predicate']=='agnatic_cousin'
-                    and set(q)=={'source_term','kinship_structure','relative_birth_order','source_clause_binding'}
-                    and set(b)=={'kind','start','end','head_mention_id'}
-                    and b['kind']=='biography_head_named_congdi_of_named_reference'
-                    and b['head_mention_id']==s['id'] and s['start']==0
-                    and head['person_id']==a['subject_person_id'] and head['start']==0
-                    and head['id']==s['id'] and o['start']==start
-                    and end==o['end']+len('從弟也') and t[start:end]==o['surface']+'從弟也'
-                    and q['source_term']==t[start:end]
-                    and set(k)=={'lineage','generation_difference','collateral','distance','common_ancestor_person_id','subject_relative_age'}
-                    and k=={'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'younger'}
-                    and order=={'older_person_id':a['object_person_id'],'younger_person_id':a['subject_person_id'],'operator':'lt','scope':'agnatic_cousins','older_ordinal':None,'younger_ordinal':None})
-        except(KeyError,TypeError,ValueError,StopIteration):
-            return False
     # Qualified indirect congdi clauses.
     if a.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') in ('speaker_self_report_congdi', 'biography_head_an_reports_to_its_congdi'):
         try:

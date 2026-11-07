@@ -7,67 +7,11 @@
   "review": "ai_provisional",
   "names": [
     "子輿",
-    "彭城穆王權",
-    "權",
-    "彭城王權"
+    "彭城穆王權"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
-    {
-      "number": 37,
-      "category": "",
-      "title": "宗室",
-      "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001",
-      "count": 3,
-      "raw_count": 3,
-      "duplicate_count": 0,
-      "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "高密文獻王泰，字子舒，彭城穆王權之弟，魏陽亭侯，補陽翟令，遷扶風太守。武帝受禪，封隴西王，邑三千二百戶，拜遊擊將軍。出為兗州刺史，加鷹揚將軍。遷使持節、都督甯益二州諸軍事、安西將軍，領益州刺史，稱疾不行。轉安北將軍，代兄權督鄴城守事",
-      "paragraph_ids": [
-        "c-jinshu-037-gaomi-nanyang-ws2630018:p001",
-        "c-jinshu-037-gaomi-nanyang-ws2630018:p011"
-      ],
-      "mention_ids": [
-        "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0011",
-        "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0110",
-        "c-jinshu-037-gaomi-nanyang-ws2630018:p011:m0010"
-      ],
-      "mention_paragraph_ids": {
-        "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0011": "c-jinshu-037-gaomi-nanyang-ws2630018:p001",
-        "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0110": "c-jinshu-037-gaomi-nanyang-ws2630018:p001",
-        "c-jinshu-037-gaomi-nanyang-ws2630018:p011:m0010": "c-jinshu-037-gaomi-nanyang-ws2630018:p011"
-      },
-      "mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0011",
-      "occurrence_groups": [
-        {
-          "canonical_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0011",
-          "mention_ids": [
-            "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0011"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0110",
-          "mention_ids": [
-            "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0110"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p011:m0010",
-          "mention_ids": [
-            "c-jinshu-037-gaomi-nanyang-ws2630018:p011:m0010"
-          ],
-          "kind": "paragraph"
-        }
-      ],
-      "work_id": "w-jinshu",
-      "book_id": "b-jinshu-037",
-      "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
-      "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
-      "work_title": "晉書"
-    },
     {
       "number": 37,
       "category": "",
@@ -115,30 +59,6 @@
   ],
   "table_occurrences": [],
   "sources": [
-    {
-      "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
-      "work_id": "w-jinshu",
-      "book_id": "b-jinshu-037",
-      "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
-      "source": {
-        "title": "《晉書》卷三十七宗室",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/wiki/晉書/卷037",
-        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2630018&title=晉書/卷037",
-        "revision_id": 2630018,
-        "edition": null,
-        "review_status": "text_checked",
-        "image_verified": false,
-        "text_scope": "partial_chapter",
-        "extent": "泰三段、略整段、模三段、保三段、綏及虓完整敘事與兩疏；不重複權既有段。",
-        "raw_path": "source-evidence/jin090-caoshu/jin037-fixed.txt",
-        "raw_file_sha256": "557274fb21e7041782d93622e5fc32d67cf56ed38d6f5a3994e238b60b9638d6",
-        "raw_capture_kind": "reused_existing_fixed_capture",
-        "quality_note": "重用既存本機固定修訂文字；實際印本未知，不據網站題名冒稱武英殿或圖校。數位校記另層保存。",
-        "rights": "古代原文；維基文庫數位轉錄CC BY-SA 4.0。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-      }
-    },
     {
       "chapter_id": "c-jinshu-037-phase5-pengcheng",
       "work_id": "w-jinshu",
@@ -243,131 +163,15 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
-    },
-    {
-      "id": "a-jin037-near-001",
-      "subject_person_id": "dkn_ge4_286_AAADB",
-      "predicate": "brother",
-      "object_person_id": "dkn_ge4_286_AAADA",
-      "status": "source_attested",
-      "qualifiers": {
-        "source_term": "彭城穆王權之弟",
-        "source_clause_binding": {
-          "kind": "biography_family_clause",
-          "rule": "fixed_jin037_near_family",
-          "contract_ref": "source-evidence/jin037-gaomi-nanyang/source-contract.json"
-        },
-        "relative_birth_order": {
-          "older_person_id": "dkn_ge4_286_AAADA",
-          "younger_person_id": "dkn_ge4_286_AAADB",
-          "operator": "lt",
-          "older_ordinal": null,
-          "younger_ordinal": null,
-          "scope": "siblings"
-        }
-      },
-      "evidence": [
-        {
-          "work_id": "w-jinshu",
-          "book_id": "b-jinshu-037",
-          "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
-          "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
-          "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001",
-          "quote": "高密文獻王泰，字子舒，彭城穆王權之弟，魏陽亭侯，補陽翟令，遷扶風太守。武帝受禪，封隴西王，邑三千二百戶，拜遊擊將軍。出為兗州刺史，加鷹揚將軍。遷使持節、都督甯益二州諸軍事、安西將軍，領益州刺史，稱疾不行。轉安北將軍，代兄權督鄴城守事。安西將軍、都督關中事。太康初，入為散騎常侍、前將軍，領鄴城門校尉，以疾去官。後代下邳王晃為尚書左僕射。出為鎮西將軍，領護西戎校尉、假節，代扶風王駿都督關中軍事，以疾還京師。永熙初，代石鑒為司空，尋領太子太保。及楊駿誅，泰領駿營，加侍中，給步兵二千五百人，騎五百匹。泰固辭，乃給千兵百騎。",
-          "subject_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0000",
-          "object_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0011"
-        }
-      ],
-      "interpretation_note": "本完整收到單元原詞與雙人物錨；不由列表補絕對排行或同母。",
-      "reviewer": "Codex（AI代理）",
-      "human_reviewed": false,
-      "model": null
-    },
-    {
-      "id": "a-jin037-near-016",
-      "subject_person_id": "dkn_ge4_286_AAADC",
-      "predicate": "brother",
-      "object_person_id": "dkn_ge4_286_AAADA",
-      "status": "source_attested",
-      "qualifiers": {
-        "source_term": "彭城王權季弟",
-        "source_clause_binding": {
-          "kind": "biography_family_clause",
-          "rule": "fixed_jin037_near_family",
-          "contract_ref": "source-evidence/jin037-gaomi-nanyang/source-contract.json"
-        },
-        "relative_birth_order": {
-          "older_person_id": "dkn_ge4_286_AAADA",
-          "younger_person_id": "dkn_ge4_286_AAADC",
-          "operator": "lt",
-          "older_ordinal": null,
-          "younger_ordinal": null,
-          "scope": "siblings"
-        },
-        "source_reported_position": {
-          "scope": "brothers",
-          "position": "youngest",
-          "ordinal": null
-        }
-      },
-      "evidence": [
-        {
-          "work_id": "w-jinshu",
-          "book_id": "b-jinshu-037",
-          "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
-          "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
-          "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p011",
-          "quote": "范陽康王綏，字子都，彭城王權季弟也，初為諫議大夫。泰始元年受封，在位十五年。咸寧五年薨，子虓立焉。",
-          "subject_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p011:m0000",
-          "object_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p011:m0010"
-        }
-      ],
-      "interpretation_note": "本完整收到單元原詞與雙人物錨；不由列表補絕對排行或同母。",
-      "reviewer": "Codex（AI代理）",
-      "human_reviewed": false,
-      "model": null
     }
   ],
   "related_people": {
     "dkn_ge4_286_AAAD": "馗（宣帝弟、權父）",
     "dkn_ge4_286_AAADA": "彭城穆王權",
-    "dkn_ge4_286_AAADAA": "彭城元王植",
-    "dkn_ge4_286_AAADB": "司馬泰",
-    "dkn_ge4_286_AAADC": "司馬綏"
+    "dkn_ge4_286_AAADAA": "彭城元王植"
   },
   "dates": [],
-  "name_components": [
-    {
-      "id": "name-jin037-near-quan",
-      "person_id": "dkn_ge4_286_AAADA",
-      "surname": "司馬",
-      "ming": "權",
-      "additional_names": [],
-      "chapter_id": "c-jinshu-037-phase5-pengcheng",
-      "paragraph_id": "c-jinshu-037-phase5-pengcheng:line100",
-      "person_mention_id": "c-jinshu-037-phase5-pengcheng:line100:m0000",
-      "source_anchor": {
-        "start": 0,
-        "end": 5,
-        "surface": "彭城穆王權"
-      },
-      "quote": "彭城穆王權，字子輿，宣帝弟魏魯相東武城侯馗之子也。初襲封，拜冗從僕射。武帝受禪，封彭城王，邑二千九百戶。出為北中郎將、都督鄴城守諸軍事。泰始中入朝，賜袞冕之服。咸甯元年薨，子元王植立。歷位後將軍，尋拜國子祭酒、太僕卿、侍中、尚書。出為安東將軍、都督揚州諸軍事，代淮南王允鎮壽春，未發。或云植助允攻趙王倫，遂以憂薨。贈車騎將軍，增封萬五千戶。子康王釋立，官至南中郎將、持節、平南將軍，分魯國蕃、薛二縣以益其國，心二萬三千戶。薨，子雄立，坐奔蘇峻伏誅，更以釋子紘嗣。",
-      "note": "依既有宗室完整近系明名與本宗室單元編輯復姓司馬；不改原字、不把爵號當本名、不依ID拆姓。",
-      "surname_interpretation": {
-        "kind": "royal_house_near_family_context",
-        "status": "editorial_provisional",
-        "human_reviewed": false,
-        "literal_surname_in_this_mention": false
-      },
-      "status": "editorial_provisional",
-      "human_reviewed": false,
-      "model": null,
-      "zi": "子輿",
-      "work_id": "w-jinshu",
-      "book_id": "b-jinshu-037",
-      "source_id": "s-jinshu-037-phase5"
-    }
-  ],
+  "name_components": [],
   "person_ids": [
     "dkn_ge4_286_AAADA"
   ],
@@ -423,89 +227,6 @@
       ],
       "interpretation_note": "父子從本段具名王系及子詞建立；嗣紘的父親明載為釋，非雄。不推生母、排行或未知年。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "model": null
-    },
-    {
-      "id": "a-jin037-near-001",
-      "subject_person_id": "dkn_ge4_286_AAADB",
-      "predicate": "brother",
-      "object_person_id": "dkn_ge4_286_AAADA",
-      "status": "source_attested",
-      "qualifiers": {
-        "source_term": "彭城穆王權之弟",
-        "source_clause_binding": {
-          "kind": "biography_family_clause",
-          "rule": "fixed_jin037_near_family",
-          "contract_ref": "source-evidence/jin037-gaomi-nanyang/source-contract.json"
-        },
-        "relative_birth_order": {
-          "older_person_id": "dkn_ge4_286_AAADA",
-          "younger_person_id": "dkn_ge4_286_AAADB",
-          "operator": "lt",
-          "older_ordinal": null,
-          "younger_ordinal": null,
-          "scope": "siblings"
-        }
-      },
-      "evidence": [
-        {
-          "work_id": "w-jinshu",
-          "book_id": "b-jinshu-037",
-          "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
-          "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
-          "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001",
-          "quote": "高密文獻王泰，字子舒，彭城穆王權之弟，魏陽亭侯，補陽翟令，遷扶風太守。武帝受禪，封隴西王，邑三千二百戶，拜遊擊將軍。出為兗州刺史，加鷹揚將軍。遷使持節、都督甯益二州諸軍事、安西將軍，領益州刺史，稱疾不行。轉安北將軍，代兄權督鄴城守事。安西將軍、都督關中事。太康初，入為散騎常侍、前將軍，領鄴城門校尉，以疾去官。後代下邳王晃為尚書左僕射。出為鎮西將軍，領護西戎校尉、假節，代扶風王駿都督關中軍事，以疾還京師。永熙初，代石鑒為司空，尋領太子太保。及楊駿誅，泰領駿營，加侍中，給步兵二千五百人，騎五百匹。泰固辭，乃給千兵百騎。",
-          "subject_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0000",
-          "object_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p001:m0011"
-        }
-      ],
-      "interpretation_note": "本完整收到單元原詞與雙人物錨；不由列表補絕對排行或同母。",
-      "reviewer": "Codex（AI代理）",
-      "human_reviewed": false,
-      "model": null
-    },
-    {
-      "id": "a-jin037-near-016",
-      "subject_person_id": "dkn_ge4_286_AAADC",
-      "predicate": "brother",
-      "object_person_id": "dkn_ge4_286_AAADA",
-      "status": "source_attested",
-      "qualifiers": {
-        "source_term": "彭城王權季弟",
-        "source_clause_binding": {
-          "kind": "biography_family_clause",
-          "rule": "fixed_jin037_near_family",
-          "contract_ref": "source-evidence/jin037-gaomi-nanyang/source-contract.json"
-        },
-        "relative_birth_order": {
-          "older_person_id": "dkn_ge4_286_AAADA",
-          "younger_person_id": "dkn_ge4_286_AAADC",
-          "operator": "lt",
-          "older_ordinal": null,
-          "younger_ordinal": null,
-          "scope": "siblings"
-        },
-        "source_reported_position": {
-          "scope": "brothers",
-          "position": "youngest",
-          "ordinal": null
-        }
-      },
-      "evidence": [
-        {
-          "work_id": "w-jinshu",
-          "book_id": "b-jinshu-037",
-          "source_id": "s-jinshu037-gaomi-nanyang-ws2630018",
-          "chapter_id": "c-jinshu-037-gaomi-nanyang-ws2630018",
-          "paragraph_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p011",
-          "quote": "范陽康王綏，字子都，彭城王權季弟也，初為諫議大夫。泰始元年受封，在位十五年。咸寧五年薨，子虓立焉。",
-          "subject_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p011:m0000",
-          "object_person_mention_id": "c-jinshu-037-gaomi-nanyang-ws2630018:p011:m0010"
-        }
-      ],
-      "interpretation_note": "本完整收到單元原詞與雙人物錨；不由列表補絕對排行或同母。",
-      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }

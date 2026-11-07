@@ -111,50 +111,6 @@
   "addresses": [],
   "occurrences": [
     {
-      "number": 21,
-      "category": "",
-      "title": "卷二十一·王泰",
-      "paragraph_id": "c-liangshu-021-wangtai-opening-rendered:p001",
-      "count": 2,
-      "raw_count": 2,
-      "duplicate_count": 0,
-      "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "王泰字仲通，志長兄慈之子也。慈，齊時歷侍中、吳郡，知名在志右。",
-      "paragraph_ids": [
-        "c-liangshu-021-wangtai-opening-rendered:p001"
-      ],
-      "mention_ids": [
-        "c-liangshu-021-wangtai-opening-rendered:p001:m0004",
-        "c-liangshu-021-wangtai-opening-rendered:p001:m0005"
-      ],
-      "mention_paragraph_ids": {
-        "c-liangshu-021-wangtai-opening-rendered:p001:m0004": "c-liangshu-021-wangtai-opening-rendered:p001",
-        "c-liangshu-021-wangtai-opening-rendered:p001:m0005": "c-liangshu-021-wangtai-opening-rendered:p001"
-      },
-      "mention_id": "c-liangshu-021-wangtai-opening-rendered:p001:m0004",
-      "occurrence_groups": [
-        {
-          "canonical_mention_id": "c-liangshu-021-wangtai-opening-rendered:p001:m0004",
-          "mention_ids": [
-            "c-liangshu-021-wangtai-opening-rendered:p001:m0004"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-liangshu-021-wangtai-opening-rendered:p001:m0005",
-          "mention_ids": [
-            "c-liangshu-021-wangtai-opening-rendered:p001:m0005"
-          ],
-          "kind": "paragraph"
-        }
-      ],
-      "work_id": "w-liangshu",
-      "book_id": "b-liangshu-021",
-      "chapter_id": "c-liangshu-021-wangtai-opening-rendered",
-      "source_id": "s-liangshu-021-wangtai-opening-current-rendered",
-      "work_title": "梁書"
-    },
-    {
       "number": 22,
       "category": "",
       "title": "《南史》卷二十二王志完整附傳（編輯選錄題）",
@@ -245,38 +201,6 @@
   ],
   "table_occurrences": [],
   "sources": [
-    {
-      "chapter_id": "c-liangshu-021-wangtai-opening-rendered",
-      "work_id": "w-liangshu",
-      "book_id": "b-liangshu-021",
-      "source_id": "s-liangshu-021-wangtai-opening-current-rendered",
-      "source": {
-        "title": "《梁書》卷二十一·王泰",
-        "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/zh-hant/梁書/卷21",
-        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1544250",
-        "revision_id": 1544250,
-        "revision_timestamp": null,
-        "accessed_on": "2026-10-31",
-        "text_scope": "partial_chapter",
-        "extent": "只本批明列完整敘事段落；非全傳/全卷。原段序按來源行號，不將未採段落假作相鄰。",
-        "review_status": "text_checked",
-        "human_reviewed": false,
-        "image_verified": false,
-        "actual_print_edition": null,
-        "printed_base_edition": null,
-        "edition": "comparison_transcription；current rendered頁尾報修訂，未取得fixed正文/raw，實際印本與書影未知，不稱武英殿或四庫底本。",
-        "rights": "古代公有領域作品；數位轉錄保留Wikisource署名及CC BY-SA4.0連結。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "normalization": {
-          "character_conversion": {},
-          "extraction_note": "只去各工具文字區塊行首全形縮排；原字/疑字不校改；完整觀測map沿sealed來源包。"
-        },
-        "observation_kind": "current_rendered_observation",
-        "fixed_body_obtained": false,
-        "raw_capture_obtained": false
-      }
-    },
     {
       "chapter_id": "c-nanqishu-033-wangsengqian",
       "work_id": "w-nanqishu",
@@ -3331,33 +3255,6 @@
   ],
   "relations": [
     {
-      "id": "a-liangshu-021-wangtai-opening-rendered-wang_tai-father-wangci",
-      "subject_person_id": "7r6_k52_qji_ABAAAAEBAA",
-      "predicate": "father",
-      "object_person_id": "7r6_k52_qji_ABAAAAEBA",
-      "status": "source_attested",
-      "qualifiers": {
-        "source_term": "慈之子",
-        "lineage": "paternal"
-      },
-      "evidence": [
-        {
-          "work_id": "w-liangshu",
-          "book_id": "b-liangshu-021",
-          "source_id": "s-liangshu-021-wangtai-opening-current-rendered",
-          "chapter_id": "c-liangshu-021-wangtai-opening-rendered",
-          "paragraph_id": "c-liangshu-021-wangtai-opening-rendered:p001",
-          "quote": "王泰字仲通，志長兄慈之子也。慈，齊時歷侍中、吳郡，知名在志右。",
-          "subject_person_mention_id": "c-liangshu-021-wangtai-opening-rendered:p001:m0001",
-          "object_person_mention_id": "c-liangshu-021-wangtai-opening-rendered:p001:m0004"
-        }
-      ],
-      "interpretation_note": "保本來源literal親屬詞及完整段，未知共同父母/世次不補；編者父祖合成另在assembly，不冒literal父。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "model": null
-    },
-    {
       "id": "a-nanqi033-wangsengqian-015",
       "subject_person_id": "7r6_k52_qji_ABAAAAEBA",
       "predicate": "father",
@@ -3422,7 +3319,6 @@
   "related_people": {
     "7r6_k52_qji_ABAAAAEB": "王僧虔",
     "7r6_k52_qji_ABAAAAEBA": "王慈",
-    "7r6_k52_qji_ABAAAAEBAA": "王泰",
     "7r6_k52_qji_ABAAAAEBC": "王志"
   },
   "dates": [
@@ -3486,33 +3382,6 @@
     "7r6_k52_qji_ABAAAAEBA"
   ],
   "preferred_relations": [
-    {
-      "id": "a-liangshu-021-wangtai-opening-rendered-wang_tai-father-wangci",
-      "subject_person_id": "7r6_k52_qji_ABAAAAEBAA",
-      "predicate": "father",
-      "object_person_id": "7r6_k52_qji_ABAAAAEBA",
-      "status": "source_attested",
-      "qualifiers": {
-        "source_term": "慈之子",
-        "lineage": "paternal"
-      },
-      "evidence": [
-        {
-          "work_id": "w-liangshu",
-          "book_id": "b-liangshu-021",
-          "source_id": "s-liangshu-021-wangtai-opening-current-rendered",
-          "chapter_id": "c-liangshu-021-wangtai-opening-rendered",
-          "paragraph_id": "c-liangshu-021-wangtai-opening-rendered:p001",
-          "quote": "王泰字仲通，志長兄慈之子也。慈，齊時歷侍中、吳郡，知名在志右。",
-          "subject_person_mention_id": "c-liangshu-021-wangtai-opening-rendered:p001:m0001",
-          "object_person_mention_id": "c-liangshu-021-wangtai-opening-rendered:p001:m0004"
-        }
-      ],
-      "interpretation_note": "保本來源literal親屬詞及完整段，未知共同父母/世次不補；編者父祖合成另在assembly，不冒literal父。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "model": null
-    },
     {
       "id": "a-nanqi033-wangsengqian-015",
       "subject_person_id": "7r6_k52_qji_ABAAAAEBA",

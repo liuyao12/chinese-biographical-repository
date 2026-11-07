@@ -1,4 +1,3 @@
-from scripts.sima_snapshot_source_roles import resolve_roles as sima_roles
 # coding: utf-8
 """Native fixed-witness named-recipient gift regression; no private dependencies."""
 from pathlib import Path
@@ -23,8 +22,8 @@ class NamedRecipientPosthumousGiftTests(unittest.TestCase):
   h=self.f['holding'];self.assertEqual(h['posthumous_basis']['source_clause_anchor']['surface'],'其贈沈司空公');self.assertEqual(h['mode'],'posthumous_grant');self.assertEqual(h['effective_period']['end']['status'],'unknown')
  def test_not_empire_at_paragraph_start(self):
   p=self.f['chapter']['paragraphs'][0];self.assertTrue(p['text'].startswith('及帝'));self.assertTrue(valid(self.f));self.assertEqual(self.f['holding']['person_id'],self.f['death']['person_id'])
- def test_wrong_recipient(self):self.bad(['holding','person_id'],sima_roles(ROOT)['wudi'])
- def test_other_person_death(self):self.bad(['death','person_id'],sima_roles(ROOT)['wudi'])
+ def test_wrong_recipient(self):self.bad(['holding','person_id'],'hgm_jvn_hle')
+ def test_other_person_death(self):self.bad(['death','person_id'],'hgm_jvn_hle')
  def test_death_not_death(self):self.bad(['death','event_type'],'birth')
  def test_missing_death(self):self.bad(['holding','posthumous_basis','death_event_id'],'missing')
  def test_lifetime_mode_rejected(self):self.bad(['holding','mode'],'grant')

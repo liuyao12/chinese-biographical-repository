@@ -1,4 +1,3 @@
-from scripts.sima_snapshot_source_roles import resolve_roles as sima_roles
 import hashlib
 import json
 import unittest
@@ -36,4 +35,4 @@ class CompleteJin039(unittest.TestCase):
         paragraph = next(p for p in chapter["paragraphs"] if p["id"].endswith(":feng-full:l139"))
         mentions = [m for m in paragraph["mentions"] if m["surface"] in ["齊王攸", "齊王", "攸"]]
         self.assertTrue(mentions)
-        self.assertEqual({m["person_id"] for m in mentions}, {sima_roles(ROOT)['you']})
+        self.assertEqual({m["person_id"] for m in mentions}, {"cac_ca2_008"})

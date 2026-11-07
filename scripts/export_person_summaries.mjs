@@ -36,7 +36,7 @@ return cache.get(id);
 }
  const pick=(o,keys)=>Object.fromEntries(keys.filter(k=>o?.[k]!==undefined).map(k=>[k,structuredClone(o[k])]));
  function familyEntry(x) {
-   const entry = pick(x, ['id', 'label', 'role', 'inference_note', 'inference_basis', 'cycle', 'unavailable', 'marriage_status']);
+   const entry = pick(x, ['id', 'label', 'role', 'inference_note', 'cycle', 'unavailable', 'marriage_status']);
    if (x.ancestry_paths?.length) {
      entry.route_qualification = [...new Set(x.ancestry_paths.map(p => p.qualification))];
      entry.ancestry_cycle = x.ancestry_paths.some(p => p.cycle);

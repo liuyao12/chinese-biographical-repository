@@ -12,10 +12,10 @@ export function declinedNobleOutcomeUnreported(q){
 }
 export function nobleHouseholds(x,offered=false){
  const v=x?.reported_households,a=v?.source_anchor;
- if(!['noble_rank','royal_rank'].includes(x?.kind)||!v||!Number.isInteger(v.value)||v.value<=0||typeof v.source_number!=='string'||!v.source_number||v.unit!=='戶'||v.actual_revenue!==null
+ if(!v||!Number.isInteger(v.value)||v.value<=0||typeof v.source_number!=='string'||!v.source_number||v.unit!=='戶'||v.actual_revenue!==null
    ||v.scope!==(offered?'offered_advancement_not_confirmed_held':'actual_enfeoffment_allotment')
-   ||!['食邑'+v.source_number+'戶','邑'+v.source_number+'戶'].includes(a?.surface)||!Number.isInteger(a.start)||a.start<0||!Number.isInteger(a.end)||a.end<=a.start
+   ||a?.surface!=='食邑'+v.source_number+'戶'||!Number.isInteger(a.start)||a.start<0||!Number.isInteger(a.end)||a.end<=a.start
    ||!(x.evidence||[]).some(e=>e.paragraph_id===a.paragraph_id&&typeof e.quote==='string'&&Array.from(e.quote).slice(a.start,a.end).join('')===a.surface)
-   ||(offered?!declinedNobleOutcomeUnreported(x):!['grant','transfer','accession','attestation'].includes(x.mode)||typeof x.title!=='string'||!x.title))return '';
+   ||(offered?!declinedNobleOutcomeUnreported(x):x.mode!=='grant'||x.kind!=='noble_rank'||x.source_career_role?.kind!=='wyd_song044_noble_grant'))return '';
  return `<p class="person-noble-households">${ui(offered?'Offered fief households (not confirmed held)':'Fief households')}: <q>${h(a.surface)}</q></p>`;
 }

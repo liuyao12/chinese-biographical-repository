@@ -1,4 +1,3 @@
-from scripts.sima_snapshot_source_roles import resolve_roles as sima_roles
 # coding: utf-8
 """Fixed-witness Jin039 dates: native-only fixtures, no external packages or network."""
 from pathlib import Path
@@ -33,7 +32,7 @@ class Jin039EraStageNativeTests(unittest.TestCase):
   z=copy.deepcopy(r);z['title']='其他';self.assertFalse(binding_valid(d,z,'start'))
  def test_wrong_full_quote(self):self.bad(['narrative_era_scope','full_paragraph'],'三年除')
  def test_wrong_subject(self):self.bad(['narrative_era_scope','unit_subject_person_id'],'other')
- def test_borrowed_ruler(self):self.bad(['narrative_era_scope','era_ruler_person_id'],sima_roles(ROOT)['wudi'])
+ def test_borrowed_ruler(self):self.bad(['narrative_era_scope','era_ruler_person_id'],'hgm_jvn_hle')
  def test_wrong_trigger(self):self.bad(['narrative_era_scope','event_binding','source_term_anchor','surface'],'為')
  def test_wrong_title_anchor(self):self.bad(['narrative_era_scope','event_binding','title_anchor','start'],0)
  def test_wrong_year(self):
