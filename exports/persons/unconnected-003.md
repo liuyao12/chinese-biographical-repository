@@ -632,7 +632,7 @@
 | `qlq_xq2_1sm` | 暴勝之（古注辨識） | [《史記・田叔列傳》][173] | [JSON](qlq_xq2_1sm.json) |
 | `qlu_yvc_mtu` | 許負 | [《史記・外戚世家》][118] | [JSON](qlu_yvc_mtu.json) |
 | `qm1_2k5_hct` | 頎（晉孝公） | [《史記・晉世家》][108] | [JSON](qm1_2k5_hct.json) |
-| `qms_rcb_628` | 王夫人兒姁 | [《史記・五宗世家》][128] | [JSON](qms_rcb_628.json) |
+
 | `qmv_v0h_tbb` | 宋元公（內昭公議事） | [《史記・魯周公世家》][102] | [JSON](qmv_v0h_tbb.json) |
 | `qn2_v9c_1mi` | 鞏朔（晉卿） | [《史記・晉世家》][108] | [JSON](qn2_v9c_1mi.json) |
 | `qn4_jlm_d34` | 臧武仲 | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](qn4_jlm_d34.json) |

@@ -1137,7 +1137,7 @@
 | `gde_5zz_7rg` | 熊楊（楚先祖） | [《史記・楚世家》][109] | [JSON](gde_5zz_7rg.json) |
 | `gdy_039_7n5` | 子穨 | [《史記・周本紀》][91] | [JSON](gdy_039_7n5.json) |
 | `gec_tof_7li` | 益 | [《史記・夏本紀》][89] | [JSON](gec_tof_7li.json) |
-| `gem_sji_xo8` | 栗姬 | [《史記・五宗世家》][128] | [JSON](gem_sji_xo8.json) |
+
 | `gf2_bab_2ln` | 田乞 | [《史記・齊太公世家》][101] | [JSON](gf2_bab_2ln.json) |
 | `gfi_mo5_imd` | 代郡太守友 | [《史記・衛將軍驃騎列傳》][180] | [JSON](gfi_mo5_imd.json) |
 | `gfr_55l_72s` | 周昌 | [《史記・張丞相列傳》][165] | [JSON](gfr_55l_72s.json) |
@@ -1914,7 +1914,8 @@
 | `lb9_zwn_ril` | 魏文侯 | [《史記・韓世家》][114] | [JSON](lb9_zwn_ril.json) |
 | `lba_do8_1wf` | 周浚之妹〔未名〕 | [《晉書・周浚 成公簡 苟晞 華軼 劉喬》][38] | [JSON](lba_do8_1wf.json) |
 | `lbi_h7e_uq1` | 趙子兒 | [《史記・外戚世家》][118] | [JSON](lbi_h7e_uq1.json) |
-| `lbj_a32_053` | 兒姁 | [《史記・外戚世家》][118] | [JSON](lbj_a32_053.json) |
+
+| `lbj_a32_053` | 兒姁 | [《史記・五宗世家》][128] | [JSON](lbj_a32_053.json) |
 | `lbn_xjh_jgq` | 齊景公 | [《史記・趙世家》][112] | [JSON](lbn_xjh_jgq.json) |
 | `lc0_4na_98y` | 張耳妻前夫未名 | [《史記・張耳陳餘列傳》][158] | [JSON](lc0_4na_98y.json) |
 | `lc3_4nk_w3x` | 孝明皇帝（附載稱呼） | [《史記・秦始皇本紀》][93] | [JSON](lc3_4nk_w3x.json) |
