@@ -1053,7 +1053,6 @@
 | `t09_bk5_omn` | 神農 | [《史記・貨殖列傳》][198] | [JSON](t09_bk5_omn.json) |
 | `t0c_19x_p5k` | 儒生（譏郭解，未名） | [《史記・游俠列傳》][193] | [JSON](t0c_19x_p5k.json) |
 | `t0l_25p_ekd` | 張儀 | [《史記・魏世家》][113] | [JSON](t0l_25p_ekd.json) |
-| `t0n_23a_eiu` | 穰苴 | [《史記・絳侯周勃世家》][126] | [JSON](t0n_23a_eiu.json) |
 | `t0t_f3v_4e2` | 御史大夫劫 | [《史記・秦始皇本紀》][93] | [JSON](t0t_f3v_4e2.json) |
 | `t0v_zp6_if6` | 桓生 | [《史記・儒林列傳》][190] | [JSON](t0v_zp6_if6.json) |
 | `t17_dln_rdq` | 吳氏（鄭阿春舅） | [《晉書・后妃下》][25] | [JSON](t17_dln_rdq.json) |

@@ -233,11 +233,22 @@
       "canonical_person_id": "jaw_b0s_ujn",
       "scope": "cross_chapter",
       "chapter_ids": [
+        "c-shiji-057-zhou",
         "c-shiji-064-sima",
-        "c-shiji-065-sun"
+        "c-shiji-065-sun",
+        "c-shiji-130-taishigong"
       ],
       "status": "contextual_provisional",
       "evidence": [
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p024",
+          "quote": "亞夫之用兵，持威重，執堅刃，穰苴曷有加焉！",
+          "mention_ids": [
+            "c-shiji-057-zhou:m024-0083"
+          ]
+        },
         {
           "chapter_id": "c-shiji-064-sima",
           "source_id": "s-shiji-064-sima",
@@ -267,9 +278,19 @@
           "mention_ids": [
             "c-shiji-065-sun:m008-0044"
           ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p076",
+          "quote": "自古王者而有司馬法，穰苴能申明之。作司馬穰苴列傳第四。",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m076-0010",
+            "c-shiji-130-taishigong:m076-0018"
+          ]
         }
       ],
-      "rationale": "本篇李克以司馬穰苴用兵作比較，與前篇軍事人物稱相配；引古不作穰苴在吳起時仍在世的證據。 已發ID與各篇原文保留，同書各篇不當獨立見證；身份暫接不確證史實、年代或稱號時段。",
+      "rationale": "本篇李克以司馬穰苴用兵作比較；周勃世家以「穰苴」評亞夫用兵；太史公自序以穰苴作傳名提要，與本傳人物相配。引古、評論及自序不證明穰苴與亞夫同時，也不作生平的獨立同時代見證。已發ID與各篇原文保留；身份暫接不確證年代或稱號時段。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
