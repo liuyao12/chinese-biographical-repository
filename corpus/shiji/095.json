@@ -33,7 +33,8 @@
     "limitations": [
       "夏侯嬰與灌嬰按分傳敘事區別。",
       "他廣父系舍人上書是指控，不直接作確證；官爵、排行、地點與紀年待整理。",
-      "未核底本影像。"
+      "未核底本影像。",
+      "c-shiji-095-fankuang:p005「西丞」的如淳地名說、晉灼秦將說、司馬貞／《正義》西縣之丞說及相關地理注，分存 annotation.referent_interpretations；身份未定，不建人物 ID。"
     ],
     "unresolved_identity_cases": [
       {
@@ -104,6 +105,149 @@
           "c-shiji-057-zhou:p005"
         ],
         "note": "兩篇均有代地丞相程縱，但酈商篇安排在太上皇衛及擊陳豨之前，周勃篇在陳豨平叛之中；可能同人再任或記功敘次差異，尚不足以定同一被虜事件，先分留候選，不與貨殖篇程鄭因字音相近合併。"
+      }
+    ],
+    "referent_interpretations": [
+      {
+        "id": "ri-shiji095-xicheng",
+        "paragraph_id": "c-shiji-095-fankuang:p005",
+        "target_mention_ids": [
+          "c-shiji-095-fankuang:m005-0007"
+        ],
+        "source_terms": [
+          "西丞"
+        ],
+        "status": "unresolved",
+        "default_alternative_id": null,
+        "evidence": {
+          "chapter_id": "c-shiji-095-fankuang",
+          "source_id": "s-shiji-095-fankuang",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-095",
+          "paragraph_id": "c-shiji-095-fankuang:p005",
+          "quote": "還定三秦，別擊西丞白水北，雍輕車騎於雍南，破之。",
+          "mention_ids": [
+            "c-shiji-095-fankuang:m005-0007"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-xicheng-toponym",
+            "attribution": "《史記集解》引如淳",
+            "referent_kind": "toponym",
+            "candidate_person_ids": [],
+            "interpretation": "如淳釋「西丞」「白水」皆為地名。此讀法不把「西丞」當作個人，亦不據此建立人物。",
+            "source_reference_ids": [
+              "jijie-095"
+            ]
+          },
+          {
+            "id": "ri-xicheng-qin-general",
+            "attribution": "《史記集解》引晉灼",
+            "referent_kind": "historical_person",
+            "candidate_person_ids": [],
+            "interpretation": "晉灼稱《地理志》無「西丞」，疑為秦將名；但未有姓名或其他身份資料可供建檔。",
+            "source_reference_ids": [
+              "jijie-095"
+            ]
+          },
+          {
+            "id": "ri-xicheng-xixian-assistant",
+            "attribution": "《史記索隱》司馬貞；《史記正義》引《括地志》",
+            "referent_kind": "unspecified_person",
+            "candidate_person_ids": [],
+            "interpretation": "司馬貞讀「西」為隴西西縣，將「西丞」解作西縣之丞；《正義》亦以「破西縣丞」釋之。據此可讀為未具名縣丞，但此說仍與《集解》所錄諸說相異，故不建人物 ID。",
+            "source_reference_ids": [
+              "suoyin-095",
+              "zhengyi-057"
+            ]
+          },
+          {
+            "id": "ri-xicheng-xian-location",
+            "attribution": "《史記集解》引徐廣；《史記正義》引《括地志》",
+            "referent_kind": "toponym",
+            "candidate_person_ids": [],
+            "interpretation": "徐廣指出天水有西縣；《括地志》列西縣故城所在。兩注提供地理定位線索，但僅憑地理說明不能斷定「西丞」是地名或官稱。",
+            "source_reference_ids": [
+              "jijie-057",
+              "zhengyi-057"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "jijie-057",
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_057.txt#L37-L38",
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "source_blob": "1243a4126b63054d26438c797704c408ee58188d",
+            "quote": "邯廢丘破西丞(徐廣曰天/水有西縣)擊盜巴軍破之(如淳曰/章邯將)攻上¶\n邽東守嶢關轉擊項籍攻曲逆最還守敖倉追項籍籍¶",
+            "read_line_range": [
+              37,
+              38
+            ],
+            "cached_response_sha256": "4481d561537c3103e8590339f80b7638d9ce72ebcce3b9ecd699dcac774ae54a",
+            "image_verified": false,
+            "scope": "ancient_commentary_interpretation"
+          },
+          {
+            "id": "zhengyi-057",
+            "url": "https://github.com/kanripo/KR2a0004/blob/7fed0c3e2e28b76dc251ece781bbb2a2cbba64a4/KR2a0004_057.txt#L36-L37",
+            "source_commit": "7fed0c3e2e28b76dc251ece781bbb2a2cbba64a4",
+            "source_blob": "79dbb6176f178447b7f629956891564e6659b98a",
+            "quote": "廢丘破西丞(括地志云西縣故城在秦州上邽縣/西南九十里本漢西縣也破西縣丞)擊盜¶\n巴軍破之攻上邽(音圭秦/州縣也)東守嶢闗轉擊項籍攻曲逆¶",
+            "read_line_range": [
+              36,
+              37
+            ],
+            "cached_response_sha256": "347b30966bfa6159fd2bbce33be4ce30f953b73109c8b86d8ebe4b61dfd10331",
+            "image_verified": false,
+            "scope": "ancient_commentary_interpretation"
+          },
+          {
+            "id": "jijie-095",
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_095.txt#L52-L55",
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "source_blob": "06ca011a39cb0a9cf3e55b2d7ff8f259ac1e77f6",
+            "quote": "號臨武侯遷為郎中從入漢中還定三秦别擊西丞白¶\n<pb:KR2a0002_WYG_095-3b>¶\n水北(徐廣曰隴西有西縣白水在武都駰案如淳曰皆/地名也晉灼曰白水今廣魏縣也地理志無西丞)¶\n(似秦/將名)雍輕車騎於雍南破之從攻雍斄(音/胎)城先登擊章¶",
+            "read_line_range": [
+              52,
+              55
+            ],
+            "cached_response_sha256": "1ea832ae5d47157cba4412fd6fd16631f0e38805a556421048dfa7c38d60f990",
+            "image_verified": false,
+            "scope": "ancient_commentary_interpretation"
+          },
+          {
+            "id": "suoyin-095",
+            "url": "https://github.com/kanripo/KR2a0003/blob/85cc2d3b1952d7a66280628c8d2141d4f1593fc7/KR2a0003_022.txt#L120-L121",
+            "source_commit": "85cc2d3b1952d7a66280628c8d2141d4f1593fc7",
+            "source_blob": "81a4f39edc771534e2c2a49befb86a672e4d471f",
+            "quote": "(也/)譙讓項羽(上音誚責也或才/笑反或亦作誚)擊西丞白水北(按西謂/隴西之)¶\n(西縣白水水名出武都經西縣東南流言噲擊/西縣之丞在白水之北耳徐廣等説皆非也)章平(章/平)¶",
+            "read_line_range": [
+              120,
+              121
+            ],
+            "cached_response_sha256": "09b4b0248df9dbdb9209680562e78c637ff1fcd2c72edfe8d8edee2785c6fd9b",
+            "image_verified": false,
+            "scope": "ancient_commentary_interpretation"
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本案區分古注對「西丞」指稱的不同解法；「縣丞」讀法不等於可識別的歷史人物。引用為固定數位轉錄，未核書影；不改正文，不把《漢書》注語直接當作《史記》本文。",
+        "study_references": [
+          {
+            "title": "戰國秦の国家形成と郡県制",
+            "author": "藤田勝久",
+            "publication": "《인문논총》73卷3號，頁59–93",
+            "year": 2016,
+            "url": "https://ih.snu.ac.kr/wp-content/uploads/mangboard/journal/982372808_QRCMtmcx_03-EAB8B920D4F6EFA3E3ADCEF92835392D3933292E687770",
+            "relevance": "作者引《漢書》顏師古注，採「西丞」為隴西西縣之丞，並據此討論樊噲由漢中經西縣入關的路線。此為後出研究參考，不取代《史記》三家注中「地名／秦將／縣丞」異說，也不當作《史記》本文。",
+            "status": "reference_only",
+            "accessed_on": "2026-11-07",
+            "image_verified": false
+          }
+        ]
       }
     ]
   },
@@ -650,6 +794,16 @@
       "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
+        {
+          "id": "c-shiji-095-fankuang:m005-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "西丞",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "指稱未定：如淳以為地名，晉灼疑為秦將名，司馬貞及《正義》讀為西縣之丞；詳見本篇 annotation.referent_interpretations。暫不建立人物 ID。"
+        },
         {
           "id": "c-shiji-095-fankuang:m005-0035",
           "start": 35,

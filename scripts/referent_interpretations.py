@@ -3,7 +3,8 @@
 import re
 from urllib.parse import urlparse
 KINDS = {'historical_person', 'legendary_person', 'unspecified_person',
-         'generic_group', 'multiple_allusions', 'divinity', 'natural_phenomenon', 'mythical_creature'}
+         'generic_group', 'multiple_allusions', 'divinity', 'natural_phenomenon',
+         'mythical_creature', 'toponym'}
 
 def strings(value, nonempty=True):
     return (isinstance(value,list) and (bool(value) or not nonempty)
