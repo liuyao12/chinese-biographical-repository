@@ -7,6 +7,56 @@
       "author": "司馬遷",
       "status": "in_progress",
       "expected_books": 130,
+      "composition_and_edition": {
+        "composition": {
+          "date_expression": "元封三年（前108）司馬遷任太史令後纂集史料；太初元年（前104）開始撰寫；征和二年（前91）《報任少卿書》已列十表、十二本紀、八書、三十世家、七十列傳，共百三十篇。",
+          "date_interpretation": "以太初元年為撰寫起點、以征和二年為全書已基本完成的見證；《太史公自序》所述下限延至太初四年，且司馬遷晚年仍有修訂，故不指定單一年為全書最終定稿年。",
+          "references": [
+            {
+              "title": "國家圖書館出版社《史記》導讀（張大可）",
+              "url": "https://www.nlc.cn/upload/attachments/2023-12-01/ae70fd1c.pdf",
+              "supports": "說明太初元年開始撰寫、全書記載延至太初四年及司馬遷晚年修訂。"
+            },
+            {
+              "title": "中華書局點校本《史記》修訂本前言",
+              "url": "https://www.sohu.com/a/457544933_562249",
+              "supports": "據《報任少卿書》繫於征和二年，判斷此時全書已基本完成。"
+            }
+          ]
+        },
+        "earliest_printed_witness": {
+          "title": "北宋景祐年間刊《史記集解》",
+          "date_expression": "景祐年間（1034—1038）",
+          "extent_note": "現存景祐本並非全書無缺；有殘卷及後配情況，不能據此宣稱本資料庫各篇正文已以景祐本為底本。",
+          "reference": {
+            "title": "蘇芃〈《史記》三家注補箋〉凡例",
+            "url": "https://www.fdgwz.org.cn/Web/Show/2720"
+          }
+        },
+        "earliest_surviving_complete_three_commentary_edition": {
+          "title": "南宋建安黃善夫刊《史記集解索隱正義》",
+          "date_expression": "慶元年間（1195—1201）",
+          "extent_note": "國家圖書館出版社稱其為現存最早三家注合刻本及一百三十卷本；存本本身仍有殘缺、配補，不等於每葉皆為原刻。",
+          "reference": {
+            "title": "中國古籍保護網：宋本《史記》黃善夫本介紹",
+            "url": "https://www.nlc.cn/pcab/zx/xw/20200708_192637.shtml"
+          }
+        },
+        "preferred_collation_edition": {
+          "title": "清乾隆四年武英殿刊《史記集解索隱正義》",
+          "date_expression": "乾隆四年（1739）",
+          "status": "待逐篇校核",
+          "note": "作為本計畫優先校勘本；現有逐篇數位正文仍記錄其直接轉錄見證，未經逐篇核對前不宣稱已據武英殿本校定。",
+          "reference": {
+            "title": "蘇芃〈《史記》三家注補箋〉凡例",
+            "url": "https://www.fdgwz.org.cn/Web/Show/2720"
+          }
+        },
+        "current_digital_transcriptions": {
+          "status": "edition_basis_unverified",
+          "note": "各篇 source 欄記錄目前採用的數位見證（目前多為固定修訂的維基文庫轉錄）；其所據實體版本尚未逐篇查明，不以武英殿本、四庫本或宋本標籤推定其底本。"
+        }
+      },
       "books": [
         {
           "id": "b-shiji-001",
