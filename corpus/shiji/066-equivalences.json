@@ -261,9 +261,58 @@
           "mention_ids": [
             "c-shiji-031-wu:m031-0075"
           ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p020",
+          "quote": "吳王既誅伍子胥，遂伐齊。齊鮑氏殺其君悼公而立陽生。吳王欲討其賊，不勝而去。其後二年，吳王召魯衛之君會之橐皋。其明年，因北大會諸侯於黃池，以令周室。越王句踐襲殺吳太子，破吳兵。吳王聞之，乃歸，使使厚幣與越平。後九年，越王句踐遂滅吳，殺王夫差；而誅太宰嚭，以不忠於其君，而外受重賂，與己比周也。",
+          "mention_ids": [
+            "c-shiji-066-wu:m020-0079",
+            "c-shiji-066-wu:m020-0116"
+          ]
         }
       ],
-      "rationale": "兩篇闔廬使太子夫差伐楚取番、楚去郢徙鄀為同一具名人物及事件；吳太伯世家另明示闔廬傷死使立太子夫差與父子稱語。暫接兩候選，先同步親屬、家族與所有引用，再撤除重複ID。不同篇的年序分存，不因同指自行調和。原文及提及錨點保留，未核底本影像。",
+      "rationale": "兩篇闔廬使太子夫差伐楚取番、楚去郢徙鄀為同一具名人物及事件；吳太伯世家另明示闔廬傷死使立太子夫差與父子稱語。暫接兩候選，先同步親屬、家族與所有引用，再撤除重複ID。不同篇的年序分存，不因同指自行調和。原文及提及錨點保留，未核底本影像。 本篇p020先言句踐襲殺「吳太子」，後以「後九年」明稱殺「王夫差」；和p014太子夫差、p016夫差即位的敘事鏈相連。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji066-kong",
+      "person_ids": [
+        "fp6_ia6_7yw"
+      ],
+      "canonical_person_id": "fp6_ia6_7yw",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-047-kong",
+        "c-shiji-066-wu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p001",
+          "quote": "孔子生魯昌平鄉陬邑。其先宋人也，曰孔防叔。防叔生伯夏，伯夏生叔梁紇。紇與顏氏女野合而生孔子，禱於尼丘得孔子。魯襄公二十二年而孔子生。生而首上圩頂，故因名曰丘云。字仲尼，姓孔氏。",
+          "mention_ids": [
+            "c-shiji-047-kong:m001-0000",
+            "c-shiji-047-kong:m001-0043"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p015",
+          "quote": "其後四年，孔子相魯。",
+          "mention_ids": [
+            "c-shiji-066-wu:m015-0005"
+          ]
+        }
+      ],
+      "rationale": "《孔子世家》開篇明記孔子生於魯，名丘、字仲尼；本篇同稱「孔子」，並記其相魯。姓名與活動背景相合，接回孔子既有人物ID。這是《史記》內跨篇對讀，不作獨立史實佐證。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
