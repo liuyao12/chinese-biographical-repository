@@ -213,6 +213,41 @@
       "work_title": "史記"
     },
     {
+      "number": 64,
+      "category": "liezhuan",
+      "title": "司馬穰苴列傳第四",
+      "paragraph_id": "c-shiji-064-sima:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "田豹之徒由此怨高、國等。其後及田常殺簡公，盡滅高子、國子之族。至常曾孫和，因自立為齊威王，用兵行威，大放穰苴之法，而諸侯朝齊。",
+      "paragraph_ids": [
+        "c-shiji-064-sima:p002"
+      ],
+      "mention_ids": [
+        "c-shiji-064-sima:m002-0070"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-064-sima:m002-0070": "c-shiji-064-sima:p002"
+      },
+      "mention_id": "c-shiji-064-sima:m002-0070",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-064-sima:m002-0070",
+          "mention_ids": [
+            "c-shiji-064-sima:m002-0070"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-064",
+      "chapter_id": "c-shiji-064-sima",
+      "source_id": "s-shiji-064-sima",
+      "work_title": "史記"
+    },
+    {
       "number": 130,
       "category": "liezhuan",
       "title": "太史公自序第七十",
@@ -372,33 +407,102 @@
       },
       "interpretation_note": "明示子、女及生子語境保存；繼位、太子或後宮數量不單獨補世系，其他篇世系仍待核。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji064-002",
+      "subject_person_id": "lmu_nbm_rzo_AAAAAAABAAAA",
+      "predicate": "ancestor",
+      "object_person_id": "lmu_nbm_rzo_AAAAAAABA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-064-sima",
+          "source_id": "s-shiji-064-sima",
+          "paragraph_id": "c-shiji-064-sima:p002",
+          "quote": "已而大夫鮑氏、高、國之屬害之，譖於景公。景公退穰苴，苴發疾而死。田乞、田豹之徒由此怨高、國等。其後及田常殺簡公，盡滅高子、國子之族。至常曾孫和，因自立為齊威王，用兵行威，大放穰苴之法，而諸侯朝齊。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "常曾孫和",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "「常曾孫和」以田世家所載田和為此處之和，記其為田常曾孫；只保存明示祖先距離，不補缺名世代或改寫本文。齊威王另連田因齊。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
+    "lmu_nbm_rzo_AAAAAAABA": "田常（田世家成子候選）",
     "lmu_nbm_rzo_AAAAAAABAAA": "田莊子白（田世家候選）",
     "lmu_nbm_rzo_AAAAAAABAAAA": "太公和（田世家候選）",
     "lmu_nbm_rzo_AAAAAAABAAAAA": "桓公午（田世家田齊候選）",
-    "lmu_nbm_rzo_AAAAAAABAAAAAA": "因齊（田世家威王候選）",
-    "ojt_xkj_2fe": "和（穰苴列傳候選）"
+    "lmu_nbm_rzo_AAAAAAABAAAAAA": "田因齊（齊威王）"
   },
   "dates": [],
-  "unresolved_identity_cases": [
+  "identity_distinctions": [
     {
-      "id": "ic-shiji064-he-wei",
-      "candidate_person_ids": [
-        "ojt_xkj_2fe",
+      "id": "d-shiji064-distinct-tianhe-weiwang",
+      "person_ids": [
         "lmu_nbm_rzo_AAAAAAABAAAA",
         "lmu_nbm_rzo_AAAAAAABAAAAAA"
       ],
-      "status": "unresolved",
-      "paragraph_ids": [
-        "c-shiji-064-sima:p002",
-        "c-shiji-046-tian:p023",
-        "c-shiji-046-tian:p025"
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-064-sima:p002",
+          "quote": "已而大夫鮑氏、高、國之屬害之，譖於景公。景公退穰苴，苴發疾而死。田乞、田豹之徒由此怨高、國等。其後及田常殺簡公，盡滅高子、國子之族。至常曾孫和，因自立為齊威王，用兵行威，大放穰苴之法，而諸侯朝齊。",
+          "chapter_id": "c-shiji-064-sima",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-064",
+          "source_id": "s-shiji-064-sima"
+        }
       ],
-      "note": "本篇常曾孫和自立為齊威王，田世家則田和立為齊侯、午卒子威王因齊立；本篇局部人物稱號保存，跨篇同指及世系用號差異未決，不校改原文或把田和與因齊合為一人。",
-      "chapter_id": "c-shiji-064-sima",
-      "source_id": "s-shiji-064-sima"
+      "rationale": "王叔岷《史記斟證》卷六十四讀「至常曾孫和因自立」為句，並指出「為齊威王」承下文「用兵行威」，為訓及；《田敬仲完世家》分記田和為齊侯、其後「桓公卒，子威王因齊立」。故此處「和」接田和，「齊威王」接田因齊。保留《索隱》及梁玉繩異讀，正文不改。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "d-shiji064-013",
+      "person_id": "lmu_nbm_rzo_AAAAAAABAAAA",
+      "surfaces": [
+        "和"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-064-sima",
+        "c-shiji-046-tian"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-064-sima:p002",
+          "quote": "已而大夫鮑氏、高、國之屬害之，譖於景公。景公退穰苴，苴發疾而死。田乞、田豹之徒由此怨高、國等。其後及田常殺簡公，盡滅高子、國子之族。至常曾孫和，因自立為齊威王，用兵行威，大放穰苴之法，而諸侯朝齊。"
+        },
+        {
+          "paragraph_id": "c-shiji-046-tian:p023",
+          "quote": "三年，太公與魏文侯會濁澤，求爲諸侯。魏文侯乃使使言周天子及諸侯，請立齊相田和爲諸侯。周天子許之。康公之十九年，田和立爲齊侯，列於周室，紀元年。"
+        }
+      ],
+      "references": [
+        {
+          "title": "王叔岷《史記補證》卷六十四，頁770：所錄《史記索隱》校讀",
+          "url": "https://www11.ihp.sinica.edu.tw/storage/w2_file/3872hIKbCqF.pdf",
+          "quote": "索隱：按此文誤也。當云：「田和自立，至其孫因齊，號為齊威王。」",
+          "scope": "received_ancient_commentary_quoted_by_modern_scholar",
+          "accessed_on": "2026-11-07",
+          "image_verified": false
+        },
+        {
+          "title": "王叔岷《史記補證》卷六十四，頁770：句讀判斷",
+          "url": "https://www11.ihp.sinica.edu.tw/storage/w2_file/3872hIKbCqF.pdf",
+          "quote": "「為齊威王」四字，與下文相屬成義。為猶及也。",
+          "scope": "modern_scholarship_punctuation_and_identity_interpretation",
+          "accessed_on": "2026-11-07",
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇「常曾孫和」之和，依《田敬仲完世家》「田和立為齊侯」及後續世系接為田和。王叔岷《史記補證》所採句讀亦將「和因自立」斷開；正文原字保留。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "name_components": [],
@@ -446,6 +550,27 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "明示子、女及生子語境保存；繼位、太子或後宮數量不單獨補世系，其他篇世系仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji064-002",
+      "subject_person_id": "lmu_nbm_rzo_AAAAAAABAAAA",
+      "predicate": "ancestor",
+      "object_person_id": "lmu_nbm_rzo_AAAAAAABA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-064-sima",
+          "source_id": "s-shiji-064-sima",
+          "paragraph_id": "c-shiji-064-sima:p002",
+          "quote": "已而大夫鮑氏、高、國之屬害之，譖於景公。景公退穰苴，苴發疾而死。田乞、田豹之徒由此怨高、國等。其後及田常殺簡公，盡滅高子、國子之族。至常曾孫和，因自立為齊威王，用兵行威，大放穰苴之法，而諸侯朝齊。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "常曾孫和",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "「常曾孫和」以田世家所載田和為此處之和，記其為田常曾孫；只保存明示祖先距離，不補缺名世代或改寫本文。齊威王另連田因齊。",
       "reviewer": "Codex（AI 代理）"
     }
   ],

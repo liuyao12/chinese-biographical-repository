@@ -315,7 +315,6 @@
 | `oj8_zfy_dkl` | 潏湟 | [《史記・司馬相如列傳》][186] | [JSON](oj8_zfy_dkl.json) |
 | `ojk_hex_iha` | 密康公 | [《史記・周本紀》][91] | [JSON](ojk_hex_iha.json) |
 | `ojt_wf4_fxy` | 白嬴 | [《史記・淮南衡山列傳》][187] | [JSON](ojt_wf4_fxy.json) |
-| `ojt_xkj_2fe` | 和 | [《史記・司馬穰苴列傳》][133] | [JSON](ojt_xkj_2fe.json) |
 | `okk_4oo_lew` | 刁暢 | [《晉書・叛臣二》][60] | [JSON](okk_4oo_lew.json) |
 | `okm_lcf_o9z` | 衛惠公（莊公五年記事） | [《史記・魯周公世家》][102] | [JSON](okm_lcf_o9z.json) |
 | `okp_6uz_rfi` | 鄧遐 | [《晉書・叛臣一》][59] | [JSON](okp_6uz_rfi.json) |
