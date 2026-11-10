@@ -98,6 +98,7 @@
 | `0c6_0ce_a2e` | 陶謙 | [《三國志・二荀賈傳》][79] | [JSON](0c6_0ce_a2e.json) |
 | `0c9_95a_18b` | 石勒 | [《晉書・王沈 荀顗 荀勖 馮紞》][30] | [JSON](0c9_95a_18b.json) |
 | `0cc_b35_67f` | 模〔滎陽太守〕 | [《魏書・崔浩》][228] | [JSON](0cc_b35_67f.json) |
+| `0ci_obd_9il` | 宓妃 | [《史記・司馬相如列傳》][186] | [JSON](0ci_obd_9il.json) |
 | `0cl_p1u_mri` | 渾邪（隴西太守） | [《史記・孝景本紀》][98] | [JSON](0cl_p1u_mri.json) |
 | `0ct_rge_697` | 韓舉 | [《史記・韓世家》][114] | [JSON](0ct_rge_697.json) |
 | `0d6_ff4_719` | 劉潔 | [《魏書・崔浩》][228] | [JSON](0d6_ff4_719.json) |
@@ -296,7 +297,6 @@
 | `1cr_7o7_q01` | 宋莊公 | [《史記・鄭世家》][111] | [JSON](1cr_7o7_q01.json) |
 | `1cz_c76_jxs` | 統〔郭淮子〕 | [《三國志・滿田牽郭傳》][85] | [JSON](1cz_c76_jxs.json) |
 | `1d1_298_a7e` | 司馬毗 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][45] | [JSON](1d1_298_a7e.json) |
-| `1d2_lvj_esk` | 齊威王 | [《史記・孫子吳起列傳》][134] | [JSON](1d2_lvj_esk.json) |
 | `1dm_ebc_uzk` | 散宜生 | [《史記・周本紀》][91] | [JSON](1dm_ebc_uzk.json) |
 | `1dq_vh2_eru` | 張華 | [《晉書・忠義》][54] | [JSON](1dq_vh2_eru.json) |
 | `1dz_0ef_p4o` | 趙史援 | [《史記・趙世家》][112] | [JSON](1dz_0ef_p4o.json) |
@@ -375,7 +375,6 @@
 | `1uq_j2z_9xd` | 東郭女（崔杼所取） | [《史記・齊太公世家》][101] | [JSON](1uq_j2z_9xd.json) |
 | `1ut_5lx_1b2` | 馬孫 | [《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][209] | [JSON](1ut_5lx_1b2.json) |
 | `1ux_z2g_fxh` | 蜂門 | [《史記・龜策列傳》][197] | [JSON](1ux_z2g_fxh.json) |
-| `1uz_uup_f9o` | 原憲 | [《史記・游俠列傳》][193] | [JSON](1uz_uup_f9o.json) |
 | `1vh_24w_d7w` | 鞠武 | [《史記・刺客列傳》][155] | [JSON](1vh_24w_d7w.json) |
 | `1vr_rmi_ay7` | 蓋餘 | [《史記・刺客列傳》][155] | [JSON](1vr_rmi_ay7.json) |
 | `1wa_qpl_7iq` | 安國君 | [《史記・秦本紀》][92] | [JSON](1wa_qpl_7iq.json) |
@@ -632,7 +631,6 @@
 | `370_sgw_aye` | 魏惠王 | [《史記・商君列傳》][137] | [JSON](370_sgw_aye.json) |
 | `372_tla_k26` | 阮孝緒 | [《梁書・裴子野 顧協 徐摛 鮑泉》][64]、[《南史・范泰　荀伯子　徐廣　鄭鮮之　裴松之　何承天》][75] | [JSON](372_tla_k26.json) |
 | `376_122_b37` | 樊普 | [《三國志・二荀賈傳》][79] | [JSON](376_122_b37.json) |
-| `377_emg_150` | 曾參 | [《史記・張儀列傳》][139] | [JSON](377_emg_150.json) |
 | `37a_4e4_9ge` | 周珌 | [《後漢書・孝獻帝紀》][14] | [JSON](37a_4e4_9ge.json) |
 | `37m_d72_3mo` | 駘 | [《史記・鄭世家》][111] | [JSON](37m_d72_3mo.json) |
 | `380_854_d21` | 王氏〔郭逸妻、王仲徳姊〕 | [《魏書・崔浩》][228] | [JSON](380_854_d21.json) |
@@ -942,7 +940,7 @@
 | `4rw_nce_8oq` | 史狗 | [《史記・吳太伯世家》][100] | [JSON](4rw_nce_8oq.json) |
 | `4sb_h3r_tey` | 泉陽令（未名） | [《史記・龜策列傳》][197] | [JSON](4sb_h3r_tey.json) |
 | `4sj_vbb_hzg` | 毛遁 | [《晉書・叛臣二》][60] | [JSON](4sj_vbb_hzg.json) |
-| `4t4_ojw_dn7` | 西王母 | [《史記・趙世家》][112]、[《史記・司馬相如列傳》][249]、[《史記・大宛列傳》][250] | [JSON](4t4_ojw_dn7.json) |
+| `4t4_ojw_dn7` | 西王母 | [《史記・趙世家》][112]、[《史記・司馬相如列傳》][186]、[《史記・大宛列傳》][192] | [JSON](4t4_ojw_dn7.json) |
 | `4t6_6ur_8lb` | 孔子引古 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](4t6_6ur_8lb.json) |
 | `4ta_l8n_ik4` | 國武子（齊大夫） | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](4ta_l8n_ik4.json) |
 | `4tb_tcb_9tq` | 朝（孝惠後宮子稱） | [《史記・呂后本紀》][96] | [JSON](4tb_tcb_9tq.json) |
@@ -956,12 +954,6 @@
 | `4tv_nhj_oxt` | 羋戎 | [《史記・范睢蔡澤列傳》][148] | [JSON](4tv_nhj_oxt.json) |
 | `4tx_5ie_am0` | 盧同〔黃門〕 | [《魏書・楊播》][231] | [JSON](4tx_5ie_am0.json) |
 | `4u0_rni_a7s` | 項梁 | [《史記・李斯列傳》][156] | [JSON](4u0_rni_a7s.json) |
-| `9g4_bbq_zvr` | 靈圉 | [《史記・司馬相如列傳》][186] | [JSON](9g4_bbq_zvr.json) |
-| `rfi_3nz_c6h` | 偓佺 | [《史記・司馬相如列傳》][186] | [JSON](rfi_3nz_c6h.json) |
-| `jcu_9kl_5bx` | 北僑 | [《史記・司馬相如列傳》][186] | [JSON](jcu_9kl_5bx.json) |
-| `87m_u0g_mkj` | 青琴 | [《史記・司馬相如列傳》][186] | [JSON](87m_u0g_mkj.json) |
-| `0ci_obd_9il` | 宓妃 | [《史記・司馬相如列傳》][186] | [JSON](0ci_obd_9il.json) |
-| `rbv_387_iwe` | 郅都 | [《史記・酷吏列傳》][191] | [JSON](rbv_387_iwe.json) |
 | `4ud_0tq_d3r` | 宣伯 | [《史記・魯周公世家》][102] | [JSON](4ud_0tq_d3r.json) |
 | `4v3_fka_aca` | 公子成 | [《史記・趙世家》][112] | [JSON](4v3_fka_aca.json) |
 | `4vd_pg5_o8x` | 杜曾 | [《晉書・王舒 王廙 虞潭 顧眾 張闓》][51] | [JSON](4vd_pg5_o8x.json) |
@@ -1652,6 +1644,7 @@
 | `871_359_30b` | 許攸 | [《三國志・二荀賈傳》][79] | [JSON](871_359_30b.json) |
 | `874_ozp_7n8` | 張龍〔本紀來源局部〕 | [《晉書・顯宗成帝 康帝》][18] | [JSON](874_ozp_7n8.json) |
 | `875_36b_0ca` | 弘徽 | [《晉書・顯宗成帝 康帝》][18]、[《晉書・叛臣三》][62] | [JSON](875_36b_0ca.json) |
+| `87m_u0g_mkj` | 青琴 | [《史記・司馬相如列傳》][186] | [JSON](87m_u0g_mkj.json) |
 | `87n_vk2_1ig` | 李少君 | [《史記・孝武本紀》][99] | [JSON](87n_vk2_1ig.json) |
 | `87t_93a_gy8` | 聶翁壹 | [《史記・韓長孺列傳》][177] | [JSON](87t_93a_gy8.json) |
 | `881_5eh_yg3` | 老子 | [《史記・日者列傳》][196] | [JSON](881_5eh_yg3.json) |
@@ -1906,6 +1899,7 @@
 | `9ff_bbf_ac7` | 陳淑媛 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][45] | [JSON](9ff_bbf_ac7.json) |
 | `9ff_otw_6sb` | 願〔新唐陳氏序〕 | [《新唐書・宰相世系一下》][233] | [JSON](9ff_otw_6sb.json) |
 | `9fg_73i_8fk` | 相 | [《史記・夏本紀》][89]、[《史記・吳太伯世家》][100] | [JSON](9fg_73i_8fk.json) |
+| `9g4_bbq_zvr` | 靈圉 | [《史記・司馬相如列傳》][186] | [JSON](9g4_bbq_zvr.json) |
 | `9g7_n2e_6ho` | 崔林 | [《三國志・桓二陳徐衞盧傳》][84] | [JSON](9g7_n2e_6ho.json) |
 | `9gc_00a_mwa` | 張衮 | [《北史・燕鳳 許謙 崔宏 張袞 鄧彥海》][1]、[《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][227] | [JSON](9gc_00a_mwa.json) |
 | `9gq_tfb_414` | 楚昭王 | [《史記・吳太伯世家》][100]、[《史記・管蔡世家》][104] | [JSON](9gq_tfb_414.json) |
@@ -2096,6 +2090,12 @@
 | `af6_mhg_pyn` | 呂種 | [《史記・呂后本紀》][96]、[《史記・惠景間侯者年表》][245] | [JSON](af6_mhg_pyn.json) |
 | `af7_a2c_011` | 韓晃 | [《晉書・叛臣三》][62] | [JSON](af7_a2c_011.json) |
 | `afb_ahe_sqp` | 趙堯 | [《史記・張丞相列傳》][165] | [JSON](afb_ahe_sqp.json) |
+| `afc_k9r_hjr` | 衡父 | [《史記・秦本紀》][92] | [JSON](afc_k9r_hjr.json) |
+| `afe_vxj_iuk` | 中御府長信 | [《史記・扁鵲倉公列傳》][174] | [JSON](afe_vxj_iuk.json) |
+| `afp_p47_7v4` | 謝綜舅（未名） | [《南齊書・王僧虔 張緒》][67] | [JSON](afp_p47_7v4.json) |
+| `afy_rj9_84r` | 秦皇帝 | [《史記・齊悼惠王世家》][121] | [JSON](afy_rj9_84r.json) |
+| `agc_zmx_tap` | 鄦公 | [《史記・鄭世家》][111] | [JSON](agc_zmx_tap.json) |
+| `agn_6ch_sus` | 李勢 | [《晉書・叛臣一》][59] | [JSON](agn_6ch_sus.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
@@ -2319,5 +2319,3 @@
 [245]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
 [246]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
 [248]: https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038
-[249]: https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549
-[250]: https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799
