@@ -956,6 +956,7 @@
 | `4tv_nhj_oxt` | 羋戎 | [《史記・范睢蔡澤列傳》][148] | [JSON](4tv_nhj_oxt.json) |
 | `4tx_5ie_am0` | 盧同〔黃門〕 | [《魏書・楊播》][231] | [JSON](4tx_5ie_am0.json) |
 | `4u0_rni_a7s` | 項梁 | [《史記・李斯列傳》][156] | [JSON](4u0_rni_a7s.json) |
+| `9g4_bbq_zvr` | 靈圉 | [《史記・司馬相如列傳》][186] | [JSON](9g4_bbq_zvr.json) |
 | `rbv_387_iwe` | 郅都 | [《史記・酷吏列傳》][191] | [JSON](rbv_387_iwe.json) |
 | `4ud_0tq_d3r` | 宣伯 | [《史記・魯周公世家》][102] | [JSON](4ud_0tq_d3r.json) |
 | `4v3_fka_aca` | 公子成 | [《史記・趙世家》][112] | [JSON](4v3_fka_aca.json) |

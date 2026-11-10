@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "71段全文及38名歷史／傳說來源候選完成首輪具名與未定稱呼標註；全部身份、匿名者、代詞、版本及引文仍待覆核。",
+    "coverage": "71段全文及38名歷史／傳說來源候選完成首輪具名與未定稱呼標註；全部身份、匿名者、代詞、版本及引文仍待覆核。 第16、52、58段靈圉依郭璞注暫接同一傳說仙人；淳圉與靈圉的文字關係未定。",
     "limitations": [
       "未核影像，保留私用字缺字與數位重句。",
       "藺相如與司馬相如分人；慕其為人不是同一身分。",
@@ -41,7 +41,7 @@
       "第4至15段賦中子虛、烏有先生、無是公及楚王齊王不連歷史君臣；暫用未解錨點保存虛構語境。",
       "專諸、禹、契為明示典故人名，未據賦辭補其生平事件。陽子、纖阿與鄭女曼姬的古注異說另存指稱判讀，不由候選或泛稱自動連人。",
       "干將之雄戟為器物稱謂語境，未另記為匠人人物提及。",
-      "第20段孫叔、衛公據集解所引漢書音義分接公孫賀、衛青；賦中校獵不作確定共同事件。靈圉、偓佺、青琴、宓妃仍另待神話層辨識。",
+      "第20段孫叔、衛公據集解所引漢書音義分接公孫賀、衛青；賦中校獵不作確定共同事件。偓佺、青琴、宓妃仍另待神話層辨識。",
       "陶唐氏、葛天氏為樂舞典故語境暫存未定，三皇五帝及二子保留群體，不拆姓名。",
       "第21段蜚廉、猛氏在獸獵語境，不自動當同名人物；第26段重句保留原文。",
       "第32段檄文太子、中郎將及單于暫留未定，未由官稱猜人。",
@@ -56,7 +56,9 @@
       "第68段卒後五歲八年為相對時間，不直接轉作公元年。",
       "第30段無是公言天子上林的天子屬賦辭角色，不套當朝天子；賦奏天子以為郎的省略主語隔完整賦文，待支援跨段上下文證據後記授任，不偽造姓名錨點。",
       "第53段靈媧、馮夷、屏翳依古注登記為具名傳說角色，未據賦辭新增親屬、任職、生卒或神遊史事；風伯、雨師、玉女、西王母仍待辨。",
-      "第52、54段陵陽、玄冥、含靁、潏湟、勾芒、豐隆依古注登記具名傳說角色；本篇原稱與古注字形分存，不補歷史官職或世系。陸離保留神名與靈鳥異說，五帝僅作神帝群稱分類。"
+      "第52、54段陵陽、玄冥、含靁、潏湟、勾芒、豐隆依古注登記具名傳說角色；本篇原稱與古注字形分存，不補歷史官職或世系。陸離保留神名與靈鳥異說，五帝僅作神帝群稱分類。",
+      "大人賦第52段「真人」為泛稱、「眾神」為集合稱呼，均非可識別的個人名，故不作人物錨點；原文照錄。",
+      "第16、52、58段靈圉依郭璞兩注暫接同一傳說人物；「靈圉淳圉」無標點，兩詞關係未定，不將淳圉作已確認別名。"
     ],
     "unresolved_identity_cases": [
       {
@@ -1856,9 +1858,9 @@
           "start": 176,
           "end": 178,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         }
       ]
     },
@@ -1894,9 +1896,10 @@
           "start": 103,
           "end": 105,
           "surface": "靈圉",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "9g4_bbq_zvr",
+          "status": "contextual_provisional",
+          "interpretation_note": "本篇《大人賦》第16、52、58段三見「靈圉」，郭璞兩注均稱仙人名，暫接為同一傳說人物。「靈圉淳圉」未標點；淳圉是否異文、異名或並列名未定，不登記為確定別名。僅核數位文字，未核書影。"
         },
         {
           "id": "c-shiji-117-xiangru:m016-0110",
@@ -1951,9 +1954,9 @@
           "start": 9,
           "end": 11,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-117-xiangru:m020-0038",
@@ -2068,18 +2071,18 @@
           "start": 8,
           "end": 10,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-117-xiangru:m026-0044",
           "start": 44,
           "end": 46,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-117-xiangru:m026-0127",
@@ -2180,9 +2183,9 @@
           "start": 13,
           "end": 15,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-117-xiangru:m030-0028",
@@ -2675,9 +2678,9 @@
           "start": 31,
           "end": 33,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-117-xiangru:m038-0101",
@@ -2760,9 +2763,9 @@
           "start": 461,
           "end": 463,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         }
       ]
     },
@@ -3097,31 +3100,14 @@
       "text_layer": "received_chapter",
       "mentions": [
         {
-          "id": "c-shiji-117-xiangru:m052-0011",
-          "start": 11,
-          "end": 13,
-          "surface": "真人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
-        },
-        {
           "id": "c-shiji-117-xiangru:m052-0036",
           "start": 36,
           "end": 38,
           "surface": "靈圉",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
-        },
-        {
-          "id": "c-shiji-117-xiangru:m052-0045",
-          "start": 45,
-          "end": 47,
-          "surface": "眾神",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "9g4_bbq_zvr",
+          "status": "contextual_provisional",
+          "interpretation_note": "本篇《大人賦》第16、52、58段三見「靈圉」，郭璞兩注均稱仙人名，暫接為同一傳說人物。「靈圉淳圉」未標點；淳圉是否異文、異名或並列名未定，不登記為確定別名。僅核數位文字，未核書影。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0052",
@@ -3329,9 +3315,10 @@
           "start": 233,
           "end": 236,
           "surface": "西王母",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "4t4_ojw_dn7",
+          "status": "contextual_provisional",
+          "interpretation_note": "與《趙世家》造父西巡所見西王母及《大宛列傳》所載安息長老傳聞暫接同一神話人物；保留本篇賦辭，不作歷史親見證明。"
         }
       ]
     },
@@ -3588,9 +3575,10 @@
           "start": 362,
           "end": 364,
           "surface": "靈圉",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "9g4_bbq_zvr",
+          "status": "contextual_provisional",
+          "interpretation_note": "本篇《大人賦》第16、52、58段三見「靈圉」，郭璞兩注均稱仙人名，暫接為同一傳說人物。「靈圉淳圉」未標點；淳圉是否異文、異名或並列名未定，不登記為確定別名。僅核數位文字，未核書影。"
         }
       ]
     },
