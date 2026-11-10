@@ -958,6 +958,9 @@
 | `4u0_rni_a7s` | 項梁 | [《史記・李斯列傳》][156] | [JSON](4u0_rni_a7s.json) |
 | `9g4_bbq_zvr` | 靈圉 | [《史記・司馬相如列傳》][186] | [JSON](9g4_bbq_zvr.json) |
 | `rfi_3nz_c6h` | 偓佺 | [《史記・司馬相如列傳》][186] | [JSON](rfi_3nz_c6h.json) |
+| `jcu_9kl_5bx` | 北僑 | [《史記・司馬相如列傳》][186] | [JSON](jcu_9kl_5bx.json) |
+| `87m_u0g_mkj` | 青琴 | [《史記・司馬相如列傳》][186] | [JSON](87m_u0g_mkj.json) |
+| `0ci_obd_9il` | 宓妃 | [《史記・司馬相如列傳》][186] | [JSON](0ci_obd_9il.json) |
 | `rbv_387_iwe` | 郅都 | [《史記・酷吏列傳》][191] | [JSON](rbv_387_iwe.json) |
 | `4ud_0tq_d3r` | 宣伯 | [《史記・魯周公世家》][102] | [JSON](4ud_0tq_d3r.json) |
 | `4v3_fka_aca` | 公子成 | [《史記・趙世家》][112] | [JSON](4v3_fka_aca.json) |
