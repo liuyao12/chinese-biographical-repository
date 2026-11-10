@@ -1,4 +1,16 @@
 export default {
+  "Editorial profile title": "編輯選稱",
+  "Title source": "稱號來源",
+  "Granted title": "已授",
+  "Transferred office": "轉任",
+  "Accession title": "即位用稱",
+  "Demoted title": "降授",
+  "Self-proclaimed title": "自稱",
+  "Posthumous grant": "追贈",
+  "Posthumous enfeoffment": "追封",
+  "Posthumous name": "賜諡",
+  "Source attestation": "來源用稱",
+
   'Source-attested brothers (parent unidentified)':'明文弟兄（父未名）',
   'Preferred source transcription':'首選轉錄',
   'Comparison transcription':'比較轉錄',

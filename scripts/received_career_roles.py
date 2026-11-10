@@ -93,6 +93,10 @@ def analyse(record,ch):
  return p,roles,fields,slots
 
 def holding_valid(h,ch,root=None):
+ if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_wyd063_related_title_attestation':
+  try:from scripts.wyd_song063_basics import holding_valid as valid063
+  except ImportError:from wyd_song063_basics import holding_valid as valid063
+  return valid063(h,ch,root)
  if not isinstance(h,dict)or not isinstance(h.get('source_career_role'),dict):return False
  # fixed-wyd045-noble-holding
  if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_wyd045_noble_sequence':

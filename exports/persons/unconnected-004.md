@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `xru_mbd_dle` | 齊王受虞卿未名 | [《史記・平原君虞卿列傳》][145] | [JSON](xru_mbd_dle.json) |
 | `xs7_jo2_pjd` | 燕文侯 | [《史記・蘇秦列傳》][138] | [JSON](xs7_jo2_pjd.json) |
 | `xs8_f3t_113` | 呼于屠王（未名） | [《史記・衛將軍驃騎列傳》][180] | [JSON](xs8_f3t_113.json) |
 | `xse_vcr_aju` | 姚萇 | [《晉書・桓彝》][44] | [JSON](xse_vcr_aju.json) |

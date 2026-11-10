@@ -15107,6 +15107,55 @@
       }
     },
     {
+      "id": "a-song063-wyd-sengqian-father",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEB",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAAAAE",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "少子僧虔",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "7r6_k52_qji_ABAAAAE",
+          "scope": "sons_of_parent",
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "interpretation_status": "ambiguous"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wyd1739-wangtanshou",
+          "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+          "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p005",
+          "quote": "速斷故罪人斯戮臣等雖得仰憑天光効其毫露豈可因國之災以為身幸陛下雖欲私臣當如直史何上不能奪故封事遂寢時兄弘錄尚書事又為揚州刺史曇首為上所親委任兼兩宮彭城王義康與弘並錄意常怏怏又欲得揚州形於辭旨以曇首居中分其權任愈不悅曇首固乞吳郡太祖曰豈有欲建大廈而遺其棟梁者哉賢兄比屢稱疾固辭州任將來若相申許者此處非卿而誰亦何吳郡之有時弘久疾屢遜位不許義康謂賓客曰王公久疾不起神州詎合臥治曇首勸弘減府兵之半以配義康義康乃悅七年卒太祖為之慟",
+          "object_person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p005:m0034"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wyd1739-wangtanshou",
+          "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+          "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+          "quote": "中書舍人周起侍側曰王家欲衰賢者先殞上曰直是我家衰耳追贈左光祿大夫加散騎常侍詹事如故九年以預誅羨之等謀追封豫寧縣侯邑千戶諡曰文侯世祖即位配饗太祖廟庭子僧綽嗣別有傳少子僧虔昇明末為尚書令",
+          "subject_person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p006:m0082"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-songshu-063-wyd1739-wangtanshou:p005",
+          "c-songshu-063-wyd1739-wangtanshou:p006"
+        ],
+        "rationale": "本傳死亡/追贈與篇末明子句連續，前段曇首主體、後段子名；不指最後出現的世祖。"
+      }
+    },
+    {
       "id": "a-song075-sengda-007",
       "subject_person_id": "7r6_k52_qji_ABAAAAEB",
       "predicate": "agnatic_cousin",
@@ -15676,6 +15725,94 @@
       "title": "司空"
     }
   ],
+  "preferred_name_component_readings": [
+    {
+      "id": "pn-song063-wyd-sengqian",
+      "person_id": "7r6_k52_qji_ABAAAAEB",
+      "field": "ming",
+      "preferred_value": "僧虔",
+      "source_values": [
+        "僧䖍",
+        "僧虔"
+      ],
+      "records": [
+        {
+          "record": {
+            "id": null,
+            "person_id": "7r6_k52_qji_ABAAAAEB",
+            "chapter_id": "c-nanqishu-033-wangsengqian",
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p001",
+            "surname": "王",
+            "ming": "僧䖍",
+            "quote": "王僧䖍琅邪臨沂人也祖珣晉司徒伯父太保𢎞宋元嘉世為宰輔賔客疑所諱𢎞曰身家諱與蘇子髙同父曇首右光禄大夫曇首兄弟集會諸子孫𢎞子僧達下地跳戱僧䖍年數嵗獨正坐採蠟燭珠為鳳凰𢎞曰此兒終當為長者"
+          },
+          "anchor": {
+            "id": "c-nanqishu-033-wangsengqian:p001:m0000",
+            "start": 0,
+            "end": 3,
+            "surface": "王僧䖍",
+            "person_id": "7r6_k52_qji_ABAAAAEB",
+            "kind": "person",
+            "status": "contextual_provisional",
+            "interpretation_note": "依完整敘事／引語與具名身份橋辨識，不用任意最近姓名"
+          },
+          "source_id": "s-nanqishu-033-wangsengqian"
+        },
+        {
+          "record": {
+            "id": "n-song063-wyd-sengqian-literal",
+            "person_id": "7r6_k52_qji_ABAAAAEB",
+            "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+            "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+            "surname": null,
+            "ming": "僧虔",
+            "quote": "中書舍人周起侍側曰王家欲衰賢者先殞上曰直是我家衰耳追贈左光祿大夫加散騎常侍詹事如故九年以預誅羨之等謀追封豫寧縣侯邑千戶諡曰文侯世祖即位配饗太祖廟庭子僧綽嗣別有傳少子僧虔昇明末為尚書令"
+          },
+          "anchor": {
+            "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0082",
+            "start": 82,
+            "end": 84,
+            "surface": "僧虔",
+            "kind": "person",
+            "person_id": "7r6_k52_qji_ABAAAAEB",
+            "status": "contextual_provisional"
+          },
+          "source_id": "s-songshu-063-wyd1739-wangtanshou"
+        },
+        {
+          "record": {
+            "id": "n-song063-wyd-sengqian-contextual",
+            "person_id": "7r6_k52_qji_ABAAAAEB",
+            "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+            "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+            "surname": "王",
+            "ming": "僧虔",
+            "quote": "中書舍人周起侍側曰王家欲衰賢者先殞上曰直是我家衰耳追贈左光祿大夫加散騎常侍詹事如故九年以預誅羨之等謀追封豫寧縣侯邑千戶諡曰文侯世祖即位配饗太祖廟庭子僧綽嗣別有傳少子僧虔昇明末為尚書令"
+          },
+          "anchor": {
+            "id": "c-songshu-063-wyd1739-wangtanshou:p006:m0082",
+            "start": 82,
+            "end": 84,
+            "surface": "僧虔",
+            "kind": "person",
+            "person_id": "7r6_k52_qji_ABAAAAEB",
+            "status": "contextual_provisional"
+          },
+          "source_id": "s-songshu-063-wyd1739-wangtanshou"
+        }
+      ],
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "rationale": "本次所選武英殿宋063父傳篇末明名僧虔，暫採作卡片顯示；齊033僧䖍原字保留，不稱唯一正字/繁簡或已圖校齊本。",
+      "coverage": "listed_records_only",
+      "basis": {
+        "kind": "cross_chapter_same_person_source_variant",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "兩篇現役同canonical僧虔，宋063子僧虔與齊033王僧䖍父曇首互證；本資料不合併人物，未列第三字形不覆蓋。"
+      }
+    }
+  ],
   "identity_distinctions": [
     {
       "id": "d-song062-qian-not-sengqian",
@@ -15973,6 +16110,50 @@
     }
   ],
   "name_components": [
+    {
+      "id": "n-song063-wyd-sengqian-literal",
+      "person_id": "7r6_k52_qji_ABAAAAEB",
+      "surname": null,
+      "ming": "僧虔",
+      "additional_names": [],
+      "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+      "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+      "person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p006:m0082",
+      "quote": "中書舍人周起侍側曰王家欲衰賢者先殞上曰直是我家衰耳追贈左光祿大夫加散騎常侍詹事如故九年以預誅羨之等謀追封豫寧縣侯邑千戶諡曰文侯世祖即位配饗太祖廟庭子僧綽嗣別有傳少子僧虔昇明末為尚書令",
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "source_id": "s-songshu-063-wyd1739-wangtanshou"
+    },
+    {
+      "id": "n-song063-wyd-sengqian-contextual",
+      "person_id": "7r6_k52_qji_ABAAAAEB",
+      "surname": "王",
+      "ming": "僧虔",
+      "additional_names": [],
+      "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+      "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+      "person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p006:m0082",
+      "quote": "中書舍人周起侍側曰王家欲衰賢者先殞上曰直是我家衰耳追贈左光祿大夫加散騎常侍詹事如故九年以預誅羨之等謀追封豫寧縣侯邑千戶諡曰文侯世祖即位配饗太祖廟庭子僧綽嗣別有傳少子僧虔昇明末為尚書令",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_wyd063_fixed_near_kin",
+        "source_name_record_id": "n-song063-wyd-tanshou-literal",
+        "relationship_assertion_ids": [
+          "a-song063-wyd-sengqian-father"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "本傳王曇首明全名及所列明父/少弟/父系從弟的來源語境；原單名literal不改，不用家族ID、編輯父鏈或label補姓。"
+      },
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "source_id": "s-songshu-063-wyd1739-wangtanshou"
+    },
     {
       "person_id": "7r6_k52_qji_ABAAAAEB",
       "title": null,
@@ -16411,6 +16592,55 @@
           "c-songshu-063-wanghua-tanshou:line039"
         ],
         "rationale": "完整傳主單元相鄰兩段原序承接，未省略任何正文；數位空行不當闕文。"
+      }
+    },
+    {
+      "id": "a-song063-wyd-sengqian-father",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEB",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAAAAE",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "少子僧虔",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "7r6_k52_qji_ABAAAAE",
+          "scope": "sons_of_parent",
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "interpretation_status": "ambiguous"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wyd1739-wangtanshou",
+          "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+          "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p005",
+          "quote": "速斷故罪人斯戮臣等雖得仰憑天光効其毫露豈可因國之災以為身幸陛下雖欲私臣當如直史何上不能奪故封事遂寢時兄弘錄尚書事又為揚州刺史曇首為上所親委任兼兩宮彭城王義康與弘並錄意常怏怏又欲得揚州形於辭旨以曇首居中分其權任愈不悅曇首固乞吳郡太祖曰豈有欲建大廈而遺其棟梁者哉賢兄比屢稱疾固辭州任將來若相申許者此處非卿而誰亦何吳郡之有時弘久疾屢遜位不許義康謂賓客曰王公久疾不起神州詎合臥治曇首勸弘減府兵之半以配義康義康乃悅七年卒太祖為之慟",
+          "object_person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p005:m0034"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wyd1739-wangtanshou",
+          "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+          "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p006",
+          "quote": "中書舍人周起侍側曰王家欲衰賢者先殞上曰直是我家衰耳追贈左光祿大夫加散騎常侍詹事如故九年以預誅羨之等謀追封豫寧縣侯邑千戶諡曰文侯世祖即位配饗太祖廟庭子僧綽嗣別有傳少子僧虔昇明末為尚書令",
+          "subject_person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p006:m0082"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-songshu-063-wyd1739-wangtanshou:p005",
+          "c-songshu-063-wyd1739-wangtanshou:p006"
+        ],
+        "rationale": "本傳死亡/追贈與篇末明子句連續，前段曇首主體、後段子名；不指最後出現的世祖。"
       }
     },
     {

@@ -4,7 +4,7 @@ import json,copy,hashlib
 CID='c-songshu-051-wyd1739-zongshi'
 CH='corpus/songshu/051-wyd1739.json'
 REF='source-evidence/song051-wyd1739-zongshi/formal-role-contract.json'
-CONTRACT_SHA='cdf9f97b3ab17fcb328ec8b33c072426e9df99e3265625d289489d4f4a6cabeb'
+CONTRACT_SHA='97be2e239d7d365ab8d40a683702f615ff8b80f87d56e15effbc350e6601766b'
 FACTS='corpus/songshu/051-wyd1739-assertions.json'
 NAMES='corpus/songshu/051-wyd1739-name-components.json'
 KIND='fixed_wyd_song051_direct_family_phase1'
@@ -114,7 +114,7 @@ try:from scripts.validation_context import memoized
 except ImportError:from validation_context import memoized
 
 @memoized(0)
-def context(root,ch=None,check_sidecars=True):
+def _phase1_context(root,ch=None,check_sidecars=True):
  root=Path(root);c=read_contract(root);actual=json.loads((root/CH).read_bytes());ch=actual if ch is None else ch;need(same(ch,actual),'呼叫章與現行章不符')
  roles=collect_roles(ch,c);need(same(ch,phase_chapter(c,roles)),'完整原文/位置/資格或49錨不符')
  expected=resolve_existing(root,c);need(all(roles[k]==v for k,v in expected.items()if k in roles),'跨篇現役角色不同號');roles.update(expected);need(len(set(roles.values()))==len(roles),'祖父與後代角色不得混號')
@@ -159,18 +159,18 @@ def source_errors005(ch,root):
   current,roles,c,facts,ns=context(root);need(same(ch,intro_chapter(c,roles)),'005呼叫章與現行不符');return []
  except (ValueError,KeyError,TypeError,OSError,UnicodeError,StopIteration,AttributeError)as e:return ['武英殿宋005有限身份橋：'+str(e)]
 
-def applies(a):
+def _phase1_applies(a):
  if not isinstance(a,dict):return False
  q=a.get('qualifiers');b=q.get('source_clause_binding')if isinstance(q,dict)else None
  return str(a.get('id','')).startswith(('a-song051-phase1-','a-song005-opening-phase1-'))or isinstance(b,dict)and b.get('kind')==KIND
-def family_valid(a,paragraphs,chapters,root):
+def _phase1_family_valid(a,paragraphs,chapters,root):
  try:
   ch,roles,c,facts,ns=context(root);need(any(same(a,x)for x in facts['assertions']+intro_facts(c,roles)['assertions']),'非本批逐字親屬')
   for e in a['evidence']:
    owner=ch if e['chapter_id']==CID else intro_chapter(c,roles);p=next(p for p in owner['paragraphs']if p['id']==e['paragraph_id']);frame=paragraphs.get(p['id']);need(type(frame)is tuple and len(frame)==2 and frame[0]==owner['id']and same(frame[1],p)and same(chapters.get(owner['id']),owner),'親屬所給章段與現行不符')
   return True
  except (ValueError,KeyError,TypeError,OSError,StopIteration,AttributeError):return False
-def component_valid(n,ch,root):
+def _phase1_component_valid(n,ch,root):
  try:
   current,roles,c,facts,ns=context(root)
   if n.get('component_source_binding',{}).get('kind')=='fixed_wyd_song051_external_fullname_seed':
@@ -258,7 +258,7 @@ def identities(ch,roles,c,root):
   out.append(d)
  return{'format_version':'0.2','record_type':'person_identity_decision_set','chapter_id':CID,'decisions':out}
 
-def validate_surname(n,all_names,chapters,all_assertions,root):
+def _phase1_validate_surname(n,all_names,chapters,all_assertions,root):
  try:
   ch,roles,c,facts,ns=context(root);expected,=[x for x in ns['records']if x['id']==n['id']];need(same(n,expected)and n.get('surname_basis',{}).get('kind')==SURNAME_KIND,'限本源已列氏姓讀法')
   seed_spec=next(s for s in c['literal_full_name_seeds']if s['name_record_id']==n['surname_basis']['source_name_record_id']);seed=next(x for x in full_seed_docs(root,c,roles)[seed_spec['component_path']]['records']if x['id']==seed_spec['name_record_id']);need(same([x for x in all_names if x.get('id')==seed['id']],[seed]),'全名種子不存在/重複/改讀');need(same(chapters.get(CID),ch),'姓名章不符')
@@ -295,7 +295,7 @@ def intro_identities(c,roles,root):
   out.append({'id':'d-song005-opening-phase1-'+role,'person_id':roles[role],'surfaces':list(dict.fromkeys(m['surface']for p,m in hits)),'scope':'cross_chapter'if len(chapter_ids)>1 else'same_chapter','chapter_ids':chapter_ids,'status':'contextual_provisional','confidence_level':'high','identification_basis':{'kind':'source_context','target_mention_ids':[m['id']for p,m in hits]},'evidence':evidence,'rationale':reasons[role],'human_reviewed':False,'model':None})
  return {'format_version':'0.2','record_type':'person_identity_decision_set','chapter_id':ch['id'],'decisions':out}
 
-def guard_bundle(root,person_id,people,records):
+def _phase1_guard_bundle(root,person_id,people,records):
  root=Path(root);candidate=people.get(person_id)
  registered_relevant=isinstance(candidate,dict)and any(e.get('chapter_id')in(CID,'c-songshu-005-wyd1739-wendi-opening')for e in candidate.get('evidence',[]))
  source_records=[r for r in records if r.get('record_type')=='marked_chapter'and r.get('id')in(CID,'c-songshu-005-wyd1739-wendi-opening')]
@@ -306,3 +306,77 @@ def guard_bundle(root,person_id,people,records):
  need(same(people.get(person_id),hit),'bundle人物catalog與current不符')
  for rel in [CH,INTRO_CH,FACTS,INTRO_FACTS,NAMES,IDENTITIES,INTRO_IDENTITIES]+list(full_seed_docs(root,c,roles)):
   expected=json.loads((root/rel).read_bytes());need(sum(same(r,expected)for r in records)==1,'bundle缺完整本源/姓名/親屬/身份資料或重複')
+
+
+# song051-yixin-complete-unit-phase2
+def _phase2_context(root,ch=None,check_sidecars=True):
+ root=Path(root);c=read_contract(root);actual=json.loads((root/CH).read_bytes());ch=actual if ch is None else ch;need(same(ch,actual),'呼叫章與現行章不符')
+ try:from scripts.wyd_song051_yixin import project_previous_phase
+ except ImportError:from wyd_song051_yixin import project_previous_phase
+ ch=project_previous_phase(root,ch)
+ roles=collect_roles(ch,c);need(same(ch,phase_chapter(c,roles)),'完整原文/位置/資格或49錨不符')
+ expected=resolve_existing(root,c);need(all(roles[k]==v for k,v in expected.items()if k in roles),'跨篇現役角色不同號');roles.update(expected);need(len(set(roles.values()))==len(roles),'祖父與後代角色不得混號')
+ temple_contract=copy.deepcopy(c);temple_contract['existing_seeds']=[c['temple_identity_seed']];need(resolve_existing(root,temple_contract).get('temple_identity_candidate')==roles['taizu'],'太祖與義隆同指未閉合')
+ intro=json.loads((root/INTRO_CH).read_bytes());need(same(intro,intro_chapter(c,roles)),'005完整轉錄/位置/有限14錨漂移')
+ try:from scripts.fixed_wuyingdian_song005_opening import validate_source as validate_intro
+ except ImportError:from fixed_wuyingdian_song005_opening import validate_source as validate_intro
+ validate_intro(c['song005_opening_bridge']['source_before'],root)
+ people={p['id']:p for p in json.loads((root/'registry/persons.json').read_bytes())['persons']}
+ for p in ch['paragraphs']+intro['paragraphs']:
+  owner=ch if p['id'].startswith(CID+':')else intro
+  for m in p['mentions']:
+   person=people.get(m['person_id']);need(bool(person),'人物未登記')
+   need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'缺反向alias')
+   e=dict(work_id=owner['work_id'],book_id=owner['book_id'],source_id=owner['source_id'],chapter_id=owner['id'],paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'缺反向evidence')
+ # The original pending validator is unchanged; normalize only after exact formal proof.
+ try:from scripts.fixed_wuyingdian_song051 import validate_source
+ except ImportError:from fixed_wuyingdian_song051 import validate_source
+ validate_source(c['source_before'],root)
+ family_projection_valid(root,ch,roles)
+ facts=assertions(ch,roles);ns=names(ch,roles,c,root)
+ if check_sidecars:
+  need(same(json.loads((root/INTRO_FACTS).read_bytes()),intro_facts(c,roles)),'005明父表漂移')
+  need(same(json.loads((root/INTRO_IDENTITIES).read_bytes()),intro_identities(c,roles,root)),'005傳首五角色身份證據漂移')
+  need(same(json.loads((root/FACTS).read_bytes()),facts),'本批親屬表或主語方向不符')
+  need(same(json.loads((root/NAMES).read_bytes()),ns),'本批姓名表不符')
+  for rel,doc in full_seed_docs(root,c,roles).items():need(same(json.loads((root/rel).read_bytes()),doc),'外部全名種子表不符')
+  need(same(json.loads((root/IDENTITIES).read_bytes()),identities(ch,roles,c,root)),'本批身份或兩個2的來源讀法不符')
+ return ch,roles,c,facts,ns
+
+
+def _yixin_module():
+ try:from scripts import wyd_song051_yixin as y
+ except ImportError:import wyd_song051_yixin as y
+ return y
+@memoized(0)
+def context(root,ch=None,check_sidecars=True):
+ read_contract(root)
+ actual=json.loads((Path(root)/CH).read_bytes())
+ if _yixin_module().has_phase(actual):return _phase2_context(root,ch,check_sidecars)
+ return _phase1_context(root,ch,check_sidecars)
+def applies(a):
+ return (isinstance(a,dict)and str(a.get('id','')).startswith('a-song051-yixin-'))or _phase1_applies(a)
+def family_valid(a,paragraphs,chapters,root):
+ if isinstance(a,dict)and str(a.get('id','')).startswith('a-song051-yixin-'):return _yixin_module().family_valid(a,paragraphs,chapters,root)
+ try:
+  actual=json.loads((Path(root)/CH).read_bytes())
+  if _yixin_module().has_phase(actual)and CID in chapters:paragraphs,chapters=_yixin_module().previous_frames(root,paragraphs,chapters)
+  return _phase1_family_valid(a,paragraphs,chapters,root)
+ except(ValueError,KeyError,TypeError,OSError,StopIteration,AttributeError):return False
+def component_valid(n,ch,root):
+ if not isinstance(n,dict):return False
+ if isinstance(n.get('component_source_binding'),dict)and n['component_source_binding'].get('kind')=='fixed_wyd_song051_yixin_name_component':return _yixin_module().component_valid(n,ch,root)
+ try:
+  if isinstance(ch,dict)and ch.get('id')==CID and _yixin_module().has_phase(json.loads((Path(root)/CH).read_bytes())):ch=_yixin_module().project_previous_phase(root,ch)
+  return _phase1_component_valid(n,ch,root)
+ except(ValueError,KeyError,TypeError,OSError,StopIteration,AttributeError):return False
+def validate_surname(n,all_names,chapters,all_assertions,root):
+ try:
+  actual=json.loads((Path(root)/CH).read_bytes())
+  if _yixin_module().has_phase(actual):
+   projected=_yixin_module().project_previous_phase(root,chapters.get(CID));chapters=copy.copy(chapters);chapters[CID]=projected
+  return _phase1_validate_surname(n,all_names,chapters,all_assertions,root)
+ except(ValueError,KeyError,TypeError,OSError,StopIteration,AttributeError):raise ValueError('宋051氏姓須有晉099逐字全名、041雙父證及本源有限父系路徑，不借ID/母嗣系或省略推定步')
+def guard_bundle(root,person_id,people,records):
+ _phase1_guard_bundle(root,person_id,people,records)
+ _yixin_module().guard_bundle(root,person_id,people,records)

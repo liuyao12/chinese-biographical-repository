@@ -1,0 +1,106 @@
+"""Finite complete Yixin unit; explicit additions project to the unchanged 49-anchor phase."""
+from pathlib import Path
+import json,copy,hashlib
+try:from scripts.validation_context import memoized
+except ImportError:from validation_context import memoized
+CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_yixin_complete_unit_phase2';CONTRACT_SHA='acbc97df469281ff63a2e67486f18447684a878d3b7a6d9db63da6089e07cc81'
+def same(a,b):
+ if type(a)is not type(b):return False
+ if type(a)is dict:return all(type(k)is str for k in a)and all(type(k)is str for k in b)and set(a)==set(b)and all(same(a[k],b[k])for k in a)
+ if type(a)is list:return len(a)==len(b)and all(same(x,y)for x,y in zip(a,b))
+ if a is None or type(a)in(str,int,bool):return a==b
+ if type(a)is float:
+  try:return json.dumps(a,allow_nan=False)==json.dumps(b,allow_nan=False)
+  except ValueError:return False
+ return False
+def need(ok,msg):
+ if not ok:raise ValueError('武英殿宋051義欣完整單元：'+msg)
+def load(root,rel):
+ root=Path(root).resolve();p=(root/rel).resolve();need(p.is_relative_to(root),'檔案越界');return json.loads(p.read_bytes())
+def contract(root):
+ root=Path(root).resolve();p=(root/REF).resolve();need(p.is_relative_to(root/'source-evidence'),'契約路徑');raw=p.read_bytes();need(hashlib.sha256(raw).hexdigest()==CONTRACT_SHA,'契約SHA');return json.loads(raw)
+def materialize(v,roles):
+ if type(v)is dict:
+  if set(v)=={'$role'}:return roles[v['$role']]
+  return{k:materialize(x,roles)for k,x in v.items()}
+ if type(v)is list:return[materialize(x,roles)for x in v]
+ return v
+def has_phase(ch):return type(ch)is dict and type(ch.get('annotation'))is dict and 'additional_annotation_phase'in ch['annotation']
+def phase_chapter(c,roles):
+ ch=materialize(c['base_source_template'],roles);ch['annotation']['additional_annotation_phase']={'kind':PHASE,'contract_path':REF,'coverage':c['coverage'],'human_reviewed':False,'model':None}
+ for row in c['markers']:
+  p=next(p for p in ch['paragraphs']if p['id']==row['paragraph_id']);m=materialize(row['marker'],roles);need(not any(x['id']==m['id']for x in p['mentions']),'新增MID碰撞');p['mentions'].append(m);p['mentions'].sort(key=lambda x:x['start']);p['annotation_status']='in_progress'
+ return ch
+def collect(ch,c):
+ roles={}
+ for row in c['base_role_mentions']+c['markers']:
+  mid=row.get('mention_id')or row['marker']['id'];p=next(p for p in ch['paragraphs']if p['id']==row['paragraph_id']);m,=[m for m in p['mentions']if m['id']==mid];role=row['role_key'];pid=m.get('person_id');need(type(pid)is str and pid,'角色PID');need(role not in roles or roles[role]==pid,'角色跨錨不同號');roles[role]=pid
+ return roles
+def resolve_seeds(root,c):
+ rows=load(root,'registry/persons.json')['persons'];people={p['id']:p for p in rows};need(len(people)==len(rows),'種子registry重複ID');roles={}
+ for s in c['existing_seeds']:
+  ch=load(root,s['path']);need(all(ch.get(k)==s[k]for k in('work_id','book_id','source_id','chapter_id')if k!='chapter_id')and ch['id']==s['chapter_id'],'種子維度');need(hashlib.sha256(json.dumps(ch['source'],ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()==s['source_metadata_sha256'],'種子來源資格')
+  metadata=ch['source'];rp=metadata.get('raw_path')or metadata.get('raw_file');hs=metadata.get('raw_file_sha256')or metadata.get('raw_sha256')
+  if rp is not None or hs is not None:
+   need(type(rp)is str and rp and type(hs)is str and len(hs)==64,'種子raw資格');f=(Path(root)/rp).resolve();need(f.is_relative_to(Path(root).resolve()),'種子raw越界');need(hashlib.sha256(f.read_bytes()).hexdigest()==hs,'種子rawSHA')
+  p=next(p for p in ch['paragraphs']if p['id']==s['paragraph_id']);need(p['text']==s['full_paragraph']['text']and hashlib.sha256(p['text'].encode()).hexdigest()==s['paragraph_text_sha256'],'種子完整段');m,=[m for m in p['mentions']if m['id']==s['mention_id']];need(m['kind']=='person'and m['surface']==s['surface']and p['text'][m['start']:m['end']]==s['surface'],'種子MID原字');pid=m['person_id'];person=people.get(pid);need(person is not None,'種子未登記');need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'種子反向alias');need(any(e['mention_id']==m['id']and e['paragraph_id']==p['id']and e['quote']==m['surface']for e in person['evidence']),'種子反向evidence');roles[s['role_key']]=pid
+ return roles
+@memoized(0)
+def state(root,ch=None):
+ root=Path(root).resolve();actual=load(root,CH);need(ch is None or same(ch,actual),'所給current完整章不符');c=contract(root);roles=collect(actual,c);need(same(actual,phase_chapter(c,roles)),'完整原文/舊新錨/資格/位置或新增metadata差異');seeds=resolve_seeds(root,c);need(all(roles[k]==v for k,v in seeds.items()),'既有人物跨源角色錯接');need(roles['yixin']==roles['old_yixin']and roles['wendi']==roles['old_taizu'],'既有角色被另造');need(len({roles[r]for r in c['new_names']})==len(c['new_names']),'本源不同個體不得同號');need(not({roles[r]for r in c['new_names']}&(set(seeds.values())|{v for k,v in roles.items()if k.startswith('old_')})),'新角色與既有人物錯合')
+ rows=load(root,'registry/persons.json')['persons'];people={p['id']:p for p in rows};need(len(people)==len(rows),'current registry重複ID')
+ for row in c['markers']:
+  p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id']);person=people.get(m['person_id']);need(person is not None,'新增角色未登記');need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'新增alias缺反向');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'新增evidence缺反向')
+ docs={rel:materialize(v,roles)for rel,v in c['expected_documents'].items()}
+ for rel,expected in docs.items():need(same(load(root,rel),expected),'新人物/姓名/親屬sidecar不符：'+rel)
+ family=next(f for f in load(root,'registry/family-assemblies.json')['assemblies']if f['id']=='family-song041-qiao');rows={r['person_id']:r for r in family['members']};need(len(rows)==len(family['members']),'家系重複')
+ for expected in materialize(c['expected_family_members'],roles):need(same(rows.get(expected['person_id']),expected),'新近系明父/推定父行不符')
+ # Names rely on already checked source-based Liu components, not labels or structural IDs.
+ old_names=load(root,'corpus/songshu/051-wyd1739-name-components.json')['records']
+ for role in ['yixin','yizong']:
+  n,=[n for n in old_names if n['id']=='name-song051-phase1-restored-'+role];need(n['person_id']==roles['old_'+role]and n['surname']=='劉'and n['surname_basis']['kind']=='contextual_surname_from_wyd_song051_named_path','劉姓既有源證種子不符')
+ return actual,roles,c,docs
+
+def project_previous_phase(root,ch):
+ need(type(ch)is dict,'投影須提供完整current章，不以None或缺章回填')
+ actual,roles,c,docs=state(root,ch);return materialize(c['base_source_template'],roles)
+def previous_frames(root,paragraphs,chapters):
+ actual,roles,c,docs=state(root);given=chapters.get(CID);need(same(given,actual),'親屬所給完整current章不符');projected=materialize(c['base_source_template'],roles);pp=copy.copy(paragraphs);cc=copy.copy(chapters);cc[CID]=projected
+ for p in actual['paragraphs']:
+  if p['id']in paragraphs:need(type(paragraphs[p['id']])is tuple and len(paragraphs[p['id']])==2 and paragraphs[p['id']][0]==CID and same(paragraphs[p['id']][1],p),'親屬所給current原段不符');pp[p['id']]=(CID,next(x for x in projected['paragraphs']if x['id']==p['id']))
+ return pp,cc
+
+def family_valid(a,paragraphs,chapters,root):
+ try:
+  try:from scripts import fixed_wuyingdian_song051_family_phase as core
+  except ImportError:import fixed_wuyingdian_song051_family_phase as core
+  core.context(root);ch,roles,c,docs=state(root);need(any(same(a,x)for d in docs.values()for x in d.get('assertions',[])),'非本源明親屬');need(same(chapters.get(CID),ch),'親屬章不同')
+  for e in a['evidence']:
+   p=next(p for p in ch['paragraphs']if p['id']==e['paragraph_id']);frame=paragraphs.get(p['id']);need(type(frame)is tuple and len(frame)==2 and frame[0]==CID and same(frame[1],p),'親屬段不同')
+  return True
+ except(ValueError,KeyError,TypeError,OSError,StopIteration,AttributeError):return False
+
+def component_valid(n,ch,root):
+ try:
+  try:from scripts import fixed_wuyingdian_song051_family_phase as core
+  except ImportError:import fixed_wuyingdian_song051_family_phase as core
+  need(type(ch)is dict,'姓名須提供完整current章');core.context(root);actual,roles,c,docs=state(root,ch);return any(same(n,x)for d in docs.values()for x in d.get('records',[]))
+ except(ValueError,KeyError,TypeError,OSError,StopIteration,AttributeError):return False
+
+def validate_surname(n,names,chapters,assertions,root):
+ need(type(chapters)is dict and type(names)is list and type(assertions)is list,'姓名catalog須完整章map及JSON lists')
+ actual,roles,c,docs=state(root);need(component_valid(n,chapters.get(CID),root),'姓名完整源證');expected=next(x for d in docs.values()for x in d.get('records',[])if x['id']==n['id']);need('surname_basis'in expected,'非復原姓氏行');need(sum(same(x,n)for x in names)==1,'姓名catalog缺漏/重複');source=load(root,'corpus/songshu/051-wyd1739-name-components.json')['records'];seed=next(x for x in source if x['id']==n['surname_basis']['source_name_record_id']);need(sum(same(x,seed)for x in names)==1,'缺原劉姓證據');aa=[a for d in docs.values()for a in d.get('assertions',[])]
+ for aid in n['surname_basis']['source_assertion_ids']:
+  a=next(a for a in aa if a['id']==aid);need(sum(same(x,a)for x in assertions)==1,'姓氏路徑親屬catalog不全/重複')
+ return True
+
+def guard_bundle(root,pid,people,records):
+ candidate=people.get(pid)
+ registered=isinstance(candidate,dict)and any(e.get('chapter_id')==CID for e in candidate.get('evidence',[]))
+ source_records=[r for r in records if r.get('record_type')=='marked_chapter'and r.get('id')==CID]
+ source_relevant=any(m.get('person_id')==pid for source in source_records for p in source.get('paragraphs',[])for m in p.get('mentions',[]))
+ if not registered and not source_relevant:return
+ ch=load(root,CH)
+ if not has_phase(ch):return
+ actual,roles,c,docs=state(root);registered={p['id']:p for p in load(root,'registry/persons.json')['persons']};need(same(people.get(pid),registered.get(pid)),'bundle現行人物不符')
+ for rel,expected in docs.items():need(sum(same(r,expected)for r in records)==1,'bundle新完整人物/親屬/名字資料缺漏或重複')

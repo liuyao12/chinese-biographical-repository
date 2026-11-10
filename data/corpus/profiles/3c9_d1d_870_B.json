@@ -2300,6 +2300,53 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song063-wyd-qiu-congdi",
+      "subject_person_id": "3c9_d1d_870_B",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "7r6_k52_qji_ABAAAAE",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "從弟球",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAE",
+          "younger_person_id": "3c9_d1d_870_B",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wyd1739-wangtanshou",
+          "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+          "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+          "quote": "王曇首琅邪臨沂人太保弘少弟也幼有業尚除著作郎不就兄弟分財曇首唯取圖書而已辟琅邪王大司馬屬從府公脩復洛陽園陵與從弟球俱詣高祖時謝",
+          "subject_person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p001:m0056",
+          "object_person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p001:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+            "start": 54,
+            "end": 57,
+            "surface": "從弟球"
+          }
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
@@ -2310,7 +2357,52 @@
     "zfu_yjn_p23": "球"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "n-song063-wyd-qiu-literal",
+      "person_id": "3c9_d1d_870_B",
+      "surname": null,
+      "ming": "球",
+      "additional_names": [],
+      "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+      "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+      "person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p001:m0056",
+      "quote": "王曇首琅邪臨沂人太保弘少弟也幼有業尚除著作郎不就兄弟分財曇首唯取圖書而已辟琅邪王大司馬屬從府公脩復洛陽園陵與從弟球俱詣高祖時謝",
+      "status": "source_attested",
+      "human_reviewed": false,
+      "model": null,
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "source_id": "s-songshu-063-wyd1739-wangtanshou"
+    },
+    {
+      "id": "n-song063-wyd-qiu-contextual",
+      "person_id": "3c9_d1d_870_B",
+      "surname": "王",
+      "ming": "球",
+      "additional_names": [],
+      "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+      "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+      "person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p001:m0056",
+      "quote": "王曇首琅邪臨沂人太保弘少弟也幼有業尚除著作郎不就兄弟分財曇首唯取圖書而已辟琅邪王大司馬屬從府公脩復洛陽園陵與從弟球俱詣高祖時謝",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_wyd063_fixed_near_kin",
+        "source_name_record_id": "n-song063-wyd-tanshou-literal",
+        "relationship_assertion_ids": [
+          "a-song063-wyd-qiu-congdi"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "本傳王曇首明全名及所列明父/少弟/父系從弟的來源語境；原單名literal不改，不用家族ID、編輯父鏈或label補姓。"
+      },
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "source_id": "s-songshu-063-wyd1739-wangtanshou"
+    }
+  ],
   "person_ids": [
     "3c9_d1d_870_B"
   ],
@@ -2389,6 +2481,53 @@
       },
       "interpretation_note": "保存原文明示關係與稱謂；不補未知共同父母、婚配或出生年份。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song063-wyd-qiu-congdi",
+      "subject_person_id": "3c9_d1d_870_B",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "7r6_k52_qji_ABAAAAE",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "從弟球",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAE",
+          "younger_person_id": "3c9_d1d_870_B",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wyd1739-wangtanshou",
+          "chapter_id": "c-songshu-063-wyd1739-wangtanshou",
+          "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+          "quote": "王曇首琅邪臨沂人太保弘少弟也幼有業尚除著作郎不就兄弟分財曇首唯取圖書而已辟琅邪王大司馬屬從府公脩復洛陽園陵與從弟球俱詣高祖時謝",
+          "subject_person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p001:m0056",
+          "object_person_mention_id": "c-songshu-063-wyd1739-wangtanshou:p001:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p001",
+            "start": 54,
+            "end": 57,
+            "surface": "從弟球"
+          }
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }

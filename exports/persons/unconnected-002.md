@@ -578,7 +578,7 @@
 | `ctd_4t7_tmc` | 禹 | [《史記・蘇秦列傳》][138] | [JSON](ctd_4t7_tmc.json) |
 | `ctd_tx6_g8e` | 康〔新唐陳氏序〕 | [《新唐書・宰相世系一下》][237] | [JSON](ctd_tx6_g8e.json) |
 | `cte_yao_v47` | 季心 | [《史記・季布欒布列傳》][169] | [JSON](cte_yao_v47.json) |
-| `cti_o52_4nz` | 宋明帝彧 | [《南齊書・王琨 張岱 褚炫 何戢 王延之 阮韜》][66] | [JSON](cti_o52_4nz.json) |
+| `cti_o52_4nz` | 宋明帝彧 | [《南齊書・王琨 張岱 褚炫 何戢 王延之 阮韜》][66]、[《宋書・宗室》][212] | [JSON](cti_o52_4nz.json) |
 | `cu1_f6r_hy2` | 徐偃 | [《史記・儒林列傳》][190] | [JSON](cu1_f6r_hy2.json) |
 | `cvn_bxy_o4a` | 叔孫俊 | [《北史・燕鳳 許謙 崔宏 張袞 鄧彥海》][1]、[《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](cvn_bxy_o4a.json) |
 | `cvr_exv_dku` | 林〔魏司空，玄伯六世祖〕 | [《北史・燕鳳 許謙 崔宏 張袞 鄧彥海》][1]、[《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](cvr_exv_dku.json) |
@@ -1143,7 +1143,7 @@
 | `fce_b9c_ee7` | 髙讜 | [《魏書・崔浩》][232] | [JSON](fce_b9c_ee7.json) |
 | `fce_j25_q3i` | 龔護 | [《晉書・叛臣一》][59] | [JSON](fce_j25_q3i.json) |
 | `fcn_avk_8w3` | 劉毅〔武帝問孝對答者〕 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](fcn_avk_8w3.json) |
-| `fcu_pw8_tkw` | 蔡興宗 | [《宋書・徐湛之 江湛 王僧綽》][226] | [JSON](fcu_pw8_tkw.json) |
+| `fcu_pw8_tkw` | 蔡興宗 | [《宋書・宗室》][212] | [JSON](fcu_pw8_tkw.json) |
 | `fd5_0ae_506` | 屈丐〔崔浩傳夏主〕 | [《魏書・崔浩》][232] | [JSON](fd5_0ae_506.json) |
 | `fd5_uxa_0c9` | 幽王 | [《史記・周本紀》][91] | [JSON](fd5_uxa_0c9.json) |
 | `fd6_eb0_e04` | 曹偉 | [《三國志・徐胡二王傳》][86] | [JSON](fd6_eb0_e04.json) |

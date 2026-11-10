@@ -30,6 +30,13 @@ def resolve_roles(ch,root,contract=None,return_people=False):
  need(len(out)==len(set(out.values())),'不同來源角色不可無判讀合併');return (out,people)if return_people else out
 
 def source_only_projection(ch,root):
+ if isinstance(ch,dict)and ch.get('id')==CID:
+  declared=isinstance(ch.get('annotation'),dict)and 'fixed_wyd063_basic_facts'in ch['annotation']
+  if not declared and any((Path(root)/('corpus/songshu/063-wyd1739-wangtanshou-'+s+'.json')).is_file()for s in('assertions','name-components','addresses','life-events')):raise ValueError('宋063既存typed cohort不得刪除來源階段綁定')
+  if declared:
+   try:from scripts.wyd_song063_basics import strip_and_validate
+   except ImportError:from wyd_song063_basics import strip_and_validate
+   ch=strip_and_validate(ch,root)
  need(isinstance(ch,dict),'章須物件');c=load_contract(root);need(ch.get('id')==CID,'章ID');a=ch.get('annotation');need(isinstance(a,dict)and isinstance(a.get(KEY),dict)and a.get(KEY)==LAYER and a[KEY].get('human_reviewed')is False,'人物層資格');base=copy.deepcopy(a);base.pop(KEY);expected_annotation={**c['base_annotation'],**c['ner_annotation_overrides']};need(base==expected_annotation,'其他annotation不可漂移');roles,people=resolve_roles(ch,root,c,return_people=True);need(len(ch['paragraphs'])==len(c['paragraphs']),'段數');out=copy.deepcopy(ch)
  for p,s in zip(ch['paragraphs'],c['paragraphs']):
   need(p['id']==s['id']and p.get('annotation_status')=='named_mentions_first_pass','段界或進度');expected=[]

@@ -473,7 +473,7 @@
 
 </details>
 
-<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（19 名）</summary>
+<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（33 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -485,10 +485,24 @@
 | `AAAAA` | 東陽獻公主 | [《宋書・徐湛之 江湛 王僧綽》][226] | [JSON](3qs_nqa_ioa_AAAAA.json) |
 | `AAB` | 道憐 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AAB.json) |
 | `AABA` | 長沙王義欣 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABA.json) |
+| `AABAA` | 劉瑾 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAA.json) |
+| `AABAAA` | 劉粲 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAAA.json) |
+| `AABAAB` | 劉纂 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAAB.json) |
+| `AABAB` | 劉祗 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAB.json) |
+| `AABAC` | 劉楷 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAC.json) |
+| `AABAD` | 劉瞻 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAD.json) |
+| `AABAE` | 劉韞 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAE.json) |
+| `AABAF` | 劉弼 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAF.json) |
+| `AABAG` | 劉鑒 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAG.json) |
+| `AABAH` | 劉勰 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAH.json) |
+| `AABAI` | 劉顥 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAI.json) |
+| `AABAJ` | 劉述 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAJ.json) |
 | `AABB` | 劉義慶 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABB.json) |
 | `AABBA` | 臨川王義慶女（王僧達妻，未名） | [《宋書・王僧達 顏竣》][227] | [JSON](3qs_nqa_ioa_AABBA.json) |
 | `AABC` | 劉義融 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABC.json) |
 | `AABD` | 劉義宗 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABD.json) |
+| `AABDA` | 劉玠 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDA.json) |
+| `AABDB` | 劉秉 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDB.json) |
 | `AABE` | 義賓 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABE.json) |
 | `AABEA` | 劉綜 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEA.json) |
 | `AABEAA` | 劉憲 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEAA.json) |
@@ -1064,7 +1078,7 @@
 | `ABAACAA` | 王嘏 | [《晉書・王導》][40]、[《晉書・叛臣二》][60] | [JSON](7r6_k52_qji_ABAACAA.json) |
 | `ABAACAAA` | 王恢（王嘏子） | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAACAAA.json) |
 | `ABAAD` | 王協 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAD.json) |
-| `ABAAE` | 王邵 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAE.json) |
+| `ABAAE` | 王劭 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAE.json) |
 | `ABAAED` | 王穆（王劭子） | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAED.json) |
 | `ABAAEDA` | 王簡 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAEDA.json) |
 | `ABAAEDB` | 王智 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAEDB.json) |

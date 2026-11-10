@@ -1885,7 +1885,7 @@
 | `8zh_d7n_e93` | 孔子 | [《史記・太史公自序》][199] | [JSON](8zh_d7n_e93.json) |
 | `8zj_5p3_i5y` | 夏桀 | [《史記・孫子吳起列傳》][134] | [JSON](8zj_5p3_i5y.json) |
 | `8zs_p2x_twj` | 臧文仲 | [《史記・仲尼弟子列傳》][136] | [JSON](8zs_p2x_twj.json) |
-| `902_55f_656` | 晉安王子勛 | [《宋書・殷淳 張暢 何偃 江智淵》][218] | [JSON](902_55f_656.json) |
+| `902_55f_656` | 晉安王子勛 | [《宋書・宗室》][212] | [JSON](902_55f_656.json) |
 | `903_3b1_f96` | 桂興 | [《宋書・劉穆之 王弘》][205] | [JSON](903_3b1_f96.json) |
 | `903_9bw_83a` | 少妾（陳哀公勝母） | [《史記・陳杞世家》][105] | [JSON](903_9bw_83a.json) |
 | `905_rao_ff0` | 下瀨將軍 | [《史記・東越列傳》][183] | [JSON](905_rao_ff0.json) |
@@ -1901,7 +1901,7 @@
 | `910_4xt_rwk` | 秦穆公 | [《史記・孔子世家》][116] | [JSON](910_4xt_rwk.json) |
 | `911_z5l_svo` | 郝貴 | [《晉書・桓彝》][44] | [JSON](911_z5l_svo.json) |
 | `91b_436_pst` | 魯女（光母未名） | [《史記・齊太公世家》][101] | [JSON](91b_436_pst.json) |
-| `91d_607_b0a` | 宋後廢帝昱 | [《宋書・王華 王曇首 殷景仁 沈演之》][221]、[《宋書・王僧達 顏竣》][227] | [JSON](91d_607_b0a.json) |
+| `91d_607_b0a` | 宋後廢帝昱 | [《宋書・宗室》][212]、[《宋書・王華 王曇首 殷景仁 沈演之》][221]、[《宋書・王僧達 顏竣》][227] | [JSON](91d_607_b0a.json) |
 | `91n_mvc_uix` | 桀 | [《史記・太史公自序》][199] | [JSON](91n_mvc_uix.json) |
 | `91s_bsz_pe8` | 安期生 | [《史記・孝武本紀》][99] | [JSON](91s_bsz_pe8.json) |
 | `91y_xzj_yro` | 羅猛 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](91y_xzj_yro.json) |
@@ -2292,6 +2292,7 @@
 [209]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt
 [210]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt
 [211]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_047.txt
+[212]: https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763
 [213]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt
 [214]: https://zh.wikisource.org/w/index.php?oldid=1996685
 [215]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt
