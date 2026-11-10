@@ -109,6 +109,82 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji005-angou-xiaowen",
+      "person_ids": [
+        "ao3_0fy_d45_A"
+      ],
+      "canonical_person_id": "ao3_0fy_d45_A",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-005-qin",
+        "c-shiji-085-lubuwei"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-005",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p070",
+          "quote": "四十二年，安國君為太子。",
+          "mention_ids": [
+            "c-shiji-005-qin:m070-0773"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-005",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p072",
+          "quote": "五十六年秋，昭襄王卒，子孝文王立。",
+          "mention_ids": [
+            "c-shiji-005-qin:m072-0059"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-005",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p073",
+          "quote": "孝文王元年，赦罪人，修先王功臣，褒厚親戚，弛苑囿。孝文王除喪，十月己亥即位，三日辛丑卒，子莊襄王立。",
+          "mention_ids": [
+            "c-shiji-005-qin:m073-0000",
+            "c-shiji-005-qin:m073-0025"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-085",
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p006",
+          "quote": "秦昭王五十六年，薨，太子安國君立為王，華陽夫人為王后，子楚為太子。",
+          "mention_ids": [
+            "c-shiji-085-lubuwei:m006-0094"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-085",
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p007",
+          "quote": "秦王立一年，薨，謚為孝文王。太子子楚代立，是為莊襄王。",
+          "mention_ids": [
+            "c-shiji-085-lubuwei:m007-0010"
+          ]
+        }
+      ],
+      "rationale": "《秦本紀》與《呂不韋列傳》均將此人置於昭襄王死後即位、莊襄王繼立之前。《呂不韋列傳》直記太子安國君立為王，並記秦王一年而薨、謚孝文王；《秦本紀》記同一五十六年孝文王立、次年除喪即位後三日卒。兩篇敘事相互對應，暫將「安國君」與「孝文王」合為一人；保留原稱、引文及暫定判斷，不將安國君擴作生前本名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }
