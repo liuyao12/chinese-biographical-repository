@@ -225,7 +225,6 @@
 | `bnu_h9l_z1o` | 太丁（武乙子） | [《史記・殷本紀》][90] | [JSON](bnu_h9l_z1o.json) |
 | `bnv_tw5_0yz` | 公玊帶 | [《史記・孝武本紀》][99] | [JSON](bnv_tw5_0yz.json) |
 | `bo5_otw_yvj` | 宋武公（孔子世家正考父所佐） | [《史記・孔子世家》][116] | [JSON](bo5_otw_yvj.json) |
-| `bof_yfp_ill` | 竫公 | [《史記・秦本紀》][92] | [JSON](bof_yfp_ill.json) |
 | `bop_rln_19h` | 公孫雄 | [《史記・越王勾踐世家》][110] | [JSON](bop_rln_19h.json) |
 | `bpi_u2n_1py` | 女修 | [《史記・秦本紀》][92] | [JSON](bpi_u2n_1py.json) |
 | `bq1_qxf_lzp` | 張騫胡妻（未名） | [《史記・大宛列傳》][192] | [JSON](bq1_qxf_lzp.json) |
@@ -2097,6 +2096,7 @@
 | `mii_pxr_jrl` | 破石 | [《史記・扁鵲倉公列傳》][174] | [JSON](mii_pxr_jrl.json) |
 | `mil_8wg_ohj` | 孔子 | [《史記・貨殖列傳》][198] | [JSON](mil_8wg_ohj.json) |
 | `mio_z5f_ri1` | 楚威王 | [《史記・蘇秦列傳》][138] | [JSON](mio_z5f_ri1.json) |
+| `miw_t0v_k64` | 呂越人 | [《史記・西南夷列傳》][185]、[《史記・司馬相如列傳》][186]、[《史記・大宛列傳》][192] | [JSON](miw_t0v_k64.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

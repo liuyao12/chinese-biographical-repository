@@ -3745,8 +3745,8 @@
 |---|---|---|---|
 | `根` | 秦襄公 | [《史記・秦本紀》][92] | [JSON](y97_huh_vuz.json) |
 | `A` | 秦文公 | [《史記・秦本紀》][92] | [JSON](y97_huh_vuz_A.json) |
-| `AA` | 靜公（卷末世系） | [《史記・秦始皇本紀》][93] | [JSON](y97_huh_vuz_AA.json) |
-| `AAA` | 憲公（卷末世系） | [《史記・秦始皇本紀》][93] | [JSON](y97_huh_vuz_AAA.json) |
+| `AA` | 秦靜公（《秦本紀》作竫公） | [《史記・秦本紀》][92] | [JSON](y97_huh_vuz_AA.json) |
+| `AAA` | 秦憲公（《秦本紀》作寧公） | [《史記・秦本紀》][92] | [JSON](y97_huh_vuz_AAA.json) |
 | `AAAA` | 秦德公 | [《史記・秦本紀》][92] | [JSON](y97_huh_vuz_AAAA.json) |
 | `AAAAA` | 秦穆公 | [《史記・秦本紀》][92] | [JSON](y97_huh_vuz_AAAAA.json) |
 | `AAAAAA` | 秦康公 | [《史記・秦本紀》][92] | [JSON](y97_huh_vuz_AAAAAA.json) |

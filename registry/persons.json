@@ -44598,8 +44598,8 @@
       }
     },
     {
-      "id": "bof_yfp_ill",
-      "label": "竫公",
+      "id": "y97_huh_vuz_AA",
+      "label": "秦靜公（《秦本紀》作竫公）",
       "status": "active",
       "historicity": "historical_tradition",
       "aliases": [
@@ -44609,6 +44609,13 @@
             "c-shiji-005-qin:m010-0182",
             "c-shiji-005-qin:m010-0185",
             "c-shiji-005-qin:m010-0212"
+          ]
+        },
+        {
+          "surface": "靜公",
+          "mention_ids": [
+            "c-shiji-006-shihuang:p066:m0019",
+            "c-shiji-006-shihuang:p067:m0000"
           ]
         }
       ],
@@ -44630,14 +44637,45 @@
           "chapter_id": "c-shiji-005-qin",
           "paragraph_id": "c-shiji-005-qin:p010",
           "quote": "竫公"
+        },
+        {
+          "mention_id": "c-shiji-006-shihuang:p066:m0019",
+          "chapter_id": "c-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p066",
+          "quote": "靜公"
+        },
+        {
+          "mention_id": "c-shiji-006-shihuang:p067:m0000",
+          "chapter_id": "c-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p067",
+          "quote": "靜公"
         }
       ],
-      "identity_note": "依本卷特定時代與敘事暫定身份；稱號同字不跨時代合併，未見本名不補造。",
-      "review": "ai_provisional"
+      "identity_note": "《秦本紀》稱竫公，卷末秦紀稱靜公；依父系世次暫判同一人。",
+      "review": "ai_provisional",
+      "family_path": {
+        "connection": "father",
+        "generation_distance": 1,
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "paragraph_id": "c-shiji-006-shihuang:p066",
+            "quote": "文公立，居西垂宮。五十年死，葬西垂。生靜公。",
+            "chapter_id": "c-shiji-006-shihuang",
+            "source_id": "s-shiji-006-shihuang",
+            "source_term": "生"
+          }
+        ],
+        "source_assertion_id": "a-shiji006-009",
+        "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
+        "reviewer": "Codex（AI 代理）",
+        "parent_person_id": "y97_huh_vuz_A"
+      }
     },
     {
-      "id": "vs8_u6b_f8w",
-      "label": "秦寧公",
+      "id": "y97_huh_vuz_AAA",
+      "label": "秦憲公（《秦本紀》作寧公）",
       "status": "active",
       "historicity": "historical_tradition",
       "aliases": [
@@ -44648,6 +44686,13 @@
             "c-shiji-005-qin:m011-0000",
             "c-shiji-005-qin:m011-0058",
             "c-shiji-005-qin:m011-0104"
+          ]
+        },
+        {
+          "surface": "憲公",
+          "mention_ids": [
+            "c-shiji-006-shihuang:p067:m0009",
+            "c-shiji-006-shihuang:p068:m0000"
           ]
         }
       ],
@@ -44675,10 +44720,41 @@
           "chapter_id": "c-shiji-005-qin",
           "paragraph_id": "c-shiji-005-qin:p011",
           "quote": "寧公"
+        },
+        {
+          "mention_id": "c-shiji-006-shihuang:p067:m0009",
+          "chapter_id": "c-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p067",
+          "quote": "憲公"
+        },
+        {
+          "mention_id": "c-shiji-006-shihuang:p068:m0000",
+          "chapter_id": "c-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p068",
+          "quote": "憲公"
         }
       ],
-      "identity_note": "依本卷特定時代與敘事暫定身份；稱號同字不跨時代合併，未見本名不補造。",
-      "review": "ai_provisional"
+      "identity_note": "《秦本紀》稱寧公，卷末秦紀稱憲公；暫判同一人，葬地記載有異。",
+      "review": "ai_provisional",
+      "family_path": {
+        "connection": "father",
+        "generation_distance": 1,
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "paragraph_id": "c-shiji-006-shihuang:p067",
+            "quote": "靜公不享國而死。生憲公。",
+            "chapter_id": "c-shiji-006-shihuang",
+            "source_id": "s-shiji-006-shihuang",
+            "source_term": "生"
+          }
+        ],
+        "source_assertion_id": "a-shiji006-010",
+        "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
+        "reviewer": "Codex（AI 代理）",
+        "parent_person_id": "y97_huh_vuz_AA"
+      }
     },
     {
       "id": "udd_rob_10e",
@@ -99622,106 +99698,6 @@
       ],
       "identity_note": "依本卷特定語境暫定人物；保留本文字形，不補未見姓名與讀法。",
       "review": "ai_provisional"
-    },
-    {
-      "id": "y97_huh_vuz_AA",
-      "label": "靜公（卷末世系）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "靜公",
-          "mention_ids": [
-            "c-shiji-006-shihuang:p066:m0019",
-            "c-shiji-006-shihuang:p067:m0000"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-006-shihuang:p066:m0019",
-          "chapter_id": "c-shiji-006-shihuang",
-          "paragraph_id": "c-shiji-006-shihuang:p066",
-          "quote": "靜公"
-        },
-        {
-          "mention_id": "c-shiji-006-shihuang:p067:m0000",
-          "chapter_id": "c-shiji-006-shihuang",
-          "paragraph_id": "c-shiji-006-shihuang:p067",
-          "quote": "靜公"
-        }
-      ],
-      "identity_note": "保留本卷具名候選身份；可能與前文或前卷異稱同指，尚待逐項版本及身份證據，不稱確證不同人物。",
-      "review": "ai_provisional",
-      "family_path": {
-        "connection": "father",
-        "generation_distance": 1,
-        "status": "contextual_provisional",
-        "human_reviewed": false,
-        "evidence": [
-          {
-            "paragraph_id": "c-shiji-006-shihuang:p066",
-            "quote": "文公立，居西垂宮。五十年死，葬西垂。生靜公。",
-            "chapter_id": "c-shiji-006-shihuang",
-            "source_id": "s-shiji-006-shihuang",
-            "source_term": "生"
-          }
-        ],
-        "source_assertion_id": "a-shiji006-009",
-        "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
-        "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "y97_huh_vuz_A"
-      }
-    },
-    {
-      "id": "y97_huh_vuz_AAA",
-      "label": "憲公（卷末世系）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "憲公",
-          "mention_ids": [
-            "c-shiji-006-shihuang:p067:m0009",
-            "c-shiji-006-shihuang:p068:m0000"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-006-shihuang:p067:m0009",
-          "chapter_id": "c-shiji-006-shihuang",
-          "paragraph_id": "c-shiji-006-shihuang:p067",
-          "quote": "憲公"
-        },
-        {
-          "mention_id": "c-shiji-006-shihuang:p068:m0000",
-          "chapter_id": "c-shiji-006-shihuang",
-          "paragraph_id": "c-shiji-006-shihuang:p068",
-          "quote": "憲公"
-        }
-      ],
-      "identity_note": "保留本卷具名候選身份；可能與前文或前卷異稱同指，尚待逐項版本及身份證據，不稱確證不同人物。",
-      "review": "ai_provisional",
-      "family_path": {
-        "connection": "father",
-        "generation_distance": 1,
-        "status": "contextual_provisional",
-        "human_reviewed": false,
-        "evidence": [
-          {
-            "paragraph_id": "c-shiji-006-shihuang:p067",
-            "quote": "靜公不享國而死。生憲公。",
-            "chapter_id": "c-shiji-006-shihuang",
-            "source_id": "s-shiji-006-shihuang",
-            "source_term": "生"
-          }
-        ],
-        "source_assertion_id": "a-shiji006-010",
-        "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
-        "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "y97_huh_vuz_AA"
-      }
     },
     {
       "id": "2ne_w1o_8cu",
