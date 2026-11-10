@@ -193,7 +193,9 @@
           "c-songshu-051-wyd1739-zongshi:p028:m0033",
           "c-songshu-051-wyd1739-zongshi:p028:m0075",
           "c-songshu-051-wyd1739-zongshi:p029:m0158",
-          "c-songshu-051-wyd1739-zongshi:p029:m0165"
+          "c-songshu-051-wyd1739-zongshi:p029:m0165",
+          "c-songshu-051-wyd1739-zongshi:p003:m0068",
+          "c-songshu-051-wyd1739-zongshi:p003:m0121"
         ]
       },
       "evidence": [
@@ -836,6 +838,70 @@
         }
       ],
       "rationale": "有限親族段落的具名人物辨識；既有角色由固定外部MID及雙向來源回查，新源局部角色不斷言與全庫已證異人。未明母/婚配/出生年不補。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-song051-phase1-murongchao",
+      "person_id": "d86_d07_abd",
+      "surfaces": [
+        "慕容超"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-songshu-051-wyd1739-zongshi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-051-wyd1739-zongshi:p003:m0080"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p003",
+          "quote": "不復立道憐請據彭城以漸修朔朝議以彭城縣遠使鎮山陽進號征虜將軍督淮北軍郡事北東海太守并州刺史義昌太守如故以破索度真功封新渝縣男食邑五百戶從高祖征廣固常為軍鋒及城陷慕容超將親兵突圍走道憐所部獲之加使持節進號左將軍七年解并州加北徐州刺史移鎮彭城八年高祖伐劉毅徵為都督兗青二州晉陵京口淮南諸軍郡事兗青州刺史持節將軍太守如故還鎮京口九年甲仗五十人入殿以廣固功改封竟陵縣公食邑千戶減先封戶邑之半以賜次子義宗十一年進號中軍將軍加散騎常"
+        }
+      ],
+      "rationale": "原文具名「慕容超」，依本段廣固城陷、突圍事件連結既有人物記錄；此處只作來源局部身份判讀，不由此推出其他人物關係。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-song051-phase1-liuyi",
+      "person_id": "a59_2c3_a2e",
+      "surfaces": [
+        "劉毅"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-songshu-051-wyd1739-zongshi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-051-wyd1739-zongshi:p003:m0124"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p003",
+          "quote": "不復立道憐請據彭城以漸修朔朝議以彭城縣遠使鎮山陽進號征虜將軍督淮北軍郡事北東海太守并州刺史義昌太守如故以破索度真功封新渝縣男食邑五百戶從高祖征廣固常為軍鋒及城陷慕容超將親兵突圍走道憐所部獲之加使持節進號左將軍七年解并州加北徐州刺史移鎮彭城八年高祖伐劉毅徵為都督兗青二州晉陵京口淮南諸軍郡事兗青州刺史持節將軍太守如故還鎮京口九年甲仗五十人入殿以廣固功改封竟陵縣公食邑千戶減先封戶邑之半以賜次子義宗十一年進號中軍將軍加散騎常"
+        }
+      ],
+      "rationale": "原文明載高祖伐劉毅，按本段伐劉毅事件連結既有「劉毅（護軍將軍）」記錄；保留同名需按具體事件區分的限制。",
       "human_reviewed": false,
       "model": null
     }
