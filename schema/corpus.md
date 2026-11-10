@@ -1019,7 +1019,7 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 
 ### 遠祖聲稱之後的兄弟省略主語
 
-`source_clause_binding.kind: reported_ancestor_then_named_siblings` 只處理傳首「某N世孫。兄甲，弟乙、丙」的原式。主體是世孫句內的具名祖先，並非傳首後裔。binding連到同段原生 `ancestor` 斷言、後裔/祖先/兄/兩弟精確人物錨點及兄弟列字位；原ancestor須保source_number、reported_generation_number，generation_distance:null且adopted_for_family_tree:false。不能借此把遠祖採入族譜。
+`傳主後接「某N世孫。兄甲，弟乙、丙」時，兄弟列主語須依持續敘事主體判定，不能只因遠祖緊鄰在前就移繫遠祖。biography_subject_named_siblings 綁傳主、年長兄、各弟的人物錨與句位；相對年序不推絕對排行。上下文推得共享父親須另記為暫定編輯推導，不冒作來源明文。
 
 各 `brother` 陳述保全列原詞，但object只對應一名具名兄或弟；`relative_birth_order`原詞定向，ordinal兩端均null。不補共同父母、祖父或同母。此窄式不放寬其他親屬模型，不把既有祖/曾祖聲稱冒作相鄰父子。
 

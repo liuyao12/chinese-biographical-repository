@@ -3474,7 +3474,7 @@
 
 </details>
 
-<details><summary><code>vpy_180_2oi</code> 昧〔裴松之祖〕（7 名）</summary>
+<details><summary><code>vpy_180_2oi</code> 昧〔裴松之祖〕（10 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -3485,6 +3485,9 @@
 | `AAAA` | 昭明〔裴子野父〕 | [《南史・范泰　荀伯子　徐廣　鄭鮮之　裴松之　何承天》][75] | [JSON](vpy_180_2oi_AAAA.json) |
 | `AAAAA` | 裴子野 | [《南史・范泰　荀伯子　徐廣　鄭鮮之　裴松之　何承天》][75] | [JSON](vpy_180_2oi_AAAAA.json) |
 | `AAAAAA` | 謇〔子野子；南史作騫〕 | [《梁書・裴子野 顧協 徐摛 鮑泉》][64]、[《南史・范泰　荀伯子　徐廣　鄭鮮之　裴松之　何承天》][75] | [JSON](vpy_180_2oi_AAAAAA.json) |
+| `AAAAB` | 裴黎〔裴子野兄〕 | [《梁書・裴子野 顧協 徐摛 鮑泉》][64] | [JSON](vpy_180_2oi_AAAAB.json) |
+| `AAAAC` | 裴楷〔裴子野弟〕 | [《梁書・裴子野 顧協 徐摛 鮑泉》][64] | [JSON](vpy_180_2oi_AAAAC.json) |
+| `AAAAD` | 裴綽〔裴子野弟〕 | [《梁書・裴子野 顧協 徐摛 鮑泉》][64] | [JSON](vpy_180_2oi_AAAAD.json) |
 
 </details>
 

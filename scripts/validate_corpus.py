@@ -1940,13 +1940,13 @@ def _validate_uncached(root=ROOT):
                     except ImportError:
                         from song059_father_brother import explicit_father_elder_brother_valid
                     check(explicit_father_elder_brother_valid(a, paragraphs, d['assertions']), '兄子與明示父名須有完整傳首、三端原詞及父子來源，不得補排行或祖父')
-                if qualifiers.get('source_clause_binding', {}).get('kind') == 'reported_ancestor_then_named_siblings':
+                if qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_subject_named_siblings':
                     try:
-                        from scripts.reported_ancestor_siblings import reported_ancestor_siblings_valid
+                        from scripts.biography_subject_siblings import biography_subject_siblings_valid
                     except ImportError:
-                        from reported_ancestor_siblings import reported_ancestor_siblings_valid
-                    check(reported_ancestor_siblings_valid(a, paragraphs, d['assertions'], source_age_number),
-                          '遠祖世孫後接兄弟列須連到同段祖先原斷言，不得移作傳主兄弟、反轉長幼或補共同父母')
+                        from biography_subject_siblings import biography_subject_siblings_valid
+                    check(biography_subject_siblings_valid(a, paragraphs),
+                          '本傳兄弟列須綁傳主、精確姓名錨與相對年序，不得移繫遠祖或補排行')
                 if qualifiers.get('source_clause_binding', {}).get('kind') == 'named_parent_sending_numbered_son':
                     try:from scripts.fixed_wikisource_units import unit_numbered_son_valid
                     except ImportError:from fixed_wikisource_units import unit_numbered_son_valid
