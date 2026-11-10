@@ -5,6 +5,12 @@ LAYER='epitaph_as_modernly_transcribed'
 
 def errors(chapter,root,works,books):
  source=chapter.get('source',{});w=source.get('transcription_witness')
+ if isinstance(w,dict) and w.get('kind')=='institutional_museum_web_epitaph_transcription':
+  try:
+   from .museum_epitaph_witness import errors as museum_errors
+  except ImportError:
+   from museum_epitaph_witness import errors as museum_errors
+  return museum_errors(chapter,root,works,books)
  if isinstance(w,dict) and w.get('kind')=='institutional_database_epitaph_transcription':
   try:
    from .epitaph_database_witness import errors as database_errors

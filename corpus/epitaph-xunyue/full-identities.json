@@ -1,0 +1,70 @@
+{
+  "format_version": "0.2",
+  "record_type": "identity_decision_set",
+  "chapter_id": "c-epitaph-xunyue-museum-full",
+  "decisions": [
+    {
+      "id": "d-epxun-leping-father",
+      "person_id": "696_456_df6_BA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-epitaph-xunyue-museum-full",
+        "c-sanguozhi-010-xunyu-xunyou-jiaxu"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "surfaces": [
+        "樂平府君",
+        "祈",
+        "伯旗"
+      ],
+      "evidence": [
+        {
+          "work_id": "w-epitaph-xunyue",
+          "book_id": "b-epitaph-xunyue-full",
+          "source_id": "s-epitaph-xunyue-chnmus",
+          "chapter_id": "c-epitaph-xunyue-museum-full",
+          "paragraph_id": "c-epitaph-xunyue-museum-full:p001",
+          "quote": "君樂平府君之第二子",
+          "mention_ids": [
+            "c-epitaph-xunyue-museum-full:p001:m0002"
+          ]
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004",
+          "quote": "衢子祈字伯旗與族父愔俱著名",
+          "mention_ids": [
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0047",
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0049"
+          ]
+        }
+      ],
+      "rationale": "墓誌原稱父為匿名「樂平府君」，不具姓名。余嘉錫《世說新語箋疏》排調篇校疏明言「樂平君之名，以其字伯旗推之，當是旗常之旗。作祈與昕者，皆傳寫之誤。」河南博物院考述亦將墓誌樂平與《荀氏家傳》昕、《三國志》裴注祈相較。依此現代考證，把既有荀祈（伯旗）列為優先父親身份；祈／旗／昕異文及碑文匿名原狀均保留。",
+      "interpretation_note": "身份接合不表示墓誌明刻荀祈姓名；「樂平府君」只作來源稱謂，不作姓名構件。",
+      "references": [
+        {
+          "author": "余嘉錫",
+          "title": "《世說新語箋疏》下冊排調篇箋疏",
+          "url": "https://hugbear.net/hugbear/viewinfobook565.html",
+          "quote": "樂平君之名，以其字伯旗推之，當是旗常之旗。作祈與昕者，皆傳寫之誤。",
+          "accessed_on": "2026-11-02",
+          "human_reviewed": false
+        },
+        {
+          "author": null,
+          "title": "河南博物院〈荀岳墓志〉考述",
+          "url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512158956087444327",
+          "scope": "第36至41行",
+          "accessed_on": "2026-11-02",
+          "human_reviewed": false
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    }
+  ]
+}

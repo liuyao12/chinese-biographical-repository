@@ -14,6 +14,38 @@ def errors(chapters,records):
  return out
 
 def _valid(c,rs,b):
+ if b.get('kind')=='epitaph_source_bound_person_relations':
+  # Museum-hosted multi-facet transcriptions bind each relation to the exact
+  # transcribed paragraph set.  Keep this separate from the one-paragraph
+  # rubbing/PDF grammar below; a web transcription is not image verification.
+  assert set(b)=={'kind','chapter_id','source_id','paragraph_sha256','assertion_ids'}
+  assert b['chapter_id']==c['id'] and b['source_id']==c['source_id']
+  paragraphs={p['id']:p for p in c['paragraphs']}
+  hashes={pid:hashlib.sha256(p['text'].encode()).hexdigest() for pid,p in paragraphs.items()}
+  assert b['paragraph_sha256']==hashes and len(hashes)>=2
+  witness=c['source']['transcription_witness']
+  assert witness['kind']=='institutional_museum_web_epitaph_transcription'
+  assert witness['original_stone_or_rubbing_image_verified'] is False
+  assertions=[a for r in rs if r['record_type']=='person_assertion_set' for a in r['assertions']]
+  ids=[a['id'] for a in assertions]
+  assert len(ids)==len(set(ids)) and b['assertion_ids']==ids
+  for a in assertions:
+   assert a['status']=='source_attested' and a['human_reviewed'] is False
+   q=a['qualifiers'];assert q['source_clause_binding']==b
+   assert isinstance(q.get('source_term'),str) and q['source_term']
+   assert a['predicate'] in {'father','mother','spouse','brother','adoptive_father','adoptive_son'}
+   assert len(a['evidence'])==1
+   e=a['evidence'][0];p=paragraphs[e['paragraph_id']];t=p['text']
+   assert e['quote']==t and q['source_term'] in t
+   assert e['work_id']==c['work_id'] and e['book_id']==c['book_id']
+   assert e['chapter_id']==c['id'] and e['source_id']==c['source_id']
+   assert e['source_id']==b['source_id']
+   mentions={m['id']:m for m in p['mentions']}
+   sm=mentions[e['subject_person_mention_id']];om=mentions[e['object_person_mention_id']]
+   assert sm['person_id']==a['subject_person_id'] and om['person_id']==a['object_person_id']
+   for m in (sm,om):
+    assert m['kind']=='person' and t[m['start']:m['end']]==m['surface']
+  return
  if b.get('kind')=='epitaph_named_head_titled_ancestors':
   try:
    from scripts.epitaph_titled_ancestors import valid

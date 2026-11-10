@@ -137,6 +137,44 @@ def load_assemblies(root, catalog):
                     if connection.get('type') == 'parent_between_consecutive_ancestors':
                         if not consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=root):
                             raise ValueError('連續具名祖先組裝缺少相符世次及同段證據')
+                    elif connection.get('type') == 'shared_father_through_paternal_uncle':
+                        sibling = rows.get(connection.get('sibling_person_id'))
+                        nephew = rows.get(connection.get('nephew_person_id'))
+                        uncle = assertions.get(connection.get('paternal_uncle_assertion_id'))
+                        nephew_father = assertions.get(connection.get('nephew_father_assertion_id'))
+                        ancestor = assertions.get(connection.get('shared_ancestor_assertion_id'))
+                        valid = (connection.get('status') == 'contextual_provisional'
+                                 and bool(connection.get('rationale'))
+                                 and member.get('source_assertion_id') is None
+                                 and member.get('connection') == 'father'
+                                 and bool(sibling) and bool(nephew)
+                                 and sibling.get('parent_person_id') == parent
+                                 and nephew.get('parent_person_id') == sibling['person_id']
+                                 and nephew.get('source_assertion_id') == connection.get('nephew_father_assertion_id')
+                                 and bool(uncle) and uncle.get('predicate') == 'paternal_uncle'
+                                 and uncle.get('subject_person_id') in nephew['source_person_ids']
+                                 and uncle.get('object_person_id') in ids
+                                 and bool(nephew_father) and nephew_father.get('predicate') == 'father'
+                                 and nephew_father.get('subject_person_id') in nephew['source_person_ids']
+                                 and nephew_father.get('object_person_id') in sibling['source_person_ids']
+                                 and bool(ancestor) and ancestor.get('predicate') in ('grandfather', 'ancestor')
+                                 and ancestor.get('subject_person_id') in nephew['source_person_ids']
+                                 and ancestor.get('object_person_id') in rows[parent]['source_person_ids'])
+                        refs = connection.get('references', [])
+                        proof_ids = {connection.get('paternal_uncle_assertion_id'),
+                                     connection.get('nephew_father_assertion_id'),
+                                     connection.get('shared_ancestor_assertion_id')}
+                        valid = (valid and len(proof_ids) == 3 and isinstance(refs, list)
+                                 and {r.get('assertion_id') for r in refs if isinstance(r, dict)} == proof_ids
+                                 and all(isinstance(r, dict) and r.get('scope')
+                                         and r.get('url', '').startswith(('https://', 'http://'))
+                                         and any(r.get('quote') == e.get('quote')
+                                                 and r.get('paragraph_id') == e.get('paragraph_id')
+                                                 and r.get('chapter_id') == e.get('chapter_id')
+                                                 for e in assertions[r['assertion_id']].get('evidence', []))
+                                         for r in refs))
+                        if not valid:
+                            raise ValueError('叔父支系接入共祖須同時有叔姪、姪父與父祖三項證據')
                     elif connection.get('type') == 'parent_between_body_and_attached_note_ancestors':
                         try:
                             from .body_note_ancestry import body_note_ancestor_parent_valid

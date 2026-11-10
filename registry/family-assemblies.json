@@ -8690,39 +8690,6 @@
       ]
     },
     {
-      "id": "family-xunyou11-a1f_f17_ccb",
-      "root_person_id": "a1f_f17_ccb",
-      "label": "荀衢明言近支",
-      "status": "contextual_provisional",
-      "human_reviewed": false,
-      "reviewer": "Codex（AI 代理）",
-      "rationale": "只納直接父子及明言祖孫；未知父親保持缺代。攸父彞/祖曇已有來源陳述，現有攸ID接合另出整體改號提案，本批不擅改。",
-      "members": [
-        {
-          "person_id": "a1f_f17_ccb",
-          "parent_person_id": null,
-          "source_assertion_id": null,
-          "connection": null,
-          "representative_source_person_id": "a1f_f17_ccb",
-          "source_person_ids": [
-            "a1f_f17_ccb"
-          ],
-          "identity_equivalence_decision_ids": []
-        },
-        {
-          "person_id": "a1f_f17_ccb_A",
-          "parent_person_id": "a1f_f17_ccb",
-          "source_assertion_id": "a-xunyou11-006",
-          "connection": "father",
-          "representative_source_person_id": "a1f_f17_ccb_A",
-          "source_person_ids": [
-            "a1f_f17_ccb_A"
-          ],
-          "identity_equivalence_decision_ids": []
-        }
-      ]
-    },
-    {
       "id": "family-song071-xu_daughter",
       "root_person_id": "spx_gk1_rrr",
       "label": "宋071明言父女：徐湛之",
@@ -13056,11 +13023,11 @@
     {
       "id": "family-xunyou-tan-yi",
       "root_person_id": "696_456_df6",
-      "label": "荀曇—彞—攸有據近支",
+      "label": "荀曇—彞—攸與衢、祈、岳有據近支",
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI代理）",
-      "rationale": "正文攸祖父曇與直接裴注明父彞，父之父僅編輯接合；緝適明子、彪明孫保闕代。叔衢、祈與荀淑未名共祖不納，不補同母或排行。",
+      "rationale": "正文攸祖父曇與直接裴注明父彞，父之父僅編輯接合；緝適明子、彪明孫保闕代。叔衢、祈與荀淑未名共祖不納，不補同母或排行。 荀攸稱荀衢為叔父，且裴注明記衢子祈；按叔父為父之弟的親屬稱謂，將衢接於攸父彞同列、共承荀曇祖系。此為具名關係所支持的編輯接合，非墓誌明言衢為荀岳之父。墓誌僅稱荀岳父為「樂平府君」，其與荀祈之同指另列 contextual_provisional。",
       "members": [
         {
           "person_id": "696_456_df6",
@@ -13187,6 +13154,139 @@
             null
           ],
           "interpretation_note": "只記攸孫彪，缺名父親不補。"
+        },
+        {
+          "person_id": "696_456_df6_B",
+          "parent_person_id": "696_456_df6",
+          "source_assertion_id": null,
+          "connection": "father",
+          "representative_source_person_id": "696_456_df6_B",
+          "source_person_ids": [
+            "696_456_df6_B"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_connection": {
+            "type": "shared_father_through_paternal_uncle",
+            "sibling_person_id": "696_456_df6_A",
+            "nephew_person_id": "696_456_df6_AA",
+            "paternal_uncle_assertion_id": "a-xunyou11-005",
+            "nephew_father_assertion_id": "a-xunyou11-002",
+            "shared_ancestor_assertion_id": "a-xunyou11-001",
+            "status": "contextual_provisional",
+            "rationale": "攸以「叔父」稱衢，正文及裴注明攸父彞、祖曇；按親屬詞義推衢與彞為同父兄弟，接衢於曇之子列。此連接是編輯推定，不另造衢父的直接原文陳述。",
+            "references": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-010",
+                "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+                "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+                "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u003",
+                "quote": "攸少孤及曇卒故吏張權求守曇墓攸年十三疑之謂叔父衢曰此吏有非常之色殆将有姦衢寤乃推問果殺人亡命由是異之",
+                "assertion_id": "a-xunyou11-005",
+                "scope": "以叔父稱衢，辨其為攸父之弟",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_010.txt"
+              },
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-010",
+                "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+                "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+                "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002",
+                "quote": "荀氏家傳曰曇字元智兄昱字伯修張璠漢紀稱昱曇並傑俊有殊才昱與李膺王暢杜宻等號為八俊位至沛相攸父彞州從事彛于彧為從祖兄弟",
+                "assertion_id": "a-xunyou11-002",
+                "scope": "正文及裴注明言攸父彞",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_010.txt"
+              },
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-010",
+                "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+                "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+                "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u001",
+                "quote": "荀攸字公達彧從子也祖父曇廣陵太守",
+                "assertion_id": "a-xunyou11-001",
+                "scope": "正文明言攸祖曇，提供同根父祖錨點",
+                "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_010.txt"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "696_456_df6_BA",
+          "parent_person_id": "696_456_df6_B",
+          "source_assertion_id": "a-xunyou11-006",
+          "connection": "father",
+          "representative_source_person_id": "696_456_df6_BA",
+          "source_person_ids": [
+            "696_456_df6_BA"
+          ],
+          "identity_equivalence_decision_ids": []
+        },
+        {
+          "person_id": "696_456_df6_BAA",
+          "parent_person_id": "696_456_df6_BA",
+          "source_assertion_id": "a-epxun-family-001",
+          "connection": "father",
+          "representative_source_person_id": "696_456_df6_BAA",
+          "source_person_ids": [
+            "696_456_df6_BAA"
+          ],
+          "identity_equivalence_decision_ids": []
+        },
+        {
+          "person_id": "696_456_df6_BAAA",
+          "parent_person_id": "696_456_df6_BAA",
+          "source_assertion_id": "a-epxun-family-002",
+          "connection": "father",
+          "representative_source_person_id": "696_456_df6_BAAA",
+          "source_person_ids": [
+            "696_456_df6_BAAA"
+          ],
+          "identity_equivalence_decision_ids": []
+        },
+        {
+          "person_id": "696_456_df6_BAAB",
+          "parent_person_id": "696_456_df6_BAA",
+          "source_assertion_id": "a-epxun-family-003",
+          "connection": "father",
+          "representative_source_person_id": "696_456_df6_BAAB",
+          "source_person_ids": [
+            "696_456_df6_BAAB"
+          ],
+          "identity_equivalence_decision_ids": []
+        },
+        {
+          "person_id": "696_456_df6_BAAC",
+          "parent_person_id": "696_456_df6_BAA",
+          "source_assertion_id": "a-epxun-family-004",
+          "connection": "father",
+          "representative_source_person_id": "696_456_df6_BAAC",
+          "source_person_ids": [
+            "696_456_df6_BAAC"
+          ],
+          "identity_equivalence_decision_ids": []
+        },
+        {
+          "person_id": "696_456_df6_BAAD",
+          "parent_person_id": "696_456_df6_BAA",
+          "source_assertion_id": "a-epxun-family-005",
+          "connection": "father",
+          "representative_source_person_id": "696_456_df6_BAAD",
+          "source_person_ids": [
+            "696_456_df6_BAAD"
+          ],
+          "identity_equivalence_decision_ids": []
+        },
+        {
+          "person_id": "696_456_df6_BAABA",
+          "parent_person_id": "696_456_df6_BAAB",
+          "source_assertion_id": "a-epxun-family-006",
+          "connection": "father",
+          "representative_source_person_id": "696_456_df6_BAABA",
+          "source_person_ids": [
+            "696_456_df6_BAABA"
+          ],
+          "identity_equivalence_decision_ids": []
         }
       ]
     },

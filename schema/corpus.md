@@ -122,6 +122,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `attestations.usage` 區分一般敘事、追稱暫解與死後用稱。赤泉侯在卷七第41段先被用稱，第42段才敘封楊喜；保存兩處，授予起點證據仍是後段，不能因文中先出現而前移。魯公葬禮用稱不等於補造追贈事件或以死日截斷持有。韓王成被廢為侯有王號終止及侯號起點的兩筆來源事件，日期仍未定。
 
+同一稱號有異文式省稱時，`attestation.source_title_variant` 可用 `kind: corroborated_source_abbreviation` 指向另一篇、同一人物與同一完整稱號的 holding attestation。被指向記錄須有逐字來源錨點，且用稱表面與完整稱號相同。此連結保留各來源原稱；須標 `status: editorial_provisional`、`human_reviewed: false` 並說明依據，不據此補任期或授任日期。
+
 官職可另記 `jurisdictions`，以 `source_name` 列出同一原文用稱所屬的歷史地名；`place_id` 與 `modern_identification` 保持 null。卷一百〇九「隴西、北地、鴈門、代郡、雲中太守」保存共享用稱「太守」及五個原地名，並非五次可排序的任官，也不推定連續任期。每個地名須見於該筆來源引句。
 
 卷七55項只是可追溯試點，尚未覆蓋全部官稱、日期換算、兼任／檢校／追贈及跨來源衝突。這個格式未冒充既有 `data/name-history.json` 的完整替代，也未接入線上讀者介面。驗證器檢查引用、字元位置、端點及日期表述，不能替代制度史與史料判讀。
@@ -1091,6 +1093,8 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `work_type: single_epitaph` 是古代一方誌文，不是刊登其錄文的現代文章。單一 `book` 僅為 `editorial_single_text_container`，`number` 和 `original_volume_number` 均為 null；不能稱原卷一。初版以一個明示編輯段落收全文，`epitaph_as_modernly_transcribed` 保原文及PDF CMap相容碼位對照、所選古文區全部非空白字的span錨點、出版者頁鏈與固定PDF SHA256。PDF與圖片仍不入庫。
 
 `modern_printed_epitaph_transcription` 的 `revision_id` 為 null，不冒網站或Git修訂；現代校錄署名與所稱原拓來源各自明列。`transcription_page_visually_checked` 不等於原石/原拓 `image_verified`，後兩者仍為false。文章點校、註號、近人推算與系譜圖不混成古代誌文。此核驗證明保存的轉錄與span記錄一致，不宣稱機器已從外部PDF重新校字或親見原拓。原拓尚未取得時，不以數位轉錄資格建立確定親屬或日期。
+
+`institutional_museum_web_epitaph_transcription` 記錄博物館館藏頁所刊單方墓誌數位釋文。頁面四面文字依館方次序分段保存；繁簡轉換與版面標記清理須明記，編輯段不冒稱原石行界。`transcription_page_visually_checked`、`original_stone_or_rubbing_image_verified`、`underlying_rubbing_personally_accessed` 均為 false，除非分別完成相應核讀。博物館圖片只存外部連結，不複製圖片；古代銘文、館方釋文見證與現代考述／圖片權利分層記錄。
 
 ## 單方墓誌具名近親與年月日
 

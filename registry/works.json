@@ -19223,6 +19223,28 @@
           "chapter_ids": []
         }
       ]
+    },
+    {
+      "id": "w-epitaph-xunyue",
+      "title": "荀岳墓誌",
+      "author": null,
+      "work_type": "single_epitaph",
+      "status": "in_progress",
+      "expected_books": 1,
+      "numbering_note": "原物為一方四面墓誌，book僅編輯全文容器，不冒作古代卷一。",
+      "books": [
+        {
+          "id": "b-epitaph-xunyue-full",
+          "work_id": "w-epitaph-xunyue",
+          "number": null,
+          "title": "全文（編輯容器）",
+          "unit_kind": "editorial_single_text_container",
+          "original_volume_number": null,
+          "chapter_ids": [
+            "c-epitaph-xunyue-museum-full"
+          ]
+        }
+      ]
     }
   ],
   "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"
