@@ -349,6 +349,64 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji063-han-an",
+      "person_ids": [
+        "c0i_eah_y59_AA"
+      ],
+      "canonical_person_id": "c0i_eah_y59_AA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-045-han",
+        "c-shiji-063-laohan"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p033",
+          "quote": "三十四年，桓惠王卒，子王安立。",
+          "mention_ids": [
+            "c-shiji-045-han:m033-0011"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p034",
+          "quote": "王安五年，秦攻韓，韓急，使韓非使秦，秦留非，因殺之。",
+          "mention_ids": [
+            "c-shiji-045-han:m034-0000",
+            "c-shiji-045-han:m034-0013"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-063-laohan",
+          "source_id": "s-shiji-063-laohan",
+          "paragraph_id": "c-shiji-063-laohan:p013",
+          "quote": "非見韓之削弱，數以書諫韓王，韓王不能用。",
+          "mention_ids": [
+            "c-shiji-063-laohan:m013-0011",
+            "c-shiji-063-laohan:m013-0014"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-063-laohan",
+          "source_id": "s-shiji-063-laohan",
+          "paragraph_id": "c-shiji-063-laohan:p024",
+          "quote": "秦因急攻韓。韓王始不用非，及急，乃遣非使秦。",
+          "mention_ids": [
+            "c-shiji-063-laohan:m024-0066"
+          ]
+        }
+      ],
+      "rationale": "卷四十五先明言韓桓惠王卒、子王安立，隨即記王安五年秦攻韓、韓非使秦、秦留非而殺之；卷六十三記秦急攻韓後，韓王遣非使秦，與同一外交事件相合，故將三處「韓王」所指連至既有韓王安。只判讀人物指涉，不調和各篇紀年差異，也不以同一事件證明所有細節皆為獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }
