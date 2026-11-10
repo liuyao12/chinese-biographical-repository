@@ -403,6 +403,45 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji065-chu-suwang",
+      "person_ids": [
+        "pjg_qbb_v5f",
+        "q60_34y_1zh_AAAA"
+      ],
+      "canonical_person_id": "q60_34y_1zh_AAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-065-sun",
+        "c-shiji-040-chu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p013",
+          "quote": "楚悼王素聞起賢，至則相楚。明法審令，捐不急之官，廢公族疏遠者，以撫養戰鬬之士。要在彊兵，破馳說之言從橫者。於是南平百越；北并陳蔡，卻三晉；西伐秦。諸侯患楚之彊。故楚之貴戚盡欲害吳起。及悼王死，宗室大臣作亂而攻吳起，吳起走之王尸而伏之。擊起之徒因射刺吳起，并中悼王。悼王既葬，太子立，乃使令尹盡誅射吳起而并中王尸者。坐射起而夷宗死者七十餘家。",
+          "mention_ids": [
+            "c-shiji-065-sun:m013-0137"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p060",
+          "quote": "悼王二年，三晉來伐楚，至乘丘而還。四年，楚伐周。鄭殺子陽。九年，伐韓，取負黍。十一年，三晉伐楚，敗我大梁、楡關。楚厚賂秦，與之平。二十一年，悼王卒，子肅王臧立。",
+          "mention_ids": [
+            "c-shiji-040-chu:m060-0075"
+          ]
+        }
+      ],
+      "rationale": "《孫子吳起列傳》敘楚悼王死、既葬而「太子立」；《楚世家》同一楚王統序明載「二十一年，悼王卒，子肅王臧立」，且後文連續記肅王在位。故本篇此「太子」暫接既有人物肅王臧。兩篇同屬《史記》，此為篇際指涉判讀，不作兩份獨立史實見證；合併人物 ID 前仍須全庫反向引用更新與檢查。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": false
     }
   ]
 }
