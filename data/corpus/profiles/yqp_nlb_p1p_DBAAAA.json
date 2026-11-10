@@ -69,14 +69,17 @@
         "end": {
           "status": "source_event",
           "event_type": "death",
-          "date_expression": "地節元年（西元前69年）",
+          "date_expression": "地節元年",
           "evidence": [
             {
               "external_source_id": "s-ctext-hanshu-008-xuandi",
               "url": "https://ctext.org/wiki.pl?chapter=409008&if=gb",
-              "quote": "地節元年……冬十一月，楚王延壽謀反，自殺。"
+              "quote": "冬十一月，楚王延壽謀反，自殺。",
+              "date_expression_quote": "地節元年"
             }
-          ]
+          ],
+          "western_year_label": "西元前69年",
+          "western_year_value": -68
         }
       },
       "reported_duration": {
@@ -216,7 +219,8 @@
       "title": "漢書／卷008〈宣帝紀第八〉",
       "provider": "中國哲學書電子化計劃",
       "url": "https://ctext.org/wiki.pl?chapter=409008&if=gb",
-      "quote": "地節元年……冬十一月，楚王延壽謀反，自殺。"
+      "quote": "冬十一月，楚王延壽謀反，自殺。",
+      "date_expression_quote": "地節元年"
     }
   ],
   "assembled_identity": {
@@ -248,17 +252,20 @@
       "person_id": "yqp_nlb_p1p_DBAAAA",
       "event_type": "death",
       "status": "source_attested",
-      "date_expression": "地節元年（西元前69年）",
+      "date_expression": "地節元年",
       "source_term": "楚王延壽謀反，自殺",
       "evidence": [
         {
           "external_source_id": "s-ctext-hanshu-008-xuandi",
           "url": "https://ctext.org/wiki.pl?chapter=409008&if=gb",
-          "quote": "地節元年……冬十一月，楚王延壽謀反，自殺。"
+          "quote": "冬十一月，楚王延壽謀反，自殺。",
+          "date_expression_quote": "地節元年"
         }
       ],
       "reviewer": "AI 代理",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "western_year_label": "西元前69年",
+      "western_year_value": -68
     }
   ],
   "life_event_date_decisions": [],
