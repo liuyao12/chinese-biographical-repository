@@ -379,7 +379,6 @@
 | `1uz_uup_f9o` | 原憲 | [《史記・游俠列傳》][193] | [JSON](1uz_uup_f9o.json) |
 | `1vh_24w_d7w` | 鞠武 | [《史記・刺客列傳》][155] | [JSON](1vh_24w_d7w.json) |
 | `1vr_rmi_ay7` | 蓋餘 | [《史記・刺客列傳》][155] | [JSON](1vr_rmi_ay7.json) |
-| `1wa_qpl_7iq` | 安國君 | [《史記・秦本紀》][92] | [JSON](1wa_qpl_7iq.json) |
 | `1we_pv4_t17` | 朱澹之 | [《宋書・謝晦》][205] | [JSON](1we_pv4_t17.json) |
 | `1wp_coh_osw` | 去疾（晉頃公） | [《史記・晉世家》][108] | [JSON](1wp_coh_osw.json) |
 | `1wq_ksz_p4p` | 莊襄王 | [《史記・陳涉世家》][117] | [JSON](1wq_ksz_p4p.json) |

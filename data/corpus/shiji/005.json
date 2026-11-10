@@ -103,19 +103,6 @@
     ],
     "unresolved_identity_cases": [
       {
-        "id": "u-shiji005-angou-xiaowen",
-        "candidate_person_ids": [
-          "1wa_qpl_7iq",
-          "ao3_0fy_d45_A"
-        ],
-        "paragraph_ids": [
-          "c-shiji-005-qin:p070",
-          "c-shiji-005-qin:p072"
-        ],
-        "status": "unresolved",
-        "note": "可能是即位前後稱號，待核身份與版本；兩個候選ID不是確證兩人。"
-      },
-      {
         "id": "u-shiji005-yangu-chuli",
         "candidate_person_ids": [
           "m6b_39t_lpp",
@@ -140,6 +127,22 @@
         ],
         "status": "unresolved",
         "note": "所屬國與事件不同；可能涉及文字或身份問題，待核，不直接認定同人或異人。"
+      }
+    ],
+    "resolved_identity_cases": [
+      {
+        "id": "u-shiji005-angou-xiaowen",
+        "paragraph_ids": [
+          "c-shiji-005-qin:p070",
+          "c-shiji-005-qin:p072",
+          "c-shiji-005-qin:p073"
+        ],
+        "status": "contextual_provisional",
+        "note": "原疑問為安國君與孝文王是否只是即位前後稱號；依《史記》跨篇紀年與繼位敘事暫判同指，仍屬 AI 暫定。",
+        "person_id": "ao3_0fy_d45_A",
+        "identity_equivalence_decision_ids": [
+          "eq-shiji005-angou-xiaowen"
+        ]
       }
     ]
   },
@@ -1716,7 +1719,7 @@
           "end": 184,
           "surface": "竫公",
           "kind": "person",
-          "person_id": "bof_yfp_ill",
+          "person_id": "y97_huh_vuz_AA",
           "status": "contextual_provisional"
         },
         {
@@ -1725,7 +1728,7 @@
           "end": 187,
           "surface": "竫公",
           "kind": "person",
-          "person_id": "bof_yfp_ill",
+          "person_id": "y97_huh_vuz_AA",
           "status": "contextual_provisional"
         },
         {
@@ -1752,7 +1755,7 @@
           "end": 214,
           "surface": "竫公",
           "kind": "person",
-          "person_id": "bof_yfp_ill",
+          "person_id": "y97_huh_vuz_AA",
           "status": "contextual_provisional"
         },
         {
@@ -1761,7 +1764,7 @@
           "end": 221,
           "surface": "寧公",
           "kind": "person",
-          "person_id": "vs8_u6b_f8w",
+          "person_id": "y97_huh_vuz_AAA",
           "status": "contextual_provisional"
         }
       ]
@@ -1777,7 +1780,7 @@
           "end": 2,
           "surface": "寧公",
           "kind": "person",
-          "person_id": "vs8_u6b_f8w",
+          "person_id": "y97_huh_vuz_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -1813,7 +1816,7 @@
           "end": 60,
           "surface": "寧公",
           "kind": "person",
-          "person_id": "vs8_u6b_f8w",
+          "person_id": "y97_huh_vuz_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -1877,7 +1880,7 @@
           "end": 106,
           "surface": "寧公",
           "kind": "person",
-          "person_id": "vs8_u6b_f8w",
+          "person_id": "y97_huh_vuz_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -8734,7 +8737,7 @@
           "end": 776,
           "surface": "安國君",
           "kind": "person",
-          "person_id": "1wa_qpl_7iq",
+          "person_id": "ao3_0fy_d45_A",
           "status": "contextual_provisional"
         },
         {

@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `miw_t0v_k64` | 呂越人 | [《史記・西南夷列傳》][185]、[《史記・司馬相如列傳》][186]、[《史記・大宛列傳》][192] | [JSON](miw_t0v_k64.json) |
 | `mj1_mir_ncl` | 昌（成弟） | [《史記・扁鵲倉公列傳》][174] | [JSON](mj1_mir_ncl.json) |
 | `mj4_uma_km7` | 陳皇后 | [《史記・外戚世家》][118] | [JSON](mj4_uma_km7.json) |
 | `mj8_5ic_4kk` | 殷道鸞 | [《宋書・謝晦》][205] | [JSON](mj8_5ic_4kk.json) |
@@ -1470,7 +1469,6 @@
 | `vrt_xfl_ivt` | 苟平 | [《南齊書・王秀之 王慈 蔡約 陸慧曉 顧憲之 蕭惠基》][70] | [JSON](vrt_xfl_ivt.json) |
 | `vs4_jiv_8ps` | 勸周勃歸相印者 | [《史記・絳侯周勃世家》][126] | [JSON](vs4_jiv_8ps.json) |
 | `vs5_lya_vft` | 市被（燕將軍） | [《史記・燕召公世家》][103] | [JSON](vs5_lya_vft.json) |
-| `vs8_u6b_f8w` | 秦寧公 | [《史記・秦本紀》][92] | [JSON](vs8_u6b_f8w.json) |
 | `vsk_gs2_qzw` | 虞舜 | [《史記・商君列傳》][137] | [JSON](vsk_gs2_qzw.json) |
 | `vsm_g44_lxu` | 張儀 | [《史記・滑稽列傳》][195] | [JSON](vsm_g44_lxu.json) |
 | `vt0_ktk_oat` | 宋景公 | [《史記・鄭世家》][111] | [JSON](vt0_ktk_oat.json) |
@@ -2250,7 +2248,6 @@
 [182]: https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632
 [183]: https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633
 [184]: https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220
-[185]: https://zh.wikisource.org/w/index.php?title=史記/卷116&oldid=7903636
 [186]: https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549
 [187]: https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122
 [188]: https://zh.wikisource.org/w/index.php?title=史記/卷119&oldid=7904123
