@@ -122,6 +122,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `attestations.usage` 區分一般敘事、追稱暫解與死後用稱。赤泉侯在卷七第41段先被用稱，第42段才敘封楊喜；保存兩處，授予起點證據仍是後段，不能因文中先出現而前移。魯公葬禮用稱不等於補造追贈事件或以死日截斷持有。韓王成被廢為侯有王號終止及侯號起點的兩筆來源事件，日期仍未定。
 
+同一稱號有異文式省稱時，`attestation.source_title_variant` 可用 `kind: corroborated_source_abbreviation` 指向另一篇、同一人物與同一完整稱號的 holding attestation。被指向記錄須有逐字來源錨點，且用稱表面與完整稱號相同。此連結保留各來源原稱；須標 `status: editorial_provisional`、`human_reviewed: false` 並說明依據，不據此補任期或授任日期。
+
 官職可另記 `jurisdictions`，以 `source_name` 列出同一原文用稱所屬的歷史地名；`place_id` 與 `modern_identification` 保持 null。卷一百〇九「隴西、北地、鴈門、代郡、雲中太守」保存共享用稱「太守」及五個原地名，並非五次可排序的任官，也不推定連續任期。每個地名須見於該筆來源引句。
 
 卷七55項只是可追溯試點，尚未覆蓋全部官稱、日期換算、兼任／檢校／追贈及跨來源衝突。這個格式未冒充既有 `data/name-history.json` 的完整替代，也未接入線上讀者介面。驗證器檢查引用、字元位置、端點及日期表述，不能替代制度史與史料判讀。

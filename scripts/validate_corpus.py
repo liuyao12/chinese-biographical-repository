@@ -1511,7 +1511,31 @@ def _validate_uncached(root=ROOT):
                             except ImportError:
                                 from received_career_roles import holding_valid as career_holding_valid
                             shared_suffix_valid = career_holding_valid(h, chapters[d['chapter_id']],root)
-                    check((a['surface']==h['title'] or shared_suffix_valid) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
+                    source_variant_valid = False
+                    variant = a.get('source_title_variant')
+                    if isinstance(variant, dict):
+                        corroborating_h = next((other for other in title_records.values()
+                                                if other.get('id') != h.get('id')
+                                                and any(x.get('id') == variant.get('corroborating_attestation_id')
+                                                        for x in other.get('attestations', []))), None)
+                        corroborating = next((x for x in corroborating_h.get('attestations', [])
+                                              if x.get('id') == variant.get('corroborating_attestation_id')), None) if corroborating_h else None
+                        corroborating_mention = mentions.get(corroborating.get('person_mention_id')) if corroborating else None
+                        source_variant_valid = (
+                            set(variant) == {'kind', 'corroborating_attestation_id', 'status', 'rationale', 'human_reviewed'}
+                            and variant.get('kind') == 'corroborated_source_abbreviation'
+                            and variant.get('status') == 'editorial_provisional'
+                            and variant.get('human_reviewed') is False
+                            and bool(variant.get('rationale'))
+                            and corroborating is not None
+                            and corroborating_h.get('person_id') == h.get('person_id')
+                            and corroborating_h.get('title') == h.get('title')
+                            and corroborating.get('surface') == h['title']
+                            and corroborating.get('usage') in ('narrative','retrospective','posthumous_usage')
+                            and corroborating_mention is not None
+                            and corroborating_mention[2].get('person_id') == h['person_id']
+                            and corroborating.get('id') != a.get('id'))
+                    check((a['surface']==h['title'] or shared_suffix_valid or source_variant_valid) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
                     if hit:
                         check(isinstance(a['start'],int) and isinstance(a['end'],int) and 0<=a['start']<a['end']<=len(hit[1]['text']) and hit[1]['text'][a['start']:a['end']]==a['surface'],'稱號用稱字元位置不符')
                         enclosed=False
