@@ -29,7 +29,12 @@ def father_bound(a,chapters):
    and s['end']<=o['start']and not any(v in t[s['end']:o['start']]for v in('非','未','不','或云','曰','「','」')))
  except(KeyError,TypeError,ValueError,StopIteration):return False
 
-def namespace_members(assembly,people,assertions,chapters):
+def namespace_members(assembly,people,assertions,chapters,root=None):
+ # explicit-received-brothers-namespace-dispatch
+ if isinstance(assembly,dict)and isinstance(assembly.get('collateral_root_group'),dict)and assembly['collateral_root_group'].get('type')=='explicit_received_brothers_parent_unidentified':
+  try:from .explicit_brothers_namespace import members as explicit_members
+  except ImportError:from explicit_brothers_namespace import members as explicit_members
+  return explicit_members(assembly,people,assertions,chapters,root)
  """Raise on any unaudited multi-root shortcut; return ordinary assembled rows."""
  ns=assembly.get('namespace_id');g=assembly.get('collateral_root_group',{})
  if set(assembly)!={'id','schema_mode','namespace_id','root_person_id','entry_person_id','status','human_reviewed','collateral_root_group','members'}:raise ValueError('Unknown namespace assembly fields')
@@ -87,6 +92,8 @@ def namespace_index_root(family,members):
   if len(entries)!=1:raise ValueError('Conflicting namespace entries')
   entry=next(iter(entries));row=next((r for r in members if r['person_id']==entry),None)
   if row is None:raise ValueError('Namespace real entry absent')
+  group=matches[0]['assembled_identity'].get('collateral_root_group',{})
+  if group.get('type')=='explicit_received_brothers_parent_unidentified':return dict(row,label=row['label']+'等弟兄（原文明記；父未名）')
   return dict(row,label=row['label']+'等兩支（共同父未名；編輯接合）')
  return next(r for r in members if r['person_id']==family)
 

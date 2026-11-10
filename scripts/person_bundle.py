@@ -295,14 +295,22 @@ def load_catalog(root=ROOT):
     if name_path.exists():
         records.append({'record_type': 'person_name_component_set',
                         'records': json.loads(name_path.read_text())['records']})
-    return people, records
+    try:from scripts.profile_title_preferences import PreferenceCatalog
+    except ImportError:from profile_title_preferences import PreferenceCatalog
+    return people, PreferenceCatalog(records,people,root)
 
 
 def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     people, records = catalog if catalog is not None else load_catalog(root)
+    try:from .fixed_wuyingdian_song051_family_phase import guard_bundle as guard_song051_bundle
+    except ImportError:from fixed_wuyingdian_song051_family_phase import guard_bundle as guard_song051_bundle
+    guard_song051_bundle(root,person_id,people,records)
+    try:from scripts.profile_title_preferences import choice as profile_title_choice
+    except ImportError:from profile_title_preferences import choice as profile_title_choice
     requested_id = person_id
     aliases = {alias: pid for pid, person in people.items() for alias in person.get('id_aliases', [])}
     person_id = aliases.get(person_id, person_id)
+    default_profile_title = profile_title_choice(records,people,person_id,root)
     if person_id not in people:
         raise ValueError('未知人物 ID：' + person_id)
     equivalences = [d for r in records if r.get('record_type') == 'person_equivalence_set' for d in r['decisions']]
@@ -349,7 +357,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             titles.extend(t for t in record['holdings'] if t['person_id'] in ids)
         elif kind == 'person_name_component_set':
             name_components.extend(n for n in record['records'] if n['person_id'] in ids)
-        elif 'decisions' in record and kind not in ('person_equivalence_set', 'family_tree_decision_set'):
+        elif 'decisions' in record and kind not in ('person_equivalence_set', 'family_tree_decision_set', 'profile_title_preference_set'):
             identities.extend(d for d in record['decisions'] if d.get('person_id') in ids
                               or (kind == 'person_identity_decision_set'
                                   and ids.intersection(identity_participant_ids(d))))
@@ -374,6 +382,13 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             except ImportError:from received_family_names import source_component_valid
             if not name_paragraph or not source_component_valid(name,name_paragraph[0],root):
                 raise ValueError('收到姓名構件須逐原人物錨、緊接字詞與固定見證，不借同段他人字或拼全名冒原稱')
+        # fixed-wyd045-name-consumer
+        try:from scripts.wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid
+        except ImportError:from wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid
+        if wyd045_name_applies(name):
+            ns=[n for r in records if r.get('record_type')=='person_name_component_set'for n in r['records']]
+            cs={c['id']:c for c,p in paragraphs.values()};aa=[a for r in records if r.get('record_type')=='person_assertion_set'for a in r['assertions']]
+            if not wyd045_name_valid(name,ns,cs,aa,root):raise ValueError('宋045姓名/原角色或推姓證據不符')
         validate_clan_style(name, name_paragraph[1] if name_paragraph else None, relations)
         validate_full_name(name, name_paragraph[1] if name_paragraph else None)
         validate_courtesy_name(name)
@@ -386,7 +401,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
                 ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship') else relations), root=root)
+                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship', 'contextual_surname_from_wyd_song051_named_path', 'contextual_surname_from_wyd_song051_yixin', 'contextual_surname_from_wyd_song045_kinship') else relations), root=root)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:
@@ -433,6 +448,27 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         from .life_event_dates import selected_dates
     except ImportError:
         from life_event_dates import selected_dates
+    # fixed-wyd045-life-consumer
+    try:from scripts.wyd_song045_lifecycle import valid as wyd045_life_valid
+    except ImportError:from wyd_song045_lifecycle import valid as wyd045_life_valid
+    for event in life_events:
+        if event.get('source_wyd045_death_scope',{}).get('kind')=='fixed_wyd045_death_scope'and not wyd045_life_valid(event,root):raise ValueError('宋045死亡日期/來源角色不符')
+    # fixed-wyd045-noble-consumer
+    try:from scripts.wyd_song045_nobles import holding_dispatch_valid as noble_holding_valid, death_valid as noble_death_valid, event_valid as noble_event_valid, proposal_valid as noble_proposal_valid, holding_applies as noble_holding_applies,death_applies as noble_death_applies,event_applies as noble_event_applies,proposal_applies as noble_proposal_applies
+    except ImportError:from wyd_song045_nobles import holding_dispatch_valid as noble_holding_valid, death_valid as noble_death_valid, event_valid as noble_event_valid, proposal_valid as noble_proposal_valid, holding_applies as noble_holding_applies,death_applies as noble_death_applies,event_applies as noble_event_applies,proposal_applies as noble_proposal_applies
+    for h in titles:
+        if noble_holding_applies(h)and not noble_holding_valid(h,chapters[h['evidence'][0]['chapter_id']],root):raise ValueError('宋045爵序／父子承嗣或戶數資格不符')
+    for e in life_events:
+        if noble_death_applies(e)and not noble_death_valid(e,root):raise ValueError('宋045繼承人卒主體不符')
+    for e in person_events:
+        if noble_event_applies(e)and not noble_event_valid(e,chapters[e['evidence'][0]['chapter_id']],root):raise ValueError('宋045國除來源爵鏈不符')
+    # fixed-wyd045-zhenzhi-consumer
+    try:from scripts.wyd_song045_zhenzhi_life import death_applies as zhenzhi_death_applies,death_valid as zhenzhi_death_valid,address_applies as zhenzhi_address_applies,address_valid as zhenzhi_address_valid
+    except ImportError:from wyd_song045_zhenzhi_life import death_applies as zhenzhi_death_applies,death_valid as zhenzhi_death_valid,address_applies as zhenzhi_address_applies,address_valid as zhenzhi_address_valid
+    for event in life_events:
+        if zhenzhi_death_applies(event)and not zhenzhi_death_valid(event,root):raise ValueError('鎮之死亡年/原句主體不符')
+    for address in addresses:
+        if zhenzhi_address_applies(address)and not zhenzhi_address_valid(address,chapters[address['evidence'][0]['chapter_id']],root):raise ValueError('鎮之卒於家相對地稱不符')
     selected_life_dates = selected_dates(life_events, date_decisions)
     kinship_cases = [case for chapter in chapters.values() for case in chapter['annotation'].get('kinship_interpretation_cases', []) if ids.intersection((case['subject_person_id'], case['object_person_id']))]
     unresolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('unresolved_identity_cases', []) if ids.intersection(case['candidate_person_ids'])]
@@ -457,7 +493,24 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             except ImportError:from wyd_song044_noble_year import valid as noble_year_valid
             if not noble_year_valid(date,holding,'start',chapters,root):
                 raise ValueError('跨來源同詔封年證據或人物資格漂移')
+    # Validate the two source-explicit WYD044 brother records before publication.
+    try:from .wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
+    except ImportError:from wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
+    for relation in relations:
+        if direct_brothers_applies(relation):
+            ps={p['id']:(ch['id'],p)for ch in chapters.values()for p in ch['paragraphs']}
+            if not direct_brothers_valid(relation,ps,chapters,root):raise ValueError('武英殿宋044明弟來源／方向或現役端點漂移')
+    # fixed-wyd045-relation-consumer
+    try:from scripts.wyd_song045_roles import relation_applies as wyd045_relation_applies, relation_valid as wyd045_relation_valid
+    except ImportError:from wyd_song045_roles import relation_applies as wyd045_relation_applies, relation_valid as wyd045_relation_valid
+    for relation in relations:
+        if wyd045_relation_applies(relation):
+            ps={p['id']:(c['id'],p)for c in chapters.values()for p in c['paragraphs']}
+            if not wyd045_relation_valid(relation,ps,chapters,root):raise ValueError('宋045親屬原文/方向/角色或未知資格不符')
     title_proposals = [proposal for chapter in chapters.values() for proposal in chapter['annotation'].get('title_proposals', []) if proposal['person_id'] in ids]
+    # fixed-wyd045-unassumed-consumer
+    for q in title_proposals:
+        if noble_proposal_applies(q)and not noble_proposal_valid(q,chapters[q['evidence'][0]['chapter_id']],root):raise ValueError('宋045左光祿徵不就主體或結果不符')
     resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]
     unresolved_titles = [dict(a, chapter_id=ch['id'], source_id=ch['source_id']) for ch in chapters.values() for a in ch.get('annotation', {}).get('unresolved_title_attestations', []) if ids.intersection(a['candidate_person_ids'])]
@@ -804,6 +857,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'resolved_identity_cases': resolved_cases} if resolved_cases else {}),
             'reported_variants': reported_variants,
             **({'preferred_title_readings':preferred_titles} if preferred_titles else {}),
+            **({'default_profile_title':default_profile_title} if default_profile_title is not None else {}),
             **({'unresolved_relation_identity_groups': unresolved_relation_groups} if unresolved_relation_groups else {}),
             'family_tree_decisions': tree_decisions, 'preferred_relations': preferred_relations,
             'family_tree_policy': {'default': 'editorial_preferred', 'original_assertions_preserved': True,
