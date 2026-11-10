@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "id": "yqp_nlb_p1p_DBAAAA",
+  "canonical_person_id": "yqp_nlb_p1p_DBAAAA",
+  "label": "延壽",
+  "identity_note": "《漢書》卷三十六記為劉純之子；《史記》卷六十三處「楚王」依合謀情節暫接此人。卷五十正文與三家注所載王純、延壽及紀年異說另存於 source-evidence/shiji060-chuwang-yanshou-identity.json。",
+  "review": "ai_provisional",
+  "names": [
+    "劉延壽",
+    "延壽"
+  ],
+  "titles": [
+    {
+      "id": "th-hanshu036-liuyanshou-chuwang",
+      "person_id": "yqp_nlb_p1p_DBAAAA",
+      "title": "楚王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-060-sanwang",
+          "source_id": "s-shiji-060-sanwang",
+          "paragraph_id": "c-shiji-060-sanwang:p027",
+          "quote": "其後胥果作威福，通楚王使者。楚王宣言曰：「我先元王，高帝少弟也，封三十二城。今地邑益少，我欲與廣陵王共發兵云。［立］廣陵王為上，我復王楚三十二城，如元王時。」事發覺，公卿有司請行罰誅。天子以骨肉之故，不忍致法於胥，下詔書無治廣陵王，獨誅首惡楚王。",
+          "person_mention_ids": [
+            "c-shiji-060-sanwang:m027-0009",
+            "c-shiji-060-sanwang:m027-0014",
+            "c-shiji-060-sanwang:m027-0120"
+          ],
+          "interpretation_note": "三處「楚王」依《漢書》卷三十六同一合謀故事，暫接劉延壽。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu036-liuyanshou-chuwang:a001",
+          "paragraph_id": "c-shiji-060-sanwang:p027",
+          "start": 9,
+          "end": 11,
+          "surface": "楚王",
+          "person_mention_id": "c-shiji-060-sanwang:m027-0009",
+          "usage": "narrative"
+        },
+        {
+          "id": "th-hanshu036-liuyanshou-chuwang:a002",
+          "paragraph_id": "c-shiji-060-sanwang:p027",
+          "start": 14,
+          "end": 16,
+          "surface": "楚王",
+          "person_mention_id": "c-shiji-060-sanwang:m027-0014",
+          "usage": "narrative"
+        },
+        {
+          "id": "th-hanshu036-liuyanshou-chuwang:a003",
+          "paragraph_id": "c-shiji-060-sanwang:p027",
+          "start": 120,
+          "end": 122,
+          "surface": "楚王",
+          "person_mention_id": "c-shiji-060-sanwang:m027-0120",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "death",
+          "date_expression": "地節元年（西元前69年）",
+          "evidence": [
+            {
+              "external_source_id": "s-ctext-hanshu-008-xuandi",
+              "url": "https://ctext.org/wiki.pl?chapter=409008&if=gb",
+              "quote": "地節元年……冬十一月，楚王延壽謀反，自殺。"
+            }
+          ]
+        }
+      },
+      "reported_duration": {
+        "value": 32,
+        "unit": "regnal_year",
+        "source_term": "立三十二年",
+        "source_number": "三十二",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "external_source_id": "s-ctext-hanshu-036-chuyuanwang",
+            "url": "https://ctext.org/wiki.pl?chapter=331278&if=gb&remap=gb",
+            "quote": "延壽自殺。立三十二年，國除。"
+          }
+        ]
+      },
+      "interpretation_note": "爵號與人物指涉分層；地節元年及三十二年均保留《漢書》原詞。史記卷五十另見地節二年及王純異說，不取代或改寫各自原文。",
+      "reviewer": "AI 代理",
+      "period": "未定 → 地節元年"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 60,
+      "category": "shijia",
+      "title": "三王世家第三十",
+      "paragraph_id": "c-shiji-060-sanwang:p027",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "其後胥果作威福，通楚王使者。楚王宣言曰：「我先元王，高帝少弟也，封三十二城。今地邑益少，我欲與廣陵王共發兵云。［立］廣陵王為上，我復王楚三十二城，如元王時。」事發覺，公卿有司請行罰誅。天子以骨肉之故，不忍致法於胥，下詔書無治廣陵王，獨誅首惡楚王。",
+      "paragraph_ids": [
+        "c-shiji-060-sanwang:p027"
+      ],
+      "mention_ids": [
+        "c-shiji-060-sanwang:m027-0009",
+        "c-shiji-060-sanwang:m027-0014",
+        "c-shiji-060-sanwang:m027-0120"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-060-sanwang:m027-0009": "c-shiji-060-sanwang:p027",
+        "c-shiji-060-sanwang:m027-0014": "c-shiji-060-sanwang:p027",
+        "c-shiji-060-sanwang:m027-0120": "c-shiji-060-sanwang:p027"
+      },
+      "mention_id": "c-shiji-060-sanwang:m027-0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-060-sanwang:m027-0009",
+          "mention_ids": [
+            "c-shiji-060-sanwang:m027-0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-060-sanwang:m027-0014",
+          "mention_ids": [
+            "c-shiji-060-sanwang:m027-0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-060-sanwang:m027-0120",
+          "mention_ids": [
+            "c-shiji-060-sanwang:m027-0120"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-060",
+      "chapter_id": "c-shiji-060-sanwang",
+      "source_id": "s-shiji-060-sanwang",
+      "work_title": "史記"
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-hanshu036-liuyanshou-father",
+      "subject_person_id": "yqp_nlb_p1p_DBAAAA",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_DBAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "external_source_id": "s-ctext-hanshu-036-chuyuanwang",
+          "url": "https://ctext.org/wiki.pl?chapter=331278&if=gb&remap=gb",
+          "quote": "十六年薨，子延壽嗣。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子延壽嗣",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "《漢書》卷三十六所見父系明文；本庫尚未收錄該篇，外部引文待正式逐篇收錄定位。",
+      "reviewer": "AI 代理"
+    }
+  ],
+  "related_people": {
+    "yqp_nlb_p1p_DBAAA": "純（楚元王世家候選）"
+  },
+  "sources": [
+    {
+      "chapter_id": "c-shiji-060-sanwang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-060",
+      "source_id": "s-shiji-060-sanwang",
+      "source": {
+        "title": "史記／卷060",
+        "provider": "維基文庫（本庫固定數位見證）",
+        "url": "https://zh.wikisource.org/w/index.php?title=史記/卷060&oldid=7909290",
+        "revision_id": 7909290,
+        "accessed_on": "2026-10-09",
+        "extent": "第27段",
+        "image_verified": false
+      }
+    }
+  ],
+  "external_source_citations": [
+    {
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-036",
+      "chapter_id": "c-hanshu-036-chuyuanwang",
+      "source_id": "s-ctext-hanshu-036-chuyuanwang",
+      "title": "漢書／卷036〈楚元王傳第六〉",
+      "provider": "中國哲學書電子化計劃",
+      "url": "https://ctext.org/wiki.pl?chapter=331278&if=gb&remap=gb",
+      "quote": "十六年薨，子延壽嗣。宣帝即位，延壽以為廣陵王胥武帝子，天下有變必得立，陰欲附倚輔助之，故為其後母弟趙何齊取廣陵王女為妻。與何齊謀曰：「我與廣陵王相結，天下不安，發兵助之，使廣陵王立，何齊尚公主，列侯可得也。」因使何齊奉書遺廣陵王曰：「願長耳目，毋後人有天下。」何齊父長年上書告之。事下有司，考驗辭服，延壽自殺。立三十二年，國除。"
+    },
+    {
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-008",
+      "chapter_id": "c-hanshu-008-xuandi",
+      "source_id": "s-ctext-hanshu-008-xuandi",
+      "title": "漢書／卷008〈宣帝紀第八〉",
+      "provider": "中國哲學書電子化計劃",
+      "url": "https://ctext.org/wiki.pl?chapter=409008&if=gb",
+      "quote": "地節元年……冬十一月，楚王延壽謀反，自殺。"
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "yqp_nlb_p1p_DBAAAA",
+    "representative_source_person_id": "yqp_nlb_p1p_DBAAAA",
+    "source_person_ids": [
+      "yqp_nlb_p1p_DBAAAA"
+    ],
+    "identity_equivalence_decision_ids": [
+      "d-shiji060-040"
+    ],
+    "parent_person_id": "yqp_nlb_p1p_DBAAA",
+    "source_assertion_id": "a-hanshu036-liuyanshou-father",
+    "assembly_id": "family-han-liu-taigong",
+    "root_person_id": "yqp_nlb_p1p",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "yqp_nlb_p1p_DBAAAA"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-hanshu008-liuyanshou-death",
+      "person_id": "yqp_nlb_p1p_DBAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "地節元年（西元前69年）",
+      "source_term": "楚王延壽謀反，自殺",
+      "evidence": [
+        {
+          "external_source_id": "s-ctext-hanshu-008-xuandi",
+          "url": "https://ctext.org/wiki.pl?chapter=409008&if=gb",
+          "quote": "地節元年……冬十一月，楚王延壽謀反，自殺。"
+        }
+      ],
+      "reviewer": "AI 代理",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
