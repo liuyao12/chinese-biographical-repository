@@ -942,7 +942,7 @@
 | `4rw_nce_8oq` | 史狗 | [《史記・吳太伯世家》][100] | [JSON](4rw_nce_8oq.json) |
 | `4sb_h3r_tey` | 泉陽令（未名） | [《史記・龜策列傳》][197] | [JSON](4sb_h3r_tey.json) |
 | `4sj_vbb_hzg` | 毛遁 | [《晉書・叛臣二》][60] | [JSON](4sj_vbb_hzg.json) |
-| `4t4_ojw_dn7` | 西王母 | [《史記・趙世家》][112] | [JSON](4t4_ojw_dn7.json) |
+| `4t4_ojw_dn7` | 西王母 | [《史記・趙世家》][112]、[《史記・司馬相如列傳》][249]、[《史記・大宛列傳》][250] | [JSON](4t4_ojw_dn7.json) |
 | `4t6_6ur_8lb` | 孔子引古 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](4t6_6ur_8lb.json) |
 | `4ta_l8n_ik4` | 國武子（齊大夫） | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](4ta_l8n_ik4.json) |
 | `4tb_tcb_9tq` | 朝（孝惠後宮子稱） | [《史記・呂后本紀》][96] | [JSON](4tb_tcb_9tq.json) |
@@ -1806,7 +1806,6 @@
 | `91s_bsz_pe8` | 安期生 | [《史記・孝武本紀》][99] | [JSON](91s_bsz_pe8.json) |
 | `921_112_227` | 劉粹 | [《宋書・謝晦》][205] | [JSON](921_112_227.json) |
 | `921_w24_4mr` | 平陽公主 | [《史記・樊酈滕灌列傳》][164] | [JSON](921_w24_4mr.json) |
-| `929_zmz_x6k` | 孝文太子 | [《史記・絳侯周勃世家》][126] | [JSON](929_zmz_x6k.json) |
 | `92a_026_432` | 朱超石 | [《宋書・趙倫之 王懿 張邵》][207]、[《魏書・崔浩》][228] | [JSON](92a_026_432.json) |
 | `92h_l93_ixy` | 何承天 | [《宋書・謝晦》][205] | [JSON](92h_l93_ixy.json) |
 | `92h_q40_d2s` | 段末波 | [《三國志・桓二陳徐衞盧傳》][84] | [JSON](92h_q40_d2s.json) |
@@ -2315,3 +2314,5 @@
 [245]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
 [246]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
 [248]: https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038
+[249]: https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549
+[250]: https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799
