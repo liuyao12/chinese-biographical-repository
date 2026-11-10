@@ -849,6 +849,7 @@
 | `q8s_9ap_qhb` | 陳厲公 | [《史記・齊太公世家》][101] | [JSON](q8s_9ap_qhb.json) |
 | `q98_n47_26l` | 他姬子廣陵王 | [《史記・外戚世家》][118] | [JSON](q98_n47_26l.json) |
 | `q98_uzp_3g8` | 密姬 | [《史記・齊太公世家》][101] | [JSON](q98_uzp_3g8.json) |
+| `q9d_h7k_6g2` | 殷蕭 | [《宋書・宗室》][212] | [JSON](q9d_h7k_6g2.json) |
 | `q9f_hno_txx` | 常山守未名 | [《史記・韓信盧綰列傳》][162] | [JSON](q9f_hno_txx.json) |
 | `q9h_7ls_c9r` | 屈丐 | [《史記・田敬仲完世家》][115] | [JSON](q9h_7ls_c9r.json) |
 | `q9u_soa_c5l` | 藍宏期 | [《宋書・王僧達 顏竣》][227] | [JSON](q9u_soa_c5l.json) |
@@ -936,6 +937,7 @@
 | `qql_eij_rdk` | 皇父（宋司徒） | [《史記・魯周公世家》][102] | [JSON](qql_eij_rdk.json) |
 | `qqr_l15_r9s` | 舜華 | [《史記・孔子世家》][116] | [JSON](qqr_l15_r9s.json) |
 | `qqt_lpt_8is` | 孝宣 | [《漢書・張湯傳》][11] | [JSON](qqt_lpt_8is.json) |
+| `qqx_g9s_6rp` | 彭元儁 | [《宋書・宗室》][212] | [JSON](qqx_g9s_6rp.json) |
 | `qqx_uyu_i1y` | 武王后 | [《史記・穰侯列傳》][141] | [JSON](qqx_uyu_i1y.json) |
 | `qrh_7uu_bw4` | 劉禮 | [《史記・絳侯周勃世家》][126] | [JSON](qrh_7uu_bw4.json) |
 | `qrk_ln3_p0h` | 禹 | [《史記・孟子荀卿列傳》][143] | [JSON](qrk_ln3_p0h.json) |
@@ -2104,7 +2106,6 @@
 | `xr0_7lg_823` | 晉平公 | [《史記・韓世家》][114] | [JSON](xr0_7lg_823.json) |
 | `xra_0wq_395` | 蔡湛之〔南史弘微本傳〕 | [《南史・謝弘微》][72] | [JSON](xra_0wq_395.json) |
 | `xrb_rjt_eac` | 超〔冏子，淮陵王〕 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][35] | [JSON](xrb_rjt_eac.json) |
-| `xru_mbd_dle` | 齊王受虞卿未名 | [《史記・平原君虞卿列傳》][145] | [JSON](xru_mbd_dle.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
@@ -2290,6 +2291,7 @@
 [209]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt
 [210]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt
 [211]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_047.txt
+[212]: https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763
 [215]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt
 [218]: https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_059.txt
 [219]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B760&oldid=1996694

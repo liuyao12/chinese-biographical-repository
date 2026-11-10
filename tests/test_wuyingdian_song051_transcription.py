@@ -16,6 +16,9 @@ class Song051(unittest.TestCase):
    if errors:raise AssertionError(errors)
    contract=json.loads((ROOT/'source-evidence/song051-wyd1739-zongshi/formal-role-contract.json').read_bytes())
    self.c=copy.deepcopy(contract['source_before']);self.formal_count=len(contract['markers'])
+   if 'additional_annotation_phase'in self.actual['annotation']:
+    from scripts.wyd_song051_yixin import state
+    _,_,extra,_=state(ROOT,self.actual);self.formal_count+=len(extra['markers'])
   self.assertEqual([(p['id'],p['text'],p['source_position'])for p in self.c['paragraphs']],[(p['id'],p['text'],p['source_position'])for p in self.actual['paragraphs']])
  def test_complete_pending_source_and_xml(self):
   self.assertEqual(source_errors(self.c,ROOT),[])

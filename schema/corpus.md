@@ -1198,3 +1198,8 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `preferred_received_selection` 只能指向實際已匯入的單一來源選錄，並與版本登記中的 documented text basis、edition及參考資料相符。其餘入口標為 `comparison_transcription`；底本未核者另外顯示「底本待核」，不冒稱四庫或武英殿。首選書影轉錄仍保留原有AI／人工校勘資格。
 
 閱讀匯出將政策原樣另存 `data/corpus/reading-witness-preferences.json`，並在各書目錄項附 source ID、reading role、text-base status及edition ID/label；同卷首選在比較轉錄之前，舊深層連結保持其所引見證。版本及用途另列，不加進正式書名／篇名，也不覆寫原文、標記錨點或任何人物檔。無此政策的歷史快照維持原輸出。
+
+
+### 評價後傳主續官序之卒贈
+
+`posthumous_basis.kind = evaluated_biography_topic_career_death_gift` 只用於收到正文：傳首及後續具名主語一致、另一人物以「甚器之」評價、之仍指傳主，緊接無換主語官序及卒、贈。逐原位綁 description/evaluation/object/career/death/grant anchors、三角色MID、同人既有死亡、完整段SHA與修訂。評價者不得冒領；跨段、新主語或不連續官序拒絕。只錄來源贈官，年月日及終期未知；不新增已存在死亡或諡號，不補原文無有的追字、爵尾或生前實任。舊追贈分支不變。

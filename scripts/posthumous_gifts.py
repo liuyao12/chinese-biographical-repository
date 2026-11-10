@@ -2,6 +2,11 @@
 
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
+    # evaluated-biography-topic-gift
+    if isinstance(holding,dict) and isinstance(holding.get('posthumous_basis'),dict) and holding['posthumous_basis'].get('kind')=='evaluated_biography_topic_career_death_gift':
+        try:from scripts.evaluated_biography_gift import valid
+        except ImportError:from evaluated_biography_gift import valid
+        return valid(holding,paragraphs,mentions,life_events or {})
     if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') == 'biography_sovereign_mourning_gift_to_resumed_topic':
         try:
             from scripts.lifecycle_offered_biography import gift_valid

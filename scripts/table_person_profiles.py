@@ -99,6 +99,8 @@ def build(root=ROOT, person_ids=None):
             profile['preferred_readings'] = preferred_readings
         if b.get('preferred_name_component_readings'):
             profile['preferred_name_component_readings'] = b['preferred_name_component_readings']
+        if b.get('default_profile_title') and b['default_profile_title']['person_id'] == pid:
+            profile['default_profile_title'] = b['default_profile_title']
         if b.get('preferred_title_readings'):
             profile['preferred_title_readings'] = b['preferred_title_readings']
         if b.get('referent_interpretations'):

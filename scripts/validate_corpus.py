@@ -104,6 +104,10 @@ except ImportError:
 
 
 def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bound_role=None):
+    if isinstance(date,dict)and isinstance(date.get('event_evidence_binding'),dict)and date['event_evidence_binding'].get('kind')=='fixed_wyd063_death_local_year':
+        try:from scripts.wyd_song063_basics import date_valid
+        except ImportError:from wyd_song063_basics import date_valid
+        return [] if bound_role=='life_event'and date_valid(date,bound_record,chapters,root)else['宋063七年卒須綁完整主敘/回述分層、當事人與宋元嘉年號欄']
     errors = []
     if not isinstance(date, dict):
         return ['紀年換算須為物件']
@@ -2244,6 +2248,10 @@ def _validate_uncached(root=ROOT):
                     check(address_valid(address,chapters[record['chapter_id']]),'地望須逐角色綁原詞與來源，隱居不作卒地、共稱不擴及後人')
                 check(address['id'] not in address_ids, '地址主張 ID 重複'); address_ids.add(address['id'])
                 check(address['person_id'] in pids and address['status'] == 'source_attested', '地址人物或狀態無效')
+                # fixed-wyd045-zhenzhi-home
+                try:from scripts.wyd_song045_zhenzhi_life import address_applies,address_valid
+                except ImportError:from wyd_song045_zhenzhi_life import address_applies,address_valid
+                if address_applies(address):check(address_valid(address,chapters[record['chapter_id']],root),'鎮之卒於家須保未知具名地點，不借京口或他人')
                 check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place', 'capital_location', 'polity_lineage_affiliation', 'source_locality_designation', 'service_location', 'fief'), '地址關係類型未知')
                 if address['relation'] == 'fief' or 'fief_kind' in address.get('qualifiers', {}):
                     kind = address.get('qualifiers', {}).get('fief_kind')
@@ -2602,6 +2610,9 @@ def _validate_uncached(root=ROOT):
                 from family_assemblies import load_assemblies
                 from person_bundle import load_catalog
         catalog = load_catalog(root)
+        try:from scripts.profile_title_preferences import errors as profile_title_errors
+        except ImportError:from profile_title_preferences import errors as profile_title_errors
+        errors.extend(profile_title_errors(root,catalog[1],catalog[0]))
         try:
             from scripts.biographical_appointment_sequence import errors as appointment_sequence_errors
         except ImportError:

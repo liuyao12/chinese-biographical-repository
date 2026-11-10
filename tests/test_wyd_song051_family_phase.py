@@ -11,7 +11,7 @@ class FamilyPhase(unittest.TestCase):
  def setUpClass(cls):
   cls.ch,cls.roles,cls.contract,cls.facts,cls.names=m.context(ROOT);cls.catalog=load_catalog(ROOT)
  def test_current_sources_full_raw_and_partial_scope(self):
-  self.assertEqual(m.source_errors(self.ch,ROOT),[]);intro=json.loads((ROOT/m.INTRO_CH).read_bytes());self.assertEqual(m.source_errors005(intro,ROOT),[]);self.assertEqual(sum(len(p['mentions'])for p in self.ch['paragraphs']),49);self.assertEqual(sum(len(p['mentions'])for p in intro['paragraphs']),14);self.assertEqual(sum(p['annotation_status']=='pending'for p in self.ch['paragraphs']),40)
+  self.assertEqual(m.source_errors(json.loads((ROOT/m.CH).read_bytes()),ROOT),[]);intro=json.loads((ROOT/m.INTRO_CH).read_bytes());self.assertEqual(m.source_errors005(intro,ROOT),[]);self.assertEqual(sum(len(p['mentions'])for p in self.ch['paragraphs']),49);self.assertEqual(sum(len(p['mentions'])for p in intro['paragraphs']),14);self.assertEqual(sum(p['annotation_status']=='pending'for p in self.ch['paragraphs']),40)
  def test_two_reported_two_are_unaccepted(self):
   ds=json.loads((ROOT/m.IDENTITIES).read_bytes())['decisions'];reports=[r for d in ds for r in d.get('source_ordinal_readings',[])];self.assertEqual({r['person_id']for r in reports},{self.roles['yiqing'],self.roles['yizong']})
   for r in reports:self.assertIs(type(r['reported_ordinal']),int);self.assertEqual(r['reported_ordinal'],2);self.assertIsNone(r['accepted_birth_order']);self.assertIsNone(r['scope_interpretation'])
@@ -27,7 +27,7 @@ class FamilyPhase(unittest.TestCase):
   for a,b in [((),()),([],()),((),[]),(True,1),(0,False),(float('nan'),float('nan')),({1:'x'},{1:'x'})]:self.assertFalse(m.same(a,b))
   self.assertTrue(m.same({'x':[1,False,None]},{'x':[1,False,None]}))
  def test_source_body_flag_or_nearest_ruler_cannot_change(self):
-  c=copy.deepcopy(self.ch);c['paragraphs'][0]['mentions']=tuple(c['paragraphs'][0]['mentions']);self.assertTrue(m.source_errors(c,ROOT));c=copy.deepcopy(self.ch);c['annotation']['human_reviewed']=0;self.assertTrue(m.source_errors(c,ROOT));c=json.loads((ROOT/m.INTRO_CH).read_bytes());mark=next(m for p in c['paragraphs']for m in p['mentions']if m['surface']=='上');mark['person_id']=self.roles['jinandi'];self.assertTrue(m.source_errors005(c,ROOT))
+  c=json.loads((ROOT/m.CH).read_bytes());c['paragraphs'][0]['mentions']=tuple(c['paragraphs'][0]['mentions']);self.assertTrue(m.source_errors(c,ROOT));c=json.loads((ROOT/m.CH).read_bytes());c['annotation']['human_reviewed']=0;self.assertTrue(m.source_errors(c,ROOT));c=json.loads((ROOT/m.INTRO_CH).read_bytes());mark=next(m for p in c['paragraphs']for m in p['mentions']if m['surface']=='上');mark['person_id']=self.roles['jinandi'];self.assertTrue(m.source_errors005(c,ROOT))
  def test_actual_family_and_bundle_keep_biological_and_adoptive_separate(self):
   sm,_=load_assemblies(ROOT,self.catalog);gui=sm[self.roles['gui_zong_brother']];self.assertEqual(gui['parent_person_id'],self.roles['yibin']);self.assertEqual(gui['parent_connection']['type'],'shared_father_through_sibling')
   with scope(ROOT):b=bundle(self.roles['yiqing'],root=ROOT,include_provisional=True,catalog=self.catalog)

@@ -67,5 +67,5 @@ class Cases(unittest.TestCase):
  def test_prior_seven_facts_preserved(self):
   ch=self.ch;self.assertEqual(ch['annotation']['age_assertions'][0]['value'],53)
   hs=json.loads((F/'corpus/songshu/045-wyd1739-liucui-titles.json').read_bytes())['holdings'];self.assertEqual(len(hs),9);self.assertEqual(len([h for h in hs if h['mode']=='attestation']),2)
-  events=json.loads((F/'corpus/songshu/045-wyd1739-liucui-life-events.json').read_bytes())['events'];self.assertEqual([e['normalized_date']['year']for e in events if'normalized_date'in e],[427,433])
+  events=json.loads((F/'corpus/songshu/045-wyd1739-liucui-life-events.json').read_bytes())['events'];self.assertEqual({e['id'] for e in events if e['id'] in {'le-song045-wyd-cui','le-song045-wyd-daoji','le-song045-wyd-huai'}},{'le-song045-wyd-cui','le-song045-wyd-daoji','le-song045-wyd-huai'});self.assertEqual([e['normalized_date']['year']for e in events if e['id'] in {'le-song045-wyd-cui','le-song045-wyd-daoji','le-song045-wyd-huai'} and 'normalized_date'in e],[427,433])
 if __name__=='__main__':unittest.main()

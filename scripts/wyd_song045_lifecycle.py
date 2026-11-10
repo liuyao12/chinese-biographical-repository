@@ -43,6 +43,10 @@ def records(root):
  return out
 
 def valid(event,root):
+ # fixed-wyd045-zhenzhi-death
+ try:from scripts.wyd_song045_zhenzhi_life import death_applies,death_valid
+ except ImportError:from wyd_song045_zhenzhi_life import death_applies,death_valid
+ if death_applies(event):return death_valid(event,root)
  # fixed-wyd045-extra-heir-deaths
  try:from scripts.wyd_song045_nobles import death_valid,death_applies
  except ImportError:from wyd_song045_nobles import death_valid,death_applies
@@ -65,7 +69,10 @@ def age_record(ch):
  return dict(id='age-song045-wyd-cui-death',person_id=m['person_id'],value=53,source_number='五十三',source_term='年五十三',unit='source_age_years',counting='unspecified_source_age',birth_year=None,status='source_attested',date_expression=None,evidence=[e],age_context={'kind':'at_death','life_event_id':'le-song045-wyd-cui'},age_interpretation={'kind':'traditional_nominal_age_editorial_reading','status':'editorial_provisional','human_reviewed':False,'rationale':'本庫依傳統虛歲理解此史籍報齡；原句未明計歲法，不偽稱source明說虛歲，不推周歲或出生年。'},interpretation_note='明年粹卒時年五十三：53為本源卒齡，連同人同段死亡；與明年換算分存，不倒生年。',reviewer='Codex（AI代理）',human_reviewed=False,model=None)
 
 def base_annotation(ch):
+ # fixed-wyd045-zhenzhi-age-expected
+ try:from scripts.wyd_song045_zhenzhi_life import age_record as zhenzhi_age_record
+ except ImportError:from wyd_song045_zhenzhi_life import age_record as zhenzhi_age_record
  a=copy.deepcopy(ch['annotation'])
  if 'age_assertions'in a:
-  if json.dumps(a.pop('age_assertions'),ensure_ascii=False,sort_keys=True,separators=(',',':'))!=json.dumps([age_record(ch)],ensure_ascii=False,sort_keys=True,separators=(',',':')):raise ValueError('宋045卒齡須綁粹完整原句、整數53、同死亡事件與虛歲解讀資格')
+  if json.dumps(a.pop('age_assertions'),ensure_ascii=False,sort_keys=True,separators=(',',':'))!=json.dumps([age_record(ch),zhenzhi_age_record(ch)],ensure_ascii=False,sort_keys=True,separators=(',',':')):raise ValueError('宋045卒齡須綁粹完整原句、整數53、同死亡事件與虛歲解讀資格')
  return a
