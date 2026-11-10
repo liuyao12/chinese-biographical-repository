@@ -24,7 +24,7 @@ def build(ch,root):
   if p['text'].count(term)!=1:raise ValueError('063 exact source phrase')
   i=p['text'].index(term);return dict(paragraph_id=p['id'],start=i,end=i+len(term),surface=term)
  def ev(p,**extra):return dict(work_id=ch['work_id'],book_id=ch['book_id'],source_id=ch['source_id'],chapter_id=CID,paragraph_id=p['id'],quote=p['text'],**extra)
- def relation(key,subject,predicate,obj,term,pkey,extra=None):
+ def relation(key,subject,predicate,obj,term,pkey,extra=None,interpretation_note=None,context=None):
   p=ps[pkey];s=mark(p,subject);q={'source_term':term};q.update(extra or{})
   evidence=[]
   if obj=='tanshou'and pkey=='p006':
@@ -32,10 +32,12 @@ def build(ch,root):
   else:o=mark(p,obj);evidence=[ev(p,subject_person_mention_id=s['id'],object_person_mention_id=o['id'],relationship_anchor=anchor(p,term))]
   a=dict(id='a-song063-wyd-'+key,subject_person_id=roles[subject],predicate=predicate,object_person_id=roles[obj],status='source_attested',qualifiers=q,evidence=evidence,reviewer='Codex（AI代理）',human_reviewed=False,model=None)
   if len(evidence)==2:a['context']={'kind':'adjacent_paragraphs','paragraph_ids':[ps['p005']['id'],p['id']],'rationale':'本傳死亡/追贈與篇末明子句連續，前段曇首主體、後段子名；不指最後出現的世祖。'}
+  if interpretation_note:a['interpretation_note']=interpretation_note
+  if context:a['context']=context
   return a
  kin=[relation('hong-younger','tanshou','brother','hong','弘少弟','p001',{'relative_birth_order':{'older_person_id':roles['hong'],'younger_person_id':roles['tanshou'],'operator':'lt','scope':'siblings','older_ordinal':None,'younger_ordinal':None}}),
       relation('qiu-congdi','qiu','agnatic_cousin','tanshou','從弟球','p001',{'kinship_structure':{'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'younger'},'relative_birth_order':{'older_person_id':roles['tanshou'],'younger_person_id':roles['qiu'],'operator':'lt','scope':'agnatic_cousins','older_ordinal':None,'younger_ordinal':None}}),
-      relation('hua-congxiong','hua','agnatic_cousin','tanshou','從兄華','p003',{'kinship_structure':{'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'older'},'relative_birth_order':{'older_person_id':roles['hua'],'younger_person_id':roles['tanshou'],'operator':'lt','scope':'agnatic_cousins','older_ordinal':None,'younger_ordinal':None}}),
+      relation('hua-congxiong','hua','agnatic_cousin','tanshou','從兄華','p003',{'kinship_structure':{'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'older'},'relative_birth_order':{'older_person_id':roles['hua'],'younger_person_id':roles['tanshou'],'operator':'lt','scope':'agnatic_cousins','older_ordinal':None,'younger_ordinal':None}},'《南史》卷二十二王曇首傳的標點本作「曇首與到彥之、從兄華並勸上行」，支持將「從兄華」讀作傳主曇首的父系從兄；《宋書》武英殿本此處無標點，故此為上下文句讀判斷，直接關係證據仍是本傳「從兄華」，不據此補親等、共同祖先或數字排行。',{'kind':'parallel_received_text_punctuation','reference':{'title':'《南史》卷二十二（王曇首傳）','url':'https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2/%E5%8D%B722&oldid=1477957','quote':'曇首與到彥之、從兄華並勸上行','edition_note':'維基文庫網路標點文本；版本底本未在此記錄中確定','use':'句讀參考，不替代本傳武英殿底本文字'},'rationale':'該標點把到彥之與從兄華分列；本篇為王曇首傳，且所述行動以曇首為敘事中心，故將從兄關係連至曇首，保留為上下文判讀。'}),
       relation('sengchuo-father','sengchuo','father','tanshou','子僧綽','p006',{'lineage':'paternal'}),
       relation('sengqian-father','sengqian','father','tanshou','少子僧虔','p006',{'lineage':'paternal','birth_order':{'parent_person_id':roles['tanshou'],'scope':'sons_of_parent','ordinal':None,'position':'younger_or_youngest','interpretation_status':'ambiguous'}})]
  names=[]
