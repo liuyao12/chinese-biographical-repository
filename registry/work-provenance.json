@@ -515,6 +515,30 @@
       "transcription_revision": "cbr-ai-transcription-sha256:1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
       "transcription_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
       "qualification": "原PDF未下載；SHA256是本次AI逐列轉錄，不是PDF。私JPEG不入repo；AI字形編碼待覆核。"
+    },
+    "r-chnmus-xunyue": {
+      "title": "荀岳墓誌",
+      "author": null,
+      "url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512158956087444327",
+      "access_scope": "河南博物院文物名片第10行及考述第14行；核誌文第23至32行；未視讀拓片",
+      "human_reviewed": false,
+      "source_kind": "official_museum_catalogue_and_transcription"
+    },
+    "r-zhaowanli-xunyue": {
+      "title": "《漢魏南北朝墓誌集釋》卷一荀岳暨妻劉簡訓墓誌並陰校記",
+      "author": "趙萬里",
+      "url": "https://www.shidianguji.com/book/7658636452997103666/chapter/1m6s11z5mfhfq",
+      "access_scope": "識典古籍數位頁可見第153至159行題錄與曆日校記；誌文OCR不採作底本",
+      "human_reviewed": false,
+      "source_kind": "scholarly_epitaph_compilation_and_calendar_note"
+    },
+    "r-yujiaxi-xunyue": {
+      "title": "《世說新語箋疏》下冊排調篇荀鳴鶴條",
+      "author": "余嘉錫",
+      "url": "https://hugbear.net/hugbear/viewinfobook565.html",
+      "access_scope": "數位轉錄第3281至3284行及第4126至4129行；本次未核紙本版本或拓片",
+      "human_reviewed": false,
+      "source_kind": "digitized_modern_scholarly_annotation"
     }
   },
   "editions": {
@@ -203676,6 +203700,80 @@
         "assertions": []
       },
       "human_reviewed": false
+    },
+    "w-epitaph-xunyue": {
+      "work_id": "w-epitaph-xunyue",
+      "title": "荀岳墓誌",
+      "transmission": "excavated",
+      "composition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "撰刻日期未明，不把元康五年卒或其年十月葬日直接等同刻誌日。"
+      },
+      "earliest_extant_edition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "墓誌石刻是物質見證；目前採用館方網頁釋文，未核石刻、拓本刊布年代及最早可得拓本。"
+      },
+      "burial": {
+        "status": "disputed",
+        "assertions": [
+          {
+            "date": {
+              "calendar": "chinese_civil",
+              "year_numbering": "historical_no_year_zero",
+              "start_year": 295,
+              "end_year": 295,
+              "precision": "day",
+              "month": 10,
+              "day": 22
+            },
+            "source_expression": "其年十月戊午朔廿二日庚辰葬。",
+            "reference_ids": [
+              "r-chnmus-xunyue"
+            ],
+            "qualification": "墓誌網頁釋文原記十月廿二日庚辰；趙萬里校記認為應作廿三日，且戊午朔與日序亦待核。保存石文報告讀法。"
+          },
+          {
+            "date": {
+              "calendar": "chinese_civil",
+              "year_numbering": "historical_no_year_zero",
+              "start_year": 295,
+              "end_year": 295,
+              "precision": "day",
+              "month": 10,
+              "day": 23
+            },
+            "source_expression": "其年十月廿二日庚辰，當作廿三日。",
+            "reference_ids": [
+              "r-zhaowanli-xunyue"
+            ],
+            "qualification": "趙萬里曆日校記的校讀，非墓誌原文；待影像覆核。"
+          }
+        ]
+      },
+      "excavation": {
+        "status": "reported",
+        "assertions": [
+          {
+            "event_kind": "reported_unearthing",
+            "date": {
+              "calendar": "gregorian",
+              "year_numbering": "historical_no_year_zero",
+              "start_year": 1917,
+              "end_year": 1917,
+              "precision": "year"
+            },
+            "place_as_reported": "河南偃師邙山腳下潘屯至社樓一帶；館方記劉德發於村東自家地中掘井時發現。",
+            "source_expression": "1917年河南偃師出土；考述稱出土於偃師邙山腳下潘屯至社樓一帶，系劉德發掘井掘得。",
+            "reference_ids": [
+              "r-chnmus-xunyue"
+            ],
+            "qualification": "河南博物院館藏介紹及考述所報；未核1917年原始發現記錄或後來考古調查檔案。"
+          }
+        ]
+      },
+      "human_reviewed": false
     }
   },
   "text_bases": {
@@ -206084,6 +206182,15 @@
       "transcription_raw_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
       "note": "實際所據為武英殿本書影AI轉錄，非下載PDF；1739是此見證版本時間，不是宋書撰作時間；不覆原work編撰/奏進資料。",
       "human_reviewed": false
+    },
+    "s-epitaph-xunyue-chnmus": {
+      "source_id": "s-epitaph-xunyue-chnmus",
+      "work_id": "w-epitaph-xunyue",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "館方網頁刊錄文為目前所用數位見證；尚未核刊本、拓本及原石，故不宣稱已知其最早版本鏈。"
     }
   }
 }

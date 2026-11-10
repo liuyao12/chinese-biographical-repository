@@ -1092,6 +1092,8 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 
 `modern_printed_epitaph_transcription` 的 `revision_id` 為 null，不冒網站或Git修訂；現代校錄署名與所稱原拓來源各自明列。`transcription_page_visually_checked` 不等於原石/原拓 `image_verified`，後兩者仍為false。文章點校、註號、近人推算與系譜圖不混成古代誌文。此核驗證明保存的轉錄與span記錄一致，不宣稱機器已從外部PDF重新校字或親見原拓。原拓尚未取得時，不以數位轉錄資格建立確定親屬或日期。
 
+`institutional_museum_web_epitaph_transcription` 記錄博物館館藏頁所刊單方墓誌數位釋文。頁面四面文字依館方次序分段保存；繁簡轉換與版面標記清理須明記，編輯段不冒稱原石行界。`transcription_page_visually_checked`、`original_stone_or_rubbing_image_verified`、`underlying_rubbing_personally_accessed` 均為 false，除非分別完成相應核讀。博物館圖片只存外部連結，不複製圖片；古代銘文、館方釋文見證與現代考述／圖片權利分層記錄。
+
 ## 單方墓誌具名近親與年月日
 
 `epitaph_fact_binding.kind=epitaph_named_family_full`綁定完整校錄古文、固定轉錄PDF雜湊與逐人同位標記；適用晉故男子、某祖之孫、某父之元子及妻、弟列的限定完整句式。元子為父之子序1；弟列各與誌主作長幼不等式，不給彼此排行、共同父母或生母。父與祖分存，不自動創造父→祖邊。姓名只拆本句明字，未寫姓不補。

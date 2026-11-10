@@ -22,7 +22,8 @@
     "朕",
     "主上",
     "君",
-    "上"
+    "上",
+    "皇帝"
   ],
   "titles": [
     {
@@ -1013,10 +1014,107 @@
       "chapter_id": "c-jinshu-090-caoshu",
       "source_id": "s-jinshu-090-caoshu",
       "work_title": "晉書"
+    },
+    {
+      "number": null,
+      "category": "",
+      "title": "荀岳墓誌全文（河南博物院網頁釋文）",
+      "paragraph_id": "c-epitaph-xunyue-museum-full:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "又可嘉悼也。舊墓遇水，欲於此下權葬。其賜葬地一頃，錢十五萬，以供葬事。皇帝聞中書侍郎荀岳卒，遣謁者戴璿弔。皇帝遣謁者戴璿以少牢祭具祠故中書侍郎荀岳。尚饗！",
+      "paragraph_ids": [
+        "c-epitaph-xunyue-museum-full:p001"
+      ],
+      "mention_ids": [
+        "c-epitaph-xunyue-museum-full:p001:m0006",
+        "c-epitaph-xunyue-museum-full:p001:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-epitaph-xunyue-museum-full:p001:m0006": "c-epitaph-xunyue-museum-full:p001",
+        "c-epitaph-xunyue-museum-full:p001:m0009": "c-epitaph-xunyue-museum-full:p001"
+      },
+      "mention_id": "c-epitaph-xunyue-museum-full:p001:m0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-epitaph-xunyue-museum-full:p001:m0006",
+          "mention_ids": [
+            "c-epitaph-xunyue-museum-full:p001:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-epitaph-xunyue-museum-full:p001:m0009",
+          "mention_ids": [
+            "c-epitaph-xunyue-museum-full:p001:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-epitaph-xunyue",
+      "book_id": "b-epitaph-xunyue-full",
+      "chapter_id": "c-epitaph-xunyue-museum-full",
+      "source_id": "s-epitaph-xunyue-chnmus",
+      "work_title": "荀岳墓誌"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-epitaph-xunyue-museum-full",
+      "work_id": "w-epitaph-xunyue",
+      "book_id": "b-epitaph-xunyue-full",
+      "source_id": "s-epitaph-xunyue-chnmus",
+      "source": {
+        "title": "荀岳墓誌（河南博物院網頁數位釋文）",
+        "provider": "河南博物院",
+        "url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512158956087444327",
+        "permalink": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512158956087444327",
+        "revision_id": null,
+        "accessed_on": "2026-11-10",
+        "edition": "館方網頁逐面錄文；簡體網頁釋文轉為繁體供本庫閱讀，未核原石／拓片",
+        "extent": "誌題、正面、背面、右側、左側；不含館方現代考述",
+        "text_scope": "complete_work",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://www.chnmus.net/ch/cultural/ip/index.html",
+        "license_scope": "classical_inscription_text_only",
+        "rights": "本庫只保存古代墓誌錄文、必要來源事實與外部影像連結；不複製館方圖片、網頁或現代考述。此連結是館方權利資訊頁，並非對館方網頁錄文或影像授權的聲稱。墓誌原文、館方數位釋文資格與現代文字呈現權利分層；本庫未核原石／拓片。",
+        "normalization": {
+          "character_conversion": "simplified_to_traditional_manual",
+          "extraction_note": "以館方網頁公開四面釋文為數位見證；移除「正面／背／右／左」版面標記及斜線、雙直線行分隔；轉換為繁體，保留于伯、琅邪及館方所錄疑字。未視讀石刻或拓片。"
+        },
+        "transcription_witness": {
+          "kind": "institutional_museum_web_epitaph_transcription",
+          "institution": "河南博物院",
+          "title": "荀岳墓誌",
+          "transcription_path": "source-evidence/xunyou-ancestor-assembly/museum-transcription.json",
+          "metadata_path": "source-evidence/xunyou-ancestor-assembly/museum-metadata.json",
+          "scope": "complete_single_inscription_not_modern_article",
+          "page_text_visually_checked": false,
+          "original_stone_or_rubbing_image_verified": false,
+          "underlying_rubbing_personally_accessed": false,
+          "institution_url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512158956087444327",
+          "catalogue_title": "荀岳墓誌",
+          "accessed_on": "2026-11-10",
+          "transcription_page_visually_checked": false
+        },
+        "image_sources": [
+          {
+            "url": "https://www.chnmus.net/images/attachement/jpg/site2/20140404/24be050d2bed14a8a8b012.jpg",
+            "kind": "museum_hosted_rubbing_image",
+            "local_copy": false
+          },
+          {
+            "url": "https://www.chnmus.net/images/attachement/jpg/site2/20140404/24be050d2bed14a8ae8a25.jpg",
+            "kind": "museum_hosted_rubbing_image",
+            "local_copy": false
+          }
+        ]
+      }
+    },
     {
       "chapter_id": "c-jinshu-035-peikai-family",
       "work_id": "w-jinshu",
