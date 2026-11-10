@@ -4,7 +4,7 @@ import json,copy,hashlib
 CID='c-songshu-051-wyd1739-zongshi'
 CH='corpus/songshu/051-wyd1739.json'
 REF='source-evidence/song051-wyd1739-zongshi/formal-role-contract.json'
-CONTRACT_SHA='97be2e239d7d365ab8d40a683702f615ff8b80f87d56e15effbc350e6601766b'
+CONTRACT_SHA='539db8bda29831fa8c52f415d18229724c66dd272084ccbe1a218a960c125b93'
 FACTS='corpus/songshu/051-wyd1739-assertions.json'
 NAMES='corpus/songshu/051-wyd1739-name-components.json'
 KIND='fixed_wyd_song051_direct_family_phase1'
@@ -47,7 +47,8 @@ def resolve_existing(root,c):
 def phase_chapter(c,roles):
  ch=copy.deepcopy(c['source_before']);ch['annotation']=copy.deepcopy(c['phase_annotation'])
  for p in ch['paragraphs']:
-  p['mentions']=[materialize(row['marker'],roles)for row in c['markers']if row['paragraph_id']==p['id']]
+  if not p['id'].endswith((':p016', ':p017')):
+   p['mentions']=[materialize(row['marker'],roles)for row in c['markers']if row['paragraph_id']==p['id']]
   if p['mentions']:p['annotation_status']='in_progress'
  return ch
 def collect_roles(ch,c):
