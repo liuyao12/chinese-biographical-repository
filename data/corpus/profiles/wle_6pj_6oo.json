@@ -6,9 +6,52 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "魏公主",
     "公主"
   ],
   "titles": [
+    {
+      "id": "th-shiji065-016",
+      "person_id": "5j9_f5f_48v",
+      "title": "魏公主",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p012",
+          "quote": "田文既死，公叔為相，尚魏公主，而害吳起。公叔之僕曰：「起易去也。」公叔曰：「柰何？」其僕曰：「吳起為人節廉而自喜名也。君因先與武侯言曰：『夫吳起賢人也，而侯之國小，又與彊秦壤界，臣竊恐起之無留心也。』武侯即曰：『柰何？』君因謂武侯曰：『試延以公主，起有留心則必受之。無留心則必辭矣。以此卜之。』君因召吳起而與歸，即令公主怒而輕君。吳起見公主之賤君也，則必辭。」於是吳起見公主之賤魏相，果辭魏武侯。武侯疑之而弗信也。吳起懼得罪，遂去，即之楚。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji065-016:a001",
+          "paragraph_id": "c-shiji-065-sun:p012",
+          "start": 11,
+          "end": 14,
+          "surface": "魏公主",
+          "person_mention_id": "c-shiji-065-sun:m012-0011",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授任與來源用稱分存，制度未定者保留未分類；死亡、首次提及或被刑不補有效任期，諡稱不當生前已授同字稱號。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji065-017",
       "person_id": "wle_6pj_6oo",
@@ -59,22 +102,31 @@
       "category": "liezhuan",
       "title": "孫子吳起列傳第五",
       "paragraph_id": "c-shiji-065-sun:p012",
-      "count": 1,
-      "raw_count": 1,
+      "count": 2,
+      "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "壤界，臣竊恐起之無留心也。』武侯即曰：『柰何？』君因謂武侯曰：『試延以公主，起有留心則必受之。無留心則必辭矣。以此卜之。』君因召吳起而與歸，即令公主怒而輕君。吳起見公主之賤君也，則必辭。」於是吳起見公主之賤魏相，果辭魏武侯。武侯疑之而弗信也。吳起懼得罪，遂去，即之楚。",
+      "quote": "田文既死，公叔為相，尚魏公主，而害吳起。公叔之僕曰：「起易去也。」公叔曰：「柰何？」其僕曰：「吳起為人節廉而自喜名也。君因先與武侯言曰：『夫吳起賢人也，而侯之國小，又與彊秦壤界，臣竊恐起之無留心也。』武侯即曰：『柰何？』君因謂武",
       "paragraph_ids": [
         "c-shiji-065-sun:p012"
       ],
       "mention_ids": [
+        "c-shiji-065-sun:m012-0011",
         "c-shiji-065-sun:m012-0121"
       ],
       "mention_paragraph_ids": {
+        "c-shiji-065-sun:m012-0011": "c-shiji-065-sun:p012",
         "c-shiji-065-sun:m012-0121": "c-shiji-065-sun:p012"
       },
-      "mention_id": "c-shiji-065-sun:m012-0121",
+      "mention_id": "c-shiji-065-sun:m012-0011",
       "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m012-0011",
+          "mention_ids": [
+            "c-shiji-065-sun:m012-0011"
+          ],
+          "kind": "paragraph"
+        },
         {
           "canonical_mention_id": "c-shiji-065-sun:m012-0121",
           "mention_ids": [
@@ -117,16 +169,63 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji065-005",
+      "subject_person_id": "u9a_v5a_08h",
+      "predicate": "spouse",
+      "object_person_id": "5j9_f5f_48v",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p012",
+          "quote": "田文既死，公叔為相，尚魏公主，而害吳起。公叔之僕曰：「起易去也。」公叔曰：「柰何？」其僕曰：「吳起為人節廉而自喜名也。君因先與武侯言曰：『夫吳起賢人也，而侯之國小，又與彊秦壤界，臣竊恐起之無留心也。』武侯即曰：『柰何？』君因謂武侯曰：『試延以公主，起有留心則必受之。無留心則必辭矣。以此卜之。』君因召吳起而與歸，即令公主怒而輕君。吳起見公主之賤君也，則必辭。」於是吳起見公主之賤魏相，果辭魏武侯。武侯疑之而弗信也。吳起懼得罪，遂去，即之楚。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "公叔為相尚魏公主",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依明示取妻、母、其子及故事局部父稱保存。孫武後世子孫只記祖先，不補直接父子；病卒家屬不接吳起親屬，公叔公主不接試延吳起公主。引語與來源故事保留範圍，不作獨立史實確證。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
+    "5j9_f5f_48v": "公叔妻公主（孫吳列傳候選）",
+    "u9a_v5a_08h": "公叔（孫吳列傳候選）",
     "wle_6pj_6oo": "吳起被延公主（孫吳列傳候選）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
+    "5j9_f5f_48v",
     "wle_6pj_6oo"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-shiji065-005",
+      "subject_person_id": "u9a_v5a_08h",
+      "predicate": "spouse",
+      "object_person_id": "5j9_f5f_48v",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p012",
+          "quote": "田文既死，公叔為相，尚魏公主，而害吳起。公叔之僕曰：「起易去也。」公叔曰：「柰何？」其僕曰：「吳起為人節廉而自喜名也。君因先與武侯言曰：『夫吳起賢人也，而侯之國小，又與彊秦壤界，臣竊恐起之無留心也。』武侯即曰：『柰何？』君因謂武侯曰：『試延以公主，起有留心則必受之。無留心則必辭矣。以此卜之。』君因召吳起而與歸，即令公主怒而輕君。吳起見公主之賤君也，則必辭。」於是吳起見公主之賤魏相，果辭魏武侯。武侯疑之而弗信也。吳起懼得罪，遂去，即之楚。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "公叔為相尚魏公主",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依明示取妻、母、其子及故事局部父稱保存。孫武後世子孫只記祖先，不補直接父子；病卒家屬不接吳起親屬，公叔公主不接試延吳起公主。引語與來源故事保留範圍，不作獨立史實確證。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

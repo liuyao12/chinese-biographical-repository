@@ -91,7 +91,8 @@
       "scope": "cross_chapter",
       "chapter_ids": [
         "c-shiji-047-kong",
-        "c-shiji-063-laohan"
+        "c-shiji-063-laohan",
+        "c-shiji-130-taishigong"
       ],
       "status": "contextual_provisional",
       "evidence": [
@@ -115,9 +116,19 @@
             "c-shiji-063-laohan:m002-0012",
             "c-shiji-063-laohan:m002-0187"
           ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji-130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p075",
+          "quote": "李耳無為自化，清凈自正；韓非揣事情，循埶理。作老子韓非列傳第三。",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m075-0000",
+            "c-shiji-130-taishigong:m075-0023"
+          ]
         }
       ],
-      "rationale": "兩篇同記孔子適周問禮見老子，敘事人物及事件相配；本篇老萊子與儋的身份爭議不隨之判定。 已發ID與原文保留，同書不同篇不當獨立見證；身份暫接不等於史實、年表或來源優先已定。",
+      "rationale": "卷四十七〈孔子世家〉、卷六十三〈老子韓非列傳〉與卷一百三十〈太史公自序〉的提及可互核；卷一百三十同段稱「李耳」及「老子」，並言作〈老子韓非列傳〉，與本篇李耳傳述相合。卷六十三所記老萊子、太史儋身份爭議不因此判定。已發ID與原文保留，同書不同篇不當獨立見證；身份暫接不等於史實、年表或來源優先已定。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
@@ -172,7 +183,8 @@
       "scope": "cross_chapter",
       "chapter_ids": [
         "c-shiji-005-qin",
-        "c-shiji-063-laohan"
+        "c-shiji-063-laohan",
+        "c-shiji-004-zhou"
       ],
       "status": "contextual_provisional",
       "evidence": [
@@ -194,9 +206,18 @@
             "c-shiji-063-laohan:m006-0015",
             "c-shiji-063-laohan:m006-0053"
           ]
+        },
+        {
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou",
+          "paragraph_id": "c-shiji-004-zhou:p070",
+          "quote": "安王立二十六年，崩，子烈王喜立。烈王二年，周太史儋見秦獻公曰：「始周與秦國合而別，別五百載復合，合十七歲而霸王者出焉。」",
+          "mention_ids": [
+            "c-shiji-004-zhou:m070-0021"
+          ]
         }
       ],
-      "rationale": "兩篇同記周太史儋見秦獻公並述秦周離合預言，事件相配。五百歲、七十歲與合（七）十七歲等各存見證，不校改或因此判儋即老子。 已發ID與原文保留，同書不同篇不當獨立見證；身份暫接不等於史實、年表或來源優先已定。",
+      "rationale": "卷四〈周本紀〉與卷六十三〈老子韓非列傳〉同記周太史儋見秦獻公，並引秦周離合預言，人物與事件相配；卷六十三所記儋即老子與否仍明言「世莫知其然否」，不作定論。兩篇異文各存，不校改。已發ID與原文保留，同書不同篇不當獨立見證；身份暫接不等於史實、年表或來源優先已定。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
@@ -237,6 +258,151 @@
         }
       ],
       "rationale": "兩篇同為見周太史儋並聞秦周離合預言的秦獻公，不與晉獻公按公號合併。 已發ID與原文保留，同書不同篇不當獨立見證；身份暫接不等於史實、年表或來源優先已定。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji063-weiling",
+      "person_ids": [
+        "i8i_rvh_4lp_AAAAAA"
+      ],
+      "canonical_person_id": "i8i_rvh_4lp_AAAAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-037-wei",
+        "c-shiji-035-guancai",
+        "c-shiji-074-mengxun",
+        "c-shiji-063-laohan"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-037",
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p029",
+          "quote": "九年，襄公卒。初，襄公有賤妾，幸之，有身，夢有人謂曰：「我康叔也，令若子必有衞，名而子曰『元』。」妾怪之，問孔成子。成子曰：「康叔者，衞祖也。」及生子，男也，以告襄公。襄公曰：「天所置也。」名之曰元。襄公夫人無子，於是乃立元爲嗣，是爲靈公。",
+          "mention_ids": [
+            "c-shiji-037-wei:m029-0045",
+            "c-shiji-037-wei:m029-0098",
+            "c-shiji-037-wei:m029-0111",
+            "c-shiji-037-wei:m029-0117"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-035",
+          "chapter_id": "c-shiji-035-guancai",
+          "source_id": "s-shiji-035-guancai",
+          "paragraph_id": "c-shiji-035-guancai:p019",
+          "quote": "十三年春，與衛靈公會邵陵。蔡侯私於周萇弘以求長於衛；衛使史言康叔之功德，乃長衛。夏，為晉滅沈，楚怒，攻蔡。蔡昭侯使其子為質於吳，以共伐楚。冬，與吳王闔閭遂破楚入郢。蔡怨子常，子常恐，奔鄭。十四年，吳去而楚昭王復國。十六年，楚令尹為其民泣以謀蔡，蔡昭侯懼。二十六年，孔子如蔡。楚昭王伐蔡，蔡恐，告急於吳。吳為蔡遠，約遷以自近，易以相救；昭侯私許，不與大夫計。吳人來救蔡，因遷蔡于州來。二十八年，昭侯將朝于吳，大夫恐其復遷，乃令賊利殺昭侯；已而誅賊利以解過，而立昭侯子朔，是為成侯。",
+          "mention_ids": [
+            "c-shiji-035-guancai:m019-0006"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-074",
+          "chapter_id": "c-shiji-074-mengxun",
+          "source_id": "s-shiji-074-mengxun",
+          "paragraph_id": "c-shiji-074-mengxun:p005",
+          "quote": "是以騶子重於齊。適梁，惠王郊迎，執賓主之禮。適趙，平原君側行撇席。如燕，昭王擁彗先驅，請列弟子之座而受業，筑碣石宮，身親往師之。作主運。其游諸侯見尊禮如此，豈與仲尼菜色陳蔡，孟軻困於齊梁同乎哉！故武王以仁義伐紂而王，伯夷餓不食周粟；衛靈公問陳，而孔子不答；梁惠王謀欲攻趙，孟軻稱大王去邠。此豈有意阿世俗茍合而已哉！持方枘欲內圜鑿，其能入乎？或曰，伊尹負鼎而勉湯以王，百里奚飯牛車下而繆公用霸，作先合，然後引之大道。騶衍其言雖不軌，儻亦有牛鼎之意乎？",
+          "mention_ids": [
+            "c-shiji-074-mengxun:m005-0116"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-063",
+          "chapter_id": "c-shiji-063-laohan",
+          "source_id": "s-shiji-063-laohan",
+          "paragraph_id": "c-shiji-063-laohan:p022",
+          "quote": "昔者彌子瑕見愛於衛君。衛國之法，竊駕君車者罪至刖。既而彌子之母病，人聞，往夜告之，彌子矯駕君車而出。君聞之而賢之曰：「孝哉，為母之故而犯刖罪！」與君游果園，彌子食桃而甘，不盡而奉君。君曰：「愛我哉，忘其口而念我！」及彌子色衰而愛弛，得罪於君。君曰：「是嘗矯駕吾車，又嘗食我以其餘桃。」故彌子之行未變於初也，前見賢而後獲罪者，愛憎之至變也。故有愛於主，則知當而加親；見憎於主，則罪當而加疏。故諫說之士不可不察愛憎之主而後說之矣。",
+          "mention_ids": [
+            "c-shiji-063-laohan:m022-0008",
+            "c-shiji-063-laohan:m022-0018",
+            "c-shiji-063-laohan:m022-0045",
+            "c-shiji-063-laohan:m022-0050",
+            "c-shiji-063-laohan:m022-0073",
+            "c-shiji-063-laohan:m022-0089",
+            "c-shiji-063-laohan:m022-0091",
+            "c-shiji-063-laohan:m022-0119",
+            "c-shiji-063-laohan:m022-0121"
+          ]
+        }
+      ],
+      "rationale": "四篇人物稱名與同一彌子瑕故事脈絡均指衛靈公；〈衛世家〉明載其名元及即位，因而保留已有世系完整、家族路徑明確的人物ID。",
+      "references": [
+        {
+          "title": "《韓非子・難四》平行故事（維基文庫固定版本）",
+          "url": "https://zh.wikisource.org/w/index.php?title=韓非子/難四&oldid=2327689",
+          "quote": "衛靈公之時，彌子瑕有寵，專於衛國。",
+          "scope": "parallel_primary_text_context_not_an_independent_shiji_occurrence",
+          "image_verified": false,
+          "note": "用以辨認《史記》彌子瑕故事中的衛君；未將此引文當作《史記》見證或獨立人名錨點。"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji063-han-an",
+      "person_ids": [
+        "c0i_eah_y59_AA"
+      ],
+      "canonical_person_id": "c0i_eah_y59_AA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-045-han",
+        "c-shiji-063-laohan"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p033",
+          "quote": "三十四年，桓惠王卒，子王安立。",
+          "mention_ids": [
+            "c-shiji-045-han:m033-0011"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p034",
+          "quote": "王安五年，秦攻韓，韓急，使韓非使秦，秦留非，因殺之。",
+          "mention_ids": [
+            "c-shiji-045-han:m034-0000",
+            "c-shiji-045-han:m034-0013"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-063-laohan",
+          "source_id": "s-shiji-063-laohan",
+          "paragraph_id": "c-shiji-063-laohan:p013",
+          "quote": "非見韓之削弱，數以書諫韓王，韓王不能用。",
+          "mention_ids": [
+            "c-shiji-063-laohan:m013-0011",
+            "c-shiji-063-laohan:m013-0014"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-063-laohan",
+          "source_id": "s-shiji-063-laohan",
+          "paragraph_id": "c-shiji-063-laohan:p024",
+          "quote": "秦因急攻韓。韓王始不用非，及急，乃遣非使秦。",
+          "mention_ids": [
+            "c-shiji-063-laohan:m024-0066"
+          ]
+        }
+      ],
+      "rationale": "卷四十五先明言韓桓惠王卒、子王安立，隨即記王安五年秦攻韓、韓非使秦、秦留非而殺之；卷六十三記秦急攻韓後，韓王遣非使秦，與同一外交事件相合，故將三處「韓王」所指連至既有韓王安。只判讀人物指涉，不調和各篇紀年差異，也不以同一事件證明所有細節皆為獨立見證。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,

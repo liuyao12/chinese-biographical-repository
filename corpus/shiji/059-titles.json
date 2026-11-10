@@ -722,14 +722,27 @@
             ],
             "references": [
               {
-                "title": "維基文庫數位紀年對應（僅作換年參考）",
-                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
-                "quote": "['前元四年 (前153年)']=\"前153年\"",
-                "scope": "digital_editorial_regnal_year_equivalence_only",
-                "image_verified": false
+                "title": "漢初百年朔閏研究——兼訂《史記》和《漢書》紀日干支訛誤",
+                "author": "黃一農",
+                "publication": "中央研究院歷史語言研究所集刊",
+                "issue": "第七十二本，第四分",
+                "published_on": "2001-12",
+                "url": "https://www11.ihp.sinica.edu.tw/storage/w2_file/3104mavMmUd.pdf",
+                "image_verified": false,
+                "scope": "regnal_year_equivalence_only",
+                "quote": "景帝前元四年(153 BC)"
+              },
+              {
+                "title": "《史記》卷十一〈孝景本紀〉",
+                "url": "https://ctext.org/wiki.pl?chapter=574169&if=en",
+                "quote": "四年夏，立太子。立皇子徹為膠東王。",
+                "scope": "parallel_primary_chronology",
+                "image_verified": false,
+                "chapter_id": "c-shiji-011-jingdi",
+                "paragraph_id": "c-shiji-011-jingdi:p005"
               }
             ],
-            "rationale": "本篇明示君主與前、中紀年或年號，保存原詞與完整引句，數位紀年只作換年參考，影像未核，年精度不補月日；來源敘述異詞保持原文。",
+            "rationale": "本篇明記以孝景前四年立皇太子；〈孝景本紀〉亦記四年夏立太子。黃一農所列漢初曆表將景帝前元四年對應153 BC。僅換算至年，原文未給月日。",
             "reviewer": "Codex（AI 代理）",
             "human_reviewed": false
           }
@@ -749,7 +762,24 @@
         }
       },
       "interpretation_note": "來源授封、徙封、承爵、職位與用稱分存；相對年數保持原語，不換算公曆或由死亡、首次提及補起訖。王號中的諡字不當生前正式授爵名。 終點依明示廢、徙、國除／國絕或太子代立，不延伸至其他官爵。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 4,
+        "unit": "title_year",
+        "source_term": "四歲廢",
+        "source_number": "四",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-059-wuzong",
+            "source_id": "s-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p005",
+            "quote": "臨江閔王榮，以孝景前四年為皇太子，四歲廢，用故太子為臨江王。",
+            "person_mention_id": "c-shiji-059-wuzong:m005-0013"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji059-013",
@@ -833,7 +863,7 @@
     },
     {
       "id": "th-shiji059-014",
-      "person_id": "4ua_tkd_2kk",
+      "person_id": "rbv_387_iwe",
       "title": "中尉",
       "kind": "office",
       "mode": "attestation",

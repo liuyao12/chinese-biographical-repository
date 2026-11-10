@@ -1620,7 +1620,7 @@
 |---|---|---|---|
 | `根` | 咎 | [《史記・韓世家》][114] | [JSON](c0i_eah_y59.json) |
 | `A` | 桓惠王 | [《史記・韓世家》][114] | [JSON](c0i_eah_y59_A.json) |
-| `AA` | 韓王安 | [《史記・韓世家》][114]、[《史記・六國年表》][241] | [JSON](c0i_eah_y59_AA.json) |
+| `AA` | 韓王安 | [《史記・韓世家》][114]、[《史記・老子韓非列傳》][132]、[《史記・六國年表》][241] | [JSON](c0i_eah_y59_AA.json) |
 
 </details>
 
@@ -2070,17 +2070,6 @@
 
 </details>
 
-<details><summary><code>g9h_5ih_ug1</code> 伍奢（伍胥列傳候選）（4 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 伍奢 | [《史記・伍子胥列傳》][135] | [JSON](g9h_5ih_ug1.json) |
-| `A` | 伍子胥 | [《史記・伍子胥列傳》][135] | [JSON](g9h_5ih_ug1_A.json) |
-| `AA` | 伍子胥之子 | [《史記・伍子胥列傳》][135] | [JSON](g9h_5ih_ug1_AA.json) |
-| `B` | 伍尚 | [《史記・伍子胥列傳》][135] | [JSON](g9h_5ih_ug1_B.json) |
-
-</details>
-
 <details><summary><code>ga6_jt5_6g1</code> 圉（衛孔文子）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2240,7 +2229,7 @@
 | `AAA` | 臧（衛定公） | [《史記・衛康叔世家》][106] | [JSON](i8i_rvh_4lp_AAA.json) |
 | `AAAA` | 衎（衛獻公） | [《史記・衛康叔世家》][106] | [JSON](i8i_rvh_4lp_AAAA.json) |
 | `AAAAA` | 惡（衛襄公） | [《史記・衛康叔世家》][106] | [JSON](i8i_rvh_4lp_AAAAA.json) |
-| `AAAAAA` | 元（衛靈公） | [《史記・衛康叔世家》][106] | [JSON](i8i_rvh_4lp_AAAAAA.json) |
+| `AAAAAA` | 元（衛靈公） | [《史記・衛康叔世家》][106]、[《史記・老子韓非列傳》][132] | [JSON](i8i_rvh_4lp_AAAAAA.json) |
 | `AAAAAAA` | 郢（衛子南） | [《史記・衛康叔世家》][106] | [JSON](i8i_rvh_4lp_AAAAAAA.json) |
 
 </details>
@@ -2506,7 +2495,7 @@
 | `AAAAAAABAAA` | 田莊子白 | [《史記・田敬仲完世家》][115] | [JSON](lmu_nbm_rzo_AAAAAAABAAA.json) |
 | `AAAAAAABAAAA` | 太公和 | [《史記・田敬仲完世家》][115] | [JSON](lmu_nbm_rzo_AAAAAAABAAAA.json) |
 | `AAAAAAABAAAAA` | 桓公午 | [《史記・扁鵲倉公列傳》][174] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAA.json) |
-| `AAAAAAABAAAAAA` | 因齊 | [《史記・田敬仲完世家》][115] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAA.json) |
+| `AAAAAAABAAAAAA` | 田因齊（齊威王） | [《史記・田敬仲完世家》][115] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAA.json) |
 | `AAAAAAABAAAAAAA` | 辟彊 | [《史記・田敬仲完世家》][115]、[《史記・孟嘗君列傳》][144] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAAA.json) |
 | `AAAAAAABAAAAAAAA` | 齊湣王 | [《史記・孟嘗君列傳》][144] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAAAA.json) |
 | `AB` | 鮑（陳桓公） | [《史記・陳杞世家》][105] | [JSON](lmu_nbm_rzo_AB.json) |
@@ -4099,13 +4088,14 @@
 
 </details>
 
-<details><summary><code>zk0_g6b_nbq</code> 伍奢（楚篇候選）（3 名）</summary>
+<details><summary><code>zk0_g6b_nbq</code> 伍奢（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 伍奢 | [《史記・楚世家》][109] | [JSON](zk0_g6b_nbq.json) |
-| `A` | 伍尚 | [《史記・楚世家》][109] | [JSON](zk0_g6b_nbq_A.json) |
-| `B` | 伍胥 | [《史記・楚世家》][109] | [JSON](zk0_g6b_nbq_B.json) |
+| `根` | 伍奢 | [《史記・伍子胥列傳》][135] | [JSON](zk0_g6b_nbq.json) |
+| `A` | 伍尚 | [《史記・伍子胥列傳》][135] | [JSON](zk0_g6b_nbq_A.json) |
+| `B` | 伍員（字子胥） | [《史記・伍子胥列傳》][135] | [JSON](zk0_g6b_nbq_B.json) |
+| `BA` | 伍子胥之子（名未詳） | [《史記・伍子胥列傳》][135] | [JSON](zk0_g6b_nbq_BA.json) |
 
 </details>
 

@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "71段全文及38名歷史／傳說來源候選完成首輪具名與未定稱呼標註；全部身份、匿名者、代詞、版本及引文仍待覆核。",
+    "coverage": "71段全文及38名歷史／傳說來源候選完成首輪具名與未定稱呼標註；全部身份、匿名者、代詞、版本及引文仍待覆核。 第16、52、58段靈圉依郭璞注暫接同一傳說仙人；淳圉與靈圉的文字關係未定。",
     "limitations": [
       "未核影像，保留私用字缺字與數位重句。",
       "藺相如與司馬相如分人；慕其為人不是同一身分。",
@@ -41,7 +41,7 @@
       "第4至15段賦中子虛、烏有先生、無是公及楚王齊王不連歷史君臣；暫用未解錨點保存虛構語境。",
       "專諸、禹、契為明示典故人名，未據賦辭補其生平事件。陽子、纖阿與鄭女曼姬的古注異說另存指稱判讀，不由候選或泛稱自動連人。",
       "干將之雄戟為器物稱謂語境，未另記為匠人人物提及。",
-      "第20段孫叔、衛公據集解所引漢書音義分接公孫賀、衛青；賦中校獵不作確定共同事件。靈圉、偓佺、青琴、宓妃仍另待神話層辨識。",
+      "第20段孫叔、衛公據集解所引漢書音義分接公孫賀、衛青；賦中校獵不作確定共同事件。偓佺、青琴、宓妃仍另待神話層辨識。",
       "陶唐氏、葛天氏為樂舞典故語境暫存未定，三皇五帝及二子保留群體，不拆姓名。",
       "第21段蜚廉、猛氏在獸獵語境，不自動當同名人物；第26段重句保留原文。",
       "第32段檄文太子、中郎將及單于暫留未定，未由官稱猜人。",
@@ -56,7 +56,9 @@
       "第68段卒後五歲八年為相對時間，不直接轉作公元年。",
       "第30段無是公言天子上林的天子屬賦辭角色，不套當朝天子；賦奏天子以為郎的省略主語隔完整賦文，待支援跨段上下文證據後記授任，不偽造姓名錨點。",
       "第53段靈媧、馮夷、屏翳依古注登記為具名傳說角色，未據賦辭新增親屬、任職、生卒或神遊史事；風伯、雨師、玉女、西王母仍待辨。",
-      "第52、54段陵陽、玄冥、含靁、潏湟、勾芒、豐隆依古注登記具名傳說角色；本篇原稱與古注字形分存，不補歷史官職或世系。陸離保留神名與靈鳥異說，五帝僅作神帝群稱分類。"
+      "第52、54段陵陽、玄冥、含靁、潏湟、勾芒、豐隆依古注登記具名傳說角色；本篇原稱與古注字形分存，不補歷史官職或世系。陸離保留神名與靈鳥異說，五帝僅作神帝群稱分類。",
+      "大人賦第52段「真人」為泛稱、「眾神」為集合稱呼，均非可識別的個人名，故不作人物錨點；原文照錄。",
+      "第16、52、58段靈圉依郭璞兩注暫接同一傳說人物；「靈圉淳圉」無標點，兩詞關係未定，不將淳圉作已確認別名。"
     ],
     "unresolved_identity_cases": [
       {
@@ -68,8 +70,7 @@
         "unknown_identity_possible": true,
         "unresolved_mention_ids": [
           "c-shiji-117-xiangru:m003-0160",
-          "c-shiji-117-xiangru:m003-0176",
-          "c-shiji-117-xiangru:m038-0031"
+          "c-shiji-117-xiangru:m003-0176"
         ],
         "paragraph_ids": [
           "c-shiji-117-xiangru:p003",
@@ -499,102 +500,6 @@
           "received_phrase": "帝以享祉",
           "parallel_phrase": "帝用享祉",
           "reference_id": "han57-tiandi",
-          "adopted_as_text_correction": false
-        }
-      },
-      {
-        "id": "ri-shiji117-beiqiao",
-        "paragraph_id": "c-shiji-117-xiangru:p052",
-        "target_mention_ids": [
-          "c-shiji-117-xiangru:m052-0085"
-        ],
-        "source_terms": [
-          "北僑"
-        ],
-        "status": "unresolved",
-        "default_alternative_id": null,
-        "evidence": {
-          "work_id": "w-shiji",
-          "book_id": "b-shiji-117",
-          "chapter_id": "c-shiji-117-xiangru",
-          "source_id": "s-shiji117-xiangru",
-          "paragraph_id": "c-shiji-117-xiangru:p052",
-          "quote": "邪絕少陽而登太陰兮，與真人乎相求。互折窈窕以右轉兮，橫厲飛泉以正東。悉徵靈圉而選之兮，部乘眾神於瑤光。使五帝先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
-          "mention_ids": [
-            "c-shiji-117-xiangru:m052-0085"
-          ]
-        },
-        "alternatives": [
-          {
-            "id": "ri-shiji117-beiqiao-yan",
-            "attribution": "徐廣，《史記集解》所引",
-            "referent_kind": "legendary_person",
-            "candidate_person_ids": [],
-            "interpretation": "北僑為燕人，形解而仙。",
-            "source_reference_ids": [
-              "jijie117-beiqiao"
-            ]
-          },
-          {
-            "id": "ri-shiji117-beiqiao-wang",
-            "attribution": "張揖（《漢書》伯僑讀法）",
-            "referent_kind": "legendary_person",
-            "candidate_person_ids": [],
-            "interpretation": "伯僑釋為仙人王子僑。",
-            "source_reference_ids": [
-              "han57-boqiao"
-            ]
-          },
-          {
-            "id": "ri-shiji117-beiqiao-zheng",
-            "attribution": "顏師古（《漢書》征伯僑讀法）",
-            "referent_kind": "legendary_person",
-            "candidate_person_ids": [],
-            "interpretation": "征伯僑為仙人，姓征名伯僑，非王子僑；所報郊祀志正字未另核底本。",
-            "source_reference_ids": [
-              "han57-boqiao"
-            ]
-          }
-        ],
-        "references": [
-          {
-            "id": "jijie117-beiqiao",
-            "title": "《史記集解》卷117·徐廣釋北僑",
-            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_117.txt#L524-L525",
-            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
-            "source_blob": "ccded97eee2542083010172d857d6251a09a126c",
-            "quote": "(也或曰/水神)前陸離而後潏湟(漢書音義/曰皆神名)斯征北僑(徐廣曰/燕人也)¶\n(形解而/僊也)而役羡門兮屬岐伯使尚方(徐廣曰岐伯黄帝/臣駰案漢書音義)¶",
-            "read_line_range": [
-              524,
-              525
-            ],
-            "cached_response_sha256": "4439fef65c32a0f4f6ca021386d9a2721502ea5d636016bd2f7fb215a2f0fd95",
-            "scope": "ancient_commentary_interpretation",
-            "image_verified": false
-          },
-          {
-            "id": "han57-boqiao",
-            "title": "《漢書》卷57下·張揖、顏師古釋伯僑",
-            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L937-L939",
-            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
-            "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
-            "quote": "厮征伯僑而役羡門兮詔岐伯使尚方(應劭曰厮役也/張揖曰伯僑仙)¶\n(人王子僑也羡門碣石山上仙人羡門髙也尚主也岐/伯者黄帝太醫屬使主方藥也師古曰征伯僑者仙人)¶\n(姓征名伯僑非王子僑也郊祀志征字作/正其音同耳或說云征謂役使之非也)祝融警而蹕¶",
-            "read_line_range": [
-              937,
-              939
-            ],
-            "cached_response_sha256": "024b03fcdb819f2edf0c84f816d618653f6fdafa4b48e6c2c36ec8fbe2ce1210",
-            "scope": "parallel_witness_commentary_on_variant",
-            "image_verified": false
-          }
-        ],
-        "note": "本篇北僑與《漢書》伯僑用字不同；各注解釋與分詞並存，未把北、伯或征字自動改寫，也未接成已定人物。",
-        "reviewer": "Codex（AI 代理）",
-        "human_reviewed": false,
-        "witness_wording": {
-          "received_phrase": "厮征北僑",
-          "parallel_phrase": "厮征伯僑",
-          "reference_id": "han57-boqiao",
           "adopted_as_text_correction": false
         }
       },
@@ -1856,9 +1761,9 @@
           "start": 176,
           "end": 178,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         }
       ]
     },
@@ -1894,18 +1799,20 @@
           "start": 103,
           "end": 105,
           "surface": "靈圉",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "9g4_bbq_zvr",
+          "status": "contextual_provisional",
+          "interpretation_note": "本篇《大人賦》第16、52、58段三見「靈圉」，郭璞兩注均稱仙人名，暫接為同一傳說人物。「靈圉淳圉」未標點；淳圉是否異文、異名或並列名未定，不登記為確定別名。僅核數位文字，未核書影。"
         },
         {
           "id": "c-shiji-117-xiangru:m016-0110",
           "start": 110,
           "end": 112,
           "surface": "偓佺",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "rfi_3nz_c6h",
+          "status": "contextual_provisional",
+          "interpretation_note": "「偓佺之倫」以偓佺名其類，暫登記為傳說人物；不據此斷定偓佺本人在賦中現身，亦不補生平或世系。"
         }
       ]
     },
@@ -1951,9 +1858,9 @@
           "start": 9,
           "end": 11,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-117-xiangru:m020-0038",
@@ -2042,18 +1949,20 @@
           "start": 3,
           "end": 5,
           "surface": "青琴",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "87m_u0g_mkj",
+          "status": "contextual_provisional",
+          "interpretation_note": "《集解》引《漢書音義》列為古神女，《索隱》引伏儼亦明言青琴為古神女；僅依注建立神話傳統人物，不推定其歷史性或其他身份。"
         },
         {
           "id": "c-shiji-117-xiangru:m025-0005",
           "start": 5,
           "end": 7,
           "surface": "宓妃",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "0ci_obd_9il",
+          "status": "contextual_provisional",
+          "interpretation_note": "《集解》引《漢書音義》列為古神女；如淳另稱其為伏羲女、洛水之神，此親屬及神格僅記作如淳注的神話傳統，不作已核實譜系或歷史事實。"
         }
       ]
     },
@@ -2068,18 +1977,18 @@
           "start": 8,
           "end": 10,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-117-xiangru:m026-0044",
           "start": 44,
           "end": 46,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-117-xiangru:m026-0127",
@@ -2180,9 +2089,9 @@
           "start": 13,
           "end": 15,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-117-xiangru:m030-0028",
@@ -2675,9 +2584,9 @@
           "start": 31,
           "end": 33,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-117-xiangru:m038-0101",
@@ -2760,9 +2669,9 @@
           "start": 461,
           "end": 463,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         }
       ]
     },
@@ -3097,31 +3006,14 @@
       "text_layer": "received_chapter",
       "mentions": [
         {
-          "id": "c-shiji-117-xiangru:m052-0011",
-          "start": 11,
-          "end": 13,
-          "surface": "真人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
-        },
-        {
           "id": "c-shiji-117-xiangru:m052-0036",
           "start": 36,
           "end": 38,
           "surface": "靈圉",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
-        },
-        {
-          "id": "c-shiji-117-xiangru:m052-0045",
-          "start": 45,
-          "end": 47,
-          "surface": "眾神",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "9g4_bbq_zvr",
+          "status": "contextual_provisional",
+          "interpretation_note": "本篇《大人賦》第16、52、58段三見「靈圉」，郭璞兩注均稱仙人名，暫接為同一傳說人物。「靈圉淳圉」未標點；淳圉是否異文、異名或並列名未定，不登記為確定別名。僅核數位文字，未核書影。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0052",
@@ -3197,10 +3089,10 @@
           "start": 85,
           "end": 87,
           "surface": "北僑",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "interpretation_note": "本篇北僑與《漢書》伯僑用字不同；各注解釋與分詞並存，未把北、伯或征字自動改寫，也未接成已定人物。"
+          "kind": "person",
+          "person_id": "jcu_9kl_5bx",
+          "status": "contextual_provisional",
+          "interpretation_note": "《集解》引徐廣釋為燕人、形解而仙者，故建立來源限定的傳說人物記錄。本文「北僑」原字保留；《漢書》平行文作「伯僑」，顏師古釋為姓征名伯僑，與本篇「征北僑」是否同人及如何句讀均未定，不合併字形或補姓名。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0089",
@@ -3329,9 +3221,10 @@
           "start": 233,
           "end": 236,
           "surface": "西王母",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "4t4_ojw_dn7",
+          "status": "contextual_provisional",
+          "interpretation_note": "與《趙世家》造父西巡所見西王母及《大宛列傳》所載安息長老傳聞暫接同一神話人物；保留本篇賦辭，不作歷史親見證明。"
         }
       ]
     },
@@ -3588,9 +3481,10 @@
           "start": 362,
           "end": 364,
           "surface": "靈圉",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "9g4_bbq_zvr",
+          "status": "contextual_provisional",
+          "interpretation_note": "本篇《大人賦》第16、52、58段三見「靈圉」，郭璞兩注均稱仙人名，暫接為同一傳說人物。「靈圉淳圉」未標點；淳圉是否異文、異名或並列名未定，不登記為確定別名。僅核數位文字，未核書影。"
         }
       ]
     },

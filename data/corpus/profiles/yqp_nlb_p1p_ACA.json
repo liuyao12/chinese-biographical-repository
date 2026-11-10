@@ -129,6 +129,48 @@
       "period": "丁未 → 未定"
     },
     {
+      "id": "th-shiji057-061",
+      "person_id": "yqp_nlb_p1p_ACA",
+      "title": "太子",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p014",
+          "quote": "孝文且崩時，誡太子曰：「即有緩急，周亞夫真可任將兵。」文帝崩，拜亞夫為車騎將軍。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji057-061:a001",
+          "paragraph_id": "c-shiji-057-zhou:p014",
+          "start": 7,
+          "end": 9,
+          "surface": "太子",
+          "person_mention_id": "c-shiji-057-zhou:m014-0007",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授官、爵秩、追稱、承爵與一般用稱分存；相對年數按原段，不換算公曆或推定所有官爵同時終止。未知官員姓名與制度性質不補。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji058-002",
       "person_id": "yqp_nlb_p1p_ACA",
       "title": "太子",
@@ -1249,13 +1291,14 @@
       "number": 57,
       "category": "shijia",
       "title": "絳侯周勃世家第二十七",
-      "paragraph_id": "c-shiji-057-zhou:p015",
-      "count": 21,
-      "raw_count": 21,
+      "paragraph_id": "c-shiji-057-zhou:p014",
+      "count": 22,
+      "raw_count": 22,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "孝景三年，吳楚反。亞夫以中尉為太尉，東擊吳楚。因自請上曰：「楚兵剽輕，難與爭鋒。願以梁委之，絕其糧道，乃可制。」上許之。",
+      "quote": "孝文且崩時，誡太子曰：「即有緩急，周亞夫真可任將兵。」文帝崩，拜亞夫為車騎將軍。",
       "paragraph_ids": [
+        "c-shiji-057-zhou:p014",
         "c-shiji-057-zhou:p015",
         "c-shiji-057-zhou:p016",
         "c-shiji-057-zhou:p017",
@@ -1267,6 +1310,7 @@
         "c-shiji-057-zhou:p023"
       ],
       "mention_ids": [
+        "c-shiji-057-zhou:m014-0007",
         "c-shiji-057-zhou:m015-0000",
         "c-shiji-057-zhou:m016-0056",
         "c-shiji-057-zhou:m016-0059",
@@ -1290,6 +1334,7 @@
         "c-shiji-057-zhou:m023-0009"
       ],
       "mention_paragraph_ids": {
+        "c-shiji-057-zhou:m014-0007": "c-shiji-057-zhou:p014",
         "c-shiji-057-zhou:m015-0000": "c-shiji-057-zhou:p015",
         "c-shiji-057-zhou:m016-0056": "c-shiji-057-zhou:p016",
         "c-shiji-057-zhou:m016-0059": "c-shiji-057-zhou:p016",
@@ -1312,8 +1357,15 @@
         "c-shiji-057-zhou:m022-0004": "c-shiji-057-zhou:p022",
         "c-shiji-057-zhou:m023-0009": "c-shiji-057-zhou:p023"
       },
-      "mention_id": "c-shiji-057-zhou:m015-0000",
+      "mention_id": "c-shiji-057-zhou:m014-0007",
       "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-057-zhou:m014-0007",
+          "mention_ids": [
+            "c-shiji-057-zhou:m014-0007"
+          ],
+          "kind": "paragraph"
+        },
         {
           "canonical_mention_id": "c-shiji-057-zhou:m015-0000",
           "mention_ids": [
@@ -1902,8 +1954,8 @@
       "category": "shijia",
       "title": "五宗世家第二十九",
       "paragraph_id": "c-shiji-059-wuzong:p001",
-      "count": 23,
-      "raw_count": 23,
+      "count": 24,
+      "raw_count": 24,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "孝景皇帝子凡十三人為王，而母五人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。",
@@ -1935,6 +1987,7 @@
         "c-shiji-059-wuzong:m009-0029",
         "c-shiji-059-wuzong:m011-0007",
         "c-shiji-059-wuzong:m011-0040",
+        "c-shiji-059-wuzong:m011-0073",
         "c-shiji-059-wuzong:m013-0007",
         "c-shiji-059-wuzong:m017-0006",
         "c-shiji-059-wuzong:m017-0044",
@@ -1960,6 +2013,7 @@
         "c-shiji-059-wuzong:m009-0029": "c-shiji-059-wuzong:p009",
         "c-shiji-059-wuzong:m011-0007": "c-shiji-059-wuzong:p011",
         "c-shiji-059-wuzong:m011-0040": "c-shiji-059-wuzong:p011",
+        "c-shiji-059-wuzong:m011-0073": "c-shiji-059-wuzong:p011",
         "c-shiji-059-wuzong:m013-0007": "c-shiji-059-wuzong:p013",
         "c-shiji-059-wuzong:m017-0006": "c-shiji-059-wuzong:p017",
         "c-shiji-059-wuzong:m017-0044": "c-shiji-059-wuzong:p017",
@@ -2043,6 +2097,13 @@
           "canonical_mention_id": "c-shiji-059-wuzong:m011-0040",
           "mention_ids": [
             "c-shiji-059-wuzong:m011-0040"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m011-0073",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m011-0073"
           ],
           "kind": "paragraph"
         },
@@ -7353,6 +7414,7 @@
   ],
   "related_people": {
     "ixk_6fg_v6f_A": "竇太后（孝文帝皇后）",
+    "koy_6jg_gcc_A": "勝之（絳侯周勃世家候選）",
     "yqp_nlb_p1p_AC": "恒（高祖子）",
     "yqp_nlb_p1p_ACA": "孝景帝",
     "yqp_nlb_p1p_ACAA": "孝武皇帝",
@@ -7474,6 +7536,44 @@
       "attestation_id": "th-shiji110-068:a001",
       "date_role": "attestation",
       "title": "孝景帝"
+    }
+  ],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji057-distinct-taizi",
+      "person_ids": [
+        "koy_6jg_gcc_A",
+        "yqp_nlb_p1p_ACA"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-057-zhou:p010",
+          "quote": "歲餘，每河東守尉行縣至絳，絳侯勃自畏恐誅，常被甲，令家人持兵以見之。其後人有上書告勃欲反，下廷尉。廷尉下其事長安，逮捕勃治之。勃恐，不知置辭。吏稍侵辱之。勃以千金與獄吏，獄吏乃書牘背示之，曰「以公主為證」。公主者，孝文帝女也，勃太子勝之尚之，故獄吏教引為證。勃之益封受賜，盡以予薄昭。及系急，薄昭為言薄太后，太后亦以為無反事。文帝朝，太后以冒絮提文帝，曰：「絳侯綰皇帝璽，將兵於北軍，不以此時反，今居一小縣，顧欲反邪！」文帝既見絳侯獄辭，乃謝曰：「吏［事］方驗而出之。」於是使使持節赦絳侯，復爵邑。絳侯既出，曰：「吾嘗將百萬軍，然安知獄吏之貴乎！」",
+          "chapter_id": "c-shiji-057-zhou",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-057",
+          "source_id": "s-shiji-057-zhou"
+        },
+        {
+          "paragraph_id": "c-shiji-057-zhou:p014",
+          "quote": "孝文且崩時，誡太子曰：「即有緩急，周亞夫真可任將兵。」文帝崩，拜亞夫為車騎將軍。",
+          "chapter_id": "c-shiji-057-zhou",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-057",
+          "source_id": "s-shiji-057-zhou"
+        },
+        {
+          "paragraph_id": "c-shiji-057-zhou:p011",
+          "quote": "絳侯復就國。孝文帝十一年卒，謚為武侯。子勝之代侯。六歲，尚公主，不相中，坐殺人，國除。絕一歲，文帝乃擇絳侯勃子賢者河內守亞夫，封為條侯，續絳侯後。",
+          "chapter_id": "c-shiji-057-zhou",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-057",
+          "source_id": "s-shiji-057-zhou"
+        }
+      ],
+      "rationale": "「太子勝之」在p010明繫周勃、尚文帝女，p011又明記勝之代侯；p014則為文帝臨崩所誡皇儲，p015接「孝景三年」，並由卷011帝系暫辨為孝景帝。兩處同稱「太子」所指不同，故勝之與孝景帝分列。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "name_components": [],

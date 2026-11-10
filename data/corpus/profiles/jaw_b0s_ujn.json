@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "jaw_b0s_ujn",
   "canonical_person_id": "jaw_b0s_ujn",
-  "label": "穰苴（穰苴列傳候選）",
+  "label": "司馬穰苴",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -58,7 +58,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與來源用稱分存；首次提及、被斬或發疾而死不補稱號起訖。景公退穰苴的適用職位未定，將軍及大司馬任期終點仍保留未知。",
+      "interpretation_note": "「以為將軍」明示授任；其後出師、取地而歸，篇中未明記撤任日期，也未明言「景公退穰苴」是否兼及此職，故將軍任期終點留未知。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
     },
@@ -116,13 +116,48 @@
           ]
         }
       },
-      "interpretation_note": "授任與來源用稱分存；首次提及、被斬或發疾而死不補稱號起訖。景公退穰苴的適用職位未定，將軍及大司馬任期終點仍保留未知。 景公退穰苴為罷退原句，編輯承接前段已授大司馬；退句未重寫官名，判讀範圍明示，不以後續病死補終日，將軍此前終點仍未知。",
+      "interpretation_note": "始授將軍後，穰苴出師歸國，景公「尊為大司馬」；下文「景公退穰苴」依篇章承接判為罷大司馬之職。這是據上下文對職稱的判讀，原句未重複官名。此處只終止大司馬任期，不回填將軍任期；也不以發疾而死補任期終日。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
     }
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 57,
+      "category": "shijia",
+      "title": "絳侯周勃世家第二十七",
+      "paragraph_id": "c-shiji-057-zhou:p024",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "國家難，復之乎正。雖伊尹、周公，何以加哉！亞夫之用兵，持威重，執堅刃，穰苴曷有加焉！足己而不學，守節不遜，終以窮困。悲夫！",
+      "paragraph_ids": [
+        "c-shiji-057-zhou:p024"
+      ],
+      "mention_ids": [
+        "c-shiji-057-zhou:m024-0083"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-057-zhou:m024-0083": "c-shiji-057-zhou:p024"
+      },
+      "mention_id": "c-shiji-057-zhou:m024-0083",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-057-zhou:m024-0083",
+          "mention_ids": [
+            "c-shiji-057-zhou:m024-0083"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-057",
+      "chapter_id": "c-shiji-057-zhou",
+      "source_id": "s-shiji-057-zhou",
+      "work_title": "史記"
+    },
     {
       "number": 64,
       "category": "liezhuan",
@@ -406,6 +441,30 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-shiji-057-zhou",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-057",
+      "source_id": "s-shiji-057-zhou",
+      "source": {
+        "title": "史記／卷057",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷057",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷057&oldid=1569360",
+        "revision_id": 1569360,
+        "accessed_on": "2026-10-09",
+        "extent": "24段篇文及1段索隱述贊，無需排除數位欄題。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留泗（川）［水］、潁（陽）［陰］侯、吏［事］、乃［封］、［唯］徐盧、櫡、圂、遬、屍北與鹹克等見證原字及符號，索隱另分層。",
+          "note": "全25段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-064-sima",
       "work_id": "w-shiji",
       "book_id": "b-shiji-064",
@@ -504,12 +563,12 @@
         "source_term": "田完之苗裔",
         "historicity": "historical_tradition"
       },
-      "interpretation_note": "只記明示祖先與原文苗裔或曾孫，不補直接父子或闕代。和與齊威王身份及世系仍待核版本，來源陳述不當獨立史實確證。",
+      "interpretation_note": "只記來源明示祖先與苗裔或曾孫，不補直接父子或闕代。穰苴為田完苗裔、田和為田常曾孫依原文記錄；「和」與「齊威王」依 d-shiji064-distinct-tianhe-weiwang 分人，異說保留。此為來源主張，不當獨立史實確證。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
-    "jaw_b0s_ujn": "穰苴（穰苴列傳候選）",
+    "jaw_b0s_ujn": "司馬穰苴",
     "lmu_nbm_rzo_AAA": "完（敬仲）"
   },
   "dates": [],
@@ -536,7 +595,7 @@
         "source_term": "田完之苗裔",
         "historicity": "historical_tradition"
       },
-      "interpretation_note": "只記明示祖先與原文苗裔或曾孫，不補直接父子或闕代。和與齊威王身份及世系仍待核版本，來源陳述不當獨立史實確證。",
+      "interpretation_note": "只記來源明示祖先與苗裔或曾孫，不補直接父子或闕代。穰苴為田完苗裔、田和為田常曾孫依原文記錄；「和」與「齊威王」依 d-shiji064-distinct-tianhe-weiwang 分人，異說保留。此為來源主張，不當獨立史實確證。",
       "reviewer": "Codex（AI 代理）"
     }
   ],

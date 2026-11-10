@@ -233,11 +233,22 @@
       "canonical_person_id": "jaw_b0s_ujn",
       "scope": "cross_chapter",
       "chapter_ids": [
+        "c-shiji-057-zhou",
         "c-shiji-064-sima",
-        "c-shiji-065-sun"
+        "c-shiji-065-sun",
+        "c-shiji-130-taishigong"
       ],
       "status": "contextual_provisional",
       "evidence": [
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p024",
+          "quote": "亞夫之用兵，持威重，執堅刃，穰苴曷有加焉！",
+          "mention_ids": [
+            "c-shiji-057-zhou:m024-0083"
+          ]
+        },
         {
           "chapter_id": "c-shiji-064-sima",
           "source_id": "s-shiji-064-sima",
@@ -267,13 +278,203 @@
           "mention_ids": [
             "c-shiji-065-sun:m008-0044"
           ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p076",
+          "quote": "自古王者而有司馬法，穰苴能申明之。作司馬穰苴列傳第四。",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m076-0010",
+            "c-shiji-130-taishigong:m076-0018"
+          ]
         }
       ],
-      "rationale": "本篇李克以司馬穰苴用兵作比較，與前篇軍事人物稱相配；引古不作穰苴在吳起時仍在世的證據。 已發ID與各篇原文保留，同書各篇不當獨立見證；身份暫接不確證史實、年代或稱號時段。",
+      "rationale": "本篇李克以司馬穰苴用兵作比較；周勃世家以「穰苴」評亞夫用兵；太史公自序以穰苴作傳名提要，與本傳人物相配。引古、評論及自序不證明穰苴與亞夫同時，也不作生平的獨立同時代見證。已發ID與各篇原文保留；身份暫接不確證年代或稱號時段。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji065-qi-wei",
+      "person_ids": [
+        "lmu_nbm_rzo_AAAAAAABAAAAAA"
+      ],
+      "canonical_person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-046-tian",
+        "c-shiji-065-sun"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p025",
+          "quote": "六年，救衞。桓公卒，子威王因齊立。是歳，故齊康公卒，絶無後，奉邑皆入田氏。",
+          "mention_ids": [
+            "c-shiji-046-tian:m025-0011"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p027",
+          "quote": "威王初卽位以來，不治，委政卿大夫，九年之閒，諸侯并伐，國人不治。於是威王召卽墨大夫而語之曰：「自子之居卽墨也，毀言日至。然吾使人視卽墨，田野辟，民人給，官無留事，東方以寧。是子不事吾左右以求譽也。」封之萬家。召阿大夫語曰：「自子之守阿，譽言日聞。然使使視阿，田野不辟，民貧苦。昔日趙攻甄，子弗能救。衞取薛陵，子弗知。是子以幣厚吾左右以求譽也。」是日，烹阿大夫，及左右嘗譽者皆并烹之。遂起兵西撃趙、衞，敗魏於濁澤而圍惠王。惠王請獻觀以和解，趙人歸我長城。於是齊國震懼，人人不敢飾非，務盡其誠。齊國大治。諸侯聞之，莫敢致兵於齊二十餘年。",
+          "mention_ids": [
+            "c-shiji-046-tian:m027-0000",
+            "c-shiji-046-tian:m027-0034"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p003",
+          "quote": "齊使者如梁，孫臏以刑徒陰見，說齊使。齊使以為奇，竊載與之齊。齊將田忌善而客待之。忌數與齊諸公子馳逐重射。孫子見其馬足不甚相遠，馬有上、中、下、輩。於是孫子謂田忌曰：「君弟重射，臣能令君勝。」田忌信然之，與王及諸公子逐射千金。及臨質，孫子曰：「今以君之下駟與彼上駟，取君上駟與彼中駟，取君中駟與彼下駟。」既馳三輩畢，而田忌一不勝而再勝，卒得王千金。於是忌進孫子於威王。威王問兵法，遂以為師。",
+          "mention_ids": [
+            "c-shiji-065-sun:m003-0102",
+            "c-shiji-065-sun:m003-0169",
+            "c-shiji-065-sun:m003-0180",
+            "c-shiji-065-sun:m003-0183"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p004",
+          "quote": "其後魏伐趙，趙急，請救於齊。齊威王欲將孫臏，臏辭謝曰：「刑餘之人不可。」於是乃以田忌為將，而孫子為師，居輜車中，坐為計謀。田忌欲引兵之趙，孫子曰：「夫解雜亂紛糾者不控棬，救鬬者不搏撠，批亢擣虛，形格勢禁，則自為解耳。今梁趙相攻，輕兵銳卒必竭於外，老弱罷於內。君不若引兵疾走大梁，據其街路，衝其方虛，彼必釋趙而自救。是我一舉解趙之圍而收獘於魏也。」田忌從之，魏果去邯鄲，與齊戰於桂陵，大破梁軍。",
+          "mention_ids": [
+            "c-shiji-065-sun:m004-0014"
+          ]
+        }
+      ],
+      "rationale": "《田敬仲完世家》記桓公卒、子威王因齊立，後續明稱齊威王；本篇在孫臏返齊、田忌賽馬及授師敘事中先稱「王／威王」，又明稱「齊威王」。國別、王號與孫臏—田忌人物脈絡相合，將兩篇指涉接回田因齊。這是同一《史記》內的跨篇對讀，不作獨立史實佐證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji065-wei-hui",
+      "person_ids": [
+        "nht_c38_x7o"
+      ],
+      "canonical_person_id": "nht_c38_x7o",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-046-tian",
+        "c-shiji-065-sun"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p027",
+          "quote": "威王初卽位以來，不治，委政卿大夫，九年之閒，諸侯并伐，國人不治。於是威王召卽墨大夫而語之曰：「自子之居卽墨也，毀言日至。然吾使人視卽墨，田野辟，民人給，官無留事，東方以寧。是子不事吾左右以求譽也。」封之萬家。召阿大夫語曰：「自子之守阿，譽言日聞。然使使視阿，田野不辟，民貧苦。昔日趙攻甄，子弗能救。衞取薛陵，子弗知。是子以幣厚吾左右以求譽也。」是日，烹阿大夫，及左右嘗譽者皆并烹之。遂起兵西撃趙、衞，敗魏於濁澤而圍惠王。惠王請獻觀以和解，趙人歸我長城。於是齊國震懼，人人不敢飾非，務盡其誠。齊國大治。諸侯聞之，莫敢致兵於齊二十餘年。",
+          "mention_ids": [
+            "c-shiji-046-tian:m027-0207",
+            "c-shiji-046-tian:m027-0210"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p031",
+          "quote": "二十六年，魏惠王圍邯鄲，趙求救於齊。齊威王召大臣而謀曰：「救趙孰與勿救？」騶忌子曰：「不如勿救。」段干朋曰：「不救則不義，且不利。」威王曰：「何也？」對曰：「夫魏氏并邯鄲，其於齊何利哉？且夫救趙而軍其郊，是趙不伐而魏全也。故不如南攻襄陵以獘魏，邯鄲拔而乘魏之獘。」威王從其計。",
+          "mention_ids": [
+            "c-shiji-046-tian:m031-0005"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p002",
+          "quote": "孫武既死，後百餘歲有孫臏。臏生阿鄄之閒，臏亦孫武之後世子孫也。孫臏嘗與龐涓俱學兵法。龐涓既事魏，得為惠王將軍，而自以為能不及孫臏，乃陰使召孫臏。臏至，龐涓恐其賢於己，疾之，則以法刑斷其兩足而黥之，欲隱勿見。",
+          "mention_ids": [
+            "c-shiji-065-sun:m002-0050"
+          ]
+        }
+      ],
+      "rationale": "本篇明言龐涓事魏、為「惠王」將軍；《田敬仲完世家》同一篇先記齊威王敗魏「圍惠王」，後明稱「魏惠王」。魏國語境與稱號、同時代人物脈絡相合，指為田世家所記魏惠王。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji065-chu-suwang",
+      "person_ids": [
+        "pjg_qbb_v5f",
+        "q60_34y_1zh_AAAA"
+      ],
+      "canonical_person_id": "q60_34y_1zh_AAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-065-sun",
+        "c-shiji-040-chu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p013",
+          "quote": "楚悼王素聞起賢，至則相楚。明法審令，捐不急之官，廢公族疏遠者，以撫養戰鬬之士。要在彊兵，破馳說之言從橫者。於是南平百越；北并陳蔡，卻三晉；西伐秦。諸侯患楚之彊。故楚之貴戚盡欲害吳起。及悼王死，宗室大臣作亂而攻吳起，吳起走之王尸而伏之。擊起之徒因射刺吳起，并中悼王。悼王既葬，太子立，乃使令尹盡誅射吳起而并中王尸者。坐射起而夷宗死者七十餘家。",
+          "mention_ids": [
+            "c-shiji-065-sun:m013-0137"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p060",
+          "quote": "悼王二年，三晉來伐楚，至乘丘而還。四年，楚伐周。鄭殺子陽。九年，伐韓，取負黍。十一年，三晉伐楚，敗我大梁、楡關。楚厚賂秦，與之平。二十一年，悼王卒，子肅王臧立。",
+          "mention_ids": [
+            "c-shiji-040-chu:m060-0075"
+          ]
+        }
+      ],
+      "rationale": "《孫子吳起列傳》敘楚悼王死、既葬而「太子立」；《楚世家》同一楚王統序明載「二十一年，悼王卒，子肅王臧立」，且後文連續記肅王在位。故本篇此「太子」暫接既有人物肅王臧。兩篇同屬《史記》，此為篇際指涉判讀，不作兩份獨立史實見證；合併人物 ID 前仍須全庫反向引用更新與檢查。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": false
+    },
+    {
+      "id": "eq-shiji065-gongshu-princess",
+      "person_ids": [
+        "wle_6pj_6oo",
+        "5j9_f5f_48v"
+      ],
+      "canonical_person_id": "5j9_f5f_48v",
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-065-sun"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p012",
+          "quote": "田文既死，公叔為相，尚魏公主，而害吳起。公叔之僕曰：「起易去也。」公叔曰：「柰何？」其僕曰：「吳起為人節廉而自喜名也。君因先與武侯言曰：『夫吳起賢人也，而侯之國小，又與彊秦壤界，臣竊恐起之無留心也。』武侯即曰：『柰何？』君因謂武侯曰：『試延以公主，起有留心則必受之。無留心則必辭矣。以此卜之。』君因召吳起而與歸，即令公主怒而輕君。吳起見公主之賤君也，則必辭。」於是吳起見公主之賤魏相，果辭魏武侯。武侯疑之而弗信也。吳起懼得罪，遂去，即之楚。",
+          "mention_ids": [
+            "c-shiji-065-sun:m012-0011",
+            "c-shiji-065-sun:m012-0121",
+            "c-shiji-065-sun:m012-0158",
+            "c-shiji-065-sun:m012-0168",
+            "c-shiji-065-sun:m012-0185"
+          ]
+        }
+      ],
+      "rationale": "本段先明言公叔「尚魏公主」，其僕隨即建議「試延以公主」；後續「即令公主怒而輕君」「吳起見公主之賤魏相」以同一謀局承接，所指看來是公叔已娶的魏公主。暫將已標記的「公主」候選與「魏公主」判為同人；未標記的後續提及仍待全庫引用更新前逐一處理，不補公主姓名或其他婚姻事件。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": false
     }
   ]
 }

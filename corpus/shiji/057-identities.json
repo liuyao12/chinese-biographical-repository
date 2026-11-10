@@ -1679,7 +1679,7 @@
     },
     {
       "id": "d-shiji057-071",
-      "person_id": "t0n_23a_eiu",
+      "person_id": "jaw_b0s_ujn",
       "surfaces": [
         "穰苴"
       ],
@@ -1694,27 +1694,52 @@
           "quote": "太史公曰：絳侯周勃始為布衣時，鄙樸人也，才能不過凡庸。及從高祖定天下，在將相位，諸呂欲作亂，勃匡國家難，復之乎正。雖伊尹、周公，何以加哉！亞夫之用兵，持威重，執堅刃，穰苴曷有加焉！足己而不學，守節不遜，終以窮困。悲夫！"
         }
       ],
-      "rationale": "按明示姓名、軍事近接、父子承爵與局部皇帝敘事暫接。周勃和勝之的絳侯分開，亞夫條侯與平曲支不混；代地韓信依韓王信近接而不接淮陰侯。未名人物、單名官員不補姓，校勘字不作定本，相術預言不作史實已驗。",
+      "rationale": "太史公以「穰苴」比擬亞夫用兵；依明示名號與本傳軍事人物語境，暫接本傳司馬穰苴。此篇僅此一處，不由比較語句推定兩人同時、年代或官職。",
       "reviewer": "Codex（AI 代理）"
     },
     {
       "id": "d-shiji057-072",
-      "person_id": "929_zmz_x6k",
+      "person_id": "yqp_nlb_p1p_ACA",
       "surfaces": [
         "太子"
       ],
-      "scope": "same_chapter",
+      "scope": "cross_chapter",
       "chapter_ids": [
+        "c-shiji-011-jingdi",
         "c-shiji-057-zhou"
       ],
       "status": "contextual_provisional",
       "evidence": [
         {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
           "paragraph_id": "c-shiji-057-zhou:p014",
-          "quote": "孝文且崩時，誡太子曰：「即有緩急，周亞夫真可任將兵。」文帝崩，拜亞夫為車騎將軍。"
+          "quote": "孝文且崩時，誡太子曰：「即有緩急，周亞夫真可任將兵。」文帝崩，拜亞夫為車騎將軍。",
+          "mention_ids": [
+            "c-shiji-057-zhou:m014-0007"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p015",
+          "quote": "孝景三年，吳楚反。亞夫以中尉為太尉，東擊吳楚。因自請上曰：「楚兵剽輕，難與爭鋒。願以梁委之，絕其糧道，乃可制。」上許之。",
+          "mention_ids": [
+            "c-shiji-057-zhou:m015-0000"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-011-jingdi",
+          "source_id": "s-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p001",
+          "quote": "孝景皇帝者，孝文之中子也。母竇太后。孝文在代時，前后有三男，及竇太后得幸，前后死，及三子更死，故孝景得立。",
+          "mention_ids": [
+            "c-shiji-011-jingdi:m001-0000",
+            "c-shiji-011-jingdi:m001-0048"
+          ]
         }
       ],
-      "rationale": "按明示姓名、軍事近接、父子承爵與局部皇帝敘事暫接。周勃和勝之的絳侯分開，亞夫條侯與平曲支不混；代地韓信依韓王信近接而不接淮陰侯。未名人物、單名官員不補姓，校勘字不作定本，相術預言不作史實已驗。",
+      "rationale": "p014記文帝臨崩所誡「太子」，隨即記文帝崩；p015轉入「孝景三年」。卷011 p001明記孝景為孝文中子，且其兄弟先卒而得立，故將此皇儲回指暫接孝景帝 yqp_nlb_p1p_ACA。卷057 p010所見「太子勝之」則是周勃侯嗣，仍分列。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1771,6 +1796,57 @@
       "rationale": "同為景帝皇后兄、封蓋侯，接王仲家族中之信；不把兩篇相異授封敘次調成同一確切年月。",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "d-shiji057-rangju-cross",
+      "person_id": "jaw_b0s_ujn",
+      "surfaces": [
+        "穰苴",
+        "司馬穰苴"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-057-zhou",
+        "c-shiji-064-sima",
+        "c-shiji-065-sun",
+        "c-shiji-130-taishigong"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-057-zhou:m024-0083"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p024",
+          "quote": "亞夫之用兵，持威重，執堅刃，穰苴曷有加焉！"
+        },
+        {
+          "chapter_id": "c-shiji-064-sima",
+          "source_id": "s-shiji-064-sima",
+          "paragraph_id": "c-shiji-064-sima:p001",
+          "quote": "司馬穰苴者，田完之苗裔也。"
+        },
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p008",
+          "quote": "起貪而好色，然用兵司馬穰苴不能過也。"
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p076",
+          "quote": "自古王者而有司馬法，穰苴能申明之。作司馬穰苴列傳第四。"
+        }
+      ],
+      "rationale": "卷057太史公將「穰苴」作為亞夫用兵的比較對象；卷064具名「司馬穰苴」且以田穰苴敘其兵事；卷065以「司馬穰苴」論用兵；卷130自序明言「穰苴」並作〈司馬穰苴列傳〉。四處稱名及軍事語境相合，暫定同指。比擬與自序提要不是穰苴生平的獨立同時代見證，亦不據此推定與亞夫同時或其年代。",
+      "reviewer": "Codex（AI 代理）"
     }
   ]
 }

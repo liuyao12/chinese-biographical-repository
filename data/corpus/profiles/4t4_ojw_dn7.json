@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "4t4_ojw_dn7",
   "canonical_person_id": "4t4_ojw_dn7",
-  "label": "西王母（趙世家傳說候選）",
-  "identity_note": null,
+  "label": "西王母",
+  "identity_note": "《趙世家》造父所見、《大宛列傳》安息長老傳聞及《司馬相如列傳》賦中同名形象暫接；文類與證言差異保留，傳聞或賦辭不作史實親見證明。",
   "review": "ai_provisional",
   "names": [
     "西王母"
@@ -45,6 +45,76 @@
       "chapter_id": "c-shiji-043-zhao",
       "source_id": "s-shiji-043-zhao",
       "work_title": "史記"
+    },
+    {
+      "number": 117,
+      "category": "liezhuan",
+      "title": "司馬相如列傳第五十七",
+      "paragraph_id": "c-shiji-117-xiangru:p053",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "而與之歸。舒閬風而搖集兮，亢烏騰而一止。低囘陰山翔以紆曲兮，吾乃今目睹西王母皬然白首。載勝而穴處兮，亦幸有三足烏爲之使。必長生若此而不死兮，雖濟萬世不足以喜。",
+      "paragraph_ids": [
+        "c-shiji-117-xiangru:p053"
+      ],
+      "mention_ids": [
+        "c-shiji-117-xiangru:m053-0233"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-117-xiangru:m053-0233": "c-shiji-117-xiangru:p053"
+      },
+      "mention_id": "c-shiji-117-xiangru:m053-0233",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-117-xiangru:m053-0233",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m053-0233"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "chapter_id": "c-shiji-117-xiangru",
+      "source_id": "s-shiji117-xiangru",
+      "work_title": "史記"
+    },
+    {
+      "number": 123,
+      "category": "liezhuan",
+      "title": "大宛列傳第六十三",
+      "paragraph_id": "c-shiji-123-dayuan:p013",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "往往有小君長，而安息役屬之，以為外國。國善眩。安息長老傳聞條枝有弱水、西王母，而未嘗見。",
+      "paragraph_ids": [
+        "c-shiji-123-dayuan:p013"
+      ],
+      "mention_ids": [
+        "c-shiji-123-dayuan:m013-0071"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-123-dayuan:m013-0071": "c-shiji-123-dayuan:p013"
+      },
+      "mention_id": "c-shiji-123-dayuan:m013-0071",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-123-dayuan:m013-0071",
+          "mention_ids": [
+            "c-shiji-123-dayuan:m013-0071"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-123",
+      "chapter_id": "c-shiji-123-dayuan",
+      "source_id": "s-shiji123-dayuan",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -72,11 +142,59 @@
           "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-117-xiangru",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "source_id": "s-shiji117-xiangru",
+      "source": {
+        "title": "史記／卷117",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷117",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
+        "revision_id": 10371549,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
+          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-123-dayuan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-123",
+      "source_id": "s-shiji123-dayuan",
+      "source": {
+        "title": "史記／卷123",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷123",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799",
+        "revision_id": 8736799,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文39段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標、blockquote排版及分類；維基連結保留顯示文字，原字未轉換，未核影像。",
+          "note": "末段索隱述贊另分層。"
+        }
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "4t4_ojw_dn7": "西王母（趙世家傳說候選）"
+    "4t4_ojw_dn7": "西王母"
   },
   "dates": [],
   "historicity": "legendary_tradition",

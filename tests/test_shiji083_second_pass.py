@@ -81,7 +81,7 @@ class LuZouSecondPassTests(unittest.TestCase):
 
     def test_execution_allusions_do_not_name_unnamed_chu_king(self):
         p = self.chapter()['paragraphs'][16]
-        expected = {'李斯':'49g_7az_e4i', '胡亥':'ao3_0fy_d45_AAAA', '箕子':'8a9_tj8_6i7', '比干':'xtq_oi8_w82', '子胥':'g9h_5ih_ug1_A', '楚王':'y9v_xi8_8n3'}
+        expected = {'李斯':'49g_7az_e4i', '胡亥':'ao3_0fy_d45_AAAA', '箕子':'8a9_tj8_6i7', '比干':'xtq_oi8_w82', '子胥':'zk0_g6b_nbq_B', '楚王':'y9v_xi8_8n3'}
         for surface, pid in expected.items():
             self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface']==surface}, {pid})
         self.assertIn('子胥鴟夷', p['text'])
