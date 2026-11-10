@@ -93,14 +93,15 @@
       "六子名單不推排行；出繼不改生父，未載生母、婚配、出生年不補。",
       "兩處來源所報2分存為未決ordinal讀法，不作已解出生序。",
       "p028所養、命紹、還本及定義慶分存歷史經過；不產義隆永久嗣父。",
-      "p029兩太妃氏稱實指人物保留；後薨無年，不推生母/養母；未處理的微管/兩獻典故另列後續，不稱該段所有典故完成。"
+      "p029兩太妃氏稱實指人物保留；後薨無年，不推生母/養母；未處理的微管/兩獻典故另列後續，不稱該段所有典故完成。",
+      "p016–p017本批只補已登錄之齊王、袁粲、褚淵、順帝、秉、韞；卜伯興、王敬則、秉二子及其餘未登錄人物仍待建檔，代詞「之」不標為人名。"
     ],
     "fixed_transcription_contract": "wuyingdian_song051_transcription",
     "formal_phase": "song051_direct_family_phase1",
     "additional_annotation_phase": {
       "kind": "song051_yixin_complete_unit_phase2",
       "contract_path": "source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json",
-      "coverage": "義欣嗣至義欣弟義慶前完整908字人物第一輪；另p014三錨僅補玠/秉必要近系證，其他單元仍待逐人標註；不稱全卷完成。 另完整義融300字（p012義慶弟義融起至p013奕海陵太守止）第一輪，10名來源人物；其他單元仍待。",
+      "coverage": "義欣嗣至義欣弟義慶前完整908字人物第一輪；另p014三錨僅補玠/秉必要近系證，其他單元仍待逐人標註；不稱全卷完成。 另完整義融300字（p012義慶弟義融起至p013奕海陵太守止）第一輪，10名來源人物；其他單元仍待。；p016–p017共28處人物標註及齊王、袁粲等跨段指認納入既有單元契約",
       "human_reviewed": false,
       "model": null
     }
@@ -1300,16 +1301,6 @@
           "confidence": "high"
         },
         {
-          "id": "c-songshu-051-wyd1739-zongshi:p013:m0084",
-          "start": 84,
-          "end": 85,
-          "surface": "之",
-          "kind": "person",
-          "person_id": "3qs_nqa_ioa_AABCB",
-          "source_role_key": "yirong-unit:yr_xi",
-          "confidence": "high"
-        },
-        {
           "id": "c-songshu-051-wyd1739-zongshi:p013:m0139",
           "start": 139,
           "end": 141,
@@ -1484,8 +1475,159 @@
       "id": "c-songshu-051-wyd1739-zongshi:p016",
       "text": "軍所給加兵自隨入殿二年加散騎常侍丹陽尹解吏部封當陽縣侯食邑千戶與齊王袁粲褚淵分日入直決機事四年遷中書令加撫軍將軍常侍尹如故順帝即位轉尚書令中領軍將軍如故時齊王輔政四海屬心秉知鼎命有在密懷異圖袁粲鎮石頭不識天命沈攸之舉兵反齊王入屯朝堂粲潛與秉及諸大將黃回等謀欲作亂本期夜會石頭旦乃舉兵秉素恇怯騷動憂不自安再晡後便自丹陽郡車載婦女盡室奔石頭部曲數百赫奕滿道旣至見粲粲驚曰何遽便來事今敗矣秉曰今得見公萬死亦何恨從弟中領軍韞直在",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0032",
+          "kind": "person",
+          "start": 32,
+          "end": 34,
+          "surface": "齊王",
+          "person_id": "47p_kjh_ez7",
+          "source_role_key": "yixin-unit:qiwang",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0034",
+          "kind": "person",
+          "start": 34,
+          "end": 36,
+          "surface": "袁粲",
+          "person_id": "ez7_i28_72u",
+          "source_role_key": "yixin-unit:yuancan",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0036",
+          "kind": "person",
+          "start": 36,
+          "end": 38,
+          "surface": "褚淵",
+          "person_id": "jyx_72x_8t2",
+          "source_role_key": "yixin-unit:chuyu",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0061",
+          "kind": "person",
+          "start": 61,
+          "end": 63,
+          "surface": "順帝",
+          "person_id": "6y2_apj_l05",
+          "source_role_key": "yixin-unit:shundi",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0077",
+          "kind": "person",
+          "start": 77,
+          "end": 79,
+          "surface": "齊王",
+          "person_id": "47p_kjh_ez7",
+          "source_role_key": "yixin-unit:qiwang",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0085",
+          "kind": "person",
+          "start": 85,
+          "end": 86,
+          "surface": "秉",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0095",
+          "kind": "person",
+          "start": 95,
+          "end": 97,
+          "surface": "袁粲",
+          "person_id": "ez7_i28_72u",
+          "source_role_key": "yixin-unit:yuancan",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0110",
+          "kind": "person",
+          "start": 110,
+          "end": 112,
+          "surface": "齊王",
+          "person_id": "47p_kjh_ez7",
+          "source_role_key": "yixin-unit:qiwang",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0116",
+          "kind": "person",
+          "start": 116,
+          "end": 117,
+          "surface": "粲",
+          "person_id": "ez7_i28_72u",
+          "source_role_key": "yixin-unit:yuancan",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0119",
+          "kind": "person",
+          "start": 119,
+          "end": 120,
+          "surface": "秉",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0141",
+          "kind": "person",
+          "start": 141,
+          "end": 142,
+          "surface": "秉",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0179",
+          "kind": "person",
+          "start": 179,
+          "end": 180,
+          "surface": "粲",
+          "person_id": "ez7_i28_72u",
+          "source_role_key": "yixin-unit:yuancan",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0180",
+          "kind": "person",
+          "start": 180,
+          "end": 181,
+          "surface": "粲",
+          "person_id": "ez7_i28_72u",
+          "source_role_key": "yixin-unit:yuancan",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0191",
+          "kind": "person",
+          "start": 191,
+          "end": 192,
+          "surface": "秉",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p016:m0207",
+          "kind": "person",
+          "start": 207,
+          "end": 208,
+          "surface": "韞",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
@@ -1499,8 +1641,139 @@
       "id": "c-songshu-051-wyd1739-zongshi:p017",
       "text": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0015",
+          "kind": "person",
+          "start": 15,
+          "end": 17,
+          "surface": "齊王",
+          "person_id": "47p_kjh_ez7",
+          "source_role_key": "yixin-unit:qiwang",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0018",
+          "kind": "person",
+          "start": 18,
+          "end": 19,
+          "surface": "秉",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0022",
+          "kind": "person",
+          "start": 22,
+          "end": 24,
+          "surface": "齊王",
+          "person_id": "47p_kjh_ez7",
+          "source_role_key": "yixin-unit:qiwang",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0034",
+          "kind": "person",
+          "start": 34,
+          "end": 35,
+          "surface": "韞",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0035",
+          "kind": "person",
+          "start": 35,
+          "end": 36,
+          "surface": "韞",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0046",
+          "kind": "person",
+          "start": 46,
+          "end": 47,
+          "surface": "韞",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0060",
+          "kind": "person",
+          "start": 60,
+          "end": 61,
+          "surface": "粲",
+          "person_id": "ez7_i28_72u",
+          "source_role_key": "yixin-unit:yuancan",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0062",
+          "kind": "person",
+          "start": 62,
+          "end": 63,
+          "surface": "秉",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0080",
+          "kind": "person",
+          "start": 80,
+          "end": 81,
+          "surface": "秉",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0086",
+          "kind": "person",
+          "start": 86,
+          "end": 87,
+          "surface": "秉",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0108",
+          "kind": "person",
+          "start": 108,
+          "end": 109,
+          "surface": "秉",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0132",
+          "kind": "person",
+          "start": 132,
+          "end": 133,
+          "surface": "秉",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0136",
+          "kind": "person",
+          "start": 136,
+          "end": 137,
+          "surface": "秉",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
