@@ -319,6 +319,84 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji058-wudi",
+      "person_ids": [
+        "yqp_nlb_p1p_ACAA"
+      ],
+      "canonical_person_id": "yqp_nlb_p1p_ACAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-hanshu-006-wudi",
+        "c-shiji-012-wudi",
+        "c-shiji-058-liang"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-012-wudi",
+          "source_id": "s-shiji-012-wudi",
+          "paragraph_id": "c-shiji-012-wudi:p001",
+          "quote": "孝武皇帝者，孝景中子也。母曰王太后。孝景四年，以皇子為膠東王。孝景七年，栗太子廢為臨江王，以膠東王為太子。孝景十六年崩，太子即位，為孝武皇帝。孝武皇帝初即位，尤敬鬼神之祀。",
+          "mention_ids": [
+            "c-shiji-012-wudi:m001-0000",
+            "c-shiji-012-wudi:m001-0066",
+            "c-shiji-012-wudi:m001-0071"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p017",
+          "quote": "元朔中，睢陽人類犴反者，人有辱其父，而與淮陽太守客出同車。太守客出下車，類犴反殺其仇於車上而去。淮陽太守怒，以讓梁二千石。二千石以下求反甚急，執反親戚。反知國陰事，乃上變事，具告知王與大母爭樽狀。時丞相以下見知之，欲以傷梁長吏，其書聞天子。天子下吏驗問，有之。公卿請廢襄為庶人。天子曰：「李太后有淫行，而梁王襄無良師傅，故陷不義。」乃削梁八城，梟任王后首于市。梁餘尚有十城。襄立三十九年卒，謚為平王。子無傷立為梁王也。",
+          "mention_ids": [
+            "c-shiji-058-liang:m017-0117",
+            "c-shiji-058-liang:m017-0120",
+            "c-shiji-058-liang:m017-0139"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p018",
+          "quote": "濟川王明者，梁孝王子，以桓邑侯孝景中六年為濟川王。七歲，坐射殺其中尉，漢有司請誅，天子弗忍誅，廢明為庶人。遷房陵，地入于漢為郡。",
+          "mention_ids": [
+            "c-shiji-058-liang:m018-0041"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p019",
+          "quote": "濟東王彭離者，梁孝王子，以孝景中六年為濟東王。二十九年，彭離驕悍，無人君禮，昏暮私與其奴、亡命少年數十人行剽殺人，取財物以為好。所殺發覺者百餘人，國皆知之，莫敢夜行。所殺者子上書言。漢有司請誅，上不忍，廢以為庶人，遷上庸，地入于漢，為大河郡。",
+          "mention_ids": [
+            "c-shiji-058-liang:m019-0097"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《漢書》卷六〈武帝紀〉",
+          "source_id": "s-hanshu-006-wudi",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+          "quote": "【元朔元年】冬十一月",
+          "scope": "reign_era_identification",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書》卷六〈武帝紀〉",
+          "source_id": "s-hanshu-006-wudi",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+          "quote": "三年春……濟川王明坐殺太傅、中傅廢遷防陵。",
+          "scope": "parallel_primary_chronology",
+          "image_verified": false
+        }
+      ],
+      "rationale": "《史記》卷十二p001明記武帝承景帝而即位；卷五十八p017以元朔紀事，p018、p019又以景帝中六年為封王起點並分別記七年、二十九年後事。對讀《漢書》卷六〈武帝紀〉，元朔及濟川王明事件均見於武帝紀。據此將五處稱謂接至既有劉徹人物ID；本篇同段的「孝景」仍另指景帝。同書互文及平行正史作身份證據，不視為版本或史實獨立印證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "identity_materialized": true
     }
   ]
 }
