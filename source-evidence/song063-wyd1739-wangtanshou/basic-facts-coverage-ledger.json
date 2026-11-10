@@ -694,9 +694,34 @@
       },
       "limits": "受任人是僧虔；domain不是477–479任期，不以來源在末尾即填任終479。",
       "first_batch_disposition": "pending_or_nonfact_as_limited_in_original_reading"
+    },
+    {
+      "claim_id": "research:f036",
+      "category": "kinship",
+      "source": {
+        "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p003",
+        "start": 48,
+        "end": 51,
+        "quote": "從兄華",
+        "text_layer": "received_chapter"
+      },
+      "role_key": "tanshou",
+      "interpretation": {
+        "relation": "agnatic_cousin",
+        "other_role": "hua",
+        "source_term": "從兄",
+        "relative_birth_order": {
+          "older_role": "hua",
+          "younger_role": "tanshou",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "limits": "同父系旁支、同輩而華較年長；不推定親等、共同祖先或數字排行。",
+      "first_batch_disposition": "typed agnatic cousin with relative age; no absolute ordinal or ancestor distance"
     }
   ],
-  "claim_count": 35,
+  "claim_count": 36,
   "no_age_attested_in_selected_unit": true,
   "no_burial_or_birth_place_attested": true,
   "all_life_dates_research_only_not_native_patch": true

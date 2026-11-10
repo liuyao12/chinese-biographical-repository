@@ -35,6 +35,7 @@ def build(ch,root):
   return a
  kin=[relation('hong-younger','tanshou','brother','hong','弘少弟','p001',{'relative_birth_order':{'older_person_id':roles['hong'],'younger_person_id':roles['tanshou'],'operator':'lt','scope':'siblings','older_ordinal':None,'younger_ordinal':None}}),
       relation('qiu-congdi','qiu','agnatic_cousin','tanshou','從弟球','p001',{'kinship_structure':{'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'younger'},'relative_birth_order':{'older_person_id':roles['tanshou'],'younger_person_id':roles['qiu'],'operator':'lt','scope':'agnatic_cousins','older_ordinal':None,'younger_ordinal':None}}),
+      relation('hua-congxiong','hua','agnatic_cousin','tanshou','從兄華','p003',{'kinship_structure':{'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'older'},'relative_birth_order':{'older_person_id':roles['hua'],'younger_person_id':roles['tanshou'],'operator':'lt','scope':'agnatic_cousins','older_ordinal':None,'younger_ordinal':None}}),
       relation('sengchuo-father','sengchuo','father','tanshou','子僧綽','p006',{'lineage':'paternal'}),
       relation('sengqian-father','sengqian','father','tanshou','少子僧虔','p006',{'lineage':'paternal','birth_order':{'parent_person_id':roles['tanshou'],'scope':'sons_of_parent','ordinal':None,'position':'younger_or_youngest','interpretation_status':'ambiguous'}})]
  names=[]
