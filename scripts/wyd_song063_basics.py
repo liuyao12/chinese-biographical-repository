@@ -24,7 +24,7 @@ def build(ch,root):
   if p['text'].count(term)!=1:raise ValueError('063 exact source phrase')
   i=p['text'].index(term);return dict(paragraph_id=p['id'],start=i,end=i+len(term),surface=term)
  def ev(p,**extra):return dict(work_id=ch['work_id'],book_id=ch['book_id'],source_id=ch['source_id'],chapter_id=CID,paragraph_id=p['id'],quote=p['text'],**extra)
- def relation(key,subject,predicate,obj,term,pkey,extra=None,interpretation_note=None,context=None):
+ def relation(key,subject,predicate,obj,term,pkey,extra=None,interpretation_note=None,interpretive_reference=None):
   p=ps[pkey];s=mark(p,subject);q={'source_term':term};q.update(extra or{})
   evidence=[]
   if obj=='tanshou'and pkey=='p006':
@@ -33,7 +33,7 @@ def build(ch,root):
   a=dict(id='a-song063-wyd-'+key,subject_person_id=roles[subject],predicate=predicate,object_person_id=roles[obj],status='source_attested',qualifiers=q,evidence=evidence,reviewer='Codex（AI代理）',human_reviewed=False,model=None)
   if len(evidence)==2:a['context']={'kind':'adjacent_paragraphs','paragraph_ids':[ps['p005']['id'],p['id']],'rationale':'本傳死亡/追贈與篇末明子句連續，前段曇首主體、後段子名；不指最後出現的世祖。'}
   if interpretation_note:a['interpretation_note']=interpretation_note
-  if context:a['context']=context
+  if interpretive_reference:a['interpretive_reference']=interpretive_reference
   return a
  kin=[relation('hong-younger','tanshou','brother','hong','弘少弟','p001',{'relative_birth_order':{'older_person_id':roles['hong'],'younger_person_id':roles['tanshou'],'operator':'lt','scope':'siblings','older_ordinal':None,'younger_ordinal':None}}),
       relation('qiu-congdi','qiu','agnatic_cousin','tanshou','從弟球','p001',{'kinship_structure':{'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'younger'},'relative_birth_order':{'older_person_id':roles['tanshou'],'younger_person_id':roles['qiu'],'operator':'lt','scope':'agnatic_cousins','older_ordinal':None,'younger_ordinal':None}}),
