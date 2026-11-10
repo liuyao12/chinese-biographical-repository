@@ -168,17 +168,20 @@
       "person_id": "yqp_nlb_p1p_DBAAAA",
       "event_type": "death",
       "status": "source_attested",
-      "date_expression": "地節元年（西元前69年）",
+      "date_expression": "地節元年",
       "source_term": "楚王延壽謀反，自殺",
       "evidence": [
         {
           "external_source_id": "s-ctext-hanshu-008-xuandi",
           "url": "https://ctext.org/wiki.pl?chapter=409008&if=gb",
-          "quote": "地節元年……冬十一月，楚王延壽謀反，自殺。"
+          "quote": "冬十一月，楚王延壽謀反，自殺。",
+          "date_expression_quote": "地節元年"
         }
       ],
       "reviewer": "AI 代理",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "western_year_label": "西元前69年",
+      "western_year_value": -68
     }
   ],
   "mentions": [
@@ -341,9 +344,10 @@
       "astronomical_year": -68,
       "precision": "year",
       "status": "ai_normalized_from_source_date",
-      "source_quote": "地節元年冬十一月，楚王延壽謀反，自殺。",
+      "source_quote": "冬十一月，楚王延壽謀反，自殺。",
       "source_reference_id": "review-shiji060-chuwang-yanshou-identity",
-      "explanation": "地節元年對應西元前69年；保存《漢書》紀年原文及逐年換算。"
+      "explanation": "地節元年對應西元前69年；保存《漢書》紀年原文及逐年換算。",
+      "date_expression_quote": "地節元年"
     }
   ],
   "birth_order_constraints": [],
