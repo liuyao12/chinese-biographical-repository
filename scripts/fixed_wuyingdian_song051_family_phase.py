@@ -4,7 +4,7 @@ import json,copy,hashlib
 CID='c-songshu-051-wyd1739-zongshi'
 CH='corpus/songshu/051-wyd1739.json'
 REF='source-evidence/song051-wyd1739-zongshi/formal-role-contract.json'
-CONTRACT_SHA='539db8bda29831fa8c52f415d18229724c66dd272084ccbe1a218a960c125b93'
+CONTRACT_SHA='93544f531a7b2d58b47322f5276732e067e6ab645e5f2de883e8e81d4cdc5a5e'
 FACTS='corpus/songshu/051-wyd1739-assertions.json'
 NAMES='corpus/songshu/051-wyd1739-name-components.json'
 KIND='fixed_wyd_song051_direct_family_phase1'
@@ -46,8 +46,11 @@ def resolve_existing(root,c):
  return resolve(root,{'bindings':bindings})
 def phase_chapter(c,roles):
  ch=copy.deepcopy(c['source_before']);ch['annotation']=copy.deepcopy(c['phase_annotation'])
+ preserved={row['paragraph_id']:row for row in c.get('preexisting_annotations', [])}
  for p in ch['paragraphs']:
-  if not p['id'].endswith((':p016', ':p017')):
+  if p['id'] in preserved:
+   prior=preserved[p['id']];p['mentions']=materialize(prior['mentions'],roles);p['annotation_status']=prior['annotation_status']
+  else:
    p['mentions']=[materialize(row['marker'],roles)for row in c['markers']if row['paragraph_id']==p['id']]
   if p['mentions']:p['annotation_status']='in_progress'
  return ch
