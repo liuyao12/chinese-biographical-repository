@@ -1203,7 +1203,7 @@
 | `631_ags_hxe` | 鯁 | [《史記・韓世家》][114] | [JSON](631_ags_hxe.json) |
 | `631_j7q_04t` | 天子 | [《史記・商君列傳》][137] | [JSON](631_j7q_04t.json) |
 | `632_664_al2` | 夏說 | [《史記・淮陰侯列傳》][161] | [JSON](632_664_al2.json) |
-| `635_2fb_cfw` | 晉熙王燮 | [《南齊書・王琨 張岱 褚炫 何戢 王延之 阮韜》][66] | [JSON](635_2fb_cfw.json) |
+| `635_2fb_cfw` | 晉熙王燮 | [《南齊書・王琨 張岱 褚炫 何戢 王延之 阮韜》][66]、[《南齊書・虞玩之 劉休 沈沖 庾杲之 王諶》][68] | [JSON](635_2fb_cfw.json) |
 | `639_jt7_ns0` | 周蘭 | [《史記・樊酈滕灌列傳》][164] | [JSON](639_jt7_ns0.json) |
 | `63b_09a_c6f` | 蘇逸 | [《晉書・叛臣三》][62] | [JSON](63b_09a_c6f.json) |
 | `63c_vmw_dyi` | 桂陽王鑠 | [《南齊書・江斆 何昌㝢 謝𤅢 王思遠》][69] | [JSON](63c_vmw_dyi.json) |
@@ -2093,7 +2093,6 @@
 | `af6_mhg_pyn` | 呂種 | [《史記・呂后本紀》][96]、[《史記・惠景間侯者年表》][249] | [JSON](af6_mhg_pyn.json) |
 | `af7_a2c_011` | 韓晃 | [《晉書・叛臣三》][62] | [JSON](af7_a2c_011.json) |
 | `afb_ahe_sqp` | 趙堯 | [《史記・張丞相列傳》][165] | [JSON](afb_ahe_sqp.json) |
-| `afc_k9r_hjr` | 衡父 | [《史記・秦本紀》][92] | [JSON](afc_k9r_hjr.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
