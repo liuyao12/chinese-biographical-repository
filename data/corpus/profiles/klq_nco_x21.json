@@ -140,19 +140,16 @@
       "id": "d-song051-daokao-chongxian-dowager",
       "person_id": "klq_nco_x21",
       "surfaces": [
-        "崇憲太后",
-        "路惠男",
-        "路淑媛"
+        "崇憲太后"
       ],
-      "scope": "cross_chapter",
+      "scope": "same_chapter",
       "chapter_ids": [
-        "c-songshu-051-wyd1739-zongshi",
-        "c-songshu-041-houfei"
+        "c-songshu-051-wyd1739-zongshi"
       ],
       "status": "contextual_provisional",
       "confidence_level": "high",
       "identification_basis": {
-        "kind": "same_work_cross_chapter_explicit_title_and_name",
+        "kind": "same_work_external_digital_text_explicit_title_and_name",
         "target_mention_ids": [
           "c-songshu-051-wyd1739-zongshi:p044:m0064"
         ]
@@ -172,14 +169,33 @@
       ],
       "references": [
         {
-          "title": "《宋書》卷四十一〈后妃列傳·文帝路淑媛〉（識典古籍數位文本；待武英殿本核校）",
+          "title": "《宋書》卷四十一〈后妃列傳·文帝路淑媛〉（識典古籍數位轉錄）",
           "url": "https://www.shidianguji.com/zh/book/LS0006/chapter/LS0006_225",
-          "quote": "文帝路淑媛，諱惠男也。……上即位……奉尊號曰皇太后，宮曰崇憲。……太宗踐阼，號崇憲太后。",
-          "scope": "same-work-explicit-biographical-identification",
+          "quote": "諱惠男，丹楊建康人也。",
+          "scope": "external_same_work_name_identification",
+          "provider": "識典古籍",
+          "work_title": "《宋書》",
+          "chapter_title": "卷四十一〈后妃列傳·文帝路淑媛〉",
+          "transcription_witness": "識典古籍數位轉錄",
+          "edition": null,
+          "accessed_on": "2026-11-11",
+          "image_verified": false
+        },
+        {
+          "title": "《宋書》卷四十一〈后妃列傳·文帝路淑媛〉（識典古籍數位轉錄）",
+          "url": "https://www.shidianguji.com/zh/book/LS0006/chapter/LS0006_225",
+          "quote": "太宗踐阼，號崇憲太后。初太宗少失所生，爲太后所攝養。",
+          "scope": "external_same_work_posthumous_title_identification",
+          "provider": "識典古籍",
+          "work_title": "《宋書》",
+          "chapter_title": "卷四十一〈后妃列傳·文帝路淑媛〉",
+          "transcription_witness": "識典古籍數位轉錄",
+          "edition": null,
+          "accessed_on": "2026-11-11",
           "image_verified": false
         }
       ],
-      "rationale": "同書卷四十一〈文帝路淑媛〉明載路淑媛諱惠男，孝武帝即位尊為皇太后、宮曰崇憲；後文又明載太宗踐阼號崇憲太后。卷五十一同一劉遵考官歷段稱「崇憲太后崩」，所指即路惠男。識典數位文本僅作同書身份橋，非本批基礎正文或武英殿本校勘；保留來源及底本待核。",
+      "rationale": "卷五十一本傳「崇憲太后崩」只在本庫保留原段提及。識典古籍所錄卷四十一路淑媛篇明載諱惠男，並載太宗踐阼號崇憲太后及其攝養太宗；據此外部同書數位文本暫接。卷四十一正文尚未收入本庫，故不把外部引文偽作已標註章篇證據；待武英殿本核校。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

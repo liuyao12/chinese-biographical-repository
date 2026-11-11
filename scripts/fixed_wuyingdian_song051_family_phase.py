@@ -4,7 +4,7 @@ import json,copy,hashlib
 CID='c-songshu-051-wyd1739-zongshi'
 CH='corpus/songshu/051-wyd1739.json'
 REF='source-evidence/song051-wyd1739-zongshi/formal-role-contract.json'
-CONTRACT_SHA='66143d6bc349cd390fad4122aa8f14e31a95c76f51cda1d30be316022cab3c60'
+CONTRACT_SHA='a4b06051b652ffa069cbf32cb552988013cfff039a925bfa754d0a6cd97db1a8'
 FACTS='corpus/songshu/051-wyd1739-assertions.json'
 NAMES='corpus/songshu/051-wyd1739-name-components.json'
 KIND='fixed_wyd_song051_direct_family_phase1'

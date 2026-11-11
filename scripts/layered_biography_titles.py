@@ -164,7 +164,9 @@ def address_valid(a,ch):
  try:
   b=a['source_address_binding'];e,=a['evidence'];p=next(p for p in ch['paragraphs']if p['id']==e['paragraph_id']);t=p['text'];ms={m['id']:m for m in p['mentions']};rs={k:ms[v]for k,v in b['roles'].items()};scope=b['scope_anchor'];place=b['place_anchor'];subject=rs[b['subject_role']]
   assert b['kind']=='layered_biography_address'and b['source_revision']==ch['source']['revision_id']and b['paragraph_sha256']==hashlib.sha256(t.encode()).hexdigest()and exact(p,scope)and exact(p,place)and place['surface']==a['place']['source_name']and a['person_id']==subject['person_id']and e['person_mention_id']==subject['id']and e['quote']==t and e['chapter_id']==ch['id']and e['source_id']==ch['source_id']
-  assert all(m['kind']=='person'and t[m['start']:m['end']]==m['surface']for m in rs.values())
+  assert all(m['kind']==('pronoun' if k=='subject_pronoun' else 'person')
+             and m.get('person_id') and t[m['start']:m['end']]==m['surface']
+             for k,m in rs.items())
   rule=b['rule']
   if rule=='biography_origin':
    s=rs['subject'];style=rs['style'];return a['relation']=='biographical_origin'and s['start']==scope['start']==0 and style['person_id']==s['person_id']and t[s['end']:style['start']]=='字'and style['end']==place['start']and scope['surface']==s['surface']+'字'+style['surface']+place['surface']+'人也'and a['source_term']==place['surface']+'人也'

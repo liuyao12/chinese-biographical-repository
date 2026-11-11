@@ -55,11 +55,18 @@ def non_parental_relation_valid(assertion, paragraphs, assertions=None):
     ms = {m['id']: m for m in p.get('mentions', [])}
     child = ms.get(e.get('subject_person_mention_id'))
     other = ms.get(e.get('object_person_mention_id'))
+    child_kind_ok = bool(child) and (child.get('kind') == 'person' or
+                                     (child.get('kind') == 'pronoun' and
+                                      q.get('care_basis') in ('explicit_yang', 'speaker_recalls_rearing')))
+    child_person_id = child.get('person_id') if child else None
+    other_person_id = other.get('person_id') if other else None
     if (not isinstance(term, str) or not term or term not in text
-            or not child or not other or child.get('kind') != 'person' or other.get('kind') != 'person'
-            or child.get('person_id') != assertion.get('subject_person_id')
-            or other.get('person_id') != assertion.get('object_person_id')
-            or child['person_id'] == other['person_id']):
+            or not child_kind_ok or not other or other.get('kind') != 'person'
+            or not isinstance(child_person_id, str) or not child_person_id
+            or not isinstance(other_person_id, str) or not other_person_id
+            or child_person_id != assertion.get('subject_person_id')
+            or other_person_id != assertion.get('object_person_id')
+            or child_person_id == other_person_id):
         return False
     starts = [i for i in range(len(text)) if text.startswith(term, i)]
     if not any(i <= other['start'] < other['end'] <= i + len(term) for i in starts):
