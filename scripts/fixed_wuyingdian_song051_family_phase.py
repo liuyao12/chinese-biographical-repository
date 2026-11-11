@@ -4,7 +4,7 @@ import json,copy,hashlib
 CID='c-songshu-051-wyd1739-zongshi'
 CH='corpus/songshu/051-wyd1739.json'
 REF='source-evidence/song051-wyd1739-zongshi/formal-role-contract.json'
-CONTRACT_SHA='e5cbd5f1cd3d42e22234c018c30739c2715e367704071d091c0b7f143ca992a6'
+CONTRACT_SHA='5ce8b92cf4e370bcf8f40aef3535b0c89065c9adb76824685b9472fc7bab8472'
 FACTS='corpus/songshu/051-wyd1739-assertions.json'
 NAMES='corpus/songshu/051-wyd1739-name-components.json'
 KIND='fixed_wyd_song051_direct_family_phase1'
@@ -48,7 +48,12 @@ def phase_chapter(c,roles):
  ch=copy.deepcopy(c['source_before']);ch['annotation']=copy.deepcopy(c['phase_annotation'])
  for p in ch['paragraphs']:
   rows=[row for row in c['markers']if row['paragraph_id']==p['id']]
-  p['mentions']=[materialize(row['marker'],roles)for row in rows]
+  source_mentions=copy.deepcopy(p.get('mentions',[]))
+  generated=[materialize(row['marker'],roles)for row in rows]
+  generated_ids={m['id']for m in generated}
+  need(not any(m.get('id')in generated_ids for m in source_mentions),'來源續標與有限親族錨ID碰撞')
+  p['mentions']=source_mentions+generated
+  p['mentions'].sort(key=lambda m:(m.get('start',0),m.get('end',0),m.get('id','')))
   if p['mentions']:p['annotation_status']=next((row['paragraph_status']for row in rows if row.get('paragraph_status')),'in_progress')
  return ch
 def collect_roles(ch,c):
@@ -129,6 +134,9 @@ def _phase1_context(root,ch=None,check_sidecars=True):
  for p in ch['paragraphs']+intro['paragraphs']:
   owner=ch if p['id'].startswith(CID+':')else intro
   for m in p['mentions']:
+   if m.get('kind')=='unresolved':
+    need(m.get('person_id')is None and m.get('status')=='unresolved','未決姓名不應暗連人物ID')
+    continue
    person=people.get(m['person_id']);need(bool(person),'人物未登記')
    need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'缺反向alias')
    e=dict(work_id=owner['work_id'],book_id=owner['book_id'],source_id=owner['source_id'],chapter_id=owner['id'],paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'缺反向evidence')
@@ -328,6 +336,9 @@ def _phase2_context(root,ch=None,check_sidecars=True):
  for p in ch['paragraphs']+intro['paragraphs']:
   owner=ch if p['id'].startswith(CID+':')else intro
   for m in p['mentions']:
+   if m.get('kind')=='unresolved':
+    need(m.get('person_id')is None and m.get('status')=='unresolved','未決姓名不應暗連人物ID')
+    continue
    person=people.get(m['person_id']);need(bool(person),'人物未登記')
    need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'缺反向alias')
    e=dict(work_id=owner['work_id'],book_id=owner['book_id'],source_id=owner['source_id'],chapter_id=owner['id'],paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'缺反向evidence')
