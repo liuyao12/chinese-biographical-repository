@@ -1079,7 +1079,7 @@
 | `ABAACAA` | 王嘏 | [《晉書・王導》][40]、[《晉書・叛臣二》][60] | [JSON](7r6_k52_qji_ABAACAA.json) |
 | `ABAACAAA` | 王恢（王嘏子） | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAACAAA.json) |
 | `ABAAD` | 王協 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAD.json) |
-| `ABAAE` | 王劭 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAE.json) |
+| `ABAAE` | 王邵 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAE.json) |
 | `ABAAED` | 王穆（王劭子） | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAED.json) |
 | `ABAAEDA` | 王簡 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAEDA.json) |
 | `ABAAEDB` | 王智 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAEDB.json) |
@@ -3515,7 +3515,6 @@
 | `A` | 鄭阿春前婚所生子（未名） | [《晉書・后妃下》][25] | [JSON](vs9_1es_k35_A.json) |
 
 </details>
-
 
 <details><summary><code>vty_3n0_0ed</code> 病疽卒父（孫吳列傳候選）（2 名）</summary>
 
