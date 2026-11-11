@@ -37,7 +37,6 @@
 | `mhe_05y_s6w` | 虞預 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47]、[《三國志・桓二陳徐衞盧傳》][84] | [JSON](mhe_05y_s6w.json) |
 | `mi0_e91_pmn` | 休（確叔父，永嘉太守） | [《宋書・王僧達 顏竣》][227] | [JSON](mi0_e91_pmn.json) |
 | `mii_pxr_jrl` | 破石 | [《史記・扁鵲倉公列傳》][174] | [JSON](mii_pxr_jrl.json) |
-| `mil_8wg_ohj` | 孔子 | [《史記・貨殖列傳》][198] | [JSON](mil_8wg_ohj.json) |
 | `mio_z5f_ri1` | 楚威王 | [《史記・蘇秦列傳》][138] | [JSON](mio_z5f_ri1.json) |
 | `miw_t0v_k64` | 呂越人 | [《史記・西南夷列傳》][185]、[《史記・司馬相如列傳》][186]、[《史記・大宛列傳》][192] | [JSON](miw_t0v_k64.json) |
 | `mj1_mir_ncl` | 昌（成弟） | [《史記・扁鵲倉公列傳》][174] | [JSON](mj1_mir_ncl.json) |
@@ -214,7 +213,6 @@
 | `nln_ldz_i3j` | 范雲 | [《梁書・裴子野 顧協 徐摛 鮑泉》][64]、[《南史・范泰　荀伯子　徐廣　鄭鮮之　裴松之　何承天》][75] | [JSON](nln_ldz_i3j.json) |
 | `nlp_uso_3gl` | 車灌 | [《晉書・叛臣一》][59] | [JSON](nlp_uso_3gl.json) |
 | `nlt_msz_iuz` | 雍將軍（未名） | [《史記・樊酈滕灌列傳》][164] | [JSON](nlt_msz_iuz.json) |
-| `nmf_bg9_hdz` | 孔子 | [《史記・平原君虞卿列傳》][145] | [JSON](nmf_bg9_hdz.json) |
 | `nnj_520_wdk` | 簀中救范守者未名 | [《史記・范睢蔡澤列傳》][148] | [JSON](nnj_520_wdk.json) |
 | `nnz_9nd_38q` | 趙氏〔蕭卓命婦〕 | [《宋書・后妃》][204] | [JSON](nnz_9nd_38q.json) |
 | `no0_6y9_swo` | 齊使者 | [《史記・孫子吳起列傳》][134] | [JSON](no0_6y9_swo.json) |
@@ -1572,7 +1570,6 @@
 | `w6w_2q4_c9g` | 商君 | [《史記・魏世家》][113] | [JSON](w6w_2q4_c9g.json) |
 | `w7a_pl5_1it` | 叔帶 | [《史記・周本紀》][91] | [JSON](w7a_pl5_1it.json) |
 | `w7k_6hz_mb7` | 韓昭侯 | [《史記・孟嘗君列傳》][144] | [JSON](w7k_6hz_mb7.json) |
-| `w7n_89s_g0v` | 孔子 | [《史記・魏世家》][113] | [JSON](w7n_89s_g0v.json) |
 | `w85_8hh_ltq` | 商君 | [《史記・陳涉世家》][117] | [JSON](w85_8hh_ltq.json) |
 | `w87_cay_3gx` | 趙調 | [《史記・游俠列傳》][193] | [JSON](w87_cay_3gx.json) |
 | `w8q_z9a_0zz` | 陳子禽 | [《史記・仲尼弟子列傳》][136] | [JSON](w8q_z9a_0zz.json) |

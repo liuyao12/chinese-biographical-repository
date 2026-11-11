@@ -3,22 +3,20 @@
   "id": "fp6_ia6_7yw",
   "canonical_person_id": "fp6_ia6_7yw",
   "label": "孔子",
-  "identity_note": "跨卷對應依 002-identities.json 的敘事與譜系證據暫定；不得套用到其他同名者。",
+  "identity_note": "《史記》各篇明稱孔子／仲尼或以其言行、師生與傳世事跡指涉同一人物；本決定合併篇內候選，保留原篇引文與引述性質。孔子之女、兄之女等親屬人物仍各自獨立。此為同一部史書內的互見整合，不將篇章當成彼此獨立的外部見證。",
   "review": "ai_provisional",
   "names": [
-    "孔子",
-    "孔丘",
-    "仲尼",
-    "魯孔丘",
     "丘",
-    "尼父",
-    "孔氏",
+    "仲尼",
     "夫子",
     "子",
     "孔",
+    "孔丘",
+    "孔子",
+    "孔氏",
     "孔父",
-    "吾",
-    "我"
+    "尼父",
+    "魯孔丘"
   ],
   "titles": [
     {
@@ -564,6 +562,48 @@
         }
       },
       "interpretation_note": "任事與來源用稱保存，職名制度分類未定者保留unclassified；去國、改主家或被拘不推全部官爵端點，未知任期仍留空。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji066-016",
+      "person_id": "fp6_ia6_7yw",
+      "title": "相魯",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p015",
+          "quote": "其後四年，孔子相魯。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji066-016:a001",
+          "paragraph_id": "c-shiji-066-wu:p015",
+          "start": 7,
+          "end": 9,
+          "surface": "相魯",
+          "person_mention_id": "c-shiji-066-wu:m015-0005",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授官事件與文獻用稱分存。首次提及、逃亡、死亡不推定任期終點；平王、昭王、闔廬、夫差王稱隨敘事分辨。夫概自立王不作合法授爵，封堂谿未補侯爵；王子綦佯充王及石乞事成為卿的未遂條件均不當實際任職。白公的號與封邑分存，未確定爵級。來源相對年序未換算為精確紀年，版本及稱號性質仍待覆核。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
     },
@@ -1931,8 +1971,8 @@
       "category": "",
       "title": "卷二十七：王昶完整傳及裴注、四傳合評與清考證選錄",
       "paragraph_id": "c-sanguozhi-027-wangchang:unit007",
-      "count": 3,
-      "raw_count": 3,
+      "count": 1,
+      "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "屈以為伸讓以為得弱以為彊鮮不遂矣夫毁譽愛惡之原而禍福之機也是以聖人慎之孔子曰吾之於人誰毁誰譽如有所譽必有所試又曰子貢方人賜也賢乎哉我則不暇以聖人之徳猶尚如此况庸庸之徒而輕毁譽哉昔伏波將軍馬援戒其兄子言聞人之惡當如聞父母之名耳可得而聞口不可得而言也斯戒至矣",
@@ -1940,14 +1980,10 @@
         "c-sanguozhi-027-wangchang:unit007"
       ],
       "mention_ids": [
-        "c-sanguozhi-027-wangchang:unit007:m0113",
-        "c-sanguozhi-027-wangchang:unit007:m0116",
-        "c-sanguozhi-027-wangchang:unit007:m0143"
+        "c-sanguozhi-027-wangchang:unit007:m0113"
       ],
       "mention_paragraph_ids": {
-        "c-sanguozhi-027-wangchang:unit007:m0113": "c-sanguozhi-027-wangchang:unit007",
-        "c-sanguozhi-027-wangchang:unit007:m0116": "c-sanguozhi-027-wangchang:unit007",
-        "c-sanguozhi-027-wangchang:unit007:m0143": "c-sanguozhi-027-wangchang:unit007"
+        "c-sanguozhi-027-wangchang:unit007:m0113": "c-sanguozhi-027-wangchang:unit007"
       },
       "mention_id": "c-sanguozhi-027-wangchang:unit007:m0113",
       "occurrence_groups": [
@@ -1955,20 +1991,6 @@
           "canonical_mention_id": "c-sanguozhi-027-wangchang:unit007:m0113",
           "mention_ids": [
             "c-sanguozhi-027-wangchang:unit007:m0113"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-sanguozhi-027-wangchang:unit007:m0116",
-          "mention_ids": [
-            "c-sanguozhi-027-wangchang:unit007:m0116"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-sanguozhi-027-wangchang:unit007:m0143",
-          "mention_ids": [
-            "c-sanguozhi-027-wangchang:unit007:m0143"
           ],
           "kind": "paragraph"
         }
@@ -2719,6 +2741,165 @@
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "source_id": "s-jinshu-042-taiyuan-wang",
       "work_title": "晉書"
+    },
+    {
+      "number": 42,
+      "category": "shijia",
+      "title": "鄭世家第十二",
+      "paragraph_id": "c-shiji-042-zheng:p049",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "鄭人皆哭泣，悲之如亡親戚。子産者，鄭成公少子也。爲人仁愛人，事君忠厚。孔子嘗過鄭，與子産如兄弟云。及聞子産死，孔子爲泣曰：「古之遺愛也！」",
+      "paragraph_ids": [
+        "c-shiji-042-zheng:p049",
+        "c-shiji-042-zheng:p051"
+      ],
+      "mention_ids": [
+        "c-shiji-042-zheng:m049-0046",
+        "c-shiji-042-zheng:m049-0066",
+        "c-shiji-042-zheng:m051-0040"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-042-zheng:m049-0046": "c-shiji-042-zheng:p049",
+        "c-shiji-042-zheng:m049-0066": "c-shiji-042-zheng:p049",
+        "c-shiji-042-zheng:m051-0040": "c-shiji-042-zheng:p051"
+      },
+      "mention_id": "c-shiji-042-zheng:m049-0046",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-042-zheng:m049-0046",
+          "mention_ids": [
+            "c-shiji-042-zheng:m049-0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-042-zheng:m049-0066",
+          "mention_ids": [
+            "c-shiji-042-zheng:m049-0066"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-042-zheng:m051-0040",
+          "mention_ids": [
+            "c-shiji-042-zheng:m051-0040"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-042",
+      "chapter_id": "c-shiji-042-zheng",
+      "source_id": "s-shiji-042-zheng",
+      "work_title": "史記"
+    },
+    {
+      "number": 43,
+      "category": "shijia",
+      "title": "趙世家第十三",
+      "paragraph_id": "c-shiji-043-zhao:p031",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孔子聞趙簡子不請晉君而執邯鄲午，保晉陽，故書春秋曰「趙鞅以晉陽畔」。趙簡子有臣曰周舍，好直諫。周舍死，簡子毎聽朝，常不悅，大夫請罪。簡子曰：「大夫無罪。吾聞千羊之皮不如一狐之腋。諸大夫朝，徒聞唯唯，不聞周",
+      "paragraph_ids": [
+        "c-shiji-043-zhao:p031"
+      ],
+      "mention_ids": [
+        "c-shiji-043-zhao:m031-0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-043-zhao:m031-0000": "c-shiji-043-zhao:p031"
+      },
+      "mention_id": "c-shiji-043-zhao:m031-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-043-zhao:m031-0000",
+          "mention_ids": [
+            "c-shiji-043-zhao:m031-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "chapter_id": "c-shiji-043-zhao",
+      "source_id": "s-shiji-043-zhao",
+      "work_title": "史記"
+    },
+    {
+      "number": 44,
+      "category": "shijia",
+      "title": "魏世家第十四",
+      "paragraph_id": "c-shiji-044-wei:p009",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "其後十四歳而孔子相魯。後四歳，趙簡子以晉陽之亂也，而與韓、魏共攻范、中行氏。魏獻子生魏侈。魏侈與趙鞅共攻范、中行氏。",
+      "paragraph_ids": [
+        "c-shiji-044-wei:p009"
+      ],
+      "mention_ids": [
+        "c-shiji-044-wei:m009-0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-044-wei:m009-0006": "c-shiji-044-wei:p009"
+      },
+      "mention_id": "c-shiji-044-wei:m009-0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-044-wei:m009-0006",
+          "mention_ids": [
+            "c-shiji-044-wei:m009-0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-044",
+      "chapter_id": "c-shiji-044-wei",
+      "source_id": "s-shiji-044-wei",
+      "work_title": "史記"
+    },
+    {
+      "number": 46,
+      "category": "shijia",
+      "title": "田敬仲完世家第十六",
+      "paragraph_id": "c-shiji-046-tian:p055",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "太史公曰：蓋孔子晩而喜易。易之爲術，幽明遠矣，非通人達才孰能注意焉！笔周太史之卦田敬仲完，占至十世之後；及完奔齊，懿仲卜之亦云。田乞及常所以比犯二君，專齊國之政，非必事勢之漸然也，蓋若遵厭兆祥云。",
+      "paragraph_ids": [
+        "c-shiji-046-tian:p055"
+      ],
+      "mention_ids": [
+        "c-shiji-046-tian:m055-0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-046-tian:m055-0006": "c-shiji-046-tian:p055"
+      },
+      "mention_id": "c-shiji-046-tian:m055-0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-046-tian:m055-0006",
+          "mention_ids": [
+            "c-shiji-046-tian:m055-0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-046",
+      "chapter_id": "c-shiji-046-tian",
+      "source_id": "s-shiji-046-tian",
+      "work_title": "史記"
     },
     {
       "number": 47,
@@ -4806,6 +4987,76 @@
       "work_title": "史記"
     },
     {
+      "number": 49,
+      "category": "shijia",
+      "title": "外戚世家第十九",
+      "paragraph_id": "c-shiji-049-waiqi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "卑下乎！既驩合矣，或不能成子姓；能成子姓矣，或不能要其終：豈非命也哉？孔子罕稱命，蓋難言之也。非通幽明之變，惡能識乎性命哉？",
+      "paragraph_ids": [
+        "c-shiji-049-waiqi:p001"
+      ],
+      "mention_ids": [
+        "c-shiji-049-waiqi:m001-0225"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-049-waiqi:m001-0225": "c-shiji-049-waiqi:p001"
+      },
+      "mention_id": "c-shiji-049-waiqi:m001-0225",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m001-0225",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m001-0225"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-049",
+      "chapter_id": "c-shiji-049-waiqi",
+      "source_id": "s-shiji-049-waiqi",
+      "work_title": "史記"
+    },
+    {
+      "number": 55,
+      "category": "shijia",
+      "title": "留侯世家第二十五",
+      "paragraph_id": "c-shiji-055-liu:p030",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "里外，吾不如子房。」余以為其人計魁梧奇偉，至見其圖，狀貌如婦人好女。蓋孔子曰：「以貌取人，失之子羽。」留侯亦云。",
+      "paragraph_ids": [
+        "c-shiji-055-liu:p030"
+      ],
+      "mention_ids": [
+        "c-shiji-055-liu:m030-0109"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-055-liu:m030-0109": "c-shiji-055-liu:p030"
+      },
+      "mention_id": "c-shiji-055-liu:m030-0109",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-055-liu:m030-0109",
+          "mention_ids": [
+            "c-shiji-055-liu:m030-0109"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-055",
+      "chapter_id": "c-shiji-055-liu",
+      "source_id": "s-shiji-055-liu",
+      "work_title": "史記"
+    },
+    {
       "number": 61,
       "category": "liezhuan",
       "title": "伯夷列傳第一",
@@ -5125,6 +5376,41 @@
       "chapter_id": "c-houhanshu-064-luzhi",
       "source_id": "s-houhanshu-064-luzhi",
       "work_title": "後漢書"
+    },
+    {
+      "number": 66,
+      "category": "liezhuan",
+      "title": "伍子胥列傳第六",
+      "paragraph_id": "c-shiji-066-wu:p015",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "其後四年，孔子相魯。",
+      "paragraph_ids": [
+        "c-shiji-066-wu:p015"
+      ],
+      "mention_ids": [
+        "c-shiji-066-wu:m015-0005"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-066-wu:m015-0005": "c-shiji-066-wu:p015"
+      },
+      "mention_id": "c-shiji-066-wu:m015-0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-066-wu:m015-0005",
+          "mention_ids": [
+            "c-shiji-066-wu:m015-0005"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-066",
+      "chapter_id": "c-shiji-066-wu",
+      "source_id": "s-shiji-066-wu",
+      "work_title": "史記"
     },
     {
       "number": 67,
@@ -6473,6 +6759,41 @@
       "work_title": "史記"
     },
     {
+      "number": 71,
+      "category": "liezhuan",
+      "title": "樗里子甘茂列傳第十一",
+      "paragraph_id": "c-shiji-071-chugan:p017",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "侯叱曰：「去！我身自請之而不肯，女焉能行之？」甘羅曰：「大項橐生七歲為孔子師。今臣生十二歲於茲矣，君其試臣，何遽叱乎？」於是甘羅見張卿曰：「卿之功孰與武安君？」卿曰：「武安君南挫彊楚，北威燕、趙，戰勝攻取，破城墮邑，不知其數，臣之功不如也。」甘羅曰：「應侯之用於秦也，孰與文",
+      "paragraph_ids": [
+        "c-shiji-071-chugan:p017"
+      ],
+      "mention_ids": [
+        "c-shiji-071-chugan:m017-0213"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-071-chugan:m017-0213": "c-shiji-071-chugan:p017"
+      },
+      "mention_id": "c-shiji-071-chugan:m017-0213",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-071-chugan:m017-0213",
+          "mention_ids": [
+            "c-shiji-071-chugan:m017-0213"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-071",
+      "chapter_id": "c-shiji-071-chugan",
+      "source_id": "s-shiji-071-chugan",
+      "work_title": "史記"
+    },
+    {
       "number": 74,
       "category": "liezhuan",
       "title": "孟子荀卿列傳第十四",
@@ -6645,6 +6966,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 76,
+      "category": "liezhuan",
+      "title": "平原君虞卿列傳第十六",
+      "paragraph_id": "c-shiji-076-pingyu:p014",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "者二人。其母聞之，弗哭也。其相室曰：『焉有子死而弗哭者乎？』其母曰：『孔子，賢人也，逐於魯，而是人不隨也。今死而婦人爲之自殺者二人，若是者必其於長者薄而於婦人厚也。』故從母言之，是爲賢母；從妻言之，是必不免爲妒妻。故其言一也，言者異則人心變矣。今臣新從秦來而言勿予，則非計也",
+      "paragraph_ids": [
+        "c-shiji-076-pingyu:p014"
+      ],
+      "mention_ids": [
+        "c-shiji-076-pingyu:m014-0136"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-076-pingyu:m014-0136": "c-shiji-076-pingyu:p014"
+      },
+      "mention_id": "c-shiji-076-pingyu:m014-0136",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-076-pingyu:m014-0136",
+          "mention_ids": [
+            "c-shiji-076-pingyu:m014-0136"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-076",
+      "chapter_id": "c-shiji-076-pingyu",
+      "source_id": "s-shiji-076-pingyu",
+      "work_title": "史記"
+    },
+    {
       "number": 79,
       "category": "",
       "title": "謝氏家族選段及謝尚、奕、玄、石、邈完整單元",
@@ -6715,6 +7071,120 @@
       "work_title": "史記"
     },
     {
+      "number": 83,
+      "category": "liezhuan",
+      "title": "魯仲連鄒陽列傳第二十三",
+      "paragraph_id": "c-shiji-083-luzou:p019",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，昆弟不能離，豈惑於眾口哉？故偏聽生姦，獨任成亂。昔者魯聽季孫之說而逐孔子，宋信子罕之計而囚墨翟。夫以孔、墨之辯，不能自免於讒諛，而二國以危。何則？眾口鑠金，積毀銷骨也。是以秦用戎人由余而霸中國，齊用越人蒙而彊威、宣。此二國，豈拘於俗，牽於世，系阿偏之辭哉？公聽并觀，垂名當",
+      "paragraph_ids": [
+        "c-shiji-083-luzou:p019"
+      ],
+      "mention_ids": [
+        "c-shiji-083-luzou:m019-0229",
+        "c-shiji-083-luzou:m019-0245"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-083-luzou:m019-0229": "c-shiji-083-luzou:p019",
+        "c-shiji-083-luzou:m019-0245": "c-shiji-083-luzou:p019"
+      },
+      "mention_id": "c-shiji-083-luzou:m019-0229",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-083-luzou:m019-0229",
+          "mention_ids": [
+            "c-shiji-083-luzou:m019-0229"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-083-luzou:m019-0245",
+          "mention_ids": [
+            "c-shiji-083-luzou:m019-0245"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-083",
+      "chapter_id": "c-shiji-083-luzou",
+      "source_id": "s-shiji-083-luzou",
+      "work_title": "史記"
+    },
+    {
+      "number": 85,
+      "category": "liezhuan",
+      "title": "呂不韋列傳第二十五",
+      "paragraph_id": "c-shiji-085-lubuwei:p016",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "反蘄年宮。發吏攻毐，毐敗亡走，追斬之好畤，遂滅其宗。而呂不韋由此絀矣。孔子之所謂「聞」者，其呂子乎？",
+      "paragraph_ids": [
+        "c-shiji-085-lubuwei:p016"
+      ],
+      "mention_ids": [
+        "c-shiji-085-lubuwei:m016-0094"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-085-lubuwei:m016-0094": "c-shiji-085-lubuwei:p016"
+      },
+      "mention_id": "c-shiji-085-lubuwei:m016-0094",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-085-lubuwei:m016-0094",
+          "mention_ids": [
+            "c-shiji-085-lubuwei:m016-0094"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-085",
+      "chapter_id": "c-shiji-085-lubuwei",
+      "source_id": "s-shiji-085-lubuwei",
+      "work_title": "史記"
+    },
+    {
+      "number": 87,
+      "category": "liezhuan",
+      "title": "李斯列傳第二十七",
+      "paragraph_id": "c-shiji-087-lisi:p014",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "：「臣聞湯、武殺其主，天下稱義焉，不為不忠。衛君殺其父，而衛國載其德，孔子著之，不為不孝。夫大行不小謹，盛德不辭讓，鄉曲各有宜而百官不同功。故顧小而忘大，後必有害；狐疑猶豫，後必有悔。斷而敢行，鬼神避之，後有成功。願子遂之！」胡亥喟然歎曰：「今大行未發，喪禮未終，豈宜以此事",
+      "paragraph_ids": [
+        "c-shiji-087-lisi:p014"
+      ],
+      "mention_ids": [
+        "c-shiji-087-lisi:m014-0259"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-087-lisi:m014-0259": "c-shiji-087-lisi:p014"
+      },
+      "mention_id": "c-shiji-087-lisi:m014-0259",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-087-lisi:m014-0259",
+          "mention_ids": [
+            "c-shiji-087-lisi:m014-0259"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-087",
+      "chapter_id": "c-shiji-087-lisi",
+      "source_id": "s-shiji-087-lisi",
+      "work_title": "史記"
+    },
+    {
       "number": 103,
       "category": "liezhuan",
       "title": "萬石張叔列傳第四十三",
@@ -6747,6 +7217,41 @@
       "book_id": "b-shiji-103",
       "chapter_id": "c-shiji-103-wanshi",
       "source_id": "s-shiji-103-wanshi",
+      "work_title": "史記"
+    },
+    {
+      "number": 104,
+      "category": "liezhuan",
+      "title": "田叔列傳第四十四",
+      "paragraph_id": "c-shiji-104-tianshu:p009",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "太史公曰：孔子稱曰「居是國必聞其政」，田叔之謂乎！義不忘賢，明主之美以救過。仁與余善，余故并論之。",
+      "paragraph_ids": [
+        "c-shiji-104-tianshu:p009"
+      ],
+      "mention_ids": [
+        "c-shiji-104-tianshu:m009-0005"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-104-tianshu:m009-0005": "c-shiji-104-tianshu:p009"
+      },
+      "mention_id": "c-shiji-104-tianshu:m009-0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-104-tianshu:m009-0005",
+          "mention_ids": [
+            "c-shiji-104-tianshu:m009-0005"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-104",
+      "chapter_id": "c-shiji-104-tianshu",
+      "source_id": "s-shiji-104-tianshu",
       "work_title": "史記"
     },
     {
@@ -6948,6 +7453,155 @@
       "book_id": "b-shiji-121",
       "chapter_id": "c-shiji-121-rulin",
       "source_id": "s-shiji121-rulin",
+      "work_title": "史記"
+    },
+    {
+      "number": 122,
+      "category": "liezhuan",
+      "title": "酷吏列傳第六十二",
+      "paragraph_id": "c-shiji-122-kuli:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孔子曰：「導之以政，齊之以刑，民免而無恥。導之以德，齊之以禮，有恥且格。」老氏稱：「上德不德，是以有德；下德不失德，是以無德。法令滋章，盜賊多有。」太史公曰：信哉是言也！法令者治之具，而非制治淸濁之源也。",
+      "paragraph_ids": [
+        "c-shiji-122-kuli:p001"
+      ],
+      "mention_ids": [
+        "c-shiji-122-kuli:m001-0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-122-kuli:m001-0000": "c-shiji-122-kuli:p001"
+      },
+      "mention_id": "c-shiji-122-kuli:m001-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m001-0000",
+          "mention_ids": [
+            "c-shiji-122-kuli:m001-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-122",
+      "chapter_id": "c-shiji-122-kuli",
+      "source_id": "s-shiji122-kuli",
+      "work_title": "史記"
+    },
+    {
+      "number": 126,
+      "category": "liezhuan",
+      "title": "滑稽列傳第六十六",
+      "paragraph_id": "c-shiji-126-huaji:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孔子曰：「六藝於治一也。禮以節人，樂以發和，書以道事，詩以達意，易以神化，春秋以義。」太史公曰：天道恢恢，豈不大哉！談言微中，亦可以解紛。",
+      "paragraph_ids": [
+        "c-shiji-126-huaji:p001"
+      ],
+      "mention_ids": [
+        "c-shiji-126-huaji:m001-0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-126-huaji:m001-0000": "c-shiji-126-huaji:p001"
+      },
+      "mention_id": "c-shiji-126-huaji:m001-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m001-0000",
+          "mention_ids": [
+            "c-shiji-126-huaji:m001-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-126",
+      "chapter_id": "c-shiji-126-huaji",
+      "source_id": "s-shiji126-huaji",
+      "work_title": "史記"
+    },
+    {
+      "number": 128,
+      "category": "liezhuan",
+      "title": "龜策列傳第六十八",
+      "paragraph_id": "c-shiji-128-guice:p020",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "渠、蜂門；禹名為辯智，而不能勝鬼神。地柱折，天故毋椽，又柰何責人於全？孔子聞之曰：「神龜知吉凶，而骨直空枯。日為德而君於天下，辱於三足之烏。月為刑而相佐，見食於蝦蟆。猬辱於鵲，騰蛇之神而殆於即且。竹外有節理，中直空虛；松柏為百木長，而守門閭。日辰不全，故有孤虛。黃金有疵，白",
+      "paragraph_ids": [
+        "c-shiji-128-guice:p020"
+      ],
+      "mention_ids": [
+        "c-shiji-128-guice:m020-0193"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-128-guice:m020-0193": "c-shiji-128-guice:p020"
+      },
+      "mention_id": "c-shiji-128-guice:m020-0193",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-128-guice:m020-0193",
+          "mention_ids": [
+            "c-shiji-128-guice:m020-0193"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-128",
+      "chapter_id": "c-shiji-128-guice",
+      "source_id": "s-shiji128-guice",
+      "work_title": "史記"
+    },
+    {
+      "number": 129,
+      "category": "liezhuan",
+      "title": "貨殖列傳第六十九",
+      "paragraph_id": "c-shiji-129-huozhi:p008",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子贛既學於仲尼，退而仕於衛，廢著鬻財於曹、魯之閒，七十子之徒，賜最為饒益。原憲不厭糟糠，匿於窮巷。子貢結駟連騎，束帛之幣以聘享諸侯，所至，國君無不分庭與之抗禮。夫使孔子名布揚於天下者，子貢先後之也。此所謂得埶而益彰",
+      "paragraph_ids": [
+        "c-shiji-129-huozhi:p008"
+      ],
+      "mention_ids": [
+        "c-shiji-129-huozhi:m008-0005",
+        "c-shiji-129-huozhi:m008-0082"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-129-huozhi:m008-0005": "c-shiji-129-huozhi:p008",
+        "c-shiji-129-huozhi:m008-0082": "c-shiji-129-huozhi:p008"
+      },
+      "mention_id": "c-shiji-129-huozhi:m008-0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-129-huozhi:m008-0005",
+          "mention_ids": [
+            "c-shiji-129-huozhi:m008-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-129-huozhi:m008-0082",
+          "mention_ids": [
+            "c-shiji-129-huozhi:m008-0082"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-129",
+      "chapter_id": "c-shiji-129-huozhi",
+      "source_id": "s-shiji129-huozhi",
       "work_title": "史記"
     },
     {
@@ -14901,6 +15555,102 @@
       }
     },
     {
+      "chapter_id": "c-shiji-042-zheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-042",
+      "source_id": "s-shiji-042-zheng",
+      "source": {
+        "title": "史記／卷042",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷042",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
+        "revision_id": 2016409,
+        "accessed_on": "2026-10-09",
+        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
+          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-043-zhao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "source_id": "s-shiji-043-zhao",
+      "source": {
+        "title": "史記／卷043",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷043",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
+        "revision_id": 7903603,
+        "accessed_on": "2026-10-09",
+        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
+          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-044-wei",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-044",
+      "source_id": "s-shiji-044-wei",
+      "source": {
+        "title": "史記／卷044",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷044",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+        "revision_id": 7903606,
+        "accessed_on": "2026-10-09",
+        "extent": "70段正文；排除現代章節標題、斠勘空段與版權告示，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
+          "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-046-tian",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-046",
+      "source_id": "s-shiji-046-tian",
+      "source": {
+        "title": "史記／卷046",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷046",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838",
+        "revision_id": 2560838,
+        "accessed_on": "2026-10-09",
+        "extent": "55段正文（含太史公論贊）及1段索隱述贊，後者另標witness_appended_suoyin_zan；排除2個dd導覽及現代分節標題。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留［二］、（粟）［稟］、晏（孺子）［圉］、（帥）［師］、笔及称等數位見證原字，不暗改。",
+          "note": "已讀全56段數位文字並作明示人名首輪；未核可靠底本、影像或現代研究。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-047-kong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-047",
@@ -14921,6 +15671,54 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
           "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-049-waiqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-049",
+      "source_id": "s-shiji-049-waiqi",
+      "source": {
+        "title": "史記／卷049",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷049",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610",
+        "revision_id": 7903610,
+        "accessed_on": "2026-10-09",
+        "extent": "44段史文，前34段篇文，後10段自褚先生曰起為附載文字；數位分節欄題不是古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
+          "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-055-liu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-055",
+      "source_id": "s-shiji-055-liu",
+      "source": {
+        "title": "史記／卷055",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷055",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷055&oldid=2666612",
+        "revision_id": 2666612,
+        "accessed_on": "2026-10-09",
+        "extent": "30段篇文及1段索隱述贊；排除張良數位欄題與空p。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白，保留廄將、申徒、道還、襃中、什方侯、角里、敎與彊等原字及索隱標記，不以其他版本字形改寫。",
+          "note": "全31段已讀並作明示人物首輪；未核底本、影像或現代研究。"
         }
       }
     },
@@ -14997,6 +15795,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-066-wu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-066",
+      "source_id": "s-shiji-066-wu",
+      "source": {
+        "title": "史記／卷066",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷066",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷066&oldid=2621138",
+        "revision_id": 2621138,
+        "accessed_on": "2026-10-09",
+        "extent": "24段正文，排除註釋版及2段導覽，無索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留堂谿、（之）、忍訽、屬鏤、鴟夷等原字與括號文字，未核定校勘。",
+          "note": "全24段已核讀並作人物首輪；未核可靠底本、影像或現代研究。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-067-disciples",
       "work_id": "w-shiji",
       "book_id": "b-shiji-067",
@@ -15021,6 +15843,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-071-chugan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-071",
+      "source_id": "s-shiji-071-chugan",
+      "source": {
+        "title": "史記／卷071",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷071",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷071&oldid=2621152",
+        "revision_id": 2621152,
+        "accessed_on": "2026-10-09",
+        "extent": "20段正文，自樗里子者至太史公論贊；排除ws-header人物導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；保留樗里／樗裏、于、遯、茍與數位轉錄原字。",
+          "note": "全20段正文已核讀；未核底本、影像或現代研究，人物待逐段標註。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-074-mengxun",
       "work_id": "w-shiji",
       "book_id": "b-shiji-074",
@@ -15041,6 +15887,51 @@
           "editorial_readings": [],
           "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並略空段；保留騶、獘、彊、筑、茍、髡等原字。",
           "note": "全12段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-076-pingyu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-076",
+      "source_id": "s-shiji-076-pingyu",
+      "source": {
+        "title": "史記／卷076",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷076",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷076&oldid=7909284",
+        "revision_id": 7909284,
+        "accessed_on": "2026-10-09",
+        "extent": "19段正文，自平原君趙勝至太史公論贊；排除ws-header人物導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "饱": "飽"
+          },
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-076-pingyu:p013",
+              "witness_form": "（以爲韓魏不救趙也而王之軍必孤有以）",
+              "body_reading": "以爲韓魏不救趙也而王之軍必孤有以",
+              "note": "括號為數位刪讀提示；正文保留改讀前括號內文字而分離提示，未核底本，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-076-pingyu:p014",
+              "witness_form": "（何）",
+              "body_reading": "何",
+              "note": "括號為數位刪讀提示；正文保留改讀前括號內文字而分離提示，未核底本，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-076-pingyu:p015",
+              "witness_form": "（彊）",
+              "body_reading": "彊",
+              "note": "括號為數位刪讀提示；正文保留改讀前括號內文字而分離提示，未核底本，不當已校定。"
+            }
+          ],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並分離三項數位改讀提示；第12段數位簡體饱轉為繁體飽並記錄，爲、檐、槃、説等原字保留。",
+          "note": "全19段正文及姓名首輪已核讀；未核底本、影像或現代研究。"
         }
       }
     },
@@ -15082,6 +15973,103 @@
       }
     },
     {
+      "chapter_id": "c-shiji-083-luzou",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-083",
+      "source_id": "s-shiji-083-luzou",
+      "source": {
+        "title": "史記／卷083",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷083",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷083&oldid=2089252",
+        "revision_id": 2089252,
+        "accessed_on": "2026-10-09",
+        "extent": "27段正文，自魯仲連者至太史公論贊；排除人物導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-083-luzou:p002",
+              "witness_form": "［湣王］",
+              "body_reading": "",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-083-luzou:p007",
+              "witness_form": "［待］",
+              "body_reading": "",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-083-luzou:p009",
+              "witness_form": "（使）",
+              "body_reading": "使",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-083-luzou:p025",
+              "witness_form": "（巖）［藪］",
+              "body_reading": "巖",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            }
+          ],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；上書dd按原序；4項數位增刪改讀另存，正文保留前形，末段巖巖重複不擅校。",
+          "note": "全27段與HTML篇界已核讀；未核底本影像或現代研究，人物待逐段標註。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-085-lubuwei",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-085",
+      "source_id": "s-shiji-085-lubuwei",
+      "source": {
+        "title": "史記／卷085",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷085",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷085&oldid=2027911",
+        "revision_id": 2027911,
+        "accessed_on": "2026-10-09",
+        "extent": "16段正文含太史公論，排除導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；正文未見括號校讀提示。",
+          "note": "全16段正文與HTML篇界已核讀，明示姓名首輪已存；未核影像與現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-087-lisi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-087",
+      "source_id": "s-shiji-087-lisi",
+      "source": {
+        "title": "史記／卷087",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷087",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷087&oldid=2364605",
+        "revision_id": 2364605,
+        "accessed_on": "2026-10-09",
+        "extent": "38個非空正文區塊含兩篇嵌入上書及太史公論，排除導覽、空段、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白及空段；保留dd上書區塊，普通異體不擅校。",
+          "note": "全38個正文區塊與HTML篇界已核讀，未核底本影像或現代研究。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-103-wanshi",
       "work_id": "w-shiji",
       "book_id": "b-shiji-103",
@@ -15102,6 +16090,30 @@
           "editorial_readings": [],
           "extraction_note": "僅去外緣空白；髙、衞、温、内、爲、呉、甐及原標點保留。",
           "note": "已核讀全27段數位正文，未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-104-tianshu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-104",
+      "source_id": "s-shiji-104-tianshu",
+      "source": {
+        "title": "史記／卷104",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷104",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷104&oldid=8739534",
+        "revision_id": 8739534,
+        "accessed_on": "2026-10-10",
+        "extent": "9段正文含太史公論，7段署褚先生補文與1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
         }
       }
     },
@@ -15174,6 +16186,102 @@
           "editorial_readings": [],
           "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
           "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-122-kuli",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-122",
+      "source_id": "s-shiji122-kuli",
+      "source": {
+        "title": "史記／卷122",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷122",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷122&oldid=7904124",
+        "revision_id": 7904124,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文44段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標、字形控制外殼而保留其中原字與異文；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-126-huaji",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-126",
+      "source_id": "s-shiji126-huaji",
+      "source": {
+        "title": "史記／卷126",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷126",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷126&oldid=2609358",
+        "revision_id": 2609358,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文27段；篇文12段、褚少孫補文14段、索隱述贊1段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia導覽模板，維基內鏈只留顯示文字，移除衛后字形選擇包裝而保留后字；未核影像。",
+          "note": "褚先生補與索隱述贊依來源節標分層，不作司馬遷篇文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-128-guice",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-128",
+      "source_id": "s-shiji128-guice",
+      "source": {
+        "title": "史記／卷128",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷128",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷128&oldid=7904127",
+        "revision_id": 7904127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文95段，篇文5段、褚先生補文89段、索隱述贊1段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、wikipedia導覽模板與現代節標；保留原字及（民）［氓］等來源校讀括號，未核影像。",
+          "note": "來源笔與帮字面疑訛；最近五個修訂皆有，不擅校改。萬畢石朱方、陰兢及周太子歷待校。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-129-huozhi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-129",
+      "source_id": "s-shiji129-huozhi",
+      "source": {
+        "title": "史記／卷129",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷129",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷129&oldid=7904128",
+        "revision_id": 7904128,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文43段，篇文42段、索隱述贊1段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標及索隱述贊層次標籤；保留巴[蜀]、（孝）［德］等來源校讀括號，未核影像。",
+          "note": "文獻校讀不當已校定字，氏稱與家族表述逐段分辨。"
         }
       }
     },
@@ -16077,6 +17185,26 @@
       ],
       "source_term": "孔子卒",
       "interpretation_note": "原文明示死亡；蚤死為回述，道死未記具體地點，不借齊為死亡地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji042-042",
+      "person_id": "fp6_ia6_7yw",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p051",
+          "quote": "十四年，宋景公滅曹。二十年，齊田常弒其君簡公，而常相於齊。二十二年，楚惠王滅陳。孔子卒。",
+          "person_mention_id": "c-shiji-042-zheng:m051-0040"
+        }
+      ],
+      "source_term": "孔子卒",
+      "interpretation_note": "原文生死主張與既有人物錨點；原曆日期保持原句，不拼接不連續年月，不將回述事件借用段首當年。數字年份及跨篇紀年仍待覆核。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     },
