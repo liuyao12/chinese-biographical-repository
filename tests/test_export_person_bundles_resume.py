@@ -166,6 +166,82 @@ class ExportPersonBundlesResumeTests(unittest.TestCase):
         self.assertTrue((destination / 'unconnected.md').is_file())
         self.assertEqual(index['id_aliases'], {'legacy_aaa': 'aaa_aaa_aaa'})
 
+    def test_selective_refresh_rebuilds_all_bundles_with_changed_passages(self):
+        destination = self.root / 'exports/persons'
+        destination.mkdir(parents=True)
+        old_passage = {'id': 'chapter:p001', 'text': '甲乙', 'mentions': [
+            {'id': 'chapter:p001:m0000', 'surface': '甲', 'kind': 'person',
+             'person_id': 'aaa_aaa_aaa'},
+            {'id': 'chapter:p001:m0001', 'surface': '乙', 'kind': 'person',
+             'person_id': 'bbb_bbb_bbb'},
+        ]}
+        for pid in self.people:
+            old = copy.deepcopy(self.old_bundle)
+            old.update(requested_person_id=pid, passages=[copy.deepcopy(old_passage)])
+            (destination / (pid + '.json')).write_text(json.dumps(old))
+        refresh_file = self.root / 'refresh-ids.json'
+        refresh_file.write_text(json.dumps(['aaa_aaa_aaa']))
+
+        new_passage = copy.deepcopy(old_passage)
+        new_passage['mentions'][1]['kind'] = 'pronoun'
+        def build_bundle(pid, **kwargs):
+            result = copy.deepcopy(self.old_bundle)
+            result.update(requested_person_id=pid, passages=[copy.deepcopy(new_passage)])
+            result['mention_count'] = 99 if pid == 'aaa_aaa_aaa' else 23
+            return result
+
+        bundle_mock = unittest.mock.Mock(side_effect=build_bundle)
+        self._patch_export_dependencies(bundle_mock)
+
+        exporter.export(root=self.root, refresh_person_ids=refresh_file)
+
+        bundle_mock.assert_any_call(
+            'bbb_bbb_bbb', root=self.root, include_provisional=True,
+            catalog=(self.people, []),
+        )
+        refreshed = json.loads((destination / 'bbb_bbb_bbb.json').read_text())
+        self.assertEqual(refreshed['passages'][0]['mentions'][1]['kind'], 'pronoun')
+
+    def test_selective_refresh_adds_bundle_for_new_passage_mention(self):
+        destination = self.root / 'exports/persons'
+        destination.mkdir(parents=True)
+        old_passage = {'id': 'chapter:p001', 'text': '甲', 'mentions': [
+            {'id': 'chapter:p001:m0000', 'surface': '甲', 'kind': 'person',
+             'person_id': 'aaa_aaa_aaa'},
+        ]}
+        for pid in self.people:
+            old = copy.deepcopy(self.old_bundle)
+            old.update(requested_person_id=pid,
+                       passages=[copy.deepcopy(old_passage)] if pid == 'aaa_aaa_aaa' else [])
+            (destination / (pid + '.json')).write_text(json.dumps(old))
+        refresh_file = self.root / 'refresh-ids.json'
+        refresh_file.write_text(json.dumps(['aaa_aaa_aaa']))
+
+        new_passage = copy.deepcopy(old_passage)
+        new_passage['text'] = '甲乙'
+        new_passage['mentions'].append({
+            'id': 'chapter:p001:m0001', 'surface': '乙', 'kind': 'person',
+            'person_id': 'bbb_bbb_bbb',
+        })
+        def build_bundle(pid, **kwargs):
+            result = copy.deepcopy(self.old_bundle)
+            result.update(requested_person_id=pid,
+                          passages=[copy.deepcopy(new_passage)] if pid in self.people else [])
+            result['mention_count'] = 99 if pid == 'aaa_aaa_aaa' else 23
+            return result
+
+        bundle_mock = unittest.mock.Mock(side_effect=build_bundle)
+        self._patch_export_dependencies(bundle_mock)
+
+        exporter.export(root=self.root, refresh_person_ids=refresh_file)
+
+        bundle_mock.assert_any_call(
+            'bbb_bbb_bbb', root=self.root, include_provisional=True,
+            catalog=(self.people, []),
+        )
+        refreshed = json.loads((destination / 'bbb_bbb_bbb.json').read_text())
+        self.assertEqual(refreshed['passages'][0]['mentions'][1]['person_id'], 'bbb_bbb_bbb')
+
     def test_selective_refresh_rejects_retired_ids_before_side_effects(self):
         refresh_file = self.root / 'refresh-ids.json'
         refresh_file.write_text(json.dumps(['retired_person_id']))

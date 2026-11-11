@@ -2,7 +2,7 @@
 
 可重建匯出，涵蓋目前已標註資料，包含明示選用的暫定跨篇同指；原 ID、證據與判讀均保留。並非全部史料或完整覆核。
 
-程式可讀取 [index.json](index.json)，再依各筆 `path` 取得人物資料。重新產生：`python3 scripts/export_person_bundles.py`。局部重建可用 `--refresh-person-ids FILE`；FILE 可為 JSON ID 陣列或逐行 ID，其餘現存 bundle 會沿用，再完整重建索引與閱讀頁。
+程式可讀取 [index.json](index.json)，再依各筆 `path` 取得人物資料。重新產生：`python3 scripts/export_person_bundles.py`。局部重建可用 `--refresh-person-ids FILE`；FILE 可為 JSON ID 陣列或逐行 ID。若標註段落有變，程式也會刷新所有引用該段的人物包；其他 bundle 沿用，再完整重建索引與閱讀頁。
 
 出生排行與籍貫結構化欄位仍在逐篇回填；缺欄位不代表來源沒有此資訊。提及頻次依固定見證的獨立位置計算；原始錨點完整保留，同位置節引重出另列raw／duplicate與對應群組，不代表來源權威度。
 

@@ -96,6 +96,75 @@ def _read_refresh_person_ids(path):
     return set(values)
 
 
+def _expand_refresh_for_changed_passages(refresh_ids, destination, people,
+                                         source_map, fresh_results):
+    """Refresh every bundle that embeds a passage changed by a partial refresh.
+
+    Person bundles copy complete marked passages. A markup correction therefore
+    affects bundles for every person named in that passage, not only the person
+    whose ID was supplied on the command line.
+    """
+    changed_passage_ids = set()
+    for person_id, current in fresh_results.items():
+        path = destination / (person_id + '.json')
+        try:
+            previous = json.loads(path.read_text(encoding='utf-8'))
+        except (json.JSONDecodeError, OSError):
+            previous = {}
+        old_passages = {item.get('id'): item for item in previous.get('passages', [])
+                        if isinstance(item, dict) and item.get('id')}
+        new_passages = {item.get('id'): item for item in current.get('passages', [])
+                        if isinstance(item, dict) and item.get('id')}
+        changed_passage_ids.update(
+            passage_id for passage_id in set(old_passages) | set(new_passages)
+            if old_passages.get(passage_id) != new_passages.get(passage_id)
+        )
+    if not changed_passage_ids:
+        return set(refresh_ids)
+
+    alias_to_source = {}
+    for source_id, person in people.items():
+        for alias in person.get('id_aliases', []):
+            alias_to_source[alias] = source_id
+    family_id_to_sources = {}
+    for source_id, assembly in source_map.items():
+        family_id_to_sources.setdefault(assembly.get('person_id'), set()).add(source_id)
+
+    expanded = set(refresh_ids)
+    for current in fresh_results.values():
+        for passage in current.get('passages', []):
+            if not isinstance(passage, dict) or passage.get('id') not in changed_passage_ids:
+                continue
+            for mention in passage.get('mentions', []):
+                if not isinstance(mention, dict):
+                    continue
+                referenced_ids = set(mention.get('candidate_person_ids') or [])
+                if mention.get('person_id'):
+                    referenced_ids.add(mention['person_id'])
+                for referenced_id in referenced_ids:
+                    source_id = (referenced_id if referenced_id in people
+                                 else alias_to_source.get(referenced_id))
+                    if source_id in people:
+                        expanded.add(source_id)
+                    expanded.update(family_id_to_sources.get(referenced_id, set()))
+    for path in destination.glob('*.json'):
+        if path.name == 'index.json':
+            continue
+        try:
+            existing = json.loads(path.read_text(encoding='utf-8'))
+        except (json.JSONDecodeError, OSError):
+            continue
+        if not any(isinstance(passage, dict) and passage.get('id') in changed_passage_ids
+                   for passage in existing.get('passages', [])):
+            continue
+        requested_id = existing.get('requested_person_id', path.stem)
+        source_id = requested_id if requested_id in people else alias_to_source.get(requested_id)
+        if source_id in people:
+            expanded.add(source_id)
+        expanded.update(family_id_to_sources.get(path.stem, set()))
+    return expanded
+
+
 def export(root=ROOT, resume_after=None, refresh_person_ids=None):
     try:
         from .calendar_wiring import export_calendar_contexts
@@ -149,12 +218,21 @@ def export(root=ROOT, resume_after=None, refresh_person_ids=None):
     for member in assemblies.values():
         if member.get('parent_person_id') and member.get('parent_connection'):
             assembled_children.setdefault(member['parent_person_id'], []).append(member)
+    fresh_results = {}
+    if refresh_ids is not None:
+        for pid in sorted(refresh_ids):
+            fresh_results[pid] = bundle(pid, root=root, include_provisional=True, catalog=catalog)
+        refresh_ids = _expand_refresh_for_changed_passages(
+            refresh_ids, destination, catalog[0], source_map, fresh_results,
+        )
     rows = []
     checkpoint_reached = resume_after is None
     for pid, person in sorted(catalog[0].items()):
         should_refresh = pid in refresh_ids if refresh_ids is not None else checkpoint_reached
         if should_refresh:
-            result = bundle(pid, root=root, include_provisional=True, catalog=catalog)
+            result = fresh_results.pop(pid, None)
+            if result is None:
+                result = bundle(pid, root=root, include_provisional=True, catalog=catalog)
         else:
             checkpoint_path = destination / (pid + '.json')
             if not checkpoint_path.is_file():
@@ -228,7 +306,7 @@ def export(root=ROOT, resume_after=None, refresh_person_ids=None):
         from personless_namespace import prune_person_files
     prune_person_files(destination, expected_ids)
     lines = ['# 人物 JSON 索引', '', '可重建匯出，涵蓋目前已標註資料，包含明示選用的暫定跨篇同指；原 ID、證據與判讀均保留。並非全部史料或完整覆核。', '',
-             '程式可讀取 [index.json](index.json)，再依各筆 `path` 取得人物資料。重新產生：`python3 scripts/export_person_bundles.py`。局部重建可用 `--refresh-person-ids FILE`；FILE 可為 JSON ID 陣列或逐行 ID，其餘現存 bundle 會沿用，再完整重建索引與閱讀頁。', '',
+             '程式可讀取 [index.json](index.json)，再依各筆 `path` 取得人物資料。重新產生：`python3 scripts/export_person_bundles.py`。局部重建可用 `--refresh-person-ids FILE`；FILE 可為 JSON ID 陣列或逐行 ID。若標註段落有變，程式也會刷新所有引用該段的人物包；其他 bundle 沿用，再完整重建索引與閱讀頁。', '',
              '出生排行與籍貫結構化欄位仍在逐篇回填；缺欄位不代表來源沒有此資訊。提及頻次依固定見證的獨立位置計算；原始錨點完整保留，同位置節引重出另列raw／duplicate與對應群組，不代表來源權威度。', '',
              '已接合父系見 [家族組裝資料](../../registry/family-assemblies.json)。`assembled_identity.person_id` 是共用家族根的組裝 ID，`source_person_ids` 保留各篇候選；父子及同指證據可由記錄 ID 回查。缺代節點另有 `ancestor_person_id`、`generation_distance` 與空值中間世代；父親空值不表示它另成一族。', '',
              '點選家族標題可展開或收起後代。`*` 表示缺名世代，不建立人物，也不表示不同缺名位置是同一人。表內只列家族根後的 ID 尾碼；根人物以「根」表示，完整 ID 保留於家族標題及 JSON。最多提及來源另列一欄，同數並列；提及次數不代表史料優先權。已完成格式遷移的舊 ID 與 JSON 入口已撤除；待身份覆核的來源候選仍分存。', '', '尚未連入同族的人物見 [獨立人物索引](unconnected.md)。', '', '## 可展開家族', '']
