@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `m9p_g06_c6t` | 王國 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47] | [JSON](m9p_g06_c6t.json) |
 | `m9r_3qk_l9z` | 戾（叔孫氏臣） | [《史記・魯周公世家》][102] | [JSON](m9r_3qk_l9z.json) |
 | `m9r_lxq_vmo` | 劉氏〔桓玄妻〕 | [《晉書・叛臣二》][60] | [JSON](m9r_lxq_vmo.json) |
 | `ma5_8sy_w9i` | 羅尚〔王戎參軍〕 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](ma5_8sy_w9i.json) |
@@ -420,7 +419,6 @@
 | `p00_7fd_aoy` | 正考父 | [《史記・孔子世家》][116] | [JSON](p00_7fd_aoy.json) |
 | `p06_4l2_vmx` | 綽〔髙允孫〕 | [《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](p06_4l2_vmx.json) |
 | `p06_lrs_tg7` | 孫叔敖引古 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](p06_lrs_tg7.json) |
-| `p0f_4cj_em4` | 齊湣王 | [《史記・樗里子甘茂列傳》][140] | [JSON](p0f_4cj_em4.json) |
 | `p0o_71d_xqs` | 麋嶷 | [《晉書・外戚》][56] | [JSON](p0o_71d_xqs.json) |
 | `p0q_m9t_btu` | 舜後母 | [《史記・五帝本紀》][88] | [JSON](p0q_m9t_btu.json) |
 | `p0r_yzz_wnx` | 劉宣明〔瀛州民〕 | [《魏書・楊播》][235] | [JSON](p0r_yzz_wnx.json) |
@@ -536,7 +534,6 @@
 | `ppa_qmm_m9h` | 衛尉竭 | [《史記・秦始皇本紀》][93] | [JSON](ppa_qmm_m9h.json) |
 | `ppa_vqy_d1e` | 周顯王（楚篇致胙者） | [《史記・楚世家》][109] | [JSON](ppa_vqy_d1e.json) |
 | `pph_9jt_i6m` | 太后（趙世家孝成王新立未名者） | [《史記・趙世家》][112] | [JSON](pph_9jt_i6m.json) |
-| `ppk_dnc_f2g` | 白公勝（楚亂記事） | [《史記・陳杞世家》][105] | [JSON](ppk_dnc_f2g.json) |
 | `ppl_k5e_2iw` | 呼毒尼 | [《史記・衛將軍驃騎列傳》][180]、[《史記・建元以來侯者年表》][250] | [JSON](ppl_k5e_2iw.json) |
 | `pqu_drz_3p5` | 英〔冏子，濟陽王〕 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][35] | [JSON](pqu_drz_3p5.json) |
 | `pqx_j3h_31a` | 褚廣 | [《史記・酷吏列傳》][191] | [JSON](pqx_j3h_31a.json) |
@@ -2103,13 +2100,13 @@
 | `zqx_760_8l5` | 周敬王 | [《史記・趙世家》][112] | [JSON](zqx_760_8l5.json) |
 | `zqy_a21_8d3` | 任鄙 | [《史記・秦本紀》][92] | [JSON](zqy_a21_8d3.json) |
 | `zr7_8hl_01r` | 皋羊（陳相公） | [《史記・陳杞世家》][105] | [JSON](zr7_8hl_01r.json) |
-
-| 人物 ID | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
 | `zr9_fi0_hu6` | 楊孜敬 | [《晉書・叛臣二》][60] | [JSON](zr9_fi0_hu6.json) |
 | `zre_gn0_g9m` | 莊子 | [《史記・日者列傳》][196] | [JSON](zre_gn0_g9m.json) |
 | `zru_24j_blp` | 稷 | [《史記・仲尼弟子列傳》][136] | [JSON](zru_24j_blp.json) |
 | `zry_dmh_1hb` | 竇應期 | [《宋書・謝晦》][206] | [JSON](zry_dmh_1hb.json) |
+
+| 人物 ID | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
 | `zsa_9lx_eh6` | 高〔新唐陳氏序〕 | [《新唐書・宰相世系一下》][237] | [JSON](zsa_9lx_eh6.json) |
 | `zst_e6c_czh` | 苑縱夫 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](zst_e6c_czh.json) |
 | `zt8_dt2_n3j` | 趙王孫 | [《史記・游俠列傳》][193] | [JSON](zt8_dt2_n3j.json) |

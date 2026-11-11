@@ -1317,7 +1317,6 @@
 | `6ie_gjx_w1x` | 虎〔楊難當第三息〕 | [《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][211] | [JSON](6ie_gjx_w1x.json) |
 | `6ip_dr3_fbl` | 禹 | [《史記・夏本紀》][89] | [JSON](6ip_dr3_fbl.json) |
 | `6it_qfa_gdg` | 鄂邑長公主 | [《漢書・昭帝紀》][7] | [JSON](6it_qfa_gdg.json) |
-| `6j7_udm_uq6` | 齊湣王 | [《史記・蘇秦列傳》][138] | [JSON](6j7_udm_uq6.json) |
 | `6jq_2yw_j6h` | 左彊 | [《史記・龜策列傳》][197] | [JSON](6jq_2yw_j6h.json) |
 | `6jz_eg8_plz` | 申功 | [《史記・孝武本紀》][99] | [JSON](6jz_eg8_plz.json) |
 | `6k3_ylu_5tf` | 差弗 | [《史記・周本紀》][91]、[《史記・三代世表》][243] | [JSON](6k3_ylu_5tf.json) |
@@ -1406,7 +1405,6 @@
 | `715_4e6_890` | 郭援 | [《三國志・二荀賈傳》][79] | [JSON](715_4e6_890.json) |
 | `716_a60_706` | 淳于瓊 | [《三國志・二荀賈傳》][79] | [JSON](716_a60_706.json) |
 | `716_g9k_cg4` | 穆生 | [《史記・楚元王世家》][119] | [JSON](716_g9k_cg4.json) |
-| `718_52s_bo3` | 齊湣王 | [《史記・張儀列傳》][139] | [JSON](718_52s_bo3.json) |
 | `71j_ydc_ly7` | 莊助 | [《史記・酷吏列傳》][191] | [JSON](71j_ydc_ly7.json) |
 | `71m_zie_vnr` | 袁濤涂 | [《史記・齊太公世家》][101] | [JSON](71m_zie_vnr.json) |
 | `71u_x7f_gpq` | 荀息 | [《史記・鄭世家》][111] | [JSON](71u_x7f_gpq.json) |
@@ -2095,6 +2093,8 @@
 | `ad9_bbe_5b1` | 劉猗 | [《晉書・謝尚 謝安》][53] | [JSON](ad9_bbe_5b1.json) |
 | `adc_422_819` | 祁纖 | [《魏書・崔浩》][232] | [JSON](adc_422_819.json) |
 | `add_0d9_001` | 虞秀之 | [《宋書・張茂度 庾登之 謝方明 江夷》][214] | [JSON](add_0d9_001.json) |
+| `adj_kqv_jh0` | 田祿伯 | [《史記・吳王濞列傳》][175] | [JSON](adj_kqv_jh0.json) |
+| `ae2_620_2bc` | 袁渙 | [《三國志・二荀賈傳》][79] | [JSON](ae2_620_2bc.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

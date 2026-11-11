@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `adj_kqv_jh0` | 田祿伯 | [《史記・吳王濞列傳》][175] | [JSON](adj_kqv_jh0.json) |
-| `ae2_620_2bc` | 袁渙 | [《三國志・二荀賈傳》][79] | [JSON](ae2_620_2bc.json) |
 | `ae4_588_bdb` | 鄭泰 | [《三國志・二荀賈傳》][79] | [JSON](ae4_588_bdb.json) |
 | `ae4_u22_s8c` | 荀彘 | [《史記・朝鮮列傳》][184] | [JSON](ae4_u22_s8c.json) |
 | `ae6_c85_578` | 胡彬 | [《晉書・謝尚 謝安》][53] | [JSON](ae6_c85_578.json) |
@@ -2094,6 +2092,7 @@
 | `m9h_fg1_y58` | 駔（荼異母兄） | [《史記・齊太公世家》][101] | [JSON](m9h_fg1_y58.json) |
 | `m9h_k61_29i` | 菑川田生 | [《史記・儒林列傳》][190] | [JSON](m9h_k61_29i.json) |
 | `m9l_x8u_wbq` | 放齊 | [《史記・五帝本紀》][88] | [JSON](m9l_x8u_wbq.json) |
+| `m9p_g06_c6t` | 王國 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47] | [JSON](m9p_g06_c6t.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
