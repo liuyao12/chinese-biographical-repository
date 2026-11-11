@@ -12,7 +12,7 @@ export default {
   'Counts follow your search and other filters. Multiple choices within a group are combined.':'人數隨搜尋及其他篩選更新；同組可複選。',
 
   'Browse volume directory →':'瀏覽卷目 →',
-  'Sui, Tang and later dynastic histories':'隋唐及其後正史',
+  'Sui, Tang and later dynastic histories':'隋唐宋元明正史',
   'Received histories are being checked against Wuyingdian editions. This page retains its recorded witness for reference; see the edition details.': '傳世史書正依武英殿本核換；本頁現存轉錄仍按原見證保留供參考，實際版源請見「文獻與版本」。',
   'Identity interpretation': '身份判讀',
   'Historical texts, medieval clans, epitaphs and Qing biographies — with people connected to their sources.':'經史、三國兩晉南北朝家族、墓誌與清代傳記，人物各有出處。',
