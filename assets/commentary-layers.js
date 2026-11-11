@@ -12,6 +12,7 @@ export const layerGroups = [
  ['praise','Compiler praise','贊','贊',['received_compiler_praise']],
  ['bangu','Ban Gu discussion','班固論','論',['witness_appended_bangu_note']],
  ['chu','Chu Shaosun supplement','褚少孫補文','補',['witness_appended_chu_note']],
+ ['edict','Appended edict (source witness)','見證附載詔書','詔',['witness_appended_edict']],
  ['zhengyi','Zhang Shoujie Zhengyi','張守節正義','注',['witness_appended_zhengyi_note']],
  ['duyu','Du Yu commentary','杜預注','注',['witness_duyu_annotation_excerpt']],
  ['suoyin','Sima Zhen Suoyin praise','司馬貞索隱述贊','贊',['witness_appended_suoyin_zan']]
@@ -24,7 +25,7 @@ export function layerParagraph(p, html, extra='') {
 export function commentaryControls(chapter) {
  const groups=layerGroups.filter(g=>(chapter.paragraphs||[]).some(p=>layerInfo(p)===g));
  if(!groups.length)return '';
- return `<fieldset class="corpus-layer-controls"><legend>${ui('Commentary and supplementary layers')}</legend>${groups.map(g=>`<label><input type="checkbox" data-commentary-toggle="${g[0]}" checked> ${ui(g[1])}</label>`).join('')}<p class="corpus-layer-status" aria-live="polite"></p></fieldset>`;
+ return `<fieldset class="corpus-layer-controls"><legend>${ui('Commentary and other source layers')}</legend>${groups.map(g=>`<label><input type="checkbox" data-commentary-toggle="${g[0]}" checked> ${ui(g[1])}</label>`).join('')}<p class="corpus-layer-status" aria-live="polite"></p></fieldset>`;
 }
 export function targetParagraph(chapter, params) {
  const ps=chapter.paragraphs||[];let id=params.get('passage'),mid=params.get('mention');
