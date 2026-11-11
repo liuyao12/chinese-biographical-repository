@@ -944,7 +944,7 @@
 | `4rw_nce_8oq` | 史狗 | [《史記・吳太伯世家》][100] | [JSON](4rw_nce_8oq.json) |
 | `4sb_h3r_tey` | 泉陽令（未名） | [《史記・龜策列傳》][197] | [JSON](4sb_h3r_tey.json) |
 | `4sj_vbb_hzg` | 毛遁 | [《晉書・叛臣二》][60] | [JSON](4sj_vbb_hzg.json) |
-| `4t4_ojw_dn7` | 西王母 | [《史記・趙世家》][112] | [JSON](4t4_ojw_dn7.json) |
+| `4t4_ojw_dn7` | 西王母 | [《史記・趙世家》][112]、[《史記・司馬相如列傳》][186]、[《史記・大宛列傳》][192] | [JSON](4t4_ojw_dn7.json) |
 | `4t6_6ur_8lb` | 孔子引古 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](4t6_6ur_8lb.json) |
 | `4ta_l8n_ik4` | 國武子（齊大夫） | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](4ta_l8n_ik4.json) |
 | `4tb_tcb_9tq` | 朝（孝惠後宮子稱） | [《史記・呂后本紀》][96] | [JSON](4tb_tcb_9tq.json) |
