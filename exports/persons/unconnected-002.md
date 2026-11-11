@@ -199,7 +199,6 @@
 | `bf5_80m_ih1` | 管引古 | [《史記・孟子荀卿列傳》][143] | [JSON](bf5_80m_ih1.json) |
 | `bfa_5d0_683` | 薛蘭 | [《三國志・二荀賈傳》][79] | [JSON](bfa_5d0_683.json) |
 | `bfc_uke_v0c` | 鄭國 | [《史記・李斯列傳》][156] | [JSON](bfc_uke_v0c.json) |
-| `bff_e4b_8yv` | 楚惠王（滅蔡記事） | [《史記・陳杞世家》][105] | [JSON](bff_e4b_8yv.json) |
 | `bfo_y48_afp` | 昝堅 | [《晉書・叛臣一》][59] | [JSON](bfo_y48_afp.json) |
 | `bfv_clh_n6y` | 趙造 | [《史記・趙世家》][112] | [JSON](bfv_clh_n6y.json) |
 | `bfw_rpm_xxt` | 郭寶 | [《晉書・桓彝》][44] | [JSON](bfw_rpm_xxt.json) |

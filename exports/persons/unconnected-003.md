@@ -1368,7 +1368,6 @@
 | `usk_ybs_z1y` | 桓子（田文子對話稱） | [《史記・齊太公世家》][101] | [JSON](usk_ybs_z1y.json) |
 | `uss_tkl_hqe` | 管至父 | [《史記・鄭世家》][111] | [JSON](uss_tkl_hqe.json) |
 | `usv_vhb_ltw` | 孝公（燕獻公後） | [《史記・燕召公世家》][103] | [JSON](usv_vhb_ltw.json) |
-| `ut1_rtj_ckz` | 楚惠王 | [《史記・伍子胥列傳》][135] | [JSON](ut1_rtj_ckz.json) |
 | `ut6_755_soi` | 孟山圖 | [《晉書・叛臣二》][60]、[《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][211] | [JSON](ut6_755_soi.json) |
 | `utj_s5y_tae` | 毛叔鄭 | [《史記・周本紀》][91] | [JSON](utj_s5y_tae.json) |
 | `uu4_r66_k0i` | 王元德 | [《晉書・叛臣二》][60] | [JSON](uu4_r66_k0i.json) |
