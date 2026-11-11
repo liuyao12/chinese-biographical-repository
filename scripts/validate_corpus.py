@@ -534,6 +534,11 @@ def _validate_uncached(root=ROOT):
                     if m['kind'] == 'person':
                         check(m['person_id'] in pids, '提及引用未知人物 ID')
                         check(any(ch.isalnum() for ch in m['surface']), '人物提及不得僅為標點或空白')
+                    elif m['kind'] == 'pronoun':
+                        linked = m.get('person_id') in pids and m.get('status') == 'contextual_provisional'
+                        unresolved = m.get('person_id') is None and m.get('status') == 'unresolved'
+                        check((linked or unresolved) and bool(m.get('interpretation_note')),
+                              '代詞須保留有效人物指涉或未決狀態及判讀說明')
                     elif m['kind'] == 'unresolved': check(m['person_id'] is None and m['status']=='unresolved', '未定提及不得暗選人物')
                     elif m['kind'] == 'non_person':
                         try:
@@ -643,7 +648,7 @@ def _validate_uncached(root=ROOT):
                 refs=case.get('paragraph_ids',[])
                 local={p['id']:p for p in d['paragraphs']}
                 check(bool(refs) and any(ref in local for ref in refs) and all(ref in case_paragraphs for ref in refs),'未決身份段落引用無效')
-                supported={m['person_id'] for ref in refs if ref in case_paragraphs for m in case_paragraphs[ref]['mentions'] if m['kind']=='person'}
+                supported={m['person_id'] for ref in refs if ref in case_paragraphs for m in case_paragraphs[ref]['mentions'] if m['kind'] in ('person','pronoun') and m.get('person_id') is not None}
                 check(set(candidates)<=supported,'未決身份缺少各候選人物的段落證據')
                 if unknown:
                     unresolved = case.get('unresolved_mention_ids', [])
@@ -681,6 +686,7 @@ def _validate_uncached(root=ROOT):
                     check(e.tag==({'person':'persName','work':'title','non_person':'seg'}.get(m['kind'], 'rs')), 'XML 提及類型不符')
                     check(e.get('ref')==(m.get('work_id') if m['kind']=='work' else m['person_id']), 'XML 人物或著作引用不符')
                     if m['kind']=='unresolved': check(e.get('type')=='unresolved','XML 未定類型不符')
+                    if m['kind']=='pronoun': check(e.get('type')=='pronoun','XML 代詞類型不符')
                     if m['kind']=='non_person': check(e.get('type')=='non-person' and e.get('subtype')==m.get('lexical_role'),'XML 非人物詞性不符')
         check(not set(chapters).intersection(table_chapters), '正文與表格篇ID不得重複')
         check(set(chapter_books)==set(chapters) | set(table_chapters), '著作目錄與文本篇清單不符')
@@ -731,7 +737,7 @@ def _validate_uncached(root=ROOT):
                           and evidence['quote'] == hit[1]['text'] and case['source_term'] in evidence['quote']
                           and evidence['source_id'] == chapter['source_id'], '親屬詮釋引句或篇來源不符')
                     if hit:
-                        local = {m['person_id'] for m in hit[1]['mentions'] if m['kind'] == 'person'}
+                        local = {m['person_id'] for m in hit[1]['mentions'] if m['kind'] in ('person','pronoun') and m.get('person_id') is not None}
                         check(endpoints.issubset(local), '親屬詮釋兩端未見於正文證據')
                 for alternative in case['alternatives']:
                     predicate = alternative['predicate']; qualifiers = alternative['qualifiers']; reference = alternative['reference']
@@ -846,7 +852,8 @@ def _validate_uncached(root=ROOT):
                           for a in family_relations), '家族路徑缺少相符的來源親屬陳述')
         mention_ids_by_person = {}
         for mid, hit in mentions.items():
-            mention_ids_by_person.setdefault(hit[2]['person_id'], set()).add(mid)
+            if hit[2].get('kind') == 'person':
+                mention_ids_by_person.setdefault(hit[2]['person_id'], set()).add(mid)
         registry_mentions = dict(mentions)
         table_mids_by_person = {}
         for table in tables.values():
@@ -922,7 +929,7 @@ def _validate_uncached(root=ROOT):
                     check(bool(hit) and hit[0] in allowed and e['quote'] in hit[1]['text'],'身份判斷引句不在所屬正文')
                     if hit:
                         observed.add(hit[0])
-                        check(any(m['person_id']==decision['person_id'] for m in hit[1]['mentions']),'身份判斷段落未提及該人物')
+                        check(any(m.get('kind') in ('person','pronoun') and m.get('person_id') == decision['person_id'] for m in hit[1]['mentions']),'身份判斷段落未提及該人物')
                 check(set(allowed).issubset(observed),'跨篇身份判斷未列各篇證據')
                 if 'chronology_caution' in decision:
                     try:
@@ -969,7 +976,7 @@ def _validate_uncached(root=ROOT):
                     check(bool(hit) and e['quote'] in hit[1]['text'],'人物區分引句不在正文')
                     if hit:
                         own=own or hit[0]==d['chapter_id']
-                        supported.update(m['person_id'] for m in hit[1]['mentions'] if m['person_id'] in ids)
+                        supported.update(m['person_id'] for m in hit[1]['mentions'] if m.get('kind') in ('person','pronoun') and m.get('person_id') in ids)
                 check(own,'人物區分未包含所屬篇證據')
                 check(set(ids).issubset(supported),'人物區分未有各端點證據')
         canonical_links={}
@@ -1000,13 +1007,13 @@ def _validate_uncached(root=ROOT):
                     selected=[]
                     for mid in mids:
                         mention=mentions.get(mid)
-                        check(bool(mention) and mention[1]==e['paragraph_id'] and mention[2]['person_id'] in ids,'同指決定提及不屬於證據段落或端點')
+                        check(bool(mention) and mention[1]==e['paragraph_id'] and mention[2].get('kind') in ('person','pronoun') and mention[2].get('person_id') in ids,'同指決定提及不屬於證據段落或端點')
                         if mention:selected.append(mention[2])
                     if hit and quote:
                         starts=[i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(quote,i)]
                         enclosed=any(all(i<=m['start'] and m['end']<=i+len(quote) for m in selected) for i in starts)
                         check(enclosed,'同指決定提及不在精確引句範圍')
-                    supported.update(m['person_id'] for m in selected)
+                    supported.update(m['person_id'] for m in selected if m.get('kind') in ('person','pronoun') and m.get('person_id') is not None)
                 check(set(scope_chapters).issubset(evidence_chapters),'同指決定缺少各篇證據')
                 check(set(ids).issubset(supported),'同指決定未有各端點提及證據')
                 if decision.get('identity_materialized'):
@@ -1025,7 +1032,7 @@ def _validate_uncached(root=ROOT):
                 references = [applied_decisions.get(i) for i in case.get('identity_equivalence_decision_ids', [])]
                 check(bool(references) and all(d and d.get('identity_materialized') is True and d['person_ids'] == [pid] for d in references), '已接合身份案件缺少已套用的同指證據')
                 refs = case.get('paragraph_ids', [])
-                check(bool(refs) and all(ref in paragraphs for ref in refs) and any(m['person_id'] == pid for ref in refs if ref in paragraphs for m in paragraphs[ref][1]['mentions']), '已接合身份案件缺少原段落人物提及')
+                check(bool(refs) and all(ref in paragraphs for ref in refs) and any(m.get('kind') in ('person','pronoun') and m.get('person_id') == pid for ref in refs if ref in paragraphs for m in paragraphs[ref][1]['mentions']), '已接合身份案件缺少原段落人物提及')
         for start in canonical_links:
             seen=set();current=start
             while current in canonical_links:
@@ -1118,7 +1125,7 @@ def _validate_uncached(root=ROOT):
                     check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'稱號來源 ID 不符')
                     if hit:
                         if 'context' not in e:
-                            check(any(m['person_id']==h['person_id'] for m in hit[1]['mentions']),'稱號引句段落未提及持有人')
+                            check(any(m.get('kind') in ('person','pronoun') and m.get('person_id') == h['person_id'] for m in hit[1]['mentions']),'稱號引句段落未提及持有人')
                         else:
                             context=e['context']
                             valid=isinstance(context,dict)
@@ -2035,13 +2042,13 @@ def _validate_uncached(root=ROOT):
                     check(bool(hit) and hit[0]==d['chapter_id']==e['chapter_id'] and e['quote'] in hit[1]['text'],'人物陳述引句與所屬篇不符')
                     check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'人物陳述來源 ID 不符')
                     if hit:
-                        local={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'}
+                        local={m['person_id'] for m in hit[1]['mentions'] if m['kind'] in ('person','pronoun') and m.get('person_id') is not None}
                         if adjacent is None:
                             check(a['subject_person_id'] in local and a['object_person_id'] in local,'人物陳述端點未見於證據段落')
                         else:
                             quote=e['quote'];text=hit[1]['text']
                             starts=[i for i in range(len(text)+1) if text.startswith(quote,i)]
-                            quoted={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'
+                            quoted={m['person_id'] for m in hit[1]['mentions'] if m['kind'] in ('person','pronoun') and m.get('person_id') is not None
                                     and any(i<=m['start'] and m['end']<=i+len(quote) for i in starts)}
                             quoted_endpoints.append(quoted)
                 if adjacent is not None:

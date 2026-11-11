@@ -1856,7 +1856,7 @@
     },
     {
       "id": "d-shiji048-083",
-      "person_id": "anb_y7b_x61",
+      "person_id": "fp6_ia6_7yw",
       "surfaces": [
         "仲尼"
       ],
@@ -1933,6 +1933,74 @@
       ],
       "rationale": "限明示名、字及局部軍事角色；陳勝涉、吳廣叔、蔡賜房君與周文周章暫接，吳廣韓廣分開。引文四君短稱及比擬人物另留候選，詐稱扶蘇項燕不合陳吳，褚賈署稱不補姓名。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji048-confucius-crosschapter-candidate-merge",
+      "person_id": "fp6_ia6_7yw",
+      "surfaces": [
+        "孔丘",
+        "仲尼"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-006-shihuang",
+        "c-shiji-048-chenshe",
+        "c-shiji-068-shang",
+        "c-shiji-124-youxia",
+        "c-songshu-067-xielingyun"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p064:block07",
+          "quote": "非有仲尼、墨翟之賢，陶朱、猗頓之富",
+          "mention_ids": [
+            "c-shiji-006-shihuang:p064:block07:m0042"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-048-chenshe",
+          "source_id": "s-shiji-048-chenshe",
+          "paragraph_id": "c-shiji-048-chenshe:p025",
+          "quote": "材能不及中人，非有仲尼、墨翟之賢，陶朱、猗頓之富也",
+          "mention_ids": [
+            "c-shiji-048-chenshe:m025-0044"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-068-shang",
+          "source_id": "s-shiji-068-shang",
+          "paragraph_id": "c-shiji-068-shang:p009",
+          "quote": "孔丘有言曰：「推賢而戴者進，聚不肖而王者退。」",
+          "mention_ids": [
+            "c-shiji-068-shang:m009-0059"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-124-youxia",
+          "source_id": "s-shiji-124-youxia",
+          "paragraph_id": "c-shiji-124-youxia:p002",
+          "quote": "百里飯牛，仲尼畏匡，菜色陳、蔡。此皆學士所謂有道仁人也",
+          "mention_ids": [
+            "c-shiji-124-youxia:m002-0056"
+          ]
+        },
+        {
+          "chapter_id": "c-songshu-067-xielingyun",
+          "source_id": "s-songshu-067-xielingyun",
+          "paragraph_id": "c-songshu-067-xielingyun:p003",
+          "quote": "啟仲尼之嘉問告性命以依方",
+          "mention_ids": [
+            "c-songshu-067-xielingyun:p003:m02709"
+          ]
+        }
+      ],
+      "rationale": "四處《史記》正文及《宋書》〈征賦〉皆以孔丘／仲尼之名明指孔子：卷六、四十八平行引述陳涉之才不及仲尼，卷六十八明稱孔丘有言，卷一百二十四稱仲尼畏匡；〈征賦〉稱啟仲尼之嘉問。四個原候選 ID 是各篇暫存號，無異人證據，均接回已由《史記》孔子世家名、字明證的現行人物 fp6_ia6_7yw。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

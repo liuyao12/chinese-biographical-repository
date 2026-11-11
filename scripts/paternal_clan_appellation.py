@@ -1,7 +1,7 @@
 """Finite source-first clan style, retaining an unnamed woman's unknown ming."""
 from pathlib import Path
 import json,hashlib
-PROOF_SHA='d050aa20d26ff72098523232fee748a13ccc3cdad483bfbf7b1ac4a669cd9fc2'
+PROOF_SHA='cdf313175baa2e4a9a690b9802d91b60c523ead486dfa807c97e3c5d0f776778'
 def valid(n,p,relations):
  try:
   root=Path(__file__).resolve().parents[1];raw=(root/'source-evidence/name-context/xie-women-paternal-clans.json').read_bytes();assert hashlib.sha256(raw).hexdigest()==PROOF_SHA

@@ -14,7 +14,7 @@
 
 `corpus/shiji/001.json` 保存正文、見證版本、權利、指紋、審閱狀態與提及位置。`source_id` 為本卷見證識別碼，來源資訊就地保存在 `source`；它目前不引用舊 `sources/` 目錄。這個區別須在舊資料遷移時明確處理。同一原卷可以有多個數位見證或選段，沿用原卷 `book_id`，各有獨立 `source_id` 與 `chapter_id`。平行版本不是另一獨立史書，不能當成多份獨立見證投票；引用哪一版就指向哪一版原段，不把另一版字句補進通行正文。
 
-每個段落有唯一 ID，每個提及有唯一 ID、`start`、`end`、`surface`。位置為段落內 Unicode code point，起點含、終點不含；JavaScript 使用 `Array.from(text)`，不可直接把 UTF-16 字串位置當此格式的位置。所有提及不重疊，依起點排列。人物提及含 `person_id`；未定指代的 `person_id` 為 `null`。
+每個段落有唯一 ID，每個提及有唯一 ID、`start`、`end`、`surface`。位置為段落內 Unicode code point，起點含、終點不含；JavaScript 使用 `Array.from(text)`，不可直接把 UTF-16 字串位置當此格式的位置。所有提及不重疊，依起點排列。`kind: person` 是姓名或其他具名人物用稱，可開人物頁並納入姓名別名與提及頻次。`kind: pronoun` 是代詞指涉：僅在原文語境足以辨認人物時填 `person_id`，未能確定人物或其所指非人物時填 `person_id: null` 並標記 `status: unresolved`。代詞不作姓名、別名或人物頁連結。其他未決指代的 `person_id` 也為 `null`。
 
 ## 行內文本
 
@@ -26,7 +26,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 </text>
 ```
 
-實際文件另含提及 ID；`persName` 引用人物，`rs type="unresolved"` 保存未定個人、氏族、群體、國號或職稱。去掉標籤後必須逐段精確還原 JSON 正文，標籤不改寫史料。篇的 SHA-256 取各段正文以兩個換行連接後的 UTF-8 位元組，不含結尾換行。
+實際文件另含提及 ID；`persName` 引用具名人物，`rs type="pronoun" ref="…"` 保存已解析的人物代詞指涉（ref 可省略），`rs type="unresolved"` 保存未決個人、氏族、群體、國號或職稱。去掉標籤後必須逐段精確還原 JSON 正文，標籤不改寫史料。篇的 SHA-256 取各段正文以兩個換行連接後的 UTF-8 位元組，不含結尾換行。
 
 ## 身份、群體與傳說
 

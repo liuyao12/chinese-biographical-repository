@@ -104,7 +104,7 @@ class TianDanIdentityTests(unittest.TestCase):
 
     def test_death_years_use_calendar_month_not_regnal_month_sequence(self):
         rows=json.loads((ROOT/'corpus/shiji/094-life-events.json').read_text())['events']
-        expected={'u87_cc1_7vm':208,'u87_cc1_7vm_A':206,'1h3_vs7_t8h_AA_*A':206,'0hs_fg6_1qj':205}
+        expected={'u87_cc1_7vm':208,'u87_cc1_7vm_A':206,'1h3_vs7_t8h_AA*A':206,'0hs_fg6_1qj':205}
         for pid,year in expected.items():
             e=next(e for e in rows if e['person_id']==pid);d=e['normalized_date']
             self.assertIsNone(e['date_expression'])
@@ -114,7 +114,7 @@ class TianDanIdentityTests(unittest.TestCase):
         shi=next(e for e in rows if e['person_id']=='u87_cc1_7vm_A')['normalized_date']
         self.assertTrue(any(r['quote']=='二十四。田榮擊殺市。' for r in shi['references']))
         self.assertTrue(any(r['quote']=='六月' and r['scope']=='received_calendar_month_attestation' for r in shi['references']))
-        an=next(e for e in rows if e['person_id']=='1h3_vs7_t8h_AA_*A')['normalized_date']
+        an=next(e for e in rows if e['person_id']=='1h3_vs7_t8h_AA*A')['normalized_date']
         self.assertTrue(any(r['quote']=='六。田榮擊殺安。' for r in an['references']))
         self.assertTrue(any(r['quote']=='七月' and r['scope']=='received_calendar_month_attestation' for r in an['references']))
 
@@ -155,7 +155,7 @@ class TianDanIdentityTests(unittest.TestCase):
     def test_month_table_short_names_identify_victims_and_family(self):
         x=json.loads((ROOT/'data/historical-tables/shiji-016.json').read_text())
         cells={c['id']:c for f in x['fragments'] for r in f['rows'] for c in r['cells']}
-        for cid,surface,pid in [('shiji-016-t2-r006-c10','市','u87_cc1_7vm_A'),('shiji-016-t2-r007-c09','安','1h3_vs7_t8h_AA_*A'),('shiji-016-t2-r013-c08','項籍','ob7_g6i_7pp'),('shiji-016-t2-r013-c08','榮','0hs_fg6_1qj'),('shiji-016-t1-r003-c05','橫','6r7_9o6_c1i')]:
+        for cid,surface,pid in [('shiji-016-t2-r006-c10','市','u87_cc1_7vm_A'),('shiji-016-t2-r007-c09','安','1h3_vs7_t8h_AA*A'),('shiji-016-t2-r013-c08','項籍','ob7_g6i_7pp'),('shiji-016-t2-r013-c08','榮','0hs_fg6_1qj'),('shiji-016-t1-r003-c05','橫','6r7_9o6_c1i')]:
             self.assertTrue(any(m['surface']==surface and m['person_id']==pid for m in cells[cid]['person_mentions']))
         self.assertEqual(cells['shiji-016-t2-r006-c10']['text'],'二十四。田榮擊殺市。')
         self.assertEqual(cells['shiji-016-t2-r007-c09']['text'],'六。田榮擊殺安。')

@@ -323,7 +323,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 break
             ids = expanded
     related_equivalences = [d for d in equivalences if ids.intersection(d['person_ids'])]
-    mentions, relations, titles, identities, addresses, life_events, ages, person_events, age_differences = [], [], [], [], [], [], [], [], []
+    mentions, pronoun_references, relations, titles, identities, addresses, life_events, ages, person_events, age_differences = [], [], [], [], [], [], [], [], [], []
     family_counts = []
     table_occurrences, occurrence_cells = [], {}
     name_components = []
@@ -339,7 +339,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 paragraphs[paragraph['id']] = (record, paragraph)
                 for mention in paragraph['mentions']:
                     if mention.get('person_id') in ids:
-                        mentions.append(dict(mention, paragraph_id=paragraph['id'], chapter_id=record['id']))
+                        located = dict(mention, paragraph_id=paragraph['id'], chapter_id=record['id'])
+                        if mention.get('kind') == 'person':
+                            mentions.append(located)
+                        elif mention.get('kind') == 'pronoun':
+                            pronoun_references.append(located)
         elif kind == 'person_assertion_set':
             relations.extend(a for a in record['assertions'] if a['subject_person_id'] in ids or a['object_person_id'] in ids)
         elif kind == 'historical_table_source':
@@ -875,7 +879,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'age_assertions': ages} if ages else {}),
             **({'family_count_reports': family_counts} if family_counts else {}),
             **({'age_difference_assertions': age_differences} if age_differences else {}),
-            'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
+            'mentions': mentions, **({'pronoun_references': pronoun_references} if pronoun_references else {}),
+            'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
             'table_occurrences': table_occurrences,
             **({'date_range_normalizations': date_ranges} if date_ranges else {}),
             **({'calendar_context_assertions': calendar_context_assertions} if calendar_context_assertions else {}),

@@ -4,7 +4,7 @@ from pathlib import Path
 CID='c-songshu-063-wyd1739-wangtanshou'
 PATH='corpus/songshu/063-wyd1739-wangtanshou.json'
 CONTRACT='source-evidence/song063-wyd1739-wangtanshou/ner-role-contract.json'
-CONTRACT_SHA='e9be0651e883361b79dd82a01498327aeec76a7c9d7c1e6e7c3e7fe393d7946c'
+CONTRACT_SHA='97d61f3807092bdd4c3550a1192404113825d0d1b3d4862a189d0790c6266e16'
 KEY='fixed_ner_role_layer'
 LAYER={'kind':'wuyingdian_song063_complete_selected_roles','status':'ai_provisional','human_reviewed':False,'coverage':'complete_selected_text_named_roles_first_pass_with_explicit_unresolved'}
 def need(ok,message):

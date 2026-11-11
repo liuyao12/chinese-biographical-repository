@@ -27,7 +27,10 @@ class Song051(unittest.TestCase):
   self.assertTrue(all(p['annotation_status']=='pending'and not p['mentions']for p in self.c['paragraphs']))
   if self.formal_count is not None:
    self.assertEqual(sum(len(p['mentions'])for p in self.actual['paragraphs']),self.formal_count)
-   self.assertTrue(all(p['annotation_status']==('in_progress'if p['mentions']else'pending')for p in self.actual['paragraphs']))
+   for p in self.actual['paragraphs']:
+    expected = ('named_mentions_first_pass' if p['id'].endswith(':p041')
+                else 'in_progress' if p['mentions'] else 'pending')
+    self.assertEqual(p['annotation_status'], expected, p['id'])
  def test_wrong_layer_and_missing_binding(self):
   for field in ('layer','binding'):
    c=copy.deepcopy(self.c)
