@@ -207,13 +207,14 @@
 
 </details>
 
-<details><summary><code>1h3_vs7_t8h</code> 齊湣王（燕篇）（3 名）</summary>
+<details><summary><code>1h3_vs7_t8h</code> 齊湣王（燕篇）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 齊湣王（燕篇） | [《史記・燕召公世家》][103] | [JSON](1h3_vs7_t8h.json) |
 | `A` | 襄王（齊湣王子） | [《史記・田敬仲完世家》][115] | [JSON](1h3_vs7_t8h_A.json) |
 | `AA` | 齊王建 | [《史記・田敬仲完世家》][115] | [JSON](1h3_vs7_t8h_AA.json) |
+| `AA_*A` | 田安 | [《史記・項羽本紀》][94]、[《史記・田儋列傳》][163] | [JSON](1h3_vs7_t8h_AA_%2AA.json) |
 
 </details>
 
@@ -3515,14 +3516,6 @@
 
 </details>
 
-<details><summary><code>vtu_yuj_kdz</code> 齊王建（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 齊王建 | [《史記・秦始皇本紀》][93]、[《史記・田儋列傳》][163] | [JSON](vtu_yuj_kdz.json) |
-| `*A` | 田安 | [《史記・項羽本紀》][94]、[《史記・田儋列傳》][163] | [JSON](vtu_yuj_kdz_%2AA.json) |
-
-</details>
 
 <details><summary><code>vty_3n0_0ed</code> 病疽卒父（孫吳列傳候選）（2 名）</summary>
 
