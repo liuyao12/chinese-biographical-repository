@@ -85,7 +85,7 @@
     "reviewer": "Codex（AI）",
     "human_reviewed": false,
     "model": null,
-    "coverage": "有限親族NER第一批：49個人物錨；僅道憐六子與義賓/義綦近系及出繼上下文，其餘仍待逐段處理，不宣稱全卷首輪完成。",
+    "coverage": "有限親族NER第一批：49個人物錨；僅道憐六子與義賓/義綦近系及出繼上下文，其餘仍待逐段處理，不宣稱全卷首輪完成。；第41段5個人物錨另作完整段首輪標註，道考同指暫定另存。",
     "limitations": [
       "〓為AI未辨字占位，不是原刻字。",
       "完整轉錄不等於完整圖校，所有字形編碼仍待覆核。",
@@ -100,7 +100,7 @@
     "additional_annotation_phase": {
       "kind": "song051_yixin_complete_unit_phase2",
       "contract_path": "source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json",
-      "coverage": "義欣嗣至義欣弟義慶前完整908字人物第一輪；另p014三錨僅補玠/秉必要近系證，其他單元仍待逐人標註；不稱全卷完成。",
+      "coverage": "義欣嗣至義欣弟義慶前完整908字人物第一輪；另p014三錨僅補玠/秉必要近系證，其他單元仍待逐人標註；不稱全卷完成。；另第41段「道考」接卷46/53「劉遵考」暫同指並標高祖、上，來源字形照錄。；另第41段「道考」接卷46/53「劉遵考」暫同指並標高祖、上，來源字形照錄。",
       "human_reviewed": false,
       "model": null
     }
@@ -1912,8 +1912,54 @@
       "id": "c-songshu-051-wyd1739-zongshi:p041",
       "text": "秣陵宮道考領兵防衞高祖初卽大位下推恩之詔曰道考服屬之親國戚未遠宗室無多宜蒙寵爵可封營浦縣侯食邑五百戶以本號為彭城沛二郡太守景平元年遷右衞將軍元嘉二年出為征虜將軍淮南太守明年轉使持節領護軍入直殿省出為使持節督雍梁南北秦四州荆州之南兖陵順陽襄陽新野隨六郡諸軍征虜將軍寧蠻校尉雍州刺史襄陽新野二郡太守道考為政嚴暴聚斂無節五年為有司所糾上不問赦還都七年除太子右衞率加給事中明年督南徐兖州之江北淮南諸軍事征虜將軍南兖州刺史領廣陵太",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p041:m0003",
+          "kind": "person",
+          "start": 3,
+          "end": 5,
+          "surface": "道考",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p041:m0009",
+          "kind": "person",
+          "start": 9,
+          "end": 11,
+          "surface": "高祖",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p041:m0021",
+          "kind": "person",
+          "start": 21,
+          "end": 23,
+          "surface": "道考",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p041:m0147",
+          "kind": "person",
+          "start": 147,
+          "end": 149,
+          "surface": "道考",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p041:m0164",
+          "kind": "person",
+          "start": 164,
+          "end": 165,
+          "surface": "上",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",

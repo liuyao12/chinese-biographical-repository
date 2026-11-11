@@ -4,7 +4,7 @@ import json,copy,hashlib
 CID='c-songshu-051-wyd1739-zongshi'
 CH='corpus/songshu/051-wyd1739.json'
 REF='source-evidence/song051-wyd1739-zongshi/formal-role-contract.json'
-CONTRACT_SHA='97be2e239d7d365ab8d40a683702f615ff8b80f87d56e15effbc350e6601766b'
+CONTRACT_SHA='e5cbd5f1cd3d42e22234c018c30739c2715e367704071d091c0b7f143ca992a6'
 FACTS='corpus/songshu/051-wyd1739-assertions.json'
 NAMES='corpus/songshu/051-wyd1739-name-components.json'
 KIND='fixed_wyd_song051_direct_family_phase1'
@@ -47,12 +47,14 @@ def resolve_existing(root,c):
 def phase_chapter(c,roles):
  ch=copy.deepcopy(c['source_before']);ch['annotation']=copy.deepcopy(c['phase_annotation'])
  for p in ch['paragraphs']:
-  p['mentions']=[materialize(row['marker'],roles)for row in c['markers']if row['paragraph_id']==p['id']]
-  if p['mentions']:p['annotation_status']='in_progress'
+  rows=[row for row in c['markers']if row['paragraph_id']==p['id']]
+  p['mentions']=[materialize(row['marker'],roles)for row in rows]
+  if p['mentions']:p['annotation_status']=next((row['paragraph_status']for row in rows if row.get('paragraph_status')),'in_progress')
  return ch
 def collect_roles(ch,c):
  roles={}
  for row in c['markers']:
+  if row.get('role') is None:continue
   p,=[p for p in ch['paragraphs']if p['id']==row['paragraph_id']];m,=[m for m in p['mentions']if m['id']==row['marker']['id']]
   k=row['role'];pid=m['person_id'];need(k not in roles or roles[k]==pid,'同角色不同號');roles[k]=pid
  need(len(roles)==16 and len(set(roles.values()))==16,'本批角色須各自確指不同個體');return roles
@@ -235,8 +237,8 @@ def succession_reading(ch,roles):
 
 def identities(ch,roles,c,root):
  out=[]
- for role in sorted({r['role']for r in c['markers']}):
-  hits=[(p,m)for p in ch['paragraphs']for m in p['mentions']if m['source_role_key']==role];surfaces=list(dict.fromkeys(m['surface']for p,m in hits));p,m=hits[0]
+ for role in sorted({r['role']for r in c['markers']if r.get('role')}):
+  hits=[(p,m)for p in ch['paragraphs']for m in p['mentions']if m.get('source_role_key')==role];surfaces=list(dict.fromkeys(m['surface']for p,m in hits));p,m=hits[0]
   d={'id':'d-song051-phase1-'+role,'person_id':roles[role],'surfaces':surfaces,'scope':'cross_chapter'if role not in c['source_local_registration_roles']else'same_chapter','chapter_ids':[CID],'status':'contextual_provisional','confidence_level':'high','identification_basis':{'kind':'source_context','target_mention_ids':[m['id']for p,m in hits]},'evidence':[dict(work_id=ch['work_id'],book_id=ch['book_id'],source_id=ch['source_id'],chapter_id=CID,paragraph_id=p['id'],quote=p['text'])],'rationale':'有限親族段落的具名人物辨識；既有角色由固定外部MID及雙向來源回查，新源局部角色不斷言與全庫已證異人。未明母/婚配/出生年不補。','human_reviewed':False,'model':None}
   if role in c.get('role_rationales',{}):
    d['rationale']=c['role_rationales'][role]
@@ -256,6 +258,7 @@ def identities(ch,roles,c,root):
   if reports:
    d['source_ordinal_readings']=reports;d['rationale']+=' '+reports[0]['rationale'];r=reports[0];p=next(p for p in ch['paragraphs']if p['id']==r['source_range']['paragraph_id']);d['evidence'].append(dict(work_id=ch['work_id'],book_id=ch['book_id'],source_id=ch['source_id'],chapter_id=CID,paragraph_id=p['id'],quote=p['text']));d['references']=[{'title':'《宋書・宗室》','url':ch['source']['url'],'quote':p['text'],'scope':'兩處來源所報2分存，不採入已解生序','access_scope_display':'已核讀所列武英殿本段落；AI轉錄，未經人工校勘。','human_reviewed':False,'image_verified':False,'model':None}]
   out.append(d)
+ out.extend(copy.deepcopy(c.get('additional_identity_decisions',[])))
  return{'format_version':'0.2','record_type':'person_identity_decision_set','chapter_id':CID,'decisions':out}
 
 def _phase1_validate_surname(n,all_names,chapters,all_assertions,root):
@@ -281,7 +284,7 @@ INTRO_IDENTITIES='corpus/songshu/005-wyd1739-wendi-opening-identities.json'
 def intro_identities(c,roles,root):
  ch=intro_chapter(c,roles);out=[]
  for role in sorted({r['role']for r in c['song005_opening_bridge']['markers']}):
-  hits=[(p,m)for p in ch['paragraphs']for m in p['mentions']if m['source_role_key']==role];paragraphs=[]
+  hits=[(p,m)for p in ch['paragraphs']for m in p['mentions']if m.get('source_role_key')==role];paragraphs=[]
   for p,m in hits:
    if p not in paragraphs:paragraphs.append(p)
   evidence=[{'work_id':ch['work_id'],'book_id':ch['book_id'],'source_id':ch['source_id'],'chapter_id':ch['id'],'paragraph_id':p['id'],'quote':p['text']}for p in paragraphs];chapter_ids=[ch['id']]
