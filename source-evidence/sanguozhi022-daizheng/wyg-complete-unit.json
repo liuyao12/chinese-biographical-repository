@@ -1695,10 +1695,9 @@
           "start": 1912,
           "end": 1914,
           "surface": "一子",
-          "kind": "person",
-          "person_id": "9w8_tqh_ysn_AAB",
-          "status": "contextual_provisional",
-          "interpretation_note": "同句/完整傳主指涉；不補未知身份。"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         }
       ],
       "source_position": {
@@ -4850,7 +4849,7 @@
       "scope": "reading_snapshot_not_current_annotations",
       "preserved_capture_field": "entire original captured unit",
       "decision_path": "source-evidence/sanguozhi022-ner-review/review.json",
-      "qualification": "原閱讀快照的原文、提及及capture hash保持原態；本篇當前標記以原生chapter及本NER decision為準。"
+      "qualification": "完整單元正文及原文字位雜湊不變；人物提及標記依現行原生章節資料校正，不保存已撤人物端點。"
     }
   ],
   "person_rekey_snapshot_qualifications": [

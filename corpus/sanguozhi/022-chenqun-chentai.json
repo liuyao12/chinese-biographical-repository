@@ -1686,10 +1686,9 @@
           "start": 1912,
           "end": 1914,
           "surface": "一子",
-          "kind": "person",
-          "person_id": "9w8_tqh_ysn_AAB",
-          "status": "contextual_provisional",
-          "interpretation_note": "同句/完整傳主指涉；不補未知身份。"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         }
       ],
       "source_position": {
@@ -4891,6 +4890,24 @@
         "reviewer": "Codex（AI代理）",
         "human_reviewed": false,
         "model": null
+      }
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "u-sgz022-chenqun-unnamed-enfeoffed-son",
+        "status": "unresolved",
+        "candidate_person_ids": [
+          "9w8_tqh_ysn_AAA"
+        ],
+        "candidate_list_exhaustive": false,
+        "unknown_identity_possible": true,
+        "unresolved_mention_ids": [
+          "c-sanguozhi-022-chenqun-chentai:p001:m1912"
+        ],
+        "paragraph_ids": [
+          "c-sanguozhi-022-chenqun-chentai:p001"
+        ],
+        "note": "「帝追思羣功徳分羣戶邑封一子列侯」只明言陳羣的一名兒子受封列侯；陳泰是可能候選，但原文未說明受封者是否即泰，也不能排除未具名身份。保留匿名受封事實，不另造人物或父子邊。"
       }
     ]
   }

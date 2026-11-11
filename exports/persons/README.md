@@ -1332,7 +1332,7 @@
 
 </details>
 
-<details><summary><code>9w8_tqh_ysn</code> 陳寔（17 名）</summary>
+<details><summary><code>9w8_tqh_ysn</code> 陳寔（16 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -1341,7 +1341,6 @@
 | `AA` | 陳群 | [《三國志・桓二陳徐衞盧傳》][83] | [JSON](9w8_tqh_ysn_AA.json) |
 | `AAA` | 陳泰 | [《三國志・桓二陳徐衞盧傳》][83] | [JSON](9w8_tqh_ysn_AAA.json) |
 | `AAAA` | 恂（陳泰子） | [《三國志・桓二陳徐衞盧傳》][83] | [JSON](9w8_tqh_ysn_AAAA.json) |
-| `AAB` | 陳羣未名另封子 | [《三國志・桓二陳徐衞盧傳》][83] | [JSON](9w8_tqh_ysn_AAB.json) |
 | `B` | 諶（陳羣叔父） | [《三國志・桓二陳徐衞盧傳》][83] | [JSON](9w8_tqh_ysn_B.json) |
 | `B*A` | 佐（陳諶孫）（來源候選；預設不接父系） | [《三國志・桓二陳徐衞盧傳》][83] | [JSON](9w8_tqh_ysn_B%2AA.json) |
 | `B*AA` | 凖（陳佐子） | [《新唐書・宰相世系一下》][237] | [JSON](9w8_tqh_ysn_B%2AAA.json) |

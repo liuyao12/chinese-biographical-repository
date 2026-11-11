@@ -37,6 +37,19 @@ class ChentaiOffices(unittest.TestCase):
  def test_count_no_people_invented_or_biological_children_assumed(self):
   d=next(x for x in self.ds if x['kind']=='unnamed_family_title_grants');self.assertEqual([x['recipient_count']for x in d['values']['grants']],[1,2]);self.assertEqual(d['values']['recipient_person_ids'],[])
   d=copy.deepcopy(d);d['values']['biological_children_only']=True;self.assertFalse(detail_valid(d,self.c,self.hs))
+ def test_chenqun_unnamed_son_grant_keeps_recipient_unidentified(self):
+  q=json.loads((ROOT/'corpus/sanguozhi/022-chenqun-chentai.json').read_text())
+  ds=json.loads((ROOT/'corpus/sanguozhi/022-chenqun-source-details.json').read_text())['records']
+  d=next(x for x in ds if x['id']=='sd-sgz022-chenqun-unnamed-son-grant')
+  self.assertTrue(detail_valid(d,q,self.hs))
+  self.assertEqual(d['person_id'],'9w8_tqh_ysn_AA')
+  self.assertEqual(d['values']['recipient_person_ids'],[])
+  self.assertIsNone(d['values']['biological_children_only'])
+  self.assertEqual(d['values']['grants'],[{'source_rank':'列侯','recipient_count':1,'source_number':'一'}])
+  m=next(m for p in q['paragraphs'] for m in p['mentions'] if m['id']=='c-sanguozhi-022-chenqun-chentai:p001:m1912')
+  self.assertEqual((m['kind'],m['person_id']),('unresolved',None))
+  case=next(x for x in q['annotation']['unresolved_identity_cases'] if x['id']=='u-sgz022-chenqun-unnamed-enfeoffed-son')
+  self.assertEqual(case['candidate_person_ids'],['9w8_tqh_ysn_AAA']);self.assertTrue(case['unknown_identity_possible']);self.assertFalse(case['candidate_list_exhaustive'])
  def test_aggregate_increase_not_total_or_revenue(self):
   d=copy.deepcopy(next(x for x in self.ds if x['kind']=='fief_household_count'));self.assertEqual(d['values']['increase'],2600);self.assertEqual(d['values']['unit_source_name'],'尸');d['values']['total']=2600;self.assertFalse(detail_valid(d,self.c,self.hs))
  def test_count_anchor_shift_to_same_numeral_elsewhere_rejected(self):
