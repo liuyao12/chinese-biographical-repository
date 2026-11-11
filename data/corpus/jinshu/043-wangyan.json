@@ -35,8 +35,41 @@
     "coverage": "完整選定十段逐人及必要稱謂、代詞首輪；非全卷。",
     "limitations": [
       "未圖校，edition不明。",
-      "只來源身份，不新增typed親屬、日期、姓名或地望。",
+      "只按來源補錄人物關係、死亡與報齡；不推公元生卒年、死地、姓名或地望。",
       "齊王乂爵名抵牾保候選；父乂、王澄、李陽等分清來源身份，不以同名自動合。"
+    ],
+    "age_assertions": [
+      {
+        "id": "age-jin043-wangyan-death",
+        "person_id": "b0c_13f_c3a",
+        "source_number": "五十六",
+        "source_term": "時年五十六",
+        "value": 56,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "date_expression": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-043",
+            "source_id": "s-jinshu-043-ws2618531-wangrong",
+            "chapter_id": "c-jinshu-043-wangyan",
+            "paragraph_id": "c-jinshu-043-wangyan:p008",
+            "quote": "越之討苟晞也，衍以太尉為太傅軍司。及越薨，眾共推為元帥。衍以賊寇鋒起，懼不敢當。辭曰：「吾少無宦情，隨牒推移，遂至於此。今日之事，安可以非才處之。」俄而舉軍為石勒所破，勒呼王公，與之相見，問衍以晉故。衍為陳禍敗之由，雲計不在己。勒甚悅之，與語移日。衍自說少不豫事，欲求自免，因勸勒稱尊號。勒怒曰：「君名蓋四海，身居重任，少壯登朝，至於白首，何得言不豫世事邪！破壞天下，正是君罪。」使左右扶出。謂其党孔萇曰：「吾行天下多矣，未嘗見如此人，當可活不？」萇曰：「彼晉之三公，必不為我盡力，又何足貴乎！」勒曰：「要不可加以鋒刃也。」使人夜排牆填殺之。衍將死，顧而言曰：「嗚呼！吾曹雖不如古人，向若不祖尚浮虛，戮力以匡天下，猶可不至今日。」時年五十六。",
+            "person_mention_id": "c-jinshu-043-wangyan:p008:m0271"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-jin043-wangyan-death"
+        },
+        "interpretation_note": "原文明載卒年五十六；計歲方式與公元卒年未明，不反推生年。",
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "model": null
+      }
     ]
   },
   "paragraphs": [
