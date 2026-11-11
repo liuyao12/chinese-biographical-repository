@@ -982,7 +982,6 @@
 | `sbj_0xf_1ml` | 晉頃公 | [《史記・趙世家》][112] | [JSON](sbj_0xf_1ml.json) |
 | `sbo_uaa_f2d` | 昌平君 | [《史記・秦始皇本紀》][93] | [JSON](sbo_uaa_f2d.json) |
 | `sbr_lsz_xkh` | 申紀（楚篇齊臣） | [《史記・楚世家》][109] | [JSON](sbr_lsz_xkh.json) |
-| `sc7_m6w_634` | 魏豹 | [《史記・外戚世家》][118] | [JSON](sc7_m6w_634.json) |
 | `sci_1hw_slc` | 曾參 | [《史記・袁盎鼂錯列傳》][170] | [JSON](sci_1hw_slc.json) |
 | `scm_yn2_dzn` | 呂甥 | [《史記・晉世家》][108] | [JSON](scm_yn2_dzn.json) |
 | `sd1_zvh_sby` | 渾沌 | [《史記・五帝本紀》][88] | [JSON](sd1_zvh_sby.json) |
@@ -2103,10 +2102,10 @@
 | `zqj_u2i_r5y` | 僕多 | [《史記・衛將軍驃騎列傳》][180]、[《史記・建元以來侯者年表》][250] | [JSON](zqj_u2i_r5y.json) |
 | `zqx_760_8l5` | 周敬王 | [《史記・趙世家》][112] | [JSON](zqx_760_8l5.json) |
 | `zqy_a21_8d3` | 任鄙 | [《史記・秦本紀》][92] | [JSON](zqy_a21_8d3.json) |
+| `zr7_8hl_01r` | 皋羊（陳相公） | [《史記・陳杞世家》][105] | [JSON](zr7_8hl_01r.json) |
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `zr7_8hl_01r` | 皋羊（陳相公） | [《史記・陳杞世家》][105] | [JSON](zr7_8hl_01r.json) |
 | `zr9_fi0_hu6` | 楊孜敬 | [《晉書・叛臣二》][60] | [JSON](zr9_fi0_hu6.json) |
 | `zre_gn0_g9m` | 莊子 | [《史記・日者列傳》][196] | [JSON](zre_gn0_g9m.json) |
 | `zru_24j_blp` | 稷 | [《史記・仲尼弟子列傳》][136] | [JSON](zru_24j_blp.json) |
