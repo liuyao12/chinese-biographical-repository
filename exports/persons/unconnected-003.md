@@ -1802,7 +1802,7 @@
 | `xz9_iik_30x` | 衛鞅（楚篇封商者） | [《史記・楚世家》][109] | [JSON](xz9_iik_30x.json) |
 | `xzi_8vn_cnc` | 蘇秦謀齊齊王 | [《史記・張儀列傳》][139] | [JSON](xzi_8vn_cnc.json) |
 | `xzr_i9s_mnp` | 東甌王（勇之所引） | [《史記・孝武本紀》][99] | [JSON](xzr_i9s_mnp.json) |
-| `xzw_df5_9v1` | 吳起 | [《史記・秦始皇本紀》][93] | [JSON](xzw_df5_9v1.json) |
+| `61h_0sk_4pb` | 吳起 | [《史記・孫子吳起列傳》][134] | [JSON](61h_0sk_4pb.json) |
 | `y0f_bts_55y` | 湯引古 | [《史記・穰侯列傳》][141] | [JSON](y0f_bts_55y.json) |
 | `y0g_t3a_mry` | 鄧嵩 | [《晉書・叛臣一》][59] | [JSON](y0g_t3a_mry.json) |
 | `y0r_blj_zn7` | 劉攽 | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](y0r_blj_zn7.json) |
