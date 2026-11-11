@@ -34,10 +34,11 @@ class ExportPersonBundlesResumeTests(unittest.TestCase):
             'mention_count': 17,
         }
 
-    def _patch_export_dependencies(self, bundle_mock, prune_side_effect=None, assembly_data=None):
+    def _patch_export_dependencies(self, bundle_mock, prune_side_effect=None,
+                                   assembly_data=None, records=None, citations=None):
         assembly_data = assembly_data or ({'aaa_aaa_aaa': self.assembly}, {})
         stack = [
-            patch.object(exporter, 'load_catalog', return_value=(self.people, [])),
+            patch.object(exporter, 'load_catalog', return_value=(self.people, records or [])),
             patch.object(exporter, 'load_assemblies', return_value=assembly_data),
             patch.object(exporter, 'bundle', bundle_mock),
             patch.object(exporter, 'index_counts', side_effect=lambda result: {
@@ -45,7 +46,8 @@ class ExportPersonBundlesResumeTests(unittest.TestCase):
                 'most_mentioned_source_ids': [],
             }),
             patch('scripts.calendar_wiring.export_calendar_contexts'),
-            patch('scripts.formal_source_citations.load_citation_index', return_value={}),
+            patch('scripts.formal_source_citations.load_citation_index',
+                  return_value=citations or {}),
             patch('scripts.personless_namespace.prune_person_files', side_effect=prune_side_effect),
         ]
         for context in stack:
@@ -241,6 +243,98 @@ class ExportPersonBundlesResumeTests(unittest.TestCase):
         )
         refreshed = json.loads((destination / 'bbb_bbb_bbb.json').read_text())
         self.assertEqual(refreshed['passages'][0]['mentions'][1]['person_id'], 'bbb_bbb_bbb')
+
+    def test_selective_refresh_updates_family_bundle_for_nonrepresentative_mention(self):
+        destination = self.root / 'exports/persons'
+        destination.mkdir(parents=True)
+        old_passage = {'id': 'chapter:p001', 'text': '甲', 'mentions': [
+            {'id': 'chapter:p001:m0000', 'surface': '甲', 'kind': 'person',
+             'person_id': 'aaa_aaa_aaa'},
+        ]}
+        for pid in self.people:
+            old = copy.deepcopy(self.old_bundle)
+            old.update(requested_person_id=pid,
+                       passages=[copy.deepcopy(old_passage)] if pid == 'aaa_aaa_aaa' else [])
+            (destination / (pid + '.json')).write_text(json.dumps(old))
+        (destination / 'family_aaa.json').write_text(json.dumps({
+            'requested_person_id': 'aaa_aaa_aaa', 'passages': [],
+        }))
+        refresh_file = self.root / 'refresh-ids.json'
+        refresh_file.write_text(json.dumps(['aaa_aaa_aaa']))
+
+        assembly = {
+            'person_id': 'family_aaa',
+            'representative_source_person_id': 'aaa_aaa_aaa',
+            'source_person_ids': ['aaa_aaa_aaa', 'bbb_bbb_bbb'],
+            'root_person_id': 'aaa_aaa_aaa',
+        }
+        new_passage = copy.deepcopy(old_passage)
+        new_passage['text'] = '甲乙'
+        new_passage['mentions'].append({
+            'id': 'chapter:p001:m0001', 'surface': '乙', 'kind': 'person',
+            'person_id': 'bbb_bbb_bbb',
+        })
+        def build_bundle(pid, **kwargs):
+            result = copy.deepcopy(self.old_bundle)
+            result.update(requested_person_id=pid,
+                          passages=[copy.deepcopy(new_passage)] if pid in self.people else [])
+            result['mention_count'] = 99 if pid == 'aaa_aaa_aaa' else 23
+            return result
+
+        bundle_mock = unittest.mock.Mock(side_effect=build_bundle)
+        self._patch_export_dependencies(
+            bundle_mock, assembly_data=({pid: assembly for pid in self.people}, {}),
+        )
+
+        exporter.export(root=self.root, refresh_person_ids=refresh_file)
+
+        representative = json.loads((destination / 'aaa_aaa_aaa.json').read_text())
+        family = json.loads((destination / 'family_aaa.json').read_text())
+        self.assertEqual(representative['passages'][0]['mentions'][1]['person_id'], 'bbb_bbb_bbb')
+        self.assertEqual(family['passages'][0]['mentions'][1]['person_id'], 'bbb_bbb_bbb')
+
+    def test_selective_refresh_uses_current_text_when_changed_passage_leaves_selected_bundle(self):
+        destination = self.root / 'exports/persons'
+        destination.mkdir(parents=True)
+        old_passage = {'id': 'chapter:p001', 'text': '甲', 'mentions': [
+            {'id': 'chapter:p001:m0000', 'surface': '甲', 'kind': 'person',
+             'person_id': 'aaa_aaa_aaa'},
+        ]}
+        for pid in self.people:
+            old = copy.deepcopy(self.old_bundle)
+            old.update(requested_person_id=pid,
+                       passages=[copy.deepcopy(old_passage)] if pid == 'aaa_aaa_aaa' else [])
+            (destination / (pid + '.json')).write_text(json.dumps(old))
+        refresh_file = self.root / 'refresh-ids.json'
+        refresh_file.write_text(json.dumps(['aaa_aaa_aaa']))
+        current_passage = {'id': 'chapter:p001', 'text': '乙', 'mentions': [
+            {'id': 'chapter:p001:m0000', 'surface': '乙', 'kind': 'person',
+             'person_id': 'bbb_bbb_bbb'},
+        ]}
+        chapter_record = {
+            'record_type': 'marked_chapter', 'id': 'chapter', 'work_id': 'work',
+            'book_id': 'book', 'source_id': 'source', 'title': 'Test',
+            'source': {'id': 'source', 'url': 'https://example.org/source'},
+            'annotation': {}, 'paragraphs': [current_passage],
+        }
+        def build_bundle(pid, **kwargs):
+            result = copy.deepcopy(self.old_bundle)
+            result.update(requested_person_id=pid,
+                          passages=[copy.deepcopy(current_passage)] if pid == 'bbb_bbb_bbb' else [])
+            result['mention_count'] = 23 if pid == 'bbb_bbb_bbb' else 99
+            return result
+
+        bundle_mock = unittest.mock.Mock(side_effect=build_bundle)
+        self._patch_export_dependencies(
+            bundle_mock, records=[chapter_record],
+            citations={'registered': {'work': {'title': 'Work', 'books': {'book': {'title': 'Book'}}}},
+                       'formal': {}},
+        )
+
+        exporter.export(root=self.root, refresh_person_ids=refresh_file)
+
+        refreshed = json.loads((destination / 'bbb_bbb_bbb.json').read_text())
+        self.assertEqual(refreshed['passages'][0]['mentions'][0]['person_id'], 'bbb_bbb_bbb')
 
     def test_selective_refresh_rejects_retired_ids_before_side_effects(self):
         refresh_file = self.root / 'refresh-ids.json'

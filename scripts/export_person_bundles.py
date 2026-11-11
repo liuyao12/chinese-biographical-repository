@@ -97,7 +97,7 @@ def _read_refresh_person_ids(path):
 
 
 def _expand_refresh_for_changed_passages(refresh_ids, destination, people,
-                                         source_map, fresh_results):
+                                         source_map, fresh_results, records):
     """Refresh every bundle that embeds a passage changed by a partial refresh.
 
     Person bundles copy complete marked passages. A markup correction therefore
@@ -131,22 +131,41 @@ def _expand_refresh_for_changed_passages(refresh_ids, destination, people,
         family_id_to_sources.setdefault(assembly.get('person_id'), set()).add(source_id)
 
     expanded = set(refresh_ids)
+    def add_referenced_person(referenced_id):
+        source_id = (referenced_id if referenced_id in people
+                     else alias_to_source.get(referenced_id))
+        if source_id not in people:
+            return
+        expanded.add(source_id)
+        assembly = source_map.get(source_id)
+        if assembly:
+            representative = assembly.get('representative_source_person_id')
+            if representative in people:
+                expanded.add(representative)
+            expanded.update(family_id_to_sources.get(assembly.get('person_id'), set()))
+
+    current_passages = {
+        paragraph['id']: paragraph
+        for record in records if record.get('record_type') == 'marked_chapter'
+        for paragraph in record.get('paragraphs', [])
+        if paragraph.get('id')
+    }
+    passage_sources = dict(current_passages)
     for current in fresh_results.values():
         for passage in current.get('passages', []):
-            if not isinstance(passage, dict) or passage.get('id') not in changed_passage_ids:
+            if isinstance(passage, dict) and passage.get('id') in changed_passage_ids:
+                passage_sources.setdefault(passage['id'], passage)
+    for passage_id in changed_passage_ids:
+        passage = passage_sources.get(passage_id)
+        if not passage:
+            continue
+        for mention in passage.get('mentions', []):
+            if not isinstance(mention, dict):
                 continue
-            for mention in passage.get('mentions', []):
-                if not isinstance(mention, dict):
-                    continue
-                referenced_ids = set(mention.get('candidate_person_ids') or [])
-                if mention.get('person_id'):
-                    referenced_ids.add(mention['person_id'])
-                for referenced_id in referenced_ids:
-                    source_id = (referenced_id if referenced_id in people
-                                 else alias_to_source.get(referenced_id))
-                    if source_id in people:
-                        expanded.add(source_id)
-                    expanded.update(family_id_to_sources.get(referenced_id, set()))
+            if mention.get('person_id'):
+                add_referenced_person(mention['person_id'])
+            for referenced_id in mention.get('candidate_person_ids') or []:
+                add_referenced_person(referenced_id)
     for path in destination.glob('*.json'):
         if path.name == 'index.json':
             continue
@@ -160,7 +179,7 @@ def _expand_refresh_for_changed_passages(refresh_ids, destination, people,
         requested_id = existing.get('requested_person_id', path.stem)
         source_id = requested_id if requested_id in people else alias_to_source.get(requested_id)
         if source_id in people:
-            expanded.add(source_id)
+            add_referenced_person(source_id)
         expanded.update(family_id_to_sources.get(path.stem, set()))
     return expanded
 
@@ -223,7 +242,7 @@ def export(root=ROOT, resume_after=None, refresh_person_ids=None):
         for pid in sorted(refresh_ids):
             fresh_results[pid] = bundle(pid, root=root, include_provisional=True, catalog=catalog)
         refresh_ids = _expand_refresh_for_changed_passages(
-            refresh_ids, destination, catalog[0], source_map, fresh_results,
+            refresh_ids, destination, catalog[0], source_map, fresh_results, catalog[1],
         )
     rows = []
     checkpoint_reached = resume_after is None
