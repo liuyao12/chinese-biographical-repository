@@ -515,6 +515,13 @@
       "transcription_revision": "cbr-ai-transcription-sha256:1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
       "transcription_sha256": "1863cc3a647b6fe8152cc520a1f8aa6ee22672caf879cf6367ba276089e23b52",
       "qualification": "原PDF未下載；SHA256是本次AI逐列轉錄，不是PDF。私JPEG不入repo；AI字形編碼待覆核。"
+    },
+    "ref-aks-jsg-c2-37-songshu-catalogue": {
+      "title": "韓國學中央研究院數位藏書閣《宋書》（C2-37）詳目及MF-PDF入口",
+      "url": "https://jsg.aks.ac.kr/dir/view?dataId=JSG_C2-37",
+      "access_scope": "詳目明載刊年1739年（乾隆四年）、木板本、100卷24冊、刊記「乾隆四年(1739)校刊」及韓國學中央研究院藏；頁面提供001–024冊MF-PDF入口。未核卷89所在冊葉，未逐葉驗讀影像。",
+      "human_reviewed": false,
+      "source_kind": "institution_catalogue"
     }
   },
   "editions": {
@@ -829,6 +836,32 @@
       ],
       "qualification": "王曇首及本卷二子附敘與專屬考證選錄；非全卷/全書，非原PDF下載或全球最早本普查。",
       "image_verified": false
+    },
+    "edition-songshu-aks-jsg-c2-37-catalogue-witness": {
+      "id": "edition-songshu-aks-jsg-c2-37-catalogue-witness",
+      "work_id": "w-songshu",
+      "label": "韓國學中央研究院藏《宋書》C2-37（乾隆四年刊記）",
+      "extent": "not_established",
+      "date": {
+        "calendar": "chinese_civil",
+        "year_numbering": "historical_no_year_zero",
+        "start_year": 1739,
+        "end_year": 1739,
+        "precision": "year"
+      },
+      "period_label": "乾隆四年校刊",
+      "reference_ids": [
+        "ref-aks-jsg-c2-37-songshu-catalogue"
+      ],
+      "qualification": "僅作館方詳目所著錄之版本見證：木板本，100卷24冊，刊記「乾隆四年(1739)校刊」，藏韓國學中央研究院藏書閣。官方詳目未明載版系，故本筆不稱武英殿本。館方頁面列24冊MF-PDF入口；本筆未核卷89所在冊葉，未逐葉驗影像。extent依書目著錄，非逐冊完整性核驗；不主張最早存本，亦不作本庫正文底本。",
+      "image_verified": false,
+      "catalogued_material": "木板本",
+      "catalogued_extent": {
+        "juan": 100,
+        "bound_volumes": 24
+      },
+      "catalogued_colophon": "乾隆四年(1739)校刊",
+      "holding_institution": "韓國學中央研究院藏書閣"
     }
   },
   "works": {
