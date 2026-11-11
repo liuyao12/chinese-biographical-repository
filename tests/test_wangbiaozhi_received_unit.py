@@ -62,7 +62,8 @@ class WangBiaoZhiReceivedUnit(unittest.TestCase):
         self.assertNotEqual(emperor['person_id'], 'dkn_ge4_286_AAAAAAAF')
 
     def test_sons_use_actual_adjacent_paragraphs_without_implied_order_or_mother(self):
-        rows = read('corpus/jinshu/076-wangbiaozhi-assertions.json')['assertions']
+        rows = [a for a in read('corpus/jinshu/076-wangbiaozhi-assertions.json')['assertions']
+                if a['predicate'] == 'father']
         self.assertEqual(len(rows), 2)
         for a in rows:
             self.assertEqual(a['object_person_id'], '7r6_k52_qji_ABDBB')
