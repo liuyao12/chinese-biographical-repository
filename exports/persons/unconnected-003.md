@@ -486,6 +486,7 @@
 | `pmm_g6z_ak1` | 趙弘 | [《晉書・桓彝》][44] | [JSON](pmm_g6z_ak1.json) |
 | `pmn_f40_6n7` | 子（田世家髙唐守者讀法未定） | [《史記・田敬仲完世家》][115] | [JSON](pmn_f40_6n7.json) |
 | `pmr_861_ixl` | 妻（公孫敖妻；未名） | [《史記・衛將軍驃騎列傳》][180] | [JSON](pmr_861_ixl.json) |
+| `pnc_1nj_s7z` | 泰一 | [《史記・封禪書》][249] | [JSON](pnc_1nj_s7z.json) |
 | `pnl_mv7_etn` | 威烈王 | [《史記・周本紀》][91] | [JSON](pnl_mv7_etn.json) |
 | `poc_jcs_zv6` | 曹沬 | [《史記・齊太公世家》][101] | [JSON](poc_jcs_zv6.json) |
 | `poh_j7v_l00` | 奮揚 | [《史記・伍子胥列傳》][135] | [JSON](poh_j7v_l00.json) |
@@ -2294,3 +2295,4 @@
 [245]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
 [246]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
 [248]: https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038
+[249]: https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061

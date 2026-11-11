@@ -753,6 +753,73 @@
             "han57-five-emperors"
           ]
         }
+      },
+      {
+        "id": "ri-shiji117-taiyi",
+        "paragraph_id": "c-shiji-117-xiangru:p052",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m052-0059"
+        ],
+        "source_terms": [
+          "太一"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-taiyi-divinity",
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p052",
+          "quote": "邪絕少陽而登太陰兮，與真人乎相求。互折窈窕以右轉兮，橫厲飛泉以正東。悉徵靈圉而選之兮，部乘眾神於瑤光。使五帝先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m052-0059"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-taiyi-divinity",
+            "attribution": "如淳，《漢書》卷57下《郊祀志》注",
+            "referent_kind": "divinity",
+            "candidate_person_ids": [],
+            "interpretation": "如淳注釋為天極常居之星神；《史記》卷12稱「天神貴者泰一」。據同書明載的祠祀神稱暫按同一神祇接合，保留本篇太一與卷12泰一字形。",
+            "source_reference_ids": [
+              "han57-taiyi"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "han57-taiyi",
+            "title": "《漢書》卷57下·如淳釋太一",
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L931-L933",
+            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+            "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+            "quote": "於揺光(張揖曰揺光北/斗杓頭第一星)使五帝先導兮反大壹而從陵¶\n陽(應劭曰五帝五畤太皥之屬也如淳曰天極大星一/眀者太一常居也張揖曰陵陽仙人陵陽子眀也師)¶\n(古曰令太一反其所居而使陵陽侍從於/已○宋祁曰注文五畤當從浙本作五時)左𤣥㝠而右¶",
+            "read_line_range": [
+              931,
+              933
+            ],
+            "cached_response_sha256": "024b03fcdb819f2edf0c84f816d618653f6fdafa4b48e6c2c36ec8fbe2ce1210",
+            "image_verified": false
+          }
+        ],
+        "note": "按《史記》卷12祠祀敘事及本條所引注辨為神祇；「泰一／太一」原字分存，不採用平行本異字改正文。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "selection": {
+          "rationale": "卷12自稱「天神貴者泰一」；本句如淳注文將太一解作天極常居之星神。兩證同指祠祀主神，故暫接同一傳說神祇。",
+          "source_reference_ids": [
+            "han57-taiyi"
+          ]
+        },
+        "witness_wording": {
+          "received_phrase": "反太一而從陵陽",
+          "parallel_phrase": "反大壹而從陵陽",
+          "reference_id": "han57-taiyi",
+          "adopted_as_text_correction": false
+        }
       }
     ]
   },
@@ -3140,9 +3207,10 @@
           "start": 59,
           "end": 61,
           "surface": "太一",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "pnc_1nj_s7z",
+          "status": "contextual_provisional",
+          "interpretation_note": "《史記》卷12明稱「天神貴者泰一」；卷117《大人賦》作太一，注文亦以太一為天極所居之神。按同一神祇暫接，保留泰／太原字，不由神格推造歷史生平。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0063",
