@@ -669,7 +669,6 @@
 | `qlq_xq2_1sm` | 暴勝之（古注辨識） | [《史記・田叔列傳》][173] | [JSON](qlq_xq2_1sm.json) |
 | `qlu_yvc_mtu` | 許負 | [《史記・外戚世家》][118] | [JSON](qlu_yvc_mtu.json) |
 | `qm1_2k5_hct` | 頎（晉孝公） | [《史記・晉世家》][108] | [JSON](qm1_2k5_hct.json) |
-| `qme_5ae_ovf` | 子胥 | [《史記・滑稽列傳》][195] | [JSON](qme_5ae_ovf.json) |
 | `qms_rcb_628` | 王夫人兒姁 | [《史記・五宗世家》][128] | [JSON](qms_rcb_628.json) |
 | `qmv_v0h_tbb` | 宋元公（內昭公議事） | [《史記・魯周公世家》][102] | [JSON](qmv_v0h_tbb.json) |
 | `qn2_v9c_1mi` | 鞏朔（晉卿） | [《史記・晉世家》][108] | [JSON](qn2_v9c_1mi.json) |
@@ -790,7 +789,6 @@
 | `r9r_tix_z6d` | 毛邃 | [《晉書・叛臣二》][60] | [JSON](r9r_tix_z6d.json) |
 | `r9t_e2f_if5` | 皇欣 | [《史記・高祖本紀》][95] | [JSON](r9t_e2f_if5.json) |
 | `ra9_tie_fu4` | 鄧攸 | [《南齊書・王僧虔 張緒》][67] | [JSON](ra9_tie_fu4.json) |
-| `raa_ahy_pza` | 子胥 | [《史記・張儀列傳》][139] | [JSON](raa_ahy_pza.json) |
 | `rae_wmi_v64` | 愔〔陽平太守，王戎從弟〕 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](rae_wmi_v64.json) |
 | `ral_28k_rwc` | 煎靡 | [《史記・大宛列傳》][192] | [JSON](ral_28k_rwc.json) |
 | `rao_be6_abu` | 徽〔新唐陳氏序〕（來源候選；預設不接父系） | [《新唐書・宰相世系一下》][237] | [JSON](rao_be6_abu.json) |

@@ -4135,15 +4135,6 @@
 
 </details>
 
-<details><summary><code>zk0_g6b_nbq</code> 伍奢（楚篇候選）（3 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 伍奢 | [《史記・楚世家》][109] | [JSON](zk0_g6b_nbq.json) |
-| `A` | 伍尚 | [《史記・楚世家》][109] | [JSON](zk0_g6b_nbq_A.json) |
-| `B` | 伍胥 | [《史記・楚世家》][109] | [JSON](zk0_g6b_nbq_B.json) |
-
-</details>
 
 <details><summary><code>zql_k3t_8ro</code> 先軫（重耳五士）（2 名）</summary>
 
