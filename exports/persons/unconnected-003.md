@@ -170,7 +170,6 @@
 | `nb3_1v3_j8v` | 叚叔文 | [《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][211] | [JSON](nb3_1v3_j8v.json) |
 | `nba_zrs_6tb` | 張魯 | [《三國志・諸夏侯曹傳》][77] | [JSON](nba_zrs_6tb.json) |
 | `nbd_d27_t2w` | 曾參母 | [《史記・樗里子甘茂列傳》][140] | [JSON](nbd_d27_t2w.json) |
-| `nbg_cps_9w9` | 魏安釐王 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](nbg_cps_9w9.json) |
 | `nbh_vlu_zv2` | 尒朱兆〔楊侃傳〕 | [《魏書・楊播》][234]、[《魏書・楊播》][236] | [JSON](nbh_vlu_zv2.json) |
 | `nbj_uzl_tr9` | 孔丘 | [《史記・商君列傳》][137] | [JSON](nbj_uzl_tr9.json) |
 | `nbk_qg1_64o` | 楚王入周事件 | [《史記・樗里子甘茂列傳》][140] | [JSON](nbk_qg1_64o.json) |
@@ -195,7 +194,6 @@
 | `ngh_hjf_xnr` | 齊威王 | [《史記・魏世家》][113] | [JSON](ngh_hjf_xnr.json) |
 | `nh2_z0q_c1e` | 西門豹 | [《史記・滑稽列傳》][195] | [JSON](nh2_z0q_c1e.json) |
 | `nhk_xgq_7qk` | 燕王聊城未名 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](nhk_xgq_7qk.json) |
-| `nht_c38_x7o` | 魏惠王 | [《史記・田敬仲完世家》][115] | [JSON](nht_c38_x7o.json) |
 | `ni4_c3i_e2y` | 王騰（荀羨傳） | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47] | [JSON](ni4_c3i_e2y.json) |
 | `nix_7ug_wxv` | 呂嬃 | [《史記・陳丞相世家》][125] | [JSON](nix_7ug_wxv.json) |
 | `nix_nc9_m03` | 符𢎞祖 | [《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][211] | [JSON](nix_nc9_m03.json) |
@@ -220,7 +218,6 @@
 | `nob_lzg_evx` | 慎（周珌父） | [《後漢書・孝獻帝紀》][14] | [JSON](nob_lzg_evx.json) |
 | `nog_kf0_2gn` | 安〔新唐陳氏序〕 | [《新唐書・宰相世系一下》][237] | [JSON](nog_kf0_2gn.json) |
 | `noi_rkl_11c` | 魏無知 | [《史記・陳丞相世家》][125] | [JSON](noi_rkl_11c.json) |
-| `np2_qh8_aoz` | 魏文侯（誅晉亂者） | [《史記・晉世家》][108] | [JSON](np2_qh8_aoz.json) |
 | `npw_voa_yri` | 羌瘣 | [《史記・秦始皇本紀》][93] | [JSON](npw_voa_yri.json) |
 | `npx_bl5_op1` | 宋厲公 | [《史記・孔子世家》][116] | [JSON](npx_bl5_op1.json) |
 | `npx_lxn_f0a` | 韓遼（匈奴列傳第25段） | [《史記・匈奴列傳》][179] | [JSON](npx_lxn_f0a.json) |
@@ -1163,7 +1160,6 @@
 | `tib_iww_tkq` | 齊桓引古 | [《史記・屈原賈生列傳》][153] | [JSON](tib_iww_tkq.json) |
 | `tic_otw_oo2` | 孔父（宋弒君記事） | [《史記・宋微子世家》][107] | [JSON](tic_otw_oo2.json) |
 | `tic_xrq_d7s` | 唐蹏 | [《三國志・滿田牽郭傳》][85] | [JSON](tic_xrq_d7s.json) |
-| `tik_tcq_8l1` | 魏襄王 | [《史記・張儀列傳》][139] | [JSON](tik_tcq_8l1.json) |
 | `tin_46y_do7` | 魏相 | [《史記・張丞相列傳》][165] | [JSON](tin_46y_do7.json) |
 | `tiq_tug_olu` | 正〔郭統子〕 | [《三國志・滿田牽郭傳》][85] | [JSON](tiq_tug_olu.json) |
 | `tix_jqk_w1o` | 魏文帝 | [《三國志・諸夏侯曹傳》][76]、[《三國志・任城陳蕭王傳》][82] | [JSON](tix_jqk_w1o.json) |
@@ -1246,7 +1242,6 @@
 | `u2m_bus_e3h` | 衞璵 | [《宋書・范泰 王准之 王韶之 荀伯子》][219] | [JSON](u2m_bus_e3h.json) |
 | `u2w_08q_du4` | 嘉（燕王） | [《史記・孝景本紀》][98] | [JSON](u2w_08q_du4.json) |
 | `u39_e0i_cta` | 大廉 | [《史記・秦本紀》][92] | [JSON](u39_e0i_cta.json) |
-| `u3e_wkp_awl` | 魏安釐王 | [《史記・高祖本紀》][95] | [JSON](u3e_wkp_awl.json) |
 | `u3k_b05_ar4` | 魏文侯 | [《史記・田敬仲完世家》][115] | [JSON](u3k_b05_ar4.json) |
 | `u3z_lrd_8hy` | 張耳 | [《史記・白起王翦列傳》][142] | [JSON](u3z_lrd_8hy.json) |
 | `u40_osl_m3a` | 顧曠 | [《宋書・王僧達 顏竣》][227] | [JSON](u40_osl_m3a.json) |
@@ -1661,7 +1656,6 @@
 | `wse_abc_uqy` | 魏勃 | [《史記・齊悼惠王世家》][121] | [JSON](wse_abc_uqy.json) |
 | `wse_ygh_z6q` | 傅末波 | [《晉書・叛臣一》][59] | [JSON](wse_ygh_z6q.json) |
 | `wsj_ypn_olf` | 公孫奭 | [《史記・樗里子甘茂列傳》][140] | [JSON](wsj_ypn_olf.json) |
-| `wss_6f8_4rz` | 魏惠王 | [《史記・孟嘗君列傳》][144] | [JSON](wss_6f8_4rz.json) |
 | `wt0_abc_2sk` | 隨會 | [《史記・晉世家》][108] | [JSON](wt0_abc_2sk.json) |
 | `wt3_fvo_jk6` | 復陸支 | [《史記・衛將軍驃騎列傳》][180]、[《史記・建元以來侯者年表》][250] | [JSON](wt3_fvo_jk6.json) |
 | `wt8_3pr_hsd` | 左吳 | [《史記・淮南衡山列傳》][187] | [JSON](wt8_3pr_hsd.json) |
@@ -1950,7 +1944,6 @@
 | `yr9_kr5_pfz` | 張成 | [《史記・東越列傳》][183] | [JSON](yr9_kr5_pfz.json) |
 | `yrc_rfa_m7q` | 桀引古 | [《史記・樂毅列傳》][149] | [JSON](yrc_rfa_m7q.json) |
 | `yre_3um_pha` | 悍（屬國） | [《史記・孝文本紀》][97] | [JSON](yre_3um_pha.json) |
-| `yrk_zdh_b9d` | 魏武侯（滅晉記事） | [《史記・晉世家》][108] | [JSON](yrk_zdh_b9d.json) |
 | `ys3_xrq_d6u` | 戈船將軍 | [《史記・東越列傳》][183] | [JSON](ys3_xrq_d6u.json) |
 | `ys4_x4f_ywp` | 齊宣王 | [《史記・老子韓非列傳》][132] | [JSON](ys4_x4f_ywp.json) |
 | `ys7_623_44n` | 公劉 | [《史記・貨殖列傳》][198] | [JSON](ys7_623_44n.json) |

@@ -14,6 +14,29 @@
 
 ## 可展開家族
 
+<details><summary><code>nxl_qt6_cpl</code> 畢萬至魏安釐王（魏氏父系，15 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 畢萬 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl.json) |
+| `A` | 魏武子 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_A.json) |
+| `AA` | 魏悼子 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AA.json) |
+| `AAA` | 魏絳 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAA.json) |
+| `AAAA` | 魏嬴 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAA.json) |
+| `AAAAA` | 魏獻子 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAA.json) |
+| `AAAAAA` | 魏侈 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA.json) |
+| `AAAAAA*A` | 魏桓子 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA*A.json) |
+| `AAAAAA*A*A` | 魏文侯 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA*A*A.json) |
+| `AAAAAA*A*AA` | 魏武侯 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA*A*AA.json) |
+| `AAAAAA*A*AAA` | 魏惠王 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA*A*AAA.json) |
+| `AAAAAA*A*AAAA` | 魏襄王 | [《史記・蘇秦列傳》][138] | [JSON](nxl_qt6_cpl_AAAAAA*A*AAAA.json) |
+| `AAAAAA*A*AAAAA` | 魏哀王 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA*A*AAAAA.json) |
+| `AAAAAA*A*AAAAAA` | 魏昭王 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA*A*AAAAAA.json) |
+| `AAAAAA*A*AAAAAAA` | 魏安釐王 | [《史記・魏公子列傳》][146] | [JSON](nxl_qt6_cpl_AAAAAA*A*AAAAAAA.json) |
+
+</details>
+
+
 
 [第1頁](README.md)
 
@@ -1915,19 +1938,7 @@
 
 </details>
 
-<details><summary><code>eva_gs1_9n5</code> 魏文侯（趙世家候選）（7 名）</summary>
 
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 魏文侯 | [《史記・趙世家》][112] | [JSON](eva_gs1_9n5.json) |
-| `A` | 撃 | [《史記・魏世家》][113] | [JSON](eva_gs1_9n5_A.json) |
-| `AA` | 罃 | [《史記・魏世家》][113] | [JSON](eva_gs1_9n5_AA.json) |
-| `AAA` | 襄王 | [《史記・魏世家》][113] | [JSON](eva_gs1_9n5_AAA.json) |
-| `AAAA` | 哀王 | [《史記・魏世家》][113] | [JSON](eva_gs1_9n5_AAAA.json) |
-| `AAAAA` | 昭王 | [《史記・魏世家》][113] | [JSON](eva_gs1_9n5_AAAAA.json) |
-| `AAAAAA` | 安釐王 | [《史記・魏公子列傳》][146] | [JSON](eva_gs1_9n5_AAAAAA.json) |
-
-</details>
 
 <details><summary><code>eya_qj3_tev</code> 酈食其（2 名）</summary>
 
@@ -2774,21 +2785,6 @@
 
 </details>
 
-<details><summary><code>nxl_qt6_cpl</code> 畢萬（魏世家候選）（9 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 畢萬 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl.json) |
-| `A` | 魏武子 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_A.json) |
-| `AA` | 魏悼子 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AA.json) |
-| `AAA` | 魏絳 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAA.json) |
-| `AAAA` | 魏嬴 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAA.json) |
-| `AAAAA` | 魏獻子 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAA.json) |
-| `AAAAAA` | 魏侈 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA.json) |
-| `AAAAAA*A` | 魏桓子 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA%2AA.json) |
-| `AAAAAA*A*A` | 都 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA%2AA%2AA.json) |
-
-</details>
 
 <details><summary><code>nye_x8g_zwl</code> 陳桓公鮑（田世家候選）（2 名）</summary>
 
@@ -2847,14 +2843,7 @@
 
 </details>
 
-<details><summary><code>p9l_wy7_y7m</code> 魏文侯（孫吳列傳候選）（2 名）</summary>
 
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 魏文侯 | [《史記・孫子吳起列傳》][134] | [JSON](p9l_wy7_y7m.json) |
-| `A` | 魏武侯 | [《史記・孫子吳起列傳》][134] | [JSON](p9l_wy7_y7m_A.json) |
-
-</details>
 
 <details><summary><code>pev_wez_mab</code> 宋富人（老韓列傳候選）（2 名）</summary>
 
