@@ -1837,7 +1837,13 @@ def _validate_uncached(root=ROOT):
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
                           '同父或異父關係須有相符原詞與布林值，不補父親端點')
                 if a['predicate'] == 'kinship_unspecified':
-                    if qualifiers.get('kinship_basis') == 'explicit_clan_member':
+                    if qualifiers.get('kinship_basis') == 'paternal_clan_ancestor_appellation':
+                        try:
+                            from scripts.jinshu075_clan_ancestor import valid as clan_ancestor_valid
+                        except ImportError:
+                            from jinshu075_clan_ancestor import valid as clan_ancestor_valid
+                        check(clan_ancestor_valid(a, paragraphs), '族曾祖稱謂須保存雙人原文錨點，不補直系、世代距離或共同祖先')
+                    elif qualifiers.get('kinship_basis') == 'explicit_clan_member':
                         check(qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_family_clause' and biography_family_clause_valid(a, paragraphs, d['assertions'], chapters), '族人不補世代、親等或共祖')
                     elif qualifiers.get('kinship_basis') == 'congzhongbiao_named_pair':
                         try:
