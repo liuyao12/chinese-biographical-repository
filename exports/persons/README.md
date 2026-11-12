@@ -1027,7 +1027,7 @@
 
 </details>
 
-<details><summary><code>7r6_k52_qji</code> 王仁（102 名）</summary>
+<details><summary><code>7r6_k52_qji</code> 王仁（104 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -1047,6 +1047,8 @@
 | `ABAA` | 王導 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAA.json) |
 | `ABAAA` | 王洽 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAA.json) |
 | `ABAAAA` | 王珣 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAAA.json) |
+| `ABAAAA*A` | 王遠 | [《南齊書・王秀之 王慈 蔡約 陸慧曉 顧憲之 蕭惠基》][70] | [JSON](7r6_k52_qji_ABAAAA%2AA.json) |
+| `ABAAAA*AA` | 王僧祐 | [《南齊書・王秀之 王慈 蔡約 陸慧曉 顧憲之 蕭惠基》][70] | [JSON](7r6_k52_qji_ABAAAA%2AAA.json) |
 | `ABAAAAA` | 王弘 | [《宋書・劉穆之 王弘》][205] | [JSON](7r6_k52_qji_ABAAAAA.json) |
 | `ABAAAAAA` | 王錫 | [《宋書・王僧達 顏竣》][227] | [JSON](7r6_k52_qji_ABAAAAAA.json) |
 | `ABAAAAAAA` | 王僧亮 | [《宋書・劉穆之 王弘》][205]、[《宋書・王僧達 顏竣》][227] | [JSON](7r6_k52_qji_ABAAAAAAA.json) |
@@ -2826,15 +2828,6 @@
 | `A` | 趙景叔 | [《史記・趙世家》][112] | [JSON](p4b_qf7_603_A.json) |
 | `AA` | 趙鞅 | [《史記・趙世家》][112] | [JSON](p4b_qf7_603_AA.json) |
 | `AAA` | 趙襄子毋卹 | [《史記・趙世家》][112] | [JSON](p4b_qf7_603_AAA.json) |
-
-</details>
-
-<details><summary><code>p93_tgr_t8r</code> 王遠（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 王遠 | [《南齊書・王秀之 王慈 蔡約 陸慧曉 顧憲之 蕭惠基》][70] | [JSON](p93_tgr_t8r.json) |
-| `A` | 王僧祐 | [《南齊書・王秀之 王慈 蔡約 陸慧曉 顧憲之 蕭惠基》][70] | [JSON](p93_tgr_t8r_A.json) |
 
 </details>
 

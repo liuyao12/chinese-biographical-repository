@@ -1940,7 +1940,15 @@ def _validate_uncached(root=ROOT):
                         except ImportError:
                             from biography_congfudi import biography_congfudi_valid
                         precise_congfudi = biography_congfudi_valid(a, paragraphs)
-                    check(precise_congfudi or (structure.get('distance') is None and structure.get('common_ancestor_person_id') is None), '未定從親不可補親等或共同祖先')
+                    checked_congzu_depth = False
+                    if a.get('id') == 'a-nanqi046-sengyou-jian-congzu-older':
+                        try:
+                            from scripts.wangyuan_congzu_assembly import congzu_depth_valid
+                        except ImportError:
+                            from wangyuan_congzu_assembly import congzu_depth_valid
+                        checked_congzu_depth = congzu_depth_valid(a)
+                        check(checked_congzu_depth, '從祖兄同曾祖深度須由古注詞義判讀、保留共祖姓名未定')
+                    check(precise_congfudi or checked_congzu_depth or (structure.get('distance') is None and structure.get('common_ancestor_person_id') is None), '未定從親不可補親等或共同祖先')
                     check(structure.get('subject_relative_age') in ('younger', 'older', 'unknown'), '從親長幼欄位無效')
                 if qualifiers.get('source_clause_binding', {}).get('kind') in ('speaker_self_report_congdi', 'biography_head_an_reports_to_its_congdi'):
                     try:

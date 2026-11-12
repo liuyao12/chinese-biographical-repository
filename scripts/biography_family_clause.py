@@ -172,7 +172,14 @@ def valid(a,paragraphs,assertions=(),chapters=None):
    if rb!={'older_person_id':older,'younger_person_id':younger,'operator':'lt','older_ordinal':None,'younger_ordinal':None,'scope':'agnatic_cousins'if pred=='agnatic_cousin'else'siblings'}:return False
    if pred=='agnatic_cousin':
     allowedq.add('kinship_structure')
-    if q.get('kinship_structure')!={'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'older'}:return False
+    if rule=='head_subject_congzu_older_cousin':
+     allowedq|={'lexical_sources','scholarly_references'}
+     expected={'lineage':'paternal','generation_difference':0,'collateral':True,'distance':{'kind':'paternal_second_cousins','common_ancestor_depth':{'subject':3,'reference':3}},'common_ancestor_person_id':None,'subject_relative_age':'older'}
+     if q.get('kinship_structure')!=expected:return False
+     lex=q.get('lexical_sources')
+     if lex != [{'title':'儀禮·喪服','author':'鄭玄注、賈公彥疏','url':'https://ctext.org/liji/sang-fu/zh','quote':'父之從父昆弟之子；己之再從兄弟','scope':'古注以服制親稱解釋「從祖兄弟」；本篇未明言共祖姓名。'}]:return False
+     if not isinstance(q.get('scholarly_references'),list) or {x.get('author') for x in q['scholarly_references']}!={'李卿','沈冬'}:return False
+    elif q.get('kinship_structure')!={'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'older'}:return False
   elif pred=='ritual_successor_of':
    allowedq|={'succession_kind','legal_adoption_status','parentage_inference'}
    if rule=='son_heir_childless_younger_brother_supplies_son':

@@ -25,7 +25,7 @@ class Nanqishu046ClanRelations(unittest.TestCase):
         a = next(x for x in self.relations if x['predicate'] == 'kinship_unspecified')
         q = a['qualifiers']
         self.assertEqual(a['subject_person_id'], '7r6_k52_qji_ABDABAABA')
-        self.assertEqual(a['object_person_id'], 'p93_tgr_t8r_A')
+        self.assertEqual(a['object_person_id'], '7r6_k52_qji_ABAAAA*AA')
         self.assertEqual(q['lineage'], 'unspecified')
         self.assertIsNone(q['generation_difference'])
         self.assertIsNone(q['exact_distance'])
@@ -39,7 +39,7 @@ class Nanqishu046ClanRelations(unittest.TestCase):
         structure = a['qualifiers']['kinship_structure']
         order = a['qualifiers']['relative_birth_order']
         self.assertEqual(structure['generation_difference'], 0)
-        self.assertIsNone(structure['distance'])
+        self.assertEqual(structure['distance'], {'kind': 'paternal_second_cousins', 'common_ancestor_depth': {'subject': 3, 'reference': 3}})
         self.assertIsNone(structure['common_ancestor_person_id'])
         self.assertEqual(structure['subject_relative_age'], 'older')
         self.assertIsNone(order['older_ordinal'])

@@ -4741,7 +4741,7 @@
     },
     {
       "id": "a-nanqi046-sengyou-jian-congzu-older",
-      "subject_person_id": "p93_tgr_t8r_A",
+      "subject_person_id": "7r6_k52_qji_ABAAAA*AA",
       "predicate": "agnatic_cousin",
       "object_person_id": "7r6_k52_qji_ABAAAAEAA",
       "status": "source_attested",
@@ -4763,18 +4763,51 @@
           "lineage": "paternal",
           "generation_difference": 0,
           "collateral": true,
-          "distance": null,
+          "distance": {
+            "kind": "paternal_second_cousins",
+            "common_ancestor_depth": {
+              "subject": 3,
+              "reference": 3
+            }
+          },
           "common_ancestor_person_id": null,
           "subject_relative_age": "older"
         },
         "relative_birth_order": {
           "operator": "lt",
           "scope": "agnatic_cousins",
-          "older_person_id": "p93_tgr_t8r_A",
+          "older_person_id": "7r6_k52_qji_ABAAAA*AA",
           "younger_person_id": "7r6_k52_qji_ABAAAAEAA",
           "older_ordinal": null,
           "younger_ordinal": null
-        }
+        },
+        "lexical_sources": [
+          {
+            "title": "儀禮·喪服",
+            "author": "鄭玄注、賈公彥疏",
+            "url": "https://ctext.org/liji/sang-fu/zh",
+            "quote": "父之從父昆弟之子；己之再從兄弟",
+            "scope": "古注以服制親稱解釋「從祖兄弟」；本篇未明言共祖姓名。"
+          }
+        ],
+        "scholarly_references": [
+          {
+            "author": "李卿",
+            "title": "秦漢魏晉南北朝時期家族、宗族關係研究",
+            "institution": "廈門大學",
+            "type": "doctoral_dissertation",
+            "url": "https://ygx.sxu.edu.cn/db/%E5%AD%B8%E4%BD%8D/W012718.pdf",
+            "relevance": "引《南齊書》本句並以五服親稱討論從祖關係；作詞義比較參考。"
+          },
+          {
+            "author": "沈冬",
+            "title": "「縱任不拘」與「風韻清遠」──東晉南朝的士族與琴",
+            "type": "scholarly_article",
+            "url": "https://www.zo.uni-heidelberg.de/md/zo/sino/research/10_nanchaozhiqinzandinggao.pdf",
+            "page": 6,
+            "relevance": "註20比較《南史》與《南齊書》此處長幼異文，認為《南齊書》較是；採用其長幼文字。"
+          }
+        ]
       },
       "evidence": [
         {
@@ -4788,7 +4821,7 @@
           "object_person_mention_id": "c-nanqishu-046-wangxiuzhi:line023:m0009"
         }
       ],
-      "interpretation_note": "「從祖兄」記僧祐與儉同世代的父系旁親及僧祐相對年長；不推確切親等、共同祖先、任何連接人物或數字排行。",
+      "interpretation_note": "《儀禮·喪服》鄭玄注、賈公彥疏所引服制親稱，並《內外服制通釋》卷六「從祖兄弟姊妹亦己之再從兄弟姊妹，與己同曾祖者」，據以將本句詞義判讀為同世代、各距共同曾祖三代；這是古注詞義判讀，不是《南齊書》明言共祖姓名。共祖人物留空於來源陳述；與王珣的連接另在家族組裝中以其他來源路徑推導。僧祐年長僅記相對先後，不推排行數字。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
@@ -4822,10 +4855,10 @@
     }
   ],
   "related_people": {
+    "7r6_k52_qji_ABAAAA*AA": "王僧祐",
     "7r6_k52_qji_ABAAAAEA": "王僧綽",
     "7r6_k52_qji_ABAAAAEAA": "王儉",
-    "7r6_k52_qji_ABAAAAEB": "王僧虔",
-    "p93_tgr_t8r_A": "王僧祐"
+    "7r6_k52_qji_ABAAAAEB": "王僧虔"
   },
   "dates": [],
   "name_components": [],
@@ -4861,7 +4894,7 @@
     },
     {
       "id": "a-nanqi046-sengyou-jian-congzu-older",
-      "subject_person_id": "p93_tgr_t8r_A",
+      "subject_person_id": "7r6_k52_qji_ABAAAA*AA",
       "predicate": "agnatic_cousin",
       "object_person_id": "7r6_k52_qji_ABAAAAEAA",
       "status": "source_attested",
@@ -4883,18 +4916,51 @@
           "lineage": "paternal",
           "generation_difference": 0,
           "collateral": true,
-          "distance": null,
+          "distance": {
+            "kind": "paternal_second_cousins",
+            "common_ancestor_depth": {
+              "subject": 3,
+              "reference": 3
+            }
+          },
           "common_ancestor_person_id": null,
           "subject_relative_age": "older"
         },
         "relative_birth_order": {
           "operator": "lt",
           "scope": "agnatic_cousins",
-          "older_person_id": "p93_tgr_t8r_A",
+          "older_person_id": "7r6_k52_qji_ABAAAA*AA",
           "younger_person_id": "7r6_k52_qji_ABAAAAEAA",
           "older_ordinal": null,
           "younger_ordinal": null
-        }
+        },
+        "lexical_sources": [
+          {
+            "title": "儀禮·喪服",
+            "author": "鄭玄注、賈公彥疏",
+            "url": "https://ctext.org/liji/sang-fu/zh",
+            "quote": "父之從父昆弟之子；己之再從兄弟",
+            "scope": "古注以服制親稱解釋「從祖兄弟」；本篇未明言共祖姓名。"
+          }
+        ],
+        "scholarly_references": [
+          {
+            "author": "李卿",
+            "title": "秦漢魏晉南北朝時期家族、宗族關係研究",
+            "institution": "廈門大學",
+            "type": "doctoral_dissertation",
+            "url": "https://ygx.sxu.edu.cn/db/%E5%AD%B8%E4%BD%8D/W012718.pdf",
+            "relevance": "引《南齊書》本句並以五服親稱討論從祖關係；作詞義比較參考。"
+          },
+          {
+            "author": "沈冬",
+            "title": "「縱任不拘」與「風韻清遠」──東晉南朝的士族與琴",
+            "type": "scholarly_article",
+            "url": "https://www.zo.uni-heidelberg.de/md/zo/sino/research/10_nanchaozhiqinzandinggao.pdf",
+            "page": 6,
+            "relevance": "註20比較《南史》與《南齊書》此處長幼異文，認為《南齊書》較是；採用其長幼文字。"
+          }
+        ]
       },
       "evidence": [
         {
@@ -4908,7 +4974,7 @@
           "object_person_mention_id": "c-nanqishu-046-wangxiuzhi:line023:m0009"
         }
       ],
-      "interpretation_note": "「從祖兄」記僧祐與儉同世代的父系旁親及僧祐相對年長；不推確切親等、共同祖先、任何連接人物或數字排行。",
+      "interpretation_note": "《儀禮·喪服》鄭玄注、賈公彥疏所引服制親稱，並《內外服制通釋》卷六「從祖兄弟姊妹亦己之再從兄弟姊妹，與己同曾祖者」，據以將本句詞義判讀為同世代、各距共同曾祖三代；這是古注詞義判讀，不是《南齊書》明言共祖姓名。共祖人物留空於來源陳述；與王珣的連接另在家族組裝中以其他來源路徑推導。僧祐年長僅記相對先後，不推排行數字。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
