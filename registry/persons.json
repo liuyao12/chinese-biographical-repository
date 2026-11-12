@@ -400810,16 +400810,30 @@
         {
           "surface": "陸機",
           "mention_ids": [
-            "c-jinshu-075-xunsong-families:xunsong-intro:p001:m0173",
-            "c-songshu-067-xielingyun:p006:m00270",
+            "c-jinshu-054-lu-family:p001:m0000",
             "c-jinshu-059-yi:p005:m0090",
-            "c-jinshu-059-yi:p006:m0109"
+            "c-jinshu-059-yi:p006:m0109",
+            "c-jinshu-075-xunsong-families:xunsong-intro:p001:m0173",
+            "c-songshu-067-xielingyun:p006:m00270"
           ]
         },
         {
           "surface": "陸士衡",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p019:m0067"
+          ]
+        },
+        {
+          "surface": "士衡",
+          "mention_ids": [
+            "c-jinshu-054-lu-family:p001:m0001"
+          ]
+        },
+        {
+          "surface": "機",
+          "mention_ids": [
+            "c-jinshu-054-lu-family:p003:m0002",
+            "c-jinshu-054-lu-family:p002:m0002"
           ]
         }
       ],
@@ -400868,9 +400882,45 @@
           "paragraph_id": "c-songshu-051-wyd1739-zongshi:p019",
           "mention_id": "c-songshu-051-wyd1739-zongshi:p019:m0067",
           "quote": "陸士衡"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p001",
+          "mention_id": "c-jinshu-054-lu-family:p001:m0000",
+          "quote": "陸機"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p001",
+          "mention_id": "c-jinshu-054-lu-family:p001:m0001",
+          "quote": "士衡"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p003",
+          "mention_id": "c-jinshu-054-lu-family:p003:m0002",
+          "quote": "機"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p002",
+          "mention_id": "c-jinshu-054-lu-family:p002:m0002",
+          "quote": "機"
         }
       ],
-      "identity_note": "依固定晉書選段與敘事上下文辨識；不補未載本名、日期、父母或婚姻。",
+      "identity_note": "跨篇沿用原有陸機身份；卷五十四傳首明載父抗、祖遜及字士衡。父祖關係分存原證；家族路徑以多項同段原證作編輯組裝。",
       "review": "ai_provisional"
     },
     {
@@ -657203,6 +657253,203 @@
         }
       ],
       "identity_note": "《宋書》卷五十一具名人物；本批只記可回查原文提及與明載關係，不補生卒。"
+    },
+    {
+      "id": "8kb_zhi_yt3",
+      "label": "陸遜",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "遜",
+          "mention_ids": [
+            "c-jinshu-054-lu-family:p001:m0002"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p001",
+          "mention_id": "c-jinshu-054-lu-family:p001:m0002",
+          "quote": "遜"
+        }
+      ],
+      "identity_note": "《晉書》卷五十四稱為陸機之祖；具體與陸抗父子關係由家族組裝判讀，原文只明載陸機祖父遜。",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "8kb_zhi_yt3_A",
+      "label": "陸抗",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "抗",
+          "mention_ids": [
+            "c-jinshu-054-lu-family:p001:m0003"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p001",
+          "mention_id": "c-jinshu-054-lu-family:p001:m0003",
+          "quote": "抗"
+        }
+      ],
+      "identity_note": "《晉書》卷五十四明稱父抗；原文未在此句直書全名。",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "8kb_zhi_yt3_AB",
+      "label": "陸雲",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "雲",
+          "mention_ids": [
+            "c-jinshu-054-lu-family:p002:m0000",
+            "c-jinshu-054-lu-family:p004:m0000",
+            "c-jinshu-054-lu-family:p004:m0002"
+          ]
+        },
+        {
+          "surface": "士龍",
+          "mention_ids": [
+            "c-jinshu-054-lu-family:p002:m0001"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p002",
+          "mention_id": "c-jinshu-054-lu-family:p002:m0000",
+          "quote": "雲"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p002",
+          "mention_id": "c-jinshu-054-lu-family:p002:m0001",
+          "quote": "士龍"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p004",
+          "mention_id": "c-jinshu-054-lu-family:p004:m0000",
+          "quote": "雲"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p004",
+          "mention_id": "c-jinshu-054-lu-family:p004:m0002",
+          "quote": "雲"
+        }
+      ],
+      "identity_note": "卷五十四陸雲傳首及「少與兄機」明文；不由兄弟關係補其父名。",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "8kb_zhi_yt3_AC",
+      "label": "陸耽",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "耽",
+          "mention_ids": [
+            "c-jinshu-054-lu-family:p004:m0001"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p004",
+          "mention_id": "c-jinshu-054-lu-family:p004:m0001",
+          "quote": "耽"
+        }
+      ],
+      "identity_note": "卷五十四附傳稱雲弟耽；不補父名及共同母親。",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "8kb_zhi_yt3_AAA",
+      "label": "陸蔚",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "蔚",
+          "mention_ids": [
+            "c-jinshu-054-lu-family:p003:m0000"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p003",
+          "mention_id": "c-jinshu-054-lu-family:p003:m0000",
+          "quote": "蔚"
+        }
+      ],
+      "identity_note": "卷五十四稱陸機二子之一蔚；姓依父子關係恢復。",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "8kb_zhi_yt3_AAB",
+      "label": "陸夏",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "夏",
+          "mention_ids": [
+            "c-jinshu-054-lu-family:p003:m0001"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-054",
+          "chapter_id": "c-jinshu-054-lu-family",
+          "source_id": "s-jinshu-054-wikisource-lu-family",
+          "paragraph_id": "c-jinshu-054-lu-family:p003",
+          "mention_id": "c-jinshu-054-lu-family:p003:m0001",
+          "quote": "夏"
+        }
+      ],
+      "identity_note": "卷五十四稱陸機二子之一夏；姓依父子關係恢復。",
+      "review": "ai_provisional"
     }
   ]
 }
