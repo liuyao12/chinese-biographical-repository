@@ -104,6 +104,61 @@
     {
       "number": 67,
       "category": "",
+      "title": "郗鑒",
+      "paragraph_id": "c-jinshu-067-xijian-family:p004",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "愔……三子。超、融、沖。超最知名。",
+      "paragraph_ids": [
+        "c-jinshu-067-xijian-family:p004",
+        "c-jinshu-067-xijian-family:p005",
+        "c-jinshu-067-xijian-family:p009"
+      ],
+      "mention_ids": [
+        "c-jinshu-067-xijian-family:p004:m0001",
+        "c-jinshu-067-xijian-family:p005:m0000",
+        "c-jinshu-067-xijian-family:p009:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-067-xijian-family:p004:m0001": "c-jinshu-067-xijian-family:p004",
+        "c-jinshu-067-xijian-family:p005:m0000": "c-jinshu-067-xijian-family:p005",
+        "c-jinshu-067-xijian-family:p009:m0003": "c-jinshu-067-xijian-family:p009"
+      },
+      "mention_id": "c-jinshu-067-xijian-family:p004:m0001",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-067-xijian-family:p004:m0001",
+          "mention_ids": [
+            "c-jinshu-067-xijian-family:p004:m0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-067-xijian-family:p005:m0000",
+          "mention_ids": [
+            "c-jinshu-067-xijian-family:p005:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-067-xijian-family:p009:m0003",
+          "mention_ids": [
+            "c-jinshu-067-xijian-family:p009:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-067",
+      "chapter_id": "c-jinshu-067-xijian-family",
+      "source_id": "s-jinshu-067-ws2592755-xijian-excerpts",
+      "work_title": "晉書"
+    },
+    {
+      "number": 67,
+      "category": "",
       "title": "《宋書》卷六十七謝靈運完整本傳（編輯選錄題）",
       "paragraph_id": "c-songshu-067-xielingyun:p006",
       "count": 1,
@@ -359,6 +414,33 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-067-xijian-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-067",
+      "source_id": "s-jinshu-067-ws2592755-xijian-excerpts",
+      "source": {
+        "title": "《晉書》卷六十七郗鑒及附傳摘錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7067?oldid=2592755",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2592755&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7067",
+        "revision_id": 2592755,
+        "accessed_on": "2026-11-12",
+        "extent": "郗鑒本傳及卷首所列附傳中，僅錄郗氏世系判讀所需的八處原文摘錄；含編者省略號，非完整傳文或全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "490b295cea6fb647201ca712736065c9e35c0c30ca7361feefac0c8ee3310df5",
+        "raw_file": "sources/witnesses/jin067-ws2592755-xijian-excerpts.txt",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "固定revision之摘錄；段內省略處以編者省略號明示；未據影像校讀，沒有將本數位文本稱為武英殿本。"
+        }
+      }
+    },
     {
       "chapter_id": "c-jinshu-074-huan-family",
       "work_id": "w-jinshu",
@@ -10769,6 +10851,71 @@
   ],
   "relations": [
     {
+      "id": "a-jinshu067-xijian-009",
+      "subject_person_id": "57b_1cb_a1b",
+      "predicate": "father",
+      "object_person_id": "ier_lqj_x4q",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-067",
+          "source_id": "s-jinshu-067-ws2592755-xijian-excerpts",
+          "chapter_id": "c-jinshu-067-xijian-family",
+          "paragraph_id": "c-jinshu-067-xijian-family:p004",
+          "quote": "三子。超、融、沖。超最知名。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "三子超、融、沖",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "依固定《晉書》卷六十七摘錄保存；不補未載姓名或世次。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jinshu067-xijian-015",
+      "subject_person_id": "am6_k2t_j0x",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "57b_1cb_a1b",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-067",
+          "source_id": "s-jinshu-067-ws2592755-xijian-excerpts",
+          "chapter_id": "c-jinshu-067-xijian-family",
+          "paragraph_id": "c-jinshu-067-xijian-family:p005",
+          "quote": "超無子，從弟儉之以子僧施嗣。",
+          "subject_person_mention_id": "c-jinshu-067-xijian-family:p005:m0001",
+          "object_person_mention_id": "c-jinshu-067-xijian-family:p005:m0000",
+          "person_mention_id": "c-jinshu-067-xijian-family:p005:m0001"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "從弟儉之",
+        "source_clause_binding": {
+          "kind": "named_object_congdi_after_no_son",
+          "start": 4,
+          "end": 8
+        },
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        }
+      },
+      "interpretation_note": "原文明言儉之為超從弟；保存父系同輩及較幼，不推共同祖先、親等或在主幹上的精確世代。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanqi033-wangsengqian-021",
       "subject_person_id": "57b_1cb_a1b",
       "predicate": "father",
@@ -10798,6 +10945,7 @@
   ],
   "related_people": {
     "57b_1cb_a1b": "郗超",
+    "am6_k2t_j0x": "郗儉之",
     "ier_lqj_x4q": "郗愔"
   },
   "dates": [],
@@ -10833,6 +10981,71 @@
   ],
   "preferred_relations": [
     {
+      "id": "a-jinshu067-xijian-009",
+      "subject_person_id": "57b_1cb_a1b",
+      "predicate": "father",
+      "object_person_id": "ier_lqj_x4q",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-067",
+          "source_id": "s-jinshu-067-ws2592755-xijian-excerpts",
+          "chapter_id": "c-jinshu-067-xijian-family",
+          "paragraph_id": "c-jinshu-067-xijian-family:p004",
+          "quote": "三子。超、融、沖。超最知名。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "三子超、融、沖",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "依固定《晉書》卷六十七摘錄保存；不補未載姓名或世次。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jinshu067-xijian-015",
+      "subject_person_id": "am6_k2t_j0x",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "57b_1cb_a1b",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-067",
+          "source_id": "s-jinshu-067-ws2592755-xijian-excerpts",
+          "chapter_id": "c-jinshu-067-xijian-family",
+          "paragraph_id": "c-jinshu-067-xijian-family:p005",
+          "quote": "超無子，從弟儉之以子僧施嗣。",
+          "subject_person_mention_id": "c-jinshu-067-xijian-family:p005:m0001",
+          "object_person_mention_id": "c-jinshu-067-xijian-family:p005:m0000",
+          "person_mention_id": "c-jinshu-067-xijian-family:p005:m0001"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "從弟儉之",
+        "source_clause_binding": {
+          "kind": "named_object_congdi_after_no_son",
+          "start": 4,
+          "end": 8
+        },
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        }
+      },
+      "interpretation_note": "原文明言儉之為超從弟；保存父系同輩及較幼，不推共同祖先、親等或在主幹上的精確世代。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanqi033-wangsengqian-021",
       "subject_person_id": "57b_1cb_a1b",
       "predicate": "father",
@@ -10860,6 +11073,20 @@
       "model": null
     }
   ],
+  "assembled_identity": {
+    "person_id": "66f_b00_777_*AAAAA",
+    "representative_source_person_id": "57b_1cb_a1b",
+    "source_person_ids": [
+      "57b_1cb_a1b"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "66f_b00_777_*AAAA",
+    "source_assertion_id": "a-jinshu067-xijian-009",
+    "assembly_id": "family-xi-xuan-xijian-jinshu067",
+    "root_person_id": "66f_b00_777",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

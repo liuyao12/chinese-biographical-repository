@@ -124,6 +124,16 @@ def _direction(p, subjects, objects, term):
     # source's first-person speaker (not an arbitrary same-paragraph person).
     for hit in re.finditer(r'兄子|弟子|昆弟子', t):
         a, b = hit.span()
+        # In a source biography headed by the uncle, "uncle 以兄子 nephew
+        # 為..." states the inverse paternal-uncle relation directly.
+        # Require the exact word order and both named anchors; do not infer
+        # the uncle's father or siblings from this clause.
+        if hit[0] == '兄子' and term == '兄子':
+            for s in subjects:
+                if s['start'] == b and t[s['end']:].startswith('為'):
+                    for o in objects:
+                        if o['end'] < a and t[o['end']:a] == '以':
+                            return True
         if hit[0] not in term and not (hit[0] == '兄子' and term == '兄子'):
             continue
         # Named/courtesy paired lists have their own literal boundary; do not

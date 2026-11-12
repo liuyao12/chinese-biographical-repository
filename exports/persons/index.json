@@ -24950,20 +24950,35 @@
       ]
     },
     {
-      "person_id": "57b_1cb_a1b",
+      "person_id": "66f_b00_777_*AAAAA",
       "label": "郗超",
-      "path": "57b_1cb_a1b.json",
+      "path": "66f_b00_777_*AAAAA.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 12,
-      "raw_mention_count": 12,
+      "mention_count": 15,
+      "raw_mention_count": 15,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 12,
+      "paragraph_mention_count": 15,
       "table_mention_count": 0,
-      "source_count": 7,
+      "source_count": 8,
       "most_mentioned_source_ids": [
         "s-jinshu-075-taiyuan-wang"
-      ]
+      ],
+      "source_person_id": "57b_1cb_a1b",
+      "assembled_identity": {
+        "person_id": "66f_b00_777_*AAAAA",
+        "representative_source_person_id": "57b_1cb_a1b",
+        "source_person_ids": [
+          "57b_1cb_a1b"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "66f_b00_777_*AAAA",
+        "source_assertion_id": "a-jinshu067-xijian-009",
+        "assembly_id": "family-xi-xuan-xijian-jinshu067",
+        "root_person_id": "66f_b00_777",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "57e_9c9_e55",
@@ -28693,6 +28708,38 @@
       "path": "66f_b00_777.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
+      "mention_count": 2,
+      "raw_mention_count": 2,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 2,
+      "table_mention_count": 0,
+      "source_count": 2,
+      "most_mentioned_source_ids": [
+        "s-jinshu-067-ws2592755-xijian-excerpts",
+        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
+      ],
+      "source_person_id": "66f_b00_777",
+      "assembled_identity": {
+        "person_id": "66f_b00_777",
+        "representative_source_person_id": "66f_b00_777",
+        "source_person_ids": [
+          "66f_b00_777"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": null,
+        "source_assertion_id": null,
+        "assembly_id": "family-xi-xuan-xijian-jinshu067",
+        "root_person_id": "66f_b00_777",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "66f_b00_777_*A",
+      "label": "郗紹",
+      "path": "66f_b00_777_*A.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
       "mention_count": 1,
       "raw_mention_count": 1,
       "duplicate_mention_count": 0,
@@ -28700,8 +28747,214 @@
       "table_mention_count": 0,
       "source_count": 1,
       "most_mentioned_source_ids": [
-        "s-sanguozhi-010-xunyu-xunyou-jiaxu"
-      ]
+        "s-jinshu-067-ws2592755-xijian-excerpts"
+      ],
+      "source_person_id": "66f_b00_777_*A",
+      "assembled_identity": {
+        "person_id": "66f_b00_777_*A",
+        "representative_source_person_id": "66f_b00_777_*A",
+        "source_person_ids": [
+          "66f_b00_777_*A"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": null,
+        "source_assertion_id": null,
+        "ancestor_person_id": "66f_b00_777",
+        "connection": "ancestor",
+        "generation_distance": 2,
+        "intermediate_person_ids": [
+          null
+        ],
+        "interpretation_note": "同一郗鑒段明言玄孫郗慮與祖紹；兩項世代距離相差二代，僅第一代中間人未名。此邊為可撤回的父系推導，沒有新增父子原始斷言。",
+        "ancestor_connection": {
+          "type": "same_descendant_distance_difference",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "rationale": "郗鑒至郗慮為玄孫四代，郗鑒至郗紹為祖孫二代；同一段、同一父系後裔的距離相減，得郗紹距郗慮二代，中間一代未名。",
+          "assertion_ids": [
+            "a-jinshu067-xijian-001",
+            "a-jinshu067-xijian-002"
+          ],
+          "references": [
+            {
+              "assertion_id": "a-jinshu067-xijian-001",
+              "quote": "郗鑒，字道徽，高平金鄉人，漢御史大夫慮之玄孫也。祖紹，魏尚書。父璿，州別駕。",
+              "paragraph_id": "c-jinshu-067-xijian-family:p001",
+              "chapter_id": "c-jinshu-067-xijian-family",
+              "source_id": "s-jinshu-067-ws2592755-xijian-excerpts",
+              "url": "https://zh.wikisource.org/w/index.php?oldid=2592755&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7067",
+              "scope": "同一後裔、同一原段、父系世代距離差"
+            },
+            {
+              "assertion_id": "a-jinshu067-xijian-002",
+              "quote": "郗鑒，字道徽，高平金鄉人，漢御史大夫慮之玄孫也。祖紹，魏尚書。父璿，州別駕。",
+              "paragraph_id": "c-jinshu-067-xijian-family:p001",
+              "chapter_id": "c-jinshu-067-xijian-family",
+              "source_id": "s-jinshu-067-ws2592755-xijian-excerpts",
+              "url": "https://zh.wikisource.org/w/index.php?oldid=2592755&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7067",
+              "scope": "同一後裔、同一原段、父系世代距離差"
+            }
+          ]
+        },
+        "assembly_id": "family-xi-xuan-xijian-jinshu067",
+        "root_person_id": "66f_b00_777",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "66f_b00_777_*AA",
+      "label": "郗璿",
+      "path": "66f_b00_777_*AA.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-067-ws2592755-xijian-excerpts"
+      ],
+      "source_person_id": "66f_b00_777_*AA",
+      "assembled_identity": {
+        "person_id": "66f_b00_777_*AA",
+        "representative_source_person_id": "66f_b00_777_*AA",
+        "source_person_ids": [
+          "66f_b00_777_*AA"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "66f_b00_777_*A",
+        "source_assertion_id": null,
+        "parent_connection": {
+          "type": "same_descendant_distance_difference",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "rationale": "同一郗鑒段明載郗紹為祖、郗璿為父；由郗鑒至郗紹二代、至郗璿一代之差，推得郗璿接在郗紹下一代，不新增原始父子斷言。",
+          "assertion_ids": [
+            "a-jinshu067-xijian-002",
+            "a-jinshu067-xijian-003"
+          ],
+          "references": [
+            {
+              "assertion_id": "a-jinshu067-xijian-002",
+              "quote": "郗鑒，字道徽，高平金鄉人，漢御史大夫慮之玄孫也。祖紹，魏尚書。父璿，州別駕。",
+              "paragraph_id": "c-jinshu-067-xijian-family:p001",
+              "chapter_id": "c-jinshu-067-xijian-family",
+              "source_id": "s-jinshu-067-ws2592755-xijian-excerpts",
+              "url": "https://zh.wikisource.org/w/index.php?oldid=2592755&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7067",
+              "scope": "同一後裔、同一原段、父系世代距離差"
+            },
+            {
+              "assertion_id": "a-jinshu067-xijian-003",
+              "quote": "郗鑒，字道徽，高平金鄉人，漢御史大夫慮之玄孫也。祖紹，魏尚書。父璿，州別駕。",
+              "paragraph_id": "c-jinshu-067-xijian-family:p001",
+              "chapter_id": "c-jinshu-067-xijian-family",
+              "source_id": "s-jinshu-067-ws2592755-xijian-excerpts",
+              "url": "https://zh.wikisource.org/w/index.php?oldid=2592755&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7067",
+              "scope": "同一後裔、同一原段、父系世代距離差"
+            }
+          ]
+        },
+        "assembly_id": "family-xi-xuan-xijian-jinshu067",
+        "root_person_id": "66f_b00_777",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "66f_b00_777_*AAAAB",
+      "label": "郗融",
+      "path": "66f_b00_777_*AAAAB.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-067-ws2592755-xijian-excerpts"
+      ],
+      "source_person_id": "66f_b00_777_*AAAAB",
+      "assembled_identity": {
+        "person_id": "66f_b00_777_*AAAAB",
+        "representative_source_person_id": "66f_b00_777_*AAAAB",
+        "source_person_ids": [
+          "66f_b00_777_*AAAAB"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "66f_b00_777_*AAAA",
+        "source_assertion_id": "a-jinshu067-xijian-010",
+        "assembly_id": "family-xi-xuan-xijian-jinshu067",
+        "root_person_id": "66f_b00_777",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "66f_b00_777_*AAAAC",
+      "label": "郗沖",
+      "path": "66f_b00_777_*AAAAC.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-067-ws2592755-xijian-excerpts"
+      ],
+      "source_person_id": "66f_b00_777_*AAAAC",
+      "assembled_identity": {
+        "person_id": "66f_b00_777_*AAAAC",
+        "representative_source_person_id": "66f_b00_777_*AAAAC",
+        "source_person_ids": [
+          "66f_b00_777_*AAAAC"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "66f_b00_777_*AAAA",
+        "source_assertion_id": "a-jinshu067-xijian-011",
+        "assembly_id": "family-xi-xuan-xijian-jinshu067",
+        "root_person_id": "66f_b00_777",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "66f_b00_777_*AAABAA",
+      "label": "郗循",
+      "path": "66f_b00_777_*AAABAA.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-067-ws2592755-xijian-excerpts"
+      ],
+      "source_person_id": "66f_b00_777_*AAABAA",
+      "assembled_identity": {
+        "person_id": "66f_b00_777_*AAABAA",
+        "representative_source_person_id": "66f_b00_777_*AAABAA",
+        "source_person_ids": [
+          "66f_b00_777_*AAABAA"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "66f_b00_777_*AAABA",
+        "source_assertion_id": "a-jinshu067-xijian-013",
+        "assembly_id": "family-xi-xuan-xijian-jinshu067",
+        "root_person_id": "66f_b00_777",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "66i_9gx_pc4",
@@ -30849,20 +31102,35 @@
       ]
     },
     {
-      "person_id": "6lr_zci_i0j",
+      "person_id": "66f_b00_777_*AAA",
       "label": "郗鑒",
-      "path": "6lr_zci_i0j.json",
+      "path": "66f_b00_777_*AAA.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 12,
-      "raw_mention_count": 12,
+      "mention_count": 16,
+      "raw_mention_count": 16,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 12,
+      "paragraph_mention_count": 16,
       "table_mention_count": 0,
-      "source_count": 4,
+      "source_count": 5,
       "most_mentioned_source_ids": [
         "s-jinshu-073-yuliang"
-      ]
+      ],
+      "source_person_id": "6lr_zci_i0j",
+      "assembled_identity": {
+        "person_id": "66f_b00_777_*AAA",
+        "representative_source_person_id": "6lr_zci_i0j",
+        "source_person_ids": [
+          "6lr_zci_i0j"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "66f_b00_777_*AA",
+        "source_assertion_id": "a-jinshu067-xijian-003",
+        "assembly_id": "family-xi-xuan-xijian-jinshu067",
+        "root_person_id": "66f_b00_777",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "6lu_kih_t5b",
@@ -31577,12 +31845,12 @@
       "path": "6v8_pk9_7k5.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 42,
-      "raw_mention_count": 42,
+      "mention_count": 43,
+      "raw_mention_count": 43,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 42,
+      "paragraph_mention_count": 43,
       "table_mention_count": 0,
-      "source_count": 12,
+      "source_count": 13,
       "most_mentioned_source_ids": [
         "s-jinshu-073-yuliang"
       ]
@@ -53993,6 +54261,22 @@
       ]
     },
     {
+      "person_id": "am6_k2t_j0x",
+      "label": "郗儉之",
+      "path": "am6_k2t_j0x.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-067-ws2592755-xijian-excerpts"
+      ]
+    },
+    {
       "person_id": "amj_bx7_niz",
       "label": "王辯〔蕭衍將〕",
       "path": "amj_bx7_niz.json",
@@ -56707,13 +56991,14 @@
       "path": "be3_978_f9f.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 1,
-      "raw_mention_count": 1,
+      "mention_count": 2,
+      "raw_mention_count": 2,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 1,
+      "paragraph_mention_count": 2,
       "table_mention_count": 0,
-      "source_count": 1,
+      "source_count": 2,
       "most_mentioned_source_ids": [
+        "s-jinshu-067-ws2592755-xijian-excerpts",
         "s-songshu-053-xiefangming"
       ]
     },
@@ -68656,20 +68941,35 @@
       ]
     },
     {
-      "person_id": "e5k_f2i_cog",
+      "person_id": "66f_b00_777_*AAAB",
       "label": "郗曇",
-      "path": "e5k_f2i_cog.json",
+      "path": "66f_b00_777_*AAAB.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 1,
-      "raw_mention_count": 1,
+      "mention_count": 5,
+      "raw_mention_count": 5,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 1,
+      "paragraph_mention_count": 5,
       "table_mention_count": 0,
-      "source_count": 1,
+      "source_count": 2,
       "most_mentioned_source_ids": [
-        "s-jinshu-079-xielang-family"
-      ]
+        "s-jinshu-067-ws2592755-xijian-excerpts"
+      ],
+      "source_person_id": "e5k_f2i_cog",
+      "assembled_identity": {
+        "person_id": "66f_b00_777_*AAAB",
+        "representative_source_person_id": "e5k_f2i_cog",
+        "source_person_ids": [
+          "e5k_f2i_cog"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "66f_b00_777_*AAA",
+        "source_assertion_id": "a-jinshu067-xijian-007",
+        "assembly_id": "family-xi-xuan-xijian-jinshu067",
+        "root_person_id": "66f_b00_777",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "e5s_bwt_y45",
@@ -69562,20 +69862,36 @@
       ]
     },
     {
-      "person_id": "ebb_5a7_96e",
+      "person_id": "66f_b00_777_*AAABA",
       "label": "郗恢",
-      "path": "ebb_5a7_96e.json",
+      "path": "66f_b00_777_*AAABA.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 2,
-      "raw_mention_count": 2,
+      "mention_count": 4,
+      "raw_mention_count": 4,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 2,
+      "paragraph_mention_count": 4,
       "table_mention_count": 0,
-      "source_count": 1,
+      "source_count": 2,
       "most_mentioned_source_ids": [
-        "s-jinshu-065-wangdao-family"
-      ]
+        "s-jinshu-065-wangdao-family",
+        "s-jinshu-067-ws2592755-xijian-excerpts"
+      ],
+      "source_person_id": "ebb_5a7_96e",
+      "assembled_identity": {
+        "person_id": "66f_b00_777_*AAABA",
+        "representative_source_person_id": "ebb_5a7_96e",
+        "source_person_ids": [
+          "ebb_5a7_96e"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "66f_b00_777_*AAAB",
+        "source_assertion_id": "a-jinshu067-xijian-012",
+        "assembly_id": "family-xi-xuan-xijian-jinshu067",
+        "root_person_id": "66f_b00_777",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "ebb_777_64e",
@@ -85199,20 +85515,35 @@
       ]
     },
     {
-      "person_id": "ier_lqj_x4q",
+      "person_id": "66f_b00_777_*AAAA",
       "label": "郗愔",
-      "path": "ier_lqj_x4q.json",
+      "path": "66f_b00_777_*AAAA.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 3,
-      "raw_mention_count": 3,
+      "mention_count": 7,
+      "raw_mention_count": 7,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 3,
+      "paragraph_mention_count": 7,
       "table_mention_count": 0,
-      "source_count": 3,
+      "source_count": 4,
       "most_mentioned_source_ids": [
-        "s-nanqishu-033-wangsengqian"
-      ]
+        "s-jinshu-067-ws2592755-xijian-excerpts"
+      ],
+      "source_person_id": "ier_lqj_x4q",
+      "assembled_identity": {
+        "person_id": "66f_b00_777_*AAAA",
+        "representative_source_person_id": "ier_lqj_x4q",
+        "source_person_ids": [
+          "ier_lqj_x4q"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "66f_b00_777_*AAA",
+        "source_assertion_id": "a-jinshu067-xijian-006",
+        "assembly_id": "family-xi-xuan-xijian-jinshu067",
+        "root_person_id": "66f_b00_777",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "if1_4vk_fku",
@@ -88500,14 +88831,14 @@
       "path": "jlw_330_62b.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 1,
-      "raw_mention_count": 1,
+      "mention_count": 3,
+      "raw_mention_count": 3,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 1,
+      "paragraph_mention_count": 3,
       "table_mention_count": 0,
-      "source_count": 1,
+      "source_count": 2,
       "most_mentioned_source_ids": [
-        "s-jinshu-059-ws2650517-jiong"
+        "s-jinshu-067-ws2592755-xijian-excerpts"
       ]
     },
     {
@@ -149105,7 +149436,13 @@
       ]
     }
   ],
-  "id_aliases": {},
+  "id_aliases": {
+    "6lr_zci_i0j": "66f_b00_777_*AAA",
+    "ier_lqj_x4q": "66f_b00_777_*AAAA",
+    "e5k_f2i_cog": "66f_b00_777_*AAAB",
+    "57b_1cb_a1b": "66f_b00_777_*AAAAA",
+    "ebb_5a7_96e": "66f_b00_777_*AAABA"
+  },
   "reading_indexes": {
     "family_pages": [
       "README.md"

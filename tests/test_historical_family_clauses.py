@@ -16,6 +16,18 @@ def valid(a,p):return {'adoptive_father':explicit_shouyang_valid,'ritual_success
 class HistoricalFamilyClauses(unittest.TestCase):
  def test_four_positive_clauses(self):
   for i in range(4):self.assertTrue(valid(*fixture(i)))
+ def test_named_congdi_after_no_son_clause(self):
+  text='超無子，從弟儉之以子僧施嗣。'
+  p={'kinship-p':('kinship-c',{'text':text,'mentions':[
+   {'id':'older','surface':'超','start':0,'end':1,'person_id':'chao','kind':'person'},
+   {'id':'younger','surface':'儉之','start':6,'end':8,'person_id':'jian','kind':'person'}]})}
+  a={'predicate':'agnatic_cousin','subject_person_id':'jian','object_person_id':'chao','status':'source_attested','human_reviewed':False,
+     'qualifiers':{'source_term':'從弟儉之','kinship_structure':{'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'younger'},'source_clause_binding':{'kind':'named_object_congdi_after_no_son','start':4,'end':8}},
+     'evidence':[{'chapter_id':'kinship-c','paragraph_id':'kinship-p','quote':text,'subject_person_mention_id':'younger','object_person_mention_id':'older'}]}
+  self.assertTrue(explicit_congdi_valid(a,p))
+  bad=copy.deepcopy(a);bad['qualifiers']['source_clause_binding']['start']=3;self.assertFalse(explicit_congdi_valid(bad,p))
+  bad=copy.deepcopy(a);bad['qualifiers']['source_term']='從弟超';self.assertFalse(explicit_congdi_valid(bad,p))
+  bad=copy.deepcopy(a);bad['subject_person_id']='chao';self.assertFalse(explicit_congdi_valid(bad,p))
  def test_swapped_roles(self):
   for i in range(4):
    a,p=fixture(i);a['subject_person_id'],a['object_person_id']=a['object_person_id'],a['subject_person_id'];e=a['evidence'][0];e['subject_person_mention_id'],e['object_person_mention_id']=e['object_person_mention_id'],e['subject_person_mention_id'];self.assertFalse(valid(a,p))

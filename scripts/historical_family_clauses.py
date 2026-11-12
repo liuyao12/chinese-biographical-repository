@@ -65,6 +65,19 @@ def explicit_congdi_valid(a,paragraphs):
         return named_congxiong_group_valid(a,paragraphs)
     try:
         t,q,b,ms,s,o,start,end=_parts(a,paragraphs);k=q['kinship_structure']
+        if b['kind']=='named_object_congdi_after_no_son':
+            return (a['predicate']=='agnatic_cousin'
+                    and set(q)=={'source_term','kinship_structure','source_clause_binding'}
+                    and set(k)=={'lineage','generation_difference','collateral','distance','common_ancestor_person_id','subject_relative_age'}
+                    and k['lineage']=='paternal' and k['generation_difference']==0
+                    and k['collateral'] is True and k['distance'] is None
+                    and k['common_ancestor_person_id'] is None and k['subject_relative_age']=='younger'
+                    and set(b)=={'kind','start','end'}
+                    and q['source_term']=='從弟'+s['surface']
+                    and t[o['start']:o['end']]==o['surface']
+                    and t[o['end']:start]=='無子，'
+                    and t[start:end]=='從弟'+s['surface']
+                    and s['start']==start+len('從弟') and s['end']==end)
         return (a['predicate']=='agnatic_cousin'and set(q)=={'source_term','kinship_structure','source_clause_binding'}
                 and set(k)=={'lineage','generation_difference','collateral','distance','common_ancestor_person_id','subject_relative_age'}
                 and k['lineage']=='paternal'and type(k['generation_difference'])is int and k['generation_difference']==0
