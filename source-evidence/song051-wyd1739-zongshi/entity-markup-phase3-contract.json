@@ -3,7 +3,7 @@
   "record_type": "fixed_wyd_song051_entity_markup_phase_contract",
   "phase": "song051_entity_markup_phase3",
   "parent_contract_path": "source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json",
-  "parent_contract_sha256": "578324fdceeb35146d8dddfd6acf1d9fb45d41bd5a078fa7fc5da67def055623",
+  "parent_contract_sha256": "dc5b4ab87bb78389fa6a946ec6774379785e3cd1fb52834d53c468eb9bf4a353",
   "chapter_path": "corpus/songshu/051-wyd1739.json",
   "chapter_id": "c-songshu-051-wyd1739-zongshi",
   "parent_layer": "song051_yixin_complete_unit_phase2",
@@ -12,11 +12,12 @@
       "c-songshu-051-wyd1739-zongshi:p001",
       "c-songshu-051-wyd1739-zongshi:p002",
       "c-songshu-051-wyd1739-zongshi:p003",
+      "c-songshu-051-wyd1739-zongshi:p012",
       "c-songshu-051-wyd1739-zongshi:p034",
       "c-songshu-051-wyd1739-zongshi:p047",
       "c-songshu-051-wyd1739-zongshi:p048"
     ],
-    "additional_person_mentions": 54,
+    "additional_person_mentions": 55,
     "human_reviewed": false,
     "model": null
   },
@@ -28,11 +29,12 @@
         "c-songshu-051-wyd1739-zongshi:p001",
         "c-songshu-051-wyd1739-zongshi:p002",
         "c-songshu-051-wyd1739-zongshi:p003",
+        "c-songshu-051-wyd1739-zongshi:p012",
         "c-songshu-051-wyd1739-zongshi:p034",
         "c-songshu-051-wyd1739-zongshi:p047",
         "c-songshu-051-wyd1739-zongshi:p048"
       ],
-      "additional_person_mentions": 54
+      "additional_person_mentions": 55
     },
     "human_reviewed": false,
     "model": null
@@ -583,6 +585,20 @@
       }
     },
     {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+      "role_key": "LiuJun",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p012:m0122",
+        "start": 208,
+        "end": 210,
+        "surface": "世祖",
+        "kind": "person",
+        "person_id": "hx8_st4_jdd",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuJun"
+      }
+    },
+    {
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
       "role_key": "ExistingYuanShu",
       "marker": {
@@ -850,7 +866,7 @@
     }
   ],
   "identity_decisions_path": "corpus/songshu/051-wyd1739-entity-phase3-identities.json",
-  "identity_decisions_sha256": "adca62141cc0164c12cdd12a0320760f7e76eefebdaab9c9889472e3fbf9f26f",
+  "identity_decisions_sha256": "4066043b33a6fac5b84b253ab92975ddd7b808735dd4f4dfd32ab4389f64d52b",
   "name_components_path": "corpus/songshu/051-wyd1739-entity-phase3-name-components.json",
   "name_components_sha256": "5a2835a8ca2191d1afeef056ccb8e30b9498a0caca47e33e4684463755c88137",
   "cross_chapter_references": [
