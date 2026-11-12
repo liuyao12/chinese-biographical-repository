@@ -2,6 +2,14 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    binding = assertion.get('qualifiers', {}).get('source_clause_binding', {})
+    if isinstance(binding, dict) and binding.get('kind') in (
+            'song058_xiehun_collective_zuzi', 'song067_lingyun_congshu'):
+        try:
+            from scripts.songshu_xie_kinship import valid
+        except ImportError:
+            from songshu_xie_kinship import valid
+        return valid(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('pattern') == 'jinshu076_congbo_subject_to_senior':
         try:
             from scripts.jinshu076_congbo import valid as jinshu076_congbo_valid
