@@ -27,3 +27,16 @@ def no_materialized_relations(assertion_record):
         and assertion_record.get("status") == "not_adopted"
         and assertion_record.get("assertions") == []
     )
+
+
+def unadopted_record_valid(record, excerpts_sha256):
+    return (
+        record.get("record_type") == "unadopted_comparison_witness"
+        and record.get("status") == "not_adopted"
+        and record.get("witness", {}).get("print_edition") == "unknown"
+        and record.get("witness", {}).get("fixed_revision") == 2131313
+        and record.get("excerpt_sha256") == excerpts_sha256
+        and record.get("materialized_person_ids") == []
+        and record.get("candidate_relations") == []
+        and record.get("candidate_identity_decisions") == []
+    )
