@@ -597,6 +597,13 @@ def _validate_uncached(root=ROOT):
                 from fixed_wuyingdian_song051_family_phase import source_errors as wuyingdian_song051_errors
             wuyingdian_051_issues = wuyingdian_song051_errors(d, root)
             errors.extend(wuyingdian_051_issues)
+            # Songshu 051 later entity-markup overlay. Keep its exact layer
+            # contract independently checked while projecting phase2 above.
+            try:
+                from scripts.wyd_song051_entity_phase3 import source_errors as wuyingdian_song051_entity_errors
+            except ImportError:
+                from wyd_song051_entity_phase3 import source_errors as wuyingdian_song051_entity_errors
+            errors.extend(wuyingdian_song051_entity_errors(d, root))
             wuyingdian_song051_layer_valid = (d.get('id') == 'c-songshu-051-wyd1739-zongshi'
                 and isinstance(d.get('annotation'), dict) and d['annotation'].get('fixed_transcription_contract') == 'wuyingdian_song051_transcription'
                 and not wuyingdian_051_issues)

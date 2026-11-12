@@ -6,6 +6,12 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `mge_pi9_fn1` | 計然 | [《史記・貨殖列傳》][198] | [JSON](mge_pi9_fn1.json) |
+| `mgj_ry7_2x5` | 陶朱 | [《史記・陳涉世家》][117] | [JSON](mgj_ry7_2x5.json) |
+| `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][164] | [JSON](mgl_q57_d7h.json) |
+| `mh6_5un_rq0` | 韓康子（殺知伯者） | [《史記・晉世家》][108] | [JSON](mh6_5un_rq0.json) |
+| `mhe_05y_s6w` | 虞預 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47]、[《三國志・桓二陳徐衞盧傳》][84] | [JSON](mhe_05y_s6w.json) |
+| `mi0_e91_pmn` | 休（確叔父，永嘉太守） | [《宋書・王僧達 顏竣》][227] | [JSON](mi0_e91_pmn.json) |
 | `mii_pxr_jrl` | 破石 | [《史記・扁鵲倉公列傳》][174] | [JSON](mii_pxr_jrl.json) |
 | `mio_z5f_ri1` | 楚威王 | [《史記・蘇秦列傳》][138] | [JSON](mio_z5f_ri1.json) |
 | `miw_t0v_k64` | 呂越人 | [《史記・西南夷列傳》][185]、[《史記・司馬相如列傳》][186]、[《史記・大宛列傳》][192] | [JSON](miw_t0v_k64.json) |
@@ -180,6 +186,7 @@
 | `nln_ldz_i3j` | 范雲 | [《梁書・裴子野 顧協 徐摛 鮑泉》][64]、[《南史・范泰　荀伯子　徐廣　鄭鮮之　裴松之　何承天》][75] | [JSON](nln_ldz_i3j.json) |
 | `nlp_uso_3gl` | 車灌 | [《晉書・叛臣一》][59] | [JSON](nlp_uso_3gl.json) |
 | `nlt_msz_iuz` | 雍將軍（未名） | [《史記・樊酈滕灌列傳》][164] | [JSON](nlt_msz_iuz.json) |
+| `nm3_sq5_ndb` | 索度真 | [《宋書・宗室》][212] | [JSON](nm3_sq5_ndb.json) |
 | `nnj_520_wdk` | 簀中救范守者未名 | [《史記・范睢蔡澤列傳》][148] | [JSON](nnj_520_wdk.json) |
 | `nnz_9nd_38q` | 趙氏〔蕭卓命婦〕 | [《宋書・后妃》][204] | [JSON](nnz_9nd_38q.json) |
 | `no0_6y9_swo` | 齊使者 | [《史記・孫子吳起列傳》][134] | [JSON](no0_6y9_swo.json) |
@@ -726,6 +733,7 @@
 | `r47_vug_gx5` | 王氏〔楊播母〕 | [《魏書・楊播》][234] | [JSON](r47_vug_gx5.json) |
 | `r4a_ewe_13s` | 元屈 | [《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](r4a_ewe_13s.json) |
 | `r4c_ov4_t08` | 公西輿如 | [《史記・仲尼弟子列傳》][136] | [JSON](r4c_ov4_t08.json) |
+| `r4c_psf_bta` | 羊穆之 | [《宋書・宗室》][212] | [JSON](r4c_psf_bta.json) |
 | `r4g_c1v_yh0` | 高期 | [《史記・扁鵲倉公列傳》][174] | [JSON](r4g_c1v_yh0.json) |
 | `r4z_qa6_vhk` | 陳武 | [《史記・絳侯周勃世家》][126] | [JSON](r4z_qa6_vhk.json) |
 | `r56_nsd_loo` | 獻公（燕簡公後） | [《史記・燕召公世家》][103] | [JSON](r56_nsd_loo.json) |
@@ -1199,6 +1207,7 @@
 | `tyk_15n_8t3` | 周捨〔梁廷〕 | [《梁書・裴子野 顧協 徐摛 鮑泉》][64] | [JSON](tyk_15n_8t3.json) |
 | `tz2_ke2_7l1` | 宰（魯幽公） | [《史記・魯周公世家》][102] | [JSON](tz2_ke2_7l1.json) |
 | `tz3_xgn_rsu` | 魯謁居 | [《史記・酷吏列傳》][191] | [JSON](tz3_xgn_rsu.json) |
+| `tzi_ka3_q6n` | 托跋開 | [《宋書・宗室》][212] | [JSON](tzi_ka3_q6n.json) |
 | `tzq_88y_69k` | 衛長公主 | [《史記・孝武本紀》][99] | [JSON](tzq_88y_69k.json) |
 | `tzt_qma_65u` | 索元 | [《晉書・叛臣二》][60] | [JSON](tzt_qma_65u.json) |
 | `tzz_9l9_f83` | 王容 | [《史記・趙世家》][112] | [JSON](tzz_9l9_f83.json) |

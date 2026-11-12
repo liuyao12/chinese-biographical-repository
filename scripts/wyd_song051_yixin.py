@@ -47,7 +47,12 @@ def resolve_seeds(root,c):
  return roles
 @memoized(0)
 def state(root,ch=None):
- root=Path(root).resolve();actual=load(root,CH);need(ch is None or same(ch,actual),'所給current完整章不符');c=contract(root);roles=collect(actual,c);need(same(actual,phase_chapter(c,roles)),'完整原文/舊新錨/資格/位置或新增metadata差異');seeds=resolve_seeds(root,c);need(all(roles[k]==v for k,v in seeds.items()),'既有人物跨源角色錯接');need(roles['yixin']==roles['old_yixin']and roles['wendi']==roles['old_taizu'],'既有角色被另造');need(len({roles[r]for r in c['new_names']})==len(c['new_names']),'本源不同個體不得同號');need(not({roles[r]for r in c['new_names']}&(set(seeds.values())|{v for k,v in roles.items()if k.startswith('old_')})),'新角色與既有人物錯合')
+ root=Path(root).resolve();current=load(root,CH);need(ch is None or same(ch,current),'所給current完整章不符');c=contract(root);actual=current
+ if type(current.get('annotation'))is dict and 'additional_annotation_layers'in current['annotation']:
+  try:from scripts.wyd_song051_entity_phase3 import project_phase2
+  except ImportError:from wyd_song051_entity_phase3 import project_phase2
+  actual=project_phase2(root,current)
+ roles=collect(actual,c);need(same(actual,phase_chapter(c,roles)),'完整原文/舊新錨/資格/位置或新增metadata差異');seeds=resolve_seeds(root,c);need(all(roles[k]==v for k,v in seeds.items()),'既有人物跨源角色錯接');need(roles['yixin']==roles['old_yixin']and roles['wendi']==roles['old_taizu'],'既有角色被另造');need(len({roles[r]for r in c['new_names']})==len(c['new_names']),'本源不同個體不得同號');need(not({roles[r]for r in c['new_names']}&(set(seeds.values())|{v for k,v in roles.items()if k.startswith('old_')})),'新角色與既有人物錯合')
  rows=load(root,'registry/persons.json')['persons'];people={p['id']:p for p in rows};need(len(people)==len(rows),'current registry重複ID')
  for row in c['markers']:
   p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id']);person=people.get(m['person_id']);need(person is not None,'新增角色未登記');need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'新增alias缺反向');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'新增evidence缺反向')
@@ -59,7 +64,7 @@ def state(root,ch=None):
  old_names=load(root,'corpus/songshu/051-wyd1739-name-components.json')['records']
  for role in ['yixin','yizong']:
   n,=[n for n in old_names if n['id']=='name-song051-phase1-restored-'+role];need(n['person_id']==roles['old_'+role]and n['surname']=='劉'and n['surname_basis']['kind']=='contextual_surname_from_wyd_song051_named_path','劉姓既有源證種子不符')
- return actual,roles,c,docs
+ return current,roles,c,docs
 
 def project_previous_phase(root,ch):
  need(type(ch)is dict,'投影須提供完整current章，不以None或缺章回填')
