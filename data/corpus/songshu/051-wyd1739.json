@@ -100,7 +100,7 @@
     "additional_annotation_phase": {
       "kind": "song051_yixin_complete_unit_phase2",
       "contract_path": "source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json",
-      "coverage": "本批續標第24–25段及史臣論第46段：荀林、桓謙與烈武王回指均具逐錨來源；全卷仍未完成。",
+      "coverage": "本批續標第17段之劉秉與其子俁兩錨，並以宋051及梁015明文關係接合；僅支持父子，不定二子長幼。全卷仍未完成。",
       "human_reviewed": false,
       "model": null
     }
@@ -1218,8 +1218,29 @@
       "id": "c-songshu-051-wyd1739-zongshi:p017",
       "text": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0062",
+          "start": 62,
+          "end": 63,
+          "surface": "秉",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "confidence": "high",
+          "source_role_key": "liuyu-rekey:bing"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p017:m0077",
+          "start": 77,
+          "end": 78,
+          "surface": "俁",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABDBB",
+          "confidence": "high",
+          "source_role_key": "liuyu-rekey:liuyu"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
@@ -2367,6 +2388,15 @@
           "surface": "臧質",
           "kind": "person",
           "person_id": "e3x_04h_ep6",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0011",
+          "start": 208,
+          "end": 210,
+          "surface": "前廢",
+          "kind": "person",
+          "person_id": "iwn_c2g_zvh",
           "status": "contextual_provisional"
         }
       ],

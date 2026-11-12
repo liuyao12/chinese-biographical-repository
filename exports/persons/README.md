@@ -463,7 +463,7 @@
 
 </details>
 
-<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（33 名）</summary>
+<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（34 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -493,6 +493,7 @@
 | `AABD` | 劉義宗 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABD.json) |
 | `AABDA` | 劉玠 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDA.json) |
 | `AABDB` | 劉秉 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDB.json) |
+| `AABDBB` | 劉俁 | [《梁書・謝朏 弟子覽》][63]、[《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDBB.json) |
 | `AABE` | 義賓 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABE.json) |
 | `AABEA` | 劉綜 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEA.json) |
 | `AABEAA` | 劉憲 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEAA.json) |
