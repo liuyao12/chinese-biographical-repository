@@ -151,6 +151,16 @@ def validate_courtesy_name(name):
     zi = name['zi']
     quotes = [name.get('quote', '')] + [r.get('quote', '') for r in name.get('references', [])]
     basis = name.get('zi_basis')
+    source_zi = name.get('source_zi_binding')
+    source_zi_valid = False
+    if source_zi is not None:
+        p = name.get('paragraph_id'); s = source_zi.get('surface')
+        source_zi_valid = (isinstance(source_zi, dict) and set(source_zi)=={'kind','paragraph_id','start','end','surface','human_reviewed'} and source_zi.get('kind') == 'explicit_zi_yue_form'
+                           and source_zi.get('paragraph_id') == p and type(source_zi.get('start')) is int
+                           and type(source_zi.get('end')) is int and isinstance(name.get('quote'), str)
+                           and 0 <= source_zi['start'] < source_zi['end'] <= len(name['quote'])
+                           and name['quote'][source_zi['start']:source_zi['end']] == s == '字曰' + zi
+                           and source_zi.get('human_reviewed') is False)
     called_by_zi = False
     if basis is not None:
         required = {'kind', 'status', 'human_reviewed', 'rationale', 'subject_anchor', 'marker_anchor'}
@@ -174,7 +184,7 @@ def validate_courtesy_name(name):
             raise ValueError('稱字記載須連到傳首人物及故稱字原詞，不能據顯示名猜字')
     if (not isinstance(zi, str) or not zi.strip() or zi != zi.strip()
             or name.get('ming') == zi
-            or not (called_by_zi or any(isinstance(q, str) and '字' + zi in q for q in quotes))):
+            or not (called_by_zi or source_zi_valid or any(isinstance(q, str) and '字' + zi in q for q in quotes))):
         raise ValueError('字須有明示字名的引句且不得冒作名')
 
 

@@ -369,9 +369,24 @@ def context(root,ch=None,check_sidecars=True):
  if _yixin_module().has_phase(actual):return _phase2_context(root,ch,check_sidecars)
  return _phase1_context(root,ch,check_sidecars)
 def applies(a):
- return (isinstance(a,dict)and str(a.get('id','')).startswith('a-song051-yixin-'))or _phase1_applies(a)
+ return (isinstance(a,dict) and (str(a.get('id','')).startswith('a-song051-yixin-')
+         or a.get('qualifiers',{}).get('source_unit_binding',{}).get('kind')=='fixed_wyd_song051_p014_p017_family_batch')) or _phase1_applies(a)
 def family_valid(a,paragraphs,chapters,root):
- if isinstance(a,dict)and str(a.get('id','')).startswith('a-song051-yixin-'):return _yixin_module().family_valid(a,paragraphs,chapters,root)
+ if isinstance(a,dict) and (str(a.get('id','')).startswith('a-song051-yixin-') or a.get('qualifiers',{}).get('source_unit_binding',{}).get('kind')=='fixed_wyd_song051_p014_p017_family_batch'):
+  return _yixin_module().family_valid(a,paragraphs,chapters,root)
+ if isinstance(a,dict) and str(a.get('id','')).startswith('a-song051-phase1-'):
+  try:
+   ch,roles,c,facts,ns=context(root);expected=[*facts['assertions'],*intro_facts(c,roles)['assertions']]
+   if not any(same(a,x) for x in expected):return False
+   # Validate the caller's current chapter and paragraph catalog before
+   # projecting this historical phase's source-only view.  Otherwise a caller
+   # can pass a stale pre-batch chapter and still satisfy the quote substring.
+   paragraphs,chapters=_yixin_module().previous_frames(root,paragraphs,chapters)
+   for e in a['evidence']:
+    owner=ch if e['chapter_id']==CID else intro_chapter(c,roles);p=next(p for p in owner['paragraphs']if p['id']==e['paragraph_id'])
+    if e['quote'] not in p['text']:return False
+   return True
+  except (ValueError,KeyError,TypeError,OSError,StopIteration,AttributeError):return False
  try:
   actual=json.loads((Path(root)/CH).read_bytes())
   if _yixin_module().has_phase(actual)and CID in chapters:paragraphs,chapters=_yixin_module().previous_frames(root,paragraphs,chapters)

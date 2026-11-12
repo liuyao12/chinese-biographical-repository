@@ -463,7 +463,7 @@
 
 </details>
 
-<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（34 名）</summary>
+<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（37 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -493,7 +493,10 @@
 | `AABD` | 劉義宗 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABD.json) |
 | `AABDA` | 劉玠 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDA.json) |
 | `AABDB` | 劉秉 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDB.json) |
+| `AABDBA` | 劉承 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDBA.json) |
 | `AABDBB` | 劉俁 | [《梁書・謝朏 弟子覽》][63]、[《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDBB.json) |
+| `AABDC` | 劉謨 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDC.json) |
+| `AABDD` | 劉遐 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDD.json) |
 | `AABE` | 義賓 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABE.json) |
 | `AABEA` | 劉綜 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEA.json) |
 | `AABEAA` | 劉憲 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEAA.json) |
@@ -1801,7 +1804,7 @@
 | `AAAAAAAG` | 尋陽公主 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47] | [JSON](dkn_ge4_286_AAAAAAAG.json) |
 | `AAAAAAB` | 司馬渾 | [《晉書・宣五王 文六王》][29]、[《晉書・武十三王 元四王 簡文三子》][39] | [JSON](dkn_ge4_286_AAAAAAB.json) |
 | `AAAAAB` | 司馬澹 | [《晉書・宣五王 文六王》][29] | [JSON](dkn_ge4_286_AAAAAB.json) |
-| `AAAAAC` | 司馬繇 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](dkn_ge4_286_AAAAAC.json) |
+| `AAAAAC` | 司馬繇 | [《晉書・山濤 王戎 郭舒 樂廣》][32] | [JSON](dkn_ge4_286_AAAAAC.json) |
 | `AAAAAD` | 司馬漼 | [《晉書・宣五王 文六王》][29] | [JSON](dkn_ge4_286_AAAAAD.json) |
 | `AAAAB` | 司馬幹 | [《晉書・王沈 荀顗 荀勖 馮紞》][30] | [JSON](dkn_ge4_286_AAAAB.json) |
 | `AAAAC` | 司馬亮 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][37] | [JSON](dkn_ge4_286_AAAAC.json) |
@@ -2858,7 +2861,7 @@
 
 </details>
 
-<details><summary><code>ph1_ms8_hyq</code> 亮〔孝懿蕭后祖；字保祚〕（5 名）</summary>
+<details><summary><code>ph1_ms8_hyq</code> 亮〔孝懿蕭后祖；字保祚〕（6 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2867,6 +2870,7 @@
 | `AA` | 蕭文夀〔孝懿皇后〕 | [《宋書・后妃》][204] | [JSON](ph1_ms8_hyq_AA.json) |
 | `AB` | 源之〔蕭卓子〕 | [《宋書・后妃》][204] | [JSON](ph1_ms8_hyq_AB.json) |
 | `ABA` | 蕭思話 | [《南齊書・王僧虔 張緒》][67] | [JSON](ph1_ms8_hyq_ABA.json) |
+| `ABAA` | 蕭氏〔秉妻〕 | [《宋書・宗室》][212] | [JSON](ph1_ms8_hyq_ABAA.json) |
 
 </details>
 
@@ -4171,6 +4175,7 @@
 [29]: https://zh.wikisource.org/w/index.php?oldid=2444513
 [30]: https://zh.wikisource.org/w/index.php?title=晉書/卷039&oldid=2108782
 [31]: https://zh.wikisource.org/w/index.php?title=晉書/卷042&oldid=2180524
+[32]: https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531
 [33]: https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531
 [35]: https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517
 [37]: https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517
