@@ -1,8 +1,19 @@
 # coding: utf-8
 import hashlib,json,unittest
 from pathlib import Path
+from scripts.lexical_annotations import non_person_errors
 ROOT=Path(__file__).resolve().parents[1]
 class LangyeKingReference(unittest.TestCase):
+ def test_office_title_is_not_a_person_name(self):
+  c=json.loads((ROOT/'corpus/nanshi/020-xiehongwei.json').read_text());m=next(m for p in c['paragraphs']for m in p['mentions']if m['id']=='c-nanshi-020-xiehongwei:p001:m0016')
+  self.assertEqual((m['surface'],m['kind'],m['person_id'],m['lexical_role']),('僕射','non_person',None,'office_title_component'))
+  paragraph=next(p for p in c['paragraphs']if p['id']=='c-nanshi-020-xiehongwei:p001')
+  self.assertEqual(non_person_errors(m,paragraph['text']),[])
+  p=next(p for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']if p['id']=='684_eaa_511')
+  self.assertFalse(any('c-nanshi-020-xiehongwei:p001:m0016'in a['mention_ids']for a in p['aliases']))
+  self.assertFalse(any(e.get('mention_id')=='c-nanshi-020-xiehongwei:p001:m0016'for e in p['evidence']))
+  self.assertIn('<seg id="c-nanshi-020-xiehongwei:p001:m0016" type="non-person" subtype="office_title_component">僕射</seg>',(ROOT/'corpus/nanshi/020-xiehongwei.xml').read_text())
+
  def test_title_is_not_the_wang_surname(self):
   c=json.loads((ROOT/'corpus/nanshi/020-xiehongwei.json').read_text());ms=[m for p in c['paragraphs']for m in p['mentions']];m=next(m for m in ms if m['id']=='c-nanshi-020-xiehongwei:p005:m0029')
   self.assertEqual((m['surface'],m['person_id']),('琅邪王','ije_ngm_cmj'))
