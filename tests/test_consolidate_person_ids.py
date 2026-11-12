@@ -38,6 +38,7 @@ class ConsolidationReferenceTests(unittest.TestCase):
             root = Path(tmp)
             files = ['registry/persons.json', 'corpus/book/chapter.json',
                      'data/historical-tables/table.json',
+                     'data/research/pending.json',
                      'data/corpus/profile-names.json',
                      'data/corpus/persons/stale.json']
             for name in files:
@@ -50,6 +51,18 @@ class ConsolidationReferenceTests(unittest.TestCase):
     def test_child_id_is_not_changed_by_parent_substring(self):
         child = self.old + 'A'
         self.assertEqual(rewrite({'person_id': child}, self.mapping)['person_id'], child)
+
+    def test_opaque_identifiers_and_prose_are_not_rewritten(self):
+        data = {
+            'id': 'title-holding-' + self.old,
+            'assertion_id': 'assertion-' + self.old,
+            'note': 'Historical note mentions ' + self.old,
+        }
+        self.assertEqual(rewrite(data, self.mapping), data)
+
+    def test_related_person_keys_are_rewritten_and_canonical_label_wins(self):
+        data = {'related_people': {self.old: '舊標籤', self.new: '現行標籤'}}
+        self.assertEqual(rewrite(data, self.mapping), {'related_people': {self.new: '現行標籤'}})
 
     def test_unrelated_consolidation_preserves_unknown_narrator_possibility(self):
         from unittest.mock import patch

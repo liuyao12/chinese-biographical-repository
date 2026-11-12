@@ -19,7 +19,7 @@ class ParallelAristocraticFamilies(unittest.TestCase):
         for start, expected in [
             ('a8f_ec8_e74_AAAAABA', ['王綏','王愉','王坦之','王述','王承','王湛','王昶','王澤']),
             ('aa6_83c_juy_CDAA', ['謝靈運','謝瑍','謝玄','謝奕','謝裒']),
-            ('4qr_wrk_3vd_DDBA', ['庾登之','庾廓（宋書原稱）','庾蘊','庾冰','庾琛'])]:
+            ('4qr_wrk_3vd_DDBA', ['庾登之','庾廓（《晉書》作廓之）','庾蘊','庾冰','庾琛'])]:
             names=[];seen=set();pid=start
             while pid:
                 self.assertNotIn(pid, seen);seen.add(pid)
@@ -66,7 +66,7 @@ class ParallelAristocraticFamilies(unittest.TestCase):
             exported = read('exports/persons/' + pid + '.json')
             self.assertEqual(exported['canonical_person_id'], pid)
             self.assertIn(decision['id'], {d['id'] for d in exported['identity_decisions']})
-            mentions = {m['id'] for m in exported['mentions']}
+            mentions = {m['id'] for m in exported['mentions'] + exported.get('pronoun_references', [])}
             self.assertTrue(set(decision['identification_basis']['target_mention_ids']).issubset(mentions))
             self.assertGreaterEqual(len(decision['evidence']), 2)
             for evidence in decision['evidence']:

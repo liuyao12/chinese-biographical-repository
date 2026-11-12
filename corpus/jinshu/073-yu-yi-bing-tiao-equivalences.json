@@ -1,0 +1,44 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_equivalence_set",
+  "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+  "decisions": [
+    {
+      "id": "eq-yu073-kuo-cross-source-001",
+      "person_ids": [
+        "4qr_wrk_3vd_DDB"
+      ],
+      "canonical_person_id": "4qr_wrk_3vd_DDB",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-jinshu-073-yu-yi-bing-tiao",
+        "c-songshu-053-yu-dengzhi"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line115",
+          "quote": "友子叔宣，右衛將軍。蘊子廓之，東陽太守。",
+          "mention_ids": [
+            "c-jinshu-073-yu-yi-bing-tiao:line115:m0012"
+          ]
+        },
+        {
+          "chapter_id": "c-songshu-053-yu-dengzhi",
+          "source_id": "s-songshu-053-yu-dengzhi",
+          "paragraph_id": "c-songshu-053-yu-dengzhi:line043",
+          "quote": "庾登之字元龍，潁川𨻳陵人也。曾祖冰，晉司空。祖蘊，廣州刺史。父廓，東陽太守。",
+          "mention_ids": [
+            "c-songshu-053-yu-dengzhi:line043:m0031"
+          ]
+        }
+      ],
+      "rationale": "跨史書父系與職稱相合；《晉書》稱「蘊子廓之」，《宋書》載庾登之「祖蘊、父廓」，且兩處均為東陽太守。只作來源人物同指首選，不把《宋書》未獨立核實的數位校注作證；原文用字、人物提及 MID 與官職證據分別保留。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "identity_materialized": true
+    }
+  ]
+}

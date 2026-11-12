@@ -2,7 +2,6 @@
 import argparse
 import copy
 import json
-import re
 import shutil
 import tempfile
 from pathlib import Path
@@ -110,18 +109,36 @@ def plan(root=ROOT):
     return merged, mapping
 
 
-def rewrite(value, mapping, key='', pattern=None):
-    if pattern is None:
-        pattern = re.compile(r'(?<![\w*])(?:' + '|'.join(re.escape(pid) for pid in sorted(mapping, key=len, reverse=True)) + r')(?![\w*])') if mapping else None
+PERSON_REFERENCE_KEYS = {
+    'person_id', 'person_ids', 'candidate_person_ids', 'canonical_person_id',
+    'representative_source_person_id', 'source_person_ids', 'root_person_ids',
+}
+SOURCE_TEXT_KEYS = {'text', 'quote', 'original_quote'}
+
+
+def rewrite(value, mapping, key='', parent_key=''):
+    """Rewrite typed person endpoints, never opaque record IDs or prose.
+
+    Person IDs sometimes occur inside unrelated stable IDs (for example title
+    holding IDs). Rewriting arbitrary matching substrings silently changes
+    those IDs, so only schema fields that carry person endpoints are migrated.
+    """
     if isinstance(value, dict):
         out = {}
         for k, v in value.items():
-            target = mapping.get(k, k)
-            rewritten = rewrite(v, mapping, k, pattern)
+            target = mapping.get(k, k) if key in {'related_people', 'person_index', 'people_by_id'} else k
+            rewritten = rewrite(v, mapping, k, parent_key=key)
             if target in out:
-                if not isinstance(out[target], list) or not isinstance(rewritten, list):
+                if isinstance(out[target], list) and isinstance(rewritten, list):
+                    out[target] = unique(out[target] + rewritten)
+                elif key == 'related_people' and k not in mapping:
+                    # The canonical endpoint's current label wins over the
+                    # retired endpoint's label after the keys converge.
+                    out[target] = rewritten
+                elif key == 'related_people' and k in mapping:
+                    pass
+                else:
                     raise ValueError('Mapped dictionary keys collide')
-                out[target] = unique(out[target] + rewritten)
             else:
                 out[target] = rewritten
         if out.get('record_type') == 'person_equivalence_set':
@@ -130,17 +147,14 @@ def rewrite(value, mapping, key='', pattern=None):
                     decision['identity_materialized'] = True
         return out
     if isinstance(value, list):
-        out = [rewrite(v, mapping, key, pattern) for v in value]
-        return unique(out) if (key == 'person_ids' or key.endswith('_person_ids')) and all(isinstance(x, str) for x in out) else out
+        out = [mapping.get(v, v) if (key in PERSON_REFERENCE_KEYS or key.endswith('_person_ids')) and isinstance(v, str)
+               else rewrite(v, mapping, key, parent_key=parent_key) for v in value]
+        return unique(out) if (key in PERSON_REFERENCE_KEYS or key.endswith('_person_ids')) and all(isinstance(x, str) for x in out) else out
     if isinstance(value, str):
-        if value in mapping:
-            if key in {'text', 'quote', 'original_quote'}:
-                raise ValueError('Source text must remain unchanged')
+        if key in SOURCE_TEXT_KEYS and any(pid in value for pid in mapping):
+            raise ValueError('Source text must remain unchanged')
+        if (key in PERSON_REFERENCE_KEYS or key.endswith('_person_id')) and value in mapping:
             return mapping[value]
-        if pattern and pattern.search(value):
-            if key in {'text', 'quote', 'original_quote'}:
-                raise ValueError('Source text must remain unchanged')
-            return pattern.sub(lambda m: mapping[m.group()], value)
     return value
 
 
@@ -149,6 +163,7 @@ def reference_files(root):
     paths = list((root / 'registry').glob('*.json'))
     paths += list((root / 'corpus').glob('*/*.json'))
     paths += list((root / 'data/historical-tables').glob('*.json'))
+    paths += list((root / 'data/research').glob('*.json'))
     names = root / 'data/corpus/profile-names.json'
     if names.exists():
         paths.append(names)
@@ -159,13 +174,19 @@ def stage(root, destination):
     people, mapping = plan(root)
     _, records = load_catalog(root)
     decisions = [d for r in records if r.get('record_type') == 'person_equivalence_set' for d in r['decisions']]
-    for directory in ('registry', 'corpus'):
-        shutil.copytree(root / directory, destination / directory)
-    # Preserve retirement reservations in the staged validation root.
-    for receipt in (root / 'source-evidence').glob('*/annotation-chain.json'):
-        target = destination / receipt.relative_to(root)
-        target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(receipt, target)
+    for directory in ('registry', 'corpus', 'data'):
+        source = root / directory
+        if source.exists():
+            shutil.copytree(source, destination / directory)
+        else:
+            (destination / directory).mkdir(parents=True)
+    # Validators consult source captures and helper scripts beyond the
+    # editable layers. Copy these into the temporary root so path-bound source
+    # contracts remain inside the validation snapshot.
+    for directory in ('source-evidence', 'sources', 'scripts'):
+        source = root / directory
+        if source.exists():
+            shutil.copytree(source, destination / directory)
     for original in reference_files(root):
         path = destination / original.relative_to(root)
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -209,11 +230,14 @@ def main():
         errors = validate(destination)
         report = {'rewritten_ids': len(mapping), 'validation_errors': errors, 'applied': False}
         if args.apply and not errors:
-            for path in destination.rglob('*'):
-                if path.is_file():
-                    target = args.root / path.relative_to(destination)
-                    target.parent.mkdir(parents=True, exist_ok=True)
-                    shutil.copyfile(path, target)
+            apply_paths = {p for folder in ('registry', 'corpus')
+                           for p in (destination / folder).rglob('*') if p.is_file()}
+            apply_paths.update(destination / original.relative_to(args.root)
+                               for original in reference_files(args.root))
+            for path in sorted(apply_paths):
+                target = args.root / path.relative_to(destination)
+                target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(path, target)
             report['applied'] = True
         print(json.dumps(report, ensure_ascii=False, indent=2))
         if errors:

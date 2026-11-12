@@ -442,17 +442,6 @@
 
 </details>
 
-<details><summary><code>3c9_d1d_870</code> 王謐（4 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 王謐 | [《晉書・王導》][40] | [JSON](3c9_d1d_870.json) |
-| `A` | 王瓘 | [《晉書・王導》][40] | [JSON](3c9_d1d_870_A.json) |
-| `B` | 王球 | [《南史・謝弘微》][72] | [JSON](3c9_d1d_870_B.json) |
-| `C` | 王琇 | [《晉書・王導》][40] | [JSON](3c9_d1d_870_C.json) |
-
-</details>
-
 <details><summary><code>3ea_uzt_2n2</code> 何准（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -600,7 +589,7 @@
 
 </details>
 
-<details><summary><code>4qr_wrk_3vd</code> 庾琛（32 名）</summary>
+<details><summary><code>4qr_wrk_3vd</code> 庾琛（31 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -624,8 +613,7 @@
 | `DC` | 庾友 | [《晉書・庾亮》][42] | [JSON](4qr_wrk_3vd_DC.json) |
 | `DCA` | 庾叔宣 | [《晉書・庾亮》][42] | [JSON](4qr_wrk_3vd_DCA.json) |
 | `DD` | 庾蘊 | [《晉書・庾亮》][42] | [JSON](4qr_wrk_3vd_DD.json) |
-| `DDA` | 庾廓之 | [《晉書・庾亮》][42] | [JSON](4qr_wrk_3vd_DDA.json) |
-| `DDB` | 庾廓（宋書原稱） | [《宋書・張茂度 庾登之 謝方明 江夷》][214] | [JSON](4qr_wrk_3vd_DDB.json) |
+| `DDB` | 庾廓（《晉書》作廓之） | [《晉書・庾亮》][42]、[《宋書・張茂度 庾登之 謝方明 江夷》][214] | [JSON](4qr_wrk_3vd_DDB.json) |
 | `DDBA` | 庾登之 | [《宋書・張茂度 庾登之 謝方明 江夷》][214] | [JSON](4qr_wrk_3vd_DDBA.json) |
 | `DDBAA` | 庾沖遠 | [《宋書・張茂度 庾登之 謝方明 江夷》][214] | [JSON](4qr_wrk_3vd_DDBAA.json) |
 | `DDBB` | 庾炳之 | [《宋書・張茂度 庾登之 謝方明 江夷》][214] | [JSON](4qr_wrk_3vd_DDBB.json) |
@@ -1027,7 +1015,7 @@
 
 </details>
 
-<details><summary><code>7r6_k52_qji</code> 王仁（102 名）</summary>
+<details><summary><code>7r6_k52_qji</code> 王仁（106 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -1080,6 +1068,10 @@
 | `ABAACAAA` | 王恢（王嘏子） | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAACAAA.json) |
 | `ABAAD` | 王協 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAD.json) |
 | `ABAAE` | 王邵 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAE.json) |
+| `ABAAEA` | 王謐 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAEA.json) |
+| `ABAAEAA` | 王瓘 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAEAA.json) |
+| `ABAAEAB` | 王球 | [《南史・謝弘微》][72] | [JSON](7r6_k52_qji_ABAAEAB.json) |
+| `ABAAEAC` | 王琇 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAEAC.json) |
 | `ABAAED` | 王穆（王劭子） | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAED.json) |
 | `ABAAEDA` | 王簡 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAEDA.json) |
 | `ABAAEDB` | 王智 | [《晉書・王導》][40] | [JSON](7r6_k52_qji_ABAAEDB.json) |

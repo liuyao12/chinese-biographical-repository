@@ -441,7 +441,7 @@ class PersonBundleTests(unittest.TestCase):
         result = bundle(person['id'], catalog=catalog)
         path = result['family_paths'][0]
         self.assertIn('*', person['id'])
-        self.assertIsNone(path['parent_person_id'])
+        self.assertNotIn('parent_person_id', path)
         self.assertEqual(path['intermediate_person_ids'], [None])
         self.assertNotIn(person['id'][:-1], catalog[0])
         self.assertTrue(any(a['predicate'] == 'grandfather' and a['object_person_id'] == path['ancestor_person_id']

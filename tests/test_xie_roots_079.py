@@ -87,7 +87,8 @@ class XieRoots079(unittest.TestCase):
         uncles = [a for a in self.rels if a['predicate'] == 'maternal_uncle']
         self.assertEqual({(a['subject_person_id'], a['object_person_id']) for a in uncles},
                          {(self.people['謝絢'], self.people['袁湛']),
-                          (self.people['謝重'], self.people['謝重之舅（未名）'])})
+                          (self.people['謝重'], self.people['謝重之舅（未名）']),
+                          (self.people['羊曇'], self.people['謝安'])})
         for a in uncles:
             self.assertTrue(explicit_maternal_uncle_valid(a, self.paragraphs))
             bad = copy.deepcopy(a)
@@ -97,6 +98,32 @@ class XieRoots079(unittest.TestCase):
         mentions = [m for m in p['mentions'] if m['surface'] == '舅']
         self.assertEqual(len(mentions), 2)
         self.assertEqual({m['person_id'] for m in mentions}, {self.people['謝重之舅（未名）']})
+
+    def test_yangtan_nephew_is_source_attested_without_joining_xie_paternal_tree(self):
+        relation = self.assertions['a-jin079-phase6-yangtan-nephew']
+        self.assertEqual((relation['subject_person_id'], relation['predicate'], relation['object_person_id']),
+                         (self.people['羊曇'], 'maternal_uncle', self.people['謝安']))
+        self.assertEqual(relation['qualifiers'], {
+            'source_term': '甥', 'lineage': 'maternal',
+            'generation_difference': -1, 'mother_person_id': None
+        })
+        evidence = relation['evidence'][0]
+        self.assertEqual(evidence['subject_person_mention_id'],
+                         'c-jinshu-079-xielang-family:phase6-line041:m0170')
+        self.assertEqual(evidence['object_person_mention_id'],
+                         'c-jinshu-079-xielang-family:phase6-line041:m0165')
+        self.assertIn('安顧謂其甥羊曇曰', evidence['quote'])
+        self.assertTrue(explicit_maternal_uncle_valid(relation, self.paragraphs))
+        self.assertNotIn(self.people['羊曇'], self.rows)
+
+        for mutate in (
+            lambda a: a['qualifiers'].update(source_term='外甥'),
+            lambda a: a['evidence'][0].update(subject_person_mention_id='c-jinshu-079-xielang-family:phase6-line041:m0025'),
+            lambda a: a.update(object_person_id=self.people['王胡之']),
+        ):
+            bad = copy.deepcopy(relation)
+            mutate(bad)
+            self.assertFalse(explicit_maternal_uncle_valid(bad, self.paragraphs))
 
     def test_complete_name_huzhi_is_not_misparsed_as_possessive(self):
         p = next(p for p in self.c['paragraphs'] if p['id'] == 'c-jinshu-079-xielang-family:p005')

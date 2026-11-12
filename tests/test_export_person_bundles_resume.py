@@ -289,8 +289,10 @@ class ExportPersonBundlesResumeTests(unittest.TestCase):
         exporter.export(root=self.root, refresh_person_ids=refresh_file)
 
         representative = json.loads((destination / 'aaa_aaa_aaa.json').read_text())
+        member = json.loads((destination / 'bbb_bbb_bbb.json').read_text())
         family = json.loads((destination / 'family_aaa.json').read_text())
         self.assertEqual(representative['passages'][0]['mentions'][1]['person_id'], 'bbb_bbb_bbb')
+        self.assertEqual(member['passages'][0]['mentions'][1]['person_id'], 'bbb_bbb_bbb')
         self.assertEqual(family['passages'][0]['mentions'][1]['person_id'], 'bbb_bbb_bbb')
 
     def test_selective_refresh_uses_current_text_when_changed_passage_leaves_selected_bundle(self):

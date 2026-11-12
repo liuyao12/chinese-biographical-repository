@@ -1240,7 +1240,7 @@
 | `67d_hkx_fvu` | 越女（楚惠王章母） | [《史記・楚世家》][109] | [JSON](67d_hkx_fvu.json) |
 | `683_4nz_vds` | 孫述〔吳將〕 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](683_4nz_vds.json) |
 | `684_cfe_9c7` | 袁翻 | [《魏書・刁雍 王慧龍 韓延之 袁式》][233] | [JSON](684_cfe_9c7.json) |
-| `684_eaa_511` | 謝景仁 | [《南史・謝弘微》][72] | [JSON](684_eaa_511.json) |
+| `684_eaa_511` | 謝景仁 | [《南史・謝弘微》][72]、[《宋書・張茂度 庾登之 謝方明 江夷》][213] | [JSON](684_eaa_511.json) |
 | `68y_cvr_pg1` | 呂媭 | [《史記・呂后本紀》][96] | [JSON](68y_cvr_pg1.json) |
 | `691_4u8_7bw` | 巴姬（楚共王埋璧者） | [《史記・楚世家》][109] | [JSON](691_4u8_7bw.json) |
 | `691_d02_2be` | 丁儀 | [《三國志・任城陳蕭王傳》][82] | [JSON](691_d02_2be.json) |
@@ -2092,7 +2092,6 @@
 | `af1_11d_057` | 宗慤 | [《宋書・謝莊 王景文》][228] | [JSON](af1_11d_057.json) |
 | `af6_mhg_pyn` | 呂種 | [《史記・呂后本紀》][96]、[《史記・惠景間侯者年表》][249] | [JSON](af6_mhg_pyn.json) |
 | `af7_a2c_011` | 韓晃 | [《晉書・叛臣三》][62] | [JSON](af7_a2c_011.json) |
-| `afb_ahe_sqp` | 趙堯 | [《史記・張丞相列傳》][165] | [JSON](afb_ahe_sqp.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
