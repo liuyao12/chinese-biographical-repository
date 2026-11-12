@@ -2,6 +2,7 @@
 from pathlib import Path
 import argparse
 import json
+from functools import lru_cache
 
 try:
     from .person_bundle import load_catalog
@@ -9,6 +10,8 @@ except ImportError:
     from person_bundle import load_catalog
 
 PATH = 'registry/family-collections.json'
+PUBLIC_PATH = 'data/corpus/family-collections.json'
+INDEX_PATH = 'data/corpus/family-collection-index.json'
 
 
 def _record_indexes(records):
@@ -157,10 +160,68 @@ def collection_person_ids(data, root, collection_id):
     return ids
 
 
+@lru_cache(maxsize=8)
+def _loaded(root_text):
+    root = Path(root_text)
+    if not (root / PATH).exists() or not (root / 'registry/family-assemblies.json').exists():
+        return {'schema_version': 1, 'record_type': 'rootless_family_collections',
+                'human_reviewed': False, 'collections': []}, {}
+    data = json.loads((root / PATH).read_text(encoding='utf-8'))
+    assemblies_doc = json.loads((root / 'registry/family-assemblies.json').read_text(encoding='utf-8'))
+    assemblies = {a['id']: a for a in assemblies_doc['assemblies']}
+    memberships = {}
+    for collection in data['collections']:
+        ids = {m['person_id'] for m in collection['standalone_members']}
+        for branch in collection['branches']:
+            assembly = assemblies[branch['assembly_id']]
+            for member in assembly['members']:
+                ids.add(member['person_id'])
+                ids.update(member['source_person_ids'])
+        memberships[collection['id']] = ids
+    return data, memberships
+
+
+def collections_for_person(person_ids, root):
+    """Return rootless collection context for a person without adding parent edges."""
+    data, memberships = _loaded(str(Path(root).resolve()))
+    person_ids = set(person_ids)
+    result = []
+    for collection in data['collections']:
+        members = memberships[collection['id']]
+        if person_ids.intersection(members):
+            result.append(dict(collection, person_ids=sorted(members)))
+    return result
+
+
+def write_public_index(root):
+    """Publish the registry and a reverse person-to-collection lookup for static/API clients."""
+    root = Path(root)
+    data, memberships = _loaded(str(root.resolve()))
+    validate(data, root)
+    public = root / PUBLIC_PATH
+    index = root / INDEX_PATH
+    public.parent.mkdir(parents=True, exist_ok=True)
+    public.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    by_person = {}
+    rows = []
+    for collection in data['collections']:
+        ids = sorted(memberships[collection['id']])
+        rows.append({'collection_id': collection['id'], 'label': collection['label'],
+                     'status': collection['status'], 'person_ids': ids})
+        for pid in ids:
+            by_person.setdefault(pid, []).append(collection['id'])
+    payload = {'schema_version': 1, 'record_type': 'family_collection_index',
+               'source_path': PUBLIC_PATH, 'runtime_ai_required': False,
+               'collections': rows, 'by_person_id': by_person}
+    index.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    return public, index
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[1])
     args = parser.parse_args()
     data = json.loads((args.root / PATH).read_text(encoding='utf-8'))
     validate(data, args.root)
+    write_public_index(args.root)
     print('家族集合：', len(data['collections']), '筆')

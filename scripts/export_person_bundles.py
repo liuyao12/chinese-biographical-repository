@@ -65,6 +65,12 @@ def export(root=ROOT):
     except ImportError:
         from calendar_wiring import export_calendar_contexts
     export_calendar_contexts(root)
+    try:
+        from .family_collections import write_public_index
+    except ImportError:
+        from family_collections import write_public_index
+    if (root / 'registry/family-collections.json').exists():
+        write_public_index(root)
     catalog = load_catalog(root)
     destination = root / 'exports/persons'
     destination.mkdir(parents=True, exist_ok=True)

@@ -4,7 +4,8 @@ import json
 from pathlib import Path
 import unittest
 
-from scripts.family_collections import validate, collection_person_ids
+from scripts.family_collections import validate, collection_person_ids, write_public_index
+from scripts.person_bundle import bundle
 from scripts.validate_corpus import family_collection_errors
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -69,6 +70,21 @@ class FamilyCollectionTests(unittest.TestCase):
         data['schema_version'] = True
         with self.assertRaises(AssertionError):
             validate(data, ROOT)
+
+    def test_public_index_and_each_person_bundle_expose_rootless_collection(self):
+        write_public_index(ROOT)
+        index = json.loads((ROOT / 'data/corpus/family-collection-index.json').read_text())
+        self.assertEqual(index['record_type'], 'family_collection_index')
+        for pid in ('7r6_k52_qji_ABAA', '39o_b6y_n74'):
+            self.assertIn(COLLECTION_ID, index['by_person_id'][pid])
+            person = bundle(pid, root=ROOT, include_provisional=True)
+            group = next(c for c in person['family_collections'] if c['id'] == COLLECTION_ID)
+            self.assertIn(pid, group['person_ids'])
+            self.assertFalse(group['relationships'][0]['parent_edge'])
+            self.assertEqual(group['relationships'][0]['assertion_id'], 'a-jinshu065-wang-003')
+            source_relation = next(r for r in person['relations'] if r['id'] == 'a-jinshu065-wang-003')
+            self.assertEqual(source_relation['evidence'][0]['source_id'], 's-jinshu-065-wangdao-family')
+            self.assertIn('謂其從兄敦曰', source_relation['evidence'][0]['quote'])
 
 
 if __name__ == '__main__':
