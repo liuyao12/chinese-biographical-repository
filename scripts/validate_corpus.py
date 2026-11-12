@@ -157,8 +157,34 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                              (isinstance(prefix, str) and bool(prefix) and isinstance(ref, dict)
                               and isinstance(ref.get('columns'), dict)
                               and ref['columns'].get('dynasty') == prefix))
-                expression = ((prefix if isinstance(prefix, str) else '') + source_name + str(number) + '年'
-                              if isinstance(source_name, str) else None)
+                expression = (mapping.get('contextual_source_expression') or ((prefix if isinstance(prefix, str) else '') + source_name + str(number) + '年' if isinstance(source_name, str) else None))
+                contextual = mapping.get('contextual_source_expression')
+                if contextual is not None:
+                    binding = date.get('era_context_binding', {})
+                    context_evidence = binding.get('evidence', []) if isinstance(binding, dict) else []
+                    context_quotes = []
+                    for context_item in context_evidence:
+                        context_chapter = (chapters or {}).get(context_item.get('chapter_id'))
+                        context_paragraph = next((p for p in context_chapter.get('paragraphs', []) if p.get('id') == context_item.get('paragraph_id')), None) if context_chapter else None
+                        if context_paragraph and context_item.get('quote') in context_paragraph.get('text', ''):
+                            context_quotes.append((context_chapter, context_paragraph, context_item.get('quote')))
+                    prior_expression = binding.get('prior_expression') if isinstance(binding, dict) else None
+                    source_expression = binding.get('source_expression') if isinstance(binding, dict) else None
+                    prior_hits = [x for x in context_quotes if isinstance(prior_expression, str) and prior_expression in x[2]]
+                    source_hits = [x for x in context_quotes if isinstance(source_expression, str) and source_expression in x[2]]
+                    context_ok = (isinstance(binding, dict)
+                                  and binding.get('kind') == 'same_biographical_unit_era_continuation'
+                                  and binding.get('source_expression') == contextual
+                                  and bool(prior_hits) and bool(source_hits))
+                    if context_ok:
+                        prior_hit, source_hit = prior_hits[0], source_hits[-1]
+                        same_order = (prior_hit[0].get('id') == source_hit[0].get('id')
+                                      and [p['id'] for p in prior_hit[0].get('paragraphs', [])].index(prior_hit[1]['id'])
+                                      <= [p['id'] for p in source_hit[0].get('paragraphs', [])].index(source_hit[1]['id']))
+                        if prior_hit[1]['id'] == source_hit[1]['id']:
+                            same_order = (prior_hit[2].find(prior_expression) <= source_hit[2].find(source_expression))
+                        context_ok = same_order and binding.get('prior_expression') in prior_hit[2]
+                    if not context_ok: errors.append('省略年號續紀須保留前置年號與本年原詞')
                 valid = (mapping.get('kind') == 'ce_regnal_era_span' and era == 'CE'
                          and type(first) is int and type(last) is int and 0 < first <= last
                          and type(n) is int and n > 0 and n == parsed
@@ -1048,6 +1074,9 @@ def _validate_uncached(root=ROOT):
             if 'rendered_collective_award_year_binding' in date:
                 return # the exact external-source guard above validates both the date and its holding
             context_ids = {e['paragraph_id'] for e in context_evidence}
+            era_context = date.get('era_context_binding', {})
+            if isinstance(era_context, dict):
+                context_ids.update(e.get('paragraph_id') for e in era_context.get('evidence', []) if isinstance(e, dict) and e.get('paragraph_id'))
             anchored = False
             for evidence in date.get('evidence', []):
                 hit = paragraphs.get(evidence['paragraph_id'])
@@ -1463,7 +1492,7 @@ def _validate_uncached(root=ROOT):
                     service = h['service_realization']
                     check(isinstance(service, dict) and set(service) == {'status', 'source_term', 'evidence'}
                           and h['mode'] == 'grant' and service.get('status') == 'not_taken_up'
-                          and '不往' in service.get('source_term', '') and bool(service.get('evidence')),
+                          and any(term in service.get('source_term', '') for term in ('不往','不成行')) and bool(service.get('evidence')),
                           '授予未赴任須保留不往原詞與證據，不改成已實任')
                     if isinstance(service, dict):
                         for e in service.get('evidence', []):
@@ -2570,10 +2599,21 @@ def _validate_uncached(root=ROOT):
                 if 'normalized_date' in event:
                     date = event['normalized_date']; errors.extend(normalized_date_errors(date, chapters, root=root, bound_record=event, bound_role='life_event'))
                     check(binding_valid(date, event, 'life_event'), '初中末年號紀年須綁實際同人死亡事件')
-                    check(isinstance(expression, str) and bool(expression) or parallel_event_date(date), '生卒數字紀年缺原日期表述')
+                    contextual_death_year = False
+                    if isinstance(date, dict) and 'contextual_death_year_binding' in date:
+                        try:
+                            from scripts.song075_contextual_death_year import valid as song075_death_year_valid
+                        except ImportError:
+                            from song075_contextual_death_year import valid as song075_death_year_valid
+                        contextual_death_year = (record.get('chapter_id') == 'c-songshu-075-wangsengda'
+                                                 and song075_death_year_valid(event, date, chapters[record['chapter_id']]))
+                        check(contextual_death_year, '宋書075死亡年承接須分離大明二年起兵日期與直接賜死證據')
+                    check(isinstance(expression, str) and bool(expression)
+                          or parallel_event_date(date) or contextual_death_year,
+                          '生卒數字紀年缺原日期表述')
                     if isinstance(date, dict):
-                        check(local_death_date or date.get('original_quote') in [e['quote'] for e in event['evidence']], '生卒數字紀年原句不符')
-                        check(local_death_date or date.get('evidence') == event['evidence'], '生卒数值證據與事件不符'.replace('数','數'))
+                        check(local_death_date or contextual_death_year or date.get('original_quote') in [e['quote'] for e in event['evidence']], '生卒數字紀年原句不符')
+                        check(local_death_date or contextual_death_year or date.get('evidence') == event['evidence'], '生卒數值證據與事件不符')
         try:
             from scripts.life_event_dates import date_decision_errors, date_record_scope_errors
         except ImportError:
