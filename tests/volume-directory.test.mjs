@@ -27,14 +27,15 @@ test('volume navigation groups registered books by their existing category and k
   {book_id:'b-demo-002',number:2,title:'卷二',category:'列傳'},
   {book_id:'b-demo-003',number:3,title:'卷三',category:'本紀'},
   {book_id:'b-demo-004',number:4,title:'卷四',category:''},
-  {book_id:'b-demo-005',number:5,title:'卷五'}
+  {book_id:'b-demo-005',number:5,title:'卷五'},
+  {book_id:'b-demo-006',number:6,title:'卷六',category:null}
  ]}]};
  const html=volumeNavigation(volumeModel(d,'w-demo',{chapters:[]}));
  assert.equal((html.match(/<h2>/g)||[]).length,3);
  assert.ok(html.indexOf('本紀')<html.indexOf('列傳'));
  assert.ok(html.indexOf('列傳')<html.indexOf('未分類'));
  assert.ok(html.indexOf('book=b-demo-001')<html.indexOf('book=b-demo-003'));
- for(const id of ['b-demo-001','b-demo-002','b-demo-003','b-demo-004','b-demo-005'])assert.match(html,new RegExp(`book=${id}`));
+ for(const id of ['b-demo-001','b-demo-002','b-demo-003','b-demo-004','b-demo-005','b-demo-006'])assert.match(html,new RegExp(`book=${id}`));
  assert.equal((html.match(/未分類/g)||[]).length,1);
 });
 
