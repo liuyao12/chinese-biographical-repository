@@ -45,6 +45,7 @@ export default {
   'Choose a volume or imported section.':'請選擇卷篇或已收單元。',
   'Navigation directory source':'導航目錄來源',
   'Source text not yet imported':'正文尚未收錄',
+  'Uncategorized':'未分類',
   'Volume directory; not an imported source text':'卷篇目錄；不是已匯入正文',
   '{volumes} volumes · {imported} imported sections':'{volumes}卷 · 已收{imported}個單元',
   'Target volume not registered':'目標卷尚未登記',
