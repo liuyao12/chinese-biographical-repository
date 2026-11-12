@@ -16,22 +16,25 @@
       "category": "",
       "title": "宗室",
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
-      "count": 2,
-      "raw_count": 2,
+      "count": 3,
+      "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯",
       "paragraph_ids": [
         "c-songshu-051-wyd1739-zongshi:p012",
-        "c-songshu-051-wyd1739-zongshi:p014"
+        "c-songshu-051-wyd1739-zongshi:p014",
+        "c-songshu-051-wyd1739-zongshi:p017"
       ],
       "mention_ids": [
         "c-songshu-051-wyd1739-zongshi:p012:m0092",
-        "c-songshu-051-wyd1739-zongshi:p014:m0186"
+        "c-songshu-051-wyd1739-zongshi:p014:m0186",
+        "c-songshu-051-wyd1739-zongshi:p017:m0062"
       ],
       "mention_paragraph_ids": {
         "c-songshu-051-wyd1739-zongshi:p012:m0092": "c-songshu-051-wyd1739-zongshi:p012",
-        "c-songshu-051-wyd1739-zongshi:p014:m0186": "c-songshu-051-wyd1739-zongshi:p014"
+        "c-songshu-051-wyd1739-zongshi:p014:m0186": "c-songshu-051-wyd1739-zongshi:p014",
+        "c-songshu-051-wyd1739-zongshi:p017:m0062": "c-songshu-051-wyd1739-zongshi:p017"
       },
       "mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0092",
       "occurrence_groups": [
@@ -46,6 +49,13 @@
           "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p014:m0186",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p014:m0186"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0062",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p017:m0062"
           ],
           "kind": "paragraph"
         }
@@ -222,12 +232,48 @@
       ],
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song051-yixin-liuyu-father",
+      "subject_person_id": "3qs_nqa_ioa_AABDBB",
+      "predicate": "father",
+      "object_person_id": "3qs_nqa_ioa_AABDB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "秉與二子承俁並死",
+        "source_unit_binding": {
+          "kind": "fixed_wyd_song051_yixin_complete_unit",
+          "case": "liuyu-father",
+          "start": 73,
+          "end": 80,
+          "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+        },
+        "interpretation_note": "二子承、俁為秉之子；文句不定二人長幼或出生次序。人物ID枝序不表示排行。",
+        "lineage": "paternal",
+        "source_child_term": "子",
+        "source_child_sex": "male"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+          "quote": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0077",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0062"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "3qs_nqa_ioa_AABAJ": "劉述",
     "3qs_nqa_ioa_AABDA": "劉玠",
-    "3qs_nqa_ioa_AABDB": "劉秉"
+    "3qs_nqa_ioa_AABDB": "劉秉",
+    "3qs_nqa_ioa_AABDBB": "劉俁"
   },
   "dates": [],
   "name_components": [
@@ -370,6 +416,41 @@
           "quote": "弟義宗幼為高祖所愛字曰伯奴賜爵新渝縣男永初元年進爵為侯歷黃門侍郎太子左衞率元嘉八年坐門生杜德靈放横打人還第內藏義宗隱蔽之免官德靈雅有姿色為義宗所愛寵本會稽郡吏謝方明為郡方明子惠連愛幸之為之賦詩十餘首乘流遷歸渚篇是也又為侍中太子詹事加散騎常侍征虜將軍南兗州刺史二十一年卒追贈散騎常侍平北將軍諡曰惠侯愛士樂施兼好文籍世以此稱之子懷侯玠嗣琅邪秦郡太守為元凶所殺追贈散騎常侍無子弟秉以子承繼封秉字彥節初為著作郎歷羽林監越騎校尉中",
           "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p014:m0186",
           "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p014:m0164"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song051-yixin-liuyu-father",
+      "subject_person_id": "3qs_nqa_ioa_AABDBB",
+      "predicate": "father",
+      "object_person_id": "3qs_nqa_ioa_AABDB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "秉與二子承俁並死",
+        "source_unit_binding": {
+          "kind": "fixed_wyd_song051_yixin_complete_unit",
+          "case": "liuyu-father",
+          "start": 73,
+          "end": 80,
+          "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+        },
+        "interpretation_note": "二子承、俁為秉之子；文句不定二人長幼或出生次序。人物ID枝序不表示排行。",
+        "lineage": "paternal",
+        "source_child_term": "子",
+        "source_child_sex": "male"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+          "quote": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0077",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0062"
         }
       ],
       "human_reviewed": false,
