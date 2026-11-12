@@ -12,12 +12,13 @@
       "c-songshu-051-wyd1739-zongshi:p001",
       "c-songshu-051-wyd1739-zongshi:p002",
       "c-songshu-051-wyd1739-zongshi:p003",
+      "c-songshu-051-wyd1739-zongshi:p007",
       "c-songshu-051-wyd1739-zongshi:p012",
       "c-songshu-051-wyd1739-zongshi:p034",
       "c-songshu-051-wyd1739-zongshi:p047",
       "c-songshu-051-wyd1739-zongshi:p048"
     ],
-    "additional_person_mentions": 55,
+    "additional_person_mentions": 56,
     "human_reviewed": false,
     "model": null
   },
@@ -29,12 +30,13 @@
         "c-songshu-051-wyd1739-zongshi:p001",
         "c-songshu-051-wyd1739-zongshi:p002",
         "c-songshu-051-wyd1739-zongshi:p003",
+        "c-songshu-051-wyd1739-zongshi:p007",
         "c-songshu-051-wyd1739-zongshi:p012",
         "c-songshu-051-wyd1739-zongshi:p034",
         "c-songshu-051-wyd1739-zongshi:p047",
         "c-songshu-051-wyd1739-zongshi:p048"
       ],
-      "additional_person_mentions": 55
+      "additional_person_mentions": 56
     },
     "human_reviewed": false,
     "model": null
@@ -585,6 +587,20 @@
       }
     },
     {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p007",
+      "role_key": "WangZhene",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p007:m0000",
+        "start": 109,
+        "end": 111,
+        "surface": "鎮惡",
+        "kind": "person",
+        "person_id": "quq_d6y_akf",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:WangZhene"
+      }
+    },
+    {
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
       "role_key": "LiuJun",
       "marker": {
@@ -866,7 +882,7 @@
     }
   ],
   "identity_decisions_path": "corpus/songshu/051-wyd1739-entity-phase3-identities.json",
-  "identity_decisions_sha256": "4066043b33a6fac5b84b253ab92975ddd7b808735dd4f4dfd32ab4389f64d52b",
+  "identity_decisions_sha256": "158ddd0b4eb8b1e1dac6ce4f86924f268590ee6dc63696a69af3b674c9048a8e",
   "name_components_path": "corpus/songshu/051-wyd1739-entity-phase3-name-components.json",
   "name_components_sha256": "5a2835a8ca2191d1afeef056ccb8e30b9498a0caca47e33e4684463755c88137",
   "cross_chapter_references": [

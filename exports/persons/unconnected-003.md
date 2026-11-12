@@ -686,7 +686,7 @@
 | `qug_x6h_3tb` | 卞莊子 | [《史記・張儀列傳》][139] | [JSON](qug_x6h_3tb.json) |
 | `quo_167_x2v` | 田嬰 | [《史記・孟嘗君列傳》][144] | [JSON](quo_167_x2v.json) |
 | `quo_wok_i8z` | 劉傭 | [《晉書・后妃下》][25] | [JSON](quo_wok_i8z.json) |
-| `quq_d6y_akf` | 王鎮惡 | [《宋書・趙倫之 王懿 張邵》][209] | [JSON](quq_d6y_akf.json) |
+| `quq_d6y_akf` | 王鎮惡 | [《宋書・趙倫之 王懿 張邵》][209]、[《宋書・宗室》][212] | [JSON](quq_d6y_akf.json) |
 | `quz_udr_mrz` | 叔逹 | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](quz_udr_mrz.json) |
 | `qvb_bff_vk4` | 繆嬴（夷皋母） | [《史記・晉世家》][108] | [JSON](qvb_bff_vk4.json) |
 | `qvb_gjo_odq` | 周宣王 | [《史記・楚世家》][109] | [JSON](qvb_gjo_odq.json) |

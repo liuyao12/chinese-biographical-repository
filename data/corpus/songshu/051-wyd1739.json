@@ -113,12 +113,13 @@
             "c-songshu-051-wyd1739-zongshi:p001",
             "c-songshu-051-wyd1739-zongshi:p002",
             "c-songshu-051-wyd1739-zongshi:p003",
+            "c-songshu-051-wyd1739-zongshi:p007",
             "c-songshu-051-wyd1739-zongshi:p012",
             "c-songshu-051-wyd1739-zongshi:p034",
             "c-songshu-051-wyd1739-zongshi:p047",
             "c-songshu-051-wyd1739-zongshi:p048"
           ],
-          "additional_person_mentions": 55
+          "additional_person_mentions": 56
         },
         "human_reviewed": false,
         "model": null
@@ -643,8 +644,19 @@
       "id": "c-songshu-051-wyd1739-zongshi:p007",
       "text": "沙景王故侍中大司馬臨川烈武王故司徒南康文宣公穆之侍中衞將軍開府儀同三司錄尚書事揚州刺史華容縣開國公弘使持節散騎常侍都督江州豫州西陽新蔡晉熙四郡軍事征南大將軍開府儀同三司江州刺史永修縣開國公道濟故將軍青州刺史龍陽縣開國侯鎮惡或履道廣流秉德沖邈或雅量高邵風鑒明遠或識唯知正才略開邁咸文德以熙帝載武功以隆景業固以侔蹤姬旦方軌伊邵者矣朕以寡德纂戎鴻緒每惟遺勳思遵令典而太常未銘從祀尚闕鑒寐欽屬永言深懷便宜敬是前式憲茲嘉禮勒功天府",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p007:m0000",
+          "start": 109,
+          "end": 111,
+          "surface": "鎮惡",
+          "kind": "person",
+          "person_id": "quq_d6y_akf",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:WangZhene"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
