@@ -12,9 +12,9 @@ class SourceNER(unittest.TestCase):
   self.assertTrue({'e03_b20_30c','9w8_tqh_ysn_A','9w8_tqh_ysn_AA'}<={r['id']for r in reg['persons']})
  def test_received_words_preserved(self):
   self.assertEqual(PS[CP+':p001']['text'][905:906],'布');self.assertEqual(PS[CP+':p003']['text'][84:85],'之');self.assertEqual(PS[CP+':p010']['text'][1454:1455],'己')
- def test_jun_preference_and_non_person_alternative(self):
-  m=M[CP+':p001:m1623'];self.assertEqual(m['person_id'],'9w8_tqh_ysn_AA');self.assertEqual(m['status'],'contextual_provisional')
-  d=D['structured_decisions'][0];self.assertEqual(d['preferred_person_id'],m['person_id']);self.assertEqual(d['alternatives'],[{'classification':'generic_role','generic_role':'君主','person_id':None}])
+ def test_jun_is_generic_ruler_reference_with_person_candidate(self):
+  m=M[CP+':p001:m1623'];self.assertEqual(m['kind'],'non_person');self.assertIsNone(m['person_id']);self.assertEqual(m['lexical_role'],'generic_ruler_reference')
+  d=D['structured_decisions'][0];self.assertEqual(d['preferred_classification'],'generic_role');self.assertIsNone(d['preferred_person_id']);self.assertEqual(d['generic_role'],'君主');self.assertEqual(d['alternatives'][0]['person_id'],'932_46f_026')
   for e in d['evidence']:
    p=next(p for p in C['paragraphs']if p['id']==e['paragraph_id']);self.assertEqual(p['text'][e['start']:e['end']],e['quote'])
   self.assertIn('頃之為司空',d['evidence'][0]['quote']);self.assertIn('君之職',d['evidence'][1]['quote'])
@@ -26,5 +26,7 @@ class SourceNER(unittest.TestCase):
    p=next(p for p in C['paragraphs']if p['id']==d['paragraph_id']);self.assertEqual(p['text'][d['start']:d['end']],d['surface'])
   self.assertEqual({d['paragraph_id']for d in D['dispositions']},{p['id']for p in C['paragraphs']})
  def test_audit_not_presented_as_current(self):
+  self.assertEqual(D['snapshot_status'],'historical_review_not_current_annotations')
+  self.assertIn('後續逐篇覆核',D['supersession_note'])
   r=J('source-evidence/pei-weishu-author-identity/review.json');self.assertIn('audit_before_quote_units',json.dumps(r));q=r['ner_snapshot_qualifications'];self.assertEqual(q[-1]['scope'],'reading_snapshot_not_current_annotations');self.assertEqual(q[-1]['decision_path'],'source-evidence/sanguozhi022-ner-review/review.json')
 if __name__=='__main__':unittest.main()

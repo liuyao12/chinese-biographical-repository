@@ -56,6 +56,18 @@ test('unresolved interpretation notes remain escaped and never become person lin
   assert.match(html,/title="未知敘者 &quot;&lt;script&gt;&quot; &amp; 異說"/);
   assert.doesNotMatch(html,/<script>|data-person-id|href=/);
 });
+test('resolved pronouns retain source anchors without being displayed as linked personal names', () => {
+  const html=chapterParagraph({id:'synthetic-p',text:'吾敬之',mentions:[
+    {id:'synthetic-pronoun-1',start:0,end:1,surface:'吾',kind:'pronoun',person_id:'synthetic_person'},
+    {id:'synthetic-pronoun-2',start:2,end:3,surface:'之',kind:'pronoun',person_id:'synthetic_person'}
+  ]});
+  assert.match(html,/<span id="synthetic-pronoun-1" class="cbr-pronoun"/);
+  assert.match(html,/<span id="synthetic-pronoun-2" class="cbr-pronoun"/);
+  assert.doesNotMatch(html,/unresolved-mention|data-person-id|href=/);
+  assert.equal(html.replace(/<[^>]*>/g,''),'吾敬之');
+  const css=readFileSync(new URL('../assets/corpus-reader.css',import.meta.url),'utf8');
+  assert.match(css,/.cbr-pronoun\{text-decoration:none;border:0;cursor:text\}/);
+});
 test('different works never share a source route merely because volume numbers match',()=>{
  const e={work_id:'w-hanshu',book_id:'b-hanshu-041',chapter_id:'c-hanshu-041-synthetic',paragraph_id:'synthetic-p&extra=1'};
  const url=sourcePassageURL(e),p=new URLSearchParams(url.split('#')[1]);

@@ -34,6 +34,39 @@ def source_inventory(root):
     return result
 
 
+def source_records(root):
+    """Return the body-level source descriptors keyed by witness source_id."""
+    result = {}
+    for path in sorted((root / 'corpus').glob('*/*.json')):
+        item = json.loads(path.read_text())
+        if item.get('record_type') == 'marked_chapter':
+            result.setdefault(item['source_id'], []).append(item.get('source', {}))
+    tables = root / 'data/historical-tables/index.json'
+    if tables.exists():
+        for entry in json.loads(tables.read_text())['tables']:
+            source = json.loads((root / entry['path']).read_text())['source']
+            sid = source.get('source_id') or source.get('id')
+            if sid:
+                result.setdefault(sid, []).append(source)
+    return result
+
+
+def validate_source_mapping(source_id, basis, records):
+    """Cross-check documented witness metadata against its body record(s)."""
+    assert records, f'{source_id}: documented text base has no body source record'
+    declared = basis.get('source_record', {})
+    # Chapter titles may describe different excerpts from the same source witness.
+    # Treat only stable witness identifiers as cross-record consistency keys.
+    for field in ('provider', 'edition', 'revision_id', 'permalink', 'url'):
+        values = {record.get(field) for record in records if record.get(field) not in (None, '')}
+        assert len(values) <= 1, f'{source_id}: body source {field} differs across records'
+        if values:
+            expected = next(iter(values))
+            assert declared.get(field) == expected, (
+                f'{source_id}: registry source_record.{field} does not match chapter source.{field}'
+            )
+
+
 def unknown():
     return {'status': 'not_researched', 'assertions': []}
 
@@ -135,6 +168,10 @@ def validate(data, root=None):
     if root is not None:
         assert set(data['works']) == set(inventory(root)), '作品履歷須涵蓋兩套作品登記'
         assert {sid: b['work_id'] for sid, b in data['text_bases'].items()} == source_inventory(root)
+        records = source_records(root)
+        for sid, basis in data['text_bases'].items():
+            if basis['status'] == 'documented':
+                validate_source_mapping(sid, basis, records.get(sid, []))
     if root is not None:
         try:
             from scripts.pei_work_authorities import validate as validate_pei_work_authorities

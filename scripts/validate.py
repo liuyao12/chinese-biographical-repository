@@ -3,6 +3,7 @@
 from pathlib import Path
 import hashlib
 import json
+import re
 import sys
 from urllib.parse import urlparse
 
@@ -54,6 +55,8 @@ def schema_errors(value, spec, schema, path='$'):
                 errors.extend(schema_errors(child, spec['items'], schema, f'{path}[{i}]'))
     if isinstance(value, str) and len(value) < spec.get('minLength', 0):
         errors.append(f'{path}: 不得為空')
+    if isinstance(value, str) and 'pattern' in spec and re.search(spec['pattern'], value) is None:
+        errors.append(f'{path}: 不符合格式 {spec["pattern"]}')
     return errors
 
 

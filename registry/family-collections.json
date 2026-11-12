@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "record_type": "rootless_family_collections",
+  "human_reviewed": false,
+  "collections": [
+    {
+      "id": "family-collection-langye-wang-dao-dun",
+      "label": "琅邪王氏：王導家系與未接樹的王敦旁支",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "branches": [
+        {
+          "assembly_id": "family-langye-wang-dao",
+          "entry_person_id": "7r6_k52_qji_ABAA"
+        }
+      ],
+      "standalone_members": [
+        {
+          "person_id": "39o_b6y_n74",
+          "role": "unplaced_paternal_collateral",
+          "parent_person_id": null,
+          "father_person_id": null,
+          "mother_person_id": null,
+          "common_ancestor_person_id": null
+        }
+      ],
+      "relationships": [
+        {
+          "assertion_id": "a-jinshu065-wang-003",
+          "subject_person_id": "39o_b6y_n74",
+          "object_person_id": "7r6_k52_qji_ABAA",
+          "predicate": "agnatic_cousin",
+          "source_term": "從兄敦",
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "relative_age": "older",
+          "older_person_id": "39o_b6y_n74",
+          "younger_person_id": "7r6_k52_qji_ABAA",
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "parent_edge": false
+        }
+      ],
+      "rationale": "《晉書》卷65稱王敦為王導「從兄」，可將兩者列入同一父系家族集合；來源未給出共同祖先或王敦父母，不建立祖先、父子或父母連線。王導既有家系整支仍沿用原組裝與人物 ID。"
+    }
+  ]
+}

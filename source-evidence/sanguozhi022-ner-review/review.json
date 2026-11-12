@@ -5,7 +5,14 @@
   "work_id": "w-sanguozhi",
   "chapter_id": "c-sanguozhi-022-chenqun-chentai",
   "human_reviewed": false,
-  "scope": "16完整段的現有行內人物/作品/未決標記；非全書或書影校勘",
+  "scope": "16完整段於原審閱基線的行內人物/作品/未決標記；非全書或書影校勘",
+  "snapshot_status": "historical_review_not_current_annotations",
+  "superseded_by": [
+    "corpus/sanguozhi/022-chenqun-chentai.json",
+    "corpus/sanguozhi/022-chenqun-chentai.xml",
+    "registry/persons.json"
+  ],
+  "supersession_note": "dispositions[].before/after 保留原審閱時的逐項狀態，不應當作現行標記；後續逐篇覆核已令 51 個 after 快照與現行 mention 欄位不同。structured_decisions 則是獨立判讀記錄；每項首選仍須與現行 chapter mention 相符，本檔 jun-contextual-preference 已依帝答語脈絡更新。現行標記以列出的 chapter XML/JSON 與 registry 為準；原快照不概括追認後續改動。",
   "received_text_unchanged": true,
   "dispositions": [
     {
@@ -15260,17 +15267,17 @@
     {
       "id": "jun-contextual-preference",
       "mention_id": "c-sanguozhi-022-chenqun-chentai:p001:m1623",
-      "preferred_classification": "person",
-      "preferred_person_id": "9w8_tqh_ysn_AA",
+      "preferred_classification": "generic_role",
+      "preferred_person_id": null,
       "status": "contextual_provisional",
       "alternatives": [
         {
-          "classification": "generic_role",
-          "generic_role": "君主",
-          "person_id": null
+          "classification": "person",
+          "person_id": "932_46f_026",
+          "note": "此語在帝答曰至群又曰之間，可讀作曹叡自述君主職責；原文未具名，不足以取代泛稱首選。"
         }
       ],
-      "rationale": "前文群為司空、帝答營建宮室並舉蕭何先例，君之職／蕭何之大略可作對受話司空群之語，故保群contextual首選；君亦可泛君主，結構化generic_role君主替代保未決，不能因此另指曹叡；故/固未校，原故不改。",
+      "rationale": "「是故君之職」位於「帝答曰」之後、「群又曰」之前，屬曹叡答語；句法以君主職責泛論蕭何之大略，不能解作受話人陳羣自稱。因「君」也可能在此兼指答語中的曹叡本人，保留曹叡作個人候選，但首選為泛稱君主角色。",
       "evidence": [
         {
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p001",
@@ -15284,10 +15291,11 @@
           "end": 1820,
           "quote": "青龍中營治宫室百姓失農時羣上疏曰禹承唐虞之盛猶卑宫室而惡衣服况今喪亂之後人民至少比漢文景之時不過一大郡加邊境有事將士勞苦若有水旱之患國家之深憂也且吳蜀未滅社稷不安宜及其未動講武勸農有以待之今舎此急而先宫室臣懼百姓遂困將何以應敵昔劉備自成都至白水多作傳舎興費人役太祖知其疲民也今中國勞力亦吳蜀之所願此安危之機也惟陛下慮之帝答曰王者宫室亦宜並立滅賊之後但當罷守耳豈可復興役邪是故君之職蕭何之大略也羣又曰昔漢祖唯與項羽爭天下羽已滅宫室燒焚是以蕭何建武庫太倉皆是要急然猶非其壯麗今二虜未平誠不宜與古同也夫人之所欲莫不有辭况乃天王莫之敢違前欲壞武庫謂不可不壞也後欲置之謂不可不置也若必作之固非臣下辭言所屈若少留神卓然回意亦非臣下之所及也漢明帝欲起徳陽殿鍾離意諫即用其言後乃復作之殿成謂羣臣曰鍾離尚書在不得成此殿也夫王者豈憚一臣蓋為百姓也今臣曾不能少凝聖聽不及意遠矣帝於是有所減省"
         }
-      ]
+      ],
+      "generic_role": "君主"
     }
   ],
-  "current_endpoint_scope": [
+  "reviewed_data_scope_at_snapshot": [
     "corpus/**/*.json",
     "corpus/**/*.xml",
     "registry/**/*.json"

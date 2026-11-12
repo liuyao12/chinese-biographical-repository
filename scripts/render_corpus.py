@@ -28,6 +28,8 @@ def render(chapter):
             attributes = f'id="{escape(mention["id"])}"'
             if mention['kind'] == 'person' and mention['person_id']:
                 tag = 'persName'; attributes += f' ref="{escape(mention["person_id"])}"'
+            elif mention['kind'] == 'pronoun' and mention.get('person_id'):
+                tag = 'rs'; attributes += f' type="pronoun" ref="{escape(mention["person_id"])}"'
             elif mention['kind'] == 'unresolved' and mention['person_id'] is None:
                 tag = 'rs'; attributes += ' type="unresolved"'
             elif mention['kind'] == 'non_person' and mention['person_id'] is None:

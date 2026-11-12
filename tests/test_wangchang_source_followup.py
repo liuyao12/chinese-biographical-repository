@@ -6,8 +6,8 @@ class WangSource(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
   cls.c=json.loads((R/'corpus/sanguozhi/027-wangchang.json').read_text());cls.by={m['id']:(p,m)for p in cls.c['paragraphs']for m in p['mentions']};cls.review=json.loads((R/'source-evidence/sanguozhi027-wangchang-identity-followup/identity-followup.json').read_text());cls.ids=cls.review['new_source_person_ids'];cls.catalog=load_catalog(R)
- def test_twenty_exact_name_pronoun_anchors_have_reverse_evidence(self):
-  self.assertEqual(len(self.review['decisions']),20)
+ def test_named_anchors_have_reverse_evidence(self):
+  self.assertEqual(len(self.review['decisions']),15)
   for row in self.review['decisions']:
    p,m=self.by[row['mention_id']];self.assertEqual(p['text'][row['start']:row['end']],row['surface']);self.assertEqual(m['kind'],'person');self.assertEqual(m['person_id'],row['selected_person_id']);reg=self.catalog[0][m['person_id']];self.assertTrue(any(e.get('mention_id')==m['id']for e in reg['evidence']));self.assertTrue(any(m['id']in a['mention_ids']and a['surface']==m['surface']for a in reg['aliases']))
  def test_no_new_family_title_life_or_name_component_claims(self):
@@ -27,4 +27,28 @@ class WangSource(unittest.TestCase):
   capture=json.loads((R/'source-evidence/sanguozhi027-wangchang-identity-followup/complete-source-reading.json').read_text());self.assertEqual([(p['id'],p['text'],p['text_layer'],p['source_position'])for p in self.c['paragraphs']],[(p['id'],p['text'],p['text_layer'],p['source_position'])for p in capture['paragraphs']]);self.assertEqual(len(self.c['paragraphs']),20);self.assertEqual(sum(m['kind']=='work'for p in self.c['paragraphs']for m in p['mentions']),8)
  def test_new_wei_xumiao_not_eastern_jin_and_guo_groups_distinct(self):
   self.assertNotEqual(self.ids['xumiao'],'1b7_36b_29b');self.assertNotEqual(self.ids['guoyi'],'64e_ce8_aba');ref=json.loads((R/'source-evidence/sanguozhi027-wangchang-identity-followup/parallel-reading.json').read_text());ss=next(x for x in ref['references']if x['path'].endswith('KR3l0002_002-c6c870d.txt'));reading=''.join(x['reading']for x in ss['layout_reconstruction']);self.assertIn('泰業太原陽曲人',reading);self.assertIn('剌史',reading);self.assertNotIn('大業',reading)
+ def test_pronominal_refs_are_not_names_or_aliases(self):
+  expected='''
+  unit002:m0093 unit003:m0015
+  unit005:m0005 unit005:m0020 unit005:m0033
+  unit007:m0116 unit007:m0143 unit008:m0102 unit010:m0032
+  unit011:m0035 unit011:m0067 unit011:m0096 unit011:m0122 unit011:m0127 unit011:m0129
+  unit013:m0021 unit013:m0032 unit013:m0040 unit013:m0042 unit013:m0044 unit013:m0049 unit013:m0080 unit013:m0082 unit013:m0084 unit013:m0090
+  unit015:m0029 unit015:m0031 unit015:m0033 unit015:m0038
+  unit016:m0086 unit016:m0260 unit016:m0311 unit016:m0332 unit016:m0375 unit016:m0414 unit016:m0426 unit016:m0466
+  unit017:m0083
+  '''.split()
+  ids={PREFIX+x for x in expected};self.assertEqual(len(ids),38)
+  for mid in ids:
+   m=self.by[mid][1];self.assertEqual(m['kind'],'pronoun',mid);self.assertIsInstance(m.get('person_id'),str,mid)
+  aliases={mid for person in self.catalog[0].values() for alias in person['aliases'] for mid in alias['mention_ids']}
+  self.assertFalse(ids & aliases)
+ def test_wangchang_parent_assertions_anchor_the_actual_son_clause(self):
+  a={x['id']:x for x in json.loads((R/'corpus/sanguozhi/027-wangchang-assertions.json').read_text())['assertions']}
+  for aid,quote in [('a-sanguozhi027-wangchang-003','其子渾字玄冲'),('a-sanguozhi027-wangchang-011','其子渾字玄冲深字道冲')]:
+   e=a[aid]['evidence'][0];self.assertEqual(e['object_person_mention_id'],PREFIX+'unit005:m0033');self.assertEqual(e['quote'],quote)
+   self.assertEqual(self.by[e['object_person_mention_id']][1]['kind'],'pronoun')
+  for aid in ['a-sanguozhi027-wangchang-010','a-sanguozhi027-wangchang-013']:
+   e=a[aid]['evidence'][0];self.assertEqual(e['object_person_mention_id'],PREFIX+'unit005:m0005')
+   self.assertIn('故兄子黙',e['quote'])
 if __name__=='__main__':unittest.main()

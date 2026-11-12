@@ -20,7 +20,10 @@ def qualified_office_valid(h,ch):
   ce=q['objection_evidence'];cp=paragraph(ch,ce);critic=mention(cp,q['commentator_mention_id']);cm=mention(cp,ce['person_mention_id']);author=mention(cp,q['objection_author_mention_id']);ca=anchor(cp,q['objection_clause_anchor'])
   assert q['kind']=='reported_office_challenged_by_commentary'and q['preferred_historical_office_assertion_id']is None and q['human_reviewed']is False and q['interpretation_note']
   assert h['kind']=='office'and h['mode']=='attestation'and subject['person_id']==cm['person_id']==h['person_id']and w['kind']=='work'and w['work_id']==q['reported_work_id']
-  assert a['start']==subject['start']and subject['surface'].startswith(h['title'])and a['end']==a['start']+len(h['title'])and a['surface']==h['title']
+  # A reported office may immediately precede the named office-holder
+  # (「太常陳泰」); it is a separate source-attested span, not a prefix of
+  # the person's name. Keep the two anchors adjacent and exact.
+  assert a['end']==subject['start']and a['start']==a['end']-len(h['title'])and a['surface']==h['title']and p['text'][a['start']:a['end']]==h['title']
   assert ca['surface']=='本傳'+cm['surface']+'不為'+h['title']+'未詳'+author['surface']+'所由知之'and ca['start']<=cm['start']<cm['end']<=ca['end']and ca['start']<=author['start']<author['end']<=ca['end']
   assert p['text'].startswith(author['surface']+w['surface']+'曰')and critic['start']==0 and cp['text'].startswith(critic['surface']+'案'+ca['surface'])
   unknown={'status':'unknown','date_expression':None,'evidence':[]};assert h['effective_period']=={'start':unknown,'end':unknown}
@@ -85,7 +88,7 @@ def succession_valid(e,paragraphs):
   assert ev['chapter_id']==cid and ev['quote']==t and e['event_type']=='noble_title_succession'and e['mode']=='accession'and e['title']is None and e['holding_id']is None and e['date_expression']is None and 'normalized_date'not in e and e['human_reviewed']is False and e['source_term']==a['surface']
   if b['kind']=='biographical_head_named_son_succession':
    head,heir=roles['predecessor'],roles['heir'];assert set(roles)=={'predecessor','heir'}and head['start']==0 and t[head['end']:].startswith('字')and a['surface']=='子'+heir['surface']+'嗣'and heir['start']==a['start']+1 and heir['end']==a['end']-1
-   context=anchor(p,b['death_succession_context_anchor']);resumed=mention(p,b['resumed_predecessor_mention_id']);assert resumed['person_id']==head['person_id']and context['start']==resumed['start']and context['end']==a['end']
+   context=anchor(p,b['death_succession_context_anchor']);resumed=next(m for m in p['mentions']if m['id']==b['resumed_predecessor_mention_id']);assert resumed['kind']in ('person','pronoun')and resumed['person_id']==head['person_id']and type(resumed['start'])is int and type(resumed['end'])is int and 0<=resumed['start']<resumed['end']<=len(t)and p['text'][resumed['start']:resumed['end']]==resumed['surface']and context['start']==resumed['start']and context['end']==a['end']
    before=t[resumed['end']:a['start']];match=re.fullmatch(r'([^曰云詔「」『』\n]{0,120}?)(薨|卒|死)(?:追贈[^曰云詔「」『』薨卒死]{1,12})?(?:諡曰[^曰云詔「」『』薨卒死]{1,8})?',before);assert match and not re.search(r'(未|不|欲|將|當|議|請|可|宜|應)$',match.group(1))
    assert all(m['person_id']in(head['person_id'],heir['person_id'])for m in p['mentions']if m.get('kind')=='person'and context['start']<=m['start']<context['end'])
   elif b['kind']=='named_childless_brother_succession':
