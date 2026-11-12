@@ -104,6 +104,15 @@ except ImportError:
 
 
 def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bound_role=None):
+    if isinstance(date,dict) and date.get('regnal_year_mapping',{}).get('kind')=='fixed_wyd_song051_p018_p019_title_date':
+        try:from scripts.wyd_song051_p018_records import holding_valid
+        except ImportError:from wyd_song051_p018_records import holding_valid
+        owner=(chapters or {}).get('c-songshu-051-wyd1739-zongshi')
+        return [] if bound_role in ('start','end') and holding_valid(bound_record,owner,root) else ['宋051 p018/p019爵職年月及原文錨點不符']
+    if isinstance(date,dict) and date.get('regnal_year_mapping',{}).get('kind')=='fixed_wyd_song051_p018_p019_life_date':
+        try:from scripts.wyd_song051_p018_records import date_valid
+        except ImportError:from wyd_song051_p018_records import date_valid
+        return [] if bound_role=='life_event' and date_valid(date,bound_record,root) else ['宋051 p018人物死亡紀年或元嘉年號列不符']
     if isinstance(date,dict) and date.get('regnal_year_mapping',{}).get('kind')=='fixed_wyd_song051_p014_p017_life_date':
         try:from scripts.song051_p014_p017_life import date_valid
         except ImportError:from song051_p014_p017_life import date_valid
@@ -2382,6 +2391,10 @@ def _validate_uncached(root=ROOT):
                     errors.extend(native_death_errors(record, event, tables, pids))
                 continue
             check(record.get('record_type') in ('person_life_event_assertion_set', 'person_event_assertion_set') and record.get('chapter_id') in chapters, '生卒事件集類型或篇不存在')
+            if record.get('chapter_id')=='c-songshu-051-wyd1739-zongshi' and record.get('record_type')=='person_event_assertion_set':
+                try:from scripts.wyd_song051_p018_records import person_events
+                except ImportError:from wyd_song051_p018_records import person_events
+                check(record==person_events(root),'宋051 p018綜承嗣事件須保留原文及未決爵名範圍')
             if record.get('chapter_id') == 'c-songshu-044-wyd1739-xiehui' and record.get('record_type') == 'person_life_event_assertion_set':
                 try:from scripts.wyd_song044_life import valid as wyd_life_valid
                 except ImportError:from wyd_song044_life import valid as wyd_life_valid
@@ -2395,7 +2408,10 @@ def _validate_uncached(root=ROOT):
                 if record.get('chapter_id')=='c-songshu-051-wyd1739-zongshi':
                     try:from scripts.song051_p014_p017_life import valid_record as song051_life_valid
                     except ImportError:from song051_p014_p017_life import valid_record as song051_life_valid
-                    check(song051_life_valid(record,root),'宋051第14–17段死亡事件／上下文紀年不符')
+                    try:from scripts.wyd_song051_p018_records import valid_event as p018_life_valid
+                    except ImportError:from wyd_song051_p018_records import valid_event as p018_life_valid
+                    is_p018=event['id'].startswith('le-song051-p018-') or event['id'].startswith('le-song051-p019-')
+                    check(p018_life_valid(event,root) if is_p018 else song051_life_valid(record,root),'宋051分批死亡事件／紀年不符')
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
@@ -2649,6 +2665,10 @@ def _validate_uncached(root=ROOT):
             from surname_from_father import validate as validate_inferred_surname
         all_name_records = [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']]
         for n in all_name_records:
+            if n.get('id') == 'name-song051-p019-daogui-zi':
+                try:from scripts.wyd_song051_p018 import name_component_valid
+                except ImportError:from wyd_song051_p018 import name_component_valid
+                check(name_component_valid(n,root),'宋051 p019道規之字須逐字連結原文與人物錨')
             # fixed-wyd045-name-components
             try:from scripts.wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid
             except ImportError:from wyd_song045_roles import name_applies as wyd045_name_applies, name_valid as wyd045_name_valid

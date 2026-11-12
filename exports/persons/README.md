@@ -503,7 +503,7 @@
 | `AABEB` | 劉珪 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEB.json) |
 | `AABF` | 劉義綦 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABF.json) |
 | `AABFA` | 劉長歆 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABFA.json) |
-| `AAC` | 臨川王道規 | [《晉書・叛臣二》][60] | [JSON](3qs_nqa_ioa_AAC.json) |
+| `AAC` | 臨川王道規 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AAC.json) |
 
 </details>
 

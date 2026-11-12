@@ -1,0 +1,54 @@
+{
+  "format_version": "0.1",
+  "record_type": "received_text_comparison_set",
+  "base_witness": {
+    "title": "《宋書》卷五十一，清乾隆四年武英殿本（NLC善本09753）",
+    "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+    "paragraph_id": "c-songshu-051-wyd1739-zongshi:p019",
+    "quote": "孝建三年卒贈平南將軍諡曰僖侯子長歆嗣官至步兵校尉昇平三年卒齊受禪國除",
+    "role": "retained_transcription",
+    "image_verified": false
+  },
+  "comparators": [
+    {
+      "title": "識典古籍《宋書卷五十一》數位文本（二十一史全文）",
+      "url": "https://www.shidianguji.com/zh/book/NGJ8924119990125431003/chapter/1lq09dgxoyscp",
+      "quote": "孝建二年卒贈平南將軍諡曰僖侯子長猷嗣官至步兵校尉昇平三年卒齊受禪國除",
+      "access": "搜尋索引可見本段文本摘錄；直接開頁回應 cache miss。本條為《二十一史全文》數位文本比較，不是武英殿本，也不取代武英殿本。",
+      "differences": {
+        "era_year": "孝建二年",
+        "son_name": "長猷",
+        "son_death_era": "昇平三年"
+      }
+    },
+    {
+      "title": "中國哲學書電子化計劃《宋書》卷五十一列傳第十一宗室",
+      "url": "https://ctext.org/wiki.pl?chapter=385158&if=gb",
+      "quote": "孝建二年卒贈平南將軍諡曰僖侯子長猷嗣官至步兵校尉昇平三年卒齊受禪國除",
+      "access": "搜尋索引將此網址識別為卷五十一列傳第十一宗室並顯示相關文字；直接頁面回應 HTTP 403，未能核對完整正文。",
+      "differences": {
+        "era_year": "孝建二年",
+        "son_name": "長猷",
+        "son_death_era": "昇平三年"
+      }
+    },
+    {
+      "title": "《欽定古今圖書集成》明倫彙編氏族典卷三百三十三所引《宋書》",
+      "url": "https://zh.wikisource.org/wiki/Page:Gujin_Tushu_Jicheng,_Volume_262_(1700-1725).djvu/83",
+      "quote": "孝建二年卒…子長猷嗣…昇明二年卒",
+      "access": "引文轉述／摘錄，非獨立《宋書》版本權威。",
+      "differences": {
+        "era_year": "孝建二年",
+        "son_name": "長猷",
+        "son_death_era": "昇明二年"
+      }
+    }
+  ],
+  "editorial_assessment": {
+    "status": "unresolved",
+    "decision": "保留武英殿本轉錄原字；列出數位比較異文，不改底本文字，也不為長歆／長猷卒年賦予西元年。",
+    "chronological_tension": "「昇平三年」照通常年號表換算早於義綦卒年孝建三年；可能涉及異文或傳抄問題，但現有比較不足以確定原讀。昇明二年／三年亦見不同摘錄，不可合併為確定紀年。",
+    "year_conversion": "孝建三年通常對應456；本段仍有年次異文，故不將其作單一無爭議 CE 日期。"
+  },
+  "human_reviewed": false
+}
