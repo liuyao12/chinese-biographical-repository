@@ -3,7 +3,7 @@ import copy
 import json
 from pathlib import Path
 import unittest
-from scripts.work_provenance import validate, inventory, source_inventory
+from scripts.work_provenance import validate, inventory, source_inventory, validate_source_mapping
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -17,6 +17,36 @@ class WorkProvenanceTests(unittest.TestCase):
         validate(self.data, ROOT)
         self.assertEqual(set(self.data['works']), set(inventory(ROOT)))
         self.assertEqual(len(self.data['text_bases']), len(source_inventory(ROOT)))
+
+    def test_documented_base_matches_body_source_metadata(self):
+        sid = 's-songshu-044-wyd1739-xiehui'
+        basis = self.data['text_bases'][sid]
+        body = json.loads((ROOT / 'corpus/songshu/044-wyd1739.json').read_text())['source']
+        excerpt = dict(body, title='宋書卷四十四節錄（不同 excerpt title）')
+        validate_source_mapping(sid, basis, [body, excerpt])
+        changed = copy.deepcopy(basis)
+        changed['source_record']['edition'] = '四庫全書本'
+        with self.assertRaisesRegex(AssertionError, sid):
+            validate_source_mapping(sid, changed, [body])
+
+    def test_documented_base_rejects_provider_mismatch(self):
+        sid = 's-songshu-044-wyd1739-xiehui'
+        data = copy.deepcopy(self.data)
+        data['text_bases'][sid]['source_record']['provider'] = 'Wikisource'
+        with self.assertRaisesRegex(AssertionError, 'provider'):
+            validate(data, ROOT)
+
+    def test_unknown_or_unresearched_base_skips_source_mapping(self):
+        sid = 's-songshu-044-wyd1739-xiehui'
+        for status in ('unknown', 'not_researched'):
+            with self.subTest(status=status):
+                data = copy.deepcopy(self.data)
+                basis = data['text_bases'][sid]
+                basis.update(status=status, edition_id=None,
+                             earliest_extant_basis_edition_id=None,
+                             reference_ids=[])
+                basis['source_record']['provider'] = 'Wikisource'
+                validate(data, ROOT)
 
     def test_wangminzhi_death_not_composition_or_burial(self):
         work = self.data['works']['w-epitaph-wangminzhi']

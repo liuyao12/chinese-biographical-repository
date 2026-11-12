@@ -783,6 +783,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     calendar_context_assertions = [c for record in records
         if record.get('record_type') == 'calendar_context_assertion_set'
         for c in record['records'] if c['id'] in used_context_ids]
+    try:
+        from .family_collections import collections_for_person
+    except ImportError:
+        from family_collections import collections_for_person
+    family_collections = collections_for_person(ids, root)
     return {'format_version': '0.1', 'record_type': 'person_source_bundle', 'requested_person_id': requested_id,
             'canonical_person_id': person_id, 'id_aliases': people[person_id].get('id_aliases', []),
             'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id',
@@ -809,6 +814,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'family_tree_policy': {'default': 'editorial_preferred', 'original_assertions_preserved': True,
                                    'unreviewed_conflicts_may_remain': True, 'runtime_ai_required': False},
             'family_paths': [dict(people[pid]['family_path'], person_id=pid) for pid in sorted(ids) if 'family_path' in people[pid]],
+            **({'family_collections': family_collections} if family_collections else {}),
             **({'name_components': name_components} if name_components else {}),
             **({'preferred_name_component_readings': preferred_name_components} if preferred_name_components else {}),
             **({'person_events': person_events} if person_events else {}),

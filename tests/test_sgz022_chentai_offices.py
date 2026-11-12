@@ -49,6 +49,10 @@ class ChentaiOffices(unittest.TestCase):
   e=copy.deepcopy(self.es[1]);e['title']='穆侯';self.assertFalse(succession_valid(e,self.ps))
  def test_son_succession_local_parent_must_match_dead_biographical_subject(self):
   e=copy.deepcopy(self.es[1]);e['source_clause_binding']['resumed_predecessor_mention_id']=self.c['id']+':p010:m1436';self.assertFalse(succession_valid(e,self.ps))
+ def test_predecessor_pronoun_must_resolve_to_exact_person_and_span(self):
+  e=next(x for x in self.es if x['id']=='pe-sgz022-chentai-succession-1');self.assertTrue(succession_valid(e,self.ps));mid=e['source_clause_binding']['resumed_predecessor_mention_id'];pid=e['evidence'][0]['paragraph_id']
+  ps=copy.deepcopy(self.ps);paragraph=ps[pid][1];next(m for m in paragraph['mentions']if m['id']==mid)['person_id']='unrelated-person';self.assertFalse(succession_valid(e,ps))
+  ps=copy.deepcopy(self.ps);paragraph=ps[pid][1];next(m for m in paragraph['mentions']if m['id']==mid)['start']+=1;self.assertFalse(succession_valid(e,ps))
  def test_brother_successor_cannot_be_predecessor(self):
   e=copy.deepcopy(self.es[2]);e['predecessor_person_id']=e['person_id'];self.assertFalse(succession_valid(e,self.ps))
  def test_grant_stages_and_short_reference_remain_distinct(self):

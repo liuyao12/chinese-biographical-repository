@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://liuyao12.github.io/chinese-biographical-repository/schema/family-collections.schema.json",
+  "title": "CBR rootless family collections v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_type", "human_reviewed", "collections"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "record_type": {"const": "rootless_family_collections"},
+    "human_reviewed": {"const": false},
+    "collections": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/collection"}
+    }
+  },
+  "$defs": {
+    "collection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "status", "human_reviewed", "branches", "standalone_members", "relationships", "rationale"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^family-collection-[a-z0-9-]+$"},
+        "label": {"type": "string", "minLength": 1},
+        "status": {"enum": ["contextual_provisional", "editorial_preferred"]},
+        "human_reviewed": {"const": false},
+        "branches": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["assembly_id", "entry_person_id"],
+            "properties": {
+              "assembly_id": {"type": "string", "minLength": 1},
+              "entry_person_id": {"type": "string", "minLength": 1}
+            }
+          }
+        },
+        "standalone_members": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/standalone_member"}
+        },
+        "relationships": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/relationship"}
+        },
+        "rationale": {"type": "string", "minLength": 1}
+      }
+    },
+    "standalone_member": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["person_id", "role", "parent_person_id", "father_person_id", "mother_person_id", "common_ancestor_person_id"],
+      "properties": {
+        "person_id": {"type": "string", "minLength": 1},
+        "role": {"const": "unplaced_paternal_collateral"},
+        "parent_person_id": {"type": "null"},
+        "father_person_id": {"type": "null"},
+        "mother_person_id": {"type": "null"},
+        "common_ancestor_person_id": {"type": "null"}
+      }
+    },
+    "relationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["assertion_id", "subject_person_id", "object_person_id", "predicate", "source_term", "lineage", "generation_difference", "relative_age", "older_person_id", "younger_person_id", "distance", "common_ancestor_person_id", "parent_edge"],
+      "properties": {
+        "assertion_id": {"type": "string", "minLength": 1},
+        "subject_person_id": {"type": "string", "minLength": 1},
+        "object_person_id": {"type": "string", "minLength": 1},
+        "predicate": {"const": "agnatic_cousin"},
+        "source_term": {"type": "string", "minLength": 1},
+        "lineage": {"const": "paternal"},
+        "generation_difference": {"const": 0},
+        "relative_age": {"enum": ["older", "younger", "unknown"]},
+        "older_person_id": {"type": ["string", "null"]},
+        "younger_person_id": {"type": ["string", "null"]},
+        "distance": {"type": "null"},
+        "common_ancestor_person_id": {"type": "null"},
+        "parent_edge": {"const": false}
+      }
+    }
+  }
+}

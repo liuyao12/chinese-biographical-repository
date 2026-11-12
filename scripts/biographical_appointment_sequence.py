@@ -16,7 +16,7 @@ def analyse(b,ch,person_id):
  for typ,key in FRAMES[rule]:
   if typ=='L':assert t.startswith(key,pos);pos+=len(key)
   elif typ=='R':
-   m=roles[key];assert m['kind']=='person'and m['start']==pos and t[pos:m['end']]==m['surface'];usedr.add(key);pos=m['end']
+   m=roles[key];expected_kind='pronoun'if key in ('ruler_pronoun','resumed_subject')else'person';assert m['kind']==expected_kind and m.get('person_id')and m['start']==pos and t[pos:m['end']]==m['surface'];usedr.add(key);pos=m['end']
   else:
    x=fields[key];assert exact(x)and x['start']==pos;usedf.add(key);pos=x['end']
    if key=='date':assert re.fullmatch(r'[^曰云詔不未欲薨卒]{1,8}[元一二三四五六七八九十百]+年',x['surface'])

@@ -181,6 +181,19 @@ def paternal_uncle_direction_valid(assertion, paragraphs):
             return False
         subjects = _mentions(p, assertion.get('subject_person_id'))
         objects = _mentions(p, assertion.get('object_person_id'))
+        # A source may name the nephew but refer to the uncle with a
+        # coreferential pronoun (e.g. 王昶傳「其為兄子及子作名字」).
+        # Admit only the exact evidence-linked object anchor, and only when
+        # the annotation already resolves that pronoun to this object ID.
+        object_ref = e.get('object_person_mention_id')
+        if object_ref is not None and not any(m['id'] == object_ref for m in objects):
+            anchored = next((m for m in p.get('mentions', []) if m.get('id') == object_ref), None)
+            if (anchored is not None and anchored.get('kind') == 'pronoun'
+                    and anchored.get('person_id') == assertion.get('object_person_id')
+                    and type(anchored.get('start')) is int and type(anchored.get('end')) is int
+                    and 0 <= anchored['start'] < anchored['end'] <= len(p['text'])
+                    and p['text'][anchored['start']:anchored['end']] == anchored.get('surface')):
+                objects.append(anchored)
         # References may intentionally select the first full-name occurrence;
         # the same canonical person's local name is valid grammatical evidence.
         for role, marks in (('subject', subjects), ('object', objects)):

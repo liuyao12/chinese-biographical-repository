@@ -412,6 +412,24 @@ def validate(root=ROOT, *, shared_context=True):
         return errors
 
 
+def family_collection_errors(root, data=None):
+    """Validate the optional rootless family collection overlay independently of tree assembly."""
+    root = Path(root)
+    path = root / 'registry/family-collections.json'
+    if not path.exists():
+        return []
+    try:
+        try:
+            from scripts.family_collections import validate as validate_collections
+        except ImportError:
+            from family_collections import validate as validate_collections
+        payload = data if data is not None else json.loads(path.read_text(encoding='utf-8'))
+        validate_collections(payload, root)
+        return []
+    except (AssertionError, KeyError, TypeError, ValueError, OSError, json.JSONDecodeError) as exc:
+        return [f'家族集合驗證失敗：{exc}']
+
+
 def _validate_uncached(root=ROOT):
     errors = []
     def check(ok, message):
@@ -525,6 +543,8 @@ def _validate_uncached(root=ROOT):
                     if m['kind'] == 'person':
                         check(m['person_id'] in pids, '提及引用未知人物 ID')
                         check(any(ch.isalnum() for ch in m['surface']), '人物提及不得僅為標點或空白')
+                    elif m['kind'] == 'pronoun':
+                        check(m.get('person_id') in pids and m.get('status') in ('source_explicit', 'contextual_provisional'), '人物代詞須有可解析人物指涉')
                     elif m['kind'] == 'unresolved': check(m['person_id'] is None and m['status']=='unresolved', '未定提及不得暗選人物')
                     elif m['kind'] == 'non_person':
                         try:
@@ -641,6 +661,7 @@ def _validate_uncached(root=ROOT):
                     check(e.get('id')==m['id'] and e.text==m['surface'], 'XML 提及錨點不符')
                     check(e.tag==({'person':'persName','work':'title','non_person':'seg'}.get(m['kind'], 'rs')), 'XML 提及類型不符')
                     check(e.get('ref')==(m.get('work_id') if m['kind']=='work' else m['person_id']), 'XML 人物或著作引用不符')
+                    if m['kind']=='pronoun': check(m.get('person_id') in pids and e.get('type')=='pronoun','人物代詞須保留明確人物引用')
                     if m['kind']=='unresolved': check(e.get('type')=='unresolved','XML 未定類型不符')
                     if m['kind']=='non_person': check(e.get('type')=='non-person' and e.get('subtype')==m.get('lexical_role'),'XML 非人物詞性不符')
         check(not set(chapters).intersection(table_chapters), '正文與表格篇ID不得重複')
@@ -1979,13 +2000,13 @@ def _validate_uncached(root=ROOT):
                     check(bool(hit) and hit[0]==d['chapter_id']==e['chapter_id'] and e['quote'] in hit[1]['text'],'人物陳述引句與所屬篇不符')
                     check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'人物陳述來源 ID 不符')
                     if hit:
-                        local={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'}
+                        local={m['person_id'] for m in hit[1]['mentions'] if m['kind'] in ('person','pronoun') and m.get('person_id')}
                         if adjacent is None:
                             check(a['subject_person_id'] in local and a['object_person_id'] in local,'人物陳述端點未見於證據段落')
                         else:
                             quote=e['quote'];text=hit[1]['text']
                             starts=[i for i in range(len(text)+1) if text.startswith(quote,i)]
-                            quoted={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'
+                            quoted={m['person_id'] for m in hit[1]['mentions'] if m['kind'] in ('person','pronoun') and m.get('person_id')
                                     and any(i<=m['start'] and m['end']<=i+len(quote) for i in starts)}
                             quoted_endpoints.append(quoted)
                 if adjacent is not None:
@@ -2636,6 +2657,7 @@ def _validate_uncached(root=ROOT):
     except ImportError:
         from name_xiaoming import validate_records as validate_xiaoming_records
     errors.extend(validate_xiaoming_records(root))
+    errors.extend(family_collection_errors(root))
     return errors
 
 def main():

@@ -1,0 +1,67 @@
+{
+  "record_type": "parallel_digital_witness_comparison",
+  "status": "SECOND_WITNESS_RECORDED_PRINT_IMAGES_UNVERIFIED",
+  "recorded_on": "2026-11-12",
+  "base_witness": {
+    "repository": "kanripo/KR2a0012",
+    "path": "KR2a0012_010.txt",
+    "commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+    "blob": "9047a0eee89df01717c48f066e05ab14fc54ab9b",
+    "edition_claim": "WYG；轉錄正文頁首題作《欽定四庫全書》",
+    "image_verified": false
+  },
+  "parallel_witness": {
+    "provider": "中國哲學書電子化計劃（CTP）",
+    "work_page": "https://ctext.org/sanguozhi/10/zh",
+    "biography_page": "https://ctext.org/text.pl?if=gb&node=602398",
+    "library_record": "https://ctext.org/library.pl?if=gb&res=77691",
+    "reported_base_edition": "《武英殿二十四史》本《三國志》",
+    "accessed_on": "2026-11-12",
+    "specific_printing_identified": false,
+    "immutable_revision_or_hash": null,
+    "image_verified": false,
+    "reuse_note": "僅記作對讀見證；未確認完整轉錄批次下載或再發布授權，不匯入CTP全文或其標記。"
+  },
+  "comparisons": [
+    {
+      "id": "xunyu-opening-uncle-father",
+      "location": "荀彧傳開篇",
+      "base_reading": "彧父緄濟南相叔爽司空",
+      "parallel_reading": "彧父緄，濟南相。叔父爽，司空。",
+      "difference": "CTP標點斷句並見「叔父爽」；Kanripo轉錄作「叔爽」。",
+      "judgment": "「父」影響親屬關係錨點，未核具體武英殿印本影像前不改正文；分存兩見證讀法。"
+    },
+    {
+      "id": "xunyu-opening-yingyin-glyph",
+      "location": "荀彧傳開篇籍貫",
+      "base_reading": "潁川潁隂",
+      "parallel_reading": "潁川潁陰",
+      "difference": "陰／隂字形不同。",
+      "judgment": "暫按異體字形差異記錄，不改人物地望字形或來源原字；仍未核影像。"
+    }
+  ],
+  "edition_limits": [
+    "CTP頁面明示武英殿二十四史本，但未標出該轉錄所據的具體印次、逐頁影像或固定版本指紋。",
+    "武英殿本刊校始於乾隆四年（1739）；另有同治八年（1869）重刊乾隆殿本的書目記錄，無證據可將CTP轉錄指定為其中任一本。",
+    "這是兩份數位文字的局部比較，不是影像校勘，也未完成卷十全文對讀。"
+  ],
+  "references": [
+    {
+      "title": "中國哲學書電子化計劃《三國志・魏書十》及《武英殿二十四史》本館藏頁",
+      "url": "https://ctext.org/library.pl?if=gb&res=77691"
+    },
+    {
+      "title": "CTP API／機讀全文服務說明",
+      "url": "https://ctext.org/tools/api"
+    },
+    {
+      "title": "CTP文本準備、Wiki審核與版次說明",
+      "url": "https://ctext.org/faq"
+    },
+    {
+      "title": "張學謙，《武英殿本二十四史翻刻翻印考述》",
+      "url": "https://ccj.pku.edu.cn/Article/info?aid=205664057"
+    }
+  ],
+  "human_reviewed": false
+}
