@@ -3093,6 +3093,24 @@
 
 </details>
 
+<details><summary><code>r02_hoi_pu7</code> 全〔郭淮祖〕（11 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 全〔郭淮祖〕 | [《三國志・滿田牽郭傳》][85] | [JSON](r02_hoi_pu7.json) |
+| `A` | 緼〔郭淮父；清考異文縕/蘊〕 | [《三國志・滿田牽郭傳》][85] | [JSON](r02_hoi_pu7_A.json) |
+| `AA` | 郭淮 | [《三國志・滿田牽郭傳》][85] | [JSON](r02_hoi_pu7_AA.json) |
+| `AAA` | 統〔郭淮子〕 | [《三國志・滿田牽郭傳》][85] | [JSON](r02_hoi_pu7_AAA.json) |
+| `AAAA` | 正〔郭統子〕 | [《三國志・滿田牽郭傳》][85] | [JSON](r02_hoi_pu7_AAAA.json) |
+| `AB` | 配〔郭淮弟，字仲南〕 | [《三國志・滿田牽郭傳》][85] | [JSON](r02_hoi_pu7_AB.json) |
+| `ABA` | 展〔郭配子，字泰舒〕 | [《三國志・滿田牽郭傳》][85] | [JSON](r02_hoi_pu7_ABA.json) |
+| `ABB` | 豫〔郭展次弟，字泰寧〕 | [《三國志・滿田牽郭傳》][85] | [JSON](r02_hoi_pu7_ABB.json) |
+| `AC` | 鎮〔郭配弟，字季南〕 | [《三國志・滿田牽郭傳》][85] | [JSON](r02_hoi_pu7_AC.json) |
+| `ACA` | 郭奕 | [《晉書・劉毅 和嶠 武陔 任愷 崔洪 郭奕 侯史光 何攀》][34] | [JSON](r02_hoi_pu7_ACA.json) |
+| `ACB` | 郭奕寡姊〔未名〕 | [《晉書・劉毅 和嶠 武陔 任愷 崔洪 郭奕 侯史光 何攀》][34] | [JSON](r02_hoi_pu7_ACB.json) |
+
+</details>
+
 <details><summary><code>r5n_x7v_cwf</code> 彪〔孝穆趙后祖；字世範〕（5 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -4177,6 +4195,7 @@
 [31]: https://zh.wikisource.org/w/index.php?title=晉書/卷042&oldid=2180524
 [32]: https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531
 [33]: https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531
+[34]: https://zh.wikisource.org/w/index.php?title=晉書/卷045&oldid=2595687
 [35]: https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517
 [37]: https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517
 [38]: https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772
@@ -4224,6 +4243,7 @@
 [82]: https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_019.txt
 [83]: https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt
 [84]: https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt
+[85]: https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt
 [86]: https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt
 [87]: https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt
 [90]: https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145

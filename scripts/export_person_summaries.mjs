@@ -35,8 +35,27 @@ if(!cache.has(id))cache.set(id,fs.readFile(path.join(root,'data/corpus/profiles'
 return cache.get(id);
 }
  const pick=(o,keys)=>Object.fromEntries(keys.filter(k=>o?.[k]!==undefined).map(k=>[k,structuredClone(o[k])]));
+ function displayHeading(p) {
+  const name = summarizeNameComponents(p.name_components, p.preferred_name_component_readings);
+  const names = name.names;
+  const title = profileTitlePreference(p);
+  const partial = Boolean(names && !names.clan_style?.value && !names.full_name
+    && names.ming && !names.surname && p.label?.endsWith(names.ming)
+    && p.label.length > names.ming.length);
+  const personal = names?.clan_style?.value || names?.full_name
+    || (names ? `${names.surname || ''}${names.ming || ''}` : '');
+  return title && names && name.canHead && !partial && personal
+    ? `${title.title} ${personal}`
+    : partial ? p.label
+      : names && name.canHead ? `${names.title || ''} ${personal}`.trim() || p.label
+        : p.label;
+ }
  function familyEntry(x) {
    const entry = pick(x, ['id', 'label', 'role', 'inference_note', 'cycle', 'unavailable', 'marriage_status']);
+   // Assembly-only canonical profiles use their new ID as the stored label;
+   // cards and family trees should still show the typed source-grounded name.
+   if (x.person && x.label === x.person.id) entry.label = displayHeading(x.person);
+   else if (x.label === x.id) entry.label = displayHeading(x);
    if (x.ancestry_paths?.length) {
      entry.route_qualification = [...new Set(x.ancestry_paths.map(p => p.qualification))];
      entry.ancestry_cycle = x.ancestry_paths.some(p => p.cycle);
@@ -94,8 +113,7 @@ return {year_label:lifeYearLabel(e),date_expression:sourceDateLabel(e),...(d?{ch
   if(p.unresolved_identity_cases?.length)out.identity_unresolved=true;
   if(p.identity_distinctions?.length)out.identity_distinctions_present=true;
   if(p.addresses?.length)out.addresses=p.addresses.map(x=>pick(x,['kind','place','place_name','source_term','label','status','interpretation_note']));
-  const names=name.names,partial=Boolean(names&&!names.clan_style?.value&&!names.full_name&&names.ming&&!names.surname&&p.label?.endsWith(names.ming)&&p.label.length>names.ming.length),personal=names?.clan_style?.value||names?.full_name||(names?`${names.surname||''}${names.ming||''}`:'');
-  out.heading=title&&names&&name.canHead&&!partial&&personal?`${title.title} ${personal}`:partial?p.label:names&&name.canHead?`${names.title||''} ${personal}`.trim()||p.label:p.label;
+  out.heading=displayHeading(p);
   out.aliases=out.additional_names;
 delete out.additional_names;
   out.jiguan=[...new Set((p.addresses||[]).filter(a=>(p.person_ids||[p.id]).includes(a.person_id)&&['biographical_origin','native_place'].includes(a.relation)).map(a=>a.place?.source_name).filter(Boolean))];

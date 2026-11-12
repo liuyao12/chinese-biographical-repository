@@ -378,6 +378,66 @@
       "model": null
     }
   ],
+  "assembled_identity": {
+    "person_id": "r02_hoi_pu7",
+    "representative_source_person_id": "r02_hoi_pu7",
+    "source_person_ids": [
+      "r02_hoi_pu7"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": null,
+    "assembly_id": "family-taiyuan-guo-huai-near",
+    "root_person_id": "r02_hoi_pu7",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
+  "assembled_children": [
+    {
+      "person_id": "r02_hoi_pu7_A",
+      "representative_source_person_id": "ozn_wl2_nrm",
+      "source_person_ids": [
+        "ozn_wl2_nrm"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "r02_hoi_pu7",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "parent_between_consecutive_ancestors",
+        "interpretation_basis": "quoted_genealogy_named_father_grandfather_roles",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同一裴注引郭氏譜明列淮之祖為全、父為緼；依相鄰具名祖先角色暫接緼為全子。原文沒有另立「緼為全子」父子句，兩條來源斷言各自保留。",
+        "chain_subject_person_id": "d7u_f1n_let",
+        "nearer_ancestor_assertion_id": "a-sgz026-guohuai-family-001",
+        "farther_ancestor_assertion_id": "a-sgz026-guohuai-family-002",
+        "references": [
+          {
+            "assertion_id": "a-sgz026-guohuai-family-001",
+            "chapter_id": "c-sanguozhi-026-guohuai",
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+            "source_id": "s-sanguozhi-026-guohuai",
+            "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+            "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+            "scope": "原句同段明列淮父緼及祖全；只推導緼—全的相鄰父系組裝。"
+          },
+          {
+            "assertion_id": "a-sgz026-guohuai-family-002",
+            "chapter_id": "c-sanguozhi-026-guohuai",
+            "paragraph_id": "c-sanguozhi-026-guohuai:unit002",
+            "source_id": "s-sanguozhi-026-guohuai",
+            "quote": "按郭氏譜淮祖全大司農父緼鴈門太守",
+            "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_026.txt",
+            "scope": "原句同段明列淮祖全及父緼；只推導緼—全的相鄰父系組裝。"
+          }
+        ]
+      },
+      "assembly_id": "family-taiyuan-guo-huai-near",
+      "root_person_id": "r02_hoi_pu7",
+      "status": "contextual_provisional",
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

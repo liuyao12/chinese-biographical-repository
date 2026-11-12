@@ -6,11 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `af7_a2c_011` | 韓晃 | [《晉書・叛臣三》][62] | [JSON](af7_a2c_011.json) |
-| `afb_ahe_sqp` | 趙堯 | [《史記・張丞相列傳》][165] | [JSON](afb_ahe_sqp.json) |
-| `afc_k9r_hjr` | 衡父 | [《史記・秦本紀》][92] | [JSON](afc_k9r_hjr.json) |
-| `afe_vxj_iuk` | 中御府長信 | [《史記・扁鵲倉公列傳》][174] | [JSON](afe_vxj_iuk.json) |
-| `afp_p47_7v4` | 謝綜舅（未名） | [《南齊書・王僧虔 張緒》][67] | [JSON](afp_p47_7v4.json) |
 | `afy_rj9_84r` | 秦皇帝 | [《史記・齊悼惠王世家》][121] | [JSON](afy_rj9_84r.json) |
 | `agc_zmx_tap` | 鄦公 | [《史記・鄭世家》][111] | [JSON](agc_zmx_tap.json) |
 | `agn_6ch_sus` | 李勢 | [《晉書・叛臣一》][59] | [JSON](agn_6ch_sus.json) |
@@ -479,7 +474,6 @@
 | `d2b_1d3_333` | 潘岳 | [《晉書・謝尚 謝安》][53]、[《晉書・忠義》][54] | [JSON](d2b_1d3_333.json) |
 | `d2e_99e_7c1` | 張崇 | [《晉書・桓彝》][44] | [JSON](d2e_99e_7c1.json) |
 | `d2m_ya4_tdv` | 郝昭 | [《三國志・諸夏侯曹傳》][77] | [JSON](d2m_ya4_tdv.json) |
-| `d2s_53o_65p` | 鎮〔郭配弟，字季南〕 | [《三國志・滿田牽郭傳》][85] | [JSON](d2s_53o_65p.json) |
 | `d31_nve_gr6` | 被廢太子未名 | [《史記・萬石張叔列傳》][172] | [JSON](d31_nve_gr6.json) |
 | `d31_spk_c5m` | 燕周 | [《史記・趙世家》][112] | [JSON](d31_spk_c5m.json) |
 | `d35_ba2_b9a` | 郭氏（㬭所生母，未名） | [《宋書・謝瞻 孔琳之》][216] | [JSON](d35_ba2_b9a.json) |
@@ -506,7 +500,6 @@
 | `d7e_wsc_ujq` | 呂祿 | [《史記・楚元王世家》][119] | [JSON](d7e_wsc_ujq.json) |
 | `d7k_yfy_48i` | 高圉 | [《史記・周本紀》][91]、[《史記・三代世表》][243] | [JSON](d7k_yfy_48i.json) |
 | `d7l_uch_op6` | 布（故將軍） | [《史記・孝景本紀》][98] | [JSON](d7l_uch_op6.json) |
-| `d7u_f1n_let` | 郭淮 | [《三國志・滿田牽郭傳》][85] | [JSON](d7u_f1n_let.json) |
 | `d81_e53_85b` | 常山公主 | [《晉書・王渾 王濬 唐彬》][31] | [JSON](d81_e53_85b.json) |
 | `d84_kqu_2g5` | 何尚之 | [《宋書・張茂度 庾登之 謝方明 江夷》][214] | [JSON](d84_kqu_2g5.json) |
 | `d85_rbs_9sv` | 劉賈 | [《史記・荊燕世家》][120] | [JSON](d85_rbs_9sv.json) |
@@ -2093,6 +2086,12 @@
 | `mh6_5un_rq0` | 韓康子（殺知伯者） | [《史記・晉世家》][108] | [JSON](mh6_5un_rq0.json) |
 | `mhe_05y_s6w` | 虞預 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47]、[《三國志・桓二陳徐衞盧傳》][84] | [JSON](mhe_05y_s6w.json) |
 | `mhf_ukx_zs1` | 雲敷 | [《宋書・宗室》][212] | [JSON](mhf_ukx_zs1.json) |
+| `mi0_e91_pmn` | 休（確叔父，永嘉太守） | [《宋書・王僧達 顏竣》][227] | [JSON](mi0_e91_pmn.json) |
+| `mii_pxr_jrl` | 破石 | [《史記・扁鵲倉公列傳》][174] | [JSON](mii_pxr_jrl.json) |
+| `mio_z5f_ri1` | 楚威王 | [《史記・蘇秦列傳》][138] | [JSON](mio_z5f_ri1.json) |
+| `miw_t0v_k64` | 呂越人 | [《史記・西南夷列傳》][185]、[《史記・司馬相如列傳》][186]、[《史記・大宛列傳》][192] | [JSON](miw_t0v_k64.json) |
+| `mj1_mir_ncl` | 昌（成弟） | [《史記・扁鵲倉公列傳》][174] | [JSON](mj1_mir_ncl.json) |
+| `mj4_uma_km7` | 陳皇后 | [《史記・外戚世家》][118] | [JSON](mj4_uma_km7.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
