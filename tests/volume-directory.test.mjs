@@ -20,3 +20,23 @@ test('source titles escaped and unknown book is not fabricated',()=>{const d=str
 test('reader landing guard is before text path fetch and preserves commentary hooks',()=>{const s=fs.readFileSync(new URL('../assets/corpus-view.js',import.meta.url),'utf8');assert.ok(s.indexOf("const landing=volumeLanding")<s.indexOf("if(!chapterPath(selected.path))"));for(const name of ['commentaryControls','bindCommentaryControls','referentInterpretations'])assert.ok(s.includes(name));});
 
 test('selection titles are labelled scope; primary label stays official for all children',()=>{const idx={chapters:[entry,{...entry,chapter_id:'c-jinshu-other',title:'另外家族選段'}]};const model=volumeModel(dir,'w-jinshu',idx),html=volumeLanding(model,'b-jinshu-079').html;assert.match(html,/《晉書・謝尚 謝安》 · 卷七十九/);assert.match(html,/選錄範圍/);assert.match(html,/已收單元1/);assert.match(html,/已收單元2/);assert.doesNotMatch(html,/>謝氏選段<\/a>/);assert.match(volumeNavigation(model),/volume-selection-scope/);});
+test('volume navigation groups registered books by their existing category and keeps placeholders navigable',()=>{
+ const d={schema_version:1,works:[{work_id:'w-demo',title:'示例史',books:[
+  {book_id:'b-demo-001',number:1,title:'卷一',category:'本紀'},
+  {book_id:'b-demo-002',number:2,title:'卷二',category:'列傳'},
+  {book_id:'b-demo-003',number:3,title:'卷三',category:'本紀'},
+  {book_id:'b-demo-004',number:4,title:'卷四',category:''},
+  {book_id:'b-demo-005',number:5,title:'卷五'},
+  {book_id:'b-demo-006',number:6,title:'卷六',category:null}
+ ]}]};
+ const html=volumeNavigation(volumeModel(d,'w-demo',{chapters:[]}));
+ assert.equal((html.match(/<h2>/g)||[]).length,3);
+ assert.ok(html.indexOf('本紀')<html.indexOf('列傳'));
+ assert.ok(html.indexOf('列傳')<html.indexOf('未分類'));
+ assert.ok(html.indexOf('book=b-demo-001')<html.indexOf('book=b-demo-003'));
+ for(const id of ['b-demo-001','b-demo-002','b-demo-003','b-demo-004','b-demo-005','b-demo-006'])assert.match(html,new RegExp(`book=${id}`));
+ assert.equal((html.match(/未分類/g)||[]).length,1);
+});
+
+test('category heading is HTML escaped',()=>{const d=structuredClone(dir);d.works[0].books[0].category='<script>x</script>';const html=volumeNavigation(volumeModel(d,'w-jinshu',index));assert.match(html,/&lt;script&gt;x&lt;\/script&gt;/);assert.doesNotMatch(html,/<script>/);});
+
