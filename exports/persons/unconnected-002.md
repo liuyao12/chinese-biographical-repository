@@ -79,7 +79,6 @@
 | `azs_1ix_z5h` | 郭解姊（未名） | [《史記・游俠列傳》][193] | [JSON](azs_1ix_z5h.json) |
 | `b08_8h4_pmi` | 荷蓧丈人（孔子世家未名者） | [《史記・孔子世家》][116] | [JSON](b08_8h4_pmi.json) |
 | `b0a_4e1_598` | 盧氏〔崔浩母、盧諶孫女〕 | [《魏書・崔浩》][232] | [JSON](b0a_4e1_598.json) |
-| `b0c_13f_c3a` | 王衍 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](b0c_13f_c3a.json) |
 | `b0e_c9d_d1f` | 王晨 | [《三國志・王毌丘諸葛鄧鍾傳》][87] | [JSON](b0e_c9d_d1f.json) |
 | `b10_tgz_55a` | 子陽 | [《史記・六國年表》][245] | [JSON](b10_tgz_55a.json) |
 | `b1a_6fd_254` | 路永 | [《晉書・王導》][40] | [JSON](b1a_6fd_254.json) |
@@ -1843,7 +1842,6 @@
 | `kw9_rxv_wx3` | 叔孫輒 | [《史記・孔子世家》][116] | [JSON](kw9_rxv_wx3.json) |
 | `kwa_ew6_bz3` | 衛桓公（楚篇弒君記事） | [《史記・楚世家》][109] | [JSON](kwa_ew6_bz3.json) |
 | `kwp_npr_9ix` | 呂虔 | [《晉書・王祥 鄭沖 何曾 石苞》][26] | [JSON](kwp_npr_9ix.json) |
-| `kwx_czc_d4c` | 乂〔王衍父，平北將軍〕 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](kwx_czc_d4c.json) |
 | `kx9_xbq_xkd` | 繒賀 | [《史記・鄭世家》][111] | [JSON](kx9_xbq_xkd.json) |
 | `kxp_iel_l8n` | 曹圉 | [《史記・殷本紀》][90]、[《史記・三代世表》][243] | [JSON](kxp_iel_l8n.json) |
 | `kxs_sv8_cbe` | 周聚 | [《史記・周本紀》][91] | [JSON](kxs_sv8_cbe.json) |
@@ -2092,6 +2090,9 @@
 | `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][164] | [JSON](mgl_q57_d7h.json) |
 | `mh6_5un_rq0` | 韓康子（殺知伯者） | [《史記・晉世家》][108] | [JSON](mh6_5un_rq0.json) |
 | `mhe_05y_s6w` | 虞預 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47]、[《三國志・桓二陳徐衞盧傳》][84] | [JSON](mhe_05y_s6w.json) |
+| `mi0_e91_pmn` | 休（確叔父，永嘉太守） | [《宋書・王僧達 顏竣》][227] | [JSON](mi0_e91_pmn.json) |
+| `mii_pxr_jrl` | 破石 | [《史記・扁鵲倉公列傳》][174] | [JSON](mii_pxr_jrl.json) |
+| `mio_z5f_ri1` | 楚威王 | [《史記・蘇秦列傳》][138] | [JSON](mio_z5f_ri1.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

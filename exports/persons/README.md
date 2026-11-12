@@ -2427,6 +2427,15 @@
 
 </details>
 
+<details><summary><code>kwx_czc_d4c</code> 乂〔王衍父，平北將軍〕（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 乂〔王衍父，平北將軍〕 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](kwx_czc_d4c.json) |
+| `A` | 王衍 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](kwx_czc_d4c_A.json) |
+
+</details>
+
 <details><summary><code>l3c_zg4_f7z</code> 宋襄公（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
