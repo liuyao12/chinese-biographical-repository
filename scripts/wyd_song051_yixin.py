@@ -3,7 +3,7 @@ from pathlib import Path
 import json,copy,hashlib
 try:from scripts.validation_context import memoized
 except ImportError:from validation_context import memoized
-CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_yixin_complete_unit_phase2';CONTRACT_SHA='578324fdceeb35146d8dddfd6acf1d9fb45d41bd5a078fa7fc5da67def055623'
+CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_yixin_complete_unit_phase2';CONTRACT_SHA='7460f0e7460b086a32dd3814d46c6549b348663774a179c51b7de75e6bc100bd'
 def same(a,b):
  if type(a)is not type(b):return False
  if type(a)is dict:return all(type(k)is str for k in a)and all(type(k)is str for k in b)and set(a)==set(b)and all(same(a[k],b[k])for k in a)

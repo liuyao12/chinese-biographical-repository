@@ -2437,6 +2437,18 @@
         "person_id": "3qs_nqa_ioa_AAC",
         "status": "contextual_provisional"
       }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p043",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p043:m0011",
+        "start": 208,
+        "end": 210,
+        "surface": "前廢",
+        "kind": "person",
+        "person_id": "iwn_c2g_zvh",
+        "status": "contextual_provisional"
+      }
     }
   ],
   "existing_seeds": [
@@ -3888,6 +3900,47 @@
         }
       ],
       "rationale": "同篇前文以完整諡號「臨川烈武王」指劉道規，史臣論續稱「烈武王」並論其未能與大業始終，人物與篇章主題相合。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-song051-qianfei-crossparagraph",
+      "person_id": "iwn_c2g_zvh",
+      "surfaces": [
+        "前廢"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-songshu-051-wyd1739-zongshi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-051-wyd1739-zongshi:p043:m0011",
+          "c-songshu-051-wyd1739-zongshi:p044:m0000"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p043",
+          "quote": "崇憲太僕前廢"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p044",
+          "quote": "帝卽位"
+        }
+      ],
+      "rationale": "卷五十一的標點／資料段落邊界將同一語句拆開；上段末「前廢」與下段首「帝卽位」合讀為「前廢帝卽位」。下段「帝」已有劉子業 ID，故補標前段殘稱，不另立人物。",
       "human_reviewed": false,
       "model": null
     }
