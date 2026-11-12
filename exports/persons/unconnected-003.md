@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `miw_t0v_k64` | 呂越人 | [《史記・西南夷列傳》][186]、[《史記・司馬相如列傳》][187]、[《史記・大宛列傳》][193] | [JSON](miw_t0v_k64.json) |
 | `mj1_mir_ncl` | 昌（成弟） | [《史記・扁鵲倉公列傳》][175] | [JSON](mj1_mir_ncl.json) |
 | `mj4_uma_km7` | 陳皇后 | [《史記・外戚世家》][119] | [JSON](mj4_uma_km7.json) |
 | `mj8_5ic_4kk` | 殷道鸞 | [《宋書・謝晦》][207] | [JSON](mj8_5ic_4kk.json) |
@@ -2247,6 +2248,7 @@
 [183]: https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632
 [184]: https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633
 [185]: https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220
+[186]: https://zh.wikisource.org/w/index.php?title=史記/卷116&oldid=7903636
 [187]: https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549
 [188]: https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122
 [189]: https://zh.wikisource.org/w/index.php?title=史記/卷119&oldid=7904123

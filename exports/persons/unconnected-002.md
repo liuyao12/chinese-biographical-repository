@@ -1646,7 +1646,7 @@
 | `jkv_j2g_82m` | 高祖 | [《史記・游俠列傳》][194] | [JSON](jkv_j2g_82m.json) |
 | `jlj_mm0_6xg` | 衛頃 | [《史記・太史公自序》][200] | [JSON](jlj_mm0_6xg.json) |
 | `jlp_iua_bsf` | 齊宣王 | [《史記・魏世家》][114] | [JSON](jlp_iua_bsf.json) |
-| `jlw_330_62b` | 郗隆〔揚州刺史，王邃所殺〕 | [《晉書・溫嶠 郗鑒》][41] | [JSON](jlw_330_62b.json) |
+| `jlw_330_62b` | 郗隆〔揚州刺史，王邃所殺〕 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][35]、[《晉書・溫嶠 郗鑒》][41] | [JSON](jlw_330_62b.json) |
 | `jm0_moa_yl8` | 費謙 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][209] | [JSON](jm0_moa_yl8.json) |
 | `jm9_oxb_y3l` | 宋景公（滅曹記事） | [《史記・管蔡世家》][105] | [JSON](jm9_oxb_y3l.json) |
 | `jml_tkf_soc` | 左賢王（圍趙破奴；未名） | [《史記・衛將軍驃騎列傳》][181] | [JSON](jml_tkf_soc.json) |
@@ -2091,7 +2091,6 @@
 | `mi0_e91_pmn` | 休（確叔父，永嘉太守） | [《宋書・王僧達 顏竣》][228] | [JSON](mi0_e91_pmn.json) |
 | `mii_pxr_jrl` | 破石 | [《史記・扁鵲倉公列傳》][175] | [JSON](mii_pxr_jrl.json) |
 | `mio_z5f_ri1` | 楚威王 | [《史記・蘇秦列傳》][139] | [JSON](mio_z5f_ri1.json) |
-| `miw_t0v_k64` | 呂越人 | [《史記・西南夷列傳》][186]、[《史記・司馬相如列傳》][187]、[《史記・大宛列傳》][193] | [JSON](miw_t0v_k64.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
