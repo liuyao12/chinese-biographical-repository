@@ -62,6 +62,7 @@ RELATION_SLOTS=(
  ('sun-clan-younger','liusun','agnatic_cousin','liucui','p014','粹族弟損','族弟'),
  ('sun-congfudi','liusun','agnatic_cousin','liuyi','p014','損字子騫衞將軍毅從父弟也','從父弟'),
  ('cui-clan-younger','liucui','agnatic_cousin','liuyi','p002','衞將軍毅粹族兄也','族兄'),
+ ('liudaoji-liucui-brother','liudaoji','brother','liucui','p004','遣粹弟車騎從事中郎道濟','粹弟'),
  ('daozhu-brother','daozhu','brother','chengdaoyang','p008','道養弟道助','弟道助'))
 def relation_records(ch,root):
  c=load_contract(root);roles=resolve_roles(ch,root,c);ps={p['id'].split(':')[-1]:p for p in ch['paragraphs']};specs={p['id']:p for p in c['paragraphs']};out=[]
@@ -79,7 +80,12 @@ def relation_records(ch,root):
    if slot=='sun-congfudi':q['source_paternal_path_term']='從父弟';q['reported_kinship_path']=['father','brother','son'];q['path_interpretation']='AI詞義解讀，不建立具名中間父親或共祖。'
   if slot=='huai-father':q['source_birth_position']={'source_term':'庶長子','reported_ordinal':1,'source_qualifier':'庶','accepted_birth_order':None,'scope_interpretation':None,'absolute_ordinal':None,'qualification':'長原稱所報序數一與庶資格分存；適用範圍未定，不推全部子女或庶子內已接受排行，不排懷之與曠之。'}
   e={**{k:ch[k]for k in('work_id','book_id','source_id')},'chapter_id':CID,'paragraph_id':p['id'],'quote':p['text'],'relationship_anchor':{'paragraph_id':p['id'],'start':start,'end':area[1],'surface':phrase},'subject_person_mention_id':sm['id'],'object_person_mention_id':om['id']}
-  out.append({'id':'a-song045-wyd-'+slot,'subject_person_id':roles[sub],'predicate':pred,'object_person_id':roles[obj],'status':'source_attested','qualifiers':q,'evidence':[e],'interpretation_note':'本源明文關係；不補生母、生日、共同父祖或絕對排行。從父弟/族弟保原詞與限定。','reviewer':'Codex（AI代理）','human_reviewed':False,'model':None})
+  evidence=[e]
+  if slot=='liudaoji-liucui-brother':
+   second='粹弟道濟';need(p['text'].count(second)==1,'第二處弟兄原詞唯一');second_start=p['text'].index(second);second_area=(second_start,second_start+len(second));second_sm=mark(p,sub,second_area);second_om=mark(p,obj,second_area)
+   evidence.append({**{k:ch[k]for k in('work_id','book_id','source_id')},'chapter_id':CID,'paragraph_id':p['id'],'quote':p['text'],'relationship_anchor':{'paragraph_id':p['id'],'start':second_start,'end':second_area[1],'surface':second},'subject_person_mention_id':second_sm['id'],'object_person_mention_id':second_om['id']})
+  note='卷四十五本傳兩處明稱道濟為劉粹弟，僅記弟兄及相對年序；不推同父同母、父子邊或絕對排行。' if slot=='liudaoji-liucui-brother' else '本源明文關係；不補生母、生日、共同父祖或絕對排行。從父弟/族弟保原詞與限定。'
+  out.append({'id':'a-song045-wyd-'+slot,'subject_person_id':roles[sub],'predicate':pred,'object_person_id':roles[obj],'status':'source_attested','qualifiers':q,'evidence':evidence,'interpretation_note':note,'reviewer':'Codex（AI代理）','human_reviewed':False,'model':None})
  return out
 
 def relation_applies(a):
