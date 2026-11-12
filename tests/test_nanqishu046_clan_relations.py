@@ -34,7 +34,7 @@ class Nanqishu046ClanRelations(unittest.TestCase):
         changed['qualifiers']['lineage'] = 'paternal'
         self.assertFalse(valid(changed, self.paragraphs, self.assertions))
 
-    def test_congzu_brother_keeps_unknown_distance_and_only_relative_age(self):
+    def test_congzu_brother_records_glossed_depth_and_relative_age_without_ancestor_identity_or_rank(self):
         a = next(x for x in self.relations if x['predicate'] == 'agnatic_cousin')
         structure = a['qualifiers']['kinship_structure']
         order = a['qualifiers']['relative_birth_order']
@@ -42,6 +42,9 @@ class Nanqishu046ClanRelations(unittest.TestCase):
         self.assertEqual(structure['distance'], {'kind': 'paternal_second_cousins', 'common_ancestor_depth': {'subject': 3, 'reference': 3}})
         self.assertIsNone(structure['common_ancestor_person_id'])
         self.assertEqual(structure['subject_relative_age'], 'older')
+        self.assertEqual(a['qualifiers']['lexical_sources'][0]['url'],
+                         'https://ctext.org/wiki.pl?chapter=814355&if=gb')
+        self.assertEqual(a['qualifiers']['lexical_sources'][0]['author'], '鄭玄注、賈公彥疏')
         self.assertIsNone(order['older_ordinal'])
         self.assertIsNone(order['younger_ordinal'])
         changed = copy.deepcopy(a)

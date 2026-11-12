@@ -177,7 +177,7 @@ def valid(a,paragraphs,assertions=(),chapters=None):
      expected={'lineage':'paternal','generation_difference':0,'collateral':True,'distance':{'kind':'paternal_second_cousins','common_ancestor_depth':{'subject':3,'reference':3}},'common_ancestor_person_id':None,'subject_relative_age':'older'}
      if q.get('kinship_structure')!=expected:return False
      lex=q.get('lexical_sources')
-     if lex != [{'title':'儀禮·喪服','author':'鄭玄注、賈公彥疏','url':'https://ctext.org/liji/sang-fu/zh','quote':'父之從父昆弟之子；己之再從兄弟','scope':'古注以服制親稱解釋「從祖兄弟」；本篇未明言共祖姓名。'}]:return False
+     if lex != [{'title':'儀禮·喪服','author':'鄭玄注、賈公彥疏','url':'https://ctext.org/wiki.pl?chapter=814355&if=gb','quote':'父之從父昆弟之子；己之再從兄弟','scope':'古注以服制親稱解釋「從祖兄弟」；本篇未明言共祖姓名。'}]:return False
      if not isinstance(q.get('scholarly_references'),list) or {x.get('author') for x in q['scholarly_references']}!={'李卿','沈冬'}:return False
     elif q.get('kinship_structure')!={'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'older'}:return False
   elif pred=='ritual_successor_of':

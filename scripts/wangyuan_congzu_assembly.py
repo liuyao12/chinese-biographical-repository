@@ -21,7 +21,7 @@ def congzu_depth_valid(assertion):
             and structure.get('common_ancestor_person_id') is None
             and len(lexical) == 1 and lexical[0].get('author') == '鄭玄注、賈公彥疏'
             and lexical[0].get('quote') == '父之從父昆弟之子；己之再從兄弟'
-            and lexical[0].get('url', '').startswith('https://'))
+            and lexical[0].get('url') == 'https://ctext.org/wiki.pl?chapter=814355&if=gb')
 
 
 def valid(member, rows, assertions):
@@ -77,4 +77,12 @@ def valid(member, rows, assertions):
                 and ref.get('chapter_id') == e.get('chapter_id')
                 and ref.get('source_id') == e.get('source_id') for e in a.get('evidence', [])):
             return False
+        if ref['assertion_id'] == 'a-songshu063-phase5-027':
+            anchor = a.get('source_term_anchor', {})
+            if (ref.get('paragraph_id') != 'c-songshu-063-wanghua-tanshou:line039'
+                    or ref.get('source_term_anchor') != anchor
+                    or anchor != {'paragraph_id': ref['paragraph_id'], 'start': 104, 'end': 107, 'surface': '子僧綽'}
+                    or ref['quote'][anchor['start']:anchor['end']] != anchor['surface']
+                    or '子僧綽嗣，別有傳。' not in ref['quote']):
+                return False
     return True

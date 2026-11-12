@@ -27,13 +27,20 @@ class WangyuanCongzuAssemblyTests(unittest.TestCase):
 
     def test_route_and_wildcard_mutations_are_rejected(self):
         fullrows = {m['person_id']: m for a in json.loads((ROOT/'registry/family-assemblies.json').read_text())['assemblies'] for m in a['members']}
-        for mutation in ('wrong_route', 'wrong_depth', 'extra_wildcard', 'invent_direct_assertion'):
+        for mutation in ('wrong_route', 'wrong_depth', 'extra_wildcard', 'invent_direct_assertion',
+                         'wrong_songshu_clause', 'false_anchor'):
             with self.subTest(mutation=mutation):
                 m = copy.deepcopy(self.member); rows = copy.deepcopy(fullrows); assertions = copy.deepcopy(self.assertions)
                 if mutation == 'wrong_route': m['ancestor_connection']['references'][2]['assertion_id'] = 'a-jinshu065-wang-013'
                 elif mutation == 'wrong_depth': m['ancestor_connection']['common_ancestor_depth'] = 2
                 elif mutation == 'extra_wildcard': m['person_id'] = '7r6_k52_qji_ABAAAA**A'
-                else: assertions['a-nanqishu046-sengyou-father']['object_person_id'] = '7r6_k52_qji_ABAAAA'
+                elif mutation == 'invent_direct_assertion': assertions['a-nanqishu046-sengyou-father']['object_person_id'] = '7r6_k52_qji_ABAAAA'
+                elif mutation == 'wrong_songshu_clause':
+                    ref = next(r for r in m['ancestor_connection']['references'] if r['assertion_id'] == 'a-songshu063-phase5-027')
+                    ref['paragraph_id'] = 'c-songshu-063-wanghua-tanshou:line037'
+                else:
+                    ref = next(r for r in m['ancestor_connection']['references'] if r['assertion_id'] == 'a-songshu063-phase5-027')
+                    ref['source_term_anchor']['start'] = 12
                 self.assertFalse(valid(m, rows, assertions))
 
     def test_retired_ids_are_absent_from_open_data(self):

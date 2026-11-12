@@ -36590,14 +36590,13 @@
           "kinship_subject_person_id": "7r6_k52_qji_ABAAAA*AA",
           "kinship_object_person_id": "7r6_k52_qji_ABAAAAEAA",
           "ancestor_path_person_id": "7r6_k52_qji_ABAAAA",
-          "ancestor_path_assertion_id": "a-jinshu065-wang-013",
           "father_assertion_id": "a-nanqishu046-sengyou-father",
           "common_ancestor_depth": 3,
           "rationale": "從祖兄的服制詞義判讀提供僧祐與儉同曾祖；儉由其父系祖先斷言至王珣三代，王遠為僧祐明載之父。故在家族組裝中暫以王珣為王遠兩代上祖，兩者之間保留一未名世代；不新增王遠至王珣的來源斷言。",
           "references": [
             {
               "assertion_id": "a-nanqi046-sengyou-jian-congzu-older",
-              "scope": "從祖詞義與長幼來源",
+              "scope": "從祖兄來源原句；親等依古注詞義而非明言祖先姓名",
               "work_id": "w-nanqishu",
               "book_id": "b-nanqishu-046",
               "source_id": "s-nanqishu-046-wangxiuzhi",
@@ -36608,7 +36607,7 @@
             },
             {
               "assertion_id": "a-nanqishu046-sengyou-father",
-              "scope": "從祖詞義與長幼來源",
+              "scope": "僧祐之父王遠來源原句",
               "work_id": "w-nanqishu",
               "book_id": "b-nanqishu-046",
               "source_id": "s-nanqishu-046-wangxiuzhi",
@@ -36630,14 +36629,20 @@
             },
             {
               "assertion_id": "a-songshu063-phase5-027",
-              "scope": "王儉至王珣的連續父系來源路徑",
+              "scope": "《宋書》異段明文以「子僧綽嗣」續王曇首，使用來源斷言第二筆 evidence 與 source_term_anchor；不以封詔段代替父子證據。",
               "work_id": "w-songshu",
               "book_id": "b-songshu-063",
               "source_id": "s-songshu-063-wanghua-tanshou",
               "chapter_id": "c-songshu-063-wanghua-tanshou",
-              "paragraph_id": "c-songshu-063-wanghua-tanshou:line037",
-              "quote": "晦平後，上欲封曇首等，會讌集，舉酒勸之，因拊御牀曰：「此坐非卿兄弟，無復今日。」時封詔已成，出以示曇首，曇首曰：「近日之事，釁難將成，賴陛下英明速斷，故罪人斯戮。臣等雖得仰憑天光，効其毫露，豈可因國之災，以為身幸。陛下雖欲私臣，當如直史何。」上不能奪，故封事遂寢。時兄弘錄尚書事，又為揚州刺史，曇首為上所親委，任兼兩宮。彭城王義康與弘並錄，意常怏怏，又欲得揚州，形於辭旨。以曇首居中，分其權任，愈不悅。曇首固乞吳郡，太祖曰：「豈有欲建大厦而遺其棟梁者哉。賢兄比屢稱疾，固辭州任，將來若相申許者，此處非卿而誰？亦何吳郡之有。」時弘久疾，屢遜位，不許。義康謂賓客曰：「王公久疾不起，神州詎合臥治。」曇首勸弘減府兵力之半以配義康，義康乃悅。",
-              "url": "https://zh.wikisource.org/wiki/宋書/卷63"
+              "paragraph_id": "c-songshu-063-wanghua-tanshou:line039",
+              "quote": "七年，卒。太祖為之慟，中書舍人周赳侍側，曰：「王家欲衰，賢者先殞。」上曰：「直是我家衰耳。」追贈左光祿大夫，加散騎常侍，詹事如故。九年，以預誅羨之等謀，追封豫寧縣侯，邑千戶，諡曰文侯。世祖即位，配饗太祖廟庭。子僧綽嗣，別有傳。少子僧虔，昇明末，為尚書令。",
+              "url": "https://zh.wikisource.org/wiki/宋書/卷63",
+              "source_term_anchor": {
+                "paragraph_id": "c-songshu-063-wanghua-tanshou:line039",
+                "start": 104,
+                "end": 107,
+                "surface": "子僧綽"
+              }
             },
             {
               "assertion_id": "a-jinshu065-wang-019",
@@ -36650,6 +36655,11 @@
               "quote": "初，珣既與謝安有隙，在東聞安薨，便出京師，詣族弟獻之，曰：「吾欲哭謝公。」獻之驚曰：「所望於法護。」於是直前哭之甚慟。法護，珣小字也。珣五子：弘、虞、柳、孺、曇首，宋世並有高名。",
               "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7065&oldid=1756144"
             }
+          ],
+          "ancestor_path_assertion_ids": [
+            "a-song071-sengchuo-006",
+            "a-songshu063-phase5-027",
+            "a-jinshu065-wang-019"
           ]
         },
         "assembly_id": "family-langye-wang-dao",
