@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `mes_rgf_o7u` | 趙毗 | [《晉書・桓彝》][44] | [JSON](mes_rgf_o7u.json) |
 | `mev_r3x_fuu` | 欒書 | [《史記・鄭世家》][111] | [JSON](mev_r3x_fuu.json) |
 | `mex_tig_16z` | 蓋聶 | [《史記・刺客列傳》][155] | [JSON](mex_tig_16z.json) |
 | `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][115] | [JSON](mf2_tm7_f9r.json) |
@@ -1341,7 +1342,7 @@
 | `usk_ybs_z1y` | 桓子（田文子對話稱） | [《史記・齊太公世家》][101] | [JSON](usk_ybs_z1y.json) |
 | `uss_tkl_hqe` | 管至父 | [《史記・鄭世家》][111] | [JSON](uss_tkl_hqe.json) |
 | `usv_vhb_ltw` | 孝公（燕獻公後） | [《史記・燕召公世家》][103] | [JSON](usv_vhb_ltw.json) |
-| `ut6_755_soi` | 孟山圖 | [《晉書・叛臣二》][60]、[《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][211] | [JSON](ut6_755_soi.json) |
+| `ut6_755_soi` | 孟山圖 | [《宋書・宗室》][212] | [JSON](ut6_755_soi.json) |
 | `utj_s5y_tae` | 毛叔鄭 | [《史記・周本紀》][91] | [JSON](utj_s5y_tae.json) |
 | `uu4_r66_k0i` | 王元德 | [《晉書・叛臣二》][60] | [JSON](uu4_r66_k0i.json) |
 | `uvb_oh6_dx1` | 平津侯 | [《史記・三王世家》][129] | [JSON](uvb_oh6_dx1.json) |

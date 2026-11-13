@@ -851,9 +851,11 @@
             "c-songshu-051-wyd1739-zongshi:p048",
             "c-songshu-051-wyd1739-zongshi:p018",
             "c-songshu-051-wyd1739-zongshi:p019",
-            "c-songshu-051-wyd1739-zongshi:p020"
+            "c-songshu-051-wyd1739-zongshi:p020",
+            "c-songshu-051-wyd1739-zongshi:p021",
+            "c-songshu-051-wyd1739-zongshi:p022"
           ],
-          "additional_person_mentions": 176,
+          "additional_person_mentions": 222,
           "additional_reference_mentions": 8
         },
         "human_reviewed": false,
@@ -4609,8 +4611,199 @@
       "id": "c-songshu-051-wyd1739-zongshi:p021",
       "text": "退還尋陽道規曰不可彼衆我寡彊弱異勢今若畏懦不進必為所乘雖至尋陽豈能自固玄雖竊名雄豪內實恇怯加已經奔敗衆無固心決機兩陣將雄者克昔光武昆陽之戰曹操官渡之師皆以少制多共所聞也今雖才謝古人豈可先為之弱因麾衆而進毅等從之大破玄軍郭銓與玄單舸走江陵不復能守欲入蜀為馮遷所斬義軍遇風不進桓謙桓振復據江陵毅留巴陵道規與無忌俱進攻桓謐於馬頭桓蔚於龍洲皆破之無忌欲乘勝直造江陵道規曰兵法屈申有時不可苟進諸桓世居西楚羣小皆為竭力振勇冠三軍難與",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0004",
+          "start": 4,
+          "end": 6,
+          "surface": "道規",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021LiuDaogui"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0035",
+          "start": 35,
+          "end": 36,
+          "surface": "玄",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AAF",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021HuanXuan"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0063",
+          "start": 63,
+          "end": 65,
+          "surface": "光武",
+          "kind": "person",
+          "person_id": "6c9_c43_555",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021LiuXiu"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0069",
+          "start": 69,
+          "end": 71,
+          "surface": "曹操",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021CaoCao"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0101",
+          "start": 101,
+          "end": 102,
+          "surface": "毅",
+          "kind": "person",
+          "person_id": "a59_2c3_a2e",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021LiuYi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0107",
+          "start": 107,
+          "end": 108,
+          "surface": "玄",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AAF",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021HuanXuan"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0109",
+          "start": 109,
+          "end": 111,
+          "surface": "郭銓",
+          "kind": "person",
+          "person_id": "k9w_ixa_74b",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021GuoQuan"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0112",
+          "start": 112,
+          "end": 113,
+          "surface": "玄",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AAF",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021HuanXuan"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0126",
+          "start": 126,
+          "end": 128,
+          "surface": "馮遷",
+          "kind": "person",
+          "person_id": "aot_lni_dfq",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021FengQian"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0136",
+          "start": 136,
+          "end": 138,
+          "surface": "桓謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021HuanQian"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0138",
+          "start": 138,
+          "end": 140,
+          "surface": "桓振",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021HuanZhen"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0144",
+          "start": 144,
+          "end": 145,
+          "surface": "毅",
+          "kind": "person",
+          "person_id": "a59_2c3_a2e",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021LiuYi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0148",
+          "start": 148,
+          "end": 150,
+          "surface": "道規",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021LiuDaogui"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0151",
+          "start": 151,
+          "end": 153,
+          "surface": "無忌",
+          "kind": "person",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021HeWuji"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0156",
+          "start": 156,
+          "end": 158,
+          "surface": "桓謐",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AD",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021HuanMi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0161",
+          "start": 161,
+          "end": 163,
+          "surface": "桓蔚",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_ADA",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021HuanWei"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0169",
+          "start": 169,
+          "end": 171,
+          "surface": "無忌",
+          "kind": "person",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021HeWuji"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0178",
+          "start": 178,
+          "end": 180,
+          "surface": "道規",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021LiuDaogui"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0203",
+          "start": 203,
+          "end": 204,
+          "surface": "振",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P021HuanZhen"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
@@ -4624,8 +4817,279 @@
       "id": "c-songshu-051-wyd1739-zongshi:p022",
       "text": "爭勝且可頓兵銳徐以計策縻之不憂不克也無忌不從果為振所敗乃退還尋陽繕治舟甲復進軍夏口僞鎮軍將軍馮該戍夏口東岸揚武將軍孟山圖據魯城輔國將軍桓仙客守偃月壘於是毅攻魯城道規無忌攻偃月並克之生禽仙客山圖其夕該遁走進平巴陵謙振遣使求割荆江二州奉歸晉帝不許會南陽太守魯宗之起義攻襄陽僞雍州刺史桓蔚走江陵宗之進至紀南振自往距之使桓謙留守時毅道規屯次馬頭馳往襲謙奔走即日克江陵城振大破宗之而歸聞城已陷亦走無忌翼衞天子還京師道規留夏口江陵之",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0018",
+          "start": 18,
+          "end": 20,
+          "surface": "無忌",
+          "kind": "person",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HeWuji"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0024",
+          "start": 24,
+          "end": 25,
+          "surface": "振",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HuanZhen"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0046",
+          "start": 46,
+          "end": 48,
+          "surface": "馮該",
+          "kind": "person",
+          "person_id": "qfe_gev_wl7",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022FengGai"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0057",
+          "start": 57,
+          "end": 60,
+          "surface": "孟山圖",
+          "kind": "person",
+          "person_id": "ut6_755_soi",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022MengShantu"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0067",
+          "start": 67,
+          "end": 70,
+          "surface": "桓仙客",
+          "kind": "person",
+          "person_id": "jxk_yz0_g8j",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HuanXianke"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0076",
+          "start": 76,
+          "end": 77,
+          "surface": "毅",
+          "kind": "person",
+          "person_id": "a59_2c3_a2e",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022LiuYi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0080",
+          "start": 80,
+          "end": 82,
+          "surface": "道規",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022LiuDaogui"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0082",
+          "start": 82,
+          "end": 84,
+          "surface": "無忌",
+          "kind": "person",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HeWuji"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0092",
+          "start": 92,
+          "end": 94,
+          "surface": "仙客",
+          "kind": "person",
+          "person_id": "jxk_yz0_g8j",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HuanXianke"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0094",
+          "start": 94,
+          "end": 96,
+          "surface": "山圖",
+          "kind": "person",
+          "person_id": "ut6_755_soi",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022MengShantu"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0098",
+          "start": 98,
+          "end": 99,
+          "surface": "該",
+          "kind": "person",
+          "person_id": "qfe_gev_wl7",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022FengGai"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0105",
+          "start": 105,
+          "end": 106,
+          "surface": "謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HuanQian"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0106",
+          "start": 106,
+          "end": 107,
+          "surface": "振",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HuanZhen"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0117",
+          "start": 117,
+          "end": 119,
+          "surface": "晉帝",
+          "kind": "person",
+          "person_id": "s6y_280_81r",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022JinAnDi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0126",
+          "start": 126,
+          "end": 129,
+          "surface": "魯宗之",
+          "kind": "person",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022LuZongzhi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0139",
+          "start": 139,
+          "end": 141,
+          "surface": "桓蔚",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_ADA",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HuanWei"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0144",
+          "start": 144,
+          "end": 146,
+          "surface": "宗之",
+          "kind": "person",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022LuZongzhi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0150",
+          "start": 150,
+          "end": 151,
+          "surface": "振",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HuanZhen"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0156",
+          "start": 156,
+          "end": 158,
+          "surface": "桓謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HuanQian"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0161",
+          "start": 161,
+          "end": 162,
+          "surface": "毅",
+          "kind": "person",
+          "person_id": "a59_2c3_a2e",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022LiuYi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0162",
+          "start": 162,
+          "end": 164,
+          "surface": "道規",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022LiuDaogui"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0171",
+          "start": 171,
+          "end": 172,
+          "surface": "謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HuanQian"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0180",
+          "start": 180,
+          "end": 181,
+          "surface": "振",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HuanZhen"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0183",
+          "start": 183,
+          "end": 185,
+          "surface": "宗之",
+          "kind": "person",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022LuZongzhi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0193",
+          "start": 193,
+          "end": 195,
+          "surface": "無忌",
+          "kind": "person",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022HeWuji"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0197",
+          "start": 197,
+          "end": 199,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "s6y_280_81r",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022JinAnDi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0202",
+          "start": 202,
+          "end": 204,
+          "surface": "道規",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-entity-phase3:P022LiuDaogui"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
