@@ -6,6 +6,8 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `aez_p66_9uj` | 藺相如持璧歸趙從者未名 | [《史記・廉頗藺相如列傳》][150] | [JSON](aez_p66_9uj.json) |
+| `af1_11d_057` | 宗慤 | [《宋書・謝莊 王景文》][228] | [JSON](af1_11d_057.json) |
 | `af6_mhg_pyn` | 呂種 | [《史記・呂后本紀》][96]、[《史記・惠景間侯者年表》][249] | [JSON](af6_mhg_pyn.json) |
 | `af7_a2c_011` | 韓晃 | [《晉書・叛臣三》][62] | [JSON](af7_a2c_011.json) |
 | `afb_ahe_sqp` | 趙堯 | [《史記・張丞相列傳》][165] | [JSON](afb_ahe_sqp.json) |
@@ -257,6 +259,7 @@
 | `bwv_p3h_q1j` | 趙賁 | [《史記・曹相國世家》][123] | [JSON](bwv_p3h_q1j.json) |
 | `bwx_d97_fb5` | 太康 | [《史記・夏本紀》][89] | [JSON](bwx_d97_fb5.json) |
 | `bx9_am2_k4h` | 欒書 | [《史記・趙世家》][112] | [JSON](bx9_am2_k4h.json) |
+| `bxb_qzl_ffd` | 趙（黃初妻，名未載） | [《宋書・宗室》][212] | [JSON](bxb_qzl_ffd.json) |
 | `bxh_oop_5ic` | 范曄 | [《宋書・張茂度 庾登之 謝方明 江夷》][214] | [JSON](bxh_oop_5ic.json) |
 | `bxr_8km_7zg` | 襄平侯通 | [《史記・孝文本紀》][97] | [JSON](bxr_8km_7zg.json) |
 | `bxt_308_d5a` | 索邈 | [《晉書・桓彝》][44] | [JSON](bxt_308_d5a.json) |
@@ -1221,7 +1224,7 @@
 | `gvp_kl8_u6o` | 莊周 | [《史記・孟子荀卿列傳》][143] | [JSON](gvp_kl8_u6o.json) |
 | `gwd_nwe_4s7` | 少連 | [《史記・孔子世家》][116] | [JSON](gwd_nwe_4s7.json) |
 | `gx0_1xv_0gm` | 呂產 | [《史記・齊悼惠王世家》][121] | [JSON](gx0_1xv_0gm.json) |
-| `gxd_15x_9d0` | 班固 | [《後漢書・荀韓鍾陳列傳》][15]、[《後漢書・吳延史盧趙列傳》][16]、[《晉書・叛臣二》][61]、[《南齊書・文學》][71]、[《史記・秦始皇本紀》][93]、[《史記・平津侯主父列傳》][181]、[《宋書・謝靈運》][225] | [JSON](gxd_15x_9d0.json) |
+| `gxd_15x_9d0` | 班固 | [《宋書・宗室》][212] | [JSON](gxd_15x_9d0.json) |
 | `gxj_sgq_f8g` | 奇德 | [《晉書・陸曄 何充 褚翜 蔡謨 諸葛恢 殷浩》][52] | [JSON](gxj_sgq_f8g.json) |
 | `gxs_1ia_tsp` | 太仆未名 | [《史記・魏豹彭越列傳》][159] | [JSON](gxs_1ia_tsp.json) |
 | `gxt_23x_jrr` | 趙統 | [《晉書・桓彝》][44] | [JSON](gxt_23x_jrr.json) |
@@ -1651,6 +1654,7 @@
 | `jk9_adm_qrm` | 魏氏〔裴子野生母〕 | [《南史・范泰　荀伯子　徐廣　鄭鮮之　裴松之　何承天》][75] | [JSON](jk9_adm_qrm.json) |
 | `jkg_s0j_gg4` | 蔡敏 | [《晉書・周浚 成公簡 苟晞 華軼 劉喬》][38] | [JSON](jkg_s0j_gg4.json) |
 | `jkv_j2g_82m` | 高祖 | [《史記・游俠列傳》][193] | [JSON](jkv_j2g_82m.json) |
+| `jl3_81j_g6u` | 師纂 | [《宋書・宗室》][212] | [JSON](jl3_81j_g6u.json) |
 | `jlj_mm0_6xg` | 衛頃 | [《史記・太史公自序》][199] | [JSON](jlj_mm0_6xg.json) |
 | `jlp_iua_bsf` | 齊宣王 | [《史記・魏世家》][113] | [JSON](jlp_iua_bsf.json) |
 | `jlw_330_62b` | 郗隆〔揚州刺史，王邃所殺〕 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][35] | [JSON](jlw_330_62b.json) |
@@ -2091,8 +2095,6 @@
 | `mfu_22v_exx` | 趙穿 | [《史記・鄭世家》][111] | [JSON](mfu_22v_exx.json) |
 | `mge_pi9_fn1` | 計然 | [《史記・貨殖列傳》][198] | [JSON](mge_pi9_fn1.json) |
 | `mgj_ry7_2x5` | 陶朱 | [《史記・陳涉世家》][117] | [JSON](mgj_ry7_2x5.json) |
-| `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][164] | [JSON](mgl_q57_d7h.json) |
-| `mh6_5un_rq0` | 韓康子（殺知伯者） | [《史記・晉世家》][108] | [JSON](mh6_5un_rq0.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

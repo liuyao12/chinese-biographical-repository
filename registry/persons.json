@@ -1,8 +1,6 @@
 {
   "format_version": "0.2",
   "record_type": "person_registry",
-  "allocation": "人物根 ID 採三組隨機識別碼；家族成員使用家族後綴。ID 可依身份辨識、父系接合或使用者重置調整；調整時須完整更新引用並移除舊 ID 檔案，不設公開舊 ID 別名。後綴表示資料位置，不等於排行。",
-  "next_number": 6106,
   "persons": [
     {
       "id": "8jz_o3s_obt",
@@ -1888,7 +1886,8 @@
             "c-houhanshu-064-luzhi:p004:m0155",
             "c-houhanshu-064-luzhi:p004:m0287",
             "c-shiji-130-taishigong:m003-0608",
-            "c-shiji-130-taishigong:m011-0034"
+            "c-shiji-130-taishigong:m011-0034",
+            "c-songshu-051-wyd1739-zongshi:p038:m0117"
           ]
         },
         {
@@ -1913,7 +1912,8 @@
             "c-shiji-117-xiangru:m058-0056",
             "c-jinshu-077-yinhao:p008:m0467",
             "c-houhanshu-064-luzhi:note033:m0043",
-            "c-shiji-130-taishigong:m013-0020"
+            "c-shiji-130-taishigong:m013-0020",
+            "c-songshu-051-wyd1739-zongshi:p035:m0061"
           ]
         },
         {
@@ -2641,6 +2641,24 @@
           "chapter_id": "c-shiji-130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p013",
           "quote": "唐堯"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p035",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p035:m0061",
+          "quote": "唐堯"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p038",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p038:m0117",
+          "quote": "堯"
         }
       ],
       "identity_note": "跨卷對應依 002-identities.json 的敘事與譜系證據暫定；不得套用到其他同名者。",
@@ -7699,6 +7717,12 @@
           "mention_ids": [
             "c-shiji-037-wei:m037-0003"
           ]
+        },
+        {
+          "surface": "宣尼",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p037:m0188"
+          ]
         }
       ],
       "evidence": [
@@ -10800,6 +10824,15 @@
           "paragraph_id": "c-weishu-weishou-035-cuihao:p027",
           "mention_id": "c-weishu-weishou-035-cuihao:p027:m0100",
           "quote": "孔子"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p037",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p037:m0188",
+          "quote": "宣尼"
         }
       ],
       "identity_note": "《史記》各篇明稱孔子／仲尼或以其言行、師生與傳世事跡指涉同一人物；本決定合併篇內候選，保留原篇引文與引述性質。孔子之女、兄之女等親屬人物仍各自獨立。此為同一部史書內的互見整合，不將篇章當成彼此獨立的外部見證。",
@@ -16785,7 +16818,8 @@
             "c-shiji-118-huainan:m019-0153",
             "c-jinshu-075-taiyuan-wang:line018:m0251",
             "c-sanguozhi-022-chenqun-chentai:p001:m0828",
-            "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0515"
+            "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0515",
+            "c-songshu-051-wyd1739-zongshi:p035:m0072"
           ]
         },
         {
@@ -17540,6 +17574,15 @@
           "chapter_id": "c-shiji-130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p044",
           "quote": "西伯"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p035",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p035:m0072",
+          "quote": "文王"
         }
       ],
       "identity_note": "依《殷本紀》的特定敘事建立；個別史實及出土材料對應尚未覆核，不按同名跨卷合併。",
@@ -180146,7 +180189,8 @@
         {
           "surface": "奚斯",
           "mention_ids": [
-            "c-shiji-033-lu:m048-0057"
+            "c-shiji-033-lu:m048-0057",
+            "c-songshu-051-wyd1739-zongshi:p038:m0182"
           ]
         }
       ],
@@ -180161,6 +180205,15 @@
           "mention_id": "c-shiji-033-lu:m048-0057",
           "chapter_id": "c-shiji-033-lu",
           "paragraph_id": "c-shiji-033-lu:p048",
+          "quote": "奚斯"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p038",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p038:m0182",
           "quote": "奚斯"
         }
       ]
@@ -249721,7 +249774,8 @@
             "c-jinshu-065-wangdao-family:line024:m0265",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u020:m0136",
             "c-houhanshu-062-xunhan-zhongchen:hanzhong:zhong-hao-body:m0254",
-            "c-shiji-034-yan:m023-0179"
+            "c-shiji-034-yan:m023-0179",
+            "c-songshu-051-wyd1739-zongshi:p038:m0018"
           ]
         },
         {
@@ -249850,6 +249904,15 @@
           "mention_id": "c-shiji-034-yan:m023-0179",
           "chapter_id": "c-shiji-034-yan",
           "paragraph_id": "c-shiji-034-yan:p023",
+          "quote": "孟軻"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p038",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p038:m0018",
           "quote": "孟軻"
         }
       ]
@@ -362185,7 +362248,9 @@
             "c-songshu-067-xielingyun:p006:m07804",
             "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m1060",
             "c-jinshu-099-yinzhongwen:p005:m0033",
-            "c-houhanshu-064-luzhi:p002:m0184"
+            "c-houhanshu-064-luzhi:p002:m0184",
+            "c-songshu-051-wyd1739-zongshi:p033:m0184",
+            "c-songshu-051-wyd1739-zongshi:p039:m0007"
           ]
         },
         {
@@ -362252,6 +362317,24 @@
           "paragraph_id": "c-nanqishu-052-zuchongzhi:p003",
           "mention_id": "c-nanqishu-052-zuchongzhi:p003:m0033",
           "quote": "固"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p033",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p033:m0184",
+          "quote": "班固"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p039:m0007",
+          "quote": "班固"
         }
       ]
     },
@@ -363521,7 +363604,8 @@
             "c-shiji-117-xiangru:m056-0047",
             "c-shiji-117-xiangru:m069-0000",
             "c-shiji-117-xiangru:m070-0059",
-            "c-shiji-117-xiangru:m071-0006"
+            "c-shiji-117-xiangru:m071-0006",
+            "c-songshu-051-wyd1739-zongshi:p038:m0198"
           ]
         },
         {
@@ -364034,6 +364118,15 @@
           "paragraph_id": "c-songshu-067-xielingyun:p006",
           "mention_id": "c-songshu-067-xielingyun:p006:m09273",
           "quote": "馬長卿"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p038",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p038:m0198",
+          "quote": "相如"
         }
       ]
     },
@@ -365020,7 +365113,8 @@
         {
           "surface": "王褒",
           "mention_ids": [
-            "c-shiji-112-pingjin:m030-0374"
+            "c-shiji-112-pingjin:m030-0374",
+            "c-songshu-051-wyd1739-zongshi:p038:m0200"
           ]
         }
       ],
@@ -365029,6 +365123,15 @@
           "mention_id": "c-shiji-112-pingjin:m030-0374",
           "chapter_id": "c-shiji-112-pingjin",
           "paragraph_id": "c-shiji-112-pingjin:p030",
+          "quote": "王褒"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p038",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p038:m0200",
           "quote": "王褒"
         }
       ]
@@ -410961,7 +411064,8 @@
             "c-songshu-044-wyd1739-xiehui:p005:m0416",
             "c-songshu-044-wyd1739-xiehui:p008:m0282",
             "c-songshu-044-wyd1739-xiehui:p010:m0355",
-            "c-songshu-045-wyd1739-liucui:p005:m0001"
+            "c-songshu-045-wyd1739-liucui:p005:m0001",
+            "c-songshu-051-wyd1739-zongshi:p033:m0153"
           ]
         },
         {
@@ -412060,6 +412164,15 @@
           "paragraph_id": "c-songshu-063-wyd1739-wangtanshou:p005",
           "mention_id": "c-songshu-063-wyd1739-wangtanshou:p005:m0188",
           "quote": "弘"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p033",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p033:m0153",
+          "quote": "王弘"
         }
       ],
       "identity_note": "固定宋書選段上下文所見人物；不得由名字推排行、由任官推婚姻、由照顧推收養，未知事項另核。",
@@ -418928,7 +419041,8 @@
             "c-songshu-063-wyd1739-wangtanshou:p006:m0063",
             "c-songshu-051-wyd1739-zongshi:p010:m0061",
             "c-songshu-051-wyd1739-zongshi:p010:m0135",
-            "c-songshu-051-wyd1739-zongshi:p043:m0080"
+            "c-songshu-051-wyd1739-zongshi:p043:m0080",
+            "c-songshu-051-wyd1739-zongshi:p039:m0056"
           ]
         },
         {
@@ -420136,6 +420250,15 @@
           "paragraph_id": "c-songshu-051-wyd1739-zongshi:p018",
           "mention_id": "c-songshu-051-wyd1739-zongshi:p018:m0185",
           "quote": "孝武"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p039:m0056",
+          "quote": "世祖"
         }
       ],
       "identity_note": "固定宋書選段上下文所見人物；不得由名字推排行、由任官推婚姻、由照顧推收養，未知事項另核。",
@@ -420366,7 +420489,8 @@
             "c-songshu-051-wyd1739-zongshi:p041:m0009",
             "c-songshu-051-wyd1739-zongshi:p040:m0052",
             "c-songshu-051-wyd1739-zongshi:p040:m0113",
-            "c-songshu-051-wyd1739-zongshi:p040:m0118"
+            "c-songshu-051-wyd1739-zongshi:p040:m0118",
+            "c-songshu-051-wyd1739-zongshi:p032:m0065"
           ]
         },
         {
@@ -420523,8 +420647,7 @@
         {
           "surface": "吾",
           "mention_ids": [
-            "c-jinshu-079-xielang-family:phase6-line071:m0307",
-            "c-songshu-051-wyd1739-zongshi:p029:m0165"
+            "c-jinshu-079-xielang-family:phase6-line071:m0307"
           ]
         },
         {
@@ -422581,15 +422704,6 @@
         },
         {
           "work_id": "w-songshu",
-          "book_id": "b-songshu-051",
-          "source_id": "s-songshu-051-wyd1739-zongshi",
-          "chapter_id": "c-songshu-051-wyd1739-zongshi",
-          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p029",
-          "mention_id": "c-songshu-051-wyd1739-zongshi:p029:m0165",
-          "quote": "吾"
-        },
-        {
-          "work_id": "w-songshu",
           "book_id": "b-songshu-005",
           "source_id": "s-songshu-005-wyd1739-wendi-opening",
           "chapter_id": "c-songshu-005-wyd1739-wendi-opening",
@@ -422802,6 +422916,15 @@
           "chapter_id": "c-songshu-051-wyd1739-zongshi",
           "paragraph_id": "c-songshu-051-wyd1739-zongshi:p019",
           "mention_id": "c-songshu-051-wyd1739-zongshi:p019:m0071",
+          "quote": "高祖"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p032",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p032:m0065",
           "quote": "高祖"
         }
       ],
@@ -432884,6 +433007,24 @@
       "historicity": "historical_tradition",
       "aliases": [
         {
+          "surface": "吾",
+          "mention_ids": [
+            "c-songshu-066-wangjinghong:line024:m0225"
+          ]
+        },
+        {
+          "surface": "微臣",
+          "mention_ids": [
+            "c-songshu-066-wangjinghong:line020:m0120"
+          ]
+        },
+        {
+          "surface": "我",
+          "mention_ids": [
+            "c-songshu-066-wangjinghong:line012:m0086"
+          ]
+        },
+        {
           "surface": "敬弘",
           "mention_ids": [
             "c-jinshu-076-wangyi-family:p004:m0112",
@@ -432935,6 +433076,18 @@
           ]
         },
         {
+          "surface": "曾祖",
+          "mention_ids": [
+            "c-nanshi-024-wang-family:line067:m0057"
+          ]
+        },
+        {
+          "surface": "王光祿",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p031:m0126"
+          ]
+        },
+        {
           "surface": "王敬弘",
           "mention_ids": [
             "c-songshu-066-wangjinghong:p001:m0000",
@@ -432943,9 +433096,15 @@
           ]
         },
         {
-          "surface": "我",
+          "surface": "王敬𢎞",
           "mention_ids": [
-            "c-songshu-066-wangjinghong:line012:m0086"
+            "c-songshu-067-xielingyun:p006:m02612"
+          ]
+        },
+        {
+          "surface": "王東山",
+          "mention_ids": [
+            "c-nanshi-024-wang-family:line023:m0045"
           ]
         },
         {
@@ -432968,18 +433127,6 @@
           ]
         },
         {
-          "surface": "微臣",
-          "mention_ids": [
-            "c-songshu-066-wangjinghong:line020:m0120"
-          ]
-        },
-        {
-          "surface": "吾",
-          "mention_ids": [
-            "c-songshu-066-wangjinghong:line024:m0225"
-          ]
-        },
-        {
           "surface": "裕",
           "mention_ids": [
             "c-nanqishu-032-wangyanzhi:line077:m0015",
@@ -432990,27 +433137,9 @@
           ]
         },
         {
-          "surface": "曾祖",
-          "mention_ids": [
-            "c-nanshi-024-wang-family:line067:m0057"
-          ]
-        },
-        {
-          "surface": "王東山",
-          "mention_ids": [
-            "c-nanshi-024-wang-family:line023:m0045"
-          ]
-        },
-        {
           "surface": "裕之",
           "mention_ids": [
             "c-nanshi-024-wang-family:line071:m0019"
-          ]
-        },
-        {
-          "surface": "王敬𢎞",
-          "mention_ids": [
-            "c-songshu-067-xielingyun:p006:m02612"
           ]
         }
       ],
@@ -433025,13 +433154,292 @@
           "quote": "敬弘"
         },
         {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-032",
+          "chapter_id": "c-nanqishu-032-wangyanzhi",
+          "source_id": "s-nanqishu-032-wangyanzhi",
+          "paragraph_id": "c-nanqishu-032-wangyanzhi:line077",
+          "mention_id": "c-nanqishu-032-wangyanzhi:line077:m0015",
+          "quote": "裕"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-wangxiuzhi",
+          "source_id": "s-nanqishu-046-wangxiuzhi",
+          "paragraph_id": "c-nanqishu-046-wangxiuzhi:line011",
+          "mention_id": "c-nanqishu-046-wangxiuzhi:line011:m0015",
+          "quote": "裕"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-wangxiuzhi",
+          "source_id": "s-nanqishu-046-wangxiuzhi",
+          "paragraph_id": "c-nanqishu-046-wangxiuzhi:line013",
+          "mention_id": "c-nanqishu-046-wangxiuzhi:line013:m0005",
+          "quote": "裕"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-wangxiuzhi",
+          "source_id": "s-nanqishu-046-wangxiuzhi",
+          "paragraph_id": "c-nanqishu-046-wangxiuzhi:line017",
+          "mention_id": "c-nanqishu-046-wangxiuzhi:line017:m0005",
+          "quote": "裕"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "chapter_id": "c-nanqishu-046-wangxiuzhi",
+          "source_id": "s-nanqishu-046-wangxiuzhi",
+          "paragraph_id": "c-nanqishu-046-wangxiuzhi:line017",
+          "mention_id": "c-nanqishu-046-wangxiuzhi:line017:m0020",
+          "quote": "裕"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line015",
+          "mention_id": "c-nanshi-024-wang-family:line015:m0000",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line015",
+          "mention_id": "c-nanshi-024-wang-family:line015:m0054",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line015",
+          "mention_id": "c-nanshi-024-wang-family:line015:m0197",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line017",
+          "mention_id": "c-nanshi-024-wang-family:line017:m0011",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line019",
+          "mention_id": "c-nanshi-024-wang-family:line019:m0031",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line019",
+          "mention_id": "c-nanshi-024-wang-family:line019:m0055",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line019",
+          "mention_id": "c-nanshi-024-wang-family:line019:m0060",
+          "quote": "臣"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line021",
+          "mention_id": "c-nanshi-024-wang-family:line021:m0011",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "mention_id": "c-nanshi-024-wang-family:line023:m0000",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "mention_id": "c-nanshi-024-wang-family:line023:m0045",
+          "quote": "王東山"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "mention_id": "c-nanshi-024-wang-family:line023:m0116",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "mention_id": "c-nanshi-024-wang-family:line023:m0143",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "mention_id": "c-nanshi-024-wang-family:line023:m0197",
+          "quote": "臣"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "mention_id": "c-nanshi-024-wang-family:line023:m0219",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line025",
+          "mention_id": "c-nanshi-024-wang-family:line025:m0000",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line025",
+          "mention_id": "c-nanshi-024-wang-family:line025:m0071",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line025",
+          "mention_id": "c-nanshi-024-wang-family:line025:m0094",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line033",
+          "mention_id": "c-nanshi-024-wang-family:line033:m0011",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line037",
+          "mention_id": "c-nanshi-024-wang-family:line037:m0004",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line053",
+          "mention_id": "c-nanshi-024-wang-family:line053:m0174",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line067",
+          "mention_id": "c-nanshi-024-wang-family:line067:m0057",
+          "quote": "曾祖"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line071",
+          "mention_id": "c-nanshi-024-wang-family:line071:m0019",
+          "quote": "裕之"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line079",
+          "mention_id": "c-nanshi-024-wang-family:line079:m0009",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line079",
+          "mention_id": "c-nanshi-024-wang-family:line079:m0034",
+          "quote": "敬弘"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line079",
+          "mention_id": "c-nanshi-024-wang-family:line079:m0062",
+          "quote": "敬弘"
+        },
+        {
           "work_id": "w-songshu",
-          "book_id": "b-songshu-066",
-          "chapter_id": "c-songshu-066-wangjinghong",
-          "source_id": "s-songshu-066-wangjinghong",
-          "paragraph_id": "c-songshu-066-wangjinghong:p001",
-          "mention_id": "c-songshu-066-wangjinghong:p001:m0000",
+          "book_id": "b-songshu-005",
+          "chapter_id": "c-songshu-005-wendi-annal",
+          "source_id": "s-songshu-005-wendi-annal",
+          "paragraph_id": "c-songshu-005-wendi-annal:p001",
+          "mention_id": "c-songshu-005-wendi-annal:p001:m0011",
           "quote": "王敬弘"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p031:m0126",
+          "quote": "王光祿"
         },
         {
           "work_id": "w-songshu",
@@ -433349,265 +433757,22 @@
           "quote": "敬弘"
         },
         {
-          "work_id": "w-nanqishu",
-          "book_id": "b-nanqishu-032",
-          "chapter_id": "c-nanqishu-032-wangyanzhi",
-          "source_id": "s-nanqishu-032-wangyanzhi",
-          "paragraph_id": "c-nanqishu-032-wangyanzhi:line077",
-          "mention_id": "c-nanqishu-032-wangyanzhi:line077:m0015",
-          "quote": "裕"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line021",
-          "mention_id": "c-nanshi-024-wang-family:line021:m0011",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line033",
-          "mention_id": "c-nanshi-024-wang-family:line033:m0011",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line037",
-          "mention_id": "c-nanshi-024-wang-family:line037:m0004",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line053",
-          "mention_id": "c-nanshi-024-wang-family:line053:m0174",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line067",
-          "mention_id": "c-nanshi-024-wang-family:line067:m0057",
-          "quote": "曾祖"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line019",
-          "mention_id": "c-nanshi-024-wang-family:line019:m0031",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line019",
-          "mention_id": "c-nanshi-024-wang-family:line019:m0055",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line019",
-          "mention_id": "c-nanshi-024-wang-family:line019:m0060",
-          "quote": "臣"
-        },
-        {
           "work_id": "w-songshu",
-          "book_id": "b-songshu-005",
-          "chapter_id": "c-songshu-005-wendi-annal",
-          "source_id": "s-songshu-005-wendi-annal",
-          "paragraph_id": "c-songshu-005-wendi-annal:p001",
-          "mention_id": "c-songshu-005-wendi-annal:p001:m0011",
-          "quote": "王敬弘"
-        },
-        {
-          "work_id": "w-nanqishu",
-          "book_id": "b-nanqishu-046",
-          "chapter_id": "c-nanqishu-046-wangxiuzhi",
-          "source_id": "s-nanqishu-046-wangxiuzhi",
-          "paragraph_id": "c-nanqishu-046-wangxiuzhi:line011",
-          "mention_id": "c-nanqishu-046-wangxiuzhi:line011:m0015",
-          "quote": "裕"
-        },
-        {
-          "work_id": "w-nanqishu",
-          "book_id": "b-nanqishu-046",
-          "chapter_id": "c-nanqishu-046-wangxiuzhi",
-          "source_id": "s-nanqishu-046-wangxiuzhi",
-          "paragraph_id": "c-nanqishu-046-wangxiuzhi:line013",
-          "mention_id": "c-nanqishu-046-wangxiuzhi:line013:m0005",
-          "quote": "裕"
-        },
-        {
-          "work_id": "w-nanqishu",
-          "book_id": "b-nanqishu-046",
-          "chapter_id": "c-nanqishu-046-wangxiuzhi",
-          "source_id": "s-nanqishu-046-wangxiuzhi",
-          "paragraph_id": "c-nanqishu-046-wangxiuzhi:line017",
-          "mention_id": "c-nanqishu-046-wangxiuzhi:line017:m0005",
-          "quote": "裕"
-        },
-        {
-          "work_id": "w-nanqishu",
-          "book_id": "b-nanqishu-046",
-          "chapter_id": "c-nanqishu-046-wangxiuzhi",
-          "source_id": "s-nanqishu-046-wangxiuzhi",
-          "paragraph_id": "c-nanqishu-046-wangxiuzhi:line017",
-          "mention_id": "c-nanqishu-046-wangxiuzhi:line017:m0020",
-          "quote": "裕"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line015",
-          "mention_id": "c-nanshi-024-wang-family:line015:m0000",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line015",
-          "mention_id": "c-nanshi-024-wang-family:line015:m0054",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line015",
-          "mention_id": "c-nanshi-024-wang-family:line015:m0197",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line017",
-          "mention_id": "c-nanshi-024-wang-family:line017:m0011",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line023",
-          "mention_id": "c-nanshi-024-wang-family:line023:m0000",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line023",
-          "mention_id": "c-nanshi-024-wang-family:line023:m0045",
-          "quote": "王東山"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line023",
-          "mention_id": "c-nanshi-024-wang-family:line023:m0116",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line023",
-          "mention_id": "c-nanshi-024-wang-family:line023:m0143",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line023",
-          "mention_id": "c-nanshi-024-wang-family:line023:m0197",
-          "quote": "臣"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line023",
-          "mention_id": "c-nanshi-024-wang-family:line023:m0219",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line025",
-          "mention_id": "c-nanshi-024-wang-family:line025:m0000",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line025",
-          "mention_id": "c-nanshi-024-wang-family:line025:m0071",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line025",
-          "mention_id": "c-nanshi-024-wang-family:line025:m0094",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-songshu",
-          "book_id": "b-songshu-093",
-          "chapter_id": "c-songshu-093-recluses",
-          "source_id": "s-songshu-093-recluses",
-          "paragraph_id": "c-songshu-093-recluses:line082",
-          "mention_id": "c-songshu-093-recluses:line082:m0023",
+          "book_id": "b-songshu-066",
+          "chapter_id": "c-songshu-066-wangjinghong",
+          "source_id": "s-songshu-066-wangjinghong",
+          "paragraph_id": "c-songshu-066-wangjinghong:p001",
+          "mention_id": "c-songshu-066-wangjinghong:p001:m0000",
           "quote": "王敬弘"
         },
         {
           "work_id": "w-songshu",
-          "book_id": "b-songshu-093",
-          "chapter_id": "c-songshu-093-recluses",
-          "source_id": "s-songshu-093-recluses",
-          "paragraph_id": "c-songshu-093-recluses:line082",
-          "mention_id": "c-songshu-093-recluses:line082:m0034",
-          "quote": "敬弘"
+          "book_id": "b-songshu-067",
+          "chapter_id": "c-songshu-067-xielingyun",
+          "source_id": "s-songshu-067-xielingyun",
+          "paragraph_id": "c-songshu-067-xielingyun:p006",
+          "mention_id": "c-songshu-067-xielingyun:p006:m02612",
+          "quote": "王敬𢎞"
         },
         {
           "work_id": "w-songshu",
@@ -433646,49 +433811,22 @@
           "quote": "敬弘"
         },
         {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line071",
-          "mention_id": "c-nanshi-024-wang-family:line071:m0019",
-          "quote": "裕之"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line079",
-          "mention_id": "c-nanshi-024-wang-family:line079:m0009",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line079",
-          "mention_id": "c-nanshi-024-wang-family:line079:m0034",
-          "quote": "敬弘"
-        },
-        {
-          "work_id": "w-nanshi",
-          "book_id": "b-nanshi-024",
-          "chapter_id": "c-nanshi-024-wang-family",
-          "source_id": "s-nanshi-024-wang-family",
-          "paragraph_id": "c-nanshi-024-wang-family:line079",
-          "mention_id": "c-nanshi-024-wang-family:line079:m0062",
-          "quote": "敬弘"
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-093",
+          "chapter_id": "c-songshu-093-recluses",
+          "source_id": "s-songshu-093-recluses",
+          "paragraph_id": "c-songshu-093-recluses:line082",
+          "mention_id": "c-songshu-093-recluses:line082:m0023",
+          "quote": "王敬弘"
         },
         {
           "work_id": "w-songshu",
-          "book_id": "b-songshu-067",
-          "chapter_id": "c-songshu-067-xielingyun",
-          "source_id": "s-songshu-067-xielingyun",
-          "paragraph_id": "c-songshu-067-xielingyun:p006",
-          "mention_id": "c-songshu-067-xielingyun:p006:m02612",
-          "quote": "王敬𢎞"
+          "book_id": "b-songshu-093",
+          "chapter_id": "c-songshu-093-recluses",
+          "source_id": "s-songshu-093-recluses",
+          "paragraph_id": "c-songshu-093-recluses:line082",
+          "mention_id": "c-songshu-093-recluses:line082:m0034",
+          "quote": "敬弘"
         }
       ],
       "identity_note": "固定原文具名或語境指稱；未知年歲、任期、生母及未核父祖不補，數位校勘記另層。",
@@ -472782,7 +472920,8 @@
           "surface": "晉孝武",
           "mention_ids": [
             "c-songshu-064-peisongzhi:p001:m0072",
-            "c-nanshi-033-pei-family:p002:m0029"
+            "c-nanshi-033-pei-family:p002:m0029",
+            "c-songshu-051-wyd1739-zongshi:p031:m0096"
           ]
         }
       ],
@@ -473370,6 +473509,15 @@
           "chapter_id": "c-nanshi-033-pei-family",
           "paragraph_id": "c-nanshi-033-pei-family:p002",
           "mention_id": "c-nanshi-033-pei-family:p002:m0029",
+          "quote": "晉孝武"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p031:m0096",
           "quote": "晉孝武"
         }
       ],
@@ -520005,7 +520153,8 @@
           "surface": "臨海王子頊",
           "mention_ids": [
             "c-songshu-042-wanghong:line097:m0049",
-            "c-songshu-059-zhangchang:p018:m0015"
+            "c-songshu-059-zhangchang:p018:m0015",
+            "c-songshu-051-wyd1739-zongshi:p039:m0098"
           ]
         }
       ],
@@ -520026,6 +520175,15 @@
           "source_id": "s-songshu-059-zhangchang",
           "paragraph_id": "c-songshu-059-zhangchang:p018",
           "mention_id": "c-songshu-059-zhangchang:p018:m0015",
+          "quote": "臨海王子頊"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p039:m0098",
           "quote": "臨海王子頊"
         }
       ],
@@ -544153,7 +544311,8 @@
             "c-songshu-085-xiezhuang:p002:m0030",
             "c-songshu-067-xielingyun:p008:m00344",
             "c-songshu-062-wangwei:p003:m0032",
-            "c-nanqishu-033-wangsengqian:p002:m0045"
+            "c-nanqishu-033-wangsengqian:p002:m0045",
+            "c-songshu-051-wyd1739-zongshi:p034:m0127"
           ]
         },
         {
@@ -544272,6 +544431,15 @@
           "source_id": "s-nanqishu-033-wangsengqian",
           "paragraph_id": "c-nanqishu-033-wangsengqian:p002",
           "mention_id": "c-nanqishu-033-wangsengqian:p002:m0045",
+          "quote": "袁淑"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p034:m0127",
           "quote": "袁淑"
         }
       ],
@@ -545869,7 +546037,8 @@
         {
           "surface": "陸展",
           "mention_ids": [
-            "c-songshu-067-xielingyun:p008:m00261"
+            "c-songshu-067-xielingyun:p008:m00261",
+            "c-songshu-051-wyd1739-zongshi:p034:m0150"
           ]
         }
       ],
@@ -545881,6 +546050,15 @@
           "source_id": "s-songshu-067-xielingyun",
           "paragraph_id": "c-songshu-067-xielingyun:p008",
           "mention_id": "c-songshu-067-xielingyun:p008:m00261",
+          "quote": "陸展"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p034:m0150",
           "quote": "陸展"
         }
       ],
@@ -547742,7 +547920,8 @@
           "surface": "何長瑜",
           "mention_ids": [
             "c-songshu-067-xielingyun:p008:m00018",
-            "c-songshu-067-xielingyun:p008:m00134"
+            "c-songshu-067-xielingyun:p008:m00134",
+            "c-songshu-051-wyd1739-zongshi:p034:m0154"
           ]
         },
         {
@@ -547829,6 +548008,15 @@
           "paragraph_id": "c-songshu-067-xielingyun:p008",
           "mention_id": "c-songshu-067-xielingyun:p008:m00376",
           "quote": "長瑜"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p034:m0154",
+          "quote": "何長瑜"
         }
       ],
       "identity_note": "本卷完整單元具名來源人物；不以現代本名替換原稱。已查現庫同名/異稱，未證同人者不併。",
@@ -592372,7 +592560,8 @@
         {
           "surface": "吉甫",
           "mention_ids": [
-            "c-sanguozhi-009-caozhen:p009:m0263"
+            "c-sanguozhi-009-caozhen:p009:m0263",
+            "c-songshu-051-wyd1739-zongshi:p038:m0184"
           ]
         }
       ],
@@ -592384,6 +592573,15 @@
           "chapter_id": "c-sanguozhi-009-caozhen",
           "paragraph_id": "c-sanguozhi-009-caozhen:p009",
           "mention_id": "c-sanguozhi-009-caozhen:p009:m0263",
+          "quote": "吉甫"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p038",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p038:m0184",
           "quote": "吉甫"
         }
       ],
@@ -648182,19 +648380,21 @@
             "c-songshu-051-wyd1739-zongshi:p028:m0092",
             "c-songshu-051-wyd1739-zongshi:p029:m0154",
             "c-songshu-045-wyd1739-liucui:p012:m0079",
-            "c-songshu-045-wyd1739-liucui:p014:m0145"
+            "c-songshu-045-wyd1739-liucui:p014:m0145",
+            "c-songshu-051-wyd1739-zongshi:p030:m0083",
+            "c-songshu-051-wyd1739-zongshi:p031:m0016",
+            "c-songshu-051-wyd1739-zongshi:p032:m0072",
+            "c-songshu-051-wyd1739-zongshi:p032:m0109",
+            "c-songshu-051-wyd1739-zongshi:p033:m0125",
+            "c-songshu-051-wyd1739-zongshi:p034:m0133",
+            "c-songshu-051-wyd1739-zongshi:p034:m0175",
+            "c-songshu-051-wyd1739-zongshi:p039:m0125"
           ]
         },
         {
           "surface": "宗英",
           "mention_ids": [
             "c-songshu-067-xielingyun:p008:m00358"
-          ]
-        },
-        {
-          "surface": "此",
-          "mention_ids": [
-            "c-songshu-051-wyd1739-zongshi:p029:m0164"
           ]
         }
       ],
@@ -648327,15 +648527,6 @@
         },
         {
           "work_id": "w-songshu",
-          "book_id": "b-songshu-051",
-          "source_id": "s-songshu-051-wyd1739-zongshi",
-          "chapter_id": "c-songshu-051-wyd1739-zongshi",
-          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p029",
-          "mention_id": "c-songshu-051-wyd1739-zongshi:p029:m0164",
-          "quote": "此"
-        },
-        {
-          "work_id": "w-songshu",
           "book_id": "b-songshu-045",
           "source_id": "s-songshu-045-wyd1739-liucui",
           "chapter_id": "c-songshu-045-wyd1739-liucui",
@@ -648350,6 +648541,78 @@
           "chapter_id": "c-songshu-045-wyd1739-liucui",
           "paragraph_id": "c-songshu-045-wyd1739-liucui:p014",
           "mention_id": "c-songshu-045-wyd1739-liucui:p014:m0145",
+          "quote": "義慶"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p030",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p030:m0083",
+          "quote": "義慶"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p031:m0016",
+          "quote": "義慶"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p032",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p032:m0072",
+          "quote": "義慶"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p032",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p032:m0109",
+          "quote": "義慶"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p033",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p033:m0125",
+          "quote": "義慶"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p034:m0133",
+          "quote": "義慶"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p034:m0175",
+          "quote": "義慶"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p039:m0125",
           "quote": "義慶"
         }
       ],
@@ -649053,7 +649316,10 @@
             "c-songshu-063-wyd1739-wangtanshou:p005:m0113",
             "c-songshu-063-wyd1739-wangtanshou:p005:m0205",
             "c-songshu-063-wyd1739-wangtanshou:p006:m0069",
-            "c-songshu-051-wyd1739-zongshi:p009:m0205"
+            "c-songshu-051-wyd1739-zongshi:p009:m0205",
+            "c-songshu-051-wyd1739-zongshi:p031:m0026",
+            "c-songshu-051-wyd1739-zongshi:p034:m0172",
+            "c-songshu-051-wyd1739-zongshi:p039:m0149"
           ]
         },
         {
@@ -649135,7 +649401,8 @@
             "c-songshu-063-wyd1739-wangtanshou:p005:m0040",
             "c-songshu-063-wyd1739-wangtanshou:p005:m0065",
             "c-songshu-063-wyd1739-wangtanshou:p006:m0017",
-            "c-songshu-051-wyd1739-zongshi:p041:m0164"
+            "c-songshu-051-wyd1739-zongshi:p041:m0164",
+            "c-songshu-051-wyd1739-zongshi:p039:m0065"
           ]
         },
         {
@@ -649174,7 +649441,8 @@
             "c-songshu-053-zhangmaodu:p001:m0564",
             "c-songshu-064-peisongzhi:p005:m0079",
             "c-songshu-063-wyd1739-wangtanshou:p004:m0206",
-            "c-songshu-063-wyd1739-wangtanshou:p005:m0029"
+            "c-songshu-063-wyd1739-wangtanshou:p005:m0029",
+            "c-songshu-051-wyd1739-zongshi:p032:m0134"
           ]
         },
         {
@@ -649210,8 +649478,7 @@
             "c-nanshi-020-xiehongwei:p016:m0053",
             "c-songshu-064-peisongzhi:p004:m0277",
             "c-songshu-064-peisongzhi:p004:m0493",
-            "c-songshu-064-peisongzhi:p004:m0559",
-            "c-songshu-051-wyd1739-zongshi:p029:m0019"
+            "c-songshu-064-peisongzhi:p004:m0559"
           ]
         },
         {
@@ -649311,7 +649578,9 @@
         {
           "surface": "聖上",
           "mention_ids": [
-            "c-songshu-044-wyd1739-xiehui:p007:m0343"
+            "c-songshu-044-wyd1739-xiehui:p007:m0343",
+            "c-songshu-051-wyd1739-zongshi:p035:m0170",
+            "c-songshu-051-wyd1739-zongshi:p037:m0052"
           ]
         },
         {
@@ -651480,15 +651749,6 @@
         },
         {
           "work_id": "w-songshu",
-          "book_id": "b-songshu-051",
-          "source_id": "s-songshu-051-wyd1739-zongshi",
-          "chapter_id": "c-songshu-051-wyd1739-zongshi",
-          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p029",
-          "mention_id": "c-songshu-051-wyd1739-zongshi:p029:m0019",
-          "quote": "朕"
-        },
-        {
-          "work_id": "w-songshu",
           "book_id": "b-songshu-005",
           "source_id": "s-songshu-005-wyd1739-wendi-opening",
           "chapter_id": "c-songshu-005-wyd1739-wendi-opening",
@@ -651828,6 +652088,69 @@
           "paragraph_id": "c-songshu-051-wyd1739-zongshi:p041",
           "mention_id": "c-songshu-051-wyd1739-zongshi:p041:m0164",
           "quote": "上"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p031:m0026",
+          "quote": "太祖"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p032",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p032:m0134",
+          "quote": "陛下"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p034:m0172",
+          "quote": "太祖"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p035",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p035:m0170",
+          "quote": "聖上"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p037",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p037:m0052",
+          "quote": "聖上"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p039:m0065",
+          "quote": "上"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p039:m0149",
+          "quote": "太祖"
         }
       ],
       "identity_note": "宋書66完整本傳人物，依上下文逐段辨識；親屬組裝及有據家族ID整合續錄，不從本段列序補排行，不補未知本名。 本輪武英殿卷005傳首明太祖文皇帝諱義隆、武帝第三子，與既收劉義隆具名角色取同指；保原稱、全部來源與既有女支。",
@@ -658557,6 +658880,319 @@
         "human_reviewed": false,
         "reviewer": "Codex（AI代理）"
       }
+    },
+    {
+      "id": "0xp_7ht_1yc",
+      "label": "庾實",
+      "status": "active",
+      "historicity": "historical",
+      "aliases": [
+        {
+          "surface": "庾實",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p032:m0205"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p032",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p032:m0205",
+          "quote": "庾實"
+        }
+      ]
+    },
+    {
+      "id": "8iv_mu1_z25",
+      "label": "鮑照",
+      "status": "active",
+      "historicity": "historical",
+      "aliases": [
+        {
+          "surface": "明遠",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p034:m0186"
+          ]
+        },
+        {
+          "surface": "照",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p035:m0004",
+            "c-songshu-051-wyd1739-zongshi:p039:m0059",
+            "c-songshu-051-wyd1739-zongshi:p039:m0076",
+            "c-songshu-051-wyd1739-zongshi:p039:m0091"
+          ]
+        },
+        {
+          "surface": "鮑照",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p034:m0157",
+            "c-songshu-051-wyd1739-zongshi:p034:m0183"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p034:m0157",
+          "quote": "鮑照"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p034:m0183",
+          "quote": "鮑照"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p034:m0186",
+          "quote": "明遠"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p035",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p035:m0004",
+          "quote": "照"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p039:m0059",
+          "quote": "照"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p039:m0076",
+          "quote": "照"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p039:m0091",
+          "quote": "照"
+        }
+      ]
+    },
+    {
+      "id": "bxb_qzl_ffd",
+      "label": "趙（黃初妻，名未載）",
+      "status": "active",
+      "historicity": "historical",
+      "aliases": [
+        {
+          "surface": "趙",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p030:m0071",
+            "c-songshu-051-wyd1739-zongshi:p030:m0164"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p030",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p030:m0071",
+          "quote": "趙"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p030",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p030:m0164",
+          "quote": "趙"
+        }
+      ]
+    },
+    {
+      "id": "jl3_81j_g6u",
+      "label": "師纂",
+      "status": "active",
+      "historicity": "historical",
+      "aliases": [
+        {
+          "surface": "師纂",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p033:m0078"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p033",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p033:m0078",
+          "quote": "師纂"
+        }
+      ]
+    },
+    {
+      "id": "scs_uoz_xkl",
+      "label": "黃初",
+      "status": "active",
+      "historicity": "historical",
+      "aliases": [
+        {
+          "surface": "黃初",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p030:m0068"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p030",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p030:m0068",
+          "quote": "黃初"
+        }
+      ]
+    },
+    {
+      "id": "u5k_wgo_jnu",
+      "label": "龔祈",
+      "status": "active",
+      "historicity": "historical",
+      "aliases": [
+        {
+          "surface": "龔祈",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p033:m0046"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p033",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p033:m0046",
+          "quote": "龔祈"
+        }
+      ]
+    },
+    {
+      "id": "4d4_5ik_wqm",
+      "label": "鄭鮮之",
+      "status": "active",
+      "historicity": "historical",
+      "aliases": [
+        {
+          "surface": "鄭僕射",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p031:m0125"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p031:m0125",
+          "quote": "鄭僕射"
+        }
+      ],
+      "identity_note": "本卷「鄭僕射」據識典古籍《宋書》卷六十四〈鄭裴何傳〉對讀辨為鄭鮮之，字道子；外部頁另載元嘉三年任尚書右僕射、四年卒。該卷全文尚未收入本庫，故本筆只把本卷稱指接至候選，不冒稱本庫底本文字。https://www.shidianguji.com/zh/book/SK0713/chapter/1m1e3eo7ccy6h",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "3qs_nqa_ioa_AABBB",
+      "label": "劉燁（候選讀法）",
+      "status": "active",
+      "historicity": "historical",
+      "aliases": [
+        {
+          "surface": "曄王建",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p039:m0183"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p039:m0183",
+          "quote": "曄王建"
+        }
+      ],
+      "identity_note": "家系路徑依本傳「子」字接入劉義慶子支；名讀候選參照識典古籍卷五十一「子哀王燁字景舒」，武英殿原轉錄仍作「子曄王建字景舒」，未完成掃描圖核字，故讀法暫定。",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "3qs_nqa_ioa_AABBBA",
+      "label": "劉綽",
+      "status": "active",
+      "historicity": "historical",
+      "aliases": [
+        {
+          "surface": "綽",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p039:m0207"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+          "mention_id": "c-songshu-051-wyd1739-zongshi:p039:m0207",
+          "quote": "綽"
+        }
+      ],
+      "identity_note": "本傳「子綽」接在劉燁候選事跡後；同卷相鄰欄接作「字子流嗣」，合讀為劉綽、字子流。沒有增加 p040 人名標註。",
+      "review": "ai_provisional"
     }
-  ]
+  ],
+  "allocation": "人物根 ID 採三組隨機識別碼；家族成員使用家族後綴。ID 可依身份辨識、父系接合或使用者重置調整；調整時須完整更新引用並移除舊 ID 檔案，不設公開舊 ID 別名。後綴表示資料位置，不等於排行。",
+  "next_number": 6106
 }

@@ -198,6 +198,7 @@
 | `0wy_1jp_os3` | 大行騫 | [《史記・五宗世家》][128] | [JSON](0wy_1jp_os3.json) |
 | `0xe_mxp_vls` | 顏何 | [《史記・仲尼弟子列傳》][136] | [JSON](0xe_mxp_vls.json) |
 | `0xm_s1t_gt4` | 齊湣王 | [《史記・魏世家》][113] | [JSON](0xm_s1t_gt4.json) |
+| `0xp_7ht_1yc` | 庾實 | [《宋書・宗室》][212] | [JSON](0xp_7ht_1yc.json) |
 | `0xp_j8o_cl2` | 閻奉 | [《史記・酷吏列傳》][191] | [JSON](0xp_j8o_cl2.json) |
 | `0xx_ozc_454` | 趙高 | [《史記・李斯列傳》][156] | [JSON](0xx_ozc_454.json) |
 | `0yh_g69_8b8` | 堯引古傳說 | [《史記・李斯列傳》][156] | [JSON](0yh_g69_8b8.json) |
@@ -246,7 +247,7 @@
 | `16n_czk_thg` | 田忌 | [《史記・田敬仲完世家》][115] | [JSON](16n_czk_thg.json) |
 | `16v_9b1_4bn` | 桀溺 | [《史記・孔子世家》][116] | [JSON](16v_9b1_4bn.json) |
 | `172_ij7_8yf` | 公子高 | [《史記・李斯列傳》][156] | [JSON](172_ij7_8yf.json) |
-| `178_955_25e` | 陸展 | [《宋書・謝靈運》][225] | [JSON](178_955_25e.json) |
+| `178_955_25e` | 陸展 | [《宋書・宗室》][212]、[《宋書・謝靈運》][225] | [JSON](178_955_25e.json) |
 | `179_5is_1bb` | 趙王 | [《史記・酷吏列傳》][191] | [JSON](179_5is_1bb.json) |
 | `17a_fd0_7e1` | 李閎 | [《晉書・叛臣三》][62] | [JSON](17a_fd0_7e1.json) |
 | `17c_7g8_b8g` | 盧生 | [《史記・秦始皇本紀》][93] | [JSON](17c_7g8_b8g.json) |
@@ -881,6 +882,7 @@
 | `4cy_oy6_nua` | 田儋 | [《史記・陳涉世家》][117] | [JSON](4cy_oy6_nua.json) |
 | `4cz_vyb_q2r` | 史偃 | [《南齊書・王僧虔 張緒》][67] | [JSON](4cz_vyb_q2r.json) |
 | `4d0_phq_cjk` | 申公巫臣 | [《史記・晉世家》][108] | [JSON](4d0_phq_cjk.json) |
+| `4d4_5ik_wqm` | 鄭鮮之 | [《宋書・宗室》][212] | [JSON](4d4_5ik_wqm.json) |
 | `4d8_64b_78f` | 卞闡 | [《晉書・庾亮》][43] | [JSON](4d8_64b_78f.json) |
 | `4dk_afl_vwx` | 屈侯鮒 | [《史記・魏世家》][113] | [JSON](4dk_afl_vwx.json) |
 | `4dm_2h1_9je` | 屈原（楚篇使齊者） | [《史記・屈原賈生列傳》][153] | [JSON](4dm_2h1_9je.json) |
@@ -1501,7 +1503,7 @@
 | `7ff_u3q_0hy` | 樊須 | [《史記・仲尼弟子列傳》][136] | [JSON](7ff_u3q_0hy.json) |
 | `7fj_v15_1ej` | 馬服子 | [《史記・韓世家》][114] | [JSON](7fj_v15_1ej.json) |
 | `7ge_psz_ic9` | 茅蘭 | [《史記・梁孝王世家》][127] | [JSON](7ge_psz_ic9.json) |
-| `7gf_eb0_0cd` | 王褒 | [《史記・平津侯主父列傳》][181] | [JSON](7gf_eb0_0cd.json) |
+| `7gf_eb0_0cd` | 王褒 | [《史記・平津侯主父列傳》][181]、[《宋書・宗室》][212] | [JSON](7gf_eb0_0cd.json) |
 | `7gg_m5f_ub1` | 孝武皇帝 | [《史記・屈原賈生列傳》][153] | [JSON](7gg_m5f_ub1.json) |
 | `7gs_9lq_cdp` | 萬章 | [《史記・孟子荀卿列傳》][143] | [JSON](7gs_9lq_cdp.json) |
 | `7gz_q9f_d37` | 鄭莊公 | [《史記・周本紀》][91] | [JSON](7gz_q9f_d37.json) |
@@ -1611,7 +1613,7 @@
 | `838_8fc_339` | 陶隱 | [《晉書・謝尚 謝安》][53] | [JSON](838_8fc_339.json) |
 | `83a_193_202` | 法綱 | [《晉書・王導》][40] | [JSON](83a_193_202.json) |
 | `83d_b6e_058` | 懷帝（荀勖傳） | [《晉書・周浚 成公簡 苟晞 華軼 劉喬》][38] | [JSON](83d_b6e_058.json) |
-| `83f_ecc_ef1` | 臨海王子頊 | [《宋書・劉穆之 王弘》][205]、[《宋書・殷淳 張暢 何偃 江智淵》][218] | [JSON](83f_ecc_ef1.json) |
+| `83f_ecc_ef1` | 臨海王子頊 | [《宋書・劉穆之 王弘》][205]、[《宋書・宗室》][212]、[《宋書・殷淳 張暢 何偃 江智淵》][218] | [JSON](83f_ecc_ef1.json) |
 | `83h_9bz_3je` | 隗林 | [《史記・秦始皇本紀》][93] | [JSON](83h_9bz_3je.json) |
 | `840_l2v_yep` | 華元（宋右師） | [《史記・宋微子世家》][107] | [JSON](840_l2v_yep.json) |
 | `841_xi4_je8` | 荀寅 | [《史記・趙世家》][112] | [JSON](841_xi4_je8.json) |
@@ -1711,6 +1713,7 @@
 | `8i7_3dy_neb` | 斑師（衛君） | [《史記・衛康叔世家》][106] | [JSON](8i7_3dy_neb.json) |
 | `8ie_pfa_02i` | 王后荼 | [《史記・淮南衡山列傳》][187] | [JSON](8ie_pfa_02i.json) |
 | `8ip_ubw_ssk` | 長沙王 | [《史記・南越列傳》][182] | [JSON](8ip_ubw_ssk.json) |
+| `8iv_mu1_z25` | 鮑照 | [《宋書・宗室》][212] | [JSON](8iv_mu1_z25.json) |
 | `8j2_yqw_vqw` | 陳勝庸耕故人（陳涉世家未名者） | [《史記・陳涉世家》][117] | [JSON](8j2_yqw_vqw.json) |
 | `8ji_f2j_ga7` | 宋邑 | [《史記・扁鵲倉公列傳》][174] | [JSON](8ji_f2j_ga7.json) |
 | `8jr_zbk_lao` | 獵會未到者未名 | [《史記・田叔列傳》][173] | [JSON](8jr_zbk_lao.json) |
@@ -2092,8 +2095,6 @@
 | `ae7_dcf_084` | 范汪 | [《晉書・庾亮》][42]、[《晉書・謝尚 謝安》][53] | [JSON](ae7_dcf_084.json) |
 | `aeg_ljr_nw1` | 衛毅〔冏所封陰平公〕 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][35] | [JSON](aeg_ljr_nw1.json) |
 | `aey_tui_wzm` | 齊太師（孔子世家未名者） | [《史記・孔子世家》][116] | [JSON](aey_tui_wzm.json) |
-| `aez_p66_9uj` | 藺相如持璧歸趙從者未名 | [《史記・廉頗藺相如列傳》][150] | [JSON](aez_p66_9uj.json) |
-| `af1_11d_057` | 宗慤 | [《宋書・謝莊 王景文》][228] | [JSON](af1_11d_057.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

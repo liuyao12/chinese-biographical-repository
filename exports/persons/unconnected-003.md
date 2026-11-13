@@ -6,6 +6,8 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][164] | [JSON](mgl_q57_d7h.json) |
+| `mh6_5un_rq0` | 韓康子（殺知伯者） | [《史記・晉世家》][108] | [JSON](mh6_5un_rq0.json) |
 | `mhe_05y_s6w` | 虞預 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47]、[《三國志・桓二陳徐衞盧傳》][84] | [JSON](mhe_05y_s6w.json) |
 | `mhf_ukx_zs1` | 雲敷 | [《宋書・宗室》][212] | [JSON](mhf_ukx_zs1.json) |
 | `mi0_e91_pmn` | 休（確叔父，永嘉太守） | [《宋書・王僧達 顏竣》][227] | [JSON](mi0_e91_pmn.json) |
@@ -948,6 +950,7 @@
 | `sbr_lsz_xkh` | 申紀（楚篇齊臣） | [《史記・楚世家》][109] | [JSON](sbr_lsz_xkh.json) |
 | `sci_1hw_slc` | 曾參 | [《史記・袁盎鼂錯列傳》][170] | [JSON](sci_1hw_slc.json) |
 | `scm_yn2_dzn` | 呂甥 | [《史記・晉世家》][108] | [JSON](scm_yn2_dzn.json) |
+| `scs_uoz_xkl` | 黃初 | [《宋書・宗室》][212] | [JSON](scs_uoz_xkl.json) |
 | `sd1_zvh_sby` | 渾沌 | [《史記・五帝本紀》][88] | [JSON](sd1_zvh_sby.json) |
 | `sd2_qmy_yit` | 館豎子刺虎故事 | [《史記・張儀列傳》][139] | [JSON](sd2_qmy_yit.json) |
 | `sd6_kzw_afm` | 鯫生（沛公所引） | [《史記・項羽本紀》][94] | [JSON](sd6_kzw_afm.json) |
@@ -1222,6 +1225,7 @@
 | `u4t_jyh_ag2` | 河伯婦（未名） | [《史記・滑稽列傳》][195] | [JSON](u4t_jyh_ag2.json) |
 | `u4w_p3a_v09` | 吳起 | [《史記・孟子荀卿列傳》][143] | [JSON](u4w_p3a_v09.json) |
 | `u5g_scl_2bs` | 徇北將軍 | [《史記・東越列傳》][183] | [JSON](u5g_scl_2bs.json) |
+| `u5k_wgo_jnu` | 龔祈 | [《宋書・宗室》][212] | [JSON](u5k_wgo_jnu.json) |
 | `u5s_kyz_45g` | 程道惠 | [《宋書・謝晦》][206] | [JSON](u5s_kyz_45g.json) |
 | `u5y_hy5_zv9` | 呂祿女（朱虛侯妻） | [《史記・呂后本紀》][96] | [JSON](u5y_hy5_zv9.json) |
 | `u60_ta3_108` | 郈昭伯 | [《史記・魯周公世家》][102] | [JSON](u60_ta3_108.json) |
@@ -1683,7 +1687,7 @@
 | `x8q_2uu_vfw` | 峙〔憲族人、邁父〕 | [《晉書・陳騫 裴秀》][27] | [JSON](x8q_2uu_vfw.json) |
 | `x8r_9sk_d7a` | 兒寬 | [《史記・儒林列傳》][190] | [JSON](x8r_9sk_d7a.json) |
 | `x8s_zva_utk` | 秦將（負芻二年伐楚未名者） | [《史記・楚世家》][109] | [JSON](x8s_zva_utk.json) |
-| `x90_wil_yzm` | 吉甫 | [《三國志・諸夏侯曹傳》][77] | [JSON](x90_wil_yzm.json) |
+| `x90_wil_yzm` | 吉甫 | [《三國志・諸夏侯曹傳》][77]、[《宋書・宗室》][212] | [JSON](x90_wil_yzm.json) |
 | `x99_1e5_dbn` | 楚威王 | [《史記・越王勾踐世家》][110] | [JSON](x99_1e5_dbn.json) |
 | `x9l_eux_c3n` | 申陽 | [《史記・項羽本紀》][94]、[《史記・高祖本紀》][95]、[《史記・秦楚之際月表》][246] | [JSON](x9l_eux_c3n.json) |
 | `x9n_lwg_op5` | 騶田生 | [《史記・韓長孺列傳》][177] | [JSON](x9n_lwg_op5.json) |

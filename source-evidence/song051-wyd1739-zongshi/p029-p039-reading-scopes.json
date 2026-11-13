@@ -1,0 +1,122 @@
+{
+  "format_version": "0.2",
+  "record_type": "received_text_reading_scope_set",
+  "chapter_id": "c-songshu-051-wyd1739-zongshi",
+  "source_id": "s-songshu-051-wyd1739-zongshi",
+  "source_revision": "cbr-ai-transcription-sha256:aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
+  "chapter_text_sha256": "5391e90d3a08efc60523c9c0f9fb2bff641eea6f9ff0eb013642bfa484d88d8a",
+  "scope_basis": "固定武英殿轉錄中可見的引語標記及敘事轉折；不增標點或改字，範圍用段落內Unicode字元偏移定位。",
+  "scopes": [
+    {
+      "id": "scope-song051-p029-p039-edict",
+      "kind": "embedded_edict",
+      "start": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p028",
+        "offset": 104,
+        "surface": "太祖詔曰"
+      },
+      "end": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p029",
+        "offset": 157,
+        "surface": "義慶幼"
+      },
+      "note": "引詔始於太祖詔曰；包含p029末端太妃祭禮命令，於義慶幼轉入本傳。"
+    },
+    {
+      "id": "scope-song051-p029-p039-case-ruling",
+      "kind": "embedded_recorded_speech",
+      "start": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p030",
+        "offset": 83,
+        "surface": "義慶曰"
+      },
+      "end": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p030",
+        "offset": 209,
+        "surface": "孝道"
+      },
+      "note": "義慶所論止於孝道；相鄰「六年」起恢復本傳紀年。"
+    },
+    {
+      "id": "scope-song051-p029-p039-imperial-letter",
+      "kind": "embedded_imperial_letter",
+      "start": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
+        "offset": 26,
+        "surface": "太祖詔譬之曰"
+      },
+      "end": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
+        "offset": 198,
+        "surface": "豈敢苟違天邪"
+      },
+      "note": "答書止於「豈敢苟違天邪」，其後回到義慶求解僕射的本傳敘述。"
+    },
+    {
+      "id": "scope-song051-p029-p039-memorial",
+      "kind": "embedded_memorial",
+      "start": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p032",
+        "offset": 109,
+        "surface": "義慶上表曰"
+      },
+      "end": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p033",
+        "offset": 125,
+        "surface": "何遠之有"
+      },
+      "note": "上表跨p032–p033；後接義慶留心撫物等本傳敘述。"
+    },
+    {
+      "id": "scope-song051-p029-p039-heqing-praise",
+      "kind": "embedded_praise",
+      "start": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p035",
+        "offset": 16,
+        "surface": "臣聞"
+      },
+      "end": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+        "offset": 56,
+        "surface": "寧不勉乎"
+      },
+      "note": "鮑照《河清頌》自「其辭曰臣聞」起，止於「寧不勉乎」；後接世祖任鮑照為中書舍人的本傳。"
+    }
+  ],
+  "uncertain_readings": [
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+      "surface": "子曄王建字景舒",
+      "status": "unresolved_transcription_reading",
+      "note": "武英殿轉錄原字序不改，整串作一個待校讀候選，不拆成立兩名人物。識典古籍卷五十一對讀作「子哀王燁字景舒嗣」，只支持一個劉燁候選；武英殿PDF第36頁定點核圖未完成，故候選維持contextual_provisional。"
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+      "surface": "子綽字子",
+      "status": "resolved_with_adjacent_column_context",
+      "note": "本段「子綽」識別劉綽；同卷相鄰轉錄列接作「流嗣」，完成字「子流」的字形鏈。只用於此姓名解讀，不為p040新增人物提及。"
+    }
+  ],
+  "reviewer": "Codex（AI代理）",
+  "human_reviewed": false,
+  "model": null,
+  "comparison_witnesses": [
+    {
+      "id": "comparison-shidian-songshu051-p039",
+      "title": "識典古籍《宋書》卷五十一",
+      "url": "https://www.shidianguji.com/zh/book/NGJ892412000000033230559/chapter/1lvrutt4epdtf",
+      "status": "comparison_only_not_adopted",
+      "edition": "網站頁面未能確定底本；不得稱武英殿本或作底本。",
+      "observation": "識典古籍同段作「子哀王燁字景舒嗣」；與本庫武英殿原轉錄「子曄王建字景舒嗣」不同。",
+      "use": "只作一個劉燁候選讀法；不替換武英殿轉錄，不宣稱掃描已核。",
+      "image_check": {
+        "source_pdf_page": 36,
+        "column_from_right": 10,
+        "raw_line": 386,
+        "source_page_url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763&page=36",
+        "source_image_sha256": "cc945ad0f72b81a6610c3f8876096481e71b2952c61d05d5610b24b9be50d935",
+        "status": "targeted_image_check_not_completed"
+      }
+    }
+  ]
+}
