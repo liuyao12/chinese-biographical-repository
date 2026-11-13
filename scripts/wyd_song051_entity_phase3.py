@@ -14,7 +14,7 @@ except ImportError:
 CH = 'corpus/songshu/051-wyd1739.json'
 CID = 'c-songshu-051-wyd1739-zongshi'
 REF = 'source-evidence/song051-wyd1739-zongshi/entity-markup-phase3-contract.json'
-CONTRACT_SHA = '920a3bda572034ad9ed96d945ecb110ac835ebde596be127834e60f6a22e2d66'
+CONTRACT_SHA = '5fe21384604b3767c7edc5064bcc09310eb96bb7aa893a22ece50f8fd3a1e638'
 
 
 def need(ok, message):

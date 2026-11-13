@@ -17,11 +17,12 @@
       "c-songshu-051-wyd1739-zongshi:p006",
       "c-songshu-051-wyd1739-zongshi:p007",
       "c-songshu-051-wyd1739-zongshi:p012",
+      "c-songshu-051-wyd1739-zongshi:p013",
       "c-songshu-051-wyd1739-zongshi:p034",
       "c-songshu-051-wyd1739-zongshi:p047",
       "c-songshu-051-wyd1739-zongshi:p048"
     ],
-    "additional_person_mentions": 123,
+    "additional_person_mentions": 144,
     "human_reviewed": false,
     "model": null
   },
@@ -37,11 +38,12 @@
         "c-songshu-051-wyd1739-zongshi:p005",
         "c-songshu-051-wyd1739-zongshi:p007",
         "c-songshu-051-wyd1739-zongshi:p012",
+        "c-songshu-051-wyd1739-zongshi:p013",
         "c-songshu-051-wyd1739-zongshi:p034",
         "c-songshu-051-wyd1739-zongshi:p047",
         "c-songshu-051-wyd1739-zongshi:p048"
       ],
-      "additional_person_mentions": 113
+      "additional_person_mentions": 134
     },
     "human_reviewed": false,
     "model": null
@@ -59,7 +61,16 @@
     "BaoZhao": "5ew_f6b_tfj",
     "DiaoMi": "sp6_k2v_4kg_A",
     "ChenYan": "6pi_uq2_l0p",
-    "LiuYiSon": "3qs_nqa_ioa_AABCA"
+    "LiuYiSon": "3qs_nqa_ioa_AABCA",
+    "LiuXi": "3qs_nqa_ioa_AABCB",
+    "LiuHuang": "3qs_nqa_ioa_AABCBA",
+    "LiuMin": "3qs_nqa_ioa_AABCBB",
+    "QiRenzu": "6hp_4mx_btg",
+    "WangWulian": "1rk_8jf_lqv",
+    "PengYuanjun": "x2m_9kq_7zd",
+    "LiuBiao": "3qs_nqa_ioa_AABCC",
+    "LiuDing": "3qs_nqa_ioa_AABCD",
+    "LiuYiBrother": "3qs_nqa_ioa_AABCE"
   },
   "markers": [
     {
@@ -753,6 +764,21 @@
       }
     },
     {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p004",
+      "role_key": "DaolianChijieP004",
+      "alias_surface": false,
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p004:m0011",
+        "start": 207,
+        "end": 209,
+        "surface": "持節",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AAB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:DaolianChijieP004"
+      }
+    },
+    {
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p005",
       "role_key": "LiuDaolian",
       "marker": {
@@ -1244,316 +1270,6 @@
       }
     },
     {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p007",
-      "role_key": "WangZhene",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p007:m0000",
-        "start": 109,
-        "end": 111,
-        "surface": "鎮惡",
-        "kind": "person",
-        "person_id": "quq_d6y_akf",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:WangZhene"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
-      "role_key": "LiuYirong",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p012:m0123",
-        "start": 147,
-        "end": 149,
-        "surface": "義融",
-        "kind": "person",
-        "person_id": "3qs_nqa_ioa_AABC",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:LiuYirong"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
-      "role_key": "LiuYiSon",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p012:m0124",
-        "start": 193,
-        "end": 194,
-        "surface": "顗",
-        "kind": "person",
-        "person_id": "3qs_nqa_ioa_AABCA",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:LiuYiSon"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
-      "role_key": "LiuShao",
-      "alias_surface": false,
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p012:m0125",
-        "start": 204,
-        "end": 206,
-        "surface": "元凶",
-        "kind": "person",
-        "person_id": "fof_k8v_7md",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:LiuShao"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
-      "role_key": "LiuJun",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p012:m0122",
-        "start": 208,
-        "end": 210,
-        "surface": "世祖",
-        "kind": "person",
-        "person_id": "hx8_st4_jdd",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:LiuJun"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
-      "role_key": "ExistingYuanShu",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p034:m0127",
-        "start": 127,
-        "end": 129,
-        "surface": "袁淑",
-        "kind": "person",
-        "person_id": "ded_ea4_21d",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:ExistingYuanShu"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
-      "role_key": "ExistingLiuYiqing",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p034:m0133",
-        "start": 133,
-        "end": 135,
-        "surface": "義慶",
-        "kind": "person",
-        "person_id": "3qs_nqa_ioa_AABB",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:ExistingLiuYiqing"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
-      "role_key": "ExistingLuZhan",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p034:m0150",
-        "start": 150,
-        "end": 152,
-        "surface": "陸展",
-        "kind": "person",
-        "person_id": "178_955_25e",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:ExistingLuZhan"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
-      "role_key": "ExistingHeChangyu",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p034:m0154",
-        "start": 154,
-        "end": 157,
-        "surface": "何長瑜",
-        "kind": "person",
-        "person_id": "f1e_a88_374",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:ExistingHeChangyu"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
-      "role_key": "BaoZhao",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p034:m0157",
-        "start": 157,
-        "end": 159,
-        "surface": "鮑照",
-        "kind": "person",
-        "person_id": "5ew_f6b_tfj",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:BaoZhao"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
-      "role_key": "ExistingLiuYilong",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p034:m0172",
-        "start": 172,
-        "end": 174,
-        "surface": "太祖",
-        "kind": "person",
-        "person_id": "3qs_nqa_ioa_AAAA",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:ExistingLiuYilong"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
-      "role_key": "ExistingLiuYiqing",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p034:m0175",
-        "start": 175,
-        "end": 177,
-        "surface": "義慶",
-        "kind": "person",
-        "person_id": "3qs_nqa_ioa_AABB",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:ExistingLiuYiqing"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
-      "role_key": "BaoZhao",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p034:m0183",
-        "start": 183,
-        "end": 185,
-        "surface": "鮑照",
-        "kind": "person",
-        "person_id": "5ew_f6b_tfj",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:BaoZhao"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
-      "role_key": "BaoZhao",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p034:m0186",
-        "start": 186,
-        "end": 188,
-        "surface": "明遠",
-        "kind": "person",
-        "person_id": "5ew_f6b_tfj",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:BaoZhao"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
-      "role_key": "ExistingLiuDaolian",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p047:m0004",
-        "start": 4,
-        "end": 6,
-        "surface": "道憐",
-        "kind": "person",
-        "person_id": "3qs_nqa_ioa_AAB",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:ExistingLiuDaolian"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
-      "role_key": "LiuDaolian",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p047:m0007",
-        "start": 7,
-        "end": 9,
-        "surface": "道憐",
-        "kind": "person",
-        "person_id": "3qs_nqa_ioa_AAB",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:LiuDaolian"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
-      "role_key": "KongLong",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p047:m0016",
-        "start": 16,
-        "end": 18,
-        "surface": "孔隆",
-        "kind": "person",
-        "person_id": "ayv_ppm_kqf",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:KongLong"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
-      "role_key": "YangMuzhi",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p047:m0019",
-        "start": 19,
-        "end": 21,
-        "surface": "穆之",
-        "kind": "person",
-        "person_id": "r4c_psf_bta",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:YangMuzhi"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
-      "role_key": "ExistingLiuDaogui",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p047:m0046",
-        "start": 46,
-        "end": 48,
-        "surface": "道規",
-        "kind": "person",
-        "person_id": "3qs_nqa_ioa_AAC",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:ExistingLiuDaogui"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
-      "role_key": "BaoZhao",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p047:m0107",
-        "start": 107,
-        "end": 109,
-        "surface": "鮑照",
-        "kind": "person",
-        "person_id": "5ew_f6b_tfj",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:BaoZhao"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p048",
-      "role_key": "Mencius",
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p048:m0000",
-        "start": 0,
-        "end": 2,
-        "surface": "孟軻",
-        "kind": "person",
-        "person_id": "saz_old_5fi",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:Mencius"
-      }
-    },
-    {
-      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p004",
-      "role_key": "DaolianChijieP004",
-      "alias_surface": false,
-      "marker": {
-        "id": "c-songshu-051-wyd1739-zongshi:p004:m0011",
-        "start": 207,
-        "end": 209,
-        "surface": "持節",
-        "kind": "person",
-        "person_id": "3qs_nqa_ioa_AAB",
-        "status": "contextual_provisional",
-        "source_role_key": "song051-entity-phase3:DaolianChijieP004"
-      }
-    },
-    {
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p006",
       "role_key": "DaolianTaifu",
       "alias_surface": false,
@@ -1780,6 +1496,20 @@
     },
     {
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p007",
+      "role_key": "WangZhene",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p007:m0000",
+        "start": 109,
+        "end": 111,
+        "surface": "鎮惡",
+        "kind": "person",
+        "person_id": "quq_d6y_akf",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:WangZhene"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p007",
       "role_key": "ZhouGongJidanP007",
       "alias_surface": true,
       "marker": {
@@ -1821,6 +1551,581 @@
         "person_id": "7m7_qvm_4oj",
         "status": "contextual_provisional",
         "source_role_key": "song051-entity-phase3:ShaoGongAllusionP007"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+      "role_key": "LiuYirong",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p012:m0123",
+        "start": 147,
+        "end": 149,
+        "surface": "義融",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABC",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuYirong"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+      "role_key": "LiuYiSon",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p012:m0124",
+        "start": 193,
+        "end": 194,
+        "surface": "顗",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCA",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuYiSon"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+      "role_key": "LiuShao",
+      "alias_surface": false,
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p012:m0125",
+        "start": 204,
+        "end": 206,
+        "surface": "元凶",
+        "kind": "person",
+        "person_id": "fof_k8v_7md",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuShao"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+      "role_key": "LiuJun",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p012:m0122",
+        "start": 208,
+        "end": 210,
+        "surface": "世祖",
+        "kind": "person",
+        "person_id": "hx8_st4_jdd",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuJun"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuXi",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0000",
+        "start": 11,
+        "end": 12,
+        "surface": "襲",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuXi"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuHuang",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0001",
+        "start": 14,
+        "end": 15,
+        "surface": "晃",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCBA",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuHuang"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "QiRenzu",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0002",
+        "start": 30,
+        "end": 33,
+        "surface": "戚仁祖",
+        "kind": "person",
+        "person_id": "6hp_4mx_btg",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:QiRenzu"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "WangWulian",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0003",
+        "start": 35,
+        "end": 38,
+        "surface": "王武連",
+        "kind": "person",
+        "person_id": "1rk_8jf_lqv",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:WangWulian"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "PengYuanjun",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0004",
+        "start": 41,
+        "end": 44,
+        "surface": "彭元儁",
+        "kind": "person",
+        "person_id": "x2m_9kq_7zd",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:PengYuanjun"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuXi",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0005",
+        "start": 49,
+        "end": 50,
+        "surface": "襲",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuXi"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuXi",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0006",
+        "start": 51,
+        "end": 53,
+        "surface": "茂德",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuXi"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuZixun",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0007",
+        "start": 61,
+        "end": 64,
+        "surface": "晉安王",
+        "kind": "person",
+        "person_id": "902_55f_656",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuZixun"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuZixun",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0008",
+        "start": 64,
+        "end": 66,
+        "surface": "子勛",
+        "kind": "person",
+        "person_id": "902_55f_656",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuZixun"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuXi",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0009",
+        "start": 68,
+        "end": 69,
+        "surface": "襲",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuXi"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "Taizong",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0010",
+        "start": 81,
+        "end": 83,
+        "surface": "太宗",
+        "kind": "person",
+        "person_id": "cti_o52_4nz",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:Taizong"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuXi",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0011",
+        "start": 141,
+        "end": 142,
+        "surface": "襲",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuXi"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuXi",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0012",
+        "start": 166,
+        "end": 167,
+        "surface": "襲",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuXi"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuMin",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0013",
+        "start": 168,
+        "end": 169,
+        "surface": "旻",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCBB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuMin"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuHuang",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0014",
+        "start": 182,
+        "end": 183,
+        "surface": "晃",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCBA",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuHuang"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuXi",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0015",
+        "start": 186,
+        "end": 187,
+        "surface": "襲",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuXi"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuBiao",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0016",
+        "start": 188,
+        "end": 189,
+        "surface": "彪",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCC",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuBiao"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuDing",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0017",
+        "start": 193,
+        "end": 194,
+        "surface": "定",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCD",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuDing"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuDing",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0018",
+        "start": 201,
+        "end": 202,
+        "surface": "定",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCD",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuDing"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuYiBrother",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0019",
+        "start": 203,
+        "end": 204,
+        "surface": "奕",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCE",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuYiBrother"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+      "role_key": "LiuYirong",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p013:m0020",
+        "start": 208,
+        "end": 210,
+        "surface": "義融",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABC",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuYirong"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+      "role_key": "ExistingYuanShu",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p034:m0127",
+        "start": 127,
+        "end": 129,
+        "surface": "袁淑",
+        "kind": "person",
+        "person_id": "ded_ea4_21d",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:ExistingYuanShu"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+      "role_key": "ExistingLiuYiqing",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p034:m0133",
+        "start": 133,
+        "end": 135,
+        "surface": "義慶",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:ExistingLiuYiqing"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+      "role_key": "ExistingLuZhan",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p034:m0150",
+        "start": 150,
+        "end": 152,
+        "surface": "陸展",
+        "kind": "person",
+        "person_id": "178_955_25e",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:ExistingLuZhan"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+      "role_key": "ExistingHeChangyu",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p034:m0154",
+        "start": 154,
+        "end": 157,
+        "surface": "何長瑜",
+        "kind": "person",
+        "person_id": "f1e_a88_374",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:ExistingHeChangyu"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+      "role_key": "BaoZhao",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p034:m0157",
+        "start": 157,
+        "end": 159,
+        "surface": "鮑照",
+        "kind": "person",
+        "person_id": "5ew_f6b_tfj",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:BaoZhao"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+      "role_key": "ExistingLiuYilong",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p034:m0172",
+        "start": 172,
+        "end": 174,
+        "surface": "太祖",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AAAA",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:ExistingLiuYilong"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+      "role_key": "ExistingLiuYiqing",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p034:m0175",
+        "start": 175,
+        "end": 177,
+        "surface": "義慶",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:ExistingLiuYiqing"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+      "role_key": "BaoZhao",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p034:m0183",
+        "start": 183,
+        "end": 185,
+        "surface": "鮑照",
+        "kind": "person",
+        "person_id": "5ew_f6b_tfj",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:BaoZhao"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p034",
+      "role_key": "BaoZhao",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p034:m0186",
+        "start": 186,
+        "end": 188,
+        "surface": "明遠",
+        "kind": "person",
+        "person_id": "5ew_f6b_tfj",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:BaoZhao"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
+      "role_key": "ExistingLiuDaolian",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p047:m0004",
+        "start": 4,
+        "end": 6,
+        "surface": "道憐",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AAB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:ExistingLiuDaolian"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
+      "role_key": "LiuDaolian",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p047:m0007",
+        "start": 7,
+        "end": 9,
+        "surface": "道憐",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AAB",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuDaolian"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
+      "role_key": "KongLong",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p047:m0016",
+        "start": 16,
+        "end": 18,
+        "surface": "孔隆",
+        "kind": "person",
+        "person_id": "ayv_ppm_kqf",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:KongLong"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
+      "role_key": "YangMuzhi",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p047:m0019",
+        "start": 19,
+        "end": 21,
+        "surface": "穆之",
+        "kind": "person",
+        "person_id": "r4c_psf_bta",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:YangMuzhi"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
+      "role_key": "ExistingLiuDaogui",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p047:m0046",
+        "start": 46,
+        "end": 48,
+        "surface": "道規",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AAC",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:ExistingLiuDaogui"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p047",
+      "role_key": "BaoZhao",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p047:m0107",
+        "start": 107,
+        "end": 109,
+        "surface": "鮑照",
+        "kind": "person",
+        "person_id": "5ew_f6b_tfj",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:BaoZhao"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p048",
+      "role_key": "Mencius",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p048:m0000",
+        "start": 0,
+        "end": 2,
+        "surface": "孟軻",
+        "kind": "person",
+        "person_id": "saz_old_5fi",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:Mencius"
       }
     }
   ],
@@ -1886,9 +2191,9 @@
     }
   ],
   "identity_decisions_path": "corpus/songshu/051-wyd1739-entity-phase3-identities.json",
-  "identity_decisions_sha256": "494724d37e1d82497559e48fda1109ec694c229c6658ddbbc1e06cd5accee1c2",
+  "identity_decisions_sha256": "c9a1924d046d7e941820eddcbc51dfba84555759b2bf493c45d36b7a9c98633d",
   "name_components_path": "corpus/songshu/051-wyd1739-entity-phase3-name-components.json",
-  "name_components_sha256": "a1cec73a2dd636b35802b112e3df728228425d98598af04403848d185d109d09",
+  "name_components_sha256": "ec5647b654669badd5dc4cf66e503cbae987e275818da3d45cf63aba9c112e89",
   "cross_chapter_references": [
     {
       "id": "xref-song051-p047-daolian-biography",
@@ -1989,7 +2294,7 @@
     }
   ],
   "assertions_path": "corpus/songshu/051-wyd1739-entity-phase3-assertions.json",
-  "assertions_sha256": "49a6f1985fe7414efedb69de9087a5a95217448c15247bd642b6254cf41f4f4b",
+  "assertions_sha256": "6dacfefde71a42bda7b4ec64b964b93c21ec23d68c53df6271dd3eb5cc8a1dd8",
   "life_events_path": "corpus/songshu/051-wyd1739-entity-phase3-life-events.json",
-  "life_events_sha256": "ebba57a1b607e7085e0a3b5ac235cd467a40d9a78558301fcabcabaef51fb93e"
+  "life_events_sha256": "7b6e90ac0a7819e58cf03b82fd249416112333a848d7b8eef85e62307008ef54"
 }

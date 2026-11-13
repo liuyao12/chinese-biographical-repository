@@ -474,7 +474,7 @@
 
 </details>
 
-<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（34 名）</summary>
+<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（40 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -502,6 +502,12 @@
 | `AABBA` | 臨川王義慶女（王僧達妻，未名） | [《宋書・王僧達 顏竣》][227] | [JSON](3qs_nqa_ioa_AABBA.json) |
 | `AABC` | 劉義融 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABC.json) |
 | `AABCA` | 劉顗 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCA.json) |
+| `AABCB` | 劉襲 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCB.json) |
+| `AABCBA` | 劉晃 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCBA.json) |
+| `AABCBB` | 劉旻 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCBB.json) |
+| `AABCC` | 劉彪 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCC.json) |
+| `AABCD` | 劉定 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCD.json) |
+| `AABCE` | 劉奕 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCE.json) |
 | `AABD` | 劉義宗 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABD.json) |
 | `AABDA` | 劉玠 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDA.json) |
 | `AABDB` | 劉秉 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDB.json) |

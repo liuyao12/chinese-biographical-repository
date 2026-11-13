@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `aey_tui_wzm` | 齊太師（孔子世家未名者） | [《史記・孔子世家》][116] | [JSON](aey_tui_wzm.json) |
 | `aez_p66_9uj` | 藺相如持璧歸趙從者未名 | [《史記・廉頗藺相如列傳》][150] | [JSON](aez_p66_9uj.json) |
 | `af1_11d_057` | 宗慤 | [《宋書・謝莊 王景文》][228] | [JSON](af1_11d_057.json) |
 | `af6_mhg_pyn` | 呂種 | [《史記・呂后本紀》][96]、[《史記・惠景間侯者年表》][249] | [JSON](af6_mhg_pyn.json) |
@@ -2092,7 +2093,6 @@
 | `mev_r3x_fuu` | 欒書 | [《史記・鄭世家》][111] | [JSON](mev_r3x_fuu.json) |
 | `mex_tig_16z` | 蓋聶 | [《史記・刺客列傳》][155] | [JSON](mex_tig_16z.json) |
 | `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][115] | [JSON](mf2_tm7_f9r.json) |
-| `mfr_nye_lnv` | 趙信（匈奴列傳第35段） | [《史記・衛將軍驃騎列傳》][180] | [JSON](mfr_nye_lnv.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

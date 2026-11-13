@@ -357,6 +357,7 @@
 | `1pc_iyw_umt` | 廧咎如長女（趙世家未名者） | [《史記・趙世家》][112] | [JSON](1pc_iyw_umt.json) |
 | `1pz_hzu_z44` | 楚將軍（受商於地未名） | [《史記・楚世家》][109] | [JSON](1pz_hzu_z44.json) |
 | `1re_sks_vyx` | 曹咎 | [《史記・高祖本紀》][95] | [JSON](1re_sks_vyx.json) |
+| `1rk_8jf_lqv` | 王武連 | [《宋書・宗室》][212] | [JSON](1rk_8jf_lqv.json) |
 | `1s9_9xl_xoz` | 魏文侯引古 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](1s9_9xl_xoz.json) |
 | `1s9_u8o_ryn` | 巫咸 | [《史記・殷本紀》][90] | [JSON](1s9_u8o_ryn.json) |
 | `1sd_oek_swt` | 餘樊君 | [《史記・項羽本紀》][94] | [JSON](1sd_oek_swt.json) |
@@ -1303,6 +1304,7 @@
 | `6h7_10a_x25` | 司蕃 | [《三國志・諸夏侯曹傳》][77] | [JSON](6h7_10a_x25.json) |
 | `6hd_nol_p5r` | 狐毛（重耳從者） | [《史記・晉世家》][108] | [JSON](6hd_nol_p5r.json) |
 | `6hn_lac_kwl` | 尉繚 | [《史記・秦始皇本紀》][93] | [JSON](6hn_lac_kwl.json) |
+| `6hp_4mx_btg` | 戚仁祖 | [《宋書・宗室》][212] | [JSON](6hp_4mx_btg.json) |
 | `6hq_bb2_3rb` | 扁鵲 | [《史記・扁鵲倉公列傳》][174] | [JSON](6hq_bb2_3rb.json) |
 | `6hu_5eu_5t3` | 馮梁 | [《史記・樊酈滕灌列傳》][164] | [JSON](6hu_5eu_5t3.json) |
 | `6hy_i1z_hu2` | 韓安國 | [《史記・韓長孺列傳》][177] | [JSON](6hy_i1z_hu2.json) |
@@ -2092,7 +2094,6 @@
 | `ae6_c85_578` | 胡彬 | [《晉書・謝尚 謝安》][53] | [JSON](ae6_c85_578.json) |
 | `ae7_dcf_084` | 范汪 | [《晉書・庾亮》][42]、[《晉書・謝尚 謝安》][53] | [JSON](ae7_dcf_084.json) |
 | `aeg_ljr_nw1` | 衛毅〔冏所封陰平公〕 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][35] | [JSON](aeg_ljr_nw1.json) |
-| `aey_tui_wzm` | 齊太師（孔子世家未名者） | [《史記・孔子世家》][116] | [JSON](aey_tui_wzm.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

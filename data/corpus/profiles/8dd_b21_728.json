@@ -855,13 +855,128 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-songshu-051-wyd1739-zongshi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-051",
+      "source_id": "s-songshu-051-wyd1739-zongshi",
+      "source": {
+        "title": "宋書卷五十一，清乾隆四年武英殿本（NLC善本09753）",
+        "provider": "CBR AI direct transcription of Commons-hosted NLC scan",
+        "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+        "permalink": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763",
+        "revision_id": "cbr-ai-transcription-sha256:aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
+        "edition": "Commons著錄武英殿清乾隆4年[1739]；頁外版記親見乾隆四年校刊，非獨立刊記普查",
+        "extent": "PDF17左–39左完整卷五十一正文及史臣論；40左–41右武英殿考證。17右與41左不屬本卷，40右僅卷尾題。",
+        "text_scope": "complete_chapter",
+        "review_status": "AI_image_transcription_draft",
+        "image_verified": false,
+        "image_verification_qualification": "AI逐頁逐列視讀；無人工全字圖校，未辨字以〓記，其他編碼仍待獨立覆核。",
+        "raw_file": "source-evidence/song051-wyd1739-zongshi/transcription-columns.txt",
+        "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "AI由逐頁JPEG書影轉錄；raw為本次AI逐列轉錄，不是原PDF文字抽取或PDF雜湊。段界按頁側與層次，非原刻標點自然段。",
+          "editorial_readings": [
+            {
+              "kind": "unresolved_printed_glyph",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p010",
+              "start": 103,
+              "end": 104,
+              "placeholder": "〓",
+              "placeholder_is_source_glyph": false,
+              "accepted_reading": null,
+              "candidates": null,
+              "raw_line": 91,
+              "raw_character_1based": 20,
+              "witness_position": {
+                "raw_line": 91,
+                "pdf_page": 22,
+                "side": "right",
+                "printed_leaf": null,
+                "physical_column_from_right_1based": 5,
+                "character_order": "top_to_bottom",
+                "source_page_url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763&page=22",
+                "source_image_sha256": "d63efb1796e4c076d86bbfd06bb9f558437870bfdf66582fea8d4b1c88e45946"
+              }
+            }
+          ],
+          "missing_text_markers": [],
+          "column_locations_ref": "source-evidence/song051-wyd1739-zongshi/image-column-locations.json",
+          "column_locations_sha256": "83ee87f077651ea78ce5e9ebbde8a61e64625c82d2ab32f824417b55e8198b51",
+          "glyph_review_ref": "source-evidence/song051-wyd1739-zongshi/glyph-review-qualification.json",
+          "glyph_review_sha256": "624b20b2e4b6c6c30b90ba1ca5be839ca6f95924034d392c79b5019866f6adef",
+          "transcription_corrections_ref": "source-evidence/song051-wyd1739-zongshi/two-glyph-correction.json",
+          "transcription_corrections_sha256": "899feecbd32f57327f1c9c48437c7d48b556f6864ca085435d492175b4824e96",
+          "named_glyph_corrections_ref": "source-evidence/song051-wyd1739-zongshi/yinxiao-glyph-ner-correction.json",
+          "named_glyph_corrections_sha256": "440278deb18fb31a0c37d0f5c19a42d9f608022f86058e6956301af1e7594fb0",
+          "yirong_son_glyph_corrections_ref": "source-evidence/song051-wyd1739-zongshi/yirong-son-di-glyph-correction.json",
+          "yirong_son_glyph_corrections_sha256": "0bd2ddaa8c70ac98ab4d33043d892ab4904aea7c5b895795629c952de8145e1d"
+        },
+        "rights": "古代原文；Commons頁標PD-scan/Public domain。NLC原站權利條款未獨立取得；私用JPEG與原PDF不入repo／不host。",
+        "license_url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763",
+        "received_transcription_witness": {
+          "transcription_path": "source-evidence/song051-wyd1739-zongshi/transcription-columns.txt",
+          "transcription_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
+          "transcription_revision": "cbr-ai-transcription-sha256:aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
+          "reported_pdf_sha1": "888def8c99848449305a0142411b32f9b0ca79e8",
+          "reported_pdf_bytes": 31677093,
+          "original_pdf_locally_obtained": false,
+          "commons_description_revision": 979635763,
+          "reported_pdf_pages": 104,
+          "nlc_bookid": "411999017142",
+          "nlc_volumeid": "12209",
+          "nlc_rare_book_number": "09753",
+          "composition_date": null,
+          "edition_year": 1739,
+          "earliest_extant_edition_claim": null,
+          "edition_year_role": "catalogued_printed_edition_year",
+          "human_image_reviewed": false
+        }
+      }
     }
   ],
   "relations": [],
   "related_people": {
+    "3qs_nqa_ioa_AABCB": "劉襲",
     "8dd_b21_728": "劉襲"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-song051-p013-liuxi-not-jinshu-liuxi",
+      "person_ids": [
+        "8dd_b21_728",
+        "3qs_nqa_ioa_AABCB"
+      ],
+      "status": "contextual_provisional",
+      "rationale": "《晉書》卷九十九載桓玄害劉襲；本篇劉襲在宋太始六年（470）卒。兩個來源時間不相容，且仕歷與親屬敘事各自不同，故不可按同名合併；此為來源人物區分，並不聲稱已窮盡所有可能的同名記載。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-099",
+          "source_id": "s-jinshu-099-huanxuan-ws2644703",
+          "chapter_id": "c-jinshu-099-huanxuan",
+          "paragraph_id": "c-jinshu-099-huanxuan:p016",
+          "quote": "自禍難屢構，干戈不戢，百姓厭之。思歸一統。及玄初至也，黜凡佞，擢俊賢，君子之道粗備，京師欣然。後乃陵侮朝廷，幽擯宰輔，豪奢縱欲，眾務繁興，於是朝野失望，人不安業。時會稽饑荒，玄令賑貸之。百姓散在江湖采穭，內史王愉悉召之還。請米，米既不多，吏不時給，頓僕道路死者十八九焉。玄又害吳興太守高素、輔國將軍竺謙之、謙之從兄高平相朗之、輔國將軍劉襲、襲弟彭城內史季武、冠軍將軍孫無終等，皆牢之之黨，北府舊將也。襲兄冀州刺史軌及甯朔將軍高雅之、牢之子敬宣並奔慕容德。玄諷朝廷以己平元顯功，封豫章公，食安成郡地方二百二十五里，邑七千五百戶；平仲堪、佺期功，封桂陽郡公，地方七十五里，邑二千五百戶；本封南郡如故。玄以豫章改封息升，桂陽郡公賜兄子浚，降為西道縣公。又發詔為桓溫諱，有姓名同者一皆改之，贈其母馬氏豫章公太夫人。元興二年，玄詐表請平姚興，又諷朝廷作詔，不許。玄本無資力，而好為大言，既不克行，乃云奉詔故止。初欲飾裝，無他處分，先使作輕舸，載服玩及書畫等物。或諫之，玄曰：「書畫服玩既宜恆在左右，且兵凶戰危，脫有不意，當使輕而易運。」眾咸笑之。",
+          "person_mention_id": "c-jinshu-099-huanxuan:p016:m0167"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+          "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0011"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "8dd_b21_728"
