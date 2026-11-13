@@ -45,6 +45,7 @@ def build(root=ROOT, person_ids=None):
                         occurrence.update(source_id=table['source']['id'],source_revision=table['source']['revision'])
                         table_mentions[m['person_id']].append(occurrence)
     bundles = json.loads((ROOT/'exports/persons/index.json').read_text())
+    bundle_rows = {row['person_id']: row for row in bundles['persons']}
     for pid in set(people) | {p['person_id'] for p in bundles['persons']}:
         table_mentions.setdefault(pid, [])
     if person_ids is not None:
@@ -100,7 +101,10 @@ def build(root=ROOT, person_ids=None):
         for cell in cells:
             surface = cell['mention']['surface']
             if surface not in names: names.append(surface)
-        profile={'schema_version':1,'id':pid,'canonical_person_id':b['canonical_person_id'],'label':people.get(pid, {}).get('label', next((p['label'] for p in b['persons'] if p['id'] == pid), pid)),'identity_note':people.get(pid, {}).get('identity_note'),'review':'ai_provisional','names':names,'titles':titles,'addresses':addresses,'occurrences':occurrences,'table_occurrences':cells,'sources':b['sources'],'relations':[x for x in b['relations'] if x['subject_person_id'] in own],'related_people':{p['id']:p['label'] for p in b['persons']},'dates':[x for x in b['date_normalizations'] if x.get('person_id') in own]}
+        source_pid = bundle_rows.get(pid, {}).get('source_person_id')
+        display_person = people.get(pid) or people.get(source_pid) or {}
+        canonical_pid = pid if b.get('assembled_identity') else b['canonical_person_id']
+        profile={'schema_version':1,'id':pid,'canonical_person_id':canonical_pid,'label':display_person.get('label', next((p['label'] for p in b['persons'] if p['id'] == pid), pid)),'identity_note':display_person.get('identity_note'),'review':'ai_provisional','names':names,'titles':titles,'addresses':addresses,'occurrences':occurrences,'table_occurrences':cells,'sources':b['sources'],'relations':[x for x in b['relations'] if x['subject_person_id'] in own],'related_people':{p['id']:p['label'] for p in b['persons']},'dates':[x for x in b['date_normalizations'] if x.get('person_id') in own]}
         if people.get(pid, {}).get('historicity') == 'legendary_tradition':
             profile['historicity'] = 'legendary_tradition'
         preferred_readings = [dict(d['preferred_reading'], decision_id=d['id']) for d in b.get('identity_decisions', []) if d.get('preferred_reading')]

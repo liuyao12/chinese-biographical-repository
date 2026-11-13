@@ -15207,6 +15207,167 @@
           "source_assertion_id": "a-song051-p014-p017-father-huilian-xiefangming"
         }
       ]
+    },
+    {
+      "id": "family-jinshu054-lu-xun",
+      "root_person_id": "8kb_zhi_yt3",
+      "label": "吳郡陸氏（《晉書》卷五十四選段）",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "以陸機明載的父抗、祖遜及陸雲為機弟組裝父系路徑；來源斷言仍分別保存「父抗」「祖遜」「兄機」「雲弟耽」及「二子蔚、夏」。遜至抗的相鄰世代及雲、耽沿父系同支的節點安排，是為呈現家族樹的編輯組裝，不新增父子 source_attested 斷言；同母、確切生年與陸雲父名均未知。",
+      "members": [
+        {
+          "person_id": "8kb_zhi_yt3",
+          "representative_source_person_id": "8kb_zhi_yt3",
+          "source_person_ids": [
+            "8kb_zhi_yt3"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "8kb_zhi_yt3_A",
+          "representative_source_person_id": "8kb_zhi_yt3_A",
+          "source_person_ids": [
+            "8kb_zhi_yt3_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "8kb_zhi_yt3",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "陸機同一傳首同時明載祖遜與父抗；此組裝將抗置於遜與機之間，未新增抗為遜之子的source_attested斷言。",
+            "nearer_ancestor_assertion_id": "a-jin054-lu-ji-father-kang",
+            "farther_ancestor_assertion_id": "a-jin054-lu-ji-grandfather-xun",
+            "chain_subject_person_id": "8kb_zhi_yt3_AA",
+            "references": [
+              {
+                "assertion_id": "a-jin054-lu-ji-father-kang",
+                "chapter_id": "c-jinshu-054-lu-family",
+                "paragraph_id": "c-jinshu-054-lu-family:p001",
+                "source_id": "s-jinshu-054-wikisource-lu-family",
+                "quote": "陸機，字士衡，吳郡人也。祖遜，吳丞相。父抗，吳大司馬。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+                "scope": "same_biographical_head_father_clause"
+              },
+              {
+                "assertion_id": "a-jin054-lu-ji-grandfather-xun",
+                "chapter_id": "c-jinshu-054-lu-family",
+                "paragraph_id": "c-jinshu-054-lu-family:p001",
+                "source_id": "s-jinshu-054-wikisource-lu-family",
+                "quote": "陸機，字士衡，吳郡人也。祖遜，吳丞相。父抗，吳大司馬。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+                "scope": "same_biographical_head_grandfather_clause"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "8kb_zhi_yt3_AA",
+          "representative_source_person_id": "69h_uhy_hta",
+          "source_person_ids": [
+            "69h_uhy_hta"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "8kb_zhi_yt3_A",
+          "source_assertion_id": "a-jin054-lu-ji-father-kang"
+        },
+        {
+          "person_id": "8kb_zhi_yt3_AB",
+          "representative_source_person_id": "8kb_zhi_yt3_AB",
+          "source_person_ids": [
+            "8kb_zhi_yt3_AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "8kb_zhi_yt3_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "status": "contextual_provisional",
+            "rationale": "陸雲明稱陸機之弟，陸機明載父抗；此為父系兄弟組裝，不推同母。",
+            "sibling_person_id": "8kb_zhi_yt3_AA",
+            "sibling_assertion_id": "a-jin054-lu-yun-younger-brother-ji",
+            "sibling_father_assertion_id": "a-jin054-lu-ji-father-kang",
+            "references": [
+              {
+                "quote": "雲字士龍，六歲能屬文，性清正，有才理。少與兄機齊名",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+                "scope": "same_witness_brother_clause"
+              },
+              {
+                "quote": "陸機，字士衡，吳郡人也。祖遜，吳丞相。父抗，吳大司馬。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+                "scope": "same_witness_father_clause"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "8kb_zhi_yt3_AC",
+          "representative_source_person_id": "8kb_zhi_yt3_AC",
+          "source_person_ids": [
+            "8kb_zhi_yt3_AC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "8kb_zhi_yt3_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling_chain",
+            "status": "contextual_provisional",
+            "rationale": "耽為雲弟、雲為機弟，且機明載父抗；以明文兄弟鏈組裝同父系支，不推同母。",
+            "sibling_person_ids": [
+              "8kb_zhi_yt3_AB",
+              "8kb_zhi_yt3_AA"
+            ],
+            "sibling_assertion_ids": [
+              "a-jin054-lu-dan-younger-brother-yun",
+              "a-jin054-lu-yun-younger-brother-ji"
+            ],
+            "sibling_father_assertion_id": "a-jin054-lu-ji-father-kang",
+            "references": [
+              {
+                "quote": "雲弟耽為平東祭酒，亦有清譽，與雲同遇害。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+                "scope": "same_witness_younger_brother_clause"
+              },
+              {
+                "quote": "雲字士龍，六歲能屬文，性清正，有才理。少與兄機齊名",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+                "scope": "same_witness_sibling_clause"
+              },
+              {
+                "quote": "陸機，字士衡，吳郡人也。祖遜，吳丞相。父抗，吳大司馬。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+                "scope": "same_witness_father_clause"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "8kb_zhi_yt3_AAA",
+          "representative_source_person_id": "8kb_zhi_yt3_AAA",
+          "source_person_ids": [
+            "8kb_zhi_yt3_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "8kb_zhi_yt3_AA",
+          "source_assertion_id": "a-jin054-lu-ji-father-wei"
+        },
+        {
+          "person_id": "8kb_zhi_yt3_AAB",
+          "representative_source_person_id": "8kb_zhi_yt3_AAB",
+          "source_person_ids": [
+            "8kb_zhi_yt3_AAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "8kb_zhi_yt3_AA",
+          "source_assertion_id": "a-jin054-lu-ji-father-xia"
+        }
+      ]
     }
   ]
 }

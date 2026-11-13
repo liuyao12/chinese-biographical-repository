@@ -29215,20 +29215,35 @@
       ]
     },
     {
-      "person_id": "69h_uhy_hta",
+      "person_id": "8kb_zhi_yt3_AA",
       "label": "陸機",
-      "path": "69h_uhy_hta.json",
+      "path": "8kb_zhi_yt3_AA.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 5,
-      "raw_mention_count": 5,
+      "mention_count": 9,
+      "raw_mention_count": 9,
       "duplicate_mention_count": 0,
-      "paragraph_mention_count": 5,
+      "paragraph_mention_count": 9,
       "table_mention_count": 0,
-      "source_count": 4,
+      "source_count": 5,
       "most_mentioned_source_ids": [
-        "s-jinshu-059-ws2650517-yi"
-      ]
+        "s-jinshu-054-wikisource-lu-family"
+      ],
+      "source_person_id": "69h_uhy_hta",
+      "assembled_identity": {
+        "person_id": "8kb_zhi_yt3_AA",
+        "representative_source_person_id": "69h_uhy_hta",
+        "source_person_ids": [
+          "69h_uhy_hta"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "8kb_zhi_yt3_A",
+        "source_assertion_id": "a-jin054-lu-ji-father-kang",
+        "assembly_id": "family-jinshu054-lu-xun",
+        "root_person_id": "8kb_zhi_yt3",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "69v_q1z_72c",
@@ -42576,6 +42591,272 @@
       "most_mentioned_source_ids": [
         "s-jinshu-075-xunsong-families"
       ]
+    },
+    {
+      "person_id": "8kb_zhi_yt3",
+      "label": "陸遜",
+      "path": "8kb_zhi_yt3.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-054-wikisource-lu-family"
+      ],
+      "source_person_id": "8kb_zhi_yt3",
+      "assembled_identity": {
+        "person_id": "8kb_zhi_yt3",
+        "representative_source_person_id": "8kb_zhi_yt3",
+        "source_person_ids": [
+          "8kb_zhi_yt3"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": null,
+        "source_assertion_id": null,
+        "assembly_id": "family-jinshu054-lu-xun",
+        "root_person_id": "8kb_zhi_yt3",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "8kb_zhi_yt3_A",
+      "label": "陸抗",
+      "path": "8kb_zhi_yt3_A.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-054-wikisource-lu-family"
+      ],
+      "source_person_id": "8kb_zhi_yt3_A",
+      "assembled_identity": {
+        "person_id": "8kb_zhi_yt3_A",
+        "representative_source_person_id": "8kb_zhi_yt3_A",
+        "source_person_ids": [
+          "8kb_zhi_yt3_A"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "8kb_zhi_yt3",
+        "source_assertion_id": null,
+        "parent_connection": {
+          "type": "parent_between_consecutive_ancestors",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "rationale": "陸機同一傳首同時明載祖遜與父抗；此組裝將抗置於遜與機之間，未新增抗為遜之子的source_attested斷言。",
+          "nearer_ancestor_assertion_id": "a-jin054-lu-ji-father-kang",
+          "farther_ancestor_assertion_id": "a-jin054-lu-ji-grandfather-xun",
+          "chain_subject_person_id": "8kb_zhi_yt3_AA",
+          "references": [
+            {
+              "assertion_id": "a-jin054-lu-ji-father-kang",
+              "chapter_id": "c-jinshu-054-lu-family",
+              "paragraph_id": "c-jinshu-054-lu-family:p001",
+              "source_id": "s-jinshu-054-wikisource-lu-family",
+              "quote": "陸機，字士衡，吳郡人也。祖遜，吳丞相。父抗，吳大司馬。",
+              "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+              "scope": "same_biographical_head_father_clause"
+            },
+            {
+              "assertion_id": "a-jin054-lu-ji-grandfather-xun",
+              "chapter_id": "c-jinshu-054-lu-family",
+              "paragraph_id": "c-jinshu-054-lu-family:p001",
+              "source_id": "s-jinshu-054-wikisource-lu-family",
+              "quote": "陸機，字士衡，吳郡人也。祖遜，吳丞相。父抗，吳大司馬。",
+              "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+              "scope": "same_biographical_head_grandfather_clause"
+            }
+          ]
+        },
+        "assembly_id": "family-jinshu054-lu-xun",
+        "root_person_id": "8kb_zhi_yt3",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "8kb_zhi_yt3_AAA",
+      "label": "陸蔚",
+      "path": "8kb_zhi_yt3_AAA.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-054-wikisource-lu-family"
+      ],
+      "source_person_id": "8kb_zhi_yt3_AAA",
+      "assembled_identity": {
+        "person_id": "8kb_zhi_yt3_AAA",
+        "representative_source_person_id": "8kb_zhi_yt3_AAA",
+        "source_person_ids": [
+          "8kb_zhi_yt3_AAA"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "8kb_zhi_yt3_AA",
+        "source_assertion_id": "a-jin054-lu-ji-father-wei",
+        "assembly_id": "family-jinshu054-lu-xun",
+        "root_person_id": "8kb_zhi_yt3",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "8kb_zhi_yt3_AAB",
+      "label": "陸夏",
+      "path": "8kb_zhi_yt3_AAB.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-054-wikisource-lu-family"
+      ],
+      "source_person_id": "8kb_zhi_yt3_AAB",
+      "assembled_identity": {
+        "person_id": "8kb_zhi_yt3_AAB",
+        "representative_source_person_id": "8kb_zhi_yt3_AAB",
+        "source_person_ids": [
+          "8kb_zhi_yt3_AAB"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "8kb_zhi_yt3_AA",
+        "source_assertion_id": "a-jin054-lu-ji-father-xia",
+        "assembly_id": "family-jinshu054-lu-xun",
+        "root_person_id": "8kb_zhi_yt3",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "8kb_zhi_yt3_AB",
+      "label": "陸雲",
+      "path": "8kb_zhi_yt3_AB.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 4,
+      "raw_mention_count": 4,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 4,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-054-wikisource-lu-family"
+      ],
+      "source_person_id": "8kb_zhi_yt3_AB",
+      "assembled_identity": {
+        "person_id": "8kb_zhi_yt3_AB",
+        "representative_source_person_id": "8kb_zhi_yt3_AB",
+        "source_person_ids": [
+          "8kb_zhi_yt3_AB"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "8kb_zhi_yt3_A",
+        "source_assertion_id": null,
+        "parent_connection": {
+          "type": "shared_father_through_sibling",
+          "status": "contextual_provisional",
+          "rationale": "陸雲明稱陸機之弟，陸機明載父抗；此為父系兄弟組裝，不推同母。",
+          "sibling_person_id": "8kb_zhi_yt3_AA",
+          "sibling_assertion_id": "a-jin054-lu-yun-younger-brother-ji",
+          "sibling_father_assertion_id": "a-jin054-lu-ji-father-kang",
+          "references": [
+            {
+              "quote": "雲字士龍，六歲能屬文，性清正，有才理。少與兄機齊名",
+              "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+              "scope": "same_witness_brother_clause"
+            },
+            {
+              "quote": "陸機，字士衡，吳郡人也。祖遜，吳丞相。父抗，吳大司馬。",
+              "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+              "scope": "same_witness_father_clause"
+            }
+          ]
+        },
+        "assembly_id": "family-jinshu054-lu-xun",
+        "root_person_id": "8kb_zhi_yt3",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "8kb_zhi_yt3_AC",
+      "label": "陸耽",
+      "path": "8kb_zhi_yt3_AC.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-054-wikisource-lu-family"
+      ],
+      "source_person_id": "8kb_zhi_yt3_AC",
+      "assembled_identity": {
+        "person_id": "8kb_zhi_yt3_AC",
+        "representative_source_person_id": "8kb_zhi_yt3_AC",
+        "source_person_ids": [
+          "8kb_zhi_yt3_AC"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "8kb_zhi_yt3_A",
+        "source_assertion_id": null,
+        "parent_connection": {
+          "type": "shared_father_through_sibling_chain",
+          "status": "contextual_provisional",
+          "rationale": "耽為雲弟、雲為機弟，且機明載父抗；以明文兄弟鏈組裝同父系支，不推同母。",
+          "sibling_person_ids": [
+            "8kb_zhi_yt3_AB",
+            "8kb_zhi_yt3_AA"
+          ],
+          "sibling_assertion_ids": [
+            "a-jin054-lu-dan-younger-brother-yun",
+            "a-jin054-lu-yun-younger-brother-ji"
+          ],
+          "sibling_father_assertion_id": "a-jin054-lu-ji-father-kang",
+          "references": [
+            {
+              "quote": "雲弟耽為平東祭酒，亦有清譽，與雲同遇害。",
+              "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+              "scope": "same_witness_younger_brother_clause"
+            },
+            {
+              "quote": "雲字士龍，六歲能屬文，性清正，有才理。少與兄機齊名",
+              "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+              "scope": "same_witness_sibling_clause"
+            },
+            {
+              "quote": "陸機，字士衡，吳郡人也。祖遜，吳丞相。父抗，吳大司馬。",
+              "url": "https://zh.wikisource.org/w/index.php?oldid=2605147&title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7054",
+              "scope": "same_witness_father_clause"
+            }
+          ]
+        },
+        "assembly_id": "family-jinshu054-lu-xun",
+        "root_person_id": "8kb_zhi_yt3",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "8kd_lv1_5lu",
@@ -149105,7 +149386,9 @@
       ]
     }
   ],
-  "id_aliases": {},
+  "id_aliases": {
+    "69h_uhy_hta": "8kb_zhi_yt3_AA"
+  },
   "reading_indexes": {
     "family_pages": [
       "README.md"
