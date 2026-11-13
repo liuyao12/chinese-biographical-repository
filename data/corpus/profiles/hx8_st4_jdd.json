@@ -436,26 +436,29 @@
       "category": "",
       "title": "宗室",
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p010",
-      "count": 4,
-      "raw_count": 4,
+      "count": 5,
+      "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "持節都督刺史如故諡曰成王子悼王瑾字彥瑜官至太子屯騎校尉三十年為元凶所殺世祖即位追贈散騎常侍子粲早夭粲弟纂字元績嗣官至步兵校尉順帝昇明三年薨會齊受禪國除瑾弟〓字彥期失明中為中書郎太宰江夏王義恭領中書監服親不得相臨表求解職世祖詔曰昔二王兩謝俱至崇禮自今三臺五省悉同此例太宗初為南",
       "paragraph_ids": [
         "c-songshu-051-wyd1739-zongshi:p010",
         "c-songshu-051-wyd1739-zongshi:p017",
+        "c-songshu-051-wyd1739-zongshi:p018",
         "c-songshu-051-wyd1739-zongshi:p043"
       ],
       "mention_ids": [
         "c-songshu-051-wyd1739-zongshi:p010:m0061",
         "c-songshu-051-wyd1739-zongshi:p010:m0135",
         "c-songshu-051-wyd1739-zongshi:p017:m0194",
+        "c-songshu-051-wyd1739-zongshi:p018:m0185",
         "c-songshu-051-wyd1739-zongshi:p043:m0080"
       ],
       "mention_paragraph_ids": {
         "c-songshu-051-wyd1739-zongshi:p010:m0061": "c-songshu-051-wyd1739-zongshi:p010",
         "c-songshu-051-wyd1739-zongshi:p010:m0135": "c-songshu-051-wyd1739-zongshi:p010",
         "c-songshu-051-wyd1739-zongshi:p017:m0194": "c-songshu-051-wyd1739-zongshi:p017",
+        "c-songshu-051-wyd1739-zongshi:p018:m0185": "c-songshu-051-wyd1739-zongshi:p018",
         "c-songshu-051-wyd1739-zongshi:p043:m0080": "c-songshu-051-wyd1739-zongshi:p043"
       },
       "mention_id": "c-songshu-051-wyd1739-zongshi:p010:m0061",
@@ -478,6 +481,13 @@
           "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0194",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p017:m0194"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p018:m0185",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p018:m0185"
           ],
           "kind": "paragraph"
         },
@@ -15163,6 +15173,37 @@
         "kind": "fixed_wyd_song051_p014_p017_title_reference",
         "basis": "posthumous_imperial_title",
         "interpretation_note": "原文以君主稱號指向在位人物；保留稱號與用人ID的對照，稱號不作姓名別名。"
+      },
+      "human_reviewed": false
+    },
+    {
+      "id": "tu-song051-p018-xiaowu",
+      "person_id": "hx8_st4_jdd",
+      "person_mention_id": "c-songshu-051-wyd1739-zongshi:p018:m0185",
+      "source_term": "孝武",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p018",
+        "start": 34,
+        "end": 36,
+        "surface": "孝武"
+      },
+      "usage_kind": "title_reference",
+      "holding_ids": [],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p018",
+          "quote": "黃門侍郎都官尚書吳郡太守兄秉旣死齊王遣誅之遐人才甚凡自謂名常對賓客曰孝武無道枉我殺母其頑騃若此秉當權遐累求方伯秉曰我在用汝作州於聽望不足遐曰富貴時則云不可相關從坐之日為得免不至是果死焉義宗弟義賓元嘉二年封新野縣侯六年以新野荒敝改封興安縣侯黃門郎祕書監左衞將軍位至輔國將軍徐州刺史二十五年卒追贈後將軍諡曰肅侯子惠侯綜嗣卒子憲嗣昇明二年齊受禪國除綜弟珪晉平太守義賓弟義綦元嘉六年封營道縣侯凡鄙無識知每為始興王濬兄弟所戲弄濬常",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p018:m0185"
+        }
+      ],
+      "source_use_binding": {
+        "kind": "fixed_wyd_song051_p018_p019_title_reference",
+        "basis": "posthumous_imperial_title",
+        "interpretation_note": "此為劉遐的陳述，辨識稱號所指不等於確認其指控為事實。"
       },
       "human_reviewed": false
     }

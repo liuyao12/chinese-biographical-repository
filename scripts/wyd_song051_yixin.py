@@ -26,10 +26,15 @@ def materialize(v,roles):
  if type(v)is list:return[materialize(x,roles)for x in v]
  return v
 def has_phase(ch):return type(ch)is dict and type(ch.get('annotation'))is dict and 'additional_annotation_phase'in ch['annotation']
-def phase_chapter(c,roles):
+def phase_chapter(c,roles,root):
  ch=materialize(c['base_source_template'],roles);ch['annotation']['additional_annotation_phase']={'kind':PHASE,'contract_path':REF,'coverage':c['coverage'],'human_reviewed':False,'model':None}
  for row in c['markers']:
   p=next(p for p in ch['paragraphs']if p['id']==row['paragraph_id']);m=materialize(row['marker'],roles);need(not any(x['id']==m['id']for x in p['mentions']),'新增MID碰撞');p['mentions'].append(m);p['mentions'].sort(key=lambda x:x['start']);p['annotation_status']='in_progress'
+ try:from scripts.wyd_song051_p018 import markers as p018_markers, title_uses as p018_title_uses
+ except ImportError:from wyd_song051_p018 import markers as p018_markers, title_uses as p018_title_uses
+ for row in p018_markers(root):
+  p=next(p for p in ch['paragraphs']if p['id']==row['paragraph_id']);m=copy.deepcopy(row['marker']);need(not any(x['id']==m['id']for x in p['mentions']),'p018/p019 MID碰撞');p['mentions'].append(m);p['mentions'].sort(key=lambda x:x['start']);p['annotation_status']='in_progress'
+ ch['annotation']['source_title_uses'].extend(p018_title_uses(ch))
  return ch
 def collect(ch,c):
  roles={}
@@ -47,13 +52,22 @@ def resolve_seeds(root,c):
  return roles
 @memoized(0)
 def state(root,ch=None):
- root=Path(root).resolve();actual=load(root,CH);need(ch is None or same(ch,actual),'所給current完整章不符');c=contract(root);roles=collect(actual,c);need(same(actual,phase_chapter(c,roles)),'完整原文/舊新錨/資格/位置或新增metadata差異');seeds=resolve_seeds(root,c);need(all(roles[k]==v for k,v in seeds.items()),'既有人物跨源角色錯接');need(roles['yixin']==roles['old_yixin']and roles['wendi']==roles['old_taizu'],'既有角色被另造');need(len({roles[r]for r in c['new_names']})==len(c['new_names']),'本源不同個體不得同號');need(not({roles[r]for r in c['new_names']}&(set(seeds.values())|{v for k,v in roles.items()if k.startswith('old_')})),'新角色與既有人物錯合')
+ root=Path(root).resolve();actual=load(root,CH);need(ch is None or same(ch,actual),'所給current完整章不符');c=contract(root);roles=collect(actual,c);need(same(actual,phase_chapter(c,roles,root)),'完整原文/舊新錨/資格/位置或新增metadata差異');seeds=resolve_seeds(root,c);need(all(roles[k]==v for k,v in seeds.items()),'既有人物跨源角色錯接');need(roles['yixin']==roles['old_yixin']and roles['wendi']==roles['old_taizu'],'既有角色被另造');need(len({roles[r]for r in c['new_names']})==len(c['new_names']),'本源不同個體不得同號');need(not({roles[r]for r in c['new_names']}&(set(seeds.values())|{v for k,v in roles.items()if k.startswith('old_')})),'新角色與既有人物錯合')
  rows=load(root,'registry/persons.json')['persons'];people={p['id']:p for p in rows};need(len(people)==len(rows),'current registry重複ID')
- title_use_ids={u['person_mention_id'] for u in actual['annotation'].get('source_title_uses',[])}
+ # A title-use can point to an adjacent personal-name mention as its title context;
+ # only an anchor that exactly covers the marked surface makes that MID title-only.
+ title_use_ids={u['person_mention_id'] for u in actual['annotation'].get('source_title_uses',[]) if u.get('source_anchor',{}).get('surface')==next((m['surface'] for p in actual['paragraphs'] for m in p['mentions'] if m['id']==u.get('person_mention_id')),None)}
  for row in c['markers']:
   p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id']);person=people.get(m['person_id']);need(person is not None,'新增角色未登記');has_alias=any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']);need((not has_alias)if m['id']in title_use_ids else has_alias,'新增姓名alias／稱號用稱分類不符');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'新增evidence缺反向')
+ try:from scripts.wyd_song051_p018 import markers as p018_markers
+ except ImportError:from wyd_song051_p018 import markers as p018_markers
+ for row in p018_markers(root):
+  p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id']);person=people.get(m['person_id']);need(person is not None,'p018/p019人物未登記');has_alias=any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']);need((not has_alias)if m['id']in title_use_ids else has_alias,'p018/p019姓名alias／稱號用稱分類不符');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'p018/p019人物缺反向evidence')
  docs={rel:materialize(v,roles)for rel,v in c['expected_documents'].items()}
- for rel,expected in docs.items():need(same(load(root,rel),expected),'新人物/姓名/親屬sidecar不符：'+rel)
+ for rel,expected in docs.items():
+  candidate=load(root,rel)
+  if rel=='corpus/songshu/051-wyd1739-life-events.json':candidate['events']=[e for e in candidate['events']if not e['id'].startswith(('le-song051-p018-','le-song051-p019-'))]
+  need(same(candidate,expected),'新人物/姓名/親屬sidecar不符：'+rel)
  family=next(f for f in load(root,'registry/family-assemblies.json')['assemblies']if f['id']=='family-song041-qiao');rows={r['person_id']:r for r in family['members']};need(len(rows)==len(family['members']),'家系重複')
  for expected in materialize(c['expected_family_members'],roles):need(same(rows.get(expected['person_id']),expected),'新近系明父/推定父行不符')
  # Names rely on already checked source-based Liu components, not labels or structural IDs.
@@ -108,4 +122,11 @@ def guard_bundle(root,pid,people,records):
  ch=load(root,CH)
  if not has_phase(ch):return
  actual,roles,c,docs=state(root);registered={p['id']:p for p in load(root,'registry/persons.json')['persons']};need(same(people.get(pid),registered.get(pid)),'bundle現行人物不符')
- for rel,expected in docs.items():need(sum(same(r,expected)for r in records)==1,'bundle新完整人物/親屬/名字資料缺漏或重複')
+ for rel,expected in docs.items():
+  hits=[]
+  for record in records:
+   candidate=record
+   if rel=='corpus/songshu/051-wyd1739-life-events.json' and type(record)is dict and record.get('record_type')=='person_life_event_assertion_set':
+    candidate=copy.deepcopy(record);candidate['events']=[e for e in candidate['events']if not e['id'].startswith(('le-song051-p018-','le-song051-p019-'))]
+   if same(candidate,expected):hits.append(record)
+  need(len(hits)==1,'bundle新完整人物/親屬/名字資料缺漏或重複')

@@ -17,23 +17,30 @@
       "category": "",
       "title": "宗室",
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
-      "count": 3,
-      "raw_count": 3,
+      "count": 6,
+      "raw_count": 6,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
       "paragraph_ids": [
-        "c-songshu-051-wyd1739-zongshi:p017"
+        "c-songshu-051-wyd1739-zongshi:p017",
+        "c-songshu-051-wyd1739-zongshi:p018"
       ],
       "mention_ids": [
         "c-songshu-051-wyd1739-zongshi:p017:m0144",
         "c-songshu-051-wyd1739-zongshi:p017:m0146",
-        "c-songshu-051-wyd1739-zongshi:p017:m0184"
+        "c-songshu-051-wyd1739-zongshi:p017:m0184",
+        "c-songshu-051-wyd1739-zongshi:p018:m0184",
+        "c-songshu-051-wyd1739-zongshi:p018:m0187",
+        "c-songshu-051-wyd1739-zongshi:p018:m0189"
       ],
       "mention_paragraph_ids": {
         "c-songshu-051-wyd1739-zongshi:p017:m0144": "c-songshu-051-wyd1739-zongshi:p017",
         "c-songshu-051-wyd1739-zongshi:p017:m0146": "c-songshu-051-wyd1739-zongshi:p017",
-        "c-songshu-051-wyd1739-zongshi:p017:m0184": "c-songshu-051-wyd1739-zongshi:p017"
+        "c-songshu-051-wyd1739-zongshi:p017:m0184": "c-songshu-051-wyd1739-zongshi:p017",
+        "c-songshu-051-wyd1739-zongshi:p018:m0184": "c-songshu-051-wyd1739-zongshi:p018",
+        "c-songshu-051-wyd1739-zongshi:p018:m0187": "c-songshu-051-wyd1739-zongshi:p018",
+        "c-songshu-051-wyd1739-zongshi:p018:m0189": "c-songshu-051-wyd1739-zongshi:p018"
       },
       "mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0144",
       "occurrence_groups": [
@@ -55,6 +62,27 @@
           "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0184",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p017:m0184"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p018:m0184",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p018:m0184"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p018:m0187",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p018:m0187"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p018:m0189",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p018:m0189"
           ],
           "kind": "paragraph"
         }
@@ -222,9 +250,43 @@
       ],
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song051-p018-xia-younger-brother-of-bing",
+      "subject_person_id": "3qs_nqa_ioa_AABDD",
+      "predicate": "brother",
+      "object_person_id": "3qs_nqa_ioa_AABDB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "兄秉",
+        "source_clause_binding": {
+          "kind": "fixed_wyd_song051_p018_p019_direct_family",
+          "case": "a-song051-p018-xia-younger-brother-of-bing",
+          "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+        },
+        "lineage": "paternal",
+        "shared_father": null,
+        "subject_relative_age": "younger",
+        "interpretation_note": "原文所載的同輩親稱按父系家族關係保留；不推同母、絕對排行或未載世數。"
+      },
+      "human_reviewed": false,
+      "model": null,
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p018",
+          "quote": "黃門侍郎都官尚書吳郡太守兄秉旣死齊王遣誅之遐人才甚凡自謂名常對賓客曰孝武無道枉我殺母其頑騃若此秉當權遐累求方伯秉曰我在用汝作州於聽望不足遐曰富貴時則云不可相關從坐之日為得免不至是果死焉義宗弟義賓元嘉二年封新野縣侯六年以新野荒敝改封興安縣侯黃門郎祕書監左衞將軍位至輔國將軍徐州刺史二十五年卒追贈後將軍諡曰肅侯子惠侯綜嗣卒子憲嗣昇明二年齊受禪國除綜弟珪晉平太守義賓弟義綦元嘉六年封營道縣侯凡鄙無識知每為始興王濬兄弟所戲弄濬常",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p018:m0184",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p018:m0182"
+        }
+      ]
     }
   ],
   "related_people": {
+    "3qs_nqa_ioa_AABDB": "劉秉",
     "3qs_nqa_ioa_AABDC": "劉謨",
     "3qs_nqa_ioa_AABDD": "劉遐",
     "9vj_md6_8sx": "殷〔遐嫡母〕"
@@ -362,6 +424,39 @@
       ],
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song051-p018-xia-younger-brother-of-bing",
+      "subject_person_id": "3qs_nqa_ioa_AABDD",
+      "predicate": "brother",
+      "object_person_id": "3qs_nqa_ioa_AABDB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "兄秉",
+        "source_clause_binding": {
+          "kind": "fixed_wyd_song051_p018_p019_direct_family",
+          "case": "a-song051-p018-xia-younger-brother-of-bing",
+          "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+        },
+        "lineage": "paternal",
+        "shared_father": null,
+        "subject_relative_age": "younger",
+        "interpretation_note": "原文所載的同輩親稱按父系家族關係保留；不推同母、絕對排行或未載世數。"
+      },
+      "human_reviewed": false,
+      "model": null,
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p018",
+          "quote": "黃門侍郎都官尚書吳郡太守兄秉旣死齊王遣誅之遐人才甚凡自謂名常對賓客曰孝武無道枉我殺母其頑騃若此秉當權遐累求方伯秉曰我在用汝作州於聽望不足遐曰富貴時則云不可相關從坐之日為得免不至是果死焉義宗弟義賓元嘉二年封新野縣侯六年以新野荒敝改封興安縣侯黃門郎祕書監左衞將軍位至輔國將軍徐州刺史二十五年卒追贈後將軍諡曰肅侯子惠侯綜嗣卒子憲嗣昇明二年齊受禪國除綜弟珪晉平太守義賓弟義綦元嘉六年封營道縣侯凡鄙無識知每為始興王濬兄弟所戲弄濬常",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p018:m0184",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p018:m0182"
+        }
+      ]
     }
   ],
   "assembled_identity": {

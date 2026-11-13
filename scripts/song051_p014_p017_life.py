@@ -30,6 +30,9 @@ def records(root):
    'contextual_date_basis':{'kind':'song051_yuanhui_fourth_year_then_shundi_accession','chapter_id':CID,'paragraph_id':ps['p016']['id'],'quote':ps['p016']['text'],'era_year_anchor':'元徽元年','sequence_anchor':'四年遷中書令','accession_anchor':'順帝即位','human_reviewed':False}}
   refs=[{'title':'宋書卷五十一清乾隆四年武英殿本','url':ch['source']['url'],'quote':'順帝即位','scope':'received_parallel_event','image_verified':False}, {'title':'教育部《重編國語辭典修訂本》中國歷代年號表','url':yh['url'],'quote':'元徽','scope':'digital_editorial_regnal_year_equivalence_only','columns':copy.deepcopy(yh['columns']),'fixed_row_reference':{'path':YH,'sha256':H((root/YH).read_bytes())},'image_verified':False}]
   nd=date(p,m,deathterm,477,'元徽',deathterm,refs,'same_biography_contextual_shundi_accession_after_yuanhui_four');nd['basis']={'kind':'parallel_event','source_event_quote':deathterm,'reference_url':ch['source']['url'],'reference_event_quote':'順帝即位','reference_year_url':yh['url'],'reference_year_quote':'元徽'};event['normalized_date']=nd;events.append(event)
+ try:from scripts.wyd_song051_p018_records import life_events as p018_events
+ except ImportError:from wyd_song051_p018_records import life_events as p018_events
+ events.extend(p018_events(root)['events'])
  return {'format_version':'0.1','record_type':'person_life_event_assertion_set','chapter_id':CID,'events':events}
 
 def date_valid(d,event,chapters,root):

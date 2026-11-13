@@ -169,6 +169,12 @@ def source_errors005(ch,root):
   current,roles,c,facts,ns=context(root);need(same(ch,intro_chapter(c,roles)),'005呼叫章與現行不符');return []
  except (ValueError,KeyError,TypeError,OSError,UnicodeError,StopIteration,AttributeError)as e:return ['武英殿宋005有限身份橋：'+str(e)]
 
+def _p018_family_valid(a,paragraphs,chapters,root):
+ try:
+  from scripts.wyd_song051_p018 import assertion_valid
+  return assertion_valid(a,chapters,root)
+ except (ImportError,ValueError,KeyError,TypeError,OSError,StopIteration):return False
+
 def _phase1_applies(a):
  if not isinstance(a,dict):return False
  q=a.get('qualifiers');b=q.get('source_clause_binding')if isinstance(q,dict)else None
@@ -370,8 +376,9 @@ def context(root,ch=None,check_sidecars=True):
  return _phase1_context(root,ch,check_sidecars)
 def applies(a):
  return (isinstance(a,dict) and (str(a.get('id','')).startswith('a-song051-yixin-')
-         or a.get('qualifiers',{}).get('source_unit_binding',{}).get('kind')=='fixed_wyd_song051_p014_p017_family_batch')) or _phase1_applies(a)
+         or a.get('qualifiers',{}).get('source_unit_binding',{}).get('kind')=='fixed_wyd_song051_p014_p017_family_batch' or a.get('qualifiers',{}).get('source_clause_binding',{}).get('kind')=='fixed_wyd_song051_p018_p019_direct_family')) or _phase1_applies(a)
 def family_valid(a,paragraphs,chapters,root):
+ if isinstance(a,dict) and a.get('qualifiers',{}).get('source_clause_binding',{}).get('kind')=='fixed_wyd_song051_p018_p019_direct_family':return _p018_family_valid(a,paragraphs,chapters,root)
  if isinstance(a,dict) and (str(a.get('id','')).startswith('a-song051-yixin-') or a.get('qualifiers',{}).get('source_unit_binding',{}).get('kind')=='fixed_wyd_song051_p014_p017_family_batch'):
   return _yixin_module().family_valid(a,paragraphs,chapters,root)
  if isinstance(a,dict) and str(a.get('id','')).startswith('a-song051-phase1-'):

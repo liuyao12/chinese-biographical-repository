@@ -19,6 +19,8 @@ class Song051(unittest.TestCase):
    if 'additional_annotation_phase'in self.actual['annotation']:
     from scripts.wyd_song051_yixin import state
     _,_,extra,_=state(ROOT,self.actual);self.formal_count+=len(extra['markers'])
+    from scripts.wyd_song051_p018 import markers as p018_markers
+    self.formal_count+=len(p018_markers(ROOT))
   self.assertEqual([(p['id'],p['text'],p['source_position'])for p in self.c['paragraphs']],[(p['id'],p['text'],p['source_position'])for p in self.actual['paragraphs']])
  def test_complete_pending_source_and_xml(self):
   self.assertEqual(source_errors(self.c,ROOT),[])
