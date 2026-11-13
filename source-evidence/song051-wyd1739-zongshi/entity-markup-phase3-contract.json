@@ -21,7 +21,7 @@
       "c-songshu-051-wyd1739-zongshi:p047",
       "c-songshu-051-wyd1739-zongshi:p048"
     ],
-    "additional_person_mentions": 120,
+    "additional_person_mentions": 123,
     "human_reviewed": false,
     "model": null
   },
@@ -41,7 +41,7 @@
         "c-songshu-051-wyd1739-zongshi:p047",
         "c-songshu-051-wyd1739-zongshi:p048"
       ],
-      "additional_person_mentions": 101
+      "additional_person_mentions": 113
     },
     "human_reviewed": false,
     "model": null
@@ -58,7 +58,8 @@
     "WenZuo": "2wn_zj1_lfy",
     "BaoZhao": "5ew_f6b_tfj",
     "DiaoMi": "sp6_k2v_4kg_A",
-    "ChenYan": "6pi_uq2_l0p"
+    "ChenYan": "6pi_uq2_l0p",
+    "LiuYiSon": "3qs_nqa_ioa_AABCA"
   },
   "markers": [
     {
@@ -1258,6 +1259,49 @@
     },
     {
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+      "role_key": "LiuYirong",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p012:m0123",
+        "start": 147,
+        "end": 149,
+        "surface": "義融",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABC",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuYirong"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+      "role_key": "LiuYiSon",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p012:m0124",
+        "start": 193,
+        "end": 194,
+        "surface": "顗",
+        "kind": "person",
+        "person_id": "3qs_nqa_ioa_AABCA",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuYiSon"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+      "role_key": "LiuShao",
+      "alias_surface": false,
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p012:m0125",
+        "start": 204,
+        "end": 206,
+        "surface": "元凶",
+        "kind": "person",
+        "person_id": "fof_k8v_7md",
+        "status": "contextual_provisional",
+        "source_role_key": "song051-entity-phase3:LiuShao"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
       "role_key": "LiuJun",
       "marker": {
         "id": "c-songshu-051-wyd1739-zongshi:p012:m0122",
@@ -1842,9 +1886,9 @@
     }
   ],
   "identity_decisions_path": "corpus/songshu/051-wyd1739-entity-phase3-identities.json",
-  "identity_decisions_sha256": "c03db8b032379823eae3134cad3e0dd6d44d1327d8bbc78edc24edf606ab6d8c",
+  "identity_decisions_sha256": "494724d37e1d82497559e48fda1109ec694c229c6658ddbbc1e06cd5accee1c2",
   "name_components_path": "corpus/songshu/051-wyd1739-entity-phase3-name-components.json",
-  "name_components_sha256": "bead252d61949fb0b79eab7d6ee79a4ca9339bd9a0233b3a3eaf464d87cbaab5",
+  "name_components_sha256": "a1cec73a2dd636b35802b112e3df728228425d98598af04403848d185d109d09",
   "cross_chapter_references": [
     {
       "id": "xref-song051-p047-daolian-biography",
@@ -1945,7 +1989,7 @@
     }
   ],
   "assertions_path": "corpus/songshu/051-wyd1739-entity-phase3-assertions.json",
-  "assertions_sha256": "02419ae0b0a930f024f56b64d32d06ce2ed44c02d41f83a0e3264276a32ab94a",
+  "assertions_sha256": "49a6f1985fe7414efedb69de9087a5a95217448c15247bd642b6254cf41f4f4b",
   "life_events_path": "corpus/songshu/051-wyd1739-entity-phase3-life-events.json",
-  "life_events_sha256": "3b4858a79f2d9e1f71a1b4a81525e032d560866280fa5f76764018dc4e3d08bb"
+  "life_events_sha256": "ebba57a1b607e7085e0a3b5ac235cd467a40d9a78558301fcabcabaef51fb93e"
 }

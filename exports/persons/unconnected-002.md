@@ -1031,7 +1031,7 @@
 | `fo7_f8v_rmf` | 梁武帝衍 | [《梁書・謝朏 弟子覽》][63] | [JSON](fo7_f8v_rmf.json) |
 | `fo8_gdc_pg8` | 欒盈 | [《史記・齊太公世家》][101] | [JSON](fo8_gdc_pg8.json) |
 | `foc_gnk_id0` | 鍾皓 | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](foc_gnk_id0.json) |
-| `fof_k8v_7md` | 宋元凶劭 | [《宋書・徐湛之 江湛 王僧綽》][226] | [JSON](fof_k8v_7md.json) |
+| `fof_k8v_7md` | 宋元凶劭 | [《宋書・宗室》][212]、[《宋書・徐湛之 江湛 王僧綽》][226] | [JSON](fof_k8v_7md.json) |
 | `fog_r7x_1uh` | 王氏（謝朗母） | [《晉書・謝尚 謝安》][53] | [JSON](fog_r7x_1uh.json) |
 | `foh_3hu_yh7` | 廷尉未名 | [《史記・張耳陳餘列傳》][158] | [JSON](foh_3hu_yh7.json) |
 | `foo_tch_2bb` | 燕王喜 | [《史記・田敬仲完世家》][115] | [JSON](foo_tch_2bb.json) |

@@ -14,7 +14,7 @@ except ImportError:
 CH = 'corpus/songshu/051-wyd1739.json'
 CID = 'c-songshu-051-wyd1739-zongshi'
 REF = 'source-evidence/song051-wyd1739-zongshi/entity-markup-phase3-contract.json'
-CONTRACT_SHA = '31cb8436153d6c3dac60252f3a117e17e07fde17a0bdf2781981b6deeeae85f2'
+CONTRACT_SHA = '920a3bda572034ad9ed96d945ecb110ac835ebde596be127834e60f6a22e2d66'
 
 
 def need(ok, message):
@@ -94,6 +94,25 @@ def project_phase2(root, current):
         evidence.update(chapter_id=CID, paragraph_id=paragraph['id'], mention_id=marker['id'], quote=marker['surface'])
         need(evidence in person.get('evidence', []), '人物 evidence 未反向連到錨點：' + marker['id'])
 
+    life_path = c.get('life_events_path')
+    life_raw = (root / life_path).read_bytes()
+    need(hashlib.sha256(life_raw).hexdigest() == c.get('life_events_sha256'), 'phase3生平事件資料 SHA 不符')
+    life_set = json.loads(life_raw)
+    need(life_set.get('record_type') == 'person_life_event_assertion_set' and life_set.get('chapter_id') == CID,
+         'phase3生平事件資料篇章不符')
+    mention_index = {m['id']: m for p in actual.get('paragraphs', []) for m in p.get('mentions', [])}
+    mention_index.update({r['marker']['id']: r['marker'] for r in c['markers']})
+    for event in life_set.get('events', []):
+        anchor = event.get('source_anchor', {})
+        paragraph = next((p for p in actual['paragraphs'] if p['id'] == anchor.get('paragraph_id')), None)
+        need(paragraph is not None and paragraph['text'][anchor.get('start', -1):anchor.get('end', -1)] == anchor.get('surface'),
+             'phase3生平事件來源錨點不符：' + event.get('id', ''))
+        for ev in event.get('evidence', []):
+            mid = ev.get('person_mention_id')
+            if mid:
+                mention = mention_index.get(mid)
+                need(mention is not None and mention.get('person_id') == event.get('person_id'),
+                     'phase3生平事件人物提及不符：' + event.get('id', ''))
     assertion_path = c.get('assertions_path')
     assertion_raw = (root / assertion_path).read_bytes()
     need(hashlib.sha256(assertion_raw).hexdigest() == c.get('assertions_sha256'), 'phase3親屬資料 SHA 不符')
