@@ -445,7 +445,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         from preferred_name_components import validated_readings
     preferred_name_components = validated_readings(records,
         [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
-        chapters, ids)
+        chapters, ids, root=root)
     date_decisions = [d for r in records if r.get('record_type') == 'life_event_date_decision_set'
                       for d in r['decisions'] if set(d['person_ids']).issubset(ids)]
     try:
