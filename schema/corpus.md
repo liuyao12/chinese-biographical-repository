@@ -291,7 +291,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ### 授予政體、未赴任與來源地稱
 
-稱號 `granting_polity` 保存 `source_name`、`authority_person_id` 及授予者的來源錨點／引句；`place_id`、`modern_identification` 均為 `null`。相同「上卿」由秦、齊分別授予時分存，不能按同名官爵合為同一次授任。`service_realization` 的首批形式為 `status: not_taken_up`、`source_term` 與 `evidence`，用於「甘茂不往」；保留授予，卻不得顯示為已赴任。未知後續不由此補定終點。
+稱號 `granting_polity` 保存 `source_name`、`authority_person_id` 及授予者的來源錨點／引句；`place_id`、`modern_identification` 均為 `null`。相同「上卿」由秦、齊分別授予時分存，不能按同名官爵合為同一次授任。`service_realization` 的形式為 `status: not_taken_up`、`source_term` 與 `evidence`，適用於「不往」「不成行」「不拜」等明示未赴任／未就拜的原詞；保留授予，卻不得顯示為已實任。未知後續不由此補定終點。
 
 地址 `source_locality_designation` 保存「下蔡史舉先生」等以地名稱人的原詞，`qualifiers.designation_kind: geographical_person_reference`、`origin_or_residence: null`；不將未明的地稱改為籍貫、出生地或居所。`service_location` 保存「下蔡之監門」，`qualifiers.source_position` 保留「監門」，任事地與居所分開。
 

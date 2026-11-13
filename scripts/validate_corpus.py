@@ -1499,8 +1499,8 @@ def _validate_uncached(root=ROOT):
                     service = h['service_realization']
                     check(isinstance(service, dict) and set(service) == {'status', 'source_term', 'evidence'}
                           and h['mode'] == 'grant' and service.get('status') == 'not_taken_up'
-                          and any(term in service.get('source_term', '') for term in ('不往','不成行')) and bool(service.get('evidence')),
-                          '授予未赴任須保留不往原詞與證據，不改成已實任')
+                        and any(term in service.get('source_term', '') for term in ('不往','不成行','不拜')) and bool(service.get('evidence')),
+                          '授予未任須保留未赴、未拜原詞與證據，不改成已實任')
                     if isinstance(service, dict):
                         for e in service.get('evidence', []):
                             hit = paragraphs.get(e.get('paragraph_id')); anchor = mentions.get(e.get('person_mention_id'))
