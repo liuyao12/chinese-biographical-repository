@@ -15,7 +15,9 @@ python3 scripts/person_bundle.py jx9_cov_qe0 --include-provisional --output /tmp
 
 此匯出是可重建的讀取層，權威資料仍是各篇來源與標註。無 AI 或網路處理需求。閱讀器人物頁使用另行生成的顯示資料；本來源包供程式解析與下載，尚未改接家譜小程式。
 
-關係 `agnatic_cousin` 保存正文「從兄」「從弟」等同宗從兄弟稱呼，親等未定時 `qualifiers.degree` 為 `unknown`；不能由此補第一代表親、共同祖父或父子線。與 `brother` 相異的來源主張並列，`discrepancy_group_id` 可供檢視器連結分歧；該群組只提示差異，不自動選定其中一說。
+關係 `agnatic_cousin` 保存正文「從兄」「從弟」等同宗從兄弟稱呼；一般的「從兄／從弟」只表示相對長幼與同輩旁親語境，不推確切共同祖先深度、共同祖先姓名或直接父系路徑。與 `brother` 相異的來源主張並列，`discrepancy_group_id` 可供檢視器連結分歧；該群組只提示差異，不自動選定其中一說。
+
+遇到更具體的原詞「從祖兄／從祖兄弟」，只有在明列古注或服制文獻的詞義判讀後，才可將其表示為「再從兄弟、同曾祖」，並將共同祖先深度記作雙方各三代。這是術語詮釋，不是傳記明言某姓名為共祖；因此 `distance` 可記 `{"kind":"paternal_second_cousins","common_ancestor_depth":{"subject":3,"reference":3}}`，而 `common_ancestor_person_id` 仍為 null。現代研究與原文異說另列，不能代替古注依據。例見《南齊書》卷46「太尉儉從祖兄」及《內外服制通釋》卷六「從祖兄弟姊妹亦己之再從兄弟姊妹，與己同曾祖者」；另有《儀禮·喪服》鄭玄注、賈公彥疏及李卿、沈冬的參考資料保存在該項關係陳述中。
 
 出生排行存於關係主張的 `qualifiers.birth_order` 或 `qualifiers.relative_birth_order`，並直接匯出為 `birth_order_constraints`，消費端不需解析 `source_term`。每項約束保留主張 ID 與證據。
 

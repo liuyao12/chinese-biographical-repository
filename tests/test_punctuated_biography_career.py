@@ -1,7 +1,9 @@
 """Invented persons/IDs, production career hook; no historical source/person whitelist."""
-import unittest,copy,re,hashlib
-from scripts.punctuated_biography_career import FRAMES,KIND,proposal_errors,sister_valid,death_valid
+import unittest,copy,re,hashlib,json
+from pathlib import Path
+from scripts.punctuated_biography_career import FRAMES,KIND,proposal_errors,sister_valid,death_valid,holding_valid as punctuated_holding_valid
 from scripts.received_career_roles import holding_valid
+ROOT=Path(__file__).resolve().parents[1]
 
 def fixture(rule='initial_local',slot=None,recipient=None,overrides=None):
  values=dict(office='縣令',office2='右衛率',office3='驍騎將軍',rank='清河男',date='太康八年',proposal1='景',proposal2='穆',rulepost='簡',postname='簡')
@@ -27,6 +29,14 @@ def fixture(rule='initial_local',slot=None,recipient=None,overrides=None):
  return ch,h
 class PunctuatedCareer(unittest.TestCase):
  def test_initial(self):c,h=fixture();self.assertTrue(holding_valid(h,c))
+ def test_guoyi_career_roles_retain_referential_pronouns(self):
+  ch=json.loads((ROOT/'corpus/jinshu/045-guoyi.json').read_text())
+  holdings=json.loads((ROOT/'corpus/jinshu/045-guoyi-titles.json').read_text())['holdings']
+  rows=[h for h in holdings if h.get('source_career_role',{}).get('kind')=='punctuated_biography_career_frame']
+  self.assertEqual(len(rows),16)
+  for h in rows:self.assertTrue(punctuated_holding_valid(h,ch),h['id'])
+  pronouns=[m for p in ch['paragraphs'] for m in p['mentions'] if m.get('kind')=='pronoun' and m.get('person_id')]
+  self.assertTrue(pronouns)
  def bad(self,mutate):
   c,h=fixture();mutate(c,h);self.assertFalse(holding_valid(h,c))
  def test_prose_as_office(self):c,h=fixture(overrides=dict(office='少與'));self.assertFalse(holding_valid(h,c))

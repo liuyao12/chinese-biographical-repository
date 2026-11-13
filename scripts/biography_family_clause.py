@@ -78,6 +78,10 @@ def valid(a,paragraphs,assertions=(),chapters=None):
     if parent['start']>3 or parent['end']>=start or any(x['person_id']!=parent['person_id']for x in p['mentions']if x['kind']=='person'and x['end']<=start):return False
    if o['id']!=parent['id']:return False
    allowed=[('father','child','parent')]
+  elif rule=='named_clansman_pair':
+   if set(roles)!={'head','clansman'}or start!=0 or len({id(k)for k in roles})!=2:return False
+   if not exact(token('head')+'宗人'+token('clansman'))or not positioned('head',0)or not positioned('clansman',len(token('head'))+2):return False
+   allowed=[('kinship_unspecified','head','clansman')]
   elif rule=='ranked_older_brothers':
    if set(roles)!={'head','first','second'}or start!=0 or not exact(token('head')+'長兄'+token('first')+'，次兄'+token('second')+'，'):return False
    offsets={'head':0,'first':len(token('head'))+2,'second':len(token('head'))+2+len(token('first'))+3}
@@ -139,6 +143,13 @@ def valid(a,paragraphs,assertions=(),chapters=None):
    prefix=len('竟卒于'+m[1]+'，以族人')
    if not positioned('clansman',prefix)or not positioned('son',prefix+1+len(token('clansman'))):return False
    allowed=[('father','son','clansman'),('ritual_successor_of','son','head'),('kinship_unspecified','clansman','head')]
+  elif rule=='head_subject_congzu_older_cousin':
+   if set(roles)!={'head','reference'}or len({id(k)for k in roles})!=2:return False
+   if id('head')!=a['subject_person_id']or id('reference')!=a['object_person_id']or roles['head']['end']>start:return False
+   if not exact('太尉'+token('reference')+'從祖兄也')or not positioned('reference',2):return False
+   if any(m['kind']=='person'and m['id']not in b['roles'].values()
+          and roles['head']['end']<=m['start']<end for m in p['mentions']):return False
+   allowed=[('agnatic_cousin','head','reference')]
   else:return False
   matches=[(pred,x,y)for pred,x,y in allowed if pred==a['predicate']and id(x)==a['subject_person_id']and id(y)==a['object_person_id']]
   if len(matches)!=1:return False
@@ -161,7 +172,14 @@ def valid(a,paragraphs,assertions=(),chapters=None):
    if rb!={'older_person_id':older,'younger_person_id':younger,'operator':'lt','older_ordinal':None,'younger_ordinal':None,'scope':'agnatic_cousins'if pred=='agnatic_cousin'else'siblings'}:return False
    if pred=='agnatic_cousin':
     allowedq.add('kinship_structure')
-    if q.get('kinship_structure')!={'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'older'}:return False
+    if rule=='head_subject_congzu_older_cousin':
+     allowedq|={'lexical_sources','scholarly_references'}
+     expected={'lineage':'paternal','generation_difference':0,'collateral':True,'distance':{'kind':'paternal_second_cousins','common_ancestor_depth':{'subject':3,'reference':3}},'common_ancestor_person_id':None,'subject_relative_age':'older'}
+     if q.get('kinship_structure')!=expected:return False
+     lex=q.get('lexical_sources')
+     if lex != [{'title':'儀禮·喪服','author':'鄭玄注、賈公彥疏','url':'https://ctext.org/wiki.pl?chapter=814355&if=gb','quote':'父之從父昆弟之子；己之再從兄弟','scope':'古注以服制親稱解釋「從祖兄弟」；本篇未明言共祖姓名。'}]:return False
+     if not isinstance(q.get('scholarly_references'),list) or {x.get('author') for x in q['scholarly_references']}!={'李卿','沈冬'}:return False
+    elif q.get('kinship_structure')!={'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'older'}:return False
   elif pred=='ritual_successor_of':
    allowedq|={'succession_kind','legal_adoption_status','parentage_inference'}
    if rule=='son_heir_childless_younger_brother_supplies_son':
@@ -173,5 +191,6 @@ def valid(a,paragraphs,assertions=(),chapters=None):
   elif pred=='kinship_unspecified':
    expected={'kinship_basis':'explicit_clan_member','lineage':'unspecified','generation_difference':None,'exact_distance':None,'common_ancestor_person_id':None};allowedq|=set(expected)
    if any(q.get(k)!=v for k,v in expected.items()):return False
+  if rule=='head_subject_congzu_older_cousin' and q.get('source_term')!='從祖兄':return False
   return set(q)==allowedq
  except(KeyError,TypeError,ValueError,IndexError,StopIteration):return False

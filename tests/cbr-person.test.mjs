@@ -213,7 +213,7 @@ test('a clicked person remains selected through incidental mouse hover until clo
   const click=n=>events.get('click')({target:{closest:()=>n},preventDefault(){},stopPropagation(){}});
   const settle=()=>new Promise(resolve=>setImmediate(resolve));
   globalThis.document=ownerDocument;
-  globalThis.fetch=async url=>({ok:true,json:async()=>({id:decodeURIComponent(url.split('/').pop().slice(0,-5)),label:'synthetic person'})});
+  globalThis.fetch=async url=>({ok:true,json:async()=>({schema_version:1,id:decodeURIComponent(url.split('/').pop().slice(0,-5)),heading:'synthetic person'})});
   let dispose;
   try {
     dispose=bindPersonCards(root);
@@ -484,7 +484,7 @@ test('unrelated pointer exits and stale hide timers cannot close a newly hovered
   const exit=n=>events.get('pointerout')({pointerType:'mouse',target:{closest:()=>n},relatedTarget:null});
   const settle=()=>new Promise(resolve=>setImmediate(resolve));
   let dispose;
-  globalThis.document={createElement:()=>card};globalThis.fetch=async url=>({ok:true,json:async()=>({id:decodeURIComponent(url.split('/').pop().slice(0,-5)),label:'synthetic person'})});
+  globalThis.document={createElement:()=>card};globalThis.fetch=async url=>({ok:true,json:async()=>({schema_version:1,id:decodeURIComponent(url.split('/').pop().slice(0,-5)),heading:'synthetic person'})});
   globalThis.setTimeout=callback=>{const id=++sequence;pending.set(id,callback);return id;};globalThis.clearTimeout=id=>pending.delete(id);
   try {
     dispose=bindPersonCards(root);

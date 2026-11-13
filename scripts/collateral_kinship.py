@@ -2,6 +2,21 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    binding = assertion.get('qualifiers', {}).get('source_clause_binding', {})
+    if isinstance(binding, dict) and binding.get('kind') in (
+            'song058_xiehun_collective_zuzi', 'song067_lingyun_congshu'):
+        try:
+            from scripts.songshu_xie_kinship import valid
+        except ImportError:
+            from songshu_xie_kinship import valid
+        return valid(assertion, paragraphs)
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('pattern') == 'jinshu076_congbo_subject_to_senior':
+        try:
+            from scripts.jinshu076_congbo import valid as jinshu076_congbo_valid
+        except ImportError:
+            from jinshu076_congbo import valid as jinshu076_congbo_valid
+        return jinshu076_congbo_valid(assertion, paragraphs)
+
     # Position-bound close-family clauses; retain all older grammar contracts.
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('close_family_'):
         try:
@@ -42,6 +57,38 @@ def agnatic_senior_kin_valid(assertion, paragraphs):
             return False
         binding = q.get('source_clause_binding')
         if binding is not None:
+            if (isinstance(binding, dict)
+                    and binding.get('pattern') == 'biographical_subject_distanced_senior_congzi'):
+                # Some biographies identify their subject, then insert ancestry
+                # and office clauses before naming the senior relative. Bind the
+                # relation to both named endpoints and the exact 從子 clause.
+                courtesy = mentions.get(binding.get('courtesy_name_mention_id'))
+                anchors = binding.get('anchors', {})
+                subject_anchor = anchors.get('subject_clause', {}) if isinstance(anchors, dict) else {}
+                relation_anchor = anchors.get('kinship_clause', {}) if isinstance(anchors, dict) else {}
+                subject_start, subject_end = subject_anchor.get('start'), subject_anchor.get('end')
+                relation_start, relation_end = relation_anchor.get('start'), relation_anchor.get('end')
+                if (set(q) != {'source_term', 'kinship_structure', 'source_clause_binding'}
+                        or set(binding) != {'pattern', 'courtesy_name_mention_id', 'anchors'}
+                        or not courtesy or courtesy.get('kind') != 'person'
+                        or courtesy.get('person_id') != child.get('person_id')
+                        or child.get('person_id') == senior.get('person_id')
+                        or not isinstance(subject_anchor, dict) or not isinstance(relation_anchor, dict)
+                        or type(subject_start) is not int or type(subject_end) is not int
+                        or type(relation_start) is not int or type(relation_end) is not int
+                        or subject_anchor.get('surface') != text[subject_start:subject_end]
+                        or relation_anchor.get('surface') != text[relation_start:relation_end]
+                        or subject_anchor.get('surface') != text[child['start']:courtesy['end']]
+                        or text[child['end']:courtesy['start']] != '字'
+                        or relation_anchor.get('surface') != senior['surface'] + '從子也'
+                        or text[senior['start']:relation_end] != relation_anchor.get('surface')
+                        or q.get('source_term') != relation_anchor.get('surface')
+                        or not (0 <= subject_start < subject_end <= relation_start < relation_end <= len(text))
+                        or not any(text.startswith(e.get('quote', ''), i)
+                                   and i <= subject_start and relation_end <= i + len(e.get('quote', ''))
+                                   for i in range(len(text)) if e.get('quote'))):
+                    return False
+                continue
             # Explicit biographical subject + courtesy name + senior + 從子也.
             # Identity is bound by mention IDs; never inferred from equal names.
             courtesy = mentions.get(binding.get('courtesy_name_mention_id')) if isinstance(binding, dict) else None

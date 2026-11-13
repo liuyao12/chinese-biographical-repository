@@ -1,4 +1,16 @@
 export default {
+  'Person result pages':'人物結果分頁',
+  'People search results':'人物搜尋結果',
+  'Dynasties use the original labels of the person’s recorded dates, not nationality or allegiance. Unclassified people remain under Not recorded.':'朝代沿用本人已錄紀年的原標籤，不表示國籍或效忠；尚未有據分類者列為「未載」。',
+  'Filter people':'篩選人物',
+  'Clear filters':'清除篩選',
+  'Dynasty':'朝代',
+  'Surname':'姓氏',
+  'Native place':'籍貫',
+  'Not recorded':'未載',
+  'Find a filter':'搜尋選項',
+  'Counts follow your search and other filters. Multiple choices within a group are combined.':'人數隨搜尋及其他篩選更新；同組可複選。',
+
   'Browse volume directory →':'瀏覽卷目 →',
   'Sui, Tang and later dynastic histories':'隋唐及其後正史',
   'Received histories are being checked against Wuyingdian editions. This page retains its recorded witness for reference; see the edition details.': '傳世史書正依武英殿本核換；本頁現存轉錄仍按原見證保留供參考，實際版源請見「文獻與版本」。',

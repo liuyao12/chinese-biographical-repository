@@ -10,7 +10,12 @@ except ImportError:
 
 def retired_person_ids(root):
     result = set()
-    for path in sorted((Path(root) / 'source-evidence').glob('*/annotation-chain.json')):
+    evidence_root = Path(root) / 'source-evidence'
+    receipts = set(evidence_root.glob('*/annotation-chain.json'))
+    receipts.update(evidence_root.glob('*/retirement-*.json'))
+    identity_index = None
+    current_people = None
+    for path in sorted(receipts):
         data = json.loads(path.read_text(encoding='utf-8'))
         if not isinstance(data, dict):
             raise ValueError('Malformed annotation receipt: ' + str(path))
@@ -42,17 +47,21 @@ def retired_person_ids(root):
                     or not isinstance(ids, list) or not ids
                     or any(not valid_person_id(pid) for pid in ids) or len(ids) != len(set(ids))):
                 raise ValueError('Malformed identity retirement receipt: ' + str(path))
-            decisions = []
-            for decision_path in sorted((Path(root) / 'corpus').glob('*/*-identities.json')):
-                record = json.loads(decision_path.read_text(encoding='utf-8'))
-                matching = [d for d in record.get('decisions', []) if d.get('id') == owner]
-                if matching and record.get('record_type') not in ('person_identity_decision_set', 'identity_decision_set'):
-                    raise ValueError('Identity retirement needs an identity decision set: ' + str(path))
-                decisions.extend(matching)
-            people_path = Path(root) / 'registry/persons.json'
-            if not people_path.is_file():
-                raise ValueError('Identity retirement needs current person registry: ' + str(path))
-            current_people = {p['id'] for p in json.loads(people_path.read_text(encoding='utf-8'))['persons']}
+            # Rebuild on every call; share this call's index across its receipts.
+            if identity_index is None:
+                identity_index = {}
+                for decision_path in sorted((Path(root) / 'corpus').glob('*/*-identities.json')):
+                    record = json.loads(decision_path.read_text(encoding='utf-8'))
+                    for decision in record.get('decisions', []):
+                        identity_index.setdefault(decision.get('id'), []).append((record.get('record_type'), decision))
+                people_path = Path(root) / 'registry/persons.json'
+                if not people_path.is_file():
+                    raise ValueError('Identity retirement needs current person registry: ' + str(path))
+                current_people = {p['id'] for p in json.loads(people_path.read_text(encoding='utf-8'))['persons']}
+            matches = identity_index.get(owner, [])
+            if any(kind not in ('person_identity_decision_set', 'identity_decision_set') for kind, _ in matches):
+                raise ValueError('Identity retirement needs an identity decision set: ' + str(path))
+            decisions = [decision for _, decision in matches]
             if (len(decisions) != 1
                     or not valid_person_id(decisions[0].get('person_id'))
                     or decisions[0]['person_id'] in ids

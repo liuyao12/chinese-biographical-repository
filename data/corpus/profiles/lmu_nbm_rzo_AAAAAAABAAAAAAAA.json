@@ -3,7 +3,7 @@
   "id": "lmu_nbm_rzo_AAAAAAABAAAAAAAA",
   "canonical_person_id": "lmu_nbm_rzo_AAAAAAABAAAAAAAA",
   "label": "齊湣王",
-  "identity_note": null,
+  "identity_note": "《史記・田敬仲完世家》明載宣王卒後子湣王地即位，卷六十九記宣王卒、湣王即位及其後出亡，卷七十、七十一亦直稱齊湣王。跨篇用稱按相同王位、時序事件與明示稱號接合；卷七十所繫張儀說齊之年代或與卷四十六世次不合，暫保留原文及編年疑點，不據此另立同名人物。",
   "review": "ai_provisional",
   "names": [
     "湣王地",
@@ -11,6 +11,7 @@
     "湣王",
     "齊王",
     "王",
+    "大王",
     "齊湣王地"
   ],
   "titles": [
@@ -72,6 +73,56 @@
       "interpretation_note": "授予、任事與文獻用稱分存；欲使為卿且辭未當已任，諡稱不當生前任職，死亡或首次用稱不補任期。 本段明示去帝號，保存去號端點；此前用稱不補授號日期。",
       "reviewer": "Codex（AI 代理）",
       "period": "三十六年 → 三十六年"
+    },
+    {
+      "id": "th-shiji069-019",
+      "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAAAA",
+      "title": "湣王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-069-su",
+          "source_id": "s-shiji-069-su",
+          "paragraph_id": "c-shiji-069-su:p044",
+          "quote": "齊宣王卒，湣王即位，說湣王厚葬以明孝，高宮室大苑囿以明得意，欲破敝齊而為燕。燕易王卒，燕噲立為王。其後齊大夫多與蘇秦爭寵者，而使人刺蘇秦，不死，殊而走。齊王使人求賊，不得。蘇秦且死，乃謂齊王曰：「臣即死，車裂臣以徇於市，曰『蘇秦為燕作亂於齊』，如此則臣之賊必得矣。」於是如其言，而殺蘇秦者果自出，齊王因而誅之。燕聞之曰：「甚矣，齊之為蘇生報仇也！」"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji069-019:a001",
+          "paragraph_id": "c-shiji-069-su:p044",
+          "start": 5,
+          "end": 7,
+          "surface": "湣王",
+          "person_mention_id": "c-shiji-069-su:m044-0005",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-069-su",
+              "source_id": "s-shiji-069-su",
+              "paragraph_id": "c-shiji-069-su:p044",
+              "quote": "齊宣王卒，湣王即位，說湣王厚葬以明孝，高宮室大苑囿以明得意，欲破敝齊而為燕。燕易王卒，燕噲立為王。其後齊大夫多與蘇秦爭寵者，而使人刺蘇秦，不死，殊而走。齊王使人求賊，不得。蘇秦且死，乃謂齊王曰：「臣即死，車裂臣以徇於市，曰『蘇秦為燕作亂於齊』，如此則臣之賊必得矣。」於是如其言，而殺蘇秦者果自出，齊王因而誅之。燕聞之曰：「甚矣，齊之為蘇生報仇也！」"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "只按本篇明示授封、任事與文獻用稱保存；未知起訖不補曆日，死後王號與傳世敘事年代仍待版本及研究覆核。擬議三帝與未受宋地不當已持有；不因去國、被刺或卒而終止全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -339,6 +390,250 @@
       "book_id": "b-shiji-046",
       "chapter_id": "c-shiji-046-tian",
       "source_id": "s-shiji-046-tian",
+      "work_title": "史記"
+    },
+    {
+      "number": 69,
+      "category": "liezhuan",
+      "title": "蘇秦列傳第九",
+      "paragraph_id": "c-shiji-069-su:p044",
+      "count": 8,
+      "raw_count": 8,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "齊宣王卒，湣王即位，說湣王厚葬以明孝，高宮室大苑囿以明得意，欲破敝齊而為燕。燕易王卒，燕噲立為王。其後齊大夫多與蘇秦爭寵者，而使人刺蘇秦，不死，殊而走。齊王使人求賊，不得。蘇秦且死，乃謂齊王曰：「臣即死，車裂臣以徇",
+      "paragraph_ids": [
+        "c-shiji-069-su:p044",
+        "c-shiji-069-su:p045",
+        "c-shiji-069-su:p053"
+      ],
+      "mention_ids": [
+        "c-shiji-069-su:m044-0005",
+        "c-shiji-069-su:m044-0011",
+        "c-shiji-069-su:m044-0076",
+        "c-shiji-069-su:m044-0093",
+        "c-shiji-069-su:m044-0148",
+        "c-shiji-069-su:m045-0667",
+        "c-shiji-069-su:m045-0670",
+        "c-shiji-069-su:m053-0061"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-069-su:m044-0005": "c-shiji-069-su:p044",
+        "c-shiji-069-su:m044-0011": "c-shiji-069-su:p044",
+        "c-shiji-069-su:m044-0076": "c-shiji-069-su:p044",
+        "c-shiji-069-su:m044-0093": "c-shiji-069-su:p044",
+        "c-shiji-069-su:m044-0148": "c-shiji-069-su:p044",
+        "c-shiji-069-su:m045-0667": "c-shiji-069-su:p045",
+        "c-shiji-069-su:m045-0670": "c-shiji-069-su:p045",
+        "c-shiji-069-su:m053-0061": "c-shiji-069-su:p053"
+      },
+      "mention_id": "c-shiji-069-su:m044-0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-069-su:m044-0005",
+          "mention_ids": [
+            "c-shiji-069-su:m044-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-069-su:m044-0011",
+          "mention_ids": [
+            "c-shiji-069-su:m044-0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-069-su:m044-0076",
+          "mention_ids": [
+            "c-shiji-069-su:m044-0076"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-069-su:m044-0093",
+          "mention_ids": [
+            "c-shiji-069-su:m044-0093"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-069-su:m044-0148",
+          "mention_ids": [
+            "c-shiji-069-su:m044-0148"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-069-su:m045-0667",
+          "mention_ids": [
+            "c-shiji-069-su:m045-0667"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-069-su:m045-0670",
+          "mention_ids": [
+            "c-shiji-069-su:m045-0670"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-069-su:m053-0061",
+          "mention_ids": [
+            "c-shiji-069-su:m053-0061"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-069",
+      "chapter_id": "c-shiji-069-su",
+      "source_id": "s-shiji-069-su",
+      "work_title": "史記"
+    },
+    {
+      "number": 70,
+      "category": "liezhuan",
+      "title": "張儀列傳第十",
+      "paragraph_id": "c-shiji-070-zhang:p038",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "韓王聽儀計。張儀歸報，秦惠王封儀五邑，號曰武信君。使張儀東說齊湣王曰：「天下彊國無過齊者，大臣父兄殷眾富樂。然而為大王計者，皆為一時之說，不顧百世之利。從人說大王者，必曰『齊西有彊趙，南有韓與梁。齊，負海之國也，地廣民眾，兵彊士勇，雖有百秦，將無柰齊何』。大王賢其說",
+      "paragraph_ids": [
+        "c-shiji-070-zhang:p038",
+        "c-shiji-070-zhang:p039",
+        "c-shiji-070-zhang:p040"
+      ],
+      "mention_ids": [
+        "c-shiji-070-zhang:m038-0030",
+        "c-shiji-070-zhang:m039-0038",
+        "c-shiji-070-zhang:m039-0071",
+        "c-shiji-070-zhang:m039-0095",
+        "c-shiji-070-zhang:m040-0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-070-zhang:m038-0030": "c-shiji-070-zhang:p038",
+        "c-shiji-070-zhang:m039-0038": "c-shiji-070-zhang:p039",
+        "c-shiji-070-zhang:m039-0071": "c-shiji-070-zhang:p039",
+        "c-shiji-070-zhang:m039-0095": "c-shiji-070-zhang:p039",
+        "c-shiji-070-zhang:m040-0000": "c-shiji-070-zhang:p040"
+      },
+      "mention_id": "c-shiji-070-zhang:m038-0030",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-070-zhang:m038-0030",
+          "mention_ids": [
+            "c-shiji-070-zhang:m038-0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-070-zhang:m039-0038",
+          "mention_ids": [
+            "c-shiji-070-zhang:m039-0038"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-070-zhang:m039-0071",
+          "mention_ids": [
+            "c-shiji-070-zhang:m039-0071"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-070-zhang:m039-0095",
+          "mention_ids": [
+            "c-shiji-070-zhang:m039-0095"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-070-zhang:m040-0000",
+          "mention_ids": [
+            "c-shiji-070-zhang:m040-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-070",
+      "chapter_id": "c-shiji-070-zhang",
+      "source_id": "s-shiji-070-zhang",
+      "work_title": "史記"
+    },
+    {
+      "number": 71,
+      "category": "liezhuan",
+      "title": "樗里子甘茂列傳第十一",
+      "paragraph_id": "c-shiji-071-chugan:p013",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "身勿出。」秦王曰：「善。」即賜之上卿，以相印迎之於齊。甘茂不往。蘇代謂齊湣王曰：「夫甘茂，賢人也。今秦賜之上卿，以相印迎之。甘茂德王之賜，好為王臣，故辭而不往。今王何以禮之？」齊王曰：「善。」即位之上卿而處之。秦因復甘茂之家以市於齊。",
+      "paragraph_ids": [
+        "c-shiji-071-chugan:p013"
+      ],
+      "mention_ids": [
+        "c-shiji-071-chugan:m013-0270",
+        "c-shiji-071-chugan:m013-0300",
+        "c-shiji-071-chugan:m013-0306",
+        "c-shiji-071-chugan:m013-0316",
+        "c-shiji-071-chugan:m013-0323"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-071-chugan:m013-0270": "c-shiji-071-chugan:p013",
+        "c-shiji-071-chugan:m013-0300": "c-shiji-071-chugan:p013",
+        "c-shiji-071-chugan:m013-0306": "c-shiji-071-chugan:p013",
+        "c-shiji-071-chugan:m013-0316": "c-shiji-071-chugan:p013",
+        "c-shiji-071-chugan:m013-0323": "c-shiji-071-chugan:p013"
+      },
+      "mention_id": "c-shiji-071-chugan:m013-0270",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-071-chugan:m013-0270",
+          "mention_ids": [
+            "c-shiji-071-chugan:m013-0270"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-071-chugan:m013-0300",
+          "mention_ids": [
+            "c-shiji-071-chugan:m013-0300"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-071-chugan:m013-0306",
+          "mention_ids": [
+            "c-shiji-071-chugan:m013-0306"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-071-chugan:m013-0316",
+          "mention_ids": [
+            "c-shiji-071-chugan:m013-0316"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-071-chugan:m013-0323",
+          "mention_ids": [
+            "c-shiji-071-chugan:m013-0323"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-071",
+      "chapter_id": "c-shiji-071-chugan",
+      "source_id": "s-shiji-071-chugan",
       "work_title": "史記"
     },
     {
@@ -853,6 +1148,41 @@
       "chapter_id": "c-shiji-083-luzou",
       "source_id": "s-shiji-083-luzou",
       "work_title": "史記"
+    },
+    {
+      "number": 130,
+      "category": "liezhuan",
+      "title": "太史公自序第七十",
+      "paragraph_id": "c-shiji-130-taishigong:p094",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "湣王既失臨淄而奔莒，唯田單用即墨破走騎劫，遂存齊社稷。作田單列傳第二十二。",
+      "paragraph_ids": [
+        "c-shiji-130-taishigong:p094"
+      ],
+      "mention_ids": [
+        "c-shiji-130-taishigong:m094-0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-130-taishigong:m094-0000": "c-shiji-130-taishigong:p094"
+      },
+      "mention_id": "c-shiji-130-taishigong:m094-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-130-taishigong:m094-0000",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m094-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "chapter_id": "c-shiji-130-taishigong",
+      "source_id": "s-shiji130-taishigong",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [
@@ -937,6 +1267,103 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留［二］、（粟）［稟］、晏（孺子）［圉］、（帥）［師］、笔及称等數位見證原字，不暗改。",
           "note": "已讀全56段數位文字並作明示人名首輪；未核可靠底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-069-su",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-069",
+      "source_id": "s-shiji-069-su",
+      "source": {
+        "title": "史記／卷069",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷069",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷069&oldid=2621145",
+        "revision_id": 2621145,
+        "accessed_on": "2026-10-09",
+        "extent": "67段正文，自蘇秦者至太史公論贊；排除ws-header弟名導覽與空段、後附索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留雒、衞、嘑、敎、㕹等原字及數位標點疑點，未按現代研究改寫時序。",
+          "note": "全67段已核讀，人物標註待逐段處理；未核底本、影像、出土縱橫家材料或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-070-zhang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-070",
+      "source_id": "s-shiji-070-zhang",
+      "source": {
+        "title": "史記／卷070",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷070",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷070&oldid=2621148",
+        "revision_id": 2621148,
+        "accessed_on": "2026-10-09",
+        "extent": "59段正文，自張儀者至太史公論贊；排除ws-header人物導覽、索隱述贊與現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-070-zhang:p015",
+              "witness_form": "［燕］",
+              "body_reading": "燕",
+              "note": "成對改讀保留改讀前字，方括號補字取其字並另存符號；未核底本，採用讀法不作已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-070-zhang:p027",
+              "witness_form": "（待）［恃］",
+              "body_reading": "待",
+              "note": "成對改讀保留改讀前字，方括號補字取其字並另存符號；未核底本，採用讀法不作已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-070-zhang:p034",
+              "witness_form": "［飯］",
+              "body_reading": "飯",
+              "note": "成對改讀保留改讀前字，方括號補字取其字並另存符號；未核底本，採用讀法不作已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-070-zhang:p044",
+              "witness_form": "（服）［破］",
+              "body_reading": "服",
+              "note": "成對改讀保留改讀前字，方括號補字取其字並另存符號；未核底本，採用讀法不作已校定。"
+            }
+          ],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白及另存數位校讀符號。保留彊、醳、鬬、筑、茍等異體。",
+          "note": "59段正文已核讀，人物待逐段標註；未核底本、影像與現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-071-chugan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-071",
+      "source_id": "s-shiji-071-chugan",
+      "source": {
+        "title": "史記／卷071",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷071",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷071&oldid=2621152",
+        "revision_id": 2621152,
+        "accessed_on": "2026-10-09",
+        "extent": "20段正文，自樗里子者至太史公論贊；排除ws-header人物導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；保留樗里／樗裏、于、遯、茍與數位轉錄原字。",
+          "note": "全20段正文已核讀；未核底本、影像或現代研究，人物待逐段標註。"
         }
       }
     },
@@ -1108,6 +1535,30 @@
           ],
           "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；上書dd按原序；4項數位增刪改讀另存，正文保留前形，末段巖巖重複不擅校。",
           "note": "全27段與HTML篇界已核讀；未核底本影像或現代研究，人物待逐段標註。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-130-taishigong",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "source_id": "s-shiji130-taishigong",
+      "source": {
+        "title": "史記／卷130",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷130",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+        "revision_id": 2609362,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文143段，全部篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
         }
       }
     },

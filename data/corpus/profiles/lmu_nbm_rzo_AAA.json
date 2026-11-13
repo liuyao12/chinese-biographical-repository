@@ -14,7 +14,8 @@
     "仲",
     "田敬仲完",
     "田完",
-    "公子完"
+    "公子完",
+    "完子"
   ],
   "titles": [
     {
@@ -713,6 +714,50 @@
       "chapter_id": "c-xintangshu-071xia-chen-preface",
       "source_id": "s-xintangshu-071xia-chen-preface",
       "work_title": "新唐書"
+    },
+    {
+      "number": 130,
+      "category": "liezhuan",
+      "title": "太史公自序第七十",
+      "paragraph_id": "c-shiji-130-taishigong:p058",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "完子避難，適齊為援，陰施五世，齊人歌之。成子得政，田和為侯。王建動心，乃遷于共。嘉威、宣能撥濁世而獨宗周，作田敬仲完世家第十六。",
+      "paragraph_ids": [
+        "c-shiji-130-taishigong:p058"
+      ],
+      "mention_ids": [
+        "c-shiji-130-taishigong:m058-0000",
+        "c-shiji-130-taishigong:m058-0054"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-130-taishigong:m058-0000": "c-shiji-130-taishigong:p058",
+        "c-shiji-130-taishigong:m058-0054": "c-shiji-130-taishigong:p058"
+      },
+      "mention_id": "c-shiji-130-taishigong:m058-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-130-taishigong:m058-0000",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m058-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-130-taishigong:m058-0054",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m058-0054"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "chapter_id": "c-shiji-130-taishigong",
+      "source_id": "s-shiji130-taishigong",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -844,6 +889,30 @@
           ],
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白並排除style與script；variant-tooltip另存編輯讀法，不混入正文。保留仆表、援枹、左駙、左驂等原字。",
           "note": "全4段已核讀，未核可靠底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-130-taishigong",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "source_id": "s-shiji130-taishigong",
+      "source": {
+        "title": "史記／卷130",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷130",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+        "revision_id": 2609362,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文143段，全部篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
         }
       }
     },

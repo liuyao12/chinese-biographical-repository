@@ -44,3 +44,25 @@ A real ctext fixture establishes the import contract and unknown-field preservat
 
 ## September 2026 extension
 The original pilot limitations above describe its initial state. Complete entries, reusable quoted readings and cropped dated reference-map images are now implemented; see `text-layers.md` and `reference-maps.md`.
+
+## Fast CBR person cards
+
+Clicking a marked-up CBR name requests only `data/corpus/summaries/{id}.json`.
+The card contains names, the selected title, native place, available life dates
+and ages, and close family. Full citations and editorial evidence stay in
+`data/corpus/profiles/{id}.json`, loaded only by the full profile page. Card
+requests are cached; failure offers a profile link without fetching a full
+source bundle in the background.
+
+The summaries are derived display projections, not separately maintained family
+records. `node scripts/export_person_summaries.mjs .` rebuilds them from the
+current profile index using the same name, life and `traceFamily` helpers as the
+profile UI. The normal profile exporter also regenerates them. Three generations
+are traced from current relationship records at export time; adoption, disputed
+spouse identities, inferred ancestry, missing relatives and order conflicts keep
+their qualifications. Unknown fields are omitted from the card. Rebuilding also
+removes summaries whose IDs are absent from the current profile index.
+
+`node scripts/export_person_summaries.mjs --check .` verifies that every checked-in
+summary matches its current profile and that no retired summary remains. This
+check is also included in the JavaScript test suite.

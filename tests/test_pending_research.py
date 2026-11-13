@@ -8,6 +8,10 @@ PEOPLE={x['id']for x in json.loads((BASE/'registry/persons.json').read_text())['
 class Tests(unittest.TestCase):
  def test_original_and_cross_history_pending_remain_parseable(self):
   self.assertTrue({'pending-phase5-xi-song-reference','pending-phase5-suyi-death-location'} <= {r['id'] for r in D['records']});self.assertEqual(pending_errors(D,PEOPLE),[])
+ def test_adopted_yangtan_kinship_is_removed_from_pending_index(self):
+  rid='pending-phase6-yangtan-nephew'
+  self.assertNotIn(rid,{r['id'] for r in D['records']})
+  self.assertFalse(any(rid in ids for ids in D['person_index'].values()))
  def test_native_readonly_base(self):self.assertEqual(validate(BASE),[])
  def test_opaque_proposal_fields_remain_readable(self):
   d=copy.deepcopy(D);d['records'][0]['proposal']['new_source_layer']={'status':'source_attested','raw_unknown_fields':['甲',{'applied':True}]};self.assertEqual(pending_errors(d,PEOPLE),[])

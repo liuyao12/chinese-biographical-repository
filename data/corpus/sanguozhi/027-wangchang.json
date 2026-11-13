@@ -34,7 +34,6 @@
     "status": "in_progress",
     "scope": "complete_biography_with_interleaved_pei_notes_and_selected_volume_appendices",
     "human_reviewed": false,
-    "model": null,
     "reviewer": "Codex（AI代理）",
     "completion_note": "完整單元及九裴注已錄；具體人物逐項初核，群體／典故和證據不足身份明列未決，不虛稱全人稱已辨。",
     "unmarked_reference_titles": [
@@ -586,7 +585,6 @@
         "age_context": {
           "kind": "during_life"
         },
-        "birth_year": null,
         "status": "source_attested",
         "evidence": [
           {
@@ -600,8 +598,7 @@
           }
         ],
         "reviewer": "Codex（AI代理）",
-        "human_reviewed": false,
-        "model": null
+        "human_reviewed": false
       },
       {
         "id": "age-wang35-107",
@@ -614,7 +611,6 @@
         "age_context": {
           "kind": "during_life"
         },
-        "birth_year": null,
         "status": "source_attested",
         "evidence": [
           {
@@ -628,8 +624,7 @@
           }
         ],
         "reviewer": "Codex（AI代理）",
-        "human_reviewed": false,
-        "model": null
+        "human_reviewed": false
       }
     ],
     "work_reference_reviews": [
@@ -866,7 +861,6 @@
           "end": 4,
           "surface": "王氏譜",
           "kind": "work",
-          "person_id": null,
           "work_id": "w-wangshi-pu-sgz027-reference",
           "status": "source_explicit"
         },
@@ -926,7 +920,6 @@
           "end": 20,
           "surface": "郭林宗傳",
           "kind": "work",
-          "person_id": null,
           "work_id": "w-guolinzong-zhuan-sgz027-reference",
           "status": "source_explicit"
         },
@@ -976,9 +969,9 @@
           "end": 58,
           "surface": "卿二人",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit002:m0066",
@@ -1140,7 +1133,7 @@
           "start": 15,
           "end": 16,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "f89_ad1_61d",
           "status": "contextual_provisional",
           "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
@@ -1211,7 +1204,6 @@
           "end": 131,
           "surface": "治論",
           "kind": "work",
-          "person_id": null,
           "work_id": "w-zhilun-wangchang-reference",
           "status": "source_explicit"
         }
@@ -1255,7 +1247,6 @@
           "end": 4,
           "surface": "孫子兵法",
           "kind": "work",
-          "person_id": null,
           "work_id": "w-sunzi-bingfa",
           "status": "source_explicit",
           "interpretation_note": "原書名引用，不作孫武本人或其生平證據。"
@@ -1514,24 +1505,14 @@
           "interpretation_note": "其子渾字玄冲深字道冲，裴注渾弟深冀州刺史、深弟湛，源內兩段同渾/深/湛關係與字號相接。晉039司馬昭參軍王深時代相容但未有字/籍/親屬橋；不借宋042王虞子深（後世同名），本批不造父系組裝。"
         },
         {
-          "id": "c-sanguozhi-027-wangchang:unit005:m0046",
-          "start": 46,
-          "end": 47,
-          "surface": "之",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
-        },
-        {
           "id": "c-sanguozhi-027-wangchang:unit005:m0311",
           "start": 311,
           "end": 313,
           "surface": "汝曹",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit005:m0337",
@@ -1539,9 +1520,9 @@
           "end": 339,
           "surface": "汝曹",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit005:m0417",
@@ -1615,7 +1596,6 @@
           "end": 2,
           "surface": "國語",
           "kind": "work",
-          "person_id": null,
           "work_id": "w-guoyu",
           "status": "source_explicit"
         },
@@ -1645,9 +1625,9 @@
           "end": 21,
           "surface": "秦客",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit006:m0025",
@@ -1655,9 +1635,9 @@
           "end": 27,
           "surface": "大夫",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit006:m0032",
@@ -1665,9 +1645,9 @@
           "end": 33,
           "surface": "吾",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
+          "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit006:m0036",
@@ -1685,9 +1665,9 @@
           "end": 42,
           "surface": "大夫",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit006:m0047",
@@ -1695,9 +1675,9 @@
           "end": 49,
           "surface": "父兄",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit006:m0050",
@@ -1705,9 +1685,9 @@
           "end": 51,
           "surface": "爾",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit006:m0051",
@@ -1715,9 +1695,9 @@
           "end": 53,
           "surface": "童子",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit006:m0059",
@@ -1725,9 +1705,9 @@
           "end": 60,
           "surface": "吾",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
+          "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit006:m0076",
@@ -1745,9 +1725,9 @@
           "end": 83,
           "surface": "秦客",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit006:m0084",
@@ -1852,9 +1832,9 @@
           "end": 40,
           "surface": "三郤",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit007:m0044",
@@ -1862,25 +1842,15 @@
           "end": 46,
           "surface": "王叔",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit007:m0113",
           "start": 113,
           "end": 115,
           "surface": "孔子",
-          "kind": "person",
-          "person_id": "fp6_ia6_7yw",
-          "status": "contextual_provisional",
-          "interpretation_note": "孔子曰起兩則引語，吾/我均為孔子自稱；子貢方人及賜也賢乎哉中的被評者與說話人分開，不因最近名字改作子貢自稱。"
-        },
-        {
-          "id": "c-sanguozhi-027-wangchang:unit007:m0116",
-          "start": 116,
-          "end": 117,
-          "surface": "吾",
           "kind": "person",
           "person_id": "fp6_ia6_7yw",
           "status": "contextual_provisional",
@@ -1907,16 +1877,6 @@
           "interpretation_note": "完整孔子引語明稱子貢、再以名賜稱之；既錄史記067端木賜字子貢明名/字橋，沿現端木賜身份，不另造子貢，也不在本批合併其他篇重複ID。"
         },
         {
-          "id": "c-sanguozhi-027-wangchang:unit007:m0143",
-          "start": 143,
-          "end": 144,
-          "surface": "我",
-          "kind": "person",
-          "person_id": "fp6_ia6_7yw",
-          "status": "contextual_provisional",
-          "interpretation_note": "孔子曰起兩則引語，吾/我均為孔子自稱；子貢方人及賜也賢乎哉中的被評者與說話人分開，不因最近名字改作子貢自稱。"
-        },
-        {
           "id": "c-sanguozhi-027-wangchang:unit007:m0171",
           "start": 171,
           "end": 173,
@@ -1932,9 +1892,9 @@
           "end": 177,
           "surface": "其兄子",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         }
       ]
     },
@@ -2038,9 +1998,9 @@
           "end": 89,
           "surface": "時主",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit008:m0089",
@@ -2199,7 +2159,6 @@
           "end": 2,
           "surface": "世語",
           "kind": "work",
-          "person_id": null,
           "work_id": "w-shiyu-sgz027-reference",
           "status": "source_explicit"
         },
@@ -2238,7 +2197,7 @@
           "start": 32,
           "end": 33,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "fd6_eb0_e04",
           "status": "contextual_provisional",
           "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
@@ -2308,9 +2267,9 @@
           "end": 8,
           "surface": "夷叔",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit011:m0035",
@@ -2328,9 +2287,9 @@
           "end": 42,
           "surface": "汝",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit011:m0067",
@@ -2377,7 +2336,7 @@
           "start": 127,
           "end": 128,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "344_68f_98e_A",
           "status": "contextual_provisional",
           "interpretation_note": "潁川郭伯益，下注伯益名奕郭嘉之子；其/親之昵之仍指本段所評郭伯益，裴批評中再稱郭伯益同指。已存世說小注引晉諸公賛太原陽曲郭弈字泰業，是異籍/字的另一來源組；未親見所引原書。晉039主簿郭奕尚未證屬哪組，不能因同名/相容時代合一。"
@@ -2387,7 +2346,7 @@
           "start": 129,
           "end": 130,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "344_68f_98e_A",
           "status": "contextual_provisional",
           "interpretation_note": "潁川郭伯益，下注伯益名奕郭嘉之子；其/親之昵之仍指本段所評郭伯益，裴批評中再稱郭伯益同指。已存世說小注引晉諸公賛太原陽曲郭弈字泰業，是異籍/字的另一來源組；未親見所引原書。晉039主簿郭奕尚未證屬哪組，不能因同名/相容時代合一。"
@@ -2542,7 +2501,7 @@
           "start": 42,
           "end": 43,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "6cf_d80_a57",
           "status": "contextual_provisional",
           "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
@@ -2552,7 +2511,7 @@
           "start": 44,
           "end": 45,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "6cf_d80_a57",
           "status": "contextual_provisional",
           "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
@@ -2562,7 +2521,7 @@
           "start": 49,
           "end": 50,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "6cf_d80_a57",
           "status": "contextual_provisional",
           "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
@@ -2592,7 +2551,7 @@
           "start": 82,
           "end": 83,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "523_f3b_df6",
           "status": "contextual_provisional",
           "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
@@ -2602,7 +2561,7 @@
           "start": 84,
           "end": 85,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "523_f3b_df6",
           "status": "contextual_provisional",
           "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
@@ -2612,7 +2571,7 @@
           "start": 90,
           "end": 91,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "523_f3b_df6",
           "status": "contextual_provisional",
           "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
@@ -2739,9 +2698,9 @@
           "end": 104,
           "surface": "東方",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit014:m0113",
@@ -2749,9 +2708,9 @@
           "end": 115,
           "surface": "柳下",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit014:m0127",
@@ -2833,7 +2792,7 @@
           "start": 31,
           "end": 32,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "315_3d4_416_A",
           "status": "contextual_provisional",
           "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
@@ -2843,7 +2802,7 @@
           "start": 33,
           "end": 34,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "315_3d4_416_A",
           "status": "contextual_provisional",
           "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
@@ -2853,7 +2812,7 @@
           "start": 38,
           "end": 39,
           "surface": "之",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "315_3d4_416_A",
           "status": "contextual_provisional",
           "interpretation_note": "依此原句與所屬發話／敘事主語承接辨識；不是最近人名通則。"
@@ -2988,9 +2947,9 @@
           "end": 24,
           "surface": "鄉人",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0028",
@@ -2998,9 +2957,9 @@
           "end": 31,
           "surface": "蔣氏翁",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0031",
@@ -3038,9 +2997,9 @@
           "end": 48,
           "surface": "黄巾賊",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0062",
@@ -3088,9 +3047,9 @@
           "end": 118,
           "surface": "母",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0189",
@@ -3108,9 +3067,9 @@
           "end": 201,
           "surface": "生口",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0206",
@@ -3118,9 +3077,9 @@
           "end": 208,
           "surface": "生口",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0217",
@@ -3128,9 +3087,9 @@
           "end": 220,
           "surface": "共買者",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0226",
@@ -3148,9 +3107,9 @@
           "end": 236,
           "surface": "共買者",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0242",
@@ -3158,9 +3117,9 @@
           "end": 245,
           "surface": "比居者",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0247",
@@ -3208,9 +3167,9 @@
           "end": 268,
           "surface": "耕者",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0281",
@@ -3228,9 +3187,9 @@
           "end": 291,
           "surface": "其子弟",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0295",
@@ -3238,9 +3197,9 @@
           "end": 297,
           "surface": "父兄",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0301",
@@ -3248,9 +3207,9 @@
           "end": 302,
           "surface": "汝",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit016:m0307",
@@ -3685,9 +3644,9 @@
           "end": 11,
           "surface": "汝",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit017:m0083",
@@ -3965,9 +3924,9 @@
           "end": 729,
           "surface": "二子",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit017:m0740",
@@ -4091,7 +4050,6 @@
           "end": 3,
           "surface": "晉書",
           "kind": "work",
-          "person_id": null,
           "work_id": "w-jinshu-sgz027-pei-reference",
           "status": "source_explicit"
         },
@@ -4101,9 +4059,9 @@
           "end": 20,
           "surface": "一子",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit018:m0027",
@@ -4341,7 +4299,6 @@
           "end": 147,
           "surface": "晉陽秋",
           "kind": "work",
-          "person_id": null,
           "work_id": "w-jinyangqiu-sgz027-reference",
           "status": "source_explicit"
         }
@@ -4431,9 +4388,9 @@
           "end": 56,
           "surface": "兒子",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:qing-collation:m0072",
@@ -4441,9 +4398,9 @@
           "end": 74,
           "surface": "兒子",
           "kind": "unresolved",
-          "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。"
+          "interpretation_note": "未決指稱；不以最近人物、同姓或同名強配。",
+          "person_id": null
         },
         {
           "id": "c-sanguozhi-027-wangchang:qing-collation:m0096",
@@ -4469,5 +4426,6 @@
       }
     }
   ],
-  "text_sha256": "c7acad203ce1138d5eaa6fae55a22bb954670aef0152b0aeb93765a9a9b313d2"
+  "text_sha256": "c7acad203ce1138d5eaa6fae55a22bb954670aef0152b0aeb93765a9a9b313d2",
+  "unresolved_occurrence_ledger": []
 }

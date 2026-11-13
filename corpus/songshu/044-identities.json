@@ -49,6 +49,73 @@
       "rationale": "謝絢高祖鎮軍長史的高祖為宋高祖裕；不同於衞璵表臣高祖璪及漢祖引古。",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "d-songshu044-xiehui-jinshu079",
+      "person_id": "aa6_83c_juy_AAAA",
+      "surfaces": [
+        "謝晦"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-songshu-044-xiehui",
+        "c-jinshu-079-xielang-family",
+        "c-songshu-044-wyd1739-xiehui",
+        "c-songshu-042-wanghong"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "moderate",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-044-xiehui:p001:m0000",
+          "c-jinshu-079-xielang-family:phase6-line071:m0272",
+          "c-songshu-044-wyd1739-xiehui:p001:m0000",
+          "c-songshu-042-wanghong:line061:m0071"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-044",
+          "source_id": "s-songshu-044-xiehui",
+          "chapter_id": "c-songshu-044-xiehui",
+          "paragraph_id": "c-songshu-044-xiehui:p001",
+          "quote": "謝晦字宣明，陳郡陽夏人也。祖朗，東陽太守。父重，會稽王道子驃騎長史。兄絢，高祖鎮軍長史，蚤卒。",
+          "person_mention_id": "c-songshu-044-xiehui:p001:m0000"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:phase6-line071",
+          "quote": "及宋受禪，謝晦謂劉裕曰：「陛下應天受命，登壇日恨不得謝益壽奉璽紱。」裕亦歎曰：「吾甚恨之，使後生不得見其風流！」益壽，混小字也。",
+          "person_mention_id": "c-jinshu-079-xielang-family:phase6-line071:m0272"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-044",
+          "source_id": "s-songshu-044-wyd1739-xiehui",
+          "chapter_id": "c-songshu-044-wyd1739-xiehui",
+          "paragraph_id": "c-songshu-044-wyd1739-xiehui:p001",
+          "quote": "謝晦字宣明陳郡陽夏人也祖朗東陽太守父重會稽王道子驃騎長史兄絢高祖鎮軍長史蚤卒晦初為孟昶建威府中兵參軍昶死高祖問劉穆之孟昶參佐誰堪入我府穆之舉晦卽命為太尉參軍高祖嘗訊囚其旦刑獄參軍有疾札晦代之於車中一鑑訊牒催促便下相府多事獄繫殷積晦隨問酬辯曾無違謬高祖奇",
+          "person_mention_id": "c-songshu-044-wyd1739-xiehui:p001:m0000"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-042",
+          "source_id": "s-songshu-042-wanghong",
+          "chapter_id": "c-songshu-042-wanghong",
+          "paragraph_id": "c-songshu-042-wanghong:line061",
+          "quote": "徐羨之等以廢弒之罪將見誅，弘既非首謀，弟曇首又為上所親委，事將發，密使報弘。羨之等誅，徵弘為侍中、司徒、揚州刺史，錄尚書。給班劍三十人。上西征謝晦，弘與驃騎彭城王義康居守，入住中書下省，引隊仗出入。司徒府權置參軍。",
+          "person_mention_id": "c-songshu-042-wanghong:line061:m0071"
+        }
+      ],
+      "references": [],
+      "rationale": "《晉書》卷79明記宋受禪時謝晦對劉裕發言；《宋書》卷44傳首以「謝晦字宣明」具名，並列祖朗、父重、兄絢。受禪語境及家世與卷79同篇所載謝朗、謝重、謝絢來源人物相容，故暫指同一人。兩書此處未明言互見，保留 contextual_provisional；各篇原始提及仍分別保留，不據此添加親屬邊。",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

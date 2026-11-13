@@ -1963,24 +1963,27 @@
       "category": "shijia",
       "title": "梁孝王世家第二十八",
       "paragraph_id": "c-shiji-058-liang:p005",
-      "count": 3,
-      "raw_count": 3,
+      "count": 4,
+      "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "其春，吳楚齊趙七國反。吳楚先擊梁棘壁，殺數萬人。梁孝王城守睢陽，而使韓安國、張羽等為大將軍，以距吳楚。吳楚以梁為限，不敢過而西，與太尉亞夫等相距三月。吳楚破，而梁所破殺虜略與漢中分。明年，漢立太子。其後梁最親，有功，又為大國，居天下膏腴地。地北界泰山，西至高陽，四十餘城，皆",
       "paragraph_ids": [
         "c-shiji-058-liang:p005",
-        "c-shiji-058-liang:p009"
+        "c-shiji-058-liang:p009",
+        "c-shiji-058-liang:p025"
       ],
       "mention_ids": [
         "c-shiji-058-liang:m005-0034",
         "c-shiji-058-liang:m009-0121",
-        "c-shiji-058-liang:m009-0156"
+        "c-shiji-058-liang:m009-0156",
+        "c-shiji-058-liang:m025-0246"
       ],
       "mention_paragraph_ids": {
         "c-shiji-058-liang:m005-0034": "c-shiji-058-liang:p005",
         "c-shiji-058-liang:m009-0121": "c-shiji-058-liang:p009",
-        "c-shiji-058-liang:m009-0156": "c-shiji-058-liang:p009"
+        "c-shiji-058-liang:m009-0156": "c-shiji-058-liang:p009",
+        "c-shiji-058-liang:m025-0246": "c-shiji-058-liang:p025"
       },
       "mention_id": "c-shiji-058-liang:m005-0034",
       "occurrence_groups": [
@@ -2002,6 +2005,13 @@
           "canonical_mention_id": "c-shiji-058-liang:m009-0156",
           "mention_ids": [
             "c-shiji-058-liang:m009-0156"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m025-0246",
+          "mention_ids": [
+            "c-shiji-058-liang:m025-0246"
           ],
           "kind": "paragraph"
         }
@@ -2819,6 +2829,41 @@
       "chapter_id": "c-shiji-114-dongyue",
       "source_id": "s-shiji114-dongyue",
       "work_title": "史記"
+    },
+    {
+      "number": 130,
+      "category": "liezhuan",
+      "title": "太史公自序第七十",
+      "paragraph_id": "c-shiji-130-taishigong:p120",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "智足以應近世之變，寬足用得人。作韓長孺列傳第四十八。",
+      "paragraph_ids": [
+        "c-shiji-130-taishigong:p120"
+      ],
+      "mention_ids": [
+        "c-shiji-130-taishigong:m120-0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-130-taishigong:m120-0016": "c-shiji-130-taishigong:p120"
+      },
+      "mention_id": "c-shiji-130-taishigong:m120-0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-130-taishigong:m120-0016",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m120-0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "chapter_id": "c-shiji-130-taishigong",
+      "source_id": "s-shiji130-taishigong",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [
@@ -3133,6 +3178,30 @@
           "editorial_readings": [],
           "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
           "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-130-taishigong",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "source_id": "s-shiji130-taishigong",
+      "source": {
+        "title": "史記／卷130",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷130",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+        "revision_id": 2609362,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文143段，全部篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
         }
       }
     },

@@ -11,7 +11,7 @@
     "provider": "CBR AI direct transcription of Commons-hosted NLC scan",
     "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
     "permalink": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763",
-    "revision_id": "cbr-ai-transcription-sha256:8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+    "revision_id": "cbr-ai-transcription-sha256:aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
     "edition": "Commons著錄武英殿清乾隆4年[1739]；頁外版記親見乾隆四年校刊，非獨立刊記普查",
     "extent": "PDF17左–39左完整卷五十一正文及史臣論；40左–41右武英殿考證。17右與41左不屬本卷，40右僅卷尾題。",
     "text_scope": "complete_chapter",
@@ -19,7 +19,7 @@
     "image_verified": false,
     "image_verification_qualification": "AI逐頁逐列視讀；無人工全字圖校，未辨字以〓記，其他編碼仍待獨立覆核。",
     "raw_file": "source-evidence/song051-wyd1739-zongshi/transcription-columns.txt",
-    "raw_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+    "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
     "normalization": {
       "character_conversion": {},
       "extraction_note": "AI由逐頁JPEG書影轉錄；raw為本次AI逐列轉錄，不是原PDF文字抽取或PDF雜湊。段界按頁側與層次，非原刻標點自然段。",
@@ -49,16 +49,22 @@
       ],
       "missing_text_markers": [],
       "column_locations_ref": "source-evidence/song051-wyd1739-zongshi/image-column-locations.json",
-      "column_locations_sha256": "7ad531c3368985f2f2770619d3d5f250a01a3bc154e11f9addd1eefd7b44f0ee",
+      "column_locations_sha256": "83ee87f077651ea78ce5e9ebbde8a61e64625c82d2ab32f824417b55e8198b51",
       "glyph_review_ref": "source-evidence/song051-wyd1739-zongshi/glyph-review-qualification.json",
-      "glyph_review_sha256": "624b20b2e4b6c6c30b90ba1ca5be839ca6f95924034d392c79b5019866f6adef"
+      "glyph_review_sha256": "624b20b2e4b6c6c30b90ba1ca5be839ca6f95924034d392c79b5019866f6adef",
+      "transcription_corrections_ref": "source-evidence/song051-wyd1739-zongshi/two-glyph-correction.json",
+      "transcription_corrections_sha256": "899feecbd32f57327f1c9c48437c7d48b556f6864ca085435d492175b4824e96",
+      "named_glyph_corrections_ref": "source-evidence/song051-wyd1739-zongshi/yinxiao-glyph-ner-correction.json",
+      "named_glyph_corrections_sha256": "440278deb18fb31a0c37d0f5c19a42d9f608022f86058e6956301af1e7594fb0",
+      "yirong_son_glyph_corrections_ref": "source-evidence/song051-wyd1739-zongshi/yirong-son-di-glyph-correction.json",
+      "yirong_son_glyph_corrections_sha256": "0bd2ddaa8c70ac98ab4d33043d892ab4904aea7c5b895795629c952de8145e1d"
     },
     "rights": "古代原文；Commons頁標PD-scan/Public domain。NLC原站權利條款未獨立取得；私用JPEG與原PDF不入repo／不host。",
     "license_url": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763",
     "received_transcription_witness": {
       "transcription_path": "source-evidence/song051-wyd1739-zongshi/transcription-columns.txt",
-      "transcription_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
-      "transcription_revision": "cbr-ai-transcription-sha256:8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+      "transcription_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
+      "transcription_revision": "cbr-ai-transcription-sha256:aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
       "reported_pdf_sha1": "888def8c99848449305a0142411b32f9b0ca79e8",
       "reported_pdf_bytes": 31677093,
       "original_pdf_locally_obtained": false,
@@ -79,7 +85,7 @@
     "reviewer": "Codex（AI）",
     "human_reviewed": false,
     "model": null,
-    "coverage": "有限親族NER第一批：49個人物錨；僅道憐六子與義賓/義綦近系及出繼上下文，其餘仍待逐段處理，不宣稱全卷首輪完成。",
+    "coverage": "有限人物NER：新增第24–25段荀林／桓謙上下文及第46段史臣論回指；其他未標段仍待處理，不宣稱全卷首輪完成。",
     "limitations": [
       "〓為AI未辨字占位，不是原刻字。",
       "完整轉錄不等於完整圖校，所有字形編碼仍待覆核。",
@@ -90,7 +96,14 @@
       "p029兩太妃氏稱實指人物保留；後薨無年，不推生母/養母；未處理的微管/兩獻典故另列後續，不稱該段所有典故完成。"
     ],
     "fixed_transcription_contract": "wuyingdian_song051_transcription",
-    "formal_phase": "song051_direct_family_phase1"
+    "formal_phase": "song051_direct_family_phase1",
+    "additional_annotation_phase": {
+      "kind": "song051_yixin_complete_unit_phase2",
+      "contract_path": "source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json",
+      "coverage": "本批續標第24–25段及史臣論第46段：荀林、桓謙與烈武王回指均具逐錨來源；全卷仍未完成。",
+      "human_reviewed": false,
+      "model": null
+    }
   },
   "paragraphs": [
     {
@@ -112,7 +125,7 @@
       ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit001",
         "source_layer": "received_chapter",
         "first_line": 1,
@@ -127,7 +140,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit002",
         "source_layer": "received_chapter",
         "first_line": 7,
@@ -173,7 +186,7 @@
       ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit003",
         "source_layer": "received_chapter",
         "first_line": 17,
@@ -188,7 +201,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit004",
         "source_layer": "received_chapter",
         "first_line": 27,
@@ -203,7 +216,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit005",
         "source_layer": "received_chapter",
         "first_line": 37,
@@ -218,7 +231,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit006",
         "source_layer": "received_chapter",
         "first_line": 47,
@@ -233,7 +246,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit007",
         "source_layer": "received_chapter",
         "first_line": 57,
@@ -315,11 +328,81 @@
           "person_id": "3qs_nqa_ioa_AABF",
           "status": "contextual_provisional",
           "source_role_key": "yiqi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0036",
+          "start": 36,
+          "end": 38,
+          "surface": "義欣",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABA",
+          "source_role_key": "yixin-unit:yixin",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0098",
+          "start": 98,
+          "end": 101,
+          "surface": "到彥之",
+          "kind": "person",
+          "person_id": "6bo_qfq_pl9",
+          "source_role_key": "yixin-unit:daoyanzhi",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0106",
+          "start": 106,
+          "end": 108,
+          "surface": "義欣",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABA",
+          "source_role_key": "yixin-unit:yixin",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0116",
+          "start": 116,
+          "end": 118,
+          "surface": "彥之",
+          "kind": "person",
+          "person_id": "6bo_qfq_pl9",
+          "source_role_key": "yixin-unit:daoyanzhi",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0131",
+          "start": 131,
+          "end": 133,
+          "surface": "義欣",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABA",
+          "source_role_key": "yixin-unit:yixin",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0137",
+          "start": 137,
+          "end": 139,
+          "surface": "義欣",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABA",
+          "source_role_key": "yixin-unit:yixin",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p008:m0190",
+          "start": 190,
+          "end": 192,
+          "surface": "義欣",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABA",
+          "source_role_key": "yixin-unit:yixin",
+          "confidence": "high"
         }
       ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit008",
         "source_layer": "received_chapter",
         "first_line": 67,
@@ -328,13 +411,64 @@
     },
     {
       "id": "c-songshu-051-wyd1739-zongshi:p009",
-      "text": "內畏服道不拾遺城府庫藏並皆充實遂為盛藩疆鎮時淮西江北長吏悉敘勞人武夫多無政術義欣陳之曰江淮左右土瘠民疎頃年以來荐飢相襲百城彫弊於今為甚綏牧之宜必俟良吏勞人武夫不經政術統內官長多非才授東南殷實猶或簡能況窮接荒垂而可輒察頓闕願勅選部必使任得其人庶得不勞而治芍陂良田萬餘頃堤堨久壞秋夏常苦旱義欣遣諮議參軍殷肅循行修理有舊溝引渫水入陂不治積久樹木榛塞蕭伐木開榛水得通注旱患由是得除十年進號鎮軍將軍進監為都督十二年夏入朝太祖厚加恩",
+      "text": "內畏服道不拾遺城府庫藏並皆充實遂為盛藩疆鎮時淮西江北長吏悉敘勞人武夫多無政術義欣陳之曰江淮左右土瘠民疎頃年以來荐飢相襲百城彫弊於今為甚綏牧之宜必俟良吏勞人武夫不經政術統內官長多非才授東南殷實猶或簡能況窮接荒垂而可輒察頓闕願勅選部必使任得其人庶得不勞而治芍陂良田萬餘頃堤堨久壞秋夏常苦旱義欣遣諮議參軍殷蕭循行修理有舊溝引渫水入陂不治積久樹木榛塞蕭伐木開榛水得通注旱患由是得除十年進號鎮軍將軍進監為都督十二年夏入朝太祖厚加恩",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p009:m0038",
+          "start": 38,
+          "end": 40,
+          "surface": "義欣",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABA",
+          "source_role_key": "yixin-unit:yixin",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p009:m0142",
+          "start": 142,
+          "end": 144,
+          "surface": "義欣",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABA",
+          "source_role_key": "yixin-unit:yixin",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p009:m0149",
+          "start": 149,
+          "end": 151,
+          "surface": "殷蕭",
+          "kind": "person",
+          "person_id": "q9d_h7k_6g2",
+          "source_role_key": "yixin-unit:yinsu",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p009:m0171",
+          "start": 171,
+          "end": 172,
+          "surface": "蕭",
+          "kind": "person",
+          "person_id": "q9d_h7k_6g2",
+          "source_role_key": "yixin-unit:yinsu",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p009:m0205",
+          "start": 205,
+          "end": 207,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "source_role_key": "yixin-unit:wendi",
+          "confidence": "high"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit009",
         "source_layer": "received_chapter",
         "first_line": 77,
@@ -343,13 +477,274 @@
     },
     {
       "id": "c-songshu-051-wyd1739-zongshi:p010",
-      "text": "禮十六年薨時年三十六追贈散騎常侍征西將軍開府儀同三司持節都督刺史如故諡曰成王子悼王瑾字彥瑜官至太子屯騎校尉二十年為元凶所殺世祖即位追贈散騎常侍子粲早夭粲弟纂字元績嗣官至步兵校尉順帝昇明三年薨會齊受禪國除瑾弟〓字彥期失明中為中書郎太宗江夏王義恭領中書監服親不得相臨表求解職世祖詔曰昔二王兩謝俱至崇禮自今三臺五省悉同此例太宗初為南兗州刺史都官尚書謀應晉安王子勛為逆伏誅祗弟楷祕書郎為元凶所殺追贈通直郎楷弟瞻晉安太守與子勛同逆",
+      "text": "禮十六年薨時年三十六追贈散騎常侍征西將軍開府儀同三司持節都督刺史如故諡曰成王子悼王瑾字彥瑜官至太子屯騎校尉三十年為元凶所殺世祖即位追贈散騎常侍子粲早夭粲弟纂字元績嗣官至步兵校尉順帝昇明三年薨會齊受禪國除瑾弟〓字彥期失明中為中書郎太宰江夏王義恭領中書監服親不得相臨表求解職世祖詔曰昔二王兩謝俱至崇禮自今三臺五省悉同此例太宗初為南兗州刺史都官尚書謀應晉安王子勛為逆伏誅祗弟楷祕書郎為元凶所殺追贈通直郎楷弟瞻晉安太守與子勛同逆",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0036",
+          "start": 36,
+          "end": 38,
+          "surface": "成王",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABA",
+          "source_role_key": "yixin-unit:yixin",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0039",
+          "start": 39,
+          "end": 41,
+          "surface": "悼王",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAA",
+          "source_role_key": "yixin-unit:jin",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0041",
+          "start": 41,
+          "end": 42,
+          "surface": "瑾",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAA",
+          "source_role_key": "yixin-unit:jin",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0043",
+          "start": 43,
+          "end": 45,
+          "surface": "彥瑜",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAA",
+          "source_role_key": "yixin-unit:jin",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0057",
+          "start": 57,
+          "end": 59,
+          "surface": "元凶",
+          "kind": "person",
+          "person_id": "fof_k8v_7md",
+          "source_role_key": "yixin-unit:li_ushao",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0061",
+          "start": 61,
+          "end": 63,
+          "surface": "世祖",
+          "kind": "person",
+          "person_id": "hx8_st4_jdd",
+          "source_role_key": "yixin-unit:xiaowu",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0072",
+          "start": 72,
+          "end": 73,
+          "surface": "粲",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAAA",
+          "source_role_key": "yixin-unit:can",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0075",
+          "start": 75,
+          "end": 76,
+          "surface": "粲",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAAA",
+          "source_role_key": "yixin-unit:can",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0077",
+          "start": 77,
+          "end": 78,
+          "surface": "纂",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAAB",
+          "source_role_key": "yixin-unit:zuan",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0079",
+          "start": 79,
+          "end": 81,
+          "surface": "元績",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAAB",
+          "source_role_key": "yixin-unit:zuan",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0088",
+          "start": 88,
+          "end": 90,
+          "surface": "順帝",
+          "kind": "person",
+          "person_id": "6y2_apj_l05",
+          "source_role_key": "yixin-unit:shundi",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0101",
+          "start": 101,
+          "end": 102,
+          "surface": "瑾",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAA",
+          "source_role_key": "yixin-unit:jin",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0105",
+          "start": 105,
+          "end": 107,
+          "surface": "彥期",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAB",
+          "source_role_key": "yixin-unit:zhi",
+          "confidence": "medium"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0114",
+          "start": 114,
+          "end": 116,
+          "surface": "太宰",
+          "kind": "person",
+          "person_id": "2n6_7xk_5ov",
+          "source_role_key": "yixin-unit:yigong",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0116",
+          "start": 116,
+          "end": 119,
+          "surface": "江夏王",
+          "kind": "person",
+          "person_id": "2n6_7xk_5ov",
+          "source_role_key": "yixin-unit:yigong",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0119",
+          "start": 119,
+          "end": 121,
+          "surface": "義恭",
+          "kind": "person",
+          "person_id": "2n6_7xk_5ov",
+          "source_role_key": "yixin-unit:yigong",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0135",
+          "start": 135,
+          "end": 137,
+          "surface": "世祖",
+          "kind": "person",
+          "person_id": "hx8_st4_jdd",
+          "source_role_key": "yixin-unit:xiaowu",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0158",
+          "start": 158,
+          "end": 160,
+          "surface": "太宗",
+          "kind": "person",
+          "person_id": "cti_o52_4nz",
+          "source_role_key": "yixin-unit:mingdi",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0173",
+          "start": 173,
+          "end": 176,
+          "surface": "晉安王",
+          "kind": "person",
+          "person_id": "902_55f_656",
+          "source_role_key": "yixin-unit:zixun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0176",
+          "start": 176,
+          "end": 178,
+          "surface": "子勛",
+          "kind": "person",
+          "person_id": "902_55f_656",
+          "source_role_key": "yixin-unit:zixun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0182",
+          "start": 182,
+          "end": 183,
+          "surface": "祗",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAB",
+          "source_role_key": "yixin-unit:zhi",
+          "confidence": "medium"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0184",
+          "start": 184,
+          "end": 185,
+          "surface": "楷",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAC",
+          "source_role_key": "yixin-unit:kai",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0189",
+          "start": 189,
+          "end": 191,
+          "surface": "元凶",
+          "kind": "person",
+          "person_id": "fof_k8v_7md",
+          "source_role_key": "yixin-unit:li_ushao",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0198",
+          "start": 198,
+          "end": 199,
+          "surface": "楷",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAC",
+          "source_role_key": "yixin-unit:kai",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0200",
+          "start": 200,
+          "end": 201,
+          "surface": "瞻",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAD",
+          "source_role_key": "yixin-unit:zhan",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p010:m0206",
+          "start": 206,
+          "end": 208,
+          "surface": "子勛",
+          "kind": "person",
+          "person_id": "902_55f_656",
+          "source_role_key": "yixin-unit:zixun",
+          "confidence": "high"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit010",
         "source_layer": "received_chapter",
         "first_line": 87,
@@ -360,11 +755,162 @@
       "id": "c-songshu-051-wyd1739-zongshi:p011",
       "text": "伏誅瞻弟韞字彥文步兵校尉宣城太守子勛為亂大衆屯據鵲尾攻逼宣城于時四方牧守莫不同逆唯韞棄郡赴朝廷太宗嘉其誠以為黃門郎太子中庶子侍中加荆湘州南兗州刺史吳興太守侍中領左軍將軍又改領驍騎將軍撫軍將軍雍州刺史侍中領右衞將軍改領左衞將軍散騎常侍中領軍昇明二年謀反伏誅韞人才凡鄙以有宣城之勳特為太宗所寵在湘州及雍州使善畫者圖其出行鹵簿羽儀常自披玩嘗以此圖示征西將軍蔡興宗興宗戲之陽若不解畫者指韞形像問曰此何人而在轝上韞曰此正是我其庸鄙",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0002",
+          "start": 2,
+          "end": 3,
+          "surface": "瞻",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAD",
+          "source_role_key": "yixin-unit:zhan",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0004",
+          "start": 4,
+          "end": 5,
+          "surface": "韞",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0006",
+          "start": 6,
+          "end": 8,
+          "surface": "彥文",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0016",
+          "start": 16,
+          "end": 18,
+          "surface": "子勛",
+          "kind": "person",
+          "person_id": "902_55f_656",
+          "source_role_key": "yixin-unit:zixun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0041",
+          "start": 41,
+          "end": 42,
+          "surface": "韞",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0047",
+          "start": 47,
+          "end": 49,
+          "surface": "太宗",
+          "kind": "person",
+          "person_id": "cti_o52_4nz",
+          "source_role_key": "yixin-unit:mingdi",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0127",
+          "start": 127,
+          "end": 128,
+          "surface": "韞",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0140",
+          "start": 140,
+          "end": 142,
+          "surface": "太宗",
+          "kind": "person",
+          "person_id": "cti_o52_4nz",
+          "source_role_key": "yixin-unit:mingdi",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0155",
+          "start": 155,
+          "end": 156,
+          "surface": "其",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0175",
+          "start": 175,
+          "end": 178,
+          "surface": "蔡興宗",
+          "kind": "person",
+          "person_id": "fcu_pw8_tkw",
+          "source_role_key": "yixin-unit:caixingzong",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0178",
+          "start": 178,
+          "end": 180,
+          "surface": "興宗",
+          "kind": "person",
+          "person_id": "fcu_pw8_tkw",
+          "source_role_key": "yixin-unit:caixingzong",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0189",
+          "start": 189,
+          "end": 190,
+          "surface": "韞",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0201",
+          "start": 201,
+          "end": 202,
+          "surface": "韞",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0206",
+          "start": 206,
+          "end": 207,
+          "surface": "我",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p011:m0207",
+          "start": 207,
+          "end": 208,
+          "surface": "其",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit011",
         "source_layer": "received_chapter",
         "first_line": 97,
@@ -373,10 +919,150 @@
     },
     {
       "id": "c-songshu-051-wyd1739-zongshi:p012",
-      "text": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯覬嗣官至太子翊軍校尉為元凶所殺世祖",
+      "text": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
       "text_layer": "received_chapter",
       "annotation_status": "in_progress",
       "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0002",
+          "start": 2,
+          "end": 3,
+          "surface": "韞",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAE",
+          "source_role_key": "yixin-unit:yun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0004",
+          "start": 4,
+          "end": 5,
+          "surface": "弼",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAF",
+          "source_role_key": "yixin-unit:bi",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0011",
+          "start": 11,
+          "end": 13,
+          "surface": "子勛",
+          "kind": "person",
+          "person_id": "902_55f_656",
+          "source_role_key": "yixin-unit:zixun",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0018",
+          "start": 18,
+          "end": 19,
+          "surface": "鑒",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAG",
+          "source_role_key": "yixin-unit:jian",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0027",
+          "start": 27,
+          "end": 28,
+          "surface": "鑒",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAG",
+          "source_role_key": "yixin-unit:jian",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0029",
+          "start": 29,
+          "end": 30,
+          "surface": "勰",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAH",
+          "source_role_key": "yixin-unit:xie",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0031",
+          "start": 31,
+          "end": 33,
+          "surface": "彥麟",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAH",
+          "source_role_key": "yixin-unit:xie",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0039",
+          "start": 39,
+          "end": 42,
+          "surface": "後廢帝",
+          "kind": "person",
+          "person_id": "91d_607_b0a",
+          "source_role_key": "yixin-unit:houfeidi",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0047",
+          "start": 47,
+          "end": 48,
+          "surface": "勰",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAH",
+          "source_role_key": "yixin-unit:xie",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0049",
+          "start": 49,
+          "end": 50,
+          "surface": "顥",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAI",
+          "source_role_key": "yixin-unit:hao",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0051",
+          "start": 51,
+          "end": 53,
+          "surface": "彥明",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAI",
+          "source_role_key": "yixin-unit:hao",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0079",
+          "start": 79,
+          "end": 80,
+          "surface": "顥",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAI",
+          "source_role_key": "yixin-unit:hao",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0081",
+          "start": 81,
+          "end": 82,
+          "surface": "述",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABAJ",
+          "source_role_key": "yixin-unit:shu",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0092",
+          "start": 92,
+          "end": 93,
+          "surface": "秉",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        },
         {
           "id": "c-songshu-051-wyd1739-zongshi:p012:m0104",
           "kind": "person",
@@ -430,7 +1116,7 @@
       ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit012",
         "source_layer": "received_chapter",
         "first_line": 107,
@@ -445,7 +1131,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit013",
         "source_layer": "received_chapter",
         "first_line": 117,
@@ -456,11 +1142,42 @@
       "id": "c-songshu-051-wyd1739-zongshi:p014",
       "text": "弟義宗幼為高祖所愛字曰伯奴賜爵新渝縣男永初元年進爵為侯歷黃門侍郎太子左衞率元嘉八年坐門生杜德靈放横打人還第內藏義宗隱蔽之免官德靈雅有姿色為義宗所愛寵本會稽郡吏謝方明為郡方明子惠連愛幸之為之賦詩十餘首乘流遷歸渚篇是也又為侍中太子詹事加散騎常侍征虜將軍南兗州刺史二十一年卒追贈散騎常侍平北將軍諡曰惠侯愛士樂施兼好文籍世以此稱之子懷侯玠嗣琅邪秦郡太守為元凶所殺追贈散騎常侍無子弟秉以子承繼封秉字彥節初為著作郎歷羽林監越騎校尉中",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p014:m0001",
+          "start": 1,
+          "end": 3,
+          "surface": "義宗",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABD",
+          "source_role_key": "yixin-unit:old_yizong",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p014:m0164",
+          "start": 164,
+          "end": 165,
+          "surface": "玠",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABDA",
+          "source_role_key": "yixin-unit:jie",
+          "confidence": "high"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p014:m0186",
+          "start": 186,
+          "end": 187,
+          "surface": "秉",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABDB",
+          "source_role_key": "yixin-unit:bing",
+          "confidence": "high"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit014",
         "source_layer": "received_chapter",
         "first_line": 127,
@@ -475,7 +1192,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit015",
         "source_layer": "received_chapter",
         "first_line": 137,
@@ -490,7 +1207,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit016",
         "source_layer": "received_chapter",
         "first_line": 147,
@@ -505,7 +1222,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit017",
         "source_layer": "received_chapter",
         "first_line": 157,
@@ -601,7 +1318,7 @@
       ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit018",
         "source_layer": "received_chapter",
         "first_line": 167,
@@ -647,7 +1364,7 @@
       ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit019",
         "source_layer": "received_chapter",
         "first_line": 177,
@@ -662,7 +1379,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit020",
         "source_layer": "received_chapter",
         "first_line": 187,
@@ -677,7 +1394,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit021",
         "source_layer": "received_chapter",
         "first_line": 197,
@@ -692,7 +1409,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit022",
         "source_layer": "received_chapter",
         "first_line": 207,
@@ -707,7 +1424,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit023",
         "source_layer": "received_chapter",
         "first_line": 217,
@@ -718,11 +1435,84 @@
       "id": "c-songshu-051-wyd1739-zongshi:p024",
       "text": "馬王鎮之及揚武將軍檀道濟廣武將軍到彥之等赴援朝廷至尋陽為賊黨荀林所破循即以林為南蠻校尉分兵配之使乘勝伐江陵揚聲云徐道覆已克京邑而桓謙自長安入蜀譙縱以謙為荆州刺史厚加資給與其大將譙道福俱寇江陵正與林會林屯江津謙軍枝江二寇交通分絕都邑之間荆楚旣桓氏義舊並懷異心道規乃會將士告之曰桓謙今在近幾聞者頗有去就之計吾東來文武足以濟事若欲去者本不相禁因夜開城門達曉不閉衆咸憚服莫有去者雍州刺史魯宗之率衆數千自襄陽來赴或謂宗之未可測道規",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0030",
+          "start": 30,
+          "end": 32,
+          "surface": "荀林",
+          "kind": "person",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0037",
+          "start": 37,
+          "end": 38,
+          "surface": "林",
+          "kind": "person",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0064",
+          "start": 64,
+          "end": 66,
+          "surface": "桓謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0074",
+          "start": 74,
+          "end": 75,
+          "surface": "謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0097",
+          "start": 97,
+          "end": 98,
+          "surface": "林",
+          "kind": "person",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0099",
+          "start": 99,
+          "end": 100,
+          "surface": "林",
+          "kind": "person",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0103",
+          "start": 103,
+          "end": 104,
+          "surface": "謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0137",
+          "start": 137,
+          "end": 139,
+          "surface": "桓謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit024",
         "source_layer": "received_chapter",
         "first_line": 227,
@@ -733,11 +1523,93 @@
       "id": "c-songshu-051-wyd1739-zongshi:p025",
       "text": "乃單馬迎之宗之感悅衆議欲使檀道濟到彥之與宗之共擊道規曰盧循擁隔中流扇張同異桓謙荀林更相首尾人懷危懼莫有固心成敗之機在此一舉非吾自行其事不決乃使宗之居守委以腹心率諸軍攻謙諸將佐皆固諫曰今遠出討謙其勝難必荀林近在江津伺人動靜若來攻城宗之未必能固脫有差跌大事去矣道規曰諸君不識兵機耳荀林愚豎無他奇計以吾去未遠必不敢向城吾今取謙往至便克沈疑之間已自還反謙敗則林破膽豈暇得來且宗之獨守何為不支數日解南蠻校尉印以授諮議參軍劉遵馳往攻",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0037",
+          "start": 37,
+          "end": 39,
+          "surface": "桓謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0039",
+          "start": 39,
+          "end": 41,
+          "surface": "荀林",
+          "kind": "person",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0083",
+          "start": 83,
+          "end": 84,
+          "surface": "謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0095",
+          "start": 95,
+          "end": 96,
+          "surface": "謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0100",
+          "start": 100,
+          "end": 102,
+          "surface": "荀林",
+          "kind": "person",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0138",
+          "start": 138,
+          "end": 140,
+          "surface": "荀林",
+          "kind": "person",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0159",
+          "start": 159,
+          "end": 160,
+          "surface": "謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0172",
+          "start": 172,
+          "end": 173,
+          "surface": "謙",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0175",
+          "start": 175,
+          "end": 176,
+          "surface": "林",
+          "kind": "person",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit025",
         "source_layer": "received_chapter",
         "first_line": 237,
@@ -752,7 +1624,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit026",
         "source_layer": "received_chapter",
         "first_line": 247,
@@ -767,7 +1639,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit027",
         "source_layer": "received_chapter",
         "first_line": 257,
@@ -913,7 +1785,7 @@
       ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit028",
         "source_layer": "received_chapter",
         "first_line": 267,
@@ -1019,7 +1891,7 @@
       ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit029",
         "source_layer": "received_chapter",
         "first_line": 277,
@@ -1034,7 +1906,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit030",
         "source_layer": "received_chapter",
         "first_line": 287,
@@ -1049,7 +1921,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit031",
         "source_layer": "received_chapter",
         "first_line": 297,
@@ -1064,7 +1936,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit032",
         "source_layer": "received_chapter",
         "first_line": 307,
@@ -1079,7 +1951,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit033",
         "source_layer": "received_chapter",
         "first_line": 317,
@@ -1094,7 +1966,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit034",
         "source_layer": "received_chapter",
         "first_line": 327,
@@ -1109,7 +1981,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit035",
         "source_layer": "received_chapter",
         "first_line": 337,
@@ -1124,7 +1996,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit036",
         "source_layer": "received_chapter",
         "first_line": 347,
@@ -1139,7 +2011,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit037",
         "source_layer": "received_chapter",
         "first_line": 357,
@@ -1154,7 +2026,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit038",
         "source_layer": "received_chapter",
         "first_line": 367,
@@ -1169,7 +2041,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit039",
         "source_layer": "received_chapter",
         "first_line": 377,
@@ -1180,11 +2052,123 @@
       "id": "c-songshu-051-wyd1739-zongshi:p040",
       "text": "流嗣官至步兵校尉昇明三年反伏誅國除綽弟緄早卒燿弟衍太子舍人衍弟鏡宣城太守鏡弟穎前將軍穎弟倩南新蔡太守道考高祖族弟也曾祖淳皇曾祖武原令混之弟官至正員郎祖巖海西令父涓子彭城內史道考始為將軍振武參軍預討盧循封鄉侯自建威將軍彭城內史隨高祖北伐時高祖諸子並弱宗室唯有道考長安平定以督并州司州之北河東北平陽北雍州之新平安定五郡諸軍事輔國將軍并州刺史領河東太守鎮蒲坂關中失守南還除游擊將軍遷冠軍將軍晉帝遜位居",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0050",
+          "start": 50,
+          "end": 52,
+          "surface": "道考",
+          "kind": "person",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0052",
+          "start": 52,
+          "end": 54,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0059",
+          "start": 59,
+          "end": 60,
+          "surface": "淳",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0066",
+          "start": 66,
+          "end": 67,
+          "surface": "混",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0075",
+          "start": 75,
+          "end": 76,
+          "surface": "巖",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0080",
+          "start": 80,
+          "end": 82,
+          "surface": "涓子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0086",
+          "start": 86,
+          "end": 88,
+          "surface": "道考",
+          "kind": "person",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0098",
+          "start": 98,
+          "end": 100,
+          "surface": "盧循",
+          "kind": "person",
+          "person_id": "m8n_ntm_79h_ABBA**A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0113",
+          "start": 113,
+          "end": 115,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0118",
+          "start": 118,
+          "end": 120,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0128",
+          "start": 128,
+          "end": 130,
+          "surface": "道考",
+          "kind": "person",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p040:m0192",
+          "start": 192,
+          "end": 194,
+          "surface": "晉帝",
+          "kind": "person",
+          "person_id": "ije_ngm_cmj",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit040",
         "source_layer": "received_chapter",
         "first_line": 387,
@@ -1195,11 +2179,57 @@
       "id": "c-songshu-051-wyd1739-zongshi:p041",
       "text": "秣陵宮道考領兵防衞高祖初卽大位下推恩之詔曰道考服屬之親國戚未遠宗室無多宜蒙寵爵可封營浦縣侯食邑五百戶以本號為彭城沛二郡太守景平元年遷右衞將軍元嘉二年出為征虜將軍淮南太守明年轉使持節領護軍入直殿省出為使持節督雍梁南北秦四州荆州之南兖陵順陽襄陽新野隨六郡諸軍征虜將軍寧蠻校尉雍州刺史襄陽新野二郡太守道考為政嚴暴聚斂無節五年為有司所糾上不問赦還都七年除太子右衞率加給事中明年督南徐兖州之江北淮南諸軍事征虜將軍南兖州刺史領廣陵太",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p041:m0003",
+          "kind": "person",
+          "start": 3,
+          "end": 5,
+          "surface": "道考",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p041:m0009",
+          "kind": "person",
+          "start": 9,
+          "end": 11,
+          "surface": "高祖",
+          "person_id": "3qs_nqa_ioa_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p041:m0021",
+          "kind": "person",
+          "start": 21,
+          "end": 23,
+          "surface": "道考",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p041:m0147",
+          "kind": "person",
+          "start": 147,
+          "end": 149,
+          "surface": "道考",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p041:m0164",
+          "kind": "person",
+          "start": 164,
+          "end": 165,
+          "surface": "上",
+          "person_id": "3qs_nqa_ioa_AAAA",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit041",
         "source_layer": "received_chapter",
         "first_line": 397,
@@ -1210,11 +2240,21 @@
       "id": "c-songshu-051-wyd1739-zongshi:p042",
       "text": "守又徵為侍中領後軍將軍徙太常九年遷右衞將軍加散騎常侍十二年坐屬疾不待對免常侍以侯領右衞明年復本官十五年又領徐州大中正太子中庶子本官如故其年監徐兖二州豫州之梁郡諸軍事前將軍徐兖二州刺史未之鎮留為侍中領左衞將軍明年出為使持節監豫司雍并四州南豫州之梁郡弋陽馬頭荆州之義陽四郡諸軍事前將軍豫州刺史領南梁郡太守二十二年坐境內早百姓饑詔加賑給而道考不奉符旨免官起為散騎常侍五兵尚書遷吳興太守秩中二千石二十五年徵為領軍二十七年索虜南至",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p042:m0166",
+          "start": 166,
+          "end": 168,
+          "surface": "道考",
+          "kind": "person",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit042",
         "source_layer": "received_chapter",
         "first_line": 407,
@@ -1225,11 +2265,114 @@
       "id": "c-songshu-051-wyd1739-zongshi:p043",
       "text": "瓜步率軍出江上假節置三十年復出為使持節監豫州刺史元凶弒立進號安西將軍遣外監徐安期仰堤祖防守之道考斬安期等起義兵應南譙王義宣義宣加道考鎮西將軍夏侯獻率衆至瓜步承候世祖又坐免官孝建元年魯爽臧質反起為征虜將軍率衆屯臨沂縣仍除吳興太守明年徵為湘州刺史未行還尚書左僕射三年轉丹陽尹加散騎常侍復為尚書右僕射領太子右衞率明年又除領軍將軍加散騎常侍五年復遷尚書右僕射金紫光祿大夫常侍如故明年轉左僕射常侍如故又領徐州刺史大中正崇憲太僕前廢",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0024",
+          "start": 24,
+          "end": 26,
+          "surface": "元凶",
+          "kind": "person",
+          "person_id": "fof_k8v_7md",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0037",
+          "start": 37,
+          "end": 40,
+          "surface": "徐安期",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0040",
+          "start": 40,
+          "end": 43,
+          "surface": "仰堤祖",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "原轉錄字串「仰堤祖」待校；暫不據此建立或連結人物ID。"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0046",
+          "start": 46,
+          "end": 48,
+          "surface": "道考",
+          "kind": "person",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0056",
+          "start": 56,
+          "end": 61,
+          "surface": "南譙王義宣",
+          "kind": "person",
+          "person_id": "9df_923_1a1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0061",
+          "start": 61,
+          "end": 63,
+          "surface": "義宣",
+          "kind": "person",
+          "person_id": "9df_923_1a1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0064",
+          "start": 64,
+          "end": 66,
+          "surface": "道考",
+          "kind": "person",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0070",
+          "start": 70,
+          "end": 73,
+          "surface": "夏侯獻",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0080",
+          "start": 80,
+          "end": 82,
+          "surface": "世祖",
+          "kind": "person",
+          "person_id": "hx8_st4_jdd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0090",
+          "start": 90,
+          "end": 92,
+          "surface": "魯爽",
+          "kind": "person",
+          "person_id": "287_4c3_102",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p043:m0092",
+          "start": 92,
+          "end": 94,
+          "surface": "臧質",
+          "kind": "person",
+          "person_id": "e3x_04h_ep6",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit043",
         "source_layer": "received_chapter",
         "first_line": 417,
@@ -1240,11 +2383,105 @@
       "id": "c-songshu-051-wyd1739-zongshi:p044",
       "text": "帝卽位遷特進右光祿大夫常侍太僕如故景和元年出督南豫州諸軍事安西將軍南豫州刺史太宗卽位以為侍中特進右光祿大夫領崇憲太僕給親侍二十人崇憲太后崩太僕解餘如故泰始五年賜几杖大官四時賜珍味疾病太醫給藥固辭几杖後廢帝卽位進左光祿大夫餘如故元徽元年卒時年八十二追贈左光祿大夫開府儀同三司侍中如故諡曰元公道考無才能直以宗室不遠故歷朝顯遇年老有疾失明子澄之順帝昇明末貴達澄之弟瑉之為竟陵王誕司空主簿誕作亂以為中兵參軍不就繫繫數十日終不受乃",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "iwn_c2g_zvh",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0038",
+          "start": 38,
+          "end": 40,
+          "surface": "太宗",
+          "kind": "person",
+          "person_id": "cti_o52_4nz",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0064",
+          "start": 64,
+          "end": 68,
+          "surface": "崇憲太后",
+          "kind": "person",
+          "person_id": "klq_nco_x21",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0101",
+          "start": 99,
+          "end": 102,
+          "surface": "後廢帝",
+          "kind": "person",
+          "person_id": "91d_607_b0a",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0167",
+          "start": 167,
+          "end": 169,
+          "surface": "澄之",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0170",
+          "start": 169,
+          "end": 171,
+          "surface": "順帝",
+          "kind": "person",
+          "person_id": "6y2_apj_l05",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0176",
+          "start": 176,
+          "end": 178,
+          "surface": "澄之",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0179",
+          "start": 179,
+          "end": 181,
+          "surface": "瑉之",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0185",
+          "start": 185,
+          "end": 186,
+          "surface": "誕",
+          "kind": "person",
+          "person_id": "9d4_1cb_fb9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0190",
+          "start": 190,
+          "end": 191,
+          "surface": "誕",
+          "kind": "person",
+          "person_id": "9d4_1cb_fb9",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit044",
         "source_layer": "received_chapter",
         "first_line": 427,
@@ -1255,11 +2492,40 @@
       "id": "c-songshu-051-wyd1739-zongshi:p045",
       "text": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p045:m0012",
+          "start": 12,
+          "end": 14,
+          "surface": "謝莊",
+          "kind": "person",
+          "person_id": "aa6_83c_juy_DBABA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p045:m0017",
+          "start": 17,
+          "end": 19,
+          "surface": "道考",
+          "kind": "person",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p045:m0021",
+          "start": 21,
+          "end": 23,
+          "surface": "思考",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit045",
         "source_layer": "received_chapter",
         "first_line": 437,
@@ -1270,11 +2536,39 @@
       "id": "c-songshu-051-wyd1739-zongshi:p046",
       "text": "史臣曰餘妖內侮偏衆西臨荀桓交逼荆楚之勢危矣必使上略未盡一算或遺則城壞壓境上流之難方結敵資三分有二之形北向而爭天下則我全勝之道或未可知烈武王覽羣才揚盛策一舉礎就寇非曰天時抑亦人謀也降年不永遂不得與大業始終惜矣哉",
       "text_layer": "received_compiler_appraisal",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p046:m0011",
+          "start": 11,
+          "end": 12,
+          "surface": "荀",
+          "kind": "person",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p046:m0012",
+          "start": 12,
+          "end": 13,
+          "surface": "桓",
+          "kind": "person",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p046:m0066",
+          "start": 66,
+          "end": 69,
+          "surface": "烈武王",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit046",
         "source_layer": "received_compiler_appraisal",
         "first_line": 441,
@@ -1289,7 +2583,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit047",
         "source_layer": "witness_appended_wuyingdian_collation",
         "first_line": 446,
@@ -1304,7 +2598,7 @@
       "mentions": [],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
-        "raw_file_sha256": "8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3",
+        "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
         "unit_key": "unit048",
         "source_layer": "witness_appended_wuyingdian_collation",
         "first_line": 455,
@@ -1312,5 +2606,5 @@
       }
     }
   ],
-  "text_sha256": "bf4132a0f7329375e234b7de600c21562a58c2c4a7c00b4045b8882a1b91d8dd"
+  "text_sha256": "5391e90d3a08efc60523c9c0f9fb2bff641eea6f9ff0eb013642bfa484d88d8a"
 }

@@ -8,7 +8,7 @@ except ImportError:
 CID='c-songshu-051-wyd1739-zongshi'
 SID='s-songshu-051-wyd1739-zongshi'
 BASE='source-evidence/song051-wyd1739-zongshi/'
-PINS={'image-column-locations.json': '7ad531c3368985f2f2770619d3d5f250a01a3bc154e11f9addd1eefd7b44f0ee', 'acquisition-provenance.json': '9659974cb11596965ae74c7853e915056ee40e0a65c64c061ad9856eb5861cdb', 'glyph-review-qualification.json': '624b20b2e4b6c6c30b90ba1ca5be839ca6f95924034d392c79b5019866f6adef', 'transcription-projection.json': '7f987f1852f77ce51ef56db77f83499700b2c487c070340d460265da3edb580b', 'transcription-witness-contract.json': 'c024bfa51f8be034714d8fba6eff94dcb233bd3d030a0074323558390fe37dfd', 'transcription-columns.txt': '8f45920d7fd42661e5a3e4f60c983b0a4bb28ed1ca424786557f0a08b46689f3'}
+PINS={'image-column-locations.json': '83ee87f077651ea78ce5e9ebbde8a61e64625c82d2ab32f824417b55e8198b51', 'acquisition-provenance.json': '91d4ae0e718df6cd982d498eb2a828f6ec61de04a02d18c0a5c3e99e023d5858', 'glyph-review-qualification.json': '624b20b2e4b6c6c30b90ba1ca5be839ca6f95924034d392c79b5019866f6adef', 'transcription-projection.json': '1260f76d98381a82b39982eb9dcd4316c30bce99d90fcdade828476afb12858b', 'transcription-witness-contract.json': '2b9d1e40881bfef239ec4301fe753aa4d2445de0f350cf26cbbfbfada24e1541', 'transcription-columns.txt': 'aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45', 'two-glyph-correction.json': '899feecbd32f57327f1c9c48437c7d48b556f6864ca085435d492175b4824e96', 'yinxiao-glyph-ner-correction.json': '440278deb18fb31a0c37d0f5c19a42d9f608022f86058e6956301af1e7594fb0', 'yirong-son-di-glyph-correction.json': '0bd2ddaa8c70ac98ab4d33043d892ab4904aea7c5b895795629c952de8145e1d'}
 def need(ok,msg):
  if not ok:raise ValueError('武英殿宋051轉錄：'+msg)
 def fixed(root,name):
@@ -24,6 +24,9 @@ def validate_source(chapter,root):
  raw=fixed(root,'transcription-columns.txt');sha=hashlib.sha256(raw).hexdigest();lines=raw.decode().splitlines()
  loc=json.loads(fixed(root,'image-column-locations.json'));proj=json.loads(fixed(root,'transcription-projection.json'))
  fixed(root,'glyph-review-qualification.json');fixed(root,'acquisition-provenance.json')
+ fixed(root,'two-glyph-correction.json')
+ fixed(root,'yinxiao-glyph-ner-correction.json')
+ fixed(root,'yirong-son-di-glyph-correction.json')
  need(loc['raw_sha256']==proj['raw_sha256']==sha,'raw版本不符')
  coords=loc['column_coordinates'];need(len(coords)==len(lines)==c['raw_lines'],'原列遺漏')
  need([x['raw_line']for x in coords]==list(range(1,len(lines)+1)),'列序不符')

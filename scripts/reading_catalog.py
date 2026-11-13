@@ -122,6 +122,11 @@ def outputs(root=None):
         from work_title_index import outputs as work_title_outputs
     result.update(work_title_outputs(root))
     try:
+        from .person_directory import outputs as person_directory_outputs
+    except ImportError:
+        from person_directory import outputs as person_directory_outputs
+    result.update(person_directory_outputs(root))
+    try:
         from .reading_witness_preferences import enrich_outputs
     except ImportError:
         from reading_witness_preferences import enrich_outputs
