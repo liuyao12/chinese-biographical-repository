@@ -3,7 +3,7 @@ from pathlib import Path
 import json,copy,hashlib
 try:from scripts.validation_context import memoized
 except ImportError:from validation_context import memoized
-CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_p014_p017_family_annotation_batch';CONTRACT_SHA='09c6c5ff99a19c70cce690cec4eb9294965edf8e2f642b35a04eec7728802977'
+CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_p014_p017_family_annotation_batch';CONTRACT_SHA='4cf55bdc5ccb1c9c7832ff1dff6df083d114be1132518aafeaa6eb4eb87a274b'
 def same(a,b):
  if type(a)is not type(b):return False
  if type(a)is dict:return all(type(k)is str for k in a)and all(type(k)is str for k in b)and set(a)==set(b)and all(same(a[k],b[k])for k in a)
@@ -28,13 +28,20 @@ def materialize(v,roles):
 def has_phase(ch):return type(ch)is dict and type(ch.get('annotation'))is dict and 'additional_annotation_phase'in ch['annotation']
 def phase_chapter(c,roles,root):
  ch=materialize(c['base_source_template'],roles);ch['annotation']['additional_annotation_phase']={'kind':PHASE,'contract_path':REF,'coverage':c['coverage'],'human_reviewed':False,'model':None}
+ for pid in c.get('later_phase',{}).get('paragraph_ids',[]):
+  p=next(p for p in ch['paragraphs'] if p['id']==pid);p['annotation_status']='in_progress'
  for row in c['markers']:
   p=next(p for p in ch['paragraphs']if p['id']==row['paragraph_id']);m=materialize(row['marker'],roles);need(not any(x['id']==m['id']for x in p['mentions']),'新增MID碰撞');p['mentions'].append(m);p['mentions'].sort(key=lambda x:x['start']);p['annotation_status']='in_progress'
  try:from scripts.wyd_song051_p018 import markers as p018_markers, title_uses as p018_title_uses
  except ImportError:from wyd_song051_p018 import markers as p018_markers, title_uses as p018_title_uses
  for row in p018_markers(root):
   p=next(p for p in ch['paragraphs']if p['id']==row['paragraph_id']);m=copy.deepcopy(row['marker']);need(not any(x['id']==m['id']for x in p['mentions']),'p018/p019 MID碰撞');p['mentions'].append(m);p['mentions'].sort(key=lambda x:x['start']);p['annotation_status']='in_progress'
+ for row in c.get('later_phase',{}).get('pronoun_reclassifications',[]):
+  p=next(p for p in ch['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['mention_id']);m['kind']='pronoun';m['status']='contextual_provisional';m['interpretation_note']=row['interpretation_note']
+ for row in c.get('later_phase',{}).get('markers',[]):
+  p=next(p for p in ch['paragraphs']if p['id']==row['paragraph_id']);m=materialize(row['marker'],roles);need(not any(x['id']==m['id']for x in p['mentions']),'後續批次MID碰撞');p['mentions'].append(m);p['mentions'].sort(key=lambda x:(x['start'],x['end'],x['id']));p['annotation_status']='in_progress'
  ch['annotation']['source_title_uses'].extend(p018_title_uses(ch))
+ ch['annotation']['source_title_uses'].extend(copy.deepcopy(c.get('later_phase',{}).get('title_uses',[])))
  return ch
 def collect(ch,c):
  roles={}
@@ -59,6 +66,12 @@ def state(root,ch=None):
  title_use_ids={u['person_mention_id'] for u in actual['annotation'].get('source_title_uses',[]) if u.get('source_anchor',{}).get('surface')==next((m['surface'] for p in actual['paragraphs'] for m in p['mentions'] if m['id']==u.get('person_mention_id')),None)}
  for row in c['markers']:
   p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id']);person=people.get(m['person_id']);need(person is not None,'新增角色未登記');has_alias=any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']);need((not has_alias)if m['id']in title_use_ids else has_alias,'新增姓名alias／稱號用稱分類不符');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'新增evidence缺反向')
+ for row in c.get('later_phase',{}).get('markers',[]):
+  p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id'])
+  if m['kind']=='unresolved':need(m.get('person_id')is None and m.get('status')=='unresolved','後續未決錨不得暗連人物');continue
+  person=people.get(m['person_id']);need(person is not None,'後續批次人物未登記');has_alias=any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']);need(has_alias if m['kind']=='person' else not has_alias,'後續姓名alias／代詞分類不符');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'後續批次反向evidence缺漏')
+ for row in c.get('later_phase',{}).get('pronoun_reclassifications',[]):
+  p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['mention_id']);person=people.get(m.get('person_id'));need(m['kind']=='pronoun' and person is not None,'後續代詞須保留有效指涉');need(not any(m['id']in a.get('mention_ids',[])for a in person['aliases']),'後續代詞不得列作姓名alias');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'後續代詞反向evidence缺漏')
  try:from scripts.wyd_song051_p018 import markers as p018_markers
  except ImportError:from wyd_song051_p018 import markers as p018_markers
  for row in p018_markers(root):
@@ -79,6 +92,8 @@ def state(root,ch=None):
 def project_previous_phase(root,ch):
  need(type(ch)is dict,'投影須提供完整current章，不以None或缺章回填')
  actual,roles,c,docs=state(root,ch);projected=materialize(c['base_source_template'],roles)
+ for row in c.get('later_phase',{}).get('pronoun_reclassifications',[]):
+  p=next(p for p in projected['paragraphs'] if p['id']==row['paragraph_id']);m=next(m for m in p['mentions'] if m['id']==row['mention_id']);m['kind']='pronoun';m['status']='contextual_provisional';m['interpretation_note']=row['interpretation_note']
  # The earlier strict 49-anchor phase consumes its exact source-before annotation;
  # newer title-use/proposal records are guarded by this batch contract instead.
  projected['annotation'].pop('source_title_uses',None);projected['annotation'].pop('title_proposals',None);projected['annotation'].pop('age_assertions',None)

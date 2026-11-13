@@ -53,6 +53,10 @@ def phase_chapter(c,roles):
   generated_ids={m['id']for m in generated}
   need(not any(m.get('id')in generated_ids for m in source_mentions),'來源續標與有限親族錨ID碰撞')
   p['mentions']=source_mentions+generated
+  if p['id'].endswith(':p029'):
+   for m in p['mentions']:
+    if m.get('surface') in {'朕','此','吾'} and m['id'] in {p['id']+':m0019',p['id']+':m0164',p['id']+':m0165'}:
+     m['kind']='pronoun';m['status']='contextual_provisional';m['interpretation_note']={'朕':'引詔中的自稱，依「太祖詔曰」及詔文發話者連至宋文帝劉義隆。','此':'「此吾家豐城也」中指本傳主義慶；保留代詞指涉，不列姓名異稱。','吾':'高祖劉裕在「常曰」所引話語中的第一人稱自稱。'}[m['surface']]
   p['mentions'].sort(key=lambda m:(m.get('start',0),m.get('end',0),m.get('id','')))
   if p['mentions']:p['annotation_status']=next((row['paragraph_status']for row in rows if row.get('paragraph_status')),'in_progress')
  return ch
@@ -138,7 +142,7 @@ def _phase1_context(root,ch=None,check_sidecars=True):
     need(m.get('person_id')is None and m.get('status')=='unresolved','未決姓名不應暗連人物ID')
     continue
    person=people.get(m['person_id']);need(bool(person),'人物未登記')
-   need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'缺反向alias')
+   if m.get('kind')!='pronoun':need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'缺反向alias')
    e=dict(work_id=owner['work_id'],book_id=owner['book_id'],source_id=owner['source_id'],chapter_id=owner['id'],paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'缺反向evidence')
  # The original pending validator is unchanged; normalize only after exact formal proof.
  try:from scripts.fixed_wuyingdian_song051 import validate_source
@@ -252,7 +256,7 @@ def succession_reading(ch,roles):
 def identities(ch,roles,c,root):
  out=[]
  for role in sorted({r['role']for r in c['markers']if r.get('role')}):
-  hits=[(p,m)for p in ch['paragraphs']for m in p['mentions']if m.get('source_role_key')==role];surfaces=list(dict.fromkeys(m['surface']for p,m in hits));p,m=hits[0]
+  hits=[(p,m)for p in ch['paragraphs']for m in p['mentions']if m.get('source_role_key')==role and m.get('kind')=='person'];need(bool(hits),'身份別名須排除代詞及空角色');surfaces=list(dict.fromkeys(m['surface']for p,m in hits));p,m=hits[0]
   d={'id':'d-song051-phase1-'+role,'person_id':roles[role],'surfaces':surfaces,'scope':'cross_chapter'if role not in c['source_local_registration_roles']else'same_chapter','chapter_ids':[CID],'status':'contextual_provisional','confidence_level':'high','identification_basis':{'kind':'source_context','target_mention_ids':[m['id']for p,m in hits]},'evidence':[dict(work_id=ch['work_id'],book_id=ch['book_id'],source_id=ch['source_id'],chapter_id=CID,paragraph_id=p['id'],quote=p['text'])],'rationale':'有限親族段落的具名人物辨識；既有角色由固定外部MID及雙向來源回查，新源局部角色不斷言與全庫已證異人。未明母/婚配/出生年不補。','human_reviewed':False,'model':None}
   if role in c.get('role_rationales',{}):
    d['rationale']=c['role_rationales'][role]
@@ -346,7 +350,7 @@ def _phase2_context(root,ch=None,check_sidecars=True):
     need(m.get('person_id')is None and m.get('status')=='unresolved','未決姓名不應暗連人物ID')
     continue
    person=people.get(m['person_id']);need(bool(person),'人物未登記')
-   need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'缺反向alias')
+   if m.get('kind')!='pronoun':need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'缺反向alias')
    e=dict(work_id=owner['work_id'],book_id=owner['book_id'],source_id=owner['source_id'],chapter_id=owner['id'],paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'缺反向evidence')
  # The original pending validator is unchanged; normalize only after exact formal proof.
  try:from scripts.fixed_wuyingdian_song051 import validate_source

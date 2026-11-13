@@ -1,0 +1,103 @@
+{
+  "format_version": "0.2",
+  "record_type": "received_text_reading_scope_set",
+  "chapter_id": "c-songshu-051-wyd1739-zongshi",
+  "source_id": "s-songshu-051-wyd1739-zongshi",
+  "source_revision": "cbr-ai-transcription-sha256:aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
+  "chapter_text_sha256": "5391e90d3a08efc60523c9c0f9fb2bff641eea6f9ff0eb013642bfa484d88d8a",
+  "scope_basis": "固定武英殿轉錄中可見的引語標記及敘事轉折；不增標點或改字，範圍用段落內Unicode字元偏移定位。",
+  "scopes": [
+    {
+      "id": "scope-song051-p029-p039-edict",
+      "kind": "embedded_edict",
+      "start": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p028",
+        "offset": 104,
+        "surface": "太祖詔曰"
+      },
+      "end": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p029",
+        "offset": 157,
+        "surface": "義慶幼"
+      },
+      "note": "引詔始於太祖詔曰；包含p029末端太妃祭禮命令，於義慶幼轉入本傳。"
+    },
+    {
+      "id": "scope-song051-p029-p039-case-ruling",
+      "kind": "embedded_recorded_speech",
+      "start": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p030",
+        "offset": 83,
+        "surface": "義慶曰"
+      },
+      "end": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p030",
+        "offset": 209,
+        "surface": "孝道"
+      },
+      "note": "義慶所論止於孝道；相鄰「六年」起恢復本傳紀年。"
+    },
+    {
+      "id": "scope-song051-p029-p039-imperial-letter",
+      "kind": "embedded_imperial_letter",
+      "start": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
+        "offset": 26,
+        "surface": "太祖詔譬之曰"
+      },
+      "end": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
+        "offset": 198,
+        "surface": "豈敢苟違天邪"
+      },
+      "note": "答書止於「豈敢苟違天邪」，其後回到義慶求解僕射的本傳敘述。"
+    },
+    {
+      "id": "scope-song051-p029-p039-memorial",
+      "kind": "embedded_memorial",
+      "start": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p032",
+        "offset": 109,
+        "surface": "義慶上表曰"
+      },
+      "end": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p033",
+        "offset": 125,
+        "surface": "何遠之有"
+      },
+      "note": "上表跨p032–p033；後接義慶留心撫物等本傳敘述。"
+    },
+    {
+      "id": "scope-song051-p029-p039-heqing-praise",
+      "kind": "embedded_praise",
+      "start": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p035",
+        "offset": 16,
+        "surface": "臣聞"
+      },
+      "end": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+        "offset": 56,
+        "surface": "寧不勉乎"
+      },
+      "note": "鮑照《河清頌》自「其辭曰臣聞」起，止於「寧不勉乎」；後接世祖任鮑照為中書舍人的本傳。"
+    }
+  ],
+  "uncertain_readings": [
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+      "surface": "子曄王建字景舒",
+      "status": "unresolved_transcription_reading",
+      "note": "保留字序與無標點原貌；曄、王建僅作未決人名錨，不依常見本拆分或連同名人物。"
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p039",
+      "surface": "子綽字子",
+      "status": "incomplete_at_batch_boundary",
+      "note": "p040「流嗣」僅用來校讀本句接縫；本批不為p040增加提及，也不據接縫推定綽的姓氏、父系或世次。"
+    }
+  ],
+  "reviewer": "Codex（AI代理）",
+  "human_reviewed": false,
+  "model": null
+}
