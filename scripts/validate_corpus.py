@@ -33,6 +33,39 @@ def direct_source_age_valid(age):
     return (type(age.get('value')) is int and parsed is not None and age['value'] == parsed
             and age.get('source_term') in ('年' + str(number), '時年' + str(number), '年登' + str(number), '年始' + str(number), str(number) + '歲', str(number) + '歳', str(number) + '嵗'))
 
+def split_source_age_binding_valid(age, chapter, paragraphs, mentions):
+    binding = age.get('source_term_split_binding')
+    if not isinstance(binding, dict) or binding.get('kind') != 'adjacent_fixed_transcription_paragraphs':
+        return False
+    parts = binding.get('parts')
+    if not isinstance(parts, list) or len(parts) != 2 or binding.get('source_term') != age.get('source_term'):
+        return False
+    if ''.join(part.get('surface', '') for part in parts if isinstance(part, dict)) != age.get('source_term'):
+        return False
+    if binding.get('source_revision') != chapter.get('source', {}).get('revision_id'):
+        return False
+    ordered = [p.get('id') for p in chapter.get('paragraphs', [])]
+    ids = [part.get('paragraph_id') for part in parts]
+    if any(pid not in ordered for pid in ids) or ordered.index(ids[1]) != ordered.index(ids[0]) + 1:
+        return False
+    if [part.get('surface') for part in parts] != ['時年', age.get('source_number')] or len(age.get('evidence', [])) != 2:
+        return False
+    for part in parts:
+        hit = paragraphs.get(part.get('paragraph_id'))
+        ev = next((e for e in age['evidence'] if e.get('paragraph_id') == part.get('paragraph_id')), None)
+        start, end, surface = part.get('start'), part.get('end'), part.get('surface')
+        if not hit or hit[0]['id'] != chapter['id'] or not isinstance(start, int) or not isinstance(end, int):
+            return False
+        text = hit[1].get('text', '')
+        if text[start:end] != surface or part.get('paragraph_sha256') != hashlib.sha256(text.encode()).hexdigest():
+            return False
+        if not ev or ev.get('chapter_id') != chapter['id'] or ev.get('source_id') != chapter.get('source_id') or ev.get('quote') != text or ev.get('person_mention_id') != part.get('person_mention_id'):
+            return False
+        mention = mentions.get(part.get('person_mention_id'))
+        if not mention or mention[1] != part.get('paragraph_id') or mention[2].get('person_id') != age.get('person_id'):
+            return False
+    return True
+
 
 def named_office_end_valid(holding, paragraphs, mentions):
     """明言終於此職的終期，不能以一般死亡替代所有官爵終期。"""
@@ -2191,15 +2224,20 @@ def _validate_uncached(root=ROOT):
                               and any(age['qualified_source_term'] in e.get('quote', '') for e in age.get('evidence', [])), '個人報齡缺來源限定詞或傳聞狀態')
                 else:
                     check(direct_source_age_valid(age) or (chapter.get('annotation',{}).get('epitaph_life_binding',{}).get('kind')=='epitaph_named_head_dated_death_and_burial' and age.get('source_term')=='春秋'+str(age.get('source_number')) and source_age_number(age.get('source_number'))==age.get('value')), '來源年齡數值與原詞不符')
+                    if 'source_term_split_binding' in age:
+                        check(split_source_age_binding_valid(age, chapter, paragraphs, mentions), '跨相鄰段落報齡原詞、字元位置、人物錨點或見證指紋不符')
                 check(age.get('counting') == 'unspecified_source_age' and age.get('unit') == 'source_age_years'
                       and age.get('birth_year') is None and age.get('status') == 'source_attested',
                       '來源年齡不得推定計歲方式或出生年')
                 check(age['person_id'] in pids and bool(age['evidence']), '來源年齡缺人物或證據')
                 for evidence in age['evidence']:
                     hit = paragraphs.get(evidence['paragraph_id']); mention = mentions.get(evidence.get('person_mention_id'))
+                    binding = age.get('source_term_split_binding')
+                    part = next((p for p in binding.get('parts', []) if p.get('paragraph_id') == evidence.get('paragraph_id')), None) if isinstance(binding, dict) else None
+                    term_present = age['source_term'] in evidence['quote'] if part is None else part.get('surface') in evidence['quote']
                     check(bool(hit) and hit[0] == chapter['id'] == evidence['chapter_id']
                           and evidence['source_id'] == chapter['source_id'] and evidence['quote'] in hit[1]['text']
-                          and age['source_term'] in evidence['quote'], '來源年齡引句不符')
+                          and term_present, '來源年齡引句不符')
                     carried_age_subject = False
                     if 'context' in evidence:
                         try:
