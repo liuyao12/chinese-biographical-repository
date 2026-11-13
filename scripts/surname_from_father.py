@@ -1,5 +1,21 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions,root=None):
+ if isinstance(name,dict) and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_explicit_named_father_clause':
+  try:
+   b=name['surname_basis']; c=chapters[name['chapter_id']]; p=next(p for p in c['paragraphs'] if p['id']==name['paragraph_id'])
+   child=next(m for m in p['mentions'] if m['id']==name['person_mention_id']); father=next(m for m in p['mentions'] if m['id']==b['father_mention_id'])
+   term='桓歆子道兒'; start=b['start']; end=b['end']
+   import hashlib
+   assert name['chapter_id']=='c-songshu-051-wyd1739-zongshi' and name['surname']=='桓' and name['ming']=='道兒'
+   assert name['status']=='contextual_provisional' and b['status']=='contextual_provisional' and b['human_reviewed'] is False
+   assert p['text'][start:end]==term and b['source_term']==term and b['paragraph_sha256']==hashlib.sha256(p['text'].encode()).hexdigest()
+   assert b['source_revision']==c['source']['revision_id'] and child['surface']=='道兒' and father['surface']=='桓歆'
+   assert child['person_id']==name['person_id'] and father['person_id']==b['father_person_id'] and father['end']<=child['start']
+   a=next(a for a in assertions if a['id']==b['assertion_id'])
+   assert a['predicate']=='father' and a['subject_person_id']==name['person_id'] and a['object_person_id']==b['father_person_id']
+  except (AssertionError,KeyError,StopIteration,TypeError):
+   raise ValueError('桓道兒姓氏復原須綁同句桓歆父子原詞，不以家族 ID 推姓')
+  return
  if isinstance(name,dict) and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_song051_p014_p017':
   try:
    b=name['surname_basis'];c=chapters[name['chapter_id']];p=next(p for p in c['paragraphs'] if p['id']==name['paragraph_id']);m=next(m for m in p['mentions'] if m['id']==name['person_mention_id'])

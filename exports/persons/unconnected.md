@@ -1850,6 +1850,7 @@
 | `98e_ijv_9wt` | 費將軍（垓下敘事） | [《史記・高祖本紀》][95] | [JSON](98e_ijv_9wt.json) |
 | `98o_tak_pi0` | 趙周 | [《史記・張丞相列傳》][165] | [JSON](98o_tak_pi0.json) |
 | `98p_51k_nct` | 南庚 | [《史記・殷本紀》][90] | [JSON](98p_51k_nct.json) |
+| `98q_ohs_xh7` | 劉遵 | [《宋書・宗室》][212] | [JSON](98q_ohs_xh7.json) |
 | `98v_uic_i4i` | 孤竹君 | [《史記・伯夷列傳》][130] | [JSON](98v_uic_i4i.json) |
 | `995_c62_02f` | 潘勗 | [《三國志・二荀賈傳》][78] | [JSON](995_c62_02f.json) |
 | `996_uzv_2bc` | 子公 | [《史記・鄭世家》][111] | [JSON](996_uzv_2bc.json) |
@@ -2093,7 +2094,6 @@
 | `aey_tui_wzm` | 齊太師（孔子世家未名者） | [《史記・孔子世家》][116] | [JSON](aey_tui_wzm.json) |
 | `aez_p66_9uj` | 藺相如持璧歸趙從者未名 | [《史記・廉頗藺相如列傳》][150] | [JSON](aez_p66_9uj.json) |
 | `af1_11d_057` | 宗慤 | [《宋書・謝莊 王景文》][228] | [JSON](af1_11d_057.json) |
-| `af6_mhg_pyn` | 呂種 | [《史記・呂后本紀》][96]、[《史記・惠景間侯者年表》][249] | [JSON](af6_mhg_pyn.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

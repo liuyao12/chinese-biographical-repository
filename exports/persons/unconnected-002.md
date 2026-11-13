@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `af6_mhg_pyn` | 呂種 | [《史記・呂后本紀》][96]、[《史記・惠景間侯者年表》][249] | [JSON](af6_mhg_pyn.json) |
 | `af7_a2c_011` | 韓晃 | [《晉書・叛臣三》][62] | [JSON](af7_a2c_011.json) |
 | `afb_ahe_sqp` | 趙堯 | [《史記・張丞相列傳》][165] | [JSON](afb_ahe_sqp.json) |
 | `afc_k9r_hjr` | 衡父 | [《史記・秦本紀》][92] | [JSON](afc_k9r_hjr.json) |
@@ -239,7 +240,7 @@
 | `bsf_8kr_gjr` | 鄭桓公 | [《史記・楚世家》][109] | [JSON](bsf_8kr_gjr.json) |
 | `bsx_usd_ats` | 伊尹引古 | [《史記・春申君列傳》][147] | [JSON](bsx_usd_ats.json) |
 | `bt2_5iy_rhq` | 太常臧 | [《史記・儒林列傳》][190] | [JSON](bt2_5iy_rhq.json) |
-| `bt2_eqz_i4y` | 徐道覆 | [《宋書・良吏》][229] | [JSON](bt2_eqz_i4y.json) |
+| `bt2_eqz_i4y` | 徐道覆 | [《宋書・宗室》][212] | [JSON](bt2_eqz_i4y.json) |
 | `bt4_2lu_c5r` | 審悳 | [《三國志・諸夏侯曹傳》][76] | [JSON](bt4_2lu_c5r.json) |
 | `btc_1kk_n9n` | 程展 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](btc_1kk_n9n.json) |
 | `bty_4r4_dtw` | 向壽 | [《史記・穰侯列傳》][141] | [JSON](bty_4r4_dtw.json) |
@@ -334,7 +335,7 @@
 | `c9c_f55_12b` | 韋誕 | [《三國志・二荀賈傳》][79] | [JSON](c9c_f55_12b.json) |
 | `c9d_eyb_lp5` | 悼公（韓世家被弒未名者） | [《史記・韓世家》][114] | [JSON](c9d_eyb_lp5.json) |
 | `c9n_rjf_cwd` | 陽周使者未名 | [《史記・蒙恬列傳》][157] | [JSON](c9n_rjf_cwd.json) |
-| `c9y_5dx_n1p` | 何無忌 | [《晉書・叛臣二》][60] | [JSON](c9y_5dx_n1p.json) |
+| `c9y_5dx_n1p` | 何無忌 | [《晉書・叛臣二》][60]、[《宋書・宗室》][212] | [JSON](c9y_5dx_n1p.json) |
 | `ca1_8ty_axt` | 周後（封周子南君未名） | [《史記・孝武本紀》][99] | [JSON](ca1_8ty_axt.json) |
 | `ca5_zxe_kxk` | 陳女（衛莊公夫人） | [《史記・衛康叔世家》][106] | [JSON](ca5_zxe_kxk.json) |
 | `cac_ca2_008` | 司馬攸 | [《晉書・王渾 王濬 唐彬》][31] | [JSON](cac_ca2_008.json) |
@@ -1487,6 +1488,7 @@
 | `iht_32d_ovx` | 趙先王 | [《史記・張儀列傳》][139] | [JSON](iht_32d_ovx.json) |
 | `iig_8e3_qx2` | 由余 | [《史記・秦本紀》][92] | [JSON](iig_8e3_qx2.json) |
 | `iik_i5z_m5e` | 春申 | [《史記・游俠列傳》][193] | [JSON](iik_i5z_m5e.json) |
+| `iiw_d7b_igi` | 桓謐 | [《宋書・宗室》][212] | [JSON](iiw_d7b_igi.json) |
 | `ij0_gmq_io0` | 何劭 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47]、[《三國志・二荀賈傳》][79] | [JSON](ij0_gmq_io0.json) |
 | `ij6_2nr_3gc` | 冠受〔元顥子〕 | [《魏書・楊播》][234] | [JSON](ij6_2nr_3gc.json) |
 | `ije_3uz_q79` | 智伯瑤 | [《史記・春申君列傳》][147] | [JSON](ije_3uz_q79.json) |
@@ -2091,8 +2093,6 @@
 | `mgj_ry7_2x5` | 陶朱 | [《史記・陳涉世家》][117] | [JSON](mgj_ry7_2x5.json) |
 | `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][164] | [JSON](mgl_q57_d7h.json) |
 | `mh6_5un_rq0` | 韓康子（殺知伯者） | [《史記・晉世家》][108] | [JSON](mh6_5un_rq0.json) |
-| `mhe_05y_s6w` | 虞預 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47]、[《三國志・桓二陳徐衞盧傳》][84] | [JSON](mhe_05y_s6w.json) |
-| `mhf_ukx_zs1` | 雲敷 | [《宋書・宗室》][212] | [JSON](mhf_ukx_zs1.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
@@ -2296,7 +2296,6 @@
 [226]: https://github.com/kanripo/KR2a0016/blob/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_071.txt
 [227]: https://zh.wikisource.org/w/index.php?title=宋書/卷75&oldid=1997722
 [228]: https://github.com/kanripo/KR2a0016/blob/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_085.txt
-[229]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B792&oldid=2195614
 [230]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B793&oldid=1962755
 [231]: https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_024.txt
 [232]: https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt

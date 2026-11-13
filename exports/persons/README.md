@@ -1507,7 +1507,7 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 魯宗之 | [《晉書・桓彝》][44] | [JSON](aa9_7e9_5b9.json) |
+| `根` | 魯宗之 | [《宋書・宗室》][212] | [JSON](aa9_7e9_5b9.json) |
 | `A` | 魯軌 | [《魏書・刁雍 王慧龍 韓延之 袁式》][233] | [JSON](aa9_7e9_5b9_A.json) |
 
 </details>
@@ -2623,7 +2623,7 @@
 | `ABA` | 皓〔盧珽子〕 | [《三國志・桓二陳徐衞盧傳》][84] | [JSON](m8n_ntm_79h_ABA.json) |
 | `ABB` | 盧志 | [《三國志・桓二陳徐衞盧傳》][84] | [JSON](m8n_ntm_79h_ABB.json) |
 | `ABBA` | 盧諶 | [《三國志・桓二陳徐衞盧傳》][84] | [JSON](m8n_ntm_79h_ABBA.json) |
-| `ABBA**A` | 盧循 | [《宋書・張茂度 庾登之 謝方明 江夷》][215] | [JSON](m8n_ntm_79h_ABBA%2A%2AA.json) |
+| `ABBA**A` | 盧循 | [《宋書・宗室》][212] | [JSON](m8n_ntm_79h_ABBA%2A%2AA.json) |
 | `ABBAA` | 偃〔盧諶子〕 | [《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](m8n_ntm_79h_ABBAA.json) |
 | `ABBAAA` | 邈〔偃子〕 | [《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](m8n_ntm_79h_ABBAAA.json) |
 
@@ -3318,7 +3318,7 @@
 
 </details>
 
-<details><summary><code>u9s_w6j_8mc</code> 桓顥（39 名）</summary>
+<details><summary><code>u9s_w6j_8mc</code> 桓顥（40 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -3329,6 +3329,7 @@
 | `AAB` | 桓濟 | [《晉書・叛臣一》][59] | [JSON](u9s_w6j_8mc_AAB.json) |
 | `AABA` | 桓亮 | [《晉書・叛臣二》][60] | [JSON](u9s_w6j_8mc_AABA.json) |
 | `AAC` | 桓歆 | [《晉書・叛臣二》][60] | [JSON](u9s_w6j_8mc_AAC.json) |
+| `AACA` | 桓道兒 | [《宋書・宗室》][212] | [JSON](u9s_w6j_8mc_AACA.json) |
 | `AAD` | 桓禕 | [《晉書・叛臣一》][59] | [JSON](u9s_w6j_8mc_AAD.json) |
 | `AAE` | 桓偉 | [《晉書・叛臣二》][60] | [JSON](u9s_w6j_8mc_AAE.json) |
 | `AAEA` | 桓浚 | [《晉書・叛臣二》][60] | [JSON](u9s_w6j_8mc_AAEA.json) |

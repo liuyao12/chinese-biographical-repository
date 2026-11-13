@@ -6,6 +6,8 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `mhe_05y_s6w` | 虞預 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47]、[《三國志・桓二陳徐衞盧傳》][84] | [JSON](mhe_05y_s6w.json) |
+| `mhf_ukx_zs1` | 雲敷 | [《宋書・宗室》][212] | [JSON](mhf_ukx_zs1.json) |
 | `mi0_e91_pmn` | 休（確叔父，永嘉太守） | [《宋書・王僧達 顏竣》][227] | [JSON](mi0_e91_pmn.json) |
 | `mii_pxr_jrl` | 破石 | [《史記・扁鵲倉公列傳》][174] | [JSON](mii_pxr_jrl.json) |
 | `mio_z5f_ri1` | 楚威王 | [《史記・蘇秦列傳》][138] | [JSON](mio_z5f_ri1.json) |
@@ -382,6 +384,7 @@
 | `ozj_rzf_gki` | 太子免 | [《史記・田敬仲完世家》][115] | [JSON](ozj_rzf_gki.json) |
 | `ozm_m75_ta9` | 呂他 | [《史記・呂后本紀》][96] | [JSON](ozm_m75_ta9.json) |
 | `ozn_wl2_nrm` | 緼〔郭淮父；清考異文縕/蘊〕 | [《三國志・滿田牽郭傳》][85] | [JSON](ozn_wl2_nrm.json) |
+| `ozs_uc6_hp2` | 蔡猛 | [《宋書・宗室》][212] | [JSON](ozs_uc6_hp2.json) |
 | `p00_7fd_aoy` | 正考父 | [《史記・孔子世家》][116] | [JSON](p00_7fd_aoy.json) |
 | `p06_4l2_vmx` | 綽〔髙允孫〕 | [《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](p06_4l2_vmx.json) |
 | `p06_lrs_tg7` | 孫叔敖引古 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](p06_lrs_tg7.json) |
@@ -1689,6 +1692,7 @@
 | `xa4_ask_1bu` | 庾龍 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](xa4_ask_1bu.json) |
 | `xao_0ow_h3w` | 讓（列侯） | [《史記・淮南衡山列傳》][187] | [JSON](xao_0ow_h3w.json) |
 | `xb3_qm5_kf6` | 徽〔玄伯弟〕 | [《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](xb3_qm5_kf6.json) |
+| `xb9_tyd_qty` | 劉基 | [《宋書・宗室》][212] | [JSON](xb9_tyd_qty.json) |
 | `xbg_ioy_mi3` | 司馬奧 | [《晉書・陳騫 裴秀》][27] | [JSON](xbg_ioy_mi3.json) |
 | `xbl_kip_rw4` | 申鮑胥（楚篇秦救使者） | [《史記・楚世家》][109] | [JSON](xbl_kip_rw4.json) |
 | `xbm_dvk_k14` | 末喜 | [《史記・外戚世家》][118] | [JSON](xbm_dvk_k14.json) |

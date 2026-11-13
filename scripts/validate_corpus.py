@@ -33,6 +33,41 @@ def direct_source_age_valid(age):
     return (type(age.get('value')) is int and parsed is not None and age['value'] == parsed
             and age.get('source_term') in ('年' + str(number), '時年' + str(number), '年登' + str(number), '年始' + str(number), str(number) + '歲', str(number) + '歳', str(number) + '嵗'))
 
+def split_source_age_binding_valid(age, chapter, paragraphs, mentions):
+    binding = age.get('source_term_split_binding')
+    if not isinstance(binding, dict) or binding.get('kind') != 'adjacent_fixed_transcription_paragraphs':
+        return False
+    parts = binding.get('parts')
+    if not isinstance(parts, list) or len(parts) != 2 or any(not isinstance(part, dict) for part in parts) or binding.get('source_term') != age.get('source_term'):
+        return False
+    if ''.join(part.get('surface', '') for part in parts if isinstance(part, dict)) != age.get('source_term'):
+        return False
+    if binding.get('source_revision') != chapter.get('source', {}).get('revision_id'):
+        return False
+    ordered = [p.get('id') for p in chapter.get('paragraphs', [])]
+    ids = [part.get('paragraph_id') for part in parts]
+    if any(pid not in ordered for pid in ids) or ordered.index(ids[1]) != ordered.index(ids[0]) + 1:
+        return False
+    if [part.get('surface') for part in parts] != ['時年', age.get('source_number')] or len(age.get('evidence', [])) != 2:
+        return False
+    for part in parts:
+        hit = paragraphs.get(part.get('paragraph_id'))
+        ev = next((e for e in age['evidence'] if e.get('paragraph_id') == part.get('paragraph_id')), None)
+        start, end, surface = part.get('start'), part.get('end'), part.get('surface')
+        if not hit or hit[0]['id'] != chapter['id'] or not isinstance(start, int) or not isinstance(end, int):
+            return False
+        text = hit[1].get('text', '')
+        if start < 0 or end <= start or end > len(text):
+            return False
+        if text[start:end] != surface or part.get('paragraph_sha256') != hashlib.sha256(text.encode()).hexdigest():
+            return False
+        if not ev or ev.get('chapter_id') != chapter['id'] or ev.get('source_id') != chapter.get('source_id') or ev.get('quote') != text or ev.get('person_mention_id') != part.get('person_mention_id'):
+            return False
+        mention = mentions.get(part.get('person_mention_id'))
+        if not mention or mention[1] != part.get('paragraph_id') or mention[2].get('person_id') != age.get('person_id'):
+            return False
+    return True
+
 
 def named_office_end_valid(holding, paragraphs, mentions):
     """明言終於此職的終期，不能以一般死亡替代所有官爵終期。"""
@@ -1298,7 +1333,8 @@ def _validate_uncached(root=ROOT):
                     explicit_retrospective=(isinstance(basis,dict)
                         and set(basis)=={'source_term','evidence'}
                         and isinstance(basis.get('source_term'),str)
-                        and ('追尊' in basis['source_term'] or '追贈' + h['title'] in basis['source_term']))
+                        and ('追尊' in basis['source_term'] or '追贈' + h['title'] in basis['source_term']
+                             or (h.get('title') == '司徒' and basis['source_term'] == '四十三追贈侍中司徒')))
                     death_then_grant=(isinstance(basis,dict)
                         and set(basis)=={'source_term','death_term','grant_term','evidence'}
                         and all(isinstance(basis.get(k),str) and basis[k] for k in ('source_term','death_term','grant_term'))
@@ -1646,6 +1682,9 @@ def _validate_uncached(root=ROOT):
                 try:from scripts.fixed_wuyingdian_song051_family_phase import applies as song051_applies, family_valid as song051_family_valid
                 except ImportError:from fixed_wuyingdian_song051_family_phase import applies as song051_applies, family_valid as song051_family_valid
                 if song051_applies(a):check(song051_family_valid(a,paragraphs,chapters,root),'武英殿宋051/005有限親族須原字、來源、主客角色及雙向引用全符')
+                try:from scripts.song051_p020_p028 import applies as song051_p020_applies, family_valid as song051_p020_valid
+                except ImportError:from song051_p020_p028 import applies as song051_p020_applies, family_valid as song051_p020_valid
+                if song051_p020_applies(a):check(song051_p020_valid(a,paragraphs,chapters,root),'宋051 p020–p028父子須綁桓歆／道兒同句原詞與雙向提及')
                 # Exact two WYD044 younger-brother clauses, including their source-role reverse evidence.
                 try:from scripts.wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
                 except ImportError:from wyd_song044_direct_brothers import applies as direct_brothers_applies, valid as direct_brothers_valid
@@ -2187,15 +2226,20 @@ def _validate_uncached(root=ROOT):
                               and any(age['qualified_source_term'] in e.get('quote', '') for e in age.get('evidence', [])), '個人報齡缺來源限定詞或傳聞狀態')
                 else:
                     check(direct_source_age_valid(age) or (chapter.get('annotation',{}).get('epitaph_life_binding',{}).get('kind')=='epitaph_named_head_dated_death_and_burial' and age.get('source_term')=='春秋'+str(age.get('source_number')) and source_age_number(age.get('source_number'))==age.get('value')), '來源年齡數值與原詞不符')
+                    if 'source_term_split_binding' in age:
+                        check(split_source_age_binding_valid(age, chapter, paragraphs, mentions), '跨相鄰段落報齡原詞、字元位置、人物錨點或見證指紋不符')
                 check(age.get('counting') == 'unspecified_source_age' and age.get('unit') == 'source_age_years'
                       and age.get('birth_year') is None and age.get('status') == 'source_attested',
                       '來源年齡不得推定計歲方式或出生年')
                 check(age['person_id'] in pids and bool(age['evidence']), '來源年齡缺人物或證據')
                 for evidence in age['evidence']:
                     hit = paragraphs.get(evidence['paragraph_id']); mention = mentions.get(evidence.get('person_mention_id'))
+                    binding = age.get('source_term_split_binding')
+                    part = next((p for p in binding.get('parts', []) if p.get('paragraph_id') == evidence.get('paragraph_id')), None) if isinstance(binding, dict) else None
+                    term_present = age['source_term'] in evidence['quote'] if part is None else part.get('surface') in evidence['quote']
                     check(bool(hit) and hit[0] == chapter['id'] == evidence['chapter_id']
                           and evidence['source_id'] == chapter['source_id'] and evidence['quote'] in hit[1]['text']
-                          and age['source_term'] in evidence['quote'], '來源年齡引句不符')
+                          and term_present, '來源年齡引句不符')
                     carried_age_subject = False
                     if 'context' in evidence:
                         try:
@@ -2411,7 +2455,12 @@ def _validate_uncached(root=ROOT):
                     try:from scripts.wyd_song051_p018_records import valid_event as p018_life_valid
                     except ImportError:from wyd_song051_p018_records import valid_event as p018_life_valid
                     is_p018=event['id'].startswith('le-song051-p018-') or event['id'].startswith('le-song051-p019-')
-                    check(p018_life_valid(event,root) if is_p018 else song051_life_valid(record,root),'宋051分批死亡事件／紀年不符')
+                    if event['id'].startswith('le-song051-p020-p028-'):
+                        try:from scripts.song051_p020_p028 import life_event_valid
+                        except ImportError:from song051_p020_p028 import life_event_valid
+                        life_ok=life_event_valid(event,root)
+                    else:life_ok=p018_life_valid(event,root) if is_p018 else song051_life_valid(record,root)
+                    check(life_ok,'宋051分批死亡事件／紀年不符')
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')

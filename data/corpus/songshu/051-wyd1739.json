@@ -1012,7 +1012,7 @@
     "additional_annotation_phase": {
       "kind": "song051_p014_p017_family_annotation_batch",
       "contract_path": "source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json",
-      "coverage": "本固定契約覆核卷五十一第14–17段；逐字錨定人名／稱謂、同篇關係、姓名元件及來源稱號。正文、轉錄雜湊與其餘全章標記保持固定；此批不宣稱全卷完成。",
+      "coverage": "固定契約覆核卷五十一第14–17段及本次新增第20–28段的人名與省稱；第20–28段另保存明示親屬、字號及原文稱號，不宣稱全卷NER完成。正文轉錄、既有第14–19段標記及未處理段落維持來源原貌。",
       "human_reviewed": false,
       "model": null
     }
@@ -3147,8 +3147,129 @@
       "id": "c-songshu-051-wyd1739-zongshi:p020",
       "text": "走江陵留郭銓何澹之等固守盆口義軍旣至賊列艦距之澹之悉設羽儀旗織於一舫而別在它船無忌欲攻羽儀所在衆悉不同曰澹之必不在此舫雖得無益也無忌曰澹之不在此舫固不須言也旣不在此則戰士必弱我以勁兵攻之必可禽也禽之之日彼必以為失其軍主我徒咸謂已得賊帥我勇而彼懼懼而薄之破之必矣道規喜曰此名計也因往彼攻之即禽此舫因鼓譟偕曰已斬何澹之賊徒及義軍並以為然因縱兵賊衆奔敗即克盆口進平尋陽因復馳進遇玄於崢嶸洲道規等兵不滿萬人而玄戰士數萬衆並憚之欲",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0004",
+          "kind": "person",
+          "start": 4,
+          "end": 6,
+          "surface": "郭銓",
+          "person_id": "k9w_ixa_74b",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_k9w_ixa_74b"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0006",
+          "kind": "person",
+          "start": 6,
+          "end": 9,
+          "surface": "何澹之",
+          "person_id": "34s_a0a_38t",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_34s_a0a_38t"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0023",
+          "kind": "person",
+          "start": 23,
+          "end": 25,
+          "surface": "澹之",
+          "person_id": "34s_a0a_38t",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_34s_a0a_38t"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0039",
+          "kind": "person",
+          "start": 39,
+          "end": 41,
+          "surface": "無忌",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_c9y_5dx_n1p"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0052",
+          "kind": "person",
+          "start": 52,
+          "end": 54,
+          "surface": "澹之",
+          "person_id": "34s_a0a_38t",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_34s_a0a_38t"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0064",
+          "kind": "person",
+          "start": 64,
+          "end": 66,
+          "surface": "無忌",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_c9y_5dx_n1p"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0067",
+          "kind": "person",
+          "start": 67,
+          "end": 69,
+          "surface": "澹之",
+          "person_id": "34s_a0a_38t",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_34s_a0a_38t"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0130",
+          "kind": "person",
+          "start": 130,
+          "end": 132,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0154",
+          "kind": "person",
+          "start": 154,
+          "end": 157,
+          "surface": "何澹之",
+          "person_id": "34s_a0a_38t",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_34s_a0a_38t"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0186",
+          "kind": "person",
+          "start": 186,
+          "end": 187,
+          "surface": "玄",
+          "person_id": "u9s_w6j_8mc_AAF",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AAF"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0191",
+          "kind": "person",
+          "start": 191,
+          "end": 193,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p020:m0200",
+          "kind": "person",
+          "start": 200,
+          "end": 201,
+          "surface": "玄",
+          "person_id": "u9s_w6j_8mc_AAF",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AAF"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
@@ -3162,8 +3283,199 @@
       "id": "c-songshu-051-wyd1739-zongshi:p021",
       "text": "退還尋陽道規曰不可彼衆我寡彊弱異勢今若畏懦不進必為所乘雖至尋陽豈能自固玄雖竊名雄豪內實恇怯加已經奔敗衆無固心決機兩陣將雄者克昔光武昆陽之戰曹操官渡之師皆以少制多共所聞也今雖才謝古人豈可先為之弱因麾衆而進毅等從之大破玄軍郭銓與玄單舸走江陵不復能守欲入蜀為馮遷所斬義軍遇風不進桓謙桓振復據江陵毅留巴陵道規與無忌俱進攻桓謐於馬頭桓蔚於龍洲皆破之無忌欲乘勝直造江陵道規曰兵法屈申有時不可苟進諸桓世居西楚羣小皆為竭力振勇冠三軍難與",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0004",
+          "kind": "person",
+          "start": 4,
+          "end": 6,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0035",
+          "kind": "person",
+          "start": 35,
+          "end": 36,
+          "surface": "玄",
+          "person_id": "u9s_w6j_8mc_AAF",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AAF"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0063",
+          "kind": "person",
+          "start": 63,
+          "end": 65,
+          "surface": "光武",
+          "person_id": "6c9_c43_555",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_6c9_c43_555"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0069",
+          "kind": "person",
+          "start": 69,
+          "end": 71,
+          "surface": "曹操",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_dad_b77_b38"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0101",
+          "kind": "person",
+          "start": 101,
+          "end": 102,
+          "surface": "毅",
+          "person_id": "a59_2c3_a2e",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_a59_2c3_a2e"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0107",
+          "kind": "person",
+          "start": 107,
+          "end": 108,
+          "surface": "玄",
+          "person_id": "u9s_w6j_8mc_AAF",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AAF"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0109",
+          "kind": "person",
+          "start": 109,
+          "end": 111,
+          "surface": "郭銓",
+          "person_id": "k9w_ixa_74b",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_k9w_ixa_74b"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0112",
+          "kind": "person",
+          "start": 112,
+          "end": 113,
+          "surface": "玄",
+          "person_id": "u9s_w6j_8mc_AAF",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AAF"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0126",
+          "kind": "person",
+          "start": 126,
+          "end": 128,
+          "surface": "馮遷",
+          "person_id": "aot_lni_dfq",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aot_lni_dfq"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0136",
+          "kind": "person",
+          "start": 136,
+          "end": 138,
+          "surface": "桓謙",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AEB"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0138",
+          "kind": "person",
+          "start": 138,
+          "end": 140,
+          "surface": "桓振",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_ACAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0144",
+          "kind": "person",
+          "start": 144,
+          "end": 145,
+          "surface": "毅",
+          "person_id": "a59_2c3_a2e",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_a59_2c3_a2e"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0148",
+          "kind": "person",
+          "start": 148,
+          "end": 150,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0151",
+          "kind": "person",
+          "start": 151,
+          "end": 153,
+          "surface": "無忌",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_c9y_5dx_n1p"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0156",
+          "kind": "person",
+          "start": 156,
+          "end": 158,
+          "surface": "桓謐",
+          "person_id": "iiw_d7b_igi",
+          "status": "contextual_provisional",
+          "source_role_key": "new_huanmi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0161",
+          "kind": "person",
+          "start": 161,
+          "end": 163,
+          "surface": "桓蔚",
+          "person_id": "u9s_w6j_8mc_ADA",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_ADA"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0169",
+          "kind": "person",
+          "start": 169,
+          "end": 171,
+          "surface": "無忌",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_c9y_5dx_n1p"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0178",
+          "kind": "person",
+          "start": 178,
+          "end": 180,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p021:m0203",
+          "kind": "person",
+          "start": 203,
+          "end": 204,
+          "surface": "振",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_ACAC"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
@@ -3177,8 +3489,279 @@
       "id": "c-songshu-051-wyd1739-zongshi:p022",
       "text": "爭勝且可頓兵銳徐以計策縻之不憂不克也無忌不從果為振所敗乃退還尋陽繕治舟甲復進軍夏口僞鎮軍將軍馮該戍夏口東岸揚武將軍孟山圖據魯城輔國將軍桓仙客守偃月壘於是毅攻魯城道規無忌攻偃月並克之生禽仙客山圖其夕該遁走進平巴陵謙振遣使求割荆江二州奉歸晉帝不許會南陽太守魯宗之起義攻襄陽僞雍州刺史桓蔚走江陵宗之進至紀南振自往距之使桓謙留守時毅道規屯次馬頭馳往襲謙奔走即日克江陵城振大破宗之而歸聞城已陷亦走無忌翼衞天子還京師道規留夏口江陵之",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0018",
+          "kind": "person",
+          "start": 18,
+          "end": 20,
+          "surface": "無忌",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_c9y_5dx_n1p"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0024",
+          "kind": "person",
+          "start": 24,
+          "end": 25,
+          "surface": "振",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_ACAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0046",
+          "kind": "person",
+          "start": 46,
+          "end": 48,
+          "surface": "馮該",
+          "person_id": "qfe_gev_wl7",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_qfe_gev_wl7"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0057",
+          "kind": "person",
+          "start": 57,
+          "end": 60,
+          "surface": "孟山圖",
+          "person_id": "ut6_755_soi",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_ut6_755_soi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0067",
+          "kind": "person",
+          "start": 67,
+          "end": 70,
+          "surface": "桓仙客",
+          "person_id": "jxk_yz0_g8j",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_jxk_yz0_g8j"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0076",
+          "kind": "person",
+          "start": 76,
+          "end": 77,
+          "surface": "毅",
+          "person_id": "a59_2c3_a2e",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_a59_2c3_a2e"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0080",
+          "kind": "person",
+          "start": 80,
+          "end": 82,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0082",
+          "kind": "person",
+          "start": 82,
+          "end": 84,
+          "surface": "無忌",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_c9y_5dx_n1p"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0092",
+          "kind": "person",
+          "start": 92,
+          "end": 94,
+          "surface": "仙客",
+          "person_id": "jxk_yz0_g8j",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_jxk_yz0_g8j"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0094",
+          "kind": "person",
+          "start": 94,
+          "end": 96,
+          "surface": "山圖",
+          "person_id": "ut6_755_soi",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_ut6_755_soi"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0098",
+          "kind": "person",
+          "start": 98,
+          "end": 99,
+          "surface": "該",
+          "person_id": "qfe_gev_wl7",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_qfe_gev_wl7"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0105",
+          "kind": "person",
+          "start": 105,
+          "end": 106,
+          "surface": "謙",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AEB"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0106",
+          "kind": "person",
+          "start": 106,
+          "end": 107,
+          "surface": "振",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_ACAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0117",
+          "kind": "person",
+          "start": 117,
+          "end": 119,
+          "surface": "晉帝",
+          "person_id": "s6y_280_81r",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_s6y_280_81r"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0126",
+          "kind": "person",
+          "start": 126,
+          "end": 129,
+          "surface": "魯宗之",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0139",
+          "kind": "person",
+          "start": 139,
+          "end": 141,
+          "surface": "桓蔚",
+          "person_id": "u9s_w6j_8mc_ADA",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_ADA"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0144",
+          "kind": "person",
+          "start": 144,
+          "end": 146,
+          "surface": "宗之",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0150",
+          "kind": "person",
+          "start": 150,
+          "end": 151,
+          "surface": "振",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_ACAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0156",
+          "kind": "person",
+          "start": 156,
+          "end": 158,
+          "surface": "桓謙",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AEB"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0161",
+          "kind": "person",
+          "start": 161,
+          "end": 162,
+          "surface": "毅",
+          "person_id": "a59_2c3_a2e",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_a59_2c3_a2e"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0162",
+          "kind": "person",
+          "start": 162,
+          "end": 164,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0171",
+          "kind": "person",
+          "start": 171,
+          "end": 172,
+          "surface": "謙",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AEB"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0180",
+          "kind": "person",
+          "start": 180,
+          "end": 181,
+          "surface": "振",
+          "person_id": "u9s_w6j_8mc_ACAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_ACAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0183",
+          "kind": "person",
+          "start": 183,
+          "end": 185,
+          "surface": "宗之",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0193",
+          "kind": "person",
+          "start": 193,
+          "end": 195,
+          "surface": "無忌",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_c9y_5dx_n1p"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0197",
+          "kind": "person",
+          "start": 197,
+          "end": 199,
+          "surface": "天子",
+          "person_id": "s6y_280_81r",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_s6y_280_81r"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p022:m0202",
+          "kind": "person",
+          "start": 202,
+          "end": 204,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
@@ -3192,8 +3775,99 @@
       "id": "c-songshu-051-wyd1739-zongshi:p023",
       "text": "平也道規推毅為元功無忌為次功自居其末進號輔國將軍督淮北諸軍事并州刺史義昌太守如故時荆州湘江豫猶多桓氏餘燼往往屯結復以本官進督江州之武昌荆州之江夏隨郡義陽綏安豫州之西陽汝南潁川新蔡九郡諸軍事隨宜剪撲皆悉平之以義勳封華容縣公食邑二千戶遷使持節都督荆寧秦梁雍六州司州之河南諸軍事領護南蠻校尉荆州刺史將軍如故辭南蠻以授殷叔文叔文被誅乃復還領善於為治刑政明理士民莫不畏而愛之劉敬宣征蜀不克道規以督統降為建威將軍盧循寇逼京邑道規遣司",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0002",
+          "kind": "person",
+          "start": 2,
+          "end": 4,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0005",
+          "kind": "person",
+          "start": 5,
+          "end": 6,
+          "surface": "毅",
+          "person_id": "a59_2c3_a2e",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_a59_2c3_a2e"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0009",
+          "kind": "person",
+          "start": 9,
+          "end": 11,
+          "surface": "無忌",
+          "person_id": "c9y_5dx_n1p",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_c9y_5dx_n1p"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0155",
+          "kind": "person",
+          "start": 155,
+          "end": 158,
+          "surface": "殷叔文",
+          "person_id": "woq_srv_b9s",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_woq_srv_b9s"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0158",
+          "kind": "person",
+          "start": 158,
+          "end": 160,
+          "surface": "叔文",
+          "person_id": "woq_srv_b9s",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_woq_srv_b9s"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0182",
+          "kind": "person",
+          "start": 182,
+          "end": 185,
+          "surface": "劉敬宣",
+          "person_id": "er7_nw6_n6w",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_er7_nw6_n6w"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0189",
+          "kind": "person",
+          "start": 189,
+          "end": 191,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0200",
+          "kind": "person",
+          "start": 200,
+          "end": 202,
+          "surface": "盧循",
+          "person_id": "m8n_ntm_79h_ABBA**A",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_m8n_ntm_79h_ABBA**A"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0206",
+          "kind": "person",
+          "start": 206,
+          "end": 208,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
@@ -3210,6 +3884,36 @@
       "annotation_status": "in_progress",
       "mentions": [
         {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0001",
+          "kind": "person",
+          "start": 1,
+          "end": 4,
+          "surface": "王鎮之",
+          "person_id": "7r6_k52_qji_ABDACAA",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_7r6_k52_qji_ABDACAA"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0009",
+          "kind": "person",
+          "start": 9,
+          "end": 12,
+          "surface": "檀道濟",
+          "person_id": "w8z_nph_trk",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_w8z_nph_trk"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0016",
+          "kind": "person",
+          "start": 16,
+          "end": 19,
+          "surface": "到彥之",
+          "person_id": "6bo_qfq_pl9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_6bo_qfq_pl9"
+        },
+        {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0030",
           "start": 30,
           "end": 32,
@@ -3217,6 +3921,16 @@
           "kind": "person",
           "person_id": "mvk_2p2_qe8",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0034",
+          "kind": "person",
+          "start": 34,
+          "end": 35,
+          "surface": "循",
+          "person_id": "m8n_ntm_79h_ABBA**A",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_m8n_ntm_79h_ABBA**A"
         },
         {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0037",
@@ -3228,6 +3942,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0056",
+          "kind": "person",
+          "start": 56,
+          "end": 59,
+          "surface": "徐道覆",
+          "person_id": "bt2_eqz_i4y",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_bt2_eqz_i4y"
+        },
+        {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0064",
           "start": 64,
           "end": 66,
@@ -3237,6 +3961,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0071",
+          "kind": "person",
+          "start": 71,
+          "end": 73,
+          "surface": "譙縱",
+          "person_id": "j5i_ahk_7yx",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_j5i_ahk_7yx"
+        },
+        {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0074",
           "start": 74,
           "end": 75,
@@ -3244,6 +3978,16 @@
           "kind": "person",
           "person_id": "u9s_w6j_8mc_AEB",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0088",
+          "kind": "person",
+          "start": 88,
+          "end": 91,
+          "surface": "譙道福",
+          "person_id": "o3z_vpz_572",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_o3z_vpz_572"
         },
         {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0097",
@@ -3273,6 +4017,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0128",
+          "kind": "person",
+          "start": 128,
+          "end": 130,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0137",
           "start": 137,
           "end": 139,
@@ -3280,6 +4034,36 @@
           "kind": "person",
           "person_id": "u9s_w6j_8mc_AEB",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0189",
+          "kind": "person",
+          "start": 189,
+          "end": 192,
+          "surface": "魯宗之",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0203",
+          "kind": "person",
+          "start": 203,
+          "end": 205,
+          "surface": "宗之",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0208",
+          "kind": "person",
+          "start": 208,
+          "end": 210,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
         }
       ],
       "source_position": {
@@ -3298,6 +4082,66 @@
       "annotation_status": "in_progress",
       "mentions": [
         {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0005",
+          "kind": "person",
+          "start": 5,
+          "end": 7,
+          "surface": "宗之",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0013",
+          "kind": "person",
+          "start": 13,
+          "end": 16,
+          "surface": "檀道濟",
+          "person_id": "w8z_nph_trk",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_w8z_nph_trk"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0016",
+          "kind": "person",
+          "start": 16,
+          "end": 19,
+          "surface": "到彥之",
+          "person_id": "6bo_qfq_pl9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_6bo_qfq_pl9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0020",
+          "kind": "person",
+          "start": 20,
+          "end": 22,
+          "surface": "宗之",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0024",
+          "kind": "person",
+          "start": 24,
+          "end": 26,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0027",
+          "kind": "person",
+          "start": 27,
+          "end": 29,
+          "surface": "盧循",
+          "person_id": "m8n_ntm_79h_ABBA**A",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_m8n_ntm_79h_ABBA**A"
+        },
+        {
           "id": "c-songshu-051-wyd1739-zongshi:p025:m0037",
           "start": 37,
           "end": 39,
@@ -3314,6 +4158,16 @@
           "kind": "person",
           "person_id": "mvk_2p2_qe8",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0071",
+          "kind": "person",
+          "start": 71,
+          "end": 73,
+          "surface": "宗之",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aa9_7e9_5b9"
         },
         {
           "id": "c-songshu-051-wyd1739-zongshi:p025:m0083",
@@ -3341,6 +4195,26 @@
           "kind": "person",
           "person_id": "mvk_2p2_qe8",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0114",
+          "kind": "person",
+          "start": 114,
+          "end": 116,
+          "surface": "宗之",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0128",
+          "kind": "person",
+          "start": 128,
+          "end": 130,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
         },
         {
           "id": "c-songshu-051-wyd1739-zongshi:p025:m0138",
@@ -3377,6 +4251,26 @@
           "kind": "person",
           "person_id": "mvk_2p2_qe8",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0183",
+          "kind": "person",
+          "start": 183,
+          "end": 185,
+          "surface": "宗之",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p025:m0205",
+          "kind": "person",
+          "start": 205,
+          "end": 207,
+          "surface": "劉遵",
+          "person_id": "98q_ohs_xh7",
+          "status": "contextual_provisional",
+          "source_role_key": "new_liuzun"
         }
       ],
       "source_position": {
@@ -3392,8 +4286,279 @@
       "id": "c-songshu-051-wyd1739-zongshi:p026",
       "text": "謙水陸齊進謙大敗單舸走從下就林追斬之還至浦口林又奔散劉遵率軍追林至巴陵斬之初謙至枝江江陵士庶皆與謙書言城內虛實咸欲謙為內應至是參軍曹仲宗檢得之道規悉焚不視衆於是大安進號征西將軍先是桓歆子道兒逃于江西出擊義陽郡與盧循相連結循使蔡猛助之道規遣參軍劉基破道兒於大薄臨陣斬猛徐道覆率衆三萬奄至破冢魯宗之已還襄陽追召不及人情大震或傳循已平京師遣道覆上為刺史江漢士庶感焚書之恩無復貳志道規使劉遵為游軍自距道覆於豫章口前驅失利道規壯氣",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0000",
+          "kind": "person",
+          "start": 0,
+          "end": 1,
+          "surface": "謙",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AEB"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0005",
+          "kind": "person",
+          "start": 5,
+          "end": 6,
+          "surface": "謙",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AEB"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0014",
+          "kind": "person",
+          "start": 14,
+          "end": 15,
+          "surface": "林",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_mvk_2p2_qe8"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0022",
+          "kind": "person",
+          "start": 22,
+          "end": 23,
+          "surface": "林",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_mvk_2p2_qe8"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0026",
+          "kind": "person",
+          "start": 26,
+          "end": 28,
+          "surface": "劉遵",
+          "person_id": "98q_ohs_xh7",
+          "status": "contextual_provisional",
+          "source_role_key": "new_liuzun"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0031",
+          "kind": "person",
+          "start": 31,
+          "end": 32,
+          "surface": "林",
+          "person_id": "mvk_2p2_qe8",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_mvk_2p2_qe8"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0038",
+          "kind": "person",
+          "start": 38,
+          "end": 39,
+          "surface": "謙",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AEB"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0048",
+          "kind": "person",
+          "start": 48,
+          "end": 49,
+          "surface": "謙",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AEB"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0057",
+          "kind": "person",
+          "start": 57,
+          "end": 58,
+          "surface": "謙",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AEB"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0071",
+          "kind": "person",
+          "start": 71,
+          "end": 73,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0090",
+          "kind": "person",
+          "start": 90,
+          "end": 92,
+          "surface": "桓歆",
+          "person_id": "u9s_w6j_8mc_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0093",
+          "kind": "person",
+          "start": 93,
+          "end": 95,
+          "surface": "道兒",
+          "person_id": "u9s_w6j_8mc_AACA",
+          "status": "contextual_provisional",
+          "source_role_key": "new_daoer"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0105",
+          "kind": "person",
+          "start": 105,
+          "end": 107,
+          "surface": "盧循",
+          "person_id": "m8n_ntm_79h_ABBA**A",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_m8n_ntm_79h_ABBA**A"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0110",
+          "kind": "person",
+          "start": 110,
+          "end": 111,
+          "surface": "循",
+          "person_id": "m8n_ntm_79h_ABBA**A",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_m8n_ntm_79h_ABBA**A"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0112",
+          "kind": "person",
+          "start": 112,
+          "end": 114,
+          "surface": "蔡猛",
+          "person_id": "ozs_uc6_hp2",
+          "status": "contextual_provisional",
+          "source_role_key": "new_caimeng"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0116",
+          "kind": "person",
+          "start": 116,
+          "end": 118,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0121",
+          "kind": "person",
+          "start": 121,
+          "end": 123,
+          "surface": "劉基",
+          "person_id": "xb9_tyd_qty",
+          "status": "contextual_provisional",
+          "source_role_key": "new_liuji"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0124",
+          "kind": "person",
+          "start": 124,
+          "end": 126,
+          "surface": "道兒",
+          "person_id": "u9s_w6j_8mc_AACA",
+          "status": "contextual_provisional",
+          "source_role_key": "new_daoer"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0132",
+          "kind": "person",
+          "start": 132,
+          "end": 133,
+          "surface": "猛",
+          "person_id": "ozs_uc6_hp2",
+          "status": "contextual_provisional",
+          "source_role_key": "new_caimeng"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0133",
+          "kind": "person",
+          "start": 133,
+          "end": 136,
+          "surface": "徐道覆",
+          "person_id": "bt2_eqz_i4y",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_bt2_eqz_i4y"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0144",
+          "kind": "person",
+          "start": 144,
+          "end": 147,
+          "surface": "魯宗之",
+          "person_id": "aa9_7e9_5b9",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0161",
+          "kind": "person",
+          "start": 161,
+          "end": 162,
+          "surface": "循",
+          "person_id": "m8n_ntm_79h_ABBA**A",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_m8n_ntm_79h_ABBA**A"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0167",
+          "kind": "person",
+          "start": 167,
+          "end": 169,
+          "surface": "道覆",
+          "person_id": "bt2_eqz_i4y",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_bt2_eqz_i4y"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0186",
+          "kind": "person",
+          "start": 186,
+          "end": 188,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0189",
+          "kind": "person",
+          "start": 189,
+          "end": 191,
+          "surface": "劉遵",
+          "person_id": "98q_ohs_xh7",
+          "status": "contextual_provisional",
+          "source_role_key": "new_liuzun"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0196",
+          "kind": "person",
+          "start": 196,
+          "end": 198,
+          "surface": "道覆",
+          "person_id": "bt2_eqz_i4y",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_bt2_eqz_i4y"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p026:m0206",
+          "kind": "person",
+          "start": 206,
+          "end": 208,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
@@ -3407,8 +4572,89 @@
       "id": "c-songshu-051-wyd1739-zongshi:p027",
       "text": "愈厲激揚三軍遵自外横擊大破之斬首萬餘級赴水死者殆盡道覆單舸走還盆口初使遵為游軍衆咸云今彊敵在前唯患衆少不應割削見力置無用之地及破道覆果得游軍之力衆乃服焉遵字慧明臨淮海西人道規從母兄蕭氏舅也官至右將軍宣城內史淮南太守義熙十年卒追贈撫軍將軍追封監利縣侯食邑七百戶道規進號征西大將軍開府儀同三司加散騎常侍固辭俄而寢疾改授都督豫章江三州揚州之宣城淮南廬江歷陽安豐堂邑六郡諸軍事豫州刺史持節常侍將軍如故以疾不拜八年閏月薨于京師時年",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p027:m0006",
+          "kind": "person",
+          "start": 6,
+          "end": 7,
+          "surface": "遵",
+          "person_id": "98q_ohs_xh7",
+          "status": "contextual_provisional",
+          "source_role_key": "new_liuzun"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p027:m0025",
+          "kind": "person",
+          "start": 25,
+          "end": 27,
+          "surface": "道覆",
+          "person_id": "bt2_eqz_i4y",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_bt2_eqz_i4y"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p027:m0035",
+          "kind": "person",
+          "start": 35,
+          "end": 36,
+          "surface": "遵",
+          "person_id": "98q_ohs_xh7",
+          "status": "contextual_provisional",
+          "source_role_key": "new_liuzun"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p027:m0064",
+          "kind": "person",
+          "start": 64,
+          "end": 66,
+          "surface": "道覆",
+          "person_id": "bt2_eqz_i4y",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_bt2_eqz_i4y"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p027:m0076",
+          "kind": "person",
+          "start": 76,
+          "end": 77,
+          "surface": "遵",
+          "person_id": "98q_ohs_xh7",
+          "status": "contextual_provisional",
+          "source_role_key": "new_liuzun"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p027:m0078",
+          "kind": "person",
+          "start": 78,
+          "end": 80,
+          "surface": "慧明",
+          "person_id": "98q_ohs_xh7",
+          "status": "contextual_provisional",
+          "source_role_key": "new_liuzun"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p027:m0085",
+          "kind": "person",
+          "start": 85,
+          "end": 87,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p027:m0129",
+          "kind": "person",
+          "start": 129,
+          "end": 131,
+          "surface": "道規",
+          "person_id": "3qs_nqa_ioa_AAC",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_3qs_nqa_ioa_AAC"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
@@ -3424,6 +4670,16 @@
       "text_layer": "received_chapter",
       "annotation_status": "in_progress",
       "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p028:m0021",
+          "kind": "person",
+          "start": 21,
+          "end": 23,
+          "surface": "桓謙",
+          "person_id": "u9s_w6j_8mc_AEB",
+          "status": "contextual_provisional",
+          "source_role_key": "p020_p028_u9s_w6j_8mc_AEB"
+        },
         {
           "id": "c-songshu-051-wyd1739-zongshi:p028:m0033",
           "kind": "person",
