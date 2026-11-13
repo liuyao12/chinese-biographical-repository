@@ -3217,6 +3217,15 @@
 
 </details>
 
+<details><summary><code>sp6_k2v_4kg</code> 刁逵（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 刁逵 | [《晉書・叛臣二》][60] | [JSON](sp6_k2v_4kg.json) |
+| `A` | 刁彌 | [《宋書・宗室》][212] | [JSON](sp6_k2v_4kg_A.json) |
+
+</details>
+
 <details><summary><code>spx_gk1_rrr</code> 徐湛之（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |

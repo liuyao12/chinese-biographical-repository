@@ -915,7 +915,7 @@
 | `4ku_3v7_wtg` | 石越 | [《晉書・桓彝》][44] | [JSON](4ku_3v7_wtg.json) |
 | `4ky_3rl_efu` | 侯生 | [《史記・秦始皇本紀》][93] | [JSON](4ky_3rl_efu.json) |
 | `4lj_xrf_bsl` | 晉景公 | [《史記・晉世家》][108] | [JSON](4lj_xrf_bsl.json) |
-| `4ly_56b_ld0` | 廬陵王義真 | [《宋書・謝晦》][206] | [JSON](4ly_56b_ld0.json) |
+| `4ly_56b_ld0` | 廬陵王義真 | [《宋書・宗室》][212] | [JSON](4ly_56b_ld0.json) |
 | `4m0_6oi_xjv` | 楚隆 | [《史記・趙世家》][112] | [JSON](4m0_6oi_xjv.json) |
 | `4mm_rhu_h4k` | 黥布 | [《史記・留侯世家》][124] | [JSON](4mm_rhu_h4k.json) |
 | `4mt_tfo_obl` | 武王 | [《史記・龜策列傳》][197] | [JSON](4mt_tfo_obl.json) |
@@ -1338,6 +1338,7 @@
 | `6p4_9oc_1a9` | 周公忌父（禮惠公使者） | [《史記・晉世家》][108] | [JSON](6p4_9oc_1a9.json) |
 | `6p8_djv_2oj` | 公戶滿意 | [《史記・三王世家》][129] | [JSON](6p8_djv_2oj.json) |
 | `6pb_ld3_dg2` | 宣公（燕桓公後） | [《史記・燕召公世家》][103] | [JSON](6pb_ld3_dg2.json) |
+| `6pi_uq2_l0p` | 陳豔 | [《宋書・宗室》][212] | [JSON](6pi_uq2_l0p.json) |
 | `6pj_g2n_v7a` | 外壬 | [《史記・殷本紀》][90] | [JSON](6pj_g2n_v7a.json) |
 | `6pr_ztz_o62` | 鄖公（昭王出奔時） | [《史記・吳太伯世家》][100] | [JSON](6pr_ztz_o62.json) |
 | `6pz_7ge_y2n` | 黥布 | [《史記・陳涉世家》][117] | [JSON](6pz_7ge_y2n.json) |
@@ -2092,7 +2093,6 @@
 | `ae7_dcf_084` | 范汪 | [《晉書・庾亮》][42]、[《晉書・謝尚 謝安》][53] | [JSON](ae7_dcf_084.json) |
 | `aeg_ljr_nw1` | 衛毅〔冏所封陰平公〕 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][35] | [JSON](aeg_ljr_nw1.json) |
 | `aey_tui_wzm` | 齊太師（孔子世家未名者） | [《史記・孔子世家》][116] | [JSON](aey_tui_wzm.json) |
-| `aez_p66_9uj` | 藺相如持璧歸趙從者未名 | [《史記・廉頗藺相如列傳》][150] | [JSON](aez_p66_9uj.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

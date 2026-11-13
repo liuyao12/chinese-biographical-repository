@@ -14,7 +14,7 @@ except ImportError:
 CH = 'corpus/songshu/051-wyd1739.json'
 CID = 'c-songshu-051-wyd1739-zongshi'
 REF = 'source-evidence/song051-wyd1739-zongshi/entity-markup-phase3-contract.json'
-CONTRACT_SHA = '53fd425ff29571cce5a5e2f3b19698b1f4e32855c84168bd33fce28fa16b37d3'
+CONTRACT_SHA = 'cc83a5888e71a4978e817b6d0ec65158352bd15a79b7b4c5b3a178756578ef52'
 
 
 def need(ok, message):
@@ -86,12 +86,30 @@ def project_phase2(root, current):
         marker = row['marker']
         person = people.get(marker['person_id'])
         need(person is not None, '標記人物未登記：' + marker['person_id'])
-        need(any(a.get('surface') == marker['surface'] and marker['id'] in a.get('mention_ids', [])
-                 for a in person.get('aliases', [])), '人物 alias 未反向連到錨點：' + marker['id'])
+        if row.get('alias_surface') is not False:
+            need(any(a.get('surface') == marker['surface'] and marker['id'] in a.get('mention_ids', [])
+                     for a in person.get('aliases', [])), '人物 alias 未反向連到錨點：' + marker['id'])
         paragraph = next(p for p in actual['paragraphs'] if p['id'] == row['paragraph_id'])
         evidence = {k: actual[k] for k in ('work_id', 'book_id', 'source_id')}
         evidence.update(chapter_id=CID, paragraph_id=paragraph['id'], mention_id=marker['id'], quote=marker['surface'])
         need(evidence in person.get('evidence', []), '人物 evidence 未反向連到錨點：' + marker['id'])
+
+    assertion_path = c.get('assertions_path')
+    assertion_raw = (root / assertion_path).read_bytes()
+    need(hashlib.sha256(assertion_raw).hexdigest() == c.get('assertions_sha256'), 'phase3親屬資料 SHA 不符')
+    assertion_set = json.loads(assertion_raw)
+    need(assertion_set.get('record_type') == 'person_assertion_set' and assertion_set.get('chapter_id') == CID, 'phase3親屬資料篇章不符')
+    father = next((a for a in assertion_set.get('assertions', []) if a.get('id') == 'a-song051-phase3-diaomi-father'), None)
+    relation_markers = {
+        role: next(row['marker'] for row in c['markers']
+                   if row['paragraph_id'] == CID + ':p005' and row['role_key'] == role)
+        for role in ('DiaoMi', 'DiaoKui')
+    }
+    need(father is not None and father.get('predicate') == 'father' and father.get('subject_person_id') == c['new_person_roles']['DiaoMi']
+         and father.get('object_person_id') == relation_markers['DiaoKui']['person_id']
+         and father.get('status') == 'source_attested' and father.get('qualifiers', {}).get('source_term') == '刁逵子彌'
+         and father.get('evidence', [{}])[0].get('subject_person_mention_id') == relation_markers['DiaoMi']['id']
+         and father.get('evidence', [{}])[0].get('object_person_mention_id') == relation_markers['DiaoKui']['id'], '刁彌父子證據／錨點不符')
 
     identity_path = c.get('identity_decisions_path')
     identity_raw = (root / identity_path).read_bytes()

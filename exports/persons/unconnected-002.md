@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `aez_p66_9uj` | 藺相如持璧歸趙從者未名 | [《史記・廉頗藺相如列傳》][150] | [JSON](aez_p66_9uj.json) |
 | `af1_11d_057` | 宗慤 | [《宋書・謝莊 王景文》][228] | [JSON](af1_11d_057.json) |
 | `af6_mhg_pyn` | 呂種 | [《史記・呂后本紀》][96]、[《史記・惠景間侯者年表》][249] | [JSON](af6_mhg_pyn.json) |
 | `af7_a2c_011` | 韓晃 | [《晉書・叛臣三》][62] | [JSON](af7_a2c_011.json) |
@@ -1643,7 +1644,7 @@
 | `jh7_tw6_n9k` | 陽平王頤〔楊播傳〕 | [《魏書・楊播》][234] | [JSON](jh7_tw6_n9k.json) |
 | `ji8_fud_li3` | 尹翁歸 | [《史記・平津侯主父列傳》][181] | [JSON](ji8_fud_li3.json) |
 | `ji8_x93_yhn` | 即墨成 | [《史記・儒林列傳》][190] | [JSON](ji8_x93_yhn.json) |
-| `jif_4nl_z1h` | 陸仲元 | [《宋書・張茂度 庾登之 謝方明 江夷》][215] | [JSON](jif_4nl_z1h.json) |
+| `jif_4nl_z1h` | 陸仲元 | [《宋書・宗室》][212] | [JSON](jif_4nl_z1h.json) |
 | `jik_qff_1cj` | 秦王辭師未定 | [《史記・李斯列傳》][156] | [JSON](jik_qff_1cj.json) |
 | `jil_4eu_ese` | 司馬飛龍〔元嘉蜀亂前被斬者〕 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](jil_4eu_ese.json) |
 | `jit_1ud_8if` | 薛歐 | [《史記・高祖本紀》][95]、[《史記・高祖功臣侯者年表》][248] | [JSON](jit_1ud_8if.json) |
@@ -2092,7 +2093,6 @@
 | `mex_tig_16z` | 蓋聶 | [《史記・刺客列傳》][155] | [JSON](mex_tig_16z.json) |
 | `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][115] | [JSON](mf2_tm7_f9r.json) |
 | `mfr_nye_lnv` | 趙信（匈奴列傳第35段） | [《史記・衛將軍驃騎列傳》][180] | [JSON](mfr_nye_lnv.json) |
-| `mfu_22v_exx` | 趙穿 | [《史記・鄭世家》][111] | [JSON](mfu_22v_exx.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `mfu_22v_exx` | 趙穿 | [《史記・鄭世家》][111] | [JSON](mfu_22v_exx.json) |
 | `mge_pi9_fn1` | 計然 | [《史記・貨殖列傳》][198] | [JSON](mge_pi9_fn1.json) |
 | `mgj_ry7_2x5` | 陶朱 | [《史記・陳涉世家》][117] | [JSON](mgj_ry7_2x5.json) |
 | `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][164] | [JSON](mgl_q57_d7h.json) |
@@ -1012,7 +1013,6 @@
 | `sob_78r_4yi` | 揖（文帝子） | [《史記・孝文本紀》][97] | [JSON](sob_78r_4yi.json) |
 | `soh_dsm_qst` | 莊芷 | [《史記・淮南衡山列傳》][187] | [JSON](soh_dsm_qst.json) |
 | `soh_mp7_j16` | 荀林父（晉軍臣） | [《史記・晉世家》][108] | [JSON](soh_mp7_j16.json) |
-| `sp6_k2v_4kg` | 刁逵 | [《晉書・叛臣二》][60] | [JSON](sp6_k2v_4kg.json) |
 | `sp8_b5m_c4b` | 益姑（杞文公） | [《史記・陳杞世家》][105] | [JSON](sp8_b5m_c4b.json) |
 | `spf_7ot_c8s` | 陳渉 | [《史記・陳丞相世家》][125] | [JSON](spf_7ot_c8s.json) |
 | `sph_y7q_7k9` | 周舍 | [《史記・趙世家》][112] | [JSON](sph_y7q_7k9.json) |
