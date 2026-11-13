@@ -11,7 +11,7 @@ class FamilyPhase(unittest.TestCase):
  def setUpClass(cls):
   cls.ch,cls.roles,cls.contract,cls.facts,cls.names=m.context(ROOT);cls.catalog=load_catalog(ROOT)
  def test_current_sources_full_raw_and_partial_scope(self):
-  self.assertEqual(m.source_errors(json.loads((ROOT/m.CH).read_bytes()),ROOT),[]);intro=json.loads((ROOT/m.INTRO_CH).read_bytes());self.assertEqual(m.source_errors005(intro,ROOT),[]);self.assertEqual(sum(len(p['mentions'])for p in self.ch['paragraphs']),111);self.assertEqual(sum(len(p['mentions'])for p in intro['paragraphs']),14);self.assertEqual(sum(p['annotation_status']=='pending'for p in self.ch['paragraphs']),31)
+  self.assertEqual(m.source_errors(json.loads((ROOT/m.CH).read_bytes()),ROOT),[]);intro=json.loads((ROOT/m.INTRO_CH).read_bytes());self.assertEqual(m.source_errors005(intro,ROOT),[]);self.assertEqual(sum(len(p['mentions'])for p in self.ch['paragraphs']),112);self.assertEqual(sum(len(p['mentions'])for p in intro['paragraphs']),14);self.assertEqual(sum(p['annotation_status']=='pending'for p in self.ch['paragraphs']),31)
  def test_two_reported_two_are_unaccepted(self):
   ds=json.loads((ROOT/m.IDENTITIES).read_bytes())['decisions'];reports=[r for d in ds for r in d.get('source_ordinal_readings',[])];self.assertEqual({r['person_id']for r in reports},{self.roles['yiqing'],self.roles['yizong']})
   for r in reports:self.assertIs(type(r['reported_ordinal']),int);self.assertEqual(r['reported_ordinal'],2);self.assertIsNone(r['accepted_birth_order']);self.assertIsNone(r['scope_interpretation'])

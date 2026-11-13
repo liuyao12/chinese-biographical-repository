@@ -93,6 +93,10 @@ def analyse(record,ch):
  return p,roles,fields,slots
 
 def holding_valid(h,ch,root=None):
+ if isinstance(h,dict)and h.get('source_career_role',{}).get('kind')=='fixed_wyd_song051_p014_p017_exact_title':
+  try:from scripts.song051_p014_p017_titles import title_holding_valid
+  except ImportError:from song051_p014_p017_titles import title_holding_valid
+  return title_holding_valid(h,ch,root)
  if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_wyd063_related_title_attestation':
   try:from scripts.wyd_song063_basics import holding_valid as valid063
   except ImportError:from wyd_song063_basics import holding_valid as valid063

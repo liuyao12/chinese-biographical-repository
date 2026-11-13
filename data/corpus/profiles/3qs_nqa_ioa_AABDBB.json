@@ -307,6 +307,39 @@
   ],
   "relations": [
     {
+      "id": "a-song051-p014-p017-father-yu-bing",
+      "subject_person_id": "3qs_nqa_ioa_AABDBB",
+      "predicate": "father",
+      "object_person_id": "3qs_nqa_ioa_AABDB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "秉踰城出走於額檐湖見擒與二子承俁並死",
+        "source_unit_binding": {
+          "kind": "fixed_wyd_song051_p014_p017_family_batch",
+          "case": "father-yu-bing",
+          "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+        },
+        "interpretation_note": "保本源明關係；不由語序推絕對排行或未載母親。",
+        "lineage": "paternal",
+        "source_child_term": "子",
+        "source_child_sex": "male"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+          "quote": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0077",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0062"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-song051-yixin-liuyu-father",
       "subject_person_id": "3qs_nqa_ioa_AABDBB",
       "predicate": "father",
@@ -346,8 +379,105 @@
     "3qs_nqa_ioa_AABDB": "劉秉",
     "3qs_nqa_ioa_AABDBB": "劉俁"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "CE",
+      "era_year": 477,
+      "year": 477,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "calendar": "chinese_civil",
+      "source_expression": "與二子承俁並死",
+      "original_quote": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+          "quote": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0077"
+        }
+      ],
+      "references": [
+        {
+          "title": "宋書卷五十一清乾隆四年武英殿本",
+          "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+          "quote": "順帝即位",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "quote": "元徽",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "columns": {
+            "dynasty": "宋",
+            "era_name": "元徽",
+            "first_year": "473",
+            "last_year": "477"
+          },
+          "fixed_row_reference": {
+            "path": "source-evidence/song051-wyd1739-zongshi/p014-p017-yuanhui-calendar-row.json",
+            "sha256": "865228215f680e9b732d11a3ff4ac47fe0f084f68bc934eddebe06213231028b"
+          },
+          "image_verified": false
+        }
+      ],
+      "regnal_year_mapping": {
+        "kind": "fixed_wyd_song051_p014_p017_life_date",
+        "era_name": "元徽",
+        "year": 477,
+        "source_expression": "與二子承俁並死",
+        "context_kind": "same_biography_contextual_shundi_accession_after_yuanhui_four"
+      },
+      "status": "editorial_provisional",
+      "rationale": "本段只保存可追溯的上下文換算；不推月日、生年或精確卒日。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "與二子承俁並死",
+        "reference_url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+        "reference_event_quote": "順帝即位",
+        "reference_year_url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+        "reference_year_quote": "元徽"
+      },
+      "record_id": "le-song051-p017-m0077-death",
+      "person_id": "3qs_nqa_ioa_AABDBB",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [
+    {
+      "id": "name-song051-p014-p017-3qs-nqa-ioa-aabdbb-0077",
+      "person_id": "3qs_nqa_ioa_AABDBB",
+      "surname": "劉",
+      "ming": "俁",
+      "additional_names": [],
+      "chapter_id": "c-songshu-051-wyd1739-zongshi",
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+      "person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0077",
+      "quote": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
+      "source_term": "俁",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "同段明稱「秉踰城出走……與二子承俁並死」；依父親劉秉的來源姓名記錄復原劉姓，不定兄弟長幼。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_song051_p014_p017",
+        "source_assertion_ids": [
+          "a-song051-p014-p017-father-yu-bing"
+        ],
+        "rationale": "本段明稱秉之子俁；依同一父親秉的劉姓來源姓名記錄復原，不以家族ID或出生路徑字母作姓氏證據。"
+      },
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-051",
+      "source_id": "s-songshu-051-wyd1739-zongshi"
+    },
     {
       "id": "name-song051-yixin-liuyu",
       "person_id": "3qs_nqa_ioa_AABDBB",
@@ -376,6 +506,39 @@
     "3qs_nqa_ioa_AABDBB"
   ],
   "preferred_relations": [
+    {
+      "id": "a-song051-p014-p017-father-yu-bing",
+      "subject_person_id": "3qs_nqa_ioa_AABDBB",
+      "predicate": "father",
+      "object_person_id": "3qs_nqa_ioa_AABDB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "秉踰城出走於額檐湖見擒與二子承俁並死",
+        "source_unit_binding": {
+          "kind": "fixed_wyd_song051_p014_p017_family_batch",
+          "case": "father-yu-bing",
+          "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+        },
+        "interpretation_note": "保本源明關係；不由語序推絕對排行或未載母親。",
+        "lineage": "paternal",
+        "source_child_term": "子",
+        "source_child_sex": "male"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+          "quote": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0077",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0062"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-song051-yixin-liuyu-father",
       "subject_person_id": "3qs_nqa_ioa_AABDBB",
@@ -428,7 +591,106 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-song051-p017-m0077-death",
+      "person_id": "3qs_nqa_ioa_AABDBB",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "與二子承俁並死",
+      "source_term": "與二子承俁並死",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+          "quote": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0077"
+        }
+      ],
+      "interpretation_note": "本段明載秉與二子承、俁並死；本篇按前段元徽四年後「順帝即位」的編年脈絡暫換算477年，屬上下文判讀，不是本句明載年號或年月日。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "contextual_date_basis": {
+        "kind": "song051_yuanhui_fourth_year_then_shundi_accession",
+        "chapter_id": "c-songshu-051-wyd1739-zongshi",
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p016",
+        "quote": "軍所給加兵自隨入殿二年加散騎常侍丹陽尹解吏部封當陽縣侯食邑千戶與齊王袁粲褚淵分日入直決機事四年遷中書令加撫軍將軍常侍尹如故順帝即位轉尚書令中領軍將軍如故時齊王輔政四海屬心秉知鼎命有在密懷異圖袁粲鎮石頭不識天命沈攸之舉兵反齊王入屯朝堂粲潛與秉及諸大將黃回等謀欲作亂本期夜會石頭旦乃舉兵秉素恇怯騷動憂不自安再晡後便自丹陽郡車載婦女盡室奔石頭部曲數百赫奕滿道旣至見粲粲驚曰何遽便來事今敗矣秉曰今得見公萬死亦何恨從弟中領軍韞直在",
+        "era_year_anchor": "元徽元年",
+        "sequence_anchor": "四年遷中書令",
+        "accession_anchor": "順帝即位",
+        "human_reviewed": false
+      },
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 477,
+        "year": 477,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "與二子承俁並死",
+        "original_quote": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-051",
+            "source_id": "s-songshu-051-wyd1739-zongshi",
+            "chapter_id": "c-songshu-051-wyd1739-zongshi",
+            "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+            "quote": "省內與直閣將軍卜伯興謀其夜共攻齊王會秉去事覺齊王夜使驍騎將軍王敬則收韞韞已戒嚴敬則率壯士直前韞左右皆披靡因殺之伯興亦伏誅粲敗秉踰城出走於額檐湖見擒與二子承俁並死秉時年四十五秉妻蕭氏思話女也元徽中朝廷危殆妻常懼禍敗每謂秉曰君富貴已足故應為兒子作計年垂五十殘生何足恡邪秉不能從秉弟謨奉朝請謨弟遐字彥道亦奉朝請員外散騎侍郎與嫡母殷養女雲敷私通殷每禁之殷暴病卒未及殮口鼻流血疑遐潛加毒害為有司所糾世祖徙之始安郡永光中得還太宗世歷",
+            "person_mention_id": "c-songshu-051-wyd1739-zongshi:p017:m0077"
+          }
+        ],
+        "references": [
+          {
+            "title": "宋書卷五十一清乾隆四年武英殿本",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "順帝即位",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "元徽",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "columns": {
+              "dynasty": "宋",
+              "era_name": "元徽",
+              "first_year": "473",
+              "last_year": "477"
+            },
+            "fixed_row_reference": {
+              "path": "source-evidence/song051-wyd1739-zongshi/p014-p017-yuanhui-calendar-row.json",
+              "sha256": "865228215f680e9b732d11a3ff4ac47fe0f084f68bc934eddebe06213231028b"
+            },
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "fixed_wyd_song051_p014_p017_life_date",
+          "era_name": "元徽",
+          "year": 477,
+          "source_expression": "與二子承俁並死",
+          "context_kind": "same_biography_contextual_shundi_accession_after_yuanhui_four"
+        },
+        "status": "editorial_provisional",
+        "rationale": "本段只保存可追溯的上下文換算；不推月日、生年或精確卒日。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "與二子承俁並死",
+          "reference_url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+          "reference_event_quote": "順帝即位",
+          "reference_year_url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "reference_year_quote": "元徽"
+        }
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

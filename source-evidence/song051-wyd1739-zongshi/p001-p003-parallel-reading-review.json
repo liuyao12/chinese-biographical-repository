@@ -1,0 +1,89 @@
+{
+  "record_type": "editorial_parallel_source_reading",
+  "id": "review-song051-wyd1739-p001-p003-digital-parallels",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "image_verified": false,
+  "base_witness": {
+    "native_path": "corpus/songshu/051-wyd1739.json",
+    "native_sha256_at_review": "e1367938c2d9fa5b85f8eec6e2f8684aa8fe69b2cde2ab17bc54fb5dc981713e",
+    "work_id": "w-songshu",
+    "book_id": "b-songshu-051",
+    "chapter_id": "c-songshu-051-wyd1739-zongshi",
+    "source_id": "s-songshu-051-wyd1739-zongshi",
+    "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
+    "title": "宋書卷五十一，清乾隆四年武英殿本（NLC善本09753）",
+    "permalink": "https://commons.wikimedia.org/w/index.php?title=File:NLC892-411999017142-12209_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC145%E5%86%8A.pdf&oldid=979635763",
+    "text_status": "AI影像初讀轉錄；本次僅以固定逐字稿作比對，未能讀取原頁影像。"
+  },
+  "reference_witnesses": [
+    {
+      "title": "宋書：卷五十一列傳第十一宗室",
+      "provider": "中國哲學書電子化計劃（CTP）",
+      "url": "https://ctext.org/wiki.pl?chapter=825398&if=en",
+      "retrieved_on": "2026-11-12",
+      "role": "parallel_digital_transcription_only",
+      "base_text": false,
+      "image_verified": false
+    },
+    {
+      "title": "列傳第十一 宋書五十一",
+      "provider": "識典古籍",
+      "url": "https://www.shidianguji.com/zh/book/LS0006/chapter/LS0006_272",
+      "retrieved_on": "2026-11-12",
+      "role": "parallel_digital_transcription_only",
+      "base_text": false,
+      "image_verified": false
+    }
+  ],
+  "paragraphs": [
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p001",
+      "quote": "長沙景王道憐高祖中弟也初為國子學生謝琰為徐州命為從事史高祖克京城進平京邑道憐常留家侍慰太后桓玄走大將軍武陵王遵承制除員外散騎侍郎尋遷建威將軍南彭城內史時北青州刺史劉該反引索虜為援清河陽平二郡太守孫全聚衆應之義熙元年索虜托跋開遣僞豫州刺史索度真先將軍解斯",
+      "differences": [
+        {
+          "base_reading": "索度真先將軍解斯",
+          "parallel_reading": "索度真、大將軍斛斯蘭",
+          "parallel_quote": "索虜托跋開遣僞豫州刺史索度真、大將軍斛斯蘭寇徐州",
+          "impact": "將軍稱號、複姓字形及姓名跨段界均有差異；不可據電子標點把底本文字改成平行讀法。"
+        }
+      ]
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p002",
+      "quote": "蘭寇徐州攻相縣執鉅鹿太守賀申進圍寧朔將軍羊穆之於彭城穆之告急道憐率衆救之軍次陵柵斬全進至彭城真蘭退走道憐率寧孟龍驤將軍孔隆及穆之等追真蘭走奔相城又追躡至炎林溝斬劉該虜衆見殺及赴水死略盡高祖鎮京口進道憐號龍驤將軍又領堂邑太守戍石頭明年加使持節監征蜀諸軍事率冠軍將軍劉敬宣等伐譙縱而文處茂温祚據險不得進故不果行以義勳封新興縣五等侯四年代諸葛長民為并州刺史義昌太守將軍內史如故猶戍石頭時鮮卑侵逼自彭城以南民皆保聚山陽淮陰諸戍並",
+      "differences": [
+        {
+          "base_reading": "斬全進至彭城真蘭退走",
+          "parallel_reading": "斬全。進至彭城，真、蘭退走",
+          "parallel_quote": "軍次陵柵，斬全。進至彭城，真、蘭退走",
+          "impact": "標點令姓名邊界不同：電子平行本將「全」接續前見孫全，並將「真」「蘭」分指前見索度真與斛斯蘭；不得誤立「全進」或「真蘭」為一人。"
+        },
+        {
+          "base_reading": "道憐率寧孟龍驤將軍孔隆及穆之等追",
+          "parallel_reading": "道憐率寧遠將軍孟龍符、龍驤將軍孔隆及穆之等追",
+          "parallel_quote": "道憐率寧遠將軍孟龍符、龍驤將軍孔隆及穆之等追",
+          "impact": "平行本多出「遠將軍」及「符」，涉及官名與新人物孟龍符；武英殿底本影像未核前，保留待校，不補人名或官職。"
+        },
+        {
+          "base_reading": "又追躡至炎林溝",
+          "parallel_reading": "又追躡至光水溝",
+          "parallel_quote": "真、蘭走奔相城，又追躡至光水溝",
+          "impact": "地名有異；不在人物標註中把兩讀合併為同一地名。"
+        }
+      ]
+    }
+  ],
+  "judgment": "CTP與識典電子文本在本段提供重要標點與異讀線索，尤其避免將孫全誤切為「全進」、將索度真與斛斯蘭誤切為「真蘭」。它們僅作參照，不取代武英殿底本，也不足以單獨證明武英殿影像字形或底本異文。",
+  "adopted_correction": null,
+  "limitations": [
+    "維持 corpus 中已固定的武英殿文字，不以CTP或識典文字替換。",
+    "Commons原頁在本次查閱時回應HTTP 429；未覆核武英殿原頁字形。",
+    "未確立各電子轉錄所依版本，不能把數位差異稱作紙本版本異文。"
+  ],
+  "next_tasks": [
+    "以可讀取的武英殿轉錄或原頁核對先將軍／大將軍、解斯蘭／斛斯蘭、寧孟／寧遠將軍孟龍符及炎林溝／光水溝。",
+    "在該底本覆核前，p001–p003相關新增人物錨點與官職記錄維持未決。"
+  ]
+}

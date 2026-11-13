@@ -104,6 +104,10 @@ except ImportError:
 
 
 def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bound_role=None):
+    if isinstance(date,dict) and date.get('regnal_year_mapping',{}).get('kind')=='fixed_wyd_song051_p014_p017_life_date':
+        try:from scripts.song051_p014_p017_life import date_valid
+        except ImportError:from song051_p014_p017_life import date_valid
+        return [] if bound_role=='life_event' and date_valid(date,bound_record,chapters or {},root) else ['宋051第14–17段生卒紀年／上下文不符']
     if isinstance(date,dict)and isinstance(date.get('event_evidence_binding'),dict)and date['event_evidence_binding'].get('kind')=='fixed_wyd063_death_local_year':
         try:from scripts.wyd_song063_basics import date_valid
         except ImportError:from wyd_song063_basics import date_valid
@@ -287,6 +291,10 @@ def reported_relationship_errors(variant, paragraph):
 
 
 def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
+    if isinstance(proposal,dict) and proposal.get('source_appointment_context',{}).get('kind')=='fixed_wyd_song051_p015_not_assumed_appointment':
+        try:from scripts.song051_p014_p017_titles import proposal_errors as song051_proposal_errors
+        except ImportError:from song051_p014_p017_titles import proposal_errors as song051_proposal_errors
+        return song051_proposal_errors(proposal,chapter)
     if isinstance(proposal,dict) and proposal.get('source_appointment_context',{}).get('kind')=='wyd_song044_declined_noble_advance':
         try:from scripts.wyd_song044_nobles import proposal_errors as noble_proposal_errors
         except ImportError:from wyd_song044_nobles import proposal_errors as noble_proposal_errors
@@ -1697,7 +1705,7 @@ def _validate_uncached(root=ROOT):
                     except ImportError:
                         from wife_father_clause import wife_father_clause_valid
                     check(wife_father_clause_valid(a, paragraphs, chapters), '妻父從句須綁完整原句與父夫妻三角色，不得推生母或反轉端點')
-                if a['predicate'] in ('raised_by', 'ritual_successor_of') or 'care_basis' in qualifiers or 'succession_kind' in qualifiers:
+                if (a['predicate'] in ('raised_by', 'ritual_successor_of') or 'care_basis' in qualifiers or 'succession_kind' in qualifiers) and not (song051_applies(a) and song051_family_valid(a,paragraphs,chapters,root)):
                     try:
                         from scripts.non_parental_family import non_parental_relation_valid
                     except ModuleNotFoundError:
@@ -1811,7 +1819,7 @@ def _validate_uncached(root=ROOT):
                         from chuji_parentage import chuji_parentage_valid
                     check(chuji_parentage_valid(a, paragraphs, d['assertions']),
                           '嗣父須符合具名出繼或無子為嗣的限定來源模型，保留生父及完整連續原文，不得僅據嗣爵')
-                if a['predicate'] == 'maternal_role':
+                if a['predicate'] == 'maternal_role' and not (song051_applies(a) and song051_family_valid(a,paragraphs,chapters,root)):
                     try:
                         from scripts.maternal_roles import maternal_role_valid
                     except ImportError:
@@ -2384,6 +2392,10 @@ def _validate_uncached(root=ROOT):
                 except ImportError:from wyd_song045_lifecycle import valid as wyd045_life_valid
                 check(all(wyd045_life_valid(e,root)for e in record['events']),'宋045死亡本源角色/敘事時點不符')
             for event in record['events']:
+                if record.get('chapter_id')=='c-songshu-051-wyd1739-zongshi':
+                    try:from scripts.song051_p014_p017_life import valid_record as song051_life_valid
+                    except ImportError:from song051_p014_p017_life import valid_record as song051_life_valid
+                    check(song051_life_valid(record,root),'宋051第14–17段死亡事件／上下文紀年不符')
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')

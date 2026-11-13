@@ -108,6 +108,10 @@ def memorial_errors(q,chapter,people,holdings):
  except(KeyError,TypeError,ValueError,StopIteration)as ex:return['奏請與後文實授回證未分層：'+str(ex)]
 
 def source_use_errors(use,chapter,people,holdings):
+ if use.get('source_use_binding',{}).get('kind')=='fixed_wyd_song051_p014_p017_title_reference':
+  try:from scripts.song051_p014_p017_titles import source_title_use_valid
+  except ImportError:from song051_p014_p017_titles import source_title_use_valid
+  return [] if source_title_use_valid(use,chapter) else ['宋051君主稱號指涉與錨點不符']
  try:
   e,=use['evidence'];p=next(p for p in chapter['paragraphs']if p['id']==e['paragraph_id']);m=next(m for m in p['mentions']if m['id']==use['person_mention_id'])
   if use['person_id']not in people or m['person_id']!=use['person_id']or m['kind']!='person'or not exact(use['source_anchor'],p)or use['source_anchor']['surface']!=use['source_term']or e['quote']!=p['text']:raise ValueError('source use')

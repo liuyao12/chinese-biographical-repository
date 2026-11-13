@@ -1,5 +1,23 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions,root=None):
+ if isinstance(name,dict) and name.get('surname_basis',{}).get('kind')=='contextual_surname_from_song051_p014_p017':
+  try:
+   b=name['surname_basis'];c=chapters[name['chapter_id']];p=next(p for p in c['paragraphs'] if p['id']==name['paragraph_id']);m=next(m for m in p['mentions'] if m['id']==name['person_mention_id'])
+   if root is not None:
+    import json
+    from pathlib import Path
+    assertions=json.loads((Path(root)/'corpus/songshu/051-wyd1739-p014-p017-assertions.json').read_bytes())['assertions']
+   assert name['chapter_id']=='c-songshu-051-wyd1739-zongshi' and name['status']=='contextual_provisional' and name['human_reviewed'] is False and b['rationale'] and m['kind']=='person' and m['person_id']==name['person_id'] and p['text'][m['start']:m['end']]==m['surface'] and name['quote']==p['text']
+   aset={a['id']:a for a in assertions};assert all(i in aset for i in b['source_assertion_ids'])
+   if name['ming']=='惠連':
+    a=aset['a-song051-p014-p017-father-huilian-xiefangming'];assert b['source_assertion_ids']==[a['id']] and a['predicate']=='father' and a['subject_person_id']==name['person_id'] and a['qualifiers']['source_term']=='方明子惠連'
+   elif name['ming']=='休範':
+    assert not b['source_assertion_ids'] and name['surname']=='劉' and m['surface']=='休範' and '桂陽王休範' in p['text']
+   else:
+    assert b['source_assertion_ids'] and all(aset[i]['status']=='source_attested' for i in b['source_assertion_ids'])
+    assert name['surname']=='劉' and name['person_id'].startswith('3qs_nqa_ioa_AA')
+  except (AssertionError,KeyError,StopIteration,TypeError):raise ValueError('宋051姓氏復原須保留固定篇、原名錨與指定來源關係；不得將王號作姓')
+  return
  if isinstance(name,dict)and isinstance(name.get('surname_basis'),dict)and name['surname_basis'].get('kind')=='contextual_surname_from_wyd063_fixed_near_kin':
   try:from scripts.wyd_song063_basics import validate_surname
   except ImportError:from wyd_song063_basics import validate_surname

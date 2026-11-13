@@ -1,9 +1,9 @@
-"""Finite complete Yixin unit; explicit additions project to the unchanged 49-anchor phase."""
+"""Finite exact Songshu 51 p014–p017 family annotation batch, layered over preserved earlier phase guards."""
 from pathlib import Path
 import json,copy,hashlib
 try:from scripts.validation_context import memoized
 except ImportError:from validation_context import memoized
-CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_yixin_complete_unit_phase2';CONTRACT_SHA='46c9d07ca70a1d19300af521c6e230be451c6ff27281c6a19501ecd25d0867c1'
+CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_p014_p017_family_annotation_batch';CONTRACT_SHA='812114b8d945615a5a46a60d596b5b62a55534040bac8c9a9ff54a4ae0dca5db'
 def same(a,b):
  if type(a)is not type(b):return False
  if type(a)is dict:return all(type(k)is str for k in a)and all(type(k)is str for k in b)and set(a)==set(b)and all(same(a[k],b[k])for k in a)
@@ -14,7 +14,7 @@ def same(a,b):
   except ValueError:return False
  return False
 def need(ok,msg):
- if not ok:raise ValueError('武英殿宋051義欣完整單元：'+msg)
+ if not ok:raise ValueError('武英殿宋051第14–17段固定批次：'+msg)
 def load(root,rel):
  root=Path(root).resolve();p=(root/rel).resolve();need(p.is_relative_to(root),'檔案越界');return json.loads(p.read_bytes())
 def contract(root):
@@ -49,8 +49,9 @@ def resolve_seeds(root,c):
 def state(root,ch=None):
  root=Path(root).resolve();actual=load(root,CH);need(ch is None or same(ch,actual),'所給current完整章不符');c=contract(root);roles=collect(actual,c);need(same(actual,phase_chapter(c,roles)),'完整原文/舊新錨/資格/位置或新增metadata差異');seeds=resolve_seeds(root,c);need(all(roles[k]==v for k,v in seeds.items()),'既有人物跨源角色錯接');need(roles['yixin']==roles['old_yixin']and roles['wendi']==roles['old_taizu'],'既有角色被另造');need(len({roles[r]for r in c['new_names']})==len(c['new_names']),'本源不同個體不得同號');need(not({roles[r]for r in c['new_names']}&(set(seeds.values())|{v for k,v in roles.items()if k.startswith('old_')})),'新角色與既有人物錯合')
  rows=load(root,'registry/persons.json')['persons'];people={p['id']:p for p in rows};need(len(people)==len(rows),'current registry重複ID')
+ title_use_ids={u['person_mention_id'] for u in actual['annotation'].get('source_title_uses',[])}
  for row in c['markers']:
-  p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id']);person=people.get(m['person_id']);need(person is not None,'新增角色未登記');need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'新增alias缺反向');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'新增evidence缺反向')
+  p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id']);person=people.get(m['person_id']);need(person is not None,'新增角色未登記');has_alias=any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']);need((not has_alias)if m['id']in title_use_ids else has_alias,'新增姓名alias／稱號用稱分類不符');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'新增evidence缺反向')
  docs={rel:materialize(v,roles)for rel,v in c['expected_documents'].items()}
  for rel,expected in docs.items():need(same(load(root,rel),expected),'新人物/姓名/親屬sidecar不符：'+rel)
  family=next(f for f in load(root,'registry/family-assemblies.json')['assemblies']if f['id']=='family-song041-qiao');rows={r['person_id']:r for r in family['members']};need(len(rows)==len(family['members']),'家系重複')
@@ -63,7 +64,11 @@ def state(root,ch=None):
 
 def project_previous_phase(root,ch):
  need(type(ch)is dict,'投影須提供完整current章，不以None或缺章回填')
- actual,roles,c,docs=state(root,ch);return materialize(c['base_source_template'],roles)
+ actual,roles,c,docs=state(root,ch);projected=materialize(c['base_source_template'],roles)
+ # The earlier strict 49-anchor phase consumes its exact source-before annotation;
+ # newer title-use/proposal records are guarded by this batch contract instead.
+ projected['annotation'].pop('source_title_uses',None);projected['annotation'].pop('title_proposals',None);projected['annotation'].pop('age_assertions',None)
+ return projected
 def previous_frames(root,paragraphs,chapters):
  actual,roles,c,docs=state(root);given=chapters.get(CID);need(same(given,actual),'親屬所給完整current章不符');projected=materialize(c['base_source_template'],roles);pp=copy.copy(paragraphs);cc=copy.copy(chapters);cc[CID]=projected
  for p in actual['paragraphs']:
