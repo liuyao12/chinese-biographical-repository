@@ -2280,8 +2280,8 @@
       "category": "",
       "title": "宗室",
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p001",
-      "count": 24,
-      "raw_count": 24,
+      "count": 27,
+      "raw_count": 27,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "長沙景王道憐高祖中弟也初為國子學生謝琰為徐州命為從事史高祖克京城進平京邑道憐常留家侍慰太后桓玄走大將軍武陵王遵承制除員外散騎侍郎尋遷建威將軍南彭城內史時北青州刺史劉該反引索虜為援清河陽平二郡太守孫全聚衆應之義熙元年索",
@@ -2293,6 +2293,7 @@
         "c-songshu-051-wyd1739-zongshi:p005",
         "c-songshu-051-wyd1739-zongshi:p006",
         "c-songshu-051-wyd1739-zongshi:p014",
+        "c-songshu-051-wyd1739-zongshi:p019",
         "c-songshu-051-wyd1739-zongshi:p028",
         "c-songshu-051-wyd1739-zongshi:p029",
         "c-songshu-051-wyd1739-zongshi:p040",
@@ -2315,6 +2316,9 @@
         "c-songshu-051-wyd1739-zongshi:p005:m0022",
         "c-songshu-051-wyd1739-zongshi:p006:m0007",
         "c-songshu-051-wyd1739-zongshi:p014:m0005",
+        "c-songshu-051-wyd1739-zongshi:p019:m0095",
+        "c-songshu-051-wyd1739-zongshi:p019:m0106",
+        "c-songshu-051-wyd1739-zongshi:p019:m0128",
         "c-songshu-051-wyd1739-zongshi:p028:m0033",
         "c-songshu-051-wyd1739-zongshi:p028:m0075",
         "c-songshu-051-wyd1739-zongshi:p029:m0158",
@@ -2341,6 +2345,9 @@
         "c-songshu-051-wyd1739-zongshi:p005:m0022": "c-songshu-051-wyd1739-zongshi:p005",
         "c-songshu-051-wyd1739-zongshi:p006:m0007": "c-songshu-051-wyd1739-zongshi:p006",
         "c-songshu-051-wyd1739-zongshi:p014:m0005": "c-songshu-051-wyd1739-zongshi:p014",
+        "c-songshu-051-wyd1739-zongshi:p019:m0095": "c-songshu-051-wyd1739-zongshi:p019",
+        "c-songshu-051-wyd1739-zongshi:p019:m0106": "c-songshu-051-wyd1739-zongshi:p019",
+        "c-songshu-051-wyd1739-zongshi:p019:m0128": "c-songshu-051-wyd1739-zongshi:p019",
         "c-songshu-051-wyd1739-zongshi:p028:m0033": "c-songshu-051-wyd1739-zongshi:p028",
         "c-songshu-051-wyd1739-zongshi:p028:m0075": "c-songshu-051-wyd1739-zongshi:p028",
         "c-songshu-051-wyd1739-zongshi:p029:m0158": "c-songshu-051-wyd1739-zongshi:p029",
@@ -2461,6 +2468,27 @@
           "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p014:m0005",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p014:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p019:m0095",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p019:m0095"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p019:m0106",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p019:m0106"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p019:m0128",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p019:m0128"
           ],
           "kind": "paragraph"
         },
@@ -16665,6 +16693,43 @@
       "model": null
     },
     {
+      "id": "a-song051-phase3-p019-daogui-younger-brother-liuyu",
+      "subject_person_id": "3qs_nqa_ioa_AAC",
+      "predicate": "brother",
+      "object_person_id": "3qs_nqa_ioa_AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "高祖少弟也",
+        "shared_father": null,
+        "relative_birth_order": {
+          "older_person_id": "3qs_nqa_ioa_AAA",
+          "younger_person_id": "3qs_nqa_ioa_AAC",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "interpretation_status": "source_attested"
+        },
+        "interpretation_note": "原文明稱道規為高祖少弟；保存兄弟相對年序，不記未載的絕對排行或中間人。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p019",
+          "quote": "謂義綦曰陸士衡詩云營道無烈心其何意苦阿父如此義綦曰下官初不識何忽見苦其庸塞可笑類若此歷左衞將軍湘州刺史孝建三年卒贈平南將軍諡曰僖侯子長歆嗣官至步兵校尉昇平三年卒齊受禪國除臨川烈武王道規字道則高祖少弟也少倜儻有大志高祖奇之與謀桓玄時桓弘鎮廣陵以為征虜中兵參軍高祖克京城道規亦以其日與劉毅孟昶共斬弘收衆濟江進平京邑玄敗走晉大將軍武陵王遵承制以道規為振武將軍義昌太守與劉毅何無忌追玄玄西",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p019:m0090",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p019:m0095"
+        }
+      ],
+      "interpretation_note": "只登錄來源明載的兄弟關係與長幼方向；未據此斷言父親或絕對排行。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    },
+    {
       "id": "a-weishu038-wanghuilong-001",
       "subject_person_id": "3qs_nqa_ioa_AAC",
       "predicate": "brother",
@@ -18200,6 +18265,43 @@
       "interpretation_note": "被哺養者指向哺養人；斷懷敬乳而自養高祖，不推生母、法律收養、收養父母或全部兄弟同母。",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song051-phase3-p019-daogui-younger-brother-liuyu",
+      "subject_person_id": "3qs_nqa_ioa_AAC",
+      "predicate": "brother",
+      "object_person_id": "3qs_nqa_ioa_AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "高祖少弟也",
+        "shared_father": null,
+        "relative_birth_order": {
+          "older_person_id": "3qs_nqa_ioa_AAA",
+          "younger_person_id": "3qs_nqa_ioa_AAC",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "interpretation_status": "source_attested"
+        },
+        "interpretation_note": "原文明稱道規為高祖少弟；保存兄弟相對年序，不記未載的絕對排行或中間人。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p019",
+          "quote": "謂義綦曰陸士衡詩云營道無烈心其何意苦阿父如此義綦曰下官初不識何忽見苦其庸塞可笑類若此歷左衞將軍湘州刺史孝建三年卒贈平南將軍諡曰僖侯子長歆嗣官至步兵校尉昇平三年卒齊受禪國除臨川烈武王道規字道則高祖少弟也少倜儻有大志高祖奇之與謀桓玄時桓弘鎮廣陵以為征虜中兵參軍高祖克京城道規亦以其日與劉毅孟昶共斬弘收衆濟江進平京邑玄敗走晉大將軍武陵王遵承制以道規為振武將軍義昌太守與劉毅何無忌追玄玄西",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p019:m0090",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p019:m0095"
+        }
+      ],
+      "interpretation_note": "只登錄來源明載的兄弟關係與長幼方向；未據此斷言父親或絕對排行。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
       "model": null
     },
     {

@@ -3366,7 +3366,7 @@
 | `AEB` | 桓謙 | [《晉書・桓彝》][44] | [JSON](u9s_w6j_8mc_AEB.json) |
 | `AEC` | 桓修 | [《晉書・桓彝》][44] | [JSON](u9s_w6j_8mc_AEC.json) |
 | `AED` | 桓崇 | [《晉書・桓彝》][44] | [JSON](u9s_w6j_8mc_AED.json) |
-| `AEE` | 桓弘 | [《晉書・桓彝》][44]、[《晉書・叛臣二》][60] | [JSON](u9s_w6j_8mc_AEE.json) |
+| `AEE` | 桓弘 | [《宋書・宗室》][212] | [JSON](u9s_w6j_8mc_AEE.json) |
 | `AEF` | 桓羨 | [《晉書・桓彝》][44] | [JSON](u9s_w6j_8mc_AEF.json) |
 | `AEG` | 桓怡 | [《晉書・桓彝》][44] | [JSON](u9s_w6j_8mc_AEG.json) |
 
