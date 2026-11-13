@@ -6,6 +6,8 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `aeg_ljr_nw1` | 衛毅〔冏所封陰平公〕 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][35] | [JSON](aeg_ljr_nw1.json) |
+| `aey_tui_wzm` | 齊太師（孔子世家未名者） | [《史記・孔子世家》][116] | [JSON](aey_tui_wzm.json) |
 | `aez_p66_9uj` | 藺相如持璧歸趙從者未名 | [《史記・廉頗藺相如列傳》][150] | [JSON](aez_p66_9uj.json) |
 | `af1_11d_057` | 宗慤 | [《宋書・謝莊 王景文》][228] | [JSON](af1_11d_057.json) |
 | `af6_mhg_pyn` | 呂種 | [《史記・呂后本紀》][96]、[《史記・惠景間侯者年表》][249] | [JSON](af6_mhg_pyn.json) |
@@ -21,6 +23,7 @@
 | `ah7_qcl_dpg` | 周青臣 | [《史記・秦始皇本紀》][93]、[《史記・李斯列傳》][156] | [JSON](ah7_qcl_dpg.json) |
 | `ahd_v7t_hy3` | 周成 | [《晉書・桓彝》][44]、[《晉書・叛臣一》][59] | [JSON](ahd_v7t_hy3.json) |
 | `ahe_e3g_ua6` | 右尹（勸楚靈王逃亡者未名） | [《史記・楚世家》][109] | [JSON](ahe_e3g_ua6.json) |
+| `ahf_n4n_ykx` | 孫全 | [《宋書・宗室》][212] | [JSON](ahf_n4n_ykx.json) |
 | `ai6_yoy_d51` | 鄭文公（楚篇朝楚者） | [《史記・楚世家》][109] | [JSON](ai6_yoy_d51.json) |
 | `aic_z7t_35l` | 毛萇〔禮詩注者〕 | [《後漢書・吳延史盧趙列傳》][16] | [JSON](aic_z7t_35l.json) |
 | `aiu_ulx_ejj` | 周楚 | [《晉書・叛臣一》][59] | [JSON](aiu_ulx_ejj.json) |
@@ -1207,6 +1210,7 @@
 | `gt5_z7w_98q` | 范昆 | [《史記・酷吏列傳》][191] | [JSON](gt5_z7w_98q.json) |
 | `gt6_lcc_g2n` | 齊王太后未名 | [《史記・扁鵲倉公列傳》][174] | [JSON](gt6_lcc_g2n.json) |
 | `gtf_oo3_boo` | 管至父 | [《史記・秦本紀》][92]、[《史記・齊太公世家》][101] | [JSON](gtf_oo3_boo.json) |
+| `gtj_2ev_amw` | 温祚 | [《宋書・宗室》][212] | [JSON](gtj_2ev_amw.json) |
 | `gts_qwq_ofq` | 夫差（楚篇吳王） | [《史記・楚世家》][109] | [JSON](gts_qwq_ofq.json) |
 | `gu2_fde_5bw` | 種（越大夫） | [《史記・越王勾踐世家》][110] | [JSON](gu2_fde_5bw.json) |
 | `gu5_ugq_r65` | 黃帝引古傳說 | [《史記・李斯列傳》][156] | [JSON](gu5_ugq_r65.json) |
@@ -2012,6 +2016,7 @@
 | `lwt_p4c_rd4` | 趙將莊 | [《史記・秦本紀》][92] | [JSON](lwt_p4c_rd4.json) |
 | `lx3_ne1_5h4` | 樓蘭王（被虜） | [《史記・大宛列傳》][192] | [JSON](lx3_ne1_5h4.json) |
 | `lx4_rdl_gjt` | 梁鱣 | [《史記・仲尼弟子列傳》][136] | [JSON](lx4_rdl_gjt.json) |
+| `lx6_8pd_oxk` | 羊穆之 | [《宋書・宗室》][212] | [JSON](lx6_8pd_oxk.json) |
 | `lxk_xeh_f6r` | 張唐 | [《史記・樗里子甘茂列傳》][140] | [JSON](lxk_xeh_f6r.json) |
 | `lxm_ezo_k4h` | 季平子（魯卿） | [《史記・魯周公世家》][102] | [JSON](lxm_ezo_k4h.json) |
 | `ly4_75a_28o` | 伐同 | [《三國志・滿田牽郭傳》][85] | [JSON](ly4_75a_28o.json) |
@@ -2089,12 +2094,6 @@
 | `mes_rgf_o7u` | 趙毗 | [《晉書・桓彝》][44] | [JSON](mes_rgf_o7u.json) |
 | `mev_r3x_fuu` | 欒書 | [《史記・鄭世家》][111] | [JSON](mev_r3x_fuu.json) |
 | `mex_tig_16z` | 蓋聶 | [《史記・刺客列傳》][155] | [JSON](mex_tig_16z.json) |
-| `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][115] | [JSON](mf2_tm7_f9r.json) |
-| `mfr_nye_lnv` | 趙信（匈奴列傳第35段） | [《史記・衛將軍驃騎列傳》][180] | [JSON](mfr_nye_lnv.json) |
-| `mfu_22v_exx` | 趙穿 | [《史記・鄭世家》][111] | [JSON](mfu_22v_exx.json) |
-| `mge_pi9_fn1` | 計然 | [《史記・貨殖列傳》][198] | [JSON](mge_pi9_fn1.json) |
-| `mgj_ry7_2x5` | 陶朱 | [《史記・陳涉世家》][117] | [JSON](mgj_ry7_2x5.json) |
-| `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][164] | [JSON](mgl_q57_d7h.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

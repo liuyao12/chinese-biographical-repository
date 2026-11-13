@@ -6,6 +6,12 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][115] | [JSON](mf2_tm7_f9r.json) |
+| `mfr_nye_lnv` | 趙信（匈奴列傳第35段） | [《史記・衛將軍驃騎列傳》][180] | [JSON](mfr_nye_lnv.json) |
+| `mfu_22v_exx` | 趙穿 | [《史記・鄭世家》][111] | [JSON](mfu_22v_exx.json) |
+| `mge_pi9_fn1` | 計然 | [《史記・貨殖列傳》][198] | [JSON](mge_pi9_fn1.json) |
+| `mgj_ry7_2x5` | 陶朱 | [《史記・陳涉世家》][117] | [JSON](mgj_ry7_2x5.json) |
+| `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][164] | [JSON](mgl_q57_d7h.json) |
 | `mh6_5un_rq0` | 韓康子（殺知伯者） | [《史記・晉世家》][108] | [JSON](mh6_5un_rq0.json) |
 | `mhe_05y_s6w` | 虞預 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47]、[《三國志・桓二陳徐衞盧傳》][84] | [JSON](mhe_05y_s6w.json) |
 | `mhf_ukx_zs1` | 雲敷 | [《宋書・宗室》][212] | [JSON](mhf_ukx_zs1.json) |
@@ -252,7 +258,7 @@
 | `o2y_k2f_4fa` | 慕容皝 | [《晉書・外戚》][56] | [JSON](o2y_k2f_4fa.json) |
 | `o32_eo4_vyk` | 雲中守遬 | [《史記・絳侯周勃世家》][126] | [JSON](o32_eo4_vyk.json) |
 | `o3z_4md_e9l` | 太仆嬰 | [《史記・齊悼惠王世家》][121] | [JSON](o3z_4md_e9l.json) |
-| `o3z_vpz_572` | 譙道福 | [《晉書・桓彝》][44] | [JSON](o3z_vpz_572.json) |
+| `o3z_vpz_572` | 譙道福 | [《晉書・桓彝》][44]、[《宋書・宗室》][212] | [JSON](o3z_vpz_572.json) |
 | `o40_aw4_nck` | 宋貴人（敬隱皇后） | [《後漢書・孝獻帝紀》][14] | [JSON](o40_aw4_nck.json) |
 | `o4b_bje_i31` | 信陵（四君稱呼） | [《史記・秦始皇本紀》][93] | [JSON](o4b_bje_i31.json) |
 | `o4h_qq4_taj` | 田既 | [《史記・田儋列傳》][163] | [JSON](o4h_qq4_taj.json) |
@@ -1283,6 +1289,7 @@
 | `ug2_2v6_hbv` | 鄭安平 | [《史記・趙世家》][112] | [JSON](ug2_2v6_hbv.json) |
 | `ug6_2ne_9hm` | 犀首書信 | [《史記・蘇秦列傳》][138] | [JSON](ug6_2ne_9hm.json) |
 | `ug9_gi9_fvb` | 五大夫陵 | [《史記・白起王翦列傳》][142] | [JSON](ug9_gi9_fvb.json) |
+| `ugg_r62_pd2` | 解斯蘭（待校） | [《宋書・宗室》][212] | [JSON](ugg_r62_pd2.json) |
 | `uhq_4sb_zzv` | 齊威（列國君主） | [《史記・秦本紀》][92]、[《史記・齊太公世家》][101]、[《史記・燕召公世家》][103]、[《史記・晉世家》][108] | [JSON](uhq_4sb_zzv.json) |
 | `uhy_p4j_wc6` | 秦昭 | [《史記・貨殖列傳》][198] | [JSON](uhy_p4j_wc6.json) |
 | `ui0_pob_f62` | 奉賜死使者未名 | [《史記・蒙恬列傳》][157] | [JSON](ui0_pob_f62.json) |
@@ -1343,6 +1350,7 @@
 | `uw6_a0a_tjp` | 范增 | [《史記・項羽本紀》][94] | [JSON](uw6_a0a_tjp.json) |
 | `uw8_ozw_5ux` | 齊太史少弟（復書獲免未名） | [《史記・齊太公世家》][101] | [JSON](uw8_ozw_5ux.json) |
 | `uwb_l4e_1vn` | 武王 | [《史記・蘇秦列傳》][138] | [JSON](uwb_l4e_1vn.json) |
+| `uwo_nwk_wpn` | 索度真 | [《宋書・宗室》][212] | [JSON](uwo_nwk_wpn.json) |
 | `ux0_nvd_s8f` | 韓太子奐 | [《史記・秦本紀》][92] | [JSON](ux0_nvd_s8f.json) |
 | `ux3_la0_38d` | 魯昭公夫人孟子 | [《史記・仲尼弟子列傳》][136] | [JSON](ux3_la0_38d.json) |
 | `ux5_ksp_tlb` | 彌子瑕 | [《史記・佞幸列傳》][194] | [JSON](ux5_ksp_tlb.json) |
@@ -1611,7 +1619,7 @@
 | `wnp_vk6_qhe` | 冉求 | [《史記・仲尼弟子列傳》][136] | [JSON](wnp_vk6_qhe.json) |
 | `wny_01o_f36` | 公子買（衛守者） | [《史記・晉世家》][108] | [JSON](wny_01o_f36.json) |
 | `woj_cq6_ajq` | 嘉（呂台嗣王） | [《史記・漢興以來諸侯王年表》][247] | [JSON](woj_cq6_ajq.json) |
-| `woq_srv_b9s` | 殷叔文 | [《晉書・叛臣二》][60]、[《晉書・叛臣二》][61] | [JSON](woq_srv_b9s.json) |
+| `woq_srv_b9s` | 殷叔文 | [《宋書・宗室》][212] | [JSON](woq_srv_b9s.json) |
 | `wow_07g_swu` | 毛修之 | [《晉書・叛臣二》][60] | [JSON](wow_07g_swu.json) |
 | `wpg_z2x_qwh` | 賁嵩 | [《晉書・劉隗 刁協 戴若思 周顗》][41] | [JSON](wpg_z2x_qwh.json) |
 | `wpi_4yz_de2` | 王姬（齊桓公夫人） | [《史記・齊太公世家》][101] | [JSON](wpi_4yz_de2.json) |
@@ -1733,6 +1741,7 @@
 | `xjz_805_i1g` | 青衣童兒（王懿傳神異敘事） | [《宋書・趙倫之 王懿 張邵》][209] | [JSON](xjz_805_i1g.json) |
 | `xk1_q1d_4tc` | 韓信舍人未名 | [《史記・淮陰侯列傳》][161] | [JSON](xk1_q1d_4tc.json) |
 | `xkc_rp5_a3d` | 宣帝 | [《史記・三王世家》][129] | [JSON](xkc_rp5_a3d.json) |
+| `xki_n8p_8nw` | 托跋開 | [《宋書・宗室》][212] | [JSON](xki_n8p_8nw.json) |
 | `xkn_0tx_45l` | 秦孝公 | [《史記・趙世家》][112] | [JSON](xkn_0tx_45l.json) |
 | `xlb_7my_ut6` | 郭奕寡姊〔未名〕 | [《晉書・劉毅 和嶠 武陔 任愷 崔洪 郭奕 侯史光 何攀》][34] | [JSON](xlb_7my_ut6.json) |
 | `xli_xkc_ts4` | 魯襄公 | [《史記・孔子世家》][116] | [JSON](xli_xkc_ts4.json) |
@@ -2095,6 +2104,9 @@
 | `zy0_phw_hl6` | 門下前對者未名 | [《史記・平原君虞卿列傳》][145] | [JSON](zy0_phw_hl6.json) |
 | `zy7_ewt_vzi` | 韓哀侯 | [《史記・刺客列傳》][155] | [JSON](zy7_ewt_vzi.json) |
 | `zyz_h7j_k4r` | 元洪業〔魏書058津鈞單元〕 | [《魏書・楊播》][236] | [JSON](zyz_h7j_k4r.json) |
+
+| 人物 ID | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
 | `zzb_3ij_mhc` | 李歆（麴山守將） | [《三國志・桓二陳徐衞盧傳》][83] | [JSON](zzb_3ij_mhc.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
