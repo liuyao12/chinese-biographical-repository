@@ -3,7 +3,7 @@
   "record_type": "fixed_wyd_song051_entity_markup_phase_contract",
   "phase": "song051_entity_markup_phase3",
   "parent_contract_path": "source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json",
-  "parent_contract_sha256": "dc5b4ab87bb78389fa6a946ec6774379785e3cd1fb52834d53c468eb9bf4a353",
+  "parent_contract_sha256": "1b08010b32199fee1d541c76885b0fc2114a6196ead368b9dfc9dffe52406ca0",
   "chapter_path": "corpus/songshu/051-wyd1739.json",
   "chapter_id": "c-songshu-051-wyd1739-zongshi",
   "parent_layer": "song051_yixin_complete_unit_phase2",
@@ -39,11 +39,14 @@
         "c-songshu-051-wyd1739-zongshi:p007",
         "c-songshu-051-wyd1739-zongshi:p012",
         "c-songshu-051-wyd1739-zongshi:p013",
+        "c-songshu-051-wyd1739-zongshi:p014",
+        "c-songshu-051-wyd1739-zongshi:p017",
         "c-songshu-051-wyd1739-zongshi:p034",
         "c-songshu-051-wyd1739-zongshi:p047",
         "c-songshu-051-wyd1739-zongshi:p048"
       ],
-      "additional_person_mentions": 134
+      "additional_person_mentions": 134,
+      "additional_reference_mentions": 8
     },
     "human_reviewed": false,
     "model": null
@@ -2296,5 +2299,111 @@
   "assertions_path": "corpus/songshu/051-wyd1739-entity-phase3-assertions.json",
   "assertions_sha256": "6dacfefde71a42bda7b4ec64b964b93c21ec23d68c53df6271dd3eb5cc8a1dd8",
   "life_events_path": "corpus/songshu/051-wyd1739-entity-phase3-life-events.json",
-  "life_events_sha256": "7b6e90ac0a7819e58cf03b82fd249416112333a848d7b8eef85e62307008ef54"
+  "life_events_sha256": "7b6e90ac0a7819e58cf03b82fd249416112333a848d7b8eef85e62307008ef54",
+  "reference_markers": [
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p014",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p014:m0059",
+        "start": 59,
+        "end": 60,
+        "surface": "之",
+        "kind": "pronoun",
+        "person_id": "3qs_nqa_ioa_AABD",
+        "status": "contextual_provisional",
+        "interpretation_note": "此處「之」承前指劉義宗。"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p014",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p014:m0091",
+        "start": 91,
+        "end": 92,
+        "surface": "之",
+        "kind": "pronoun",
+        "person_id": "605_88c_a9a",
+        "status": "contextual_provisional",
+        "interpretation_note": "《南史》卷十九〈謝惠連傳〉明言謝惠連所愛幸者為會稽郡吏杜德靈；此處「之」指杜德靈。"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p014",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p014:m0093",
+        "start": 93,
+        "end": 94,
+        "surface": "之",
+        "kind": "pronoun",
+        "person_id": "605_88c_a9a",
+        "status": "contextual_provisional",
+        "interpretation_note": "承上「惠連愛幸之」；《南史》卷十九〈謝惠連傳〉明言所愛幸者為杜德靈。"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p014",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p014:m0160",
+        "start": 160,
+        "end": 161,
+        "surface": "之",
+        "kind": "pronoun",
+        "person_id": "3qs_nqa_ioa_AABD",
+        "status": "contextual_provisional",
+        "interpretation_note": "此處「之」承前指劉義宗。"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p017:m0054",
+        "start": 54,
+        "end": 55,
+        "surface": "之",
+        "kind": "pronoun",
+        "person_id": "3qs_nqa_ioa_AABAE",
+        "status": "contextual_provisional",
+        "interpretation_note": "承上「韞」指劉韞。"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p017:m0110",
+        "start": 110,
+        "end": 111,
+        "surface": "君",
+        "kind": "pronoun",
+        "person_id": "3qs_nqa_ioa_AABDB",
+        "status": "contextual_provisional",
+        "interpretation_note": "此為蕭氏對劉秉的第二人稱稱呼，不是人名。"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p017:m0171",
+        "start": 171,
+        "end": 172,
+        "surface": "之",
+        "kind": "pronoun",
+        "person_id": null,
+        "status": "unresolved",
+        "interpretation_note": "此處「之」回指前述私通行為，非人物；保留代詞錨點，不建立人物關係。"
+      }
+    },
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p017",
+      "marker": {
+        "id": "c-songshu-051-wyd1739-zongshi:p017:m0197",
+        "start": 197,
+        "end": 198,
+        "surface": "之",
+        "kind": "pronoun",
+        "person_id": "3qs_nqa_ioa_AABDD",
+        "status": "contextual_provisional",
+        "interpretation_note": "承上「謨弟遐」指劉遐。"
+      }
+    }
+  ]
 }

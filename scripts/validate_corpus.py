@@ -206,6 +206,10 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                 try:from scripts.wyd_song044_life import date_valid as wyd_execution_date_valid
                 except ImportError:from wyd_song044_life import date_valid as wyd_execution_date_valid
                 valid = bound_role == 'life_event' and wyd_execution_date_valid(date,bound_record,chapters or {},root)
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_wyd_song051_p014_p017_life_date':
+                try:from scripts.song051_p014_p017_life_dates import valid as song051_life_date_valid
+                except ImportError:from song051_p014_p017_life_dates import valid as song051_life_date_valid
+                valid = song051_life_date_valid(date,bound_record,chapters or {},root,bound_role)
             if isinstance(mapping, dict) and mapping.get('kind') == 'relative_ce_regnal_era_span':
                 try:
                     from scripts.relative_regnal_year import relative_regnal_year_valid

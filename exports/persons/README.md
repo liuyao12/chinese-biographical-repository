@@ -474,7 +474,7 @@
 
 </details>
 
-<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（40 名）</summary>
+<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（44 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -511,6 +511,10 @@
 | `AABD` | 劉義宗 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABD.json) |
 | `AABDA` | 劉玠 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDA.json) |
 | `AABDB` | 劉秉 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDB.json) |
+| `AABDBA` | 劉承 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDBA.json) |
+| `AABDBB` | 劉俁 | [《梁書・謝朏 弟子覽》][63]、[《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDBB.json) |
+| `AABDC` | 劉謨 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDC.json) |
+| `AABDD` | 劉遐 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDD.json) |
 | `AABE` | 義賓 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABE.json) |
 | `AABEA` | 劉綜 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEA.json) |
 | `AABEAA` | 劉憲 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABEAA.json) |
@@ -2856,7 +2860,7 @@
 
 </details>
 
-<details><summary><code>ph1_ms8_hyq</code> 亮〔孝懿蕭后祖；字保祚〕（5 名）</summary>
+<details><summary><code>ph1_ms8_hyq</code> 亮〔孝懿蕭后祖；字保祚〕（6 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2865,6 +2869,7 @@
 | `AA` | 蕭文夀〔孝懿皇后〕 | [《宋書・后妃》][204] | [JSON](ph1_ms8_hyq_AA.json) |
 | `AB` | 源之〔蕭卓子〕 | [《宋書・后妃》][204] | [JSON](ph1_ms8_hyq_AB.json) |
 | `ABA` | 蕭思話 | [《南齊書・王僧虔 張緒》][67] | [JSON](ph1_ms8_hyq_ABA.json) |
+| `ABAA` | 蕭氏〔秉妻〕 | [《宋書・宗室》][212] | [JSON](ph1_ms8_hyq_ABAA.json) |
 
 </details>
 

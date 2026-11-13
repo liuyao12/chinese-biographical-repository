@@ -14,7 +14,7 @@ except ImportError:
 CH = 'corpus/songshu/051-wyd1739.json'
 CID = 'c-songshu-051-wyd1739-zongshi'
 REF = 'source-evidence/song051-wyd1739-zongshi/entity-markup-phase3-contract.json'
-CONTRACT_SHA = '5fe21384604b3767c7edc5064bcc09310eb96bb7aa893a22ece50f8fd3a1e638'
+CONTRACT_SHA = 'a7925450e395402bbb552f2a138ac6cd9bc5dd4ee7dab4f2a78431762c2f417d'
 
 
 def need(ok, message):
@@ -59,6 +59,16 @@ def layer_chapter(root, parent):
         marker = copy.deepcopy(row['marker'])
         need(paragraph['text'][marker['start']:marker['end']] == marker['surface'], '標記字面／位置不符')
         need(not any(m['id'] == marker['id'] for m in paragraph['mentions']), 'MID 碰撞')
+        paragraph['mentions'].append(marker)
+        paragraph['mentions'].sort(key=lambda item: item['start'])
+        paragraph['annotation_status'] = 'in_progress'
+    for row in c.get('reference_markers', []):
+        paragraph = next((p for p in chapter['paragraphs'] if p['id'] == row['paragraph_id']), None)
+        need(paragraph is not None, '代詞段落不在固定第二層章內')
+        marker = copy.deepcopy(row['marker'])
+        need(marker.get('kind') == 'pronoun', 'reference marker 必須為代詞')
+        need(paragraph['text'][marker['start']:marker['end']] == marker['surface'], '代詞字面／位置不符')
+        need(not any(m['id'] == marker['id'] for m in paragraph['mentions']), '代詞 MID 碰撞')
         paragraph['mentions'].append(marker)
         paragraph['mentions'].sort(key=lambda item: item['start'])
         paragraph['annotation_status'] = 'in_progress'

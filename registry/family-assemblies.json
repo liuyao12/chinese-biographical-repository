@@ -11709,6 +11709,16 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "ph1_ms8_hyq_AB",
           "source_assertion_id": "a-song041-kin-018"
+        },
+        {
+          "person_id": "ph1_ms8_hyq_ABAA",
+          "representative_source_person_id": "ph1_ms8_hyq_ABAA",
+          "source_person_ids": [
+            "ph1_ms8_hyq_ABAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "ph1_ms8_hyq_ABA",
+          "source_assertion_id": "a-song051-p014-p017-father-xiao-sihua"
         }
       ]
     },
@@ -12590,6 +12600,130 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "3qs_nqa_ioa_AABCB",
           "source_assertion_id": "a-song051-p013-liuxi-father-liumin"
+        },
+        {
+          "person_id": "3qs_nqa_ioa_AABDBB",
+          "representative_source_person_id": "3qs_nqa_ioa_AABDBB",
+          "source_person_ids": [
+            "3qs_nqa_ioa_AABDBB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "3qs_nqa_ioa_AABDB",
+          "source_assertion_id": "a-song051-yixin-liuyu-father",
+          "parent_connection": null
+        },
+        {
+          "person_id": "3qs_nqa_ioa_AABDBA",
+          "representative_source_person_id": "3qs_nqa_ioa_AABDBA",
+          "source_person_ids": [
+            "3qs_nqa_ioa_AABDBA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "3qs_nqa_ioa_AABDB",
+          "source_assertion_id": "a-song051-p014-p017-father-cheng-bing"
+        },
+        {
+          "person_id": "3qs_nqa_ioa_AABDC",
+          "representative_source_person_id": "3qs_nqa_ioa_AABDC",
+          "source_person_ids": [
+            "3qs_nqa_ioa_AABDC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "3qs_nqa_ioa_AABD",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling_chain",
+            "status": "contextual_provisional",
+            "rationale": "本源明言秉弟謨；秉又明為玠弟，玠明父義宗。編輯暫以逐步明弟關係及玠明父將謨接入義宗父系，屬可撤回的家系組裝，不另造謨父親的來源父子陳述，也不推同母或排行。",
+            "sibling_person_ids": [
+              "3qs_nqa_ioa_AABDB",
+              "3qs_nqa_ioa_AABDA"
+            ],
+            "sibling_assertion_ids": [
+              "a-song051-p014-p017-brother-mo-bing",
+              "a-song051-yixin-bing-brother"
+            ],
+            "sibling_father_assertion_id": "a-song051-yixin-jie-father",
+            "references": [
+              {
+                "title": "《宋書》卷五十一〈宗室〉",
+                "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+                "assertion_id": "a-song051-p014-p017-brother-mo-bing",
+                "quote": "秉弟謨",
+                "scope": "明載謨為秉弟；此句不單獨證明同父。"
+              },
+              {
+                "title": "《宋書》卷五十一〈宗室〉",
+                "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+                "assertion_id": "a-song051-yixin-bing-brother",
+                "quote": "無子弟秉以子承繼封",
+                "scope": "明載秉為玠弟；不單獨證明共同父。"
+              },
+              {
+                "title": "《宋書》卷五十一〈宗室〉",
+                "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+                "assertion_id": "a-song051-yixin-jie-father",
+                "quote": "子懷侯玠嗣",
+                "scope": "玠明父為義宗；與逐步明弟關係合讀作可撤回父系組裝。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "3qs_nqa_ioa_AABDD",
+          "representative_source_person_id": "3qs_nqa_ioa_AABDD",
+          "source_person_ids": [
+            "3qs_nqa_ioa_AABDD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "3qs_nqa_ioa_AABD",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling_chain",
+            "status": "contextual_provisional",
+            "rationale": "本源明言謨弟遐、秉弟謨；秉又明為玠弟，玠明父義宗。編輯暫以逐步明弟關係及玠明父將遐接入義宗父系，屬可撤回的家系組裝，不另造遐父親的來源父子陳述，也不推同母或排行。",
+            "sibling_person_ids": [
+              "3qs_nqa_ioa_AABDC",
+              "3qs_nqa_ioa_AABDB",
+              "3qs_nqa_ioa_AABDA"
+            ],
+            "sibling_assertion_ids": [
+              "a-song051-p014-p017-brother-xia-mo",
+              "a-song051-p014-p017-brother-mo-bing",
+              "a-song051-yixin-bing-brother"
+            ],
+            "sibling_father_assertion_id": "a-song051-yixin-jie-father",
+            "references": [
+              {
+                "title": "《宋書》卷五十一〈宗室〉",
+                "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+                "assertion_id": "a-song051-p014-p017-brother-xia-mo",
+                "quote": "謨弟遐",
+                "scope": "明載遐為謨弟；此句不單獨證明同父。"
+              },
+              {
+                "title": "《宋書》卷五十一〈宗室〉",
+                "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+                "assertion_id": "a-song051-p014-p017-brother-mo-bing",
+                "quote": "秉弟謨",
+                "scope": "明載謨為秉弟；此句不單獨證明同父。"
+              },
+              {
+                "title": "《宋書》卷五十一〈宗室〉",
+                "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+                "assertion_id": "a-song051-yixin-bing-brother",
+                "quote": "無子弟秉以子承繼封",
+                "scope": "明載秉為玠弟；不單獨證明共同父。"
+              },
+              {
+                "title": "《宋書》卷五十一〈宗室〉",
+                "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+                "assertion_id": "a-song051-yixin-jie-father",
+                "quote": "子懷侯玠嗣",
+                "scope": "玠明父為義宗；與逐步明弟關係合讀作可撤回父系組裝。"
+              }
+            ]
+          }
         }
       ]
     },
