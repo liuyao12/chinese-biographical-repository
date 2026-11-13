@@ -2124,8 +2124,18 @@ def _validate_uncached(root=ROOT):
             for use in chapter['annotation'].get('source_title_uses', []):
                 errors.extend(source_use_errors(use, chapter, pids, title_records))
         age_ids = set(); age_report_groups = {}
+        age_assertions_by_chapter = {cid: list(chapter.get('annotation', {}).get('age_assertions', [])) for cid, chapter in chapters.items()}
+        for path in (root / 'corpus').glob('*/*-ages.json'):
+            record = json.loads(path.read_text(encoding='utf-8'))
+            if record.get('record_type') != 'person_age_assertion_set':
+                continue
+            cid = record.get('chapter_id')
+            check(cid in chapters, '報齡集篇章不存在')
+            check(isinstance(record.get('assertions'), list), '報齡集缺少 assertions 陣列')
+            if cid in age_assertions_by_chapter:
+                age_assertions_by_chapter[cid].extend(record.get('assertions', []))
         for chapter in chapters.values():
-            for age in chapter['annotation'].get('age_assertions', []):
+            for age in age_assertions_by_chapter.get(chapter['id'], []):
                 check(age['id'] not in age_ids, '年齡記錄 ID 重複'); age_ids.add(age['id'])
                 number = age.get('source_number'); parsed = source_age_number(number)
                 if 'received_unit_age_binding' in age:

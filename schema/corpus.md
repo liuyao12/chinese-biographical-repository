@@ -102,7 +102,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `kinship_generation` 保存「大父行」的祖父輩親屬，主體為單于、客體為所述親屬。保存 `source_term: 大父行`、`generation_difference: -2`、`lineage: unspecified`、`direct_ancestor: null`、`exact_distance: null`。此處只記世代，不生成父子路徑、祖父節點或已確定的父系親等。
 
-篇章 `annotation.age_assertions` 保存來源所報年齡，逐人 JSON 同名欄位匯出。數值 `value`、原數詞 `source_number` 與 `source_term` 分開保存；`unit: source_age_years`、`counting: unspecified_source_age`、`birth_year: null` 不推定計歲方式或反推出生年。證據連到人物錨點與原句；`normalized_date` 是報齡所屬事件年，日期索引標 `date_role: age_attestation`，不作出生事件。支援「年」後或「歲／歳」前的一至九十九數詞，保留來源實際字形；其他報齡形式需擴充驗證後保存。
+篇章 `annotation.age_assertions` 或 `person_age_assertion_set.assertions` 保存來源所報年齡，逐人 JSON 同名欄位匯出；對固定文字契約鎖定的篇章，使用後者以免改動鎖定正文物件。數值 `value`、原數詞 `source_number` 與 `source_term` 分開保存；`unit: source_age_years`、`counting: unspecified_source_age`、`birth_year: null` 不推定計歲方式或反推出生年。證據連到人物錨點與原句；`normalized_date` 是報齡所屬事件年，日期索引標 `date_role: age_attestation`，不作出生事件。支援「年」後或「歲／歳」前的一至九十九數詞，保留來源實際字形；其他報齡形式需擴充驗證後保存。
 
 ## 同指判斷與已套用的身份整併
 

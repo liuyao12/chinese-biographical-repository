@@ -353,6 +353,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 occurrence_cells[cell['id']] = cell
         elif kind == 'person_address_assertion_set':
             addresses.extend(a for a in record['assertions'] if a['person_id'] in ids)
+        elif kind == 'person_age_assertion_set':
+            ages.extend(a for a in record['assertions'] if a['person_id'] in ids)
         elif kind in ('person_life_event_assertion_set', 'table_person_life_event_assertion_set'):
             life_events.extend(e for e in record['events'] if e['person_id'] in ids)
         elif kind == 'person_event_assertion_set':
