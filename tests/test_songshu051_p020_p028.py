@@ -6,8 +6,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from song051_p020_p028 import (age_assertions, assertions, family_valid, life_event_valid,
-                               life_events, load, name_components)
+from song051_p020_p028 import (addresses, age_assertions, assertions, family_valid, life_event_valid,
+                               life_events, load, name_components, titles)
 from maternal_cousins import maternal_cousin_valid
 from surname_from_father import validate as validate_surname
 
@@ -58,6 +58,21 @@ class Songshu051P020P028Tests(unittest.TestCase):
         self.assertEqual(['時年', '四十三'], [p['surface'] for p in age['source_term_split_binding']['parts']])
         self.assertIsNone(age['birth_year'])
         self.assertEqual(412, age['normalized_date']['year'])
+
+    def test_daogui_death_context_uses_main_subject_mention(self):
+        expected = 'c-songshu-051-wyd1739-zongshi:p027:m0129'
+        death = next(e for e in life_events(self.chapter, ROOT)['events'] if e['id'] == 'le-song051-p020-p028-daogui-death')
+        self.assertEqual(expected, death['evidence'][0]['person_mention_id'])
+        self.assertEqual(expected, death['normalized_date']['evidence'][0]['person_mention_id'])
+        address = next(a for a in addresses(self.chapter)['assertions'] if a['id'] == 'ad-song051-p020-p028-daogui-death-place')
+        self.assertEqual(expected, address['evidence'][0]['person_mention_id'])
+        age = age_assertions(self.chapter, ROOT)['assertions'][0]
+        self.assertEqual(expected, age['evidence'][0]['person_mention_id'])
+        holdings = titles(self.chapter)['holdings']
+        self.assertTrue(all(h['attestations'][0]['person_mention_id'] == expected
+                            for h in holdings if h['id'].endswith(('daogui-zhengxi','daogui-kaifu','daogui-sanjichangshi'))))
+        enfeoffment = next(h for h in holdings if h['id'] == 'th-song051-p020-p028-daogui-linchuanwang')
+        self.assertEqual(expected, enfeoffment['enfeoffment_basis']['death_context']['person_mention_id'])
 
     def test_death_dates_are_source_bound_and_reversible(self):
         events = life_events(self.chapter, ROOT)['events']
