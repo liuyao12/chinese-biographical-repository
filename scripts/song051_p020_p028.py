@@ -65,8 +65,20 @@ def assertions(ch):
                   'interpretation_note': '「從母兄」記同代、母系旁親及來源所稱較長；未名母親、姨母與共祖均不補，故不加入父系家族。「蕭氏舅也」另存原句，不推定或新造未具名蕭氏人物。'},
                 'evidence': [evidence(ch, p, [cousin['id'], daogui['id']])],
                 'human_reviewed': False, 'model': None}
+    p = ps['p028']; child = mention(ch, 'p028', '義慶'); father = mention(ch, 'p028', '長沙景王')
+    second_son = {'id': 'a-song051-p020-p028-liu-yiqing-second-son-of-daolian',
+                  'subject_person_id': child['person_id'], 'object_person_id': father['person_id'],
+                  'predicate': 'father', 'status': 'source_attested',
+                  'qualifiers': {'source_term': '長沙景王第二子義慶', 'lineage': 'paternal',
+                    'source_child_term': '子', 'source_child_sex': 'male',
+                    'birth_order': {'ordinal': 2, 'source_term': '第二子', 'scope': 'sons_of_parent',
+                      'parent_person_id': father['person_id'], 'position': 'unspecified',
+                      'interpretation_status': 'source_attested'}},
+                  'evidence': [evidence(ch, p, [child['id'], father['id']])],
+                  'interpretation_note': '原文「長沙景王第二子義慶為嗣」明言劉義慶為劉道憐第二子；排行只限兒子序列，不推母親或其他子女完整次序。',
+                  'human_reviewed': False, 'reviewer': 'Codex（AI代理）', 'model': None}
     return {'format_version': '0.2', 'record_type': 'person_assertion_set', 'chapter_id': CID,
-            'assertions': [parent, maternal]}
+            'assertions': [parent, maternal, second_son]}
 
 def identity_decisions(ch, root):
     ps = paragraphs(ch); by_pid = {}
