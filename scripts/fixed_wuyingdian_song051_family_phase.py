@@ -143,7 +143,7 @@ def _phase1_context(root,ch=None,check_sidecars=True):
     continue
    person=people.get(m['person_id']);need(bool(person),'人物未登記')
    if m.get('kind')!='pronoun':need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'缺反向alias')
-   e=dict(work_id=owner['work_id'],book_id=owner['book_id'],source_id=owner['source_id'],chapter_id=owner['id'],paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'缺反向evidence')
+   e=dict(work_id=owner['work_id'],book_id=owner['book_id'],source_id=owner['source_id'],chapter_id=owner['id'],paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need((e not in person['evidence']) if m.get('kind')=='pronoun' else (e in person['evidence']),'姓名反向evidence／代詞排除不符')
  # The original pending validator is unchanged; normalize only after exact formal proof.
  try:from scripts.fixed_wuyingdian_song051 import validate_source
  except ImportError:from fixed_wuyingdian_song051 import validate_source
@@ -351,7 +351,7 @@ def _phase2_context(root,ch=None,check_sidecars=True):
     continue
    person=people.get(m['person_id']);need(bool(person),'人物未登記')
    if m.get('kind')!='pronoun':need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'缺反向alias')
-   e=dict(work_id=owner['work_id'],book_id=owner['book_id'],source_id=owner['source_id'],chapter_id=owner['id'],paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'缺反向evidence')
+   e=dict(work_id=owner['work_id'],book_id=owner['book_id'],source_id=owner['source_id'],chapter_id=owner['id'],paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need((e not in person['evidence']) if m.get('kind')=='pronoun' else (e in person['evidence']),'姓名反向evidence／代詞排除不符')
  # The original pending validator is unchanged; normalize only after exact formal proof.
  try:from scripts.fixed_wuyingdian_song051 import validate_source
  except ImportError:from fixed_wuyingdian_song051 import validate_source

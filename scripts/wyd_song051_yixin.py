@@ -3,7 +3,7 @@ from pathlib import Path
 import json,copy,hashlib
 try:from scripts.validation_context import memoized
 except ImportError:from validation_context import memoized
-CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_p014_p017_family_annotation_batch';CONTRACT_SHA='4cf55bdc5ccb1c9c7832ff1dff6df083d114be1132518aafeaa6eb4eb87a274b'
+CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_p014_p017_family_annotation_batch';CONTRACT_SHA='4d7d709602818f9a34c56d61995a8365e9b7e19226e9812c61dffbc8ebd15114'
 def same(a,b):
  if type(a)is not type(b):return False
  if type(a)is dict:return all(type(k)is str for k in a)and all(type(k)is str for k in b)and set(a)==set(b)and all(same(a[k],b[k])for k in a)
@@ -69,9 +69,9 @@ def state(root,ch=None):
  for row in c.get('later_phase',{}).get('markers',[]):
   p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id'])
   if m['kind']=='unresolved':need(m.get('person_id')is None and m.get('status')=='unresolved','後續未決錨不得暗連人物');continue
-  person=people.get(m['person_id']);need(person is not None,'後續批次人物未登記');has_alias=any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']);need(has_alias if m['kind']=='person' else not has_alias,'後續姓名alias／代詞分類不符');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'後續批次反向evidence缺漏')
+  person=people.get(m['person_id']);need(person is not None,'後續批次人物未登記');has_alias=any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']);need(has_alias if m['kind']=='person' else not has_alias,'後續姓名alias／代詞分類不符');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need((e not in person['evidence']) if m['kind']=='pronoun' else (e in person['evidence']),'後續批次姓名反向evidence／代詞排除不符')
  for row in c.get('later_phase',{}).get('pronoun_reclassifications',[]):
-  p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['mention_id']);person=people.get(m.get('person_id'));need(m['kind']=='pronoun' and person is not None,'後續代詞須保留有效指涉');need(not any(m['id']in a.get('mention_ids',[])for a in person['aliases']),'後續代詞不得列作姓名alias');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'後續代詞反向evidence缺漏')
+  p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['mention_id']);person=people.get(m.get('person_id'));need(m['kind']=='pronoun' and person is not None,'後續代詞須保留有效指涉');need(not any(m['id']in a.get('mention_ids',[])for a in person['aliases']),'後續代詞不得列作姓名alias');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e not in person['evidence'],'後續代詞不得留在姓名反向evidence；person_id僅供指涉')
  try:from scripts.wyd_song051_p018 import markers as p018_markers
  except ImportError:from wyd_song051_p018 import markers as p018_markers
  for row in p018_markers(root):
@@ -138,6 +138,7 @@ def guard_bundle(root,pid,people,records):
  if not has_phase(ch):return
  actual,roles,c,docs=state(root);registered={p['id']:p for p in load(root,'registry/persons.json')['persons']};need(same(people.get(pid),registered.get(pid)),'bundle現行人物不符')
  for rel,expected in docs.items():
+  if rel in c.get('later_phase',{}).get('bundle_excluded_documents',[]):continue
   hits=[]
   for record in records:
    candidate=record
