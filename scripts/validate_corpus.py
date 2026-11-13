@@ -38,7 +38,7 @@ def split_source_age_binding_valid(age, chapter, paragraphs, mentions):
     if not isinstance(binding, dict) or binding.get('kind') != 'adjacent_fixed_transcription_paragraphs':
         return False
     parts = binding.get('parts')
-    if not isinstance(parts, list) or len(parts) != 2 or binding.get('source_term') != age.get('source_term'):
+    if not isinstance(parts, list) or len(parts) != 2 or any(not isinstance(part, dict) for part in parts) or binding.get('source_term') != age.get('source_term'):
         return False
     if ''.join(part.get('surface', '') for part in parts if isinstance(part, dict)) != age.get('source_term'):
         return False
@@ -57,6 +57,8 @@ def split_source_age_binding_valid(age, chapter, paragraphs, mentions):
         if not hit or hit[0]['id'] != chapter['id'] or not isinstance(start, int) or not isinstance(end, int):
             return False
         text = hit[1].get('text', '')
+        if start < 0 or end <= start or end > len(text):
+            return False
         if text[start:end] != surface or part.get('paragraph_sha256') != hashlib.sha256(text.encode()).hexdigest():
             return False
         if not ev or ev.get('chapter_id') != chapter['id'] or ev.get('source_id') != chapter.get('source_id') or ev.get('quote') != text or ev.get('person_mention_id') != part.get('person_mention_id'):
