@@ -853,13 +853,34 @@
             "c-songshu-051-wyd1739-zongshi:p019",
             "c-songshu-051-wyd1739-zongshi:p020",
             "c-songshu-051-wyd1739-zongshi:p021",
-            "c-songshu-051-wyd1739-zongshi:p022"
+            "c-songshu-051-wyd1739-zongshi:p022",
+            "c-songshu-051-wyd1739-zongshi:p023",
+            "c-songshu-051-wyd1739-zongshi:p024"
           ],
-          "additional_person_mentions": 222,
+          "additional_person_mentions": 242,
           "additional_reference_mentions": 8
         },
         "human_reviewed": false,
         "model": null
+      }
+    ],
+    "reported_variants": [
+      {
+        "id": "rv-song051-p023-huarong-allowance",
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p023",
+        "person_ids": [
+          "3qs_nqa_ioa_AAC"
+        ],
+        "source_term": "食邑二千戶",
+        "received_reading": "食邑二千戶",
+        "reported_reading": "食邑三千戶",
+        "commentator": "《宋書（四庫全書本）》維基文庫數位正文（非注文）",
+        "quote": "以義勳封華容縣公食邑三千戶",
+        "url": "https://zh.wikisource.org/wiki/宋書_(四庫全書本)/卷051",
+        "status": "reported_not_collated",
+        "adopted": false,
+        "image_verified": false,
+        "interpretation_note": "僅作另一數位本的文字對讀；本庫底文仍依武英殿本作「二千戶」，未核對四庫本圖像，不以此異文改寫或裁定食邑數。"
       }
     ]
   },
@@ -5103,8 +5124,81 @@
       "id": "c-songshu-051-wyd1739-zongshi:p023",
       "text": "平也道規推毅為元功無忌為次功自居其末進號輔國將軍督淮北諸軍事并州刺史義昌太守如故時荆州湘江豫猶多桓氏餘燼往往屯結復以本官進督江州之武昌荆州之江夏隨郡義陽綏安豫州之西陽汝南潁川新蔡九郡諸軍事隨宜剪撲皆悉平之以義勳封華容縣公食邑二千戶遷使持節都督荆寧秦梁雍六州司州之河南諸軍事領護南蠻校尉荆州刺史將軍如故辭南蠻以授殷叔文叔文被誅乃復還領善於為治刑政明理士民莫不畏而愛之劉敬宣征蜀不克道規以督統降為建威將軍盧循寇逼京邑道規遣司",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0002",
+          "kind": "person",
+          "surface": "道規",
+          "start": 2,
+          "end": 4,
+          "person_id": "3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0005",
+          "kind": "person",
+          "surface": "毅",
+          "start": 5,
+          "end": 6,
+          "person_id": "a59_2c3_a2e"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0009",
+          "kind": "person",
+          "surface": "無忌",
+          "start": 9,
+          "end": 11,
+          "person_id": "c9y_5dx_n1p"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0155",
+          "kind": "person",
+          "surface": "殷叔文",
+          "start": 155,
+          "end": 158,
+          "person_id": "woq_srv_b9s"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0158",
+          "kind": "person",
+          "surface": "叔文",
+          "start": 158,
+          "end": 160,
+          "person_id": "woq_srv_b9s"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0182",
+          "kind": "person",
+          "surface": "劉敬宣",
+          "start": 182,
+          "end": 185,
+          "person_id": "er7_nw6_n6w"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0189",
+          "kind": "person",
+          "surface": "道規",
+          "start": 189,
+          "end": 191,
+          "person_id": "3qs_nqa_ioa_AAC"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0200",
+          "kind": "person",
+          "surface": "盧循",
+          "start": 200,
+          "end": 202,
+          "person_id": "m8n_ntm_79h_ABBA**A"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p023:m0206",
+          "kind": "person",
+          "surface": "道規",
+          "start": 206,
+          "end": 208,
+          "person_id": "3qs_nqa_ioa_AAC"
+        }
+      ],
       "source_position": {
         "raw_projection_ref": "source-evidence/song051-wyd1739-zongshi/transcription-projection.json",
         "raw_file_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
@@ -5121,6 +5215,30 @@
       "annotation_status": "in_progress",
       "mentions": [
         {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0001",
+          "kind": "person",
+          "surface": "王鎮之",
+          "start": 1,
+          "end": 4,
+          "person_id": "7r6_k52_qji_ABDACAA"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0009",
+          "kind": "person",
+          "surface": "檀道濟",
+          "start": 9,
+          "end": 12,
+          "person_id": "w8z_nph_trk"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0016",
+          "kind": "person",
+          "surface": "到彥之",
+          "start": 16,
+          "end": 19,
+          "person_id": "6bo_qfq_pl9"
+        },
+        {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0030",
           "start": 30,
           "end": 32,
@@ -5128,6 +5246,14 @@
           "kind": "person",
           "person_id": "mvk_2p2_qe8",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0034",
+          "kind": "person",
+          "surface": "循",
+          "start": 34,
+          "end": 35,
+          "person_id": "m8n_ntm_79h_ABBA**A"
         },
         {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0037",
@@ -5139,6 +5265,14 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0056",
+          "kind": "person",
+          "surface": "徐道覆",
+          "start": 56,
+          "end": 59,
+          "person_id": "bt2_eqz_i4y"
+        },
+        {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0064",
           "start": 64,
           "end": 66,
@@ -5148,6 +5282,14 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0071",
+          "kind": "person",
+          "surface": "譙縱",
+          "start": 71,
+          "end": 73,
+          "person_id": "j5i_ahk_7yx"
+        },
+        {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0074",
           "start": 74,
           "end": 75,
@@ -5155,6 +5297,14 @@
           "kind": "person",
           "person_id": "u9s_w6j_8mc_AEB",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0088",
+          "kind": "person",
+          "surface": "譙道福",
+          "start": 88,
+          "end": 91,
+          "person_id": "o3z_vpz_572"
         },
         {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0097",
@@ -5184,6 +5334,14 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0128",
+          "kind": "person",
+          "surface": "道規",
+          "start": 128,
+          "end": 130,
+          "person_id": "3qs_nqa_ioa_AAC"
+        },
+        {
           "id": "c-songshu-051-wyd1739-zongshi:p024:m0137",
           "start": 137,
           "end": 139,
@@ -5191,6 +5349,30 @@
           "kind": "person",
           "person_id": "u9s_w6j_8mc_AEB",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0189",
+          "kind": "person",
+          "surface": "魯宗之",
+          "start": 189,
+          "end": 192,
+          "person_id": "aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0203",
+          "kind": "person",
+          "surface": "宗之",
+          "start": 203,
+          "end": 205,
+          "person_id": "aa9_7e9_5b9"
+        },
+        {
+          "id": "c-songshu-051-wyd1739-zongshi:p024:m0208",
+          "kind": "person",
+          "surface": "道規",
+          "start": 208,
+          "end": 210,
+          "person_id": "3qs_nqa_ioa_AAC"
         }
       ],
       "source_position": {

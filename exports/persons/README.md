@@ -2631,7 +2631,7 @@
 | `ABA` | 皓〔盧珽子〕 | [《三國志・桓二陳徐衞盧傳》][84] | [JSON](m8n_ntm_79h_ABA.json) |
 | `ABB` | 盧志 | [《三國志・桓二陳徐衞盧傳》][84] | [JSON](m8n_ntm_79h_ABB.json) |
 | `ABBA` | 盧諶 | [《三國志・桓二陳徐衞盧傳》][84] | [JSON](m8n_ntm_79h_ABBA.json) |
-| `ABBA**A` | 盧循 | [《宋書・張茂度 庾登之 謝方明 江夷》][215] | [JSON](m8n_ntm_79h_ABBA%2A%2AA.json) |
+| `ABBA**A` | 盧循 | [《宋書・宗室》][212] | [JSON](m8n_ntm_79h_ABBA%2A%2AA.json) |
 | `ABBAA` | 偃〔盧諶子〕 | [《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](m8n_ntm_79h_ABBAA.json) |
 | `ABBAAA` | 邈〔偃子〕 | [《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](m8n_ntm_79h_ABBAAA.json) |
 

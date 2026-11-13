@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `mes_rgf_o7u` | 趙毗 | [《晉書・桓彝》][44] | [JSON](mes_rgf_o7u.json) |
 | `mev_r3x_fuu` | 欒書 | [《史記・鄭世家》][111] | [JSON](mev_r3x_fuu.json) |
 | `mex_tig_16z` | 蓋聶 | [《史記・刺客列傳》][155] | [JSON](mex_tig_16z.json) |
 | `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][115] | [JSON](mf2_tm7_f9r.json) |
@@ -262,7 +261,7 @@
 | `o2y_k2f_4fa` | 慕容皝 | [《晉書・外戚》][56] | [JSON](o2y_k2f_4fa.json) |
 | `o32_eo4_vyk` | 雲中守遬 | [《史記・絳侯周勃世家》][126] | [JSON](o32_eo4_vyk.json) |
 | `o3z_4md_e9l` | 太仆嬰 | [《史記・齊悼惠王世家》][121] | [JSON](o3z_4md_e9l.json) |
-| `o3z_vpz_572` | 譙道福 | [《晉書・桓彝》][44] | [JSON](o3z_vpz_572.json) |
+| `o3z_vpz_572` | 譙道福 | [《晉書・桓彝》][44]、[《宋書・宗室》][212] | [JSON](o3z_vpz_572.json) |
 | `o40_aw4_nck` | 宋貴人（敬隱皇后） | [《後漢書・孝獻帝紀》][14] | [JSON](o40_aw4_nck.json) |
 | `o4b_bje_i31` | 信陵（四君稱呼） | [《史記・秦始皇本紀》][93] | [JSON](o4b_bje_i31.json) |
 | `o4h_qq4_taj` | 田既 | [《史記・田儋列傳》][163] | [JSON](o4h_qq4_taj.json) |
@@ -1619,7 +1618,7 @@
 | `wnp_vk6_qhe` | 冉求 | [《史記・仲尼弟子列傳》][136] | [JSON](wnp_vk6_qhe.json) |
 | `wny_01o_f36` | 公子買（衛守者） | [《史記・晉世家》][108] | [JSON](wny_01o_f36.json) |
 | `woj_cq6_ajq` | 嘉（呂台嗣王） | [《史記・漢興以來諸侯王年表》][247] | [JSON](woj_cq6_ajq.json) |
-| `woq_srv_b9s` | 殷叔文 | [《晉書・叛臣二》][60]、[《晉書・叛臣二》][61] | [JSON](woq_srv_b9s.json) |
+| `woq_srv_b9s` | 殷叔文 | [《宋書・宗室》][212] | [JSON](woq_srv_b9s.json) |
 | `wow_07g_swu` | 毛修之 | [《晉書・叛臣二》][60] | [JSON](wow_07g_swu.json) |
 | `wpg_z2x_qwh` | 賁嵩 | [《晉書・劉隗 刁協 戴若思 周顗》][41] | [JSON](wpg_z2x_qwh.json) |
 | `wpi_4yz_de2` | 王姬（齊桓公夫人） | [《史記・齊太公世家》][101] | [JSON](wpi_4yz_de2.json) |

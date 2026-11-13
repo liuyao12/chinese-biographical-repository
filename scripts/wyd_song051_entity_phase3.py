@@ -14,7 +14,7 @@ except ImportError:
 CH = 'corpus/songshu/051-wyd1739.json'
 CID = 'c-songshu-051-wyd1739-zongshi'
 REF = 'source-evidence/song051-wyd1739-zongshi/entity-markup-phase3-contract.json'
-CONTRACT_SHA = '898695f98ca7112450dc4f058258842e12fdc7b36e96cbc3f6473ec5c7a6b80d'
+CONTRACT_SHA = '1e3b2aebfb8925b6e124686d4a99b3baaeac2ad3431f8a8298906239944cc45e'
 
 
 def need(ok, message):
@@ -53,6 +53,8 @@ def layer_chapter(root, parent):
     chapter['annotation']['additional_annotation_layers'] = [copy.deepcopy(c['layer_metadata'])]
     if c.get('cross_chapter_references'):
         chapter['cross_chapter_references'] = copy.deepcopy(c['cross_chapter_references'])
+    if c.get('reported_variants'):
+        chapter['annotation']['reported_variants'] = copy.deepcopy(c['reported_variants'])
     for row in c['markers']:
         paragraph = next((p for p in chapter['paragraphs'] if p['id'] == row['paragraph_id']), None)
         need(paragraph is not None, '標記段落不在固定第二層章內')

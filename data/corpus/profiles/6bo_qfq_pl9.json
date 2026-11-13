@@ -11,7 +11,56 @@
     "到彦之",
     "彦之"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-song051-p024-daoyanzhi-guangwu",
+      "person_id": "6bo_qfq_pl9",
+      "title": "廣武將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p024",
+          "quote": "馬王鎮之及揚武將軍檀道濟廣武將軍到彥之等赴援朝廷至尋陽為賊黨荀林所破循即以林為南蠻校尉分兵配之使乘勝伐江陵揚聲云徐道覆已克京邑而桓謙自長安入蜀譙縱以謙為荆州刺史厚加資給與其大將譙道福俱寇江陵正與林會林屯江津謙軍枝江二寇交通分絕都邑之間荆楚旣桓氏義舊並懷異心道規乃會將士告之曰桓謙今在近幾聞者頗有去就之計吾東來文武足以濟事若欲去者本不相禁因夜開城門達曉不閉衆咸憚服莫有去者雍州刺史魯宗之率衆數千自襄陽來赴或謂宗之未可測道規",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p024:m0016"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-song051-p024-daoyanzhi-guangwu:a001",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p024",
+          "start": 12,
+          "end": 16,
+          "surface": "廣武將軍",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p024:m0016",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本段以「廣武將軍」稱赴援的到彥之；僅記用稱，未載授任年或任期。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -345,21 +394,24 @@
       "category": "",
       "title": "宗室",
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p008",
-      "count": 2,
-      "raw_count": 2,
+      "count": 3,
+      "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "守將軍如故戍石頭元嘉元年進號後將軍加散騎常侍三年以本號為南兗州刺史七年到彥之率大衆入河義欣進彭城為衆軍聲援彥之退敗青齊擾壞將佐虜寇大至勸義欣委鎮還都義欣堅志不動還使持節監豫司雍并四州諸軍豫州刺史將軍如故給鼓吹一部鎮壽陽于時土境荒毀人民彫散城郭頹敗盜賊公行義欣綱維補緝隨宜經理劫",
       "paragraph_ids": [
-        "c-songshu-051-wyd1739-zongshi:p008"
+        "c-songshu-051-wyd1739-zongshi:p008",
+        "c-songshu-051-wyd1739-zongshi:p024"
       ],
       "mention_ids": [
         "c-songshu-051-wyd1739-zongshi:p008:m0098",
-        "c-songshu-051-wyd1739-zongshi:p008:m0116"
+        "c-songshu-051-wyd1739-zongshi:p008:m0116",
+        "c-songshu-051-wyd1739-zongshi:p024:m0016"
       ],
       "mention_paragraph_ids": {
         "c-songshu-051-wyd1739-zongshi:p008:m0098": "c-songshu-051-wyd1739-zongshi:p008",
-        "c-songshu-051-wyd1739-zongshi:p008:m0116": "c-songshu-051-wyd1739-zongshi:p008"
+        "c-songshu-051-wyd1739-zongshi:p008:m0116": "c-songshu-051-wyd1739-zongshi:p008",
+        "c-songshu-051-wyd1739-zongshi:p024:m0016": "c-songshu-051-wyd1739-zongshi:p024"
       },
       "mention_id": "c-songshu-051-wyd1739-zongshi:p008:m0098",
       "occurrence_groups": [
@@ -374,6 +426,13 @@
           "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p008:m0116",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p008:m0116"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p024:m0016",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p024:m0016"
           ],
           "kind": "paragraph"
         }
