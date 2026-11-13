@@ -887,7 +887,6 @@
 | `f03_2c8_b27` | 彭世 | [《晉書・叛臣三》][62] | [JSON](f03_2c8_b27.json) |
 | `f05_66d_77e` | 梁成 | [《晉書・謝尚 謝安》][53] | [JSON](f05_66d_77e.json) |
 | `f08_394_1e8` | 趙倪 | [《魏書・崔浩》][232] | [JSON](f08_394_1e8.json) |
-| `f08_59c_1b9` | 劉遵考 | [《宋書・宗室》][212] | [JSON](f08_59c_1b9.json) |
 | `f08_kt7_a71` | 公子虔 | [《史記・商君列傳》][137] | [JSON](f08_kt7_a71.json) |
 | `f09_80e_7ee` | 南康主 | [《晉書・謝尚 謝安》][53]、[《晉書・叛臣二》][60] | [JSON](f09_80e_7ee.json) |
 | `f09_b38_323` | 涓子 | [《宋書・謝靈運》][225] | [JSON](f09_b38_323.json) |
@@ -2095,6 +2094,7 @@
 | `mfu_22v_exx` | 趙穿 | [《史記・鄭世家》][111] | [JSON](mfu_22v_exx.json) |
 | `mge_pi9_fn1` | 計然 | [《史記・貨殖列傳》][198] | [JSON](mge_pi9_fn1.json) |
 | `mgj_ry7_2x5` | 陶朱 | [《史記・陳涉世家》][117] | [JSON](mgj_ry7_2x5.json) |
+| `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][164] | [JSON](mgl_q57_d7h.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

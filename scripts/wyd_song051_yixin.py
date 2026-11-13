@@ -3,7 +3,7 @@ from pathlib import Path
 import json,copy,hashlib
 try:from scripts.validation_context import memoized
 except ImportError:from validation_context import memoized
-CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_p014_p017_family_annotation_batch';CONTRACT_SHA='4d7d709602818f9a34c56d61995a8365e9b7e19226e9812c61dffbc8ebd15114'
+CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_p014_p017_family_annotation_batch';CONTRACT_SHA='5e18a7a426d32f24bc2485d95744af306ee3eac8ecadcf67a6f8bab9dcbdf3f8'
 def same(a,b):
  if type(a)is not type(b):return False
  if type(a)is dict:return all(type(k)is str for k in a)and all(type(k)is str for k in b)and set(a)==set(b)and all(same(a[k],b[k])for k in a)
@@ -40,6 +40,10 @@ def phase_chapter(c,roles,root):
   p=next(p for p in ch['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['mention_id']);m['kind']='pronoun';m['status']='contextual_provisional';m['interpretation_note']=row['interpretation_note']
  for row in c.get('later_phase',{}).get('markers',[]):
   p=next(p for p in ch['paragraphs']if p['id']==row['paragraph_id']);m=materialize(row['marker'],roles);need(not any(x['id']==m['id']for x in p['mentions']),'後續批次MID碰撞');p['mentions'].append(m);p['mentions'].sort(key=lambda x:(x['start'],x['end'],x['id']));p['annotation_status']='in_progress'
+ for row in c.get('later_phase',{}).get('mention_reclassifications',[]):
+  p=next(p for p in ch['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['mention_id'])
+  m.update(kind='person',person_id=row['person_id'],status='contextual_provisional',source_role_key=row['source_role_key']);m.pop('note',None)
+ ch['annotation'].setdefault('age_assertions',[]).extend(copy.deepcopy(c.get('later_phase',{}).get('age_assertions',[])))
  ch['annotation']['source_title_uses'].extend(p018_title_uses(ch))
  ch['annotation']['source_title_uses'].extend(copy.deepcopy(c.get('later_phase',{}).get('title_uses',[])))
  return ch
@@ -70,6 +74,11 @@ def state(root,ch=None):
   p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id'])
   if m['kind']=='unresolved':need(m.get('person_id')is None and m.get('status')=='unresolved','後續未決錨不得暗連人物');continue
   person=people.get(m['person_id']);need(person is not None,'後續批次人物未登記');has_alias=any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']);need(has_alias if m['kind']=='person' else not has_alias,'後續姓名alias／代詞分類不符');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need((e not in person['evidence']) if m['kind']=='pronoun' else (e in person['evidence']),'後續批次姓名反向evidence／代詞排除不符')
+ for row in c.get('later_phase',{}).get('mention_reclassifications',[]):
+  p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['mention_id']);person=people.get(row['person_id'])
+  need(m['kind']=='person'and m['person_id']==row['person_id']and person is not None,'既有人物提及重分類端點無效')
+  need(any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']),'既有人物提及重分類缺反向alias')
+  e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'既有人物提及重分類缺反向evidence')
  for row in c.get('later_phase',{}).get('pronoun_reclassifications',[]):
   p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['mention_id']);person=people.get(m.get('person_id'));need(m['kind']=='pronoun' and person is not None,'後續代詞須保留有效指涉');need(not any(m['id']in a.get('mention_ids',[])for a in person['aliases']),'後續代詞不得列作姓名alias');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e not in person['evidence'],'後續代詞不得留在姓名反向evidence；person_id僅供指涉')
  try:from scripts.wyd_song051_p018 import markers as p018_markers

@@ -2419,6 +2419,10 @@ def _validate_uncached(root=ROOT):
                         try:from scripts.song051_p020_p028 import life_event_valid
                         except ImportError:from song051_p020_p028 import life_event_valid
                         life_ok=life_event_valid(event,root)
+                    elif event['id'].startswith('le-song051-p044-p045-'):
+                        try:from scripts.songshu_p044_p045_life import valid_event
+                        except ImportError:from songshu_p044_p045_life import valid_event
+                        life_ok=valid_event(event,root)
                     else:life_ok=p018_life_valid(event,root) if is_p018 else song051_life_valid(record,root)
                     check(life_ok,'宋051分批死亡事件／紀年不符')
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
