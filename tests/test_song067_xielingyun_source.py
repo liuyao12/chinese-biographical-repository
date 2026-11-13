@@ -60,7 +60,7 @@ class Song067Source(unittest.TestCase):
  def test_landscape_guang_and_gu_not_people(self):
   p=C['paragraphs'][5];self.assertFalse(any(m['start']==561 for m in p['mentions']));self.assertEqual([m['start']for m in p['mentions']if m['surface']=='孤'],[154]);self.assertTrue(any(m['start']==8915 and m['surface']=='廣'for m in p['mentions']))
  def test_xijingxing_reuses_xichao_after_fixed_name_bridge(self):
-  p=C['paragraphs'][5];self.assertTrue(any(m['surface']=='郗景興'and m['person_id']=='57b_1cb_a1b'for m in p['mentions']))
+  p=C['paragraphs'][5];self.assertTrue(any(m['surface']=='郗景興'and m['person_id']=='66f_b00_777_*AAAAA'for m in p['mentions']))
  def test_external_bridges_keep_complete_paragraph_and_original_wording(self):
   x=J(ROOT/'source-evidence/song067-xichao-name-bridge.json');self.assertEqual(x['external_primary_source']['revision_id'],2592755);self.assertIn('超字景興，一字嘉賓。',x['external_primary_source']['complete_paragraph']);self.assertIn('嘉賓，超小字也',x['existing_native_source']['quote']);self.assertFalse(x['human_reviewed'])
  def test_zhongxuan_is_comparison_not_changyu_alias(self):

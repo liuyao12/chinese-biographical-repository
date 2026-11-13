@@ -68,7 +68,14 @@ def load_assemblies(root, catalog):
                 if parent is not None or ancestor not in rows or ancestor == pid:
                     raise ValueError('缺代組裝祖先或父親欄位無效')
                 connection = member.get('ancestor_connection')
-                if isinstance(connection, dict) and connection.get('type') == 'wyd_song044_paternal_nephew_to_uncle_father':
+                if isinstance(connection, dict) and connection.get('type') == 'same_descendant_distance_difference':
+                    try:
+                        from .ancestor_distance_difference import ancestor_path_valid
+                    except ImportError:
+                        from ancestor_distance_difference import ancestor_path_valid
+                    if not ancestor_path_valid(member, rows, assertions, chapters):
+                        raise ValueError('同一後裔的父系世代距離差推導無效')
+                elif isinstance(connection, dict) and connection.get('type') == 'wyd_song044_paternal_nephew_to_uncle_father':
                     try:
                         from scripts.wyd_song044_nephew import ancestor_valid as wyd_nephew_ancestor_valid
                     except ImportError:
@@ -134,7 +141,14 @@ def load_assemblies(root, catalog):
                     raise ValueError('組裝父親不在同族')
                 connection = member.get('parent_connection')
                 if connection:
-                    if connection.get('type') == 'parent_between_consecutive_ancestors':
+                    if connection.get('type') == 'same_descendant_distance_difference':
+                        try:
+                            from .ancestor_distance_difference import parent_edge_valid
+                        except ImportError:
+                            from ancestor_distance_difference import parent_edge_valid
+                        if not parent_edge_valid(member, rows, assertions, chapters):
+                            raise ValueError('同一後裔的相鄰父系世代距離差推導無效')
+                    elif connection.get('type') == 'parent_between_consecutive_ancestors':
                         if not consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=root):
                             raise ValueError('連續具名祖先組裝缺少相符世次及同段證據')
                     elif connection.get('type') == 'parent_between_body_and_attached_note_ancestors':

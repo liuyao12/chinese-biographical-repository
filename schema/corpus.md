@@ -190,6 +190,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 組裝節點可依正文的 `grandfather`、`great_grandfather` 或已知距離的 `ancestor` 關係接入同一父系。這類節點保留 `parent_person_id: null`，另存 `ancestor_person_id`、`connection`、`generation_distance`、`intermediate_person_ids` 與 `source_assertion_id`；每個未知中間世代是 `null`，ID 對應位置為 `*`，不登記虛構人物。祖先必須是本組裝中的節點，來源斷言的祖先端點須屬於該節點的來源候選，世代距離及 ID 路徑由驗證器核對。
 
+若同一段原文對同一後代分別明言某祖先距離（`ancestor` 的 `generation_distance`）與另一祖先距離（`grandfather`、`great_grandfather` 等），可用 `connection.type: same_descendant_distance_difference` 記錄兩個來源斷言相減所得的組裝距離。每項組裝必須引用恰好兩筆同篇、同章、同來源、同段、同引句且父系的 `source_attested` 斷言；保存兩筆 `assertion_ids` 及逐筆 `references`。這種差距只准建立一段缺名世代的二代連接，或一代父親連接；差距為二時 `intermediate_person_ids` 必須是 `[null]`，對應 ID 的 `*`。保留兩筆原始主張，不得新增虛構的 `source_attested` 父親斷言；推導連接須標 `contextual_provisional`、`human_reviewed: false`、`source_assertion_id: null`。其他證據框、親屬線或距離差不得套用此規則。
+
 例如卷一百零七「高祖孫」的淮南王安接為 `yqp_nlb_p1p_A*A`，祖先是劉邦 `yqp_nlb_p1p_A`，父親未定。消費 JSON 的程式須讀取祖先與距離，不可把 `parent_person_id: null` 一律當作獨立家族，也不可把星號當成已知父親。
 
 逐人匯出的 `date_normalizations` 亦收錄用稱換年，以 `date_role: attestation` 與 `attestation_id` 區別，不使用授任的 `endpoint`。涉及未決身份時，人物 JSON 附 `unresolved_identity_cases`、所有候選人物及所引用段落；候選只作待辨資訊，不併入 `person_ids`，也不自動選定人物。
