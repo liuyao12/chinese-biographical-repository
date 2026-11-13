@@ -74,8 +74,8 @@
       "category": "",
       "title": "宗室",
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p021",
-      "count": 14,
-      "raw_count": 14,
+      "count": 19,
+      "raw_count": 19,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "毅等從之大破玄軍郭銓與玄單舸走江陵不復能守欲入蜀為馮遷所斬義軍遇風不進桓謙桓振復據江陵毅留巴陵道規與無忌俱進攻桓謐於馬頭桓蔚於龍洲皆破之無忌欲乘勝直造江陵道規曰兵法屈申有時不可苟進諸桓世居西楚羣小皆為竭力振勇冠三軍難與",
@@ -84,6 +84,7 @@
         "c-songshu-051-wyd1739-zongshi:p022",
         "c-songshu-051-wyd1739-zongshi:p024",
         "c-songshu-051-wyd1739-zongshi:p025",
+        "c-songshu-051-wyd1739-zongshi:p026",
         "c-songshu-051-wyd1739-zongshi:p046"
       ],
       "mention_ids": [
@@ -100,6 +101,11 @@
         "c-songshu-051-wyd1739-zongshi:p025:m0095",
         "c-songshu-051-wyd1739-zongshi:p025:m0159",
         "c-songshu-051-wyd1739-zongshi:p025:m0172",
+        "c-songshu-051-wyd1739-zongshi:p026:m0000",
+        "c-songshu-051-wyd1739-zongshi:p026:m0005",
+        "c-songshu-051-wyd1739-zongshi:p026:m0038",
+        "c-songshu-051-wyd1739-zongshi:p026:m0048",
+        "c-songshu-051-wyd1739-zongshi:p026:m0057",
         "c-songshu-051-wyd1739-zongshi:p046:m0012"
       ],
       "mention_paragraph_ids": {
@@ -116,6 +122,11 @@
         "c-songshu-051-wyd1739-zongshi:p025:m0095": "c-songshu-051-wyd1739-zongshi:p025",
         "c-songshu-051-wyd1739-zongshi:p025:m0159": "c-songshu-051-wyd1739-zongshi:p025",
         "c-songshu-051-wyd1739-zongshi:p025:m0172": "c-songshu-051-wyd1739-zongshi:p025",
+        "c-songshu-051-wyd1739-zongshi:p026:m0000": "c-songshu-051-wyd1739-zongshi:p026",
+        "c-songshu-051-wyd1739-zongshi:p026:m0005": "c-songshu-051-wyd1739-zongshi:p026",
+        "c-songshu-051-wyd1739-zongshi:p026:m0038": "c-songshu-051-wyd1739-zongshi:p026",
+        "c-songshu-051-wyd1739-zongshi:p026:m0048": "c-songshu-051-wyd1739-zongshi:p026",
+        "c-songshu-051-wyd1739-zongshi:p026:m0057": "c-songshu-051-wyd1739-zongshi:p026",
         "c-songshu-051-wyd1739-zongshi:p046:m0012": "c-songshu-051-wyd1739-zongshi:p046"
       },
       "mention_id": "c-songshu-051-wyd1739-zongshi:p021:m0136",
@@ -208,6 +219,41 @@
           "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p025:m0172",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p025:m0172"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p026:m0000",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p026:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p026:m0005",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p026:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p026:m0038",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p026:m0038"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p026:m0048",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p026:m0048"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p026:m0057",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p026:m0057"
           ],
           "kind": "paragraph"
         },
@@ -1675,7 +1721,45 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-song051-p026-huanqian-death",
+      "person_id": "u9s_w6j_8mc_AEB",
+      "event_type": "death",
+      "source_term": "追斬之",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p026",
+        "start": 16,
+        "end": 18,
+        "surface": "斬之"
+      },
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p026",
+          "quote": "謙水陸齊進謙大敗單舸走從下就林追斬之",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p026:m0005"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-099",
+          "source_id": "s-jinshu-099-huanxuan-ws2644703",
+          "chapter_id": "c-jinshu-099-huanxuan",
+          "paragraph_id": "c-jinshu-099-huanxuan:p037",
+          "quote": "後桓謙走入蜀，蜀賊譙縱以謙為荊州刺史，使率兵而下，荊楚之眾多應之。謙至枝江，荊州刺史劉道規斬之，梁州刺史傅歆又斬桓石綏，桓氏遂滅。"
+        }
+      ],
+      "interpretation_note": "《宋書》此處於「謙大敗單舸走從下就林」後記「追斬之」，受詞依上下文暫指桓謙，未指明行刑者；《晉書》卷九十九〈桓玄傳〉另載「謙至枝江，荊州刺史劉道規斬之」。兩書敘事對桓謙被斬的地點／次序有異，保留兩條來源記載，不裁定《宋書》省略的行刑者。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

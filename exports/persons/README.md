@@ -3326,7 +3326,7 @@
 
 </details>
 
-<details><summary><code>u9s_w6j_8mc</code> 桓顥（39 名）</summary>
+<details><summary><code>u9s_w6j_8mc</code> 桓顥（40 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -3337,6 +3337,7 @@
 | `AAB` | 桓濟 | [《晉書・叛臣一》][59] | [JSON](u9s_w6j_8mc_AAB.json) |
 | `AABA` | 桓亮 | [《晉書・叛臣二》][60] | [JSON](u9s_w6j_8mc_AABA.json) |
 | `AAC` | 桓歆 | [《晉書・叛臣二》][60] | [JSON](u9s_w6j_8mc_AAC.json) |
+| `AACA` | 桓道兒 | [《宋書・宗室》][212] | [JSON](u9s_w6j_8mc_AACA.json) |
 | `AAD` | 桓禕 | [《晉書・叛臣一》][59] | [JSON](u9s_w6j_8mc_AAD.json) |
 | `AAE` | 桓偉 | [《晉書・叛臣二》][60] | [JSON](u9s_w6j_8mc_AAE.json) |
 | `AAEA` | 桓浚 | [《晉書・叛臣二》][60] | [JSON](u9s_w6j_8mc_AAEA.json) |

@@ -1438,6 +1438,7 @@
 | `769_7da_a04` | 祖台之 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][45] | [JSON](769_7da_a04.json) |
 | `76b_a82_793` | 張猛 | [《晉書・謝尚 謝安》][53] | [JSON](76b_a82_793.json) |
 | `76p_b1a_zxr` | 王僧達之母（未名） | [《宋書・王僧達 顏竣》][227] | [JSON](76p_b1a_zxr.json) |
+| `771_3iq_c59` | 蔡猛 | [《宋書・宗室》][212] | [JSON](771_3iq_c59.json) |
 | `772_pdn_60l` | 絳侯 | [《史記・外戚世家》][118] | [JSON](772_pdn_60l.json) |
 | `77a_a6b_7d8` | 黄華 | [《三國志・王毌丘諸葛鄧鍾傳》][87] | [JSON](77a_a6b_7d8.json) |
 | `77e_63f_584` | 張喬 | [《晉書・王渾 王濬 唐彬》][31] | [JSON](77e_63f_584.json) |
@@ -1605,6 +1606,7 @@
 | `801_d52_bbd` | 蕭斌 | [《魏書・刁雍 王慧龍 韓延之 袁式》][233] | [JSON](801_d52_bbd.json) |
 | `804_dli_wzj` | 侍者（劉長） | [《史記・淮南衡山列傳》][187] | [JSON](804_dli_wzj.json) |
 | `80h_7uw_251` | 祖己 | [《史記・殷本紀》][90] | [JSON](80h_7uw_251.json) |
+| `813_xzp_jpo` | 劉基 | [《宋書・宗室》][212] | [JSON](813_xzp_jpo.json) |
 | `816_kfm_jer` | 周太史（田世家卜完未名者） | [《史記・田敬仲完世家》][115] | [JSON](816_kfm_jer.json) |
 | `81y_7i5_frc` | 邵陵王綸 | [《南史・范泰　荀伯子　徐廣　鄭鮮之　裴松之　何承天》][75] | [JSON](81y_7i5_frc.json) |
 | `821_838_e44` | 溫詳 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][45] | [JSON](821_838_e44.json) |
@@ -2095,7 +2097,6 @@
 | `ae4_588_bdb` | 鄭泰 | [《三國志・二荀賈傳》][79] | [JSON](ae4_588_bdb.json) |
 | `ae4_u22_s8c` | 荀彘 | [《史記・朝鮮列傳》][184] | [JSON](ae4_u22_s8c.json) |
 | `ae6_c85_578` | 胡彬 | [《晉書・謝尚 謝安》][53] | [JSON](ae6_c85_578.json) |
-| `ae7_dcf_084` | 范汪 | [《晉書・庾亮》][42]、[《晉書・謝尚 謝安》][53] | [JSON](ae7_dcf_084.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
