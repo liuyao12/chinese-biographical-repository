@@ -145,23 +145,29 @@
       "category": "",
       "title": "宗室",
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p010",
-      "count": 3,
-      "raw_count": 3,
+      "count": 5,
+      "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "儀同三司持節都督刺史如故諡曰成王子悼王瑾字彥瑜官至太子屯騎校尉三十年為元凶所殺世祖即位追贈散騎常侍子粲早夭粲弟纂字元績嗣官至步兵校尉順帝昇明三年薨會齊受禪國除瑾弟〓字彥期失明中為中書郎太宰江夏王義恭領中書監服親不得相臨表求解職世祖詔曰昔二王兩謝俱至崇禮自今三臺五省悉同此例太",
       "paragraph_ids": [
         "c-songshu-051-wyd1739-zongshi:p010",
+        "c-songshu-051-wyd1739-zongshi:p012",
+        "c-songshu-051-wyd1739-zongshi:p014",
         "c-songshu-051-wyd1739-zongshi:p043"
       ],
       "mention_ids": [
         "c-songshu-051-wyd1739-zongshi:p010:m0057",
         "c-songshu-051-wyd1739-zongshi:p010:m0189",
+        "c-songshu-051-wyd1739-zongshi:p012:m0125",
+        "c-songshu-051-wyd1739-zongshi:p014:m0173",
         "c-songshu-051-wyd1739-zongshi:p043:m0024"
       ],
       "mention_paragraph_ids": {
         "c-songshu-051-wyd1739-zongshi:p010:m0057": "c-songshu-051-wyd1739-zongshi:p010",
         "c-songshu-051-wyd1739-zongshi:p010:m0189": "c-songshu-051-wyd1739-zongshi:p010",
+        "c-songshu-051-wyd1739-zongshi:p012:m0125": "c-songshu-051-wyd1739-zongshi:p012",
+        "c-songshu-051-wyd1739-zongshi:p014:m0173": "c-songshu-051-wyd1739-zongshi:p014",
         "c-songshu-051-wyd1739-zongshi:p043:m0024": "c-songshu-051-wyd1739-zongshi:p043"
       },
       "mention_id": "c-songshu-051-wyd1739-zongshi:p010:m0057",
@@ -177,6 +183,20 @@
           "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p010:m0189",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p010:m0189"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0125",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p012:m0125"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p014:m0173",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p014:m0173"
           ],
           "kind": "paragraph"
         },
@@ -10843,6 +10863,39 @@
     }
   ],
   "name_components": [],
+  "source_title_uses": [
+    {
+      "id": "tu-song051-p014-yuanxiong",
+      "person_id": "fof_k8v_7md",
+      "person_mention_id": "c-songshu-051-wyd1739-zongshi:p014:m0173",
+      "source_term": "元凶",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p014",
+        "start": 173,
+        "end": 175,
+        "surface": "元凶"
+      },
+      "usage_kind": "title_reference",
+      "holding_ids": [],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p014",
+          "quote": "弟義宗幼為高祖所愛字曰伯奴賜爵新渝縣男永初元年進爵為侯歷黃門侍郎太子左衞率元嘉八年坐門生杜德靈放横打人還第內藏義宗隱蔽之免官德靈雅有姿色為義宗所愛寵本會稽郡吏謝方明為郡方明子惠連愛幸之為之賦詩十餘首乘流遷歸渚篇是也又為侍中太子詹事加散騎常侍征虜將軍南兗州刺史二十一年卒追贈散騎常侍平北將軍諡曰惠侯愛士樂施兼好文籍世以此稱之子懷侯玠嗣琅邪秦郡太守為元凶所殺追贈散騎常侍無子弟秉以子承繼封秉字彥節初為著作郎歷羽林監越騎校尉中",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p014:m0173"
+        }
+      ],
+      "source_use_binding": {
+        "kind": "fixed_wyd_song051_p014_p017_title_reference",
+        "basis": "specific_posthumous_epithet_title",
+        "interpretation_note": "此處保留原文以稱號、封爵、諡號、廟號或評語指涉人物的連結；不把該詞作姓名異名，也不單憑此條推定任期。"
+      },
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "fof_k8v_7md"
   ],

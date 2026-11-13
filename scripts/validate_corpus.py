@@ -206,6 +206,10 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                 try:from scripts.wyd_song044_life import date_valid as wyd_execution_date_valid
                 except ImportError:from wyd_song044_life import date_valid as wyd_execution_date_valid
                 valid = bound_role == 'life_event' and wyd_execution_date_valid(date,bound_record,chapters or {},root)
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_wyd_song051_p014_p017_life_date':
+                try:from scripts.song051_p014_p017_life_dates import valid as song051_life_date_valid
+                except ImportError:from song051_p014_p017_life_dates import valid as song051_life_date_valid
+                valid = song051_life_date_valid(date,bound_record,chapters or {},root,bound_role)
             if isinstance(mapping, dict) and mapping.get('kind') == 'relative_ce_regnal_era_span':
                 try:
                     from scripts.relative_regnal_year import relative_regnal_year_valid
@@ -597,6 +601,13 @@ def _validate_uncached(root=ROOT):
                 from fixed_wuyingdian_song051_family_phase import source_errors as wuyingdian_song051_errors
             wuyingdian_051_issues = wuyingdian_song051_errors(d, root)
             errors.extend(wuyingdian_051_issues)
+            # Songshu 051 later entity-markup overlay. Keep its exact layer
+            # contract independently checked while projecting phase2 above.
+            try:
+                from scripts.wyd_song051_entity_phase3 import source_errors as wuyingdian_song051_entity_errors
+            except ImportError:
+                from wyd_song051_entity_phase3 import source_errors as wuyingdian_song051_entity_errors
+            errors.extend(wuyingdian_song051_entity_errors(d, root))
             wuyingdian_song051_layer_valid = (d.get('id') == 'c-songshu-051-wyd1739-zongshi'
                 and isinstance(d.get('annotation'), dict) and d['annotation'].get('fixed_transcription_contract') == 'wuyingdian_song051_transcription'
                 and not wuyingdian_051_issues)
@@ -1492,8 +1503,8 @@ def _validate_uncached(root=ROOT):
                     service = h['service_realization']
                     check(isinstance(service, dict) and set(service) == {'status', 'source_term', 'evidence'}
                           and h['mode'] == 'grant' and service.get('status') == 'not_taken_up'
-                          and any(term in service.get('source_term', '') for term in ('不往','不成行')) and bool(service.get('evidence')),
-                          '授予未赴任須保留不往原詞與證據，不改成已實任')
+                        and any(term in service.get('source_term', '') for term in ('不往','不成行','不拜','未拜')) and bool(service.get('evidence')),
+                          '授予未任須保留未赴、未拜原詞與證據，不改成已實任')
                     if isinstance(service, dict):
                         for e in service.get('evidence', []):
                             hit = paragraphs.get(e.get('paragraph_id')); anchor = mentions.get(e.get('person_mention_id'))
@@ -2117,8 +2128,18 @@ def _validate_uncached(root=ROOT):
             for use in chapter['annotation'].get('source_title_uses', []):
                 errors.extend(source_use_errors(use, chapter, pids, title_records))
         age_ids = set(); age_report_groups = {}
+        age_assertions_by_chapter = {cid: list(chapter.get('annotation', {}).get('age_assertions', [])) for cid, chapter in chapters.items()}
+        for path in (root / 'corpus').glob('*/*-ages.json'):
+            record = json.loads(path.read_text(encoding='utf-8'))
+            if record.get('record_type') != 'person_age_assertion_set':
+                continue
+            cid = record.get('chapter_id')
+            check(cid in chapters, '報齡集篇章不存在')
+            check(isinstance(record.get('assertions'), list), '報齡集缺少 assertions 陣列')
+            if cid in age_assertions_by_chapter:
+                age_assertions_by_chapter[cid].extend(record.get('assertions', []))
         for chapter in chapters.values():
-            for age in chapter['annotation'].get('age_assertions', []):
+            for age in age_assertions_by_chapter.get(chapter['id'], []):
                 check(age['id'] not in age_ids, '年齡記錄 ID 重複'); age_ids.add(age['id'])
                 number = age.get('source_number'); parsed = source_age_number(number)
                 if 'received_unit_age_binding' in age:

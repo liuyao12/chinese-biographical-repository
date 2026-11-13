@@ -109,6 +109,17 @@ def memorial_errors(q,chapter,people,holdings):
 
 def source_use_errors(use,chapter,people,holdings):
  try:
+  binding=use.get('source_use_binding')
+  if isinstance(binding,dict)and binding.get('kind')=='fixed_wyd_song051_p014_p017_title_reference':
+   e,=use['evidence'];p=next(p for p in chapter['paragraphs']if p['id']==e['paragraph_id']);m=next(m for m in p['mentions']if m['id']==use['person_mention_id']);a=use['source_anchor']
+   if (chapter['id']!='c-songshu-051-wyd1739-zongshi' or set(binding)!={'kind','basis','interpretation_note'}
+       or binding['basis'] not in ('contextual_named_ancestor_title','specific_posthumous_epithet_title','posthumous_imperial_title','posthumous_reign_title','noble_rank_title','reign_specific_royal_title')
+       or binding['interpretation_note']!='此處保留原文以稱號、封爵、諡號、廟號或評語指涉人物的連結；不把該詞作姓名異名，也不單憑此條推定任期。'
+       or use['usage_kind']!='title_reference' or use['holding_ids'] or use['person_id']not in people
+       or m.get('kind')!='person' or m.get('person_id')!=use['person_id'] or not exact(a,p)
+       or a['surface']!=use['source_term'] or not a['start']<=m['start']<m['end']<=a['end']
+       or e['chapter_id']!=chapter['id'] or e['quote']!=p['text'] or not binding['interpretation_note']):raise ValueError('fixed Songshu title reference')
+   return []
   e,=use['evidence'];p=next(p for p in chapter['paragraphs']if p['id']==e['paragraph_id']);m=next(m for m in p['mentions']if m['id']==use['person_mention_id'])
   if use['person_id']not in people or m['person_id']!=use['person_id']or m['kind']!='person'or not exact(use['source_anchor'],p)or use['source_anchor']['surface']!=use['source_term']or e['quote']!=p['text']:raise ValueError('source use')
   if use['usage_kind']not in('contextual_pronoun','title_reference','generic_enfeoffed_woman_status'):raise ValueError('use category')

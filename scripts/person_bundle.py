@@ -174,7 +174,7 @@ def validate_courtesy_name(name):
             raise ValueError('稱字記載須連到傳首人物及故稱字原詞，不能據顯示名猜字')
     if (not isinstance(zi, str) or not zi.strip() or zi != zi.strip()
             or name.get('ming') == zi
-            or not (called_by_zi or any(isinstance(q, str) and '字' + zi in q for q in quotes))):
+            or not (called_by_zi or any(isinstance(q, str) and ('字' + zi in q or '字曰' + zi in q) for q in quotes))):
         raise ValueError('字須有明示字名的引句且不得冒作名')
 
 
@@ -353,6 +353,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 occurrence_cells[cell['id']] = cell
         elif kind == 'person_address_assertion_set':
             addresses.extend(a for a in record['assertions'] if a['person_id'] in ids)
+        elif kind == 'person_age_assertion_set':
+            ages.extend(a for a in record['assertions'] if a['person_id'] in ids)
         elif kind in ('person_life_event_assertion_set', 'table_person_life_event_assertion_set'):
             life_events.extend(e for e in record['events'] if e['person_id'] in ids)
         elif kind == 'person_event_assertion_set':
@@ -365,6 +367,18 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             identities.extend(d for d in record['decisions'] if d.get('person_id') in ids
                               or (kind == 'person_identity_decision_set'
                                   and ids.intersection(identity_participant_ids(d))))
+    # A fixed chapter-local surname judgment can depend on an explicitly cited
+    # paternal edge that does not itself touch the requested person (for example,
+    # the named brother through whom the source path is traced). Keep that edge in
+    # the profile bundle so the name's source_assertion_ids remain resolvable.
+    source_assertions = {a['id']: a for record in records if record.get('record_type') == 'person_assertion_set'
+                         for a in record['assertions']}
+    cited_path_ids = {aid for name in name_components
+                      if name.get('surname_basis', {}).get('kind') == 'contextual_surname_from_song051_p014_p017'
+                      for aid in name['surname_basis'].get('source_assertion_ids', [])}
+    relation_ids = {a['id'] for a in relations}
+    relations.extend(source_assertions[aid] for aid in sorted(cited_path_ids - relation_ids)
+                     if aid in source_assertions)
     distinctions = []
     for record in records:
         if record.get('record_type') != 'person_distinction_set':
@@ -405,7 +419,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
                 ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship', 'contextual_surname_from_wyd_song051_named_path', 'contextual_surname_from_wyd_song051_yixin', 'contextual_surname_from_wyd_song045_kinship') else relations), root=root)
+                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship', 'contextual_surname_from_wyd_song051_named_path', 'contextual_surname_from_wyd_song051_yixin', 'contextual_surname_from_wyd_song045_kinship', 'contextual_surname_from_song051_p014_p017') else relations), root=root)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:

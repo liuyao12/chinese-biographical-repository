@@ -2,6 +2,41 @@
 
 
 def non_parental_relation_valid(assertion, paragraphs, assertions=None):
+    if assertion.get('id') == 'a-song051-p014-p017-raised-by-yunfu-yin':
+        q = assertion.get('qualifiers', {})
+        binding = q.get('source_unit_binding', {})
+        expected = {'source_term': '殷養女雲敷', 'source_unit_binding': {
+            'kind': 'fixed_wyd_song051_p014_p017_family_batch',
+            'case': 'raised-by-yunfu-yin',
+            'raw_sha256': 'aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45'},
+            'interpretation_note': '保留「養女」原稱及殷為養育者；不判定是否符合任何法律收養制度，不推生母或生父。',
+            'care_basis': 'source_named_foster_daughter', 'source_relationship': '養女',
+            'source_child_sex': 'female', 'legal_adoption_status': 'not_stated',
+            'biological_parentage_inference': 'not_inferred'}
+        if (assertion.get('predicate') != 'raised_by'
+                or assertion.get('status') != 'source_attested'
+                or assertion.get('subject_person_id') != 'mhf_ukx_zs1'
+                or assertion.get('object_person_id') != '9vj_md6_8sx'
+                or q != expected or len(assertion.get('evidence', [])) != 1):
+            return False
+        e = assertion['evidence'][0]
+        hit = paragraphs.get(e.get('paragraph_id'))
+        if not hit or hit[0] != e.get('chapter_id') or e.get('quote') != hit[1].get('text'):
+            return False
+        mentions = {m['id']: m for m in hit[1].get('mentions', [])}
+        child = mentions.get(e.get('subject_person_mention_id'))
+        carer = mentions.get(e.get('object_person_mention_id'))
+        term = expected['source_term']
+        text = hit[1]['text']
+        return (hit[0] == 'c-songshu-051-wyd1739-zongshi'
+                and e.get('paragraph_id') == hit[0] + ':p017'
+                and child is not None and child.get('person_id') == assertion['subject_person_id']
+                and child.get('surface') == '雲敷'
+                and carer is not None and carer.get('person_id') == assertion['object_person_id']
+                and carer.get('surface') == '殷'
+                and text.count(term) == 1 and text.startswith(term, text.index(term))
+                and text[text.index(term) + len('殷養女'):text.index(term) + len(term)] == '雲敷')
+
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'biography_family_clause':
         try:
             from scripts.biography_family_clause import valid

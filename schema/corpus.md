@@ -102,7 +102,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `kinship_generation` 保存「大父行」的祖父輩親屬，主體為單于、客體為所述親屬。保存 `source_term: 大父行`、`generation_difference: -2`、`lineage: unspecified`、`direct_ancestor: null`、`exact_distance: null`。此處只記世代，不生成父子路徑、祖父節點或已確定的父系親等。
 
-篇章 `annotation.age_assertions` 保存來源所報年齡，逐人 JSON 同名欄位匯出。數值 `value`、原數詞 `source_number` 與 `source_term` 分開保存；`unit: source_age_years`、`counting: unspecified_source_age`、`birth_year: null` 不推定計歲方式或反推出生年。證據連到人物錨點與原句；`normalized_date` 是報齡所屬事件年，日期索引標 `date_role: age_attestation`，不作出生事件。支援「年」後或「歲／歳」前的一至九十九數詞，保留來源實際字形；其他報齡形式需擴充驗證後保存。
+篇章 `annotation.age_assertions` 或 `person_age_assertion_set.assertions` 保存來源所報年齡，逐人 JSON 同名欄位匯出；對固定文字契約鎖定的篇章，使用後者以免改動鎖定正文物件。數值 `value`、原數詞 `source_number` 與 `source_term` 分開保存；`unit: source_age_years`、`counting: unspecified_source_age`、`birth_year: null` 不推定計歲方式或反推出生年。證據連到人物錨點與原句；`normalized_date` 是報齡所屬事件年，日期索引標 `date_role: age_attestation`，不作出生事件。支援「年」後或「歲／歳」前的一至九十九數詞，保留來源實際字形；其他報齡形式需擴充驗證後保存。
 
 ## 同指判斷與已套用的身份整併
 
@@ -115,6 +115,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ## 稱號持有、用稱與有效時段
 
 `007-titles.json` 的 `title_holding_assertion_set` 將來源所述授予、自立、貶降與單純用稱分開。每筆 `holding` 有穩定 ID、人物 ID、原稱、種類、`mode`、來源引句及獨立 `attestations`；每個用稱錨點按 Unicode code point 保存位置，並引用同句／同段的人物提及。此層可與人物文字標註重疊，不能因此改寫原文或換掉人物錨點。
+
+來源明載封爵食邑時，可用 `enfeoffment.household_allowance` 保存戶數、單位及原詞，例如 `{ "value": 1000, "unit": "戶", "source_term": "食邑千戶" }`。這是封爵的附帶授予條件，不應混成爵名；只有來源逐人明載的戶數才填，泛稱規則不套用到個人。
 
 `effective_period.start`／`end` 各為 `unknown` 或 `source_event`。未知端點沒有日期或事件，不表示無限延伸。來源明示事件必須列起訖事件種類及精確證據；`date_expression` 僅在端點引句明見日期時填原表述，否則為null。本批日期皆未換算，來源事件位置只提供敘事中的端點證據，不冒稱某一公曆日或完整數值區間。
 
@@ -291,7 +293,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ### 授予政體、未赴任與來源地稱
 
-稱號 `granting_polity` 保存 `source_name`、`authority_person_id` 及授予者的來源錨點／引句；`place_id`、`modern_identification` 均為 `null`。相同「上卿」由秦、齊分別授予時分存，不能按同名官爵合為同一次授任。`service_realization` 的首批形式為 `status: not_taken_up`、`source_term` 與 `evidence`，用於「甘茂不往」；保留授予，卻不得顯示為已赴任。未知後續不由此補定終點。
+稱號 `granting_polity` 保存 `source_name`、`authority_person_id` 及授予者的來源錨點／引句；`place_id`、`modern_identification` 均為 `null`。相同「上卿」由秦、齊分別授予時分存，不能按同名官爵合為同一次授任。`service_realization` 的形式為 `status: not_taken_up`、`source_term` 與 `evidence`，適用於「不往」「不成行」「不拜」等明示未赴任／未就拜的原詞；保留授予，卻不得顯示為已實任。未知後續不由此補定終點。
 
 地址 `source_locality_designation` 保存「下蔡史舉先生」等以地名稱人的原詞，`qualifiers.designation_kind: geographical_person_reference`、`origin_or_residence: null`；不將未明的地稱改為籍貫、出生地或居所。`service_location` 保存「下蔡之監門」，`qualifiers.source_position` 保留「監門」，任事地與居所分開。
 
