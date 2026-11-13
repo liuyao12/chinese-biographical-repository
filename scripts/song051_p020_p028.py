@@ -194,10 +194,30 @@ def life_events(ch,root):
       {'id':'le-song051-p020-p028-daogui-death','person_id':'3qs_nqa_ioa_AAC','event_type':'death','status':'source_attested',
        'date_expression':'八年閏月','source_term':'八年閏月薨','evidence':[{**evidence(ch,p27,[dao['id']]),'person_mention_id':dao['id']}],
        'normalized_date':normalized(412,'八年閏月',p27,dao['id'],'此處省略年號；本傳在劉遵卒句後返回道規主語，依道規寢疾、改任、不拜的連續敘事，並由相鄰「義熙十年」紀年關係判作義熙八年，即公元412年。閏月保留原詞，不換公曆月日。'),
-       'interpretation_note':'年號在相鄰劉遵死亡句後省略；依本傳主語與敘事回到劉道規，按義熙八年換算412年。報齡「時年四十三」另存，不倒推出生年。','reported_age':{'value':43,'source_term':'時年四十三','age_basis':'source_reported','birth_year_inferred':False},
+       'interpretation_note':'年號在相鄰劉遵死亡句後省略；依本傳主語與敘事回到劉道規，按義熙八年換算412年。報齡「時年四十三」另存，不倒推出生年。',
        'reviewer':'Codex（AI代理）','human_reviewed':False,'model':None},
     ]
     return {'format_version':'0.2','record_type':'person_life_event_assertion_set','chapter_id':CID,'events':events}
+
+
+def age_assertions(ch, root):
+    ps=paragraphs(ch); p27=ps['p027']; p28=ps['p028']
+    dao27=mention(ch,'p027','道規',0); dao28=mention(ch,'p028','臨川王',0)
+    death=next(e for e in life_events(ch,root)['events'] if e['id']=='le-song051-p020-p028-daogui-death')
+    parts=[
+      {'paragraph_id':p27['id'],'start':len(p27['text'])-2,'end':len(p27['text']),'surface':'時年','person_mention_id':dao27['id'],'paragraph_sha256':hashlib.sha256(p27['text'].encode()).hexdigest()},
+      {'paragraph_id':p28['id'],'start':0,'end':len('四十三'),'surface':'四十三','person_mention_id':dao28['id'],'paragraph_sha256':hashlib.sha256(p28['text'].encode()).hexdigest()},
+    ]
+    def age_evidence(p,mid):
+        return {'work_id':ch['work_id'],'book_id':ch['book_id'],'source_id':ch['source_id'],'chapter_id':CID,'paragraph_id':p['id'],'quote':p['text'],'person_mention_id':mid}
+    return {'format_version':'0.1','record_type':'person_age_assertion_set','chapter_id':CID,'assertions':[
+      {'id':'age-song051-p020-p028-daogui-death','person_id':'3qs_nqa_ioa_AAC','value':43,'source_number':'四十三','source_term':'時年四十三',
+       'unit':'source_age_years','counting':'unspecified_source_age','birth_year':None,'status':'source_attested','date_expression':'八年閏月',
+       'evidence':[age_evidence(p27,dao27['id']),age_evidence(p28,dao28['id'])],'normalized_date':copy.deepcopy(death['normalized_date']),
+       'age_context':{'kind':'at_death','life_event_id':death['id']},
+       'source_term_split_binding':{'kind':'adjacent_fixed_transcription_paragraphs','source_term':'時年四十三','source_revision':ch['source']['revision_id'],'parts':parts},
+       'interpretation_note':'p027末「時年」與p028首「四十三」跨段相接，合為來源報齡「時年四十三」。卒年依相鄰本傳紀年判作義熙八年、412年；只記報齡，不倒推生年或計歲法。',
+       'reviewer':'Codex（AI代理）','human_reviewed':False,'model':None}]}
 
 def titles(ch):
     ps=paragraphs(ch); specs=[]
@@ -270,6 +290,7 @@ def build_all(root, ch=None):
       'corpus/songshu/051-wyd1739-p020-p028-name-components.json':name_components(ch),
       'corpus/songshu/051-wyd1739-p020-p028-addresses.json':addresses(ch),
       'corpus/songshu/051-wyd1739-p020-p028-life-events.json':life_events(ch,root),
+      'corpus/songshu/051-wyd1739-p020-p028-ages.json':age_assertions(ch,root),
       'corpus/songshu/051-wyd1739-p020-p028-titles.json':titles(ch),
     }
 
