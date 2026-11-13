@@ -91,6 +91,12 @@ def consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=N
         except ImportError:
             from epitaph_ancestry import valid as epitaph_parent_valid
         return epitaph_parent_valid(member, rows, assertions, chapters)
+    if c.get('interpretation_basis') == 'quoted_genealogy_named_father_grandfather_roles':
+        try:
+            from .quoted_genealogy_ancestry import valid as quoted_genealogy_valid
+        except ImportError:
+            from quoted_genealogy_ancestry import valid as quoted_genealogy_valid
+        return quoted_genealogy_valid(member, rows, assertions, chapters)
     if c.get('interpretation_basis') in ('biographical_zu_fu_sequence', 'bound_unpunctuated_biography_zu_fu_sequence'):
         try:
             from .biographical_ancestry import biographical_zu_fu_parent_valid
