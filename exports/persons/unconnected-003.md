@@ -2040,6 +2040,7 @@
 | `zi3_x31_9g6` | 周聚 | [《史記・陳涉世家》][117] | [JSON](zi3_x31_9g6.json) |
 | `zir_4c6_exy` | 肥（宋太子） | [《史記・宋微子世家》][107] | [JSON](zir_4c6_exy.json) |
 | `ziy_qr8_mi9` | 夷維子引古 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](ziy_qr8_mi9.json) |
+| `zj5_r76_v2b` | 劉遵 | [《宋書・宗室》][212] | [JSON](zj5_r76_v2b.json) |
 | `zji_rm6_vl9` | 宋建 | [《史記・扁鵲倉公列傳》][174] | [JSON](zji_rm6_vl9.json) |
 | `zjl_v6e_4vk` | 廣（徐來子） | [《史記・淮南衡山列傳》][187] | [JSON](zjl_v6e_4vk.json) |
 | `zjm_0fv_ke9` | 周幽王 | [《史記・楚世家》][109] | [JSON](zjm_0fv_ke9.json) |
