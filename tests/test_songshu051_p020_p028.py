@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from song051_p020_p028 import (assertions, family_valid, life_event_valid,
+from song051_p020_p028 import (age_assertions, assertions, family_valid, life_event_valid,
                                life_events, load, name_components)
 from maternal_cousins import maternal_cousin_valid
 from surname_from_father import validate as validate_surname
@@ -44,6 +44,20 @@ class Songshu051P020P028Tests(unittest.TestCase):
         mutated['surname_basis']['start'] += 1
         with self.assertRaises(ValueError):
             validate_surname(mutated, names, {self.chapter['id']: self.chapter}, self.assertions, ROOT)
+
+    def test_second_son_rank_is_source_attested(self):
+        rank = next(a for a in self.assertions if a['id'] == 'a-song051-p020-p028-liu-yiqing-second-son-of-daolian')
+        self.assertEqual(('3qs_nqa_ioa_AABB', '3qs_nqa_ioa_AAB'), (rank['subject_person_id'], rank['object_person_id']))
+        self.assertEqual({'ordinal': 2, 'source_term': '第二子', 'scope': 'sons_of_parent',
+                          'parent_person_id': '3qs_nqa_ioa_AAB', 'position': 'unspecified',
+                          'interpretation_status': 'source_attested'}, rank['qualifiers']['birth_order'])
+
+    def test_daogui_reported_age_preserves_split_source_phrase(self):
+        age = age_assertions(self.chapter, ROOT)['assertions'][0]
+        self.assertEqual((43, '四十三', '時年四十三'), (age['value'], age['source_number'], age['source_term']))
+        self.assertEqual(['時年', '四十三'], [p['surface'] for p in age['source_term_split_binding']['parts']])
+        self.assertIsNone(age['birth_year'])
+        self.assertEqual(412, age['normalized_date']['year'])
 
     def test_death_dates_are_source_bound_and_reversible(self):
         events = life_events(self.chapter, ROOT)['events']
