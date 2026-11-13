@@ -44,7 +44,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ## 跨卷身份與來源親屬主張
 
-`002-identities.json` 的 `scope` 區分同篇與跨篇；`chapter_ids` 明列範圍，跨篇判斷須逐篇附原文證據。跨卷連續敘事可暫定共用既有 ID，但不把同名變成全域匹配規則。每項 `surfaces` 必須能在該人物的來源提及中找到。
+`002-identities.json` 的 `scope` 區分同篇與跨篇；`chapter_ids` 明列範圍，跨篇判斷須逐篇附原文證據。跨卷連續敘事可暫定共用既有 ID，但不把同名變成全域匹配規則。每項 `surfaces` 必須能在該人物的來源提及中找到。若一筆原為非人物／神祇分類的提及後因新證據連到既有具型別人物 ID，身份判斷可用 `referent_kind`、`referent_interpretation_id` 與 `superseded_referent_interpretation` 結構化保存舊指稱解釋及固定來源資料；對應原文錨點轉為人物標記，舊 referent case 不再作 active 案件。這只記可追溯的指稱層連結；例如 `divinity` 接到 `legendary_tradition` ID 仍不構成人間歷史人物判定，不補生平或世系。
 
 `002-assertions.json` 保存來源陳述，`subject_person_id`／`object_person_id` 為人物端點；`evidence` 同時連結篇、來源、段落與精確引句。`source_attested` 表示原文記載，並非已證實的生平。`qualifiers` 保留原稱與敘事性；父親、母親、兄弟、配偶、祖父、曾祖父與祖先分開，不從繼位順序推導父子。使用端按已記錄主張組裝，遇異說仍需同範圍的取捨決定。
 
@@ -492,7 +492,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `annotation.referent_interpretations` 用於同一原稱的古注解釋不全是人物身份的情形。例如陽子有伯樂與仙人陽陵子等說，鄭女曼姬亦有群體泛稱與個別典故的不同解法。案件連到本篇未連人物的 `target_mention_ids`，`source_terms` 逐一保存原稱，`evidence` 保存 work／book／chapter／source、原段及確切引句。
 
-各 `alternatives` 有署名、`referent_kind`、可能為空的 `candidate_person_ids`、解釋與 `source_reference_ids`。人物、傳說人物、身份未定人物、群體泛稱、多個典故、神祇、自然現象與神話生靈分存；不為配合人物模型而補造 ID。古注 `references` 固定提交、blob、實讀行範圍、回應快取雜湊與未核書影狀態。未決案件為 `unresolved`，`default_alternative_id: null`，不自動選唯一候選。非個人指稱可用 `editorial_provisional` 暫採神祇、自然現象、神話生靈或群體讀法：指定 `default_alternative_id`，以 `selection` 保留理由與該說的來源 ID，所選讀法不得帶人物候選。個人身份仍須另有身份判斷及正文標記，不能藉此欄位逕行採納。`witness_wording` 分存本篇與平行見證的確切片語、參考 ID 及 `adopted_as_text_correction: false`，不改寫正文。
+各 `alternatives` 有署名、`referent_kind`、可能為空的 `candidate_person_ids`、解釋與 `source_reference_ids`。人物、傳說人物、身份未定人物、群體泛稱、多個典故、神祇、自然現象與神話生靈分存；不為配合人物模型而補造 ID。古注 `references` 固定提交、blob、實讀行範圍、回應快取雜湊與未核書影狀態。未決案件為 `unresolved`，`default_alternative_id: null`，不自動選唯一候選。非個人指稱可用 `editorial_provisional` 暫採神祇、自然現象、神話生靈或群體讀法：指定 `default_alternative_id`，以 `selection` 保留理由與該說的來源 ID，所選讀法不得帶人物候選。個人身份仍須另有身份判斷及正文標記，不能藉此欄位逕行採納。若後續有來源證據將原未決提及連至現有 `legendary_tradition` 神祇人物 ID，則正文錨點改為該 ID，並移除互斥的 active referent interpretation；身份判斷以 `referent_kind` 標明 `divinity`，以 `referent_interpretation_id` 回指原案，並在 `superseded_referent_interpretation` 原樣保存完整舊案件（含 alternatives、selection、witness_wording、原引句及固定來源指紋）。此為指稱層連結，不是歷史人類身份判定；保留來源字形及未核書影狀態，不據此補造生平或世系。`witness_wording` 分存本篇與平行見證的確切片語、參考 ID 及 `adopted_as_text_correction: false`，不改寫正文。
 
 候選人物 JSON 可附此項判讀及原段，供查閱候選依據；不將候選提及加入已採納 `mentions`、出現次數、`person_ids`、世系或生平。閱讀器在正文段落之外顯示「編者指稱判讀」，完整人物頁另顯示候選來源；姓名卡的簡要生平不混入異說。此欄位與 `unresolved_identity_cases` 分開，後者處理已具人物候選的身份待辨，不能迫使泛稱或神祇讀法只剩人物候選。
 
