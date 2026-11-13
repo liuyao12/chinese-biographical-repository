@@ -1007,12 +1007,100 @@
         "reviewer": "Codex（AI代理）",
         "human_reviewed": false,
         "model": null
+      },
+      {
+        "id": "age-song051-p044-p045-sikao-death",
+        "person_id": "zg6_7so_7t0",
+        "value": 75,
+        "source_number": "七十五",
+        "source_term": "年七十五",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": "泰始元年",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-051",
+            "source_id": "s-songshu-051-wyd1739-zongshi",
+            "chapter_id": "c-songshu-051-wyd1739-zongshi",
+            "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+            "quote": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
+            "person_mention_id": "c-songshu-051-wyd1739-zongshi:p045:m0021"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-song051-p044-p045-sikao-death"
+        },
+        "complete_reported_expression": "時年七十五",
+        "source_anchor": {
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+          "start": 66,
+          "end": 71,
+          "surface": "時年七十五"
+        },
+        "interpretation_note": "原文報卒年七十五；保留所報年齡，不倒算出生年或強定計歲制度。",
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "model": null,
+        "normalized_date": {
+          "era": "CE",
+          "era_year": 465,
+          "year": 465,
+          "year_numbering": "astronomical",
+          "precision": "year",
+          "calendar": "chinese_civil",
+          "source_expression": "泰始元年",
+          "status": "editorial_provisional",
+          "original_quote": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+              "quote": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
+              "person_mention_id": "c-songshu-051-wyd1739-zongshi:p045:m0021"
+            }
+          ],
+          "references": [
+            {
+              "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+              "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+              "scope": "modern_era_year_equivalence_only",
+              "quote": "泰始",
+              "columns": {
+                "dynasty": "宋",
+                "era_name": "泰始",
+                "first_year": "465",
+                "last_year": "471"
+              },
+              "image_verified": false
+            }
+          ],
+          "rationale": "宋泰始元年與教育部年號表所列泰始元年起於465年相合；僅作中國曆年年份對照，不推月日或出生年。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null,
+          "regnal_year_mapping": {
+            "kind": "ce_regnal_era_span",
+            "era_name": "泰始",
+            "source_number": "元",
+            "regnal_year": 1,
+            "start_ce_year": 465,
+            "end_ce_year": 471,
+            "reference_index": 0
+          }
+        }
       }
     ],
     "additional_annotation_phase": {
       "kind": "song051_p014_p017_family_annotation_batch",
       "contract_path": "source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json",
-      "coverage": "固定契約覆核卷五十一第14–17段及本次新增第20–28段的人名與省稱；第20–28段另保存明示親屬、字號及原文稱號，不宣稱全卷NER完成。正文轉錄、既有第14–19段標記及未處理段落維持來源原貌。；另含獨立固定 p029–p039 人物辨識批次，原文不改，且不宣稱本傳全卷完成。",
+      "coverage": "固定契約覆核卷五十一第14–17段及本次新增第20–28段的人名與省稱；第20–28段另保存明示親屬、字號及原文稱號，不宣稱全卷NER完成。正文轉錄、既有第14–19段標記及未處理段落維持來源原貌。；另含獨立固定 p029–p039 人物辨識批次，原文不改，且不宣稱本傳全卷完成。；追加卷五十一 p044–p045 人物與親屬續讀，僅標原文明確及明確限定的上下文判讀。；追加卷五十一 p044–p045 人物與親屬續讀。；追加思考卒年與報齡來源資料。",
       "human_reviewed": false,
       "model": null
     }
@@ -5998,14 +6086,23 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0144",
+          "start": 144,
+          "end": 146,
+          "surface": "道考",
+          "kind": "person",
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-songshu-051-wyd1739-zongshi:p044:m0167",
           "start": 167,
           "end": 169,
           "surface": "澄之",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+          "kind": "person",
+          "person_id": "f08_59c_1b9_A",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-p044-p045:chengzhi"
         },
         {
           "id": "c-songshu-051-wyd1739-zongshi:p044:m0170",
@@ -6021,20 +6118,20 @@
           "start": 176,
           "end": 178,
           "surface": "澄之",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+          "kind": "person",
+          "person_id": "f08_59c_1b9_A",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-p044-p045:chengzhi"
         },
         {
           "id": "c-songshu-051-wyd1739-zongshi:p044:m0179",
           "start": 179,
           "end": 181,
           "surface": "瑉之",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+          "kind": "person",
+          "person_id": "f08_59c_1b9_B",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-p044-p045:minzhi"
         },
         {
           "id": "c-songshu-051-wyd1739-zongshi:p044:m0185",
@@ -6093,10 +6190,10 @@
           "start": 21,
           "end": 23,
           "surface": "思考",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "具名人物已由原句確認；本批未有足夠跨篇依據連至現行人物ID，保留為待辨標記。"
+          "kind": "person",
+          "person_id": "zg6_7so_7t0",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-p044-p045:sikao"
         }
       ],
       "source_position": {

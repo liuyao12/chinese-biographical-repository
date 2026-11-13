@@ -1930,6 +1930,16 @@
 
 </details>
 
+<details><summary><code>f08_59c_1b9</code> 劉遵考（3 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 劉遵考 | [《宋書・宗室》][212] | [JSON](f08_59c_1b9.json) |
+| `A` | 劉澄之 | [《宋書・宗室》][212] | [JSON](f08_59c_1b9_A.json) |
+| `B` | 劉瑉之 | [《宋書・宗室》][212] | [JSON](f08_59c_1b9_B.json) |
+
+</details>
+
 <details><summary><code>f2z_47w_81j</code> 商玄石（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |

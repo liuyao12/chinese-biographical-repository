@@ -1,0 +1,86 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-songshu-051-wyd1739-zongshi",
+  "events": [
+    {
+      "id": "le-song051-p044-p045-sikao-death",
+      "person_id": "zg6_7so_7t0",
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": "泰始元年",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+          "quote": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p045:m0021"
+        }
+      ],
+      "source_anchor": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+        "start": 54,
+        "end": 55,
+        "surface": "卒"
+      },
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 465,
+        "year": 465,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "泰始元年",
+        "status": "editorial_provisional",
+        "original_quote": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-051",
+            "source_id": "s-songshu-051-wyd1739-zongshi",
+            "chapter_id": "c-songshu-051-wyd1739-zongshi",
+            "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+            "quote": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
+            "person_mention_id": "c-songshu-051-wyd1739-zongshi:p045:m0021"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "scope": "modern_era_year_equivalence_only",
+            "quote": "泰始",
+            "columns": {
+              "dynasty": "宋",
+              "era_name": "泰始",
+              "first_year": "465",
+              "last_year": "471"
+            },
+            "image_verified": false
+          }
+        ],
+        "rationale": "宋泰始元年與教育部年號表所列泰始元年起於465年相合；僅作中國曆年年份對照，不推月日或出生年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "泰始",
+          "source_number": "元",
+          "regnal_year": 1,
+          "start_ce_year": 465,
+          "end_ce_year": 471,
+          "reference_index": 0
+        }
+      },
+      "interpretation_note": "本傳明載泰始元年卒；按宋年號表換算為465年，死亡年已知而出生年未載。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

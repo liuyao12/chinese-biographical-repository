@@ -18112,7 +18112,7 @@
       "end": 104
     }
   ],
-  "coverage": "固定契約覆核卷五十一第14–17段及本次新增第20–28段的人名與省稱；第20–28段另保存明示親屬、字號及原文稱號，不宣稱全卷NER完成。正文轉錄、既有第14–19段標記及未處理段落維持來源原貌。；另含獨立固定 p029–p039 人物辨識批次，原文不改，且不宣稱本傳全卷完成。",
+  "coverage": "固定契約覆核卷五十一第14–17段及本次新增第20–28段的人名與省稱；第20–28段另保存明示親屬、字號及原文稱號，不宣稱全卷NER完成。正文轉錄、既有第14–19段標記及未處理段落維持來源原貌。；另含獨立固定 p029–p039 人物辨識批次，原文不改，且不宣稱本傳全卷完成。；追加卷五十一 p044–p045 人物與親屬續讀，僅標原文明確及明確限定的上下文判讀。；追加卷五十一 p044–p045 人物與親屬續讀。；追加思考卒年與報齡來源資料。",
   "names_zi": {
     "jin": "彥瑜",
     "zuan": "元績",
@@ -28483,8 +28483,8 @@
     }
   ],
   "later_phase": {
-    "name": "song051_p029_p039_person_reading_batch",
-    "coverage": "完整閱讀 p029–p039 的明確人物與上下文省稱；保留來源未決讀法，不包含 p040。",
+    "name": "宋書卷五十一 p044–p045 人物及親屬續讀",
+    "coverage": "完整閱讀 p029–p039 的明確人物與上下文省稱；保留來源未決讀法，不包含 p040。；p044–p045 補標道考、澄之、瑉之、思考，記錄明文父子、兄弟及從弟；瑉之父系接合明標上下文暫定，不補親等、共祖或絕對排行。；p044–p045 補標道考、澄之、瑉之、思考；父子、兄弟與從弟均保存原文提及，瑉之父系接合另標為上下文暫定，不推親等、共祖或絕對排行。；並錄思考泰始元年卒、時年七十五；西元年僅記為按年號表換算的465年，不倒推出生年。",
     "pronoun_reclassifications": [
       {
         "paragraph_id": "c-songshu-051-wyd1739-zongshi:p029",
@@ -28597,6 +28597,36 @@
           "person_id": "3qs_nqa_ioa_AAAA",
           "status": "contextual_provisional",
           "source_role_key": "song051-p029-p039"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
+        "role_key": "later_4d4_5ik_wqm",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p031:m0125",
+          "kind": "person",
+          "start": 69,
+          "end": 72,
+          "surface": "鄭僕射",
+          "person_id": "4d4_5ik_wqm",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-p029-p039",
+          "interpretation_note": "「鄭僕射」指鄭鮮之：外部對讀《宋書》卷六十四識典頁記其字道子、元嘉三年任尚書右僕射、四年卒；未以未收入本庫的數位轉錄冒充本庫底本文字。"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
+        "role_key": "later_7r6_k52_qji_ABDABAA",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p031:m0126",
+          "kind": "person",
+          "start": 80,
+          "end": 83,
+          "surface": "王光祿",
+          "person_id": "7r6_k52_qji_ABDABAA",
+          "status": "contextual_provisional",
+          "source_role_key": "song051-p029-p039",
+          "interpretation_note": "「王光祿」指王敬弘：本庫《宋書》卷六十六記其改授侍中、特進、左光祿大夫，與此句相合。"
         }
       },
       {
@@ -29221,33 +29251,15 @@
         }
       },
       {
-        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
-        "role_key": "later_4d4_5ik_wqm",
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p044",
         "marker": {
-          "id": "c-songshu-051-wyd1739-zongshi:p031:m0125",
+          "id": "c-songshu-051-wyd1739-zongshi:p044:m0144",
+          "start": 144,
+          "end": 146,
+          "surface": "道考",
           "kind": "person",
-          "start": 69,
-          "end": 72,
-          "surface": "鄭僕射",
-          "person_id": "4d4_5ik_wqm",
-          "status": "contextual_provisional",
-          "source_role_key": "song051-p029-p039",
-          "interpretation_note": "「鄭僕射」指鄭鮮之：外部對讀《宋書》卷六十四識典頁記其字道子、元嘉三年任尚書右僕射、四年卒；未以未收入本庫的數位轉錄冒充本庫底本文字。"
-        }
-      },
-      {
-        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p031",
-        "role_key": "later_7r6_k52_qji_ABDABAA",
-        "marker": {
-          "id": "c-songshu-051-wyd1739-zongshi:p031:m0126",
-          "kind": "person",
-          "start": 80,
-          "end": 83,
-          "surface": "王光祿",
-          "person_id": "7r6_k52_qji_ABDABAA",
-          "status": "contextual_provisional",
-          "source_role_key": "song051-p029-p039",
-          "interpretation_note": "「王光祿」指王敬弘：本庫《宋書》卷六十六記其改授侍中、特進、左光祿大夫，與此句相合。"
+          "person_id": "f08_59c_1b9",
+          "status": "contextual_provisional"
         }
       }
     ],
@@ -29262,11 +29274,129 @@
       "c-songshu-051-wyd1739-zongshi:p036",
       "c-songshu-051-wyd1739-zongshi:p037",
       "c-songshu-051-wyd1739-zongshi:p038",
-      "c-songshu-051-wyd1739-zongshi:p039"
+      "c-songshu-051-wyd1739-zongshi:p039",
+      "c-songshu-051-wyd1739-zongshi:p044",
+      "c-songshu-051-wyd1739-zongshi:p045"
     ],
     "title_uses": [],
     "bundle_excluded_documents": [
       "source-evidence/song051-wyd1739-zongshi/p029-p039-reading-scopes.json"
+    ],
+    "mention_reclassifications": [
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p044",
+        "mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0167",
+        "person_id": "f08_59c_1b9_A",
+        "source_role_key": "song051-p044-p045:chengzhi"
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p044",
+        "mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0176",
+        "person_id": "f08_59c_1b9_A",
+        "source_role_key": "song051-p044-p045:chengzhi"
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p044",
+        "mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0179",
+        "person_id": "f08_59c_1b9_B",
+        "source_role_key": "song051-p044-p045:minzhi"
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+        "mention_id": "c-songshu-051-wyd1739-zongshi:p045:m0021",
+        "person_id": "zg6_7so_7t0",
+        "source_role_key": "song051-p044-p045:sikao"
+      }
+    ],
+    "age_assertions": [
+      {
+        "id": "age-song051-p044-p045-sikao-death",
+        "person_id": "zg6_7so_7t0",
+        "value": 75,
+        "source_number": "七十五",
+        "source_term": "年七十五",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": "泰始元年",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-051",
+            "source_id": "s-songshu-051-wyd1739-zongshi",
+            "chapter_id": "c-songshu-051-wyd1739-zongshi",
+            "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+            "quote": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
+            "person_mention_id": "c-songshu-051-wyd1739-zongshi:p045:m0021"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-song051-p044-p045-sikao-death"
+        },
+        "complete_reported_expression": "時年七十五",
+        "source_anchor": {
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+          "start": 66,
+          "end": 71,
+          "surface": "時年七十五"
+        },
+        "interpretation_note": "原文報卒年七十五；保留所報年齡，不倒算出生年或強定計歲制度。",
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "model": null,
+        "normalized_date": {
+          "era": "CE",
+          "era_year": 465,
+          "year": 465,
+          "year_numbering": "astronomical",
+          "precision": "year",
+          "calendar": "chinese_civil",
+          "source_expression": "泰始元年",
+          "status": "editorial_provisional",
+          "original_quote": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+              "quote": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
+              "person_mention_id": "c-songshu-051-wyd1739-zongshi:p045:m0021"
+            }
+          ],
+          "references": [
+            {
+              "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+              "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+              "scope": "modern_era_year_equivalence_only",
+              "quote": "泰始",
+              "columns": {
+                "dynasty": "宋",
+                "era_name": "泰始",
+                "first_year": "465",
+                "last_year": "471"
+              },
+              "image_verified": false
+            }
+          ],
+          "rationale": "宋泰始元年與教育部年號表所列泰始元年起於465年相合；僅作中國曆年年份對照，不推月日或出生年。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null,
+          "regnal_year_mapping": {
+            "kind": "ce_regnal_era_span",
+            "era_name": "泰始",
+            "source_number": "元",
+            "regnal_year": 1,
+            "start_ce_year": 465,
+            "end_ce_year": 471,
+            "reference_index": 0
+          }
+        }
+      }
     ]
   }
 }

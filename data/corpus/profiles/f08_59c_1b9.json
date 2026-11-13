@@ -52,8 +52,8 @@
       "category": "",
       "title": "宗室",
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p040",
-      "count": 10,
-      "raw_count": 10,
+      "count": 11,
+      "raw_count": 11,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "國除綽弟緄早卒燿弟衍太子舍人衍弟鏡宣城太守鏡弟穎前將軍穎弟倩南新蔡太守道考高祖族弟也曾祖淳皇曾祖武原令混之弟官至正員郎祖巖海西令父涓子彭城內史道考始為將軍振武參軍預討盧循封鄉侯自建威將軍彭城內史隨高祖北伐時高祖諸子並弱宗室唯有道考長安平定以督并州司州之北河東北平陽北雍州之新",
@@ -62,6 +62,7 @@
         "c-songshu-051-wyd1739-zongshi:p041",
         "c-songshu-051-wyd1739-zongshi:p042",
         "c-songshu-051-wyd1739-zongshi:p043",
+        "c-songshu-051-wyd1739-zongshi:p044",
         "c-songshu-051-wyd1739-zongshi:p045"
       ],
       "mention_ids": [
@@ -74,6 +75,7 @@
         "c-songshu-051-wyd1739-zongshi:p042:m0166",
         "c-songshu-051-wyd1739-zongshi:p043:m0046",
         "c-songshu-051-wyd1739-zongshi:p043:m0064",
+        "c-songshu-051-wyd1739-zongshi:p044:m0144",
         "c-songshu-051-wyd1739-zongshi:p045:m0017"
       ],
       "mention_paragraph_ids": {
@@ -86,6 +88,7 @@
         "c-songshu-051-wyd1739-zongshi:p042:m0166": "c-songshu-051-wyd1739-zongshi:p042",
         "c-songshu-051-wyd1739-zongshi:p043:m0046": "c-songshu-051-wyd1739-zongshi:p043",
         "c-songshu-051-wyd1739-zongshi:p043:m0064": "c-songshu-051-wyd1739-zongshi:p043",
+        "c-songshu-051-wyd1739-zongshi:p044:m0144": "c-songshu-051-wyd1739-zongshi:p044",
         "c-songshu-051-wyd1739-zongshi:p045:m0017": "c-songshu-051-wyd1739-zongshi:p045"
       },
       "mention_id": "c-songshu-051-wyd1739-zongshi:p040:m0050",
@@ -150,6 +153,13 @@
           "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p043:m0064",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p043:m0064"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0144",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p044:m0144"
           ],
           "kind": "paragraph"
         },
@@ -561,16 +571,229 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-song051-p044-chengzhi-father",
+      "subject_person_id": "f08_59c_1b9_A",
+      "predicate": "father",
+      "object_person_id": "f08_59c_1b9",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子澄之",
+        "lineage": "paternal",
+        "source_child_term": "子",
+        "source_child_sex": "male",
+        "interpretation_note": "原文直接稱「道考」之子澄之；不記生母。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p044",
+          "quote": "帝卽位遷特進右光祿大夫常侍太僕如故景和元年出督南豫州諸軍事安西將軍南豫州刺史太宗卽位以為侍中特進右光祿大夫領崇憲太僕給親侍二十人崇憲太后崩太僕解餘如故泰始五年賜几杖大官四時賜珍味疾病太醫給藥固辭几杖後廢帝卽位進左光祿大夫餘如故元徽元年卒時年八十二追贈左光祿大夫開府儀同三司侍中如故諡曰元公道考無才能直以宗室不遠故歷朝顯遇年老有疾失明子澄之順帝昇明末貴達澄之弟瑉之為竟陵王誕司空主簿誕作亂以為中兵參軍不就繫繫數十日終不受乃",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0167",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0144"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song051-p044-minzhi-father-context",
+      "subject_person_id": "f08_59c_1b9_B",
+      "predicate": "father",
+      "object_person_id": "f08_59c_1b9",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子澄之；澄之弟瑉之",
+        "lineage": "paternal",
+        "source_child_term": "弟",
+        "source_child_sex": "male",
+        "interpretation_note": "原文先稱道考之子澄之，再稱其弟瑉之；將瑉之暫作道考之子，依傳內連續語境組接，不冒稱原文直接重述父名。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p044",
+          "quote": "帝卽位遷特進右光祿大夫常侍太僕如故景和元年出督南豫州諸軍事安西將軍南豫州刺史太宗卽位以為侍中特進右光祿大夫領崇憲太僕給親侍二十人崇憲太后崩太僕解餘如故泰始五年賜几杖大官四時賜珍味疾病太醫給藥固辭几杖後廢帝卽位進左光祿大夫餘如故元徽元年卒時年八十二追贈左光祿大夫開府儀同三司侍中如故諡曰元公道考無才能直以宗室不遠故歷朝顯遇年老有疾失明子澄之順帝昇明末貴達澄之弟瑉之為竟陵王誕司空主簿誕作亂以為中兵參軍不就繫繫數十日終不受乃",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0179",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0144"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song051-p045-sikao-congdi",
+      "subject_person_id": "zg6_7so_7t0",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "f08_59c_1b9",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "道考從弟思考",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "f08_59c_1b9",
+          "younger_person_id": "zg6_7so_7t0",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "interpretation_note": "從弟明示同代父系旁親且思考較年幼；不推具體親等、共祖或家系路徑。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+          "quote": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p045:m0021",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p045:m0017"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "f08_59c_1b9": "劉遵考"
+    "f08_59c_1b9": "劉遵考",
+    "f08_59c_1b9_A": "劉澄之",
+    "f08_59c_1b9_B": "劉瑉之",
+    "zg6_7so_7t0": "劉思考"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "f08_59c_1b9"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-song051-p044-chengzhi-father",
+      "subject_person_id": "f08_59c_1b9_A",
+      "predicate": "father",
+      "object_person_id": "f08_59c_1b9",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子澄之",
+        "lineage": "paternal",
+        "source_child_term": "子",
+        "source_child_sex": "male",
+        "interpretation_note": "原文直接稱「道考」之子澄之；不記生母。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p044",
+          "quote": "帝卽位遷特進右光祿大夫常侍太僕如故景和元年出督南豫州諸軍事安西將軍南豫州刺史太宗卽位以為侍中特進右光祿大夫領崇憲太僕給親侍二十人崇憲太后崩太僕解餘如故泰始五年賜几杖大官四時賜珍味疾病太醫給藥固辭几杖後廢帝卽位進左光祿大夫餘如故元徽元年卒時年八十二追贈左光祿大夫開府儀同三司侍中如故諡曰元公道考無才能直以宗室不遠故歷朝顯遇年老有疾失明子澄之順帝昇明末貴達澄之弟瑉之為竟陵王誕司空主簿誕作亂以為中兵參軍不就繫繫數十日終不受乃",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0167",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0144"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song051-p044-minzhi-father-context",
+      "subject_person_id": "f08_59c_1b9_B",
+      "predicate": "father",
+      "object_person_id": "f08_59c_1b9",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子澄之；澄之弟瑉之",
+        "lineage": "paternal",
+        "source_child_term": "弟",
+        "source_child_sex": "male",
+        "interpretation_note": "原文先稱道考之子澄之，再稱其弟瑉之；將瑉之暫作道考之子，依傳內連續語境組接，不冒稱原文直接重述父名。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p044",
+          "quote": "帝卽位遷特進右光祿大夫常侍太僕如故景和元年出督南豫州諸軍事安西將軍南豫州刺史太宗卽位以為侍中特進右光祿大夫領崇憲太僕給親侍二十人崇憲太后崩太僕解餘如故泰始五年賜几杖大官四時賜珍味疾病太醫給藥固辭几杖後廢帝卽位進左光祿大夫餘如故元徽元年卒時年八十二追贈左光祿大夫開府儀同三司侍中如故諡曰元公道考無才能直以宗室不遠故歷朝顯遇年老有疾失明子澄之順帝昇明末貴達澄之弟瑉之為竟陵王誕司空主簿誕作亂以為中兵參軍不就繫繫數十日終不受乃",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0179",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p044:m0144"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song051-p045-sikao-congdi",
+      "subject_person_id": "zg6_7so_7t0",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "f08_59c_1b9",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "道考從弟思考",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "f08_59c_1b9",
+          "younger_person_id": "zg6_7so_7t0",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "interpretation_note": "從弟明示同代父系旁親且思考較年幼；不推具體親等、共祖或家系路徑。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p045",
+          "quote": "殺之追贈黃門郎詔吏部尚書謝莊為之誄道考從弟思考亦被遇歷朝官極清顯為豫章會稽太守益徐州刺史凡經十郡三州泰始元年卒於散騎常侍金紫光祿大夫時年七十五追贈特進常侍光祿如故",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p045:m0021",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p045:m0017"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "f08_59c_1b9",
+    "representative_source_person_id": "f08_59c_1b9",
+    "source_person_ids": [
+      "f08_59c_1b9"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": null,
+    "assembly_id": "family-song051-daokao",
+    "root_person_id": "f08_59c_1b9",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
