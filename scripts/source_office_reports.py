@@ -54,12 +54,18 @@ def detail_valid(d,ch,holdings,root=None):
    assert text==m['surface']+'前後以功增邑'+f['increase_number']['surface']+f['unit']['surface']+'賜子弟'+f['count1']['surface']+'人'+f['rank1']['surface']+f['count2']['surface']+'人'+f['rank2']['surface']and m['start']==scope['start']
    if d['kind']=='fief_household_count':assert a['surface']=='增邑'+f['increase_number']['surface']+f['unit']['surface']and v=={'increase':n('increase_number'),'increase_source_number':f['increase_number']['surface'],'aggregation':'cumulative_across_unspecified_awards','total':None,'unit_source_name':f['unit']['surface'],'actual_revenue':None}
    else:assert d['kind']=='unnamed_family_title_grants'and a['surface']=='賜子弟'+f['count1']['surface']+'人'+f['rank1']['surface']+f['count2']['surface']+'人'+f['rank2']['surface']and v=={'recipient_group_source_term':'子弟','recipient_person_ids':[],'biological_children_only':False,'grants':[{'source_rank':f['rank1']['surface'],'recipient_count':n('count1'),'source_number':f['count1']['surface']},{'source_rank':f['rank2']['surface'],'recipient_count':n('count2'),'source_number':f['count2']['surface']}]}
+  elif b['kind']=='single_unnamed_child_title_grant':
+   assert d['kind']=='unnamed_family_title_grants' and set(f)=={'recipient_count','rank'}
+   assert text=='分'+m['surface']+'戸邑封'+f['recipient_count']['surface']+'子'+f['rank']['surface']
+   assert a['surface']=='封'+f['recipient_count']['surface']+'子'+f['rank']['surface']
+   assert v=={'recipient_group_source_term':f['recipient_count']['surface']+'子','recipient_person_ids':[],'biological_children_only':None,'grants':[{'source_rank':f['rank']['surface'],'recipient_count':integer(f['recipient_count']['surface']),'source_number':f['recipient_count']['surface']} ]}
   else:return False
   frames={
    'appointment_selection_duty':[('L','後徵'),('M',None),('L','為'),('F','office'),('L','典選舉加'),('F','additional1'),('F','additional2')],
    'named_duty':[('M',None),('L','總署行臺')],
    'named_command_supervision':[('L','詔'),('F','subordinate_group'),('L','受'),('M',None),('L','節度')],
-   'aggregate_fief_and_family_grants':[('M',None),('L','前後以功增邑'),('F','increase_number'),('F','unit'),('L','賜子弟'),('F','count1'),('L','人'),('F','rank1'),('F','count2'),('L','人'),('F','rank2')]}
+   'aggregate_fief_and_family_grants':[('M',None),('L','前後以功增邑'),('F','increase_number'),('F','unit'),('L','賜子弟'),('F','count1'),('L','人'),('F','rank1'),('F','count2'),('L','人'),('F','rank2')],
+   'single_unnamed_child_title_grant':[('L','分'),('M',None),('L','戸邑封'),('F','recipient_count'),('L','子'),('F','rank')]}
   cursor=scope['start']
   for typ,key in frames[b['kind']]:
    x=m if typ=='M'else f[key]if typ=='F'else None

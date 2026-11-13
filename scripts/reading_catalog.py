@@ -126,7 +126,11 @@ def outputs(root=None):
     except ImportError:
         from person_directory import outputs as person_directory_outputs
     result.update(person_directory_outputs(root))
-    return result
+    try:
+        from .reading_witness_preferences import enrich_outputs
+    except ImportError:
+        from reading_witness_preferences import enrich_outputs
+    return enrich_outputs(result, root)
 
 
 def run(check=False, root=None):

@@ -3,7 +3,7 @@
   "id": "q8m_d0c_kq3_AEBA",
   "canonical_person_id": "q8m_d0c_kq3_AEBA",
   "label": "白公勝",
-  "identity_note": null,
+  "identity_note": "卷三十六之「白公勝」與卷四十所記平王太子建之子勝、卷四十二建子勝奔吳及卷六十六所記白公之亂，依明示父子、相同人名、事件與結局接為同一人物。原父系 ID 及太子建父子來源保留；卷三十六另有陳國少妾之子勝，依既有區別判讀維持為不同人物。",
   "review": "ai_provisional",
   "names": [
     "白公",
@@ -11,6 +11,48 @@
     "勝"
   ],
   "titles": [
+    {
+      "id": "th-shiji036-065",
+      "person_id": "q8m_d0c_kq3_AEBA",
+      "title": "白公",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p025",
+          "quote": "二十三年，楚之白公勝殺令尹子西、子綦，襲惠王。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji036-065:a001",
+          "paragraph_id": "c-shiji-036-chenqi:p025",
+          "start": 132,
+          "end": 134,
+          "surface": "白公",
+          "person_mention_id": "c-shiji-036-chenqi:m025-0132",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "白公原稱，未由公字補制度爵等；政變與自殺不自動作全爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji040-024",
       "person_id": "q8m_d0c_kq3_AEBA",
@@ -377,6 +419,59 @@
     }
   ],
   "occurrences": [
+    {
+      "number": 36,
+      "category": "shijia",
+      "title": "陳杞世家第六",
+      "paragraph_id": "c-shiji-036-chenqi:p025",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "陳侯。陳侯恐，如吳。楚伐陳。二十一年，齊田常弒其君簡公。二十三年，楚之白公勝殺令尹子西、子綦，襲惠王。葉公攻敗白公，白公自殺。",
+      "paragraph_ids": [
+        "c-shiji-036-chenqi:p025"
+      ],
+      "mention_ids": [
+        "c-shiji-036-chenqi:m025-0132",
+        "c-shiji-036-chenqi:m025-0152",
+        "c-shiji-036-chenqi:m025-0155"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-036-chenqi:m025-0132": "c-shiji-036-chenqi:p025",
+        "c-shiji-036-chenqi:m025-0152": "c-shiji-036-chenqi:p025",
+        "c-shiji-036-chenqi:m025-0155": "c-shiji-036-chenqi:p025"
+      },
+      "mention_id": "c-shiji-036-chenqi:m025-0132",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-036-chenqi:m025-0132",
+          "mention_ids": [
+            "c-shiji-036-chenqi:m025-0132"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-036-chenqi:m025-0152",
+          "mention_ids": [
+            "c-shiji-036-chenqi:m025-0152"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-036-chenqi:m025-0155",
+          "mention_ids": [
+            "c-shiji-036-chenqi:m025-0155"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-036",
+      "chapter_id": "c-shiji-036-chenqi",
+      "source_id": "s-shiji-036-chenqi",
+      "work_title": "史記"
+    },
     {
       "number": 40,
       "category": "shijia",
@@ -753,6 +848,30 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-shiji-036-chenqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-036",
+      "source_id": "s-shiji-036-chenqi",
+      "source": {
+        "title": "史記／卷036",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷036",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷036&oldid=2588525",
+        "revision_id": 2588525,
+        "accessed_on": "2026-10-09",
+        "extent": "32段傳世正文，自陳胡公滿至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定版本與實讀HTML一致。原字、探續、媯／姜及傳（上）［云］等見證字樣不默改。末段以索隱述贊標題辨為附載評論，不作司馬遷正文或已校定作者。",
+          "note": "未核可靠古籍底本及影像；原紀年、世系、卜筮引語及校勘保留。已另存吉本道雅2020年論文第6–7頁的具體辨析摘要，不表示本篇全部身份、版本及現代研究已覆核。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-040-chu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-040",
@@ -893,12 +1012,83 @@
     }
   ],
   "related_people": {
+    "cqw_m1b_mk5": "勝（陳哀公子）",
     "gts_42q_flu_AAAAA": "勝（鄭世家聲公候選）",
     "q8m_d0c_kq3_AEB": "楚太子建",
     "q8m_d0c_kq3_AEBA": "白公勝"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 479,
+      "year": -478,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "湣公六年，孔子適陳。吳王夫差伐陳，取三邑而去。十三年，吳復來伐陳，陳告急楚，楚昭王來救，軍於城父，吳師去。是年，楚昭王卒於城父。時孔子在陳。十五年，宋滅曹。十六年，吳王夫差伐齊，敗之艾陵，使人召陳侯。陳侯恐，如吳。楚伐陳。二十一年，齊田常弒其君簡公。二十三年，楚之白公勝殺令尹子西、子綦，襲惠王。葉公攻敗白公，白公自殺。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p025",
+          "quote": "湣公六年，孔子適陳。吳王夫差伐陳，取三邑而去。十三年，吳復來伐陳，陳告急楚，楚昭王來救，軍於城父，吳師去。是年，楚昭王卒於城父。時孔子在陳。十五年，宋滅曹。十六年，吳王夫差伐齊，敗之艾陵，使人召陳侯。陳侯恐，如吳。楚伐陳。二十一年，齊田常弒其君簡公。二十三年，楚之白公勝殺令尹子西、子綦，襲惠王。葉公攻敗白公，白公自殺。",
+          "person_mention_id": "c-shiji-036-chenqi:m025-0152"
+        }
+      ],
+      "references": [
+        {
+          "title": "《中國哲學書電子化計劃》「楚惠王」條（年次對照）",
+          "url": "https://ctext.org/datawiki.pl?if=en&remap=gb&res=533079",
+          "quote": "楚惠王十年（前479年）",
+          "scope": "modern_chronology_cross_reference_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記》卷四十〈楚世家〉（同一事件的年次異說）",
+          "url": "https://zh.wikisource.org/wiki/史記/卷040",
+          "quote": "八年，晉伐鄭……白公勝怒，乃遂與勇力死士石乞等襲殺令尹子西、子綦於朝",
+          "scope": "received_chronology_conflict",
+          "image_verified": false
+        }
+      ],
+      "rationale": "依《史記》卷三十六陳世家湣公年序及同篇年表紀年暫換為公元前479年；楚世家另繫惠王八年，年次與《十二諸侯年表》所見楚惠王十年（前479年）不合。暫存數值以年表對照為參考，不消除傳世文本差異；僅標年，不推月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji036-046",
+      "person_id": "q8m_d0c_kq3_AEBA",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "identity_distinctions": [
+    {
+      "id": "d-shiji036-distinct-007",
+      "person_ids": [
+        "cqw_m1b_mk5",
+        "q8m_d0c_kq3_AEBA"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-036-chenqi:p020",
+          "quote": "三十四年，初，哀公娶鄭，長姬生悼太子師，少姬生偃。二嬖妾，長妾生留，少妾生勝。留有寵哀公，哀公屬之其弟司徒招。哀公病，三月，招殺悼太子，立留為太子。哀公怒，欲誅招，招發兵圍守哀公，哀公自經殺。招卒立留為陳君。四月，陳使使赴楚。楚靈王聞陳亂，乃殺陳使者，使公子棄疾發兵伐陳，陳君留奔鄭。九月，楚圍陳。十一月，滅陳。使棄疾為陳公。",
+          "chapter_id": "c-shiji-036-chenqi",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-036",
+          "source_id": "s-shiji-036-chenqi"
+        },
+        {
+          "paragraph_id": "c-shiji-036-chenqi:p025",
+          "quote": "湣公六年，孔子適陳。吳王夫差伐陳，取三邑而去。十三年，吳復來伐陳，陳告急楚，楚昭王來救，軍於城父，吳師去。是年，楚昭王卒於城父。時孔子在陳。十五年，宋滅曹。十六年，吳王夫差伐齊，敗之艾陵，使人召陳侯。陳侯恐，如吳。楚伐陳。二十一年，齊田常弒其君簡公。二十三年，楚之白公勝殺令尹子西、子綦，襲惠王。葉公攻敗白公，白公自殺。",
+          "chapter_id": "c-shiji-036-chenqi",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-036",
+          "source_id": "s-shiji-036-chenqi"
+        }
+      ],
+      "rationale": "陳哀公少妾子勝與後楚白公勝不同語境，先分候選，親屬與其他篇章尚待核。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "d-shiji042-distinct-001",
       "person_ids": [
@@ -999,6 +1189,63 @@
   ],
   "age_assertions": [],
   "life_events": [
+    {
+      "id": "le-shiji036-046",
+      "person_id": "q8m_d0c_kq3_AEBA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "二十三年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p025",
+          "quote": "湣公六年，孔子適陳。吳王夫差伐陳，取三邑而去。十三年，吳復來伐陳，陳告急楚，楚昭王來救，軍於城父，吳師去。是年，楚昭王卒於城父。時孔子在陳。十五年，宋滅曹。十六年，吳王夫差伐齊，敗之艾陵，使人召陳侯。陳侯恐，如吳。楚伐陳。二十一年，齊田常弒其君簡公。二十三年，楚之白公勝殺令尹子西、子綦，襲惠王。葉公攻敗白公，白公自殺。",
+          "person_mention_id": "c-shiji-036-chenqi:m025-0152"
+        }
+      ],
+      "source_term": "白公自殺",
+      "interpretation_note": "陳湣公十三年在本篇已按紀年換算為公元前489年；同篇二十三年據相同逐年序列推為公元前479年。僅換算至年，不補月日；此年次換算仍屬編者暫定。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 479,
+        "year": -478,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "湣公六年，孔子適陳。吳王夫差伐陳，取三邑而去。十三年，吳復來伐陳，陳告急楚，楚昭王來救，軍於城父，吳師去。是年，楚昭王卒於城父。時孔子在陳。十五年，宋滅曹。十六年，吳王夫差伐齊，敗之艾陵，使人召陳侯。陳侯恐，如吳。楚伐陳。二十一年，齊田常弒其君簡公。二十三年，楚之白公勝殺令尹子西、子綦，襲惠王。葉公攻敗白公，白公自殺。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-036-chenqi",
+            "source_id": "s-shiji-036-chenqi",
+            "paragraph_id": "c-shiji-036-chenqi:p025",
+            "quote": "湣公六年，孔子適陳。吳王夫差伐陳，取三邑而去。十三年，吳復來伐陳，陳告急楚，楚昭王來救，軍於城父，吳師去。是年，楚昭王卒於城父。時孔子在陳。十五年，宋滅曹。十六年，吳王夫差伐齊，敗之艾陵，使人召陳侯。陳侯恐，如吳。楚伐陳。二十一年，齊田常弒其君簡公。二十三年，楚之白公勝殺令尹子西、子綦，襲惠王。葉公攻敗白公，白公自殺。",
+            "person_mention_id": "c-shiji-036-chenqi:m025-0152"
+          }
+        ],
+        "references": [
+          {
+            "title": "《中國哲學書電子化計劃》「楚惠王」條（年次對照）",
+            "url": "https://ctext.org/datawiki.pl?if=en&remap=gb&res=533079",
+            "quote": "楚惠王十年（前479年）",
+            "scope": "modern_chronology_cross_reference_only",
+            "image_verified": false
+          },
+          {
+            "title": "《史記》卷四十〈楚世家〉（同一事件的年次異說）",
+            "url": "https://zh.wikisource.org/wiki/史記/卷040",
+            "quote": "八年，晉伐鄭……白公勝怒，乃遂與勇力死士石乞等襲殺令尹子西、子綦於朝",
+            "scope": "received_chronology_conflict",
+            "image_verified": false
+          }
+        ],
+        "rationale": "依《史記》卷三十六陳世家湣公年序及同篇年表紀年暫換為公元前479年；楚世家另繫惠王八年，年次與《十二諸侯年表》所見楚惠王十年（前479年）不合。暫存數值以年表對照為參考，不消除傳世文本差異；僅標年，不推月日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    },
     {
       "id": "le-shiji040-051",
       "person_id": "q8m_d0c_kq3_AEBA",

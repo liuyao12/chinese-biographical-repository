@@ -1,0 +1,9 @@
+# 武英殿宋045爵序與承嗣
+
+沿用title_holdings、inheritance、noble_rank_change、unassumed_appointment與person_life/person_event既有族別。
+
+`source_succession_binding.kind=fixed_wyd045_father_succession`僅把已驗父子＋前爵完整鏈的『嗣』識為建安縣侯承嗣；attestation.surface仍為原『嗣』，不是本句明出全爵。inheritance.status=contextual_provisional、人審false，未知始終，不用父卒年填嗣年。source_clauses／MID和原文均不變。holding.title與attestation.surface皆保原詞嗣，inheritance.resolved_title才是識得爵名，直接沿原generic surface與inheritance檢查；不新增共享surface准入。
+
+西安縣五等侯保原字。灄縣男500戶、建安縣侯1000戶是記錄食邑，不是已核實收。改封建安明永初元年420，僅閉已接灄爵，不據後封自動關閉西安五等侯。兩追贈不填任年，持節本官如故不變成一串新追贈官。
+
+左光祿大夫徵不就：沿既有postposed summons＋不就語法，未赴任不入holding。琛卒無子國除、曠之卒只記無年事件；國除爵名沿來源承嗣鏈識得，不關閉其餘官職或推出全體子女數。保先批53卒齡與其餘七筆。

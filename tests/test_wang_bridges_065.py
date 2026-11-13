@@ -47,12 +47,32 @@ class WangBridges065(unittest.TestCase):
 
     def test_cousin_age_is_preserved_without_fabricated_distance(self):
         cousins = [a for a in self.rels if a['predicate'] == 'agnatic_cousin']
-        self.assertEqual(len(cousins), 2)
+        self.assertEqual(len(cousins), 3)
         for a in cousins:
             k = a['qualifiers']['kinship_structure']
-            self.assertIsNone(k['distance'])
             self.assertIsNone(k['common_ancestor_person_id'])
             self.assertEqual(k['generation_difference'], 0)
+            self.assertIn(k['subject_relative_age'], ('older', 'younger'))
+            if a['qualifiers'].get('source_term') == '從祖兄':
+                self.assertEqual(k['distance'], {'kind': 'paternal_second_cousins',
+                                                  'common_ancestor_depth': {'subject': 3, 'reference': 3}})
+                self.assertEqual(k['subject_relative_age'], 'older')
+            else:
+                self.assertIsNone(k['distance'])
+            order = a['qualifiers'].get('relative_birth_order')
+            if order is not None:
+                self.assertIsNone(order['older_ordinal'])
+                self.assertIsNone(order['younger_ordinal'])
+        congzu = next(a for a in read('corpus/nanqishu/046-assertions.json')['assertions']
+                      if a['id'] == 'a-nanqi046-sengyou-jian-congzu-older')
+        self.assertEqual(congzu['qualifiers']['kinship_structure']['distance'],
+                         {'kind': 'paternal_second_cousins',
+                          'common_ancestor_depth': {'subject': 3, 'reference': 3}})
+        self.assertIsNone(congzu['qualifiers']['kinship_structure']['common_ancestor_person_id'])
+        self.assertEqual(congzu['qualifiers']['kinship_structure']['subject_relative_age'], 'older')
+        order = congzu['qualifiers']['relative_birth_order']
+        self.assertIsNone(order['older_ordinal'])
+        self.assertIsNone(order['younger_ordinal'])
         older = next(a for a in cousins if a['subject_person_id'] == self.people['王敦'])
         self.assertEqual(older['qualifiers']['relative_birth_order']['younger_person_id'], self.people['王導'])
         younger = next(a for a in cousins if a['subject_person_id'] == self.people['王獻之'])

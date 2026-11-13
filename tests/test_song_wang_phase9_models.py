@@ -11,13 +11,13 @@ sha=lambda b:hashlib.sha256(b).hexdigest()
 class Models(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
-  cls.ch=[read(R/f'corpus/songshu/{n}.json')for n in ['042','063-wanghua-tanshou']];cls.ps={p['id']:(c['id'],p)for c in cls.ch for p in c['paragraphs']};cls.ms={m['id']:(c['id'],p['id'],m)for c in cls.ch for p in c['paragraphs']for m in p['mentions']};cls.events={e['id']:e for n in ['042','063-wanghua-tanshou']for e in read(R/f'corpus/songshu/{n}-life-events.json')['events']};cls.hs=[h for n in ['042','063-wanghua-tanshou']for h in read(R/f'corpus/songshu/{n}-titles.json')['holdings']];cls.gifts=[h for h in cls.hs if h.get('posthumous_basis',{}).get('kind')=='explicit_topic_scoped_gift'];cls.fiefs=[h for h in cls.hs if h['mode']=='posthumous_enfeoffment'];cls.ctx=read(R/'corpus/calendar-contexts/song-wang-phase9.json')['records']
+  cls.ch=[read(R/f'corpus/songshu/{n}.json')for n in ['042','063-wanghua-tanshou']];cls.ps={p['id']:(c['id'],p)for c in cls.ch for p in c['paragraphs']};cls.ms={m['id']:(c['id'],p['id'],m)for c in cls.ch for p in c['paragraphs']for m in p['mentions']};cls.events={e['id']:e for n in ['042','063-wanghua-tanshou']for e in read(R/f'corpus/songshu/{n}-life-events.json')['events']};cls.hs=[h for n in ['042','063-wanghua-tanshou']for h in read(R/f'corpus/songshu/{n}-titles.json')['holdings']];cls.gifts=[h for h in cls.hs if h.get('posthumous_basis',{}).get('kind')=='explicit_topic_scoped_gift'];cls.fiefs=[h for h in cls.hs if h['mode']=='posthumous_enfeoffment'];cls.ctx=read(R/'corpus/calendar-contexts/song-wang-phase9.json')['records'];cls.current_emperor=cls.ms[cls.ctx[0]['era_context']['emperor_mention_id']][2]['person_id']
  def gv(self,h,ps=None,ms=None,events=None):return explicit_topic_gift_valid(h,ps or self.ps,ms or self.ms,events or self.events)
  def test_nonzero_topic_and_sovereign_reply_gifts(self):
   self.assertEqual(len(self.gifts),2)
   for h in self.gifts:self.assertGreater(self.ms[h['posthumous_basis']['topic_person_mention_id']][2]['start'],0);self.assertTrue(self.gv(h))
  def test_wrong_recipient_is_rejected(self):
-  h=copy.deepcopy(self.gifts[0]);h['person_id']='3bh_k4m_fg4';self.assertFalse(self.gv(h))
+  h=copy.deepcopy(self.gifts[0]);h['person_id']=(self.current_emperor);self.assertFalse(self.gv(h))
  def test_emperor_cannot_replace_explicit_topic(self):
   h=copy.deepcopy(self.gifts[0]);b=h['posthumous_basis'];b['topic_person_mention_id']=b['sovereign_replies'][0]['person_mention_id'];self.assertFalse(self.gv(h))
  def test_unlisted_intervening_emperor_is_not_silently_ignored(self):
@@ -40,7 +40,7 @@ class Models(unittest.TestCase):
   for c in self.ctx:self.assertEqual(context_errors(c,R),[])
   self.assertEqual([c['normalized_date']['year']for c in self.ctx],[432,427,430,432,432])
  def test_wrong_topic_identity_rejected(self):
-  c=copy.deepcopy(self.ctx[0]);c['timeline']['unit_subject_person_id']='3bh_k4m_fg4';self.assertTrue(context_errors(c,R))
+  c=copy.deepcopy(self.ctx[0]);c['timeline']['unit_subject_person_id']=(self.current_emperor);self.assertTrue(context_errors(c,R))
  def test_other_biography_heading_rejected(self):
   c=copy.deepcopy(self.ctx[2]);c['timeline']['unit_heading_line']=9;self.assertTrue(context_errors(c,R))
  def test_missing_paragraph_rejected(self):
@@ -50,7 +50,7 @@ class Models(unittest.TestCase):
  def test_missing_raw_line_rejected(self):
   c=copy.deepcopy(self.ctx[0]);del c['context_lines'][2];self.assertIn('傳紀年原行跳段',context_errors(c,R))
  def test_other_ruler_era_context_rejected(self):
-  c=copy.deepcopy(self.ctx[0]);ep=self.ps[c['era_context']['paragraph_id']][1];c['era_context']['emperor_mention_id']=next(m['id']for m in ep['mentions']if m.get('person_id')!='3bh_k4m_fg4'and m['kind']=='person');self.assertIn('傳紀年異帝年號不得接線',context_errors(c,R))
+  c=copy.deepcopy(self.ctx[0]);ep=self.ps[c['era_context']['paragraph_id']][1];c['era_context']['emperor_mention_id']=next(m['id']for m in ep['mentions']if m.get('person_id')!=(self.current_emperor)and m['kind']=='person');self.assertIn('傳紀年異帝年號不得接線',context_errors(c,R))
  def test_year_arithmetic_rejected(self):
   c=copy.deepcopy(self.ctx[1]);c['normalized_date']['year']+=1;self.assertIn('傳紀年中國曆年換算不符',context_errors(c,R))
  def test_event_cannot_borrow_a_later_date_phrase(self):
@@ -91,7 +91,7 @@ class Models(unittest.TestCase):
  def test_new_unit_heading_even_with_consistent_source_hash_rejected(self):
   c,r=self.changed_witness('topic');self.assertIn('傳紀年中途換傳／換話題',context_errors(c,r))
  def test_date_binding_cannot_point_to_other_death(self):
-  c=self.ctx[0];event=copy.deepcopy(self.events[c['event_binding']['record_id']]);event['person_id']='3bh_k4m_fg4';d=event['normalized_date'];ps={k:v[1]for k,v in self.ps.items()};self.assertIn('傳紀年接線須綁同人同事件字位',binding_errors(d,event,'event',{x['id']:x for x in self.ctx},ps))
+  c=self.ctx[0];event=copy.deepcopy(self.events[c['event_binding']['record_id']]);event['person_id']=(self.current_emperor);d=event['normalized_date'];ps={k:v[1]for k,v in self.ps.items()};self.assertIn('傳紀年接線須綁同人同事件字位',binding_errors(d,event,'event',{x['id']:x for x in self.ctx},ps))
  def test_posthumous_enfeoffments_have_distinct_mode(self):
   self.assertEqual(len(self.fiefs),2)
   for h in self.fiefs:self.assertTrue(fief_valid(h,self.ps,self.ms,self.events));self.assertEqual(h['effective_period']['start']['event_type'],'posthumous_enfeoffment');self.assertEqual(h['effective_period']['start']['normalized_date']['year'],432)
