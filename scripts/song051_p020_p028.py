@@ -150,7 +150,7 @@ def name_components(ch):
     return {'format_version':'0.2','record_type':'person_name_component_set','chapter_id':CID,'records':records}
 
 def addresses(ch):
-    ps=paragraphs(ch);p27=ps['p027'];zun=mention(ch,'p027','遵',2);dao=mention(ch,'p027','道規',0)
+    ps=paragraphs(ch);p27=ps['p027'];zun=mention(ch,'p027','遵',2);dao=mention(ch,'p027','道規',1)
     origin='臨淮海西';i=p27['text'].index(origin);death='京師';j=p27['text'].index(death)
     def row(ident,pid,relation,term,placename,anchor_start,anchor_end,mid,note):
         return {'id':ident,'person_id':pid,'relation':relation,'source_term':term,
@@ -166,7 +166,7 @@ def addresses(ch):
           '本傳明載道規薨於京師；照錄原地稱，不推今日轄區或精確地址。') ]}
 
 def life_events(ch,root):
-    ps=paragraphs(ch);p27=ps['p027'];p28=ps['p028'];zun=mention(ch,'p027','遵',2);dao=mention(ch,'p027','道規',0)
+    ps=paragraphs(ch);p27=ps['p027'];p28=ps['p028'];zun=mention(ch,'p027','遵',2);dao=mention(ch,'p027','道規',1)
     era=load(root,YIXI_PATH);ref={'title':era['title'],'url':era['url'],'quote':era['era_name'],
       'scope':'modern_era_year_equivalence_only','columns':{'dynasty':era['dynasty'],'era_name':era['era_name'],
       'first_year':str(era['first_ce_year']),'last_year':str(era['last_ce_year'])},
@@ -202,7 +202,7 @@ def life_events(ch,root):
 
 def age_assertions(ch, root):
     ps=paragraphs(ch); p27=ps['p027']; p28=ps['p028']
-    dao27=mention(ch,'p027','道規',0); dao28=mention(ch,'p028','臨川王',0)
+    dao27=mention(ch,'p027','道規',1); dao28=mention(ch,'p028','臨川王',0)
     death=next(e for e in life_events(ch,root)['events'] if e['id']=='le-song051-p020-p028-daogui-death')
     parts=[
       {'paragraph_id':p27['id'],'start':len(p27['text'])-2,'end':len(p27['text']),'surface':'時年','person_mention_id':dao27['id'],'paragraph_sha256':hashlib.sha256(p27['text'].encode()).hexdigest()},
@@ -249,7 +249,7 @@ def titles(ch):
                 specs[-1]['enfeoffment_basis']={'kind':'explicit_posthumous_enfeoffment','source_term':source_term,
                   'death_event_id':death_event_id,'evidence':[copy.deepcopy(ev)]}
             else:
-                prev=ps['p027']; death_mid=mention(ch,'p027','道規',0)['id']
+                prev=ps['p027']; death_mid=mention(ch,'p027','道規',1)['id']
                 specs[-1]['enfeoffment_basis']={'kind':'explicit_posthumous_enfeoffment_after_named_subject_death_previous_paragraph',
                   'source_term':'追封'+title,'death_event_id':'le-song051-p020-p028-daogui-death',
                   'death_context':{'paragraph_id':prev['id'],'quote':prev['text'],'person_mention_id':death_mid,
@@ -261,7 +261,7 @@ def titles(ch):
     add('th-song051-p020-p028-daogui-bingzhou','p023','3qs_nqa_ioa_AAC',m['id'],'并州刺史','office','attestation')
     add('th-song051-p020-p028-daogui-yichang','p023','3qs_nqa_ioa_AAC',m['id'],'義昌太守','office','attestation')
     add('th-song051-p020-p028-daogui-huarong','p023','3qs_nqa_ioa_AAC',m['id'],'華容縣公','noble_rank','grant')
-    m=mention(ch,'p027','道規',0)
+    m=mention(ch,'p027','道規',1)
     add('th-song051-p020-p028-daogui-zhengxi','p027','3qs_nqa_ioa_AAC',m['id'],'征西大將軍','office','grant')
     add('th-song051-p020-p028-daogui-kaifu','p027','3qs_nqa_ioa_AAC',m['id'],'開府儀同三司','office','grant')
     add('th-song051-p020-p028-daogui-sanjichangshi','p027','3qs_nqa_ioa_AAC',m['id'],'散騎常侍','office','grant')
