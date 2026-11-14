@@ -6,6 +6,9 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `mev_r3x_fuu` | 欒書 | [《史記・鄭世家》][111] | [JSON](mev_r3x_fuu.json) |
+| `mex_tig_16z` | 蓋聶 | [《史記・刺客列傳》][155] | [JSON](mex_tig_16z.json) |
+| `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][115] | [JSON](mf2_tm7_f9r.json) |
 | `mfr_nye_lnv` | 趙信（匈奴列傳第35段） | [《史記・衛將軍驃騎列傳》][180] | [JSON](mfr_nye_lnv.json) |
 | `mfu_22v_exx` | 趙穿 | [《史記・鄭世家》][111] | [JSON](mfu_22v_exx.json) |
 | `mge_pi9_fn1` | 計然 | [《史記・貨殖列傳》][198] | [JSON](mge_pi9_fn1.json) |

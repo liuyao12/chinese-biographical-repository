@@ -1361,12 +1361,14 @@
 | `hpr_r6d_xg9` | 籍少公 | [《史記・游俠列傳》][193] | [JSON](hpr_r6d_xg9.json) |
 | `hpw_2ip_uqk` | 王然于 | [《史記・西南夷列傳》][185] | [JSON](hpw_2ip_uqk.json) |
 | `hqa_44f_22t` | 趙文子（季子所語者） | [《史記・晉世家》][108] | [JSON](hqa_44f_22t.json) |
+| `hqe_hvd_uq2` | 王武連 | [《宋書・宗室》][212] | [JSON](hqe_hvd_uq2.json) |
 | `hqe_r6c_hmf` | 芒 | [《史記・夏本紀》][89] | [JSON](hqe_r6c_hmf.json) |
 | `hqs_i1n_n5h` | 陽虎 | [《史記・魯周公世家》][102]、[《史記・十二諸侯年表》][244] | [JSON](hqs_i1n_n5h.json) |
 | `hri_c2p_nht` | 周殷 | [《史記・陳丞相世家》][125] | [JSON](hri_c2p_nht.json) |
 | `hrl_307_u5r` | 蘇公〔桓玄疏引古者，名未定〕 | [《晉書・叛臣二》][60] | [JSON](hrl_307_u5r.json) |
 | `hrm_lw1_f9d` | 楚懷王 | [《史記・曹相國世家》][123] | [JSON](hrm_lw1_f9d.json) |
 | `hrw_lli_22s` | 季康子 | [《史記・魯周公世家》][102] | [JSON](hrw_lli_22s.json) |
+| `hs7_69e_pu2` | 彭元儁 | [《宋書・宗室》][212] | [JSON](hs7_69e_pu2.json) |
 | `hsd_7jd_t7u` | 迪（鍾繇父） | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](hsd_7jd_t7u.json) |
 | `hsg_oao_yjg` | 孫奮 | [《史記・樊酈滕灌列傳》][164] | [JSON](hsg_oao_yjg.json) |
 | `hsk_dzu_vsa` | 伯南 | [《三國志・諸夏侯曹傳》][77] | [JSON](hsk_dzu_vsa.json) |
@@ -1511,6 +1513,7 @@
 | `il9_kpr_9zz` | 龍賈 | [《史記・蘇秦列傳》][138] | [JSON](il9_kpr_9zz.json) |
 | `ild_qbl_r1q` | 越石父 | [《史記・管晏列傳》][131] | [JSON](ild_qbl_r1q.json) |
 | `ile_1tb_ymg` | 周引功 | [《史記・白起王翦列傳》][142] | [JSON](ile_1tb_ymg.json) |
+| `ilm_cng_60j` | 戚仁祖 | [《宋書・宗室》][212] | [JSON](ilm_cng_60j.json) |
 | `iln_cic_3d5` | 南公揭 | [《史記・秦本紀》][92] | [JSON](iln_cic_3d5.json) |
 | `im5_l1w_bot` | 孫夐 | [《南齊書・王僧虔 張緒》][67] | [JSON](im5_l1w_bot.json) |
 | `ima_dfc_4lp` | 周定王（楚篇問鼎者） | [《史記・楚世家》][109] | [JSON](ima_dfc_4lp.json) |
@@ -2092,9 +2095,6 @@
 | `mdk_l9p_342` | 桑距 | [《史記・五宗世家》][128] | [JSON](mdk_l9p_342.json) |
 | `me7_83c_74z` | 樓煩（本卷稱呼） | [《史記・項羽本紀》][94] | [JSON](me7_83c_74z.json) |
 | `mes_rgf_o7u` | 趙毗 | [《晉書・桓彝》][44] | [JSON](mes_rgf_o7u.json) |
-| `mev_r3x_fuu` | 欒書 | [《史記・鄭世家》][111] | [JSON](mev_r3x_fuu.json) |
-| `mex_tig_16z` | 蓋聶 | [《史記・刺客列傳》][155] | [JSON](mex_tig_16z.json) |
-| `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][115] | [JSON](mf2_tm7_f9r.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

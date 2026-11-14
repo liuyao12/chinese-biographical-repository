@@ -16,22 +16,25 @@
       "category": "",
       "title": "宗室",
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p008",
-      "count": 2,
-      "raw_count": 2,
+      "count": 3,
+      "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "配祭廟廷俾示徽章垂美長世茂績遠猷永傳不朽道憐六子義欣義慶義融義宗義賓義綦義欣嗣為員外散騎侍郎不拜歷中領軍征虜將軍青州刺史魏郡太守將軍如故戍石頭元嘉元年進號後將軍加散騎常侍三年以本號為南兗州刺史七年到彥之率大衆入河義欣進彭城為衆軍聲援彥之退敗青齊擾壞將佐虜寇大至",
       "paragraph_ids": [
         "c-songshu-051-wyd1739-zongshi:p008",
-        "c-songshu-051-wyd1739-zongshi:p012"
+        "c-songshu-051-wyd1739-zongshi:p012",
+        "c-songshu-051-wyd1739-zongshi:p013"
       ],
       "mention_ids": [
         "c-songshu-051-wyd1739-zongshi:p008:m0028",
-        "c-songshu-051-wyd1739-zongshi:p012:m0121"
+        "c-songshu-051-wyd1739-zongshi:p012:m0121",
+        "c-songshu-051-wyd1739-zongshi:p013:m0019"
       ],
       "mention_paragraph_ids": {
         "c-songshu-051-wyd1739-zongshi:p008:m0028": "c-songshu-051-wyd1739-zongshi:p008",
-        "c-songshu-051-wyd1739-zongshi:p012:m0121": "c-songshu-051-wyd1739-zongshi:p012"
+        "c-songshu-051-wyd1739-zongshi:p012:m0121": "c-songshu-051-wyd1739-zongshi:p012",
+        "c-songshu-051-wyd1739-zongshi:p013:m0019": "c-songshu-051-wyd1739-zongshi:p013"
       },
       "mention_id": "c-songshu-051-wyd1739-zongshi:p008:m0028",
       "occurrence_groups": [
@@ -46,6 +49,13 @@
           "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0121",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p012:m0121"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0019",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p013:m0019"
           ],
           "kind": "paragraph"
         }
@@ -172,13 +182,104 @@
           "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p008:m0020"
         }
       ]
+    },
+    {
+      "id": "a-song051-p012-p013-yi-father",
+      "subject_person_id": "3qs_nqa_ioa_AABCA",
+      "predicate": "father",
+      "object_person_id": "3qs_nqa_ioa_AABC",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子孝侯顗嗣",
+        "source_unit_binding": {
+          "kind": "fixed_wyd_song051_p012_p013",
+          "case": "yi-father",
+          "start": 190,
+          "end": 195,
+          "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+        },
+        "interpretation_note": "前文列義融並明言其子顗嗣；本段角色連續，不把顗接為義欣或義慶之子。",
+        "lineage": "paternal",
+        "source_child_term": "子",
+        "source_child_sex": "male"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+          "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0123",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0121"
+        }
+      ],
+      "human_reviewed": false
     }
   ],
   "related_people": {
     "3qs_nqa_ioa_AAB": "道憐",
-    "3qs_nqa_ioa_AABC": "劉義融"
+    "3qs_nqa_ioa_AABC": "劉義融",
+    "3qs_nqa_ioa_AABCA": "劉顗"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "CE",
+      "era_year": 441,
+      "year": 441,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "calendar": "chinese_civil",
+      "source_expression": "元嘉十八年",
+      "original_quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+          "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0121"
+        }
+      ],
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "quote": "元嘉",
+          "scope": "modern_era_year_equivalence_only",
+          "columns": {
+            "dynasty": "宋",
+            "era_name": "元嘉",
+            "first_year": "424",
+            "last_year": "453"
+          },
+          "fixed_row_reference": {
+            "path": "source-evidence/song045-wyd1739-liucui/life-moe-yuanjia-row.json",
+            "sha256": "fc8a17ad4e6050f84622b4dd3360c3e37eecfc4fdac0be4608d9281dc121847c"
+          },
+          "image_verified": false
+        }
+      ],
+      "regnal_year_mapping": {
+        "kind": "fixed_wyd_song051_p008_p012_life_date",
+        "era_name": "元嘉",
+        "year": 441,
+        "source_expression": "元嘉十八年",
+        "context_kind": "explicit_era_year"
+      },
+      "status": "editorial_provisional",
+      "rationale": "原文直書元嘉十八年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "record_id": "le-song051-p008-p012-yirong-death",
+      "person_id": "3qs_nqa_ioa_AABC",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [
     {
       "id": "name-song051-phase1-yirong",
@@ -423,6 +524,40 @@
           "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p008:m0020"
         }
       ]
+    },
+    {
+      "id": "a-song051-p012-p013-yi-father",
+      "subject_person_id": "3qs_nqa_ioa_AABCA",
+      "predicate": "father",
+      "object_person_id": "3qs_nqa_ioa_AABC",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子孝侯顗嗣",
+        "source_unit_binding": {
+          "kind": "fixed_wyd_song051_p012_p013",
+          "case": "yi-father",
+          "start": 190,
+          "end": 195,
+          "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+        },
+        "interpretation_note": "前文列義融並明言其子顗嗣；本段角色連續，不把顗接為義欣或義慶之子。",
+        "lineage": "paternal",
+        "source_child_term": "子",
+        "source_child_sex": "male"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+          "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+          "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0123",
+          "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0121"
+        }
+      ],
+      "human_reviewed": false
     }
   ],
   "assembled_identity": {
@@ -439,8 +574,242 @@
     "status": "editorial_preferred",
     "human_reviewed": false
   },
+  "assembled_children": [
+    {
+      "person_id": "3qs_nqa_ioa_AABCB",
+      "representative_source_person_id": "3qs_nqa_ioa_AABCB",
+      "source_person_ids": [
+        "3qs_nqa_ioa_AABCB"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "3qs_nqa_ioa_AABC",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling",
+        "status": "contextual_provisional",
+        "rationale": "原文明示其為顗之弟；顗的來源父子斷言支持同父作可撤回家族組裝，不推同母。",
+        "sibling_father_assertion_id": "a-song051-p012-p013-yi-father",
+        "sibling_person_id": "3qs_nqa_ioa_AABCA",
+        "sibling_assertion_id": "a-song051-p012-p013-xi-brother",
+        "references": [
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+            "scope": "義融—顗明父；先前兄弟列延續"
+          },
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融",
+            "scope": "顗無子，弟襲"
+          }
+        ]
+      },
+      "assembly_id": "family-song041-qiao",
+      "root_person_id": "3qs_nqa_ioa",
+      "status": "editorial_preferred",
+      "human_reviewed": false
+    },
+    {
+      "person_id": "3qs_nqa_ioa_AABCC",
+      "representative_source_person_id": "3qs_nqa_ioa_AABCC",
+      "source_person_ids": [
+        "3qs_nqa_ioa_AABCC"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "3qs_nqa_ioa_AABC",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling_chain",
+        "status": "contextual_provisional",
+        "rationale": "依來源明載襲弟彪、襲弟顗之弟襲鏈，透過同父兄弟鏈接到義融；不推同母或絕對排行。",
+        "sibling_father_assertion_id": "a-song051-p012-p013-yi-father",
+        "sibling_person_ids": [
+          "3qs_nqa_ioa_AABCB",
+          "3qs_nqa_ioa_AABCA"
+        ],
+        "sibling_assertion_ids": [
+          "a-song051-p012-p013-biao-brother",
+          "a-song051-p012-p013-xi-brother"
+        ],
+        "references": [
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+            "scope": "義融→顗直接父子"
+          },
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融",
+            "scope": "襲弟彪、顗無子弟襲"
+          }
+        ]
+      },
+      "assembly_id": "family-song041-qiao",
+      "root_person_id": "3qs_nqa_ioa",
+      "status": "editorial_preferred",
+      "human_reviewed": false
+    },
+    {
+      "person_id": "3qs_nqa_ioa_AABCD",
+      "representative_source_person_id": "3qs_nqa_ioa_AABCD",
+      "source_person_ids": [
+        "3qs_nqa_ioa_AABCD"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "3qs_nqa_ioa_AABC",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling_chain",
+        "sibling_person_ids": [
+          "3qs_nqa_ioa_AABCB",
+          "3qs_nqa_ioa_AABCA"
+        ],
+        "sibling_assertion_ids": [
+          "a-song051-p012-p013-ding-brother",
+          "a-song051-p012-p013-xi-brother"
+        ],
+        "sibling_father_assertion_id": "a-song051-p012-p013-yi-father",
+        "status": "contextual_provisional",
+        "rationale": "「襲弟彪……弟定」依篇章語法暫承襲為省略主語；再由「無子弟襲」連到顗，顗有明文父義融。這是可修訂的父系家族組裝，不另造父名或推同母；ID字尾只表示家系分支槽位，不代表排行。",
+        "references": [
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "襲弟彪祕書郎弟定太子舍人並蚤卒",
+            "scope": "contextual_sibling_subject_inherited_from_xi"
+          }
+        ]
+      },
+      "assembly_id": "family-song041-qiao",
+      "root_person_id": "3qs_nqa_ioa",
+      "status": "editorial_preferred",
+      "human_reviewed": false
+    },
+    {
+      "person_id": "3qs_nqa_ioa_AABCE",
+      "representative_source_person_id": "3qs_nqa_ioa_AABCE",
+      "source_person_ids": [
+        "3qs_nqa_ioa_AABCE"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "3qs_nqa_ioa_AABC",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling_chain",
+        "sibling_person_ids": [
+          "3qs_nqa_ioa_AABCD",
+          "3qs_nqa_ioa_AABCB",
+          "3qs_nqa_ioa_AABCA"
+        ],
+        "sibling_assertion_ids": [
+          "a-song051-p012-p013-yi-brother",
+          "a-song051-p012-p013-ding-brother",
+          "a-song051-p012-p013-xi-brother"
+        ],
+        "sibling_father_assertion_id": "a-song051-p012-p013-yi-father",
+        "status": "contextual_provisional",
+        "rationale": "「定弟奕」明言奕為定弟；「弟定」承襲襲作主語仍屬上下文暫定，並經顗的明文父義融接入家族路徑。此可修訂組裝不另造父名或推同母；ID字尾為家系分支槽位，不表示排行。",
+        "references": [
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守",
+            "scope": "explicit_ding_yi_sibling_and_contextual_xi_ding"
+          }
+        ]
+      },
+      "assembly_id": "family-song041-qiao",
+      "root_person_id": "3qs_nqa_ioa",
+      "status": "editorial_preferred",
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-song051-p008-p012-yirong-death",
+      "person_id": "3qs_nqa_ioa_AABC",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "元嘉十八年",
+      "source_term": "元嘉十八年卒",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+          "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0121"
+        }
+      ],
+      "source_anchor": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+        "start": 174,
+        "end": 180,
+        "surface": "元嘉十八年卒"
+      },
+      "interpretation_note": "原文直書元嘉十八年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 441,
+        "year": 441,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "元嘉十八年",
+        "original_quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-051",
+            "source_id": "s-songshu-051-wyd1739-zongshi",
+            "chapter_id": "c-songshu-051-wyd1739-zongshi",
+            "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+            "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+            "person_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0121"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "元嘉",
+            "scope": "modern_era_year_equivalence_only",
+            "columns": {
+              "dynasty": "宋",
+              "era_name": "元嘉",
+              "first_year": "424",
+              "last_year": "453"
+            },
+            "fixed_row_reference": {
+              "path": "source-evidence/song045-wyd1739-liucui/life-moe-yuanjia-row.json",
+              "sha256": "fc8a17ad4e6050f84622b4dd3360c3e37eecfc4fdac0be4608d9281dc121847c"
+            },
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "fixed_wyd_song051_p008_p012_life_date",
+          "era_name": "元嘉",
+          "year": 441,
+          "source_expression": "元嘉十八年",
+          "context_kind": "explicit_era_year"
+        },
+        "status": "editorial_provisional",
+        "rationale": "原文直書元嘉十八年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
