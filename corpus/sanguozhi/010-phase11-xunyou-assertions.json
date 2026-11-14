@@ -403,6 +403,61 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-xunyou11-014",
+      "subject_person_id": "696_456_df6_AA",
+      "predicate": "paternal_aunt_child",
+      "object_person_id": "98a_aea_b7b",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "姑子",
+        "paternal_aunt_person_id": null,
+        "generation_difference": 0,
+        "exact_distance": null,
+        "common_ancestor_person_id": null,
+        "subject_relative_age": "unknown",
+        "source_clause_binding": {
+          "pattern": "sanguozhi010_gu_zi_subject_to_aunt_child",
+          "subject_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u016:m0003",
+          "object_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u016:m0006",
+          "start": 3,
+          "end": 8,
+          "surface": "攸姑子辛韜"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u016",
+          "quote": "魏書曰攸姑子辛韜曽問攸說太祖取冀州時事攸曰佐治為袁譚乞降王師自往平之吾何知焉自是韜及内外莫敢復問軍國事也",
+          "quoted_source_title": "魏書",
+          "text_layer": "ancient_quoted_text",
+          "subject_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u016:m0003",
+          "object_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u016:m0006"
+        }
+      ],
+      "interpretation_note": "《魏書》注明稱辛韜為荀攸「姑子」；《爾雅·釋親》以「父之姊妹為姑」及「姑之子為甥」釋稱謂。據此記為荀攸父系姑母之子，同代旁系；姑母匿名，不補其姓名、父母、荀攸之父或共同祖先，不推精確親等與年齡先後。",
+      "references": [
+        {
+          "title": "《爾雅·釋親》",
+          "url": "https://zh.wikisource.org/w/index.php?title=釋草_(爾雅)&oldid=8758864#釋親_第四",
+          "source_revision": "8758864",
+          "quotes": [
+            "父之姊妹為姑。",
+            "姑之子為甥。"
+          ],
+          "scope": "kinship_term_interpretation_only",
+          "text_layer": "received_classical_gloss",
+          "image_verified": false
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

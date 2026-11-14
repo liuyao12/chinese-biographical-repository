@@ -1676,9 +1676,15 @@ def _validate_uncached(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','father_in_law','teacher'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','paternal_aunt_child','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','father_in_law','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if a['predicate'] == 'paternal_aunt_child':
+                    try:
+                        from scripts.sanguozhi010_guzi import valid as sanguozhi010_guzi_valid
+                    except ImportError:
+                        from sanguozhi010_guzi import valid as sanguozhi010_guzi_valid
+                    check(sanguozhi010_guzi_valid(a, paragraphs), '卷十姑子關係須綁定魏書引文層、具名雙端及未知姑母')
                 # fixed-wyd045-relations: full finite source roles, not membership exemption.
                 try:from scripts.wyd_song045_roles import relation_applies as wyd045_applies, relation_valid as wyd045_valid
                 except ImportError:from wyd_song045_roles import relation_applies as wyd045_applies, relation_valid as wyd045_valid

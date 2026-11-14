@@ -98,6 +98,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `paternal_uncle` 保存原文明示的父系叔父關係，主體為侄輩、客體為叔父；`qualifiers.source_term` 保留「季父」等原詞。此關係不能改作父親，不推導原文未見的父親身份、同父同母、排行或其他兄弟關係。稱謂是否屬親屬而非尊稱仍須按語境判讀。
 
+`paternal_aunt_child` 以本人為主體、其父系姑母之子女為客體，記錄「姑子」路徑；姑母未名時 `paternal_aunt_person_id` 為 null，不建無名姑母節點，不補本人父親或姑母父母。此路徑連到同代旁系，但不是父系男系旁親；`generation_difference: 0`，`exact_distance` 與 `common_ancestor_person_id` 為 null，`subject_relative_age` 為 `unknown`。卷十首個實作僅接受固定的「攸姑子辛韜」句、同段雙人物錨及魏書引文層，不能由此放寬成其他「姑子」句的通用判讀。詞義參照《爾雅·釋親》「父之姊妹為姑」「姑之子為甥」，固定 Wikisource oldid 8758864；此參照只解稱謂，不作辛韜或荀攸的身份、世系證據。
+
 `maternal_uncle` 保存「姊子」明示的甥舅關係，主體為甥、客體為舅。`qualifiers` 保存原詞、`lineage: maternal`、`generation_difference: -1`，以及 `mother_person_id: null`；本句未名母親，不因來源別處可識別母親而改寫本句。負世代差表示客體較主體早一代。
 
 `kinship_generation` 保存「大父行」的祖父輩親屬，主體為單于、客體為所述親屬。保存 `source_term: 大父行`、`generation_difference: -2`、`lineage: unspecified`、`direct_ancestor: null`、`exact_distance: null`。此處只記世代，不生成父子路徑、祖父節點或已確定的父系親等。
