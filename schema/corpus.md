@@ -46,7 +46,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `002-identities.json` 的 `scope` 區分同篇與跨篇；`chapter_ids` 明列範圍，跨篇判斷須逐篇附原文證據。跨卷連續敘事可暫定共用既有 ID，但不把同名變成全域匹配規則。每項 `surfaces` 必須能在該人物的來源提及中找到。
 
-`002-assertions.json` 保存來源陳述，`subject_person_id`／`object_person_id` 為人物端點；`evidence` 同時連結篇、來源、段落與精確引句。`source_attested` 表示原文記載，並非已證實的生平。`qualifiers` 保留原稱與敘事性；父親、母親、兄弟、配偶、祖父、曾祖父與祖先分開，不從繼位順序推導父子。使用端按已記錄主張組裝，遇異說仍需同範圍的取捨決定。
+`002-assertions.json` 保存來源陳述，`subject_person_id`／`object_person_id` 為人物端點；`evidence` 同時連結篇、來源、段落與精確引句。`source_attested` 表示原文記載，並非已證實的生平。若關係詞明見而主語或端點同指仍依上下文暫定，`qualifiers.interpretation_status: contextual_provisional` 必須保留；它表示原詞有據、端點判讀未定，使用端不可只憑 `source_attested` 將關係呈現為確定。`qualifiers.interpretation_note` 說明未定的具體環節與依據。`qualifiers` 亦保留原稱與敘事性；父親、母親、兄弟、配偶、祖父、曾祖父與祖先分開，不從繼位順序推導父子。使用端按已記錄主張組裝，遇異說仍需同範圍的取捨決定。
 
 `next_number` 是單調遞增的 ID 分配游標，允許保留草稿已分配但尚未公開的號碼；不可為消除空號而重編既有 ID。稱號時段另待與 `data/name-history.json` 協調，本批不發布尚未整合的稱號草稿。
 
