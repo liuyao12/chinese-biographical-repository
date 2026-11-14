@@ -104,6 +104,10 @@ except ImportError:
 
 
 def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bound_role=None):
+    if isinstance(date, dict) and date.get('regnal_year_mapping', {}).get('kind') == 'fixed_wyd_song051_p008_p012_life_date':
+        try: from scripts.songshu051_p008_p012_life import date_valid
+        except ImportError: from songshu051_p008_p012_life import date_valid
+        return [] if bound_role == 'life_event' and date_valid(date, bound_record, root) else ['宋051 p008–p012紀年須綁固定人物死亡事件、原句、同篇年序及年號列']
     if (isinstance(date, dict) and
         (date.get('regnal_year_mapping', {}).get('kind', '').startswith('fixed_wyd_song051_p004_p007_') or
          (isinstance(bound_record, dict) and bound_record.get('id', '').startswith('le-song051-p004-p007-')))):
@@ -2445,6 +2449,11 @@ def _validate_uncached(root=ROOT):
                     errors.extend(native_death_errors(record, event, tables, pids))
                 continue
             check(record.get('record_type') in ('person_life_event_assertion_set', 'person_event_assertion_set') and record.get('chapter_id') in chapters, '生卒事件集類型或篇不存在')
+            if (record.get('chapter_id') == 'c-songshu-051-wyd1739-zongshi'
+                    and any(event.get('id', '').startswith('le-song051-p008-p012-') for event in record.get('events', []))):
+                try: from scripts.songshu051_p008_p012_life import record_valid
+                except ImportError: from songshu051_p008_p012_life import record_valid
+                check(record_valid(record, root), '宋051 p008–p012生卒事件須與固定段落、錨點、人物及紀年表一致')
             if record.get('chapter_id')=='c-songshu-051-wyd1739-zongshi' and record.get('record_type')=='person_event_assertion_set':
                 try:from scripts.wyd_song051_p018_records import person_events
                 except ImportError:from wyd_song051_p018_records import person_events
@@ -2473,6 +2482,10 @@ def _validate_uncached(root=ROOT):
                         try:from scripts.song051_p004_p007_records import life_event_valid
                         except ImportError:from song051_p004_p007_records import life_event_valid
                         life_ok=life_event_valid(event,root)
+                    elif event['id'].startswith('le-song051-p008-p012-'):
+                        try:from scripts.songshu051_p008_p012_life import event_valid
+                        except ImportError:from songshu051_p008_p012_life import event_valid
+                        life_ok=event_valid(event,root)
                     elif event['id'].startswith('le-song051-p044-p045-'):
                         try:from scripts.songshu_p044_p045_life import valid_event
                         except ImportError:from songshu_p044_p045_life import valid_event
