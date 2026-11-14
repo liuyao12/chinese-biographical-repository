@@ -1449,7 +1449,6 @@
 | `vjl_m0n_9pl` | 秦始皇帝 | [《史記・貨殖列傳》][198] | [JSON](vjl_m0n_9pl.json) |
 | `vjn_9tq_v8g` | 齊張仲 | [《史記・日者列傳》][196] | [JSON](vjn_9tq_v8g.json) |
 | `vk1_9g9_a0u` | 龐涓 | [《史記・商君列傳》][137] | [JSON](vk1_9g9_a0u.json) |
-| `vk5_fsh_iyt` | 王綏〔八王評比〕 | [《晉書・陳騫 裴秀》][27] | [JSON](vk5_fsh_iyt.json) |
 | `vk6_egu_id7` | 王子綦 | [《史記・伍子胥列傳》][135] | [JSON](vk6_egu_id7.json) |
 | `vk7_pxl_658` | 中行寅（攻趙鞅者） | [《史記・晉世家》][108] | [JSON](vk7_pxl_658.json) |
 | `vke_n1n_e2q` | 高祖從母〔懷敬母，未名〕 | [《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][211] | [JSON](vke_n1n_e2q.json) |

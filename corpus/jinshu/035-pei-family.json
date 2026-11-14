@@ -55,19 +55,6 @@
         "note": "035徽父職明確；SGZ古注裴徽只有交遊相容，尚未直接交證。源內另存人物，不判必異或合。"
       },
       {
-        "id": "ic-jin035-sui-internal",
-        "status": "unresolved",
-        "candidate_person_ids": [
-          "brc_n26_ekm",
-          "vk5_fsh_iyt"
-        ],
-        "paragraph_ids": [
-          "c-jinshu-035-peikai-family:p011",
-          "c-jinshu-035-peikai-family:p019"
-        ],
-        "note": "前者父戎，末評比無父職，是否同人未定；不套現父愉王綏。"
-      },
-      {
         "id": "ic-jin035-cheng",
         "status": "unresolved",
         "candidate_person_ids": [
@@ -79,6 +66,21 @@
           "c-jinshu-042-taiyuan-wang:line017"
         ],
         "note": "八王評比王澄與042王渾子澄缺交證，不按同名合。"
+      }
+    ],
+    "resolved_identity_cases": [
+      {
+        "id": "ic-jin035-sui-internal",
+        "status": "contextual_provisional",
+        "paragraph_ids": [
+          "c-jinshu-035-peikai-family:p011",
+          "c-jinshu-035-peikai-family:p019"
+        ],
+        "note": "依卷043校注所引《晉諸公贊》「王綏字萬子」及《聖賢群輔錄》「戎子早亡」，八王評比王綏與本篇王戎子綏首選同指；見 eq-jin035-wangsui-eight-wangs-001。未據「康比」推出親屬關係。",
+        "person_id": "brc_n26_ekm",
+        "identity_equivalence_decision_ids": [
+          "eq-jin035-wangsui-eight-wangs-001"
+        ]
       }
     ]
   },
@@ -3120,7 +3122,7 @@
           "end": 38,
           "surface": "王綏",
           "kind": "person",
-          "person_id": "vk5_fsh_iyt",
+          "person_id": "brc_n26_ekm",
           "status": "contextual_provisional"
         },
         {
