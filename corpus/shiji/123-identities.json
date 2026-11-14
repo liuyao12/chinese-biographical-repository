@@ -1,0 +1,43 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_identity_decision_set",
+  "chapter_id": "c-shiji-123-dayuan",
+  "decisions": [
+    {
+      "id": "d-shiji117-123-huchongguo-identity",
+      "person_id": "8wd_fcv_stu",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-117-xiangru",
+        "c-shiji-123-dayuan"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "moderate",
+      "surfaces": [
+        "壺充國"
+      ],
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m035-0186"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p035",
+          "quote": "副使王然於、壺充國、呂越人馳四乘之傳"
+        },
+        {
+          "chapter_id": "c-shiji-123-dayuan",
+          "paragraph_id": "c-shiji-123-dayuan:p034",
+          "quote": "校尉王申生、故鴻臚壺充國等千餘人"
+        }
+      ],
+      "rationale": "兩篇均載罕見全名「壺充國」；卷117稱其為司馬相如西南夷使團副使，卷123追稱「故鴻臚」並記入貳師伐大宛軍。人物活動與官職次序相容，未見矛盾，但兩篇沒有直接互指；依同名及時序暫定同人，不把副使、鴻臚合併成同一職稱時段，也不推任期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

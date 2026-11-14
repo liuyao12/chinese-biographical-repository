@@ -1770,7 +1770,7 @@
 | `8w3_sd6_lr3` | 鹿毛壽（讓國進言者） | [《史記・燕召公世家》][103] | [JSON](8w3_sd6_lr3.json) |
 | `8w8_yyv_mrh` | 出於 | [《史記・扁鵲倉公列傳》][174] | [JSON](8w8_yyv_mrh.json) |
 | `8w9_x0s_cyf` | 子之 | [《史記・燕召公世家》][103] | [JSON](8w9_x0s_cyf.json) |
-| `8wd_fcv_stu` | 壺充國 | [《史記・司馬相如列傳》][186] | [JSON](8wd_fcv_stu.json) |
+| `8wd_fcv_stu` | 壺充國 | [《史記・司馬相如列傳》][186]、[《史記・大宛列傳》][192] | [JSON](8wd_fcv_stu.json) |
 | `8wl_6mv_qn8` | 鄭弘 | [《史記・平津侯主父列傳》][181] | [JSON](8wl_6mv_qn8.json) |
 | `8wr_5yx_roo` | 元恒芝〔關中敗軍〕 | [《魏書・楊播》][235] | [JSON](8wr_5yx_roo.json) |
 | `8wv_thm_2zy` | 晏嬰 | [《史記・孟子荀卿列傳》][143] | [JSON](8wv_thm_2zy.json) |

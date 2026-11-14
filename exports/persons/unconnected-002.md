@@ -1632,7 +1632,6 @@
 | `jel_xae_qmj` | 殷仲文 | [《晉書・叛臣二》][61] | [JSON](jel_xae_qmj.json) |
 | `jex_mvs_w6d` | 許昌 | [《史記・魏其武安列傳》][176] | [JSON](jex_mvs_w6d.json) |
 | `jf9_key_t5m` | 楚文王（伐蔡記事） | [《史記・管蔡世家》][104] | [JSON](jf9_key_t5m.json) |
-| `jfb_bu6_k54` | 壺充國 | [《史記・大宛列傳》][192] | [JSON](jfb_bu6_k54.json) |
 | `jfj_ky5_9lg` | 麻戊 | [《史記・酷吏列傳》][191] | [JSON](jfj_ky5_9lg.json) |
 | `jfl_hyw_13h` | 魏冉 | [《史記・孟嘗君列傳》][144] | [JSON](jfl_hyw_13h.json) |
 | `jfm_184_2yb` | 呂嘉 | [《史記・南越列傳》][182] | [JSON](jfm_184_2yb.json) |
@@ -2095,6 +2094,7 @@
 | `mdk_l9p_342` | 桑距 | [《史記・五宗世家》][128] | [JSON](mdk_l9p_342.json) |
 | `me7_83c_74z` | 樓煩（本卷稱呼） | [《史記・項羽本紀》][94] | [JSON](me7_83c_74z.json) |
 | `mes_rgf_o7u` | 趙毗 | [《晉書・桓彝》][44] | [JSON](mes_rgf_o7u.json) |
+| `mev_r3x_fuu` | 欒書 | [《史記・鄭世家》][111] | [JSON](mev_r3x_fuu.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
