@@ -46,7 +46,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `002-identities.json` 的 `scope` 區分同篇與跨篇；`chapter_ids` 明列範圍，跨篇判斷須逐篇附原文證據。跨卷連續敘事可暫定共用既有 ID，但不把同名變成全域匹配規則。每項 `surfaces` 必須能在該人物的來源提及中找到。
 
-`002-assertions.json` 保存來源陳述，`subject_person_id`／`object_person_id` 為人物端點；`evidence` 同時連結篇、來源、段落與精確引句。`source_attested` 表示原文記載，並非已證實的生平。`qualifiers` 保留原稱與敘事性；父親、母親、兄弟、配偶、祖父、曾祖父與祖先分開，不從繼位順序推導父子。使用端按已記錄主張組裝，遇異說仍需同範圍的取捨決定。
+`002-assertions.json` 保存來源陳述，`subject_person_id`／`object_person_id` 為人物端點；`evidence` 同時連結篇、來源、段落與精確引句。`source_attested` 表示原文記載，並非已證實的生平。若關係詞明見而主語或端點同指仍依上下文暫定，`qualifiers.interpretation_status: contextual_provisional` 必須保留；它表示原詞有據、端點判讀未定，使用端不可只憑 `source_attested` 將關係呈現為確定。`qualifiers.interpretation_note` 說明未定的具體環節與依據。`qualifiers` 亦保留原稱與敘事性；父親、母親、兄弟、配偶、祖父、曾祖父與祖先分開，不從繼位順序推導父子。使用端按已記錄主張組裝，遇異說仍需同範圍的取捨決定。
 
 `next_number` 是單調遞增的 ID 分配游標，允許保留草稿已分配但尚未公開的號碼；不可為消除空號而重編既有 ID。稱號時段另待與 `data/name-history.json` 協調，本批不發布尚未整合的稱號草稿。
 
@@ -97,6 +97,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ## 父系叔父
 
 `paternal_uncle` 保存原文明示的父系叔父關係，主體為侄輩、客體為叔父；`qualifiers.source_term` 保留「季父」等原詞。此關係不能改作父親，不推導原文未見的父親身份、同父同母、排行或其他兄弟關係。稱謂是否屬親屬而非尊稱仍須按語境判讀。
+
+`paternal_aunt_child` 以本人為主體、其父系姑母之子女為客體，記錄「姑子」路徑；姑母未名時 `paternal_aunt_person_id` 為 null，不建無名姑母節點，不補本人父親或姑母父母。此路徑連到同代旁系，但不是父系男系旁親；`generation_difference: 0`，`exact_distance` 與 `common_ancestor_person_id` 為 null，`subject_relative_age` 為 `unknown`。卷十首個實作僅接受固定的「攸姑子辛韜」句、同段雙人物錨及魏書引文層，不能由此放寬成其他「姑子」句的通用判讀。詞義參照《爾雅·釋親》「父之姊妹為姑」「姑之子為甥」，固定 Wikisource oldid 8758864；此參照只解稱謂，不作辛韜或荀攸的身份、世系證據。
 
 `maternal_uncle` 保存「姊子」明示的甥舅關係，主體為甥、客體為舅。`qualifiers` 保存原詞、`lineage: maternal`、`generation_difference: -1`，以及 `mother_person_id: null`；本句未名母親，不因來源別處可識別母親而改寫本句。負世代差表示客體較主體早一代。
 
@@ -791,6 +793,8 @@ validator核同篇同source、直接相鄰段、原行只隔一空行、同固�
 
 《晉書》卷七十六「彪之……從伯導謂曰」另以固定句型記為王彪之（主體）稱王導（對象）為從伯：`generation_difference: -1` 僅表稱謂所示的一代差，父系旁親；不據此推定王彪之之父、王導之父以外的共同祖先身份或精確親等。此驗證只綁定卷七十六第55段的兩個人物錨與「從伯導」原詞，不推廣成任意「從伯」標記規則。
 
+《三國志》卷十荀攸裴注所引《荀氏家傳》「衢子祈……與族父愔俱著名」明指荀祈以荀愔為族父；`agnatic_senior_kin` 可用卷篇專屬 `source_clause_binding.pattern: sanguozhi010_zu_fu_subject_to_senior` 記錄，主體荀祈、對象荀愔，父系、晚一代旁親，親等與共同祖先留為 null、年齡先後未知。斷言引文只取 `received_text_layers` 中 authority 為《荀氏家傳》的 `ancient_quoted_text`，不混入同段《魏書》引文。《爾雅·釋親》「父之從祖晜弟為族父」只作稱謂解釋依據，不作荀氏人物關係的另一份來源；Wikisource 參照固定於 oldid 8758864。此句型目前僅支援這個固定段落、原詞及雙人物錨點；不得泛化至其他「族父」或相近稱謂。
+
 
 ### 固定見證同位置對應
 
@@ -1019,7 +1023,7 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 
 ### 宋041實授、奏請回證與宗祧爵位來源
 
-原生holding沿既有mode/attestation/effective_period。宋初追崇號謚的窄basis連篇首孝穆／皇后原字構件、傳主死亡與明追崇，不含姓；俱贈、於是追封／又追封需具名雙受者與同篇故官／主語鏈，奏請不可充實授。明追封為死後事件類別，不為滿足模型另造無記死亡日期。memorial_request分not_reported/confirmed_by_later_clause/partially_confirmed，連後文正式holding；500戶只有奏請，回證爵種不回證戶數，請求年不配無年實授。source_title_uses保存原用稱或命婦類稱、人物mention及可核holding，后／上不造爵。named_source_line_succession以前追封爵holding為source root，ritual predecessor另列且intervening_holding_status:not_asserted，不造早卒宣之實持或父／養父，其他明父承襲沿舊模型；國除只終爵不造死亡。
+原生holding沿既有mode/attestation/effective_period。宋初追崇號謚的窄basis連篇首孝穆／皇后原字構件、傳主死亡與明追崇，不含姓；俱贈、於是追封／又追封需具名雙受者與同篇故官／主語鏈，奏請不可充實授。明追封為死後事件類別，不為滿足模型另造無記死亡日期。memorial_request分not_reported/confirmed_by_later_clause/partially_confirmed，連後文正式holding；500戶只有奏請，回證爵種不回證戶數，請求年不配無年實授。source_title_uses保存原用稱、非姓名性的稱謂指涉或命婦類稱，連人物mention及可核holding；`usage_kind: title_reference` 的具體指涉按同段明名、發言／受話鏈等上下文逐處判讀，原稱不加入人物姓名aliases。`source_use_binding.interpretation_note` 保存每處辨識理由；`kind: contextual_person_title_reference` 必須有非空basis與interpretation_note。`殿下` 可作受話稱謂的title_reference，只記人物指涉，`holding_ids` 必須為空，不造爵或任期。有效的source_title_use本身含完整引文、精確人物mention與source_anchor時，可作該次非姓名性提及的篇章來源記錄，不必重複列為registry人物姓名證據；只有通過source_use_errors、use與mention人物ID及所屬篇一致者才豁免，無效或未錨定的use仍須符合一般人物證據雙向索引。后／上不造爵。named_source_line_succession以前追封爵holding為source root，ritual predecessor另列且intervening_holding_status:not_asserted，不造早卒宣之實持或父／養父，其他明父承襲沿舊模型；國除只終爵不造死亡。
 
 ### 遠祖聲稱之後的兄弟省略主語
 

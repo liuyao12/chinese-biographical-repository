@@ -6829,9 +6829,66 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-xunyou11-013",
+      "subject_person_id": "a1f_f17_ccb_A",
+      "predicate": "agnatic_senior_kin",
+      "object_person_id": "215_e1c_3e3",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "族父愔",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": -1,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "unknown"
+        },
+        "source_clause_binding": {
+          "pattern": "sanguozhi010_zu_fu_subject_to_senior",
+          "subject_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0047",
+          "object_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0054",
+          "start": 52,
+          "end": 55,
+          "surface": "族父愔"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004",
+          "quote": "荀氏家傳曰衢子祈字伯旗與族父愔俱著名祈與孔融論肉刑愔與孔融論聖人優劣並在融集祈位至濟隂太守愔後徴有道至丞相祭酒",
+          "subject_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0047",
+          "object_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0054",
+          "quoted_source_title": "荀氏家傳",
+          "text_layer": "ancient_quoted_text"
+        }
+      ],
+      "interpretation_note": "《荀氏家傳》明稱荀祈之族父為荀愔。《爾雅·釋親》以「父之從祖晜弟」釋族父，據此只記祈晚一代的父系旁親；不推精確親等、共同祖先、連接人物或年齡先後。",
+      "references": [
+        {
+          "title": "《爾雅·釋親》",
+          "url": "https://zh.wikisource.org/w/index.php?title=釋草_(爾雅)&oldid=8758864#釋親_第四",
+          "quote": "父之從祖晜弟為族父。",
+          "scope": "kinship_term_interpretation_only",
+          "text_layer": "received_classical_gloss",
+          "image_verified": false,
+          "source_revision": "8758864"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
     "215_e1c_3e3": "荀愔",
+    "a1f_f17_ccb_A": "荀祈",
     "ier_lqj_x4q": "郗愔"
   },
   "dates": [],
@@ -6872,7 +6929,63 @@
   "person_ids": [
     "215_e1c_3e3"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-xunyou11-013",
+      "subject_person_id": "a1f_f17_ccb_A",
+      "predicate": "agnatic_senior_kin",
+      "object_person_id": "215_e1c_3e3",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "族父愔",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": -1,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "unknown"
+        },
+        "source_clause_binding": {
+          "pattern": "sanguozhi010_zu_fu_subject_to_senior",
+          "subject_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0047",
+          "object_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0054",
+          "start": 52,
+          "end": 55,
+          "surface": "族父愔"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004",
+          "quote": "荀氏家傳曰衢子祈字伯旗與族父愔俱著名祈與孔融論肉刑愔與孔融論聖人優劣並在融集祈位至濟隂太守愔後徴有道至丞相祭酒",
+          "subject_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0047",
+          "object_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0054",
+          "quoted_source_title": "荀氏家傳",
+          "text_layer": "ancient_quoted_text"
+        }
+      ],
+      "interpretation_note": "《荀氏家傳》明稱荀祈之族父為荀愔。《爾雅·釋親》以「父之從祖晜弟」釋族父，據此只記祈晚一代的父系旁親；不推精確親等、共同祖先、連接人物或年齡先後。",
+      "references": [
+        {
+          "title": "《爾雅·釋親》",
+          "url": "https://zh.wikisource.org/w/index.php?title=釋草_(爾雅)&oldid=8758864#釋親_第四",
+          "quote": "父之從祖晜弟為族父。",
+          "scope": "kinship_term_interpretation_only",
+          "text_layer": "received_classical_gloss",
+          "image_verified": false,
+          "source_revision": "8758864"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

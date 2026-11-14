@@ -27,15 +27,22 @@
     },
     {
       "id": "eight-wangs",
-      "status": "unresolved",
-      "person_ids": [
-        "brc_n26_ekm",
-        "vk5_fsh_iyt"
-      ],
-      "basis": "品藻比較條只稱王綏，沒有父名或字。比較條正始中與列人年代有疑，不替原文改年，不據此強合。"
+      "status": "preferred_same_person",
+      "basis": "卷035 p019「康比王綏」只以同名本不足合併；但《晉書斠注》卷四十三於王戎子萬段注引《晉諸公贊》「王綏字萬子」及《聖賢群輔錄》「王綏字萬子，戎子早亡」，可把王綏與父戎之子相繫。故八王比較條的王綏首選同為卷035 p011、卷043 p014所見之人。仍與父愉、字彥猷、年代不同的另一王綏分開。",
+      "person_id": "brc_n26_ekm"
     }
   ],
   "current_mapping_correction": "035父戎原已指向48e；本次不改該父身份",
   "no_native_mutation": true,
-  "adoption_scope": "主代理AI史學首選採納；實體化另依本包plan，非真人覆核"
+  "adoption_scope": "主代理AI史學首選採納；實體化另依本包plan，非真人覆核",
+  "supporting_commentary_sources": [
+    {
+      "title": "《晉書斠注》卷四十三",
+      "url": "https://zh.wikisource.org/wiki/晉書斠注/卷043",
+      "locator": "王戎傳「子萬有美名」段下校注；線上轉錄頁，版本資料依頁面書目另核",
+      "quoted_note": "案萬子為綏之字，本傳誤以萬為名……《聖賢群輔錄》下云：王綏字萬子，戎子早亡，裴康女壻。",
+      "use": "參考校注所引舊書，協助辨識正文八王比較中的王綏；此注不是《晉書》正文，不直接轉成親屬斷言。",
+      "accessed_on": "2026-11-14"
+    }
+  ]
 }

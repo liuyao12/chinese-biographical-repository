@@ -14,5 +14,11 @@ def validate_childhood_name(name,paragraph=None):
             m=next((m for m in paragraph.get('mentions',[])if m.get('id')==a.get('person_mention_id')),None)
             if not m or m.get('person_id')!=pid or any(m.get(k)!=a[k]for k in ('start','end','surface')):fail()
     val,subject,marker=anchors
-    term=value+'者'+subject['surface']+'小字也'
-    if (val['surface']!=value or marker['surface']!='小字'or val['end']+1!=subject['start']or text[val['end']:subject['start']]!='者'or subject['end']!=marker['start']or basis['source_term']!=term or text[val['start']:marker['end']+1]!=term):fail()
+    # Received texts also use the compact form「小字值人物小字也」without「者」,
+    # as in《宋書》卷五十一「車士義真小字也」.  Keep this finite, exact
+    # construction alongside the older「值者人物小字也」form.
+    separator=text[val['end']:subject['start']]
+    if separator not in ('','者') or marker['surface']!='小字' or subject['end']!=marker['start']:
+        fail()
+    term=value+separator+subject['surface']+'小字也'
+    if val['surface']!=value or basis['source_term']!=term or text[val['start']:marker['end']+1]!=term:fail()

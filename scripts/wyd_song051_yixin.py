@@ -3,7 +3,7 @@ from pathlib import Path
 import json,copy,hashlib
 try:from scripts.validation_context import memoized
 except ImportError:from validation_context import memoized
-CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_p014_p017_family_annotation_batch';CONTRACT_SHA='5e18a7a426d32f24bc2485d95744af306ee3eac8ecadcf67a6f8bab9dcbdf3f8'
+CH='corpus/songshu/051-wyd1739.json';CID='c-songshu-051-wyd1739-zongshi';REF='source-evidence/song051-wyd1739-zongshi/yixin-complete-unit-contract.json';PHASE='song051_p014_p017_family_annotation_batch';CONTRACT_SHA = 'ae2f5895dfb7ef4ec2725fd477aab6717a68d8f795d10c3e305c1d47186a06cd'
 def same(a,b):
  if type(a)is not type(b):return False
  if type(a)is dict:return all(type(k)is str for k in a)and all(type(k)is str for k in b)and set(a)==set(b)and all(same(a[k],b[k])for k in a)
@@ -63,17 +63,31 @@ def resolve_seeds(root,c):
  return roles
 @memoized(0)
 def state(root,ch=None):
- root=Path(root).resolve();actual=load(root,CH);need(ch is None or same(ch,actual),'所給current完整章不符');c=contract(root);roles=collect(actual,c);need(same(actual,phase_chapter(c,roles,root)),'完整原文/舊新錨/資格/位置或新增metadata差異');seeds=resolve_seeds(root,c);need(all(roles[k]==v for k,v in seeds.items()),'既有人物跨源角色錯接');need(roles['yixin']==roles['old_yixin']and roles['wendi']==roles['old_taizu'],'既有角色被另造');need(len({roles[r]for r in c['new_names']})==len(c['new_names']),'本源不同個體不得同號');need(not({roles[r]for r in c['new_names']}&(set(seeds.values())|{v for k,v in roles.items()if k.startswith('old_')})),'新角色與既有人物錯合')
+ root=Path(root).resolve();actual=load(root,CH);need(ch is None or same(ch,actual),'所給current完整章不符');c=contract(root);roles=collect(actual,c);expected=phase_chapter(c,roles,root)
+ # Later independently validated p004–p007 work may coexist with this earlier
+ # fixed p014–p017 phase. Project those additions away here; their own validator
+ # checks every added mention, title-use and age record against the source.
+ projected=copy.deepcopy(actual);expected_paragraphs={p['id']:p for p in expected['paragraphs']}
+ for p in projected['paragraphs']:
+  if p['id'].rsplit(':',1)[-1] in ('p004','p005','p006','p007'):
+   base=expected_paragraphs[p['id']];p['mentions']=copy.deepcopy(base['mentions'])
+   if 'annotation_status'in base:p['annotation_status']=base['annotation_status']
+   else:p.pop('annotation_status',None)
+ projected['annotation']['source_title_uses']=[u for u in projected['annotation'].get('source_title_uses',[])if not u.get('id','').startswith('tu-song051-p004-p007-')]
+ projected['annotation']['age_assertions']=[a for a in projected['annotation'].get('age_assertions',[])if not a.get('id','').startswith('age-song051-p004-p007-')]
+ need(same(projected,expected),'完整原文/舊新錨/資格/位置或新增metadata差異');seeds=resolve_seeds(root,c);need(all(roles[k]==v for k,v in seeds.items()),'既有人物跨源角色錯接');need(roles['yixin']==roles['old_yixin']and roles['wendi']==roles['old_taizu'],'既有角色被另造');need(len({roles[r]for r in c['new_names']})==len(c['new_names']),'本源不同個體不得同號');need(not({roles[r]for r in c['new_names']}&(set(seeds.values())|{v for k,v in roles.items()if k.startswith('old_')})),'新角色與既有人物錯合')
  rows=load(root,'registry/persons.json')['persons'];people={p['id']:p for p in rows};need(len(people)==len(rows),'current registry重複ID')
  # A title-use can point to an adjacent personal-name mention as its title context;
  # only an anchor that exactly covers the marked surface makes that MID title-only.
  title_use_ids={u['person_mention_id'] for u in actual['annotation'].get('source_title_uses',[]) if u.get('source_anchor',{}).get('surface')==next((m['surface'] for p in actual['paragraphs'] for m in p['mentions'] if m['id']==u.get('person_mention_id')),None)}
+ later_title_ids={u['person_mention_id'] for u in c.get('later_phase',{}).get('title_uses',[]) if u.get('source_anchor',{}).get('surface')==next((m['surface'] for p in actual['paragraphs'] for m in p['mentions'] if m['id']==u.get('person_mention_id')),None)}
+ title_use_ids.update(later_title_ids)
  for row in c['markers']:
   p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id']);person=people.get(m['person_id']);need(person is not None,'新增角色未登記');has_alias=any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']);need((not has_alias)if m['id']in title_use_ids else has_alias,'新增姓名alias／稱號用稱分類不符');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need(e in person['evidence'],'新增evidence缺反向')
  for row in c.get('later_phase',{}).get('markers',[]):
   p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['marker']['id'])
   if m['kind']=='unresolved':need(m.get('person_id')is None and m.get('status')=='unresolved','後續未決錨不得暗連人物');continue
-  person=people.get(m['person_id']);need(person is not None,'後續批次人物未登記');has_alias=any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']);need(has_alias if m['kind']=='person' else not has_alias,'後續姓名alias／代詞分類不符');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need((e not in person['evidence']) if m['kind']=='pronoun' else (e in person['evidence']),'後續批次姓名反向evidence／代詞排除不符')
+  person=people.get(m['person_id']);need(person is not None,'後續批次人物未登記');has_alias=any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']);need((not has_alias) if m['id']in title_use_ids else (has_alias if m['kind']=='person' else not has_alias),'後續姓名／稱號／代詞分類不符');e={k:actual[k]for k in('work_id','book_id','source_id')};e.update(chapter_id=CID,paragraph_id=p['id'],mention_id=m['id'],quote=m['surface']);need((e not in person['evidence']) if m['kind']=='pronoun' else (e in person['evidence']),'後續批次姓名反向evidence／代詞排除不符')
  for row in c.get('later_phase',{}).get('mention_reclassifications',[]):
   p=next(p for p in actual['paragraphs']if p['id']==row['paragraph_id']);m=next(m for m in p['mentions']if m['id']==row['mention_id']);person=people.get(row['person_id'])
   need(m['kind']=='person'and m['person_id']==row['person_id']and person is not None,'既有人物提及重分類端點無效')

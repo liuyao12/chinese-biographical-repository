@@ -1,0 +1,40 @@
+{
+  "format_version": "0.2",
+  "record_type": "textual_comparison_set",
+  "chapter_id": "c-songshu-051-wyd1739-zongshi",
+  "records": [
+    {
+      "id": "tc-song051-p001-p002-husilan-reading",
+      "base_witness": {
+        "title": "《宋書》卷五十一武英殿本數位轉錄",
+        "source_path": "source-evidence/song051-wyd1739-zongshi/transcription-columns.txt",
+        "paragraph_ids": [
+          "c-songshu-051-wyd1739-zongshi:p001",
+          "c-songshu-051-wyd1739-zongshi:p002"
+        ],
+        "quote": "索度真先將軍解斯蘭寇徐州……真蘭退走……追真蘭",
+        "status": "received_text_preserved",
+        "image_verification": "pending"
+      },
+      "comparison_witnesses": [
+        {
+          "title": "識典古籍《宋書》卷五十一數位文本（頁面標示《欽定四庫全書》）",
+          "url": "https://www.shidianguji.com/zh/book/SK0713/chapter/1lxkvukjswm5u",
+          "reading_note": "獨立數位見證讀作「索度真、大將軍斛斯蘭」；只作異讀參考，不替代武英殿底本。",
+          "authority_role": "comparison_only"
+        },
+        {
+          "title": "《資治通鑑》卷114",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷114",
+          "reading_note": "平行敘事列索度真與斛蘭；只作旁證，不作底本或權威定讀。",
+          "authority_role": "parallel_text_only"
+        }
+      ],
+      "editorial_assessment": {
+        "status": "unresolved",
+        "decision": "保留武英殿本數位轉錄字面及標記，待核影像；目前只把第二將領的指涉維持為暫定人物身份，不靜默改字。",
+        "human_reviewed": false
+      }
+    }
+  ]
+}

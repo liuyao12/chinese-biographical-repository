@@ -417,7 +417,36 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-song051-p008-p012-kai-death",
+      "person_id": "3qs_nqa_ioa_AABAC",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "楷祕書郎為元凶所殺",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p010",
+          "quote": "禮十六年薨時年三十六追贈散騎常侍征西將軍開府儀同三司持節都督刺史如故諡曰成王子悼王瑾字彥瑜官至太子屯騎校尉三十年為元凶所殺世祖即位追贈散騎常侍子粲早夭粲弟纂字元績嗣官至步兵校尉順帝昇明三年薨會齊受禪國除瑾弟〓字彥期失明中為中書郎太宰江夏王義恭領中書監服親不得相臨表求解職世祖詔曰昔二王兩謝俱至崇禮自今三臺五省悉同此例太宗初為南兗州刺史都官尚書謀應晉安王子勛為逆伏誅祗弟楷祕書郎為元凶所殺追贈通直郎楷弟瞻晉安太守與子勛同逆",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p010:m0184"
+        }
+      ],
+      "source_anchor": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p010",
+        "start": 184,
+        "end": 193,
+        "surface": "楷祕書郎為元凶所殺"
+      },
+      "interpretation_note": "原文記為元凶所殺，未在本句給年；不僅憑元凶稱號補日期。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

@@ -108,6 +108,10 @@ def memorial_errors(q,chapter,people,holdings):
  except(KeyError,TypeError,ValueError,StopIteration)as ex:return['奏請與後文實授回證未分層：'+str(ex)]
 
 def source_use_errors(use,chapter,people,holdings):
+ if use.get('source_use_binding',{}).get('kind')=='fixed_wyd_song051_p004_p007_title_reference':
+  try:from scripts.song051_p004_p007_records import source_title_use_valid
+  except ImportError:from song051_p004_p007_records import source_title_use_valid
+  return [] if source_title_use_valid(use,chapter) else ['宋051 p004–p007稱號指涉與錨點不符']
  if use.get('source_use_binding',{}).get('kind')=='fixed_wyd_song051_p018_p019_title_reference':
   try:from scripts.wyd_song051_p018 import title_use_valid
   except ImportError:from wyd_song051_p018 import title_use_valid
@@ -120,8 +124,12 @@ def source_use_errors(use,chapter,people,holdings):
   e,=use['evidence'];p=next(p for p in chapter['paragraphs']if p['id']==e['paragraph_id']);m=next(m for m in p['mentions']if m['id']==use['person_mention_id'])
   if use['person_id']not in people or m['person_id']!=use['person_id']or m['kind']!='person'or not exact(use['source_anchor'],p)or use['source_anchor']['surface']!=use['source_term']or e['quote']!=p['text']:raise ValueError('source use')
   if use['usage_kind']not in('contextual_pronoun','title_reference','generic_enfeoffed_woman_status'):raise ValueError('use category')
-  terms={'contextual_pronoun':('后','上'),'title_reference':('高祖','太妃','宋王太后','太后','太皇太后'),'generic_enfeoffed_woman_status':('命婦孫','命婦趙')}
+  terms={'contextual_pronoun':('后','上'),'title_reference':('高祖','太妃','宋王太后','太后','太皇太后','殿下'),'generic_enfeoffed_woman_status':('命婦孫','命婦趙')}
   if use['source_term']not in terms[use['usage_kind']]:raise ValueError('term is not this use kind')
+  if use['source_term']=='殿下' and use['holding_ids']:raise ValueError('殿下 is a person-reference title, not a holding')
+  binding=use.get('source_use_binding',{})
+  if binding.get('kind')=='contextual_person_title_reference':
+   if not all(isinstance(binding.get(key),str) and binding[key].strip() for key in ('basis','interpretation_note')):raise ValueError('contextual person title reference needs a basis and rationale')
   if not use['source_anchor']['start']<=m['start']<m['end']<=use['source_anchor']['end']:raise ValueError('referent outside source use')
   for key in use['holding_ids']:
    h=holdings[key]

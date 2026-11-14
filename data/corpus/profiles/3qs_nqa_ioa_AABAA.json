@@ -279,7 +279,77 @@
     "3qs_nqa_ioa_AABAAA": "劉粲",
     "3qs_nqa_ioa_AABAB": "劉祗"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "CE",
+      "era_year": 453,
+      "year": 453,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "calendar": "chinese_civil",
+      "source_expression": "三十年",
+      "original_quote": "禮十六年薨時年三十六追贈散騎常侍征西將軍開府儀同三司持節都督刺史如故諡曰成王子悼王瑾字彥瑜官至太子屯騎校尉三十年為元凶所殺世祖即位追贈散騎常侍子粲早夭粲弟纂字元績嗣官至步兵校尉順帝昇明三年薨會齊受禪國除瑾弟〓字彥期失明中為中書郎太宰江夏王義恭領中書監服親不得相臨表求解職世祖詔曰昔二王兩謝俱至崇禮自今三臺五省悉同此例太宗初為南兗州刺史都官尚書謀應晉安王子勛為逆伏誅祗弟楷祕書郎為元凶所殺追贈通直郎楷弟瞻晉安太守與子勛同逆",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p010",
+          "quote": "禮十六年薨時年三十六追贈散騎常侍征西將軍開府儀同三司持節都督刺史如故諡曰成王子悼王瑾字彥瑜官至太子屯騎校尉三十年為元凶所殺世祖即位追贈散騎常侍子粲早夭粲弟纂字元績嗣官至步兵校尉順帝昇明三年薨會齊受禪國除瑾弟〓字彥期失明中為中書郎太宰江夏王義恭領中書監服親不得相臨表求解職世祖詔曰昔二王兩謝俱至崇禮自今三臺五省悉同此例太宗初為南兗州刺史都官尚書謀應晉安王子勛為逆伏誅祗弟楷祕書郎為元凶所殺追贈通直郎楷弟瞻晉安太守與子勛同逆",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p010:m0041"
+        }
+      ],
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "quote": "元嘉",
+          "scope": "modern_era_year_equivalence_only",
+          "columns": {
+            "dynasty": "宋",
+            "era_name": "元嘉",
+            "first_year": "424",
+            "last_year": "453"
+          },
+          "fixed_row_reference": {
+            "path": "source-evidence/song045-wyd1739-liucui/life-moe-yuanjia-row.json",
+            "sha256": "fc8a17ad4e6050f84622b4dd3360c3e37eecfc4fdac0be4608d9281dc121847c"
+          },
+          "image_verified": false
+        }
+      ],
+      "regnal_year_mapping": {
+        "kind": "fixed_wyd_song051_p008_p012_life_date",
+        "era_name": "元嘉",
+        "year": 453,
+        "source_expression": "三十年",
+        "context_kind": "same_biography_omitted_era_year"
+      },
+      "status": "editorial_provisional",
+      "rationale": "本傳在父義欣元嘉十六年卒後連敘三十年；按同一傳記紀年脈絡解為元嘉三十年。保留上下文換算，不補月份日期。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "contextual_date_basis": {
+        "kind": "same_biography_omitted_era_year",
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p010",
+        "sequence_anchor": "三十年",
+        "prior_explicit_era_name": "元嘉",
+        "prior_sequence_markers": [
+          "元嘉元年",
+          "三年",
+          "七年",
+          "十年",
+          "十二年",
+          "十六年"
+        ]
+      },
+      "record_id": "le-song051-p008-p012-jin-death",
+      "person_id": "3qs_nqa_ioa_AABAA",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [
     {
       "id": "name-song051-yixin-literal-jin",
@@ -516,7 +586,101 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-song051-p008-p012-jin-death",
+      "person_id": "3qs_nqa_ioa_AABAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "三十年",
+      "source_term": "三十年為元凶所殺",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p010",
+          "quote": "禮十六年薨時年三十六追贈散騎常侍征西將軍開府儀同三司持節都督刺史如故諡曰成王子悼王瑾字彥瑜官至太子屯騎校尉三十年為元凶所殺世祖即位追贈散騎常侍子粲早夭粲弟纂字元績嗣官至步兵校尉順帝昇明三年薨會齊受禪國除瑾弟〓字彥期失明中為中書郎太宰江夏王義恭領中書監服親不得相臨表求解職世祖詔曰昔二王兩謝俱至崇禮自今三臺五省悉同此例太宗初為南兗州刺史都官尚書謀應晉安王子勛為逆伏誅祗弟楷祕書郎為元凶所殺追贈通直郎楷弟瞻晉安太守與子勛同逆",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p010:m0041"
+        }
+      ],
+      "source_anchor": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p010",
+        "start": 53,
+        "end": 61,
+        "surface": "三十年為元凶所殺"
+      },
+      "interpretation_note": "本傳在父義欣元嘉十六年卒後連敘三十年；按同一傳記紀年脈絡解為元嘉三十年。保留上下文換算，不補月份日期。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 453,
+        "year": 453,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "三十年",
+        "original_quote": "禮十六年薨時年三十六追贈散騎常侍征西將軍開府儀同三司持節都督刺史如故諡曰成王子悼王瑾字彥瑜官至太子屯騎校尉三十年為元凶所殺世祖即位追贈散騎常侍子粲早夭粲弟纂字元績嗣官至步兵校尉順帝昇明三年薨會齊受禪國除瑾弟〓字彥期失明中為中書郎太宰江夏王義恭領中書監服親不得相臨表求解職世祖詔曰昔二王兩謝俱至崇禮自今三臺五省悉同此例太宗初為南兗州刺史都官尚書謀應晉安王子勛為逆伏誅祗弟楷祕書郎為元凶所殺追贈通直郎楷弟瞻晉安太守與子勛同逆",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-051",
+            "source_id": "s-songshu-051-wyd1739-zongshi",
+            "chapter_id": "c-songshu-051-wyd1739-zongshi",
+            "paragraph_id": "c-songshu-051-wyd1739-zongshi:p010",
+            "quote": "禮十六年薨時年三十六追贈散騎常侍征西將軍開府儀同三司持節都督刺史如故諡曰成王子悼王瑾字彥瑜官至太子屯騎校尉三十年為元凶所殺世祖即位追贈散騎常侍子粲早夭粲弟纂字元績嗣官至步兵校尉順帝昇明三年薨會齊受禪國除瑾弟〓字彥期失明中為中書郎太宰江夏王義恭領中書監服親不得相臨表求解職世祖詔曰昔二王兩謝俱至崇禮自今三臺五省悉同此例太宗初為南兗州刺史都官尚書謀應晉安王子勛為逆伏誅祗弟楷祕書郎為元凶所殺追贈通直郎楷弟瞻晉安太守與子勛同逆",
+            "person_mention_id": "c-songshu-051-wyd1739-zongshi:p010:m0041"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "元嘉",
+            "scope": "modern_era_year_equivalence_only",
+            "columns": {
+              "dynasty": "宋",
+              "era_name": "元嘉",
+              "first_year": "424",
+              "last_year": "453"
+            },
+            "fixed_row_reference": {
+              "path": "source-evidence/song045-wyd1739-liucui/life-moe-yuanjia-row.json",
+              "sha256": "fc8a17ad4e6050f84622b4dd3360c3e37eecfc4fdac0be4608d9281dc121847c"
+            },
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "fixed_wyd_song051_p008_p012_life_date",
+          "era_name": "元嘉",
+          "year": 453,
+          "source_expression": "三十年",
+          "context_kind": "same_biography_omitted_era_year"
+        },
+        "status": "editorial_provisional",
+        "rationale": "本傳在父義欣元嘉十六年卒後連敘三十年；按同一傳記紀年脈絡解為元嘉三十年。保留上下文換算，不補月份日期。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "contextual_date_basis": {
+          "kind": "same_biography_omitted_era_year",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p010",
+          "sequence_anchor": "三十年",
+          "prior_explicit_era_name": "元嘉",
+          "prior_sequence_markers": [
+            "元嘉元年",
+            "三年",
+            "七年",
+            "十年",
+            "十二年",
+            "十六年"
+          ]
+        }
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

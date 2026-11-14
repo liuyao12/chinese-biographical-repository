@@ -463,7 +463,7 @@
 
 </details>
 
-<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（39 名）</summary>
+<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（47 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -473,6 +473,7 @@
 | `AAA` | 宋高祖裕 | [《魏書・崔浩》][232] | [JSON](3qs_nqa_ioa_AAA.json) |
 | `AAAA` | 宋文帝劉義隆 | [《宋書・王華 王曇首 殷景仁 沈演之》][221] | [JSON](3qs_nqa_ioa_AAAA.json) |
 | `AAAAA` | 東陽獻公主 | [《宋書・徐湛之 江湛 王僧綽》][226] | [JSON](3qs_nqa_ioa_AAAAA.json) |
+| `AAAB` | 劉義真 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AAAB.json) |
 | `AAB` | 道憐 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AAB.json) |
 | `AABA` | 長沙王義欣 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABA.json) |
 | `AABAA` | 劉瑾 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAA.json) |
@@ -492,6 +493,13 @@
 | `AABBB` | 劉燁（候選讀法） | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABBB.json) |
 | `AABBBA` | 劉綽 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABBBA.json) |
 | `AABC` | 劉義融 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABC.json) |
+| `AABCA` | 劉顗 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCA.json) |
+| `AABCB` | 劉襲 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCB.json) |
+| `AABCBA` | 劉晃 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCBA.json) |
+| `AABCBB` | 劉旻 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCBB.json) |
+| `AABCC` | 劉彪 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCC.json) |
+| `AABCD` | 劉定 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCD.json) |
+| `AABCE` | 劉奕 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABCE.json) |
 | `AABD` | 劉義宗 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABD.json) |
 | `AABDA` | 劉玠 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDA.json) |
 | `AABDB` | 劉秉 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABDB.json) |
@@ -1801,7 +1809,7 @@
 | `AAAAAAAC` | 東海哀王沖 | [《晉書・庾亮》][42] | [JSON](dkn_ge4_286_AAAAAAAC.json) |
 | `AAAAAAAD` | 武陵威王晞 | [《晉書・王舒 王廙 虞潭 顧眾 張闓》][48] | [JSON](dkn_ge4_286_AAAAAAAD.json) |
 | `AAAAAAAE` | 琅邪悼王煥 | [《晉書・后妃下》][25]、[《晉書・武十三王 元四王 簡文三子》][39] | [JSON](dkn_ge4_286_AAAAAAAE.json) |
-| `AAAAAAAF` | 晉簡文帝 | [《晉書・叛臣一》][59] | [JSON](dkn_ge4_286_AAAAAAAF.json) |
+| `AAAAAAAF` | 晉簡文帝 | [《晉書・王舒 王廙 虞潭 顧眾 張闓》][48]、[《晉書・叛臣一》][59] | [JSON](dkn_ge4_286_AAAAAAAF.json) |
 | `AAAAAAAFA` | 司馬道子 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][45] | [JSON](dkn_ge4_286_AAAAAAAFA.json) |
 | `AAAAAAAG` | 尋陽公主 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47] | [JSON](dkn_ge4_286_AAAAAAAG.json) |
 | `AAAAAAB` | 司馬渾 | [《晉書・宣五王 文六王》][29]、[《晉書・武十三王 元四王 簡文三子》][39] | [JSON](dkn_ge4_286_AAAAAAB.json) |
@@ -3239,6 +3247,15 @@
 | `根` | 徐生 | [《史記・儒林列傳》][190] | [JSON](sjw_4mo_dlf.json) |
 | `*A` | 徐延 | [《史記・儒林列傳》][190] | [JSON](sjw_4mo_dlf_%2AA.json) |
 | `*B` | 徐襄 | [《史記・儒林列傳》][190] | [JSON](sjw_4mo_dlf_%2AB.json) |
+
+</details>
+
+<details><summary><code>sp6_k2v_4kg</code> 刁逵（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 刁逵 | [《晉書・叛臣二》][60] | [JSON](sp6_k2v_4kg.json) |
+| `A` | 刁彌 | [《宋書・宗室》][212] | [JSON](sp6_k2v_4kg_A.json) |
 
 </details>
 

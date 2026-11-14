@@ -12,6 +12,10 @@ def witness(c,root,ref):
   fs=p['source_position']['source_fragments'];assert ''.join(f['text']for f in fs)==p['text']
   for f in fs:assert ls[f['line']-1][f['raw_start']:f['raw_end']]==f['text']
 def source_component_valid(n,c,root):
+ if isinstance(n,dict)and isinstance(n.get('component_source_binding'),dict)and n['component_source_binding'].get('kind')=='fixed_wyd_song051_p004_p007_name_component':
+  try:from .song051_p004_p007_records import component_valid
+  except ImportError:from song051_p004_p007_records import component_valid
+  return component_valid(n,root)
  if isinstance(n,dict)and isinstance(n.get('component_source_binding'),dict)and n['component_source_binding'].get('kind')=='fixed_wyd_song051_yixin_name_component':
   try:from .fixed_wuyingdian_song051_family_phase import component_valid
   except ImportError:from fixed_wuyingdian_song051_family_phase import component_valid
