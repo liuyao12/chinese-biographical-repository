@@ -21,7 +21,7 @@
       "character_conversion": {},
       "editorial_readings": [],
       "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
-      "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+      "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。 p063頌句重複及截漏尚待核所選底本，差異存於annotation.transcription_discrepancies，不改現存轉錄。"
     }
   },
   "text_sha256": "e23f06e9410f8b5dbccf5443d4d985205563842b7c3d5a1e54c8f4f1a02e5c32",
@@ -57,7 +57,8 @@
       "第30段無是公言天子上林的天子屬賦辭角色，不套當朝天子；賦奏天子以為郎的省略主語隔完整賦文，待支援跨段上下文證據後記授任，不偽造姓名錨點。",
       "第53段靈媧、馮夷、屏翳依古注登記為具名傳說角色，西王母依篇內外傳說暫接既有人物卡；未據賦辭新增親屬、任職、生卒或神遊史事。風伯、雨師、玉女另存古注候選而身份未決。",
       "第52、54段陵陽、玄冥、含靁、潏湟、勾芒、豐隆依古注登記具名傳說角色；本篇原稱與古注字形分存，不補歷史官職或世系。陸離保留神名與靈鳥異說，五帝僅作神帝群稱分類。",
-      "第57段「列辟」與「七十有二君」分別標作未具名君主群稱；昊穹是天穹修辭，秦為政權，昭夏屬禮樂用語，均不作人物。"
+      "第57段「列辟」與「七十有二君」分別標作未具名君主群稱；昊穹是天穹修辭，秦為政權，昭夏屬禮樂用語，均不作人物。",
+      "p063頌句的維基文庫固定轉錄有重複及截漏，暫保正文；《史記集解》與識典古籍比較文字只作旁證，武英殿底本待核，詳見 transcription_discrepancies。"
     ],
     "unresolved_identity_cases": [
       {
@@ -1530,6 +1531,53 @@
         "note": "保存官職／職掌與未具名任職者兩種讀法，不建立人物卡或生平。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false
+      }
+    ],
+    "transcription_discrepancies": [
+      {
+        "id": "td-shiji117-p063-repeat-truncation",
+        "paragraph_id": "c-shiji-117-xiangru:p063",
+        "kind": "possible_digital_duplication_and_truncation",
+        "status": "awaiting_received_text_witness_collation",
+        "received_witness": {
+          "source_id": "s-shiji117-xiangru",
+          "revision_id": 10371549,
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
+          "paragraph_text_sha256": "2105b853027d3ec507750e3f0a3804e039466053e4bcf617ef883094a1d098ca",
+          "quote": "般般之獸，樂我君囿；白質黑章，其儀可；旼旼睦睦，君子之般般之獸，樂我君囿；白質黑章，其儀可；旼旼睦睦，君子之能。"
+        },
+        "comparison_readings": [
+          {
+            "source_type": "commentary_quotation",
+            "title": "《史記集解》卷117數位文本",
+            "provider": "Kanripo",
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_117.txt#L638-L644",
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "quote": "般般之獸¶樂我君囿白質黒章其儀可嘉旼旼睦睦君子之能",
+            "note": "古注數位正文只見一次句子並作「可嘉」；此為《集解》注文見證，不等同已核《史記》底本書影。",
+            "quote_normalization": "自固定數位行文本抽取本句，保留行界標記¶及原見黑／黒字形；略去其後徐廣注文。完整引文仍見同檔《史記集解》引用。"
+          },
+          {
+            "source_type": "unversioned_comparison_transcription",
+            "title": "識典古籍《史記》卷117",
+            "provider": "識典古籍",
+            "url": "https://www.shidianguji.com/zh/book/NGJ89241199900959821601/chapter/1luy7hzwgqotf",
+            "accessed_on": "2026-11-14",
+            "quote": "般般之獸樂我君囿白質黑章其儀可嘉收收睦睦君子之能",
+            "note": "頁面未標明此卷所據版本；此處讀到「收收」等疑似OCR字形。只作比較轉錄，能提示其數位文字未重複，不據以定底本文字。",
+            "quote_normalization": "合併網頁行界，不改頁面可見字形；疑似OCR的「收收」照錄。"
+          }
+        ],
+        "edition_leads": [
+          {
+            "title": "中國哲學書電子化計劃《史記》版本索引",
+            "url": "https://ctext.org/shiji",
+            "accessed_on": "2026-11-14",
+            "status": "not_read_page_unavailable",
+            "note": "搜尋索引將武英殿二十四史列為數位底本文字；本次直接讀取遭HTTP 403，未讀到本卷原文。不得與另一個中文索引所列《欽定四庫全書》本混同。"
+          }
+        ],
+        "editorial_action": "保留固定維基文庫修訂中的現行正文及三處人物錨點；不將比較讀法寫入正文。待取得本篇所選底本或可讀的武英殿數位文本後再校對重句、截漏及「可嘉／可喜」等字。"
       }
     ]
   },
@@ -4596,7 +4644,7 @@
     {
       "id": "c-shiji-117-xiangru:p063",
       "text": "般般之獸，樂我君囿；白質黑章，其儀可；旼旼睦睦，君子之般般之獸，樂我君囿；白質黑章，其儀可；旼旼睦睦，君子之能。蓋聞其聲，今觀其來。厥塗靡蹤，天瑞之徵。茲亦於舜，虞氏以興。",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "text_layer": "received_chapter",
       "mentions": [
         {
