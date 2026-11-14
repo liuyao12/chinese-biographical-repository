@@ -78,17 +78,28 @@ def interpretation_errors(chapter, person_ids):
         valid_refs = strings(ref_ids)
         check(valid_refs, '古注參考 ID 缺失或重複')
         for ref in refs:
-            url = ref.get('url'); commit = ref.get('source_commit')
-            check(isinstance(url,str) and hex_string(commit,40)
-                  and hex_string(ref.get('source_blob'),40)
-                  and http_reference(url) and commit in url
-                  and isinstance(ref.get('quote'),str) and bool(ref['quote'])
-                  and ref.get('image_verified') is False
-                  and hex_string(ref.get('cached_response_sha256'),64),
-                  '古注須有固定提交、blob、實讀引句及未核書影狀態')
-            extent = ref.get('read_line_range')
-            check(isinstance(extent,list) and len(extent)==2 and all(type(x)is int for x in extent)
-                  and 1 <= extent[0] <= extent[1], '古注須記已讀行範圍')
+            url = ref.get('url')
+            if ref.get('reference_type') == 'external_publication':
+                accessed_on = ref.get('accessed_on')
+                check(isinstance(ref.get('title'),str) and bool(ref['title']) and http_reference(url)
+                      and isinstance(ref.get('quote'),str) and bool(ref['quote'])
+                      and isinstance(ref.get('provider'),str) and bool(ref['provider'])
+                      and isinstance(ref.get('source_type'),str) and bool(ref['source_type'])
+                      and isinstance(accessed_on,str) and bool(re.fullmatch(r'\d{4}-\d{2}-\d{2}',accessed_on))
+                      and ref.get('image_verified') is False,
+                      '外部出版物須記書名、網址、引文、來源類型、提供者、有效存取日及未核書影狀態')
+            else:
+                commit = ref.get('source_commit')
+                check(isinstance(url,str) and hex_string(commit,40)
+                      and hex_string(ref.get('source_blob'),40)
+                      and http_reference(url) and commit in url
+                      and isinstance(ref.get('quote'),str) and bool(ref['quote'])
+                      and ref.get('image_verified') is False
+                      and hex_string(ref.get('cached_response_sha256'),64),
+                      '古注須有固定提交、blob、實讀引句及未核書影狀態')
+                extent = ref.get('read_line_range')
+                check(isinstance(extent,list) and len(extent)==2 and all(type(x)is int for x in extent)
+                      and 1 <= extent[0] <= extent[1], '古注須記已讀行範圍')
         alternatives = case.get('alternatives', [])
         if not isinstance(alternatives,list) or not all(isinstance(a,dict) for a in alternatives):
             check(False,'異說須為解釋物件陣列'); alternatives = []

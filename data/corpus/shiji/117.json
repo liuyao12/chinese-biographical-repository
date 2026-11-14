@@ -1280,6 +1280,71 @@
         "note": "《漢書》注文把青要、乘弋等列為玉女候選，但正文只見泛稱，注文亦未逐一配指；保留未決，不造人物卡或生平。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false
+      },
+      {
+        "id": "ri-shiji117-erhou",
+        "paragraph_id": "c-shiji-117-xiangru:p058",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m058-0182"
+        ],
+        "source_terms": [
+          "二后"
+        ],
+        "status": "unresolved",
+        "default_alternative_id": null,
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p058",
+          "quote": "是以業隆於繦褓而崇冠於二后。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m058-0182"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-erhou-wenwu",
+            "attribution": "諸家（朱珔《文選集釋》卷二十三轉述）",
+            "referent_kind": "multiple_allusions",
+            "candidate_person_ids": [
+              "y4i_pjk_4gn_A",
+              "y4i_pjk_4gn_AA"
+            ],
+            "interpretation": "《文選集釋》稱諸家以「二后」指文王、武王；本篇只見原稱「二后」，不另造武王正文錨點。",
+            "source_reference_ids": [
+              "wenxuan-jishi-23-erhou"
+            ]
+          },
+          {
+            "id": "ri-shiji117-erhou-xiashang",
+            "attribution": "朱珔《文選集釋》卷二十三案語",
+            "referent_kind": "generic_group",
+            "candidate_person_ids": [],
+            "interpretation": "朱珔另疑「二后」指夏、商，認為下句是周至成王積累功德高於二代；此為其個人考說，未採定。",
+            "source_reference_ids": [
+              "wenxuan-jishi-23-erhou"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "wenxuan-jishi-23-erhou",
+            "reference_type": "external_publication",
+            "title": "朱珔《文選集釋》卷二十三〈封禪文〉條（識典古籍數位轉錄）",
+            "provider": "識典古籍",
+            "source_type": "secondary_commentary",
+            "url": "https://www.shidianguji.com/zh/book/7620095419581726762/chapter/1lwhmtv45s8q6",
+            "quote": "案：諸家皆以二后謂文武。……疑二后指夏、商也，謂周至成王，積功累仁，高於二代，似文義較順。",
+            "accessed_on": "2026-11-14",
+            "image_verified": false,
+            "note": "此為清代朱珔編纂及案語的數位轉錄，只保存注釋史上的兩種解讀；未核其所據版本書影，也不以其一說改定《史記》原文指涉。"
+          }
+        ],
+        "note": "保留「文王、武王」的諸家說及朱珔「夏、商」說；本篇原文只標「二后」，未選定其指稱，不拆為兩個正文人物提及。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
       }
     ]
   },
