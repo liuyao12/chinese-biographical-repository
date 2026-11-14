@@ -2,6 +2,13 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('pattern') == 'sanguozhi010_zu_fu_subject_to_senior':
+        try:
+            from scripts.sanguozhi010_zu_fu import valid as sanguozhi010_zu_fu_valid
+        except ImportError:
+            from sanguozhi010_zu_fu import valid as sanguozhi010_zu_fu_valid
+        return sanguozhi010_zu_fu_valid(assertion, paragraphs)
+
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('pattern') == 'jinshu076_congbo_subject_to_senior':
         try:
             from scripts.jinshu076_congbo import valid as jinshu076_congbo_valid
