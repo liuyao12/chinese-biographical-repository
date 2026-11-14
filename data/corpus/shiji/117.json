@@ -1653,6 +1653,62 @@
         ],
         "editorial_action": "p065人物覆核未見應標記的人物，保持空 mentions。保留固定維基文庫修訂現文；待所選底本或可讀武英殿數位文本核校「熿炳煇煌／湟」及「覺寤黎烝」有無，不據未標底本轉錄增刪正文。"
       }
+    ],
+    "work_reference_reviews": [
+      {
+        "id": "work-review-shiji117-xiangru-p069",
+        "status": "ai_proposed",
+        "human_reviewed": false,
+        "coverage": "只覆核卷117 p069所列相如著作稱名；不代表作品傳本、真偽、作者或《史記》本篇年代已定。",
+        "work_identity_pending": [
+          {
+            "surface": "遺平陵侯書",
+            "paragraph_id": "c-shiji-117-xiangru:p069",
+            "reason": "余其濬將此稱名單獨列項。原文未加書名號，且「平陵侯」位於相如受書者名號內；現有行內標註以完整人物稱號連至蘇建，依不重疊規則，未另加覆蓋性的作品標記。此記錄不是新建作品ID或確認存世作品。"
+          },
+          {
+            "surface": "與五公子相難",
+            "paragraph_id": "c-shiji-117-xiangru:p069",
+            "reason": "余其濬依字面傾向視為一種文獻；「五公子」本身仍是來源未明的群稱，不補五人姓名或個別人物ID。因兩種標註會重疊，保留原群稱錨點並將作品身份列於此待審記錄。"
+          },
+          {
+            "surface": "草木書",
+            "paragraph_id": "c-shiji-117-xiangru:p069",
+            "reason": "余其濬依字面將「草木書」與「與五公子相難」分為兩種文獻；原文「草木書篇」的「篇」是否題名組件尚未由本來源定案。此記錄不建立作品ID，不表示存世或作者已確定。"
+          }
+        ],
+        "modern_references": [
+          {
+            "title": "《司馬遷以實事求是精神治史探微》",
+            "author": "余其濬（Trever McKay）",
+            "year": 2014,
+            "publication_type": "國立臺灣大學中國文學研究所博士論文",
+            "url": "https://tdr.lib.ntu.edu.tw/bitstream/123456789/5285/1/ntu-103-1.pdf",
+            "locator": "頁53–54（PDF影像頁面53–54；該PDF抽取行1479–1496）",
+            "quote": "就字面上來看，應為兩種不同的文獻",
+            "finding": "論文將「遺平陵侯書」另列一項，並討論「與五公子相難草木書」究竟合為一種或分為兩種；作者依字面主張分作《與五公子相難》及《草木書》。此為其現代目錄判讀，非本庫已採納的確定作品身份。"
+          }
+        ],
+        "digital_comparisons": [
+          {
+            "title": "識典古籍《史記》卷一一七",
+            "provider": "識典古籍",
+            "url": "https://www.shidianguji.com/zh/book/SK0698/chapter/1mee7ms7ejlza",
+            "accessed_on": "2026-11-14",
+            "quote": "相如他所著，若遺平陵侯書，集解徐廣曰：蘇建也，與五公子相難。草木書篇不采，采其尤著公卿者云。",
+            "qualification": "頁面可作有注文字層的比較轉錄；此頁未明示卷117所據刻本，不能據其標點斷定作品切分，也不替換目前固定數位見證。"
+          },
+          {
+            "title": "中國哲學書電子化計劃《史記》底本說明",
+            "provider": "中國哲學書電子化計劃",
+            "url": "https://ctext.org/shiji/zhs",
+            "accessed_on": "2026-11-14",
+            "quote": "《武英殿二十四史》本《史记》",
+            "qualification": "網站明示其《史記》電子底本；本次卷117章頁請求回應403，未取到該段逐字文本，故只記底本線索，不聲稱已完成逐字對校。"
+          }
+        ],
+        "editorial_action": "不改收到的正文、不新增重疊的作品／人物提及、不建立推定作品ID。保留相如與平陵侯的既有人物標記及「五公子」未解群稱。後續如決定支援同一字串的多層作品／人物語義，須先擴充並驗證標註格式及XML輸出。"
+      }
     ]
   },
   "paragraphs": [
