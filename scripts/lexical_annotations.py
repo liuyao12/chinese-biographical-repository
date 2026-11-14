@@ -7,6 +7,10 @@ def non_person_errors(mention, text):
     start, end = mention.get('start'), mention.get('end')
     role = mention.get('lexical_role')
     role_valid = role in ('verb', 'reciprocal_adverb')
+    if role == 'natural_phenomenon':
+        surface = mention.get('surface')
+        role_valid = (isinstance(surface, str) and isinstance(term, str)
+                      and bool(surface) and surface in term)
     if role == 'vacant_office':
         role_valid = mention.get('surface') == '太子' and isinstance(term, str) and term.endswith('無太子')
     elif role == 'sovereign_status':

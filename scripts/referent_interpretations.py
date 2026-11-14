@@ -51,9 +51,13 @@ def interpretation_errors(chapter, person_ids):
         check(valid_targets, '異說須連到唯一的來源錨點')
         if not valid_targets: targets = []
         anchors = {m['id']: m for m in p['mentions']} if p else {}
-        check(bool(targets) and all(mid in anchors and anchors[mid].get('person_id') is None
-                  and anchors[mid]['kind'] == 'unresolved' for mid in targets),
-              '未決異說不能作已解身份或附到別段人物')
+        check(bool(targets) and all(
+                  mid in anchors and anchors[mid].get('person_id') is None and (
+                      (anchors[mid]['kind'] == 'unresolved' and anchors[mid].get('status') == 'unresolved')
+                      or (status == 'editorial_provisional' and anchors[mid]['kind'] == 'non_person'
+                          and anchors[mid].get('status') == 'contextual_provisional')
+                  ) for mid in targets),
+              '異說須連同段未定提及或有來源限定的非人物分類，不得附到已連人物')
         check(case.get('source_terms') == [anchors[mid]['surface'] for mid in targets if mid in anchors],
               '異說原稱須逐一對應來源錨點')
         ev = case.get('evidence', {})
