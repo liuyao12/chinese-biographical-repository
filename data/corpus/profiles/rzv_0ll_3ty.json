@@ -432,6 +432,91 @@
           "image_verified": false
         }
       ]
+    },
+    {
+      "id": "eq-shiji117-wuhuo",
+      "person_ids": [
+        "rzv_0ll_3ty"
+      ],
+      "canonical_person_id": "rzv_0ll_3ty",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-005-qin",
+        "c-shiji-070-zhang",
+        "c-shiji-117-xiangru",
+        "c-shiji-079-fancai"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p068",
+          "quote": "武王有力好戲，力士任鄙、烏獲、孟說皆至大官。",
+          "mention_ids": [
+            "c-shiji-005-qin:m068-0164"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-070-zhang",
+          "source_id": "s-shiji-070-zhang",
+          "paragraph_id": "c-shiji-070-zhang:p034",
+          "quote": "夫秦卒與山東之卒，猶孟賁之與怯夫；以重力相壓，猶烏獲之與嬰兒。夫戰孟賁、烏獲之士以攻不服之弱國，無異垂千鈞之重於鳥卵之上",
+          "mention_ids": [
+            "c-shiji-070-zhang:m034-0227",
+            "c-shiji-070-zhang:m034-0239"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p045",
+          "quote": "故力稱烏獲，捷言慶忌，勇期賁、育。臣之愚，竊以為人誠有之，獸亦宜然。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m045-0100"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-079-fancai",
+          "source_id": "s-shiji-079-fancai",
+          "paragraph_id": "c-shiji-079-fancai:p013",
+          "quote": "烏獲、任鄙之力焉而死",
+          "mention_ids": [
+            "c-shiji-079-fancai:m013-0353"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p045",
+          "quote": "雖有烏獲、逢蒙之伎",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m045-0178"
+          ]
+        }
+      ],
+      "rationale": "《史記》卷五〈秦本紀〉明記烏獲為秦武王時力士；《漢書》卷五十七下顏師古注釋《史記》卷一一七〈司馬相如列傳〉「力稱烏獲」為秦武王力士，卷070與卷079另見同一力士典故。合併同指人物並保留修辭語境：卷070與卷117的比喻不作烏獲實際參與戰事或出獵的證據，不補任官、生卒或世系。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true,
+      "references": [
+        {
+          "title": "《漢書》卷57下·顏師古釋烏獲、慶忌、賁育",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L848",
+          "quote": "其辭曰臣聞物有同類而殊能者故力稱烏獲㨗言慶¶\n忌(師古曰烏獲秦武王力士也慶/忌吳王僚子也射能㨗矢也)勇期賁育(師古曰孟/賁古之勇)¶\n(士也水行不避蛟龍陸行不避豺狼/發怒吐氣聲響動天夏育亦猛士也)臣之愚竊以為人¶",
+          "scope": "ancient_commentary_identification",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+          "response_sha256": "cd7ede101cb8268da5b471d2632d512a1255f22e90b850c326162b8ed516c8ee",
+          "verified_extent": {
+            "start_line": 721,
+            "end_line": 850
+          },
+          "image_verified": false
+        }
+      ]
     }
   ],
   "name_components": [],

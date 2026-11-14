@@ -1490,13 +1490,38 @@
           "mention_ids": [
             "c-shiji-079-fancai:m013-0353"
           ]
+        },
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p045",
+          "quote": "雖有烏獲、逢蒙之伎",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m045-0178"
+          ]
         }
       ],
-      "rationale": "《秦本紀》明記烏獲為秦武王時力士；《張儀列傳》與本篇皆以烏獲作力氣典故，語用及人物名相合。將張儀篇候選號併入已有秦本紀／本篇證據的人物號；修辭比喻不當作烏獲實際參與相關戰事的證據。各篇原文保留。",
+      "rationale": "《史記》卷五〈秦本紀〉明記烏獲為秦武王時力士；《漢書》卷五十七下顏師古注釋《史記》卷一一七〈司馬相如列傳〉「力稱烏獲」為秦武王力士，卷070與卷079另見同一力士典故。合併同指人物並保留修辭語境：卷070與卷117的比喻不作烏獲實際參與戰事或出獵的證據，不補任官、生卒或世系。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
-      "identity_materialized": true
+      "identity_materialized": true,
+      "references": [
+        {
+          "title": "《漢書》卷57下·顏師古釋烏獲、慶忌、賁育",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L848",
+          "quote": "其辭曰臣聞物有同類而殊能者故力稱烏獲㨗言慶¶\n忌(師古曰烏獲秦武王力士也慶/忌吳王僚子也射能㨗矢也)勇期賁育(師古曰孟/賁古之勇)¶\n(士也水行不避蛟龍陸行不避豺狼/發怒吐氣聲響動天夏育亦猛士也)臣之愚竊以為人¶",
+          "scope": "ancient_commentary_identification",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+          "response_sha256": "cd7ede101cb8268da5b471d2632d512a1255f22e90b850c326162b8ed516c8ee",
+          "verified_extent": {
+            "start_line": 721,
+            "end_line": 850
+          },
+          "image_verified": false
+        }
+      ]
     },
     {
       "id": "eq-shiji117-xiangru",
