@@ -1646,7 +1646,7 @@
 | `jh7_tw6_n9k` | 陽平王頤〔楊播傳〕 | [《魏書・楊播》][234] | [JSON](jh7_tw6_n9k.json) |
 | `ji8_fud_li3` | 尹翁歸 | [《史記・平津侯主父列傳》][181] | [JSON](ji8_fud_li3.json) |
 | `ji8_x93_yhn` | 即墨成 | [《史記・儒林列傳》][190] | [JSON](ji8_x93_yhn.json) |
-| `jif_4nl_z1h` | 陸仲元 | [《宋書・張茂度 庾登之 謝方明 江夷》][215] | [JSON](jif_4nl_z1h.json) |
+| `jif_4nl_z1h` | 陸仲元 | [《宋書・宗室》][212] | [JSON](jif_4nl_z1h.json) |
 | `jik_qff_1cj` | 秦王辭師未定 | [《史記・李斯列傳》][156] | [JSON](jik_qff_1cj.json) |
 | `jil_4eu_ese` | 司馬飛龍〔元嘉蜀亂前被斬者〕 | [《宋書・王鎮惡 檀韶 向靖 劉懷慎 劉粹》][208] | [JSON](jil_4eu_ese.json) |
 | `jit_1ud_8if` | 薛歐 | [《史記・高祖本紀》][95]、[《史記・高祖功臣侯者年表》][248] | [JSON](jit_1ud_8if.json) |
@@ -2094,6 +2094,7 @@
 | `mes_rgf_o7u` | 趙毗 | [《晉書・桓彝》][44] | [JSON](mes_rgf_o7u.json) |
 | `mev_r3x_fuu` | 欒書 | [《史記・鄭世家》][111] | [JSON](mev_r3x_fuu.json) |
 | `mex_tig_16z` | 蓋聶 | [《史記・刺客列傳》][155] | [JSON](mex_tig_16z.json) |
+| `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][115] | [JSON](mf2_tm7_f9r.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

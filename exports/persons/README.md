@@ -463,7 +463,7 @@
 
 </details>
 
-<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（39 名）</summary>
+<details><summary><code>3qs_nqa_ioa</code> 混〔靖父；武原令〕（40 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -473,6 +473,7 @@
 | `AAA` | 宋高祖裕 | [《魏書・崔浩》][232] | [JSON](3qs_nqa_ioa_AAA.json) |
 | `AAAA` | 宋文帝劉義隆 | [《宋書・王華 王曇首 殷景仁 沈演之》][221] | [JSON](3qs_nqa_ioa_AAAA.json) |
 | `AAAAA` | 東陽獻公主 | [《宋書・徐湛之 江湛 王僧綽》][226] | [JSON](3qs_nqa_ioa_AAAAA.json) |
+| `AAAB` | 劉義真 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AAAB.json) |
 | `AAB` | 道憐 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AAB.json) |
 | `AABA` | 長沙王義欣 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABA.json) |
 | `AABAA` | 劉瑾 | [《宋書・宗室》][212] | [JSON](3qs_nqa_ioa_AABAA.json) |
@@ -3239,6 +3240,15 @@
 | `根` | 徐生 | [《史記・儒林列傳》][190] | [JSON](sjw_4mo_dlf.json) |
 | `*A` | 徐延 | [《史記・儒林列傳》][190] | [JSON](sjw_4mo_dlf_%2AA.json) |
 | `*B` | 徐襄 | [《史記・儒林列傳》][190] | [JSON](sjw_4mo_dlf_%2AB.json) |
+
+</details>
+
+<details><summary><code>sp6_k2v_4kg</code> 刁逵（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 刁逵 | [《晉書・叛臣二》][60] | [JSON](sp6_k2v_4kg.json) |
+| `A` | 刁彌 | [《宋書・宗室》][212] | [JSON](sp6_k2v_4kg_A.json) |
 
 </details>
 

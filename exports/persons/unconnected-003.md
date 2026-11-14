@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][115] | [JSON](mf2_tm7_f9r.json) |
 | `mfr_nye_lnv` | 趙信（匈奴列傳第35段） | [《史記・衛將軍驃騎列傳》][180] | [JSON](mfr_nye_lnv.json) |
 | `mfu_22v_exx` | 趙穿 | [《史記・鄭世家》][111] | [JSON](mfu_22v_exx.json) |
 | `mge_pi9_fn1` | 計然 | [《史記・貨殖列傳》][198] | [JSON](mge_pi9_fn1.json) |
@@ -691,7 +690,7 @@
 | `qug_x6h_3tb` | 卞莊子 | [《史記・張儀列傳》][139] | [JSON](qug_x6h_3tb.json) |
 | `quo_167_x2v` | 田嬰 | [《史記・孟嘗君列傳》][144] | [JSON](quo_167_x2v.json) |
 | `quo_wok_i8z` | 劉傭 | [《晉書・后妃下》][25] | [JSON](quo_wok_i8z.json) |
-| `quq_d6y_akf` | 王鎮惡 | [《宋書・趙倫之 王懿 張邵》][209] | [JSON](quq_d6y_akf.json) |
+| `quq_d6y_akf` | 王鎮惡 | [《宋書・宗室》][212] | [JSON](quq_d6y_akf.json) |
 | `quz_udr_mrz` | 叔逹 | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](quz_udr_mrz.json) |
 | `qvb_bff_vk4` | 繆嬴（夷皋母） | [《史記・晉世家》][108] | [JSON](qvb_bff_vk4.json) |
 | `qvb_gjo_odq` | 周宣王 | [《史記・楚世家》][109] | [JSON](qvb_gjo_odq.json) |
@@ -1017,7 +1016,6 @@
 | `sob_78r_4yi` | 揖（文帝子） | [《史記・孝文本紀》][97] | [JSON](sob_78r_4yi.json) |
 | `soh_dsm_qst` | 莊芷 | [《史記・淮南衡山列傳》][187] | [JSON](soh_dsm_qst.json) |
 | `soh_mp7_j16` | 荀林父（晉軍臣） | [《史記・晉世家》][108] | [JSON](soh_mp7_j16.json) |
-| `sp6_k2v_4kg` | 刁逵 | [《晉書・叛臣二》][60] | [JSON](sp6_k2v_4kg.json) |
 | `sp8_b5m_c4b` | 益姑（杞文公） | [《史記・陳杞世家》][105] | [JSON](sp8_b5m_c4b.json) |
 | `spf_7ot_c8s` | 陳渉 | [《史記・陳丞相世家》][125] | [JSON](spf_7ot_c8s.json) |
 | `sph_y7q_7k9` | 周舍 | [《史記・趙世家》][112] | [JSON](sph_y7q_7k9.json) |
@@ -2104,9 +2102,6 @@
 | `zy0_phw_hl6` | 門下前對者未名 | [《史記・平原君虞卿列傳》][145] | [JSON](zy0_phw_hl6.json) |
 | `zy7_ewt_vzi` | 韓哀侯 | [《史記・刺客列傳》][155] | [JSON](zy7_ewt_vzi.json) |
 | `zyz_h7j_k4r` | 元洪業〔魏書058津鈞單元〕 | [《魏書・楊播》][236] | [JSON](zyz_h7j_k4r.json) |
-
-| 人物 ID | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
 | `zzb_3ij_mhc` | 李歆（麴山守將） | [《三國志・桓二陳徐衞盧傳》][83] | [JSON](zzb_3ij_mhc.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
