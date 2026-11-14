@@ -1468,6 +1468,68 @@
         "note": "與p057「七十有二君」互文同屬未具名封禪君主群；兩個正文提及分存，未建立個人名單或人物 ID。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false
+      },
+      {
+        "id": "ri-shiji117-zhanggu",
+        "paragraph_id": "c-shiji-117-xiangru:p059",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m059-0370"
+        ],
+        "source_terms": [
+          "掌故"
+        ],
+        "status": "unresolved",
+        "default_alternative_id": null,
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p059",
+          "quote": "宜命掌故悉奏其義而覽焉。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m059-0370"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-zhanggu-holder",
+            "attribution": "《漢書音義》（《文選》李善注所引）",
+            "referent_kind": "unspecified_person",
+            "candidate_person_ids": [],
+            "interpretation": "命令的對象可指當時掌故官的職位承擔者，但原文未具名。",
+            "source_reference_ids": [
+              "wenxuan-liushenzhu-48-zhanggu"
+            ]
+          },
+          {
+            "id": "ri-shiji117-zhanggu-office",
+            "attribution": "《漢書音義》（《文選》李善注所引）",
+            "referent_kind": "generic_group",
+            "candidate_person_ids": [],
+            "interpretation": "掌故是太史官屬、主管故事記錄的職掌用稱；不一定指可辨識的單一歷史人物。",
+            "source_reference_ids": [
+              "wenxuan-liushenzhu-48-zhanggu"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "wenxuan-liushenzhu-48-zhanggu",
+            "reference_type": "external_publication",
+            "title": "《六臣註文選》卷四十八〈封禪文〉",
+            "provider": "中國哲學書電子化計劃",
+            "source_type": "ancient_commentary_transmission",
+            "url": "https://ctext.org/wiki.pl?chapter=526463&if=en",
+            "quote": "善曰：《漢書音義》曰：掌故太史官屬主故事者也。",
+            "accessed_on": "2026-11-14",
+            "image_verified": false,
+            "note": "注釋說明職掌，不指明是哪一位太史官屬；不據此創建人物身份。"
+          }
+        ],
+        "note": "保存官職／職掌與未具名任職者兩種讀法，不建立人物卡或生平。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
       }
     ]
   },
