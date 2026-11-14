@@ -2493,7 +2493,7 @@ def _validate_uncached(root=ROOT):
                     else:life_ok=p018_life_valid(event,root) if is_p018 else song051_life_valid(record,root)
                     check(life_ok,'宋051分批死亡事件／紀年不符')
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
-                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
+                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession', 'state_ritual')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
                 if 'received_source_frame' in event:
                     try:from scripts.fixed_received_career import nonholding_valid
@@ -2557,6 +2557,11 @@ def _validate_uncached(root=ROOT):
                 if event['event_type'] == 'burial':
                     term = event.get('source_term')
                     check(isinstance(term, str) and ('葬' in term or term=='卜窆' and chapters[record['chapter_id']].get('annotation',{}).get('epitaph_life_binding',{}).get('kind')=='epitaph_named_head_dated_death_and_burial') and any(term in e.get('quote', '') for e in event.get('evidence', [])), '埋葬事件須有原文明示葬詞及相符引句')
+                if event['event_type'] == 'state_ritual':
+                    term = event.get('source_term', '')
+                    check(any(word in term for word in ('祭', '禮', '礼', '封', '禪', '禅'))
+                          and any(term in e.get('quote', '') for e in event.get('evidence', [])),
+                          '國家祭祀事件須保留原文祭祀／禮儀用語及相符引句')
                 if event['event_type'] in ('office_non_reinstatement', 'office_restoration'):
                     term = event.get('source_term')
                     required = '不復官' if event['event_type'] == 'office_non_reinstatement' else '復就故官'
