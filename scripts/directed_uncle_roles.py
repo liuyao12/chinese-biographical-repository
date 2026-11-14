@@ -54,9 +54,12 @@ def _direction(p, subjects, objects, term):
     t = p['text']
     # 《晉書》卷七十六王彬傳：「彬及兄子……籍之」。此「及」
     # 連接王彬與兄子籍之，依明確句面定為侄輩主體、叔父客體。
-    if (term == '兄子' and t.startswith('敦平，有司奏彬及兄子安成太守籍之')
-            and any(s['surface'] == '籍之' for s in subjects)
-            and any(o['surface'] == '彬' for o in objects)):
+    opening = '敦平，有司奏彬及兄子安成太守籍之'
+    uncle_start = t.find('彬及兄子') if t.startswith('敦平，有司奏') else -1
+    nephew_start = t.find('籍之', uncle_start) if uncle_start >= 0 else -1
+    if (term == '兄子' and t.startswith(opening)
+            and any(s['start'] == nephew_start and s['end'] == nephew_start + 2 for s in subjects)
+            and any(o['start'] == uncle_start and o['end'] == uncle_start + 1 for o in objects)):
         return True
     if _resumed_child_elder_uncle(p, subjects, objects, term):
         return True
