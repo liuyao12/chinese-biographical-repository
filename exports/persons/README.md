@@ -1802,7 +1802,7 @@
 | `AAAAAAAC` | 東海哀王沖 | [《晉書・庾亮》][42] | [JSON](dkn_ge4_286_AAAAAAAC.json) |
 | `AAAAAAAD` | 武陵威王晞 | [《晉書・王舒 王廙 虞潭 顧眾 張闓》][48] | [JSON](dkn_ge4_286_AAAAAAAD.json) |
 | `AAAAAAAE` | 琅邪悼王煥 | [《晉書・后妃下》][25]、[《晉書・武十三王 元四王 簡文三子》][39] | [JSON](dkn_ge4_286_AAAAAAAE.json) |
-| `AAAAAAAF` | 晉簡文帝 | [《晉書・叛臣一》][59] | [JSON](dkn_ge4_286_AAAAAAAF.json) |
+| `AAAAAAAF` | 晉簡文帝 | [《晉書・王舒 王廙 虞潭 顧眾 張闓》][48]、[《晉書・叛臣一》][59] | [JSON](dkn_ge4_286_AAAAAAAF.json) |
 | `AAAAAAAFA` | 司馬道子 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][45] | [JSON](dkn_ge4_286_AAAAAAAFA.json) |
 | `AAAAAAAG` | 尋陽公主 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47] | [JSON](dkn_ge4_286_AAAAAAAG.json) |
 | `AAAAAAB` | 司馬渾 | [《晉書・宣五王 文六王》][29]、[《晉書・武十三王 元四王 簡文三子》][39] | [JSON](dkn_ge4_286_AAAAAAB.json) |
