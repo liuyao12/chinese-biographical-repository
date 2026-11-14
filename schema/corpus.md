@@ -274,6 +274,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `person_event_assertion_set` 可保存 `burial`，與死亡事件分開。必須原文明示：`source_term` 含葬且完整見於事件證據引句，人物錨點與篇、來源引用沿用個人事件驗證。未知日期不補數值，未記葬地不補地址。逐人 JSON 從 `person_events` 讀取；死亡及葬期不得互相推定。
 
+`person_event_assertion_set` 亦可用 `state_ritual` 保存由君主主持或代表國家施行的祭祀、禮儀事件，例如「祭后土」及封禪。`source_term` 必須保留原文祭祀／禮儀詞，人物錨點連到來源中實際主持者；日期只按該次事件的明確紀年或可核對的平行記載換算，不由相鄰人物的生卒年反推。逐人 JSON 從 `person_events` 讀取；此事件不表示人物親自參與每個被合併敘述的儀式，除非來源明載。
+
 ### 來源相對年齡差
 
 `annotation.age_difference_assertions` 與個人報齡分存。`person_id`、`reference_person_id` 是兩個不同人物；`comparison: younger_than`、`value` 保存原文「少某人若干歲／歳」的差值，`source_number`、`source_term` 保留原字。每筆證據同段含 `person_mention_id` 與 `reference_person_mention_id`，兩人物及原詞必須在引句內。單位為 `source_age_years`，計歲方式保持 `unspecified_source_age`，生年與日期未知，不由參考人物年譜推生年。逐人JSON從雙方皆可讀 `age_difference_assertions`，仍保留來源與篇段；不是本人的年齡。
