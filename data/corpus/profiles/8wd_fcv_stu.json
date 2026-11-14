@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "8wd_fcv_stu",
   "canonical_person_id": "8wd_fcv_stu",
-  "label": "壺充國（司馬相如列傳候選）",
-  "identity_note": null,
+  "label": "壺充國",
+  "identity_note": "跨《史記》卷117與卷123暫定同指；保留各篇原稱及任期未知。",
   "review": "ai_provisional",
   "names": [
     "壺充國"
@@ -51,6 +51,49 @@
       "interpretation_note": "授任與文獻用稱分存；受金失官與歲餘復召為郎分事件。原文未明示公元日期，不補年份或任期；死亡不自動終止全部官爵。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji123-030",
+      "person_id": "8wd_fcv_stu",
+      "title": "鴻臚",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-123-dayuan",
+          "source_id": "s-shiji123-dayuan",
+          "paragraph_id": "c-shiji-123-dayuan:p034",
+          "quote": "初，貳師起敦煌西，以為人多，道上國不能食，乃分為數軍，從南北道。校尉王申生、故鴻臚壺充國等千餘人，別到郁成。郁成城守，不肯給食其軍。王申生去大軍二百里，（偵）［偩］而輕之，責郁成。郁成食不肯出，窺知申生軍日少，晨用三千人攻，戮殺申生等，軍破，數人脫亡，走貳師。貳師令搜粟都尉上官桀往攻破郁成。郁成王亡走康居，桀追至康居。康居聞漢已破宛，乃出郁成王予桀，桀令四騎士縛守詣大將軍。四人相謂曰：「郁成王漢國所毒，今生將去，卒失大事。」欲殺，莫敢先擊。上邽騎士趙弟最少，拔劍擊之，斬郁成王，齎頭。弟、桀等逐及大將軍。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji123-030:a001",
+          "paragraph_id": "c-shiji-123-dayuan:p034",
+          "start": 39,
+          "end": 41,
+          "surface": "鴻臚",
+          "person_mention_id": "c-shiji-123-dayuan:m034-0041",
+          "usage": "retrospective",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文授任、繼位與用稱分存；未知起訖保持未知，不因死亡自動終止。從驃侯等原稱不默改。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -89,6 +132,41 @@
       "chapter_id": "c-shiji-117-xiangru",
       "source_id": "s-shiji117-xiangru",
       "work_title": "史記"
+    },
+    {
+      "number": 123,
+      "category": "liezhuan",
+      "title": "大宛列傳第六十三",
+      "paragraph_id": "c-shiji-123-dayuan:p034",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "煌西，以為人多，道上國不能食，乃分為數軍，從南北道。校尉王申生、故鴻臚壺充國等千餘人，別到郁成。郁成城守，不肯給食其軍。王申生去大軍二百里，（偵）［偩］而輕之，責郁成。郁成食不肯出，窺知申生軍日少，晨用三千人攻，戮殺申生等，軍破，數人脫亡，走貳師。貳師令搜粟都尉上官桀往攻破郁",
+      "paragraph_ids": [
+        "c-shiji-123-dayuan:p034"
+      ],
+      "mention_ids": [
+        "c-shiji-123-dayuan:m034-0041"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-123-dayuan:m034-0041": "c-shiji-123-dayuan:p034"
+      },
+      "mention_id": "c-shiji-123-dayuan:m034-0041",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-123-dayuan:m034-0041",
+          "mention_ids": [
+            "c-shiji-123-dayuan:m034-0041"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-123",
+      "chapter_id": "c-shiji-123-dayuan",
+      "source_id": "s-shiji123-dayuan",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -113,14 +191,38 @@
           "character_conversion": {},
           "editorial_readings": [],
           "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
-          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。 p063頌句重複及截漏尚待核所選底本，差異存於annotation.transcription_discrepancies，不改現存轉錄。 p064「俎／徂」另存待核差異；不據比較轉錄逕改正文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-123-dayuan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-123",
+      "source_id": "s-shiji123-dayuan",
+      "source": {
+        "title": "史記／卷123",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷123",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799",
+        "revision_id": 8736799,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文39段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標、blockquote排版及分類；維基連結保留顯示文字，原字未轉換，未核影像。",
+          "note": "末段索隱述贊另分層。"
         }
       }
     }
   ],
   "relations": [],
   "related_people": {
-    "8wd_fcv_stu": "壺充國（司馬相如列傳候選）"
+    "8wd_fcv_stu": "壺充國"
   },
   "dates": [],
   "name_components": [],

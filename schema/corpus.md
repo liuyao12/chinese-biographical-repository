@@ -64,6 +64,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 數位見證的現代校勘符號不當作古文。卷四的 `source.normalization.editorial_readings` 另存見證符號、正文採用的讀法與限制；有成對改讀時保存改讀前的字，不擅以改讀當定論，後續須核對底本及校勘來源。
 
+`annotation.transcription_discrepancies` 保存固定數位正文中的疑似重複、截漏或與比較轉錄不合之處；逐項記錄段落ID、固定正文引句及雜湊、比較見證的角色、版本／連結、原引文與限制，並標明狀態及編者處置。古注轉引、未標底本的網站轉錄、已辨明版本的獨立見證不可混為一談。只有已核實的底本差異才能另作採讀；比較文字不自動覆寫傳世正文，也不得把數位抽取異常冒記成古代異文。
+
 ## 姊妹關係
 
 來源親屬主張可用 `sister` 表示主體為客體的姊或妹；`qualifiers.source_term` 保留「姊」「女弟」等原詞。與 `brother` 一樣，不單據兄弟姊妹稱呼推定同父同母，不補原文未見姓名。
@@ -271,6 +273,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ### 埋葬個人事件
 
 `person_event_assertion_set` 可保存 `burial`，與死亡事件分開。必須原文明示：`source_term` 含葬且完整見於事件證據引句，人物錨點與篇、來源引用沿用個人事件驗證。未知日期不補數值，未記葬地不補地址。逐人 JSON 從 `person_events` 讀取；死亡及葬期不得互相推定。
+
+`person_event_assertion_set` 亦可用 `state_ritual` 保存由君主主持或代表國家施行的祭祀、禮儀事件，例如「祭后土」及封禪。`source_term` 必須保留原文祭祀／禮儀詞，人物錨點連到來源中實際主持者；日期只按該次事件的明確紀年或可核對的平行記載換算，不由相鄰人物的生卒年反推。逐人 JSON 從 `person_events` 讀取；此事件不表示人物親自參與每個被合併敘述的儀式，除非來源明載。
 
 ### 來源相對年齡差
 
@@ -502,7 +506,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ## 已辨明的非人物用字
 
-既有誤標可保留提及ID、位置與原字，改為 `kind: non_person`、`person_id: null`、`status: contextual_provisional`。`lexical_role` 目前支援 `verb` 與 `reciprocal_adverb`；`basis_quote` 須包含該次錨點及實際原文語境，另有判讀理由、代理署名及 `human_reviewed: false`。它與仍待辨識的人物分開，不能暗連人物或作品。XML 使用 `<seg type="non-person" subtype="…">`；閱讀器保留原錨點、原字及判讀說明，不畫人名底線或開人物卡。首例為〈淮南衡山列傳〉王濟北、王江北的王與數使使相交的相，不能按王、相單字全域套用。
+既有誤標可保留提及ID、位置與原字，改為 `kind: non_person`、`person_id: null`、`status: contextual_provisional`。`lexical_role` 支援 `verb`、`reciprocal_adverb` 等逐例限定詞性；`basis_quote` 須包含該次錨點及實際原文語境，另有判讀理由、代理署名及 `human_reviewed: false`。`generic_deity_reference` 限定無個人ID的泛稱神祇用語，須以明確古注引文支持，不把神祇稱號轉成具名人物。它與仍待辨識的人物分開，不能暗連人物或作品。XML 使用 `<seg type="non-person" subtype="…">`；閱讀器保留原錨點、原字及判讀說明，不畫人名底線或開人物卡。首例為〈淮南衡山列傳〉王濟北、王江北的王與數使使相交的相，不能按王、相單字全域套用。
 
 ## 相鄰數詞的群體約數報齡
 

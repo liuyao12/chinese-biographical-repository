@@ -46,14 +46,23 @@ def interpretation_errors(chapter, person_ids):
         paragraph_id = case.get('paragraph_id')
         p = paragraphs.get(paragraph_id) if isinstance(paragraph_id,str) else None
         check(p is not None, '異說段落不存在')
+        if 'related_mention_ids' in case:
+            related = case['related_mention_ids']
+            all_mention_ids = {m['id'] for para in chapter['paragraphs'] for m in para['mentions']}
+            check(strings(related) and all(mid in all_mention_ids for mid in related),
+                  '跨處相關提及須連到本篇已登記的來源錨點')
         targets = case.get('target_mention_ids')
         valid_targets = strings(targets)
         check(valid_targets, '異說須連到唯一的來源錨點')
         if not valid_targets: targets = []
         anchors = {m['id']: m for m in p['mentions']} if p else {}
-        check(bool(targets) and all(mid in anchors and anchors[mid].get('person_id') is None
-                  and anchors[mid]['kind'] == 'unresolved' for mid in targets),
-              '未決異說不能作已解身份或附到別段人物')
+        check(bool(targets) and all(
+                  mid in anchors and anchors[mid].get('person_id') is None and (
+                      (anchors[mid]['kind'] == 'unresolved' and anchors[mid].get('status') == 'unresolved')
+                      or (status == 'editorial_provisional' and anchors[mid]['kind'] == 'non_person'
+                          and anchors[mid].get('status') == 'contextual_provisional')
+                  ) for mid in targets),
+              '異說須連同段未定提及或有來源限定的非人物分類，不得附到已連人物')
         check(case.get('source_terms') == [anchors[mid]['surface'] for mid in targets if mid in anchors],
               '異說原稱須逐一對應來源錨點')
         ev = case.get('evidence', {})
@@ -74,17 +83,28 @@ def interpretation_errors(chapter, person_ids):
         valid_refs = strings(ref_ids)
         check(valid_refs, '古注參考 ID 缺失或重複')
         for ref in refs:
-            url = ref.get('url'); commit = ref.get('source_commit')
-            check(isinstance(url,str) and hex_string(commit,40)
-                  and hex_string(ref.get('source_blob'),40)
-                  and http_reference(url) and commit in url
-                  and isinstance(ref.get('quote'),str) and bool(ref['quote'])
-                  and ref.get('image_verified') is False
-                  and hex_string(ref.get('cached_response_sha256'),64),
-                  '古注須有固定提交、blob、實讀引句及未核書影狀態')
-            extent = ref.get('read_line_range')
-            check(isinstance(extent,list) and len(extent)==2 and all(type(x)is int for x in extent)
-                  and 1 <= extent[0] <= extent[1], '古注須記已讀行範圍')
+            url = ref.get('url')
+            if ref.get('reference_type') == 'external_publication':
+                accessed_on = ref.get('accessed_on')
+                check(isinstance(ref.get('title'),str) and bool(ref['title']) and http_reference(url)
+                      and isinstance(ref.get('quote'),str) and bool(ref['quote'])
+                      and isinstance(ref.get('provider'),str) and bool(ref['provider'])
+                      and isinstance(ref.get('source_type'),str) and bool(ref['source_type'])
+                      and isinstance(accessed_on,str) and bool(re.fullmatch(r'\d{4}-\d{2}-\d{2}',accessed_on))
+                      and ref.get('image_verified') is False,
+                      '外部出版物須記書名、網址、引文、來源類型、提供者、有效存取日及未核書影狀態')
+            else:
+                commit = ref.get('source_commit')
+                check(isinstance(url,str) and hex_string(commit,40)
+                      and hex_string(ref.get('source_blob'),40)
+                      and http_reference(url) and commit in url
+                      and isinstance(ref.get('quote'),str) and bool(ref['quote'])
+                      and ref.get('image_verified') is False
+                      and hex_string(ref.get('cached_response_sha256'),64),
+                      '古注須有固定提交、blob、實讀引句及未核書影狀態')
+                extent = ref.get('read_line_range')
+                check(isinstance(extent,list) and len(extent)==2 and all(type(x)is int for x in extent)
+                      and 1 <= extent[0] <= extent[1], '古注須記已讀行範圍')
         alternatives = case.get('alternatives', [])
         if not isinstance(alternatives,list) or not all(isinstance(a,dict) for a in alternatives):
             check(False,'異說須為解釋物件陣列'); alternatives = []

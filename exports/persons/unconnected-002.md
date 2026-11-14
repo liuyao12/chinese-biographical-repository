@@ -1632,7 +1632,6 @@
 | `jel_xae_qmj` | 殷仲文 | [《晉書・叛臣二》][61] | [JSON](jel_xae_qmj.json) |
 | `jex_mvs_w6d` | 許昌 | [《史記・魏其武安列傳》][176] | [JSON](jex_mvs_w6d.json) |
 | `jf9_key_t5m` | 楚文王（伐蔡記事） | [《史記・管蔡世家》][104] | [JSON](jf9_key_t5m.json) |
-| `jfb_bu6_k54` | 壺充國 | [《史記・大宛列傳》][192] | [JSON](jfb_bu6_k54.json) |
 | `jfj_ky5_9lg` | 麻戊 | [《史記・酷吏列傳》][191] | [JSON](jfj_ky5_9lg.json) |
 | `jfl_hyw_13h` | 魏冉 | [《史記・孟嘗君列傳》][144] | [JSON](jfl_hyw_13h.json) |
 | `jfm_184_2yb` | 呂嘉 | [《史記・南越列傳》][182] | [JSON](jfm_184_2yb.json) |
@@ -1775,6 +1774,7 @@
 | `kb2_0cv_msr` | 左右閣都尉未名 | [《史記・扁鵲倉公列傳》][174] | [JSON](kb2_0cv_msr.json) |
 | `kbh_40s_1r6` | 周最（賈生引文） | [《史記・秦始皇本紀》][93] | [JSON](kbh_40s_1r6.json) |
 | `kbh_vr3_os9` | 曹無傷 | [《史記・項羽本紀》][94]、[《史記・高祖本紀》][95] | [JSON](kbh_vr3_os9.json) |
+| `kbk_vt7_dd9` | 偓佺 | [《史記・司馬相如列傳》][186] | [JSON](kbk_vt7_dd9.json) |
 | `kbs_cao_fni` | 劉瑱〔謝𤅢觴酌友〕 | [《南齊書・江斆 何昌㝢 謝𤅢 王思遠》][69] | [JSON](kbs_cao_fni.json) |
 | `kc7_mmj_m5g` | 文盧 | [《晉書・叛臣一》][59] | [JSON](kc7_mmj_m5g.json) |
 | `kc7_t2s_yot` | 倶酒（晉靜公） | [《史記・晉世家》][108] | [JSON](kc7_t2s_yot.json) |
