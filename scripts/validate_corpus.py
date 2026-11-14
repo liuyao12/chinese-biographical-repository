@@ -875,8 +875,25 @@ def _validate_uncached(root=ROOT):
                           and (a['predicate'] != 'ancestor' or a.get('qualifiers', {}).get('generation_distance') == path.get('generation_distance'))
                           and any(e.get('kind') != 'table_cell' and e.get('paragraph_id') == evidence.get('paragraph_id') for e in a['evidence'])
                           for a in family_relations), '家族路徑缺少相符的來源親屬陳述')
-        title_use_mids = {u.get('person_mention_id') for chapter in chapters.values()
-                          for u in chapter.get('annotation', {}).get('source_title_uses', [])}
+        # A source-title reference can supply its own complete, person-linked citation
+        # instead of being duplicated as registry name evidence. Exempt only uses
+        # that pass the same source-use validator used below.
+        try:
+            from scripts.song041_title_semantics import source_use_errors
+        except ImportError:
+            from song041_title_semantics import source_use_errors
+        early_title_records = {h['id']: h for path in (root/'corpus').glob('*/*-titles.json')
+                               for h in json.loads(path.read_text(encoding='utf-8'))['holdings']}
+        title_use_mids = set()
+        for chapter in chapters.values():
+            for use in chapter.get('annotation', {}).get('source_title_uses', []):
+                if source_use_errors(use, chapter, pids, early_title_records):
+                    continue
+                mid = use.get('person_mention_id')
+                hit = mentions.get(mid)
+                if (hit and hit[0] == chapter['id'] and hit[2].get('kind') == 'person'
+                        and hit[2].get('person_id') == use.get('person_id')):
+                    title_use_mids.add(mid)
         non_name_surfaces_by_person = {}
         for mid, (cid, paragraph_id, mention) in mentions.items():
             if mention.get('kind') == 'pronoun' or mid in title_use_mids:
@@ -923,6 +940,8 @@ def _validate_uncached(root=ROOT):
             expected=set(mention_ids_by_person.get(p['id'], set()))
             if scope == 'corpus_and_native_table_mentions':
                 expected.update(table_mids_by_person.get(p['id'], set()))
+            expected.difference_update(title_use_mids)
+            evidenced.difference_update(title_use_mids)
             check(expected==evidenced, f'{p["id"]}: 人物提及與證據雙向索引不完整')
         dids=set()
         identity_decisions_by_id = {}

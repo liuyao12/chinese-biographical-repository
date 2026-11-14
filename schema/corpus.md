@@ -1021,7 +1021,7 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 
 ### 宋041實授、奏請回證與宗祧爵位來源
 
-原生holding沿既有mode/attestation/effective_period。宋初追崇號謚的窄basis連篇首孝穆／皇后原字構件、傳主死亡與明追崇，不含姓；俱贈、於是追封／又追封需具名雙受者與同篇故官／主語鏈，奏請不可充實授。明追封為死後事件類別，不為滿足模型另造無記死亡日期。memorial_request分not_reported/confirmed_by_later_clause/partially_confirmed，連後文正式holding；500戶只有奏請，回證爵種不回證戶數，請求年不配無年實授。source_title_uses保存原用稱或命婦類稱、人物mention及可核holding，后／上不造爵。named_source_line_succession以前追封爵holding為source root，ritual predecessor另列且intervening_holding_status:not_asserted，不造早卒宣之實持或父／養父，其他明父承襲沿舊模型；國除只終爵不造死亡。
+原生holding沿既有mode/attestation/effective_period。宋初追崇號謚的窄basis連篇首孝穆／皇后原字構件、傳主死亡與明追崇，不含姓；俱贈、於是追封／又追封需具名雙受者與同篇故官／主語鏈，奏請不可充實授。明追封為死後事件類別，不為滿足模型另造無記死亡日期。memorial_request分not_reported/confirmed_by_later_clause/partially_confirmed，連後文正式holding；500戶只有奏請，回證爵種不回證戶數，請求年不配無年實授。source_title_uses保存原用稱、非姓名性的稱謂指涉或命婦類稱，連人物mention及可核holding；`usage_kind: title_reference` 的具體指涉按同段明名、發言／受話鏈等上下文逐處判讀，原稱不加入人物姓名aliases。`source_use_binding.interpretation_note` 保存每處辨識理由；`kind: contextual_person_title_reference` 必須有非空basis與interpretation_note。`殿下` 可作受話稱謂的title_reference，只記人物指涉，`holding_ids` 必須為空，不造爵或任期。有效的source_title_use本身含完整引文、精確人物mention與source_anchor時，可作該次非姓名性提及的篇章來源記錄，不必重複列為registry人物姓名證據；只有通過source_use_errors、use與mention人物ID及所屬篇一致者才豁免，無效或未錨定的use仍須符合一般人物證據雙向索引。后／上不造爵。named_source_line_succession以前追封爵holding為source root，ritual predecessor另列且intervening_holding_status:not_asserted，不造早卒宣之實持或父／養父，其他明父承襲沿舊模型；國除只終爵不造死亡。
 
 ### 遠祖聲稱之後的兄弟省略主語
 
