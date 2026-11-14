@@ -1345,6 +1345,129 @@
         "note": "保留「文王、武王」的諸家說及朱珔「夏、商」說；本篇原文只標「二后」，未選定其指稱，不拆為兩個正文人物提及。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false
+      },
+      {
+        "id": "ri-shiji117-dasima",
+        "paragraph_id": "c-shiji-117-xiangru:p059",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m059-0002"
+        ],
+        "source_terms": [
+          "大司馬"
+        ],
+        "status": "unresolved",
+        "default_alternative_id": null,
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p059",
+          "quote": "於是大司馬進曰：「陛下仁育群生",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m059-0002"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-dasima-official",
+            "attribution": "文穎（《文選》李善注所引）",
+            "referent_kind": "unspecified_person",
+            "candidate_person_ids": [],
+            "interpretation": "文穎稱大司馬是上公、故先進議；只解其官號與發言次序，沒有指出是哪一位官員。",
+            "source_reference_ids": [
+              "wenxuan-liushenzhu-48-dasima-qishi"
+            ]
+          },
+          {
+            "id": "ri-shiji117-dasima-rhetorical",
+            "attribution": "向（《文選》五臣注）",
+            "referent_kind": "unspecified_person",
+            "candidate_person_ids": [],
+            "interpretation": "向稱「大司馬」是官號，為司馬相如假立以引出後文的修辭發言者；不視作可辨認的實際出席人物。",
+            "source_reference_ids": [
+              "wenxuan-liushenzhu-48-dasima-qishi"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "wenxuan-liushenzhu-48-dasima-qishi",
+            "reference_type": "external_publication",
+            "title": "《六臣註文選》卷四十八〈封禪文〉",
+            "provider": "中國哲學書電子化計劃",
+            "source_type": "ancient_commentary_transmission",
+            "url": "https://ctext.org/wiki.pl?chapter=526463&if=en",
+            "quote": "善曰：文穎曰大司馬上公也，故先進議。……向曰：大司馬官號也，相如假立之以發後辭。",
+            "accessed_on": "2026-11-14",
+            "image_verified": false,
+            "note": "《文選》注文數位呈現；此處只記文穎、向兩說，不據它為漢武帝朝具名大司馬定人。"
+          }
+        ],
+        "note": "兩說都不提供可連結的具名官員；依向注可讀為作品中的設置角色。保留原文「大司馬」錨點，不連司馬相如或同時代任何官員，也不作其實際任職的證據。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "ri-shiji117-qishierjun",
+        "paragraph_id": "c-shiji-117-xiangru:p059",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m059-0173"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m057-0066"
+        ],
+        "source_terms": [
+          "七十二君"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-qishierjun-group",
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p059",
+          "quote": "說者尚何稱於後，而云七十二君乎？",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m059-0173"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-qishierjun-group",
+            "attribution": "依本篇及《文選》注文暫分類",
+            "referent_kind": "generic_group",
+            "candidate_person_ids": [],
+            "interpretation": "封禪傳說中的君主群稱；本篇未列姓名，且不可據「七十二」拆出個人。",
+            "source_reference_ids": [
+              "wenxuan-liushenzhu-48-seventy-two"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "wenxuan-liushenzhu-48-seventy-two",
+            "reference_type": "external_publication",
+            "title": "《六臣註文選》卷四十八〈封禪文〉",
+            "provider": "中國哲學書電子化計劃",
+            "source_type": "ancient_commentary_transmission",
+            "url": "https://ctext.org/wiki.pl?chapter=526463&if=en",
+            "quote": "文穎曰：韶明也，夏大也，德明大相繼封禪於太山者七十有二人也。《管子》曰：「封太山禪梁父者七十有二家。」",
+            "accessed_on": "2026-11-14",
+            "image_verified": false,
+            "note": "六臣注文轉述的封禪七十二人／七十二家說；不提供具名者名單，亦未核原始引書版本。"
+          }
+        ],
+        "selection": {
+          "rationale": "本篇p057「七十有二君」與此處「七十二君」同在封禪議論；六臣注文轉述七十二人／家封禪說。兩處保存各自原文錨點，僅將此處分類為未具名群體。",
+          "source_reference_ids": [
+            "wenxuan-liushenzhu-48-seventy-two"
+          ]
+        },
+        "note": "與p057「七十有二君」互文同屬未具名封禪君主群；兩個正文提及分存，未建立個人名單或人物 ID。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
       }
     ]
   },

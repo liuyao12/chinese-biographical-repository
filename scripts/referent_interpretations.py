@@ -46,6 +46,11 @@ def interpretation_errors(chapter, person_ids):
         paragraph_id = case.get('paragraph_id')
         p = paragraphs.get(paragraph_id) if isinstance(paragraph_id,str) else None
         check(p is not None, '異說段落不存在')
+        if 'related_mention_ids' in case:
+            related = case['related_mention_ids']
+            all_mention_ids = {m['id'] for para in chapter['paragraphs'] for m in para['mentions']}
+            check(strings(related) and all(mid in all_mention_ids for mid in related),
+                  '跨處相關提及須連到本篇已登記的來源錨點')
         targets = case.get('target_mention_ids')
         valid_targets = strings(targets)
         check(valid_targets, '異說須連到唯一的來源錨點')
