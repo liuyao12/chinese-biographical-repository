@@ -71,5 +71,6 @@ def valid(assertion, paragraphs):
     return (len(refs) == 1
             and refs[0].get('title') == '《爾雅·釋親》'
             and refs[0].get('quote') == '父之從祖晜弟為族父。'
-            and refs[0].get('url') == 'https://zh.wikisource.org/zh-hant/釋草_(爾雅)#釋親_第四'
+            and refs[0].get('url') == 'https://zh.wikisource.org/w/index.php?title=釋草_(爾雅)&oldid=8758864#釋親_第四'
+            and refs[0].get('source_revision') == '8758864'
             and refs[0].get('scope') == 'kinship_term_interpretation_only')
