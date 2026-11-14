@@ -1193,6 +1193,13 @@ def validate(root=ROOT):
                 check(a['predicate'] in ('father','mother','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if a['predicate'] == 'paternal_uncle':
+                    try:
+                        from scripts.directed_uncle_roles import paternal_uncle_direction_valid
+                    except ImportError:
+                        from directed_uncle_roles import paternal_uncle_direction_valid
+                    check(paternal_uncle_direction_valid(a, paragraphs),
+                          '叔父關係須依原詞與人物字位定向，不得互換叔侄端點')
                 if 'marriage_termination' in qualifiers:
                     try:
                         from scripts.marriage_termination import marriage_termination_valid
