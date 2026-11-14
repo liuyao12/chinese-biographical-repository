@@ -2105,7 +2105,6 @@
 | `xoj_ji6_85j` | 中行獻子 | [《史記・齊太公世家》][18] | [JSON](xoj_ji6_85j.json) |
 | `xop_byp_p7d` | 虙戲 | [《史記・趙世家》][29] | [JSON](xop_byp_p7d.json) |
 | `xox_3lp_sy3` | 祝懽 | [《史記・商君列傳》][54] | [JSON](xox_3lp_sy3.json) |
-| `xp2_dxz_zcn` | 馮敬 | [《史記・屈原賈生列傳》][70] | [JSON](xp2_dxz_zcn.json) |
 | `xp5_39k_w5w` | 郢（閩越王） | [《史記・東越列傳》][100] | [JSON](xp5_39k_w5w.json) |
 | `xpc_di7_68r` | 魏敬 | [《史記・孝文本紀》][14]、[《史記・淮南衡山列傳》][104] | [JSON](xpc_di7_68r.json) |
 | `xpw_io6_vl8` | 黃帝 | [《史記・日者列傳》][113] | [JSON](xpw_io6_vl8.json) |
@@ -2208,10 +2207,10 @@
 | `yfx_myv_qft` | 子西 | [《史記・楚世家》][26] | [JSON](yfx_myv_qft.json) |
 | `yg1_ml2_61c` | 莊豹 | [《史記・樗里子甘茂列傳》][57] | [JSON](yg1_ml2_61c.json) |
 | `yg3_wq7_tpj` | 武王 | [《史記・貨殖列傳》][115] | [JSON](yg3_wq7_tpj.json) |
+| `ygk_y1u_niv` | 衛慶 | [《史記・淮南衡山列傳》][104] | [JSON](ygk_y1u_niv.json) |
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ygk_y1u_niv` | 衛慶 | [《史記・淮南衡山列傳》][104] | [JSON](ygk_y1u_niv.json) |
 | `ygr_80w_wp2` | 嬖姬（陳宣公款母） | [《史記・陳杞世家》][22] | [JSON](ygr_80w_wp2.json) |
 | `yi5_jym_uoz` | 西伯 | [《史記・太史公自序》][116] | [JSON](yi5_jym_uoz.json) |
 | `yj2_zd2_kbu` | 國 | [《史記・趙世家》][29] | [JSON](yj2_zd2_kbu.json) |
