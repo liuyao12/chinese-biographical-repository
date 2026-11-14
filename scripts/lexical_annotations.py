@@ -12,6 +12,9 @@ def non_person_errors(mention, text):
         surface = mention.get('surface')
         role_valid = (isinstance(surface, str) and isinstance(term, str)
                       and bool(surface) and surface in term)
+    if role == 'generic_deity_reference':
+        role_valid = (mention.get('surface') == '帝'
+                      and term == '馳我君輿，帝以享祉。')
     if role == 'interrogative_particle':
         role_valid = (mention.get('surface') == '侯'
                       and term == '君乎君乎，侯不邁哉！')
@@ -37,7 +40,7 @@ def non_person_errors(mention, text):
              and type(start) is int and type(end) is int and 0 <= start < end <= len(text)
              and text[start:end] == mention.get('surface')
              and any(i <= start < end <= i + len(term) for i in starts))
-    if role == 'interrogative_particle':
+    if role in ('interrogative_particle', 'generic_deity_reference'):
         refs = mention.get('source_references')
         valid = valid and isinstance(refs, list) and bool(refs) and all(
             isinstance(ref, dict)
@@ -47,5 +50,12 @@ def non_person_errors(mention, text):
             and isinstance(ref.get('source_type'), str) and bool(ref['source_type'])
             and isinstance(ref.get('accessed_on'), str)
             and bool(re.fullmatch(r'\d{4}-\d{2}-\d{2}', ref['accessed_on']))
+            for ref in refs)
+    if role == 'generic_deity_reference':
+        refs = mention.get('source_references')
+        valid = valid and isinstance(refs, list) and bool(refs) and all(
+            isinstance(ref, dict) and '漢書' in ref.get('title', '')
+            and '師古曰帝' in ref.get('quote', '') and '天帝也' in ref.get('quote', '')
+            and ref.get('url', '').startswith('https://github.com/kanripo/KR2a0007/blob/')
             for ref in refs)
     return [] if valid else ['非人物判讀須保留詞性、原語境、理由及未經人工審閱狀態，不得暗連人物']
