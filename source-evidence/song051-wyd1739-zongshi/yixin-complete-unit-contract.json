@@ -18864,6 +18864,328 @@
           ],
           "human_reviewed": false,
           "model": null
+        },
+        {
+          "id": "a-song051-p012-p013-biao-brother",
+          "subject_person_id": "3qs_nqa_ioa_AABCC",
+          "predicate": "brother",
+          "object_person_id": "3qs_nqa_ioa_AABCB",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "襲弟彪",
+            "source_unit_binding": {
+              "kind": "fixed_wyd_song051_p012_p013",
+              "case": "biao-brother",
+              "start": 186,
+              "end": 189,
+              "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+            },
+            "interpretation_note": "明言彪為襲弟；不推其與定、奕的排行。",
+            "shared_father": null,
+            "source_child_sex": "male",
+            "relative_birth_order": {
+              "older_person_id": "3qs_nqa_ioa_AABCB",
+              "younger_person_id": "3qs_nqa_ioa_AABCC",
+              "operator": "lt",
+              "scope": "siblings",
+              "older_ordinal": null,
+              "younger_ordinal": null
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+              "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融",
+              "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0015",
+              "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0014"
+            }
+          ],
+          "human_reviewed": false
+        },
+        {
+          "id": "a-song051-p012-p013-ding-brother",
+          "subject_person_id": "3qs_nqa_ioa_AABCD",
+          "predicate": "brother",
+          "object_person_id": "3qs_nqa_ioa_AABCB",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "弟定",
+            "source_unit_binding": {
+              "kind": "fixed_wyd_song051_p012_p013",
+              "case": "ding-brother",
+              "start": 192,
+              "end": 194,
+              "raw_sha256": "2726ee87d70c2c65e567b3d344df111023950397a762776615cc0ff91a9ef4a5"
+            },
+            "interpretation_note": "原詞明言「弟定」；依「襲弟彪……弟定」的列傳省略主語承接，編者暫以襲為其主語。此承接屬上下文判讀，可修訂；不推排行、同母或額外父名。",
+            "shared_father": null,
+            "source_child_sex": "male",
+            "relative_birth_order": {
+              "older_person_id": "3qs_nqa_ioa_AABCB",
+              "younger_person_id": "3qs_nqa_ioa_AABCD",
+              "operator": "lt",
+              "scope": "siblings",
+              "older_ordinal": null,
+              "younger_ordinal": null
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+              "quote": "襲弟彪祕書郎弟定太子舍人並蚤卒",
+              "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0016",
+              "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0014"
+            }
+          ],
+          "human_reviewed": false
+        },
+        {
+          "id": "a-song051-p012-p013-huang-father",
+          "subject_person_id": "3qs_nqa_ioa_AABCBA",
+          "predicate": "father",
+          "object_person_id": "3qs_nqa_ioa_AABCB",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "以子晃",
+            "source_unit_binding": {
+              "kind": "fixed_wyd_song051_p012_p013",
+              "case": "huang-father",
+              "start": 12,
+              "end": 15,
+              "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+            },
+            "interpretation_note": "「弟襲以子晃繼封」明言晃為襲之子；此只記父子，不以繼封語直接推出爵位名稱。",
+            "lineage": "paternal",
+            "source_child_term": "子",
+            "source_child_sex": "male"
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+              "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融",
+              "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0001",
+              "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0000"
+            }
+          ],
+          "human_reviewed": false
+        },
+        {
+          "id": "a-song051-p012-p013-min-brother",
+          "subject_person_id": "3qs_nqa_ioa_AABCBB",
+          "predicate": "brother",
+          "object_person_id": "3qs_nqa_ioa_AABCBA",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "與兄晃",
+            "source_unit_binding": {
+              "kind": "fixed_wyd_song051_p012_p013",
+              "case": "min-brother",
+              "start": 180,
+              "end": 183,
+              "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+            },
+            "interpretation_note": "明言晃為旻之兄；只記相對年序，不推兄弟絕對排行。",
+            "shared_father": null,
+            "source_child_sex": "male",
+            "relative_birth_order": {
+              "older_person_id": "3qs_nqa_ioa_AABCBA",
+              "younger_person_id": "3qs_nqa_ioa_AABCBB",
+              "operator": "lt",
+              "scope": "siblings",
+              "older_ordinal": null,
+              "younger_ordinal": null
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+              "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融",
+              "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0012",
+              "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0013"
+            }
+          ],
+          "human_reviewed": false
+        },
+        {
+          "id": "a-song051-p012-p013-min-father",
+          "subject_person_id": "3qs_nqa_ioa_AABCBB",
+          "predicate": "father",
+          "object_person_id": "3qs_nqa_ioa_AABCB",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "襲子旻",
+            "source_unit_binding": {
+              "kind": "fixed_wyd_song051_p012_p013",
+              "case": "min-father",
+              "start": 166,
+              "end": 169,
+              "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+            },
+            "interpretation_note": "本句明言襲子旻。",
+            "lineage": "paternal",
+            "source_child_term": "子",
+            "source_child_sex": "male"
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+              "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融",
+              "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0012",
+              "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0011"
+            }
+          ],
+          "human_reviewed": false
+        },
+        {
+          "id": "a-song051-p012-p013-xi-brother",
+          "subject_person_id": "3qs_nqa_ioa_AABCB",
+          "predicate": "brother",
+          "object_person_id": "3qs_nqa_ioa_AABCA",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "無子弟襲",
+            "source_unit_binding": {
+              "kind": "fixed_wyd_song051_p012_p013",
+              "case": "xi-brother",
+              "start": 10,
+              "end": 12,
+              "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+            },
+            "interpretation_note": "承接 p012 所列顗；「無子弟襲」明言顗無子而弟襲接續，不推同母或絕對排行。",
+            "shared_father": null,
+            "source_child_sex": "male",
+            "relative_birth_order": {
+              "older_person_id": "3qs_nqa_ioa_AABCA",
+              "younger_person_id": "3qs_nqa_ioa_AABCB",
+              "operator": "lt",
+              "scope": "siblings",
+              "older_ordinal": null,
+              "younger_ordinal": null
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+              "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+              "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0123"
+            },
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+              "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融",
+              "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0000"
+            }
+          ],
+          "human_reviewed": false,
+          "context": {
+            "kind": "adjacent_paragraphs",
+            "paragraph_ids": [
+              "c-songshu-051-wyd1739-zongshi:p012",
+              "c-songshu-051-wyd1739-zongshi:p013"
+            ]
+          }
+        },
+        {
+          "id": "a-song051-p012-p013-yi-brother",
+          "subject_person_id": "3qs_nqa_ioa_AABCE",
+          "predicate": "brother",
+          "object_person_id": "3qs_nqa_ioa_AABCD",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "定弟奕",
+            "source_unit_binding": {
+              "kind": "fixed_wyd_song051_p012_p013",
+              "case": "yi-brother",
+              "start": 201,
+              "end": 204,
+              "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+            },
+            "interpretation_note": "明言奕為定弟；不推定與襲／彪的關係。",
+            "shared_father": null,
+            "source_child_sex": "male",
+            "relative_birth_order": {
+              "older_person_id": "3qs_nqa_ioa_AABCD",
+              "younger_person_id": "3qs_nqa_ioa_AABCE",
+              "operator": "lt",
+              "scope": "siblings",
+              "older_ordinal": null,
+              "younger_ordinal": null
+            }
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+              "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融",
+              "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0018",
+              "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p013:m0017"
+            }
+          ],
+          "human_reviewed": false
+        },
+        {
+          "id": "a-song051-p012-p013-yi-father",
+          "subject_person_id": "3qs_nqa_ioa_AABCA",
+          "predicate": "father",
+          "object_person_id": "3qs_nqa_ioa_AABC",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "子孝侯顗嗣",
+            "source_unit_binding": {
+              "kind": "fixed_wyd_song051_p012_p013",
+              "case": "yi-father",
+              "start": 190,
+              "end": 195,
+              "raw_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45"
+            },
+            "interpretation_note": "前文列義融並明言其子顗嗣；本段角色連續，不把顗接為義欣或義慶之子。",
+            "lineage": "paternal",
+            "source_child_term": "子",
+            "source_child_sex": "male"
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+              "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+              "subject_person_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0123",
+              "object_person_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0121"
+            }
+          ],
+          "human_reviewed": false
         }
       ]
     },
@@ -21122,6 +21444,146 @@
             }
           ],
           "rationale": "《梁書》彭城劉俁與《宋書》秉傳之子俁，在姓名、時代、地望及秉子關係上相合；宋010四友同次第四人作劉候，保存異文，不作字形校定。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "d-song051-yixin-yi",
+          "person_id": "3qs_nqa_ioa_AABCA",
+          "surfaces": [
+            "孝侯",
+            "顗"
+          ],
+          "scope": "same_chapter",
+          "chapter_ids": [
+            "c-songshu-051-wyd1739-zongshi"
+          ],
+          "status": "contextual_provisional",
+          "confidence_level": "high",
+          "identification_basis": {
+            "kind": "source_context",
+            "target_mention_ids": [
+              "c-songshu-051-wyd1739-zongshi:p012:m0122",
+              "c-songshu-051-wyd1739-zongshi:p012:m0123"
+            ]
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+              "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖"
+            }
+          ],
+          "rationale": "「子孝侯顗嗣」中孝侯為顗的傳稱，句法明列其為義融之子；不由爵名推生卒。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "d-song051-yixin-xi",
+          "person_id": "3qs_nqa_ioa_AABCB",
+          "surfaces": [
+            "襲",
+            "茂德"
+          ],
+          "scope": "same_chapter",
+          "chapter_ids": [
+            "c-songshu-051-wyd1739-zongshi"
+          ],
+          "status": "contextual_provisional",
+          "confidence_level": "high",
+          "identification_basis": {
+            "kind": "source_context",
+            "target_mention_ids": [
+              "c-songshu-051-wyd1739-zongshi:p013:m0000",
+              "c-songshu-051-wyd1739-zongshi:p013:m0005",
+              "c-songshu-051-wyd1739-zongshi:p013:m0006",
+              "c-songshu-051-wyd1739-zongshi:p013:m0008",
+              "c-songshu-051-wyd1739-zongshi:p013:m0010",
+              "c-songshu-051-wyd1739-zongshi:p013:m0011",
+              "c-songshu-051-wyd1739-zongshi:p013:m0014",
+              "c-songshu-051-wyd1739-zongshi:p013:m0006"
+            ]
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+              "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融"
+            }
+          ],
+          "rationale": "本段「襲字茂德」明確給出襲之字，後續數次「襲」皆在同一傳記主語連續下；與晉書所見同名劉襲按人物世代與來源身份分存。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "d-song051-yixin-huang",
+          "person_id": "3qs_nqa_ioa_AABCBA",
+          "surfaces": [
+            "晃"
+          ],
+          "scope": "same_chapter",
+          "chapter_ids": [
+            "c-songshu-051-wyd1739-zongshi"
+          ],
+          "status": "contextual_provisional",
+          "confidence_level": "high",
+          "identification_basis": {
+            "kind": "source_context",
+            "target_mention_ids": [
+              "c-songshu-051-wyd1739-zongshi:p013:m0001",
+              "c-songshu-051-wyd1739-zongshi:p013:m0013"
+            ]
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+              "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融"
+            }
+          ],
+          "rationale": "前「以子晃繼封」與後「與兄晃俱伏誅」同屬襲之子旻敘事，後文明稱晃為旻之兄；不與南齊長沙威王晃合併。",
+          "human_reviewed": false,
+          "model": null
+        },
+        {
+          "id": "d-song051-yixin-ding",
+          "person_id": "3qs_nqa_ioa_AABCD",
+          "surfaces": [
+            "定"
+          ],
+          "scope": "same_chapter",
+          "chapter_ids": [
+            "c-songshu-051-wyd1739-zongshi"
+          ],
+          "status": "contextual_provisional",
+          "confidence_level": "medium",
+          "identification_basis": {
+            "kind": "source_context",
+            "target_mention_ids": [
+              "c-songshu-051-wyd1739-zongshi:p013:m0016",
+              "c-songshu-051-wyd1739-zongshi:p013:m0017"
+            ]
+          },
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-051",
+              "source_id": "s-songshu-051-wyd1739-zongshi",
+              "chapter_id": "c-songshu-051-wyd1739-zongshi",
+              "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+              "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融"
+            }
+          ],
+          "rationale": "本句前後列襲系同代家人，定為獨立人物；「弟定」所承主語可能是襲或彪，關係端不定，故不建立該兄弟斷言。",
           "human_reviewed": false,
           "model": null
         }
@@ -29517,11 +29979,177 @@
       "identity_equivalence_decision_ids": [],
       "parent_person_id": "3qs_nqa_ioa_AABBB",
       "source_assertion_id": "a-song051-yixin-liuchuo-father"
+    },
+    {
+      "person_id": "3qs_nqa_ioa_AABCA",
+      "representative_source_person_id": "3qs_nqa_ioa_AABCA",
+      "source_person_ids": [
+        "3qs_nqa_ioa_AABCA"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "3qs_nqa_ioa_AABC",
+      "source_assertion_id": "a-song051-p012-p013-yi-father"
+    },
+    {
+      "person_id": "3qs_nqa_ioa_AABCB",
+      "representative_source_person_id": "3qs_nqa_ioa_AABCB",
+      "source_person_ids": [
+        "3qs_nqa_ioa_AABCB"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "3qs_nqa_ioa_AABC",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling",
+        "status": "contextual_provisional",
+        "rationale": "原文明示其為顗之弟；顗的來源父子斷言支持同父作可撤回家族組裝，不推同母。",
+        "sibling_father_assertion_id": "a-song051-p012-p013-yi-father",
+        "sibling_person_id": "3qs_nqa_ioa_AABCA",
+        "sibling_assertion_id": "a-song051-p012-p013-xi-brother",
+        "references": [
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+            "scope": "義融—顗明父；先前兄弟列延續"
+          },
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融",
+            "scope": "顗無子，弟襲"
+          }
+        ]
+      }
+    },
+    {
+      "person_id": "3qs_nqa_ioa_AABCBA",
+      "representative_source_person_id": "3qs_nqa_ioa_AABCBA",
+      "source_person_ids": [
+        "3qs_nqa_ioa_AABCBA"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "3qs_nqa_ioa_AABCB",
+      "source_assertion_id": "a-song051-p012-p013-huang-father"
+    },
+    {
+      "person_id": "3qs_nqa_ioa_AABCBB",
+      "representative_source_person_id": "3qs_nqa_ioa_AABCBB",
+      "source_person_ids": [
+        "3qs_nqa_ioa_AABCBB"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "3qs_nqa_ioa_AABCB",
+      "source_assertion_id": "a-song051-p012-p013-min-father"
+    },
+    {
+      "person_id": "3qs_nqa_ioa_AABCC",
+      "representative_source_person_id": "3qs_nqa_ioa_AABCC",
+      "source_person_ids": [
+        "3qs_nqa_ioa_AABCC"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "3qs_nqa_ioa_AABC",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling_chain",
+        "status": "contextual_provisional",
+        "rationale": "依來源明載襲弟彪、襲弟顗之弟襲鏈，透過同父兄弟鏈接到義融；不推同母或絕對排行。",
+        "sibling_father_assertion_id": "a-song051-p012-p013-yi-father",
+        "sibling_person_ids": [
+          "3qs_nqa_ioa_AABCB",
+          "3qs_nqa_ioa_AABCA"
+        ],
+        "sibling_assertion_ids": [
+          "a-song051-p012-p013-biao-brother",
+          "a-song051-p012-p013-xi-brother"
+        ],
+        "references": [
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "如此韞弟弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者食邑皆千戶義融歷侍中左衞軍太子中庶子五兵尚書領軍有贖幹善於用短楯元嘉十八年卒追贈車騎將軍諡曰恭侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖",
+            "scope": "義融→顗直接父子"
+          },
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "即位追贈散騎常侍無子弟襲以子晃繼封昇明三年與員外散騎侍郎安成戚仁祖荒人王武連羽林副彭元儁等謀反國除襲字茂德太子舍人安成太守晉安王子勛為逆襲據郡距之賊遣軍攻圍不能下太宗嘉之以為郢州刺史封建陵縣侯食邑五百戶建陵縣屬蒼梧郡以道遠改封臨澧縣侯太始六年卒於中護軍追贈護軍將軍加散騎常侍諡曰忠侯襲亦庸鄙在野州暑月露褌立聽事綱紀正伏閣怪之訪問乃知襲子旻嗣昇明三年改封東昌縣侯與兄晃俱伏誅襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守義融",
+            "scope": "襲弟彪、顗無子弟襲"
+          }
+        ]
+      }
+    },
+    {
+      "person_id": "3qs_nqa_ioa_AABCD",
+      "representative_source_person_id": "3qs_nqa_ioa_AABCD",
+      "source_person_ids": [
+        "3qs_nqa_ioa_AABCD"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "3qs_nqa_ioa_AABC",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling_chain",
+        "sibling_person_ids": [
+          "3qs_nqa_ioa_AABCB",
+          "3qs_nqa_ioa_AABCA"
+        ],
+        "sibling_assertion_ids": [
+          "a-song051-p012-p013-ding-brother",
+          "a-song051-p012-p013-xi-brother"
+        ],
+        "sibling_father_assertion_id": "a-song051-p012-p013-yi-father",
+        "status": "contextual_provisional",
+        "rationale": "「襲弟彪……弟定」依篇章語法暫承襲為省略主語；再由「無子弟襲」連到顗，顗有明文父義融。這是可修訂的父系家族組裝，不另造父名或推同母；ID字尾只表示家系分支槽位，不代表排行。",
+        "references": [
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "襲弟彪祕書郎弟定太子舍人並蚤卒",
+            "scope": "contextual_sibling_subject_inherited_from_xi"
+          }
+        ]
+      }
+    },
+    {
+      "person_id": "3qs_nqa_ioa_AABCE",
+      "representative_source_person_id": "3qs_nqa_ioa_AABCE",
+      "source_person_ids": [
+        "3qs_nqa_ioa_AABCE"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "3qs_nqa_ioa_AABC",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "shared_father_through_sibling_chain",
+        "sibling_person_ids": [
+          "3qs_nqa_ioa_AABCD",
+          "3qs_nqa_ioa_AABCB",
+          "3qs_nqa_ioa_AABCA"
+        ],
+        "sibling_assertion_ids": [
+          "a-song051-p012-p013-yi-brother",
+          "a-song051-p012-p013-ding-brother",
+          "a-song051-p012-p013-xi-brother"
+        ],
+        "sibling_father_assertion_id": "a-song051-p012-p013-yi-father",
+        "status": "contextual_provisional",
+        "rationale": "「定弟奕」明言奕為定弟；「弟定」承襲襲作主語仍屬上下文暫定，並經顗的明文父義融接入家族路徑。此可修訂組裝不另造父名或推同母；ID字尾為家系分支槽位，不表示排行。",
+        "references": [
+          {
+            "title": "《宋書・卷五十一》",
+            "url": "https://commons.wikimedia.org/w/index.php?curid=124072266",
+            "quote": "襲弟彪祕書郎弟定太子舍人並蚤卒定弟奕海陵太守",
+            "scope": "explicit_ding_yi_sibling_and_contextual_xi_ding"
+          }
+        ]
+      }
     }
   ],
   "later_phase": {
     "name": "宋書卷五十一 p001–p003、p047–p048人物辨識與校記續讀",
-    "coverage": "完整閱讀 p029–p039 的明確人物與上下文省稱；保留來源未決讀法，不包含 p040。；p044–p045 補標道考、澄之、瑉之、思考，記錄明文父子、兄弟及從弟；瑉之父系接合明標上下文暫定，不補親等、共祖或絕對排行。；p044–p045 補標道考、澄之、瑉之、思考；父子、兄弟與從弟均保存原文提及，瑉之父系接合另標為上下文暫定，不推親等、共祖或絕對排行。；並錄思考泰始元年卒、時年七十五；西元年僅記為按年號表換算的465年，不倒推出生年。；補標p001–p003與p047–p048可確認人物及校記篇題，p002「斬全」承p001孫全；p047「寧孟」疑誤保留未決；「解斯蘭／斛斯蘭」保存本源字面與外部對讀，不校改底本。",
+    "coverage": "完整閱讀 p029–p039 的明確人物與上下文省稱；保留來源未決讀法，不包含 p040。；p044–p045 補標道考、澄之、瑉之、思考，記錄明文父子、兄弟及從弟；瑉之父系接合明標上下文暫定，不補親等、共祖或絕對排行。；p044–p045 補標道考、澄之、瑉之、思考；父子、兄弟與從弟均保存原文提及，瑉之父系接合另標為上下文暫定，不推親等、共祖或絕對排行。；並錄思考泰始元年卒、時年七十五；西元年僅記為按年號表換算的465年，不倒推出生年。；補標p001–p003與p047–p048可確認人物及校記篇題，p002「斬全」承p001孫全；p047「寧孟」疑誤保留未決；「解斯蘭／斛斯蘭」保存本源字面與外部對讀，不校改底本。 p012–p013追加顗至奕等人物錨點及同段明父／弟鏈；弟定的承接候選只在人物身份理由中保留，不新增未決兄弟斷言。",
     "pronoun_reclassifications": [
       {
         "paragraph_id": "c-songshu-051-wyd1739-zongshi:p029",
@@ -30931,6 +31559,305 @@
           "person_id": "saz_old_5fi",
           "status": "contextual_provisional",
           "source_role_key": "song051_p001_p003_p047_p048"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0122",
+          "start": 191,
+          "end": 193,
+          "surface": "孝侯",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCA",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0123",
+          "start": 193,
+          "end": 194,
+          "surface": "顗",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCA",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p012:m0124",
+          "start": 208,
+          "end": 210,
+          "surface": "世祖",
+          "kind": "person",
+          "person_id": "hx8_st4_jdd",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0000",
+          "start": 11,
+          "end": 12,
+          "surface": "襲",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCB",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0001",
+          "start": 14,
+          "end": 15,
+          "surface": "晃",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCBA",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0002",
+          "start": 30,
+          "end": 33,
+          "surface": "戚仁祖",
+          "kind": "person",
+          "person_id": "ilm_cng_60j",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0003",
+          "start": 35,
+          "end": 38,
+          "surface": "王武連",
+          "kind": "person",
+          "person_id": "hqe_hvd_uq2",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0004",
+          "start": 41,
+          "end": 44,
+          "surface": "彭元儁",
+          "kind": "person",
+          "person_id": "hs7_69e_pu2",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0005",
+          "start": 49,
+          "end": 50,
+          "surface": "襲",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCB",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0006",
+          "start": 51,
+          "end": 53,
+          "surface": "茂德",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCB",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0007",
+          "start": 64,
+          "end": 66,
+          "surface": "子勛",
+          "kind": "person",
+          "person_id": "902_55f_656",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0008",
+          "start": 68,
+          "end": 69,
+          "surface": "襲",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCB",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0009",
+          "start": 81,
+          "end": 83,
+          "surface": "太宗",
+          "kind": "person",
+          "person_id": "cti_o52_4nz",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0010",
+          "start": 141,
+          "end": 142,
+          "surface": "襲",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCB",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0011",
+          "start": 166,
+          "end": 167,
+          "surface": "襲",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCB",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0012",
+          "start": 168,
+          "end": 169,
+          "surface": "旻",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCBB",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0013",
+          "start": 182,
+          "end": 183,
+          "surface": "晃",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCBA",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0014",
+          "start": 186,
+          "end": 187,
+          "surface": "襲",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCB",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0015",
+          "start": 188,
+          "end": 189,
+          "surface": "彪",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCC",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0016",
+          "start": 193,
+          "end": 194,
+          "surface": "定",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCD",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0017",
+          "start": 201,
+          "end": 202,
+          "surface": "定",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCD",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0018",
+          "start": 203,
+          "end": 204,
+          "surface": "奕",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABCE",
+          "status": "contextual_provisional",
+          "confidence": "high"
+        }
+      },
+      {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p013",
+        "marker": {
+          "id": "c-songshu-051-wyd1739-zongshi:p013:m0019",
+          "start": 208,
+          "end": 210,
+          "surface": "義融",
+          "kind": "person",
+          "person_id": "3qs_nqa_ioa_AABC",
+          "status": "contextual_provisional",
+          "confidence": "high"
         }
       }
     ],
