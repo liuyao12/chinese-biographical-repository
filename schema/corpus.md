@@ -688,3 +688,15 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 閱讀器由實際載入的父母、子女 JSON 套用長幼約束，不從家族 ID 字母取排行。`relative_birth_order` 只在 `scope: siblings`、`operator: lt` 且兩端確在子女列表時加入先後約束；絕對排行僅比較同父母、同 `sons_of_parent`／`daughters_of_parent`／`children_of_parent` 範圍的數字。未記性別或排行者不因鄰人的長子記錄而補數字。
 
 完整的小型 `source_sibling_group` 可結合明載排行、最長／最幼及相對次序計算必然的顯示先後，例如四姊妹中的一、三及最幼。推導只影響顯示，不寫回來源排行。缺員、重複身份或互異群體報告不作完整槽位推導。相互矛盾的有向約束折為衝突組，保留組內輸入次序與所有人物，於 `child_order_conflicts` 回傳成員，其他可確定的先後仍有效。無約束的平手沿用輸入次序。
+
+「年出十歲」等直接報齡用 `reporting_status: direct_report`、`value: null` 及 `bounds` 保存嚴格開放下界：`lower: 10`、`lower_inclusive: false`，上界兩欄為空值。`source_term` 必須逐字為「年出」加原數詞及歲／歳，不能把「未出」反作下界；不補確切年齡、出生年或敘事年月。引語發言人與報齡對象仍依人物錨點分開。
+
+`age_context.kind: during_life` 標明生前報齡；`at_death` 另以 `life_event_id` 連到同人、同來源段及同原句的死亡事件。不可只因同一人物就把生前二十歲接到七十三歲卒年；舊記錄沒有此欄時仍是未分類報齡，不自動當享年。數值、計歲法、原句及出生年限制不變。
+
+「某官。卒官」未載紀年時，`died_in_last_named_office` 亦可保留該最後明示官職的 `explicit_end`，`date_expression` 為空；原詞須精確相合，不把不載年份誤成可補卒年，更不能套到其他官爵。「徙某官，未之職」及「召為某官……不就」分錄未受任，保留原任用詞與未受詞，不能作實任。
+
+官職 `mode: transfer` 使用 `office_transfer_basis.kind: explicit_office_transfer`，保存任用動詞、原序官職列表、逐字原詞及同一筆證據；「遷甲、乙」可分錄兩職，但兩筆均引用原完整列舉，不拼造「遷乙」。它與王爵 `transfer_basis` 徙封分開驗證，亦不由轉任補前官終期或曆年。
+
+身後明贈官號可按原文「贈甲、乙，加丙」逐項保存；保留完整並列贈授句、同段死亡詞與受贈人物標記。特進等榮號列 `honorific`，不得因此將未受任或生前見稱改為贈官，亦不據死亡自動補授贈年份。
+
+省略主語的「即以某官為贈」以 `continued_subject_death_then_gift` 連結同人同段死亡事件及緊接前段人物標記；須保留兩段引文、原死亡紀年與完整贈官句。不得將前段別人的死亡、較遠段落主語或生前未拜的其他並列官號套入贈授。

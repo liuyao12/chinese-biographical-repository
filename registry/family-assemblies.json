@@ -2880,7 +2880,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "以晉書具名父祖、父子、兄弟及宋書王弘家世接合。中間父子與同父推導獨立標示；漢王吉遠祖泛稱不納入組裝，字母不是出生次序。 晉書卷65補導子洽、洽子珣及珣子弘等直接父子來源，替換組裝所選的連續祖先推導；宋書祖先斷言仍保留。 晉書76王廙父正及宋書66敬弘父祖接回王正支；胡之父廙為獨立的連續祖先推導。謝重的外祖胡之共享此完整身份，不另建截斷副本。 王敬弘子恢之、女及昇之子延之依宋書正文續接；瓚之、昇之的共同父親由明載兄弟鏈另標推導，不按字母作排行。 宋書92王鎮之父隨之、祖耆之、曾祖廙續接此近支，連續祖先與兄弟同父推導另標；母系未知不補。",
+      "rationale": "以晉書具名父祖、父子、兄弟及宋書王弘家世接合。中間父子與同父推導獨立標示；漢王吉遠祖泛稱不納入組裝，字母不是出生次序。 晉書卷65補導子洽、洽子珣及珣子弘等直接父子來源，替換組裝所選的連續祖先推導；宋書祖先斷言仍保留。 晉書76王廙父正及宋書66敬弘父祖接回王正支；胡之父廙為獨立的連續祖先推導。謝重的外祖胡之共享此完整身份，不另建截斷副本。 王敬弘子恢之、女及昇之子延之依宋書正文續接；瓚之、昇之的共同父親由明載兄弟鏈另標推導，不按字母作排行。 宋書92王鎮之父隨之、祖耆之、曾祖廙續接此近支，連續祖先與兄弟同父推導另標；母系未知不補。 卷76王彬、王棱近支依直接父子及明示兄弟續接；同父推導與相鄰原段承接另標，籍之父親未定不補。",
       "members": [
         {
           "person_id": "7r6_k52_qji",
@@ -3781,6 +3781,159 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "7r6_k52_qji_ABDACAB",
           "source_assertion_id": "a-songshu093-tansheng-father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDB",
+          "representative_source_person_id": "7r6_k52_qji_ABDB",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABD",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "sibling_person_id": "7r6_k52_qji_ABDA",
+            "sibling_assertion_id": "a-jinshu076-yi-bin-brother",
+            "sibling_father_assertion_id": "a-jinshu076-wang-001",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-076",
+                "source_id": "s-jinshu-076-wangbin",
+                "chapter_id": "c-jinshu-076-wangbin",
+                "paragraph_id": "c-jinshu-076-wangbin:line046",
+                "quote": "彬字世儒。少稱雅正，弱冠，不就州郡之命。光祿大夫傅祗辟為掾。後與兄廙俱渡江，為揚州刺史劉機建武長史。元帝引為鎮東賊曹參軍，轉典兵參軍。豫討華軼功，封都亭侯，湣帝召為尚書郎，以道險不就。遷建安太守，徙義興內史，未之職，轉軍諮祭酒。",
+                "subject_person_mention_id": "c-jinshu-076-wangbin:line046:m0033",
+                "object_person_mention_id": "c-jinshu-076-wangbin:line046:m0000",
+                "assertion_id": "a-jinshu076-yi-bin-brother",
+                "scope": "same_paternal_family_source_and_sibling_context",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7076&oldid=2180533"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-076",
+                "chapter_id": "c-jinshu-076-wangyi-family",
+                "source_id": "s-jinshu-076-wangyi-family",
+                "paragraph_id": "c-jinshu-076-wangyi-family:p001",
+                "quote": "王廙，字世將，丞相導從弟，而元帝姨弟也。父正，尚書郎。廙少能屬文，多所通涉，工書畫，善音樂、射御、博弈、雜伎。辟太傅掾，轉參軍。豫迎大駕，封武陵縣侯，拜尚書郎，出為濮陽太守。元帝作鎮江左，廙棄郡過江。帝見之大悅，以為司馬。頻守廬江、鄱陽二郡。豫討周馥、杜韜，以功累增封邑，除冠軍將軍，鎮石頭，領丞相軍諮祭酒。王敦啟為甯遠將軍、荊州刺史。",
+                "assertion_id": "a-jinshu076-wang-001",
+                "scope": "same_paternal_family_source_and_sibling_context",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7076&oldid=2180533"
+              }
+            ],
+            "rationale": "原文明示同族兄弟，具名兄弟的父親另有直接原文；同父為可撤回編輯組裝，不造直接父子引句、不推同母。"
+          }
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDBA",
+          "representative_source_person_id": "7r6_k52_qji_ABDBA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDBA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDB",
+          "source_assertion_id": "a-jinshu076-pengzhi-father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDBB",
+          "representative_source_person_id": "7r6_k52_qji_ABDBB",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDBB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDB",
+          "source_assertion_id": "a-jinshu076-biaozhi-father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABFA",
+          "representative_source_person_id": "7r6_k52_qji_ABFA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABFA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABF",
+          "source_assertion_id": "a-jinshu076-leng-father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABFB",
+          "representative_source_person_id": "7r6_k52_qji_ABFB",
+          "source_person_ids": [
+            "7r6_k52_qji_ABFB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABF",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "sibling_person_id": "7r6_k52_qji_ABFA",
+            "sibling_assertion_id": "a-jinshu076-kan-leng-brother",
+            "sibling_father_assertion_id": "a-jinshu076-leng-father",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-076",
+                "source_id": "s-jinshu-076-wangleng",
+                "chapter_id": "c-jinshu-076-wangleng",
+                "paragraph_id": "c-jinshu-076-wangleng:line092",
+                "quote": "棱字文子，彬季父國子祭酒琛之子也。少曆清官。渡江，為元帝丞相從事中郎。從兄導以棱有政事，宜守大郡，乃出為豫章太守，加廣武將軍。棱知從兄敦驕傲自負，有罔上心，日夕諫諍，以為宜自抑損，推崇盟主，且群從一門，並相與服事，應務相崇高，以隆勳業。每言苦切。敦不能容，潛使人害之。",
+                "assertion_id": "a-jinshu076-kan-leng-brother",
+                "scope": "same_paternal_family_source_and_sibling_context",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7076&oldid=2180533"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-076",
+                "source_id": "s-jinshu-076-wangleng",
+                "chapter_id": "c-jinshu-076-wangleng",
+                "paragraph_id": "c-jinshu-076-wangleng:line094",
+                "quote": "弟侃，亦知名，少曆顯職，位至吳國內史。",
+                "assertion_id": "a-jinshu076-kan-leng-brother",
+                "scope": "same_paternal_family_source_and_sibling_context",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7076&oldid=2180533"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-076",
+                "source_id": "s-jinshu-076-wangleng",
+                "chapter_id": "c-jinshu-076-wangleng",
+                "paragraph_id": "c-jinshu-076-wangleng:line092",
+                "quote": "棱字文子，彬季父國子祭酒琛之子也。少曆清官。渡江，為元帝丞相從事中郎。從兄導以棱有政事，宜守大郡，乃出為豫章太守，加廣武將軍。棱知從兄敦驕傲自負，有罔上心，日夕諫諍，以為宜自抑損，推崇盟主，且群從一門，並相與服事，應務相崇高，以隆勳業。每言苦切。敦不能容，潛使人害之。",
+                "subject_person_mention_id": "c-jinshu-076-wangleng:line092:m0000",
+                "object_person_mention_id": "c-jinshu-076-wangleng:line092:m0012",
+                "assertion_id": "a-jinshu076-leng-father",
+                "scope": "same_paternal_family_source_and_sibling_context",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7076&oldid=2180533"
+              }
+            ],
+            "rationale": "原文明示同族兄弟，具名兄弟的父親另有直接原文；同父為可撤回編輯組裝，不造直接父子引句、不推同母。"
+          }
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDBBA",
+          "representative_source_person_id": "7r6_k52_qji_ABDBBA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDBBA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDBB",
+          "source_assertion_id": "a-jinshu076-yuezhi-father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDBBB",
+          "representative_source_person_id": "7r6_k52_qji_ABDBBB",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDBBB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDBB",
+          "source_assertion_id": "a-jinshu076-linzhi-father"
         }
       ]
     },
@@ -5058,6 +5211,37 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "3ea_uzt_2n2",
           "source_assertion_id": "a-jinshu032-he-empress-father"
+        }
+      ]
+    },
+    {
+      "id": "family-wang-han-ying",
+      "label": "王含、王應：本傳父子",
+      "root_person_id": "mwc_md4_l0g",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "只接同段明記的含父子；其他王氏祖先、王敦兄弟等未以本段補造，留待各傳原證。",
+      "members": [
+        {
+          "person_id": "mwc_md4_l0g",
+          "representative_source_person_id": "mwc_md4_l0g",
+          "source_person_ids": [
+            "mwc_md4_l0g"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "mwc_md4_l0g_A",
+          "representative_source_person_id": "mwc_md4_l0g_A",
+          "source_person_ids": [
+            "mwc_md4_l0g_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "mwc_md4_l0g",
+          "source_assertion_id": "a-jinshu076-wangying-father"
         }
       ]
     }

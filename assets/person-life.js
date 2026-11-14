@@ -50,7 +50,7 @@ export function summarizeLife(p) {
   for (const age of (p.age_assertions || []).filter(e => own.has(e.person_id))) {
     const date = age.normalized_date || age.normalized_date_range;
     const key = date ? JSON.stringify(facts([age.value, age.unit, age.counting, age.reporting_status,
-      age.source_number, age.source_term, age.qualified_source_term, age.bounds,
+      age.age_context?.kind ?? null, age.source_number, age.source_term, age.qualified_source_term, age.bounds,
       age.approximation, age.group_reference, age.date_expression, date])) : null;
     if (!key || !ageGroups.has(key)) {
       const row = {...age, evidence:[...(age.evidence || [])]}; ages.push(row);
