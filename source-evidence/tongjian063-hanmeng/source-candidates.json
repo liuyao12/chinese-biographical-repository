@@ -1,0 +1,71 @@
+{
+  "format_version": "0.2",
+  "record_type": "source_candidate_set",
+  "status": "unresolved_not_adopted",
+  "scope": "《資治通鑑》卷六十三建安五年官渡運糧事；僅評估「韓猛」是否與《三國志》卷十及裴松之注所記韓莫／韓猛／韓若為同一名將",
+  "candidate_person_id": "be1_073_647",
+  "candidate_surfaces": [
+    "韓猛",
+    "韓莫",
+    "韓若"
+  ],
+  "repository_context": {
+    "work_id": "w-sanguozhi",
+    "book_id": "b-sanguozhi-010",
+    "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+    "primary_event_quote": "太祖遂與紹相拒於官渡軍食方盡攸言於太祖曰紹運車旦暮至其將韓莫銳而輕敵擊可破也",
+    "primary_name_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u011:m0216",
+    "pei_commentary_quote": "臣松之案諸書韓莫或作韓猛或云韓若未詳孰是",
+    "pei_commentary_name_mention_ids": [
+      "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u012:m0006",
+      "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u012:m0010",
+      "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u012:m0014"
+    ],
+    "editorial_boundary": "裴松之明言三種名形未詳孰是；保留原文異文，不選定正字，亦不拆作三人。"
+  },
+  "source_candidates": [
+    {
+      "id": "src-candidate-tj063-wikisource-388546",
+      "source_title": "《資治通鑑》（胡三省音注）卷六十三，建安五年官渡運糧段",
+      "url": "https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91_(%E8%83%A1%E4%B8%89%E7%9C%81%E9%9F%B3%E6%B3%A8)/%E5%8D%B7063?oldid=388546",
+      "revision": "388546",
+      "direct_page_quote": "紹運車旦暮至，其將韓猛銳而輕敵，擊，可破也！",
+      "observation": "固定修訂版頁面可直接讀到建安五年段及「韓猛」；同頁胡三省注文與正文交錯。頁面沒有說明本次轉錄所依底本／刻本，尚未與該段底本影像逐字校合。",
+      "status": "candidate_text_not_adopted"
+    },
+    {
+      "id": "src-candidate-tj063-nlc-scan-411999005832-10443",
+      "source_title": "中國國家圖書館數字古籍《資治通鑑》第33冊（卷六十一至六十三）掃描",
+      "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999005832-10443_%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91_%E7%AC%AC33%E5%86%8A.pdf",
+      "catalogue_url": "https://read.nlc.cn/",
+      "catalogue_identifier": "NLC data_892,411999005832,10443；善本書號 02533",
+      "edition_description": "Commons/NLC 檔案說明著錄為刻本，十行二十字、白口、左右雙邊，並記章鈺跋；其版本年代欄為孔天胤明嘉靖年間，欄位年份順序及底本關係仍待核。",
+      "observation": "掃描卷冊對應卷六十一至六十三，可作本段逐字校核的固定圖像候選；本次未能在可讀影像中定位並核對官渡該葉及「韓」字，因此不能把掃描的字形或版本讀法記作已驗。",
+      "status": "image_witness_not_yet_collated"
+    },
+    {
+      "id": "src-candidate-tj063-ctext-62529",
+      "source_title": "Chinese Text Project《資治通鑑》卷六十三",
+      "url": "https://ctext.org/wiki.pl?chapter=62529&if=en",
+      "observation": "有可直達的卷頁，但本次讀取遭 403，無法核實頁面正文、所據版本或穩定修訂。搜尋索引文字不作來源引文。",
+      "status": "not_accessible_for_verification"
+    },
+    {
+      "id": "src-candidate-tj063-shidianguji-cadal01033487",
+      "source_title": "識典古籍《資治通鑑》卷六十三（CADAL01033487）",
+      "url": "https://www.shidianguji.com/zh/book/CADAL01033487/chapter/1lac90pegaek2",
+      "observation": "可直接讀取，正文段落含運糧事件；頁面轉錄中亦有多處明顯異字／缺字（例如徐晃作涂晃、姓名與語句訛缺），本身不足以單獨核定目標人名或底本。",
+      "status": "accessible_but_transcription_not_sufficient"
+    }
+  ],
+  "identity_assessment": {
+    "status": "unresolved_not_adopted",
+    "candidate_same_person_id": "be1_073_647",
+    "positive_context": "《三國志》卷十與固定《資治通鑑》轉錄均置名於袁紹軍向曹操官渡軍輸送糧運、荀攸建議邀擊的敘事；事件及角色高度相合。",
+    "limitation": "《三國志》正文寫韓莫，裴注列韓莫、韓猛、韓若並稱未詳孰是；《通鑑》固定轉錄寫韓猛。未核對固定刻本影像前，不以《通鑑》轉錄替代裴注的異文判斷，也暫不新增跨篇 identity decision、人物mention或profile資料。",
+    "next_step": "定位並核讀NLC掃描卷六十三官渡段的原葉；記錄葉碼／頁碼及韓字字形，與固定Wikisource修訂、現有《三國志》底本文字及裴注分層對讀。"
+  },
+  "reviewer": "Codex（AI 代理）",
+  "human_reviewed": false,
+  "model": null
+}
