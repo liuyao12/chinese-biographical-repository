@@ -1457,6 +1457,55 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "d-shiji117-wuquan-commentary",
+      "person_id": "kbk_vt7_dd9",
+      "surfaces": [
+        "偓佺"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-117-xiangru"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "ancient_commentary_explicit_identification",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m016-0110"
+        ],
+        "historical_event_attendance_not_inferred": true
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p016",
+          "quote": "偓佺之倫暴於南榮",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m016-0110"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記集解》卷117引《漢書音義》釋偓佺",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_117.txt#L237",
+          "quote": "(人名/也)偓佺之倫暴於南榮(漢書音義曰偓/佺僊人名也)醴泉涌於清¶\n室通川過乎中庭槃石祳崖(徐廣曰/祳音脣)嶔巖倚傾嵳峩磼¶\n礏(徐廣曰峩一作池磼/音雜礏音五合反)刻削峥嶸玟瑰碧琳珊瑚叢生¶",
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "ccded97eee2542083010172d857d6251a09a126c",
+          "verified_extent": {
+            "start_line": 237,
+            "end_line": 239
+          },
+          "scope": "ancient_commentary_identification",
+          "image_verified": false
+        }
+      ],
+      "rationale": "《漢書音義》明言偓佺為仙人名；正文「之倫」表偓佺同類。據此標為傳說人物提及，但本句是賦中仙境景象，不推作歷史到場、交遊、年代或親屬證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

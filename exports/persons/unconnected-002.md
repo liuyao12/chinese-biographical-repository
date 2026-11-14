@@ -1774,6 +1774,7 @@
 | `kb2_0cv_msr` | 左右閣都尉未名 | [《史記・扁鵲倉公列傳》][174] | [JSON](kb2_0cv_msr.json) |
 | `kbh_40s_1r6` | 周最（賈生引文） | [《史記・秦始皇本紀》][93] | [JSON](kbh_40s_1r6.json) |
 | `kbh_vr3_os9` | 曹無傷 | [《史記・項羽本紀》][94]、[《史記・高祖本紀》][95] | [JSON](kbh_vr3_os9.json) |
+| `kbk_vt7_dd9` | 偓佺 | [《史記・司馬相如列傳》][186] | [JSON](kbk_vt7_dd9.json) |
 | `kbs_cao_fni` | 劉瑱〔謝𤅢觴酌友〕 | [《南齊書・江斆 何昌㝢 謝𤅢 王思遠》][69] | [JSON](kbs_cao_fni.json) |
 | `kc7_mmj_m5g` | 文盧 | [《晉書・叛臣一》][59] | [JSON](kc7_mmj_m5g.json) |
 | `kc7_t2s_yot` | 倶酒（晉靜公） | [《史記・晉世家》][108] | [JSON](kc7_t2s_yot.json) |
@@ -2094,7 +2095,6 @@
 | `mdk_l9p_342` | 桑距 | [《史記・五宗世家》][128] | [JSON](mdk_l9p_342.json) |
 | `me7_83c_74z` | 樓煩（本卷稱呼） | [《史記・項羽本紀》][94] | [JSON](me7_83c_74z.json) |
 | `mes_rgf_o7u` | 趙毗 | [《晉書・桓彝》][44] | [JSON](mes_rgf_o7u.json) |
-| `mev_r3x_fuu` | 欒書 | [《史記・鄭世家》][111] | [JSON](mev_r3x_fuu.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
