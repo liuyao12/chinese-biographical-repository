@@ -1688,7 +1688,12 @@ def _validate_uncached(root=ROOT):
                         from scripts.sanguozhi010_guzi import valid as sanguozhi010_guzi_valid
                     except ImportError:
                         from sanguozhi010_guzi import valid as sanguozhi010_guzi_valid
-                    check(sanguozhi010_guzi_valid(a, paragraphs), '卷十姑子關係須綁定魏書引文層、具名雙端及未知姑母')
+                    try:
+                        from scripts.shiji120_jian_sima_an import valid as shiji120_jian_sima_an_valid
+                    except ImportError:
+                        from shiji120_jian_sima_an import valid as shiji120_jian_sima_an_valid
+                    check(sanguozhi010_guzi_valid(a, paragraphs) or shiji120_jian_sima_an_valid(a, paragraphs),
+                          '父系姑母之子關係須綁定已核定的固定篇章、原句、具名雙端及未知姑母')
                 # fixed-wyd045-relations: full finite source roles, not membership exemption.
                 try:from scripts.wyd_song045_roles import relation_applies as wyd045_applies, relation_valid as wyd045_valid
                 except ImportError:from wyd_song045_roles import relation_applies as wyd045_applies, relation_valid as wyd045_valid

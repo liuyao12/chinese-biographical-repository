@@ -38,7 +38,39 @@
       "傅柏保存柏字；賁育按漢書同句顏注分接孟賁、夏育，正文原稱不改。第三段太后按武安侯田蚡同母姊及武帝母為王太后辨識；少主仍為假設輔政稱呼。",
       "第6段上不能與第11段后來者居上為普通詞；第8段姊據衛青本傳家事接衛后，姊妹主客方向已正，原年序與異說分存。第12段欲斬長安令為提議，不作死亡。",
       "姑姊子保留原文歧義；其先鄭君不推定為父親或指定世距。莊為太史與脫張羽於緦按底本保留。第21段屬附錄索隱述贊。",
-      "汲偃按子汲偃接汲黯家族根，分支字母不表示排行。汲仁與司馬安相關家系待核共同父親及姑姊子詮釋；未據諸侯相秩造另一實任官。官爵尚未逐項校定公元任期。"
+      "汲偃按子汲偃接汲黯家族根，分支字母不表示排行。汲仁與司馬安相關家系待核共同父親及姑姊子詮釋；未據諸侯相秩造另一實任官。官爵尚未逐項校定公元任期。",
+      "p006「先帝」按武帝在位時序暫指孝景帝；「斑皇帝」原樣保留，平行《漢書》數位頁顯示「高皇帝」但直接頁面目前無法讀取，故高祖指涉與字形差異均標作暫判，未改正文、未核書影。",
+      "p014「姑姊子」按本篇及《兩漢刊誤補遺》卷六所釋暫記汲黯父系姑母之子；《漢書》卷50作「姊子」，兩書原詞分存，未補姑母或父親，也不將姑表支接成汲氏父系男系。p015「其先鄭君」只存世代未詳的祖先關係，不推直接父子或世數。"
+    ],
+    "transcription_discrepancies": [
+      {
+        "id": "td-shiji120-p006-ban-gao-emperor",
+        "paragraph_id": "c-shiji-120-jizheng:p006",
+        "kind": "possible_digital_transcription_error_in_person_title",
+        "status": "awaiting_received_text_witness_collation",
+        "received_witness": {
+          "source_id": "s-shiji120-jizheng",
+          "revision_id": 9166127,
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+          "paragraph_text_sha256": "5b8f0bd4de0399d87ec3c9624fa18dbbaa1bf0a6b32bd2eeeabb1e3935e785ff",
+          "quote": "何乃取斑皇帝約束紛更之為？"
+        },
+        "comparison_readings": [
+          {
+            "source_type": "parallel_work_digital_text_search_excerpt",
+            "title": "中國哲學書電子化計劃《漢書》相似段落",
+            "provider": "中國哲學書電子化計劃",
+            "url": "https://ctext.org/text.pl?if=gb&node=65933&show=parallel",
+            "accessed_on": "2026-11-14",
+            "quote": "何空取高皇帝約束紛更之為？",
+            "note": "檢索結果所示《漢書》平行語句作「高皇帝」，直連頁面本次回應HTTP 403，未能直接核讀全文；因此僅作未核的平行文本線索，不冒稱已驗武英殿底本文字。",
+            "edition_note": "該頁標示所屬《漢書》數位文本；本次未直接讀到其底本說明或原頁。",
+            "image_verified": false
+          }
+        ],
+        "editorial_action": "固定收到文本「斑皇帝」保留不改。僅將其「皇帝」提及暫接高祖，據平行文本所見「高皇帝」作中等信度語境判讀；待可直接核對所選數位底本或影像後再決。",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
@@ -768,18 +800,18 @@
           "start": 33,
           "end": 35,
           "surface": "先帝",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-120-jizheng:m006-0080",
           "start": 80,
           "end": 82,
           "surface": "皇帝",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-120-jizheng:m006-0097",
