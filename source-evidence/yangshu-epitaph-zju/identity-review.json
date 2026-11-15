@@ -45,14 +45,58 @@
     },
     {
       "key": "father",
-      "person_id": "8n1_se6_hap",
-      "status": "unresolved_cross_source_identity",
-      "selection": "independent_source_identity",
+      "person_id": "fum_370_iq6_AAB",
+      "status": "contextual_provisional",
+      "selection": "preferred_same_person",
       "candidates": [
-        "魏058懿：洛州刺史、贈弘農公、諡簡",
-        "魏058楊鈞祖暉：洛州刺史、贈弘農公、諡簡"
+        "fum_370_iq6_AAA：懿〔楊播父〕（高可信首選）",
+        "7hw_8jq_c1e：楊暉〔鈞祖，弘農簡公原記〕（降權，非合併）"
       ],
-      "qualification": "同卷競爭官諡，不能硬合；本碑父不補名；facts入口只接碑內父簡公明文父子與第六子6，不將父綁懿/暉。"
+      "qualification": "高可信、可撤回的跨來源身份判讀；楊舒墓誌不具名其父，也不把本誌父身份改作來源明名。推定建立在祖父二郡府君→楊真及楊範墓誌所見仲真—懿譜系兩條上下文連結之上；懿與暉雖官諡相同，魏書明分其支系，故保留暉為獨立人物。墓誌資料見證仍為浙大數位錄文；簡報所刊拓片未目視，image_verified=false。",
+      "confidence_level": "high",
+      "preferred_person_id": "fum_370_iq6_AAA",
+      "evidence": [
+        "墓誌僅稱父為「洛州刺史恒農簡公」，未具名；並稱舒為「河內清河二郡府君」之孫，兩錨仍是墓誌直接記載。",
+        "《魏書》卷五十八楊播傳明載播之祖真為河內、清河二郡太守、父懿曾除洛州刺史而未任、卒後贈弘農公諡簡；與碑中祖父稱謂及父親官諡相合。",
+        "楊範墓誌所見曾祖仲真、祖懿「洛州史君、弘農簡公」提供另一份楊氏誌石譜系比對。此處經典藏目錄和近現代著錄/研究引錄；拓片未目視，image_verified=false。"
+      ],
+      "comparison": {
+        "preferred_candidate": {
+          "person_id": "fum_370_iq6_AAA",
+          "label": "懿〔楊播父〕",
+          "assessment": "高可信首選；由祖父二郡府君與相鄰譜系、明載洛州刺史／弘農公／簡諡、以及楊範墓誌所見懿之世系合讀。"
+        },
+        "alternatives": [
+          {
+            "person_id": "7hw_8jq_c1e",
+            "label": "楊暉〔鈞祖，弘農簡公原記〕",
+            "assessment": "官稱、贈爵、諡號與懿相同，是實質競爭項；但《魏書》卷五十八把暉置於「播族弟鈞」支，原文直稱暉為鈞之祖、恩為鈞之父。楊範墓誌所引譜系則稱曾祖仲真、祖懿；研究者據楊範、楊肩等誌與《魏書》校正懿、暉不同支。楊舒誌的祖父「河內清河二郡府君」與《魏書》所載楊真相合，故不應僅憑同官諡把舒父指為暉。維持兩 ID 分立。"
+          }
+        ],
+        "independent_epitaph_corroboration": {
+          "title": "楊範墓誌",
+          "repository": "國立故宮博物院數位典藏",
+          "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/33676?dep=P",
+          "reported_quote": "曾祖父諱仲真，河內、清河府君……祖父諱懿，洛州史君、弘農簡公……父諱穎。",
+          "qualification": "目前以故宮典藏目錄與近現代刊本／論文所引拓文核對，未親自目視該件拓片；本次一律 image_verified=false。"
+        },
+        "scholarship": [
+          {
+            "title": "〈隋代華陰楊氏考述——以墓誌銘為中心〉",
+            "authors": "王慶衛、王煊",
+            "publication": "《碑林集刊》第十一輯，2005",
+            "url": "https://lishiwenhua.snnu.edu.cn/huayin/uploadfile/2017/1018/20171018042605971.pdf",
+            "use": "參考其楊範墓誌引文及楊氏世系比對；學者判斷只作身份比較依據，不取代原始來源。"
+          },
+          {
+            "title": "〈論北魏楊播、楊鈞家族祖先譜系的構建——兼及隋唐弘農楊氏相關問題〉",
+            "authors": "郭偉濤",
+            "publication": "2017年刊文，篇名及刊載頁面待補完整期刊書目",
+            "url": "https://m.fx361.com/news/2017/0503/16177374.html",
+            "use": "列為後續覆核楊播、楊鈞祖先譜系問題的現代參考；不把摘要或二手轉載當作墓誌原文。"
+          }
+        ]
+      }
     },
     {
       "key": "shizong",
@@ -76,7 +120,7 @@
   "new_source_identities": [
     {
       "key": "father",
-      "person_id": "8n1_se6_hap",
+      "person_id": "fum_370_iq6_AAB",
       "reason": "碑內具體來源身份，未按同名硬合。"
     },
     {
@@ -148,7 +192,7 @@
       "father_with_son_ordinal_6",
       "paternal_grandfather_distance_2"
     ],
-    "identity_qualification": "祖府君首選真屬官稱對讀的contextual身份；原文明祖孫，不是原文寫祖名真。父簡公維持獨立未名身份。",
+    "identity_qualification": "墓誌明載楊舒為河內清河二郡府君之孫、洛州刺史恒農簡公之第六子；祖父身份首選楊真，父身份高可信但可撤回地推定為懿。父名不見墓誌原文，僅由魏書卷58與楊範墓誌譜系合讀；不升為source_explicit。",
     "no_inferred_father_to_grandfather_edge": true,
     "no_remote_ancestor_assembly": true
   },
