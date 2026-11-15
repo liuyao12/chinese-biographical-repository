@@ -50,9 +50,38 @@ def _resumed_child_elder_uncle(p, subjects, objects, term):
     return False
 
 
+
+def _named_nephew_from_older_uncle(p, subjects, objects, term):
+    """Bind only the explicit pattern 彬及兄子(title)籍之; never infer the nephew's father."""
+    if term != '兄子':
+        return False
+    t = p['text']
+    for obj in objects:
+        for subject in subjects:
+            if subject['start'] <= obj['end']:
+                continue
+            role_start = obj['end'] + 1
+            role_end = role_start + len('兄子')
+            if t[obj['end']:role_start] != '及' or t[role_start:role_end] != '兄子':
+                continue
+            title = t[role_end:subject['start']]
+            if not re.fullmatch(r'[\u3400-\u9fff]{0,12}', title):
+                continue
+            if any(c in title for c in '，。；：、！？「」『』'):
+                continue
+            if any(m.get('kind') == 'person'
+                   and m.get('id') not in (obj.get('id'), subject.get('id'))
+                   and obj['end'] <= m.get('start', -1) < subject['start']
+                   for m in p.get('mentions', [])):
+                continue
+            return True
+    return False
+
 def _direction(p, subjects, objects, term):
     t = p['text']
     if _resumed_child_elder_uncle(p, subjects, objects, term):
+        return True
+    if _named_nephew_from_older_uncle(p, subjects, objects, term):
         return True
     # A paragraph resumes its named subject, gives descriptive clauses, then
     # directly coordinates 與叔父某. No other marked person or quoted speech
