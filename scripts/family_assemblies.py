@@ -68,7 +68,14 @@ def load_assemblies(root, catalog):
                 if parent is not None or ancestor not in rows or ancestor == pid:
                     raise ValueError('缺代組裝祖先或父親欄位無效')
                 connection = member.get('ancestor_connection')
-                if isinstance(connection, dict) and connection.get('type') == 'wyd_song044_paternal_nephew_to_uncle_father':
+                if isinstance(connection, dict) and connection.get('type') == 'jinshu076_paternal_nephew_to_uncle_grandfather':
+                    try:
+                        from scripts.jinshu076_nephew_assembly import ancestor_valid as jinshu076_nephew_ancestor_valid
+                    except ImportError:
+                        from jinshu076_nephew_assembly import ancestor_valid as jinshu076_nephew_ancestor_valid
+                    if not jinshu076_nephew_ancestor_valid(member, rows, assertions, chapters):
+                        raise ValueError('晉書076兄子缺父祖連須有叔姪、叔父家系與未名父代證據')
+                elif isinstance(connection, dict) and connection.get('type') == 'wyd_song044_paternal_nephew_to_uncle_father':
                     try:
                         from scripts.wyd_song044_nephew import ancestor_valid as wyd_nephew_ancestor_valid
                     except ImportError:

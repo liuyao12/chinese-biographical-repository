@@ -1008,7 +1008,7 @@
 
 </details>
 
-<details><summary><code>7r6_k52_qji</code> 王仁（102 名）</summary>
+<details><summary><code>7r6_k52_qji</code> 王仁（103 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -1081,6 +1081,7 @@
 | `ABB` | 王基 | [《晉書・王祥 鄭沖 何曾 石苞》][26] | [JSON](7r6_k52_qji_ABB.json) |
 | `ABC` | 王會 | [《晉書・王祥 鄭沖 何曾 石苞》][26] | [JSON](7r6_k52_qji_ABC.json) |
 | `ABD` | 王正 | [《晉書・王祥 鄭沖 何曾 石苞》][26] | [JSON](7r6_k52_qji_ABD.json) |
+| `ABD*A` | 王籍之 | [《晉書・王舒 王廙 虞潭 顧眾 張闓》][49] | [JSON](7r6_k52_qji_ABD*A.json) |
 | `ABDA` | 王廙 | [《晉書・王舒 王廙 虞潭 顧眾 張闓》][51] | [JSON](7r6_k52_qji_ABDA.json) |
 | `ABDAA` | 王頤之 | [《晉書・王舒 王廙 虞潭 顧眾 張闓》][51] | [JSON](7r6_k52_qji_ABDAA.json) |
 | `ABDAB` | 王胡之 | [《晉書・王舒 王廙 虞潭 顧眾 張闓》][51] | [JSON](7r6_k52_qji_ABDAB.json) |
