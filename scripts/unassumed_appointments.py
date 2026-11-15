@@ -56,9 +56,9 @@ def unassumed_appointment_valid(proposal, chapter):
     appointment, refusal = proposal.get('appointment_anchor'), proposal.get('non_assumption_anchor')
     if not anchor(appointment) or not anchor(refusal):
         return False
-    verbs = ['引為','引爲','召為','召爲','徙','遷','尋加','轉','除','改除','加','以為','征補','徵','徴','徵為','徵爲','命為','命爲','請為','請爲','補','辟','復除','又除','出為','出爲',
+    verbs = ['進號','引為','引爲','召為','召爲','徙','遷','尋加','轉','除','改除','加','以為','征補','徵','徴','徵為','徵爲','命為','命爲','請為','請爲','補','辟','復除','又除','出為','出爲',
              '以'+person['surface']+'為','以'+person['surface']+'爲']
-    terms = {'declined':['以疾固辭，未行而卒','苦讓，遂不受','讓不拜','固讓不拜','固讓'],
+    terms = {'declined':['固辭開府','以疾固辭，未行而卒','苦讓，遂不受','讓不拜','固讓不拜','固讓'],
              'did_not_take_up':['並不行','未之職','不拜','皆不就','不就','並不就','竝不就','竝不拜','未拜','終以不拜','竟不拜','又不就']}
     stage = proposal.get('appointment_stage')
     invitation = appointment['surface'] in ('請為', '請爲')
@@ -73,6 +73,8 @@ def unassumed_appointment_valid(proposal, chapter):
             or (not carried and person['end'] > role['start'])
             or (appointment['end'] > role['start'] and not postposed_summons)
             or role['end'] > refusal['start']):
+        return False
+    if refusal['surface'] == '固辭開府' and role['surface'] not in ('開府', '開府儀同三司'):
         return False
     if refusal['surface'] == '不拜' and refusal['start'] > 0 and p['text'][refusal['start']-1] == '讓':
         return False

@@ -3,6 +3,10 @@
 import argparse
 import json
 from pathlib import Path
+try:
+    from .identity_alternatives import identity_participant_ids
+except ImportError:
+    from identity_alternatives import identity_participant_ids
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -319,7 +323,9 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         elif kind == 'person_name_component_set':
             name_components.extend(n for n in record['records'] if n['person_id'] in ids)
         elif 'decisions' in record and kind not in ('person_equivalence_set', 'family_tree_decision_set'):
-            identities.extend(d for d in record['decisions'] if d.get('person_id') in ids)
+            identities.extend(d for d in record['decisions'] if d.get('person_id') in ids
+                              or (kind == 'person_identity_decision_set'
+                                  and ids.intersection(identity_participant_ids(d))))
     distinctions = []
     for record in records:
         if record.get('record_type') != 'person_distinction_set':
@@ -676,6 +682,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     neighbor_ids = ids | {a[k] for a in relations for k in ('subject_person_id', 'object_person_id')}
     neighbor_ids.update(p for decision in tree_decisions for p in decision['participant_person_ids'])
     neighbor_ids.update(p for decision in distinctions for p in decision['person_ids'])
+    neighbor_ids.update(p for decision in identities if 'alternatives' in decision
+                        for p in identity_participant_ids(decision))
     neighbor_ids.update(p for case in unresolved_cases for p in case['candidate_person_ids'])
     neighbor_ids.update(p for case in referent_cases for a in case['alternatives'] for p in a['candidate_person_ids'])
     neighbor_ids.update(p for case in kinship_cases for p in (case['subject_person_id'], case['object_person_id']))

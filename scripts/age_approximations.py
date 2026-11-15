@@ -10,7 +10,7 @@ def age_approximation_errors(age, paragraph):
     target = (DIGITS.index(number[0]) + 1) * 10 if isinstance(number, str) and len(number) == 2 and number[0] in DIGITS and number[1] == '十' else None
     if (target is None or age.get('approximation') != {'kind': 'approaching_age', 'target': target}
             or age.get('value') is not None or 'bounds' in age or 'source_number_bounds' in age
-            or age.get('source_term') != '年向' + number
+            or age.get('source_term') not in ('年向' + number, '年垂' + number)
             or age.get('reporting_status') != 'approximate_report'
             or age.get('birth_year') is not None or age.get('unit') != 'source_age_years'
             or age.get('counting') != 'unspecified_source_age' or age.get('status') != 'source_attested'):
@@ -20,6 +20,30 @@ def age_approximation_errors(age, paragraph):
             or interpretation.get('human_reviewed') is not False
             or not interpretation.get('reviewer') or not interpretation.get('rationale')):
         return ['年向報齡缺少分存的編者判讀']
+    if age.get('source_term') == '年垂' + number:
+        scope = age.get('subject_scope', {})
+        if not isinstance(scope, dict):
+            return ['年垂報齡缺具名主語範圍']
+        text = paragraph['text']
+        named = {m['id']: m for m in paragraph.get('mentions', []) if m.get('kind') == 'person'}
+        subject = named.get(scope.get('subject_person_mention_id'), {})
+        if (set(scope) != {'kind', 'subject_person_mention_id'}
+                or scope.get('kind') != 'named_subject_in_biography' or 'speaker_scope' in age
+                or paragraph.get('text_layer') != 'received_chapter'
+                or text.count(age['source_term']) != 1
+                or subject.get('person_id') != age.get('person_id')):
+            return ['年垂報齡須連到本段具名敘述主語，不得當奏表自報']
+        at = text.index(age['source_term'])
+        before = [m for m in named.values() if m['end'] <= at]
+        if (not before or subject.get('end', len(text) + 1) > at
+                or max(before, key=lambda m: m['end'])['person_id'] != age['person_id']):
+            return ['年垂報齡主語須與報齡前最近具名人物相合']
+        evidence = age.get('evidence')
+        if (not isinstance(evidence, list) or not evidence
+                or any(not isinstance(e, dict) or e.get('paragraph_id') != paragraph['id'] or e.get('quote') != text
+                       or e.get('person_mention_id') != subject['id'] for e in evidence)):
+            return ['年垂報齡須保存完整原段及本人錨點']
+        return []
     scope = age.get('speaker_scope', {})
     ms = {m['id']: m for m in paragraph.get('mentions', [])}
     speaker = ms.get(scope.get('speaker_person_mention_id'), {})

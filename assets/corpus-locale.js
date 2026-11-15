@@ -1,6 +1,8 @@
 export default {
   'Source wording: {text}': '原文：{text}',
   'Caregiver': '撫養人',
+  'Mother (birth unspecified)': '母（未明生育）',
+  'Prior mother (source wording)': '前母（原稱）',
   'Divorced (source-attested)': '離婚（據原文）',
   'Adoptive father (source-attested chuji)': '出繼父',
   'Adopted children (source-attested chuji)': '出繼子女',
