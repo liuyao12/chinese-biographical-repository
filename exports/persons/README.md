@@ -237,7 +237,7 @@
 
 </details>
 
-<details><summary><code>1l4_2pq_e7w</code> 熊通（楚武王候選）（3 名）</summary>
+<details><summary><code>1l4_2pq_e7w</code> 熊通（楚武王）（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
