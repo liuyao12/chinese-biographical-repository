@@ -148,9 +148,45 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-jinshu099-yin-zhongwen-younger-brother-shuwen",
+      "subject_person_id": "woq_srv_b9s",
+      "predicate": "brother",
+      "object_person_id": "jel_xae_qmj",
+      "qualifiers": {
+        "source_term": "其弟南蠻校尉叔文",
+        "relative_birth_order": {
+          "older_person_id": "jel_xae_qmj",
+          "younger_person_id": "woq_srv_b9s",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-099",
+          "source_id": "s-jinshu-099-yinzhongwen-ws2644703",
+          "chapter_id": "c-jinshu-099-yinzhongwen",
+          "paragraph_id": "c-jinshu-099-yinzhongwen:p004",
+          "quote": "仲文因月朔與眾至大司馬府，府中有老槐樹，顧之良久而歎曰：「此樹婆娑，無復生意！」仲文素有名望，自謂必當朝政，又謝混之徒疇昔所輕者，並皆比肩，常怏怏不得志。忽遷為東陽太守，意彌不平。劉毅愛才好士，深相禮接，臨當之郡，遊宴彌日。行至富陽，慨然歎曰：「看此山川形勢，當復出一伯符。」何無忌甚慕之。東陽，無忌所統，仲文許當便道修謁，無忌故益飲遲之，令府中命文人殷闡、孔寧子之徒撰義構文，以俟其至。仲文失志恍惚，遂不過府。無忌疑其薄己，大怒，思中傷之。時屬慕容超南侵，無忌言于劉裕曰：「桓胤、殷仲文並乃腹心之疾，北虜不足為憂。」義熙三年，又以仲文與駱球等謀反，及其弟南蠻校尉叔文伏誅。仲文時照鏡不見其面，數日而遇禍。",
+          "subject_person_mention_id": "c-jinshu-099-yinzhongwen:p004:m0282",
+          "object_person_mention_id": "c-jinshu-099-yinzhongwen:p004:m0266"
+        }
+      ],
+      "interpretation_note": "原文稱叔文為仲文弟，記仲文年序較前；不推同母或絕對排行。"
+    }
+  ],
   "related_people": {
-    "woq_srv_b9s": "殷叔文"
+    "woq_srv_b9s": "殷叔文",
+    "jel_xae_qmj": "殷仲文"
   },
   "dates": [],
   "name_components": [],
