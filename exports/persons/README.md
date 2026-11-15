@@ -1459,7 +1459,7 @@
 
 </details>
 
-<details><summary><code>aa6_83c_juy</code> 謝裒（47 名）</summary>
+<details><summary><code>aa6_83c_juy</code> 謝裒（48 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -1508,6 +1508,7 @@
 | `DBABAC` | 謝𤅢〔字義潔〕 | [《南齊書・江斆 何昌㝢 謝𤅢 王思遠》][69] | [JSON](aa6_83c_juy_DBABAC.json) |
 | `DBABAD` | 顥〔謝𤅢兄，字仁悠〕 | [《南齊書・江斆 何昌㝢 謝𤅢 王思遠》][69] | [JSON](aa6_83c_juy_DBABAD.json) |
 | `DBABAE` | 嵷〔謝𤅢兄〕 | [《南齊書・江斆 何昌㝢 謝𤅢 王思遠》][69] | [JSON](aa6_83c_juy_DBABAE.json) |
+| `DBB` | 謝恩 | [《晉書・謝尚 謝安》][53] | [JSON](aa6_83c_juy_DBB.json) |
 | `E` | 謝石 | [《晉書・謝尚 謝安》][53] | [JSON](aa6_83c_juy_E.json) |
 | `EA` | 謝汪 | [《晉書・謝尚 謝安》][53] | [JSON](aa6_83c_juy_EA.json) |
 
