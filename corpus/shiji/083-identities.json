@@ -1704,7 +1704,7 @@
     },
     {
       "id": "d-shiji083-074",
-      "person_id": "p06_lrs_tg7",
+      "person_id": "fom_gr9_c8v",
       "scope": "same_chapter",
       "chapter_ids": [
         "c-shiji-083-luzou"
@@ -2026,6 +2026,68 @@
         }
       ],
       "prior_same_chapter_rationale": "按末段引古與太史公論分層保留原稱；伊管短稱未補姓名。墨子與前文墨翟於同一上書暫接，周文王與前文文王暫接。"
+    },
+    {
+      "id": "d-shiji083-sun-shu-ao-cross-chapter",
+      "person_id": "fom_gr9_c8v",
+      "surfaces": [
+        "孫叔敖"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-119-xunli",
+        "c-shiji-126-huaji"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-083-luzou:m021-0050",
+          "c-shiji-119-xunli:m002-0000",
+          "c-shiji-126-huaji:m007-0002"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-083",
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p021",
+          "quote": "是以孫叔敖三去相而不悔",
+          "mention_ids": [
+            "c-shiji-083-luzou:m021-0050"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-119",
+          "chapter_id": "c-shiji-119-xunli",
+          "source_id": "s-shiji119-xunli",
+          "paragraph_id": "c-shiji-119-xunli:p002",
+          "quote": "孫叔敖者，楚之處士也。虞丘相進之於楚莊王，以自代也。三月爲楚相",
+          "mention_ids": [
+            "c-shiji-119-xunli:m002-0000"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-126",
+          "chapter_id": "c-shiji-126-huaji",
+          "source_id": "s-shiji126-huaji",
+          "paragraph_id": "c-shiji-126-huaji:p007",
+          "quote": "楚相孫叔敖知其賢人也，善待之",
+          "mention_ids": [
+            "c-shiji-126-huaji:m007-0002"
+          ]
+        }
+      ],
+      "rationale": "卷八十三鄒陽上書以「孫叔敖三去相而不悔」引述此人；卷一一九明稱孫叔敖為楚人，記虞丘相薦於楚莊王並授楚相；卷一二六又以「楚相孫叔敖」敘其子與優孟故事。三處全名一致，且「三去相」與另兩篇楚相事跡相合；沿用在卷一一九、一二六已有多處來源錨及父子關係的現役ID `fom_gr9_c8v`。此為同一《史記》中的人物接合，不把同書重述當獨立史實見證；歷史敘事的真實性及官職細節另依各篇來源保留。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

@@ -397,7 +397,6 @@
 | `ozs_uc6_hp2` | 蔡猛 | [《宋書・宗室》][212] | [JSON](ozs_uc6_hp2.json) |
 | `p00_7fd_aoy` | 正考父 | [《史記・孔子世家》][116] | [JSON](p00_7fd_aoy.json) |
 | `p06_4l2_vmx` | 綽〔髙允孫〕 | [《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](p06_4l2_vmx.json) |
-| `p06_lrs_tg7` | 孫叔敖引古 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](p06_lrs_tg7.json) |
 | `p0o_71d_xqs` | 麋嶷 | [《晉書・外戚》][56] | [JSON](p0o_71d_xqs.json) |
 | `p0q_m9t_btu` | 舜後母 | [《史記・五帝本紀》][88] | [JSON](p0q_m9t_btu.json) |
 | `p0r_yzz_wnx` | 劉宣明〔瀛州民〕 | [《魏書・楊播》][235] | [JSON](p0r_yzz_wnx.json) |
