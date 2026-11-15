@@ -522,6 +522,21 @@
       "access_scope": "詳目明載刊年1739年（乾隆四年）、木板本、100卷24冊、刊記「乾隆四年(1739)校刊」及韓國學中央研究院藏；頁面提供001–024冊MF-PDF入口。未核卷89所在冊葉，未逐葉驗讀影像。",
       "human_reviewed": false,
       "source_kind": "institution_catalogue"
+    },
+    "r-shiji-npm-wuyingdian-catalog": {
+      "title": "國立故宮博物院善本古籍典藏目錄：《史記》故殿006781–006806",
+      "url": "https://catalog.digitalarchives.tw/item/00/12/7c/04.html",
+      "access_scope": "已讀官方數位典藏聯合目錄完整書目欄位：版本、出版年、出版者、冊數與來源機構；未開故宮原始影像。",
+      "human_reviewed": false,
+      "source_kind": "official_museum_catalogue",
+      "quote": "版本:清乾隆四年武英殿刊本；出版年:清乾隆四年；總冊數:二十六冊"
+    },
+    "r-ctext-shiji-wuyingdian-base-lead": {
+      "title": "中國哲學書電子化計劃《史記》數位底本說明",
+      "url": "https://ctext.org/shiji/zhs",
+      "access_scope": "嘗試讀取官方頁，直接請求回應403；搜尋索引顯示《武英殿二十四史》本《史記》，但未取得頁面正文或卷一一七文本。僅記底本線索，不當作已核轉錄或影像。",
+      "human_reviewed": false,
+      "source_kind": "official_digital_edition_base_lead"
     }
   },
   "editions": {
@@ -862,6 +877,29 @@
       },
       "catalogued_colophon": "乾隆四年(1739)校刊",
       "holding_institution": "韓國學中央研究院藏書閣"
+    },
+    "edition-shiji-wuyingdian-1739": {
+      "id": "edition-shiji-wuyingdian-1739",
+      "work_id": "w-shiji",
+      "label": "清乾隆四年（1739）武英殿刊《史記》",
+      "extent": "not_established",
+      "date": {
+        "calendar": "common_era_year",
+        "year_numbering": "historical_no_year_zero",
+        "start_year": 1739,
+        "end_year": 1739,
+        "precision": "year"
+      },
+      "period_label": "乾隆四年（1739）",
+      "reference_ids": [
+        "r-shiji-npm-wuyingdian-catalog"
+      ],
+      "qualification": "故宮官方目錄著錄為清乾隆四年武英殿刊本，列二十六冊；Ctext另將其數位《史記》底本標作武英殿本，但該頁本次無法直接讀取。此為明確版本見證，不代表目前CBR卷117維基文庫轉錄出自此本，也不據此宣稱它是最早現存版本。",
+      "image_verified": false,
+      "catalogued_extent": {
+        "bound_volumes": 26
+      },
+      "holding_institution": "國立故宮博物院"
     }
   },
   "works": {
@@ -205330,11 +205368,13 @@
     "s-shiji117-xiangru": {
       "source_id": "s-shiji117-xiangru",
       "work_id": "w-shiji",
-      "status": "not_researched",
+      "status": "unknown",
       "edition_id": null,
       "earliest_extant_basis_edition_id": null,
-      "reference_ids": [],
-      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+      "reference_ids": [
+        "r-ctext-shiji-wuyingdian-base-lead"
+      ],
+      "note": "本卷目前固定正文來源為維基文庫修訂10371549；該頁未標明所據刊本。Ctext所列武英殿本是其自身數位版底本線索，不能據此推定本CBR維基文庫轉錄亦出自武英殿本。待取得可讀的本卷底本文字或影像後再建立版本關係。"
     },
     "s-shiji118-huainan": {
       "source_id": "s-shiji118-huainan",
