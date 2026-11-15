@@ -1329,6 +1329,122 @@
         "human_reviewed": false,
         "model": null
       }
+    ],
+    "source_assertion_comparisons": [
+      {
+        "id": "cmp-nanqishu046-nanshi021-sengyou-jian-kinship",
+        "dimensions": [
+          "kinship_term",
+          "relative_direction"
+        ],
+        "status": "editorial_preferred",
+        "preferred_claim_id": "a-nanqishu046-sengyou-agnatic-cousin-jian",
+        "claims": [
+          {
+            "id": "a-nanqishu046-sengyou-agnatic-cousin-jian",
+            "claim_kind": "native_assertion",
+            "assertion_id": "a-nanqishu046-sengyou-agnatic-cousin-jian",
+            "predicate": "agnatic_cousin",
+            "subject_person_id": "p93_tgr_t8r_A",
+            "object_person_id": "7r6_k52_qji_ABAAAAEAA",
+            "source_term": "從祖兄",
+            "relative_direction": {
+              "older_person_id": "p93_tgr_t8r_A",
+              "younger_person_id": "7r6_k52_qji_ABAAAAEAA"
+            },
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-046",
+            "chapter_id": "c-nanqishu-046-wangxiuzhi",
+            "source_id": "s-nanqishu-046-wangxiuzhi",
+            "paragraph_id": "c-nanqishu-046-wangxiuzhi:line023",
+            "quote": "秀之宗人僧祐，太尉儉從祖兄也。父遠，光祿勳。宋世爲之語曰：「王遠如屏風，屈曲從俗，能蔽風露。」而僧祐負氣不羣，儉常候之，辭不相見。世祖數閱武，僧祐獻《講武賦》，儉借觀，僧祐不與。竟陵王子良聞僧祐善彈琴，於座取琴進之，不肯從命。永明末，爲太子中舍人，在直屬疾，代人未至，僧祐委出，爲有司所奏，贖論。官至黃門郎。時衞軍掾孔逭亦抗直，著《三吳決錄》，不傳。",
+            "subject_person_mention_id": "c-nanqishu-046-wangxiuzhi:line023:m0004",
+            "object_person_mention_id": "c-nanqishu-046-wangxiuzhi:line023:m0009",
+            "source_scope": "native_chapter"
+          },
+          {
+            "id": "sc-nanshi021-wang-sengyou-jian-kinship",
+            "claim_kind": "referenced_only",
+            "predicate": "agnatic_cousin",
+            "subject_person_id": "7r6_k52_qji_ABAAAAEAA",
+            "object_person_id": "p93_tgr_t8r_A",
+            "source_term": "從兄",
+            "relative_direction": {
+              "older_person_id": "7r6_k52_qji_ABAAAAEAA",
+              "younger_person_id": "p93_tgr_t8r_A"
+            },
+            "work_id": "w-nanshi",
+            "book_locator": "卷二十一",
+            "chapter_locator": "王僧祐傳",
+            "chapter_id": null,
+            "source_id": null,
+            "provider": "中國哲學書電子化計劃（CText）",
+            "url": "https://ctext.org/wiki.pl?chapter=373441&if=gb",
+            "edition": "CText《南史》數位正文；作品資料標示底本為《武英殿二十四史》本",
+            "image_verified": false,
+            "quote": "雅為從兄儉所重",
+            "source_scope": "referenced_only"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "evidence_id": "ev-nanqi046-wuyingdian-ctext",
+            "kind": "edition_metadata_and_digital_text",
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-046",
+            "chapter_locator": "卷四十六〈王秀之傳〉",
+            "provider": "中國哲學書電子化計劃（CText）",
+            "url": "https://ctext.org/wiki.pl?chapter=377959&if=gb",
+            "edition_metadata_url": "https://ctext.org/wiki.pl?if=gb&res=831146",
+            "base_edition": "《武英殿二十四史》本",
+            "raw_excerpt": "太尉從祖兄也",
+            "transcription_note": "CText 工作資料明載武英殿底本；數位正文的主句轉錄少「儉」，不以自動OCR取代原章文字。",
+            "image_verified": false
+          },
+          {
+            "evidence_id": "ev-nanqi046-wuyingdian-kaozheng",
+            "kind": "collation_note",
+            "work_title": "《南齊書》卷四十六考證",
+            "edition": "乾隆四年校刊本，國家圖書館掃描第七冊",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/NLC892-411999000035-306172_%E5%8D%97%E9%BD%8A%E6%9B%B8_%E7%AC%AC7%E5%86%8A.pdf",
+            "page_locator": null,
+            "raw_quote": "王秀之傳：太尉從祖兄也。○按太尉下當有儉。字僧祐，弘之孫，儉曾祖之孫，故曰從祖兄。",
+            "role": "南齊書本書校記／版本證據；不是另一條南齊正文，也不新增共同祖先人物或數值親等。",
+            "image_verified": true,
+            "verification_note": "由獨立覆核代理檢視國圖第七冊掃描；尚未記下PDF逐頁定位。",
+            "human_reviewed": false
+          },
+          {
+            "evidence_id": "ev-nanshi021-ctext-work-metadata",
+            "kind": "edition_metadata",
+            "work_title": "《南史》",
+            "provider": "中國哲學書電子化計劃（CText）",
+            "url": "https://ctext.org/wiki.pl?if=gb&res=458039",
+            "base_edition": "《武英殿二十四史》本",
+            "image_verified": false,
+            "role": "只確認數位見證所標底本，不等於圖像覆核。"
+          },
+          {
+            "evidence_id": "ev-modern-shen-dong-kinship",
+            "kind": "modern_secondary_reference",
+            "author": "沈冬",
+            "title": "〈縱任不拘與風韻清遠──東晉南朝的士族與琴〉",
+            "locator": "PDF第5–6頁，註20",
+            "url": "https://www.zo.uni-heidelberg.de/md/zo/sino/research/10_nanchaozhiqinzandinggao.pdf",
+            "note": "現代研究參考：指出《南史》與《南齊書》對僧祐／儉長幼說相反，並轉述《南史》卷二十校勘記認為《南齊書》較是；不作原始史料或身份權威。"
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "rationale": "採《南齊書》方向作編輯首選：該書較早，且武英殿版卷後校記明示「太尉」下應補「儉」，並說明僧祐與儉的從祖兄關係；《南史》保留其反向長幼主張，不能覆蓋或抹除。獨立所據文本、校記與現代研究分層記錄。",
+        "limitations": [
+          "《南史》卷二十一目前未收入本庫正文；此項是固定CText外引，不杜撰本庫source_id、book_id或chapter_id。",
+          "兩史互相矛盾的只是長幼方向；不得將兩者合併成無方向關係後再丟失原始異說。",
+          "不建立共同祖先人物ID，不填數值親等或中間世代。",
+          "CText底本欄可確認數位見證所標武英殿本；其OCR文字不是影像校勘。"
+        ]
+      }
     ]
   },
   "text_sha256": "adbab593b05d54b9a7d25e4f7e06c429c9efad2b849bff392a7cd94c4d4b636b"

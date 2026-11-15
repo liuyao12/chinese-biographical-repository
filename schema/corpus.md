@@ -987,6 +987,16 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 追贈的窄契約另支援 imperial_named_serial_gift（可贈＋兩具名受詞／職名逐字連續，並以下一具名補官邊界封閉）與 imperial_decree_topic_death_gift（詔文單一具名主題、原位殞身鋒鏑及既有死亡事件、可贈職名）。兩者保持可贈原字，不創造死亡或授任年月；每筆須綁同一固定原文、人物錨點、職名原位與同值evidence。
 
 
+
+
+### 跨作品來源主張比較
+
+annotation.source_assertion_comparisons 以同一比較ID列出互不覆蓋的來源主張及編輯選擇。每項須有 id、dimensions、claims、preferred_claim_id、status、reviewer、human_reviewed、rationale、supporting_evidence 與 limitations。dimensions 使用可解析的差異欄位（例如 kinship_term、relative_direction）；各 claim 保存自身ID、原詞、關係方向、人物端點與精確引文。
+
+同篇已收錄的原文主張須以 native_assertion 及其 assertion/work/book/chapter/source/paragraph/mention IDs 回指原始記錄；未收入本庫正文的外引使用 referenced_only，保存作品、卷篇文字位置、固定URL、數位底本及影像核驗狀態，不得虛構本庫 source／chapter ID。preferred_claim_id 只表本比較範圍的編輯首選，必須保留全部競爭主張及支持校記／研究引文；不生成新原文關係，也不作全域作品排名。
+
+逐人匯出以 source_assertion_comparisons 保留涉及該人的同一比較物件，並保留各自原文 assertion 於 relations 及 preferred_relations；不把來源衝突折成單一無來源的「真相」。
+
 ### 宋047的從母、從母兄、哺養與從子
 
 `maternal_aunt` 主體為甥輩，客體為母之姊妹，`maternal_path: mother_sister`、`generation_difference: -1`、`mother_person_id: null`；不能從姨表稱把某姨連作所有兄弟之母。`maternal_cousin` 的從母兄保存母系同代及原稱older，未知親等／共祖；其 `relative_age_interpretation` 僅支持 chronology_unresolved、preferred_subject_relative_age:null 與固定既有407卒／41報齡／363高祖生年來源case。raw relative_birth_order不改，preferred_relations刪該相對排序並令preferred結構長幼unknown，preferred constraints不含它。原稱與張力皆呈現，不造反向原證或生日。`raised_by` 仍被養者→養者，care_basis的斷乳自養句只依具名從母、兩個同指被斷乳兒及自養對象逐字綁定，不是生母或法律收養。`agnatic_senior_kin` 仍晚輩→父系長一代旁親，新增「某既死從子某」精確句型，不補其父、不限親兄弟之子。四類均保存完整段落、固定revision/hash與雙人物錨點，不參父母三代trace。
