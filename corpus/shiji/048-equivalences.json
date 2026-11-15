@@ -253,6 +253,74 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji048-confucius-crosschapter-candidate-merge",
+      "person_ids": [
+        "fp6_ia6_7yw"
+      ],
+      "canonical_person_id": "fp6_ia6_7yw",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-006-shihuang",
+        "c-shiji-048-chenshe",
+        "c-shiji-068-shang",
+        "c-shiji-124-youxia",
+        "c-songshu-067-xielingyun"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p064:block07",
+          "quote": "非有仲尼、墨翟之賢，陶朱、猗頓之富",
+          "mention_ids": [
+            "c-shiji-006-shihuang:p064:block07:m0042"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-048-chenshe",
+          "source_id": "s-shiji-048-chenshe",
+          "paragraph_id": "c-shiji-048-chenshe:p025",
+          "quote": "材能不及中人，非有仲尼、墨翟之賢，陶朱、猗頓之富也",
+          "mention_ids": [
+            "c-shiji-048-chenshe:m025-0044"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-068-shang",
+          "source_id": "s-shiji-068-shang",
+          "paragraph_id": "c-shiji-068-shang:p009",
+          "quote": "孔丘有言曰",
+          "mention_ids": [
+            "c-shiji-068-shang:m009-0059"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-124-youxia",
+          "source_id": "s-shiji124-youxia",
+          "paragraph_id": "c-shiji-124-youxia:p002",
+          "quote": "百里飯牛，仲尼畏匡，菜色陳、蔡。此皆學士所謂有道仁人也",
+          "mention_ids": [
+            "c-shiji-124-youxia:m002-0056"
+          ]
+        },
+        {
+          "chapter_id": "c-songshu-067-xielingyun",
+          "source_id": "s-songshu-067-xielingyun",
+          "paragraph_id": "c-songshu-067-xielingyun:p003",
+          "quote": "啟仲尼之嘉問告性命以依方",
+          "mention_ids": [
+            "c-songshu-067-xielingyun:p003:m02709"
+          ]
+        }
+      ],
+      "rationale": "卷六、四十八、六十八、一百二十四《史記》正文及《宋書》卷六十七〈征賦〉所見孔子、孔丘、仲尼均指孔子；據每篇明確人物錨接合四個暫存候選，逐字引文與 MID 均保留。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }

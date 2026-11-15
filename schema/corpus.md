@@ -14,7 +14,7 @@
 
 `corpus/shiji/001.json` 保存正文、見證版本、權利、指紋、審閱狀態與提及位置。`source_id` 為本卷見證識別碼，來源資訊就地保存在 `source`；它目前不引用舊 `sources/` 目錄。這個區別須在舊資料遷移時明確處理。同一原卷可以有多個數位見證或選段，沿用原卷 `book_id`，各有獨立 `source_id` 與 `chapter_id`。平行版本不是另一獨立史書，不能當成多份獨立見證投票；引用哪一版就指向哪一版原段，不把另一版字句補進通行正文。
 
-每個段落有唯一 ID，每個提及有唯一 ID、`start`、`end`、`surface`。位置為段落內 Unicode code point，起點含、終點不含；JavaScript 使用 `Array.from(text)`，不可直接把 UTF-16 字串位置當此格式的位置。所有提及不重疊，依起點排列。人物提及含 `person_id`；未定指代的 `person_id` 為 `null`。
+每個段落有唯一 ID，每個提及有唯一 ID、`start`、`end`、`surface`。位置為段落內 Unicode code point，起點含、終點不含；JavaScript 使用 `Array.from(text)`，不可直接把 UTF-16 字串位置當此格式的位置。所有提及不重疊，依起點排列。`kind: person` 是姓名或其他具名人物用稱，可開人物頁並納入姓名別名與提及頻次。`kind: pronoun` 是代詞指涉：僅在原文語境足以辨認人物時填 `person_id`，未能確定人物或其所指非人物時填 `person_id: null` 並標記 `status: unresolved`。代詞不作姓名、別名或人物頁連結。其他未決指代的 `person_id` 也為 `null`。
 
 ## 行內文本
 
@@ -26,7 +26,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 </text>
 ```
 
-實際文件另含提及 ID；`persName` 引用人物，`rs type="unresolved"` 保存未定個人、氏族、群體、國號或職稱。去掉標籤後必須逐段精確還原 JSON 正文，標籤不改寫史料。篇的 SHA-256 取各段正文以兩個換行連接後的 UTF-8 位元組，不含結尾換行。
+實際文件另含提及 ID；`persName` 引用具名人物，`rs type="pronoun" ref="…"` 保存已解析的人物代詞指涉（ref 可省略），`rs type="unresolved"` 保存未決個人、氏族、群體、國號或職稱。去掉標籤後必須逐段精確還原 JSON 正文，標籤不改寫史料。篇的 SHA-256 取各段正文以兩個換行連接後的 UTF-8 位元組，不含結尾換行。
 
 ## 身份、群體與傳說
 
@@ -203,6 +203,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ## 生卒事件
 
 親屬陳述可用 `qualifiers.posthumous_birth: true` 保存明示「遺腹子」，父親端點與原詞必須存在；不補出生年或母親。`kinship_unspecified` 保存「有親」但未明種類的親屬陳述，不指定親等、父系或姻親，也不能作家族組裝的父子證據。
+
+「族曾祖」等族內祖輩稱謂若不足以證成直系祖先或精確世代路徑，可用 `kinship_unspecified` 的 `paternal_clan_ancestor_appellation` basis 保存原詞及兩端人物；世代差、共祖與連接人物保持未知，不直接加入父系組裝。卷七十五荀顗與荀崧之例即採此限制。
 
 `108-life-events.json` 的 `person_life_event_assertion_set` 保存原文明示的 `birth` 或 `death`，每筆 `events` 引用人物、篇及含人物錨點的精確事件引句。`date_expression` 為原文日期或 null；數字年另存 `normalized_date`，保留原句、參考與 AI 判讀。未知日期不補數值，日期精度不高於證據。逐人 JSON 可直接讀 `life_events`，日期索引以 `date_role: life_event` 與 `event_type` 區分；死亡事件不改寫官爵端點。
 
@@ -787,6 +789,8 @@ validator核同篇同source、直接相鄰段、原行只隔一空行、同固�
 
 `agnatic_senior_kin` 原語義不變：主體晚一代父系旁親，`generation_difference: -1`，親等及共同祖先為 null，年齡先後未知。新增 `source_clause_binding` 的 `pattern: biographical_subject_courtesy_senior_congzi` 與 `courtesy_name_mention_id`，只認雙端人物錨點加同一主體的字號錨點，精確原句「主體字字號對象從子也」。不依同姓或同名猜身份、不補中介父親；不同代與同代不得互換。「彞于彧為從祖兄弟」仍獨立為同輩父系旁親，不能改成親兄弟。此句型不擴及族父、姑子或未知其他倒裝句。
 
+《晉書》卷七十六「彪之……從伯導謂曰」另以固定句型記為王彪之（主體）稱王導（對象）為從伯：`generation_difference: -1` 僅表稱謂所示的一代差，父系旁親；不據此推定王彪之之父、王導之父以外的共同祖先身份或精確親等。此驗證只綁定卷七十六第55段的兩個人物錨與「從伯導」原詞，不推廣成任意「從伯」標記規則。
+
 
 ### 固定見證同位置對應
 
@@ -1019,7 +1023,7 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 
 ### 遠祖聲稱之後的兄弟省略主語
 
-`source_clause_binding.kind: reported_ancestor_then_named_siblings` 只處理傳首「某N世孫。兄甲，弟乙、丙」的原式。主體是世孫句內的具名祖先，並非傳首後裔。binding連到同段原生 `ancestor` 斷言、後裔/祖先/兄/兩弟精確人物錨點及兄弟列字位；原ancestor須保source_number、reported_generation_number，generation_distance:null且adopted_for_family_tree:false。不能借此把遠祖採入族譜。
+`傳主後接「某N世孫。兄甲，弟乙、丙」時，兄弟列主語須依持續敘事主體判定，不能只因遠祖緊鄰在前就移繫遠祖。biography_subject_named_siblings 綁傳主、年長兄、各弟的人物錨與句位；相對年序不推絕對排行。上下文推得共享父親須另記為暫定編輯推導，不冒作來源明文。
 
 各 `brother` 陳述保全列原詞，但object只對應一名具名兄或弟；`relative_birth_order`原詞定向，ordinal兩端均null。不補共同父母、祖父或同母。此窄式不放寬其他親屬模型，不把既有祖/曾祖聲稱冒作相鄰父子。
 
@@ -1183,3 +1187,18 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `normalized_date.rendered_collective_award_year_binding.kind: rendered_same_collective_award_explicit_peer_year` 是有界編輯首選，不能冒充本底本明文紀年。宋044武昌爵的端點可有 `date_expression: 永初元年`，但 `expression_scope: external_rendered_peer_biography_not_literal_in_wyd044` 明示原年詞來自比較本傅亮傳。`calendar: chinese_civil`、`precision: year`、`status: editorial_provisional`、人審false；CE420只是中國曆年度標號，不含月日。完整群授詔、傅亮同次建城縣公二千戶的永初元年明文、前後受禪初敘事及官方宋永初420–422完整表列均保存。比較資料是rendered閱讀、頁尾revision觀察、固定頁直取cache miss，沒有已取raw或書影資格；比較頁底本未知，不更換武英殿044底本。
 
 日期gate須傳實際root，逐一核外部payload SHA與全文單元SHA、同詔兩角色/兩爵/兩食邑/年詞的字位及取得scope，沿044既有謝晦與傅亮MID動態解現役PID。原本year校驗和literal歸屬規則不放寬；只有此已驗日期橋允許外源年詞，不虛建宋043 native章或MID。持有record須與本源明授完全一致，建平不入holding，未知終點不變，不借中領軍庚午任命日或死亡426年。bundle也依實際root驗外證後才輸出，完整比較引文與限制由一般紀年依據consumer顯示。
+
+## 武英殿宋044兩項明弟與相對年序
+
+`source_clause_binding.kind: wyd_song044_named_younger_brother` 僅綁兩條完整本傳原句：「晦弟黃門侍郎㬭」與「劉粹遣弟竟陵太守道濟」。`brother`由弟指兄，另有`relative_birth_order`明示兄的出生序小於弟，兩人絕對排行均null。完整段hash、原來源資格、固定人物MID及registry雙向alias/evidence須一致；既有宋056／宋053／宋047等身份種子由原有正式角色gate核現役canonical，不用永久PID白名單。合法全引用改號可過，單端改號、互換主客、借檀道濟、共移全文/字位均拒。
+
+此型不新增父母／婚配，不修改家族組裝、原文或NER。不以㬭為瞻弟的既有斷言替代本句晦與㬭的明示相對年序，也不把明弟推成明同父。新固定record ID即使刪binding仍須驗來源，不能藉刪資格繞過。無此兩新記錄時，既有其他親屬及bundle行為不變。
+
+
+## 閱讀見證首選與比較轉錄
+
+`registry/reading-witness-preferences.json` 保存代理逐一作出的閱讀選讀，不由程式從書名、URL或正文推斷版本。`application_scope: reading_display_only` 明示此排序不決定人物同指、親屬或其他歷史陳述的首選。每項記錄 work/book/chapter/source、實際所據 edition ID、原版本依據 reference IDs、獨立選錄標籤 `selection_label`、理由及 `scope: source_extent_only`；不能以一篇選錄代表全卷底本已校完。未知版本不得標為已查明，也不因文獻含四庫考證便認定整份正文的底本。
+
+`preferred_received_selection` 只能指向實際已匯入的單一來源選錄，並與版本登記中的 documented text basis、edition及參考資料相符。其餘入口標為 `comparison_transcription`；底本未核者另外顯示「底本待核」，不冒稱四庫或武英殿。首選書影轉錄仍保留原有AI／人工校勘資格。
+
+閱讀匯出將政策原樣另存 `data/corpus/reading-witness-preferences.json`，並在各書目錄項附 source ID、reading role、text-base status及edition ID/label；同卷首選在比較轉錄之前，舊深層連結保持其所引見證。版本及用途另列，不加進正式書名／篇名，也不覆寫原文、標記錨點或任何人物檔。無此政策的歷史快照維持原輸出。

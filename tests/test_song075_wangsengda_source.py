@@ -1,7 +1,8 @@
-import unittest,json,re,hashlib,sys
+import unittest,json,re,hashlib,sys,xml.etree.ElementTree as ET
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
-J=lambda p:json.loads(p.read_text());D=J(ROOT/'corpus/songshu/075-wangsengda.json');A=J(ROOT/'corpus/songshu/075-wangsengda-assertions.json')['assertions'];I=J(ROOT/'tests/fixtures/song075-wangsengda/person-ids.json');B={p['source_position']['first_line']:p for p in D['paragraphs']}
+from scripts.collateral_kinship import agnatic_senior_kin_valid
+J=lambda p:json.loads(p.read_text());D=J(ROOT/'corpus/songshu/075-wangsengda.json');A=J(ROOT/'corpus/songshu/075-wangsengda-assertions.json')['assertions'];I=J(ROOT/'tests/fixtures/song075-wangsengda/person-ids.json');B={p['source_position']['first_line']:p for p in D['paragraphs']};ID=J(ROOT/'corpus/songshu/075-wangsengda-identities.json')['decisions']
 def at(line,start):return next(m for m in B[line]['mentions']if m['start']==start)
 class Song075WangsengdaSource(unittest.TestCase):
  def test_raw_revision_and_twenty_full_paragraphs(self):
@@ -15,13 +16,29 @@ class Song075WangsengdaSource(unittest.TestCase):
   for p in D['paragraphs']:
    end=0
    for m in p['mentions']:self.assertLessEqual(end,m['start']);self.assertEqual(p['text'][m['start']:m['end']],m['surface']);end=m['end'];n+=1;unknown+=m['kind']=='unresolved'
-  self.assertEqual((n,unknown),(193,15))
+  self.assertEqual((n,unknown),(193,14))
  def test_pronouns_are_scoped_not_nearest_name(self):
   self.assertEqual(at(32,350)['person_id'],I['xi']);self.assertEqual(at(44,462)['person_id'],I['hong']);self.assertEqual(at(34,31)['person_id'],I['wen']);self.assertEqual(at(34,32)['person_id'],I['sengda']);self.assertEqual(at(36,133)['person_id'],I['xiaowu'])
   p=B[14];m=next(m for m in p['mentions']if m['start']==p['text'].index('王出赴難'));self.assertEqual(m['person_id'],I['sengda'])
- def test_unresolved_fraudulent_ji_and_petition_lingbao_not_forced(self):
+ def test_unresolved_fraudulent_ji_and_provisional_petition_lingbao(self):
   p=B[28];s=p['text'].index('注以為己子')+3;m=at(28,s);self.assertIsNone(m['person_id']);self.assertEqual(set(m['candidate_person_ids']),{I['sengda'],I['zuoyong']})
-  p=B[32];m=at(32,p['text'].index('靈寶'));self.assertIsNone(m['person_id']);self.assertEqual(m['candidate_person_ids'],[I['lingbao']])
+  p=B[32];m=at(32,p['text'].index('靈寶'));self.assertEqual(m['person_id'],I['lingbao']);self.assertEqual(m['status'],'contextual_provisional');self.assertEqual(m['kind'],'person')
+  xml=ET.parse(ROOT/'corpus/songshu/075-wangsengda.xml');node=xml.find(f".//persName[@id='{m['id']}']");self.assertIsNotNone(node);self.assertEqual(node.attrib.get('ref'),I['lingbao']);self.assertEqual(node.text,'靈寶')
+ def test_zuzi_relation_preserves_only_generation_and_paternal_collateral(self):
+  a=next(a for a in A if a['id']=='a-song075-sengda-011');paragraphs={p['id']:(D['id'],p)for p in D['paragraphs']}
+  self.assertTrue(agnatic_senior_kin_valid(a,paragraphs));self.assertEqual((a['subject_person_id'],a['object_person_id']),(I['que'],I['sengda']))
+  k=a['qualifiers']['kinship_structure'];self.assertEqual(k['lineage'],'paternal');self.assertEqual(k['generation_difference'],-1);self.assertTrue(k['collateral']);self.assertIsNone(k['distance']);self.assertIsNone(k['common_ancestor_person_id']);self.assertEqual(k['subject_relative_age'],'unknown')
+  for pid in [I['que'],I['sengda']]:
+   bundle=J(ROOT/'exports/persons'/f'{pid}.json');self.assertIn('a-song075-sengda-011',{r.get('id')for r in bundle['relations']})
+ def test_name_identity_decisions_are_anchored_and_exported(self):
+  expected={'d-song075-zhu-lingbao-yuanxu','d-song075-lingbao-line032','d-song075-su-bao-baosheng'}
+  self.assertEqual({d['id']for d in ID},expected)
+  byid={d['id']:d for d in ID};explicit=byid['d-song075-zhu-lingbao-yuanxu'];self.assertEqual(explicit['status'],'source_explicit');self.assertEqual(explicit['person_id'],I['lingbao']);self.assertEqual(explicit['surfaces'],['朱靈寶','靈寶','元序']);self.assertIn('改名元序',explicit['rationale'])
+  self.assertEqual(set(explicit['identification_basis']['target_mention_ids']),{f"{B[28]['id']}:m{x:04d}"for x in [107,117,145]})
+  provisional=byid['d-song075-lingbao-line032'];self.assertEqual(provisional['status'],'contextual_provisional');self.assertEqual(provisional['identification_basis']['target_mention_ids'],[f"{B[32]['id']}:m0167"]);self.assertIn('卷六十六',provisional['rationale']);self.assertIn('桓玄',provisional['rationale'])
+  su=byid['d-song075-su-bao-baosheng'];self.assertEqual(su['status'],'source_explicit');self.assertEqual(su['person_id'],'m56_4dl_ukm');self.assertIn('蘇寶者，名寶生',su['evidence'][0]['quote'])
+  for pid in [I['lingbao'],'m56_4dl_ukm']:
+   bundle=J(ROOT/'exports/persons'/f'{pid}.json');self.assertTrue(expected.intersection(d['id']for d in bundle['identity_decisions']))
  def test_contemporaries_reuse_ids_and_homonyms_stay_distinct(self):
   self.assertEqual(I['shen'],'408_ce3_5d8');self.assertEqual(I['sengqian'],'7r6_k52_qji_ABAAAAEB');self.assertNotEqual(I['wangtian'],'7r6_k52_qji_ABAAC');self.assertEqual(I['jun'],'3b1_39e_aa6');self.assertNotEqual(I['lingbao'],'u9s_w6j_8mc_AAF');self.assertEqual(I['shao'],'fof_k8v_7md')
  def test_no_fake_father_adoption_or_mother_from_fraud(self):

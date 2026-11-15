@@ -1,7 +1,9 @@
+import {explicitBrothersNamespace} from './explicit-brothers-namespace.js';
 import {orderChildren} from './sibling-order.js';
 // Read validated namespace metadata; its unnamed structural slot is never loaded as a person.
 export async function namespaceNavigation(person, load) {
   const row = person.assembled_identity, group = row?.collateral_root_group;
+  if (group?.type === 'explicit_received_brothers_parent_unidentified') return explicitBrothersNamespace(person, load);
   if (!row?.namespace_id || row.root_person_id !== null
       || group?.type !== 'unknown_shared_father_from_qualified_first_cousins'
       || group.status !== 'contextual_provisional' || !Array.isArray(group.references) || !group.references.length
@@ -28,6 +30,8 @@ export async function traceFamily(person, load) {
     const previous = map.get(entry.id);
     if (!previous) { map.set(entry.id, entry); return; }
     const paths = [...(previous.ancestry_paths || []), ...(entry.ancestry_paths || [])];
+    const relationship_statuses = [...new Set([...(previous.relationship_statuses || []), ...(entry.relationship_statuses || [])])];
+    const relationship_notes = [...new Set([...(previous.relationship_notes || []), ...(entry.relationship_notes || [])])];
     if (paths.some(p => p.qualification === 'assembly_inferred')) {
       const rank = x => x.cycle ? 0 : x.role === 'assembly_inferred' ? 1 : 2;
       const best = rank(entry) > rank(previous) ? entry : previous;
@@ -36,7 +40,7 @@ export async function traceFamily(person, load) {
       const directEvidence = [previous, entry].filter(x => rank(x) === 2).flatMap(x => x.evidence);
       const allPaths = [...new Map(paths.map(p => [JSON.stringify(p), p])).values()];
       const merged = {...best, evidence: rank(best) === 2 ? directEvidence : best.evidence,
-        ancestry_paths: allPaths};
+        ancestry_paths: allPaths, relationship_statuses, relationship_notes};
       const available = [previous, entry].find(x => x.person && !x.unavailable && !x.cycle);
       if (available) {
         merged.person = available.person; merged.label = available.label;
@@ -48,8 +52,13 @@ export async function traceFamily(person, load) {
     }
     const direct = previous.role === 'assembly_inferred' && entry.role !== 'assembly_inferred'
       && !entry.unavailable && !entry.cycle;
-    if (direct) map.set(entry.id, {...entry, evidence: [...entry.evidence, ...previous.evidence]});
-    else previous.evidence.push(...entry.evidence);
+    if (direct) map.set(entry.id, {...entry, evidence: [...entry.evidence, ...previous.evidence],
+      relationship_statuses, relationship_notes});
+    else {
+      previous.evidence.push(...entry.evidence);
+      previous.relationship_statuses = relationship_statuses;
+      previous.relationship_notes = relationship_notes;
+    }
     if (paths.length) map.get(entry.id).ancestry_paths = paths;
   }
 
@@ -73,8 +82,12 @@ export async function traceFamily(person, load) {
       if (kind === 'children' && object && ['father', 'mother'].includes(r.predicate)) id = r.subject_person_id;
       if (kind === 'children' && subject && ['son', 'daughter'].includes(r.predicate)) id = r.object_person_id;
       if (id && !ids.has(id)) {
-        if (!result.has(id)) result.set(id, {id, evidence: [], role: r.qualifiers?.parentage_role});
-        result.get(id).evidence.push(...(r.evidence || []));
+        if (!result.has(id)) result.set(id, {id, evidence: [], role: r.qualifiers?.parentage_role,
+          relationship_statuses: [], relationship_notes: []});
+        const relatedEntry = result.get(id);
+        if (r.status && !relatedEntry.relationship_statuses.includes(r.status)) relatedEntry.relationship_statuses.push(r.status);
+        if (r.interpretation_note && !relatedEntry.relationship_notes.includes(r.interpretation_note)) relatedEntry.relationship_notes.push(r.interpretation_note);
+        relatedEntry.evidence.push(...(r.evidence || []));
         if (kind === 'spouse' && r.qualifiers?.marriage_termination?.kind === 'divorce') {
           result.get(id).marriage_status = 'source_attested_divorce';
         }
@@ -127,6 +140,8 @@ export async function traceFamily(person, load) {
       from_label: branch.person.label || branch.person.id, to_label: parent.label || parent.id,
       relationship, generation_distance: distance,
       qualification: parent.role === 'assembly_inferred' ? 'assembly_inferred' : 'source_linked',
+      relationship_statuses: [...(parent.relationship_statuses || [])],
+      relationship_notes: [...(parent.relationship_notes || [])],
       inference_note: parent.inference_note || null, evidence: [...parent.evidence]};
     const steps = [...(branch.ancestrySteps || []), step];
     const inferred = steps.some(x => x.qualification === 'assembly_inferred');

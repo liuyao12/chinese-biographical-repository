@@ -69,6 +69,9 @@ class LayeredBiographyFacts(unittest.TestCase):
   rows=json.loads((R/'corpus/houhanshu/064-luzhi-addresses.json').read_text())['assertions']
   for a in rows:
    self.assertTrue(self.L.address_valid(a,self.ch));d=copy.deepcopy(a);d['person_id']=next(p for p in self.people if p!=a['person_id']);self.assertFalse(self.L.address_valid(d,self.ch))
+  a=next(a for a in rows if a['relation']=='residence');p=self.ps[a['evidence'][0]['paragraph_id']][1]
+  pronoun=next(m for m in p['mentions']if m['id']==a['source_address_binding']['roles']['subject_pronoun'])
+  self.assertEqual(pronoun['kind'],'pronoun');self.assertEqual(pronoun['surface'],'之')
  def test_seclusion_not_death_and_wrong_repeat(self):
   a=next(a for a in json.loads((R/'corpus/houhanshu/064-luzhi-addresses.json').read_text())['assertions']if a['relation']=='residence');d=copy.deepcopy(a);d['relation']='death_place';self.assertFalse(self.L.address_valid(d,self.ch));d=copy.deepcopy(a);p=self.ps[a['evidence'][0]['paragraph_id']][1];other=next(m for m in p['mentions']if m['surface']=='卓');d['source_address_binding']['roles']['pursuer']=other['id'];self.assertFalse(self.L.address_valid(d,self.ch))
  def test_shared_wei_not_jing_ke(self):

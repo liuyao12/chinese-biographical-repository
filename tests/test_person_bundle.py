@@ -481,7 +481,7 @@ class PersonBundleTests(unittest.TestCase):
         page_texts = [(folder / filename).read_text() for filename in pages]
         for page in page_texts:
             self.assertLess(len(page.encode('utf-8')), 500_000)
-            source_refs = set(re.findall(r'\[《[^]]+》\]\[(\d+)\]', page))
+            source_refs = set(re.findall(r'\[[^\]\n]+\]\[(\d+)\]', page))
             definitions = set(re.findall(r'^\[(\d+)\]: https?://', page, re.M))
             self.assertTrue(source_refs.issubset(definitions))
         text = '\n'.join(page_texts)
@@ -496,7 +496,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertGreater(text.count('<details>'), 0)
         self.assertEqual(text.count('<details>'), text.count('</details>'))
         self.assertIn('%2A', text)
-        source_refs = set(re.findall(r'\[《[^]]+》\]\[(\d+)\]', text))
+        source_refs = set(re.findall(r'\[[^\]\n]+\]\[(\d+)\]', text))
         definitions = set(re.findall(r'^\[(\d+)\]: https?://', text, re.M))
         self.assertTrue(source_refs)
         self.assertTrue(source_refs.issubset(definitions))

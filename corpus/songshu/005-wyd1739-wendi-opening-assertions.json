@@ -1,0 +1,50 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-005-wyd1739-wendi-opening",
+  "assertions": [
+    {
+      "id": "a-song005-opening-phase1-wendi-father",
+      "subject_person_id": "3qs_nqa_ioa_AAAA",
+      "predicate": "father",
+      "object_person_id": "3qs_nqa_ioa_AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "武帝第三子也",
+        "lineage": "paternal",
+        "source_child_term": "子",
+        "source_child_sex": "male",
+        "source_clause_binding": {
+          "kind": "fixed_wyd_song005_opening_father_phase1",
+          "raw_sha256": "c19e753cacc68d40ef13c61d732d8da7cdaf889c222561fa721960d5c8460976"
+        },
+        "reported_son_ordinal": {
+          "value": 3,
+          "source_term": "第三子",
+          "scope": "sons_of_named_father",
+          "source_range": {
+            "paragraph_id": "c-songshu-005-wyd1739-wendi-opening:p001",
+            "start": 14,
+            "end": 17,
+            "surface": "第三子"
+          }
+        },
+        "interpretation_note": "本源明武帝第三子；父角色另由既收劉裕全文名種子核定，不將武帝原字改高祖、不由ID推排行。"
+      },
+      "human_reviewed": false,
+      "model": null,
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-005",
+          "source_id": "s-songshu-005-wyd1739-wendi-opening",
+          "chapter_id": "c-songshu-005-wyd1739-wendi-opening",
+          "paragraph_id": "c-songshu-005-wyd1739-wendi-opening:p001",
+          "quote": "太祖文皇帝諱義隆小字車兒武帝第三子也晉安帝義熙三年生於京口盧循之難上年四歲高祖使諮議參軍劉粹輔上鎮京城十二年封彭城縣公高祖伐羌至彭城將進路板上行冠軍將軍留守晉朝加授使持節監徐兗青冀四州諸軍事徐州刺史將軍如故關中平定高祖還彭城又授監司州豫州之淮西兗州之陳",
+          "subject_person_mention_id": "c-songshu-005-wyd1739-wendi-opening:p001:m0006",
+          "object_person_mention_id": "c-songshu-005-wyd1739-wendi-opening:p001:m0012"
+        }
+      ]
+    }
+  ]
+}

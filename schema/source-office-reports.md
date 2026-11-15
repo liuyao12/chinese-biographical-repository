@@ -4,7 +4,7 @@
 
 `source_qualification.kind: reported_office_challenged_by_commentary` 限來源持稱`mode: attestation`。必有引書、批評段同一人物、作者與「本傳某不為某官未詳某所由知之」原句兩端，`preferred_historical_office_assertion_id: null`。不能變為實任授職或把古注批評抹去。此型不宣稱現代校勘已定。
 
-`biographical_source_detail_set` 的`source_detail_pattern`分完整語法：任職後典選舉、具名總署行臺、詔某群體受某節度、前後累計增邑並賜子弟若干爵位。來源欄位各自精確位置，整句依字段順序重建，不能把另一個同字數詞當本欄。職掌不造官號；受節度的群體不變為本人官名。累計增邑保`aggregation: cumulative_across_unspecified_awards`，總額與實收留null，原單位尸不校戶。子弟保來源群體、各爵人數與空recipient_person_ids，不能全作親生子或造個體。
+`biographical_source_detail_set` 的`source_detail_pattern`分完整語法：任職後典選舉、具名總署行臺、詔某群體受某節度、前後累計增邑並賜子弟若干爵位，以及「分某戶邑封一子某侯」的單一匿名子受封。來源欄位各自精確位置，整句依字段順序重建，不能把另一個同字數詞當本欄。職掌不造官號；受節度的群體不變為本人官名。累計增邑保`aggregation: cumulative_across_unspecified_awards`，總額與實收留null，原單位尸不校戶。群體受封保來源群體、各爵人數與空`recipient_person_ids`，不造具名個體；匿名「一子」只表示一名兒子受封，不足以判定是哪一子或新增人物；`biological_children_only: null` 表示來源未說明是否為生子，不把「子」自行擴解成生物學分類。
 
 `noble_title_succession` 事件可用具名子嗣及無嗣弟紹封兩通用語法：前任、嗣者和重複引用依實際錨點驗證，`title`與`holding_id`均null。這是原文明載的承嗣事件，不是假定已知爵名的holding，也不改生父/收養/排行。具體爵名若日後據別處解析，須另存編輯判讀與其來源，不能把父親或諡號的字面用稱借作本人直接稱號錨。
 

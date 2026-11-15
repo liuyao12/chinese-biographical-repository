@@ -88,8 +88,37 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin043-wangyan-father-001",
+      "subject_person_id": "b0c_13f_c3a",
+      "predicate": "father",
+      "object_person_id": "kwx_czc_d4c",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父乂",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "paragraph_id": "c-jinshu-043-wangyan:p001",
+          "quote": "衍字夷甫，神情明秀，風姿詳雅。總角嘗造山濤，濤嗟歎良久，既去，目而送之曰：「何物老嫗，生甯馨兒！然誤天下蒼生者，未必非此人也。」父乂，為平北將軍，常有公事，使行人列上，不時報。衍年十四，時在京師，造僕射羊祜，申陳事狀，辭甚清辯。祜名德貴重，而衍幼年無屈下之色，眾咸異之。楊駿欲以女妻焉，衍恥之，遂陽狂自免。武帝聞其名，問戎曰：「夷甫當世誰比？」戎曰：「未見其比，當從古人中求之。」",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p001:m0000",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p001:m0065"
+        }
+      ],
+      "interpretation_note": "依本段「父乂」記父子關係；保留來源所見單稱「乂」，不因同名與司馬乂合併。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "b0c_13f_c3a": "王衍",
     "kwx_czc_d4c": "乂〔王衍父，平北將軍〕"
   },
   "dates": [],
@@ -97,7 +126,35 @@
   "person_ids": [
     "kwx_czc_d4c"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin043-wangyan-father-001",
+      "subject_person_id": "b0c_13f_c3a",
+      "predicate": "father",
+      "object_person_id": "kwx_czc_d4c",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父乂",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "paragraph_id": "c-jinshu-043-wangyan:p001",
+          "quote": "衍字夷甫，神情明秀，風姿詳雅。總角嘗造山濤，濤嗟歎良久，既去，目而送之曰：「何物老嫗，生甯馨兒！然誤天下蒼生者，未必非此人也。」父乂，為平北將軍，常有公事，使行人列上，不時報。衍年十四，時在京師，造僕射羊祜，申陳事狀，辭甚清辯。祜名德貴重，而衍幼年無屈下之色，眾咸異之。楊駿欲以女妻焉，衍恥之，遂陽狂自免。武帝聞其名，問戎曰：「夷甫當世誰比？」戎曰：「未見其比，當從古人中求之。」",
+          "subject_person_mention_id": "c-jinshu-043-wangyan:p001:m0000",
+          "object_person_mention_id": "c-jinshu-043-wangyan:p001:m0065"
+        }
+      ],
+      "interpretation_note": "依本段「父乂」記父子關係；保留來源所見單稱「乂」，不因同名與司馬乂合併。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

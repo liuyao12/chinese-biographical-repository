@@ -1,4 +1,5 @@
 import {revealSourceTarget} from './reading-layout.js';
+import {readingWitnessNote} from './reading-witness.js';
 import {commentaryControls,bindCommentaryControls} from './commentary-layers.js';
 import {loadWorkTitles, bindWorkTitles} from './work-titles.js';
 import {createLanguageReadingTransition, restoreReadingState} from './corpus-reading-state.js';
@@ -49,7 +50,7 @@ async function render(keepReadingState = false) {
     return;
   }
   document.title = entry.title + ' · 人文';
-  const heading = navigation(entry) + `<p class="eyebrow">史記 · ${h(entry.category_label)} · ${entry.number}</p><h1>${h(entry.title)}</h1>`;
+  const heading = navigation(entry) + `<p class="eyebrow">史記 · ${h(entry.category_label)} · ${entry.number}</p><h1>${h(entry.title)}</h1>` + readingWitnessNote(entry);
   if (entry.available !== 'marked_text') {
     $('corpus-content').innerHTML = heading + (entry.available === 'table' ? `<div id="chapter-table-reader">${historicalTableMarkup}</div>` : `<p>${ui('This chapter has not been imported. The source text is available externally.')}</p><p>${ext('https://zh.wikisource.org/wiki/史記/卷' + String(entry.number).padStart(3, '0'), 'Read source text')}</p>`);
     if (entry.available === 'table') {
