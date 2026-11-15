@@ -62,6 +62,8 @@ def _named_nephew_from_older_uncle(p, subjects, objects, term):
                 continue
             role_start = obj['end'] + 1
             role_end = role_start + len('兄子')
+            if subject['start'] < role_end:
+                continue
             if t[obj['end']:role_start] != '及' or t[role_start:role_end] != '兄子':
                 continue
             title = t[role_end:subject['start']]
