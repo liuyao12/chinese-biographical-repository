@@ -495,6 +495,22 @@
       "human_reviewed": false,
       "source_kind": "digitized_scan_catalogue",
       "qualification": "Commons 詳目標此冊為1916年影印本、底本為清乾隆武英殿本，並標公有領域；此冊不含卷五十四，不能作該卷頁葉依據。"
+    },
+    "ref-jinshu-jiguge-naj-catalog": {
+      "title": "日本國立公文書館數位典藏：《十七史》館藏著錄（請求號282-0002）",
+      "url": "https://www.digital.archives.go.jp/file/en/1073271",
+      "access_scope": "查閱館藏層級書目：240冊，明崇禎元年至十七年汲古閣刊本；未下載整套圖像。",
+      "human_reviewed": false,
+      "source_kind": "official_digital_archive_catalogue",
+      "qualification": "公文書館著錄《十七史》為汲古閣明崇禎刊本，書目同時記崇禎元年與十七年；此為全套版本著錄，不能據此斷定單冊實際印年。"
+    },
+    "ref-jinshu-jiguge-jin54-scan": {
+      "title": "日本國立公文書館藏《十七史》第七十八冊：《晉書》卷五十四影像",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/NAJDA-282-0002_%E5%8D%81%E4%B8%83%E5%8F%B278.pdf",
+      "access_scope": "以搜尋索引所示 PDF 文字及影像描述定位卷五十四；尚未逐葉目視校讀。",
+      "human_reviewed": false,
+      "source_kind": "digitized_primary_scan",
+      "qualification": "Commons 所載日本國立公文書館掃描，對應汲古閣《十七史》館藏；搜尋索引顯示卷五十四及陸機傳首。PDF 僅作外部影像連結，不納入本庫。"
     }
   },
   "editions": {
@@ -753,6 +769,26 @@
         "ref-jinshu-wuyingdian-commons-nlc-volume-15"
       ],
       "qualification": "書格頁記該哈佛藏本為清乾隆時期武英殿刊本，版式欄錄「乾隆四年校刊」（1739）；此為該藏本所見題記，不單獨證明全書最初印行年或最早存世本。CText館藏條目標示武英殿本；Commons第十五冊為1916年影印、底本武英殿本，收卷56至59，不含卷54。卷五十四具體頁葉及本庫正文與該本的對應尚未核，影像未核。",
+      "image_verified": false
+    },
+    "edition-jinshu-jiguge-chongzhen-reported": {
+      "id": "edition-jinshu-jiguge-chongzhen-reported",
+      "work_id": "w-jinshu",
+      "label": "日本國立公文書館藏汲古閣《十七史》本《晉書》卷五十四",
+      "extent": "fragment",
+      "date": {
+        "calendar": "chinese_civil",
+        "year_numbering": "historical_no_year_zero",
+        "start_year": 1628,
+        "end_year": 1644,
+        "precision": "range"
+      },
+      "period_label": "明崇禎元年至十七年汲古閣刊本（館藏套書著錄）",
+      "reference_ids": [
+        "ref-jinshu-jiguge-naj-catalog",
+        "ref-jinshu-jiguge-jin54-scan"
+      ],
+      "qualification": "公文書館館藏著錄明崇禎元年至十七年汲古閣刊本；所連第七十八冊數位影像含《晉書》卷五十四。此範圍是套書書目年代，不等同此冊確切刊年。卷五十四具體頁葉、版心與文字尚未逐葉目視核對；本庫未據此影像完成轉錄。",
       "image_verified": false
     }
   },
