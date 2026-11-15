@@ -29,7 +29,7 @@ def _evidence_matches_reference(reference, assertion, chapters):
         return False
     return any(
         all(e.get(k) == reference.get(k) for k in (
-            "work_id", "book_id", "source_id", "chapter_id", "paragraph_id", "quote"
+            "work_id", "book_id", "source_id", "chapter_id", "paragraph_id", "quote", "subject_person_mention_id", "object_person_mention_id"
         ))
         for e in assertion.get("evidence", [])
     )
@@ -124,7 +124,7 @@ def ancestor_valid(member, rows, assertions_by_id, chapters):
                 r for r in unused
                 if r.get("assertion_id") == assertion.get("id")
                 and all(r.get(k) == evidence.get(k) for k in (
-                    "work_id", "book_id", "source_id", "chapter_id", "paragraph_id", "quote"
+                    "work_id", "book_id", "source_id", "chapter_id", "paragraph_id", "quote", "subject_person_mention_id", "object_person_mention_id"
                 ))
                 and r.get("url") == URL
                 and r.get("scope") == scope
