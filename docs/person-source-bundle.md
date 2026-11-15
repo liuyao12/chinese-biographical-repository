@@ -73,3 +73,10 @@ python3 scripts/person_bundle.py jx9_cov_qe0 --include-provisional --output /tmp
 `source_mention_summary` 的提及次數合計正文及年表逐人錨點；`paragraph_ids` 與 `table_cell_ids` 分列，`passage_count` 為不同正文段落與原格的總數。同格兩次出現算兩次提及、一個格位；其他人物在同格的標記不計入本人物頻次。`most_mentioned_source_ids` 仍保留所有並列最多來源，頻次不作史料權重。索引 `mention_count` 合計兩類，另列 `paragraph_mention_count`、`table_mention_count`，可檢查計數。
 
 尚未完成CBR人物登記的年表獨立候選仍在閱讀器人物資料中分存；本來源包不因同名自動建立同指或家族，不能把此次匯出視為年表全部人物身份覆核完成。
+
+
+## 跨作品來源主張比較
+
+逐人 profile 與 person-source bundle 均可包含 source_assertion_comparisons。每筆比較以穩定 ID、dimensions、claims、preferred_claim_id、status、reviewer、human_reviewed、rationale、supporting_evidence 和 limitations 保存。每個原文主張各自留在 relations；比較內另以 assertion ID、作品／卷／篇／來源／段落／人物提及 ID 回指。未收錄全文的對照來源使用 referenced_only，保留原詞、人物端點、精確引文、卷篇文字位置、固定URL、底本及影像核驗狀態，不生成虛構的本庫 source_id 或 chapter_id。
+
+preferred_claim_id 僅表示這一組比較中的暫定選擇，不能刪去、重寫或合併反向主張。消費端應同時呈現原始 relations 與比較依據；不能把比較當作新的原文陳述，也不能推算來源未載的共同祖先或世代。來源比較若尚未建成閱讀器介面，仍可由人物 JSON 直接取得。
