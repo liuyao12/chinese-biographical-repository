@@ -471,6 +471,30 @@
       "transcription_revision": "cbr-ai-transcription-sha256:8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
       "transcription_sha256": "8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
       "qualification": "raw SHA為AI逐列轉錄文本，不是PDF SHA。PDF SHA1只平台報告；一〓未定與二印缺分開，75異體queue非全字已校。圖像/PDF不host。"
+    },
+    "ref-jinshu-wuyingdian-shuge-catalog": {
+      "title": "書格：《晉書》清乾隆武英殿刊本版本詳目",
+      "url": "https://www.shuge.org/view/jin_shu/",
+      "access_scope": "查閱版本、刊印、冊數、收藏來源與權利欄；未下載 PDF、未讀卷五十四書影。",
+      "human_reviewed": false,
+      "source_kind": "digitization_catalogue",
+      "qualification": "書格詳目稱清乾隆時期武英殿刊本，載一百三十卷、附音義三卷、三十冊，並指明哈佛大學圖書館藏本；頁面所列掃描授權為 CC BY-NC 4.0。本庫只存書目連結，不鏡像圖像。"
+    },
+    "ref-jinshu-wuyingdian-ctext-library": {
+      "title": "中國哲學書電子化計劃：《武英殿二十四史》本《晉書》館藏條目",
+      "url": "https://ctext.org/library.pl?if=gb&remap=gb&res=77692",
+      "access_scope": "查閱館藏條目及版本名稱；未複製或下載正文、OCR、註釋或標註。",
+      "human_reviewed": false,
+      "source_kind": "digital_library_catalogue",
+      "qualification": "館藏條目明標《武英殿二十四史》本；此連結只作版本目錄參照，不代表本庫任何正文已據其影像核校。"
+    },
+    "ref-jinshu-wuyingdian-commons-nlc-volume-15": {
+      "title": "國家圖書館藏《晉書》第十五冊（民國五年影印本，底本武英殿本）數位影像記錄",
+      "url": "https://commons.wikimedia.org/wiki/File:NLC016-HWRB201817005-3321_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC15%E5%86%8A.pdf",
+      "access_scope": "查閱 Commons 檔案詳目；著錄為上海商務印書館民國五年（1916）影印本，收卷56、卷56考證及卷57至59，PDF 107頁；未下載或目視影像。",
+      "human_reviewed": false,
+      "source_kind": "digitized_scan_catalogue",
+      "qualification": "Commons 詳目標此冊為1916年影印本、底本為清乾隆武英殿本，並標公有領域；此冊不含卷五十四，不能作該卷頁葉依據。"
     }
   },
   "editions": {
@@ -708,6 +732,27 @@
         "ref-songshu044-wyd1739-received-ai-transcription"
       ],
       "qualification": "刊年依Commons著錄及所見卷首校刊字；本項只記卷44所見，不稱100卷已讀或全球最早。實際資料層為AI轉錄，不等原PDF二進位取得。",
+      "image_verified": false
+    },
+    "edition-jinshu-wuyingdian-1739-reported": {
+      "id": "edition-jinshu-wuyingdian-1739-reported",
+      "work_id": "w-jinshu",
+      "label": "書格所見清乾隆四年校刊題記之《晉書》武英殿本",
+      "extent": "not_established",
+      "date": {
+        "calendar": "chinese_civil",
+        "year_numbering": "historical_no_year_zero",
+        "start_year": 1739,
+        "end_year": 1739,
+        "precision": "year"
+      },
+      "period_label": "書格所錄版題：「乾隆四年校刊」",
+      "reference_ids": [
+        "ref-jinshu-wuyingdian-shuge-catalog",
+        "ref-jinshu-wuyingdian-ctext-library",
+        "ref-jinshu-wuyingdian-commons-nlc-volume-15"
+      ],
+      "qualification": "書格頁記該哈佛藏本為清乾隆時期武英殿刊本，版式欄錄「乾隆四年校刊」（1739）；此為該藏本所見題記，不單獨證明全書最初印行年或最早存世本。CText館藏條目標示武英殿本；Commons第十五冊為1916年影印、底本武英殿本，收卷56至59，不含卷54。卷五十四具體頁葉及本庫正文與該本的對應尚未核，影像未核。",
       "image_verified": false
     }
   },
