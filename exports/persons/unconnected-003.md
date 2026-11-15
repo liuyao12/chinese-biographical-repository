@@ -175,7 +175,6 @@
 | `ngh_196_gz6` | 畢公 | [《史記・周本紀》][91] | [JSON](ngh_196_gz6.json) |
 | `ngh_hjf_xnr` | 齊威王 | [《史記・魏世家》][113] | [JSON](ngh_hjf_xnr.json) |
 | `nh2_z0q_c1e` | 西門豹 | [《史記・滑稽列傳》][195] | [JSON](nh2_z0q_c1e.json) |
-| `nhk_xgq_7qk` | 燕王聊城未名 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](nhk_xgq_7qk.json) |
 | `ni4_c3i_e2y` | 王騰（荀羨傳） | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47] | [JSON](ni4_c3i_e2y.json) |
 | `nix_7ug_wxv` | 呂嬃 | [《史記・陳丞相世家》][125] | [JSON](nix_7ug_wxv.json) |
 | `nix_nc9_m03` | 符𢎞祖 | [《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][211] | [JSON](nix_nc9_m03.json) |
