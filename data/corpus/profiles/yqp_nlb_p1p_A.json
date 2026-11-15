@@ -19328,23 +19328,33 @@
       "number": 120,
       "category": "liezhuan",
       "title": "汲鄭列傳第六十",
-      "paragraph_id": "c-shiji-120-jizheng:p015",
-      "count": 1,
-      "raw_count": 1,
+      "paragraph_id": "c-shiji-120-jizheng:p006",
+      "count": 2,
+      "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "鄭當時者，字莊，陳人也。其先鄭君嘗為項籍將；籍死，已而屬漢。高祖令諸故項籍臣名籍，鄭君獨不奉詔。詔盡拜名籍者為大夫，而逐鄭君。鄭君死孝文時。",
+      "quote": "之邪心，安國富民，使囹圄空虛，二者無一焉。非苦就行，放析就功，何乃取斑皇帝約束紛更之為？公以此無種矣。」黯時與湯論議，湯辯常在文深小苛，黯伉厲守高不能屈，忿發罵曰：「天下謂刀筆吏不可以為公卿，果然。必湯也，令天下重足而立，側目而視矣！」",
       "paragraph_ids": [
+        "c-shiji-120-jizheng:p006",
         "c-shiji-120-jizheng:p015"
       ],
       "mention_ids": [
+        "c-shiji-120-jizheng:m006-0080",
         "c-shiji-120-jizheng:m015-0030"
       ],
       "mention_paragraph_ids": {
+        "c-shiji-120-jizheng:m006-0080": "c-shiji-120-jizheng:p006",
         "c-shiji-120-jizheng:m015-0030": "c-shiji-120-jizheng:p015"
       },
-      "mention_id": "c-shiji-120-jizheng:m015-0030",
+      "mention_id": "c-shiji-120-jizheng:m006-0080",
       "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m006-0080",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m006-0080"
+          ],
+          "kind": "paragraph"
+        },
         {
           "canonical_mention_id": "c-shiji-120-jizheng:m015-0030",
           "mention_ids": [
@@ -28044,6 +28054,48 @@
       "attestation_id": "th-shiji110-148:a001",
       "date_role": "attestation",
       "title": "高皇帝"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "d-shiji120-p006-emperor-title-to-gaozu",
+      "person_id": "yqp_nlb_p1p_A",
+      "surfaces": [
+        "皇帝"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "moderate",
+      "identification_basis": {
+        "kind": "parallel_source_reading",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m006-0080"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p006",
+          "quote": "張湯方以更定律令為廷尉，黯數質責湯於上前，曰：「公為正卿，上不能褒先帝之功業，下不能抑天下之邪心，安國富民，使囹圄空虛，二者無一焉。非苦就行，放析就功，何乃取斑皇帝約束紛更之為？公以此無種矣。」黯時與湯論議，湯辯常在文深小苛，黯伉厲守高不能屈，忿發罵曰：「天下謂刀筆吏不可以為公卿，果然。必湯也，令天下重足而立，側目而視矣！」"
+        }
+      ],
+      "references": [
+        {
+          "title": "中國哲學書電子化計劃《漢書》相似段落",
+          "url": "https://ctext.org/text.pl?if=gb&node=65933&show=parallel",
+          "quote": "公為正卿，上不能褒先帝之功業，下不能化天下之邪心，安國富民，使囹圄空虛，何空取高皇帝約束紛更之為？",
+          "scope": "parallel_reading_from_search_excerpt_only",
+          "image_verified": false,
+          "note": "直接頁面HTTP 403；只把搜尋所見平行句列為暫參，不據其單獨改正文。"
+        }
+      ],
+      "rationale": "固定《史記》轉錄在引語中作「斑皇帝」，同一論責句的平行《漢書》檢索顯示「高皇帝」；高皇帝指漢高祖，故暫將原標「皇帝」連至高祖。保留「斑」與原文，不將平行讀法冒作本篇校定文字。",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "name_components": [],
