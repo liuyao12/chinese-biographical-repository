@@ -51,6 +51,349 @@
           }
         ]
       }
+    },
+    {
+      "id": "name-shiji009-liu-AB",
+      "person_id": "yqp_nlb_p1p_AB",
+      "surname": "劉",
+      "ming": "肥",
+      "additional_names": [],
+      "chapter_id": "c-shiji-009-lvhou",
+      "paragraph_id": "c-shiji-009-lvhou:p003",
+      "person_mention_id": "c-shiji-009-lvhou:m003-0031",
+      "quote": "高祖十二年四月甲辰，崩長樂宮，太子襲號為帝。是時高祖八子：長男肥，孝惠兄也，異母，肥為齊王；餘皆孝惠弟，戚姬子如意為趙王，薄夫人子恒為代王，諸姬子子恢為梁王，子友為淮陽王，子長為淮南王，子建為燕王。高祖弟交為楚王，兄子濞為吳王。非劉氏功臣番君吳芮子臣為長沙王。",
+      "source_term": "肥",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文「高帝八男」名單將肥列為高祖子；卷八另有其子齊王敘事。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_cross_chapter_paternal_path",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "卷九只保存人物諡號或名；卷八以高帝八男名單明載父子對應，並可回連卷八高祖全名「劉季」。僅沿逐代來源父系記姓，不以家族ID推論。",
+        "source_name_record_id": "name-shiji008-gaozu-liuji",
+        "source_frames": [
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p004",
+            "source_revision": 2440965,
+            "paragraph_sha256": "a0e198f0ecc30f29949f2dd18201d7f5e996d04cac61131b708b471dbd7a81d4"
+          },
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_revision": 2440965,
+            "paragraph_sha256": "eb112f0863e4fbfe9086dab725d1e9f74f12039c8c1c157ac900ad1eedabff5b"
+          }
+        ],
+        "steps": [
+          {
+            "assertion_id": "a-shiji008-015",
+            "from_person_id": "yqp_nlb_p1p_A",
+            "to_person_id": "yqp_nlb_p1p_AB",
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_term": "八男",
+            "from_mention_id": "c-shiji-008-gaozu:m090-0000",
+            "to_mention_id": "c-shiji-008-gaozu:m090-0011"
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-shiji009-liu-AA",
+      "person_id": "yqp_nlb_p1p_AA",
+      "surname": "劉",
+      "ming": null,
+      "additional_names": [],
+      "chapter_id": "c-shiji-009-lvhou",
+      "paragraph_id": "c-shiji-009-lvhou:p003",
+      "person_mention_id": "c-shiji-009-lvhou:m003-0033",
+      "quote": "高祖十二年四月甲辰，崩長樂宮，太子襲號為帝。是時高祖八子：長男肥，孝惠兄也，異母，肥為齊王；餘皆孝惠弟，戚姬子如意為趙王，薄夫人子恒為代王，諸姬子子恢為梁王，子友為淮陽王，子長為淮南王，子建為燕王。高祖弟交為楚王，兄子濞為吳王。非劉氏功臣番君吳芮子臣為長沙王。",
+      "source_term": "孝惠",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文明稱高祖之子，並以「孝惠」諡號稱之；本篇未見其名，故ming留空。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_cross_chapter_paternal_path",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "卷九只保存人物諡號或名；卷八以高帝八男名單明載父子對應，並可回連卷八高祖全名「劉季」。僅沿逐代來源父系記姓，不以家族ID推論。",
+        "source_name_record_id": "name-shiji008-gaozu-liuji",
+        "source_frames": [
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p004",
+            "source_revision": 2440965,
+            "paragraph_sha256": "a0e198f0ecc30f29949f2dd18201d7f5e996d04cac61131b708b471dbd7a81d4"
+          },
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_revision": 2440965,
+            "paragraph_sha256": "eb112f0863e4fbfe9086dab725d1e9f74f12039c8c1c157ac900ad1eedabff5b"
+          }
+        ],
+        "steps": [
+          {
+            "assertion_id": "a-shiji008-016",
+            "from_person_id": "yqp_nlb_p1p_A",
+            "to_person_id": "yqp_nlb_p1p_AA",
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_term": "八男",
+            "from_mention_id": "c-shiji-008-gaozu:m090-0000",
+            "to_mention_id": "c-shiji-008-gaozu:m090-0014"
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-shiji009-liu-AH",
+      "person_id": "yqp_nlb_p1p_AH",
+      "surname": "劉",
+      "ming": "如意",
+      "additional_names": [],
+      "chapter_id": "c-shiji-009-lvhou",
+      "paragraph_id": "c-shiji-009-lvhou:p003",
+      "person_mention_id": "c-shiji-009-lvhou:m003-0055",
+      "quote": "高祖十二年四月甲辰，崩長樂宮，太子襲號為帝。是時高祖八子：長男肥，孝惠兄也，異母，肥為齊王；餘皆孝惠弟，戚姬子如意為趙王，薄夫人子恒為代王，諸姬子子恢為梁王，子友為淮陽王，子長為淮南王，子建為燕王。高祖弟交為楚王，兄子濞為吳王。非劉氏功臣番君吳芮子臣為長沙王。",
+      "source_term": "如意",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文以「如意」為名；卷八父子名單及卷八高祖全名支持劉姓。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_cross_chapter_paternal_path",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "卷九只保存人物諡號或名；卷八以高帝八男名單明載父子對應，並可回連卷八高祖全名「劉季」。僅沿逐代來源父系記姓，不以家族ID推論。",
+        "source_name_record_id": "name-shiji008-gaozu-liuji",
+        "source_frames": [
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p004",
+            "source_revision": 2440965,
+            "paragraph_sha256": "a0e198f0ecc30f29949f2dd18201d7f5e996d04cac61131b708b471dbd7a81d4"
+          },
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_revision": 2440965,
+            "paragraph_sha256": "eb112f0863e4fbfe9086dab725d1e9f74f12039c8c1c157ac900ad1eedabff5b"
+          }
+        ],
+        "steps": [
+          {
+            "assertion_id": "a-shiji008-017",
+            "from_person_id": "yqp_nlb_p1p_A",
+            "to_person_id": "yqp_nlb_p1p_AH",
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_term": "八男",
+            "from_mention_id": "c-shiji-008-gaozu:m090-0000",
+            "to_mention_id": "c-shiji-008-gaozu:m090-0029"
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-shiji009-liu-AD",
+      "person_id": "yqp_nlb_p1p_AD",
+      "surname": "劉",
+      "ming": "恢",
+      "additional_names": [],
+      "chapter_id": "c-shiji-009-lvhou",
+      "paragraph_id": "c-shiji-009-lvhou:p003",
+      "person_mention_id": "c-shiji-009-lvhou:m003-0074",
+      "quote": "高祖十二年四月甲辰，崩長樂宮，太子襲號為帝。是時高祖八子：長男肥，孝惠兄也，異母，肥為齊王；餘皆孝惠弟，戚姬子如意為趙王，薄夫人子恒為代王，諸姬子子恢為梁王，子友為淮陽王，子長為淮南王，子建為燕王。高祖弟交為楚王，兄子濞為吳王。非劉氏功臣番君吳芮子臣為長沙王。",
+      "source_term": "恢",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文以「恢」為名；卷八「高帝八男」父子名單支持劉姓。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_cross_chapter_paternal_path",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "卷九只保存人物諡號或名；卷八以高帝八男名單明載父子對應，並可回連卷八高祖全名「劉季」。僅沿逐代來源父系記姓，不以家族ID推論。",
+        "source_name_record_id": "name-shiji008-gaozu-liuji",
+        "source_frames": [
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p004",
+            "source_revision": 2440965,
+            "paragraph_sha256": "a0e198f0ecc30f29949f2dd18201d7f5e996d04cac61131b708b471dbd7a81d4"
+          },
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_revision": 2440965,
+            "paragraph_sha256": "eb112f0863e4fbfe9086dab725d1e9f74f12039c8c1c157ac900ad1eedabff5b"
+          }
+        ],
+        "steps": [
+          {
+            "assertion_id": "a-shiji008-019",
+            "from_person_id": "yqp_nlb_p1p_A",
+            "to_person_id": "yqp_nlb_p1p_AD",
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_term": "八男",
+            "from_mention_id": "c-shiji-008-gaozu:m090-0000",
+            "to_mention_id": "c-shiji-008-gaozu:m090-0052"
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-shiji009-liu-AE",
+      "person_id": "yqp_nlb_p1p_AE",
+      "surname": "劉",
+      "ming": "友",
+      "additional_names": [],
+      "chapter_id": "c-shiji-009-lvhou",
+      "paragraph_id": "c-shiji-009-lvhou:p003",
+      "person_mention_id": "c-shiji-009-lvhou:m003-0080",
+      "quote": "高祖十二年四月甲辰，崩長樂宮，太子襲號為帝。是時高祖八子：長男肥，孝惠兄也，異母，肥為齊王；餘皆孝惠弟，戚姬子如意為趙王，薄夫人子恒為代王，諸姬子子恢為梁王，子友為淮陽王，子長為淮南王，子建為燕王。高祖弟交為楚王，兄子濞為吳王。非劉氏功臣番君吳芮子臣為長沙王。",
+      "source_term": "友",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文以「友」為名；卷八「高帝八男」父子名單支持劉姓。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_cross_chapter_paternal_path",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "卷九只保存人物諡號或名；卷八以高帝八男名單明載父子對應，並可回連卷八高祖全名「劉季」。僅沿逐代來源父系記姓，不以家族ID推論。",
+        "source_name_record_id": "name-shiji008-gaozu-liuji",
+        "source_frames": [
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p004",
+            "source_revision": 2440965,
+            "paragraph_sha256": "a0e198f0ecc30f29949f2dd18201d7f5e996d04cac61131b708b471dbd7a81d4"
+          },
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_revision": 2440965,
+            "paragraph_sha256": "eb112f0863e4fbfe9086dab725d1e9f74f12039c8c1c157ac900ad1eedabff5b"
+          }
+        ],
+        "steps": [
+          {
+            "assertion_id": "a-shiji008-020",
+            "from_person_id": "yqp_nlb_p1p_A",
+            "to_person_id": "yqp_nlb_p1p_AE",
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_term": "八男",
+            "from_mention_id": "c-shiji-008-gaozu:m090-0000",
+            "to_mention_id": "c-shiji-008-gaozu:m090-0068"
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-shiji009-liu-AF",
+      "person_id": "yqp_nlb_p1p_AF",
+      "surname": "劉",
+      "ming": "長",
+      "additional_names": [],
+      "chapter_id": "c-shiji-009-lvhou",
+      "paragraph_id": "c-shiji-009-lvhou:p003",
+      "person_mention_id": "c-shiji-009-lvhou:m003-0086",
+      "quote": "高祖十二年四月甲辰，崩長樂宮，太子襲號為帝。是時高祖八子：長男肥，孝惠兄也，異母，肥為齊王；餘皆孝惠弟，戚姬子如意為趙王，薄夫人子恒為代王，諸姬子子恢為梁王，子友為淮陽王，子長為淮南王，子建為燕王。高祖弟交為楚王，兄子濞為吳王。非劉氏功臣番君吳芮子臣為長沙王。",
+      "source_term": "長",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文以「子長」稱名；卷八父子名單支持劉姓，卷一一八另有同人姓名來源記錄。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_cross_chapter_paternal_path",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "卷九只保存人物諡號或名；卷八以高帝八男名單明載父子對應，並可回連卷八高祖全名「劉季」。僅沿逐代來源父系記姓，不以家族ID推論。",
+        "source_name_record_id": "name-shiji008-gaozu-liuji",
+        "source_frames": [
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p004",
+            "source_revision": 2440965,
+            "paragraph_sha256": "a0e198f0ecc30f29949f2dd18201d7f5e996d04cac61131b708b471dbd7a81d4"
+          },
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_revision": 2440965,
+            "paragraph_sha256": "eb112f0863e4fbfe9086dab725d1e9f74f12039c8c1c157ac900ad1eedabff5b"
+          }
+        ],
+        "steps": [
+          {
+            "assertion_id": "a-shiji008-021",
+            "from_person_id": "yqp_nlb_p1p_A",
+            "to_person_id": "yqp_nlb_p1p_AF",
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_term": "八男",
+            "from_mention_id": "c-shiji-008-gaozu:m090-0000",
+            "to_mention_id": "c-shiji-008-gaozu:m090-0081"
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-shiji009-liu-AG",
+      "person_id": "yqp_nlb_p1p_AG",
+      "surname": "劉",
+      "ming": "建",
+      "additional_names": [],
+      "chapter_id": "c-shiji-009-lvhou",
+      "paragraph_id": "c-shiji-009-lvhou:p003",
+      "person_mention_id": "c-shiji-009-lvhou:m003-0093",
+      "quote": "高祖十二年四月甲辰，崩長樂宮，太子襲號為帝。是時高祖八子：長男肥，孝惠兄也，異母，肥為齊王；餘皆孝惠弟，戚姬子如意為趙王，薄夫人子恒為代王，諸姬子子恢為梁王，子友為淮陽王，子長為淮南王，子建為燕王。高祖弟交為楚王，兄子濞為吳王。非劉氏功臣番君吳芮子臣為長沙王。",
+      "source_term": "建",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原文以「子建」稱名；卷八「高帝八男」父子名單支持劉姓。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_cross_chapter_paternal_path",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "卷九只保存人物諡號或名；卷八以高帝八男名單明載父子對應，並可回連卷八高祖全名「劉季」。僅沿逐代來源父系記姓，不以家族ID推論。",
+        "source_name_record_id": "name-shiji008-gaozu-liuji",
+        "source_frames": [
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p004",
+            "source_revision": 2440965,
+            "paragraph_sha256": "a0e198f0ecc30f29949f2dd18201d7f5e996d04cac61131b708b471dbd7a81d4"
+          },
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_revision": 2440965,
+            "paragraph_sha256": "eb112f0863e4fbfe9086dab725d1e9f74f12039c8c1c157ac900ad1eedabff5b"
+          }
+        ],
+        "steps": [
+          {
+            "assertion_id": "a-shiji008-022",
+            "from_person_id": "yqp_nlb_p1p_A",
+            "to_person_id": "yqp_nlb_p1p_AG",
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p090",
+            "source_term": "八男",
+            "from_mention_id": "c-shiji-008-gaozu:m090-0000",
+            "to_mention_id": "c-shiji-008-gaozu:m090-0088"
+          }
+        ]
+      }
     }
   ]
 }

@@ -11,6 +11,7 @@ KIND = 'contextual_surname_from_cross_chapter_paternal_path'
 SEED_CHAPTER = 'c-shiji-008-gaozu'
 SEED_SOURCE = 's-shiji-008-gaozu'
 PATH_CHAPTER_SOURCES = {
+    'c-shiji-008-gaozu': 's-shiji-008-gaozu',
     'c-shiji-010-wendi': 's-shiji-010-wendi',
     'c-shiji-118-huainan': 's-shiji118-huainan',
 }
@@ -71,8 +72,9 @@ def validate(name, names, chapters, assertions, root=None):
         assert target_ch['source_id'] == NAME_CHAPTER_SOURCES[target_ch['id']]
         assert name['quote'] == target_p['text']
         target = mark(target_ch, target_p, name['person_mention_id'], name['person_id'])
-        assert target['surface'].endswith(name['ming'])
-        assert name['ming'] and name['surname'] == '劉'
+        assert name['ming'] is None or target['surface'].endswith(name['ming'])
+        assert name['surname'] == '劉'
+        assert name['ming'] is None or name['ming']
 
         assertions_by_id = {a['id']: a for a in assertions}
         assert len(assertions_by_id) == len(assertions)
@@ -117,4 +119,4 @@ def validate(name, names, chapters, assertions, root=None):
         assert b['source_frames'] == frames
     except (AssertionError, KeyError, TypeError, ValueError, StopIteration,
             IndexError, AttributeError):
-        raise ValueError('跨篇姓氏須由卷八明載劉姓全名出發，逐代沿卷一一八具名父子原文與來源錨點連接；不得以家族ID、族望或常識代替證據')
+        raise ValueError('跨篇姓氏須由卷八明載劉姓全名出發，逐代沿傳世篇章具名父子原文與來源錨點連接；不得以家族ID、族望或常識代替證據')
