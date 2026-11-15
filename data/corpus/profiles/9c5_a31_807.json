@@ -398,11 +398,61 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jinshu073-wushen-yuxi-maternal-cousin",
+      "subject_person_id": "9c5_a31_807",
+      "predicate": "maternal_cousin",
+      "object_person_id": "4qr_wrk_3vd_DA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "希之從母兄也",
+        "kinship_structure": {
+          "lineage": "maternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "older",
+          "maternal_path": "mother_sister_son"
+        },
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "maternal_cousins",
+          "older_person_id": "9c5_a31_807",
+          "younger_person_id": "4qr_wrk_3vd_DA",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "source_clause_binding": {
+          "kind": "jinshu073_wushen_yuxi_older_maternal_cousin",
+          "start": 80,
+          "end": 86,
+          "surface": "希之從母兄也"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line113",
+          "quote": "及海西公廢，桓溫陷倩及柔以武陵王黨，殺之。希聞難，便與弟邈及子攸之逃於海陵陂澤中。蘊于廣州飲鴆而死。及友當伏誅，友子婦，桓秘女也，請溫，故得免。故青州刺史武沈，希之從母兄也，潛餉給希經年。溫後知逾之，遣兵捕希。武沈之子遵與希聚眾于海濱，略漁人船，夜人京口城。平北司馬卞耽逾城奔曲阿，吏士皆散走。希放城內囚徒數百人，配以器杖，遵於外聚眾，宣令雲逆賊醒溫廢帝殺王，稱海西公密旨，誅除凶逆。京都震擾，內外戒嚴，屯備六門。平北參軍劉奭與高平太守郗逸之、遊軍督護郭龍等集眾距之。卞耽又與典阿人弘戎發諸縣兵二千，並力屯新城以擊希。希戰敗，閉城自守。溫遣東海太守周少孫討之，城陷，被擒。希、邈及子侄五人斬于建康市，遵及黨與並伏誅，唯友及蘊諸子獲全。",
+          "subject_person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line113:m0077",
+          "object_person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line113:m0080"
+        }
+      ],
+      "interpretation_note": "「從母兄」明記武沈為庾希母系同代表兄且較年長；不指定未名母親或從母，不補共同祖先、確切親等或絕對排行，也不接入父系家系。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "9c5_a31_807": "武沈",
-    "9c5_a31_807_A": "武遵"
+    "9c5_a31_807_A": "武遵",
+    "4qr_wrk_3vd_DA": "庾希"
   },
   "dates": [],
   "name_components": [
@@ -451,6 +501,55 @@
         }
       ],
       "interpretation_note": "只保存該句直接支持之親屬種類；不由兄弟推出父親或同母，不由並列推出絕對排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jinshu073-wushen-yuxi-maternal-cousin",
+      "subject_person_id": "9c5_a31_807",
+      "predicate": "maternal_cousin",
+      "object_person_id": "4qr_wrk_3vd_DA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "希之從母兄也",
+        "kinship_structure": {
+          "lineage": "maternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "older",
+          "maternal_path": "mother_sister_son"
+        },
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "maternal_cousins",
+          "older_person_id": "9c5_a31_807",
+          "younger_person_id": "4qr_wrk_3vd_DA",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "source_clause_binding": {
+          "kind": "jinshu073_wushen_yuxi_older_maternal_cousin",
+          "start": 80,
+          "end": 86,
+          "surface": "希之從母兄也"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line113",
+          "quote": "及海西公廢，桓溫陷倩及柔以武陵王黨，殺之。希聞難，便與弟邈及子攸之逃於海陵陂澤中。蘊于廣州飲鴆而死。及友當伏誅，友子婦，桓秘女也，請溫，故得免。故青州刺史武沈，希之從母兄也，潛餉給希經年。溫後知逾之，遣兵捕希。武沈之子遵與希聚眾于海濱，略漁人船，夜人京口城。平北司馬卞耽逾城奔曲阿，吏士皆散走。希放城內囚徒數百人，配以器杖，遵於外聚眾，宣令雲逆賊醒溫廢帝殺王，稱海西公密旨，誅除凶逆。京都震擾，內外戒嚴，屯備六門。平北參軍劉奭與高平太守郗逸之、遊軍督護郭龍等集眾距之。卞耽又與典阿人弘戎發諸縣兵二千，並力屯新城以擊希。希戰敗，閉城自守。溫遣東海太守周少孫討之，城陷，被擒。希、邈及子侄五人斬于建康市，遵及黨與並伏誅，唯友及蘊諸子獲全。",
+          "subject_person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line113:m0077",
+          "object_person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line113:m0080"
+        }
+      ],
+      "interpretation_note": "「從母兄」明記武沈為庾希母系同代表兄且較年長；不指定未名母親或從母，不補共同祖先、確切親等或絕對排行，也不接入父系家系。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

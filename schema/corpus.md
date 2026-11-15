@@ -623,6 +623,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `maternal_cousin` 目前保存明示「姨弟」：`kinship_structure.lineage: maternal`、`generation_difference: 0`、`collateral: true`、`maternal_path: mother_sister_son`、`subject_relative_age: younger`。原路徑與長幼分存，未名母親及共同祖先不填身份，`distance`、`common_ancestor_person_id` 保持null；不能誤作父系從弟或接進共同父系。證據含主客體人物雙錨點，原詞須緊接客體原稱；相對排行使用 `scope: maternal_cousins`，不推絕對排行。
 
+《晉書》卷七十三〈庾懌及統〉等在「武沈，希之從母兄也」句型，可用同一 `maternal_cousin` 語義保存：主體為原稱的年長姨表兄武沈，客體為庾希；只記母姊妹之子所示的母系同輩旁親、長幼方向。保存 `source_term: 希之從母兄也`、`maternal_path: mother_sister_son`、`subject_relative_age: older`，`distance`、`common_ancestor_person_id` 與絕對排行未知。此處僅接受固定卷73、line113、武沈及庾希雙錨點與緊接「希之從母兄也」的精確 clause binding；不泛化成所有同名或從母稱謂，也不接入父系家系。來源見證為維基文庫 revision 2296501，`image_verified: false`；此資料反映數位轉錄，未作影像校勘。
+
 姓名組件的 `zi_basis.kind: biographical_subject_called_by_courtesy_name` 保存傳首明言「故稱字」的情形。`subject_anchor` 指傳首姓加字，`marker_anchor` 指同段「故稱字」，兩者均保留段落ID及Unicode位置；附 `status: source_attested`、`human_reviewed: false`、理由，不將字冒作名。直接「字某」仍依原格式。平行正文補定本名的參考用 `scope: primary_parallel_explicit_given_name_and_same_named_ancestors`，保存完整姓加名、以此首名後接字的 `raw_context_quote` 及其雜湊、原行字元位置、固定修訂與全文雜湊；所選名必須逐字相符，不從「同諱」截出一個字，也不能用數位章題冒作正文。未親核圖像須保留false。
 
 先敘死亡、後明言「贈某官」可存 `posthumous_basis.kind: death_then_explicit_gift`，不替正文補追字。保存完整同段 `source_term`、`death_term`、`grant_term`、`recipient_person_mention_id` 及與持職起點相同的 `evidence`。受贈者須為死亡原詞前最後具名人物，授贈在死亡後、每筆官稱屬明贈清單且與同人職稱錨點相合；未知年份不補。此型與僅死後被用稱不同，不把全人生官職一律視為追贈。
