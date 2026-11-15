@@ -8,7 +8,8 @@
       "person_id": "yqp_nlb_p1p_ACA",
       "surfaces": [
         "孝景",
-        "孝景帝"
+        "孝景帝",
+        "先帝"
       ],
       "scope": "cross_chapter",
       "chapter_ids": [
@@ -22,7 +23,8 @@
         "target_mention_ids": [
           "c-shiji-120-jizheng:m001-0037",
           "c-shiji-120-jizheng:m001-0051",
-          "c-shiji-120-jizheng:m016-0020"
+          "c-shiji-120-jizheng:m016-0020",
+          "c-shiji-120-jizheng:m006-0033"
         ]
       },
       "evidence": [
@@ -43,9 +45,15 @@
           "source_id": "s-shiji-011-jingdi",
           "paragraph_id": "c-shiji-011-jingdi:p001",
           "quote": "孝景皇帝者，孝文之中子也。"
+        },
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p006",
+          "quote": "張湯方以更定律令為廷尉，黯數質責湯於上前，曰：「公為正卿，上不能褒先帝之功業，下不能抑天下之邪心，安國富民，使囹圄空虛，二者無一焉。非苦就行，放析就功，何乃取斑皇帝約束紛更之為？公以此無種矣。」黯時與湯論議，湯辯常在文深小苛，黯伉厲守高不能屈，忿發罵曰：「天下謂刀筆吏不可以為公卿，果然。必湯也，令天下重足而立，側目而視矣！」"
         }
       ],
-      "rationale": "景帝本紀具名，武帝開篇繼位敘事與本篇景帝崩太子即位一致。",
+      "rationale": "景帝本紀具名，武帝開篇繼位敘事與本篇景帝崩太子即位一致。 本篇「先帝」出於孝武帝朝臣張湯廷尉任內的引語；按即位敘事及漢代帝序，先帝暫指其前一位孝景帝，不接文帝或高祖。",
       "human_reviewed": false,
       "model": null
     },
@@ -984,6 +992,46 @@
         }
       ],
       "rationale": "篇末太史公曰作史記傳統作者敘述聲音接司馬遷，參自序遷繼太史令及稱先人。此判斷只辨傳統署稱，不證本段親撰或文本真偽；自序前段父談亦稱太史公，不以全書同字批量替換。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji120-p006-emperor-title-to-gaozu",
+      "person_id": "yqp_nlb_p1p_A",
+      "surfaces": [
+        "皇帝"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "moderate",
+      "identification_basis": {
+        "kind": "parallel_source_reading",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m006-0080"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p006",
+          "quote": "張湯方以更定律令為廷尉，黯數質責湯於上前，曰：「公為正卿，上不能褒先帝之功業，下不能抑天下之邪心，安國富民，使囹圄空虛，二者無一焉。非苦就行，放析就功，何乃取斑皇帝約束紛更之為？公以此無種矣。」黯時與湯論議，湯辯常在文深小苛，黯伉厲守高不能屈，忿發罵曰：「天下謂刀筆吏不可以為公卿，果然。必湯也，令天下重足而立，側目而視矣！」"
+        }
+      ],
+      "references": [
+        {
+          "title": "中國哲學書電子化計劃《漢書》相似段落",
+          "url": "https://ctext.org/text.pl?if=gb&node=65933&show=parallel",
+          "quote": "公為正卿，上不能褒先帝之功業，下不能化天下之邪心，安國富民，使囹圄空虛，何空取高皇帝約束紛更之為？",
+          "scope": "parallel_reading_from_search_excerpt_only",
+          "image_verified": false,
+          "note": "直接頁面HTTP 403；只把搜尋所見平行句列為暫參，不據其單獨改正文。"
+        }
+      ],
+      "rationale": "固定《史記》轉錄在引語中作「斑皇帝」，同一論責句的平行《漢書》檢索顯示「高皇帝」；高皇帝指漢高祖，故暫將原標「皇帝」連至高祖。保留「斑」與原文，不將平行讀法冒作本篇校定文字。",
       "human_reviewed": false,
       "model": null
     }

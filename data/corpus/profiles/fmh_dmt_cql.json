@@ -3,7 +3,7 @@
   "id": "fmh_dmt_cql",
   "canonical_person_id": "fmh_dmt_cql",
   "label": "汲黯",
-  "identity_note": null,
+  "identity_note": "《史記》以「姑姊子」稱司馬安；《兩漢刊誤補遺》釋為姑之子。僅記姑表親屬，未補姑母姓名、世數或父系共祖。",
   "review": "ai_provisional",
   "names": [
     "汲黯",
@@ -2751,6 +2751,67 @@
       },
       "interpretation_note": "承接上以黯故及其弟，子為汲黯之子；不補母親。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji120-004",
+      "subject_person_id": "fmh_dmt_cql",
+      "predicate": "paternal_aunt_child",
+      "object_person_id": "84g_35d_vcn",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-120",
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p014",
+          "quote": "卒後，上以黯故，官其弟汲仁至九卿，子汲偃至諸侯相。黯姑姊子司馬安亦少與黯為太子洗馬。安文深巧善宦，官四至九卿，以河南太守卒。昆弟以安故，同時至二千石者十人。濮陽段宏始事蓋侯信，信任宏，宏亦再至九卿。然衛人仕者皆嚴憚汲黯，出其下。",
+          "subject_person_mention_id": "c-shiji-120-jizheng:m014-0025",
+          "object_person_mention_id": "c-shiji-120-jizheng:m014-0029"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "姑姊子",
+        "paternal_aunt_person_id": null,
+        "generation_difference": 0,
+        "exact_distance": null,
+        "common_ancestor_person_id": null,
+        "subject_relative_age": "unknown",
+        "source_clause_binding": {
+          "pattern": "shiji120_jian_sima_an_paternal_aunt_child",
+          "subject_person_mention_id": "c-shiji-120-jizheng:m014-0025",
+          "object_person_mention_id": "c-shiji-120-jizheng:m014-0029",
+          "start": 25,
+          "end": 32,
+          "surface": "黯姑姊子司馬安"
+        }
+      },
+      "references": [
+        {
+          "title": "《兩漢刊誤補遺》卷六",
+          "url": "https://www.shidianguji.com/zh/book/CSYP023/chapter/1kxsuizuagxlu",
+          "quote": "司馬安之於汲黯，自史記言之，則爲姑之子，於黯爲内兄弟。自漢書言之，則爲姊之子，實黯之自出也。",
+          "scope": "commentary_interprets_shiji_kinship_and_reports_hanshu_difference",
+          "image_verified": false,
+          "note": "數位轉錄檢索文字，未核該書原刻影像；保存為兩書關係讀法參考，不改兩書原詞。"
+        }
+      ],
+      "comparative_evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-050",
+          "chapter_id": "c-hanshu-050-zhangfengjizheng",
+          "source_id": "s-hanshu-050-zhangfengjizheng",
+          "paragraph_id": "c-hanshu-050-zhangfengjizheng:jian:p003",
+          "quote": "居淮陽十歳而卒卒後上以黯故官其弟仁至九卿子偃至諸侯相黯姊子司馬安亦少與黯為太子洗馬",
+          "subject_person_mention_id": "c-hanshu-050-zhangfengjizheng:jian:m003-0026",
+          "object_person_mention_id": "c-hanshu-050-zhangfengjizheng:jian:m003-0029",
+          "comparison_note": "《漢書》本段作「姊子」；此斷言只記《史記》「姑姊子」按《兩漢刊誤補遺》所釋的姑母之子，不將《漢書》異稱合併或改寫。"
+        }
+      ],
+      "interpretation_note": "按《史記》原詞「姑姊子」及《兩漢刊誤補遺》對《史記》作「姑之子」的解釋，暫記汲黯父系姑母之子為司馬安；親等細節、姑母身份、汲黯父親及共同祖先均未明。此旁系不證明司馬安屬汲氏父系男系，不接入汲氏父系家族根。《漢書》原詞「姊子」另存比較證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
     }
   ],
   "related_people": {
@@ -2940,6 +3001,67 @@
       },
       "interpretation_note": "承接上以黯故及其弟，子為汲黯之子；不補母親。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji120-004",
+      "subject_person_id": "fmh_dmt_cql",
+      "predicate": "paternal_aunt_child",
+      "object_person_id": "84g_35d_vcn",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-120",
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p014",
+          "quote": "卒後，上以黯故，官其弟汲仁至九卿，子汲偃至諸侯相。黯姑姊子司馬安亦少與黯為太子洗馬。安文深巧善宦，官四至九卿，以河南太守卒。昆弟以安故，同時至二千石者十人。濮陽段宏始事蓋侯信，信任宏，宏亦再至九卿。然衛人仕者皆嚴憚汲黯，出其下。",
+          "subject_person_mention_id": "c-shiji-120-jizheng:m014-0025",
+          "object_person_mention_id": "c-shiji-120-jizheng:m014-0029"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "姑姊子",
+        "paternal_aunt_person_id": null,
+        "generation_difference": 0,
+        "exact_distance": null,
+        "common_ancestor_person_id": null,
+        "subject_relative_age": "unknown",
+        "source_clause_binding": {
+          "pattern": "shiji120_jian_sima_an_paternal_aunt_child",
+          "subject_person_mention_id": "c-shiji-120-jizheng:m014-0025",
+          "object_person_mention_id": "c-shiji-120-jizheng:m014-0029",
+          "start": 25,
+          "end": 32,
+          "surface": "黯姑姊子司馬安"
+        }
+      },
+      "references": [
+        {
+          "title": "《兩漢刊誤補遺》卷六",
+          "url": "https://www.shidianguji.com/zh/book/CSYP023/chapter/1kxsuizuagxlu",
+          "quote": "司馬安之於汲黯，自史記言之，則爲姑之子，於黯爲内兄弟。自漢書言之，則爲姊之子，實黯之自出也。",
+          "scope": "commentary_interprets_shiji_kinship_and_reports_hanshu_difference",
+          "image_verified": false,
+          "note": "數位轉錄檢索文字，未核該書原刻影像；保存為兩書關係讀法參考，不改兩書原詞。"
+        }
+      ],
+      "comparative_evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-050",
+          "chapter_id": "c-hanshu-050-zhangfengjizheng",
+          "source_id": "s-hanshu-050-zhangfengjizheng",
+          "paragraph_id": "c-hanshu-050-zhangfengjizheng:jian:p003",
+          "quote": "居淮陽十歳而卒卒後上以黯故官其弟仁至九卿子偃至諸侯相黯姊子司馬安亦少與黯為太子洗馬",
+          "subject_person_mention_id": "c-hanshu-050-zhangfengjizheng:jian:m003-0026",
+          "object_person_mention_id": "c-hanshu-050-zhangfengjizheng:jian:m003-0029",
+          "comparison_note": "《漢書》本段作「姊子」；此斷言只記《史記》「姑姊子」按《兩漢刊誤補遺》所釋的姑母之子，不將《漢書》異稱合併或改寫。"
+        }
+      ],
+      "interpretation_note": "按《史記》原詞「姑姊子」及《兩漢刊誤補遺》對《史記》作「姑之子」的解釋，暫記汲黯父系姑母之子為司馬安；親等細節、姑母身份、汲黯父親及共同祖先均未明。此旁系不證明司馬安屬汲氏父系男系，不接入汲氏父系家族根。《漢書》原詞「姊子」另存比較證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
     }
   ],
   "age_assertions": [],

@@ -3,7 +3,7 @@
   "id": "4kq_1x4_48g",
   "canonical_person_id": "4kq_1x4_48g",
   "label": "鄭君",
-  "identity_note": null,
+  "identity_note": "本篇以「其先」記鄭君為鄭當時祖先，未詳世數。",
   "review": "ai_provisional",
   "names": [
     "鄭君"
@@ -714,16 +714,73 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji120-005",
+      "subject_person_id": "jws_b08_hob",
+      "predicate": "ancestor",
+      "object_person_id": "4kq_1x4_48g",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-120",
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p015",
+          "quote": "鄭當時者，字莊，陳人也。其先鄭君嘗為項籍將；籍死，已而屬漢。高祖令諸故項籍臣名籍，鄭君獨不奉詔。詔盡拜名籍者為大夫，而逐鄭君。鄭君死孝文時。",
+          "subject_person_mention_id": "c-shiji-120-jizheng:m015-0000",
+          "object_person_mention_id": "c-shiji-120-jizheng:m015-0014"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其先鄭君",
+        "generation_distance": null,
+        "lineage": "unspecified"
+      },
+      "interpretation_note": "「其先」明言鄭君為鄭當時祖先，未指明父系、相隔世數或直接父子；只保留遠祖主張，不以此改 ID 世代路徑或補造中間人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "4kq_1x4_48g": "鄭君"
+    "4kq_1x4_48g": "鄭君",
+    "jws_b08_hob": "鄭當時"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "4kq_1x4_48g"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-shiji120-005",
+      "subject_person_id": "jws_b08_hob",
+      "predicate": "ancestor",
+      "object_person_id": "4kq_1x4_48g",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-120",
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p015",
+          "quote": "鄭當時者，字莊，陳人也。其先鄭君嘗為項籍將；籍死，已而屬漢。高祖令諸故項籍臣名籍，鄭君獨不奉詔。詔盡拜名籍者為大夫，而逐鄭君。鄭君死孝文時。",
+          "subject_person_mention_id": "c-shiji-120-jizheng:m015-0000",
+          "object_person_mention_id": "c-shiji-120-jizheng:m015-0014"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其先鄭君",
+        "generation_distance": null,
+        "lineage": "unspecified"
+      },
+      "interpretation_note": "「其先」明言鄭君為鄭當時祖先，未指明父系、相隔世數或直接父子；只保留遠祖主張，不以此改 ID 世代路徑或補造中間人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [
     {
