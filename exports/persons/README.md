@@ -1,12 +1,12 @@
 # 人物 JSON 索引
 
-可重建匯出，涵蓋目前已標註資料，包含明示選用的暫定跨篇同指；原 ID、證據與判讀均保留。並非全部史料或完整覆核。
+可重建匯出，涵蓋目前已標註資料，包含明示選用的暫定跨篇同指；現行人物 ID 與來源引文分開管理；身份更正後同步更新所有現役引用，不保留舊人物號別名。並非全部史料或完整覆核。
 
 程式可讀取 [index.json](index.json)，再依各筆 `path` 取得人物資料。重新產生：`python3 scripts/export_person_bundles.py`。局部重建可用 `--refresh-person-ids FILE`；FILE 可為 JSON ID 陣列或逐行 ID。若標註段落有變，程式也會刷新所有引用該段的人物包；其他 bundle 沿用，再完整重建索引與閱讀頁。
 
 出生排行與籍貫結構化欄位仍在逐篇回填；缺欄位不代表來源沒有此資訊。提及頻次依固定見證的獨立位置計算；原始錨點完整保留，同位置節引重出另列raw／duplicate與對應群組，不代表來源權威度。
 
-已接合父系見 [家族組裝資料](../../registry/family-assemblies.json)。`assembled_identity.person_id` 是共用家族根的組裝 ID，`source_person_ids` 保留各篇候選；父子及同指證據可由記錄 ID 回查。缺代節點另有 `ancestor_person_id`、`generation_distance` 與空值中間世代；父親空值不表示它另成一族。
+已接合父系見 [家族組裝資料](../../registry/family-assemblies.json)。`assembled_identity.person_id` 是共用家族根的組裝 ID，`source_person_ids` 僅列現行人物 ID；父子及同指證據可由記錄 ID 回查。缺代節點另有 `ancestor_person_id`、`generation_distance` 與空值中間世代；父親空值不表示它另成一族。
 
 點選家族標題可展開或收起後代。`*` 表示缺名世代，不建立人物，也不表示不同缺名位置是同一人。表內只列家族根後的 ID 尾碼；根人物以「根」表示，完整 ID 保留於家族標題及 JSON。最多提及來源另列一欄，同數並列；提及次數不代表史料優先權。已完成格式遷移的舊 ID 與 JSON 入口已撤除；待身份覆核的來源候選仍分存。
 
@@ -155,14 +155,6 @@
 
 </details>
 
-<details><summary><code>1a3_b0c_e6d</code> 謝沖（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 謝沖 | [《晉書・謝尚 謝安》][53]、[《宋書・張茂度 庾登之 謝方明 江夷》][213] | [JSON](1a3_b0c_e6d.json) |
-| `A` | 謝明慧 | [《晉書・謝尚 謝安》][53] | [JSON](1a3_b0c_e6d_A.json) |
-
-</details>
 
 <details><summary><code>1ay_9qe_u4h</code> 荀馗（5 名）</summary>
 
@@ -176,12 +168,16 @@
 
 </details>
 
-<details><summary><code>1b1_d4d_bb8</code> 謝鐵（2 名）</summary>
+<details><summary><code>1b1_d4d_bb8</code> 謝鐵（6 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 謝鐵 | [《晉書・謝尚 謝安》][53]、[《宋書・張茂度 庾登之 謝方明 江夷》][213] | [JSON](1b1_d4d_bb8.json) |
 | `A` | 謝邈 | [《晉書・謝尚 謝安》][53] | [JSON](1b1_d4d_bb8_A.json) |
+| `B` | 謝沖 | [《晉書・謝尚 謝安》][53]、[《宋書・張茂度 庾登之 謝方明 江夷》][213] | [JSON](1b1_d4d_bb8_B.json) |
+| `BA` | 謝方明 | [《宋書・張茂度 庾登之 謝方明 江夷》][213] | [JSON](1b1_d4d_bb8_BA.json) |
+| `BAA` | 謝惠連 | [《宋書・謝靈運》][225] | [JSON](1b1_d4d_bb8_BAA.json) |
+| `BB` | 謝明慧 | [《晉書・謝尚 謝安》][53] | [JSON](1b1_d4d_bb8_BB.json) |
 
 </details>
 
@@ -1576,14 +1572,6 @@
 
 </details>
 
-<details><summary><code>apr_7dg_tdd</code> 謝方明（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 謝方明 | [《宋書・張茂度 庾登之 謝方明 江夷》][213] | [JSON](apr_7dg_tdd.json) |
-| `A` | 惠連 | [《宋書・謝靈運》][225] | [JSON](apr_7dg_tdd_A.json) |
-
-</details>
 
 <details><summary><code>ath_xsq_n4i</code> 魯定公（11 名）</summary>
 

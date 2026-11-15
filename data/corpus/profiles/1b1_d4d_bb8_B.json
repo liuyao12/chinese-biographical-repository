@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "id": "1a3_b0c_e6d",
-  "canonical_person_id": "1a3_b0c_e6d",
+  "id": "1b1_d4d_bb8_B",
+  "canonical_person_id": "1b1_d4d_bb8_B",
   "label": "謝沖",
   "identity_note": "本批來源局部人物；不按同名跨史合併。",
   "review": "ai_provisional",
@@ -1392,9 +1392,9 @@
   "relations": [
     {
       "id": "a-jinshu079-expansion-014",
-      "subject_person_id": "1a3_b0c_e6d_A",
+      "subject_person_id": "1b1_d4d_bb8_BB",
       "predicate": "father",
-      "object_person_id": "1a3_b0c_e6d",
+      "object_person_id": "1b1_d4d_bb8_B",
       "status": "source_attested",
       "qualifiers": {
         "lineage": "paternal",
@@ -1423,9 +1423,9 @@
     },
     {
       "id": "a-song053-fangming-001",
-      "subject_person_id": "apr_7dg_tdd",
+      "subject_person_id": "1b1_d4d_bb8_BA",
       "predicate": "father",
-      "object_person_id": "1a3_b0c_e6d",
+      "object_person_id": "1b1_d4d_bb8_B",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "父沖",
@@ -1456,21 +1456,50 @@
     }
   ],
   "related_people": {
-    "1a3_b0c_e6d": "謝沖",
-    "1a3_b0c_e6d_A": "謝明慧",
-    "apr_7dg_tdd": "謝方明"
+    "1b1_d4d_bb8_B": "謝沖",
+    "1b1_d4d_bb8_BB": "謝明慧",
+    "1b1_d4d_bb8_BA": "謝方明",
+    "1b1_d4d_bb8": "謝鐵",
+    "1b1_d4d_bb8_A": "謝邈",
+    "1b1_d4d_bb8_BAA": "謝惠連"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "1b1_d4d_bb8_B",
+      "title": null,
+      "surname": "謝",
+      "ming": "沖",
+      "additional_names": [],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-053",
+      "chapter_id": "c-songshu-053-xiefangming",
+      "source_id": "s-songshu-053-xiefangming",
+      "paragraph_id": "c-songshu-053-xiefangming:p001",
+      "person_mention_id": "c-songshu-053-xiefangming:p001:m0025",
+      "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+      "note": "依來源脈絡補回省略的謝姓；原文及人物提及錨點照錄。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "father_in_named_xie_family",
+        "source_assertion_ids": [
+          "a-song053-fangming-001"
+        ],
+        "rationale": "《宋書》明載「謝方明……父沖」；依具名兒子謝方明補回父沖的謝姓，原文錨點仍是「沖」。"
+      }
+    }
+  ],
   "person_ids": [
-    "1a3_b0c_e6d"
+    "1b1_d4d_bb8_B"
   ],
   "preferred_relations": [
     {
       "id": "a-jinshu079-expansion-014",
-      "subject_person_id": "1a3_b0c_e6d_A",
+      "subject_person_id": "1b1_d4d_bb8_BB",
       "predicate": "father",
-      "object_person_id": "1a3_b0c_e6d",
+      "object_person_id": "1b1_d4d_bb8_B",
       "status": "source_attested",
       "qualifiers": {
         "lineage": "paternal",
@@ -1499,9 +1528,9 @@
     },
     {
       "id": "a-song053-fangming-001",
-      "subject_person_id": "apr_7dg_tdd",
+      "subject_person_id": "1b1_d4d_bb8_BA",
       "predicate": "father",
-      "object_person_id": "1a3_b0c_e6d",
+      "object_person_id": "1b1_d4d_bb8_B",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "父沖",
@@ -1534,5 +1563,63 @@
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "assembled_identity": {
+    "person_id": "1b1_d4d_bb8_B",
+    "representative_source_person_id": "1b1_d4d_bb8_B",
+    "source_person_ids": [
+      "1b1_d4d_bb8_B"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "1b1_d4d_bb8",
+    "source_assertion_id": null,
+    "assembly_id": "family-chenjun-xie-tie",
+    "root_person_id": "1b1_d4d_bb8",
+    "status": "editorial_preferred",
+    "human_reviewed": false,
+    "parent_connection": {
+      "type": "parent_between_consecutive_ancestors",
+      "chain_subject_person_id": "1b1_d4d_bb8_BA",
+      "nearer_ancestor_assertion_id": "a-song053-fangming-001",
+      "farther_ancestor_assertion_id": "a-song053-fangming-002",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "rationale": "《宋書》明載謝方明父沖、祖鐵，並稱謝邈為方明伯父；《晉書》明載謝邈父鐵。據此暫推沖為鐵子、邈與沖為兄弟，將沖置於鐵下一代。傳世文字未直書「鐵父沖」，故不作原文明載；不推同母或絕對排行。",
+      "references": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-053",
+          "chapter_id": "c-songshu-053-xiefangming",
+          "source_id": "s-songshu-053-xiefangming",
+          "paragraph_id": "c-songshu-053-xiefangming:p001",
+          "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+          "assertion_id": "a-song053-fangming-001",
+          "scope": "明載方明父沖、祖鐵；以此連續代數為家系推導",
+          "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-053",
+          "chapter_id": "c-songshu-053-xiefangming",
+          "source_id": "s-songshu-053-xiefangming",
+          "paragraph_id": "c-songshu-053-xiefangming:p001",
+          "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+          "assertion_id": "a-song053-fangming-002",
+          "scope": "明載謝方明之祖父鐵",
+          "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "source_id": "s-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xiemiao-p001",
+          "quote": "邈字茂度。父鐵，永嘉太守。",
+          "assertion_id": "a-jinshu079-expansion-016",
+          "scope": "明載謝邈父鐵",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7079&oldid=2645985"
+        }
+      ]
+    }
+  }
 }

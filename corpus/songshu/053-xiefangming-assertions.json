@@ -5,9 +5,9 @@
   "assertions": [
     {
       "id": "a-song053-fangming-001",
-      "subject_person_id": "apr_7dg_tdd",
+      "subject_person_id": "1b1_d4d_bb8_BA",
       "predicate": "father",
-      "object_person_id": "1a3_b0c_e6d",
+      "object_person_id": "1b1_d4d_bb8_B",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "父沖",
@@ -38,7 +38,7 @@
     },
     {
       "id": "a-song053-fangming-002",
-      "subject_person_id": "apr_7dg_tdd",
+      "subject_person_id": "1b1_d4d_bb8_BA",
       "predicate": "grandfather",
       "object_person_id": "1b1_d4d_bb8",
       "status": "source_attested",
@@ -71,7 +71,7 @@
     },
     {
       "id": "a-song053-fangming-003",
-      "subject_person_id": "apr_7dg_tdd",
+      "subject_person_id": "1b1_d4d_bb8_BA",
       "predicate": "paternal_uncle",
       "object_person_id": "1b1_d4d_bb8_A",
       "status": "source_attested",
@@ -104,7 +104,7 @@
     },
     {
       "id": "a-song053-fangming-004",
-      "subject_person_id": "apr_7dg_tdd",
+      "subject_person_id": "1b1_d4d_bb8_BA",
       "predicate": "agnatic_cousin",
       "object_person_id": "684_eaa_511",
       "status": "source_attested",
@@ -144,7 +144,7 @@
     },
     {
       "id": "a-song053-fangming-005",
-      "subject_person_id": "apr_7dg_tdd",
+      "subject_person_id": "1b1_d4d_bb8_BA",
       "predicate": "agnatic_cousin",
       "object_person_id": "aa6_83c_juy_BAC",
       "status": "source_attested",
@@ -184,9 +184,9 @@
     },
     {
       "id": "a-song053-fangming-006",
-      "subject_person_id": "apr_7dg_tdd_A",
+      "subject_person_id": "1b1_d4d_bb8_BAA",
       "predicate": "father",
-      "object_person_id": "apr_7dg_tdd",
+      "object_person_id": "1b1_d4d_bb8_BA",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "子惠連",
@@ -219,12 +219,12 @@
       "id": "a-song053-fangming-007",
       "subject_person_id": "711_85a_dc8",
       "predicate": "brother",
-      "object_person_id": "apr_7dg_tdd_A",
+      "object_person_id": "1b1_d4d_bb8_BAA",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "弟惠宣",
         "relative_birth_order": {
-          "older_person_id": "apr_7dg_tdd_A",
+          "older_person_id": "1b1_d4d_bb8_BAA",
           "younger_person_id": "711_85a_dc8",
           "operator": "lt",
           "scope": "siblings",
@@ -259,7 +259,7 @@
       "id": "a-song053-fangming-008",
       "subject_person_id": "aa6_83c_juy_CDAA",
       "predicate": "agnatic_cousin",
-      "object_person_id": "apr_7dg_tdd_A",
+      "object_person_id": "1b1_d4d_bb8_BAA",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "族兄靈運",
@@ -299,12 +299,12 @@
       "id": "a-song053-fangming-009",
       "subject_person_id": "58f_bf0_724",
       "predicate": "sister",
-      "object_person_id": "apr_7dg_tdd",
+      "object_person_id": "1b1_d4d_bb8_BA",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "妹",
         "relative_birth_order": {
-          "older_person_id": "apr_7dg_tdd",
+          "older_person_id": "1b1_d4d_bb8_BA",
           "younger_person_id": "58f_bf0_724",
           "operator": "lt",
           "scope": "siblings",
@@ -365,6 +365,47 @@
       ],
       "interpretation_note": "卞範之有女；方明拒婚，父女斷言不等婚姻成立。",
       "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song053-fangming-011",
+      "subject_person_id": "1b1_d4d_bb8_B",
+      "predicate": "brother",
+      "object_person_id": "1b1_d4d_bb8_A",
+      "status": "contextual_provisional",
+      "qualifiers": {
+        "source_term": "伯父",
+        "lineage": "paternal",
+        "relative_birth_order": {
+          "older_person_id": "1b1_d4d_bb8_A",
+          "younger_person_id": "1b1_d4d_bb8_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-053",
+          "chapter_id": "c-songshu-053-xiefangming",
+          "source_id": "s-songshu-053-xiefangming",
+          "paragraph_id": "c-songshu-053-xiefangming:p001",
+          "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+          "subject_person_mention_id": "c-songshu-053-xiefangming:p001:m0025",
+          "object_person_mention_id": "c-songshu-053-xiefangming:p001:m0064",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-053-xiefangming:p001",
+            "start": 58,
+            "end": 60,
+            "surface": "伯父"
+          }
+        }
+      ],
+      "interpretation_note": "原文稱謝邈為謝方明之伯父，明示其為方明父沖的父系兄長。配合父沖、祖鐵及邈父鐵，將邈、沖組作同父兄弟並記邈年長；不推同母、絕對排行或原文明載「邈、沖兄弟」。",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     }
