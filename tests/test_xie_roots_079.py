@@ -183,6 +183,19 @@ class XieRoots079(unittest.TestCase):
         self.assertEqual(assembled[self.people['王修']]['parent_person_id'], self.people['王濛'])
         self.assertNotEqual(assembled[self.people['王濛']]['root_person_id'], self.people['王仁'])
 
+    def test_xie_en_is_sourced_as_shao_son_but_not_merged_with_si(self):
+        en = self.rows['aa6_83c_juy_DBB']
+        self.assertEqual(en['source_person_ids'], ['l2s_7p5_dlo'])
+        self.assertEqual(en['parent_person_id'], self.people['謝韶'])
+        self.assertEqual(en['source_assertion_id'], 'a-jinshu079-xiewan-facts-shao-en')
+        assertion = self.assertions[en['source_assertion_id']]
+        self.assertEqual(assertion['subject_person_id'], 'l2s_7p5_dlo')
+        self.assertEqual(assertion['object_person_id'], self.people['謝韶'])
+        self.assertEqual(self.rows[self.people['謝思']]['parent_person_id'], self.people['謝韶'])
+        self.assertNotEqual(en['representative_source_person_id'], self.people['謝思'])
+        self.assertNotIn(en['person_id'], {self.people['謝曜'], self.people['謝弘微']})
+        self.assertEqual(self.rows[self.people['謝弘微']]['parent_person_id'], self.people['謝思'])
+
 
 if __name__ == '__main__':
     unittest.main()

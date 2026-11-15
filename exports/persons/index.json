@@ -53169,6 +53169,37 @@
       }
     },
     {
+      "person_id": "aa6_83c_juy_DBB",
+      "label": "謝恩",
+      "path": "aa6_83c_juy_DBB.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 3,
+      "raw_mention_count": 3,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 3,
+      "table_mention_count": 0,
+      "source_count": 2,
+      "most_mentioned_source_ids": [
+        "s-jinshu-079-xielang-family"
+      ],
+      "source_person_id": "l2s_7p5_dlo",
+      "assembled_identity": {
+        "person_id": "aa6_83c_juy_DBB",
+        "representative_source_person_id": "l2s_7p5_dlo",
+        "source_person_ids": [
+          "l2s_7p5_dlo"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "aa6_83c_juy_DB",
+        "source_assertion_id": "a-jinshu079-xiewan-facts-shao-en",
+        "assembly_id": "family-chenjun-xie-lang",
+        "root_person_id": "aa6_83c_juy",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
       "person_id": "aa6_83c_juy_E",
       "label": "謝石",
       "path": "aa6_83c_juy_E.json",
@@ -93432,22 +93463,6 @@
       "source_count": 1,
       "most_mentioned_source_ids": [
         "s-jinshu-098-ws2614273"
-      ]
-    },
-    {
-      "person_id": "l2s_7p5_dlo",
-      "label": "恩（謝韶子，晉書079原字）",
-      "path": "l2s_7p5_dlo.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 3,
-      "raw_mention_count": 3,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 3,
-      "table_mention_count": 0,
-      "source_count": 2,
-      "most_mentioned_source_ids": [
-        "s-jinshu-079-xielang-family"
       ]
     },
     {
@@ -150052,7 +150067,9 @@
       ]
     }
   ],
-  "id_aliases": {},
+  "id_aliases": {
+    "l2s_7p5_dlo": "aa6_83c_juy_DBB"
+  },
   "reading_indexes": {
     "family_pages": [
       "README.md"
