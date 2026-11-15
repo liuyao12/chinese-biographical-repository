@@ -29,20 +29,20 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "71段全文及38名歷史／傳說來源候選完成首輪具名與未定稱呼標註；全部身份、匿名者、代詞、版本及引文仍待覆核。",
+    "coverage": "71段全文及38名歷史／傳說來源候選完成首輪具名與未定稱呼標註；全部身份、匿名者、代詞、版本及引文仍待覆核。 p012、p038擬設辭的「天子」據篇內作者說明暫接漢武帝，明示為文學指涉，不當實際對話。p004–p012逐處記錄具名及稱號化虛構角色（含使者等回指）並回連p003角色說明；大王依故事語境連齊王角色。",
     "limitations": [
       "未核影像，保留私用字缺字與數位重句。",
       "藺相如與司馬相如分人；慕其為人不是同一身分。",
       "賦中子虛、烏有先生、無是公為明示虛構人物，須另標歷史性，不當歷史人。",
       "內嵌引文的神話、典故及君王稱呼須逐處辨認，不套外層敘事身分。",
       "第2段王孫承接卓王孫，司馬長卿及長卿承接司馬相如；令字普通使令不全域標王吉。",
-      "第3段明示虛構三人暫留未解錨點，待虛構身分記錄；子虛賦題名不當人物出現。",
+      "第3段明示子虛、烏有先生、無是公為賦中虛構角色；原錨點仍保留未定類型，結構化判讀及跨段角色回指見 referent_interpretations；子虛賦題名不當人物提及。",
       "一男兩女及昆弟保留群體，不補姓名。",
-      "第4至15段賦中子虛、烏有先生、無是公及楚王齊王不連歷史君臣；暫用未解錨點保存虛構語境。",
+      "第4至12段賦中子虛、烏有先生、無是公及楚王、齊王等角色，依本篇敘事逐處連作文學虛構人物；大王等稱呼按上下文回指齊王，不能據此連接歷史君臣。",
       "專諸、禹、契為明示典故人名，未據賦辭補其生平事件。陽子、纖阿與鄭女曼姬的古注異說另存指稱判讀，不由候選或泛稱自動連人。",
       "干將之雄戟為器物稱謂語境，未另記為匠人人物提及。",
       "第20段孫叔、衛公據集解所引漢書音義分接公孫賀、衛青；賦中校獵不作確定共同事件。靈圉、偓佺、青琴、宓妃仍另待神話層辨識。",
-      "陶唐氏、葛天氏為樂舞典故語境暫存未定，三皇五帝及二子保留群體，不拆姓名。",
+      "陶唐氏是否指堯存異說，不推人物到場；葛天氏依《漢書音義》古注另列傳說帝王號，僅在歌名中，不補實際到場或生平；三皇五帝及二子保留群體，不拆姓名。",
       "第21段蜚廉、猛氏在獸獵語境，不自動當同名人物；第26段重句保留原文。",
       "第32段檄文太子、中郎將及單于暫留未定，未由官稱猜人。",
       "王然於保留於字，不默改卷116王然于；壺充國不默改壺字。",
@@ -1688,6 +1688,1460 @@
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "note": "〈索隱述贊〉的「子虛」回指本篇 p003 明言「空藉此三人為辭」的賦中角色；本案以 related_mention_ids 連回該處三個角色錨點，不把述贊所用名號轉為歷史人物，也不另造人名ID。"
+      },
+      {
+        "id": "ri-shiji117-fiction-004-004-0002",
+        "paragraph_id": "c-shiji-117-xiangru:p004",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m004-0002"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m003-0117",
+          "c-shiji-117-xiangru:m004-0032",
+          "c-shiji-117-xiangru:m004-0066",
+          "c-shiji-117-xiangru:m005-0000"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-004-004-0002-reading",
+        "source_terms": [
+          "子虛"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p004",
+          "quote": "楚使子虛使於齊，齊王悉發境內之士，備車騎之眾，與使者出田。田罷，子虛過詫烏有先生，而無是公在焉。坐定，烏有先生問曰：「今日田樂乎？」子虛曰：「樂。」「獲多乎？」曰：「少。」「然則何樂？」曰：「僕樂齊王之欲夸僕以車騎之眾，而僕對以雲夢之事也。」曰：「可得聞乎？」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m004-0002"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-004-004-0002-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-004-004-0008",
+        "paragraph_id": "c-shiji-117-xiangru:p004",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m004-0008"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m004-0098",
+          "c-shiji-117-xiangru:m005-0157",
+          "c-shiji-117-xiangru:m005-0007",
+          "c-shiji-117-xiangru:m010-0100",
+          "c-shiji-117-xiangru:m011-0336",
+          "c-shiji-117-xiangru:m010-0066"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-004-004-0008-reading",
+        "source_terms": [
+          "齊王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p004",
+          "quote": "楚使子虛使於齊，齊王悉發境內之士，備車騎之眾，與使者出田。田罷，子虛過詫烏有先生，而無是公在焉。坐定，烏有先生問曰：「今日田樂乎？」子虛曰：「樂。」「獲多乎？」曰：「少。」「然則何樂？」曰：「僕樂齊王之欲夸僕以車騎之眾，而僕對以雲夢之事也。」曰：「可得聞乎？」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m004-0008"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-004-004-0008-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本處「齊王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本處「齊王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本處「齊王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-004-004-0032",
+        "paragraph_id": "c-shiji-117-xiangru:p004",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m004-0032"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m003-0117",
+          "c-shiji-117-xiangru:m004-0002",
+          "c-shiji-117-xiangru:m004-0066",
+          "c-shiji-117-xiangru:m005-0000"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-004-004-0032-reading",
+        "source_terms": [
+          "子虛"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p004",
+          "quote": "楚使子虛使於齊，齊王悉發境內之士，備車騎之眾，與使者出田。田罷，子虛過詫烏有先生，而無是公在焉。坐定，烏有先生問曰：「今日田樂乎？」子虛曰：「樂。」「獲多乎？」曰：「少。」「然則何樂？」曰：「僕樂齊王之欲夸僕以車騎之眾，而僕對以雲夢之事也。」曰：「可得聞乎？」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m004-0032"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-004-004-0032-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-004-004-0036",
+        "paragraph_id": "c-shiji-117-xiangru:p004",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m004-0036"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m003-0130",
+          "c-shiji-117-xiangru:m004-0051",
+          "c-shiji-117-xiangru:m011-0000"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-004-004-0036-reading",
+        "source_terms": [
+          "烏有先生"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p004",
+          "quote": "楚使子虛使於齊，齊王悉發境內之士，備車騎之眾，與使者出田。田罷，子虛過詫烏有先生，而無是公在焉。坐定，烏有先生問曰：「今日田樂乎？」子虛曰：「樂。」「獲多乎？」曰：「少。」「然則何樂？」曰：「僕樂齊王之欲夸僕以車騎之眾，而僕對以雲夢之事也。」曰：「可得聞乎？」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m004-0036"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-004-004-0036-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「烏有先生」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「烏有先生」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「烏有先生」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-004-004-0042",
+        "paragraph_id": "c-shiji-117-xiangru:p004",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m004-0042"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m003-0148",
+          "c-shiji-117-xiangru:m012-0000"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-004-004-0042-reading",
+        "source_terms": [
+          "無是公"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p004",
+          "quote": "楚使子虛使於齊，齊王悉發境內之士，備車騎之眾，與使者出田。田罷，子虛過詫烏有先生，而無是公在焉。坐定，烏有先生問曰：「今日田樂乎？」子虛曰：「樂。」「獲多乎？」曰：「少。」「然則何樂？」曰：「僕樂齊王之欲夸僕以車騎之眾，而僕對以雲夢之事也。」曰：「可得聞乎？」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m004-0042"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-004-004-0042-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「無是公」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「無是公」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「無是公」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-004-004-0051",
+        "paragraph_id": "c-shiji-117-xiangru:p004",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m004-0051"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m003-0130",
+          "c-shiji-117-xiangru:m004-0036",
+          "c-shiji-117-xiangru:m011-0000"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-004-004-0051-reading",
+        "source_terms": [
+          "烏有先生"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p004",
+          "quote": "楚使子虛使於齊，齊王悉發境內之士，備車騎之眾，與使者出田。田罷，子虛過詫烏有先生，而無是公在焉。坐定，烏有先生問曰：「今日田樂乎？」子虛曰：「樂。」「獲多乎？」曰：「少。」「然則何樂？」曰：「僕樂齊王之欲夸僕以車騎之眾，而僕對以雲夢之事也。」曰：「可得聞乎？」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m004-0051"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-004-004-0051-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「烏有先生」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「烏有先生」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「烏有先生」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-004-004-0066",
+        "paragraph_id": "c-shiji-117-xiangru:p004",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m004-0066"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m003-0117",
+          "c-shiji-117-xiangru:m004-0002",
+          "c-shiji-117-xiangru:m004-0032",
+          "c-shiji-117-xiangru:m005-0000"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-004-004-0066-reading",
+        "source_terms": [
+          "子虛"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p004",
+          "quote": "楚使子虛使於齊，齊王悉發境內之士，備車騎之眾，與使者出田。田罷，子虛過詫烏有先生，而無是公在焉。坐定，烏有先生問曰：「今日田樂乎？」子虛曰：「樂。」「獲多乎？」曰：「少。」「然則何樂？」曰：「僕樂齊王之欲夸僕以車騎之眾，而僕對以雲夢之事也。」曰：「可得聞乎？」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m004-0066"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-004-004-0066-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-004-004-0098",
+        "paragraph_id": "c-shiji-117-xiangru:p004",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m004-0098"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m004-0008",
+          "c-shiji-117-xiangru:m005-0157",
+          "c-shiji-117-xiangru:m005-0007",
+          "c-shiji-117-xiangru:m010-0100",
+          "c-shiji-117-xiangru:m011-0336",
+          "c-shiji-117-xiangru:m010-0066"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-004-004-0098-reading",
+        "source_terms": [
+          "齊王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p004",
+          "quote": "楚使子虛使於齊，齊王悉發境內之士，備車騎之眾，與使者出田。田罷，子虛過詫烏有先生，而無是公在焉。坐定，烏有先生問曰：「今日田樂乎？」子虛曰：「樂。」「獲多乎？」曰：「少。」「然則何樂？」曰：「僕樂齊王之欲夸僕以車騎之眾，而僕對以雲夢之事也。」曰：「可得聞乎？」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m004-0098"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-004-004-0098-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本處「齊王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本處「齊王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本處「齊王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-005-005-0000",
+        "paragraph_id": "c-shiji-117-xiangru:p005",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m005-0000"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m003-0117",
+          "c-shiji-117-xiangru:m004-0002",
+          "c-shiji-117-xiangru:m004-0032",
+          "c-shiji-117-xiangru:m004-0066"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-005-005-0000-reading",
+        "source_terms": [
+          "子虛"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p005",
+          "quote": "子虛曰：「可。王駕車千乘，選徒萬騎，田於海濱。列卒滿澤，罘罔彌山，揜兔轔鹿，射麋腳麟。鶩於鹽浦，割鮮染輪。射中獲多，矜而自功。顧謂僕曰：『楚亦有平原廣澤遊獵之地饒樂若此者乎？楚王之獵何與寡人？』僕下車對曰：『臣，楚國之鄙人也，幸得宿衛十有餘年，時從出遊，遊於後園，覽於有無，然猶未能遍睹也，又惡足以言其外澤者乎！』齊王曰：『雖然，略以子之所聞見而言之。』",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m005-0000"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-005-005-0000-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「子虛」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-005-005-0087",
+        "paragraph_id": "c-shiji-117-xiangru:p005",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m005-0087"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m007-0016",
+          "c-shiji-117-xiangru:m007-0157",
+          "c-shiji-117-xiangru:m010-0035",
+          "c-shiji-117-xiangru:m011-0092"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-005-005-0087-reading",
+        "source_terms": [
+          "楚王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p005",
+          "quote": "子虛曰：「可。王駕車千乘，選徒萬騎，田於海濱。列卒滿澤，罘罔彌山，揜兔轔鹿，射麋腳麟。鶩於鹽浦，割鮮染輪。射中獲多，矜而自功。顧謂僕曰：『楚亦有平原廣澤遊獵之地饒樂若此者乎？楚王之獵何與寡人？』僕下車對曰：『臣，楚國之鄙人也，幸得宿衛十有餘年，時從出遊，遊於後園，覽於有無，然猶未能遍睹也，又惡足以言其外澤者乎！』齊王曰：『雖然，略以子之所聞見而言之。』",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m005-0087"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-005-005-0087-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-005-005-0157",
+        "paragraph_id": "c-shiji-117-xiangru:p005",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m005-0157"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m004-0008",
+          "c-shiji-117-xiangru:m004-0098",
+          "c-shiji-117-xiangru:m005-0007",
+          "c-shiji-117-xiangru:m010-0100",
+          "c-shiji-117-xiangru:m011-0336",
+          "c-shiji-117-xiangru:m010-0066"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-005-005-0157-reading",
+        "source_terms": [
+          "齊王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p005",
+          "quote": "子虛曰：「可。王駕車千乘，選徒萬騎，田於海濱。列卒滿澤，罘罔彌山，揜兔轔鹿，射麋腳麟。鶩於鹽浦，割鮮染輪。射中獲多，矜而自功。顧謂僕曰：『楚亦有平原廣澤遊獵之地饒樂若此者乎？楚王之獵何與寡人？』僕下車對曰：『臣，楚國之鄙人也，幸得宿衛十有餘年，時從出遊，遊於後園，覽於有無，然猶未能遍睹也，又惡足以言其外澤者乎！』齊王曰：『雖然，略以子之所聞見而言之。』",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m005-0157"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-005-005-0157-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本處「齊王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本處「齊王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本處「齊王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-007-007-0016",
+        "paragraph_id": "c-shiji-117-xiangru:p007",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m007-0016"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m005-0087",
+          "c-shiji-117-xiangru:m007-0157",
+          "c-shiji-117-xiangru:m010-0035",
+          "c-shiji-117-xiangru:m011-0092"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-007-007-0016-reading",
+        "source_terms": [
+          "楚王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p007",
+          "quote": "「『於是乃使專諸之倫，手格此獸。楚王乃駕馴駁之駟，乘雕玉之輿，靡魚須之橈旃，曳明月之珠旗，建干將之雄戟，左烏嗥之雕弓，右夏服之勁箭；陽子驂乘，纖阿為禦；案節未舒，即陵狡獸，轔邛邛，蹵距虛，軼野馬而𨎥騊駼，乘遺風而射遊騏；儵眒淒浰，靁動熛至，星流霆擊，弓不虛發，中必決眥，洞胷達腋，絕乎心繫，獲若雨獸，揜草蔽地。於是楚王乃弭節裴回，翱翔容與，覽乎陰林，觀壯士之暴怒，與猛獸之恐懼，徼𧮬受詘，殫睹衆物之變態。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m007-0016"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-007-007-0016-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-007-007-0157",
+        "paragraph_id": "c-shiji-117-xiangru:p007",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m007-0157"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m005-0087",
+          "c-shiji-117-xiangru:m007-0016",
+          "c-shiji-117-xiangru:m010-0035",
+          "c-shiji-117-xiangru:m011-0092"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-007-007-0157-reading",
+        "source_terms": [
+          "楚王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p007",
+          "quote": "「『於是乃使專諸之倫，手格此獸。楚王乃駕馴駁之駟，乘雕玉之輿，靡魚須之橈旃，曳明月之珠旗，建干將之雄戟，左烏嗥之雕弓，右夏服之勁箭；陽子驂乘，纖阿為禦；案節未舒，即陵狡獸，轔邛邛，蹵距虛，軼野馬而𨎥騊駼，乘遺風而射遊騏；儵眒淒浰，靁動熛至，星流霆擊，弓不虛發，中必決眥，洞胷達腋，絕乎心繫，獲若雨獸，揜草蔽地。於是楚王乃弭節裴回，翱翔容與，覽乎陰林，觀壯士之暴怒，與猛獸之恐懼，徼𧮬受詘，殫睹衆物之變態。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m007-0157"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-007-007-0157-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-010-010-0035",
+        "paragraph_id": "c-shiji-117-xiangru:p010",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m010-0035"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m005-0087",
+          "c-shiji-117-xiangru:m007-0016",
+          "c-shiji-117-xiangru:m007-0157",
+          "c-shiji-117-xiangru:m011-0092"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-010-010-0035-reading",
+        "source_terms": [
+          "楚王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p010",
+          "quote": "「『將息獠者，擊靈鼓，起烽燧，車案行，騎就隊，纚乎淫淫，班乎裔裔。於是楚王乃登陽雲之臺，泊乎無為，澹乎自持，勺藥之和具而後禦之。不若大王終日馳騁而不下輿，脟割輪淬，自以為娛。臣竊觀之，齊殆不如。』於是王默然無以應僕也。」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m010-0035"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-010-010-0035-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-010-010-0066",
+        "paragraph_id": "c-shiji-117-xiangru:p010",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m010-0066"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m004-0008",
+          "c-shiji-117-xiangru:m004-0098",
+          "c-shiji-117-xiangru:m005-0157",
+          "c-shiji-117-xiangru:m005-0007",
+          "c-shiji-117-xiangru:m010-0100",
+          "c-shiji-117-xiangru:m011-0336"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-010-010-0066-reading",
+        "source_terms": [
+          "大王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p010",
+          "quote": "「『將息獠者，擊靈鼓，起烽燧，車案行，騎就隊，纚乎淫淫，班乎裔裔。於是楚王乃登陽雲之臺，泊乎無為，澹乎自持，勺藥之和具而後禦之。不若大王終日馳騁而不下輿，脟割輪淬，自以為娛。臣竊觀之，齊殆不如。』於是王默然無以應僕也。」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m010-0066"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-010-010-0066-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本處「大王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本處「大王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本處「大王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-011-011-0000",
+        "paragraph_id": "c-shiji-117-xiangru:p011",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m011-0000"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m003-0130",
+          "c-shiji-117-xiangru:m004-0036",
+          "c-shiji-117-xiangru:m004-0051"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-011-011-0000-reading",
+        "source_terms": [
+          "烏有先生"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p011",
+          "quote": "烏有先生曰：「是何言之過也！足下不遠千里，來況齊國，王悉發境內之士，而備車騎之眾，以出田，乃欲戮力致獲，以娛左右也，何名為誇哉！問楚地之有無者，原聞大國之風烈，先生之餘論也。今足下不稱楚王之德厚，而盛推雲夢以為高，奢言淫樂而顯侈靡，竊為足下不取也。必若所言，固非楚國之美也。有而言之，是章君之惡；無而言之，是害足下之信。章君之惡而傷私義，二者無一可，而先生行之，必且輕於齊而累於楚矣。且齊東陼巨海，南有琅邪，觀乎成山，射乎之罘，浮勃澥，游孟諸，邪與肅慎為鄰，右以湯穀為界，秋田乎青丘，傍徨乎海外，吞若雲夢者八九，其於胸中曾不蒂芥。若乃俶儻瑰偉，異方殊類，珍怪鳥獸，萬端鱗萃，充仞其中者，不可勝記，禹不能名，契不能計。然在諸侯之位，不敢言遊戲之樂，苑囿之大；先生又見客，是以王辭而不復，何為無用應哉！」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m011-0000"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-011-011-0000-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「烏有先生」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「烏有先生」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「烏有先生」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-011-011-0092",
+        "paragraph_id": "c-shiji-117-xiangru:p011",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m011-0092"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m005-0087",
+          "c-shiji-117-xiangru:m007-0016",
+          "c-shiji-117-xiangru:m007-0157",
+          "c-shiji-117-xiangru:m010-0035"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-011-011-0092-reading",
+        "source_terms": [
+          "楚王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p011",
+          "quote": "烏有先生曰：「是何言之過也！足下不遠千里，來況齊國，王悉發境內之士，而備車騎之眾，以出田，乃欲戮力致獲，以娛左右也，何名為誇哉！問楚地之有無者，原聞大國之風烈，先生之餘論也。今足下不稱楚王之德厚，而盛推雲夢以為高，奢言淫樂而顯侈靡，竊為足下不取也。必若所言，固非楚國之美也。有而言之，是章君之惡；無而言之，是害足下之信。章君之惡而傷私義，二者無一可，而先生行之，必且輕於齊而累於楚矣。且齊東陼巨海，南有琅邪，觀乎成山，射乎之罘，浮勃澥，游孟諸，邪與肅慎為鄰，右以湯穀為界，秋田乎青丘，傍徨乎海外，吞若雲夢者八九，其於胸中曾不蒂芥。若乃俶儻瑰偉，異方殊類，珍怪鳥獸，萬端鱗萃，充仞其中者，不可勝記，禹不能名，契不能計。然在諸侯之位，不敢言遊戲之樂，苑囿之大；先生又見客，是以王辭而不復，何為無用應哉！」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m011-0092"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-011-011-0092-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本處「楚王」是子虛賦所設齊楚遊獵故事中的君王角色；依本篇 p003 對賦中虛構設辭的說明及前後文，與歷史上的齊王、楚王分開。此分類不建立或連接歷史人物ID，也不證明故事中的對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-012-012-0000",
+        "paragraph_id": "c-shiji-117-xiangru:p012",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m012-0000"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m003-0148",
+          "c-shiji-117-xiangru:m004-0042"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-012-012-0000-reading",
+        "source_terms": [
+          "無是公"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p012",
+          "quote": "無是公听然而笑曰：「楚則失矣，齊亦未為得也。夫使諸侯納貢者，非為財幣，所以述職也；封疆畫界者，非為守禦，所以禁淫也。今齊列為東籓，而外私肅慎，捐國逾限，越海而田，其於義故未可也。且二君之論，不務明君臣之義而正諸侯之禮，徒事爭游獵之樂，苑囿之大，欲以奢侈相勝，荒淫相越，此不可以揚名發譽，而適足以貶君自損也。且夫齊楚之事又焉足道邪！君未睹夫巨麗也，獨不聞天子之上林乎？",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m012-0000"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-012-012-0000-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「無是公」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「無是公」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本傳 p003 明言子虛、烏有先生、無是公為「空藉此三人為辭」；本處「無是公」承接同一賦中故事角色。此分類只指文學敘事角色，不建立或連接歷史人物ID，也不證明對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-012-two-kings",
+        "paragraph_id": "c-shiji-117-xiangru:p012",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m012-0090"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m004-0008",
+          "c-shiji-117-xiangru:m004-0098",
+          "c-shiji-117-xiangru:m005-0087",
+          "c-shiji-117-xiangru:m005-0157",
+          "c-shiji-117-xiangru:m007-0016",
+          "c-shiji-117-xiangru:m007-0157",
+          "c-shiji-117-xiangru:m010-0035",
+          "c-shiji-117-xiangru:m011-0092"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-012-two-kings-reading",
+        "source_terms": [
+          "二君"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p012",
+          "quote": "無是公听然而笑曰：「楚則失矣，齊亦未為得也。夫使諸侯納貢者，非為財幣，所以述職也；封疆畫界者，非為守禦，所以禁淫也。今齊列為東籓，而外私肅慎，捐國逾限，越海而田，其於義故未可也。且二君之論，不務明君臣之義而正諸侯之禮，徒事爭游獵之樂，苑囿之大，欲以奢侈相勝，荒淫相越，此不可以揚名發譽，而適足以貶君自損也。且夫齊楚之事又焉足道邪！君未睹夫巨麗也，獨不聞天子之上林乎？",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m012-0090"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-012-two-kings-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "generic_group",
+            "candidate_person_ids": [],
+            "interpretation": "「二君」總指前文子虛所述的楚王與齊王兩個賦中君王角色；此處討論的是虛構故事裡的兩個君王，不建立歷史人物名單，也不表示真實君主曾如此交談。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "「二君」總指前文子虛所述的楚王與齊王兩個賦中君王角色；此處討論的是虛構故事裡的兩個君王，不建立歷史人物名單，也不表示真實君主曾如此交談。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "「二君」總指前文子虛所述的楚王與齊王兩個賦中君王角色；此處討論的是虛構故事裡的兩個君王，不建立歷史人物名單，也不表示真實君主曾如此交談。"
+      },
+      {
+        "id": "ri-shiji117-fiction-004-envoy",
+        "paragraph_id": "c-shiji-117-xiangru:p004",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m004-0024"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m004-0002",
+          "c-shiji-117-xiangru:m004-0032",
+          "c-shiji-117-xiangru:m005-0000",
+          "c-shiji-117-xiangru:m003-0117"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-004-envoy-reading",
+        "source_terms": [
+          "使者"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p004",
+          "quote": "楚使子虛使於齊，齊王悉發境內之士，備車騎之眾，與使者出田。田罷，子虛過詫烏有先生，而無是公在焉。坐定，烏有先生問曰：「今日田樂乎？」子虛曰：「樂。」「獲多乎？」曰：「少。」「然則何樂？」曰：「僕樂齊王之欲夸僕以車騎之眾，而僕對以雲夢之事也。」曰：「可得聞乎？」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m004-0024"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-004-envoy-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本處「使者」承接同段「楚使子虛使於齊」，是子虛賦所設故事中的虛構使者角色；不建立或連接歷史人物ID，也不證明出使及對話實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本處「使者」承接同段「楚使子虛使於齊」，是子虛賦所設故事中的虛構使者角色；不建立或連接歷史人物ID，也不證明出使及對話實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本處「使者」承接同段「楚使子虛使於齊」，是子虛賦所設故事中的虛構使者角色；不建立或連接歷史人物ID，也不證明出使及對話實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-short-qi-king-p005",
+        "paragraph_id": "c-shiji-117-xiangru:p005",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m005-0007"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m004-0008",
+          "c-shiji-117-xiangru:m004-0098",
+          "c-shiji-117-xiangru:m005-0157",
+          "c-shiji-117-xiangru:m010-0066"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-short-qi-king-p005-reading",
+        "source_terms": [
+          "王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p005",
+          "quote": "子虛曰：「可。王駕車千乘，選徒萬騎，田於海濱。列卒滿澤，罘罔彌山，揜兔轔鹿，射麋腳麟。鶩於鹽浦，割鮮染輪。射中獲多，矜而自功。顧謂僕曰：『楚亦有平原廣澤遊獵之地饒樂若此者乎？楚王之獵何與寡人？』僕下車對曰：『臣，楚國之鄙人也，幸得宿衛十有餘年，時從出遊，遊於後園，覽於有無，然猶未能遍睹也，又惡足以言其外澤者乎！』齊王曰：『雖然，略以子之所聞見而言之。』",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m005-0007"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-short-qi-king-p005-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本段「王」是故事中沿稱的齊王角色：p005前文仍由子虛敘述齊國遊獵，並以「齊王」明示同一角色。此處依賦中敘事分類為虛構人物，不連接歷史齊王，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本段「王」是故事中沿稱的齊王角色：p005前文仍由子虛敘述齊國遊獵，並以「齊王」明示同一角色。此處依賦中敘事分類為虛構人物，不連接歷史齊王，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本段「王」是故事中沿稱的齊王角色：p005前文仍由子虛敘述齊國遊獵，並以「齊王」明示同一角色。此處依賦中敘事分類為虛構人物，不連接歷史齊王，也不證明對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-short-qi-king-p010",
+        "paragraph_id": "c-shiji-117-xiangru:p010",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m010-0100"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m004-0008",
+          "c-shiji-117-xiangru:m004-0098",
+          "c-shiji-117-xiangru:m005-0157",
+          "c-shiji-117-xiangru:m010-0066"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-short-qi-king-p010-reading",
+        "source_terms": [
+          "王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p010",
+          "quote": "「『將息獠者，擊靈鼓，起烽燧，車案行，騎就隊，纚乎淫淫，班乎裔裔。於是楚王乃登陽雲之臺，泊乎無為，澹乎自持，勺藥之和具而後禦之。不若大王終日馳騁而不下輿，脟割輪淬，自以為娛。臣竊觀之，齊殆不如。』於是王默然無以應僕也。」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m010-0100"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-short-qi-king-p010-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本段「王」是故事中沿稱的齊王角色：p010前文仍由子虛敘述齊國遊獵，並以「齊王」明示同一角色。此處依賦中敘事分類為虛構人物，不連接歷史齊王，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本段「王」是故事中沿稱的齊王角色：p010前文仍由子虛敘述齊國遊獵，並以「齊王」明示同一角色。此處依賦中敘事分類為虛構人物，不連接歷史齊王，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本段「王」是故事中沿稱的齊王角色：p010前文仍由子虛敘述齊國遊獵，並以「齊王」明示同一角色。此處依賦中敘事分類為虛構人物，不連接歷史齊王，也不證明對話或事件實際發生。"
+      },
+      {
+        "id": "ri-shiji117-fiction-short-qi-king-p011",
+        "paragraph_id": "c-shiji-117-xiangru:p011",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m011-0336"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m004-0008",
+          "c-shiji-117-xiangru:m004-0098",
+          "c-shiji-117-xiangru:m005-0157",
+          "c-shiji-117-xiangru:m010-0066"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-fiction-short-qi-king-p011-reading",
+        "source_terms": [
+          "王"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p011",
+          "quote": "烏有先生曰：「是何言之過也！足下不遠千里，來況齊國，王悉發境內之士，而備車騎之眾，以出田，乃欲戮力致獲，以娛左右也，何名為誇哉！問楚地之有無者，原聞大國之風烈，先生之餘論也。今足下不稱楚王之德厚，而盛推雲夢以為高，奢言淫樂而顯侈靡，竊為足下不取也。必若所言，固非楚國之美也。有而言之，是章君之惡；無而言之，是害足下之信。章君之惡而傷私義，二者無一可，而先生行之，必且輕於齊而累於楚矣。且齊東陼巨海，南有琅邪，觀乎成山，射乎之罘，浮勃澥，游孟諸，邪與肅慎為鄰，右以湯穀為界，秋田乎青丘，傍徨乎海外，吞若雲夢者八九，其於胸中曾不蒂芥。若乃俶儻瑰偉，異方殊類，珍怪鳥獸，萬端鱗萃，充仞其中者，不可勝記，禹不能名，契不能計。然在諸侯之位，不敢言遊戲之樂，苑囿之大；先生又見客，是以王辭而不復，何為無用應哉！」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m011-0336"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-fiction-short-qi-king-p011-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "本段「王」是故事中沿稱的齊王角色：p011前文仍由子虛敘述齊國遊獵，並以「齊王」明示同一角色。此處依賦中敘事分類為虛構人物，不連接歷史齊王，也不證明對話或事件實際發生。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本段「王」是故事中沿稱的齊王角色：p011前文仍由子虛敘述齊國遊獵，並以「齊王」明示同一角色。此處依賦中敘事分類為虛構人物，不連接歷史齊王，也不證明對話或事件實際發生。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "本段「王」是故事中沿稱的齊王角色：p011前文仍由子虛敘述齊國遊獵，並以「齊王」明示同一角色。此處依賦中敘事分類為虛構人物，不連接歷史齊王，也不證明對話或事件實際發生。"
       }
     ],
     "transcription_discrepancies": [
@@ -2812,6 +4266,15 @@
           "status": "unresolved"
         },
         {
+          "id": "c-shiji-117-xiangru:m004-0024",
+          "start": 24,
+          "end": 26,
+          "surface": "使者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
           "id": "c-shiji-117-xiangru:m004-0032",
           "start": 32,
           "end": 34,
@@ -2878,6 +4341,15 @@
           "start": 0,
           "end": 2,
           "surface": "子虛",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-117-xiangru:m005-0007",
+          "start": 7,
+          "end": 8,
+          "surface": "王",
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved"
@@ -3012,6 +4484,15 @@
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-117-xiangru:m010-0100",
+          "start": 100,
+          "end": 101,
+          "surface": "王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         }
       ]
     },
@@ -3056,6 +4537,15 @@
           "kind": "person",
           "person_id": "ea8_yum_lvj",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-117-xiangru:m011-0336",
+          "start": 336,
+          "end": 337,
+          "surface": "王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         }
       ]
     },
@@ -3088,9 +4578,9 @@
           "start": 176,
           "end": 178,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         }
       ]
     },
@@ -3911,9 +5401,9 @@
           "start": 31,
           "end": 33,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-117-xiangru:m038-0101",
