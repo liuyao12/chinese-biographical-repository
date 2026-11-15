@@ -7,8 +7,7 @@
   "review": "ai_provisional",
   "names": [
     "邈",
-    "茂度",
-    "我"
+    "茂度"
   ],
   "titles": [
     {
@@ -315,7 +314,7 @@
           "mention_ids": [
             "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0119"
           ],
-          "kind": "paragraph"
+          "kind": "pronoun"
         },
         {
           "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0137",
@@ -1731,7 +1730,7 @@
     },
     {
       "id": "a-song053-fangming-003",
-      "subject_person_id": "apr_7dg_tdd",
+      "subject_person_id": "1b1_d4d_bb8_BA",
       "predicate": "paternal_uncle",
       "object_person_id": "1b1_d4d_bb8_A",
       "status": "source_attested",
@@ -1766,15 +1765,18 @@
   "related_people": {
     "1b1_d4d_bb8": "謝鐵",
     "1b1_d4d_bb8_A": "謝邈",
-    "apr_7dg_tdd": "謝方明",
-    "bcd_fb9_57e": "郗氏（謝邈妻）"
+    "1b1_d4d_bb8_BA": "謝方明",
+    "bcd_fb9_57e": "郗氏（謝邈妻）",
+    "1b1_d4d_bb8_B": "謝沖",
+    "1b1_d4d_bb8_BB": "謝明慧",
+    "1b1_d4d_bb8_BAA": "謝惠連"
   },
   "dates": [],
   "name_components": [
     {
       "person_id": "1b1_d4d_bb8_A",
       "title": null,
-      "surname": null,
+      "surname": "謝",
       "ming": "邈",
       "zi": "茂度",
       "additional_names": [],
@@ -1784,10 +1786,43 @@
       "chapter_id": "c-jinshu-079-xielang-family",
       "paragraph_id": "c-jinshu-079-xielang-family:exp-xiemiao-p001",
       "quote": "邈字茂度。父鐵，永嘉太守。邈性剛鯁，無所屈撓，頗有理識。累遷侍中。時孝武帝觴樂之後多賜侍臣文詔，辭義有不雅者，邈輒焚毀之，其他侍臣被詔者或宣揚之，故論者以此多邈。後為吳興太守。孫恩之亂，為賊胡桀、郜驃等所執，害之。賊逼令北面，邈厲聲曰：「我不得罪天子，何北面之有！」遂害之。邈妻郗氏，甚妒。邈先娶妾，郗氏怨懟，與邈書告絕。邈以其書非婦人詞，疑其門下生仇玄達為之作，遂斥玄達。玄達怒，遂投孫恩，並害邈兄弟，竟至滅門。",
-      "note": "傳首明示名、字。省姓處不另據同姓推認；謝玄既有謝姓保留，謝石姓另有本單元群段的謝石明文。稱號、字及俗稱分列，不更改人物身份。",
+      "note": "《晉書》卷七十九傳首明示名「邈」、字「茂度」而省姓；《宋書》卷五十三明稱其為具名謝方明之伯父，據此補回謝姓。原文人物錨點不改。",
       "status": "editorial_provisional",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "surname_basis": {
+        "kind": "paternal_uncle_in_named_xie_family",
+        "source_assertion_ids": [
+          "a-song053-fangming-003"
+        ],
+        "rationale": "《宋書》卷五十三明載「謝方明……隨伯父……邈」；《晉書》卷七十九以「邈字茂度」省姓。依具名謝方明的父系脈絡補回謝姓，原文錨點仍是「邈」。"
+      }
+    },
+    {
+      "person_id": "1b1_d4d_bb8_A",
+      "title": null,
+      "surname": "謝",
+      "ming": "邈",
+      "additional_names": [],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-053",
+      "chapter_id": "c-songshu-053-xiefangming",
+      "source_id": "s-songshu-053-xiefangming",
+      "paragraph_id": "c-songshu-053-xiefangming:p001",
+      "person_mention_id": "c-songshu-053-xiefangming:p001:m0064",
+      "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+      "note": "依來源脈絡補回省略的謝姓；原文及人物提及錨點照錄。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "paternal_uncle_in_named_xie_family",
+        "source_assertion_ids": [
+          "a-song053-fangming-003"
+        ],
+        "rationale": "《宋書》明載「謝方明……隨伯父……邈」；在具名謝方明的父系脈絡中補回伯父邈之謝姓，原文錨點仍是「邈」。"
+      },
+      "zi": "茂度"
     }
   ],
   "person_ids": [
@@ -1857,7 +1892,7 @@
     },
     {
       "id": "a-song053-fangming-003",
-      "subject_person_id": "apr_7dg_tdd",
+      "subject_person_id": "1b1_d4d_bb8_BA",
       "predicate": "paternal_uncle",
       "object_person_id": "1b1_d4d_bb8_A",
       "status": "source_attested",
@@ -1916,5 +1951,19 @@
     }
   ],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "assembled_identity": {
+    "person_id": "1b1_d4d_bb8_A",
+    "representative_source_person_id": "1b1_d4d_bb8_A",
+    "source_person_ids": [
+      "1b1_d4d_bb8_A"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "1b1_d4d_bb8",
+    "source_assertion_id": "a-jinshu079-expansion-016",
+    "assembly_id": "family-chenjun-xie-tie",
+    "root_person_id": "1b1_d4d_bb8",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  }
 }

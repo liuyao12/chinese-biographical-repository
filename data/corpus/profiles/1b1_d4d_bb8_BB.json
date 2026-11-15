@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "id": "1a3_b0c_e6d_A",
-  "canonical_person_id": "1a3_b0c_e6d_A",
+  "id": "1b1_d4d_bb8_BB",
+  "canonical_person_id": "1b1_d4d_bb8_BB",
   "label": "謝明慧",
   "identity_note": "本批來源局部人物；不按同名跨史合併。",
   "review": "ai_provisional",
@@ -726,9 +726,9 @@
   "relations": [
     {
       "id": "a-jinshu079-expansion-014",
-      "subject_person_id": "1a3_b0c_e6d_A",
+      "subject_person_id": "1b1_d4d_bb8_BB",
       "predicate": "father",
-      "object_person_id": "1a3_b0c_e6d",
+      "object_person_id": "1b1_d4d_bb8_B",
       "status": "source_attested",
       "qualifiers": {
         "lineage": "paternal",
@@ -757,20 +757,50 @@
     }
   ],
   "related_people": {
-    "1a3_b0c_e6d": "謝沖",
-    "1a3_b0c_e6d_A": "謝明慧"
+    "1b1_d4d_bb8_B": "謝沖",
+    "1b1_d4d_bb8_BB": "謝明慧",
+    "1b1_d4d_bb8": "謝鐵",
+    "1b1_d4d_bb8_A": "謝邈",
+    "1b1_d4d_bb8_BA": "謝方明",
+    "1b1_d4d_bb8_BAA": "謝惠連"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "1b1_d4d_bb8_BB",
+      "title": null,
+      "surname": "謝",
+      "ming": "明慧",
+      "additional_names": [],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-079",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "source_id": "s-jinshu-079-xielang-family",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshi-p004",
+      "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshi-p004:m0013",
+      "quote": "汪從兄沖以子明慧嗣，為孫恩所害。",
+      "note": "依來源脈絡補回省略的謝姓；原文及人物提及錨點照錄。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "son_in_xie_patronymic_line",
+        "source_assertion_ids": [
+          "a-jinshu079-expansion-014"
+        ],
+        "rationale": "《晉書》明載「沖以子明慧」；父沖已由《宋書》具名父子關係連入謝氏父系，據此將明慧標作謝明慧。原文只作「明慧」。"
+      }
+    }
+  ],
   "person_ids": [
-    "1a3_b0c_e6d_A"
+    "1b1_d4d_bb8_BB"
   ],
   "preferred_relations": [
     {
       "id": "a-jinshu079-expansion-014",
-      "subject_person_id": "1a3_b0c_e6d_A",
+      "subject_person_id": "1b1_d4d_bb8_BB",
       "predicate": "father",
-      "object_person_id": "1a3_b0c_e6d",
+      "object_person_id": "1b1_d4d_bb8_B",
       "status": "source_attested",
       "qualifiers": {
         "lineage": "paternal",
@@ -801,5 +831,19 @@
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "assembled_identity": {
+    "person_id": "1b1_d4d_bb8_BB",
+    "representative_source_person_id": "1b1_d4d_bb8_BB",
+    "source_person_ids": [
+      "1b1_d4d_bb8_BB"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "1b1_d4d_bb8_B",
+    "source_assertion_id": "a-jinshu079-expansion-014",
+    "assembly_id": "family-chenjun-xie-tie",
+    "root_person_id": "1b1_d4d_bb8",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  }
 }

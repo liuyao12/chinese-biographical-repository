@@ -5247,39 +5247,6 @@
       ]
     },
     {
-      "person_id": "1a3_b0c_e6d",
-      "label": "謝沖",
-      "path": "1a3_b0c_e6d.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 2,
-      "raw_mention_count": 2,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 2,
-      "table_mention_count": 0,
-      "source_count": 2,
-      "most_mentioned_source_ids": [
-        "s-jinshu-079-xielang-family",
-        "s-songshu-053-xiefangming"
-      ]
-    },
-    {
-      "person_id": "1a3_b0c_e6d_A",
-      "label": "謝明慧",
-      "path": "1a3_b0c_e6d_A.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 2,
-      "raw_mention_count": 2,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 2,
-      "table_mention_count": 0,
-      "source_count": 1,
-      "most_mentioned_source_ids": [
-        "s-jinshu-079-xielang-family"
-      ]
-    },
-    {
       "person_id": "1a3_sos_b0l",
       "label": "衛山（朝鮮列傳候選）",
       "path": "1a3_sos_b0l.json",
@@ -5534,7 +5501,22 @@
       "most_mentioned_source_ids": [
         "s-jinshu-079-xielang-family",
         "s-songshu-053-xiefangming"
-      ]
+      ],
+      "source_person_id": "1b1_d4d_bb8",
+      "assembled_identity": {
+        "person_id": "1b1_d4d_bb8",
+        "representative_source_person_id": "1b1_d4d_bb8",
+        "source_person_ids": [
+          "1b1_d4d_bb8"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": null,
+        "source_assertion_id": null,
+        "assembly_id": "family-chenjun-xie-tie",
+        "root_person_id": "1b1_d4d_bb8",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "1b1_d4d_bb8_A",
@@ -5550,7 +5532,191 @@
       "source_count": 2,
       "most_mentioned_source_ids": [
         "s-jinshu-079-xielang-family"
-      ]
+      ],
+      "source_person_id": "1b1_d4d_bb8_A",
+      "assembled_identity": {
+        "person_id": "1b1_d4d_bb8_A",
+        "representative_source_person_id": "1b1_d4d_bb8_A",
+        "source_person_ids": [
+          "1b1_d4d_bb8_A"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "1b1_d4d_bb8",
+        "source_assertion_id": "a-jinshu079-expansion-016",
+        "assembly_id": "family-chenjun-xie-tie",
+        "root_person_id": "1b1_d4d_bb8",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "1b1_d4d_bb8_B",
+      "label": "謝沖",
+      "path": "1b1_d4d_bb8_B.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 2,
+      "raw_mention_count": 2,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 2,
+      "table_mention_count": 0,
+      "source_count": 2,
+      "most_mentioned_source_ids": [
+        "s-jinshu-079-xielang-family",
+        "s-songshu-053-xiefangming"
+      ],
+      "source_person_id": "1b1_d4d_bb8_B",
+      "assembled_identity": {
+        "person_id": "1b1_d4d_bb8_B",
+        "representative_source_person_id": "1b1_d4d_bb8_B",
+        "source_person_ids": [
+          "1b1_d4d_bb8_B"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "1b1_d4d_bb8",
+        "source_assertion_id": null,
+        "assembly_id": "family-chenjun-xie-tie",
+        "root_person_id": "1b1_d4d_bb8",
+        "status": "editorial_preferred",
+        "human_reviewed": false,
+        "parent_connection": {
+          "type": "parent_between_consecutive_ancestors",
+          "chain_subject_person_id": "1b1_d4d_bb8_BA",
+          "nearer_ancestor_assertion_id": "a-song053-fangming-001",
+          "farther_ancestor_assertion_id": "a-song053-fangming-002",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "rationale": "《宋書》明載謝方明父沖、祖鐵，並稱謝邈為方明伯父；《晉書》明載謝邈父鐵。據此暫推沖為鐵子、邈與沖為兄弟，將沖置於鐵下一代。傳世文字未直書「鐵父沖」，故不作原文明載；不推同母或絕對排行。",
+          "references": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-053",
+              "chapter_id": "c-songshu-053-xiefangming",
+              "source_id": "s-songshu-053-xiefangming",
+              "paragraph_id": "c-songshu-053-xiefangming:p001",
+              "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+              "assertion_id": "a-song053-fangming-001",
+              "scope": "明載方明父沖、祖鐵；以此連續代數為家系推導",
+              "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt"
+            },
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-053",
+              "chapter_id": "c-songshu-053-xiefangming",
+              "source_id": "s-songshu-053-xiefangming",
+              "paragraph_id": "c-songshu-053-xiefangming:p001",
+              "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+              "assertion_id": "a-song053-fangming-002",
+              "scope": "明載謝方明之祖父鐵",
+              "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-079",
+              "chapter_id": "c-jinshu-079-xielang-family",
+              "source_id": "s-jinshu-079-xielang-family",
+              "paragraph_id": "c-jinshu-079-xielang-family:exp-xiemiao-p001",
+              "quote": "邈字茂度。父鐵，永嘉太守。",
+              "assertion_id": "a-jinshu079-expansion-016",
+              "scope": "明載謝邈父鐵",
+              "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7079&oldid=2645985"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "person_id": "1b1_d4d_bb8_BA",
+      "label": "謝方明",
+      "path": "1b1_d4d_bb8_BA.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 32,
+      "raw_mention_count": 32,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 32,
+      "table_mention_count": 0,
+      "source_count": 4,
+      "most_mentioned_source_ids": [
+        "s-songshu-053-xiefangming"
+      ],
+      "source_person_id": "1b1_d4d_bb8_BA",
+      "assembled_identity": {
+        "person_id": "1b1_d4d_bb8_BA",
+        "representative_source_person_id": "1b1_d4d_bb8_BA",
+        "source_person_ids": [
+          "1b1_d4d_bb8_BA"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "1b1_d4d_bb8_B",
+        "source_assertion_id": "a-song053-fangming-001",
+        "assembly_id": "family-chenjun-xie-tie",
+        "root_person_id": "1b1_d4d_bb8",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "1b1_d4d_bb8_BAA",
+      "label": "謝惠連",
+      "path": "1b1_d4d_bb8_BAA.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 13,
+      "raw_mention_count": 13,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 13,
+      "table_mention_count": 0,
+      "source_count": 3,
+      "most_mentioned_source_ids": [
+        "s-songshu-067-xielingyun"
+      ],
+      "source_person_id": "1b1_d4d_bb8_BAA",
+      "assembled_identity": {
+        "person_id": "1b1_d4d_bb8_BAA",
+        "representative_source_person_id": "1b1_d4d_bb8_BAA",
+        "source_person_ids": [
+          "1b1_d4d_bb8_BAA"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "1b1_d4d_bb8_BA",
+        "source_assertion_id": "a-song053-fangming-006",
+        "assembly_id": "family-chenjun-xie-tie",
+        "root_person_id": "1b1_d4d_bb8",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "1b1_d4d_bb8_BB",
+      "label": "謝明慧",
+      "path": "1b1_d4d_bb8_BB.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 2,
+      "raw_mention_count": 2,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 2,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-079-xielang-family"
+      ],
+      "source_person_id": "1b1_d4d_bb8_BB",
+      "assembled_identity": {
+        "person_id": "1b1_d4d_bb8_BB",
+        "representative_source_person_id": "1b1_d4d_bb8_BB",
+        "source_person_ids": [
+          "1b1_d4d_bb8_BB"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": "1b1_d4d_bb8_B",
+        "source_assertion_id": "a-jinshu079-expansion-014",
+        "assembly_id": "family-chenjun-xie-tie",
+        "root_person_id": "1b1_d4d_bb8",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "1b4_f2a_d82",
@@ -54849,68 +55015,6 @@
       "most_mentioned_source_ids": [
         "s-shiji-079-fancai"
       ]
-    },
-    {
-      "person_id": "apr_7dg_tdd",
-      "label": "謝方明",
-      "path": "apr_7dg_tdd.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 32,
-      "raw_mention_count": 32,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 32,
-      "table_mention_count": 0,
-      "source_count": 4,
-      "most_mentioned_source_ids": [
-        "s-songshu-053-xiefangming"
-      ],
-      "source_person_id": "apr_7dg_tdd",
-      "assembled_identity": {
-        "person_id": "apr_7dg_tdd",
-        "representative_source_person_id": "apr_7dg_tdd",
-        "source_person_ids": [
-          "apr_7dg_tdd"
-        ],
-        "identity_equivalence_decision_ids": [],
-        "parent_person_id": null,
-        "source_assertion_id": null,
-        "assembly_id": "family-song051-xie-fangming",
-        "root_person_id": "apr_7dg_tdd",
-        "status": "contextual_provisional",
-        "human_reviewed": false
-      }
-    },
-    {
-      "person_id": "apr_7dg_tdd_A",
-      "label": "惠連",
-      "path": "apr_7dg_tdd_A.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 13,
-      "raw_mention_count": 13,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 13,
-      "table_mention_count": 0,
-      "source_count": 3,
-      "most_mentioned_source_ids": [
-        "s-songshu-067-xielingyun"
-      ],
-      "source_person_id": "apr_7dg_tdd_A",
-      "assembled_identity": {
-        "person_id": "apr_7dg_tdd_A",
-        "representative_source_person_id": "apr_7dg_tdd_A",
-        "source_person_ids": [
-          "apr_7dg_tdd_A"
-        ],
-        "identity_equivalence_decision_ids": [],
-        "parent_person_id": "apr_7dg_tdd",
-        "source_assertion_id": "a-song051-p014-p017-father-huilian-xiefangming",
-        "assembly_id": "family-song051-xie-fangming",
-        "root_person_id": "apr_7dg_tdd",
-        "status": "contextual_provisional",
-        "human_reviewed": false
-      }
     },
     {
       "person_id": "apu_6fw_asx",
