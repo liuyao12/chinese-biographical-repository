@@ -1817,7 +1817,7 @@
           "character_conversion": {},
           "editorial_readings": [],
           "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
-          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。 p063頌句重複及截漏尚待核所選底本，差異存於annotation.transcription_discrepancies，不改現存轉錄。 p064「俎／徂」另存待核差異；不據比較轉錄逕改正文。"
         }
       }
     },
@@ -7362,7 +7362,106 @@
     "c19_xxo_r8f_A": "相如（直不疑子）（萬石張叔列傳候選）",
     "usb_lgr_ksa": "司馬相如"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 118,
+      "year": -117,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "司馬相如既卒五歲，天子始祭后土。八年而遂先禮中嶽，封於太山，至梁父禪肅然。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p056",
+          "quote": "相如既病免，家居茂陵。天子曰：「司馬相如病甚，可往從悉取其書；若不然，後失之矣。」使所忠往，而相如已死，家無書。問其妻，對曰：「長卿固未嘗有書也。時時著書，人又取去，即空居。長卿未死時，為一卷書，曰有使者來求書，奏之。無他書。」其遺劄書言封禪事，奏所忠。忠奏其書，天子異之。其書曰：",
+          "person_mention_id": "c-shiji-117-xiangru:m056-0047"
+        },
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p068",
+          "quote": "司馬相如既卒五歲，天子始祭后土。八年而遂先禮中嶽，封於太山，至梁父禪肅然。",
+          "person_mention_id": "c-shiji-117-xiangru:m068-0000"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》卷十二〈孝武本紀〉同書后土祭祀記載",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+          "quote": "於是天子遂東，始立后土祠汾陰脽上，如寬舒等議。",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書》卷六〈武帝紀〉平行事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+          "quote": "十一月甲子，立后土祠於汾陰脽上。",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書》卷六〈武帝紀〉紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+          "quote": "元鼎四年",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&ver=0",
+          "quote": "元鼎",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "columns": {
+            "dynasty": "西漢",
+            "era_name": "元鼎",
+            "first_year": "B.C.116",
+            "last_year": "B.C.111"
+          },
+          "accessed_on": "2026-11-14",
+          "image_verified": false
+        },
+        {
+          "title": "《史記》卷十二〈孝武本紀〉封禪事件及年序",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+          "quote": "天子至梁父，禮祠地主。乙卯，令侍中儒者皮弁薦紳，射牛行事。封泰山下東方，如郊祠泰一之禮。",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《史記》卷十二〈孝武本紀〉改元紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+          "quote": "有司言寶鼎出為元鼎，以今年為元封元年。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書新注》卷五十七下〈司馬相如傳〉",
+          "url": "https://www.wenlinshe.com/tw/chapter/zhuzibaijia/han-shu/han-shu-xin-zhu-juan-wu-shi-qi-xia-si-ma-xiang-ru-chuan-di-er-shi-qi-xia.html",
+          "quote": "相如既卒：司馬相如卒於元狩五年(前118)。",
+          "scope": "modern_commentary_interpretation",
+          "accessed_on": "2026-11-14",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "天子始祭后土",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+        "reference_event_quote": "十一月甲子，立后土祠於汾陰脽上。",
+        "reference_year_quote": "元鼎四年"
+      },
+      "rationale": "本傳以相如既卒五歲連到武帝始祭后土，並稱八年後封禪。以《漢書》卷六將后土祠繫於元鼎四年、年號表換算為前113年；《史記》卷十二另記同一祭祀。由前113年回推五年得前118年。再以本傳八年後封禪，對讀《史記》卷十二的封禪行程及其後「以今年為元封元年」，即前110年，亦得前118年。清代以來的《漢書新注》此處明採元狩五年、前118年；將此年作AI暫定換算，不等同本傳明載元狩五年，亦不改死亡原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji117-p056-usb_lgr_ksa",
+      "person_id": "usb_lgr_ksa",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "identity_distinctions": [
     {
       "id": "distinct-shiji112-xiangru-not-buyi",
@@ -7459,9 +7558,110 @@
           "paragraph_id": "c-shiji-117-xiangru:p056",
           "quote": "相如既病免，家居茂陵。天子曰：「司馬相如病甚，可往從悉取其書；若不然，後失之矣。」使所忠往，而相如已死，家無書。問其妻，對曰：「長卿固未嘗有書也。時時著書，人又取去，即空居。長卿未死時，為一卷書，曰有使者來求書，奏之。無他書。」其遺劄書言封禪事，奏所忠。忠奏其書，天子異之。其書曰：",
           "person_mention_id": "c-shiji-117-xiangru:m056-0047"
+        },
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p068",
+          "quote": "司馬相如既卒五歲，天子始祭后土。八年而遂先禮中嶽，封於太山，至梁父禪肅然。",
+          "person_mention_id": "c-shiji-117-xiangru:m068-0000"
         }
       ],
-      "interpretation_note": "原文明示死亡，未在本段給出紀年；不補死亡日期、死亡地點或全部稱號終點。",
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 118,
+        "year": -117,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "司馬相如既卒五歲，天子始祭后土。八年而遂先禮中嶽，封於太山，至梁父禪肅然。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-117-xiangru",
+            "source_id": "s-shiji117-xiangru",
+            "paragraph_id": "c-shiji-117-xiangru:p056",
+            "quote": "相如既病免，家居茂陵。天子曰：「司馬相如病甚，可往從悉取其書；若不然，後失之矣。」使所忠往，而相如已死，家無書。問其妻，對曰：「長卿固未嘗有書也。時時著書，人又取去，即空居。長卿未死時，為一卷書，曰有使者來求書，奏之。無他書。」其遺劄書言封禪事，奏所忠。忠奏其書，天子異之。其書曰：",
+            "person_mention_id": "c-shiji-117-xiangru:m056-0047"
+          },
+          {
+            "chapter_id": "c-shiji-117-xiangru",
+            "source_id": "s-shiji117-xiangru",
+            "paragraph_id": "c-shiji-117-xiangru:p068",
+            "quote": "司馬相如既卒五歲，天子始祭后土。八年而遂先禮中嶽，封於太山，至梁父禪肅然。",
+            "person_mention_id": "c-shiji-117-xiangru:m068-0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十二〈孝武本紀〉同書后土祭祀記載",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+            "quote": "於是天子遂東，始立后土祠汾陰脽上，如寬舒等議。",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "《漢書》卷六〈武帝紀〉平行事件",
+            "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+            "quote": "十一月甲子，立后土祠於汾陰脽上。",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "《漢書》卷六〈武帝紀〉紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+            "quote": "元鼎四年",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&ver=0",
+            "quote": "元鼎",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "columns": {
+              "dynasty": "西漢",
+              "era_name": "元鼎",
+              "first_year": "B.C.116",
+              "last_year": "B.C.111"
+            },
+            "accessed_on": "2026-11-14",
+            "image_verified": false
+          },
+          {
+            "title": "《史記》卷十二〈孝武本紀〉封禪事件及年序",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+            "quote": "天子至梁父，禮祠地主。乙卯，令侍中儒者皮弁薦紳，射牛行事。封泰山下東方，如郊祠泰一之禮。",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "《史記》卷十二〈孝武本紀〉改元紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+            "quote": "有司言寶鼎出為元鼎，以今年為元封元年。",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《漢書新注》卷五十七下〈司馬相如傳〉",
+            "url": "https://www.wenlinshe.com/tw/chapter/zhuzibaijia/han-shu/han-shu-xin-zhu-juan-wu-shi-qi-xia-si-ma-xiang-ru-chuan-di-er-shi-qi-xia.html",
+            "quote": "相如既卒：司馬相如卒於元狩五年(前118)。",
+            "scope": "modern_commentary_interpretation",
+            "accessed_on": "2026-11-14",
+            "image_verified": false
+          }
+        ],
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "天子始祭后土",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+          "reference_event_quote": "十一月甲子，立后土祠於汾陰脽上。",
+          "reference_year_quote": "元鼎四年"
+        },
+        "rationale": "本傳以相如既卒五歲連到武帝始祭后土，並稱八年後封禪。以《漢書》卷六將后土祠繫於元鼎四年、年號表換算為前113年；《史記》卷十二另記同一祭祀。由前113年回推五年得前118年。再以本傳八年後封禪，對讀《史記》卷十二的封禪行程及其後「以今年為元封元年」，即前110年，亦得前118年。清代以來的《漢書新注》此處明採元狩五年、前118年；將此年作AI暫定換算，不等同本傳明載元狩五年，亦不改死亡原句。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      "interpretation_note": "p056明言相如已死；p068以卒後五歲、八年分別連到后土祭祀與封禪，兩條紀年鏈都指前118年。死亡年份為編者暫定換算，不是p056直接記年；不補死亡地點或其他稱號終點。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }

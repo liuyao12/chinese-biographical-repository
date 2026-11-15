@@ -2003,6 +2003,7 @@
 | `ltn_go2_3eu` | 遠吏故事妾 | [《史記・蘇秦列傳》][138] | [JSON](ltn_go2_3eu.json) |
 | `ltv_hb9_iam` | 猗頓 | [《史記・陳涉世家》][117] | [JSON](ltv_hb9_iam.json) |
 | `ltw_z5b_t1x` | 北海太守（未名） | [《史記・滑稽列傳》][195] | [JSON](ltw_z5b_t1x.json) |
+| `lu5_ser_zwb` | 青琴 | [《史記・司馬相如列傳》][186] | [JSON](lu5_ser_zwb.json) |
 | `lue_xus_em2` | 公甫文伯 | [《史記・平原君虞卿列傳》][145] | [JSON](lue_xus_em2.json) |
 | `lur_byx_r1v` | 張瑾〔本紀來源局部〕 | [《晉書・顯宗成帝 康帝》][18] | [JSON](lur_byx_r1v.json) |
 | `luv_yfi_x6q` | 婦人〔求寄產於冏府者，未名〕 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][35] | [JSON](luv_yfi_x6q.json) |
@@ -2094,7 +2095,6 @@
 | `mdg_x1d_buj` | 司馬耕 | [《史記・仲尼弟子列傳》][136] | [JSON](mdg_x1d_buj.json) |
 | `mdk_l9p_342` | 桑距 | [《史記・五宗世家》][128] | [JSON](mdk_l9p_342.json) |
 | `me7_83c_74z` | 樓煩（本卷稱呼） | [《史記・項羽本紀》][94] | [JSON](me7_83c_74z.json) |
-| `mes_rgf_o7u` | 趙毗 | [《晉書・桓彝》][44] | [JSON](mes_rgf_o7u.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
