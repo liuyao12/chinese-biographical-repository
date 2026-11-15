@@ -10,6 +10,58 @@
   ],
   "persons": [
     {
+      "id": "db6_rs3_a4n",
+      "label": "韋修",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "韋氏",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0001",
+            "c-changli-032-lidaogu-muzhiming:p004:m0018"
+          ]
+        },
+        {
+          "surface": "修",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0002"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0001",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        },
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0002",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        },
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0018",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        }
+      ],
+      "identity_note": "正文稱元配韋氏諱修；其父與遠祖語句依本傳承接暫配，未作跨史同指。",
+      "review": "ai_provisional"
+    },
+    {
       "id": "t3s_po0_s1k",
       "label": "叔裕（鄖公）",
       "status": "active",
@@ -88,7 +140,38 @@
   "kinship_interpretation_cases": [],
   "reported_variants": [],
   "family_tree_decisions": [],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-weixiu-ancestor-shuyu",
+      "subject_person_id": "db6_rs3_a4n",
+      "predicate": "ancestor",
+      "object_person_id": "t3s_po0_s1k",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "叔裕五世孫",
+        "source_number": "五",
+        "reported_generation_number": 5,
+        "generation_distance": null,
+        "adopted_for_family_tree": false,
+        "interpretation_note": "原文稱韋修為叔裕五世孫；保留來源報世，不把五世直接當精確父系距離，不補中間人物，也不採入預設家族樹。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0002",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0006"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "family_tree_policy": {
     "default": "editorial_preferred",
     "original_assertions_preserved": true,
@@ -110,7 +193,38 @@
       "chapter_id": "c-changli-032-lidaogu-muzhiming"
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-weixiu-ancestor-shuyu",
+      "subject_person_id": "db6_rs3_a4n",
+      "predicate": "ancestor",
+      "object_person_id": "t3s_po0_s1k",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "叔裕五世孫",
+        "source_number": "五",
+        "reported_generation_number": 5,
+        "generation_distance": null,
+        "adopted_for_family_tree": false,
+        "interpretation_note": "原文稱韋修為叔裕五世孫；保留來源報世，不把五世直接當精確父系距離，不補中間人物，也不採入預設家族樹。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0002",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0006"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "title_holdings": [],
   "address_assertions": [],
   "table_occurrences": [],
