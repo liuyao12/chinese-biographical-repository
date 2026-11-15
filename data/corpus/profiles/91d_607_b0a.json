@@ -16,21 +16,24 @@
       "category": "",
       "title": "宗室",
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
-      "count": 2,
-      "raw_count": 2,
+      "count": 3,
+      "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "弼武昌太守亦與子勛同逆伏誅弟鑒員外散騎侍郎蚤卒鑒弟勰字彥麟侍中吳興太守後廢帝元徽元年卒勰弟顥字彥明侍中左衞將軍冠軍將軍吳興太守未拜元徽四年卒追贈右將軍顥弟述東陽太守黃門郎與從弟秉同逆事敗走白山追禽伏誅義欣弟義慶出繼臨川烈武王道規義慶弟義融永初元年封桂陽縣侯食邑千戶凡王子為侯者",
       "paragraph_ids": [
         "c-songshu-051-wyd1739-zongshi:p012",
+        "c-songshu-051-wyd1739-zongshi:p015",
         "c-songshu-051-wyd1739-zongshi:p044"
       ],
       "mention_ids": [
         "c-songshu-051-wyd1739-zongshi:p012:m0039",
+        "c-songshu-051-wyd1739-zongshi:p015:m0123",
         "c-songshu-051-wyd1739-zongshi:p044:m0101"
       ],
       "mention_paragraph_ids": {
         "c-songshu-051-wyd1739-zongshi:p012:m0039": "c-songshu-051-wyd1739-zongshi:p012",
+        "c-songshu-051-wyd1739-zongshi:p015:m0123": "c-songshu-051-wyd1739-zongshi:p015",
         "c-songshu-051-wyd1739-zongshi:p044:m0101": "c-songshu-051-wyd1739-zongshi:p044"
       },
       "mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0039",
@@ -39,6 +42,13 @@
           "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p012:m0039",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p012:m0039"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p015:m0123",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p015:m0123"
           ],
           "kind": "paragraph"
         },
@@ -5027,6 +5037,39 @@
   },
   "dates": [],
   "name_components": [],
+  "source_title_uses": [
+    {
+      "id": "tu-song051-p015-houfeidi",
+      "person_id": "91d_607_b0a",
+      "person_mention_id": "c-songshu-051-wyd1739-zongshi:p015:m0123",
+      "source_term": "後廢帝",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p015",
+        "start": 123,
+        "end": 126,
+        "surface": "後廢帝"
+      },
+      "usage_kind": "title_reference",
+      "holding_ids": [],
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p015",
+          "quote": "書黃門侍郎太宗泰始初為侍中頻徙左衞將軍丹陽尹太子詹事吏部尚書時宗室雖多材能甚寡秉少自祗束甚得朝野之譽故為太宗所委五年出為前將軍淮南宣城二郡太守不拜還復本任復為侍中守祕書監領太子詹事未拜還使持節都督南徐徐兗豫青冀六州諸軍事後將軍南徐州刺史加散騎常侍後廢帝即位改都督郢州豫州之西陽司州之義陽二郡諸軍事郢州刺史持節常侍如故未拜留為尚書左僕射參選元徽元年領吏部加兵五百人尋領衞尉辭不拜桂陽王休範為逆中領軍劉勔出守石頭秉權兼領軍將",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p015:m0123"
+        }
+      ],
+      "source_use_binding": {
+        "kind": "fixed_wyd_song051_p014_p017_title_reference",
+        "basis": "posthumous_reign_title",
+        "interpretation_note": "此處保留原文以稱號、封爵、諡號、廟號或評語指涉人物的連結；不把該詞作姓名異名，也不單憑此條推定任期。"
+      },
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "91d_607_b0a"
   ],

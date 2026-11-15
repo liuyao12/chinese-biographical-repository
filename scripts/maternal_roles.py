@@ -2,6 +2,34 @@
 
 
 def maternal_role_valid(assertion, paragraphs):
+    if assertion.get('id') == 'a-song051-p014-p017-principal-mother-xia-yin':
+        q = assertion.get('qualifiers', {})
+        binding = q.get('source_unit_binding', {})
+        if (assertion.get('predicate') != 'maternal_role'
+                or assertion.get('subject_person_id') != '3qs_nqa_ioa_AABDD'
+                or assertion.get('object_person_id') != '9vj_md6_8sx'
+                or q.get('source_term') != '嫡母殷'
+                or q.get('role') != 'principal_mother'
+                or q.get('biological_mother') is not None or q.get('father_person_id') is not None
+                or binding != {'kind': 'fixed_wyd_song051_p014_p017_family_batch',
+                               'case': 'principal-mother-xia-yin',
+                               'raw_sha256': 'aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45'}
+                or len(assertion.get('evidence', [])) != 1):
+            return False
+        e = assertion['evidence'][0]
+        hit = paragraphs.get(e.get('paragraph_id'))
+        if not hit or hit[0] != e.get('chapter_id') or e.get('quote') != hit[1].get('text'):
+            return False
+        mentions = {m['id']: m for m in hit[1].get('mentions', [])}
+        child = mentions.get(e.get('subject_person_mention_id'))
+        mother = mentions.get(e.get('object_person_mention_id'))
+        return (hit[0] == 'c-songshu-051-wyd1739-zongshi'
+                and e.get('paragraph_id') == hit[0] + ':p017'
+                and child is not None and child.get('person_id') == assertion['subject_person_id']
+                and mother is not None and mother.get('person_id') == assertion['object_person_id']
+                and mother.get('surface') == '殷' and child.get('surface') == '遐'
+                and hit[1]['text'][mother['start'] - 2:mother['end']] == '嫡母殷')
+
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('continued_biography_'):
         try:
             from scripts.continued_biography_family import valid as continued_valid

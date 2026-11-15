@@ -2,6 +2,39 @@
 
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
+    basis = holding.get('posthumous_basis')
+    if isinstance(basis, dict) and basis.get('kind') == 'coordinated_title_grant':
+        life_events = life_events or {}
+        event = life_events.get(basis.get('death_event_id'))
+        phrase = basis.get('grant_term')
+        source_term = basis.get('source_term')
+        evidence = basis.get('evidence')
+        if (set(basis) != {'kind', 'source_term', 'grant_term', 'death_event_id', 'evidence'}
+                or holding.get('mode') != 'posthumous_grant'
+                or holding.get('kind') not in ('office', 'honorific', 'noble_rank')
+                or not isinstance(source_term, str) or not isinstance(phrase, str)
+                or phrase not in source_term or holding.get('title') not in phrase
+                or not isinstance(evidence, list) or not evidence
+                or evidence != holding.get('evidence')
+                or evidence != holding.get('effective_period', {}).get('start', {}).get('evidence')
+                or not event or event.get('event_type') != 'death'
+                or event.get('person_id') != holding.get('person_id')
+                or not event.get('source_term') or event['source_term'] not in source_term
+                or source_term.index(event['source_term']) >= source_term.index(phrase)):
+            return False
+        for item in evidence:
+            hit = paragraphs.get(item.get('paragraph_id'))
+            if (not hit or item.get('quote') != hit[1].get('text')
+                    or source_term not in item.get('quote', '')
+                    or phrase not in item.get('quote', '')):
+                return False
+            if not any(a.get('paragraph_id') == item['paragraph_id']
+                       and a.get('person_mention_id') == item.get('person_mention_id')
+                       and a.get('surface') == holding.get('title')
+                       and phrase.find(holding['title']) >= 0
+                       for a in holding.get('attestations', [])):
+                return False
+        return True
     if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') == 'biography_sovereign_mourning_gift_to_resumed_topic':
         try:
             from scripts.lifecycle_offered_biography import gift_valid

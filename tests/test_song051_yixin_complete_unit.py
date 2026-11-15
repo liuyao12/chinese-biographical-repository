@@ -13,19 +13,28 @@ class CompleteYixin(unittest.TestCase):
  def setUpClass(cls):
   cls.actual,cls.roles,cls.c,cls.docs=y.state(ROOT);cls.prior=core.context(ROOT)[0];cls.catalog=load_catalog(ROOT);cls.sm,_=load_assemblies(ROOT,cls.catalog)
  def test_complete908_and_strict_current_not_stale49(self):
-  self.assertEqual(sum(len(u['text'])for u in self.c['complete_unit_scope']),908);self.assertEqual(core.source_errors(self.actual,ROOT),[]);self.assertTrue(core.source_errors(self.prior,ROOT));self.assertEqual(sum(len(p['mentions'])for p in self.actual['paragraphs']),181);self.assertEqual(sum(len(p['mentions'])for p in self.prior['paragraphs']),111);self.assertEqual(sum(p['annotation_status']=='pending'for p in self.actual['paragraphs']),27)
+  self.assertEqual(sum(len(u['text'])for u in self.c['complete_unit_scope']),908);self.assertEqual(core.source_errors(self.actual,ROOT),[]);self.assertTrue(core.source_errors(self.prior,ROOT));self.assertEqual(sum(len(p['mentions'])for p in self.actual['paragraphs']),400);self.assertEqual(sum(len(p['mentions'])for p in self.prior['paragraphs']),111);self.assertEqual(sum(p['annotation_status']=='pending'for p in self.actual['paragraphs']),15)
   old={m['id']:m for p in self.prior['paragraphs']for m in p['mentions']};new={m['id']:m for p in self.actual['paragraphs']for m in p['mentions']};self.assertTrue(all(new[k]==v for k,v in old.items()))
  def test_corrected_source_and_unresolved_printed_glyph_remain(self):
   p=self.actual['paragraphs'][9];self.assertEqual(p['text'][53],'三');self.assertEqual(p['text'][115],'宰');self.assertEqual(p['text'][103],'〓');self.assertIsNone(self.actual['source']['normalization']['editorial_readings'][0]['accepted_reading']);self.assertFalse(any(m['surface']=='〓'for m in p['mentions']));self.assertEqual(next(m for m in p['mentions']if m['surface']=='太宰')['person_id'],self.roles['yigong'])
  def test_fifteen_explicit_relations_not_inferred_father_assertions(self):
-  assertions=[a for d in self.docs.values()for a in d.get('assertions',[])];self.assertEqual(len(assertions),15);self.assertEqual({a['subject_person_id']for a in assertions if a['predicate']=='father'},{self.roles[x]for x in('jin','can','jie')});self.assertEqual(sum(a['predicate']=='brother'for a in assertions),11);a=next(a for a in assertions if a['predicate']=='agnatic_cousin');self.assertEqual((a['subject_person_id'],a['object_person_id']),(self.roles['bing'],self.roles['shu']));self.assertIsNone(a['qualifiers']['kinship_structure']['distance']);self.assertIsNone(a['qualifiers']['kinship_structure']['common_ancestor_person_id'])
+  assertions=[a for d in self.docs.values()for a in d.get('assertions',[])];self.assertEqual(len(assertions),26);legacy=self.docs['corpus/songshu/051-wyd1739-yixin-assertions.json']['assertions'];self.assertEqual(len(legacy),16);self.assertEqual({a['subject_person_id']for a in legacy if a['predicate']=='father'},{self.roles[x]for x in('jin','can','jie','liuyu')});self.assertEqual(sum(a['predicate']=='brother'for a in legacy),11);a=next(a for a in legacy if a['id']=='a-song051-yixin-bing-cousin');self.assertEqual((a['subject_person_id'],a['object_person_id']),(self.roles['bing'],self.roles['shu']));self.assertIsNone(a['qualifiers']['kinship_structure']['distance']);self.assertIsNone(a['qualifiers']['kinship_structure']['common_ancestor_person_id'])
   chapters={r['id']:r for r in self.catalog[1]if r.get('record_type')=='marked_chapter'};paragraphs={p['id']:(r['id'],p)for r in chapters.values()for p in r['paragraphs']}
-  self.assertTrue(all(core.family_valid(a,paragraphs,chapters,ROOT)for a in assertions))
+  self.assertTrue(all(y.family_valid(a,paragraphs,chapters,ROOT)for a in assertions))
  def test_actual_family_chains_and_qualified_same_father(self):
   for role in('zhi','kai','zhan','yun','bi','jian','xie','hao','shu'):self.assertEqual(self.sm[self.roles[role]]['parent_person_id'],self.roles['yixin']);self.assertIn(self.sm[self.roles[role]]['parent_connection']['type'],('shared_father_through_sibling','shared_father_through_sibling_chain'))
   self.assertEqual(self.sm[self.roles['can']]['parent_person_id'],self.roles['jin']);self.assertEqual(self.sm[self.roles['zuan']]['parent_person_id'],self.roles['jin']);self.assertEqual(self.sm[self.roles['bing']]['parent_person_id'],self.roles['old_yizong']);self.assertNotIn(self.roles['yinsu'],self.sm)
+ def test_p014_p017_family_members_use_only_sourced_or_reversible_paths(self):
+  cheng='3qs_nqa_ioa_AABDBA';bing='3qs_nqa_ioa_AABDB';mo='3qs_nqa_ioa_AABDC';xia='3qs_nqa_ioa_AABDD';jie='3qs_nqa_ioa_AABDA';yizong='3qs_nqa_ioa_AABD';xiao='ph1_ms8_hyq_ABAA';sihua='ph1_ms8_hyq_ABA'
+  self.assertEqual((self.sm[cheng]['parent_person_id'],self.sm[cheng]['source_assertion_id']),(bing,'a-song051-p014-p017-father-cheng-bing'))
+  self.assertEqual((self.sm[xiao]['parent_person_id'],self.sm[xiao]['source_assertion_id']),(sihua,'a-song051-p014-p017-father-xiao-sihua'))
+  for pid, sibling_ids, assertion_ids in ((mo,[bing,jie],['a-song051-p014-p017-brother-mo-bing','a-song051-yixin-bing-brother']),(xia,[mo,bing,jie],['a-song051-p014-p017-brother-xia-mo','a-song051-p014-p017-brother-mo-bing','a-song051-yixin-bing-brother'])):
+   row=self.sm[pid];connection=row['parent_connection']
+   self.assertEqual(row['parent_person_id'],yizong);self.assertIsNone(row['source_assertion_id'])
+   self.assertEqual(connection['type'],'shared_father_through_sibling_chain');self.assertEqual(connection['sibling_person_ids'],sibling_ids);self.assertEqual(connection['sibling_assertion_ids'],assertion_ids);self.assertEqual(connection['sibling_father_assertion_id'],'a-song051-yixin-jie-father')
+   self.assertFalse(any(a.get('predicate')=='father' and a.get('subject_person_id')==pid for d in self.docs.values()for a in d.get('assertions',[])))
  def test_literal_and_source_restored_names_actual_components(self):
-  ns=[n for d in self.docs.values()for n in d.get('records',[])];self.assertEqual(len(ns),29);self.assertTrue(all(source_component_valid(n,self.actual,ROOT)for n in ns))
+  ns=[n for d in self.docs.values()for n in d.get('records',[])];self.assertEqual(len(ns),51);self.assertTrue(all(y.component_valid(n,self.actual,ROOT)for n in ns))
   for role in self.c['new_names']:
    rows=[n for n in ns if n['person_id']==self.roles[role]]
    if role=='yinsu':self.assertEqual([(n['surname'],n['ming'])for n in rows],[('殷','蕭')])

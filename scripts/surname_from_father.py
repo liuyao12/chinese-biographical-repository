@@ -8,6 +8,10 @@ def validate(name,names,chapters,assertions,root=None):
   try:from .wyd_song051_yixin import validate_surname
   except ImportError:from wyd_song051_yixin import validate_surname
   return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and isinstance(name.get('surname_basis'),dict)and name['surname_basis'].get('kind')=='contextual_surname_from_song051_p014_p017':
+  try:from .wyd_song051_yixin import validate_surname
+  except ImportError:from wyd_song051_yixin import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
  # fixed-wyd045-surname
  if isinstance(name,dict)and isinstance(name.get('surname_basis'),dict)and name['surname_basis'].get('kind')=='contextual_surname_from_wyd_song045_kinship':
   try:from scripts.wyd_song045_roles import validate_surname

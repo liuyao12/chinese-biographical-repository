@@ -93,6 +93,20 @@ def analyse(record,ch):
  return p,roles,fields,slots
 
 def holding_valid(h,ch,root=None):
+ if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_wyd_song051_p014_p017_exact_title':
+  try:
+   b=h['source_career_role'];p=next(p for p in ch['paragraphs']if p['id']==b['paragraph_id']);m=next(m for m in p['mentions']if m['id']==b['subject_mention_id']);a=b['source_anchor'];context=b['context_anchor'];ev,=h['evidence'];att,=h['attestations']
+   assert set(b)=={'kind','record_id','paragraph_id','subject_mention_id','source_anchor','context_anchor','source_revision','human_reviewed'}
+   assert b['record_id']==h['id']and b['kind']=='fixed_wyd_song051_p014_p017_exact_title'and b['human_reviewed']is False
+   for x in (a,context):assert set(x)=={'paragraph_id','start','end','surface'}and x['paragraph_id']==p['id']and type(x['start'])is int and type(x['end'])is int and 0<=x['start']<x['end']<=len(p['text'])and p['text'][x['start']:x['end']]==x['surface']
+   assert m['kind']=='person'and p['text'][m['start']:m['end']]==m['surface']
+   assert b['source_revision']==ch['source']['revision_id']and p.get('text_layer')=='received_chapter'
+   assert h['status']=='source_attested'and h['human_reviewed']is False and h['person_id']==m['person_id']and h['title']==a['surface']
+   assert context['start']<=a['start']<a['end']<=context['end']and p['text'][context['start']:context['end']]==context['surface']
+   assert ev==dict(work_id=ch['work_id'],book_id=ch['book_id'],source_id=ch['source_id'],chapter_id=ch['id'],paragraph_id=p['id'],quote=p['text'],person_mention_id=m['id'])
+   assert att['paragraph_id']==p['id']and att['start']==a['start']and att['end']==a['end']and att['surface']==a['surface']and att['person_mention_id']==m['id']
+   return True
+  except (AssertionError,KeyError,TypeError,ValueError,StopIteration):return False
  if isinstance(h,dict)and isinstance(h.get('source_career_role'),dict)and h['source_career_role'].get('kind')=='fixed_wyd063_related_title_attestation':
   try:from scripts.wyd_song063_basics import holding_valid as valid063
   except ImportError:from wyd_song063_basics import holding_valid as valid063

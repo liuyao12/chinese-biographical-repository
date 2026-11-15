@@ -18,14 +18,15 @@
       "category": "",
       "title": "宗室",
       "paragraph_id": "c-songshu-051-wyd1739-zongshi:p024",
-      "count": 9,
-      "raw_count": 9,
+      "count": 12,
+      "raw_count": 12,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "馬王鎮之及揚武將軍檀道濟廣武將軍到彥之等赴援朝廷至尋陽為賊黨荀林所破循即以林為南蠻校尉分兵配之使乘勝伐江陵揚聲云徐道覆已克京邑而桓謙自長安入蜀譙縱以謙為荆州刺史厚加資給與其大將譙道福俱寇江陵正與林會林屯江津謙軍枝江二寇交通分絕都邑之間荆楚旣桓氏義舊並懷異心道規乃會",
       "paragraph_ids": [
         "c-songshu-051-wyd1739-zongshi:p024",
         "c-songshu-051-wyd1739-zongshi:p025",
+        "c-songshu-051-wyd1739-zongshi:p026",
         "c-songshu-051-wyd1739-zongshi:p046"
       ],
       "mention_ids": [
@@ -37,6 +38,9 @@
         "c-songshu-051-wyd1739-zongshi:p025:m0100",
         "c-songshu-051-wyd1739-zongshi:p025:m0138",
         "c-songshu-051-wyd1739-zongshi:p025:m0175",
+        "c-songshu-051-wyd1739-zongshi:p026:m0014",
+        "c-songshu-051-wyd1739-zongshi:p026:m0022",
+        "c-songshu-051-wyd1739-zongshi:p026:m0031",
         "c-songshu-051-wyd1739-zongshi:p046:m0011"
       ],
       "mention_paragraph_ids": {
@@ -48,6 +52,9 @@
         "c-songshu-051-wyd1739-zongshi:p025:m0100": "c-songshu-051-wyd1739-zongshi:p025",
         "c-songshu-051-wyd1739-zongshi:p025:m0138": "c-songshu-051-wyd1739-zongshi:p025",
         "c-songshu-051-wyd1739-zongshi:p025:m0175": "c-songshu-051-wyd1739-zongshi:p025",
+        "c-songshu-051-wyd1739-zongshi:p026:m0014": "c-songshu-051-wyd1739-zongshi:p026",
+        "c-songshu-051-wyd1739-zongshi:p026:m0022": "c-songshu-051-wyd1739-zongshi:p026",
+        "c-songshu-051-wyd1739-zongshi:p026:m0031": "c-songshu-051-wyd1739-zongshi:p026",
         "c-songshu-051-wyd1739-zongshi:p046:m0011": "c-songshu-051-wyd1739-zongshi:p046"
       },
       "mention_id": "c-songshu-051-wyd1739-zongshi:p024:m0030",
@@ -105,6 +112,27 @@
           "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p025:m0175",
           "mention_ids": [
             "c-songshu-051-wyd1739-zongshi:p025:m0175"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p026:m0014",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p026:m0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p026:m0022",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p026:m0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-051-wyd1739-zongshi:p026:m0031",
+          "mention_ids": [
+            "c-songshu-051-wyd1739-zongshi:p026:m0031"
           ],
           "kind": "paragraph"
         },
@@ -217,7 +245,37 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "event_type": "death",
+      "date_expression": null,
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "le-song051-p026-xunlin-death",
+      "person_id": "mvk_2p2_qe8",
+      "source_term": "至巴陵斬之",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-051-wyd1739-zongshi:p026",
+        "start": 31,
+        "end": 37,
+        "surface": "林至巴陵斬之"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-051",
+          "source_id": "s-songshu-051-wyd1739-zongshi",
+          "chapter_id": "c-songshu-051-wyd1739-zongshi",
+          "paragraph_id": "c-songshu-051-wyd1739-zongshi:p026",
+          "quote": "劉遵率軍追林至巴陵斬之",
+          "person_mention_id": "c-songshu-051-wyd1739-zongshi:p026:m0031"
+        }
+      ],
+      "interpretation_note": "明言劉遵率軍追擊荀林至巴陵並斬之；本段未載年、月、日。"
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
