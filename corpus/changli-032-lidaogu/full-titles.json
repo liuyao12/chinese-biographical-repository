@@ -2,6 +2,810 @@
   "format_version": "0.2",
   "record_type": "title_holding_assertion_set",
   "chapter_id": "c-changli-032-lidaogu-muzhiming",
-  "holdings": [],
-  "note": "本初始提交只收錄全篇與人物錨；下一批依原文授任語逐項補充職官及有效時段，當前不由稱名推任期。"
+  "holdings": [
+    {
+      "id": "th-lidaogu-xiaoshulang",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "校書郎",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-xiaoshulang",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "start": 18,
+          "end": 21,
+          "surface": "校書郎",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          },
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+              "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+              "context": {
+                "kind": "previous_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文記為任用／遷轉；確切任期終點未載，保留未知。不由後續敘事或生卒推定終止。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-lidaogu-jixianxueshi",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "集賢學士",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-jixianxueshi",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "start": 22,
+          "end": 26,
+          "surface": "集賢學士",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          },
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+              "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+              "context": {
+                "kind": "previous_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文記為任用／遷轉；確切任期終點未載，保留未知。不由後續敘事或生卒推定終止。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-lidaogu-zongzhengcheng",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "宗正丞",
+      "kind": "office",
+      "mode": "transfer",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-zongzhengcheng",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "start": 30,
+          "end": 33,
+          "surface": "宗正丞",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          },
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "transfer",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+              "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+              "context": {
+                "kind": "previous_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文記為任用／遷轉；確切任期終點未載，保留未知。不由後續敘事或生卒推定終止。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-lidaogu-simen-yuanwailang",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "尚書司門員外郎",
+      "kind": "office",
+      "mode": "transfer",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-simen-yuanwailang",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "start": 45,
+          "end": 52,
+          "surface": "尚書司門員外郎",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          },
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "transfer",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+              "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+              "context": {
+                "kind": "previous_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文記為任用／遷轉；確切任期終點未載，保留未知。不由後續敘事或生卒推定終止。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-lidaogu-lisuitangmucizhishi",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "利隨唐睦州刺史",
+      "kind": "unclassified",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-lisuitangmucizhishi",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "start": 56,
+          "end": 63,
+          "surface": "利隨唐睦州刺史",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          },
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+              "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+              "context": {
+                "kind": "previous_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文連寫「利隨唐睦州刺史」；此處完整保留字串，不拆分地名或多個職官。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-lidaogu-shaozongzheng",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "少宗正",
+      "kind": "office",
+      "mode": "transfer",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-shaozongzheng",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "start": 65,
+          "end": 68,
+          "surface": "少宗正",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          },
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "transfer",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+              "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+              "context": {
+                "kind": "previous_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文記為任用／遷轉；確切任期終點未載，保留未知。不由後續敘事或生卒推定終止。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-lidaogu-yushizhongcheng",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "御史中丞",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-yushizhongcheng",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "start": 75,
+          "end": 79,
+          "surface": "御史中丞",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          },
+          "usage": "narrative",
+          "date_expression": "元和九年"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元和九年",
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+              "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+              "context": {
+                "kind": "previous_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文記為任用／遷轉；確切任期終點未載，保留未知。不由後續敘事或生卒推定終止。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-lidaogu-zhen-ezhou",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "鎮鄂州",
+      "kind": "unclassified",
+      "mode": "transfer",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-zhen-ezhou",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "start": 92,
+          "end": 95,
+          "surface": "鎮鄂州",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          },
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "transfer",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+              "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+              "context": {
+                "kind": "previous_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文記「遷鎮鄂州」的轉任／鎮守描述；保留為未分類稱謂，不推定正式職官全稱。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-lidaogu-yushidafu",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "御史大夫",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-yushidafu",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "start": 110,
+          "end": 114,
+          "surface": "御史大夫",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          },
+          "usage": "narrative",
+          "date_expression": "十一年"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "十一年",
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+              "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+              "context": {
+                "kind": "previous_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文記為任用／遷轉；確切任期終點未載，保留未知。不由後續敘事或生卒推定終止。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-lidaogu-zongzheng",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "宗正",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-zongzheng",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "start": 30,
+          "end": 32,
+          "surface": "宗正",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          },
+          "usage": "narrative",
+          "date_expression": "十三年"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "十三年",
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+              "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+              "context": {
+                "kind": "previous_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文記為任用／遷轉；確切任期終點未載，保留未知。不由後續敘事或生卒推定終止。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-lidaogu-zuojinwu",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "左金吾",
+      "kind": "office",
+      "mode": "transfer",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-zuojinwu",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+          "start": 125,
+          "end": 128,
+          "surface": "左金吾",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "previous_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+          },
+          "usage": "narrative",
+          "date_expression": "十三年"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "transfer",
+          "date_expression": "十三年",
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p002",
+              "quote": "公以進士舉及第，獻《文輿》三十卷，拜校書郎、集賢學士，四遷至宗正丞。憲宗即位，選擢宗室，遷尚書司門員外郎，以選為利隨唐睦州刺史，遷少宗正。元和九年，以御史中丞持節鎮黔中。十一年來朝，遷鎮鄂州，以鄂嶽道兵，會平淮西，以功加御史大夫。十三年，征拜宗正，轉左金吾。",
+              "context": {
+                "kind": "previous_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保留原文簡稱「左金吾」，不在此補成別的完整官名；轉任起點據「十三年，轉左金吾」，終點未知。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    }
+  ],
+  "note": "逐項收錄本段明載官職／任用稱謂及起點語。年號省略而段內承接「元和」時只保留原有年次字串；任期終點未知。原文「利隨唐睦州刺史」不拆分；「鎮鄂州」保留未分類原稱。"
 }
