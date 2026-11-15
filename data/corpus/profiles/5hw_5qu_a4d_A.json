@@ -1,0 +1,1019 @@
+{
+  "schema_version": 1,
+  "id": "5hw_5qu_a4d_A",
+  "canonical_person_id": "5hw_5qu_a4d_A",
+  "label": "李道古",
+  "identity_note": "正文名「道古」，題名稱「李公」；姓李按題名補回，未由來源外資料確定本名以外的生平。",
+  "review": "ai_provisional",
+  "names": [
+    "李道古",
+    "道古"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+      "start": 2,
+      "end": 4,
+      "surface": "道古",
+      "kind": "person",
+      "person_id": "5hw_5qu_a4d_A",
+      "status": "source_explicit",
+      "interpretation_note": "正文主傳人名。",
+      "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+      "chapter_id": "c-changli-032-lidaogu-muzhiming"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-changli-032-lidaogu-muzhiming",
+      "work_id": "w-changli-xiansheng-ji",
+      "book_id": "b-changli-032",
+      "source_id": "s-hanyu-lidaogu-muzhiming",
+      "source": {
+        "title": "《昌黎先生集》卷三十二〈唐故昭武校尉守左金吾衛將軍李公墓誌銘〉",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/%E6%98%8C%E9%BB%8E%E5%85%88%E7%94%9F%E9%9B%86/%E5%8D%B7%E4%B8%89%E5%8D%81%E4%BA%8C",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1614621",
+        "revision_id": 1614621,
+        "accessed_on": "2026-11-15",
+        "edition": "固定維基文庫修訂1614621數位正文；所據刻本／排印本未知，尚未與影像逐頁校勘。",
+        "extent": "收《昌黎先生集》卷三十二所見本墓誌全文六段；沿用來源檔分段與標點，非原石版面分行。",
+        "text_scope": "complete_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "底層古文為公有領域；數位見證依維基文庫頁面所示CC BY-SA 4.0保留署名與來源；未複製圖片。",
+        "license_scope": "classical_text_transcription_only",
+        "normalization": {
+          "character_conversion": "依來源檔明示的簡繁轉換保留；不改原文讀法。",
+          "punctuation": "沿用固定數位見證標點，非古代石刻標點。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-lidaogu-father",
+      "subject_person_id": "5hw_5qu_a4d_A",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "曹成王子",
+        "child_person_id": "5hw_5qu_a4d_A",
+        "interpretation_note": "父子關係明載；姓李只由墓誌題名補足。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+          "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-spouse-weixiu",
+      "subject_person_id": "5hw_5qu_a4d_A",
+      "predicate": "spouse",
+      "object_person_id": "db6_rs3_a4n",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "元配韋氏",
+        "interpretation_note": "以篇首傳主及「公三娶，元配」語判定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-hong",
+      "subject_person_id": "5hw_5qu_a4d_AA",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "修生子紘",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0003"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-gong",
+      "subject_person_id": "5hw_5qu_a4d_AE",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女貢",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-chuo",
+      "subject_person_id": "5hw_5qu_a4d_AB",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "生綽",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0010"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-shao",
+      "subject_person_id": "5hw_5qu_a4d_AC",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "紹",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0011"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-wan",
+      "subject_person_id": "5hw_5qu_a4d_AD",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "綰",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0012"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-hui",
+      "subject_person_id": "5hw_5qu_a4d_AF",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女會",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0013"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-spouse-cuiyao",
+      "subject_person_id": "5hw_5qu_a4d_A",
+      "predicate": "spouse",
+      "object_person_id": "ny3_88r_tu9",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "次配崔氏諱藥",
+        "interpretation_note": "本篇傳主承接；原文此段不重述主名，依完整墓誌上下文連結。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0009"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-spouse-anonymous-wei",
+      "subject_person_id": "5hw_5qu_a4d_A",
+      "predicate": "spouse",
+      "object_person_id": "too_gjw_q0b",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "今夫人韋氏，無子",
+        "interpretation_note": "本篇傳主承接；原文此段不重述主名，依完整墓誌上下文連結。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0016"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": [
+    {
+      "id": "5hw_5qu_a4d",
+      "label": "李臯（曹成王）",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "曹成王",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p001:m0001"
+          ]
+        },
+        {
+          "surface": "成王",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p001:m0004",
+            "c-changli-032-lidaogu-muzhiming:p001:m0005"
+          ]
+        },
+        {
+          "surface": "臯",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p001:m0006"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0001",
+          "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+        },
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0004",
+          "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+        },
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0005",
+          "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+        },
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0006",
+          "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+        }
+      ],
+      "identity_note": "本段只明載「成王諱臯」及「曹成王子」；李姓依墓誌題名「李公」及唐宗室語境補作 contextual，非本句姓名原樣。",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "5hw_5qu_a4d_A",
+      "label": "李道古",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "道古",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p001:m0000"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+        }
+      ],
+      "identity_note": "正文名「道古」，題名稱「李公」；姓李按題名補回，未由來源外資料確定本名以外的生平。",
+      "review": "ai_provisional",
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "5hw_5qu_a4d",
+        "generation_distance": 1,
+        "intermediate_person_ids": [],
+        "status": "source_attested",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "5hw_5qu_a4d_AA",
+      "label": "李紘",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "紘",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0003"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0003",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        }
+      ],
+      "identity_note": "正文只稱「紘」並明言為公子；姓李為父系上下文補足。",
+      "review": "ai_provisional",
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "5hw_5qu_a4d_A",
+        "generation_distance": 1,
+        "intermediate_person_ids": [],
+        "status": "source_attested",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "5hw_5qu_a4d_AB",
+      "label": "李綽",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "綽",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0010"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0010",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        }
+      ],
+      "identity_note": "正文只列「綽」；姓李依傳主父系上下文補足。",
+      "review": "ai_provisional",
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "5hw_5qu_a4d_A",
+        "generation_distance": 1,
+        "intermediate_person_ids": [],
+        "status": "source_attested",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "5hw_5qu_a4d_AC",
+      "label": "李紹",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "紹",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0011"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0011",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        }
+      ],
+      "identity_note": "正文只列「紹」；姓李依傳主父系上下文補足。",
+      "review": "ai_provisional",
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "5hw_5qu_a4d_A",
+        "generation_distance": 1,
+        "intermediate_person_ids": [],
+        "status": "source_attested",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "5hw_5qu_a4d_AD",
+      "label": "李綰",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "綰",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0012"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0012",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        }
+      ],
+      "identity_note": "正文只列「綰」；姓李依傳主父系上下文補足。",
+      "review": "ai_provisional",
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "5hw_5qu_a4d_A",
+        "generation_distance": 1,
+        "intermediate_person_ids": [],
+        "status": "source_attested",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "5hw_5qu_a4d_AE",
+      "label": "貢（李道古女）",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "貢",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0004"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        }
+      ],
+      "identity_note": "正文只稱「女貢」；未把她歸屬於任何一位妻妾，姓氏未顯示。",
+      "review": "ai_provisional",
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "5hw_5qu_a4d_A",
+        "generation_distance": 1,
+        "intermediate_person_ids": [],
+        "status": "source_attested",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "5hw_5qu_a4d_AF",
+      "label": "會（李道古女）",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "會",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0013"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0013",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        }
+      ],
+      "identity_note": "正文只稱「女會」；未把她歸屬於任何一位妻妾，姓氏未顯示。",
+      "review": "ai_provisional",
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "5hw_5qu_a4d_A",
+        "generation_distance": 1,
+        "intermediate_person_ids": [],
+        "status": "source_attested",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "db6_rs3_a4n",
+      "label": "韋修",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "韋氏",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0001",
+            "c-changli-032-lidaogu-muzhiming:p004:m0018"
+          ]
+        },
+        {
+          "surface": "修",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0002"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0001",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        },
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0002",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        },
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0018",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        }
+      ],
+      "identity_note": "正文稱元配韋氏諱修；其父與遠祖語句依本傳承接暫配，未作跨史同指。",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "ny3_88r_tu9",
+      "label": "崔藥",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "崔氏",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0008",
+            "c-changli-032-lidaogu-muzhiming:p004:m0019"
+          ]
+        },
+        {
+          "surface": "藥",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0009"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0008",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        },
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0009",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        },
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0019",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        }
+      ],
+      "identity_note": "正文稱次配崔氏諱藥。",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "too_gjw_q0b",
+      "label": "韋氏",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "韋氏",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p004:m0016"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0016",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。"
+        }
+      ],
+      "identity_note": "正文只稱「今夫人韋氏，無子」，不載個人名；獨立於元配韋修，為無名人物記錄。",
+      "review": "ai_provisional"
+    }
+  ],
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "5hw_5qu_a4d_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-lidaogu-father",
+      "subject_person_id": "5hw_5qu_a4d_A",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "曹成王子",
+        "child_person_id": "5hw_5qu_a4d_A",
+        "interpretation_note": "父子關係明載；姓李只由墓誌題名補足。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+          "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-spouse-weixiu",
+      "subject_person_id": "5hw_5qu_a4d_A",
+      "predicate": "spouse",
+      "object_person_id": "db6_rs3_a4n",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "元配韋氏",
+        "interpretation_note": "以篇首傳主及「公三娶，元配」語判定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-hong",
+      "subject_person_id": "5hw_5qu_a4d_AA",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "修生子紘",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0003"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-gong",
+      "subject_person_id": "5hw_5qu_a4d_AE",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女貢",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-chuo",
+      "subject_person_id": "5hw_5qu_a4d_AB",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "生綽",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0010"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-shao",
+      "subject_person_id": "5hw_5qu_a4d_AC",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "紹",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0011"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-wan",
+      "subject_person_id": "5hw_5qu_a4d_AD",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "綰",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0012"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-father-hui",
+      "subject_person_id": "5hw_5qu_a4d_AF",
+      "predicate": "father",
+      "object_person_id": "5hw_5qu_a4d_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "女會",
+        "interpretation_note": "據本段「公三娶」承接傳主；女兒母親未推定。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0013"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-spouse-cuiyao",
+      "subject_person_id": "5hw_5qu_a4d_A",
+      "predicate": "spouse",
+      "object_person_id": "ny3_88r_tu9",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "次配崔氏諱藥",
+        "interpretation_note": "本篇傳主承接；原文此段不重述主名，依完整墓誌上下文連結。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0009"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-lidaogu-spouse-anonymous-wei",
+      "subject_person_id": "5hw_5qu_a4d_A",
+      "predicate": "spouse",
+      "object_person_id": "too_gjw_q0b",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "今夫人韋氏，無子",
+        "interpretation_note": "本篇傳主承接；原文此段不重述主名，依完整墓誌上下文連結。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p004",
+          "quote": "公三娶，元配韋氏諱修，修生子紘，紘為進士學。女貢，嫁崔氏。夫人隋雍州牧鄖公叔裕五世孫，父士佺，蓬山令。次配崔氏諱藥，生綽、紹、綰。女會，嫁鄭氏季毗。夫人父昭，嘗為京兆尹。今夫人韋氏，無子。父光憲，光祿卿。其葬用古今禮，以元配韋氏夫人祔而葬。次配崔氏夫人於其域異墓。",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p004:m0016"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

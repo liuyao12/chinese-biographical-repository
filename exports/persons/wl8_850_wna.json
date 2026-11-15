@@ -1,0 +1,228 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_source_bundle",
+  "requested_person_id": "wl8_850_wna",
+  "canonical_person_id": "wl8_850_wna",
+  "id_aliases": [],
+  "identity_policy": "exact_id",
+  "person_ids": [
+    "wl8_850_wna"
+  ],
+  "persons": [
+    {
+      "id": "wl8_850_wna",
+      "label": "柳泌",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "柳泌",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p003:m0002"
+          ]
+        },
+        {
+          "surface": "泌",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p003:m0003"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p003",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p003:m0002",
+          "quote": "上即位，以先朝時嘗信妄人柳泌能燒水銀為不死藥薦之，泌以故起閭閻氓為刺史，不效，貶循州司馬。其年九月三日，以疾卒於貶所，年五十三。長慶元年，詔曰：“左降而死者，還其官以葬。”遂以其年某月日葬於東都某縣。"
+        },
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p003",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p003:m0003",
+          "quote": "上即位，以先朝時嘗信妄人柳泌能燒水銀為不死藥薦之，泌以故起閭閻氓為刺史，不效，貶循州司馬。其年九月三日，以疾卒於貶所，年五十三。長慶元年，詔曰：“左降而死者，還其官以葬。”遂以其年某月日葬於東都某縣。"
+        }
+      ],
+      "identity_note": "依本段明名「柳泌」登記；其後「泌」同篇回指。卒年齡及貶所句之主語待覆核，不在本批斷定。",
+      "review": "ai_provisional"
+    }
+  ],
+  "source_mention_summary": [
+    {
+      "source_id": "s-hanyu-lidaogu-muzhiming",
+      "work_id": "w-changli-xiansheng-ji",
+      "book_id": "b-changli-032",
+      "chapter_id": "c-changli-032-lidaogu-muzhiming",
+      "raw_mention_count": 2,
+      "mention_ids": [
+        "c-changli-032-lidaogu-muzhiming:p003:m0002",
+        "c-changli-032-lidaogu-muzhiming:p003:m0003"
+      ],
+      "paragraph_ids": [
+        "c-changli-032-lidaogu-muzhiming:p003"
+      ],
+      "table_cell_ids": [],
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-changli-032-lidaogu-muzhiming:p003:m0002",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p003:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-changli-032-lidaogu-muzhiming:p003:m0003",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p003:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "mention_count": 2,
+      "duplicate_mention_count": 0,
+      "paragraph_occurrence_count": 2,
+      "table_occurrence_count": 0,
+      "passage_count": 1,
+      "passage_count_scope": "annotation_containers_not_independent_witness_passages",
+      "count_explanation": "2處獨立位置，2個原始錨點；0項為同底本同位置重出。頻次不是來源權威度。"
+    }
+  ],
+  "most_mentioned_source_ids": [
+    "s-hanyu-lidaogu-muzhiming"
+  ],
+  "mention_count_policy": {
+    "scope": "independent_fixed_witness_occurrences",
+    "raw_mentions_preserved": true,
+    "passage_count_scope": "annotation_containers",
+    "explanation": "頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。",
+    "included_kinds": [
+      "paragraph",
+      "table_cell"
+    ],
+    "identity_policy": "exact_id",
+    "ties": "all_maxima",
+    "frequency_is_not_authority": true
+  },
+  "kinship_interpretation_cases": [],
+  "reported_variants": [],
+  "family_tree_decisions": [],
+  "preferred_relations": [],
+  "family_tree_policy": {
+    "default": "editorial_preferred",
+    "original_assertions_preserved": true,
+    "unreviewed_conflicts_may_remain": true,
+    "runtime_ai_required": false
+  },
+  "family_paths": [],
+  "mentions": [
+    {
+      "id": "c-changli-032-lidaogu-muzhiming:p003:m0002",
+      "start": 12,
+      "end": 14,
+      "surface": "柳泌",
+      "kind": "person",
+      "person_id": "wl8_850_wna",
+      "status": "source_explicit",
+      "interpretation_note": "具名人物。",
+      "paragraph_id": "c-changli-032-lidaogu-muzhiming:p003",
+      "chapter_id": "c-changli-032-lidaogu-muzhiming"
+    },
+    {
+      "id": "c-changli-032-lidaogu-muzhiming:p003:m0003",
+      "start": 25,
+      "end": 26,
+      "surface": "泌",
+      "kind": "person",
+      "person_id": "wl8_850_wna",
+      "status": "contextual_provisional",
+      "interpretation_note": "短稱回指柳泌。",
+      "paragraph_id": "c-changli-032-lidaogu-muzhiming:p003",
+      "chapter_id": "c-changli-032-lidaogu-muzhiming"
+    }
+  ],
+  "relations": [],
+  "title_holdings": [],
+  "address_assertions": [],
+  "table_occurrences": [],
+  "date_normalizations": [],
+  "birth_order_constraints": [],
+  "preferred_birth_order_constraints": [],
+  "identity_decisions": [],
+  "equivalence_decisions": [],
+  "passages": [
+    {
+      "id": "c-changli-032-lidaogu-muzhiming:p003",
+      "text": "上即位，以先朝時嘗信妄人柳泌能燒水銀為不死藥薦之，泌以故起閭閻氓為刺史，不效，貶循州司馬。其年九月三日，以疾卒於貶所，年五十三。長慶元年，詔曰：“左降而死者，還其官以葬。”遂以其年某月日葬於東都某縣。",
+      "mentions": [
+        {
+          "id": "c-changli-032-lidaogu-muzhiming:p003:m0002",
+          "start": 12,
+          "end": 14,
+          "surface": "柳泌",
+          "kind": "person",
+          "person_id": "wl8_850_wna",
+          "status": "source_explicit",
+          "interpretation_note": "具名人物。"
+        },
+        {
+          "id": "c-changli-032-lidaogu-muzhiming:p003:m0003",
+          "start": 25,
+          "end": 26,
+          "surface": "泌",
+          "kind": "person",
+          "person_id": "wl8_850_wna",
+          "status": "contextual_provisional",
+          "interpretation_note": "短稱回指柳泌。"
+        }
+      ],
+      "annotation_status": "named_mentions_first_pass",
+      "chapter_id": "c-changli-032-lidaogu-muzhiming",
+      "book_id": "b-changli-032",
+      "work_id": "w-changli-xiansheng-ji",
+      "source_id": "s-hanyu-lidaogu-muzhiming"
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-changli-032-lidaogu-muzhiming",
+      "work_id": "w-changli-xiansheng-ji",
+      "book_id": "b-changli-032",
+      "source_id": "s-hanyu-lidaogu-muzhiming",
+      "source": {
+        "title": "《昌黎先生集》卷三十二〈唐故昭武校尉守左金吾衛將軍李公墓誌銘〉",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/%E6%98%8C%E9%BB%8E%E5%85%88%E7%94%9F%E9%9B%86/%E5%8D%B7%E4%B8%89%E5%8D%81%E4%BA%8C",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1614621",
+        "revision_id": 1614621,
+        "accessed_on": "2026-11-15",
+        "edition": "固定維基文庫修訂1614621數位正文；所據刻本／排印本未知，尚未與影像逐頁校勘。",
+        "extent": "收《昌黎先生集》卷三十二所見本墓誌全文六段；沿用來源檔分段與標點，非原石版面分行。",
+        "text_scope": "complete_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "底層古文為公有領域；數位見證依維基文庫頁面所示CC BY-SA 4.0保留署名與來源；未複製圖片。",
+        "license_scope": "classical_text_transcription_only",
+        "normalization": {
+          "character_conversion": "依來源檔明示的簡繁轉換保留；不改原文讀法。",
+          "punctuation": "沿用固定數位見證標點，非古代石刻標點。"
+        }
+      }
+    }
+  ],
+  "time_policy": {
+    "unknown_is_not_unbounded": true,
+    "attestation_is_not_tenure": true,
+    "date_expressions_are_not_normalized": false,
+    "date_normalization_coverage": "partial",
+    "normalized_year_numbering": "astronomical",
+    "civil_year_label_field": "chinese_civil_year",
+    "civil_year_label_coverage": "partial",
+    "regnal_year_crosses_ce_year_is_gregorian_projection": true
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_source_bundle",
+  "requested_person_id": "z4b_zqf_pd9",
+  "canonical_person_id": "z4b_zqf_pd9",
+  "id_aliases": [],
+  "identity_policy": "exact_id",
+  "person_ids": [
+    "z4b_zqf_pd9"
+  ],
+  "persons": [
+    {
+      "id": "n2e_qwg_3sp",
+      "label": "唐太宗",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "太宗",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p001:m0003"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0003",
+          "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+        }
+      ],
+      "identity_note": "原文只稱「太宗」；唐代宗室上下文下的指涉為暫定，未在原文補名李世民。",
+      "review": "ai_provisional"
+    },
+    {
+      "id": "z4b_zqf_pd9",
+      "label": "王明（姓名未析）",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "王明",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p001:m0002"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+          "mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0002",
+          "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。"
+        }
+      ],
+      "identity_note": "來源原句以「王明」連寫，無分姓／名的明示；保留原字串，不以「王」判作姓氏。",
+      "review": "ai_provisional"
+    }
+  ],
+  "source_mention_summary": [
+    {
+      "source_id": "s-hanyu-lidaogu-muzhiming",
+      "work_id": "w-changli-xiansheng-ji",
+      "book_id": "b-changli-032",
+      "chapter_id": "c-changli-032-lidaogu-muzhiming",
+      "raw_mention_count": 1,
+      "mention_ids": [
+        "c-changli-032-lidaogu-muzhiming:p001:m0002"
+      ],
+      "paragraph_ids": [
+        "c-changli-032-lidaogu-muzhiming:p001"
+      ],
+      "table_cell_ids": [],
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0002",
+          "mention_ids": [
+            "c-changli-032-lidaogu-muzhiming:p001:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_occurrence_count": 1,
+      "table_occurrence_count": 0,
+      "passage_count": 1,
+      "passage_count_scope": "annotation_containers_not_independent_witness_passages",
+      "count_explanation": "1處獨立位置，1個原始錨點；0項為同底本同位置重出。頻次不是來源權威度。"
+    }
+  ],
+  "most_mentioned_source_ids": [
+    "s-hanyu-lidaogu-muzhiming"
+  ],
+  "mention_count_policy": {
+    "scope": "independent_fixed_witness_occurrences",
+    "raw_mentions_preserved": true,
+    "passage_count_scope": "annotation_containers",
+    "explanation": "頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。",
+    "included_kinds": [
+      "paragraph",
+      "table_cell"
+    ],
+    "identity_policy": "exact_id",
+    "ties": "all_maxima",
+    "frequency_is_not_authority": true
+  },
+  "kinship_interpretation_cases": [],
+  "reported_variants": [],
+  "family_tree_decisions": [],
+  "preferred_relations": [
+    {
+      "id": "a-wangming-father-taizong",
+      "subject_person_id": "z4b_zqf_pd9",
+      "predicate": "father",
+      "object_person_id": "n2e_qwg_3sp",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "以太宗子王曹",
+        "interpretation_note": "原句明稱王明為太宗之子；「王明」不拆作王姓，亦不推接至成王的五世世系。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+          "quote": "其先王明，以太宗子王曹，絕輒復封，五世而至成王。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0002",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0003"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "family_tree_policy": {
+    "default": "editorial_preferred",
+    "original_assertions_preserved": true,
+    "unreviewed_conflicts_may_remain": true,
+    "runtime_ai_required": false
+  },
+  "family_paths": [],
+  "mentions": [
+    {
+      "id": "c-changli-032-lidaogu-muzhiming:p001:m0002",
+      "start": 15,
+      "end": 17,
+      "surface": "王明",
+      "kind": "person",
+      "person_id": "z4b_zqf_pd9",
+      "status": "source_explicit",
+      "interpretation_note": "墓誌明列遠祖。",
+      "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+      "chapter_id": "c-changli-032-lidaogu-muzhiming"
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-wangming-father-taizong",
+      "subject_person_id": "z4b_zqf_pd9",
+      "predicate": "father",
+      "object_person_id": "n2e_qwg_3sp",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "以太宗子王曹",
+        "interpretation_note": "原句明稱王明為太宗之子；「王明」不拆作王姓，亦不推接至成王的五世世系。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+          "quote": "其先王明，以太宗子王曹，絕輒復封，五世而至成王。",
+          "subject_person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0002",
+          "object_person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0003"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "title_holdings": [],
+  "address_assertions": [],
+  "table_occurrences": [],
+  "date_normalizations": [],
+  "birth_order_constraints": [],
+  "preferred_birth_order_constraints": [],
+  "identity_decisions": [],
+  "equivalence_decisions": [],
+  "passages": [
+    {
+      "id": "c-changli-032-lidaogu-muzhiming:p001",
+      "text": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。",
+      "mentions": [
+        {
+          "id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "start": 2,
+          "end": 4,
+          "surface": "道古",
+          "kind": "person",
+          "person_id": "5hw_5qu_a4d_A",
+          "status": "source_explicit",
+          "interpretation_note": "正文主傳人名。"
+        },
+        {
+          "id": "c-changli-032-lidaogu-muzhiming:p001:m0001",
+          "start": 8,
+          "end": 11,
+          "surface": "曹成王",
+          "kind": "person",
+          "person_id": "5hw_5qu_a4d",
+          "status": "contextual_provisional",
+          "interpretation_note": "爵號稱謂；同段後文明言諱臯。"
+        },
+        {
+          "id": "c-changli-032-lidaogu-muzhiming:p001:m0002",
+          "start": 15,
+          "end": 17,
+          "surface": "王明",
+          "kind": "person",
+          "person_id": "z4b_zqf_pd9",
+          "status": "source_explicit",
+          "interpretation_note": "墓誌明列遠祖。"
+        },
+        {
+          "id": "c-changli-032-lidaogu-muzhiming:p001:m0003",
+          "start": 19,
+          "end": 21,
+          "surface": "太宗",
+          "kind": "person",
+          "person_id": "n2e_qwg_3sp",
+          "status": "contextual_provisional",
+          "interpretation_note": "唐宗室敘事指涉；原文保留廟號。"
+        },
+        {
+          "id": "c-changli-032-lidaogu-muzhiming:p001:m0004",
+          "start": 34,
+          "end": 36,
+          "surface": "成王",
+          "kind": "person",
+          "person_id": "5hw_5qu_a4d",
+          "status": "contextual_provisional",
+          "interpretation_note": "承前「五世而至成王」，與下句諱臯同指。"
+        },
+        {
+          "id": "c-changli-032-lidaogu-muzhiming:p001:m0005",
+          "start": 37,
+          "end": 39,
+          "surface": "成王",
+          "kind": "person",
+          "person_id": "5hw_5qu_a4d",
+          "status": "source_explicit",
+          "interpretation_note": "同句明言成王諱臯。"
+        },
+        {
+          "id": "c-changli-032-lidaogu-muzhiming:p001:m0006",
+          "start": 40,
+          "end": 41,
+          "surface": "臯",
+          "kind": "person",
+          "person_id": "5hw_5qu_a4d",
+          "status": "source_explicit",
+          "interpretation_note": "原文名；不按題名補改為其他異體。"
+        }
+      ],
+      "annotation_status": "named_mentions_first_pass",
+      "chapter_id": "c-changli-032-lidaogu-muzhiming",
+      "book_id": "b-changli-032",
+      "work_id": "w-changli-xiansheng-ji",
+      "source_id": "s-hanyu-lidaogu-muzhiming"
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-changli-032-lidaogu-muzhiming",
+      "work_id": "w-changli-xiansheng-ji",
+      "book_id": "b-changli-032",
+      "source_id": "s-hanyu-lidaogu-muzhiming",
+      "source": {
+        "title": "《昌黎先生集》卷三十二〈唐故昭武校尉守左金吾衛將軍李公墓誌銘〉",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/%E6%98%8C%E9%BB%8E%E5%85%88%E7%94%9F%E9%9B%86/%E5%8D%B7%E4%B8%89%E5%8D%81%E4%BA%8C",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1614621",
+        "revision_id": 1614621,
+        "accessed_on": "2026-11-15",
+        "edition": "固定維基文庫修訂1614621數位正文；所據刻本／排印本未知，尚未與影像逐頁校勘。",
+        "extent": "收《昌黎先生集》卷三十二所見本墓誌全文六段；沿用來源檔分段與標點，非原石版面分行。",
+        "text_scope": "complete_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "底層古文為公有領域；數位見證依維基文庫頁面所示CC BY-SA 4.0保留署名與來源；未複製圖片。",
+        "license_scope": "classical_text_transcription_only",
+        "normalization": {
+          "character_conversion": "依來源檔明示的簡繁轉換保留；不改原文讀法。",
+          "punctuation": "沿用固定數位見證標點，非古代石刻標點。"
+        }
+      }
+    }
+  ],
+  "time_policy": {
+    "unknown_is_not_unbounded": true,
+    "attestation_is_not_tenure": true,
+    "date_expressions_are_not_normalized": false,
+    "date_normalization_coverage": "partial",
+    "normalized_year_numbering": "astronomical",
+    "civil_year_label_field": "chinese_civil_year",
+    "civil_year_label_coverage": "partial",
+    "regnal_year_crosses_ce_year_is_gregorian_projection": true
+  }
+}
