@@ -1,0 +1,56 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_name_component_set",
+  "chapter_id": "c-shiji-009-lvhou",
+  "records": [
+    {
+      "id": "name-shiji009-wendi-heng",
+      "person_id": "yqp_nlb_p1p_AC",
+      "surname": "劉",
+      "ming": "恒",
+      "additional_names": [],
+      "chapter_id": "c-shiji-009-lvhou",
+      "paragraph_id": "c-shiji-009-lvhou:p003",
+      "person_mention_id": "c-shiji-009-lvhou:m003-0065",
+      "quote": "高祖十二年四月甲辰，崩長樂宮，太子襲號為帝。是時高祖八子：長男肥，孝惠兄也，異母，肥為齊王；餘皆孝惠弟，戚姬子如意為趙王，薄夫人子恒為代王，諸姬子子恢為梁王，子友為淮陽王，子長為淮南王，子建為燕王。高祖弟交為楚王，兄子濞為吳王。非劉氏功臣番君吳芮子臣為長沙王。",
+      "source_term": "恒",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "卷九原字為「恒」，按卷十父子證據與卷八高祖全名補列父系姓；不改原文。",
+      "surname_basis": {
+        "kind": "contextual_surname_from_cross_chapter_paternal_path",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "卷九以「薄夫人子恒」載其名，但未載姓；卷十明言「孝文皇帝，高祖中子也」，再由卷八高祖全名「劉季」及卷十具名父子斷言，沿同一父系記作劉姓。原文異體「恒」照錄，姓氏判讀為可撤回暫定，未以人物ID單獨作證。",
+        "source_name_record_id": "name-shiji008-gaozu-liuji",
+        "source_frames": [
+          {
+            "chapter_id": "c-shiji-008-gaozu",
+            "paragraph_id": "c-shiji-008-gaozu:p004",
+            "source_revision": 2440965,
+            "paragraph_sha256": "a0e198f0ecc30f29949f2dd18201d7f5e996d04cac61131b708b471dbd7a81d4"
+          },
+          {
+            "chapter_id": "c-shiji-010-wendi",
+            "paragraph_id": "c-shiji-010-wendi:p001",
+            "source_revision": 2599229,
+            "paragraph_sha256": "887e22af1566e6d4a2e35617a623a1f647e68e414985c8186f5e5bab4a24922a"
+          }
+        ],
+        "steps": [
+          {
+            "assertion_id": "a-shiji010-001",
+            "from_person_id": "yqp_nlb_p1p_A",
+            "to_person_id": "yqp_nlb_p1p_AC",
+            "chapter_id": "c-shiji-010-wendi",
+            "paragraph_id": "c-shiji-010-wendi:p001",
+            "source_term": "中子",
+            "from_mention_id": "c-shiji-010-wendi:m001-0005",
+            "to_mention_id": "c-shiji-010-wendi:m001-0000"
+          }
+        ]
+      }
+    }
+  ]
+}

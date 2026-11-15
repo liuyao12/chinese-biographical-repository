@@ -10,8 +10,14 @@ import hashlib
 KIND = 'contextual_surname_from_cross_chapter_paternal_path'
 SEED_CHAPTER = 'c-shiji-008-gaozu'
 SEED_SOURCE = 's-shiji-008-gaozu'
-TARGET_CHAPTER = 'c-shiji-118-huainan'
-TARGET_SOURCE = 's-shiji118-huainan'
+PATH_CHAPTER_SOURCES = {
+    'c-shiji-010-wendi': 's-shiji-010-wendi',
+    'c-shiji-118-huainan': 's-shiji118-huainan',
+}
+NAME_CHAPTER_SOURCES = {
+    'c-shiji-009-lvhou': 's-shiji-009-lvhou',
+    'c-shiji-118-huainan': 's-shiji118-huainan',
+}
 
 
 def validate(name, names, chapters, assertions, root=None):
@@ -61,7 +67,8 @@ def validate(name, names, chapters, assertions, root=None):
         }
 
         target_ch, target_p = paragraph(name['chapter_id'], name['paragraph_id'])
-        assert target_ch['id'] == TARGET_CHAPTER and target_ch['source_id'] == TARGET_SOURCE
+        assert target_ch['id'] in NAME_CHAPTER_SOURCES
+        assert target_ch['source_id'] == NAME_CHAPTER_SOURCES[target_ch['id']]
         assert name['quote'] == target_p['text']
         target = mark(target_ch, target_p, name['person_mention_id'], name['person_id'])
         assert target['surface'].endswith(name['ming'])
@@ -79,7 +86,7 @@ def validate(name, names, chapters, assertions, root=None):
                                  'chapter_id', 'paragraph_id', 'source_term',
                                  'from_mention_id', 'to_mention_id'}
             assert step['from_person_id'] == current and step['to_person_id'] not in seen
-            assert step['chapter_id'] == TARGET_CHAPTER
+            assert step['chapter_id'] in PATH_CHAPTER_SOURCES
             a = assertions_by_id[step['assertion_id']]
             assert a['predicate'] == 'father' and a['status'] == 'source_attested'
             assert a['subject_person_id'] == step['to_person_id']
@@ -89,7 +96,7 @@ def validate(name, names, chapters, assertions, root=None):
             assert not q.get('adoptive') and not q.get('sworn')
             ev, = a['evidence']
             ch, p = paragraph(step['chapter_id'], step['paragraph_id'])
-            assert ch['source_id'] == TARGET_SOURCE and ev['chapter_id'] == ch['id']
+            assert ch['source_id'] == PATH_CHAPTER_SOURCES[ch['id']] and ev['chapter_id'] == ch['id']
             assert ev['source_id'] == ch['source_id'] and ev['paragraph_id'] == p['id']
             assert ev['quote'] in p['text']
             assert q.get('source_term') == step['source_term']
