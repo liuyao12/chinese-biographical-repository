@@ -1059,7 +1059,6 @@
 | `syp_j9y_m2k` | 老子 | [《史記・外戚世家》][118] | [JSON](syp_j9y_m2k.json) |
 | `syq_5uv_2me` | 散宜生 | [《史記・蕭相國世家》][122] | [JSON](syq_5uv_2me.json) |
 | `syy_h2t_4ie` | 郤稱（邳鄭所列者） | [《史記・晉世家》][108] | [JSON](syy_h2t_4ie.json) |
-| `sz3_vzm_j03` | 尾生 | [《史記・陳丞相世家》][125] | [JSON](sz3_vzm_j03.json) |
 | `szo_tqq_qr1` | 休屠王（匈奴列傳第36段未名） | [《史記・匈奴列傳》][179] | [JSON](szo_tqq_qr1.json) |
 | `t00_u9v_yvd` | 王公 | [《史記・游俠列傳》][193] | [JSON](t00_u9v_yvd.json) |
 | `t09_bk5_omn` | 神農 | [《史記・貨殖列傳》][198] | [JSON](t09_bk5_omn.json) |
