@@ -4,6 +4,61 @@
   "chapter_id": "c-shiji-118-huainan",
   "decisions": [
     {
+      "id": "d-shiji118-first-emperor-p004",
+      "person_id": "yqp_nlb_p1p_A",
+      "surfaces": [
+        "先帝"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-118-huainan"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "moderate",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-118-huainan:m004-0045"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p001",
+          "source_id": "s-shiji118-huainan",
+          "quote": "淮南厲王長者，高祖少子也",
+          "mention_ids": [
+            "c-shiji-118-huainan:m001-0007"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p004",
+          "source_id": "s-shiji118-huainan",
+          "quote": "淮南王長廢先帝法，不聽天子詔",
+          "mention_ids": [
+            "c-shiji-118-huainan:m004-0045"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "工藤卓司，〈《賈誼新書》的鑄錢對策〉，《臺大中文學報》第39期，2012年12月，頁35–70",
+          "url": "https://www.cl.ntu.edu.tw/uploads/root/%E8%87%BA%E5%A4%A7%E4%B8%AD%E6%96%87%E5%AD%B8%E5%A0%B1/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B9%9D%E6%9C%9F/%E8%B3%88%E8%AA%BC%E6%96%B0%E6%9B%B8%E7%9A%84%E9%91%84%E9%8C%A2%E5%B0%8D%E7%AD%96.pdf",
+          "quote": "此「先帝」當然有可能是惠帝或高后，但另很有可能指高祖",
+          "scope": "modern_scholarship_contextual_identification",
+          "text_layer": "modern_study",
+          "image_verified": false,
+          "note": "已核論文PDF第11頁（刊內第45頁）註28；作者直接討論《史記·文帝本紀》此例，認為高祖很可能，同時保留惠帝或高后可能並稱待考。僅作現代研究參考，未取代傳世原文，也未據此宣稱排除其他解讀。",
+          "accessed_on": "2026-11-15"
+        }
+      ],
+      "rationale": "此奏議發生於孝文帝朝，原稱「先帝」未直書姓名。依工藤卓司對本例的討論，文帝時代多處「先帝」常指高祖，故本處暫以高祖為較可能的指稱並連到其既有人物ID；該文亦明言惠帝或高后仍有可能、尚待考。本判斷為可撤回的上下文首選，非正文明載或已排除異說。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "d-shiji118-royal-context-01",
       "person_id": "yqp_nlb_p1p_ACAM",
       "surfaces": [
