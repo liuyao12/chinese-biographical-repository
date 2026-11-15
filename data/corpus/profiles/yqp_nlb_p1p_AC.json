@@ -1599,6 +1599,58 @@
       "interpretation_note": "只記本段具名用稱及書信紀年，任期兩端未知。當戶且居雕渠難不拆姓名、不與前段匿名當戶或難氏自動合併。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji118-wendi-tianzi-p004",
+      "person_id": "yqp_nlb_p1p_AC",
+      "title": "天子",
+      "kind": "imperial_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p004",
+          "quote": "淮南王長廢先帝法，不聽天子詔，居處無度，為黃屋蓋乘輿，出入擬於天子，擅為法令，不用漢法。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-wendi-tianzi-p004:a001",
+          "paragraph_id": "c-shiji-118-huainan:p004",
+          "start": 51,
+          "end": 53,
+          "surface": "天子",
+          "person_mention_id": "c-shiji-118-huainan:m004-0051",
+          "usage": "narrative"
+        },
+        {
+          "id": "th-shiji118-wendi-tianzi-p004:a002",
+          "paragraph_id": "c-shiji-118-huainan:p004",
+          "start": 71,
+          "end": 73,
+          "surface": "天子",
+          "person_mention_id": "c-shiji-118-huainan:m004-0071",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "兩處皆為本案同一奏辭中的帝王用稱；只記本篇稱謂見證，不由此推定稱號授予或終止日期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -6708,8 +6760,8 @@
       "category": "liezhuan",
       "title": "淮南衡山列傳第五十八",
       "paragraph_id": "c-shiji-118-huainan:p002",
-      "count": 28,
-      "raw_count": 28,
+      "count": 30,
+      "raw_count": 30,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "失母，常附呂后，孝惠、呂后時以故得幸無患害，而常心怨辟陽侯，弗敢發。及孝文帝初即位，淮南王自以為最親，驕蹇，數不奉法。上以親故，常寬赦之。三年，入朝。甚橫。從上入苑囿獵，與上同車，常謂上「大兄」。厲王有材力，力能扛鼎，乃往請辟陽侯。辟陽侯出見之，即自袖鐵椎椎辟陽侯，令從者魏敬",
@@ -6733,6 +6785,8 @@
         "c-shiji-118-huainan:m002-0147",
         "c-shiji-118-huainan:m002-0149",
         "c-shiji-118-huainan:m002-0308",
+        "c-shiji-118-huainan:m004-0051",
+        "c-shiji-118-huainan:m004-0071",
         "c-shiji-118-huainan:m004-0421",
         "c-shiji-118-huainan:m004-0467",
         "c-shiji-118-huainan:m004-0519",
@@ -6763,6 +6817,8 @@
         "c-shiji-118-huainan:m002-0147": "c-shiji-118-huainan:p002",
         "c-shiji-118-huainan:m002-0149": "c-shiji-118-huainan:p002",
         "c-shiji-118-huainan:m002-0308": "c-shiji-118-huainan:p002",
+        "c-shiji-118-huainan:m004-0051": "c-shiji-118-huainan:p004",
+        "c-shiji-118-huainan:m004-0071": "c-shiji-118-huainan:p004",
         "c-shiji-118-huainan:m004-0421": "c-shiji-118-huainan:p004",
         "c-shiji-118-huainan:m004-0467": "c-shiji-118-huainan:p004",
         "c-shiji-118-huainan:m004-0519": "c-shiji-118-huainan:p004",
@@ -6833,6 +6889,20 @@
           "canonical_mention_id": "c-shiji-118-huainan:m002-0308",
           "mention_ids": [
             "c-shiji-118-huainan:m002-0308"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m004-0051",
+          "mention_ids": [
+            "c-shiji-118-huainan:m004-0051"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m004-0071",
+          "mention_ids": [
+            "c-shiji-118-huainan:m004-0071"
           ],
           "kind": "paragraph"
         },

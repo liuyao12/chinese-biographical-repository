@@ -1831,6 +1831,68 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "d-shiji118-p004-wendi-tianzi",
+      "person_id": "yqp_nlb_p1p_AC",
+      "surfaces": [
+        "天子"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-118-huainan"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-118-huainan:m004-0051",
+          "c-shiji-118-huainan:m004-0071"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-118",
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "source_revision": 7904122,
+          "paragraph_id": "c-shiji-118-huainan:p002",
+          "quote": "及孝文帝初即位，淮南王自以為最親，驕蹇，數不奉法。",
+          "mention_ids": [
+            "c-shiji-118-huainan:m002-0090"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-118",
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "source_revision": 7904122,
+          "paragraph_id": "c-shiji-118-huainan:p003",
+          "quote": "六年，令男子但等七十人與棘蒲侯柴武太子奇謀，以輂車四十乘反谷口，令人使閩越、匈奴。事覺，治之，使使召淮南王。淮南王至長安。",
+          "mention_ids": []
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-118",
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "source_revision": 7904122,
+          "paragraph_id": "c-shiji-118-huainan:p004",
+          "quote": "淮南王長廢先帝法，不聽天子詔，居處無度，為黃屋蓋乘輿，出入擬於天子，擅為法令，不用漢法。",
+          "mention_ids": [
+            "c-shiji-118-huainan:m004-0051",
+            "c-shiji-118-huainan:m004-0071"
+          ]
+        }
+      ],
+      "rationale": "本段同一奏案先稱「不聽天子詔」，後稱淮南王出入「擬於天子」；兩處均以同一現任皇帝為比照。上文已明記「孝文帝初即位」，再以「六年」交代本案時序，故兩處天子均指漢文帝。保留「天子」原稱，不將其當作姓名或據此推定帝號起訖。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }
