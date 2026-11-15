@@ -1562,6 +1562,131 @@
         "note": "保存官職／職掌與未具名任職者兩種讀法，不建立人物卡或生平。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false
+      },
+      {
+        "id": "ri-shiji117-zixu-fictive-roles",
+        "paragraph_id": "c-shiji-117-xiangru:p003",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m003-0117",
+          "c-shiji-117-xiangru:m003-0130",
+          "c-shiji-117-xiangru:m003-0148"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-zixu-fictive-roles-reading",
+        "source_terms": [
+          "子虛",
+          "烏有先生",
+          "無是公"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p003",
+          "quote": "相如以「子虛」，虛言也，為楚稱；「烏有先生」者，烏有此事也，為齊難；「無是公」者，無是人也，明天子之義。故空藉此三人為辭，以推天子諸侯之苑囿。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m003-0117",
+            "c-shiji-117-xiangru:m003-0130",
+            "c-shiji-117-xiangru:m003-0148"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-zixu-fictive-roles-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "司馬相如本傳明言「空藉此三人為辭」，又以「無是人也」釋無是公；教育部辭典也明定子虛賦中三者為虛構人物。此處分類的是賦中角色，不是可核實的歷史人物；三者均不連人物ID。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本篇明言此稱屬賦中設辭人物；僅分類文學角色，不建立歷史人物身份。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "司馬相如本傳明言「空藉此三人為辭」，又以「無是人也」釋無是公；教育部辭典也明定子虛賦中三者為虛構人物。此處分類的是賦中角色，不是可核實的歷史人物；三者均不連人物ID。"
+      },
+      {
+        "id": "ri-shiji117-zixu-fictive-epilogue",
+        "paragraph_id": "c-shiji-117-xiangru:p071",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m071-0026"
+        ],
+        "related_mention_ids": [
+          "c-shiji-117-xiangru:m003-0117",
+          "c-shiji-117-xiangru:m003-0130",
+          "c-shiji-117-xiangru:m003-0148"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-zixu-fictive-epilogue-reading",
+        "source_terms": [
+          "子虛"
+        ],
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p071",
+          "quote": "子虛過吒，上林非侈。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m071-0026"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-zixu-fictive-epilogue-reading",
+            "attribution": "本篇正文及教育部辭典",
+            "referent_kind": "fictional_person",
+            "candidate_person_ids": [],
+            "interpretation": "〈索隱述贊〉的「子虛」回指本篇 p003 明言「空藉此三人為辭」的賦中角色；本案以 related_mention_ids 連回該處三個角色錨點，不把述贊所用名號轉為歷史人物，也不另造人名ID。",
+            "source_reference_ids": [
+              "moe-zixu-fu-fictive-roles"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "moe-zixu-fu-fictive-roles",
+            "reference_type": "external_publication",
+            "title": "教育部《重編國語辭典修訂本》「子虛賦」",
+            "provider": "中華民國教育部",
+            "source_type": "政府辭典",
+            "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=137422&la=0&powerMode=0",
+            "accessed_on": "2026-11-14",
+            "quote": "文章名。漢代司馬相如所作的賦。文中藉虛構的子虛、烏有、亡是公三個人彼此問答，用以諷刺帝王的驕奢。",
+            "image_verified": false
+          }
+        ],
+        "selection": {
+          "rationale": "本篇明言此稱屬賦中設辭人物；僅分類文學角色，不建立歷史人物身份。",
+          "source_reference_ids": [
+            "moe-zixu-fu-fictive-roles"
+          ]
+        },
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "〈索隱述贊〉的「子虛」回指本篇 p003 明言「空藉此三人為辭」的賦中角色；本案以 related_mention_ids 連回該處三個角色錨點，不把述贊所用名號轉為歷史人物，也不另造人名ID。"
       }
     ],
     "transcription_discrepancies": [

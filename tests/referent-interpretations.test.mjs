@@ -54,3 +54,16 @@ test('the five celestial emperors are classified as a group without materializin
   const c=chapter.annotation.referent_interpretations.find(c=>c.id==='ri-shiji117-five-celestial-emperors');
   const html=referentCasesHTML([c]);assert.match(html,/群體泛稱讀法/);assert.equal((html.match(/class="referent-preferred"/g)||[]).length,1);assert.doesNotMatch(html,/candidate-profile|data-person-id=/);assert.match(html,/五畤/);assert.match(html,/五時/);
 });
+test('fictional Shiji dialogue figures are explained without creating historical profiles',()=>{
+  const cases=chapter.annotation.referent_interpretations.filter(c=>c.id.startsWith('ri-shiji117-zixu-fictive-'));
+  assert.equal(cases.length,2);
+  const html=referentCasesHTML(cases);
+  assert.match(html,/文學虛構人物/);assert.match(html,/空藉此三人為辭/);
+  assert.match(html,/不據此建立歷史人物個人資料/);
+  assert.doesNotMatch(html,/candidate-profile|data-person-id=/);
+  for (const id of ['c-shiji-117-xiangru:m003-0117','c-shiji-117-xiangru:m003-0130','c-shiji-117-xiangru:m003-0148','c-shiji-117-xiangru:m071-0026']) {
+    const p=chapter.paragraphs.find(p=>p.mentions.some(m=>m.id===id));
+    const m=p.mentions.find(m=>m.id===id);
+    assert.equal(m.kind,'unresolved');assert.equal(m.person_id,null);
+  }
+});

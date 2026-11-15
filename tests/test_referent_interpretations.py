@@ -22,6 +22,19 @@ class ReferentInterpretations(unittest.TestCase):
         self.assertEqual([c['source_terms'] for c in cases],[['陽子'],['纖阿'],['鄭女曼姬']])
         self.assertTrue(all(c['default_alternative_id'] is None for c in cases))
         self.assertTrue(any(not a['candidate_person_ids'] for c in cases for a in c['alternatives']))
+    def test_zixu_and_the_two_dialogue_figures_are_fictional_not_historical_people(self):
+        cases={c['id']:c for c in self.chapter['annotation']['referent_interpretations']}
+        first=cases['ri-shiji117-zixu-fictive-roles']
+        self.assertEqual(first['source_terms'],['子虛','烏有先生','無是公'])
+        self.assertEqual(first['status'],'editorial_provisional')
+        chosen=next(a for a in first['alternatives'] if a['id']==first['default_alternative_id'])
+        self.assertEqual(chosen['referent_kind'],'fictional_person')
+        self.assertEqual(chosen['candidate_person_ids'],[])
+        self.assertIn('空藉此三人為辭',chosen['interpretation'])
+        epilogue=cases['ri-shiji117-zixu-fictive-epilogue']
+        self.assertEqual(epilogue['source_terms'],['子虛'])
+        self.assertEqual(epilogue['related_mention_ids'],first['target_mention_ids'])
+        self.assertEqual(interpretation_errors(self.chapter,self.people),[])
     def test_nonpersonal_preferred_readings_do_not_create_people(self):
         cases={c['id']:c for c in self.chapter['annotation']['referent_interpretations']}
         for cid,kind in [('ri-shiji117-lieque','natural_phenomenon'),('ri-shiji117-tiandi','divinity')]:
