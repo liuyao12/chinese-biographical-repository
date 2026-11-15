@@ -35,7 +35,96 @@
       "文武不備的文武為政教語境，不標周文王武王。",
       "三得相三去相與治鄭二十六年保留來源次數時長，不反推任期或生卒年。",
       "最後太史公回顧死亡與前段同事件，不當獨立見證。",
-      "民吏下吏父子等群體留未定錨點；石奢篇兩處殺人者據乃其父及臣之父接為同一未名父親，不由普通詞全段預接。石奢未名父親與本人按明示父子同根。"
+      "民吏下吏父子等群體留未定錨點；石奢篇兩處殺人者據乃其父及臣之父接為同一未名父親，不由普通詞全段預接。石奢未名父親與本人按明示父子同根。",
+      "p006固定維基文庫轉錄作「徐贄」；識典古籍《史記》數位文字及現代論文所述作「徐摯」。未核底本書影，異文只存 transcription_discrepancies，不改正文或另立人物。",
+      "p009、p012兩見「家婦」按篇內回顧暫連同一匿名人物；不確定其為妻、婢或其他家內女性，不建立配偶關係。閻鴻中2016年論文作參考，不據以裁定。"
+    ],
+    "transcription_discrepancies": [
+      {
+        "id": "td-shiji119-xunli-xuzhi-name-variant",
+        "paragraph_id": "c-shiji-119-xunli:p006",
+        "kind": "unverified_digital_transcription_variant",
+        "status": "awaiting_received_text_witness_collation",
+        "received_witness": {
+          "source_id": "s-shiji119-xunli",
+          "revision_id": 7904123,
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷119&oldid=7904123",
+          "paragraph_text_sha256": "593192454e84f0511971355df58bee192a692d1950c2953561d433819147451a",
+          "quote": "子産者，鄭之列大夫也。鄭昭君之時，以所愛徐贄爲相，國亂，上下不親，父子不和。大宮子期言之君，以子産爲相。爲相一年，豎子不戲狎，斑白不提挈，僮子不犁畔。二年，市不豫賈。三年，門不夜關，道不拾遺。四年，田器不歸。五年，士無尺籍，喪期不令而治。治鄭二十六年而死，丁壯號哭，老人兒啼，曰：「子産去我死乎！民將安歸？」"
+        },
+        "comparison_readings": [
+          {
+            "source_type": "unversioned_comparison_transcription",
+            "title": "識典古籍《史記》卷119數位文本",
+            "provider": "識典古籍",
+            "url": "https://www.shidianguji.com/zh/book/NGJ89241199900959821601/chapter/1luy7hzwgqotf",
+            "accessed_on": "2026-11-14",
+            "quote": "以所愛徐摯爲相",
+            "note": "該頁未標明本卷所據版本，且未核書影；僅記錄可見數位文字的「摯」字，不據此取代固定轉錄或斷定古本異文。",
+            "quote_normalization": "取爭議人名字組及其謂語，未改字。"
+          }
+        ],
+        "study_references": [
+          {
+            "title": "《史記・循吏列傳》析疑",
+            "authors": [
+              "閻鴻中"
+            ],
+            "journal": "臺大歷史學報",
+            "year": 2016,
+            "volume": 57,
+            "pages": "1–46",
+            "specific_pages": "16，註39",
+            "doi": "10.6253/ntuhistory.2016.57.01",
+            "url": "https://doi.org/10.6253/ntuhistory.2016.57.01",
+            "summary": "作者指出子產敘事與《左傳》《鄭世家》《十二諸侯年表》存在年代及在位者問題，並討論「徐摯作相」之說；此為現代考證參考，不據以改正文。",
+            "scope": "modern_reference_not_received_text",
+            "image_verified": false
+          }
+        ],
+        "editorial_action": "保留固定修訂「徐贄」，不新增人物，不把未標明底本的比較轉錄當作校定讀法；待所選底本可核書影後再判。",
+        "human_reviewed": false
+      }
+    ],
+    "source_reading_cases": [
+      {
+        "id": "src-shiji119-xunli-jiafu-role-ambiguity",
+        "person_id": "v9v_sk2_lbn",
+        "kind": "referent_role_ambiguity",
+        "paragraph_id": "c-shiji-119-xunli:p009",
+        "person_mention_id": "c-shiji-119-xunli:m009-0024",
+        "source_term": "家婦",
+        "source_quote": "見其家織布好，而疾出其家婦，燔其機，云：「欲令農士工女安所讎其貨乎」？",
+        "recap_paragraph_id": "c-shiji-119-xunli:p012",
+        "recap_mention_id": "c-shiji-119-xunli:m012-0033",
+        "recap_quote": "公儀子見好布而家婦逐。",
+        "status": "unresolved",
+        "possible_roles": [
+          "wife",
+          "handmaid_or_servant",
+          "other_household_woman"
+        ],
+        "study_references": [
+          {
+            "title": "《史記・循吏列傳》析疑",
+            "authors": [
+              "閻鴻中"
+            ],
+            "journal": "臺大歷史學報",
+            "year": 2016,
+            "volume": 57,
+            "pages": "1–46",
+            "specific_pages": "12，註29",
+            "doi": "10.6253/ntuhistory.2016.57.01",
+            "url": "https://doi.org/10.6253/ntuhistory.2016.57.01",
+            "summary": "作者指出本篇「家婦」與《漢書》相關敘述的「出妻」用語不同，並提示家婦亦可能指婢使；本文僅存此考證為參考，不採定婚姻身分。",
+            "scope": "modern_reference_not_received_text",
+            "image_verified": false
+          }
+        ],
+        "rationale": "篇中逐人及論贊回顧足以暫連兩次家婦為同一匿名人物；「家婦」詞義及相關敘事仍不足以裁定配偶或家內從役身份。故撤回原有公儀休—家婦配偶斷言，不在 preferred_relations 建立婚配；本案僅保留來源提及與角色未決判讀。",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
