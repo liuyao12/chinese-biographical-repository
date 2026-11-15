@@ -11,7 +11,7 @@ def setup(root,events_marker='missing'):
  for p in people:
   b=dict(canonical_person_id=p['id'],person_ids=[p['id']],persons=[p],passages=[],source_mention_summary=[],most_mentioned_source_ids=[],mentions=[],table_occurrences=[],title_holdings=[],address_assertions=[],sources=[],relations=[],date_normalizations=[])
   if p['id']=='alpha'and events_marker!='missing':b['person_events']=copy.deepcopy(events_marker)
-  write('exports/persons/'+p['id']+'.json',b);write('data/corpus/profiles/'+p['id']+'.json',dict(sentinel='keep-'+p['id']))
+  write('exports/persons/'+p['id']+'.json',b);write('data/corpus/profiles/'+p['id']+'.json',dict(id=p['id'],label=p['label'],sentinel='keep-'+p['id']))
  return write
 class ProfilePersonEvents(unittest.TestCase):
  def run_case(self,events):

@@ -4,6 +4,15 @@ import json
 from collections import defaultdict
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
+def build_summaries(root):
+    # Cards are a derived projection; the source-rich profiles remain unchanged.
+    import os, shutil, subprocess
+    node = os.environ.get('CBR_NODE') or shutil.which('node')
+    if not node:
+        raise RuntimeError('Node.js required for person summary export')
+    subprocess.run([node, str(Path(__file__).with_name('export_person_summaries.mjs')),
+                    str(root)], check=True)
+
 def build(root=ROOT, person_ids=None):
     ROOT = root
     catalog = json.loads((ROOT/'data/corpus/index.json').read_text())
@@ -99,6 +108,8 @@ def build(root=ROOT, person_ids=None):
             profile['preferred_readings'] = preferred_readings
         if b.get('preferred_name_component_readings'):
             profile['preferred_name_component_readings'] = b['preferred_name_component_readings']
+        if b.get('default_profile_title') and b['default_profile_title']['person_id'] == pid:
+            profile['default_profile_title'] = b['default_profile_title']
         if b.get('preferred_title_readings'):
             profile['preferred_title_readings'] = b['preferred_title_readings']
         if b.get('referent_interpretations'):
@@ -150,5 +161,12 @@ def build(root=ROOT, person_ids=None):
     if person_ids is not None and (out/'index.json').exists():
         entries = [x for x in json.loads((out/'index.json').read_text())['profiles'] if x['id'] not in person_ids] + entries
     (out/'index.json').write_text(json.dumps({'schema_version':1,'profiles':entries},ensure_ascii=False,indent=2)+'\n')
+    if person_ids is None:
+        try:
+            from .person_directory import run as export_person_directory
+        except ImportError:
+            from person_directory import run as export_person_directory
+        export_person_directory(root)
+    build_summaries(root)
     print('閱讀器人物資料：', len(table_mentions), '份 ID 檔（含同指別名，不是不同人物總數）')
 if __name__=='__main__': build()

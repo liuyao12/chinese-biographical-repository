@@ -243,7 +243,20 @@ def explicit_maternal_uncle_valid(assertion, paragraphs):
             and '外甥' not in following[:following.index('舅甥並典兵')])
         if prefix_nephew:
             continue
-        if subject['start'] >= obj['start'] or obj['start'] < 1:
+        # This Jinshu 79 passage directly names Xie An's nephew as 「安顧謂其甥羊曇」.
+        # Keep this one source-specific form narrow: a bare 甥 or a different
+        # person/paragraph cannot establish the relation through this branch.
+        named_nephew_in_address = (
+            p.get('id') == 'c-jinshu-079-xielang-family:phase6-line041'
+            and obj.get('surface') == '安'
+            and subject.get('surface') == '羊曇'
+            and q.get('source_term') == '甥'
+            and subject['start'] >= len('甥')
+            and p['text'][subject['start'] - len('甥'):subject['start']] == '甥'
+            and p['text'][obj['end']:subject['start']] == '顧謂其甥'
+            and e.get('quote') == p['text']
+        )
+        if (subject['start'] >= obj['start'] and not named_nephew_in_address) or obj['start'] < 1:
             return False
         named = (p['text'][obj['start'] - 1:obj['start']] == '舅'
                  and q.get('source_term') == '舅' + obj['surface'])
@@ -263,7 +276,7 @@ def explicit_maternal_uncle_valid(assertion, paragraphs):
                           and p['text'][subject['end']:obj['start']] in ('', '，', '、')
                           and (nephew_end == len(p['text'])
                                or p['text'][nephew_end] in '，。；、'))
-        if not (named or unnamed or named_with_place or named_nephew_of):
+        if not (named or unnamed or named_with_place or named_nephew_of or named_nephew_in_address):
             return False
         if not any(e['quote'] == p['text'][i:i + len(e['quote'])] and i <= subject['start']
                    and obj['end'] <= i + len(e['quote']) for i in range(len(p['text']))):

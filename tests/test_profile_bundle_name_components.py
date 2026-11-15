@@ -25,7 +25,8 @@ class ProfileBundleNameComponents(unittest.TestCase):
   def write(path,text,*a,**kw):
    self.assertTrue(str(path).startswith(prefix+'/'));captured[str(path)]=text;return len(text)
   def mkdir(path,*a,**kw):self.assertEqual(str(path),prefix)
-  with patch.object(Path,'read_text',read),patch.object(Path,'write_text',write),patch.object(Path,'mkdir',mkdir):build(ROOT,person_ids=set(ids))
+  with patch.object(Path,'read_text',read),patch.object(Path,'write_text',write),patch.object(Path,'mkdir',mkdir),patch('scripts.table_person_profiles.build_summaries'):
+   build(ROOT,person_ids=set(ids))
   for pid,(ming,zi,xiaozhi)in ids.items():
    b=json.loads((ROOT/'exports/persons'/f'{pid}.json').read_text());p=json.loads(captured[str(ROOT/'data/corpus/profiles'/f'{pid}.json')]);self.assertEqual(p['name_components'],b.get('name_components',[]));self.assertTrue(any(r.get('ming')==ming and r.get('zi')==zi for r in p['name_components']))
    if xiaozhi:self.assertTrue(any(r.get('xiaozhi')==xiaozhi for r in p['name_components']))

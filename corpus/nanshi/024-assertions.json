@@ -272,6 +272,66 @@
       "human_reviewed": false,
       "model": null,
       "interpretation_note": "原文婚配及其後離婚分存；不補婚期、離婚年或生母。"
+    },
+    {
+      "id": "a-nanshi024-wangjinghong-wife",
+      "subject_person_id": "7r6_k52_qji_ABDABAA",
+      "predicate": "spouse",
+      "object_person_id": "fml_n0s_qtz",
+      "qualifiers": {
+        "source_term": "妻弟"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line015",
+          "quote": "敬弘少有清尚，起家本國左常侍、衞軍參軍。性恬靜，樂山水，求爲天門太守。及之郡，妻弟荊州刺史桓玄遣信要令過己，敬弘至巴陵，謂人曰：「靈寶正當欲見其姊，我不能爲桓氏贅婿。」乃遣別船送妻往江陵，彌年不迎。山郡無事，恣其遊適，意甚好之。後爲南平太守，去官，居作唐縣界。玄輔政及篡位，屢召不下。宋武帝以爲車騎從事中郎、徐州中從事史、征西將軍道規諮議參軍。時府主簿宗協亦有高趣，道規並以事外相期。嘗共酣飲，敬弘因醉失禮，爲外司所白，道規即更引還，重申初燕。",
+          "subject_person_mention_id": "c-nanshi-024-wang-family:line015:m0000",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line015:m0039"
+        }
+      ],
+      "interpretation_note": "「妻弟」明指王敬弘之妻與桓玄為姊弟；此斷言只記來源明言的配偶關係，不補妻姓名或婚期。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-huanxuan-elder-sister",
+      "subject_person_id": "fml_n0s_qtz",
+      "predicate": "sister",
+      "object_person_id": "u9s_w6j_8mc_AAF",
+      "qualifiers": {
+        "source_term": "妻弟；其姊",
+        "relative_birth_order": {
+          "older_person_id": "fml_n0s_qtz",
+          "younger_person_id": "u9s_w6j_8mc_AAF",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line015",
+          "quote": "敬弘少有清尚，起家本國左常侍、衞軍參軍。性恬靜，樂山水，求爲天門太守。及之郡，妻弟荊州刺史桓玄遣信要令過己，敬弘至巴陵，謂人曰：「靈寶正當欲見其姊，我不能爲桓氏贅婿。」乃遣別船送妻往江陵，彌年不迎。山郡無事，恣其遊適，意甚好之。後爲南平太守，去官，居作唐縣界。玄輔政及篡位，屢召不下。宋武帝以爲車騎從事中郎、徐州中從事史、征西將軍道規諮議參軍。時府主簿宗協亦有高趣，道規並以事外相期。嘗共酣飲，敬弘因醉失禮，爲外司所白，道規即更引還，重申初燕。",
+          "subject_person_mention_id": "c-nanshi-024-wang-family:line015:m0072",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line015:m0045"
+        }
+      ],
+      "interpretation_note": "「妻弟」與「欲見其姊」相互印證王敬弘之妻為桓玄姊；僅知她較玄年長，不推絕對排行、父母或姓名。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

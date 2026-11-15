@@ -3,6 +3,10 @@ def locator(name):
     return {k:name.get(k) for k in ('id','person_id','chapter_id','paragraph_id','surname','ming','quote')}
 
 def reading_errors(reading, names, chapters):
+    if isinstance(reading,dict)and isinstance(reading.get('basis'),dict)and reading['basis'].get('kind')=='cross_chapter_same_person_source_variant':
+        try:from scripts.cross_chapter_name_reading import reading_errors as cross_errors
+        except ImportError:from cross_chapter_name_reading import reading_errors as cross_errors
+        return cross_errors(reading,names,chapters)
     errors=[]
     if (not isinstance(reading,dict) or set(reading)!={'id','person_id','field','preferred_value','source_values','records','status','human_reviewed','rationale','coverage','basis'}
         or reading.get('field')!='ming' or reading.get('status')!='editorial_provisional'

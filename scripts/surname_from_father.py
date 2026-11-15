@@ -1,5 +1,13 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions,root=None):
+ if isinstance(name,dict)and isinstance(name.get('surname_basis'),dict)and name['surname_basis'].get('kind')=='contextual_surname_from_wyd063_fixed_near_kin':
+  try:from scripts.wyd_song063_basics import validate_surname
+  except ImportError:from wyd_song063_basics import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if isinstance(name,dict)and isinstance(name.get('surname_basis'),dict)and name['surname_basis'].get('kind')=='contextual_surname_from_wyd_song051_yixin':
+  try:from .wyd_song051_yixin import validate_surname
+  except ImportError:from wyd_song051_yixin import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
  # fixed-wyd045-surname
  if isinstance(name,dict)and isinstance(name.get('surname_basis'),dict)and name['surname_basis'].get('kind')=='contextual_surname_from_wyd_song045_kinship':
   try:from scripts.wyd_song045_roles import validate_surname

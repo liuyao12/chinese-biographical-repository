@@ -1,5 +1,6 @@
 # coding: utf-8
 import json
+import copy
 import re
 import unittest
 from pathlib import Path
@@ -56,6 +57,53 @@ class WangJinghongCompleteBody(unittest.TestCase):
             self.assertTrue(all(m.get('person_id')is None for m in mentions))
         self.assertEqual(next(m['person_id']for m in p['mentions']if m['surface']=='吾'),self.jinghong)
         self.assertNotEqual(next(m['person_id']for m in p['mentions']if m['surface']=='汝'),self.jinghong)
+
+    def test_wangdongshan_person_mark_and_three_identity_decisions_are_source_bound(self):
+        pid='7r6_k52_qji_ABDABAA'
+        wang=self.paragraph(24)
+        alias=next(m for m in wang['mentions']if m['id']==self.c['id']+':line024:m0045')
+        self.assertEqual((alias['start'],alias['end'],alias['surface'],alias['person_id']),(45,48,'王東山',pid))
+        xml=(ROOT/'corpus/songshu/066.xml').read_text()
+        self.assertIn('<persName id="'+alias['id']+'" ref="'+pid+'">王東山</persName>',xml)
+
+        expected={
+            'd-songshu066-wangdongshan':(pid,'王東山',self.c['id']+':line024:m0045',24),
+            'd-songshu066-lingbao-huanxuan':('u9s_w6j_8mc_AAF','靈寶',self.c['id']+':line012:m0071',12),
+            'd-songshu066-shidi-liuyu':('3qs_nqa_ioa_AAA','先帝',self.c['id']+':line020:m0376',20),
+        }
+        for did,(person_id,surface,mid,line) in expected.items():
+            d=self.decisions[did]
+            self.assertEqual(d['person_id'],person_id)
+            self.assertEqual(d['surfaces'],[surface])
+            self.assertEqual(d['identification_basis']['target_mention_ids'],[mid])
+            p=self.paragraph(line)
+            target=next(m for m in p['mentions']if m['id']==mid)
+            self.assertEqual((target['surface'],target['person_id']),(surface,person_id))
+            self.assertTrue(any(e['paragraph_id']==p['id'] and e['quote']==p['text'] for e in d['evidence']))
+            self.assertFalse(d['human_reviewed'])
+
+    def test_new_identity_decision_mutations_break_the_fixed_source_binding(self):
+        expected={
+            'd-songshu066-wangdongshan':('7r6_k52_qji_ABDABAA','王東山',self.c['id']+':line024:m0045'),
+            'd-songshu066-lingbao-huanxuan':('u9s_w6j_8mc_AAF','靈寶',self.c['id']+':line012:m0071'),
+            'd-songshu066-shidi-liuyu':('3qs_nqa_ioa_AAA','先帝',self.c['id']+':line020:m0376'),
+        }
+        for did,(person_id,surface,mid) in expected.items():
+            original=self.decisions[did]
+            for field,value in [('person_id','3qs_nqa_ioa_AAAA'),('surface','誤名'),('mention_id',self.c['id']+':line001:m0000')]:
+                bad=copy.deepcopy(original)
+                if field=='person_id':bad['person_id']=value
+                elif field=='surface':bad['surfaces']=[value]
+                else:bad['identification_basis']['target_mention_ids']=[value]
+                self.assertFalse(self._identity_binding_matches(bad,person_id,surface,mid),(did,field))
+
+    def _identity_binding_matches(self,decision,person_id,surface,mid):
+        if decision.get('person_id')!=person_id or decision.get('surfaces')!=[surface]:return False
+        if decision.get('identification_basis',{}).get('target_mention_ids')!=[mid]:return False
+        hit=next((p for p in self.c['paragraphs']if any(m['id']==mid for m in p.get('mentions',[]))),None)
+        if not hit:return False
+        target=next(m for m in hit['mentions']if m['id']==mid)
+        return target.get('surface')==surface and target.get('person_id')==person_id
 
 if __name__=='__main__':
     unittest.main()

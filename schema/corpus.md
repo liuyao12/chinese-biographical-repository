@@ -14,7 +14,7 @@
 
 `corpus/shiji/001.json` 保存正文、見證版本、權利、指紋、審閱狀態與提及位置。`source_id` 為本卷見證識別碼，來源資訊就地保存在 `source`；它目前不引用舊 `sources/` 目錄。這個區別須在舊資料遷移時明確處理。同一原卷可以有多個數位見證或選段，沿用原卷 `book_id`，各有獨立 `source_id` 與 `chapter_id`。平行版本不是另一獨立史書，不能當成多份獨立見證投票；引用哪一版就指向哪一版原段，不把另一版字句補進通行正文。
 
-每個段落有唯一 ID，每個提及有唯一 ID、`start`、`end`、`surface`。位置為段落內 Unicode code point，起點含、終點不含；JavaScript 使用 `Array.from(text)`，不可直接把 UTF-16 字串位置當此格式的位置。所有提及不重疊，依起點排列。人物提及含 `person_id`；未定指代的 `person_id` 為 `null`。
+每個段落有唯一 ID，每個提及有唯一 ID、`start`、`end`、`surface`。位置為段落內 Unicode code point，起點含、終點不含；JavaScript 使用 `Array.from(text)`，不可直接把 UTF-16 字串位置當此格式的位置。所有提及不重疊，依起點排列。`kind: person` 是姓名或其他具名人物用稱，可開人物頁並納入姓名別名與提及頻次。`kind: pronoun` 是代詞指涉：僅在原文語境足以辨認人物時填 `person_id`，未能確定人物或其所指非人物時填 `person_id: null` 並標記 `status: unresolved`。代詞不作姓名、別名或人物頁連結。其他未決指代的 `person_id` 也為 `null`。
 
 ## 行內文本
 
@@ -26,7 +26,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 </text>
 ```
 
-實際文件另含提及 ID；`persName` 引用人物，`rs type="unresolved"` 保存未定個人、氏族、群體、國號或職稱。去掉標籤後必須逐段精確還原 JSON 正文，標籤不改寫史料。篇的 SHA-256 取各段正文以兩個換行連接後的 UTF-8 位元組，不含結尾換行。
+實際文件另含提及 ID；`persName` 引用具名人物，`rs type="pronoun" ref="…"` 保存已解析的人物代詞指涉（ref 可省略），`rs type="unresolved"` 保存未決個人、氏族、群體、國號或職稱。去掉標籤後必須逐段精確還原 JSON 正文，標籤不改寫史料。篇的 SHA-256 取各段正文以兩個換行連接後的 UTF-8 位元組，不含結尾換行。
 
 ## 身份、群體與傳說
 
@@ -203,6 +203,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ## 生卒事件
 
 親屬陳述可用 `qualifiers.posthumous_birth: true` 保存明示「遺腹子」，父親端點與原詞必須存在；不補出生年或母親。`kinship_unspecified` 保存「有親」但未明種類的親屬陳述，不指定親等、父系或姻親，也不能作家族組裝的父子證據。
+
+「族曾祖」等族內祖輩稱謂若不足以證成直系祖先或精確世代路徑，可用 `kinship_unspecified` 的 `paternal_clan_ancestor_appellation` basis 保存原詞及兩端人物；世代差、共祖與連接人物保持未知，不直接加入父系組裝。卷七十五荀顗與荀崧之例即採此限制。
 
 `108-life-events.json` 的 `person_life_event_assertion_set` 保存原文明示的 `birth` 或 `death`，每筆 `events` 引用人物、篇及含人物錨點的精確事件引句。`date_expression` 為原文日期或 null；數字年另存 `normalized_date`，保留原句、參考與 AI 判讀。未知日期不補數值，日期精度不高於證據。逐人 JSON 可直接讀 `life_events`，日期索引以 `date_role: life_event` 與 `event_type` 區分；死亡事件不改寫官爵端點。
 
@@ -787,6 +789,8 @@ validator核同篇同source、直接相鄰段、原行只隔一空行、同固�
 
 `agnatic_senior_kin` 原語義不變：主體晚一代父系旁親，`generation_difference: -1`，親等及共同祖先為 null，年齡先後未知。新增 `source_clause_binding` 的 `pattern: biographical_subject_courtesy_senior_congzi` 與 `courtesy_name_mention_id`，只認雙端人物錨點加同一主體的字號錨點，精確原句「主體字字號對象從子也」。不依同姓或同名猜身份、不補中介父親；不同代與同代不得互換。「彞于彧為從祖兄弟」仍獨立為同輩父系旁親，不能改成親兄弟。此句型不擴及族父、姑子或未知其他倒裝句。
 
+《晉書》卷七十六「彪之……從伯導謂曰」另以固定句型記為王彪之（主體）稱王導（對象）為從伯：`generation_difference: -1` 僅表稱謂所示的一代差，父系旁親；不據此推定王彪之之父、王導之父以外的共同祖先身份或精確親等。此驗證只綁定卷七十六第55段的兩個人物錨與「從伯導」原詞，不推廣成任意「從伯」標記規則。
+
 
 ### 固定見證同位置對應
 
@@ -1019,7 +1023,7 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 
 ### 遠祖聲稱之後的兄弟省略主語
 
-`source_clause_binding.kind: reported_ancestor_then_named_siblings` 只處理傳首「某N世孫。兄甲，弟乙、丙」的原式。主體是世孫句內的具名祖先，並非傳首後裔。binding連到同段原生 `ancestor` 斷言、後裔/祖先/兄/兩弟精確人物錨點及兄弟列字位；原ancestor須保source_number、reported_generation_number，generation_distance:null且adopted_for_family_tree:false。不能借此把遠祖採入族譜。
+`傳主後接「某N世孫。兄甲，弟乙、丙」時，兄弟列主語須依持續敘事主體判定，不能只因遠祖緊鄰在前就移繫遠祖。biography_subject_named_siblings 綁傳主、年長兄、各弟的人物錨與句位；相對年序不推絕對排行。上下文推得共享父親須另記為暫定編輯推導，不冒作來源明文。
 
 各 `brother` 陳述保全列原詞，但object只對應一名具名兄或弟；`relative_birth_order`原詞定向，ordinal兩端均null。不補共同父母、祖父或同母。此窄式不放寬其他親屬模型，不把既有祖/曾祖聲稱冒作相鄰父子。
 

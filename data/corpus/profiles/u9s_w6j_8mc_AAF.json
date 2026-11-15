@@ -11,7 +11,6 @@
     "靈寶",
     "桓",
     "桓𤣥",
-    "自",
     "桓元",
     "𤣥",
     "公",
@@ -172,8 +171,8 @@
       "category": "",
       "title": "《南齊書》卷三十三王僧䖍完整本傳（編輯選錄題）",
       "paragraph_id": "c-nanqishu-033-wangsengqian:p011",
-      "count": 3,
-      "raw_count": 3,
+      "count": 2,
+      "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "僧䖍古迹十一袠就求能書人名僧䖍得民間所有袠中所無者呉太皇帝景帝歸命侯書桓𤣥書及王丞相導領軍洽中書令珉張芝索靖衛伯儒張翼十二卷奏之又上羊欣所撰能書人名一卷",
@@ -183,13 +182,11 @@
       ],
       "mention_ids": [
         "c-nanqishu-033-wangsengqian:p011:m0084",
-        "c-nanqishu-033-wangsengqian:p014:m0235",
-        "c-nanqishu-033-wangsengqian:p014:m0237"
+        "c-nanqishu-033-wangsengqian:p014:m0235"
       ],
       "mention_paragraph_ids": {
         "c-nanqishu-033-wangsengqian:p011:m0084": "c-nanqishu-033-wangsengqian:p011",
-        "c-nanqishu-033-wangsengqian:p014:m0235": "c-nanqishu-033-wangsengqian:p014",
-        "c-nanqishu-033-wangsengqian:p014:m0237": "c-nanqishu-033-wangsengqian:p014"
+        "c-nanqishu-033-wangsengqian:p014:m0235": "c-nanqishu-033-wangsengqian:p014"
       },
       "mention_id": "c-nanqishu-033-wangsengqian:p011:m0084",
       "occurrence_groups": [
@@ -204,13 +201,6 @@
           "canonical_mention_id": "c-nanqishu-033-wangsengqian:p014:m0235",
           "mention_ids": [
             "c-nanqishu-033-wangsengqian:p014:m0235"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-nanqishu-033-wangsengqian:p014:m0237",
-          "mention_ids": [
-            "c-nanqishu-033-wangsengqian:p014:m0237"
           ],
           "kind": "paragraph"
         }
@@ -11893,6 +11883,40 @@
       "model": null
     },
     {
+      "id": "a-nanshi024-huanxuan-elder-sister",
+      "subject_person_id": "fml_n0s_qtz",
+      "predicate": "sister",
+      "object_person_id": "u9s_w6j_8mc_AAF",
+      "qualifiers": {
+        "source_term": "妻弟；其姊",
+        "relative_birth_order": {
+          "older_person_id": "fml_n0s_qtz",
+          "younger_person_id": "u9s_w6j_8mc_AAF",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line015",
+          "quote": "敬弘少有清尚，起家本國左常侍、衞軍參軍。性恬靜，樂山水，求爲天門太守。及之郡，妻弟荊州刺史桓玄遣信要令過己，敬弘至巴陵，謂人曰：「靈寶正當欲見其姊，我不能爲桓氏贅婿。」乃遣別船送妻往江陵，彌年不迎。山郡無事，恣其遊適，意甚好之。後爲南平太守，去官，居作唐縣界。玄輔政及篡位，屢召不下。宋武帝以爲車騎從事中郎、徐州中從事史、征西將軍道規諮議參軍。時府主簿宗協亦有高趣，道規並以事外相期。嘗共酣飲，敬弘因醉失禮，爲外司所白，道規即更引還，重申初燕。",
+          "subject_person_mention_id": "c-nanshi-024-wang-family:line015:m0072",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line015:m0045"
+        }
+      ],
+      "interpretation_note": "「妻弟」與「欲見其姊」相互印證王敬弘之妻為桓玄姊；僅知她較玄年長，不推絕對排行、父母或姓名。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-song047-liuhuaisu-013",
       "subject_person_id": "u9s_w6j_8mc_ACAC",
       "object_person_id": "u9s_w6j_8mc_AAF",
@@ -12283,6 +12307,40 @@
         }
       ],
       "interpretation_note": "依完整原段與具體錨點辨識；未補原文未述父母、配偶、世系或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-huanxuan-elder-sister",
+      "subject_person_id": "fml_n0s_qtz",
+      "predicate": "sister",
+      "object_person_id": "u9s_w6j_8mc_AAF",
+      "qualifiers": {
+        "source_term": "妻弟；其姊",
+        "relative_birth_order": {
+          "older_person_id": "fml_n0s_qtz",
+          "younger_person_id": "u9s_w6j_8mc_AAF",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line015",
+          "quote": "敬弘少有清尚，起家本國左常侍、衞軍參軍。性恬靜，樂山水，求爲天門太守。及之郡，妻弟荊州刺史桓玄遣信要令過己，敬弘至巴陵，謂人曰：「靈寶正當欲見其姊，我不能爲桓氏贅婿。」乃遣別船送妻往江陵，彌年不迎。山郡無事，恣其遊適，意甚好之。後爲南平太守，去官，居作唐縣界。玄輔政及篡位，屢召不下。宋武帝以爲車騎從事中郎、徐州中從事史、征西將軍道規諮議參軍。時府主簿宗協亦有高趣，道規並以事外相期。嘗共酣飲，敬弘因醉失禮，爲外司所白，道規即更引還，重申初燕。",
+          "subject_person_mention_id": "c-nanshi-024-wang-family:line015:m0072",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line015:m0045"
+        }
+      ],
+      "interpretation_note": "「妻弟」與「欲見其姊」相互印證王敬弘之妻為桓玄姊；僅知她較玄年長，不推絕對排行、父母或姓名。",
+      "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

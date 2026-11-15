@@ -1,0 +1,485 @@
+{
+  "record_type": "source_context_identity_reading",
+  "scope": "燕丹一人同指；完整034/086/115/130原段已核，事件年代差異保留；非新史料底本",
+  "decisions": [
+    {
+      "identity_decision_id": "d-shiji130-yandan-001",
+      "person_id": "e3o_2bk_lhm",
+      "target_mention_ids": [
+        "c-shiji-130-taishigong:m127-0000"
+      ],
+      "reason": "原先以115較晚的亡命起因作身份否決，將事件同步與人物指稱綁得過緊。重讀086東保遼東的直接具名橋後，足以首選太子丹；保留歷史敘事張力並不要求另立一個燕丹分身。"
+    }
+  ],
+  "complete_units": [
+    {
+      "path": "corpus/shiji/130.json",
+      "chapter_id": "c-shiji-130-taishigong",
+      "source": {
+        "title": "史記／卷130",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷130",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+        "revision_id": 2609362,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文143段，全部篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-130-taishigong:p127",
+        "text": "燕丹散亂遼閒，滿收其亡民，厥聚海東，以集真藩，葆塞為外臣。作朝鮮列傳第五十五。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-130-taishigong:m127-0000",
+            "start": 0,
+            "end": 2,
+            "surface": "燕丹",
+            "kind": "person",
+            "person_id": "e3o_2bk_lhm",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-130-taishigong:m127-0007",
+            "start": 7,
+            "end": 8,
+            "surface": "滿",
+            "kind": "person",
+            "person_id": "f41_ulg_3u1",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "path": "corpus/shiji/034.json",
+      "chapter_id": "c-shiji-034-yan",
+      "source": {
+        "title": "史記／卷034",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷034",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷034&oldid=2559287",
+        "revision_id": 2559287,
+        "accessed_on": "2026-10-09",
+        "extent": "正文35個p區塊，自召公奭與周同姓至太史公論贊；排除兩個dd導覽，未混入版權／介面文字。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "为": "為",
+            "时": "時",
+            "与": "與",
+            "乐": "樂",
+            "骑": "騎",
+            "将": "將",
+            "赵": "趙",
+            "齐": "齊",
+            "单": "單",
+            "击": "擊",
+            "败": "敗",
+            "军": "軍",
+            "归": "歸",
+            "复": "復",
+            "闵": "閔",
+            "韩": "韓"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定版本與實讀HTML一致；第27段簡體及第28段韓字按明列字形轉換，保留爲、呉、説、歳、髙等異體與校勘括號。",
+          "note": "召王、笆棠、燕王噲死問孤等疑讀未由記憶訂正；第31、32、35段插改字及地名校勘符號保留待核。篇名頁不存在，實讀卷034頁；未核影像、底本或現代研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-034-yan:p033",
+        "text": "燕見秦且滅六國，秦兵臨易水，禍且至燕。太子丹陰養壯士二十人，使荊軻獻督亢地圖於秦，因襲刺秦王。秦王覺，殺軻，使將軍王翦撃燕。二十九年，秦攻拔我薊，燕王亡，徙居遼東，斬丹以獻秦。三十年，秦滅魏。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-034-yan:m033-0005",
+            "start": 5,
+            "end": 7,
+            "surface": "六國",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "群體、匿名者、未定稱呼、書名或數位疑讀；不補姓名、性別與成員。"
+          },
+          {
+            "id": "c-shiji-034-yan:m033-0019",
+            "start": 19,
+            "end": 22,
+            "surface": "太子丹",
+            "kind": "person",
+            "person_id": "e3o_2bk_lhm",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-034-yan:m033-0024",
+            "start": 24,
+            "end": 29,
+            "surface": "壯士二十人",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "群體、匿名者、未定稱呼、書名或數位疑讀；不補姓名、性別與成員。"
+          },
+          {
+            "id": "c-shiji-034-yan:m033-0031",
+            "start": 31,
+            "end": 33,
+            "surface": "荊軻",
+            "kind": "person",
+            "person_id": "b83_37f_n0v",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-034-yan:m033-0044",
+            "start": 44,
+            "end": 46,
+            "surface": "秦王",
+            "kind": "person",
+            "person_id": "ao3_0fy_d45_AAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-034-yan:m033-0047",
+            "start": 47,
+            "end": 49,
+            "surface": "秦王",
+            "kind": "person",
+            "person_id": "ao3_0fy_d45_AAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-034-yan:m033-0052",
+            "start": 52,
+            "end": 53,
+            "surface": "軻",
+            "kind": "person",
+            "person_id": "b83_37f_n0v",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-034-yan:m033-0055",
+            "start": 55,
+            "end": 59,
+            "surface": "將軍王翦",
+            "kind": "person",
+            "person_id": "gdj_k53_v1x",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-034-yan:m033-0073",
+            "start": 73,
+            "end": 75,
+            "surface": "燕王",
+            "kind": "person",
+            "person_id": "lt4_hpv_4ku_AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-034-yan:m033-0083",
+            "start": 83,
+            "end": 84,
+            "surface": "丹",
+            "kind": "person",
+            "person_id": "e3o_2bk_lhm",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "path": "corpus/shiji/086.json",
+      "chapter_id": "c-shiji-086-cike",
+      "source": {
+        "title": "史記／卷086",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷086",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562",
+        "revision_id": 2388562,
+        "accessed_on": "2026-10-09",
+        "extent": "38段正文含太史公論，排除導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；（衆）按普通括號原文保留；第17段tooltip異文提示另存。",
+          "note": "全38段與HTML篇界已核讀，未核底本影像或現代研究。",
+          "digital_variant_notes": [
+            {
+              "paragraph_number": 17,
+              "body_reading": "縣",
+              "witness_tooltip": "一作「購縣」，又作「縣購」。",
+              "note": "數位見證未標明異文版本，另存，不代替正文。"
+            }
+          ]
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-086-cike:p035",
+        "text": "於是秦王大怒，益發兵詣趙，詔王翦軍以伐燕。十月而拔薊城。燕王喜、太子丹等盡率其精兵東保於遼東。秦將李信追撃燕王急，代王嘉乃遺燕王喜書曰：「秦所以尤追燕急者，以太子丹故也。今王誠殺丹獻之秦王，秦王必解，而社稷幸得血食。」其後李信追丹，丹匿衍水中，燕王乃使使斬太子丹，欲獻之秦。秦復進兵攻之。後五年，秦卒滅燕，虜燕王喜。",
+        "annotation_status": "named_mentions_first_pass",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-086-cike:m035-0002",
+            "start": 2,
+            "end": 4,
+            "surface": "秦王",
+            "kind": "person",
+            "person_id": "ao3_0fy_d45_AAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0014",
+            "start": 14,
+            "end": 16,
+            "surface": "王翦",
+            "kind": "person",
+            "person_id": "gdj_k53_v1x",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0028",
+            "start": 28,
+            "end": 31,
+            "surface": "燕王喜",
+            "kind": "person",
+            "person_id": "lt4_hpv_4ku_AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0032",
+            "start": 32,
+            "end": 35,
+            "surface": "太子丹",
+            "kind": "person",
+            "person_id": "e3o_2bk_lhm",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0039",
+            "start": 39,
+            "end": 41,
+            "surface": "精兵",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "群體、未名人物或待核稱呼保留未解；未補姓名、性別或親屬名。"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0047",
+            "start": 47,
+            "end": 51,
+            "surface": "秦將李信",
+            "kind": "person",
+            "person_id": "k7j_gr6_8nz",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0053",
+            "start": 53,
+            "end": 55,
+            "surface": "燕王",
+            "kind": "person",
+            "person_id": "lt4_hpv_4ku_AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0057",
+            "start": 57,
+            "end": 60,
+            "surface": "代王嘉",
+            "kind": "person",
+            "person_id": "q6w_qm5_w2b_AB",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0062",
+            "start": 62,
+            "end": 65,
+            "surface": "燕王喜",
+            "kind": "person",
+            "person_id": "lt4_hpv_4ku_AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0079",
+            "start": 79,
+            "end": 82,
+            "surface": "太子丹",
+            "kind": "person",
+            "person_id": "e3o_2bk_lhm",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0085",
+            "start": 85,
+            "end": 87,
+            "surface": "今王",
+            "kind": "person",
+            "person_id": "lt4_hpv_4ku_AA",
+            "status": "contextual_provisional",
+            "note": "代王嘉致燕王喜書的引語內稱收信人；不套入外敘事秦王。"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0089",
+            "start": 89,
+            "end": 90,
+            "surface": "丹",
+            "kind": "person",
+            "person_id": "e3o_2bk_lhm",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0092",
+            "start": 92,
+            "end": 94,
+            "surface": "秦王",
+            "kind": "person",
+            "person_id": "ao3_0fy_d45_AAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0095",
+            "start": 95,
+            "end": 97,
+            "surface": "秦王",
+            "kind": "person",
+            "person_id": "ao3_0fy_d45_AAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0111",
+            "start": 111,
+            "end": 113,
+            "surface": "李信",
+            "kind": "person",
+            "person_id": "k7j_gr6_8nz",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0114",
+            "start": 114,
+            "end": 115,
+            "surface": "丹",
+            "kind": "person",
+            "person_id": "e3o_2bk_lhm",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0116",
+            "start": 116,
+            "end": 117,
+            "surface": "丹",
+            "kind": "person",
+            "person_id": "e3o_2bk_lhm",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0122",
+            "start": 122,
+            "end": 124,
+            "surface": "燕王",
+            "kind": "person",
+            "person_id": "lt4_hpv_4ku_AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0128",
+            "start": 128,
+            "end": 131,
+            "surface": "太子丹",
+            "kind": "person",
+            "person_id": "e3o_2bk_lhm",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-086-cike:m035-0154",
+            "start": 154,
+            "end": 157,
+            "surface": "燕王喜",
+            "kind": "person",
+            "person_id": "lt4_hpv_4ku_AA",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "path": "corpus/shiji/115.json",
+      "chapter_id": "c-shiji-115-chaoxian",
+      "source": {
+        "title": "史記／卷115",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷115",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220",
+        "revision_id": 439220,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證10段正文，沒有索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與分類標籤，移除后字防轉換外殼，保留正文及括號校記，未核底本影像。",
+          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-115-chaoxian:p001",
+        "text": "朝鮮王滿者，故燕人也。自始全燕時嘗略屬真番、朝鮮，為置吏，筑鄣塞。秦滅燕，屬遼東外徼。漢興，為其遠難守，復修遼東故塞，至浿水為界，屬燕。燕王盧綰反，入匈奴，滿亡命，聚黨千餘人，魋結蠻夷服而東走出塞，渡浿水，居秦故空地上下鄣，稍役屬真番、朝鮮蠻夷及故燕、齊亡命者王之，都王險。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-115-chaoxian:m001-0003",
+            "start": 3,
+            "end": 4,
+            "surface": "滿",
+            "kind": "person",
+            "person_id": "f41_ulg_3u1",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-115-chaoxian:m001-0070",
+            "start": 70,
+            "end": 72,
+            "surface": "盧綰",
+            "kind": "person",
+            "person_id": "jjl_irg_zke_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-115-chaoxian:m001-0078",
+            "start": 78,
+            "end": 79,
+            "surface": "滿",
+            "kind": "person",
+            "person_id": "f41_ulg_3u1",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    }
+  ],
+  "current_candidate_ledgers_updated": [],
+  "no_runtime_aliases": true,
+  "human_reviewed": false,
+  "image_verified": false,
+  "model": null
+}

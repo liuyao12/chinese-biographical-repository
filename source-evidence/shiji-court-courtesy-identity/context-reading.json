@@ -1,0 +1,4332 @@
+{
+  "status": "contextual_provisional",
+  "human_reviewed": false,
+  "model": null,
+  "source_file_sha256_before_projection": {
+    "corpus/shiji/058.json": "aa517aebfcca775d306a062b629dc9099c687bed5a600f7e464923d84c45de43",
+    "corpus/shiji/108.json": "9ad8e6fa15b854f22ee6d061aab95b789598478cba8aa68b622e1fb758617c20",
+    "corpus/shiji/130.json": "a805aeb4f8f83cdddaf185bebe4e1c432467daf5f5d28547ab395ed08b621b82",
+    "corpus/shiji/120.json": "4602ce84dea2b4fd7f90be0799884533160a70e509a7d99955a96809be96d557",
+    "corpus/shiji/122.json": "fe918a203b548a9a2afbf23a19b96de56d67b95efa62573883fae26f48c0de37",
+    "corpus/shiji/049.json": "42954890dc8e464bf62d681168e44c10e4b89fb9eaeaeb5a01df78d05563deda",
+    "corpus/shiji/107.json": "6ded4683152acd041a91d35cf628b3cede735df7a5fe84f9b11a57fd874c873f",
+    "corpus/shiji/011.json": "7b03d169c7c91032e6a79bbbfef21c15b960d1ad6a36acf7e20dd838f0ed2489",
+    "corpus/shiji/012.json": "8a4f2290d115dbe8a52e6d41bba6c912f772dc7161c24c98eed4c79202f4e17c",
+    "corpus/shiji/073.json": "613fc501e5b5b745aae763f784e03fa301ab6d63dd87398d5533dde042b83586"
+  },
+  "projection_qualification": "文字、文層、MID及字位沿原證據保存；若採接合，完整段中的人物端點會投影至當前ID，以上hash是採前實讀檔案指紋，不冒稱投影後整檔原bytes。",
+  "negative_controls": [
+    {
+      "kind": "same_zi_different_person",
+      "person_ids": [
+        "6hy_i1z_hu2",
+        "fmh_dmt_cql"
+      ],
+      "reference_paragraph_ids": [
+        "c-shiji-108-han:p014",
+        "c-shiji-120-jizheng:p001"
+      ],
+      "note": "韓長孺和汲黯字長孺分屬兩本傳，不能用字全域同指。"
+    },
+    {
+      "kind": "same_rank_name_different_person",
+      "person_ids": [
+        "2bk_fz6_icl",
+        "7mz_d13_9ka_A"
+      ],
+      "reference_paragraph_ids": [
+        "c-shiji-073-baiwang:p001",
+        "c-shiji-107-weiqi:p006"
+      ],
+      "note": "秦武安君白起與漢武安侯田蚡，爵稱局部相同不表示同人。"
+    },
+    {
+      "kind": "successor_not_predecessor",
+      "person_ids": [
+        "7mz_d13_9ka_A",
+        "7mz_d13_9ka_AA"
+      ],
+      "reference_paragraph_ids": [
+        "c-shiji-107-weiqi:p025"
+      ],
+      "note": "田蚡死後子恬嗣，該段後半元朔三年武安侯指子恬，不能回父。"
+    },
+    {
+      "kind": "source_local_character_variant",
+      "person_ids": [
+        "jws_b08_hob"
+      ],
+      "reference_paragraph_ids": [
+        "c-shiji-130-taishigong:p132",
+        "c-shiji-120-jizheng:p015",
+        "c-shiji-120-jizheng:p017"
+      ],
+      "note": "只以汲鄭篇題與薦士事功辨鄭壯／鄭莊；不作全域莊壯轉換。"
+    },
+    {
+      "kind": "comparison_not_appointment",
+      "person_ids": [
+        "fmh_dmt_cql",
+        "6hy_i1z_hu2"
+      ],
+      "reference_paragraph_ids": [
+        "c-shiji-058-liang:p025"
+      ],
+      "note": "如汲黯韓長孺的建議，不生成師傅授任、入梁日期或共同在場。"
+    }
+  ],
+  "label_normalization": {
+    "person_id": "7mz_d13_9ka_A",
+    "label": "田蚡",
+    "basis_paragraph_id": "c-shiji-107-weiqi:p006",
+    "note": "原登記的外戚世家候選為編務註，不作人物名稱；據具名本傳正名，原文不回填姓名。"
+  },
+  "retired_profile_count_proposal": 11,
+  "relinked_existing_mention_count": 15,
+  "retained_people": 5,
+  "complete_units": [
+    {
+      "file": "corpus/shiji/058.json",
+      "chapter_id": "c-shiji-058-liang",
+      "source": {
+        "title": "史記／卷058",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷058",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷058&oldid=8735555",
+        "revision_id": 8735555,
+        "accessed_on": "2026-10-09",
+        "extent": "22段篇文、4段褚先生附述及1段索隱述贊；現代欄題不當古文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留筑、然后、壹湌、適孫、齊如、應縣、削厲、霸昌廄、闚與旌旂等見證原字。末段依其前索隱述贊欄題分層，不補標籤入正文。",
+          "note": "全27段已核讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-058-liang:p025",
+        "text": "又諸侯王朝見天子，漢法凡當四見耳。始到，入小見；到正月朔旦，奉皮薦璧玉賀正月，法見；後三日，為王置酒，賜金錢財物；後二日，復入小見，辭去。凡留長安不過二十日。小見者，燕見於禁門內，飲於省中，非士人所得入也。今梁王西朝，因留，且半歲。入與人主同輦，出與同車。示風以大言而實不與，令出怨言，謀畔逆，乃隨而憂之，不亦遠乎！非大賢人，不知退讓。今漢之儀法，朝見賀正月者，常一王與四侯俱朝見，十餘歲一至。今梁王常比年入朝見，久留。鄙語曰「驕子不孝」，非惡言也。故諸侯王當為置良師傅，相忠言之士，如汲黯、韓長孺等，敢直言極諫，安得有患害！",
+        "annotation_status": "named_mentions_first_pass",
+        "text_layer": "witness_appended_chu_note",
+        "mentions": [
+          {
+            "id": "c-shiji-058-liang:m025-0001",
+            "start": 1,
+            "end": 4,
+            "surface": "諸侯王",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          },
+          {
+            "id": "c-shiji-058-liang:m025-0006",
+            "start": 6,
+            "end": 8,
+            "surface": "天子",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          },
+          {
+            "id": "c-shiji-058-liang:m025-0104",
+            "start": 104,
+            "end": 106,
+            "surface": "梁王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACG",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m025-0118",
+            "start": 118,
+            "end": 120,
+            "surface": "人主",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          },
+          {
+            "id": "c-shiji-058-liang:m025-0185",
+            "start": 185,
+            "end": 187,
+            "surface": "四侯",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          },
+          {
+            "id": "c-shiji-058-liang:m025-0198",
+            "start": 198,
+            "end": 200,
+            "surface": "梁王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACG",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m025-0226",
+            "start": 226,
+            "end": 229,
+            "surface": "諸侯王",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          },
+          {
+            "id": "c-shiji-058-liang:m025-0232",
+            "start": 232,
+            "end": 235,
+            "surface": "良師傅",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          },
+          {
+            "id": "c-shiji-058-liang:m025-0243",
+            "start": 243,
+            "end": 245,
+            "surface": "汲黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m025-0246",
+            "start": 246,
+            "end": 249,
+            "surface": "韓長孺",
+            "kind": "person",
+            "person_id": "6hy_i1z_hu2",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/108.json",
+      "chapter_id": "c-shiji-108-han",
+      "source": {
+        "title": "史記／卷108",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷108",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317",
+        "revision_id": 1765317,
+        "accessed_on": "2026-10-11",
+        "extent": "13段正文、1段太史公論、1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去介面模板與現代節標題；數位見證的單字語言轉換包裹符號解除，包裹內原字不變。其餘原字、標點與段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-108-han:p001",
+        "text": "御史大夫韓安國者，梁成安人也，後徙睢陽。嘗受韓子、雜家説於騶田生所。事梁孝王爲中大夫。呉楚反時，孝王使安國及張羽爲將，捍呉兵於東界。張羽力戰，安國持重，以故呉不能過梁。呉楚已破，安國、張羽名由此顯。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-108-han:m001-0004",
+            "start": 4,
+            "end": 7,
+            "surface": "韓安國",
+            "kind": "person",
+            "person_id": "6hy_i1z_hu2",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m001-0030",
+            "start": 30,
+            "end": 32,
+            "surface": "田生",
+            "kind": "person",
+            "person_id": "x9n_lwg_op5",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m001-0035",
+            "start": 35,
+            "end": 38,
+            "surface": "梁孝王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACG",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m001-0048",
+            "start": 48,
+            "end": 50,
+            "surface": "孝王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACG",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m001-0051",
+            "start": 51,
+            "end": 53,
+            "surface": "安國",
+            "kind": "person",
+            "person_id": "6hy_i1z_hu2",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m001-0054",
+            "start": 54,
+            "end": 56,
+            "surface": "張羽",
+            "kind": "person",
+            "person_id": "o6h_ba5_gno",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m001-0066",
+            "start": 66,
+            "end": 68,
+            "surface": "張羽",
+            "kind": "person",
+            "person_id": "o6h_ba5_gno",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m001-0071",
+            "start": 71,
+            "end": 73,
+            "surface": "安國",
+            "kind": "person",
+            "person_id": "6hy_i1z_hu2",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m001-0089",
+            "start": 89,
+            "end": 91,
+            "surface": "安國",
+            "kind": "person",
+            "person_id": "6hy_i1z_hu2",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m001-0092",
+            "start": 92,
+            "end": 94,
+            "surface": "張羽",
+            "kind": "person",
+            "person_id": "o6h_ba5_gno",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/108.json",
+      "chapter_id": "c-shiji-108-han",
+      "source": {
+        "title": "史記／卷108",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷108",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317",
+        "revision_id": 1765317,
+        "accessed_on": "2026-10-11",
+        "extent": "13段正文、1段太史公論、1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去介面模板與現代節標題；數位見證的單字語言轉換包裹符號解除，包裹內原字不變。其餘原字、標點與段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-108-han:p014",
+        "text": "太史公曰：余與壺遂定律暦，觀韓長孺之義，壺遂之深中隱厚。世之言梁多長者，不虛哉！壺遂官至詹事，天子方倚以爲漢相，會遂卒。不然，壺遂之內廉行修，斯鞠躬君子也。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-108-han:m014-0000",
+            "start": 0,
+            "end": 3,
+            "surface": "太史公",
+            "kind": "person",
+            "person_id": "pme_eis_xqi_*A*AAAAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m014-0005",
+            "start": 5,
+            "end": 6,
+            "surface": "余",
+            "kind": "person",
+            "person_id": "pme_eis_xqi_*A*AAAAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m014-0007",
+            "start": 7,
+            "end": 9,
+            "surface": "壺遂",
+            "kind": "person",
+            "person_id": "hmj_pm8_38e",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m014-0014",
+            "start": 14,
+            "end": 17,
+            "surface": "韓長孺",
+            "kind": "person",
+            "person_id": "6hy_i1z_hu2",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m014-0020",
+            "start": 20,
+            "end": 22,
+            "surface": "壺遂",
+            "kind": "person",
+            "person_id": "hmj_pm8_38e",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m014-0040",
+            "start": 40,
+            "end": 42,
+            "surface": "壺遂",
+            "kind": "person",
+            "person_id": "hmj_pm8_38e",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m014-0047",
+            "start": 47,
+            "end": 49,
+            "surface": "天子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m014-0057",
+            "start": 57,
+            "end": 58,
+            "surface": "遂",
+            "kind": "person",
+            "person_id": "hmj_pm8_38e",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-108-han:m014-0063",
+            "start": 63,
+            "end": 65,
+            "surface": "壺遂",
+            "kind": "person",
+            "person_id": "hmj_pm8_38e",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/130.json",
+      "chapter_id": "c-shiji-130-taishigong",
+      "source": {
+        "title": "史記／卷130",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷130",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+        "revision_id": 2609362,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文143段，全部篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-130-taishigong:p120",
+        "text": "智足以應近世之變，寬足用得人。作韓長孺列傳第四十八。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-130-taishigong:m120-0016",
+            "start": 16,
+            "end": 19,
+            "surface": "韓長孺",
+            "kind": "person",
+            "person_id": "6hy_i1z_hu2",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/120.json",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-120-jizheng:p001",
+        "text": "汲黯字長孺，濮陽人也。其先有寵於古之衛君。至黯七世，世為卿大夫。黯以父任，孝景時為太子洗馬，以莊見憚。孝景帝崩，太子即位，黯為謁者。東越相攻，上使黯往視之。不至，至吳而還，報曰：「越人相攻，固其俗然，不足以辱天子之使。」河內失火，延燒千餘家，上使黯往視之。還報曰：「家人失火，屋比延燒，不足憂也。臣過河南，河南貧人傷水旱萬餘家，或父子相食，臣謹以便宜，持節發河南倉粟以振貧民。臣請歸節，伏矯制之罪。」上賢而釋之，遷為滎陽令。黯恥為令，病歸田里。上聞，乃召拜為中大夫。以數切諫，不得久留內，遷為東海太守。黯學黃老之言，治官理民，好清靜，擇丞史而任之。其治，責大指而已，不苛小。黯多病，臥閨閤內不出。歲餘，東海大治。稱之。上聞，召以為主爵都尉，列於九卿。治務在無為而已，弘大體，不拘文法。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-120-jizheng:m001-0000",
+            "start": 0,
+            "end": 2,
+            "surface": "汲黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0003",
+            "start": 3,
+            "end": 5,
+            "surface": "長孺",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0022",
+            "start": 22,
+            "end": 23,
+            "surface": "黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0032",
+            "start": 32,
+            "end": 33,
+            "surface": "黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0037",
+            "start": 37,
+            "end": 39,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0051",
+            "start": 51,
+            "end": 54,
+            "surface": "孝景帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0056",
+            "start": 56,
+            "end": 58,
+            "surface": "太子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0061",
+            "start": 61,
+            "end": 62,
+            "surface": "黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0071",
+            "start": 71,
+            "end": 72,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0073",
+            "start": 73,
+            "end": 74,
+            "surface": "黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0121",
+            "start": 121,
+            "end": 122,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0123",
+            "start": 123,
+            "end": 124,
+            "surface": "黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0200",
+            "start": 200,
+            "end": 201,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0212",
+            "start": 212,
+            "end": 213,
+            "surface": "黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0222",
+            "start": 222,
+            "end": 223,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0251",
+            "start": 251,
+            "end": 252,
+            "surface": "黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0287",
+            "start": 287,
+            "end": 288,
+            "surface": "黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m001-0309",
+            "start": 309,
+            "end": 310,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/130.json",
+      "chapter_id": "c-shiji-130-taishigong",
+      "source": {
+        "title": "史記／卷130",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷130",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+        "revision_id": 2609362,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文143段，全部篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-130-taishigong:p132",
+        "text": "正衣冠立於朝廷，而群臣莫敢言浮說，長孺矜焉；好薦人，稱長者，壯有溉。作汲鄭列傳第六十。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-130-taishigong:m132-0017",
+            "start": 17,
+            "end": 19,
+            "surface": "長孺",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-130-taishigong:m132-0030",
+            "start": 30,
+            "end": 31,
+            "surface": "壯",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-130-taishigong:m132-0035",
+            "start": 35,
+            "end": 37,
+            "surface": "汲鄭",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/122.json",
+      "chapter_id": "c-shiji-122-kuli",
+      "source": {
+        "title": "史記／卷122",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷122",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷122&oldid=7904124",
+        "revision_id": 7904124,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文44段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標、字形控制外殼而保留其中原字與異文；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-122-kuli:p010",
+        "text": "周陽由者，其父趙兼以淮南王舅父侯周陽，故因姓周陽氏。由以宗家任爲郎，事孝文及景帝。景帝時，由爲郡守。武帝卽位，吏治尚循謹甚，然由居二千石中，最爲暴酷驕恣。所愛者，撓法活之；所憎者，曲法誅滅之。所居郡，必夷其豪。爲守，視都尉如令。爲都尉，必陵太守，奪之治。與汲黯倶爲忮，司馬安之文惡，倶在二千石列，同車未嘗敢均茵伏。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-122-kuli:m010-0000",
+            "start": 0,
+            "end": 3,
+            "surface": "周陽由",
+            "kind": "person",
+            "person_id": "xgx_g4a_c28_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0007",
+            "start": 7,
+            "end": 9,
+            "surface": "趙兼",
+            "kind": "person",
+            "person_id": "xgx_g4a_c28",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0010",
+            "start": 10,
+            "end": 13,
+            "surface": "淮南王",
+            "kind": "person",
+            "person_id": "g0j_yhl_z02",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0022",
+            "start": 22,
+            "end": 25,
+            "surface": "周陽氏",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0026",
+            "start": 26,
+            "end": 27,
+            "surface": "由",
+            "kind": "person",
+            "person_id": "xgx_g4a_c28_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0028",
+            "start": 28,
+            "end": 30,
+            "surface": "宗家",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0035",
+            "start": 35,
+            "end": 37,
+            "surface": "孝文",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_AC",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0038",
+            "start": 38,
+            "end": 40,
+            "surface": "景帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0041",
+            "start": 41,
+            "end": 43,
+            "surface": "景帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0045",
+            "start": 45,
+            "end": 46,
+            "surface": "由",
+            "kind": "person",
+            "person_id": "xgx_g4a_c28_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0050",
+            "start": 50,
+            "end": 52,
+            "surface": "武帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0063",
+            "start": 63,
+            "end": 64,
+            "surface": "由",
+            "kind": "person",
+            "person_id": "xgx_g4a_c28_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0128",
+            "start": 128,
+            "end": 130,
+            "surface": "汲黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-122-kuli:m010-0134",
+            "start": 134,
+            "end": 137,
+            "surface": "司馬安",
+            "kind": "person",
+            "person_id": "40l_mfp_yr6",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/120.json",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-120-jizheng:p005",
+        "text": "大將軍青侍中，上踞廁而視之。丞相弘燕見，上或時不冠。至如黯見，上不冠不見也。上嘗坐武帳中，黯前奏事，上不冠，望見黯，避帳中，使人可其奏。其見敬禮如此。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-120-jizheng:m005-0000",
+            "start": 0,
+            "end": 4,
+            "surface": "大將軍青",
+            "kind": "person",
+            "person_id": "5dd_l1c_6g8",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m005-0007",
+            "start": 7,
+            "end": 8,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m005-0014",
+            "start": 14,
+            "end": 17,
+            "surface": "丞相弘",
+            "kind": "person",
+            "person_id": "q69_35n_f3h",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m005-0020",
+            "start": 20,
+            "end": 21,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m005-0028",
+            "start": 28,
+            "end": 29,
+            "surface": "黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m005-0031",
+            "start": 31,
+            "end": 32,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m005-0038",
+            "start": 38,
+            "end": 39,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m005-0045",
+            "start": 45,
+            "end": 46,
+            "surface": "黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m005-0050",
+            "start": 50,
+            "end": 51,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m005-0056",
+            "start": 56,
+            "end": 57,
+            "surface": "黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/049.json",
+      "chapter_id": "c-shiji-049-waiqi",
+      "source": {
+        "title": "史記／卷049",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷049",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610",
+        "revision_id": 7903610,
+        "accessed_on": "2026-10-09",
+        "extent": "44段史文，前34段篇文，後10段自褚先生曰起為附載文字；數位分節欄題不是古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
+          "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-049-waiqi:p016",
+        "text": "竇皇后病，失明。文帝幸邯鄲慎夫人、尹姬，皆毋子。孝文帝崩，孝景帝立，乃封廣國為章武侯。長君前死，封其子彭祖為南皮侯。吳楚反時，竇太后從昆弟子竇嬰，任俠自喜，將兵，以軍功為魏其侯。竇氏凡三人為侯。",
+        "annotation_status": "named_mentions_first_pass",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-049-waiqi:m016-0000",
+            "start": 0,
+            "end": 3,
+            "surface": "竇皇后",
+            "kind": "person",
+            "person_id": "ixk_6fg_v6f_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-049-waiqi:m016-0008",
+            "start": 8,
+            "end": 10,
+            "surface": "文帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_AC",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-049-waiqi:m016-0013",
+            "start": 13,
+            "end": 16,
+            "surface": "慎夫人",
+            "kind": "person",
+            "person_id": "evh_7zu_u3x",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-049-waiqi:m016-0017",
+            "start": 17,
+            "end": 19,
+            "surface": "尹姬",
+            "kind": "person",
+            "person_id": "oj5_zy0_x0t",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-049-waiqi:m016-0024",
+            "start": 24,
+            "end": 27,
+            "surface": "孝文帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_AC",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-049-waiqi:m016-0029",
+            "start": 29,
+            "end": 32,
+            "surface": "孝景帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-049-waiqi:m016-0036",
+            "start": 36,
+            "end": 38,
+            "surface": "廣國",
+            "kind": "person",
+            "person_id": "xoj_go3_gl0",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-049-waiqi:m016-0043",
+            "start": 43,
+            "end": 45,
+            "surface": "長君",
+            "kind": "person",
+            "person_id": "ra9_o4d_rli",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-049-waiqi:m016-0051",
+            "start": 51,
+            "end": 53,
+            "surface": "彭祖",
+            "kind": "person",
+            "person_id": "ra9_o4d_rli_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-049-waiqi:m016-0063",
+            "start": 63,
+            "end": 66,
+            "surface": "竇太后",
+            "kind": "person",
+            "person_id": "ixk_6fg_v6f_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-049-waiqi:m016-0066",
+            "start": 66,
+            "end": 70,
+            "surface": "從昆弟子",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "群體、未名者或待核稱謂；不由熟悉生平補姓名。"
+          },
+          {
+            "id": "c-shiji-049-waiqi:m016-0070",
+            "start": 70,
+            "end": 72,
+            "surface": "竇嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/107.json",
+      "chapter_id": "c-shiji-107-weiqi",
+      "source": {
+        "title": "史記／卷107",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷107",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+        "revision_id": 2540571,
+        "accessed_on": "2026-10-11",
+        "extent": "27段正文與太史公論，1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-107-weiqi:p001",
+        "text": "魏其侯竇嬰者，孝文后從兄子也。父世觀津人。喜賓客。孝文時，嬰為吳相，病免。孝景初即位，為詹事。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-107-weiqi:m001-0000",
+            "start": 0,
+            "end": 5,
+            "surface": "魏其侯竇嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m001-0007",
+            "start": 7,
+            "end": 10,
+            "surface": "孝文后",
+            "kind": "person",
+            "person_id": "ixk_6fg_v6f_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m001-0015",
+            "start": 15,
+            "end": 16,
+            "surface": "父",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m001-0025",
+            "start": 25,
+            "end": 27,
+            "surface": "孝文",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_AC",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m001-0029",
+            "start": 29,
+            "end": 30,
+            "surface": "嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m001-0037",
+            "start": 37,
+            "end": 39,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/107.json",
+      "chapter_id": "c-shiji-107-weiqi",
+      "source": {
+        "title": "史記／卷107",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷107",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+        "revision_id": 2540571,
+        "accessed_on": "2026-10-11",
+        "extent": "27段正文與太史公論，1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-107-weiqi:p003",
+        "text": "孝景三年，吳楚反，上察宗室諸竇毋如竇嬰賢，乃召嬰。嬰入見，固辭謝病不足任。太后亦慚。於是上曰：「天下方有急，王孫寧可以讓邪？」乃拜嬰為大將軍，賜金千斤。嬰乃言袁盎、欒布諸名將賢士在家者進之。所賜金，陳之廊廡下，軍吏過，輒令財取為用，金無入家者。竇嬰守滎陽，監齊趙兵。七國兵已盡破，封嬰為魏其侯。諸游士賓客爭歸魏其侯。孝景時每朝議大事，條侯、魏其侯，諸列侯莫敢與亢禮。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-107-weiqi:m003-0000",
+            "start": 0,
+            "end": 2,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0009",
+            "start": 9,
+            "end": 10,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional",
+            "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0017",
+            "start": 17,
+            "end": 19,
+            "surface": "竇嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0023",
+            "start": 23,
+            "end": 24,
+            "surface": "嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0025",
+            "start": 25,
+            "end": 26,
+            "surface": "嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0037",
+            "start": 37,
+            "end": 39,
+            "surface": "太后",
+            "person_id": "ixk_6fg_v6f_A",
+            "kind": "person",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0044",
+            "start": 44,
+            "end": 45,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional",
+            "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0054",
+            "start": 54,
+            "end": 56,
+            "surface": "王孫",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0065",
+            "start": 65,
+            "end": 66,
+            "surface": "嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0076",
+            "start": 76,
+            "end": 77,
+            "surface": "嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0079",
+            "start": 79,
+            "end": 81,
+            "surface": "袁盎",
+            "kind": "person",
+            "person_id": "j32_wtj_khz_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0082",
+            "start": 82,
+            "end": 84,
+            "surface": "欒布",
+            "kind": "person",
+            "person_id": "jx9_cov_qe0",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0122",
+            "start": 122,
+            "end": 124,
+            "surface": "竇嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0141",
+            "start": 141,
+            "end": 142,
+            "surface": "嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0143",
+            "start": 143,
+            "end": 146,
+            "surface": "魏其侯",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0154",
+            "start": 154,
+            "end": 157,
+            "surface": "魏其侯",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0158",
+            "start": 158,
+            "end": 160,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0167",
+            "start": 167,
+            "end": 169,
+            "surface": "條侯",
+            "kind": "person",
+            "person_id": "koy_6jg_gcc_C",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m003-0170",
+            "start": 170,
+            "end": 173,
+            "surface": "魏其侯",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/130.json",
+      "chapter_id": "c-shiji-130-taishigong",
+      "source": {
+        "title": "史記／卷130",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷130",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+        "revision_id": 2609362,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文143段，全部篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-130-taishigong:p119",
+        "text": "吳楚為亂，宗屬唯嬰賢而喜士，士鄉之，率師抗山東滎陽。作魏其武安列傳第四十七。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-130-taishigong:m119-0008",
+            "start": 8,
+            "end": 9,
+            "surface": "嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-130-taishigong:m119-0027",
+            "start": 27,
+            "end": 29,
+            "surface": "魏其",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-130-taishigong:m119-0029",
+            "start": 29,
+            "end": 31,
+            "surface": "武安",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/058.json",
+      "chapter_id": "c-shiji-058-liang",
+      "source": {
+        "title": "史記／卷058",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷058",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷058&oldid=8735555",
+        "revision_id": 8735555,
+        "accessed_on": "2026-10-09",
+        "extent": "22段篇文、4段褚先生附述及1段索隱述贊；現代欄題不當古文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留筑、然后、壹湌、適孫、齊如、應縣、削厲、霸昌廄、闚與旌旂等見證原字。末段依其前索隱述贊欄題分層，不補標籤入正文。",
+          "note": "全27段已核讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-058-liang:p023",
+        "text": "褚先生曰：臣為郎時，聞之於宮殿中老郎吏好事者稱道之也。竊以為令梁孝王怨望，欲為不善者，事從中生。今太后，女主也，以愛少子故，欲令梁王為太子。大臣不時正言其不可狀，阿意治小，私說意以受賞賜，非忠臣也。齊如魏其侯竇嬰之正言也，何以有後禍？景帝與王燕見，侍太后飲，景帝曰：「千秋萬歲之後傳王。」太后喜說。竇嬰在前，據地言曰：「漢法之約，傳子適孫，今帝何以得傳弟，擅亂高帝約乎！」於是景帝默然無聲。太后意不說。",
+        "annotation_status": "named_mentions_first_pass",
+        "text_layer": "witness_appended_chu_note",
+        "mentions": [
+          {
+            "id": "c-shiji-058-liang:m023-0000",
+            "start": 0,
+            "end": 3,
+            "surface": "褚先生",
+            "kind": "person",
+            "person_id": "nq4_rjk_iab",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0016",
+            "start": 16,
+            "end": 19,
+            "surface": "老郎吏",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0031",
+            "start": 31,
+            "end": 34,
+            "surface": "梁孝王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACG",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0049",
+            "start": 49,
+            "end": 51,
+            "surface": "太后",
+            "kind": "person",
+            "person_id": "ixk_6fg_v6f_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0064",
+            "start": 64,
+            "end": 66,
+            "surface": "梁王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACG",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0067",
+            "start": 67,
+            "end": 69,
+            "surface": "太子",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0101",
+            "start": 101,
+            "end": 106,
+            "surface": "魏其侯竇嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0117",
+            "start": 117,
+            "end": 119,
+            "surface": "景帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0125",
+            "start": 125,
+            "end": 127,
+            "surface": "太后",
+            "kind": "person",
+            "person_id": "ixk_6fg_v6f_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0129",
+            "start": 129,
+            "end": 131,
+            "surface": "景帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0144",
+            "start": 144,
+            "end": 146,
+            "surface": "太后",
+            "kind": "person",
+            "person_id": "ixk_6fg_v6f_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0149",
+            "start": 149,
+            "end": 151,
+            "surface": "竇嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0166",
+            "start": 166,
+            "end": 169,
+            "surface": "子適孫",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0171",
+            "start": 171,
+            "end": 172,
+            "surface": "帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0180",
+            "start": 180,
+            "end": 182,
+            "surface": "高帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0188",
+            "start": 188,
+            "end": 190,
+            "surface": "景帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m023-0195",
+            "start": 195,
+            "end": 197,
+            "surface": "太后",
+            "kind": "person",
+            "person_id": "ixk_6fg_v6f_A",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/058.json",
+      "chapter_id": "c-shiji-058-liang",
+      "source": {
+        "title": "史記／卷058",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷058",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷058&oldid=8735555",
+        "revision_id": 8735555,
+        "accessed_on": "2026-10-09",
+        "extent": "22段篇文、4段褚先生附述及1段索隱述贊；現代欄題不當古文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留筑、然后、壹湌、適孫、齊如、應縣、削厲、霸昌廄、闚與旌旂等見證原字。末段依其前索隱述贊欄題分層，不補標籤入正文。",
+          "note": "全27段已核讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-058-liang:p027",
+        "text": "文帝少子，徙封於梁。太后鍾愛，廣築睢陽。旌旂警蹕，勢擬天王。功扞吳楚，計醜孫羊。竇嬰正議，袁盎劫傷。漢窮梁獄，冠蓋相望。禍成驕子，致此倡狂。雖分五國，卒亦不昌。",
+        "annotation_status": "named_mentions_first_pass",
+        "text_layer": "witness_appended_suoyin_zan",
+        "mentions": [
+          {
+            "id": "c-shiji-058-liang:m027-0000",
+            "start": 0,
+            "end": 2,
+            "surface": "文帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_AC",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m027-0010",
+            "start": 10,
+            "end": 12,
+            "surface": "太后",
+            "kind": "person",
+            "person_id": "ixk_6fg_v6f_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m027-0027",
+            "start": 27,
+            "end": 29,
+            "surface": "天王",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          },
+          {
+            "id": "c-shiji-058-liang:m027-0037",
+            "start": 37,
+            "end": 39,
+            "surface": "孫羊",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          },
+          {
+            "id": "c-shiji-058-liang:m027-0040",
+            "start": 40,
+            "end": 42,
+            "surface": "竇嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m027-0045",
+            "start": 45,
+            "end": 47,
+            "surface": "袁盎",
+            "kind": "person",
+            "person_id": "j32_wtj_khz_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-058-liang:m027-0055",
+            "start": 55,
+            "end": 57,
+            "surface": "冠蓋",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/107.json",
+      "chapter_id": "c-shiji-107-weiqi",
+      "source": {
+        "title": "史記／卷107",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷107",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+        "revision_id": 2540571,
+        "accessed_on": "2026-10-11",
+        "extent": "27段正文與太史公論，1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-107-weiqi:p002",
+        "text": "梁孝王者，孝景弟也，其母竇太后愛之。梁孝王朝，因昆弟燕飲。是時上未立太子，酒酣，從容言曰：「千秋之後傳梁王。」太后驩。竇嬰引卮酒進上，曰：「天下者，高祖天下，父子相傳，此漢之約也，上何以得擅傳梁王！」太后由此憎竇嬰。竇嬰亦薄其官，因病免。太后除竇嬰門籍，不得入朝請。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-107-weiqi:m002-0000",
+            "start": 0,
+            "end": 3,
+            "surface": "梁孝王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACG",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0005",
+            "start": 5,
+            "end": 7,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0012",
+            "start": 12,
+            "end": 15,
+            "surface": "竇太后",
+            "kind": "person",
+            "person_id": "ixk_6fg_v6f_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0018",
+            "start": 18,
+            "end": 21,
+            "surface": "梁孝王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACG",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0031",
+            "start": 31,
+            "end": 32,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional",
+            "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0051",
+            "start": 51,
+            "end": 53,
+            "surface": "梁王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACG",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0055",
+            "start": 55,
+            "end": 57,
+            "surface": "太后",
+            "person_id": "ixk_6fg_v6f_A",
+            "kind": "person",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0059",
+            "start": 59,
+            "end": 61,
+            "surface": "竇嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0065",
+            "start": 65,
+            "end": 66,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional",
+            "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0074",
+            "start": 74,
+            "end": 76,
+            "surface": "高祖",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0090",
+            "start": 90,
+            "end": 91,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional",
+            "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0096",
+            "start": 96,
+            "end": 98,
+            "surface": "梁王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACG",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0100",
+            "start": 100,
+            "end": 102,
+            "surface": "太后",
+            "person_id": "ixk_6fg_v6f_A",
+            "kind": "person",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0105",
+            "start": 105,
+            "end": 107,
+            "surface": "竇嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0108",
+            "start": 108,
+            "end": 110,
+            "surface": "竇嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0119",
+            "start": 119,
+            "end": 121,
+            "surface": "太后",
+            "person_id": "ixk_6fg_v6f_A",
+            "kind": "person",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m002-0122",
+            "start": 122,
+            "end": 124,
+            "surface": "竇嬰",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/107.json",
+      "chapter_id": "c-shiji-107-weiqi",
+      "source": {
+        "title": "史記／卷107",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷107",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+        "revision_id": 2540571,
+        "accessed_on": "2026-10-11",
+        "extent": "27段正文與太史公論，1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-107-weiqi:p006",
+        "text": "武安侯田蚡者，孝景后同母弟也，生長陵。魏其已為大將軍後，方盛，蚡為諸郎，未貴，往來侍酒魏其，跪起如子姓。及孝景晚節，蚡益貴幸，為太中大夫。蚡辯有口，學槃盂諸書，王太后賢之。孝景崩，即日太子立，稱制，所鎮撫多有田蚡賓客計筴，蚡弟田勝，皆以太后弟，孝景後三年封蚡為武安侯，勝為周陽侯。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-107-weiqi:m006-0000",
+            "start": 0,
+            "end": 5,
+            "surface": "武安侯田蚡",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0007",
+            "start": 7,
+            "end": 10,
+            "surface": "孝景后",
+            "kind": "person",
+            "person_id": "6d6_eg1_o3a_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0019",
+            "start": 19,
+            "end": 21,
+            "surface": "魏其",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0031",
+            "start": 31,
+            "end": 32,
+            "surface": "蚡",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0043",
+            "start": 43,
+            "end": 45,
+            "surface": "魏其",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0053",
+            "start": 53,
+            "end": 55,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0058",
+            "start": 58,
+            "end": 59,
+            "surface": "蚡",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0069",
+            "start": 69,
+            "end": 70,
+            "surface": "蚡",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0080",
+            "start": 80,
+            "end": 83,
+            "surface": "王太后",
+            "kind": "person",
+            "person_id": "6d6_eg1_o3a_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0086",
+            "start": 86,
+            "end": 88,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0092",
+            "start": 92,
+            "end": 94,
+            "surface": "太子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0104",
+            "start": 104,
+            "end": 106,
+            "surface": "田蚡",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0111",
+            "start": 111,
+            "end": 112,
+            "surface": "蚡",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0113",
+            "start": 113,
+            "end": 115,
+            "surface": "田勝",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_B",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0118",
+            "start": 118,
+            "end": 120,
+            "surface": "太后",
+            "person_id": "6d6_eg1_o3a_A",
+            "kind": "person",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0122",
+            "start": 122,
+            "end": 124,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0128",
+            "start": 128,
+            "end": 129,
+            "surface": "蚡",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0130",
+            "start": 130,
+            "end": 133,
+            "surface": "武安侯",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0134",
+            "start": 134,
+            "end": 135,
+            "surface": "勝",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_B",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m006-0136",
+            "start": 136,
+            "end": 139,
+            "surface": "周陽侯",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_B",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/120.json",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-120-jizheng:p015",
+        "text": "鄭當時者，字莊，陳人也。其先鄭君嘗為項籍將；籍死，已而屬漢。高祖令諸故項籍臣名籍，鄭君獨不奉詔。詔盡拜名籍者為大夫，而逐鄭君。鄭君死孝文時。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-120-jizheng:m015-0000",
+            "start": 0,
+            "end": 3,
+            "surface": "鄭當時",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0006",
+            "start": 6,
+            "end": 7,
+            "surface": "莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0014",
+            "start": 14,
+            "end": 16,
+            "surface": "鄭君",
+            "kind": "person",
+            "person_id": "4kq_1x4_48g",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0018",
+            "start": 18,
+            "end": 20,
+            "surface": "項籍",
+            "kind": "person",
+            "person_id": "ob7_g6i_7pp",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0022",
+            "start": 22,
+            "end": 23,
+            "surface": "籍",
+            "kind": "person",
+            "person_id": "ob7_g6i_7pp",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0030",
+            "start": 30,
+            "end": 32,
+            "surface": "高祖",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0033",
+            "start": 33,
+            "end": 38,
+            "surface": "諸故項籍臣",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0039",
+            "start": 39,
+            "end": 40,
+            "surface": "籍",
+            "kind": "person",
+            "person_id": "ob7_g6i_7pp",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0041",
+            "start": 41,
+            "end": 43,
+            "surface": "鄭君",
+            "kind": "person",
+            "person_id": "4kq_1x4_48g",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0052",
+            "start": 52,
+            "end": 53,
+            "surface": "籍",
+            "kind": "person",
+            "person_id": "ob7_g6i_7pp",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0060",
+            "start": 60,
+            "end": 62,
+            "surface": "鄭君",
+            "kind": "person",
+            "person_id": "4kq_1x4_48g",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0063",
+            "start": 63,
+            "end": 65,
+            "surface": "鄭君",
+            "kind": "person",
+            "person_id": "4kq_1x4_48g",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m015-0066",
+            "start": 66,
+            "end": 68,
+            "surface": "孝文",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_AC",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/120.json",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-120-jizheng:p017",
+        "text": "莊為太史，誡門下：「客至，無貴賤無留門者。」執賓主之禮，以其貴下人。莊廉，又不治其產業，仰奉賜以給諸公。然其餽遺人，不過算器食。每朝，候上之閒，說未嘗不言天下之長者。其推轂士及官屬丞史，誠有味其言之也，常引以為賢於己。未嘗名吏，與官屬言，若恐傷之。聞人之善言，進之上，唯恐後。山東士諸公以此翕然稱鄭莊。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-120-jizheng:m017-0000",
+            "start": 0,
+            "end": 1,
+            "surface": "莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m017-0034",
+            "start": 34,
+            "end": 35,
+            "surface": "莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m017-0049",
+            "start": 49,
+            "end": 51,
+            "surface": "諸公",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m017-0068",
+            "start": 68,
+            "end": 69,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m017-0077",
+            "start": 77,
+            "end": 82,
+            "surface": "天下之長者",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m017-0088",
+            "start": 88,
+            "end": 92,
+            "surface": "官屬丞史",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m017-0132",
+            "start": 132,
+            "end": 133,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m017-0138",
+            "start": 138,
+            "end": 143,
+            "surface": "山東士諸公",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m017-0148",
+            "start": 148,
+            "end": 150,
+            "surface": "鄭莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/011.json",
+      "chapter_id": "c-shiji-011-jingdi",
+      "source": {
+        "title": "史記／卷011",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷011",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷011&oldid=2520527",
+        "revision_id": 2520527,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇18個p區塊，自孝景皇帝者至太史公論贊；排除跨站導覽dd、索隱述贊及其後現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "保留行內（弋）［易］、（子）［孫］及其他校勘符號，不把改讀當已校定原文。",
+          "note": "固定版本正文與實讀HTML一致；未核底本、影像或現代專門研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-011-jingdi:p017",
+        "text": "後三年十月，日月皆（食）赤五日。十二月晦，雷。日如紫。五星逆行守太微。月貫天廷中。正月甲寅，皇太子冠。甲子，孝景皇帝崩。遺詔賜諸侯王以下至民為父後爵一級，天下戶百錢。出宮人歸其家，復無所與。太子即位，是為孝武皇帝。三月，封皇太后弟蚡為武安侯，弟勝為周陽侯。置陽陵。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-011-jingdi:m017-0046",
+            "start": 46,
+            "end": 49,
+            "surface": "皇太子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-011-jingdi:m017-0054",
+            "start": 54,
+            "end": 58,
+            "surface": "孝景皇帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-011-jingdi:m017-0095",
+            "start": 95,
+            "end": 97,
+            "surface": "太子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-011-jingdi:m017-0102",
+            "start": 102,
+            "end": 106,
+            "surface": "孝武皇帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-011-jingdi:m017-0111",
+            "start": 111,
+            "end": 114,
+            "surface": "皇太后",
+            "kind": "person",
+            "person_id": "6d6_eg1_o3a_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-011-jingdi:m017-0114",
+            "start": 114,
+            "end": 116,
+            "surface": "弟蚡",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-011-jingdi:m017-0121",
+            "start": 121,
+            "end": 123,
+            "surface": "弟勝",
+            "kind": "person",
+            "person_id": "dtx_aht_hnz",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/012.json",
+      "chapter_id": "c-shiji-012-wudi",
+      "source": {
+        "title": "史記／卷012",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷012",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+        "revision_id": 8733061,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇52個p區塊，自孝武皇帝者至太史公論贊；排除導覽dd、索隱述贊、現代版權告示及style／script樣式程式內容。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
+          "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-012-wudi:p006",
+        "text": "是時而李少君亦以祠灶、穀道、卻老方見上，上尊之。少君者，故深澤侯入以主方。匿其年及所生長，常自謂七十，能使物，卻老。其游以方遍諸侯。無妻子。人聞其能使物及不死，更饋遺之，常餘金錢帛衣食。人皆以為不治產業而饒給，又不知其何所人，愈信，爭事之。少君資好方，善為巧發奇中。嘗從武安侯飲，坐中有年九十餘老人，少君乃言與其大父游射處，老人為兒時從其大父行，識其處，一坐盡驚。少君見上，上有故銅器，問少君。少君曰：「此器齊桓公十年陳於柏寢。」已而案其刻，果齊桓公器。一宮盡駭，以少君為神，數百歲人也。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-012-wudi:m006-0003",
+            "start": 3,
+            "end": 6,
+            "surface": "李少君",
+            "kind": "person",
+            "person_id": "87n_vk2_1ig",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0018",
+            "start": 18,
+            "end": 19,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0020",
+            "start": 20,
+            "end": 21,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0024",
+            "start": 24,
+            "end": 26,
+            "surface": "少君",
+            "kind": "person",
+            "person_id": "87n_vk2_1ig",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0029",
+            "start": 29,
+            "end": 33,
+            "surface": "深澤侯入",
+            "kind": "person",
+            "person_id": "e74_jhr_fqm",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0120",
+            "start": 120,
+            "end": 122,
+            "surface": "少君",
+            "kind": "person",
+            "person_id": "87n_vk2_1ig",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0135",
+            "start": 135,
+            "end": 138,
+            "surface": "武安侯",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0143",
+            "start": 143,
+            "end": 149,
+            "surface": "年九十餘老人",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "學說合稱、群體、匿名者或未定指代；不補未見姓名及成員。"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0150",
+            "start": 150,
+            "end": 152,
+            "surface": "少君",
+            "kind": "person",
+            "person_id": "87n_vk2_1ig",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0156",
+            "start": 156,
+            "end": 158,
+            "surface": "大父",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "學說合稱、群體、匿名者或未定指代；不補未見姓名及成員。"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0169",
+            "start": 169,
+            "end": 171,
+            "surface": "大父",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "學說合稱、群體、匿名者或未定指代；不補未見姓名及成員。"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0182",
+            "start": 182,
+            "end": 184,
+            "surface": "少君",
+            "kind": "person",
+            "person_id": "87n_vk2_1ig",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0185",
+            "start": 185,
+            "end": 186,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0187",
+            "start": 187,
+            "end": 188,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0194",
+            "start": 194,
+            "end": 196,
+            "surface": "少君",
+            "kind": "person",
+            "person_id": "87n_vk2_1ig",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0197",
+            "start": 197,
+            "end": 199,
+            "surface": "少君",
+            "kind": "person",
+            "person_id": "87n_vk2_1ig",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0204",
+            "start": 204,
+            "end": 207,
+            "surface": "齊桓公",
+            "kind": "person",
+            "person_id": "9w2_c77_53m",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0222",
+            "start": 222,
+            "end": 225,
+            "surface": "齊桓公",
+            "kind": "person",
+            "person_id": "9w2_c77_53m",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m006-0233",
+            "start": 233,
+            "end": 235,
+            "surface": "少君",
+            "kind": "person",
+            "person_id": "87n_vk2_1ig",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/012.json",
+      "chapter_id": "c-shiji-012-wudi",
+      "source": {
+        "title": "史記／卷012",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷012",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+        "revision_id": 8733061,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇52個p區塊，自孝武皇帝者至太史公論贊；排除導覽dd、索隱述贊、現代版權告示及style／script樣式程式內容。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
+          "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-012-wudi:p001",
+        "text": "孝武皇帝者，孝景中子也。母曰王太后。孝景四年，以皇子為膠東王。孝景七年，栗太子廢為臨江王，以膠東王為太子。孝景十六年崩，太子即位，為孝武皇帝。孝武皇帝初即位，尤敬鬼神之祀。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-012-wudi:m001-0000",
+            "start": 0,
+            "end": 4,
+            "surface": "孝武皇帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0006",
+            "start": 6,
+            "end": 8,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0014",
+            "start": 14,
+            "end": 17,
+            "surface": "王太后",
+            "kind": "person",
+            "person_id": "6d6_eg1_o3a_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0018",
+            "start": 18,
+            "end": 20,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0024",
+            "start": 24,
+            "end": 26,
+            "surface": "皇子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0027",
+            "start": 27,
+            "end": 30,
+            "surface": "膠東王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0031",
+            "start": 31,
+            "end": 33,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0036",
+            "start": 36,
+            "end": 39,
+            "surface": "栗太子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAH",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0041",
+            "start": 41,
+            "end": 44,
+            "surface": "臨江王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAH",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0046",
+            "start": 46,
+            "end": 49,
+            "surface": "膠東王",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0050",
+            "start": 50,
+            "end": 52,
+            "surface": "太子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0053",
+            "start": 53,
+            "end": 55,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0060",
+            "start": 60,
+            "end": 62,
+            "surface": "太子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0066",
+            "start": 66,
+            "end": 70,
+            "surface": "孝武皇帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m001-0071",
+            "start": 71,
+            "end": 75,
+            "surface": "孝武皇帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/012.json",
+      "chapter_id": "c-shiji-012-wudi",
+      "source": {
+        "title": "史記／卷012",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷012",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+        "revision_id": 8733061,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇52個p區塊，自孝武皇帝者至太史公論贊；排除導覽dd、索隱述贊、現代版權告示及style／script樣式程式內容。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
+          "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-012-wudi:p002",
+        "text": "元年，漢興已六十餘歲矣，天下乂安，薦紳之屬皆望天子封禪改正度也。而上鄉儒術，招賢良，趙綰、王臧等以文學為公卿，欲議古立明堂城南，以朝諸侯。草巡狩封禪改歷服色事未就。會竇太后治黃老言，不好儒術，使人微得趙綰等姦利事，召案綰、臧，綰、臧自殺，諸所興為者皆廢。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-012-wudi:m002-0023",
+            "start": 23,
+            "end": 25,
+            "surface": "天子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m002-0033",
+            "start": 33,
+            "end": 34,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m002-0042",
+            "start": 42,
+            "end": 44,
+            "surface": "趙綰",
+            "kind": "person",
+            "person_id": "zbw_7zu_gv6",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m002-0045",
+            "start": 45,
+            "end": 47,
+            "surface": "王臧",
+            "kind": "person",
+            "person_id": "jh5_a7h_pvv",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m002-0083",
+            "start": 83,
+            "end": 86,
+            "surface": "竇太后",
+            "kind": "person",
+            "person_id": "ixk_6fg_v6f_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m002-0087",
+            "start": 87,
+            "end": 89,
+            "surface": "黃老",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "學說合稱、群體、匿名者或未定指代；不補未見姓名及成員。"
+          },
+          {
+            "id": "c-shiji-012-wudi:m002-0100",
+            "start": 100,
+            "end": 102,
+            "surface": "趙綰",
+            "kind": "person",
+            "person_id": "zbw_7zu_gv6",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m002-0109",
+            "start": 109,
+            "end": 110,
+            "surface": "綰",
+            "kind": "person",
+            "person_id": "zbw_7zu_gv6",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m002-0111",
+            "start": 111,
+            "end": 112,
+            "surface": "臧",
+            "kind": "person",
+            "person_id": "jh5_a7h_pvv",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m002-0113",
+            "start": 113,
+            "end": 114,
+            "surface": "綰",
+            "kind": "person",
+            "person_id": "zbw_7zu_gv6",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m002-0115",
+            "start": 115,
+            "end": 116,
+            "surface": "臧",
+            "kind": "person",
+            "person_id": "jh5_a7h_pvv",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/012.json",
+      "chapter_id": "c-shiji-012-wudi",
+      "source": {
+        "title": "史記／卷012",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷012",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+        "revision_id": 8733061,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇52個p區塊，自孝武皇帝者至太史公論贊；排除導覽dd、索隱述贊、現代版權告示及style／script樣式程式內容。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
+          "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-012-wudi:p003",
+        "text": "後六年，竇太后崩。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-012-wudi:m003-0004",
+            "start": 4,
+            "end": 7,
+            "surface": "竇太后",
+            "kind": "person",
+            "person_id": "ixk_6fg_v6f_A",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/012.json",
+      "chapter_id": "c-shiji-012-wudi",
+      "source": {
+        "title": "史記／卷012",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷012",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+        "revision_id": 8733061,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇52個p區塊，自孝武皇帝者至太史公論贊；排除導覽dd、索隱述贊、現代版權告示及style／script樣式程式內容。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
+          "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-012-wudi:p004",
+        "text": "其明年，上徵文學之士公孫弘等。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-012-wudi:m004-0004",
+            "start": 4,
+            "end": 5,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m004-0010",
+            "start": 10,
+            "end": 13,
+            "surface": "公孫弘",
+            "kind": "person",
+            "person_id": "q69_35n_f3h",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/012.json",
+      "chapter_id": "c-shiji-012-wudi",
+      "source": {
+        "title": "史記／卷012",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷012",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+        "revision_id": 8733061,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇52個p區塊，自孝武皇帝者至太史公論贊；排除導覽dd、索隱述贊、現代版權告示及style／script樣式程式內容。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
+          "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-012-wudi:p005",
+        "text": "明年，上初至雍，郊見五畤。後常三歲一郊。是時上求神君，捨之上林中蹄氏觀。神君者，長陵女子，以子死悲哀，故見神於先後宛若。宛若祠之其室，民多往祠。平原君往祠，其後子孫以尊顯。及武帝即位，則厚禮置祠之內中，聞其言，不見其人云。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-012-wudi:m005-0003",
+            "start": 3,
+            "end": 4,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m005-0022",
+            "start": 22,
+            "end": 23,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m005-0024",
+            "start": 24,
+            "end": 26,
+            "surface": "神君",
+            "kind": "person",
+            "person_id": "umv_4mq_7sy",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m005-0036",
+            "start": 36,
+            "end": 38,
+            "surface": "神君",
+            "kind": "person",
+            "person_id": "umv_4mq_7sy",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m005-0040",
+            "start": 40,
+            "end": 44,
+            "surface": "長陵女子",
+            "kind": "person",
+            "person_id": "umv_4mq_7sy",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m005-0046",
+            "start": 46,
+            "end": 48,
+            "surface": "子死",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "學說合稱、群體、匿名者或未定指代；不補未見姓名及成員。"
+          },
+          {
+            "id": "c-shiji-012-wudi:m005-0057",
+            "start": 57,
+            "end": 59,
+            "surface": "宛若",
+            "kind": "person",
+            "person_id": "fmk_3kl_4cb",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m005-0060",
+            "start": 60,
+            "end": 62,
+            "surface": "宛若",
+            "kind": "person",
+            "person_id": "fmk_3kl_4cb",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m005-0072",
+            "start": 72,
+            "end": 75,
+            "surface": "平原君",
+            "kind": "person",
+            "person_id": "z9k_f03_hq3",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m005-0080",
+            "start": 80,
+            "end": 82,
+            "surface": "子孫",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "學說合稱、群體、匿名者或未定指代；不補未見姓名及成員。"
+          },
+          {
+            "id": "c-shiji-012-wudi:m005-0087",
+            "start": 87,
+            "end": 89,
+            "surface": "武帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/012.json",
+      "chapter_id": "c-shiji-012-wudi",
+      "source": {
+        "title": "史記／卷012",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷012",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+        "revision_id": 8733061,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇52個p區塊，自孝武皇帝者至太史公論贊；排除導覽dd、索隱述贊、現代版權告示及style／script樣式程式內容。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
+          "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-012-wudi:p007",
+        "text": "少君言於上曰：「祠灶則致物，致物而丹沙可化為黃金，黃金成以為飲食器則益壽，益壽而海中蓬萊僊者可見，見之以封禪則不死，黃帝是也。臣嘗游海上，見安期生，食臣棗，大如瓜。安期生僊者，通蓬萊中，合則見人，不合則隱。」於是天子始親祠灶，而遣方士入海求蓬萊安期生之屬，而事化丹沙諸藥齊為黃金矣。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-012-wudi:m007-0000",
+            "start": 0,
+            "end": 2,
+            "surface": "少君",
+            "kind": "person",
+            "person_id": "87n_vk2_1ig",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m007-0004",
+            "start": 4,
+            "end": 5,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m007-0042",
+            "start": 42,
+            "end": 46,
+            "surface": "蓬萊僊者",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "學說合稱、群體、匿名者或未定指代；不補未見姓名及成員。"
+          },
+          {
+            "id": "c-shiji-012-wudi:m007-0058",
+            "start": 58,
+            "end": 60,
+            "surface": "黃帝",
+            "kind": "person",
+            "person_id": "8jz_o3s_obt",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m007-0070",
+            "start": 70,
+            "end": 73,
+            "surface": "安期生",
+            "kind": "person",
+            "person_id": "91s_bsz_pe8",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m007-0082",
+            "start": 82,
+            "end": 85,
+            "surface": "安期生",
+            "kind": "person",
+            "person_id": "91s_bsz_pe8",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m007-0106",
+            "start": 106,
+            "end": 108,
+            "surface": "天子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m007-0122",
+            "start": 122,
+            "end": 125,
+            "surface": "安期生",
+            "kind": "person",
+            "person_id": "91s_bsz_pe8",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/012.json",
+      "chapter_id": "c-shiji-012-wudi",
+      "source": {
+        "title": "史記／卷012",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷012",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+        "revision_id": 8733061,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇52個p區塊，自孝武皇帝者至太史公論贊；排除導覽dd、索隱述贊、現代版權告示及style／script樣式程式內容。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
+          "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-012-wudi:p008",
+        "text": "居久之，李少君病死。天子以為化去不死也，而使黃錘史寬舒受其方。求蓬萊安期生莫能得，而海上燕齊怪迂之方士多相效，更言神事矣。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-012-wudi:m008-0004",
+            "start": 4,
+            "end": 7,
+            "surface": "李少君",
+            "kind": "person",
+            "person_id": "87n_vk2_1ig",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m008-0010",
+            "start": 10,
+            "end": 12,
+            "surface": "天子",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m008-0025",
+            "start": 25,
+            "end": 27,
+            "surface": "寬舒",
+            "kind": "person",
+            "person_id": "j0a_7ai_tbu",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m008-0034",
+            "start": 34,
+            "end": 37,
+            "surface": "安期生",
+            "kind": "person",
+            "person_id": "91s_bsz_pe8",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-012-wudi:m008-0044",
+            "start": 44,
+            "end": 51,
+            "surface": "燕齊怪迂之方士",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "學說合稱、群體、匿名者或未定指代；不補未見姓名及成員。"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/107.json",
+      "chapter_id": "c-shiji-107-weiqi",
+      "source": {
+        "title": "史記／卷107",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷107",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+        "revision_id": 2540571,
+        "accessed_on": "2026-10-11",
+        "extent": "27段正文與太史公論，1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-107-weiqi:p025",
+        "text": "其春，武安侯病，專呼服謝罪。使巫視鬼者視之，見魏其、灌夫共守，欲殺之。竟死。子恬嗣。元朔三年，武安侯坐衣襜褕入宮，不敬。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-107-weiqi:m025-0003",
+            "start": 3,
+            "end": 6,
+            "surface": "武安侯",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m025-0023",
+            "start": 23,
+            "end": 25,
+            "surface": "魏其",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m025-0026",
+            "start": 26,
+            "end": 28,
+            "surface": "灌夫",
+            "kind": "person",
+            "person_id": "h1w_44g_vef_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m025-0038",
+            "start": 38,
+            "end": 40,
+            "surface": "子恬",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_AA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-107-weiqi:m025-0047",
+            "start": 47,
+            "end": 50,
+            "surface": "武安侯",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_AA",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/073.json",
+      "chapter_id": "c-shiji-073-baiwang",
+      "source": {
+        "title": "史記／卷073",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷073",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷073&oldid=7909285",
+        "revision_id": 7909285,
+        "accessed_on": "2026-10-09",
+        "extent": "15段正文，自白起者至太史公論贊；排除ws-header人物導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；保留龁、筑、阬、沈、甐、于、怚、圽等原字。",
+          "note": "全15段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-073-baiwang:p001",
+        "text": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。",
+        "annotation_status": "named_mentions_first_pass",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-073-baiwang:m001-0000",
+            "start": 0,
+            "end": 2,
+            "surface": "白起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0013",
+            "start": 13,
+            "end": 16,
+            "surface": "秦昭王",
+            "kind": "person",
+            "person_id": "ao3_0fy_d45",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0017",
+            "start": 17,
+            "end": 19,
+            "surface": "昭王",
+            "kind": "person",
+            "person_id": "ao3_0fy_d45",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0024",
+            "start": 24,
+            "end": 26,
+            "surface": "白起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0042",
+            "start": 42,
+            "end": 44,
+            "surface": "穰侯",
+            "kind": "person",
+            "person_id": "hya_7qu_m25",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0048",
+            "start": 48,
+            "end": 50,
+            "surface": "任鄙",
+            "kind": "person",
+            "person_id": "zqy_a21_8d3",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0060",
+            "start": 60,
+            "end": 62,
+            "surface": "白起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0085",
+            "start": 85,
+            "end": 88,
+            "surface": "公孫喜",
+            "kind": "person",
+            "person_id": "bl6_mow_siu",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0093",
+            "start": 93,
+            "end": 94,
+            "surface": "起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0115",
+            "start": 115,
+            "end": 117,
+            "surface": "白起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0139",
+            "start": 139,
+            "end": 140,
+            "surface": "起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0141",
+            "start": 141,
+            "end": 144,
+            "surface": "客卿錯",
+            "kind": "person",
+            "person_id": "5w4_qju_qbd",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0155",
+            "start": 155,
+            "end": 157,
+            "surface": "白起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0169",
+            "start": 169,
+            "end": 171,
+            "surface": "白起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0201",
+            "start": 201,
+            "end": 203,
+            "surface": "楚王",
+            "kind": "person",
+            "person_id": "12c_x1u_m8d",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0219",
+            "start": 219,
+            "end": 221,
+            "surface": "白起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0223",
+            "start": 223,
+            "end": 226,
+            "surface": "武安君",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0227",
+            "start": 227,
+            "end": 230,
+            "surface": "武安君",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0241",
+            "start": 241,
+            "end": 243,
+            "surface": "昭王",
+            "kind": "person",
+            "person_id": "ao3_0fy_d45",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0248",
+            "start": 248,
+            "end": 250,
+            "surface": "白起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0258",
+            "start": 258,
+            "end": 260,
+            "surface": "芒卯",
+            "kind": "person",
+            "person_id": "2fo_m4u_tux",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0263",
+            "start": 263,
+            "end": 266,
+            "surface": "三晉將",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved",
+            "note": "未定群體將領，不補未見姓名或成員。"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0276",
+            "start": 276,
+            "end": 278,
+            "surface": "賈偃",
+            "kind": "person",
+            "person_id": "fo6_plq_cng",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0290",
+            "start": 290,
+            "end": 292,
+            "surface": "昭王",
+            "kind": "person",
+            "person_id": "ao3_0fy_d45",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0297",
+            "start": 297,
+            "end": 299,
+            "surface": "白起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-073-baiwang:m001-0318",
+            "start": 318,
+            "end": 320,
+            "surface": "白起",
+            "kind": "person",
+            "person_id": "2bk_fz6_icl",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/120.json",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-120-jizheng:p016",
+        "text": "鄭莊以任俠自喜，脫張羽於緦聲聞梁楚之閒。孝景時，為太子舍人。每五日洗沐，常置驛馬安諸郊，存諸故人，請謝賓客，夜以繼日，至其明旦，常恐不遍。莊好黃老之言，其慕長者如恐不見。年少官薄，然其游知交皆其大父行，天下有名之士也。武帝立，莊稍遷為魯中尉、濟南太守、江都相，至九卿為右內史。以武安侯魏其時議，貶秩為詹事，遷為大農令。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-120-jizheng:m016-0000",
+            "start": 0,
+            "end": 2,
+            "surface": "鄭莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m016-0009",
+            "start": 9,
+            "end": 11,
+            "surface": "張羽",
+            "kind": "person",
+            "person_id": "o6h_ba5_gno",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m016-0020",
+            "start": 20,
+            "end": 22,
+            "surface": "孝景",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m016-0046",
+            "start": 46,
+            "end": 48,
+            "surface": "故人",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m016-0051",
+            "start": 51,
+            "end": 53,
+            "surface": "賓客",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m016-0069",
+            "start": 69,
+            "end": 70,
+            "surface": "莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m016-0101",
+            "start": 101,
+            "end": 107,
+            "surface": "天下有名之士",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m016-0109",
+            "start": 109,
+            "end": 111,
+            "surface": "武帝",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m016-0113",
+            "start": 113,
+            "end": 114,
+            "surface": "莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m016-0139",
+            "start": 139,
+            "end": 142,
+            "surface": "武安侯",
+            "kind": "person",
+            "person_id": "7mz_d13_9ka_A",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m016-0142",
+            "start": 142,
+            "end": 144,
+            "surface": "魏其",
+            "kind": "person",
+            "person_id": "nuf_tb9_fjs_A",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/120.json",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-120-jizheng:p018",
+        "text": "鄭莊使視決河，自請治行五日。上曰：「吾聞『鄭莊行，千里不齎糧』，請治行者何也？」然鄭莊在朝，常趨和承意，不敢甚引當否。及晚節，漢征匈奴，招四夷，天下費多，財用益匱。莊任人賓客為大農僦人，多逋負。司馬安為淮陽太守，發其事，莊以此陷罪，贖為庶人。頃之，守長史。上以為老，以莊為汝南太守。數歲，以官卒。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-120-jizheng:m018-0000",
+            "start": 0,
+            "end": 2,
+            "surface": "鄭莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m018-0014",
+            "start": 14,
+            "end": 15,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m018-0021",
+            "start": 21,
+            "end": 23,
+            "surface": "鄭莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m018-0041",
+            "start": 41,
+            "end": 43,
+            "surface": "鄭莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m018-0082",
+            "start": 82,
+            "end": 83,
+            "surface": "莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m018-0085",
+            "start": 85,
+            "end": 87,
+            "surface": "賓客",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m018-0097",
+            "start": 97,
+            "end": 100,
+            "surface": "司馬安",
+            "kind": "person",
+            "person_id": "84g_35d_vcn",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m018-0110",
+            "start": 110,
+            "end": 111,
+            "surface": "莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m018-0128",
+            "start": 128,
+            "end": 129,
+            "surface": "上",
+            "kind": "person",
+            "person_id": "yqp_nlb_p1p_ACAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m018-0134",
+            "start": 134,
+            "end": 135,
+            "surface": "莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/120.json",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-120-jizheng:p019",
+        "text": "鄭莊、汲黯始列為九卿，廉，內行修絜。此兩人中廢，家貧，賓客益落。及居郡，卒後家無餘貲財。莊兄弟子孫以莊故，至二千石六七人焉。",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-120-jizheng:m019-0000",
+            "start": 0,
+            "end": 2,
+            "surface": "鄭莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m019-0003",
+            "start": 3,
+            "end": 5,
+            "surface": "汲黯",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m019-0027",
+            "start": 27,
+            "end": 29,
+            "surface": "賓客",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m019-0044",
+            "start": 44,
+            "end": 45,
+            "surface": "莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m019-0045",
+            "start": 45,
+            "end": 49,
+            "surface": "兄弟子孫",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m019-0050",
+            "start": 50,
+            "end": 51,
+            "surface": "莊",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m019-0057",
+            "start": 57,
+            "end": 60,
+            "surface": "六七人",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          }
+        ]
+      }
+    },
+    {
+      "file": "corpus/shiji/120.json",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      },
+      "paragraph": {
+        "id": "c-shiji-120-jizheng:p020",
+        "text": "太史公曰：夫以汲、鄭之賢，有勢則賓客十倍，無勢則否，況眾人乎！下邽翟公有言，始翟公為廷尉，賓客闐門；及廢，門外可設雀羅。翟公復為廷尉，賓客欲往，翟公乃人署其門曰：「一死一生，乃知交情。一貧一富，乃知交態。一貴一賤，交情乃見。」汲、鄭亦云，悲夫！",
+        "annotation_status": "in_progress",
+        "text_layer": "received_chapter",
+        "mentions": [
+          {
+            "id": "c-shiji-120-jizheng:m020-0000",
+            "start": 0,
+            "end": 3,
+            "surface": "太史公",
+            "kind": "person",
+            "person_id": "pme_eis_xqi_*A*AAAAA",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m020-0007",
+            "start": 7,
+            "end": 8,
+            "surface": "汲",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m020-0009",
+            "start": 9,
+            "end": 10,
+            "surface": "鄭",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m020-0016",
+            "start": 16,
+            "end": 18,
+            "surface": "賓客",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m020-0033",
+            "start": 33,
+            "end": 35,
+            "surface": "翟公",
+            "kind": "person",
+            "person_id": "fzo_jum_4s1",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m020-0039",
+            "start": 39,
+            "end": 41,
+            "surface": "翟公",
+            "kind": "person",
+            "person_id": "fzo_jum_4s1",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m020-0045",
+            "start": 45,
+            "end": 47,
+            "surface": "賓客",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m020-0060",
+            "start": 60,
+            "end": 62,
+            "surface": "翟公",
+            "kind": "person",
+            "person_id": "fzo_jum_4s1",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m020-0067",
+            "start": 67,
+            "end": 69,
+            "surface": "賓客",
+            "kind": "unresolved",
+            "person_id": null,
+            "status": "unresolved"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m020-0072",
+            "start": 72,
+            "end": 74,
+            "surface": "翟公",
+            "kind": "person",
+            "person_id": "fzo_jum_4s1",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m020-0113",
+            "start": 113,
+            "end": 114,
+            "surface": "汲",
+            "kind": "person",
+            "person_id": "fmh_dmt_cql",
+            "status": "contextual_provisional"
+          },
+          {
+            "id": "c-shiji-120-jizheng:m020-0115",
+            "start": 115,
+            "end": 116,
+            "surface": "鄭",
+            "kind": "person",
+            "person_id": "jws_b08_hob",
+            "status": "contextual_provisional"
+          }
+        ]
+      }
+    }
+  ],
+  "identity_decisions": [
+    {
+      "id": "d-shiji-court-courtesy-cross-chapter-01",
+      "person_id": "6hy_i1z_hu2",
+      "target_mention_ids": [
+        "c-shiji-058-liang:m025-0246"
+      ],
+      "rationale": "梁孝王篇褚評舉韓長孺與汲黯為敢諫之士；韓長孺篇首明韓安國，本篇論贊亦稱韓長孺，接回韓安國。褚評建議不表示二人當時同任梁王師傅。"
+    },
+    {
+      "id": "d-shiji-court-courtesy-cross-chapter-02",
+      "person_id": "6hy_i1z_hu2",
+      "target_mention_ids": [
+        "c-shiji-130-taishigong:m120-0016"
+      ],
+      "rationale": "自序明題韓長孺列傳，與該篇開頭韓安國及篇末韓長孺互證；此韓長孺不是汲鄭篇之汲黯長孺。"
+    },
+    {
+      "id": "d-shiji-court-courtesy-cross-chapter-03",
+      "person_id": "fmh_dmt_cql",
+      "target_mention_ids": [
+        "c-shiji-058-liang:m025-0243"
+      ],
+      "rationale": "梁孝王篇褚評具名汲黯，與汲鄭本傳具名及字長孺相接；保留為推薦型比較，不改成梁國任職事實。"
+    },
+    {
+      "id": "d-shiji-court-courtesy-cross-chapter-04",
+      "person_id": "fmh_dmt_cql",
+      "target_mention_ids": [
+        "c-shiji-122-kuli:m010-0128"
+      ],
+      "rationale": "酷吏篇在周陽由、司馬安與武帝時二千石脈絡具名汲黯，與汲鄭篇同時代同姓名廷臣相接；不把周陽由或司馬安與汲黯併人。"
+    },
+    {
+      "id": "d-shiji-court-courtesy-cross-chapter-05",
+      "person_id": "fmh_dmt_cql",
+      "target_mention_ids": [
+        "c-shiji-130-taishigong:m132-0017"
+      ],
+      "rationale": "自序明題汲鄭篇，長孺對應篇首汲黯字長孺，後文壯另對應鄭當時。不能因同字長孺而接韓安國。"
+    },
+    {
+      "id": "d-shiji-court-courtesy-cross-chapter-06",
+      "person_id": "nuf_tb9_fjs_A",
+      "target_mention_ids": [
+        "c-shiji-049-waiqi:m016-0070"
+      ],
+      "rationale": "外戚篇竇太后從昆弟子竇嬰、吳楚之亂將兵封魏其，與魏其本傳具名宗親關係及守滎陽封侯相合。"
+    },
+    {
+      "id": "d-shiji-court-courtesy-cross-chapter-07",
+      "person_id": "nuf_tb9_fjs_A",
+      "target_mention_ids": [
+        "c-shiji-058-liang:m023-0101",
+        "c-shiji-058-liang:m023-0149",
+        "c-shiji-058-liang:m027-0040"
+      ],
+      "rationale": "梁篇魏其侯竇嬰及索隱述贊竇嬰正議，與魏其本傳同名同爵及反對傳位梁王的同一敘事相合；保留褚評與述贊各自文層。"
+    },
+    {
+      "id": "d-shiji-court-courtesy-cross-chapter-08",
+      "person_id": "nuf_tb9_fjs_A",
+      "target_mention_ids": [
+        "c-shiji-130-taishigong:m119-0008",
+        "c-shiji-130-taishigong:m119-0027"
+      ],
+      "rationale": "自序以嬰、魏其敘吳楚之亂、喜士及守滎陽，與魏其侯竇嬰本傳同名省稱、爵與事功相接。"
+    },
+    {
+      "id": "d-shiji-court-courtesy-cross-chapter-09",
+      "person_id": "7mz_d13_9ka_A",
+      "target_mention_ids": [
+        "c-shiji-130-taishigong:m119-0029"
+      ],
+      "rationale": "自序題魏其武安篇，其武安對應本傳明具武安侯田蚡；不是白起的武安君，不將子恬嗣爵後之武安侯回指父田蚡。"
+    },
+    {
+      "id": "d-shiji-court-courtesy-cross-chapter-10",
+      "person_id": "jws_b08_hob",
+      "target_mention_ids": [
+        "c-shiji-130-taishigong:m132-0030"
+      ],
+      "rationale": "自序題汲鄭篇，後句壯好薦人、稱長者，對應本傳鄭當時字莊及推轂士、進善言之記。壯與莊只作本處同人異文用稱，不全域替換字形，不接鄭莊公。"
+    },
+    {
+      "id": "d-shiji-court-courtesy-cross-chapter-11",
+      "person_id": "7mz_d13_9ka_A",
+      "target_mention_ids": [
+        "c-shiji-011-jingdi:m017-0114",
+        "c-shiji-012-wudi:m006-0135"
+      ],
+      "rationale": "景帝紀武帝即位後，封皇太后弟蚡為武安侯、弟勝為周陽侯，與魏其武安篇田蚡、田勝同次親屬及授封正證相接。武帝紀李少君嘗從武安侯飲位於武帝初期祠事敘事，沿既有跨篇判讀暫定田蚡，保留contextual資格；不把飲宴補成確切紀年。"
+    }
+  ]
+}

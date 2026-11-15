@@ -8,7 +8,84 @@
   "names": [
     "懷之"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-song045-wyd-huaizhi-reported",
+      "person_id": "8lh_jgi_l6a_*AB",
+      "title": "臨川內史",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "layered_biographical_role_frame",
+        "rule": "named_subject_office_report",
+        "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+        "source_revision": "cbr-ai-transcription-sha256:ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
+        "paragraph_sha256": "033d6f616bc63e335d753f8d3b42c5fc08e5c8f547d4a02505345428d389101f",
+        "human_reviewed": false,
+        "scope_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+          "start": 188,
+          "end": 195,
+          "surface": "懷之為臨川內史"
+        },
+        "roles": {
+          "subject": "c-songshu-045-wyd1739-liucui:p004:m0188"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+            "start": 191,
+            "end": 195,
+            "surface": "臨川內史"
+          }
+        },
+        "slot": "office",
+        "recipient_role": "subject"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-045",
+          "source_id": "s-songshu-045-wyd1739-liucui",
+          "chapter_id": "c-songshu-045-wyd1739-liucui",
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+          "quote": "沙門二千餘人以補府史元嘉三年討謝晦遣粹弟車騎從事中郎道濟龍驤將軍沈敞之就粹自陸道向江陵粹以道濟行竟陵內史與敞之及南陽太守沈道興步騎至沙橋為晦司馬周超所敗士衆傷死者過半降號寧朔將軍初晦與粹厚善以粹子曠之為參軍粹受命南討一無所顧太祖以此嘉之晦遣送曠之還粹亦不害也明年粹卒時年五十三追贈安北將軍持節本官如故曠之嗣官至晉熙太守曠之卒子琛嗣琛卒無子國除琛弟亮順帝昇明末尚書駕部郎粹庶長子懷之為臨川內史與臧質同逆伏誅粹弟道濟尚書起部",
+          "person_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0188"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-song045-wyd-huaizhi-reported",
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+          "start": 191,
+          "end": 195,
+          "surface": "臨川內史",
+          "person_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0188",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本源明報曾任此職；未載本職任始終，不借承爵、父卒或伏誅定任期。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -280,7 +357,51 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-song045-wyd-huai",
+      "person_id": "8lh_jgi_l6a_*AB",
+      "event_type": "death",
+      "source_term": "伏誅",
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-045",
+          "source_id": "s-songshu-045-wyd1739-liucui",
+          "chapter_id": "c-songshu-045-wyd1739-liucui",
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+          "quote": "沙門二千餘人以補府史元嘉三年討謝晦遣粹弟車騎從事中郎道濟龍驤將軍沈敞之就粹自陸道向江陵粹以道濟行竟陵內史與敞之及南陽太守沈道興步騎至沙橋為晦司馬周超所敗士衆傷死者過半降號寧朔將軍初晦與粹厚善以粹子曠之為參軍粹受命南討一無所顧太祖以此嘉之晦遣送曠之還粹亦不害也明年粹卒時年五十三追贈安北將軍持節本官如故曠之嗣官至晉熙太守曠之卒子琛嗣琛卒無子國除琛弟亮順帝昇明末尚書駕部郎粹庶長子懷之為臨川內史與臧質同逆伏誅粹弟道濟尚書起部",
+          "person_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0188"
+        }
+      ],
+      "source_wyd045_death_scope": {
+        "kind": "fixed_wyd045_death_scope",
+        "slot": "huai",
+        "subject_mention_id": "c-songshu-045-wyd1739-liucui:p004:m0188",
+        "paragraph_sha256": "033d6f616bc63e335d753f8d3b42c5fc08e5c8f547d4a02505345428d389101f",
+        "source_revision": "cbr-ai-transcription-sha256:ad4c7d261c6ab397efdbf2933f34c491be371368986212d7854860bc96e514e2",
+        "clause_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+          "start": 184,
+          "end": 202,
+          "surface": "粹庶長子懷之為臨川內史與臧質同逆伏誅"
+        },
+        "death_anchor": {
+          "paragraph_id": "c-songshu-045-wyd1739-liucui:p004",
+          "start": 200,
+          "end": 202,
+          "surface": "伏誅"
+        },
+        "human_reviewed": false
+      },
+      "interpretation_note": "懷之與臧質同逆伏誅；本源無明年，不借粹卒或其他敘事日期。庶長子排行另存。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

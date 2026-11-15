@@ -1,0 +1,3695 @@
+{
+  "historical_table_endpoint_migrations": [
+    {
+      "path": "data/historical-tables/shiji-015.json",
+      "table_id": "shiji-015",
+      "source": {
+        "id": "table-witness-shiji-015",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-015",
+        "chapter_id": "table-chapter-shiji-015",
+        "url": "https://zh.wikisource.org/wiki/史記/卷015",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+        "revision": "2607002",
+        "accessed": "2026-10-12",
+        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "agent_first_pass_named_entities",
+        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
+      },
+      "row_id": "shiji-015-r244",
+      "year": {
+        "era": "BCE",
+        "value": 233,
+        "astronomical_year": -232,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "233",
+        "source_cell_id": "shiji-015-r244-c00"
+      },
+      "cells": [
+        {
+          "id": "shiji-015-r244-c00",
+          "column": 0,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "233",
+          "source_row": 245,
+          "source_column": 1,
+          "printed_page": null
+        },
+        {
+          "id": "shiji-015-r244-c01",
+          "column": 1,
+          "rowspan": 1,
+          "colspan": 2,
+          "text": "十四。桓齮定平陽、武城、宜安。韓使非來，我殺非。韓王請為臣。",
+          "source_row": 245,
+          "source_column": 2,
+          "printed_page": null
+        },
+        {
+          "id": "shiji-015-r244-c03",
+          "column": 3,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "十",
+          "source_row": 245,
+          "source_column": 3,
+          "printed_page": null
+        },
+        {
+          "id": "shiji-015-r244-c04",
+          "column": 4,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "六",
+          "source_row": 245,
+          "source_column": 4,
+          "printed_page": null
+        },
+        {
+          "id": "shiji-015-r244-c05",
+          "column": 5,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "三。秦拔我宜安。",
+          "source_row": 245,
+          "source_column": 5,
+          "printed_page": null
+        },
+        {
+          "id": "shiji-015-r244-c06",
+          "column": 6,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "五",
+          "source_row": 245,
+          "source_column": 6,
+          "printed_page": null
+        },
+        {
+          "id": "shiji-015-r244-c07",
+          "column": 7,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "二十二",
+          "source_row": 245,
+          "source_column": 7,
+          "printed_page": null
+        },
+        {
+          "id": "shiji-015-r244-c08",
+          "column": 8,
+          "rowspan": 1,
+          "colspan": 1,
+          "text": "三十二",
+          "source_row": 245,
+          "source_column": 8,
+          "printed_page": null
+        }
+      ],
+      "mention_ids": [
+        "shiji-015-r244-c01-m017",
+        "shiji-015-r244-c01-m022"
+      ],
+      "person_id": "n2o_l90_fnm",
+      "qualification": "只遷兩既有表格person_id；年度為原數位編者對照欄，未新增紀年推定；同書平行不是獨立見證。"
+    }
+  ],
+  "status": "contextual_provisional",
+  "human_reviewed": false,
+  "model": null,
+  "groups": [
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-01",
+      "person_id": "ao3_0fy_d45_AAA",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m002-0137",
+        "c-shiji-130-taishigong:m018-0000",
+        "c-shiji-130-taishigong:m018-0041"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p002",
+          "text": "自司馬氏去周適晉，分散，或在衛，或在趙，或在秦。其在衛者，相中山。在趙者，以傳劍論顯，蒯聵其後也。在秦者名錯，與張儀爭論，於是惠王使錯將伐蜀，遂拔，因而守之。錯孫靳，事武安君白起。而少梁更名曰夏陽。靳與武安君阬趙長平軍，還而與之俱賜死杜郵，葬於華池。靳孫昌，昌為秦主鐵官，當始皇之時。蒯聵玄孫卬為武信君將而徇朝歌。諸侯之相王，王卬於殷。漢之伐楚，卬歸漢，以其地為河內郡。昌生無澤，無澤為漢市長。無澤生喜，喜為五大夫，卒，皆葬高門。喜生談，談為太史公。",
+          "text_sha256": "26230ce1f3e3e935b18c4b17ef00253ef91e85f4671da80fc57f5043663b7848",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p018",
+          "text": "始皇既立，并兼六國，銷鋒鑄鐻，維偃干革，尊號稱帝，矜武任力；二世受運，子嬰降虜。作始皇本紀第六。",
+          "text_sha256": "de6628c9b48fff21694965cc0ad854b553dd2f5deaca9273c91b42d85fe7ce9d",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-006-shihuang",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-006",
+            "source_id": "s-shiji-006-shihuang"
+          },
+          "source": {
+            "title": "史記／卷006",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷006",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
+            "revision_id": 7907969,
+            "accessed_on": "2026-10-09",
+            "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
+            "image_verified": false,
+            "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
+              "editorial_readings": [
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p010",
+                  "witness_form": "（四）［是］",
+                  "body_reading": "四",
+                  "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+                },
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p016",
+                  "witness_form": "（薊）［荊］",
+                  "body_reading": "薊",
+                  "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+                },
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p051",
+                  "witness_form": "（其）",
+                  "body_reading": "",
+                  "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+                },
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p061",
+                  "witness_form": "（者）",
+                  "body_reading": "",
+                  "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+                }
+              ],
+              "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
+            }
+          },
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "text": "秦始皇帝者，秦莊襄王子也。莊襄王為秦質子於趙，見呂不韋姬，悅而取之，生始皇。以秦昭王四十八年正月生於邯鄲。及生，名為政，姓趙氏。年十三歲，莊襄王死，政代立為秦王。當是之時，秦地已并巴、蜀、漢中，越宛有郢，置南郡矣；北收上郡以東，有河東、太原、上黨郡；東至滎陽，滅二周，置三川郡。呂不韋為相，封十萬戶，號曰文信侯。招致賓客游士，欲以并天下。李斯為舍人。蒙驁、王齮、麃公等為將軍。王年少，初即位，委國事大臣。晉陽反。",
+          "text_sha256": "a5699a4a8369ea0aa21aa2bfeccafb6773060ae6001612de4d6c5ad6af8b9326",
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "六國兼并後始皇、二世、子嬰承接，傳首明秦始皇帝名政。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m002-0137",
+            "c-shiji-130-taishigong:m018-0000",
+            "c-shiji-130-taishigong:m018-0041"
+          ],
+          "metadata": {
+            "label": "始皇（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "30808a0dd12716c72aa88295b4d1a022ccfa3ae9733451234d1ecf0c91b35f5e",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-02",
+      "person_id": "yqp_nlb_p1p_A",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m020-0036",
+        "c-shiji-130-taishigong:m030-0001",
+        "c-shiji-130-taishigong:m030-0033",
+        "c-shiji-130-taishigong:m062-0051",
+        "c-shiji-130-taishigong:m063-0001",
+        "c-shiji-130-taishigong:m101-0015",
+        "c-shiji-130-taishigong:m110-0013"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p020",
+          "text": "子羽暴虐，漢行功德；憤發蜀漢，還定三秦；誅籍業帝，天下惟寧，改制易俗。作高祖本紀第八。",
+          "text_sha256": "70bcec845f962546ea9ebb0115357d4a89b5debe183c472a9ab2239e6f7b4f6f",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p030",
+          "text": "維高祖元功，輔臣股肱，剖符而爵，澤流苗裔，忘其昭穆，或殺身隕國。作高祖功臣侯者年表第六。",
+          "text_sha256": "303a440a85c088d1659c61d5ca08543fb258c4f53b3f1b6e1ae8b4cf3541cf9f",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p062",
+          "text": "漢既譎謀，禽信於陳；越荊剽輕，乃封弟交為楚王，爰都彭城，以彊淮泗，為漢宗藩。戊溺於邪，禮復紹之。嘉游輔祖，作楚元王世家二十。",
+          "text_sha256": "f56a6801a00cceef3d2447799badf4c60ed483324a0feeeeb971f27e13fe3ddd",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p063",
+          "text": "維祖師旅，劉賈是與；為布所襲，喪其荊、吳。營陵激呂，乃王瑯邪；怵午信齊，往而不歸，遂西入關，遭立孝文，獲復王燕。天下未集，賈、澤以族，為漢藩輔。作荊燕世家第二十一。",
+          "text_sha256": "4e3cdfbe24ade4c235ca3505926680794b9f7cd54e1c797a3b064fb0ea6d1849",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p101",
+          "text": "填趙塞常山以廣河內，弱楚權，明漢王之信於天下。作張耳陳餘列傳第二十九。",
+          "text_sha256": "4a9a966ed589101b8611a11f21006bf573248e194725f954e200ab7a75c790d9",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p110",
+          "text": "欲詳知秦楚之事，維周緤常從高祖，平定諸侯。作傅靳蒯成列傳第三十八。",
+          "text_sha256": "5fc1920d004729ccb30566f90b6079bfc60cc658eafb2fc1137c17df709ff724",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-008-gaozu",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-008",
+            "source_id": "s-shiji-008-gaozu"
+          },
+          "source": {
+            "title": "史記／卷008",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷008",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷008&oldid=2440965",
+            "revision_id": 2440965,
+            "accessed_on": "2026-10-09",
+            "extent": "本篇傳世正文91個p區塊，自「高祖，沛豐邑中陽里人」至太史公論贊；不含導覽標題、跨站連結及另署【索隱述贊】的後出文字。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "馕": "饢"
+              },
+              "editorial_readings": [],
+              "extraction_note": "正文91段均為p；前置兩個dd為跨站導覽，不收錄。排除sup註號，保留原有行內校勘符號。",
+              "note": "第48、57段馕僅作明示簡繁轉換為饢，詞義與疑讀待核，不逕改為餉或饟。數位轉錄尚未核紙本或影像。"
+            }
+          },
+          "paragraph_id": "c-shiji-008-gaozu:p001",
+          "text": "高祖，沛豐邑中陽里人，姓劉氏，字季。父曰太公，母曰劉媼。其先劉媼嘗息大澤之陂，夢與神遇。是時雷電晦冥，太公往視，則見蛟龍於其上。已而有身，遂產高祖。",
+          "text_sha256": "bb99ab5a7f11d225c24196ace9cf1b2c2b3ec8b9faa52ce260158acc5ee7c056",
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "項羽後定三秦的漢高祖，傳首明姓劉氏。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m020-0036",
+            "c-shiji-130-taishigong:m030-0001",
+            "c-shiji-130-taishigong:m030-0033",
+            "c-shiji-130-taishigong:m062-0051",
+            "c-shiji-130-taishigong:m063-0001",
+            "c-shiji-130-taishigong:m101-0015",
+            "c-shiji-130-taishigong:m110-0013"
+          ],
+          "metadata": {
+            "label": "高祖（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "3bbe6deb85e03ac14f4803387a3194a0c36b0fb944d79263b314b49ceaf73960",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-03",
+      "person_id": "yqp_nlb_p1p_AA",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m021-0000"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p021",
+          "text": "惠之早霣，諸呂不台；崇彊祿、產，諸侯謀之；殺隱幽友，大臣洞疑，遂及宗禍。作呂太后本紀第九。",
+          "text_sha256": "752a4f20514394b025c06b490d163ba660343cdd27fdd741c4daee7a2e585ce5",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-009-lvhou",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-009",
+            "source_id": "s-shiji-009-lvhou"
+          },
+          "source": {
+            "title": "史記／卷009",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷009",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062",
+            "revision_id": 2087062,
+            "accessed_on": "2026-10-09",
+            "extent": "本篇傳世正文32個p區塊，自「呂太后者」至太史公論贊；不含篇名導覽、跨站dd及另署索隱述贊的後出文字。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "正文均為p，排除前置跨站導覽dd、sup註號與末尾索隱述贊，保留原有校勘符號。",
+              "note": "固定版本HTML與實際所讀正文一致；未核紙本或影像。"
+            }
+          },
+          "paragraph_id": "c-shiji-009-lvhou:p001",
+          "text": "呂太后者，高祖微時妃也，生孝惠帝、女魯元太后。及高祖為漢王，得定陶戚姬，愛幸，生趙隱王如意。孝惠為人仁弱，高祖以為不類我，常欲廢太子，立戚姬子如意，如意類我。戚姬幸，常從上之關東，日夜啼泣，欲立其子代太子。呂后年長，常留守，希見上，益疏。如意立為趙王後，幾代太子者數矣，賴大臣爭之，及留侯策，太子得毋廢。",
+          "text_sha256": "12921ac1ec4a99cba1d627b36e6c19fb7ece13586d8a5a8e27e6c2394ad474fe",
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "呂太后子孝惠，惠早霣與諸呂掌軍同連續事件。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m021-0000"
+          ],
+          "metadata": {
+            "label": "孝惠（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "25c2e9c424c3e4e5f9a80cc756701d61d6d380c98688ac487562cb05e1c3dfe8",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-04",
+      "person_id": "i30_mjq_6q8_A",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m021-0037"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p021",
+          "text": "惠之早霣，諸呂不台；崇彊祿、產，諸侯謀之；殺隱幽友，大臣洞疑，遂及宗禍。作呂太后本紀第九。",
+          "text_sha256": "752a4f20514394b025c06b490d163ba660343cdd27fdd741c4daee7a2e585ce5",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-009-lvhou",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-009",
+            "source_id": "s-shiji-009-lvhou"
+          },
+          "source": {
+            "title": "史記／卷009",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷009",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062",
+            "revision_id": 2087062,
+            "accessed_on": "2026-10-09",
+            "extent": "本篇傳世正文32個p區塊，自「呂太后者」至太史公論贊；不含篇名導覽、跨站dd及另署索隱述贊的後出文字。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "正文均為p，排除前置跨站導覽dd、sup註號與末尾索隱述贊，保留原有校勘符號。",
+              "note": "固定版本HTML與實際所讀正文一致；未核紙本或影像。"
+            }
+          },
+          "paragraph_id": "c-shiji-009-lvhou:p001",
+          "text": "呂太后者，高祖微時妃也，生孝惠帝、女魯元太后。及高祖為漢王，得定陶戚姬，愛幸，生趙隱王如意。孝惠為人仁弱，高祖以為不類我，常欲廢太子，立戚姬子如意，如意類我。戚姬幸，常從上之關東，日夜啼泣，欲立其子代太子。呂后年長，常留守，希見上，益疏。如意立為趙王後，幾代太子者數矣，賴大臣爭之，及留侯策，太子得毋廢。",
+          "text_sha256": "12921ac1ec4a99cba1d627b36e6c19fb7ece13586d8a5a8e27e6c2394ad474fe",
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "呂太后本紀稱名、明高祖妃生孝惠及諸呂掌權語境。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m021-0037"
+          ],
+          "metadata": {
+            "label": "呂太后（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "e5dddba9eb3826bd9a3108f72dc93d144116d1598be1fc9cc46c9a05cd923599",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-05",
+      "person_id": "561_608_i0z",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m021-0012"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p021",
+          "text": "惠之早霣，諸呂不台；崇彊祿、產，諸侯謀之；殺隱幽友，大臣洞疑，遂及宗禍。作呂太后本紀第九。",
+          "text_sha256": "752a4f20514394b025c06b490d163ba660343cdd27fdd741c4daee7a2e585ce5",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-009-lvhou",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-009",
+            "source_id": "s-shiji-009-lvhou"
+          },
+          "source": {
+            "title": "史記／卷009",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷009",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062",
+            "revision_id": 2087062,
+            "accessed_on": "2026-10-09",
+            "extent": "本篇傳世正文32個p區塊，自「呂太后者」至太史公論贊；不含篇名導覽、跨站dd及另署索隱述贊的後出文字。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "正文均為p，排除前置跨站導覽dd、sup註號與末尾索隱述贊，保留原有校勘符號。",
+              "note": "固定版本HTML與實際所讀正文一致；未核紙本或影像。"
+            }
+          },
+          "paragraph_id": "c-shiji-009-lvhou:p020",
+          "text": "七月中，高后病甚，乃令趙王呂祿為上將軍，軍北軍；呂王產居南軍。呂太后誡產、祿曰：「高帝已定天下，與大臣約，曰『非劉氏王者，天下共擊之』。今呂氏王，大臣弗平。我即崩，帝年少，大臣恐為變。必據兵衛宮，慎毋送喪，毋為人所制。」辛巳，高后崩，遺詔賜諸侯王各千金，將相列侯郎吏皆以秩賜金。大赦天下。以呂王產為相國，以呂祿女為帝后。",
+          "text_sha256": "d3330b3acbf8dd62b6bbc834f61257f349b603ca7915ce7ad02e5c37ce78bdb4",
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "呂太后誡產祿、北南軍同事件明趙王呂祿。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m021-0012"
+          ],
+          "metadata": {
+            "label": "祿（諸呂）（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "d0bca77a8d8030f00ae402ccf2656fb7a681b6b26e02e400dc25ec3a4bc3fdb9",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-06",
+      "person_id": "acg_se3_w5x_B",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m021-0014"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p021",
+          "text": "惠之早霣，諸呂不台；崇彊祿、產，諸侯謀之；殺隱幽友，大臣洞疑，遂及宗禍。作呂太后本紀第九。",
+          "text_sha256": "752a4f20514394b025c06b490d163ba660343cdd27fdd741c4daee7a2e585ce5",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-009-lvhou",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-009",
+            "source_id": "s-shiji-009-lvhou"
+          },
+          "source": {
+            "title": "史記／卷009",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷009",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062",
+            "revision_id": 2087062,
+            "accessed_on": "2026-10-09",
+            "extent": "本篇傳世正文32個p區塊，自「呂太后者」至太史公論贊；不含篇名導覽、跨站dd及另署索隱述贊的後出文字。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "正文均為p，排除前置跨站導覽dd、sup註號與末尾索隱述贊，保留原有校勘符號。",
+              "note": "固定版本HTML與實際所讀正文一致；未核紙本或影像。"
+            }
+          },
+          "paragraph_id": "c-shiji-009-lvhou:p020",
+          "text": "七月中，高后病甚，乃令趙王呂祿為上將軍，軍北軍；呂王產居南軍。呂太后誡產、祿曰：「高帝已定天下，與大臣約，曰『非劉氏王者，天下共擊之』。今呂氏王，大臣弗平。我即崩，帝年少，大臣恐為變。必據兵衛宮，慎毋送喪，毋為人所制。」辛巳，高后崩，遺詔賜諸侯王各千金，將相列侯郎吏皆以秩賜金。大赦天下。以呂王產為相國，以呂祿女為帝后。",
+          "text_sha256": "d3330b3acbf8dd62b6bbc834f61257f349b603ca7915ce7ad02e5c37ce78bdb4",
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "呂太后誡產祿、北南軍同事件明呂王產。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m021-0014"
+          ],
+          "metadata": {
+            "label": "產（諸呂）（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "b2b35068e1b576811e963fc29121d75173c6ff5f337beb4ceb2a3082e83e11ef",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-07",
+      "person_id": "yqp_nlb_p1p_AC",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m022-0037",
+        "c-shiji-130-taishigong:m022-0041",
+        "c-shiji-130-taishigong:m063-0048"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p022",
+          "text": "漢既初興，繼嗣不明，迎王踐祚，天下歸心；蠲除肉刑，開通關梁，廣恩博施，厥稱太宗。作孝文本紀第十。",
+          "text_sha256": "9cd2b385be94c158a1b5ade1c7544d2d6313c22176803e339d49c84133790698",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p063",
+          "text": "維祖師旅，劉賈是與；為布所襲，喪其荊、吳。營陵激呂，乃王瑯邪；怵午信齊，往而不歸，遂西入關，遭立孝文，獲復王燕。天下未集，賈、澤以族，為漢藩輔。作荊燕世家第二十一。",
+          "text_sha256": "4e3cdfbe24ade4c235ca3505926680794b9f7cd54e1c797a3b064fb0ea6d1849",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-010-wendi",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-010",
+            "source_id": "s-shiji-010-wendi"
+          },
+          "source": {
+            "title": "史記／卷010",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷010",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷010&oldid=2599229",
+            "revision_id": 2599229,
+            "accessed_on": "2026-10-09",
+            "extent": "正文41個p區塊，自孝文皇帝至太史公論贊；排除前置跨站dd及末尾索隱述贊。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "泽": "澤",
+                "为": "為",
+                "绖": "絰"
+              },
+              "editorial_readings": [],
+              "extraction_note": "正文均為p，排除sup註號，保留行內校勘符號。",
+              "note": "澤、為、絰僅作明記簡繁轉換；保留琅邪及古代異體，未核影像或可靠底本。"
+            }
+          },
+          "paragraph_id": "c-shiji-010-wendi:p001",
+          "text": "孝文皇帝，高祖中子也。高祖十一年春，已破陳豨軍，定代地，立為代王，都中都。太后薄氏子。即位十七年，高后八年七月，高后崩。九月，諸呂呂產等欲為亂，以危劉氏，大臣共誅之，謀召立代王，事在呂后語中。",
+          "text_sha256": "887e22af1566e6d4a2e35617a623a1f647e68e414985c8186f5e5bab4a24922a",
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "迎代王及孝文太宗語境，傳首明高祖子代王。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m022-0037",
+            "c-shiji-130-taishigong:m022-0041",
+            "c-shiji-130-taishigong:m063-0048"
+          ],
+          "metadata": {
+            "label": "孝文（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "c05e801fd8cb1fd7c8048180774ccf3f789da18f9e1771be1aa832ed866dce9f",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-08",
+      "person_id": "yqp_nlb_p1p_ACA",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m023-0031"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p023",
+          "text": "諸侯驕恣，吳首為亂，京師行誅，七國伏辜，天下翕然，大安殷富。作孝景本紀第十一。",
+          "text_sha256": "7563c478257a9832735b233c6594fbbc4bb957eaf2c7bd35ab8bc8aaf7b2e152",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-011-jingdi",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-011",
+            "source_id": "s-shiji-011-jingdi"
+          },
+          "source": {
+            "title": "史記／卷011",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷011",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷011&oldid=2520527",
+            "revision_id": 2520527,
+            "accessed_on": "2026-10-09",
+            "extent": "本篇18個p區塊，自孝景皇帝者至太史公論贊；排除跨站導覽dd、索隱述贊及其後現代版權告示。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "保留行內（弋）［易］、（子）［孫］及其他校勘符號，不把改讀當已校定原文。",
+              "note": "固定版本正文與實讀HTML一致；未核底本、影像或現代專門研究。"
+            }
+          },
+          "paragraph_id": "c-shiji-011-jingdi:p001",
+          "text": "孝景皇帝者，孝文之中子也。母竇太后。孝文在代時，前后有三男，及竇太后得幸，前后死，及三子更死，故孝景得立。",
+          "text_sha256": "dc7f13bfdb3236a3b3c6841af993ae6a79c68ebf652b6613ed9fd9cdd8a82066",
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "七國之亂及孝景本紀引稱，傳首明孝文中子。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m023-0031"
+          ],
+          "metadata": {
+            "label": "孝景（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "6e63af22ade4003961d1b4ae4f2aba9d159e42fe72fbae2ddf8a973028a4ba8d",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-09",
+      "person_id": "yqp_nlb_p1p_ACAA",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m006-0002",
+        "c-shiji-130-taishigong:m006-0106",
+        "c-shiji-130-taishigong:m010-0045",
+        "c-shiji-130-taishigong:m011-0091",
+        "c-shiji-130-taishigong:m024-0032",
+        "c-shiji-130-taishigong:m142-0342"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p006",
+          "text": "是歲天子始建漢家之封，而太史公留滯周南，不得與從事，故發憤且卒。而子遷適使反，見父於河洛之閒。太史公執遷手而泣曰：「余先周室之太史也。自上世嘗顯功名於虞夏，典天官事。後世中衰，絕於予乎？汝復為太史，則續吾祖矣。今天子接千歲之統，封泰山，而余不得從行，是命也夫，命也夫！余死，汝必為太史；為太史，無忘吾所欲論著矣。且夫孝始於事親，中於事君，終於立身。揚名於後世，以顯父母，此孝之大者。夫天下稱誦周公，言其能論歌文武之德，宣周邵之風，達太王王季之思慮，爰及公劉，以尊后稷也。幽厲之後，王道缺，禮樂衰，孔子修舊起廢，論詩書，作春秋，則學者至今則之。自獲麟以來四百有餘歲，而諸侯相兼，史記放絕。今漢興，海內一統，明主賢君忠臣死義之士，余為太史而弗論載，廢天下之史文，余甚懼焉，汝其念哉！」遷俯首流涕曰：「小子不敏，請悉論先人所次舊聞，弗敢闕。」",
+          "text_sha256": "5d976311f53a1fe723ab72b1a7fde6d007f992480bbcd59c254f764933534573",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p010",
+          "text": "壺遂曰：「孔子之時，上無明君，下不得任用，故作春秋，垂空文以斷禮義，當一王之法。今夫子上遇明天子，下得守職，萬事既具，咸各序其宜，夫子所論，欲以何明？」",
+          "text_sha256": "924c80903bbe28f5523f917e31b4e21411de2f8ab6017b7263f3a7cfc86c551b",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p011",
+          "text": "太史公曰：「唯唯，否否，不然。余聞之先人曰：『伏羲至純厚，作易八卦。堯舜之盛，尚書載之，禮樂作焉。湯武之隆，詩人歌之。春秋采善貶惡，推三代之德，褒周室，非獨刺譏而已也。』漢興以來，至明天子，獲符瑞，封禪，改正朔，易服色，受命於穆清，澤流罔極，海外殊俗，重譯款塞，請來獻見者，不可勝道。臣下百官力誦聖德，猶不能宣盡其意。且士賢能而不用，有國者之恥；主上明聖而德不布聞，有司之過也。且余嘗掌其官，廢明聖盛德不載，滅功臣世家賢大夫之業不述，墮先人所言，罪莫大焉。余所謂述故事，整齊其世傳，非所謂作也，而君比之於春秋，謬矣。」",
+          "text_sha256": "07a24c546a065b4521b222cd8c34688325c7ac6429f352e448a5b57a657984cc",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p024",
+          "text": "漢興五世，隆在建元，外攘夷狄，內修法度，封禪，改正朔，易服色。作今上本紀第十二。",
+          "text_sha256": "5c32ff31a6c412fbdc40ef15e5634483acbc78500b6fec784a70c71056c17a59",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p142",
+          "text": "維我漢繼五帝末流，接三代絕業。周道廢，秦撥去古文，焚滅詩書，故明堂石室金匱玉版圖籍散亂。於是漢興，蕭何次律令，韓信申軍法，張蒼為章程，叔孫通定禮儀，則文學彬彬稍進，詩書往往閒出矣。自曹參薦蓋公言黃老，而賈生、晁錯明申、商，公孫弘以儒顯，百年之閒，天下遺文古事靡不畢集太史公。太史公仍父子相續纂其職。曰：「於戲！余維先人嘗掌斯事，顯於唐虞，至于周，復典之，故司馬氏世主天官。至於余乎，欽念哉！欽念哉！」罔羅天下放失舊聞，王跡所興，原始察終，見盛觀衰，論考之行事，略推三代，錄秦漢，上記軒轅，下至于茲，著十二本紀，既科條之矣。并時異世，年差不明，作十表。禮樂損益，律歷改易，兵權山川鬼神，天人之際，承敝通變，作八書。二十八宿環北辰，三十輻共一轂，運行無窮，輔拂股肱之臣配焉，忠信行道，以奉主上，作三十世家。扶義俶儻，不令己失時，立功名於天下，作七十列傳。凡百三十篇，五十二萬六千五百字，為太史公書。序略，以拾遺補闕，成一家之言，厥協六經異傳，整齊百家雜語，藏之名山，副在京師，俟後世聖人君子。第七十。",
+          "text_sha256": "3f6f9402a2570cd840a3f61a7eead668d4e48894364f8e95daf1416029c084fc",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-012-wudi",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-012",
+            "source_id": "s-shiji-012-wudi"
+          },
+          "source": {
+            "title": "史記／卷012",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷012",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+            "revision_id": 8733061,
+            "accessed_on": "2026-10-09",
+            "extent": "本篇52個p區塊，自孝武皇帝者至太史公論贊；排除導覽dd、索隱述贊、現代版權告示及style／script樣式程式內容。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
+              "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
+            }
+          },
+          "paragraph_id": "c-shiji-012-wudi:p031",
+          "text": "四月，還至奉高。上念諸儒及方士言封禪人人殊，不經，難施行。天子至梁父，禮祠地主。乙卯，令侍中儒者皮弁薦紳，射牛行事。封泰山下東方，如郊祠泰一之禮。封廣丈二尺，高九尺，其下則有玉牒書，書祕。禮畢，天子獨與侍中奉車子侯上泰山，亦有封。其事皆禁。明日，下陰道。丙辰，禪泰山下阯東北肅然山，如祭后土禮。天子皆親拜見，衣上黃而盡用樂焉。江淮閒一茅三脊為神藉。五色土益雜封。縱遠方奇獸蜚禽及白雉諸物，頗以加祠。兕旄牛犀象之屬弗用。皆至泰山然後去。封禪祠，其夜若有光，晝有白雲起封中。",
+          "text_sha256": "3989a91c5b7b7950a5164d03fffbf7e1e95b2e35ff605abac13813a8e0fc29b9",
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "當世漢天子封泰山禪肅然同事件；012傳首另明武帝。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m006-0002",
+            "c-shiji-130-taishigong:m006-0106",
+            "c-shiji-130-taishigong:m010-0045",
+            "c-shiji-130-taishigong:m011-0091",
+            "c-shiji-130-taishigong:m024-0032",
+            "c-shiji-130-taishigong:m142-0342"
+          ],
+          "metadata": {
+            "label": "天子（封泰山）（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "6db47bf6ff7f539372a5c21c268db9ab113617656ebaf8cfdc37d9520ab9ba28",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-10",
+      "person_id": "fp6_ia6_7yw",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m005-0062",
+        "c-shiji-130-taishigong:m006-0248",
+        "c-shiji-130-taishigong:m008-0021",
+        "c-shiji-130-taishigong:m008-0024",
+        "c-shiji-130-taishigong:m009-0009",
+        "c-shiji-130-taishigong:m009-0038",
+        "c-shiji-130-taishigong:m009-0055",
+        "c-shiji-130-taishigong:m010-0005",
+        "c-shiji-130-taishigong:m012-0086",
+        "c-shiji-130-taishigong:m059-0010",
+        "c-shiji-130-taishigong:m059-0059",
+        "c-shiji-130-taishigong:m079-0000",
+        "c-shiji-130-taishigong:m079-0021",
+        "c-shiji-130-taishigong:m133-0001"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p005",
+          "text": "遷生龍門，耕牧河山之陽。年十歲則誦古文。二十而南游江、淮，上會稽，探禹穴，闚九疑，浮於沅、湘；北涉汶、泗，講業齊、魯之都，觀孔子之遺風，鄉射鄒、嶧；戹困鄱、薛、彭城，過梁、楚以歸。於是遷仕為郎中，奉使西征巴、蜀以南，南略邛、笮、昆明，還報命。",
+          "text_sha256": "7b753bdef2dd821c4408f0953e28f86709a036495a1d554fc34e2d63306e4019",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p006",
+          "text": "是歲天子始建漢家之封，而太史公留滯周南，不得與從事，故發憤且卒。而子遷適使反，見父於河洛之閒。太史公執遷手而泣曰：「余先周室之太史也。自上世嘗顯功名於虞夏，典天官事。後世中衰，絕於予乎？汝復為太史，則續吾祖矣。今天子接千歲之統，封泰山，而余不得從行，是命也夫，命也夫！余死，汝必為太史；為太史，無忘吾所欲論著矣。且夫孝始於事親，中於事君，終於立身。揚名於後世，以顯父母，此孝之大者。夫天下稱誦周公，言其能論歌文武之德，宣周邵之風，達太王王季之思慮，爰及公劉，以尊后稷也。幽厲之後，王道缺，禮樂衰，孔子修舊起廢，論詩書，作春秋，則學者至今則之。自獲麟以來四百有餘歲，而諸侯相兼，史記放絕。今漢興，海內一統，明主賢君忠臣死義之士，余為太史而弗論載，廢天下之史文，余甚懼焉，汝其念哉！」遷俯首流涕曰：「小子不敏，請悉論先人所次舊聞，弗敢闕。」",
+          "text_sha256": "5d976311f53a1fe723ab72b1a7fde6d007f992480bbcd59c254f764933534573",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p008",
+          "text": "太史公曰：「先人有言：『自周公卒五百歲而有孔子。孔子卒後至於今五百歲，有能紹明世，正易傳，繼春秋，本詩書禮樂之際？』意在斯乎！意在斯乎！小子何敢讓焉。」",
+          "text_sha256": "ed195f42d2c123f47211311a579dfe6ba218450ee7d8c21b23ee1fdea2f5ca99",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p009",
+          "text": "上大夫壺遂曰：「昔孔子何為而作春秋哉？」太史公曰：「余聞董生曰：『周道衰廢，孔子為魯司寇，諸侯害之，大夫壅之。孔子知言之不用，道之不行也，是非二百四十二年之中，以為天下儀表，貶天子，退諸侯，討大夫，以達王事而已矣。』子曰：『我欲載之空言，不如見之於行事之深切著明也。』夫春秋，上明三王之道，下辨人事之紀，別嫌疑，明是非，定猶豫，善善惡惡，賢賢賤不肖，存亡國，繼絕世，補敝起廢，王道之大者也。易著天地陰陽四時五行，故長於變；禮經紀人倫，故長於行；書記先王之事，故長於政；詩記山川谿谷禽獸草木牝牡雌雄，故長於風；樂樂所以立，故長於和；春秋辯是非，故長於治人。是故禮以節人，樂以發和，書以道事，詩以達意，易以道化，春秋以道義。撥亂世反之正，莫近於春秋。春秋文成數萬，其指數千。萬物之散聚皆在春秋。春秋之中，弒君三十六，亡國五十二，諸侯奔走不得保其社稷者不可勝數。察其所以，皆失其本已。故易曰『失之豪釐，差以千里』。故曰『臣弒君，子弒父，非一旦一夕之故也，其漸久矣』。故有國者不可以不知春秋，前有讒而弗見，後有賊而不知。為人臣者不可以不知春秋，守經事而不知其宜，遭變事而不知其權。為人君父而不通於春秋之義者，必蒙首惡之名。為人臣子而不通於春秋之義者，必陷篡弒之誅，死罪之名。其實皆以為善，為之不知其義，被之空言而不敢辭。夫不通禮義之旨，至於君不君，臣不臣，父不父，子不子。夫君不君則犯，臣不臣則誅，父不父則無道，子不子則不孝。此四行者，天下之大過也。以天下之大過予之，則受而弗敢辭。故春秋者，禮義之大宗也。夫禮禁未然之前，法施已然之後；法之所為用者易見，而禮之所為禁者難知。」",
+          "text_sha256": "c21eb298a1cc094680bd81c5643bd9582b4f628af80fdd5d0a56e8a76b2d0805",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p010",
+          "text": "壺遂曰：「孔子之時，上無明君，下不得任用，故作春秋，垂空文以斷禮義，當一王之法。今夫子上遇明天子，下得守職，萬事既具，咸各序其宜，夫子所論，欲以何明？」",
+          "text_sha256": "924c80903bbe28f5523f917e31b4e21411de2f8ab6017b7263f3a7cfc86c551b",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p012",
+          "text": "於是論次其文。七年而太史公遭李陵之禍，幽於縲紲。乃喟然而嘆曰：「是余之罪也夫！是余之罪也夫！身毀不用矣。」退而深惟曰：「夫詩書隱約者，欲遂其志之思也。昔西伯拘羑里，演周易；孔子戹陳蔡，作春秋；屈原放逐，著離騷；左丘失明，厥有國語；孫子臏腳，而論兵法；不韋遷蜀，世傳呂覽；韓非囚秦，說難、孤憤；詩三百篇，大抵賢聖發憤之所為作也。此人皆意有所郁結，不得通其道也，故述往事，思來者。」於是卒述陶唐以來，至于麟止，自黃帝始。",
+          "text_sha256": "8f480a15bee7210ceee24fb8641d0dc173073236af6a097ea138fdc8b9753d14",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p059",
+          "text": "周室既衰，諸侯恣行。仲尼悼禮廢樂崩，追修經術，以達王道，匡亂世反之於正，見其文辭，為天下制儀法，垂六藝之統紀於後世。作孔子世家第十七。",
+          "text_sha256": "962324e7a8767371c18077579cb21447c54ab4c3177451d1071dfe110147c1e2",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p079",
+          "text": "孔氏述文，弟子興業，咸為師傅，崇仁厲義。作仲尼弟子列傳第七。",
+          "text_sha256": "24cc256435abe23882f7f0cb231cca4e0ad7c4816c5b69602d4107808f0d96e0",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p133",
+          "text": "自孔子卒，京師莫崇庠序，唯建元元狩之閒，文辭粲如也。作儒林列傳第六十一。",
+          "text_sha256": "7ece0024e2d3ccf1a29d141bff9637c565fd56844c4bb0c0932ccd4e9355e4fa",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-047-kong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-047",
+            "source_id": "s-shiji-047-kong"
+          },
+          "source": {
+            "title": "史記／卷047",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷047",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷047&oldid=7903609",
+            "revision_id": 7903609,
+            "accessed_on": "2026-10-09",
+            "extent": "85段正文及1段索隱述贊，後者分層；排除2個dd導覽與現代分節標題，只去除段落外緣空白。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
+              "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
+            }
+          },
+          "paragraph_id": "c-shiji-047-kong:p001",
+          "text": "孔子生魯昌平鄉陬邑。其先宋人也，曰孔防叔。防叔生伯夏，伯夏生叔梁紇。紇與顏氏女野合而生孔子，禱於尼丘得孔子。魯襄公二十二年而孔子生。生而首上圩頂，故因名曰丘云。字仲尼，姓孔氏。",
+          "text_sha256": "e1d11056764cc586834df0a866f94a76eb57a333e6b3f93e83ee2fb773ee5aeb",
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "魯孔子春秋先師語境，傳首明孔氏丘字仲尼。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m005-0062",
+            "c-shiji-130-taishigong:m006-0248",
+            "c-shiji-130-taishigong:m008-0021",
+            "c-shiji-130-taishigong:m008-0024",
+            "c-shiji-130-taishigong:m009-0009",
+            "c-shiji-130-taishigong:m009-0038",
+            "c-shiji-130-taishigong:m009-0055",
+            "c-shiji-130-taishigong:m010-0005",
+            "c-shiji-130-taishigong:m012-0086",
+            "c-shiji-130-taishigong:m059-0010",
+            "c-shiji-130-taishigong:m059-0059",
+            "c-shiji-130-taishigong:m079-0000",
+            "c-shiji-130-taishigong:m079-0021",
+            "c-shiji-130-taishigong:m133-0001"
+          ],
+          "metadata": {
+            "label": "孔子（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "1135ff2efc8b28b3e0b42033877eeee87a5437782c9cf6ccf30a4868c8ccdabb",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-11",
+      "person_id": "2to_ofg_fuz",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m001-0002"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p001",
+          "text": "昔在顓頊，命南正重以司天，北正黎以司地。唐虞之際，紹重黎之後，使復典之，至于夏商，故重黎氏世序天地。其在周，程伯休甫其後也。當周宣王時，失其守而為司馬氏。司馬氏世典周史。惠襄之閒，司馬氏去周適晉。晉中軍隨會奔秦，而司馬氏入少梁。",
+          "text_sha256": "954c5bba2d5030139d8fb90540affda4e2433e6fedb35f5eb946d4ba39485a23",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-001-wudi",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-001",
+            "source_id": "s-shiji-001-wudi"
+          },
+          "source": {
+            "title": "史記／卷001",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷001",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634",
+            "revision_id": 7903634,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題、跨維基說明與校勘記",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及版本連結。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "弃": "棄",
+                "异": "異"
+              },
+              "note": "保留古代異體；移除現代註號，兩個簡體字形明記轉換。"
+            }
+          },
+          "paragraph_id": "c-shiji-001-wudi:p006",
+          "text": "帝顓頊高陽者，黃帝之孫而昌意之子也。靜淵以有謀，疏通而知事；養材以任地，載時以象天，依鬼神以制義，治氣以教化，絜誠以祭祀。北至于幽陵，南至于交阯，西至于流沙，東至于蟠木。動靜之物，大小之神，日月所照，莫不砥屬。",
+          "text_sha256": "35393bb852f33d79876dc41121d93d1cbc7a78525d844015d7b1754679a8de5c",
+          "text_layer": null
+        }
+      ],
+      "rationale": "五帝顓頊高陽、昌意子之傳統敘事，不因此合重黎祖系。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m001-0002"
+          ],
+          "metadata": {
+            "label": "顓頊（太史公自序候選）",
+            "status": "active",
+            "historicity": "legendary_tradition"
+          },
+          "original_registry_record_sha256": "3f30d1b85692a095afcd945d93d5f3ce0c10733c4c074cf03638d637d69d7a02",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-12",
+      "person_id": "8jz_o3s_obt",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m012-0204",
+        "c-shiji-130-taishigong:m013-0002",
+        "c-shiji-130-taishigong:m037-0010",
+        "c-shiji-130-taishigong:m142-0241",
+        "c-shiji-130-taishigong:m143-0008"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p012",
+          "text": "於是論次其文。七年而太史公遭李陵之禍，幽於縲紲。乃喟然而嘆曰：「是余之罪也夫！是余之罪也夫！身毀不用矣。」退而深惟曰：「夫詩書隱約者，欲遂其志之思也。昔西伯拘羑里，演周易；孔子戹陳蔡，作春秋；屈原放逐，著離騷；左丘失明，厥有國語；孫子臏腳，而論兵法；不韋遷蜀，世傳呂覽；韓非囚秦，說難、孤憤；詩三百篇，大抵賢聖發憤之所為作也。此人皆意有所郁結，不得通其道也，故述往事，思來者。」於是卒述陶唐以來，至于麟止，自黃帝始。",
+          "text_sha256": "8f480a15bee7210ceee24fb8641d0dc173073236af6a097ea138fdc8b9753d14",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p013",
+          "text": "維昔黃帝，法天則地，四聖遵序，各成法度；唐堯遜位，虞舜不臺；厥美帝功，萬世載之。作五帝本紀第一。",
+          "text_sha256": "7e3870d44ec4e7ff11c12872d71eb323d30ee172c0615574ba99285bc53e87a2",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p037",
+          "text": "非兵不彊，非德不昌，黃帝、湯、武以興，桀、紂、二世以崩，可不慎歟？司馬法所從來尚矣，太公、孫、吳、王子能紹而明之，切近世，極人變。作律書第三。",
+          "text_sha256": "f4939235d73311f7c318634d10cfb34800449be2db128edf2a4c6e2c8c1bce85",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p142",
+          "text": "維我漢繼五帝末流，接三代絕業。周道廢，秦撥去古文，焚滅詩書，故明堂石室金匱玉版圖籍散亂。於是漢興，蕭何次律令，韓信申軍法，張蒼為章程，叔孫通定禮儀，則文學彬彬稍進，詩書往往閒出矣。自曹參薦蓋公言黃老，而賈生、晁錯明申、商，公孫弘以儒顯，百年之閒，天下遺文古事靡不畢集太史公。太史公仍父子相續纂其職。曰：「於戲！余維先人嘗掌斯事，顯於唐虞，至于周，復典之，故司馬氏世主天官。至於余乎，欽念哉！欽念哉！」罔羅天下放失舊聞，王跡所興，原始察終，見盛觀衰，論考之行事，略推三代，錄秦漢，上記軒轅，下至于茲，著十二本紀，既科條之矣。并時異世，年差不明，作十表。禮樂損益，律歷改易，兵權山川鬼神，天人之際，承敝通變，作八書。二十八宿環北辰，三十輻共一轂，運行無窮，輔拂股肱之臣配焉，忠信行道，以奉主上，作三十世家。扶義俶儻，不令己失時，立功名於天下，作七十列傳。凡百三十篇，五十二萬六千五百字，為太史公書。序略，以拾遺補闕，成一家之言，厥協六經異傳，整齊百家雜語，藏之名山，副在京師，俟後世聖人君子。第七十。",
+          "text_sha256": "3f6f9402a2570cd840a3f61a7eead668d4e48894364f8e95daf1416029c084fc",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p143",
+          "text": "太史公曰：余述歷黃帝以來至太初而訖，百三十篇。",
+          "text_sha256": "f0c68463dd4e49ba25389cfa401bb0beb6b8d44b3f4e61a6e3291106b8a87f3d",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-001-wudi",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-001",
+            "source_id": "s-shiji-001-wudi"
+          },
+          "source": {
+            "title": "史記／卷001",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷001",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634",
+            "revision_id": 7903634,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題、跨維基說明與校勘記",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及版本連結。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "弃": "棄",
+                "异": "異"
+              },
+              "note": "保留古代異體；移除現代註號，兩個簡體字形明記轉換。"
+            }
+          },
+          "paragraph_id": "c-shiji-001-wudi:p001",
+          "text": "黃帝者，少典之子，姓公孫，名曰軒轅。生而神靈，弱而能言，幼而徇齊，長而敦敏，成而聰明。",
+          "text_sha256": "49d33fb0a54bbf0efe9f519de0135ddc1aa3188fa21cd51182b860004fbdeec9",
+          "text_layer": null
+        }
+      ],
+      "rationale": "五帝首黃帝軒轅傳統人物，不升為考古實證。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m012-0204",
+            "c-shiji-130-taishigong:m013-0002",
+            "c-shiji-130-taishigong:m037-0010",
+            "c-shiji-130-taishigong:m142-0241",
+            "c-shiji-130-taishigong:m143-0008"
+          ],
+          "metadata": {
+            "label": "黃帝（太史公自序候選）",
+            "status": "active",
+            "historicity": "legendary_tradition"
+          },
+          "original_registry_record_sha256": "00c2b09660acca078685ab2940c4157d7931389d0090bbd2823c03eca579f592",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-13",
+      "person_id": "oho_r3f_c6y",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m003-0608",
+        "c-shiji-130-taishigong:m011-0034",
+        "c-shiji-130-taishigong:m013-0020"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p003",
+          "text": "太史公學天官於唐都，受易於楊何，習道論於黃子。太史公仕於建元元封之閒，愍學者之不達其意而師悖，乃論六家之要指曰：\n《易大傳》：「天下一致而百慮，同歸而殊涂。」夫陰陽、儒、墨、名、法、道德，此務為治者也，直所從言之異路，有省不省耳。嘗竊觀陰陽之術，大祥而眾忌諱，使人拘而多所畏；然其序四時之大順，不可失也。儒者博而寡要，勞而少功，是以其事難盡從；然其序君臣父子之禮，列夫婦長幼之別，不可易也。墨者儉而難遵，是以其事不可遍循；然其彊本節用，不可廢也。法家嚴而少恩；然其正君臣上下之分，不可改矣。名家使人儉而善失真；然其正名實，不可不察也。道家使人精神專一，動合無形，贍足萬物。其為術也，因陰陽之大順，采儒墨之善，撮名法之要，與時遷移，應物變化，立俗施事，無所不宜，指約而易操，事少而功多。儒者則不然。以為人主天下之儀表也，主倡而臣和，主先而臣隨。如此則主勞而臣逸。至於大道之要，去健羨，絀聰明，釋此而任術。夫神大用則竭，形大勞則敝。形神騷動，欲與天地長久，非所聞也。\n夫陰陽四時、八位、十二度、二十四節各有教令，順之者昌，逆之者不死則亡，未必然也，故曰「使人拘而多畏」。夫春生夏長，秋收冬藏，此天道之大經也，弗順則無以為天下綱紀，故曰「四時之大順，不可失也」。\n夫儒者以六藝為法。六藝經傳以千萬數，累世不能通其學，當年不能究其禮，故曰「博而寡要，勞而少功」。若夫列君臣父子之禮，序夫婦長幼之別，雖百家弗能易也。\n墨者亦尚堯舜道，言其德行曰：「堂高三尺，土階三等，茅茨不翦，采椽不刮。食土簋，啜土刑，糲粱之食，藜霍之羹。夏日葛衣，冬日鹿裘。」其送死，桐棺三寸，舉音不盡其哀。教喪禮，必以此為萬民之率。使天下法若此，則尊卑無別也。夫世異時移，事業不必同，故曰「儉而難遵」。要曰彊本節用，則人給家足之道也。此墨子之所長，雖百長弗能廢也。\n法家不別親疏，不殊貴賤，一斷於法，則親親尊尊之恩絕矣。可以行一時之計，而不可長用也，故曰「嚴而少恩」。若尊主卑臣，明分職不得相踰越，雖百家弗能改也。\n名家苛察繳繞，使人不得反其意，專決於名而失人情，故曰「使人儉而善失真」。若夫控名責實，參伍不失，此不可不察也。\n道家無為，又曰無不為，其實易行，其辭難知。其術以虛無為本，以因循為用。無成埶，無常形，故能究萬物之情。不為物先，不為物後，故能為萬物主。有法無法，因時為業；有度無度，因物與合。故曰「聖人不朽，時變是守。虛者道之常也，因者君之綱」也。群臣并至，使各自明也。其實中其聲者謂之端，實不中其聲者謂之窾。窾言不聽，姦乃不生，賢不肖自分，白黑乃形。在所欲用耳，何事不成。乃合大道，混混冥冥。光燿天下，復反無名。凡人所生者神也，所讬者形也。神大用則竭，形大勞則敝，形神離則死。死者不可復生，離者不可復反，故聖人重之。由是觀之，神者生之本也，形者生之具也。不先定其神［形］，而曰「我有以治天下」，何由哉？",
+          "text_sha256": "cc9c406b555c2efef79f03e583cbb8eff18d01a0ab29ff1468adec28193580d3",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p011",
+          "text": "太史公曰：「唯唯，否否，不然。余聞之先人曰：『伏羲至純厚，作易八卦。堯舜之盛，尚書載之，禮樂作焉。湯武之隆，詩人歌之。春秋采善貶惡，推三代之德，褒周室，非獨刺譏而已也。』漢興以來，至明天子，獲符瑞，封禪，改正朔，易服色，受命於穆清，澤流罔極，海外殊俗，重譯款塞，請來獻見者，不可勝道。臣下百官力誦聖德，猶不能宣盡其意。且士賢能而不用，有國者之恥；主上明聖而德不布聞，有司之過也。且余嘗掌其官，廢明聖盛德不載，滅功臣世家賢大夫之業不述，墮先人所言，罪莫大焉。余所謂述故事，整齊其世傳，非所謂作也，而君比之於春秋，謬矣。」",
+          "text_sha256": "07a24c546a065b4521b222cd8c34688325c7ac6429f352e448a5b57a657984cc",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p013",
+          "text": "維昔黃帝，法天則地，四聖遵序，各成法度；唐堯遜位，虞舜不臺；厥美帝功，萬世載之。作五帝本紀第一。",
+          "text_sha256": "7e3870d44ec4e7ff11c12872d71eb323d30ee172c0615574ba99285bc53e87a2",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-001-wudi",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-001",
+            "source_id": "s-shiji-001-wudi"
+          },
+          "source": {
+            "title": "史記／卷001",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷001",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634",
+            "revision_id": 7903634,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題、跨維基說明與校勘記",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及版本連結。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "弃": "棄",
+                "异": "異"
+              },
+              "note": "保留古代異體；移除現代註號，兩個簡體字形明記轉換。"
+            }
+          },
+          "paragraph_id": "c-shiji-001-wudi:p011",
+          "text": "帝堯者，放勳。其仁如天，其知如神。就之如日，望之如雲。富而不驕，貴而不舒。黃收純衣，彤車乘白馬。能明馴德，以親九族。九族既睦，便章百姓。百姓昭明，合和萬國。",
+          "text_sha256": "e46f4b053c1a1a940e9b3ad5f0eb8c02902a5369ed3e7f3292370a15477ec3ba",
+          "text_layer": null
+        }
+      ],
+      "rationale": "唐堯虞舜相續，明帝堯放勳；不接趙堯。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m003-0608",
+            "c-shiji-130-taishigong:m011-0034",
+            "c-shiji-130-taishigong:m013-0020"
+          ],
+          "metadata": {
+            "label": "堯（太史公自序候選）",
+            "status": "active",
+            "historicity": "legendary_tradition"
+          },
+          "original_registry_record_sha256": "27a328de2eec358ad357499e202fd850b450b525bc3188c991716853fd6ee975",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-14",
+      "person_id": "ddb_l4j_4j2",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m003-0609",
+        "c-shiji-130-taishigong:m011-0035",
+        "c-shiji-130-taishigong:m013-0025",
+        "c-shiji-130-taishigong:m048-0005",
+        "c-shiji-130-taishigong:m048-0040"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p003",
+          "text": "太史公學天官於唐都，受易於楊何，習道論於黃子。太史公仕於建元元封之閒，愍學者之不達其意而師悖，乃論六家之要指曰：\n《易大傳》：「天下一致而百慮，同歸而殊涂。」夫陰陽、儒、墨、名、法、道德，此務為治者也，直所從言之異路，有省不省耳。嘗竊觀陰陽之術，大祥而眾忌諱，使人拘而多所畏；然其序四時之大順，不可失也。儒者博而寡要，勞而少功，是以其事難盡從；然其序君臣父子之禮，列夫婦長幼之別，不可易也。墨者儉而難遵，是以其事不可遍循；然其彊本節用，不可廢也。法家嚴而少恩；然其正君臣上下之分，不可改矣。名家使人儉而善失真；然其正名實，不可不察也。道家使人精神專一，動合無形，贍足萬物。其為術也，因陰陽之大順，采儒墨之善，撮名法之要，與時遷移，應物變化，立俗施事，無所不宜，指約而易操，事少而功多。儒者則不然。以為人主天下之儀表也，主倡而臣和，主先而臣隨。如此則主勞而臣逸。至於大道之要，去健羨，絀聰明，釋此而任術。夫神大用則竭，形大勞則敝。形神騷動，欲與天地長久，非所聞也。\n夫陰陽四時、八位、十二度、二十四節各有教令，順之者昌，逆之者不死則亡，未必然也，故曰「使人拘而多畏」。夫春生夏長，秋收冬藏，此天道之大經也，弗順則無以為天下綱紀，故曰「四時之大順，不可失也」。\n夫儒者以六藝為法。六藝經傳以千萬數，累世不能通其學，當年不能究其禮，故曰「博而寡要，勞而少功」。若夫列君臣父子之禮，序夫婦長幼之別，雖百家弗能易也。\n墨者亦尚堯舜道，言其德行曰：「堂高三尺，土階三等，茅茨不翦，采椽不刮。食土簋，啜土刑，糲粱之食，藜霍之羹。夏日葛衣，冬日鹿裘。」其送死，桐棺三寸，舉音不盡其哀。教喪禮，必以此為萬民之率。使天下法若此，則尊卑無別也。夫世異時移，事業不必同，故曰「儉而難遵」。要曰彊本節用，則人給家足之道也。此墨子之所長，雖百長弗能廢也。\n法家不別親疏，不殊貴賤，一斷於法，則親親尊尊之恩絕矣。可以行一時之計，而不可長用也，故曰「嚴而少恩」。若尊主卑臣，明分職不得相踰越，雖百家弗能改也。\n名家苛察繳繞，使人不得反其意，專決於名而失人情，故曰「使人儉而善失真」。若夫控名責實，參伍不失，此不可不察也。\n道家無為，又曰無不為，其實易行，其辭難知。其術以虛無為本，以因循為用。無成埶，無常形，故能究萬物之情。不為物先，不為物後，故能為萬物主。有法無法，因時為業；有度無度，因物與合。故曰「聖人不朽，時變是守。虛者道之常也，因者君之綱」也。群臣并至，使各自明也。其實中其聲者謂之端，實不中其聲者謂之窾。窾言不聽，姦乃不生，賢不肖自分，白黑乃形。在所欲用耳，何事不成。乃合大道，混混冥冥。光燿天下，復反無名。凡人所生者神也，所讬者形也。神大用則竭，形大勞則敝，形神離則死。死者不可復生，離者不可復反，故聖人重之。由是觀之，神者生之本也，形者生之具也。不先定其神［形］，而曰「我有以治天下」，何由哉？",
+          "text_sha256": "cc9c406b555c2efef79f03e583cbb8eff18d01a0ab29ff1468adec28193580d3",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p011",
+          "text": "太史公曰：「唯唯，否否，不然。余聞之先人曰：『伏羲至純厚，作易八卦。堯舜之盛，尚書載之，禮樂作焉。湯武之隆，詩人歌之。春秋采善貶惡，推三代之德，褒周室，非獨刺譏而已也。』漢興以來，至明天子，獲符瑞，封禪，改正朔，易服色，受命於穆清，澤流罔極，海外殊俗，重譯款塞，請來獻見者，不可勝道。臣下百官力誦聖德，猶不能宣盡其意。且士賢能而不用，有國者之恥；主上明聖而德不布聞，有司之過也。且余嘗掌其官，廢明聖盛德不載，滅功臣世家賢大夫之業不述，墮先人所言，罪莫大焉。余所謂述故事，整齊其世傳，非所謂作也，而君比之於春秋，謬矣。」",
+          "text_sha256": "07a24c546a065b4521b222cd8c34688325c7ac6429f352e448a5b57a657984cc",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p013",
+          "text": "維昔黃帝，法天則地，四聖遵序，各成法度；唐堯遜位，虞舜不臺；厥美帝功，萬世載之。作五帝本紀第一。",
+          "text_sha256": "7e3870d44ec4e7ff11c12872d71eb323d30ee172c0615574ba99285bc53e87a2",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p048",
+          "text": "王后不絕，舜禹是說；維德休明，苗裔蒙烈。百世享祀，爰周陳杞，楚實滅之。齊田既起，舜何人哉？作陳杞世家第六。",
+          "text_sha256": "1162ef3e4a21a412c52cea51ac8e6ac0c8ba4942f9c98d391769a74dd3ec3191",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-001-wudi",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-001",
+            "source_id": "s-shiji-001-wudi"
+          },
+          "source": {
+            "title": "史記／卷001",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷001",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634",
+            "revision_id": 7903634,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題、跨維基說明與校勘記",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及版本連結。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "弃": "棄",
+                "异": "異"
+              },
+              "note": "保留古代異體；移除現代註號，兩個簡體字形明記轉換。"
+            }
+          },
+          "paragraph_id": "c-shiji-001-wudi:p018",
+          "text": "虞舜者，名曰重華。重華父曰瞽叟，瞽叟父曰橋牛，橋牛父曰句望，句望父曰敬康，敬康父曰窮蟬，窮蟬父曰帝顓頊，顓頊父曰昌意：以至舜七世矣。自從窮蟬以至帝舜，皆微爲庶人。",
+          "text_sha256": "6e3675295df234fa951962e7658507ca4f81cc0808e99ff8c255c56aefefd80b",
+          "text_layer": null
+        }
+      ],
+      "rationale": "虞舜明重華的古帝，不接漢景帝子舜。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m003-0609",
+            "c-shiji-130-taishigong:m011-0035",
+            "c-shiji-130-taishigong:m013-0025",
+            "c-shiji-130-taishigong:m048-0005",
+            "c-shiji-130-taishigong:m048-0040"
+          ],
+          "metadata": {
+            "label": "舜（太史公自序候選）",
+            "status": "active",
+            "historicity": "legendary_tradition"
+          },
+          "original_registry_record_sha256": "bbb46443abdc212130f63f0d0d74733127fb6d6172095cfa01600ac901dc24a3",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-15",
+      "person_id": "6ip_dr3_fbl",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m014-0001",
+        "c-shiji-130-taishigong:m017-0008",
+        "c-shiji-130-taishigong:m041-0001",
+        "c-shiji-130-taishigong:m048-0006",
+        "c-shiji-130-taishigong:m053-0026"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p014",
+          "text": "維禹之功，九州攸同，光唐虞際，德流苗裔；夏桀淫驕，乃放鳴條。作夏本紀第二。",
+          "text_sha256": "e0ca381d6c997fe817584b2219ffc801a86c7e46d9fc53870a868fa0af2968a5",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p017",
+          "text": "維秦之先，伯翳佐禹；穆公思義，悼豪之旅；以人為殉，詩歌黃鳥；昭襄業帝。作秦本紀第五。",
+          "text_sha256": "52a3578044b8ab20712ec78fe06d311584e42551cdb7808546dd9e874ee3a102",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p041",
+          "text": "維禹浚川，九州攸寧；爰及宣防，決瀆通溝。作河渠書第七。",
+          "text_sha256": "6665d07c6d66cf07ffd720b8c3acc1aabf009d048d2ef411e6c7d256c3d253da",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p048",
+          "text": "王后不絕，舜禹是說；維德休明，苗裔蒙烈。百世享祀，爰周陳杞，楚實滅之。齊田既起，舜何人哉？作陳杞世家第六。",
+          "text_sha256": "1162ef3e4a21a412c52cea51ac8e6ac0c8ba4942f9c98d391769a74dd3ec3191",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p053",
+          "text": "少康之子，實賓南海，文身斷髮，黿鱓與處，既守封禺，奉禹之祀。句踐困彼，乃用種、蠡。嘉句踐夷蠻能修其德，滅彊吳以尊周室，作越王句踐世家第十一。",
+          "text_sha256": "da5ab5bc8d01c4aa3915be0a4cf1dd981f4a37e1786c05e47ac73a3a48b3ded8",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-002-xia",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-002",
+            "source_id": "s-shiji-002-xia"
+          },
+          "source": {
+            "title": "史記／卷002",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷002",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612",
+            "revision_id": 7903612,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題、跨維基說明及校勘記",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "内": "內"
+              },
+              "note": "僅轉換內字字形，保留啓、荆、惪、辠等異體；移除現代註號。"
+            }
+          },
+          "paragraph_id": "c-shiji-002-xia:p001",
+          "text": "夏禹，名曰文命。禹之父曰鯀，鯀之父曰帝顓頊，顓頊之父曰昌意，昌意之父曰黃帝。禹者，黃帝之玄孫而帝顓頊之孫也。禹之曾大父昌意及父鯀皆不得在帝位，爲人臣。",
+          "text_sha256": "f5081589f48982255dc882032e6841e4ce6c1659fdabba4990ca868329b5b3c1",
+          "text_layer": null
+        }
+      ],
+      "rationale": "夏禹治水與夏本紀提要，明禹文命；不接趙禹。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m014-0001",
+            "c-shiji-130-taishigong:m017-0008",
+            "c-shiji-130-taishigong:m041-0001",
+            "c-shiji-130-taishigong:m048-0006",
+            "c-shiji-130-taishigong:m053-0026"
+          ],
+          "metadata": {
+            "label": "禹（太史公自序候選）",
+            "status": "active",
+            "historicity": "legendary_tradition"
+          },
+          "original_registry_record_sha256": "1af1386bda659cd82a23d04c94443044bac6a8f5a46412303a50a00931d5bc51",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-16",
+      "person_id": "65f_dvi_ljt",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m014-0020",
+        "c-shiji-130-taishigong:m037-0019",
+        "c-shiji-130-taishigong:m060-0000"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p014",
+          "text": "維禹之功，九州攸同，光唐虞際，德流苗裔；夏桀淫驕，乃放鳴條。作夏本紀第二。",
+          "text_sha256": "e0ca381d6c997fe817584b2219ffc801a86c7e46d9fc53870a868fa0af2968a5",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p037",
+          "text": "非兵不彊，非德不昌，黃帝、湯、武以興，桀、紂、二世以崩，可不慎歟？司馬法所從來尚矣，太公、孫、吳、王子能紹而明之，切近世，極人變。作律書第三。",
+          "text_sha256": "f4939235d73311f7c318634d10cfb34800449be2db128edf2a4c6e2c8c1bce85",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p060",
+          "text": "桀、紂失其道而湯、武作，周失其道而春秋作。秦失其政，而陳涉發跡，諸侯作難，風起雲蒸，卒亡秦族。天下之端，自涉發難。作陳涉世家第十八。",
+          "text_sha256": "01c5b90656b1f864319bc0dfc9c42b531ded0dd1117ae446d38833d7f9aa0a79",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-002-xia",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-002",
+            "source_id": "s-shiji-002-xia"
+          },
+          "source": {
+            "title": "史記／卷002",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷002",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612",
+            "revision_id": 7903612,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題、跨維基說明及校勘記",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "内": "內"
+              },
+              "note": "僅轉換內字字形，保留啓、荆、惪、辠等異體；移除現代註號。"
+            }
+          },
+          "paragraph_id": "c-shiji-002-xia:p034",
+          "text": "孔甲崩，子帝皋立。帝皋崩，子帝發立。帝發崩，子帝履癸立，是爲桀。帝桀之時，自孔甲以來而諸侯多畔夏，桀不務德而武傷百姓，百姓弗堪。迺召湯而囚之夏臺，已而釋之。湯修德，諸侯皆歸湯，湯遂率兵以伐夏桀。桀走鳴條，遂放而死。桀謂人曰：「吾悔不遂殺湯於夏臺，使至此。」湯乃踐天子位，代夏朝天下。湯封夏之後，至周封於杞也。",
+          "text_sha256": "cee1445bca86a9e40187f07f4783fa4b2616e9c94fedce0abd5ae1654479d3c6",
+          "text_layer": null
+        }
+      ],
+      "rationale": "湯所伐放鳴條之夏桀，明履癸即桀；不接上官桀。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m014-0020",
+            "c-shiji-130-taishigong:m037-0019",
+            "c-shiji-130-taishigong:m060-0000"
+          ],
+          "metadata": {
+            "label": "桀（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "55d899f74ad4e4f4c8091b8d0006ab888c44705333beb31294948d91445ee634",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-17",
+      "person_id": "ea8_yum_lvj",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m015-0001"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p015",
+          "text": "維契作商，爰及成湯；太甲居桐，德盛阿衡；武丁得說，乃稱高宗；帝辛湛湎，諸侯不享。作殷本紀第三。",
+          "text_sha256": "c2d67874bff61f25025c97abe22158145316506d57f45150aa7a37848da1d2c2",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-003-yin",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-003",
+            "source_id": "s-shiji-003-yin"
+          },
+          "source": {
+            "title": "史記／卷003",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷003",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
+            "revision_id": 7909145,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題與註號。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "弃": "棄"
+              },
+              "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
+            }
+          },
+          "paragraph_id": "c-shiji-003-yin:p001",
+          "text": "殷契，母曰簡狄，有娀氏之女，為帝嚳次妃。三人行浴，見玄鳥墮其卵，簡狄取吞之，因孕生契。契長而佐禹治水有功。帝舜乃命契曰：「百姓不親，五品不訓，汝為司徒而敬敷五教，五教在寬。」封于商，賜姓子氏。契興於唐、虞、大禹之際，功業著於百姓，百姓以平。",
+          "text_sha256": "d3dceb039a87df6286a6b58bc1cfc40a0f394dde735f7814e320af5ca037550b",
+          "text_layer": null
+        }
+      ],
+      "rationale": "殷契佐禹治水、唐虞際與商祖系明文。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m015-0001"
+          ],
+          "metadata": {
+            "label": "契（太史公自序候選）",
+            "status": "active",
+            "historicity": "legendary_tradition"
+          },
+          "original_registry_record_sha256": "a40e83ca66b16b504b5217e03ae5847c6612fd030e492acda05f63c8b83c8af4",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-18",
+      "person_id": "tpz_x3m_e0h",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m015-0007",
+        "c-shiji-130-taishigong:m037-0013",
+        "c-shiji-130-taishigong:m060-0007"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p015",
+          "text": "維契作商，爰及成湯；太甲居桐，德盛阿衡；武丁得說，乃稱高宗；帝辛湛湎，諸侯不享。作殷本紀第三。",
+          "text_sha256": "c2d67874bff61f25025c97abe22158145316506d57f45150aa7a37848da1d2c2",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p037",
+          "text": "非兵不彊，非德不昌，黃帝、湯、武以興，桀、紂、二世以崩，可不慎歟？司馬法所從來尚矣，太公、孫、吳、王子能紹而明之，切近世，極人變。作律書第三。",
+          "text_sha256": "f4939235d73311f7c318634d10cfb34800449be2db128edf2a4c6e2c8c1bce85",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p060",
+          "text": "桀、紂失其道而湯、武作，周失其道而春秋作。秦失其政，而陳涉發跡，諸侯作難，風起雲蒸，卒亡秦族。天下之端，自涉發難。作陳涉世家第十八。",
+          "text_sha256": "01c5b90656b1f864319bc0dfc9c42b531ded0dd1117ae446d38833d7f9aa0a79",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-003-yin",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-003",
+            "source_id": "s-shiji-003-yin"
+          },
+          "source": {
+            "title": "史記／卷003",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷003",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
+            "revision_id": 7909145,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題與註號。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "弃": "棄"
+              },
+              "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
+            }
+          },
+          "paragraph_id": "c-shiji-003-yin:p002",
+          "text": "契卒，子昭明立。昭明卒，子相土立。相土卒，子昌若立。昌若卒，子曹圉立。曹圉卒，子冥立。冥卒，子振立。振卒，子微立。微卒，子報丁立。報丁卒，子報乙立。報乙卒，子報丙立。報丙卒，子主壬立。主壬卒，子主癸立。主癸卒，子天乙立，是為成湯。",
+          "text_sha256": "130f41edd41bb4bd16559fea7c1ee1de86b2d212cd270be19d17422cb4faf0bc",
+          "text_layer": null
+        }
+      ],
+      "rationale": "成湯與殷興、湯武語境，明天乙是成湯；不接張湯。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m015-0007",
+            "c-shiji-130-taishigong:m037-0013",
+            "c-shiji-130-taishigong:m060-0007"
+          ],
+          "metadata": {
+            "label": "湯（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "6bc8f38b7533cbb477ed206a4b113601ab6f47d74c1d1a0fa6e1b8864ddb8b10",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-19",
+      "person_id": "2qj_hw4_si9",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m015-0010"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p015",
+          "text": "維契作商，爰及成湯；太甲居桐，德盛阿衡；武丁得說，乃稱高宗；帝辛湛湎，諸侯不享。作殷本紀第三。",
+          "text_sha256": "c2d67874bff61f25025c97abe22158145316506d57f45150aa7a37848da1d2c2",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-003-yin",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-003",
+            "source_id": "s-shiji-003-yin"
+          },
+          "source": {
+            "title": "史記／卷003",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷003",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
+            "revision_id": 7909145,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題與註號。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "弃": "棄"
+              },
+              "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
+            }
+          },
+          "paragraph_id": "c-shiji-003-yin:p011",
+          "text": "湯崩，太子太丁未立而卒，於是迺立太丁之弟外丙，是為帝外丙。帝外丙即位三年，崩，立外丙之弟中壬，是為帝中壬。帝中壬即位四年，崩，伊尹迺立太丁之子太甲。太甲，成湯適長孫也，是為帝太甲。帝太甲元年，伊尹作伊訓，作肆命，作徂后。",
+          "text_sha256": "13f2515b33a2c782fd1e936c773b06f375984c13b43bb565528de2f5991da5af",
+          "text_layer": null
+        }
+      ],
+      "rationale": "太甲阿衡相承，明湯適長孫太甲及伊尹桐宮復政。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m015-0010"
+          ],
+          "metadata": {
+            "label": "太甲（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "efa91d6fdde2a3f296d575123ef21b335dc2928784f38ae49c0903f71e1a7f8d",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-20",
+      "person_id": "itn_zi2_il4",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m015-0017"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p015",
+          "text": "維契作商，爰及成湯；太甲居桐，德盛阿衡；武丁得說，乃稱高宗；帝辛湛湎，諸侯不享。作殷本紀第三。",
+          "text_sha256": "c2d67874bff61f25025c97abe22158145316506d57f45150aa7a37848da1d2c2",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-003-yin",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-003",
+            "source_id": "s-shiji-003-yin"
+          },
+          "source": {
+            "title": "史記／卷003",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷003",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
+            "revision_id": 7909145,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題與註號。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "弃": "棄"
+              },
+              "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
+            }
+          },
+          "paragraph_id": "c-shiji-003-yin:p005",
+          "text": "伊尹名阿衡。阿衡欲奸湯而無由，乃為有莘氏媵臣，負鼎俎，以滋味說湯，致于王道。或曰，伊尹處士，湯使人聘迎之，五反，然後肯往從湯，言素王及九主之事。湯舉任以國政。伊尹去湯適夏。既醜有夏，復歸于亳。入自北門，遇女鳩、女房，作女鳩女房。",
+          "text_sha256": "61346258bde23e7f0618dbbff510bcc522e54dadfe05cdeaf37801dfb13dfc61",
+          "text_layer": null
+        }
+      ],
+      "rationale": "原文明伊尹名阿衡；太甲受輔相合，不泛接相官。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m015-0017"
+          ],
+          "metadata": {
+            "label": "阿衡（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "25b489df91360b7ba4951c5d4d8f5af82b24219da2a97e0bb32ec8d3b5651c86",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-21",
+      "person_id": "cld_aan_e20",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m015-0020",
+        "c-shiji-130-taishigong:m015-0027"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p015",
+          "text": "維契作商，爰及成湯；太甲居桐，德盛阿衡；武丁得說，乃稱高宗；帝辛湛湎，諸侯不享。作殷本紀第三。",
+          "text_sha256": "c2d67874bff61f25025c97abe22158145316506d57f45150aa7a37848da1d2c2",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-003-yin",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-003",
+            "source_id": "s-shiji-003-yin"
+          },
+          "source": {
+            "title": "史記／卷003",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷003",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
+            "revision_id": 7909145,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題與註號。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "弃": "棄"
+              },
+              "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
+            }
+          },
+          "paragraph_id": "c-shiji-003-yin:p021",
+          "text": "帝小乙崩，子帝武丁立。帝武丁即位，思復興殷，而未得其佐。三年不言，政事決定於冢宰，以觀國風。武丁夜夢得聖人，名曰說。以夢所見視群臣百吏，皆非也。於是迺使百工營求之野，得說於傅險中。是時說為胥靡，筑於傅險。見於武丁，武丁曰是也。得而與之語，果聖人，舉以為相，殷國大治。故遂以傅險姓之，號曰傅說。",
+          "text_sha256": "d10f0f7e1f541ea604bc4f3d125b951d4e287c8e116bc5bb90d0e3126881a3ff",
+          "text_layer": null
+        }
+      ],
+      "rationale": "武丁夢說得說相殷同事件，不接齊明帝高宗。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m015-0020",
+            "c-shiji-130-taishigong:m015-0027"
+          ],
+          "metadata": {
+            "label": "武丁（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "08dc517ae76c798ea71ff7c08db51a34995589674bff7734c35b562434b15601",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-22",
+      "person_id": "p77_x5q_v4n",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m015-0023"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p015",
+          "text": "維契作商，爰及成湯；太甲居桐，德盛阿衡；武丁得說，乃稱高宗；帝辛湛湎，諸侯不享。作殷本紀第三。",
+          "text_sha256": "c2d67874bff61f25025c97abe22158145316506d57f45150aa7a37848da1d2c2",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-003-yin",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-003",
+            "source_id": "s-shiji-003-yin"
+          },
+          "source": {
+            "title": "史記／卷003",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷003",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
+            "revision_id": 7909145,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題與註號。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "弃": "棄"
+              },
+              "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
+            }
+          },
+          "paragraph_id": "c-shiji-003-yin:p021",
+          "text": "帝小乙崩，子帝武丁立。帝武丁即位，思復興殷，而未得其佐。三年不言，政事決定於冢宰，以觀國風。武丁夜夢得聖人，名曰說。以夢所見視群臣百吏，皆非也。於是迺使百工營求之野，得說於傅險中。是時說為胥靡，筑於傅險。見於武丁，武丁曰是也。得而與之語，果聖人，舉以為相，殷國大治。故遂以傅險姓之，號曰傅說。",
+          "text_sha256": "d10f0f7e1f541ea604bc4f3d125b951d4e287c8e116bc5bb90d0e3126881a3ff",
+          "text_layer": null
+        }
+      ],
+      "rationale": "武丁傅險得說舉相，明號傅說；不接韓說中行說。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m015-0023"
+          ],
+          "metadata": {
+            "label": "說（武丁得說）（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "5c185d0527966fa0bda0fb10f2988eb0a425ae24397b8fed1482a1616023a3ba",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-23",
+      "person_id": "lwx_9yq_ad7",
+      "source_MIDs": [
+        "c-shiji-130-taishigong:m015-0030",
+        "c-shiji-130-taishigong:m037-0021",
+        "c-shiji-130-taishigong:m046-0003",
+        "c-shiji-130-taishigong:m060-0002"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p015",
+          "text": "維契作商，爰及成湯；太甲居桐，德盛阿衡；武丁得說，乃稱高宗；帝辛湛湎，諸侯不享。作殷本紀第三。",
+          "text_sha256": "c2d67874bff61f25025c97abe22158145316506d57f45150aa7a37848da1d2c2",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p037",
+          "text": "非兵不彊，非德不昌，黃帝、湯、武以興，桀、紂、二世以崩，可不慎歟？司馬法所從來尚矣，太公、孫、吳、王子能紹而明之，切近世，極人變。作律書第三。",
+          "text_sha256": "f4939235d73311f7c318634d10cfb34800449be2db128edf2a4c6e2c8c1bce85",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p046",
+          "text": "武王克紂，天下未協而崩。成王既幼，管蔡疑之，淮夷叛之，於是召公率德，安集王室，以寧東土。燕噲之禪，乃成禍亂。嘉甘棠之詩，作燕世家第四。",
+          "text_sha256": "f62767fdccb65b61133b65f48529417364f383ebd420656da54e08b542645e0b",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p060",
+          "text": "桀、紂失其道而湯、武作，周失其道而春秋作。秦失其政，而陳涉發跡，諸侯作難，風起雲蒸，卒亡秦族。天下之端，自涉發難。作陳涉世家第十八。",
+          "text_sha256": "01c5b90656b1f864319bc0dfc9c42b531ded0dd1117ae446d38833d7f9aa0a79",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-003-yin",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-003",
+            "source_id": "s-shiji-003-yin"
+          },
+          "source": {
+            "title": "史記／卷003",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷003",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
+            "revision_id": 7909145,
+            "accessed_on": "2026-10-09",
+            "extent": "正文全文；不含現代章節標題與註號。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {
+                "弃": "棄"
+              },
+              "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
+            }
+          },
+          "paragraph_id": "c-shiji-003-yin:p027",
+          "text": "帝乙長子曰微子啓，啓母賤，不得嗣。少子辛，辛母正后，辛為嗣。帝乙崩，子辛立，是為帝辛，天下謂之紂。",
+          "text_sha256": "763d4b8f03bf3152a437b74633db768832a9d1310dcc32155766a72887e34dae",
+          "text_layer": null
+        }
+      ],
+      "rationale": "殷末帝辛，明天下謂之紂。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m015-0030",
+            "c-shiji-130-taishigong:m037-0021",
+            "c-shiji-130-taishigong:m046-0003",
+            "c-shiji-130-taishigong:m060-0002"
+          ],
+          "metadata": {
+            "label": "帝辛（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "5f11c8170ad9aaee1158a80218e3ffe6cefeb9820f672f8095e1de37970aedd9",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    },
+    {
+      "identity_decision_id": "d-shiji130-first50-stage2-cross-24",
+      "person_id": "n2o_l90_fnm",
+      "source_MIDs": [
+        "c-shiji-006-shihuang:m011-0047",
+        "c-shiji-006-shihuang:m013-0076",
+        "c-shiji-006-shihuang:m013-0088",
+        "c-shiji-006-shihuang:m013-0090",
+        "c-shiji-130-taishigong:m012-0135",
+        "c-shiji-130-taishigong:m057-0031",
+        "c-shiji-130-taishigong:m075-0012",
+        "c-shiji-130-taishigong:m075-0025",
+        "c-shiji-045-han:m034-0013",
+        "c-shiji-045-han:m034-0020"
+      ],
+      "source_frames": [
+        {
+          "dimensions": {
+            "id": "c-shiji-006-shihuang",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-006",
+            "source_id": "s-shiji-006-shihuang"
+          },
+          "source": {
+            "title": "史記／卷006",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷006",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
+            "revision_id": 7907969,
+            "accessed_on": "2026-10-09",
+            "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
+            "image_verified": false,
+            "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
+              "editorial_readings": [
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p010",
+                  "witness_form": "（四）［是］",
+                  "body_reading": "四",
+                  "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+                },
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p016",
+                  "witness_form": "（薊）［荊］",
+                  "body_reading": "薊",
+                  "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+                },
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p051",
+                  "witness_form": "（其）",
+                  "body_reading": "",
+                  "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+                },
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p061",
+                  "witness_form": "（者）",
+                  "body_reading": "",
+                  "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+                }
+              ],
+              "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
+            }
+          },
+          "paragraph_id": "c-shiji-006-shihuang:p011",
+          "text": "大索，逐客，李斯上書說，乃止逐客令。李斯因說秦王，請先取韓以恐他國，於是使斯下韓。韓王患之。與韓非謀弱秦。大梁人尉繚來，說秦王曰：「以秦之彊，諸侯譬如郡縣之君，臣但恐諸侯合從，翕而出不意，此乃智伯、夫差、湣王之所以亡也。願大王毋愛財物，賂其豪臣，以亂其謀，不過亡三十萬金，則諸侯可盡。」秦王從其計，見尉繚亢禮，衣服食飲與繚同。繚曰：「秦王為人，蜂準，長目，摯鳥膺，豺聲，少恩而虎狼心，居約易出人下，得志亦輕食人。我布衣，然見我常身自下我。誠使秦王得志於天下，天下皆為虜矣。不可與久游。」乃亡去。秦王覺，固止，以為秦國尉，卒用其計策。而李斯用事。",
+          "text_sha256": "5098748233aa46a64aad624a0f8e199e8944b78dd3aaaa6397d4788613e113d7",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-006-shihuang",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-006",
+            "source_id": "s-shiji-006-shihuang"
+          },
+          "source": {
+            "title": "史記／卷006",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷006",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
+            "revision_id": 7907969,
+            "accessed_on": "2026-10-09",
+            "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
+            "image_verified": false,
+            "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
+              "editorial_readings": [
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p010",
+                  "witness_form": "（四）［是］",
+                  "body_reading": "四",
+                  "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+                },
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p016",
+                  "witness_form": "（薊）［荊］",
+                  "body_reading": "薊",
+                  "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+                },
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p051",
+                  "witness_form": "（其）",
+                  "body_reading": "",
+                  "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+                },
+                {
+                  "paragraph_id": "c-shiji-006-shihuang:p061",
+                  "witness_form": "（者）",
+                  "body_reading": "",
+                  "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+                }
+              ],
+              "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
+            }
+          },
+          "paragraph_id": "c-shiji-006-shihuang:p013",
+          "text": "十三年，桓齮攻趙平陽，殺趙將扈輒，斬首十萬。王之河南。正月，彗星見東方。十月，桓齮攻趙。十四年，攻趙軍於平陽，取宜安，破之，殺其將軍。桓齮定平陽、武城。韓非使秦，秦用李斯謀，留非，非死雲陽。韓王請為臣。",
+          "text_sha256": "72d48fe10f6a3b1761adfb1de8b1e97acb44aab54e6f4ce3c3d4880f74890cf0",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p012",
+          "text": "於是論次其文。七年而太史公遭李陵之禍，幽於縲紲。乃喟然而嘆曰：「是余之罪也夫！是余之罪也夫！身毀不用矣。」退而深惟曰：「夫詩書隱約者，欲遂其志之思也。昔西伯拘羑里，演周易；孔子戹陳蔡，作春秋；屈原放逐，著離騷；左丘失明，厥有國語；孫子臏腳，而論兵法；不韋遷蜀，世傳呂覽；韓非囚秦，說難、孤憤；詩三百篇，大抵賢聖發憤之所為作也。此人皆意有所郁結，不得通其道也，故述往事，思來者。」於是卒述陶唐以來，至于麟止，自黃帝始。",
+          "text_sha256": "8f480a15bee7210ceee24fb8641d0dc173073236af6a097ea138fdc8b9753d14",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p057",
+          "text": "韓厥陰德，趙武攸興。紹絕立廢，晉人宗之。昭侯顯列，申子庸之。疑非不信，秦人襲之。嘉厥輔晉匡周天子之賦，作韓世家第十五。",
+          "text_sha256": "305b2b2c927d047f879b1078caabd6fd53941a39ddf5ed29ccc62f4a8cc1446a",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-130-taishigong",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-130",
+            "source_id": "s-shiji130-taishigong"
+          },
+          "source": {
+            "title": "史記／卷130",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷130",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+            "revision_id": 2609362,
+            "accessed_on": "2026-10-11",
+            "extent": "固定修訂全文143段，全部篇文。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+              "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+            }
+          },
+          "paragraph_id": "c-shiji-130-taishigong:p075",
+          "text": "李耳無為自化，清凈自正；韓非揣事情，循埶理。作老子韓非列傳第三。",
+          "text_sha256": "980afc37070f9b078651df5f69e604ad8410a04c7ba9726ff6d14c4fa379510e",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-045-han",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-045",
+            "source_id": "s-shiji-045-han"
+          },
+          "source": {
+            "title": "史記／卷045",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷045",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷045&oldid=7903607",
+            "revision_id": 7903607,
+            "accessed_on": "2026-10-09",
+            "extent": "36段正文；排除註釋版導覽、2個dd及現代分節標題，只去除段落外緣空白。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "取得時HTML與固定修訂一致；現代分節標題及導覽不當古代正文。保留蟣蝨、韓姬、韓嚴、韓非與非等原字。",
+              "note": "已讀全36段數位正文；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+            }
+          },
+          "paragraph_id": "c-shiji-045-han:p034",
+          "text": "王安五年，秦攻韓，韓急，使韓非使秦，秦留非，因殺之。",
+          "text_sha256": "f34558c51845f5c96b8c072eefc7945f4624ae874fcb9b4e866fd6afb05418c0",
+          "text_layer": "received_chapter"
+        },
+        {
+          "dimensions": {
+            "id": "c-shiji-063-laohan",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-063",
+            "source_id": "s-shiji-063-laohan"
+          },
+          "source": {
+            "title": "史記／卷063",
+            "provider": "維基文庫",
+            "url": "https://zh.wikisource.org/wiki/史記/卷063",
+            "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷063&oldid=7903601",
+            "revision_id": 7903601,
+            "accessed_on": "2026-10-09",
+            "extent": "26段正文，含說難引文；排除註釋版及2段導覽，無索隱述贊。",
+            "image_verified": false,
+            "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+            "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "normalization": {
+              "character_conversion": {},
+              "editorial_readings": [],
+              "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留耼、儋、絀、闚、剽剝、洸洋與慘礉等原字。說難引文保留於正文，不當另一本獨立見證。",
+              "note": "全26段已核讀，未核可靠底本、影像或現代研究。"
+            }
+          },
+          "paragraph_id": "c-shiji-063-laohan:p012",
+          "text": "韓非者，韓之諸公子也。喜刑名法術之學，而其歸本於黃老。非為人口吃，不能道說，而善著書。與李斯俱事荀卿，斯自以為不如非。",
+          "text_sha256": "912c93cb3f1f9ac13bbc524f9cb69f58becb92864b30d37d3c81ec96d47d153c",
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "韓公子法家作者、李斯同學；另g2b同名候選需後續整合審核，不憑列次選它。；另006/045韓非使秦、秦留而李斯殺之與063本傳相合；同書平行敘述不是獨立見證倍加可信。",
+      "prior_source_qualifications": [
+        {
+          "source_mention_ids": [
+            "c-shiji-130-taishigong:m012-0135",
+            "c-shiji-130-taishigong:m057-0031",
+            "c-shiji-130-taishigong:m075-0012",
+            "c-shiji-130-taishigong:m075-0025"
+          ],
+          "metadata": {
+            "label": "韓非（太史公自序候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "c2a19d6a87692e0b305cffc8408915919b205c2781ac5e88bb60c806e8ef6052",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        },
+        {
+          "source_mention_ids": [
+            "c-shiji-006-shihuang:m011-0047",
+            "c-shiji-006-shihuang:m013-0076",
+            "c-shiji-006-shihuang:m013-0088",
+            "c-shiji-006-shihuang:m013-0090"
+          ],
+          "metadata": {
+            "label": "韓非",
+            "status": "active",
+            "historicity": "historical_tradition",
+            "identity_note": "依本卷特定時代與事件暫定人物；不以同稱、官號或短名全域合併，未見本名不補造。",
+            "review": "ai_provisional"
+          },
+          "original_registry_record_sha256": "61b3c7608af23cf348df4d5044a45698695e43ed3394450d0b9eb4ea358164ba",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        },
+        {
+          "source_mention_ids": [
+            "c-shiji-045-han:m034-0013",
+            "c-shiji-045-han:m034-0020"
+          ],
+          "metadata": {
+            "label": "韓非（韓世家候選）",
+            "status": "active",
+            "historicity": "historical_tradition"
+          },
+          "original_registry_record_sha256": "c4e7df257ae6eed25708d3a7fd9fb513ed3e3520378870e8a216be48a8618680",
+          "qualification": "合併前來源限定判讀；逐值保留，不替代現役人物既有姓名、historicty或review。"
+        }
+      ]
+    }
+  ],
+  "scope": "24組來源判讀；26退休人物、83正文MID＋2既有表格MID，含006/045韓非6正文錨。不是85新人物或獨立見證數量。",
+  "same_work_parallel_is_not_independent_witness": true,
+  "source_text_unchanged": true,
+  "no_new_family_or_CE_dates": true
+}

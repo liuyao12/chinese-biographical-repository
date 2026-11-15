@@ -5,7 +5,7 @@ try:from scripts.wyd_song044_formal_model import resolve_existing,local_current
 except ImportError:from wyd_song044_formal_model import resolve_existing,local_current
 try:from scripts.wyd_song044_role_seed import materialize
 except ImportError:from wyd_song044_role_seed import materialize
-CID='c-songshu-044-wyd1739-xiehui';REF='source-evidence/song044-wyd1739-xiehui/formal-role-contract.json';CONTRACT_SHA='2b1bc6f3dc350c2450fa2e86feff969faaa3a3b1fd6b8870f7149e53003b9973'
+CID='c-songshu-044-wyd1739-xiehui';REF='source-evidence/song044-wyd1739-xiehui/formal-role-contract.json';CONTRACT_SHA='c5cfee54a2617bba9da5a7ddee55004340b649de3c8c45b37278754e0e2b64ba'
 try:
  from scripts.validation_context import memoized
 except ImportError:
@@ -34,7 +34,14 @@ def source_errors(ch,root):
    if p['id']!=s['id']or p['mentions']!=materialize(s['mentions'],roles)or p['annotation_status']!=s['annotation_status']:raise ValueError('固定MID/角色/未定漂移')
    for m in p['mentions']:
     if m['kind']!='person':
-     if m.get('person_id')is not None:raise ValueError('非人物帶人物號')
+     if m['kind']=='pronoun' and m.get('person_id')is not None:
+      if m['person_id'] not in people or m.get('status')!='contextual_provisional' or not m.get('interpretation_note'):
+       raise ValueError('代詞回指須有有效人物號、暫定狀態及判讀說明')
+      person=people[m['person_id']]
+      if any(m['id'] in a.get('mention_ids',[]) for a in person['aliases']) or any(e.get('mention_id')==m['id'] for e in person['evidence']):
+       raise ValueError('代詞不得列為姓名別名或姓名證據')
+     elif m.get('person_id')is not None:
+      raise ValueError('非人物帶人物號')
      continue
     person=people[m['person_id']]
     if not any(a['surface']==m['surface']and m['id']in a['mention_ids']for a in person['aliases']):raise ValueError('缺反向alias')

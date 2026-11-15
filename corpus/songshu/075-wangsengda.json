@@ -4563,6 +4563,59 @@
       "校勘語與正文分層；不聲稱親核其各本。",
       "詐籍為子不採真實父子或收養；族子親等與部分表文語句保留提案。",
       "不由報齡倒出生、不補未知母親，不因此終止官職。"
+    ],
+    "title_proposals": [
+      {
+        "id": "tp-song075-wangsengda-nanman",
+        "person_id": "7r6_k52_qji_ABAAAAAB",
+        "person_mention_id": "c-songshu-075-wangsengda:line014:m0169",
+        "title": "南蠻校尉",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "non_assumption_kind": "did_not_take_up",
+        "appointment_stage": "appointment",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-songshu-075-wangsengda:line016",
+          "start": 19,
+          "end": 23,
+          "surface": "南蠻校尉"
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-songshu-075-wangsengda:line016",
+          "start": 13,
+          "end": 15,
+          "surface": "出為"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-songshu-075-wangsengda:line016",
+          "start": 46,
+          "end": 49,
+          "surface": "不成行"
+        },
+        "source_term": "上即位，以為尚書右僕射，尋出為使持節、南蠻校尉，加征虜將軍。時南郡王義宣求留江陵，南蠻不解，不成行。仍補護軍將軍。僧達自負才地，謂當時莫及。上初踐阼，即居端右，一二年間，便望宰相。及為護軍，不得志，乃啟求徐州，曰：",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-075",
+            "source_id": "s-songshu-075-wangsengda",
+            "chapter_id": "c-songshu-075-wangsengda",
+            "paragraph_id": "c-songshu-075-wangsengda:line016",
+            "quote": "上即位，以為尚書右僕射，尋出為使持節、南蠻校尉，加征虜將軍。時南郡王義宣求留江陵，南蠻不解，不成行。仍補護軍將軍。僧達自負才地，謂當時莫及。上初踐阼，即居端右，一二年間，便望宰相。及為護軍，不得志，乃啟求徐州，曰：",
+            "person_mention_id": "c-songshu-075-wangsengda:line014:m0169",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-songshu-075-wangsengda:line014",
+              "person_mention_id": "c-songshu-075-wangsengda:line014:m0169",
+              "quote": "三十年，元凶弒立，世祖入討，普檄諸州郡，又符郡發兵，僧達未知所從。客說之曰：「方今釁逆滔天，古今未有，為君計，莫若承義師之檄，移告傍郡，使工言之士，明示禍福，苟在有心，誰不響應，此策上也。如其不能，可躬率向義之徒，詳擇水陸之便，致身南歸，亦其次也。」僧達乃自候道南奔，逢世祖於鵲頭，即命為長史，加征虜將軍。初，世祖發尋陽，沈慶之謂人曰：「王僧達必來赴義。」人問其所以，慶之曰：「虜馬飲江，王出赴難，見在先帝前，議論開張，執意明決，以此言之，其至必也。」",
+              "intervening_paragraph_ids": []
+            }
+          }
+        ],
+        "interpretation_note": "原文先記出為，隨即明言南蠻不解、不成行；記錄授命而未赴任，不建立實任官爵時段。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
@@ -4647,7 +4700,7 @@
           "end": 57,
           "surface": "之",
           "status": "contextual_provisional",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "7r6_k52_qji_ABAAAAAB",
           "interpretation_note": "依同段明示主語、引語發言人及受話脈絡辨識；不是最近人名預設。"
         },
@@ -4717,7 +4770,7 @@
           "end": 89,
           "surface": "之",
           "status": "contextual_provisional",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "7r6_k52_qji_ABAAAAAB",
           "interpretation_note": "依同段明示主語、引語發言人及受話脈絡辨識；不是最近人名預設。"
         },
@@ -4906,7 +4959,7 @@
           "end": 36,
           "surface": "之",
           "status": "contextual_provisional",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "7r6_k52_qji_ABAAAAAB",
           "interpretation_note": "依同段明示主語、引語發言人及受話脈絡辨識；不是最近人名預設。"
         },
@@ -5622,7 +5675,7 @@
           "end": 232,
           "surface": "之",
           "status": "contextual_provisional",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "b75_1es_se6",
           "interpretation_note": "依同段明示主語、引語發言人及受話脈絡辨識；不是最近人名預設。"
         },
@@ -5668,7 +5721,7 @@
           "end": 257,
           "surface": "之",
           "status": "contextual_provisional",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "b75_1es_se6",
           "interpretation_note": "依同段明示主語、引語發言人及受話脈絡辨識；不是最近人名預設。"
         },
@@ -5715,7 +5768,7 @@
           "end": 294,
           "surface": "之",
           "status": "contextual_provisional",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "b75_1es_se6",
           "interpretation_note": "依同段明示主語、引語發言人及受話脈絡辨識；不是最近人名預設。"
         },
@@ -5819,13 +5872,9 @@
           "start": 167,
           "end": 169,
           "surface": "靈寶",
-          "person_id": null,
-          "kind": "unresolved",
-          "status": "unresolved",
-          "candidate_person_ids": [
-            "0tv_kz8_alj"
-          ],
-          "interpretation_note": "表文「靈寶往年淪覆長溪」主語及語境未明；不可僅憑同字作朱靈寶或桓玄。"
+          "status": "contextual_provisional",
+          "person_id": "0tv_kz8_alj",
+          "kind": "person"
         },
         {
           "id": "c-songshu-075-wangsengda:line032:m0191",
@@ -6479,7 +6528,7 @@
           "end": 166,
           "surface": "之",
           "status": "contextual_provisional",
-          "kind": "person",
+          "kind": "pronoun",
           "person_id": "7r6_k52_qji_ABAAAAAB",
           "interpretation_note": "依同段明示主語、引語發言人及受話脈絡辨識；不是最近人名預設。"
         },

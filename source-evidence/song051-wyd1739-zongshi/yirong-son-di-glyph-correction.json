@@ -1,0 +1,67 @@
+{
+  "record_type": "editorial_transcription_glyph_correction",
+  "chapter_id": "c-songshu-051-wyd1739-zongshi",
+  "source_id": "s-songshu-051-wyd1739-zongshi",
+  "before_transcription_sha256": "0841bf896957815279742ae48523fcaef9e599de1825f2f2e6a0d15f7e86d95d",
+  "after_transcription_sha256": "aa7b16d610871f77b747adbe0edb84f8775e1d404140a1e3f6284dccd11aaa45",
+  "changes": [
+    {
+      "paragraph_id": "c-songshu-051-wyd1739-zongshi:p012",
+      "start": 193,
+      "end": 194,
+      "before": "覬",
+      "after": "顗",
+      "raw_line": 116,
+      "raw_char_0based": 4,
+      "pdf_page": 23,
+      "side": "right",
+      "column_right_to_left": 10,
+      "character_1based": 5,
+      "full_column": "侯子孝侯顗嗣官至太子翊軍校尉為元凶所殺世祖"
+    }
+  ],
+  "basis": "獨立AI親視既有高清書影，右部頁而非見；非依慣用名或他源推定。",
+  "image_evidence": {
+    "private_files": [
+      {
+        "private_path": "/Users/liuyao/.codex/visualizations/2026/10/08/01a1196e-92f4-7fd1-a99c-8be9123187ca/cbr-song051-wyd-source-candidate/private-acquisition/page23.jpg",
+        "sha256": "e796cf8301b11ec668ae53bfe779f943f00260f73193e87af281c0e0f4dbd0a1",
+        "bytes": 1831002
+      },
+      {
+        "private_path": "/Users/liuyao/.codex/visualizations/2026/10/08/01a1196e-92f4-7fd1-a99c-8be9123187ca/cbr-song051-yirong-complete-unit-candidate/private-image-review/page23-right-col10.png",
+        "sha256": "ecd8a315bc1e8a2b2c8cd1184c49369273e832bd3c09691195a877a011af92b4",
+        "bytes": 402274
+      },
+      {
+        "private_path": "/Users/liuyao/.codex/visualizations/2026/10/08/01a1196e-92f4-7fd1-a99c-8be9123187ca/cbr-song051-yirong-complete-unit-candidate/private-image-review/page23-left-cols1-2.png",
+        "sha256": "1d9d53921c5be377154cfae3bab00001c0e0ccbf400a6663bd7a8d62c8fb09c6",
+        "bytes": 497727
+      }
+    ],
+    "independent_ai_viewed": true,
+    "reads": [
+      "PDF23右10列顗（頁旁）非覬",
+      "PDF23左1列襲、晃；左2列戚仁祖、荒人、王武連；左3列彭元儁（全頁可讀）"
+    ],
+    "not_claimed": "非全卷圖校，不取得原PDF，不構造荒人地望；未見外源不補名字別形。",
+    "human_reviewed": false,
+    "image_verified": false,
+    "model": null,
+    "exact_position": {
+      "pdf_page": 23,
+      "side": "right",
+      "column_right_to_left": 10,
+      "character_1based": 5
+    }
+  },
+  "scope": "尚未標記的新單元姓名一字訂正；119既有錨全值、所有人物與親屬端點不變；只同步現役來源版本與完整段引文。",
+  "prior_named_glyph_receipt_qualification": {
+    "path": "source-evidence/song051-wyd1739-zongshi/yinxiao-glyph-ner-correction.json",
+    "sha256": "440278deb18fb31a0c37d0f5c19a42d9f608022f86058e6956301af1e7594fb0",
+    "purpose": "保固定前版訂正收據原bytes；其after 0841自本次成為歷史轉錄，不將收據冒改為新版本。"
+  },
+  "human_reviewed": false,
+  "image_verified": false,
+  "model": null
+}

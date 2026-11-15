@@ -28,11 +28,15 @@ def render(chapter):
             attributes = f'id="{escape(mention["id"])}"'
             if mention['kind'] == 'person' and mention['person_id']:
                 tag = 'persName'; attributes += f' ref="{escape(mention["person_id"])}"'
+            elif mention['kind'] == 'pronoun':
+                tag = 'rs'; attributes += ' type="pronoun"'
+                if mention.get('person_id'):
+                    attributes += f' ref="{escape(mention["person_id"])}"'
             elif mention['kind'] == 'unresolved' and mention['person_id'] is None:
                 tag = 'rs'; attributes += ' type="unresolved"'
             elif mention['kind'] == 'non_person' and mention['person_id'] is None:
                 tag = 'seg'; attributes += f' type="non-person" subtype="{escape(mention["lexical_role"])}"'
-            elif mention['kind'] == 'work' and mention['person_id'] is None and mention.get('work_id'):
+            elif mention['kind'] == 'work' and mention.get('person_id') is None and mention.get('work_id'):
                 tag = 'title'; attributes += f' ref="{escape(mention["work_id"])}"'
             else:
                 raise ValueError(f'{mention["id"]}: 無效人物或未定類型')

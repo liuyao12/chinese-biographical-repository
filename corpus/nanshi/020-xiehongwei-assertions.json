@@ -1,0 +1,84 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-020-xiehongwei",
+  "assertions": [
+    {
+      "subject_person_id": "aa6_83c_juy_DBAB",
+      "predicate": "great_grandfather",
+      "object_person_id": "aa6_83c_juy_D",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "萬之曾孫",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-020",
+          "chapter_id": "c-nanshi-020-xiehongwei",
+          "source_id": "s-nanshi020-kr3c7bdbb",
+          "paragraph_id": "c-nanshi-020-xiehongwei:p001",
+          "quote": "謝密字𢎞微晉西中郎萬之曾孫尚書左僕射景仁從子也祖韶車騎司馬父思武昌太守𢎞微年十歲繼從叔峻名犯所繼内諱故以字行",
+          "subject_person_mention_id": "c-nanshi-020-xiehongwei:p001:m0000",
+          "object_person_mention_id": "c-nanshi-020-xiehongwei:p001:m0009"
+        }
+      ],
+      "interpretation_note": "原文明稱弘微為謝萬曾孫，故記直接高祖父關係；不據此補造中間世代或父子邊。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "id": "a-nanshi020-xiehongwei-great-grandfather-wan"
+    },
+    {
+      "subject_person_id": "aa6_83c_juy_DBAB",
+      "predicate": "agnatic_senior_kin",
+      "object_person_id": "684_eaa_511",
+      "qualifiers": {
+        "source_term": "景仁從子也",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": -1,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "unknown"
+        },
+        "source_clause_binding": {
+          "pattern": "biographical_subject_distanced_senior_congzi",
+          "courtesy_name_mention_id": "c-nanshi-020-xiehongwei:p001:m0003",
+          "anchors": {
+            "subject_clause": {
+              "start": 0,
+              "end": 5,
+              "surface": "謝密字𢎞微"
+            },
+            "kinship_clause": {
+              "start": 18,
+              "end": 23,
+              "surface": "景仁從子也"
+            }
+          }
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-020",
+          "chapter_id": "c-nanshi-020-xiehongwei",
+          "source_id": "s-nanshi020-kr3c7bdbb",
+          "paragraph_id": "c-nanshi-020-xiehongwei:p001",
+          "quote": "謝密字𢎞微晉西中郎萬之曾孫尚書左僕射景仁從子也祖韶車騎司馬父思武昌太守𢎞微年十歲繼從叔峻名犯所繼内諱故以字行",
+          "subject_person_mention_id": "c-nanshi-020-xiehongwei:p001:m0000",
+          "object_person_mention_id": "c-nanshi-020-xiehongwei:p001:m0018"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanshi020-xiehongwei-jingren-congzi-001",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "interpretation_note": "本篇明言弘微為景仁從子，依本庫用例記作父系旁親且主語低一代；原文不給確切親等、共同祖先或弘微相對年齡，故均不推定。"
+    }
+  ]
+}

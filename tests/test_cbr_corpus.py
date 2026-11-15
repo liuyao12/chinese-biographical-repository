@@ -12,6 +12,8 @@ class CorpusTests(unittest.TestCase):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.root=Path(self.tmp.name)
         for folder in ('registry','corpus','source-evidence'):shutil.copytree(ROOT/folder,self.root/folder)
+        # Corpus validation dispatches typed-source validators from this root.
+        shutil.copytree(ROOT/'scripts',self.root/'scripts')
         shutil.copytree(ROOT/'data/historical-tables',self.root/'data/historical-tables')
         # Source-scoped display choices bind records in the editorial name dataset.
         (self.root/'data/corpus').mkdir(parents=True, exist_ok=True)

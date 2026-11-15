@@ -75,6 +75,13 @@ def load_assemblies(root, catalog):
                         from wyd_song044_nephew import ancestor_valid as wyd_nephew_ancestor_valid
                     if not wyd_nephew_ancestor_valid(member, rows, assertions, chapters, root):
                         raise ValueError('宋044兄子缺父祖連須有固定叔侄與明父來源；不得造父、倒向或改母嗣系')
+                elif isinstance(connection, dict) and connection.get('type') == 'wangyuan_congzu_shared_ancestor_path':
+                    try:
+                        from scripts.wangyuan_congzu_assembly import valid as wangyuan_congzu_valid
+                    except ImportError:
+                        from wangyuan_congzu_assembly import valid as wangyuan_congzu_valid
+                    if not wangyuan_congzu_valid(member, rows, assertions):
+                        raise ValueError('王遠接王珣須由從祖詞義、儉三代父系來源路徑及僧祐明父共同支持；不可新增直系來源斷言')
                 elif connection:
                     if not isinstance(connection, dict):
                         raise ValueError('同父兄弟祖先組裝格式無效')

@@ -38,6 +38,24 @@ class NonParentalFamily(unittest.TestCase):
                 with self.subTest(id=a['id'],change=change):
                     self.assertFalse(non_parental_relation_valid(bad,self.paragraphs))
 
+    def test_non_parental_roles_require_explicit_person_ids(self):
+        for a in self.cases:
+            p=self.paragraphs[a['evidence'][0]['paragraph_id']][1]
+            for role,mention_key,endpoint_key in [
+                ('child','subject_person_mention_id','subject_person_id'),
+                ('other','object_person_mention_id','object_person_id')]:
+                for defect in ('missing-mention-id','null-endpoint-id','both-missing'):
+                    bad=copy.deepcopy(a)
+                    paragraphs=copy.deepcopy(self.paragraphs)
+                    target_p=paragraphs[a['evidence'][0]['paragraph_id']][1]
+                    bad_mids={m['id']:m for m in target_p['mentions']}
+                    if defect in ('missing-mention-id','both-missing'):
+                        bad_mids[bad['evidence'][0][mention_key]].pop('person_id',None)
+                    if defect in ('null-endpoint-id','both-missing'):
+                        bad[endpoint_key]=None
+                    with self.subTest(id=a['id'],role=role,defect=defect):
+                        self.assertFalse(non_parental_relation_valid(bad,paragraphs))
+
     def test_rearing_speech_requires_identity_of_actual_speaker(self):
         a=next(a for a in self.cases if a['qualifiers'].get('care_basis')=='speaker_recalls_rearing')
         p=self.paragraphs[a['evidence'][0]['paragraph_id']][1]
@@ -47,6 +65,10 @@ class NonParentalFamily(unittest.TestCase):
 
     def test_actual_birth_mother_survives_care_and_ritual_records(self):
         care=next(a for a in self.cases if a['qualifiers'].get('care_basis')=='explicit_yang')
+        p=self.paragraphs[care['evidence'][0]['paragraph_id']][1]
+        child=next(m for m in p['mentions']if m['id']==care['evidence'][0]['subject_person_mention_id'])
+        self.assertEqual(child['kind'],'pronoun')
+        self.assertEqual(child['surface'],'之')
         mothers=[a for a in self.relations if a['subject_person_id']==care['subject_person_id'] and a['predicate']=='mother']
         self.assertTrue(mothers)
         self.assertTrue(all(a['object_person_id']=='12b_2lg_vs3' for a in mothers))

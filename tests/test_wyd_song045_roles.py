@@ -15,11 +15,31 @@ class WydSong045Roles(unittest.TestCase):
   self.assertEqual(sum(len(p['mentions'])for p in self.ch['paragraphs']),277)
   for p in self.ch['paragraphs']:
    for mark in p['mentions']:self.assertEqual(p['text'][mark['start']:mark['end']],mark['surface'])
- def test_ten_exact_relations_and_directions(self):
-  self.assertEqual(len(self.a),10)
+ def test_eleven_exact_relations_and_directions(self):
+  self.assertEqual(len(self.a),11)
   for a in self.a:self.assertTrue(m.relation_valid(a,self.ps,self.chs,ROOT),a['id'])
   for a in self.a:
    bad=copy.deepcopy(a);bad['subject_person_id'],bad['object_person_id']=bad['object_person_id'],bad['subject_person_id'];self.assertFalse(m.relation_valid(bad,self.ps,self.chs,ROOT))
+ def test_liudaoji_brotherhood_has_both_source_anchors_without_ordinal(self):
+  a=next(a for a in self.a if a['id']=='a-song045-wyd-liudaoji-liucui-brother')
+  self.assertEqual((a['subject_person_id'],a['predicate'],a['object_person_id']),
+                   (self.roles['liudaoji'],'brother',self.roles['liucui']))
+  self.assertEqual([e['relationship_anchor'] for e in a['evidence']], [
+   {'paragraph_id':self.ch['id']+':p004','start':17,'end':28,'surface':'遣粹弟車騎從事中郎道濟'},
+   {'paragraph_id':self.ch['id']+':p004','start':202,'end':206,'surface':'粹弟道濟'}])
+  self.assertEqual([(e['subject_person_mention_id'],e['object_person_mention_id']) for e in a['evidence']], [
+   (self.ch['id']+':p004:m0026',self.ch['id']+':p004:m0018'),
+   (self.ch['id']+':p004:m0204',self.ch['id']+':p004:m0202')])
+  order=a['qualifiers']['relative_birth_order']
+  self.assertEqual(order,{'older_person_id':self.roles['liucui'],'younger_person_id':self.roles['liudaoji'],
+                         'operator':'lt','scope':'siblings','older_ordinal':None,'younger_ordinal':None})
+  for mutate in ('remove_second','shift_second','wrong_second_mid','invent_ordinal'):
+   bad=copy.deepcopy(a)
+   if mutate=='remove_second':bad['evidence'].pop()
+   elif mutate=='shift_second':bad['evidence'][1]['relationship_anchor']['start']+=1
+   elif mutate=='wrong_second_mid':bad['evidence'][1]['subject_person_mention_id']=bad['evidence'][1]['object_person_mention_id']
+   else:bad['qualifiers']['relative_birth_order']['younger_ordinal']=2
+   self.assertFalse(m.relation_valid(bad,self.ps,self.chs,ROOT),mutate)
  def test_no_synthetic_parent_global_ordinal_or_common_ancestor(self):
   huai=next(a for a in self.a if a['id'].endswith('huai-father'));self.assertIsNone(huai['qualifiers']['source_birth_position']['absolute_ordinal'])
   for a in self.a:

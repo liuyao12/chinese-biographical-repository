@@ -77,7 +77,7 @@ class LuZouSecondPassTests(unittest.TestCase):
         for surface, pid in expected.items():
             self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface']==surface}, {pid})
         self.assertIn('九侯有子而好', p['text'])
-        self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface']=='梁王'}, {'nbg_cps_9w9'})
+        self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface']=='梁王'}, {'nxl_qt6_cpl_AAAAAA*A*AAAAAAA'})
 
     def test_execution_allusions_do_not_name_unnamed_chu_king(self):
         p = self.chapter()['paragraphs'][16]

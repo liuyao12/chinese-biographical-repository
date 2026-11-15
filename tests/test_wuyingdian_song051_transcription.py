@@ -16,6 +16,9 @@ class Song051(unittest.TestCase):
    if errors:raise AssertionError(errors)
    contract=json.loads((ROOT/'source-evidence/song051-wyd1739-zongshi/formal-role-contract.json').read_bytes())
    self.c=copy.deepcopy(contract['source_before']);self.formal_count=len(contract['markers'])
+   if 'additional_annotation_phase'in self.actual['annotation']:
+    from scripts.wyd_song051_yixin import state
+    _,_,extra,_=state(ROOT,self.actual);self.formal_count+=len(extra['markers'])
   self.assertEqual([(p['id'],p['text'],p['source_position'])for p in self.c['paragraphs']],[(p['id'],p['text'],p['source_position'])for p in self.actual['paragraphs']])
  def test_complete_pending_source_and_xml(self):
   self.assertEqual(source_errors(self.c,ROOT),[])
@@ -24,7 +27,10 @@ class Song051(unittest.TestCase):
   self.assertTrue(all(p['annotation_status']=='pending'and not p['mentions']for p in self.c['paragraphs']))
   if self.formal_count is not None:
    self.assertEqual(sum(len(p['mentions'])for p in self.actual['paragraphs']),self.formal_count)
-   self.assertTrue(all(p['annotation_status']==('in_progress'if p['mentions']else'pending')for p in self.actual['paragraphs']))
+   for p in self.actual['paragraphs']:
+    expected = ('named_mentions_first_pass' if p['id'].endswith(':p041')
+                else 'in_progress' if p['mentions'] else 'pending')
+    self.assertEqual(p['annotation_status'], expected, p['id'])
  def test_wrong_layer_and_missing_binding(self):
   for field in ('layer','binding'):
    c=copy.deepcopy(self.c)
