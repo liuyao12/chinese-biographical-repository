@@ -787,6 +787,8 @@ validator核同篇同source、直接相鄰段、原行只隔一空行、同固�
 
 `agnatic_senior_kin` 原語義不變：主體晚一代父系旁親，`generation_difference: -1`，親等及共同祖先為 null，年齡先後未知。新增 `source_clause_binding` 的 `pattern: biographical_subject_courtesy_senior_congzi` 與 `courtesy_name_mention_id`，只認雙端人物錨點加同一主體的字號錨點，精確原句「主體字字號對象從子也」。不依同姓或同名猜身份、不補中介父親；不同代與同代不得互換。「彞于彧為從祖兄弟」仍獨立為同輩父系旁親，不能改成親兄弟。此句型不擴及族父、姑子或未知其他倒裝句。
 
+另，《宋書》卷六十七「從叔混特知愛之」可記傳主謝靈運指向謝混的 `agnatic_senior_kin`：以「靈運」人物提及為晚輩主體、以「混」為長一代旁親；同句代詞「之」保留在原文，但不標作人名或人物提及。專屬 pattern 僅綁 `c-songshu-067-xielingyun:p001` 的精確字位與傳主／晚輩稱名／從叔三個人物錨點；不從「從叔」補直接父親、共同祖先或精確親等，不泛化為其他卷篇句型。
+
 
 ### 固定見證同位置對應
 

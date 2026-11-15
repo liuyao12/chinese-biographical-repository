@@ -2,6 +2,13 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('pattern') == 'songshu067_congshu_subject_to_senior':
+        try:
+            from scripts.songshu067_congshu import valid as songshu067_congshu_valid
+        except ImportError:
+            from songshu067_congshu import valid as songshu067_congshu_valid
+        return songshu067_congshu_valid(assertion, paragraphs)
+
     # Position-bound close-family clauses; retain all older grammar contracts.
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('close_family_'):
         try:
