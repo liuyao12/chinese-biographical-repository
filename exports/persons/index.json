@@ -23848,22 +23848,6 @@
       ]
     },
     {
-      "person_id": "57l_v07_8z9",
-      "label": "王籍之",
-      "path": "57l_v07_8z9.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 1,
-      "raw_mention_count": 1,
-      "duplicate_mention_count": 0,
-      "paragraph_mention_count": 1,
-      "table_mention_count": 0,
-      "source_count": 1,
-      "most_mentioned_source_ids": [
-        "s-jinshu-076-wangbin"
-      ]
-    },
-    {
       "person_id": "57o_eji_ods",
       "label": "周霸（儒林列傳候選）",
       "path": "57o_eji_ods.json",
@@ -36876,6 +36860,93 @@
         "identity_equivalence_decision_ids": [],
         "parent_person_id": "7r6_k52_qji_AB",
         "source_assertion_id": "a-jinshu033-wang-012",
+        "assembly_id": "family-langye-wang-dao",
+        "root_person_id": "7r6_k52_qji",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
+    },
+    {
+      "person_id": "7r6_k52_qji_ABD*A",
+      "label": "王籍之",
+      "path": "7r6_k52_qji_ABD*A.json",
+      "id_aliases": [],
+      "identity_policy": "contextual_provisional",
+      "mention_count": 1,
+      "raw_mention_count": 1,
+      "duplicate_mention_count": 0,
+      "paragraph_mention_count": 1,
+      "table_mention_count": 0,
+      "source_count": 1,
+      "most_mentioned_source_ids": [
+        "s-jinshu-076-wangbin"
+      ],
+      "source_person_id": "57l_v07_8z9",
+      "assembled_identity": {
+        "person_id": "7r6_k52_qji_ABD*A",
+        "representative_source_person_id": "57l_v07_8z9",
+        "source_person_ids": [
+          "57l_v07_8z9"
+        ],
+        "identity_equivalence_decision_ids": [],
+        "parent_person_id": null,
+        "source_assertion_id": null,
+        "ancestor_person_id": "7r6_k52_qji_ABD",
+        "connection": "grandfather",
+        "generation_distance": 2,
+        "intermediate_person_ids": [
+          null
+        ],
+        "interpretation_note": "依「彬及兄子安成太守籍之」，籍之之父為彬兄，故籍之與彬同父；王彬的父系節點依其「兄廙」及王廙父王正接至王正。據此暫以王正為籍之祖父。籍之父親仍未具名、未成節點；ID 中的 * 表此缺代。此為可撤回的父系組裝推導，不是原文祖父稱謂。",
+        "ancestor_connection": {
+          "type": "jinshu076_paternal_nephew_to_uncle_grandfather",
+          "status": "contextual_provisional",
+          "human_reviewed": false,
+          "nephew_assertion_id": "a-jinshu076-jizhi-wangbin-paternal-uncle",
+          "uncle_person_id": "7r6_k52_qji_ABDB",
+          "uncle_sibling_person_id": "7r6_k52_qji_ABDA",
+          "uncle_sibling_assertion_id": "a-jinshu076-yi-bin-brother",
+          "uncle_father_assertion_id": "a-jinshu076-wang-001",
+          "rationale": "《晉書》卷76明言籍之為彬兄子；王彬於既有組裝中依「兄廙」與王廙父王正接至王正。兄弟與父系連接各自保留證據；籍之父親不具名，僅由兄子關係推得其與彬同父，故以一個缺名世代將籍之置於王正之下。不創父親人物或父子斷言，也不推定籍之與王敦的具體親屬。",
+          "references": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-076",
+              "source_id": "s-jinshu-076-wangbin",
+              "chapter_id": "c-jinshu-076-wangbin",
+              "paragraph_id": "c-jinshu-076-wangbin:line052",
+              "quote": "敦平，有司奏彬及兄子安成太守籍之，並是敦親，皆除名。詔曰：「司徒導以大義滅親，其後昆雖或有違，猶將百世宥之，況彬等公之近親。」乃原之。徵拜光祿勳，轉度支尚書。蘇峻平後，改築新宮，彬為大匠。以營創勳勞，賜爵關內侯，遷尚書右僕射。卒官，年五十九。贈特進、衛將軍，加散騎常侍，諡曰肅。長子彭之嗣，位至黃門郎。次彪之，最知名。",
+              "subject_person_mention_id": "c-jinshu-076-wangbin:line052:m0014",
+              "object_person_mention_id": "c-jinshu-076-wangbin:line052:m0006",
+              "assertion_id": "a-jinshu076-jizhi-wangbin-paternal-uncle",
+              "scope": "《晉書》明言籍之為彬兄子；未指名籍之之父。"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-076",
+              "source_id": "s-jinshu-076-wangbin",
+              "chapter_id": "c-jinshu-076-wangbin",
+              "paragraph_id": "c-jinshu-076-wangbin:line046",
+              "quote": "彬字世儒。少稱雅正，弱冠，不就州郡之命。光祿大夫傅祗辟為掾。後與兄廙俱渡江，為揚州刺史劉機建武長史。元帝引為鎮東賊曹參軍，轉典兵參軍。豫討華軼功，封都亭侯，湣帝召為尚書郎，以道險不就。遷建安太守，徙義興內史，未之職，轉軍諮祭酒。",
+              "subject_person_mention_id": "c-jinshu-076-wangbin:line046:m0033",
+              "object_person_mention_id": "c-jinshu-076-wangbin:line046:m0000",
+              "assertion_id": "a-jinshu076-yi-bin-brother",
+              "scope": "same_paternal_family_source_and_sibling_context",
+              "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7076&oldid=2180533"
+            },
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-076",
+              "chapter_id": "c-jinshu-076-wangyi-family",
+              "source_id": "s-jinshu-076-wangyi-family",
+              "paragraph_id": "c-jinshu-076-wangyi-family:p001",
+              "quote": "王廙，字世將，丞相導從弟，而元帝姨弟也。父正，尚書郎。廙少能屬文，多所通涉，工書畫，善音樂、射御、博弈、雜伎。辟太傅掾，轉參軍。豫迎大駕，封武陵縣侯，拜尚書郎，出為濮陽太守。元帝作鎮江左，廙棄郡過江。帝見之大悅，以為司馬。頻守廬江、鄱陽二郡。豫討周馥、杜韜，以功累增封邑，除冠軍將軍，鎮石頭，領丞相軍諮祭酒。王敦啟為甯遠將軍、荊州刺史。",
+              "assertion_id": "a-jinshu076-wang-001",
+              "scope": "same_paternal_family_source_and_sibling_context",
+              "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7076&oldid=2180533"
+            }
+          ]
+        },
         "assembly_id": "family-langye-wang-dao",
         "root_person_id": "7r6_k52_qji",
         "status": "editorial_preferred",
@@ -147292,7 +147363,9 @@
       ]
     }
   ],
-  "id_aliases": {},
+  "id_aliases": {
+    "57l_v07_8z9": "7r6_k52_qji_ABD*A"
+  },
   "reading_indexes": {
     "family_pages": [
       "README.md"

@@ -23,7 +23,7 @@ export async function namespaceNavigation(person, load) {
 
 // Traverse source relations and separately attributed assembly edges, never stored ancestor chains.
 export async function traceFamily(person, load) {
-  const own = p => new Set(p.person_ids || [p.id]);
+  const own = p => new Set([...(p.person_ids || [p.id]), p.assembled_identity?.person_id].filter(Boolean));
   function mergeEvidence(map, entry) {
     const previous = map.get(entry.id);
     if (!previous) { map.set(entry.id, entry); return; }
@@ -99,7 +99,7 @@ export async function traceFamily(person, load) {
       if (row?.connection === kind && ids.has(row.person_id) && id && !ids.has(id)
           && !result.has(id) && row.assembly_id
           && ['editorial_preferred', 'contextual_provisional'].includes(row.status)
-          && ['shared_ancestor_through_sibling', 'wyd_song044_paternal_nephew_to_uncle_father'].includes(connection?.type)
+          && ['shared_ancestor_through_sibling', 'wyd_song044_paternal_nephew_to_uncle_father', 'jinshu076_paternal_nephew_to_uncle_grandfather'].includes(connection?.type)
           && connection.status === 'contextual_provisional'
           && connection.rationale && connection.references?.length) {
         result.set(id, {id, role: 'assembly_inferred', inference_note: connection.rationale,
@@ -115,7 +115,7 @@ export async function traceFamily(person, load) {
   }
   async function resolve(entries) {
     const resolved = await Promise.all(entries.map(async entry => {
-      try {const p = await load(entry.id); return {...entry, person: p, id: [...own(p)].sort()[0], label: p.label};}
+      try {const p = await load(entry.id); return {...entry, person: p, id: p.assembled_identity?.person_id || [...own(p)].sort()[0], label: p.label};}
       catch {return {...entry, label: person.related_people?.[entry.id] || entry.id, unavailable: true};}
     }));
     const unique = new Map();
