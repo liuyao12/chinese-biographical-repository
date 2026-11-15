@@ -585,7 +585,7 @@
     },
     {
       "id": "d-shiji083-023",
-      "person_id": "ru1_bzw_3d6",
+      "person_id": "9li_j1i_hm5",
       "scope": "same_chapter",
       "chapter_ids": [
         "c-shiji-083-luzou"
@@ -2085,6 +2085,94 @@
         }
       ],
       "rationale": "卷八十三鄒陽上書以「孫叔敖三去相而不悔」引述此人；卷一一九明稱孫叔敖為楚人，記虞丘相薦於楚莊王並授楚相；卷一二六又以「楚相孫叔敖」敘其子與優孟故事。三處全名一致，且「三去相」與另兩篇楚相事跡相合；沿用在卷一一九、一二六已有多處來源錨及父子關係的現役ID `fom_gr9_c8v`。此為同一《史記》中的人物接合，不把同書重述當獨立史實見證；歷史敘事的真實性及官職細節另依各篇來源保留。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji083-tiandan-cross-chapter",
+      "person_id": "9li_j1i_hm5",
+      "surfaces": [
+        "齊田單",
+        "田單"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-034-yan",
+        "c-shiji-080-leyi",
+        "c-shiji-082-tiandan",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-034-yan:m027-0032",
+          "c-shiji-080-leyi:m005-0000",
+          "c-shiji-082-tiandan:m001-0000",
+          "c-shiji-083-luzou:m010-0037",
+          "c-shiji-083-luzou:m014-0073"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-034",
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p027",
+          "quote": "惠王為太子時，與樂毅有隙；及即位，疑毅，使騎劫代將。樂毅亡走趙。齊田單以即墨擊敗燕軍，騎劫死，燕兵引歸，齊悉復得其故城。閔王死于莒，乃立其子為襄王。",
+          "mention_ids": [
+            "c-shiji-034-yan:m027-0032"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-080",
+          "chapter_id": "c-shiji-080-leyi",
+          "source_id": "s-shiji-080-leyi",
+          "paragraph_id": "c-shiji-080-leyi:p005",
+          "quote": "齊田單後與騎劫戰，果設詐誑燕軍，遂破騎劫於即墨下，而轉戰逐燕，北至河上，盡復得齊城，而迎襄王於莒，入于臨菑。",
+          "mention_ids": [
+            "c-shiji-080-leyi:m005-0000"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-082",
+          "chapter_id": "c-shiji-082-tiandan",
+          "source_id": "s-shiji-082-tiandan",
+          "paragraph_id": "c-shiji-082-tiandan:p001",
+          "quote": "田單者，齊諸田疏屬也。湣王時，單為臨菑市掾，不見知。及燕使樂毅伐破齊，齊湣王出奔，已而保莒城。燕師長驅平齊，而田單走安平，令其宗人盡斷其車軸末而傅鐵籠。已而燕軍攻安平，城壞，齊人走，爭涂，以轊折車敗，為燕所虜，唯田單宗人以鐵籠故得脫，東保即墨。燕既盡降齊城，唯獨莒、即墨不下。燕軍聞齊王在莒，并兵攻之。淖齒既殺湣王於莒，因堅守，距燕軍，數年不下。燕引兵東圍即墨，即墨大夫出與戰，敗死。城中相與推田單，曰：「安平之戰，田單宗人以鐵籠得全，習兵。」立以為將軍，以即墨距燕。",
+          "mention_ids": [
+            "c-shiji-082-tiandan:m001-0000"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-083",
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p010",
+          "quote": "其後二十餘年，燕將攻下聊城，聊城人或讒之燕，燕將懼誅，因保守聊城，不敢歸。齊田單攻聊城歲餘，士卒多死而聊城不下。魯連乃為書，約之矢以射城中，遺燕將。書曰：",
+          "mention_ids": [
+            "c-shiji-083-luzou:m010-0037"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-083",
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p014",
+          "quote": "燕將見魯連書，泣三日，猶豫不能自決。欲歸燕，已有隙，恐誅；欲降齊，所殺虜於齊甚眾，恐已降而後見辱。喟然嘆曰：「與人刃我，寧自刃。」乃自殺。聊城亂，田單遂屠聊城。歸而言魯連，欲爵之。魯連逃隱於海上，曰：「吾與富貴而詘於人，寧貧賤而輕世肆志焉。」",
+          "mention_ids": [
+            "c-shiji-083-luzou:m014-0073"
+          ]
+        }
+      ],
+      "rationale": "卷八十三第十段稱「齊田單攻聊城」，燕將自殺、聊城亂後第十四段續稱「田單遂屠聊城」，同一連續事件中全名與省稱相承。卷八十二本傳以「田單者，齊諸田疏屬也」起首，記其守即墨；卷八十記田單破騎劫、復齊城；卷三十四亦記齊田單以即墨敗燕軍。四篇所述田單、即墨及燕齊戰事彼此吻合，接入既有跨篇來源較豐富的現役ID `9li_j1i_hm5`。此為同一《史記》內的身份整理，篇章互見不作獨立史實見證；卷八十三聊城敘事仍保留其原有引文與來源錨點。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

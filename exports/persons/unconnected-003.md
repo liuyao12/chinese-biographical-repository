@@ -868,7 +868,6 @@
 | `rtb_deo_xey` | 子良（楚莊王時鄭質子） | [《史記・楚世家》][109] | [JSON](rtb_deo_xey.json) |
 | `rtd_jgu_6jh` | 瑤〔晉儀同，楊舒墓誌祖先聲稱〕 | [《楊舒墓誌・全文》][3] | [JSON](rtd_jgu_6jh.json) |
 | `rtd_jq2_xol` | 王象 | [《三國志・諸夏侯曹傳》][77] | [JSON](rtd_jq2_xol.json) |
-| `ru1_bzw_3d6` | 田單 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](ru1_bzw_3d6.json) |
 | `rur_xf3_opk` | 太子母弟（昭公立時未名） | [《史記・魯周公世家》][102] | [JSON](rur_xf3_opk.json) |
 | `ruz_4q7_qi2` | 軍正 | [《史記・司馬穰苴列傳》][133] | [JSON](ruz_4q7_qi2.json) |
 | `rv1_o3i_m12` | 田常 | [《史記・仲尼弟子列傳》][136] | [JSON](rv1_o3i_m12.json) |
