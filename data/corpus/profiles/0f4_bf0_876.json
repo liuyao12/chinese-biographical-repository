@@ -2618,9 +2618,53 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-jinshu099-yin-zhongwen-agnatic-cousin-zhongkan",
+      "subject_person_id": "jel_xae_qmj",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "0f4_bf0_876",
+      "qualifiers": {
+        "source_term": "從兄仲堪薦之",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "0f4_bf0_876",
+          "younger_person_id": "jel_xae_qmj",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-099",
+          "source_id": "s-jinshu-099-yinzhongwen-ws2644703",
+          "chapter_id": "c-jinshu-099-yinzhongwen",
+          "paragraph_id": "c-jinshu-099-yinzhongwen:p001",
+          "quote": "殷仲文，南蠻校尉覬之弟也。少有才藻，美容貌。從兄仲堪薦之于會稽王道子，即引為驃騎參軍，甚相賞待。俄轉諮議參軍，後為元顯征虜長史。會桓玄與朝廷有隙，玄之姊，仲文之妻，疑而間之，左遷新安太守。仲文于玄雖為姻親，而素不交密，及聞玄平京師，便棄郡投焉。玄甚悅之，以為諮議參軍。時王謐見禮而不親，卞範之被親而少禮，而寵遇隆重，兼于王、卞矣。玄將為亂，使總領詔命，以為侍中，領左衛將軍。玄九錫，仲文之辭也。",
+          "subject_person_mention_id": "c-jinshu-099-yinzhongwen:p001:m0000",
+          "object_person_mention_id": "c-jinshu-099-yinzhongwen:p001:m0024"
+        }
+      ],
+      "interpretation_note": "從兄表示同輩父系旁親且仲堪年長；不推具體親等、共同祖先或絕對排行。"
+    }
+  ],
   "related_people": {
-    "0f4_bf0_876": "殷仲堪"
+    "0f4_bf0_876": "殷仲堪",
+    "jel_xae_qmj": "殷仲文"
   },
   "dates": [],
   "name_components": [],
