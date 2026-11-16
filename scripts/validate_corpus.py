@@ -1087,8 +1087,14 @@ def _validate_uncached(root=ROOT):
                             check(any(m['person_id']==h['person_id'] for m in hit[1]['mentions']),'稱號引句段落未提及持有人')
                         else:
                             context=e['context']
-                            valid=isinstance(context,dict)
-                            if valid:
+                            valid=False
+                            if isinstance(context,dict) and context.get('kind')=='prior_paragraph_subject':
+                                try:
+                                    from scripts.subject_continuation import prior_subject_valid
+                                except ImportError:
+                                    from subject_continuation import prior_subject_valid
+                                valid=prior_subject_valid(context,e,h['person_id'],chapters[d['chapter_id']])
+                            elif isinstance(context,dict):
                                 previous=paragraphs.get(context.get('paragraph_id'))
                                 mention=mentions.get(context.get('person_mention_id'))
                                 order=[p['id'] for p in chapters.get(d['chapter_id'],{}).get('paragraphs',[])]
