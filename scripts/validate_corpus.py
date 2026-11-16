@@ -2370,7 +2370,7 @@ def _validate_uncached(root=ROOT):
                           '使外任事年數須有事國原詞、相符數字及任務單位，不作爵位任期')
                 if event['event_type'] == 'burial':
                     term = event.get('source_term')
-                    check(isinstance(term, str) and ('葬' in term or term=='卜窆' and chapters[record['chapter_id']].get('annotation',{}).get('epitaph_life_binding',{}).get('kind')=='epitaph_named_head_dated_death_and_burial') and any(term in e.get('quote', '') for e in event.get('evidence', [])), '埋葬事件須有原文明示葬詞及相符引句')
+                    check(isinstance(term, str) and ('葬' in term or term == '安厝' and event.get('source_anchor', {}).get('surface') == '安厝' or term=='卜窆' and chapters[record['chapter_id']].get('annotation',{}).get('epitaph_life_binding',{}).get('kind')=='epitaph_named_head_dated_death_and_burial') and any(term in e.get('quote', '') for e in event.get('evidence', [])), '埋葬事件須有原文明示葬詞及相符引句')
                 if event['event_type'] in ('office_non_reinstatement', 'office_restoration'):
                     term = event.get('source_term')
                     required = '不復官' if event['event_type'] == 'office_non_reinstatement' else '復就故官'
