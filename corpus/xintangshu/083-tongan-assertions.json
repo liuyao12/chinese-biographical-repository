@@ -1,0 +1,97 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-xintangshu-083-tongan",
+  "assertions": [
+    {
+      "id": "a-xintangshu083-tongan-sister-gaozu",
+      "subject_person_id": "acz_c2l_abu",
+      "predicate": "sister",
+      "object_person_id": "3p3_fiy_1yz",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-xintangshu",
+          "book_id": "b-xintangshu-083",
+          "chapter_id": "c-xintangshu-083-tongan",
+          "source_id": "s-xintangshu083-ws2605952",
+          "paragraph_id": "c-xintangshu-083-tongan:p001",
+          "quote": "同安公主，高祖同母媦也。下嫁隋州刺史王裕。貞觀時，以屬尊進大長公主。嘗有疾，太宗躬省視，賜縑五百，姆侍皆有賚予。永徽初，賜實戶三百。薨年八十六。裕，隋司徒柬之子，終開府儀同三司。",
+          "subject_person_mention_id": "c-xintangshu-083-tongan:p001:m0000",
+          "object_person_mention_id": "c-xintangshu-083-tongan:p001:m0001"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "高祖同母媦也",
+        "lineage": "maternal",
+        "shared_mother": true,
+        "relative_age": "older",
+        "relative_birth_order": {
+          "older_person_id": "acz_c2l_abu",
+          "younger_person_id": "3p3_fiy_1yz",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "interpretation_note": "原文明言同母且稱媦（姊）；不由此記錄補造未名母親或父系。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xintangshu083-tongan-spouse-wangyu",
+      "subject_person_id": "acz_c2l_abu",
+      "predicate": "spouse",
+      "object_person_id": "qpf_fkj_5na",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-xintangshu",
+          "book_id": "b-xintangshu-083",
+          "chapter_id": "c-xintangshu-083-tongan",
+          "source_id": "s-xintangshu083-ws2605952",
+          "paragraph_id": "c-xintangshu-083-tongan:p001",
+          "quote": "同安公主，高祖同母媦也。下嫁隋州刺史王裕。貞觀時，以屬尊進大長公主。嘗有疾，太宗躬省視，賜縑五百，姆侍皆有賚予。永徽初，賜實戶三百。薨年八十六。裕，隋司徒柬之子，終開府儀同三司。",
+          "subject_person_mention_id": "c-xintangshu-083-tongan:p001:m0000",
+          "object_person_mention_id": "c-xintangshu-083-tongan:p001:m0002"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "下嫁隋州刺史王裕"
+      },
+      "interpretation_note": "「下嫁」記婚配；不推定婚年或子女。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xintangshu083-wangyu-father-jianzhi",
+      "subject_person_id": "qpf_fkj_5na",
+      "predicate": "father",
+      "object_person_id": "hqn_mja_zsj",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-xintangshu",
+          "book_id": "b-xintangshu-083",
+          "chapter_id": "c-xintangshu-083-tongan",
+          "source_id": "s-xintangshu083-ws2605952",
+          "paragraph_id": "c-xintangshu-083-tongan:p001",
+          "quote": "同安公主，高祖同母媦也。下嫁隋州刺史王裕。貞觀時，以屬尊進大長公主。嘗有疾，太宗躬省視，賜縑五百，姆侍皆有賚予。永徽初，賜實戶三百。薨年八十六。裕，隋司徒柬之子，終開府儀同三司。",
+          "subject_person_mention_id": "c-xintangshu-083-tongan:p001:m0004",
+          "object_person_mention_id": "c-xintangshu-083-tongan:p001:m0005"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "裕，隋司徒柬之子",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "原文明言王裕為柬之子；柬之姓氏未見，不補姓。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

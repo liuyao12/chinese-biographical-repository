@@ -1,0 +1,46 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_temporal_constraint_set",
+  "chapter_id": "c-jiutangshu-004-tongan-visit",
+  "constraints": [
+    {
+      "id": "tc-jiutangshu004-tongan-death-gte-yonghui3",
+      "person_id": "acz_c2l_abu",
+      "target": {
+        "entity_type": "life_event",
+        "entity_id": "le-xintangshu083-tongan-death",
+        "property": "year"
+      },
+      "operator": "gte",
+      "value": {
+        "kind": "chinese_regnal_year",
+        "era_name": "永徽",
+        "year": 3
+      },
+      "derivation": {
+        "kind": "alive_at_date",
+        "source_term": "永徽三年",
+        "rationale": "卷題為高宗上，永徽三年年題統攝本條；「幸同安大長公主第」按探視其府第的語境，暫推公主當時在世。這是死亡下界的編者推論，並非原文明言「未薨」。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jiutangshu",
+          "book_id": "b-jiutangshu-004",
+          "source_id": "s-jiutangshu004-ws11616345",
+          "chapter_id": "c-jiutangshu-004-tongan-visit",
+          "paragraph_id": "c-jiutangshu-004-tongan-visit:p001",
+          "quote": "永徽三年\n冬十月戊戌，幸同安大長公主第，又幸高陽長公主第，即日還宮。",
+          "person_mention_id": "c-jiutangshu-004-tongan-visit:p001:m0000",
+          "anchor": {
+            "start": 0,
+            "end": 4,
+            "surface": "永徽三年"
+          }
+        }
+      ],
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）"
+    }
+  ]
+}

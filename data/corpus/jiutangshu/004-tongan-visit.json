@@ -1,0 +1,75 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-jiutangshu-004-tongan-visit",
+  "work_id": "w-jiutangshu",
+  "book_id": "b-jiutangshu-004",
+  "source_id": "s-jiutangshu004-ws11616345",
+  "title": "舊唐書卷四〈本紀第四·高宗上〉永徽三年冬十月條",
+  "source": {
+    "title": "舊唐書卷四〈本紀第四·高宗上〉永徽三年冬十月條",
+    "provider": "維基文庫",
+    "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B74&oldid=11616345",
+    "permalink": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B74&oldid=11616345",
+    "revision_id": 11616345,
+    "accessed_on": "2026-11-16",
+    "edition": "固定修訂數位轉錄；未據影像核校",
+    "text_scope": "partial_chapter",
+    "extent": "固定修訂永徽三年年題與冬十月戊戌完整年表條；非卷四全文。",
+    "image_verified": false,
+    "review_status": "text_checked",
+    "rights": "古代原文；維基文庫數位轉錄依 CC BY-SA 4.0，保留來源與修訂。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "normalization": {
+      "character_conversion": "none",
+      "extraction_note": "保留固定修訂原字與標點；只取所標明的完整條目／年表條，不代表全卷。"
+    }
+  },
+  "text_sha256": "bc52d1e81ad2df44fc133a242021c4230e38bd8074715b414554777334081cbe",
+  "annotation": {
+    "status": "in_progress",
+    "scope": "partial_source_excerpt_named_person_first_pass",
+    "reviewer": "Codex（AI代理）",
+    "human_reviewed": false,
+    "model": null,
+    "coverage": "只收同安公主條／永徽三年探視條；所收節錄中的具名人物均有穩定錨點，不代表全卷已整理。",
+    "limitations": [
+      "本筆為局部來源摘錄，不是完整卷篇。",
+      "未核影像；只覆核固定維基文庫數位轉錄。",
+      "人物身份與時間推導為AI暫定，未經人工逐項覆核。"
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-jiutangshu-004-tongan-visit:p001",
+      "text": "永徽三年\n冬十月戊戌，幸同安大長公主第，又幸高陽長公主第，即日還宮。",
+      "source_position": {
+        "revision_id": 11616345,
+        "section_heading": "永徽三年",
+        "locator": "冬十月戊戌條"
+      },
+      "mentions": [
+        {
+          "id": "c-jiutangshu-004-tongan-visit:p001:m0000",
+          "start": 12,
+          "end": 18,
+          "surface": "同安大長公主",
+          "kind": "person",
+          "person_id": "acz_c2l_abu",
+          "status": "contextual_provisional",
+          "interpretation_note": "與新唐書同安公主條為同一傳主；爵稱依年代變化，判讀仍可撤回。"
+        },
+        {
+          "id": "c-jiutangshu-004-tongan-visit:p001:m0001",
+          "start": 22,
+          "end": 27,
+          "surface": "高陽長公主",
+          "kind": "person",
+          "person_id": "ss2_ae5_cjy",
+          "status": "source_explicit",
+          "interpretation_note": "同條並列受幸者；此摘錄不判定其與其他高陽公主記載的身份。"
+        }
+      ]
+    }
+  ]
+}
