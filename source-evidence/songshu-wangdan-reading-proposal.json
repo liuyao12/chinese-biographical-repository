@@ -15,57 +15,60 @@
   },
   "preferred_witness": {
     "source_title": "《宋書》卷五十二〈王誕傳〉",
-    "source_type": "received_history_print_witness",
-    "institution": "國家圖書館",
-    "shelfmark": "201.2391 01471",
-    "catalogue_url": null,
-    "catalogue_status": "國家圖書館 01471 對應詳目尚未確認；排除先前誤連至書號 01469 的《宋書》記錄。",
-    "image_url": "https://commons.wikimedia.org/wiki/File:NCL-01471_29_%E5%AE%8B%E6%9B%B8.pdf",
-    "edition": "南宋初期刊宋元明初遞修九行本",
-    "witness_date": "南宋初刊；宋、元、明初遞修",
-    "image_verified": false,
-    "transcription_status": "尚未從本卷書影逐字轉錄；不得將下列數位轉錄冒稱為據此掃描錄文。",
-    "volume_mapping": "Commons 檔名標示 NCL-01471 卷29；卷29為館藏實體冊次，尚未核實其涵蓋《宋書》卷52或王誕所在葉，影像頁碼待核定。",
+    "source_type": "received_history_digital_transcription",
     "work_id": "w-songshu",
     "book_id": "b-songshu-052",
     "chapter_id": "c-songshu-052-wangdan",
-    "source_id": "s-songshu-052-wangdan-ncl01471"
+    "source_id": "s-songshu-052-wangdan-ctext-wyg",
+    "provider": "中國哲學書電子化計劃（CText）",
+    "url": "https://ctext.org/wiki.pl?chapter=488955&if=en",
+    "edition": "武英殿二十四史本（據 CText 資料頁與館藏目錄標示；需重新核讀 metadata）",
+    "metadata_urls": [
+      "https://ctext.org/datawiki.pl?if=en&res=973033",
+      "https://ctext.org/library.pl?collection=7&if=gb"
+    ],
+    "text_access_status": "本次自動化存取只返回站方安全／反自動化限制頁；站方明示不得由自動程序擷取且可能回傳錯誤資料。未嘗試繞過，未讀取或轉錄正文。",
+    "image_verified": false,
+    "scan_image_url": null,
+    "scan_page_mapping_status": "未定位含卷五十二王誕傳的武英殿書影；不得宣稱已核影或以其他冊掃描代替。",
+    "catalogue_status": "CText 版次標示來源列於 metadata_urls；NCL 01471 官方詳目與王誕所屬書影仍未定位。",
+    "volume_mapping": "已排除的 NCL-01471_29 PDF 第10頁明題《宋書》卷十七；不得再用它定位卷五十二。"
   },
   "transcription_witnesses": [
     {
       "source_title": "《宋書》卷五十二",
-      "url": "https://www.shidianguji.com/zh/book/SK0713/chapter/1m1e3ed0b95pq",
-      "edition_label": "頁面明標「欽定四庫全書」",
-      "role": "parallel_text_only",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-052",
+      "chapter_id": "c-songshu-052-wangdan",
+      "source_id": "s-songshu-052-wangdan-ctext-wyg",
+      "url": "https://ctext.org/wiki.pl?chapter=488955&if=en",
+      "edition_label": "CText 資料頁與武英殿二十四史館藏目錄標示武英殿本；本次正文因自動化存取限制未能讀取",
+      "role": "preferred_digitized_witness",
       "used_as_base_text": false,
-      "reason": "四庫本不得作本專案底本；此頁僅供檢索與平行讀法比對。",
+      "reason": "預定作為武英殿數位正文見證；取得可用文本後再逐字轉錄。本提案目前不含該頁正文或字位。"
+    },
+    {
+      "source_title": "《宋書》卷五十二",
       "work_id": "w-songshu",
       "book_id": "b-songshu-052",
       "chapter_id": "c-songshu-052-wangdan",
       "source_id": "s-songshu-052-wangdan-sk0713",
-      "transcription_note": "逐字提案引文來自此標明四庫本的平行轉錄；不是主要底本，也未以其作本庫正文。"
-    },
-    {
-      "source_title": "《南史》卷二十三",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/NLC016-HWRB201817013-3929_%E5%8D%97%E5%8F%B2_%E5%85%AB%E5%8D%81%E5%8D%B7_%E7%AC%AC7%E5%86%8A.pdf",
-      "edition_label": "國家圖書館掃描影像；本記錄未完成版次與頁碼核定",
-      "role": "parallel_work_witness",
-      "image_verified": false,
-      "work_id": "w-nanshi",
-      "book_id": "b-nanshi-023",
-      "chapter_id": "c-nanshi-023-wangdan",
-      "source_id": "s-nanshi-023-wangdan-ncl"
-    },
-    {
-      "source_title": "《南史》卷二十三",
-      "url": "https://www.shidianguji.com/zh/book/LS0014/chapter/LS0014_127",
-      "edition_label": "線上轉錄；頁面未明示所據版刻",
+      "url": "https://www.shidianguji.com/zh/book/SK0713/chapter/1m1e3ed0b95pq",
+      "edition_label": "頁面明標「欽定四庫全書」",
       "role": "parallel_text_only",
       "used_as_base_text": false,
+      "reason": "僅作可讀平行轉錄，禁止作本庫底本。"
+    },
+    {
+      "source_title": "《南史》卷二十三",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-023",
       "chapter_id": "c-nanshi-023-wangdan",
-      "source_id": "s-nanshi-023-wangdan-ls0014"
+      "source_id": "s-nanshi-023-wangdan-ls0014",
+      "url": "https://www.shidianguji.com/zh/book/LS0014/chapter/LS0014_127",
+      "edition_label": "線上轉錄，所據版刻未明",
+      "role": "parallel_text_only",
+      "used_as_base_text": false
     }
   ],
   "source_attestations": [
@@ -73,7 +76,7 @@
       "id": "a-proposal-songshu052-wangdan-kinship-001",
       "witness": "《宋書》卷五十二〈王誕傳〉",
       "provisional_quote": "王誕字茂世，琅邪臨沂人，太保弘從兄也。祖恬，中軍將軍。父混，太常。誕少有才藻。晉孝武帝崩，從叔尚書令珣為哀策文，久而未就……",
-      "provisional_quote_source": "《宋書》數位平行轉錄，與國圖版刻尚未逐字核對",
+      "provisional_quote_source": "四庫平行轉錄（非本庫底本；不代表武英殿本文）。",
       "reading": "王誕傳首記其字茂世、琅邪臨沂籍貫、祖恬、父混，並稱太保王弘為「從兄」；稱尚書令王珣為「從叔」。",
       "person_links": {
         "wangdan": "vhf_729_g6z",
@@ -88,24 +91,25 @@
         "wangdan_wangxun": "保留宋書原詞「從叔」，只記來源所示父系旁支長幼代際；不推定共同祖先或確切親等。",
         "wangdan_ancestors": "傳文直接稱祖恬、父混；分別記祖父與父親，不據其他王氏譜系補入中間世代。"
       },
-      "status": "proposed_not_yet_native_assertion",
+      "status": "parallel_transcription_only_pending_preferred_witness",
       "work_id": "w-songshu",
       "book_id": "b-songshu-052",
       "chapter_id": "c-songshu-052-wangdan",
-      "source_id": "s-songshu-052-wangdan-sk0713"
+      "source_id": "s-songshu-052-wangdan-sk0713",
+      "text_verification_note": "「從兄」「從叔」讀法目前僅在明標四庫的平行轉錄中可查；武英殿本文未能讀取，故尚未建立正式來源斷言。"
     },
     {
       "id": "a-proposal-nanshi023-wangdan-kinship-variant",
       "witness": "《南史》卷二十三〈王誕傳〉",
       "provisional_quote": "王誕字茂世，太保弘從祖兄也。祖恬，晉中軍將軍。父混，太常卿。",
-      "provisional_quote_source": "《南史》線上轉錄；掃描影像待逐字核校",
+      "provisional_quote_source": "《南史》線上平行轉錄；版次與掃描影像尚未核定",
       "reading": "南史作「從祖兄」，與宋書「從兄」分列為不同作品的異讀。",
       "person_links": {
         "wangdan": "vhf_729_g6z",
         "wanghong": "7r6_k52_qji_ABAAAAA"
       },
       "priority": "低於《宋書》王誕本傳的原詞；不合併兩讀法、不標作同篇內矛盾。",
-      "status": "parallel_variant_pending_image_review",
+      "status": "parallel_transcription_only_pending_image_review",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-023",
       "chapter_id": "c-nanshi-023-wangdan",
@@ -119,6 +123,8 @@
     "note": "只保存各史所載親稱，不因異讀或稱謂自動補造共同祖先及精確世系。"
   },
   "next_steps": [
+    "在站方授權的可用方式下取得 CText 武英殿正文，轉錄完整王誕傳並固定版本修訂／全文摘要；或取得相應武英殿書影頁。",
+    "定位並核實包含《宋書》卷五十二〈王誕傳〉的國圖掃描及原頁碼；勿以 NCL-01471_29（其第10頁為卷十七）代替。",
     "登記之章 ID 目前只是 registry placeholder；在取得影像轉錄後新增原生 marked_chapter/source record，並以一致的 work/book/chapter/source IDs 取代提案狀態。",
     "取得可讀的國圖卷29相關葉影像，確認卷52所在葉及逐字轉錄。",
     "以正文逐人標記新章完整傳記，所有 relation/address/title/event assertions 均綁定原文 mention。",
@@ -131,5 +137,12 @@
   },
   "chapter_id": "c-songshu-052-wangdan",
   "source_id": "s-songshu-052-wangdan-ncl01471",
-  "chapter_status": "registry_placeholder_only; no marked_chapter record yet"
+  "chapter_status": "registry_placeholder_only; no marked_chapter record yet",
+  "excluded_scan_observation": {
+    "source_title": "國圖藏《宋書》NCL-01471 29 掃描檔",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/NCL-01471_29_%E5%AE%8B%E6%9B%B8.pdf",
+    "observation": "實際目視 PDF 第10掃描頁題「列傳第七／宋書卷十七」，故不是卷五十二王誕傳的可用文字見證。",
+    "role": "excluded_unrelated_scan",
+    "image_verified": true
+  }
 }
