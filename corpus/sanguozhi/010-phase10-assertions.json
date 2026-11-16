@@ -782,6 +782,69 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-xun10-031",
+      "subject_person_id": "yoo_ox0_545_BAA",
+      "predicate": "father",
+      "object_person_id": "yoo_ox0_545_BA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029",
+          "quote": "晉陽秋曰顗字景倩㓜為姊夫陳羣所異博學洽聞意思慎宻司馬宣王見顗奇之曰荀令君之子也",
+          "subject_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029:m0029",
+          "object_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029:m0033"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "荀令君之子也",
+        "lineage": "paternal",
+        "source_layer": "ancient_commentary"
+      },
+      "interpretation_note": "《晉陽秋》引文以「荀令君之子也」明言顗為荀彧之子；此為裴注所引來源，與《晉書》另條證據分存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xun10-032",
+      "subject_person_id": "yoo_ox0_545_BAE",
+      "predicate": "brother",
+      "object_person_id": "yoo_ox0_545_BAC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029",
+          "quote": "何邵為粲傳曰粲字奉倩粲諸兄並以儒術論議而粲獨好言道常以為子貢稱夫子之言性與天道不可得聞然則六籍雖存固聖人之糠粃粲兄俁難",
+          "subject_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029:m0142",
+          "object_person_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u029:m0144"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "粲兄俁",
+        "source_layer": "ancient_commentary",
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "siblings",
+          "older_person_id": "yoo_ox0_545_BAC",
+          "younger_person_id": "yoo_ox0_545_BAE",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "何邵《荀粲傳》明稱「粲兄俁」；只記俁年長於粲，不推絕對排行、生母或共同祖先層數。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }
