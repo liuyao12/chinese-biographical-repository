@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `al7_2l9_13l` | 韓伯 | [《晉書・陸曄 何充 褚翜 蔡謨 諸葛恢 殷浩》][52] | [JSON](al7_2l9_13l.json) |
 | `ale_lqi_2nm` | 廣陽王嘉〔餞王肅〕 | [《魏書・楊播》][231] | [JSON](ale_lqi_2nm.json) |
 | `ali_hbb_4bn` | 殷融 | [《晉書・陸曄 何充 褚翜 蔡謨 諸葛恢 殷浩》][52] | [JSON](ali_hbb_4bn.json) |
 | `alm_lj2_1og` | 安（長史） | [《史記・衛將軍驃騎列傳》][180] | [JSON](alm_lj2_1og.json) |
@@ -254,7 +255,6 @@
 | `c00_f46_bbe` | 史起 | [《宋書・謝靈運》][221] | [JSON](c00_f46_bbe.json) |
 | `c03_362_4d7` | 司馬元顯 | [《晉書・叛臣二》][60] | [JSON](c03_362_4d7.json) |
 | `c07_9b9_b2d` | 曹冏 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][37] | [JSON](c07_9b9_b2d.json) |
-| `c0b_mpt_epd` | 長公主（賜鄧通） | [《史記・佞幸列傳》][194] | [JSON](c0b_mpt_epd.json) |
 | `c0f_440_745` | 趙岐 | [《三國志・二荀賈傳》][79] | [JSON](c0f_440_745.json) |
 | `c18_pif_asp` | 犖（圉人） | [《史記・魯周公世家》][102] | [JSON](c18_pif_asp.json) |
 | `c1d_31f_070` | 傅隆 | [《宋書・王華 王曇首 殷景仁 沈演之》][218] | [JSON](c1d_31f_070.json) |
@@ -1894,7 +1894,6 @@
 | `le6_hlz_o1r` | 隨侯（楚武王伐隨時未名） | [《史記・楚世家》][109] | [JSON](le6_hlz_o1r.json) |
 | `le8_eqh_ry0` | 夫子引言 | [《史記・孟子荀卿列傳》][143] | [JSON](le8_eqh_ry0.json) |
 | `leg_wk9_nkl` | 晉景公 | [《史記・鄭世家》][111] | [JSON](leg_wk9_nkl.json) |
-| `leq_v5u_u2n` | 周文仁 | [《史記・佞幸列傳》][194] | [JSON](leq_v5u_u2n.json) |
 | `leu_lia_ldo` | 老氏 | [《史記・酷吏列傳》][191] | [JSON](leu_lia_ldo.json) |
 | `lfk_aka_wnj` | 呂禮 | [《史記・秦本紀》][92] | [JSON](lfk_aka_wnj.json) |
 | `lfp_pwy_rym` | 屈宜臼 | [《史記・韓世家》][114]、[《史記・六國年表》][241] | [JSON](lfp_pwy_rym.json) |
@@ -2094,6 +2093,7 @@
 | `msq_x2n_nnn` | 盧悚 | [《晉書・桓彝》][44] | [JSON](msq_x2n_nnn.json) |
 | `msv_9r0_wtk` | 趙襄子 | [《史記・韓世家》][114] | [JSON](msv_9r0_wtk.json) |
 | `mt4_h3l_bbn` | 齊王蘇代過魏 | [《史記・蘇秦列傳》][138] | [JSON](mt4_h3l_bbn.json) |
+| `mta_jet_l8e` | 楊安〔本紀來源局部〕 | [《晉書・太宗簡文帝 孝武帝》][21] | [JSON](mta_jet_l8e.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

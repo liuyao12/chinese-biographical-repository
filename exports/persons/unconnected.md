@@ -514,7 +514,7 @@
 | `2ip_ioo_pf7` | 鄒衍 | [《史記・孟子荀卿列傳》][143] | [JSON](2ip_ioo_pf7.json) |
 | `2j3_uzv_a2x` | 呂忿 | [《史記・呂后本紀》][96]、[《史記・惠景間侯者年表》][245] | [JSON](2j3_uzv_a2x.json) |
 | `2j4_zl6_6ms` | 鐘離生 | [《史記・外戚世家》][118] | [JSON](2j4_zl6_6ms.json) |
-| `2jn_tjp_75n` | 周仁 | [《史記・萬石張叔列傳》][172] | [JSON](2jn_tjp_75n.json) |
+| `2jn_tjp_75n` | 周仁（字文） | [《史記・萬石張叔列傳》][172] | [JSON](2jn_tjp_75n.json) |
 | `2jv_fri_ifh` | 萇弘（周臣） | [《史記・管蔡世家》][104] | [JSON](2jv_fri_ifh.json) |
 | `2k3_1v0_aqi` | 程縱 | [《史記・樊酈滕灌列傳》][164] | [JSON](2k3_1v0_aqi.json) |
 | `2kq_bij_vxi` | 邢夫人 | [《史記・外戚世家》][118] | [JSON](2kq_bij_vxi.json) |
@@ -2093,7 +2093,6 @@
 | `ajw_5lx_1mf` | 齊鮑牧 | [《史記・伍子胥列傳》][135] | [JSON](ajw_5lx_1mf.json) |
 | `al3_w9j_0ng` | 宋昌 | [《史記・孝文本紀》][97] | [JSON](al3_w9j_0ng.json) |
 | `al5_e32_vh6` | 胡母班 | [《後漢書・孝獻帝紀》][14] | [JSON](al5_e32_vh6.json) |
-| `al7_2l9_13l` | 韓伯 | [《晉書・陸曄 何充 褚翜 蔡謨 諸葛恢 殷浩》][52] | [JSON](al7_2l9_13l.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

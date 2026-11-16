@@ -29,13 +29,28 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "5段全文及27名來源候選初標；6條親屬、5條死亡及4條地點已存，16條官爵用語與1項明示免職已存；跨篇身份續核。 2名未發布候選接家族路徑，缺名世代保留。 2組跨篇暫同指有雙篇證據。",
+    "coverage": "五段全文；原有113個人物姓名錨已逐項覆核，原5個未解錨中「善相者」改列非姓名人物指涉，現餘4個未解錨。六項親屬、五項死亡、四項地點、十六項官爵用稱及一項免職仍保留；新增四組跨篇身份整併，五個重複ID的現役引用已遷移。「善相者」依《潛夫論》卷六暫指許負，不收入姓名別名。匿名者、群稱、年代與版本仍待後續覆核。",
     "limitations": [
       "未核影像，姦字保留來源字形，無簡繁轉換。",
       "首段與上臥起跨高祖孝惠敘述，皇帝端點保持未解。第3段上林為苑名，不作今天子。",
-      "第二段夢欲上天與推之上天不是皇帝姓名；相者預言當貧餓死不當作已發生死亡。",
-      "長公主、弓高侯、江都王與皇太后保留來源稱呼，不按熟知姓名自動跨篇合併。",
+      "第二段夢欲上天與推之上天不是皇帝姓名；相者預言當貧餓死不當作已發生死亡。相者「善相者」依《潛夫論》傳文暫指許負，但《史記》《漢書》本段均未具名。",
+      "長公主依《史記三家註》韋昭「景帝姊也」及司馬貞「即館陶公主也」暫指劉嫖；弓高侯、江都王等仍依各自來源與跨篇證據審慎處理。",
       "寵幸、亂與姦不當作婚姻；未名父母、女弟及子男分開，兄弟昆弟群體不補數字與姓名。"
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-shiji-125-ningxing:m002-0182",
+        "paragraph_id": "c-shiji-125-ningxing:p002",
+        "start": 182,
+        "end": 185,
+        "surface": "善相者",
+        "person_id": "w0i_qc3_tpy",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "上使善相者相通，曰「當貧餓死」。",
+        "rationale": "「善相者」是本事中的職能稱指，不是姓名或許負的姓名別名。東漢王符《潛夫論》卷六〈相列第二十七〉記「許負之相鄧通條侯」，以許負為主語、鄧通與條侯為並列賓語，明載許負曾為鄧通相面；據此將本段文帝所使的相者暫定為本庫許負。此為較晚傳世記載，且《史記》與《漢書》卷九十三在本事均未具名，故保留中等信心及代理暫判。參考原文（固定修訂1380327）：https://zh.wikisource.org/w/index.php?title=潛夫論/卷六&oldid=1380327；CTP數位篇：https://ctext.org/wiki.pl?chapter=443769&if=gb",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
@@ -315,15 +330,6 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-shiji-125-ningxing:m002-0182",
-          "start": 182,
-          "end": 185,
-          "surface": "善相者",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
-        },
-        {
           "id": "c-shiji-125-ningxing:m002-0186",
           "start": 186,
           "end": 187,
@@ -518,7 +524,7 @@
           "end": 395,
           "surface": "長公主",
           "kind": "person",
-          "person_id": "c0b_mpt_epd",
+          "person_id": "yqp_nlb_p1p_ACF",
           "status": "contextual_provisional"
         },
         {
@@ -536,7 +542,7 @@
           "end": 418,
           "surface": "長公主",
           "kind": "person",
-          "person_id": "c0b_mpt_epd",
+          "person_id": "yqp_nlb_p1p_ACF",
           "status": "contextual_provisional"
         },
         {
@@ -554,7 +560,7 @@
           "end": 454,
           "surface": "周文仁",
           "kind": "person",
-          "person_id": "leq_v5u_u2n",
+          "person_id": "2jn_tjp_75n",
           "status": "contextual_provisional"
         },
         {
@@ -563,7 +569,7 @@
           "end": 456,
           "surface": "仁",
           "kind": "person",
-          "person_id": "leq_v5u_u2n",
+          "person_id": "2jn_tjp_75n",
           "status": "contextual_provisional"
         },
         {
@@ -1136,7 +1142,7 @@
           "end": 15,
           "surface": "彌子瑕",
           "kind": "person",
-          "person_id": "ux5_ksp_tlb",
+          "person_id": "eb9_g6y_4q6",
           "status": "contextual_provisional"
         }
       ]

@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `mta_jet_l8e` | 楊安〔本紀來源局部〕 | [《晉書・太宗簡文帝 孝武帝》][21] | [JSON](mta_jet_l8e.json) |
 | `mtx_qs1_a5q` | 孝惠帝 | [《史記・齊悼惠王世家》][121] | [JSON](mtx_qs1_a5q.json) |
 | `mua_01m_5ng` | 齊宗女（重耳妻） | [《史記・晉世家》][108] | [JSON](mua_01m_5ng.json) |
 | `muc_6xp_2ap` | 楚王（韓世家雍氏議論未名者） | [《史記・韓世家》][114] | [JSON](muc_6xp_2ap.json) |
@@ -575,7 +574,6 @@
 | `qj3_rhh_t76` | 甯喜（衛臣） | [《史記・衛康叔世家》][106] | [JSON](qj3_rhh_t76.json) |
 | `qjc_drk_933` | 奚容箴 | [《史記・仲尼弟子列傳》][136] | [JSON](qjc_drk_933.json) |
 | `qje_fwa_r4b` | 祁午（祁傒子） | [《史記・晉世家》][108] | [JSON](qje_fwa_r4b.json) |
-| `qjf_e2p_lm1` | 許負 | [《史記・游俠列傳》][193] | [JSON](qjf_e2p_lm1.json) |
 | `qji_mdf_7p6` | 田會 | [《史記・田敬仲完世家》][115]、[《史記・六國年表》][241] | [JSON](qji_mdf_7p6.json) |
 | `qk9_ejk_fnc` | 洩父 | [《史記・周本紀》][91] | [JSON](qk9_ejk_fnc.json) |
 | `qkg_mxc_rpe` | 大姬 | [《史記・孔子世家》][116]、[《新唐書・宰相世系一下》][233] | [JSON](qkg_mxc_rpe.json) |
@@ -584,7 +582,6 @@
 | `qlb_dp8_dbu` | 叔向 | [《史記・趙世家》][112] | [JSON](qlb_dp8_dbu.json) |
 | `qlj_fd6_5mz` | 鬼谷先生 | [《史記・張儀列傳》][139] | [JSON](qlj_fd6_5mz.json) |
 | `qlq_xq2_1sm` | 暴勝之（古注辨識） | [《史記・田叔列傳》][173] | [JSON](qlq_xq2_1sm.json) |
-| `qlu_yvc_mtu` | 許負 | [《史記・外戚世家》][118] | [JSON](qlu_yvc_mtu.json) |
 | `qm1_2k5_hct` | 頎（晉孝公） | [《史記・晉世家》][108] | [JSON](qm1_2k5_hct.json) |
 | `qms_rcb_628` | 王夫人兒姁 | [《史記・五宗世家》][128] | [JSON](qms_rcb_628.json) |
 | `qmv_v0h_tbb` | 宋元公（內昭公議事） | [《史記・魯周公世家》][102] | [JSON](qmv_v0h_tbb.json) |
@@ -1280,7 +1277,6 @@
 | `uwb_l4e_1vn` | 武王 | [《史記・蘇秦列傳》][138] | [JSON](uwb_l4e_1vn.json) |
 | `ux0_nvd_s8f` | 韓太子奐 | [《史記・秦本紀》][92] | [JSON](ux0_nvd_s8f.json) |
 | `ux3_la0_38d` | 魯昭公夫人孟子 | [《史記・仲尼弟子列傳》][136] | [JSON](ux3_la0_38d.json) |
-| `ux5_ksp_tlb` | 彌子瑕 | [《史記・佞幸列傳》][194] | [JSON](ux5_ksp_tlb.json) |
 | `uxa_zs4_qpz` | 秦武王 | [《史記・韓世家》][114] | [JSON](uxa_zs4_qpz.json) |
 | `uxr_e45_mz7` | 楊可 | [《史記・酷吏列傳》][191] | [JSON](uxr_e45_mz7.json) |
 | `uxv_exs_5k3` | 項冠 | [《漢書・樊酈滕灌傅靳周傳》][9]、[《史記・傅靳蒯成列傳》][167] | [JSON](uxv_exs_5k3.json) |

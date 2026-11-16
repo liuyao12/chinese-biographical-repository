@@ -4015,7 +4015,7 @@
 | `ACCAA` | 義 | [《史記・梁孝王世家》][127] | [JSON](yqp_nlb_p1p_ACCAA.json) |
 | `ACD` | 勝 | [《史記・梁孝王世家》][127] | [JSON](yqp_nlb_p1p_ACD.json) |
 | `ACE` | 孝文帝女公主 | [《史記・絳侯周勃世家》][126] | [JSON](yqp_nlb_p1p_ACE.json) |
-| `ACF` | 嫖（長公主） | [《史記・外戚世家》][118] | [JSON](yqp_nlb_p1p_ACF.json) |
+| `ACF` | 長公主劉嫖 | [《史記・外戚世家》][118] | [JSON](yqp_nlb_p1p_ACF.json) |
 | `ACG` | 梁孝王武 | [《史記・梁孝王世家》][127] | [JSON](yqp_nlb_p1p_ACG.json) |
 | `ACGA` | 買 | [《史記・梁孝王世家》][127] | [JSON](yqp_nlb_p1p_ACGA.json) |
 | `ACGAA` | 襄 | [《史記・梁孝王世家》][127] | [JSON](yqp_nlb_p1p_ACGAA.json) |
