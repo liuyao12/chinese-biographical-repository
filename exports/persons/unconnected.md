@@ -577,7 +577,6 @@
 | `2xw_y7a_0ek` | 綽〔康弟，楷弟〕 | [《晉書・陳騫 裴秀》][27] | [JSON](2xw_y7a_0ek.json) |
 | `2y1_gwp_atp` | 劉洽 | [《晉書・陸曄 何充 褚翜 蔡謨 諸葛恢 殷浩》][52] | [JSON](2y1_gwp_atp.json) |
 | `2ye_xvh_3a7` | 愛妻（匈奴列傳第6段） | [《史記・匈奴列傳》][179] | [JSON](2ye_xvh_3a7.json) |
-| `2zg_srk_2oc` | 韓子 | [《史記・游俠列傳》][193] | [JSON](2zg_srk_2oc.json) |
 | `2zl_raa_zz4` | 清河王紹 | [《北史・燕鳳 許謙 崔宏 張袞 鄧彥海》][1]、[《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][227] | [JSON](2zl_raa_zz4.json) |
 | `2zx_wew_zui` | 蜀太守 | [《史記・司馬相如列傳》][186] | [JSON](2zx_wew_zui.json) |
 | `300_npr_qbl` | 戴逯 | [《晉書・謝尚 謝安》][53] | [JSON](300_npr_qbl.json) |
@@ -2096,6 +2095,7 @@
 | `af6_mhg_pyn` | 呂種 | [《史記・呂后本紀》][96]、[《史記・惠景間侯者年表》][245] | [JSON](af6_mhg_pyn.json) |
 | `af7_a2c_011` | 韓晃 | [《晉書・叛臣三》][62] | [JSON](af7_a2c_011.json) |
 | `afb_ahe_sqp` | 趙堯 | [《史記・張丞相列傳》][165] | [JSON](afb_ahe_sqp.json) |
+| `afc_k9r_hjr` | 衡父 | [《史記・秦本紀》][92] | [JSON](afc_k9r_hjr.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
