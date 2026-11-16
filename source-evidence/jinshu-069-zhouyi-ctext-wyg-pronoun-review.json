@@ -1,0 +1,584 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_mention_correction_audit",
+  "chapter_id": "c-jinshu-069-zhouyi",
+  "title": "《晉書》卷六十九〈周顗〉指代與尊稱誤標修正",
+  "base_witness": {
+    "source_id": "s-jinshu-069-zhouyi",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7069&oldid=2012453",
+    "revision_id": 2012453
+  },
+  "parallel_witness": {
+    "source_id": "s-jinshu-069-zhouyi-ctext-wyg",
+    "provider": "Chinese Text Project",
+    "url": "https://ctext.org/wiki.pl?chapter=105634&if=gb",
+    "catalog_url": "https://ctext.org/wiki.pl?if=en&res=788577",
+    "library_catalog_url": "https://ctext.org/library.pl?if=en&res=77692",
+    "edition": "CText《晉書》條目明示底本為《武英殿二十四史》本；CText 館藏書目亦列為《武英殿二十四史》本。",
+    "accessed_on": "2026-11-15",
+    "image_verified": false
+  },
+  "method": "只移除本篇已標為 person、但逐處上下文明確為代詞或直接稱謂的 mention；保留字面正文、人物 ID 登記、所有專名提及及既有 source_attested 關係。身份決策的 surfaces 同步移除同一組代詞／尊稱。不同見證字位不互套。",
+  "removed_surface_counts": {
+    "之": 14,
+    "其": 9,
+    "我": 3,
+    "吾": 3,
+    "臣": 5,
+    "君": 3,
+    "卿": 4,
+    "公": 2,
+    "己": 2
+  },
+  "affected_person_ids": [
+    "39o_b6y_n74",
+    "3xx_gdy_or6_AAA",
+    "6v8_pk9_7k5",
+    "7r6_k52_qji_ABAA",
+    "d9d_ab2_a72",
+    "dkn_ge4_286_AAAAAAA",
+    "e2n_dxb_vmj",
+    "wpg_z2x_qwh"
+  ],
+  "affected_mentions": [
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p001:m0083",
+      "paragraph_id": "c-jinshu-069-zhouyi:p001",
+      "surface": "我",
+      "person_id": "wpg_z2x_qwh",
+      "span_codepoints": [
+        83,
+        84
+      ],
+      "context": "，將振起舊風，清我邦族矣。」廣陵戴"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p001:m0113",
+      "paragraph_id": "c-jinshu-069-zhouyi:p001",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        113,
+        114
+      ],
+      "context": "，素聞顗名，往候之，終坐而出，不敢"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p001:m0123",
+      "paragraph_id": "c-jinshu-069-zhouyi:p001",
+      "surface": "其",
+      "person_id": "d9d_ab2_a72",
+      "span_codepoints": [
+        123,
+        124
+      ],
+      "context": "終坐而出，不敢顯其才辯。顗從弟穆亦"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p001:m0146",
+      "paragraph_id": "c-jinshu-069-zhouyi:p001",
+      "surface": "之",
+      "person_id": "e2n_dxb_vmj",
+      "span_codepoints": [
+        146,
+        147
+      ],
+      "context": "折顗，顗陶然弗與之校，於是人士益宗"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p001:m0156",
+      "paragraph_id": "c-jinshu-069-zhouyi:p001",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        156,
+        157
+      ],
+      "context": "，於是人士益宗附之。州郡辟命皆不就"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p002:m0070",
+      "paragraph_id": "c-jinshu-069-zhouyi:p002",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        70,
+        71
+      ],
+      "context": "侃遣將吳寄以兵救之，故顗得免，因奔"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p002:m0087",
+      "paragraph_id": "c-jinshu-069-zhouyi:p002",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        87,
+        88
+      ],
+      "context": "王敦于豫章。敦留之。軍司戴邈曰：「"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p002:m0116",
+      "paragraph_id": "c-jinshu-069-zhouyi:p002",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        116,
+        117
+      ],
+      "context": "德望素重，宜還復之。」敦不從。帝召"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p003:m0023",
+      "paragraph_id": "c-jinshu-069-zhouyi:p003",
+      "surface": "臣",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        23,
+        24
+      ],
+      "context": "。顗上疏讓曰：「臣退自循省，學不通"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p003:m0066",
+      "paragraph_id": "c-jinshu-069-zhouyi:p003",
+      "surface": "臣",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        66,
+        67
+      ],
+      "context": "過量。不悟天鑒忘臣頑弊，乃欲使臣內"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p003:m0073",
+      "paragraph_id": "c-jinshu-069-zhouyi:p003",
+      "surface": "臣",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        73,
+        74
+      ],
+      "context": "忘臣頑弊，乃欲使臣內管銓衡，外忝傅"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p003:m0107",
+      "paragraph_id": "c-jinshu-069-zhouyi:p003",
+      "surface": "臣",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        107,
+        108
+      ],
+      "context": "不待識而明矣。若臣受負乘之責，必貽"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p003:m0158",
+      "paragraph_id": "c-jinshu-069-zhouyi:p003",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        158,
+        159
+      ],
+      "context": "軌匠以祛蒙蔽。望之儼然，斯不言之益"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p004:m0012",
+      "paragraph_id": "c-jinshu-069-zhouyi:p004",
+      "surface": "君",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        12,
+        13
+      ],
+      "context": "顗曰：「諸人咸以君方樂廣。」顗曰："
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p004:m0109",
+      "paragraph_id": "c-jinshu-069-zhouyi:p004",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        109,
+        110
+      ],
+      "context": "將加戮，累日方赦之。及出，諸公就省"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p004:m0210",
+      "paragraph_id": "c-jinshu-069-zhouyi:p004",
+      "surface": "吾",
+      "person_id": "dkn_ge4_286_AAAAAAA",
+      "span_codepoints": [
+        210,
+        211
+      ],
+      "context": "過，為有司所繩。吾亮其極歎之情，然"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p004:m0212",
+      "paragraph_id": "c-jinshu-069-zhouyi:p004",
+      "surface": "其",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        212,
+        213
+      ],
+      "context": "為有司所繩。吾亮其極歎之情，然亦是"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p006:m0022",
+      "paragraph_id": "c-jinshu-069-zhouyi:p006",
+      "surface": "君",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        22,
+        23
+      ],
+      "context": "酒嗔目謂顗曰：「君才不及弟，何乃橫"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p006:m0042",
+      "paragraph_id": "c-jinshu-069-zhouyi:p006",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        42,
+        43
+      ],
+      "context": "！」以所燃蠟燭投之。顗神色無忤，徐"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p006:m0070",
+      "paragraph_id": "c-jinshu-069-zhouyi:p006",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        70,
+        71
+      ],
+      "context": "策耳。」王導甚重之，嘗枕顗膝而指其"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p006:m0078",
+      "paragraph_id": "c-jinshu-069-zhouyi:p006",
+      "surface": "其",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        78,
+        79
+      ],
+      "context": "之，嘗枕顗膝而指其腹曰：「此中何所"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p006:m0105",
+      "paragraph_id": "c-jinshu-069-zhouyi:p006",
+      "surface": "卿",
+      "person_id": "7r6_k52_qji_ABAA",
+      "span_codepoints": [
+        105,
+        106
+      ],
+      "context": "空洞無物，然足容卿輩數百人。」導亦"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p006:m0132",
+      "paragraph_id": "c-jinshu-069-zhouyi:p006",
+      "surface": "卿",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        132,
+        133
+      ],
+      "context": "然嘯詠，導云：「卿欲希嵇、阮邪？」"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0033",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "君",
+      "person_id": "6v8_pk9_7k5",
+      "span_codepoints": [
+        33,
+        34
+      ],
+      "context": "濫邪？」顗曰：「君少年未更事。人主"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0096",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "其",
+      "person_id": "39o_b6y_n74",
+      "span_codepoints": [
+        96,
+        97
+      ],
+      "context": "強忍，狼抗無上，其意寧有限邪！」既"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0124",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "卿",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        124,
+        125
+      ],
+      "context": "，敦曰：「伯仁，卿負我！」顗曰：「"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0126",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "我",
+      "person_id": "39o_b6y_n74",
+      "span_codepoints": [
+        126,
+        127
+      ],
+      "context": "曰：「伯仁，卿負我！」顗曰：「公戎"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0133",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "公",
+      "person_id": "39o_b6y_n74",
+      "span_codepoints": [
+        133,
+        134
+      ],
+      "context": "負我！」顗曰：「公戎車犯順，下官親"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0160",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "公",
+      "person_id": "39o_b6y_n74",
+      "span_codepoints": [
+        160,
+        161
+      ],
+      "context": "王旅奔敗，以此負公。」敦憚其辭正，"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0165",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "其",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        165,
+        166
+      ],
+      "context": "以此負公。」敦憚其辭正，不知所答。"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0182",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        182,
+        183
+      ],
+      "context": "帝召顗於廣室，謂之曰：「近日大事，"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0223",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "臣",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        223,
+        224
+      ],
+      "context": "二宮自如明詔，於臣等故未可知。」護"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0247",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "吾",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        247,
+        248
+      ],
+      "context": "顗避敦，顗曰：「吾備位大臣，朝廷喪"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0350",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "其",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        350,
+        351
+      ],
+      "context": "未終，收人以戟傷其口，血流至踵，顏"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p007:m0385",
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        385,
+        386
+      ],
+      "context": "石頭南門外石上害之，時年五十四。"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p008:m0077",
+      "paragraph_id": "c-jinshu-069-zhouyi:p008",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        77,
+        78
+      ],
+      "context": "，一面披襟，便許之三事，何圖不幸自"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p008:m0148",
+      "paragraph_id": "c-jinshu-069-zhouyi:p008",
+      "surface": "其",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        148,
+        149
+      ],
+      "context": "米數石，在位者服其清約。敦卒後，追"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p009:m0047",
+      "paragraph_id": "c-jinshu-069-zhouyi:p009",
+      "surface": "卿",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        47,
+        48
+      ],
+      "context": "「伯仁，以百口累卿！」顗直入不顧。"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p009:m0072",
+      "paragraph_id": "c-jinshu-069-zhouyi:p009",
+      "surface": "其",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        72,
+        73
+      ],
+      "context": "，申救甚至，帝納其言。顗喜飲酒，致"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p009:m0140",
+      "paragraph_id": "c-jinshu-069-zhouyi:p009",
+      "surface": "己",
+      "person_id": "7r6_k52_qji_ABAA",
+      "span_codepoints": [
+        140,
+        141
+      ],
+      "context": "甚切至。導不知救己，而甚銜之。敦既"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p009:m0145",
+      "paragraph_id": "c-jinshu-069-zhouyi:p009",
+      "surface": "之",
+      "person_id": "3xx_gdy_or6_AAA",
+      "span_codepoints": [
+        145,
+        146
+      ],
+      "context": "不知救己，而甚銜之。敦既得志，問導"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p009:m0235",
+      "paragraph_id": "c-jinshu-069-zhouyi:p009",
+      "surface": "己",
+      "person_id": "7r6_k52_qji_ABAA",
+      "span_codepoints": [
+        235,
+        236
+      ],
+      "context": "書故事，見顗表救己，殷勤款至。導執"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p009:m0254",
+      "paragraph_id": "c-jinshu-069-zhouyi:p009",
+      "surface": "其",
+      "person_id": "7r6_k52_qji_ABAA",
+      "span_codepoints": [
+        254,
+        255
+      ],
+      "context": "涕，悲不自勝，告其諸子曰：「吾雖不"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p009:m0260",
+      "paragraph_id": "c-jinshu-069-zhouyi:p009",
+      "surface": "吾",
+      "person_id": "7r6_k52_qji_ABAA",
+      "span_codepoints": [
+        260,
+        261
+      ],
+      "context": "，告其諸子曰：「吾雖不殺伯仁，伯仁"
+    },
+    {
+      "mention_id": "c-jinshu-069-zhouyi:p009:m0270",
+      "paragraph_id": "c-jinshu-069-zhouyi:p009",
+      "surface": "我",
+      "person_id": "7r6_k52_qji_ABAA",
+      "span_codepoints": [
+        270,
+        271
+      ],
+      "context": "不殺伯仁，伯仁由我而死。幽冥之中，"
+    }
+  ],
+  "ctext_line_mapping": [
+    {
+      "paragraph_id": "c-jinshu-069-zhouyi:p001",
+      "ctext_line": 41
+    },
+    {
+      "paragraph_id": "c-jinshu-069-zhouyi:p002",
+      "ctext_line": 42
+    },
+    {
+      "paragraph_id": "c-jinshu-069-zhouyi:p003",
+      "ctext_line": 43
+    },
+    {
+      "paragraph_id": "c-jinshu-069-zhouyi:p004",
+      "ctext_line": 44
+    },
+    {
+      "paragraph_id": "c-jinshu-069-zhouyi:p005",
+      "ctext_line": 45
+    },
+    {
+      "paragraph_id": "c-jinshu-069-zhouyi:p006",
+      "ctext_line": 46
+    },
+    {
+      "paragraph_id": "c-jinshu-069-zhouyi:p007",
+      "ctext_line": 47
+    },
+    {
+      "paragraph_id": "c-jinshu-069-zhouyi:p008",
+      "ctext_line": 48
+    },
+    {
+      "paragraph_id": "c-jinshu-069-zhouyi:p009",
+      "ctext_line": 49
+    },
+    {
+      "paragraph_id": "c-jinshu-069-zhouyi:p010",
+      "ctext_line": 50
+    }
+  ],
+  "limitations": "CText 將數位文本標為 OCR 自書影自動匹配。未核影像；頁面可檢索行與 Wikisource 正文存在局部字形差異（例如第46行）。本修正不以 CText 字位覆蓋 Wikisource 錨點，也不改寫現有關係證據引文。"
+}
