@@ -521,11 +521,17 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 'status': 'editorial_preferred', 'interpretation_case_id': case['id'],
                 'alternative_id': chosen['id'], 'qualifiers': qualifiers,
                 'evidence': case['evidence'], 'selection': case['selection']})
+    try:
+        from scripts.temporal_constraints import collect_temporal_constraints
+    except ImportError:
+        from temporal_constraints import collect_temporal_constraints
+    temporal_constraints = collect_temporal_constraints(records, ids)
     paragraph_ids = {m['paragraph_id'] for m in mentions}
     paragraph_ids.update(reference['paragraph_id'] for reference in person_references)
     paragraph_ids.update(n['paragraph_id'] for n in name_components if n.get('kind') != 'table_cell')
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case['evidence'])
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
+    paragraph_ids.update(evidence['paragraph_id'] for constraint in temporal_constraints for evidence in constraint['evidence'])
     paragraph_ids.update(pid for case in unresolved_cases + resolved_cases for pid in case['paragraph_ids'])
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)
     paragraph_ids.update(c['paragraph_id'] for c in referent_cases)
@@ -800,6 +806,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'source_title_uses': source_title_uses} if source_title_uses else {}),
             **({'source_details': source_details} if source_details else {}),
             **({'source_temporal_attestations': source_temporal_attestations} if source_temporal_attestations else {}),
+            **({'temporal_constraints': temporal_constraints} if temporal_constraints else {}),
             **({'unresolved_kinship_references': unresolved_kinship_references} if unresolved_kinship_references else {}),
             **({'relative_birth_order_decisions': order_decisions} if order_decisions else {}),
             **({'referent_interpretations': referent_cases} if referent_cases else {}),

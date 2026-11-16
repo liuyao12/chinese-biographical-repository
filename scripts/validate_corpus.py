@@ -2205,6 +2205,32 @@ def _validate_uncached(root=ROOT):
         context_events = {e['id']:e for path in (root / 'corpus').glob('*/*-life-events.json') for e in json.loads(path.read_text())['events']}
         for path in (root / 'corpus').glob('*/*-temporal.json'):
             errors.extend(temporal_errors(json.loads(path.read_text()), chapters, pids, normalized_date_errors, context_events))
+        try:
+            from scripts.temporal_constraints import temporal_constraint_errors
+        except ImportError:
+            from temporal_constraints import temporal_constraint_errors
+        temporal_constraint_ids = set()
+        temporal_targets = {('person', pid): pid for pid in pids}
+        temporal_targets.update({('life_event', event_id): event['person_id']
+                                 for event_id, event in context_events.items()})
+        for path in (root / 'corpus').glob('*/*-titles.json'):
+            for holding in json.loads(path.read_text(encoding='utf-8')).get('holdings', []):
+                temporal_targets[('title_holding', holding['id'])] = holding['person_id']
+        for chapter in chapters.values():
+            for age in chapter['annotation'].get('age_assertions', []):
+                temporal_targets[('age_assertion', age['id'])] = age['person_id']
+        for path in (root / 'corpus').glob('*/*-temporal.json'):
+            for attestation in json.loads(path.read_text(encoding='utf-8')).get('records', []):
+                temporal_targets[('temporal_attestation', attestation['id'])] = attestation['person_id']
+        for path in (root / 'corpus').glob('*/*-temporal-constraints.json'):
+            record = json.loads(path.read_text(encoding='utf-8'))
+            errors.extend(temporal_constraint_errors(record, chapters, pids, temporal_targets))
+            for constraint in record.get('constraints', []):
+                constraint_id = constraint.get('id')
+                if isinstance(constraint_id, str) and constraint_id in temporal_constraint_ids:
+                    errors.append(f'{constraint_id}: 時間約束 ID 重複')
+                if isinstance(constraint_id, str):
+                    temporal_constraint_ids.add(constraint_id)
         for chapter in chapters.values():
             for case in chapter['annotation'].get('unresolved_kinship_references', []):
                 errors.extend(unresolved_kin_errors(case, chapters, pids))

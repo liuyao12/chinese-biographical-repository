@@ -106,6 +106,14 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 篇章 `annotation.age_assertions` 保存來源所報年齡，逐人 JSON 同名欄位匯出。數值 `value`、原數詞 `source_number` 與 `source_term` 分開保存；`unit: source_age_years`、`counting: unspecified_source_age`、`birth_year: null` 不推定計歲方式或反推出生年。證據連到人物錨點與原句；`normalized_date` 是報齡所屬事件年，日期索引標 `date_role: age_attestation`，不作出生事件。支援「年」後或「歲／歳」前的一至九十九數詞，保留來源實際字形；其他報齡形式需擴充驗證後保存。
 
+## 來源時間約束
+
+`*-temporal-constraints.json` 的 `person_temporal_constraint_set` 將每段證據可支持的時間關係逐條保存，不只保存整理後的單一日期。欄位契約見 [`temporal-constraints.schema.json`](temporal-constraints.schema.json)。每條記錄指定人物、目標實體與屬性（如生卒事件的 `year`、爵位記錄的 `start_year`／`end_year`、報齡的 `value`）、比較運算子（`eq`、`lt`、`lte`、`gt`、`gte`）、時間值、推導方式、原文引句、來源／篇／段落、人物提及 ID 及原詞的 Unicode 字位錨點。目標以 `entity_type`、`entity_id`、`property` 組成，不需要自然語言解析。時間值可用年號年、中國曆年或有單位的整數；不同時間軸不應直接比較，須先有可追溯的曆法對照。
+
+`status: source_attested` 僅用於原文直接明載的量；`source_entailed` 用於原文語義及明確曆法邊界直接導出的關係；需要上下文判讀的推論標為 `editorial_provisional`，保存理由且不得冒稱人工覆核。例：「永徽中卒」可形成死亡年 \(\geq\) 永徽元年及死亡年 \(\leq\) 永徽六年兩條各自連回該段引文的約束；另一段若記永徽三年親往公主第，並據其語境判為她當時在世，可另存死亡年 \(\geq\) 永徽三年，並標明這是由「在世於該事件」推出的暫定關係，不把它改寫成直接死亡記載。
+
+逐人 API／人物包按人物及變數聚合原始約束，但保留每條來源證據與狀態；由不同來源交集得出的結果是消費端計算，不覆蓋或取代任何一條來源約束。例如前述兩組資料交集為永徽三年至六年。若年齡記載為「年八十六」，可另存 `age_at_event` 值86、單位 `source_age_years`；不得因此自動補造出生年。引文目前必須逐字等於來源段落，`anchor` 精確標出關鍵原詞；位置採 Unicode code point，供驗證器確認來源、人物及字位綁定。
+
 ## 同指判斷與已套用的身份整併
 
 `person_equivalence_set` 保存有證據的同指判讀。尚未套用時，`person_ids` 包含兩個或以上候選，`canonical_person_id` 必須屬於其中。按使用者最新要求，全部引用更新且驗證通過後撤除重複人物登記與 JSON，不永久保留舊 ID 別名。
