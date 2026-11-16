@@ -6,6 +6,32 @@
 
 總目標為逐書、逐篇收錄歷代正史與《資治通鑑》中出現的全部人物。目前依使用者調整的優先次序整理三國、兩晉、南北朝士族的跨史家系；《史記》《漢書》未完成工作仍保留，不以取得一份全文等同完成人物收錄。
 
+## 可追溯的非姓名人物指涉
+
+人物提及分成姓名／人物稱名（`kind: person`）與可定位到人物、但不是其姓名或稱名的語詞（`kind: person_reference`）。後者保留原始 mention ID、Unicode code-point span、表層字串及確定的 `person_id`，並以 `reference_type` 分類為 `pronoun`（代詞）或 `direct_address`（對話中的直接稱呼、自稱）。須有 `status: contextual_provisional`、`interpretation_note`、`reviewer`、`human_reviewed: false`；這些語詞不得加進人物 `aliases` 或身份判斷 `surfaces`。
+
+此類錨點保留在人物來源反查、API bundle、來源頻次與逐人來源清單中，讀者正文則以一般文字呈現，不畫姓名底線、不作姓名連結；附帶 `person_id` 只表示本條非姓名指涉明確指向誰。模糊、集合或無法確定指涉者仍用 `unresolved`，不要為了保留單字詞而猜一個人物。親屬詞（如「父」「弟」）不屬此類；依其來源親屬敘述模型另行標記。
+
+例如《晉書》卷六十九〈周顗傳〉：
+
+```json
+{
+  "id": "c-jinshu-069-zhouyi:p001:m0113",
+  "start": 113,
+  "end": 114,
+  "surface": "之",
+  "kind": "person_reference",
+  "reference_type": "pronoun",
+  "person_id": "3xx_gdy_or6_AAA",
+  "status": "contextual_provisional",
+  "interpretation_note": "「素聞顗名，往候之」中「之」回指周顗；是代詞，不是姓名異稱。",
+  "reviewer": "AI agent",
+  "human_reviewed": false
+}
+```
+
+此提及仍隸屬 `work_id: w-jinshu`、`book_id: b-jinshu-069`、`chapter_id: c-jinshu-069-zhouyi`、`source_id: s-jinshu-069-zhouyi` 的〈周顗傳〉段落，正文不改。對話稱「下官」可同樣保留為 `reference_type: direct_address` 並指向發言人；實際轉換仍須逐處核對主語及引語，不可按字面全域處理。此例說明未來遷移《晉書》卷六十九代詞更正時的資料形狀；不改動另開的 PR #686。
+
 ## ID 與原文
 
 `registry/works.json` 登記著作 `w-shiji`、原書卷 `b-shiji-001` 與篇 `c-shiji-001-wudi`。卷與篇恰好一對一時仍各有 ID；現代網頁便覽標題不當成古代篇。新增卷先登記歸屬，再錄正文。

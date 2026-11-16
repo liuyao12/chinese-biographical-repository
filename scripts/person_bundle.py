@@ -789,7 +789,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'person_ids': sorted(ids), 'persons': [people[p] for p in sorted(neighbor_ids)],
             'source_mention_summary': mention_summary,
             'most_mentioned_source_ids': most_mentioned,
-            'mention_count_policy': {'scope': 'independent_fixed_witness_occurrences', 'raw_mentions_preserved': True, 'passage_count_scope': 'annotation_containers', 'explanation': '頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。', 'included_kinds': ['paragraph', 'table_cell'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
+            'mention_count_policy': {'scope': 'independent_fixed_witness_occurrences', 'raw_mentions_preserved': True, 'passage_count_scope': 'annotation_containers', 'explanation': '頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。', 'included_kinds': ['paragraph', 'table_cell'], 'included_mention_kinds': ['person', 'person_reference'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
             **({'source_title_uses': source_title_uses} if source_title_uses else {}),
             **({'source_details': source_details} if source_details else {}),
