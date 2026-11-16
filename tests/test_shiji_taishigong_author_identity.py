@@ -21,7 +21,7 @@ class TaishigongAuthorIdentityTests(unittest.TestCase):
     def test_every_reviewed_occurrence_points_to_one_author_and_keeps_its_text(self):
         review=read('source-evidence/shiji-taishigong-author-identity/identity-reading.json')
         self.assertEqual(review['removed_source_local_profile_count'],72)
-        self.assertEqual(review['source_occurrence_count'],85)
+        self.assertEqual(review['source_occurrence_count'],108)
         chapters={d['id']:d for p in (ROOT/'corpus/shiji').glob('*.json')
                   if (d:=json.loads(p.read_text())).get('record_type')=='marked_chapter'}
         for unit in review['source_units']:
