@@ -1468,7 +1468,14 @@ def _validate_uncached(root=ROOT):
                             except ImportError:
                                 from received_career_roles import holding_valid as career_holding_valid
                             shared_suffix_valid = career_holding_valid(h, chapters[d['chapter_id']],root)
-                    check((a['surface']==h['title'] or shared_suffix_valid) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
+                    title_normalization = h.get('title_normalization')
+                    display_glyph_valid = (
+                        title_normalization == {'source_title': '臨川内史', 'kind': 'traditional_display_glyph'}
+                        and h['kind'] == 'office' and h['title'] == '臨川內史'
+                        and a['surface'] == '臨川内史'
+                    )
+                    check(title_normalization is None or display_glyph_valid, '官稱顯示字形轉換須保留已核原稱')
+                    check((a['surface']==h['title'] or shared_suffix_valid or display_glyph_valid) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
                     if hit:
                         check(isinstance(a['start'],int) and isinstance(a['end'],int) and 0<=a['start']<a['end']<=len(hit[1]['text']) and hit[1]['text'][a['start']:a['end']]==a['surface'],'稱號用稱字元位置不符')
                         enclosed=False
