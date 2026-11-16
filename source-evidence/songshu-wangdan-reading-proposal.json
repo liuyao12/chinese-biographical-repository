@@ -22,7 +22,7 @@
     "source_id": "s-songshu-052-wangdan-ctext-wyg",
     "provider": "中國哲學書電子化計劃（CText）",
     "url": "https://ctext.org/wiki.pl?chapter=488955&if=en",
-    "edition": "武英殿二十四史本（據 CText 資料頁與館藏目錄標示；需重新核讀 metadata）",
+    "edition": "武英殿二十四史本（CText 資料頁及館藏目錄所標示；正文目前受站方自動化存取限制，尚未核讀）",
     "metadata_urls": [
       "https://ctext.org/datawiki.pl?if=en&res=973033",
       "https://ctext.org/library.pl?collection=7&if=gb"
@@ -31,8 +31,7 @@
     "image_verified": false,
     "scan_image_url": null,
     "scan_page_mapping_status": "未定位含卷五十二王誕傳的武英殿書影；不得宣稱已核影或以其他冊掃描代替。",
-    "catalogue_status": "CText 版次標示來源列於 metadata_urls；NCL 01471 官方詳目與王誕所屬書影仍未定位。",
-    "volume_mapping": "已排除的 NCL-01471_29 PDF 第10頁明題《宋書》卷十七；不得再用它定位卷五十二。"
+    "catalogue_status": "CText 資料頁及館藏目錄標示此數位文本為武英殿本；未找到可核實的國圖 01471 詳目及本傳對應書影。"
   },
   "transcription_witnesses": [
     {
@@ -76,7 +75,7 @@
       "id": "a-proposal-songshu052-wangdan-kinship-001",
       "witness": "《宋書》卷五十二〈王誕傳〉",
       "provisional_quote": "王誕字茂世，琅邪臨沂人，太保弘從兄也。祖恬，中軍將軍。父混，太常。誕少有才藻。晉孝武帝崩，從叔尚書令珣為哀策文，久而未就……",
-      "provisional_quote_source": "四庫平行轉錄（非本庫底本；不代表武英殿本文）。",
+      "provisional_quote_source": "四庫平行轉錄（明標為非底本），讀法尚待武英殿本文核驗。",
       "reading": "王誕傳首記其字茂世、琅邪臨沂籍貫、祖恬、父混，並稱太保王弘為「從兄」；稱尚書令王珣為「從叔」。",
       "person_links": {
         "wangdan": "vhf_729_g6z",
@@ -123,10 +122,8 @@
     "note": "只保存各史所載親稱，不因異讀或稱謂自動補造共同祖先及精確世系。"
   },
   "next_steps": [
+    "在不違反 CText 站方限制的前提下，取得武英殿正文的授權可用版本或對應書影；目前不轉錄正文、不以四庫本代底本。",
     "在站方授權的可用方式下取得 CText 武英殿正文，轉錄完整王誕傳並固定版本修訂／全文摘要；或取得相應武英殿書影頁。",
-    "定位並核實包含《宋書》卷五十二〈王誕傳〉的國圖掃描及原頁碼；勿以 NCL-01471_29（其第10頁為卷十七）代替。",
-    "登記之章 ID 目前只是 registry placeholder；在取得影像轉錄後新增原生 marked_chapter/source record，並以一致的 work/book/chapter/source IDs 取代提案狀態。",
-    "取得可讀的國圖卷29相關葉影像，確認卷52所在葉及逐字轉錄。",
     "以正文逐人標記新章完整傳記，所有 relation/address/title/event assertions 均綁定原文 mention。",
     "將兩個來源關係讀法改存原生斷言，更新人物反向索引及 API bundles。",
     "獨立覆核後才考慮轉為可審查；本 PR 維持草稿。"
@@ -137,12 +134,5 @@
   },
   "chapter_id": "c-songshu-052-wangdan",
   "source_id": "s-songshu-052-wangdan-ncl01471",
-  "chapter_status": "registry_placeholder_only; no marked_chapter record yet",
-  "excluded_scan_observation": {
-    "source_title": "國圖藏《宋書》NCL-01471 29 掃描檔",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/NCL-01471_29_%E5%AE%8B%E6%9B%B8.pdf",
-    "observation": "實際目視 PDF 第10掃描頁題「列傳第七／宋書卷十七」，故不是卷五十二王誕傳的可用文字見證。",
-    "role": "excluded_unrelated_scan",
-    "image_verified": true
-  }
+  "chapter_status": "registry_placeholder_only; no marked_chapter record yet"
 }
