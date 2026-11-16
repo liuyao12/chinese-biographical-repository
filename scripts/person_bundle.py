@@ -415,7 +415,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
                 ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship', 'contextual_surname_from_wyd_song051_named_path', 'contextual_surname_from_wyd_song051_yixin', 'contextual_surname_from_wyd_song045_kinship') else relations), root=root)
+                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_wyd_song044_kinship', 'contextual_surname_from_wyd_song051_named_path', 'contextual_surname_from_wyd_song051_yixin', 'contextual_surname_from_wyd_song045_kinship', 'contextual_surname_from_cross_chapter_paternal_path') else relations), root=root)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:

@@ -4,6 +4,65 @@
   "chapter_id": "c-shiji-118-huainan",
   "decisions": [
     {
+      "id": "eq-shiji118-meihe",
+      "person_ids": [
+        "f6b_bwf_4dq"
+      ],
+      "canonical_person_id": "f6b_bwf_4dq",
+      "identity_materialized": true,
+      "status": "contextual_provisional",
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-118-huainan"
+      ],
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-118",
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p027",
+          "quote": "王乃使孝客江都人救赫、陳喜作輣車鏃矢，刻天子璽，將相軍吏印。",
+          "mention_ids": [
+            "c-shiji-118-huainan:m027-0519"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-118",
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p029",
+          "quote": "告所與謀反者救赫、陳喜等。",
+          "mention_ids": [
+            "c-shiji-118-huainan:m029-0218"
+          ]
+        }
+      ],
+      "rationale": "《史記》卷一一八兩處「救赫」均與陳喜並列，分別見於衡山王使孝之客製作兵器、及孝自告謀反者的同一案件。《漢書》卷四十四〈淮南衡山濟北王傳〉在相應兩段均作「枚赫、陳喜」，並保留同樣人物、事件順序及陳喜：卷四十四正文下半「王乃使孝客江都人枚赫、陳喜作輣車鍛矢」；後段「即先自告所與謀反者枚赫、陳喜等」。據此暫認《史記》「救赫」兩處與《漢書》所稱枚赫為同一人物，沿用既有人物 ID `f6b_bwf_4dq`；這是平行敘事的身份判讀，不據此改動《史記》原文，也不宣稱已校定底本或核過影像。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《漢書》卷四十四〈淮南衡山濟北王傳〉，識典古籍數位文本",
+          "url": "https://www.shidianguji.com/zh/book/LS0002/chapter/1j7m8xlrkpdfh_45",
+          "quote": "王乃使孝客江都人枚赫、陳喜作輣車鍛矢，刻天子璽，將、相、軍吏印。",
+          "scope": "parallel_named_event",
+          "image_verified": false,
+          "note": "核對識典古籍頁面正文；頁面未提供可核定的底本版次資訊，本次未核書影。"
+        },
+        {
+          "title": "《漢書》卷四十四〈淮南衡山濟北王傳〉，識典古籍數位文本",
+          "url": "https://www.shidianguji.com/zh/book/LS0002/chapter/1j7m8xlrkpdfh_45",
+          "quote": "即先自告所與謀反者枚赫、陳喜等。",
+          "scope": "parallel_named_event",
+          "image_verified": false,
+          "note": "此為同案後續段落；用以比較人名與事件，不視為獨立史實見證。核對識典古籍頁面正文，未核書影。"
+        }
+      ]
+    },
+    {
       "id": "eq-shiji118-chang",
       "person_ids": [
         "yqp_nlb_p1p_AF"

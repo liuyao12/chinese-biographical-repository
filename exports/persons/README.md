@@ -237,7 +237,7 @@
 
 </details>
 
-<details><summary><code>1l4_2pq_e7w</code> 熊通（楚武王候選）（3 名）</summary>
+<details><summary><code>1l4_2pq_e7w</code> 熊通（楚武王）（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2040,7 +2040,7 @@
 
 </details>
 
-<details><summary><code>fom_gr9_c8v</code> 孫叔敖（循吏列傳候選）（2 名）</summary>
+<details><summary><code>fom_gr9_c8v</code> 孫叔敖（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|

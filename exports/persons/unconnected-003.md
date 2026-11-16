@@ -175,7 +175,6 @@
 | `ngh_196_gz6` | 畢公 | [《史記・周本紀》][91] | [JSON](ngh_196_gz6.json) |
 | `ngh_hjf_xnr` | 齊威王 | [《史記・魏世家》][113] | [JSON](ngh_hjf_xnr.json) |
 | `nh2_z0q_c1e` | 西門豹 | [《史記・滑稽列傳》][195] | [JSON](nh2_z0q_c1e.json) |
-| `nhk_xgq_7qk` | 燕王聊城未名 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](nhk_xgq_7qk.json) |
 | `ni4_c3i_e2y` | 王騰（荀羨傳） | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47] | [JSON](ni4_c3i_e2y.json) |
 | `nix_7ug_wxv` | 呂嬃 | [《史記・陳丞相世家》][125] | [JSON](nix_7ug_wxv.json) |
 | `nix_nc9_m03` | 符𢎞祖 | [《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][211] | [JSON](nix_nc9_m03.json) |
@@ -397,7 +396,6 @@
 | `ozs_uc6_hp2` | 蔡猛 | [《宋書・宗室》][212] | [JSON](ozs_uc6_hp2.json) |
 | `p00_7fd_aoy` | 正考父 | [《史記・孔子世家》][116] | [JSON](p00_7fd_aoy.json) |
 | `p06_4l2_vmx` | 綽〔髙允孫〕 | [《魏書・燕鳳 許謙 張衮 崔玄伯 鄧淵》][231] | [JSON](p06_4l2_vmx.json) |
-| `p06_lrs_tg7` | 孫叔敖引古 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](p06_lrs_tg7.json) |
 | `p0o_71d_xqs` | 麋嶷 | [《晉書・外戚》][56] | [JSON](p0o_71d_xqs.json) |
 | `p0q_m9t_btu` | 舜後母 | [《史記・五帝本紀》][88] | [JSON](p0q_m9t_btu.json) |
 | `p0r_yzz_wnx` | 劉宣明〔瀛州民〕 | [《魏書・楊播》][235] | [JSON](p0r_yzz_wnx.json) |
@@ -869,7 +867,6 @@
 | `rtb_deo_xey` | 子良（楚莊王時鄭質子） | [《史記・楚世家》][109] | [JSON](rtb_deo_xey.json) |
 | `rtd_jgu_6jh` | 瑤〔晉儀同，楊舒墓誌祖先聲稱〕 | [《楊舒墓誌・全文》][3] | [JSON](rtd_jgu_6jh.json) |
 | `rtd_jq2_xol` | 王象 | [《三國志・諸夏侯曹傳》][77] | [JSON](rtd_jq2_xol.json) |
-| `ru1_bzw_3d6` | 田單 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](ru1_bzw_3d6.json) |
 | `rur_xf3_opk` | 太子母弟（昭公立時未名） | [《史記・魯周公世家》][102] | [JSON](rur_xf3_opk.json) |
 | `ruz_4q7_qi2` | 軍正 | [《史記・司馬穰苴列傳》][133] | [JSON](ruz_4q7_qi2.json) |
 | `rv1_o3i_m12` | 田常 | [《史記・仲尼弟子列傳》][136] | [JSON](rv1_o3i_m12.json) |
@@ -1062,7 +1059,6 @@
 | `syp_j9y_m2k` | 老子 | [《史記・外戚世家》][118] | [JSON](syp_j9y_m2k.json) |
 | `syq_5uv_2me` | 散宜生 | [《史記・蕭相國世家》][122] | [JSON](syq_5uv_2me.json) |
 | `syy_h2t_4ie` | 郤稱（邳鄭所列者） | [《史記・晉世家》][108] | [JSON](syy_h2t_4ie.json) |
-| `sz3_vzm_j03` | 尾生 | [《史記・陳丞相世家》][125] | [JSON](sz3_vzm_j03.json) |
 | `szo_tqq_qr1` | 休屠王（匈奴列傳第36段未名） | [《史記・匈奴列傳》][179] | [JSON](szo_tqq_qr1.json) |
 | `t00_u9v_yvd` | 王公 | [《史記・游俠列傳》][193] | [JSON](t00_u9v_yvd.json) |
 | `t09_bk5_omn` | 神農 | [《史記・貨殖列傳》][198] | [JSON](t09_bk5_omn.json) |

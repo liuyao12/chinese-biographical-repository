@@ -63,6 +63,10 @@ def validate(name,names,chapters,assertions,root=None):
   try:from .surname_received_family_units import validate as units_validate
   except ImportError:from surname_received_family_units import validate as units_validate
   return units_validate(name,names,chapters,assertions,root)
+ if name.get("surname_basis",{}).get("kind")=="contextual_surname_from_cross_chapter_paternal_path":
+  try:from .surname_cross_chapter_paternal_path import validate as cross_chapter_validate
+  except ImportError:from surname_cross_chapter_paternal_path import validate as cross_chapter_validate
+  return cross_chapter_validate(name,names,chapters,assertions,root)
  if 'surname_basis'not in name:return
  if name['surname_basis'].get('kind')=='contextual_surname_from_bound_paternal_ancestor':
   try:from .surname_bound_ancestor import validate as ancestor_validate

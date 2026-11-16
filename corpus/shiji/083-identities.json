@@ -323,14 +323,14 @@
     },
     {
       "id": "d-shiji083-011",
-      "person_id": "m77_uww_q13",
+      "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
       "scope": "same_chapter",
       "chapter_ids": [
         "c-shiji-083-luzou"
       ],
       "status": "contextual_provisional",
       "reviewer": "Codex（AI 代理）",
-      "rationale": "依本段明示稱名與嵌套引古範圍暫定；未名者不以他篇或記憶直接補名。",
+      "rationale": "第六段兩處「齊威王」為同一齊王；連同本篇後文「威」及田氏世系中的威王因齊，接至田齊世系人物。",
       "surfaces": [
         "齊威王"
       ],
@@ -585,7 +585,7 @@
     },
     {
       "id": "d-shiji083-023",
-      "person_id": "ru1_bzw_3d6",
+      "person_id": "9li_j1i_hm5",
       "scope": "same_chapter",
       "chapter_ids": [
         "c-shiji-083-luzou"
@@ -610,18 +610,23 @@
     },
     {
       "id": "d-shiji083-024",
-      "person_id": "nhk_xgq_7qk",
-      "scope": "same_chapter",
+      "person_id": "lt4_hpv_4ku_AA",
+      "scope": "cross_chapter",
       "chapter_ids": [
-        "c-shiji-083-luzou"
+        "c-shiji-083-luzou",
+        "c-shiji-034-yan"
       ],
       "status": "contextual_provisional",
       "reviewer": "Codex（AI 代理）",
-      "rationale": "依本段明示稱名與嵌套引古範圍暫定；未名者不以他篇或記憶直接補名。",
+      "rationale": "此處「燕王」仍是原文稱呼，人物接合依同段所述燕國之亂、栗腹敗於趙與聊城守將歸燕的上下文判斷：〈燕召公世家〉記孝王卒後「子今王喜立」，並繫「今王喜四年」於栗腹伐趙、敗於鄗及燕國受圍；故本處以燕王喜為最合適的現役人物，原文稱呼不改作「燕王喜」。〈魯仲連鄒陽列傳〉的「其後二十餘年」與本篇紀年及徐廣所推年代有落差；《資治通鑑》將聊城事繫於秦莊襄王元年而仍只稱「燕王」。此差異保留，不據此校改原文或斷言精確年份。身份接合屬高可能、暫定判讀。",
       "surfaces": [
         "燕王"
       ],
       "evidence": [
+        {
+          "paragraph_id": "c-shiji-083-luzou:p010",
+          "quote": "其後二十餘年，燕將攻下聊城，聊城人或讒之燕，燕將懼誅，因保守聊城，不敢歸。齊田單攻聊城歲餘，士卒多死而聊城不下。魯連乃為書，約之矢以射城中，遺燕將。書曰："
+        },
         {
           "paragraph_id": "c-shiji-083-luzou:p011",
           "quote": "吾聞之，智者不倍時而棄利，勇士不死而滅名，忠臣不先身而後君。今公行一朝之忿，不顧燕王之無臣，非忠也；殺身亡聊城，而威不信於齊，非勇也；功敗名滅，後世無稱焉，非智也。三者世主不臣，說士不載，故智者不再計，勇士不怯死。今死生榮辱，貴賤尊卑，此時不再至，願公詳計而無與俗同。"
@@ -629,6 +634,14 @@
         {
           "paragraph_id": "c-shiji-083-luzou:p012",
           "quote": "且楚攻齊之南陽，魏攻平陸，而齊無南面之心，以為亡南陽之害小，不如得濟北之利大，故定計審處之。今秦人下兵，魏不敢東面；衡秦之勢成，楚國之形危；齊棄南陽，斷右壤，定濟北，計猶且為之也。且夫齊之必決於聊城，公勿再計。今楚魏交退於齊，而燕救不至。以全齊之兵，無天下之規，與聊城共據期年之敝，則臣見公之不能得也。且燕國大亂，君臣失計，上下迷惑，栗腹以十萬之眾五折於外，以萬乘之國被圍於趙，壤削主困，為天下僇笑。國敝而禍多，民無所歸心。今公又以敝聊之民距全齊之兵，是墨翟之守也。食人炊骨，士無反外之心，是孫臏之兵也。能見於天下。雖然，為公計者，不如全車甲以報於燕。車甲全而歸燕，燕王必喜；身全而歸於國，士民如見父母，交游攘臂而議於世，功業可明。上輔孤主以制群臣，下養百姓以資說士，矯國更俗，功名可立也。亡意亦捐燕棄世，東游於齊乎？裂地定封，富比乎陶、衛，世世稱孤，與齊久存，又一計也。此兩計者，顯名厚實也，願公詳計而審處一焉。"
+        },
+        {
+          "paragraph_id": "c-shiji-034-yan:p030",
+          "quote": "孝王元年，秦圍邯鄲者解去。三年卒，子今王喜立。"
+        },
+        {
+          "paragraph_id": "c-shiji-034-yan:p031",
+          "quote": "今王喜四年，秦昭王卒。燕王命相栗腹約歡趙，以五百金爲趙王酒。還報燕王曰：「趙王壯者皆死長平，其孤未壯，可伐也。」王召昌國君樂閒問之。對曰：「趙四戰之國，其民習兵，不可伐。」王曰：「吾以五而伐一。」對曰：「不可。」燕王怒，群臣皆以爲可。卒起二軍，車二千乘，栗腹將而攻鄗，卿秦攻代。唯獨大夫將渠謂燕王曰：「與人通關約交，以五百金飲人之王，使者報而反攻之，不祥，兵無成功。」燕王不聽，自將偏軍隨之。將渠引燕王綬止之曰：「王必無自往，往無成功。」王蹵之以足。將渠泣曰：「臣非以自爲，爲王也！」燕軍至宋子，趙使廉頗將，撃破栗腹於鄗。［樂乘］破卿秦（樂乘）於代。樂閒奔趙。廉頗逐之五百餘里，圍其國。燕人請和，趙人不許，必令將渠處和。燕相將渠以處和。趙聽將渠，解燕圍。"
         }
       ]
     },
@@ -1704,7 +1717,7 @@
     },
     {
       "id": "d-shiji083-074",
-      "person_id": "p06_lrs_tg7",
+      "person_id": "fom_gr9_c8v",
       "scope": "same_chapter",
       "chapter_ids": [
         "c-shiji-083-luzou"
@@ -2026,6 +2039,399 @@
         }
       ],
       "prior_same_chapter_rationale": "按末段引古與太史公論分層保留原稱；伊管短稱未補姓名。墨子與前文墨翟於同一上書暫接，周文王與前文文王暫接。"
+    },
+    {
+      "id": "d-shiji083-sun-shu-ao-cross-chapter",
+      "person_id": "fom_gr9_c8v",
+      "surfaces": [
+        "孫叔敖"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-119-xunli",
+        "c-shiji-126-huaji"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-083-luzou:m021-0050",
+          "c-shiji-119-xunli:m002-0000",
+          "c-shiji-126-huaji:m007-0002"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-083",
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p021",
+          "quote": "是以孫叔敖三去相而不悔",
+          "mention_ids": [
+            "c-shiji-083-luzou:m021-0050"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-119",
+          "chapter_id": "c-shiji-119-xunli",
+          "source_id": "s-shiji119-xunli",
+          "paragraph_id": "c-shiji-119-xunli:p002",
+          "quote": "孫叔敖者，楚之處士也。虞丘相進之於楚莊王，以自代也。三月爲楚相",
+          "mention_ids": [
+            "c-shiji-119-xunli:m002-0000"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-126",
+          "chapter_id": "c-shiji-126-huaji",
+          "source_id": "s-shiji126-huaji",
+          "paragraph_id": "c-shiji-126-huaji:p007",
+          "quote": "楚相孫叔敖知其賢人也，善待之",
+          "mention_ids": [
+            "c-shiji-126-huaji:m007-0002"
+          ]
+        }
+      ],
+      "rationale": "卷八十三鄒陽上書以「孫叔敖三去相而不悔」引述此人；卷一一九明稱孫叔敖為楚人，記虞丘相薦於楚莊王並授楚相；卷一二六又以「楚相孫叔敖」敘其子與優孟故事。三處全名一致，且「三去相」與另兩篇楚相事跡相合；沿用在卷一一九、一二六已有多處來源錨及父子關係的現役ID `fom_gr9_c8v`。此為同一《史記》中的人物接合，不把同書重述當獨立史實見證；歷史敘事的真實性及官職細節另依各篇來源保留。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji083-tiandan-cross-chapter",
+      "person_id": "9li_j1i_hm5",
+      "surfaces": [
+        "齊田單",
+        "田單"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-034-yan",
+        "c-shiji-080-leyi",
+        "c-shiji-082-tiandan",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-034-yan:m027-0032",
+          "c-shiji-080-leyi:m005-0000",
+          "c-shiji-082-tiandan:m001-0000",
+          "c-shiji-083-luzou:m010-0037",
+          "c-shiji-083-luzou:m014-0073"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-034",
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p027",
+          "quote": "惠王為太子時，與樂毅有隙；及即位，疑毅，使騎劫代將。樂毅亡走趙。齊田單以即墨擊敗燕軍，騎劫死，燕兵引歸，齊悉復得其故城。閔王死于莒，乃立其子為襄王。",
+          "mention_ids": [
+            "c-shiji-034-yan:m027-0032"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-080",
+          "chapter_id": "c-shiji-080-leyi",
+          "source_id": "s-shiji-080-leyi",
+          "paragraph_id": "c-shiji-080-leyi:p005",
+          "quote": "齊田單後與騎劫戰，果設詐誑燕軍，遂破騎劫於即墨下，而轉戰逐燕，北至河上，盡復得齊城，而迎襄王於莒，入于臨菑。",
+          "mention_ids": [
+            "c-shiji-080-leyi:m005-0000"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-082",
+          "chapter_id": "c-shiji-082-tiandan",
+          "source_id": "s-shiji-082-tiandan",
+          "paragraph_id": "c-shiji-082-tiandan:p001",
+          "quote": "田單者，齊諸田疏屬也。湣王時，單為臨菑市掾，不見知。及燕使樂毅伐破齊，齊湣王出奔，已而保莒城。燕師長驅平齊，而田單走安平，令其宗人盡斷其車軸末而傅鐵籠。已而燕軍攻安平，城壞，齊人走，爭涂，以轊折車敗，為燕所虜，唯田單宗人以鐵籠故得脫，東保即墨。燕既盡降齊城，唯獨莒、即墨不下。燕軍聞齊王在莒，并兵攻之。淖齒既殺湣王於莒，因堅守，距燕軍，數年不下。燕引兵東圍即墨，即墨大夫出與戰，敗死。城中相與推田單，曰：「安平之戰，田單宗人以鐵籠得全，習兵。」立以為將軍，以即墨距燕。",
+          "mention_ids": [
+            "c-shiji-082-tiandan:m001-0000"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-083",
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p010",
+          "quote": "其後二十餘年，燕將攻下聊城，聊城人或讒之燕，燕將懼誅，因保守聊城，不敢歸。齊田單攻聊城歲餘，士卒多死而聊城不下。魯連乃為書，約之矢以射城中，遺燕將。書曰：",
+          "mention_ids": [
+            "c-shiji-083-luzou:m010-0037"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-083",
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p014",
+          "quote": "燕將見魯連書，泣三日，猶豫不能自決。欲歸燕，已有隙，恐誅；欲降齊，所殺虜於齊甚眾，恐已降而後見辱。喟然嘆曰：「與人刃我，寧自刃。」乃自殺。聊城亂，田單遂屠聊城。歸而言魯連，欲爵之。魯連逃隱於海上，曰：「吾與富貴而詘於人，寧貧賤而輕世肆志焉。」",
+          "mention_ids": [
+            "c-shiji-083-luzou:m014-0073"
+          ]
+        }
+      ],
+      "rationale": "卷八十三第十段稱「齊田單攻聊城」，燕將自殺、聊城亂後第十四段續稱「田單遂屠聊城」，同一連續事件中全名與省稱相承。卷八十二本傳以「田單者，齊諸田疏屬也」起首，記其守即墨；卷八十記田單破騎劫、復齊城；卷三十四亦記齊田單以即墨敗燕軍。四篇所述田單、即墨及燕齊戰事彼此吻合，接入既有跨篇來源較豐富的現役ID `9li_j1i_hm5`。此為同一《史記》內的身份整理，篇章互見不作獨立史實見證；卷八十三聊城敘事仍保留其原有引文與來源錨點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji083-allusion-qiwang",
+      "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
+      "surfaces": [
+        "威"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-001-wudi",
+        "c-shiji-004-zhou",
+        "c-shiji-035-guancai",
+        "c-shiji-046-tian",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "第十九段「齊用越人蒙而彊威、宣」的「威」指田齊威王因齊；依同句齊國君號並參照田氏世系中的威王稱謂。",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-083-luzou:p019",
+          "quote": "故女無美惡，入宮見妒；士無賢不肖，入朝見嫉。昔者司馬喜髕腳於宋，卒相中山；范睢摺脅折齒於魏，卒為應侯。此二人者，皆信必然之畫，捐朋黨之私，挾孤獨之位，故不能自免於嫉妒之人也。是以申徒狄自沈於河，徐衍負石入海。不容於世，義不茍取，比周於朝，以移主上之心。故百里奚乞食於路，繆公委之以政；甯戚飯牛車下，而桓公任之以國。此二人者，豈借宦於朝，假譽於左右，然後二主用之哉？感於心，合於行，親於膠漆，昆弟不能離，豈惑於眾口哉？故偏聽生姦，獨任成亂。昔者魯聽季孫之說而逐孔子，宋信子罕之計而囚墨翟。夫以孔、墨之辯，不能自免於讒諛，而二國以危。何則？眾口鑠金，積毀銷骨也。是以秦用戎人由余而霸中國，齊用越人蒙而彊威、宣。此二國，豈拘於俗，牽於世，系阿偏之辭哉？公聽并觀，垂名當世。故意合則胡越為昆弟，由余、越人蒙是矣；不合，則骨肉出逐不收，朱、象、管、蔡是矣。今人主誠能用齊、秦之義，後宋、魯之聽，則五伯不足稱，三王易為也。"
+        },
+        {
+          "paragraph_id": "c-shiji-046-tian:p026",
+          "quote": "齊威王元年，三晉因齊喪來伐我靈丘。"
+        }
+      ]
+    },
+    {
+      "id": "d-shiji083-allusion-xuanwang",
+      "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAAA",
+      "surfaces": [
+        "宣"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-001-wudi",
+        "c-shiji-004-zhou",
+        "c-shiji-035-guancai",
+        "c-shiji-046-tian",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "第十九段「齊用越人蒙而彊威、宣」將齊威王、齊宣王並稱；「宣」依田氏世系中的宣王辟彊接合。",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-083-luzou:p019",
+          "quote": "故女無美惡，入宮見妒；士無賢不肖，入朝見嫉。昔者司馬喜髕腳於宋，卒相中山；范睢摺脅折齒於魏，卒為應侯。此二人者，皆信必然之畫，捐朋黨之私，挾孤獨之位，故不能自免於嫉妒之人也。是以申徒狄自沈於河，徐衍負石入海。不容於世，義不茍取，比周於朝，以移主上之心。故百里奚乞食於路，繆公委之以政；甯戚飯牛車下，而桓公任之以國。此二人者，豈借宦於朝，假譽於左右，然後二主用之哉？感於心，合於行，親於膠漆，昆弟不能離，豈惑於眾口哉？故偏聽生姦，獨任成亂。昔者魯聽季孫之說而逐孔子，宋信子罕之計而囚墨翟。夫以孔、墨之辯，不能自免於讒諛，而二國以危。何則？眾口鑠金，積毀銷骨也。是以秦用戎人由余而霸中國，齊用越人蒙而彊威、宣。此二國，豈拘於俗，牽於世，系阿偏之辭哉？公聽并觀，垂名當世。故意合則胡越為昆弟，由余、越人蒙是矣；不合，則骨肉出逐不收，朱、象、管、蔡是矣。今人主誠能用齊、秦之義，後宋、魯之聽，則五伯不足稱，三王易為也。"
+        },
+        {
+          "paragraph_id": "c-shiji-046-tian:p035",
+          "quote": "三十六年，威王卒，子宣王辟彊立。"
+        }
+      ]
+    },
+    {
+      "id": "d-shiji083-allusion-danzhu",
+      "person_id": "dpx_453_4rt",
+      "surfaces": [
+        "朱"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-001-wudi",
+        "c-shiji-004-zhou",
+        "c-shiji-035-guancai",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "第十九段「朱、象、管、蔡」為受逐的骨肉親屬典故；本篇原稱「朱」，依《史記・五帝本紀》同卷明稱堯子丹朱接合，不改原文短稱。",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-083-luzou:p019",
+          "quote": "故女無美惡，入宮見妒；士無賢不肖，入朝見嫉。昔者司馬喜髕腳於宋，卒相中山；范睢摺脅折齒於魏，卒為應侯。此二人者，皆信必然之畫，捐朋黨之私，挾孤獨之位，故不能自免於嫉妒之人也。是以申徒狄自沈於河，徐衍負石入海。不容於世，義不茍取，比周於朝，以移主上之心。故百里奚乞食於路，繆公委之以政；甯戚飯牛車下，而桓公任之以國。此二人者，豈借宦於朝，假譽於左右，然後二主用之哉？感於心，合於行，親於膠漆，昆弟不能離，豈惑於眾口哉？故偏聽生姦，獨任成亂。昔者魯聽季孫之說而逐孔子，宋信子罕之計而囚墨翟。夫以孔、墨之辯，不能自免於讒諛，而二國以危。何則？眾口鑠金，積毀銷骨也。是以秦用戎人由余而霸中國，齊用越人蒙而彊威、宣。此二國，豈拘於俗，牽於世，系阿偏之辭哉？公聽并觀，垂名當世。故意合則胡越為昆弟，由余、越人蒙是矣；不合，則骨肉出逐不收，朱、象、管、蔡是矣。今人主誠能用齊、秦之義，後宋、魯之聽，則五伯不足稱，三王易為也。"
+        },
+        {
+          "paragraph_id": "c-shiji-001-wudi:p017",
+          "quote": "堯知子丹朱之不肖，不足授天下，於是乃權授舜。"
+        }
+      ]
+    },
+    {
+      "id": "d-shiji083-allusion-xiang",
+      "person_id": "a00_ney_bf4",
+      "surfaces": [
+        "象"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-001-wudi",
+        "c-shiji-004-zhou",
+        "c-shiji-035-guancai",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "第十九段「朱、象、管、蔡」的「象」依《史記・五帝本紀》舜弟象及舜與象的家內敘事接合；此為鄒陽借典的指認，不據此判定傳說細節的歷史性。",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-083-luzou:p019",
+          "quote": "故女無美惡，入宮見妒；士無賢不肖，入朝見嫉。昔者司馬喜髕腳於宋，卒相中山；范睢摺脅折齒於魏，卒為應侯。此二人者，皆信必然之畫，捐朋黨之私，挾孤獨之位，故不能自免於嫉妒之人也。是以申徒狄自沈於河，徐衍負石入海。不容於世，義不茍取，比周於朝，以移主上之心。故百里奚乞食於路，繆公委之以政；甯戚飯牛車下，而桓公任之以國。此二人者，豈借宦於朝，假譽於左右，然後二主用之哉？感於心，合於行，親於膠漆，昆弟不能離，豈惑於眾口哉？故偏聽生姦，獨任成亂。昔者魯聽季孫之說而逐孔子，宋信子罕之計而囚墨翟。夫以孔、墨之辯，不能自免於讒諛，而二國以危。何則？眾口鑠金，積毀銷骨也。是以秦用戎人由余而霸中國，齊用越人蒙而彊威、宣。此二國，豈拘於俗，牽於世，系阿偏之辭哉？公聽并觀，垂名當世。故意合則胡越為昆弟，由余、越人蒙是矣；不合，則骨肉出逐不收，朱、象、管、蔡是矣。今人主誠能用齊、秦之義，後宋、魯之聽，則五伯不足稱，三王易為也。"
+        },
+        {
+          "paragraph_id": "c-shiji-001-wudi:p020",
+          "quote": "瞽叟、象喜，以舜爲已死。象曰：「本謀者象。」"
+        }
+      ]
+    },
+    {
+      "id": "d-shiji083-allusion-guanshu",
+      "person_id": "y4i_pjk_4gn_AB",
+      "surfaces": [
+        "管"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-001-wudi",
+        "c-shiji-004-zhou",
+        "c-shiji-035-guancai",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "第十九段「朱、象、管、蔡」的「管」依《史記・管蔡世家》管叔鮮及《周本紀》稱管叔的周室骨肉事件接合。",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-083-luzou:p019",
+          "quote": "故女無美惡，入宮見妒；士無賢不肖，入朝見嫉。昔者司馬喜髕腳於宋，卒相中山；范睢摺脅折齒於魏，卒為應侯。此二人者，皆信必然之畫，捐朋黨之私，挾孤獨之位，故不能自免於嫉妒之人也。是以申徒狄自沈於河，徐衍負石入海。不容於世，義不茍取，比周於朝，以移主上之心。故百里奚乞食於路，繆公委之以政；甯戚飯牛車下，而桓公任之以國。此二人者，豈借宦於朝，假譽於左右，然後二主用之哉？感於心，合於行，親於膠漆，昆弟不能離，豈惑於眾口哉？故偏聽生姦，獨任成亂。昔者魯聽季孫之說而逐孔子，宋信子罕之計而囚墨翟。夫以孔、墨之辯，不能自免於讒諛，而二國以危。何則？眾口鑠金，積毀銷骨也。是以秦用戎人由余而霸中國，齊用越人蒙而彊威、宣。此二國，豈拘於俗，牽於世，系阿偏之辭哉？公聽并觀，垂名當世。故意合則胡越為昆弟，由余、越人蒙是矣；不合，則骨肉出逐不收，朱、象、管、蔡是矣。今人主誠能用齊、秦之義，後宋、魯之聽，則五伯不足稱，三王易為也。"
+        },
+        {
+          "paragraph_id": "c-shiji-035-guancai:p001",
+          "quote": "管叔鮮、蔡叔度者，周文王子而武王弟也。"
+        }
+      ]
+    },
+    {
+      "id": "d-shiji083-allusion-caishu",
+      "person_id": "y4i_pjk_4gn_AC",
+      "surfaces": [
+        "蔡"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-001-wudi",
+        "c-shiji-004-zhou",
+        "c-shiji-035-guancai",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "第十九段「朱、象、管、蔡」的「蔡」依《史記・管蔡世家》蔡叔度及《周本紀》稱蔡叔的周室骨肉事件接合。",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-083-luzou:p019",
+          "quote": "故女無美惡，入宮見妒；士無賢不肖，入朝見嫉。昔者司馬喜髕腳於宋，卒相中山；范睢摺脅折齒於魏，卒為應侯。此二人者，皆信必然之畫，捐朋黨之私，挾孤獨之位，故不能自免於嫉妒之人也。是以申徒狄自沈於河，徐衍負石入海。不容於世，義不茍取，比周於朝，以移主上之心。故百里奚乞食於路，繆公委之以政；甯戚飯牛車下，而桓公任之以國。此二人者，豈借宦於朝，假譽於左右，然後二主用之哉？感於心，合於行，親於膠漆，昆弟不能離，豈惑於眾口哉？故偏聽生姦，獨任成亂。昔者魯聽季孫之說而逐孔子，宋信子罕之計而囚墨翟。夫以孔、墨之辯，不能自免於讒諛，而二國以危。何則？眾口鑠金，積毀銷骨也。是以秦用戎人由余而霸中國，齊用越人蒙而彊威、宣。此二國，豈拘於俗，牽於世，系阿偏之辭哉？公聽并觀，垂名當世。故意合則胡越為昆弟，由余、越人蒙是矣；不合，則骨肉出逐不收，朱、象、管、蔡是矣。今人主誠能用齊、秦之義，後宋、魯之聽，則五伯不足稱，三王易為也。"
+        },
+        {
+          "paragraph_id": "c-shiji-035-guancai:p001",
+          "quote": "管叔鮮、蔡叔度者，周文王子而武王弟也。"
+        }
+      ]
+    },
+    {
+      "id": "d-shiji083-qiwang-cross-chapter",
+      "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
+      "surfaces": [
+        "齊威王"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-046-tian",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "卷八十三第六段兩稱「齊威王」與《田敬仲完世家》威王朝周故事及威王紀年同為田齊因齊；明文王號與所述同一時代事件相合，將原篇章候選合併至田氏世系人物。",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-083-luzou:p006",
+          "quote": "齊威王嘗為仁義矣，率天下諸侯而朝周。周貧且微，諸侯莫朝，而齊獨朝之。居歲餘，周烈王崩，齊後往，周怒，赴於齊曰：『天崩地坼，天子下席。東藩之臣因齊後至，則斮。』齊威王勃然怒曰：『叱嗟，而母婢也！』卒為天下笑。"
+        },
+        {
+          "paragraph_id": "c-shiji-046-tian:p026",
+          "quote": "齊威王元年，三晉因齊喪來伐我靈丘。"
+        }
+      ]
+    },
+    {
+      "id": "d-shiji083-zhou-liewang-title",
+      "person_id": "9bq_w53_csf",
+      "surfaces": [
+        "天子"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "第六段引語前明言「周烈王崩」，「天子下席」回指所述周王之喪；不將篇末泛論「彼天子固然」標作此個人。",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-083-luzou:p006",
+          "quote": "新垣衍曰：「秦稱帝之害何如？」魯連曰：「昔者齊威王嘗為仁義矣，率天下諸侯而朝周。周貧且微，諸侯莫朝，而齊獨朝之。居歲餘，周烈王崩，齊後往，周怒，赴於齊曰：『天崩地坼，天子下席。東藩之臣因齊後至，則斮。』齊威王勃然怒曰：『叱嗟，而母婢也！』卒為天下笑。故生則朝周，死則叱之，誠不忍其求也。彼天子固然，其無足怪。」"
+        }
+      ]
+    },
+    {
+      "id": "d-shiji083-weisheng-allusion",
+      "person_id": "l3n_6lt_37x",
+      "surfaces": [
+        "尾生"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-056-chen",
+        "c-shiji-069-su",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "卷八十三「蘇秦不信於天下，而為燕尾生」中「燕」為燕國背景修飾，所引人物為守信典故尾生。卷六十九蘇秦說燕王時詳述「信如尾生」及女子期約、抱柱而死；卷五十六魏無知以「尾生之行」為比，均指同一守信典故人物。此為文學指涉，不表示尾生曾與蘇秦或陳平交往。",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-083-luzou:p018",
+          "quote": "諺曰：「有白頭如新，傾蓋如故。」何則？知與不知也。故昔樊於期逃秦之燕，藉荊軻首以奉丹之事；王奢去齊之魏，臨城自剄以卻齊而存魏。夫王奢、樊於期非新於齊、秦而故於燕、魏也，所以去二國死兩君者，行合於志而慕義無窮也。是以蘇秦不信於天下，而為燕尾生；白圭戰亡六城，為魏取中山。何則？誠有以相知也。蘇秦相燕，燕人惡之於王，王按劍而怒，食以駃騠；白圭顯於中山，中山人惡之魏文侯，文侯投之以夜光之璧。何則？兩主二臣，剖心坼肝相信，豈移於浮辭哉！"
+        },
+        {
+          "paragraph_id": "c-shiji-069-su:p042",
+          "quote": "今有孝如曾參，廉如伯夷，信如尾生。得此三人者以事大王，何若？"
+        },
+        {
+          "paragraph_id": "c-shiji-069-su:p042",
+          "quote": "信如尾生，與女子期於梁下，女子不來，水至不去，抱柱而死。"
+        },
+        {
+          "paragraph_id": "c-shiji-056-chen:p007",
+          "quote": "今有尾生、孝己之行而無益處於勝負之數，陛下何暇用之乎？"
+        }
+      ]
     }
   ]
 }

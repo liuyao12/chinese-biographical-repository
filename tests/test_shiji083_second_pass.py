@@ -27,7 +27,7 @@ class LuZouSecondPassTests(unittest.TestCase):
     def test_unidentified_yan_king_does_not_gain_named_identity(self):
         c = self.chapter()
         p12 = c['paragraphs'][11]
-        self.assertEqual({m['person_id'] for m in p12['mentions'] if m['surface'] == '燕王'}, {'nhk_xgq_7qk'})
+        self.assertEqual({m['person_id'] for m in p12['mentions'] if m['surface'] == '燕王'}, {'lt4_hpv_4ku_AA'})
         self.assertEqual({m['person_id'] for m in p12['mentions'] if m['surface'] == '栗腹'}, {'fo2_the_x22'})
 
     def test_liang_court_and_lu_ruler_have_specific_parallel_context(self):
