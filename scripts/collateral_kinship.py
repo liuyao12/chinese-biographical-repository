@@ -59,8 +59,8 @@ def agnatic_senior_kin_valid(assertion, paragraphs):
             if pattern == 'biographical_subject_courtesy_senior_congzi':
                 if (text[child['end']:courtesy['start']] != '字'
                         or courtesy['end'] != senior['start']
-                        or term != senior['surface'] + '從子'
-                        or text[senior['start']:senior['end'] + 3] != term + '也'):
+                        or term != senior['surface'] + '從子也'
+                        or text[senior['start']:senior['end'] + 3] != term):
                     return False
                 end = senior['end'] + 3
             elif pattern == 'biographical_subject_courtesy_office_senior_congzi':
