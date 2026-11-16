@@ -34,6 +34,8 @@ def render(chapter):
                 tag = 'rs'; attributes += ' type="unresolved"'
             elif mention['kind'] == 'non_person' and mention['person_id'] is None:
                 tag = 'seg'; attributes += f' type="non-person" subtype="{escape(mention["lexical_role"])}"'
+                if mention.get('referent_kind'):
+                    attributes += f' referent-kind="{escape(mention["referent_kind"])}"'
             elif mention['kind'] == 'work' and mention['person_id'] is None and mention.get('work_id'):
                 tag = 'title'; attributes += f' ref="{escape(mention["work_id"])}"'
             else:

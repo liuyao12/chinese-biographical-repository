@@ -658,7 +658,9 @@ def _validate_uncached(root=ROOT):
                         check(e.get('type')=='person-reference' and e.get('subtype')==m.get('reference_type')
                               and e.get('referent-role')==m.get('referent_role'),
                               'XML 非姓名人物指涉類型或角色不符')
-                    if m['kind']=='non_person': check(e.get('type')=='non-person' and e.get('subtype')==m.get('lexical_role'),'XML 非人物詞性不符')
+                    if m['kind']=='non_person':
+                        check(e.get('type')=='non-person' and e.get('subtype')==m.get('lexical_role'), 'XML 非人物詞性不符')
+                        check(e.get('referent-kind')==m.get('referent_kind'), 'XML 非人物代詞所指類別不符')
         check(not set(chapters).intersection(table_chapters), '正文與表格篇ID不得重複')
         check(set(chapter_books)==set(chapters) | set(table_chapters), '著作目錄與文本篇清單不符')
         for wid, work in works.items():
