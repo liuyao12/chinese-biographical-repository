@@ -66,20 +66,22 @@ def title_attestation_subject_valid(attestation, holding, chapter):
         except ImportError:from layered_biography_titles import title_context_valid
         return title_context_valid(attestation,holding,chapter)
     context = attestation.get('context')
-    if (not isinstance(context, dict)
-            or set(context) != {'kind', 'paragraph_id', 'person_mention_id', 'quote'}
-            or context.get('kind') != 'previous_paragraph_subject'
-            or attestation.get('person_mention_id') != context.get('person_mention_id')):
+    if not isinstance(context, dict) or attestation.get('person_mention_id') != context.get('person_mention_id'):
         return False
     for evidence in holding.get('evidence', []):
-        if (evidence.get('paragraph_id') != attestation.get('paragraph_id')
-                or evidence.get('context') != context):
+        if evidence.get('paragraph_id') != attestation.get('paragraph_id') or evidence.get('context') != context:
             continue
+        if context.get('kind') == 'prior_paragraph_subject':
+            if prior_subject_valid(context, evidence, holding.get('person_id'), chapter):
+                return True
+            continue
+        if (set(context) != {'kind', 'paragraph_id', 'person_mention_id', 'quote'}
+                or context.get('kind') != 'previous_paragraph_subject'):
+            return False
         carried = dict(context, kind='prior_paragraph_subject', intervening_paragraph_ids=[])
         if prior_subject_valid(carried, evidence, holding.get('person_id'), chapter):
             return True
     return False
-
 
 def shared_line_subject_bridge(chapter, before, after, context, person_id):
     """Opt-in continuation across two exact adjacent fragments of one source line.
