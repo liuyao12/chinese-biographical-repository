@@ -1218,7 +1218,6 @@
 | `659_4c6_dae` | 司馬楚之 | [《魏書・崔浩》][228] | [JSON](659_4c6_dae.json) |
 | `65b_906_251` | 丘尪 | [《晉書・謝尚 謝安》][53] | [JSON](65b_906_251.json) |
 | `65f_dvi_ljt` | 桀 | [《史記・龜策列傳》][197] | [JSON](65f_dvi_ljt.json) |
-| `65g_u1c_0st` | 黥布 | [《史記・荊燕世家》][120] | [JSON](65g_u1c_0st.json) |
 | `65q_ft7_2u1` | 燕狗屠未名 | [《史記・刺客列傳》][155] | [JSON](65q_ft7_2u1.json) |
 | `65u_rbx_hst` | 游騰 | [《史記・樗里子甘茂列傳》][140] | [JSON](65u_rbx_hst.json) |
 | `662_7a2_a39` | 徐晃 | [《三國志・二荀賈傳》][79] | [JSON](662_7a2_a39.json) |
@@ -2094,6 +2093,7 @@
 | `ajw_5lx_1mf` | 齊鮑牧 | [《史記・伍子胥列傳》][135] | [JSON](ajw_5lx_1mf.json) |
 | `al3_w9j_0ng` | 宋昌 | [《史記・孝文本紀》][97] | [JSON](al3_w9j_0ng.json) |
 | `al5_e32_vh6` | 胡母班 | [《後漢書・孝獻帝紀》][14] | [JSON](al5_e32_vh6.json) |
+| `al7_2l9_13l` | 韓伯 | [《晉書・陸曄 何充 褚翜 蔡謨 諸葛恢 殷浩》][52] | [JSON](al7_2l9_13l.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

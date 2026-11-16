@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `al7_2l9_13l` | 韓伯 | [《晉書・陸曄 何充 褚翜 蔡謨 諸葛恢 殷浩》][52] | [JSON](al7_2l9_13l.json) |
 | `ale_lqi_2nm` | 廣陽王嘉〔餞王肅〕 | [《魏書・楊播》][231] | [JSON](ale_lqi_2nm.json) |
 | `ali_hbb_4bn` | 殷融 | [《晉書・陸曄 何充 褚翜 蔡謨 諸葛恢 殷浩》][52] | [JSON](ali_hbb_4bn.json) |
 | `alm_lj2_1og` | 安（長史） | [《史記・衛將軍驃騎列傳》][180] | [JSON](alm_lj2_1og.json) |
@@ -1014,7 +1013,6 @@
 | `fpg_x4b_tif` | 冒頓 | [《史記・大宛列傳》][192] | [JSON](fpg_x4b_tif.json) |
 | `fpp_ue3_su5` | 周主鴆（未名） | [《史記・衛康叔世家》][106] | [JSON](fpp_ue3_su5.json) |
 | `fpv_2sb_uay` | 陸賈 | [《史記・酈生陸賈列傳》][166] | [JSON](fpv_2sb_uay.json) |
-| `fq3_1ko_7tz` | 周惠王 | [《史記・鄭世家》][111] | [JSON](fq3_1ko_7tz.json) |
 | `fq3_53z_4os` | 虞喜 | [《南齊書・文學》][71] | [JSON](fq3_53z_4os.json) |
 | `fqj_az4_0ep` | 臣扈（君奭引述） | [《史記・燕召公世家》][103] | [JSON](fqj_az4_0ep.json) |
 | `fqm_297_n6h` | 畢軌父子禮 | [《三國志・諸夏侯曹傳》][77] | [JSON](fqm_297_n6h.json) |
@@ -2094,6 +2092,8 @@
 | `msf_ogd_cah` | 平（晉孝侯） | [《史記・晉世家》][108] | [JSON](msf_ogd_cah.json) |
 | `msq_cc5_was` | 大巫嫗（未名） | [《史記・滑稽列傳》][195] | [JSON](msq_cc5_was.json) |
 | `msq_x2n_nnn` | 盧悚 | [《晉書・桓彝》][44] | [JSON](msq_x2n_nnn.json) |
+| `msv_9r0_wtk` | 趙襄子 | [《史記・韓世家》][114] | [JSON](msv_9r0_wtk.json) |
+| `mt4_h3l_bbn` | 齊王蘇代過魏 | [《史記・蘇秦列傳》][138] | [JSON](mt4_h3l_bbn.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

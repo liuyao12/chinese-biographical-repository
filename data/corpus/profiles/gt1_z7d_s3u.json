@@ -9,7 +9,8 @@
     "襄王鄭",
     "襄王",
     "周襄王",
-    "周王"
+    "周王",
+    "襄"
   ],
   "titles": [
     {
@@ -781,6 +782,41 @@
       "chapter_id": "c-shiji-128-guice",
       "source_id": "s-shiji128-guice",
       "work_title": "史記"
+    },
+    {
+      "number": 130,
+      "category": "liezhuan",
+      "title": "太史公自序第七十",
+      "paragraph_id": "c-shiji-130-taishigong:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "在周，程伯休甫其後也。當周宣王時，失其守而為司馬氏。司馬氏世典周史。惠襄之閒，司馬氏去周適晉。晉中軍隨會奔秦，而司馬氏入少梁。",
+      "paragraph_ids": [
+        "c-shiji-130-taishigong:p001"
+      ],
+      "mention_ids": [
+        "c-shiji-130-taishigong:m001-0086"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-130-taishigong:m001-0086": "c-shiji-130-taishigong:p001"
+      },
+      "mention_id": "c-shiji-130-taishigong:m001-0086",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-130-taishigong:m001-0086",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m001-0086"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "chapter_id": "c-shiji-130-taishigong",
+      "source_id": "s-shiji130-taishigong",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -1069,6 +1105,30 @@
           ],
           "extraction_note": "去header2、wikipedia導覽模板與現代節標；保留原字及（民）［氓］等來源校讀括號，未核影像。",
           "note": "固定正文仍為維基文庫7904127轉錄，非已核武英殿影像；CText武英殿系數位讀法「革」與徐廣注文供校讀參考，本文保留「帮」待核。萬畢石朱方、陰兢及周太子歷等依本篇上下文續核。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-130-taishigong",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "source_id": "s-shiji130-taishigong",
+      "source": {
+        "title": "史記／卷130",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷130",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+        "revision_id": 2609362,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文143段，全部篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
         }
       }
     }

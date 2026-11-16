@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `msv_9r0_wtk` | 趙襄子 | [《史記・韓世家》][114] | [JSON](msv_9r0_wtk.json) |
-| `mt4_h3l_bbn` | 齊王蘇代過魏 | [《史記・蘇秦列傳》][138] | [JSON](mt4_h3l_bbn.json) |
 | `mta_jet_l8e` | 楊安〔本紀來源局部〕 | [《晉書・太宗簡文帝 孝武帝》][21] | [JSON](mta_jet_l8e.json) |
 | `mtx_qs1_a5q` | 孝惠帝 | [《史記・齊悼惠王世家》][121] | [JSON](mtx_qs1_a5q.json) |
 | `mua_01m_5ng` | 齊宗女（重耳妻） | [《史記・晉世家》][108] | [JSON](mua_01m_5ng.json) |

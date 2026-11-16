@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "143段全文逐段核讀，520處首輪標記（61處未解）；269個本篇來源候選，7項親屬與來源家族路徑，5項生死、5項地點及9項官爵用稱已存。人物同指、代詞、其餘稱號與日期仍待覆核。",
+    "coverage": "143段全文逐段核讀，現有523處姓名／人物標記（55處仍未解）；269個本篇來源候選，7項親屬與來源家族路徑，5項生死、5項地點及9項官爵用稱已存。另有29筆人物非姓名指涉逐筆保存於person_reference_occurrences。已修正楚世家提要重黎、魏世家提要魏絳、荊燕提要黥布重號，並拆分隱幽、惠襄及數個篇題合稱；其餘身份、代詞、稱號與日期仍待逐項覆核。",
     "limitations": [
       "未核影像。",
       "蒯聵不按同名接衛國人物；武信君與黃子待跨篇覆核。",
@@ -39,6 +39,385 @@
       "列傳提要的孫子與前文臏腳之孫子分開，韓信列傳與淮陰侯的信分開；管晏、樊酈等合稱保留未解。篇名與本段省稱依敘事暫同指；尚待逐項跨篇身份證據覆核。",
       "韓長孺與汲鄭提要的長孺按敘事分開；武安（魏其武安提要）不與白起合併。傅靳蒯成、汲鄭及申商等合稱保留未解。篇名人物仍為來源候選，並非完成身份覆核。結語太史公書視為書名，父子相續的太史公保留集體指代未解。",
       "談卒年依本篇是歲封泰山與通鑑元封元年平行事件暫定前110年；不補月日，不以卒三歲與五年機械推定遷授任年。"
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-shiji-130-taishigong:r006-0040",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 40,
+        "end": 41,
+        "surface": "父",
+        "person_id": "pme_eis_xqi_*A*AAAA",
+        "reference_type": "kinship_term_reference",
+        "status": "contextual_provisional",
+        "quote": "與從事，故發憤且卒。而子遷適使反，見父於河洛之閒。太史公執遷手而泣曰：「余先周室之太史也。",
+        "rationale": "敘事交代司馬遷出使返來「見父」，指同段父親司馬談。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r006-0058",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 58,
+        "end": 59,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "父於河洛之閒。太史公執遷手而泣曰：「余先周室之太史也。自上世嘗顯功名於虞夏，典天官事。後世",
+        "rationale": "司馬談在父子對話中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r006-0090",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 90,
+        "end": 91,
+        "surface": "予",
+        "person_id": "pme_eis_xqi_*A*AAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "功名於虞夏，典天官事。後世中衰，絕於予乎？汝復為太史，則續吾祖矣。今天子接千歲之統，封泰山",
+        "rationale": "司馬談在直接引語中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r006-0093",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 93,
+        "end": 94,
+        "surface": "汝",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "虞夏，典天官事。後世中衰，絕於予乎？汝復為太史，則續吾祖矣。今天子接千歲之統，封泰山，而余",
+        "rationale": "司馬談以「汝」稱受話者司馬遷。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r006-0119",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 119,
+        "end": 120,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "吾祖矣。今天子接千歲之統，封泰山，而余不得從行，是命也夫，命也夫！余死，汝必為太史；為太史",
+        "rationale": "司馬談在直接引語中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r006-0134",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 134,
+        "end": 135,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "山，而余不得從行，是命也夫，命也夫！余死，汝必為太史；為太史，無忘吾所欲論著矣。且夫孝始於",
+        "rationale": "司馬談在直接引語中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r006-0137",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 137,
+        "end": 138,
+        "surface": "汝",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "余不得從行，是命也夫，命也夫！余死，汝必為太史；為太史，無忘吾所欲論著矣。且夫孝始於事親，",
+        "rationale": "司馬談以「汝」稱受話者司馬遷。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r006-0313",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 313,
+        "end": 314,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "興，海內一統，明主賢君忠臣死義之士，余為太史而弗論載，廢天下之史文，余甚懼焉，汝其念哉！」",
+        "rationale": "司馬談在直接引語中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r006-0329",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 329,
+        "end": 330,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "士，余為太史而弗論載，廢天下之史文，余甚懼焉，汝其念哉！」遷俯首流涕曰：「小子不敏，請悉論",
+        "rationale": "司馬談在直接引語中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r006-0334",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 334,
+        "end": 335,
+        "surface": "汝",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "史而弗論載，廢天下之史文，余甚懼焉，汝其念哉！」遷俯首流涕曰：「小子不敏，請悉論先人所次舊",
+        "rationale": "司馬談以「汝」稱受話者司馬遷。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r006-0348",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 348,
+        "end": 350,
+        "surface": "小子",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "甚懼焉，汝其念哉！」遷俯首流涕曰：「小子不敏，請悉論先人所次舊聞，弗敢闕。」",
+        "rationale": "此處為司馬遷接父命時自稱「小子」。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r006-0356",
+        "paragraph_id": "c-shiji-130-taishigong:p006",
+        "start": 356,
+        "end": 358,
+        "surface": "先人",
+        "person_id": "pme_eis_xqi_*A*AAAA",
+        "reference_type": "kinship_term_reference",
+        "status": "contextual_provisional",
+        "quote": "！」遷俯首流涕曰：「小子不敏，請悉論先人所次舊聞，弗敢闕。」",
+        "rationale": "司馬遷請述「先人所次舊聞」；承接當面所受父命，指父親司馬談。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r008-0068",
+        "paragraph_id": "c-shiji-130-taishigong:p008",
+        "start": 68,
+        "end": 70,
+        "surface": "小子",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "詩書禮樂之際？』意在斯乎！意在斯乎！小子何敢讓焉。」",
+        "rationale": "司馬遷在引語末以「小子」自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r009-0026",
+        "paragraph_id": "c-shiji-130-taishigong:p009",
+        "start": 26,
+        "end": 27,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "昔孔子何為而作春秋哉？」太史公曰：「余聞董生曰：『周道衰廢，孔子為魯司寇，諸侯害之，大夫壅",
+        "rationale": "司馬遷在回答壺遂時自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r009-0108",
+        "paragraph_id": "c-shiji-130-taishigong:p009",
+        "start": 108,
+        "end": 109,
+        "surface": "子",
+        "person_id": "fp6_ia6_7yw",
+        "reference_type": "address_term_reference",
+        "status": "contextual_provisional",
+        "quote": "，退諸侯，討大夫，以達王事而已矣。』子曰：『我欲載之空言，不如見之於行事之深切著明也。』夫",
+        "rationale": "「子曰」承上文對孔子作《春秋》的問答，為引稱孔子的稱謂，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r009-0112",
+        "paragraph_id": "c-shiji-130-taishigong:p009",
+        "start": 112,
+        "end": 113,
+        "surface": "我",
+        "person_id": "fp6_ia6_7yw",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "，討大夫，以達王事而已矣。』子曰：『我欲載之空言，不如見之於行事之深切著明也。』夫春秋，上",
+        "rationale": "「我欲載之空言」位於孔子語引文中，發言者為孔子。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:m010-0041",
+        "paragraph_id": "c-shiji-130-taishigong:p010",
+        "start": 41,
+        "end": 43,
+        "surface": "夫子",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "address_term_reference",
+        "status": "contextual_provisional",
+        "quote": "得任用，故作春秋，垂空文以斷禮義，當一王之法。今夫子上遇明天子，下得守職，萬事既具，咸各序其宜，夫子所論，欲",
+        "rationale": "壺遂以「夫子」稱呼對話中的司馬遷。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:m010-0065",
+        "paragraph_id": "c-shiji-130-taishigong:p010",
+        "start": 65,
+        "end": 67,
+        "surface": "夫子",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "address_term_reference",
+        "status": "contextual_provisional",
+        "quote": "夫子上遇明天子，下得守職，萬事既具，咸各序其宜，夫子所論，欲以何明？」",
+        "rationale": "壺遂以「夫子」稱呼對話中的司馬遷。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r011-0015",
+        "paragraph_id": "c-shiji-130-taishigong:p011",
+        "start": 15,
+        "end": 16,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "太史公曰：「唯唯，否否，不然。余聞之先人曰：『伏羲至純厚，作易八卦。堯舜之盛，尚書載",
+        "rationale": "司馬遷在答壺遂時自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:m011-0018",
+        "paragraph_id": "c-shiji-130-taishigong:p011",
+        "start": 18,
+        "end": 20,
+        "surface": "先人",
+        "person_id": "pme_eis_xqi_*A*AAAA",
+        "reference_type": "kinship_term_reference",
+        "status": "contextual_provisional",
+        "quote": "太史公曰：「唯唯，否否，不然。余聞之先人曰：『伏羲至純厚，作易八卦。堯舜之盛，尚書載之，禮樂作焉",
+        "rationale": "「余聞之先人曰」承司馬遷自述，先人指其父司馬談；本段後文「余嘗掌其官」亦承遷自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r011-0190",
+        "paragraph_id": "c-shiji-130-taishigong:p011",
+        "start": 190,
+        "end": 191,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "；主上明聖而德不布聞，有司之過也。且余嘗掌其官，廢明聖盛德不載，滅功臣世家賢大夫之業不述，",
+        "rationale": "司馬遷在直接引語中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:m011-0218",
+        "paragraph_id": "c-shiji-130-taishigong:p011",
+        "start": 218,
+        "end": 220,
+        "surface": "先人",
+        "person_id": "pme_eis_xqi_*A*AAAA",
+        "reference_type": "kinship_term_reference",
+        "status": "contextual_provisional",
+        "quote": "官，廢明聖盛德不載，滅功臣世家賢大夫之業不述，墮先人所言，罪莫大焉。余所謂述故事，整齊其世傳，非所謂作也，而",
+        "rationale": "「墮先人所言」承司馬遷自述，指其父司馬談。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r011-0228",
+        "paragraph_id": "c-shiji-130-taishigong:p011",
+        "start": 228,
+        "end": 229,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "大夫之業不述，墮先人所言，罪莫大焉。余所謂述故事，整齊其世傳，非所謂作也，而君比之於春秋，",
+        "rationale": "司馬遷在直接引語中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r011-0248",
+        "paragraph_id": "c-shiji-130-taishigong:p011",
+        "start": 248,
+        "end": 249,
+        "surface": "君",
+        "person_id": "hmj_pm8_38e",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "謂述故事，整齊其世傳，非所謂作也，而君比之於春秋，謬矣。」",
+        "rationale": "司馬遷以「君」稱受話者壺遂。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r012-0033",
+        "paragraph_id": "c-shiji-130-taishigong:p012",
+        "start": 33,
+        "end": 34,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "陵之禍，幽於縲紲。乃喟然而嘆曰：「是余之罪也夫！是余之罪也夫！身毀不用矣。」退而深惟曰：「",
+        "rationale": "司馬遷在直接引語中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r012-0040",
+        "paragraph_id": "c-shiji-130-taishigong:p012",
+        "start": 40,
+        "end": 41,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "紲。乃喟然而嘆曰：「是余之罪也夫！是余之罪也夫！身毀不用矣。」退而深惟曰：「夫詩書隱約者，",
+        "rationale": "司馬遷在直接引語中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r142-0155",
+        "paragraph_id": "c-shiji-130-taishigong:p142",
+        "start": 155,
+        "end": 156,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "太史公仍父子相續纂其職。曰：「於戲！余維先人嘗掌斯事，顯於唐虞，至于周，復典之，故司馬氏世",
+        "rationale": "司馬遷在結語中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r142-0188",
+        "paragraph_id": "c-shiji-130-taishigong:p142",
+        "start": 188,
+        "end": 189,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "于周，復典之，故司馬氏世主天官。至於余乎，欽念哉！欽念哉！」罔羅天下放失舊聞，王跡所興，原",
+        "rationale": "司馬遷在結語中自稱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-130-taishigong:r143-0005",
+        "paragraph_id": "c-shiji-130-taishigong:p143",
+        "start": 5,
+        "end": 6,
+        "surface": "余",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "太史公曰：余述歷黃帝以來至太初而訖，百三十篇。",
+        "rationale": "司馬遷在全書終篇自述中自稱。",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
@@ -123,11 +502,20 @@
         {
           "id": "c-shiji-130-taishigong:m001-0085",
           "start": 85,
+          "end": 86,
+          "surface": "惠",
+          "kind": "person",
+          "person_id": "yr6_rws_tx8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-130-taishigong:m001-0086",
+          "start": 86,
           "end": 87,
-          "surface": "惠襄",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "surface": "襄",
+          "kind": "person",
+          "person_id": "gt1_z7d_s3u",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-130-taishigong:m001-0090",
@@ -868,30 +1256,12 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-shiji-130-taishigong:m010-0041",
-          "start": 41,
-          "end": 43,
-          "surface": "夫子",
-          "kind": "person",
-          "person_id": "pme_eis_xqi_*A*AAAAA",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-shiji-130-taishigong:m010-0045",
           "start": 45,
           "end": 48,
           "surface": "明天子",
           "kind": "person",
           "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-130-taishigong:m010-0065",
-          "start": 65,
-          "end": 67,
-          "surface": "夫子",
-          "kind": "person",
-          "person_id": "pme_eis_xqi_*A*AAAAA",
           "status": "contextual_provisional"
         }
       ]
@@ -909,15 +1279,6 @@
           "surface": "太史公",
           "kind": "person",
           "person_id": "pme_eis_xqi_*A*AAAAA",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-130-taishigong:m011-0018",
-          "start": 18,
-          "end": 20,
-          "surface": "先人",
-          "kind": "person",
-          "person_id": "pme_eis_xqi_*A*AAAA",
           "status": "contextual_provisional"
         },
         {
@@ -963,15 +1324,6 @@
           "surface": "明天子",
           "kind": "person",
           "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-130-taishigong:m011-0218",
-          "start": 218,
-          "end": 220,
-          "surface": "先人",
-          "kind": "person",
-          "person_id": "pme_eis_xqi_*A*AAAA",
           "status": "contextual_provisional"
         }
       ]
@@ -1516,11 +1868,20 @@
         {
           "id": "c-shiji-130-taishigong:m021-0022",
           "start": 22,
+          "end": 23,
+          "surface": "隱",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_AH",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-130-taishigong:m021-0023",
+          "start": 23,
           "end": 25,
-          "surface": "隱幽友",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "surface": "幽友",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_AE",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-130-taishigong:m021-0037",
@@ -2555,9 +2916,9 @@
           "start": 0,
           "end": 2,
           "surface": "重黎",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "off_msa_t3x",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-130-taishigong:m052-0005",
@@ -2788,7 +3149,7 @@
           "end": 56,
           "surface": "惠王",
           "kind": "person",
-          "person_id": "fq3_1ko_7tz",
+          "person_id": "yr6_rws_tx8",
           "status": "contextual_provisional"
         }
       ]
@@ -2904,6 +3265,15 @@
           "surface": "畢萬",
           "kind": "person",
           "person_id": "nxl_qt6_cpl",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-130-taishigong:m056-0011",
+          "start": 11,
+          "end": 12,
+          "surface": "絳",
+          "kind": "person",
+          "person_id": "nxl_qt6_cpl_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -3382,7 +3752,7 @@
           "end": 12,
           "surface": "布",
           "kind": "person",
-          "person_id": "65g_u1c_0st",
+          "person_id": "zxd_afr_2xg",
           "status": "contextual_provisional"
         },
         {
@@ -4919,11 +5289,20 @@
         {
           "id": "c-shiji-130-taishigong:m107-0029",
           "start": 29,
+          "end": 30,
+          "surface": "樊",
+          "kind": "person",
+          "person_id": "b1r_inb_fts",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-130-taishigong:m107-0030",
+          "start": 30,
           "end": 31,
-          "surface": "樊酈",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "surface": "酈",
+          "kind": "person",
+          "person_id": "xny_prn_zyi",
+          "status": "contextual_provisional"
         }
       ]
     },
@@ -5006,11 +5385,29 @@
         {
           "id": "c-shiji-130-taishigong:m110-0022",
           "start": 22,
+          "end": 23,
+          "surface": "傅",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-130-taishigong:m110-0023",
+          "start": 23,
+          "end": 24,
+          "surface": "靳",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-130-taishigong:m110-0024",
+          "start": 24,
           "end": 26,
-          "surface": "傅靳蒯成",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "surface": "蒯成",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3",
+          "status": "contextual_provisional"
         }
       ]
     },
@@ -5739,11 +6136,20 @@
         {
           "id": "c-shiji-130-taishigong:m142-0107",
           "start": 107,
+          "end": 108,
+          "surface": "申",
+          "kind": "person",
+          "person_id": "vtn_thh_540",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-130-taishigong:m142-0108",
+          "start": 109,
           "end": 110,
-          "surface": "申、商",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "surface": "商",
+          "kind": "person",
+          "person_id": "2wp_usr_ncd",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-130-taishigong:m142-0111",
