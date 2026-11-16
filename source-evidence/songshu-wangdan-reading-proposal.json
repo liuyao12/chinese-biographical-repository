@@ -25,7 +25,11 @@
     "witness_date": "南宋初刊；宋、元、明初遞修",
     "image_verified": false,
     "transcription_status": "尚未從本卷書影逐字轉錄；不得將下列數位轉錄冒稱為據此掃描錄文。",
-    "volume_mapping": "Commons 檔名標示 NCL-01471 卷29；卷29為館藏實體冊次，尚未核實其涵蓋《宋書》卷52或王誕所在葉，影像頁碼待核定。"
+    "volume_mapping": "Commons 檔名標示 NCL-01471 卷29；卷29為館藏實體冊次，尚未核實其涵蓋《宋書》卷52或王誕所在葉，影像頁碼待核定。",
+    "work_id": "w-songshu",
+    "book_id": "b-songshu-052",
+    "chapter_id": "c-songshu-052-wangdan",
+    "source_id": "s-songshu-052-wangdan-ncl01471"
   },
   "transcription_witnesses": [
     {
@@ -34,21 +38,34 @@
       "edition_label": "頁面明標「欽定四庫全書」",
       "role": "parallel_text_only",
       "used_as_base_text": false,
-      "reason": "四庫本不得作本專案底本；此頁僅供檢索與平行讀法比對。"
+      "reason": "四庫本不得作本專案底本；此頁僅供檢索與平行讀法比對。",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-052",
+      "chapter_id": "c-songshu-052-wangdan",
+      "source_id": "s-songshu-052-wangdan-sk0713",
+      "transcription_note": "逐字提案引文來自此標明四庫本的平行轉錄；不是主要底本，也未以其作本庫正文。"
     },
     {
       "source_title": "《南史》卷二十三",
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/NLC016-HWRB201817013-3929_%E5%8D%97%E5%8F%B2_%E5%85%AB%E5%8D%81%E5%8D%B7_%E7%AC%AC7%E5%86%8A.pdf",
       "edition_label": "國家圖書館掃描影像；本記錄未完成版次與頁碼核定",
       "role": "parallel_work_witness",
-      "image_verified": false
+      "image_verified": false,
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangdan",
+      "source_id": "s-nanshi-023-wangdan-ncl"
     },
     {
       "source_title": "《南史》卷二十三",
       "url": "https://www.shidianguji.com/zh/book/LS0014/chapter/LS0014_127",
       "edition_label": "線上轉錄；頁面未明示所據版刻",
       "role": "parallel_text_only",
-      "used_as_base_text": false
+      "used_as_base_text": false,
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangdan",
+      "source_id": "s-nanshi-023-wangdan-ls0014"
     }
   ],
   "source_attestations": [
@@ -71,7 +88,11 @@
         "wangdan_wangxun": "保留宋書原詞「從叔」，只記來源所示父系旁支長幼代際；不推定共同祖先或確切親等。",
         "wangdan_ancestors": "傳文直接稱祖恬、父混；分別記祖父與父親，不據其他王氏譜系補入中間世代。"
       },
-      "status": "proposed_not_yet_native_assertion"
+      "status": "proposed_not_yet_native_assertion",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-052",
+      "chapter_id": "c-songshu-052-wangdan",
+      "source_id": "s-songshu-052-wangdan-sk0713"
     },
     {
       "id": "a-proposal-nanshi023-wangdan-kinship-variant",
@@ -84,7 +105,11 @@
         "wanghong": "7r6_k52_qji_ABAAAAA"
       },
       "priority": "低於《宋書》王誕本傳的原詞；不合併兩讀法、不標作同篇內矛盾。",
-      "status": "parallel_variant_pending_image_review"
+      "status": "parallel_variant_pending_image_review",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangdan",
+      "source_id": "s-nanshi-023-wangdan-ls0014"
     }
   ],
   "genealogy_limits": {
@@ -94,6 +119,7 @@
     "note": "只保存各史所載親稱，不因異讀或稱謂自動補造共同祖先及精確世系。"
   },
   "next_steps": [
+    "登記之章 ID 目前只是 registry placeholder；在取得影像轉錄後新增原生 marked_chapter/source record，並以一致的 work/book/chapter/source IDs 取代提案狀態。",
     "取得可讀的國圖卷29相關葉影像，確認卷52所在葉及逐字轉錄。",
     "以正文逐人標記新章完整傳記，所有 relation/address/title/event assertions 均綁定原文 mention。",
     "將兩個來源關係讀法改存原生斷言，更新人物反向索引及 API bundles。",
@@ -102,5 +128,8 @@
   "review": {
     "reviewer": "Codex 代理",
     "human_reviewed": false
-  }
+  },
+  "chapter_id": "c-songshu-052-wangdan",
+  "source_id": "s-songshu-052-wangdan-ncl01471",
+  "chapter_status": "registry_placeholder_only; no marked_chapter record yet"
 }
