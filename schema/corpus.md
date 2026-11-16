@@ -1183,3 +1183,12 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `normalized_date.rendered_collective_award_year_binding.kind: rendered_same_collective_award_explicit_peer_year` 是有界編輯首選，不能冒充本底本明文紀年。宋044武昌爵的端點可有 `date_expression: 永初元年`，但 `expression_scope: external_rendered_peer_biography_not_literal_in_wyd044` 明示原年詞來自比較本傅亮傳。`calendar: chinese_civil`、`precision: year`、`status: editorial_provisional`、人審false；CE420只是中國曆年度標號，不含月日。完整群授詔、傅亮同次建城縣公二千戶的永初元年明文、前後受禪初敘事及官方宋永初420–422完整表列均保存。比較資料是rendered閱讀、頁尾revision觀察、固定頁直取cache miss，沒有已取raw或書影資格；比較頁底本未知，不更換武英殿044底本。
 
 日期gate須傳實際root，逐一核外部payload SHA與全文單元SHA、同詔兩角色/兩爵/兩食邑/年詞的字位及取得scope，沿044既有謝晦與傅亮MID動態解現役PID。原本year校驗和literal歸屬規則不放寬；只有此已驗日期橋允許外源年詞，不虛建宋043 native章或MID。持有record須與本源明授完全一致，建平不入holding，未知終點不變，不借中領軍庚午任命日或死亡426年。bundle也依實際root驗外證後才輸出，完整比較引文與限制由一般紀年依據consumer顯示。
+
+### 未核授權的現代錄文見證
+
+現代排印錄文的再利用條款尚未查證時，marked chapter 的
+`source.license_url` 可明列為 `null`，`source.license_scope` 須為
+`transcription_reuse_unverified`。同一來源的 `rights_layers` 須分別聲明
+`underlying_work`、`digital_witness` 與 `images` 的權利或查核範圍，
+並存 `license_status: unverified`、`reuse_status: not_cleared_for_open_reuse`
+與 `license_url: null`。人物匯出須保留來源的原值。這個狀態不構成授權。

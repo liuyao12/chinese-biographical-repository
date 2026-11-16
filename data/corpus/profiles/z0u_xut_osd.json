@@ -227,8 +227,8 @@
         "text_scope": "partial_chapter",
         "review_status": "text_checked",
         "image_verified": false,
-        "license_url": "https://homepage.ntu.edu.tw/~history/pub_newsletter.html",
-        "rights": "臺大歷史系公開供閱。未查得本期現代校錄、排印或影像的公開再利用授權；授權未知，限考證引文與連結，現代出版材料不納入本庫授權。license_url 僅指向出版者查詢入口。",
+        "license_url": null,
+        "rights": "本草稿依現代校錄抽取古銘文字以專案考證。現代校錄、排版與圖像的再利用授權未查證。API 同附此限制。",
         "normalization": {
           "character_conversion": "僅將 PDF CJK 相容碼位轉為統一碼位，原碼位留在 raw_columns、raw_side。"
         },
@@ -251,7 +251,15 @@
             "attribution": "邱建智，刊頁58"
           }
         },
-        "license_scope": "unknown_restricted_to_source_citation"
+        "license_scope": "transcription_reuse_unverified",
+        "rights_layers": {
+          "underlying_work": "東晉古代銘文。現有文字依2010排印格抽取，尚未與原件或拓片獨立對校。",
+          "digital_witness": "邱建智2010排印校錄、斷句、推讀與編輯呈現：在出版者期刊索引及本篇公開PDF未查得再利用授權條款。誌陽第9欄第14字「淑」為編者推讀。",
+          "images": "原件影像與原拓僅列來源連結；未查得《文物》2000年頁45公開官方圖像或逐字文本。",
+          "license_status": "unverified",
+          "reuse_status": "not_cleared_for_open_reuse",
+          "license_url": null
+        }
       }
     }
   ],
