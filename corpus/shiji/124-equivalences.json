@@ -140,6 +140,54 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji124-cross-004",
+      "person_ids": [
+        "n2o_l90_fnm"
+      ],
+      "canonical_person_id": "n2o_l90_fnm",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-063-laohan",
+        "c-shiji-124-youxia"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-063-laohan",
+          "source_id": "s-shiji-063-laohan",
+          "paragraph_id": "c-shiji-063-laohan:p026",
+          "quote": "太史公曰：老子所貴道，虛無，因應變化於無為，故著書辭稱微妙難識。莊子散道德，放論，要亦歸之自然。申子卑卑，施之於名實。韓子引繩墨，切事情，明是非，其極慘礉少恩。皆原於道德之意，而老子深遠矣。",
+          "mention_ids": [
+            "c-shiji-063-laohan:m026-0059"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-124-youxia",
+          "source_id": "s-shiji124-youxia",
+          "paragraph_id": "c-shiji-124-youxia:p001",
+          "quote": "韓子曰：「儒以文亂法，而俠以武犯禁。」二者皆譏，而學士多稱於世云。至如以術取宰相卿大夫，輔翼其世主，功名俱著於春秋，固無可言者。及若季次、原憲，閭巷人也，讀書懷獨行君子之德，義不苟合當世，當世亦笑之。故季次、原憲終身空室蓬戶，褐衣疏食不厭。死而已四百餘年，而弟子志之不倦。今遊俠，其行雖不軌於正義，然其言必信，其行必果，已諾必誠，不愛其軀，赴士之阨困，既已存亡死生矣，而不矜其能，羞伐其德，蓋亦有足多者焉。",
+          "mention_ids": [
+            "c-shiji-124-youxia:m001-0000"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記正義》卷一二四（識典古籍數位轉錄）",
+          "commentator": "唐《正義》",
+          "quote": "故太史公引韓子",
+          "url": "https://www.shidianguji.com/zh/book/SK0698/chapter/1l9z61j0ek11b",
+          "scope": "〈游俠列傳〉「韓子曰」注文；轉錄底本未核，不視為武英殿本見證。",
+          "image_verified": false
+        }
+      ],
+      "rationale": "卷六十三〈老子韓非列傳〉先敘韓非本傳；篇末太史公評「韓子引繩墨，切事情，明是非，其極慘礉少恩」，將「韓子」連於同篇已具名韓非。卷一二四開篇「韓子曰」所引「儒以文亂法，而俠以武犯禁」，與《韓非子·五蠹》平行文句相合。唐《史記正義》於此又釋「故太史公引韓子」，明言此處是在引韓子之說；識典古籍所錄卷頁（https://www.shidianguji.com/zh/book/SK0698/chapter/1l9z61j0ek11b）僅供查見注文轉錄，該頁底本未核，不冒稱武英殿本。CText平行段（https://ctext.org/text.pl?node=2668&show=parallel）僅作傳世文句參校，不以其人工標註取代本庫判讀。此為有上下文、注文與引文支持的暫定跨篇同指；未另裁定引文的作者層次或《韓非子》篇章成書問題。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }
