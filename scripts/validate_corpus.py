@@ -1040,7 +1040,16 @@ def _validate_uncached(root=ROOT):
                 check(h['status']=='source_attested','稱號持有狀態無效')
                 check(h['kind'] in ('royal_rank','imperial_rank','noble_rank','office','honorific','unclassified'),'稱號種類無效')
                 check(h['mode'] in ('grant','transfer','posthumous_grant','posthumous_enfeoffment','posthumous_naming','self_proclamation','accession','demotion','attestation'),'稱號事件種類無效')
-                check(bool(h['evidence']) and bool(h['attestations']),'稱號缺少來源或用稱錨點')
+                source_title_valid = False
+                if 'source_title_attestation' in h:
+                    try:
+                        from scripts.source_title_attestations import source_title_attestation_valid
+                    except ImportError:
+                        from source_title_attestations import source_title_attestation_valid
+                    source_title_valid = source_title_attestation_valid(h, chapters[d['chapter_id']])
+                    check(source_title_valid, '篇題稱號必須錨定固定篇題及同篇傳主人名提及')
+                check(bool(h['evidence']) and (bool(h['attestations']) or source_title_valid),
+                      '稱號缺少來源或用稱錨點')
                 if 'received_source_frame' in h:
                     try:from scripts.fixed_received_career import holding_valid as fixed_received_holding_valid
                     except ImportError:from fixed_received_career import holding_valid as fixed_received_holding_valid
