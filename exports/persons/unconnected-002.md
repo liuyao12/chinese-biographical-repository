@@ -496,6 +496,7 @@
 | `d84_kqu_2g5` | 何尚之 | [《宋書・張茂度 庾登之 謝方明 江夷》][212] | [JSON](d84_kqu_2g5.json) |
 | `d85_rbs_9sv` | 劉賈 | [《史記・荊燕世家》][121] | [JSON](d85_rbs_9sv.json) |
 | `d86_d07_abd` | 慕容超 | [《晉書・叛臣二》][61]、[《魏書・崔浩》][229] | [JSON](d86_d07_abd.json) |
+| `d88_6lt_6ex` | 太一 | [《史記・司馬相如列傳》][187] | [JSON](d88_6lt_6ex.json) |
 | `d8a_5k0_wwn` | 胡驥 | [《晉書・叛臣一》][59] | [JSON](d8a_5k0_wwn.json) |
 | `d8d_ced_96e` | 王徽 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][45] | [JSON](d8d_ced_96e.json) |
 | `d8s_9jm_qyc` | 周王 | [《史記・張儀列傳》][140] | [JSON](d8s_9jm_qyc.json) |
@@ -2093,7 +2094,6 @@
 | `msq_cc5_was` | 大巫嫗（未名） | [《史記・滑稽列傳》][196] | [JSON](msq_cc5_was.json) |
 | `msq_x2n_nnn` | 盧悚 | [《晉書・桓彝》][44] | [JSON](msq_x2n_nnn.json) |
 | `msv_9r0_wtk` | 趙襄子 | [《史記・韓世家》][115] | [JSON](msv_9r0_wtk.json) |
-| `mt4_h3l_bbn` | 齊王蘇代過魏 | [《史記・蘇秦列傳》][139] | [JSON](mt4_h3l_bbn.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
