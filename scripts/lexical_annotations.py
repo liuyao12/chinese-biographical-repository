@@ -10,6 +10,8 @@ def non_person_errors(mention, text):
     if role == 'non_person_pronoun':
         role_valid = mention.get('referent_kind') in (
             'event', 'action', 'object', 'expression', 'practice', 'quality', 'target')
+    elif 'referent_kind' in mention:
+        role_valid = False
     if role == 'vacant_office':
         role_valid = mention.get('surface') == '太子' and isinstance(term, str) and term.endswith('無太子')
     elif role == 'sovereign_status':
