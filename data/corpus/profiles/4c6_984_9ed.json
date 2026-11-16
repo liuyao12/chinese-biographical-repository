@@ -22,6 +22,64 @@
   ],
   "titles": [
     {
+      "id": "th-jin034-duyu-career_070",
+      "person_id": "4c6_984_9ed",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "chapter_id": "c-jinshu-034-duyu",
+          "source_id": "s-jinshu-034-ws2567662-duyu",
+          "paragraph_id": "c-jinshu-034-duyu:p025",
+          "quote": "錫字世嘏。少有盛名，起家長沙王乂文學，累遷太子中舍人。性亮直忠烈，屢諫湣懷太子，言辭懇切，太子患之。後置針著錫常所坐處氈中，刺之流血。他日，太子問錫：「向著何事？」錫對：「醉不知。」太子詰之曰：「君喜責人，何自作過也。」後轉衛將軍長史。趙王倫篡位，以為治書御史。孫秀求交於錫，而錫拒之，秀雖銜之，憚其名高，不敢害也。惠帝反政，遷吏部郎、城陽太守，不拜，仍遷尚書左丞。年四十八卒，贈散騎常侍。子乂嗣，在《外戚傳》。",
+          "person_mention_id": "c-jinshu-034-duyu:p025:m0012"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "完整固定本傳逐角色判讀；起終年未知不補、來源用稱不冒授任。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin034-duyu-kinship",
+        "slot": "career_070"
+      },
+      "title": "長沙王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin034-duyu-kinship",
+        "slot": "career_070"
+      },
+      "attestations": [
+        {
+          "id": "th-jin034-duyu-career_070:a001",
+          "paragraph_id": "c-jinshu-034-duyu:p025",
+          "start": 12,
+          "end": 15,
+          "surface": "長沙王",
+          "person_mention_id": "c-jinshu-034-duyu:p025:m0012",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-phase4-j-077",
       "person_id": "4c6_984_9ed",
       "title": "長沙王",
@@ -151,6 +209,41 @@
     }
   ],
   "occurrences": [
+    {
+      "number": 34,
+      "category": "",
+      "title": "杜預傳",
+      "paragraph_id": "c-jinshu-034-duyu:p025",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "錫字世嘏。少有盛名，起家長沙王乂文學，累遷太子中舍人。性亮直忠烈，屢諫湣懷太子，言辭懇切，太子患之。後置針著錫常所坐處氈中，刺之流血。他日，太子問錫：「向著何事？」錫對：「醉不知。」太子詰之曰：「君喜責人，何自作過也。」後轉衛將軍長",
+      "paragraph_ids": [
+        "c-jinshu-034-duyu:p025"
+      ],
+      "mention_ids": [
+        "c-jinshu-034-duyu:p025:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-034-duyu:p025:m0012": "c-jinshu-034-duyu:p025"
+      },
+      "mention_id": "c-jinshu-034-duyu:p025:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-034-duyu:p025:m0012",
+          "mention_ids": [
+            "c-jinshu-034-duyu:p025:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "chapter_id": "c-jinshu-034-duyu",
+      "source_id": "s-jinshu-034-ws2567662-duyu",
+      "work_title": "晉書"
+    },
     {
       "number": 39,
       "category": "",
@@ -962,6 +1055,35 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-034-duyu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-ws2567662-duyu",
+      "source": {
+        "title": "《晉書》卷三十四杜預完整本傳、杜錫附傳及卷末共評贊",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "revision_id": 2567662,
+        "accessed_on": "2026-10-22",
+        "extent": "杜預節題至卷末footer前，27完整收到內容行；含全部奏疏、遺令、杜錫附傳及2行共評贊。羊祜前傳不重匯，非全卷034。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保來源歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin034-ws2567662.wikitext",
+        "raw_path": "sources/witnesses/jin034-ws2567662.wikitext",
+        "wikitext_sha256": "0dc292f7743a95456ac8fa2977ba82bcaa35e1dd9cebe32fb2ecfab2f21f7a71",
+        "raw_file_sha256": "0dc292f7743a95456ac8fa2977ba82bcaa35e1dd9cebe32fb2ecfab2f21f7a71",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只投影排版空白、quote/YL/粗體及wiki連結外殼；原字/標點保留，全部可見字與排除位構成完整節界。未核實際古本。"
+        }
+      }
+    },
     {
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "work_id": "w-jinshu",

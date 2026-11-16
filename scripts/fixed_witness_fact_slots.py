@@ -23,6 +23,8 @@ def grammar(ch,root):
  assert root is not None
  root=Path(root).resolve();binding=ch['annotation'][REF];assert set(binding)=={'kind','key'}and binding['kind']==KIND
  r=recipes()[binding['key']];assert r['key']==binding['key']and r['source_kind']=='fixed_wikisource_complete_biography'
+ assert not any(key in layer for layer in(ch,ch['source'],binding,r)for key in('annotator','attached_note_to_paragraph_id'))
+ assert all(layer.get('text_layer','received_chapter')=='received_chapter'and layer.get('source_layer','received_biography')=='received_biography'for layer in(ch,ch['source'],binding,r))
  try:from scripts.fixed_wikisource_units import source_errors
  except ImportError:from fixed_wikisource_units import source_errors
  assert ch['annotation'].get('fixed_wikisource_unit_ref')and not source_errors(ch,root)
@@ -30,7 +32,12 @@ def grammar(ch,root):
  path=Path(ch['source']['raw_file']);assert not path.is_absolute()and'..'not in path.parts and path.parts[0]in('sources','source-evidence');raw=root/path;assert raw.resolve()==raw and raw.is_file()and hashlib.sha256(raw.read_bytes()).hexdigest()==r['raw_sha256']
  assert len(ch['paragraphs'])==len(r['paragraphs']);roles=[];allcoords=[]
  for j,(p,pattern)in enumerate(zip(ch['paragraphs'],r['paragraphs'])):
-  assert p['text_layer']=='received_chapter'and p['source_position']['source_layer']=='received_biography'
+  layers=r.get('paragraph_layers')
+  if layers is not None:
+   assert isinstance(layers,list)and len(layers)==len(ch['paragraphs'])and set(layers)<={'received_biography','received_quoted_document','received_criticism'}
+   assert layers[0]=='received_biography'and ch['source']['text_scope']=='partial_chapter'
+  expected_layer=layers[j]if layers is not None else'received_biography'
+  assert p['text_layer']=='received_chapter'and p['source_position']['source_layer']==expected_layer
   assert not any(k in container for container in(p,p['source_position'])for k in('annotator','attached_note_to_paragraph_id'))
   ms=[m for m in p['mentions']if m['kind']=='person'];cursor=0;used=[]
   for part in re.split(r'(<r[0-9]+>)',pattern):
@@ -53,13 +60,82 @@ def expand(v,roles):
  if isinstance(v,list):return[expand(x,roles)for x in v]
  return v
 
+def _calendar_rows(r,root):
+ rows={}
+ for ref in r.get('calendar_references',[]):
+  path=Path(ref['raw_file']);assert not path.is_absolute()and path.parts[0]=='sources'and'..'not in path.parts
+  q=Path(root).resolve()/path;assert q.resolve()==q and q.is_file();raw=q.read_bytes();assert hashlib.sha256(raw).hexdigest()==ref['sha256'];text=raw.decode('utf8')
+  for row in ref['rows']:
+   match=re.search(r"<tr id=['\"]"+re.escape(row['row_id'])+r"['\"]>.*?</tr>",text,re.S);assert match
+   value=match[0];assert row['dynasty']in value and row['era_name']in value
+   nums=re.findall(r"<div style=['\"]width:8em;['\"]>([0-9]+)</div>",value);assert nums==[str(row['first_year']),str(row['last_year'])]
+   assert row['row_id']not in rows;rows[row['row_id']]=row
+ return rows
+
+def _dates(r,ch,slots,root):
+ rows=_calendar_rows(r,root);proofs=r.get('date_proofs',[]);allowed={}
+ for proof in proofs:
+  if proof.get('kind') == 'fixed_archived_parallel_year':
+   try:from scripts.fixed_witness_parallel_dates import prove,value_at
+   except ImportError:from fixed_witness_parallel_dates import prove,value_at
+   slot=proof['slot'];path=proof['record_path'];v=slots[slot];date=value_at(v,path)
+   assert prove(date,v,proof,r,ch,root)
+   allowed.setdefault(slot,[]).append(tuple(path));continue
+  slot=proof['slot'];path=proof['record_path'];v=slots[slot];date=v
+  for key in path:date=date[key]
+  p=ch['paragraphs'][proof['paragraph_index']];a=proof['date_anchor'];assert type(a['start'])is int and type(a['end'])is int and p['text'][a['start']:a['end']]==a['surface']
+  row=rows[proof['calendar_row_id']];mapping=date['regnal_year_mapping'];number=proof['source_number']
+  try:from scripts.chinese_civil_years import numeral
+  except ImportError:from chinese_civil_years import numeral
+  n=numeral(number);assert type(n)is int and 1<=n<=row['last_year']-row['first_year']+1
+  assert a['surface']==row['era_name']+number+'年'==date['source_expression']and mapping==dict(kind='ce_regnal_era_span',reference_index=0,start_ce_year=row['first_year'],end_ce_year=row['last_year'],regnal_year=n,source_number=number,era_name=row['era_name'])
+  assert date['year']==date['era_year']==row['first_year']+n-1 and date['era']=='CE'and date['calendar']=='chinese_civil'and date['precision']=='year'
+  assert date['evidence']==v['evidence']and date['original_quote']==p['text']and all(e['paragraph_id']==p['id']and e['quote']==p['text']for e in date['evidence'])
+  columns=date['references'][0]['columns'];assert columns==dict(dynasty=row['dynasty'],era_name=row['era_name'],first_year=str(row['first_year']),last_year=str(row['last_year']))
+  allowed.setdefault(slot,[]).append(tuple(path))
+ def walk(x,path=()):
+  out=[]
+  if isinstance(x,dict):
+   for k,v in x.items():
+    if k in ('normalized_date','normalized_date_range'):out.append(path+(k,))
+    else:out.extend(walk(v,path+(k,)))
+  elif isinstance(x,list):
+   for i,v in enumerate(x):out.extend(walk(v,path+(i,)))
+  return out
+ for slot,v in slots.items():assert sorted(walk(v))==sorted(allowed.get(slot,[]))
+
+def _maternal_context(r,slots,root):
+ """Only reviewed recipe proofs qualify maternal preference; never parse a mother word."""
+ proofs=r.get('maternal_context_proofs',[]);assert len({p['slot']for p in proofs})==len(proofs)
+ required={k for k,v in slots.items()if 'supporting_source_references'in v.get('qualifiers',{}).get('maternal_interpretation',{})}
+ assert required=={p['slot']for p in proofs}
+ for proof in proofs:
+  assert set(proof)=={'slot','kind','witnesses','record_roles','same_identity_groups','distinct_identity_groups'}and proof['kind']=='fixed_complete_witness_maternal_context'
+  v=slots[proof['slot']];mi=v['qualifiers']['maternal_interpretation'];assert v['predicate']=='mother'and mi['status']=='contextual_preferred'and mi['source_explicit_birth']is False
+  try:from scripts.fixed_wikisource_units import source_errors
+  except ImportError:from fixed_wikisource_units import source_errors
+  roles=[];refs=[];root=Path(root).resolve()
+  for w in proof['witnesses']:
+   assert set(w)=={'chapter_path','chapter_id','source_revision','raw_sha256','paragraph_id','paragraph_sha256','role_bindings'}
+   path=Path(w['chapter_path']);assert not path.is_absolute()and'..'not in path.parts and path.parts[0]=='corpus';q=root/path;assert q.resolve()==q
+   c=json.loads(q.read_bytes());assert c['id']==w['chapter_id']and c['source']['revision_id']==w['source_revision']and c['source']['raw_file_sha256']==w['raw_sha256']and c['annotation'].get('fixed_wikisource_unit_ref')and not source_errors(c,root)
+   p,=[p for p in c['paragraphs']if p['id']==w['paragraph_id']];assert p['text_layer']=='received_chapter'and hashlib.sha256(p['text'].encode()).hexdigest()==w['paragraph_sha256']
+   ms={m['id']:m for m in p['mentions']};rr={}
+   for role,b in w['role_bindings'].items():
+    assert set(b)=={'id','start','end','surface'};m=ms[b['id']];assert m['kind']=='person'and all(m[k]==b[k]for k in b)and p['text'][m['start']:m['end']]==m['surface'];rr[role]=m['person_id']
+   roles.append(rr);refs.append(dict(work_id=c['work_id'],book_id=c['book_id'],source_id=c['source_id'],chapter_id=c['id'],paragraph_id=p['id'],quote=p['text'],role_mentions={k:b['id']for k,b in w['role_bindings'].items()}))
+  assert mi['supporting_source_references']==refs
+  for field,coord in proof['record_roles'].items():assert field in('subject','object')and v[field+'_person_id']==roles[coord[0]][coord[1]]
+  for group in proof['same_identity_groups']:assert len(group)>=2 and len({roles[j][k]for j,k in group})==1
+  for group in proof['distinct_identity_groups']:assert len(group)>=2 and len({roles[j][k]for j,k in group})==len(group)
+
 def records(ch,root=ROOT):
  r,roles=grammar(ch,root);slots=r['slots'];assert len({s['slot']for s in slots})==len(slots)
  out=[expand(s['record'],roles)for s in slots];assert len({x['id']for x in out})==len(out);by_slot={s['slot']:v for s,v in zip(slots,out)};hs={v['id']:v for s,v in zip(slots,out)if s['category']=='holding'}
  for s,v in zip(slots,out):
   b=v['fixed_source_fact_binding'];assert b==dict(kind=KIND,key=r['key'],slot=s['slot'])
-  for key in('normalized_date','normalized_date_range','birth_year'):
-   assert key not in v
+  if 'birth_year'in v:assert v['birth_year']is None
+  if not r.get('date_proofs'):assert 'normalized_date'not in v and'normalized_date_range'not in v
   for link in [v.get('values',{}).get('linked_holding_id'),v.get('values',{}).get('prior_holding_id'),v.get('title_formation',{}).get('previous_holding_id'),v.get('assumption_basis',{}).get('previous_holding_id')]:
    if link:assert link in hs and hs[link]['person_id']==v['person_id']
   for link in v.get('values',{}).get('related_holding_ids',[]):assert link in hs and hs[link]['person_id']==v['person_id']
@@ -72,6 +148,13 @@ def records(ch,root=ROOT):
   v=by_slot[proof['slot']]
   for key in proof['record_path']:v=v[key]
   assert type(v)is int and integer(term)==v
+ _dates(r,ch,by_slot,root)
+ _maternal_context(r,by_slot,root)
+ for s,v in zip(slots,out):
+  basis=v.get('surname_basis',{})
+  if basis.get('kind')=='contextual_surname_from_fixed_witness_slots':
+   seed=by_slot[basis['seed_name_slot']];a=by_slot[basis['source_assertion_slot']]
+   assert v['surname']==seed['surname']and a['predicate']=='father'and a['subject_person_id']==seed['person_id']and a['object_person_id']==v['person_id']and a['status']=='source_attested'
  return out
 
 def valid(v,ch,root=ROOT):

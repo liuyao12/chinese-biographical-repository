@@ -3,12 +3,85 @@
   "id": "56f_8f7_e9f",
   "canonical_person_id": "56f_8f7_e9f",
   "label": "杜畿",
-  "identity_note": "本固定卷010單元及獨立大阪1670接口內辨識；正文與裴注、引古、書信及作者分域。未補本傳之外出生、母親、任職年代；異名疑讀另留未決。",
+  "identity_note": "曹魏杜畿；荀彧薦舉、河東治績與尚書僕射身份有分來源原證。《晉書》杜預傳祖畿、父恕與固定《三國志》杜氏完整單元可相互對讀，未知生母等不補。未核書影。",
   "review": "ai_provisional",
   "names": [
-    "杜畿"
+    "杜畿",
+    "畿",
+    "伯侯",
+    "之",
+    "我",
+    "新君",
+    "吾",
+    "郡將軍",
+    "君",
+    "府君",
+    "卿",
+    "前君",
+    "臣",
+    "子",
+    "戴侯"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin034-duyu-career_001",
+      "person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "chapter_id": "c-jinshu-034-duyu",
+          "source_id": "s-jinshu-034-ws2567662-duyu",
+          "paragraph_id": "c-jinshu-034-duyu:p001",
+          "quote": "杜預，字元凱，京兆杜陵人也。祖畿，魏尚書僕射。父恕，幽州刺史。預博學多通，明於興廢之道，常言：「德不可以企及，立功立言可庶幾也。」初，其父與宣帝不相能，遂以幽死，故預久不得調。文帝嗣立，預尚帝妹高陸公主，起家拜尚書郎，襲祖爵豐樂亭侯。在職四年，轉參相府軍事。鐘會伐蜀，以預為鎮西長史。及會反，僚佐並遇害，唯預以智獲免，增邑千一百五十戶。",
+          "person_mention_id": "c-jinshu-034-duyu:p001:m0015"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "完整固定本傳逐角色判讀；起終年未知不補、來源用稱不冒授任。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin034-duyu-kinship",
+        "slot": "career_001"
+      },
+      "title": "尚書僕射",
+      "kind": "office",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin034-duyu-kinship",
+        "slot": "career_001"
+      },
+      "attestations": [
+        {
+          "id": "th-jin034-duyu-career_001:a001",
+          "paragraph_id": "c-jinshu-034-duyu:p001",
+          "start": 18,
+          "end": 22,
+          "surface": "尚書僕射",
+          "person_mention_id": "c-jinshu-034-duyu:p001:m0015",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -45,6 +118,964 @@
       "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
       "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
       "work_title": "三國志"
+    },
+    {
+      "number": 16,
+      "category": "",
+      "title": "杜畿杜恕傳",
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit001",
+      "count": 97,
+      "raw_count": 97,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "杜畿字伯侯京兆杜陵人也",
+      "paragraph_ids": [
+        "c-sanguozhi-016-duji-dushu:unit001",
+        "c-sanguozhi-016-duji-dushu:unit002",
+        "c-sanguozhi-016-duji-dushu:unit003",
+        "c-sanguozhi-016-duji-dushu:unit004",
+        "c-sanguozhi-016-duji-dushu:unit005",
+        "c-sanguozhi-016-duji-dushu:unit006",
+        "c-sanguozhi-016-duji-dushu:unit007",
+        "c-sanguozhi-016-duji-dushu:unit008",
+        "c-sanguozhi-016-duji-dushu:unit009",
+        "c-sanguozhi-016-duji-dushu:unit010",
+        "c-sanguozhi-016-duji-dushu:unit011",
+        "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit014",
+        "c-sanguozhi-016-duji-dushu:unit015",
+        "c-sanguozhi-016-duji-dushu:unit016",
+        "c-sanguozhi-016-duji-dushu:unit017",
+        "c-sanguozhi-016-duji-dushu:unit018",
+        "c-sanguozhi-016-duji-dushu:unit019",
+        "c-sanguozhi-016-duji-dushu:unit020",
+        "c-sanguozhi-016-duji-dushu:unit023",
+        "c-sanguozhi-016-duji-dushu:unit024",
+        "c-sanguozhi-016-duji-dushu:unit037",
+        "c-sanguozhi-016-duji-dushu:unit041",
+        "c-sanguozhi-016-duji-dushu:unit042",
+        "c-sanguozhi-016-duji-dushu:unit044"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-016-duji-dushu:unit001:m0000",
+        "c-sanguozhi-016-duji-dushu:unit001:m0003",
+        "c-sanguozhi-016-duji-dushu:unit002:m0003",
+        "c-sanguozhi-016-duji-dushu:unit003:m0005",
+        "c-sanguozhi-016-duji-dushu:unit003:m0026",
+        "c-sanguozhi-016-duji-dushu:unit003:m0079",
+        "c-sanguozhi-016-duji-dushu:unit004:m0003",
+        "c-sanguozhi-016-duji-dushu:unit004:m0030",
+        "c-sanguozhi-016-duji-dushu:unit004:m0052",
+        "c-sanguozhi-016-duji-dushu:unit004:m0062",
+        "c-sanguozhi-016-duji-dushu:unit005:m0003",
+        "c-sanguozhi-016-duji-dushu:unit006:m0003",
+        "c-sanguozhi-016-duji-dushu:unit006:m0038",
+        "c-sanguozhi-016-duji-dushu:unit006:m0044",
+        "c-sanguozhi-016-duji-dushu:unit006:m0045",
+        "c-sanguozhi-016-duji-dushu:unit006:m0055",
+        "c-sanguozhi-016-duji-dushu:unit006:m0060",
+        "c-sanguozhi-016-duji-dushu:unit006:m0067",
+        "c-sanguozhi-016-duji-dushu:unit006:m0081",
+        "c-sanguozhi-016-duji-dushu:unit006:m0110",
+        "c-sanguozhi-016-duji-dushu:unit007:m0111",
+        "c-sanguozhi-016-duji-dushu:unit008:m0005",
+        "c-sanguozhi-016-duji-dushu:unit008:m0019",
+        "c-sanguozhi-016-duji-dushu:unit009:m0004",
+        "c-sanguozhi-016-duji-dushu:unit009:m0020",
+        "c-sanguozhi-016-duji-dushu:unit009:m0037",
+        "c-sanguozhi-016-duji-dushu:unit009:m0043",
+        "c-sanguozhi-016-duji-dushu:unit009:m0126",
+        "c-sanguozhi-016-duji-dushu:unit009:m0128",
+        "c-sanguozhi-016-duji-dushu:unit009:m0148",
+        "c-sanguozhi-016-duji-dushu:unit009:m0149",
+        "c-sanguozhi-016-duji-dushu:unit010:m0007",
+        "c-sanguozhi-016-duji-dushu:unit010:m0018",
+        "c-sanguozhi-016-duji-dushu:unit010:m0019",
+        "c-sanguozhi-016-duji-dushu:unit010:m0027",
+        "c-sanguozhi-016-duji-dushu:unit010:m0034",
+        "c-sanguozhi-016-duji-dushu:unit010:m0044",
+        "c-sanguozhi-016-duji-dushu:unit010:m0046",
+        "c-sanguozhi-016-duji-dushu:unit010:m0061",
+        "c-sanguozhi-016-duji-dushu:unit010:m0071",
+        "c-sanguozhi-016-duji-dushu:unit010:m0089",
+        "c-sanguozhi-016-duji-dushu:unit011:m0004",
+        "c-sanguozhi-016-duji-dushu:unit013:m0002",
+        "c-sanguozhi-016-duji-dushu:unit013:m0018",
+        "c-sanguozhi-016-duji-dushu:unit013:m0042",
+        "c-sanguozhi-016-duji-dushu:unit013:m0043",
+        "c-sanguozhi-016-duji-dushu:unit013:m0057",
+        "c-sanguozhi-016-duji-dushu:unit013:m0108",
+        "c-sanguozhi-016-duji-dushu:unit013:m0118",
+        "c-sanguozhi-016-duji-dushu:unit013:m0262",
+        "c-sanguozhi-016-duji-dushu:unit013:m0286",
+        "c-sanguozhi-016-duji-dushu:unit013:m0304",
+        "c-sanguozhi-016-duji-dushu:unit013:m0353",
+        "c-sanguozhi-016-duji-dushu:unit013:m0371",
+        "c-sanguozhi-016-duji-dushu:unit013:m0404",
+        "c-sanguozhi-016-duji-dushu:unit013:m0465",
+        "c-sanguozhi-016-duji-dushu:unit014:m0008",
+        "c-sanguozhi-016-duji-dushu:unit014:m0020",
+        "c-sanguozhi-016-duji-dushu:unit015:m0066",
+        "c-sanguozhi-016-duji-dushu:unit015:m0109",
+        "c-sanguozhi-016-duji-dushu:unit016:m0022",
+        "c-sanguozhi-016-duji-dushu:unit016:m0026",
+        "c-sanguozhi-016-duji-dushu:unit016:m0042",
+        "c-sanguozhi-016-duji-dushu:unit016:m0053",
+        "c-sanguozhi-016-duji-dushu:unit017:m0005",
+        "c-sanguozhi-016-duji-dushu:unit017:m0026",
+        "c-sanguozhi-016-duji-dushu:unit017:m0033",
+        "c-sanguozhi-016-duji-dushu:unit017:m0059",
+        "c-sanguozhi-016-duji-dushu:unit017:m0063",
+        "c-sanguozhi-016-duji-dushu:unit018:m0004",
+        "c-sanguozhi-016-duji-dushu:unit018:m0032",
+        "c-sanguozhi-016-duji-dushu:unit018:m0045",
+        "c-sanguozhi-016-duji-dushu:unit018:m0053",
+        "c-sanguozhi-016-duji-dushu:unit018:m0054",
+        "c-sanguozhi-016-duji-dushu:unit018:m0064",
+        "c-sanguozhi-016-duji-dushu:unit018:m0067",
+        "c-sanguozhi-016-duji-dushu:unit019:m0009",
+        "c-sanguozhi-016-duji-dushu:unit019:m0024",
+        "c-sanguozhi-016-duji-dushu:unit020:m0006",
+        "c-sanguozhi-016-duji-dushu:unit020:m0019",
+        "c-sanguozhi-016-duji-dushu:unit020:m0020",
+        "c-sanguozhi-016-duji-dushu:unit020:m0030",
+        "c-sanguozhi-016-duji-dushu:unit020:m0035",
+        "c-sanguozhi-016-duji-dushu:unit020:m0052",
+        "c-sanguozhi-016-duji-dushu:unit023:m0005",
+        "c-sanguozhi-016-duji-dushu:unit023:m0030",
+        "c-sanguozhi-016-duji-dushu:unit024:m0003",
+        "c-sanguozhi-016-duji-dushu:unit024:m0046",
+        "c-sanguozhi-016-duji-dushu:unit024:m0060",
+        "c-sanguozhi-016-duji-dushu:unit024:m0063",
+        "c-sanguozhi-016-duji-dushu:unit024:m0094",
+        "c-sanguozhi-016-duji-dushu:unit024:m0124",
+        "c-sanguozhi-016-duji-dushu:unit037:m0042",
+        "c-sanguozhi-016-duji-dushu:unit037:m0188",
+        "c-sanguozhi-016-duji-dushu:unit041:m0034",
+        "c-sanguozhi-016-duji-dushu:unit042:m0064",
+        "c-sanguozhi-016-duji-dushu:unit044:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-016-duji-dushu:unit001:m0000": "c-sanguozhi-016-duji-dushu:unit001",
+        "c-sanguozhi-016-duji-dushu:unit001:m0003": "c-sanguozhi-016-duji-dushu:unit001",
+        "c-sanguozhi-016-duji-dushu:unit002:m0003": "c-sanguozhi-016-duji-dushu:unit002",
+        "c-sanguozhi-016-duji-dushu:unit003:m0005": "c-sanguozhi-016-duji-dushu:unit003",
+        "c-sanguozhi-016-duji-dushu:unit003:m0026": "c-sanguozhi-016-duji-dushu:unit003",
+        "c-sanguozhi-016-duji-dushu:unit003:m0079": "c-sanguozhi-016-duji-dushu:unit003",
+        "c-sanguozhi-016-duji-dushu:unit004:m0003": "c-sanguozhi-016-duji-dushu:unit004",
+        "c-sanguozhi-016-duji-dushu:unit004:m0030": "c-sanguozhi-016-duji-dushu:unit004",
+        "c-sanguozhi-016-duji-dushu:unit004:m0052": "c-sanguozhi-016-duji-dushu:unit004",
+        "c-sanguozhi-016-duji-dushu:unit004:m0062": "c-sanguozhi-016-duji-dushu:unit004",
+        "c-sanguozhi-016-duji-dushu:unit005:m0003": "c-sanguozhi-016-duji-dushu:unit005",
+        "c-sanguozhi-016-duji-dushu:unit006:m0003": "c-sanguozhi-016-duji-dushu:unit006",
+        "c-sanguozhi-016-duji-dushu:unit006:m0038": "c-sanguozhi-016-duji-dushu:unit006",
+        "c-sanguozhi-016-duji-dushu:unit006:m0044": "c-sanguozhi-016-duji-dushu:unit006",
+        "c-sanguozhi-016-duji-dushu:unit006:m0045": "c-sanguozhi-016-duji-dushu:unit006",
+        "c-sanguozhi-016-duji-dushu:unit006:m0055": "c-sanguozhi-016-duji-dushu:unit006",
+        "c-sanguozhi-016-duji-dushu:unit006:m0060": "c-sanguozhi-016-duji-dushu:unit006",
+        "c-sanguozhi-016-duji-dushu:unit006:m0067": "c-sanguozhi-016-duji-dushu:unit006",
+        "c-sanguozhi-016-duji-dushu:unit006:m0081": "c-sanguozhi-016-duji-dushu:unit006",
+        "c-sanguozhi-016-duji-dushu:unit006:m0110": "c-sanguozhi-016-duji-dushu:unit006",
+        "c-sanguozhi-016-duji-dushu:unit007:m0111": "c-sanguozhi-016-duji-dushu:unit007",
+        "c-sanguozhi-016-duji-dushu:unit008:m0005": "c-sanguozhi-016-duji-dushu:unit008",
+        "c-sanguozhi-016-duji-dushu:unit008:m0019": "c-sanguozhi-016-duji-dushu:unit008",
+        "c-sanguozhi-016-duji-dushu:unit009:m0004": "c-sanguozhi-016-duji-dushu:unit009",
+        "c-sanguozhi-016-duji-dushu:unit009:m0020": "c-sanguozhi-016-duji-dushu:unit009",
+        "c-sanguozhi-016-duji-dushu:unit009:m0037": "c-sanguozhi-016-duji-dushu:unit009",
+        "c-sanguozhi-016-duji-dushu:unit009:m0043": "c-sanguozhi-016-duji-dushu:unit009",
+        "c-sanguozhi-016-duji-dushu:unit009:m0126": "c-sanguozhi-016-duji-dushu:unit009",
+        "c-sanguozhi-016-duji-dushu:unit009:m0128": "c-sanguozhi-016-duji-dushu:unit009",
+        "c-sanguozhi-016-duji-dushu:unit009:m0148": "c-sanguozhi-016-duji-dushu:unit009",
+        "c-sanguozhi-016-duji-dushu:unit009:m0149": "c-sanguozhi-016-duji-dushu:unit009",
+        "c-sanguozhi-016-duji-dushu:unit010:m0007": "c-sanguozhi-016-duji-dushu:unit010",
+        "c-sanguozhi-016-duji-dushu:unit010:m0018": "c-sanguozhi-016-duji-dushu:unit010",
+        "c-sanguozhi-016-duji-dushu:unit010:m0019": "c-sanguozhi-016-duji-dushu:unit010",
+        "c-sanguozhi-016-duji-dushu:unit010:m0027": "c-sanguozhi-016-duji-dushu:unit010",
+        "c-sanguozhi-016-duji-dushu:unit010:m0034": "c-sanguozhi-016-duji-dushu:unit010",
+        "c-sanguozhi-016-duji-dushu:unit010:m0044": "c-sanguozhi-016-duji-dushu:unit010",
+        "c-sanguozhi-016-duji-dushu:unit010:m0046": "c-sanguozhi-016-duji-dushu:unit010",
+        "c-sanguozhi-016-duji-dushu:unit010:m0061": "c-sanguozhi-016-duji-dushu:unit010",
+        "c-sanguozhi-016-duji-dushu:unit010:m0071": "c-sanguozhi-016-duji-dushu:unit010",
+        "c-sanguozhi-016-duji-dushu:unit010:m0089": "c-sanguozhi-016-duji-dushu:unit010",
+        "c-sanguozhi-016-duji-dushu:unit011:m0004": "c-sanguozhi-016-duji-dushu:unit011",
+        "c-sanguozhi-016-duji-dushu:unit013:m0002": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0018": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0042": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0043": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0057": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0108": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0118": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0262": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0286": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0304": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0353": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0371": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0404": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit013:m0465": "c-sanguozhi-016-duji-dushu:unit013",
+        "c-sanguozhi-016-duji-dushu:unit014:m0008": "c-sanguozhi-016-duji-dushu:unit014",
+        "c-sanguozhi-016-duji-dushu:unit014:m0020": "c-sanguozhi-016-duji-dushu:unit014",
+        "c-sanguozhi-016-duji-dushu:unit015:m0066": "c-sanguozhi-016-duji-dushu:unit015",
+        "c-sanguozhi-016-duji-dushu:unit015:m0109": "c-sanguozhi-016-duji-dushu:unit015",
+        "c-sanguozhi-016-duji-dushu:unit016:m0022": "c-sanguozhi-016-duji-dushu:unit016",
+        "c-sanguozhi-016-duji-dushu:unit016:m0026": "c-sanguozhi-016-duji-dushu:unit016",
+        "c-sanguozhi-016-duji-dushu:unit016:m0042": "c-sanguozhi-016-duji-dushu:unit016",
+        "c-sanguozhi-016-duji-dushu:unit016:m0053": "c-sanguozhi-016-duji-dushu:unit016",
+        "c-sanguozhi-016-duji-dushu:unit017:m0005": "c-sanguozhi-016-duji-dushu:unit017",
+        "c-sanguozhi-016-duji-dushu:unit017:m0026": "c-sanguozhi-016-duji-dushu:unit017",
+        "c-sanguozhi-016-duji-dushu:unit017:m0033": "c-sanguozhi-016-duji-dushu:unit017",
+        "c-sanguozhi-016-duji-dushu:unit017:m0059": "c-sanguozhi-016-duji-dushu:unit017",
+        "c-sanguozhi-016-duji-dushu:unit017:m0063": "c-sanguozhi-016-duji-dushu:unit017",
+        "c-sanguozhi-016-duji-dushu:unit018:m0004": "c-sanguozhi-016-duji-dushu:unit018",
+        "c-sanguozhi-016-duji-dushu:unit018:m0032": "c-sanguozhi-016-duji-dushu:unit018",
+        "c-sanguozhi-016-duji-dushu:unit018:m0045": "c-sanguozhi-016-duji-dushu:unit018",
+        "c-sanguozhi-016-duji-dushu:unit018:m0053": "c-sanguozhi-016-duji-dushu:unit018",
+        "c-sanguozhi-016-duji-dushu:unit018:m0054": "c-sanguozhi-016-duji-dushu:unit018",
+        "c-sanguozhi-016-duji-dushu:unit018:m0064": "c-sanguozhi-016-duji-dushu:unit018",
+        "c-sanguozhi-016-duji-dushu:unit018:m0067": "c-sanguozhi-016-duji-dushu:unit018",
+        "c-sanguozhi-016-duji-dushu:unit019:m0009": "c-sanguozhi-016-duji-dushu:unit019",
+        "c-sanguozhi-016-duji-dushu:unit019:m0024": "c-sanguozhi-016-duji-dushu:unit019",
+        "c-sanguozhi-016-duji-dushu:unit020:m0006": "c-sanguozhi-016-duji-dushu:unit020",
+        "c-sanguozhi-016-duji-dushu:unit020:m0019": "c-sanguozhi-016-duji-dushu:unit020",
+        "c-sanguozhi-016-duji-dushu:unit020:m0020": "c-sanguozhi-016-duji-dushu:unit020",
+        "c-sanguozhi-016-duji-dushu:unit020:m0030": "c-sanguozhi-016-duji-dushu:unit020",
+        "c-sanguozhi-016-duji-dushu:unit020:m0035": "c-sanguozhi-016-duji-dushu:unit020",
+        "c-sanguozhi-016-duji-dushu:unit020:m0052": "c-sanguozhi-016-duji-dushu:unit020",
+        "c-sanguozhi-016-duji-dushu:unit023:m0005": "c-sanguozhi-016-duji-dushu:unit023",
+        "c-sanguozhi-016-duji-dushu:unit023:m0030": "c-sanguozhi-016-duji-dushu:unit023",
+        "c-sanguozhi-016-duji-dushu:unit024:m0003": "c-sanguozhi-016-duji-dushu:unit024",
+        "c-sanguozhi-016-duji-dushu:unit024:m0046": "c-sanguozhi-016-duji-dushu:unit024",
+        "c-sanguozhi-016-duji-dushu:unit024:m0060": "c-sanguozhi-016-duji-dushu:unit024",
+        "c-sanguozhi-016-duji-dushu:unit024:m0063": "c-sanguozhi-016-duji-dushu:unit024",
+        "c-sanguozhi-016-duji-dushu:unit024:m0094": "c-sanguozhi-016-duji-dushu:unit024",
+        "c-sanguozhi-016-duji-dushu:unit024:m0124": "c-sanguozhi-016-duji-dushu:unit024",
+        "c-sanguozhi-016-duji-dushu:unit037:m0042": "c-sanguozhi-016-duji-dushu:unit037",
+        "c-sanguozhi-016-duji-dushu:unit037:m0188": "c-sanguozhi-016-duji-dushu:unit037",
+        "c-sanguozhi-016-duji-dushu:unit041:m0034": "c-sanguozhi-016-duji-dushu:unit041",
+        "c-sanguozhi-016-duji-dushu:unit042:m0064": "c-sanguozhi-016-duji-dushu:unit042",
+        "c-sanguozhi-016-duji-dushu:unit044:m0017": "c-sanguozhi-016-duji-dushu:unit044"
+      },
+      "mention_id": "c-sanguozhi-016-duji-dushu:unit001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit001:m0000",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit001:m0003",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit001:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit002:m0003",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit002:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit003:m0005",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit003:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit003:m0026",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit003:m0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit003:m0079",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit003:m0079"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit004:m0003",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit004:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit004:m0030",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit004:m0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit004:m0052",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit004:m0052"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit004:m0062",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit004:m0062"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit005:m0003",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit005:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit006:m0003",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit006:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit006:m0038",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit006:m0038"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit006:m0044",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit006:m0044"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit006:m0045",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit006:m0045"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit006:m0055",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit006:m0055"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit006:m0060",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit006:m0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit006:m0067",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit006:m0067"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit006:m0081",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit006:m0081"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit006:m0110",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit006:m0110"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit007:m0111",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit007:m0111"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit008:m0005",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit008:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit008:m0019",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit008:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit009:m0004",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit009:m0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit009:m0020",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit009:m0020"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit009:m0037",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit009:m0037"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit009:m0043",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit009:m0043"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit009:m0126",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit009:m0126"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit009:m0128",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit009:m0128"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit009:m0148",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit009:m0148"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit009:m0149",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit009:m0149"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit010:m0007",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit010:m0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit010:m0018",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit010:m0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit010:m0019",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit010:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit010:m0027",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit010:m0027"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit010:m0034",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit010:m0034"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit010:m0044",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit010:m0044"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit010:m0046",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit010:m0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit010:m0061",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit010:m0061"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit010:m0071",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit010:m0071"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit010:m0089",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit010:m0089"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit011:m0004",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit011:m0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0002",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0018",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0042",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0042"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0043",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0043"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0057",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0057"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0108",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0108"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0118",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0118"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0262",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0262"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0286",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0286"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0304",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0304"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0353",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0353"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0371",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0371"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0404",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0404"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit013:m0465",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit013:m0465"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit014:m0008",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit014:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit014:m0020",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit014:m0020"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit015:m0066",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit015:m0066"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit015:m0109",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit015:m0109"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit016:m0022",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit016:m0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit016:m0026",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit016:m0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit016:m0042",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit016:m0042"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit016:m0053",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit016:m0053"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit017:m0005",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit017:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit017:m0026",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit017:m0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit017:m0033",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit017:m0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit017:m0059",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit017:m0059"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit017:m0063",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit017:m0063"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit018:m0004",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit018:m0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit018:m0032",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit018:m0032"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit018:m0045",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit018:m0045"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit018:m0053",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit018:m0053"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit018:m0054",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit018:m0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit018:m0064",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit018:m0064"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit018:m0067",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit018:m0067"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit019:m0009",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit019:m0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit019:m0024",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit019:m0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit020:m0006",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit020:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit020:m0019",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit020:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit020:m0020",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit020:m0020"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit020:m0030",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit020:m0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit020:m0035",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit020:m0035"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit020:m0052",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit020:m0052"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0005",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit023:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0030",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit023:m0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit024:m0003",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit024:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit024:m0046",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit024:m0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit024:m0060",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit024:m0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit024:m0063",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit024:m0063"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit024:m0094",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit024:m0094"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit024:m0124",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit024:m0124"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit037:m0042",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit037:m0042"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit037:m0188",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit037:m0188"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit041:m0034",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit041:m0034"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit042:m0064",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit042:m0064"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit044:m0017",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit044:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-016",
+      "chapter_id": "c-sanguozhi-016-duji-dushu",
+      "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+      "work_title": "三國志"
+    },
+    {
+      "number": 34,
+      "category": "",
+      "title": "杜預傳",
+      "paragraph_id": "c-jinshu-034-duyu:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "杜預，字元凱，京兆杜陵人也。祖畿，魏尚書僕射。父恕，幽州刺史。預博學多通，明於興廢之道，常言：「德不可以企及，立功立言可庶幾也。」初，其父與宣帝不相能，遂以幽死，故預久不得調。文帝嗣立，預尚帝妹高陸公主，起家拜尚書郎，襲祖爵豐樂亭侯",
+      "paragraph_ids": [
+        "c-jinshu-034-duyu:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-034-duyu:p001:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-034-duyu:p001:m0015": "c-jinshu-034-duyu:p001"
+      },
+      "mention_id": "c-jinshu-034-duyu:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-034-duyu:p001:m0015",
+          "mention_ids": [
+            "c-jinshu-034-duyu:p001:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "chapter_id": "c-jinshu-034-duyu",
+      "source_id": "s-jinshu-034-ws2567662-duyu",
+      "work_title": "晉書"
     },
     {
       "number": 85,
@@ -84,6 +1115,35 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-034-duyu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-ws2567662-duyu",
+      "source": {
+        "title": "《晉書》卷三十四杜預完整本傳、杜錫附傳及卷末共評贊",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+        "revision_id": 2567662,
+        "accessed_on": "2026-10-22",
+        "extent": "杜預節題至卷末footer前，27完整收到內容行；含全部奏疏、遺令、杜錫附傳及2行共評贊。羊祜前傳不重匯，非全卷034。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保來源歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin034-ws2567662.wikitext",
+        "raw_path": "sources/witnesses/jin034-ws2567662.wikitext",
+        "wikitext_sha256": "0dc292f7743a95456ac8fa2977ba82bcaa35e1dd9cebe32fb2ecfab2f21f7a71",
+        "raw_file_sha256": "0dc292f7743a95456ac8fa2977ba82bcaa35e1dd9cebe32fb2ecfab2f21f7a71",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只投影排版空白、quote/YL/粗體及wiki連結外殼；原字/標點保留，全部可見字與排除位構成完整節界。未核實際古本。"
+        }
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
       "work_id": "w-sanguozhi",
@@ -3823,6 +4883,32 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-016-duji-dushu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-016",
+      "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+      "source": {
+        "title": "《三國志》卷十六杜畿、杜恕完整本傳及全部裴注",
+        "provider": "Kanripo",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "82e8ba333863c0ad47843c72d6237a2d32b10bff3a28ec7f51d614bcb34c5e7f",
+        "accessed_on": "2026-10-23",
+        "extent": "固定原檔91–406行：杜畿字伯侯起至阮坦喪官王衍哭之，止鄭渾獨立本傳前；44層次單元，不稱全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位文字見證，保來源歸屬。未核書影或實際古刊。",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只移除版面頁碼、換行¶與外層注括號；正文/裴注依原次序、逐字位置全覆蓋。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-songshu-085-xiezhuang",
       "work_id": "w-songshu",
       "book_id": "b-songshu-085",
@@ -5797,12 +6883,157 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin034-duyu-pre-grandfather",
+      "status": "source_attested",
+      "subject_person_id": "yh6_z1j_fsd",
+      "object_person_id": "56f_8f7_e9f",
+      "predicate": "grandfather",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-ws2567662-duyu",
+          "chapter_id": "c-jinshu-034-duyu",
+          "paragraph_id": "c-jinshu-034-duyu:p001",
+          "quote": "杜預，字元凱，京兆杜陵人也。祖畿，魏尚書僕射。父恕，幽州刺史。預博學多通，明於興廢之道，常言：「德不可以企及，立功立言可庶幾也。」初，其父與宣帝不相能，遂以幽死，故預久不得調。文帝嗣立，預尚帝妹高陸公主，起家拜尚書郎，襲祖爵豐樂亭侯。在職四年，轉參相府軍事。鐘會伐蜀，以預為鎮西長史。及會反，僚佐並遇害，唯預以智獲免，增邑千一百五十戶。",
+          "subject_person_mention_id": "c-jinshu-034-duyu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-034-duyu:p001:m0015"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "傳首明祖，保祖孫來源，不改作父子。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin034-duyu-kinship",
+        "slot": "pre-grandfather"
+      },
+      "qualifiers": {
+        "source_term": "祖畿",
+        "lineage": "paternal"
+      }
+    },
+    {
+      "id": "a-sgz016-du-shu-father-ji",
+      "predicate": "father",
+      "subject_person_id": "ip4_zrh_ttx",
+      "object_person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子恕嗣",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+          "quote": "故尚書僕射杜畿於孟津試船遂至覆没忠之至也朕甚愍焉追贈太僕諡曰戴侯子恕嗣",
+          "subject_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0033",
+          "object_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "子字直接明恕是畿子；嗣另只承爵/承繼，不據嗣創生父。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "shu-father-ji"
+      }
+    },
+    {
+      "id": "a-sgz016-du-ji-stepmother",
+      "predicate": "stepmother",
+      "subject_person_id": "56f_8f7_e9f",
+      "object_person_id": "thu_bi0_j4b",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "繼母",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit003",
+          "quote": "少孤繼母苦之以孝聞年二十為郡功曹守鄭縣令縣囚繫數百人畿親臨獄裁其輕重盡決遣之雖未悉當郡中竒其年少而有大志也舉孝廉除漢中府丞㑹天下亂遂棄官客荆州建安中乃還荀彧進之太祖",
+          "subject_person_mention_id": "c-sanguozhi-016-duji-dushu:unit003:m0005",
+          "object_person_mention_id": "c-sanguozhi-016-duji-dushu:unit003:m0002"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "之回指傳主杜畿，並非生母；unit006同位繼母/其母可作另一佐證，負葬母不升生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "ji-stepmother"
+      }
+    }
+  ],
   "related_people": {
-    "56f_8f7_e9f": "杜畿"
+    "56f_8f7_e9f": "杜畿",
+    "ip4_zrh_ttx": "杜恕",
+    "thu_bi0_j4b": "杜畿繼母〔未名〕",
+    "yh6_z1j_fsd": "杜預"
   },
   "dates": [],
   "name_components": [
+    {
+      "id": "nc-jin034-duyu-ji",
+      "person_id": "56f_8f7_e9f",
+      "surname": "杜",
+      "ming": "畿",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-034-duyu",
+      "paragraph_id": "c-jinshu-034-duyu:p001",
+      "person_mention_id": "c-jinshu-034-duyu:p001:m0015",
+      "quote": "杜預，字元凱，京兆杜陵人也。祖畿，魏尚書僕射。父恕，幽州刺史。預博學多通，明於興廢之道，常言：「德不可以企及，立功立言可庶幾也。」初，其父與宣帝不相能，遂以幽死，故預久不得調。文帝嗣立，預尚帝妹高陸公主，起家拜尚書郎，襲祖爵豐樂亭侯。在職四年，轉參相府軍事。鐘會伐蜀，以預為鎮西長史。及會反，僚佐並遇害，唯預以智獲免，增邑千一百五十戶。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2567662,
+        "paragraph_sha256": "015d9c9c882e3671384c9bdfe934cce8b29ec12e7829fe5179d1238262f3bdb1",
+        "mode": "ming_only",
+        "name_mention_id": "c-jinshu-034-duyu:p001:m0015",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "surname_basis": {
+        "kind": "contextual_surname_from_fixed_biography_family",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "本傳明稱杜預，逐項已驗同章來源父祖承姓；省姓名錨不稱原字已寫姓，不依label、家族ID、組裝或婚配補姓。",
+        "seed_name_record_id": "nc-jin034-duyu-pre",
+        "steps": [
+          {
+            "assertion_id": "a-jin034-duyu-pre-grandfather",
+            "from_person_id": "yh6_z1j_fsd",
+            "to_person_id": "56f_8f7_e9f",
+            "generation_before": 0,
+            "generation_after": -2,
+            "traversal": "subject_to_object"
+          }
+        ]
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-ws2567662-duyu"
+    },
     {
       "id": "name-song085-f13-016",
       "person_id": "56f_8f7_e9f",
@@ -5832,7 +7063,104 @@
   "person_ids": [
     "56f_8f7_e9f"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin034-duyu-pre-grandfather",
+      "status": "source_attested",
+      "subject_person_id": "yh6_z1j_fsd",
+      "object_person_id": "56f_8f7_e9f",
+      "predicate": "grandfather",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-034",
+          "source_id": "s-jinshu-034-ws2567662-duyu",
+          "chapter_id": "c-jinshu-034-duyu",
+          "paragraph_id": "c-jinshu-034-duyu:p001",
+          "quote": "杜預，字元凱，京兆杜陵人也。祖畿，魏尚書僕射。父恕，幽州刺史。預博學多通，明於興廢之道，常言：「德不可以企及，立功立言可庶幾也。」初，其父與宣帝不相能，遂以幽死，故預久不得調。文帝嗣立，預尚帝妹高陸公主，起家拜尚書郎，襲祖爵豐樂亭侯。在職四年，轉參相府軍事。鐘會伐蜀，以預為鎮西長史。及會反，僚佐並遇害，唯預以智獲免，增邑千一百五十戶。",
+          "subject_person_mention_id": "c-jinshu-034-duyu:p001:m0000",
+          "object_person_mention_id": "c-jinshu-034-duyu:p001:m0015"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "傳首明祖，保祖孫來源，不改作父子。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin034-duyu-kinship",
+        "slot": "pre-grandfather"
+      },
+      "qualifiers": {
+        "source_term": "祖畿",
+        "lineage": "paternal"
+      }
+    },
+    {
+      "id": "a-sgz016-du-shu-father-ji",
+      "predicate": "father",
+      "subject_person_id": "ip4_zrh_ttx",
+      "object_person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子恕嗣",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+          "quote": "故尚書僕射杜畿於孟津試船遂至覆没忠之至也朕甚愍焉追贈太僕諡曰戴侯子恕嗣",
+          "subject_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0033",
+          "object_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "子字直接明恕是畿子；嗣另只承爵/承繼，不據嗣創生父。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "shu-father-ji"
+      }
+    },
+    {
+      "id": "a-sgz016-du-ji-stepmother",
+      "predicate": "stepmother",
+      "subject_person_id": "56f_8f7_e9f",
+      "object_person_id": "thu_bi0_j4b",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "繼母",
+        "source_interpretation_status": "explicit_source_wording"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit003",
+          "quote": "少孤繼母苦之以孝聞年二十為郡功曹守鄭縣令縣囚繫數百人畿親臨獄裁其輕重盡決遣之雖未悉當郡中竒其年少而有大志也舉孝廉除漢中府丞㑹天下亂遂棄官客荆州建安中乃還荀彧進之太祖",
+          "subject_person_mention_id": "c-sanguozhi-016-duji-dushu:unit003:m0005",
+          "object_person_mention_id": "c-sanguozhi-016-duji-dushu:unit003:m0002"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "之回指傳主杜畿，並非生母；unit006同位繼母/其母可作另一佐證，負葬母不升生母。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "key": "sgz016-duji-dushu-kinship",
+        "slot": "ji-stepmother"
+      }
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

@@ -159,6 +159,10 @@ def _direction(p, subjects, objects, term):
 
 
 def paternal_uncle_direction_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule') == 'complete_received_kinship_unit':
+        try:from scripts.received_unit_kinship import valid as unit_relation_valid
+        except ImportError:from received_unit_kinship import valid as unit_relation_valid
+        return unit_relation_valid(assertion, paragraphs)
     if 'source_uncle_ordinal' in assertion.get('qualifiers', {}):
         try:from scripts.fixed_wikisource_units import ordinal_uncle_valid
         except ImportError:from fixed_wikisource_units import ordinal_uncle_valid

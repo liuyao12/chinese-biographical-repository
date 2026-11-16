@@ -19,11 +19,12 @@ def component_valid(n,c,root,assertions=()):
   if mode=='full_name':assert surname and ming and m['surface']==surname+ming and not n.get('surname_basis')
   elif mode=='ming_only':assert ming and m['surface']==ming and(not surname or n.get('surname_basis',{}).get('kind')==SURNAME_KIND)
   elif mode=='clan_only':assert surname and ming is None and m['surface']==surname+'氏'and not n.get('surname_basis')
+  elif mode=='titled_clan':assert surname and ming is None and b['title_prefix']=='夫人'and m['surface']=='夫人'+surname+'氏'and not n.get('surname_basis')
   elif mode=='role_only':assert surname and ming is None and n.get('surname_basis',{}).get('kind')==SURNAME_KIND
   elif mode=='surname_title':assert surname and ming is None and b['title_suffix']in('后','皇后')and m['surface']==surname+b['title_suffix']and not n.get('surname_basis')
   elif mode=='titled_given':assert surname is None and ming and ming not in('妃','后','王','侯','帝','公','氏')and re.fullmatch(r'(?:公|[^，。；「」]{1,8}(?:王|侯))',b['title_prefix'])and m['surface']==b['title_prefix']+ming
   else:raise AssertionError('unknown name mode')
-  if mode!='titled_given':assert b['title_prefix']is None
+  if mode not in('titled_given','titled_clan'):assert b['title_prefix']is None
   if mode!='surname_title':assert b['title_suffix']is None
   # A full surname+zi form is not silently reclassified as a given name.
   courtesy={x['surface']for pp in c['paragraphs']for x in pp['mentions']if x.get('person_id')==n['person_id']and x['start']>0 and pp['text'][x['start']-1:x['start']]=='字'}
@@ -57,12 +58,25 @@ def validate_surname(n,names,chapters,assertions,root):
   current=seed['person_id'];seen={current};used=set();generation=0
   for s in steps:
    assert set(s)=={'assertion_id','from_person_id','to_person_id','generation_before','generation_after','traversal'}and s['assertion_id']not in used and s['from_person_id']==current and s['to_person_id']not in seen
-   a=aa[s['assertion_id']];q=a['qualifiers'];assert family_valid(a,ps,{ch['id']:ch},root)and not q.get('sworn')and not q.get('adoptive')and q.get('shared_father')is not False
+   a=aa[s['assertion_id']];q=a['qualifiers'];is_complete=q.get('source_clause_binding',{}).get('rule')=='complete_received_kinship_unit'
+   is_fixed=a.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots'
+   if is_fixed:
+    try:from scripts.fixed_witness_fact_slots import valid as fixed_valid
+    except ImportError:from fixed_witness_fact_slots import valid as fixed_valid
+    assert a.get('status')=='source_attested'and fixed_valid(a,ch,root)
+    assert not(q.get('shared_mother')and not q.get('shared_father'))
+   elif is_complete:
+    try:from scripts.received_unit_kinship import valid as complete_valid
+    except ImportError:from received_unit_kinship import valid as complete_valid
+    assert complete_valid(a,ps,{ch['id']:ch},root)
+   else:assert family_valid(a,ps,{ch['id']:ch},root)
+   assert not q.get('sworn')and not q.get('adoptive')and q.get('shared_father')is not False
    assert all(e['chapter_id']==ch['id']for e in a['evidence'])
    pred=a['predicate'];sub,obj=a['subject_person_id'],a['object_person_id']
    if pred=='brother':delta=0
    elif pred=='father':delta=-1
-   elif pred=='grandfather':assert q.get('lineage')=='paternal'and q['received_family_frame']['rule']=='two_granddaughters_marital_context';delta=-2
+   elif pred=='grandfather':assert q.get('lineage')=='paternal'and(is_complete or is_fixed or q['received_family_frame']['rule']=='two_granddaughters_marital_context');delta=-2
+   elif pred=='paternal_uncle':assert (is_complete or is_fixed)and q['lineage']=='paternal'and q['generation_difference']==-1;delta=-1
    elif pred=='great_grandfather':assert q['received_family_frame']['rule']=='named_parentage_head';delta=-3
    elif pred=='kinship_unspecified':
     assert q['lineage']=='paternal'and q['kinship_basis']=='bound_collateral_generation_term'and q['generation_difference']in(-1,-2,-3)and q['common_ancestor_person_id']is None and q['connecting_person_ids']is None;delta=q['generation_difference']

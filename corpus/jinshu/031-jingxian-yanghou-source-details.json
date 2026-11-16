@@ -1,0 +1,90 @@
+{
+  "format_version": "0.2",
+  "record_type": "biographical_source_detail_set",
+  "chapter_id": "c-jinshu-031-jingxian-yanghou",
+  "records": [
+    {
+      "id": "bd-jin031-jingxian-yanghou-wu-dismissal",
+      "person_id": "zrm_vi7_fpe",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "黜的是吳質女，不是徽瑜；無年也未明皇后冊封。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-dismissal"
+      },
+      "kind": "consort_dismissal",
+      "source_term": "見黜",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+        "start": 27,
+        "end": 29,
+        "surface": "見黜"
+      },
+      "date_expression": null,
+      "source_revision": 2479706,
+      "paragraph_sha256": "228de863cdbd4503256f156214570615acfe885d60a88c67ea5135385408c022",
+      "values": {
+        "event_kind": "consort_dismissal",
+        "office_or_queen_title": null,
+        "exact_year": null
+      }
+    },
+    {
+      "id": "bd-jin031-jingxian-yanghou-queen-no-sons",
+      "person_id": "dqd_5q9_pkz_BC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0006"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "后妃傳男嗣語境無子，不斷無任何兒女，不補女數。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "queen-no-sons"
+      },
+      "kind": "source_sons_absence_report",
+      "source_term": "無子",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+        "start": 34,
+        "end": 36,
+        "surface": "無子"
+      },
+      "date_expression": null,
+      "source_revision": 2479706,
+      "paragraph_sha256": "228de863cdbd4503256f156214570615acfe885d60a88c67ea5135385408c022",
+      "values": {
+        "source_term": "無子",
+        "sons_or_male_heirs_reported": 0,
+        "all_children_count": null,
+        "daughters_count": null
+      }
+    }
+  ]
+}

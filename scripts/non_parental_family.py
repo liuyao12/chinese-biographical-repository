@@ -2,6 +2,10 @@
 
 
 def non_parental_relation_valid(assertion, paragraphs, assertions=None):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule') == 'complete_received_kinship_unit':
+        try:from scripts.received_unit_kinship import valid as unit_relation_valid
+        except ImportError:from received_unit_kinship import valid as unit_relation_valid
+        return unit_relation_valid(assertion, paragraphs)
     if 'received_family_frame' in assertion.get('qualifiers', {}):
         try:from scripts.punctuated_family_frames import valid
         except ImportError:from punctuated_family_frames import valid

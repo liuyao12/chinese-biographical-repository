@@ -19,7 +19,7 @@
       "disposition": "preserved_null_with_semantic_scope",
       "category": "exact_known_person_set",
       "known_person_ids": [
-        "tj8_ufa_lfj",
+        "7r6_k52_qji_ABDC",
         "59g_z6o_fnh"
       ],
       "meaning": "告誓在父母墓前，二尊即父母兩位；保持群指，不強配單人。",
@@ -61,13 +61,13 @@
       "human_reviewed": false,
       "disposition": "preserved_null_with_semantic_scope",
       "category": "offspring_group_unspecified_members",
-      "parent_person_id": "326_faf_cd3",
+      "parent_person_id": "7r6_k52_qji_ABDCB",
       "eligible_named_child_person_ids": [
-        "q1l_zn5_p37",
-        "f7d_ipd_k1o",
-        "h6m_eaq_gv4",
-        "xfp_sh7_xf4",
-        "sm1_jfi_7k2"
+        "7r6_k52_qji_ABDCBA",
+        "7r6_k52_qji_ABDCBB",
+        "7r6_k52_qji_ABDCBC",
+        "7r6_k52_qji_ABDCBD",
+        "7r6_k52_qji_ABDCBE"
       ],
       "meaning": "羲之自稱兒輩，指其子女輩，非羲之本人。",
       "uncertainty": "當時在場/被指成員及全部七子名單不明；candidate集合非逐人membership斷言。"
@@ -220,8 +220,8 @@
       "human_reviewed": false,
       "disposition": "preserved_null_with_semantic_scope",
       "category": "anonymous_relative_identity_unresolved",
-      "subject_person_id": "sm1_jfi_7k2",
-      "related_child_person_id": "rj2_uog_4rl",
+      "subject_person_id": "7r6_k52_qji_ABDCBE",
+      "related_child_person_id": "7r6_k52_qji_ABDCB*A",
       "semantic_constraints": {
         "predicate": "brother",
         "object_generation_relative_to_subject": 0,
@@ -230,36 +230,42 @@
         "child_father_identity": null,
         "shared_father_identity": null,
         "same_birth_mother": null,
-        "ritual_predecessor_person_id": "sm1_jfi_7k2",
-        "ritual_successor_person_id": "rj2_uog_4rl"
+        "ritual_predecessor_person_id": "7r6_k52_qji_ABDCBE",
+        "ritual_successor_person_id": "7r6_k52_qji_ABDCB*A"
       },
       "meaning": "靜之是獻之某一兄之子，奉獻之嗣；兄的個人身份未定。",
       "uncertainty": "不指定徽之/操之/凝之等某名兄，不新建被誤認獨立的具名父。",
-      "native_runtime_status": "source-only階段未產生father/uncle/ritual_successor原生斷言；此機讀source-bound約束保留信息供後續typed包消費，不冒稱已進runtime親屬圖。",
+      "native_runtime_status": "本批已新增來源化paternal_uncle及ritual_successor_of，逐項native_assertion_id可查；兄的個人身份仍未定，未新增其具名父或收養斷言。",
       "source_semantic_relations": [
         {
           "predicate": "paternal_uncle",
-          "subject_person_id": "rj2_uog_4rl",
-          "object_person_id": "sm1_jfi_7k2",
+          "subject_person_id": "7r6_k52_qji_ABDCB*A",
+          "object_person_id": "7r6_k52_qji_ABDCBE",
           "object_generation_relative_to_subject": -1,
           "source_term": "兄子",
-          "status": "source_attested_pending_native_fact",
+          "status": "source_attested",
           "source_mention_ids": [
             "c-jinshu-080-wangxizhi:p047:m0095",
             "c-jinshu-080-wangxizhi:p047:m0097"
-          ]
+          ],
+          "native_assertion_id": "a-jin080-wangxizhi-kin_031"
         },
         {
           "predicate": "ritual_successor_of",
-          "subject_person_id": "rj2_uog_4rl",
-          "object_person_id": "sm1_jfi_7k2",
+          "subject_person_id": "7r6_k52_qji_ABDCB*A",
+          "object_person_id": "7r6_k52_qji_ABDCBE",
           "source_term": "以兄子靜之嗣",
-          "status": "source_attested_pending_native_fact",
+          "status": "source_attested",
           "source_mention_ids": [
             "c-jinshu-080-wangxizhi:p047:m0097"
-          ]
+          ],
+          "native_assertion_id": "a-jin080-wangxizhi-kin_032"
         }
-      ]
+      ],
+      "initial_source_only_scope_capture": {
+        "qualification": "historical_source_only_scope_superseded",
+        "native_runtime_status": "source-only階段未產生father/uncle/ritual_successor原生斷言；此機讀source-bound約束保留信息供後續typed包消費，不冒稱已進runtime親屬圖。"
+      }
     },
     {
       "original_mention_id": "c-jinshu-080-wangxizhi:p047:m0146",
@@ -272,8 +278,8 @@
       "disposition": "preserved_null_with_semantic_scope",
       "category": "exact_known_person_set",
       "known_person_ids": [
-        "326_faf_cd3",
-        "sm1_jfi_7k2"
+        "7r6_k52_qji_ABDCB",
+        "7r6_k52_qji_ABDCBE"
       ],
       "meaning": "桓玄愛羲之與獻之兩人書，各為一帙，父子二人皆已知。",
       "uncertainty": "這是雙人集合，不是其中任一人的單一別稱。"
@@ -1017,7 +1023,7 @@
             "end": 26,
             "surface": "王羲之",
             "kind": "person",
-            "person_id": "326_faf_cd3",
+            "person_id": "7r6_k52_qji_ABDCB",
             "status": "contextual_provisional",
             "interpretation_note": "本段敘事角色；字號、親屬及引古按局部語境；不自動成為跨庫別名。"
           },

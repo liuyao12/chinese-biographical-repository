@@ -1,0 +1,165 @@
+{
+  "record_type": "current_identity_endpoint_projection",
+  "historical_file": "source-evidence/jin093-yangxiu/identity-review.json",
+  "historical_sha256": "b659d81a28f88f00f74453382865f16cde5c00417782b234a1c353c31ca6752e",
+  "historical_classification": "original_reading_or_identity_capture_and_editorial_review",
+  "current_family_id": "family-taishan-yang-xu-core",
+  "mapping_receipt_ref": "source-evidence/yang-family-assembly/annotation-chain.json",
+  "person_aliases_created": false,
+  "qualification": "原文檔與所有capture/hash保原bytes；本projection只提供現行結構化人物端點，內部原capture hashes均指historical_file原件，非改寫projection的hash，不冒作新原始見證。",
+  "records": {
+    "record_type": "source_identity_review",
+    "chapter_id": "c-jinshu-093-yangxiu",
+    "human_reviewed": false,
+    "identities": [
+      {
+        "source_key": "景獻皇后",
+        "person_id": "dqd_5q9_pkz_BC",
+        "status": "editorial_preferred",
+        "rationale": "本源景獻皇后，依031完整景獻羊皇后傳明居弘訓宮號弘訓太后，及040合食景皇帝/攸子禮，沿既有弘訓太后同指；詳queen-identity-bridge。不是按同姓或單弘訓宮合併，惠羊后同宮亦明排。031其他姓名親屬未升093斷言。",
+        "prior_complete_source_refs": [
+          {
+            "native_path": "corpus/jinshu/040-jiachong-family.json",
+            "paragraph_id": "c-jinshu-040-jiachong-family:p013",
+            "mention_id": "c-jinshu-040-jiachong-family:p013:m0009"
+          }
+        ]
+      },
+      {
+        "source_key": "瑾",
+        "person_id": "dqd_5q9_pkz_CA",
+        "status": "source_identity_only",
+        "rationale": "原文明兄瑾尚書右僕射；前文羊琇主語續接，沿本源獨立，暫不以同名盲合或從兄關係反添父耽。",
+        "prior_complete_source_refs": []
+      },
+      {
+        "source_key": "羊琇",
+        "person_id": "dqd_5q9_pkz_CB",
+        "status": "editorial_preferred",
+        "rationale": "025憲英子琇、鍾會請參軍且戒其勿為父母憂，093羊琇參鐘會軍事從平蜀、會反苦諫同一個別生涯；093明羊琇稚舒及父耽太常，與025太常羊耽婚憲英相合。沿同一私包已分配ID，非由婚姻推姓。",
+        "prior_complete_source_refs": [
+          {
+            "native_path": "corpus/sanguozhi/025-xinpi.json",
+            "paragraph_id": "c-sanguozhi-025-xinpi:p008",
+            "mention_id": "c-sanguozhi-025-xinpi:p008:m0445"
+          }
+        ]
+      },
+      {
+        "source_key": "耽",
+        "person_id": "dqd_5q9_pkz_C",
+        "status": "editorial_preferred",
+        "rationale": "025憲英適太常泰山羊耽與093羊琇父耽官至太常，在同一母子/鍾會事件橋的家庭相容，首選同人；093不自稱其泰山籍。",
+        "prior_complete_source_refs": [
+          {
+            "native_path": "corpus/sanguozhi/025-xinpi.json",
+            "paragraph_id": "c-sanguozhi-025-xinpi:p008",
+            "mention_id": "c-sanguozhi-025-xinpi:p008:m0020"
+          }
+        ]
+      },
+      {
+        "source_key": "鍾會",
+        "person_id": "a6a_4c2_670",
+        "status": "editorial_preferred",
+        "rationale": "045咸熙末時鍾會反于蜀與本傳參鎮西鐘會從平蜀、會反苦諫同事件與官區。原鐘/鍾字分存。",
+        "prior_complete_source_refs": [
+          {
+            "native_path": "corpus/jinshu/045-guoyi.json",
+            "paragraph_id": "c-jinshu-045-guoyi:p001",
+            "mention_id": "c-jinshu-045-guoyi:p001:m0012"
+          }
+        ]
+      },
+      {
+        "source_key": "武帝",
+        "person_id": "hgm_jvn_hle",
+        "status": "editorial_preferred",
+        "rationale": "035武帝為撫軍與本傳及帝為撫軍同生涯；035文帝問鍾會/武帝僚采與本傳文帝擇嗣、武帝立儲/受禪相容。p001文帝字不吞作武帝；單帝延續武帝敘事，p003詔朕同說話人。",
+        "prior_complete_source_refs": [
+          {
+            "native_path": "corpus/jinshu/035-pei-family.json",
+            "paragraph_id": "c-jinshu-035-peikai-family:p001",
+            "mention_id": "c-jinshu-035-peikai-family:p001:m0106"
+          }
+        ]
+      },
+      {
+        "source_key": "文帝",
+        "person_id": "dkn_ge4_286_AAAAI",
+        "status": "editorial_preferred",
+        "rationale": "035文帝問鍾會且武帝為撫軍分明，093同在武帝立儲前文帝重攸、顧問與武帝受禪前先後相容；不是曹魏文帝。",
+        "prior_complete_source_refs": [
+          {
+            "native_path": "corpus/jinshu/035-pei-family.json",
+            "paragraph_id": "c-jinshu-035-peikai-family:p001",
+            "mention_id": "c-jinshu-035-peikai-family:p001:m0048"
+          }
+        ]
+      },
+      {
+        "source_key": "攸",
+        "person_id": "cac_ca2_008",
+        "status": "editorial_preferred",
+        "rationale": "042齊王攸出國上書諫阻，與093齊王攸出鎮琇切諫忤旨同事件；先前弟攸是武帝被擬代儲的弟，保時序。",
+        "prior_complete_source_refs": [
+          {
+            "native_path": "corpus/jinshu/042-taiyuan-wang.json",
+            "paragraph_id": "c-jinshu-042-taiyuan-wang:line019",
+            "mention_id": "c-jinshu-042-taiyuan-wang:line019:m0019"
+          }
+        ]
+      },
+      {
+        "source_key": "杜預",
+        "person_id": "yh6_z1j_fsd",
+        "status": "editorial_preferred",
+        "rationale": "042王濟/武帝時杜預與040平吳杜預接同一西晉重臣任職圈；本傳明杜預後同場直稱杜元凱作稱呼，故本段兩稱同人。不是後代元凱典故新增人物。",
+        "prior_complete_source_refs": [
+          {
+            "native_path": "corpus/jinshu/042-taiyuan-wang.json",
+            "paragraph_id": "c-jinshu-042-taiyuan-wang:line034",
+            "mention_id": "c-jinshu-042-taiyuan-wang:line034:m0047"
+          },
+          {
+            "native_path": "corpus/jinshu/040-jiachong-family.json",
+            "paragraph_id": "c-jinshu-040-jiachong-family:p006",
+            "mention_id": "c-jinshu-040-jiachong-family:p006:m0148"
+          }
+        ]
+      },
+      {
+        "source_key": "裴楷",
+        "person_id": "530_f9d_4bd",
+        "status": "editorial_preferred",
+        "rationale": "035裴楷明武帝撫軍參軍事、文帝/鍾會相交，與093羊琇武帝撫軍同輩、杜預拜將賀席的裴楷世代與活動圈相合；非梁裴子野弟楷。",
+        "prior_complete_source_refs": [
+          {
+            "native_path": "corpus/jinshu/035-pei-family.json",
+            "paragraph_id": "c-jinshu-035-peikai-family:p001",
+            "mention_id": "c-jinshu-035-peikai-family:p001:m0000"
+          }
+        ]
+      },
+      {
+        "source_key": "劉毅",
+        "person_id": "fcn_avk_8w3",
+        "status": "editorial_preferred",
+        "rationale": "043武帝問孝時與王戎同朝對答的劉毅，093司隸劉毅在武帝免琇官事件，同朝活躍與角色相容；東晉護軍劉毅在劉裕平桓玄/義熙語境年代不合，明排。非僅全名合併。",
+        "prior_complete_source_refs": [
+          {
+            "native_path": "corpus/jinshu/043-wangrong.json",
+            "paragraph_id": "c-jinshu-043-wangrong:p007",
+            "mention_id": "c-jinshu-043-wangrong:p007:m0119"
+          }
+        ]
+      }
+    ],
+    "queen_parallel_evidence_ref": "source-evidence/jin093-yangxiu/queen-identity-bridge.json",
+    "complete_read_scope": "固定1548000羊琇節題至王恂節題前全部三段；source／投影字不改。另所選9位重用的完整先前paragraph見current-reuse-contexts；大量自動列候選僅inventory，不冒全部親讀。",
+    "unresolved_groups": [
+      "中外五親、豪貴、窮窘之徒、將士及五親無具名，不造個體。"
+    ],
+    "work_references": "無明示所引著作書題；帝詔屬同傳嵌入文書，不造獨立書ID。"
+  }
+}

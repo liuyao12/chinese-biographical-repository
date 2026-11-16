@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "id": "zrm_vi7_fpe",
+  "canonical_person_id": "zrm_vi7_fpe",
+  "label": "吳質女〔景帝前妻〕",
+  "identity_note": "固定031景獻羊后完整單元來源身份；明示與編輯跨篇首選分存，未知名/父祖/出生不補。",
+  "review": "ai_provisional",
+  "names": [
+    "女"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 31,
+      "category": "",
+      "title": "景獻羊皇后傳",
+      "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+      "paragraph_ids": [
+        "c-jinshu-031-jingxian-yanghou:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-031-jingxian-yanghou:p002:m0005"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-031-jingxian-yanghou:p002:m0005": "c-jinshu-031-jingxian-yanghou:p002"
+      },
+      "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005",
+          "mention_ids": [
+            "c-jinshu-031-jingxian-yanghou:p002:m0005"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-031",
+      "chapter_id": "c-jinshu-031-jingxian-yanghou",
+      "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-031-jingxian-yanghou",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-031",
+      "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+      "source": {
+        "title": "《晉書》卷三十一景獻羊皇后完整本傳（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷031&oldid=2479706",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷031&oldid=2479706",
+        "revision_id": 2479706,
+        "accessed_on": "2026-10-22",
+        "extent": "景獻羊皇后節題至文明王皇后節題前完整2段；非全卷031。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位轉錄保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "fce325e2f752536c45c0b03e3fb7ead1f6808bc797adc186cfa32af8173b21b5",
+        "raw_file": "sources/jinshu/031-jia-ws2479706.wikitext",
+        "raw_path": "sources/jinshu/031-jia-ws2479706.wikitext",
+        "raw_file_sha256": "fce325e2f752536c45c0b03e3fb7ead1f6808bc797adc186cfa32af8173b21b5",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去段首排版空白並展開YL；保茞等原字。未圖校、實際轉錄底本未明。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jin031-jingxian-yanghou-wu-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "雙端按本句角色；蔡氏之父非徽瑜父，兩妻不同人；不補生母、共祖或夫妻以外父系。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-father"
+      },
+      "subject_person_id": "zrm_vi7_fpe",
+      "object_person_id": "354_b66_61e",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "吳質女",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "start": 23,
+            "end": 26,
+            "surface": "吳質女"
+          }
+        }
+      }
+    },
+    {
+      "id": "a-jin031-jingxian-yanghou-wu-spouse",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0003"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "雙端按本句角色；蔡氏之父非徽瑜父，兩妻不同人；不補生母、共祖或夫妻以外父系。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-spouse"
+      },
+      "subject_person_id": "zrm_vi7_fpe",
+      "object_person_id": "dkn_ge4_286_AAAAH",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "景帝更娶鎮北將軍濮陽吳質女",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "start": 13,
+            "end": 26,
+            "surface": "景帝更娶鎮北將軍濮陽吳質女"
+          }
+        }
+      }
+    }
+  ],
+  "related_people": {
+    "354_b66_61e": "吳質",
+    "dkn_ge4_286_AAAAH": "司馬景王",
+    "zrm_vi7_fpe": "吳質女〔景帝前妻〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "source_details": [
+    {
+      "id": "bd-jin031-jingxian-yanghou-wu-dismissal",
+      "person_id": "zrm_vi7_fpe",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "黜的是吳質女，不是徽瑜；無年也未明皇后冊封。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-dismissal"
+      },
+      "kind": "consort_dismissal",
+      "source_term": "見黜",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+        "start": 27,
+        "end": 29,
+        "surface": "見黜"
+      },
+      "date_expression": null,
+      "source_revision": 2479706,
+      "paragraph_sha256": "228de863cdbd4503256f156214570615acfe885d60a88c67ea5135385408c022",
+      "values": {
+        "event_kind": "consort_dismissal",
+        "office_or_queen_title": null,
+        "exact_year": null
+      }
+    }
+  ],
+  "person_ids": [
+    "zrm_vi7_fpe"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jin031-jingxian-yanghou-wu-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "雙端按本句角色；蔡氏之父非徽瑜父，兩妻不同人；不補生母、共祖或夫妻以外父系。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-father"
+      },
+      "subject_person_id": "zrm_vi7_fpe",
+      "object_person_id": "354_b66_61e",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "吳質女",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "start": 23,
+            "end": 26,
+            "surface": "吳質女"
+          }
+        }
+      }
+    },
+    {
+      "id": "a-jin031-jingxian-yanghou-wu-spouse",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0003"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "雙端按本句角色；蔡氏之父非徽瑜父，兩妻不同人；不補生母、共祖或夫妻以外父系。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-spouse"
+      },
+      "subject_person_id": "zrm_vi7_fpe",
+      "object_person_id": "dkn_ge4_286_AAAAH",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "景帝更娶鎮北將軍濮陽吳質女",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "start": 13,
+            "end": 26,
+            "surface": "景帝更娶鎮北將軍濮陽吳質女"
+          }
+        }
+      }
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

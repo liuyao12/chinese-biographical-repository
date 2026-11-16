@@ -14,6 +14,8 @@ def brother_connects(assertion, first, second):
     a, b = assertion['subject_person_id'], assertion['object_person_id']
     return (assertion['predicate'] in ('brother', 'sister')
             and assertion.get('qualifiers', {}).get('shared_father') is not False
+            and not assertion.get('qualifiers', {}).get('same_mother_only')
+            and assertion.get('qualifiers', {}).get('lineage') not in ('maternal','non_paternal')
             and not set(first).intersection(second)
             and ((a in first and b in second) or (b in first and a in second)))
 
@@ -71,41 +73,56 @@ def load_assemblies(root, catalog):
                 if connection:
                     if not isinstance(connection, dict):
                         raise ValueError('同父兄弟祖先組裝格式無效')
-                    sibling = rows.get(connection.get('sibling_person_id'))
-                    brother = assertions.get(connection.get('sibling_assertion_id'))
-                    source = assertions.get(connection.get('sibling_ancestor_assertion_id'))
-                    valid = (connection.get('type') == 'shared_ancestor_through_sibling'
-                             and connection.get('status') == 'contextual_provisional'
-                             and bool(connection.get('rationale'))
-                             and member['source_assertion_id'] is None
-                             and member.get('connection') in ('grandfather', 'great_grandfather')
-                             and bool(sibling) and bool(brother) and bool(source)
-                             and sibling.get('ancestor_person_id') == ancestor
-                             and sibling.get('connection') == member.get('connection')
-                             and sibling.get('generation_distance') == member.get('generation_distance')
-                             and sibling.get('source_assertion_id') == source['id']
-                             and brother_connects(brother, ids, sibling['source_person_ids'])
-                             and source['predicate'] == member.get('connection')
-                             and source.get('qualifiers', {}).get('lineage') != 'maternal'
-                             and source.get('qualifiers', {}).get('adopted_for_family_tree') is not False
-                             and source['subject_person_id'] in sibling['source_person_ids']
-                             and source['object_person_id'] in rows[ancestor]['source_person_ids'])
-                    proofs = {a['id']: a for a in (brother, source) if a}
-                    refs = connection.get('references', [])
-                    valid = (valid and isinstance(refs, list) and bool(refs)
-                             and all(isinstance(ref, dict) for ref in refs)
-                             and {ref.get('assertion_id') for ref in refs} == set(proofs)
-                             and all(ref.get('scope') and ref.get('url', '').startswith(('https://', 'http://'))
-                                     and any(ref.get('quote') == e['quote']
-                                             and ref.get('paragraph_id') == e['paragraph_id']
-                                             and ref.get('chapter_id') == e['chapter_id']
-                                             and ref.get('source_id') == e['source_id']
-                                             and ref.get('url') in [chapters.get(e['chapter_id'], {}).get('source', {}).get('url'),
-                                                                    chapters.get(e['chapter_id'], {}).get('source', {}).get('permalink')]
-                                             for e in proofs.get(ref.get('assertion_id'), {}).get('evidence', []))
-                                     for ref in refs))
-                    if not valid:
-                        raise ValueError('同父兄弟祖先組裝缺少有效兄弟及祖孫證據')
+                    if connection.get('type') == 'ancestor_above_unnamed_sibling_descendant':
+                        try:
+                            from .collateral_descendant_ancestor import valid as collateral_valid
+                        except ImportError:
+                            from collateral_descendant_ancestor import valid as collateral_valid
+                        if not collateral_valid(member, rows, assertions, chapters, root):
+                            raise ValueError('Collateral descendant ancestor requires fixed unnamed sibling and explicit reference ancestors')
+                    elif connection.get('type') == 'ancestor_through_paternal_uncle':
+                        try:
+                            from .ancestor_through_uncle import valid as uncle_ancestor_valid
+                        except ImportError:
+                            from ancestor_through_uncle import valid as uncle_ancestor_valid
+                        if not uncle_ancestor_valid(member, rows, assertions, chapters):
+                            raise ValueError('Missing-parent paternal-grandfather assembly requires explicit paternal uncle and his explicit father')
+                    else:
+                        sibling = rows.get(connection.get('sibling_person_id'))
+                        brother = assertions.get(connection.get('sibling_assertion_id'))
+                        source = assertions.get(connection.get('sibling_ancestor_assertion_id'))
+                        valid = (connection.get('type') == 'shared_ancestor_through_sibling'
+                                 and connection.get('status') == 'contextual_provisional'
+                                 and bool(connection.get('rationale'))
+                                 and member['source_assertion_id'] is None
+                                 and member.get('connection') in ('grandfather', 'great_grandfather')
+                                 and bool(sibling) and bool(brother) and bool(source)
+                                 and sibling.get('ancestor_person_id') == ancestor
+                                 and sibling.get('connection') == member.get('connection')
+                                 and sibling.get('generation_distance') == member.get('generation_distance')
+                                 and sibling.get('source_assertion_id') == source['id']
+                                 and brother_connects(brother, ids, sibling['source_person_ids'])
+                                 and source['predicate'] == member.get('connection')
+                                 and source.get('qualifiers', {}).get('lineage') != 'maternal'
+                                 and source.get('qualifiers', {}).get('adopted_for_family_tree') is not False
+                                 and source['subject_person_id'] in sibling['source_person_ids']
+                                 and source['object_person_id'] in rows[ancestor]['source_person_ids'])
+                        proofs = {a['id']: a for a in (brother, source) if a}
+                        refs = connection.get('references', [])
+                        valid = (valid and isinstance(refs, list) and bool(refs)
+                                 and all(isinstance(ref, dict) for ref in refs)
+                                 and {ref.get('assertion_id') for ref in refs} == set(proofs)
+                                 and all(ref.get('scope') and ref.get('url', '').startswith(('https://', 'http://'))
+                                         and any(ref.get('quote') == e['quote']
+                                                 and ref.get('paragraph_id') == e['paragraph_id']
+                                                 and ref.get('chapter_id') == e['chapter_id']
+                                                 and ref.get('source_id') == e['source_id']
+                                                 and ref.get('url') in [chapters.get(e['chapter_id'], {}).get('source', {}).get('url'),
+                                                                        chapters.get(e['chapter_id'], {}).get('source', {}).get('permalink')]
+                                                 for e in proofs.get(ref.get('assertion_id'), {}).get('evidence', []))
+                                         for ref in refs))
+                        if not valid:
+                            raise ValueError('同父兄弟祖先組裝缺少有效兄弟及祖孫證據')
                 else:
                     assertion = assertions.get(member['source_assertion_id'])
                     if (not assertion or assertion.get('qualifiers', {}).get('adopted_for_family_tree') is False
@@ -127,7 +144,7 @@ def load_assemblies(root, catalog):
                     raise ValueError('組裝父親不在同族')
                 connection = member.get('parent_connection')
                 if connection:
-                    if connection.get('interpretation_basis') in ('fixed_received_zu_fu_sequence','fixed_received_shared_father'):
+                    if connection.get('interpretation_basis') in ('fixed_received_zu_fu_sequence','fixed_received_shared_father','fixed_complete_witness_shared_father'):
                         try:from .received_kin_assembly import valid as received_assembly_valid
                         except ImportError:from received_kin_assembly import valid as received_assembly_valid
                         if not received_assembly_valid(member,rows,assertions,chapters,root):
@@ -142,6 +159,11 @@ def load_assemblies(root, catalog):
                             from body_note_ancestry import body_note_ancestor_parent_valid
                         if not body_note_ancestor_parent_valid(member, rows, assertions, chapters, root):
                             raise ValueError('正文與所附裴注祖先接合須有同一人物單元及逐字雙來源，不能補造明父')
+                    elif connection.get('type') == 'parent_from_nephew_named_father_and_grandfather':
+                        try:from .uncle_shared_grandparent import valid as same_grand_valid
+                        except ImportError:from uncle_shared_grandparent import valid as same_grand_valid
+                        if not same_grand_valid(member, rows, assertions, chapters, root):
+                            raise ValueError('伯叔父系接合須有同一固定完整本傳明父、祖及父系伯叔，不得造source父或混母系')
                     elif connection.get('type') == 'parent_through_paternal_uncle':
                         try:
                             from .uncle_parentage import parent_through_paternal_uncle_valid

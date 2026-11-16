@@ -7,10 +7,112 @@
   "review": "ai_provisional",
   "names": [
     "呉質",
-    "質"
+    "質",
+    "吳質",
+    "吳中郎將",
+    "貴臣"
   ],
-  "titles": [],
-  "addresses": [],
+  "titles": [
+    {
+      "id": "th-jin031-jingxian-yanghou-wu-office",
+      "person_id": "354_b66_61e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整固定本傳原角色；未知人物/年月/任終不補。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-office"
+      },
+      "title": "鎮北將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-office"
+      },
+      "attestations": [
+        {
+          "id": "th-jin031-jingxian-yanghou-wu-office:a001",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "start": 17,
+          "end": 21,
+          "surface": "鎮北將軍",
+          "person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0004",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "ad-jin031-jingxian-yanghou-wu-origin",
+      "person_id": "354_b66_61e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "地望修飾父吳質，不轉給未名女。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-origin"
+      },
+      "relation": "source_locality_designation",
+      "source_term": "濮陽吳質女",
+      "place": {
+        "source_name": "濮陽",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "date_expression": null,
+      "qualifiers": {
+        "designation_kind": "geographical_person_reference",
+        "origin_or_residence": null
+      },
+      "term": "濮陽吳質女",
+      "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。"
+    }
+  ],
   "occurrences": [
     {
       "number": 19,
@@ -64,10 +166,127 @@
       "chapter_id": "c-sanguozhi-019-yangxiu",
       "source_id": "s-sanguozhi-019-yangxiu",
       "work_title": "三國志"
+    },
+    {
+      "number": 24,
+      "category": "",
+      "title": "卷二十四：崔林完整本傳及全部裴注",
+      "paragraph_id": "c-sanguozhi-024-cuilin:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "徙署别駕丞相掾屬魏國既建稍遷御史中丞文帝踐阼拜尚書出為幽州刺史北中郎將吳質統河北軍事涿郡太守王雄謂林别駕曰吳中郎將上所親重國之貴臣也杖節統事州郡莫不奉牋致敬而崔使君初不與相聞若以邊塞不修斬卿使君寧能䕶卿邪别駕具以白林林曰刺史視去此州如脫屣寧當相累邪此州與胡虜接宜鎮之以靜擾之",
+      "paragraph_ids": [
+        "c-sanguozhi-024-cuilin:p001"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-024-cuilin:p001:m0107",
+        "c-sanguozhi-024-cuilin:p001:m0125",
+        "c-sanguozhi-024-cuilin:p001:m0135"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-024-cuilin:p001:m0107": "c-sanguozhi-024-cuilin:p001",
+        "c-sanguozhi-024-cuilin:p001:m0125": "c-sanguozhi-024-cuilin:p001",
+        "c-sanguozhi-024-cuilin:p001:m0135": "c-sanguozhi-024-cuilin:p001"
+      },
+      "mention_id": "c-sanguozhi-024-cuilin:p001:m0107",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-024-cuilin:p001:m0107",
+          "mention_ids": [
+            "c-sanguozhi-024-cuilin:p001:m0107"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-024-cuilin:p001:m0125",
+          "mention_ids": [
+            "c-sanguozhi-024-cuilin:p001:m0125"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-024-cuilin:p001:m0135",
+          "mention_ids": [
+            "c-sanguozhi-024-cuilin:p001:m0135"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-024",
+      "chapter_id": "c-sanguozhi-024-cuilin",
+      "source_id": "s-sanguozhi-024-cuilin",
+      "work_title": "三國志"
+    },
+    {
+      "number": 31,
+      "category": "",
+      "title": "景獻羊皇后傳",
+      "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+      "paragraph_ids": [
+        "c-jinshu-031-jingxian-yanghou:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-031-jingxian-yanghou:p002:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-031-jingxian-yanghou:p002:m0004": "c-jinshu-031-jingxian-yanghou:p002"
+      },
+      "mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0004",
+          "mention_ids": [
+            "c-jinshu-031-jingxian-yanghou:p002:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-031",
+      "chapter_id": "c-jinshu-031-jingxian-yanghou",
+      "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-031-jingxian-yanghou",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-031",
+      "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+      "source": {
+        "title": "《晉書》卷三十一景獻羊皇后完整本傳（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷031&oldid=2479706",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷031&oldid=2479706",
+        "revision_id": 2479706,
+        "accessed_on": "2026-10-22",
+        "extent": "景獻羊皇后節題至文明王皇后節題前完整2段；非全卷031。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位轉錄保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "fce325e2f752536c45c0b03e3fb7ead1f6808bc797adc186cfa32af8173b21b5",
+        "raw_file": "sources/jinshu/031-jia-ws2479706.wikitext",
+        "raw_path": "sources/jinshu/031-jia-ws2479706.wikitext",
+        "raw_file_sha256": "fce325e2f752536c45c0b03e3fb7ead1f6808bc797adc186cfa32af8173b21b5",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去段首排版空白並展開YL；保茞等原字。未圖校、實際轉錄底本未明。"
+        }
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-019-yangxiu",
       "work_id": "w-sanguozhi",
@@ -499,18 +718,131 @@
           "digital_headings_not_received_text": true
         }
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-024-cuilin",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-024",
+      "source_id": "s-sanguozhi-024-cuilin",
+      "source": {
+        "title": "三國志魏書卷二十四崔林傳及裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_024.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_024.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "2b1d619a3d8c9ea0bee19c61f8b87e174f53006d",
+        "raw_file_sha256": "28332b94f87ba8675d931da2d092c671a60c6410ad72553cc1ac3495fe4bc4a7",
+        "response_sha256": "28332b94f87ba8675d931da2d092c671a60c6410ad72553cc1ac3495fe4bc4a7",
+        "raw_path": "source-evidence/sgz024-cuilin/primary/KR2a0012_024.txt",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "accessed_on": "2026-10-22",
+        "extent": "崔林字起至高柔字前的完整傳及裴注；不稱全卷，末卷考證另作外部對讀。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo固定數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面pb、¶、換行及注括號，全部原字逐碼點保留。KR0564 token亦原樣保留，未冒稱已辨其字。"
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin031-jingxian-yanghou-wu-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "雙端按本句角色；蔡氏之父非徽瑜父，兩妻不同人；不補生母、共祖或夫妻以外父系。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-father"
+      },
+      "subject_person_id": "zrm_vi7_fpe",
+      "object_person_id": "354_b66_61e",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "吳質女",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "start": 23,
+            "end": 26,
+            "surface": "吳質女"
+          }
+        }
+      }
+    }
+  ],
   "related_people": {
-    "354_b66_61e": "吳質"
+    "354_b66_61e": "吳質",
+    "zrm_vi7_fpe": "吳質女〔景帝前妻〕"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "354_b66_61e"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin031-jingxian-yanghou-wu-father",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "subject_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0005",
+          "object_person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0004"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "雙端按本句角色；蔡氏之父非徽瑜父，兩妻不同人；不補生母、共祖或夫妻以外父系。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "wu-father"
+      },
+      "subject_person_id": "zrm_vi7_fpe",
+      "object_person_id": "354_b66_61e",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "吳質女",
+        "source_role_binding": {
+          "kind": "fixed_witness_person_fact_slots",
+          "source_anchor": {
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "start": 23,
+            "end": 26,
+            "surface": "吳質女"
+          }
+        }
+      }
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
