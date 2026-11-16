@@ -19,7 +19,29 @@
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "normalization": {
       "character_conversion": {},
-      "editorial_readings": [],
+      "editorial_readings": [
+        {
+          "paragraph_id": "c-shiji-129-huozhi:p013",
+          "source_expression": "（孝）［德］",
+          "adopted_reading": "德",
+          "status": "editorial_provisional",
+          "rationale": "秦君相承及《秦本紀》支持德公；保留孝字異讀。未核影像，不作定本校勘。"
+        },
+        {
+          "paragraph_id": "c-shiji-129-huozhi:p013",
+          "source_expression": "獻（孝）公",
+          "adopted_reading": "獻公",
+          "status": "editorial_provisional",
+          "rationale": "徙櫟邑的秦君為獻公；保留孝字異讀。未核影像，不作定本校勘。"
+        },
+        {
+          "paragraph_id": "c-shiji-129-huozhi:p013",
+          "source_expression": "（武）［孝］",
+          "adopted_reading": "孝",
+          "status": "editorial_provisional",
+          "rationale": "下接「昭治咸陽」，秦孝公脈絡相合；保留武字異讀。未核影像，不作定本校勘。"
+        }
+      ],
       "extraction_note": "去header2、現代節標及索隱述贊層次標籤；保留巴[蜀]、（孝）［德］等來源校讀括號，未核影像。",
       "note": "文獻校讀不當已校定字，氏稱與家族表述逐段分辨。"
     }
@@ -29,12 +51,29 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "43段全文及57名來源候選初標；1條配偶、12條地點及7條官爵用語已存，校讀、家族範圍及跨篇身份續核。",
+    "coverage": "43段全文及57名來源候選初標（任氏跨代家戶已退回未定群體）；本輪補入趙武靈王、紂典故，覆核並接合跨篇同人候選，保留秦君校讀、商賈家戶、未名群體與其他未定身份；地點、爵稱及親屬主張續核。",
     "limitations": [
       "未核影像；保留來源校讀括號。",
       "曹邴氏、無鹽氏及諸田等家族或群體不補單一人物。",
       "任氏先人與後文任公分開，不按數世推親子。",
-      "范蠡變名與子贛子貢依同段脈絡暫連；田叔不按同名連其他篇人物。"
+      "范蠡變名與子贛子貢依同段脈絡暫連；田叔不按同名連其他篇人物。",
+      "跨篇接合仍為代理暫定；「孝／德／獻／武」異文未核影像。「卓氏」「孔氏」「任氏」等按家戶或數代敘事處理，不推成單一具名祖先；「卓鄭」篇末合稱未拆成個人。",
+      "p037「任氏之先」及其後多次「任氏」描述一支累世商戶／家戶財業，不能視為同一人的完整生平；撤除個人ID，保留原字錨為未定家戶指稱，另句「任公」仍為獨立稱指。"
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-shiji-129-huozhi:m043-0035",
+        "paragraph_id": "c-shiji-129-huozhi:p043",
+        "start": 35,
+        "end": 36,
+        "surface": "女",
+        "person_id": "jat_ll3_qk6",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "女築懷清",
+        "rationale": "篇末「女築懷清」回扣本篇寡婦清與「懷清臺」；「女」是描述性稱指，不是姓名或個人別名。",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
@@ -50,7 +89,7 @@
           "end": 2,
           "surface": "老子",
           "kind": "person",
-          "person_id": "w2i_7br_tiv",
+          "person_id": "jg1_ag9_033",
           "status": "contextual_provisional"
         }
       ]
@@ -76,7 +115,7 @@
           "end": 8,
           "surface": "神農",
           "kind": "person",
-          "person_id": "t09_bk5_omn",
+          "person_id": "kzy_ysk_775",
           "status": "contextual_provisional"
         }
       ]
@@ -100,7 +139,7 @@
           "end": 107,
           "surface": "太公望",
           "kind": "person",
-          "person_id": "o6i_h2h_p8x",
+          "person_id": "1g3_02y_oor",
           "status": "contextual_provisional"
         },
         {
@@ -109,7 +148,7 @@
           "end": 124,
           "surface": "太公",
           "kind": "person",
-          "person_id": "o6i_h2h_p8x",
+          "person_id": "1g3_02y_oor",
           "status": "contextual_provisional"
         },
         {
@@ -118,7 +157,7 @@
           "end": 177,
           "surface": "管子",
           "kind": "person",
-          "person_id": "s42_8cl_8n4",
+          "person_id": "h1v_8ap_b9y",
           "status": "contextual_provisional"
         },
         {
@@ -127,7 +166,7 @@
           "end": 189,
           "surface": "桓公",
           "kind": "person",
-          "person_id": "j1b_ffs_x7d",
+          "person_id": "9w2_c77_53m",
           "status": "contextual_provisional"
         },
         {
@@ -136,7 +175,7 @@
           "end": 205,
           "surface": "管氏",
           "kind": "person",
-          "person_id": "s42_8cl_8n4",
+          "person_id": "h1v_8ap_b9y",
           "status": "contextual_provisional"
         },
         {
@@ -145,7 +184,7 @@
           "end": 230,
           "surface": "威",
           "kind": "person",
-          "person_id": "1jw_cyx_37h",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -154,7 +193,7 @@
           "end": 232,
           "surface": "宣",
           "kind": "person",
-          "person_id": "i4l_q6t_81o",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAAA",
           "status": "contextual_provisional"
         }
       ]
@@ -178,7 +217,7 @@
           "end": 6,
           "surface": "越王句踐",
           "kind": "person",
-          "person_id": "h1w_1k2_zgz",
+          "person_id": "i7a_22p_qda",
           "status": "contextual_provisional"
         },
         {
@@ -311,7 +350,7 @@
           "end": 2,
           "surface": "子贛",
           "kind": "person",
-          "person_id": "eb7_5lg_w9q",
+          "person_id": "7c4_6v2_yvm",
           "status": "contextual_provisional"
         },
         {
@@ -320,7 +359,7 @@
           "end": 7,
           "surface": "仲尼",
           "kind": "person",
-          "person_id": "mil_8wg_ohj",
+          "person_id": "fp6_ia6_7yw",
           "status": "contextual_provisional"
         },
         {
@@ -329,7 +368,7 @@
           "end": 32,
           "surface": "賜",
           "kind": "person",
-          "person_id": "eb7_5lg_w9q",
+          "person_id": "7c4_6v2_yvm",
           "status": "contextual_provisional"
         },
         {
@@ -338,7 +377,7 @@
           "end": 39,
           "surface": "原憲",
           "kind": "person",
-          "person_id": "fuq_l6p_4ly",
+          "person_id": "b26_2bj_z9b",
           "status": "contextual_provisional"
         },
         {
@@ -347,7 +386,7 @@
           "end": 51,
           "surface": "子貢",
           "kind": "person",
-          "person_id": "eb7_5lg_w9q",
+          "person_id": "7c4_6v2_yvm",
           "status": "contextual_provisional"
         },
         {
@@ -356,7 +395,7 @@
           "end": 84,
           "surface": "孔子",
           "kind": "person",
-          "person_id": "mil_8wg_ohj",
+          "person_id": "fp6_ia6_7yw",
           "status": "contextual_provisional"
         },
         {
@@ -365,7 +404,7 @@
           "end": 94,
           "surface": "子貢",
           "kind": "person",
-          "person_id": "eb7_5lg_w9q",
+          "person_id": "7c4_6v2_yvm",
           "status": "contextual_provisional"
         }
       ]
@@ -391,7 +430,7 @@
           "end": 11,
           "surface": "魏文侯",
           "kind": "person",
-          "person_id": "ip4_v3x_bup",
+          "person_id": "nxl_qt6_cpl_AAAAAA*A*A",
           "status": "contextual_provisional"
         },
         {
@@ -400,7 +439,7 @@
           "end": 15,
           "surface": "李克",
           "kind": "person",
-          "person_id": "38y_k8l_cla",
+          "person_id": "jps_khx_p25",
           "status": "contextual_provisional"
         },
         {
@@ -418,7 +457,7 @@
           "end": 173,
           "surface": "伊尹",
           "kind": "person",
-          "person_id": "08a_jo3_plo",
+          "person_id": "itn_zi2_il4",
           "status": "contextual_provisional"
         },
         {
@@ -427,17 +466,26 @@
           "end": 176,
           "surface": "呂尚",
           "kind": "person",
-          "person_id": "o6i_h2h_p8x",
+          "person_id": "1g3_02y_oor",
           "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-129-huozhi:m009-0179",
           "start": 179,
+          "end": 180,
+          "surface": "孫",
+          "kind": "person",
+          "person_id": "vax_w2r_0za",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-129-huozhi:m009-0180",
+          "start": 180,
           "end": 181,
-          "surface": "孫吳",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "surface": "吳",
+          "kind": "person",
+          "person_id": "61h_0sk_4pb",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-129-huozhi:m009-0184",
@@ -445,7 +493,7 @@
           "end": 186,
           "surface": "商鞅",
           "kind": "person",
-          "person_id": "eoz_084_vwg",
+          "person_id": "2wp_usr_ncd",
           "status": "contextual_provisional"
         },
         {
@@ -533,7 +581,7 @@
           "end": 45,
           "surface": "秦始皇帝",
           "kind": "person",
-          "person_id": "vjl_m0n_9pl",
+          "person_id": "ao3_0fy_d45_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -578,7 +626,7 @@
           "end": 110,
           "surface": "秦皇帝",
           "kind": "person",
-          "person_id": "vjl_m0n_9pl",
+          "person_id": "ao3_0fy_d45_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -620,7 +668,7 @@
           "end": 33,
           "surface": "公劉",
           "kind": "person",
-          "person_id": "ys7_623_44n",
+          "person_id": "ubt_idy_jr8",
           "status": "contextual_provisional"
         },
         {
@@ -629,7 +677,7 @@
           "end": 38,
           "surface": "大王",
           "kind": "person",
-          "person_id": "jgg_b2r_m0g",
+          "person_id": "5dm_e40_rqh",
           "status": "contextual_provisional"
         },
         {
@@ -638,7 +686,7 @@
           "end": 41,
           "surface": "王季",
           "kind": "person",
-          "person_id": "gnd_f77_icz",
+          "person_id": "y4i_pjk_4gn",
           "status": "contextual_provisional"
         },
         {
@@ -647,7 +695,7 @@
           "end": 46,
           "surface": "文王",
           "kind": "person",
-          "person_id": "row_ke9_k5j",
+          "person_id": "y4i_pjk_4gn_A",
           "status": "contextual_provisional"
         },
         {
@@ -656,7 +704,7 @@
           "end": 51,
           "surface": "武王",
           "kind": "person",
-          "person_id": "yg3_wq7_tpj",
+          "person_id": "y4i_pjk_4gn_AA",
           "status": "contextual_provisional"
         },
         {
@@ -665,17 +713,17 @@
           "end": 83,
           "surface": "秦文",
           "kind": "person",
-          "person_id": "eaa_jij_k8j",
+          "person_id": "y97_huh_vuz_A",
           "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-129-huozhi:m013-0084",
-          "start": 84,
-          "end": 90,
-          "surface": "（孝）［德］",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "start": 88,
+          "end": 89,
+          "surface": "德",
+          "kind": "person",
+          "person_id": "y97_huh_vuz_AAAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-129-huozhi:m013-0091",
@@ -683,7 +731,7 @@
           "end": 92,
           "surface": "繆",
           "kind": "person",
-          "person_id": "s1i_t3j_lne",
+          "person_id": "y97_huh_vuz_AAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -691,18 +739,18 @@
           "start": 105,
           "end": 110,
           "surface": "獻（孝）公",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-129-huozhi:m013-0131",
-          "start": 131,
-          "end": 137,
-          "surface": "（武）［孝］",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "start": 135,
+          "end": 136,
+          "surface": "孝",
+          "kind": "person",
+          "person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAA",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-129-huozhi:m013-0138",
@@ -710,7 +758,7 @@
           "end": 139,
           "surface": "昭",
           "kind": "person",
-          "person_id": "uhy_p4j_wc6",
+          "person_id": "ao3_0fy_d45",
           "status": "contextual_provisional"
         }
       ]
@@ -720,7 +768,26 @@
       "text": "昔唐人都河東，殷人都河內，周人都河南。夫三河在天下之中，若鼎足，王者所更居也，建國各數百千歲，土地小狹，民人眾，都國諸侯所聚會，故其俗纖儉習事。楊、平陽陳西賈秦、翟，北賈種、代。種、代，石北也，地邊胡，數被寇。人民矜懻忮，好氣，任俠為姦，不事農商。然迫近北夷，師旅亟往，中國委輸時有奇羨。其民羯羠不均，自全晉之時固已患其僄悍，而武靈王益厲之，其謠俗猶有趙之風也。故楊、平陽陳掾其閒，得所欲。溫、軹西賈上黨，北賈趙、中山。中山地薄人眾，猶有沙丘紂淫地餘民，民俗懁急，仰機利而食。丈夫相聚游戲，悲歌慨，起則相隨椎剽，休則掘冢作巧姦冶，多美物，為倡優。女子則鼓鳴瑟，跕屣，游媚貴富，入後宮，遍諸侯。",
       "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-129-huozhi:m014-0164",
+          "start": 164,
+          "end": 167,
+          "surface": "武靈王",
+          "kind": "person",
+          "person_id": "txj_z8z_5me_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-129-huozhi:m014-0221",
+          "start": 221,
+          "end": 222,
+          "surface": "紂",
+          "kind": "person",
+          "person_id": "lwx_9yq_ad7",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-129-huozhi:p015",
@@ -762,7 +829,7 @@
           "end": 13,
           "surface": "周公",
           "kind": "person",
-          "person_id": "mm5_43u_d8f",
+          "person_id": "y4i_pjk_4gn_AD",
           "status": "contextual_provisional"
         }
       ]
@@ -779,7 +846,7 @@
           "end": 35,
           "surface": "堯",
           "kind": "person",
-          "person_id": "dty_4q5_la2",
+          "person_id": "oho_r3f_c6y",
           "status": "contextual_provisional"
         },
         {
@@ -788,7 +855,7 @@
           "end": 46,
           "surface": "舜",
           "kind": "person",
-          "person_id": "urt_jk7_cjx",
+          "person_id": "ddb_l4j_4j2",
           "status": "contextual_provisional"
         },
         {
@@ -797,7 +864,7 @@
           "end": 52,
           "surface": "湯",
           "kind": "person",
-          "person_id": "g2p_biu_r3z",
+          "person_id": "tpz_x3m_e0h",
           "status": "contextual_provisional"
         }
       ]
@@ -821,7 +888,7 @@
           "end": 46,
           "surface": "闔廬",
           "kind": "person",
-          "person_id": "rx6_ll9_i7u",
+          "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -830,7 +897,7 @@
           "end": 49,
           "surface": "春申",
           "kind": "person",
-          "person_id": "y39_cg2_ep7",
+          "person_id": "e79_ty0_mkx",
           "status": "contextual_provisional"
         },
         {
@@ -839,7 +906,7 @@
           "end": 52,
           "surface": "王濞",
           "kind": "person",
-          "person_id": "qz6_64u_fnd",
+          "person_id": "yqp_nlb_p1p_CA",
           "status": "contextual_provisional"
         }
       ]
@@ -1130,45 +1197,45 @@
           "start": 27,
           "end": 29,
           "surface": "任氏",
-          "kind": "person",
-          "person_id": "0ss_lx4_rht",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-129-huozhi:m037-0060",
           "start": 60,
           "end": 62,
           "surface": "任氏",
-          "kind": "person",
-          "person_id": "0ss_lx4_rht",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-129-huozhi:m037-0063",
           "start": 63,
           "end": 65,
           "surface": "任氏",
-          "kind": "person",
-          "person_id": "0ss_lx4_rht",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-129-huozhi:m037-0077",
           "start": 77,
           "end": 79,
           "surface": "任氏",
-          "kind": "person",
-          "person_id": "0ss_lx4_rht",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-129-huozhi:m037-0096",
           "start": 96,
           "end": 98,
           "surface": "任氏",
-          "kind": "person",
-          "person_id": "0ss_lx4_rht",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-129-huozhi:m037-0109",
@@ -1404,15 +1471,6 @@
           "kind": "person",
           "person_id": "vlm_env_ap8",
           "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-129-huozhi:m043-0035",
-          "start": 35,
-          "end": 36,
-          "surface": "女",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
         },
         {
           "id": "c-shiji-129-huozhi:m043-0045",

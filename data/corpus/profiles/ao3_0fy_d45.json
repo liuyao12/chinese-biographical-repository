@@ -20,7 +20,8 @@
     "君",
     "公子稷",
     "寡人",
-    "秦"
+    "秦",
+    "昭"
   ],
   "titles": [
     {
@@ -3731,6 +3732,41 @@
       "work_title": "史記"
     },
     {
+      "number": 129,
+      "category": "liezhuan",
+      "title": "貨殖列傳第六十九",
+      "paragraph_id": "c-shiji-129-huozhi:p013",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "賈。獻（孝）公徙櫟邑，櫟邑北卻戎翟，東通三晉，亦多大賈。（武）［孝］、昭治咸陽，因以漢都，長安諸陵，四方輻湊并至而會，地小人眾，故其民益玩巧而事末也。南則巴蜀。巴蜀亦沃野，地饒炧、薑、丹沙、石、銅、鐵、竹、木之器。南御滇僰，僰僮。西近邛笮，笮馬、旄牛。然四塞，棧道千里，無",
+      "paragraph_ids": [
+        "c-shiji-129-huozhi:p013"
+      ],
+      "mention_ids": [
+        "c-shiji-129-huozhi:m013-0138"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-129-huozhi:m013-0138": "c-shiji-129-huozhi:p013"
+      },
+      "mention_id": "c-shiji-129-huozhi:m013-0138",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-129-huozhi:m013-0138",
+          "mention_ids": [
+            "c-shiji-129-huozhi:m013-0138"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-129",
+      "chapter_id": "c-shiji-129-huozhi",
+      "source_id": "s-shiji129-huozhi",
+      "work_title": "史記"
+    },
+    {
       "number": 130,
       "category": "liezhuan",
       "title": "太史公自序第七十",
@@ -4669,6 +4705,52 @@
           "editorial_readings": [],
           "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
           "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-129-huozhi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-129",
+      "source_id": "s-shiji129-huozhi",
+      "source": {
+        "title": "史記／卷129",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷129",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷129&oldid=7904128",
+        "revision_id": 7904128,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文43段，篇文42段、索隱述贊1段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "（孝）［德］",
+              "adopted_reading": "德",
+              "status": "editorial_provisional",
+              "rationale": "秦君相承及《秦本紀》支持德公；保留孝字異讀。未核影像，不作定本校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "獻（孝）公",
+              "adopted_reading": "獻公",
+              "status": "editorial_provisional",
+              "rationale": "徙櫟邑的秦君為獻公；保留孝字異讀。未核影像，不作定本校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "（武）［孝］",
+              "adopted_reading": "孝",
+              "status": "editorial_provisional",
+              "rationale": "下接「昭治咸陽」，秦孝公脈絡相合；保留武字異讀。未核影像，不作定本校勘。"
+            }
+          ],
+          "extraction_note": "去header2、現代節標及索隱述贊層次標籤；保留巴[蜀]、（孝）［德］等來源校讀括號，未核影像。",
+          "note": "文獻校讀不當已校定字，氏稱與家族表述逐段分辨。"
         }
       }
     },
