@@ -80,6 +80,45 @@
       "status": "editorial_provisional",
       "human_reviewed": false,
       "reviewer": "Codex（AI代理）"
+    },
+    {
+      "id": "tc-xintangshu083-tongan-age-at-death-eq-86",
+      "person_id": "acz_c2l_abu",
+      "target": {
+        "entity_type": "age_assertion",
+        "entity_id": "age-xintangshu083-tongan-death-86",
+        "property": "value"
+      },
+      "operator": "eq",
+      "value": {
+        "kind": "integer",
+        "value": 86,
+        "unit": "source_age_years"
+      },
+      "derivation": {
+        "kind": "reported_age",
+        "source_term": "年八十六",
+        "rationale": "來源明載卒時報齡八十六；計歲方式未明，不由此反推出生年。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-xintangshu",
+          "book_id": "b-xintangshu-083",
+          "source_id": "s-xintangshu083-ws2605952",
+          "chapter_id": "c-xintangshu-083-tongan",
+          "paragraph_id": "c-xintangshu-083-tongan:p001",
+          "quote": "同安公主，高祖同母媦也。下嫁隋州刺史王裕。貞觀時，以屬尊進大長公主。嘗有疾，太宗躬省視，賜縑五百，姆侍皆有賚予。永徽初，賜實戶三百。薨年八十六。裕，隋司徒柬之子，終開府儀同三司。",
+          "person_mention_id": "c-xintangshu-083-tongan:p001:m0000",
+          "anchor": {
+            "start": 67,
+            "end": 71,
+            "surface": "年八十六"
+          }
+        }
+      ],
+      "status": "source_attested",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）"
     }
   ]
 }
