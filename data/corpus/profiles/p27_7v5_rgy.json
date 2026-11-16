@@ -269,9 +269,24 @@
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "normalization": {
           "character_conversion": {},
-          "editorial_readings": [],
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-128-guice:p019",
+              "kind": "digital_witness_difference",
+              "body_reading": "殺牛取帮",
+              "witness_reading": "殺牛取革，被鄭之桐。",
+              "witness_title": "中國哲學書電子化計劃《史記三家注》卷一百二十八〈龜策列傳第六十八〉",
+              "witness_url": "https://ctext.org/wiki.pl?chapter=116898&if=en",
+              "witness_access": "本次直接開啟回應403；搜尋索引頁顯示該段及徐廣注文，未視為影像核校。",
+              "witness_edition_note": "CText《史記》說明其數位底文以《武英殿二十四史》本為基礎；此處僅作數位對校參考。",
+              "note_quote": "徐廣曰：「牛革桐為鼓也。」《索隱》：徐氏云：「牛革桐為鼓。」",
+              "decision": "保留目前固定正文「帮」，不靜默改字；CText數位讀法與徐廣注文均支持「革」，待直接核對武英殿本頁後再決定正文採字。",
+              "status": "editorial_provisional",
+              "human_reviewed": false
+            }
+          ],
           "extraction_note": "去header2、wikipedia導覽模板與現代節標；保留原字及（民）［氓］等來源校讀括號，未核影像。",
-          "note": "來源笔與帮字面疑訛；最近五個修訂皆有，不擅校改。萬畢石朱方、陰兢及周太子歷待校。"
+          "note": "固定正文仍為維基文庫7904127轉錄，非已核武英殿影像；CText武英殿系數位讀法「革」與徐廣注文供校讀參考，本文保留「帮」待核。萬畢石朱方、陰兢及周太子歷等依本篇上下文續核。"
         }
       }
     }
