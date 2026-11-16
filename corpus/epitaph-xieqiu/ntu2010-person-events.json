@@ -1,0 +1,97 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_event_assertion_set",
+  "chapter_id": "c-epitaph-xieqiu-ntu2010",
+  "events": [
+    {
+      "id": "le-epitaph-xieqiu-burial",
+      "person_id": "z0u_xut_osd",
+      "event_type": "burial",
+      "source_term": "安厝",
+      "source_anchor": {
+        "paragraph_id": "c-epitaph-xieqiu-ntu2010:front",
+        "start": 43,
+        "end": 45,
+        "surface": "安厝"
+      },
+      "date_expression": "其年七月廿四日",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-epitaph-xieqiu",
+          "book_id": "b-epitaph-xieqiu-marked",
+          "source_id": "s-epitaph-xieqiu-ntu2010",
+          "chapter_id": "c-epitaph-xieqiu-ntu2010",
+          "paragraph_id": "c-epitaph-xieqiu-ntu2010:front",
+          "quote": "晉故輔國參軍豫州陳郡陽夏縣都鄉吉遷里謝球字景璋年卌一義熙三年三月廿六日亡其年七月廿四日安厝丹楊郡秣陵縣賴鄉石泉里牛頭山",
+          "person_mention_id": "c-epitaph-xieqiu-ntu2010:front:m0018"
+        }
+      ],
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 407,
+        "year": 407,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "其年",
+        "status": "editorial_provisional",
+        "original_quote": "晉故輔國參軍豫州陳郡陽夏縣都鄉吉遷里謝球字景璋年卌一義熙三年三月廿六日亡其年七月廿四日安厝丹楊郡秣陵縣賴鄉石泉里牛頭山",
+        "evidence": [
+          {
+            "work_id": "w-epitaph-xieqiu",
+            "book_id": "b-epitaph-xieqiu-marked",
+            "source_id": "s-epitaph-xieqiu-ntu2010",
+            "chapter_id": "c-epitaph-xieqiu-ntu2010",
+            "paragraph_id": "c-epitaph-xieqiu-ntu2010:front",
+            "quote": "晉故輔國參軍豫州陳郡陽夏縣都鄉吉遷里謝球字景璋年卌一義熙三年三月廿六日亡其年七月廿四日安厝丹楊郡秣陵縣賴鄉石泉里牛頭山",
+            "person_mention_id": "c-epitaph-xieqiu-ntu2010:front:m0018"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "義熙",
+            "columns": {
+              "dynasty": "東晉",
+              "era_name": "義熙",
+              "first_year": "405",
+              "last_year": "418"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-15",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "relative_ce_regnal_era_span",
+          "reference_index": 0,
+          "start_ce_year": 405,
+          "end_ce_year": 418,
+          "regnal_year": 3,
+          "source_number": "三",
+          "era_name": "義熙",
+          "year_offset": 0,
+          "target_regnal_year": 3
+        },
+        "rationale": "安厝前的「其年」承同句死亡的義熙三年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "relative_year_reference": {
+          "kind": "same_year",
+          "source_term": "其年",
+          "era_evidence_index": 0,
+          "antecedent_evidence_index": 0,
+          "event_evidence_index": 0,
+          "era_expression": "義熙三年",
+          "antecedent_expression": "義熙三年"
+        }
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "原日月只依誌文；不換算公曆月日、不由報齡倒推生年。"
+    }
+  ]
+}

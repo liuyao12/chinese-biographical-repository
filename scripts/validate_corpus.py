@@ -506,8 +506,24 @@ def _validate_uncached(root=ROOT):
             check(d['work_id'] in works, f'{cid}: 著作不存在')
             check(chapter_books.get(cid) == d['book_id'], f'{cid}: 卷篇歸屬不符')
             check(books.get(d['book_id'], {}).get('work_id') == d['work_id'], f'{cid}: 卷著作歸屬不符')
-            for key in ('url','permalink','license_url'):
-                u=urlparse(d['source'][key]); check(u.scheme in ('http','https') and bool(u.netloc), f'{cid}: 來源網址無效')
+            source = d['source']
+            for key in ('url', 'permalink'):
+                u = urlparse(source[key])
+                check(u.scheme in ('http', 'https') and bool(u.netloc), f'{cid}: 來源網址無效')
+            license_url = source.get('license_url')
+            layers = source.get('rights_layers') or {}
+            if license_url is None:
+                check('license_url' in source
+                      and source.get('license_scope') == 'transcription_reuse_unverified'
+                      and layers.get('license_url', False) is None
+                      and layers.get('license_status') == 'unverified'
+                      and layers.get('reuse_status') == 'not_cleared_for_open_reuse'
+                      and all(isinstance(layers.get(key), str) and layers[key].strip()
+                              for key in ('underlying_work', 'digital_witness', 'images')),
+                      f'{cid}: 未核授權須明列古文、校錄與圖像的權利範圍')
+            else:
+                u = urlparse(license_url)
+                check(u.scheme in ('http', 'https') and bool(u.netloc), f'{cid}: 來源授權網址無效')
             digest = hashlib.sha256('\n\n'.join(p['text'] for p in d['paragraphs']).encode('utf-8')).hexdigest()
             check(digest == d['text_sha256'], f'{cid}: 文本 SHA-256 不符')
             for p in d['paragraphs']:
@@ -2370,7 +2386,7 @@ def _validate_uncached(root=ROOT):
                           '使外任事年數須有事國原詞、相符數字及任務單位，不作爵位任期')
                 if event['event_type'] == 'burial':
                     term = event.get('source_term')
-                    check(isinstance(term, str) and ('葬' in term or term=='卜窆' and chapters[record['chapter_id']].get('annotation',{}).get('epitaph_life_binding',{}).get('kind')=='epitaph_named_head_dated_death_and_burial') and any(term in e.get('quote', '') for e in event.get('evidence', [])), '埋葬事件須有原文明示葬詞及相符引句')
+                    check(isinstance(term, str) and ('葬' in term or term == '安厝' and event.get('source_anchor', {}).get('surface') == '安厝' or term=='卜窆' and chapters[record['chapter_id']].get('annotation',{}).get('epitaph_life_binding',{}).get('kind')=='epitaph_named_head_dated_death_and_burial') and any(term in e.get('quote', '') for e in event.get('evidence', [])), '埋葬事件須有原文明示葬詞及相符引句')
                 if event['event_type'] in ('office_non_reinstatement', 'office_restoration'):
                     term = event.get('source_term')
                     required = '不復官' if event['event_type'] == 'office_non_reinstatement' else '復就故官'
