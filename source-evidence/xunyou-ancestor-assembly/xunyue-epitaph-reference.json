@@ -102,6 +102,28 @@
       "exact_quote": "樂平君之名，以其字伯旗推之，當是旗常之旗。作祈與昕者，皆傳寫之誤。",
       "scope_note": "頁面標示余嘉錫《世說新語箋疏》下冊數位轉錄；本次核讀其所載荀岳相關箋疏，未核所據紙本版本或拓本。",
       "interpretation": "余氏以荀岳父字伯旗及《荀氏家傳》作旗名推定，主張祈、昕為傳寫之誤；與三國志裴注傳本作「衢子祈，字伯旗」存在字形異文。"
+    },
+    {
+      "kind": "modern_secondary_edition_quotation_of_epitaph",
+      "authors": [
+        "吳士鑑",
+        "劉承幹"
+      ],
+      "work_title": "《晉書斠注》",
+      "edition": "中華書局2008年影印本",
+      "location": {
+        "volume_pdf": "第二冊",
+        "pdf_page": 55,
+        "page_number_kind": "掃描 PDF 頁碼，非印本頁碼",
+        "related_passage": "《晉書》卷五十四荀攸傳相關校注"
+      },
+      "url": "https://zh.wikisource.org/wiki/Page:%E6%99%89%E6%9B%B8%E6%96%A0%E6%B3%A8%EF%BC%88%E4%B8%AD%E8%8F%AF%E6%9B%B8%E5%B1%802008%E5%B9%B4%E5%BD%B1%E5%8D%B0%E6%9C%AC%EF%BC%89%E7%AC%AC%E4%BA%8C%E5%86%8A.pdf/55",
+      "accessed_on": "2026-11-15",
+      "role": "二手校注引錄墓碣文字；不是親核原拓，也不是獨立的原件釋文。",
+      "exact_quote": "樂平府君之第一子",
+      "scope_note": "《晉書斠注》數位頁轉錄其所引墓碣文。此處只據數位文字層記錄異讀，未目視核對該頁影像或所據原拓；不把它視為與河南博物院全文釋文等同的獨立碑石見證。",
+      "image_verified": false,
+      "human_reviewed": false
     }
   ],
   "identity_and_kinship_review": {
@@ -110,7 +132,7 @@
         "claim": "荀岳父為一位未具名的樂平府君；荀岳是其第二子。",
         "evidence": "君樂平府君之第二子",
         "person_endpoint_for_father": null,
-        "decision": "不以府君稱號創建有名人物，也不把近人所擬姓名寫成墓誌明文。"
+        "decision": "不以府君稱號創建有名人物，也不把近人所擬姓名寫成墓誌明文。 河南博物院網頁釋文作「第二子」；《晉書斠注》掃描 PDF 第二冊第55頁所引墓碣作「第一子」，見 textual_variants/v-epxun-p001-child-order-001。未核原拓，排行暫不定。"
       },
       {
         "claim": "荀岳之子荀隱，字鳴鶴；荀隱有子荀瓊，字華孫。",
@@ -166,7 +188,39 @@
       "reason": "目標分支 #598 未收《晉書》卷五十四，本次不引入該篇的章、段或人名提及 ID；待原始章文重新納入後再按來源逐句覆核。",
       "museum_article_url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512158956087444327",
       "person_id_scope": "696_456_df6_BAAB 暫指本墓誌所記「隱，字鳴鶴」，不宣稱已與《晉書》人物完成跨篇同指。"
-    }
+    },
+    "textual_variants": [
+      {
+        "id": "v-epxun-p001-child-order-001",
+        "claim": "荀岳為樂平府君第幾子",
+        "locus": {
+          "work_id": "w-epitaph-xunyue",
+          "book_id": "b-epitaph-xunyue-full",
+          "chapter_id": "c-epitaph-xunyue-museum-full",
+          "paragraph_id": "c-epitaph-xunyue-museum-full:p001",
+          "quote_context": "君樂平府君之第二子，時年五十。",
+          "person_mention_id": "c-epitaph-xunyue-museum-full:p001:m0002"
+        },
+        "readings": [
+          {
+            "witness": "河南博物院《荀岳墓志》網頁四面全文釋文",
+            "reading": "第二子",
+            "role": "正式正文所據機構網頁轉錄",
+            "url": "https://www.chnmus.net/ch/collection/appraise/details.html?id=512158956087444327"
+          },
+          {
+            "witness": "吳士鑑、劉承幹《晉書斠注》中華書局2008年影印本第二冊 PDF 第55頁",
+            "reading": "第一子",
+            "role": "二手校注對墓碣的轉引；非親核碑石",
+            "url": "https://zh.wikisource.org/wiki/Page:%E6%99%89%E6%9B%B8%E6%96%A0%E6%B3%A8%EF%BC%88%E4%B8%AD%E8%8F%AF%E6%9B%B8%E5%B1%802008%E5%B9%B4%E5%BD%B1%E5%8D%B0%E6%9C%AC%EF%BC%89%E7%AC%AC%E4%BA%8C%E5%86%8A.pdf/55"
+          }
+        ],
+        "editorial_decision": "保留正文轉錄及既有來源引文所據河南博物院讀法「第二子」；同步列出《晉書斠注》轉引「第一子」的異讀。因未目視核原拓，排行讀法標為未決，不將「第二」或「第一」轉成數值排行；父子關係及人物 ID 不變。",
+        "status": "unresolved",
+        "image_verified": false,
+        "human_reviewed": false
+      }
+    ]
   },
   "editorial_actions": [
     "正式收錄館方四面釋文為一個明確標示的機構網頁數位見證，記錄繁簡轉換、行界移除、疑字及未核原石／拓片狀態。",
