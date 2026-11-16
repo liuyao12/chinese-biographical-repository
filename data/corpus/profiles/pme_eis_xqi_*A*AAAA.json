@@ -57,6 +57,51 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 12,
+      "category": "benji",
+      "title": "孝武本紀第十二",
+      "paragraph_id": "c-shiji-012-wudi:p016",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "年冬，天子郊雍，議曰：「今上帝朕親郊，而后土毋祀，則禮不答也。」有司與太史公、祠官寬舒等議：「天地牲角繭栗。今陛下親祀后土，后土宜於澤中圜丘為五壇，壇一黃犢太牢具，已祠盡瘞，而從祠衣上黃。」於是天子遂東，始立后土祠汾陰脽上，如寬舒等議。上親望拜，如上帝禮。禮畢，天子遂至滎陽而",
+      "paragraph_ids": [
+        "c-shiji-012-wudi:p016",
+        "c-shiji-012-wudi:p023"
+      ],
+      "mention_ids": [
+        "c-shiji-012-wudi:m016-0037",
+        "c-shiji-012-wudi:m023-0144"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-012-wudi:m016-0037": "c-shiji-012-wudi:p016",
+        "c-shiji-012-wudi:m023-0144": "c-shiji-012-wudi:p023"
+      },
+      "mention_id": "c-shiji-012-wudi:m016-0037",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-012-wudi:m016-0037",
+          "mention_ids": [
+            "c-shiji-012-wudi:m016-0037"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-012-wudi:m023-0144",
+          "mention_ids": [
+            "c-shiji-012-wudi:m023-0144"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-012",
+      "chapter_id": "c-shiji-012-wudi",
+      "source_id": "s-shiji-012-wudi",
+      "work_title": "史記"
+    },
+    {
       "number": 52,
       "category": "",
       "title": "祖沖之傳",
@@ -221,6 +266,30 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅去pb/¶/換行；全部1255可見字逐碼點保留，9段為編輯分段，數理文字不改寫/轉算/省略。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-012-wudi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-012",
+      "source_id": "s-shiji-012-wudi",
+      "source": {
+        "title": "史記／卷012",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷012",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+        "revision_id": 8733061,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇52個p區塊，自孝武皇帝者至太史公論贊；排除導覽dd、索隱述贊、現代版權告示及style／script樣式程式內容。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
+          "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
         }
       }
     },

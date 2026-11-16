@@ -43,6 +43,9 @@ class TaishigongAuthorIdentityTests(unittest.TestCase):
             self.assertTrue(any(m['surface']=='太史公' and m['person_id']==TAN for m in p['mentions']))
         p=next(p for p in ch['paragraphs'] if p['id'].endswith(':p143'))
         self.assertEqual(next(m['person_id'] for m in p['mentions'] if m['surface']=='太史公'),KEEP)
+        decision=next(d for d in read('corpus/shiji/012-identities.json')['decisions']
+                      if d['id']=='d-shiji012-taishigong-sima-tan')
+        self.assertTrue(any(e['paragraph_id'].endswith(':p004') for e in decision['evidence']))
 
     def test_chu_reference_retains_commentary_layer(self):
         for number,pid in [(60,'p018'),(126,'p013')]:
