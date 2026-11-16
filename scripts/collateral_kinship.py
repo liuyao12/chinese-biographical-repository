@@ -48,19 +48,32 @@ def agnatic_senior_kin_valid(assertion, paragraphs):
             if (set(q) != {'source_term', 'kinship_structure', 'source_clause_binding'}
                     or not isinstance(binding, dict)
                     or set(binding) != {'pattern', 'courtesy_name_mention_id'}
-                    or binding.get('pattern') != 'biographical_subject_courtesy_senior_congzi'
                     or not courtesy or courtesy.get('kind') != 'person'
                     or courtesy.get('person_id') != child['person_id']
                     or child['person_id'] == senior['person_id']
                     or text[child['start']:child['end']] != child['surface']
                     or text[courtesy['start']:courtesy['end']] != courtesy['surface']
-                    or text[senior['start']:senior['end']] != senior['surface']
-                    or text[child['end']:courtesy['start']] != '字'
-                    or courtesy['end'] != senior['start']
-                    or term != senior['surface'] + '從子也'
-                    or text[senior['start']:senior['end'] + 3] != term):
+                    or text[senior['start']:senior['end']] != senior['surface']):
                 return False
-            end = senior['end'] + 3
+            pattern = binding.get('pattern')
+            if pattern == 'biographical_subject_courtesy_senior_congzi':
+                if (text[child['end']:courtesy['start']] != '字'
+                        or courtesy['end'] != senior['start']
+                        or term != senior['surface'] + '從子'
+                        or text[senior['start']:senior['end'] + 3] != term + '也'):
+                    return False
+                end = senior['end'] + 3
+            elif pattern == 'biographical_subject_courtesy_office_senior_congzi':
+                if (text[child['end']:courtesy['start']] != '，字'
+                        or text[courtesy['end']:senior['start']] != '，司徒'
+                        or senior['start'] < 2
+                        or text[senior['start'] - 2:senior['start']] != '司徒'
+                        or term != '司徒' + senior['surface'] + '之從子'
+                        or text[senior['end']:senior['end'] + 4] != '之從子也'):
+                    return False
+                end = senior['end'] + 4
+            else:
+                return False
             local = [m for m in p.get('mentions', []) if m.get('kind') == 'person'
                      and child['start'] <= m['start'] < end]
             if {m['id'] for m in local} != {child['id'], courtesy['id'], senior['id']}:
