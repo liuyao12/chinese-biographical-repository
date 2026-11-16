@@ -544,13 +544,15 @@ def _validate_uncached(root=ROOT):
                 check(set(reference) == required, f'{cid}: 人物指涉欄位須符合格式')
                 rid = reference.get('id')
                 check(isinstance(rid, str) and bool(rid) and rid not in reference_ids, f'{cid}: 人物指涉 ID 重複或無效')
-                check(isinstance(rid, str) and rid.startswith(cid + ':r'), f'{cid}: 人物指涉 ID 須使用本篇命名空間')
+                check(isinstance(rid, str) and (rid.startswith(cid + ':r') or rid.startswith(cid + ':m')),
+                      f'{cid}: 人物指涉 ID 須使用本篇命名空間')
+                check(not isinstance(rid, str) or rid not in mentions, f'{cid}: 人物指涉 ID 不得與姓名提及 ID 重複')
                 if isinstance(rid, str):
                     reference_ids.add(rid)
                 hit = next((p for p in d['paragraphs'] if p['id'] == reference.get('paragraph_id')), None)
                 check(hit is not None, f'{cid}: 人物指涉段落不存在')
                 check(reference.get('person_id') in pids, f'{cid}: 人物指涉引用未知人物 ID')
-                check(reference.get('reference_type') in ('first_person_self_reference','third_person_pronoun','imperial_title_reference'), f'{cid}: 人物指涉類型無效')
+                check(reference.get('reference_type') in ('first_person_self_reference','third_person_pronoun','second_person_address','kinship_term_reference','address_term_reference','imperial_title_reference','title_or_appellation_reference'), f'{cid}: 人物指涉類型無效')
                 check(reference.get('status') == 'contextual_provisional' and reference.get('human_reviewed') is False, f'{cid}: 人物指涉須保留暫定與覆核狀態')
                 rationale = reference.get('rationale')
                 check(isinstance(rationale, str) and bool(rationale.strip()), f'{cid}: 人物指涉須說明判讀')
