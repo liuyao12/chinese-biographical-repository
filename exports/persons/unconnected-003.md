@@ -502,7 +502,6 @@
 | `pqu_drz_3p5` | 英〔冏子，濟陽王〕 | [《晉書・汝南王亮 楚王瑋 趙王倫 齊王冏 長沙王乂 成都王潁 河間王顒 東海王越》][35] | [JSON](pqu_drz_3p5.json) |
 | `pqx_j3h_31a` | 褚廣 | [《史記・酷吏列傳》][191] | [JSON](pqx_j3h_31a.json) |
 | `pr6_r4f_o9t` | 申徒狄引古 | [《史記・魯仲連鄒陽列傳》][152] | [JSON](pr6_r4f_o9t.json) |
-| `prn_tbw_cn8` | 皇太后（賜韓嫣死） | [《史記・佞幸列傳》][194] | [JSON](prn_tbw_cn8.json) |
 | `prp_99i_wff` | 苻熙 | [《晉書・桓彝》][44] | [JSON](prp_99i_wff.json) |
 | `prr_fkn_twl` | 盾女〔固妻〕 | [《晉書・陳騫 裴秀》][27] | [JSON](prr_fkn_twl.json) |
 | `prv_lad_vmu` | 和〔楊難當子〕 | [《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][209] | [JSON](prv_lad_vmu.json) |

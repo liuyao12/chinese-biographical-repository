@@ -285,6 +285,49 @@
       "interpretation_note": "元光馬邑敘事中的太后依時段與丞相田蚡外家承接暫定王太后；保留本篇候選，尚待跨篇同指。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji125-011",
+      "person_id": "6d6_eg1_o3a_A",
+      "title": "皇太后",
+      "kind": "honorific",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-125-ningxing",
+          "source_id": "s-shiji125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣者，弓高侯孽孫也。今上為膠東王時，嫣與上學書相愛。及上為太子，愈益親嫣。嫣善騎射，善佞。上即位，欲事伐匈奴，而嫣先習胡兵，以故益尊貴，官至上大夫，賞賜擬於鄧通。時嫣常與上臥起。江都王入朝，有詔得從入獵上林中。天子車駕蹕道未行，而先使嫣乘副車，從數十百騎，騖馳視獸。江都王望見，以為天子，辟從者，伏謁道傍。嫣驅不見。既過，江都王怒，為皇太后泣曰：「請得歸國入宿衛，比韓嫣。」太后由此嗛嫣。嫣侍上，出入永巷不禁，以姦聞皇太后。皇太后怒，使使賜嫣死。上為謝，終不能得，嫣遂死。而案道侯韓說，其弟也，亦佞幸。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji125-011:a001",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "start": 167,
+          "end": 170,
+          "surface": "皇太后",
+          "person_mention_id": "c-shiji-125-ningxing:m003-0167",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "明示官爵或稱號用語按原字存錄；官至不作初任年，用稱不作授予，未知起訖保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -968,6 +1011,68 @@
       "work_title": "史記"
     },
     {
+      "number": 125,
+      "category": "liezhuan",
+      "title": "佞幸列傳第六十五",
+      "paragraph_id": "c-shiji-125-ningxing:p003",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。江都王望見，以為天子，辟從者，伏謁道傍。嫣驅不見。既過，江都王怒，為皇太后泣曰：「請得歸國入宿衛，比韓嫣。」太后由此嗛嫣。嫣侍上，出入永巷不禁，以姦聞皇太后。皇太后怒，使使賜嫣死。上為謝，終不能得，嫣遂死。而案道侯韓說，其弟也，亦佞幸。",
+      "paragraph_ids": [
+        "c-shiji-125-ningxing:p003"
+      ],
+      "mention_ids": [
+        "c-shiji-125-ningxing:m003-0167",
+        "c-shiji-125-ningxing:m003-0187",
+        "c-shiji-125-ningxing:m003-0208",
+        "c-shiji-125-ningxing:m003-0212"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-125-ningxing:m003-0167": "c-shiji-125-ningxing:p003",
+        "c-shiji-125-ningxing:m003-0187": "c-shiji-125-ningxing:p003",
+        "c-shiji-125-ningxing:m003-0208": "c-shiji-125-ningxing:p003",
+        "c-shiji-125-ningxing:m003-0212": "c-shiji-125-ningxing:p003"
+      },
+      "mention_id": "c-shiji-125-ningxing:m003-0167",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-125-ningxing:m003-0167",
+          "mention_ids": [
+            "c-shiji-125-ningxing:m003-0167"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-125-ningxing:m003-0187",
+          "mention_ids": [
+            "c-shiji-125-ningxing:m003-0187"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-125-ningxing:m003-0208",
+          "mention_ids": [
+            "c-shiji-125-ningxing:m003-0208"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-125-ningxing:m003-0212",
+          "mention_ids": [
+            "c-shiji-125-ningxing:m003-0212"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-125",
+      "chapter_id": "c-shiji-125-ningxing",
+      "source_id": "s-shiji125-ningxing",
+      "work_title": "史記"
+    },
+    {
       "number": 130,
       "category": "liezhuan",
       "title": "太史公自序第七十",
@@ -1255,6 +1360,30 @@
           "editorial_readings": [],
           "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
           "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-125-ningxing",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-125",
+      "source_id": "s-shiji125-ningxing",
+      "source": {
+        "title": "史記／卷125",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷125",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷125&oldid=2273599",
+        "revision_id": 2273599,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文5段，末段太史公論贊屬篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與現代節標；移除字形選擇包裝而保留姦字，原字未轉換，未核影像。",
+          "note": "全篇收到正文，太史公論贊屬篇文。"
         }
       }
     },
@@ -1711,6 +1840,73 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "eq-shiji125-cross-003",
+      "person_ids": [
+        "6d6_eg1_o3a_A"
+      ],
+      "canonical_person_id": "6d6_eg1_o3a_A",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-049-waiqi",
+        "c-shiji-125-ningxing"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-125-ningxing",
+          "source_id": "s-shiji125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣者，弓高侯孽孫也。今上為膠東王時，嫣與上學書相愛。及上為太子，愈益親嫣。嫣善騎射，善佞。上即位，欲事伐匈奴，而嫣先習胡兵，以故益尊貴，官至上大夫，賞賜擬於鄧通。時嫣常與上臥起。江都王入朝，有詔得從入獵上林中。天子車駕蹕道未行，而先使嫣乘副車，從數十百騎，騖馳視獸。江都王望見，以為天子，辟從者，伏謁道傍。嫣驅不見。既過，江都王怒，為皇太后泣曰：「請得歸國入宿衛，比韓嫣。」太后由此嗛嫣。嫣侍上，出入永巷不禁，以姦聞皇太后。皇太后怒，使使賜嫣死。上為謝，終不能得，嫣遂死。而案道侯韓說，其弟也，亦佞幸。",
+          "mention_ids": [
+            "c-shiji-125-ningxing:m003-0167",
+            "c-shiji-125-ningxing:m003-0187",
+            "c-shiji-125-ningxing:m003-0208",
+            "c-shiji-125-ningxing:m003-0212"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p023",
+          "quote": "景帝崩，太子襲號為皇帝。尊皇太后母臧兒為平原君。封田蚡為武安侯，勝為周陽侯。",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m023-0013"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p035",
+          "quote": "褚先生曰：臣為郎時，問習漢家故事者鐘離生。曰：王太后在民閒時所生（子）［一］女者，父為金王孫。王孫已死，景帝崩後，武帝已立，王太后獨在。而韓王孫名嫣素得幸武帝，承閒白言太后有女在長陵也。武帝曰：「何不蚤言！」乃使使往先視之，在其家。武帝乃自往迎取之。蹕道，先驅旄騎出橫城門，乘輿馳至長陵。當小市西入里，里門閉，暴開門，乘輿直入此里，通至金氏門外止，使武騎圍其宅，為其亡走，身自往取不得也。即使左右群臣入呼求之。家人驚恐，女亡匿內中床下。扶持出門，令拜謁。武帝下車泣曰：「嚄！大姊，何藏之深也！」詔副車載之，迴車馳還，而直入長樂宮。行詔門著引籍，通到謁太后。太后曰：「帝倦矣，何從來？」帝曰：「今者至長陵得臣姊，與俱來。」顧曰：「謁太后！」太后曰：「女某邪？」曰：「是也。」太后為下泣，女亦伏地泣。武帝奉酒前為壽，奉錢千萬，奴婢三百人，公田百頃，甲第，以賜姊。太后謝曰：「為帝費焉。」於是召平陽主、南宮主、林慮主三人俱來謁見姊，因號曰修成君。有子男一人，女一人。男號為修成子仲，女為諸侯王王后。此二子非劉氏，以故太后憐之。修成子仲驕恣，陵折吏民，皆患苦之。",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m035-0023",
+            "c-shiji-049-waiqi:m035-0062"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》卷四十九〈外戚世家〉",
+          "quote": "景帝崩，太子襲號為皇帝。尊皇太后母臧兒為平原君。",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610",
+          "scope": "固定數位見證卷四十九 p023；未核影像。",
+          "image_verified": false
+        },
+        {
+          "title": "《史記》卷一二五〈佞幸列傳〉",
+          "quote": "嫣侍上，出入永巷不禁，以姦聞皇太后。皇太后怒，使使賜嫣死。",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷125&oldid=2273599",
+          "scope": "固定數位見證卷一二五 p003；未核影像。",
+          "image_verified": false
+        }
+      ],
+      "rationale": "卷一二五〈佞幸列傳〉卷中「皇太后／太后」四處皆位於武帝朝韓嫣事件：江都王向皇太后進言後，太后嗛嫣；其後因韓嫣出入永巷、以姦聞皇太后，皇太后遣使賜死。卷四十九〈外戚世家〉明言景帝崩後尊「皇太后母臧兒」，並於補敘中記「武帝已立」時韓王孫名嫣曾向王太后進言。兩篇的年代、人物與具體事件吻合，故將卷一二五未具名皇太后暫接卷四十九已由臧兒身分錨定的 `6d6_eg1_o3a_A`。稱號「皇太后」本身不作唯一識別；判讀依跨篇事件及卷四十九人物敘述。韓嫣遇賜死的更細原因不另推定。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ],
   "name_components": [],
@@ -2049,23 +2245,6 @@
       "reviewer": "Codex（AI 代理）"
     }
   ],
-  "assembled_identity": {
-    "person_id": "6d6_eg1_o3a_A",
-    "representative_source_person_id": "6d6_eg1_o3a_A",
-    "source_person_ids": [
-      "6d6_eg1_o3a_A"
-    ],
-    "identity_equivalence_decision_ids": [
-      "eq-shiji107-wangtaihou",
-      "eq-shiji108-wang"
-    ],
-    "parent_person_id": "6d6_eg1_o3a",
-    "source_assertion_id": "a-shiji049-018",
-    "assembly_id": "family-wang-zhong",
-    "root_person_id": "6d6_eg1_o3a",
-    "status": "editorial_preferred",
-    "human_reviewed": false
-  },
   "age_assertions": [],
   "life_events": [
     {
