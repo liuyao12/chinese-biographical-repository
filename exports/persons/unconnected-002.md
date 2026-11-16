@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `afc_k9r_hjr` | 衡父 | [《史記・秦本紀》][92] | [JSON](afc_k9r_hjr.json) |
-| `afe_vxj_iuk` | 中御府長信 | [《史記・扁鵲倉公列傳》][174] | [JSON](afe_vxj_iuk.json) |
-| `afp_p47_7v4` | 謝綜舅（未名） | [《南齊書・王僧虔 張緒》][67] | [JSON](afp_p47_7v4.json) |
 | `afy_rj9_84r` | 秦皇帝 | [《史記・齊悼惠王世家》][121] | [JSON](afy_rj9_84r.json) |
 | `agc_zmx_tap` | 鄦公 | [《史記・鄭世家》][111] | [JSON](agc_zmx_tap.json) |
 | `agn_6ch_sus` | 李勢 | [《晉書・叛臣一》][59] | [JSON](agn_6ch_sus.json) |
@@ -427,7 +424,6 @@
 | `cqk_f8b_cjq` | 王懋（王懿自述遠祖） | [《宋書・趙倫之 王懿 張邵》][207] | [JSON](cqk_f8b_cjq.json) |
 | `cqw_m1b_mk5` | 勝（陳哀公子） | [《史記・陳杞世家》][105] | [JSON](cqw_m1b_mk5.json) |
 | `cr3_n7l_ek6` | 庶長改 | [《史記・秦本紀》][92]、[《史記・六國年表》][241] | [JSON](cr3_n7l_ek6.json) |
-| `crm_jt7_xth` | 孔子 | [《史記・滑稽列傳》][195] | [JSON](crm_jt7_xth.json) |
 | `cro_tts_m6w` | 楊條 | [《三國志・諸夏侯曹傳》][77] | [JSON](cro_tts_m6w.json) |
 | `crw_0bp_tv7` | 晉定公 | [《史記・韓世家》][114] | [JSON](crw_0bp_tv7.json) |
 | `crw_kww_5qn` | 老子 | [《史記・仲尼弟子列傳》][136] | [JSON](crw_kww_5qn.json) |
@@ -1153,7 +1149,6 @@
 | `ghq_hdt_7iz` | 子結（楚昭王弟） | [《史記・楚世家》][109] | [JSON](ghq_hdt_7iz.json) |
 | `gi7_lw7_z9m` | 韓馮 | [《史記・田敬仲完世家》][115] | [JSON](gi7_lw7_z9m.json) |
 | `gir_5c2_ilu` | 楊中倩待核異稱 | [《史記・扁鵲倉公列傳》][174] | [JSON](gir_5c2_ilu.json) |
-| `gix_plv_xhr` | 子賤 | [《史記・滑稽列傳》][195] | [JSON](gix_plv_xhr.json) |
 | `gj0_ug4_by9` | 燒戈 | [《三國志・滿田牽郭傳》][85] | [JSON](gj0_ug4_by9.json) |
 | `gj7_qds_jsk` | 卿秦 | [《史記・趙世家》][112] | [JSON](gj7_qds_jsk.json) |
 | `gjf_egt_qju` | 周被 | [《史記・淮南衡山列傳》][187] | [JSON](gjf_egt_qju.json) |
@@ -1287,7 +1282,7 @@
 | `h9r_grh_k0s` | 劉虞 | [《後漢書・孝獻帝紀》][14] | [JSON](h9r_grh_k0s.json) |
 | `ha8_qxe_86d` | 顧悅之 | [《晉書・陸曄 何充 褚翜 蔡謨 諸葛恢 殷浩》][52] | [JSON](ha8_qxe_86d.json) |
 | `hae_1o6_08a` | 孔甲 | [《史記・儒林列傳》][190] | [JSON](hae_1o6_08a.json) |
-| `hap_m8c_czz` | 西門豹 | [《史記・魏世家》][113] | [JSON](hap_m8c_czz.json) |
+| `hap_m8c_czz` | 西門豹 | [《史記・滑稽列傳》][195] | [JSON](hap_m8c_czz.json) |
 | `hax_odl_kez` | 徐來兄（未名） | [《史記・淮南衡山列傳》][187] | [JSON](hax_odl_kez.json) |
 | `hb5_4zq_x4c` | 田角 | [《史記・田儋列傳》][163] | [JSON](hb5_4zq_x4c.json) |
 | `hb9_2gq_205` | 袁昂〔吳郡不降梁〕 | [《魏書・楊播》][231] | [JSON](hb9_2gq_205.json) |
@@ -2097,6 +2092,11 @@
 | `mii_pxr_jrl` | 破石 | [《史記・扁鵲倉公列傳》][174] | [JSON](mii_pxr_jrl.json) |
 | `mil_8wg_ohj` | 孔子 | [《史記・貨殖列傳》][198] | [JSON](mil_8wg_ohj.json) |
 | `mio_z5f_ri1` | 楚威王 | [《史記・蘇秦列傳》][138] | [JSON](mio_z5f_ri1.json) |
+| `miw_t0v_k64` | 呂越人 | [《史記・西南夷列傳》][185]、[《史記・司馬相如列傳》][186]、[《史記・大宛列傳》][192] | [JSON](miw_t0v_k64.json) |
+| `mj1_mir_ncl` | 昌（成弟） | [《史記・扁鵲倉公列傳》][174] | [JSON](mj1_mir_ncl.json) |
+| `mj4_uma_km7` | 陳皇后 | [《史記・外戚世家》][118] | [JSON](mj4_uma_km7.json) |
+| `mj8_5ic_4kk` | 殷道鸞 | [《宋書・謝晦》][205] | [JSON](mj8_5ic_4kk.json) |
+| `mjm_mzj_yye` | 召平 | [《史記・齊悼惠王世家》][121] | [JSON](mjm_mzj_yye.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

@@ -2,11 +2,13 @@
   "schema_version": 1,
   "id": "hap_m8c_czz",
   "canonical_person_id": "hap_m8c_czz",
-  "label": "西門豹（魏世家候選）",
+  "label": "西門豹",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "西門豹"
+    "西門豹",
+    "豹",
+    "西門君"
   ],
   "titles": [
     {
@@ -58,6 +60,49 @@
       "interpretation_note": "授予、任事及死後用稱分存；右、御、國政、傅與守鄴保留原用語，制度種類待核。未知端點不由卒、出亡或首次用稱推造。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji126-029",
+      "person_id": "hap_m8c_czz",
+      "title": "鄴令",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-126-huaji",
+          "source_id": "s-shiji126-huaji",
+          "paragraph_id": "c-shiji-126-huaji:p023",
+          "quote": "魏文侯時，西門豹為鄴令。豹往到鄴，會長老，問之民所疾苦。長老曰：「苦為河伯娶婦，以故貧。」豹問其故，對曰：「鄴三老、廷掾常歲賦斂百姓，收取其錢得數百萬，用其二三十萬為河伯娶婦，與祝巫共分其餘錢持歸。當其時，巫行視小家女好者，云是當為河伯婦，即娉取。洗沐之，為治新繒綺縠衣，閒居齋戒；為治齋宮河上，張緹絳帷，女居其中。為具牛酒飯食，行十餘日。共粉飾之，如嫁女床席，令女居其上，浮之河中。始浮，行數十里乃沒。其人家有好女者，恐大巫祝為河伯取之，以故多持女遠逃亡。以故城中益空無人，又困貧，所從來久遠矣。民人俗語曰『即不為河伯娶婦，水來漂沒，溺其人民』云。」西門豹曰：「至為河伯娶婦時，願三老、巫祝、父老送女河上，幸來告語之，吾亦往送女。」皆曰：「諾。」"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji126-029:a001",
+          "paragraph_id": "c-shiji-126-huaji:p023",
+          "start": 9,
+          "end": 11,
+          "surface": "鄴令",
+          "person_mention_id": "c-shiji-126-huaji:m023-0005",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "明示封拜與文獻用稱分開；未知授任年及終點保持未知，不以死亡自動終止官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -106,6 +151,188 @@
       "chapter_id": "c-shiji-044-wei",
       "source_id": "s-shiji-044-wei",
       "work_title": "史記"
+    },
+    {
+      "number": 126,
+      "category": "liezhuan",
+      "title": "滑稽列傳第六十六",
+      "paragraph_id": "c-shiji-126-huaji:p023",
+      "count": 17,
+      "raw_count": 17,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "魏文侯時，西門豹為鄴令。豹往到鄴，會長老，問之民所疾苦。長老曰：「苦為河伯娶婦，以故貧。」豹問其故，對曰：「鄴三老、廷掾常歲賦斂百姓，收取其錢得數百萬，用其二三十萬為河伯娶婦，與祝巫共分其餘錢持歸。當其時，巫行視小家",
+      "paragraph_ids": [
+        "c-shiji-126-huaji:p023",
+        "c-shiji-126-huaji:p024",
+        "c-shiji-126-huaji:p025",
+        "c-shiji-126-huaji:p026"
+      ],
+      "mention_ids": [
+        "c-shiji-126-huaji:m023-0005",
+        "c-shiji-126-huaji:m023-0012",
+        "c-shiji-126-huaji:m023-0045",
+        "c-shiji-126-huaji:m023-0276",
+        "c-shiji-126-huaji:m024-0004",
+        "c-shiji-126-huaji:m024-0073",
+        "c-shiji-126-huaji:m024-0102",
+        "c-shiji-126-huaji:m024-0223",
+        "c-shiji-126-huaji:m024-0259",
+        "c-shiji-126-huaji:m024-0285",
+        "c-shiji-126-huaji:m024-0340",
+        "c-shiji-126-huaji:m024-0359",
+        "c-shiji-126-huaji:m025-0000",
+        "c-shiji-126-huaji:m025-0037",
+        "c-shiji-126-huaji:m025-0154",
+        "c-shiji-126-huaji:m025-0179",
+        "c-shiji-126-huaji:m026-0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-126-huaji:m023-0005": "c-shiji-126-huaji:p023",
+        "c-shiji-126-huaji:m023-0012": "c-shiji-126-huaji:p023",
+        "c-shiji-126-huaji:m023-0045": "c-shiji-126-huaji:p023",
+        "c-shiji-126-huaji:m023-0276": "c-shiji-126-huaji:p023",
+        "c-shiji-126-huaji:m024-0004": "c-shiji-126-huaji:p024",
+        "c-shiji-126-huaji:m024-0073": "c-shiji-126-huaji:p024",
+        "c-shiji-126-huaji:m024-0102": "c-shiji-126-huaji:p024",
+        "c-shiji-126-huaji:m024-0223": "c-shiji-126-huaji:p024",
+        "c-shiji-126-huaji:m024-0259": "c-shiji-126-huaji:p024",
+        "c-shiji-126-huaji:m024-0285": "c-shiji-126-huaji:p024",
+        "c-shiji-126-huaji:m024-0340": "c-shiji-126-huaji:p024",
+        "c-shiji-126-huaji:m024-0359": "c-shiji-126-huaji:p024",
+        "c-shiji-126-huaji:m025-0000": "c-shiji-126-huaji:p025",
+        "c-shiji-126-huaji:m025-0037": "c-shiji-126-huaji:p025",
+        "c-shiji-126-huaji:m025-0154": "c-shiji-126-huaji:p025",
+        "c-shiji-126-huaji:m025-0179": "c-shiji-126-huaji:p025",
+        "c-shiji-126-huaji:m026-0025": "c-shiji-126-huaji:p026"
+      },
+      "mention_id": "c-shiji-126-huaji:m023-0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m023-0005",
+          "mention_ids": [
+            "c-shiji-126-huaji:m023-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m023-0012",
+          "mention_ids": [
+            "c-shiji-126-huaji:m023-0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m023-0045",
+          "mention_ids": [
+            "c-shiji-126-huaji:m023-0045"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m023-0276",
+          "mention_ids": [
+            "c-shiji-126-huaji:m023-0276"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m024-0004",
+          "mention_ids": [
+            "c-shiji-126-huaji:m024-0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m024-0073",
+          "mention_ids": [
+            "c-shiji-126-huaji:m024-0073"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m024-0102",
+          "mention_ids": [
+            "c-shiji-126-huaji:m024-0102"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m024-0223",
+          "mention_ids": [
+            "c-shiji-126-huaji:m024-0223"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m024-0259",
+          "mention_ids": [
+            "c-shiji-126-huaji:m024-0259"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m024-0285",
+          "mention_ids": [
+            "c-shiji-126-huaji:m024-0285"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m024-0340",
+          "mention_ids": [
+            "c-shiji-126-huaji:m024-0340"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m024-0359",
+          "mention_ids": [
+            "c-shiji-126-huaji:m024-0359"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m025-0000",
+          "mention_ids": [
+            "c-shiji-126-huaji:m025-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m025-0037",
+          "mention_ids": [
+            "c-shiji-126-huaji:m025-0037"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m025-0154",
+          "mention_ids": [
+            "c-shiji-126-huaji:m025-0154"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m025-0179",
+          "mention_ids": [
+            "c-shiji-126-huaji:m025-0179"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-126-huaji:m026-0025",
+          "mention_ids": [
+            "c-shiji-126-huaji:m026-0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-126",
+      "chapter_id": "c-shiji-126-huaji",
+      "source_id": "s-shiji126-huaji",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -133,11 +360,35 @@
           "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-126-huaji",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-126",
+      "source_id": "s-shiji126-huaji",
+      "source": {
+        "title": "史記／卷126",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷126",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷126&oldid=2609358",
+        "revision_id": 2609358,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文27段；篇文12段、褚少孫補文14段、索隱述贊1段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia導覽模板，維基內鏈只留顯示文字，移除衛后字形選擇包裝而保留后字；未核影像。",
+          "note": "褚先生補與索隱述贊依來源節標分層，不作司馬遷篇文。"
+        }
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "hap_m8c_czz": "西門豹（魏世家候選）"
+    "hap_m8c_czz": "西門豹"
   },
   "dates": [],
   "name_components": [],

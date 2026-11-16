@@ -1997,7 +1997,7 @@
 
 </details>
 
-<details><summary><code>fom_gr9_c8v</code> 孫叔敖（循吏列傳候選）（2 名）</summary>
+<details><summary><code>fom_gr9_c8v</code> 孫叔敖（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2735,7 +2735,7 @@
 | `AAAAA` | 魏獻子 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAA.json) |
 | `AAAAAA` | 魏侈 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA.json) |
 | `AAAAAA*A` | 魏桓子 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA%2AA.json) |
-| `AAAAAA*A*A` | 都 | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA%2AA%2AA.json) |
+| `AAAAAA*A*A` | 魏文侯（都） | [《史記・魏世家》][113] | [JSON](nxl_qt6_cpl_AAAAAA%2AA%2AA.json) |
 
 </details>
 

@@ -161,11 +161,18 @@ def stage(root, destination):
     decisions = [d for r in records if r.get('record_type') == 'person_equivalence_set' for d in r['decisions']]
     for directory in ('registry', 'corpus'):
         shutil.copytree(root / directory, destination / directory)
-    # Preserve retirement reservations in the staged validation root.
-    for receipt in (root / 'source-evidence').glob('*/annotation-chain.json'):
-        target = destination / receipt.relative_to(root)
+    # Validation reads immutable witnesses and every retirement reservation.
+    # Keep those inputs in the staged snapshot so the preflight checks the same
+    # source context as the repository instead of reporting missing evidence.
+    for directory in ('sources', 'source-evidence'):
+        source = root / directory
+        if source.exists():
+            shutil.copytree(source, destination / directory, dirs_exist_ok=True)
+    chapter_directory = root / 'data/corpus/chapter-directory.json'
+    if chapter_directory.exists():
+        target = destination / chapter_directory.relative_to(root)
         target.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(receipt, target)
+        shutil.copyfile(chapter_directory, target)
     for original in reference_files(root):
         path = destination / original.relative_to(root)
         path.parent.mkdir(parents=True, exist_ok=True)
