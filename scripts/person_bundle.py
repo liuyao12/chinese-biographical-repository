@@ -315,7 +315,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 break
             ids = expanded
     related_equivalences = [d for d in equivalences if ids.intersection(d['person_ids'])]
-    mentions, relations, titles, identities, addresses, life_events, ages, person_events, age_differences = [], [], [], [], [], [], [], [], []
+    mentions, person_references, relations, titles, identities, addresses, life_events, ages, person_events, age_differences = [], [], [], [], [], [], [], [], [], []
     family_counts = []
     table_occurrences, occurrence_cells = [], {}
     name_components = []
@@ -324,6 +324,10 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         kind = record.get('record_type')
         if kind == 'marked_chapter':
             chapters[record['id']] = record
+            person_references.extend(dict(reference, chapter_id=record['id'], work_id=record['work_id'],
+                                          book_id=record['book_id'], source_id=record['source_id'])
+                                     for reference in record.get('annotation', {}).get('person_reference_occurrences', [])
+                                     if reference.get('person_id') in ids)
             ages.extend(a for a in record['annotation'].get('age_assertions', []) if a['person_id'] in ids)
             family_counts.extend(a for a in record['annotation'].get('family_count_reports', []) if a['parent_person_id'] in ids)
             age_differences.extend(a for a in record['annotation'].get('age_difference_assertions', []) if ids.intersection((a['person_id'], a['reference_person_id'])))
@@ -518,6 +522,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 'alternative_id': chosen['id'], 'qualifiers': qualifiers,
                 'evidence': case['evidence'], 'selection': case['selection']})
     paragraph_ids = {m['paragraph_id'] for m in mentions}
+    paragraph_ids.update(reference['paragraph_id'] for reference in person_references)
     paragraph_ids.update(n['paragraph_id'] for n in name_components if n.get('kind') != 'table_cell')
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case['evidence'])
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
@@ -787,6 +792,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'canonical_person_id': person_id, 'id_aliases': people[person_id].get('id_aliases', []),
             'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id',
             'person_ids': sorted(ids), 'persons': [people[p] for p in sorted(neighbor_ids)],
+            **({'person_references': person_references} if person_references else {}),
             'source_mention_summary': mention_summary,
             'most_mentioned_source_ids': most_mentioned,
             'mention_count_policy': {'scope': 'independent_fixed_witness_occurrences', 'raw_mentions_preserved': True, 'passage_count_scope': 'annotation_containers', 'explanation': '頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。', 'included_kinds': ['paragraph', 'table_cell'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},

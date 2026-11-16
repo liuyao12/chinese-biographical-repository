@@ -535,6 +535,35 @@ def _validate_uncached(root=ROOT):
                     elif m['kind'] == 'work':
                         check(m.get('person_id') is None and m.get('work_id') in works and m.get('status') in ('source_explicit', 'contextual_provisional'), '著作提及須引用已登記著作且不得連人物')
                     else: check(False,'未知提及類型')
+            reference_ids = set()
+            for reference in d.get('annotation', {}).get('person_reference_occurrences', []):
+                check(isinstance(reference, dict), f'{cid}: 人物指涉須為物件')
+                if not isinstance(reference, dict):
+                    continue
+                required = {'id','paragraph_id','start','end','surface','person_id','reference_type','status','quote','rationale','human_reviewed'}
+                check(set(reference) == required, f'{cid}: 人物指涉欄位須符合格式')
+                rid = reference.get('id')
+                check(isinstance(rid, str) and bool(rid) and rid not in reference_ids, f'{cid}: 人物指涉 ID 重複或無效')
+                check(isinstance(rid, str) and rid.startswith(cid + ':r'), f'{cid}: 人物指涉 ID 須使用本篇命名空間')
+                if isinstance(rid, str):
+                    reference_ids.add(rid)
+                hit = next((p for p in d['paragraphs'] if p['id'] == reference.get('paragraph_id')), None)
+                check(hit is not None, f'{cid}: 人物指涉段落不存在')
+                check(reference.get('person_id') in pids, f'{cid}: 人物指涉引用未知人物 ID')
+                check(reference.get('reference_type') in ('first_person_self_reference','third_person_pronoun','imperial_title_reference'), f'{cid}: 人物指涉類型無效')
+                check(reference.get('status') == 'contextual_provisional' and reference.get('human_reviewed') is False, f'{cid}: 人物指涉須保留暫定與覆核狀態')
+                rationale = reference.get('rationale')
+                check(isinstance(rationale, str) and bool(rationale.strip()), f'{cid}: 人物指涉須說明判讀')
+                if hit is not None:
+                    start, end, surface = reference.get('start'), reference.get('end'), reference.get('surface')
+                    valid_span = (isinstance(start, int) and isinstance(end, int) and isinstance(surface, str)
+                                  and 0 <= start < end <= len(hit['text']) and hit['text'][start:end] == surface)
+                    check(valid_span,
+                          f'{cid}: 人物指涉字位與原文不符')
+                    check(isinstance(reference.get('quote'), str) and bool(reference['quote']) and reference['quote'] in hit['text'],
+                          f'{cid}: 人物指涉引句不在來源段落')
+                    check(not (valid_span and any(m['start'] < end and start < m['end'] for m in hit['mentions'])),
+                          f'{cid}: 非姓名人物指涉不得與正文提及錨點重疊')
             try:
                 from scripts.work_reference_resolution import chapter_errors as work_reference_errors
             except ModuleNotFoundError:

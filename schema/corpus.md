@@ -16,6 +16,8 @@
 
 每個段落有唯一 ID，每個提及有唯一 ID、`start`、`end`、`surface`。位置為段落內 Unicode code point，起點含、終點不含；JavaScript 使用 `Array.from(text)`，不可直接把 UTF-16 字串位置當此格式的位置。所有提及不重疊，依起點排列。人物提及含 `person_id`；未定指代的 `person_id` 為 `null`。
 
+可辨識所指人物的代詞、自稱或稱號，另列於篇章 `annotation.person_reference_occurrences`，具有自身穩定 ID、人物 ID、原段落、Unicode 字位、精確引句、參照類型與判讀理由。它們不是姓名／人物提及，不進入行內底線、人物別名或提及次數；仍由逐人來源 JSON 以 `person_references` 獨立列出。泛指、所指不可辨或指向非人物的代詞不連人物，也不建立此類記錄。引用是否成立仍是有來源、可撤回的編輯判斷，不能由程式判讀語義。
+
 ## 行內文本
 
 XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒稱符合 TEI：
