@@ -11,7 +11,13 @@
   "composition": {
     "author": "沈約",
     "period": "南朝梁",
-    "note": "《宋書》為沈約編撰之作；此記錄不將現存版刻年代當作成書年代。"
+    "note": "年代按來源所載奉詔年記錄，不推定全書完成年。",
+    "date_expression": "齊武帝永明五年（487）奉詔撰（來源記載奉詔年；不等同全書已於該年完成）",
+    "date_source": {
+      "title": "中國哲學書電子化計劃《宋書》資料頁",
+      "url": "https://ctext.org/wiki.pl?if=gb&res=899542",
+      "quote": "沈約在齊武帝永明五年（487）奉詔撰《宋書》"
+    }
   },
   "preferred_witness": {
     "source_title": "《宋書》卷五十二〈王誕傳〉",
@@ -22,16 +28,19 @@
     "source_id": "s-songshu-052-wangdan-ctext-wyg",
     "provider": "中國哲學書電子化計劃（CText）",
     "url": "https://ctext.org/wiki.pl?chapter=488955&if=en",
-    "edition": "武英殿二十四史本（CText 資料頁及館藏目錄所標示；正文目前受站方自動化存取限制，尚未核讀）",
+    "edition": "清乾隆四年（1739）武英殿二十四史本（CText 資料頁標示；正文目前受站方自動化存取限制，尚未核讀）",
     "metadata_urls": [
       "https://ctext.org/datawiki.pl?if=en&res=973033",
-      "https://ctext.org/library.pl?collection=7&if=gb"
+      "https://ctext.org/library.pl?collection=7&if=gb",
+      "https://ci.nii.ac.jp/ncid/BB20104950"
     ],
     "text_access_status": "本次自動化存取只返回站方安全／反自動化限制頁；站方明示不得由自動程序擷取且可能回傳錯誤資料。未嘗試繞過，未讀取或轉錄正文。",
     "image_verified": false,
     "scan_image_url": null,
     "scan_page_mapping_status": "未定位含卷五十二王誕傳的武英殿書影；不得宣稱已核影或以其他冊掃描代替。",
-    "catalogue_status": "CText 資料頁及館藏目錄標示此數位文本為武英殿本；未找到可核實的國圖 01471 詳目及本傳對應書影。"
+    "catalogue_status": "CText 資料頁及館藏目錄標示武英殿本；NII 書目記錄《宋書》一百卷為武英殿刊、乾隆四年（1739）。尚未找到國圖 01471 詳目及本傳對應書影；數位正文未核讀。",
+    "edition_date_year": 1739,
+    "edition_date_source_url": "https://ci.nii.ac.jp/ncid/BB20104950"
   },
   "transcription_witnesses": [
     {
@@ -41,7 +50,7 @@
       "chapter_id": "c-songshu-052-wangdan",
       "source_id": "s-songshu-052-wangdan-ctext-wyg",
       "url": "https://ctext.org/wiki.pl?chapter=488955&if=en",
-      "edition_label": "CText 資料頁與武英殿二十四史館藏目錄標示武英殿本；本次正文因自動化存取限制未能讀取",
+      "edition_label": "清乾隆四年（1739）武英殿本（CText 資料頁標示；本次正文因自動化存取限制未能讀取）",
       "role": "preferred_digitized_witness",
       "used_as_base_text": false,
       "reason": "預定作為武英殿數位正文見證；取得可用文本後再逐字轉錄。本提案目前不含該頁正文或字位。"
