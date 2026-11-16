@@ -854,6 +854,88 @@
       "interpretation_note": "據固定數位見證標題「唐故昭武校尉守左金吾衛將軍李公墓誌銘」記錄篇題官稱，題名錨點不冒充正文 MID，也不據篇題推定任職起訖；影像與錄文底本未核。",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "th-lidaogu-xunzhou-sima",
+      "person_id": "5hw_5qu_a4d_A",
+      "title": "循州司馬",
+      "kind": "office",
+      "mode": "demotion",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-changli-xiansheng-ji",
+          "book_id": "b-changli-032",
+          "chapter_id": "c-changli-032-lidaogu-muzhiming",
+          "source_id": "s-hanyu-lidaogu-muzhiming",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p003",
+          "quote": "不效，貶循州司馬。",
+          "context": {
+            "kind": "prior_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。",
+            "intervening_paragraph_ids": [
+              "c-changli-032-lidaogu-muzhiming:p002"
+            ]
+          }
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-lidaogu-xunzhou-sima",
+          "paragraph_id": "c-changli-032-lidaogu-muzhiming:p003",
+          "start": 40,
+          "end": 44,
+          "surface": "循州司馬",
+          "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+          "context": {
+            "kind": "prior_paragraph_subject",
+            "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+            "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+            "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。",
+            "intervening_paragraph_ids": [
+              "c-changli-032-lidaogu-muzhiming:p002"
+            ]
+          },
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "demotion",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-changli-xiansheng-ji",
+              "book_id": "b-changli-032",
+              "chapter_id": "c-changli-032-lidaogu-muzhiming",
+              "source_id": "s-hanyu-lidaogu-muzhiming",
+              "paragraph_id": "c-changli-032-lidaogu-muzhiming:p003",
+              "quote": "不效，貶循州司馬。",
+              "context": {
+                "kind": "prior_paragraph_subject",
+                "paragraph_id": "c-changli-032-lidaogu-muzhiming:p001",
+                "person_mention_id": "c-changli-032-lidaogu-muzhiming:p001:m0000",
+                "quote": "公諱道古，字某，曹成王子。其先王明，以太宗子王曹，絕輒復封，五世而至成王。成王諱臯，有功建中、貞元間，以多才能，能行賞誅為名。至今追數當時內外文武大臣，成王必在其間。",
+                "intervening_paragraph_ids": [
+                  "c-changli-032-lidaogu-muzhiming:p002"
+                ]
+              }
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "「貶循州司馬」的省略主語據本墓誌篇首傳主及《舊唐書》卷一三一、《資治通鑑》卷二四一互證判為李道古；錨定篇首真實提及與跨段原句，不偽造 p003 人名 MID。任命日期在本篇未明載，另有《通鑑》元和十五年繫年證據；終止日期不推定。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
     }
   ],
   "note": "逐項收錄本段明載官職／任用稱謂及起點語。年號省略而段內承接「元和」時只保留原有年次字串；任期終點未知。原文「利隨唐睦州刺史」不拆分；「鎮鄂州」保留未分類原稱。"
