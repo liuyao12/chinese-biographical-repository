@@ -60,9 +60,9 @@ export function chapterParagraph(paragraph, people = {}, context = null, workTit
       if(params && context?.work_id && context.work_id !== 'w-shiji')params.set('mention',mention.id);
       const href = 'person.html' + (params ? '?'+params : '') + '#' + encodeURIComponent(mention.person_id);
       fragments.push(`<a id="${h(mention.id)}" class="cbr-person-link" data-person-id="${h(mention.person_id)}"${typeof mention.interpretation_note === 'string' && mention.interpretation_note.trim() ? ` data-person-reading-note="${h(mention.interpretation_note)}"` : ''} href="${h(href)}" title="${h(person?.label || mention.surface)}">${text}</a>`);
-    } else if (mention.kind === 'person_reference' && mention.person_id && ['pronoun','direct_address'].includes(mention.reference_type)) {
+    } else if (mention.kind === 'person_reference' && mention.person_id && ['pronoun','direct_address','self_reference'].includes(mention.reference_type)) {
       const person = people[mention.person_id];
-      fragments.push(`<span id="${h(mention.id)}" class="cbr-person-reference" data-person-id="${h(mention.person_id)}" data-reference-type="${h(mention.reference_type)}" title="${h(person?.label || '非姓名人物指涉')}" aria-label="${h(person?.label || '非姓名人物指涉')}: ${text}</span>`);
+      fragments.push(`<span id="${h(mention.id)}" class="cbr-person-reference" data-person-id="${h(mention.person_id)}" data-reference-type="${h(mention.reference_type)}" data-referent-role="${h(mention.referent_role)}" title="${h(person?.label || '非姓名人物指涉')}" aria-label="${h(person?.label || '非姓名人物指涉')}: ${text}</span>`);
     } else if (mention.kind === 'work' && mention.work_id && mention.person_id == null) {
       fragments.push(workMentionHTML(mention, workTitles));
     } else if (mention.kind === 'non_person' && mention.person_id == null) {

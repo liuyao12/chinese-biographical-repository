@@ -8,7 +8,7 @@
 
 ## 可追溯的非姓名人物指涉
 
-人物提及分成姓名／人物稱名（`kind: person`）與可定位到人物、但不是其姓名或稱名的語詞（`kind: person_reference`）。後者保留原始 mention ID、Unicode code-point span、表層字串及確定的 `person_id`，並以 `reference_type` 分類為 `pronoun`（代詞）或 `direct_address`（對話中的直接稱呼、自稱）。須有 `status: contextual_provisional`、`interpretation_note`、`reviewer`、`human_reviewed: false`；這些語詞不得加進人物 `aliases` 或身份判斷 `surfaces`。
+人物提及分成姓名／人物稱名（`kind: person`）與可定位到人物、但不是其姓名或稱名的語詞（`kind: person_reference`）。後者保留原始 mention ID、Unicode code-point span、表層字串及確定的 `person_id`，並以 `reference_type` 分類為 `pronoun`（代詞）、`direct_address`（稱呼受話者的「君」「卿」等），或 `self_reference`（發言者自指，如「下官」「臣」）。`referent_role` 明列 `speaker`、`addressee` 或 `third_party`；`direct_address` 必須指向 `addressee`，`self_reference` 必須指向 `speaker`，代詞依句法所指填寫。須有 `status: contextual_provisional`、`interpretation_note`、`reviewer`、`human_reviewed: false`；這些語詞不得加進人物 `aliases` 或身份判斷 `surfaces`。
 
 此類錨點保留在人物來源反查、API bundle、來源頻次與逐人來源清單中，讀者正文則以一般文字呈現，不畫姓名底線、不作姓名連結；附帶 `person_id` 只表示本條非姓名指涉明確指向誰。模糊、集合或無法確定指涉者仍用 `unresolved`，不要為了保留單字詞而猜一個人物。親屬詞（如「父」「弟」）不屬此類；依其來源親屬敘述模型另行標記。
 
@@ -22,6 +22,7 @@
   "surface": "之",
   "kind": "person_reference",
   "reference_type": "pronoun",
+  "referent_role": "third_party",
   "person_id": "3xx_gdy_or6_AAA",
   "status": "contextual_provisional",
   "interpretation_note": "「素聞顗名，往候之」中「之」回指周顗；是代詞，不是姓名異稱。",
@@ -30,7 +31,7 @@
 }
 ```
 
-此提及仍隸屬 `work_id: w-jinshu`、`book_id: b-jinshu-069`、`chapter_id: c-jinshu-069-zhouyi`、`source_id: s-jinshu-069-zhouyi` 的〈周顗傳〉段落，正文不改。對話稱「下官」可同樣保留為 `reference_type: direct_address` 並指向發言人；實際轉換仍須逐處核對主語及引語，不可按字面全域處理。此例說明未來遷移《晉書》卷六十九代詞更正時的資料形狀；不改動另開的 PR #686。
+此提及仍隸屬 `work_id: w-jinshu`、`book_id: b-jinshu-069`、`chapter_id: c-jinshu-069-zhouyi`、`source_id: s-jinshu-069-zhouyi` 的〈周顗傳〉段落，正文不改。「下官」指發言者本人，應記為 `reference_type: self_reference`、`referent_role: speaker`；「卿」若是對受話者的稱呼，則為 `direct_address`、`addressee`。實際轉換仍須逐處核對主語、受話者及引語，不可按字面全域處理。此例說明未來遷移《晉書》卷六十九代詞更正時的資料形狀；不改動另開的 PR #686。
 
 ## ID 與原文
 
