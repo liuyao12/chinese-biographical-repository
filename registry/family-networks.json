@@ -1,0 +1,44 @@
+{
+  "format_version": "0.1",
+  "record_type": "agnatic_family_network_set",
+  "networks": [
+    {
+      "id": "fn-langye-wang-dao-dun-rong",
+      "type": "agnatic_cousin_network",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "label": "王導—王敦—王戎父系親族網絡（共同祖先未定）",
+      "grouping_only": true,
+      "common_ancestor_person_id": null,
+      "generation_distance": null,
+      "branches": [
+        {
+          "id": "wang-dao-recorded-lineage",
+          "label": "王導已記父系",
+          "entry_person_id": "7r6_k52_qji_ABAA",
+          "assembly_id": "family-langye-wang-dao",
+          "descendant_rule": "existing_family_assembly"
+        },
+        {
+          "id": "wang-dun-line",
+          "label": "王敦及明載父系後代",
+          "entry_person_id": "39o_b6y_n74",
+          "assembly_id": null,
+          "descendant_rule": "source_attested_paternal_father_assertions"
+        },
+        {
+          "id": "wang-rong-line",
+          "label": "王戎及明載父系後代",
+          "entry_person_id": "48e_04a_3d8",
+          "assembly_id": null,
+          "descendant_rule": "source_attested_paternal_father_assertions"
+        }
+      ],
+      "relation_assertion_ids": [
+        "a-jinshu065-wang-003",
+        "a-jin043-wangrong-011"
+      ],
+      "rationale": "《晉書》卷六十五以「從兄敦」聯繫王敦、王導；卷四十三以「族弟敦」聯繫王敦、王戎。此分組僅呈現來源明載的父系旁親網絡與各自已記支系，不指定三人共祖、精確世距或王導與王戎間的直接親屬邊。人物 ID、父系斷言及既有王導家族組裝均不改動。"
+    }
+  ]
+}

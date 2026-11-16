@@ -1144,7 +1144,6 @@
 | `tkv_k8m_7hc` | 郭太后 | [《三國志・諸夏侯曹傳》][77] | [JSON](tkv_k8m_7hc.json) |
 | `tl1_p6f_czj` | 趙謙 | [《後漢書・孝獻帝紀》][14] | [JSON](tl1_p6f_czj.json) |
 | `tl9_dsb_r6q` | 白起 | [《史記・魏世家》][113] | [JSON](tl9_dsb_r6q.json) |
-| `tl9_wy3_3bk` | 興〔王戎庶子〕 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](tl9_wy3_3bk.json) |
 | `tlk_hmr_kra` | 朱房 | [《史記・陳涉世家》][117] | [JSON](tlk_hmr_kra.json) |
 | `tlo_jrj_80q` | 壺叔（從亡賤臣） | [《史記・晉世家》][108] | [JSON](tlo_jrj_80q.json) |
 | `tlo_znj_7bn` | 裴肅之 | [《宋書・劉懷肅 孟懷玉 劉敬宣 檀祗》][209] | [JSON](tlo_znj_7bn.json) |

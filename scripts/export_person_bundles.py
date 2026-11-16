@@ -8,9 +8,11 @@ from pathlib import Path
 try:
     from .person_bundle import ROOT, bundle, load_catalog
     from .family_assemblies import load_assemblies
+    from .family_networks import load_networks
 except ImportError:
     from person_bundle import ROOT, bundle, load_catalog
     from family_assemblies import load_assemblies
+    from family_networks import load_networks
 
 
 try:
@@ -146,6 +148,47 @@ def export(root=ROOT):
     except ImportError:
         from personless_namespace import prune_person_files
     prune_person_files(destination, expected_ids)
+    family_networks = load_networks(root, catalog, source_map, assemblies)
+    network_row_ids = set()
+    network_blocks = []
+    rows_by_source = {row.get('source_person_id', row['person_id']): row for row in rows}
+    for network in family_networks:
+        branch_blocks = []
+        network_rows = {}
+        for branch in network['branches']:
+            branch_rows = {}
+            for source_person_id in branch['person_ids']:
+                identity = source_map.get(source_person_id)
+                representative = identity.get('representative_source_person_id') if identity else source_person_id
+                row = rows_by_source.get(representative)
+                if row:
+                    branch_rows[row['person_id']] = row
+                    network_rows[row['person_id']] = row
+            network_row_ids.update(network_rows)
+            member_rows = [f"| `{v['person_id']}` | {person_label(v)} | {source_column(v)} | [JSON]({quote(v['path'], safe='_.-')}) |"
+                           for v in sorted(branch_rows.values(), key=lambda value: value['person_id'])]
+            if member_rows:
+                branch_blocks.append(f"### {html.escape(branch['label'])}（{len(member_rows)} 名）\n\n" + '\n\n'.join(table_blocks(member_rows)))
+            branch['index_person_ids'] = sorted(branch_rows)
+        relation_lines = []
+        for relation in network['relations']:
+            evidence = relation['evidence'][0] if relation.get('evidence') else {}
+            chapter = next((record for record in catalog[1]
+                            if record.get('record_type') == 'marked_chapter'
+                            and record.get('id') == evidence.get('chapter_id')), None)
+            url = (chapter or {}).get('source', {}).get('permalink') or (chapter or {}).get('source', {}).get('url')
+            citation = f"（{evidence.get('chapter_id')}；{source_labels.get(evidence.get('source_id'), '來源未列') }）" if evidence else ''
+            relation_lines.append(f"- `{relation['assertion_id']}`：原詞「{relation['source_term']}」；端點 `{relation['subject_person_id']}` — `{relation['predicate']}` — `{relation['object_person_id']}` {citation}".rstrip())
+            if evidence.get('quote'):
+                relation_lines.append('\n  > ' + evidence['quote'].replace('\n', ' ').replace('\r', ' '))
+            if url and not source_labels.get(evidence.get('source_id')):
+                relation_lines[-1] += f"（[原文]({url})）"
+        summary = ('本頁將既有支系放在同一個父系親族網絡索引下，方便跨篇瀏覽；網絡 ID 不是人物 ID 或祖先節點。來源沒有指出三人的共同祖先或精確世距，故不建立父子邊或 `*` 世代。')
+        network_block = (f"<details><summary><code>{html.escape(network['id'])}</code> {html.escape(network['label'])}（{len(network_rows)} 名；網絡分組，非共同祖先）</summary>\n\n"
+                         + summary + '\n\n' + '### 來源所載親屬關係\n\n' + '\n'.join(relation_lines)
+                         + '\n\n' + '\n\n'.join(branch_blocks) + '\n\n</details>')
+        network_blocks.append(network_block)
+        network['index_person_ids'] = sorted(network_rows)
     lines = ['# 人物 JSON 索引', '', '可重建匯出，涵蓋目前已標註資料，包含明示選用的暫定跨篇同指；原 ID、證據與判讀均保留。並非全部史料或完整覆核。', '',
              '程式可讀取 [index.json](index.json)，再依各筆 `path` 取得人物資料。重新產生：`python3 scripts/export_person_bundles.py`。', '',
              '出生排行與籍貫結構化欄位仍在逐篇回填；缺欄位不代表來源沒有此資訊。提及頻次依固定見證的獨立位置計算；原始錨點完整保留，同位置節引重出另列raw／duplicate與對應群組，不代表來源權威度。', '',
@@ -154,6 +197,8 @@ def export(root=ROOT):
     family_blocks = []
     families = {}
     for row in rows:
+        if row['person_id'] in network_row_ids:
+            continue
         families.setdefault(row['person_id'][:11], []).append(row)
     singles = []
     for family, members in sorted(families.items()):
@@ -172,10 +217,12 @@ def export(root=ROOT):
             table = table.replace('| 人物 ID |', '| ID 尾碼 |', 1)
             suffix = f'，第{part}段' if part > 1 else ''
             family_blocks.append(f'<details><summary><code>{family}</code> {html.escape(root_row["label"])}（{len(members)} 名{suffix}）</summary>\n\n{table}\n\n</details>')
+    family_blocks.extend(network_blocks)
     family_pages = write_reading_pages(destination, 'README.md', 'families', lines[0], '\n'.join(lines[2:]), family_blocks, source_references)
     single_rows = [f"| `{v['person_id']}` | {person_label(v)} | {source_column(v)} | [JSON]({quote(v['path'], safe='_.-')}) |" for v in singles]
     single_pages = write_reading_pages(destination, 'unconnected.md', 'unconnected', '# 尚未連入同族的人物', '返回 [可展開家族索引](README.md)。以下人物尚未依已記錄的父系資料連入其他節點；同姓不表示同族。索引分頁不改人物 ID 或 JSON 入口。', table_blocks(single_rows), source_references)
     (destination / 'index.json').write_text(json.dumps({'format_version': '0.1', 'persons': rows, 'id_aliases': aliases,
+        'family_networks': family_networks,
         'reading_indexes': {'family_pages': family_pages, 'unconnected_pages': single_pages}}, ensure_ascii=False, indent=2) + '\n')
     candidate_path = root / 'data/historical-tables/person-candidates.json'
     if candidate_path.exists():

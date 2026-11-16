@@ -1033,6 +1033,10 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 
 `load_assemblies`舊二元回傳形狀維持，namespace row額外帶namespace_id、namespace_entry_person_id及qualified collateral_root_group。匯出索引選實際entry作標題，不要求namespace有真人物。profile保assembled_identity；`traceFamily`只對新模式附family_namespace兩個真人物入口及推論來源，父祖三代仍按既有明文關係，不因同族分組一概降成推論。未知共父槽不得被load為person。宗祧為嗣另存原關係，不改生父或增養父。
 
+### 無人物父系親族網絡索引
+
+`registry/family-networks.json` 的 `record_type: agnatic_family_network_set` 是與人物 ID／父系 path 分離的跨支系瀏覽 overlay。每個 `fn-…` 網絡 key 不得成為人物、profile 或共同祖先；`grouping_only:true`、`common_ancestor_person_id:null`、`generation_distance:null` 明確表示它只把來源已有親屬關係連起來作為一個可展開索引。`branches` 只引用既有 assembly，或從具名 entry 沿既存 `source_attested` 父系 father assertions 展開後代；不得寫入 synthetic parent、缺代 `*`、新人物或家族 path。`relation_assertion_ids` 只引用兩端均在網絡枝內的來源已載 `agnatic_cousin` assertions。匯出 JSON 的 `family_networks` 提供枝內既有人物 ID、親屬 assertion 與原證；Markdown 家族索引把網絡顯示為一個分組並將各原支系分列。它不會把某一支系的具名始祖顯示成其他分支的祖先。
+
 ## 傳記序年鏈：固定接收文本與非卒者角色
 
 `biographical_subject_ordinal_chain_death` 可附 `received_text_projection`（相對 `source-evidence/` 路徑、SHA-256、`source_layer` 與 `text_layer` 均為 `received_text`）及 `non_subject_references`。此分支必須由驗證入口傳入實際 repository root；讀取 `sources/` 下非 symlink 的固定 UTF-8 原檔、比對雜湊及實際 `raw[start:end]`，再逐字驗證 projection 的 absolute code-point positions。不能僅以保存片段與相對座標互相自證。章、段、source 及 source_position 若另附衝突層標籤須拒絕。無此新分支的既有 Kanripo 證據鏈保留原介面。
