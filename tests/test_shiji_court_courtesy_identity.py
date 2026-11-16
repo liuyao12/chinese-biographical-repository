@@ -11,7 +11,15 @@ class CourtCourtesyIdentity(unittest.TestCase):
   for d in r['identity_decisions']:
    for mid in d['target_mention_ids']:self.assertEqual(mids[mid]['person_id'],d['person_id'])
   for unit in r['complete_units']:
-   p=next(p for p in chapters[unit['chapter_id']]['paragraphs'] if p['id']==unit['paragraph']['id']);self.assertEqual(p,unit['paragraph'])
+   p=next(p for p in chapters[unit['chapter_id']]['paragraphs'] if p['id']==unit['paragraph']['id']);self.assertEqual(p['text'],unit['paragraph']['text'])
+   actual={m['id']:m for m in p['mentions']}
+   for captured in unit['paragraph']['mentions']:
+    self.assertEqual(unit['paragraph']['text'][captured['start']:captured['end']],captured['surface'])
+    if actual.get(captured['id'])!=captured:
+     decisions=read('corpus/shiji/130-identities.json')['decisions']
+     decision=next((d for d in decisions if captured['id'] in d.get('identification_basis',{}).get('target_mention_ids',[])),None)
+     self.assertIsNotNone(decision,captured['id'])
+     self.assertEqual(actual[captured['id']]['person_id'],decision['person_id'])
  def test_eleven_retired_candidates_have_no_active_registry_alias(self):
   people=read('registry/persons.json')['persons'];active={p['id'] for p in people};retired=[]
   for i in range(1,12):

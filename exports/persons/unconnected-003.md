@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `mtx_qs1_a5q` | 孝惠帝 | [《史記・齊悼惠王世家》][121] | [JSON](mtx_qs1_a5q.json) |
-| `mua_01m_5ng` | 齊宗女（重耳妻） | [《史記・晉世家》][108] | [JSON](mua_01m_5ng.json) |
 | `muc_6xp_2ap` | 楚王（韓世家雍氏議論未名者） | [《史記・韓世家》][114] | [JSON](muc_6xp_2ap.json) |
 | `mum_kf4_e1p` | 郇越 | [《三國志・劉司馬梁張溫賈傳》][81] | [JSON](mum_kf4_e1p.json) |
 | `muq_vzr_tlr` | 蘇代 | [《史記・穰侯列傳》][141] | [JSON](muq_vzr_tlr.json) |
@@ -735,7 +733,6 @@
 | `rgy_07p_qo9` | 趙襄子 | [《史記・張儀列傳》][139] | [JSON](rgy_07p_qo9.json) |
 | `rh4_4e1_hq7` | 元禧〔魏書058津鈞單元〕 | [《魏書・楊播》][232] | [JSON](rh4_4e1_hq7.json) |
 | `rhi_qbz_3kh` | 廉絜 | [《史記・仲尼弟子列傳》][136] | [JSON](rhi_qbz_3kh.json) |
-| `rht_70o_mfq` | 混邪王 | [《史記・滑稽列傳》][195] | [JSON](rht_70o_mfq.json) |
 | `rhy_9fl_35p` | 龍賈 | [《史記・魏世家》][113] | [JSON](rhy_9fl_35p.json) |
 | `ri1_1ov_ijz` | 晉頃公 | [《史記・韓世家》][114] | [JSON](ri1_1ov_ijz.json) |
 | `ri2_8my_zxt` | 尾生所期女子 | [《史記・蘇秦列傳》][138] | [JSON](ri2_8my_zxt.json) |
@@ -1382,7 +1379,6 @@
 | `vlm_env_ap8` | 烏氏倮 | [《史記・貨殖列傳》][198] | [JSON](vlm_env_ap8.json) |
 | `vlp_pem_oj3` | 閼氏（匈奴列傳第6段） | [《史記・匈奴列傳》][179] | [JSON](vlp_pem_oj3.json) |
 | `vlp_yy3_ufh` | 平（泗水監） | [《史記・樊酈滕灌列傳》][164] | [JSON](vlp_yy3_ufh.json) |
-| `vlq_85b_6qa` | 文王 | [《史記・滑稽列傳》][195] | [JSON](vlq_85b_6qa.json) |
 | `vma_jxj_3e9` | 馮喜 | [《史記・張儀列傳》][139] | [JSON](vma_jxj_3e9.json) |
 | `vmb_fhs_dw4` | 張良七世孫〔未名長沙太守〕 | [《宋書・張茂度 庾登之 謝方明 江夷》][212] | [JSON](vmb_fhs_dw4.json) |
 | `vnj_9ny_oq5` | 冥（商先祖） | [《史記・殷本紀》][90]、[《史記・三代世表》][239] | [JSON](vnj_9ny_oq5.json) |

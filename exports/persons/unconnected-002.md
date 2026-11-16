@@ -1367,7 +1367,6 @@
 | `hzc_zln_xl1` | 涇陽君（田世家未名者） | [《史記・田敬仲完世家》][115] | [JSON](hzc_zln_xl1.json) |
 | `hzr_8yn_jmw` | 授梁內史使者（未名） | [《史記・韓長孺列傳》][177] | [JSON](hzr_8yn_jmw.json) |
 | `hzt_j3d_1r3` | 嫪毐 | [《史記・呂不韋列傳》][154] | [JSON](hzt_j3d_1r3.json) |
-| `hzu_071_bnq` | 楚莊王 | [《史記・滑稽列傳》][195] | [JSON](hzu_071_bnq.json) |
 | `hzx_kl2_8vp` | 少師彊 | [《史記・周本紀》][91] | [JSON](hzx_kl2_8vp.json) |
 | `i08_s4b_5bb` | 王晏〔齊尚書令〕 | [《南齊書・江斆 何昌㝢 謝𤅢 王思遠》][69] | [JSON](i08_s4b_5bb.json) |
 | `i0f_weg_moh` | 夏無且 | [《史記・刺客列傳》][155] | [JSON](i0f_weg_moh.json) |
@@ -1971,7 +1970,6 @@
 | `lxk_xeh_f6r` | 張唐 | [《史記・樗里子甘茂列傳》][140] | [JSON](lxk_xeh_f6r.json) |
 | `lxm_ezo_k4h` | 季平子（魯卿） | [《史記・魯周公世家》][102] | [JSON](lxm_ezo_k4h.json) |
 | `ly4_75a_28o` | 伐同 | [《三國志・滿田牽郭傳》][85] | [JSON](ly4_75a_28o.json) |
-| `ly9_9ul_u6x` | 齊威王 | [《史記・滑稽列傳》][195] | [JSON](ly9_9ul_u6x.json) |
 | `lyc_370_iba` | 賈子 | [《史記・伯夷列傳》][130] | [JSON](lyc_370_iba.json) |
 | `lyd_90b_jn8` | 鄭子産（楚篇申會者） | [《史記・楚世家》][109] | [JSON](lyd_90b_jn8.json) |
 | `lyd_jqi_yke` | 百里奚 | [《史記・老子韓非列傳》][132] | [JSON](lyd_jqi_yke.json) |
@@ -2094,6 +2092,8 @@
 | `msv_9r0_wtk` | 趙襄子 | [《史記・韓世家》][114] | [JSON](msv_9r0_wtk.json) |
 | `mt4_h3l_bbn` | 齊王蘇代過魏 | [《史記・蘇秦列傳》][138] | [JSON](mt4_h3l_bbn.json) |
 | `mta_jet_l8e` | 楊安〔本紀來源局部〕 | [《晉書・太宗簡文帝 孝武帝》][21] | [JSON](mta_jet_l8e.json) |
+| `mtx_qs1_a5q` | 孝惠帝 | [《史記・齊悼惠王世家》][121] | [JSON](mtx_qs1_a5q.json) |
+| `mua_01m_5ng` | 齊宗女（重耳妻） | [《史記・晉世家》][108] | [JSON](mua_01m_5ng.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

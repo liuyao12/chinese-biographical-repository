@@ -2506,7 +2506,7 @@
 | `AAAAAAABAAA` | 田莊子白 | [《史記・田敬仲完世家》][115] | [JSON](lmu_nbm_rzo_AAAAAAABAAA.json) |
 | `AAAAAAABAAAA` | 太公和 | [《史記・田敬仲完世家》][115] | [JSON](lmu_nbm_rzo_AAAAAAABAAAA.json) |
 | `AAAAAAABAAAAA` | 桓公午 | [《史記・扁鵲倉公列傳》][174] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAA.json) |
-| `AAAAAAABAAAAAA` | 因齊 | [《史記・田敬仲完世家》][115] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAA.json) |
+| `AAAAAAABAAAAAA` | 齊威王因齊 | [《史記・田敬仲完世家》][115] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAA.json) |
 | `AAAAAAABAAAAAAA` | 辟彊 | [《史記・田敬仲完世家》][115]、[《史記・孟嘗君列傳》][144] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAAA.json) |
 | `AAAAAAABAAAAAAAA` | 齊湣王 | [《史記・孟嘗君列傳》][144] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAAAA.json) |
 | `AB` | 鮑（陳桓公） | [《史記・陳杞世家》][105] | [JSON](lmu_nbm_rzo_AB.json) |

@@ -69,6 +69,26 @@ def fixture_chapters():
 
 
 class TemporalConstraintTests(unittest.TestCase):
+    def test_source_attested_equality_keeps_the_exact_passage_and_anchor(self):
+        text = '公主永徽三年卒。'
+        record = fixture_record()
+        item = make_constraint('tc-exact-death-year', 'eq', 3,
+                               text=text, source_term='永徽三年',
+                               derivation_kind='explicit_date')
+        item['status'] = 'source_attested'
+        record['constraints'] = [item]
+        chapters = fixture_chapters()
+        chapters[CHAPTER_ID]['paragraphs'][0]['text'] = text
+        errors = temporal_constraint_errors(record, chapters, {PERSON}, {
+            ('life_event', DEATH_ID): PERSON
+        })
+        self.assertEqual(errors, [])
+        exported = collect_temporal_constraints([record], {PERSON})
+        self.assertEqual(exported[0]['operator'], 'eq')
+        evidence = exported[0]['evidence'][0]
+        self.assertEqual(evidence['quote'], text)
+        self.assertEqual(text[evidence['anchor']['start']:evidence['anchor']['end']], '永徽三年')
+
     def test_keeps_independent_source_bounds_for_consumer_intersection(self):
         era_record = fixture_record()
         era_record['constraints'] = [make_constraint('tc-lower', 'gte', 1),
