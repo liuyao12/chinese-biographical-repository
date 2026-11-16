@@ -2,25 +2,25 @@
   "source_path": "transcription.json",
   "source_sha256": "aa102603d82ee49bf3e8375681cd540f8a99b2cee58640b135d157f22b6f0029",
   "span_basis": "誌陽 text 的 Unicode 字元，以0起算半開區間；face=side 時改用誌側 side。",
-  "status": "可覆核草稿，誌陽201/203字差未決；人物提案與候選不代表registry已收或親屬斷言已成立。",
+  "status": "可覆核草稿，誌陽201/203字差未決；未決人物仍為候選。",
   "person_proposals": [
     {
       "label": "謝球",
       "proposed_person_id": "z0u_xut_osd",
       "role": "墓主",
-      "scope": "來源待審身份提案；未加入 registry"
+      "scope": "本PR已登記人物；本誌未明的親屬與跨篇身份仍待核。"
     },
     {
       "label": "謝攸",
       "proposed_person_id": "g74_285_6k5",
       "role": "誌文具名",
-      "scope": "來源待審身份提案；未加入 registry"
+      "scope": "本PR已登記人物；本誌未明的親屬與跨篇身份仍待核。"
     },
     {
       "label": "王德光",
       "proposed_person_id": "y5z_luq_wyd",
       "role": "誌文具名",
-      "scope": "來源待審身份提案；未加入 registry"
+      "scope": "本PR已登記人物；本誌未明的親屬與跨篇身份仍待核。"
     }
   ],
   "mentions": [
@@ -65,16 +65,24 @@
       "surface": "攸",
       "label": "謝攸",
       "status": "discussed",
-      "basis": "原詞父攸；誌文列舉謝球家世，父子正式端點待覆核",
+      "basis": "直接父稱「父攸」列於墓主家世中；謝姓依墓主父系上下文補顯示，錨點只見攸。",
       "proposed_person_id": "g74_285_6k5"
     },
     {
       "start": 89,
-      "end": 93,
-      "surface": "庾諱女淑",
-      "label": "潁川庾氏（女淑）",
+      "end": 90,
+      "surface": "庾",
+      "label": "庾",
       "status": "unresolved",
-      "basis": "夫人條，前接父攸，配偶端點待覆核；保留諱字"
+      "basis": "姓氏片段；夫人條所繫端點待核。"
+    },
+    {
+      "start": 91,
+      "end": 93,
+      "surface": "女淑",
+      "label": "女淑",
+      "status": "unresolved",
+      "basis": "諱字引出之姓名片段；保留原字，所指待核。"
     },
     {
       "start": 99,

@@ -18,8 +18,8 @@
     "text_scope": "partial_chapter",
     "review_status": "text_checked",
     "image_verified": false,
-    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "rights": "僅古代誌文為公版，現代影像和排印文章只外鏈。",
+    "license_url": "https://homepage.ntu.edu.tw/~history/pub_newsletter.html",
+    "rights": "臺大歷史系公開供閱。未查得本期現代校錄、排印或影像的公開再利用授權；授權未知，限考證引文與連結，現代出版材料不納入本庫授權。license_url 僅指向出版者查詢入口。",
     "normalization": {
       "character_conversion": "僅將 PDF CJK 相容碼位轉為統一碼位，原碼位留在 raw_columns、raw_side。"
     },
@@ -41,7 +41,8 @@
         "collection": "南京市博物館",
         "attribution": "邱建智，刊頁58"
       }
-    }
+    },
+    "license_scope": "unknown_restricted_to_source_citation"
   },
   "annotation": {
     "status": "named_mentions_first_pass",
@@ -49,7 +50,7 @@
     "model": null,
     "human_reviewed": false,
     "method": "取排印格逐字定位；候選另存來源證據。",
-    "scope_note": "誌陽201/203差未決；父攸指向待覆核，祖弈保候選。"
+    "scope_note": "誌陽201/203差未決；父攸與妻王德光依本誌，祖弈仍為同人候選。"
   },
   "paragraphs": [
     {
@@ -104,17 +105,27 @@
           "kind": "person",
           "person_id": "g74_285_6k5",
           "status": "source_explicit",
-          "interpretation_note": "原詞父攸；誌文列舉謝球家世，父子正式端點待覆核"
+          "interpretation_note": "直接父稱「父攸」列於墓主家世中；謝姓依墓主父系上下文補顯示，錨點只見攸。"
         },
         {
           "id": "c-epitaph-xieqiu-ntu2010:front:m0089",
           "start": 89,
-          "end": 93,
-          "surface": "庾諱女淑",
+          "end": 90,
+          "surface": "庾",
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "夫人條，前接父攸，配偶端點待覆核；保留諱字"
+          "interpretation_note": "姓氏片段；夫人條所繫端點待核。"
+        },
+        {
+          "id": "c-epitaph-xieqiu-ntu2010:front:m0091",
+          "start": 91,
+          "end": 93,
+          "surface": "女淑",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "諱字引出之姓名片段；保留原字，所指待核。"
         },
         {
           "id": "c-epitaph-xieqiu-ntu2010:front:m0099",
