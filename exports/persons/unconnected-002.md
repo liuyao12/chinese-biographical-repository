@@ -1045,7 +1045,6 @@
 | `fw7_8k1_43d` | 周最 | [《史記・孟嘗君列傳》][145] | [JSON](fw7_8k1_43d.json) |
 | `fw9_g5w_om8` | 堯 | [《史記・趙世家》][113] | [JSON](fw9_g5w_om8.json) |
 | `fwc_fzf_pjh` | 范縝 | [《梁書・裴子野 顧協 徐摛 鮑泉》][65] | [JSON](fwc_fzf_pjh.json) |
-| `fwf_1wp_wzg` | 呂太后 | [《史記・齊悼惠王世家》][122] | [JSON](fwf_1wp_wzg.json) |
 | `fx3_a98_dj5` | 臧夀（卷71原字） | [《宋書・徐湛之 江湛 王僧綽》][223] | [JSON](fx3_a98_dj5.json) |
 | `fx4_ybu_7b9` | 長盧 | [《史記・孟子荀卿列傳》][144] | [JSON](fx4_ybu_7b9.json) |
 | `fxa_91g_1cz` | 召滑 | [《史記・樗里子甘茂列傳》][141] | [JSON](fxa_91g_1cz.json) |
@@ -2094,6 +2093,7 @@
 | `msq_x2n_nnn` | 盧悚 | [《晉書・桓彝》][44] | [JSON](msq_x2n_nnn.json) |
 | `msv_9r0_wtk` | 趙襄子 | [《史記・韓世家》][115] | [JSON](msv_9r0_wtk.json) |
 | `mt4_h3l_bbn` | 齊王蘇代過魏 | [《史記・蘇秦列傳》][139] | [JSON](mt4_h3l_bbn.json) |
+| `mta_jet_l8e` | 楊安〔本紀來源局部〕 | [《晉書・太宗簡文帝 孝武帝》][21] | [JSON](mta_jet_l8e.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

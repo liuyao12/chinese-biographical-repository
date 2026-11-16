@@ -371,6 +371,61 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji052-lvhou-cross-chapter",
+      "person_ids": [
+        "i30_mjq_6q8_A"
+      ],
+      "canonical_person_id": "i30_mjq_6q8_A",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-052-qidaohui",
+        "c-shiji-009-lvhou"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-052",
+          "source_id": "s-shiji-052-qidaohui",
+          "chapter_id": "c-shiji-052-qidaohui",
+          "paragraph_id": "c-shiji-052-qidaohui:p004",
+          "quote": "哀王元年，孝惠帝崩，呂太后稱制，天下事皆決於高后。二年，高后立其兄子酈侯呂臺為呂王，割齊之濟南郡為呂王奉邑。",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m004-0010",
+            "c-shiji-052-qidaohui:m004-0022"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-052",
+          "source_id": "s-shiji-052-qidaohui",
+          "chapter_id": "c-shiji-052-qidaohui",
+          "paragraph_id": "c-shiji-052-qidaohui:p006",
+          "quote": "哀王八年，高后割齊瑯邪郡立營陵侯劉澤為瑯邪王。",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m006-0005"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-009",
+          "source_id": "s-shiji-009-lvhou",
+          "chapter_id": "c-shiji-009-lvhou",
+          "paragraph_id": "c-shiji-009-lvhou:p001",
+          "quote": "呂太后者，高祖微時妃也，生孝惠帝、女魯元太后。及高祖為漢王，得定陶戚姬，愛幸，生趙隱王如意。孝惠為人仁弱，高祖以為不類我，常欲廢太子，立戚姬子如意，如意類我。戚姬幸，常從上之關東，日夜啼泣，欲立其子代太子。呂后年長，常留守，希見上，益疏。如意立為趙王後，幾代太子者數矣，賴大臣爭之，及留侯策，太子得毋廢。",
+          "mention_ids": [
+            "c-shiji-009-lvhou:m001-0000",
+            "c-shiji-009-lvhou:m001-0103"
+          ]
+        }
+      ],
+      "rationale": "卷五二明稱「呂太后稱制，天下事皆決於高后」，並載高后分割瑯邪、立營陵侯劉澤為瑯邪王；卷九〈呂太后本紀〉以「呂太后者」起傳並述其高祖妃、孝惠帝母身份。兩篇對應同一漢高后呂氏人物。卷五二的來源局部ID與既有人物ID合為同一人物，原提及錨點、來源引文及年序保留；不由此額外判定遠祖以外的家系或改寫正文。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }
