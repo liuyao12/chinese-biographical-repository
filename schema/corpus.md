@@ -632,7 +632,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ## 父系晚一代旁親
 
-`agnatic_senior_kin` 以晚輩為 `subject_person_id`、長一代旁親為 `object_person_id`，例如劉傭指向劉隗。`kinship_structure.generation_difference: -1` 表示主體比對象晚一代，`lineage: paternal`、`collateral: true`；`distance` 與 `common_ancestor_person_id` 留 `null`，`subject_relative_age: unknown`。晚輩不必年齡較小；`從子` 不等於兒子，也不單獨證明其父或共同祖先。用雙人物錨點及本段「隗舉其從子傭」核定說話／敘事主體，這項關係不直接組裝父子。
+`agnatic_senior_kin` 以晚輩為 `subject_person_id`、長一代旁親為 `object_person_id`，例如劉傭指向劉隗。`kinship_structure.generation_difference: -1` 表示主體比對象晚一代，`lineage: paternal`、`collateral: true`；`distance` 與 `common_ancestor_person_id` 留 `null`，`subject_relative_age: unknown`。晚輩不必年齡較小；`從子` 不等於兒子，也不單獨證明其父或共同祖先。用雙人物錨點及本段「隗舉其從子傭」核定說話／敘事主體，這項關係不直接組裝父子。若傳首格式為「王羲之，字逸少，司徒導之從子也」，用 `source_clause_binding.pattern: biographical_subject_courtesy_office_senior_congzi`、字號人物錨點及原詞 `source_term: 司徒導之從子`；驗證器只接受該固定「，字」「，司徒」及「之從子也」相鄰格式，不泛化至未核的其他官銜或句式。
 
 母舅的人名之前可以夾地望，例如 `舅濮陽吳氏`。`intervening_place_name: 濮陽` 必須逐字綁定舅字與同一人名之間的片段，不能跨過另一人物提及；原母名仍空，不自行接舅之女為表親。
 
