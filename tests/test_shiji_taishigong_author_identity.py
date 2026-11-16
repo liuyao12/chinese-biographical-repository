@@ -37,6 +37,10 @@ class TaishigongAuthorIdentityTests(unittest.TestCase):
         for suffix in ('p003','p004','p006'):
             p=next(p for p in ch['paragraphs'] if p['id'].endswith(':'+suffix))
             self.assertTrue(any(m['surface']=='太史公' and m['person_id']==TAN for m in p['mentions']))
+        ritual=read('corpus/shiji/012.json')
+        for suffix in ('p016','p023'):
+            p=next(p for p in ritual['paragraphs'] if p['id'].endswith(':'+suffix))
+            self.assertTrue(any(m['surface']=='太史公' and m['person_id']==TAN for m in p['mentions']))
         p=next(p for p in ch['paragraphs'] if p['id'].endswith(':p143'))
         self.assertEqual(next(m['person_id'] for m in p['mentions'] if m['surface']=='太史公'),KEEP)
 
