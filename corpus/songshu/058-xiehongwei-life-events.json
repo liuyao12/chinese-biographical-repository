@@ -1,0 +1,88 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-songshu-058-xiehongwei",
+  "events": [
+    {
+      "id": "le-song058-xiehongwei-p007-xieyao",
+      "person_id": "aa6_83c_juy_DBAA",
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": "元嘉四年",
+      "status": "source_attested",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-058-xiehongwei:p007",
+        "start": 20,
+        "end": 21,
+        "surface": "卒"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-058",
+          "source_id": "s-songshu-058-xiehongwei",
+          "chapter_id": "c-songshu-058-xiehongwei",
+          "paragraph_id": "c-songshu-058-xiehongwei:p007",
+          "quote": "兄曜歴御史中丞彭城王義康驃騎長史元嘉四年卒𢎞微蔬食積時哀戚過禮服雖除猶不噉魚肉沙門釋慧琳詣𢎞微𢎞微與之共食猶獨素食慧琳曰檀越素既多疾頃者肌色微損即吉之後猶未服膳若以無益傷生豈所望於得理𢎞微荅曰衣冠之變禮不可踰在心之哀實未能已遂廢食感咽歔欷不自勝𢎞微少孤事兄如父兄弟友穆之至舉世莫及也𢎞微口不言人短長而曜好臧否人物曜每言論𢎞微常以它語亂之",
+          "person_mention_id": "c-songshu-058-xiehongwei:p007:m0001"
+        }
+      ],
+      "interpretation_note": "段首「兄曜」承任官及「元嘉四年卒」，下一句才換𢎞微為主語。《南史》卷二十同記曜任驃騎長史後「卒官」，無卒年；不將平行文本補入宋書原句。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 427,
+        "year": 427,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "元嘉四年",
+        "status": "editorial_provisional",
+        "original_quote": "兄曜歴御史中丞彭城王義康驃騎長史元嘉四年卒𢎞微蔬食積時哀戚過禮服雖除猶不噉魚肉沙門釋慧琳詣𢎞微𢎞微與之共食猶獨素食慧琳曰檀越素既多疾頃者肌色微損即吉之後猶未服膳若以無益傷生豈所望於得理𢎞微荅曰衣冠之變禮不可踰在心之哀實未能已遂廢食感咽歔欷不自勝𢎞微少孤事兄如父兄弟友穆之至舉世莫及也𢎞微口不言人短長而曜好臧否人物曜每言論𢎞微常以它語亂之",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-058",
+            "source_id": "s-songshu-058-xiehongwei",
+            "chapter_id": "c-songshu-058-xiehongwei",
+            "paragraph_id": "c-songshu-058-xiehongwei:p007",
+            "quote": "兄曜歴御史中丞彭城王義康驃騎長史元嘉四年卒𢎞微蔬食積時哀戚過禮服雖除猶不噉魚肉沙門釋慧琳詣𢎞微𢎞微與之共食猶獨素食慧琳曰檀越素既多疾頃者肌色微損即吉之後猶未服膳若以無益傷生豈所望於得理𢎞微荅曰衣冠之變禮不可踰在心之哀實未能已遂廢食感咽歔欷不自勝𢎞微少孤事兄如父兄弟友穆之至舉世莫及也𢎞微口不言人短長而曜好臧否人物曜每言論𢎞微常以它語亂之",
+            "person_mention_id": "c-songshu-058-xiehongwei:p007:m0001"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "scope": "modern_era_year_equivalence_only",
+            "quote": "元嘉",
+            "columns": {
+              "dynasty": "宋",
+              "era_name": "元嘉",
+              "first_year": "424",
+              "last_year": "453"
+            },
+            "source_file": "sources/calendar-context/moe-era-table-page2.html",
+            "sha256": "193f33b9351675fe6b1e72cab84f5b88977a91c37717cf67e611262cad09ac65",
+            "image_verified": false
+          }
+        ],
+        "rationale": "本傳明記元嘉四年；元嘉元年對照西元424，中國曆年第四年為427。不推月日、卒齡、死亡地或任職終年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "元嘉",
+          "source_number": "四",
+          "regnal_year": 4,
+          "start_ce_year": 424,
+          "end_ce_year": 453,
+          "reference_index": 0
+        }
+      }
+    }
+  ]
+}
