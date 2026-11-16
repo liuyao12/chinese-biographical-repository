@@ -1,0 +1,45 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-080-wangxizhi",
+  "assertions": [
+    {
+      "id": "a-jin080-wangxizhi-001",
+      "subject_person_id": "326_faf_cd3",
+      "predicate": "agnatic_senior_kin",
+      "object_person_id": "7r6_k52_qji_ABAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "司徒導之從子",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": -1,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "unknown"
+        },
+        "source_clause_binding": {
+          "pattern": "biographical_subject_courtesy_office_senior_congzi",
+          "courtesy_name_mention_id": "c-jinshu-080-wangxizhi:p001:m0005"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "chapter_id": "c-jinshu-080-wangxizhi",
+          "source_id": "s-jinshu-080-wangxizhi",
+          "paragraph_id": "c-jinshu-080-wangxizhi:p001",
+          "quote": "王羲之，字逸少，司徒導之從子也。",
+          "subject_person_mention_id": "c-jinshu-080-wangxizhi:p001:m0000",
+          "object_person_mention_id": "c-jinshu-080-wangxizhi:p001:m0010"
+        }
+      ],
+      "interpretation_note": "依《晉書》卷八十本段原稱「從子」記父系晚一代旁親；不補羲之之父以外的世系、共同祖先、確切親等距離或年齡先後。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
