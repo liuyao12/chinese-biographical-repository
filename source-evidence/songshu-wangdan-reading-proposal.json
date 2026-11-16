@@ -37,9 +37,9 @@
     ],
     "text_access_status": "本次自動化存取只返回站方安全／反自動化限制頁；站方明示不得由自動程序擷取且可能回傳錯誤資料。未嘗試繞過，未讀取或轉錄正文。",
     "image_verified": false,
-    "scan_image_url": null,
-    "scan_page_mapping_status": "未定位含卷五十二王誕傳的武英殿書影；不得宣稱已核影或以其他冊掃描代替。",
-    "catalogue_status": "CText 資料頁及館藏目錄標示武英殿本；NII 書目記錄《宋書》一百卷為武英殿刊、乾隆四年（1739）。尚未找到國圖 01471 詳目及本傳對應書影；數位正文未核讀。",
+    "scan_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/NCL-01471_29_%E5%AE%8B%E6%9B%B8.pdf",
+    "scan_page_mapping_status": "已找到國家圖書館館藏書號01471的第29冊掃描鏡像；PDF標題／文本層標示《宋書》卷五十二〈列傳第十二〉並含王誕傳。尚未目視逐葉核對，故 image_verified 仍為 false。",
+    "catalogue_status": "國家圖書館善本導覽將宋書01468至01471列為宋刻本，並考述為南宋初期刊、宋元明遞修；Wikimedia Commons 所存 NCL-01471 第29冊 PDF 的文本層標示《宋書》卷五十二列傳第十二。此掃描可供核讀，但未目視逐葉驗證，不能宣稱已核影或已據此轉錄。",
     "edition_date_year": 1739,
     "edition_date_source_url": "https://ci.nii.ac.jp/ncid/BB20104950",
     "selection_status": "provisional_unverified",
@@ -80,6 +80,25 @@
       "edition_label": "線上轉錄，所據版刻未明",
       "role": "parallel_text_only",
       "used_as_base_text": false
+    },
+    {
+      "source_title": "《宋書》卷五十二〈王誕傳〉（國家圖書館館藏書號01471，第29冊）",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-052",
+      "chapter_id": "c-songshu-052-wangdan",
+      "source_id": "s-songshu-052-wangdan-ncl01471-29",
+      "provider": "國家圖書館館藏；Wikimedia Commons 數位鏡像",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/NCL-01471_29_%E5%AE%8B%E6%9B%B8.pdf",
+      "metadata_urls": [
+        "https://nclfile.ncl.edu.tw/nclhistory/public/Attachment/1112114293871.pdf",
+        "https://commons.wikimedia.org/wiki/Commons:Library_back_up_project/file_list/Rare_Books_%26_Special_Collections,_National_Central_Library/%E5%9C%8B%E5%9C%96%E4%BB%A3%E7%AE%A1%E5%8E%9F%E5%B9%B3%E5%9C%96%E5%8F%A4%E7%B1%8D%E5%BE%AE%E7%89%87"
+      ],
+      "edition_label": "南宋初期刊宋元明弘治嘉靖遞修本；國圖書號01471。原刊早於武英殿本，但此冊含後代遞修，須逐葉辨認。",
+      "role": "earliest_extant_edition_scan_candidate",
+      "used_as_base_text": false,
+      "image_verified": false,
+      "page_mapping_status": "PDF文本層標題為《宋書》卷五十二列傳第十二，且含王誕傳；尚未目視核對卷端、版心、葉碼與相關正文頁。",
+      "reason": "列為目前已找到的早期印本影像候選；須先目視核頁並辨析宋、元、明遞修葉，再決定是否作正文底本。"
     }
   ],
   "source_attestations": [
@@ -134,9 +153,10 @@
     "note": "只保存各史所載親稱，不因異讀或稱謂自動補造共同祖先及精確世系。"
   },
   "next_steps": [
+    "目視核對國圖01471第29冊的卷端、版心、葉碼及王誕傳正文，辨識宋、元、明遞修葉並記錄影像頁碼；未核頁前不得宣稱已核影或以此本轉錄。",
     "在不違反 CText 站方限制的前提下，取得武英殿正文的授權可用版本或對應書影；目前不轉錄正文、不以四庫本代底本。",
-    "在站方授權的可用方式下取得 CText 武英殿正文，轉錄完整王誕傳並固定版本修訂／全文摘要；或取得相應武英殿書影頁。",
-    "以正文逐人標記新章完整傳記，所有 relation/address/title/event assertions 均綁定原文 mention。",
+    "比較早期遞修本與武英殿數位正文的讀法，據可核實來源選定並記錄實際轉錄底本。",
+    "以選定見證逐人標記完整王誕傳，所有 relation/address/title/event assertions 均綁定原文 mention。",
     "將兩個來源關係讀法改存原生斷言，更新人物反向索引及 API bundles。",
     "獨立覆核後才考慮轉為可審查；本 PR 維持草稿。"
   ],
