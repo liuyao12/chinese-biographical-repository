@@ -154,15 +154,6 @@
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved"
-        },
-        {
-          "id": "c-shiji-126-huaji:m002-0196",
-          "start": 196,
-          "end": 198,
-          "surface": "田完",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
         }
       ]
     },
@@ -2946,9 +2937,9 @@
           "start": 13,
           "end": 15,
           "surface": "三老",
-          "kind": "person",
-          "person_id": "ksm_7il_w8n",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-126-huaji:m024-0024",
@@ -3036,9 +3027,9 @@
           "start": 108,
           "end": 110,
           "surface": "三老",
-          "kind": "person",
-          "person_id": "ksm_7il_w8n",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-126-huaji:m024-0114",
@@ -3180,18 +3171,18 @@
           "start": 244,
           "end": 246,
           "surface": "三老",
-          "kind": "person",
-          "person_id": "ksm_7il_w8n",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-126-huaji:m024-0254",
           "start": 254,
           "end": 256,
           "surface": "三老",
-          "kind": "person",
-          "person_id": "ksm_7il_w8n",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-126-huaji:m024-0259",
@@ -3225,9 +3216,9 @@
           "start": 295,
           "end": 297,
           "surface": "三老",
-          "kind": "person",
-          "person_id": "ksm_7il_w8n",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-126-huaji:m024-0309",
@@ -3443,6 +3434,41 @@
           "status": "contextual_provisional"
         }
       ]
+    }
+  ],
+  "cross_chapter_references": [
+    {
+      "id": "xref-shiji126-tian-wan-shijia",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-126",
+        "chapter_id": "c-shiji-126-huaji",
+        "source_id": "s-shiji126-huaji",
+        "revision_id": 2609358,
+        "paragraph_id": "c-shiji-126-huaji:p002",
+        "paragraph_text": "淳于髡者，齊之贅婿也。長不滿七尺，滑稽多辯，數使諸侯，未嘗屈辱。齊威王之時喜隱，好為淫樂長夜之飲，沈湎不治，委政卿大夫。百官荒亂，諸侯并侵，國且危亡，在於旦暮，左右莫敢諫。淳于髡說之以隱曰：「國中有大鳥，止王之庭，三年不蜚又不鳴，不知此鳥何也？」王曰：「此鳥不飛則已，一飛沖天；不鳴則已，一鳴驚人。」於是乃朝諸縣令長七十二人，賞一人，誅一人，奮兵而出。諸侯振驚，皆還齊侵地。威行三十六年。語在田完世家中。",
+        "paragraph_text_sha256": "d5bb4dfd9b58f20b740e820cd827e8e33cca8132c64f559cef63e45c7c277bee",
+        "start": 194,
+        "end": 201,
+        "surface": "語在田完世家中"
+      },
+      "target": {
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-046",
+        "section_label": "田敬仲完世家",
+        "text_status": "imported",
+        "chapter_id": "c-shiji-046-tian",
+        "paragraph_id": "c-shiji-046-tian:p027"
+      },
+      "resolution": {
+        "status": "contextually_identified",
+        "rationale": "原文「語在田完世家中」明確提示另一篇的互見；卷四十六〈田敬仲完世家〉p027同述齊威王失政、諸侯來伐、整治後齊國大治，與本篇p002敘事相應。鳥喻為本篇文字，p027未見，故此連結表示平行敘事而非逐字相同。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838",
+        "read_scope": "核對卷一二六該句、卷四十六篇名及已收p001開篇；維基文庫固定數位轉錄，未核印本或影像。",
+        "short_quote": "威王初卽位以來，不治，委政卿大夫，九年之閒，諸侯并伐，國人不治。",
+        "human_reviewed": false
+      }
     }
   ]
 }

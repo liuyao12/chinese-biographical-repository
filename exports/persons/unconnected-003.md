@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `mjn_ohc_9ca` | 漢皇太后 | [《史記・齊悼惠王世家》][121] | [JSON](mjn_ohc_9ca.json) |
 | `mjt_gqs_5ym` | 夏侯霸 | [《三國志・滿田牽郭傳》][85] | [JSON](mjt_gqs_5ym.json) |
 | `mk7_0x5_y47` | 李邁 | [《晉書・孝宗穆帝 哀帝 廢帝海西公》][20] | [JSON](mk7_0x5_y47.json) |
 | `mky_p42_opm` | 呂臣 | [《史記・陳涉世家》][117] | [JSON](mky_p42_opm.json) |

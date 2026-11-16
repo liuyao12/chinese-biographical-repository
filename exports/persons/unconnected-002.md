@@ -1829,7 +1829,6 @@
 | `krf_ou9_ptc` | 令女叔父 | [《三國志・諸夏侯曹傳》][77] | [JSON](krf_ou9_ptc.json) |
 | `krm_lrt_uca` | 昭王夫人（惠王藏身宮主未名） | [《史記・楚世家》][109] | [JSON](krm_lrt_uca.json) |
 | `kry_3b2_phg` | 孔子 | [《史記・田敬仲完世家》][115] | [JSON](kry_3b2_phg.json) |
-| `ksm_7il_w8n` | 鄴三老（未名） | [《史記・滑稽列傳》][195] | [JSON](ksm_7il_w8n.json) |
 | `kt1_l9c_3fb` | 鄭甘 | [《三國志・滿田牽郭傳》][85] | [JSON](kt1_l9c_3fb.json) |
 | `ktv_rwx_hp3` | 叔齊 | [《史記・伯夷列傳》][130] | [JSON](ktv_rwx_hp3.json) |
 | `kuc_m3w_ux2` | 厲王母 | [《史記・淮南衡山列傳》][187] | [JSON](kuc_m3w_ux2.json) |
@@ -2097,6 +2096,7 @@
 | `mj4_uma_km7` | 陳皇后 | [《史記・外戚世家》][118] | [JSON](mj4_uma_km7.json) |
 | `mj8_5ic_4kk` | 殷道鸞 | [《宋書・謝晦》][205] | [JSON](mj8_5ic_4kk.json) |
 | `mjm_mzj_yye` | 召平 | [《史記・齊悼惠王世家》][121] | [JSON](mjm_mzj_yye.json) |
+| `mjn_ohc_9ca` | 漢皇太后 | [《史記・齊悼惠王世家》][121] | [JSON](mjn_ohc_9ca.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

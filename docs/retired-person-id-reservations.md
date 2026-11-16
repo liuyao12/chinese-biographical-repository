@@ -1,8 +1,10 @@
 # 已知退休人物 ID 的保留
 
-`retired_person_ids(root)` 只回傳禁止重新登記的ID集合，不作alias、redirect或舊新查詢。讀取路徑限於 `source-evidence/*/annotation-chain.json`，且只消費 `editorial_annotation_rekey_receipt`。
+`retired_person_ids(root)` 只回傳禁止重新登記的ID集合，不作alias、redirect或舊新查詢。讀取路徑限於 `source-evidence/*/annotation-chain.json` 與 `source-evidence/*/retirement-*.json`；處理已核實身份合併的 `editorial_annotation_rekey_receipt`，以及明確綁定已撤回非人物錨點的 `editorial_annotation_retraction_receipt`。
 
 namespace型須有合法根 `namespace_id`、`historical_rekey_mapping` 與 `mapping_role=audit_only_not_alias_or_current_person_endpoint`；只取mapping鍵，目的ID必屬該namespace。family型須有合法非空 `family_id`、不重複的 `retired_person_ids` 與 `retirement_policy=audit_only_not_canonical_not_alias_not_reusable`。兩型皆須 `person_aliases_created=false`。未知、混合或格式錯的同型收據拒絕；其他record_type忽略。審查狀態或human_reviewed不能放行。
+
+誤把職稱、群體或未名指涉建成單一人物時，使用 `editorial_annotation_retraction_receipt`，不可假造同人合併或家族改號。憑據必須指定一個登錄過、已移除的人物ID、原 corpus 檔及章 ID、所有撤回 MID，並保存其撤回前的人物錨點型別／狀態快照；使用 `retraction_policy=audit_only_non_person_classification_not_reusable`。驗證器讀取該章，確認舊人物 ID 已不在登錄／別名、快照與撤回 MID 一一相符，且這些 MID 現在均為 `unresolved`、`person_id` 為 `null`。這只保留禁止重用，不是轉址；原文、錨點及更正後的非人物類型留在 corpus。
 
 分配器新增keyword-only `root`，如 `allocate_child_id(parent, existing, root=root)`。明示root才取得該工作樹的退休保留，並拒絕退休分支的上下前綴重配。未傳root的舊API保留，不能宣稱所有外部導入者已受保護；導入者亦可呼叫 `assert_not_retired(person_id, root)`。原生validator拒退休ID作canonical或id_aliases；consolidate保留集加入退休集合，並將收據帶入暫存驗證目錄。
 
