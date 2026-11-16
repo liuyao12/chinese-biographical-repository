@@ -914,7 +914,10 @@ def _validate_uncached(root=ROOT):
                     check(bool(hit) and hit[0] in allowed and e['quote'] in hit[1]['text'],'身份判斷引句不在所屬正文')
                     if hit:
                         observed.add(hit[0])
-                        check(any(m['person_id']==decision['person_id'] for m in hit[1]['mentions']),'身份判斷段落未提及該人物')
+                        named=any(m['person_id']==decision['person_id'] for m in hit[1]['mentions'])
+                        chapter=chapters[hit[0]]
+                        referred=any(r.get('person_id')==decision['person_id'] and r.get('paragraph_id')==e['paragraph_id'] for r in chapter.get('annotation',{}).get('person_reference_occurrences',[]))
+                        check(named or referred,'身份判斷段落未提及或指涉該人物')
                 check(set(allowed).issubset(observed),'跨篇身份判斷未列各篇證據')
                 if 'chronology_caution' in decision:
                     try:
@@ -1065,6 +1068,9 @@ def _validate_uncached(root=ROOT):
             d=json.loads(path.read_text(encoding='utf-8'))
             check(d['record_type']=='title_holding_assertion_set','稱號持有集類型不符')
             check(d['chapter_id'] in chapters,'稱號持有篇不存在')
+            title_reference_records = {
+                r.get('id'): r for r in chapters.get(d['chapter_id'], {}).get('annotation', {}).get('person_reference_occurrences', [])
+            }
             for h in d['holdings']:
                 check(h['id'] not in title_ids,'稱號持有 ID 重複');title_ids.add(h['id'])
                 check(h['person_id'] in pids and bool(h['title']),'稱號持有人或用稱無效')
@@ -1106,7 +1112,9 @@ def _validate_uncached(root=ROOT):
                     check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'稱號來源 ID 不符')
                     if hit:
                         if 'context' not in e:
-                            check(any(m['person_id']==h['person_id'] for m in hit[1]['mentions']),'稱號引句段落未提及持有人')
+                            named_holder=any(m['person_id']==h['person_id'] for m in hit[1]['mentions'])
+                            referenced_holder=any(r.get('person_id')==h['person_id'] and r.get('paragraph_id')==e['paragraph_id'] for r in title_reference_records.values())
+                            check(named_holder or referenced_holder,'稱號引句段落未提及持有人')
                         else:
                             context=e['context']
                             valid=isinstance(context,dict)
@@ -1475,8 +1483,14 @@ def _validate_uncached(root=ROOT):
                         check(royal,'王國範圍須保留王某地原句，不得由任意地名補入')
                 for a in h['attestations']:
                     check(a['id'] not in title_occurrence_ids,'稱號用稱 ID 重複');title_occurrence_ids.add(a['id'])
-                    hit=paragraphs.get(a['paragraph_id']);m=mentions.get(a['person_mention_id'])
+                    hit=paragraphs.get(a['paragraph_id']);m=mentions.get(a.get('person_mention_id'))
+                    reference=title_reference_records.get(a.get('person_reference_id'))
                     check(bool(hit) and hit[0]==d['chapter_id'],'稱號用稱段落不符')
+                    has_person_anchor = (bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'])
+                    has_reference_anchor = (bool(reference) and reference.get('paragraph_id')==a['paragraph_id']
+                                            and reference.get('person_id')==h['person_id'])
+                    check(not (a.get('person_mention_id') and a.get('person_reference_id')),
+                          '稱號用稱只可引用姓名提及或人物指涉其一')
                     carried_title_subject = False
                     if 'context' in a:
                         try:
@@ -1485,7 +1499,9 @@ def _validate_uncached(root=ROOT):
                             from subject_continuation import title_attestation_subject_valid
                         carried_title_subject = title_attestation_subject_valid(a, h, chapters[d['chapter_id']])
                         check(carried_title_subject, '稱號用稱省略主語承接無效')
-                    check(carried_title_subject or bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'],'稱號用稱人物提及不符')
+                    check(carried_title_subject or has_person_anchor or has_reference_anchor,'稱號用稱人物來源錨點不符')
+                    anchor_span = (m[2]['start'], m[2]['end']) if has_person_anchor else (
+                        (reference['start'], reference['end']) if has_reference_anchor else None)
                     shared_suffix_valid = False
                     if 'shared_title_suffix' in h:
                         try:
@@ -1506,7 +1522,7 @@ def _validate_uncached(root=ROOT):
                         for e in h['evidence']:
                             if e['paragraph_id']!=a['paragraph_id']:continue
                             starts=[i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(e['quote'],i)]
-                            if any(i<=a['start'] and a['end']<=i+len(e['quote']) and (carried_title_subject or m and i<=m[2]['start'] and m[2]['end']<=i+len(e['quote'])) for i in starts):enclosed=True
+                            if any(i<=a['start'] and a['end']<=i+len(e['quote']) and (carried_title_subject or anchor_span and i<=anchor_span[0] and anchor_span[1]<=i+len(e['quote'])) for i in starts):enclosed=True
                         check(enclosed,'稱號用稱及持有人不在精確引句範圍')
                     if 'normalized_date' in a:
                         expression = a.get('date_expression')

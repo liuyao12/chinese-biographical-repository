@@ -126,7 +126,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ## 稱號持有、用稱與有效時段
 
-`007-titles.json` 的 `title_holding_assertion_set` 將來源所述授予、自立、貶降與單純用稱分開。每筆 `holding` 有穩定 ID、人物 ID、原稱、種類、`mode`、來源引句及獨立 `attestations`；每個用稱錨點按 Unicode code point 保存位置，並引用同句／同段的人物提及。此層可與人物文字標註重疊，不能因此改寫原文或換掉人物錨點。
+`007-titles.json` 的 `title_holding_assertion_set` 將來源所述授予、自立、貶降與單純用稱分開。每筆 `holding` 有穩定 ID、人物 ID、原稱、種類、`mode`、來源引句及獨立 `attestations`；每個用稱錨點按 Unicode code point 保存位置，並以 `person_mention_id` 或 `person_reference_id` 二擇一連到同段的人名提及或已記錄的人物指涉。此層可與人物文字標註重疊，不能因此改寫原文或把代詞當姓名。
 
 `effective_period.start`／`end` 各為 `unknown` 或 `source_event`。未知端點沒有日期或事件，不表示無限延伸。來源明示事件必須列起訖事件種類及精確證據；`date_expression` 僅在端點引句明見日期時填原表述，否則為null。本批日期皆未換算，來源事件位置只提供敘事中的端點證據，不冒稱某一公曆日或完整數值區間。
 
