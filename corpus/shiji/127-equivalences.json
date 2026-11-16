@@ -82,6 +82,44 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji127-cross-003",
+      "person_ids": [
+        "yqp_nlb_p1p_AC"
+      ],
+      "canonical_person_id": "yqp_nlb_p1p_AC",
+      "identity_decision_id": "d-shiji127-001",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-010-wendi",
+        "c-shiji-127-rizhe"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-010-wendi",
+          "source_id": "s-shiji-010-wendi",
+          "paragraph_id": "c-shiji-010-wendi:p001",
+          "quote": "孝文皇帝，高祖中子也。高祖十一年春，已破陳豨軍，定代地，立為代王，都中都。太后薄氏子。即位十七年，高后八年七月，高后崩。九月，諸呂呂產等欲為亂，以危劉氏，大臣共誅之，謀召立代王，事在呂后語中。",
+          "mention_ids": [
+            "c-shiji-010-wendi:m001-0030",
+            "c-shiji-010-wendi:m001-0086"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-127-rizhe",
+          "source_id": "s-shiji127-rizhe",
+          "paragraph_id": "c-shiji-127-rizhe:p001",
+          "quote": "代王之入，任於卜者。",
+          "mention_ids": [
+            "c-shiji-127-rizhe:m001-0034"
+          ]
+        }
+      ],
+      "rationale": "卷十明確記錄「代王」入繼為孝文皇帝，與卷一二七所述「代王之入」為同一歷史事件，故撤除本篇孤立候選 ID 並改用孝文帝劉恆既有 ID。",
+      "reviewer": "Codex（AI 代理）",
+      "identity_materialized": true
     }
   ]
 }

@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "21段全文及19名來源候選初標；2條死亡、1條原籍、9條官爵用語與2組跨篇暫同指已存，未定指代及有效時段續核。",
+    "coverage": "21段全文及19名初始候選逐段覆核；代王接合孝文帝劉恆並撤除孤立候選 ID；補錄可識別稱謂、自稱及代詞指涉，群體稱呼與曾氏、墨子仍按證據保留未解。",
     "limitations": [
       "曾氏不直接接曾參，滎陽褚氏不補成單一人物。",
       "墨子在索隱述贊可能指書名，保持未解。",
@@ -37,6 +37,86 @@
       "司馬季主卜於長安東市是活動場所，不直接當原籍或住址。",
       "賈誼梁懷王傅不自動改為太傅，跨篇原稱分別保存。",
       "未核影像，不以聖人、先王或一般卜者之論補造具名人物。"
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-shiji-127-rizhe:r004-0022",
+        "paragraph_id": "c-shiji-127-rizhe:p004",
+        "start": 22,
+        "end": 24,
+        "surface": "先生",
+        "person_id": "r8r_74l_t6d",
+        "reference_type": "address_term_reference",
+        "status": "contextual_provisional",
+        "quote": "宋忠、賈誼瞿然而悟，獵纓正襟危坐，曰：「吾望先生之狀，聽先生之辭，小子竊觀於世，未嘗見也。",
+        "rationale": "宋忠、賈誼當面稱司馬季主為「先生」，是敬稱而非姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-127-rizhe:r004-0028",
+        "paragraph_id": "c-shiji-127-rizhe:p004",
+        "start": 28,
+        "end": 30,
+        "surface": "先生",
+        "person_id": "r8r_74l_t6d",
+        "reference_type": "address_term_reference",
+        "status": "contextual_provisional",
+        "quote": "宋忠、賈誼瞿然而悟，獵纓正襟危坐，曰：「吾望先生之狀，聽先生之辭，小子竊觀於世，未嘗見也。",
+        "rationale": "同一對話中「先生」仍指司馬季主，是敬稱而非姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-127-rizhe:r020-0017",
+        "paragraph_id": "c-shiji-127-rizhe:p020",
+        "start": 17,
+        "end": 23,
+        "surface": "卜筮之賢大夫",
+        "person_id": "r8r_74l_t6d",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "褚先生曰：臣爲郎時，游觀長安中，見卜筮之賢大夫，觀其起居行歩，坐起自動，誓正其衣冠而當鄕人也，有君子之風。",
+        "rationale": "下文緊接「夫司馬季主者，楚賢大夫」，並以「觀其對二大夫」評其言談；此處所見卜者據篇章上下文暫指司馬季主。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-127-rizhe:r020-0025",
+        "paragraph_id": "c-shiji-127-rizhe:p020",
+        "start": 25,
+        "end": 26,
+        "surface": "其",
+        "person_id": "r8r_74l_t6d",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "褚先生曰：臣爲郎時，游觀長安中，見卜筮之賢大夫，觀其起居行歩，坐起自動，誓正其衣冠而當鄕人也，有君子之風。",
+        "rationale": "「其」承接本段所見的卜筮賢大夫，按上下文暫指司馬季主；不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-127-rizhe:r020-0005",
+        "paragraph_id": "c-shiji-127-rizhe:p020",
+        "start": 5,
+        "end": 6,
+        "surface": "臣",
+        "person_id": "nq4_rjk_iab",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "褚先生曰：臣爲郎時，游觀長安中，見卜筮之賢大夫",
+        "rationale": "褚少孫在補述中自稱「臣」，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-127-rizhe:r020-0378",
+        "paragraph_id": "c-shiji-127-rizhe:p020",
+        "start": 378,
+        "end": 379,
+        "surface": "臣",
+        "person_id": "nq4_rjk_iab",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "故曰：「制宅命子，足以觀士；子有處所，可謂賢人。」臣爲郎時，與太卜待詔爲郎者同署",
+        "rationale": "褚少孫延續前段自述，再以「臣」自稱；不是姓名標記。",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
@@ -52,7 +132,7 @@
           "end": 36,
           "surface": "代王",
           "kind": "person",
-          "person_id": "ubd_p3l_sji",
+          "person_id": "yqp_nlb_p1p_AC",
           "status": "contextual_provisional"
         }
       ]
@@ -185,24 +265,6 @@
           "surface": "賈誼",
           "kind": "person",
           "person_id": "y6v_c03_at3",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-127-rizhe:m004-0022",
-          "start": 22,
-          "end": 24,
-          "surface": "先生",
-          "kind": "person",
-          "person_id": "r8r_74l_t6d",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-127-rizhe:m004-0028",
-          "start": 28,
-          "end": 30,
-          "surface": "先生",
-          "kind": "person",
-          "person_id": "r8r_74l_t6d",
           "status": "contextual_provisional"
         }
       ]
@@ -599,15 +661,6 @@
           "kind": "person",
           "person_id": "nq4_rjk_iab",
           "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-127-rizhe:m020-0017",
-          "start": 17,
-          "end": 23,
-          "surface": "卜筮之賢大夫",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
         },
         {
           "id": "c-shiji-127-rizhe:m020-0114",

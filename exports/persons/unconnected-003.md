@@ -1242,7 +1242,6 @@
 | `ub4_k5o_w3c` | 奚斤 | [《魏書・崔浩》][228] | [JSON](ub4_k5o_w3c.json) |
 | `ub5_3z9_j2d` | 桀 | [《史記・外戚世家》][118] | [JSON](ub5_3z9_j2d.json) |
 | `ub6_g9c_hvb` | 搖 | [《史記・東越列傳》][183] | [JSON](ub6_g9c_hvb.json) |
-| `ubd_p3l_sji` | 代王 | [《史記・日者列傳》][196] | [JSON](ubd_p3l_sji.json) |
 | `ubl_wn9_nwt` | 趙盤 | [《晉書・桓彝》][44]、[《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47] | [JSON](ubl_wn9_nwt.json) |
 | `ubr_cow_lxx` | 申豐（內昭公議事） | [《史記・魯周公世家》][102] | [JSON](ubr_cow_lxx.json) |
 | `ubt_idy_jr8` | 公劉 | [《史記・周本紀》][91] | [JSON](ubt_idy_jr8.json) |
