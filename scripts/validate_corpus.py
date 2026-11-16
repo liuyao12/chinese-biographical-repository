@@ -2536,13 +2536,16 @@ def _validate_uncached(root=ROOT):
                 date_candidate_scopes.update(candidates)
         try:
             from .family_assemblies import load_assemblies
+            from .family_networks import load_networks
             from .person_bundle import load_catalog
         except ImportError:
             try:
                 from scripts.family_assemblies import load_assemblies
+                from scripts.family_networks import load_networks
                 from scripts.person_bundle import load_catalog
             except ModuleNotFoundError:
                 from family_assemblies import load_assemblies
+                from family_networks import load_networks
                 from person_bundle import load_catalog
         catalog = load_catalog(root)
         try:
@@ -2584,7 +2587,8 @@ def _validate_uncached(root=ROOT):
         except ImportError:
             from cross_chapter_references import errors as cross_reference_errors
         errors.extend(cross_reference_errors(chapters, root))
-        load_assemblies(root, catalog)
+        source_map, assembled = load_assemblies(root, catalog)
+        load_networks(root, catalog, source_map, assembled)
         def citation_dimensions(value):
             if isinstance(value, dict):
                 if all(key in value for key in ('paragraph_id','chapter_id','source_id')):

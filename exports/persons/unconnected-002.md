@@ -234,7 +234,6 @@
 | `bql_o3k_2vn` | 文王 | [《史記・孔子世家》][116] | [JSON](bql_o3k_2vn.json) |
 | `bqs_gsj_v46` | 王龕（褚裒代陂督護） | [《晉書・外戚》][56] | [JSON](bqs_gsj_v46.json) |
 | `br3_x48_86w` | 秦繆 | [《史記・孔子世家》][116] | [JSON](br3_x48_86w.json) |
-| `brc_n26_ekm` | 王綏〔本段父戎〕 | [《晉書・陳騫 裴秀》][27] | [JSON](brc_n26_ekm.json) |
 | `brk_sg8_oe9` | 和親宗室女（匈奴列傳第12至13段） | [《史記・匈奴列傳》][179] | [JSON](brk_sg8_oe9.json) |
 | `bro_0ln_j9p` | 春平君（趙世家未名者） | [《史記・趙世家》][112] | [JSON](bro_0ln_j9p.json) |
 | `brx_0of_9p8` | 韓懿侯 | [《史記・魏世家》][113] | [JSON](brx_0of_9p8.json) |
@@ -446,7 +445,6 @@
 | `cw7_zgp_wtu` | 趙戒 | [《後漢書・孝獻帝紀》][14] | [JSON](cw7_zgp_wtu.json) |
 | `cwo_p3o_pnj` | 鄖公 | [《史記・伍子胥列傳》][135] | [JSON](cwo_p3o_pnj.json) |
 | `cws_842_o4u` | 鄧嶽〔本紀來源局部〕 | [《晉書・顯宗成帝 康帝》][18] | [JSON](cws_842_o4u.json) |
-| `cxf_421_onp` | 王戎女〔裴頠妻〕 | [《晉書・山濤 王戎 郭舒 樂廣》][33] | [JSON](cxf_421_onp.json) |
 | `cxw_tj4_max` | 吳氏女（元帝擬納未成） | [《晉書・后妃下》][25] | [JSON](cxw_tj4_max.json) |
 | `cya_zvr_rpv` | 徐偃王 | [《史記・趙世家》][112] | [JSON](cya_zvr_rpv.json) |
 | `cyi_wjz_uxt` | 項伯 | [《史記・項羽本紀》][94] | [JSON](cyi_wjz_uxt.json) |
