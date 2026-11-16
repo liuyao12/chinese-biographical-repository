@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `ajw_5lx_1mf` | 齊鮑牧 | [《史記・伍子胥列傳》][136] | [JSON](ajw_5lx_1mf.json) |
 | `al3_w9j_0ng` | 宋昌 | [《史記・孝文本紀》][98] | [JSON](al3_w9j_0ng.json) |
 | `al5_e32_vh6` | 胡母班 | [《後漢書・孝獻帝紀》][14] | [JSON](al5_e32_vh6.json) |
 | `al7_2l9_13l` | 韓伯 | [《晉書・陸曄 何充 褚翜 蔡謨 諸葛恢 殷浩》][52] | [JSON](al7_2l9_13l.json) |
@@ -2093,7 +2094,6 @@
 | `msq_x2n_nnn` | 盧悚 | [《晉書・桓彝》][44] | [JSON](msq_x2n_nnn.json) |
 | `msv_9r0_wtk` | 趙襄子 | [《史記・韓世家》][115] | [JSON](msv_9r0_wtk.json) |
 | `mt4_h3l_bbn` | 齊王蘇代過魏 | [《史記・蘇秦列傳》][139] | [JSON](mt4_h3l_bbn.json) |
-| `mta_jet_l8e` | 楊安〔本紀來源局部〕 | [《晉書・太宗簡文帝 孝武帝》][21] | [JSON](mta_jet_l8e.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

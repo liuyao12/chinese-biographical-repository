@@ -933,7 +933,7 @@
 | `4rw_nce_8oq` | 史狗 | [《史記・吳太伯世家》][101] | [JSON](4rw_nce_8oq.json) |
 | `4sb_h3r_tey` | 泉陽令（未名） | [《史記・龜策列傳》][198] | [JSON](4sb_h3r_tey.json) |
 | `4sj_vbb_hzg` | 毛遁 | [《晉書・叛臣二》][60] | [JSON](4sj_vbb_hzg.json) |
-| `4t4_ojw_dn7` | 西王母 | [《史記・趙世家》][113] | [JSON](4t4_ojw_dn7.json) |
+| `4t4_ojw_dn7` | 西王母 | [《史記・趙世家》][113]、[《史記・司馬相如列傳》][187]、[《史記・大宛列傳》][193] | [JSON](4t4_ojw_dn7.json) |
 | `4t6_6ur_8lb` | 孔子引古 | [《史記・魯仲連鄒陽列傳》][153] | [JSON](4t6_6ur_8lb.json) |
 | `4ta_l8n_ik4` | 國武子（齊大夫） | [《後漢書・荀韓鍾陳列傳》][15] | [JSON](4ta_l8n_ik4.json) |
 | `4tb_tcb_9tq` | 朝（孝惠後宮子稱） | [《史記・呂后本紀》][97] | [JSON](4tb_tcb_9tq.json) |
@@ -2092,7 +2092,6 @@
 | `aiu_ulx_ejj` | 周楚 | [《晉書・叛臣一》][59] | [JSON](aiu_ulx_ejj.json) |
 | `ajd_ovg_u3y` | 淪〔王渾中弟〕 | [《晉書・列女》][58] | [JSON](ajd_ovg_u3y.json) |
 | `ajo_g09_qqk` | 將軍摎 | [《史記・秦本紀》][93] | [JSON](ajo_g09_qqk.json) |
-| `ajw_5lx_1mf` | 齊鮑牧 | [《史記・伍子胥列傳》][136] | [JSON](ajw_5lx_1mf.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
