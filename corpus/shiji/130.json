@@ -6061,15 +6061,6 @@
           "kind": "person",
           "person_id": "yqp_nlb_p1p_AF",
           "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-130-taishigong:m130-0024",
-          "start": 24,
-          "end": 28,
-          "surface": "淮南衡山",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
         }
       ]
     },
@@ -6411,6 +6402,41 @@
           "status": "contextual_provisional"
         }
       ]
+    }
+  ],
+  "cross_chapter_references": [
+    {
+      "id": "xref-shiji130-huainan-lie-zhuan",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-130",
+        "chapter_id": "c-shiji-130-taishigong",
+        "source_id": "s-shiji130-taishigong",
+        "revision_id": 2609362,
+        "paragraph_id": "c-shiji-130-taishigong:p130",
+        "paragraph_text": "黥布叛逆，子長國之，以填江淮之南，安剽楚庶民。作淮南衡山列傳第五十八。",
+        "paragraph_text_sha256": "c5bca9999df42df9a17ba344612e867ac29f832ee6bfccb927a24aabab610967",
+        "start": 24,
+        "end": 34,
+        "surface": "淮南衡山列傳第五十八"
+      },
+      "target": {
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-118",
+        "section_label": "淮南衡山列傳第五十八",
+        "text_status": "imported",
+        "chapter_id": "c-shiji-118-huainan",
+        "paragraph_id": "c-shiji-118-huainan:p001"
+      },
+      "resolution": {
+        "status": "contextually_identified",
+        "rationale": "〈太史公自序〉本段明載「作淮南衡山列傳第五十八」；卷一百一十八所收篇題為「淮南衡山列傳第五十八」，篇名與次序相合，故此處是篇章互見。「淮南衡山」為篇名組成部分，不是人物提及。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122",
+        "read_scope": "核對卷一三〇自序原句、卷一一八篇題及卷一一八 p001；固定維基文庫數位轉錄，未核印本或影像。",
+        "short_quote": "淮南厲王長者，高祖少子也，其母故趙王張敖美人。高祖八年，從東垣過趙，趙王獻之美人。厲王母得幸焉，有身。趙王敖弗敢內宮，為筑外宮而捨之。及貫高等謀反柏人事發覺，并逮治王，盡收捕王母兄弟美人，繋之河內。厲王母亦繋，告吏曰：「得幸上，有身。」吏以聞上，上方怒趙王，未理厲王母。厲王母弟趙兼因辟陽侯言呂后，呂后妒，弗肯白，辟陽侯不彊爭。及厲王母已生厲王，恚，即自殺。吏",
+        "human_reviewed": false
+      }
     }
   ]
 }
