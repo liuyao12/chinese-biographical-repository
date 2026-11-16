@@ -668,7 +668,7 @@ class PersonBundleTests(unittest.TestCase):
     def test_zhou_ren_ancestral_place_is_not_personal_origin(self):
         from scripts.person_bundle import load_catalog
         catalog = load_catalog()
-        person = next(p for p in catalog[0].values() if p['label'] == '周仁（萬石張叔列傳候選）')
+        person = catalog[0]['2jn_tjp_75n']
         result = bundle(person['id'], catalog=catalog)
         ancestral = next(a for a in result['address_assertions'] if a['place']['source_name'] == '任城')
         self.assertEqual(ancestral['relation'], 'ancestral_origin')
