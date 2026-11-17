@@ -22,12 +22,17 @@ export function sourceReferenceQuote(reference) {
   return reference.display_quote === plain ? reference.display_quote : raw;
 }
 const cache = new Map();
+const rawProfileCache = new Map();
 let sourceWorkTitles,sourceChapterDirectory;
 const detailWorkTitles = () => sourceWorkTitles ||= loadWorkTitles();
 const detailChapterDirectory = () => sourceChapterDirectory ||= loadChapterDirectory();
 export const profileURL = (id, tableID = '') => 'person.html' + (/^shiji-\d{3}$/.test(tableID) ? '?table=' + encodeURIComponent(tableID) : '') + '#' + encodeURIComponent(id);
+export function loadPersonFast(id) {
+  if (!rawProfileCache.has(id)) rawProfileCache.set(id, fetch('data/corpus/profiles/' + encodeURIComponent(id) + '.json').then(async r => {if (!r.ok) throw Error('人物資料尚未載入'); return r.json();}).catch(e => {rawProfileCache.delete(id); throw e;}));
+  return rawProfileCache.get(id);
+}
 export async function loadPerson(id) {
-  if (!cache.has(id)) cache.set(id, fetch('data/corpus/profiles/' + encodeURIComponent(id) + '.json').then(async r => {if (!r.ok) throw Error('人物資料尚未載入'); const p = await r.json(); if (!(p.occurrences?.length || (p.titles || []).some(challengedOffice) || p.source_details?.length)) return p; const [titles,directory]=await Promise.all([detailWorkTitles(),detailChapterDirectory()]); return {...p,source_work_titles:titles,source_chapter_directory:directory};}).catch(e => {cache.delete(id); throw e;}));
+  if (!cache.has(id)) cache.set(id, loadPersonFast(id).then(async p => {if (!(p.occurrences?.length || (p.titles || []).some(challengedOffice) || p.source_details?.length)) return p; const [titles,directory]=await Promise.all([detailWorkTitles(),detailChapterDirectory()]); return {...p,source_work_titles:titles,source_chapter_directory:directory};}).catch(e => {cache.delete(id); throw e;}));
   return cache.get(id);
 }
 const sourceEvidenceLinks = (evidence, sources = []) => (evidence || []).map(e => {
