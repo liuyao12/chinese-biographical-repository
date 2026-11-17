@@ -70,7 +70,6 @@
 | `n6q_89m_21t` | 黔夫 | [《史記・田敬仲完世家》][116] | [JSON](n6q_89m_21t.json) |
 | `n6r_wpb_2ov` | 建安王休仁 | [《宋書・劉穆之 王弘》][205] | [JSON](n6r_wpb_2ov.json) |
 | `n79_99b_tpt` | 魏哀王 | [《史記・張儀列傳》][140] | [JSON](n79_99b_tpt.json) |
-| `n7c_afk_6o2` | 樓緩 | [《史記・趙世家》][113] | [JSON](n7c_afk_6o2.json) |
 | `n7k_r8y_fkr` | 知伯文子 | [《史記・趙世家》][113] | [JSON](n7k_r8y_fkr.json) |
 | `n7l_j5p_4wl` | 慶忌 | [《史記・范睢蔡澤列傳》][149]、[《史記・司馬相如列傳》][187] | [JSON](n7l_j5p_4wl.json) |
 | `n7m_j5e_bt2` | 蒲守 | [《史記・樗里子甘茂列傳》][141] | [JSON](n7m_j5e_bt2.json) |
@@ -321,7 +320,6 @@
 | `ovv_wc5_ohj` | 全景文 | [《南齊書・王琨 張岱 褚炫 何戢 王延之 阮韜》][67] | [JSON](ovv_wc5_ohj.json) |
 | `ovw_5og_8au` | 伯服 | [《史記・鄭世家》][112] | [JSON](ovw_5og_8au.json) |
 | `ow0_2qg_73y` | 李園女弟未名 | [《史記・春申君列傳》][148] | [JSON](ow0_2qg_73y.json) |
-| `ow4_qy6_bx5` | 樓緩 | [《史記・平原君虞卿列傳》][146] | [JSON](ow4_qy6_bx5.json) |
 | `owc_ejf_uzp` | 紂比擬 | [《史記・蕭相國世家》][123] | [JSON](owc_ejf_uzp.json) |
 | `owj_whw_zzm` | 禹（孔子世家會稽傳說） | [《史記・孔子世家》][117] | [JSON](owj_whw_zzm.json) |
 | `own_mt9_gtl` | 芒卯 | [《史記・魏世家》][114] | [JSON](own_mt9_gtl.json) |
@@ -360,7 +358,7 @@
 | `p3e_kto_76o` | 公杲 | [《史記・樊酈滕灌列傳》][165] | [JSON](p3e_kto_76o.json) |
 | `p3l_pp3_n6i` | 皋陶 | [《史記・夏本紀》][90] | [JSON](p3l_pp3_n6i.json) |
 | `p3v_9ns_snj` | 荀騅（景公卿） | [《史記・晉世家》][109] | [JSON](p3v_9ns_snj.json) |
-| `p41_n3z_dlq` | 樓緩 | [《史記・穰侯列傳》][142] | [JSON](p41_n3z_dlq.json) |
+| `p41_n3z_dlq` | 樓緩 | [《史記・平原君虞卿列傳》][146] | [JSON](p41_n3z_dlq.json) |
 | `p4m_8ib_fwo` | 趙弟 | [《史記・大宛列傳》][193] | [JSON](p4m_8ib_fwo.json) |
 | `p61_wfn_5e4` | 呂季主 | [《史記・梁孝王世家》][128] | [JSON](p61_wfn_5e4.json) |
 | `p62_q55_4wr` | 伯 | [《史記・陳丞相世家》][126] | [JSON](p62_q55_4wr.json) |
