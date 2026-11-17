@@ -69,6 +69,12 @@ async function render(keepScroll=false) {
     document.title=work.title+' · 人文';
     $('corpus-content').innerHTML=`<div class="chapter-intro"><h1>${h(work.title)}</h1><p>${ui('Choose a volume or imported section.')}</p><p>${ui('Only the listed passages have been imported.')}</p><p>${h(index.policy)}</p></div>`;return;
   }
+  if(selected.available==='pending') {
+    document.title=sourceCitation(selected,chapterDirectory,workTitles)+' · 人文';
+    const citation=selected.catalog_source_url?external(selected.catalog_source_url,'Navigation directory source'):'';
+    $('corpus-content').innerHTML=`<div class="chapter-intro" data-chapter-placeholder="${h(selected.chapter_id)}"><p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(sourceCitation(selected,chapterDirectory,workTitles))}</h1><p class="corpus-note">${ui('Chapter title registered; source text has not been imported.')}</p><p>${h(selected.scope_note || index.policy || '')}</p>${citation?'<footer class="corpus-note">'+citation+' · '+h(selected.catalog_source_title || '')+'</footer>':''}</div>`;
+    return;
+  }
   if(selected.available==='table') {
     if(!/^[a-z][a-z0-9-]*-\d{3}[a-z]?$/.test(selected.table_id))throw Error(t('Table data could not be loaded.'));
     document.title=sourceCitation(selected,chapterDirectory,workTitles)+' · 人文';
