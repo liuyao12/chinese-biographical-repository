@@ -139,6 +139,35 @@ class TemporalConstraintTests(unittest.TestCase):
         self.assertEqual(set(a_derivation["input_constraint_ids"]),
                          {"a-before-b", "b-before-c", "c-upper"})
 
+    def test_unreviewed_order_suggestion_does_not_create_a_cycle(self):
+        accepted = {
+            "id": "a-before-b", "target_event_id": "b", "related_event_id": "a",
+            "operator": "after_event", "assertion_mode": "derived",
+            "derivation": {"rule_id": "narrative_sequence_implies_event_order",
+                           "ordering_basis": "narrative_sequence",
+                           "condition_status": "conditionally_accepted",
+                           "review_status": "agent_reviewed"},
+            "human_reviewed": False,
+        }
+        unreviewed = {
+            "id": "b-before-a", "target_event_id": "a", "related_event_id": "b",
+            "operator": "after_event", "assertion_mode": "derived",
+            "derivation": {"rule_id": "narrative_sequence_implies_event_order",
+                           "ordering_basis": "narrative_sequence",
+                           "condition_status": "conditionally_accepted",
+                           "review_status": "unreviewed"},
+            "human_reviewed": False,
+        }
+        constraints = [
+            {"id": "a-lower", "target_event_id": "a", "operator": "not_before", "bound": date(1)},
+            {"id": "b-upper", "target_event_id": "b", "operator": "not_after", "bound": date(6)},
+            accepted, unreviewed,
+        ]
+        result = calculate_temporal_constraint_results(constraints)
+        self.assertEqual(result["a"]["latest"]["year"], 6)
+        self.assertEqual(result["a"]["status"], "conditional")
+        self.assertIn("b-before-a", result["b"]["unsupported_constraint_ids"])
+
     def test_event_order_does_not_propagate_from_a_conflicted_later_event(self):
         relation = {
             "id": "a-before-b", "target_event_id": "b", "related_event_id": "a",
