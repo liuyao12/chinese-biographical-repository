@@ -325,7 +325,7 @@ def calculate_temporal_constraint_results(constraints):
             unsupported.setdefault(earlier_id, []).append(relation.get("id"))
             continue
         coordinate = later_result["coordinate"]
-        bound = dict(coordinate, year=latest["year"], inclusive=True)
+        bound = dict(coordinate, year=latest["year"], inclusive=latest["inclusive"])
         relation_inputs = list(latest.get("constraint_ids", [])) + [relation.get("id")]
         synthetic = {
             "id": "derived-upper:" + str(earlier_id) + ":" + ":".join(map(str, relation_inputs)),
