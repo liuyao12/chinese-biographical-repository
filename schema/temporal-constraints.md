@@ -48,10 +48,11 @@
   "operator": "not_before",
   "bound": {
     "calendar": "chinese_civil",
-    "year": 652,
+    "year": 3,
     "inclusive": true,
-    "year_system": "astronomical",
-    "precision": "year"
+    "year_system": "regnal",
+    "precision": "year",
+    "era_id": "example-era-id"
   },
   "assertion_mode": "derived",
   "derivation": {
@@ -120,9 +121,9 @@
 - `normalized_interval`：原文明示的日期範圍；
 - `normalized_relation`：包含 `operator`、`related_event_id` 的事件先後關係。
 
-驗證器要求該正規化結果與 constraint 的運算子及端點完全相符。年號詞轉為數值年時，`year_system: regnal`、具名 `era_id` 及年號內序數必須一併保存；年號全期需以該年號的首末序數年構成區間。代理判讀仍須保留原詞，不由使用端解析。
+驗證器要求該正規化結果與 constraint 的運算子及端點完全相符。在世推導的死亡下界還必須與被訪者事件的 `normalized_date` 完全相同；只有日期範圍而沒有精確事件日期時，不可直接取晚端推導死亡下界。年號詞轉為數值年時，`year_system: regnal`、具名 `era_id` 及年號內序數必須一併保存；年號全期需以該年號的首末序數年構成區間。代理判讀仍須保留原詞，不由使用端解析。
 
-`person_alive_at_event_implies_death_not_before` 首版只接受已標為 `event_type: visit`、`participant_role: visited_person` 的在場者事件；目標事件必須為同一人物的死亡事件。輸入事件不得等於目標事件，且日期引文、人物錨點及正規化日期均須可追溯。其他活動類型不自動推定在世。
+`person_alive_at_event_implies_death_not_before` 首版只接受已標為 `event_type: visit`、`participant_role: visited_person` 的在場者事件；目標事件必須為同一人物的死亡事件。輸入事件不得等於目標事件；死亡下界必須等於該訪問事件的精確 `normalized_date`，不可使用晚於訪問的日期，也不可把日期範圍晚端當作下界。日期引文、人物錨點及正規化日期均須可追溯。其他活動類型不自動推定在世。
 
 ## 推導規則與證據
 
@@ -136,13 +137,13 @@
 
 `scripts/person_bundle.py` 在人物來源包中匯出 `temporal_constraints` 原記錄，並將約束所引段落加入 `passages`；不得只輸出合併後的摘要日期。`scripts/temporal_constraints.py` 提供年精度絕對界限交集函式，回傳端點及貢獻該端點的約束 ID。此 PR 尚未收錄任何同安公主或其他實際日期約束資料。
 
-使用端可對同一目標事件、同一計時座標中相容的封閉區間求交。例如，若一來源給死亡年範圍 `[650, 655]`，另一來源證明人物至少活到第 3 年、正規化下界為 652，則：
+使用端可對同一目標事件、同一計時座標中相容的封閉區間求交。例如，若一來源給死亡年範圍 永徽年間（年號序數年 1 至 6），另一來源記永徽三年仍在世，且兩項紀年均用同一永徽序數年座標，則：
 
 \[
-D = [650, 655] \cap [652, +\infty) = [652, 655].
+D = [1, 6] \cap [3, +\infty) = [3, 6].
 \]
 
-這是可計算的容許年範圍，不是單一年份估計。若交集為空，使用端應回報來源衝突並保留各來源約束，不得自動挑選一方。若兩項日期使用不同日曆或精度，必須先經有來源的明確轉換；不得直接比較。等值約束必須是含端點的單一日期。初版交集函式只計算絕對日期運算子；含相對事件運算子的輸入會回傳 `status: incomplete` 及未處理約束 ID，禁止使用端把未計算誤當成無界或無衝突結果。
+這是可計算的容許年範圍，不是單一年份估計。若交集為空，使用端應回報來源衝突並保留各來源約束，不得自動挑選一方。若兩項日期使用不同日曆或精度，必須先經有來源的明確轉換；不得直接比較。0.1 版尚無可驗證的跨座標映射欄位，因此不得把年號序數轉寫成天文年後當作同座標輸入；遇到此情形須保留原始約束，讓交集結果標記為未完成，待映射結構實作後再計算。等值約束必須是含端點的單一日期。初版交集函式只計算絕對日期運算子；含相對事件運算子的輸入會回傳 `status: incomplete` 及未處理約束 ID，禁止使用端把未計算誤當成無界或無衝突結果。
 
 ## 驗證要求
 
