@@ -1,25 +1,39 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
-import {profileSourceContext} from '../assets/corpus-reader.js';
+import {profileReturnLink} from '../assets/profile-return.js';
 
-test('a numeric non-Shiji chapter is routed by work context before Shiji volume matching', async () => {
-  const source = await readFile(new URL('../assets/cbr-person-page.js', import.meta.url), 'utf8');
-  const guard = source.indexOf("if (!workId || workId === 'w-shiji')");
-  const shijiMatch = source.indexOf("const shijiOccurrence =", guard);
-  const shijiGuardEnd = source.indexOf("\n  }\n\n  const otherSource = profileSourceContext(person, context);", shijiMatch);
-  assert.ok(guard >= 0 && shijiMatch > guard && shijiGuardEnd > shijiMatch,
-    'Shiji volume matching must be scoped to an absent or explicit w-shiji context');
+const person = {
+  occurrences:[
+    {number:4,category:'liezhuan',paragraph_id:'c-shiji-004-some:p001'},
+    {work_id:'w-songshu',book_id:'b-songshu-052',chapter_id:'4',
+      paragraph_id:'songshu-p1',paragraph_ids:['songshu-p1'],title:'王誕傳',work_title:'宋書'}
+  ]
+};
 
-  const person = {occurrences:[
-    {work_id:'w-shiji',book_id:'b-shiji-004',chapter_id:'4',paragraph_id:'shiji-p1',number:4,category:'liezhuan'},
-    {work_id:'w-songshu',book_id:'b-songshu-052',chapter_id:'52',paragraph_id:'songshu-p1',title:'王誕傳',work_title:'宋書'}
-  ]};
-  const back = profileSourceContext(person, new URLSearchParams({
-    work:'w-songshu',book:'b-songshu-052',chapter:'52',passage:'songshu-p1'
+test('numeric chapter from another work never routes to a matching Shiji volume', () => {
+  const route = profileReturnLink(person, new URLSearchParams({
+    work:'w-songshu',book:'b-songshu-052',chapter:'4',passage:'songshu-p1'
   }));
-  assert.ok(back);
-  const params = new URLSearchParams(back.href.split('#')[1]);
+  assert.match(route.href,/^reader\.html#/);
+  const params = new URLSearchParams(route.href.split('#')[1]);
   assert.equal(params.get('work'),'w-songshu');
-  assert.equal(params.get('chapter'),'52');
+  assert.equal(params.get('book'),'b-songshu-052');
+  assert.equal(params.get('chapter'),'4');
+  assert.equal(params.get('passage'),'songshu-p1');
+});
+
+test('explicit Shiji context still routes to its Shiji chapter', () => {
+  const route = profileReturnLink(person, new URLSearchParams({
+    work:'w-shiji',chapter:'4',passage:'c-shiji-004-some:p001'
+  }));
+  assert.match(route.href,/^shiji\.html#/);
+  const params = new URLSearchParams(route.href.split('#')[1]);
+  assert.equal(params.get('chapter'),'4');
+  assert.equal(params.get('passage'),'c-shiji-004-some:p001');
+});
+
+test('no valid source context returns to the CBR person directory', () => {
+  assert.deepEqual(profileReturnLink(person,new URLSearchParams({work:'w-weishu',chapter:'12'})),{
+    href:'cbr.html',text:'返回 CBR 人物目錄 →'
+  });
 });
