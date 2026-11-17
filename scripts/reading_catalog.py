@@ -90,12 +90,33 @@ def outputs(root=None):
                 'title':table['title'], 'available':'table', 'table_id':table['id'],
                 'text_scope':source.get('text_scope','table'), 'scope_note':source.get('extent',source['note']),
                 'annotation_status':source['review_status']})
+        catalog = None
+        catalog_path = work.get('chapter_catalog_path')
+        if catalog_path:
+            catalog = json.loads((root / catalog_path).read_text())
+            if catalog.get('work_id') != work['id']:
+                raise ValueError(f'chapter catalog work_id mismatch: {catalog_path}')
+            known_chapters = {entry['chapter_id'] for entry in selected}
+            for chapter in catalog.get('chapters', []):
+                if chapter['chapter_id'] in known_chapters:
+                    continue
+                book = books[chapter['book_id']]
+                selected.append({'number':book['number'],'book_id':book['id'],'book_title':book['title'],
+                    'work_id':work['id'],'work_title':work['title'],'chapter_id':chapter['chapter_id'],
+                    'title':chapter['title'],'category':chapter.get('category'),
+                    'category_label':chapter.get('category_label'),'available':'pending',
+                    'text_scope':'catalog_placeholder','scope_note':catalog['policy'],
+                    'catalog_source_url':catalog['source']['url'],
+                    'catalog_source_title':catalog['source']['title'],
+                    'annotation_status':'not_imported'})
         selected.sort(key=lambda c:(c['number'],c['chapter_id']))
         if not selected and work['id'] not in navigation_work_ids:
             continue
         path = f'data/corpus/{slug}/index.json'
         other = {'schema_version':1,'work_id':work['id'],'title':work['title'],'author':work.get('author'),
-                 'chapters':selected,'policy':('只列已實錄卷篇；部分傳文不代表整卷或全書完成。' if selected else '僅有卷篇導航占位；正文尚未收錄，不代表開始正文覆核。')}
+                 'chapters':selected,'policy':('目錄占位與已錄文本分列；僅列章目不表示已收錄或覆核正文。' if catalog else ('只列已實錄卷篇；部分傳文不代表整卷或全書完成。' if selected else '僅有卷篇導航占位；正文尚未收錄，不代表開始正文覆核。'))}
+        if catalog:
+            other['catalog_metadata'] = {key:catalog[key] for key in ('composition','catalog_witness','source','policy') if key in catalog}
         result[root / path] = (json.dumps(other,ensure_ascii=False,indent=2)+'\n').encode()
         manifest.append({'id':work['id'],'title':work['title'],'author':work.get('author'),
                          'reader_kind':'corpus','catalog_path':path})
