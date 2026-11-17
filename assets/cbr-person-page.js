@@ -71,7 +71,7 @@ async function render() {
     document.title = preview.label + ' · 人文';
 
     const [p, ref, familyResult] = await Promise.all([
-      loadPerson(id).catch(() => preview),
+      loadPerson(id, preview).catch(() => preview),
       sourceRef,
       loadFamily(preview).then(family => ({family}), error => ({error}))
     ]);
