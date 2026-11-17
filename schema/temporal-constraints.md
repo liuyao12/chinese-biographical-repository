@@ -65,8 +65,21 @@
       "source_id": "s-example-001",
       "chapter_id": "c-example-001",
       "paragraph_id": "c-example-001:p001",
-      "quote": "來源原文引句",
-      "person_mention_id": "c-example-001:p001:m0001"
+      "quote": "某帝永徽三年幸某公主第",
+      "person_mention_id": "c-example-001:p001:m0001",
+      "temporal_claim": {
+        "source_term": "永徽三年",
+        "start": 2,
+        "end": 6,
+        "normalized_date": {
+          "calendar": "chinese_civil",
+          "year_system": "regnal",
+          "era_id": "example-era-id",
+          "precision": "year",
+          "year": 3,
+          "inclusive": true
+        }
+      }
     }
   ],
   "human_reviewed": false
@@ -96,6 +109,20 @@
 - `after_event` 與 `not_before_event` 使用 `related_event_id`，分別表示嚴格晚於及不早於該事件。兩事件需能映射到同一比較座標；不可從敘事順序自行假定間隔。
 
 日期值須包含 `calendar`、`year_system`、`precision`、整數 `year` 及布林 `inclusive`。`year_system` 固定為 `astronomical`（含公元零年的絕對年）、`historical`（不設公元零年的絕對年）或 `regnal`（年號內序數年）；`regnal` 必須另有 `era_id`，此時 `year: 3` 即該年號第三年，不是公元三年。絕對年不得帶 `era_id`。月／日精度時再加入數值 `month`／`day`。比較前要求日曆、年序、年號座標與精度相容；跨曆法或絕對年／年號年的轉換必須另有具來源的映射，不能由消費端猜測。日期區間採閉合或明示開放端點；沒有界限就用 `null`，不可用極小或極大年份代替。
+
+## 引文中的日期詞與正規化
+
+每筆 `evidence` 須有 `temporal_claim`，其中 `source_term` 是原引句內實際表示日期或事件關係的詞串；`start`／`end` 是其在 `quote` 內的字元位置。它必須原樣等於該位置的文字，不能只引用人物姓名而另填任意年份。
+
+`temporal_claim` 必須且只能含以下一種正規化結果：
+
+- `normalized_date`：單一來源日期；
+- `normalized_interval`：原文明示的日期範圍；
+- `normalized_relation`：包含 `operator`、`related_event_id` 的事件先後關係。
+
+驗證器要求該正規化結果與 constraint 的運算子及端點完全相符。年號詞轉為數值年時，`year_system: regnal`、具名 `era_id` 及年號內序數必須一併保存；年號全期需以該年號的首末序數年構成區間。代理判讀仍須保留原詞，不由使用端解析。
+
+`person_alive_at_event_implies_death_not_before` 首版只接受已標為 `event_type: visit`、`participant_role: visited_person` 的在場者事件；目標事件必須為同一人物的死亡事件。輸入事件不得等於目標事件，且日期引文、人物錨點及正規化日期均須可追溯。其他活動類型不自動推定在世。
 
 ## 推導規則與證據
 
