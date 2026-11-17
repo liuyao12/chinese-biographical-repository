@@ -202,6 +202,33 @@ class TemporalConstraintTests(unittest.TestCase):
         ))
         self.assertTrue(_quote_contains_mention(paragraph, quote, "m-wang", "wang", 0, len(quote)))
 
+    def test_conflict_discovered_downstream_does_not_leave_stale_upstream_bound(self):
+        def relation(id_, earlier, later):
+            return {"id": id_, "target_event_id": later, "related_event_id": earlier,
+                    "operator": "after_event", "assertion_mode": "derived",
+                    "derivation": {"rule_id": "narrative_sequence_implies_event_order",
+                                   "ordering_basis": "narrative_sequence",
+                                   "condition_status": "conditionally_accepted",
+                                   "review_status": "agent_reviewed"},
+                    "human_reviewed": False}
+
+        constraints = [
+            relation("a-before-b", "a", "b"),
+            relation("b-before-c", "b", "c"),
+            {"id": "a-lower", "target_event_id": "a", "operator": "not_before", "bound": date(1)},
+            {"id": "b-lower", "target_event_id": "b", "operator": "not_before", "bound": date(7)},
+            {"id": "b-upper", "target_event_id": "b", "operator": "not_after", "bound": date(8)},
+            {"id": "c-upper", "target_event_id": "c", "operator": "not_after", "bound": date(6)},
+        ]
+        result = calculate_temporal_constraint_results(constraints)
+        self.assertTrue(result["b"]["conflict"])
+        self.assertEqual(result["a"]["status"], "incomplete")
+        self.assertIsNone(result["a"]["latest"])
+        self.assertNotIn("a-before-b", {
+            dependency for derivation in result["a"]["derivations"]
+            for dependency in derivation["input_constraint_ids"]
+        })
+
     def test_conditional_order_cycles_are_incomplete(self):
         def relation(id_, earlier, later):
             return {"id": id_, "target_event_id": later, "related_event_id": earlier,
