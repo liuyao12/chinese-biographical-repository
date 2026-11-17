@@ -1,0 +1,31 @@
+{
+  "kind": "historical_http_capture_retention_qualification",
+  "recorded_http_capture": {
+    "acquisition_file": "acquisition.json",
+    "sha256": "ab8e5bcc2929799487b2f75fb27ed21602643fb882e7680721ad61c071bbfbf6",
+    "raw_response_sha256": "8564e672458672cf7581904ea73160d020af4411dcf303cadc647ecc24fdfb6c",
+    "bytes": 11762
+  },
+  "current_retention_status": "original_private_response_and_headers_lost_by_external_tmp_cleanup",
+  "transcription_retained": true,
+  "transcription_sha256": "ff0421fb3960c1893f4789b06d9c7db2f544361cbc877ff1c3fe5741db6d1490",
+  "original_response_replay_available": false,
+  "recapture_performed": false,
+  "prior_independent_review": "根代理於原捕獲仍在時獨立核strict Big5、原response SHA、碼位4034:5508及byte5734:8677全相等；原T收據亦隨外部清理遺失，此處記其既有審閱訊息，不冒本輪重跑原HTTP。",
+  "meaning": "現行轉錄與記錄之捕獲雜湊/變換ledger固定；目前機器不能重讀已遺失的完整原HTTP，只能驗固定轉錄及來源角色。未冒有固定網站revision。",
+  "html_committed": false,
+  "headers_committed": false,
+  "image_verified": false,
+  "human_reviewed": false,
+  "additional_original_private_captures_lost": [
+    {
+      "public_metadata": "collection-metadata.json",
+      "source": "TCMB完整HTTP及headers"
+    },
+    {
+      "public_metadata": "calendar-reference.json",
+      "source": "教育部年號表完整HTTP；完整選行內容曾讀，現只存欄值/取得SHA/行SHA"
+    }
+  ],
+  "headers_retained": false
+}

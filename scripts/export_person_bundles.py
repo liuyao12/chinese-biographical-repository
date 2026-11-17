@@ -75,6 +75,7 @@ def export(root=ROOT):
     citations = load_citation_index(root)
     source_labels = {}
     source_references = []
+    source_rows = []
     for record in catalog[1]:
         if record.get('record_type') == 'marked_chapter':
             label = source_caption(record, citations)
@@ -87,9 +88,42 @@ def export(root=ROOT):
             source_id = table['source']['id']
         else:
             continue
-        number = len(source_references) + 1
-        source_labels[source_id] = f'[{label}][{number}]'
-        source_references.append(f'[{number}]: {url}')
+        source_rows.append((source_id, label, url))
+    # Keep published Markdown reference numbers stable when a new chapter is
+    # added. Existing files collectively contain the prior URL-to-number map;
+    # append new sources after it instead of renumbering every person's row.
+    old_urls = {}
+    for path in [destination / 'README.md', *destination.glob('families-*.md'),
+                 destination / 'unconnected.md', *destination.glob('unconnected-*.md')]:
+        if not path.is_file():
+            continue
+        for line in path.read_text(encoding='utf-8').splitlines():
+            match = re.fullmatch(r'\[(\d+)\]: (\S+)', line)
+            if match:
+                number, url = int(match.group(1)), match.group(2)
+                old_urls[url] = min(number, old_urls.get(url, number))
+    current_urls = {url for _, _, url in source_rows}
+    source_by_url = {}
+    for row in source_rows:
+        source_by_url.setdefault(row[2], []).append(row)
+    ordered_rows = []
+    if old_urls and set(old_urls) <= current_urls and len(set(old_urls.values())) == len(old_urls):
+        # Empty slots are retained as inert ``#`` references if an old source
+        # no longer has a person-facing row; this keeps later stable numbers.
+        ordered_rows = [None] * max(old_urls.values())
+        for url, number in old_urls.items():
+            ordered_rows[number - 1] = source_by_url[url]
+        known = set(old_urls)
+        ordered_rows.extend([row] for row in source_rows if row[2] not in known)
+    else:
+        ordered_rows = [[row] for row in source_rows]
+    for number, source_group in enumerate(ordered_rows, 1):
+        if source_group is None:
+            source_references.append(f'[{number}]: #')
+            continue
+        for source_id, label, _ in source_group:
+            source_labels[source_id] = f'[{label}][{number}]'
+        source_references.append(f'[{number}]: {source_group[0][2]}')
     def source_column(row):
         return '、'.join(source_labels[sid] for sid in row['most_mentioned_source_ids']) or '—'
     def person_label(row):

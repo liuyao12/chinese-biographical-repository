@@ -1,0 +1,49 @@
+{
+  "kind": "complete_http_html_field_capture",
+  "source_url": "https://content.teldap.tw/main/dc_detail.php?dc_id=2389779",
+  "revision_id": null,
+  "http_status": 200,
+  "response_sha256": "8564e672458672cf7581904ea73160d020af4411dcf303cadc647ecc24fdfb6c",
+  "response_bytes": 11762,
+  "encoding": "big5",
+  "encoding_errors": "strict",
+  "decoded_response_codepoints": 8532,
+  "transcription_sha256": "ff0421fb3960c1893f4789b06d9c7db2f544361cbc877ff1c3fe5741db6d1490",
+  "transcription_codepoints": 1474,
+  "source_decoded_codepoint_span": [
+    4034,
+    5508
+  ],
+  "source_original_byte_span": [
+    5734,
+    8677
+  ],
+  "private_capture_not_public": "teldap.html",
+  "html_committed": false,
+  "transformations": [
+    {
+      "operation": "strict_decode",
+      "encoding": "big5"
+    },
+    {
+      "operation": "select_literal_td_field",
+      "opening": "<td>銘刻內容：",
+      "closing": "</td>",
+      "codepoint_span": [
+        4034,
+        5509
+      ]
+    },
+    {
+      "operation": "remove_exact_trailing_layout_space",
+      "source": "　",
+      "count": 1
+    }
+  ],
+  "character_conversion": "none",
+  "punctuation_changes": "none",
+  "question_mark_count": 5,
+  "missing_square_count": 2,
+  "images_downloaded": false,
+  "captured_response_mtime_utc": "2026-10-26T01:28:44.862946+00:00"
+}

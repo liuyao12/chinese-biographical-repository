@@ -6,7 +6,8 @@
   "identity_note": "南史卷24王氏選錄原段；只採來源明載身份。徐孺子、許子將暫以原稱登記，待另核具名原句；未以模型記憶補姓名。王昕依父綸之及居父憂而卒辨識，不套同名他傳。",
   "review": "ai_provisional",
   "names": [
-    "華歆"
+    "華歆",
+    "子魚"
   ],
   "titles": [],
   "addresses": [],
@@ -80,10 +81,85 @@
       "chapter_id": "c-nanshi-024-wang-family",
       "source_id": "s-nanshi-024-wang-family",
       "work_title": "南史"
+    },
+    {
+      "number": null,
+      "category": "",
+      "title": "元湛墓誌全文（國立歷史博物館藏拓本之機構錄文）",
+      "paragraph_id": "c-epitaph-yuanzhan-nmh-full:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "太尉公。王如故。位冠人爵。任總天綱。贊傑遂賢。興仁隆化。其猶伯始溫柔。子魚和理。天下中庸。後世難繼。方當黜位而朝。以成師臣之禮。獨拜於屏。用饗養老之祑。曰仁者壽。所期必信。積善不報。終自欺人。春秋卅有五。以武定二年歲在甲子五月十四日丁酉薨於鄴。天子舉哀東堂。鴻臚監護喪事。贈",
+      "paragraph_ids": [
+        "c-epitaph-yuanzhan-nmh-full:p001"
+      ],
+      "mention_ids": [
+        "c-epitaph-yuanzhan-nmh-full:p001:m0786"
+      ],
+      "mention_paragraph_ids": {
+        "c-epitaph-yuanzhan-nmh-full:p001:m0786": "c-epitaph-yuanzhan-nmh-full:p001"
+      },
+      "mention_id": "c-epitaph-yuanzhan-nmh-full:p001:m0786",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-epitaph-yuanzhan-nmh-full:p001:m0786",
+          "mention_ids": [
+            "c-epitaph-yuanzhan-nmh-full:p001:m0786"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-epitaph-yuanzhan",
+      "book_id": "b-epitaph-yuanzhan-full",
+      "chapter_id": "c-epitaph-yuanzhan-nmh-full",
+      "source_id": "s-epitaph-yuanzhan-nmh-8900208",
+      "work_title": "元湛墓誌"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-epitaph-yuanzhan-nmh-full",
+      "work_id": "w-epitaph-yuanzhan",
+      "book_id": "b-epitaph-yuanzhan-full",
+      "source_id": "s-epitaph-yuanzhan-nmh-8900208",
+      "source": {
+        "title": "魏故使持節假黃鉞侍中太傅大司馬尚書令定州刺史廣陽文獻王銘",
+        "provider": "數位典藏國家型科技計畫內容發展分項計畫／國立歷史博物館館藏",
+        "url": "https://content.teldap.tw/main/dc_detail.php?dc_id=2389779",
+        "permalink": "https://content.teldap.tw/main/dc_detail.php?dc_id=2389779",
+        "revision_id": null,
+        "accessed_on": "2026-10-25",
+        "edition": "國立歷史博物館89-00208清代原拓之機構數位錄文；未核拓本影像",
+        "extent": "描述欄銘刻內容完整1474字，含題銘、敘傳與乃作銘曰後全部詩頌；單一編輯段不冒原石行界。",
+        "text_scope": "complete_work",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_scope": "classical_inscription_text_only",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古代誌文為公版；館藏數位物件與描述之TCMB授權CC BY 3.0 TW+另記於collection-metadata；不收入HTML、影像或現代描述全文，不套MIT。",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "strict Big5解碼；僅選銘刻內容欄並去欄尾一個排版全形空白；五個?、兩個□及原標點全保。"
+        },
+        "transcription_witness": {
+          "kind": "institutional_html_epitaph_transcription",
+          "institution": "國立歷史博物館",
+          "database_record_id": "89-00208",
+          "reported_transcription_origin": "TELDAP館藏描述欄之銘刻內容，未核原石／拓本",
+          "transcription_path": "source-evidence/yuanzhan-epitaph-nmh/transcription.json",
+          "capture_path": "source-evidence/yuanzhan-epitaph-nmh/acquisition.json",
+          "metadata_path": "source-evidence/yuanzhan-epitaph-nmh/collection-metadata.json",
+          "capture_retention_qualification_path": "source-evidence/yuanzhan-epitaph-nmh/capture-retention-qualification.json",
+          "transcription_page_visually_checked": false,
+          "original_stone_or_rubbing_image_verified": false,
+          "underlying_rubbing_personally_accessed": false,
+          "scope": "complete_single_inscription_not_modern_article"
+        }
+      }
+    },
     {
       "chapter_id": "c-nanshi-024-wang-family",
       "work_id": "w-nanshi",

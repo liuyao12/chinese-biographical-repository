@@ -4,6 +4,10 @@ from pathlib import Path
 LAYER='epitaph_as_modernly_transcribed'
 
 def errors(chapter,root,works,books):
+ if isinstance(chapter,dict) and chapter.get('source',{}).get('transcription_witness',{}).get('kind')=='institutional_html_epitaph_transcription':
+  try:from .institutional_html_epitaph import source_errors
+  except ImportError:from institutional_html_epitaph import source_errors
+  return source_errors(chapter,root,works,books)
  source=chapter.get('source',{});w=source.get('transcription_witness')
  if isinstance(w,dict) and w.get('kind')=='institutional_database_epitaph_transcription':
   try:

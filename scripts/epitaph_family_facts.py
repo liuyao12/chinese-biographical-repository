@@ -14,6 +14,10 @@ def errors(chapters,records):
  return out
 
 def _valid(c,rs,b):
+ if isinstance(b,dict) and b.get('kind')=='fixed_institutional_html_epitaph':
+  try:from scripts.institutional_html_epitaph import valid as html_epitaph_valid
+  except ImportError:from institutional_html_epitaph import valid as html_epitaph_valid
+  return html_epitaph_valid(c,rs,b)
  if b.get('kind')=='epitaph_named_head_titled_ancestors':
   try:
    from scripts.epitaph_titled_ancestors import valid

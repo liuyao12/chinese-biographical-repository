@@ -2099,6 +2099,10 @@ def _validate_uncached(root=ROOT):
                               and age['qualified_source_term'].startswith(str(marker))
                               and age['qualified_source_term'].endswith(str(age.get('source_term')))
                               and any(age['qualified_source_term'] in e.get('quote', '') for e in age.get('evidence', [])), '個人報齡缺來源限定詞或傳聞狀態')
+                elif age.get('institution_epitaph_binding',{}).get('kind')=='fixed_institutional_html_epitaph':
+                    try:from scripts.institutional_html_epitaph import age_valid as institutional_age_valid
+                    except ImportError:from institutional_html_epitaph import age_valid as institutional_age_valid
+                    check(institutional_age_valid(age,chapter),'固定機構全銘報齡須保原數詞、主語及未推生年')
                 else:
                     check(direct_source_age_valid(age) or (chapter.get('annotation',{}).get('epitaph_life_binding',{}).get('kind')=='epitaph_named_head_dated_death_and_burial' and age.get('source_term')=='春秋'+str(age.get('source_number')) and source_age_number(age.get('source_number'))==age.get('value')), '來源年齡數值與原詞不符')
                 check(age.get('counting') == 'unspecified_source_age' and age.get('unit') == 'source_age_years'

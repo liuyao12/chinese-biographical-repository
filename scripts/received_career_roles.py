@@ -93,6 +93,10 @@ def analyse(record,ch):
  return p,roles,fields,slots
 
 def holding_valid(h,ch,root=None):
+ if isinstance(h,dict) and h.get('source_career_role',{}).get('kind')=='institutional_epitaph_core_titles':
+  try:from scripts.yuanzhan_core_titles import valid as yuanzhan_core_valid
+  except ImportError:from yuanzhan_core_titles import valid as yuanzhan_core_valid
+  return yuanzhan_core_valid(h,ch,root)
  if isinstance(h,dict)and h.get('source_career_role',{}).get('kind')=='wyd_song044_noble_grant':
   try:from scripts.wyd_song044_nobles import holding_valid as noble_valid
   except ImportError:from wyd_song044_nobles import holding_valid as noble_valid

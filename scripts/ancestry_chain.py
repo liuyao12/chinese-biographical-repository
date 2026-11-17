@@ -91,6 +91,10 @@ def consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=N
         except ImportError:
             from epitaph_ancestry import valid as epitaph_parent_valid
         return epitaph_parent_valid(member, rows, assertions, chapters)
+    if c.get('interpretation_basis') == 'institutional_epitaph_named_consecutive_ancestors':
+        try:from .institutional_html_epitaph import ancestor_valid
+        except ImportError:from institutional_html_epitaph import ancestor_valid
+        return ancestor_valid(member,rows,assertions,chapters)
     if c.get('interpretation_basis') in ('biographical_zu_fu_sequence', 'bound_unpunctuated_biography_zu_fu_sequence'):
         try:
             from .biographical_ancestry import biographical_zu_fu_parent_valid

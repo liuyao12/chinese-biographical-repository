@@ -47,6 +47,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 16,
+      "category": "",
+      "title": "杜畿、杜恕相關正文摘錄",
+      "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "故尚書僕射杜畿於孟津試船遂至覆没忠之至也朕甚愍焉追贈太僕諡曰戴侯子恕嗣",
+      "paragraph_ids": [
+        "c-sanguozhi-016-duji-dushu:unit023"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-016-duji-dushu:unit023:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-016-duji-dushu:unit023:m0000": "c-sanguozhi-016-duji-dushu:unit023"
+      },
+      "mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0000",
+          "mention_ids": [
+            "c-sanguozhi-016-duji-dushu:unit023:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-016",
+      "chapter_id": "c-sanguozhi-016-duji-dushu",
+      "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+      "work_title": "三國志"
+    },
+    {
       "number": 85,
       "category": "",
       "title": "《宋書》卷八十五謝莊完整本傳（編輯選錄題）",
@@ -3823,6 +3858,32 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-016-duji-dushu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-016",
+      "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+      "source": {
+        "title": "《三國志》卷十六杜畿、杜恕完整本傳及全部裴注",
+        "provider": "Kanripo",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "82e8ba333863c0ad47843c72d6237a2d32b10bff3a28ec7f51d614bcb34c5e7f",
+        "accessed_on": "2026-10-23",
+        "extent": "固定原檔91–406行：杜畿字伯侯起至阮坦喪官王衍哭之，止鄭渾獨立本傳前；44層次單元，不稱全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位文字見證，保來源歸屬。未核書影或實際古刊。",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只移除版面頁碼、換行¶與外層注括號；正文/裴注依原次序、逐字位置全覆蓋。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-songshu-085-xiezhuang",
       "work_id": "w-songshu",
       "book_id": "b-songshu-085",
@@ -5797,9 +5858,37 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-sgz016-duji-dushu-father",
+      "subject_person_id": "56f_8f7_e9f_A",
+      "predicate": "father",
+      "object_person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子恕嗣"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+          "quote": "故尚書僕射杜畿於孟津試船遂至覆没忠之至也朕甚愍焉追贈太僕諡曰戴侯子恕嗣",
+          "subject_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0000",
+          "object_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0001"
+        }
+      ],
+      "interpretation_note": "「子恕嗣」明記杜畿之子恕承嗣；此處只取直接父子關係，不由承嗣詞推斷報齡或其他親屬。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "56f_8f7_e9f": "杜畿"
+    "56f_8f7_e9f": "杜畿",
+    "56f_8f7_e9f_A": "杜恕"
   },
   "dates": [],
   "name_components": [
@@ -5832,7 +5921,34 @@
   "person_ids": [
     "56f_8f7_e9f"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-sgz016-duji-dushu-father",
+      "subject_person_id": "56f_8f7_e9f_A",
+      "predicate": "father",
+      "object_person_id": "56f_8f7_e9f",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子恕嗣"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-016",
+          "chapter_id": "c-sanguozhi-016-duji-dushu",
+          "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+          "paragraph_id": "c-sanguozhi-016-duji-dushu:unit023",
+          "quote": "故尚書僕射杜畿於孟津試船遂至覆没忠之至也朕甚愍焉追贈太僕諡曰戴侯子恕嗣",
+          "subject_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0000",
+          "object_person_mention_id": "c-sanguozhi-016-duji-dushu:unit023:m0001"
+        }
+      ],
+      "interpretation_note": "「子恕嗣」明記杜畿之子恕承嗣；此處只取直接父子關係，不由承嗣詞推斷報齡或其他親屬。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
