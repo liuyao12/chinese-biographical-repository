@@ -2,7 +2,7 @@ import {fetchData} from './data-cache.js';
 import {loadNameHistory, sourceNameGroups, nameHistoryHTML, typedAttestationsHTML} from './name-history.js';
 import {t, ui, bindText, getLocale} from './i18n.js';
 import {escapeHTML as h, safeURL} from './core.js';
-import {canonicalName, ageAtDeath, loadProfiles} from './profiles.js';
+import {canonicalName, ageAtDeath} from './profiles.js';
 import {loadWorks,workURL,readerURL,eccpDestination,profileReaderURL,occurrences} from './library.js';
 import {personHeading, chineseYearText, chineseYearLabel, profilesWithStubs} from './person-display.js';
 
@@ -68,40 +68,51 @@ function render(p) {
   document.title = `${canonicalName(p)} · 人文`;
 }
 
-(async () => {
-  try {
-    const [detailed, response, works] = await Promise.all([loadProfiles(), fetchData('data/catalog.json'),loadWorks(), loadNameHistory()]);
-    if (!response.ok) throw Error('The person catalogue could not be loaded.');
-    libraryCatalog=await response.json();libraryWorks=works;
-    const profiles = profilesWithStubs(libraryCatalog, detailed);
-    if (!profiles.length) throw Error('No profiles have been entered.');
-    const select = byId('profile-select');
-    select.innerHTML = profiles.map(p => `<option value="${h(p.id)}">${h(canonicalName(p))}</option>`).join('');
-    let routeSequence=0;
-    async function route() {
-      const sequence=++routeSequence;
-      let requested;
-      try { requested = decodeURIComponent(location.hash.slice(1)); } catch { requested = '(invalid)'; }
-      if (!requested) { history.replaceState(null, '', `#${encodeURIComponent(profiles[0].id)}`); requested = profiles[0].id; }
-      let profile = profiles.find(p => p.id === requested);
-      if (!profile) {
-        select.value = '';
-        byId('profile').innerHTML = `<h1>${ui("Profile not found")}</h1><p role="alert">${ui("No person record matches")} <code>${h(requested)}</code>.</p><p>${ui("Select a known person above or")} <a href="./">${ui("return to the reader")}</a>.</p>`;
-        document.title = 'Profile not found · 人文';
-        return;
-      }
-      select.value = profile.id;
-      if(profile.summaryOnly) {
-        const response=await fetchData(`data/people/${profile.id}.json`);
-        if(!response.ok)throw Error('Person record unavailable.');
-        const full=await response.json();if(full.id!==profile.id)throw Error('Mismatched person record.');profile=full;
-      }
-      if(sequence===routeSequence)render(profile);
-    }
-    select.onchange = () => { location.hash = encodeURIComponent(select.value); };
-    window.addEventListener('hashchange', ()=>route().catch(error=>{byId('profile').textContent=error.message;}));
-    await route();
-  } catch (error) {
-    byId('profile').innerHTML = `<h1>${ui("Profiles could not be loaded")}</h1><p role="alert">${h(error.message)}</p><p>${ui("Serve this directory over HTTP, rather than opening the file directly.")}</p>`;
+let routeSequence=0;
+async function route() {
+  const sequence=++routeSequence;
+  let requested;
+  try { requested = decodeURIComponent(location.hash.slice(1)); } catch { requested = '(invalid)'; }
+  const root=byId('profile');
+  if (!requested) {
+    root.innerHTML=`<h1>${ui('Search CBR people')}</h1><p>${ui('Open the CBR directory to search people across the collected historical works.')}</p><a href="cbr.html">${ui('Open CBR people directory →')}</a>`;
+    document.title='人物 · 人文';
+    return;
   }
-})();
+  if (!/^person-[a-z0-9-]+$/.test(requested)) {
+    root.innerHTML=`<h1>${ui('Profile not found')}</h1><p role="alert">${ui('No person record matches')} <code>${h(requested)}</code>.</p><a href="cbr.html">${ui('Open CBR people directory →')}</a>`;
+    return;
+  }
+
+  try {
+    const personResponse=await fetchData(`data/people/${requested}.json`);
+    if(sequence!==routeSequence)return;
+    let profile=personResponse.ok?await personResponse.json():null;
+    if(profile && profile.id!==requested)throw Error('Mismatched person identity.');
+    if(!profile){
+      const catalogResponse=await fetchData('data/catalog.json');
+      if(!catalogResponse.ok)throw Error('The source catalogue could not be loaded.');
+      libraryCatalog=await catalogResponse.json();
+      profile=profilesWithStubs(libraryCatalog,[]).find(person=>person.id===requested);
+    }
+    if(!profile){
+      root.innerHTML=`<h1>${ui('Profile not found')}</h1><p role="alert">${ui('No person record matches')} <code>${h(requested)}</code>.</p><a href="cbr.html">${ui('Open CBR people directory →')}</a>`;
+      document.title='Profile not found · 人文';
+      return;
+    }
+    if(sequence!==routeSequence)return;
+    render(profile);
+    const [catalogResult,worksResult]=await Promise.allSettled([
+      fetchData('data/catalog.json').then(async response=>{if(!response.ok)throw Error('Catalogue unavailable.');return response.json();}),
+      loadWorks(),loadNameHistory()
+    ]);
+    if(sequence!==routeSequence)return;
+    if(catalogResult.status==='fulfilled')libraryCatalog=catalogResult.value;
+    if(worksResult.status==='fulfilled')libraryWorks=worksResult.value;
+    render(profile);
+  } catch (error) {
+    if(sequence===routeSequence)root.innerHTML=`<h1>${ui('Profiles could not be loaded')}</h1><p role="alert">${h(error.message)}</p><a href="cbr.html">${ui('Open CBR people directory →')}</a>`;
+  }
+}
+window.addEventListener('hashchange',route);
+route();
