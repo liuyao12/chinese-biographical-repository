@@ -1,4 +1,6 @@
-import {profileReturnLink} from './profile-return.js';import {escapeHTML} from './core.js';
+import {loadPerson, loadFamily, personCard} from './cbr-person.js';
+import {profileReturnLink} from './profile-return.js';
+import {escapeHTML} from './core.js';
 
 let request = 0;
 const sourceRef = fetch('deployment.json').then(async r => {
