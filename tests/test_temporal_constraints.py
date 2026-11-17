@@ -200,6 +200,13 @@ class TemporalConstraintTests(unittest.TestCase):
                        {"id": "m-princess", "person_id": "princess",
                         "start": quote.index("公主"), "end": quote.index("公主") + 2, "surface": "公主"}]}]}
         self.assertEqual(errors(records, {"chapter-185": chapter}, {"princess", "wang"}), [])
+        citation["related_person_mention_id"] = "missing"
+        self.assertTrue(any("跨人物事件次序引文須錨定兩位人物" in error
+                            for error in errors(records, {"chapter-185": chapter}, {"princess", "wang"})))
+        citation["related_person_mention_id"] = "m-princess"
+        citation["quote_start"] = 1
+        self.assertTrue(any("未以字元位置精確錨定" in error
+                            for error in errors(records, {"chapter-185": chapter}, {"princess", "wang"})))
 
     def test_validator_binds_death_lower_bound_to_exact_visited_person_date(self):
         quote = "帝永徽三年幸公主第"
