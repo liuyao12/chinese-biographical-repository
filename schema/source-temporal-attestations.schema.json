@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://liuyao12.github.io/chinese-biographical-repository/schema/source-temporal-attestations.schema.json",
+  "title": "CBR source temporal attestations 0.1",
+  "type": "object",
+  "properties": {
+    "format_version": { "enum": ["0.1", "0.2"] },
+    "record_type": { "const": "source_temporal_attestation_set" },
+    "chapter_id": { "type": "string", "minLength": 1 },
+    "records": { "type": "array", "items": { "$ref": "#/$defs/record" }, "minItems": 1 }
+  },
+  "required": ["format_version", "record_type", "chapter_id", "records"],
+  "additionalProperties": false,
+  "$defs": {
+    "sourceAnchor": {
+      "type": "object",
+      "properties": {
+        "paragraph_id": { "type": "string", "minLength": 1 },
+        "start": { "type": "integer", "minimum": 0 },
+        "end": { "type": "integer", "minimum": 1 },
+        "surface": { "type": "string", "minLength": 1 }
+      },
+      "required": ["paragraph_id", "start", "end", "surface"],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "work_id": { "type": "string", "minLength": 1 },
+        "book_id": { "type": "string", "minLength": 1 },
+        "source_id": { "type": "string", "minLength": 1 },
+        "chapter_id": { "type": "string", "minLength": 1 },
+        "paragraph_id": { "type": "string", "minLength": 1 },
+        "quote": { "type": "string", "minLength": 1 },
+        "person_mention_id": { "type": "string", "minLength": 1 },
+        "person_reference_id": { "type": "string", "minLength": 1 }
+      },
+      "required": ["work_id", "book_id", "source_id", "chapter_id", "paragraph_id", "quote"],
+      "oneOf": [
+        { "required": ["person_mention_id"], "not": { "required": ["person_reference_id"] } },
+        { "required": ["person_reference_id"], "not": { "required": ["person_mention_id"] } }
+      ],
+      "additionalProperties": false
+    },
+    "duration": {
+      "type": "object",
+      "properties": {
+        "value": { "type": "integer", "minimum": 0 },
+        "unit": { "type": "string", "minLength": 1 },
+        "source_number": { "type": "string", "minLength": 1 },
+        "operator": { "enum": ["eq", "gt", "gte", "lt", "lte"] },
+        "counting": { "type": "string", "minLength": 1 }
+      },
+      "required": ["value", "unit", "source_number", "operator", "counting"],
+      "additionalProperties": false
+    },
+    "record": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "person_id": { "type": "string", "minLength": 1 },
+        "source_term": { "type": "string", "minLength": 1 },
+        "source_anchor": { "$ref": "#/$defs/sourceAnchor" },
+        "event_context": { "type": "string", "minLength": 1 },
+        "date_role": { "const": "source_context_not_title_boundary" },
+        "status": { "const": "source_attested" },
+        "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" }, "minItems": 1 },
+        "kind": { "enum": ["calendar_context", "reported_duration", "elapsed_since_death", "prospective_formula"] },
+        "normalized_date": { "type": ["object", "null"] },
+        "duration": { "oneOf": [{ "$ref": "#/$defs/duration" }, { "type": "null" }] },
+        "prospective": { "type": "boolean" },
+        "human_reviewed": { "const": false },
+        "reviewer": { "type": "string", "minLength": 1 },
+        "model": { "type": ["string", "null"] },
+        "reference_life_event_id": { "type": "string", "minLength": 1 },
+        "reference_temporal_attestation_id": { "type": "string", "minLength": 1 },
+        "references": { "type": "array", "items": { "type": "object" } },
+        "regnal_year_mapping": { "type": "object" },
+        "rationale": { "type": "string" }
+      },
+      "required": ["id", "person_id", "source_term", "source_anchor", "event_context", "date_role", "status", "evidence", "kind", "normalized_date", "duration", "prospective", "human_reviewed", "reviewer", "model"],
+      "additionalProperties": false
+    }
+  }
+}

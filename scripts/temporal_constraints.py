@@ -7,7 +7,7 @@ CONSTRAINT_KEYS = {
 }
 EVIDENCE_KEYS = {
     'work_id', 'book_id', 'source_id', 'chapter_id', 'paragraph_id', 'quote',
-    'person_mention_id', 'anchor'
+    'anchor'
 }
 ANCHOR_KEYS = {'start', 'end', 'surface'}
 DERIVATION_KEYS = {'kind', 'source_term', 'rationale'}
@@ -35,7 +35,7 @@ TARGET_PROPERTIES = {
 YEAR_PROPERTIES = {'birth_year', 'death_year', 'year', 'start_year', 'end_year'}
 
 
-def temporal_constraint_errors(record, chapters, person_ids, target_entities):
+def temporal_constraint_errors(record, chapters, person_ids, target_entities, temporal_attestations=None):
     errors = []
     if (record.get('format_version') != '0.1'
             or record.get('record_type') != 'person_temporal_constraint_set'
@@ -68,6 +68,16 @@ def temporal_constraint_errors(record, chapters, person_ids, target_entities):
             value = item['value']
             if not isinstance(value, dict):
                 raise ValueError('時間約束值無效')
+            if target['entity_type'] == 'temporal_attestation':
+                attestation = (temporal_attestations or {}).get(target['entity_id'])
+                duration = attestation.get('duration') if attestation else None
+                if (not attestation or target['property'] != 'elapsed_years'
+                        or not isinstance(duration, dict)
+                        or value.get('kind') != 'integer'
+                        or item['operator'] != duration.get('operator')
+                        or value.get('value') != duration.get('value')
+                        or value.get('unit') != duration.get('unit')):
+                    raise ValueError('時間約束須與目標來源時長的數值、單位及比較方式完全一致')
             if value.get('kind') == 'chinese_regnal_year':
                 if (set(value) != {'kind', 'era_name', 'year'} or not value['era_name']
                         or type(value['year']) is not int or value['year'] < 1):
@@ -96,7 +106,9 @@ def temporal_constraint_errors(record, chapters, person_ids, target_entities):
             if not isinstance(item['evidence'], list) or not item['evidence']:
                 raise ValueError('時間約束缺來源證據')
             for evidence in item['evidence']:
-                if set(evidence) != EVIDENCE_KEYS or evidence['chapter_id'] != chapter_id:
+                anchor_keys = set(evidence) & {'person_mention_id', 'person_reference_id'}
+                if (set(evidence) != EVIDENCE_KEYS | anchor_keys or len(anchor_keys) != 1
+                        or evidence['chapter_id'] != chapter_id):
                     raise ValueError('時間約束證據欄位或篇章不符')
                 paragraph = paragraphs.get(evidence['paragraph_id'])
                 if (not paragraph or evidence['work_id'] != chapter['work_id']
@@ -112,9 +124,17 @@ def temporal_constraint_errors(record, chapters, person_ids, target_entities):
                         or paragraph['text'][start:end] != anchor['surface']
                         or derivation['source_term'] != anchor['surface']):
                     raise ValueError('時間約束原詞字位不符')
-                mention = next((m for m in paragraph['mentions'] if m['id'] == evidence['person_mention_id']), None)
-                if (not mention or mention.get('kind') != 'person'
-                        or mention.get('person_id') != item['person_id']):
+                if 'person_mention_id' in evidence:
+                    person_anchor = next((m for m in paragraph['mentions']
+                                          if m['id'] == evidence['person_mention_id']), None)
+                    valid_person_anchor = bool(person_anchor and person_anchor.get('kind') == 'person'
+                                               and person_anchor.get('person_id') == item['person_id'])
+                else:
+                    person_anchor = next((r for r in chapter.get('annotation', {}).get('person_reference_occurrences', [])
+                                          if r.get('id') == evidence['person_reference_id']), None)
+                    valid_person_anchor = bool(person_anchor and person_anchor.get('paragraph_id') == evidence['paragraph_id']
+                                               and person_anchor.get('person_id') == item['person_id'])
+                if not valid_person_anchor:
                     raise ValueError('時間約束人物錨點不符')
         except (KeyError, TypeError, ValueError) as exc:
             errors.append(f"{item.get('id', 'unknown')}: 時間約束未綁定來源證據：{exc}")

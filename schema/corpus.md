@@ -110,6 +110,10 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `*-temporal-constraints.json` 的 `person_temporal_constraint_set` 將每段證據可支持的時間關係逐條保存，不只保存整理後的單一日期。欄位契約見 [`temporal-constraints.schema.json`](temporal-constraints.schema.json)。每條記錄指定人物、目標實體與屬性（如生卒事件的 `year`、爵位記錄的 `start_year`／`end_year`、報齡的 `value`）、比較運算子（`eq`、`lt`、`lte`、`gt`、`gte`）、時間值、推導方式、原文引句、來源／篇／段落、人物提及 ID 及原詞的 Unicode 字位錨點。目標以 `entity_type`、`entity_id`、`property` 組成，不需要自然語言解析。時間值可用年號年、中國曆年或有單位的整數；不同時間軸不應直接比較，須先有可追溯的曆法對照。
 
+時間約束的人物證據可錨定姓名提及或 `person_reference_occurrences`，兩者擇一，分別以 `person_mention_id` 或 `person_reference_id` 指定。這使以「天子」等稱號表述的事件仍能引用人物 ID，而不把稱號誤作姓名。`temporal_attestation` 目標須在同篇 `*-temporal.json` 中有對應記錄；其來源與事件位置由 [`source-temporal-attestations.schema.json`](source-temporal-attestations.schema.json) 約束。相對時長保留各自的原文、參照事件 ID、時長等式和計數方式；消費端可依指向事件組合，不應先把未明載的絕對年份灌入來源記錄。
+
+卷117第68段即存兩個分開的來源時長：`「既卒五歲」` 記司馬相如卒後至武帝首次祭后土為 `5 source_elapsed_years`，並指向本篇既有死亡事件及同段后土祭祀錨點；`「八年而」` 記后土初祭至後續中嶽、太山、梁父禪禮為 `8 source_elapsed_years`。兩項均為原文明示時距等式，計年方式標未詳；沒有據徐廣注或其他年表補算絕對卒年。人物時間包會分別帶回相如與武帝的時間記錄及約束。
+
 異本逐字對讀以篇為單位存於 `*-textual-witness-comparisons.json`，格式見 [`textual-witness-comparisons.schema.json`](textual-witness-comparisons.schema.json)。每筆固定底本引句必須與該篇指定段落及來源修訂相符；平行見證另列書名、固定 URL／修訂、篇頁定位、轉錄引文及核影狀態。差異項可記重句次數或字詞讀法。`reported_not_collated` 且 `adopted: false` 表示只報告可定位的數位見證差異，不代表校定或覆寫正文；應另記未核影像及文本層級限制。
 
 `status: source_attested` 僅用於原文直接明載的量；`source_entailed` 用於原文語義及明確曆法邊界直接導出的關係；需要上下文判讀的推論標為 `editorial_provisional`，保存理由且不得冒稱人工覆核。例：「永徽中卒」可形成死亡年 \(\geq\) 永徽元年及死亡年 \(\leq\) 永徽六年兩條各自連回該段引文的約束；另一段若記永徽三年親往公主第，並據其語境判為她當時在世，可另存死亡年 \(\geq\) 永徽三年，並標明這是由「在世於該事件」推出的暫定關係，不把它改寫成直接死亡記載。

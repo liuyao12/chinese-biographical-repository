@@ -2280,17 +2280,23 @@ def _validate_uncached(root=ROOT):
         for report in age_report_groups.values():
             check('qualified_report' in report['statuses'], '報齡替代傳聞缺同組主報齡')
         try:
-            from scripts.song041_source_context import temporal_errors, unresolved_kin_errors
+            from scripts.song041_source_context import temporal_errors as song041_temporal_errors, unresolved_kin_errors
+            from scripts.source_temporal_attestations import source_temporal_attestation_errors
         except ImportError:
-            from song041_source_context import temporal_errors, unresolved_kin_errors
+            from song041_source_context import temporal_errors as song041_temporal_errors, unresolved_kin_errors
+            from source_temporal_attestations import source_temporal_attestation_errors
         context_events = {e['id']:e for path in (root / 'corpus').glob('*/*-life-events.json') for e in json.loads(path.read_text())['events']}
         for path in (root / 'corpus').glob('*/*-temporal.json'):
-            errors.extend(temporal_errors(json.loads(path.read_text()), chapters, pids, normalized_date_errors, context_events))
+            record = json.loads(path.read_text())
+            errors.extend(source_temporal_attestation_errors(record, chapters, pids, context_events, normalized_date_errors))
+            if record.get('chapter_id') == 'c-songshu-041-parents':
+                errors.extend(song041_temporal_errors(record, chapters, pids, normalized_date_errors, context_events))
         try:
             from scripts.temporal_constraints import temporal_constraint_errors
         except ImportError:
             from temporal_constraints import temporal_constraint_errors
         temporal_constraint_ids = set()
+        temporal_attestations_by_id = {}
         temporal_targets = {('person', pid): pid for pid in pids}
         temporal_targets.update({('life_event', event_id): event['person_id']
                                  for event_id, event in context_events.items()})
@@ -2303,9 +2309,11 @@ def _validate_uncached(root=ROOT):
         for path in (root / 'corpus').glob('*/*-temporal.json'):
             for attestation in json.loads(path.read_text(encoding='utf-8')).get('records', []):
                 temporal_targets[('temporal_attestation', attestation['id'])] = attestation['person_id']
+                temporal_attestations_by_id[attestation['id']] = attestation
         for path in (root / 'corpus').glob('*/*-temporal-constraints.json'):
             record = json.loads(path.read_text(encoding='utf-8'))
-            errors.extend(temporal_constraint_errors(record, chapters, pids, temporal_targets))
+            errors.extend(temporal_constraint_errors(
+                record, chapters, pids, temporal_targets, temporal_attestations_by_id))
             for constraint in record.get('constraints', []):
                 constraint_id = constraint.get('id')
                 if isinstance(constraint_id, str) and constraint_id in temporal_constraint_ids:

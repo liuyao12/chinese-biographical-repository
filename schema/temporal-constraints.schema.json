@@ -26,6 +26,7 @@
         "paragraph_id": { "type": "string", "minLength": 1 },
         "quote": { "type": "string", "minLength": 1 },
         "person_mention_id": { "type": "string", "minLength": 1 },
+        "person_reference_id": { "type": "string", "minLength": 1 },
         "anchor": {
           "type": "object",
           "properties": {
@@ -37,7 +38,11 @@
           "additionalProperties": false
         }
       },
-      "required": ["work_id", "book_id", "source_id", "chapter_id", "paragraph_id", "quote", "person_mention_id", "anchor"],
+      "required": ["work_id", "book_id", "source_id", "chapter_id", "paragraph_id", "quote", "anchor"],
+      "oneOf": [
+        { "required": ["person_mention_id"], "not": { "required": ["person_reference_id"] } },
+        { "required": ["person_reference_id"], "not": { "required": ["person_mention_id"] } }
+      ],
       "additionalProperties": false
     },
     "time_value": {
