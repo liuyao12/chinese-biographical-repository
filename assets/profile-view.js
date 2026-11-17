@@ -12,7 +12,7 @@ const link = (url, label) => {
 };
 const byId = id => document.getElementById(id);
 
-let libraryCatalog=null,libraryWorks=[];
+let libraryCatalog={sources:[],mentions:[],entities:[]},libraryWorks=[];
 function render(p) {
   const sourceLink = key => link(p.sources[key]?.url, p.sources[key]?.title || key);
   const age = ageAtDeath(p);
