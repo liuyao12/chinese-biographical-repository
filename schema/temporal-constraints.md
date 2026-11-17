@@ -95,7 +95,7 @@
 - `within_interval` 使用 `interval`，內含 `earliest` 與 `latest` 兩個完整日期值；任一端點可為 `null` 表示無界。每個非空端點各有自己的 `inclusive`，不可只給一個共用端點旗標。
 - `after_event` 與 `not_before_event` 使用 `related_event_id`，分別表示嚴格晚於及不早於該事件。兩事件需能映射到同一比較座標；不可從敘事順序自行假定間隔。
 
-年級日期值應包含 `calendar`、`year_system`、`precision`、數值 `year` 及 `inclusive`。月／日精度時再加入數值 `month`／`day`。比較前要求日曆、年序與精度相容；跨曆法轉換必須另有具來源的映射，不能由消費端猜測。日期區間採閉合或明示開放端點；沒有界限就用 `null`，不可用極小或極大年份代替。
+日期值須包含 `calendar`、`year_system`、`precision`、整數 `year` 及布林 `inclusive`。`year_system` 固定為 `astronomical`（含公元零年的絕對年）、`historical`（不設公元零年的絕對年）或 `regnal`（年號內序數年）；`regnal` 必須另有 `era_id`，此時 `year: 3` 即該年號第三年，不是公元三年。絕對年不得帶 `era_id`。月／日精度時再加入數值 `month`／`day`。比較前要求日曆、年序、年號座標與精度相容；跨曆法或絕對年／年號年的轉換必須另有具來源的映射，不能由消費端猜測。日期區間採閉合或明示開放端點；沒有界限就用 `null`，不可用極小或極大年份代替。
 
 ## 推導規則與證據
 
