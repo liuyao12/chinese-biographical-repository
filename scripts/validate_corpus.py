@@ -1049,8 +1049,19 @@ def _validate_uncached(root=ROOT):
                     selected=[]
                     for mid in mids:
                         mention=mentions.get(mid)
-                        check(bool(mention) and mention[1]==e['paragraph_id'] and mention[2]['person_id'] in ids,'同指決定提及不屬於證據段落或端點')
-                        if mention:selected.append(mention[2])
+                        reference=next((r for chapter in chapters.values()
+                                        for r in chapter.get('annotation', {}).get('person_reference_occurrences', [])
+                                        if r.get('id') == mid), None)
+                        if mention:
+                            check(mention[1]==e['paragraph_id'] and mention[2]['person_id'] in ids,
+                                  '同指決定提及不屬於證據段落或端點')
+                            selected.append(mention[2])
+                        else:
+                            check(bool(reference) and reference['paragraph_id']==e['paragraph_id']
+                                  and reference['person_id'] in ids,
+                                  '同指決定人物指涉不屬於證據段落或端點')
+                            if reference:
+                                selected.append(reference)
                     if hit and quote:
                         starts=[i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(quote,i)]
                         enclosed=any(all(i<=m['start'] and m['end']<=i+len(quote) for m in selected) for i in starts)
