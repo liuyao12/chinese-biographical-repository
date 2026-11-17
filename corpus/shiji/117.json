@@ -50,7 +50,7 @@
       "賁育保留單字原稱，依顏師古注分接孟賁、夏育；二世依秦亡語境及秦始皇本紀明稱暫接胡亥，不補吊古事件紀年。",
       "第52至54段岐伯、羡門依古注與平行正文接既有傳說人物；其餘神話與自然用語分辨中，賦辭不作歷史死亡官爵事件。",
       "所忠及忠省稱限取書敘事；第45段卓氏婚暫接文君，取書段其妻仍未定，文君只列不窮盡候選。",
-      "第59至66段受頌君主及陛下、天子用稱依框架與古注暫接武帝；天帝另存非個人判讀，大司馬仍未定，不由想像對話推實任官員。",
+      "第59至66段受頌君主及陛下、天子用稱依框架與古注暫接武帝；天帝另存非個人判讀。第59段大司馬依《文選》注及《史記評林》眉批判為相如假設的發言角色，不建歷史人物ID；注本依據為掃描OCR，尚未核書影。",
       "湯武為並稱，分別存兩處來源名號，不補生平。",
       "平陵侯依集解徐廣釋名及卷111授爵正文暫接蘇建；五公子由著作題名引出仍未定，不猜補。",
       "第68段卒後五歲八年為相對時間，不直接轉作公元年。",
@@ -3525,7 +3525,30 @@
           "surface": "二后",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "此稱指涉仍未定。孟康注見《文選》卷48六臣注，釋「二后」為文王、武王；《史記評林》卷117所錄《漢書音義》注文則作「二后謂文王」。兩來源的可檢索文字均出自掃描OCR，尚未核對原頁字形，故保留兩說而不連人物ID。",
+          "commentary_sources": [
+            {
+              "id": "shiji117-ernhou-wenxuan-mengkang",
+              "title": "《文選》卷48〈封禪文〉六臣注（國家圖書館藏《文選注》第25冊）",
+              "attribution": "孟康注，經李善注錄",
+              "quote": "孟康曰：襁褓謂成王也。二后謂文武也。",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/NLC892-411999027315-4319_%E6%96%87%E9%81%B8%E6%B3%A8_%E7%AC%AC25%E5%86%8A.pdf",
+              "locator": "卷48〈封禪文〉，正文「業隆於繦褓而崇冠於二后」下注；PDF葉碼待核。",
+              "transcription_status": "PDF文字擷取；未目視核對書影",
+              "image_verified": false
+            },
+            {
+              "id": "shiji117-ernhou-pinglin-hanshu-yinyi",
+              "title": "《史記評林》所收〈司馬相如列傳〉注文（國立公文書館掃描檔）",
+              "attribution": "《漢書音義》注文，經《史記評林》輯錄；歸屬文字依掃描OCR",
+              "quote": "二后謂文王。",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/NAJDA-279-0033_%E5%8F%B2%E8%A8%98%E8%A9%95%E6%9E%9746.pdf",
+              "locator": "〈司馬相如列傳〉「崇冠於二后」下注；PDF葉碼待核。",
+              "transcription_status": "PDF文字擷取；未目視核對書影",
+              "image_verified": false
+            }
+          ]
         },
         {
           "id": "c-shiji-117-xiangru:m058-0362",
@@ -3552,7 +3575,30 @@
           "surface": "大司馬",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "不指派真實歷史人物。《文選》卷48六臣注稱大司馬為官號，並說「相如假立之以發後辭」；《史記評林》眉批亦稱此段「託以大司馬進言」。兩處均由掃描OCR擷取，尚未核對原頁字形；本錨點只保留賦文中的假設發言角色。",
+          "commentary_sources": [
+            {
+              "id": "shiji117-dasima-wenxuan-liang",
+              "title": "《文選》卷48〈封禪文〉六臣注（國家圖書館藏《文選注》第25冊）",
+              "attribution": "向曰（六臣注）",
+              "quote": "大司馬官號也。相如假立之以發後辭。",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/NLC892-411999027315-4319_%E6%96%87%E9%81%B8%E6%B3%A8_%E7%AC%AC25%E5%86%8A.pdf",
+              "locator": "卷48〈封禪文〉，正文「於是大司馬進曰」下注；PDF葉碼待核。",
+              "transcription_status": "PDF文字擷取；未目視核對書影",
+              "image_verified": false
+            },
+            {
+              "id": "shiji117-dasima-pinglin-yangshen",
+              "title": "《史記評林》所收〈司馬相如列傳〉眉批（國立公文書館掃描檔）",
+              "attribution": "楊慎眉批",
+              "quote": "此段託以大司馬進言。",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/NAJDA-279-0033_%E5%8F%B2%E8%A8%98%E8%A9%95%E6%9E%9746.pdf",
+              "locator": "〈司馬相如列傳〉大司馬進言段眉批；PDF葉碼待核。",
+              "transcription_status": "PDF文字擷取；未目視核對書影",
+              "image_verified": false
+            }
+          ]
         },
         {
           "id": "c-shiji-117-xiangru:m059-0009",
