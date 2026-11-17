@@ -356,6 +356,26 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             identities.extend(d for d in record['decisions'] if d.get('person_id') in ids
                               or (kind == 'person_identity_decision_set'
                                   and ids.intersection(identity_participant_ids(d))))
+    all_temporal_constraints = [
+        c for r in records if r.get('record_type') == 'temporal_constraint_set'
+        for c in r.get('constraints', []) if isinstance(c, dict)
+    ]
+    event_index = {
+        e['id']: e for r in records
+        if r.get('record_type') in ('person_life_event_assertion_set', 'table_person_life_event_assertion_set', 'person_event_assertion_set')
+        for e in r.get('events', []) if isinstance(e, dict) and isinstance(e.get('id'), str)
+    }
+    try:
+        from .temporal_constraints import temporal_constraint_closure, calculate_temporal_constraint_results
+    except ImportError:
+        from temporal_constraints import temporal_constraint_closure, calculate_temporal_constraint_results
+    temporal_constraints = temporal_constraint_closure(all_temporal_constraints, ids)
+    temporal_constraint_events = [event_index[event_id] for event_id in sorted({
+        event_id for c in temporal_constraints
+        for event_id in (c.get('target_event_id'), c.get('related_event_id'))
+        if event_id in event_index
+    })]
+    temporal_constraint_results = calculate_temporal_constraint_results(temporal_constraints)
     distinctions = []
     for record in records:
         if record.get('record_type') != 'person_distinction_set':
@@ -799,6 +819,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'source_details': source_details} if source_details else {}),
             **({'source_temporal_attestations': source_temporal_attestations} if source_temporal_attestations else {}),
             **({'temporal_constraints': temporal_constraints} if temporal_constraints else {}),
+            **({'temporal_constraint_events': temporal_constraint_events} if temporal_constraint_events else {}),
+            **({'temporal_constraint_results': temporal_constraint_results} if temporal_constraint_results else {}),
             **({'unresolved_kinship_references': unresolved_kinship_references} if unresolved_kinship_references else {}),
             **({'relative_birth_order_decisions': order_decisions} if order_decisions else {}),
             **({'referent_interpretations': referent_cases} if referent_cases else {}),
