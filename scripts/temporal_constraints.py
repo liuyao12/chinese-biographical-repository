@@ -166,8 +166,10 @@ def errors(records, chapters, person_ids):
                     if (input_id == target_id or input_event.get("event_type") != "visit"
                             or input_event.get("participant_role") != "visited_person"
                             or not input_event.get("date_expression")
-                            or not (input_event.get("normalized_date") or input_event.get("normalized_date_range"))):
-                        errors.append(f"在世推導須使用有日期的被訪者事件且不得自我引用：{cid}")
+                            or not isinstance(input_event.get("normalized_date"), dict)):
+                        errors.append(f"在世推導須使用有精確正規化日期的被訪者事件且不得自我引用：{cid}")
+                    elif item.get("bound") != input_event["normalized_date"]:
+                        errors.append(f"死亡下界必須等於訪問事件的正規化日期：{cid}")
             elif derivation is not None:
                 errors.append(f"直接日期約束不得附 derivation：{cid}")
             if operator in ("equals", "not_before", "not_after"):
@@ -197,8 +199,9 @@ def errors(records, chapters, person_ids):
                         errors.append(f"區間約束同年端點形成空集：{cid}")
             elif operator in ("after_event", "not_before_event"):
                 related_id = item.get("related_event_id")
-                if not isinstance(related_id, str) or related_id not in events or any(k in item for k in ("bound", "interval")):
-                    errors.append(f"相對事件約束缺少有效 related_event_id 或含有多餘界限：{cid}")
+                if (not isinstance(related_id, str) or related_id not in events
+                        or related_id == target_id or any(k in item for k in ("bound", "interval"))):
+                    errors.append(f"相對事件約束缺少有效且不同於目標事件的 related_event_id，或含有多餘界限：{cid}")
             if type(item.get("human_reviewed")) is not bool:
                 errors.append(f"日期約束 human_reviewed 須為布林值：{cid}")
             evidence = item.get("evidence")
@@ -257,6 +260,10 @@ def intersect_year_constraints(constraints):
         if op not in ("equals", "within_interval", "not_before", "not_after"):
             unsupported_ids.append(item.get("id"))
             continue
+        if op == "equals":
+            value = item.get("bound")
+            if not isinstance(value, dict) or value.get("inclusive") is not True:
+                raise ValueError("等值日期約束必須包含其唯一日期")
         bounds = []
         if op == "within_interval":
             interval = item.get("interval", {})
