@@ -27,6 +27,10 @@ def _date_errors(value, label):
         errors.append(f"{label}.precision無效")
     if precision in ("month", "day") and (type(value.get("month")) is not int or not 1 <= value["month"] <= 12):
         errors.append(f"{label}月精度須有有效月份")
+    if precision == "year" and ("month" in value or "day" in value):
+        errors.append(f"{label}年精度不得含月份或日期")
+    if precision == "month" and "day" in value:
+        errors.append(f"{label}月精度不得含日期")
     if precision == "day" and (type(value.get("day")) is not int or not 1 <= value["day"] <= 31):
         errors.append(f"{label}日精度須有有效日期")
     if "era_id" in value and (not isinstance(value["era_id"], str) or not value["era_id"]):
@@ -197,23 +201,17 @@ def intersect_year_constraints(constraints):
             if target is None or (number > target if side == "earliest" else number < target):
                 if side == "earliest":
                     lower = number
+                    lower_inclusive = inclusive
                 else:
                     upper = number
+                    upper_inclusive = inclusive
                 ids.clear()
                 ids.append(item.get("id"))
             elif number == target:
                 ids.append(item.get("id"))
-            # Convert an open endpoint to the next representable year boundary.
-            # Keep openness explicitly in the returned endpoint.
-            if side == "earliest":
-                if "lower_inclusive" not in locals() or number > (lower if lower is not None else number):
-                    lower_inclusive = inclusive
-                elif number == lower:
+                if side == "earliest":
                     lower_inclusive = lower_inclusive and inclusive
-            else:
-                if "upper_inclusive" not in locals() or number < (upper if upper is not None else number):
-                    upper_inclusive = inclusive
-                elif number == upper:
+                else:
                     upper_inclusive = upper_inclusive and inclusive
     if lower is not None and "lower_inclusive" not in locals():
         lower_inclusive = True
