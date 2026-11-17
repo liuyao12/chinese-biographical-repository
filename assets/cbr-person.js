@@ -26,8 +26,20 @@ let sourceWorkTitles,sourceChapterDirectory;
 const detailWorkTitles = () => sourceWorkTitles ||= loadWorkTitles();
 const detailChapterDirectory = () => sourceChapterDirectory ||= loadChapterDirectory();
 export const profileURL = (id, tableID = '') => 'person.html' + (/^shiji-\d{3}$/.test(tableID) ? '?table=' + encodeURIComponent(tableID) : '') + '#' + encodeURIComponent(id);
-export async function loadPerson(id) {
-  if (!cache.has(id)) cache.set(id, fetch('data/corpus/profiles/' + encodeURIComponent(id) + '.json').then(async r => {if (!r.ok) throw Error('人物資料尚未載入'); const p = await r.json(); if (!(p.occurrences?.length || (p.titles || []).some(challengedOffice) || p.source_details?.length)) return p; const [titles,directory]=await Promise.all([detailWorkTitles(),detailChapterDirectory()]); return {...p,source_work_titles:titles,source_chapter_directory:directory};}).catch(e => {cache.delete(id); throw e;}));
+export async function loadPerson(id, initial = null) {
+  if (!cache.has(id)) {
+    const person = initial?.id === id
+      ? Promise.resolve(initial)
+      : fetch('data/corpus/profiles/' + encodeURIComponent(id) + '.json').then(async r => {
+        if (!r.ok) throw Error('人物資料尚未載入');
+        return r.json();
+      });
+    cache.set(id, person.then(async p => {
+      if (!(p.occurrences?.length || (p.titles || []).some(challengedOffice) || p.source_details?.length)) return p;
+      const [titles,directory] = await Promise.all([detailWorkTitles(),detailChapterDirectory()]);
+      return {...p,source_work_titles:titles,source_chapter_directory:directory};
+    }).catch(e => {cache.delete(id); throw e;}));
+  }
   return cache.get(id);
 }
 const sourceEvidenceLinks = (evidence, sources = []) => (evidence || []).map(e => {
