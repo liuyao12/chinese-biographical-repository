@@ -2105,6 +2105,22 @@ def _validate_uncached(root=ROOT):
                       and age.get('birth_year') is None and age.get('status') == 'source_attested',
                       '來源年齡不得推定計歲方式或出生年')
                 check(age['person_id'] in pids and bool(age['evidence']), '來源年齡缺人物或證據')
+                if 'age_year_relation' in age:
+                    relation = age['age_year_relation']
+                    expected_relation = {
+                        'rule_id': 'traditional_sui_age_year_difference_equals_age_minus_one',
+                        'status': 'editorial_conditional', 'counting_method': 'sui',
+                        'left': {'event_role': 'death', 'quantity': 'chinese_lunisolar_year_label'},
+                        'operator': 'subtract_equals',
+                        'right': {'event_role': 'birth', 'quantity': 'chinese_lunisolar_year_label'},
+                        'value': age.get('value', 0) - 1 if type(age.get('value')) is int else None,
+                        'unit': 'chinese_lunisolar_year_label',
+                        'condition': '此式只在採納虛歲（歲）計法時成立；不等於來源明載卒年或生年。'
+                    }
+                    check(relation == expected_relation
+                          and age.get('date_expression') is None
+                          and age.get('birth_year') is None,
+                          '虛歲年標籤等式須保持條件式，不得倒推出生卒年')
                 for evidence in age['evidence']:
                     hit = paragraphs.get(evidence['paragraph_id']); mention = mentions.get(evidence.get('person_mention_id'))
                     check(bool(hit) and hit[0] == chapter['id'] == evidence['chapter_id']
@@ -2307,7 +2323,7 @@ def _validate_uncached(root=ROOT):
                 check(wyd_life_valid(record,root),'武英殿謝晦篇死亡須依具名列舉、主語承接及同段原免，不借日期或刪矛盾')
             for event in record['events']:
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
-                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
+                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession', 'visit')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
                 if 'received_source_frame' in event:
                     try:from scripts.fixed_received_career import nonholding_valid
@@ -2336,6 +2352,20 @@ def _validate_uncached(root=ROOT):
                     check(accession_death_interval_valid(event, paragraphs, mentions), '未逾年須連同人立後死亡的原句，不得當生齡或推曆年')
                 if record.get('record_type') == 'person_event_assertion_set' and event['event_type'] == 'recruitment':
                     check(any('徵' in e.get('quote', '') for e in event.get('evidence', [])), '徵召事件缺少原文徵召用語')
+                if record.get('record_type') == 'person_event_assertion_set' and event['event_type'] == 'visit':
+                    date = event.get('temporal_coordinate')
+                    check(event.get('participant_role') == 'visited_person'
+                          and isinstance(event.get('date_expression'), str) and bool(event['date_expression'])
+                          and isinstance(date, dict)
+                          and set(date) == {'calendar', 'year_system', 'era_id', 'precision', 'year', 'inclusive'}
+                          and date.get('calendar') == 'chinese_civil'
+                          and date.get('year_system') == 'regnal'
+                          and isinstance(date.get('era_id'), str) and bool(date['era_id'])
+                          and date.get('precision') == 'year' and type(date.get('year')) is int and date['year'] > 0
+                          and type(date.get('inclusive')) is bool
+                          and isinstance(event.get('source_term'), str)
+                          and any(event['source_term'] in e.get('quote', '') for e in event.get('evidence', [])),
+                          '在世訪問事件須有受訪者角色、年號年座標及原文錨點')
                 if event['event_type'] in ('noble_state_abolition', 'noble_title_succession'):
                     try:
                         from scripts.noble_state_abolition import valid as noble_abolition_valid

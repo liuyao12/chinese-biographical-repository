@@ -1,0 +1,164 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-xintangshu-083-princesses-tongan",
+  "work_id": "w-xintangshu",
+  "book_id": "b-xintangshu-083",
+  "source_id": "s-xintangshu-083-princesses-ws2432856",
+  "title": "列傳第八・諸帝公主（同安公主條）",
+  "source": {
+    "title": "新唐書／卷八十三",
+    "provider": "維基文庫",
+    "url": "https://zh.wikisource.org/wiki/新唐書/卷83",
+    "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8/%E5%8D%B783&oldid=2432856",
+    "revision_id": 2432856,
+    "accessed_on": "2026-11-17",
+    "extent": "摘錄同安公主一傳；非全卷。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "edition": "維基文庫數位文本，底本未標明，未核實為武英殿本；本條僅作來源引文見證，不宣稱底本。",
+    "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留固定修訂及署名。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "normalization": {
+      "character_conversion": {},
+      "note": "保留維基文庫固定修訂之繁體文字與標點；底本尚未核定。"
+    },
+    "preferred_base_reference": "https://ctext.org/library.pl?if=gb&res=77704",
+    "preferred_base_note": "CText目錄列武英殿二十四史本《新唐書》；此篇文字尚未能從該轉錄端點核對，故不以本數位文本冒充武英殿本。",
+    "parallel_digital_witness": {
+      "title": "識典古籍《新唐書》諸公主列傳第八",
+      "url": "https://www.shidianguji.com/zh/book/LS0017/chapter/LS0017_315",
+      "checked_on": "2026-11-17",
+      "scope": "same passage; digital transcription only",
+      "edition": "未標明；不是底本著錄",
+      "note": "本頁同載同安公主條，可作數位文字對讀；頁面未著錄其轉錄底本，故不宣稱武英殿本。"
+    }
+  },
+  "annotation": {
+    "status": "named_mentions_first_pass",
+    "reviewer": "Codex（AI代理）",
+    "model": null,
+    "human_reviewed": false,
+    "method": "依本傳上下文標記同安公主、其大長公主稱號及本段所見其他具名人物；傳末省稱「裕」按緊接前句同一傳主王裕回標。",
+    "scope_note": "此為替代數位文本見證，未作武英殿本校勘；原文「年八十六」照錄，不以鄰近「永徽初」推定卒年。",
+    "age_assertions": [
+      {
+        "id": "age-tongan-newtang-86",
+        "person_id": "x8h_3dr_ki5",
+        "value": 86,
+        "source_number": "八十六",
+        "source_term": "年八十六",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-xintangshu",
+            "book_id": "b-xintangshu-083",
+            "chapter_id": "c-xintangshu-083-princesses-tongan",
+            "source_id": "s-xintangshu-083-princesses-ws2432856",
+            "paragraph_id": "c-xintangshu-083-princesses-tongan:p001",
+            "quote": "同安公主，高祖同母媦也。下嫁隋州刺史王裕。貞觀時，以屬尊進大長公主。嘗有疾，太宗躬省視，賜縑五百，姆侍皆有賚予。永徽初，賜實戶三百。薨，年八十六。裕，隋司徒柬之子，終開府儀同三司。",
+            "person_mention_id": "c-xintangshu-083-princesses-tongan:m0001"
+          }
+        ],
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "interpretation_note": "來源原詞為「年八十六」，不含「歲」字；依使用者採納的「歲」讀法，另記條件式算術關係，不將計歲判讀冒作原文。",
+        "age_year_relation": {
+          "rule_id": "traditional_sui_age_year_difference_equals_age_minus_one",
+          "status": "editorial_conditional",
+          "counting_method": "sui",
+          "left": {
+            "event_role": "death",
+            "quantity": "chinese_lunisolar_year_label"
+          },
+          "operator": "subtract_equals",
+          "right": {
+            "event_role": "birth",
+            "quantity": "chinese_lunisolar_year_label"
+          },
+          "value": 85,
+          "unit": "chinese_lunisolar_year_label",
+          "condition": "此式只在採納虛歲（歲）計法時成立；不等於來源明載卒年或生年。"
+        }
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-xintangshu-083-princesses-tongan:p001",
+      "text": "同安公主，高祖同母媦也。下嫁隋州刺史王裕。貞觀時，以屬尊進大長公主。嘗有疾，太宗躬省視，賜縑五百，姆侍皆有賚予。永徽初，賜實戶三百。薨，年八十六。裕，隋司徒柬之子，終開府儀同三司。",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-xintangshu-083-princesses-tongan:m0001",
+          "start": 0,
+          "end": 4,
+          "surface": "同安公主",
+          "kind": "person",
+          "person_id": "x8h_3dr_ki5",
+          "status": "source_identified"
+        },
+        {
+          "id": "c-xintangshu-083-princesses-tongan:m0002",
+          "start": 5,
+          "end": 7,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "b6z_hc8_ury",
+          "status": "source_identified"
+        },
+        {
+          "id": "c-xintangshu-083-princesses-tongan:m0003",
+          "start": 18,
+          "end": 20,
+          "surface": "王裕",
+          "kind": "person",
+          "person_id": "fpi_m0y_r5g",
+          "status": "source_identified"
+        },
+        {
+          "id": "c-xintangshu-083-princesses-tongan:m0005",
+          "start": 29,
+          "end": 33,
+          "surface": "大長公主",
+          "kind": "person",
+          "person_id": "x8h_3dr_ki5",
+          "status": "source_identified"
+        },
+        {
+          "id": "c-xintangshu-083-princesses-tongan:m0006",
+          "start": 38,
+          "end": 40,
+          "surface": "太宗",
+          "kind": "person",
+          "person_id": "mn6_uwn_7dm",
+          "status": "source_identified"
+        },
+        {
+          "id": "c-xintangshu-083-princesses-tongan:m0008",
+          "start": 73,
+          "end": 74,
+          "surface": "裕",
+          "kind": "person",
+          "person_id": "fpi_m0y_r5g",
+          "status": "source_identified"
+        },
+        {
+          "id": "c-xintangshu-083-princesses-tongan:m0007",
+          "start": 78,
+          "end": 80,
+          "surface": "柬之",
+          "kind": "person",
+          "person_id": "9ay_y5f_qxp",
+          "status": "source_identified"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "73e779d1c33f4464da3b7091a71c0d85583a8524cc835285466ecfb0221ec3d6"
+}

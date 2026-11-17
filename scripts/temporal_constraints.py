@@ -182,13 +182,14 @@ def errors(records, chapters, person_ids):
                             errors.append(f"日期約束輸入事件人物不符：{cid}")
                         if operator != "not_before" or target is None or target.get("event_type") != "death":
                             errors.append(f"在世推導規則僅能產生同一人物的死亡下界：{cid}")
+                        visit_date = input_event.get("temporal_coordinate")
                         if (input_id == target_id or input_event.get("event_type") != "visit"
                                 or input_event.get("participant_role") != "visited_person"
                                 or not input_event.get("date_expression")
-                                or not isinstance(input_event.get("normalized_date"), dict)):
-                            errors.append(f"在世推導須使用有精確正規化日期的被訪者事件且不得自我引用：{cid}")
-                        elif item.get("bound") != input_event["normalized_date"]:
-                            errors.append(f"死亡下界必須等於訪問事件的正規化日期：{cid}")
+                                or not isinstance(visit_date, dict)):
+                            errors.append(f"在世推導須使用有精確 temporal_coordinate 的被訪者事件且不得自我引用：{cid}")
+                        elif item.get("bound") != visit_date:
+                            errors.append(f"死亡下界必須等於訪問事件的時間座標：{cid}")
                 elif derivation.get("rule_id") == "narrative_sequence_implies_event_order":
                     valid_relation = (
                         operator == "after_event" and target is not None
@@ -263,7 +264,8 @@ def errors(records, chapters, person_ids):
                     errors.append(f"日期約束引文段落不存在：{cid}")
                     continue
                 chapter, paragraph = hit
-                if any(citation.get(k) != chapter.get(k) for k in ("work_id", "book_id", "source_id", "chapter_id")):
+                if (any(citation.get(k) != chapter.get(k) for k in ("work_id", "book_id", "source_id"))
+                        or citation.get("chapter_id") != chapter.get("id")):
                     errors.append(f"日期約束引文來源座標不符：{cid}")
                 paragraph_text = paragraph.get("text")
                 quote_start, quote_end = citation.get("quote_start"), citation.get("quote_end")

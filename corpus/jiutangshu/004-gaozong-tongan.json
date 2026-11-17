@@ -1,0 +1,66 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-jiutangshu-004-gaozong-tongan-visit",
+  "work_id": "w-jiutangshu",
+  "book_id": "b-jiutangshu-004",
+  "source_id": "s-jiutangshu-004-gaozong-ws11616345",
+  "title": "本紀第四・高宗上（永徽三年同安大長公主條）",
+  "source": {
+    "title": "舊唐書／卷四",
+    "provider": "維基文庫",
+    "url": "https://zh.wikisource.org/wiki/舊唐書/卷4",
+    "permalink": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B74&oldid=11616345",
+    "revision_id": 11616345,
+    "accessed_on": "2026-11-17",
+    "extent": "摘錄永徽三年標題及同年冬十月一條；非全卷。標題與條文以結構換行保存在同一段，便於錨定紀年與人物。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "edition": "維基文庫數位文本，底本未標明，未核實為武英殿本；本條僅作來源引文見證，不宣稱底本。",
+    "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留固定修訂及署名。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "normalization": {
+      "character_conversion": {},
+      "note": "原年題與其下同年紀事保留原字，以換行呈現版面層級；不據干支日換算公曆日。"
+    },
+    "preferred_base_reference": "https://ctext.org/library.pl?if=gb&res=77703",
+    "preferred_base_note": "CText目錄列武英殿二十四史本《舊唐書》；此篇文字尚未能從該轉錄端點核對，故不以本數位文本冒充武英殿本。"
+  },
+  "annotation": {
+    "status": "named_mentions_first_pass",
+    "reviewer": "Codex（AI代理）",
+    "model": null,
+    "human_reviewed": false,
+    "method": "僅標記摘錄中的同安大長公主與高陽長公主；將永徽三年年題與紀事一同保存以錨定來源年。",
+    "scope_note": "此為替代數位文本見證，未作武英殿本校勘；人物在世判斷另以明確衍生規則表示。"
+  },
+  "paragraphs": [
+    {
+      "id": "c-jiutangshu-004-gaozong-tongan-visit:p001",
+      "text": "永徽三年\n冬十月戊戌，幸同安大長公主第，又幸高陽長公主第，即日還宮。",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-jiutangshu-004-gaozong-tongan-visit:m0001",
+          "start": 12,
+          "end": 18,
+          "surface": "同安大長公主",
+          "kind": "person",
+          "person_id": "x8h_3dr_ki5",
+          "status": "source_identified"
+        },
+        {
+          "id": "c-jiutangshu-004-gaozong-tongan-visit:m0002",
+          "start": 22,
+          "end": 27,
+          "surface": "高陽長公主",
+          "kind": "person",
+          "person_id": "0vd_zlc_9iq",
+          "status": "source_identified"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "bc52d1e81ad2df44fc133a242021c4230e38bd8074715b414554777334081cbe"
+}

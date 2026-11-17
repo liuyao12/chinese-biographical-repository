@@ -268,6 +268,12 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `person_event_assertion_set` 可保存 `burial`，與死亡事件分開。必須原文明示：`source_term` 含葬且完整見於事件證據引句，人物錨點與篇、來源引用沿用個人事件驗證。未知日期不補數值，未記葬地不補地址。逐人 JSON 從 `person_events` 讀取；死亡及葬期不得互相推定。
 
+### 受訪事件與死亡下界
+
+`person_event_assertion_set` 可用 `event_type: visit` 記錄史文明確寫某人受君主或他人訪問的情形，`participant_role: visited_person` 指被訪者。若採納該事件表示此人在場且仍在世，另以 `person_alive_at_event_implies_death_not_before` 推出死亡下界。事件日期使用 `temporal_coordinate`，明示曆法、年號座標、年序、精度及端點包含性；不要求先換算公元年。死亡本身可有 `date_expression: null`，只表示史文未繫年；不可替未知上界造值。下界、其他來源日期與報齡的條件式算術關係分開保留，以便使用端自行求交或解算。
+
+報齡若另採「歲」計歲模型，可在來源年齡記錄內增加 `age_year_relation`：明確指定生、卒事件的中國曆年標籤及等式，並標為條件式判讀。該式不等於史文明言生卒年，不得回寫成 `normalized_date` 或單年生卒日期。
+
 ### 來源相對年齡差
 
 `annotation.age_difference_assertions` 與個人報齡分存。`person_id`、`reference_person_id` 是兩個不同人物；`comparison: younger_than`、`value` 保存原文「少某人若干歲／歳」的差值，`source_number`、`source_term` 保留原字。每筆證據同段含 `person_mention_id` 與 `reference_person_mention_id`，兩人物及原詞必須在引句內。單位為 `source_age_years`，計歲方式保持 `unspecified_source_age`，生年與日期未知，不由參考人物年譜推生年。逐人JSON從雙方皆可讀 `age_difference_assertions`，仍保留來源與篇段；不是本人的年齡。

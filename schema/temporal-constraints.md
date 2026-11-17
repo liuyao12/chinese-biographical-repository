@@ -125,9 +125,9 @@
 - `normalized_interval`：原文明示的日期範圍；
 - `normalized_relation`：包含 `operator`、`related_event_id` 的事件先後關係。
 
-驗證器要求該正規化結果與 constraint 的運算子及端點完全相符。在世推導的死亡下界還必須與被訪者事件的 `normalized_date` 完全相同；只有日期範圍而沒有精確事件日期時，不可直接取晚端推導死亡下界。年號詞轉為數值年時，`year_system: regnal`、具名 `era_id` 及年號內序數必須一併保存；年號全期需以該年號的首末序數年構成區間。代理判讀仍須保留原詞，不由使用端解析。
+驗證器要求該正規化結果與 constraint 的運算子及端點完全相符。在世推導的死亡下界還必須與被訪者事件的 `temporal_coordinate` 完全相同；只有日期範圍而沒有精確事件日期時，不可直接取晚端推導死亡下界。受訪事件日期可直接用 `calendar: chinese_civil`、`year_system: regnal`、`era_id` 及年號內 `year` 保存，無須先換算成公元年。年號全期需以該年號的首末序數年構成區間。代理判讀仍須保留原詞，不由使用端解析。
 
-`person_alive_at_event_implies_death_not_before` 首版只接受已標為 `event_type: visit`、`participant_role: visited_person` 的在場者事件；目標事件必須為同一人物的死亡事件。輸入事件不得等於目標事件；死亡下界必須等於該訪問事件的精確 `normalized_date`，不可使用晚於訪問的日期，也不可把日期範圍晚端當作下界。日期引文、人物錨點及正規化日期均須可追溯。其他活動類型不自動推定在世。
+`person_alive_at_event_implies_death_not_before` 首版只接受已標為 `event_type: visit`、`participant_role: visited_person` 的在場者事件；目標事件必須為同一人物的死亡事件。輸入事件不得等於目標事件；死亡下界必須等於該訪問事件的精確 `temporal_coordinate`，不可使用晚於訪問的日期，也不可把日期範圍晚端當作下界。日期引文、人物錨點及時間座標均須可追溯。其他活動類型不自動推定在世。
 
 ## 推導規則與證據
 
