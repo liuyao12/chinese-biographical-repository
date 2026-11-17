@@ -5,7 +5,7 @@ try:from scripts.wyd_song044_formal_model import resolve_existing,local_current
 except ImportError:from wyd_song044_formal_model import resolve_existing,local_current
 try:from scripts.wyd_song044_role_seed import materialize
 except ImportError:from wyd_song044_role_seed import materialize
-CID='c-songshu-044-wyd1739-xiehui';REF='source-evidence/song044-wyd1739-xiehui/formal-role-contract.json';CONTRACT_SHA='2b1bc6f3dc350c2450fa2e86feff969faaa3a3b1fd6b8870f7149e53003b9973'
+CID='c-songshu-044-wyd1739-xiehui';REF='source-evidence/song044-wyd1739-xiehui/formal-role-contract.json';CONTRACT_SHA='80078e0addf1955a48506a3e334b1a2706dbdb0b536f8f4de5108780a3352a47'
 try:
  from scripts.validation_context import memoized
 except ImportError:
