@@ -2546,6 +2546,11 @@ def _validate_uncached(root=ROOT):
                 from person_bundle import load_catalog
         catalog = load_catalog(root)
         try:
+            from scripts.temporal_constraints import errors as temporal_constraint_errors
+        except ImportError:
+            from temporal_constraints import errors as temporal_constraint_errors
+        errors.extend(temporal_constraint_errors(catalog[1], chapters, pids))
+        try:
             from scripts.biographical_appointment_sequence import errors as appointment_sequence_errors
         except ImportError:
             from biographical_appointment_sequence import errors as appointment_sequence_errors
