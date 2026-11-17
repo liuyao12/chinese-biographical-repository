@@ -1,5 +1,6 @@
 export default {
   "Continuous historical tables": "連續年表",
+  "Shiji continuous table": "《史記》連續年表",
   "Choose a table": "選擇年表",
   "Time axis": "時間軸",
   "Vertical · years down": "縱向 · 年份向下",
