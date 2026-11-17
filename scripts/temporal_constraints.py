@@ -315,7 +315,10 @@ def calculate_temporal_constraint_results(constraints):
         later_id = relation.get("target_event_id")
         relation_derivation = relation.get("derivation", {})
         condition = relation_derivation.get("condition_status")
-        if condition != "conditionally_accepted":
+        if (relation.get("assertion_mode") != "derived"
+                or relation_derivation.get("ordering_basis") != "narrative_sequence"
+                or relation_derivation.get("human_reviewed") is not True
+                or condition != "conditionally_accepted"):
             unsupported.setdefault(earlier_id, []).append(relation.get("id"))
             continue
         later_result = results.get(later_id)
