@@ -175,7 +175,7 @@ class TemporalConstraintTests(unittest.TestCase):
 
     def test_validator_accepts_source_anchored_cross_person_order_edge(self):
         # Synthetic test fixture only; it is not an attestation or corpus transcription.
-        quote = "王方翼傳：公主卒後，歸長安。永徽中累授安定令。"
+        quote = "王方翼傳：公主卒後，乃授安定令。"
         term = "公主卒後"
         claim = {"source_term": term, "start": quote.index(term), "end": quote.index(term) + len(term),
                  "normalized_relation": {"operator": "after_event", "related_event_id": "death"}}
