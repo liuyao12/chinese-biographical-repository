@@ -135,6 +135,9 @@ class TemporalConstraintTests(unittest.TestCase):
             self.assertEqual(result["b"]["latest"]["year"], 6)
             self.assertNotIn("a-before-b", result["a"]["unsupported_constraint_ids"])
         self.assertEqual(forward["a"]["latest"], reverse["a"]["latest"])
+        a_derivation = next(d for d in forward["a"]["derivations"] if d["relation_id"] == "a-before-b")
+        self.assertEqual(set(a_derivation["input_constraint_ids"]),
+                         {"a-before-b", "b-before-c", "c-upper"})
 
     def test_conditional_order_cycles_are_incomplete(self):
         def relation(id_, earlier, later):
