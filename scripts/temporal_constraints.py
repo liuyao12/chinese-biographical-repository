@@ -4,7 +4,10 @@ from __future__ import annotations
 _DATE_KEYS = {"calendar", "year_system", "precision", "year", "inclusive"}
 _DATE_OPTIONAL = {"month", "day", "era_id"}
 _OPERATORS = {"equals", "within_interval", "not_before", "not_after", "after_event", "not_before_event"}
-_RULES = {"person_alive_at_event_implies_death_not_before"}
+_RULES = {
+    "person_alive_at_event_implies_death_not_before",
+    "narrative_sequence_implies_event_order",
+}
 
 
 def _date_errors(value, label):
@@ -110,6 +113,12 @@ def errors(records, chapters, person_ids):
                 if isinstance(event_id, str) and event_id:
                     events[event_id] = event
     seen = set()
+    all_constraints = {}
+    for record in records:
+        if record.get("record_type") == "temporal_constraint_set":
+            for constraint in record.get("constraints", []):
+                if isinstance(constraint, dict) and isinstance(constraint.get("id"), str):
+                    all_constraints[constraint["id"]] = constraint
     paragraph_index = {
         paragraph.get("id"): (chapter, paragraph)
         for chapter in chapters.values()
@@ -151,25 +160,45 @@ def errors(records, chapters, person_ids):
                 errors.append(f"日期約束須標明 direct 或 derived：{cid}")
             derivation = item.get("derivation")
             if mode == "derived":
-                if (not isinstance(derivation, dict)
-                        or derivation.get("rule_id") not in _RULES
-                        or not isinstance(derivation.get("input_event_id"), str)
-                        or derivation.get("input_event_id") not in events):
-                    errors.append(f"衍生日期約束須引用已登記規則及輸入事件：{cid}")
-                else:
-                    input_id = derivation["input_event_id"]
-                    input_event = events[input_id]
-                    if input_event.get("person_id") != person_id:
-                        errors.append(f"日期約束輸入事件人物不符：{cid}")
-                    if operator != "not_before" or target is None or target.get("event_type") != "death":
-                        errors.append(f"在世推導規則僅能產生同一人物的死亡下界：{cid}")
-                    if (input_id == target_id or input_event.get("event_type") != "visit"
-                            or input_event.get("participant_role") != "visited_person"
-                            or not input_event.get("date_expression")
-                            or not isinstance(input_event.get("normalized_date"), dict)):
-                        errors.append(f"在世推導須使用有精確正規化日期的被訪者事件且不得自我引用：{cid}")
-                    elif item.get("bound") != input_event["normalized_date"]:
-                        errors.append(f"死亡下界必須等於訪問事件的正規化日期：{cid}")
+                if not isinstance(derivation, dict) or derivation.get("rule_id") not in _RULES:
+                    errors.append(f"衍生日期約束須引用已登記規則：{cid}")
+                elif derivation.get("rule_id") == "person_alive_at_event_implies_death_not_before":
+                    if not isinstance(derivation.get("input_event_id"), str) or derivation.get("input_event_id") not in events:
+                        errors.append(f"在世推導須引用已登記輸入事件：{cid}")
+                        input_event = None
+                    else:
+                        input_event = events[derivation["input_event_id"]]
+                    if input_event is None:
+                        pass
+                    else:
+                        input_id = derivation["input_event_id"]
+                        if input_event.get("person_id") != person_id:
+                            errors.append(f"日期約束輸入事件人物不符：{cid}")
+                        if operator != "not_before" or target is None or target.get("event_type") != "death":
+                            errors.append(f"在世推導規則僅能產生同一人物的死亡下界：{cid}")
+                        if (input_id == target_id or input_event.get("event_type") != "visit"
+                                or input_event.get("participant_role") != "visited_person"
+                                or not input_event.get("date_expression")
+                                or not isinstance(input_event.get("normalized_date"), dict)):
+                            errors.append(f"在世推導須使用有精確正規化日期的被訪者事件且不得自我引用：{cid}")
+                        elif item.get("bound") != input_event["normalized_date"]:
+                            errors.append(f"死亡下界必須等於訪問事件的正規化日期：{cid}")
+                elif derivation.get("rule_id") == "narrative_sequence_implies_event_order":
+                    valid_relation = (
+                        operator == "after_event" and target is not None
+                        and isinstance(derivation.get("ordering_basis"), str)
+                        and derivation.get("ordering_basis") == "narrative_sequence"
+                        and derivation.get("condition_status") == "conditionally_accepted"
+                        and type(derivation.get("human_reviewed")) is bool
+                        and derivation.get("human_reviewed") is True
+                        and isinstance(item.get("related_event_id"), str)
+                        and item.get("related_event_id") in events
+                        and item.get("related_event_id") != target_id
+                    )
+                    if not valid_relation:
+                        errors.append(f"敘事次序事件關係須是經人工覆核且明示條件的跨事件 after_event：{cid}")
+                    if isinstance(derivation.get("input_constraint_ids"), list):
+                        errors.append(f"事件次序原子約束不得再以推導輸入約束取代來源引文：{cid}")
             elif derivation is not None:
                 errors.append(f"直接日期約束不得附 derivation：{cid}")
             if operator in ("equals", "not_before", "not_after"):
@@ -212,6 +241,14 @@ def errors(records, chapters, person_ids):
                 if not isinstance(citation, dict):
                     errors.append(f"日期約束引文須為物件：{cid}")
                     continue
+                if "constraint_id" in citation:
+                    ref_id = citation.get("constraint_id")
+                    if (mode != "derived" or not isinstance(ref_id, str)
+                            or ref_id not in all_constraints
+                            or not isinstance(derivation, dict)
+                            or ref_id not in derivation.get("input_constraint_ids", [])):
+                        errors.append(f"推導引文須引用 derivation 所列的既存輸入約束：{cid}")
+                    continue
                 pid = citation.get("paragraph_id")
                 hit = paragraph_index.get(pid)
                 quote = citation.get("quote")
@@ -229,6 +266,8 @@ def errors(records, chapters, person_ids):
                     errors.append(f"日期約束人物錨點不在引文內：{cid}")
                 errors.extend(f"{message}：{cid}" for message in _temporal_claim_errors(citation, item))
                 if mode == "derived" and isinstance(derivation, dict):
+                    if derivation.get("rule_id") == "narrative_sequence_implies_event_order":
+                        continue
                     input_event = events.get(derivation.get("input_event_id"))
                     temporal_claim = citation.get("temporal_claim", {})
                     if input_event is not None:
@@ -241,6 +280,121 @@ def errors(records, chapters, person_ids):
                         ):
                             errors.append(f"在世推導引文須是輸入事件的原始證據：{cid}")
     return errors
+
+
+def calculate_temporal_constraint_results(constraints):
+    """Calculate each event's year interval and conditionally propagate narrative order.
+
+    A later event's inclusive upper year bounds an earlier event at the same
+    year precision. Results retain both source constraint IDs and explicitly
+    conditional narrative-order assumptions.
+    """
+    by_target = {}
+    event_relations = []
+    unhandled_relations = []
+    for item in constraints:
+        target_id = item.get("target_event_id")
+        derivation = item.get("derivation")
+        rule_id = derivation.get("rule_id") if isinstance(derivation, dict) else None
+        if isinstance(target_id, str) and item.get("operator") not in ("after_event", "not_before_event"):
+            by_target.setdefault(target_id, []).append(item)
+        if (item.get("operator") == "after_event"
+                and rule_id == "narrative_sequence_implies_event_order"):
+            event_relations.append(item)
+        elif item.get("operator") in ("after_event", "not_before_event"):
+            unhandled_relations.append(item)
+
+    results = {event_id: intersect_year_constraints(items)
+               for event_id, items in by_target.items()}
+    derivations = {event_id: [] for event_id in results}
+    unsupported = {event_id: [] for event_id in results}
+    for relation in unhandled_relations:
+        unsupported.setdefault(relation.get("target_event_id"), []).append(relation.get("id"))
+    for relation in event_relations:
+        earlier_id = relation.get("related_event_id")
+        later_id = relation.get("target_event_id")
+        relation_derivation = relation.get("derivation", {})
+        condition = relation_derivation.get("condition_status")
+        if condition != "conditionally_accepted":
+            unsupported.setdefault(earlier_id, []).append(relation.get("id"))
+            continue
+        later_result = results.get(later_id)
+        latest = later_result.get("latest") if isinstance(later_result, dict) else None
+        if (not latest or not isinstance(later_result.get("coordinate"), dict)
+                or later_result["coordinate"].get("precision") != "year"):
+            unsupported.setdefault(earlier_id, []).append(relation.get("id"))
+            continue
+        coordinate = later_result["coordinate"]
+        bound = dict(coordinate, year=latest["year"], inclusive=True)
+        relation_inputs = list(latest.get("constraint_ids", [])) + [relation.get("id")]
+        synthetic = {
+            "id": "derived-upper:" + str(earlier_id) + ":" + ":".join(map(str, relation_inputs)),
+            "target_event_id": earlier_id,
+            "operator": "not_after",
+            "bound": bound,
+        }
+        earlier_items = by_target.setdefault(earlier_id, [])
+        earlier_items.append(synthetic)
+        try:
+            results[earlier_id] = intersect_year_constraints(earlier_items)
+        except ValueError:
+            earlier_items.pop()
+            unsupported.setdefault(earlier_id, []).append(relation.get("id"))
+            continue
+        derivations.setdefault(earlier_id, []).append({
+            "rule_id": "event_precedes_bounded_event_implies_not_after",
+            "input_constraint_ids": relation_inputs,
+            "condition_status": "conditionally_accepted",
+            "ordering_basis": relation_derivation.get("ordering_basis"),
+            "derived_bound": bound,
+        })
+
+    for event_id, items in unsupported.items():
+        if event_id not in results and items:
+            results[event_id] = {
+                "status": "incomplete", "coordinate": None,
+                "earliest": None, "latest": None, "conflict": False,
+                "unsupported_constraint_ids": sorted(set(items)),
+            }
+    for event_id, result in results.items():
+        result["derivations"] = derivations.get(event_id, [])
+        result["conditional_assumptions"] = [
+            d["ordering_basis"] for d in derivations.get(event_id, [])
+        ]
+        if unsupported.get(event_id):
+            result["unsupported_constraint_ids"] = sorted(set(
+                result.get("unsupported_constraint_ids", []) + unsupported[event_id]
+            ))
+            result["status"] = "incomplete"
+        elif derivations.get(event_id) and not result.get("conflict"):
+            result["status"] = "conditional"
+    return results
+
+
+def temporal_constraint_closure(constraints, person_ids):
+    """Return a stable dependency closure of constraints touching these people/events."""
+    selected = {c["id"]: c for c in constraints
+                if isinstance(c, dict) and isinstance(c.get("id"), str)
+                and c.get("person_id") in set(person_ids)}
+    changed = True
+    while changed:
+        changed = False
+        linked_events = {event_id for c in selected.values()
+                         for event_id in (c.get("target_event_id"), c.get("related_event_id"))
+                         if isinstance(event_id, str)}
+        input_ids = {input_id for c in selected.values()
+                     for input_id in (c.get("derivation", {}).get("input_constraint_ids", [])
+                                      if isinstance(c.get("derivation"), dict) else [])
+                     if isinstance(input_id, str)}
+        for c in constraints:
+            if not isinstance(c, dict) or c.get("id") in selected:
+                continue
+            if (c.get("id") in input_ids or c.get("target_event_id") in linked_events
+                    or c.get("related_event_id") in linked_events):
+                if isinstance(c.get("id"), str):
+                    selected[c["id"]] = c
+                    changed = True
+    return list(selected.values())
 
 
 def intersect_year_constraints(constraints):
