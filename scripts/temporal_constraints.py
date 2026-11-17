@@ -25,6 +25,10 @@ def _date_errors(value, label):
         errors.append(f"{label}.year_system須為絕對年序或年號序數年")
     if type(value.get("year")) is not int:
         errors.append(f"{label}.year須為整數")
+    elif value.get("year_system") == "historical" and value["year"] == 0:
+        errors.append(f"{label}.year不得使用歷史紀年中不存在的公元零年")
+    elif value.get("year_system") == "regnal" and value["year"] < 1:
+        errors.append(f"{label}.year年號序數須大於零")
     if type(value.get("inclusive")) is not bool:
         errors.append(f"{label}.inclusive須為布林值")
     precision = value.get("precision")
@@ -322,48 +326,135 @@ def calculate_temporal_constraint_results(constraints):
     unsupported = {event_id: [] for event_id in results}
     for relation in unhandled_relations:
         unsupported.setdefault(relation.get("target_event_id"), []).append(relation.get("id"))
+    # Mark every order edge participating in a directed cycle as unsupported.
+    # A cycle is contradictory even when year precision alone cannot expose it.
+    adjacency = {}
+    for relation in event_relations:
+        earlier = relation.get("related_event_id")
+        later = relation.get("target_event_id")
+        if isinstance(earlier, str) and isinstance(later, str):
+            adjacency.setdefault(earlier, set()).add(later)
+
+    cyclic_relation_ids = set()
+    for relation in event_relations:
+        earlier = relation.get("related_event_id")
+        later = relation.get("target_event_id")
+        if not isinstance(earlier, str) or not isinstance(later, str):
+            continue
+        pending = [later]
+        reached = set()
+        while pending:
+            current = pending.pop()
+            if current == earlier:
+                cyclic_relation_ids.add(relation.get("id"))
+                break
+            if current in reached:
+                continue
+            reached.add(current)
+            pending.extend(adjacency.get(current, ()))
+
+    usable_relations = []
     for relation in event_relations:
         earlier_id = relation.get("related_event_id")
         later_id = relation.get("target_event_id")
         relation_derivation = relation.get("derivation", {})
         condition = relation_derivation.get("condition_status")
+        relation_id = relation.get("id")
+        if relation_id in cyclic_relation_ids:
+            unsupported.setdefault(earlier_id, []).append(relation_id)
+            unsupported.setdefault(later_id, []).append(relation_id)
+            continue
         if (relation.get("assertion_mode") != "derived"
                 or relation_derivation.get("ordering_basis") != "narrative_sequence"
                 or relation_derivation.get("review_status") not in ("agent_reviewed", "human_reviewed")
                 or relation.get("human_reviewed") is not (relation_derivation.get("review_status") == "human_reviewed")
                 or condition != "conditionally_accepted"):
-            unsupported.setdefault(earlier_id, []).append(relation.get("id"))
+            unsupported.setdefault(earlier_id, []).append(relation_id)
             continue
-        later_result = results.get(later_id)
-        latest = later_result.get("latest") if isinstance(later_result, dict) else None
-        if (not latest or not isinstance(later_result.get("coordinate"), dict)
-                or later_result["coordinate"].get("precision") != "year"):
-            unsupported.setdefault(earlier_id, []).append(relation.get("id"))
-            continue
-        coordinate = later_result["coordinate"]
-        bound = dict(coordinate, year=latest["year"], inclusive=latest["inclusive"])
-        relation_inputs = list(latest.get("constraint_ids", [])) + [relation.get("id")]
-        synthetic = {
-            "id": "derived-upper:" + str(earlier_id) + ":" + ":".join(map(str, relation_inputs)),
-            "target_event_id": earlier_id,
-            "operator": "not_after",
-            "bound": bound,
-        }
-        earlier_items = by_target.setdefault(earlier_id, [])
-        earlier_items.append(synthetic)
-        try:
-            results[earlier_id] = intersect_year_constraints(earlier_items)
-        except ValueError:
-            earlier_items.pop()
-            unsupported.setdefault(earlier_id, []).append(relation.get("id"))
-            continue
-        derivations.setdefault(earlier_id, []).append({
-            "rule_id": "event_precedes_bounded_event_implies_not_after",
-            "input_constraint_ids": relation_inputs,
-            "condition_status": "conditionally_accepted",
-            "ordering_basis": relation_derivation.get("ordering_basis"),
-            "derived_bound": bound,
-        })
+        usable_relations.append(relation)
+
+    # Propagate to a fixed point. Input order must not determine whether a
+    # chain such as A < B < C transfers C's upper bound to A.
+    synthetic_by_relation = {}
+    failed_relations = set()
+    while True:
+        changed = False
+        for relation in usable_relations:
+            relation_id = relation.get("id")
+            if relation_id in failed_relations:
+                continue
+            earlier_id = relation.get("related_event_id")
+            later_id = relation.get("target_event_id")
+            later_result = results.get(later_id)
+            latest = later_result.get("latest") if isinstance(later_result, dict) else None
+            if (not latest or not isinstance(later_result.get("coordinate"), dict)
+                    or later_result["coordinate"].get("precision") != "year"):
+                continue
+
+            coordinate = later_result["coordinate"]
+            bound = dict(coordinate, year=latest["year"], inclusive=latest["inclusive"])
+            relation_inputs = list(latest.get("constraint_ids", [])) + [relation_id]
+            synthetic = synthetic_by_relation.get(relation_id)
+            prior_bound = None
+            if synthetic is not None:
+                old = synthetic["bound"]
+                tighter = (bound["year"] < old["year"]
+                           or bound["year"] == old["year"]
+                           and old["inclusive"] and not bound["inclusive"])
+                if not tighter:
+                    continue
+                prior_bound = old
+                synthetic["bound"] = bound
+            else:
+                synthetic = {
+                    "id": "derived-upper:" + str(earlier_id) + ":" + str(relation_id),
+                    "target_event_id": earlier_id,
+                    "operator": "not_after",
+                    "bound": bound,
+                }
+                synthetic_by_relation[relation_id] = synthetic
+                by_target.setdefault(earlier_id, []).append(synthetic)
+
+            try:
+                updated = intersect_year_constraints(by_target[earlier_id])
+            except (KeyError, TypeError, ValueError):
+                if prior_bound is not None:
+                    synthetic["bound"] = prior_bound
+                else:
+                    by_target[earlier_id].remove(synthetic)
+                    del synthetic_by_relation[relation_id]
+                failed_relations.add(relation_id)
+                unsupported.setdefault(earlier_id, []).append(relation_id)
+                continue
+
+            results[earlier_id] = updated
+            entries = derivations.setdefault(earlier_id, [])
+            entry = next((d for d in entries if d.get("relation_id") == relation_id), None)
+            if entry is None:
+                entries.append({
+                    "relation_id": relation_id,
+                    "rule_id": "event_precedes_bounded_event_implies_not_after",
+                    "input_constraint_ids": relation_inputs,
+                    "condition_status": "conditionally_accepted",
+                    "ordering_basis": relation_derivation.get("ordering_basis"),
+                    "derived_bound": bound,
+                })
+            else:
+                entry.update({
+                    "input_constraint_ids": relation_inputs,
+                    "derived_bound": bound,
+                })
+            changed = True
+        if not changed:
+            break
+
+    # Relations whose later event never acquired a comparable upper bound
+    # remain explicit incomplete inputs on the earlier event.
+    propagated = {d.get("relation_id") for entries in derivations.values() for d in entries}
+    for relation in usable_relations:
+        relation_id = relation.get("id")
+        if relation_id not in propagated:
+            unsupported.setdefault(relation.get("related_event_id"), []).append(relation_id)
 
     for event_id, items in unsupported.items():
         if event_id not in results and items:
