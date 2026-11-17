@@ -1,7 +1,7 @@
 import unittest
 
 from scripts.temporal_constraints import (
-    calculate_temporal_constraint_results, errors, temporal_constraint_closure,
+    _date_errors, calculate_temporal_constraint_results, errors, temporal_constraint_closure,
 )
 
 
@@ -97,6 +97,66 @@ class TemporalConstraintTests(unittest.TestCase):
         self.assertIsNone(result["earliest"])
         self.assertIsNone(result["latest"])
         self.assertEqual(result["unsupported_constraint_ids"], ["historical", "regnal"])
+
+    def test_historical_coordinates_reject_year_zero(self):
+        value = {"calendar": "julian", "year_system": "historical", "precision": "year",
+                 "year": 0, "inclusive": True}
+        self.assertTrue(any("公元零年" in message for message in _date_errors(value, "date")))
+        value["year"] = -1
+        self.assertEqual(_date_errors(value, "date"), [])
+
+    def test_regnal_coordinates_require_positive_year_ordinal(self):
+        value = date(0)
+        self.assertTrue(any("年號序數須大於零" in message for message in _date_errors(value, "date")))
+        value["year"] = -1
+        self.assertTrue(_date_errors(value, "date"))
+
+    def test_conditional_order_propagation_is_independent_of_input_order(self):
+        def relation(id_, earlier, later):
+            return {"id": id_, "target_event_id": later, "related_event_id": earlier,
+                    "operator": "after_event", "assertion_mode": "derived",
+                    "derivation": {"rule_id": "narrative_sequence_implies_event_order",
+                                   "ordering_basis": "narrative_sequence",
+                                   "condition_status": "conditionally_accepted",
+                                   "review_status": "agent_reviewed"},
+                    "human_reviewed": False}
+
+        base = [
+            {"id": "a-lower", "target_event_id": "a", "operator": "not_before", "bound": date(1)},
+            {"id": "b-lower", "target_event_id": "b", "operator": "not_before", "bound": date(1)},
+            {"id": "c-upper", "target_event_id": "c", "operator": "not_after", "bound": date(6)},
+        ]
+        ab = relation("a-before-b", "a", "b")
+        bc = relation("b-before-c", "b", "c")
+        forward = calculate_temporal_constraint_results([*base, ab, bc])
+        reverse = calculate_temporal_constraint_results([*base, bc, ab])
+        for result in (forward, reverse):
+            self.assertEqual(result["a"]["latest"]["year"], 6)
+            self.assertEqual(result["b"]["latest"]["year"], 6)
+            self.assertNotIn("a-before-b", result["a"]["unsupported_constraint_ids"])
+        self.assertEqual(forward["a"]["latest"], reverse["a"]["latest"])
+
+    def test_conditional_order_cycles_are_incomplete(self):
+        def relation(id_, earlier, later):
+            return {"id": id_, "target_event_id": later, "related_event_id": earlier,
+                    "operator": "after_event", "assertion_mode": "derived",
+                    "derivation": {"rule_id": "narrative_sequence_implies_event_order",
+                                   "ordering_basis": "narrative_sequence",
+                                   "condition_status": "conditionally_accepted",
+                                   "review_status": "agent_reviewed"},
+                    "human_reviewed": False}
+
+        constraints = [
+            {"id": "a-lower", "target_event_id": "a", "operator": "not_before", "bound": date(1)},
+            {"id": "b-lower", "target_event_id": "b", "operator": "not_before", "bound": date(1)},
+            relation("a-before-b", "a", "b"),
+            relation("b-before-a", "b", "a"),
+        ]
+        result = calculate_temporal_constraint_results(constraints)
+        self.assertEqual(result["a"]["status"], "incomplete")
+        self.assertEqual(result["b"]["status"], "incomplete")
+        self.assertIn("a-before-b", result["a"]["unsupported_constraint_ids"])
+        self.assertIn("b-before-a", result["b"]["unsupported_constraint_ids"])
 
     def test_person_bundle_dependency_closure_includes_other_person_and_source_constraints(self):
         constraints = [
