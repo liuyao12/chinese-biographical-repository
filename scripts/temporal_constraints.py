@@ -398,8 +398,32 @@ def calculate_temporal_constraint_results(constraints):
             continue
         usable_relations.append(relation)
 
-    # Propagate to a fixed point. Input order must not determine whether a
-    # chain such as A < B < C transfers C's upper bound to A.
+    # The accepted graph is acyclic after cyclic edges are removed. Process
+    # edges from later topological levels to earlier ones so every event's
+    # outgoing upper bounds settle before those bounds are used upstream.
+    nodes = set()
+    indegree = {}
+    for earlier, later_nodes in adjacency.items():
+        nodes.add(earlier)
+        nodes.update(later_nodes)
+        for later in later_nodes:
+            indegree[later] = indegree.get(later, 0) + 1
+    levels = {node: 0 for node in nodes}
+    pending_nodes = sorted(node for node in nodes if indegree.get(node, 0) == 0)
+    while pending_nodes:
+        current = pending_nodes.pop(0)
+        for later in sorted(adjacency.get(current, ())):
+            levels[later] = max(levels[later], levels[current] + 1)
+            indegree[later] -= 1
+            if indegree[later] == 0:
+                pending_nodes.append(later)
+                pending_nodes.sort()
+    usable_relations.sort(key=lambda relation: (
+        -levels.get(relation.get("related_event_id"), 0), str(relation.get("id", ""))
+    ))
+
+    # This order is independent of JSON input order and prevents retaining a
+    # bound from an event that becomes conflicted farther down the chain.
     synthetic_by_relation = {}
     synthetic_by_id = {}
     failed_relations = set()
