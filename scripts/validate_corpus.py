@@ -674,6 +674,52 @@ def _validate_uncached(root=ROOT):
                     check(e.get('ref')==(m.get('work_id') if m['kind']=='work' else m['person_id']), 'XML 人物或著作引用不符')
                     if m['kind']=='unresolved': check(e.get('type')=='unresolved','XML 未定類型不符')
                     if m['kind']=='non_person': check(e.get('type')=='non-person' and e.get('subtype')==m.get('lexical_role'),'XML 非人物詞性不符')
+        for comparison_path in sorted((root / 'corpus').glob('*/*-textual-witness-comparisons.json')):
+            record = json.loads(comparison_path.read_text(encoding='utf-8'))
+            check(record.get('format_version') == '0.1'
+                  and record.get('record_type') == 'textual_witness_comparison_set'
+                  and record.get('chapter_id') in chapters
+                  and isinstance(record.get('comparisons'), list), '異本對讀集標頭或篇章無效')
+            seen_comparison_ids = set()
+            for comparison in record.get('comparisons', []):
+                check(isinstance(comparison, dict), '異本對讀項須為物件')
+                if not isinstance(comparison, dict):
+                    continue
+                cid = record.get('chapter_id')
+                paragraph = paragraphs.get(comparison.get('paragraph_id'))
+                base = comparison.get('base_witness', {})
+                parallel = comparison.get('parallel_witness', {})
+                check(bool(comparison.get('id')) and comparison.get('id') not in seen_comparison_ids,
+                      '異本對讀項 ID 重複或無效')
+                seen_comparison_ids.add(comparison.get('id'))
+                check(bool(paragraph) and paragraph[0] == cid
+                      and base.get('source_id') == chapters.get(cid, {}).get('source_id')
+                      and base.get('revision_id') == chapters.get(cid, {}).get('source', {}).get('revision_id')
+                      and base.get('quote') == (paragraph[1]['text'] if paragraph else None),
+                      '異本對讀底本文字、修訂或段落定位不符')
+                check(bool(parallel.get('title')) and bool(parallel.get('url'))
+                      and bool(parallel.get('locator')) and bool(parallel.get('quote'))
+                      and parallel.get('transcription_status') and isinstance(parallel.get('image_verified'), bool),
+                      '異本對讀平行見證缺少書名、網址、定位或核影狀態')
+                check(comparison.get('status') == 'reported_not_collated'
+                      and comparison.get('adopted') is False and bool(comparison.get('rationale')),
+                      '未核校異本不得標為已採用')
+                check(isinstance(comparison.get('differences'), list) and bool(comparison['differences']),
+                      '異本對讀須列出差異')
+                for difference in comparison.get('differences', []):
+                    if difference.get('kind') == 'repetition_count':
+                        pattern = difference.get('base_pattern')
+                        check(bool(pattern) and type(difference.get('base_count')) is int
+                              and (paragraph[1]['text'].count(pattern) if paragraph else -1) == difference.get('base_count')
+                              and bool(difference.get('parallel_pattern'))
+                              and type(difference.get('parallel_count')) is int,
+                              '異本重複次數須與固定底本文字相符')
+                    elif difference.get('kind') == 'reading':
+                        check(bool(difference.get('base_reading')) and bool(difference.get('parallel_reading'))
+                              and bool(paragraph) and difference.get('base_reading') in paragraph[1]['text'],
+                              '異本文字讀法須包含原讀及平行見證讀法')
+                    else:
+                        check(False, '異本對讀差異類型未知')
         check(not set(chapters).intersection(table_chapters), '正文與表格篇ID不得重複')
         check(set(chapter_books)==set(chapters) | set(table_chapters), '著作目錄與文本篇清單不符')
         for wid, work in works.items():
@@ -947,7 +993,15 @@ def _validate_uncached(root=ROOT):
                         from parallel_context_identity import valid as parallel_context_identity_valid
                     check(parallel_context_identity_valid(decision, chapters, {p['id']: p for p in people}, root), '平行敘事身份須有兩候選、完整固定原證、同事件字面及非別名界限')
                 target=next((p for p in people if p['id']==decision['person_id']),None)
-                if target: check(set(decision['surfaces']).issubset({a['surface'] for a in target['aliases']}),'身份判斷包含未見異稱')
+                if target:
+                    known_surfaces = {a['surface'] for a in target['aliases']}
+                    known_surfaces.update(
+                        reference['surface']
+                        for chapter in chapters.values()
+                        for reference in chapter.get('annotation', {}).get('person_reference_occurrences', [])
+                        if reference.get('person_id') == decision['person_id']
+                    )
+                    check(set(decision['surfaces']).issubset(known_surfaces), '身份判斷包含未見異稱或人物指涉')
         for path in (root/'corpus').glob('*/*-distinctions.json'):
             d=json.loads(path.read_text(encoding='utf-8'))
             check(d['record_type']=='person_distinction_set','人物區分集類型不符')

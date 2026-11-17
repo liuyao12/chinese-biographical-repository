@@ -623,6 +623,7 @@
 | `363_21i_84z` | 畔 | [《史記・陳涉世家》][118] | [JSON](363_21i_84z.json) |
 | `364_wrf_g4o` | 牛翦 | [《史記・趙世家》][113] | [JSON](364_wrf_g4o.json) |
 | `36c_6b6_4b3` | 王濬 | [《晉書・周浚 成公簡 苟晞 華軼 劉喬》][38] | [JSON](36c_6b6_4b3.json) |
+| `36f_f1a_2zd` | 征伯僑（《史記》作北僑） | [《史記・司馬相如列傳》][187] | [JSON](36f_f1a_2zd.json) |
 | `36s_ym3_fp3` | 魯公子翚 | [《史記・秦本紀》][93] | [JSON](36s_ym3_fp3.json) |
 | `370_sgw_aye` | 魏惠王 | [《史記・商君列傳》][138] | [JSON](370_sgw_aye.json) |
 | `372_tla_k26` | 阮孝緒 | [《梁書・裴子野 顧協 徐摛 鮑泉》][65]、[《南史・范泰　荀伯子　徐廣　鄭鮮之　裴松之　何承天》][76] | [JSON](372_tla_k26.json) |
@@ -2091,7 +2092,6 @@
 | `aic_z7t_35l` | 毛萇〔禮詩注者〕 | [《後漢書・吳延史盧趙列傳》][16] | [JSON](aic_z7t_35l.json) |
 | `aiu_ulx_ejj` | 周楚 | [《晉書・叛臣一》][59] | [JSON](aiu_ulx_ejj.json) |
 | `ajd_ovg_u3y` | 淪〔王渾中弟〕 | [《晉書・列女》][58] | [JSON](ajd_ovg_u3y.json) |
-| `ajo_g09_qqk` | 將軍摎 | [《史記・秦本紀》][93] | [JSON](ajo_g09_qqk.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

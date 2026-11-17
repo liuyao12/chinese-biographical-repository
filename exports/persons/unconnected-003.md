@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `msv_9r0_wtk` | 趙襄子 | [《史記・韓世家》][115] | [JSON](msv_9r0_wtk.json) |
 | `mt4_h3l_bbn` | 齊王蘇代過魏 | [《史記・蘇秦列傳》][139] | [JSON](mt4_h3l_bbn.json) |
 | `mta_jet_l8e` | 楊安〔本紀來源局部〕 | [《晉書・太宗簡文帝 孝武帝》][21] | [JSON](mta_jet_l8e.json) |
 | `mtx_qs1_a5q` | 孝惠帝 | [《史記・齊悼惠王世家》][122] | [JSON](mtx_qs1_a5q.json) |
@@ -261,6 +262,7 @@
 | `oge_g2v_hqw` | 平（武遂侯） | [《史記・酈生陸賈列傳》][167] | [JSON](oge_g2v_hqw.json) |
 | `ogh_zo9_46d` | 吳公未名 | [《史記・屈原賈生列傳》][154] | [JSON](ogh_zo9_46d.json) |
 | `oh2_xep_h3c` | 咸宣 | [《史記・萬石張叔列傳》][173] | [JSON](oh2_xep_h3c.json) |
+| `oha_39m_mfa` | 陸離 | [《史記・司馬相如列傳》][187] | [JSON](oha_39m_mfa.json) |
 | `ohe_hlc_y40` | 閼路（杞哀公） | [《史記・陳杞世家》][106] | [JSON](ohe_hlc_y40.json) |
 | `oho_r3f_c6y` | 堯 | [《史記・五帝本紀》][89] | [JSON](oho_r3f_c6y.json) |
 | `ohv_l50_sf5` | 劉寔 | [《晉書・王湛 荀崧 范汪 劉惔 張憑 韓伯》][47] | [JSON](ohv_l50_sf5.json) |
@@ -1949,6 +1951,7 @@
 | `zg6_76t_xid` | 少翁 | [《史記・孝武本紀》][100] | [JSON](zg6_76t_xid.json) |
 | `zgm_3w8_12c` | 趙女未名 | [《史記・魏其武安列傳》][177] | [JSON](zgm_3w8_12c.json) |
 | `zh2_5e4_ikn` | 酈寄 | [《史記・楚元王世家》][120] | [JSON](zh2_5e4_ikn.json) |
+| `zhi_m63_15i` | 風伯（字飛廉） | [《史記・司馬相如列傳》][187] | [JSON](zhi_m63_15i.json) |
 | `zht_ze7_m2d` | 山／義／弘（後少帝） | [《史記・呂后本紀》][97] | [JSON](zht_ze7_m2d.json) |
 | `zi3_x31_9g6` | 周聚 | [《史記・陳涉世家》][118] | [JSON](zi3_x31_9g6.json) |
 | `zir_4c6_exy` | 肥（宋太子） | [《史記・宋微子世家》][108] | [JSON](zir_4c6_exy.json) |
