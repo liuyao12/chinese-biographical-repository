@@ -116,7 +116,7 @@ def outputs(root=None):
         other = {'schema_version':1,'work_id':work['id'],'title':work['title'],'author':work.get('author'),
                  'chapters':selected,'policy':('目錄占位與已錄文本分列；僅列章目不表示已收錄或覆核正文。' if catalog else ('只列已實錄卷篇；部分傳文不代表整卷或全書完成。' if selected else '僅有卷篇導航占位；正文尚未收錄，不代表開始正文覆核。'))}
         if catalog:
-            other['catalog_metadata'] = {key:catalog[key] for key in ('composition','catalog_witness','source','policy') if key in catalog}
+            other['catalog_metadata'] = {key:catalog[key] for key in ('composition','catalog_witness','source','text_reference','policy') if key in catalog}
         result[root / path] = (json.dumps(other,ensure_ascii=False,indent=2)+'\n').encode()
         manifest.append({'id':work['id'],'title':work['title'],'author':work.get('author'),
                          'reader_kind':'corpus','catalog_path':path})
