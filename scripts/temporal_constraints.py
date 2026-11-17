@@ -389,7 +389,22 @@ def calculate_temporal_constraint_results(constraints):
     # Propagate to a fixed point. Input order must not determine whether a
     # chain such as A < B < C transfers C's upper bound to A.
     synthetic_by_relation = {}
+    synthetic_by_id = {}
     failed_relations = set()
+
+    def expand_constraint_ids(ids, seen=None):
+        seen = set() if seen is None else seen
+        expanded = []
+        for constraint_id in ids:
+            if constraint_id in seen:
+                continue
+            provenance = synthetic_by_id.get(constraint_id)
+            if provenance is None:
+                expanded.append(constraint_id)
+            else:
+                expanded.extend(expand_constraint_ids(provenance, seen | {constraint_id}))
+        return list(dict.fromkeys(expanded))
+
     while True:
         changed = False
         for relation in usable_relations:
@@ -406,19 +421,26 @@ def calculate_temporal_constraint_results(constraints):
 
             coordinate = later_result["coordinate"]
             bound = dict(coordinate, year=latest["year"], inclusive=latest["inclusive"])
-            relation_inputs = list(latest.get("constraint_ids", [])) + [relation_id]
+            relation_inputs = sorted(set(
+                expand_constraint_ids(latest.get("constraint_ids", [])) + [relation_id]
+            ))
             synthetic = synthetic_by_relation.get(relation_id)
-            prior_bound = None
+            is_new = synthetic is None
+            prior_bound = synthetic.get("bound") if synthetic is not None else None
+            prior_provenance = synthetic_by_id.get(synthetic.get("id")) if synthetic is not None else None
             if synthetic is not None:
                 old = synthetic["bound"]
                 tighter = (bound["year"] < old["year"]
                            or bound["year"] == old["year"]
                            and old["inclusive"] and not bound["inclusive"])
-                if not tighter:
+                provenance_changed = prior_provenance != relation_inputs
+                if not tighter and not provenance_changed:
                     continue
-                prior_bound = old
-                synthetic["bound"] = bound
+                if tighter:
+                    synthetic["bound"] = bound
             else:
+                tighter = True
+                provenance_changed = True
                 synthetic = {
                     "id": "derived-upper:" + str(earlier_id) + ":" + str(relation_id),
                     "target_event_id": earlier_id,
@@ -427,15 +449,18 @@ def calculate_temporal_constraint_results(constraints):
                 }
                 synthetic_by_relation[relation_id] = synthetic
                 by_target.setdefault(earlier_id, []).append(synthetic)
+            synthetic_by_id[synthetic["id"]] = relation_inputs
 
             try:
                 updated = intersect_year_constraints(by_target[earlier_id])
             except (KeyError, TypeError, ValueError):
-                if prior_bound is not None:
-                    synthetic["bound"] = prior_bound
-                else:
+                if is_new:
                     by_target[earlier_id].remove(synthetic)
                     del synthetic_by_relation[relation_id]
+                    synthetic_by_id.pop(synthetic["id"], None)
+                else:
+                    synthetic["bound"] = prior_bound
+                    synthetic_by_id[synthetic["id"]] = prior_provenance
                 failed_relations.add(relation_id)
                 unsupported.setdefault(earlier_id, []).append(relation_id)
                 continue
@@ -457,7 +482,7 @@ def calculate_temporal_constraint_results(constraints):
                     "input_constraint_ids": relation_inputs,
                     "derived_bound": bound,
                 })
-            changed = True
+            changed = changed or is_new or tighter or provenance_changed
         if not changed:
             break
 
