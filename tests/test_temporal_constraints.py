@@ -313,7 +313,7 @@ class TemporalConstraintTests(unittest.TestCase):
                     "person_mention_id": "m-princess", "temporal_claim": date_claim}
         visit = {"id": "visit", "person_id": "princess", "event_type": "visit",
                  "participant_role": "visited_person", "date_expression": term,
-                 "normalized_date": date(3), "evidence": [citation]}
+                 "temporal_coordinate": date(3), "evidence": [citation]}
         records = [
             {"record_type": "person_life_event_assertion_set", "events": [
                 {"id": "death", "person_id": "princess", "event_type": "death"}, visit]},
