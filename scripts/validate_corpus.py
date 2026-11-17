@@ -858,7 +858,7 @@ def _validate_uncached(root=ROOT):
                 check(bool(alias['mention_ids']), '異稱沒有證據')
                 for mid in alias['mention_ids']:
                     hit=registry_mentions.get(mid)
-                    check(mid in evidenced and bool(hit) and hit[2]['kind']=='person' and hit[2]['surface']==alias['surface'], '異稱須由專名人物提及支持，不得使用代詞或直接稱呼')
+                    check(mid in evidenced and bool(hit) and hit[2].get('kind')=='person' and hit[2]['surface']==alias['surface'], '異稱須由專名人物提及支持，不得使用代詞或直接稱呼')
             expected=set(mention_ids_by_person.get(p['id'], set()))
             if scope == 'corpus_and_native_table_mentions':
                 expected.update(table_mids_by_person.get(p['id'], set()))
