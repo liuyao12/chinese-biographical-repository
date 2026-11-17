@@ -655,7 +655,7 @@ def intersect_year_constraints(constraints):
     conflict = (lower is not None and upper is not None
                 and (lower > upper or lower == upper and not (lower_inclusive and upper_inclusive)))
     return {
-        "status": ("incomplete" if unsupported_ids else "complete"
+        "status": ("conflict" if conflict else "incomplete" if unsupported_ids else "complete"
                    if lower is not None or upper is not None else "no_constraints"),
         "coordinate": ({"calendar": coordinate[0], "year_system": coordinate[1],
                         "precision": coordinate[2], "era_id": coordinate[3]}
