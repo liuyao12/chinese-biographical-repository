@@ -319,6 +319,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     family_counts = []
     table_occurrences, occurrence_cells = [], {}
     name_components = []
+    temporal_constraints = []
     chapters, paragraphs, tables = {}, {}, {}
     for record in records:
         kind = record.get('record_type')
@@ -349,6 +350,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             titles.extend(t for t in record['holdings'] if t['person_id'] in ids)
         elif kind == 'person_name_component_set':
             name_components.extend(n for n in record['records'] if n['person_id'] in ids)
+        elif kind == 'temporal_constraint_set':
+            temporal_constraints.extend(c for c in record.get('constraints', []) if c.get('person_id') in ids)
         elif 'decisions' in record and kind not in ('person_equivalence_set', 'family_tree_decision_set'):
             identities.extend(d for d in record['decisions'] if d.get('person_id') in ids
                               or (kind == 'person_identity_decision_set'
@@ -518,6 +521,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 'alternative_id': chosen['id'], 'qualifiers': qualifiers,
                 'evidence': case['evidence'], 'selection': case['selection']})
     paragraph_ids = {m['paragraph_id'] for m in mentions}
+    paragraph_ids.update(e['paragraph_id'] for c in temporal_constraints for e in c.get('evidence', []) if e.get('paragraph_id'))
     paragraph_ids.update(n['paragraph_id'] for n in name_components if n.get('kind') != 'table_cell')
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case['evidence'])
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
@@ -794,6 +798,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'source_title_uses': source_title_uses} if source_title_uses else {}),
             **({'source_details': source_details} if source_details else {}),
             **({'source_temporal_attestations': source_temporal_attestations} if source_temporal_attestations else {}),
+            **({'temporal_constraints': temporal_constraints} if temporal_constraints else {}),
             **({'unresolved_kinship_references': unresolved_kinship_references} if unresolved_kinship_references else {}),
             **({'relative_birth_order_decisions': order_decisions} if order_decisions else {}),
             **({'referent_interpretations': referent_cases} if referent_cases else {}),
