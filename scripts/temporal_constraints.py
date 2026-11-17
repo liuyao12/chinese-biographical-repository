@@ -18,6 +18,8 @@ def _date_errors(value, label):
     for key in ("calendar", "year_system", "precision"):
         if not isinstance(value.get(key), str) or not value[key]:
             errors.append(f"{label}.{key}須有明確值")
+    if value.get("year_system") not in ("astronomical", "historical", "regnal"):
+        errors.append(f"{label}.year_system須為絕對年序或年號序數年")
     if type(value.get("year")) is not int:
         errors.append(f"{label}.year須為整數")
     if type(value.get("inclusive")) is not bool:
@@ -33,8 +35,11 @@ def _date_errors(value, label):
         errors.append(f"{label}月精度不得含日期")
     if precision == "day" and (type(value.get("day")) is not int or not 1 <= value["day"] <= 31):
         errors.append(f"{label}日精度須有有效日期")
-    if "era_id" in value and (not isinstance(value["era_id"], str) or not value["era_id"]):
-        errors.append(f"{label}.era_id須為非空字串")
+    if value.get("year_system") == "regnal":
+        if not isinstance(value.get("era_id"), str) or not value["era_id"]:
+            errors.append(f"{label}年號序數年須有 era_id")
+    elif "era_id" in value:
+        errors.append(f"{label}絕對年不得帶 era_id")
     return errors
 
 
