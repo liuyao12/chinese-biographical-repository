@@ -189,14 +189,14 @@ def errors(records, chapters, person_ids):
                         and isinstance(derivation.get("ordering_basis"), str)
                         and derivation.get("ordering_basis") == "narrative_sequence"
                         and derivation.get("condition_status") == "conditionally_accepted"
-                        and type(derivation.get("human_reviewed")) is bool
-                        and derivation.get("human_reviewed") is True
+                        and derivation.get("review_status") in ("agent_reviewed", "human_reviewed")
+                        and item.get("human_reviewed") is (derivation.get("review_status") == "human_reviewed")
                         and isinstance(item.get("related_event_id"), str)
                         and item.get("related_event_id") in events
                         and item.get("related_event_id") != target_id
                     )
                     if not valid_relation:
-                        errors.append(f"敘事次序事件關係須是經人工覆核且明示條件的跨事件 after_event：{cid}")
+                        errors.append(f"敘事次序事件關係須經代理或真人覆核並明示條件；human_reviewed 須如實標記：{cid}")
                     if isinstance(derivation.get("input_constraint_ids"), list):
                         errors.append(f"事件次序原子約束不得再以推導輸入約束取代來源引文：{cid}")
             elif derivation is not None:
@@ -329,7 +329,8 @@ def calculate_temporal_constraint_results(constraints):
         condition = relation_derivation.get("condition_status")
         if (relation.get("assertion_mode") != "derived"
                 or relation_derivation.get("ordering_basis") != "narrative_sequence"
-                or relation_derivation.get("human_reviewed") is not True
+                or relation_derivation.get("review_status") not in ("agent_reviewed", "human_reviewed")
+                or relation.get("human_reviewed") is not (relation_derivation.get("review_status") == "human_reviewed")
                 or condition != "conditionally_accepted"):
             unsupported.setdefault(earlier_id, []).append(relation.get("id"))
             continue
