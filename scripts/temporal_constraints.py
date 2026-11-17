@@ -304,8 +304,20 @@ def calculate_temporal_constraint_results(constraints):
         elif item.get("operator") in ("after_event", "not_before_event"):
             unhandled_relations.append(item)
 
-    results = {event_id: intersect_year_constraints(items)
-               for event_id, items in by_target.items()}
+    results = {}
+    for event_id, items in by_target.items():
+        try:
+            results[event_id] = intersect_year_constraints(items)
+        except ValueError:
+            # Preserve incompatible or malformed source constraints without
+            # aborting the person bundle/API calculation.
+            results[event_id] = {
+                "status": "incomplete", "coordinate": None,
+                "earliest": None, "latest": None, "conflict": False,
+                "unsupported_constraint_ids": sorted(
+                    item.get("id") for item in items if isinstance(item.get("id"), str)
+                ),
+            }
     derivations = {event_id: [] for event_id in results}
     unsupported = {event_id: [] for event_id in results}
     for relation in unhandled_relations:
