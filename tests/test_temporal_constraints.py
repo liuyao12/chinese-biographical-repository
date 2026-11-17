@@ -186,6 +186,7 @@ class TemporalConstraintTests(unittest.TestCase):
         ]
         result = calculate_temporal_constraint_results(constraints)
         self.assertTrue(result["b"]["conflict"])
+        self.assertEqual(result["b"]["status"], "conflict")
         self.assertEqual(result["a"]["status"], "incomplete")
         self.assertIsNone(result["a"]["latest"])
         self.assertIn("a-before-b", result["a"]["unsupported_constraint_ids"])
@@ -222,6 +223,7 @@ class TemporalConstraintTests(unittest.TestCase):
         ]
         result = calculate_temporal_constraint_results(constraints)
         self.assertTrue(result["b"]["conflict"])
+        self.assertEqual(result["b"]["status"], "conflict")
         self.assertEqual(result["a"]["status"], "incomplete")
         self.assertIsNone(result["a"]["latest"])
         self.assertNotIn("a-before-b", {
