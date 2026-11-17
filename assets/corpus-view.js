@@ -42,7 +42,7 @@ function list() {
   }
   const entries=index?filteredChapters(index,'all',$('chapter-search').value):[];
   $('chapter-count').textContent=t('{count} chapters',{count:entries.length});
-  $('chapter-list').innerHTML=entries.map(e=>`<a class="chapter-entry" href="${h(sourcePassageURL(e))}" aria-current="${e.chapter_id===selected?.chapter_id?'page':'false'}"><span class="chapter-number">${h(e.book_title)}</span><span>${h(sourceChapterTitle(e,chapterDirectory))}</span>${['partial_chapter','partial_table'].includes(e.text_scope)?`<small>${ui('Partial chapter')}</small>`:''}</a>`).join('');
+  $('chapter-list').innerHTML=entries.map(e=>`<a class="chapter-entry" href="${h(sourcePassageURL(e))}" aria-current="${e.chapter_id===selected?.chapter_id?'page':'false'}"><span class="chapter-number">${h(e.book_title)}</span><span>${h(e.title || sourceChapterTitle(e,chapterDirectory))}</span>${['partial_chapter','partial_table'].includes(e.text_scope)?`<small>${ui('Partial chapter')}</small>`:''}</a>`).join('');
 }
 const external=(url,label)=>safeSourceURL(url)?`<a href="${h(safeSourceURL(url))}" rel="noopener" target="_blank">${ui(label)} ↗</a>`:'';
 async function render(keepScroll=false) {
