@@ -54,7 +54,7 @@ def _coordinate(value):
     return tuple(value.get(k) for k in ("calendar", "year_system", "precision", "era_id"))
 
 
-def _quote_contains_mention(paragraph, quote, mention_id, person_id):
+def _quote_contains_mention(paragraph, quote, mention_id, person_id, quote_start=None, quote_end=None):
     text = paragraph.get("text", "")
     if not isinstance(text, str) or not isinstance(quote, str):
         return False
@@ -66,8 +66,10 @@ def _quote_contains_mention(paragraph, quote, mention_id, person_id):
     if (type(start) is not int or type(end) is not int or not isinstance(surface, str)
             or not 0 <= start < end <= len(text) or text[start:end] != surface):
         return False
-    return any(i <= start and end <= i + len(quote)
-               for i in range(len(text)) if text.startswith(quote, i))
+    if type(quote_start) is not int or type(quote_end) is not int:
+        return False
+    return (text[quote_start:quote_end] == quote
+            and quote_start <= start < end <= quote_end)
 
 
 def _temporal_claim_errors(citation, item):
@@ -272,7 +274,7 @@ def errors(records, chapters, person_ids):
                         or paragraph_text[quote_start:quote_end] != quote):
                     errors.append(f"日期約束引文不在原段中或未以字元位置精確錨定：{cid}")
                     continue
-                if not _quote_contains_mention(paragraph, quote, mention_id, person_id):
+                if not _quote_contains_mention(paragraph, quote, mention_id, person_id, quote_start, quote_end):
                     errors.append(f"日期約束人物錨點不在引文內：{cid}")
                 errors.extend(f"{message}：{cid}" for message in _temporal_claim_errors(citation, item))
                 if mode == "derived" and isinstance(derivation, dict):
@@ -281,7 +283,8 @@ def errors(records, chapters, person_ids):
                         related_person_id = related_event.get("person_id") if isinstance(related_event, dict) else None
                         if (isinstance(related_person_id, str) and related_person_id != person_id
                                 and not _quote_contains_mention(
-                                    paragraph, quote, citation.get("related_person_mention_id"), related_person_id
+                                    paragraph, quote, citation.get("related_person_mention_id"), related_person_id,
+                                    quote_start, quote_end
                                 )):
                             errors.append(f"跨人物事件次序引文須錨定兩位人物：{cid}")
                         continue
@@ -338,7 +341,10 @@ def calculate_temporal_constraint_results(constraints):
     derivations = {event_id: [] for event_id in results}
     unsupported = {event_id: [] for event_id in results}
     for relation in unhandled_relations:
-        unsupported.setdefault(relation.get("target_event_id"), []).append(relation.get("id"))
+        relation_id = relation.get("id")
+        for event_id in (relation.get("target_event_id"), relation.get("related_event_id")):
+            if isinstance(event_id, str):
+                unsupported.setdefault(event_id, []).append(relation_id)
     # Mark every order edge participating in a directed cycle as unsupported.
     # A cycle is contradictory even when year precision alone cannot expose it.
     adjacency = {}
@@ -414,6 +420,10 @@ def calculate_temporal_constraint_results(constraints):
             earlier_id = relation.get("related_event_id")
             later_id = relation.get("target_event_id")
             later_result = results.get(later_id)
+            if isinstance(later_result, dict) and later_result.get("conflict"):
+                failed_relations.add(relation_id)
+                unsupported.setdefault(earlier_id, []).append(relation_id)
+                continue
             latest = later_result.get("latest") if isinstance(later_result, dict) else None
             if (not latest or not isinstance(later_result.get("coordinate"), dict)
                     or later_result["coordinate"].get("precision") != "year"):
