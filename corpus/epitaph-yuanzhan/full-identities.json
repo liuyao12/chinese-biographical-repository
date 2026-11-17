@@ -79,7 +79,59 @@
       "rationale": "本碑祖嘉父淵湛與018嘉子深、深子湛、廣陽忠武王之近系/諡號鏈相合；淵深與士深士淵原字各存，有資格同指而非近形字自動合併。",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
-      "external_reference_file": "source-evidence/yuanzhan-epitaph-nmh/identity-review.json"
+      "external_reference_file": "source-evidence/yuanzhan-epitaph-nmh/identity-review.json",
+      "cross_source_evidence": [
+        {
+          "reference_id": "ref-yuanzhan-weishu018-kanripo-wyg-17b6525",
+          "witness_id": "s-weishu-weishou-018-kanripo-17b6525",
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-018",
+          "source_title": "魏書／卷十八／列傳第六・太武五王（廣陽王）",
+          "source_url": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_018.txt",
+          "source_revision": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
+          "digital_edition": "文淵閣《四庫全書》數位轉錄（Kanripo WYG）；未核影像。檔頭 BASEEDITION WYG，不作武英殿本。",
+          "quotes": [
+            {
+              "locator": "原始檔第 275 行，卷十八 15b",
+              "quote": "子深字智逺襲爵肅宗初拜肆州刺史",
+              "relevance": "記廣陽王嘉之子深及其字，供祖嘉—父深—子湛鏈的上一代對讀。"
+            },
+            {
+              "locator": "原始檔第 386 行，卷十八 22a",
+              "quote": "見深頗有喜者榮新自立内惡之乃害深荘帝追復王",
+              "relevance": "記深死後，莊帝追復其王爵；下一行明記忠武諡。"
+            },
+            {
+              "locator": "原始檔第 387 行，卷十八 22a",
+              "quote": "爵贈司徒公諡曰忠武",
+              "relevance": "明記深的忠武諡。"
+            },
+            {
+              "locator": "原始檔第 388 行，卷十八 22a",
+              "quote": "子湛字士淵少有風尚荘帝初襲封孝静初累遷冀州",
+              "relevance": "明記深之子湛、字士淵，供與墓誌所記湛父淵對讀。"
+            },
+            {
+              "locator": "原始檔第 389 行，卷十八 22a",
+              "quote": "刺史所在聚斂風政不立入為侍中後行司州牧時齊",
+              "relevance": "承接湛的官歷。"
+            },
+            {
+              "locator": "原始檔第 390 行，卷十八 22a",
+              "quote": "獻武王作相以湛頗有噐望啟超拜太尉公薨贈假黄",
+              "relevance": "記湛薨及贈官。"
+            },
+            {
+              "locator": "原始檔第 391 行，卷十八 22a",
+              "quote": "鉞大司馬尚書令諡曰文獻",
+              "relevance": "記湛的文獻諡。"
+            }
+          ],
+          "chapter_id": null,
+          "chapter_qualification": "此為外部固定數位見證的定位引文；魏書卷十八尚未作為本庫已標註章篇匯入，故不虛置章 ID。",
+          "interpretation_limit": "本引文支持同一父子鏈的跨源身份首選；不自行證明「淵／深」或「士深／士淵」為通假、異體或抄誤，故本身份仍為 contextual_provisional。"
+        }
+      ]
     },
     {
       "id": "d-yuanzhan-allusion-dushu",

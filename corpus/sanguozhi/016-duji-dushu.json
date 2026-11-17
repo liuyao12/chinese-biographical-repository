@@ -1,0 +1,114 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-sanguozhi-016-duji-dushu",
+  "work_id": "w-sanguozhi",
+  "book_id": "b-sanguozhi-016",
+  "source_id": "s-sanguozhi-016-duji-dushu-kr214fcafa",
+  "title": "杜畿、杜恕相關正文摘錄",
+  "source": {
+    "title": "《三國志》卷十六杜畿、杜恕完整本傳及全部裴注",
+    "provider": "Kanripo",
+    "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+    "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_016.txt",
+    "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+    "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+    "response_sha256": "82e8ba333863c0ad47843c72d6237a2d32b10bff3a28ec7f51d614bcb34c5e7f",
+    "accessed_on": "2026-10-23",
+    "extent": "固定原檔91–406行：杜畿字伯侯起至阮坦喪官王衍哭之，止鄭渾獨立本傳前；44層次單元，不稱全卷。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "rights": "古籍原文；Kanripo固定數位文字見證，保來源歸屬。未核書影或實際古刊。",
+    "normalization": {
+      "character_conversion": {},
+      "extraction_note": "只移除版面頁碼、換行¶與外層注括號；正文/裴注依原次序、逐字位置全覆蓋。"
+    }
+  },
+  "paragraphs": [
+    {
+      "id": "c-sanguozhi-016-duji-dushu:unit023",
+      "text": "故尚書僕射杜畿於孟津試船遂至覆没忠之至也朕甚愍焉追贈太僕諡曰戴侯子恕嗣",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "source_position": {
+        "source_layer": "received_body",
+        "first_line": 173,
+        "last_line": 174,
+        "raw_projection_ref": "source-evidence/sgz016-duji-dushu/fixed-complete-unit.json",
+        "unit_key": "unit023",
+        "raw_file_sha256": "82e8ba333863c0ad47843c72d6237a2d32b10bff3a28ec7f51d614bcb34c5e7f"
+      },
+      "mentions": [
+        {
+          "id": "c-sanguozhi-016-duji-dushu:unit023:m0000",
+          "start": 5,
+          "end": 7,
+          "surface": "杜畿",
+          "person_id": "56f_8f7_e9f",
+          "kind": "person",
+          "status": "source_attested"
+        },
+        {
+          "id": "c-sanguozhi-016-duji-dushu:unit023:m0001",
+          "start": 33,
+          "end": 34,
+          "surface": "恕",
+          "person_id": "56f_8f7_e9f_A",
+          "kind": "person",
+          "status": "source_attested"
+        }
+      ]
+    },
+    {
+      "id": "c-sanguozhi-016-duji-dushu:unit025",
+      "text": "恕字務伯太和中為㪚騎黃門侍郎",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "source_position": {
+        "source_layer": "received_body",
+        "first_line": 178,
+        "last_line": 178,
+        "raw_projection_ref": "source-evidence/sgz016-duji-dushu/fixed-complete-unit.json",
+        "unit_key": "unit025",
+        "raw_file_sha256": "82e8ba333863c0ad47843c72d6237a2d32b10bff3a28ec7f51d614bcb34c5e7f"
+      },
+      "mentions": [
+        {
+          "id": "c-sanguozhi-016-duji-dushu:unit025:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "恕",
+          "person_id": "56f_8f7_e9f_A",
+          "kind": "person",
+          "status": "source_attested"
+        },
+        {
+          "id": "c-sanguozhi-016-duji-dushu:unit025:m0001",
+          "start": 2,
+          "end": 4,
+          "surface": "務伯",
+          "person_id": "56f_8f7_e9f_A",
+          "kind": "person",
+          "status": "source_attested"
+        }
+      ]
+    }
+  ],
+  "annotation": {
+    "status": "in_progress",
+    "scope": "selected_received_text_excerpts",
+    "reviewer": "Codex（AI代理）",
+    "human_reviewed": false,
+    "model": null,
+    "edition_note": "固定Kanripo轉錄檔標示 BASEEDITION WYG，屬文淵閣《四庫全書》數位轉錄；未核影像，不稱武英殿本。",
+    "coverage": "只收卷十六杜畿身後追贈及杜恕嗣爵段、杜恕姓名本傳首句，用於核定父子關係與字；其餘完整44段讀本仍在來源研究檔，未作本篇完整人名標記。",
+    "limitations": [
+      "節選不是全卷、也不是兩篇完整傳記；不要將本檔當作卷十六完成。",
+      "引用原字與原文，不把臣、其等代詞當作人物。",
+      "原影像未核；所據為固定WYG數位轉錄。"
+    ]
+  },
+  "text_sha256": "8b271b53d7e6b651150aa755aaa97b2ca22b9224d652aa64f4eb36a0c0f327d1"
+}
