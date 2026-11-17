@@ -80,6 +80,20 @@ class TemporalConstraintTests(unittest.TestCase):
         self.assertEqual(result["status"], "incomplete")
         self.assertIn("sequence", result["unsupported_constraint_ids"])
 
+    def test_mixed_date_coordinates_return_incomplete_without_losing_constraints(self):
+        constraints = [
+            {"id": "regnal", "target_event_id": "death", "operator": "within_interval",
+             "interval": {"earliest": date(1), "latest": date(6)}},
+            {"id": "historical", "target_event_id": "death", "operator": "not_before",
+             "bound": {"calendar": "chinese_civil", "year_system": "historical",
+                       "precision": "year", "year": 650, "inclusive": True}},
+        ]
+        result = calculate_temporal_constraint_results(constraints)["death"]
+        self.assertEqual(result["status"], "incomplete")
+        self.assertIsNone(result["earliest"])
+        self.assertIsNone(result["latest"])
+        self.assertEqual(result["unsupported_constraint_ids"], ["historical", "regnal"])
+
     def test_person_bundle_dependency_closure_includes_other_person_and_source_constraints(self):
         constraints = [
             {"id": "death-lower", "person_id": "princess", "target_event_id": "death"},
