@@ -1,7 +1,7 @@
 import unittest
 
 from scripts.temporal_constraints import (
-    _date_errors, calculate_temporal_constraint_results, errors, temporal_constraint_closure,
+    _date_errors, _quote_contains_mention, calculate_temporal_constraint_results, errors, temporal_constraint_closure,
 )
 
 
@@ -138,6 +138,40 @@ class TemporalConstraintTests(unittest.TestCase):
         a_derivation = next(d for d in forward["a"]["derivations"] if d["relation_id"] == "a-before-b")
         self.assertEqual(set(a_derivation["input_constraint_ids"]),
                          {"a-before-b", "b-before-c", "c-upper"})
+
+    def test_event_order_does_not_propagate_from_a_conflicted_later_event(self):
+        relation = {
+            "id": "a-before-b", "target_event_id": "b", "related_event_id": "a",
+            "operator": "after_event", "assertion_mode": "derived",
+            "derivation": {"rule_id": "narrative_sequence_implies_event_order",
+                           "ordering_basis": "narrative_sequence",
+                           "condition_status": "conditionally_accepted",
+                           "review_status": "agent_reviewed"},
+            "human_reviewed": False,
+        }
+        constraints = [
+            {"id": "a-lower", "target_event_id": "a", "operator": "not_before", "bound": date(1)},
+            {"id": "b-lower", "target_event_id": "b", "operator": "not_before", "bound": date(8)},
+            {"id": "b-upper", "target_event_id": "b", "operator": "not_after", "bound": date(6)},
+            relation,
+        ]
+        result = calculate_temporal_constraint_results(constraints)
+        self.assertTrue(result["b"]["conflict"])
+        self.assertEqual(result["a"]["status"], "incomplete")
+        self.assertIsNone(result["a"]["latest"])
+        self.assertIn("a-before-b", result["a"]["unsupported_constraint_ids"])
+
+    def test_mention_must_be_inside_the_exact_duplicate_quote_span(self):
+        text = "王方翼傳：公主卒後；王方翼傳。"
+        quote = "王方翼傳"
+        mention = {"id": "m-wang", "person_id": "wang", "start": 0, "end": len(quote),
+                   "surface": quote}
+        paragraph = {"text": text, "mentions": [mention]}
+        duplicate_start = text.rindex(quote)
+        self.assertFalse(_quote_contains_mention(
+            paragraph, quote, "m-wang", "wang", duplicate_start, duplicate_start + len(quote)
+        ))
+        self.assertTrue(_quote_contains_mention(paragraph, quote, "m-wang", "wang", 0, len(quote)))
 
     def test_conditional_order_cycles_are_incomplete(self):
         def relation(id_, earlier, later):
