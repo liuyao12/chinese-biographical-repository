@@ -525,6 +525,18 @@ def _validate_uncached(root=ROOT):
                     if m['kind'] == 'person':
                         check(m['person_id'] in pids, '提及引用未知人物 ID')
                         check(any(ch.isalnum() for ch in m['surface']), '人物提及不得僅為標點或空白')
+                    elif m['kind'] == 'person_reference':
+                        check(m.get('person_id') in pids, '人物指涉須引用現行人物 ID')
+                        check(m.get('reference_type') in ('pronoun', 'direct_address', 'self_reference'), '人物指涉詞類無效')
+                        check(m.get('referent_role') in ('speaker', 'addressee', 'third_party'), '人物指涉角色無效')
+                        if m.get('reference_type') == 'direct_address':
+                            check(m.get('referent_role') == 'addressee', '直接稱呼須指向受話者')
+                        if m.get('reference_type') == 'self_reference':
+                            check(m.get('referent_role') == 'speaker', '發言者自指須指向發言者')
+                        check(m.get('status') == 'contextual_provisional', '人物指涉須標示上下文暫定')
+                        check(isinstance(m.get('interpretation_note'), str) and bool(m['interpretation_note'].strip()), '人物指涉須說明語法角色與所指')
+                        check(isinstance(m.get('reviewer'), str) and bool(m['reviewer'].strip()) and m.get('human_reviewed') is False, '人物指涉須保留判讀者及未經人工審閱狀態')
+                        check('work_id' not in m, '人物指涉不可同時作著作提及')
                     elif m['kind'] == 'unresolved': check(m['person_id'] is None and m['status']=='unresolved', '未定提及不得暗選人物')
                     elif m['kind'] == 'non_person':
                         try:
@@ -642,7 +654,13 @@ def _validate_uncached(root=ROOT):
                     check(e.tag==({'person':'persName','work':'title','non_person':'seg'}.get(m['kind'], 'rs')), 'XML 提及類型不符')
                     check(e.get('ref')==(m.get('work_id') if m['kind']=='work' else m['person_id']), 'XML 人物或著作引用不符')
                     if m['kind']=='unresolved': check(e.get('type')=='unresolved','XML 未定類型不符')
-                    if m['kind']=='non_person': check(e.get('type')=='non-person' and e.get('subtype')==m.get('lexical_role'),'XML 非人物詞性不符')
+                    if m['kind']=='person_reference':
+                        check(e.get('type')=='person-reference' and e.get('subtype')==m.get('reference_type')
+                              and e.get('referent-role')==m.get('referent_role'),
+                              'XML 非姓名人物指涉類型或角色不符')
+                    if m['kind']=='non_person':
+                        check(e.get('type')=='non-person' and e.get('subtype')==m.get('lexical_role'), 'XML 非人物詞性不符')
+                        check(e.get('referent-kind')==m.get('referent_kind'), 'XML 非人物代詞所指類別不符')
         check(not set(chapters).intersection(table_chapters), '正文與表格篇ID不得重複')
         check(set(chapter_books)==set(chapters) | set(table_chapters), '著作目錄與文本篇清單不符')
         for wid, work in works.items():
@@ -840,7 +858,7 @@ def _validate_uncached(root=ROOT):
                 check(bool(alias['mention_ids']), '異稱沒有證據')
                 for mid in alias['mention_ids']:
                     hit=registry_mentions.get(mid)
-                    check(mid in evidenced and bool(hit) and hit[2]['surface']==alias['surface'], '異稱證據不符')
+                    check(mid in evidenced and bool(hit) and hit[2].get('kind')=='person' and hit[2]['surface']==alias['surface'], '異稱須由專名人物提及支持，不得使用代詞或直接稱呼')
             expected=set(mention_ids_by_person.get(p['id'], set()))
             if scope == 'corpus_and_native_table_mentions':
                 expected.update(table_mids_by_person.get(p['id'], set()))

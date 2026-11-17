@@ -6,7 +6,12 @@ def non_person_errors(mention, text):
     starts = [i for i in range(len(text)) if text.startswith(term, i)] if isinstance(term, str) and term else []
     start, end = mention.get('start'), mention.get('end')
     role = mention.get('lexical_role')
-    role_valid = role in ('verb', 'reciprocal_adverb')
+    role_valid = role in ('verb', 'reciprocal_adverb', 'syntactic_particle')
+    if role == 'non_person_pronoun':
+        role_valid = mention.get('referent_kind') in (
+            'event', 'action', 'object', 'expression', 'practice', 'quality', 'target')
+    elif 'referent_kind' in mention:
+        role_valid = False
     if role == 'vacant_office':
         role_valid = mention.get('surface') == '太子' and isinstance(term, str) and term.endswith('無太子')
     elif role == 'sovereign_status':
