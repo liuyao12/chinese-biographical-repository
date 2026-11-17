@@ -67,6 +67,8 @@
       "chapter_id": "c-example-001",
       "paragraph_id": "c-example-001:p001",
       "quote": "某帝永徽三年幸某公主第",
+      "quote_start": 0,
+      "quote_end": 11,
       "person_mention_id": "c-example-001:p001:m0001",
       "temporal_claim": {
         "source_term": "永徽三年",
@@ -109,13 +111,13 @@
 - `within_interval` 使用 `interval`，內含 `earliest` 與 `latest` 兩個完整日期值；任一端點可為 `null` 表示無界。每個非空端點各有自己的 `inclusive`，不可只給一個共用端點旗標。
 - `after_event` 與 `not_before_event` 使用 `related_event_id`，分別表示嚴格晚於及不早於該事件。兩事件需能映射到同一比較座標；不可從敘事順序自行假定間隔。
 
-若採用原文敘事排列作事件先後依據，仍須保留這是編者採納的條件判讀，而非來源明言的日期。此時 constraint 可用 `assertion_mode: "derived"`、`operator: "after_event"`，並在 `derivation` 明列 `rule_id: "narrative_sequence_implies_event_order"`、`ordering_basis: "narrative_sequence"`、`condition_status: "conditionally_accepted"`、`human_reviewed: true`。其 `target_event_id` 可屬於一人，`related_event_id` 可屬另一人；原始日期及事件關係各自保存在原子約束，不應混成單一來源主張。
+若採用原文敘事排列作事件先後依據，仍須保留這是編者採納的條件判讀，而非來源明言的日期。此時 constraint 可用 `assertion_mode: "derived"`、`operator: "after_event"`，並在 `derivation` 明列 `rule_id: "narrative_sequence_implies_event_order"`、`ordering_basis: "narrative_sequence"`、`condition_status: "conditionally_accepted"` 及 `review_status: "agent_reviewed"` 或 `"human_reviewed"`。頂層 `human_reviewed` 必須如實反映是否有真人覆核，AI 代理覆核不得標成真人覆核。其 `target_event_id` 可屬於一人，`related_event_id` 可屬另一人；原始日期及事件關係各自保存在原子約束，不應混成單一來源主張。
 
-日期值須包含 `calendar`、`year_system`、`precision`、整數 `year` 及布林 `inclusive`。`year_system` 固定為 `astronomical`（含公元零年的絕對年）、`historical`（不設公元零年的絕對年）或 `regnal`（年號內序數年）；`regnal` 必須另有 `era_id`，此時 `year: 3` 即該年號第三年，不是公元三年。絕對年不得帶 `era_id`。月／日精度時再加入數值 `month`／`day`。比較前要求日曆、年序、年號座標與精度相容；跨曆法或絕對年／年號年的轉換必須另有具來源的映射，不能由消費端猜測。日期區間採閉合或明示開放端點；沒有界限就用 `null`，不可用極小或極大年份代替。
+日期值須包含 `calendar`、`year_system`、`precision`、整數 `year` 及布林 `inclusive`。歷史年序不得使用不存在的公元零年；年號序數年須為正整數。`year_system` 固定為 `astronomical`（含公元零年的絕對年）、`historical`（不設公元零年的絕對年）或 `regnal`（年號內序數年）；`regnal` 必須另有 `era_id`，此時 `year: 3` 即該年號第三年，不是公元三年。絕對年不得帶 `era_id`。月／日精度時再加入數值 `month`／`day`。比較前要求日曆、年序、年號座標與精度相容；跨曆法或絕對年／年號年的轉換必須另有具來源的映射，不能由消費端猜測。日期區間採閉合或明示開放端點；沒有界限就用 `null`，不可用極小或極大年份代替。
 
 ## 引文中的日期詞與正規化
 
-每筆 `evidence` 須有 `temporal_claim`，其中 `source_term` 是原引句內實際表示日期或事件關係的詞串；`start`／`end` 是其在 `quote` 內的字元位置。它必須原樣等於該位置的文字，不能只引用人物姓名而另填任意年份。
+每筆 `evidence` 須有 `quote_start`／`quote_end`，明確錨定原段中的完整引句；其字元切片必須等於 `quote`，以免段內重複語句無法區分。另須有 `temporal_claim`，其中 `source_term` 是引句內實際表示日期或事件關係的詞串；`start`／`end` 是其在 `quote` 內的字元位置。它必須原樣等於該位置的文字，不能只引用人物姓名而另填任意年份。
 
 `temporal_claim` 必須且只能含以下一種正規化結果：
 
@@ -133,7 +135,7 @@
 
 `assertion_mode: derived` 必須有固定 `rule_id`、輸入事件 ID 及支持該規則的來源引文。規則版本化、語義明確；不得以 `interpretation_note` 自由文字代替。以某人於一時點在世為例，只有編者明確將該人物判為該事件的在世參與者，才可使用 `person_alive_at_event_implies_death_not_before`。單純出現於後出的敘事、後世追稱、死後到訪其宅或未定主語都不觸發此規則。
 
-`narrative_sequence_implies_event_order` 是一項明確有條件的跨人物先後判讀：事件關係 constraint 本身必須保留原段引文、關係詞錨點及 `normalized_relation`；`derivation` 必須標示敘事排序前提、其 `conditionally_accepted` 狀態及人工覆核。前提未採納、來源段落無法定位或兩事件不能映射至相同時間座標時，計算須回報 `incomplete`，不可輸出確定上／下界。
+`narrative_sequence_implies_event_order` 是一項明確有條件的跨人物先後判讀：事件關係 constraint 本身必須保留精確錨定於原段的引文、關係詞錨點及 `normalized_relation`；若引文涉及兩位不同人物，須分別錨定兩個人物提及。 `derivation` 必須標示敘事排序前提、其 `conditionally_accepted` 狀態及代理或真人覆核狀態。前提未採納、來源段落無法定位或兩事件不能映射至相同時間座標時，計算須回報 `incomplete`，不可輸出確定上／下界。
 
 對於年精度同座標約束 \(A < B\) 且已知 \(B \leq y\)，可條件式推出 \(A \leq y\)；同年內的先後仍容許 A、B 同年，故衍生上界包含該年。計算結果須列出「B 的上界約束」與事件先後約束兩者的 ID，並保留 `ordering_basis` 與 `condition_status`。人物包應同時帶回依賴約束、跨人物事件及其來源段落。這種計算輸出是可重建的推論，不得回寫成原文直接記載的卒年。
 
@@ -158,8 +160,8 @@ D = [1, 6] \cap [3, +\infty) = [3, 6].
 1. person、event、work、book、chapter、paragraph 與 mention ID 均存在且互相一致；
 2. 每個引用含精確原文、日期詞字元錨點及人物錨點；正規化日期或範圍須與 constraint 端點完全相符；
 3. `direct` 與 `derived` 欄位組合正確；在世推導只接受同一人物的死亡目標，以及有日期、原文引用和 `participant_role: visited_person` 的訪問事件；
-4. 端點順序、包含性、日曆、絕對年／年號序數年座標及精度完整；
+4. 端點順序、包含性、日曆、絕對年／年號序數年座標及精度完整；歷史年序無公元零年，年號序數為正整數；
 5. 衍生人物 JSON 保留原始約束與來源，計算結果可由原約束重現；
 6. 撤回來源、身份或推導決定後，所有依賴結果可重建，且不需永久保存 ID 改名歷史。
 
-此 PR 實作了初版結構驗證、人物包原記錄匯出、年精度絕對界限交集及明確條件式敘事次序上界傳播。跨曆法換算、同安公主個案資料與完整來源覆核仍未實作或收錄；草案欄位須隨實際個案持續核驗。
+此 PR 實作了初版結構驗證、人物包原記錄匯出、年精度絕對界限交集及條件式敘事次序上界傳播。傳播反覆計算至固定點，不受記錄排列順序影響；事件次序成環時保留為不完整，不輸出可疑界限。跨曆法換算、同安公主個案資料與完整來源覆核仍未實作或收錄；草案欄位須隨實際個案持續核驗。
