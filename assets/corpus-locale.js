@@ -26,6 +26,7 @@ export default {
   'Selected scope':'選錄範圍',
   'Choose a volume or imported section.':'請選擇卷篇或已收單元。',
   'Navigation directory source':'導航目錄來源',
+  'Digital text reference':'數位正文參考',
   'Source text not yet imported':'正文尚未收錄',
   'Volume directory; not an imported source text':'卷篇目錄；不是已匯入正文',
   '{volumes} volumes · {imported} imported sections':'{volumes}卷 · 已收{imported}個單元',
