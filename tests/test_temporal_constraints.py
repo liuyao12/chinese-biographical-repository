@@ -102,6 +102,35 @@ class TemporalConstraintTests(unittest.TestCase):
                        {"id": "m-wang", "person_id": "wang", "start": 0, "end": 3, "surface": "王方翼"}]}]}
         self.assertEqual(errors(records, {"chapter-185": chapter}, {"princess", "wang"}), [])
 
+    def test_validator_binds_death_lower_bound_to_exact_visited_person_date(self):
+        quote = "帝永徽三年幸公主第"
+        term = "永徽三年"
+        date_claim = {"source_term": term, "start": quote.index(term),
+                      "end": quote.index(term) + len(term), "normalized_date": date(3)}
+        citation = {"work_id": "work-old-tang", "book_id": "book-annals", "source_id": "old-tang",
+                    "chapter_id": "chapter-annals", "paragraph_id": "p1", "quote": quote,
+                    "person_mention_id": "m-princess", "temporal_claim": date_claim}
+        visit = {"id": "visit", "person_id": "princess", "event_type": "visit",
+                 "participant_role": "visited_person", "date_expression": term,
+                 "normalized_date": date(3), "evidence": [citation]}
+        records = [
+            {"record_type": "person_life_event_assertion_set", "events": [
+                {"id": "death", "person_id": "princess", "event_type": "death"}, visit]},
+            {"record_type": "temporal_constraint_set", "format_version": "0.1", "work_id": "work-old-tang",
+             "book_id": "book-annals", "source_id": "old-tang", "chapter_id": "chapter-annals", "constraints": [{
+                "id": "death-lower", "person_id": "princess", "target_event_id": "death",
+                "operator": "not_before", "bound": date(3), "assertion_mode": "derived",
+                "derivation": {"rule_id": "person_alive_at_event_implies_death_not_before", "input_event_id": "visit"},
+                "human_reviewed": True, "evidence": [citation],
+            }]},
+        ]
+        chapter = {"id": "chapter-annals", "chapter_id": "chapter-annals", "work_id": "work-old-tang",
+                   "book_id": "book-annals", "source_id": "old-tang", "paragraphs": [{
+                       "id": "p1", "text": quote, "mentions": [{"id": "m-princess", "person_id": "princess",
+                       "start": quote.index("公主"), "end": quote.index("公主") + 2, "surface": "公主"}],
+                   }]}
+        self.assertEqual(errors(records, {"chapter-annals": chapter}, {"princess"}), [])
+
 
 if __name__ == "__main__":
     unittest.main()
