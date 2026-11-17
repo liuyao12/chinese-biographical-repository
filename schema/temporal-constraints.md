@@ -109,6 +109,8 @@
 - `within_interval` 使用 `interval`，內含 `earliest` 與 `latest` 兩個完整日期值；任一端點可為 `null` 表示無界。每個非空端點各有自己的 `inclusive`，不可只給一個共用端點旗標。
 - `after_event` 與 `not_before_event` 使用 `related_event_id`，分別表示嚴格晚於及不早於該事件。兩事件需能映射到同一比較座標；不可從敘事順序自行假定間隔。
 
+若採用原文敘事排列作事件先後依據，仍須保留這是編者採納的條件判讀，而非來源明言的日期。此時 constraint 可用 `assertion_mode: "derived"`、`operator: "after_event"`，並在 `derivation` 明列 `rule_id: "narrative_sequence_implies_event_order"`、`ordering_basis: "narrative_sequence"`、`condition_status: "conditionally_accepted"`、`human_reviewed: true`。其 `target_event_id` 可屬於一人，`related_event_id` 可屬另一人；原始日期及事件關係各自保存在原子約束，不應混成單一來源主張。
+
 日期值須包含 `calendar`、`year_system`、`precision`、整數 `year` 及布林 `inclusive`。`year_system` 固定為 `astronomical`（含公元零年的絕對年）、`historical`（不設公元零年的絕對年）或 `regnal`（年號內序數年）；`regnal` 必須另有 `era_id`，此時 `year: 3` 即該年號第三年，不是公元三年。絕對年不得帶 `era_id`。月／日精度時再加入數值 `month`／`day`。比較前要求日曆、年序、年號座標與精度相容；跨曆法或絕對年／年號年的轉換必須另有具來源的映射，不能由消費端猜測。日期區間採閉合或明示開放端點；沒有界限就用 `null`，不可用極小或極大年份代替。
 
 ## 引文中的日期詞與正規化
@@ -131,11 +133,15 @@
 
 `assertion_mode: derived` 必須有固定 `rule_id`、輸入事件 ID 及支持該規則的來源引文。規則版本化、語義明確；不得以 `interpretation_note` 自由文字代替。以某人於一時點在世為例，只有編者明確將該人物判為該事件的在世參與者，才可使用 `person_alive_at_event_implies_death_not_before`。單純出現於後出的敘事、後世追稱、死後到訪其宅或未定主語都不觸發此規則。
 
+`narrative_sequence_implies_event_order` 是一項明確有條件的跨人物先後判讀：事件關係 constraint 本身必須保留原段引文、關係詞錨點及 `normalized_relation`；`derivation` 必須標示敘事排序前提、其 `conditionally_accepted` 狀態及人工覆核。前提未採納、來源段落無法定位或兩事件不能映射至相同時間座標時，計算須回報 `incomplete`，不可輸出確定上／下界。
+
+對於年精度同座標約束 \(A < B\) 且已知 \(B \leq y\)，可條件式推出 \(A \leq y\)；同年內的先後仍容許 A、B 同年，故衍生上界包含該年。計算結果須列出「B 的上界約束」與事件先後約束兩者的 ID，並保留 `ordering_basis` 與 `condition_status`。人物包應同時帶回依賴約束、跨人物事件及其來源段落。這種計算輸出是可重建的推論，不得回寫成原文直接記載的卒年。
+
 每項約束獨立保留來源和判讀狀態。不同作品若彼此矛盾，分別輸出；不能把矛盾來源平均化或靜默刪除。可依既有 precedence 決定為某一計算視圖選定來源，但原始約束仍可取回。
 
 ## 人物包與計算結果
 
-`scripts/person_bundle.py` 在人物來源包中匯出 `temporal_constraints` 原記錄，並將約束所引段落加入 `passages`；不得只輸出合併後的摘要日期。`scripts/temporal_constraints.py` 提供年精度同座標界限交集函式，回傳端點及貢獻該端點的約束 ID。此 PR 尚未收錄任何同安公主或其他實際日期約束資料。
+`scripts/person_bundle.py` 在人物來源包中匯出 `temporal_constraints` 原記錄、跨人物 `temporal_constraint_events`、可重建的 `temporal_constraint_results`，並將相關約束所引段落加入 `passages`；不得只輸出合併後的摘要日期。結果的端點列出貢獻約束 ID；條件式先後推導另列輸入約束 ID 及排序前提。`scripts/temporal_constraints.py` 提供年精度同座標界限交集與條件式事件先後傳播。此 PR 尚未收錄任何同安公主或其他實際日期約束資料。
 
 使用端可對同一目標事件、同一計時座標中相容的日期界限求交。例如，一來源記人物卒於永徽年間，形成年號序數年 1 至 6 的封閉區間；另一來源記永徽三年仍在世，形成死亡年不早於年號序數年 3 的下界。兩者使用同一永徽年號座標，故：
 
@@ -143,7 +149,7 @@
 D = [1, 6] \cap [3, +\infty) = [3, 6].
 \]
 
-這是可計算的容許年範圍，不是單一年份估計。若交集為空，使用端應回報來源衝突並保留各來源約束，不得自動挑選一方。若兩項日期使用不同日曆或精度，必須先經有來源的明確轉換；不得直接比較。0.1 版尚無可驗證的跨座標映射欄位，因此不得把年號序數轉寫成天文年後當作同座標輸入；遇到此情形須保留原始約束，讓交集結果標記為未完成，待映射結構實作後再計算。等值約束必須是含端點的單一日期。初版交集函式只計算年精度、同一座標的日期運算子；含相對事件運算子的輸入會回傳 `status: incomplete` 及未處理約束 ID，禁止使用端把未計算誤當成無界或無衝突結果。
+這是可計算的容許年範圍，不是單一年份估計。若交集為空，使用端應回報來源衝突並保留各來源約束，不得自動挑選一方。若兩項日期使用不同日曆或精度，必須先經有來源的明確轉換；不得直接比較。0.1 版尚無可驗證的跨座標映射欄位，因此不得把年號序數轉寫成天文年後當作同座標輸入；遇到此情形須保留原始約束，讓交集結果標記為未完成，待映射結構實作後再計算。等值約束必須是含端點的單一日期。`intersect_year_constraints` 只計算年精度、同一座標的絕對界限；`calculate_temporal_constraint_results` 另處理明確條件且人工覆核的 `narrative_sequence_implies_event_order` 年精度上界傳播。其他相對事件關係、未採納排序前提或缺乏可比較上界時，結果須回傳 `status: incomplete` 及未處理約束 ID，禁止使用端把未計算誤當成無界或無衝突結果。
 
 ## 驗證要求
 
@@ -156,4 +162,4 @@ D = [1, 6] \cap [3, +\infty) = [3, 6].
 5. 衍生人物 JSON 保留原始約束與來源，計算結果可由原約束重現；
 6. 撤回來源、身份或推導決定後，所有依賴結果可重建，且不需永久保存 ID 改名歷史。
 
-此 PR 實作了初版結構驗證、人物包原記錄匯出及年精度絕對界限交集。跨曆法換算、相對事件約束的計算、同安公主個案資料與完整來源覆核仍未實作或收錄；草案欄位須隨實際個案持續核驗。
+此 PR 實作了初版結構驗證、人物包原記錄匯出、年精度絕對界限交集及明確條件式敘事次序上界傳播。跨曆法換算、同安公主個案資料與完整來源覆核仍未實作或收錄；草案欄位須隨實際個案持續核驗。
