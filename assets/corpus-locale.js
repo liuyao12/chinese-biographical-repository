@@ -22,6 +22,7 @@ export default {
   'Offered fief households (not confirmed held)':'進封案食邑（未證實持）',
   'Fief households':'食邑戶數',
   'Imported section {number}':'已收單元{number}',
+  'Chapter title registered; source text has not been imported.':'篇目已登錄；正文尚未收錄。',
   'Selected scope':'選錄範圍',
   'Choose a volume or imported section.':'請選擇卷篇或已收單元。',
   'Navigation directory source':'導航目錄來源',
