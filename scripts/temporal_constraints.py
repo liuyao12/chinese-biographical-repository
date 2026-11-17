@@ -63,6 +63,41 @@ def _quote_contains_mention(paragraph, quote, mention_id, person_id):
                for i in range(len(text)) if text.startswith(quote, i))
 
 
+def _temporal_claim_errors(citation, item):
+    claim = citation.get("temporal_claim")
+    errors = []
+    quote = citation.get("quote")
+    if not isinstance(claim, dict):
+        return ["缺 temporal_claim"]
+    source_term, start, end = claim.get("source_term"), claim.get("start"), claim.get("end")
+    if (not isinstance(source_term, str) or not source_term
+            or type(start) is not int or type(end) is not int
+            or not isinstance(quote, str) or not 0 <= start < end <= len(quote)
+            or quote[start:end] != source_term):
+        errors.append("日期詞錨點與引句不符")
+        return errors
+    forms = [key for key in ("normalized_date", "normalized_interval", "normalized_relation") if key in claim]
+    if len(forms) != 1:
+        errors.append("temporal_claim 須且只能有一種正規化結果")
+        return errors
+    form = forms[0]
+    operator = item.get("operator")
+    if operator in ("equals", "not_before", "not_after"):
+        if form != "normalized_date" or claim.get("normalized_date") != item.get("bound"):
+            errors.append("引文正規化日期與約束界限不符")
+    elif operator == "within_interval":
+        if form != "normalized_interval" or claim.get("normalized_interval") != item.get("interval"):
+            errors.append("引文正規化日期範圍與約束區間不符")
+    elif operator in ("after_event", "not_before_event"):
+        relation = claim.get("normalized_relation")
+        if (form != "normalized_relation" or not isinstance(relation, dict)
+                or relation != {"operator": operator, "related_event_id": item.get("related_event_id")}):
+            errors.append("引文正規化事件關係與約束不符")
+    else:
+        errors.append("未知日期約束運算子")
+    return errors
+
+
 def errors(records, chapters, person_ids):
     """Validate every temporal constraint against event, person, passage and mention records."""
     errors = []
@@ -121,14 +156,26 @@ def errors(records, chapters, person_ids):
                         or not isinstance(derivation.get("input_event_id"), str)
                         or derivation.get("input_event_id") not in events):
                     errors.append(f"衍生日期約束須引用已登記規則及輸入事件：{cid}")
-                elif events[derivation["input_event_id"]].get("person_id") != person_id:
-                    errors.append(f"日期約束輸入事件人物不符：{cid}")
+                else:
+                    input_id = derivation["input_event_id"]
+                    input_event = events[input_id]
+                    if input_event.get("person_id") != person_id:
+                        errors.append(f"日期約束輸入事件人物不符：{cid}")
+                    if operator != "not_before" or target is None or target.get("event_type") != "death":
+                        errors.append(f"在世推導規則僅能產生同一人物的死亡下界：{cid}")
+                    if (input_id == target_id or input_event.get("event_type") != "visit"
+                            or input_event.get("participant_role") != "visited_person"
+                            or not input_event.get("date_expression")
+                            or not (input_event.get("normalized_date") or input_event.get("normalized_date_range"))):
+                        errors.append(f"在世推導須使用有日期的被訪者事件且不得自我引用：{cid}")
             elif derivation is not None:
                 errors.append(f"直接日期約束不得附 derivation：{cid}")
             if operator in ("equals", "not_before", "not_after"):
                 if "interval" in item or "related_event_id" in item:
                     errors.append(f"日期約束欄位與運算子不符：{cid}")
                 errors.extend(_date_errors(item.get("bound"), f"{cid}.bound"))
+                if operator == "equals" and isinstance(item.get("bound"), dict) and item["bound"].get("inclusive") is not True:
+                    errors.append(f"等值日期約束必須包含其唯一日期：{cid}")
             elif operator == "within_interval":
                 interval = item.get("interval")
                 if not isinstance(interval, dict) or set(interval) != {"earliest", "latest"}:
@@ -177,6 +224,19 @@ def errors(records, chapters, person_ids):
                     continue
                 if not _quote_contains_mention(paragraph, quote, mention_id, person_id):
                     errors.append(f"日期約束人物錨點不在引文內：{cid}")
+                errors.extend(f"{message}：{cid}" for message in _temporal_claim_errors(citation, item))
+                if mode == "derived" and isinstance(derivation, dict):
+                    input_event = events.get(derivation.get("input_event_id"))
+                    temporal_claim = citation.get("temporal_claim", {})
+                    if input_event is not None:
+                        if temporal_claim.get("source_term") != input_event.get("date_expression"):
+                            errors.append(f"在世推導日期詞須與輸入事件紀年相同：{cid}")
+                        if not any(
+                            e.get("paragraph_id") == pid and e.get("quote") == quote
+                            and e.get("person_mention_id") == mention_id
+                            for e in input_event.get("evidence", [])
+                        ):
+                            errors.append(f"在世推導引文須是輸入事件的原始證據：{cid}")
     return errors
 
 
@@ -191,10 +251,12 @@ def intersect_year_constraints(constraints):
     coordinate = None
     lower_ids = []
     upper_ids = []
+    unsupported_ids = []
     for item in constraints:
         op = item.get("operator")
         if op not in ("equals", "within_interval", "not_before", "not_after"):
-            raise ValueError("僅能交集絕對日期界限")
+            unsupported_ids.append(item.get("id"))
+            continue
         bounds = []
         if op == "within_interval":
             interval = item.get("interval", {})
@@ -241,6 +303,8 @@ def intersect_year_constraints(constraints):
     conflict = (lower is not None and upper is not None
                 and (lower > upper or lower == upper and not (lower_inclusive and upper_inclusive)))
     return {
+        "status": ("incomplete" if unsupported_ids else "complete"
+                   if lower is not None or upper is not None else "no_constraints"),
         "coordinate": ({"calendar": coordinate[0], "year_system": coordinate[1],
                         "precision": coordinate[2], "era_id": coordinate[3]}
                        if coordinate is not None else None),
@@ -249,4 +313,5 @@ def intersect_year_constraints(constraints):
         "latest": ({"year": upper, "inclusive": upper_inclusive, "constraint_ids": upper_ids}
                    if upper is not None else None),
         "conflict": conflict,
+        "unsupported_constraint_ids": unsupported_ids,
     }
