@@ -1,7 +1,4 @@
-import {sourceCitation} from './source-caption.js';
-import {loadPerson, loadFamily, personCard, tableOccurrenceURL} from './cbr-person.js';
-import {chapterURL,profileSourceContext} from './corpus-reader.js';
-import {escapeHTML} from './core.js';
+import {profileReturnLink} from './profile-return.js';import {escapeHTML} from './core.js';
 
 let request = 0;
 const sourceRef = fetch('deployment.json').then(async r => {
@@ -13,42 +10,9 @@ const sourceRef = fetch('deployment.json').then(async r => {
 function setReturnLink(person) {
   const back = document.getElementById('cbr-person-table-back');
   if (!back) return;
-  const context = new URLSearchParams(location.search);
-  const tableId = context.get('table');
-  const occurrence = tableId && (person.table_occurrences || []).find(x => x.table_id === tableId);
-  if (occurrence) {
-    const href = tableOccurrenceURL({...occurrence, cell_id:context.get('cell') || undefined,
-      axis:context.get('axis') || undefined});
-    if (href) {
-      back.href = href;
-      back.textContent = '回到' + occurrence.title + ' →';
-      return;
-    }
-  }
-
-  const workId = context.get('work');
-  if (!workId || workId === 'w-shiji') {
-    const chapter = Number(context.get('chapter'));
-    const shijiOccurrence = (person.occurrences || []).find(x => x.number === chapter);
-    if (shijiOccurrence && chapter > 0) {
-      const passage = context.get('passage');
-      const prefix = 'c-shiji-' + String(chapter).padStart(3, '0') + '-';
-      const validPassage = passage?.startsWith(prefix) && /^[a-z0-9-]+:p\d{3}$/.test(passage.slice(prefix.length));
-      back.href = chapterURL(chapter, shijiOccurrence.category, validPassage ? passage : shijiOccurrence.paragraph_id);
-      back.textContent = '回到' + sourceCitation({...shijiOccurrence, work_id:'w-shiji', work_title:'史記'}, person.source_chapter_directory, person.source_work_titles) + ' →';
-      return;
-    }
-  }
-
-  const otherSource = profileSourceContext(person, context);
-  if (otherSource) {
-    back.href = otherSource.href;
-    back.textContent = otherSource.text;
-    return;
-  }
-
-  back.href = 'cbr.html';
-  back.textContent = '返回 CBR 人物目錄 →';
+  const route = profileReturnLink(person, new URLSearchParams(location.search));
+  back.href = route.href;
+  back.textContent = route.text;
 }
 
 async function render() {
