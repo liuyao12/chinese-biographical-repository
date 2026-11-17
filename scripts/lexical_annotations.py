@@ -10,7 +10,7 @@ def non_person_errors(mention, text):
     if role == 'vacant_office':
         role_valid = mention.get('surface') == '太子' and isinstance(term, str) and term.endswith('無太子')
     elif role == 'sovereign_status':
-        role_valid = mention.get('surface') == '天子' and term in ('刻天子璽', '求即天子位')
+        role_valid = mention.get('surface') == '天子' and term in ('刻天子璽', '求即天子位', '自為法令，擬於天子', '出入擬於天子')
     elif role == 'office_title_component':
         role_valid = (mention.get('surface') == '太子'
                       and term in ('太子太傅', '太子太保', '太子少傅', '太子少保', '太子中庶子', '太子舍人')

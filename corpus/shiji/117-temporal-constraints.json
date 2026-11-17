@@ -1,0 +1,85 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_temporal_constraint_set",
+  "chapter_id": "c-shiji-117-xiangru",
+  "constraints": [
+    {
+      "id": "tc-shiji117-p068-xiangru-death-to-houtu",
+      "person_id": "usb_lgr_ksa",
+      "target": {
+        "entity_type": "temporal_attestation",
+        "entity_id": "att-shiji117-p068-xiangru-death-to-houtu",
+        "property": "elapsed_years"
+      },
+      "operator": "eq",
+      "value": {
+        "kind": "integer",
+        "value": 5,
+        "unit": "source_elapsed_years"
+      },
+      "derivation": {
+        "kind": "reported_duration",
+        "source_term": "既卒五歲",
+        "rationale": "原文「司馬相如既卒五歲，天子始祭后土」明載首次祭祀與相如死亡相距五個來源年；保留未明計年方式，不換算成絕對年份。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "source_id": "s-shiji117-xiangru",
+          "chapter_id": "c-shiji-117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p068",
+          "quote": "司馬相如既卒五歲，天子始祭后土。八年而遂先禮中嶽，封於太山，至梁父禪肅然。",
+          "person_mention_id": "c-shiji-117-xiangru:m068-0000",
+          "anchor": {
+            "start": 4,
+            "end": 8,
+            "surface": "既卒五歲"
+          }
+        }
+      ],
+      "status": "source_attested",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "tc-shiji117-p068-houtu-to-zhongyue",
+      "person_id": "yqp_nlb_p1p_ACAA",
+      "target": {
+        "entity_type": "temporal_attestation",
+        "entity_id": "att-shiji117-p068-houtu-to-zhongyue",
+        "property": "elapsed_years"
+      },
+      "operator": "eq",
+      "value": {
+        "kind": "integer",
+        "value": 8,
+        "unit": "source_elapsed_years"
+      },
+      "derivation": {
+        "kind": "reported_duration",
+        "source_term": "八年而",
+        "rationale": "「八年而」承接武帝首次祭后土，明載後續中嶽、泰山及梁父禪禮在八個來源年之後；不把該距離換算為絕對年份。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "source_id": "s-shiji117-xiangru",
+          "chapter_id": "c-shiji-117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p068",
+          "quote": "司馬相如既卒五歲，天子始祭后土。八年而遂先禮中嶽，封於太山，至梁父禪肅然。",
+          "person_reference_id": "c-shiji-117-xiangru:m068-0009",
+          "anchor": {
+            "start": 16,
+            "end": 19,
+            "surface": "八年而"
+          }
+        }
+      ],
+      "status": "source_attested",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）"
+    }
+  ]
+}

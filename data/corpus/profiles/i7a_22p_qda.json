@@ -104,6 +104,49 @@
       "interpretation_note": "授予、既有用稱與辭印分開；原文未給日期者不補，未知端點不由卒日、入質、逃亡或首次用稱推造。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji129-001",
+      "person_id": "i7a_22p_qda",
+      "title": "越王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-129-huozhi",
+          "source_id": "s-shiji129-huozhi",
+          "paragraph_id": "c-shiji-129-huozhi:p006",
+          "quote": "昔者越王句踐困於會稽之上，乃用范蠡、計然。計然曰：「知斗則修備，時用則知物，二者形則萬貨之情可得而觀已。故歲在金，穰；水，毀；木，饑；火，旱。旱則資舟，水則資車，物之理也。六歲穰，六歲旱，十二歲一大饑。夫糶，二十病農，九十病末。末病則財不出，農病則草不辟矣。上不過八十，下不減三十，則農末俱利，平糶齊物，關市不乏，治國之道也。積著之理，務完物，無息幣。以物相貿易，腐敗而食之貨勿留，無敢居貴。論其有餘不足，則知貴賤。貴上極則反賤，賤下極則反貴。貴出如糞土，賤取如珠玉。財幣欲其行如流水。」修之十年，國富，厚賂戰士，士赴矢石，如渴得飲，遂報彊吳，觀兵中國，稱號「五霸」。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji129-001:a001",
+          "paragraph_id": "c-shiji-129-huozhi:p006",
+          "start": 2,
+          "end": 4,
+          "surface": "越王",
+          "person_mention_id": "c-shiji-129-huozhi:m006-0002",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原句官爵或尊稱用語按原字保存，不推授任年月；比封君、擬於人君與素封是比擬，不記實際爵位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -1099,6 +1142,41 @@
       "work_title": "史記"
     },
     {
+      "number": 129,
+      "category": "liezhuan",
+      "title": "貨殖列傳第六十九",
+      "paragraph_id": "c-shiji-129-huozhi:p006",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "昔者越王句踐困於會稽之上，乃用范蠡、計然。計然曰：「知斗則修備，時用則知物，二者形則萬貨之情可得而觀已。故歲在金，穰；水，毀；木，饑；火，旱。旱則資舟，水則資車，物之理也。六歲穰，六歲旱，十二歲一大饑。夫糶，二十",
+      "paragraph_ids": [
+        "c-shiji-129-huozhi:p006"
+      ],
+      "mention_ids": [
+        "c-shiji-129-huozhi:m006-0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-129-huozhi:m006-0002": "c-shiji-129-huozhi:p006"
+      },
+      "mention_id": "c-shiji-129-huozhi:m006-0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-129-huozhi:m006-0002",
+          "mention_ids": [
+            "c-shiji-129-huozhi:m006-0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-129",
+      "chapter_id": "c-shiji-129-huozhi",
+      "source_id": "s-shiji129-huozhi",
+      "work_title": "史記"
+    },
+    {
       "number": 130,
       "category": "liezhuan",
       "title": "太史公自序第七十",
@@ -1388,6 +1466,52 @@
           "editorial_readings": [],
           "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
           "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-129-huozhi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-129",
+      "source_id": "s-shiji129-huozhi",
+      "source": {
+        "title": "史記／卷129",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷129",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷129&oldid=7904128",
+        "revision_id": 7904128,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文43段，篇文42段、索隱述贊1段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "（孝）［德］",
+              "adopted_reading": "德",
+              "status": "editorial_provisional",
+              "rationale": "秦君相承及《秦本紀》支持德公；保留孝字異讀。未核影像，不作定本校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "獻（孝）公",
+              "adopted_reading": "獻公",
+              "status": "editorial_provisional",
+              "rationale": "徙櫟邑的秦君為獻公；保留孝字異讀。未核影像，不作定本校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "（武）［孝］",
+              "adopted_reading": "孝",
+              "status": "editorial_provisional",
+              "rationale": "下接「昭治咸陽」，秦孝公脈絡相合；保留武字異讀。未核影像，不作定本校勘。"
+            }
+          ],
+          "extraction_note": "去header2、現代節標及索隱述贊層次標籤；保留巴[蜀]、（孝）［德］等來源校讀括號，未核影像。",
+          "note": "文獻校讀不當已校定字，氏稱與家族表述逐段分辨。"
         }
       }
     },

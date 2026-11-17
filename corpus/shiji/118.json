@@ -35,8 +35,8 @@
       "首段上限定高祖敘事，其後皇帝須逐段重辨。",
       "呂后母之為養育行為，不混入生母。",
       "獻美人與得幸不直接記婚姻；父世縣也待版本核讀，不猜父名。",
-      "第二段上依及孝文帝轉折分高祖與孝文帝；太子依孝文時序辨為後來的景帝啟，擬於天子仍為泛稱。第三段太子奇屬柴武，不與第二段太子自動合併。",
-      "奏議中的長安尉奇與柴武太子奇分人；逸賀福只保留原名，不猜姓。嬰僅按議者候選登記，不由單字猜灌嬰。第四段擬於天子泛稱留未定。",
+      "第二段上依及孝文帝轉折分高祖與孝文帝；太子依孝文時序辨為後來的景帝啟，擬於天子為帝位制度泛稱，不指個人。第三段太子奇屬柴武，不與第二段太子自動合併。",
+      "奏議中的長安尉奇與柴武太子奇分人；逸賀福只保留原名，不猜姓。嬰僅按議者候選登記，不由單字猜灌嬰。第四段「天子詔」依同奏「陛下」及孝文帝在位時序連孝文帝；「出入擬於天子」另標為帝位制度泛稱。",
       "第10段劉長對話侍者按個人候選保存，末句不發封餽侍者是否同人待核；丞相御史不直接按前奏議姓名連接。子安勃賜良均不由列舉次序推長幼。堯舜周公管蔡典故不當當朝死亡事件。",
       "第10段末句不發封餽侍者保留未定，不與對話中的侍者預接。",
       "第14段衡山王先勃後賜，混合段落官稱暫留未定，待逐處補；其相限七國反時，未與後文相跨年代自動連接。修成君女與修成君分人。單字王被等只用本段敘事，不全庫替換。",
@@ -1338,9 +1338,14 @@
           "start": 374,
           "end": 376,
           "surface": "天子",
-          "kind": "unresolved",
+          "kind": "non_person",
           "person_id": null,
-          "status": "unresolved"
+          "status": "contextual_provisional",
+          "lexical_role": "sovereign_status",
+          "basis_quote": "自為法令，擬於天子",
+          "interpretation_note": "「擬於天子」在此比較淮南王僭擬的制度身分，不以泛稱「天子」指向某一位皇帝。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false
         }
       ]
     },
@@ -1480,18 +1485,24 @@
           "start": 51,
           "end": 53,
           "surface": "天子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_AC",
+          "status": "contextual_provisional",
+          "interpretation_note": "此奏在孝文帝在位時上達皇帝，並於同段稱受奏者為「陛下」；「不聽天子詔」所指為孝文帝。後文「出入擬於天子」另為制度性泛稱。"
         },
         {
           "id": "c-shiji-118-huainan:m004-0071",
           "start": 71,
           "end": 73,
           "surface": "天子",
-          "kind": "unresolved",
+          "kind": "non_person",
           "person_id": null,
-          "status": "unresolved"
+          "status": "contextual_provisional",
+          "lexical_role": "sovereign_status",
+          "basis_quote": "出入擬於天子",
+          "interpretation_note": "「出入擬於天子」描述淮南王僭擬帝制的身分比較，不指稱一位實際皇帝。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false
         },
         {
           "id": "c-shiji-118-huainan:m004-0091",

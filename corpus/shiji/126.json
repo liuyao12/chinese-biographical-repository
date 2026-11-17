@@ -29,7 +29,906 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "27段全文及48名來源候選初標；6條親屬、5條死亡、6條地域與29條官爵用語已存；紀年、跨篇身份與受害弟子續核。 2名未發布候選接父子家族路徑，4組跨篇暫同指有雙篇證據。",
+    "coverage": "27段全文及48名來源候選初標；6條親屬、5條死亡、6條地域與29條官爵用語已存；另記69處可辨識的非姓名人物指涉，匿名與群體指代不臆配人物ID。紀年、跨篇身份與受害弟子續核。2名未發布候選接父子家族路徑，4組跨篇暫同指有雙篇證據。",
+    "person_reference_occurrences": [
+      {
+        "id": "c-shiji-126-huaji:r002-0090",
+        "paragraph_id": "c-shiji-126-huaji:p002",
+        "start": 90,
+        "end": 91,
+        "surface": "之",
+        "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "淳于髡說之以隱曰：「國中有大鳥",
+        "rationale": "此段以隱語說服齊威王，後文由王回答謎語；「之」指齊威王，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r003-0083",
+        "paragraph_id": "c-shiji-126-huaji:p003",
+        "start": 83,
+        "end": 84,
+        "surface": "臣",
+        "person_id": "22o_cth_7hm",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "髡曰：「今者臣從東方來",
+        "rationale": "此處由淳于髡直接發言，「臣」是其自稱，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r003-0131",
+        "paragraph_id": "c-shiji-126-huaji:p003",
+        "start": 131,
+        "end": 132,
+        "surface": "臣",
+        "person_id": "22o_cth_7hm",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "臣見其所持者狹而所欲者奢",
+        "rationale": "延續淳于髡的直接引語，「臣」仍是其自稱，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r003-0183",
+        "paragraph_id": "c-shiji-126-huaji:p003",
+        "start": 183,
+        "end": 184,
+        "surface": "之",
+        "person_id": "22o_cth_7hm",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "趙王與之精兵十萬",
+        "rationale": "趙王遣兵同行，受兵者承前文淳于髡；「之」指淳于髡，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r004-0013",
+        "paragraph_id": "c-shiji-126-huaji:p004",
+        "start": 13,
+        "end": 14,
+        "surface": "之",
+        "person_id": "22o_cth_7hm",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "置酒後宮，召髡賜之酒",
+        "rationale": "受賜者是同句所召的淳于髡；「之」指淳于髡，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r004-0034",
+        "paragraph_id": "c-shiji-126-huaji:p004",
+        "start": 34,
+        "end": 35,
+        "surface": "臣",
+        "person_id": "22o_cth_7hm",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "對曰：「臣飲一斗亦醉",
+        "rationale": "由淳于髡回答飲酒量，「臣」是其自稱，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r006-0184",
+        "paragraph_id": "c-shiji-126-huaji:p006",
+        "start": 184,
+        "end": 185,
+        "surface": "臣",
+        "person_id": "3sn_ajy_26l",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "對曰：「臣請以彫玉為棺",
+        "rationale": "由優孟提出葬馬方案，「臣」是其自稱，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r006-0264",
+        "paragraph_id": "c-shiji-126-huaji:p006",
+        "start": 264,
+        "end": 266,
+        "surface": "寡人",
+        "person_id": "q8m_d0c_kq3",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "王曰：「寡人之過一至此乎！",
+        "rationale": "楚莊王在問答中自稱「寡人」；此為發言者自稱，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r007-0006",
+        "paragraph_id": "c-shiji-126-huaji:p007",
+        "start": 6,
+        "end": 7,
+        "surface": "其",
+        "person_id": "3sn_ajy_26l",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "楚相孫叔敖知其賢人也，善待之。",
+        "rationale": "孫叔敖知優孟賢而善待之；「其」指優孟，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r007-0013",
+        "paragraph_id": "c-shiji-126-huaji:p007",
+        "start": 13,
+        "end": 14,
+        "surface": "之",
+        "person_id": "3sn_ajy_26l",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "楚相孫叔敖知其賢人也，善待之。",
+        "rationale": "「善待」的受事承前為優孟；「之」指優孟，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r007-0025",
+        "paragraph_id": "c-shiji-126-huaji:p007",
+        "start": 25,
+        "end": 26,
+        "surface": "我",
+        "person_id": "fom_gr9_c8v",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "之。病且死，屬其子曰：「我死，汝必貧困。若往見優孟，言我孫",
+        "rationale": "臨終囑子的發言者是孫叔敖，「我」指發言者本人，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r007-0028",
+        "paragraph_id": "c-shiji-126-huaji:p007",
+        "start": 28,
+        "end": 29,
+        "surface": "汝",
+        "person_id": "fom_gr9_c8v_A",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "我死，汝必貧困。若往見優孟",
+        "rationale": "孫叔敖對其子說話，「汝」是對兒子的稱呼，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r007-0040",
+        "paragraph_id": "c-shiji-126-huaji:p007",
+        "start": 40,
+        "end": 41,
+        "surface": "我",
+        "person_id": "fom_gr9_c8v_A",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "若往見優孟，言我孫叔敖之子也。",
+        "rationale": "父親囑兒子向優孟說「我孫叔敖之子也」；引述內容中的「我」指兒子，不是父親，亦非姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r007-0069",
+        "paragraph_id": "c-shiji-126-huaji:p007",
+        "start": 69,
+        "end": 70,
+        "surface": "我",
+        "person_id": "fom_gr9_c8v_A",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "與言曰：「我，孫叔敖子也。",
+        "rationale": "孫叔敖之子向優孟自述身分，「我」指該子本人，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r007-0077",
+        "paragraph_id": "c-shiji-126-huaji:p007",
+        "start": 77,
+        "end": 78,
+        "surface": "父",
+        "person_id": "fom_gr9_c8v",
+        "reference_type": "kinship_term_reference",
+        "status": "contextual_provisional",
+        "quote": "父且死時，屬我貧困往見優孟。",
+        "rationale": "說話者為孫叔敖之子，「父」指其父孫叔敖；親稱不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r007-0083",
+        "paragraph_id": "c-shiji-126-huaji:p007",
+        "start": 83,
+        "end": 84,
+        "surface": "我",
+        "person_id": "fom_gr9_c8v_A",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "父且死時，屬我貧困往見優孟。",
+        "rationale": "回述父親囑咐「屬我」的說話者是孫叔敖之子，「我」指該子本人，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r007-0413",
+        "paragraph_id": "c-shiji-126-huaji:p007",
+        "start": 413,
+        "end": 414,
+        "surface": "之",
+        "person_id": "fom_gr9_c8v_A",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "乃召孫叔敖子，封之寢丘四百戶",
+        "rationale": "受封者是同句明言的孫叔敖之子；「之」指其子，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r007-0422",
+        "paragraph_id": "c-shiji-126-huaji:p007",
+        "start": 422,
+        "end": 423,
+        "surface": "其",
+        "person_id": "fom_gr9_c8v",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "封之寢丘四百戶，以奉其祀。",
+        "rationale": "所奉祭祀為孫叔敖之祀，故「其」指孫叔敖；此為回指，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r009-0073",
+        "paragraph_id": "c-shiji-126-huaji:p009",
+        "start": 73,
+        "end": 74,
+        "surface": "我",
+        "person_id": "4qb_8ik_19m",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "優旃曰：「我即呼汝，汝疾應曰諾。",
+        "rationale": "此處由優旃直接發言，「我」指優旃本人，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r009-0134",
+        "paragraph_id": "c-shiji-126-huaji:p009",
+        "start": 134,
+        "end": 135,
+        "surface": "我",
+        "person_id": "4qb_8ik_19m",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "優旃曰：「汝雖長，何益，幸雨立。我雖短也，幸休居。",
+        "rationale": "此處由優旃直接發言，「我」指優旃本人，不是姓名標記。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r011-0023",
+        "paragraph_id": "c-shiji-126-huaji:p011",
+        "start": 23,
+        "end": 24,
+        "surface": "臣",
+        "person_id": "4qb_8ik_19m",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "優旃曰：「善。主上雖無言，臣固將請之。",
+        "rationale": "說話者明署優旃；「臣」是其自稱，不是姓名，也不作姓名底線或別名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r011-0075",
+        "paragraph_id": "c-shiji-126-huaji:p011",
+        "start": 75,
+        "end": 76,
+        "surface": "之",
+        "person_id": "4qb_8ik_19m",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "於是二世笑之，以其故止。",
+        "rationale": "承接前文優旃諫說，「笑之」的「之」指優旃；不是姓名，不作姓名底線或別名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r013-0005",
+        "paragraph_id": "c-shiji-126-huaji:p013",
+        "start": 5,
+        "end": 6,
+        "surface": "臣",
+        "person_id": "nq4_rjk_iab",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "褚先生曰：臣幸得以經術為郎",
+        "rationale": "敘述者明署褚先生；「臣」是褚少孫自稱，不是姓名，也不作姓名底線或別名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r014-0047",
+        "paragraph_id": "c-shiji-126-huaji:p014",
+        "start": 47,
+        "end": 48,
+        "surface": "之",
+        "person_id": "3yj_sj9_zlz",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "武侯母常養帝，帝壯時，號之曰「大乳母」。率一月再朝。朝奏入",
+        "rationale": "「號之曰大乳母」的「之」指東武侯母、武帝乳母，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r014-0282",
+        "paragraph_id": "c-shiji-126-huaji:p014",
+        "start": 282,
+        "end": 283,
+        "surface": "之",
+        "person_id": "3yj_sj9_zlz",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "疾步數還顧。郭舍人疾言罵之曰：「咄！老女子！何不疾行！陛下",
+        "rationale": "郭舍人當面斥責乳母，「罵之」的「之」指乳母，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r014-0325",
+        "paragraph_id": "c-shiji-126-huaji:p014",
+        "start": 325,
+        "end": 326,
+        "surface": "之",
+        "person_id": "3yj_sj9_zlz",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "何還顧！」於是人主憐焉悲之，乃下詔止無徙乳母，罰謫譖之者。",
+        "rationale": "「人主憐焉悲之」承接乳母辭去回顧之事，「之」指乳母，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r015-0120",
+        "paragraph_id": "c-shiji-126-huaji:p015",
+        "start": 120,
+        "end": 121,
+        "surface": "之",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "，人主未嘗不說也。時詔賜之食於前。飯已，盡懷其餘肉持去，衣",
+        "rationale": "武帝詔賜東方朔食，「賜之食」的「之」指朔，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r015-0201",
+        "paragraph_id": "c-shiji-126-huaji:p015",
+        "start": 201,
+        "end": 202,
+        "surface": "之",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "於女子。人主左右諸郎半呼之「狂人」。人主聞之，曰：「令朔在",
+        "rationale": "諸郎稱東方朔為「狂人」，「呼之」的「之」指朔，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r015-0230",
+        "paragraph_id": "c-shiji-126-huaji:p015",
+        "start": 230,
+        "end": 231,
+        "surface": "之",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "事無為是行者，若等安能及之哉！」朔任其子為郎，又為侍謁者，",
+        "rationale": "「安能及之」承前比較東方朔，「之」指朔，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r015-0260",
+        "paragraph_id": "c-shiji-126-huaji:p015",
+        "start": 260,
+        "end": 261,
+        "surface": "之",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "持節出使。朔行殿中，郎謂之曰：「人皆以先生為狂。」朔曰：「",
+        "rationale": "郎對東方朔說話，「謂之」的「之」指朔，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r015-0267",
+        "paragraph_id": "c-shiji-126-huaji:p015",
+        "start": 267,
+        "end": 269,
+        "surface": "先生",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "address_term_reference",
+        "status": "contextual_provisional",
+        "quote": "殿中，郎謂之曰：「人皆以先生為狂。」朔曰：「如朔等，所謂避世",
+        "rationale": "郎以「先生」直接稱呼東方朔；是受話稱呼，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r016-0016",
+        "paragraph_id": "c-shiji-126-huaji:p016",
+        "start": 16,
+        "end": 17,
+        "surface": "之",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "下博士諸先生與論議，共難之曰：「蘇秦、張儀一當萬乘之主，而",
+        "rationale": "諸先生聚議並質問東方朔，「共難之」的「之」指朔，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r016-0045",
+        "paragraph_id": "c-shiji-126-huaji:p016",
+        "start": 45,
+        "end": 48,
+        "surface": "子大夫",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "address_term_reference",
+        "status": "contextual_provisional",
+        "quote": "都卿相之位，澤及後世。今子大夫修先王之術，慕聖人之義，諷誦詩書",
+        "rationale": "諸先生以「子大夫」稱呼正在答辯的東方朔；是受話稱呼，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r016-0365",
+        "paragraph_id": "c-shiji-126-huaji:p016",
+        "start": 365,
+        "end": 366,
+        "surface": "仆",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "或失門戶。使張儀、蘇秦與仆并生於今之世，曾不能得掌故，安敢",
+        "rationale": "東方朔自言「使張儀、蘇秦與仆並生」，「仆」是其自稱，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r016-0599",
+        "paragraph_id": "c-shiji-126-huaji:p016",
+        "start": 599,
+        "end": 600,
+        "surface": "余",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "少徒，固其常也。子何疑於余哉！」於是諸先生默然無以應也。",
+        "rationale": "東方朔自言「子何疑於余」，「余」是其自稱，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r017-0055",
+        "paragraph_id": "c-shiji-126-huaji:p017",
+        "start": 55,
+        "end": 56,
+        "surface": "臣",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "。詔東方朔視之。朔曰：「臣知之，願賜美酒粱飯大飱臣，臣乃言",
+        "rationale": "東方朔奉詔辨識異物，「臣知之」的「臣」是其自稱，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r017-0067",
+        "paragraph_id": "c-shiji-126-huaji:p017",
+        "start": 67,
+        "end": 68,
+        "surface": "臣",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "臣知之，願賜美酒粱飯大飱臣，臣乃言。」詔曰：「可。」已又曰",
+        "rationale": "東方朔請求酒食後說「臣乃言」，「臣」是其自稱，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r017-0069",
+        "paragraph_id": "c-shiji-126-huaji:p017",
+        "start": 69,
+        "end": 70,
+        "surface": "臣",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "之，願賜美酒粱飯大飱臣，臣乃言。」詔曰：「可。」已又曰：「",
+        "rationale": "東方朔延續自陳，「臣乃言」的「臣」是其自稱，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r017-0102",
+        "paragraph_id": "c-shiji-126-huaji:p017",
+        "start": 102,
+        "end": 103,
+        "surface": "臣",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "田魚池蒲葦數頃，陛下以賜臣，臣朔乃言。」詔曰：「可。」於是",
+        "rationale": "東方朔請武帝賜魚池後說「陛下以賜臣」，「臣」是其自稱，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r017-0104",
+        "paragraph_id": "c-shiji-126-huaji:p017",
+        "start": 104,
+        "end": 105,
+        "surface": "臣",
+        "person_id": "s11_z5r_y2z",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "池蒲葦數頃，陛下以賜臣，臣朔乃言。」詔曰：「可。」於是朔乃",
+        "rationale": "東方朔自言「臣朔乃言」，「臣」是其自稱，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r019-0158",
+        "paragraph_id": "c-shiji-126-huaji:p019",
+        "start": 158,
+        "end": 159,
+        "surface": "之",
+        "person_id": "vvf_lzn_pw4",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "謂奇策便計也。」衛將軍謝之曰：「先生幸告之以便計，請奉教。",
+        "rationale": "衛將軍回謝東郭先生的獻策，「謝之」的「之」指東郭先生，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r019-0166",
+        "paragraph_id": "c-shiji-126-huaji:p019",
+        "start": 166,
+        "end": 167,
+        "surface": "之",
+        "person_id": "5dd_l1c_6g8",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "衛將軍謝之曰：「先生幸告之以便計，請奉教。」於是衛將軍乃以",
+        "rationale": "說話者為衛將軍衛青；「先生幸告之以便計」中受告者「之」指衛青，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r019-0216",
+        "paragraph_id": "c-shiji-126-huaji:p019",
+        "start": 216,
+        "end": 217,
+        "surface": "之",
+        "person_id": "5dd_l1c_6g8",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "：「大將軍不知為此。」問之安所受計策，對曰：「受之待詔者東",
+        "rationale": "武帝詢問衛將軍從何處得計，「問之」的「之」指衛青，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r019-0293",
+        "paragraph_id": "c-shiji-126-huaji:p019",
+        "start": 293,
+        "end": 294,
+        "surface": "之",
+        "person_id": "vvf_lzn_pw4",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "無下，足盡踐地。道中人笑之，東郭先生應之曰：「誰能履行雪中",
+        "rationale": "雪中路人發笑的對象是東郭先生，「笑之」的「之」指先生，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r019-0410",
+        "paragraph_id": "c-shiji-126-huaji:p019",
+        "start": 410,
+        "end": 411,
+        "surface": "之",
+        "person_id": "vvf_lzn_pw4",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "莫省視；至其貴也，乃爭附之。諺曰：「相馬失之瘦，相士失之貧",
+        "rationale": "東郭先生顯貴後眾人爭相依附，「附之」的「之」指先生，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r020-0012",
+        "paragraph_id": "c-shiji-126-huaji:p020",
+        "start": 12,
+        "end": 13,
+        "surface": "之",
+        "person_id": "3eo_u7e_pxx",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "王夫人病甚，人主至自往問之曰：「子當為王，欲安所置之？」對",
+        "rationale": "人主親往探問王夫人，「問之」的「之」指王夫人，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r020-0025",
+        "paragraph_id": "c-shiji-126-huaji:p020",
+        "start": 25,
+        "end": 26,
+        "surface": "之",
+        "person_id": "yqp_nlb_p1p_ACAAA",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "曰：「子當為王，欲安所置之？」對曰：「願居洛陽。」人主曰：",
+        "rationale": "王夫人答願居洛陽後，人主問欲安置何處；「置之」的「之」承指其子閎，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r020-0065",
+        "paragraph_id": "c-shiji-126-huaji:p020",
+        "start": 65,
+        "end": 67,
+        "surface": "先帝",
+        "person_id": "yqp_nlb_p1p_ACA",
+        "reference_type": "imperial_title_reference",
+        "status": "contextual_provisional",
+        "quote": "自先帝以來，傳不為置王。",
+        "rationale": "本段承漢武帝朝王夫人請王之事，「先帝」指孝景帝；此為稱謂指涉，非姓名提及。原文與同書繼位敘事可供回查，未核影像。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r021-0043",
+        "paragraph_id": "c-shiji-126-huaji:p021",
+        "start": 43,
+        "end": 44,
+        "surface": "臣",
+        "person_id": "22o_cth_7hm",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "辭，往見楚王曰：「齊王使臣來獻鵠，過於水上，不忍鵠之渴，出",
+        "rationale": "引語中的獻鵠使者由淳于髡扮演，「齊王使臣來獻鵠」之「臣」指髡本人，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r021-0065",
+        "paragraph_id": "c-shiji-126-huaji:p021",
+        "start": 65,
+        "end": 66,
+        "surface": "我",
+        "person_id": "22o_cth_7hm",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "不忍鵠之渴，出而飲之，去我飛亡。吾欲刺腹絞頸而死。恐人之議",
+        "rationale": "淳于髡扮使者自言「去我飛亡」，「我」指其本人，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r021-0069",
+        "paragraph_id": "c-shiji-126-huaji:p021",
+        "start": 69,
+        "end": 70,
+        "surface": "吾",
+        "person_id": "22o_cth_7hm",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "渴，出而飲之，去我飛亡。吾欲刺腹絞頸而死。恐人之議吾王以鳥",
+        "rationale": "淳于髡扮使者自言「吾欲刺腹」，「吾」指其本人，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:m021-0082",
+        "paragraph_id": "c-shiji-126-huaji:p021",
+        "start": 82,
+        "end": 84,
+        "surface": "吾王",
+        "person_id": "ovs_nhp_dw3",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "欲刺腹絞頸而死。恐人之議吾王以鳥獸之故令士自傷殺也。鵠，毛物",
+        "rationale": "「吾王」指說話者所奉齊王，沿用本段齊王候選 ID；稱謂不作姓名別名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r021-0106",
+        "paragraph_id": "c-shiji-126-huaji:p021",
+        "start": 106,
+        "end": 107,
+        "surface": "吾",
+        "person_id": "22o_cth_7hm",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "也。鵠，毛物，多相類者，吾欲買而代之，是不信而欺吾王也。欲",
+        "rationale": "淳于髡扮使者自言「吾欲買而代之」，「吾」指其本人，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:m021-0118",
+        "paragraph_id": "c-shiji-126-huaji:p021",
+        "start": 118,
+        "end": 120,
+        "surface": "吾王",
+        "person_id": "ovs_nhp_dw3",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "吾欲買而代之，是不信而欺吾王也。欲赴佗國奔亡，痛吾兩主使不通",
+        "rationale": "「吾王」指說話者所奉齊王，沿用本段齊王候選 ID；稱謂不作姓名別名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r021-0130",
+        "paragraph_id": "c-shiji-126-huaji:p021",
+        "start": 130,
+        "end": 131,
+        "surface": "吾",
+        "person_id": "22o_cth_7hm",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "吾王也。欲赴佗國奔亡，痛吾兩主使不通。故來服過，叩頭受罪大",
+        "rationale": "淳于髡扮使者自言「吾兩主使不通」，「吾」指其本人，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r021-0169",
+        "paragraph_id": "c-shiji-126-huaji:p021",
+        "start": 169,
+        "end": 170,
+        "surface": "之",
+        "person_id": "22o_cth_7hm",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "齊王有信士若此哉！」厚賜之，財倍鵠在也。",
+        "rationale": "楚王厚賜受命獻鵠的淳于髡，「賜之」的「之」指髡，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r022-0032",
+        "paragraph_id": "c-shiji-126-huaji:p022",
+        "start": 32,
+        "end": 33,
+        "surface": "吾",
+        "person_id": "v0q_hjk_mfh",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "先生者，自請與太守俱，「吾有益於君」，君許之。諸府掾功曹白",
+        "rationale": "王先生自言「吾有益於君」，「吾」指王先生本人，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r022-0036",
+        "paragraph_id": "c-shiji-126-huaji:p022",
+        "start": 36,
+        "end": 37,
+        "surface": "君",
+        "person_id": "ltw_z5b_t1x",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "自請與太守俱，「吾有益於君」，君許之。諸府掾功曹白云：「王",
+        "rationale": "王先生對北海太守說「吾有益於君」，「君」指受話者太守，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r022-0039",
+        "paragraph_id": "c-shiji-126-huaji:p022",
+        "start": 39,
+        "end": 40,
+        "surface": "君",
+        "person_id": "ltw_z5b_t1x",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "太守俱，「吾有益於君」，君許之。諸府掾功曹白云：「王先生嗜",
+        "rationale": "承前王先生與太守對話，「君許之」的「君」指太守，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r022-0143",
+        "paragraph_id": "c-shiji-126-huaji:p022",
+        "start": 143,
+        "end": 144,
+        "surface": "我",
+        "person_id": "v0q_hjk_mfh",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "。王先生謂戶郎曰：「幸為我呼吾君至門內遙語。」戶郎為呼太守",
+        "rationale": "王先生請戶郎代為傳話，「為我呼」的「我」指王先生本人，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:m022-0145",
+        "paragraph_id": "c-shiji-126-huaji:p022",
+        "start": 145,
+        "end": 147,
+        "surface": "吾君",
+        "person_id": "ltw_z5b_t1x",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "先生謂戶郎曰：「幸為我呼吾君至門內遙語。」戶郎為呼太守。太守",
+        "rationale": "王先生稱北海太守為「吾君」；是人物稱謂，不作姓名別名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r022-0181",
+        "paragraph_id": "c-shiji-126-huaji:p022",
+        "start": 181,
+        "end": 182,
+        "surface": "君",
+        "person_id": "ltw_z5b_t1x",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "生。王先生曰：「天子即問君何以治北海令無盜賊，君對曰何哉？",
+        "rationale": "天子當面問北海太守如何治理，「君」指受問的太守，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r022-0192",
+        "paragraph_id": "c-shiji-126-huaji:p022",
+        "start": 192,
+        "end": 193,
+        "surface": "君",
+        "person_id": "ltw_z5b_t1x",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "問君何以治北海令無盜賊，君對曰何哉？」對曰：「選擇賢材，各",
+        "rationale": "王先生預教太守如何作答，「君對曰」的「君」指太守，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r022-0246",
+        "paragraph_id": "c-shiji-126-huaji:p022",
+        "start": 246,
+        "end": 247,
+        "surface": "君",
+        "person_id": "ltw_z5b_t1x",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "是自譽自伐功，不可也。願君對言，非臣之力，盡陛下神靈威武所",
+        "rationale": "王先生勸太守以謙辭作答，「願君對言」的「君」指太守，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r022-0251",
+        "paragraph_id": "c-shiji-126-huaji:p022",
+        "start": 251,
+        "end": 252,
+        "surface": "臣",
+        "person_id": "ltw_z5b_t1x",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "功，不可也。願君對言，非臣之力，盡陛下神靈威武所變化也。」",
+        "rationale": "王先生替太守擬答「非臣之力」；擬答中的「臣」以太守為發言者，不指王先生。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r022-0311",
+        "paragraph_id": "c-shiji-126-huaji:p022",
+        "start": 311,
+        "end": 312,
+        "surface": "臣",
+        "person_id": "ltw_z5b_t1x",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "賊不起？」叩頭對言：「非臣之力，盡陛下神靈威武之所變化也。",
+        "rationale": "北海太守實際照擬答稱「臣」，「臣」指太守本人，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r025-0061",
+        "paragraph_id": "c-shiji-126-huaji:p025",
+        "start": 61,
+        "end": 62,
+        "surface": "我",
+        "person_id": "hap_m8c_czz",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "與慮始。今父老子弟雖患苦我，然百歲後期令父老子孫思我言。」",
+        "rationale": "西門豹直接對父老說「患苦我」，「我」指西門豹本人，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:r025-0074",
+        "paragraph_id": "c-shiji-126-huaji:p025",
+        "start": 74,
+        "end": 75,
+        "surface": "我",
+        "person_id": "hap_m8c_czz",
+        "reference_type": "first_person_self_reference",
+        "status": "contextual_provisional",
+        "quote": "，然百歲後期令父老子孫思我言。」至今皆得水利，民人以給足富",
+        "rationale": "西門豹直接對父老說「思我言」，「我」指西門豹本人，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-126-huaji:m025-0154",
+        "paragraph_id": "c-shiji-126-huaji:p025",
+        "start": 154,
+        "end": 157,
+        "surface": "西門君",
+        "person_id": "hap_m8c_czz",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "民人父老不肯聽長吏，以為西門君所為也，賢君之法式不可更也。長吏",
+        "rationale": "鄴民以「西門君」稱西門豹，是尊稱，不作姓名別名。",
+        "human_reviewed": false
+      }
+    ],
     "limitations": [
       "未核影像，保留后、后世、混邪等原字，無簡繁轉換。",
       "褚少孫補文與索隱述贊分層；同篇淳于髡故事的齊王與楚王未按時代臆定。",
@@ -38,7 +937,7 @@
       "百餘年、二百餘年與七百歲不換算精確年月；威王八年待與紀年證據對讀。",
       "衛后兄也與〈衛將軍驃騎列傳〉青姊衛子夫方向不同；保存兩篇原文與年齡主張，不擅改兄為弟。",
       "巫嫗弟子是女子也指弟子群體，不連到河伯婦；與是女子不好分開。",
-      "王夫人、閎、衛夫人及武帝按家事與具體問封故事暫同指；卷111甯乘與卷126東郭先生分存，不因贈金相似就合併獻策者或同定軍役年。卷111姊衛子夫與卷126衛后兄的年序相反，各源親屬斷言及文字保留，尚未裁成一致年序。褚補與 received_chapter 層分開，齊王太后為卒後稱，先帝未補姓名。"
+      "王夫人、閎、衛夫人及武帝按家事與具體問封故事暫同指；卷111甯乘與卷126東郭先生分存，不因贈金相似就合併獻策者或同定軍役年。卷111姊衛子夫與卷126衛后兄的年序相反，各源親屬斷言及文字保留，尚未裁成一致年序。褚補與 received_chapter 層分開，齊王太后為卒後稱；本篇「先帝」另記為孝景帝的非姓名指涉，不列為人名標記。"
     ]
   },
   "paragraphs": [
@@ -54,7 +953,7 @@
           "end": 2,
           "surface": "孔子",
           "kind": "person",
-          "person_id": "crm_jt7_xth",
+          "person_id": "fp6_ia6_7yw",
           "status": "contextual_provisional"
         },
         {
@@ -80,7 +979,7 @@
           "end": 3,
           "surface": "淳于髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -98,7 +997,7 @@
           "end": 35,
           "surface": "齊威王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -116,7 +1015,7 @@
           "end": 89,
           "surface": "淳于髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -125,7 +1024,7 @@
           "end": 104,
           "surface": "王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -134,7 +1033,7 @@
           "end": 124,
           "surface": "王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -154,15 +1053,6 @@
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved"
-        },
-        {
-          "id": "c-shiji-126-huaji:m002-0196",
-          "start": 196,
-          "end": 198,
-          "surface": "田完",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
         }
       ]
     },
@@ -178,7 +1068,7 @@
           "end": 2,
           "surface": "威王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -187,7 +1077,7 @@
           "end": 14,
           "surface": "齊王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -196,7 +1086,7 @@
           "end": 18,
           "surface": "淳于髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -205,7 +1095,7 @@
           "end": 37,
           "surface": "淳于髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -214,7 +1104,7 @@
           "end": 48,
           "surface": "王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -223,7 +1113,7 @@
           "end": 53,
           "surface": "先生",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -232,7 +1122,7 @@
           "end": 59,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -241,7 +1131,7 @@
           "end": 67,
           "surface": "王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -250,7 +1140,7 @@
           "end": 78,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -268,7 +1158,7 @@
           "end": 154,
           "surface": "威王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -277,7 +1167,7 @@
           "end": 173,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -303,7 +1193,7 @@
           "end": 2,
           "surface": "威王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -312,7 +1202,7 @@
           "end": 12,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -321,7 +1211,7 @@
           "end": 22,
           "surface": "先生",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -330,7 +1220,7 @@
           "end": 49,
           "surface": "威王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -339,7 +1229,7 @@
           "end": 54,
           "surface": "先生",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -348,7 +1238,7 @@
           "end": 76,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -357,7 +1247,7 @@
           "end": 83,
           "surface": "大王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -384,7 +1274,7 @@
           "end": 97,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -393,7 +1283,7 @@
           "end": 119,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -411,7 +1301,7 @@
           "end": 234,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -420,7 +1310,7 @@
           "end": 281,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -429,7 +1319,7 @@
           "end": 301,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -438,7 +1328,7 @@
           "end": 345,
           "surface": "齊王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -447,7 +1337,7 @@
           "end": 360,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -465,7 +1355,7 @@
           "end": 372,
           "surface": "髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         }
       ]
@@ -508,7 +1398,7 @@
           "end": 27,
           "surface": "楚莊王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -517,7 +1407,7 @@
           "end": 89,
           "surface": "王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -535,7 +1425,7 @@
           "end": 121,
           "surface": "王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -553,7 +1443,7 @@
           "end": 135,
           "surface": "王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -562,7 +1452,7 @@
           "end": 173,
           "surface": "王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -571,7 +1461,7 @@
           "end": 252,
           "surface": "大王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -580,7 +1470,7 @@
           "end": 261,
           "surface": "王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -598,7 +1488,7 @@
           "end": 288,
           "surface": "大王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -607,7 +1497,7 @@
           "end": 335,
           "surface": "王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         }
       ]
@@ -723,7 +1613,7 @@
           "end": 128,
           "surface": "楚王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -732,7 +1622,7 @@
           "end": 138,
           "surface": "莊王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -750,7 +1640,7 @@
           "end": 149,
           "surface": "莊王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -786,7 +1676,7 @@
           "end": 187,
           "surface": "莊王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -804,7 +1694,7 @@
           "end": 200,
           "surface": "王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -849,7 +1739,7 @@
           "end": 245,
           "surface": "楚王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -894,7 +1784,7 @@
           "end": 401,
           "surface": "莊王",
           "kind": "person",
-          "person_id": "hzu_071_bnq",
+          "person_id": "q8m_d0c_kq3",
           "status": "contextual_provisional"
         },
         {
@@ -1168,7 +2058,7 @@
           "end": 8,
           "surface": "淳于髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -1177,7 +2067,7 @@
           "end": 16,
           "surface": "齊威王",
           "kind": "person",
-          "person_id": "ly9_9ul_u6x",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -1758,7 +2648,7 @@
           "end": 22,
           "surface": "蘇秦",
           "kind": "person",
-          "person_id": "5pz_90e_hzm",
+          "person_id": "422_9v5_g9x",
           "status": "contextual_provisional"
         },
         {
@@ -1767,7 +2657,7 @@
           "end": 25,
           "surface": "張儀",
           "kind": "person",
-          "person_id": "vsm_g44_lxu",
+          "person_id": "uq6_74z_vtv",
           "status": "contextual_provisional"
         },
         {
@@ -1794,7 +2684,7 @@
           "end": 175,
           "surface": "張儀",
           "kind": "person",
-          "person_id": "vsm_g44_lxu",
+          "person_id": "uq6_74z_vtv",
           "status": "contextual_provisional"
         },
         {
@@ -1803,7 +2693,7 @@
           "end": 178,
           "surface": "蘇秦",
           "kind": "person",
-          "person_id": "5pz_90e_hzm",
+          "person_id": "422_9v5_g9x",
           "status": "contextual_provisional"
         },
         {
@@ -1821,7 +2711,7 @@
           "end": 361,
           "surface": "張儀",
           "kind": "person",
-          "person_id": "vsm_g44_lxu",
+          "person_id": "uq6_74z_vtv",
           "status": "contextual_provisional"
         },
         {
@@ -1830,7 +2720,7 @@
           "end": 364,
           "surface": "蘇秦",
           "kind": "person",
-          "person_id": "5pz_90e_hzm",
+          "person_id": "422_9v5_g9x",
           "status": "contextual_provisional"
         },
         {
@@ -1839,7 +2729,7 @@
           "end": 485,
           "surface": "太公",
           "kind": "person",
-          "person_id": "39x_aqh_sst",
+          "person_id": "1g3_02y_oor",
           "status": "contextual_provisional"
         },
         {
@@ -1848,7 +2738,7 @@
           "end": 497,
           "surface": "文王",
           "kind": "person",
-          "person_id": "vlq_85b_6qa",
+          "person_id": "y4i_pjk_4gn_A",
           "status": "contextual_provisional"
         },
         {
@@ -1884,7 +2774,7 @@
           "end": 574,
           "surface": "子胥",
           "kind": "person",
-          "person_id": "qme_5ae_ovf",
+          "person_id": "g9h_5ih_ug1_A",
           "status": "contextual_provisional"
         },
         {
@@ -1964,7 +2854,7 @@
           "end": 177,
           "surface": "混邪王",
           "kind": "person",
-          "person_id": "rht_70o_mfq",
+          "person_id": "164_wmw_9ck",
           "status": "contextual_provisional"
         },
         {
@@ -2325,15 +3215,6 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-shiji-126-huaji:m020-0065",
-          "start": 65,
-          "end": 67,
-          "surface": "先帝",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
-        },
-        {
           "id": "c-shiji-126-huaji:m020-0092",
           "start": 92,
           "end": 95,
@@ -2374,7 +3255,7 @@
           "end": 9,
           "surface": "淳于髡",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -2391,24 +3272,6 @@
           "start": 40,
           "end": 42,
           "surface": "齊王",
-          "kind": "person",
-          "person_id": "ovs_nhp_dw3",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-126-huaji:m021-0082",
-          "start": 82,
-          "end": 84,
-          "surface": "吾王",
-          "kind": "person",
-          "person_id": "ovs_nhp_dw3",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-126-huaji:m021-0118",
-          "start": 118,
-          "end": 120,
-          "surface": "吾王",
           "kind": "person",
           "person_id": "ovs_nhp_dw3",
           "status": "contextual_provisional"
@@ -2593,15 +3456,6 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-shiji-126-huaji:m022-0145",
-          "start": 145,
-          "end": 147,
-          "surface": "吾君",
-          "kind": "person",
-          "person_id": "ltw_z5b_t1x",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-shiji-126-huaji:m022-0154",
           "start": 154,
           "end": 156,
@@ -2750,7 +3604,7 @@
           "end": 3,
           "surface": "魏文侯",
           "kind": "person",
-          "person_id": "sm1_lvu_yv1",
+          "person_id": "nxl_qt6_cpl_AAAAAA*A*A",
           "status": "contextual_provisional"
         },
         {
@@ -2759,7 +3613,7 @@
           "end": 8,
           "surface": "西門豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -2768,7 +3622,7 @@
           "end": 13,
           "surface": "豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -2804,7 +3658,7 @@
           "end": 46,
           "surface": "豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -2885,7 +3739,7 @@
           "end": 279,
           "surface": "西門豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -2938,7 +3792,7 @@
           "end": 7,
           "surface": "西門豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -2946,9 +3800,9 @@
           "start": 13,
           "end": 15,
           "surface": "三老",
-          "kind": "person",
-          "person_id": "ksm_7il_w8n",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-126-huaji:m024-0024",
@@ -3001,7 +3855,7 @@
           "end": 76,
           "surface": "西門豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -3028,7 +3882,7 @@
           "end": 103,
           "surface": "豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -3036,9 +3890,9 @@
           "start": 108,
           "end": 110,
           "surface": "三老",
-          "kind": "person",
-          "person_id": "ksm_7il_w8n",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-126-huaji:m024-0114",
@@ -3145,7 +3999,7 @@
           "end": 226,
           "surface": "西門豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -3180,18 +4034,18 @@
           "start": 244,
           "end": 246,
           "surface": "三老",
-          "kind": "person",
-          "person_id": "ksm_7il_w8n",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-126-huaji:m024-0254",
           "start": 254,
           "end": 256,
           "surface": "三老",
-          "kind": "person",
-          "person_id": "ksm_7il_w8n",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-126-huaji:m024-0259",
@@ -3199,7 +4053,7 @@
           "end": 262,
           "surface": "西門豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -3208,7 +4062,7 @@
           "end": 288,
           "surface": "西門豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -3225,9 +4079,9 @@
           "start": 295,
           "end": 297,
           "surface": "三老",
-          "kind": "person",
-          "person_id": "ksm_7il_w8n",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
         },
         {
           "id": "c-shiji-126-huaji:m024-0309",
@@ -3244,7 +4098,7 @@
           "end": 343,
           "surface": "西門豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -3253,7 +4107,7 @@
           "end": 360,
           "surface": "豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -3297,7 +4151,7 @@
           "end": 3,
           "surface": "西門豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -3306,7 +4160,7 @@
           "end": 38,
           "surface": "豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         },
         {
@@ -3346,15 +4200,6 @@
           "status": "unresolved"
         },
         {
-          "id": "c-shiji-126-huaji:m025-0154",
-          "start": 154,
-          "end": 157,
-          "surface": "西門君",
-          "kind": "person",
-          "person_id": "nh2_z0q_c1e",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-shiji-126-huaji:m025-0171",
           "start": 171,
           "end": 173,
@@ -3369,7 +4214,7 @@
           "end": 182,
           "surface": "西門豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         }
       ]
@@ -3395,7 +4240,7 @@
           "end": 16,
           "surface": "子賤",
           "kind": "person",
-          "person_id": "gix_plv_xhr",
+          "person_id": "x3c_d03_60b",
           "status": "contextual_provisional"
         },
         {
@@ -3404,7 +4249,7 @@
           "end": 28,
           "surface": "西門豹",
           "kind": "person",
-          "person_id": "nh2_z0q_c1e",
+          "person_id": "hap_m8c_czz",
           "status": "contextual_provisional"
         }
       ]
@@ -3421,7 +4266,7 @@
           "end": 22,
           "surface": "淳于",
           "kind": "person",
-          "person_id": "0jo_ejm_n20",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -3443,6 +4288,41 @@
           "status": "contextual_provisional"
         }
       ]
+    }
+  ],
+  "cross_chapter_references": [
+    {
+      "id": "xref-shiji126-tian-wan-shijia",
+      "kind": "explicit_cross_chapter_reference",
+      "source": {
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-126",
+        "chapter_id": "c-shiji-126-huaji",
+        "source_id": "s-shiji126-huaji",
+        "revision_id": 2609358,
+        "paragraph_id": "c-shiji-126-huaji:p002",
+        "paragraph_text": "淳于髡者，齊之贅婿也。長不滿七尺，滑稽多辯，數使諸侯，未嘗屈辱。齊威王之時喜隱，好為淫樂長夜之飲，沈湎不治，委政卿大夫。百官荒亂，諸侯并侵，國且危亡，在於旦暮，左右莫敢諫。淳于髡說之以隱曰：「國中有大鳥，止王之庭，三年不蜚又不鳴，不知此鳥何也？」王曰：「此鳥不飛則已，一飛沖天；不鳴則已，一鳴驚人。」於是乃朝諸縣令長七十二人，賞一人，誅一人，奮兵而出。諸侯振驚，皆還齊侵地。威行三十六年。語在田完世家中。",
+        "paragraph_text_sha256": "d5bb4dfd9b58f20b740e820cd827e8e33cca8132c64f559cef63e45c7c277bee",
+        "start": 194,
+        "end": 201,
+        "surface": "語在田完世家中"
+      },
+      "target": {
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-046",
+        "section_label": "田敬仲完世家",
+        "text_status": "imported",
+        "chapter_id": "c-shiji-046-tian",
+        "paragraph_id": "c-shiji-046-tian:p027"
+      },
+      "resolution": {
+        "status": "contextually_identified",
+        "rationale": "原文「語在田完世家中」明確提示另一篇的互見；卷四十六〈田敬仲完世家〉p027同述齊威王失政、諸侯來伐、整治後齊國大治，與本篇p002敘事相應。鳥喻為本篇文字，p027未見，故此連結表示平行敘事而非逐字相同。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838",
+        "read_scope": "核對卷一二六該句、卷四十六篇名及已收p001開篇；維基文庫固定數位轉錄，未核印本或影像。",
+        "short_quote": "威王初卽位以來，不治，委政卿大夫，九年之閒，諸侯并伐，國人不治。",
+        "human_reviewed": false
+      }
     }
   ]
 }

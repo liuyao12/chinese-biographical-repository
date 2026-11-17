@@ -14,4 +14,6 @@
 
 非父系的同人接合，以 `editorial_annotation_rekey_receipt` 的 `identity_decision_id` 綁定一項實存跨篇身份判斷，`retired_person_ids` 僅作不可重用的保留集合，不是舊號轉址、別名或查詢端點。不得為了退休憑據而建立家族組裝。
 
+若人物 ID 原本來自錯將職稱／群體當作個人，應先將其提及改為 `kind: unresolved`、`person_id: null`，移除錯誤人物記錄並以 `editorial_annotation_retraction_receipt` 綁定被更正的 MID，保留該 ID 不可重用。不得虛構身份合併或家系來取得退休憑據。
+
 此窄類型不混用 `family_id` 或命名空間欄位；當前人物須仍在登錄，退休號須已撤離登錄與別名。未知、混型、缺少身份證據的憑據拒絕處理。既有命名空間與家族退休類型保留原規則。人物公開包不另複製此退休集合；原提及錨點、身份判斷ID與引文則保留。

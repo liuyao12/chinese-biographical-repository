@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "71段全文及38名歷史／傳說來源候選完成首輪具名與未定稱呼標註；全部身份、匿名者、代詞、版本及引文仍待覆核。",
+    "coverage": "71段全文及38名歷史／傳說來源候選完成首輪具名與未定稱呼標註；全部身份、匿名者、代詞、版本及引文仍待覆核。 另將〈大人賦〉「西王母」依卷43、123同名來源暫接至同一傳說人物，保留所見、傳聞等敘事差別。 另依《漢書》卷57下如淳注將〈大人賦〉太一標為星神人物；卷12校讀異文仍未接合。靈圉、祝融保留未決，避免把靈類群稱或有異說的祝融名號造作單一人物。 第53段風伯依《漢書》張揖注辨為飛廉；雨師仍只據神職稱呼保留，玉女未有姓名，不造身份。",
     "limitations": [
       "未核影像，保留私用字缺字與數位重句。",
       "藺相如與司馬相如分人；慕其為人不是同一身分。",
@@ -50,13 +50,14 @@
       "賁育保留單字原稱，依顏師古注分接孟賁、夏育；二世依秦亡語境及秦始皇本紀明稱暫接胡亥，不補吊古事件紀年。",
       "第52至54段岐伯、羡門依古注與平行正文接既有傳說人物；其餘神話與自然用語分辨中，賦辭不作歷史死亡官爵事件。",
       "所忠及忠省稱限取書敘事；第45段卓氏婚暫接文君，取書段其妻仍未定，文君只列不窮盡候選。",
-      "第59至66段受頌君主及陛下、天子用稱依框架與古注暫接武帝；天帝另存非個人判讀，大司馬仍未定，不由想像對話推實任官員。",
+      "第59至66段受頌君主及陛下、天子用稱依框架與古注暫接武帝；天帝另存非個人判讀。第59段大司馬依《文選》注及《史記評林》眉批判為相如假設的發言角色，不建歷史人物ID；注本依據為掃描OCR，尚未核書影。",
       "湯武為並稱，分別存兩處來源名號，不補生平。",
       "平陵侯依集解徐廣釋名及卷111授爵正文暫接蘇建；五公子由著作題名引出仍未定，不猜補。",
       "第68段卒後五歲八年為相對時間，不直接轉作公元年。",
       "第30段無是公言天子上林的天子屬賦辭角色，不套當朝天子；賦奏天子以為郎的省略主語隔完整賦文，待支援跨段上下文證據後記授任，不偽造姓名錨點。",
-      "第53段靈媧、馮夷、屏翳依古注登記為具名傳說角色，未據賦辭新增親屬、任職、生卒或神遊史事；風伯、雨師、玉女、西王母仍待辨。",
-      "第52、54段陵陽、玄冥、含靁、潏湟、勾芒、豐隆依古注登記具名傳說角色；本篇原稱與古注字形分存，不補歷史官職或世系。陸離保留神名與靈鳥異說，五帝僅作神帝群稱分類。"
+      "第53段靈媧、馮夷、屏翳依古注登記為具名傳說角色，西王母依卷43、123同名來源暫接既有人物；未據賦辭新增親屬、任職、生卒或神遊史事。雨師僅存神職稱呼，玉女未具名，兩者仍未辨。",
+      "第52、54段陵陽、玄冥、含靁、潏湟、勾芒、豐隆依古注登記具名傳說角色；陸離依《史記集解》引漢書音義作神名，但不與平行《漢書》的長離靈鳥說合併；本篇原稱與古注字形分存，不補歷史官職或世系。五帝僅作神帝群稱分類。",
+      "第62至64段的正文／異本逐項對照另存於 `117-textual-witness-comparisons.json`；收到正文及字位不因異本而改寫。"
     ],
     "unresolved_identity_cases": [
       {
@@ -503,197 +504,6 @@
         }
       },
       {
-        "id": "ri-shiji117-beiqiao",
-        "paragraph_id": "c-shiji-117-xiangru:p052",
-        "target_mention_ids": [
-          "c-shiji-117-xiangru:m052-0085"
-        ],
-        "source_terms": [
-          "北僑"
-        ],
-        "status": "unresolved",
-        "default_alternative_id": null,
-        "evidence": {
-          "work_id": "w-shiji",
-          "book_id": "b-shiji-117",
-          "chapter_id": "c-shiji-117-xiangru",
-          "source_id": "s-shiji117-xiangru",
-          "paragraph_id": "c-shiji-117-xiangru:p052",
-          "quote": "邪絕少陽而登太陰兮，與真人乎相求。互折窈窕以右轉兮，橫厲飛泉以正東。悉徵靈圉而選之兮，部乘眾神於瑤光。使五帝先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
-          "mention_ids": [
-            "c-shiji-117-xiangru:m052-0085"
-          ]
-        },
-        "alternatives": [
-          {
-            "id": "ri-shiji117-beiqiao-yan",
-            "attribution": "徐廣，《史記集解》所引",
-            "referent_kind": "legendary_person",
-            "candidate_person_ids": [],
-            "interpretation": "北僑為燕人，形解而仙。",
-            "source_reference_ids": [
-              "jijie117-beiqiao"
-            ]
-          },
-          {
-            "id": "ri-shiji117-beiqiao-wang",
-            "attribution": "張揖（《漢書》伯僑讀法）",
-            "referent_kind": "legendary_person",
-            "candidate_person_ids": [],
-            "interpretation": "伯僑釋為仙人王子僑。",
-            "source_reference_ids": [
-              "han57-boqiao"
-            ]
-          },
-          {
-            "id": "ri-shiji117-beiqiao-zheng",
-            "attribution": "顏師古（《漢書》征伯僑讀法）",
-            "referent_kind": "legendary_person",
-            "candidate_person_ids": [],
-            "interpretation": "征伯僑為仙人，姓征名伯僑，非王子僑；所報郊祀志正字未另核底本。",
-            "source_reference_ids": [
-              "han57-boqiao"
-            ]
-          }
-        ],
-        "references": [
-          {
-            "id": "jijie117-beiqiao",
-            "title": "《史記集解》卷117·徐廣釋北僑",
-            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_117.txt#L524-L525",
-            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
-            "source_blob": "ccded97eee2542083010172d857d6251a09a126c",
-            "quote": "(也或曰/水神)前陸離而後潏湟(漢書音義/曰皆神名)斯征北僑(徐廣曰/燕人也)¶\n(形解而/僊也)而役羡門兮屬岐伯使尚方(徐廣曰岐伯黄帝/臣駰案漢書音義)¶",
-            "read_line_range": [
-              524,
-              525
-            ],
-            "cached_response_sha256": "4439fef65c32a0f4f6ca021386d9a2721502ea5d636016bd2f7fb215a2f0fd95",
-            "scope": "ancient_commentary_interpretation",
-            "image_verified": false
-          },
-          {
-            "id": "han57-boqiao",
-            "title": "《漢書》卷57下·張揖、顏師古釋伯僑",
-            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L937-L939",
-            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
-            "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
-            "quote": "厮征伯僑而役羡門兮詔岐伯使尚方(應劭曰厮役也/張揖曰伯僑仙)¶\n(人王子僑也羡門碣石山上仙人羡門髙也尚主也岐/伯者黄帝太醫屬使主方藥也師古曰征伯僑者仙人)¶\n(姓征名伯僑非王子僑也郊祀志征字作/正其音同耳或說云征謂役使之非也)祝融警而蹕¶",
-            "read_line_range": [
-              937,
-              939
-            ],
-            "cached_response_sha256": "024b03fcdb819f2edf0c84f816d618653f6fdafa4b48e6c2c36ec8fbe2ce1210",
-            "scope": "parallel_witness_commentary_on_variant",
-            "image_verified": false
-          }
-        ],
-        "note": "本篇北僑與《漢書》伯僑用字不同；各注解釋與分詞並存，未把北、伯或征字自動改寫，也未接成已定人物。",
-        "reviewer": "Codex（AI 代理）",
-        "human_reviewed": false,
-        "witness_wording": {
-          "received_phrase": "厮征北僑",
-          "parallel_phrase": "厮征伯僑",
-          "reference_id": "han57-boqiao",
-          "adopted_as_text_correction": false
-        }
-      },
-      {
-        "id": "ri-shiji117-luli",
-        "paragraph_id": "c-shiji-117-xiangru:p052",
-        "target_mention_ids": [
-          "c-shiji-117-xiangru:m052-0076"
-        ],
-        "source_terms": [
-          "陸離"
-        ],
-        "status": "unresolved",
-        "default_alternative_id": null,
-        "evidence": {
-          "work_id": "w-shiji",
-          "book_id": "b-shiji-117",
-          "chapter_id": "c-shiji-117-xiangru",
-          "source_id": "s-shiji117-xiangru",
-          "paragraph_id": "c-shiji-117-xiangru:p052",
-          "quote": "邪絕少陽而登太陰兮，與真人乎相求。互折窈窕以右轉兮，橫厲飛泉以正東。悉徵靈圉而選之兮，部乘眾神於瑤光。使五帝先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
-          "mention_ids": [
-            "c-shiji-117-xiangru:m052-0076"
-          ]
-        },
-        "references": [
-          {
-            "id": "jijie117-luli",
-            "title": "《集解》引漢書音義釋陸離潏湟",
-            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_117.txt#L523-L525",
-            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
-            "source_blob": "ccded97eee2542083010172d857d6251a09a126c",
-            "quote": "(音義曰仙人/陵陽子明也)左𤣥㝠而右含靁兮(漢書音義曰含雷黔/嬴也天上造化神名)¶\n(也或曰/水神)前陸離而後潏湟(漢書音義/曰皆神名)斯征北僑(徐廣曰/燕人也)¶\n(形解而/僊也)而役羡門兮屬岐伯使尚方(徐廣曰岐伯黄帝/臣駰案漢書音義)¶",
-            "read_line_range": [
-              523,
-              525
-            ],
-            "cached_response_sha256": "4439fef65c32a0f4f6ca021386d9a2721502ea5d636016bd2f7fb215a2f0fd95",
-            "image_verified": false
-          },
-          {
-            "id": "han57-changli",
-            "title": "《漢書》服虔、顏師古釋長離矞皇",
-            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L934-L935",
-            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
-            "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
-            "quote": "黔雷兮(張揖曰𤣥㝠北方黑帝佐也黔雷黔嬴也天上/造化神名也楚辭曰召黔嬴而見之或曰水神)¶\n(也/)前長離而後矞皇(服䖍曰皆神名也師古曰長離靈/鳥也解在禮樂志矞音以出反)¶",
-            "read_line_range": [
-              934,
-              935
-            ],
-            "cached_response_sha256": "024b03fcdb819f2edf0c84f816d618653f6fdafa4b48e6c2c36ec8fbe2ce1210",
-            "image_verified": false
-          }
-        ],
-        "alternatives": [
-          {
-            "id": "ri-shiji117-luli-jijie-divine",
-            "attribution": "漢書音義（《集解》引）",
-            "referent_kind": "divinity",
-            "candidate_person_ids": [],
-            "interpretation": "本篇陸離、潏湟所引釋為神名；保留本篇用字。",
-            "source_reference_ids": [
-              "jijie117-luli"
-            ]
-          },
-          {
-            "id": "ri-shiji117-luli-fuqian-divine",
-            "attribution": "服虔（《漢書》注）",
-            "referent_kind": "divinity",
-            "candidate_person_ids": [],
-            "interpretation": "平行文長離、矞皇皆釋神名；不將平行見證改成本篇字形。",
-            "source_reference_ids": [
-              "han57-changli"
-            ]
-          },
-          {
-            "id": "ri-shiji117-luli-shigu-bird",
-            "attribution": "顏師古（《漢書》注）",
-            "referent_kind": "mythical_creature",
-            "candidate_person_ids": [],
-            "interpretation": "長離釋靈鳥，與前說神名有別；此說所據為《漢書》的長離用字。",
-            "source_reference_ids": [
-              "han57-changli"
-            ]
-          }
-        ],
-        "reviewer": "Codex（AI 代理）",
-        "human_reviewed": false,
-        "model": null,
-        "note": "古注讀法與本篇原字各存，未核書影；不據此補人物史事。",
-        "witness_wording": {
-          "received_phrase": "前陸離而後潏湟",
-          "parallel_phrase": "前長離而後矞皇",
-          "reference_id": "han57-changli",
-          "adopted_as_text_correction": false
-        }
-      },
-      {
         "id": "ri-shiji117-five-celestial-emperors",
         "paragraph_id": "c-shiji-117-xiangru:p052",
         "target_mention_ids": [
@@ -753,6 +563,302 @@
             "han57-five-emperors"
           ]
         }
+      },
+      {
+        "id": "ri-shiji117-zhurong",
+        "paragraph_id": "c-shiji-117-xiangru:p052",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m052-0100"
+        ],
+        "source_terms": [
+          "祝融"
+        ],
+        "status": "unresolved",
+        "default_alternative_id": null,
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p052",
+          "quote": "邪絕少陽而登太陰兮，與真人乎相求。互折窈窕以右轉兮，橫厲飛泉以正東。悉徵靈圉而選之兮，部乘眾神於瑤光。使五帝先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m052-0100"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-zhurong-zhongli",
+            "attribution": "《史記》卷40〈楚世家〉",
+            "referent_kind": "legendary_person",
+            "candidate_person_ids": [
+              "off_msa_t3x"
+            ],
+            "interpretation": "此處指重黎：楚世家稱帝嚳命重黎曰祝融。",
+            "source_reference_ids": [
+              "shiji040-chu-zhurong-holders"
+            ]
+          },
+          {
+            "id": "ri-shiji117-zhurong-wuhui",
+            "attribution": "《史記》卷40〈楚世家〉",
+            "referent_kind": "legendary_person",
+            "candidate_person_ids": [
+              "uk3_s1y_7c7"
+            ],
+            "interpretation": "此處指呉回：楚世家稱其承重黎後復居火正，為祝融。",
+            "source_reference_ids": [
+              "shiji040-chu-zhurong-holders"
+            ]
+          },
+          {
+            "id": "ri-shiji117-zhurong-zhengzu",
+            "attribution": "《史記》卷42〈鄭世家〉太史伯語",
+            "referent_kind": "legendary_person",
+            "candidate_person_ids": [
+              "057_xe9_rab"
+            ],
+            "interpretation": "此處指鄭世家所存高辛氏火正祖系候選；該篇所稱是否即重黎或呉回未定。",
+            "source_reference_ids": [
+              "shiji042-zheng-zhurong-ancestor"
+            ]
+          },
+          {
+            "id": "ri-shiji117-zhurong-cult-deity",
+            "attribution": "《史記》楚、鄭世家相關敘事",
+            "referent_kind": "divinity",
+            "candidate_person_ids": [],
+            "interpretation": "此處泛指受祭的火神／祖神，或指祝融職名所形成的神格；不指定為個別持名者。",
+            "source_reference_ids": [
+              "shiji040-kui-zhurong-cult",
+              "shiji042-zheng-zhurong-ancestor"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "shiji040-chu-zhurong-holders",
+            "title": "《史記》卷40〈楚世家〉重黎與呉回先後為祝融",
+            "url": "https://github.com/liuyao12/chinese-biographical-repository/blob/b54c37f60d7537b4cfc00b0960ebad90ad5bcd99/corpus/shiji/040.json#L48-L49",
+            "source_commit": "b54c37f60d7537b4cfc00b0960ebad90ad5bcd99",
+            "source_blob": "1a89ed689d7870b62022003f7bf205f15701ef63",
+            "quote": "楚之先祖出自帝顓頊髙陽。髙陽者，黃帝之孫，昌意之子也。髙陽生稱，稱生巻章，巻章生重黎。重黎爲帝嚳髙辛居火正，甚有功，能光融天下，帝嚳命曰祝融。共工氏作亂，帝嚳使重黎誅之而不盡。帝乃以庚寅日誅重黎，而以其弟呉回爲重黎後，復居火正，爲祝融。",
+            "read_line_range": [
+              48,
+              49
+            ],
+            "cached_response_sha256": "d7e0f384d0e7db0e1df01e7ca1cbdcc08f48a9e731d202d4c4a2f1727484675b",
+            "image_verified": false,
+            "scope": "internal_fixed_source_excerpt",
+            "source_revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796"
+          },
+          {
+            "id": "shiji040-kui-zhurong-cult",
+            "title": "《史記》卷40〈楚世家〉夔不祀祝融",
+            "url": "https://github.com/liuyao12/chinese-biographical-repository/blob/b54c37f60d7537b4cfc00b0960ebad90ad5bcd99/corpus/shiji/040.json#L1633-L1634",
+            "source_commit": "b54c37f60d7537b4cfc00b0960ebad90ad5bcd99",
+            "source_blob": "1a89ed689d7870b62022003f7bf205f15701ef63",
+            "quote": "滅夔，夔不祀祝融、鬻熊故也。",
+            "read_line_range": [
+              1633,
+              1634
+            ],
+            "cached_response_sha256": "d7e0f384d0e7db0e1df01e7ca1cbdcc08f48a9e731d202d4c4a2f1727484675b",
+            "image_verified": false,
+            "scope": "internal_fixed_source_excerpt",
+            "source_revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796"
+          },
+          {
+            "id": "shiji042-zheng-zhurong-ancestor",
+            "title": "《史記》卷42〈鄭世家〉太史伯論祝融",
+            "url": "https://github.com/liuyao12/chinese-biographical-repository/blob/b54c37f60d7537b4cfc00b0960ebad90ad5bcd99/corpus/shiji/042.json#L45-L46",
+            "source_commit": "b54c37f60d7537b4cfc00b0960ebad90ad5bcd99",
+            "source_blob": "ec30c61f177838d29a72aa96d5e25a7136d41015",
+            "quote": "昔祝融爲髙辛氏火正，其功大矣，而其於周未有興者，楚其後也。",
+            "read_line_range": [
+              45,
+              46
+            ],
+            "cached_response_sha256": "2d8344022cadece1e6b25756e038602bf7cb04234594b4ebbf5ab33b76db5b23",
+            "image_verified": false,
+            "scope": "internal_fixed_source_excerpt",
+            "source_revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=8736804"
+          }
+        ],
+        "note": "本句本身只敘祝融在賦中驚動並清道，不提供名、世代或可與楚、鄭祖系相連的親屬標記。《楚世家》同一祖系敘事明言重黎受祝融之名，後又稱呉回承後、復居火正為祝融；篇末另提夔不祀祝融。《鄭世家》太史伯語亦以祝融為高辛氏火正祖系。這些記載證明稱名有多重承襲／祭祀層次，不能僅憑賦中同名選定重黎、呉回或單一神格，故維持未決，不建立人物ID或同指邊。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false
+      }
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-shiji-117-xiangru:m059-0009",
+        "paragraph_id": "c-shiji-117-xiangru:p059",
+        "start": 9,
+        "end": 11,
+        "surface": "陛下",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "於是大司馬進曰：「陛下仁育群生，義征不憓，諸夏樂貢，百蠻執贄，德侔往初，功無與二，休烈浹洽，符瑞眾變，期應紹至，不特創見。意者泰山、梁父設壇場望幸，蓋號以況榮，上帝垂恩儲祉，將以薦成，陛下謙讓而弗發也。挈三神之驩，缺王道之儀，群臣恧焉。或謂且天為質闇，珍符固不可辭；若然辭之，是泰山靡記而梁父靡幾也。亦各並時而榮，咸濟世而屈，說者尚何稱於後，而云七十二君乎？夫修德以錫符，奉符以行事，不為進越。故聖王弗替，而修禮地祇，謁款天神，勒功中嶽，以彰至尊，舒盛德，發號榮，受厚福，以浸黎民也。皇皇哉斯事！天下之壯觀，王者之丕業，不可貶也。原陛下全之。而後因雜薦紳先生之略術，使獲燿日月之末光絕炎，以展采錯事，猶兼正列其義，校飭厥文，作春秋一藝，將襲舊六為七，攄之無窮，俾萬世得激清流，揚微波，蜚英聲，騰茂實。前聖之所以永保鴻名而常為稱首者用此，宜命掌故悉奏其義而覽焉。」",
+        "rationale": "大司馬假設進言中的受話稱呼，依同篇封禪奏書框架暫指漢武帝；「陛下」是稱謂，不是姓名。此判讀不把賦中問答當成實際朝會。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m059-0092",
+        "paragraph_id": "c-shiji-117-xiangru:p059",
+        "start": 92,
+        "end": 94,
+        "surface": "陛下",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "於是大司馬進曰：「陛下仁育群生，義征不憓，諸夏樂貢，百蠻執贄，德侔往初，功無與二，休烈浹洽，符瑞眾變，期應紹至，不特創見。意者泰山、梁父設壇場望幸，蓋號以況榮，上帝垂恩儲祉，將以薦成，陛下謙讓而弗發也。挈三神之驩，缺王道之儀，群臣恧焉。或謂且天為質闇，珍符固不可辭；若然辭之，是泰山靡記而梁父靡幾也。亦各並時而榮，咸濟世而屈，說者尚何稱於後，而云七十二君乎？夫修德以錫符，奉符以行事，不為進越。故聖王弗替，而修禮地祇，謁款天神，勒功中嶽，以彰至尊，舒盛德，發號榮，受厚福，以浸黎民也。皇皇哉斯事！天下之壯觀，王者之丕業，不可貶也。原陛下全之。而後因雜薦紳先生之略術，使獲燿日月之末光絕炎，以展采錯事，猶兼正列其義，校飭厥文，作春秋一藝，將襲舊六為七，攄之無窮，俾萬世得激清流，揚微波，蜚英聲，騰茂實。前聖之所以永保鴻名而常為稱首者用此，宜命掌故悉奏其義而覽焉。」",
+        "rationale": "大司馬假設進言中的受話稱呼，依同篇封禪奏書框架暫指漢武帝；「陛下」是稱謂，不是姓名。此判讀不把賦中問答當成實際朝會。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m059-0266",
+        "paragraph_id": "c-shiji-117-xiangru:p059",
+        "start": 266,
+        "end": 268,
+        "surface": "陛下",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "second_person_address",
+        "status": "contextual_provisional",
+        "quote": "於是大司馬進曰：「陛下仁育群生，義征不憓，諸夏樂貢，百蠻執贄，德侔往初，功無與二，休烈浹洽，符瑞眾變，期應紹至，不特創見。意者泰山、梁父設壇場望幸，蓋號以況榮，上帝垂恩儲祉，將以薦成，陛下謙讓而弗發也。挈三神之驩，缺王道之儀，群臣恧焉。或謂且天為質闇，珍符固不可辭；若然辭之，是泰山靡記而梁父靡幾也。亦各並時而榮，咸濟世而屈，說者尚何稱於後，而云七十二君乎？夫修德以錫符，奉符以行事，不為進越。故聖王弗替，而修禮地祇，謁款天神，勒功中嶽，以彰至尊，舒盛德，發號榮，受厚福，以浸黎民也。皇皇哉斯事！天下之壯觀，王者之丕業，不可貶也。原陛下全之。而後因雜薦紳先生之略術，使獲燿日月之末光絕炎，以展采錯事，猶兼正列其義，校飭厥文，作春秋一藝，將襲舊六為七，攄之無窮，俾萬世得激清流，揚微波，蜚英聲，騰茂實。前聖之所以永保鴻名而常為稱首者用此，宜命掌故悉奏其義而覽焉。」",
+        "rationale": "大司馬假設進言中的受話稱呼，依同篇封禪奏書框架暫指漢武帝；「陛下」是稱謂，不是姓名。此判讀不把賦中問答當成實際朝會。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m060-0002",
+        "paragraph_id": "c-shiji-117-xiangru:p060",
+        "start": 2,
+        "end": 4,
+        "surface": "天子",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "imperial_title_reference",
+        "status": "contextual_provisional",
+        "quote": "於是天子沛然改容，曰：「愉乎，朕其試哉！」乃遷思回慮，總公卿之議，詢封禪之事，詩大澤之博，廣符瑞之富。乃作頌曰：",
+        "rationale": "此處「天子」承封禪奏書框架指漢武帝，是帝王稱號而非姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m062-0068",
+        "paragraph_id": "c-shiji-117-xiangru:p062",
+        "start": 68,
+        "end": 69,
+        "surface": "君",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "非唯雨之，又潤澤之；非唯濡之，氾尃濩之。萬物熙熙，懷而慕思。名山非唯雨之，又潤澤之；非唯濡之，氾尃濩之。萬物熙熙，懷而慕思。名山顯位，望君之來。君乎君乎，侯不邁哉！",
+        "rationale": "封禪頌中的君主稱呼，依前文受頌者及本篇奏書框架暫指漢武帝；是稱謂而非姓名，並不證成實際封禪行程。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m062-0072",
+        "paragraph_id": "c-shiji-117-xiangru:p062",
+        "start": 72,
+        "end": 73,
+        "surface": "君",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "非唯雨之，又潤澤之；非唯濡之，氾尃濩之。萬物熙熙，懷而慕思。名山非唯雨之，又潤澤之；非唯濡之，氾尃濩之。萬物熙熙，懷而慕思。名山顯位，望君之來。君乎君乎，侯不邁哉！",
+        "rationale": "封禪頌中的君主稱呼，依前文受頌者及本篇奏書框架暫指漢武帝；是稱謂而非姓名，並不證成實際封禪行程。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m062-0074",
+        "paragraph_id": "c-shiji-117-xiangru:p062",
+        "start": 74,
+        "end": 75,
+        "surface": "君",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "非唯雨之，又潤澤之；非唯濡之，氾尃濩之。萬物熙熙，懷而慕思。名山非唯雨之，又潤澤之；非唯濡之，氾尃濩之。萬物熙熙，懷而慕思。名山顯位，望君之來。君乎君乎，侯不邁哉！",
+        "rationale": "封禪頌中的君主稱呼，依前文受頌者及本篇奏書框架暫指漢武帝；是稱謂而非姓名，並不證成實際封禪行程。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m063-0007",
+        "paragraph_id": "c-shiji-117-xiangru:p063",
+        "start": 7,
+        "end": 8,
+        "surface": "君",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "般般之獸，樂我君囿；白質黑章，其儀可；旼旼睦睦，君子之般般之獸，樂我君囿；白質黑章，其儀可；旼旼睦睦，君子之能。蓋聞其聲，今觀其來。厥塗靡蹤，天瑞之徵。茲亦於舜，虞氏以興。",
+        "rationale": "封禪頌中的君主稱呼，依前文受頌者及本篇奏書框架暫指漢武帝；此錨點位於固定維基文庫轉錄重出的頌句，異文未決，仍保留來源字位，不把稱謂列作姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m063-0034",
+        "paragraph_id": "c-shiji-117-xiangru:p063",
+        "start": 34,
+        "end": 35,
+        "surface": "君",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "般般之獸，樂我君囿；白質黑章，其儀可；旼旼睦睦，君子之般般之獸，樂我君囿；白質黑章，其儀可；旼旼睦睦，君子之能。蓋聞其聲，今觀其來。厥塗靡蹤，天瑞之徵。茲亦於舜，虞氏以興。",
+        "rationale": "封禪頌中的君主稱呼，依前文受頌者及本篇奏書框架暫指漢武帝；此錨點位於固定維基文庫轉錄重出的頌句，異文未決，仍保留來源字位，不把稱謂列作姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m064-0015",
+        "paragraph_id": "c-shiji-117-xiangru:p064",
+        "start": 15,
+        "end": 16,
+        "surface": "君",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "濯濯之麟，遊彼靈畤。孟冬十月，君俎郊祀。馳我君輿，帝以享祉。三代之前，蓋未嘗有。",
+        "rationale": "封禪頌中的君主稱呼，注文以武帝祠五畤獲白麟釋此郊祀語境，故暫指漢武帝；固定轉錄作「君俎」，異本作「君徂」，只記異文而不改正文。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m064-0022",
+        "paragraph_id": "c-shiji-117-xiangru:p064",
+        "start": 22,
+        "end": 23,
+        "surface": "君",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "濯濯之麟，遊彼靈畤。孟冬十月，君俎郊祀。馳我君輿，帝以享祉。三代之前，蓋未嘗有。",
+        "rationale": "封禪頌中的君主稱呼，注文以武帝祠五畤獲白麟釋此郊祀語境，故暫指漢武帝；固定轉錄作「君俎」，異本作「君徂」，只記異文而不改正文。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m068-0009",
+        "paragraph_id": "c-shiji-117-xiangru:p068",
+        "start": 9,
+        "end": 11,
+        "surface": "天子",
+        "person_id": "yqp_nlb_p1p_ACAA",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "司馬相如既卒五歲，天子始祭后土。八年而遂先禮中嶽，封於太山，至梁父禪肅然。",
+        "rationale": "帝王稱號「天子」，承前「司馬相如既卒五歲」後，所指為武帝主持祭后土；這是段落敘事中的當朝皇帝稱號，不是姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-117-xiangru:m070-0000",
+        "paragraph_id": "c-shiji-117-xiangru:p070",
+        "start": 0,
+        "end": 3,
+        "surface": "太史公",
+        "person_id": "pme_eis_xqi_*A*AAAAA",
+        "reference_type": "title_or_appellation_reference",
+        "status": "contextual_provisional",
+        "quote": "太史公曰：春秋推見至隱，易本隱之以顯，大雅言王公大人而德逮黎庶，小雅譏小己之得失，其流及上。所以言雖外殊，其合德一也。相如雖多虛辭濫說，然其要歸引之節儉，此與詩之風諫何異。余采其語可論者著於篇。",
+        "rationale": "篇末「太史公曰」是史家署稱；同段「余采其語可論者著於篇」表明發言者為本篇作者司馬遷。保留為稱謂指涉，不作姓名提及。",
+        "human_reviewed": false
       }
     ]
   },
@@ -1896,7 +2002,8 @@
           "surface": "靈圉",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "「靈圉」在本篇另見p052、p058；上下文把它列為神仙／靈類而未提供可核定的單一姓名，故不建立個人ID。"
         },
         {
           "id": "c-shiji-117-xiangru:m016-0110",
@@ -3103,7 +3210,8 @@
           "surface": "真人",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "「真人」在「與真人乎相求」中為泛稱仙真，未指名特定人物，不另建個人ID。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0036",
@@ -3112,7 +3220,8 @@
           "surface": "靈圉",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "「靈圉」在本篇另見p016、p058；句中列於靈類及眾神之間，未見足以判為一名可辨個體的證據，故不建立個人ID。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0045",
@@ -3121,7 +3230,8 @@
           "surface": "眾神",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "「眾神」為集合稱呼，沒有逐一命名，不拆造個人。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0052",
@@ -3138,9 +3248,10 @@
           "start": 59,
           "end": 61,
           "surface": "太一",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "d88_6lt_6ex",
+          "status": "contextual_provisional",
+          "interpretation_note": "如淳注指天極大星中太一常居，古注又釋為太一返回其所居、陵陽侍從；依此記作神話／星神人物。卷12「（大夫）［太一］」屬未定校讀，不據此接合。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0063",
@@ -3177,10 +3288,10 @@
           "start": 76,
           "end": 78,
           "surface": "陸離",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "interpretation_note": "本篇陸離與漢書長離的神名／靈鳥解釋分存，未改字或強接個人。"
+          "kind": "person",
+          "person_id": "oha_39m_mfa",
+          "status": "contextual_provisional",
+          "interpretation_note": "《史記集解》引《漢書音義》明釋本篇「陸離」為神名，故建立本篇所指的傳說神格ID。平行《漢書》作「長離」，顏師古另釋為靈鳥；不改本篇字形、不將長離接作別名，保留讀法差異。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0080",
@@ -3197,10 +3308,10 @@
           "start": 85,
           "end": 87,
           "surface": "北僑",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "interpretation_note": "本篇北僑與《漢書》伯僑用字不同；各注解釋與分詞並存，未把北、伯或征字自動改寫，也未接成已定人物。"
+          "kind": "person",
+          "person_id": "36f_f1a_2zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "本篇《史記》作「北僑」；依《集解》引徐廣為燕人、形解而仙者。平行《漢書》同句作「伯僑」，顏師古讀作姓征名伯僑，暫接為同一傳說人物；張揖說王子僑，顏師古明言非王子僑，故不與王子僑合併。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0089",
@@ -3229,7 +3340,8 @@
           "surface": "祝融",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "本句只稱祝融驚而蹕御；《史記》卷40記重黎與其弟呉回先後受祝融之名，卷42另以祝融稱高辛氏火正祖系，卷40篇末又見祝融祀典。所指可為不同傳說人物、神格或職名，未能定一，詳見本段異說記錄。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0132",
@@ -3302,9 +3414,10 @@
           "start": 161,
           "end": 163,
           "surface": "風伯",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "zhi_m63_15i",
+          "status": "contextual_provisional",
+          "interpretation_note": "《漢書》卷五十七下張揖注稱「風伯字飛廉」，據此將本篇風伯辨作具名神話角色飛廉；不推為其他同名人物，也不把賦中誅風伯寫成實際事件。"
         },
         {
           "id": "c-shiji-117-xiangru:m053-0165",
@@ -3313,7 +3426,8 @@
           "surface": "雨師",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "「雨師」是神職／神格稱呼；本句及現存對讀古注未確定其本名。張揖注把飛廉釋為風伯，不能因此把雨師接成屏翳。"
         },
         {
           "id": "c-shiji-117-xiangru:m053-0196",
@@ -3322,16 +3436,17 @@
           "surface": "玉女",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "「玉女」為未具名稱呼；此段沒有足以連到特定人物的名字或系譜，不與秦本紀「姚姓之玉女」等同。"
         },
         {
           "id": "c-shiji-117-xiangru:m053-0233",
           "start": 233,
           "end": 236,
           "surface": "西王母",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "4t4_ojw_dn7",
+          "status": "contextual_provisional"
         }
       ]
     },
@@ -3510,7 +3625,8 @@
           "surface": "七十有二君",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "此處是對上古至秦七十二君的集體稱述，原文未逐一列名；保留群體提及，不拆成七十二筆人物，也不據此建立跨篇身份連結。"
         }
       ]
     },
@@ -3581,7 +3697,8 @@
           "surface": "二后",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "此稱指涉仍未定。孟康注見《文選》卷48六臣注，釋「二后」為文王、武王；《史記評林》卷117所錄《漢書音義》注文則作「二后謂文王」。兩來源的可檢索文字均出自掃描OCR，尚未核對原頁字形，故保留兩說而不連人物ID。"
         },
         {
           "id": "c-shiji-117-xiangru:m058-0362",
@@ -3590,7 +3707,8 @@
           "surface": "靈圉",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "「靈圉」在本篇另見p016、p052；此處與鬼神相接，仍不足判為單一具名人物，故保留未定而不補ID。"
         }
       ]
     },
@@ -3607,27 +3725,8 @@
           "surface": "大司馬",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
-        },
-        {
-          "id": "c-shiji-117-xiangru:m059-0009",
-          "start": 9,
-          "end": 11,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional",
-          "interpretation_note": "封禪遺書所頌當朝君主，依奏書框架及古注暫接武帝；不據虛擬問答增朝會或祭祀事件。"
-        },
-        {
-          "id": "c-shiji-117-xiangru:m059-0092",
-          "start": 92,
-          "end": 94,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional",
-          "interpretation_note": "封禪遺書所頌當朝君主，依奏書框架及古注暫接武帝；不據虛擬問答增朝會或祭祀事件。"
+          "status": "unresolved",
+          "interpretation_note": "不指派真實歷史人物。《文選》卷48六臣注稱大司馬為官號，並說「相如假立之以發後辭」；《史記評林》眉批亦稱此段「託以大司馬進言」。兩處均由掃描OCR擷取，尚未核對原頁字形；本錨點只保留賦文中的假設發言角色。"
         },
         {
           "id": "c-shiji-117-xiangru:m059-0113",
@@ -3648,16 +3747,6 @@
           "status": "unresolved"
         },
         {
-          "id": "c-shiji-117-xiangru:m059-0266",
-          "start": 266,
-          "end": 268,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional",
-          "interpretation_note": "封禪遺書所頌當朝君主，依奏書框架及古注暫接武帝；不據虛擬問答增朝會或祭祀事件。"
-        },
-        {
           "id": "c-shiji-117-xiangru:m059-0370",
           "start": 370,
           "end": 372,
@@ -3675,23 +3764,14 @@
       "text_layer": "received_chapter",
       "mentions": [
         {
-          "id": "c-shiji-117-xiangru:m060-0002",
-          "start": 2,
-          "end": 4,
-          "surface": "天子",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional",
-          "interpretation_note": "封禪遺書所頌當朝君主，依奏書框架及古注暫接武帝；不據虛擬問答增朝會或祭祀事件。"
-        },
-        {
           "id": "c-shiji-117-xiangru:m060-0028",
           "start": 28,
           "end": 30,
           "surface": "公卿",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "note": "此處泛指參與議論的公卿群體，未逐名列出；不建立個人 ID 或推定成員。"
         }
       ]
     },
@@ -3707,38 +3787,7 @@
       "text": "非唯雨之，又潤澤之；非唯濡之，氾尃濩之。萬物熙熙，懷而慕思。名山非唯雨之，又潤澤之；非唯濡之，氾尃濩之。萬物熙熙，懷而慕思。名山顯位，望君之來。君乎君乎，侯不邁哉！",
       "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": [
-        {
-          "id": "c-shiji-117-xiangru:m062-0068",
-          "start": 68,
-          "end": 69,
-          "surface": "君",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional",
-          "interpretation_note": "封禪遺書所頌當朝君主，依奏書框架及古注暫接武帝；不據虛擬問答增朝會或祭祀事件。"
-        },
-        {
-          "id": "c-shiji-117-xiangru:m062-0072",
-          "start": 72,
-          "end": 73,
-          "surface": "君",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional",
-          "interpretation_note": "封禪遺書所頌當朝君主，依奏書框架及古注暫接武帝；不據虛擬問答增朝會或祭祀事件。"
-        },
-        {
-          "id": "c-shiji-117-xiangru:m062-0074",
-          "start": 74,
-          "end": 75,
-          "surface": "君",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional",
-          "interpretation_note": "封禪遺書所頌當朝君主，依奏書框架及古注暫接武帝；不據虛擬問答增朝會或祭祀事件。"
-        }
-      ]
+      "mentions": []
     },
     {
       "id": "c-shiji-117-xiangru:p063",
@@ -3746,24 +3795,6 @@
       "annotation_status": "in_progress",
       "text_layer": "received_chapter",
       "mentions": [
-        {
-          "id": "c-shiji-117-xiangru:m063-0007",
-          "start": 7,
-          "end": 8,
-          "surface": "君",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-117-xiangru:m063-0034",
-          "start": 34,
-          "end": 35,
-          "surface": "君",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional"
-        },
         {
           "id": "c-shiji-117-xiangru:m063-0079",
           "start": 79,
@@ -3782,26 +3813,6 @@
       "text_layer": "received_chapter",
       "mentions": [
         {
-          "id": "c-shiji-117-xiangru:m064-0015",
-          "start": 15,
-          "end": 16,
-          "surface": "君",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional",
-          "interpretation_note": "封禪遺書所頌當朝君主，依奏書框架及古注暫接武帝；不據虛擬問答增朝會或祭祀事件。"
-        },
-        {
-          "id": "c-shiji-117-xiangru:m064-0022",
-          "start": 22,
-          "end": 23,
-          "surface": "君",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
-          "status": "contextual_provisional",
-          "interpretation_note": "封禪遺書所頌當朝君主，依奏書框架及古注暫接武帝；不據虛擬問答增朝會或祭祀事件。"
-        },
-        {
           "id": "c-shiji-117-xiangru:m064-0025",
           "start": 25,
           "end": 26,
@@ -3809,7 +3820,7 @@
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved",
-          "interpretation_note": "本篇作帝以享祉，《漢書》作帝用享祉；此引注供釋名，不據此改字，也不補天帝個體姓名。"
+          "interpretation_note": "《文選》注文釋「帝」為天帝，故保留為非歷史個人的神祇泛稱，不建立武帝人物錨點；收到正文「帝以享祉」及《漢書》異文「帝用享祉」分存，不改字。"
         }
       ]
     },
@@ -3840,7 +3851,8 @@
           "surface": "湯",
           "kind": "person",
           "person_id": "tpz_x3m_e0h",
-          "status": "contextual_provisional"
+          "status": "contextual_provisional",
+          "interpretation_note": "與「武」並稱上古受命之君，指商湯；不把二人合為單一人物。六臣注據此釋為君王最高位仍不失敬慎。"
         },
         {
           "id": "c-shiji-117-xiangru:m067-0047",
@@ -3849,7 +3861,8 @@
           "surface": "武",
           "kind": "person",
           "person_id": "y4i_pjk_4gn_AA",
-          "status": "contextual_provisional"
+          "status": "contextual_provisional",
+          "interpretation_note": "此處與湯並稱古代聖王，指周武王，非漢武帝；六臣注釋為雖居至尊之位仍不失敬慎。"
         },
         {
           "id": "c-shiji-117-xiangru:m067-0057",
@@ -3858,7 +3871,8 @@
           "surface": "舜",
           "kind": "person",
           "person_id": "ddb_l4j_4j2",
-          "status": "contextual_provisional"
+          "status": "contextual_provisional",
+          "interpretation_note": "此處舉舜自省以申述君主應顧省闕失；保留舜的獨立人物 ID。六臣注見證作「格典」，本篇固定轉錄作「假典」，未據異本改正文。"
         }
       ]
     },
@@ -3875,15 +3889,6 @@
           "surface": "司馬相如",
           "kind": "person",
           "person_id": "usb_lgr_ksa",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-117-xiangru:m068-0009",
-          "start": 9,
-          "end": 11,
-          "surface": "天子",
-          "kind": "person",
-          "person_id": "yqp_nlb_p1p_ACAA",
           "status": "contextual_provisional"
         }
       ]
@@ -3929,15 +3934,6 @@
       "annotation_status": "in_progress",
       "text_layer": "received_chapter",
       "mentions": [
-        {
-          "id": "c-shiji-117-xiangru:m070-0000",
-          "start": 0,
-          "end": 3,
-          "surface": "太史公",
-          "kind": "person",
-          "person_id": "pme_eis_xqi_*A*AAAAA",
-          "status": "contextual_provisional"
-        },
         {
           "id": "c-shiji-117-xiangru:m070-0059",
           "start": 59,

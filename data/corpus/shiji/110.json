@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄並初標156名來源人物、710處人物及未定錨點、26筆親屬、163筆用稱、30筆死亡事件、5筆地址、40筆跨篇及28筆身份判讀。全篇初標，不等於身份、異文、家族與官爵時段複核完成；3組未決身份；且鞮侯父系已按三步證據暫定組裝，仍待複核。 續核開篇33組周秦晉趙及刺秦、北征人物，更新42個重複ID的全部引用；全文61段已續讀，匿名、稱號日期及版本仍未完成。 續核南越王建德、大宛王毋寡、江都翁主、昆莫與李廣利五組跨篇身份，更新五個重複ID的全部引用後撤號；貳師與宛貴人殺王的兩篇語境各存，未補公主姓名、婚年或王的精確死亡日。 續核卷123昆明軍役郭昌、卷122光祿徐自爲同指；卷73攻楚三處蒙恬按辛德勇轉引並接受的蒙武校讀記首選，原字不改、北征蒙恬分列，三個重複來源ID更新引用後撤號。",
+    "coverage": "全61段轉錄並初標156名來源人物、708處人物及未定錨點、26筆親屬、163筆用稱、30筆死亡事件、5筆地址、40筆跨篇及28筆身份判讀。全篇初標，不等於身份、異文、家族與官爵時段複核完成；3組未決身份；且鞮侯父系已按三步證據暫定組裝，仍待複核。 續核開篇33組周秦晉趙及刺秦、北征人物，更新42個重複ID的全部引用；全文61段已續讀，匿名、稱號日期及版本仍未完成。 續核南越王建德、大宛王毋寡、江都翁主、昆莫與李廣利五組跨篇身份，更新五個重複ID的全部引用後撤號；貳師與宛貴人殺王的兩篇語境各存，未補公主姓名、婚年或王的精確死亡日。 續核卷123昆明軍役郭昌、卷122光祿徐自爲同指；卷73攻楚三處蒙恬按辛德勇轉引並接受的蒙武校讀記首選，原字不改、北征蒙恬分列，三個重複來源ID更新引用後撤號。 另存2筆有明確所指的「之」第三人稱指涉；其他代詞仍待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -137,6 +137,34 @@
           "eq-shiji093-family-hanshuo",
           "eq-shiji110-frontier-hanshuo"
         ]
+      }
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-shiji-110-xiongnu:m052-0056",
+        "paragraph_id": "c-shiji-110-xiongnu:p052",
+        "start": 56,
+        "end": 57,
+        "surface": "之",
+        "person_id": "j4o_btd_tb0",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "左大都尉欲發而覺，單于誅之，發左方兵擊浞野。",
+        "rationale": "「之」為第三人稱賓語，緊接「左大都尉欲發而覺」，指本段未具名的左大都尉；保留來源限定人物ID，不把代詞作姓名。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-shiji-110-xiongnu:m055-0091",
+        "paragraph_id": "c-shiji-110-xiongnu:p055",
+        "start": 91,
+        "end": 92,
+        "surface": "之",
+        "person_id": "pez_8dn_r76",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "是歳，貳師將軍破大宛，斬其王而還。匈奴欲遮之，不能至。",
+        "rationale": "「之」為第三人稱賓語，承前「貳師將軍」與破宛還師敘事，指李廣利；保留此具名所指供人物資料回查，不作姓名或別名。",
+        "human_reviewed": false
       }
     ]
   },
@@ -6135,15 +6163,6 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-shiji-110-xiongnu:m052-0056",
-          "start": 56,
-          "end": 57,
-          "surface": "之",
-          "kind": "person",
-          "person_id": "j4o_btd_tb0",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-shiji-110-xiongnu:m052-0063",
           "start": 63,
           "end": 65,
@@ -6399,15 +6418,6 @@
           "surface": "其王",
           "kind": "person",
           "person_id": "2l2_58b_q4i",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-110-xiongnu:m055-0091",
-          "start": 91,
-          "end": 92,
-          "surface": "之",
-          "kind": "person",
-          "person_id": "pez_8dn_r76",
           "status": "contextual_provisional"
         },
         {

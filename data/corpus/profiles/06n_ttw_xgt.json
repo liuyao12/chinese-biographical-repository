@@ -7,8 +7,7 @@
   "review": "ai_provisional",
   "names": [
     "鄒陽",
-    "臣",
-    "之"
+    "臣"
   ],
   "titles": [
     {
@@ -33,8 +32,8 @@
           "start": 15,
           "end": 17,
           "surface": "上客",
-          "person_mention_id": "c-shiji-083-luzou:m026-0011",
-          "usage": "narrative"
+          "usage": "narrative",
+          "person_reference_id": "c-shiji-083-luzou:m026-0011"
         }
       ],
       "effective_period": {
@@ -158,8 +157,8 @@
       "category": "liezhuan",
       "title": "魯仲連鄒陽列傳第二十三",
       "paragraph_id": "c-shiji-083-luzou:p015",
-      "count": 13,
-      "raw_count": 13,
+      "count": 12,
+      "raw_count": 12,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "鄒陽者，齊人也。游於梁，與故吳人莊忌夫子、淮陰枚生之徒交。上書而介於羊勝、公孫詭之閒。勝等嫉鄒陽，惡之梁孝王。孝王怒，下之吏，將欲殺之。鄒陽客游，以讒見禽，恐死而負累，乃從獄中上書曰：",
@@ -169,7 +168,6 @@
         "c-shiji-083-luzou:p017",
         "c-shiji-083-luzou:p022",
         "c-shiji-083-luzou:p025",
-        "c-shiji-083-luzou:p026",
         "c-shiji-083-luzou:p027"
       ],
       "mention_ids": [
@@ -184,7 +182,6 @@
         "c-shiji-083-luzou:m017-0086",
         "c-shiji-083-luzou:m022-0000",
         "c-shiji-083-luzou:m025-0000",
-        "c-shiji-083-luzou:m026-0011",
         "c-shiji-083-luzou:m027-0049"
       ],
       "mention_paragraph_ids": {
@@ -199,7 +196,6 @@
         "c-shiji-083-luzou:m017-0086": "c-shiji-083-luzou:p017",
         "c-shiji-083-luzou:m022-0000": "c-shiji-083-luzou:p022",
         "c-shiji-083-luzou:m025-0000": "c-shiji-083-luzou:p025",
-        "c-shiji-083-luzou:m026-0011": "c-shiji-083-luzou:p026",
         "c-shiji-083-luzou:m027-0049": "c-shiji-083-luzou:p027"
       },
       "mention_id": "c-shiji-083-luzou:m015-0000",
@@ -278,13 +274,6 @@
           "canonical_mention_id": "c-shiji-083-luzou:m025-0000",
           "mention_ids": [
             "c-shiji-083-luzou:m025-0000"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-shiji-083-luzou:m026-0011",
-          "mention_ids": [
-            "c-shiji-083-luzou:m026-0011"
           ],
           "kind": "paragraph"
         },
@@ -503,6 +492,25 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-shiji-083-luzou:m026-0011",
+      "paragraph_id": "c-shiji-083-luzou:p026",
+      "start": 11,
+      "end": 12,
+      "surface": "之",
+      "person_id": "06n_ttw_xgt",
+      "reference_type": "third_person_pronoun",
+      "status": "contextual_provisional",
+      "quote": "書奏梁孝王，孝王使人出之，卒為上客。",
+      "rationale": "「之」為「孝王使人出之」的第三人稱賓語；承前篇中鄒陽上書、入梁的敘事，指鄒陽，不是姓名。保留此具名所指供人物資料回查。",
+      "human_reviewed": false,
+      "chapter_id": "c-shiji-083-luzou",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-083",
+      "source_id": "s-shiji-083-luzou"
+    }
+  ],
   "person_ids": [
     "06n_ttw_xgt"
   ],

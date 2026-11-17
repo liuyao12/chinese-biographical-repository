@@ -21,7 +21,7 @@ class TaishigongAuthorIdentityTests(unittest.TestCase):
     def test_every_reviewed_occurrence_points_to_one_author_and_keeps_its_text(self):
         review=read('source-evidence/shiji-taishigong-author-identity/identity-reading.json')
         self.assertEqual(review['removed_source_local_profile_count'],72)
-        self.assertEqual(review['source_occurrence_count'],85)
+        self.assertEqual(review['source_occurrence_count'],108)
         chapters={d['id']:d for p in (ROOT/'corpus/shiji').glob('*.json')
                   if (d:=json.loads(p.read_text())).get('record_type')=='marked_chapter'}
         for unit in review['source_units']:
@@ -37,8 +37,15 @@ class TaishigongAuthorIdentityTests(unittest.TestCase):
         for suffix in ('p003','p004','p006'):
             p=next(p for p in ch['paragraphs'] if p['id'].endswith(':'+suffix))
             self.assertTrue(any(m['surface']=='太史公' and m['person_id']==TAN for m in p['mentions']))
+        ritual=read('corpus/shiji/012.json')
+        for suffix in ('p016','p023'):
+            p=next(p for p in ritual['paragraphs'] if p['id'].endswith(':'+suffix))
+            self.assertTrue(any(m['surface']=='太史公' and m['person_id']==TAN for m in p['mentions']))
         p=next(p for p in ch['paragraphs'] if p['id'].endswith(':p143'))
         self.assertEqual(next(m['person_id'] for m in p['mentions'] if m['surface']=='太史公'),KEEP)
+        decision=next(d for d in read('corpus/shiji/012-identities.json')['decisions']
+                      if d['id']=='d-shiji012-taishigong-sima-tan')
+        self.assertTrue(any(e['paragraph_id'].endswith(':p004') for e in decision['evidence']))
 
     def test_chu_reference_retains_commentary_layer(self):
         for number,pid in [(60,'p018'),(126,'p013')]:

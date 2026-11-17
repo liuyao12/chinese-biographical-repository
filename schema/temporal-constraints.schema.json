@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://liuyao12.github.io/chinese-biographical-repository/schema/temporal-constraints.schema.json",
+  "title": "CBR source-bound temporal constraints 0.1",
+  "type": "object",
+  "properties": {
+    "format_version": { "const": "0.1" },
+    "record_type": { "const": "person_temporal_constraint_set" },
+    "chapter_id": { "type": "string", "minLength": 1 },
+    "constraints": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/constraint" }
+    }
+  },
+  "required": ["format_version", "record_type", "chapter_id", "constraints"],
+  "additionalProperties": false,
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "work_id": { "type": "string", "minLength": 1 },
+        "book_id": { "type": "string", "minLength": 1 },
+        "source_id": { "type": "string", "minLength": 1 },
+        "chapter_id": { "type": "string", "minLength": 1 },
+        "paragraph_id": { "type": "string", "minLength": 1 },
+        "quote": { "type": "string", "minLength": 1 },
+        "person_mention_id": { "type": "string", "minLength": 1 },
+        "person_reference_id": { "type": "string", "minLength": 1 },
+        "anchor": {
+          "type": "object",
+          "properties": {
+            "start": { "type": "integer", "minimum": 0 },
+            "end": { "type": "integer", "minimum": 1 },
+            "surface": { "type": "string", "minLength": 1 }
+          },
+          "required": ["start", "end", "surface"],
+          "additionalProperties": false
+        }
+      },
+      "required": ["work_id", "book_id", "source_id", "chapter_id", "paragraph_id", "quote", "anchor"],
+      "oneOf": [
+        { "required": ["person_mention_id"], "not": { "required": ["person_reference_id"] } },
+        { "required": ["person_reference_id"], "not": { "required": ["person_mention_id"] } }
+      ],
+      "additionalProperties": false
+    },
+    "time_value": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "chinese_regnal_year" },
+            "era_name": { "type": "string", "minLength": 1 },
+            "year": { "type": "integer", "minimum": 1 }
+          },
+          "required": ["kind", "era_name", "year"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "chinese_civil_year" },
+            "year": { "type": "integer" },
+            "year_numbering": { "enum": ["astronomical", "historical"] }
+          },
+          "required": ["kind", "year", "year_numbering"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": { "const": "integer" },
+            "value": { "type": "integer" },
+            "unit": { "type": "string", "minLength": 1 }
+          },
+          "required": ["kind", "value", "unit"],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "constraint": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "person_id": { "type": "string", "minLength": 1 },
+        "target": {
+          "type": "object",
+          "properties": {
+            "entity_type": { "enum": ["person", "life_event", "title_holding", "age_assertion", "temporal_attestation"] },
+            "entity_id": { "type": "string", "minLength": 1 },
+            "property": { "enum": ["birth_year", "death_year", "year", "start_year", "end_year", "value", "duration_years", "elapsed_years"] }
+          },
+          "required": ["entity_type", "entity_id", "property"],
+          "additionalProperties": false
+        },
+        "operator": { "enum": ["eq", "lt", "lte", "gt", "gte"] },
+        "value": { "$ref": "#/$defs/time_value" },
+        "derivation": {
+          "type": "object",
+          "properties": {
+            "kind": { "enum": ["explicit_date", "named_era_span", "alive_at_date", "reported_age", "reported_duration"] },
+            "source_term": { "type": "string", "minLength": 1 },
+            "rationale": { "type": "string", "minLength": 1 }
+          },
+          "required": ["kind", "source_term", "rationale"],
+          "additionalProperties": false
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/evidence" }
+        },
+        "status": { "enum": ["source_attested", "source_entailed", "editorial_provisional"] },
+        "human_reviewed": { "type": "boolean" },
+        "reviewer": { "type": "string", "minLength": 1 }
+      },
+      "required": ["id", "person_id", "target", "operator", "value", "derivation", "evidence", "status", "human_reviewed", "reviewer"],
+      "additionalProperties": false
+    }
+  }
+}

@@ -7,8 +7,7 @@
   "review": "ai_provisional",
   "names": [
     "一人",
-    "射雕者",
-    "之"
+    "射雕者"
   ],
   "titles": [
     {
@@ -61,8 +60,8 @@
       "category": "liezhuan",
       "title": "李將軍列傳第四十九",
       "paragraph_id": "c-shiji-109-liguang:p003",
-      "count": 3,
-      "raw_count": 3,
+      "count": 2,
+      "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "馬歩行，行數十里。廣令其騎張左右翼，而廣身自射彼三人者，殺其二人，生得一人，果匈奴射雕者也。已縛之上馬，望匈奴有數千騎，見廣，以爲誘騎，皆驚，上山陳。廣之百騎皆大恐，欲馳還走。廣曰：「吾去大軍數十里，今如此以百騎走，匈奴追射我立盡。今我留，匈奴必以我爲大軍［之］誘（之），必",
@@ -71,13 +70,11 @@
       ],
       "mention_ids": [
         "c-shiji-109-liguang:m003-0123",
-        "c-shiji-109-liguang:m003-0129",
-        "c-shiji-109-liguang:m003-0136"
+        "c-shiji-109-liguang:m003-0129"
       ],
       "mention_paragraph_ids": {
         "c-shiji-109-liguang:m003-0123": "c-shiji-109-liguang:p003",
-        "c-shiji-109-liguang:m003-0129": "c-shiji-109-liguang:p003",
-        "c-shiji-109-liguang:m003-0136": "c-shiji-109-liguang:p003"
+        "c-shiji-109-liguang:m003-0129": "c-shiji-109-liguang:p003"
       },
       "mention_id": "c-shiji-109-liguang:m003-0123",
       "occurrence_groups": [
@@ -92,13 +89,6 @@
           "canonical_mention_id": "c-shiji-109-liguang:m003-0129",
           "mention_ids": [
             "c-shiji-109-liguang:m003-0129"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-shiji-109-liguang:m003-0136",
-          "mention_ids": [
-            "c-shiji-109-liguang:m003-0136"
           ],
           "kind": "paragraph"
         }
@@ -143,6 +133,25 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-shiji-109-liguang:m003-0136",
+      "paragraph_id": "c-shiji-109-liguang:p003",
+      "start": 136,
+      "end": 137,
+      "surface": "之",
+      "person_id": "rjs_f84_760",
+      "reference_type": "third_person_pronoun",
+      "status": "contextual_provisional",
+      "quote": "已縛之上馬",
+      "rationale": "「之」為第三人稱賓語，承上「果匈奴射雕者也」所述被生擒者；此人未具名，保留來源限定人物ID，不把代詞作姓名或別名。",
+      "human_reviewed": false,
+      "chapter_id": "c-shiji-109-liguang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-109",
+      "source_id": "s-shiji-109-liguang"
+    }
+  ],
   "person_ids": [
     "rjs_f84_760"
   ],

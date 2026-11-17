@@ -54,12 +54,27 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全27段正文明示姓名首輪已存；完整指代、身份、版本及稱號時段仍待覆核。",
+    "coverage": "全27段正文明示姓名首輪已存；完整指代、身份、版本及稱號時段仍待覆核。 另將1處代詞「之」連至鄒陽並記為人物指涉，不作姓名錨點。",
     "limitations": [
       "帝秦為建議非實授，平原欲封與田單欲爵魯連被辭不作受爵。",
       "鄒陽上書臣與大王及嵌套引古依說話範圍辨識。",
       "聊城燕將未名，九侯有子不擅改女；朱象管蔡與伊管等短稱待證。",
       "4項數位增刪改讀另存，未核底本影像或現代研究。"
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-shiji-083-luzou:m026-0011",
+        "paragraph_id": "c-shiji-083-luzou:p026",
+        "start": 11,
+        "end": 12,
+        "surface": "之",
+        "person_id": "06n_ttw_xgt",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "書奏梁孝王，孝王使人出之，卒為上客。",
+        "rationale": "「之」為「孝王使人出之」的第三人稱賓語；承前篇中鄒陽上書、入梁的敘事，指鄒陽，不是姓名。保留此具名所指供人物資料回查。",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
@@ -2890,7 +2905,7 @@
           "end": 53,
           "surface": "孫叔敖",
           "kind": "person",
-          "person_id": "p06_lrs_tg7",
+          "person_id": "fom_gr9_c8v",
           "status": "contextual_provisional"
         },
         {
@@ -3317,15 +3332,6 @@
           "person_id": null,
           "status": "unresolved",
           "note": "群體、泛稱或未定指代保留，不補姓名。"
-        },
-        {
-          "id": "c-shiji-083-luzou:m026-0011",
-          "start": 11,
-          "end": 12,
-          "surface": "之",
-          "kind": "person",
-          "person_id": "06n_ttw_xgt",
-          "status": "contextual_provisional"
         }
       ]
     },

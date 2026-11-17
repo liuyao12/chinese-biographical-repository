@@ -3,6 +3,45 @@ from scripts.person_bundle import bundle
 
 
 class PersonBundleTests(unittest.TestCase):
+    def test_source_temporal_constraints_export_with_their_passages(self):
+        import copy
+        from scripts.person_bundle import load_catalog
+        person_id = 'li9_cmb_8ci'
+        catalog = copy.deepcopy(load_catalog())
+        chapter = next(r for r in catalog[1]
+                       if r.get('record_type') == 'marked_chapter'
+                       and r['id'] == 'c-shiji-007-xiangyu')
+        paragraph = next(p for p in chapter['paragraphs']
+                         if any(m.get('person_id') == person_id for m in p['mentions']))
+        mention = next(m for m in paragraph['mentions'] if m.get('person_id') == person_id)
+        source_term = mention['surface']
+        constraint = {
+            'id': 'tc-synthetic-bundle-test', 'person_id': person_id,
+            'target': {'entity_type': 'person', 'entity_id': person_id, 'property': 'death_year'},
+            'operator': 'gte',
+            'value': {'kind': 'chinese_regnal_year', 'era_name': '永徽', 'year': 3},
+            'derivation': {'kind': 'alive_at_date', 'source_term': source_term,
+                           'rationale': 'Synthetic bundle-export test; not a historical assertion.'},
+            'evidence': [{
+                'work_id': chapter['work_id'], 'book_id': chapter['book_id'],
+                'source_id': chapter['source_id'], 'chapter_id': chapter['id'],
+                'paragraph_id': paragraph['id'], 'quote': paragraph['text'],
+                'person_mention_id': mention['id'],
+                'anchor': {'start': mention['start'], 'end': mention['end'], 'surface': source_term}
+            }],
+            'status': 'editorial_provisional', 'human_reviewed': False,
+            'reviewer': 'Codex（AI代理）'
+        }
+        catalog[1].append({
+            'format_version': '0.1', 'record_type': 'person_temporal_constraint_set',
+            'chapter_id': chapter['id'], 'constraints': [constraint]
+        })
+
+        result = bundle(person_id, include_provisional=True, catalog=catalog)
+        self.assertEqual(result['temporal_constraints'], [constraint])
+        self.assertTrue(any(p['id'] == paragraph['id'] and p['text'] == paragraph['text']
+                            for p in result['passages']))
+
     def test_name_components_are_machine_readable_and_have_source_ids(self):
         result = bundle('li9_cmb_8ci', include_provisional=True)
         name = next(n for n in result['name_components'] if n['person_id'] == 'li9_cmb_8ci')
@@ -629,7 +668,7 @@ class PersonBundleTests(unittest.TestCase):
     def test_zhou_ren_ancestral_place_is_not_personal_origin(self):
         from scripts.person_bundle import load_catalog
         catalog = load_catalog()
-        person = next(p for p in catalog[0].values() if p['label'] == '周仁（萬石張叔列傳候選）')
+        person = catalog[0]['2jn_tjp_75n']
         result = bundle(person['id'], catalog=catalog)
         ancestral = next(a for a in result['address_assertions'] if a['place']['source_name'] == '任城')
         self.assertEqual(ancestral['relation'], 'ancestral_origin')

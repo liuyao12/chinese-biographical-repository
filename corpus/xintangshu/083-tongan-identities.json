@@ -1,0 +1,46 @@
+{
+  "format_version": "0.2",
+  "record_type": "identity_decision_set",
+  "chapter_id": "c-xintangshu-083-tongan",
+  "decisions": [
+    {
+      "id": "d-xintangshu083-jiutangshu004-tongan",
+      "person_id": "acz_c2l_abu",
+      "surfaces": [
+        "同安公主",
+        "同安大長公主"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-xintangshu-083-tongan",
+        "c-jiutangshu-004-tongan-visit"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-xintangshu-083-tongan:p001:m0000",
+          "c-jiutangshu-004-tongan-visit:p001:m0000"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-xintangshu-083-tongan",
+          "source_id": "s-xintangshu083-ws2605952",
+          "paragraph_id": "c-xintangshu-083-tongan:p001",
+          "quote": "同安公主，高祖同母媦也。下嫁隋州刺史王裕。貞觀時，以屬尊進大長公主。嘗有疾，太宗躬省視，賜縑五百，姆侍皆有賚予。永徽初，賜實戶三百。薨年八十六。裕，隋司徒柬之子，終開府儀同三司。"
+        },
+        {
+          "chapter_id": "c-jiutangshu-004-tongan-visit",
+          "source_id": "s-jiutangshu004-ws11616345",
+          "paragraph_id": "c-jiutangshu-004-tongan-visit:p001",
+          "quote": "永徽三年\n冬十月戊戌，幸同安大長公主第，又幸高陽長公主第，即日還宮。"
+        }
+      ],
+      "rationale": "兩篇在唐代皇室、同安公主封號及永徽三年府第事件的語境相合；同安公主與同安大長公主暫接為同一人。保留原表層稱號，不據別篇用例補入本句不存在的姓名。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

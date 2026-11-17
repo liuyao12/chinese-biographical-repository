@@ -156,7 +156,29 @@
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "normalization": {
           "character_conversion": {},
-          "editorial_readings": [],
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "（孝）［德］",
+              "adopted_reading": "德",
+              "status": "editorial_provisional",
+              "rationale": "秦君相承及《秦本紀》支持德公；保留孝字異讀。未核影像，不作定本校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "獻（孝）公",
+              "adopted_reading": "獻公",
+              "status": "editorial_provisional",
+              "rationale": "徙櫟邑的秦君為獻公；保留孝字異讀。未核影像，不作定本校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "（武）［孝］",
+              "adopted_reading": "孝",
+              "status": "editorial_provisional",
+              "rationale": "下接「昭治咸陽」，秦孝公脈絡相合；保留武字異讀。未核影像，不作定本校勘。"
+            }
+          ],
           "extraction_note": "去header2、現代節標及索隱述贊層次標籤；保留巴[蜀]、（孝）［德］等來源校讀括號，未核影像。",
           "note": "文獻校讀不當已校定字，氏稱與家族表述逐段分辨。"
         }
@@ -169,6 +191,25 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-shiji-129-huozhi:m043-0035",
+      "paragraph_id": "c-shiji-129-huozhi:p043",
+      "start": 35,
+      "end": 36,
+      "surface": "女",
+      "person_id": "jat_ll3_qk6",
+      "reference_type": "title_or_appellation_reference",
+      "status": "contextual_provisional",
+      "quote": "女築懷清",
+      "rationale": "篇末「女築懷清」回扣本篇寡婦清與「懷清臺」；「女」是描述性稱指，不是姓名或個人別名。",
+      "human_reviewed": false,
+      "chapter_id": "c-shiji-129-huozhi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-129",
+      "source_id": "s-shiji129-huozhi"
+    }
+  ],
   "person_ids": [
     "jat_ll3_qk6"
   ],

@@ -1599,6 +1599,49 @@
       "interpretation_note": "只記本段具名用稱及書信紀年，任期兩端未知。當戶且居雕渠難不拆姓名、不與前段匿名當戶或難氏自動合併。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji127-001",
+      "person_id": "yqp_nlb_p1p_AC",
+      "title": "代王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-127-rizhe",
+          "source_id": "s-shiji127-rizhe",
+          "paragraph_id": "c-shiji-127-rizhe:p001",
+          "quote": "自古受命而王，王者之興何嘗不以卜筮決於天命哉！其於周尤甚，及秦可見。代王之入，任於卜者。太卜之起，由漢興而有。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji127-001:a001",
+          "paragraph_id": "c-shiji-127-rizhe:p001",
+          "start": 34,
+          "end": 36,
+          "surface": "代王",
+          "person_mention_id": "c-shiji-127-rizhe:m001-0034",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "文獻用稱不作授任日期；傅保留原稱，不改太傅，黃直大夫未定官階；未知起訖保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -6708,8 +6751,8 @@
       "category": "liezhuan",
       "title": "淮南衡山列傳第五十八",
       "paragraph_id": "c-shiji-118-huainan:p002",
-      "count": 28,
-      "raw_count": 28,
+      "count": 29,
+      "raw_count": 29,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "失母，常附呂后，孝惠、呂后時以故得幸無患害，而常心怨辟陽侯，弗敢發。及孝文帝初即位，淮南王自以為最親，驕蹇，數不奉法。上以親故，常寬赦之。三年，入朝。甚橫。從上入苑囿獵，與上同車，常謂上「大兄」。厲王有材力，力能扛鼎，乃往請辟陽侯。辟陽侯出見之，即自袖鐵椎椎辟陽侯，令從者魏敬",
@@ -6733,6 +6776,7 @@
         "c-shiji-118-huainan:m002-0147",
         "c-shiji-118-huainan:m002-0149",
         "c-shiji-118-huainan:m002-0308",
+        "c-shiji-118-huainan:m004-0051",
         "c-shiji-118-huainan:m004-0421",
         "c-shiji-118-huainan:m004-0467",
         "c-shiji-118-huainan:m004-0519",
@@ -6763,6 +6807,7 @@
         "c-shiji-118-huainan:m002-0147": "c-shiji-118-huainan:p002",
         "c-shiji-118-huainan:m002-0149": "c-shiji-118-huainan:p002",
         "c-shiji-118-huainan:m002-0308": "c-shiji-118-huainan:p002",
+        "c-shiji-118-huainan:m004-0051": "c-shiji-118-huainan:p004",
         "c-shiji-118-huainan:m004-0421": "c-shiji-118-huainan:p004",
         "c-shiji-118-huainan:m004-0467": "c-shiji-118-huainan:p004",
         "c-shiji-118-huainan:m004-0519": "c-shiji-118-huainan:p004",
@@ -6833,6 +6878,13 @@
           "canonical_mention_id": "c-shiji-118-huainan:m002-0308",
           "mention_ids": [
             "c-shiji-118-huainan:m002-0308"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m004-0051",
+          "mention_ids": [
+            "c-shiji-118-huainan:m004-0051"
           ],
           "kind": "paragraph"
         },
@@ -7314,6 +7366,76 @@
       "book_id": "b-shiji-125",
       "chapter_id": "c-shiji-125-ningxing",
       "source_id": "s-shiji125-ningxing",
+      "work_title": "史記"
+    },
+    {
+      "number": 127,
+      "category": "liezhuan",
+      "title": "日者列傳第六十七",
+      "paragraph_id": "c-shiji-127-rizhe:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "自古受命而王，王者之興何嘗不以卜筮決於天命哉！其於周尤甚，及秦可見。代王之入，任於卜者。太卜之起，由漢興而有。",
+      "paragraph_ids": [
+        "c-shiji-127-rizhe:p001"
+      ],
+      "mention_ids": [
+        "c-shiji-127-rizhe:m001-0034"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-127-rizhe:m001-0034": "c-shiji-127-rizhe:p001"
+      },
+      "mention_id": "c-shiji-127-rizhe:m001-0034",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-127-rizhe:m001-0034",
+          "mention_ids": [
+            "c-shiji-127-rizhe:m001-0034"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-127",
+      "chapter_id": "c-shiji-127-rizhe",
+      "source_id": "s-shiji127-rizhe",
+      "work_title": "史記"
+    },
+    {
+      "number": 128,
+      "category": "liezhuan",
+      "title": "龜策列傳第六十八",
+      "paragraph_id": "c-shiji-128-guice:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。至高祖時，因秦太卜官。天下始定，兵革未息。及孝惠享國日少，呂后女主，孝文、孝景因襲掌故，未遑講試，雖父子疇官，世世相傳，其精微深妙，多所遺失。至今上即位，博開藝能之路，悉延百端之學，通一伎之士咸得自效，絕倫超奇者為右，無所阿私，數年之閒，太卜大集。會上欲擊匈奴，西攘大宛，",
+      "paragraph_ids": [
+        "c-shiji-128-guice:p003"
+      ],
+      "mention_ids": [
+        "c-shiji-128-guice:m003-0198"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-128-guice:m003-0198": "c-shiji-128-guice:p003"
+      },
+      "mention_id": "c-shiji-128-guice:m003-0198",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-128-guice:m003-0198",
+          "mention_ids": [
+            "c-shiji-128-guice:m003-0198"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-128",
+      "chapter_id": "c-shiji-128-guice",
+      "source_id": "s-shiji128-guice",
       "work_title": "史記"
     },
     {
@@ -21708,6 +21830,69 @@
       }
     },
     {
+      "chapter_id": "c-shiji-127-rizhe",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-127",
+      "source_id": "s-shiji127-rizhe",
+      "source": {
+        "title": "史記／卷127",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷127",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷127&oldid=2609359",
+        "revision_id": 2609359,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，篇文19段、褚先生補文1段、索隱述贊1段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、TOC、現代節標與wikipedia導覽模板；保留爲、髪、讬、歳等原字，未核影像。",
+          "note": "褚先生補文與索隱述贊依來源節標分層。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-128-guice",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-128",
+      "source_id": "s-shiji128-guice",
+      "source": {
+        "title": "史記／卷128",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷128",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷128&oldid=7904127",
+        "revision_id": 7904127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文95段，篇文5段、褚先生補文89段、索隱述贊1段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-128-guice:p019",
+              "kind": "digital_witness_difference",
+              "body_reading": "殺牛取帮",
+              "witness_reading": "殺牛取革，被鄭之桐。",
+              "witness_title": "中國哲學書電子化計劃《史記三家注》卷一百二十八〈龜策列傳第六十八〉",
+              "witness_url": "https://ctext.org/wiki.pl?chapter=116898&if=en",
+              "witness_access": "本次直接開啟回應403；搜尋索引頁顯示該段及徐廣注文，未視為影像核校。",
+              "witness_edition_note": "CText《史記》說明其數位底文以《武英殿二十四史》本為基礎；此處僅作數位對校參考。",
+              "note_quote": "徐廣曰：「牛革桐為鼓也。」《索隱》：徐氏云：「牛革桐為鼓。」",
+              "decision": "保留目前固定正文「帮」，不靜默改字；CText數位讀法與徐廣注文均支持「革」，待直接核對武英殿本頁後再決定正文採字。",
+              "status": "editorial_provisional",
+              "human_reviewed": false
+            }
+          ],
+          "extraction_note": "去header2、wikipedia導覽模板與現代節標；保留原字及（民）［氓］等來源校讀括號，未核影像。",
+          "note": "固定正文仍為維基文庫7904127轉錄，非已核武英殿影像；CText武英殿系數位讀法「革」與徐廣注文供校讀參考，本文保留「帮」待核。萬畢石朱方、陰兢及周太子歷等依本篇上下文續核。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-130",
@@ -28679,7 +28864,7 @@
     "yqp_nlb_p1p_ACC": "參（梁孝王世家候選）",
     "yqp_nlb_p1p_ACD": "勝（梁孝王世家候選）",
     "yqp_nlb_p1p_ACE": "孝文帝女公主（絳侯周勃世家候選）",
-    "yqp_nlb_p1p_ACF": "嫖（長公主）",
+    "yqp_nlb_p1p_ACF": "長公主劉嫖",
     "yqp_nlb_p1p_ACG": "梁孝王武",
     "yqp_nlb_p1p_AF": "長（高祖子）"
   },

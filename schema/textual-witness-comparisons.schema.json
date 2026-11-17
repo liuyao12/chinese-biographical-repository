@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://liuyao12.github.io/chinese-biographical-repository/schema/textual-witness-comparisons.schema.json",
+  "title": "CBR textual witness comparison set 0.1",
+  "type": "object",
+  "properties": {
+    "format_version": { "const": "0.1" },
+    "record_type": { "const": "textual_witness_comparison_set" },
+    "chapter_id": { "type": "string", "minLength": 1 },
+    "comparisons": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/comparison" }
+    }
+  },
+  "required": ["format_version", "record_type", "chapter_id", "comparisons"],
+  "additionalProperties": false,
+  "$defs": {
+    "comparison": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "paragraph_id": { "type": "string", "minLength": 1 },
+        "base_witness": { "$ref": "#/$defs/baseWitness" },
+        "parallel_witness": { "$ref": "#/$defs/parallelWitness" },
+        "differences": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              { "$ref": "#/$defs/repetitionCount" },
+              { "$ref": "#/$defs/reading" }
+            ]
+          },
+          "minItems": 1
+        },
+        "status": { "const": "reported_not_collated" },
+        "adopted": { "const": false },
+        "rationale": { "type": "string", "minLength": 1 }
+      },
+      "required": ["id", "paragraph_id", "base_witness", "parallel_witness", "differences", "status", "adopted", "rationale"],
+      "additionalProperties": false
+    },
+    "baseWitness": {
+      "type": "object",
+      "properties": {
+        "source_id": { "type": "string", "minLength": 1 },
+        "revision_id": { "type": ["string", "integer"] },
+        "quote": { "type": "string", "minLength": 1 }
+      },
+      "required": ["source_id", "revision_id", "quote"],
+      "additionalProperties": false
+    },
+    "parallelWitness": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "source_commit": { "type": "string" },
+        "source_blob": { "type": "string" },
+        "locator": { "type": "string", "minLength": 1 },
+        "quote": { "type": "string", "minLength": 1 },
+        "transcription_status": { "type": "string", "minLength": 1 },
+        "image_verified": { "type": "boolean" }
+      },
+      "required": ["title", "url", "locator", "quote", "transcription_status", "image_verified"],
+      "additionalProperties": false
+    },
+    "repetitionCount": {
+      "type": "object",
+      "properties": {
+        "kind": { "const": "repetition_count" },
+        "base_pattern": { "type": "string", "minLength": 1 },
+        "base_count": { "type": "integer", "minimum": 0 },
+        "parallel_pattern": { "type": "string", "minLength": 1 },
+        "parallel_count": { "type": "integer", "minimum": 0 }
+      },
+      "required": ["kind", "base_pattern", "base_count", "parallel_pattern", "parallel_count"],
+      "additionalProperties": false
+    },
+    "reading": {
+      "type": "object",
+      "properties": {
+        "kind": { "const": "reading" },
+        "base_reading": { "type": "string", "minLength": 1 },
+        "parallel_reading": { "type": "string", "minLength": 1 }
+      },
+      "required": ["kind", "base_reading", "parallel_reading"],
+      "additionalProperties": false
+    }
+  }
+}

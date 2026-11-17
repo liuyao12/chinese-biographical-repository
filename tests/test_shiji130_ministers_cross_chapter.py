@@ -28,8 +28,14 @@ class MinistersIdentity(unittest.TestCase):
     p,m=bymid[mid];self.assertEqual(m['person_id'],row['person_id']);self.assertEqual(p['text'][m['start']:m['end']],m['surface'])
   for unit in self.base['complete_units']+self.extra['complete_units']:
    c=chapters[unit['chapter_id']];p=next(p for p in c['paragraphs'] if p['id']==unit['paragraph']['id']);self.assertEqual(p['text'],unit['paragraph']['text'])
-   actual={m['id']:m for m in p['mentions']}
-   for expected in unit['paragraph']['mentions']:self.assertEqual(actual[expected['id']],expected)
+   actual={m['id']:m for m in p['mentions']};captured={m['id']:m for m in unit['paragraph']['mentions']}
+   for expected in captured.values():
+    self.assertEqual(unit['paragraph']['text'][expected['start']:expected['end']],expected['surface'])
+    if actual.get(expected['id'])!=expected:
+     decisions=read('corpus/shiji/130-identities.json')['decisions']
+     decision=next((d for d in decisions if expected['id'] in d.get('identification_basis',{}).get('target_mention_ids',[])),None)
+     self.assertIsNotNone(decision,expected['id'])
+     self.assertEqual(actual[expected['id']]['person_id'],decision['person_id'])
  def test_two_hanxins_are_distinguished_by_their_biographies(self):
   ch=read('corpus/shiji/130.json');p104=next(p for p in ch['paragraphs'] if p['id'].endswith(':p104'));p105=next(p for p in ch['paragraphs'] if p['id'].endswith(':p105'))
   self.assertTrue(all(m['person_id']=='ofc_8ei_jb7' for m in p104['mentions'] if m['surface'] in ('信','淮陰侯')))

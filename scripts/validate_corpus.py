@@ -535,6 +535,37 @@ def _validate_uncached(root=ROOT):
                     elif m['kind'] == 'work':
                         check(m.get('person_id') is None and m.get('work_id') in works and m.get('status') in ('source_explicit', 'contextual_provisional'), '著作提及須引用已登記著作且不得連人物')
                     else: check(False,'未知提及類型')
+            reference_ids = set()
+            for reference in d.get('annotation', {}).get('person_reference_occurrences', []):
+                check(isinstance(reference, dict), f'{cid}: 人物指涉須為物件')
+                if not isinstance(reference, dict):
+                    continue
+                required = {'id','paragraph_id','start','end','surface','person_id','reference_type','status','quote','rationale','human_reviewed'}
+                check(set(reference) == required, f'{cid}: 人物指涉欄位須符合格式')
+                rid = reference.get('id')
+                check(isinstance(rid, str) and bool(rid) and rid not in reference_ids, f'{cid}: 人物指涉 ID 重複或無效')
+                check(isinstance(rid, str) and (rid.startswith(cid + ':r') or rid.startswith(cid + ':m')),
+                      f'{cid}: 人物指涉 ID 須使用本篇命名空間')
+                check(not isinstance(rid, str) or rid not in mentions, f'{cid}: 人物指涉 ID 不得與姓名提及 ID 重複')
+                if isinstance(rid, str):
+                    reference_ids.add(rid)
+                hit = next((p for p in d['paragraphs'] if p['id'] == reference.get('paragraph_id')), None)
+                check(hit is not None, f'{cid}: 人物指涉段落不存在')
+                check(reference.get('person_id') in pids, f'{cid}: 人物指涉引用未知人物 ID')
+                check(reference.get('reference_type') in ('first_person_self_reference','third_person_pronoun','second_person_address','kinship_term_reference','address_term_reference','imperial_title_reference','title_or_appellation_reference'), f'{cid}: 人物指涉類型無效')
+                check(reference.get('status') == 'contextual_provisional' and reference.get('human_reviewed') is False, f'{cid}: 人物指涉須保留暫定與覆核狀態')
+                rationale = reference.get('rationale')
+                check(isinstance(rationale, str) and bool(rationale.strip()), f'{cid}: 人物指涉須說明判讀')
+                if hit is not None:
+                    start, end, surface = reference.get('start'), reference.get('end'), reference.get('surface')
+                    valid_span = (isinstance(start, int) and isinstance(end, int) and isinstance(surface, str)
+                                  and 0 <= start < end <= len(hit['text']) and hit['text'][start:end] == surface)
+                    check(valid_span,
+                          f'{cid}: 人物指涉字位與原文不符')
+                    check(isinstance(reference.get('quote'), str) and bool(reference['quote']) and reference['quote'] in hit['text'],
+                          f'{cid}: 人物指涉引句不在來源段落')
+                    check(not (valid_span and any(m['start'] < end and start < m['end'] for m in hit['mentions'])),
+                          f'{cid}: 非姓名人物指涉不得與正文提及錨點重疊')
             try:
                 from scripts.work_reference_resolution import chapter_errors as work_reference_errors
             except ModuleNotFoundError:
@@ -643,6 +674,52 @@ def _validate_uncached(root=ROOT):
                     check(e.get('ref')==(m.get('work_id') if m['kind']=='work' else m['person_id']), 'XML 人物或著作引用不符')
                     if m['kind']=='unresolved': check(e.get('type')=='unresolved','XML 未定類型不符')
                     if m['kind']=='non_person': check(e.get('type')=='non-person' and e.get('subtype')==m.get('lexical_role'),'XML 非人物詞性不符')
+        for comparison_path in sorted((root / 'corpus').glob('*/*-textual-witness-comparisons.json')):
+            record = json.loads(comparison_path.read_text(encoding='utf-8'))
+            check(record.get('format_version') == '0.1'
+                  and record.get('record_type') == 'textual_witness_comparison_set'
+                  and record.get('chapter_id') in chapters
+                  and isinstance(record.get('comparisons'), list), '異本對讀集標頭或篇章無效')
+            seen_comparison_ids = set()
+            for comparison in record.get('comparisons', []):
+                check(isinstance(comparison, dict), '異本對讀項須為物件')
+                if not isinstance(comparison, dict):
+                    continue
+                cid = record.get('chapter_id')
+                paragraph = paragraphs.get(comparison.get('paragraph_id'))
+                base = comparison.get('base_witness', {})
+                parallel = comparison.get('parallel_witness', {})
+                check(bool(comparison.get('id')) and comparison.get('id') not in seen_comparison_ids,
+                      '異本對讀項 ID 重複或無效')
+                seen_comparison_ids.add(comparison.get('id'))
+                check(bool(paragraph) and paragraph[0] == cid
+                      and base.get('source_id') == chapters.get(cid, {}).get('source_id')
+                      and base.get('revision_id') == chapters.get(cid, {}).get('source', {}).get('revision_id')
+                      and base.get('quote') == (paragraph[1]['text'] if paragraph else None),
+                      '異本對讀底本文字、修訂或段落定位不符')
+                check(bool(parallel.get('title')) and bool(parallel.get('url'))
+                      and bool(parallel.get('locator')) and bool(parallel.get('quote'))
+                      and parallel.get('transcription_status') and isinstance(parallel.get('image_verified'), bool),
+                      '異本對讀平行見證缺少書名、網址、定位或核影狀態')
+                check(comparison.get('status') == 'reported_not_collated'
+                      and comparison.get('adopted') is False and bool(comparison.get('rationale')),
+                      '未核校異本不得標為已採用')
+                check(isinstance(comparison.get('differences'), list) and bool(comparison['differences']),
+                      '異本對讀須列出差異')
+                for difference in comparison.get('differences', []):
+                    if difference.get('kind') == 'repetition_count':
+                        pattern = difference.get('base_pattern')
+                        check(bool(pattern) and type(difference.get('base_count')) is int
+                              and (paragraph[1]['text'].count(pattern) if paragraph else -1) == difference.get('base_count')
+                              and bool(difference.get('parallel_pattern'))
+                              and type(difference.get('parallel_count')) is int,
+                              '異本重複次數須與固定底本文字相符')
+                    elif difference.get('kind') == 'reading':
+                        check(bool(difference.get('base_reading')) and bool(difference.get('parallel_reading'))
+                              and bool(paragraph) and difference.get('base_reading') in paragraph[1]['text'],
+                              '異本文字讀法須包含原讀及平行見證讀法')
+                    else:
+                        check(False, '異本對讀差異類型未知')
         check(not set(chapters).intersection(table_chapters), '正文與表格篇ID不得重複')
         check(set(chapter_books)==set(chapters) | set(table_chapters), '著作目錄與文本篇清單不符')
         for wid, work in works.items():
@@ -883,7 +960,10 @@ def _validate_uncached(root=ROOT):
                     check(bool(hit) and hit[0] in allowed and e['quote'] in hit[1]['text'],'身份判斷引句不在所屬正文')
                     if hit:
                         observed.add(hit[0])
-                        check(any(m['person_id']==decision['person_id'] for m in hit[1]['mentions']),'身份判斷段落未提及該人物')
+                        named=any(m['person_id']==decision['person_id'] for m in hit[1]['mentions'])
+                        chapter=chapters[hit[0]]
+                        referred=any(r.get('person_id')==decision['person_id'] and r.get('paragraph_id')==e['paragraph_id'] for r in chapter.get('annotation',{}).get('person_reference_occurrences',[]))
+                        check(named or referred,'身份判斷段落未提及或指涉該人物')
                 check(set(allowed).issubset(observed),'跨篇身份判斷未列各篇證據')
                 if 'chronology_caution' in decision:
                     try:
@@ -913,7 +993,15 @@ def _validate_uncached(root=ROOT):
                         from parallel_context_identity import valid as parallel_context_identity_valid
                     check(parallel_context_identity_valid(decision, chapters, {p['id']: p for p in people}, root), '平行敘事身份須有兩候選、完整固定原證、同事件字面及非別名界限')
                 target=next((p for p in people if p['id']==decision['person_id']),None)
-                if target: check(set(decision['surfaces']).issubset({a['surface'] for a in target['aliases']}),'身份判斷包含未見異稱')
+                if target:
+                    known_surfaces = {a['surface'] for a in target['aliases']}
+                    known_surfaces.update(
+                        reference['surface']
+                        for chapter in chapters.values()
+                        for reference in chapter.get('annotation', {}).get('person_reference_occurrences', [])
+                        if reference.get('person_id') == decision['person_id']
+                    )
+                    check(set(decision['surfaces']).issubset(known_surfaces), '身份判斷包含未見異稱或人物指涉')
         for path in (root/'corpus').glob('*/*-distinctions.json'):
             d=json.loads(path.read_text(encoding='utf-8'))
             check(d['record_type']=='person_distinction_set','人物區分集類型不符')
@@ -961,8 +1049,19 @@ def _validate_uncached(root=ROOT):
                     selected=[]
                     for mid in mids:
                         mention=mentions.get(mid)
-                        check(bool(mention) and mention[1]==e['paragraph_id'] and mention[2]['person_id'] in ids,'同指決定提及不屬於證據段落或端點')
-                        if mention:selected.append(mention[2])
+                        reference=next((r for chapter in chapters.values()
+                                        for r in chapter.get('annotation', {}).get('person_reference_occurrences', [])
+                                        if r.get('id') == mid), None)
+                        if mention:
+                            check(mention[1]==e['paragraph_id'] and mention[2]['person_id'] in ids,
+                                  '同指決定提及不屬於證據段落或端點')
+                            selected.append(mention[2])
+                        else:
+                            check(bool(reference) and reference['paragraph_id']==e['paragraph_id']
+                                  and reference['person_id'] in ids,
+                                  '同指決定人物指涉不屬於證據段落或端點')
+                            if reference:
+                                selected.append(reference)
                     if hit and quote:
                         starts=[i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(quote,i)]
                         enclosed=any(all(i<=m['start'] and m['end']<=i+len(quote) for m in selected) for i in starts)
@@ -1034,6 +1133,9 @@ def _validate_uncached(root=ROOT):
             d=json.loads(path.read_text(encoding='utf-8'))
             check(d['record_type']=='title_holding_assertion_set','稱號持有集類型不符')
             check(d['chapter_id'] in chapters,'稱號持有篇不存在')
+            title_reference_records = {
+                r.get('id'): r for r in chapters.get(d['chapter_id'], {}).get('annotation', {}).get('person_reference_occurrences', [])
+            }
             for h in d['holdings']:
                 check(h['id'] not in title_ids,'稱號持有 ID 重複');title_ids.add(h['id'])
                 check(h['person_id'] in pids and bool(h['title']),'稱號持有人或用稱無效')
@@ -1075,7 +1177,9 @@ def _validate_uncached(root=ROOT):
                     check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'稱號來源 ID 不符')
                     if hit:
                         if 'context' not in e:
-                            check(any(m['person_id']==h['person_id'] for m in hit[1]['mentions']),'稱號引句段落未提及持有人')
+                            named_holder=any(m['person_id']==h['person_id'] for m in hit[1]['mentions'])
+                            referenced_holder=any(r.get('person_id')==h['person_id'] and r.get('paragraph_id')==e['paragraph_id'] for r in title_reference_records.values())
+                            check(named_holder or referenced_holder,'稱號引句段落未提及持有人')
                         else:
                             context=e['context']
                             valid=isinstance(context,dict)
@@ -1444,8 +1548,14 @@ def _validate_uncached(root=ROOT):
                         check(royal,'王國範圍須保留王某地原句，不得由任意地名補入')
                 for a in h['attestations']:
                     check(a['id'] not in title_occurrence_ids,'稱號用稱 ID 重複');title_occurrence_ids.add(a['id'])
-                    hit=paragraphs.get(a['paragraph_id']);m=mentions.get(a['person_mention_id'])
+                    hit=paragraphs.get(a['paragraph_id']);m=mentions.get(a.get('person_mention_id'))
+                    reference=title_reference_records.get(a.get('person_reference_id'))
                     check(bool(hit) and hit[0]==d['chapter_id'],'稱號用稱段落不符')
+                    has_person_anchor = (bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'])
+                    has_reference_anchor = (bool(reference) and reference.get('paragraph_id')==a['paragraph_id']
+                                            and reference.get('person_id')==h['person_id'])
+                    check(not (a.get('person_mention_id') and a.get('person_reference_id')),
+                          '稱號用稱只可引用姓名提及或人物指涉其一')
                     carried_title_subject = False
                     if 'context' in a:
                         try:
@@ -1454,7 +1564,9 @@ def _validate_uncached(root=ROOT):
                             from subject_continuation import title_attestation_subject_valid
                         carried_title_subject = title_attestation_subject_valid(a, h, chapters[d['chapter_id']])
                         check(carried_title_subject, '稱號用稱省略主語承接無效')
-                    check(carried_title_subject or bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'],'稱號用稱人物提及不符')
+                    check(carried_title_subject or has_person_anchor or has_reference_anchor,'稱號用稱人物來源錨點不符')
+                    anchor_span = (m[2]['start'], m[2]['end']) if has_person_anchor else (
+                        (reference['start'], reference['end']) if has_reference_anchor else None)
                     shared_suffix_valid = False
                     if 'shared_title_suffix' in h:
                         try:
@@ -1475,7 +1587,7 @@ def _validate_uncached(root=ROOT):
                         for e in h['evidence']:
                             if e['paragraph_id']!=a['paragraph_id']:continue
                             starts=[i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(e['quote'],i)]
-                            if any(i<=a['start'] and a['end']<=i+len(e['quote']) and (carried_title_subject or m and i<=m[2]['start'] and m[2]['end']<=i+len(e['quote'])) for i in starts):enclosed=True
+                            if any(i<=a['start'] and a['end']<=i+len(e['quote']) and (carried_title_subject or anchor_span and i<=anchor_span[0] and anchor_span[1]<=i+len(e['quote'])) for i in starts):enclosed=True
                         check(enclosed,'稱號用稱及持有人不在精確引句範圍')
                     if 'normalized_date' in a:
                         expression = a.get('date_expression')
@@ -2168,12 +2280,46 @@ def _validate_uncached(root=ROOT):
         for report in age_report_groups.values():
             check('qualified_report' in report['statuses'], '報齡替代傳聞缺同組主報齡')
         try:
-            from scripts.song041_source_context import temporal_errors, unresolved_kin_errors
+            from scripts.song041_source_context import temporal_errors as song041_temporal_errors, unresolved_kin_errors
+            from scripts.source_temporal_attestations import source_temporal_attestation_errors
         except ImportError:
-            from song041_source_context import temporal_errors, unresolved_kin_errors
+            from song041_source_context import temporal_errors as song041_temporal_errors, unresolved_kin_errors
+            from source_temporal_attestations import source_temporal_attestation_errors
         context_events = {e['id']:e for path in (root / 'corpus').glob('*/*-life-events.json') for e in json.loads(path.read_text())['events']}
         for path in (root / 'corpus').glob('*/*-temporal.json'):
-            errors.extend(temporal_errors(json.loads(path.read_text()), chapters, pids, normalized_date_errors, context_events))
+            record = json.loads(path.read_text())
+            errors.extend(source_temporal_attestation_errors(record, chapters, pids, context_events, normalized_date_errors))
+            if record.get('chapter_id') == 'c-songshu-041-parents':
+                errors.extend(song041_temporal_errors(record, chapters, pids, normalized_date_errors, context_events))
+        try:
+            from scripts.temporal_constraints import temporal_constraint_errors
+        except ImportError:
+            from temporal_constraints import temporal_constraint_errors
+        temporal_constraint_ids = set()
+        temporal_attestations_by_id = {}
+        temporal_targets = {('person', pid): pid for pid in pids}
+        temporal_targets.update({('life_event', event_id): event['person_id']
+                                 for event_id, event in context_events.items()})
+        for path in (root / 'corpus').glob('*/*-titles.json'):
+            for holding in json.loads(path.read_text(encoding='utf-8')).get('holdings', []):
+                temporal_targets[('title_holding', holding['id'])] = holding['person_id']
+        for chapter in chapters.values():
+            for age in chapter['annotation'].get('age_assertions', []):
+                temporal_targets[('age_assertion', age['id'])] = age['person_id']
+        for path in (root / 'corpus').glob('*/*-temporal.json'):
+            for attestation in json.loads(path.read_text(encoding='utf-8')).get('records', []):
+                temporal_targets[('temporal_attestation', attestation['id'])] = attestation['person_id']
+                temporal_attestations_by_id[attestation['id']] = attestation
+        for path in (root / 'corpus').glob('*/*-temporal-constraints.json'):
+            record = json.loads(path.read_text(encoding='utf-8'))
+            errors.extend(temporal_constraint_errors(
+                record, chapters, pids, temporal_targets, temporal_attestations_by_id))
+            for constraint in record.get('constraints', []):
+                constraint_id = constraint.get('id')
+                if isinstance(constraint_id, str) and constraint_id in temporal_constraint_ids:
+                    errors.append(f'{constraint_id}: 時間約束 ID 重複')
+                if isinstance(constraint_id, str):
+                    temporal_constraint_ids.add(constraint_id)
         for chapter in chapters.values():
             for case in chapter['annotation'].get('unresolved_kinship_references', []):
                 errors.extend(unresolved_kin_errors(case, chapters, pids))

@@ -16,6 +16,8 @@
 
 每個段落有唯一 ID，每個提及有唯一 ID、`start`、`end`、`surface`。位置為段落內 Unicode code point，起點含、終點不含；JavaScript 使用 `Array.from(text)`，不可直接把 UTF-16 字串位置當此格式的位置。所有提及不重疊，依起點排列。人物提及含 `person_id`；未定指代的 `person_id` 為 `null`。
 
+可辨識所指人物的代詞、自稱、受話稱呼、親稱或稱號，另列於篇章 `annotation.person_reference_occurrences`，具有穩定 ID、人物 ID、原段落、Unicode 字位、精確引句、參照類型與判讀理由。參照類型包括第三人稱代詞、第一人稱自稱、第二人稱稱呼、親屬稱謂、一般受話稱呼、帝王稱號及其他稱謂。它們不是姓名／人物提及，不進入行內底線、人物別名或提及次數；仍由逐人來源 JSON 以 `person_references` 獨立列出。把原人物提及更正為稱謂指涉時，保留原 MID 作指涉 ID，並從人物姓名 aliases 與姓名證據中移除，避免舊 ID 懸空。泛指、所指不可辨或指向非人物的代詞不連人物，也不建立有確定 person ID 的此類記錄；引用是否成立仍是有來源、可撤回的編輯判斷，不能由程式判讀語義。
+
 ## 行內文本
 
 XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒稱符合 TEI：
@@ -104,6 +106,22 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 篇章 `annotation.age_assertions` 保存來源所報年齡，逐人 JSON 同名欄位匯出。數值 `value`、原數詞 `source_number` 與 `source_term` 分開保存；`unit: source_age_years`、`counting: unspecified_source_age`、`birth_year: null` 不推定計歲方式或反推出生年。證據連到人物錨點與原句；`normalized_date` 是報齡所屬事件年，日期索引標 `date_role: age_attestation`，不作出生事件。支援「年」後或「歲／歳」前的一至九十九數詞，保留來源實際字形；其他報齡形式需擴充驗證後保存。
 
+## 來源時間約束
+
+`*-temporal-constraints.json` 的 `person_temporal_constraint_set` 將每段證據可支持的時間關係逐條保存，不只保存整理後的單一日期。欄位契約見 [`temporal-constraints.schema.json`](temporal-constraints.schema.json)。每條記錄指定人物、目標實體與屬性（如生卒事件的 `year`、爵位記錄的 `start_year`／`end_year`、報齡的 `value`）、比較運算子（`eq`、`lt`、`lte`、`gt`、`gte`）、時間值、推導方式、原文引句、來源／篇／段落、人物提及 ID 及原詞的 Unicode 字位錨點。目標以 `entity_type`、`entity_id`、`property` 組成，不需要自然語言解析。時間值可用年號年、中國曆年或有單位的整數；不同時間軸不應直接比較，須先有可追溯的曆法對照。
+
+時間約束的人物證據可錨定姓名提及或 `person_reference_occurrences`，兩者擇一，分別以 `person_mention_id` 或 `person_reference_id` 指定。這使以「天子」等稱號表述的事件仍能引用人物 ID，而不把稱號誤作姓名。`temporal_attestation` 目標須在同篇 `*-temporal.json` 中有對應記錄；其來源與事件位置由 [`source-temporal-attestations.schema.json`](source-temporal-attestations.schema.json) 約束。相對時長保留各自的原文、參照事件 ID、時長等式和計數方式；消費端可依指向事件組合，不應先把未明載的絕對年份灌入來源記錄。
+
+卷117第68段即存兩個分開的來源時長：`「既卒五歲」` 記司馬相如卒後至武帝首次祭后土為 `5 source_elapsed_years`，並指向本篇既有死亡事件及同段后土祭祀錨點；`「八年而」` 記后土初祭至後續中嶽、太山、梁父禪禮為 `8 source_elapsed_years`。兩項均為原文明示時距等式，計年方式標未詳；沒有據徐廣注或其他年表補算絕對卒年。人物時間包會分別帶回相如與武帝的時間記錄及約束。
+
+異本逐字對讀以篇為單位存於 `*-textual-witness-comparisons.json`，格式見 [`textual-witness-comparisons.schema.json`](textual-witness-comparisons.schema.json)。每筆固定底本引句必須與該篇指定段落及來源修訂相符；平行見證另列書名、固定 URL／修訂、篇頁定位、轉錄引文及核影狀態。差異項可記重句次數或字詞讀法。`reported_not_collated` 且 `adopted: false` 表示只報告可定位的數位見證差異，不代表校定或覆寫正文；應另記未核影像及文本層級限制。
+
+`status: source_attested` 僅用於原文直接明載的量；`source_entailed` 用於原文語義及明確曆法邊界直接導出的關係；需要上下文判讀的推論標為 `editorial_provisional`，保存理由且不得冒稱人工覆核。例：「永徽中卒」可形成死亡年 \(\geq\) 永徽元年及死亡年 \(\leq\) 永徽六年兩條各自連回該段引文的約束；另一段若記永徽三年親往公主第，並據其語境判為她當時在世，可另存死亡年 \(\geq\) 永徽三年，並標明這是由「在世於該事件」推出的暫定關係，不把它改寫成直接死亡記載。
+
+同安公主的實際《新唐書》原文是「永徽初，賜實戶三百。薨，年八十六」；「永徽初」直接繫於賜戶，死亡在永徽年間的上下界因此標為編者暫定，不冒作原文明言。現有工作分支已分存這兩條時間約束；《舊唐書》永徽三年探視則另支持條件式死亡下界。三者各自保留引文和精確位置，人物包可供消費端自行求交集；目前尚未推送或合併至 main。詳見[同安公主死亡年界限來源核讀](../docs/source-reviews/tongan-princess-temporal-constraints.md)。
+
+逐人 API／人物包按人物及變數聚合原始約束，但保留每條來源證據與狀態；由不同來源交集得出的結果是消費端計算，不覆蓋或取代任何一條來源約束。例如前述兩組資料交集為永徽三年至六年。若年齡記載為「年八十六」，可另存 `age_at_event` 值86、單位 `source_age_years`；不得因此自動補造出生年。引文目前必須逐字等於來源段落，`anchor` 精確標出關鍵原詞；位置採 Unicode code point，供驗證器確認來源、人物及字位綁定。
+
 ## 同指判斷與已套用的身份整併
 
 `person_equivalence_set` 保存有證據的同指判讀。尚未套用時，`person_ids` 包含兩個或以上候選，`canonical_person_id` 必須屬於其中。按使用者最新要求，全部引用更新且驗證通過後撤除重複人物登記與 JSON，不永久保留舊 ID 別名。
@@ -114,7 +132,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ## 稱號持有、用稱與有效時段
 
-`007-titles.json` 的 `title_holding_assertion_set` 將來源所述授予、自立、貶降與單純用稱分開。每筆 `holding` 有穩定 ID、人物 ID、原稱、種類、`mode`、來源引句及獨立 `attestations`；每個用稱錨點按 Unicode code point 保存位置，並引用同句／同段的人物提及。此層可與人物文字標註重疊，不能因此改寫原文或換掉人物錨點。
+`007-titles.json` 的 `title_holding_assertion_set` 將來源所述授予、自立、貶降與單純用稱分開。每筆 `holding` 有穩定 ID、人物 ID、原稱、種類、`mode`、來源引句及獨立 `attestations`；每個用稱錨點按 Unicode code point 保存位置，並以 `person_mention_id` 或 `person_reference_id` 二擇一連到同段的人名提及或已記錄的人物指涉。此層可與人物文字標註重疊，不能因此改寫原文或把代詞當姓名。
 
 `effective_period.start`／`end` 各為 `unknown` 或 `source_event`。未知端點沒有日期或事件，不表示無限延伸。來源明示事件必須列起訖事件種類及精確證據；`date_expression` 僅在端點引句明見日期時填原表述，否則為null。本批日期皆未換算，來源事件位置只提供敘事中的端點證據，不冒稱某一公曆日或完整數值區間。
 
@@ -517,7 +535,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ### 缺位與所求身分的非人物用語
 
-既有 `kind: non_person` 可用 `lexical_role: vacant_office` 保存明說無太子的太子，用 `sovereign_status` 保存刻天子璽、求即天子位中的天子。這些是逐處判讀的來源用語，不建立缺位人物、假定在位者或已授官事件；原詞、上下文、提及ID及編者理由保留。驗證須限定相應原句與字元範圍，人物／作品ID留空。原有動詞與交互副詞分類不變。具體謀議中事大將軍、刺殺大將軍青所指的人物，另按明名與同一敘事鏈記身份判斷，不因同一段有偽印清單而混為一類。
+既有 `kind: non_person` 可用 `lexical_role: vacant_office` 保存明說無太子的太子，用 `sovereign_status` 保存刻天子璽、求即天子位及擬於天子中的天子。這些是逐處判讀的來源用語，不建立缺位人物、假定在位者或已授官事件；原詞、上下文、提及ID及編者理由保留。驗證須限定相應原句與字元範圍，人物／作品ID留空。原有動詞與交互副詞分類不變。具體謀議中事大將軍、刺殺大將軍青所指的人物，另按明名與同一敘事鏈記身份判斷，不因同一段有偽印清單而混為一類。
 
 
 ### 官職句讀與代理歸屬

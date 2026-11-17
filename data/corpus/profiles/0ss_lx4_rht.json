@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "0ss_lx4_rht",
   "canonical_person_id": "0ss_lx4_rht",
-  "label": "任氏先人（貨殖列傳候選）",
-  "identity_note": null,
+  "label": "任氏先人（匿名人物）",
+  "identity_note": "本篇明言「任氏之先，為督道倉吏」；人物姓名不詳。此ID只指向該未名祖先，不代表其後「任氏」家戶數代皆為同一人，亦不推定父系鏈。",
   "review": "ai_provisional",
   "names": [
     "任氏"
@@ -60,8 +60,8 @@
       "category": "liezhuan",
       "title": "貨殖列傳第六十九",
       "paragraph_id": "c-shiji-129-huozhi:p037",
-      "count": 6,
-      "raw_count": 6,
+      "count": 1,
+      "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "宣曲任氏之先，為督道倉吏。秦之敗也，豪傑皆爭取金玉，而任氏獨窖倉粟。楚漢相距滎陽也，民不得耕種，米石至萬，而豪傑金玉盡歸任氏，任氏以此起富。富人爭奢侈，而任氏折節為儉，力田畜。田畜人爭取賤賈，任氏獨取貴善。富",
@@ -69,20 +69,10 @@
         "c-shiji-129-huozhi:p037"
       ],
       "mention_ids": [
-        "c-shiji-129-huozhi:m037-0002",
-        "c-shiji-129-huozhi:m037-0027",
-        "c-shiji-129-huozhi:m037-0060",
-        "c-shiji-129-huozhi:m037-0063",
-        "c-shiji-129-huozhi:m037-0077",
-        "c-shiji-129-huozhi:m037-0096"
+        "c-shiji-129-huozhi:m037-0002"
       ],
       "mention_paragraph_ids": {
-        "c-shiji-129-huozhi:m037-0002": "c-shiji-129-huozhi:p037",
-        "c-shiji-129-huozhi:m037-0027": "c-shiji-129-huozhi:p037",
-        "c-shiji-129-huozhi:m037-0060": "c-shiji-129-huozhi:p037",
-        "c-shiji-129-huozhi:m037-0063": "c-shiji-129-huozhi:p037",
-        "c-shiji-129-huozhi:m037-0077": "c-shiji-129-huozhi:p037",
-        "c-shiji-129-huozhi:m037-0096": "c-shiji-129-huozhi:p037"
+        "c-shiji-129-huozhi:m037-0002": "c-shiji-129-huozhi:p037"
       },
       "mention_id": "c-shiji-129-huozhi:m037-0002",
       "occurrence_groups": [
@@ -90,41 +80,6 @@
           "canonical_mention_id": "c-shiji-129-huozhi:m037-0002",
           "mention_ids": [
             "c-shiji-129-huozhi:m037-0002"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-shiji-129-huozhi:m037-0027",
-          "mention_ids": [
-            "c-shiji-129-huozhi:m037-0027"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-shiji-129-huozhi:m037-0060",
-          "mention_ids": [
-            "c-shiji-129-huozhi:m037-0060"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-shiji-129-huozhi:m037-0063",
-          "mention_ids": [
-            "c-shiji-129-huozhi:m037-0063"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-shiji-129-huozhi:m037-0077",
-          "mention_ids": [
-            "c-shiji-129-huozhi:m037-0077"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-shiji-129-huozhi:m037-0096",
-          "mention_ids": [
-            "c-shiji-129-huozhi:m037-0096"
           ],
           "kind": "paragraph"
         }
@@ -156,7 +111,29 @@
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "normalization": {
           "character_conversion": {},
-          "editorial_readings": [],
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "（孝）［德］",
+              "adopted_reading": "德",
+              "status": "editorial_provisional",
+              "rationale": "秦君相承及《秦本紀》支持德公；保留孝字異讀。未核影像，不作定本校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "獻（孝）公",
+              "adopted_reading": "獻公",
+              "status": "editorial_provisional",
+              "rationale": "徙櫟邑的秦君為獻公；保留孝字異讀。未核影像，不作定本校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-129-huozhi:p013",
+              "source_expression": "（武）［孝］",
+              "adopted_reading": "孝",
+              "status": "editorial_provisional",
+              "rationale": "下接「昭治咸陽」，秦孝公脈絡相合；保留武字異讀。未核影像，不作定本校勘。"
+            }
+          ],
           "extraction_note": "去header2、現代節標及索隱述贊層次標籤；保留巴[蜀]、（孝）［德］等來源校讀括號，未核影像。",
           "note": "文獻校讀不當已校定字，氏稱與家族表述逐段分辨。"
         }
@@ -165,7 +142,7 @@
   ],
   "relations": [],
   "related_people": {
-    "0ss_lx4_rht": "任氏先人（貨殖列傳候選）"
+    "0ss_lx4_rht": "任氏先人（匿名人物）"
   },
   "dates": [],
   "name_components": [],

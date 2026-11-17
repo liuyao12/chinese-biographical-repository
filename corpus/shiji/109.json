@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全20段轉錄並初步逐段標註；首輪55名來源候選（部分已跨篇接合）、314處人物及未定錨點、5筆地址、14筆親屬、92筆官爵秩稱與敘事用稱及11筆死亡事件。日期、跨篇同指、代詞與底本影像仍待核，不宣稱全部覆核完成。",
+    "coverage": "全20段轉錄並初步逐段標註；首輪55名來源候選（部分已跨篇接合）、313處人物及未定錨點、5筆地址、14筆親屬、92筆官爵秩稱與敘事用稱及11筆死亡事件。日期、跨篇同指、代詞與底本影像仍待核，不宣稱全部覆核完成。 另存1筆有明確所指的「之」第三人稱指涉；其他代詞仍待核。",
     "limitations": [
       "未核底本影像。",
       "其先李信不改作直接父親；從弟李蔡不補親等。",
@@ -116,6 +116,21 @@
           "eq-shiji110-tpa_vui_ddb",
           "eq-shiji111-tpa_vui_ddb"
         ]
+      }
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-shiji-109-liguang:m003-0136",
+        "paragraph_id": "c-shiji-109-liguang:p003",
+        "start": 136,
+        "end": 137,
+        "surface": "之",
+        "person_id": "rjs_f84_760",
+        "reference_type": "third_person_pronoun",
+        "status": "contextual_provisional",
+        "quote": "已縛之上馬",
+        "rationale": "「之」為第三人稱賓語，承上「果匈奴射雕者也」所述被生擒者；此人未具名，保留來源限定人物ID，不把代詞作姓名或別名。",
+        "human_reviewed": false
       }
     ]
   },
@@ -498,15 +513,6 @@
           "start": 129,
           "end": 132,
           "surface": "射雕者",
-          "kind": "person",
-          "person_id": "rjs_f84_760",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-shiji-109-liguang:m003-0136",
-          "start": 136,
-          "end": 137,
-          "surface": "之",
           "kind": "person",
           "person_id": "rjs_f84_760",
           "status": "contextual_provisional"
