@@ -177,8 +177,8 @@ class TemporalConstraintTests(unittest.TestCase):
         claim = {"source_term": term, "start": quote.index(term), "end": quote.index(term) + len(term),
                  "normalized_relation": {"operator": "after_event", "related_event_id": "death"}}
         citation = {"work_id": "work-old-tang", "book_id": "book-185", "source_id": "old-tang",
-                    "chapter_id": "chapter-185", "paragraph_id": "p1", "quote": quote,
-                    "person_mention_id": "m-wang", "temporal_claim": claim}
+                    "chapter_id": "chapter-185", "paragraph_id": "p1", "quote": quote, "quote_start": 0, "quote_end": len(quote),
+                    "person_mention_id": "m-wang", "related_person_mention_id": "m-princess", "temporal_claim": claim}
         records = [
             {"record_type": "person_life_event_assertion_set", "events": [
                 {"id": "death", "person_id": "princess", "event_type": "death"}]},
@@ -196,7 +196,9 @@ class TemporalConstraintTests(unittest.TestCase):
         ]
         chapter = {"id": "chapter-185", "chapter_id": "chapter-185", "work_id": "work-old-tang", "book_id": "book-185", "source_id": "old-tang",
                    "paragraphs": [{"id": "p1", "text": quote, "mentions": [
-                       {"id": "m-wang", "person_id": "wang", "start": 0, "end": 3, "surface": "王方翼"}]}]}
+                       {"id": "m-wang", "person_id": "wang", "start": 0, "end": 3, "surface": "王方翼"},
+                       {"id": "m-princess", "person_id": "princess",
+                        "start": quote.index("公主"), "end": quote.index("公主") + 2, "surface": "公主"}]}]}
         self.assertEqual(errors(records, {"chapter-185": chapter}, {"princess", "wang"}), [])
 
     def test_validator_binds_death_lower_bound_to_exact_visited_person_date(self):
@@ -205,7 +207,7 @@ class TemporalConstraintTests(unittest.TestCase):
         date_claim = {"source_term": term, "start": quote.index(term),
                       "end": quote.index(term) + len(term), "normalized_date": date(3)}
         citation = {"work_id": "work-old-tang", "book_id": "book-annals", "source_id": "old-tang",
-                    "chapter_id": "chapter-annals", "paragraph_id": "p1", "quote": quote,
+                    "chapter_id": "chapter-annals", "paragraph_id": "p1", "quote": quote, "quote_start": 0, "quote_end": len(quote),
                     "person_mention_id": "m-princess", "temporal_claim": date_claim}
         visit = {"id": "visit", "person_id": "princess", "event_type": "visit",
                  "participant_role": "visited_person", "date_expression": term,
