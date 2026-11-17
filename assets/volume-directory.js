@@ -19,18 +19,19 @@ export async function loadVolumeDirectory(fetcher=globalThis.fetch) {
 }
 export const volumeURL=(work,book)=>'reader.html#'+new URLSearchParams({work,book});
 const imported=e=>e?.available==='marked_text'&&/^data\/corpus\/[a-z0-9-]+\/[a-zA-Z0-9_-]+\.json$/.test(e.path || '') || e?.available==='table'&&/^[a-z][a-z0-9-]*-\d{3}[a-z]?$/.test(e.table_id || '');
+const navigable=e=>imported(e)||e?.available==='pending';
 export function volumeModel(directory,workId,index,query='') {
  const work=directory?.works?.find(w=>w.work_id===workId);
  if(!work)return null;
- const entries=(index?.chapters || []).filter(e=>e.work_id===workId&&imported(e));
+ const entries=(index?.chapters || []).filter(e=>e.work_id===workId&&navigable(e));
  const term=String(query).trim();
  const books=work.books.map(book=>({...book,entries:entries.filter(e=>e.book_id===book.book_id)}))
   .filter(b=>!term || [b.title,b.citation_title,b.category,b.book_id,String(b.number),...b.entries.map(e=>e.title)].some(s=>typeof s==='string'&&s.includes(term)));
- return {work,books,volume_count:work.books.length,imported_count:entries.length};
+ return {work,books,volume_count:work.books.length,imported_count:entries.filter(imported).length};
 }
 const bookLabel=b=>[b.title || (Number.isInteger(b.number)?`卷${b.number}`:''),b.citation_title].filter(x=>typeof x==='string'&&x).join(' · ') || b.book_id;
 const citation=(model,book)=>sourceCitation({work_id:model.work.work_id,book_id:book.book_id,work_title:model.work.title,book_title:book.title || (Number.isInteger(book.number)?`卷${book.number}`:'')},chapterDirectoryMap({schema_version:1,works:[model.work]}));
-const selection=(entry,number)=>`<small class="volume-selection-scope">${ui('Imported section {number}',{number})}${typeof entry.title==='string'&&entry.title?` · ${ui('Selected scope')}: ${h(entry.title)}`:''}</small>`;
+const selection=(entry,number)=>`<small class="volume-selection-scope">${entry.available==='pending'?ui('Source text not yet imported'):ui('Imported section {number}',{number})}${typeof entry.title==='string'&&entry.title?` · ${ui('Selected scope')}: ${h(entry.title)}`:''}</small>`;
 export function volumeNavigation(model,selectedBook='',selectedChapter='') {
  if(!model)return '';
  return model.books.map(b=>`<section class="volume-directory-entry"><a class="chapter-entry volume-entry" href="${h(volumeURL(model.work.work_id,b.book_id))}" aria-current="${b.book_id===selectedBook&&!selectedChapter?'page':'false'}">${h(bookLabel(b))}</a>${b.entries.map((e,i)=>`<a class="chapter-entry volume-subchapter" href="${h(sourcePassageURL(e))}" aria-current="${e.chapter_id===selectedChapter?'page':'false'}">${h(citation(model,b))}${selection(e,i+1)}${e.text_scope?.startsWith('partial')?` <small>${ui('Partial chapter')}</small>`:''}</a>`).join('')}</section>`).join('');

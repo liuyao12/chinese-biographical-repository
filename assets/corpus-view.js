@@ -42,7 +42,7 @@ function list() {
   }
   const entries=index?filteredChapters(index,'all',$('chapter-search').value):[];
   $('chapter-count').textContent=t('{count} chapters',{count:entries.length});
-  $('chapter-list').innerHTML=entries.map(e=>`<a class="chapter-entry" href="${h(sourcePassageURL(e))}" aria-current="${e.chapter_id===selected?.chapter_id?'page':'false'}"><span class="chapter-number">${h(e.book_title)}</span><span>${h(sourceChapterTitle(e,chapterDirectory))}</span>${['partial_chapter','partial_table'].includes(e.text_scope)?`<small>${ui('Partial chapter')}</small>`:''}</a>`).join('');
+  $('chapter-list').innerHTML=entries.map(e=>`<a class="chapter-entry" href="${h(sourcePassageURL(e))}" aria-current="${e.chapter_id===selected?.chapter_id?'page':'false'}"><span class="chapter-number">${h(e.book_title)}</span><span>${h(e.title || sourceChapterTitle(e,chapterDirectory))}</span>${e.available==='pending'?`<small>${ui('Source text not yet imported')}</small>`:['partial_chapter','partial_table'].includes(e.text_scope)?`<small>${ui('Partial chapter')}</small>`:''}</a>`).join('');
 }
 const external=(url,label)=>safeSourceURL(url)?`<a href="${h(safeSourceURL(url))}" rel="noopener" target="_blank">${ui(label)} ↗</a>`:'';
 async function render(keepScroll=false) {
@@ -68,6 +68,21 @@ async function render(keepScroll=false) {
   if (!selected) {
     document.title=work.title+' · 人文';
     $('corpus-content').innerHTML=`<div class="chapter-intro"><h1>${h(work.title)}</h1><p>${ui('Choose a volume or imported section.')}</p><p>${ui('Only the listed passages have been imported.')}</p><p>${h(index.policy)}</p></div>`;return;
+  }
+  if(selected.available==='pending') {
+    document.title=sourceCitation(selected,chapterDirectory,workTitles)+' · 人文';
+    const metadata=index.catalog_metadata || {};
+    const composition=metadata.composition || {};
+    const witness=metadata.catalog_witness || {};
+    const textReference=metadata.text_reference || {};
+    const evidence=composition.evidence || {};
+    const sourceUrl=selected.catalog_source_url || metadata.source?.url;
+    const sourceLink=sourceUrl?external(sourceUrl,'Navigation directory source'):'';
+    const evidenceLink=evidence.url?external(evidence.url,'Read source passage →'):'';
+    const textReferenceLink=textReference.url?external(textReference.url,'Digital text reference'):'';
+    const textReferenceRightsLink=textReference.rights_url?external(textReference.rights_url,'Rights and use terms'):'';
+    $('corpus-content').innerHTML=`<div class="chapter-intro" data-chapter-placeholder="${h(selected.chapter_id)}"><p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(sourceCitation(selected,chapterDirectory,workTitles))}</h1><h2>${h(selected.title)}</h2><p class="corpus-note">${ui('Chapter title registered; source text has not been imported.')}</p><p>${h(selected.scope_note || index.policy || '')}</p>${sourceLink?'<footer class="corpus-note">'+sourceLink+' · '+h(selected.catalog_source_title || metadata.source?.title || '')+'</footer>':''}${composition.date || witness.description || textReference.url?'<details class="corpus-sources"><summary>'+ui('Source & edition')+'</summary>'+(composition.date?'<p>'+h(composition.date)+'</p><p>'+h(composition.qualification || '')+'</p><blockquote>'+h(evidence.quote || '')+'</blockquote>'+evidenceLink:'')+(witness.description?'<p>'+h(witness.title || '')+'：'+h(witness.description)+'</p><p>'+h(witness.edition_date || '')+'</p><p>'+h(witness.role || '')+'</p>':'')+(textReference.url?'<p>'+textReferenceLink+' · '+h(textReference.title || '')+'</p><p>'+h(textReference.edition || '')+'</p><p>'+h(textReference.qualification || '')+'</p><p>'+textReferenceRightsLink+'</p>':'')+'</details>':''}</div>`;
+    return;
   }
   if(selected.available==='table') {
     if(!/^[a-z][a-z0-9-]*-\d{3}[a-z]?$/.test(selected.table_id))throw Error(t('Table data could not be loaded.'));
