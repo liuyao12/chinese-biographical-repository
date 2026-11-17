@@ -32,6 +32,7 @@
   "record_type": "temporal_constraint_set",
   "work_id": "w-example",
   "book_id": "b-example-001",
+  "source_id": "s-example-001",
   "chapter_id": "c-example-001",
   "constraints": []
 }
@@ -48,6 +49,7 @@
   "bound": {
     "calendar": "chinese_civil",
     "year": 652,
+    "inclusive": true,
     "year_system": "astronomical",
     "precision": "year"
   },
@@ -60,6 +62,7 @@
     {
       "work_id": "w-example",
       "book_id": "b-example-001",
+      "source_id": "s-example-001",
       "chapter_id": "c-example-001",
       "paragraph_id": "c-example-001:p001",
       "quote": "來源原文引句",
@@ -98,9 +101,9 @@
 
 使用端可對同一目標事件、同一計時座標中相容的封閉區間求交。例如，若一來源給死亡年範圍 `[650, 655]`，另一來源證明人物至少活到第 3 年、正規化下界為 652，則：
 
-[
+\[
 D = [650, 655] \cap [652, +\infty) = [652, 655].
-]
+\]
 
 這是可計算的容許年範圍，不是單一年份估計。若交集為空，使用端應回報來源衝突並保留各來源約束，不得自動挑選一方。若兩項日期使用不同日曆或精度，必須先經有來源的明確轉換；不得直接比較。
 
