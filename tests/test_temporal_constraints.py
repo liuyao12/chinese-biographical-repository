@@ -26,7 +26,8 @@ class TemporalConstraintTests(unittest.TestCase):
              "operator": "after_event", "related_event_id": "death", "assertion_mode": "derived",
              "derivation": {"rule_id": "narrative_sequence_implies_event_order",
                             "ordering_basis": "narrative_sequence",
-                            "condition_status": "conditionally_accepted", "human_reviewed": True}},
+                            "condition_status": "conditionally_accepted", "review_status": "agent_reviewed"},
+             "human_reviewed": False},
         ]
         result = calculate_temporal_constraint_results(constraints)["death"]
         self.assertEqual(result["earliest"]["year"], 3)
@@ -56,11 +57,13 @@ class TemporalConstraintTests(unittest.TestCase):
              "operator": "after_event", "assertion_mode": "derived",
              "derivation": {"rule_id": "narrative_sequence_implies_event_order",
                             "ordering_basis": "narrative_sequence", "condition_status": "conditionally_accepted",
-                            "human_reviewed": False}},
+                            "review_status": "unreviewed"},
+             "human_reviewed": False},
             {"id": "missing-basis", "target_event_id": "later", "related_event_id": "earlier",
              "operator": "after_event", "assertion_mode": "derived",
              "derivation": {"rule_id": "narrative_sequence_implies_event_order",
-                            "condition_status": "conditionally_accepted", "human_reviewed": True}},
+                            "condition_status": "conditionally_accepted", "review_status": "agent_reviewed"},
+             "human_reviewed": False},
         ]
         result = calculate_temporal_constraint_results([later, *incomplete_relations])["earlier"]
         self.assertEqual(result["status"], "incomplete")
@@ -74,7 +77,8 @@ class TemporalConstraintTests(unittest.TestCase):
             {"id": "earlier-date", "target_event_id": "earlier", "operator": "not_before", "bound": date(2)},
             {"id": "sequence", "target_event_id": "later", "related_event_id": "earlier",
              "operator": "after_event", "derivation": {"rule_id": "narrative_sequence_implies_event_order",
-             "ordering_basis": "narrative_sequence", "condition_status": "conditionally_accepted"}},
+             "ordering_basis": "narrative_sequence", "condition_status": "conditionally_accepted",
+                            "review_status": "agent_reviewed"}, "human_reviewed": False},
         ]
         result = calculate_temporal_constraint_results(constraints)["earlier"]
         self.assertEqual(result["status"], "incomplete")
@@ -126,8 +130,8 @@ class TemporalConstraintTests(unittest.TestCase):
                 "operator": "after_event", "related_event_id": "death", "assertion_mode": "derived",
                 "derivation": {"rule_id": "narrative_sequence_implies_event_order",
                                "ordering_basis": "narrative_sequence", "condition_status": "conditionally_accepted",
-                               "human_reviewed": True},
-                "human_reviewed": True, "evidence": [citation],
+                               "review_status": "agent_reviewed"},
+                "human_reviewed": False, "evidence": [citation],
             }]},
         ]
         chapter = {"id": "chapter-185", "chapter_id": "chapter-185", "work_id": "work-old-tang", "book_id": "book-185", "source_id": "old-tang",
@@ -154,7 +158,7 @@ class TemporalConstraintTests(unittest.TestCase):
                 "id": "death-lower", "person_id": "princess", "target_event_id": "death",
                 "operator": "not_before", "bound": date(3), "assertion_mode": "derived",
                 "derivation": {"rule_id": "person_alive_at_event_implies_death_not_before", "input_event_id": "visit"},
-                "human_reviewed": True, "evidence": [citation],
+                "human_reviewed": False, "evidence": [citation],
             }]},
         ]
         chapter = {"id": "chapter-annals", "chapter_id": "chapter-annals", "work_id": "work-old-tang",
