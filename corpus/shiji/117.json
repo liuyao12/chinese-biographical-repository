@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "71段全文及38名歷史／傳說來源候選完成首輪具名與未定稱呼標註；全部身份、匿名者、代詞、版本及引文仍待覆核。 另將〈大人賦〉「西王母」依卷43、123同名來源暫接至同一傳說人物，保留所見、傳聞等敘事差別。 另依《漢書》卷57下如淳注將〈大人賦〉太一標為星神人物；卷12校讀異文仍未接合。靈圉、祝融保留未決，避免把靈類群稱或有異說的祝融名號造作單一人物。",
+    "coverage": "71段全文及38名歷史／傳說來源候選完成首輪具名與未定稱呼標註；全部身份、匿名者、代詞、版本及引文仍待覆核。 另將〈大人賦〉「西王母」依卷43、123同名來源暫接至同一傳說人物，保留所見、傳聞等敘事差別。 另依《漢書》卷57下如淳注將〈大人賦〉太一標為星神人物；卷12校讀異文仍未接合。靈圉、祝融保留未決，避免把靈類群稱或有異說的祝融名號造作單一人物。 第53段風伯依《漢書》張揖注辨為飛廉；雨師仍只據神職稱呼保留，玉女未有姓名，不造身份。",
     "limitations": [
       "未核影像，保留私用字缺字與數位重句。",
       "藺相如與司馬相如分人；慕其為人不是同一身分。",
@@ -3104,7 +3104,8 @@
           "surface": "真人",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "「真人」在「與真人乎相求」中為泛稱仙真，未指名特定人物，不另建個人ID。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0036",
@@ -3123,7 +3124,8 @@
           "surface": "眾神",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "「眾神」為集合稱呼，沒有逐一命名，不拆造個人。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0052",
@@ -3306,9 +3308,10 @@
           "start": 161,
           "end": 163,
           "surface": "風伯",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "zhi_m63_15i",
+          "status": "contextual_provisional",
+          "interpretation_note": "《漢書》卷五十七下張揖注稱「風伯字飛廉」，據此將本篇風伯辨作具名神話角色飛廉；不推為其他同名人物，也不把賦中誅風伯寫成實際事件。"
         },
         {
           "id": "c-shiji-117-xiangru:m053-0165",
@@ -3317,7 +3320,8 @@
           "surface": "雨師",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "「雨師」是神職／神格稱呼；本句及現存對讀古注未確定其本名。張揖注把飛廉釋為風伯，不能因此把雨師接成屏翳。"
         },
         {
           "id": "c-shiji-117-xiangru:m053-0196",
@@ -3326,7 +3330,8 @@
           "surface": "玉女",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "「玉女」為未具名稱呼；此段沒有足以連到特定人物的名字或系譜，不與秦本紀「姚姓之玉女」等同。"
         },
         {
           "id": "c-shiji-117-xiangru:m053-0233",
