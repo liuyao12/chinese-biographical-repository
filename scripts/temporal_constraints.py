@@ -401,9 +401,15 @@ def calculate_temporal_constraint_results(constraints):
     # The accepted graph is acyclic after cyclic edges are removed. Process
     # edges from later topological levels to earlier ones so every event's
     # outgoing upper bounds settle before those bounds are used upstream.
+    usable_adjacency = {}
+    for relation in usable_relations:
+        earlier = relation.get("related_event_id")
+        later = relation.get("target_event_id")
+        if isinstance(earlier, str) and isinstance(later, str):
+            usable_adjacency.setdefault(earlier, set()).add(later)
     nodes = set()
     indegree = {}
-    for earlier, later_nodes in adjacency.items():
+    for earlier, later_nodes in usable_adjacency.items():
         nodes.add(earlier)
         nodes.update(later_nodes)
         for later in later_nodes:
@@ -412,7 +418,7 @@ def calculate_temporal_constraint_results(constraints):
     pending_nodes = sorted(node for node in nodes if indegree.get(node, 0) == 0)
     while pending_nodes:
         current = pending_nodes.pop(0)
-        for later in sorted(adjacency.get(current, ())):
+        for later in sorted(usable_adjacency.get(current, ())):
             levels[later] = max(levels[later], levels[current] + 1)
             indegree[later] -= 1
             if indegree[later] == 0:
