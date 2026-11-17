@@ -244,7 +244,7 @@ def errors(records, chapters, person_ids):
 
 
 def intersect_year_constraints(constraints):
-    """Intersect year-only absolute bounds with identical calendar coordinates.
+    """Intersect year-only bounds that share one calendar and year-system coordinate.
 
     Returns bound years and contributing constraint IDs; an empty intersection is
     preserved as conflict=True rather than silently choosing a source.
