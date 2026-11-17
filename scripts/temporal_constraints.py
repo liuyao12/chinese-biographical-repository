@@ -42,6 +42,22 @@ def _coordinate(value):
     return tuple(value.get(k) for k in ("calendar", "year_system", "precision", "era_id"))
 
 
+def _quote_contains_mention(paragraph, quote, mention_id, person_id):
+    text = paragraph.get("text", "")
+    if not isinstance(text, str) or not isinstance(quote, str):
+        return False
+    mention = next((m for m in paragraph.get("mentions", [])
+                   if isinstance(m, dict) and m.get("id") == mention_id), None)
+    if mention is None or mention.get("person_id") != person_id:
+        return False
+    start, end, surface = mention.get("start"), mention.get("end"), mention.get("surface")
+    if (type(start) is not int or type(end) is not int or not isinstance(surface, str)
+            or not 0 <= start < end <= len(text) or text[start:end] != surface):
+        return False
+    return any(i <= start and end <= i + len(quote)
+               for i in range(len(text)) if text.startswith(quote, i))
+
+
 def errors(records, chapters, person_ids):
     """Validate every temporal constraint against event, person, passage and mention records."""
     errors = []
@@ -50,7 +66,9 @@ def errors(records, chapters, person_ids):
     for record in records:
         if record.get("record_type") in ("person_life_event_assertion_set", "table_person_life_event_assertion_set", "person_event_assertion_set"):
             for event in record.get("events", []):
-                events[event.get("id")] = event
+                event_id = event.get("id")
+                if isinstance(event_id, str) and event_id:
+                    events[event_id] = event
     seen = set()
     paragraph_index = {
         paragraph.get("id"): (chapter, paragraph)
@@ -60,7 +78,8 @@ def errors(records, chapters, person_ids):
     for record in records:
         if record.get("record_type") != "temporal_constraint_set":
             continue
-        root_chapter = chapters.get(record.get("chapter_id"))
+        root_chapter_id = record.get("chapter_id")
+        root_chapter = chapters.get(root_chapter_id) if isinstance(root_chapter_id, str) else None
         if (record.get("format_version") != "0.1" or not isinstance(root_chapter, dict)
                 or any(record.get(k) != root_chapter.get(k) for k in ("work_id", "book_id", "source_id"))):
             errors.append("日期約束集著作、卷、來源或篇章 ID 不符")
@@ -78,10 +97,10 @@ def errors(records, chapters, person_ids):
             else:
                 seen.add(cid)
             person_id = item.get("person_id")
-            if person_id not in pids:
+            if not isinstance(person_id, str) or person_id not in pids:
                 errors.append(f"日期約束人物 ID 不存在：{cid}")
             target_id = item.get("target_event_id")
-            target = events.get(target_id)
+            target = events.get(target_id) if isinstance(target_id, str) else None
             if target is None or target.get("person_id") != person_id:
                 errors.append(f"日期約束目標事件不存在或人物不符：{cid}")
             operator = item.get("operator")
@@ -94,6 +113,7 @@ def errors(records, chapters, person_ids):
             if mode == "derived":
                 if (not isinstance(derivation, dict)
                         or derivation.get("rule_id") not in _RULES
+                        or not isinstance(derivation.get("input_event_id"), str)
                         or derivation.get("input_event_id") not in events):
                     errors.append(f"衍生日期約束須引用已登記規則及輸入事件：{cid}")
                 elif events[derivation["input_event_id"]].get("person_id") != person_id:
@@ -125,7 +145,7 @@ def errors(records, chapters, person_ids):
                         errors.append(f"區間約束同年端點形成空集：{cid}")
             elif operator in ("after_event", "not_before_event"):
                 related_id = item.get("related_event_id")
-                if related_id not in events or any(k in item for k in ("bound", "interval")):
+                if not isinstance(related_id, str) or related_id not in events or any(k in item for k in ("bound", "interval")):
                     errors.append(f"相對事件約束缺少有效 related_event_id 或含有多餘界限：{cid}")
             if type(item.get("human_reviewed")) is not bool:
                 errors.append(f"日期約束 human_reviewed 須為布林值：{cid}")
@@ -150,11 +170,7 @@ def errors(records, chapters, person_ids):
                 if not isinstance(quote, str) or not quote or quote not in paragraph.get("text", ""):
                     errors.append(f"日期約束引文不在原段中：{cid}")
                     continue
-                mention = next((m for m in paragraph.get("mentions", []) if m.get("id") == mention_id), None)
-                if (mention is None or mention.get("person_id") != person_id
-                        or not any(i <= mention.get("start", -1) and mention.get("end", 0) <= i + len(quote)
-                                   for i in range(len(paragraph.get("text", "")))
-                                   if paragraph["text"].startswith(quote, i))):
+                if not _quote_contains_mention(paragraph, quote, mention_id, person_id):
                     errors.append(f"日期約束人物錨點不在引文內：{cid}")
     return errors
 
