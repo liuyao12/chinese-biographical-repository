@@ -471,6 +471,35 @@
       "transcription_revision": "cbr-ai-transcription-sha256:8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
       "transcription_sha256": "8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
       "qualification": "raw SHA為AI逐列轉錄文本，不是PDF SHA。PDF SHA1只平台報告；一〓未定與二印缺分開，75異體queue非全字已校。圖像/PDF不host。"
+    },
+    "ref-jiutangshu-composition-zeng2005": {
+      "title": "歷史圖像與文學評價的疊合——兩《唐書》文學類傳「時變」思想的落差",
+      "author": "曾守正",
+      "publication": "《政大中文學報》第4期（2005年12月），頁29–58",
+      "url": "https://bdcl.nccu.edu.tw/uploads/chapter_file/file/649ad950367376274f2e3c32/2%E6%AD%B7%E5%8F%B2%E5%9C%96%E5%83%8F%E8%88%87%E6%96%87%E5%AD%B8%E8%A9%95%E5%83%B9%E7%9A%84%E7%96%8A%E5%90%88_%E5%85%A9_%E5%94%90%E6%9B%B8_%E6%96%87%E5%AD%B8%E9%A1%9E%E5%82%B3_%E6%99%82%E8%AE%8A_%E6%80%9D%E6%83%B3%E7%9A%84%E8%90%BD%E5%B7%AE.pdf",
+      "access_scope": "實讀PDF第31頁註2；只採編纂起始與奏上年份，不採作者名單作精確分工。",
+      "human_reviewed": false,
+      "quote": "《舊唐書》自後晉高祖天福六年（941年）二月開始編纂，至少帝開運二年（945）六月由劉昫和郭崇遠奏上。",
+      "evidence_kind": "modern_scholarly_reference"
+    },
+    "ref-jiutangshu-edition-zhaohuifen2006": {
+      "title": "略論《舊唐書》版本於各代的刊刻狀況",
+      "author": "趙惠芬",
+      "publication": "《東海大學圖書館館訊》新59期（2006年8月），頁24–33",
+      "url": "https://dcollection.lib.thu.edu.tw/wp-content/uploads/2024/12/59%E6%9C%9F24-33.pdf",
+      "access_scope": "實讀PDF第25–29頁及註7–11；核南宋紹興越州殘本、現存卷目、嘉靖聞人詮本與清武英殿刊本說明；未讀原刻書影。",
+      "human_reviewed": false,
+      "quote": "南宋紹興年間，兩浙東路茶鹽司會有刻本……然諸家所見之書亦皆為殘本。",
+      "evidence_kind": "modern_scholarly_edition_study"
+    },
+    "ref-jiutangshu-ncl-catalog-01535": {
+      "title": "古籍與特藏文獻資源：舊唐書（登錄號01535）",
+      "author": "國立國家圖書館",
+      "url": "https://rbook.ncl.edu.tw/NCLSearch/Search/SearchDetail?HasImage=&SourceID=1&item=6c737691391c4094ad768a584fe577bdfDQxMzcx0.UV0gqgeGfL6Vuu67QQDa64wZPQ7B8EnMDB_EB4fNkDs_&page=&sourceWhereString=&whereString=IChEYXRlX0NyZWF0ZWQgbGlrZSAnJTE1MzglJyBvciBEb2N1bWVudF9ZZWFyIGxpa2UgJyUxNTM4JScgKSA1.6NuQlhMdiIbdcjgkAFgGdmSdJAqptnh7jMTFEqb23E0_",
+      "access_scope": "實讀國家圖書館目錄欄位：題名、作者、版本、刊年、卷數與登錄號；未讀書影。",
+      "human_reviewed": false,
+      "quote": "版本 明嘉靖十七年聞人詮吳郡刊本；卷數 二百卷；出版年(西曆)1538。",
+      "evidence_kind": "national_library_catalog"
     }
   },
   "editions": {
@@ -708,6 +737,39 @@
         "ref-songshu044-wyd1739-received-ai-transcription"
       ],
       "qualification": "刊年依Commons著錄及所見卷首校刊字；本項只記卷44所見，不稱100卷已讀或全球最早。實際資料層為AI轉錄，不等原PDF二進位取得。",
+      "image_verified": false
+    },
+    "edition-jiutangshu-song-shaoxing-fragment": {
+      "id": "edition-jiutangshu-song-shaoxing-fragment",
+      "work_id": "w-jiutangshu",
+      "label": "南宋紹興兩浙東路茶鹽司《唐書》刊本殘本",
+      "extent": "fragment",
+      "date": null,
+      "period_label": "南宋紹興年間；刊刻確年未明",
+      "reference_ids": [
+        "ref-jiutangshu-edition-zhaohuifen2006"
+      ],
+      "qualification": "現存殘卷；趙惠芬所引館藏目錄列69卷，另注說明67卷及兩個子卷的計數口徑。其現存卷目不含卷四，不能當作本次卷四摘錄的底本。未核原書影。",
+      "image_verified": false
+    },
+    "edition-jiutangshu-wenrenquan-1538": {
+      "id": "edition-jiutangshu-wenrenquan-1538",
+      "work_id": "w-jiutangshu",
+      "label": "明嘉靖十七年聞人詮吳郡刊《舊唐書》二百卷本",
+      "extent": "complete",
+      "date": {
+        "calendar": "common_era_year",
+        "year_numbering": "historical_no_year_zero",
+        "start_year": 1538,
+        "end_year": 1538,
+        "precision": "year"
+      },
+      "period_label": "明嘉靖十七年",
+      "reference_ids": [
+        "ref-jiutangshu-edition-zhaohuifen2006",
+        "ref-jiutangshu-ncl-catalog-01535"
+      ],
+      "qualification": "現存完整本；據趙惠芬版本研究及國家圖書館實際館藏目錄。未讀該館藏書影。",
       "image_verified": false
     }
   },
@@ -203384,14 +203446,67 @@
     "w-jiutangshu": {
       "work_id": "w-jiutangshu",
       "title": "舊唐書",
-      "transmission": "not_researched",
+      "transmission": "received",
       "composition": {
-        "status": "not_researched",
-        "assertions": []
+        "status": "reported",
+        "assertions": [
+          {
+            "layer": "compilation",
+            "event_kind": "compilation",
+            "date": {
+              "calendar": "common_era_year",
+              "year_numbering": "historical_no_year_zero",
+              "start_year": 941,
+              "end_year": 941,
+              "precision": "year"
+            },
+            "approximate": false,
+            "source_expression": "天福六年（941）二月開始編纂",
+            "qualification": "現代學術論文報告編纂起始時間；不把此年視為成書年。",
+            "reference_ids": [
+              "ref-jiutangshu-composition-zeng2005"
+            ]
+          },
+          {
+            "layer": "completion",
+            "event_kind": "completion",
+            "date": {
+              "calendar": "common_era_year",
+              "year_numbering": "historical_no_year_zero",
+              "start_year": 945,
+              "end_year": 945,
+              "precision": "year"
+            },
+            "approximate": false,
+            "source_expression": "開運二年（945）六月由劉昫和郭崇遠奏上",
+            "qualification": "論文報告進呈時間；此處僅記書上呈，不推同月即已刊刻或全書唯一完成時間。",
+            "reference_ids": [
+              "ref-jiutangshu-composition-zeng2005"
+            ]
+          }
+        ]
       },
       "earliest_extant_edition": {
-        "status": "not_researched",
-        "assertions": []
+        "status": "reported",
+        "assertions": [
+          {
+            "edition_id": "edition-jiutangshu-song-shaoxing-fragment",
+            "scope": "fragment",
+            "qualification": "版本研究報告南宋紹興兩浙東路茶鹽司本殘卷；目前可據的館藏卷目不含卷四，故不視作本章的直接文本底本。",
+            "reference_ids": [
+              "ref-jiutangshu-edition-zhaohuifen2006"
+            ]
+          },
+          {
+            "edition_id": "edition-jiutangshu-wenrenquan-1538",
+            "scope": "complete",
+            "qualification": "現存最早完整二百卷本的刊刻版本；部分卷頁存在後續修版／補版差異，本條只作版本層級描述。",
+            "reference_ids": [
+              "ref-jiutangshu-edition-zhaohuifen2006",
+              "ref-jiutangshu-ncl-catalog-01535"
+            ]
+          }
+        ]
       },
       "burial": {
         "status": "not_researched",
@@ -205836,6 +205951,24 @@
       "transcription_raw_sha256": "8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
       "note": "實際所據為此印本書影的AI轉錄；hash固定的是轉錄文本，非原PDF。未圖像人工校定，一疑二缺及75queue資格照source保留。不是作品成書/最早存世見證。",
       "human_reviewed": false
+    },
+    "s-jiutangshu-004-gaozong-ws11616345": {
+      "source_id": "s-jiutangshu-004-gaozong-ws11616345",
+      "work_id": "w-jiutangshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "本章為固定數位轉錄見證；未核其實際所據古本。作品級最早存本不等於本站此段轉錄的底本；本見證另列武英殿本參考目標，待逐字校核。"
+    },
+    "s-xintangshu-083-princesses-ws2432856": {
+      "source_id": "s-xintangshu-083-princesses-ws2432856",
+      "work_id": "w-xintangshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "本章為固定數位轉錄見證；未核其實際所據古本。作品級最早存本不等於本站此段轉錄的底本；本見證另列武英殿本參考目標，待逐字校核。"
     }
   }
 }

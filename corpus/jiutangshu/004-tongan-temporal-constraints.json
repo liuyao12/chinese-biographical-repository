@@ -1,0 +1,56 @@
+{
+  "format_version": "0.1",
+  "record_type": "temporal_constraint_set",
+  "work_id": "w-jiutangshu",
+  "book_id": "b-jiutangshu-004",
+  "source_id": "s-jiutangshu-004-gaozong-ws11616345",
+  "chapter_id": "c-jiutangshu-004-gaozong-tongan-visit",
+  "constraints": [
+    {
+      "id": "tc-jiutangshu004-tongan-death-not-before-yonghui3",
+      "person_id": "x8h_3dr_ki5",
+      "target_event_id": "ple-xintangshu083-tongan-death",
+      "operator": "not_before",
+      "bound": {
+        "calendar": "chinese_civil",
+        "year_system": "regnal",
+        "era_id": "era-tang-gaozong-yonghui",
+        "precision": "year",
+        "year": 3,
+        "inclusive": true
+      },
+      "assertion_mode": "derived",
+      "derivation": {
+        "rule_id": "person_alive_at_event_implies_death_not_before",
+        "input_event_id": "pe-jiutangshu004-tongan-visit-yonghui3"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jiutangshu",
+          "book_id": "b-jiutangshu-004",
+          "source_id": "s-jiutangshu-004-gaozong-ws11616345",
+          "chapter_id": "c-jiutangshu-004-gaozong-tongan-visit",
+          "paragraph_id": "c-jiutangshu-004-gaozong-tongan-visit:p001",
+          "quote": "永徽三年\n冬十月戊戌，幸同安大長公主第，又幸高陽長公主第，即日還宮。",
+          "quote_start": 0,
+          "quote_end": 34,
+          "person_mention_id": "c-jiutangshu-004-gaozong-tongan-visit:m0001",
+          "temporal_claim": {
+            "source_term": "永徽三年",
+            "start": 0,
+            "end": 4,
+            "normalized_date": {
+              "calendar": "chinese_civil",
+              "year_system": "regnal",
+              "era_id": "era-tang-gaozong-yonghui",
+              "precision": "year",
+              "year": 3,
+              "inclusive": true
+            }
+          }
+        }
+      ],
+      "human_reviewed": false
+    }
+  ]
+}
