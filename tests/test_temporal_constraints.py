@@ -48,6 +48,24 @@ class TemporalConstraintTests(unittest.TestCase):
         self.assertEqual(result["status"], "incomplete")
         self.assertIn("unaccepted-order", result["unsupported_constraint_ids"])
 
+    def test_unreviewed_or_unlabeled_sequence_is_incomplete_even_without_validator(self):
+        later = {"id": "later-date", "target_event_id": "later", "operator": "within_interval",
+                 "interval": {"earliest": date(1), "latest": date(6)}}
+        incomplete_relations = [
+            {"id": "unreviewed", "target_event_id": "later", "related_event_id": "earlier",
+             "operator": "after_event", "assertion_mode": "derived",
+             "derivation": {"rule_id": "narrative_sequence_implies_event_order",
+                            "ordering_basis": "narrative_sequence", "condition_status": "conditionally_accepted",
+                            "human_reviewed": False}},
+            {"id": "missing-basis", "target_event_id": "later", "related_event_id": "earlier",
+             "operator": "after_event", "assertion_mode": "derived",
+             "derivation": {"rule_id": "narrative_sequence_implies_event_order",
+                            "condition_status": "conditionally_accepted", "human_reviewed": True}},
+        ]
+        result = calculate_temporal_constraint_results([later, *incomplete_relations])["earlier"]
+        self.assertEqual(result["status"], "incomplete")
+        self.assertEqual(set(result["unsupported_constraint_ids"]), {"unreviewed", "missing-basis"})
+
     def test_incompatible_calendar_relation_stays_incomplete(self):
         later_date = date(6)
         later_date["calendar"] = "other_calendar"
