@@ -345,17 +345,32 @@ def calculate_temporal_constraint_results(constraints):
         for event_id in (relation.get("target_event_id"), relation.get("related_event_id")):
             if isinstance(event_id, str):
                 unsupported.setdefault(event_id, []).append(relation_id)
-    # Mark every order edge participating in a directed cycle as unsupported.
-    # A cycle is contradictory even when year precision alone cannot expose it.
-    adjacency = {}
+    # Only explicitly accepted and honestly labeled order edges contribute
+    # to cycle detection; rejected suggestions must not poison accepted data.
+    candidate_relations = []
     for relation in event_relations:
+        earlier_id = relation.get("related_event_id")
+        relation_derivation = relation.get("derivation", {})
+        condition = relation_derivation.get("condition_status")
+        relation_id = relation.get("id")
+        if (relation.get("assertion_mode") != "derived"
+                or relation_derivation.get("ordering_basis") != "narrative_sequence"
+                or relation_derivation.get("review_status") not in ("agent_reviewed", "human_reviewed")
+                or relation.get("human_reviewed") is not (relation_derivation.get("review_status") == "human_reviewed")
+                or condition != "conditionally_accepted"):
+            unsupported.setdefault(earlier_id, []).append(relation_id)
+            continue
+        candidate_relations.append(relation)
+
+    adjacency = {}
+    for relation in candidate_relations:
         earlier = relation.get("related_event_id")
         later = relation.get("target_event_id")
         if isinstance(earlier, str) and isinstance(later, str):
             adjacency.setdefault(earlier, set()).add(later)
 
     cyclic_relation_ids = set()
-    for relation in event_relations:
+    for relation in candidate_relations:
         earlier = relation.get("related_event_id")
         later = relation.get("target_event_id")
         if not isinstance(earlier, str) or not isinstance(later, str):
@@ -373,22 +388,13 @@ def calculate_temporal_constraint_results(constraints):
             pending.extend(adjacency.get(current, ()))
 
     usable_relations = []
-    for relation in event_relations:
+    for relation in candidate_relations:
         earlier_id = relation.get("related_event_id")
         later_id = relation.get("target_event_id")
-        relation_derivation = relation.get("derivation", {})
-        condition = relation_derivation.get("condition_status")
         relation_id = relation.get("id")
         if relation_id in cyclic_relation_ids:
             unsupported.setdefault(earlier_id, []).append(relation_id)
             unsupported.setdefault(later_id, []).append(relation_id)
-            continue
-        if (relation.get("assertion_mode") != "derived"
-                or relation_derivation.get("ordering_basis") != "narrative_sequence"
-                or relation_derivation.get("review_status") not in ("agent_reviewed", "human_reviewed")
-                or relation.get("human_reviewed") is not (relation_derivation.get("review_status") == "human_reviewed")
-                or condition != "conditionally_accepted"):
-            unsupported.setdefault(earlier_id, []).append(relation_id)
             continue
         usable_relations.append(relation)
 
