@@ -471,6 +471,25 @@
       "transcription_revision": "cbr-ai-transcription-sha256:8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
       "transcription_sha256": "8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
       "qualification": "raw SHA為AI逐列轉錄文本，不是PDF SHA。PDF SHA1只平台報告；一〓未定與二印缺分開，75異體queue非全字已校。圖像/PDF不host。"
+    },
+    "r-yuanzhan-teldap": {
+      "title": "東魏元湛墓誌銘拓本（國立歷史博物館89-00208）",
+      "url": "https://content.teldap.tw/main/dc_detail.php?dc_id=2389779",
+      "access_scope": "實取完整HTTP11762 bytes，strict Big5解碼；完整描述欄銘刻內容1474字，未核原拓影像。",
+      "human_reviewed": false,
+      "response_sha256": "8564e672458672cf7581904ea73160d020af4411dcf303cadc647ecc24fdfb6c"
+    },
+    "r-yuanzhan-tcmb": {
+      "title": "東魏元湛墓誌銘拓本｜國家文化記憶庫",
+      "url": "https://tcmb.culture.tw/zh-tw/detail?id=14000104358&indexCode=MOCCOLLECTIONS",
+      "access_scope": "實取完整HTTP，核館藏號、現代描述、日期清、授權文字及兩影像URL；影像與原館藏頁未核，清限拓本載體。",
+      "human_reviewed": false
+    },
+    "r-yuanzhan-moe-year": {
+      "title": "教育部中國歷代年號表武定條",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=3",
+      "access_scope": "實取頁HTTP，實讀頁首表說與東魏武定完整行543–550；只換算年，不換西曆月日。",
+      "human_reviewed": false
     }
   },
   "editions": {
@@ -709,6 +728,19 @@
       ],
       "qualification": "刊年依Commons著錄及所見卷首校刊字；本項只記卷44所見，不稱100卷已讀或全球最早。實際資料層為AI轉錄，不等原PDF二進位取得。",
       "image_verified": false
+    },
+    "e-yuanzhan-nmh-qing-rubbing": {
+      "id": "e-yuanzhan-nmh-qing-rubbing",
+      "work_id": "w-epitaph-yuanzhan",
+      "title": "國立歷史博物館89-00208清代原拓",
+      "extent": "not_established",
+      "date": null,
+      "period_label": "清",
+      "reference_ids": [
+        "r-yuanzhan-tcmb",
+        "r-yuanzhan-teldap"
+      ],
+      "qualification": "館藏拓本載體年代；未核影像，不稱原石刻造期或全球最早本。"
     }
   },
   "works": {
@@ -203556,6 +203588,60 @@
         "assertions": []
       },
       "human_reviewed": false
+    },
+    "w-epitaph-yuanzhan": {
+      "work_id": "w-epitaph-yuanzhan",
+      "title": "元湛墓誌",
+      "transmission": "excavated",
+      "composition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "撰刻日期未給，不以544卒葬或清拓本日期代填。"
+      },
+      "earliest_extant_edition": {
+        "status": "reported",
+        "assertions": [
+          {
+            "edition_id": "e-yuanzhan-nmh-qing-rubbing",
+            "scope": "known_witness_only",
+            "date": null,
+            "reference_ids": [
+              "r-yuanzhan-tcmb",
+              "r-yuanzhan-teldap"
+            ],
+            "qualification": "僅實際機構所記已知清拓見證，不主張最早存本；數位錄文自身無固定修訂。"
+          }
+        ]
+      },
+      "burial": {
+        "status": "reported",
+        "assertions": [
+          {
+            "date": {
+              "calendar": "chinese_civil",
+              "year_numbering": "historical_no_year_zero",
+              "start_year": 544,
+              "end_year": 544,
+              "precision": "month",
+              "month": 8,
+              "day": null
+            },
+            "source_expression": "粵以其年八月庚申葬於武城之北原",
+            "day_ganzhi": "庚申",
+            "reference_ids": [
+              "r-yuanzhan-teldap",
+              "r-yuanzhan-moe-year"
+            ],
+            "qualification": "其年承本銘武定二年，年值544；中國曆八月庚申保原詞，不換公曆月日或補日序。"
+          }
+        ]
+      },
+      "excavation": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "機構頁未給出土/發掘日期及地點；原始館藏連結HTTP逾時，未冒已讀。"
+      },
+      "human_reviewed": false
     }
   },
   "text_bases": {
@@ -205836,6 +205922,18 @@
       "transcription_raw_sha256": "8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
       "note": "實際所據為此印本書影的AI轉錄；hash固定的是轉錄文本，非原PDF。未圖像人工校定，一疑二缺及75queue資格照source保留。不是作品成書/最早存世見證。",
       "human_reviewed": false
+    },
+    "s-epitaph-yuanzhan-nmh-8900208": {
+      "source_id": "s-epitaph-yuanzhan-nmh-8900208",
+      "work_id": "w-epitaph-yuanzhan",
+      "status": "documented",
+      "edition_id": "e-yuanzhan-nmh-qing-rubbing",
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "r-yuanzhan-teldap",
+        "r-yuanzhan-tcmb"
+      ],
+      "note": "機構明載本件89-00208原拓，全文是該館藏描述欄錄文；只知清拓載體，不知該錄文逐字所據哪一圖/原拓製作者。無固定修訂，真HTTP SHA與轉錄SHA另存。"
     }
   }
 }

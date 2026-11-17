@@ -1,0 +1,68 @@
+{
+  "status": "root_primary_research_not_native_adopted",
+  "source_commit": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+  "units": [
+    {
+      "raw_file": "KR2a0009_074.txt",
+      "path": "KR2a0009_074-complete-selected-unit.txt",
+      "first_line": 176,
+      "last_line": 299,
+      "raw_start": 4858,
+      "raw_end": 8765,
+      "unit_sha256": "53a4ca88574cab5fc0b984ad5e84b7c59fc92f80eb07eff0c76c828f3b5e2ab0",
+      "scope": "胡廣完整本傳，至卷末合論前",
+      "root_read_complete": true,
+      "image_verified": false
+    },
+    {
+      "raw_file": "KR2a0009_050.txt",
+      "path": "KR2a0009_050-complete-selected-unit.txt",
+      "first_line": 141,
+      "last_line": 298,
+      "raw_start": 3652,
+      "raw_end": 7871,
+      "unit_sha256": "8c3d8ba074fd6773122a9b3aaed23db79366ec7153a5998080f38b50f2b8bb85",
+      "scope": "祭遵及從弟彤完整本傳，至史論前",
+      "root_read_complete": true,
+      "image_verified": false
+    }
+  ],
+  "witness_volume_mapping": {
+    "warning": "此四庫130卷編次將志置本紀後；不得按維基文庫通行卷次直組Kanripo檔名，亦不得以此兩例全書一律加30",
+    "toc_file": "KR2a0009_000.txt",
+    "jizun": {
+      "witness_volume": 50,
+      "biography_number": 10,
+      "other_digital_edition_volume": 20
+    },
+    "huguang": {
+      "witness_volume": 74,
+      "biography_number": 34,
+      "other_digital_edition_volume": 44
+    }
+  },
+  "decisions": [
+    {
+      "surface": "伯始",
+      "preferred_name": "胡廣",
+      "existing_candidate_id": "40b_0d5_c51",
+      "basis": "原文胡廣字伯始；本傳性溫柔謹素與天下中庸有胡公，對應碑其猶伯始溫柔及天下中庸",
+      "status": "contextual_provisional",
+      "human_reviewed": false
+    },
+    {
+      "surface": "征虜",
+      "preferred_name": "祭遵",
+      "existing_candidate_id": null,
+      "basis": "建武二年拜征虜將軍；死後光武每歎安得憂國奉公之臣如祭征虜者乎，對應碑安得征虜實痛良臣",
+      "status": "contextual_provisional",
+      "human_reviewed": false
+    }
+  ],
+  "limitations": [
+    "尚未更新碑標記或發新ID",
+    "華歆/郭嘉另核完整來源與現役端點後再接",
+    "ctext祭遵頁本輪403，未繞過存取限制，未稱其正文已讀",
+    "原彤字保留，不將其換肜；未把附傳人物當祭遵子，無子與從弟原詞各有界"
+  ]
+}

@@ -2,6 +2,10 @@
 
 
 def maternal_role_valid(assertion, paragraphs):
+    if isinstance(assertion,dict) and assertion.get('institution_epitaph_binding',{}).get('kind')=='fixed_institutional_html_epitaph':
+        try:from scripts.institutional_html_epitaph import relation_valid
+        except ImportError:from institutional_html_epitaph import relation_valid
+        return relation_valid(assertion,paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('continued_biography_'):
         try:
             from scripts.continued_biography_family import valid as continued_valid
