@@ -18,7 +18,7 @@ export function profileReturnLink(person, context) {
     if (shijiOccurrence && chapter > 0) {
       const passage = context.get('passage');
       const prefix = 'c-shiji-' + String(chapter).padStart(3, '0') + '-';
-      const validPassage = passage?.startsWith(prefix) && /^[a-z0-9-]+:p\\d{3}$/.test(passage.slice(prefix.length));
+      const validPassage = passage?.startsWith(prefix) && /^[a-z0-9-]+:p[0-9]{3}$/.test(passage.slice(prefix.length));
       return {
         href:chapterURL(chapter, shijiOccurrence.category, validPassage ? passage : shijiOccurrence.paragraph_id),
         text:'回到' + sourceCitation({...shijiOccurrence, work_id:'w-shiji', work_title:'史記'},
