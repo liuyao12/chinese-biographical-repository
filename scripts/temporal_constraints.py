@@ -263,14 +263,27 @@ def errors(records, chapters, person_ids):
                 chapter, paragraph = hit
                 if any(citation.get(k) != chapter.get(k) for k in ("work_id", "book_id", "source_id", "chapter_id")):
                     errors.append(f"日期約束引文來源座標不符：{cid}")
-                if not isinstance(quote, str) or not quote or quote not in paragraph.get("text", ""):
-                    errors.append(f"日期約束引文不在原段中：{cid}")
+                paragraph_text = paragraph.get("text")
+                quote_start, quote_end = citation.get("quote_start"), citation.get("quote_end")
+                if (not isinstance(quote, str) or not quote or not isinstance(paragraph_text, str)
+                        or quote not in paragraph_text
+                        or type(quote_start) is not int or type(quote_end) is not int
+                        or not 0 <= quote_start < quote_end <= len(paragraph_text)
+                        or paragraph_text[quote_start:quote_end] != quote):
+                    errors.append(f"日期約束引文不在原段中或未以字元位置精確錨定：{cid}")
                     continue
                 if not _quote_contains_mention(paragraph, quote, mention_id, person_id):
                     errors.append(f"日期約束人物錨點不在引文內：{cid}")
                 errors.extend(f"{message}：{cid}" for message in _temporal_claim_errors(citation, item))
                 if mode == "derived" and isinstance(derivation, dict):
                     if derivation.get("rule_id") == "narrative_sequence_implies_event_order":
+                        related_event = events.get(item.get("related_event_id"))
+                        related_person_id = related_event.get("person_id") if isinstance(related_event, dict) else None
+                        if (isinstance(related_person_id, str) and related_person_id != person_id
+                                and not _quote_contains_mention(
+                                    paragraph, quote, citation.get("related_person_mention_id"), related_person_id
+                                )):
+                            errors.append(f"跨人物事件次序引文須錨定兩位人物：{cid}")
                         continue
                     input_event = events.get(derivation.get("input_event_id"))
                     temporal_claim = citation.get("temporal_claim", {})
