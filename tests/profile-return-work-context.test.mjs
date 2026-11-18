@@ -32,6 +32,12 @@ test('explicit Shiji context still routes to its Shiji chapter', () => {
   assert.equal(params.get('passage'),'c-shiji-004-some:p001');
 });
 
+test('empty source context returns to the CBR directory despite other occurrences', () => {
+  assert.deepEqual(profileReturnLink(person,new URLSearchParams()),{
+    href:'cbr.html',text:'返回 CBR 人物目錄 →'
+  });
+});
+
 test('no valid source context returns to the CBR person directory', () => {
   assert.deepEqual(profileReturnLink(person,new URLSearchParams({work:'w-weishu',chapter:'12'})),{
     href:'cbr.html',text:'返回 CBR 人物目錄 →'
