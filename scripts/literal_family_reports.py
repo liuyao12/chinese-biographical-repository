@@ -74,6 +74,25 @@ def kinship_valid(a,paragraphs,chapters,root):
  except(KeyError,ValueError,TypeError,StopIteration,AssertionError,OSError,IndexError):return False
 
 def count_valid(report,paragraphs,chapters,root,parse):
+ if report.get('literal_source_binding',{}).get('kind')=='position_bound_named_child_count':
+  try:
+   e,=report['evidence'];b=report['literal_source_binding'];cid,p=paragraphs[e['paragraph_id']];ch=chapters[cid];t=p['text'];c=b['clause_anchor'];a=report['count_anchor'];n=report['source_number'];ms={m['id']:m for m in p['mentions']};r={k:ms[mid]for k,mid in b['roles'].items()};parent=r['parent'];children=[r[k]for k in ('named_child_1','named_child_2')]
+   return (b['kind']=='position_bound_named_child_count'and b['rule']=='parent_has_total_sons_then_named_subset_and_evaluation'
+    and set(b)=={'kind','rule','roles','clause_anchor','paragraph_sha256','source_revision','source_layer'}
+    and set(r)=={'parent','named_child_1','named_child_2'}and anchor(p,a)and anchor(p,c)
+    and b['paragraph_sha256']==hashlib.sha256(t.encode()).hexdigest()and b['source_revision']==ch['source']['revision_id']
+    and b['source_layer']==p['source_position']['source_layer']
+    and e=={**{k:ch[k]for k in('work_id','book_id','source_id')},'chapter_id':cid,'paragraph_id':p['id'],'quote':t,'person_mention_id':parent['id']}
+    and c['surface']=='有'+n+'子'+''.join(x['surface']for x in children)+'最賢'
+    and a['surface']=='有'+n+'子'and a['start']==c['start']and a['end']==children[0]['start']
+    and children[0]['end']==children[1]['start']and children[1]['end']<c['end']
+    and report['parent_person_id']==parent['person_id']and report['count_scope']=='sons_of_parent'
+    and report['source_term']==a['surface']and type(report['reported_count'])is int and report['reported_count']>0
+    and parse(n)==report['reported_count']and report['named_member_person_ids']==[x['person_id']for x in children]
+    and report['enumerated_named_count']==len(children)and report['unidentified_count']==report['reported_count']-len(children)
+    and report['complete_named_list']is False and report['status']=='source_attested'and report['human_reviewed']is False
+    and e['person_mention_id']==parent['id'] and len({x['person_id']for x in [parent,*children]})==3)
+  except(KeyError,ValueError,TypeError,StopIteration,AssertionError,OSError,IndexError):return False
  if 'received_unit_count_binding' in report:
   try:from scripts.fixed_wikisource_units import unit_son_count_valid
   except ImportError:from fixed_wikisource_units import unit_son_count_valid
