@@ -27,6 +27,10 @@ export function profileReturnLink(person, context) {
     }
   }
 
+  const hasSourceContext = ['table','work','book','chapter','passage','cell','axis'].some(
+    key => context.has(key) && context.get(key));
+  if (!hasSourceContext) return {href:'cbr.html', text:'返回 CBR 人物目錄 →'};
+
   const otherSource = profileSourceContext(person, context);
   if (otherSource) return otherSource;
   return {href:'cbr.html', text:'返回 CBR 人物目錄 →'};
