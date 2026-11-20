@@ -263,6 +263,25 @@ def explicit_maternal_uncle_valid(assertion, paragraphs):
                           and p['text'][subject['end']:obj['start']] in ('', '，', '、')
                           and (nephew_end == len(p['text'])
                                or p['text'][nephew_end] in '，。；、'))
+        coordinated_ids = q.get('coordinated_uncle_mention_ids')
+        if coordinated_ids is not None:
+            if (not isinstance(coordinated_ids, list) or len(coordinated_ids) < 2
+                    or not all(isinstance(mid, str) and mid in mentions for mid in coordinated_ids)
+                    or obj['id'] not in coordinated_ids):
+                return False
+            uncles = [mentions[mid] for mid in coordinated_ids]
+            start, end = uncles[0]['start'] - 1, uncles[-1]['end']
+            if (start < subject['end']
+                    or any(m['kind'] != 'person' or m['person_id'] == subject['person_id']
+                           for m in uncles)
+                    or len({m['person_id'] for m in uncles}) != len(uncles)
+                    or any(p['text'][left['end']:right['start']] != '、' for left, right in zip(uncles, uncles[1:]))
+                    or q.get('source_term') != '舅' + '、'.join(m['surface'] for m in uncles)
+                    or p['text'][start:end] != q['source_term']
+                    or not any(i <= subject['start'] and end <= i + len(e['quote'])
+                               for i in range(start + 1) if p['text'].startswith(e['quote'], i))):
+                return False
+            continue
         if not (named or unnamed or named_with_place or named_nephew_of):
             return False
         if not any(e['quote'] == p['text'][i:i + len(e['quote'])] and i <= subject['start']

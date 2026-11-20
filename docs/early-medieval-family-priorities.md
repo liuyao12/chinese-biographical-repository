@@ -43,7 +43,11 @@
 
 陳郡謝氏續讀《南史》卷十九謝晦及兄弟附敘。謝重五子用同段「重生絢、瞻、晦、㬭、遯」逐一繫證。《宋書》謝瞻本傳的「第三兄」與《南史》的「次兄」分存，共同支持瞻年長於晦。㬭的生母郭氏僅繫於本人。下一步可沿本卷謝澹附傳核對父瑤、祖安。[《南史》卷十九](https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762#謝晦) · [《宋書》卷五十六](https://zh.wikisource.org/w/index.php?title=宋書/卷56&oldid=1996689#謝瞻)
 
-清河崔氏先對讀崔光、崔鴻在《魏書》《北史》的親屬記載，再核〈臨淄北朝崔氏墓〉的崔鴻、崔混兩誌。潁川荀氏先對讀晉愍帝紀與荀組本傳的舅甥記載。這兩組線索待逐條入庫。[《魏書》卷六十七](https://zh.wikisource.org/w/index.php?title=魏書/卷67&oldid=468068) · [《北史》卷四十四](https://zh.wikisource.org/w/index.php?title=北史/卷044&oldid=2183262) · [《晉書》卷五](https://zh.wikisource.org/w/index.php?title=晉書/卷005&oldid=7904721)
+清河崔氏先對讀崔光、崔鴻在《魏書》《北史》的親屬記載，再核〈臨淄北朝崔氏墓〉的崔鴻、崔混兩誌。[《魏書》卷六十七](https://zh.wikisource.org/w/index.php?title=魏書/卷67&oldid=468068) · [《北史》卷四十四](https://zh.wikisource.org/w/index.php?title=北史/卷044&oldid=2183262)
+
+- **荀氏與陳郡袁氏。**《晉書》荀崧傳明記外祖袁侃及侃弟奧。《三國志》正文「渙子侃」，裴注引《袁氏世紀》「渙有四子，侃、㝢、奧、準」，分層錄原文。兩書的陳郡及侃、奧兄弟線索相合。愍帝紀另記荀籓、荀組為其母舅，生母未名。袁侃、袁奧的現行 ID 沿用，兩條父子關係可從人物 JSON 查到。[《三國志》卷十一](https://zh.wikisource.org/w/index.php?title=三國志/卷11&oldid=2373044#袁渙) · [《晉書》卷七十五](https://zh.wikisource.org/w/index.php?title=晉書/卷075&oldid=2645530#荀嵩) · [《晉書》卷五](https://zh.wikisource.org/w/index.php?title=晉書/卷005&oldid=7904721)
+- **謝氏。**《南史》明載謝澹父瑤、祖安，兩條原證入庫。其與謝晦的「從叔」原稱照錄，親疏代距留待另證。[《南史》卷十九](https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762#謝晦)
+- **崔氏待錄。**崔混誌錄文給出卒日和遷窆日，卒前敘事有疑字。兩史另載其為叔父所殺。後續分錄日期及所述死亡經過，原發掘報告為〈臨淄北朝崔氏墓〉，《考古學報》1984年第2期，圖版仍待核對。[墓誌錄文](https://guji.10huan.com/Article/7147_7165.html) · [《魏書》卷六十七](https://zh.wikisource.org/w/index.php?title=魏書/卷67&oldid=468068)
 
 ## 每批交付
 
