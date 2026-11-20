@@ -6,3 +6,14 @@
 - **王奐出繼王球。**《南齊書》「奐出繼從祖中書令球」直接支持承嗣，《南史》亦稱「奐繼從祖球」。《宋書·王球傳》寫作「無子，從孫奐為後」，其「奐」已連到王奐。CBR 用 `ritual_successor_of` 保存出繼，王奐的父系路徑仍由粹、僧朗兩代組成。三書此處未明載出繼年月。[《南齊書》卷四十九](https://zh.wikisource.org/w/index.php?title=南齊書/卷49&oldid=2261984#王奐) · [《南史》卷二十三](https://zh.wikisource.org/w/index.php?title=南史/卷23&oldid=2478204#王彧) · [《宋書》卷五十八](https://zh.wikisource.org/w/index.php?title=宋書/卷58&oldid=1996691#王球)
 
 新入庫正文均為標明範圍的數位節錄。[王僧朗 JSON](../exports/persons/q7m_r8k_2vn.json) · [王粹 JSON](../exports/persons/q7m_r8k_2vn_A.json) · [王奐 JSON](../exports/persons/q7m_r8k_2vn_AA.json)
+
+## 稱字與職稱的異文
+
+- 《南齊書》稱王奐「字彥孫」，並把這個稱呼繫於出繼。《南史》分列「字道明」「小字彥孫」。兩書原句各保留。若按《南史》顯示道明為字、彥孫為小字，須一併標明《南齊書》的不同說法。[《南齊書》卷四十九](https://zh.wikisource.org/w/index.php?title=南齊書/卷49&oldid=2261984#王奐) · [《南史》卷二十三](https://zh.wikisource.org/w/index.php?title=南史/卷23&oldid=2478204#王彧)
+- 王粹官稱在《南齊書》作「黃門郎」，《南史》《梁書》作「黃門侍郎」。先保存各自原詞，兩種寫法均繫於同一親屬脈絡。[《梁書》卷二十一〈王份〉](https://zh.wikisource.org/w/index.php?title=梁書/卷21&oldid=1544250#王份)
+
+## 追索參考文獻
+
+從百科條目取得兩條書目線索。王琪琳〈兩晉南朝的門第次序與世族析分——兼釋「阿奴始免寒士」的歷史意涵〉據稱刊於《南昌師範學院學報》（2025），李松竹《南蠻校尉府研究》據稱為湖北大學 2013 年學位論文。本次未取得可核的原刊或全文，題名和出版資訊待確認，兩項均不作人物陳述依據。
+
+另定位到〈濟州刺史王翊墓誌〉的館藏書目，可在整理王奐後裔時追查拓本或刊本。目前只核書目，未據轉引增補妻子或後裔。[東洋文庫館藏書目](https://www.toyo-bunko.org/is/show_detail_allsyoshi.php?targetid=312788200)
