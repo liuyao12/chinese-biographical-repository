@@ -1077,6 +1077,8 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 
 `noble_title_succession` 同樣限此完整句式，以段首瑤為承襲者、`source_term: 襲爵`、`mode: accession`；`predecessor_person_id`、`title`、`holding_id`及日期均為null。它是未定爵名的來源事件，不生成title='爵'的假具名持職或未經來源核定的前任。
 
+`noble_title_restoration` 保存先有牽連、後奏請赦宥與復爵土的來源記載。`event_group_id` 將同一事件的各書原證相聯。原句無明載日期、爵名或具名施請人時，各欄留空。`restoration_context` 另附奏請者原稱、父系爵名與原證、案件語境及旁證。父系爵名供對讀，不等同本句重出爵號或可確定起訖的持爵。
+
 ## 據完整平行敘事辨識爵名衝突
 
 `parallel_context_reading` 與古注所報異文分開。此窄契約限兩個現行人物候選、同一固定 primary 見證的兩個連續完整敘事單元，以及原段同事件用語。保留原字，透過上下文暫選身份；`source_spelling_is_not_alias:true` 且原異常錨點不得加入人物 aliases，只保存 evidence 雙端。不得偽造 `reported_variants` 或 commentator。

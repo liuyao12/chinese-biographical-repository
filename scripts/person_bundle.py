@@ -562,6 +562,9 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             if context.get('paragraph_id'):
                 paragraph_ids.add(context['paragraph_id'])
             paragraph_ids.update(context.get('intervening_paragraph_ids', []))
+    for event in person_events:
+        paragraph_ids.update(e['paragraph_id'] for key, e in event.get('restoration_context', {}).items()
+                             if key.endswith('_evidence'))
     for holding in titles:
         for attestation in holding.get('attestations', []):
             paragraph_ids.update(e['paragraph_id'] for e in attestation.get('normalized_date', {}).get('evidence', []) if e.get('kind') != 'table_cell')
