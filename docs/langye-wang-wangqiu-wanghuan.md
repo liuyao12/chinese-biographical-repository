@@ -2,6 +2,7 @@
 
 - **王謐與王球。**《晉書》卷六十五列王謐三子「瓘、球、琇」（`c-jinshu-065-wangdao-family:line102`）。《宋書》卷五十八〈王球〉傳首「父謐，司徒」是同一父子關係的另一條證據（`c-songshu-058-wangqiu:p001`）。沿用既有王謐、王球人物 ID。[《晉書》卷六十五](https://zh.wikisource.org/w/index.php?oldid=1756144) · [《宋書》卷五十八](https://zh.wikisource.org/zh-hant/宋書/卷58#王球)
 - **王球卒年。**傳記「十八年，卒，時年四十九」（`c-songshu-058-wangqiu:p002`）。《宋書》卷五〈太祖紀〉元嘉十八年段作「十一月戊子，尚書僕射王球卒」（`c-songshu-005-wangqiu-yuanjia18:p001`）。校記第廿四條報告各本作「琳」，據《南史》《資治通鑑》改「球」。保存所據數位正文及校勘限制。元嘉十八年對應西元 441 年，十一月戊子照錄。報齡保留四十九，生年未推。[《宋書》卷五](https://zh.wikisource.org/zh-hant/宋書/卷5#元嘉十八年)
-- **王奐的生系與承嗣。**《宋書·王球傳》「無子，從孫奐為後」，《南齊書》卷四十九〈王奐〉「父粹，黃門郎。奐出繼從祖中書令球」。兩篇可互核出繼，王粹為生系線索。待讀王奐完整本傳、核對既有人物候選及王粹所屬一支後，分別整理生系與承嗣資料。[《南齊書》卷四十九](https://zh.wikisource.org/w/index.php?title=南齊書/卷49&oldid=2261984#王奐)
+- **王奐的生父與祖父。**《南齊書》卷四十九〈王奐〉「祖僧朗，宋左光祿、儀同。父粹，黃門郎」（`c-nanqishu-049-wanghuan:p001`）。《南史》卷二十三另載「父粹字景深，位黃門侍郎」（`c-nanshi-023-wanghuan:p001`）。《梁書》王份傳也分列祖僧朗、父粹，並明記奐是份兄。《南齊書》傳首所列父系兩代支持粹為僧朗子，資料保留其為從傳首世次推出。再循《宋書》卷八十五〈王景文〉附敘「父僧朗」可查僧朗仕歷。[《南齊書》卷四十九](https://zh.wikisource.org/w/index.php?title=南齊書/卷49&oldid=2261984#王奐) · [《南史》卷二十三](https://zh.wikisource.org/w/index.php?title=南史/卷23&oldid=2478204#王彧) · [《梁書》卷二十一](https://zh.wikisource.org/w/index.php?title=梁書/卷21&oldid=1544250#王份) · [《宋書》卷八十五](https://zh.wikisource.org/zh-hant/宋書/卷85#王景文)
+- **王奐出繼王球。**《南齊書》「奐出繼從祖中書令球」直接支持承嗣，《南史》亦稱「奐繼從祖球」。《宋書·王球傳》寫作「無子，從孫奐為後」，其「奐」已連到王奐。CBR 用 `ritual_successor_of` 保存出繼，王奐的父系路徑仍由粹、僧朗兩代組成。三書此處未明載出繼年月。[《南齊書》卷四十九](https://zh.wikisource.org/w/index.php?title=南齊書/卷49&oldid=2261984#王奐) · [《南史》卷二十三](https://zh.wikisource.org/w/index.php?title=南史/卷23&oldid=2478204#王彧) · [《宋書》卷五十八](https://zh.wikisource.org/w/index.php?title=宋書/卷58&oldid=1996691#王球)
 
-本批兩處新入庫正文均為標明範圍的數位節錄。下次循《南齊書》王奐傳回查王粹與王僧朗，仍在琅邪王氏內整理。
+新入庫正文均為標明範圍的數位節錄。[王僧朗 JSON](../exports/persons/q7m_r8k_2vn.json) · [王粹 JSON](../exports/persons/q7m_r8k_2vn_A.json) · [王奐 JSON](../exports/persons/q7m_r8k_2vn_AA.json)

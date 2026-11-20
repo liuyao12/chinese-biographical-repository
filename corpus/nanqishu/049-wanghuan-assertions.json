@@ -1,0 +1,119 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanqishu-049-wanghuan",
+  "assertions": [
+    {
+      "id": "a-nanqishu049-wanghuan-biological-father",
+      "subject_person_id": "q7m_r8k_2vn_AA",
+      "object_person_id": "q7m_r8k_2vn_A",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父粹",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "source_id": "s-nanqishu-049-ws2261984-wanghuan",
+          "chapter_id": "c-nanqishu-049-wanghuan",
+          "paragraph_id": "c-nanqishu-049-wanghuan:p001",
+          "quote": "王奐字彥孫，琅邪臨沂人也。祖僧朗，宋左光祿、儀同。父粹，黃門郎。奐出繼從祖中書令球，故字彥孫。",
+          "subject_person_mention_id": "c-nanqishu-049-wanghuan:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-049-wanghuan:p001:m0026"
+        }
+      ],
+      "interpretation_note": "傳首明載生系之父，與後句出繼分存。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqishu049-wanghuan-biological-grandfather",
+      "subject_person_id": "q7m_r8k_2vn_AA",
+      "object_person_id": "q7m_r8k_2vn",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖僧朗",
+        "lineage": "paternal",
+        "generation_distance": 2
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "source_id": "s-nanqishu-049-ws2261984-wanghuan",
+          "chapter_id": "c-nanqishu-049-wanghuan",
+          "paragraph_id": "c-nanqishu-049-wanghuan:p001",
+          "quote": "王奐字彥孫，琅邪臨沂人也。祖僧朗，宋左光祿、儀同。父粹，黃門郎。奐出繼從祖中書令球，故字彥孫。",
+          "subject_person_mention_id": "c-nanqishu-049-wanghuan:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-049-wanghuan:p001:m0014"
+        }
+      ],
+      "interpretation_note": "傳首列出生系祖父，另段出繼從祖球。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqishu049-wangcui-paternal-pedigree",
+      "subject_person_id": "q7m_r8k_2vn_A",
+      "object_person_id": "q7m_r8k_2vn",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖僧朗，宋左光祿、儀同。父粹",
+        "lineage": "paternal",
+        "evidence_mode": "inferred_from_paternal_pedigree"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "source_id": "s-nanqishu-049-ws2261984-wanghuan",
+          "chapter_id": "c-nanqishu-049-wanghuan",
+          "paragraph_id": "c-nanqishu-049-wanghuan:p001",
+          "quote": "王奐字彥孫，琅邪臨沂人也。祖僧朗，宋左光祿、儀同。父粹，黃門郎。奐出繼從祖中書令球，故字彥孫。",
+          "subject_person_mention_id": "c-nanqishu-049-wanghuan:p001:m0026",
+          "object_person_mention_id": "c-nanqishu-049-wanghuan:p001:m0014"
+        }
+      ],
+      "interpretation_note": "由同一傳首先祖後父的父系世次推得二者相鄰；原文沒有另句「僧朗子粹」。另以《梁書》王份傳同列祖父與父親作對讀。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqishu049-wanghuan-ritual-succession",
+      "subject_person_id": "q7m_r8k_2vn_AA",
+      "object_person_id": "3c9_d1d_870_B",
+      "predicate": "ritual_successor_of",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "出繼從祖中書令球",
+        "succession_kind": "chuji_named_agnatic_grandparent",
+        "legal_adoption_status": "not_stated",
+        "parentage_inference": "not_inferred"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "source_id": "s-nanqishu-049-ws2261984-wanghuan",
+          "chapter_id": "c-nanqishu-049-wanghuan",
+          "paragraph_id": "c-nanqishu-049-wanghuan:p001",
+          "quote": "王奐字彥孫，琅邪臨沂人也。祖僧朗，宋左光祿、儀同。父粹，黃門郎。奐出繼從祖中書令球，故字彥孫。",
+          "subject_person_mention_id": "c-nanqishu-049-wanghuan:p001:m0032",
+          "object_person_mention_id": "c-nanqishu-049-wanghuan:p001:m0040"
+        }
+      ],
+      "interpretation_note": "原文稱出繼從祖。王球與王奐為承嗣關係，原有生父及父系祖父各自保留。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

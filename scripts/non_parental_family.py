@@ -68,6 +68,9 @@ def non_parental_relation_valid(assertion, paragraphs, assertions=None):
         keys = {'source_term', 'succession_kind', 'legal_adoption_status', 'parentage_inference'}
         if set(q) != keys or q['parentage_inference'] != 'not_inferred':
             return False
+        if q.get('succession_kind') == 'chuji_named_agnatic_grandparent':
+            return (term == '出繼從祖中書令' + other['surface']
+                    and child['end'] in starts and other['end'] == child['end'] + len(term))
         terms = {'ji_named_relative': '繼叔父' + other['surface'],
                  'si_named_predecessor_hou': '嗣' + other['surface'] + '后'}
         return (term == terms.get(q.get('succession_kind'))
