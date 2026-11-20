@@ -1,0 +1,87 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-liangshu-041-liang41",
+  "events": [
+    {
+      "id": "le-liangshu-041-liang41-death",
+      "person_id": "7r6_k52_qji_ABAAAAEAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-liangshu-041-liang41:p002",
+        "start": 22,
+        "end": 23,
+        "surface": "卒"
+      },
+      "date_expression": "大同二年",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-041",
+          "chapter_id": "c-liangshu-041-liang41",
+          "source_id": "s-liangshu-041-liang41-ws1512987",
+          "paragraph_id": "c-liangshu-041-liang41:p002",
+          "quote": "規辭疾不拜，於鐘山宗熙寺築室居焉。大同二年，卒，時年四十五。",
+          "person_mention_id": "c-liangshu-041-liang41:p002:m0000"
+        }
+      ],
+      "interpretation_note": "保存原紀年；公元換算精度為年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 536,
+        "year": 536,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "大同二年",
+        "status": "editorial_provisional",
+        "original_quote": "規辭疾不拜，於鐘山宗熙寺築室居焉。大同二年，卒，時年四十五。",
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-041",
+            "chapter_id": "c-liangshu-041-liang41",
+            "source_id": "s-liangshu-041-liang41-ws1512987",
+            "paragraph_id": "c-liangshu-041-liang41:p002",
+            "quote": "規辭疾不拜，於鐘山宗熙寺築室居焉。大同二年，卒，時年四十五。",
+            "person_mention_id": "c-liangshu-041-liang41:p002:m0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "大同",
+            "columns": {
+              "dynasty": "梁",
+              "era_name": "大同",
+              "first_year": "535",
+              "last_year": "546"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-19",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "大同",
+          "source_number": "二",
+          "regnal_year": 2,
+          "start_ce_year": 535,
+          "end_ce_year": 546,
+          "reference_index": 0
+        },
+        "rationale": "保留原句所明載的年及月，數值換算只至年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    }
+  ]
+}
