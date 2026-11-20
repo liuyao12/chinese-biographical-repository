@@ -63,6 +63,50 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 19,
+      "category": "",
+      "title": "謝晦傳及兄弟附敘",
+      "paragraph_id": "c-nanshi-019-nan19:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+      "paragraph_ids": [
+        "c-nanshi-019-nan19:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-019-nan19:p001:m0021",
+        "c-nanshi-019-nan19:p001:m0031"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-019-nan19:p001:m0021": "c-nanshi-019-nan19:p001",
+        "c-nanshi-019-nan19:p001:m0031": "c-nanshi-019-nan19:p001"
+      },
+      "mention_id": "c-nanshi-019-nan19:p001:m0021",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-019-nan19:p001:m0021",
+          "mention_ids": [
+            "c-nanshi-019-nan19:p001:m0021"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-019-nan19:p001:m0031",
+          "mention_ids": [
+            "c-nanshi-019-nan19:p001:m0031"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-019",
+      "chapter_id": "c-nanshi-019-nan19",
+      "source_id": "s-nanshi-019-nan19-ws1531762",
+      "work_title": "南史"
+    },
+    {
       "number": 44,
       "category": "",
       "title": "謝晦列傳（武英殿本）",
@@ -872,6 +916,28 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-019-nan19",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-019",
+      "source_id": "s-nanshi-019-nan19-ws1531762",
+      "source": {
+        "title": "南史卷19·謝晦傳及兄弟附敘",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762",
+        "revision_id": 1531762,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定數位見證；未核武英殿本書影。",
+        "extent": "謝晦傳及兄弟附敘的指定句段，用於親屬、身份、任官及紀年查核。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "謝晦傳及兄弟附敘"
+      }
+    },
+    {
       "chapter_id": "c-songshu-044-wyd1739-xiehui",
       "work_id": "w-songshu",
       "book_id": "b-songshu-044",
@@ -1101,6 +1167,33 @@
       ],
       "interpretation_note": "謝絢舅袁湛與謝重舅未名，兩個世代分開；引語汝父承謝重，不能全段舅字同指袁湛或王胡之。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-019-nan19-m0021-family-father",
+      "subject_person_id": "aa6_83c_juy_AAAB",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "重生絢、瞻、晦、㬭、遯",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-nan19",
+          "source_id": "s-nanshi-019-nan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-nan19:p001",
+          "quote": "朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+          "subject_person_mention_id": "c-nanshi-019-nan19:p001:m0021",
+          "object_person_mention_id": "c-nanshi-019-nan19:p001:m0019"
+        }
+      ],
+      "interpretation_note": "《南史》明列謝重所生五人；本段無共同生母或絕對排行。",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     },
@@ -1337,6 +1430,33 @@
       ],
       "interpretation_note": "謝絢舅袁湛與謝重舅未名，兩個世代分開；引語汝父承謝重，不能全段舅字同指袁湛或王胡之。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-019-nan19-m0021-family-father",
+      "subject_person_id": "aa6_83c_juy_AAAB",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "重生絢、瞻、晦、㬭、遯",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-nan19",
+          "source_id": "s-nanshi-019-nan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-nan19:p001",
+          "quote": "朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+          "subject_person_mention_id": "c-nanshi-019-nan19:p001:m0021",
+          "object_person_mention_id": "c-nanshi-019-nan19:p001:m0019"
+        }
+      ],
+      "interpretation_note": "《南史》明列謝重所生五人；本段無共同生母或絕對排行。",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     },

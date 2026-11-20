@@ -13,6 +13,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 19,
+      "category": "",
+      "title": "謝晦傳及兄弟附敘",
+      "paragraph_id": "c-nanshi-019-nan19:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+      "paragraph_ids": [
+        "c-nanshi-019-nan19:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-019-nan19:p001:m0029"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-019-nan19:p001:m0029": "c-nanshi-019-nan19:p001"
+      },
+      "mention_id": "c-nanshi-019-nan19:p001:m0029",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-019-nan19:p001:m0029",
+          "mention_ids": [
+            "c-nanshi-019-nan19:p001:m0029"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-019",
+      "chapter_id": "c-nanshi-019-nan19",
+      "source_id": "s-nanshi-019-nan19-ws1531762",
+      "work_title": "南史"
+    },
+    {
       "number": 44,
       "category": "",
       "title": "謝晦列傳（武英殿本）",
@@ -89,6 +124,28 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanshi-019-nan19",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-019",
+      "source_id": "s-nanshi-019-nan19-ws1531762",
+      "source": {
+        "title": "南史卷19·謝晦傳及兄弟附敘",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762",
+        "revision_id": 1531762,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定數位見證；未核武英殿本書影。",
+        "extent": "謝晦傳及兄弟附敘的指定句段，用於親屬、身份、任官及紀年查核。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "謝晦傳及兄弟附敘"
+      }
+    },
     {
       "chapter_id": "c-songshu-044-wyd1739-xiehui",
       "work_id": "w-songshu",
@@ -227,6 +284,33 @@
   ],
   "relations": [
     {
+      "id": "a-nanshi-019-nan19-m0029-family-father",
+      "subject_person_id": "aa6_83c_juy_AAAF",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "重生絢、瞻、晦、㬭、遯",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-nan19",
+          "source_id": "s-nanshi-019-nan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-nan19:p001",
+          "quote": "朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+          "subject_person_mention_id": "c-nanshi-019-nan19:p001:m0029",
+          "object_person_mention_id": "c-nanshi-019-nan19:p001:m0019"
+        }
+      ],
+      "interpretation_note": "《南史》明列謝重所生五人；本段無共同生母或絕對排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-song044-wyd-dun-brother",
       "subject_person_id": "aa6_83c_juy_AAAF",
       "predicate": "brother",
@@ -268,6 +352,7 @@
     }
   ],
   "related_people": {
+    "aa6_83c_juy_AAA": "謝重",
     "aa6_83c_juy_AAAA": "謝晦",
     "aa6_83c_juy_AAAF": "謝遯"
   },
@@ -585,6 +670,33 @@
   ],
   "preferred_relations": [
     {
+      "id": "a-nanshi-019-nan19-m0029-family-father",
+      "subject_person_id": "aa6_83c_juy_AAAF",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "重生絢、瞻、晦、㬭、遯",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-nan19",
+          "source_id": "s-nanshi-019-nan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-nan19:p001",
+          "quote": "朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+          "subject_person_mention_id": "c-nanshi-019-nan19:p001:m0029",
+          "object_person_mention_id": "c-nanshi-019-nan19:p001:m0019"
+        }
+      ],
+      "interpretation_note": "《南史》明列謝重所生五人；本段無共同生母或絕對排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-song044-wyd-dun-brother",
       "subject_person_id": "aa6_83c_juy_AAAF",
       "predicate": "brother",
@@ -633,56 +745,7 @@
     ],
     "identity_equivalence_decision_ids": [],
     "parent_person_id": "aa6_83c_juy_AAA",
-    "source_assertion_id": null,
-    "parent_connection": {
-      "type": "shared_father_through_sibling",
-      "sibling_person_id": "aa6_83c_juy_AAAA",
-      "sibling_assertion_id": "a-song044-wyd-dun-brother",
-      "sibling_father_assertion_id": "a-song044-wyd-hui-father",
-      "status": "contextual_provisional",
-      "human_reviewed": false,
-      "rationale": "本源晦弟遯與晦明父重，首選共同父；不是遯父重原文明說，不推同母。",
-      "references": [
-        {
-          "work_id": "w-songshu",
-          "book_id": "b-songshu-044",
-          "chapter_id": "c-songshu-044-wyd1739-xiehui",
-          "source_id": "s-songshu-044-wyd1739-xiehui",
-          "paragraph_id": "c-songshu-044-wyd1739-xiehui:p008",
-          "quote": "之諸姪咸無所染況彼府州文武並列王職荷國榮任身雖在外乃心辰極夫轉禍貴速後機則凶遂使王師臨郊雷電皆至噬臍之恨亦將何及時益州刺史蕭摹之巴西太守劉道產被徵還始至江陵晦並繫縶沒其財貨以充軍資竟陵內史殷道鸞未之郡以為諮議參軍以弟遯為冠軍竟陵內史總留任兄子世猷為建威將軍南平太守劉粹若至周超能破之者卽以為龍驤將軍雍州刺史晦率二萬發自江陵舟艦列自江津至于破冢旍旂相照蔽奪日光晦乃歎曰恨不得以此為勤王之師自領湘州刺史以張劭為輔國將軍劭不受命晦檄京邑曰王室多故禍難薦臻營陽失德自絶宗廟廬陵王構鬩有本屢被猜嫌且居喪失禮遐邇所具積怨犯上自貽非道羣后釋位爰登聖明亂之未乂職有所係按車騎大將軍王弘侍中王曇首謬蒙時私叨竊權要弘於永初之始實荷不世之恩元嘉之讓自謂任遇浮淺進誣先皇委誠之寄退長嫌隙異同之端曇首往因使下訪以今上起居不能光揚令德彰於朝聽其言多誣故不具說王華賊亡之餘賞擢之次先帝常見訪逮庶有一分可取而華禀性凶猜多所忍害曩者縱人入城託疾辭事此都士庶咸所聞知以其所啟及",
-          "relationship_anchor": {
-            "paragraph_id": "c-songshu-044-wyd1739-xiehui:p008",
-            "start": 107,
-            "end": 109,
-            "surface": "弟遯"
-          },
-          "subject_person_mention_id": "c-songshu-044-wyd1739-xiehui:p008:m0108",
-          "object_person_mention_id": "c-songshu-044-wyd1739-xiehui:p008:m0078",
-          "assertion_id": "a-song044-wyd-dun-brother",
-          "scope": "本源完整段；組裝推導與明文分開，未造中間父親。",
-          "url": "https://commons.wikimedia.org/w/index.php?curid=124072257"
-        },
-        {
-          "work_id": "w-songshu",
-          "book_id": "b-songshu-044",
-          "chapter_id": "c-songshu-044-wyd1739-xiehui",
-          "source_id": "s-songshu-044-wyd1739-xiehui",
-          "paragraph_id": "c-songshu-044-wyd1739-xiehui:p001",
-          "quote": "謝晦字宣明陳郡陽夏人也祖朗東陽太守父重會稽王道子驃騎長史兄絢高祖鎮軍長史蚤卒晦初為孟昶建威府中兵參軍昶死高祖問劉穆之孟昶參佐誰堪入我府穆之舉晦卽命為太尉參軍高祖嘗訊囚其旦刑獄參軍有疾札晦代之於車中一鑑訊牒催促便下相府多事獄繫殷積晦隨問酬辯曾無違謬高祖奇",
-          "relationship_anchor": {
-            "paragraph_id": "c-songshu-044-wyd1739-xiehui:p001",
-            "start": 17,
-            "end": 19,
-            "surface": "父重"
-          },
-          "subject_person_mention_id": "c-songshu-044-wyd1739-xiehui:p001:m0000",
-          "object_person_mention_id": "c-songshu-044-wyd1739-xiehui:p001:m0018",
-          "assertion_id": "a-song044-wyd-hui-father",
-          "scope": "本源完整段；組裝推導與明文分開，未造中間父親。",
-          "url": "https://commons.wikimedia.org/w/index.php?curid=124072257"
-        }
-      ]
-    },
+    "source_assertion_id": "a-nanshi-019-nan19-m0029-family-father",
     "assembly_id": "family-chenjun-xie-lang",
     "root_person_id": "aa6_83c_juy",
     "status": "editorial_preferred",

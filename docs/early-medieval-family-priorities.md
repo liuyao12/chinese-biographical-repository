@@ -39,6 +39,12 @@
 
 原生資料已進入整合分支，家族改號、人物 JSON／閱讀目錄重建與瀏覽器驗收仍須各自完成。這些後續內容不包含於 [PR #546](https://github.com/liuyao12/chinese-biographical-repository/pull/546) 的固定版本，亦不由本節推定已發布。
 
+## 並行查核
+
+陳郡謝氏續讀《南史》卷十九謝晦及兄弟附敘。謝重五子用同段「重生絢、瞻、晦、㬭、遯」逐一繫證。《宋書》謝瞻本傳的「第三兄」與《南史》的「次兄」分存，共同支持瞻年長於晦。㬭的生母郭氏僅繫於本人。下一步可沿本卷謝澹附傳核對父瑤、祖安。[《南史》卷十九](https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762#謝晦) · [《宋書》卷五十六](https://zh.wikisource.org/w/index.php?title=宋書/卷56&oldid=1996689#謝瞻)
+
+清河崔氏先對讀崔光、崔鴻在《魏書》《北史》的親屬記載，再核〈臨淄北朝崔氏墓〉的崔鴻、崔混兩誌。潁川荀氏先對讀晉愍帝紀與荀組本傳的舅甥記載。這兩組線索待逐條入庫。[《魏書》卷六十七](https://zh.wikisource.org/w/index.php?title=魏書/卷67&oldid=468068) · [《北史》卷四十四](https://zh.wikisource.org/w/index.php?title=北史/卷044&oldid=2183262) · [《晉書》卷五](https://zh.wikisource.org/w/index.php?title=晉書/卷005&oldid=7904721)
+
 ## 每批交付
 
 - 固定版本的繁體原文及 work／book／chapter ID，正文、裴注等古注與後人考證分層。
