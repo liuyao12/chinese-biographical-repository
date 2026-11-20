@@ -272,6 +272,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 逐人 JSON 的 `person_source_preferences` 保存按人、按欄位的首選。每項含 `field`、`preferred_record_id`、`alternative_record_ids` 與判讀理由。欄位可為 `zi`、`age_at_death`、`death` 或 `father`。各 ID 對應逐人檔中已收錄的同人同欄位原始陳述，選讀不刪原證。
 
+配偶陳述的 `corroborating_evidence` 可收錄對讀的題署、名段、婚嫁語境及合葬線索。每筆保留作品、卷篇、來源、段落與原句，`role` 指出該句的作用。原 `evidence` 仍保存直接證明配偶關係的見證；對讀文句不另生成配偶或親子斷言。
+
 ### 來源相對年齡差
 
 `annotation.age_difference_assertions` 與個人報齡分存。`person_id`、`reference_person_id` 是兩個不同人物；`comparison: younger_than`、`value` 保存原文「少某人若干歲／歳」的差值，`source_number`、`source_term` 保留原字。每筆證據同段含 `person_mention_id` 與 `reference_person_mention_id`，兩人物及原詞必須在引句內。單位為 `source_age_years`，計歲方式保持 `unspecified_source_age`，生年與日期未知，不由參考人物年譜推生年。逐人JSON從雙方皆可讀 `age_difference_assertions`，仍保留來源與篇段；不是本人的年齡。

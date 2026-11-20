@@ -93,7 +93,7 @@
         "revision_id": null,
         "accessed_on": "2026-11-19",
         "edition": "《魏墓誌三種》冊325，宇野雪村舊藏，現藏大東文化大學書道研究所。",
-        "extent": "只錄誌首父母及世系原句；另通閱誌文和銘辭，詳圖版及核讀範圍。",
+        "extent": "誌題、父母及世系、嫁入王府與合葬選段。",
         "text_scope": "partial_chapter",
         "review_status": "text_checked",
         "image_verified": true,
@@ -102,7 +102,7 @@
         "rights": "本庫只錄公版古文，館藏圖版以外部連結引用。",
         "normalization": {
           "character_conversion": "編者施加標點，照拓片錄古文。",
-          "extraction_note": "館藏折頁右至左讀，段落錄右葉世系選段。"
+          "extraction_note": "館藏折頁右至左讀；各段紀錄版面位置，段與段之間可有省略。"
         },
         "transcription_witness": {
           "kind": "rubbing_reproduction_excerpts",
@@ -126,6 +126,70 @@
             "url": "https://www.i-repository.net/il/cont/01/G0000721f/000/756/000756293.jpg",
             "sha256": "c2b1c0c16726472f37a0d7b920efd86d704ae6ac816c2cc374498a6b1e31a63e",
             "scope": "銘辭全段"
+          }
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-epitaph-yuanzhan-excerpts",
+      "work_id": "w-epitaph-yuanzhan",
+      "book_id": "b-epitaph-yuanzhan-excerpts",
+      "source_id": "s-epitaph-yuanzhan-daitof00794",
+      "source": {
+        "title": "魏故使持節假黃鉞侍中太傅大司馬尚書令定州刺史廣陽文獻王銘",
+        "provider": "大東文化大學書道研究所拓本アーカイブス",
+        "url": "https://www.i-repository.net/il/meta_pub/G0000721f_DAITOF00794",
+        "permalink": "https://www.i-repository.net/il/cont/01/G0000721f/000/756/000756311.jpg",
+        "revision_id": null,
+        "accessed_on": "2026-11-19",
+        "edition": "大東文化大學書道研究所藏，冊367，DAITOF00794。",
+        "extent": "誌題、名與字、卒年、葬句及銘辭共葬語；全文對讀用國立歷史博物館藏拓館錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": true,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "license_scope": "classical_inscription_text_only",
+        "rights": "本庫只錄公版古文，圖版只存外部連結。",
+        "normalization": {
+          "character_conversion": "編者施加標點，照拓片錄古文。",
+          "extraction_note": "館藏折頁右至左讀；只錄標明位置的選段。"
+        },
+        "transcription_witness": {
+          "kind": "rubbing_reproduction_excerpts",
+          "scope": "selected_classical_inscription_passages",
+          "original_object_accessed": false,
+          "original_rubbing_custody_known": true,
+          "holding_institution": "大東文化大學書道研究所",
+          "catalogue_id": "DAITOF00794"
+        },
+        "image_witnesses": [
+          {
+            "part": 1,
+            "catalogue_image_id": "000756311",
+            "url": "https://www.i-repository.net/il/cont/01/G0000721f/000/756/000756311.jpg",
+            "sha256": "68bb8ecc84ba3dbc5025f32ceb139cc114b69e0e02cb433abad1e770d2e1485b",
+            "scope": "誌題與名、字"
+          },
+          {
+            "part": 2,
+            "catalogue_image_id": "000756316",
+            "url": "https://www.i-repository.net/il/cont/01/G0000721f/000/756/000756316.jpg",
+            "sha256": "473f4ef07d72fa8a6ff5dbc4cc7d20b33de1c7377629803f0e001cff40a20345",
+            "scope": "死亡紀年，供葬句其年對讀"
+          },
+          {
+            "part": 3,
+            "catalogue_image_id": "000756318",
+            "url": "https://www.i-repository.net/il/cont/01/G0000721f/000/756/000756318.jpg",
+            "sha256": "d3e2e124e8e05605230702015d260ba97a8ec042d181341baaf8eec34136ddd5",
+            "scope": "諡號與葬日、葬地"
+          },
+          {
+            "part": 4,
+            "catalogue_image_id": "000756319",
+            "url": "https://www.i-repository.net/il/cont/01/G0000721f/000/756/000756319.jpg",
+            "sha256": "ead5a5dede5e5cd5752da86eef373ad58559f0d7a5b2e12573e79ec3f717afc7",
+            "scope": "末銘託葬"
           }
         ]
       }
@@ -241,9 +305,117 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wanglingyuan-epitaph-yuanzhan-spouse",
+      "subject_person_id": "q7m_r8k_2vn_AAAAA",
+      "object_person_id": "2a3_ci1_y4y",
+      "predicate": "spouse",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "廣陽文獻王妃"
+      },
+      "evidence": [
+        {
+          "work_id": "w-epitaph-wanglingyuan",
+          "book_id": "b-epitaph-wanglingyuan-excerpts",
+          "chapter_id": "c-epitaph-wanglingyuan-excerpts",
+          "source_id": "s-epitaph-wanglingyuan-daitof00792",
+          "paragraph_id": "c-epitaph-wanglingyuan-excerpts:p000",
+          "quote": "魏故假黃鉞太傅大司馬廣陽文獻王妃墓誌銘",
+          "object_person_mention_id": "c-epitaph-wanglingyuan-excerpts:p000:m0010"
+        },
+        {
+          "work_id": "w-epitaph-wanglingyuan",
+          "book_id": "b-epitaph-wanglingyuan-excerpts",
+          "chapter_id": "c-epitaph-wanglingyuan-excerpts",
+          "source_id": "s-epitaph-wanglingyuan-daitof00792",
+          "paragraph_id": "c-epitaph-wanglingyuan-excerpts:p001",
+          "quote": "祖琛，齊司徒從事中郎。祖母彭城劉氏，父義恭，宋太宰江夏文獻王。父翊，魏侍中司空孝獻公。母河南元氏，父澄，假黃鉞太傅任城文宣王。妃姓王，諱令媛，琅邪臨沂人，齊尚書僕射奐之曾孫也。",
+          "subject_person_mention_id": "c-epitaph-wanglingyuan-excerpts:p001:m0068"
+        }
+      ],
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-epitaph-wanglingyuan-excerpts:p000",
+          "c-epitaph-wanglingyuan-excerpts:p001"
+        ],
+        "rationale": "誌題稱廣陽文獻王妃，下接其世系及「妃姓王，諱令媛」。"
+      },
+      "corroborating_evidence": [
+        {
+          "work_id": "w-epitaph-wanglingyuan",
+          "book_id": "b-epitaph-wanglingyuan-excerpts",
+          "chapter_id": "c-epitaph-wanglingyuan-excerpts",
+          "source_id": "s-epitaph-wanglingyuan-daitof00792",
+          "paragraph_id": "c-epitaph-wanglingyuan-excerpts:p002",
+          "quote": "亦既有行，來儀蕃邸，率禮公宮，剋循法度。",
+          "role": "marriage_context"
+        },
+        {
+          "work_id": "w-epitaph-wanglingyuan",
+          "book_id": "b-epitaph-wanglingyuan-excerpts",
+          "chapter_id": "c-epitaph-wanglingyuan-excerpts",
+          "source_id": "s-epitaph-wanglingyuan-daitof00792",
+          "paragraph_id": "c-epitaph-wanglingyuan-excerpts:p003",
+          "quote": "粵以武定二年歲在甲子八月庚申合葬於武城之北原。",
+          "role": "joint_burial_attestation"
+        },
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-excerpts",
+          "chapter_id": "c-epitaph-yuanzhan-excerpts",
+          "source_id": "s-epitaph-yuanzhan-daitof00794",
+          "paragraph_id": "c-epitaph-yuanzhan-excerpts:p001",
+          "quote": "魏故使持節假黃鉞侍中太傅大司馬尚書令定州刺史廣陽文獻王銘。",
+          "role": "spouse_title_identification"
+        },
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-excerpts",
+          "chapter_id": "c-epitaph-yuanzhan-excerpts",
+          "source_id": "s-epitaph-yuanzhan-daitof00794",
+          "paragraph_id": "c-epitaph-yuanzhan-excerpts:p002",
+          "quote": "公諱湛，字士深，河南洛陽人也。",
+          "role": "spouse_title_identification"
+        },
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-excerpts",
+          "chapter_id": "c-epitaph-yuanzhan-excerpts",
+          "source_id": "s-epitaph-yuanzhan-daitof00794",
+          "paragraph_id": "c-epitaph-yuanzhan-excerpts:p003",
+          "quote": "春秋卅有五，以武定二年歲在甲子五月十四日丁酉薨於鄴。",
+          "role": "burial_year_context"
+        },
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-excerpts",
+          "chapter_id": "c-epitaph-yuanzhan-excerpts",
+          "source_id": "s-epitaph-yuanzhan-daitof00794",
+          "paragraph_id": "c-epitaph-yuanzhan-excerpts:p004",
+          "quote": "王如故，謚曰文獻，禮也。粵以其年八月庚申葬於武城之北原。",
+          "role": "matching_burial_attestation"
+        },
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-excerpts",
+          "chapter_id": "c-epitaph-yuanzhan-excerpts",
+          "source_id": "s-epitaph-yuanzhan-daitof00794",
+          "paragraph_id": "c-epitaph-yuanzhan-excerpts:p005",
+          "quote": "芒阜臨北，魚山望東，安厝不異，託葬攸同。",
+          "role": "shared_burial_wording"
+        }
+      ],
+      "interpretation_note": "王妃誌直載夫號、王令媛姓名，並明言合葬。元湛誌題為同一廣陽文獻王，名湛、字士深，誌載同日同地入葬，銘辭稱託葬攸同，未直書妃名。婚期與子女未見明載。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
+    "2a3_ci1_y4y": "元湛",
     "q7m_r8k_2vn_AA": "王奐",
     "q7m_r8k_2vn_AAA": "王琛",
     "q7m_r8k_2vn_AAAA": "王翊",
@@ -378,6 +550,113 @@
         }
       ],
       "interpretation_note": "誌載曾祖奐。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wanglingyuan-epitaph-yuanzhan-spouse",
+      "subject_person_id": "q7m_r8k_2vn_AAAAA",
+      "object_person_id": "2a3_ci1_y4y",
+      "predicate": "spouse",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "廣陽文獻王妃"
+      },
+      "evidence": [
+        {
+          "work_id": "w-epitaph-wanglingyuan",
+          "book_id": "b-epitaph-wanglingyuan-excerpts",
+          "chapter_id": "c-epitaph-wanglingyuan-excerpts",
+          "source_id": "s-epitaph-wanglingyuan-daitof00792",
+          "paragraph_id": "c-epitaph-wanglingyuan-excerpts:p000",
+          "quote": "魏故假黃鉞太傅大司馬廣陽文獻王妃墓誌銘",
+          "object_person_mention_id": "c-epitaph-wanglingyuan-excerpts:p000:m0010"
+        },
+        {
+          "work_id": "w-epitaph-wanglingyuan",
+          "book_id": "b-epitaph-wanglingyuan-excerpts",
+          "chapter_id": "c-epitaph-wanglingyuan-excerpts",
+          "source_id": "s-epitaph-wanglingyuan-daitof00792",
+          "paragraph_id": "c-epitaph-wanglingyuan-excerpts:p001",
+          "quote": "祖琛，齊司徒從事中郎。祖母彭城劉氏，父義恭，宋太宰江夏文獻王。父翊，魏侍中司空孝獻公。母河南元氏，父澄，假黃鉞太傅任城文宣王。妃姓王，諱令媛，琅邪臨沂人，齊尚書僕射奐之曾孫也。",
+          "subject_person_mention_id": "c-epitaph-wanglingyuan-excerpts:p001:m0068"
+        }
+      ],
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-epitaph-wanglingyuan-excerpts:p000",
+          "c-epitaph-wanglingyuan-excerpts:p001"
+        ],
+        "rationale": "誌題稱廣陽文獻王妃，下接其世系及「妃姓王，諱令媛」。"
+      },
+      "corroborating_evidence": [
+        {
+          "work_id": "w-epitaph-wanglingyuan",
+          "book_id": "b-epitaph-wanglingyuan-excerpts",
+          "chapter_id": "c-epitaph-wanglingyuan-excerpts",
+          "source_id": "s-epitaph-wanglingyuan-daitof00792",
+          "paragraph_id": "c-epitaph-wanglingyuan-excerpts:p002",
+          "quote": "亦既有行，來儀蕃邸，率禮公宮，剋循法度。",
+          "role": "marriage_context"
+        },
+        {
+          "work_id": "w-epitaph-wanglingyuan",
+          "book_id": "b-epitaph-wanglingyuan-excerpts",
+          "chapter_id": "c-epitaph-wanglingyuan-excerpts",
+          "source_id": "s-epitaph-wanglingyuan-daitof00792",
+          "paragraph_id": "c-epitaph-wanglingyuan-excerpts:p003",
+          "quote": "粵以武定二年歲在甲子八月庚申合葬於武城之北原。",
+          "role": "joint_burial_attestation"
+        },
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-excerpts",
+          "chapter_id": "c-epitaph-yuanzhan-excerpts",
+          "source_id": "s-epitaph-yuanzhan-daitof00794",
+          "paragraph_id": "c-epitaph-yuanzhan-excerpts:p001",
+          "quote": "魏故使持節假黃鉞侍中太傅大司馬尚書令定州刺史廣陽文獻王銘。",
+          "role": "spouse_title_identification"
+        },
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-excerpts",
+          "chapter_id": "c-epitaph-yuanzhan-excerpts",
+          "source_id": "s-epitaph-yuanzhan-daitof00794",
+          "paragraph_id": "c-epitaph-yuanzhan-excerpts:p002",
+          "quote": "公諱湛，字士深，河南洛陽人也。",
+          "role": "spouse_title_identification"
+        },
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-excerpts",
+          "chapter_id": "c-epitaph-yuanzhan-excerpts",
+          "source_id": "s-epitaph-yuanzhan-daitof00794",
+          "paragraph_id": "c-epitaph-yuanzhan-excerpts:p003",
+          "quote": "春秋卅有五，以武定二年歲在甲子五月十四日丁酉薨於鄴。",
+          "role": "burial_year_context"
+        },
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-excerpts",
+          "chapter_id": "c-epitaph-yuanzhan-excerpts",
+          "source_id": "s-epitaph-yuanzhan-daitof00794",
+          "paragraph_id": "c-epitaph-yuanzhan-excerpts:p004",
+          "quote": "王如故，謚曰文獻，禮也。粵以其年八月庚申葬於武城之北原。",
+          "role": "matching_burial_attestation"
+        },
+        {
+          "work_id": "w-epitaph-yuanzhan",
+          "book_id": "b-epitaph-yuanzhan-excerpts",
+          "chapter_id": "c-epitaph-yuanzhan-excerpts",
+          "source_id": "s-epitaph-yuanzhan-daitof00794",
+          "paragraph_id": "c-epitaph-yuanzhan-excerpts:p005",
+          "quote": "芒阜臨北，魚山望東，安厝不異，託葬攸同。",
+          "role": "shared_burial_wording"
+        }
+      ],
+      "interpretation_note": "王妃誌直載夫號、王令媛姓名，並明言合葬。元湛誌題為同一廣陽文獻王，名湛、字士深，誌載同日同地入葬，銘辭稱託葬攸同，未直書妃名。婚期與子女未見明載。",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null

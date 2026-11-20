@@ -1571,6 +1571,20 @@ def _validate_uncached(root=ROOT):
                 check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','father_in_law','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if 'corroborating_evidence' in a:
+                    supporting = a['corroborating_evidence']
+                    check(a['predicate'] == 'spouse' and isinstance(supporting, list) and bool(supporting),
+                          '婚配對讀須附已具直接證據的配偶陳述')
+                    for ref in supporting:
+                        hit = paragraphs.get(ref.get('paragraph_id'))
+                        witness = chapters.get(ref.get('chapter_id'), {})
+                        check(bool(hit) and hit[0] == ref.get('chapter_id')
+                              and all(ref.get(key) == witness.get(key) for key in ('work_id', 'book_id', 'source_id'))
+                              and bool(ref.get('quote')) and ref['quote'] in hit[1]['text']
+                              and ref.get('role') in ('marriage_context', 'joint_burial_attestation',
+                                  'spouse_title_identification', 'burial_year_context',
+                                  'matching_burial_attestation', 'shared_burial_wording'),
+                              '婚配對讀須保存可定位的原句及其證據角色')
                 if 'source_kinship_frame' in qualifiers or a['predicate'] == 'father_in_law':
                     try:
                         from scripts.received_quoted_family import valid as received_quoted_family_valid
