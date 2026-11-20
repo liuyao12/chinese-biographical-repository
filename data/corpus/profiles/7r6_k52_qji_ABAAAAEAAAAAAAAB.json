@@ -8,7 +8,56 @@
   "names": [
     "晙"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jiutangshu089-fangqing-son-wangjun",
+      "person_id": "7r6_k52_qji_ABAAAAEAAAAAAAAB",
+      "title": "殿中侍御史",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jiutangshu",
+          "book_id": "b-jiutangshu-089",
+          "source_id": "s-jiutangshu-089-tang89-ws2589393",
+          "chapter_id": "c-jiutangshu-089-tang89",
+          "paragraph_id": "c-jiutangshu-089-tang89:p002",
+          "quote": "少子晙，工書知名，尤善琴棋，而性多嚴整，官至殿中侍御史。",
+          "person_mention_id": "c-jiutangshu-089-tang89:p002:m0146"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jiutangshu089-fangqing-son-wangjun:att",
+          "paragraph_id": "c-jiutangshu-089-tang89:p002",
+          "start": 166,
+          "end": 171,
+          "surface": "殿中侍御史",
+          "person_mention_id": "c-jiutangshu-089-tang89:p002:m0146",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "所見官稱；任期起訖未載。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -70,6 +119,28 @@
         "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
         "section_locator": "王方慶傳"
       }
+    },
+    {
+      "chapter_id": "c-jiutangshu-093-tang93",
+      "work_id": "w-jiutangshu",
+      "book_id": "b-jiutangshu-093",
+      "source_id": "s-jiutangshu-093-tang93-ws2588711",
+      "source": {
+        "title": "舊唐書卷93·景城王晙傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=舊唐書/卷93&oldid=2588711",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=舊唐書/卷93&oldid=2588711",
+        "revision_id": 2588711,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定數位見證；未核武英殿本書影。",
+        "extent": "景城王晙傳的指定句段，用於親屬、身份、任官及紀年查核。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "景城王晙傳"
+      }
     }
   ],
   "relations": [
@@ -103,9 +174,44 @@
   ],
   "related_people": {
     "7r6_k52_qji_ABAAAAEAAAAAAAA": "王方慶",
-    "7r6_k52_qji_ABAAAAEAAAAAAAAB": "王晙"
+    "7r6_k52_qji_ABAAAAEAAAAAAAAB": "王晙",
+    "eh3_286_jdo": "王晙〔滄州景城〕"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-jiutangshu-wangjun-fangqing-jingcheng",
+      "person_ids": [
+        "7r6_k52_qji_ABAAAAEAAAAAAAAB",
+        "eh3_286_jdo"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-jiutangshu",
+          "book_id": "b-jiutangshu-089",
+          "source_id": "s-jiutangshu-089-tang89-ws2589393",
+          "chapter_id": "c-jiutangshu-089-tang89",
+          "paragraph_id": "c-jiutangshu-089-tang89:p002",
+          "quote": "少子晙，工書知名，尤善琴棋，而性多嚴整，官至殿中侍御史。",
+          "person_mention_id": "c-jiutangshu-089-tang89:p002:m0146"
+        },
+        {
+          "work_id": "w-jiutangshu",
+          "book_id": "b-jiutangshu-093",
+          "chapter_id": "c-jiutangshu-093-tang93",
+          "source_id": "s-jiutangshu-093-tang93-ws2588711",
+          "paragraph_id": "c-jiutangshu-093-tang93:p001",
+          "quote": "王晙，滄州景城人，徙家於洛陽。祖有方，岷州刺史。晙弱冠明經擢第，曆遷殿中侍御史，加朝散大夫。",
+          "person_mention_id": "c-jiutangshu-093-tang93:p001:m0000"
+        }
+      ],
+      "rationale": "同書分別記為王方慶少子與景城人、祖有方；即使同名同官，祖父家系與長傳仕歷有別。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "7r6_k52_qji_ABAAAAEAAAAAAAAB"
