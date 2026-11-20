@@ -625,6 +625,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `maternal_uncle` 除原有「姊子」格式，也可由明示「舅某」保存甥舅：同一證據有 `subject_person_mention_id`、`object_person_mention_id`，前者指甥、後者指接在舅字後的具名人物，`source_term` 為舅加原稱。未名舅以原字「舅」作人物錨點、`source_term: 舅`、`object_name_status: not_recorded`；不補姓名。兩種格式均保留 `lineage: maternal`、`generation_difference: -1`、`mother_person_id: null`，不能把兩代不同舅父或外祖父混為同人。
 
+若「舅」統領頓號分隔的具名人物，如「舅荀籓、荀組」，每位舅父各存一項 `maternal_uncle`。`source_term` 保存整個原稱，`coordinated_uncle_mention_ids` 依原序列出同段全組人物錨點，每項引文的客體錨點須是其中一人。母名仍空。
+
 反向原句「綏，玄之外甥」亦可保存同一方向的 `maternal_uncle`，主體為綏、客體為玄。`source_term` 保留客體原稱加「之外甥」，兩端錨點須相鄰（可隔原逗號或頓號），並逐字綁定完整「之外甥」與句界；不將泛稱「甥」或同段任意兩人自動轉成母舅。母系世代與未名母親欄位要求不變。
 
 `maternal_cousin` 目前保存明示「姨弟」：`kinship_structure.lineage: maternal`、`generation_difference: 0`、`collateral: true`、`maternal_path: mother_sister_son`、`subject_relative_age: younger`。原路徑與長幼分存，未名母親及共同祖先不填身份，`distance`、`common_ancestor_person_id` 保持null；不能誤作父系從弟或接進共同父系。證據含主客體人物雙錨點，原詞須緊接客體原稱；相對排行使用 `scope: maternal_cousins`，不推絕對排行。

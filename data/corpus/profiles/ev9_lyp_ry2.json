@@ -60,6 +60,51 @@
       "work_title": "三國志"
     },
     {
+      "number": 11,
+      "category": "",
+      "title": "袁渙傳及裴注引《袁氏世紀》",
+      "paragraph_id": "c-sanguozhi-011-sgz11:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "渙子侃，亦清粹閑素，有父風，歷位郡守尚書。",
+      "paragraph_ids": [
+        "c-sanguozhi-011-sgz11:p002",
+        "c-sanguozhi-011-sgz11:p003"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-011-sgz11:p002:m0002",
+        "c-sanguozhi-011-sgz11:p003:m0013"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-011-sgz11:p002:m0002": "c-sanguozhi-011-sgz11:p002",
+        "c-sanguozhi-011-sgz11:p003:m0013": "c-sanguozhi-011-sgz11:p003"
+      },
+      "mention_id": "c-sanguozhi-011-sgz11:p002:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-011-sgz11:p002:m0002",
+          "mention_ids": [
+            "c-sanguozhi-011-sgz11:p002:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-011-sgz11:p003:m0013",
+          "mention_ids": [
+            "c-sanguozhi-011-sgz11:p003:m0013"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-011",
+      "chapter_id": "c-sanguozhi-011-sgz11",
+      "source_id": "s-sanguozhi-011-sgz11-ws2373044",
+      "work_title": "三國志"
+    },
+    {
       "number": 75,
       "category": "",
       "title": "荀崧及荀蕤、荀羨傳",
@@ -4213,6 +4258,28 @@
           "independent_witness_is_not_repair": true
         }
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-011-sgz11",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-011",
+      "source_id": "s-sanguozhi-011-sgz11-ws2373044",
+      "source": {
+        "title": "三國志卷11·袁渙傳及裴注引《袁氏世紀》",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=三國志/卷11&oldid=2373044",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=三國志/卷11&oldid=2373044",
+        "revision_id": 2373044,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定數位見證；所據刻本待核，未核武英殿本。",
+        "extent": "袁渙傳及裴注引《袁氏世紀》的指定句段，用於親屬、身份、任官及紀年查核。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "袁渙傳及裴注引《袁氏世紀》"
+      }
     }
   ],
   "relations": [
@@ -4272,10 +4339,65 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-sanguozhi-011-sgz11-m0002-base-father",
+      "subject_person_id": "ev9_lyp_ry2",
+      "predicate": "father",
+      "object_person_id": "ae2_620_2bc",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "渙子侃",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-011",
+          "chapter_id": "c-sanguozhi-011-sgz11",
+          "source_id": "s-sanguozhi-011-sgz11-ws2373044",
+          "paragraph_id": "c-sanguozhi-011-sgz11:p002",
+          "quote": "渙子侃，亦清粹閑素，有父風，歷位郡守尚書。",
+          "subject_person_mention_id": "c-sanguozhi-011-sgz11:p002:m0002",
+          "object_person_mention_id": "c-sanguozhi-011-sgz11:p002:m0000"
+        }
+      ],
+      "interpretation_note": "正文直書「渙子侃」。本傳所載陳郡與《晉書》一致，裴注及《晉書》又都把侃與奧列為兄弟。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sanguozhi-011-sgz11-m0013-quote-father",
+      "subject_person_id": "ev9_lyp_ry2",
+      "predicate": "father",
+      "object_person_id": "ae2_620_2bc",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "渙有四子，侃、㝢、奧、準",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-011",
+          "chapter_id": "c-sanguozhi-011-sgz11",
+          "source_id": "s-sanguozhi-011-sgz11-ws2373044",
+          "paragraph_id": "c-sanguozhi-011-sgz11:p003",
+          "quote": "《袁氏世紀》曰：渙有四子，侃、㝢、奧、準。",
+          "subject_person_mention_id": "c-sanguozhi-011-sgz11:p003:m0013",
+          "object_person_mention_id": "c-sanguozhi-011-sgz11:p003:m0008"
+        }
+      ],
+      "interpretation_note": "裴松之注引《袁氏世紀》明列袁渙四子；本句未定絕對排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "7oq_6nv_85l": "袁奧",
+    "ae2_620_2bc": "袁渙",
     "ev9_lyp_ry2": "袁侃",
     "yoo_ox0_545_BABAAA": "荀崧"
   },
@@ -4339,6 +4461,60 @@
       },
       "interpretation_note": "依原句及本傳敘述保存；不補未載日期、婚姻、母親本名或排行。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sanguozhi-011-sgz11-m0002-base-father",
+      "subject_person_id": "ev9_lyp_ry2",
+      "predicate": "father",
+      "object_person_id": "ae2_620_2bc",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "渙子侃",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-011",
+          "chapter_id": "c-sanguozhi-011-sgz11",
+          "source_id": "s-sanguozhi-011-sgz11-ws2373044",
+          "paragraph_id": "c-sanguozhi-011-sgz11:p002",
+          "quote": "渙子侃，亦清粹閑素，有父風，歷位郡守尚書。",
+          "subject_person_mention_id": "c-sanguozhi-011-sgz11:p002:m0002",
+          "object_person_mention_id": "c-sanguozhi-011-sgz11:p002:m0000"
+        }
+      ],
+      "interpretation_note": "正文直書「渙子侃」。本傳所載陳郡與《晉書》一致，裴注及《晉書》又都把侃與奧列為兄弟。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sanguozhi-011-sgz11-m0013-quote-father",
+      "subject_person_id": "ev9_lyp_ry2",
+      "predicate": "father",
+      "object_person_id": "ae2_620_2bc",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "渙有四子，侃、㝢、奧、準",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-011",
+          "chapter_id": "c-sanguozhi-011-sgz11",
+          "source_id": "s-sanguozhi-011-sgz11-ws2373044",
+          "paragraph_id": "c-sanguozhi-011-sgz11:p003",
+          "quote": "《袁氏世紀》曰：渙有四子，侃、㝢、奧、準。",
+          "subject_person_mention_id": "c-sanguozhi-011-sgz11:p003:m0013",
+          "object_person_mention_id": "c-sanguozhi-011-sgz11:p003:m0008"
+        }
+      ],
+      "interpretation_note": "裴松之注引《袁氏世紀》明列袁渙四子；本句未定絕對排行。",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }
