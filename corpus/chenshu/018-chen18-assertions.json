@@ -1,0 +1,42 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-chenshu-018-chen18",
+  "assertions": [
+    {
+      "id": "a-chenshu-018-chen18-m0000-origin-brother",
+      "subject_person_id": "q7m_r8k_2vn_ABAD",
+      "predicate": "brother",
+      "object_person_id": "q7m_r8k_2vn_ABAC",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "通之弟",
+        "lineage": "paternal",
+        "relative_birth_order": {
+          "older_person_id": "q7m_r8k_2vn_ABAC",
+          "younger_person_id": "q7m_r8k_2vn_ABAD",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-018",
+          "chapter_id": "c-chenshu-018-chen18",
+          "source_id": "s-chenshu-018-chen18-ws2132778",
+          "paragraph_id": "c-chenshu-018-chen18:p001",
+          "quote": "王質字子貞，右光祿大夫通之弟也。",
+          "subject_person_mention_id": "c-chenshu-018-chen18:p001:m0000",
+          "object_person_mention_id": "c-chenshu-018-chen18:p001:m0011"
+        }
+      ],
+      "interpretation_note": "明稱王通之弟。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

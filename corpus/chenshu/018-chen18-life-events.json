@@ -1,0 +1,87 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-chenshu-018-chen18",
+  "events": [
+    {
+      "id": "le-chenshu-018-chen18-質",
+      "person_id": "q7m_r8k_2vn_ABAD",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "太建二年",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-chenshu-018-chen18:p002",
+        "start": 80,
+        "end": 81,
+        "surface": "卒"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-018",
+          "chapter_id": "c-chenshu-018-chen18",
+          "source_id": "s-chenshu-018-chen18-ws2132778",
+          "paragraph_id": "c-chenshu-018-chen18:p002",
+          "quote": "高宗為揚州刺史，以質為仁威將軍、驃騎府長史。天嘉二年，除晉安太守。高宗輔政，以為司徒左長史，將軍如故。坐公事免官。尋為通直散騎常侍，遷太府卿、都官尚書。太建二年卒，時年六十。贈本官，諡曰安子。",
+          "person_mention_id": "c-chenshu-018-chen18:p002:m0009"
+        }
+      ],
+      "interpretation_note": "保存史書原有紀年與死亡證據。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 570,
+        "year": 570,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "太建二年",
+        "status": "editorial_provisional",
+        "original_quote": "高宗為揚州刺史，以質為仁威將軍、驃騎府長史。天嘉二年，除晉安太守。高宗輔政，以為司徒左長史，將軍如故。坐公事免官。尋為通直散騎常侍，遷太府卿、都官尚書。太建二年卒，時年六十。贈本官，諡曰安子。",
+        "evidence": [
+          {
+            "work_id": "w-chenshu",
+            "book_id": "b-chenshu-018",
+            "chapter_id": "c-chenshu-018-chen18",
+            "source_id": "s-chenshu-018-chen18-ws2132778",
+            "paragraph_id": "c-chenshu-018-chen18:p002",
+            "quote": "高宗為揚州刺史，以質為仁威將軍、驃騎府長史。天嘉二年，除晉安太守。高宗輔政，以為司徒左長史，將軍如故。坐公事免官。尋為通直散騎常侍，遷太府卿、都官尚書。太建二年卒，時年六十。贈本官，諡曰安子。",
+            "person_mention_id": "c-chenshu-018-chen18:p002:m0009"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "太建",
+            "columns": {
+              "dynasty": "陳",
+              "era_name": "太建",
+              "first_year": "569",
+              "last_year": "582"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-19",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "太建",
+          "source_number": "二",
+          "regnal_year": 2,
+          "start_ce_year": 569,
+          "end_ce_year": 582,
+          "reference_index": 0
+        },
+        "rationale": "換算至公元年，原文另存。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    }
+  ]
+}

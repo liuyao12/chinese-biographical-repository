@@ -1,0 +1,122 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-chenshu-018-chen18",
+  "work_id": "w-chenshu",
+  "book_id": "b-chenshu-018",
+  "source_id": "s-chenshu-018-chen18-ws2132778",
+  "title": "王質傳",
+  "source": {
+    "title": "陳書卷18·王質傳",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?title=陳書/卷18&oldid=2132778",
+    "permalink": "https://zh.wikisource.org/w/index.php?title=陳書/卷18&oldid=2132778",
+    "revision_id": 2132778,
+    "accessed_on": "2026-11-19",
+    "edition": "維基文庫固定數位見證，所據刻本待核，未核武英殿本。",
+    "extent": "王質傳的指定句段，用於親屬、身份、任官及紀年查核。",
+    "text_scope": "partial_chapter",
+    "image_verified": false,
+    "review_status": "text_checked",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+    "section_locator": "王質傳"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "completion_note": "王質傳的指定句段，用於親屬、身份、任官及紀年查核。",
+    "reviewer": "Codex（AI代理）",
+    "human_reviewed": false,
+    "model": null,
+    "age_assertions": [
+      {
+        "id": "age-chenshu-018-chen18-質",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "value": 60,
+        "source_number": "六十",
+        "source_term": "年六十",
+        "counting": "unspecified_source_age",
+        "unit": "source_age_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-chenshu",
+            "book_id": "b-chenshu-018",
+            "chapter_id": "c-chenshu-018-chen18",
+            "source_id": "s-chenshu-018-chen18-ws2132778",
+            "paragraph_id": "c-chenshu-018-chen18:p002",
+            "quote": "高宗為揚州刺史，以質為仁威將軍、驃騎府長史。天嘉二年，除晉安太守。高宗輔政，以為司徒左長史，將軍如故。坐公事免官。尋為通直散騎常侍，遷太府卿、都官尚書。太建二年卒，時年六十。贈本官，諡曰安子。",
+            "person_mention_id": "c-chenshu-018-chen18:p002:m0009"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-chenshu-018-chen18-質"
+        },
+        "interpretation_note": "保存來源報齡。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-chenshu-018-chen18:p001",
+      "text": "王質字子貞，右光祿大夫通之弟也。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-chenshu-018-chen18:p001:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "王質",
+          "kind": "person",
+          "person_id": "q7m_r8k_2vn_ABAD",
+          "identification_status": "contextual_provisional",
+          "interpretation_note": "《陳書》稱王通之弟；同父為家系判讀。"
+        },
+        {
+          "id": "c-chenshu-018-chen18:p001:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "子貞",
+          "kind": "person",
+          "person_id": "q7m_r8k_2vn_ABAD",
+          "identification_status": "contextual_provisional",
+          "interpretation_note": "《陳書》稱王通之弟；同父為家系判讀。"
+        },
+        {
+          "id": "c-chenshu-018-chen18:p001:m0011",
+          "start": 11,
+          "end": 12,
+          "surface": "通",
+          "kind": "person",
+          "person_id": "q7m_r8k_2vn_ABAC",
+          "identification_status": "contextual_provisional",
+          "interpretation_note": "《陳書》王通本傳明載父琳、祖份。"
+        }
+      ]
+    },
+    {
+      "id": "c-chenshu-018-chen18:p002",
+      "text": "高宗為揚州刺史，以質為仁威將軍、驃騎府長史。天嘉二年，除晉安太守。高宗輔政，以為司徒左長史，將軍如故。坐公事免官。尋為通直散騎常侍，遷太府卿、都官尚書。太建二年卒，時年六十。贈本官，諡曰安子。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-chenshu-018-chen18:p002:m0009",
+          "start": 9,
+          "end": 10,
+          "surface": "質",
+          "kind": "person",
+          "person_id": "q7m_r8k_2vn_ABAD",
+          "identification_status": "contextual_provisional",
+          "interpretation_note": "《陳書》稱王通之弟；同父為家系判讀。"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "df471c166609fdfe157104ea6aa83611c89c74e1a74def1ea7a719e74fb170ab"
+}

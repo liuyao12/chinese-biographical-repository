@@ -1,0 +1,112 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-chenshu-021-chen21",
+  "events": [
+    {
+      "id": "le-chenshu-021-chen21-固",
+      "person_id": "q7m_r8k_2vn_ABAE",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "七年",
+      "source_term": "卒官",
+      "source_anchor": {
+        "paragraph_id": "c-chenshu-021-chen21:p004",
+        "start": 43,
+        "end": 45,
+        "surface": "卒官"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-021",
+          "chapter_id": "c-chenshu-021-chen21",
+          "source_id": "s-chenshu-021-chen21-ws1511909",
+          "paragraph_id": "c-chenshu-021-chen21:p004",
+          "quote": "太建二年，隨例為招遠將軍、宣惠豫章王諮議參軍。遷太中大夫、太常卿、南徐州大中正。七年，卒官，時年六十三。贈金紫光祿大夫。喪事所須，隨由資給。至德二年改葬，謚曰恭子。",
+          "person_mention_id": "c-chenshu-021-chen21:p003:m0003",
+          "context": {
+            "kind": "prior_paragraph_subject",
+            "paragraph_id": "c-chenshu-021-chen21:p003",
+            "person_mention_id": "c-chenshu-021-chen21:p003:m0003",
+            "quote": "高宗以固本無兵權，且居處清潔，止免所居官，禁錮。",
+            "intervening_paragraph_ids": []
+          }
+        }
+      ],
+      "interpretation_note": "保存史書原有紀年與死亡證據。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 575,
+        "year": 575,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "七年",
+        "status": "editorial_provisional",
+        "original_quote": "太建二年，隨例為招遠將軍、宣惠豫章王諮議參軍。遷太中大夫、太常卿、南徐州大中正。七年，卒官，時年六十三。贈金紫光祿大夫。喪事所須，隨由資給。至德二年改葬，謚曰恭子。",
+        "evidence": [
+          {
+            "work_id": "w-chenshu",
+            "book_id": "b-chenshu-021",
+            "chapter_id": "c-chenshu-021-chen21",
+            "source_id": "s-chenshu-021-chen21-ws1511909",
+            "paragraph_id": "c-chenshu-021-chen21:p004",
+            "quote": "太建二年，隨例為招遠將軍、宣惠豫章王諮議參軍。遷太中大夫、太常卿、南徐州大中正。七年，卒官，時年六十三。贈金紫光祿大夫。喪事所須，隨由資給。至德二年改葬，謚曰恭子。",
+            "person_mention_id": "c-chenshu-021-chen21:p003:m0003",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-chenshu-021-chen21:p003",
+              "person_mention_id": "c-chenshu-021-chen21:p003:m0003",
+              "quote": "高宗以固本無兵權，且居處清潔，止免所居官，禁錮。",
+              "intervening_paragraph_ids": []
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "太建",
+            "columns": {
+              "dynasty": "陳",
+              "era_name": "太建",
+              "first_year": "569",
+              "last_year": "582"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-19",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "relative_ce_regnal_era_span",
+          "era_name": "太建",
+          "source_number": "七",
+          "regnal_year": 7,
+          "start_ce_year": 569,
+          "end_ce_year": 582,
+          "reference_index": 0,
+          "year_offset": 0,
+          "target_regnal_year": 7
+        },
+        "rationale": "段首太建二年，接書七年，沿用同段年號。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "relative_year_reference": {
+          "kind": "omitted_era_regnal_year",
+          "source_term": "七年",
+          "antecedent_expression": "七年",
+          "era_expression": "太建二年",
+          "era_evidence_index": 0,
+          "antecedent_evidence_index": 0,
+          "event_evidence_index": 0
+        }
+      }
+    }
+  ]
+}
