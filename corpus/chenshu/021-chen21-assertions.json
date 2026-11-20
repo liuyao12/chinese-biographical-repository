@@ -1,0 +1,119 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-chenshu-021-chen21",
+  "assertions": [
+    {
+      "id": "a-chenshu-021-chen21-m0000-origin-brother",
+      "subject_person_id": "q7m_r8k_2vn_ABAE",
+      "predicate": "brother",
+      "object_person_id": "q7m_r8k_2vn_ABAC",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "通之弟",
+        "lineage": "paternal",
+        "relative_birth_order": {
+          "older_person_id": "q7m_r8k_2vn_ABAC",
+          "younger_person_id": "q7m_r8k_2vn_ABAE",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-021",
+          "chapter_id": "c-chenshu-021-chen21",
+          "source_id": "s-chenshu-021-chen21-ws1511909",
+          "paragraph_id": "c-chenshu-021-chen21:p001",
+          "quote": "王固字子堅，左光祿大夫通之弟也。",
+          "subject_person_mention_id": "c-chenshu-021-chen21:p001:m0000",
+          "object_person_mention_id": "c-chenshu-021-chen21:p001:m0011"
+        }
+      ],
+      "interpretation_note": "明稱王通之弟。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-chenshu-021-chen21-m0004-brother-brother",
+      "subject_person_id": "q7m_r8k_2vn_ABAE",
+      "predicate": "brother",
+      "object_person_id": "q7m_r8k_2vn_ABAD",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "隨兄質",
+        "lineage": "paternal",
+        "relative_birth_order": {
+          "older_person_id": "q7m_r8k_2vn_ABAD",
+          "younger_person_id": "q7m_r8k_2vn_ABAE",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-021",
+          "chapter_id": "c-chenshu-021-chen21",
+          "source_id": "s-chenshu-021-chen21-ws1511909",
+          "paragraph_id": "c-chenshu-021-chen21:p002",
+          "quote": "荊州陷，固之鄱陽，隨兄質度東嶺，居信安縣。",
+          "subject_person_mention_id": "c-chenshu-021-chen21:p002:m0004",
+          "object_person_mention_id": "c-chenshu-021-chen21:p002:m0011"
+        }
+      ],
+      "interpretation_note": "明稱質為兄。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-chenshu-021-chen21-m0001-son-father",
+      "subject_person_id": "q7m_r8k_2vn_ABAEA",
+      "predicate": "father",
+      "object_person_id": "q7m_r8k_2vn_ABAE",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子寬",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-021",
+          "chapter_id": "c-chenshu-021-chen21",
+          "source_id": "s-chenshu-021-chen21-ws1511909",
+          "paragraph_id": "c-chenshu-021-chen21:p005",
+          "quote": "固清虛寡慾，居喪以孝聞。又崇信佛法，及丁所生母憂，遂終身蔬食，夜則坐禪，晝誦佛經，兼習成實論義，而於玄言非所長。嘗聘於西魏，因宴饗之際，請停殺一羊，羊於固前跪拜。又宴於昆明池，魏人以南人嗜魚，大設罟網，固以佛法呪之，遂一鱗不獲。",
+          "object_person_mention_id": "c-chenshu-021-chen21:p005:m0000"
+        },
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-021",
+          "chapter_id": "c-chenshu-021-chen21",
+          "source_id": "s-chenshu-021-chen21-ws1511909",
+          "paragraph_id": "c-chenshu-021-chen21:p006",
+          "quote": "子寬，官至司徒左長史、侍中。",
+          "subject_person_mention_id": "c-chenshu-021-chen21:p006:m0001"
+        }
+      ],
+      "interpretation_note": "相鄰段傳主承接，父固。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-chenshu-021-chen21:p005",
+          "c-chenshu-021-chen21:p006"
+        ]
+      }
+    }
+  ]
+}
