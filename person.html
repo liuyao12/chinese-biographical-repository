@@ -1,1 +1,27 @@
-<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>人物資料 · 人文</title><link rel="stylesheet" href="assets/profile.css"><link rel="stylesheet" href="assets/historical-tables.css"></head><body><header><a class="brand" href="./">人文</a><nav><a href="cbr.html" data-i18n="CBR people">CBR 人物</a><a href="shiji.html">史記</a><a href="profiles.html">ECCP 人物</a></nav></header><div class="cbr-profile-page"><label>選擇人物 <select id="cbr-person-select" aria-label="選擇人物"></select></label><p><a id="cbr-person-table-back" href="shiji.html">回到《史記》 →</a></p></div><main id="cbr-profile" class="cbr-profile-page"><p role="status">載入人物資料…</p></main><script type="module" src="assets/cbr-person-page.js"></script></body></html>
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="依據歷史文獻與可追溯來源整理的人物資料。">
+  <title>人物資料 · 人文</title>
+  <link rel="stylesheet" href="assets/profile.css">
+  <link rel="stylesheet" href="assets/historical-tables.css">
+  <link rel="stylesheet" href="assets/cbr-person-page.css">
+</head>
+<body class="cbr-person-document">
+  <header class="person-site-header">
+    <a class="brand" href="./"><span lang="zh-Hant">人文</span><span>REN-WEN</span></a>
+    <nav aria-label="主要導覽" data-i18n-aria-label="Project"><a href="reader.html" data-i18n="Source texts">文獻</a><a href="cbr.html" data-i18n="CBR people">人物</a><a href="works.html" data-i18n="Works · 文">著作</a><a href="places.html" data-i18n="Place names">地名</a><a href="texts.html" data-i18n="Text structure">文本層次</a></nav>
+  </header>
+  <main class="cbr-profile-page cbr-person-shell">
+    <a class="person-source-return" id="cbr-person-table-back" href="cbr.html">返回 CBR 人物目錄 →</a>
+    <section aria-labelledby="person-loading-title" class="person-loading" id="cbr-profile">
+      <p class="eyebrow">CBR · 人物資料</p>
+      <h1 id="person-loading-title">正在讀取來源人物資料</h1>
+      <p role="status">載入人物紀錄…</p>
+    </section>
+  </main>
+  <script type="module" src="assets/cbr-person-page.js"></script>
+</body>
+</html>
