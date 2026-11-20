@@ -41,7 +41,9 @@ class WangBinSourceFamily(unittest.TestCase):
             self.assertEqual(m['parent_connection']['type'], 'shared_father_through_sibling')
         self.assertEqual(members['7r6_k52_qji_ABFA']['source_assertion_id'], 'a-jinshu076-leng-father')
         chen = [p for p in read('registry/persons.json')['persons'] if p['label'] == '王琛']
-        self.assertEqual([p['id'] for p in chen], ['7r6_k52_qji_ABF'])
+        self.assertEqual([p['id'] for p in chen if p['id'] in members], ['7r6_k52_qji_ABF'])
+        other_chen = next(p for p in chen if p['id'] == 'q7m_r8k_2vn_AAA')
+        self.assertEqual(other_chen['family_path']['parent_person_id'], 'q7m_r8k_2vn_AA')
 
     def test_nephew_does_not_acquire_the_nearest_named_brothers_father(self):
         person = next(p for p in read('registry/persons.json')['persons'] if p['label'] == '王籍之')
