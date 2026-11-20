@@ -1,0 +1,118 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-epitaph-wangyi-excerpts",
+  "events": [
+    {
+      "id": "le-wangyi-epitaph-death",
+      "person_id": "q7m_r8k_2vn_AAAA",
+      "event_type": "death",
+      "source_term": "終於位",
+      "source_anchor": {
+        "paragraph_id": "c-epitaph-wangyi-excerpts:p002",
+        "start": 24,
+        "end": 27,
+        "surface": "終於位"
+      },
+      "status": "source_attested",
+      "date_expression": "永安元年歲在戊申十二月壬午朔廿日辛丑",
+      "evidence": [
+        {
+          "work_id": "w-epitaph-wangyi",
+          "book_id": "b-epitaph-wangyi-excerpts",
+          "source_id": "s-epitaph-wangyi-excerpts-rubbing-reproduction",
+          "chapter_id": "c-epitaph-wangyi-excerpts",
+          "paragraph_id": "c-epitaph-wangyi-excerpts:p002",
+          "quote": "春秋卌有五，永安元年歲在戊申十二月壬午朔廿日辛丑終於位。",
+          "person_mention_id": "c-epitaph-wangyi-excerpts:p001:m0080",
+          "context": {
+            "kind": "prior_paragraph_subject",
+            "paragraph_id": "c-epitaph-wangyi-excerpts:p001",
+            "person_mention_id": "c-epitaph-wangyi-excerpts:p001:m0080",
+            "quote": "祖諱奐，齊故尚書左僕射、使持節、鎮北將軍、雍州刺史。夫人陳郡殷氏，父道矜，太中大夫。父諱琛，齊故司徒從事中郎。夫人彭城劉氏，嘉興縣主，父義恭，宋太宰江夏王。公諱翊，字仕翔，徐州琅耶郡臨沂縣都鄉南仁里人也。",
+            "intervening_paragraph_ids": []
+          }
+        }
+      ],
+      "interpretation_note": "圖版明記卒日及終於任所；地名未見於本句。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 528,
+        "year": 528,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "永安元年",
+        "status": "editorial_provisional",
+        "original_quote": "春秋卌有五，永安元年歲在戊申十二月壬午朔廿日辛丑終於位。",
+        "evidence": [
+          {
+            "work_id": "w-epitaph-wangyi",
+            "book_id": "b-epitaph-wangyi-excerpts",
+            "source_id": "s-epitaph-wangyi-excerpts-rubbing-reproduction",
+            "chapter_id": "c-epitaph-wangyi-excerpts",
+            "paragraph_id": "c-epitaph-wangyi-excerpts:p002",
+            "quote": "春秋卌有五，永安元年歲在戊申十二月壬午朔廿日辛丑終於位。",
+            "person_mention_id": "c-epitaph-wangyi-excerpts:p001:m0080",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-epitaph-wangyi-excerpts:p001",
+              "person_mention_id": "c-epitaph-wangyi-excerpts:p001:m0080",
+              "quote": "祖諱奐，齊故尚書左僕射、使持節、鎮北將軍、雍州刺史。夫人陳郡殷氏，父道矜，太中大夫。父諱琛，齊故司徒從事中郎。夫人彭城劉氏，嘉興縣主，父義恭，宋太宰江夏王。公諱翊，字仕翔，徐州琅耶郡臨沂縣都鄉南仁里人也。",
+              "intervening_paragraph_ids": []
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=3",
+            "quote": "永安",
+            "columns": {
+              "dynasty": "北魏",
+              "era_name": "永安",
+              "first_year": "528",
+              "last_year": "530"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-19",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "reference_index": 0,
+          "start_ce_year": 528,
+          "end_ce_year": 530,
+          "regnal_year": 1,
+          "source_number": "元",
+          "era_name": "永安"
+        },
+        "rationale": "依教育部年號表換算中國曆年標籤，未換算西曆月日。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false
+      },
+      "epitaph_date_parts": {
+        "calendar": "chinese_lunisolar",
+        "month": 12,
+        "day": 20,
+        "month_anchor": {
+          "paragraph_id": "c-epitaph-wangyi-excerpts:p002",
+          "start": 14,
+          "end": 17,
+          "surface": "十二月"
+        },
+        "day_anchor": {
+          "paragraph_id": "c-epitaph-wangyi-excerpts:p002",
+          "start": 20,
+          "end": 22,
+          "surface": "廿日"
+        },
+        "precision": "source_month_day_no_gregorian_conversion"
+      }
+    }
+  ]
+}

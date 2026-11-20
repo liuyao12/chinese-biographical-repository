@@ -1,10 +1,41 @@
-"""Ancient inscription quoted by a modern printed witness; never an image-collation claim."""
+"""Validate the provenance of transcribed ancient inscriptions."""
 import json,hashlib,re,unicodedata
 from pathlib import Path
 LAYER='epitaph_as_modernly_transcribed'
 
+def rubbing_excerpt_errors(chapter, work, book):
+    source = chapter['source']
+    witness = source['transcription_witness']
+    if (source.get('image_verified') is not True or source.get('text_scope') != 'partial_chapter'
+            or source.get('license_scope') != 'classical_inscription_text_only'
+            or source.get('revision_id') is not None or witness.get('scope') != 'selected_classical_inscription_passages'
+            or witness.get('original_object_accessed') is not False
+            or witness.get('original_rubbing_custody_known') is not False
+            or work.get('work_type') != 'single_epitaph'
+            or book.get('unit_kind') != 'editorial_single_text_container' or book.get('number') is not None):
+        return ['拓片節錄須記圖版核讀範圍與原件限制']
+    plates = source.get('image_witnesses', [])
+    if not plates or any(
+        type(item.get('part')) is not int or item['part'] < 1
+        or not item.get('url', '').startswith('https://')
+        or not re.fullmatch('[0-9a-f]{64}', item.get('sha256', '')) for item in plates
+    ):
+        return ['拓片節錄缺圖版網址與指紋']
+    parts = {item['part'] for item in plates}
+    if len(parts) != len(plates):
+        return ['拓片節錄圖版重複']
+    for paragraph in chapter['paragraphs']:
+        location = paragraph.get('witness_locator', {})
+        located_parts = location.get('image_parts', [])
+        if not located_parts or not set(located_parts).issubset(parts) or not location.get('locus'):
+            return ['拓片節錄缺段落圖版定位']
+    return []
+
+
 def errors(chapter,root,works,books):
  source=chapter.get('source',{});w=source.get('transcription_witness')
+ if isinstance(w,dict) and w.get('kind')=='rubbing_reproduction_excerpts':
+  return rubbing_excerpt_errors(chapter, works.get(chapter['work_id'], {}), books.get(chapter['book_id'], {}))
  if isinstance(w,dict) and w.get('kind')=='institutional_database_epitaph_transcription':
   try:
    from .epitaph_database_witness import errors as database_errors

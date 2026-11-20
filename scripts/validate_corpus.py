@@ -2100,7 +2100,12 @@ def _validate_uncached(root=ROOT):
                               and age['qualified_source_term'].endswith(str(age.get('source_term')))
                               and any(age['qualified_source_term'] in e.get('quote', '') for e in age.get('evidence', [])), '個人報齡缺來源限定詞或傳聞狀態')
                 else:
-                    check(direct_source_age_valid(age) or (chapter.get('annotation',{}).get('epitaph_life_binding',{}).get('kind')=='epitaph_named_head_dated_death_and_burial' and age.get('source_term')=='春秋'+str(age.get('source_number')) and source_age_number(age.get('source_number'))==age.get('value')), '來源年齡數值與原詞不符')
+                    epitaph_death_age = (
+                        works[chapter['work_id']].get('work_type') == 'single_epitaph'
+                        and age.get('age_context', {}).get('kind') == 'at_death'
+                        and age.get('source_term') == '春秋' + str(number)
+                        and type(age.get('value')) is int and parsed == age['value'])
+                    check(direct_source_age_valid(age) or epitaph_death_age, '來源年齡數值與原詞不符')
                 check(age.get('counting') == 'unspecified_source_age' and age.get('unit') == 'source_age_years'
                       and age.get('birth_year') is None and age.get('status') == 'source_attested',
                       '來源年齡不得推定計歲方式或出生年')
@@ -2370,7 +2375,9 @@ def _validate_uncached(root=ROOT):
                           '使外任事年數須有事國原詞、相符數字及任務單位，不作爵位任期')
                 if event['event_type'] == 'burial':
                     term = event.get('source_term')
-                    check(isinstance(term, str) and ('葬' in term or term=='卜窆' and chapters[record['chapter_id']].get('annotation',{}).get('epitaph_life_binding',{}).get('kind')=='epitaph_named_head_dated_death_and_burial') and any(term in e.get('quote', '') for e in event.get('evidence', [])), '埋葬事件須有原文明示葬詞及相符引句')
+                    check(isinstance(term, str) and ('葬' in term or term in ('窆', '卜窆'))
+                          and any(term in e.get('quote', '') for e in event.get('evidence', [])),
+                          '埋葬事件須有原文明示葬詞及相符引句')
                 if event['event_type'] in ('office_non_reinstatement', 'office_restoration'):
                     term = event.get('source_term')
                     required = '不復官' if event['event_type'] == 'office_non_reinstatement' else '復就故官'
@@ -2495,7 +2502,19 @@ def _validate_uncached(root=ROOT):
                     check(isinstance(expression, str) and bool(expression) or parallel_event_date(date), '生卒數字紀年缺原日期表述')
                     if isinstance(date, dict):
                         check(local_death_date or date.get('original_quote') in [e['quote'] for e in event['evidence']], '生卒數字紀年原句不符')
-                        check(local_death_date or date.get('evidence') == event['evidence'], '生卒数值證據與事件不符'.replace('数','數'))
+                        date_evidence = date.get('evidence', [])
+                        inherited_burial_era = (
+                            event['event_type'] == 'burial'
+                            and date.get('relative_year_reference', {}).get('kind') == 'omitted_era_regnal_year'
+                            and len(date_evidence) == 2 and date_evidence[1:] == event['evidence']
+                            and date_evidence[0].get('paragraph_id')
+                                in event['evidence'][0].get('context', {}).get('intervening_paragraph_ids', [])
+                            and date_evidence[0].get('person_mention_id') == event['evidence'][0].get('person_mention_id')
+                            and date_evidence[0].get('chapter_id') == record['chapter_id']
+                            and date_evidence[0].get('quote')
+                                == paragraphs.get(date_evidence[0].get('paragraph_id'), (None, {}))[1].get('text'))
+                        check(local_death_date or inherited_burial_era or date_evidence == event['evidence'],
+                              '生卒數值證據與事件不符')
         try:
             from scripts.life_event_dates import date_decision_errors, date_record_scope_errors
         except ImportError:

@@ -258,6 +258,26 @@ def validate_name_component_alternatives(name):
             raise ValueError('姓名組件異說須有固定來源、原引文與相符名／字原詞')
 
 
+def select_person_source_preferences(decisions, names, ages, life_events, relations):
+    """Check field-specific preferences against the original same-person records."""
+    eligible = {
+        'zi': {n.get('id'): n['person_id'] for n in names if n.get('id') and n.get('zi')},
+        'age_at_death': {a['id']: a['person_id'] for a in ages if a.get('age_context', {}).get('kind') == 'at_death'},
+        'death': {e['id']: e['person_id'] for e in life_events if e['event_type'] == 'death'},
+        'father': {a['id']: a['subject_person_id'] for a in relations if a['predicate'] == 'father'},
+    }
+    scopes = set()
+    for decision in decisions:
+        person, field = decision['person_id'], decision['field']
+        candidates = [decision['preferred_record_id'], *decision['alternative_record_ids']]
+        if ((person, field) in scopes or not decision.get('rationale') or len(candidates) < 2
+                or len(set(candidates)) != len(candidates)
+                or any(eligible.get(field, {}).get(record_id) != person for record_id in candidates)):
+            raise ValueError('人物史料首選須指向同人同欄位的原始陳述')
+        scopes.add((person, field))
+    return decisions
+
+
 def table_person_occurrences(table, person_ids):
     """保留逐人錨點與原格座標；編者西元欄不轉成人物事件日期。"""
     source = table['source']
@@ -427,6 +447,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     preferred_name_components = validated_readings(records,
         [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
         chapters, ids)
+    source_preferences = select_person_source_preferences([
+        decision for chapter in chapters.values()
+        for decision in chapter['annotation'].get('person_source_preferences', [])
+        if decision['person_id'] in ids
+    ], name_components, ages, life_events, relations)
     date_decisions = [d for r in records if r.get('record_type') == 'life_event_date_decision_set'
                       for d in r['decisions'] if set(d['person_ids']).issubset(ids)]
     try:
@@ -810,6 +835,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                                    'unreviewed_conflicts_may_remain': True, 'runtime_ai_required': False},
             'family_paths': [dict(people[pid]['family_path'], person_id=pid) for pid in sorted(ids) if 'family_path' in people[pid]],
             **({'name_components': name_components} if name_components else {}),
+            **({'person_source_preferences': source_preferences} if source_preferences else {}),
             **({'preferred_name_component_readings': preferred_name_components} if preferred_name_components else {}),
             **({'person_events': person_events} if person_events else {}),
             **({'life_events': life_events} if life_events else {}),

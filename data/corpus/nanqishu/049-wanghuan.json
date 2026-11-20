@@ -14,7 +14,7 @@
     "revision_id": 2261984,
     "accessed_on": "2026-11-19",
     "edition": "維基文庫固定數位見證；刻本與書影未核。",
-    "extent": "僅錄王奐傳親屬與出繼句；非全傳。",
+    "extent": "王奐傳親屬、出繼及王琛遇害選段。",
     "text_scope": "partial_chapter",
     "review_status": "text_checked",
     "image_verified": false,
@@ -26,7 +26,7 @@
     "human_reviewed": false,
     "reviewer": "Codex（AI代理）",
     "scope": "王奐家系",
-    "completion_note": "僅錄王奐傳親屬與出繼句；非全傳。"
+    "completion_note": "王奐傳親屬、出繼及王琛遇害選段。"
   },
   "paragraphs": [
     {
@@ -86,7 +86,35 @@
           "interpretation_note": "依生系稱謂和出繼記載辨識，沿原文用字。"
         }
       ]
+    },
+    {
+      "id": "c-nanqishu-049-wanghuan:p002",
+      "text": "奐長子太子中庶子融，融弟司徒從事中郎琛，於都棄市。餘孫皆原宥。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-nanqishu-049-wanghuan:p002:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "奐",
+          "kind": "person",
+          "person_id": "q7m_r8k_2vn_AA",
+          "identification_status": "contextual_provisional",
+          "interpretation_note": "依本段稱謂及跨篇人物關係辨識，保留原字。"
+        },
+        {
+          "id": "c-nanqishu-049-wanghuan:p002:m0018",
+          "start": 18,
+          "end": 19,
+          "surface": "琛",
+          "kind": "person",
+          "person_id": "q7m_r8k_2vn_AAA",
+          "identification_status": "contextual_provisional",
+          "interpretation_note": "依本段稱謂及跨篇人物關係辨識，保留原字。"
+        }
+      ]
     }
   ],
-  "text_sha256": "29c78702b93983178095f286091dd27a890b2cf950409b3ed82f235ed27cf44f"
+  "text_sha256": "9c15fc5c71e6bf6d23ae8b726d29d5dd187903bbe7db066ea447e3404968b4b6"
 }

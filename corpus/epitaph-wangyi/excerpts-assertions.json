@@ -1,0 +1,90 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-epitaph-wangyi-excerpts",
+  "assertions": [
+    {
+      "id": "a-wangyi-epitaph-chen-father",
+      "subject_person_id": "q7m_r8k_2vn_AAAA",
+      "object_person_id": "q7m_r8k_2vn_AAA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父諱琛",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-epitaph-wangyi",
+          "book_id": "b-epitaph-wangyi-excerpts",
+          "source_id": "s-epitaph-wangyi-excerpts-rubbing-reproduction",
+          "chapter_id": "c-epitaph-wangyi-excerpts",
+          "paragraph_id": "c-epitaph-wangyi-excerpts:p001",
+          "quote": "祖諱奐，齊故尚書左僕射、使持節、鎮北將軍、雍州刺史。夫人陳郡殷氏，父道矜，太中大夫。父諱琛，齊故司徒從事中郎。夫人彭城劉氏，嘉興縣主，父義恭，宋太宰江夏王。公諱翊，字仕翔，徐州琅耶郡臨沂縣都鄉南仁里人也。",
+          "subject_person_mention_id": "c-epitaph-wangyi-excerpts:p001:m0080",
+          "object_person_mention_id": "c-epitaph-wangyi-excerpts:p001:m0044"
+        }
+      ],
+      "interpretation_note": "誌首明記王翊之父。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wangyi-epitaph-huan-grandfather",
+      "subject_person_id": "q7m_r8k_2vn_AAAA",
+      "object_person_id": "q7m_r8k_2vn_AA",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖諱奐",
+        "lineage": "paternal",
+        "generation_distance": 2
+      },
+      "evidence": [
+        {
+          "work_id": "w-epitaph-wangyi",
+          "book_id": "b-epitaph-wangyi-excerpts",
+          "source_id": "s-epitaph-wangyi-excerpts-rubbing-reproduction",
+          "chapter_id": "c-epitaph-wangyi-excerpts",
+          "paragraph_id": "c-epitaph-wangyi-excerpts:p001",
+          "quote": "祖諱奐，齊故尚書左僕射、使持節、鎮北將軍、雍州刺史。夫人陳郡殷氏，父道矜，太中大夫。父諱琛，齊故司徒從事中郎。夫人彭城劉氏，嘉興縣主，父義恭，宋太宰江夏王。公諱翊，字仕翔，徐州琅耶郡臨沂縣都鄉南仁里人也。",
+          "subject_person_mention_id": "c-epitaph-wangyi-excerpts:p001:m0080",
+          "object_person_mention_id": "c-epitaph-wangyi-excerpts:p001:m0002"
+        }
+      ],
+      "interpretation_note": "誌首明記王翊之祖。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wangyi-epitaph-chen-huan-pedigree",
+      "subject_person_id": "q7m_r8k_2vn_AAA",
+      "object_person_id": "q7m_r8k_2vn_AA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖諱奐",
+        "lineage": "paternal",
+        "evidence_mode": "inferred_from_paternal_pedigree"
+      },
+      "evidence": [
+        {
+          "work_id": "w-epitaph-wangyi",
+          "book_id": "b-epitaph-wangyi-excerpts",
+          "source_id": "s-epitaph-wangyi-excerpts-rubbing-reproduction",
+          "chapter_id": "c-epitaph-wangyi-excerpts",
+          "paragraph_id": "c-epitaph-wangyi-excerpts:p001",
+          "quote": "祖諱奐，齊故尚書左僕射、使持節、鎮北將軍、雍州刺史。夫人陳郡殷氏，父道矜，太中大夫。父諱琛，齊故司徒從事中郎。夫人彭城劉氏，嘉興縣主，父義恭，宋太宰江夏王。公諱翊，字仕翔，徐州琅耶郡臨沂縣都鄉南仁里人也。",
+          "subject_person_mention_id": "c-epitaph-wangyi-excerpts:p001:m0044",
+          "object_person_mention_id": "c-epitaph-wangyi-excerpts:p001:m0002"
+        }
+      ],
+      "interpretation_note": "據墓誌同列父琛與祖奐的父系世次判讀；《南齊書》王奐傳也以琛為長子融之弟。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
