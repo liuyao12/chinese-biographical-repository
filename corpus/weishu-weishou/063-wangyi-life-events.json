@@ -1,0 +1,100 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-weishu-weishou-063-wangyi",
+  "events": [
+    {
+      "id": "le-wangyi-weishu-death",
+      "person_id": "q7m_r8k_2vn_AAAA",
+      "event_type": "death",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-weishu-weishou-063-wangyi:p002",
+        "start": 5,
+        "end": 6,
+        "surface": "卒"
+      },
+      "status": "source_attested",
+      "date_expression": "永安元年冬",
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-063",
+          "source_id": "s-weishu-weishou-063-wangyi-ws1513418",
+          "chapter_id": "c-weishu-weishou-063-wangyi",
+          "paragraph_id": "c-weishu-weishou-063-wangyi:p002",
+          "quote": "永安元年冬卒，年三十七。",
+          "person_mention_id": "c-weishu-weishou-063-wangyi:p001:m0000",
+          "context": {
+            "kind": "prior_paragraph_subject",
+            "paragraph_id": "c-weishu-weishou-063-wangyi:p001",
+            "person_mention_id": "c-weishu-weishou-063-wangyi:p001:m0000",
+            "quote": "翊，字士遊，肅次兄琛子也。",
+            "intervening_paragraph_ids": []
+          }
+        }
+      ],
+      "interpretation_note": "傳文明載卒年、季節及異報齡。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 528,
+        "year": 528,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "永安元年",
+        "status": "editorial_provisional",
+        "original_quote": "永安元年冬卒，年三十七。",
+        "evidence": [
+          {
+            "work_id": "w-weishu-weishou",
+            "book_id": "b-weishu-weishou-063",
+            "source_id": "s-weishu-weishou-063-wangyi-ws1513418",
+            "chapter_id": "c-weishu-weishou-063-wangyi",
+            "paragraph_id": "c-weishu-weishou-063-wangyi:p002",
+            "quote": "永安元年冬卒，年三十七。",
+            "person_mention_id": "c-weishu-weishou-063-wangyi:p001:m0000",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-weishu-weishou-063-wangyi:p001",
+              "person_mention_id": "c-weishu-weishou-063-wangyi:p001:m0000",
+              "quote": "翊，字士遊，肅次兄琛子也。",
+              "intervening_paragraph_ids": []
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=3",
+            "quote": "永安",
+            "columns": {
+              "dynasty": "北魏",
+              "era_name": "永安",
+              "first_year": "528",
+              "last_year": "530"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-19",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "reference_index": 0,
+          "start_ce_year": 528,
+          "end_ce_year": 530,
+          "regnal_year": 1,
+          "source_number": "元",
+          "era_name": "永安"
+        },
+        "rationale": "依教育部年號表換算中國曆年標籤，未換算西曆月日。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false
+      }
+    }
+  ]
+}

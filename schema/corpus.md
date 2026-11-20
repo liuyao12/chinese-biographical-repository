@@ -268,6 +268,10 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `person_event_assertion_set` 可保存 `burial`，與死亡事件分開。必須原文明示：`source_term` 含葬且完整見於事件證據引句，人物錨點與篇、來源引用沿用個人事件驗證。未知日期不補數值，未記葬地不補地址。逐人 JSON 從 `person_events` 讀取；死亡及葬期不得互相推定。
 
+單方墓誌可保存外部拓片的核讀節錄。圖版的連結與指紋存於 `source.image_witnesses`，每段以 `witness_locator` 記圖版與版面位置。葬句省略年號時，換算證據保留同人同篇的前文年號及葬句原語，各筆事件仍引用自己所在的段落。誌文「春秋」報齡與同一來源的死亡事件相連，數值照錄。
+
+逐人 JSON 的 `person_source_preferences` 保存按人、按欄位的首選。每項含 `field`、`preferred_record_id`、`alternative_record_ids` 與判讀理由。欄位可為 `zi`、`age_at_death`、`death` 或 `father`。各 ID 對應逐人檔中已收錄的同人同欄位原始陳述，選讀不刪原證。
+
 ### 來源相對年齡差
 
 `annotation.age_difference_assertions` 與個人報齡分存。`person_id`、`reference_person_id` 是兩個不同人物；`comparison: younger_than`、`value` 保存原文「少某人若干歲／歳」的差值，`source_number`、`source_term` 保留原字。每筆證據同段含 `person_mention_id` 與 `reference_person_mention_id`，兩人物及原詞必須在引句內。單位為 `source_age_years`，計歲方式保持 `unspecified_source_age`，生年與日期未知，不由參考人物年譜推生年。逐人JSON從雙方皆可讀 `age_difference_assertions`，仍保留來源與篇段；不是本人的年齡。

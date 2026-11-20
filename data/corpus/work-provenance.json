@@ -471,6 +471,18 @@
       "transcription_revision": "cbr-ai-transcription-sha256:8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
       "transcription_sha256": "8977928c0263cad8f1ab482fbae1e626c9c1f12bed1b45268adbe8f32f112fc2",
       "qualification": "raw SHA為AI逐列轉錄文本，不是PDF SHA。PDF SHA1只平台報告；一〓未定與二印缺分開，75異體queue非全字已校。圖像/PDF不host。"
+    },
+    "r-wangyi-rubbing-reproduction": {
+      "title": "濟州刺史王翊墓誌拓片圖組",
+      "url": "https://www.sohu.com/a/279761580_738227",
+      "access_scope": "親核轉載圖版一、二、五、六的題署、世系及卒葬選段。",
+      "human_reviewed": false
+    },
+    "r-zhaowanli-wangyi-epitaph": {
+      "title": "漢魏南北朝墓誌集釋卷十〈王翊墓誌〉校釋",
+      "url": "https://www.shidianguji.com/zh/book/7658636452997103666/chapter/1m6s12jh55np2",
+      "access_scope": "核讀趙萬里校釋並與轉載拓片核對。",
+      "human_reviewed": false
     }
   },
   "editions": {
@@ -203556,6 +203568,60 @@
         "assertions": []
       },
       "human_reviewed": false
+    },
+    "w-epitaph-wangyi": {
+      "work_id": "w-epitaph-wangyi",
+      "title": "王翊墓誌",
+      "transmission": "excavated",
+      "composition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "無明載撰刻日。"
+      },
+      "earliest_extant_edition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "圖版轉載未明底本原藏及拓印日期。"
+      },
+      "burial": {
+        "status": "reported",
+        "assertions": [
+          {
+            "event_kind": "burial",
+            "date": {
+              "calendar": "chinese_civil",
+              "year_numbering": "astronomical",
+              "start_year": 529,
+              "end_year": 529,
+              "month": 2,
+              "day": 27,
+              "precision": "day"
+            },
+            "place_as_reported": "洛陽西鄉里",
+            "source_expression": "二年歲次己酉二月癸未朔廿七日己酉",
+            "reference_ids": [
+              "r-wangyi-rubbing-reproduction"
+            ],
+            "qualification": "承前永安年號；月日為原文中國曆，與卒期分存。"
+          }
+        ]
+      },
+      "excavation": {
+        "status": "reported",
+        "assertions": [
+          {
+            "event_kind": "reported_unearthing",
+            "date": null,
+            "place_as_reported": "洛陽",
+            "source_expression": "出洛陽",
+            "reference_ids": [
+              "r-zhaowanli-wangyi-epitaph"
+            ],
+            "qualification": "趙萬里報出土地，未核原發掘記錄；出土日期未詳。"
+          }
+        ]
+      },
+      "human_reviewed": false
     }
   },
   "text_bases": {
@@ -205881,6 +205947,36 @@
       "earliest_extant_basis_edition_id": null,
       "reference_ids": [],
       "note": "固定維基文庫數位見證；刻本與書影未核。"
+    },
+    "s-beishi-042-wangyi-ws2626092": {
+      "source_id": "s-beishi-042-wangyi-ws2626092",
+      "work_id": "w-beishi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-epitaph-wangyi-excerpts-rubbing-reproduction": {
+      "source_id": "s-epitaph-wangyi-excerpts-rubbing-reproduction",
+      "work_id": "w-epitaph-wangyi",
+      "status": "unknown",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "r-wangyi-rubbing-reproduction",
+        "r-zhaowanli-wangyi-epitaph"
+      ],
+      "note": "公開轉載拓片的原藏、拓印與最早刊載日期待核。"
+    },
+    "s-weishu-weishou-063-wangyi-ws1513418": {
+      "source_id": "s-weishu-weishou-063-wangyi-ws1513418",
+      "work_id": "w-weishu-weishou",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
     }
   }
 }
