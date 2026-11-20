@@ -1,0 +1,81 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-songshu-005-wangqiu-yuanjia18",
+  "events": [
+    {
+      "id": "le-songshu005-wangqiu-death",
+      "person_id": "3c9_d1d_870_B",
+      "event_type": "death",
+      "status": "source_attested",
+      "source_term": "王球卒",
+      "date_expression": "元嘉十八年",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-005",
+          "source_id": "s-songshu-005-ws2370105-wangqiu-yuanjia18",
+          "chapter_id": "c-songshu-005-wangqiu-yuanjia18",
+          "paragraph_id": "c-songshu-005-wangqiu-yuanjia18:p001",
+          "quote": "元嘉十八年\n十一月戊子，尚書僕射王球卒。",
+          "person_mention_id": "c-songshu-005-wangqiu-yuanjia18:p001:m0016"
+        }
+      ],
+      "interpretation_note": "數位校記稱各本作琳，據南史及通鑑改球；依本傳官職和卒年相合對讀，不視為獨立同名證據。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 441,
+        "year": 441,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "元嘉十八年",
+        "status": "editorial_provisional",
+        "original_quote": "元嘉十八年\n十一月戊子，尚書僕射王球卒。",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-005",
+            "source_id": "s-songshu-005-ws2370105-wangqiu-yuanjia18",
+            "chapter_id": "c-songshu-005-wangqiu-yuanjia18",
+            "paragraph_id": "c-songshu-005-wangqiu-yuanjia18:p001",
+            "quote": "元嘉十八年\n十一月戊子，尚書僕射王球卒。",
+            "person_mention_id": "c-songshu-005-wangqiu-yuanjia18:p001:m0016"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "元嘉",
+            "columns": {
+              "dynasty": "宋",
+              "era_name": "元嘉",
+              "first_year": "424",
+              "last_year": "453"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-19",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "元嘉",
+          "source_number": "十八",
+          "regnal_year": 18,
+          "start_ce_year": 424,
+          "end_ce_year": 453,
+          "reference_index": 0
+        },
+        "rationale": "中國曆年對照為441，十一月戊子照錄。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    }
+  ]
+}
