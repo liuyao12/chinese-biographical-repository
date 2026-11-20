@@ -719,7 +719,7 @@ def _validate_uncached(root=ROOT):
         except ImportError:
             from unresolved_relation_identity import group_errors
         for grouped_chapter in chapters.values():
-            errors.extend(group_errors(grouped_chapter, assertion_index, pids))
+            errors.extend(group_errors(grouped_chapter, assertion_index, pids, chapters))
         equivalence_index = {d['id']: d for path in (root / 'corpus').glob('*/*-equivalences.json')
                              for d in json.loads(path.read_text()).get('decisions', [])}
         try:

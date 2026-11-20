@@ -55,7 +55,7 @@ export async function traceFamily(person, load) {
 
   function related(p, kind) {
     const ids = own(p), result = new Map();
-    const pending = (p.unresolved_relation_identity_groups || []).filter(g => g.status === 'unresolved' && g.predicate === 'spouse' && g.same_person === null && g.distinct_people === null);
+    const pending = (p.unresolved_relation_identity_groups || []).filter(g => g.status === 'unresolved' && ['spouse', 'father'].includes(g.predicate) && g.same_person === null && g.distinct_people === null);
     for (const r of p.preferred_relations || p.relations || []) {
       if (pending.some(g => g.assertion_ids.includes(r.id))) continue;
       if (r.qualifiers?.adopted_for_family_tree === false) continue;

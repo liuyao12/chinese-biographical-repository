@@ -14,7 +14,7 @@
     "revision_id": 2626092,
     "accessed_on": "2026-11-19",
     "edition": "維基文庫固定數位見證，刻本與書影待核。",
-    "extent": "節錄附傳傳首及卒後敘事，子代之名待與《魏書》另核。",
+    "extent": "王肅傳中自「翊」至下一傳目間的王翊附傳及子嗣句。數位連結標記不錄。",
     "text_scope": "partial_chapter",
     "review_status": "text_checked",
     "image_verified": false,
@@ -27,12 +27,12 @@
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false,
     "model": null,
-    "completion_note": "節錄附傳傳首及卒後敘事，子代之名待與《魏書》另核。"
+    "completion_note": "以王翊近親及子嗣異名為本次標註範圍，其餘人物與官稱待複核。"
   },
   "paragraphs": [
     {
       "id": "c-beishi-042-wangyi:p001",
-      "text": "翊字士遊，肅次兄深子也。",
+      "text": "翊字士遊，肅次兄深子也。風神秀立，好學有文才。位中書侍郎。頗銳於榮利，結婚於元叉。為濟州刺史，清靜有政績。入為散騎常侍、金紫光祿大夫，領國子祭酒。",
       "text_layer": "received_chapter",
       "annotation_status": "in_progress",
       "mentions": [
@@ -83,8 +83,19 @@
       "text": "卒，贈司空公、徐州刺史。子琛，武定中，儀同、開府記室參軍。",
       "text_layer": "received_chapter",
       "annotation_status": "in_progress",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-beishi-042-wangyi:p002:m0013",
+          "start": 13,
+          "end": 14,
+          "surface": "琛",
+          "kind": "person",
+          "person_id": "w34_b6a_3nn",
+          "identification_status": "contextual_provisional",
+          "interpretation_note": "承王翊傳末「子琛」；與另一傳的子嗣記載是否同人待考。"
+        }
+      ]
     }
   ],
-  "text_sha256": "a95c234ab4786a9963040cb5c77a4c55941519f67b81ef30e5ee0c73710dee3b"
+  "text_sha256": "621553058c672915e4ea2af8f17da8e8fc8e967c435b081a64b1ee6c3ecebf25"
 }
