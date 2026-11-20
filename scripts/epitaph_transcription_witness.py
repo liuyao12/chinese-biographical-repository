@@ -6,11 +6,14 @@ LAYER='epitaph_as_modernly_transcribed'
 def rubbing_excerpt_errors(chapter, work, book):
     source = chapter['source']
     witness = source['transcription_witness']
+    custody_known = witness.get('original_rubbing_custody_known')
+    holding = all(isinstance(witness.get(key), str) and witness[key].strip()
+                  for key in ('holding_institution', 'catalogue_id'))
     if (source.get('image_verified') is not True or source.get('text_scope') != 'partial_chapter'
             or source.get('license_scope') != 'classical_inscription_text_only'
             or source.get('revision_id') is not None or witness.get('scope') != 'selected_classical_inscription_passages'
             or witness.get('original_object_accessed') is not False
-            or witness.get('original_rubbing_custody_known') is not False
+            or not (custody_known is False or custody_known is True and holding)
             or work.get('work_type') != 'single_epitaph'
             or book.get('unit_kind') != 'editorial_single_text_container' or book.get('number') is not None):
         return ['拓片節錄須記圖版核讀範圍與原件限制']
