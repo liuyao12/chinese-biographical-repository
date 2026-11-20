@@ -39,7 +39,9 @@ class WangRoots033(unittest.TestCase):
 
     def test_six_sons_are_not_six_absolute_ordinals(self):
         a = [a for a in self.assertions if a['predicate'] == 'father' and a['object_person_id'] == self.people['王覽']]
-        self.assertEqual({x['subject_person_id'] for x in a}, {self.people[n] for n in ['王裁','王基','王會','王正','王彥','王琛']})
+        expected = {self.people[n] for n in ['王裁', '王基', '王會', '王正', '王彥']}
+        expected.add('7r6_k52_qji_ABF')  # 王覽子王琛，與王奐子同名。
+        self.assertEqual({x['subject_person_id'] for x in a}, expected)
         self.assertTrue(all('birth_order' not in x['qualifiers'] for x in a))
         self.assertTrue(all(x['context']['kind'] == 'adjacent_paragraphs' for x in a))
 
