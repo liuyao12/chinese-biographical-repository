@@ -1752,6 +1752,41 @@
   ],
   "occurrences": [
     {
+      "number": 10,
+      "category": "",
+      "title": "安帝紀隆安四年王珣卒節錄",
+      "paragraph_id": "c-jinshu-010-wangxun-longan4:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "隆安四年\n五月丙寅，散騎常侍、衛將軍、東亭侯王珣卒。",
+      "paragraph_ids": [
+        "c-jinshu-010-wangxun-longan4:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-010-wangxun-longan4:p001:m0022"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-010-wangxun-longan4:p001:m0022": "c-jinshu-010-wangxun-longan4:p001"
+      },
+      "mention_id": "c-jinshu-010-wangxun-longan4:p001:m0022",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-010-wangxun-longan4:p001:m0022",
+          "mention_ids": [
+            "c-jinshu-010-wangxun-longan4:p001:m0022"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-010",
+      "chapter_id": "c-jinshu-010-wangxun-longan4",
+      "source_id": "s-jinshu-010-ws2567072-wangxun",
+      "work_title": "晉書"
+    },
+    {
       "number": 33,
       "category": "",
       "title": "《南齊書》卷三十三王僧䖍完整本傳（編輯選錄題）",
@@ -2437,6 +2472,27 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-010-wangxun-longan4",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-010",
+      "source_id": "s-jinshu-010-ws2567072-wangxun",
+      "source": {
+        "title": "《晉書》卷十〈安帝紀〉",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷010&oldid=2567072#隆安四年",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷010&oldid=2567072#隆安四年",
+        "revision_id": 2567072,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫數位見證；刊本未核、未核書影。",
+        "extent": "只錄隆安四年數位年段標題及王珣卒一句；中間紀事從略。對讀卷六十五，不是卷十的完整文本。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
     {
       "chapter_id": "c-jinshu-065-wangdao-family",
       "work_id": "w-jinshu",
@@ -9053,7 +9109,63 @@
     "aa6_83c_juy_DA": "謝氏（王珣妻）",
     "sm1_jfi_7k2": "王獻之"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "CE",
+      "era_year": 400,
+      "year": 400,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "calendar": "chinese_civil",
+      "source_expression": "隆安四年",
+      "status": "editorial_provisional",
+      "original_quote": "隆安四年\n五月丙寅，散騎常侍、衛將軍、東亭侯王珣卒。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-010",
+          "chapter_id": "c-jinshu-010-wangxun-longan4",
+          "source_id": "s-jinshu-010-ws2567072-wangxun",
+          "paragraph_id": "c-jinshu-010-wangxun-longan4:p001",
+          "quote": "隆安四年\n五月丙寅，散騎常侍、衛將軍、東亭侯王珣卒。",
+          "person_mention_id": "c-jinshu-010-wangxun-longan4:p001:m0022"
+        }
+      ],
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "quote": "隆安",
+          "columns": {
+            "dynasty": "東晉",
+            "era_name": "隆安",
+            "first_year": "397",
+            "last_year": "401"
+          },
+          "scope": "modern_era_year_equivalence_only",
+          "accessed_on": "2026-11-19",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_mapping": {
+        "kind": "ce_regnal_era_span",
+        "era_name": "隆安",
+        "source_number": "四",
+        "regnal_year": 4,
+        "start_ce_year": 397,
+        "end_ce_year": 401,
+        "reference_index": 0
+      },
+      "rationale": "年段標題及其正文中的四年系統繫於安帝隆安；只對照中國曆年，保留五月丙寅原文。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-jinshu010-wangxun-annal-death",
+      "person_id": "7r6_k52_qji_ABAAAA",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "title_proposals": [
     {
       "id": "tp-wangdao4-80-4",
@@ -9480,6 +9592,86 @@
     }
   ],
   "life_events": [
+    {
+      "id": "le-jinshu010-wangxun-annal-death",
+      "person_id": "7r6_k52_qji_ABAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "source_term": "王珣卒",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-010-wangxun-longan4:p001",
+        "start": 22,
+        "end": 25,
+        "surface": "王珣卒"
+      },
+      "date_expression": "隆安四年",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-010",
+          "chapter_id": "c-jinshu-010-wangxun-longan4",
+          "source_id": "s-jinshu-010-ws2567072-wangxun",
+          "paragraph_id": "c-jinshu-010-wangxun-longan4:p001",
+          "quote": "隆安四年\n五月丙寅，散騎常侍、衛將軍、東亭侯王珣卒。",
+          "person_mention_id": "c-jinshu-010-wangxun-longan4:p001:m0022"
+        }
+      ],
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 400,
+        "year": 400,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "隆安四年",
+        "status": "editorial_provisional",
+        "original_quote": "隆安四年\n五月丙寅，散騎常侍、衛將軍、東亭侯王珣卒。",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-010",
+            "chapter_id": "c-jinshu-010-wangxun-longan4",
+            "source_id": "s-jinshu-010-ws2567072-wangxun",
+            "paragraph_id": "c-jinshu-010-wangxun-longan4:p001",
+            "quote": "隆安四年\n五月丙寅，散騎常侍、衛將軍、東亭侯王珣卒。",
+            "person_mention_id": "c-jinshu-010-wangxun-longan4:p001:m0022"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "隆安",
+            "columns": {
+              "dynasty": "東晉",
+              "era_name": "隆安",
+              "first_year": "397",
+              "last_year": "401"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-19",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "隆安",
+          "source_number": "四",
+          "regnal_year": 4,
+          "start_ce_year": 397,
+          "end_ce_year": 401,
+          "reference_index": 0
+        },
+        "rationale": "年段標題及其正文中的四年系統繫於安帝隆安；只對照中國曆年，保留五月丙寅原文。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "interpretation_note": "本紀按隆安四年五月丙寅記卒；卷六十五附傳在四年解職後記「歳餘，卒」，其原記與報齡各自保留。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "le-wangdao4-86-11-9",
       "person_id": "7r6_k52_qji_ABAAAA",

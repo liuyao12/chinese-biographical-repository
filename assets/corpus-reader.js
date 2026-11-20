@@ -45,13 +45,15 @@ export function profileSourceContext(person, params) {
   return href?{href,text:`回到${sourceCitation(occurrence,person.source_chapter_directory,person.source_work_titles)} →`}:null;
 }
 export function chapterParagraph(paragraph, people = {}, context = null, workTitles = {}, extraHTML = '') {
-  const chars = Array.from(paragraph.text), fragments = [];
+  const chars = Array.from(paragraph.text), fragments = [], biographyLinks = [];
   let end = 0;
   for (const mention of paragraph.mentions) {
     if (mention.start < end || mention.end > chars.length || chars.slice(mention.start, mention.end).join('') !== mention.surface) throw new Error('人物錨點與原文不符');
     fragments.push(h(chars.slice(end, mention.start).join('')));
     const text = h(mention.surface);
-    if (mention.kind === 'person' && mention.person_id) {
+    if (mention.suppress_person_link === true) {
+      fragments.push(`<span id="${h(mention.id)}">${text}</span>`);
+    } else if (mention.kind === 'person' && mention.person_id) {
       const person = people[mention.person_id];
       const number = Number(/^c-shiji-(\d{3})-/.exec(paragraph.id || '')?.[1]);
       const params = context?.work_id && context.work_id !== 'w-shiji'
@@ -60,6 +62,12 @@ export function chapterParagraph(paragraph, people = {}, context = null, workTit
       if(params && context?.work_id && context.work_id !== 'w-shiji')params.set('mention',mention.id);
       const href = 'person.html' + (params ? '?'+params : '') + '#' + encodeURIComponent(mention.person_id);
       fragments.push(`<a id="${h(mention.id)}" class="cbr-person-link" data-person-id="${h(mention.person_id)}"${typeof mention.interpretation_note === 'string' && mention.interpretation_note.trim() ? ` data-person-reading-note="${h(mention.interpretation_note)}"` : ''} href="${h(href)}" title="${h(person?.label || mention.surface)}">${text}</a>`);
+      for (const route of mention.editorial_biographies || []) {
+        const href = sourcePassageURL(route.target);
+        if (href && typeof route.label === 'string') {
+          biographyLinks.push(`<li><a href="${h(href)}">${text} · ${h(route.label)}</a></li>`);
+        }
+      }
     } else if (mention.kind === 'work' && mention.work_id && mention.person_id == null) {
       fragments.push(workMentionHTML(mention, workTitles));
     } else if (mention.kind === 'non_person' && mention.person_id == null) {
@@ -68,7 +76,10 @@ export function chapterParagraph(paragraph, people = {}, context = null, workTit
     end = mention.end;
   }
   fragments.push(h(chars.slice(end).join('')));
-  return layerParagraph(paragraph,`<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`,extraHTML);
+  const biographies = biographyLinks.length
+    ? `<aside class="cross-chapter-references" data-editorial-biographies><small>另見本傳（編者連結）</small><ul>${biographyLinks.join('')}</ul></aside>`
+    : '';
+  return layerParagraph(paragraph,`<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`,extraHTML + biographies);
 }
 export function filteredChapters(index, category, query = '') {
   const term = query.trim();
