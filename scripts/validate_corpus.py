@@ -2326,7 +2326,7 @@ def _validate_uncached(root=ROOT):
                 check(wyd_life_valid(record,root),'武英殿謝晦篇死亡須依具名列舉、主語承接及同段原免，不借日期或刪矛盾')
             for event in record['events']:
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
-                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
+                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession', 'noble_title_restoration')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
                 if 'received_source_frame' in event:
                     try:from scripts.fixed_received_career import nonholding_valid
@@ -2355,6 +2355,47 @@ def _validate_uncached(root=ROOT):
                     check(accession_death_interval_valid(event, paragraphs, mentions), '未逾年須連同人立後死亡的原句，不得當生齡或推曆年')
                 if record.get('record_type') == 'person_event_assertion_set' and event['event_type'] == 'recruitment':
                     check(any('徵' in e.get('quote', '') for e in event.get('evidence', [])), '徵召事件缺少原文徵召用語')
+                if event['event_type'] == 'noble_title_restoration':
+                    context = event.get('restoration_context', {})
+                    required_unknowns = (
+                        (event, ('date_expression', 'title', 'holding_id')),
+                        (context, ('petitioning_person_id',)),
+                    )
+                    check(all(all(key in item and item[key] is None for key in keys)
+                              for item, keys in required_unknowns)
+                          and 'normalized_date' not in event and 'normalized_date_range' not in event
+                          and context.get('restoration_date_status') == 'not_stated',
+                          '無明載的復爵日期、施請人及本句爵名須留空')
+                    check(event.get('event_group_id') and context.get('petitioning_title') == '齊王'
+                          and context.get('result') == 'pardon_and_restoration_of_rank_and_fief'
+                          and context.get('contextual_title_status') == 'paternal_line_context'
+                          and event.get('source_term') in ('乃啟原之，復其爵土', '乃啓原之復其爵土')
+                          and any(event.get('source_term', '\0') in e.get('quote', '')
+                                  and '齊王' in e['quote'] for e in event['evidence']),
+                          '復爵土須有齊王奏請及原之、復爵土原詞')
+                    for key in ('case_evidence', 'collateral_case_evidence', 'paternal_title_evidence'):
+                        ref = context.get(key, {})
+                        hit = paragraphs.get(ref.get('paragraph_id'))
+                        witness = chapters.get(ref.get('chapter_id'), {})
+                        check(bool(hit) and hit[0] == ref.get('chapter_id')
+                              and all(ref.get(k) == witness.get(k) for k in ('work_id', 'book_id', 'source_id'))
+                              and bool(ref.get('quote')) and ref['quote'] in hit[1]['text'],
+                              '復爵土須保留元瑾案及父爵各自的原文和見證位置')
+                    title_ref = context.get('paternal_title_evidence', {})
+                    title_mention = mentions.get(title_ref.get('person_mention_id'))
+                    predecessor = context.get('predecessor_person_id')
+                    title = context.get('contextual_title')
+                    check(bool(title_mention) and title_mention[1] == title_ref.get('paragraph_id')
+                          and title_mention[2]['person_id'] == predecessor
+                          and isinstance(title, str) and title.endswith('王')
+                          and title_mention[2]['surface'].startswith(title[:-1])
+                          and title_mention[2]['surface'].endswith('王')
+                          and any(a['predicate'] == 'father' and a['subject_person_id'] == event['person_id']
+                                  and a['object_person_id'] == predecessor for a in family_relations),
+                          '復爵的家系爵名須綁同一生父及其具名爵號證據')
+                    check('合門伏法' in context.get('case_evidence', {}).get('quote', '')
+                          and '法輪坐叔父瑾' in context.get('collateral_case_evidence', {}).get('quote', ''),
+                          '復爵土的案件語境須繫於法輪坐叔父案')
                 if event['event_type'] in ('noble_state_abolition', 'noble_title_succession'):
                     try:
                         from scripts.noble_state_abolition import valid as noble_abolition_valid
