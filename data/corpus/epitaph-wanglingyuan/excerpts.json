@@ -14,7 +14,7 @@
     "revision_id": null,
     "accessed_on": "2026-11-19",
     "edition": "《魏墓誌三種》冊325，宇野雪村舊藏，現藏大東文化大學書道研究所。",
-    "extent": "只錄誌首父母及世系原句；另通閱誌文和銘辭，詳圖版及核讀範圍。",
+    "extent": "誌題、父母及世系、嫁入王府與合葬選段。",
     "text_scope": "partial_chapter",
     "review_status": "text_checked",
     "image_verified": true,
@@ -23,7 +23,7 @@
     "rights": "本庫只錄公版古文，館藏圖版以外部連結引用。",
     "normalization": {
       "character_conversion": "編者施加標點，照拓片錄古文。",
-      "extraction_note": "館藏折頁右至左讀，段落錄右葉世系選段。"
+      "extraction_note": "館藏折頁右至左讀；各段紀錄版面位置，段與段之間可有省略。"
     },
     "transcription_witness": {
       "kind": "rubbing_reproduction_excerpts",
@@ -55,7 +55,7 @@
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false,
     "model": null,
-    "completion_note": "只錄誌首父母及世系原句；另通閱誌文和銘辭，詳圖版及核讀範圍。",
+    "completion_note": "已錄父母、世系、妃號、嫁入王府與合葬，通閱敘文與銘辭未見誌主子女記載。",
     "sibling_review": {
       "person_id": "q7m_r8k_2vn_AAAAA",
       "reviewed_scope": "拓片敘文及銘辭，從題署至「松柏為叢」。",
@@ -68,6 +68,30 @@
     }
   },
   "paragraphs": [
+    {
+      "id": "c-epitaph-wanglingyuan-excerpts:p000",
+      "text": "魏故假黃鉞太傅大司馬廣陽文獻王妃墓誌銘",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [
+        {
+          "id": "c-epitaph-wanglingyuan-excerpts:p000:m0010",
+          "start": 10,
+          "end": 15,
+          "surface": "廣陽文獻王",
+          "kind": "person",
+          "person_id": "2a3_ci1_y4y",
+          "identification_status": "contextual_provisional",
+          "interpretation_note": "誌題夫爵與諡號對照元湛誌題；是具指夫號。"
+        }
+      ],
+      "witness_locator": {
+        "image_parts": [
+          1
+        ],
+        "locus": "圖版000756292右葉，右起第1欄及第2欄上端。"
+      }
+    },
     {
       "id": "c-epitaph-wanglingyuan-excerpts:p001",
       "text": "祖琛，齊司徒從事中郎。祖母彭城劉氏，父義恭，宋太宰江夏文獻王。父翊，魏侍中司空孝獻公。母河南元氏，父澄，假黃鉞太傅任城文宣王。妃姓王，諱令媛，琅邪臨沂人，齊尚書僕射奐之曾孫也。",
@@ -141,7 +165,33 @@
         ],
         "locus": "圖版000756292右葉，右起第2欄「祖琛」至第8欄「曾孫也」。父翊在第4欄下部；母河南元氏、父澄在第5欄下部，其封諡續第6欄。"
       }
+    },
+    {
+      "id": "c-epitaph-wanglingyuan-excerpts:p002",
+      "text": "亦既有行，來儀蕃邸，率禮公宮，剋循法度。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [],
+      "witness_locator": {
+        "image_parts": [
+          1
+        ],
+        "locus": "圖版000756292左葉，右起第3欄下端至第4欄中部。"
+      }
+    },
+    {
+      "id": "c-epitaph-wanglingyuan-excerpts:p003",
+      "text": "粵以武定二年歲在甲子八月庚申合葬於武城之北原。",
+      "text_layer": "received_chapter",
+      "annotation_status": "in_progress",
+      "mentions": [],
+      "witness_locator": {
+        "image_parts": [
+          1
+        ],
+        "locus": "圖版000756292左葉，右起第8欄中部至第9欄下端。"
+      }
     }
   ],
-  "text_sha256": "0644af332f3b80fa02b14476eb54c44e07fd2076ab252d9a94f30a58db5eca19"
+  "text_sha256": "557f38296296e69812e5b63ed99cc4e691ef5c6f3663a1b92108d4751544e7a6"
 }

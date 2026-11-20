@@ -490,6 +490,20 @@
       "locator": "DAITOF00792，圖版000756292及000756293",
       "access_scope": "核讀館藏拓片敘文及銘辭；未接觸原石。",
       "human_reviewed": false
+    },
+    "r-daito-yuanzhan-daitof00794": {
+      "title": "大東文化大學書道研究所藏元湛墓誌（冊367）",
+      "url": "https://www.i-repository.net/il/meta_pub/G0000721f_DAITOF00794",
+      "locator": "DAITOF00794；圖版000756311、316、318、319",
+      "access_scope": "親核四張拓片所錄選段；未接觸原石。",
+      "human_reviewed": false
+    },
+    "r-nmh-yuanzhan-89-00208": {
+      "title": "國立歷史博物館藏元湛墓誌銘拓本館錄",
+      "url": "https://content.teldap.tw/main/dc_detail.php?dc_id=2389779",
+      "locator": "89-00208，銘刻內容",
+      "access_scope": "核讀館藏銘刻內容全文，與大東文化大學藏拓選段對讀。",
+      "human_reviewed": false
     }
   },
   "editions": {
@@ -203672,6 +203686,49 @@
         "note": "館藏拓本著錄未指明原石發掘日期與地點。"
       },
       "human_reviewed": false
+    },
+    "w-epitaph-yuanzhan": {
+      "work_id": "w-epitaph-yuanzhan",
+      "title": "元湛墓誌",
+      "transmission": "excavated",
+      "composition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "誌文有葬期，撰刻日期未明。"
+      },
+      "earliest_extant_edition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "館藏折本可核，最早拓本待核。"
+      },
+      "burial": {
+        "status": "reported",
+        "assertions": [
+          {
+            "event_kind": "burial",
+            "date": {
+              "calendar": "chinese_civil",
+              "year_numbering": "astronomical",
+              "start_year": 544,
+              "end_year": 544,
+              "month": 8,
+              "precision": "month"
+            },
+            "place_as_reported": "武城之北原",
+            "source_expression": "粵以其年八月庚申葬於武城之北原",
+            "reference_ids": [
+              "r-daito-yuanzhan-daitof00794"
+            ],
+            "qualification": "其年承本誌武定二年；保留干支庚申，未換算西曆日。"
+          }
+        ]
+      },
+      "excavation": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "本次核讀館藏拓本與館錄，原石發掘記錄待核。"
+      },
+      "human_reviewed": false
     }
   },
   "text_bases": {
@@ -206038,6 +206095,18 @@
         "r-daito-wanglingyuan-daif00792"
       ],
       "note": "館藏拓片可核，拓印年代及原石流傳待考。"
+    },
+    "s-epitaph-yuanzhan-daitof00794": {
+      "source_id": "s-epitaph-yuanzhan-daitof00794",
+      "work_id": "w-epitaph-yuanzhan",
+      "status": "unknown",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "r-daito-yuanzhan-daitof00794",
+        "r-nmh-yuanzhan-89-00208"
+      ],
+      "note": "館藏拓片可核，拓印年代及最早印本待核。"
     }
   }
 }
