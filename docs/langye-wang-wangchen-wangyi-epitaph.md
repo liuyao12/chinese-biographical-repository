@@ -20,3 +20,12 @@
 [《南齊書》卷四十九](https://zh.wikisource.org/w/index.php?title=南齊書/卷49&oldid=2261984#王奐) · [《魏書》卷六十三](https://zh.wikisource.org/w/index.php?title=魏書/卷63&oldid=1513418#王肅) · [《北史》卷四十二](https://zh.wikisource.org/w/index.php?title=北史/卷042&oldid=2626092#王肅)
 
 逐人 JSON 可查[王琛](../exports/persons/q7m_r8k_2vn_AAA.json)及[王翊](../exports/persons/q7m_r8k_2vn_AAAA.json)。王琛的死亡陳述保存《南齊書》「於都棄市」，該句無確切日期。王翊的卒日、葬日分別置於 `life_events` 與 `person_events`，各有原句與圖版定位。
+
+## 王翊之子異文
+
+- 《魏書》卷六十三〈王肅傳附王翊〉記「子淵，武定中，儀同開府記室參軍。」[固定修訂正文](https://zh.wikisource.org/w/index.php?title=魏書/卷63&oldid=1513418#王肅)
+- 《北史》卷四十二〈王肅傳附王翊〉記「子琛，武定中，儀同、開府記室參軍。」[固定修訂正文](https://zh.wikisource.org/w/index.php?title=北史/卷042&oldid=2626092#王肅)
+
+兩句都緊接王翊卒贈之後，所記時段及官名相合，可能源於同一條傳記材料。上述《魏書》見證所附校勘記未處理這一處子名。王翊墓誌已核選段及趙萬里本誌校釋沒有提供能核定淵、琛的具名證據。兩史各存一條父子陳述，同人與異人均待考。《北史》這個「子琛」在王翊下一代。《南齊書》所載司徒從事中郎王琛在上一代。
+
+另見王翊女系的史料線索。[大東文化大學藏〈王令媛墓誌〉拓本著錄](https://www.i-repository.net/il/meta_pub/G0000721f_DAITOF00792)

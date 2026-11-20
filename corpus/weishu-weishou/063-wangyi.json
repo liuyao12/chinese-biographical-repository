@@ -14,7 +14,7 @@
     "revision_id": 1513418,
     "accessed_on": "2026-11-19",
     "edition": "維基文庫固定數位見證，刻本與書影待核。",
-    "extent": "節錄附傳傳首及卒年報齡。",
+    "extent": "王肅傳中自「翊」至下一傳目間的王翊附傳及子嗣句。數位連結標記不錄。",
     "text_scope": "partial_chapter",
     "review_status": "text_checked",
     "image_verified": false,
@@ -27,7 +27,7 @@
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false,
     "model": null,
-    "completion_note": "節錄附傳傳首及卒年報齡。",
+    "completion_note": "以王翊近親及子嗣異名為本次標註範圍，其餘人物與官稱待複核。",
     "age_assertions": [
       {
         "id": "age-wangyi-weishu-37",
@@ -67,12 +67,74 @@
         "human_reviewed": false,
         "model": null
       }
+    ],
+    "unresolved_relation_identity_groups": [
+      {
+        "id": "urig-wangyi-weishu-yuan-beishi-chen",
+        "kind": "parallel_biography_child_attestations",
+        "status": "unresolved",
+        "predicate": "father",
+        "same_person": null,
+        "distinct_people": null,
+        "common_person_id": "q7m_r8k_2vn_AAAA",
+        "candidate_person_ids": [
+          "5v2_6ec_brm",
+          "w34_b6a_3nn"
+        ],
+        "assertion_ids": [
+          "a-wangyi-weishu-yuan-father",
+          "a-wangyi-beishi-child-chen-father"
+        ],
+        "source_fingerprint": {
+          "chapter_id": "c-weishu-weishou-063-wangyi",
+          "source_id": "s-weishu-weishou-063-wangyi-ws1513418",
+          "revision_id": 1513418,
+          "source_commit": null,
+          "raw_file_sha256": null
+        },
+        "references": [
+          {
+            "work_id": "w-weishu-weishou",
+            "book_id": "b-weishu-weishou-063",
+            "chapter_id": "c-weishu-weishou-063-wangyi",
+            "source_id": "s-weishu-weishou-063-wangyi-ws1513418",
+            "paragraph_id": "c-weishu-weishou-063-wangyi:p002",
+            "quote": "子淵，武定中，儀同開府記室參軍。",
+            "assertion_id": "a-wangyi-weishu-yuan-father",
+            "span": {
+              "start": 31,
+              "end": 33,
+              "surface": "子淵"
+            },
+            "revision_id": 1513418,
+            "candidate_person_id": "5v2_6ec_brm"
+          },
+          {
+            "work_id": "w-beishi",
+            "book_id": "b-beishi-042",
+            "chapter_id": "c-beishi-042-wangyi",
+            "source_id": "s-beishi-042-wangyi-ws2626092",
+            "paragraph_id": "c-beishi-042-wangyi:p002",
+            "quote": "子琛，武定中，儀同、開府記室參軍。",
+            "assertion_id": "a-wangyi-beishi-child-chen-father",
+            "span": {
+              "start": 12,
+              "end": 14,
+              "surface": "子琛"
+            },
+            "revision_id": 2626092,
+            "candidate_person_id": "w34_b6a_3nn"
+          }
+        ],
+        "human_reviewed": false,
+        "rationale": "兩史均於王翊附傳末記一子，並同記武定中與儀同開府記室參軍，頗似同一條傳記材料。淵、琛何字為是，或是否確為一人，缺獨立具名材料可定。王翊墓誌所核選段及趙萬里本誌校釋未提供這項辨識；《北史》此處子琛亦不能接作上一代司徒從事中郎王琛。"
+      }
     ]
   },
   "paragraphs": [
     {
       "id": "c-weishu-weishou-063-wangyi:p001",
-      "text": "翊，字士遊，肅次兄琛子也。",
+      "text": "翊，字士遊，肅次兄琛子也。風神秀立，好學有文才。歷司空主簿、清河王友、中書侍郎。頗銳於榮利，結婚於元叉，超拜左將軍、濟州刺史，尋加平東將軍。清靜愛民，有政治之稱。入為散騎常侍。孝莊初，遷鎮南將軍、金紫光祿大夫，領國子祭酒。",
       "text_layer": "received_chapter",
       "annotation_status": "in_progress",
       "mentions": [
@@ -120,11 +182,22 @@
     },
     {
       "id": "c-weishu-weishou-063-wangyi:p002",
-      "text": "永安元年冬卒，年三十七。",
+      "text": "永安元年冬卒，年三十七。贈侍中、衞將軍、司空公、徐州刺史。\n\n子淵，武定中，儀同開府記室參軍。",
       "text_layer": "received_chapter",
       "annotation_status": "in_progress",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-weishu-weishou-063-wangyi:p002:m0032",
+          "start": 32,
+          "end": 33,
+          "surface": "淵",
+          "kind": "person",
+          "person_id": "5v2_6ec_brm",
+          "identification_status": "contextual_provisional",
+          "interpretation_note": "承王翊傳末「子淵」；與另一傳的子嗣記載是否同人待考。"
+        }
+      ]
     }
   ],
-  "text_sha256": "0655d81a11118d54bb336fcc630ddfce8299c3cb4b59cfb4764ad4b33cdd99d4"
+  "text_sha256": "6251f1f32008452a57f2ce4545cf8aa98789caf0a42f5270dde45428333552f5"
 }

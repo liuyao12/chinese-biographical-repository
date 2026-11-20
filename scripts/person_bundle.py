@@ -545,6 +545,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids = {m['paragraph_id'] for m in mentions}
     paragraph_ids.update(n['paragraph_id'] for n in name_components if n.get('kind') != 'table_cell')
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case['evidence'])
+    paragraph_ids.update(r['paragraph_id'] for group in unresolved_relation_groups for r in group['references'])
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
     paragraph_ids.update(pid for case in unresolved_cases + resolved_cases for pid in case['paragraph_ids'])
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)

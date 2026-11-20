@@ -910,7 +910,9 @@ version 1以primary_paragraph_ids及archival_excerpts完整、不重複分割所
 
 ## 未決同人配偶指涉組
 
-`annotation.unresolved_relation_identity_groups` 僅將同一共同配偶之多個來源人物槽分組；status=unresolved、predicate=spouse、same_person=null、distinct_people=null。候選ID與原spouse assertion端點精確聯集；每項reference有完整原段與局部span、原主張雙人錨點，不能用分組捏造婚配。原relations、mentions及ID不變；preferred_relations排除此組具名主張，另輸出完整組。traceFamily/card以同一未決組列各來源稱法，明言不判一人或多人，不建立確定配偶項目。無case之既有行為不變，其他親屬類型不適用此契約。
+`annotation.unresolved_relation_identity_groups` 可將同一共同配偶之多個來源人物槽分組；status=unresolved、predicate=spouse、same_person=null、distinct_people=null。候選ID與原spouse assertion端點精確聯集；每項reference有完整原段與局部span、原主張雙人錨點，不能用分組捏造婚配。原relations、mentions及ID不變；preferred_relations排除此組具名主張，另輸出完整組。traceFamily/card以同一未決組列各來源稱法，明言不判一人或多人，不建立確定配偶項目。無case之既有行為不變，其他親屬類型不適用此契約。
+
+同一欄位亦可收錄 `kind: parallel_biography_child_attestations`。兩書記同一父親之子而子名不合時，依各見證的原文保留兩個來源人物端點及 `father` 陳述。兩項參照各綁固定卷篇修訂、子名原詞與親屬陳述。 `same_person` 和 `distinct_people` 都是 `null` 時，預設家系不把兩條記載必然算成兩名子女。逐人 JSON 保留兩筆原陳述與待考組。
 
 
 ## 同傳主死亡後無標點贈官與年號省稱橋
