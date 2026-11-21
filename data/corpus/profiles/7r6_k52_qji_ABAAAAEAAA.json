@@ -6,11 +6,57 @@
   "identity_note": "《梁書》王規傳明載祖儉、父騫；同段連續父祖作編輯組接。",
   "review": "ai_provisional",
   "names": [
-    "騫"
+    "騫",
+    "玄成"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 22,
+      "category": "",
+      "title": "王儉及王遜傳",
+      "paragraph_id": "c-nanshi-022-wangjian:p013",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "所重。少便有宰臣之志，賦詩云：「稷契匡虞夏，伊呂翼商周。」及生子，字曰玄成，取仍世作相之義。撰古今喪服集記並文集，並行於世。梁武帝受禪，詔為儉立碑，降爵為侯。",
+      "paragraph_ids": [
+        "c-nanshi-022-wangjian:p013",
+        "c-nanshi-022-wangjian:p014"
+      ],
+      "mention_ids": [
+        "c-nanshi-022-wangjian:p013:m0065",
+        "c-nanshi-022-wangjian:p014:m0087"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-022-wangjian:p013:m0065": "c-nanshi-022-wangjian:p013",
+        "c-nanshi-022-wangjian:p014:m0087": "c-nanshi-022-wangjian:p014"
+      },
+      "mention_id": "c-nanshi-022-wangjian:p013:m0065",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-022-wangjian:p013:m0065",
+          "mention_ids": [
+            "c-nanshi-022-wangjian:p013:m0065"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-022-wangjian:p014:m0087",
+          "mention_ids": [
+            "c-nanshi-022-wangjian:p014:m0087"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wangjian",
+      "source_id": "s-nanshi-022-wangjian-ws1477957",
+      "work_title": "南史"
+    },
     {
       "number": 41,
       "category": "",
@@ -107,6 +153,33 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-022-wangjian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangjian-ws1477957",
+      "source": {
+        "title": "南史/卷22·王儉及王遜傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/南史/卷22",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷22&oldid=1477957",
+        "edition": "固定數位見證",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-21",
+        "text_scope": "partial_chapter",
+        "extent": "本傳或單段附敘全文",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "rights": "原典本文及可追溯校記",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留傳本文字及今本補字方括；排版界符和另存的校記依原字位投影。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-zhoushu-041-zhou41",
       "work_id": "w-zhoushu",
       "book_id": "b-zhoushu-041",
@@ -158,6 +231,42 @@
       "model": null
     },
     {
+      "id": "a-nanshi-022-wangjian-qian-father",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAAA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "長子騫嗣",
+        "nan22jian_kin_frame": "qian-father",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "source_id": "s-nanshi-022-wangjian-ws1477957",
+          "chapter_id": "c-nanshi-022-wangjian",
+          "paragraph_id": "c-nanshi-022-wangjian:p014",
+          "quote": "儉弟遜，宋升明中為丹陽丞，告劉彥節事，不蒙封賞。建元初，為晉陵太守，有怨言。儉慮為禍，因褚彥回啟聞，中丞陸澄依事舉奏。詔以儉竭誠佐命，特降刑書宥遜，遠徙永嘉郡，於道伏誅。長子騫嗣。",
+          "subject_person_mention_id": "c-nanshi-022-wangjian:p014:m0087"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "source_id": "s-nanshi-022-wangjian-ws1477957",
+          "chapter_id": "c-nanshi-022-wangjian",
+          "paragraph_id": "c-nanshi-022-wangjian:p013",
+          "quote": "儉寡嗜欲，唯以經國為務，車服塵素，家無遺財。手筆典裁，為當時所重。少便有宰臣之志，賦詩云：「稷契匡虞夏，伊呂翼商周。」及生子，字曰玄成，取仍世作相之義。撰古今喪服集記並文集，並行於世。梁武帝受禪，詔為儉立碑，降爵為侯。",
+          "object_person_mention_id": "c-nanshi-022-wangjian:p013:m0000"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-zhoushu-041-zhou41-m0000-origin-grandfather",
       "subject_person_id": "7r6_k52_qji_ABAAAAEAAAAA",
       "predicate": "grandfather",
@@ -186,12 +295,45 @@
     }
   ],
   "related_people": {
+    "7r6_k52_qji_ABAAAAEAA": "王儉",
     "7r6_k52_qji_ABAAAAEAAA": "王騫",
     "7r6_k52_qji_ABAAAAEAAAA": "王規",
     "7r6_k52_qji_ABAAAAEAAAAA": "王褒"
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-nanshi-022-wangjian:p013:r0061",
+      "person_id": "7r6_k52_qji_ABAAAAEAAA",
+      "paragraph_id": "c-nanshi-022-wangjian:p013",
+      "start": 61,
+      "end": 62,
+      "surface": "子",
+      "quote": "儉寡嗜欲，唯以經國為務，車服塵素，家無遺財。手筆典裁，為當時所重。少便有宰臣之志，賦詩云：「稷契匡虞夏，伊呂翼商周。」及生子，字曰玄成，取仍世作相之義。撰古今喪服集記並文集，並行於世。梁武帝受禪，詔為儉立碑，降爵為侯。",
+      "referent_role": "third_person",
+      "note": "依該段前後稱謂。",
+      "chapter_id": "c-nanshi-022-wangjian",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wangjian-ws1477957"
+    },
+    {
+      "id": "c-nanshi-022-wangjian:p014:r0085",
+      "person_id": "7r6_k52_qji_ABAAAAEAAA",
+      "paragraph_id": "c-nanshi-022-wangjian:p014",
+      "start": 85,
+      "end": 87,
+      "surface": "長子",
+      "quote": "儉弟遜，宋升明中為丹陽丞，告劉彥節事，不蒙封賞。建元初，為晉陵太守，有怨言。儉慮為禍，因褚彥回啟聞，中丞陸澄依事舉奏。詔以儉竭誠佐命，特降刑書宥遜，遠徙永嘉郡，於道伏誅。長子騫嗣。",
+      "referent_role": "third_person",
+      "note": "依該段前後稱謂。",
+      "chapter_id": "c-nanshi-022-wangjian",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wangjian-ws1477957"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABAAAAEAAA"
   ],
@@ -220,6 +362,42 @@
       ],
       "interpretation_note": "王規本傳明載父騫。",
       "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-022-wangjian-qian-father",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAAA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "長子騫嗣",
+        "nan22jian_kin_frame": "qian-father",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "source_id": "s-nanshi-022-wangjian-ws1477957",
+          "chapter_id": "c-nanshi-022-wangjian",
+          "paragraph_id": "c-nanshi-022-wangjian:p014",
+          "quote": "儉弟遜，宋升明中為丹陽丞，告劉彥節事，不蒙封賞。建元初，為晉陵太守，有怨言。儉慮為禍，因褚彥回啟聞，中丞陸澄依事舉奏。詔以儉竭誠佐命，特降刑書宥遜，遠徙永嘉郡，於道伏誅。長子騫嗣。",
+          "subject_person_mention_id": "c-nanshi-022-wangjian:p014:m0087"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "source_id": "s-nanshi-022-wangjian-ws1477957",
+          "chapter_id": "c-nanshi-022-wangjian",
+          "paragraph_id": "c-nanshi-022-wangjian:p013",
+          "quote": "儉寡嗜欲，唯以經國為務，車服塵素，家無遺財。手筆典裁，為當時所重。少便有宰臣之志，賦詩云：「稷契匡虞夏，伊呂翼商周。」及生子，字曰玄成，取仍世作相之義。撰古今喪服集記並文集，並行於世。梁武帝受禪，詔為儉立碑，降爵為侯。",
+          "object_person_mention_id": "c-nanshi-022-wangjian:p013:m0000"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     },

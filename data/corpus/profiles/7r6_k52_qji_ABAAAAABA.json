@@ -8,9 +8,93 @@
   "names": [
     "道琰"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nanshi021-wangdaoyan-59-15",
+      "person_id": "7r6_k52_qji_ABAAAAABA",
+      "title": "廬陵內史",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi021-wangdaoyan-59-15:a",
+          "paragraph_id": "c-nanshi-021-wangdaoyan:p001",
+          "start": 15,
+          "end": 19,
+          "surface": "廬陵內史",
+          "person_mention_id": "c-nanshi-021-wangdaoyan:p001:m0003",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangdaoyan",
+          "source_id": "s-nanshi-021-wangdaoyan-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangdaoyan:p001",
+          "quote": "僧達子道琰，徙新安。元徽中，爲廬陵內史，未至郡，卒。",
+          "person_mention_id": "c-nanshi-021-wangdaoyan:p001:m0003"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "新授廬陵內史而未到郡，在赴任之前去世。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 21,
+      "category": "",
+      "title": "王道琰",
+      "paragraph_id": "c-nanshi-021-wangdaoyan:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "僧達子道琰，徙新安。元徽中，爲廬陵內史，未至郡，卒。",
+      "paragraph_ids": [
+        "c-nanshi-021-wangdaoyan:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-021-wangdaoyan:p001:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-021-wangdaoyan:p001:m0003": "c-nanshi-021-wangdaoyan:p001"
+      },
+      "mention_id": "c-nanshi-021-wangdaoyan:p001:m0003",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-021-wangdaoyan:p001:m0003",
+          "mention_ids": [
+            "c-nanshi-021-wangdaoyan:p001:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "chapter_id": "c-nanshi-021-wangdaoyan",
+      "source_id": "s-nanshi-021-wangdaoyan-ws1752646",
+      "work_title": "南史"
+    },
     {
       "number": 75,
       "category": "",
@@ -49,6 +133,64 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanshi-021-wangdaoyan",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "source_id": "s-nanshi-021-wangdaoyan-ws1752646",
+      "source": {
+        "title": "南史卷二十一·王道琰",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "revision_id": 1752646,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1752646，武英殿本書影逐項參記。",
+        "extent": "逐讀第59行分題至第61行分題前。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "王僧達傳後的獨立單段，固定原文第59行。",
+        "wikitext_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "raw_path": "sources/nanshi/nanshi021-ws1752646.wikitext",
+        "raw_file_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-021-wangrong",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "source_id": "s-nanshi-021-wangrong-ws1752646",
+      "source": {
+        "title": "南史卷二十一·王融與魏准",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "revision_id": 1752646,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1752646，武英殿本書影逐項參記。",
+        "extent": "逐讀第61行分題至第75行分題前。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "數位分題僧達孫融起，至融文集行于時止；末段另分魏准事。",
+        "wikitext_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "raw_path": "sources/nanshi/nanshi021-ws1752646.wikitext",
+        "raw_file_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
     {
       "chapter_id": "c-songshu-075-wangsengda",
       "work_id": "w-songshu",
@@ -4603,6 +4745,39 @@
   ],
   "relations": [
     {
+      "id": "a-nanshi021-wangdaoyan-59-0",
+      "subject_person_id": "7r6_k52_qji_ABAAAAABA",
+      "object_person_id": "7r6_k52_qji_ABAAAAAB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "僧達子道琰",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangdaoyan",
+          "source_id": "s-nanshi-021-wangdaoyan-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangdaoyan:p001",
+          "quote": "僧達子道琰，徙新安。元徽中，爲廬陵內史，未至郡，卒。",
+          "subject_person_mention_id": "c-nanshi-021-wangdaoyan:p001:m0003",
+          "object_person_mention_id": "c-nanshi-021-wangdaoyan:p001:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wangdaoyan:p001",
+            "start": 0,
+            "end": 5,
+            "surface": "僧達子道琰"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-song075-sengda-010",
       "subject_person_id": "7r6_k52_qji_ABAAAAABA",
       "predicate": "father",
@@ -4656,10 +4831,60 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "start": 71,
+      "end": 72,
+      "surface": "父",
+      "id": "c-nanshi-021-wangrong:p001:r0071",
+      "paragraph_id": "c-nanshi-021-wangrong:p001",
+      "person_id": "7r6_k52_qji_ABAAAAABA",
+      "referent_role": "third_person",
+      "quote": "融字元長，少而神明警慧。母臨川太守謝惠宣女，性敦敏，教融書學。博涉有文才，從叔儉謂人曰：「此兒至四十，名位自然及祖。」舉秀才，累遷太子舍人。以父宦不通，弱年便欲紹興家業，啟齊武帝求自試，遷秘書丞。從叔儉初有儀同之授，贈儉詩及書，儉甚奇之，笑謂人曰：「穰侯印詎便可解。」曆丹陽丞，中書郎。",
+      "note": "本句按敘述視點回指琰。",
+      "chapter_id": "c-nanshi-021-wangrong",
+      "book_id": "b-nanshi-021",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-021-wangrong-ws1752646"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABAAAAABA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nanshi021-wangdaoyan-59-0",
+      "subject_person_id": "7r6_k52_qji_ABAAAAABA",
+      "object_person_id": "7r6_k52_qji_ABAAAAAB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "僧達子道琰",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangdaoyan",
+          "source_id": "s-nanshi-021-wangdaoyan-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangdaoyan:p001",
+          "quote": "僧達子道琰，徙新安。元徽中，爲廬陵內史，未至郡，卒。",
+          "subject_person_mention_id": "c-nanshi-021-wangdaoyan:p001:m0003",
+          "object_person_mention_id": "c-nanshi-021-wangdaoyan:p001:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wangdaoyan:p001",
+            "start": 0,
+            "end": 5,
+            "surface": "僧達子道琰"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song075-sengda-010",
       "subject_person_id": "7r6_k52_qji_ABAAAAABA",
@@ -4723,7 +4948,37 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-nanshi021-wangdaoyan-59-24",
+      "person_id": "7r6_k52_qji_ABAAAAABA",
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": null,
+      "source_anchor": {
+        "paragraph_id": "c-nanshi-021-wangdaoyan:p001",
+        "start": 24,
+        "end": 25,
+        "surface": "卒"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangdaoyan",
+          "source_id": "s-nanshi-021-wangdaoyan-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangdaoyan:p001",
+          "quote": "僧達子道琰，徙新安。元徽中，爲廬陵內史，未至郡，卒。",
+          "person_mention_id": "c-nanshi-021-wangdaoyan:p001:m0003"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "赴廬陵途中或未赴郡時卒，未記享年。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

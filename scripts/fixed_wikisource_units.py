@@ -26,11 +26,17 @@ def source_errors(ch,root):
   for m in re.finditer(r'[^\n]+',u['raw']):
    if not m[0].startswith('='):expected.append((start+m.start(),start+m.end(),m[0]))
   if v is not None:expected.append((v['start'],v['end'],v['raw']))
-  assert len(expected)==len(ch['paragraphs']);reports=[]
+  assert len(expected)==len(ch['paragraphs']);reports=[];glosses=[]
   for i,(p,(a,z,line))in enumerate(zip(ch['paragraphs'],expected)):
    loc=p['source_position'];positions=list(range(a,z));drop=set()
    for m in re.finditer(r'<ref>.*?</ref>',line):
     reports.append((p['id'],a+m.start(),a+m.end(),m[0]));drop.update(range(a+m.start(),a+m.end()))
+   if b.get('inline_phonetic_glosses'):
+    for m in re.finditer(r'\{\{\*\|([^{}|]+反)\}\}',line):
+     assert m.start() and line[m.start()-1] not in '{}|'
+     glosses.append(dict(paragraph_id=p['id'],raw_start=a+m.start(),raw_end=a+m.end(),
+                         raw_text=m[0],gloss=m[1],headword=line[m.start()-1],headword_raw_offset=a+m.start()-1))
+     drop.update(range(a+m.start(),a+m.end()))
    # 單字不轉換標記只移除界符，保留原字位。
    for token in re.finditer(r'-\{([^{}|:;<>\s])\}-',line):
     drop.update((a+token.start(),a+token.start()+1,a+token.end()-2,a+token.end()-1))
@@ -41,6 +47,7 @@ def source_errors(ch,root):
    assert p['text_layer']=='received_chapter'and loc['source_layer']==('shared_historians_appraisal'if v is not None and i==len(expected)-1 else'received_biography')
    assert not any(key in layer for layer in (ch,s,b,p,loc)for key in ('annotator','attached_note_to_paragraph_id'))
   got=ch['annotation']['modern_collation_reports'];assert len(got)==len(reports)
+  assert ch['annotation'].get('source_phonetic_glosses',[])==glosses
   for note,expect in zip(got,reports):
    assert tuple(note[k]for k in ('paragraph_id','raw_start','raw_end','raw_text'))==expect and note['layer']=='modern_received_witness_collation_report'and note['image_verified']is False
   if v is None:
