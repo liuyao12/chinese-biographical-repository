@@ -1,0 +1,55 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-weishu-weishou-071-peishuye-father",
+  "assertions": [
+    {
+      "id": "a-nan023-wanghuan-pei-father",
+      "subject_person_id": "2we_3ll_c5i_A",
+      "object_person_id": "2we_3ll_c5i",
+      "predicate": "father",
+      "qualifiers": {
+        "nan023_wanghuan_reading": "pei-father",
+        "source_term": "父順宗",
+        "lineage": "paternal"
+      },
+      "context": {
+        "kind": "nan23_huan_wei71_father",
+        "paragraph_ids": [
+          "c-weishu-weishou-071-peishuye-father:p001",
+          "c-weishu-weishou-071-peishuye-father:p002"
+        ],
+        "parent_mention_id": "c-weishu-weishou-071-peishuye-father:p002:m0001",
+        "child_mention_id": "c-weishu-weishou-071-peishuye-father:p001:m0000",
+        "rationale": "同一固定傳首之主語與父句，原行列遠祖等在兩者間。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-071",
+          "source_id": "s-weishu-weishou-071-peishuye-father-ws2294110",
+          "chapter_id": "c-weishu-weishou-071-peishuye-father",
+          "paragraph_id": "c-weishu-weishou-071-peishuye-father:p001",
+          "quote": "裴叔業，河東聞喜人也。",
+          "subject_person_mention_id": "c-weishu-weishou-071-peishuye-father:p001:m0000"
+        },
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-071",
+          "source_id": "s-weishu-weishou-071-peishuye-father-ws2294110",
+          "chapter_id": "c-weishu-weishou-071-peishuye-father",
+          "paragraph_id": "c-weishu-weishou-071-peishuye-father:p002",
+          "quote": "父順宗",
+          "object_person_mention_id": "c-weishu-weishou-071-peishuye-father:p002:m0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原卷明言父順宗，沒有把祖和父並載變成又一父子斷言。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

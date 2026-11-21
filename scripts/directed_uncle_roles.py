@@ -173,6 +173,10 @@ def _direction(p, subjects, objects, term):
 
 
 def paternal_uncle_direction_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('reading_basis', {}).get('kind') == 'jin067_contemporaneous_nephews':
+        try: from scripts.jin067_relatives import valid
+        except ImportError: from jin067_relatives import valid
+        return valid(assertion, paragraphs)
     evidence = assertion.get('evidence', [])
     if (len(evidence) == 1 and evidence[0].get('chapter_id') in
             ('c-jinshu-096-xiedaoyun', 'c-jinshu-096-xiedaoyun-wyd')

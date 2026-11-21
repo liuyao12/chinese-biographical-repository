@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "id": "2we_3ll_c5i",
+  "canonical_person_id": "2we_3ll_c5i",
+  "label": "裴順宗（裴叔業父）",
+  "identity_note": "魏書卷七十一裴叔業傳稱父順宗；不從祖、父並列造出父親。",
+  "review": "ai_provisional",
+  "names": [
+    "順宗"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 71,
+      "category": "",
+      "title": "裴叔業父順宗",
+      "paragraph_id": "c-weishu-weishou-071-peishuye-father:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "父順宗",
+      "paragraph_ids": [
+        "c-weishu-weishou-071-peishuye-father:p002"
+      ],
+      "mention_ids": [
+        "c-weishu-weishou-071-peishuye-father:p002:m0001"
+      ],
+      "mention_paragraph_ids": {
+        "c-weishu-weishou-071-peishuye-father:p002:m0001": "c-weishu-weishou-071-peishuye-father:p002"
+      },
+      "mention_id": "c-weishu-weishou-071-peishuye-father:p002:m0001",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-weishu-weishou-071-peishuye-father:p002:m0001",
+          "mention_ids": [
+            "c-weishu-weishou-071-peishuye-father:p002:m0001"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-071",
+      "chapter_id": "c-weishu-weishou-071-peishuye-father",
+      "source_id": "s-weishu-weishou-071-peishuye-father-ws2294110",
+      "work_title": "魏書（魏收）"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-weishu-weishou-071-peishuye-father",
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-071",
+      "source_id": "s-weishu-weishou-071-peishuye-father-ws2294110",
+      "source": {
+        "title": "魏書卷71·裴叔業父順宗",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2294110",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2294110",
+        "revision_id": 2294110,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原王府身分、紀年或改名原句",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan023-wanghuan/ws2294110.wikitext",
+        "raw_file_sha256": "4d4ae2699c35d731412a61bac764781b1a15c01ce71b2ae0cffca33dae18f077",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-nan023-wanghuan-pei-father",
+      "subject_person_id": "2we_3ll_c5i_A",
+      "object_person_id": "2we_3ll_c5i",
+      "predicate": "father",
+      "qualifiers": {
+        "nan023_wanghuan_reading": "pei-father",
+        "source_term": "父順宗",
+        "lineage": "paternal"
+      },
+      "context": {
+        "kind": "nan23_huan_wei71_father",
+        "paragraph_ids": [
+          "c-weishu-weishou-071-peishuye-father:p001",
+          "c-weishu-weishou-071-peishuye-father:p002"
+        ],
+        "parent_mention_id": "c-weishu-weishou-071-peishuye-father:p002:m0001",
+        "child_mention_id": "c-weishu-weishou-071-peishuye-father:p001:m0000",
+        "rationale": "同一固定傳首之主語與父句，原行列遠祖等在兩者間。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-071",
+          "source_id": "s-weishu-weishou-071-peishuye-father-ws2294110",
+          "chapter_id": "c-weishu-weishou-071-peishuye-father",
+          "paragraph_id": "c-weishu-weishou-071-peishuye-father:p001",
+          "quote": "裴叔業，河東聞喜人也。",
+          "subject_person_mention_id": "c-weishu-weishou-071-peishuye-father:p001:m0000"
+        },
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-071",
+          "source_id": "s-weishu-weishou-071-peishuye-father-ws2294110",
+          "chapter_id": "c-weishu-weishou-071-peishuye-father",
+          "paragraph_id": "c-weishu-weishou-071-peishuye-father:p002",
+          "quote": "父順宗",
+          "object_person_mention_id": "c-weishu-weishou-071-peishuye-father:p002:m0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原卷明言父順宗，沒有把祖和父並載變成又一父子斷言。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "2we_3ll_c5i": "裴順宗（裴叔業父）",
+    "2we_3ll_c5i_A": "裴叔業（河東聞喜人）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "2we_3ll_c5i"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-nan023-wanghuan-pei-father",
+      "subject_person_id": "2we_3ll_c5i_A",
+      "object_person_id": "2we_3ll_c5i",
+      "predicate": "father",
+      "qualifiers": {
+        "nan023_wanghuan_reading": "pei-father",
+        "source_term": "父順宗",
+        "lineage": "paternal"
+      },
+      "context": {
+        "kind": "nan23_huan_wei71_father",
+        "paragraph_ids": [
+          "c-weishu-weishou-071-peishuye-father:p001",
+          "c-weishu-weishou-071-peishuye-father:p002"
+        ],
+        "parent_mention_id": "c-weishu-weishou-071-peishuye-father:p002:m0001",
+        "child_mention_id": "c-weishu-weishou-071-peishuye-father:p001:m0000",
+        "rationale": "同一固定傳首之主語與父句，原行列遠祖等在兩者間。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-071",
+          "source_id": "s-weishu-weishou-071-peishuye-father-ws2294110",
+          "chapter_id": "c-weishu-weishou-071-peishuye-father",
+          "paragraph_id": "c-weishu-weishou-071-peishuye-father:p001",
+          "quote": "裴叔業，河東聞喜人也。",
+          "subject_person_mention_id": "c-weishu-weishou-071-peishuye-father:p001:m0000"
+        },
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-071",
+          "source_id": "s-weishu-weishou-071-peishuye-father-ws2294110",
+          "chapter_id": "c-weishu-weishou-071-peishuye-father",
+          "paragraph_id": "c-weishu-weishou-071-peishuye-father:p002",
+          "quote": "父順宗",
+          "object_person_mention_id": "c-weishu-weishou-071-peishuye-father:p002:m0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原卷明言父順宗，沒有把祖和父並載變成又一父子斷言。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

@@ -107,6 +107,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-nanshi-016-wangxuanmo-heirs-1-51",
+      "title": "司徒",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "n6r_wpb_2ov",
+      "attestations": [
+        {
+          "id": "th-nanshi-016-wangxuanmo-heirs-1-51:a",
+          "paragraph_id": "c-nanshi-016-wangxuanmo-heirs:p001",
+          "start": 51,
+          "end": 53,
+          "surface": "司徒",
+          "person_mention_id": "c-nanshi-016-wangxuanmo-heirs:p001:m0056",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-016",
+          "chapter_id": "c-nanshi-016-wangxuanmo-heirs",
+          "source_id": "s-nanshi-016-wangxuanmo-heirs-ws1963381",
+          "paragraph_id": "c-nanshi-016-wangxuanmo-heirs:p001",
+          "quote": "明帝即位，禮遇益崇。時四方反叛，玄謨領水軍前鋒南討，以腳疾未差，聽乘輿出入。尋除車騎將軍、江州刺史，副司徒建安王休仁於赭圻，賜以諸葛亮筩袖鎧。頃之，以爲左光祿大夫、開府儀同三司，領護軍將軍，遷南豫州刺史，加都督。薨年八十二，諡曰莊公。",
+          "person_mention_id": "c-nanshi-016-wangxuanmo-heirs:p001:m0056"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-song042-wangzhao-xiuren",
       "person_id": "n6r_wpb_2ov",
       "title": "建安王",
@@ -205,6 +253,41 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 16,
+      "category": "",
+      "title": "王玄謨傳末與王深、王繢附敘",
+      "paragraph_id": "c-nanshi-016-wangxuanmo-heirs:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "前鋒南討，以腳疾未差，聽乘輿出入。尋除車騎將軍、江州刺史，副司徒建安王休仁於赭圻，賜以諸葛亮筩袖鎧。頃之，以爲左光祿大夫、開府儀同三司，領護軍將軍，遷南豫州刺史，加都督。薨年八十二，諡曰莊公。",
+      "paragraph_ids": [
+        "c-nanshi-016-wangxuanmo-heirs:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-016-wangxuanmo-heirs:p001:m0056"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-016-wangxuanmo-heirs:p001:m0056": "c-nanshi-016-wangxuanmo-heirs:p001"
+      },
+      "mention_id": "c-nanshi-016-wangxuanmo-heirs:p001:m0056",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-016-wangxuanmo-heirs:p001:m0056",
+          "mention_ids": [
+            "c-nanshi-016-wangxuanmo-heirs:p001:m0056"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-016",
+      "chapter_id": "c-nanshi-016-wangxuanmo-heirs",
+      "source_id": "s-nanshi-016-wangxuanmo-heirs-ws1963381",
+      "work_title": "南史"
+    },
     {
       "number": 32,
       "category": "",
@@ -532,6 +615,29 @@
           "character_conversion": {},
           "extraction_note": "據書影按欄轉寫。十八段只供定位，記入郊廟歌撰者列名後的「等」及奏中的「諐」。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-016-wangxuanmo-heirs",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-016",
+      "source_id": "s-nanshi-016-wangxuanmo-heirs-ws1963381",
+      "source": {
+        "title": "王玄謨傳末與王深、王繢附敘",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1963381",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1963381",
+        "revision_id": 1963381,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "王玄謨傳末與王深、王繢附敘",
+        "text_scope": "partial_chapter",
+        "raw_path": "sources/nanshi/nanshi016-ws1963381.wikitext",
+        "raw_file_sha256": "8a252b3dacfcc3037062a5dab71748ee1d5c39a94f99ea9e61474b3fa9639ab3"
       }
     },
     {
@@ -1077,6 +1183,21 @@
       "book_id": "b-nanqishu-036",
       "work_id": "w-nanqishu",
       "source_id": "s-nanqishu-036-xiechaozong-ws1492438"
+    },
+    {
+      "id": "c-nanshi-016-wangxuanmo-heirs:p001:r0053",
+      "paragraph_id": "c-nanshi-016-wangxuanmo-heirs:p001",
+      "start": 53,
+      "end": 56,
+      "surface": "建安王",
+      "person_id": "n6r_wpb_2ov",
+      "referent_role": "third_person",
+      "quote": "明帝即位，禮遇益崇。時四方反叛，玄謨領水軍前鋒南討，以腳疾未差，聽乘輿出入。尋除車騎將軍、江州刺史，副司徒建安王休仁於赭圻，賜以諸葛亮筩袖鎧。頃之，以爲左光祿大夫、開府儀同三司，領護軍將軍，遷南豫州刺史，加都督。薨年八十二，諡曰莊公。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-nanshi-016-wangxuanmo-heirs",
+      "book_id": "b-nanshi-016",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-016-wangxuanmo-heirs-ws1963381"
     }
   ],
   "person_ids": [

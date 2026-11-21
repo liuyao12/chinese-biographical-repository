@@ -1,10 +1,18 @@
-"""Check native Wuyingdian chapters against their independently transcribed columns."""
+"""Check printed chapters against their independently transcribed columns."""
 import hashlib
 import json
 from pathlib import Path
 
 
+IZUMO_WITNESSES = {
+    'c-nanshi-011-wangshunhua-izumo': ('nan011-wangshunhua-izumo', '77d2f1a21c48c878d87f900fd03d3156b7f639e67b37468be5bcefcfac38b621'),
+    'c-nanshi-011-wangshaoming-izumo': ('nan011-wangshaoming-izumo', '9e3a8e0b880a45ceadf7a322833788837d9d9257f126eb2567789747a029821a'),
+}
+
+
 WITNESSES = {
+    'c-nanqishu-020-wangshunhua-wyd': ('qi020-wangshunhua-wyd', 'c559ccf10d0a5afee67b34cfea4f7f25580140a7950af68fcf8eb9bd4bae13a0'),
+    'c-nanqishu-020-wangshaoming-wyd': ('qi020-wangshaoming-wyd', '71d0ab489a03b2bad731f5530bb77007165b996fdd9fdcfd43778dbf5efc850b'),
     'c-songshu-041-xiefanjing-wyd': ('song041-xiefanjing-wyd', '70b06cb997968a23e1aa48bc19d117d96aea587354162371dd5c7c10512c2677'),
     'c-jinshu-096-wangguangnu-wyd': ('jin096-wangguang-wyd', '0ef664a042b38875b8756d1bc58ca37de3c6a6895235613fe1b0b2409f16abb9'),
     'c-jinshu-096-wanghuifeng-wyd': ('jin096-wanghuifeng', 'ead71c226112cad4ca3c9f31cb6030aacc346cd188ac683cc4104ce0e10dbf4b'),
@@ -22,22 +30,24 @@ WITNESSES = {
 
 
 def errors(chapter, root):
-    if chapter['id'] not in WITNESSES:
+    izumo = chapter['id'] in IZUMO_WITNESSES
+    witnesses = IZUMO_WITNESSES if izumo else WITNESSES
+    if chapter['id'] not in witnesses:
         return []
     try:
-        slug, digest = WITNESSES[chapter['id']]
+        slug, digest = witnesses[chapter['id']]
         directory = Path('source-evidence') / slug
-        transcription = directory / 'wyd-columns.txt'
+        transcription = directory / ('izumo-columns.txt' if izumo else 'wyd-columns.txt')
         raw = (root / transcription).read_bytes()
         source = chapter['source']
         revision = 'cbr-ai-transcription-sha256:' + digest
         if (hashlib.sha256(raw).hexdigest() != digest or source['raw_path'] != str(transcription)
                 or source['raw_file_sha256'] != digest or source['revision_id'] != revision
                 or source['image_verified'] is not True):
-            return ['梁書殿本轉寫與固定來源不合']
-        ledger_path = directory / 'wuying-reading.json'
+            return ['刊本轉寫與固定來源不合']
+        ledger_path = directory / ('izumo-reading.json' if izumo else 'wuying-reading.json')
         if chapter['annotation']['print_projection_ref'] != str(ledger_path):
-            return ['梁書殿本未連逐欄校記']
+            return ['刊本未連逐欄校記']
         ledger = json.loads((root / ledger_path).read_text())
         rows = [line.split() for line in raw.decode().splitlines()]
         observations = [(int(page), half, leaf, int(column), i, char)
@@ -48,22 +58,22 @@ def errors(chapter, root):
             parts = position['column_projection']
             if (position['revision_id'] != revision
                     or paragraph['text'] != ''.join(part['text'] for part in parts)):
-                return ['梁書殿本段文與欄位不合']
+                return ['刊本段文與欄位不合']
             for part in parts:
                 if len(part['text']) != part['end'] - part['start']:
-                    return ['梁書殿本欄內字數不合']
+                    return ['刊本欄內字數不合']
                 projected.extend((part['pdf_page'], part['half'], part['leaf'],
                                   part['column_from_right'], i, char)
                                  for i, char in enumerate(part['text'], part['start']))
         if projected != observations:
-            return ['梁書殿本投影有缺字、改字、重字或葉欄錯置']
+            return ['刊本投影有缺字、改字、重字或葉欄錯置']
         if len(ledger['columns']) != len(rows):
-            return ['梁書殿本校記未覆蓋全部欄位']
+            return ['刊本校記未覆蓋全部欄位']
         offset = 0
         for (page, half, leaf, column, text), record in zip(rows, ledger['columns']):
             if record != dict(pdf_page=int(page), half=half, leaf=leaf, column_from_right=int(column),
                               start_codepoint=offset, end_codepoint=offset + len(text), reading=text):
-                return ['梁書殿本校記之葉欄字序不合']
+                return ['刊本校記之葉欄字序不合']
             offset += len(text)
         if chapter['id'] == 'c-nanshi-022-wangyun-family-wyd':
             notes = chapter['annotation']['printed_phonetic_glosses']
@@ -91,5 +101,5 @@ def errors(chapter, root):
                 if str(path) != entry['path'] or hashlib.sha256((root / path).read_bytes()).hexdigest() != entry['sha256']:
                     return ['王筠傳所校書影與固定影檔不合']
     except (KeyError, IndexError, ValueError, TypeError, OSError):
-        return ['梁書殿本缺轉寫、葉欄或逐字校記']
+        return ['刊本缺轉寫、葉欄或逐字校記']
     return []
