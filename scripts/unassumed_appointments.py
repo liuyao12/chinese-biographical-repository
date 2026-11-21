@@ -22,6 +22,26 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if proposal.get('non_assumption_kind') == 'superseded_by_accepted_alternative':
+        try: from scripts.song066_readings import proposed_valid
+        except ImportError: from song066_readings import proposed_valid
+        return proposed_valid(proposal, chapter)
+    if chapter.get('id') == 'c-nanshi-023-wangdan-gu-yan-wyd':
+        try: from scripts.nan023_print import proposal_valid as nan23p_proposal_valid
+        except ImportError: from nan023_print import proposal_valid as nan23p_proposal_valid
+        return nan23p_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-nanshi-023-wangdan-gu-yan':
+        try: from scripts.nan023_digital import proposal_valid as nan23dan_proposal_valid
+        except ImportError: from nan023_digital import proposal_valid as nan23dan_proposal_valid
+        return nan23dan_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-songshu-052-wangdan':
+        try: from scripts.song052_wangdan import proposal_valid as wangdan52_proposal_valid
+        except ImportError: from song052_wangdan import proposal_valid as wangdan52_proposal_valid
+        return wangdan52_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-songshu-052-xieshu':
+        try: from scripts.song052_xieshu import proposal_valid as xieshu52_proposal_valid
+        except ImportError: from song052_xieshu import proposal_valid as xieshu52_proposal_valid
+        return xieshu52_proposal_valid(proposal, chapter)
     if chapter.get('id') == 'c-liangshu-021-wangjian-sons-context':
         try: from scripts.liang021_wangjiansihui import proposal_valid as sih21_proposal_valid
         except ImportError: from liang021_wangjiansihui import proposal_valid as sih21_proposal_valid
@@ -160,6 +180,17 @@ def unassumed_appointment_valid(proposal, chapter):
         return False
     # A named prince inside 廬陵王師 is the patron, not another appointee.
     patrons = proposal.get('patron_person_mention_ids', [])
+    patron_refs = proposal.get('patron_person_reference_ids', [])
+    if patron_refs:
+        if patrons or not isinstance(patron_refs, list) or len(patron_refs) != 1:
+            return False
+        patron = next((r for r in chapter['annotation'].get('person_reference_occurrences', [])
+                       if r['id'] == patron_refs[0] and r['paragraph_id'] == p['id']), {})
+        if (not patron or patron.get('referent_role') != 'third_person'
+                or patron.get('person_id') == proposal['person_id']
+                or patron['start'] != role['start'] or patron['end'] >= role['end']
+                or role['surface'] != patron['surface'] + '師'):
+            return False
     if (not isinstance(patrons, list) or len(set(patrons)) != len(patrons)
             or any(mid not in ms for mid in patrons)):
         return False

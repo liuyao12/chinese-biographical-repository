@@ -24,7 +24,8 @@ export function sourcePassageURL(source) {
 }
 
 export function facsimilePageLinks(source, position) {
-  if (source?.image_verified !== true || !position?.column_projection?.length) return '';
+  const columns = position?.column_projection ?? position?.columns;
+  if (source?.image_verified !== true || !Array.isArray(columns) || !columns.length) return '';
   let pdf;
   try {
     pdf = new URL(source.url);
@@ -38,7 +39,7 @@ export function facsimilePageLinks(source, position) {
   } catch {
     return '';
   }
-  const pages = new Set(position.column_projection.map(part => part.pdf_page)
+  const pages = new Set(columns.map(part => part.pdf_page)
     .filter(page => Number.isInteger(page) && page > 0));
   if (!pages.size) return '';
   const links = Array.from(pages, page => {

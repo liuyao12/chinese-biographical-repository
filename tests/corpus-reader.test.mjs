@@ -16,6 +16,12 @@ test('verified printed paragraphs link each attested scan page once', () => {
   assert.equal(facsimilePageLinks(catalog, {column_projection: [{pdf_page: '18'}]}), '');
   assert.equal(facsimilePageLinks({...direct, url: 'https://example.org/test.pdf'}, position), '');
 });
+test('王敬弘殿本卒齡段落可直接開啟跨葉書影', () => {
+  const chapter = JSON.parse(readFileSync(new URL('../data/corpus/songshu/066-wangjinghong-wyd.json', import.meta.url)));
+  const paragraph = chapter.paragraphs.find(({id}) => id.endsWith(':p002'));
+  const links = facsimilePageLinks(chapter.source, paragraph.source_position);
+  assert.deepEqual(Array.from(links.matchAll(/\.pdf#page=(\d+)/g), match => match[1]), ['66', '67']);
+});
 test('a direct native-work profile returns to its principal source without overriding an explicit context',()=>{
  const native={work_id:'w-jinshu',work_title:'晉書',book_id:'b-jinshu-075',chapter_id:'c-jinshu-075-synthetic',paragraph_id:'synthetic-p1',paragraph_ids:['synthetic-p1'],title:'Synthetic source',count:10};
  const person={occurrences:[native,{work_id:'w-shiji',chapter_id:'c-shiji-075-synthetic',count:2}]};

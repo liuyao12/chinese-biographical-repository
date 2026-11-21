@@ -7,7 +7,6 @@
   "review": "ai_provisional",
   "names": [
     "妻",
-    "其姊",
     "姊"
   ],
   "titles": [],
@@ -65,68 +64,6 @@
       "chapter_id": "c-nanshi-024-wang-family",
       "source_id": "s-nanshi-024-wang-family",
       "work_title": "南史"
-    },
-    {
-      "number": 66,
-      "category": "",
-      "title": "王敬弘傳",
-      "paragraph_id": "c-songshu-066-wangjinghong:line012",
-      "count": 4,
-      "raw_count": 4,
-      "duplicate_count": 0,
-      "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉",
-      "paragraph_ids": [
-        "c-songshu-066-wangjinghong:line012"
-      ],
-      "mention_ids": [
-        "c-songshu-066-wangjinghong:line012:m0036",
-        "c-songshu-066-wangjinghong:line012:m0080",
-        "c-songshu-066-wangjinghong:line012:m0101",
-        "c-songshu-066-wangjinghong:line012:m0106"
-      ],
-      "mention_paragraph_ids": {
-        "c-songshu-066-wangjinghong:line012:m0036": "c-songshu-066-wangjinghong:line012",
-        "c-songshu-066-wangjinghong:line012:m0080": "c-songshu-066-wangjinghong:line012",
-        "c-songshu-066-wangjinghong:line012:m0101": "c-songshu-066-wangjinghong:line012",
-        "c-songshu-066-wangjinghong:line012:m0106": "c-songshu-066-wangjinghong:line012"
-      },
-      "mention_id": "c-songshu-066-wangjinghong:line012:m0036",
-      "occurrence_groups": [
-        {
-          "canonical_mention_id": "c-songshu-066-wangjinghong:line012:m0036",
-          "mention_ids": [
-            "c-songshu-066-wangjinghong:line012:m0036"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-songshu-066-wangjinghong:line012:m0080",
-          "mention_ids": [
-            "c-songshu-066-wangjinghong:line012:m0080"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-songshu-066-wangjinghong:line012:m0101",
-          "mention_ids": [
-            "c-songshu-066-wangjinghong:line012:m0101"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-songshu-066-wangjinghong:line012:m0106",
-          "mention_ids": [
-            "c-songshu-066-wangjinghong:line012:m0106"
-          ],
-          "kind": "paragraph"
-        }
-      ],
-      "work_id": "w-songshu",
-      "book_id": "b-songshu-066",
-      "chapter_id": "c-songshu-066-wangjinghong",
-      "source_id": "s-songshu-066-wangjinghong",
-      "work_title": "宋書"
     }
   ],
   "table_occurrences": [],
@@ -472,8 +409,8 @@
         "permalink": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B766&oldid=2069104",
         "revision_id": 2069104,
         "accessed_on": "2026-10-18",
-        "extent": "王敬弘傳完整九原段；不包含同卷何尚之本傳。數位校注另層保留，未核影像。",
-        "text_scope": "partial_chapter",
+        "extent": "固定卷六十六第十至二十六行九段：王敬弘主傳及恢之等四則附敘。書影另列獨立見證。",
+        "text_scope": "complete_biography_unit",
         "review_status": "text_checked",
         "image_verified": false,
         "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
@@ -620,7 +557,9 @@
               "removed_digital_editorial_notes": []
             }
           ]
-        }
+        },
+        "raw_path": "sources/songshu/songshu066-ws2069104.wikitext",
+        "raw_file_sha256": "671045acf8eb033bd02cd9b1e4bd1f0b43ebe2005d0bf7b0b8706d64dce57cec"
       }
     }
   ],
@@ -632,7 +571,15 @@
       "object_person_id": "7r6_k52_qji_ABDABAA",
       "status": "source_attested",
       "qualifiers": {
-        "source_term": "敬弘妻，桓玄姊也。"
+        "source_term": "敬弘妻，桓玄姊也。",
+        "reading_basis": {
+          "kind": "song066_named_anonymous_family",
+          "source_quote": "敬弘妻，桓玄姊也。",
+          "start": 34,
+          "end": 43,
+          "subject_anchor_id": "c-songshu-066-wangjinghong:line012:m0036",
+          "object_anchor_id": "c-songshu-066-wangjinghong:line012:m0034"
+        }
       },
       "evidence": [
         {
@@ -641,9 +588,7 @@
           "chapter_id": "c-songshu-066-wangjinghong",
           "source_id": "s-songshu-066-wangjinghong",
           "paragraph_id": "c-songshu-066-wangjinghong:line012",
-          "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。",
-          "subject_person_mention_id": "c-songshu-066-wangjinghong:line012:m0036",
-          "object_person_mention_id": "c-songshu-066-wangjinghong:line012:m0000"
+          "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。"
         }
       ],
       "interpretation_note": "依本傳具名或明載親屬原詞辨人；兄弟只存相對長幼。未名妻與女不是同人，父妻並見不證明所列子女皆其生育。",
@@ -666,6 +611,14 @@
           "scope": "siblings",
           "older_ordinal": null,
           "younger_ordinal": null
+        },
+        "reading_basis": {
+          "kind": "song066_named_anonymous_family",
+          "source_quote": "敬弘妻，桓玄姊也。",
+          "start": 34,
+          "end": 43,
+          "subject_anchor_id": "c-songshu-066-wangjinghong:line012:m0036",
+          "object_anchor_id": "c-songshu-066-wangjinghong:line012:m0038"
         }
       },
       "evidence": [
@@ -675,9 +628,7 @@
           "chapter_id": "c-songshu-066-wangjinghong",
           "source_id": "s-songshu-066-wangjinghong",
           "paragraph_id": "c-songshu-066-wangjinghong:line012",
-          "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。",
-          "subject_person_mention_id": "c-songshu-066-wangjinghong:line012:m0036",
-          "object_person_mention_id": "c-songshu-066-wangjinghong:line012:m0038"
+          "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。"
         }
       ],
       "interpretation_note": "依本傳具名或明載親屬原詞辨人；兄弟只存相對長幼。未名妻與女不是同人，父妻並見不證明所列子女皆其生育。",
@@ -693,6 +644,68 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "start": 36,
+      "end": 37,
+      "surface": "妻",
+      "paragraph_id": "c-songshu-066-wangjinghong:line012",
+      "id": "c-songshu-066-wangjinghong:line012:m0036",
+      "person_id": "fml_n0s_qtz",
+      "referent_role": "third_person",
+      "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。",
+      "note": "依敘事位置、奏表發言者與對話角色辨指；稱謂與姓名分存。",
+      "chapter_id": "c-songshu-066-wangjinghong",
+      "book_id": "b-songshu-066",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-066-wangjinghong"
+    },
+    {
+      "start": 80,
+      "end": 82,
+      "surface": "其姊",
+      "paragraph_id": "c-songshu-066-wangjinghong:line012",
+      "id": "c-songshu-066-wangjinghong:line012:m0080",
+      "person_id": "fml_n0s_qtz",
+      "referent_role": "third_person",
+      "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。",
+      "note": "依敘事位置、奏表發言者與對話角色辨指；稱謂與姓名分存。",
+      "chapter_id": "c-songshu-066-wangjinghong",
+      "book_id": "b-songshu-066",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-066-wangjinghong"
+    },
+    {
+      "start": 101,
+      "end": 102,
+      "surface": "妻",
+      "paragraph_id": "c-songshu-066-wangjinghong:line012",
+      "id": "c-songshu-066-wangjinghong:line012:m0101",
+      "person_id": "fml_n0s_qtz",
+      "referent_role": "third_person",
+      "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。",
+      "note": "依敘事位置、奏表發言者與對話角色辨指；稱謂與姓名分存。",
+      "chapter_id": "c-songshu-066-wangjinghong",
+      "book_id": "b-songshu-066",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-066-wangjinghong"
+    },
+    {
+      "start": 106,
+      "end": 107,
+      "surface": "妻",
+      "paragraph_id": "c-songshu-066-wangjinghong:line012",
+      "id": "c-songshu-066-wangjinghong:line012:m0106",
+      "person_id": "fml_n0s_qtz",
+      "referent_role": "third_person",
+      "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。",
+      "note": "依敘事位置、奏表發言者與對話角色辨指；稱謂與姓名分存。",
+      "chapter_id": "c-songshu-066-wangjinghong",
+      "book_id": "b-songshu-066",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-066-wangjinghong"
+    }
+  ],
   "person_ids": [
     "fml_n0s_qtz"
   ],
@@ -704,7 +717,15 @@
       "object_person_id": "7r6_k52_qji_ABDABAA",
       "status": "source_attested",
       "qualifiers": {
-        "source_term": "敬弘妻，桓玄姊也。"
+        "source_term": "敬弘妻，桓玄姊也。",
+        "reading_basis": {
+          "kind": "song066_named_anonymous_family",
+          "source_quote": "敬弘妻，桓玄姊也。",
+          "start": 34,
+          "end": 43,
+          "subject_anchor_id": "c-songshu-066-wangjinghong:line012:m0036",
+          "object_anchor_id": "c-songshu-066-wangjinghong:line012:m0034"
+        }
       },
       "evidence": [
         {
@@ -713,9 +734,7 @@
           "chapter_id": "c-songshu-066-wangjinghong",
           "source_id": "s-songshu-066-wangjinghong",
           "paragraph_id": "c-songshu-066-wangjinghong:line012",
-          "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。",
-          "subject_person_mention_id": "c-songshu-066-wangjinghong:line012:m0036",
-          "object_person_mention_id": "c-songshu-066-wangjinghong:line012:m0000"
+          "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。"
         }
       ],
       "interpretation_note": "依本傳具名或明載親屬原詞辨人；兄弟只存相對長幼。未名妻與女不是同人，父妻並見不證明所列子女皆其生育。",
@@ -738,6 +757,14 @@
           "scope": "siblings",
           "older_ordinal": null,
           "younger_ordinal": null
+        },
+        "reading_basis": {
+          "kind": "song066_named_anonymous_family",
+          "source_quote": "敬弘妻，桓玄姊也。",
+          "start": 34,
+          "end": 43,
+          "subject_anchor_id": "c-songshu-066-wangjinghong:line012:m0036",
+          "object_anchor_id": "c-songshu-066-wangjinghong:line012:m0038"
         }
       },
       "evidence": [
@@ -747,9 +774,7 @@
           "chapter_id": "c-songshu-066-wangjinghong",
           "source_id": "s-songshu-066-wangjinghong",
           "paragraph_id": "c-songshu-066-wangjinghong:line012",
-          "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。",
-          "subject_person_mention_id": "c-songshu-066-wangjinghong:line012:m0036",
-          "object_person_mention_id": "c-songshu-066-wangjinghong:line012:m0038"
+          "quote": "敬弘少有清尚，起家本國左常侍，衛軍參軍。性恬靜，樂山水。為天門太守。敬弘妻，桓玄姊也。敬弘之郡，玄時為荊州，遣信要令過。敬弘至巴陵，謂人曰：「靈寶見要，正當欲與其姊集聚耳，我不能為桓氏贅壻。」乃遣別船送妻往江陵。妻在桓氏，彌年不迎。山郡無事，恣其遊適，累日不回，意甚好之。轉桓偉安西長史、南平太守。去官，居作唐縣界。玄輔政及篡位，屢召不下。"
         }
       ],
       "interpretation_note": "依本傳具名或明載親屬原詞辨人；兄弟只存相對長幼。未名妻與女不是同人，父妻並見不證明所列子女皆其生育。",

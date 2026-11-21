@@ -6,7 +6,8 @@
   "identity_note": "本固定傳文具名／有上下文稱謂；不由同姓連系，不補生母及生年。",
   "review": "ai_provisional",
   "names": [
-    "虞胤"
+    "虞胤",
+    "胤"
   ],
   "titles": [
     {
@@ -56,6 +57,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w098-dun-main-26",
+      "person_id": "c78_98b_f74",
+      "title": "右衛將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:line057",
+          "quote": "今遣司徒導，鎮南將軍、丹陽尹嶠，建威將軍趙胤武旅三萬，十道並進；平西將軍邃率兗州刺史遐、奮武將軍峻、奮威將軍贍精銳三萬，水陸齊勢；朕親禦六軍，左衛將軍亮，右衛將軍胤，護軍將軍詹，領軍將軍瞻，中軍將軍壺，驍騎將軍艾，驃騎將軍、南頓王宗，鎮軍將軍、汝南王祐，太宰、西陽王羕被練三千，組甲三萬，總統諸軍，討鳳之罪。罪止一人，朕不濫刑。有能殺鳳送首，封五千戶侯，賞布五千匹。",
+          "person_mention_id": "c-jinshu-098-jin033-wangji:line057:m0081"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-dun-main-26:a",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:line057",
+          "start": 77,
+          "end": 81,
+          "surface": "右衛將軍",
+          "person_mention_id": "c-jinshu-098-jin033-wangji:line057:m0081",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -93,6 +142,41 @@
       "book_id": "b-jinshu-073",
       "chapter_id": "c-jinshu-073-yuliang",
       "source_id": "s-jinshu-073-yuliang",
+      "work_title": "晉書"
+    },
+    {
+      "number": 98,
+      "category": "",
+      "title": "晉書卷九十八·王敦傳",
+      "paragraph_id": "c-jinshu-098-jin033-wangji:line057",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "將軍峻、奮威將軍贍精銳三萬，水陸齊勢；朕親禦六軍，左衛將軍亮，右衛將軍胤，護軍將軍詹，領軍將軍瞻，中軍將軍壺，驍騎將軍艾，驃騎將軍、南頓王宗，鎮軍將軍、汝南王祐，太宰、西陽王羕被練三千，組甲三萬，總統諸軍，討鳳之罪。罪止一人，朕不濫刑。有能殺鳳送首，封五千戶侯，賞布五千匹",
+      "paragraph_ids": [
+        "c-jinshu-098-jin033-wangji:line057"
+      ],
+      "mention_ids": [
+        "c-jinshu-098-jin033-wangji:line057:m0081"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-098-jin033-wangji:line057:m0081": "c-jinshu-098-jin033-wangji:line057"
+      },
+      "mention_id": "c-jinshu-098-jin033-wangji:line057:m0081",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-098-jin033-wangji:line057:m0081",
+          "mention_ids": [
+            "c-jinshu-098-jin033-wangji:line057:m0081"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "source_id": "s-jinshu-098-jin033-wangji",
       "work_title": "晉書"
     }
   ],
@@ -550,6 +634,35 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "source_id": "s-jinshu-098-jin033-wangji",
+      "source": {
+        "title": "晉書卷九十八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2614273",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2614273",
+        "revision_id": 2614273,
+        "accessed_on": "2026-10-18",
+        "extent": "卷九十八王敦題下完整傳文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂2614273原文，國圖乾隆四年武英殿刊本對讀。",
+        "wikitext_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
+        "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "collation_witnesses": [
+          "source-evidence/jin098-wang-han-ying/reading.json",
+          "source-evidence/jin098-wangdun-early/reading.json",
+          "source-evidence/jin098-wangdun-main/reading.json"
+        ]
       }
     }
   ],

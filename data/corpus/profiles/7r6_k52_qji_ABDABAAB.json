@@ -1160,8 +1160,8 @@
         "permalink": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B766&oldid=2069104",
         "revision_id": 2069104,
         "accessed_on": "2026-10-18",
-        "extent": "王敬弘傳完整九原段；不包含同卷何尚之本傳。數位校注另層保留，未核影像。",
-        "text_scope": "partial_chapter",
+        "extent": "固定卷六十六第十至二十六行九段：王敬弘主傳及恢之等四則附敘。書影另列獨立見證。",
+        "text_scope": "complete_biography_unit",
         "review_status": "text_checked",
         "image_verified": false,
         "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
@@ -1308,7 +1308,9 @@
               "removed_digital_editorial_notes": []
             }
           ]
-        }
+        },
+        "raw_path": "sources/songshu/songshu066-ws2069104.wikitext",
+        "raw_file_sha256": "671045acf8eb033bd02cd9b1e4bd1f0b43ebe2005d0bf7b0b8706d64dce57cec"
       }
     }
   ],
@@ -1552,6 +1554,44 @@
           "image_verified": false
         }
       ]
+    }
+  ],
+  "source_reading_cases": [
+    {
+      "id": "song066-26-36-14",
+      "kind": "interpretation",
+      "person_id": "7r6_k52_qji_ABDABAAB",
+      "person_ids": [
+        "7r6_k52_qji_ABDABAAB"
+      ],
+      "paragraph_id": "c-songshu-066-wangjinghong:line026",
+      "start_codepoint": 36,
+      "end_codepoint": 40,
+      "source_quote": "諡曰貞子",
+      "reading": "諡曰貞子",
+      "note": "貞子屬瓚之；敬弘諡文貞公。",
+      "human_reviewed": false,
+      "chapter_id": "c-songshu-066-wangjinghong",
+      "source_id": "s-songshu-066-wangjinghong"
+    },
+    {
+      "id": "song066-26-12-45",
+      "kind": "primary_source_comparison",
+      "person_id": "7r6_k52_qji_ABDABAAB",
+      "person_ids": [
+        "7r6_k52_qji_ABDABAAB"
+      ],
+      "paragraph_id": "c-songshu-066-wangjinghong:line026",
+      "start_codepoint": 12,
+      "end_codepoint": 17,
+      "source_quote": "恢之弟瓚之",
+      "reading": "裕之子 瓚之",
+      "note": "南史標題直稱裕之子瓚之。",
+      "human_reviewed": false,
+      "reference": "sources/nanshi/nanshi024-ws1765279.wikitext",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+      "chapter_id": "c-songshu-066-wangjinghong",
+      "source_id": "s-songshu-066-wangjinghong"
     }
   ],
   "person_ids": [

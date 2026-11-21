@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "撫",
-    "周撫"
+    "周撫",
+    "周道和"
   ],
   "titles": [
     {
@@ -380,6 +381,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "西元349年（暫定） → 未定"
+    },
+    {
+      "id": "th-w098-dun-main-35",
+      "person_id": "smf_swf_i2l",
+      "title": "前將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:line059",
+          "quote": "冠軍將軍鄧岳志氣平厚，識經邪正；前將軍周撫質性詳簡，義誠素著；功臣之胄，情義兼常，往年從敦，情節不展，畏逼首領，不得相違，論其乃心，無貳王室，朕嘉其誠，方任之以事。其餘文武，諸為敦所授用者，一無所問，刺史二千石不得輒離所職。書到奉承，自求多福，無或猜嫌，以取誅滅。敦之將士，從敦彌所，怨曠日久，或父母隕沒，或妻子喪亡，不得奔赴，銜哀從役，朕甚湣之，希不悽愴。其單丁在軍無有兼重者，皆遣歸家，終身不調，其餘皆與假三年，休訖還台，當與宿衛同例三番。明承詔書，朕不負信。",
+          "person_mention_id": "c-jinshu-098-jin033-wangji:line059:m0019"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-dun-main-35:a",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:line059",
+          "start": 16,
+          "end": 19,
+          "surface": "前將軍",
+          "person_mention_id": "c-jinshu-098-jin033-wangji:line059:m0019",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -576,6 +625,41 @@
     {
       "number": 96,
       "category": "",
+      "title": "荀崧小女灌傳（乾隆武英殿本）",
+      "paragraph_id": "c-jinshu-096-xunguan-wyd:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "前得入魯陽山獲免自詣覽乞師又為崧書與南中郎將周訪請援仍結為兄弟訪即遣子撫率三千人會石覽俱救崧賊聞兵至散走灌之力也",
+      "paragraph_ids": [
+        "c-jinshu-096-xunguan-wyd:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-096-xunguan-wyd:p001:m0105"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-096-xunguan-wyd:p001:m0105": "c-jinshu-096-xunguan-wyd:p001"
+      },
+      "mention_id": "c-jinshu-096-xunguan-wyd:p001:m0105",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-096-xunguan-wyd:p001:m0105",
+          "mention_ids": [
+            "c-jinshu-096-xunguan-wyd:p001:m0105"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-096",
+      "chapter_id": "c-jinshu-096-xunguan-wyd",
+      "source_id": "s-jinshu-096-xun-wyd1916",
+      "work_title": "晉書"
+    },
+    {
+      "number": 96,
+      "category": "",
       "title": "列女傳·列傳第六十六",
       "paragraph_id": "c-jinshu-096-lienv:xunguan:p001",
       "count": 1,
@@ -613,22 +697,28 @@
       "category": "",
       "title": "晉書卷九十八·王敦傳",
       "paragraph_id": "c-jinshu-098-jin033-wangji:line049",
-      "count": 2,
-      "raw_count": 2,
+      "count": 4,
+      "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "暴，時所不齒，以敦貴重，故曆顯位。敦以沈充、錢鳳為謀主，諸葛瑤、鄧岳、周撫、李恆、謝雍為爪牙。充等並凶險驕恣，共相驅扇，殺戮自己；又大起營府，侵人田宅，發掘古墓，剽掠市道，士庶解體，咸知其禍敗焉。敦從弟豫章太守棱日夜切諫，敦怒，陰殺之。敦無子，養含子應。及敦病甚，拜應為武衛",
       "paragraph_ids": [
         "c-jinshu-098-jin033-wangji:line049",
-        "c-jinshu-098-jin033-wangji:line063"
+        "c-jinshu-098-jin033-wangji:line059",
+        "c-jinshu-098-jin033-wangji:line063",
+        "c-jinshu-098-jin033-wangji:line069"
       ],
       "mention_ids": [
         "c-jinshu-098-jin033-wangji:line049:m0106",
-        "c-jinshu-098-jin033-wangji:line063:m0017"
+        "c-jinshu-098-jin033-wangji:line059:m0019",
+        "c-jinshu-098-jin033-wangji:line063:m0017",
+        "c-jinshu-098-jin033-wangji:line069:m0220"
       ],
       "mention_paragraph_ids": {
         "c-jinshu-098-jin033-wangji:line049:m0106": "c-jinshu-098-jin033-wangji:line049",
-        "c-jinshu-098-jin033-wangji:line063:m0017": "c-jinshu-098-jin033-wangji:line063"
+        "c-jinshu-098-jin033-wangji:line059:m0019": "c-jinshu-098-jin033-wangji:line059",
+        "c-jinshu-098-jin033-wangji:line063:m0017": "c-jinshu-098-jin033-wangji:line063",
+        "c-jinshu-098-jin033-wangji:line069:m0220": "c-jinshu-098-jin033-wangji:line069"
       },
       "mention_id": "c-jinshu-098-jin033-wangji:line049:m0106",
       "occurrence_groups": [
@@ -640,9 +730,23 @@
           "kind": "paragraph"
         },
         {
+          "canonical_mention_id": "c-jinshu-098-jin033-wangji:line059:m0019",
+          "mention_ids": [
+            "c-jinshu-098-jin033-wangji:line059:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
           "canonical_mention_id": "c-jinshu-098-jin033-wangji:line063:m0017",
           "mention_ids": [
             "c-jinshu-098-jin033-wangji:line063:m0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-098-jin033-wangji:line069:m0220",
+          "mention_ids": [
+            "c-jinshu-098-jin033-wangji:line069:m0220"
           ],
           "kind": "paragraph"
         }
@@ -1184,7 +1288,36 @@
             }
           ]
         },
-        "quality_note": "荀灌兵數本見證作數千，現代論文引作數十；只記見證差異，保留原字，未親核論文所報印本。詳見docs/source-reviews/jinshu096-xunguan-force-count.json。"
+        "quality_note": "荀灌所率，固定數位本作數千；國圖藏商務影印殿本九上第二欄作數十，《通鑑》卷八十九亦作數十。早先報告所引其他印本仍依其原收據。",
+        "raw_path": "source-evidence/jin079-yi-shi-miao/external/jin096-ws2625341.wikitext",
+        "raw_file_sha256": "2a30a87df259042f1f5d783dd7b9674ff174208aae03383fad28ab3c88dbabb5"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-096-xunguan-wyd",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-096",
+      "source_id": "s-jinshu-096-xun-wyd1916",
+      "source": {
+        "title": "武英殿本《晉書》卷九十六荀崧小女灌",
+        "provider": "日本永青文庫捐贈、中國國家圖書館藏商務印書館影印本，Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/NLC016-HWRB201817005-3297_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC24%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=979438884",
+        "revision_id": "cbr-ai-transcription-sha256:8ec2790f6e17b3cf89a29ab6602e98bdd26f0eef8e9ce8a35fcdf63b3b97392f",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/jin096-zhong-and-guan/xun/wyd-columns.txt",
+        "raw_file_sha256": "8ec2790f6e17b3cf89a29ab6602e98bdd26f0eef8e9ce8a35fcdf63b3b97392f",
+        "edition": "民國五年上海商務印書館影印清乾隆武英殿本《晉書》第24冊",
+        "extent": "八下第十欄至九上第五欄（PDF第50面），八下第九欄題荀崧小女灌。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC016-HWRB201817005-3297_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC24%E5%86%8A.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依影印本從右至左按欄轉寫。字形異於數位本處逐一繫原欄。"
+        }
       }
     },
     {
@@ -1210,7 +1343,9 @@
         "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
         "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
         "collation_witnesses": [
-          "source-evidence/jin098-wang-han-ying/reading.json"
+          "source-evidence/jin098-wang-han-ying/reading.json",
+          "source-evidence/jin098-wangdun-early/reading.json",
+          "source-evidence/jin098-wangdun-main/reading.json"
         ]
       }
     }
@@ -1259,6 +1394,31 @@
           "chapter_id": "c-jinshu-096-lienv",
           "paragraph_id": "c-jinshu-096-lienv:xunguan:p001",
           "quote": "荀崧小女灌，幼有奇節。崧為襄城太守，為杜曾所圍，力弱食盡，欲求救于故吏平南將軍石覽，計無從出。灌時年十三，乃率勇士數千人，逾城突圍夜出。賊追甚急，灌督厲將士，且戰且前，得入魯陽山獲免。自詣覽乞師，又為崧書與南中郎將周訪請援，仍結為兄弟，訪即遣子撫率三千人會石覽俱救崧。賊聞兵至，散走，灌之力也。"
+        }
+      ],
+      "interpretation_note": "撫為周訪子，《通鑑》此處作扶。",
+      "reviewer": "Codex",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-fu-father-wyd",
+      "subject_person_id": "smf_swf_i2l",
+      "object_person_id": "c6b_s71_vt7",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "訪即遣子撫"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-xun-wyd1916",
+          "chapter_id": "c-jinshu-096-xunguan-wyd",
+          "paragraph_id": "c-jinshu-096-xunguan-wyd:p001",
+          "quote": "荀崧小女灌幼有奇節崧為襄城太守為杜曾所圍力弱食盡欲求救於故吏平南將軍石覽計無從出灌時年十三乃率勇士數十人踰城突圍夜出賊追甚急灌督厲將士且戰且前得入魯陽山獲免自詣覽乞師又為崧書與南中郎將周訪請援仍結為兄弟訪即遣子撫率三千人會石覽俱救崧賊聞兵至散走灌之力也"
         }
       ],
       "interpretation_note": "撫為周訪子，《通鑑》此處作扶。",
@@ -1580,6 +1740,23 @@
   ],
   "source_reading_cases": [
     {
+      "id": "c-jinshu-096-xunguan-wyd:xunguan:p001:w7904751-107-89-smf_swf_i2l",
+      "kind": "witness_collation",
+      "person_id": "smf_swf_i2l",
+      "paragraph_id": "c-jinshu-096-xunguan-wyd:p001",
+      "source_quote": "訪即遣子撫",
+      "reference": "《通鑑》卷八十九建興三年",
+      "reading": "訪遣子扶帥兵三千，與覽共救崧",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=7904751",
+      "note": "通鑑作扶，本傳及其父荀崧傳作撫。",
+      "source_review": "source-evidence/jin075-xun-rui-and-song/song-and-guan.json",
+      "human_reviewed": false,
+      "start_codepoint": 101,
+      "end_codepoint": 106,
+      "chapter_id": "c-jinshu-096-xunguan-wyd",
+      "source_id": "s-jinshu-096-xun-wyd1916"
+    },
+    {
       "id": "c-jinshu-096-lienv:xunguan:p001:w7904751-107-89-smf_swf_i2l",
       "kind": "witness_collation",
       "person_id": "smf_swf_i2l",
@@ -1642,6 +1819,31 @@
           "chapter_id": "c-jinshu-096-lienv",
           "paragraph_id": "c-jinshu-096-lienv:xunguan:p001",
           "quote": "荀崧小女灌，幼有奇節。崧為襄城太守，為杜曾所圍，力弱食盡，欲求救于故吏平南將軍石覽，計無從出。灌時年十三，乃率勇士數千人，逾城突圍夜出。賊追甚急，灌督厲將士，且戰且前，得入魯陽山獲免。自詣覽乞師，又為崧書與南中郎將周訪請援，仍結為兄弟，訪即遣子撫率三千人會石覽俱救崧。賊聞兵至，散走，灌之力也。"
+        }
+      ],
+      "interpretation_note": "撫為周訪子，《通鑑》此處作扶。",
+      "reviewer": "Codex",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-fu-father-wyd",
+      "subject_person_id": "smf_swf_i2l",
+      "object_person_id": "c6b_s71_vt7",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "訪即遣子撫"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-xun-wyd1916",
+          "chapter_id": "c-jinshu-096-xunguan-wyd",
+          "paragraph_id": "c-jinshu-096-xunguan-wyd:p001",
+          "quote": "荀崧小女灌幼有奇節崧為襄城太守為杜曾所圍力弱食盡欲求救於故吏平南將軍石覽計無從出灌時年十三乃率勇士數十人踰城突圍夜出賊追甚急灌督厲將士且戰且前得入魯陽山獲免自詣覽乞師又為崧書與南中郎將周訪請援仍結為兄弟訪即遣子撫率三千人會石覽俱救崧賊聞兵至散走灌之力也"
         }
       ],
       "interpretation_note": "撫為周訪子，《通鑑》此處作扶。",

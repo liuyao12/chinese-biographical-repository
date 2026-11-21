@@ -10,6 +10,54 @@
   ],
   "titles": [
     {
+      "id": "th-nan023-wangzao-m1-16",
+      "person_id": "3bh_k4m_fg4_B",
+      "title": "臨川長公主",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nan023-wangzao-m1-16:a",
+          "person_mention_id": "c-nanshi-023-wangzao:p001:m0023",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanshi-023-wangzao:p001",
+          "surface": "臨川長公主",
+          "start": 16,
+          "end": 21
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangzao-ws2478204",
+          "chapter_id": "c-nanshi-023-wangzao",
+          "paragraph_id": "c-nanshi-023-wangzao:p001",
+          "quote": "長子藻，位東陽太守，尚文帝第六女臨川長公主，諱英媛。公主性妒，而藻別愛左右人吳崇祖。景和中，主讒之於廢帝，藻下獄死，主與王氏離婚。宋世諸主莫不嚴妒，明帝每疾之。湖熟令袁慆妻以妒賜死，使近臣虞通之撰妒婦記。左光祿大夫江湛孫學當尚孝武帝女，上乃使人為學作表讓婚曰：",
+          "person_mention_id": "c-nanshi-023-wangzao:p001:m0023"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-song041-wangxianyuan-family-243-17",
       "person_id": "3bh_k4m_fg4_B",
       "title": "臨川長公主",
@@ -61,6 +109,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 23,
+      "category": "",
+      "title": "王藻",
+      "paragraph_id": "c-nanshi-023-wangzao:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "長子藻，位東陽太守，尚文帝第六女臨川長公主，諱英媛。公主性妒，而藻別愛左右人吳崇祖。景和中，主讒之於廢帝，藻下獄死，主與王氏離婚。宋世諸主莫不嚴妒，明帝每疾之。湖熟令袁慆妻以妒賜死，使近臣虞通之撰妒婦記。左光祿大夫江湛孫學當尚孝武帝女，上乃使人為學作",
+      "paragraph_ids": [
+        "c-nanshi-023-wangzao:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-023-wangzao:p001:m0023"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-023-wangzao:p001:m0023": "c-nanshi-023-wangzao:p001"
+      },
+      "mention_id": "c-nanshi-023-wangzao:p001:m0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-023-wangzao:p001:m0023",
+          "mention_ids": [
+            "c-nanshi-023-wangzao:p001:m0023"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangzao",
+      "source_id": "s-nanshi-023-wangzao-ws2478204",
+      "work_title": "南史"
+    },
+    {
       "number": 41,
       "category": "",
       "title": "孝武文穆王皇后及王偃、子女附敘",
@@ -99,6 +182,63 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-nanshi-023-wangzao",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangzao-ws2478204",
+      "source": {
+        "title": "南史卷23·王藻",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定2478204王誕題內第14至20行，長子藻至元徽中臨川主請歸王族。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                15,
+                15
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                17,
+                17
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                19,
+                19
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "王誕題內王藻附傳"
+      }
+    },
+    {
       "chapter_id": "c-songshu-041-wangxianyuan-family",
       "work_id": "w-songshu",
       "book_id": "b-songshu-041",
@@ -129,6 +269,74 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-nan023-wangzao-yingyuan-father",
+      "subject_person_id": "3bh_k4m_fg4_B",
+      "object_person_id": "3bh_k4m_fg4",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文帝第六女臨川長公主",
+        "nan023_wangzao_reading": "yingyuan-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "3bh_k4m_fg4",
+          "scope": "daughters_of_parent",
+          "ordinal": 6,
+          "position": "unspecified",
+          "source_term": "第六女",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangzao-ws2478204",
+          "chapter_id": "c-nanshi-023-wangzao",
+          "paragraph_id": "c-nanshi-023-wangzao:p001",
+          "quote": "長子藻，位東陽太守，尚文帝第六女臨川長公主，諱英媛。公主性妒，而藻別愛左右人吳崇祖。景和中，主讒之於廢帝，藻下獄死，主與王氏離婚。宋世諸主莫不嚴妒，明帝每疾之。湖熟令袁慆妻以妒賜死，使近臣虞通之撰妒婦記。左光祿大夫江湛孫學當尚孝武帝女，上乃使人為學作表讓婚曰：",
+          "subject_person_mention_id": "c-nanshi-023-wangzao:p001:m0023",
+          "object_person_reference_id": "c-nanshi-023-wangzao:p001:r0011"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本條英媛為文帝第六女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangzao-yingyuan-zao",
+      "subject_person_id": "7r6_k52_qji_ABAACAABB",
+      "object_person_id": "3bh_k4m_fg4_B",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "尚文帝第六女臨川長公主，諱英媛",
+        "nan023_wangzao_reading": "yingyuan-zao",
+        "marriage_termination": {
+          "kind": "divorce",
+          "source_term": "主與王氏離婚",
+          "date": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangzao-ws2478204",
+          "chapter_id": "c-nanshi-023-wangzao",
+          "paragraph_id": "c-nanshi-023-wangzao:p001",
+          "quote": "長子藻，位東陽太守，尚文帝第六女臨川長公主，諱英媛。公主性妒，而藻別愛左右人吳崇祖。景和中，主讒之於廢帝，藻下獄死，主與王氏離婚。宋世諸主莫不嚴妒，明帝每疾之。湖熟令袁慆妻以妒賜死，使近臣虞通之撰妒婦記。左光祿大夫江湛孫學當尚孝武帝女，上乃使人為學作表讓婚曰：",
+          "subject_person_mention_id": "c-nanshi-023-wangzao:p001:m0002",
+          "object_person_mention_id": "c-nanshi-023-wangzao:p001:m0023"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "藻所尚為英媛；藻死後英媛與王氏離婚，元徽中請還身王族另記。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-song041-wangxianyuan-family-243-23-12-father",
       "subject_person_id": "3bh_k4m_fg4_B",
@@ -228,8 +436,98 @@
     "yvy_7f7_tgk": "徹（臨川長公主英媛子）"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-nan023-wangzao-英媛",
+      "person_id": "3bh_k4m_fg4_B",
+      "ming": "英媛",
+      "additional_names": [],
+      "chapter_id": "c-nanshi-023-wangzao",
+      "paragraph_id": "c-nanshi-023-wangzao:p001",
+      "quote": "長子藻，位東陽太守，尚文帝第六女臨川長公主，諱英媛。公主性妒，而藻別愛左右人吳崇祖。景和中，主讒之於廢帝，藻下獄死，主與王氏離婚。宋世諸主莫不嚴妒，明帝每疾之。湖熟令袁慆妻以妒賜死，使近臣虞通之撰妒婦記。左光祿大夫江湛孫學當尚孝武帝女，上乃使人為學作表讓婚曰：",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangzao-ws2478204"
+    }
+  ],
   "person_references": [
+    {
+      "id": "c-nanshi-023-wangzao:p001:r0016",
+      "surface": "臨川長公主",
+      "start": 16,
+      "end": 21,
+      "person_id": "3bh_k4m_fg4_B",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangzao:p001",
+      "quote": "長子藻，位東陽太守，尚文帝第六女臨川長公主，諱英媛。公主性妒，而藻別愛左右人吳崇祖。景和中，主讒之於廢帝，藻下獄死，主與王氏離婚。宋世諸主莫不嚴妒，明帝每疾之。湖熟令袁慆妻以妒賜死，使近臣虞通之撰妒婦記。左光祿大夫江湛孫學當尚孝武帝女，上乃使人為學作表讓婚曰：",
+      "note": "依本段具名配偶、帝號或主命。",
+      "chapter_id": "c-nanshi-023-wangzao",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangzao-ws2478204"
+    },
+    {
+      "id": "c-nanshi-023-wangzao:p001:r0026",
+      "surface": "公主",
+      "start": 26,
+      "end": 28,
+      "person_id": "3bh_k4m_fg4_B",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangzao:p001",
+      "quote": "長子藻，位東陽太守，尚文帝第六女臨川長公主，諱英媛。公主性妒，而藻別愛左右人吳崇祖。景和中，主讒之於廢帝，藻下獄死，主與王氏離婚。宋世諸主莫不嚴妒，明帝每疾之。湖熟令袁慆妻以妒賜死，使近臣虞通之撰妒婦記。左光祿大夫江湛孫學當尚孝武帝女，上乃使人為學作表讓婚曰：",
+      "note": "特指英媛及被訴的王藻。",
+      "chapter_id": "c-nanshi-023-wangzao",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangzao-ws2478204"
+    },
+    {
+      "id": "c-nanshi-023-wangzao:p001:r0046",
+      "surface": "主",
+      "start": 46,
+      "end": 47,
+      "person_id": "3bh_k4m_fg4_B",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangzao:p001",
+      "quote": "長子藻，位東陽太守，尚文帝第六女臨川長公主，諱英媛。公主性妒，而藻別愛左右人吳崇祖。景和中，主讒之於廢帝，藻下獄死，主與王氏離婚。宋世諸主莫不嚴妒，明帝每疾之。湖熟令袁慆妻以妒賜死，使近臣虞通之撰妒婦記。左光祿大夫江湛孫學當尚孝武帝女，上乃使人為學作表讓婚曰：",
+      "note": "特指英媛及被訴的王藻。",
+      "chapter_id": "c-nanshi-023-wangzao",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangzao-ws2478204"
+    },
+    {
+      "id": "c-nanshi-023-wangzao:p001:r0058",
+      "surface": "主",
+      "start": 58,
+      "end": 59,
+      "person_id": "3bh_k4m_fg4_B",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangzao:p001",
+      "quote": "長子藻，位東陽太守，尚文帝第六女臨川長公主，諱英媛。公主性妒，而藻別愛左右人吳崇祖。景和中，主讒之於廢帝，藻下獄死，主與王氏離婚。宋世諸主莫不嚴妒，明帝每疾之。湖熟令袁慆妻以妒賜死，使近臣虞通之撰妒婦記。左光祿大夫江湛孫學當尚孝武帝女，上乃使人為學作表讓婚曰：",
+      "note": "特指英媛及被訴的王藻。",
+      "chapter_id": "c-nanshi-023-wangzao",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangzao-ws2478204"
+    },
+    {
+      "id": "c-nanshi-023-wangzao:p004:r0184",
+      "surface": "臨川主",
+      "start": 184,
+      "end": 187,
+      "person_id": "3bh_k4m_fg4_B",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangzao:p004",
+      "quote": "臣幸屬聖明，矜照由道，弘物以典，處親以公，臣之鄙懷，可得自盡。如臣門分，世荷殊榮，足守前基，便預提拂。清官顯位，或由才升，一叨婚戚，咸成恩假。是以仰冒非宜，披露丹實，非唯止陳一己，規全身願，實乃廣申諸門受患之切。伏願天慈照察，特賜蠲停，使燕雀微群，得保叢蔚，蠢物憐生，自己彌篤。若恩詔難降，披請不申，便當刊膚剪發，投山竄海。帝以此表遍示諸主以諷切之，並為戲笑。元徽中，臨川主表求還身王族，守養弱嗣，許之。",
+      "note": "元徽中請還身王族者承英媛。",
+      "chapter_id": "c-nanshi-023-wangzao",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangzao-ws2478204"
+    },
     {
       "start": 17,
       "end": 22,
@@ -355,6 +653,74 @@
     "3bh_k4m_fg4_B"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nan023-wangzao-yingyuan-father",
+      "subject_person_id": "3bh_k4m_fg4_B",
+      "object_person_id": "3bh_k4m_fg4",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "文帝第六女臨川長公主",
+        "nan023_wangzao_reading": "yingyuan-father",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "3bh_k4m_fg4",
+          "scope": "daughters_of_parent",
+          "ordinal": 6,
+          "position": "unspecified",
+          "source_term": "第六女",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangzao-ws2478204",
+          "chapter_id": "c-nanshi-023-wangzao",
+          "paragraph_id": "c-nanshi-023-wangzao:p001",
+          "quote": "長子藻，位東陽太守，尚文帝第六女臨川長公主，諱英媛。公主性妒，而藻別愛左右人吳崇祖。景和中，主讒之於廢帝，藻下獄死，主與王氏離婚。宋世諸主莫不嚴妒，明帝每疾之。湖熟令袁慆妻以妒賜死，使近臣虞通之撰妒婦記。左光祿大夫江湛孫學當尚孝武帝女，上乃使人為學作表讓婚曰：",
+          "subject_person_mention_id": "c-nanshi-023-wangzao:p001:m0023",
+          "object_person_reference_id": "c-nanshi-023-wangzao:p001:r0011"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本條英媛為文帝第六女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangzao-yingyuan-zao",
+      "subject_person_id": "7r6_k52_qji_ABAACAABB",
+      "object_person_id": "3bh_k4m_fg4_B",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "尚文帝第六女臨川長公主，諱英媛",
+        "nan023_wangzao_reading": "yingyuan-zao",
+        "marriage_termination": {
+          "kind": "divorce",
+          "source_term": "主與王氏離婚",
+          "date": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangzao-ws2478204",
+          "chapter_id": "c-nanshi-023-wangzao",
+          "paragraph_id": "c-nanshi-023-wangzao:p001",
+          "quote": "長子藻，位東陽太守，尚文帝第六女臨川長公主，諱英媛。公主性妒，而藻別愛左右人吳崇祖。景和中，主讒之於廢帝，藻下獄死，主與王氏離婚。宋世諸主莫不嚴妒，明帝每疾之。湖熟令袁慆妻以妒賜死，使近臣虞通之撰妒婦記。左光祿大夫江湛孫學當尚孝武帝女，上乃使人為學作表讓婚曰：",
+          "subject_person_mention_id": "c-nanshi-023-wangzao:p001:m0002",
+          "object_person_mention_id": "c-nanshi-023-wangzao:p001:m0023"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "藻所尚為英媛；藻死後英媛與王氏離婚，元徽中請還身王族另記。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-song041-wangxianyuan-family-243-23-12-father",
       "subject_person_id": "3bh_k4m_fg4_B",
