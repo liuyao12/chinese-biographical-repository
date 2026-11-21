@@ -6,8 +6,7 @@
   "identity_note": "固定正文具名或明示親屬；未知姓名、年月與親等不補。",
   "review": "ai_provisional",
   "names": [
-    "尋陽公主",
-    "公主"
+    "尋陽公主"
   ],
   "titles": [],
   "addresses": [],
@@ -45,50 +44,6 @@
       "book_id": "b-jinshu-032",
       "chapter_id": "c-jinshu-032-zheng-achun-family",
       "source_id": "s-jinshu-032-zheng-achun-family",
-      "work_title": "晉書"
-    },
-    {
-      "number": 75,
-      "category": "",
-      "title": "荀崧及荀蕤、荀羨傳",
-      "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
-      "count": 2,
-      "raw_count": 2,
-      "duplicate_count": 0,
-      "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "，曰：「得一利刀子，足以殺賊。」母掩其口，曰：「無妄言！」年十五，將尚尋陽公主，羨不欲連婚帝室，仍遠遁去。監司追，不獲已，乃出尚公主，拜駙馬都尉。弱冠，與琅邪王洽齊名，沛國劉惔、太原王濛、陳郡殷浩並與交好。",
-      "paragraph_ids": [
-        "c-jinshu-075-xunsong-families:xunxian-intro:p001"
-      ],
-      "mention_ids": [
-        "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0076",
-        "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0105"
-      ],
-      "mention_paragraph_ids": {
-        "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0076": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
-        "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0105": "c-jinshu-075-xunsong-families:xunxian-intro:p001"
-      },
-      "mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0076",
-      "occurrence_groups": [
-        {
-          "canonical_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0076",
-          "mention_ids": [
-            "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0076"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0105",
-          "mention_ids": [
-            "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0105"
-          ],
-          "kind": "paragraph"
-        }
-      ],
-      "work_id": "w-jinshu",
-      "book_id": "b-jinshu-075",
-      "chapter_id": "c-jinshu-075-xunsong-families",
-      "source_id": "s-jinshu-075-xunsong-families",
       "work_title": "晉書"
     }
   ],
@@ -632,7 +587,12 @@
       "object_person_id": "dkn_ge4_286_AAAAAAAG",
       "status": "source_attested",
       "qualifiers": {
-        "source_term": "乃出尚公主"
+        "source_term": "乃出尚公主",
+        "reading_basis": {
+          "kind": "jin075_xunxian_titled_or_anonymous_kin",
+          "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
+          "fixed_revision": 2645530
+        }
       },
       "evidence": [
         {
@@ -643,7 +603,7 @@
           "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
           "quote": "羨字令則。清和有准。才年七歲，遇蘇峻難，隨父在石頭，峻甚愛之，恆置膝上。羨陰白其母，曰：「得一利刀子，足以殺賊。」母掩其口，曰：「無妄言！」年十五，將尚尋陽公主，羨不欲連婚帝室，仍遠遁去。監司追，不獲已，乃出尚公主，拜駙馬都尉。弱冠，與琅邪王洽齊名，沛國劉惔、太原王濛、陳郡殷浩並與交好。",
           "subject_person_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0000",
-          "object_person_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0076"
+          "object_person_reference_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0076"
         }
       ],
       "interpretation_note": "將尚只是前述意向，最終乃出尚公主才是實際婚姻；年十五保留報齡，不倒推婚年或生年。",
@@ -676,6 +636,38 @@
       "human_reviewed": false,
       "model": null,
       "note": "尋陽為公主封號，不作籍貫或本名。姓司馬依原文帝室所生語境暫分，本名、字及生卒未知。"
+    }
+  ],
+  "person_references": [
+    {
+      "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
+      "start": 76,
+      "end": 80,
+      "surface": "尋陽公主",
+      "id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0076",
+      "person_id": "dkn_ge4_286_AAAAAAAG",
+      "referent_role": "third_person",
+      "note": "政治婚姻明題公主封號，個人本名未見。",
+      "quote": "年十五，將尚尋陽公主",
+      "chapter_id": "c-jinshu-075-xunsong-families",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-xunsong-families"
+    },
+    {
+      "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
+      "start": 105,
+      "end": 107,
+      "surface": "公主",
+      "id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0105",
+      "person_id": "dkn_ge4_286_AAAAAAAG",
+      "referent_role": "third_person",
+      "note": "承前尋陽公主。",
+      "quote": "羨不欲連婚帝室，仍遠遁去。監司追，不獲已，乃出尚公主，拜駙馬都尉",
+      "chapter_id": "c-jinshu-075-xunsong-families",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-xunsong-families"
     }
   ],
   "person_ids": [
@@ -744,7 +736,12 @@
       "object_person_id": "dkn_ge4_286_AAAAAAAG",
       "status": "source_attested",
       "qualifiers": {
-        "source_term": "乃出尚公主"
+        "source_term": "乃出尚公主",
+        "reading_basis": {
+          "kind": "jin075_xunxian_titled_or_anonymous_kin",
+          "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
+          "fixed_revision": 2645530
+        }
       },
       "evidence": [
         {
@@ -755,7 +752,7 @@
           "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001",
           "quote": "羨字令則。清和有准。才年七歲，遇蘇峻難，隨父在石頭，峻甚愛之，恆置膝上。羨陰白其母，曰：「得一利刀子，足以殺賊。」母掩其口，曰：「無妄言！」年十五，將尚尋陽公主，羨不欲連婚帝室，仍遠遁去。監司追，不獲已，乃出尚公主，拜駙馬都尉。弱冠，與琅邪王洽齊名，沛國劉惔、太原王濛、陳郡殷浩並與交好。",
           "subject_person_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0000",
-          "object_person_mention_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0076"
+          "object_person_reference_id": "c-jinshu-075-xunsong-families:xunxian-intro:p001:m0076"
         }
       ],
       "interpretation_note": "將尚只是前述意向，最終乃出尚公主才是實際婚姻；年十五保留報齡，不倒推婚年或生年。",

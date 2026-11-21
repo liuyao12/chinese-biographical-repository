@@ -4,6 +4,11 @@
 def unassumed_role(proposal, paragraph):
     role = next((m for m in paragraph.get('mentions', [])
                  if m['id'] == proposal.get('role_mention_id')), None)
+    if role and role.get('kind') == 'non_person' and role.get('lexical_role') == 'offered_office':
+        try: from scripts.lexical_annotations import non_person_errors
+        except ImportError: from lexical_annotations import non_person_errors
+        if not non_person_errors(role, paragraph['text']):
+            return dict(role, kind='unresolved')
     if role:
         return role
     anchor = proposal.get('role_anchor')
@@ -17,6 +22,10 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if proposal.get('jin080_office_form') == 'summoned_and_declined':
+        try: from scripts.jin080_xizhi import unassumed_valid
+        except ImportError: from jin080_xizhi import unassumed_valid
+        return unassumed_valid(proposal, chapter)
     if 'source_career_role' in proposal:
         try:
             from scripts.received_career_roles import unassumed_valid
@@ -85,6 +94,8 @@ def unassumed_appointment_valid(proposal, chapter):
             or invitation and stage != 'invitation'
             or stage == 'invitation' and not invitation):
         return False
+    if appointment['surface'] == '征' and role['surface'] == '吏部郎' and p['text'][appointment['start']-5:refusal['end']] == '湣帝即位，征吏部郎，不拜':
+        verbs = [*verbs, '征']
     postposed_summons = (appointment['surface'] in ('徵', '徴')
                         and appointment['start'] == role['end']
                         and appointment['end'] <= refusal['start'])

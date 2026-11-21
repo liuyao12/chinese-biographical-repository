@@ -1,0 +1,96 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-liangshu-050-xiezao",
+  "assertions": [
+    {
+      "id": "a-liangshu-050-xiezao-father-m0008-m0001",
+      "subject_person_id": "aa6_83c_juy_CDAABAAA",
+      "object_person_id": "aa6_83c_juy_CDAABAA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "兄才卿早卒，其子藻幼孤",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-050",
+          "chapter_id": "c-liangshu-050-xiezao",
+          "source_id": "s-liangshu-050-xiezao-ws1514482",
+          "paragraph_id": "c-liangshu-050-xiezao:p001",
+          "quote": "兄才卿早卒，其子藻幼孤，幾卿撫養甚至。及藻成立，歷清官公府祭酒、主簿，皆幾卿獎訓之力也。世以此稱之。",
+          "subject_person_mention_id": "c-liangshu-050-xiezao:p001:m0008",
+          "object_person_mention_id": "c-liangshu-050-xiezao:p001:m0001"
+        }
+      ],
+      "interpretation_note": "幼孤的藻為才卿之子。梁書明作「其子」。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liangshu-050-xiezao-brother-m0001-m0012",
+      "subject_person_id": "aa6_83c_juy_CDAABAA",
+      "object_person_id": "aa6_83c_juy_CDAABAB",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "兄才卿",
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_CDAABAA",
+          "younger_person_id": "aa6_83c_juy_CDAABAB",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-050",
+          "chapter_id": "c-liangshu-050-xiezao",
+          "source_id": "s-liangshu-050-xiezao-ws1514482",
+          "paragraph_id": "c-liangshu-050-xiezao:p001",
+          "quote": "兄才卿早卒，其子藻幼孤，幾卿撫養甚至。及藻成立，歷清官公府祭酒、主簿，皆幾卿獎訓之力也。世以此稱之。",
+          "subject_person_mention_id": "c-liangshu-050-xiezao:p001:m0001",
+          "object_person_mention_id": "c-liangshu-050-xiezao:p001:m0012"
+        }
+      ],
+      "interpretation_note": "承本傳幾卿，才卿為年長者。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liangshu-050-xiezao-raised_by-m0008-m0012",
+      "subject_person_id": "aa6_83c_juy_CDAABAAA",
+      "object_person_id": "aa6_83c_juy_CDAABAB",
+      "predicate": "raised_by",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "藻幼孤，幾卿撫養甚至",
+        "care_basis": "named_orphan_reared",
+        "legal_adoption_status": "not_stated"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-050",
+          "chapter_id": "c-liangshu-050-xiezao",
+          "source_id": "s-liangshu-050-xiezao-ws1514482",
+          "paragraph_id": "c-liangshu-050-xiezao:p001",
+          "quote": "兄才卿早卒，其子藻幼孤，幾卿撫養甚至。及藻成立，歷清官公府祭酒、主簿，皆幾卿獎訓之力也。世以此稱之。",
+          "subject_person_mention_id": "c-liangshu-050-xiezao:p001:m0008",
+          "object_person_mention_id": "c-liangshu-050-xiezao:p001:m0012"
+        }
+      ],
+      "interpretation_note": "才卿卒後，幾卿撫養並獎訓其姪。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

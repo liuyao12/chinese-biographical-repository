@@ -12,6 +12,54 @@
   ],
   "titles": [
     {
+      "id": "th-nanshi024-huizhi-23-105",
+      "person_id": "d84_kqu_2g5",
+      "title": "尚書僕射",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi024-huizhi-23-105:a",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "start": 105,
+          "end": 109,
+          "surface": "尚書僕射",
+          "person_mention_id": "c-nanshi-024-wang-family:line023:m0109",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "quote": "敬弘形狀短而起坐端方，桓玄謂之「彈棋發八勢」。所居舍亭山，林澗環周，備登臨之美，故時人謂之王東山。文帝嘗問爲政得失，對曰：「天下有道，庶人不議。」上高其言。左右嘗使二老婦女，戴五條辮，著青紋絝袼，飾以朱粉。女適尚書僕射何尚之弟述之。敬弘嘗往何氏看女，遇尚之不在，因寄齋中臥。俄頃尚之還，敬弘使二婦女守合，不聽尚之入，云：「正熱不堪相見，君可且去」。尚之於是移於他室。上將爲廬陵王納其女，辭曰：「臣女幼，既許孔淳之息。」子恢之被召爲祕書郎，敬弘爲求奉朝請，與恢之書曰：「彼祕書有限故有競，朝請無限故無競，吾欲使汝處不競之地。」文帝嘉之，並見許。",
+          "person_mention_id": "c-nanshi-024-wang-family:line023:m0109"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文所見職位，未定完整任期。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-songwang7-42-81-0-49",
       "person_id": "d84_kqu_2g5",
       "title": "吏部郎",
@@ -1832,6 +1880,38 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start": 168,
+      "end": 169,
+      "surface": "君",
+      "id": "c-nanshi-024-wang-family:line023:r0168",
+      "person_id": "d84_kqu_2g5",
+      "referent_role": "addressee",
+      "quote": "君可且去",
+      "note": "依本句說話人、受話人及敘事承接。",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wang-family"
+    },
+    {
+      "id": "c-songshu-042-wanghong:line081:r0119",
+      "paragraph_id": "c-songshu-042-wanghong:line081",
+      "start": 119,
+      "end": 121,
+      "surface": "鄙懷",
+      "person_id": "d84_kqu_2g5",
+      "referent_role": "speaker_self",
+      "quote": "吏部郎何尚之議：「按孔右丞議，士人坐符伍為罪，有奴罪奴，無奴輸贖。既許士庶緬隔，則聞察自難，不宜以難知之事，定以必知之法。夫有奴不賢，無奴不必不賢。今多僮者傲然於王憲，無僕者怵迫於時網，是為恩之所霑，恒在程、卓，法之所設，必加顏、原，求之鄙懷，竊所未愜。謝殿中謂奴不隨主，於名分不明，誠是有理。然奴僕實與閭里相關，今都不問，恐有所失。意同左丞議。」",
+      "note": "同一連續法議內以自稱、官稱或君稱指人；由署名與引語輪次核定。",
+      "chapter_id": "c-songshu-042-wanghong",
+      "book_id": "b-songshu-042",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-042-wanghong"
+    }
+  ],
   "person_ids": [
     "d84_kqu_2g5"
   ],

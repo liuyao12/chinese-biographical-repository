@@ -670,3 +670,20 @@ test('quoted kin age is marked approximate while its literal words and unknown e
   setLocale('en');html=personCard(p,full);assert.match(html,/八十老父/);assert.match(html,/Source age approximation/);assert.doesNotMatch(html,/80 years old/);
  }}finally{setLocale('zh-Hant');}assert.equal(JSON.stringify(p),before);
 });
+
+test('完整人物頁分列遷葬與生卒並連至原文段落', () => {
+  const person = {
+    id: 'synthetic-person',
+    label: '某甲',
+    person_events: [{
+      event_type: 'burial', burial_kind: 'reburial', date_expression: '其年十一月五日',
+      normalized_date: {era: 'CE', era_year: 538, year: 538, year_numbering: 'astronomical', precision: 'year', calendar: 'chinese_civil'},
+      source_term: '遷窆', evidence: [{work_id: 'w-test', book_id: 'b-test', chapter_id: 'c-test', paragraph_id: 'p2', quote: '其年十一月五日遷窆。'}],
+    }],
+  };
+  const profile = personCard(person, true);
+  assert.match(profile, /<h4>來源所記葬事<\/h4>.*遷葬.*其年十一月五日.*538/);
+  assert.match(profile, /<blockquote>其年十一月五日遷窆。<\/blockquote><a href="reader.html#work=w-test&amp;chapter=c-test&amp;book=b-test&amp;passage=p2"/);
+  assert.doesNotMatch(profile, /class="person-life-summary"/);
+  assert.doesNotMatch(personCard(person), /來源所記葬事/);
+});

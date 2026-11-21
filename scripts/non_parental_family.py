@@ -2,6 +2,22 @@
 
 
 def non_parental_relation_valid(assertion, paragraphs, assertions=None):
+    if assertion.get('qualifiers', {}).get('succession_kind') == 'w080_brothers_son_si':
+        try:
+            from scripts.jin080_xianzhi import succession_valid
+        except ImportError:
+            from jin080_xianzhi import succession_valid
+        return succession_valid(assertion, paragraphs)
+    if assertion.get('qualifiers', {}).get('succession_kind') == 'ji_named_predecessor_hou':
+        try:
+            from scripts.jin079_shang_xuan import kin_valid as checked
+        except ImportError:
+            from jin079_shang_xuan import kin_valid as checked
+        return checked(assertion, paragraphs)
+    if assertion.get('qualifiers', {}).get('care_basis') == 'orphan_reared_by_named_uncle_wife':
+        try:from scripts.nanshi019_zhan_roles import kin_valid
+        except ImportError:from nanshi019_zhan_roles import kin_valid
+        return kin_valid(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'biography_family_clause':
         try:
             from scripts.biography_family_clause import valid
@@ -81,6 +97,10 @@ def non_parental_relation_valid(assertion, paragraphs, assertions=None):
         keys.add('speaker_identity_mention_id')
     if set(q) != keys:
         return False
+    if kind == 'named_orphan_reared':
+        return (term == child['surface'] + '幼孤，' + other['surface'] + '撫養甚至'
+                and text[child['start']:other['end'] + len('撫養甚至')] == term
+                and other['start'] == child['end'] + len('幼孤，'))
     if kind == 'explicit_yang':
         return (child['surface'] == '之' and term == other['surface'] + '養之'
                 and text[other['end']:child['start']] == '養')

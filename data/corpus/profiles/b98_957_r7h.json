@@ -7,9 +7,9 @@
   "review": "ai_provisional",
   "names": [
     "蔡謨",
-    "蔡公",
     "謨",
-    "臣"
+    "臣",
+    "蔡公"
   ],
   "titles": [
     {
@@ -147,6 +147,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "世說新語·惑溺",
+      "paragraph_id": "c-shishuoxinyu-035-wangdao-source:zhengwen",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王丞相有幸妾姓雷，頗預政事納貨。蔡公謂之「雷尚書」。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-035-wangdao-source:zhengwen"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-035-wangdao-source:zhengwen:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-035-wangdao-source:zhengwen:m0016": "c-shishuoxinyu-035-wangdao-source:zhengwen"
+      },
+      "mention_id": "c-shishuoxinyu-035-wangdao-source:zhengwen:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-035-wangdao-source:zhengwen:m0016",
+          "mention_ids": [
+            "c-shishuoxinyu-035-wangdao-source:zhengwen:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-035",
+      "chapter_id": "c-shishuoxinyu-035-wangdao-source",
+      "source_id": "s-shishuoxinyu-035-wangdao-source",
+      "work_title": "世說新語"
+    },
+    {
       "number": 65,
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
@@ -195,8 +230,8 @@
       "category": "",
       "title": "荀崧及荀蕤、荀羨傳",
       "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-offices:p001",
-      "count": 2,
-      "raw_count": 2,
+      "count": 1,
+      "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "田于東陽之石鱉。尋加監青州諸軍事，又領兗州刺史，鎮下邳。羨自鎮來朝，時蔡謨固讓司徒，不起，中軍將軍殷浩欲加大辟，以問於羨。羨曰：「蔡公今日事危，明日必有桓文之舉。」浩乃止。",
@@ -204,12 +239,10 @@
         "c-jinshu-075-xunsong-families:xunxian-offices:p001"
       ],
       "mention_ids": [
-        "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0228",
-        "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0258"
+        "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0228"
       ],
       "mention_paragraph_ids": {
-        "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0228": "c-jinshu-075-xunsong-families:xunxian-offices:p001",
-        "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0258": "c-jinshu-075-xunsong-families:xunxian-offices:p001"
+        "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0228": "c-jinshu-075-xunsong-families:xunxian-offices:p001"
       },
       "mention_id": "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0228",
       "occurrence_groups": [
@@ -217,13 +250,6 @@
           "canonical_mention_id": "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0228",
           "mention_ids": [
             "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0228"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0258",
-          "mention_ids": [
-            "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0258"
           ],
           "kind": "paragraph"
         }
@@ -1494,10 +1520,62 @@
           "extraction_note": "008除頁碼連接同一完整紀年；077僅去除維基排版前綴，原字／標點不校改。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-035-wangdao-source",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-035",
+      "source_id": "s-shishuoxinyu-035-wangdao-source",
+      "source": {
+        "title": "世說新語·惑溺",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1517702",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1517702",
+        "revision_id": 1517702,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位見證",
+        "extent": "與晉書卷六十五家支文句對讀的原文、古注節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文與維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin065-wang-children/external/huo-ws1517702.wikitext",
+        "raw_file_sha256": "aedb7f46712f240aa2ad2bb2c5266aefdf854f8ecab48deec859492e67600453"
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin065-caimo-caike-son",
+      "subject_person_id": "b98_957_r7h",
+      "predicate": "father",
+      "object_person_id": "535_712_929",
+      "qualifiers": {
+        "source_term": "蔡克兒",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line052",
+          "quote": "是歳，妻曹氏卒，贈金章紫綬。初，曹氏性妒，導甚憚之，乃密營別館，以處眾妾。曹氏知，將往焉。導恐妾被辱，遽令命駕，猶恐遲之，以所執麈尾柄驅牛而進。司徒蔡謨聞之，戲導曰：「朝廷欲加公九錫。」導弗之覺，但謙退而已。謨曰：「不聞餘物，惟有短轅犢車，長柄麈尾。」導大怒，謂人曰：「吾往與群賢共遊洛中，何曾聞有蔡克兒也。」",
+          "subject_person_mention_id": "c-jinshu-065-wangdao-family:line052:m0104",
+          "object_person_mention_id": "c-jinshu-065-wangdao-family:line052:m0149"
+        }
+      ],
+      "interpretation_note": "蔡謨以九錫戲導；導言蔡克兒，即蔡謨為蔡克子。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "535_712_929": "蔡克",
     "b98_957_r7h": "蔡謨"
   },
   "dates": [],
@@ -1545,10 +1623,70 @@
       "source_id": "s-jinshu-077-yinhao"
     }
   ],
+  "person_references": [
+    {
+      "id": "c-jinshu-065-wangdao-family:line052:ref0151",
+      "paragraph_id": "c-jinshu-065-wangdao-family:line052",
+      "start": 151,
+      "end": 152,
+      "surface": "兒",
+      "person_id": "b98_957_r7h",
+      "referent_role": "third_person",
+      "quote": "蔡克兒也",
+      "note": "王導語中指蔡謨為蔡克之子。",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "book_id": "b-jinshu-065",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-065-wangdao-family"
+    },
+    {
+      "paragraph_id": "c-jinshu-075-xunsong-families:xunxian-offices:p001",
+      "start": 258,
+      "end": 260,
+      "surface": "蔡公",
+      "id": "c-jinshu-075-xunsong-families:xunxian-offices:p001:m0258",
+      "person_id": "b98_957_r7h",
+      "referent_role": "third_person",
+      "note": "荀羨以姓與敬稱指蔡謨。",
+      "quote": "羨曰：「蔡公今日事危，明日必有桓文之舉。」浩乃止",
+      "chapter_id": "c-jinshu-075-xunsong-families",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-xunsong-families"
+    }
+  ],
   "person_ids": [
     "b98_957_r7h"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin065-caimo-caike-son",
+      "subject_person_id": "b98_957_r7h",
+      "predicate": "father",
+      "object_person_id": "535_712_929",
+      "qualifiers": {
+        "source_term": "蔡克兒",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line052",
+          "quote": "是歳，妻曹氏卒，贈金章紫綬。初，曹氏性妒，導甚憚之，乃密營別館，以處眾妾。曹氏知，將往焉。導恐妾被辱，遽令命駕，猶恐遲之，以所執麈尾柄驅牛而進。司徒蔡謨聞之，戲導曰：「朝廷欲加公九錫。」導弗之覺，但謙退而已。謨曰：「不聞餘物，惟有短轅犢車，長柄麈尾。」導大怒，謂人曰：「吾往與群賢共遊洛中，何曾聞有蔡克兒也。」",
+          "subject_person_mention_id": "c-jinshu-065-wangdao-family:line052:m0104",
+          "object_person_mention_id": "c-jinshu-065-wangdao-family:line052:m0149"
+        }
+      ],
+      "interpretation_note": "蔡謨以九錫戲導；導言蔡克兒，即蔡謨為蔡克子。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [
     {
       "id": "age-jin077-f51-001",

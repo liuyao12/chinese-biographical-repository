@@ -791,6 +791,70 @@
   ],
   "age_assertions": [],
   "life_events": [],
+  "person_events": [
+    {
+      "id": "ev-jin079-shi-hao",
+      "person_id": "4c2_763_efd_A",
+      "event_type": "noble_title_succession",
+      "source_term": "嗣",
+      "date_expression": null,
+      "source_clause_binding": {
+        "kind": "jin079_shi_heirs",
+        "role": "hao",
+        "clause": "明慧從兄喻復以子暠嗣"
+      },
+      "title": null,
+      "holding_id": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshi-p004",
+          "quote": "子汪嗣，早卒。汪從兄沖以子明慧嗣，為孫恩所害。明慧從兄喻復以子暠嗣。宋受禪，國除。",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshi-p004:m0031"
+        }
+      ],
+      "interpretation_note": "傳末依序記汪、明慧、暠承嗣；宋受禪國除。明慧親父沖、暠親父喻與承嗣者不是同一角色。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "mode": "accession",
+      "predecessor_person_id": "1a3_b0c_e6d_A"
+    },
+    {
+      "id": "ev-jin079-shi-abolition",
+      "person_id": "4c2_763_efd_A",
+      "event_type": "noble_state_abolition",
+      "source_term": "國除",
+      "date_expression": "宋受禪",
+      "source_clause_binding": {
+        "kind": "jin079_shi_heirs",
+        "role": "abolition",
+        "clause": "宋受禪，國除"
+      },
+      "title": null,
+      "holding_id": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshi-p004",
+          "quote": "子汪嗣，早卒。汪從兄沖以子明慧嗣，為孫恩所害。明慧從兄喻復以子暠嗣。宋受禪，國除。",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshi-p004:m0031"
+        }
+      ],
+      "interpretation_note": "傳末依序記汪、明慧、暠承嗣；宋受禪國除。明慧親父沖、暠親父喻與承嗣者不是同一角色。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

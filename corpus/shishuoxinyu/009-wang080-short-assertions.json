@@ -1,0 +1,96 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-shishuoxinyu-009-wang080-short",
+  "assertions": [
+    {
+      "id": "a-w080-zhen-hui",
+      "subject_person_id": "326_faf_cd3_BA",
+      "object_person_id": "326_faf_cd3_B",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "徽之子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-009",
+          "chapter_id": "c-shishuoxinyu-009-wang080-short",
+          "source_id": "s-shishuoxinyu-009-wang080-short",
+          "paragraph_id": "c-shishuoxinyu-009-wang080-short:wangshipu",
+          "quote": "楨之字公榦，琅邪人，徽之子。歷侍中、大司馬長史。",
+          "subject_person_mention_id": "c-shishuoxinyu-009-wang080-short:wangshipu:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-009-wang080-short:wangshipu:m0010"
+        }
+      ],
+      "interpretation_note": "劉注所引王氏譜具兩名。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w080-cao-xi",
+      "subject_person_id": "326_faf_cd3_C",
+      "object_person_id": "326_faf_cd3",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "羲之第六子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-009",
+          "chapter_id": "c-shishuoxinyu-009-wang080-short",
+          "source_id": "s-shishuoxinyu-009-wang080-short",
+          "paragraph_id": "c-shishuoxinyu-009-wang080-short:cao",
+          "quote": "操之字子重，羲之第六子。歷秘書監、侍中、尚書、豫章太守。",
+          "subject_person_mention_id": "c-shishuoxinyu-009-wang080-short:cao:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-009-wang080-short:cao:m0006"
+        }
+      ],
+      "interpretation_note": "王氏譜稱羲之第六子。秘書監為本處獨見的履歷。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w080-zhen-xian",
+      "predicate": "paternal_uncle",
+      "subject_person_id": "326_faf_cd3_BA",
+      "object_person_id": "sm1_jfi_7k2",
+      "qualifiers": {
+        "source_term": "第七叔",
+        "source_clause_binding": {
+          "kind": "shishuo_zhenzhi_seventh_uncle"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-009",
+          "chapter_id": "c-shishuoxinyu-009-wang080-short",
+          "source_id": "s-shishuoxinyu-009-wang080-short",
+          "paragraph_id": "c-shishuoxinyu-009-wang080-short:uncle",
+          "quote": "桓玄為太傅，大會，朝臣畢集。坐裁竟，問王楨之曰：「我何如卿第七叔？」",
+          "subject_person_mention_id": "c-shishuoxinyu-009-wang080-short:uncle:m0019"
+        },
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-009",
+          "chapter_id": "c-shishuoxinyu-009-wang080-short",
+          "source_id": "s-shishuoxinyu-009-wang080-short",
+          "paragraph_id": "c-shishuoxinyu-009-wang080-short:liunote",
+          "quote": "第七叔，獻之也。",
+          "object_person_mention_id": "c-shishuoxinyu-009-wang080-short:liunote:m0004"
+        }
+      ],
+      "interpretation_note": "正文的問者稱楨之第七叔；劉注自案明言該叔為獻之，不把這句混作引王氏譜。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

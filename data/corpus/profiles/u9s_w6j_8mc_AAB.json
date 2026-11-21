@@ -164,6 +164,41 @@
       "chapter_id": "c-jinshu-099-huanxuan",
       "source_id": "s-jinshu-099-huanxuan-ws2644703",
       "work_title": "晉書"
+    },
+    {
+      "number": 152,
+      "category": "",
+      "title": "皇親部十八新安公主出身與兩段婚姻",
+      "paragraph_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "新安湣公主道福，簡文第三女，徐淑媛所生。適桓濟，重適王獻之。",
+      "paragraph_ids": [
+        "c-taipingyulan-152-wang080-xianzhi:zhongxing"
+      ],
+      "mention_ids": [
+        "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0021"
+      ],
+      "mention_paragraph_ids": {
+        "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0021": "c-taipingyulan-152-wang080-xianzhi:zhongxing"
+      },
+      "mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0021",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0021",
+          "mention_ids": [
+            "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0021"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-taipingyulan",
+      "book_id": "b-taipingyulan-152",
+      "chapter_id": "c-taipingyulan-152-wang080-xianzhi",
+      "source_id": "s-taipingyulan-152-wang080-xianzhi",
+      "work_title": "太平御覽"
     }
   ],
   "table_occurrences": [],
@@ -259,6 +294,30 @@
         "text_scope": "partial_chapter",
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "chapter_id": "c-taipingyulan-152-wang080-xianzhi",
+      "work_id": "w-taipingyulan",
+      "book_id": "b-taipingyulan-152",
+      "source_id": "s-taipingyulan-152-wang080-xianzhi",
+      "source": {
+        "title": "太平御覽卷一百五十二",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2587414",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2587414",
+        "revision_id": 2587414,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位轉錄。",
+        "extent": "固定版本的相關原句及該句所出層次，按字位核對。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin080-wang-xianzhi/external/yu152-ws2587414.wikitext",
+        "raw_file_sha256": "22d6bd6b8649f3889cf81443340ab9a2b61d100b0afd4fb69ad7ec0bf6be313d",
+        "wikitext_sha256": "22d6bd6b8649f3889cf81443340ab9a2b61d100b0afd4fb69ad7ec0bf6be313d"
       }
     }
   ],
@@ -381,9 +440,36 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-w080-newan-ji",
+      "subject_person_id": "dkn_ge4_286_AAAAAAAFB",
+      "object_person_id": "u9s_w6j_8mc_AAB",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "適桓濟"
+      },
+      "evidence": [
+        {
+          "work_id": "w-taipingyulan",
+          "book_id": "b-taipingyulan-152",
+          "chapter_id": "c-taipingyulan-152-wang080-xianzhi",
+          "source_id": "s-taipingyulan-152-wang080-xianzhi",
+          "paragraph_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing",
+          "quote": "新安湣公主道福，簡文第三女，徐淑媛所生。適桓濟，重適王獻之。",
+          "subject_person_mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0000",
+          "object_person_mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0021"
+        }
+      ],
+      "interpretation_note": "首次婚姻。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
+    "dkn_ge4_286_AAAAAAAFB": "司馬道福",
     "u9s_w6j_8mc_AA": "桓溫",
     "u9s_w6j_8mc_AAA": "桓熙",
     "u9s_w6j_8mc_AAB": "桓濟",
@@ -511,6 +597,32 @@
       ],
       "interpretation_note": "依完整原段與具體錨點辨識；未補原文未述父母、配偶、世系或排行。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w080-newan-ji",
+      "subject_person_id": "dkn_ge4_286_AAAAAAAFB",
+      "object_person_id": "u9s_w6j_8mc_AAB",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "適桓濟"
+      },
+      "evidence": [
+        {
+          "work_id": "w-taipingyulan",
+          "book_id": "b-taipingyulan-152",
+          "chapter_id": "c-taipingyulan-152-wang080-xianzhi",
+          "source_id": "s-taipingyulan-152-wang080-xianzhi",
+          "paragraph_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing",
+          "quote": "新安湣公主道福，簡文第三女，徐淑媛所生。適桓濟，重適王獻之。",
+          "subject_person_mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0000",
+          "object_person_mention_id": "c-taipingyulan-152-wang080-xianzhi:zhongxing:m0021"
+        }
+      ],
+      "interpretation_note": "首次婚姻。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }

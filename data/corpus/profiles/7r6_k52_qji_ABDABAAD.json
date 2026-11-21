@@ -12,50 +12,6 @@
   "addresses": [],
   "occurrences": [
     {
-      "number": 24,
-      "category": "",
-      "title": "王氏跨史家系選段",
-      "paragraph_id": "c-nanshi-024-wang-family:line023",
-      "count": 2,
-      "raw_count": 2,
-      "duplicate_count": 0,
-      "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "人不議。」上高其言。左右嘗使二老婦女，戴五條辮，著青紋絝袼，飾以朱粉。女適尚書僕射何尚之弟述之。敬弘嘗往何氏看女，遇尚之不在，因寄齋中臥。俄頃尚之還，敬弘使二婦女守合，不聽尚之入，云：「正熱不堪相見，君可且去」。尚之於是移於他室。上將爲廬陵王納其女，辭曰：「臣女幼，既許孔",
-      "paragraph_ids": [
-        "c-nanshi-024-wang-family:line023"
-      ],
-      "mention_ids": [
-        "c-nanshi-024-wang-family:line023:m0103",
-        "c-nanshi-024-wang-family:line023:m0123"
-      ],
-      "mention_paragraph_ids": {
-        "c-nanshi-024-wang-family:line023:m0103": "c-nanshi-024-wang-family:line023",
-        "c-nanshi-024-wang-family:line023:m0123": "c-nanshi-024-wang-family:line023"
-      },
-      "mention_id": "c-nanshi-024-wang-family:line023:m0103",
-      "occurrence_groups": [
-        {
-          "canonical_mention_id": "c-nanshi-024-wang-family:line023:m0103",
-          "mention_ids": [
-            "c-nanshi-024-wang-family:line023:m0103"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-nanshi-024-wang-family:line023:m0123",
-          "mention_ids": [
-            "c-nanshi-024-wang-family:line023:m0123"
-          ],
-          "kind": "paragraph"
-        }
-      ],
-      "work_id": "w-nanshi",
-      "book_id": "b-nanshi-024",
-      "chapter_id": "c-nanshi-024-wang-family",
-      "source_id": "s-nanshi-024-wang-family",
-      "work_title": "南史"
-    },
-    {
       "number": 66,
       "category": "",
       "title": "王敬弘傳",
@@ -829,11 +785,49 @@
       "unknown_identity_possible": false,
       "status": "unresolved",
       "note": "王敬弘女適何述之與女適孔尚各有原句；可能是兩女，也可能是同一女不同婚配，現無姓名、再嫁或明言二女證據。分存來源角色，不斷言已證實為兩個不同人，也不強合；生母與排行均不補。",
+      "person_reference_ids": [
+        "c-nanshi-024-wang-family:line023:m0103",
+        "c-nanshi-024-wang-family:line023:m0123",
+        "c-nanshi-024-wang-family:line023:m0191",
+        "c-nanshi-024-wang-family:line023:m0198"
+      ],
       "chapter_id": "c-nanshi-024-wang-family",
       "source_id": "s-nanshi-024-wang-family"
     }
   ],
   "name_components": [],
+  "person_references": [
+    {
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start": 103,
+      "end": 104,
+      "surface": "女",
+      "id": "c-nanshi-024-wang-family:line023:m0103",
+      "person_id": "7r6_k52_qji_ABDABAAD",
+      "referent_role": "third_person",
+      "quote": "女適尚書僕射",
+      "note": "依本句說話人、受話人及敘事承接。",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wang-family"
+    },
+    {
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start": 123,
+      "end": 124,
+      "surface": "女",
+      "id": "c-nanshi-024-wang-family:line023:m0123",
+      "person_id": "7r6_k52_qji_ABDABAAD",
+      "referent_role": "third_person",
+      "quote": "往何氏看女",
+      "note": "依本句說話人、受話人及敘事承接。",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wang-family"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABDABAAD"
   ],

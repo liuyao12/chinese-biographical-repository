@@ -1,0 +1,82 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-shuduan-002-jin080-xizhi",
+  "events": [
+    {
+      "id": "le-w080-shuduan-xizhi",
+      "person_id": "326_faf_cd3",
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": "昇平五年",
+      "evidence": [
+        {
+          "work_id": "w-shuduan",
+          "book_id": "b-shuduan-002",
+          "chapter_id": "c-shuduan-002-jin080-xizhi",
+          "source_id": "s-shuduan-002-jin080-xizhi",
+          "paragraph_id": "c-shuduan-002-jin080-xizhi:life",
+          "person_mention_id": "c-shuduan-002-jin080-xizhi:life:m0000",
+          "quote": "王羲之，字逸少，瑯琊臨沂人。祖正，尚書郎，父曠，淮南太守。逸少骨鯁高爽，不顧常流，與王承、王沉為王氏三少，起家秘書郎，累遷右軍將軍會稽內史。初度浙江，便有終焉之志。昇平五年卒，年五十九，贈金紫光祿大夫加常侍。"
+        }
+      ],
+      "interpretation_note": "唐張懷瓘書斷此傳明書昇平五年；晉書此段只有年五十九。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 361,
+        "year": 361,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "昇平五年",
+        "status": "editorial_provisional",
+        "original_quote": "王羲之，字逸少，瑯琊臨沂人。祖正，尚書郎，父曠，淮南太守。逸少骨鯁高爽，不顧常流，與王承、王沉為王氏三少，起家秘書郎，累遷右軍將軍會稽內史。初度浙江，便有終焉之志。昇平五年卒，年五十九，贈金紫光祿大夫加常侍。",
+        "evidence": [
+          {
+            "work_id": "w-shuduan",
+            "book_id": "b-shuduan-002",
+            "chapter_id": "c-shuduan-002-jin080-xizhi",
+            "source_id": "s-shuduan-002-jin080-xizhi",
+            "paragraph_id": "c-shuduan-002-jin080-xizhi:life",
+            "person_mention_id": "c-shuduan-002-jin080-xizhi:life:m0000",
+            "quote": "王羲之，字逸少，瑯琊臨沂人。祖正，尚書郎，父曠，淮南太守。逸少骨鯁高爽，不顧常流，與王承、王沉為王氏三少，起家秘書郎，累遷右軍將軍會稽內史。初度浙江，便有終焉之志。昇平五年卒，年五十九，贈金紫光祿大夫加常侍。"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》附錄：中國歷代年號表（東晉升平）",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "升平",
+            "columns": {
+              "dynasty": "東晉",
+              "era_name": "升平",
+              "first_year": "357",
+              "last_year": "361"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-10-18",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "升平",
+          "source_number": "五",
+          "regnal_year": 5,
+          "start_ce_year": 357,
+          "end_ce_year": 361,
+          "reference_index": 0,
+          "source_era_name": "昇平"
+        },
+        "rationale": "唐書斷記昇平五年。按教育部年號表，升平元年為357，第五年為361。晉書卷八十只記卒齡。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    }
+  ]
+}

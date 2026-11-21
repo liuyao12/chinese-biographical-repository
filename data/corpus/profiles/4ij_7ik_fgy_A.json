@@ -10,16 +10,58 @@
     "謝仁祖",
     "謝尚",
     "仁祖",
-    "之",
-    "此兒",
-    "自",
     "小安豐",
-    "其",
-    "君",
-    "卿",
     "簡"
   ],
   "titles": [
+    {
+      "id": "th-w080-xushang-xie",
+      "person_id": "4ij_7ik_fgy_A",
+      "title": "安西將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-008",
+          "chapter_id": "c-jinshu-008-jin080-xizhi",
+          "source_id": "s-jinshu-008-jin080-xizhi",
+          "paragraph_id": "c-jinshu-008-jin080-xizhi:xushang",
+          "person_mention_id": "c-jinshu-008-jin080-xizhi:xushang:m0004",
+          "quote": "安西將軍謝尚帥姚襄與張遇戰于許昌之誡橋，王師敗績。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w080-xushang-xie:a",
+          "paragraph_id": "c-jinshu-008-jin080-xizhi:xushang",
+          "start": 0,
+          "end": 4,
+          "surface": "安西將軍",
+          "person_mention_id": "c-jinshu-008-jin080-xizhi:xushang:m0004",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本句所授、所歷或任時稱謂。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-jin077-f51-045",
       "person_id": "4ij_7ik_fgy_A",
@@ -2078,6 +2120,76 @@
   ],
   "occurrences": [
     {
+      "number": 8,
+      "category": "",
+      "title": "穆帝紀永和八年與九年兩次敗績",
+      "paragraph_id": "c-jinshu-008-jin080-xizhi:xushang",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "安西將軍謝尚帥姚襄與張遇戰于許昌之誡橋，王師敗績。",
+      "paragraph_ids": [
+        "c-jinshu-008-jin080-xizhi:xushang"
+      ],
+      "mention_ids": [
+        "c-jinshu-008-jin080-xizhi:xushang:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-008-jin080-xizhi:xushang:m0004": "c-jinshu-008-jin080-xizhi:xushang"
+      },
+      "mention_id": "c-jinshu-008-jin080-xizhi:xushang:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-008-jin080-xizhi:xushang:m0004",
+          "mention_ids": [
+            "c-jinshu-008-jin080-xizhi:xushang:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-008",
+      "chapter_id": "c-jinshu-008-jin080-xizhi",
+      "source_id": "s-jinshu-008-jin080-xizhi",
+      "work_title": "晉書"
+    },
+    {
+      "number": 8,
+      "category": "",
+      "title": "穆帝紀謝尚、謝奕卒年紀事",
+      "paragraph_id": "c-jinshu-008-xie-branch-annal:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "升平元年\n五月\n庚午，鎮西將軍謝尚卒。",
+      "paragraph_ids": [
+        "c-jinshu-008-xie-branch-annal:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-008-xie-branch-annal:p001:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-008-xie-branch-annal:p001:m0015": "c-jinshu-008-xie-branch-annal:p001"
+      },
+      "mention_id": "c-jinshu-008-xie-branch-annal:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-008-xie-branch-annal:p001:m0015",
+          "mention_ids": [
+            "c-jinshu-008-xie-branch-annal:p001:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-008",
+      "chapter_id": "c-jinshu-008-xie-branch-annal",
+      "source_id": "s-jinshu-008-xie-branch-ws2644502",
+      "work_title": "晉書"
+    },
+    {
       "number": 24,
       "category": "",
       "title": "王氏跨史家系選段",
@@ -2206,8 +2318,8 @@
       "category": "",
       "title": "謝氏家族選段及謝尚、奕、玄、石、邈完整單元",
       "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-      "count": 46,
-      "raw_count": 46,
+      "count": 31,
+      "raw_count": 31,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "謝尚，字仁祖，豫章太守鯤之子也。幼有至性。七歲喪兄，哀慟過禮，親戚異之。八歲神悟夙成。鯤嘗攜之送客，或曰：「此兒一坐之顏回也。」尚應聲答曰：「坐無尼父，焉別顏回！」席賓莫不歎異。十餘歲，遭父憂，丹陽尹溫嶠",
@@ -2224,33 +2336,18 @@
       "mention_ids": [
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0000",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0004",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0034",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0046",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0054",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0064",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0103",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0105",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0128",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0164",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0168",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0190",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0193",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0201",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0225",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0235",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0254",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0277",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0288",
         "c-jinshu-079-xielang-family:exp-xieshang-p002:m0036",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0059",
-        "c-jinshu-079-xielang-family:exp-xieshang-p003:m0078",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0091",
-        "c-jinshu-079-xielang-family:exp-xieshang-p003:m0105",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0107",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0125",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0131",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0152",
-        "c-jinshu-079-xielang-family:exp-xieshang-p003:m0177",
         "c-jinshu-079-xielang-family:exp-xieshang-p004:m0012",
         "c-jinshu-079-xielang-family:exp-xieshang-p004:m0034",
         "c-jinshu-079-xielang-family:exp-xieshang-p004:m0036",
@@ -2272,33 +2369,18 @@
       "mention_paragraph_ids": {
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0000": "c-jinshu-079-xielang-family:exp-xieshang-p001",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0004": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0034": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0046": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0054": "c-jinshu-079-xielang-family:exp-xieshang-p001",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0064": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0103": "c-jinshu-079-xielang-family:exp-xieshang-p001",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0105": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0128": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0164": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0168": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0190": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0193": "c-jinshu-079-xielang-family:exp-xieshang-p001",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0201": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0225": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0235": "c-jinshu-079-xielang-family:exp-xieshang-p001",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0254": "c-jinshu-079-xielang-family:exp-xieshang-p001",
         "c-jinshu-079-xielang-family:exp-xieshang-p001:m0277": "c-jinshu-079-xielang-family:exp-xieshang-p001",
-        "c-jinshu-079-xielang-family:exp-xieshang-p001:m0288": "c-jinshu-079-xielang-family:exp-xieshang-p001",
         "c-jinshu-079-xielang-family:exp-xieshang-p002:m0036": "c-jinshu-079-xielang-family:exp-xieshang-p002",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0059": "c-jinshu-079-xielang-family:exp-xieshang-p003",
-        "c-jinshu-079-xielang-family:exp-xieshang-p003:m0078": "c-jinshu-079-xielang-family:exp-xieshang-p003",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0091": "c-jinshu-079-xielang-family:exp-xieshang-p003",
-        "c-jinshu-079-xielang-family:exp-xieshang-p003:m0105": "c-jinshu-079-xielang-family:exp-xieshang-p003",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0107": "c-jinshu-079-xielang-family:exp-xieshang-p003",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0125": "c-jinshu-079-xielang-family:exp-xieshang-p003",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0131": "c-jinshu-079-xielang-family:exp-xieshang-p003",
         "c-jinshu-079-xielang-family:exp-xieshang-p003:m0152": "c-jinshu-079-xielang-family:exp-xieshang-p003",
-        "c-jinshu-079-xielang-family:exp-xieshang-p003:m0177": "c-jinshu-079-xielang-family:exp-xieshang-p003",
         "c-jinshu-079-xielang-family:exp-xieshang-p004:m0012": "c-jinshu-079-xielang-family:exp-xieshang-p004",
         "c-jinshu-079-xielang-family:exp-xieshang-p004:m0034": "c-jinshu-079-xielang-family:exp-xieshang-p004",
         "c-jinshu-079-xielang-family:exp-xieshang-p004:m0036": "c-jinshu-079-xielang-family:exp-xieshang-p004",
@@ -2334,37 +2416,9 @@
           "kind": "paragraph"
         },
         {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0034",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0034"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0046",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0046"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0054",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0054"
-          ],
-          "kind": "paragraph"
-        },
-        {
           "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0064",
           "mention_ids": [
             "c-jinshu-079-xielang-family:exp-xieshang-p001:m0064"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0103",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0103"
           ],
           "kind": "paragraph"
         },
@@ -2376,58 +2430,9 @@
           "kind": "paragraph"
         },
         {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0128",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0128"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0164",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0164"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0168",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0168"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0190",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0190"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0193",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0193"
-          ],
-          "kind": "paragraph"
-        },
-        {
           "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0201",
           "mention_ids": [
             "c-jinshu-079-xielang-family:exp-xieshang-p001:m0201"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0225",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0225"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0235",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0235"
           ],
           "kind": "paragraph"
         },
@@ -2446,13 +2451,6 @@
           "kind": "paragraph"
         },
         {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0288",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p001:m0288"
-          ],
-          "kind": "paragraph"
-        },
-        {
           "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p002:m0036",
           "mention_ids": [
             "c-jinshu-079-xielang-family:exp-xieshang-p002:m0036"
@@ -2467,23 +2465,9 @@
           "kind": "paragraph"
         },
         {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p003:m0078",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p003:m0078"
-          ],
-          "kind": "paragraph"
-        },
-        {
           "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p003:m0091",
           "mention_ids": [
             "c-jinshu-079-xielang-family:exp-xieshang-p003:m0091"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p003:m0105",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p003:m0105"
           ],
           "kind": "paragraph"
         },
@@ -2512,13 +2496,6 @@
           "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p003:m0152",
           "mention_ids": [
             "c-jinshu-079-xielang-family:exp-xieshang-p003:m0152"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p003:m0177",
-          "mention_ids": [
-            "c-jinshu-079-xielang-family:exp-xieshang-p003:m0177"
           ],
           "kind": "paragraph"
         },
@@ -2651,6 +2628,53 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-008-jin080-xizhi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-008",
+      "source_id": "s-jinshu-008-jin080-xizhi",
+      "source": {
+        "title": "晉書卷八穆帝紀",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2644502",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2644502",
+        "revision_id": 2644502,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位轉錄。",
+        "extent": "固定版本的相關原句及該句所出層次，按字位核對。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-xiewan-recheck/external/jun008-ws2644502.wikitext",
+        "raw_file_sha256": "947547981eb6fa2796d6a66f0b2f49e0d44d8f517cbd5300eb96d84114d56a73",
+        "wikitext_sha256": "947547981eb6fa2796d6a66f0b2f49e0d44d8f517cbd5300eb96d84114d56a73"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-008-xie-branch-annal",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-008",
+      "source_id": "s-jinshu-008-xie-branch-ws2644502",
+      "source": {
+        "title": "穆帝紀謝尚、謝奕卒年紀事",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2644502",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2644502",
+        "revision_id": 2644502,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫數位見證；刊本未核、未核書影。",
+        "extent": "節錄本紀固定版本的年題、月日及事件原句，各原始位置另存，不把鄰事之日移入未記日的卒條。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-xiewan-recheck/external/jun008-ws2644502.wikitext",
+        "raw_file_sha256": "947547981eb6fa2796d6a66f0b2f49e0d44d8f517cbd5300eb96d84114d56a73"
+      }
+    },
     {
       "chapter_id": "c-jinshu-032-chu-suanzi",
       "work_id": "w-jinshu",
@@ -3456,6 +3480,30 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-080-wangxizhi-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "source_id": "s-jinshu-080-wangxizhi-family",
+      "source": {
+        "title": "晉書卷八十列傳第五十",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2603570",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2603570",
+        "revision_id": 2603570,
+        "accessed_on": "2026-11-20",
+        "edition": "固定數位轉錄。清武英殿本另列核過葉次及異文。",
+        "extent": "由王羲之傳首至卷末書論，每段依固定修訂；小標題另存。",
+        "text_scope": "full_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-xieyan-xiehun/witnesses/jin080-ws2603570.wikitext",
+        "raw_file_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "wikitext_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0"
+      }
+    },
+    {
       "chapter_id": "c-nanshi-024-wang-family",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-024",
@@ -3858,6 +3906,70 @@
       "model": null
     },
     {
+      "id": "a-jin079-branch-cousins-75-206",
+      "subject_person_id": "aa6_83c_juy_C",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "4ij_7ik_fgy_A",
+      "qualifiers": {
+        "source_term": "從兄尚",
+        "lineage": "agnatic",
+        "relative_birth_order": {
+          "older_person_id": "4ij_7ik_fgy_A",
+          "younger_person_id": "aa6_83c_juy_C",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieyi-p001",
+          "quote": "奕字無奕，少有名譽。初為剡令，有老人犯法，奕以醇酒飲之，醉猶未已。安時年七八歲，在奕膝邊，諫止之。奕為改容，遣之。與桓溫善。溫辟為安西司馬，猶推布衣好。在溫坐，岸幘笑詠，無異常日。桓溫曰：「我方外司馬。」奕每因酒，無復朝廷禮，嘗逼溫飲，溫走入南康主門避之。主曰：「君若無狂司馬，我何由得相見！」奕遂攜酒就聽事，引溫一兵帥共飲，曰：「失一老兵，得一老兵，亦何所怪。」溫不之責。從兄尚有德政，既卒，為西蕃所思，朝議以奕立行有素，必能嗣尚事，乃遷都督豫司冀並四州軍事、安西將軍、豫州刺史、假節。未幾。卒官，贈鎮西將軍。",
+          "subject_person_mention_id": "c-jinshu-079-xielang-family:exp-xieyi-p001:m0206",
+          "object_person_mention_id": "c-jinshu-079-xielang-family:exp-xieyi-p001:m0189"
+        }
+      ],
+      "interpretation_note": "從兄述同宗旁系及長幼；不以此句虛構雙方父親或共同祖父。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin079-shang-chu-niece",
+      "subject_person_id": "xke_dj3_6ba_AAB",
+      "predicate": "maternal_uncle",
+      "object_person_id": "4ij_7ik_fgy_A",
+      "qualifiers": {
+        "source_term": "尚之甥",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p004",
+          "quote": "大司馬桓溫欲有事中原，使尚率眾向壽春，進號安西將軍。初，苻健將張遇降尚，尚不能綏懷之。遇怒，據許昌叛。尚討之，為遇所敗，收付廷尉。時康獻皇后臨朝，即尚之甥也，特令降號為建威將軍。初，尚之行也，使建武將軍、濮陽太守戴施據枋頭。會冉閔之子智與其大將蔣幹來附，復遣行人劉猗詣尚請救。施止猗，求傳國璽，猗歸，以告幹。幹謂尚已敗，慮不能救己，猶豫不許。施遣參軍何融率壯士百入鄴，登三台助戍，譎之曰：「今且可出璽付我。凶寇在外，道路梗澀，亦未敢送璽，當遣單使馳白。天子聞璽已在吾許，知卿等至誠，必遣重軍相救，並厚相餉。」幹乃出璽付融，融齎璽馳還枋頭。尚遣振武將軍胡彬率騎三百迎璽致諸京師。時苻健將楊平戍許昌，尚遣兵襲破之，征授給事中，賜軺車、鼓吹，戍石頭。",
+          "subject_person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p004:m0066",
+          "object_person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p004:m0074"
+        }
+      ],
+      "interpretation_note": "康獻后為尚之女甥，后本傳母謝氏，這句不定其母相對尚的長幼。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi024-jinghong-maternal-grandfather",
       "subject_person_id": "7r6_k52_qji_ABDABAA",
       "predicate": "grandfather",
@@ -3892,9 +4004,66 @@
     "4ij_7ik_fgy": "謝鯤",
     "4ij_7ik_fgy_A": "謝尚",
     "7r6_k52_qji_ABDABAA": "王敬弘",
-    "aa6_83c_juy_B": "謝安"
+    "aa6_83c_juy_B": "謝安",
+    "aa6_83c_juy_C": "謝奕",
+    "xke_dj3_6ba_AAB": "褚蒜子"
   },
   "dates": [
+    {
+      "era": "CE",
+      "era_year": 357,
+      "year": 357,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "calendar": "chinese_civil",
+      "source_expression": "升平元年",
+      "status": "editorial_provisional",
+      "original_quote": "升平元年\n五月\n庚午，鎮西將軍謝尚卒。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-008",
+          "source_id": "s-jinshu-008-xie-branch-ws2644502",
+          "chapter_id": "c-jinshu-008-xie-branch-annal",
+          "paragraph_id": "c-jinshu-008-xie-branch-annal:p001",
+          "person_mention_id": "c-jinshu-008-xie-branch-annal:p001:m0015",
+          "quote": "升平元年\n五月\n庚午，鎮西將軍謝尚卒。"
+        }
+      ],
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "quote": "升平",
+          "columns": {
+            "dynasty": "東晉",
+            "era_name": "升平",
+            "first_year": "357",
+            "last_year": "361"
+          },
+          "scope": "modern_era_year_equivalence_only",
+          "accessed_on": "2026-11-20",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_mapping": {
+        "kind": "ce_regnal_era_span",
+        "era_name": "升平",
+        "source_number": "元",
+        "regnal_year": 1,
+        "start_ce_year": 357,
+        "end_ce_year": 361,
+        "reference_index": 0
+      },
+      "rationale": "本紀年題定年，月日依同條；公元僅換算年，月仍用歷史曆法。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-jin008-xie-branch-4ij_7ik_fgy_A",
+      "person_id": "4ij_7ik_fgy_A",
+      "date_role": "life_event",
+      "event_type": "death"
+    },
     {
       "era": "CE",
       "era_year": 344,
@@ -4100,6 +4269,248 @@
       "source_id": "s-jinshu-077-yinhao"
     }
   ],
+  "person_references": [
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0034",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 34,
+      "end": 35,
+      "surface": "之",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "七歲喪兄，哀慟過禮，親戚異之",
+      "note": "承前後姓名，指謝尚。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0046",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 46,
+      "end": 47,
+      "surface": "之",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "鯤嘗攜之送客，或曰：",
+      "note": "承前後姓名，指謝尚。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0103",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 103,
+      "end": 104,
+      "surface": "之",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "十餘歲，遭父憂，丹陽尹溫嶠吊之，尚號咷極哀",
+      "note": "承前後姓名，指謝尚。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0128",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 128,
+      "end": 129,
+      "surface": "之",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "既而收涕告訴，舉止有異常童，嶠甚奇之",
+      "note": "承前後姓名，指謝尚。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0164",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 164,
+      "end": 165,
+      "surface": "之",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "好衣刺文袴，諸父責之，而因自改，遂知名",
+      "note": "承前後姓名，指謝尚。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0168",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 168,
+      "end": 169,
+      "surface": "自",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "好衣刺文袴，諸父責之，而因自改，遂知名",
+      "note": "承前後姓名，指謝尚。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0190",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 190,
+      "end": 191,
+      "surface": "之",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "司徒王導深器之，比之王戎，常呼為",
+      "note": "承前後姓名，指謝尚。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0193",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 193,
+      "end": 194,
+      "surface": "之",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "司徒王導深器之，比之王戎，常呼為",
+      "note": "承前後姓名，指謝尚。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0225",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 225,
+      "end": 226,
+      "surface": "其",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "始到府通謁，導以其有勝會，謂曰：",
+      "note": "承前後姓名，指謝尚。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0288",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 288,
+      "end": 289,
+      "surface": "其",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "便著衣幘而舞，導令坐者撫掌擊節，尚俯仰在中，傍若無人，其率詣如此",
+      "note": "承前後姓名，指謝尚。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0054",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 54,
+      "end": 56,
+      "surface": "此兒",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "此兒一坐之顏回也",
+      "note": "席間客人以此兒指謝尚、比之顏回。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0235",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+      "start": 235,
+      "end": 236,
+      "surface": "君",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "addressee",
+      "quote": "聞君能作鴝鵒舞，一坐傾想，寧有此理不",
+      "note": "王導詢謝尚能否鴝鵒舞。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p003:m0078",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p003",
+      "start": 78,
+      "end": 79,
+      "surface": "卿",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "addressee",
+      "quote": "卿若破的，當以鼓吹相賞",
+      "note": "庾翼對射者謝尚言。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p003:m0105",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p003",
+      "start": 105,
+      "end": 106,
+      "surface": "之",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "尚應聲中之，翼即以其副鼓吹給之",
+      "note": "受鼓吹者謝尚。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-079-xielang-family:exp-xieshang-p003:m0177",
+      "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p003",
+      "start": 177,
+      "end": 178,
+      "surface": "其",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "所處險要，宜崇其威望",
+      "note": "詔中議崇謝尚威望。",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "book_id": "b-jinshu-079",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-080-wangxizhi-family:line020:r0001",
+      "paragraph_id": "c-jinshu-080-wangxizhi-family:line020",
+      "start": 1,
+      "end": 3,
+      "surface": "安西",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "知安西敗喪",
+      "note": "依原書牘的說者、受者及同段稱名。",
+      "chapter_id": "c-jinshu-080-wangxizhi-family",
+      "book_id": "b-jinshu-080",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-080-wangxizhi-family"
+    }
+  ],
   "person_ids": [
     "4ij_7ik_fgy_A"
   ],
@@ -4172,6 +4583,70 @@
       ],
       "interpretation_note": "",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin079-branch-cousins-75-206",
+      "subject_person_id": "aa6_83c_juy_C",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "4ij_7ik_fgy_A",
+      "qualifiers": {
+        "source_term": "從兄尚",
+        "lineage": "agnatic",
+        "relative_birth_order": {
+          "older_person_id": "4ij_7ik_fgy_A",
+          "younger_person_id": "aa6_83c_juy_C",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieyi-p001",
+          "quote": "奕字無奕，少有名譽。初為剡令，有老人犯法，奕以醇酒飲之，醉猶未已。安時年七八歲，在奕膝邊，諫止之。奕為改容，遣之。與桓溫善。溫辟為安西司馬，猶推布衣好。在溫坐，岸幘笑詠，無異常日。桓溫曰：「我方外司馬。」奕每因酒，無復朝廷禮，嘗逼溫飲，溫走入南康主門避之。主曰：「君若無狂司馬，我何由得相見！」奕遂攜酒就聽事，引溫一兵帥共飲，曰：「失一老兵，得一老兵，亦何所怪。」溫不之責。從兄尚有德政，既卒，為西蕃所思，朝議以奕立行有素，必能嗣尚事，乃遷都督豫司冀並四州軍事、安西將軍、豫州刺史、假節。未幾。卒官，贈鎮西將軍。",
+          "subject_person_mention_id": "c-jinshu-079-xielang-family:exp-xieyi-p001:m0206",
+          "object_person_mention_id": "c-jinshu-079-xielang-family:exp-xieyi-p001:m0189"
+        }
+      ],
+      "interpretation_note": "從兄述同宗旁系及長幼；不以此句虛構雙方父親或共同祖父。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin079-shang-chu-niece",
+      "subject_person_id": "xke_dj3_6ba_AAB",
+      "predicate": "maternal_uncle",
+      "object_person_id": "4ij_7ik_fgy_A",
+      "qualifiers": {
+        "source_term": "尚之甥",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p004",
+          "quote": "大司馬桓溫欲有事中原，使尚率眾向壽春，進號安西將軍。初，苻健將張遇降尚，尚不能綏懷之。遇怒，據許昌叛。尚討之，為遇所敗，收付廷尉。時康獻皇后臨朝，即尚之甥也，特令降號為建威將軍。初，尚之行也，使建武將軍、濮陽太守戴施據枋頭。會冉閔之子智與其大將蔣幹來附，復遣行人劉猗詣尚請救。施止猗，求傳國璽，猗歸，以告幹。幹謂尚已敗，慮不能救己，猶豫不許。施遣參軍何融率壯士百入鄴，登三台助戍，譎之曰：「今且可出璽付我。凶寇在外，道路梗澀，亦未敢送璽，當遣單使馳白。天子聞璽已在吾許，知卿等至誠，必遣重軍相救，並厚相餉。」幹乃出璽付融，融齎璽馳還枋頭。尚遣振武將軍胡彬率騎三百迎璽致諸京師。時苻健將楊平戍許昌，尚遣兵襲破之，征授給事中，賜軺車、鼓吹，戍石頭。",
+          "subject_person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p004:m0066",
+          "object_person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p004:m0074"
+        }
+      ],
+      "interpretation_note": "康獻后為尚之女甥，后本傳母謝氏，這句不定其母相對尚的長幼。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     },
@@ -4251,9 +4726,169 @@
         "kind": "at_death",
         "life_event_id": "le-jinshu079-phase2-001"
       }
+    },
+    {
+      "id": "age-jin079-shang-7",
+      "person_id": "4ij_7ik_fgy_A",
+      "value": 7,
+      "source_number": "七",
+      "source_term": "七歲",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0000",
+          "quote": "謝尚，字仁祖，豫章太守鯤之子也。幼有至性。七歲喪兄，哀慟過禮，親戚異之。八歲神悟夙成。鯤嘗攜之送客，或曰：「此兒一坐之顏回也。」尚應聲答曰：「坐無尼父，焉別顏回！」席賓莫不歎異。十餘歲，遭父憂，丹陽尹溫嶠吊之，尚號咷極哀。既而收涕告訴，舉止有異常童，嶠甚奇之。及長，開率穎秀，辨悟絕倫，脫略細行，不為流俗之事。好衣刺文袴，諸父責之，而因自改，遂知名。善音樂，博綜眾藝。司徒王導深器之，比之王戎，常呼為「小安豐」，辟為掾。襲父爵咸亭侯。始到府通謁，導以其有勝會，謂曰：「聞君能作鴝鵒舞，一坐傾想，寧有此理不？」尚曰：「佳。」便著衣幘而舞，導令坐者撫掌擊節，尚俯仰在中，傍若無人，其率詣如此。"
+        }
+      ],
+      "interpretation_note": "喪兄時。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "age-jin079-shang-8",
+      "person_id": "4ij_7ik_fgy_A",
+      "value": 8,
+      "source_number": "八",
+      "source_term": "八歲",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0000",
+          "quote": "謝尚，字仁祖，豫章太守鯤之子也。幼有至性。七歲喪兄，哀慟過禮，親戚異之。八歲神悟夙成。鯤嘗攜之送客，或曰：「此兒一坐之顏回也。」尚應聲答曰：「坐無尼父，焉別顏回！」席賓莫不歎異。十餘歲，遭父憂，丹陽尹溫嶠吊之，尚號咷極哀。既而收涕告訴，舉止有異常童，嶠甚奇之。及長，開率穎秀，辨悟絕倫，脫略細行，不為流俗之事。好衣刺文袴，諸父責之，而因自改，遂知名。善音樂，博綜眾藝。司徒王導深器之，比之王戎，常呼為「小安豐」，辟為掾。襲父爵咸亭侯。始到府通謁，導以其有勝會，謂曰：「聞君能作鴝鵒舞，一坐傾想，寧有此理不？」尚曰：「佳。」便著衣幘而舞，導令坐者撫掌擊節，尚俯仰在中，傍若無人，其率詣如此。"
+        }
+      ],
+      "interpretation_note": "神悟夙成時。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "age-jin079-shang-10",
+      "person_id": "4ij_7ik_fgy_A",
+      "value": null,
+      "source_number": "十",
+      "source_term": "十餘歲",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0000",
+          "quote": "謝尚，字仁祖，豫章太守鯤之子也。幼有至性。七歲喪兄，哀慟過禮，親戚異之。八歲神悟夙成。鯤嘗攜之送客，或曰：「此兒一坐之顏回也。」尚應聲答曰：「坐無尼父，焉別顏回！」席賓莫不歎異。十餘歲，遭父憂，丹陽尹溫嶠吊之，尚號咷極哀。既而收涕告訴，舉止有異常童，嶠甚奇之。及長，開率穎秀，辨悟絕倫，脫略細行，不為流俗之事。好衣刺文袴，諸父責之，而因自改，遂知名。善音樂，博綜眾藝。司徒王導深器之，比之王戎，常呼為「小安豐」，辟為掾。襲父爵咸亭侯。始到府通謁，導以其有勝會，謂曰：「聞君能作鴝鵒舞，一坐傾想，寧有此理不？」尚曰：「佳。」便著衣幘而舞，導令坐者撫掌擊節，尚俯仰在中，傍若無人，其率詣如此。"
+        }
+      ],
+      "interpretation_note": "遭父憂時。十為開放下界，原文未定確切歲數。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "bounds": {
+        "lower": 10,
+        "lower_inclusive": false,
+        "upper": null,
+        "upper_inclusive": null
+      },
+      "reporting_status": "direct_report",
+      "source_qualification": null
     }
   ],
   "life_events": [
+    {
+      "id": "le-jin008-xie-branch-4ij_7ik_fgy_A",
+      "person_id": "4ij_7ik_fgy_A",
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": "升平元年",
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 357,
+        "year": 357,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "升平元年",
+        "status": "editorial_provisional",
+        "original_quote": "升平元年\n五月\n庚午，鎮西將軍謝尚卒。",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-008",
+            "source_id": "s-jinshu-008-xie-branch-ws2644502",
+            "chapter_id": "c-jinshu-008-xie-branch-annal",
+            "paragraph_id": "c-jinshu-008-xie-branch-annal:p001",
+            "person_mention_id": "c-jinshu-008-xie-branch-annal:p001:m0015",
+            "quote": "升平元年\n五月\n庚午，鎮西將軍謝尚卒。"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "升平",
+            "columns": {
+              "dynasty": "東晉",
+              "era_name": "升平",
+              "first_year": "357",
+              "last_year": "361"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-20",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "升平",
+          "source_number": "元",
+          "regnal_year": 1,
+          "start_ce_year": 357,
+          "end_ce_year": 361,
+          "reference_index": 0
+        },
+        "rationale": "本紀年題定年，月日依同條；公元僅換算年，月仍用歷史曆法。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-008",
+          "source_id": "s-jinshu-008-xie-branch-ws2644502",
+          "chapter_id": "c-jinshu-008-xie-branch-annal",
+          "paragraph_id": "c-jinshu-008-xie-branch-annal:p001",
+          "person_mention_id": "c-jinshu-008-xie-branch-annal:p001:m0015",
+          "quote": "升平元年\n五月\n庚午，鎮西將軍謝尚卒。"
+        }
+      ],
+      "interpretation_note": "升平元年五月庚午。月日照本紀，未推西曆月日。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "le-jinshu079-phase2-001",
       "person_id": "4ij_7ik_fgy_A",
@@ -4274,6 +4909,40 @@
       ],
       "interpretation_note": "只記本段死亡原詞。年號省略、範圍不定或未載均不補公元年；不倒推出生年。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "person_events": [
+    {
+      "id": "ev-jin079-shang-xuan-shang",
+      "person_id": "4ij_7ik_fgy_A",
+      "event_type": "noble_title_succession",
+      "source_term": "襲父爵",
+      "date_expression": null,
+      "title": null,
+      "holding_id": null,
+      "mode": "accession",
+      "predecessor_person_id": "4ij_7ik_fgy",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0000",
+          "quote": "謝尚，字仁祖，豫章太守鯤之子也。幼有至性。七歲喪兄，哀慟過禮，親戚異之。八歲神悟夙成。鯤嘗攜之送客，或曰：「此兒一坐之顏回也。」尚應聲答曰：「坐無尼父，焉別顏回！」席賓莫不歎異。十餘歲，遭父憂，丹陽尹溫嶠吊之，尚號咷極哀。既而收涕告訴，舉止有異常童，嶠甚奇之。及長，開率穎秀，辨悟絕倫，脫略細行，不為流俗之事。好衣刺文袴，諸父責之，而因自改，遂知名。善音樂，博綜眾藝。司徒王導深器之，比之王戎，常呼為「小安豐」，辟為掾。襲父爵咸亭侯。始到府通謁，導以其有勝會，謂曰：「聞君能作鴝鵒舞，一坐傾想，寧有此理不？」尚曰：「佳。」便著衣幘而舞，導令坐者撫掌擊節，尚俯仰在中，傍若無人，其率詣如此。"
+        }
+      ],
+      "source_clause_binding": {
+        "kind": "jin079_shang_xuan_heirs",
+        "role": "shang",
+        "clause": "襲父爵咸亭侯"
+      },
+      "interpretation_note": "原句記襲爵、嗣爵。姓名稱呼與前後承接分核；所繼名號在單獨爵位斷言與讀記列存。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }

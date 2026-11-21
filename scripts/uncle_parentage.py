@@ -199,6 +199,12 @@ def parent_through_paternal_uncle_valid(member, rows, assertions, chapters):
 
 
 def explicit_maternal_uncle_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_term') == '尚之甥' and assertion.get('id') == 'a-jin079-shang-chu-niece':
+        try:
+            from scripts.jin079_shang_xuan import kin_valid as checked
+        except ImportError:
+            from jin079_shang_xuan import kin_valid as checked
+        return checked(assertion, paragraphs)
     q = assertion.get('qualifiers', {})
     if (assertion.get('predicate') != 'maternal_uncle' or q.get('lineage') != 'maternal'
             or q.get('generation_difference') != -1 or q.get('mother_person_id') is not None
@@ -215,6 +221,14 @@ def explicit_maternal_uncle_valid(assertion, paragraphs):
                 or obj.get('person_id') != assertion.get('object_person_id')
                 or e.get('chapter_id') != hit[0] or obj['start'] < 0):
             return False
+        if q.get('source_term') == '庾公帝之元舅':
+            text = p['text']
+            if not (hit[0] == 'c-jinshu-065-wangdao-family' and obj['surface'] == '庾公'
+                    and subject['surface'] == '帝' and obj['end'] == subject['start']
+                    and text[obj['start']:subject['end']+3] == q['source_term']
+                    and q['source_term'] in e['quote']):
+                return False
+            continue
         # Prefix 外甥 alone is lexically ambiguous. This branch requires the
         # same complete paragraph's explicit 舅甥 corroboration and exact pair.
         named_nephew = next((m for m in p.get('mentions', [])

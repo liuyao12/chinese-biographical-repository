@@ -1,5 +1,27 @@
 """A complete received son/heir/supplied-son chain binds 國除 to its last heir."""
 def valid(event, paragraphs):
+ if event.get('source_clause_binding', {}).get('kind') == 'jin065_mi_unnamed_paternal_rank':
+  try: from scripts.jin065_relatives import succession_valid
+  except ImportError: from jin065_relatives import succession_valid
+  return succession_valid(event, paragraphs)
+ if event.get('source_clause_binding', {}).get('kind') == 'jin065_yue_named_heirs':
+  try: from scripts.jin065_children import succession_valid
+  except ImportError: from jin065_children import succession_valid
+  return succession_valid(event, paragraphs)
+ if event.get('source_clause_binding', {}).get('kind') == 'jin079_shang_xuan_heirs':
+     try:
+         from scripts.jin079_shang_xuan import succession_valid as checked
+     except ImportError:
+         from jin079_shang_xuan import succession_valid as checked
+     return checked(event, paragraphs)
+ if event.get('source_clause_binding',{}).get('kind') == 'jin079_shi_heirs':
+  try:from scripts.jin079_shi_heirs import valid as shi_heirs_valid
+  except ImportError:from jin079_shi_heirs import valid as shi_heirs_valid
+  return shi_heirs_valid(event, paragraphs)
+ if event.get('source_clause_binding',{}).get('kind') == 'jin079_named_noble_successor':
+  try:from scripts.jin079_family_awards import succession_valid
+  except ImportError:from jin079_family_awards import succession_valid
+  return succession_valid(event,paragraphs)
  if event.get('source_clause_binding',{}).get('kind') in ('biographical_head_named_son_succession','named_childless_brother_succession'):
   try:
    from scripts.source_office_reports import succession_valid

@@ -7,7 +7,7 @@ from scripts.validate_corpus import title_proposal_errors
 
 ROOT=Path(__file__).resolve().parents[1]
 ORIGINAL_IDS={'tp-jinshu076-huzhi-73', 'tp-jinshu065-wangqia-zhongshuling', 'tp-jinshu065-wangdao-87', 'tp-jinshu076-huzhi-83', 'tp-jinshu065-wangdao-93', 'tp-jinshu076-huzhi-78', 'tp-jinshu065-wangdao-102', 'tp-jinshu065-wangdao-97'}
-NEW_IDS={'tp-wangdao4-110-6', 'tp-wangdao4-80-4'}
+NEW_IDS={'tp-wangdao4-110-6', 'tp-wangdao4-80-4', 'tp-jin065-wangdao-mindi-libu'}
 
 
 class UnassumedAppointments(unittest.TestCase):
@@ -30,12 +30,13 @@ class UnassumedAppointments(unittest.TestCase):
             self.assertTrue(q['appointment_anchor']['surface'])
             self.assertIn(q['non_assumption_anchor']['surface'],q['evidence'][0]['quote'])
 
-    def test_two_additional_appointments_keep_real_role_anchors_and_do_not_become_holdings(self):
+    def test_additional_appointments_keep_real_role_anchors_and_do_not_become_holdings(self):
         additional=[(c,q)for c,q in self.cases if q['id'] not in ORIGINAL_IDS]
         self.assertEqual({q['id']for _,q in additional},NEW_IDS)
         expected={
             'tp-wangdao4-80-4':('7r6_k52_qji_ABAAAA','散騎常侍','除','不拜',56,60),
             'tp-wangdao4-110-6':('7r6_k52_qji_ABAAF','中領軍','征補','不拜',70,73),
+            'tp-jin065-wangdao-mindi-libu':('7r6_k52_qji_ABAA','吏部郎','征','不拜',254,257),
         }
         for c,q in additional:
             pid,title,verb,negative,start,end=expected[q['id']]

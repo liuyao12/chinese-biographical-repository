@@ -31,6 +31,9 @@ def source_errors(ch,root):
    loc=p['source_position'];positions=list(range(a,z));drop=set()
    for m in re.finditer(r'<ref>.*?</ref>',line):
     reports.append((p['id'],a+m.start(),a+m.end(),m[0]));drop.update(range(a+m.start(),a+m.end()))
+   # 單字不轉換標記只移除界符，保留原字位。
+   for token in re.finditer(r'-\{([^{}|:;<>\s])\}-',line):
+    drop.update((a+token.start(),a+token.start()+1,a+token.end()-2,a+token.end()-1))
    if line.startswith(':'):drop.add(a)
    positions=[x for x in positions if x not in drop]
    assert p['text']==''.join(raw[x]for x in positions)and loc['raw_character_offsets']==positions and loc['raw_start']==a and loc['raw_end']==z and loc['revision_id']==b['source_revision']
