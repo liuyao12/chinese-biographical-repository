@@ -376,6 +376,41 @@
       "work_title": "宋書"
     },
     {
+      "number": 63,
+      "category": "",
+      "title": "王曇首傳（乾隆武英殿本）",
+      "paragraph_id": "c-songshu-063-wangtanshou-wyd:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "郎不就兄弟分財曇首唯取圖書而已辟琅邪王大司馬屬從府公修復洛陽園陵與從弟球俱詣高祖時謝晦在坐高祖曰此君並膏粱盛德乃能屈志戎旅曇首答曰旣從神武之師自使懦夫有立志晦曰仁者果有勇高祖悅行至彭城高祖大會戲馬臺豫坐者皆賦詩曇首文先成高祖覽讀因問弘曰卿弟何如卿弘答曰若但如臣門戶何寄高祖",
+      "paragraph_ids": [
+        "c-songshu-063-wangtanshou-wyd:p002"
+      ],
+      "mention_ids": [
+        "c-songshu-063-wangtanshou-wyd:p002:m0042"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-063-wangtanshou-wyd:p002:m0042": "c-songshu-063-wangtanshou-wyd:p002"
+      },
+      "mention_id": "c-songshu-063-wangtanshou-wyd:p002:m0042",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-063-wangtanshou-wyd:p002:m0042",
+          "mention_ids": [
+            "c-songshu-063-wangtanshou-wyd:p002:m0042"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "chapter_id": "c-songshu-063-wangtanshou-wyd",
+      "source_id": "s-songshu-063-wangtanshou-wyd1739",
+      "work_title": "宋書"
+    },
+    {
       "number": 65,
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
@@ -2502,6 +2537,33 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-songshu-063-wangtanshou-wyd",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "source_id": "s-songshu-063-wangtanshou-wyd1739",
+      "source": {
+        "title": "武英殿本《宋書》卷六十三王曇首傳",
+        "provider": "中國國家圖書館藏乾隆四年武英殿刊本，Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf",
+        "permalink": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf",
+        "revision_id": "cbr-ai-transcription-sha256:a3ae53ead4a5ba2ebf8aa47e120cc69353f39fd44f82d0cd41d25b5d91fcb275",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/song063-wang/wyd-columns.txt",
+        "raw_file_sha256": "a3ae53ead4a5ba2ebf8aa47e120cc69353f39fd44f82d0cd41d25b5d91fcb275",
+        "edition": "乾隆四年武英殿刊《二十四史》第147冊",
+        "extent": "卷六十三葉四上至六下，PDF第18面左第8欄至第21面右第5欄。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留刊本原字、無標點。六段只供數位閱讀，不改原欄先後。"
+        }
+      }
     }
   ],
   "relations": [
@@ -2637,6 +2699,49 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wyd-song063-025",
+      "subject_person_id": "3c9_d1d_870_B",
+      "object_person_id": "7r6_k52_qji_ABAAAAE",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "從弟球",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAE",
+          "younger_person_id": "3c9_d1d_870_B",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "wyd_song063_kin_frame": "025"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wangtanshou-wyd1739",
+          "chapter_id": "c-songshu-063-wangtanshou-wyd",
+          "paragraph_id": "c-songshu-063-wangtanshou-wyd:p002",
+          "quote": "幼有業尚除著作郎不就兄弟分財曇首唯取圖書而已辟琅邪王大司馬屬從府公修復洛陽園陵與從弟球俱詣高祖時謝晦在坐高祖曰此君並膏粱盛德乃能屈志戎旅曇首答曰旣從神武之師自使懦夫有立志晦曰仁者果有勇高祖悅行至彭城高祖大會戲馬臺豫坐者皆賦詩曇首文先成高祖覽讀因問弘曰卿弟何如卿弘答曰若但如臣門戶何寄高祖大笑曇首有識局智度喜愠不見於色閨門之內雍雍如也手不執金玉婦女不得爲飾玩自非祿賜所及一毫不受於人",
+          "subject_person_mention_id": "c-songshu-063-wangtanshou-wyd:p002:m0042",
+          "object_person_mention_id": "c-songshu-063-wangtanshou-wyd:p002:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依殿本相同語句的兩個具名或稱謂端點核其關係。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
@@ -2735,6 +2840,21 @@
       "book_id": "b-songshu-063",
       "work_id": "w-songshu",
       "source_id": "s-songshu-063-wanghua-tanshou"
+    },
+    {
+      "id": "c-songshu-063-wangtanshou-wyd:p002:r0040",
+      "surface": "從弟",
+      "start": 40,
+      "end": 42,
+      "person_id": "3c9_d1d_870_B",
+      "paragraph_id": "c-songshu-063-wangtanshou-wyd:p002",
+      "quote": "幼有業尚除著作郎不就兄弟分財曇首唯取圖書而已辟琅邪王大司馬屬從府公修復洛陽園陵與從弟球俱詣高祖時謝晦在坐高祖曰此君並膏粱盛德乃能屈志戎旅曇首答曰旣從神武之師自使懦夫有立志晦曰仁者果有勇高祖悅行至彭城高祖大會戲馬臺豫坐者皆賦詩曇首文先成高祖覽讀因問弘曰卿弟何如卿弘答曰若但如臣門戶何寄高祖大笑曇首有識局智度喜愠不見於色閨門之內雍雍如也手不執金玉婦女不得爲飾玩自非祿賜所及一毫不受於人",
+      "referent_role": "third_person",
+      "note": "依本句稱謂和話語視點。",
+      "chapter_id": "c-songshu-063-wangtanshou-wyd",
+      "book_id": "b-songshu-063",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-063-wangtanshou-wyd1739"
     }
   ],
   "person_ids": [
@@ -2870,6 +2990,49 @@
         "surface": "從弟球"
       },
       "interpretation_note": "保存原文明示關係與稱謂；不補未知共同父母、婚配或出生年份。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wyd-song063-025",
+      "subject_person_id": "3c9_d1d_870_B",
+      "object_person_id": "7r6_k52_qji_ABAAAAE",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "從弟球",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAE",
+          "younger_person_id": "3c9_d1d_870_B",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "wyd_song063_kin_frame": "025"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wangtanshou-wyd1739",
+          "chapter_id": "c-songshu-063-wangtanshou-wyd",
+          "paragraph_id": "c-songshu-063-wangtanshou-wyd:p002",
+          "quote": "幼有業尚除著作郎不就兄弟分財曇首唯取圖書而已辟琅邪王大司馬屬從府公修復洛陽園陵與從弟球俱詣高祖時謝晦在坐高祖曰此君並膏粱盛德乃能屈志戎旅曇首答曰旣從神武之師自使懦夫有立志晦曰仁者果有勇高祖悅行至彭城高祖大會戲馬臺豫坐者皆賦詩曇首文先成高祖覽讀因問弘曰卿弟何如卿弘答曰若但如臣門戶何寄高祖大笑曇首有識局智度喜愠不見於色閨門之內雍雍如也手不執金玉婦女不得爲飾玩自非祿賜所及一毫不受於人",
+          "subject_person_mention_id": "c-songshu-063-wangtanshou-wyd:p002:m0042",
+          "object_person_mention_id": "c-songshu-063-wangtanshou-wyd:p002:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依殿本相同語句的兩個具名或稱謂端點核其關係。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

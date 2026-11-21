@@ -560,7 +560,13 @@ def _validate_uncached(root=ROOT):
             errors.extend(wang_women_source_errors(d, root))
             try: from scripts.wyd_song071_wang import errors as vyd71_source_errors
             except ImportError: from wyd_song071_wang import errors as vyd71_source_errors
+            try: from scripts.wyd_song063_wangtanshou import errors as wyd63_source_errors
+            except ImportError: from wyd_song063_wangtanshou import errors as wyd63_source_errors
+            errors.extend(wyd63_source_errors(d, root))
             errors.extend(vyd71_source_errors(d, root))
+            try: from scripts.wangyun_external_sources import errors as wangyun_external_errors
+            except ImportError: from wangyun_external_sources import errors as wangyun_external_errors
+            errors.extend(wangyun_external_errors(d, root))
             try: from scripts.liang021_print_columns import errors as liang21_print_errors
             except ImportError: from liang021_print_columns import errors as liang21_print_errors
             errors.extend(liang21_print_errors(d, root))
@@ -571,6 +577,9 @@ def _validate_uncached(root=ROOT):
             try: from scripts.qi023_wangjian_witnesses import errors as qi23_source_errors
             except ImportError: from qi023_wangjian_witnesses import errors as qi23_source_errors
             errors.extend(qi23_source_errors(d,root))
+            try: from scripts.nanshi022_wangjian_source import errors as nan22_jian_errors
+            except ImportError: from nanshi022_wangjian_source import errors as nan22_jian_errors
+            errors.extend(nan22_jian_errors(d,root))
             try: from scripts.pei_royal_biographies import errors as pei_source_errors
             except ImportError: from pei_royal_biographies import errors as pei_source_errors
             errors.extend(pei_source_errors(d,root))
@@ -1117,6 +1126,12 @@ def _validate_uncached(root=ROOT):
                 check(h['kind'] in ('royal_rank','imperial_rank','noble_rank','office','honorific','unclassified'),'稱號種類無效')
                 check(h['mode'] in ('grant','transfer','posthumous_grant','posthumous_enfeoffment','posthumous_naming','self_proclamation','accession','demotion','attestation'),'稱號事件種類無效')
                 check(bool(h['evidence']) and bool(h['attestations']),'稱號缺少來源或用稱錨點')
+                wyd63_title_reference = False
+                if 'printed_title_holder_reference' in h:
+                    try: from scripts.wyd_song063_wangtanshou import reference_title_valid
+                    except ImportError: from wyd_song063_wangtanshou import reference_title_valid
+                    wyd63_title_reference = reference_title_valid(h, chapters[d['chapter_id']], root)
+                    check(wyd63_title_reference, '宋卷六十三殿本稱官須核同一持有人稱謂及官號字位')
                 if 'received_source_frame' in h:
                     try:from scripts.fixed_received_career import holding_valid as fixed_received_holding_valid
                     except ImportError:from fixed_received_career import holding_valid as fixed_received_holding_valid
@@ -1151,7 +1166,7 @@ def _validate_uncached(root=ROOT):
                     check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'稱號來源 ID 不符')
                     if hit:
                         if 'context' not in e:
-                            check(any(m['person_id']==h['person_id'] for m in hit[1]['mentions']),'稱號引句段落未提及持有人')
+                            check(wyd63_title_reference or any(m['person_id']==h['person_id'] for m in hit[1]['mentions']),'稱號引句段落未提及持有人')
                         else:
                             context=e['context']
                             valid=isinstance(context,dict)
@@ -1301,7 +1316,13 @@ def _validate_uncached(root=ROOT):
                         from scripts.posthumous_enfeoffments import valid as enfeoffment_valid
                     except ImportError:
                         from posthumous_enfeoffments import valid as enfeoffment_valid
-                    check(enfeoffment_valid(h, paragraphs, mentions, gift_life_events), '追封須有同人已記死亡、明文追封爵號及相符字位')
+                    if h.get('enfeoffment_basis', {}).get('kind') == 'issued_wyd_song063_award':
+                        try: from scripts.wyd_song063_wangtanshou import award_valid as wyd63_award_valid
+                        except ImportError: from wyd_song063_wangtanshou import award_valid as wyd63_award_valid
+                        valid = wyd63_award_valid(h, chapters[d['chapter_id']], gift_life_events, root)
+                    else:
+                        valid = enfeoffment_valid(h, paragraphs, mentions, gift_life_events)
+                    check(valid, '追封須有同人已記死亡、明文追封爵號及相符字位')
                 if h['mode']=='posthumous_grant' or 'posthumous_basis' in h:
                     basis=h.get('posthumous_basis')
                     explicit_retrospective=(isinstance(basis,dict)
@@ -1335,7 +1356,15 @@ def _validate_uncached(root=ROOT):
                            and basis['evidence']==h['effective_period']['start']['evidence']
                            and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
                                    and basis['source_term'] in e['quote'] for e in basis['evidence']))
-                    if isinstance(basis, dict) and basis.get('kind') == 'qi23_wang_death_award':
+                    if isinstance(basis, dict) and basis.get('kind') == 'issued_wyd_song063_award':
+                        try: from scripts.wyd_song063_wangtanshou import award_valid as wyd63_award_valid
+                        except ImportError: from wyd_song063_wangtanshou import award_valid as wyd63_award_valid
+                        valid = wyd63_award_valid(h, chapters[d['chapter_id']], gift_life_events, root)
+                    elif isinstance(basis,dict) and basis.get('kind')=='nan22jian_funeral_award':
+                        try: from scripts.nanshi022_wangjian_source import award_valid as n22jian_award_valid
+                        except ImportError: from nanshi022_wangjian_source import award_valid as n22jian_award_valid
+                        valid=n22jian_award_valid(h,chapters[d['chapter_id']],gift_life_events,root)
+                    elif isinstance(basis, dict) and basis.get('kind') == 'qi23_wang_death_award':
                         try: from scripts.qi023_wangjian_witnesses import award_valid as qi23_award_valid
                         except ImportError: from qi023_wangjian_witnesses import award_valid as qi23_award_valid
                         valid = qi23_award_valid(h,chapters[d['chapter_id']],gift_life_events,root)
@@ -1362,7 +1391,15 @@ def _validate_uncached(root=ROOT):
                         for e in basis['evidence']:title_evidence(e)
                 if h['mode']=='posthumous_naming' or 'naming_basis' in h:
                     basis=h.get('naming_basis')
-                    if isinstance(basis, dict) and basis.get('kind') == 'qi23_wang_death_award':
+                    if isinstance(basis, dict) and basis.get('kind') == 'issued_wyd_song063_award':
+                        try: from scripts.wyd_song063_wangtanshou import award_valid as wyd63_award_valid
+                        except ImportError: from wyd_song063_wangtanshou import award_valid as wyd63_award_valid
+                        valid = wyd63_award_valid(h, chapters[d['chapter_id']], gift_life_events, root)
+                    elif isinstance(basis,dict) and basis.get('kind')=='nan22jian_funeral_award':
+                        try: from scripts.nanshi022_wangjian_source import award_valid as n22jian_award_valid
+                        except ImportError: from nanshi022_wangjian_source import award_valid as n22jian_award_valid
+                        valid=n22jian_award_valid(h,chapters[d['chapter_id']],gift_life_events,root)
+                    elif isinstance(basis, dict) and basis.get('kind') == 'qi23_wang_death_award':
                         try: from scripts.qi023_wangjian_witnesses import award_valid as qi23_award_valid
                         except ImportError: from qi023_wangjian_witnesses import award_valid as qi23_award_valid
                         valid = qi23_award_valid(h,chapters[d['chapter_id']],gift_life_events,root)
@@ -1570,7 +1607,7 @@ def _validate_uncached(root=ROOT):
                             from subject_continuation import title_attestation_subject_valid
                         carried_title_subject = title_attestation_subject_valid(a, h, chapters[d['chapter_id']])
                         check(carried_title_subject, '稱號用稱省略主語承接無效')
-                    check(carried_title_subject or bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'],'稱號用稱人物提及不符')
+                    check(wyd63_title_reference or carried_title_subject or bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'],'稱號用稱人物提及不符')
                     shared_suffix_valid = False
                     if 'shared_title_suffix' in h:
                         try:
@@ -1591,7 +1628,7 @@ def _validate_uncached(root=ROOT):
                         for e in h['evidence']:
                             if e['paragraph_id']!=a['paragraph_id']:continue
                             starts=[i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(e['quote'],i)]
-                            if any(i<=a['start'] and a['end']<=i+len(e['quote']) and (carried_title_subject or m and i<=m[2]['start'] and m[2]['end']<=i+len(e['quote'])) for i in starts):enclosed=True
+                            if any(i<=a['start'] and a['end']<=i+len(e['quote']) and (wyd63_title_reference or carried_title_subject or m and i<=m[2]['start'] and m[2]['end']<=i+len(e['quote'])) for i in starts):enclosed=True
                         check(enclosed,'稱號用稱及持有人不在精確引句範圍')
                     if 'normalized_date' in a:
                         expression = a.get('date_expression')
@@ -1680,6 +1717,10 @@ def _validate_uncached(root=ROOT):
             d=json.loads(path.read_text(encoding='utf-8'))
             check(d['record_type']=='person_assertion_set','人物陳述集類型不符')
             check(d['chapter_id'] in chapters or d['chapter_id'] in table_chapters,'人物陳述集篇不存在')
+            try: from scripts.wangyun_external_sources import kinship_errors as wangyun_external_kinship_errors
+            except ImportError: from wangyun_external_sources import kinship_errors as wangyun_external_kinship_errors
+            if d['chapter_id'] in chapters:
+                errors.extend(wangyun_external_kinship_errors(d['assertions'], chapters[d['chapter_id']], root))
             for a in d['assertions']:
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
@@ -1719,6 +1760,18 @@ def _validate_uncached(root=ROOT):
                     except ImportError: from pei_royal_biographies import kin_valid as pei_kin_valid
                     pei_valid=pei_kin_valid(a,chapters[d['chapter_id']],root)
                     check(pei_valid,'裴后與兩妃的原文身分、父母及婚配方向不合')
+                n22jian_valid = False
+                if 'nan22jian_kin_frame' in qualifiers:
+                    try: from scripts.nanshi022_wangjian_source import kin_valid as n22jian_kin_valid
+                    except ImportError: from nanshi022_wangjian_source import kin_valid as n22jian_kin_valid
+                    n22jian_valid=n22jian_kin_valid(a,chapters[d['chapter_id']],root)
+                    check(n22jian_valid,'王儉、王遜及所引世系原文端點不合')
+                wyd63_kinship = False
+                if 'wyd_song063_kin_frame' in qualifiers:
+                    try: from scripts.wyd_song063_wangtanshou import kin_valid as wyd63_kin_valid
+                    except ImportError: from wyd_song063_wangtanshou import kin_valid as wyd63_kin_valid
+                    wyd63_kinship = wyd63_kin_valid(a, chapters[d['chapter_id']], root)
+                    check(wyd63_kinship, '宋卷六十三殿本親屬須核兩端稱謂及具名、長幼和方向')
                 qi23_valid = False
                 if 'qi23_kin_frame' in qualifiers:
                     try: from scripts.qi023_wangjian_witnesses import kin_valid as qi23_kin_valid
@@ -1781,7 +1834,7 @@ def _validate_uncached(root=ROOT):
                         from scripts.non_parental_family import non_parental_relation_valid
                     except ModuleNotFoundError:
                         from non_parental_family import non_parental_relation_valid
-                    check(pei_valid or qi23_valid or non_parental_relation_valid(a, paragraphs, family_relations), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
+                    check(pei_valid or n22jian_valid or qi23_valid or non_parental_relation_valid(a, paragraphs, family_relations), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
                 if a['predicate'] == 'agnatic_senior_kin':
                     check('kinship_structure' in qualifiers, '父系晚一代稱謂缺少世代結構')
                 if a['predicate'] == 'maternal_cousin':
@@ -1848,7 +1901,7 @@ def _validate_uncached(root=ROOT):
                         from scripts.wyd_song044_nephew import nephew_valid as wyd_nephew_valid
                     except ImportError:
                         from wyd_song044_nephew import nephew_valid as wyd_nephew_valid
-                    check(qi23_valid or paternal_uncle_direction_valid(a, paragraphs) or wyd_nephew_valid(a, paragraphs, root),
+                    check(n22jian_valid or qi23_valid or paternal_uncle_direction_valid(a, paragraphs) or wyd_nephew_valid(a, paragraphs, root),
                           '叔父關係須依原詞與人物字位定向，不得互換叔侄端點')
                 if a['predicate'] == 'maternal_uncle':
                     try:
@@ -1895,7 +1948,7 @@ def _validate_uncached(root=ROOT):
                         from scripts.maternal_roles import maternal_role_valid
                     except ImportError:
                         from maternal_roles import maternal_role_valid
-                    check(pei_valid or qi23_valid or maternal_role_valid(a, paragraphs), '母親稱謂須有原詞及雙人物錨點，不得推生母或父親')
+                    check(pei_valid or n22jian_valid or qi23_valid or maternal_role_valid(a, paragraphs), '母親稱謂須有原詞及雙人物錨點，不得推生母或父親')
                 if a['predicate'] == 'adoptive_mother':
                     check('所母' in qualifiers.get('source_term', '') and any(qualifiers.get('source_term', '') in e.get('quote', '') for e in a['evidence']), '所母關係須保存原詞，不得由一般母稱推定')
                 if a['predicate'] == 'stepmother':
@@ -2169,12 +2222,16 @@ def _validate_uncached(root=ROOT):
                                 try: from scripts.wang_family_women_sources import kin_valid as wang_women_kin_valid
                                 except ImportError: from wang_family_women_sources import kin_valid as wang_women_kin_valid
                                 check(wang_women_kin_valid(a, chapters[d['chapter_id']], root), '王氏婚家各傳的姓名與稱呼、父母子女次序及固定原文須一致')
+                            elif 'wyd_song063_kin_frame' in qualifiers:
+                                check(wyd63_kinship, '王曇首兄弟、從親及子列的原字與人物不符')
                             elif 'wyd_song071_kin_frame' in qualifiers:
                                 try: from scripts.wyd_song071_wang import kin_valid as wyd71_kin_valid
                                 except ImportError: from wyd_song071_wang import kin_valid as wyd71_kin_valid
                                 check(wyd71_kin_valid(a, chapters[d['chapter_id']], root), '宋卷71殿本的兩端必須確合該欄的姓名、稱號及親屬方向')
                             elif 'pei_kin_frame' in qualifiers:
                                 check(pei_valid,'具名及稱謂的雙人原字不合')
+                            elif 'nan22jian_kin_frame' in qualifiers:
+                                check(n22jian_valid,'王儉親屬稱謂的原字方向不合')
                             elif 'qi23_kin_frame' in qualifiers:
                                 check(qi23_valid,'王儉親屬陳述的原文端點不合')
                             elif 'ws_song071_kin_frame' in qualifiers:
@@ -2754,6 +2811,16 @@ def _validate_uncached(root=ROOT):
                         except ImportError: from pei_royal_biographies import death_valid as pei_death_valid
                         carried_subject=pei_death_valid(event,evidence,chapters[record['chapter_id']],root)
                         check(carried_subject,'裴后及其親屬死亡字位與具名或稱謂原證不合')
+                    if event['id'] in ('le-nanshi-022-wangjian-sengchuo', 'le-nanshi-022-wangjian-peihuizhao', 'le-nanshi-022-wangjian-taizu', 'le-nanshi-022-wangjian-jinming', 'le-nanshi-022-wangjian-jinjian', 'le-nanshi-022-wangjian-wangjian', 'le-nanshi-022-wangjian-wangxun', 'le-nanqishu-024-liushilong-wangjian-shuzong', 'le-houhanshu-052-cuiyuan-wangjian-cuiyin'):
+                        try: from scripts.nanshi022_wangjian_source import death_valid as n22jian_death_valid
+                        except ImportError: from nanshi022_wangjian_source import death_valid as n22jian_death_valid
+                        carried_subject=n22jian_death_valid(event,evidence,chapters[record['chapter_id']],root)
+                        check(carried_subject,'王儉傳及所引親屬生卒的原文字位不合')
+                    if event['id'] == 'le-wyd-song063-wangtanshou':
+                        try: from scripts.wyd_song063_wangtanshou import death_valid as wyd63_death_valid
+                        except ImportError: from wyd_song063_wangtanshou import death_valid as wyd63_death_valid
+                        carried_subject = wyd63_death_valid(event, evidence, chapters[record['chapter_id']], root)
+                        check(carried_subject, '王曇首殿本卒年須合七年卒及賢者先殞兩處')
                     if event['id']=='le-nanqi023-taizu':
                         try: from scripts.qi023_wangjian_witnesses import death_subject_valid as qi23_death_subject_valid
                         except ImportError: from qi023_wangjian_witnesses import death_subject_valid as qi23_death_subject_valid

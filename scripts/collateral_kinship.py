@@ -2,6 +2,18 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'jin076_biaozhi_congbo':
+        try:
+            from scripts.jin076_biao import biao_congbo_valid
+        except ImportError:
+            from jin076_biao import biao_congbo_valid
+        return biao_congbo_valid(assertion, paragraphs)
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'jin076_named_congbo':
+        try:
+            from scripts.jin076_shu import yun_congbo_valid
+        except ImportError:
+            from jin076_shu import yun_congbo_valid
+        return yun_congbo_valid(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'wangzhan_named_congfu':
         try: from scripts.liang021_wangzhan_kin import senior_valid
         except ImportError: from liang021_wangzhan_kin import senior_valid

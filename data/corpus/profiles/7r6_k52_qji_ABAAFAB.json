@@ -3255,6 +3255,50 @@
       "work_title": "宋書"
     },
     {
+      "number": 63,
+      "category": "",
+      "title": "王曇首傳（乾隆武英殿本）",
+      "paragraph_id": "c-songshu-063-wangtanshou-wyd:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "聚觀太史奏曰西方有天子氣太祖入奉大統上及議者皆疑不敢下曇首與到彥之從兄華固勸上猶未許曇首又固陳并言天人符應上乃下率府州文武嚴兵自衞臺所遣百官衆力不得近部伍中兵參軍朱容子抱刀在平乘戶外不解帶者數旬旣下在道有黃龍出負上所乘舟左右皆失色上謂曇首曰此乃夏禹所以受天命我何堪之及卽位",
+      "paragraph_ids": [
+        "c-songshu-063-wangtanshou-wyd:p003"
+      ],
+      "mention_ids": [
+        "c-songshu-063-wangtanshou-wyd:p003:m0119",
+        "c-songshu-063-wangtanshou-wyd:p003:m0271"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-063-wangtanshou-wyd:p003:m0119": "c-songshu-063-wangtanshou-wyd:p003",
+        "c-songshu-063-wangtanshou-wyd:p003:m0271": "c-songshu-063-wangtanshou-wyd:p003"
+      },
+      "mention_id": "c-songshu-063-wangtanshou-wyd:p003:m0119",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-063-wangtanshou-wyd:p003:m0119",
+          "mention_ids": [
+            "c-songshu-063-wangtanshou-wyd:p003:m0119"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-063-wangtanshou-wyd:p003:m0271",
+          "mention_ids": [
+            "c-songshu-063-wangtanshou-wyd:p003:m0271"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "chapter_id": "c-songshu-063-wangtanshou-wyd",
+      "source_id": "s-songshu-063-wangtanshou-wyd1739",
+      "work_title": "宋書"
+    },
+    {
       "number": 65,
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
@@ -6256,6 +6300,33 @@
               "biographical_unit": "王曇首"
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-063-wangtanshou-wyd",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "source_id": "s-songshu-063-wangtanshou-wyd1739",
+      "source": {
+        "title": "武英殿本《宋書》卷六十三王曇首傳",
+        "provider": "中國國家圖書館藏乾隆四年武英殿刊本，Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf",
+        "permalink": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf",
+        "revision_id": "cbr-ai-transcription-sha256:a3ae53ead4a5ba2ebf8aa47e120cc69353f39fd44f82d0cd41d25b5d91fcb275",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/song063-wang/wyd-columns.txt",
+        "raw_file_sha256": "a3ae53ead4a5ba2ebf8aa47e120cc69353f39fd44f82d0cd41d25b5d91fcb275",
+        "edition": "乾隆四年武英殿刊《二十四史》第147冊",
+        "extent": "卷六十三葉四上至六下，PDF第18面左第8欄至第21面右第5欄。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留刊本原字、無標點。六段只供數位閱讀，不改原欄先後。"
         }
       }
     },
@@ -12789,6 +12860,49 @@
       "model": null
     },
     {
+      "id": "a-wyd-song063-026",
+      "subject_person_id": "7r6_k52_qji_ABAAFAB",
+      "object_person_id": "7r6_k52_qji_ABAAAAE",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "從兄華",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "older"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAFAB",
+          "younger_person_id": "7r6_k52_qji_ABAAAAE",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "wyd_song063_kin_frame": "026"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wangtanshou-wyd1739",
+          "chapter_id": "c-songshu-063-wangtanshou-wyd",
+          "paragraph_id": "c-songshu-063-wangtanshou-wyd:p003",
+          "quote": "太祖爲冠軍徐州刺史留鎮彭城以曇首爲府功曹太祖鎮江陵自功曹爲長史隨府轉鎮西長史高祖甚知之謂太祖曰王曇首沈毅有器度宰相才也汝每事咨之景平中有龍見西方半天騰上廕五綵雲京都遠近聚觀太史奏曰西方有天子氣太祖入奉大統上及議者皆疑不敢下曇首與到彥之從兄華固勸上猶未許曇首又固陳并言天人符應上乃下率府州文武嚴兵自衞臺所遣百官衆力不得近部伍中兵參軍朱容子抱刀在平乘戶外不解帶者數旬旣下在道有黃龍出負上所乘舟左右皆失色上謂曇首曰此乃夏禹所以受天命我何堪之及卽位又謂曇首曰非宋昌獨見無以致此以曇首爲侍中尋領右衞將軍領驍騎將軍以朱容子爲右軍將軍誅徐羨之等平謝晦曇首及華之力也",
+          "subject_person_mention_id": "c-songshu-063-wangtanshou-wyd:p003:m0119",
+          "object_person_mention_id": "c-songshu-063-wangtanshou-wyd:p003:m0111"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依殿本相同語句的兩個具名或稱謂端點核其關係。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-song071-sengchuo-005",
       "subject_person_id": "7r6_k52_qji_ABAAFABA",
       "predicate": "father",
@@ -13165,6 +13279,21 @@
       "book_id": "b-songshu-063",
       "work_id": "w-songshu",
       "source_id": "s-songshu-063-wanghua-tanshou"
+    },
+    {
+      "id": "c-songshu-063-wangtanshou-wyd:p003:r0117",
+      "surface": "從兄",
+      "start": 117,
+      "end": 119,
+      "person_id": "7r6_k52_qji_ABAAFAB",
+      "paragraph_id": "c-songshu-063-wangtanshou-wyd:p003",
+      "quote": "太祖爲冠軍徐州刺史留鎮彭城以曇首爲府功曹太祖鎮江陵自功曹爲長史隨府轉鎮西長史高祖甚知之謂太祖曰王曇首沈毅有器度宰相才也汝每事咨之景平中有龍見西方半天騰上廕五綵雲京都遠近聚觀太史奏曰西方有天子氣太祖入奉大統上及議者皆疑不敢下曇首與到彥之從兄華固勸上猶未許曇首又固陳并言天人符應上乃下率府州文武嚴兵自衞臺所遣百官衆力不得近部伍中兵參軍朱容子抱刀在平乘戶外不解帶者數旬旣下在道有黃龍出負上所乘舟左右皆失色上謂曇首曰此乃夏禹所以受天命我何堪之及卽位又謂曇首曰非宋昌獨見無以致此以曇首爲侍中尋領右衞將軍領驍騎將軍以朱容子爲右軍將軍誅徐羨之等平謝晦曇首及華之力也",
+      "referent_role": "third_person",
+      "note": "依本句稱謂和話語視點。",
+      "chapter_id": "c-songshu-063-wangtanshou-wyd",
+      "book_id": "b-songshu-063",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-063-wangtanshou-wyd1739"
     }
   ],
   "person_ids": [
@@ -13743,6 +13872,49 @@
         "surface": "從兄華"
       },
       "interpretation_note": "保存原文明示關係與稱謂；不補未知共同父母、婚配或出生年份。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wyd-song063-026",
+      "subject_person_id": "7r6_k52_qji_ABAAFAB",
+      "object_person_id": "7r6_k52_qji_ABAAAAE",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "從兄華",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "older"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAFAB",
+          "younger_person_id": "7r6_k52_qji_ABAAAAE",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "wyd_song063_kin_frame": "026"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wangtanshou-wyd1739",
+          "chapter_id": "c-songshu-063-wangtanshou-wyd",
+          "paragraph_id": "c-songshu-063-wangtanshou-wyd:p003",
+          "quote": "太祖爲冠軍徐州刺史留鎮彭城以曇首爲府功曹太祖鎮江陵自功曹爲長史隨府轉鎮西長史高祖甚知之謂太祖曰王曇首沈毅有器度宰相才也汝每事咨之景平中有龍見西方半天騰上廕五綵雲京都遠近聚觀太史奏曰西方有天子氣太祖入奉大統上及議者皆疑不敢下曇首與到彥之從兄華固勸上猶未許曇首又固陳并言天人符應上乃下率府州文武嚴兵自衞臺所遣百官衆力不得近部伍中兵參軍朱容子抱刀在平乘戶外不解帶者數旬旣下在道有黃龍出負上所乘舟左右皆失色上謂曇首曰此乃夏禹所以受天命我何堪之及卽位又謂曇首曰非宋昌獨見無以致此以曇首爲侍中尋領右衞將軍領驍騎將軍以朱容子爲右軍將軍誅徐羨之等平謝晦曇首及華之力也",
+          "subject_person_mention_id": "c-songshu-063-wangtanshou-wyd:p003:m0119",
+          "object_person_mention_id": "c-songshu-063-wangtanshou-wyd:p003:m0111"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "依殿本相同語句的兩個具名或稱謂端點核其關係。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

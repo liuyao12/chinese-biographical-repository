@@ -1,0 +1,68 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-liangshu-021-wangtai-wangyun",
+  "assertions": [
+    {
+      "id": "a-wyext-tai-father",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBAA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEBA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "慈之子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+          "chapter_id": "c-liangshu-021-wangtai-wangyun",
+          "paragraph_id": "c-liangshu-021-wangtai-wangyun:p001",
+          "quote": "王泰字仲通，志長兄慈之子也。慈，齊時歷侍中、吳郡，知名在志右。",
+          "subject_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0000",
+          "object_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段傳主與親屬詞分別繫於原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wyext-ci-older-than-zhi",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEBC",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "志長兄慈",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAEBA",
+          "younger_person_id": "7r6_k52_qji_ABAAAAEBC",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+          "chapter_id": "c-liangshu-021-wangtai-wangyun",
+          "paragraph_id": "c-liangshu-021-wangtai-wangyun:p001",
+          "quote": "王泰字仲通，志長兄慈之子也。慈，齊時歷侍中、吳郡，知名在志右。",
+          "subject_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0009",
+          "object_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段傳主與親屬詞分別繫於原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

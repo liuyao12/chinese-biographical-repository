@@ -298,6 +298,33 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-022-wangjian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangjian-ws1477957",
+      "source": {
+        "title": "南史/卷22·王儉及王遜傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/南史/卷22",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷22&oldid=1477957",
+        "edition": "固定數位見證",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-21",
+        "text_scope": "partial_chapter",
+        "extent": "本傳或單段附敘全文",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "rights": "原典本文及可追溯校記",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留傳本文字及今本補字方括；排版界符和另存的校記依原字位投影。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shishuoxinyu-001-wang080-xianzhi",
       "work_id": "w-shishuoxinyu",
       "book_id": "b-shishuoxinyu-001",
@@ -420,6 +447,33 @@
       ],
       "status": "source_attested",
       "interpretation_note": "據所引原文及其標目指向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-022-wangjian-xianzhi-spouse",
+      "subject_person_id": "sm1_jfi_7k2",
+      "object_person_id": "dkn_ge4_286_AAAAAAAFB",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "晉新安主婿王獻之",
+        "nan22jian_kin_frame": "xianzhi-spouse"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "source_id": "s-nanshi-022-wangjian-ws1477957",
+          "chapter_id": "c-nanshi-022-wangjian",
+          "paragraph_id": "c-nanshi-022-wangjian:p002",
+          "quote": "年十八，解褐秘書郎，太子舍人，超遷秘書丞。依七略撰七志四十卷，表獻之。又撰定元徽四部書目。母憂，服闋，為司徒右長史。晉令，公府長史著朝服，宋大明以來著朱衣。儉上言宜復舊制，時議不許。及蒼梧暴虐，儉告袁粲求外出，引晉新安主婿王獻之任吳興為例，補義興太守。",
+          "subject_person_mention_id": "c-nanshi-022-wangjian:p002:m0111",
+          "object_person_reference_id": "c-nanshi-022-wangjian:p002:r0106"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
@@ -580,6 +634,21 @@
       "book_id": "b-nanqishu-023",
       "work_id": "w-nanqishu",
       "source_id": "s-nanqishu-023-wangjian-ws1545488"
+    },
+    {
+      "id": "c-nanshi-022-wangjian:p002:r0106",
+      "person_id": "dkn_ge4_286_AAAAAAAFB",
+      "paragraph_id": "c-nanshi-022-wangjian:p002",
+      "start": 106,
+      "end": 110,
+      "surface": "晉新安主",
+      "quote": "年十八，解褐秘書郎，太子舍人，超遷秘書丞。依七略撰七志四十卷，表獻之。又撰定元徽四部書目。母憂，服闋，為司徒右長史。晉令，公府長史著朝服，宋大明以來著朱衣。儉上言宜復舊制，時議不許。及蒼梧暴虐，儉告袁粲求外出，引晉新安主婿王獻之任吳興為例，補義興太守。",
+      "referent_role": "third_person",
+      "note": "依該段前後稱謂。",
+      "chapter_id": "c-nanshi-022-wangjian",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wangjian-ws1477957"
     }
   ],
   "person_ids": [
@@ -635,6 +704,33 @@
       ],
       "status": "source_attested",
       "interpretation_note": "據所引原文及其標目指向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-022-wangjian-xianzhi-spouse",
+      "subject_person_id": "sm1_jfi_7k2",
+      "object_person_id": "dkn_ge4_286_AAAAAAAFB",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "晉新安主婿王獻之",
+        "nan22jian_kin_frame": "xianzhi-spouse"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "source_id": "s-nanshi-022-wangjian-ws1477957",
+          "chapter_id": "c-nanshi-022-wangjian",
+          "paragraph_id": "c-nanshi-022-wangjian:p002",
+          "quote": "年十八，解褐秘書郎，太子舍人，超遷秘書丞。依七略撰七志四十卷，表獻之。又撰定元徽四部書目。母憂，服闋，為司徒右長史。晉令，公府長史著朝服，宋大明以來著朱衣。儉上言宜復舊制，時議不許。及蒼梧暴虐，儉告袁粲求外出，引晉新安主婿王獻之任吳興為例，補義興太守。",
+          "subject_person_mention_id": "c-nanshi-022-wangjian:p002:m0111",
+          "object_person_reference_id": "c-nanshi-022-wangjian:p002:r0106"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
