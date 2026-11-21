@@ -327,7 +327,7 @@
 | `bql_o3k_2vn` | 文王 | [《史記・孔子世家》][335] | [JSON](bql_o3k_2vn.json) |
 | `bqs_gsj_v46` | 王龕（褚裒代陂督護） | [《晉書・外戚》][115] | [JSON](bqs_gsj_v46.json) |
 | `br3_x48_86w` | 秦繆 | [《史記・孔子世家》][335] | [JSON](br3_x48_86w.json) |
-| `brc_n26_ekm` | 王綏〔本段父戎〕 | [《晉書・陳騫 裴秀》][72] | [JSON](brc_n26_ekm.json) |
+| `brc_n26_ekm` | 王綏〔本段父戎〕 | [《晉書・陳騫 裴秀》][72]、[《世說新語・賞譽》][444] | [JSON](brc_n26_ekm.json) |
 | `brk_sg8_oe9` | 和親宗室女（匈奴列傳第12至13段） | [《史記・匈奴列傳》][398] | [JSON](brk_sg8_oe9.json) |
 | `bro_0ln_j9p` | 春平君（趙世家未名者） | [《史記・趙世家》][331] | [JSON](bro_0ln_j9p.json) |
 | `brx_0of_9p8` | 韓懿侯 | [《史記・魏世家》][332] | [JSON](brx_0of_9p8.json) |
@@ -2304,6 +2304,7 @@
 [421]: https://zh.wikisource.org/w/index.php?oldid=2567459
 [431]: https://zh.wikisource.org/w/index.php?oldid=2567461
 [439]: https://zh.wikisource.org/w/index.php?oldid=2567464
+[444]: https://zh.wikisource.org/w/index.php?oldid=1532652
 [448]: https://zh.wikisource.org/w/index.php?oldid=1532652
 [450]: https://zh.wikisource.org/w/index.php?oldid=1532655
 [456]: https://zh.wikisource.org/w/index.php?oldid=2274839

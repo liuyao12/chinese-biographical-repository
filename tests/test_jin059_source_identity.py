@@ -34,8 +34,14 @@ class Jin059SourceIdentityTests(unittest.TestCase):
         self.assertNotEqual(jiong, yi)
         chapter = read(ROOT / 'corpus/jinshu/043-wangyan.json')
         mentions = {m['id']: m for p in chapter['paragraphs'] for m in p['mentions']}
-        for mid in ['c-jinshu-043-wangyan:p006:m0044', 'c-jinshu-043-wangyan:p006:m0063']:
-            self.assertEqual(mentions[mid]['person_id'], jiong)
+        title = mentions['c-jinshu-043-wangyan:p006:m0044']
+        self.assertEqual((title['surface'], title['person_id']), ('齊王乂', jiong))
+        ref_id = 'c-jinshu-043-wangyan:p006:m0063'
+        self.assertNotIn(ref_id, mentions)
+        ref = next(row for row in chapter['annotation']['person_reference_occurrences']
+                   if row['id'] == ref_id)
+        self.assertEqual((ref['surface'], ref['person_id'], ref['referent_role']),
+                         ('之', jiong, 'third_person'))
 
     def test_sunhui_direct_events_and_complete_intervening_letter(self):
         bridge = read(EVIDENCE / 'sunhui071-bridge.json')
