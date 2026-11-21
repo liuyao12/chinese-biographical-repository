@@ -9,7 +9,12 @@ class Jin65Appraisals(unittest.TestCase):
   for p in notes:
    wrong=copy.deepcopy(p);wrong['source_witness']['raw_line']=122 if p['source_witness']['raw_line']==120 else 120;self.assertFalse(valid(wrong,c,R))
   self.assertEqual(len(c['paragraphs']),45);self.assertEqual([p['annotation_status'] for p in c['paragraphs']],['reviewed']*45)
-  inventory=read('data/corpus/six-dynasties-biographies.json');entries=[x for x in inventory['biographies']if x['book_id']==c['book_id']];self.assertEqual(len(entries),12);self.assertFalse(any(p['id']in x['paragraph_ids']for x in entries for p in notes))
+  inventory=read('data/corpus/six-dynasties-biographies.json')
+  entries=[x for x in inventory['biographies'] if x['book_id']==c['book_id']]
+  original=read('source-evidence/jin065-wang-survey/survey-review.json')['entry_work']
+  self.assertEqual(len(original),12)
+  self.assertTrue({x['title'] for x in original}.issubset({x['title'] for x in entries}))
+  self.assertFalse(any(p['id'] in x['paragraph_ids'] for x in entries for p in notes))
  def test_historical_source_images_remain_external(self):
   media={'.jpg','.jpeg','.png','.gif','.webp','.tif','.tiff','.jp2','.pdf'}
   stored=[str(path.relative_to(R)) for directory in ('source-evidence','sources','corpus','data/corpus')

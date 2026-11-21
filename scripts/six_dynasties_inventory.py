@@ -22,6 +22,14 @@ def source_paragraphs(lines, layout=None):
     lines = [line for line in lines if line.strip()]
     if layout == 'wikisource_inline_phonetic_glosses':
         return [received_text(re.sub(r'\{\{\*\|[^{}|]+反\}\}', '', line)) for line in lines]
+    if layout == 'wikisource_indented_blue_and_quote':
+        projected = []
+        for line in lines:
+            if line.startswith(':{{blue|　　'):
+                assert line.endswith('}}')
+                line = line[len(':{{blue|'):-2]
+            projected.append(line)
+        return source_paragraphs(projected, 'wikisource_indented_quote')
     if layout == 'wikisource_unindented_quote':
         result = []
         inside_quote = False
@@ -154,6 +162,28 @@ def chapter_passage(entry, chapter):
     return paragraphs, text
 
 
+def reviewed_slices(paragraph, entry, chapter):
+    """A house-shared paragraph may contain independently reviewed portions."""
+    if paragraph.get('annotation_status') == 'reviewed':
+        return True
+    slices = entry.get('paragraph_slices', {}).get(paragraph['id'], [])
+    cases = [row for row in chapter['annotation'].get('source_reading_cases', [])
+             if row.get('paragraph_id') == paragraph['id'] and row.get('kind') == 'received_sentence']
+    for span in slices:
+        start, end = span['start'], span['end']
+        cursor = start
+        for case in sorted(cases, key=lambda row: row['start_codepoint']):
+            a, b = case['start_codepoint'], case['end_codepoint']
+            if b <= start or a >= end:
+                continue
+            if a != cursor or b > end or paragraph['text'][a:b] != case.get('source_quote') or not case.get('reading'):
+                return False
+            cursor = b
+        if cursor != end:
+            return False
+    return bool(slices)
+
+
 def verify(root=ROOT):
     def load(path):
         return json.loads((root / path).read_text(encoding='utf-8'))
@@ -209,7 +239,7 @@ def verify(root=ROOT):
             paragraphs, text = chapter_passage(entry, chapter)
             assert source_paragraphs(selected, entry.get('source_layout')) == text, title
             if entry['item_reviewed']:
-                assert all(p['annotation_status'] == 'reviewed' for p in paragraphs), title
+                assert all(reviewed_slices(p, entry, chapter) for p in paragraphs), title
     for book, (survey, lines) in witnesses.items():
         if survey.get('heading_locator_scheme') == 'wikisource_header_section':
             header = lines[survey['header_line'] - 1]

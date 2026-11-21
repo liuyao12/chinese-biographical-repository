@@ -2503,6 +2503,65 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-nanqi047-wangrong-wyd-m3-6",
+      "person_id": "7r6_k52_qji_ABAAAAEAA",
+      "title": "儀同",
+      "kind": "office",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-nanqi047-wangrong-wyd-m3-6:a",
+          "person_mention_id": "c-nanqishu-047-wangrong-wyd:p003:m0002",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanqishu-047-wangrong-wyd:p003",
+          "start": 5,
+          "end": 7,
+          "surface": "儀同"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-nanqishu",
+              "book_id": "b-nanqishu-047",
+              "source_id": "s-nanqishu-047-wangrong-wyd1739",
+              "chapter_id": "c-nanqishu-047-wangrong-wyd",
+              "paragraph_id": "c-nanqishu-047-wangrong-wyd:p003",
+              "quote": "從叔儉初有儀同之授融贈詩及書儉甚奇憚之笑謂人曰穰侯印詎便可解尋遷丹陽丞中書郎虜使遣求書朝議欲不與融上疏曰",
+              "person_mention_id": "c-nanqishu-047-wangrong-wyd:p003:m0002"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-wangrong-wyd1739",
+          "chapter_id": "c-nanqishu-047-wangrong-wyd",
+          "paragraph_id": "c-nanqishu-047-wangrong-wyd:p003",
+          "quote": "從叔儉初有儀同之授融贈詩及書儉甚奇憚之笑謂人曰穰侯印詎便可解尋遷丹陽丞中書郎虜使遣求書朝議欲不與融上疏曰",
+          "person_mention_id": "c-nanqishu-047-wangrong-wyd:p003:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi059-wangsengru-j2-92",
       "person_id": "7r6_k52_qji_ABAAAAEAA",
       "title": "衞軍",
@@ -6655,6 +6714,50 @@
       "book_id": "b-nanqishu-046",
       "chapter_id": "c-nanqishu-046-wangxiuzhi",
       "source_id": "s-nanqishu-046-wangxiuzhi",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 47,
+      "category": "",
+      "title": "王融（乾隆武英殿本）",
+      "paragraph_id": "c-nanqishu-047-wangrong-wyd:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "從叔儉初有儀同之授融贈詩及書儉甚奇憚之笑謂人曰穰侯印詎便可解尋遷丹陽丞中書郎虜使遣求書朝議欲不與融上疏曰",
+      "paragraph_ids": [
+        "c-nanqishu-047-wangrong-wyd:p003"
+      ],
+      "mention_ids": [
+        "c-nanqishu-047-wangrong-wyd:p003:m0002",
+        "c-nanqishu-047-wangrong-wyd:p003:m0014"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-047-wangrong-wyd:p003:m0002": "c-nanqishu-047-wangrong-wyd:p003",
+        "c-nanqishu-047-wangrong-wyd:p003:m0014": "c-nanqishu-047-wangrong-wyd:p003"
+      },
+      "mention_id": "c-nanqishu-047-wangrong-wyd:p003:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-047-wangrong-wyd:p003:m0002",
+          "mention_ids": [
+            "c-nanqishu-047-wangrong-wyd:p003:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-047-wangrong-wyd:p003:m0014",
+          "mention_ids": [
+            "c-nanqishu-047-wangrong-wyd:p003:m0014"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "chapter_id": "c-nanqishu-047-wangrong-wyd",
+      "source_id": "s-nanqishu-047-wangrong-wyd1739",
       "work_title": "南齊書"
     },
     {
@@ -10883,6 +10986,33 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-047-wangrong-wyd",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "source_id": "s-nanqishu-047-wangrong-wyd1739",
+      "source": {
+        "title": "武英殿本《南齊書》卷四十七王融傳",
+        "provider": "中國國家圖書館藏本書影，Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12542_二十四史_第161冊.pdf",
+        "permalink": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12542_二十四史_第161冊.pdf",
+        "revision_id": "cbr-ai-transcription-sha256:b3e13ccecc0f8c15729050515a6de4188790d8f8462c2804f0031b37022b7043",
+        "accessed_on": "2026-11-21",
+        "edition": "乾隆四年武英殿刊《二十四史》第161冊",
+        "extent": "卷47葉一上至九上，PDF27左5至35左3。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "raw_path": "source-evidence/nanqi047-wangrong-wyd/columns.txt",
+        "raw_file_sha256": "b3e13ccecc0f8c15729050515a6de4188790d8f8462c2804f0031b37022b7043",
+        "rights": "國家圖書館藏乾隆四年刊本，逐欄錄文；館藏圖像以公開原頁外鏈查核。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12542_二十四史_第161冊.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原書無標點，每欄21字。第33面右第7欄的𣅳與四庫轉錄SKchar 2517同形，《異體字字典》B01530-001列為昃的異體。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanqishu-047-xietiao",
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-047",
@@ -12884,6 +13014,41 @@
       "model": null
     },
     {
+      "id": "a-nanqi047-wangrong-wyd-congshu",
+      "subject_person_id": "euq_wt7_i8i",
+      "object_person_id": "7r6_k52_qji_ABAAAAEAA",
+      "predicate": "agnatic_senior_kin",
+      "qualifiers": {
+        "source_term": "從叔儉",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": -1,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "unknown"
+        },
+        "nanqi047_wangrong_wyd_reading": true
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-wangrong-wyd1739",
+          "chapter_id": "c-nanqishu-047-wangrong-wyd",
+          "paragraph_id": "c-nanqishu-047-wangrong-wyd:p003",
+          "quote": "從叔儉初有儀同之授融贈詩及書儉甚奇憚之笑謂人曰穰侯印詎便可解尋遷丹陽丞中書郎虜使遣求書朝議欲不與融上疏曰",
+          "subject_person_mention_id": "c-nanqishu-047-wangrong-wyd:p003:m0009",
+          "object_person_mention_id": "c-nanqishu-047-wangrong-wyd:p003:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "從叔為王儉，無意把從叔折作父之親弟。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi011-wangshunhua-1",
       "predicate": "grandfather",
       "subject_person_id": "7r6_k52_qji_ABAAAAEAA*A",
@@ -14001,6 +14166,21 @@
       "source_id": "s-nanqishu-036-xiechaozong-ws1492438"
     },
     {
+      "id": "c-nanqishu-047-wangrong-wyd:p003:r0000",
+      "surface": "從叔",
+      "start": 0,
+      "end": 2,
+      "person_id": "7r6_k52_qji_ABAAAAEAA",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanqishu-047-wangrong-wyd:p003",
+      "quote": "從叔儉初有儀同之授融贈詩及書儉甚奇憚之笑謂人曰穰侯印詎便可解尋遷丹陽丞中書郎虜使遣求書朝議欲不與融上疏曰",
+      "note": "殿本同段所記發言者、受話人或親稱。",
+      "chapter_id": "c-nanqishu-047-wangrong-wyd",
+      "book_id": "b-nanqishu-047",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-047-wangrong-wyd1739"
+    },
+    {
       "id": "c-nanqishu-047-wangrong:p003:r0000",
       "surface": "從叔",
       "start": 0,
@@ -14882,6 +15062,41 @@
           "quote": "從叔儉，初有儀同之授，融贈詩及書，儉甚奇憚之，笑謂人曰：「穰侯印詎便可解？」尋遷丹陽丞，中書郎。虜使遣求書，朝議欲不與。融上疏曰：",
           "subject_person_mention_id": "c-nanqishu-047-wangrong:p003:m0011",
           "object_person_mention_id": "c-nanqishu-047-wangrong:p003:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "從叔為王儉，無意把從叔折作父之親弟。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi047-wangrong-wyd-congshu",
+      "subject_person_id": "euq_wt7_i8i",
+      "object_person_id": "7r6_k52_qji_ABAAAAEAA",
+      "predicate": "agnatic_senior_kin",
+      "qualifiers": {
+        "source_term": "從叔儉",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": -1,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "unknown"
+        },
+        "nanqi047_wangrong_wyd_reading": true
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-wangrong-wyd1739",
+          "chapter_id": "c-nanqishu-047-wangrong-wyd",
+          "paragraph_id": "c-nanqishu-047-wangrong-wyd:p003",
+          "quote": "從叔儉初有儀同之授融贈詩及書儉甚奇憚之笑謂人曰穰侯印詎便可解尋遷丹陽丞中書郎虜使遣求書朝議欲不與融上疏曰",
+          "subject_person_mention_id": "c-nanqishu-047-wangrong-wyd:p003:m0009",
+          "object_person_mention_id": "c-nanqishu-047-wangrong-wyd:p003:m0002"
         }
       ],
       "status": "source_attested",

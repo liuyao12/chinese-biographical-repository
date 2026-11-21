@@ -1,0 +1,1686 @@
+{
+  "c-nanshi-024-wangshaozhi": {
+    "paragraph_ids": [
+      "c-nanshi-024-wangshaozhi:p001",
+      "c-nanshi-024-wangshaozhi:p002",
+      "c-nanshi-024-wangshaozhi:p003",
+      "c-nanshi-024-wangshaozhi:p004",
+      "c-nanshi-024-wangshaozhi:p005"
+    ],
+    "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+    "source_path": "sources/nanshi/nanshi024-ws1765279.wikitext",
+    "raw_sha256": "8fd9281c1d58e066b75c0b6cce86fff07d6e11c8ad6426459f8e0f2139a29499",
+    "revision_id": 1765279,
+    "body_sha256": "61b0291d8d43d7b53e921466e37f60e93cf9f249d9f9832625864bece2a8a939",
+    "positions_sha256": "0fa43c31646822f6d7614d1d9152f37a94404095448ba852cc6a341ee8a9651f",
+    "annotation_sha256": "5a5efc53f48092e4a2f3569c52b9aab9d67bbb7040ce180114cf1f95e137c797",
+    "mentions_sha256": "35f191fe0d5c0eb907247c36f903472163a83dc933bbbd1687cdb1fd7e9d74b9",
+    "kin": [
+      {
+        "id": "a-nanshi024-wangshaozhi-congsun",
+        "subject_person_id": "yfa_tz5_3ge",
+        "object_person_id": "7r6_k52_qji_ABDAB",
+        "predicate": "agnatic_senior_kin",
+        "qualifiers": {
+          "source_term": "胡之從孫",
+          "nanshi024_wangshaozhi_reading": "congsun",
+          "kinship_structure": {
+            "lineage": "paternal",
+            "generation_difference": -2,
+            "collateral": true,
+            "distance": null,
+            "common_ancestor_person_id": null,
+            "subject_relative_age": "unknown"
+          },
+          "direct_ancestor": false
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+            "quote": "王韶之字休泰，胡之從孫而敬弘從祖弟也。祖羨之，鎭軍掾。父偉之，少有志尚，當世詔命表奏，輒手自書寫。太元、隆安時事，大小悉撰録。位本國郎中令。",
+            "subject_person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0000",
+            "object_person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0007",
+            "relationship_anchor": {
+              "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+              "surface": "胡之從孫",
+              "start": 7,
+              "end": 11
+            }
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "韶之自胡之而言為從孫，在父系旁支低兩代。原句未明胡之與其祖誰長，兩人不能解作祖孫直系。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-nanshi024-wangshaozhi-congzudi",
+        "subject_person_id": "yfa_tz5_3ge",
+        "object_person_id": "7r6_k52_qji_ABDABAA",
+        "predicate": "agnatic_cousin",
+        "qualifiers": {
+          "source_term": "敬弘從祖弟",
+          "nanshi024_wangshaozhi_reading": "congzudi",
+          "kinship_structure": {
+            "lineage": "paternal",
+            "generation_difference": 0,
+            "collateral": true,
+            "distance": null,
+            "common_ancestor_person_id": null,
+            "subject_relative_age": "younger"
+          },
+          "relative_birth_order": {
+            "older_person_id": "7r6_k52_qji_ABDABAA",
+            "younger_person_id": "yfa_tz5_3ge",
+            "operator": "lt",
+            "scope": "agnatic_cousins",
+            "older_ordinal": null,
+            "younger_ordinal": null
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+            "quote": "王韶之字休泰，胡之從孫而敬弘從祖弟也。祖羨之，鎭軍掾。父偉之，少有志尚，當世詔命表奏，輒手自書寫。太元、隆安時事，大小悉撰録。位本國郎中令。",
+            "subject_person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0000",
+            "object_person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0012",
+            "relationship_anchor": {
+              "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+              "surface": "敬弘從祖弟",
+              "start": 12,
+              "end": 17
+            }
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "韶之為敬弘從祖弟，敬弘居長。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-nanshi024-wangshaozhi-grandfather",
+        "subject_person_id": "yfa_tz5_3ge",
+        "object_person_id": "7r6_k52_qji_ABDAD",
+        "predicate": "grandfather",
+        "qualifiers": {
+          "source_term": "祖羨之",
+          "nanshi024_wangshaozhi_reading": "grandfather",
+          "lineage": "paternal"
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+            "quote": "王韶之字休泰，胡之從孫而敬弘從祖弟也。祖羨之，鎭軍掾。父偉之，少有志尚，當世詔命表奏，輒手自書寫。太元、隆安時事，大小悉撰録。位本國郎中令。",
+            "subject_person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0000",
+            "object_person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0020",
+            "relationship_anchor": {
+              "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+              "surface": "祖羨之",
+              "start": 19,
+              "end": 22
+            }
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "傳內明列所出。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-nanshi024-wangshaozhi-father",
+        "subject_person_id": "yfa_tz5_3ge",
+        "object_person_id": "7r6_k52_qji_ABDADA",
+        "predicate": "father",
+        "qualifiers": {
+          "source_term": "父偉之",
+          "nanshi024_wangshaozhi_reading": "father",
+          "lineage": "paternal"
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+            "quote": "王韶之字休泰，胡之從孫而敬弘從祖弟也。祖羨之，鎭軍掾。父偉之，少有志尚，當世詔命表奏，輒手自書寫。太元、隆安時事，大小悉撰録。位本國郎中令。",
+            "subject_person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0000",
+            "object_person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0028",
+            "relationship_anchor": {
+              "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+              "surface": "父偉之",
+              "start": 27,
+              "end": 30
+            }
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "傳內明列所出。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-nanshi024-wangshaozhi-hong",
+        "subject_person_id": "7r6_k52_qji_ABAAAAA",
+        "object_person_id": "7r6_k52_qji_ABAAAA",
+        "predicate": "father",
+        "qualifiers": {
+          "source_term": "珣子弘",
+          "nanshi024_wangshaozhi_reading": "hong",
+          "lineage": "paternal"
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "subject_person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0019",
+            "object_person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0017",
+            "relationship_anchor": {
+              "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+              "surface": "珣子弘",
+              "start": 17,
+              "end": 20
+            }
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "傳內明列所出。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-nanshi024-wangshaozhi-hua",
+        "subject_person_id": "7r6_k52_qji_ABAAFAB",
+        "object_person_id": "7r6_k52_qji_ABAAFA",
+        "predicate": "father",
+        "qualifiers": {
+          "source_term": "廞子華",
+          "nanshi024_wangshaozhi_reading": "hua",
+          "lineage": "paternal"
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "subject_person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0023",
+            "object_person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0021",
+            "relationship_anchor": {
+              "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+              "surface": "廞子華",
+              "start": 21,
+              "end": 24
+            }
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "傳內明列所出。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-nanshi024-wangshaozhi-ye",
+        "subject_person_id": "yfa_tz5_3ge_A",
+        "object_person_id": "yfa_tz5_3ge",
+        "predicate": "father",
+        "qualifiers": {
+          "source_term": "子",
+          "lineage": "paternal",
+          "nanshi024_wangshaozhi_reading": "ye"
+        },
+        "context": {
+          "kind": "biographical_child_continuation",
+          "paragraph_ids": [
+            "c-nanshi-024-wangshaozhi:p004",
+            "c-nanshi-024-wangshaozhi:p005"
+          ],
+          "parent_mention_id": "c-nanshi-024-wangshaozhi:p004:m0189",
+          "child_mention_id": "c-nanshi-024-wangshaozhi:p005:m0001",
+          "rationale": "前段具名傳主，次段起子某。",
+          "status": "contextual_provisional",
+          "human_reviewed": false
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "object_person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0189"
+          },
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p005",
+            "quote": "子曄，位臨賀太守。",
+            "subject_person_mention_id": "c-nanshi-024-wangshaozhi:p005:m0001",
+            "relationship_anchor": {
+              "paragraph_id": "c-nanshi-024-wangshaozhi:p005",
+              "surface": "子曄",
+              "start": 0,
+              "end": 2
+            }
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "原段子某承前段傳主。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "offices": [
+      {
+        "id": "th-nanshi024-wangshaozhi-m1-23",
+        "person_id": "7r6_k52_qji_ABDAD",
+        "title": "鎭軍掾",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m1-23:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0020",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+            "surface": "鎭軍掾",
+            "start": 23,
+            "end": 26
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+            "quote": "王韶之字休泰，胡之從孫而敬弘從祖弟也。祖羨之，鎭軍掾。父偉之，少有志尚，當世詔命表奏，輒手自書寫。太元、隆安時事，大小悉撰録。位本國郎中令。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0020"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m1-64",
+        "person_id": "7r6_k52_qji_ABDADA",
+        "title": "本國郎中令",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m1-64:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0028",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+            "surface": "本國郎中令",
+            "start": 64,
+            "end": 69
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p001",
+            "quote": "王韶之字休泰，胡之從孫而敬弘從祖弟也。祖羨之，鎭軍掾。父偉之，少有志尚，當世詔命表奏，輒手自書寫。太元、隆安時事，大小悉撰録。位本國郎中令。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p001:m0028"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m2-50",
+        "person_id": "7r6_k52_qji_ABDADA",
+        "title": "烏程令",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m2-50:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0047",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+            "surface": "烏程令",
+            "start": 50,
+            "end": 53
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+            "quote": "韶之家貧好學，嘗三日絶糧而執卷不輟，家人誚之曰：「困窮如此，何不耕？」答曰：「我常自耕耳。」父偉之爲烏程令，韶之因居縣境。好史籍，博涉多聞。初爲衞將軍謝琰行參軍，得父舊書，因私撰晉安帝陽秋。及成，時人謂宜居史職，即除著作佐郎，使續後事，訖義熙九年。善敘事，辭論可觀。遷尚書祠部郎。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0047"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m2-72",
+        "person_id": "aa6_83c_juy_BA",
+        "title": "衞將軍",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m2-72:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0075",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+            "surface": "衞將軍",
+            "start": 72,
+            "end": 75
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+            "quote": "韶之家貧好學，嘗三日絶糧而執卷不輟，家人誚之曰：「困窮如此，何不耕？」答曰：「我常自耕耳。」父偉之爲烏程令，韶之因居縣境。好史籍，博涉多聞。初爲衞將軍謝琰行參軍，得父舊書，因私撰晉安帝陽秋。及成，時人謂宜居史職，即除著作佐郎，使續後事，訖義熙九年。善敘事，辭論可觀。遷尚書祠部郎。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0075"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m2-77",
+        "person_id": "yfa_tz5_3ge",
+        "title": "行參軍",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m2-77:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+            "surface": "行參軍",
+            "start": 77,
+            "end": 80
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+                "quote": "韶之家貧好學，嘗三日絶糧而執卷不輟，家人誚之曰：「困窮如此，何不耕？」答曰：「我常自耕耳。」父偉之爲烏程令，韶之因居縣境。好史籍，博涉多聞。初爲衞將軍謝琰行參軍，得父舊書，因私撰晉安帝陽秋。及成，時人謂宜居史職，即除著作佐郎，使續後事，訖義熙九年。善敘事，辭論可觀。遷尚書祠部郎。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+            "quote": "韶之家貧好學，嘗三日絶糧而執卷不輟，家人誚之曰：「困窮如此，何不耕？」答曰：「我常自耕耳。」父偉之爲烏程令，韶之因居縣境。好史籍，博涉多聞。初爲衞將軍謝琰行參軍，得父舊書，因私撰晉安帝陽秋。及成，時人謂宜居史職，即除著作佐郎，使續後事，訖義熙九年。善敘事，辭論可觀。遷尚書祠部郎。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m2-108",
+        "person_id": "yfa_tz5_3ge",
+        "title": "著作佐郎",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m2-108:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+            "surface": "著作佐郎",
+            "start": 108,
+            "end": 112
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+                "quote": "韶之家貧好學，嘗三日絶糧而執卷不輟，家人誚之曰：「困窮如此，何不耕？」答曰：「我常自耕耳。」父偉之爲烏程令，韶之因居縣境。好史籍，博涉多聞。初爲衞將軍謝琰行參軍，得父舊書，因私撰晉安帝陽秋。及成，時人謂宜居史職，即除著作佐郎，使續後事，訖義熙九年。善敘事，辭論可觀。遷尚書祠部郎。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+            "quote": "韶之家貧好學，嘗三日絶糧而執卷不輟，家人誚之曰：「困窮如此，何不耕？」答曰：「我常自耕耳。」父偉之爲烏程令，韶之因居縣境。好史籍，博涉多聞。初爲衞將軍謝琰行參軍，得父舊書，因私撰晉安帝陽秋。及成，時人謂宜居史職，即除著作佐郎，使續後事，訖義熙九年。善敘事，辭論可觀。遷尚書祠部郎。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m2-134",
+        "person_id": "yfa_tz5_3ge",
+        "title": "尚書祠部郎",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m2-134:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+            "surface": "尚書祠部郎",
+            "start": 134,
+            "end": 139
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+                "quote": "韶之家貧好學，嘗三日絶糧而執卷不輟，家人誚之曰：「困窮如此，何不耕？」答曰：「我常自耕耳。」父偉之爲烏程令，韶之因居縣境。好史籍，博涉多聞。初爲衞將軍謝琰行參軍，得父舊書，因私撰晉安帝陽秋。及成，時人謂宜居史職，即除著作佐郎，使續後事，訖義熙九年。善敘事，辭論可觀。遷尚書祠部郎。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p002",
+            "quote": "韶之家貧好學，嘗三日絶糧而執卷不輟，家人誚之曰：「困窮如此，何不耕？」答曰：「我常自耕耳。」父偉之爲烏程令，韶之因居縣境。好史籍，博涉多聞。初爲衞將軍謝琰行參軍，得父舊書，因私撰晉安帝陽秋。及成，時人謂宜居史職，即除著作佐郎，使續後事，訖義熙九年。善敘事，辭論可觀。遷尚書祠部郎。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p002:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m3-37-fu",
+        "person_id": "2dj_m53_6zg",
+        "title": "西省郎",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m3-37-fu:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0041",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "surface": "西省郎",
+            "start": 37,
+            "end": 40
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0041"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m3-37-yang",
+        "person_id": "wc5_hn7_a5w_AAAA",
+        "title": "西省郎",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m3-37-yang:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0044",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "surface": "西省郎",
+            "start": 37,
+            "end": 40
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0044"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m3-70",
+        "person_id": "yfa_tz5_3ge",
+        "title": "通直郎",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m3-70:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0061",
+            "usage": "narrative",
+            "date_expression": "義熙十一年",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "surface": "通直郎",
+            "start": 70,
+            "end": 73
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": "義熙十一年",
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+                "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0061"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0061"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m3-74",
+        "person_id": "yfa_tz5_3ge",
+        "title": "領西省事",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m3-74:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0061",
+            "usage": "narrative",
+            "date_expression": "義熙十一年",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "surface": "領西省事",
+            "start": 74,
+            "end": 78
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": "義熙十一年",
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+                "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0061"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0061"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m3-80",
+        "person_id": "yfa_tz5_3ge",
+        "title": "中書侍郎",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m3-80:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0061",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "surface": "中書侍郎",
+            "start": 80,
+            "end": 84
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+                "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0061"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0061"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m3-111",
+        "person_id": "yfa_tz5_3ge",
+        "title": "黃門侍郎",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m3-111:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0094",
+            "usage": "narrative",
+            "date_expression": "恭帝即位",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "surface": "黃門侍郎",
+            "start": 111,
+            "end": 115
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": "恭帝即位",
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+                "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0094"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0094"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m3-117",
+        "person_id": "yfa_tz5_3ge",
+        "title": "著作",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m3-117:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0094",
+            "usage": "narrative",
+            "date_expression": "恭帝即位",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "surface": "著作",
+            "start": 117,
+            "end": 119
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": "恭帝即位",
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+                "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0094"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0094"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m3-140",
+        "person_id": "yfa_tz5_3ge",
+        "title": "驍騎將軍",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m3-140:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0094",
+            "usage": "narrative",
+            "date_expression": "武帝受命",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "surface": "驍騎將軍",
+            "start": 140,
+            "end": 144
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": "武帝受命",
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+                "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0094"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0094"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m3-145",
+        "person_id": "yfa_tz5_3ge",
+        "title": "黃門",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m3-145:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0094",
+            "usage": "narrative",
+            "date_expression": "武帝受命",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "surface": "黃門",
+            "start": 145,
+            "end": 147
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p003:m0094"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m4-52",
+        "person_id": "yfa_tz5_3ge",
+        "title": "侍中",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m4-52:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0000",
+            "usage": "narrative",
+            "date_expression": "少帝即位",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "surface": "侍中",
+            "start": 52,
+            "end": 54
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": "少帝即位",
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+                "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m4-57",
+        "person_id": "yfa_tz5_3ge",
+        "title": "呉郡太守",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m4-57:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "surface": "呉郡太守",
+            "start": 57,
+            "end": 61
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+                "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m4-70",
+        "person_id": "7r6_k52_qji_ABAAAAA",
+        "title": "相",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m4-70:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0067",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "surface": "相",
+            "start": 70,
+            "end": 71
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0067"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m4-73",
+        "person_id": "7r6_k52_qji_ABAAAAA",
+        "title": "揚州刺史",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m4-73:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0067",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "surface": "揚州刺史",
+            "start": 73,
+            "end": 77
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+                "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0067"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0067"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m4-142",
+        "person_id": "yfa_tz5_3ge",
+        "title": "祠部尚書",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m4-142:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0133",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "surface": "祠部尚書",
+            "start": 142,
+            "end": 146
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+                "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0133"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0133"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m4-148",
+        "person_id": "yfa_tz5_3ge",
+        "title": "給事中",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m4-148:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0133",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "surface": "給事中",
+            "start": 148,
+            "end": 151
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+                "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0133"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0133"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m4-165",
+        "person_id": "yfa_tz5_3ge",
+        "title": "呉興太守",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m4-165:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0133",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "surface": "呉興太守",
+            "start": 165,
+            "end": 169
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+                "chapter_id": "c-nanshi-024-wangshaozhi",
+                "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+                "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+                "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0133"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0133"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nanshi024-wangshaozhi-m5-4",
+        "person_id": "yfa_tz5_3ge_A",
+        "title": "臨賀太守",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nanshi024-wangshaozhi-m5-4:a",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p005:m0001",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p005",
+            "surface": "臨賀太守",
+            "start": 4,
+            "end": 8
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p005",
+            "quote": "子曄，位臨賀太守。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p005:m0001"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "life": [
+      {
+        "id": "le-nanshi024-wangshaozhi-andi",
+        "person_id": "s6y_280_81r",
+        "event_type": "death",
+        "source_term": "崩",
+        "source_anchor": {
+          "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+          "surface": "崩",
+          "start": 89,
+          "end": 90
+        },
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p003",
+            "quote": "晉帝自孝武以來常居內殿，武官主書于中通呈，以省官一人管詔誥，住西省，因謂之西省郎。傅亮、羊徽相代在職。義熙十一年，宋武帝以韶之博學有文辭，補通直郎，領西省事，轉中書侍郎。晉安帝之崩，武帝使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作，西省如故。凡諸詔黃皆其辭也。武帝受命，加驍騎將軍，黃門如故。西省職解，復掌宋書。坐璽封謬誤，免黃門，事在謝晦傳。",
+            "person_reference_id": "c-nanshi-024-wangshaozhi:p003:r0085"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "本段原詞崩；死因酖毒及行為人另依本書敘述。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "le-nanshi024-wangshaozhi-xu",
+        "person_id": "4y6_myv_ojh",
+        "event_type": "death",
+        "source_term": "被誅",
+        "source_anchor": {
+          "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+          "surface": "被誅",
+          "start": 64,
+          "end": 66
+        },
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0062"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "遭誅者徐羨之，與祖羨之異人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "le-nanshi024-wangshaozhi-shaozhi",
+        "person_id": "yfa_tz5_3ge",
+        "event_type": "death",
+        "source_term": "卒",
+        "source_anchor": {
+          "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+          "surface": "卒",
+          "start": 170,
+          "end": 171
+        },
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wangshaozhi-ws1765279",
+            "chapter_id": "c-nanshi-024-wangshaozhi",
+            "paragraph_id": "c-nanshi-024-wangshaozhi:p004",
+            "quote": "韶之爲晉史，序王珣貨殖，王廞作亂。珣子弘、廞子華並貴顯，韶之懼爲所陷，深附結徐羨之、傅亮等。少帝即位，遷侍中。出爲呉郡太守。羨之被誅，王弘入相，領揚州刺史。弘雖與韶之不絶，諸弟未相識者皆不復往來。韶之在郡，常慮爲弘所繩，夙夜勤勵，政績甚美，弘亦抑其私憾，文帝兩嘉之。韶之稱爲良守。徵爲祠部尚書，加給事中。坐去郡長取送故，免官。後爲呉興太守，卒。撰孝傳三卷，文集行於世。宋廟歌辭，韶之所制也。",
+            "person_mention_id": "c-nanshi-024-wangshaozhi:p004:m0133"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "韶之卒。此見證不記卒年、月、日及報齡。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  }
+}

@@ -314,3 +314,16 @@
 石尠、石定兩誌各存故宮館號、原石與拓本對照、欄位及親屬原詞。石定誌「太尉昌安元公之第三孫尚書城陽鄉侯之適子也」同時記祖孫排行與父子身分。石尠誌親屬欄拓本所讀「男姊」與館方釋文「南姊」並列。[兩誌逐欄與館藏](../source-evidence/shijian-family-rubbings/reading.json) · [《晉書》卷四十四分界](../source-evidence/jin044-survey/roll-review.json) · [華嶠著述](../source-evidence/jin044-huaqiao/reading.json) · [王禕之數位本與殿本](../source-evidence/jin075-taiyuan-wang-item-review/yizhi-reading.json)
 
 王寶明傳另據乾隆武英殿本、弘化四年出雲藩本各十二欄。《太平御覽》卷一四三、卷一四九、卷七一八三處引文各存標目、注文與原行。后傳父「曄之」與韶之傳子「曄」保留各書原稱與職官；「送后兄昺之家」保留「昺」「昺之」兩種斷讀。[王融傳對勘](../source-evidence/nanqi047-wangrong/reading.json) · [王僧孺兩史及諸家附敘](../source-evidence/nanshi059-wangsengru/reading.json) · [王寶明殿本](../source-evidence/qi020-wangbaoming-wyd/wuying-reading.json) · [出雲藩本](../source-evidence/nan011-wangbaoming-izumo/izumo-reading.json) · [后傳與諸書互見](../source-evidence/qi020-wangbaoming/wangbaoming-nanqishu.json)
+
+## 第二十一批　王導家傳、太原王氏與宣孝陳皇后
+
+承接[第二十批](https://github.com/liuyao12/chinese-biographical-repository/pull/763)。本批新增三十五項逐項覆核。四十八卷已有傳目調查，共七百一十項，其中四百四十二項備全文、四百四十一項完成人物初讀、四百三十七項已逐項覆核。
+
+| 史書與卷次 | 本批傳目 | 原文與判讀 |
+| --- | --- | --- |
+| 《晉書》卷四十三 | 王興、王愔之無名子、王詹、王徽四則 | 「以從弟陽平太守愔子為嗣」分記本生父王愔與所嗣王戎。卷末明載王澄長子詹早卒、次子徽任右軍司馬。殿本第十二冊第五十三、五十九面各存原欄及轉寫。[原文與印本](../source-evidence/jin043-wang-short-accounts/reading.json) |
+| 《晉書》卷六十五 | 王導妻曹氏、王琨、王嘏及其子恢等十五則，連原有十二則共二十七項 | 王嘏子恢與王劭子恢各有傳界。父劭與子默都記「呉國內史」，默的任官證據繫回「默，呉國內史，加二千石」。王廞子華發喪的先後並錄《宋書》異敘。[十五則、十七處互證及殿本六面](../source-evidence/jin065-wang-kinship/reading.json) |
+| 《晉書》卷七十五 | 王坦之、王忱、王綏、王國寶、王愷、王愉、王嶠、王淡、王度世九項 | 與原有王湛、王承、王述、王禕之共十三傳。五十原段四百三十六句的共段邊界逐字核對。卷六十五在王謐傳下敘王綏謀反，卷七十五王綏傳作「坐父愉之謀，與弟納並被誅」。[王坦之](../source-evidence/jin075-taiyuan-wang-item-review/tanzhi-reading.json) · [王綏](../source-evidence/jin075-taiyuan-wang-item-review/sui-reading.json) |
+| 《南史》卷二十四 | 王韶之主傳、父王偉之及子王曄三項 | 父偉之任烏程令。韶之得父舊書，私撰《晉安帝陽秋》。末段「子曄，位臨賀太守」另立附敘。王寶明后傳所記父曄之、太宰祭酒，仍從該傳原字。[數位本與互證](../source-evidence/nanshi024-wangshaozhi/reading.json) · [殿本二十四欄](../source-evidence/nanshi024-wangshaozhi-wyd/reading.json) |
+| 《南齊書》卷四十七、《南史》卷十九 | 王敬則女、謝朓妻，兩書各一項 | 兩書都說敬則女「常懷刀欲報朓」，續記謝朓不敢相見。其後譏朓「刑于寡妻」者，《南齊書》記沈昭略，《南史》記範縝。王融殿本校記核定第三十三面右七欄「𣅳」。卷二十七的「王為清政」另列史臣贊語。[兩書妻傳及卷界](../source-evidence/nanqi047-xietiao-wife/whole-volume.json) · [王融殿本](../source-evidence/nanqi047-wangrong-wyd/reading.json) |
+| 《南齊書》卷二十、《南史》卷十一 | 兩書各核宣孝陳皇后一傳 | 齊書殿本作「道正」「昇明三年」，南史出雲藩本作「道止」「昇明二年」。兩書敘宣帝庶生道度、道生，陳后生高帝；魏司徒陳矯與后的世距未載。《太平御覽》所引「道正」另存其書題與原句。[齊書殿本十三欄](../source-evidence/qi020-chendaozhi-wyd/wuying-reading.json) · [南史出雲藩本十八欄](../source-evidence/nan011-chendaozhi-izumo/izumo-reading.json) · [《太平御覽》引文](../source-evidence/qi020-chendaozhi/chendaozhi-taipingyulan.json) |
