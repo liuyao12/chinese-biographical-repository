@@ -10,9 +10,16 @@ class Jin65Appraisals(unittest.TestCase):
    wrong=copy.deepcopy(p);wrong['source_witness']['raw_line']=122 if p['source_witness']['raw_line']==120 else 120;self.assertFalse(valid(wrong,c,R))
   self.assertEqual(len(c['paragraphs']),45);self.assertEqual([p['annotation_status'] for p in c['paragraphs']],['reviewed']*45)
   inventory=read('data/corpus/six-dynasties-biographies.json');entries=[x for x in inventory['biographies']if x['book_id']==c['book_id']];self.assertEqual(len(entries),12);self.assertFalse(any(p['id']in x['paragraph_ids']for x in entries for p in notes))
+ def test_historical_source_images_remain_external(self):
+  media={'.jpg','.jpeg','.png','.gif','.webp','.tif','.tiff','.jp2','.pdf'}
+  stored=[str(path.relative_to(R)) for directory in ('source-evidence','sources','corpus','data/corpus')
+          for path in (R/directory).rglob('*') if path.suffix.lower() in media and path.is_file()]
+  self.assertEqual(stored,[])
  def test_textual_references(self):
   q=read('source-evidence/jin065-wangdao-appraisal/reading.json')
-  for p in q['pages']:self.assertEqual(hashlib.sha256((R/p['local_path']).read_bytes()).hexdigest(),p['sha256'])
+  for p in q['pages']:
+   self.assertEqual(p['source_url'], f"{q['pdf_url']}#page={p['pdf_page']}")
+   self.assertRegex(p['capture_sha256'],r'^[0-9a-f]{64}$')
   for w in q['original_sources']:
    v=(R/w['raw_path']).read_bytes();self.assertEqual(hashlib.sha256(v).hexdigest(),w['raw_sha256']);self.assertEqual(v.decode()[w['raw_start']:w['raw_end']],w['quote'])
   self.assertEqual([s['person_id']for s in q['original_sources']],['6c9_c43_555','11e_f2d_5d2'])

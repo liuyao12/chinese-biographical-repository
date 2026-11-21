@@ -25,7 +25,10 @@ test('古注、書影與固定字串直接重算',()=>{
     assert.equal(createHash('sha256').update(bytes).digest('hex'),witness.raw_sha256)
     assert.equal([...bytes.toString()].slice(link.raw_start,link.raw_end).join(''),link.quote)
   }
-  for (const page of review.print_witness.pages)assert.equal(createHash('sha256').update(material(page.local_path)).digest('hex'),page.sha256)
+  for (const page of review.print_witness.pages) {
+    assert.equal(page.source_url, review.print_witness.url + '#page=' + page.pdf_page);
+    assert.match(page.capture_sha256, /^[0-9a-f]{64}$/);
+  }
 })
 test('第七叔是劉注自案，譜引公榦、晉書公幹',()=>{
   const p=read('corpus/shishuoxinyu/009-wang080-short.json').paragraphs

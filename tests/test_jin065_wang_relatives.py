@@ -11,7 +11,9 @@ class WangRelatives(unittest.TestCase):
  def test_ranges_and_sources(self):
   q=self.proof
   for w in q['source_layers'].values():self.assertEqual(hashlib.sha256((R/w['raw_path']).read_bytes()).hexdigest(),w['raw_sha256'])
-  for x in q['printed_witness']['pages']:self.assertEqual(hashlib.sha256((R/x['local_path']).read_bytes()).hexdigest(),x['sha256'])
+  for x in q['printed_witness']['pages']:
+   self.assertEqual(x['source_url'], f"{q['printed_witness']['url']}#page={x['pdf_page']}")
+   self.assertRegex(x['capture_sha256'],r'^[0-9a-f]{64}$')
   for x in q['comparisons']:
    a=x['source'];self.assertEqual(self.para[a['paragraph_id']][1]['text'][a['start']:a['end']],a['quote'])
    for s in x['witnesses']:

@@ -28,7 +28,8 @@ class WangChildren(unittest.TestCase):
                 raw=(ROOT/self.proof['external_witnesses'][s['witness']]['raw_path']).read_text()
                 self.assertEqual(raw[s['raw_start']:s['raw_end']],s['quote'])
         for p in self.proof['printed_witness']['pages']:
-            self.assertEqual(hashlib.sha256((ROOT/p['local_path']).read_bytes()).hexdigest(),p['sha256'])
+            self.assertEqual(p['source_url'], f"{self.proof['printed_witness']['url']}#page={p['pdf_page']}")
+            self.assertRegex(p['capture_sha256'], r'^[0-9a-f]{64}$')
         for a in self.proof['item_boundaries']:
             self.assertEqual(a['paragraph_ids'],[self.byline[i]['id'] for i in range(a['first_line'],a['last_line']+1,2)])
             row=next(v for v in read('data/corpus/six-dynasties-biographies.json')['biographies'] if v['book_id']==self.ch['book_id'] and v['title']==a['title'])
