@@ -8,6 +8,21 @@ const evidence=(paragraph='synthetic:report',quote='合成原文')=>({work_id:'w
 const q={kind:'reported_office_challenged_by_commentary',reported_work_id:'w-quoted-synthetic',objection_evidence:evidence('synthetic:critique','合成注家異議'),interpretation_note:'合成限定',preferred_historical_office_assertion_id:null};
 const title={id:'synthetic-report',title:'合成官',kind:'office',mode:'attestation',period:'未定 → 未定',evidence:[evidence()],source_qualification:q};
 const person={id:'synthetic-person',label:'合成人',source_work_titles:{'w-synthetic':'合成史','w-quoted-synthetic':{title:'合成引書'}},titles:[title]};
+test('person page links both sides of a collation to their witnesses', () => {
+  const source = evidence();
+  const reading = {kind:'witness_collation', person_id:person.id, source_id:source.source_id,
+    chapter_id:source.chapter_id, paragraph_id:'synthetic:reading', reference:'合成異本',
+    source_quote:'甲字', reading:'乙字', url:'https://example.org/witness#page=5'};
+  const data = {...person, sources:[source], source_reading_cases:[reading, {...reading, person_id:'someone-else', reading:'他人異文'}]};
+  const html = personCard(data, true);
+  assert.match(html, /版本與史料對讀/);
+  assert.match(html, /甲字/);
+  assert.match(html, /乙字/);
+  assert.match(html, /passage=synthetic%3Areading/);
+  assert.match(html, /https:\/\/example\.org\/witness#page=5/);
+  assert.doesNotMatch(html, /他人異文/);
+  assert.doesNotMatch(personCard(data, false), /版本與史料對讀/);
+});
 const details=[
  {id:'synthetic-1',person_id:person.id,kind:'official_duty',source_term:'掌選舉',values:{duty_code:'personnel_selection',office_source_name:'合成官'}},
  {id:'synthetic-2',person_id:person.id,kind:'official_duty',source_term:'總署行臺',values:{duty_code:'general_administration_of_mobile_secretariat',organ_source_name:'行臺'}},

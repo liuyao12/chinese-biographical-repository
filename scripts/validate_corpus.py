@@ -2167,6 +2167,10 @@ def _validate_uncached(root=ROOT):
                           and evidence['source_id'] == chapter['source_id'] and evidence['quote'] in hit[1]['text']
                           and age['source_term'] in evidence['quote'], '來源年齡引句不符')
                     carried_age_subject = False
+                    if age.get('source_reference_id') and chapter.get('id') == 'c-nanshi-019-nan19':
+                        try:from scripts.nanshi019_zhan_roles import kin_age
+                        except ImportError:from nanshi019_zhan_roles import kin_age
+                        carried_age_subject = kin_age(age, chapter, evidence)
                     if 'context' in evidence:
                         try:
                             from scripts.subject_continuation import prior_subject_valid

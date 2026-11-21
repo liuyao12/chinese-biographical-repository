@@ -2,6 +2,10 @@
 
 
 def non_parental_relation_valid(assertion, paragraphs, assertions=None):
+    if assertion.get('qualifiers', {}).get('care_basis') == 'orphan_reared_by_named_uncle_wife':
+        try:from scripts.nanshi019_zhan_roles import kin_valid
+        except ImportError:from nanshi019_zhan_roles import kin_valid
+        return kin_valid(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'biography_family_clause':
         try:
             from scripts.biography_family_clause import valid

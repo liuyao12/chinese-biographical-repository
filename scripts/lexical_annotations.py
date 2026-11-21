@@ -11,6 +11,9 @@ def non_person_errors(mention, text):
         role_valid = (mention.get('surface') == '其' and term == '猶以前憾緩其事')
     elif role == 'office_predicate':
         role_valid = (mention.get('surface') == '司馬' and term == '會稽王道子以為司馬')
+    elif role == 'philosophical_term_component':
+        role_valid = (mention.get('surface') == '玄' and term == '朗善言玄理'
+                      and any(i + 3 == start for i in starts))
     elif role == 'vacant_office':
         role_valid = mention.get('surface') == '太子' and isinstance(term, str) and term.endswith('無太子')
     elif role == 'sovereign_status':

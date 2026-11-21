@@ -2,12 +2,25 @@ import unittest
 import json
 from pathlib import Path
 
-from scripts.six_dynasties_inventory import chapter_passage, received_text, verify
+from scripts.six_dynasties_inventory import chapter_passage, received_text, source_passage, verify
 from scripts.person_references import reference_errors
 from scripts.family_assemblies import registry_sibling_path_valid
 
 
 class SixDynastiesInventoryTest(unittest.TestCase):
+    def test_interrupted_account_preserves_both_headings_and_skips_the_other_subject(self):
+        lines = ['==甲==', '甲傳首。', '===乙===', '乙傳。', '===甲續===', '甲傳末。']
+        first = dict(heading_line=1, heading_raw=lines[0], first_line=2, last_line=2,
+                     start_codepoint=0, end_codepoint=4, opening='甲', closing='首。')
+        continuation = dict(first, heading_line=5, heading_raw=lines[4], first_line=6,
+                            last_line=6, closing='末。')
+        row = dict(first, book_id='book', title='甲', continuation_spans=[continuation])
+        headings = set()
+        self.assertEqual(source_passage(row, lines, headings, set()), [lines[1], lines[5]])
+        self.assertEqual(headings, {1, 5})
+        with self.assertRaises(AssertionError):
+            source_passage(dict(row, continuation_spans=[first]), lines, set(), set())
+
     def test_slice_in_a_shared_paragraph_keeps_the_next_subject_outside(self):
         chapter = dict(paragraphs=[dict(id='p1', text='甲傳。乙有二子。'), dict(id='p2', text='丙傳。')])
         row = dict(title='甲', paragraph_ids=['p1'], paragraph_slices={'p1': dict(start=0, end=3)})

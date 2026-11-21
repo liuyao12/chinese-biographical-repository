@@ -177,6 +177,8 @@ export default {
   "Recipients are unnamed; these counts are not a list of identified children.":"受授者未具名；此數量並非已辨識子女名單。",
   "Source detail":"來源細節",
   "Duties and other source records":"職掌與其他來源記載",
+  "Witness comparisons":"版本與史料對讀",
+  "Source wording":"原文",
   "Source wording and qualification":"原文與判讀限定",
   "Duty observed within {start}–{end}; not a tenure.":"職掌見於{start}–{end}年間；非任期",
   "Duty observation date evidence":"職掌見於此時的依據",

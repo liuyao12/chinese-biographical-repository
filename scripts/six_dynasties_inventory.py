@@ -17,6 +17,35 @@ def received_text(line):
     return text.replace('{{!|𠴲|⿰口沓}}', '𠴲')
 
 
+def source_passage(entry, lines, located_headings, ranges):
+    """同一傳可隔著附傳另起續題；按各段實際起訖核原文。"""
+    selected = []
+    previous = (0, 0)
+    for span in [entry, *entry.get('continuation_spans', [])]:
+        first, last = span['first_line'], span['last_line']
+        start, end = span['start_codepoint'], span['end_codepoint']
+        title = entry['title']
+        assert 1 <= first <= last <= len(lines) and 0 <= start < len(lines[first - 1]), title
+        assert 0 < end <= len(lines[last - 1]) and (first < last or start < end), title
+        assert previous <= (first, start), title
+        if 'heading_line' in span:
+            head = span['heading_line']
+            assert previous[0] <= head < first and head >= 1, title
+            assert lines[head - 1] == span['heading_raw'], title
+            assert re.fullmatch(r'=+.+?=+\s*', span['heading_raw']) and head not in located_headings, title
+            located_headings.add(head)
+        key = (entry['book_id'], first, start, last, end)
+        assert key not in ranges, title
+        ranges.add(key)
+        raw = lines[first - 1:last]
+        raw[-1] = raw[-1][:end]
+        raw[0] = raw[0][start:]
+        assert raw[0].startswith(span['opening']) and raw[-1].endswith(span['closing']), title
+        selected.extend(raw)
+        previous = (last, end)
+    return selected
+
+
 def chapter_passage(entry, chapter):
     paragraphs = chapter['paragraphs']
     ids = entry.get('paragraph_ids')
@@ -70,22 +99,7 @@ def verify(root=ROOT):
     for entry in inventory['biographies']:
         book, title = entry['book_id'], entry['title']
         survey, lines = witnesses[book]
-        if 'heading_line' in entry:
-            head = entry['heading_line']
-            assert 1 <= head < entry['first_line'] and lines[head-1] == entry['heading_raw'], title
-            assert re.fullmatch(r'=+.+?=+\s*', entry['heading_raw']) and head not in located_headings[book], title
-            located_headings[book].add(head)
-        first, last = entry['first_line'], entry['last_line']
-        start, end = entry['start_codepoint'], entry['end_codepoint']
-        assert 1 <= first <= last <= len(lines) and 0 <= start < len(lines[first-1])
-        assert 0 < end <= len(lines[last-1]) and (first < last or start < end)
-        key = (book, first, start, last, end)
-        assert key not in ids, title
-        ids.add(key)
-        selected = lines[first-1:last]
-        selected[-1] = selected[-1][:end]
-        selected[0] = selected[0][start:]
-        assert selected[0].startswith(entry['opening']) and selected[-1].endswith(entry['closing']), title
+        selected = source_passage(entry, lines, located_headings[book], ids)
         flags = [entry[s] for s in STAGES]
         assert all(type(f) is bool for f in flags) and flags == sorted(flags, reverse=True), title
         for stage in STAGES:
