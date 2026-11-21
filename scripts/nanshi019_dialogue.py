@@ -28,6 +28,12 @@ def occurrence(rows, paragraph, phrase, surface):
 
 def age_anchor(age, chapter):
     """返回實際答者的姓名錨，或被引人物的非姓名錨。"""
+    if chapter.get('id') == 'c-songshu-044-xiehui-digital':
+        try:
+            from .song044_digital_dialogue import age_anchor as song_age_anchor
+        except ImportError:
+            from song044_digital_dialogue import age_anchor as song_age_anchor
+        return song_age_anchor(age, chapter)
     try:
         if chapter['id'] != CHAPTER or chapter['source_id'] != SOURCE:
             return None
