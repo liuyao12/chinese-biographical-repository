@@ -1,0 +1,106 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-067-xiyin",
+  "assertions": [
+    {
+      "id": "a-w067-yin-brother",
+      "subject_person_id": "ier_lqj_x4q",
+      "object_person_id": "e5k_f2i_cog",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "弟曇",
+        "relative_birth_order": {
+          "older_person_id": "ier_lqj_x4q",
+          "younger_person_id": "e5k_f2i_cog",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-067",
+          "chapter_id": "c-jinshu-067-xiyin",
+          "source_id": "s-jinshu-067-xiyin",
+          "paragraph_id": "c-jinshu-067-xiyin:line089",
+          "quote": "愔字方回。少不交競，弱冠，除散騎侍郎，不拜。性至孝，居父母憂，殆將滅性。服闋，襲爵南昌公，徵拜中書侍郎。驃騎何充輔政，征北將軍褚裒鎮京口，皆以愔為長史。再遷黃門侍郎。時吳郡守闋，欲以愔為太守。愔自以資望少，不宜超蒞大郡，朝議嘉之。轉為臨海太守。會弟曇卒，益無處世意，在郡優遊，頗稱簡默，與姊夫王羲之、高士許詢並有邁世之風，俱棲心絕谷，修黃老之術。後以疾去職，乃築宅章安，有終焉之志。十許年間，人事頓絕。",
+          "subject_person_mention_id": "c-jinshu-067-xiyin:line089:m0000",
+          "object_person_mention_id": "c-jinshu-067-xiyin:line089:m0124"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w067-yin-elder-sister",
+      "subject_person_id": "ier_lqj_x4q",
+      "object_person_id": "6lr_zci_i0j_A",
+      "predicate": "sister",
+      "qualifiers": {
+        "source_term": "與姊夫王羲之",
+        "reading_basis": {
+          "kind": "jin067_older_sister_husband_with_wang_clan_record",
+          "genealogy_paragraph_id": "c-shishuoxinyu-006-jin080-xizhi:wangshipu"
+        },
+        "relative_birth_order": {
+          "older_person_id": "6lr_zci_i0j_A",
+          "younger_person_id": "ier_lqj_x4q",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-067",
+          "chapter_id": "c-jinshu-067-xiyin",
+          "source_id": "s-jinshu-067-xiyin",
+          "paragraph_id": "c-jinshu-067-xiyin:line089",
+          "quote": "愔字方回。少不交競，弱冠，除散騎侍郎，不拜。性至孝，居父母憂，殆將滅性。服闋，襲爵南昌公，徵拜中書侍郎。驃騎何充輔政，征北將軍褚裒鎮京口，皆以愔為長史。再遷黃門侍郎。時吳郡守闋，欲以愔為太守。愔自以資望少，不宜超蒞大郡，朝議嘉之。轉為臨海太守。會弟曇卒，益無處世意，在郡優遊，頗稱簡默，與姊夫王羲之、高士許詢並有邁世之風，俱棲心絕谷，修黃老之術。後以疾去職，乃築宅章安，有終焉之志。十許年間，人事頓絕。",
+          "subject_person_mention_id": "c-jinshu-067-xiyin:line089:m0000",
+          "object_reference_id": "c-jinshu-067-xiyin:line089:r0144",
+          "husband_person_mention_id": "c-jinshu-067-xiyin:line089:m0146"
+        }
+      ],
+      "interpretation_note": "此處只稱姊夫王羲之。世說雅量劉注引王氏譜具羲之妻璿名、字、父，兩處互證。未補母或絕對排行。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w067-yin-chao",
+      "subject_person_id": "57b_1cb_a1b",
+      "object_person_id": "ier_lqj_x4q",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "愔請督所部出河上，用其子超計"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-067",
+          "chapter_id": "c-jinshu-067-xiyin",
+          "source_id": "s-jinshu-067-xiyin",
+          "paragraph_id": "c-jinshu-067-xiyin:line093",
+          "quote": "俄屬桓溫北伐，愔請督所部出河上，用其子超計，以己非將帥才，不堪軍旅，又固辭解職，勸溫並領己所統。轉冠軍將軍、會稽內史。",
+          "subject_person_mention_id": "c-jinshu-067-xiyin:line093:m0019",
+          "object_person_mention_id": "c-jinshu-067-xiyin:line093:m0007"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

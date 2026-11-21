@@ -1,0 +1,71 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-023-wangxuan",
+  "assertions": [
+    {
+      "id": "a-nan023-wangxuan-maternal-grandfather",
+      "subject_person_id": "1tc_q18_x7v_A",
+      "object_person_id": "d84_kqu_2g5",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "外祖何尚之",
+        "nan023_wangxuan_reading": "maternal-grandfather",
+        "lineage": "maternal",
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangxuan-ws2478204",
+          "chapter_id": "c-nanshi-023-wangxuan",
+          "paragraph_id": "c-nanshi-023-wangxuan:p001",
+          "quote": "絢字長素，早惠。年五六歲，讀論語至「周監於二代」，外祖何尚之戲之曰：「可改耶耶乎文哉。」絢應聲答曰：「尊者之名，安可戲，寧可道草翁之風必舅？」及長，篤志好學。位秘書丞。先景文卒，諡曰恭世子。絢弟繢。",
+          "subject_person_mention_id": "c-nanshi-023-wangxuan:p001:m0044",
+          "object_person_mention_id": "c-nanshi-023-wangxuan:p001:m0027"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "明稱外祖，不補母親姓名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangxuan-hui-younger",
+      "subject_person_id": "1tc_q18_x7v_B",
+      "object_person_id": "1tc_q18_x7v_A",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "絢弟繢",
+        "nan023_wangxuan_reading": "hui-younger",
+        "relative_birth_order": {
+          "older_person_id": "1tc_q18_x7v_A",
+          "younger_person_id": "1tc_q18_x7v_B",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangxuan-ws2478204",
+          "chapter_id": "c-nanshi-023-wangxuan",
+          "paragraph_id": "c-nanshi-023-wangxuan:p001",
+          "quote": "絢字長素，早惠。年五六歲，讀論語至「周監於二代」，外祖何尚之戲之曰：「可改耶耶乎文哉。」絢應聲答曰：「尊者之名，安可戲，寧可道草翁之風必舅？」及長，篤志好學。位秘書丞。先景文卒，諡曰恭世子。絢弟繢。",
+          "subject_person_mention_id": "c-nanshi-023-wangxuan:p001:m0097",
+          "object_person_mention_id": "c-nanshi-023-wangxuan:p001:m0095"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "弟繢，絢較長。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

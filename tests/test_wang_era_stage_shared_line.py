@@ -83,10 +83,10 @@ class NewModelTests(unittest.TestCase):
   p=copy.deepcopy(proposals['tp-wang26-64']);p['non_assumption_kind']='did_not_take_up';a=p['non_assumption_anchor'];a['start']+=2;a['surface']='不拜';self.assertFalse(unassumed_appointment_valid(p,sq))
  def test_original_sui_age_exact_and_lifetime(self):
   self.assertEqual(age['source_term'],'九嵗');self.assertTrue(direct_source_age_valid(age));self.assertEqual(age['age_context'],{'kind':'during_life'});self.assertIsNone(age['birth_year'])
-  for term in ['九歲','九歳','九嵗','年九']:
+  for term in ['九歲','九歳','九嵗','年九','年九歲']:
    a=copy.deepcopy(age);a['source_term']=term;self.assertTrue(direct_source_age_valid(a))
  def test_wrong_age_numeral_value_or_extra_char_not_accepted(self):
-  for field,value in [('value',8),('value',True),('source_number','十'),('source_term','九嵗餘'),('source_term','九')]:
+  for field,value in [('value',8),('value',True),('source_number','十'),('source_term','九嵗餘'),('source_term','年八歲'),('source_term','九')]:
    a=copy.deepcopy(age);a[field]=value;self.assertFalse(direct_source_age_valid(a))
 
 if __name__=='__main__':unittest.main()
