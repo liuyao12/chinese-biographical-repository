@@ -22,4 +22,11 @@ jobs:
       - run: python3 scripts/render_corpus.py --check
       - run: python3 -m scripts.reading_catalog --check
       - run: python3 -m scripts.historical_tables validate
-      - run: python3 -m unittest discover -s tests -v
+      # The Validate workflow already runs the full suite for pushes and PRs.
+      - uses: actions/setup-node@v4
+        if: github.event_name == 'workflow_dispatch'
+        with:
+          node-version: '22'
+      - name: Run the full suite on Python 3.12 for manual checks
+        if: github.event_name == 'workflow_dispatch'
+        run: python3 -m unittest discover -s tests -v
