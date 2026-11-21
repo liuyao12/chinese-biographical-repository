@@ -191,7 +191,10 @@
             }
           ],
           "completion_appendix": "同固定修訂2650519補入原始行20–35八段；原八段全文、ID與mentions全值保留。原字漢未、乙太保、Я脯等不靜改。"
-        }
+        },
+        "collation_witnesses": [
+          "source-evidence/jin033-wang-family-children/reading.json"
+        ]
       }
     }
   ],
@@ -273,7 +276,31 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-w033-child-3",
+      "person_id": "7r6_k52_qji_AAE",
+      "event_type": "death",
+      "source_term": "二子亦同時而亡",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-033",
+          "chapter_id": "c-jinshu-033-wanglan-family",
+          "source_id": "s-jinshu-033-wanglan-family",
+          "paragraph_id": "c-jinshu-033-wanglan-family:p016",
+          "quote": "肇孽庶，夏早卒，馥嗣爵。咸甯初，以祥家甚貧儉，賜絹三百匹，拜馥上洛太守，卒諡曰孝。子根嗣，散騎郎。肇仕至始平太守。肇子俊，守太子舍人，封永世侯。俊子遐，郁林太守。烈、芬並幼知名，爲祥所愛。二子亦同時而亡。將死，烈欲還葬舊土，芬欲留葬京邑。祥流涕曰：「不忘故鄕，仁也；不戀本土，達也。惟仁與達，吾二子有焉。」",
+          "person_mention_id": "c-jinshu-033-wanglan-family:p016:m0083"
+        }
+      ],
+      "interpretation_note": "依本來源登記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

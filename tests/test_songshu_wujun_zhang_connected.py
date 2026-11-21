@@ -12,9 +12,14 @@ C=read('corpus/songshu/053-zhangmaodu.json');CH={C['id']:C};M=ROWS[ROOT+'_A']
 class ConnectedZhang(unittest.TestCase):
  def test_retired_ids_not_active_or_aliases(self):
   pp=read('registry/persons.json')['persons'];self.assertFalse(set(RETIRED)&{p['id']for p in pp});self.assertFalse(set(RETIRED)&{a for p in pp for a in p.get('id_aliases',[])})
- def test_seventeen_unique_canonical_members(self):
-  self.assertEqual(len(ROWS),17);self.assertEqual(F['root_person_id'],ROOT)
+ def test_unique_canonical_members_and_sourced_zhangxu_branch(self):
+  self.assertEqual(len(ROWS),len(F['members']));self.assertEqual(F['root_person_id'],ROOT)
   for p,m in ROWS.items():self.assertEqual(m['source_person_ids'],[p]);self.assertEqual(m['representative_source_person_id'],p)
+  yin, xu = ROWS[ROOT+'_AAAAC'], ROWS[ROOT+'_AAAACA']
+  self.assertEqual(xu['parent_person_id'], yin['person_id'])
+  self.assertEqual(xu['source_assertion_id'], 'a-nanqishu-033-zhangxu-wangjian-father')
+  self.assertEqual(yin['parent_person_id'], ROOT+'_AAAA')
+  self.assertEqual([r['source_term'] for r in yin['parent_connection']['references']], ['父寅','祖茂度'])
  def test_four_generation_explicit_sequence_accepted(self):self.assertTrue(consecutive_ancestor_parent_valid(M,ROWS,ASSERT,CH))
  def test_wrong_distance_rejected(self):
   aa=copy.deepcopy(ASSERT);aa['a-song053-zhangmaodu-004']['qualifiers']['generation_distance']=5;self.assertFalse(consecutive_ancestor_parent_valid(M,ROWS,aa,CH))

@@ -6,11 +6,96 @@
   "identity_note": "原字夐保留，御史中丞奏僧虔；對照敻另存",
   "review": "ai_provisional",
   "names": [
-    "孫夐"
+    "孫夐",
+    "孫敻"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nanshi022-wangsengqian-98-75",
+      "person_id": "im5_l1w_bot",
+      "title": "御史中丞",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi022-wangsengqian-98-75:a",
+          "paragraph_id": "c-nanshi-022-wangsengqian:p004",
+          "start": 75,
+          "end": 79,
+          "surface": "御史中丞",
+          "person_mention_id": "c-nanshi-022-wangsengqian:p004:m0079",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangsengqian",
+          "source_id": "s-nanshi-022-wangsengqian-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangsengqian:p004",
+          "quote": "徙會稽太守。中書舍人阮佃夫家在東，請假歸，客勸僧虔以佃夫要幸，宜加禮接。僧虔曰：「我立身有素，豈能曲意此輩；彼若見惡，當拂衣去耳。」佃夫言于宋明帝，使御史中丞孫敻奏僧虔，坐免官。尋以白衣領侍中。",
+          "person_mention_id": "c-nanshi-022-wangsengqian:p004:m0079"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 22,
+      "category": "",
+      "title": "王僧虔",
+      "paragraph_id": "c-nanshi-022-wangsengqian:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "有素，豈能曲意此輩；彼若見惡，當拂衣去耳。」佃夫言于宋明帝，使御史中丞孫敻奏僧虔，坐免官。尋以白衣領侍中。",
+      "paragraph_ids": [
+        "c-nanshi-022-wangsengqian:p004"
+      ],
+      "mention_ids": [
+        "c-nanshi-022-wangsengqian:p004:m0079"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-022-wangsengqian:p004:m0079": "c-nanshi-022-wangsengqian:p004"
+      },
+      "mention_id": "c-nanshi-022-wangsengqian:p004:m0079",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-022-wangsengqian:p004:m0079",
+          "mention_ids": [
+            "c-nanshi-022-wangsengqian:p004:m0079"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wangsengqian",
+      "source_id": "s-nanshi-022-wangsengqian-ws1477957",
+      "work_title": "南史"
+    },
     {
       "number": 33,
       "category": "",
@@ -3069,6 +3154,35 @@
               "image_verified": false
             }
           }
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-022-wangsengqian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangsengqian-ws1477957",
+      "source": {
+        "title": "南史卷二十二·王僧虔",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1477957，武英殿本書影逐項參記。",
+        "extent": "第90行僧虔分題下首「僧虔，金紫光祿大夫僧綽弟也」，至第122行誡子書後「子慈」止。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "===子 僧虔===",
+        "wikitext_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
         }
       }
     }

@@ -69,6 +69,10 @@ def title_attestation_subject_valid(attestation, holding, chapter):
         try:from scripts.layered_biography_titles import title_context_valid
         except ImportError:from layered_biography_titles import title_context_valid
         return title_context_valid(attestation,holding,chapter)
+    if attestation.get('context',{}).get('kind')=='wang_xi_biography_end':
+        try: from scripts.liang021_wangfen_family import xi_end_title as wf_end_title
+        except ImportError: from liang021_wangfen_family import xi_end_title as wf_end_title
+        return wf_end_title(attestation,holding,chapter)
     context = attestation.get('context')
     if (not isinstance(context, dict)
             or set(context) != {'kind', 'paragraph_id', 'person_mention_id', 'quote'}

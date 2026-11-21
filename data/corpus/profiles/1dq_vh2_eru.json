@@ -65,6 +65,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 12,
+      "category": "",
+      "title": "張皇后及其父穆之（令嫕家屬原句）",
+      "paragraph_id": "c-nanshi-012-zhang-shangrou-yixing:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "穆之字思靜，晉司空華六世孫也。",
+      "paragraph_ids": [
+        "c-nanshi-012-zhang-shangrou-yixing:p002"
+      ],
+      "mention_ids": [
+        "c-nanshi-012-zhang-shangrou-yixing:p002:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-012-zhang-shangrou-yixing:p002:m0009": "c-nanshi-012-zhang-shangrou-yixing:p002"
+      },
+      "mention_id": "c-nanshi-012-zhang-shangrou-yixing:p002:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-012-zhang-shangrou-yixing:p002:m0009",
+          "mention_ids": [
+            "c-nanshi-012-zhang-shangrou-yixing:p002:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-012",
+      "chapter_id": "c-nanshi-012-zhang-shangrou-yixing",
+      "source_id": "s-nanshi-012-zhang-shangrou-yixing-ws2060595",
+      "work_title": "南史"
+    },
+    {
       "number": 19,
       "category": "",
       "title": "方明子惠連傳",
@@ -12771,6 +12806,34 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-012-zhang-shangrou-yixing",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-012",
+      "source_id": "s-nanshi-012-zhang-shangrou-yixing-ws2060595",
+      "source": {
+        "title": "南史卷12·張皇后及其父穆之（令嫕家屬原句）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2060595",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2060595",
+        "revision_id": 2060595,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "第16行傳首至令嫕。第20行取父穆之與張華的世代。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/liang021-wangfen-family/ws2060595.wikitext",
+        "raw_file_sha256": "824ea646232a633c4834f212ae72df29a2a790d8c17e6792764b1d4338baf929",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "固定原-{后}-僅移除防轉換定界符；母名、諸王及公主本字照原錄。"
+        },
+        "section_locator": "梁文獻張皇后"
+      }
+    },
+    {
       "chapter_id": "c-nanshi-019-huilian",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-019",
@@ -18231,16 +18294,77 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-liang021-wangfen-family-muzhi-ancestor",
+      "subject_person_id": "1dq_vh2_eru_*****A",
+      "object_person_id": "1dq_vh2_eru",
+      "predicate": "ancestor",
+      "qualifiers": {
+        "source_term": "華六世孫",
+        "liang021_fen_reading": "muzhi-ancestor",
+        "lineage": "paternal",
+        "generation_distance": 6
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-012",
+          "source_id": "s-nanshi-012-zhang-shangrou-yixing-ws2060595",
+          "chapter_id": "c-nanshi-012-zhang-shangrou-yixing",
+          "paragraph_id": "c-nanshi-012-zhang-shangrou-yixing:p002",
+          "quote": "穆之字思靜，晉司空華六世孫也。",
+          "subject_person_mention_id": "c-nanshi-012-zhang-shangrou-yixing:p002:m0000",
+          "object_person_mention_id": "c-nanshi-012-zhang-shangrou-yixing:p002:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "張穆之為晉司空張華六世孫，中介五代未逐名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "1dq_vh2_eru": "張華"
+    "1dq_vh2_eru": "張華",
+    "1dq_vh2_eru_*****A": "張穆之（字思靜）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "1dq_vh2_eru"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-liang021-wangfen-family-muzhi-ancestor",
+      "subject_person_id": "1dq_vh2_eru_*****A",
+      "object_person_id": "1dq_vh2_eru",
+      "predicate": "ancestor",
+      "qualifiers": {
+        "source_term": "華六世孫",
+        "liang021_fen_reading": "muzhi-ancestor",
+        "lineage": "paternal",
+        "generation_distance": 6
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-012",
+          "source_id": "s-nanshi-012-zhang-shangrou-yixing-ws2060595",
+          "chapter_id": "c-nanshi-012-zhang-shangrou-yixing",
+          "paragraph_id": "c-nanshi-012-zhang-shangrou-yixing:p002",
+          "quote": "穆之字思靜，晉司空華六世孫也。",
+          "subject_person_mention_id": "c-nanshi-012-zhang-shangrou-yixing:p002:m0000",
+          "object_person_mention_id": "c-nanshi-012-zhang-shangrou-yixing:p002:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "張穆之為晉司空張華六世孫，中介五代未逐名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
