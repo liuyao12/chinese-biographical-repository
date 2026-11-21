@@ -17,6 +17,54 @@
   ],
   "titles": [
     {
+      "id": "th-liang021-wangjun-m1-54",
+      "person_id": "7r6_k52_qji_ABDABAABA",
+      "title": "吳興太守",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-liang021-wangjun-m1-54:a",
+          "person_mention_id": "c-liangshu-021-wangjun-wangcong:p001:m0051",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p001",
+          "surface": "吳興太守",
+          "start": 54,
+          "end": 58
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+          "chapter_id": "c-liangshu-021-wangjun-wangcong",
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p001",
+          "quote": "王峻字茂遠，琅邪臨沂人。曾祖敬弘，有重名於宋世，位至左光祿大夫、開府儀同三司。祖瓚之，金紫光祿大夫。父秀之，吳興太守。",
+          "person_mention_id": "c-liangshu-021-wangjun-wangcong:p001:m0051"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-received-046-13-13",
       "person_id": "7r6_k52_qji_ABDABAABA",
       "title": "著作佐郎",
@@ -1566,6 +1614,41 @@
       "work_title": "南史"
     },
     {
+      "number": 21,
+      "category": "",
+      "title": "王峻傳（附王琮）",
+      "paragraph_id": "c-liangshu-021-wangjun-wangcong:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，有重名於宋世，位至左光祿大夫、開府儀同三司。祖瓚之，金紫光祿大夫。父秀之，吳興太守。",
+      "paragraph_ids": [
+        "c-liangshu-021-wangjun-wangcong:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-021-wangjun-wangcong:p001:m0051"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-021-wangjun-wangcong:p001:m0051": "c-liangshu-021-wangjun-wangcong:p001"
+      },
+      "mention_id": "c-liangshu-021-wangjun-wangcong:p001:m0051",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-021-wangjun-wangcong:p001:m0051",
+          "mention_ids": [
+            "c-liangshu-021-wangjun-wangcong:p001:m0051"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-021",
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+      "work_title": "梁書"
+    },
+    {
       "number": 24,
       "category": "",
       "title": "王氏跨史家系選段",
@@ -2017,6 +2100,33 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-021",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+      "source": {
+        "title": "梁書卷21·王峻傳（附王琮）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1544250",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1544250",
+        "revision_id": 1544250,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "數位原第33、35、37、39、41行。末段兼載子玩、子琮婚姻、離婚及王峻與王對答。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi022-wangci/external/liang021-ws1544250.wikitext",
+        "raw_file_sha256": "d547d5b8e194f36e62b748cdfb6f18366378bb372ffb8d5b82e721ca2ccb3fab",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
+    },
     {
       "chapter_id": "c-nanqishu-046-wangxiuzhi",
       "work_id": "w-nanqishu",
@@ -2514,6 +2624,34 @@
   ],
   "relations": [
     {
+      "id": "a-liang021-wangjun-ancestor-秀之",
+      "subject_person_id": "7r6_k52_qji_ABDABAABAA",
+      "object_person_id": "7r6_k52_qji_ABDABAABA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父秀之",
+        "liang021_jun_reading": "ancestor-秀之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+          "chapter_id": "c-liangshu-021-wangjun-wangcong",
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p001",
+          "quote": "王峻字茂遠，琅邪臨沂人。曾祖敬弘，有重名於宋世，位至左光祿大夫、開府儀同三司。祖瓚之，金紫光祿大夫。父秀之，吳興太守。",
+          "subject_person_mention_id": "c-liangshu-021-wangjun-wangcong:p001:m0000",
+          "object_person_mention_id": "c-liangshu-021-wangjun-wangcong:p001:m0051"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父為秀之。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-received-046-father",
       "subject_person_id": "7r6_k52_qji_ABDABAABA",
       "predicate": "father",
@@ -2960,10 +3098,55 @@
       "model": null
     }
   ],
+  "person_references": [
+    {
+      "id": "c-liangshu-021-wangjun-wangcong:p002:r0069",
+      "surface": "父",
+      "start": 69,
+      "end": 70,
+      "person_id": "7r6_k52_qji_ABDABAABA",
+      "referent_role": "third_person",
+      "paragraph_id": "c-liangshu-021-wangjun-wangcong:p002",
+      "quote": "峻少美風姿，善舉止。起家著作佐郎，不拜，累遷中軍廬陵王法曹行參軍，太子舍人，邵陵王文學，太傅主簿。府主齊竟陵王子良甚相賞遇。遷司徒主簿，以父憂去職。服闋，除太子洗馬，建安王友。出爲寧遠將軍、桂陽內史。會義師起，上流諸郡多相驚擾，峻閉門靜坐，一郡帖然，百姓賴之。",
+      "note": "王峻父秀之於隆昌元年卒官。",
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "book_id": "b-liangshu-021",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABDABAABA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-liang021-wangjun-ancestor-秀之",
+      "subject_person_id": "7r6_k52_qji_ABDABAABAA",
+      "object_person_id": "7r6_k52_qji_ABDABAABA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父秀之",
+        "liang021_jun_reading": "ancestor-秀之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+          "chapter_id": "c-liangshu-021-wangjun-wangcong",
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p001",
+          "quote": "王峻字茂遠，琅邪臨沂人。曾祖敬弘，有重名於宋世，位至左光祿大夫、開府儀同三司。祖瓚之，金紫光祿大夫。父秀之，吳興太守。",
+          "subject_person_mention_id": "c-liangshu-021-wangjun-wangcong:p001:m0000",
+          "object_person_mention_id": "c-liangshu-021-wangjun-wangcong:p001:m0051"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父為秀之。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-received-046-father",
       "subject_person_id": "7r6_k52_qji_ABDABAABA",
@@ -3219,6 +3402,35 @@
     }
   ],
   "life_events": [
+    {
+      "id": "le-liang021-wangjun-father",
+      "person_id": "7r6_k52_qji_ABDABAABA",
+      "event_type": "death",
+      "source_term": "父憂",
+      "source_anchor": {
+        "paragraph_id": "c-liangshu-021-wangjun-wangcong:p002",
+        "surface": "父憂",
+        "start": 69,
+        "end": 71
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+          "chapter_id": "c-liangshu-021-wangjun-wangcong",
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p002",
+          "quote": "峻少美風姿，善舉止。起家著作佐郎，不拜，累遷中軍廬陵王法曹行參軍，太子舍人，邵陵王文學，太傅主簿。府主齊竟陵王子良甚相賞遇。遷司徒主簿，以父憂去職。服闋，除太子洗馬，建安王友。出爲寧遠將軍、桂陽內史。會義師起，上流諸郡多相驚擾，峻閉門靜坐，一郡帖然，百姓賴之。",
+          "person_reference_id": "c-liangshu-021-wangjun-wangcong:p002:r0069"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "王秀之卒見齊書隆昌元年；本段僅書父憂。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "le-046-received-death",
       "person_id": "7r6_k52_qji_ABDABAABA",

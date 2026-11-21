@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 
 UNITS = 'source-evidence/wangyun-external/units.json'
-DIGEST = 'b89d0688cd0ada2a7979a9e75653ca309e05ae11cf9e7cac1165d90bb036f18b'
+DIGEST = 'f70a20d9f0e9ed32020180210c47bdfdfc51f2c4c1ee252f947495d29c31e583'
 CHAPTERS = ('c-suishu-076-wangzhou-wangyun', 'c-liangshu-021-wangtai-wangyun', 'c-liangshu-008-xiaotong-wangyun', 'c-gaosengzhuan-010-baozhi-wangyun')
 
 

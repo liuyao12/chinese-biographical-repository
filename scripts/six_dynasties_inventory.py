@@ -38,8 +38,16 @@ def source_paragraphs(lines, layout=None):
         return result
     if layout is None:
         return [received_text(line) for line in lines]
+    if layout == 'wikisource_mixed_indented_prose':
+        return [received_text(line.removeprefix(':').removeprefix('　　')) for line in lines]
     if layout == 'wikisource_blockquote_colon':
         return [received_text(line.removeprefix(':')) for line in lines]
+    if layout == 'liang021_split_issued_wangxi_death':
+        parts=source_paragraphs(lines,'jin065_indented_text')
+        head,mark,tail=parts[-1].partition('中大通六年正月，卒')
+        end,closing,rest=(mark+tail).partition('子泛、湜。')
+        assert head and mark and closing and not rest
+        return parts[:-1]+[head,end,closing]
     if layout == 'jin065_indented_text':
         paragraphs = []
         for line in lines:

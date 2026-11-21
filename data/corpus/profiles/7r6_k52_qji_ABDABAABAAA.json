@@ -8,9 +8,102 @@
   "names": [
     "琮"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-liang021-wangjun-m5-7",
+      "person_id": "7r6_k52_qji_ABDABAABAAA",
+      "title": "國子生",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-liang021-wangjun-m5-7:a",
+          "person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0005",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+          "surface": "國子生",
+          "start": 7,
+          "end": 10
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+          "chapter_id": "c-liangshu-021-wangjun-wangcong",
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+          "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+          "person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 21,
+      "category": "",
+      "title": "王峻傳（附王琮）",
+      "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+      "paragraph_ids": [
+        "c-liangshu-021-wangjun-wangcong:p005"
+      ],
+      "mention_ids": [
+        "c-liangshu-021-wangjun-wangcong:p005:m0001",
+        "c-liangshu-021-wangjun-wangcong:p005:m0005"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-021-wangjun-wangcong:p005:m0001": "c-liangshu-021-wangjun-wangcong:p005",
+        "c-liangshu-021-wangjun-wangcong:p005:m0005": "c-liangshu-021-wangjun-wangcong:p005"
+      },
+      "mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0001",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0001",
+          "mention_ids": [
+            "c-liangshu-021-wangjun-wangcong:p005:m0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0005",
+          "mention_ids": [
+            "c-liangshu-021-wangjun-wangcong:p005:m0005"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-021",
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+      "work_title": "梁書"
+    },
     {
       "number": 24,
       "category": "",
@@ -58,6 +151,33 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-021",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+      "source": {
+        "title": "梁書卷21·王峻傳（附王琮）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1544250",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1544250",
+        "revision_id": 1544250,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "數位原第33、35、37、39、41行。末段兼載子玩、子琮婚姻、離婚及王峻與王對答。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi022-wangci/external/liang021-ws1544250.wikitext",
+        "raw_file_sha256": "d547d5b8e194f36e62b748cdfb6f18366378bb372ffb8d5b82e721ca2ccb3fab",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
+    },
     {
       "chapter_id": "c-nanshi-024-wang-family",
       "work_id": "w-nanshi",
@@ -390,6 +510,66 @@
   ],
   "relations": [
     {
+      "id": "a-liang021-wangjun-cong",
+      "subject_person_id": "7r6_k52_qji_ABDABAABAAA",
+      "object_person_id": "7r6_k52_qji_ABDABAABAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子琮",
+        "liang021_jun_reading": "cong",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+          "chapter_id": "c-liangshu-021-wangjun-wangcong",
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+          "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+          "subject_person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0001",
+          "object_person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0034"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳末列二子，末對話具名峻。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang021-wangjun-marriage",
+      "subject_person_id": "7r6_k52_qji_ABDABAABAAA",
+      "object_person_id": "fjm_eo3_0zz_A",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "尚始興王女繁昌縣主",
+        "liang021_jun_reading": "marriage",
+        "marriage_termination": {
+          "kind": "divorce",
+          "source_term": "遂離婚",
+          "date": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+          "chapter_id": "c-liangshu-021-wangjun-wangcong",
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+          "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+          "subject_person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0005",
+          "object_person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "同段記其婚成而後遂離婚，未給離婚年月。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi024-cong-father",
       "subject_person_id": "7r6_k52_qji_ABDABAABAAA",
       "predicate": "father",
@@ -476,6 +656,66 @@
     "7r6_k52_qji_ABDABAABAAA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-liang021-wangjun-cong",
+      "subject_person_id": "7r6_k52_qji_ABDABAABAAA",
+      "object_person_id": "7r6_k52_qji_ABDABAABAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子琮",
+        "liang021_jun_reading": "cong",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+          "chapter_id": "c-liangshu-021-wangjun-wangcong",
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+          "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+          "subject_person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0001",
+          "object_person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0034"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳末列二子，末對話具名峻。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang021-wangjun-marriage",
+      "subject_person_id": "7r6_k52_qji_ABDABAABAAA",
+      "object_person_id": "fjm_eo3_0zz_A",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "尚始興王女繁昌縣主",
+        "liang021_jun_reading": "marriage",
+        "marriage_termination": {
+          "kind": "divorce",
+          "source_term": "遂離婚",
+          "date": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+          "chapter_id": "c-liangshu-021-wangjun-wangcong",
+          "paragraph_id": "c-liangshu-021-wangjun-wangcong:p005",
+          "quote": "子琮，玩。琮爲國子生，尚始興王女繁昌縣主，不慧，爲學生所嗤，遂離婚。峻謝王，王曰：「此自上意，僕極不願如此。」峻曰：「臣太祖是謝仁祖外孫，亦不藉殿下姻媾爲門戶。」",
+          "subject_person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0005",
+          "object_person_mention_id": "c-liangshu-021-wangjun-wangcong:p005:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "同段記其婚成而後遂離婚，未給離婚年月。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nanshi024-cong-father",
       "subject_person_id": "7r6_k52_qji_ABDABAABAAA",

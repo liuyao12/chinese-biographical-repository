@@ -12,6 +12,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 21,
+      "category": "",
+      "title": "王泰傳（附王慈）",
+      "paragraph_id": "c-liangshu-021-wangtai-wangyun:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "初，泰無子，養兄子祁，晚有子廓。",
+      "paragraph_ids": [
+        "c-liangshu-021-wangtai-wangyun:p004"
+      ],
+      "mention_ids": [
+        "c-liangshu-021-wangtai-wangyun:p004:m0014"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-021-wangtai-wangyun:p004:m0014": "c-liangshu-021-wangtai-wangyun:p004"
+      },
+      "mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0014",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0014",
+          "mention_ids": [
+            "c-liangshu-021-wangtai-wangyun:p004:m0014"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-021",
+      "chapter_id": "c-liangshu-021-wangtai-wangyun",
+      "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+      "work_title": "梁書"
+    },
+    {
       "number": 22,
       "category": "",
       "title": "王泰",
@@ -50,6 +85,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-liangshu-021-wangtai-wangyun",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-021",
+      "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+      "source": {
+        "title": "梁書卷二十一王泰傳（附王慈）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=梁書/卷21&oldid=1544250",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=梁書/卷21&oldid=1544250",
+        "revision_id": 1544250,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "extent": "固定本第54、56、58、60行全傳；第54行後半附敘王慈。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi022-wangzhi-family/external/liang021-ws1544250.wikitext",
+        "raw_file_sha256": "d547d5b8e194f36e62b748cdfb6f18366378bb372ffb8d5b82e721ca2ccb3fab",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "rights": "古代正文及維基文庫固定數位轉錄。",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依原行所列起訖截取，保留原字及標點。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanshi-022-wangtai",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-022",
@@ -80,6 +142,34 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-liang021-wangtai-kuo",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBAAA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEBAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "晚有子廓",
+        "liang021_tai_reading": "kuo",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+          "chapter_id": "c-liangshu-021-wangtai-wangyun",
+          "paragraph_id": "c-liangshu-021-wangtai-wangyun:p004",
+          "quote": "初，泰無子，養兄子祁，晚有子廓。",
+          "subject_person_mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0014",
+          "object_person_mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "廓為泰晚得之子；南史亦書子廓。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nanshi022-wangtai-138-81",
       "subject_person_id": "7r6_k52_qji_ABAAAAEBAAA",
@@ -124,6 +214,34 @@
     "7r6_k52_qji_ABAAAAEBAAA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-liang021-wangtai-kuo",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBAAA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEBAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "晚有子廓",
+        "liang021_tai_reading": "kuo",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+          "chapter_id": "c-liangshu-021-wangtai-wangyun",
+          "paragraph_id": "c-liangshu-021-wangtai-wangyun:p004",
+          "quote": "初，泰無子，養兄子祁，晚有子廓。",
+          "subject_person_mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0014",
+          "object_person_mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "廓為泰晚得之子；南史亦書子廓。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nanshi022-wangtai-138-81",
       "subject_person_id": "7r6_k52_qji_ABAAAAEBAAA",

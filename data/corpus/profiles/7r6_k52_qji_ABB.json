@@ -57,6 +57,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w033-children-dun-ji",
+      "person_id": "7r6_k52_qji_ABB",
+      "title": "治書侍御史",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:head",
+          "quote": "王敦，字處仲，司徒導之從父兄也。父基，治書侍御史。",
+          "person_mention_id": "c-jinshu-098-jin033-wangji:head:m0017"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-children-dun-ji:a",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:head",
+          "start": 19,
+          "end": 24,
+          "surface": "治書侍御史",
+          "person_mention_id": "c-jinshu-098-jin033-wangji:head:m0017",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -113,6 +161,41 @@
       "book_id": "b-jinshu-033",
       "chapter_id": "c-jinshu-033-wanglan-family",
       "source_id": "s-jinshu-033-wanglan-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 98,
+      "category": "",
+      "title": "王敦傳所記父基與王導",
+      "paragraph_id": "c-jinshu-098-jin033-wangji:head",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王敦，字處仲，司徒導之從父兄也。父基，治書侍御史。",
+      "paragraph_ids": [
+        "c-jinshu-098-jin033-wangji:head"
+      ],
+      "mention_ids": [
+        "c-jinshu-098-jin033-wangji:head:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-098-jin033-wangji:head:m0017": "c-jinshu-098-jin033-wangji:head"
+      },
+      "mention_id": "c-jinshu-098-jin033-wangji:head:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-098-jin033-wangji:head:m0017",
+          "mention_ids": [
+            "c-jinshu-098-jin033-wangji:head:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "source_id": "s-jinshu-098-jin033-wangji",
       "work_title": "晉書"
     }
   ],
@@ -241,7 +324,34 @@
             }
           ],
           "completion_appendix": "同固定修訂2650519補入原始行20–35八段；原八段全文、ID與mentions全值保留。原字漢未、乙太保、Я脯等不靜改。"
-        }
+        },
+        "collation_witnesses": [
+          "source-evidence/jin033-wang-family-children/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "source_id": "s-jinshu-098-jin033-wangji",
+      "source": {
+        "title": "晉書王敦傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2614273",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2614273",
+        "revision_id": 2614273,
+        "accessed_on": "2026-10-18",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
+        "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36"
       }
     }
   ],
@@ -285,9 +395,36 @@
           "c-jinshu-033-wanglan-family:p006"
         ]
       }
+    },
+    {
+      "id": "a-w033-children-dun-ji",
+      "subject_person_id": "39o_b6y_n74",
+      "object_person_id": "7r6_k52_qji_ABB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父基"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:head",
+          "quote": "王敦，字處仲，司徒導之從父兄也。父基，治書侍御史。",
+          "subject_person_mention_id": "c-jinshu-098-jin033-wangji:head:m0000",
+          "object_person_mention_id": "c-jinshu-098-jin033-wangji:head:m0017"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
+    "39o_b6y_n74": "王敦",
     "7r6_k52_qji_AB": "王覽",
     "7r6_k52_qji_ABB": "王基"
   },
@@ -355,6 +492,32 @@
           "c-jinshu-033-wanglan-family:p006"
         ]
       }
+    },
+    {
+      "id": "a-w033-children-dun-ji",
+      "subject_person_id": "39o_b6y_n74",
+      "object_person_id": "7r6_k52_qji_ABB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父基"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:head",
+          "quote": "王敦，字處仲，司徒導之從父兄也。父基，治書侍御史。",
+          "subject_person_mention_id": "c-jinshu-098-jin033-wangji:head:m0000",
+          "object_person_mention_id": "c-jinshu-098-jin033-wangji:head:m0017"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "assembled_identity": {

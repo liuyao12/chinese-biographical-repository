@@ -22,6 +22,18 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if chapter.get('id') == 'c-liangshu-021-wangfen':
+        try: from scripts.liang021_wangfen_family import proposal_valid as wf21_proposal_valid
+        except ImportError: from liang021_wangfen_family import proposal_valid as wf21_proposal_valid
+        return wf21_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-liangshu-021-wangjun-wangcong':
+        try: from scripts.liang021_wangjun import proposal_valid as j21_proposal_valid
+        except ImportError: from liang021_wangjun import proposal_valid as j21_proposal_valid
+        return j21_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-liangshu-021-wangtai-wangyun':
+        try: from scripts.liang021_wangtai_readings import proposal_valid
+        except ImportError: from liang021_wangtai_readings import proposal_valid
+        return proposal_valid(proposal, chapter)
     if chapter.get('id') in ('c-liangshu-033-wangyun', 'c-liangshu-033-wangyun-wyd'):
         try: from scripts.liang033_wangyun_witness import declined_valid
         except ImportError: from liang033_wangyun_witness import declined_valid

@@ -214,6 +214,23 @@ def validate_former_given_name(name, paragraph=None):
         return
     former, current = name['former_ming'], name.get('ming')
     quotes = [name.get('quote', '')] + [r.get('quote', '') for r in name.get('references', [])]
+    if (paragraph and paragraph.get('id') == name.get('paragraph_id')
+            and isinstance(former, str) and former and former == former.strip()
+            and isinstance(current, str) and current and current == current.strip() and former != current):
+        # Some biographies give the old name as the grammatical subject of 改名.
+        text = paragraph['text']
+        named = {(m['start'], m['end'], m['surface']) for m in paragraph['mentions']
+                 if m.get('kind') == 'person' and m.get('person_id') == name['person_id']}
+        clause = former + '改名' + current
+        quote = name.get('quote', '')
+        if isinstance(quote, str) and clause in quote:
+            for start, end, surface in named:
+                new_start = end + len('改名')
+                quote_start = text.rfind(quote, 0, start + len(quote))
+                if (surface == former and text.startswith(clause, start)
+                        and 0 <= quote_start <= start < new_start + len(current) <= quote_start + len(quote)
+                        and (new_start, new_start + len(current), current) in named):
+                    return
     if (not isinstance(former, str) or not former.strip() or former != former.strip()
             or not isinstance(current, str) or not current.strip() or current != current.strip()
             or former == current

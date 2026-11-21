@@ -464,6 +464,57 @@
       }
     },
     {
+      "chapter_id": "c-liangshu-021-wangfen",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-021",
+      "source_id": "s-liangshu-021-wangfen-ws1544250",
+      "source": {
+        "title": "梁書卷21·王份傳及王琳、王錫附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=梁書/卷21&oldid=1544250",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=梁書/卷21&oldid=1544250",
+        "revision_id": 1544250,
+        "accessed_on": "2026-11-19",
+        "edition": "固定數位轉錄。傳內異文與武英殿本對讀見獨立校記。",
+        "extent": "已逐項通讀王份、王琳、王錫；以固定本原行及原有段號登錄。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "王份傳及王琳、王錫附傳",
+        "raw_path": "source-evidence/nanshi022-wangci/external/liang021-ws1544250.wikitext",
+        "raw_file_sha256": "d547d5b8e194f36e62b748cdfb6f18366378bb372ffb8d5b82e721ca2ccb3fab"
+      }
+    },
+    {
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-021",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250",
+      "source": {
+        "title": "梁書卷21·王峻傳（附王琮）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1544250",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1544250",
+        "revision_id": 1544250,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "數位原第33、35、37、39、41行。末段兼載子玩、子琮婚姻、離婚及王峻與王對答。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi022-wangci/external/liang021-ws1544250.wikitext",
+        "raw_file_sha256": "d547d5b8e194f36e62b748cdfb6f18366378bb372ffb8d5b82e721ca2ccb3fab",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-liangshu-021-wangzhan",
       "work_id": "w-liangshu",
       "book_id": "b-liangshu-021",
@@ -789,6 +840,38 @@
       "reading": "改封寶夤爲鄱陽王。中興二年，謀反誅。",
       "chapter_id": "c-weishu-weishou-010-wangzhan-royal-context",
       "source_id": "s-weishu-weishou-010-wangzhan-royal-context-ws2322631"
+    }
+  ],
+  "person_references": [
+    {
+      "id": "c-liangshu-021-wangfen:p004:r0019",
+      "surface": "建安王",
+      "start": 19,
+      "end": 22,
+      "person_id": "bni_9ky_npc",
+      "referent_role": "third_person",
+      "paragraph_id": "c-liangshu-021-wangfen:p004",
+      "quote": "長子琳，字孝璋，舉南徐州秀才，釋褐征虜建安王法曹、司徒東閤祭酒，南平王文學。尚義興公主，拜駙馬都尉。累遷中書侍郎，衛軍謝朏長史，員外散騎常侍。出爲明威將軍、東陽太守，徵司徒左長史。",
+      "note": "齊明帝子寶夤為征虜將軍時，仍封建安。齊書卷五十及北史卷二十九可核。",
+      "chapter_id": "c-liangshu-021-wangfen",
+      "book_id": "b-liangshu-021",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-021-wangfen-ws1544250"
+    },
+    {
+      "id": "c-liangshu-021-wangjun-wangcong:p002:r0083",
+      "surface": "建安王",
+      "start": 83,
+      "end": 86,
+      "person_id": "bni_9ky_npc",
+      "referent_role": "third_person",
+      "paragraph_id": "c-liangshu-021-wangjun-wangcong:p002",
+      "quote": "峻少美風姿，善舉止。起家著作佐郎，不拜，累遷中軍廬陵王法曹行參軍，太子舍人，邵陵王文學，太傅主簿。府主齊竟陵王子良甚相賞遇。遷司徒主簿，以父憂去職。服闋，除太子洗馬，建安王友。出爲寧遠將軍、桂陽內史。會義師起，上流諸郡多相驚擾，峻閉門靜坐，一郡帖然，百姓賴之。",
+      "note": "父秀之卒於隆昌，服闋後建安王可據齊明帝子寶夤；前封建安的子真延興同年被殺。",
+      "chapter_id": "c-liangshu-021-wangjun-wangcong",
+      "book_id": "b-liangshu-021",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-021-wangjun-wangcong-ws1544250"
     }
   ],
   "person_ids": [
