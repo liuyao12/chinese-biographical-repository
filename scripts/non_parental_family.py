@@ -85,6 +85,10 @@ def non_parental_relation_valid(assertion, paragraphs, assertions=None):
         keys.add('speaker_identity_mention_id')
     if set(q) != keys:
         return False
+    if kind == 'named_orphan_reared':
+        return (term == child['surface'] + '幼孤，' + other['surface'] + '撫養甚至'
+                and text[child['start']:other['end'] + len('撫養甚至')] == term
+                and other['start'] == child['end'] + len('幼孤，'))
     if kind == 'explicit_yang':
         return (child['surface'] == '之' and term == other['surface'] + '養之'
                 and text[other['end']:child['start']] == '養')

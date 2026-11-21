@@ -6,11 +6,19 @@ def valid(n,p,relations):
  try:
   root=Path(__file__).resolve().parents[1];raw=(root/'source-evidence/name-context/xie-women-paternal-clans.json').read_bytes();assert hashlib.sha256(raw).hexdigest()==PROOF_SHA
   cases=json.loads(raw);basis=n['clan_style_basis'];assert set(basis)=={'kind','case_id','parent_full_name_source','father_assertion_id','local_father_mention_id'}and basis['kind']=='fixed_explicit_father_and_literal_parent_name';case,=[c for c in cases if c['case_id']==basis['case_id']];assert basis['local_father_mention_id']==case['father_mention_id']
-  def frame(f):
+  def frame(f, required_ids):
    rel=Path(f['native_path']);assert not rel.is_absolute()and rel.parts[0]=='corpus'and '..'not in rel.parts
    c=json.loads((root/rel).read_bytes());assert all(c[k]==f[k]for k in('work_id','book_id','source_id'))and c['id']==f['chapter_id']and all(c['source'][k]==v for k,v in f['source_fingerprints'].items())
-   q,=[q for q in c['paragraphs']if q['id']==f['paragraph_id']];assert q['text']==f['quote']and q['text_layer']=='received_chapter'and[{k:m[k]for k in('id','start','end','surface','kind')}for m in q['mentions']]==f['mentions'];return c,q,{m['id']:m for m in q['mentions']}
-  ch,q,ms=frame(case['source']);sc,sp,sms=frame(case['seed']);assert p==q and n['chapter_id']==ch['id']and n['paragraph_id']==p['id']and n['quote']==p['text']and n['person_mention_id']==case['woman_mention_id']
+   q,=[q for q in c['paragraphs']if q['id']==f['paragraph_id']]
+   assert q['text']==f['quote'] and q['text_layer']=='received_chapter'
+   mentions={m['id']:m for m in q['mentions']}
+   fixed={m['id']:m for m in f['mentions']}
+   for mid in required_ids:
+    assert all(mentions[mid][key]==fixed[mid][key] for key in ('id','start','end','surface','kind'))
+   return c,q,mentions
+  ch,q,ms=frame(case['source'],(case['woman_mention_id'],case['father_mention_id']))
+  sc,sp,sms=frame(case['seed'],(case['seed_mention_id'],))
+  assert p==q and n['chapter_id']==ch['id']and n['paragraph_id']==p['id']and n['quote']==p['text']and n['person_mention_id']==case['woman_mention_id']
   woman=ms[case['woman_mention_id']];father=ms[case['father_mention_id']];seed=sms[case['seed_mention_id']];assert all(m['kind']=='person'for m in(woman,father,seed))and woman['person_id']==n['person_id']and father['person_id']==seed['person_id']and father['person_id']!=woman['person_id']and seed['surface']==case['surname']+case['father_ming']
   st=n['clan_style'];assert set(st)=={'kind','value','source_term','assertion_ids','status','rationale','human_reviewed'}and st['kind']=='paternal_clan_appellation'and st['value']==case['surname']+'氏'and st['source_term']==case['source_term']and st['assertion_ids']==[case['assertion_id']]and st['status']=='editorial_provisional'and st['human_reviewed']is False and st['rationale'].strip()
   assert n['surname']==case['surname']and n['ming']is None and 'full_name'not in n and n['status']=='contextual_provisional'and n['human_reviewed']is False

@@ -15,9 +15,93 @@
     "義眞",
     "義真"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nanshi019-lingyun-166-42",
+      "person_id": "4ly_56b_ld0",
+      "title": "廬陵王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi019-lingyun-166-42:a",
+          "paragraph_id": "c-nanshi-019-lingyun:p004",
+          "start": 42,
+          "end": 45,
+          "surface": "廬陵王",
+          "person_mention_id": "c-nanshi-019-lingyun:p004:m0045",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-lingyun",
+          "source_id": "s-nanshi-019-lingyun-ws1531762",
+          "paragraph_id": "c-nanshi-019-lingyun:p004",
+          "quote": "靈運多愆禮度，朝廷唯以文義處之，不以應實相許。自謂才能宜參權要，旣不見知，常懷憤惋。廬陵王義眞少好文籍，與靈運情款異常。少帝即位，權在大臣，靈運構扇異同，非毀執政，司徒徐羨之等患之，出爲永嘉太守。郡有名山水，靈運素所愛好。出守旣不得志，遂肆意遊遨，遍曆諸縣，動踰旬朔。理人聽訟，不復關懷，所至輒爲詩詠以致其意。",
+          "person_mention_id": "c-nanshi-019-lingyun:p004:m0045"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 19,
+      "category": "",
+      "title": "謝靈運傳",
+      "paragraph_id": "c-nanshi-019-lingyun:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "以文義處之，不以應實相許。自謂才能宜參權要，旣不見知，常懷憤惋。廬陵王義眞少好文籍，與靈運情款異常。少帝即位，權在大臣，靈運構扇異同，非毀執政，司徒徐羨之等患之，出爲永嘉太守。郡有名山水，靈運素所愛好。出守旣不得志，遂肆意遊遨，遍曆諸縣，動踰旬朔。理人聽訟，不復關懷，所至輒",
+      "paragraph_ids": [
+        "c-nanshi-019-lingyun:p004"
+      ],
+      "mention_ids": [
+        "c-nanshi-019-lingyun:p004:m0045"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-019-lingyun:p004:m0045": "c-nanshi-019-lingyun:p004"
+      },
+      "mention_id": "c-nanshi-019-lingyun:p004:m0045",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-019-lingyun:p004:m0045",
+          "mention_ids": [
+            "c-nanshi-019-lingyun:p004:m0045"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-019",
+      "chapter_id": "c-nanshi-019-lingyun",
+      "source_id": "s-nanshi-019-lingyun-ws1531762",
+      "work_title": "南史"
+    },
     {
       "number": 19,
       "category": "",
@@ -332,6 +416,35 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanshi-019-lingyun",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-019",
+      "source_id": "s-nanshi-019-lingyun-ws1531762",
+      "source": {
+        "title": "南史卷十九·謝靈運傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1531762",
+        "revision_id": 1531762,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1531762，武英殿本書影逐項參記。",
+        "extent": "謝靈運分題正文第160–180行十一原段，止於所著文章傳於世。第182行孟顗另敘已有原生章。172行內三則短附敘以本段字位另列。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "==謝靈運{{*|裒玄孫、晦從曾祖兄}}==",
+        "wikitext_sha256": "2f1bbb6150c723a3839e2f5a81f1a7522e3414465b8d8a11e23a164b43368964",
+        "raw_path": "sources/nanshi/nanshi019-ws1531762.wikitext",
+        "raw_file_sha256": "2f1bbb6150c723a3839e2f5a81f1a7522e3414465b8d8a11e23a164b43368964",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
     {
       "chapter_id": "c-nanshi-019-xieyu-descendants",
       "work_id": "w-nanshi",
@@ -6704,6 +6817,21 @@
   ],
   "name_components": [],
   "person_references": [
+    {
+      "start": 42,
+      "end": 45,
+      "surface": "廬陵王",
+      "id": "c-nanshi-019-lingyun:p004:r0042",
+      "paragraph_id": "c-nanshi-019-lingyun:p004",
+      "person_id": "4ly_56b_ld0",
+      "referent_role": "third_person",
+      "quote": "靈運多愆禮度，朝廷唯以文義處之，不以應實相許。自謂才能宜參權要，旣不見知，常懷憤惋。廬陵王義眞少好文籍，與靈運情款異常。少帝即位，權在大臣，靈運構扇異同，非毀執政，司徒徐羨之等患之，出爲永嘉太守。郡有名山水，靈運素所愛好。出守旣不得志，遂肆意遊遨，遍曆諸縣，動踰旬朔。理人聽訟，不復關懷，所至輒爲詩詠以致其意。",
+      "note": "本句按敘述視點回指義真。",
+      "chapter_id": "c-nanshi-019-lingyun",
+      "book_id": "b-nanshi-019",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-019-lingyun-ws1531762"
+    },
     {
       "start": 55,
       "end": 58,

@@ -770,9 +770,45 @@
         "human_reviewed": false,
         "rationale": "謝石正文後接子汪；完整連續原段不跨省略傳文。"
       }
+    },
+    {
+      "id": "a-jin079-branch-cousins-143-7",
+      "subject_person_id": "aa6_83c_juy_EA",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "1a3_b0c_e6d",
+      "qualifiers": {
+        "source_term": "汪從兄沖",
+        "lineage": "agnatic",
+        "relative_birth_order": {
+          "older_person_id": "1a3_b0c_e6d",
+          "younger_person_id": "aa6_83c_juy_EA",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshi-p004",
+          "quote": "子汪嗣，早卒。汪從兄沖以子明慧嗣，為孫恩所害。明慧從兄喻復以子暠嗣。宋受禪，國除。",
+          "subject_person_mention_id": "c-jinshu-079-xielang-family:exp-xieshi-p004:m0007",
+          "object_person_mention_id": "c-jinshu-079-xielang-family:exp-xieshi-p004:m0010"
+        }
+      ],
+      "interpretation_note": "從兄述同宗旁系及長幼；不以此句虛構雙方父親或共同祖父。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
+    "1a3_b0c_e6d": "謝沖",
     "aa6_83c_juy_E": "謝石",
     "aa6_83c_juy_EA": "謝汪"
   },
@@ -828,6 +864,41 @@
         "human_reviewed": false,
         "rationale": "謝石正文後接子汪；完整連續原段不跨省略傳文。"
       }
+    },
+    {
+      "id": "a-jin079-branch-cousins-143-7",
+      "subject_person_id": "aa6_83c_juy_EA",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "1a3_b0c_e6d",
+      "qualifiers": {
+        "source_term": "汪從兄沖",
+        "lineage": "agnatic",
+        "relative_birth_order": {
+          "older_person_id": "1a3_b0c_e6d",
+          "younger_person_id": "aa6_83c_juy_EA",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshi-p004",
+          "quote": "子汪嗣，早卒。汪從兄沖以子明慧嗣，為孫恩所害。明慧從兄喻復以子暠嗣。宋受禪，國除。",
+          "subject_person_mention_id": "c-jinshu-079-xielang-family:exp-xieshi-p004:m0007",
+          "object_person_mention_id": "c-jinshu-079-xielang-family:exp-xieshi-p004:m0010"
+        }
+      ],
+      "interpretation_note": "從兄述同宗旁系及長幼；不以此句虛構雙方父親或共同祖父。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "assembled_identity": {
@@ -846,7 +917,65 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin079-shi-branch-1",
+      "person_id": "aa6_83c_juy_EA",
+      "event_type": "death",
+      "source_term": "早卒",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshi-p004",
+          "quote": "子汪嗣，早卒。汪從兄沖以子明慧嗣，為孫恩所害。明慧從兄喻復以子暠嗣。宋受禪，國除。",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshi-p004:m0001"
+        }
+      ],
+      "interpretation_note": "汪早卒；繼嗣的明慧為孫恩所害，兩次死亡的年日各未明。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "person_events": [
+    {
+      "id": "ev-jin079-shi-wang",
+      "person_id": "aa6_83c_juy_EA",
+      "event_type": "noble_title_succession",
+      "source_term": "嗣",
+      "date_expression": null,
+      "source_clause_binding": {
+        "kind": "jin079_shi_heirs",
+        "role": "wang",
+        "clause": "子汪嗣"
+      },
+      "title": null,
+      "holding_id": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshi-p004",
+          "quote": "子汪嗣，早卒。汪從兄沖以子明慧嗣，為孫恩所害。明慧從兄喻復以子暠嗣。宋受禪，國除。",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshi-p004:m0001"
+        }
+      ],
+      "interpretation_note": "傳末依序記汪、明慧、暠承嗣；宋受禪國除。明慧親父沖、暠親父喻與承嗣者不是同一角色。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "mode": "accession",
+      "predecessor_person_id": "aa6_83c_juy_E"
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

@@ -14,6 +14,54 @@
   ],
   "titles": [
     {
+      "id": "th-qi047-xietiao-59-18",
+      "person_id": "aa6_83c_juy_ABC",
+      "title": "吳興太守",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-qi047-xietiao-59-18:a",
+          "paragraph_id": "c-nanqishu-047-xietiao:p001",
+          "start": 18,
+          "end": 22,
+          "surface": "吳興太守",
+          "person_mention_id": "c-nanqishu-047-xietiao:p001:m0016",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "source_id": "s-nanqishu-047-xietiao-ws1492435",
+          "paragraph_id": "c-nanqishu-047-xietiao:p001",
+          "quote": "　　謝朓字玄暉，陳郡陽夏人也。祖述，吳興太守。父緯，散騎侍郎。",
+          "person_mention_id": "c-nanqishu-047-xietiao:p001:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi019-xieshu-106-169",
       "person_id": "aa6_83c_juy_ABC",
       "title": "迎主簿",
@@ -845,10 +893,69 @@
       "chapter_id": "c-nanshi-019-xieshu",
       "source_id": "s-nanshi-019-xieshu-ws1531762",
       "work_title": "南史"
+    },
+    {
+      "number": 47,
+      "category": "",
+      "title": "謝朓傳",
+      "paragraph_id": "c-nanqishu-047-xietiao:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　謝朓字玄暉，陳郡陽夏人也。祖述，吳興太守。父緯，散騎侍郎。",
+      "paragraph_ids": [
+        "c-nanqishu-047-xietiao:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-047-xietiao:p001:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-047-xietiao:p001:m0016": "c-nanqishu-047-xietiao:p001"
+      },
+      "mention_id": "c-nanqishu-047-xietiao:p001:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-047-xietiao:p001:m0016",
+          "mention_ids": [
+            "c-nanqishu-047-xietiao:p001:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "chapter_id": "c-nanqishu-047-xietiao",
+      "source_id": "s-nanqishu-047-xietiao-ws1492435",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-047-xietiao",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "source_id": "s-nanqishu-047-xietiao-ws1492435",
+      "source": {
+        "title": "南齊書/卷47·謝朓傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=南齊書/卷47&oldid=1492435",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南齊書/卷47&oldid=1492435",
+        "revision_id": 1492435,
+        "accessed_on": "2026-11-20",
+        "raw_path": "source-evidence/nanshi019-xietiao/nanqishu047-ws1492435.wikitext",
+        "raw_file_sha256": "89b06ce5c95f39f241acb1a475dd94c220a958f567a7003fd358666f9747df2e",
+        "extent": "卷47第58行謝朓題下，至第75行共評題前。",
+        "edition": "維基文庫固定數位見證。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄。",
+        "section_locator": "謝朓傳"
+      }
+    },
     {
       "chapter_id": "c-nanshi-019-xieshu",
       "work_id": "w-nanshi",
@@ -907,6 +1014,33 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-nanqishu-047-xietiao-shu",
+      "subject_person_id": "aa6_83c_juy_ABCBA",
+      "object_person_id": "aa6_83c_juy_ABC",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖述",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "source_id": "s-nanqishu-047-xietiao-ws1492435",
+          "paragraph_id": "c-nanqishu-047-xietiao:p001",
+          "quote": "　　謝朓字玄暉，陳郡陽夏人也。祖述，吳興太守。父緯，散騎侍郎。",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-047-xietiao:p001:m0016"
+        }
+      ],
+      "interpretation_note": "傳首祖述，以父緯為其中一世，南史明說述有子緯。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanshi019-shu-han-younger",
       "subject_person_id": "aa6_83c_juy_ABC",
@@ -1028,6 +1162,7 @@
     "aa6_83c_juy_ABC": "謝述",
     "aa6_83c_juy_ABCA": "謝約",
     "aa6_83c_juy_ABCB": "謝緯",
+    "aa6_83c_juy_ABCBA": "謝朓",
     "tbn_5t5_xwp": "謝綜"
   },
   "dates": [
@@ -1143,6 +1278,21 @@
   ],
   "name_components": [],
   "person_references": [
+    {
+      "id": "c-nanqishu-047-xietiao:p001:r0015",
+      "start": 15,
+      "end": 16,
+      "surface": "祖",
+      "paragraph_id": "c-nanqishu-047-xietiao:p001",
+      "person_id": "aa6_83c_juy_ABC",
+      "referent_role": "third_person",
+      "quote": "　　謝朓字玄暉，陳郡陽夏人也。祖述，吳興太守。父緯，散騎侍郎。",
+      "note": "依語境讀作謝述。",
+      "chapter_id": "c-nanqishu-047-xietiao",
+      "book_id": "b-nanqishu-047",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-047-xietiao-ws1492435"
+    },
     {
       "start": 1,
       "end": 2,
@@ -1339,6 +1489,33 @@
     }
   ],
   "preferred_relations": [
+    {
+      "id": "a-nanqishu-047-xietiao-shu",
+      "subject_person_id": "aa6_83c_juy_ABCBA",
+      "object_person_id": "aa6_83c_juy_ABC",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖述",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "chapter_id": "c-nanqishu-047-xietiao",
+          "source_id": "s-nanqishu-047-xietiao-ws1492435",
+          "paragraph_id": "c-nanqishu-047-xietiao:p001",
+          "quote": "　　謝朓字玄暉，陳郡陽夏人也。祖述，吳興太守。父緯，散騎侍郎。",
+          "subject_person_mention_id": "c-nanqishu-047-xietiao:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-047-xietiao:p001:m0016"
+        }
+      ],
+      "interpretation_note": "傳首祖述，以父緯為其中一世，南史明說述有子緯。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanshi019-shu-han-younger",
       "subject_person_id": "aa6_83c_juy_ABC",

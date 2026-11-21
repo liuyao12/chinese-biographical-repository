@@ -2026,7 +2026,14 @@ def _validate_uncached(root=ROOT):
                     if hit:
                         local={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'}
                         if adjacent is None:
-                            check(a['subject_person_id'] in local and a['object_person_id'] in local,'人物陳述端點未見於證據段落')
+                            if 'reading_basis' in qualifiers and qualifiers['reading_basis'].get('kind') == 'xietiao_named_or_titled_kin':
+                                try:
+                                    from scripts.xietiao_titled_kin import valid as titled_kin_valid
+                                except ImportError:
+                                    from xietiao_titled_kin import valid as titled_kin_valid
+                                check(titled_kin_valid(a, chapters, root), '謝朓所涉稱謂親屬須核固定原句、指代雙端及明名旁證')
+                            else:
+                                check(a['subject_person_id'] in local and a['object_person_id'] in local,'人物陳述端點未見於證據段落')
                         else:
                             quote=e['quote'];text=hit[1]['text']
                             starts=[i for i in range(len(text)+1) if text.startswith(quote,i)]

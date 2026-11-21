@@ -135,12 +135,6 @@
       ],
       "pending_boundaries": [
         {
-          "person": "謝藻",
-          "first_line": 49,
-          "last_line": 49,
-          "note": "幾卿傳內附敘才卿子藻。第45行「西昌侯蕭淵藻」另有其人。"
-        },
-        {
           "person": "顏之推",
           "first_line": 186,
           "last_line": 186,
@@ -167,6 +161,28 @@
           "heading": "【案】",
           "heading_line": 103,
           "reason": "卷末評贊、校案單列。"
+        }
+      ]
+    },
+    {
+      "book_id": "b-nanqishu-047",
+      "revision": 1492435,
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=1492435",
+      "raw_path": "source-evidence/nanshi019-xietiao/nanqishu047-ws1492435.wikitext",
+      "sha256": "89b06ce5c95f39f241acb1a475dd94c220a958f567a7003fd358666f9747df2e",
+      "heading_survey": "complete",
+      "heading_locator_scheme": "wikisource_equals_lines",
+      "embedded_account_survey": "partial",
+      "excluded_sections": [
+        {
+          "heading": "【評贊】",
+          "heading_line": 75,
+          "reason": "卷末合評、贊及校案。"
+        },
+        {
+          "heading": "案",
+          "heading_line": 80,
+          "reason": "卷末合評、贊及校案。"
         }
       ]
     },
@@ -597,7 +613,7 @@
       "entry_checked": true,
       "full_text": true,
       "first_pass": true,
-      "item_reviewed": false,
+      "item_reviewed": true,
       "heading_line": 73,
       "heading_raw": "==安兄 奕==",
       "chapter_path": "corpus/jinshu/079.json",
@@ -680,7 +696,7 @@
       "entry_checked": true,
       "full_text": true,
       "first_pass": true,
-      "item_reviewed": false,
+      "item_reviewed": true,
       "heading_line": 111,
       "heading_raw": "==安弟 萬==",
       "chapter_path": "corpus/jinshu/079.json",
@@ -705,7 +721,7 @@
       "entry_checked": true,
       "full_text": true,
       "first_pass": true,
-      "item_reviewed": false,
+      "item_reviewed": true,
       "heading_line": 119,
       "heading_raw": "===萬子 韶===",
       "chapter_path": "corpus/jinshu/079.json",
@@ -797,7 +813,7 @@
       "entry_checked": true,
       "full_text": true,
       "first_pass": true,
-      "item_reviewed": false,
+      "item_reviewed": true,
       "heading_line": 135,
       "heading_raw": "==安弟 石==",
       "chapter_path": "corpus/jinshu/079.json",
@@ -823,7 +839,7 @@
       "entry_checked": true,
       "full_text": true,
       "first_pass": true,
-      "item_reviewed": false,
+      "item_reviewed": true,
       "heading_line": 145,
       "heading_raw": "===從子 邈===",
       "chapter_path": "corpus/jinshu/079.json",
@@ -872,7 +888,7 @@
       "book_id": "b-liangshu-050",
       "title": "謝幾卿",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro",
       "heading_line": 39,
       "heading_raw": "==謝幾卿==",
       "first_line": 41,
@@ -884,7 +900,27 @@
       "entry_checked": true,
       "full_text": false,
       "first_pass": false,
-      "item_reviewed": false
+      "item_reviewed": false,
+      "scope_note": "傳首完整一段已有獨立來源錨。另有卷末謝藻附敘。"
+    },
+    {
+      "book_id": "b-liangshu-050",
+      "title": "謝藻附敘",
+      "unit_kind": "embedded_account",
+      "parent_heading": "謝幾卿",
+      "chapter_id": "c-liangshu-050-xiezao",
+      "chapter_path": "corpus/liangshu/050-xiezao.json",
+      "first_line": 49,
+      "start_codepoint": 17,
+      "last_line": 49,
+      "end_codepoint": 67,
+      "opening": "兄才卿早卒，其子藻幼",
+      "closing": "之力也。世以此稱之。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "第49行「兄才卿早卒，其子藻」至「力也。世以此稱之。」。原題內的獨立附敘。"
     },
     {
       "book_id": "b-liangshu-050",
@@ -1106,6 +1142,25 @@
     },
     {
       "book_id": "b-nanqishu-036",
+      "title": "王永先與謝才卿附敘",
+      "unit_kind": "embedded_account",
+      "parent_heading": "謝超宗",
+      "chapter_id": "c-nanqishu-036-wangyongxian-caiqing",
+      "chapter_path": "corpus/nanqishu/036-wangyongxian-caiqing.json",
+      "first_line": 46,
+      "start_codepoint": 2,
+      "last_line": 46,
+      "end_codepoint": 53,
+      "opening": "明年，超宗門生王永先",
+      "closing": "見原。永先於獄自盡。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "第46行「明年，超宗門生王永」至「原。永先於獄自盡。」。原題內的獨立附敘。"
+    },
+    {
+      "book_id": "b-nanqishu-036",
       "title": "劉祥",
       "unit_kind": "headed_account",
       "chapter_id": null,
@@ -1121,6 +1176,53 @@
       "item_reviewed": false,
       "heading_line": 48,
       "heading_raw": "==劉祥=="
+    },
+    {
+      "book_id": "b-nanqishu-047",
+      "title": "王融",
+      "unit_kind": "headed_account",
+      "chapter_id": null,
+      "heading_line": 10,
+      "heading_raw": "==王融==",
+      "first_line": 12,
+      "last_line": 56,
+      "start_codepoint": 0,
+      "end_codepoint": 42,
+      "opening": "　　王融字元長，琅邪",
+      "closing": "敢救。融文集行於世。",
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false
+    },
+    {
+      "book_id": "b-nanqishu-047",
+      "title": "謝朓",
+      "unit_kind": "headed_account",
+      "chapter_id": "c-nanqishu-047-xietiao",
+      "heading_line": 58,
+      "heading_raw": "==謝朓==",
+      "first_line": 59,
+      "last_line": 73,
+      "start_codepoint": 0,
+      "end_codepoint": 85,
+      "opening": "　　謝朓字玄暉，陳郡",
+      "closing": "公，王公由我而死。」",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/047-xietiao.json",
+      "paragraph_ids": [
+        "c-nanqishu-047-xietiao:p001",
+        "c-nanqishu-047-xietiao:p002",
+        "c-nanqishu-047-xietiao:p003",
+        "c-nanqishu-047-xietiao:p004",
+        "c-nanqishu-047-xietiao:p005",
+        "c-nanqishu-047-xietiao:p006",
+        "c-nanqishu-047-xietiao:p007",
+        "c-nanqishu-047-xietiao:p008"
+      ]
     },
     {
       "book_id": "b-nanshi-019",
@@ -1503,7 +1605,7 @@
       "book_id": "b-nanshi-019",
       "title": "謝朓",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanshi-019-xietiao",
       "first_line": 124,
       "start_codepoint": 0,
       "last_line": 138,
@@ -1511,29 +1613,71 @@
       "opening": "朓字玄暉，少好學，有美名",
       "closing": "約早與朓善，爲制此書雲。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 122,
-      "heading_raw": "=====緯子 朓====="
+      "heading_raw": "=====緯子 朓=====",
+      "chapter_path": "corpus/nanshi/019-xietiao.json",
+      "paragraph_ids": [
+        "c-nanshi-019-xietiao:p001",
+        "c-nanshi-019-xietiao:p002",
+        "c-nanshi-019-xietiao:p003",
+        "c-nanshi-019-xietiao:p004",
+        "c-nanshi-019-xietiao:p005",
+        "c-nanshi-019-xietiao:p006",
+        "c-nanshi-019-xietiao:p007",
+        "c-nanshi-019-xietiao:p008"
+      ]
     },
     {
       "book_id": "b-nanshi-019",
       "title": "謝方明",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanshi-019-fangming",
       "first_line": 142,
       "start_codepoint": 0,
       "last_line": 150,
       "end_codepoint": 207,
-      "opening": "謝方明，裕從祖弟也。祖鐵",
-      "closing": "則漸變使無跡可尋。卒官。",
+      "opening": "謝方明，裕從祖弟也。",
+      "closing": "變使無跡可尋。卒官。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 140,
-      "heading_raw": "==謝方明{{*|裒曾孫、裕從祖弟}}=="
+      "heading_raw": "==謝方明{{*|裒曾孫、裕從祖弟}}==",
+      "chapter_path": "corpus/nanshi/019-fangming.json",
+      "paragraph_ids": [
+        "c-nanshi-019-fangming:p001",
+        "c-nanshi-019-fangming:p002",
+        "c-nanshi-019-fangming:p003",
+        "c-nanshi-019-fangming:p004",
+        "c-nanshi-019-fangming:p005"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-019-fangming:p001": {
+          "start": 0,
+          "end": 111
+        },
+        "c-nanshi-019-fangming:p002": {
+          "start": 0,
+          "end": 214
+        },
+        "c-nanshi-019-fangming:p003": {
+          "start": 0,
+          "end": 94
+        },
+        "c-nanshi-019-fangming:p004": {
+          "start": 0,
+          "end": 410
+        },
+        "c-nanshi-019-fangming:p005": {
+          "start": 0,
+          "end": 203
+        }
+      },
+      "mixed_chapter": false
     },
     {
       "book_id": "b-nanshi-019",
@@ -1573,19 +1717,167 @@
       "book_id": "b-nanshi-019",
       "title": "謝靈運",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanshi-019-lingyun",
       "first_line": 160,
       "start_codepoint": 0,
-      "last_line": 182,
-      "end_codepoint": 153,
-      "opening": "謝靈運，安西將軍弈之曾孫",
-      "closing": "而釋之。後卒於會稽太守。",
+      "last_line": 180,
+      "end_codepoint": 236,
+      "opening": "謝靈運，安西將軍弈之",
+      "closing": "九。所著文章傳於世。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 158,
-      "heading_raw": "==謝靈運{{*|裒玄孫、晦從曾祖兄}}=="
+      "heading_raw": "==謝靈運{{*|裒玄孫、晦從曾祖兄}}==",
+      "chapter_path": "corpus/nanshi/019-lingyun.json",
+      "paragraph_ids": [
+        "c-nanshi-019-lingyun:p001",
+        "c-nanshi-019-lingyun:p002",
+        "c-nanshi-019-lingyun:p003",
+        "c-nanshi-019-lingyun:p004",
+        "c-nanshi-019-lingyun:p005",
+        "c-nanshi-019-lingyun:p006",
+        "c-nanshi-019-lingyun:p007",
+        "c-nanshi-019-lingyun:p008",
+        "c-nanshi-019-lingyun:p009",
+        "c-nanshi-019-lingyun:p010",
+        "c-nanshi-019-lingyun:p011"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-019-lingyun:p001": {
+          "start": 0,
+          "end": 76
+        },
+        "c-nanshi-019-lingyun:p002": {
+          "start": 0,
+          "end": 121
+        },
+        "c-nanshi-019-lingyun:p003": {
+          "start": 0,
+          "end": 78
+        },
+        "c-nanshi-019-lingyun:p004": {
+          "start": 0,
+          "end": 155
+        },
+        "c-nanshi-019-lingyun:p005": {
+          "start": 0,
+          "end": 131
+        },
+        "c-nanshi-019-lingyun:p006": {
+          "start": 0,
+          "end": 272
+        },
+        "c-nanshi-019-lingyun:p007": {
+          "start": 0,
+          "end": 459
+        },
+        "c-nanshi-019-lingyun:p008": {
+          "start": 0,
+          "end": 266
+        },
+        "c-nanshi-019-lingyun:p009": {
+          "start": 0,
+          "end": 157
+        },
+        "c-nanshi-019-lingyun:p010": {
+          "start": 0,
+          "end": 136
+        },
+        "c-nanshi-019-lingyun:p011": {
+          "start": 0,
+          "end": 236
+        }
+      },
+      "mixed_chapter": false
+    },
+    {
+      "book_id": "b-nanshi-019",
+      "title": "荀雍",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-019-lingyun",
+      "chapter_path": "corpus/nanshi/019-lingyun.json",
+      "paragraph_ids": [
+        "c-nanshi-019-lingyun:p007"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-019-lingyun:p007": {
+          "start": 191,
+          "end": 205
+        }
+      },
+      "mixed_chapter": true,
+      "parent_heading": "謝靈運",
+      "scope_note": "第172原段內無分題的小傳。此段與主傳共用一份文字與 MID。",
+      "first_line": 172,
+      "last_line": 172,
+      "start_codepoint": 191,
+      "end_codepoint": 205,
+      "opening": "荀雍字道雍，官至員外",
+      "closing": "雍，官至員外散騎郎。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
+    },
+    {
+      "book_id": "b-nanshi-019",
+      "title": "羊璿之",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-019-lingyun",
+      "chapter_path": "corpus/nanshi/019-lingyun.json",
+      "paragraph_ids": [
+        "c-nanshi-019-lingyun:p007"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-019-lingyun:p007": {
+          "start": 205,
+          "end": 232
+        }
+      },
+      "mixed_chapter": true,
+      "parent_heading": "謝靈運",
+      "scope_note": "第172原段內無分題的小傳。此段與主傳共用一份文字與 MID。",
+      "first_line": 172,
+      "last_line": 172,
+      "start_codepoint": 205,
+      "end_codepoint": 232,
+      "opening": "璿之字曜璠，爲臨川內",
+      "closing": "王誕所遇，誕敗坐誅。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
+    },
+    {
+      "book_id": "b-nanshi-019",
+      "title": "何長瑜",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-019-lingyun",
+      "chapter_path": "corpus/nanshi/019-lingyun.json",
+      "paragraph_ids": [
+        "c-nanshi-019-lingyun:p007"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-019-lingyun:p007": {
+          "start": 232,
+          "end": 459
+        }
+      },
+      "mixed_chapter": true,
+      "parent_heading": "謝靈運",
+      "scope_note": "第172原段內無分題的小傳。此段與主傳共用一份文字與 MID。",
+      "first_line": 172,
+      "last_line": 172,
+      "start_codepoint": 232,
+      "end_codepoint": 459,
+      "opening": "長瑜才亞惠連，雍、璿",
+      "closing": "至板橋，遇暴風溺死。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-nanshi-019",
@@ -1644,6 +1936,25 @@
     },
     {
       "book_id": "b-nanshi-019",
+      "title": "王永先與謝才卿附敘",
+      "unit_kind": "embedded_account",
+      "parent_heading": "謝超宗",
+      "chapter_id": "c-nanshi-019-wangyongxian-caiqing",
+      "chapter_path": "corpus/nanshi/019-wangyongxian-caiqing.json",
+      "first_line": 202,
+      "start_codepoint": 0,
+      "last_line": 202,
+      "end_codepoint": 58,
+      "opening": "明年，超宗門生王永先",
+      "closing": "見原。永先於獄盡之。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "第202行「明年，超宗門生王永」至「原。永先於獄盡之。」。原題內的獨立附敘。"
+    },
+    {
+      "book_id": "b-nanshi-019",
       "title": "謝幾卿",
       "unit_kind": "headed_account",
       "chapter_id": null,
@@ -1659,6 +1970,25 @@
       "item_reviewed": false,
       "heading_line": 204,
       "heading_raw": "=====超宗子 幾卿====="
+    },
+    {
+      "book_id": "b-nanshi-019",
+      "title": "謝藻附敘",
+      "unit_kind": "embedded_account",
+      "parent_heading": "謝幾卿",
+      "chapter_id": "c-nanshi-019-xiezao",
+      "chapter_path": "corpus/nanshi/019-xiezao.json",
+      "first_line": 218,
+      "start_codepoint": 15,
+      "last_line": 218,
+      "end_codepoint": 55,
+      "opening": "兄-{才}-卿早卒，",
+      "closing": "，皆幾卿獎訓之力也。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "第218行「兄才卿早卒，子藻幼」至「皆幾卿獎訓之力也。」。原題內的獨立附敘。"
     },
     {
       "book_id": "b-nanshi-033",

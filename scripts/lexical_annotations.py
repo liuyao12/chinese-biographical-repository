@@ -14,6 +14,9 @@ def non_person_errors(mention, text):
     elif role == 'philosophical_term_component':
         role_valid = (mention.get('surface') == '玄' and term == '朗善言玄理'
                       and any(i + 3 == start for i in starts))
+    elif role == 'distributive_adverb':
+        role_valid = (mention.get('surface') == '皆' and term == '皆其小字也'
+                      and any(i == start for i in starts))
     elif role == 'vacant_office':
         role_valid = mention.get('surface') == '太子' and isinstance(term, str) and term.endswith('無太子')
     elif role == 'sovereign_status':
