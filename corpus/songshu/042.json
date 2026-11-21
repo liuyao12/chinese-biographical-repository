@@ -487,7 +487,69 @@
         "human_reviewed": false,
         "model": null
       }
-    ]
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-songshu-042-wanghong:line093:r0006",
+        "paragraph_id": "c-songshu-042-wanghong:line093",
+        "start": 6,
+        "end": 8,
+        "surface": "宰相",
+        "person_id": "7r6_k52_qji_ABAAAAA",
+        "referent_role": "third_person",
+        "quote": "少以宰相子，起家為員外散騎",
+        "note": "王錫父王弘，宰相為其父職位泛稱。"
+      },
+      {
+        "id": "c-songshu-042-wanghong:line097:m0034",
+        "paragraph_id": "c-songshu-042-wanghong:line097",
+        "start": 34,
+        "end": 36,
+        "surface": "世祖",
+        "person_id": "hx8_st4_jdd",
+        "referent_role": "third_person",
+        "quote": "弘從父弟練，晉中書令珉子也。元嘉中，歷顯官，侍中，度支尚書。練子釗，世祖大明中，亦經清職，黃門郎，臨海王子頊晉安王子勛征虜、前軍長史，左民尚書。太宗初，為司徒左長史。隨司徒建安王休仁出赭圻，時居母憂，加冠軍將軍。忤犯休仁，出為始興相。休仁恚之不已，太宗乃收付廷尉，賜死。",
+        "note": "大明是劉駿年號，世祖為本書廟號。"
+      },
+      {
+        "id": "c-songshu-042-wanghong:line097:m0072",
+        "paragraph_id": "c-songshu-042-wanghong:line097",
+        "start": 72,
+        "end": 74,
+        "surface": "太宗",
+        "person_id": "cti_o52_4nz",
+        "referent_role": "third_person",
+        "quote": "弘從父弟練，晉中書令珉子也。元嘉中，歷顯官，侍中，度支尚書。練子釗，世祖大明中，亦經清職，黃門郎，臨海王子頊晉安王子勛征虜、前軍長史，左民尚書。太宗初，為司徒左長史。隨司徒建安王休仁出赭圻，時居母憂，加冠軍將軍。忤犯休仁，出為始興相。休仁恚之不已，太宗乃收付廷尉，賜死。",
+        "note": "太宗初承劉彧即位。"
+      },
+      {
+        "id": "c-songshu-042-wanghong:line097:m0097",
+        "paragraph_id": "c-songshu-042-wanghong:line097",
+        "start": 97,
+        "end": 98,
+        "surface": "母",
+        "person_id": "ea2_c2d_6fc",
+        "referent_role": "third_person",
+        "quote": "弘從父弟練，晉中書令珉子也。元嘉中，歷顯官，侍中，度支尚書。練子釗，世祖大明中，亦經清職，黃門郎，臨海王子頊晉安王子勛征虜、前軍長史，左民尚書。太宗初，為司徒左長史。隨司徒建安王休仁出赭圻，時居母憂，加冠軍將軍。忤犯休仁，出為始興相。休仁恚之不已，太宗乃收付廷尉，賜死。",
+        "note": "王釗隨建安王出赭圻時在其母喪中；母未記名字。"
+      },
+      {
+        "id": "c-songshu-042-wanghong:line097:m0124",
+        "paragraph_id": "c-songshu-042-wanghong:line097",
+        "start": 124,
+        "end": 126,
+        "surface": "太宗",
+        "person_id": "cti_o52_4nz",
+        "referent_role": "third_person",
+        "quote": "弘從父弟練，晉中書令珉子也。元嘉中，歷顯官，侍中，度支尚書。練子釗，世祖大明中，亦經清職，黃門郎，臨海王子頊晉安王子勛征虜、前軍長史，左民尚書。太宗初，為司徒左長史。隨司徒建安王休仁出赭圻，時居母憂，加冠軍將軍。忤犯休仁，出為始興相。休仁恚之不已，太宗乃收付廷尉，賜死。",
+        "note": "下令收王釗付廷尉並賜死的宋明帝劉彧。"
+      }
+    ],
+    "biography_source_reviews": {
+      "王錫附敘": "source-evidence/song042-wanghong-family/reading.json",
+      "王虞等附敘": "source-evidence/song042-wanghong-family/reading.json",
+      "王練與王釗附敘": "source-evidence/song042-wanglian-wangzhao/reading.json"
+    }
   },
   "paragraphs": [
     {
@@ -2350,7 +2412,7 @@
       "id": "c-songshu-042-wanghong:line093",
       "text": "子錫嗣。少以宰相子，起家為員外散騎，歷清職，中書郎，太子左衞率，江夏內史。高自位遇。太尉江夏王義恭當朝，錫箕踞大坐，殆無推敬。卒官。子僧亮嗣。齊受禪，降爵為侯，食邑五百戶。弘少子僧達，別有傳。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-042-wanghong:line093:m0001",
@@ -2418,7 +2480,7 @@
       "id": "c-songshu-042-wanghong:line095",
       "text": "弘弟虞，廷尉卿。虞子深，有美名，官至新安太守。虞弟抑，光祿大夫。抑弟孺，侍中。孺弟曇首，別有傳。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-042-wanghong:line095:m0000",
@@ -2522,7 +2584,7 @@
       "id": "c-songshu-042-wanghong:line097",
       "text": "弘從父弟練，晉中書令珉子也。元嘉中，歷顯官，侍中，度支尚書。練子釗，世祖大明中，亦經清職，黃門郎，臨海王子頊晉安王子勛征虜、前軍長史，左民尚書。太宗初，為司徒左長史。隨司徒建安王休仁出赭圻，時居母憂，加冠軍將軍。忤犯休仁，出為始興相。休仁恚之不已，太宗乃收付廷尉，賜死。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-042-wanghong:line097:m0000",
@@ -2570,15 +2632,6 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-songshu-042-wanghong:line097:m0034",
-          "start": 34,
-          "end": 36,
-          "surface": "世祖",
-          "kind": "person",
-          "person_id": "hx8_st4_jdd",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-songshu-042-wanghong:line097:m0049",
           "start": 49,
           "end": 54,
@@ -2597,30 +2650,12 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-songshu-042-wanghong:line097:m0072",
-          "start": 72,
-          "end": 74,
-          "surface": "太宗",
-          "kind": "person",
-          "person_id": "cti_o52_4nz",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-songshu-042-wanghong:line097:m0086",
           "start": 86,
           "end": 91,
           "surface": "建安王休仁",
           "kind": "person",
           "person_id": "n6r_wpb_2ov",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-songshu-042-wanghong:line097:m0097",
-          "start": 97,
-          "end": 98,
-          "surface": "母",
-          "kind": "person",
-          "person_id": "ea2_c2d_6fc",
           "status": "contextual_provisional"
         },
         {
@@ -2639,15 +2674,6 @@
           "surface": "休仁",
           "kind": "person",
           "person_id": "n6r_wpb_2ov",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-songshu-042-wanghong:line097:m0124",
-          "start": 124,
-          "end": 126,
-          "surface": "太宗",
-          "kind": "person",
-          "person_id": "cti_o52_4nz",
           "status": "contextual_provisional"
         }
       ],

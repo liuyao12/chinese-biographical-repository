@@ -6,9 +6,58 @@
   "identity_note": "固定晉書正文語境所載；比擬對象只作比擬，未知本名、父祖不補。",
   "review": "ai_provisional",
   "names": [
-    "虞"
+    "虞",
+    "休仲"
   ],
   "titles": [
+    {
+      "id": "th-nanshi021-wanghong-brothers-107-19",
+      "person_id": "7r6_k52_qji_ABAAAAB",
+      "title": "廷尉卿",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi021-wanghong-brothers-107-19:a",
+          "paragraph_id": "c-nanshi-021-wanghong-brothers:p001",
+          "start": 19,
+          "end": 22,
+          "surface": "廷尉卿",
+          "person_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0015",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wanghong-brothers",
+          "source_id": "s-nanshi-021-wanghong-brothers-ws1752646",
+          "paragraph_id": "c-nanshi-021-wanghong-brothers:p001",
+          "quote": "弘四弟：虞、柳、孺、曇首。虞字休仲，位廷尉卿。虞子深字景度，有美名，位新安太守。柳、孺事列於前，曇首別卷。",
+          "person_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-songwang7-42-95-4-55",
       "person_id": "7r6_k52_qji_ABAAAAB",
@@ -60,6 +109,68 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 21,
+      "category": "",
+      "title": "王弘四弟附敘",
+      "paragraph_id": "c-nanshi-021-wanghong-brothers:p001",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "弘四弟：虞、柳、孺、曇首。虞字休仲，位廷尉卿。虞子深字景度，有美名，位新安太守。柳、孺事列於前，曇首別卷。",
+      "paragraph_ids": [
+        "c-nanshi-021-wanghong-brothers:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-021-wanghong-brothers:p001:m0004",
+        "c-nanshi-021-wanghong-brothers:p001:m0013",
+        "c-nanshi-021-wanghong-brothers:p001:m0015",
+        "c-nanshi-021-wanghong-brothers:p001:m0023"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-021-wanghong-brothers:p001:m0004": "c-nanshi-021-wanghong-brothers:p001",
+        "c-nanshi-021-wanghong-brothers:p001:m0013": "c-nanshi-021-wanghong-brothers:p001",
+        "c-nanshi-021-wanghong-brothers:p001:m0015": "c-nanshi-021-wanghong-brothers:p001",
+        "c-nanshi-021-wanghong-brothers:p001:m0023": "c-nanshi-021-wanghong-brothers:p001"
+      },
+      "mention_id": "c-nanshi-021-wanghong-brothers:p001:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0004",
+          "mention_ids": [
+            "c-nanshi-021-wanghong-brothers:p001:m0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0013",
+          "mention_ids": [
+            "c-nanshi-021-wanghong-brothers:p001:m0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0015",
+          "mention_ids": [
+            "c-nanshi-021-wanghong-brothers:p001:m0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0023",
+          "mention_ids": [
+            "c-nanshi-021-wanghong-brothers:p001:m0023"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "chapter_id": "c-nanshi-021-wanghong-brothers",
+      "source_id": "s-nanshi-021-wanghong-brothers-ws1752646",
+      "work_title": "南史"
+    },
     {
       "number": 42,
       "category": "",
@@ -855,6 +966,35 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-021-wanghong-brothers",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "source_id": "s-nanshi-021-wanghong-brothers-ws1752646",
+      "source": {
+        "title": "南史卷二十一·王弘四弟附敘",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "revision_id": 1752646,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂1752646，武英殿本書影逐項參記。",
+        "extent": "王瞻及子長玄敘畢後，原段另以「弘四弟」為主，至「曇首別卷」；第109行另題王沖。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "原卷21第107行，首四字「弘四弟」及冒號。原段無題。",
+        "wikitext_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "raw_path": "sources/nanshi/nanshi021-ws1752646.wikitext",
+        "raw_file_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-songshu-042-wanghong",
       "work_id": "w-songshu",
       "book_id": "b-songshu-042",
@@ -1324,6 +1464,72 @@
       "model": null
     },
     {
+      "id": "a-nanshi021-wanghong-four-ABAAAAB",
+      "subject_person_id": "7r6_k52_qji_ABAAAAB",
+      "object_person_id": "7r6_k52_qji_ABAAAAA",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "弘四弟：虞、柳、孺、曇首",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAA",
+          "younger_person_id": "7r6_k52_qji_ABAAAAB",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wanghong-brothers",
+          "source_id": "s-nanshi-021-wanghong-brothers-ws1752646",
+          "paragraph_id": "c-nanshi-021-wanghong-brothers:p001",
+          "quote": "弘四弟：虞、柳、孺、曇首。虞字休仲，位廷尉卿。虞子深字景度，有美名，位新安太守。柳、孺事列於前，曇首別卷。",
+          "subject_person_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0004",
+          "object_person_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0000"
+        }
+      ],
+      "interpretation_note": "父系兄弟，由合列四弟得知均少於弘。兄弟間次序另見宋42，這句未逐一標長幼。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi021-wanghong-brothers-107-23",
+      "subject_person_id": "7r6_k52_qji_ABAAAABA",
+      "object_person_id": "7r6_k52_qji_ABAAAAB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "虞子深"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wanghong-brothers",
+          "source_id": "s-nanshi-021-wanghong-brothers-ws1752646",
+          "paragraph_id": "c-nanshi-021-wanghong-brothers:p001",
+          "quote": "弘四弟：虞、柳、孺、曇首。虞字休仲，位廷尉卿。虞子深字景度，有美名，位新安太守。柳、孺事列於前，曇首別卷。",
+          "subject_person_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0025",
+          "object_person_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0023",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wanghong-brothers:p001",
+            "start": 23,
+            "end": 26,
+            "surface": "虞子深"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-songshu042-phase5-004",
       "subject_person_id": "7r6_k52_qji_ABAAAABA",
       "predicate": "father",
@@ -1486,6 +1692,72 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-nanshi021-wanghong-four-ABAAAAB",
+      "subject_person_id": "7r6_k52_qji_ABAAAAB",
+      "object_person_id": "7r6_k52_qji_ABAAAAA",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "弘四弟：虞、柳、孺、曇首",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAA",
+          "younger_person_id": "7r6_k52_qji_ABAAAAB",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wanghong-brothers",
+          "source_id": "s-nanshi-021-wanghong-brothers-ws1752646",
+          "paragraph_id": "c-nanshi-021-wanghong-brothers:p001",
+          "quote": "弘四弟：虞、柳、孺、曇首。虞字休仲，位廷尉卿。虞子深字景度，有美名，位新安太守。柳、孺事列於前，曇首別卷。",
+          "subject_person_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0004",
+          "object_person_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0000"
+        }
+      ],
+      "interpretation_note": "父系兄弟，由合列四弟得知均少於弘。兄弟間次序另見宋42，這句未逐一標長幼。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi021-wanghong-brothers-107-23",
+      "subject_person_id": "7r6_k52_qji_ABAAAABA",
+      "object_person_id": "7r6_k52_qji_ABAAAAB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "虞子深"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wanghong-brothers",
+          "source_id": "s-nanshi-021-wanghong-brothers-ws1752646",
+          "paragraph_id": "c-nanshi-021-wanghong-brothers:p001",
+          "quote": "弘四弟：虞、柳、孺、曇首。虞字休仲，位廷尉卿。虞子深字景度，有美名，位新安太守。柳、孺事列於前，曇首別卷。",
+          "subject_person_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0025",
+          "object_person_mention_id": "c-nanshi-021-wanghong-brothers:p001:m0023",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wanghong-brothers:p001",
+            "start": 23,
+            "end": 26,
+            "surface": "虞子深"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-songshu042-phase5-004",

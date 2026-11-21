@@ -276,6 +276,60 @@
   ],
   "occurrences": [
     {
+      "number": 2,
+      "category": "",
+      "title": "世說新語·言語",
+      "paragraph_id": "c-shishuoxinyu-002-wangdao-relatives:jiangzuo",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "既出，懽然言曰：「江左自有管夷吾，此復何憂？」",
+      "paragraph_ids": [
+        "c-shishuoxinyu-002-wangdao-relatives:guan",
+        "c-shishuoxinyu-002-wangdao-relatives:jiangzuo"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-002-wangdao-relatives:jiangzuo:m0013",
+        "c-shishuoxinyu-002-wangdao-relatives:guan:m0000",
+        "c-shishuoxinyu-002-wangdao-relatives:guan:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-002-wangdao-relatives:jiangzuo:m0013": "c-shishuoxinyu-002-wangdao-relatives:jiangzuo",
+        "c-shishuoxinyu-002-wangdao-relatives:guan:m0000": "c-shishuoxinyu-002-wangdao-relatives:guan",
+        "c-shishuoxinyu-002-wangdao-relatives:guan:m0002": "c-shishuoxinyu-002-wangdao-relatives:guan"
+      },
+      "mention_id": "c-shishuoxinyu-002-wangdao-relatives:jiangzuo:m0013",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-002-wangdao-relatives:jiangzuo:m0013",
+          "mention_ids": [
+            "c-shishuoxinyu-002-wangdao-relatives:jiangzuo:m0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-002-wangdao-relatives:guan:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-002-wangdao-relatives:guan:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-002-wangdao-relatives:guan:m0002",
+          "mention_ids": [
+            "c-shishuoxinyu-002-wangdao-relatives:guan:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-002",
+      "chapter_id": "c-shishuoxinyu-002-wangdao-relatives",
+      "source_id": "s-shishuoxinyu-002-wangdao-relatives",
+      "work_title": "世說新語"
+    },
+    {
       "number": 4,
       "category": "benji",
       "title": "周本紀第四",
@@ -1170,21 +1224,24 @@
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
       "paragraph_id": "c-jinshu-065-wangdao-family:line016",
-      "count": 2,
-      "raw_count": 2,
+      "count": 3,
+      "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "使人乘釁，有虧至道。然否終斯泰，天道之常。大王方立命世之勳，一匡九合，管仲、樂毅，於是乎在，豈區區國臣所可擬議！願深弘神慮，廣擇良能。顧榮、賀循、紀贍、周圮皆南土之秀，願盡優禮，則天下安矣。」帝納焉。",
       "paragraph_ids": [
         "c-jinshu-065-wangdao-family:line016",
+        "c-jinshu-065-wangdao-family:line020",
         "c-jinshu-065-wangdao-family:line120"
       ],
       "mention_ids": [
         "c-jinshu-065-wangdao-family:line016:m0224",
+        "c-jinshu-065-wangdao-family:line020:m0082",
         "c-jinshu-065-wangdao-family:line120:m0336"
       ],
       "mention_paragraph_ids": {
         "c-jinshu-065-wangdao-family:line016:m0224": "c-jinshu-065-wangdao-family:line016",
+        "c-jinshu-065-wangdao-family:line020:m0082": "c-jinshu-065-wangdao-family:line020",
         "c-jinshu-065-wangdao-family:line120:m0336": "c-jinshu-065-wangdao-family:line120"
       },
       "mention_id": "c-jinshu-065-wangdao-family:line016:m0224",
@@ -1193,6 +1250,13 @@
           "canonical_mention_id": "c-jinshu-065-wangdao-family:line016:m0224",
           "mention_ids": [
             "c-jinshu-065-wangdao-family:line016:m0224"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-065-wangdao-family:line020:m0082",
+          "mention_ids": [
+            "c-jinshu-065-wangdao-family:line020:m0082"
           ],
           "kind": "paragraph"
         },
@@ -14852,6 +14916,29 @@
           "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
           "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-002-wangdao-relatives",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-002",
+      "source_id": "s-shishuoxinyu-002-wangdao-relatives",
+      "source": {
+        "title": "世說新語·言語",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "revision_id": 2567463,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位見證",
+        "extent": "與晉書王導家傳對讀之選段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文與維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin065-wang-descendants/external/shi-ws2567463.wikitext",
+        "raw_file_sha256": "d8497f787b468d3b7538bc5f842fad69c4e32905f58bab290f767b553166ee32"
       }
     },
     {

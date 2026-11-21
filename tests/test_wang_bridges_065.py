@@ -61,7 +61,7 @@ class WangBridges065(unittest.TestCase):
         proposals = self.c['annotation']['title_proposals']
         original_ids=['tp-jinshu065-wangqia-zhongshuling', 'tp-jinshu065-wangdao-87', 'tp-jinshu065-wangdao-93', 'tp-jinshu065-wangdao-97', 'tp-jinshu065-wangdao-102']
         self.assertEqual(len([p for p in proposals if p['id'] in original_ids]),5)
-        self.assertEqual({p['id']for p in proposals},set(original_ids)|{'tp-wangdao4-80-4','tp-wangdao4-110-6'})
+        self.assertEqual({p['id']for p in proposals},set(original_ids)|{'tp-wangdao4-80-4','tp-wangdao4-110-6','tp-jin065-wangdao-mindi-libu'})
         for p in proposals:
             self.assertEqual(title_proposal_errors(p, self.c, set(self.people.values())), [])
             if p['id'] in original_ids:

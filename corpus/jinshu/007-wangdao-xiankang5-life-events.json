@@ -1,0 +1,87 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-jinshu-007-wangdao-xiankang5",
+  "events": [
+    {
+      "id": "le-jin007-wangdao-xiankang5",
+      "person_id": "7r6_k52_qji_ABAA",
+      "event_type": "death",
+      "source_term": "王導薨",
+      "date_expression": "咸康五年",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-007-wangdao-xiankang5:p001",
+        "start": 30,
+        "end": 33,
+        "surface": "王導薨"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-007",
+          "chapter_id": "c-jinshu-007-wangdao-xiankang5",
+          "source_id": "s-jinshu-007-wangdao-xiankang5",
+          "paragraph_id": "c-jinshu-007-wangdao-xiankang5:p001",
+          "person_mention_id": "c-jinshu-007-wangdao-xiankang5:p001:m0030",
+          "quote": "咸康五年\n秋七月庚申，使持節、侍中、丞相、領揚州刺史、始興公王導薨。"
+        }
+      ],
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 339,
+        "year": 339,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "咸康五年",
+        "status": "editorial_provisional",
+        "original_quote": "咸康五年\n秋七月庚申，使持節、侍中、丞相、領揚州刺史、始興公王導薨。",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-007",
+            "chapter_id": "c-jinshu-007-wangdao-xiankang5",
+            "source_id": "s-jinshu-007-wangdao-xiankang5",
+            "paragraph_id": "c-jinshu-007-wangdao-xiankang5:p001",
+            "person_mention_id": "c-jinshu-007-wangdao-xiankang5:p001:m0030",
+            "quote": "咸康五年\n秋七月庚申，使持節、侍中、丞相、領揚州刺史、始興公王導薨。"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "咸康",
+            "columns": {
+              "dynasty": "東晉",
+              "era_name": "咸康",
+              "first_year": "335",
+              "last_year": "342"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-10-19",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "咸康",
+          "source_number": "五",
+          "regnal_year": 5,
+          "start_ce_year": 335,
+          "end_ce_year": 342,
+          "reference_index": 0
+        },
+        "rationale": "依原文年號與教育部起迄表換算中國曆年度；不補公曆月日，不從報齡倒出生。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "interpretation_note": "原載咸康五年秋七月庚申。月份干支存於本紀；不補西曆月日。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

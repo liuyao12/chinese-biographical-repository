@@ -10,7 +10,6 @@
     "敬和",
     "王洽",
     "王敬和",
-    "友臣",
     "領軍洽",
     "亡曽祖領軍",
     "弟",
@@ -431,6 +430,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-nanshi021-wanghong-15-25",
+      "person_id": "7r6_k52_qji_ABAAA",
+      "title": "中领军",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi021-wanghong-15-25:a",
+          "paragraph_id": "c-nanshi-021-wanghong:p001",
+          "start": 25,
+          "end": 28,
+          "surface": "中领军",
+          "person_mention_id": "c-nanshi-021-wanghong:p001:m0023",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wanghong",
+          "source_id": "s-nanshi-021-wanghong-ws1752646",
+          "paragraph_id": "c-nanshi-021-wanghong:p001",
+          "quote": "王弘，字休元，琅邪临沂人也。曾祖导，晋丞相，祖洽，中领军，父珣，司徒。",
+          "person_mention_id": "c-nanshi-021-wanghong:p001:m0023"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-songshu042-family-029",
       "person_id": "7r6_k52_qji_ABAAA",
       "title": "中領軍",
@@ -516,6 +563,85 @@
     }
   ],
   "occurrences": [
+    {
+      "number": 8,
+      "category": "",
+      "title": "世說新語·賞譽",
+      "paragraph_id": "c-shishuoxinyu-008-wangdao-source:zhongxing",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王洽字敬和，丞相導第三子，累遷吳郡內史，為士民所懷。徵拜中領軍，尋加中書令，不拜。年二十六而卒。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-008-wangdao-source:zhongxing"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-008-wangdao-source:zhongxing:m0000",
+        "c-shishuoxinyu-008-wangdao-source:zhongxing:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-008-wangdao-source:zhongxing:m0000": "c-shishuoxinyu-008-wangdao-source:zhongxing",
+        "c-shishuoxinyu-008-wangdao-source:zhongxing:m0003": "c-shishuoxinyu-008-wangdao-source:zhongxing"
+      },
+      "mention_id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-008-wangdao-source:zhongxing:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0003",
+          "mention_ids": [
+            "c-shishuoxinyu-008-wangdao-source:zhongxing:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-008",
+      "chapter_id": "c-shishuoxinyu-008-wangdao-source",
+      "source_id": "s-shishuoxinyu-008-wangdao-source",
+      "work_title": "世說新語"
+    },
+    {
+      "number": 21,
+      "category": "",
+      "title": "王弘傳",
+      "paragraph_id": "c-nanshi-021-wanghong:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王弘，字休元，琅邪临沂人也。曾祖导，晋丞相，祖洽，中领军，父珣，司徒。",
+      "paragraph_ids": [
+        "c-nanshi-021-wanghong:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-021-wanghong:p001:m0023"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-021-wanghong:p001:m0023": "c-nanshi-021-wanghong:p001"
+      },
+      "mention_id": "c-nanshi-021-wanghong:p001:m0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-021-wanghong:p001:m0023",
+          "mention_ids": [
+            "c-nanshi-021-wanghong:p001:m0023"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "chapter_id": "c-nanshi-021-wanghong",
+      "source_id": "s-nanshi-021-wanghong-ws1752646",
+      "work_title": "南史"
+    },
     {
       "number": 32,
       "category": "",
@@ -615,6 +741,41 @@
       "work_title": "南齊書"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "世說新語·惑溺",
+      "paragraph_id": "c-shishuoxinyu-035-wangdao-source:yulin",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "雷有寵，生恬、洽。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-035-wangdao-source:yulin"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-035-wangdao-source:yulin:m0007"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-035-wangdao-source:yulin:m0007": "c-shishuoxinyu-035-wangdao-source:yulin"
+      },
+      "mention_id": "c-shishuoxinyu-035-wangdao-source:yulin:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-035-wangdao-source:yulin:m0007",
+          "mention_ids": [
+            "c-shishuoxinyu-035-wangdao-source:yulin:m0007"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-035",
+      "chapter_id": "c-shishuoxinyu-035-wangdao-source",
+      "source_id": "s-shishuoxinyu-035-wangdao-source",
+      "work_title": "世說新語"
+    },
+    {
       "number": 42,
       "category": "",
       "title": "王弘完整傳主單元（含子弟附傳）",
@@ -654,8 +815,8 @@
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
       "paragraph_id": "c-jinshu-065-wangdao-family:p002",
-      "count": 6,
-      "raw_count": 6,
+      "count": 5,
+      "raw_count": 5,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "少與導俱知名，時人以穎方溫太真，以敞比鄧伯道，並早卒。導六子：悅、恬、洽、協、邵、薈。",
@@ -668,7 +829,6 @@
         "c-jinshu-065-wangdao-family:p003:m0000",
         "c-jinshu-065-wangdao-family:p003:m0002",
         "c-jinshu-065-wangdao-family:p003:m0078",
-        "c-jinshu-065-wangdao-family:p003:m0132",
         "c-jinshu-065-wangdao-family:p003:m0150"
       ],
       "mention_paragraph_ids": {
@@ -676,7 +836,6 @@
         "c-jinshu-065-wangdao-family:p003:m0000": "c-jinshu-065-wangdao-family:p003",
         "c-jinshu-065-wangdao-family:p003:m0002": "c-jinshu-065-wangdao-family:p003",
         "c-jinshu-065-wangdao-family:p003:m0078": "c-jinshu-065-wangdao-family:p003",
-        "c-jinshu-065-wangdao-family:p003:m0132": "c-jinshu-065-wangdao-family:p003",
         "c-jinshu-065-wangdao-family:p003:m0150": "c-jinshu-065-wangdao-family:p003"
       },
       "mention_id": "c-jinshu-065-wangdao-family:p002:m0042",
@@ -706,13 +865,6 @@
           "canonical_mention_id": "c-jinshu-065-wangdao-family:p003:m0078",
           "mention_ids": [
             "c-jinshu-065-wangdao-family:p003:m0078"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-065-wangdao-family:p003:m0132",
-          "mention_ids": [
-            "c-jinshu-065-wangdao-family:p003:m0132"
           ],
           "kind": "paragraph"
         },
@@ -4926,6 +5078,81 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-021-wanghong",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "source_id": "s-nanshi-021-wanghong-ws1752646",
+      "source": {
+        "title": "南史卷二十一·王弘傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "revision_id": 1752646,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂1752646，武英殿本書影逐項參記。",
+        "extent": "王弘本傳第15–35行十一原段；末子錫嗣，下一分題為弘子錫。數位傳首保留「临、导、晋、领、军」。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "==王弘==",
+        "wikitext_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "raw_path": "sources/nanshi/nanshi021-ws1752646.wikitext",
+        "raw_file_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-008-wangdao-source",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-008",
+      "source_id": "s-shishuoxinyu-008-wangdao-source",
+      "source": {
+        "title": "世說新語·賞譽",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1532652",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1532652",
+        "revision_id": 1532652,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位見證",
+        "extent": "與晉書卷六十五家支文句對讀的原文、古注節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文與維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin065-wang-children/external/shang-ws1532652.wikitext",
+        "raw_file_sha256": "e2ec15441d5cabbac9f4beea7a9f4f6c58db0a4e5537ff3ae0134c68bd8caa48"
+      }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-035-wangdao-source",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-035",
+      "source_id": "s-shishuoxinyu-035-wangdao-source",
+      "source": {
+        "title": "世說新語·惑溺",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1517702",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1517702",
+        "revision_id": 1517702,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位見證",
+        "extent": "與晉書卷六十五家支文句對讀的原文、古注節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文與維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin065-wang-children/external/huo-ws1517702.wikitext",
+        "raw_file_sha256": "aedb7f46712f240aa2ad2bb2c5266aefdf854f8ecab48deec859492e67600453"
+      }
+    },
+    {
       "chapter_id": "c-songshu-042-wanghong",
       "work_id": "w-songshu",
       "book_id": "b-songshu-042",
@@ -5497,6 +5724,93 @@
       "model": null
     },
     {
+      "id": "a-nanshi021-wanghong-15-22",
+      "subject_person_id": "7r6_k52_qji_ABAAAAA",
+      "object_person_id": "7r6_k52_qji_ABAAA",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖洽",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wanghong",
+          "source_id": "s-nanshi-021-wanghong-ws1752646",
+          "paragraph_id": "c-nanshi-021-wanghong:p001",
+          "quote": "王弘，字休元，琅邪临沂人也。曾祖导，晋丞相，祖洽，中领军，父珣，司徒。",
+          "subject_person_mention_id": "c-nanshi-021-wanghong:p001:m0004",
+          "object_person_mention_id": "c-nanshi-021-wanghong:p001:m0023",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wanghong:p001",
+            "start": 22,
+            "end": 24,
+            "surface": "祖洽"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-ssxy-wang-wangqia",
+      "subject_person_id": "7r6_k52_qji_ABAAA",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAA",
+      "qualifiers": {
+        "source_term": "第三子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-008",
+          "source_id": "s-shishuoxinyu-008-wangdao-source",
+          "chapter_id": "c-shishuoxinyu-008-wangdao-source",
+          "paragraph_id": "c-shishuoxinyu-008-wangdao-source:zhongxing",
+          "quote": "王洽字敬和，丞相導第三子，累遷吳郡內史，為士民所懷。徵拜中領軍，尋加中書令，不拜。年二十六而卒。",
+          "subject_person_mention_id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0008"
+        }
+      ],
+      "interpretation_note": "劉注所引中興書明記為王導第三子。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-ssxy-wang-lei-洽",
+      "subject_person_id": "7r6_k52_qji_ABAAA",
+      "predicate": "mother",
+      "object_person_id": "wv1_vsj_6xy",
+      "qualifiers": {
+        "source_term": "生恬、洽",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-035",
+          "source_id": "s-shishuoxinyu-035-wangdao-source",
+          "chapter_id": "c-shishuoxinyu-035-wangdao-source",
+          "paragraph_id": "c-shishuoxinyu-035-wangdao-source:yulin",
+          "quote": "雷有寵，生恬、洽。",
+          "subject_person_mention_id": "c-shishuoxinyu-035-wangdao-source:yulin:m0007",
+          "object_person_mention_id": "c-shishuoxinyu-035-wangdao-source:yulin:m0000"
+        }
+      ],
+      "interpretation_note": "劉注引語林明載雷生恬、洽。雷尚書是蔡公所稱，非實官。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-songshu042-family-002",
       "subject_person_id": "7r6_k52_qji_ABAAAAA",
       "predicate": "grandfather",
@@ -5528,7 +5842,8 @@
     "7r6_k52_qji_ABAAAA": "王珣",
     "7r6_k52_qji_ABAAAAA": "王弘",
     "7r6_k52_qji_ABAAAAEB": "王僧虔",
-    "7r6_k52_qji_ABAAAB": "王瑉"
+    "7r6_k52_qji_ABAAAB": "王瑉",
+    "wv1_vsj_6xy": "雷氏（王導妾）"
   },
   "dates": [
     {
@@ -5759,6 +6074,38 @@
       ]
     }
   ],
+  "person_references": [
+    {
+      "id": "c-jinshu-065-wangdao-family:p003:m0132",
+      "paragraph_id": "c-jinshu-065-wangdao-family:p003",
+      "start": 132,
+      "end": 134,
+      "surface": "友臣",
+      "person_id": "7r6_k52_qji_ABAAA",
+      "referent_role": "third_person",
+      "note": "穆帝希望以友臣之義接待洽。",
+      "quote": "待以友臣之義",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "book_id": "b-jinshu-065",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-065-wangdao-family"
+    },
+    {
+      "id": "c-jinshu-065-wangdao-family:p003:r0103",
+      "paragraph_id": "c-jinshu-065-wangdao-family:p003",
+      "start": 103,
+      "end": 104,
+      "surface": "之",
+      "person_id": "7r6_k52_qji_ABAAA",
+      "referent_role": "third_person",
+      "note": "穆帝追記幼時多次召見王洽。",
+      "quote": "數呼見，意甚親之",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "book_id": "b-jinshu-065",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-065-wangdao-family"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABAAA"
   ],
@@ -5891,6 +6238,93 @@
       "model": null
     },
     {
+      "id": "a-nanshi021-wanghong-15-22",
+      "subject_person_id": "7r6_k52_qji_ABAAAAA",
+      "object_person_id": "7r6_k52_qji_ABAAA",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "祖洽",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wanghong",
+          "source_id": "s-nanshi-021-wanghong-ws1752646",
+          "paragraph_id": "c-nanshi-021-wanghong:p001",
+          "quote": "王弘，字休元，琅邪临沂人也。曾祖导，晋丞相，祖洽，中领军，父珣，司徒。",
+          "subject_person_mention_id": "c-nanshi-021-wanghong:p001:m0004",
+          "object_person_mention_id": "c-nanshi-021-wanghong:p001:m0023",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wanghong:p001",
+            "start": 22,
+            "end": 24,
+            "surface": "祖洽"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-ssxy-wang-wangqia",
+      "subject_person_id": "7r6_k52_qji_ABAAA",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAA",
+      "qualifiers": {
+        "source_term": "第三子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-008",
+          "source_id": "s-shishuoxinyu-008-wangdao-source",
+          "chapter_id": "c-shishuoxinyu-008-wangdao-source",
+          "paragraph_id": "c-shishuoxinyu-008-wangdao-source:zhongxing",
+          "quote": "王洽字敬和，丞相導第三子，累遷吳郡內史，為士民所懷。徵拜中領軍，尋加中書令，不拜。年二十六而卒。",
+          "subject_person_mention_id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0008"
+        }
+      ],
+      "interpretation_note": "劉注所引中興書明記為王導第三子。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-ssxy-wang-lei-洽",
+      "subject_person_id": "7r6_k52_qji_ABAAA",
+      "predicate": "mother",
+      "object_person_id": "wv1_vsj_6xy",
+      "qualifiers": {
+        "source_term": "生恬、洽",
+        "lineage": "maternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-035",
+          "source_id": "s-shishuoxinyu-035-wangdao-source",
+          "chapter_id": "c-shishuoxinyu-035-wangdao-source",
+          "paragraph_id": "c-shishuoxinyu-035-wangdao-source:yulin",
+          "quote": "雷有寵，生恬、洽。",
+          "subject_person_mention_id": "c-shishuoxinyu-035-wangdao-source:yulin:m0007",
+          "object_person_mention_id": "c-shishuoxinyu-035-wangdao-source:yulin:m0000"
+        }
+      ],
+      "interpretation_note": "劉注引語林明載雷生恬、洽。雷尚書是蔡公所稱，非實官。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-songshu042-family-002",
       "subject_person_id": "7r6_k52_qji_ABAAAAA",
       "predicate": "grandfather",
@@ -6009,6 +6443,32 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "age-wang65-ext-qia26",
+      "person_id": "7r6_k52_qji_ABAAA",
+      "value": 26,
+      "source_number": "二十六",
+      "source_term": "年二十六",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-008",
+          "source_id": "s-shishuoxinyu-008-wangdao-source",
+          "chapter_id": "c-shishuoxinyu-008-wangdao-source",
+          "paragraph_id": "c-shishuoxinyu-008-wangdao-source:zhongxing",
+          "person_mention_id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0000",
+          "quote": "王洽字敬和，丞相導第三子，累遷吳郡內史，為士民所懷。徵拜中領軍，尋加中書令，不拜。年二十六而卒。"
+        }
+      ],
+      "interpretation_note": "此見證的報齡，與其他見證分存。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "life_events": [
@@ -6084,6 +6544,29 @@
       "source_term": "卒於官",
       "interpretation_note": "雖云卒於官，前文中書令明言不受，不能記卒於中書令或讓全部前任職於此年結束。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-ssxy-wangqia",
+      "person_id": "7r6_k52_qji_ABAAA",
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-008",
+          "source_id": "s-shishuoxinyu-008-wangdao-source",
+          "chapter_id": "c-shishuoxinyu-008-wangdao-source",
+          "paragraph_id": "c-shishuoxinyu-008-wangdao-source:zhongxing",
+          "person_mention_id": "c-shishuoxinyu-008-wangdao-source:zhongxing:m0000",
+          "quote": "王洽字敬和，丞相導第三子，累遷吳郡內史，為士民所懷。徵拜中領軍，尋加中書令，不拜。年二十六而卒。"
+        }
+      ],
+      "interpretation_note": "劉注引中興書記卒及二十六歲，未載年日。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }
