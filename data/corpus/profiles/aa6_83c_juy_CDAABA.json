@@ -59,6 +59,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-liang050-jiqing-intro-26-wyd",
+      "person_id": "aa6_83c_juy_CDAABA",
+      "title": "黃門郎",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "attestations": [
+        {
+          "id": "th-liang050-jiqing-intro-26-wyd:a1",
+          "paragraph_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001",
+          "start": 21,
+          "end": 24,
+          "surface": "黃門郎",
+          "person_mention_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001:m0018",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-050",
+          "chapter_id": "c-liangshu-050-xiejiqing-family-intro-wyd",
+          "source_id": "s-liangshu-050-jiqing-wyd1739",
+          "paragraph_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001",
+          "quote": "謝幾卿陳郡陽夏人曾祖靈運宋臨川內史父超宗齊黃門郎並有重名於前代",
+          "person_mention_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001:m0018"
+        }
+      ],
+      "interpretation_note": "傳首明列先人官職及朝代，任期未詳。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-qi036-chao-1",
       "person_id": "aa6_83c_juy_CDAABA",
       "title": "奉朝請",
@@ -3450,21 +3498,80 @@
     {
       "number": 50,
       "category": "",
-      "title": "謝幾卿傳首",
+      "title": "謝幾卿傳（乾隆武英殿本）",
+      "paragraph_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "謝幾卿陳郡陽夏人曾祖靈運宋臨川內史父超宗齊黃門郎並有重名於前代",
+      "paragraph_ids": [
+        "c-liangshu-050-xiejiqing-family-intro-wyd:p001",
+        "c-liangshu-050-xiejiqing-family-intro-wyd:p002"
+      ],
+      "mention_ids": [
+        "c-liangshu-050-xiejiqing-family-intro-wyd:p001:m0018",
+        "c-liangshu-050-xiejiqing-family-intro-wyd:p002:m0012",
+        "c-liangshu-050-xiejiqing-family-intro-wyd:p002:m0111"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-050-xiejiqing-family-intro-wyd:p001:m0018": "c-liangshu-050-xiejiqing-family-intro-wyd:p001",
+        "c-liangshu-050-xiejiqing-family-intro-wyd:p002:m0012": "c-liangshu-050-xiejiqing-family-intro-wyd:p002",
+        "c-liangshu-050-xiejiqing-family-intro-wyd:p002:m0111": "c-liangshu-050-xiejiqing-family-intro-wyd:p002"
+      },
+      "mention_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001:m0018",
+          "mention_ids": [
+            "c-liangshu-050-xiejiqing-family-intro-wyd:p001:m0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p002:m0012",
+          "mention_ids": [
+            "c-liangshu-050-xiejiqing-family-intro-wyd:p002:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p002:m0111",
+          "mention_ids": [
+            "c-liangshu-050-xiejiqing-family-intro-wyd:p002:m0111"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-050",
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro-wyd",
+      "source_id": "s-liangshu-050-jiqing-wyd1739",
+      "work_title": "梁書"
+    },
+    {
+      "number": 50,
+      "category": "",
+      "title": "謝幾卿傳",
       "paragraph_id": "c-liangshu-050-xiejiqing-family-intro:p001",
-      "count": 1,
-      "raw_count": 1,
+      "count": 3,
+      "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "謝幾卿，陳郡陽夏人。曾祖靈運，宋臨川內史；父超宗，齊黃門郎；並有重名於前代。",
       "paragraph_ids": [
-        "c-liangshu-050-xiejiqing-family-intro:p001"
+        "c-liangshu-050-xiejiqing-family-intro:p001",
+        "c-liangshu-050-xiejiqing-family-intro:p002"
       ],
       "mention_ids": [
-        "c-liangshu-050-xiejiqing-family-intro:p001:m0022"
+        "c-liangshu-050-xiejiqing-family-intro:p001:m0022",
+        "c-liangshu-050-xiejiqing-family-intro:p002:m0014",
+        "c-liangshu-050-xiejiqing-family-intro:p002:m0135"
       ],
       "mention_paragraph_ids": {
-        "c-liangshu-050-xiejiqing-family-intro:p001:m0022": "c-liangshu-050-xiejiqing-family-intro:p001"
+        "c-liangshu-050-xiejiqing-family-intro:p001:m0022": "c-liangshu-050-xiejiqing-family-intro:p001",
+        "c-liangshu-050-xiejiqing-family-intro:p002:m0014": "c-liangshu-050-xiejiqing-family-intro:p002",
+        "c-liangshu-050-xiejiqing-family-intro:p002:m0135": "c-liangshu-050-xiejiqing-family-intro:p002"
       },
       "mention_id": "c-liangshu-050-xiejiqing-family-intro:p001:m0022",
       "occurrence_groups": [
@@ -3472,6 +3579,20 @@
           "canonical_mention_id": "c-liangshu-050-xiejiqing-family-intro:p001:m0022",
           "mention_ids": [
             "c-liangshu-050-xiejiqing-family-intro:p001:m0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-050-xiejiqing-family-intro:p002:m0014",
+          "mention_ids": [
+            "c-liangshu-050-xiejiqing-family-intro:p002:m0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-050-xiejiqing-family-intro:p002:m0135",
+          "mention_ids": [
+            "c-liangshu-050-xiejiqing-family-intro:p002:m0135"
           ],
           "kind": "paragraph"
         }
@@ -3491,15 +3612,15 @@
       "book_id": "b-liangshu-050",
       "source_id": "s-liangshu-050-xiejiqing-family-intro-ws1514482",
       "source": {
-        "title": "梁書卷50·謝幾卿傳首",
+        "title": "梁書卷五十謝幾卿傳",
         "provider": "Wikisource",
         "url": "https://zh.wikisource.org/w/index.php?title=梁書/卷50&oldid=1514482",
         "permalink": "https://zh.wikisource.org/w/index.php?title=梁書/卷50&oldid=1514482",
         "revision_id": 1514482,
         "accessed_on": "2026-11-20",
         "edition": "維基文庫固定數位轉錄。所據數位底本另待校。",
-        "extent": "第41行「謝幾卿，陳郡陽夏人」至「；並有重名於前代。」。傳首選段，傳後逐段另核。",
-        "text_scope": "partial_chapter",
+        "extent": "固定修訂第41至51行，全傳。",
+        "text_scope": "complete_biography_unit",
         "image_verified": false,
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -3509,7 +3630,34 @@
         "raw_file_sha256": "46f17adb85a40252096bb10bb6b90ba40178ae6da293368629eded0273320cf8",
         "normalization": {
           "character_conversion": {},
-          "extraction_note": "移除單字不轉換界符及版面縮排，保留原字與標點。"
+          "extraction_note": "去行首全形縮排，展開年號及書名模板；保留原字、原標點與每字來源位置。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro-wyd",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-050",
+      "source_id": "s-liangshu-050-jiqing-wyd1739",
+      "source": {
+        "title": "武英殿本《梁書》卷五十謝幾卿傳",
+        "provider": "中國國家圖書館藏乾隆四年武英殿刊本，Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/NLC892-411999017142-12780_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC169%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=703777627",
+        "revision_id": "cbr-ai-transcription-sha256:fe27f7f79551ac89948ed19bb99252ef8e05cc5b72cd62907e1d87c4b78e3227",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/liang050-jiqing-wyd/wyd-columns.txt",
+        "raw_file_sha256": "fe27f7f79551ac89948ed19bb99252ef8e05cc5b72cd62907e1d87c4b78e3227",
+        "edition": "乾隆四年武英殿刊《二十四史》第169冊",
+        "extent": "八上第七欄至十上第九欄（PDF 第57至59面）",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12780_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC169%E5%86%8A.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "據書影從右至左逐欄錄字，段界沿用同篇數位本以便對讀。二處小字「缺」照錄並標出位置。"
         }
       }
     },
@@ -3761,6 +3909,33 @@
           "quote": "謝幾卿，陳郡陽夏人。曾祖靈運，宋臨川內史；父超宗，齊黃門郎；並有重名於前代。",
           "subject_person_mention_id": "c-liangshu-050-xiejiqing-family-intro:p001:m0000",
           "object_person_mention_id": "c-liangshu-050-xiejiqing-family-intro:p001:m0022"
+        }
+      ],
+      "interpretation_note": "傳首明列父超宗。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liangshu-050-xiejiqing-family-intro-father-m0000-m0022-wyd",
+      "subject_person_id": "aa6_83c_juy_CDAABAB",
+      "object_person_id": "aa6_83c_juy_CDAABA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父超宗",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-050",
+          "chapter_id": "c-liangshu-050-xiejiqing-family-intro-wyd",
+          "source_id": "s-liangshu-050-jiqing-wyd1739",
+          "paragraph_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001",
+          "quote": "謝幾卿陳郡陽夏人曾祖靈運宋臨川內史父超宗齊黃門郎並有重名於前代",
+          "subject_person_mention_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001:m0000",
+          "object_person_mention_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001:m0018"
         }
       ],
       "interpretation_note": "傳首明列父超宗。",
@@ -4090,6 +4265,102 @@
   "dates": [],
   "name_components": [],
   "source_reading_cases": [
+    {
+      "id": "c-liangshu-050-xiejiqing-family-intro-wyd-comparison-1",
+      "kind": "primary_source_comparison",
+      "person_id": "aa6_83c_juy_CDAABA",
+      "source_quote": "父超宗",
+      "reading": "祖靈運，宋臨川內史。父鳳",
+      "reference": "南齊書卷三十六",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1492438",
+      "paragraph_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001",
+      "start_codepoint": 17,
+      "end_codepoint": 20,
+      "human_reviewed": false,
+      "note": "超宗本傳見上兩代祖父靈運、父鳳。",
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro-wyd",
+      "source_id": "s-liangshu-050-jiqing-wyd1739"
+    },
+    {
+      "id": "c-liangshu-050-xiejiqing-family-intro-wyd-comparison-5",
+      "kind": "primary_source_comparison",
+      "person_id": "aa6_83c_juy_CDAABA",
+      "source_quote": "徙越州",
+      "reading": "詔徙越州，行至豫章",
+      "reference": "南齊書卷三十六",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1492438",
+      "paragraph_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p002",
+      "start_codepoint": 16,
+      "end_codepoint": 19,
+      "human_reviewed": false,
+      "note": "同作越州，另敘至豫章賜盡。",
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro-wyd",
+      "source_id": "s-liangshu-050-jiqing-wyd1739"
+    },
+    {
+      "id": "c-liangshu-050-xiejiqing-family-intro-wyd-comparison-6",
+      "kind": "primary_source_comparison",
+      "person_id": "aa6_83c_juy_CDAABA",
+      "source_quote": "徙越州",
+      "reading": "超宗徙越嶲",
+      "reference": "南史卷十九",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1531762",
+      "paragraph_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p002",
+      "start_codepoint": 16,
+      "end_codepoint": 19,
+      "human_reviewed": false,
+      "note": "南史作越嶲。",
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro-wyd",
+      "source_id": "s-liangshu-050-jiqing-wyd1739"
+    },
+    {
+      "id": "c-liangshu-050-xiejiqing-family-intro-comparison-1",
+      "kind": "primary_source_comparison",
+      "person_id": "aa6_83c_juy_CDAABA",
+      "source_quote": "父超宗",
+      "reading": "祖靈運，宋臨川內史。父鳳",
+      "reference": "南齊書卷三十六",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1492438",
+      "paragraph_id": "c-liangshu-050-xiejiqing-family-intro:p001",
+      "start_codepoint": 21,
+      "end_codepoint": 24,
+      "human_reviewed": false,
+      "note": "超宗本傳見上兩代祖父靈運、父鳳。",
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro",
+      "source_id": "s-liangshu-050-xiejiqing-family-intro-ws1514482"
+    },
+    {
+      "id": "c-liangshu-050-xiejiqing-family-intro-comparison-5",
+      "kind": "primary_source_comparison",
+      "person_id": "aa6_83c_juy_CDAABA",
+      "source_quote": "徙越州",
+      "reading": "詔徙越州，行至豫章",
+      "reference": "南齊書卷三十六",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1492438",
+      "paragraph_id": "c-liangshu-050-xiejiqing-family-intro:p002",
+      "start_codepoint": 18,
+      "end_codepoint": 21,
+      "human_reviewed": false,
+      "note": "同作越州，另敘至豫章賜盡。",
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro",
+      "source_id": "s-liangshu-050-xiejiqing-family-intro-ws1514482"
+    },
+    {
+      "id": "c-liangshu-050-xiejiqing-family-intro-comparison-6",
+      "kind": "primary_source_comparison",
+      "person_id": "aa6_83c_juy_CDAABA",
+      "source_quote": "徙越州",
+      "reading": "超宗徙越嶲",
+      "reference": "南史卷十九",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1531762",
+      "paragraph_id": "c-liangshu-050-xiejiqing-family-intro:p002",
+      "start_codepoint": 18,
+      "end_codepoint": 21,
+      "human_reviewed": false,
+      "note": "南史作越嶲。",
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro",
+      "source_id": "s-liangshu-050-xiejiqing-family-intro-ws1514482"
+    },
     {
       "id": "c-nanqishu-036-xiechaozong-wyd-comparison-5",
       "kind": "primary_source_comparison",
@@ -4428,6 +4699,66 @@
     }
   ],
   "person_references": [
+    {
+      "id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001:r0017",
+      "start": 17,
+      "end": 18,
+      "surface": "父",
+      "person_id": "aa6_83c_juy_CDAABA",
+      "paragraph_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001",
+      "quote": "父超宗",
+      "referent_role": "third_person",
+      "note": "父名見字後。",
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro-wyd",
+      "book_id": "b-liangshu-050",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-050-jiqing-wyd1739"
+    },
+    {
+      "id": "c-liangshu-050-xiejiqing-family-intro-wyd:p002:r0045",
+      "start": 45,
+      "end": 46,
+      "surface": "父",
+      "person_id": "aa6_83c_juy_CDAABA",
+      "paragraph_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p002",
+      "quote": "及居父憂",
+      "referent_role": "third_person",
+      "note": "幾卿為父超宗服喪。",
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro-wyd",
+      "book_id": "b-liangshu-050",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-050-jiqing-wyd1739"
+    },
+    {
+      "id": "c-liangshu-050-xiejiqing-family-intro:p001:r0021",
+      "start": 21,
+      "end": 22,
+      "surface": "父",
+      "person_id": "aa6_83c_juy_CDAABA",
+      "paragraph_id": "c-liangshu-050-xiejiqing-family-intro:p001",
+      "quote": "父超宗",
+      "referent_role": "third_person",
+      "note": "父名見字後。",
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro",
+      "book_id": "b-liangshu-050",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-050-xiejiqing-family-intro-ws1514482"
+    },
+    {
+      "id": "c-liangshu-050-xiejiqing-family-intro:p002:r0053",
+      "start": 53,
+      "end": 54,
+      "surface": "父",
+      "person_id": "aa6_83c_juy_CDAABA",
+      "paragraph_id": "c-liangshu-050-xiejiqing-family-intro:p002",
+      "quote": "及居父憂",
+      "referent_role": "third_person",
+      "note": "幾卿為父超宗服喪。",
+      "chapter_id": "c-liangshu-050-xiejiqing-family-intro",
+      "book_id": "b-liangshu-050",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-050-xiejiqing-family-intro-ws1514482"
+    },
     {
       "id": "c-nanqishu-036-xiechaozong-wyd:p004:r0056",
       "start": 56,
@@ -4843,6 +5174,33 @@
           "quote": "謝幾卿，陳郡陽夏人。曾祖靈運，宋臨川內史；父超宗，齊黃門郎；並有重名於前代。",
           "subject_person_mention_id": "c-liangshu-050-xiejiqing-family-intro:p001:m0000",
           "object_person_mention_id": "c-liangshu-050-xiejiqing-family-intro:p001:m0022"
+        }
+      ],
+      "interpretation_note": "傳首明列父超宗。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liangshu-050-xiejiqing-family-intro-father-m0000-m0022-wyd",
+      "subject_person_id": "aa6_83c_juy_CDAABAB",
+      "object_person_id": "aa6_83c_juy_CDAABA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父超宗",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-050",
+          "chapter_id": "c-liangshu-050-xiejiqing-family-intro-wyd",
+          "source_id": "s-liangshu-050-jiqing-wyd1739",
+          "paragraph_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001",
+          "quote": "謝幾卿陳郡陽夏人曾祖靈運宋臨川內史父超宗齊黃門郎並有重名於前代",
+          "subject_person_mention_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001:m0000",
+          "object_person_mention_id": "c-liangshu-050-xiejiqing-family-intro-wyd:p001:m0018"
         }
       ],
       "interpretation_note": "傳首明列父超宗。",

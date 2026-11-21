@@ -84,7 +84,9 @@ class XieRoots079(unittest.TestCase):
         self.assertNotIn(self.people['王氏（謝朗母）'], self.rows)
 
     def test_two_generations_of_uncles_keep_distinct_persons_and_source_anchors(self):
-        uncles = [a for a in self.rels if a['predicate'] == 'maternal_uncle']
+        subjects = {self.people['謝絢'], self.people['謝重']}
+        uncles = [a for a in self.rels
+                  if a['predicate'] == 'maternal_uncle' and a['subject_person_id'] in subjects]
         self.assertEqual({(a['subject_person_id'], a['object_person_id']) for a in uncles},
                          {(self.people['謝絢'], self.people['袁湛']),
                           (self.people['謝重'], self.people['謝重之舅（未名）'])})

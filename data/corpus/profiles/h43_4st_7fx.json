@@ -13,6 +13,60 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 4,
+      "category": "",
+      "title": "三少帝紀咸熙元年及裴注漢晉春秋所載王祥見晉王",
+      "paragraph_id": "c-sanguozhi-004-jin033-wangxiang:promotion",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "三月丁丑，以司空王祥為太尉，征北將軍何曾為司徒，尚書左僕射荀顗為司空。己卯，進晉公爵為王，封十郡，并前二十。",
+      "paragraph_ids": [
+        "c-sanguozhi-004-jin033-wangxiang:meeting",
+        "c-sanguozhi-004-jin033-wangxiang:promotion"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-004-jin033-wangxiang:promotion:m0018",
+        "c-sanguozhi-004-jin033-wangxiang:meeting:m0015",
+        "c-sanguozhi-004-jin033-wangxiang:meeting:m0035"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-004-jin033-wangxiang:promotion:m0018": "c-sanguozhi-004-jin033-wangxiang:promotion",
+        "c-sanguozhi-004-jin033-wangxiang:meeting:m0015": "c-sanguozhi-004-jin033-wangxiang:meeting",
+        "c-sanguozhi-004-jin033-wangxiang:meeting:m0035": "c-sanguozhi-004-jin033-wangxiang:meeting"
+      },
+      "mention_id": "c-sanguozhi-004-jin033-wangxiang:promotion:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-004-jin033-wangxiang:promotion:m0018",
+          "mention_ids": [
+            "c-sanguozhi-004-jin033-wangxiang:promotion:m0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-004-jin033-wangxiang:meeting:m0015",
+          "mention_ids": [
+            "c-sanguozhi-004-jin033-wangxiang:meeting:m0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-004-jin033-wangxiang:meeting:m0035",
+          "mention_ids": [
+            "c-sanguozhi-004-jin033-wangxiang:meeting:m0035"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-004",
+      "chapter_id": "c-sanguozhi-004-jin033-wangxiang",
+      "source_id": "s-sanguozhi-004-jin033-wangxiang",
+      "work_title": "三國志"
+    },
+    {
       "number": 33,
       "category": "",
       "title": "王祥、王覽本傳",
@@ -185,8 +239,34 @@
           "completion_appendix": "同固定修訂2650519補入原始行20–35八段；原八段全文、ID與mentions全值保留。原字漢未、乙太保、Я脯等不靜改。"
         },
         "collation_witnesses": [
-          "source-evidence/jin033-wang-family-children/reading.json"
+          "source-evidence/jin033-wang-family-children/reading.json",
+          "source-evidence/jin033-wanglan/reading.json",
+          "source-evidence/jin033-wangxiang/reading.json"
         ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-004-jin033-wangxiang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-004",
+      "source_id": "s-sanguozhi-004-jin033-wangxiang",
+      "source": {
+        "title": "三國志三少帝紀",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=8746774",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=8746774",
+        "revision_id": 8746774,
+        "accessed_on": "2026-10-18",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "b7d193dc3fadd4d04f4fb892ba2e6b308bff1bf2053585f7af296ffc9c4f5bab",
+        "raw_path": "source-evidence/jin033-wangxiang/external/sg4-ws8746774.wikitext",
+        "raw_file_sha256": "b7d193dc3fadd4d04f4fb892ba2e6b308bff1bf2053585f7af296ffc9c4f5bab"
       }
     }
   ],

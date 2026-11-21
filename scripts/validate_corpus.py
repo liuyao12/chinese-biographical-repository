@@ -571,7 +571,22 @@ def _validate_uncached(root=ROOT):
             except ImportError:
                 from qi036_xiechaozong import errors as qi36_chao_errors
             errors.extend(qi36_chao_errors(d, root))
+            try: from scripts.liang050_xie_witnesses import errors as liang50_xie_errors
+            except ImportError: from liang050_xie_witnesses import errors as liang50_xie_errors
+            errors.extend(liang50_xie_errors(d, root))
             errors.extend(vyd71_source_errors(d, root))
+            try: from scripts.song052_xiejingren import errors as xiejingren52_errors
+            except ImportError: from song052_xiejingren import errors as xiejingren52_errors
+            errors.extend(xiejingren52_errors(d,root))
+            try: from scripts.song052_xiechun import errors as chun52_errors
+            except ImportError: from song052_xiechun import errors as chun52_errors
+            errors.extend(chun52_errors(d,root))
+            try: from scripts.liang021_wangjiansihui import errors as sih21_errors
+            except ImportError: from liang021_wangjiansihui import errors as sih21_errors
+            errors.extend(sih21_errors(d,root))
+            try: from scripts.liang021_wangxun import errors as xun21_errors
+            except ImportError: from liang021_wangxun import errors as xun21_errors
+            errors.extend(xun21_errors(d,root))
             try: from scripts.liang021_wangfen_family import errors as wf21_errors
             except ImportError: from liang021_wangfen_family import errors as wf21_errors
             errors.extend(wf21_errors(d,root))
@@ -1155,6 +1170,22 @@ def _validate_uncached(root=ROOT):
                 try: from scripts.liang021_wangfen_family import side_errors as wf21_side_errors
                 except ImportError: from liang021_wangfen_family import side_errors as wf21_side_errors
                 errors.extend(wf21_side_errors(d,chapters[d['chapter_id']],root,'holdings'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.liang021_wangxun import side_errors as xun21_side_errors
+                except ImportError: from liang021_wangxun import side_errors as xun21_side_errors
+                errors.extend(xun21_side_errors(d,chapters[d['chapter_id']],root,'holdings'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.liang021_wangjiansihui import side_errors as sih21_side_errors
+                except ImportError: from liang021_wangjiansihui import side_errors as sih21_side_errors
+                errors.extend(sih21_side_errors(d,chapters[d['chapter_id']],root,'holdings'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.song052_xiechun import side_errors as chun52_side_errors
+                except ImportError: from song052_xiechun import side_errors as chun52_side_errors
+                errors.extend(chun52_side_errors(d,chapters[d['chapter_id']],root,'holdings'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.song052_xiejingren import side_errors as xiejingren52_side_errors
+                except ImportError: from song052_xiejingren import side_errors as xiejingren52_side_errors
+                errors.extend(xiejingren52_side_errors(d,chapters[d['chapter_id']],root,'holdings'))
             for h in d['holdings']:
                 check(h['id'] not in title_ids,'稱號持有 ID 重複');title_ids.add(h['id'])
                 check(h['person_id'] in pids and bool(h['title']),'稱號持有人或用稱無效')
@@ -1433,6 +1464,14 @@ def _validate_uncached(root=ROOT):
                                and basis['death_term']=='卒' and basis['grant_term']=='贈'+h['title']
                                and basis['source_term'] in h['evidence'][0]['quote']
                                and basis['evidence']==h['evidence']==h['effective_period']['start']['evidence'])
+                    if isinstance(basis,dict) and basis.get('kind')=='wangjian_death_then_three_gifts':
+                        try: from scripts.liang021_wangjiansihui import gift_valid as sih21_gift
+                        except ImportError: from liang021_wangjiansihui import gift_valid as sih21_gift
+                        valid=sih21_gift(h,chapters[d['chapter_id']],gift_life_events,root)
+                    if isinstance(basis,dict) and basis.get('kind')=='song52_jingren_death_grant':
+                        try: from scripts.song052_xiejingren import gift_valid as sj52_gift
+                        except ImportError: from song052_xiejingren import gift_valid as sj52_gift
+                        valid=sj52_gift(h,chapters[d['chapter_id']],gift_life_events,root)
                     check(valid,'追尊授號缺少相符原詞與起點證據')
                     if valid:
                         for e in basis['evidence']:title_evidence(e)
@@ -1499,6 +1538,10 @@ def _validate_uncached(root=ROOT):
                                and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
                                        and basis['source_term'] in e['quote'] and basis['death_term'] in e['quote']
                                        for e in basis['evidence']))
+                    if d['chapter_id']=='c-liangshu-021-wangxun' and h['title']=='溫子':
+                        try: from scripts.liang021_wangxun import naming_valid as xun21_name
+                        except ImportError: from liang021_wangxun import naming_valid as xun21_name
+                        valid=xun21_name(h,chapters[d['chapter_id']],root)
                     check(valid,'死後諡名缺少相符命名詞、死亡詞與起點證據')
                     if valid:
                         for e in basis['evidence']:title_evidence(e)
@@ -1668,6 +1711,10 @@ def _validate_uncached(root=ROOT):
                             except ImportError:
                                 from received_career_roles import holding_valid as career_holding_valid
                             shared_suffix_valid = career_holding_valid(h, chapters[d['chapter_id']],root)
+                    if h.get('shared_title_suffix', {}).get('kind') == 'liang050_received_county_pair':
+                        try: from scripts.liang050_county_pair import valid as county_pair_valid
+                        except ImportError: from liang050_county_pair import valid as county_pair_valid
+                        shared_suffix_valid = county_pair_valid(h, chapters[d['chapter_id']], root)
                     check((a['surface']==h['title'] or shared_suffix_valid) and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
                     if hit:
                         check(isinstance(a['start'],int) and isinstance(a['end'],int) and 0<=a['start']<a['end']<=len(hit[1]['text']) and hit[1]['text'][a['start']:a['end']]==a['surface'],'稱號用稱字元位置不符')
@@ -1784,6 +1831,22 @@ def _validate_uncached(root=ROOT):
                 try: from scripts.liang021_wangfen_family import side_errors as wf21_side_errors
                 except ImportError: from liang021_wangfen_family import side_errors as wf21_side_errors
                 errors.extend(wf21_side_errors(d,chapters[d['chapter_id']],root,'assertions'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.liang021_wangxun import side_errors as xun21_side_errors
+                except ImportError: from liang021_wangxun import side_errors as xun21_side_errors
+                errors.extend(xun21_side_errors(d,chapters[d['chapter_id']],root,'assertions'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.liang021_wangjiansihui import side_errors as sih21_side_errors
+                except ImportError: from liang021_wangjiansihui import side_errors as sih21_side_errors
+                errors.extend(sih21_side_errors(d,chapters[d['chapter_id']],root,'assertions'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.song052_xiechun import side_errors as chun52_side_errors
+                except ImportError: from song052_xiechun import side_errors as chun52_side_errors
+                errors.extend(chun52_side_errors(d,chapters[d['chapter_id']],root,'assertions'))
+            if d['chapter_id'] in chapters:
+                try: from scripts.song052_xiejingren import side_errors as xiejingren52_side_errors
+                except ImportError: from song052_xiejingren import side_errors as xiejingren52_side_errors
+                errors.extend(xiejingren52_side_errors(d,chapters[d['chapter_id']],root,'assertions'))
             for a in d['assertions']:
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
@@ -1859,6 +1922,30 @@ def _validate_uncached(root=ROOT):
                     except ImportError: from liang021_wangfen_family import kin_valid as wf21_kin_valid
                     wf21_valid=wf21_kin_valid(a,chapters[d['chapter_id']],root)
                     check(wf21_valid,'王份家親屬原字及其方向須相符')
+                xun21_valid=False
+                if 'liang021_wangxun_reading' in qualifiers:
+                    try: from scripts.liang021_wangxun import kin_valid as xun21_kin_valid
+                    except ImportError: from liang021_wangxun import kin_valid as xun21_kin_valid
+                    xun21_valid=xun21_kin_valid(a,chapters[d['chapter_id']],root)
+                    check(xun21_valid,'本傳親屬原字及其方向須相符')
+                sih21_valid=False
+                if 'liang021_wangjiansihui_reading' in qualifiers:
+                    try: from scripts.liang021_wangjiansihui import kin_valid as sih21_kin_valid
+                    except ImportError: from liang021_wangjiansihui import kin_valid as sih21_kin_valid
+                    sih21_valid=sih21_kin_valid(a,chapters[d['chapter_id']],root)
+                    check(sih21_valid,'本傳親屬原字及其方向須相符')
+                chun52_valid=False
+                if 'song052_xiechun_reading' in qualifiers:
+                    try: from scripts.song052_xiechun import kin_valid as chun52_kin_valid
+                    except ImportError: from song052_xiechun import kin_valid as chun52_kin_valid
+                    chun52_valid=chun52_kin_valid(a,chapters[d['chapter_id']],root)
+                    check(chun52_valid,'本傳親屬原字及其方向須相符')
+                xiejingren52_valid=False
+                if 'song052_xiejingren_reading' in qualifiers:
+                    try: from scripts.song052_xiejingren import kin_valid as xiejingren52_kin_valid
+                    except ImportError: from song052_xiejingren import kin_valid as xiejingren52_kin_valid
+                    xiejingren52_valid=xiejingren52_kin_valid(a,chapters[d['chapter_id']],root)
+                    check(xiejingren52_valid,'本傳親屬原字及其方向須相符')
                 qi23_valid = False
                 if 'qi23_kin_frame' in qualifiers:
                     try: from scripts.qi023_wangjian_witnesses import kin_valid as qi23_kin_valid
@@ -2113,7 +2200,7 @@ def _validate_uncached(root=ROOT):
                             from scripts.collateral_kinship import agnatic_senior_kin_valid
                         except ImportError:
                             from collateral_kinship import agnatic_senior_kin_valid
-                        check(agnatic_senior_kin_valid(a, paragraphs), '父系晚一代稱謂須有從子原詞與雙人物錨點，不得補父親、親等或年齡')
+                        check((xiejingren52_valid and qualifiers.get('song052_xiejingren_reading')=='hui-elder') or agnatic_senior_kin_valid(a, paragraphs), '父系晚一代稱謂須有從子原詞與雙人物錨點，不得補父親、親等或年齡')
                     elif a['predicate'] == 'maternal_cousin':
                         try:
                             from scripts.maternal_cousins import maternal_cousin_valid
@@ -2282,6 +2369,22 @@ def _validate_uncached(root=ROOT):
                     if hit:
                         local={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'}
                         if adjacent is None:
+                            if qualifiers.get('reading_basis', {}).get('kind') == 'liang022_nanping_eighth_son':
+                                subject = mentions.get(e.get('subject_person_mention_id'))
+                                source = chapters[e['chapter_id']]
+                                ref = next((r for r in source['annotation'].get('person_reference_occurrences', [])
+                                            if r['id'] == e.get('object_person_reference_id')), {})
+                                order = qualifiers.get('birth_order', {})
+                                check(source['id'] == 'c-liangshu-022-nanping-xiejiqing'
+                                      and source['source']['revision_id'] == 1513347
+                                      and e['quote'] == hit[1]['text'] == '南平元襄王偉字文達，太祖第八子也。'
+                                      and a['predicate'] == 'father' and order.get('ordinal') == 8
+                                      and bool(subject) and subject[1] == ref.get('paragraph_id') == e['paragraph_id']
+                                      and subject[2]['surface'] == '偉' and ref.get('surface') == '太祖'
+                                      and a['subject_person_id'] == subject[2]['person_id'] == 'qvt_eq1_lcf_AF'
+                                      and a['object_person_id'] == ref.get('person_id') == 'qvt_eq1_lcf_A',
+                                      '南平王偉的父親及排行須同時核原傳太祖與第八子')
+                                continue
                             if qualifiers.get('reading_basis', {}).get('kind') == 'wangzhan_wife_and_children':
                                 try: from scripts.liang021_wangzhan_kin import wife_valid as zhan_wife_valid
                                 except ImportError: from liang021_wangzhan_kin import wife_valid as zhan_wife_valid
@@ -2312,6 +2415,16 @@ def _validate_uncached(root=ROOT):
                                 except ImportError: from nanshi022_wangjian_marriage import valid as wangjian_marriage
                                 check(wangjian_marriage(a, e, chapters[e['chapter_id']], root), '王暕選尚須有淮南長公主原句及傳主')
                                 continue
+                            if qualifiers.get('reading_basis', {}).get('kind') == 'song041_wang_wangxianyuan_family_named_and_titled_family':
+                                try: from scripts.song041_wang_wangxianyuan_family import valid as wang_kin_valid
+                                except ImportError: from song041_wang_wangxianyuan_family import valid as wang_kin_valid
+                                check(wang_kin_valid(a,e,chapters[d['chapter_id']],root), '王氏婚親稱謂須符合固定正文句及兩人字位')
+                                continue
+                            if qualifiers.get('reading_basis', {}).get('kind') == 'song041_wang_wangzhenfeng_named_and_titled_family':
+                                try: from scripts.song041_wang_wangzhenfeng import valid as wang_kin_valid
+                                except ImportError: from song041_wang_wangzhenfeng import valid as wang_kin_valid
+                                check(wang_kin_valid(a,e,chapters[d['chapter_id']],root), '王氏婚親稱謂須符合固定正文句及兩人字位')
+                                continue
                             if qualifiers.get('reading_basis', {}).get('kind') == 'jin075_xunxian_titled_or_anonymous_kin':
                                 try:
                                     from scripts.jin075_reference_evidence import kin_valid
@@ -2339,6 +2452,14 @@ def _validate_uncached(root=ROOT):
                                 check(j21_valid,'王峻、琮及齊王之兩端姓名或稱謂有誤')
                             elif 'liang021_fen_reading' in qualifiers:
                                 check(wf21_valid,'王份家之兩端姓名或稱謂有誤')
+                            elif 'liang021_wangxun_reading' in qualifiers:
+                                check(xun21_valid,'本傳親屬的兩端姓名或稱謂有誤')
+                            elif 'liang021_wangjiansihui_reading' in qualifiers:
+                                check(sih21_valid,'本傳親屬的兩端姓名或稱謂有誤')
+                            elif 'song052_xiechun_reading' in qualifiers:
+                                check(chun52_valid,'本傳親屬的兩端姓名或稱謂有誤')
+                            elif 'song052_xiejingren_reading' in qualifiers:
+                                check(xiejingren52_valid,'本傳親屬的兩端姓名或稱謂有誤')
                             elif 'wyd_song071_kin_frame' in qualifiers:
                                 try: from scripts.wyd_song071_wang import kin_valid as wyd71_kin_valid
                                 except ImportError: from wyd_song071_wang import kin_valid as wyd71_kin_valid
@@ -2407,7 +2528,15 @@ def _validate_uncached(root=ROOT):
                 check(age['id'] not in age_ids, '年齡記錄 ID 重複'); age_ids.add(age['id'])
                 number = age.get('source_number'); parsed = source_age_number(number)
                 dialogue_anchor = None
-                if 'wang_family_age_reading' in age:
+                if age.get('source_repeated_age',{}).get('kind')=='reported_by_huan_xuan':
+                    try: from scripts.song052_xiejingren import age_valid as sj52_age
+                    except ImportError: from song052_xiejingren import age_valid as sj52_age
+                    check(sj52_age(age,chapter,root),'桓玄引語中的三十須對應本段先敘年三十、具名謝景仁與著作佐郎')
+                elif age.get('issued_xun_elliptical_age'):
+                    try: from scripts.liang021_wangxun import age_valid as xun21_age
+                    except ImportError: from liang021_wangxun import age_valid as xun21_age
+                    check(xun21_age(age,chapter,root),'十六須承同一王訓年十三後召見之句')
+                elif 'wang_family_age_reading' in age:
                     try: from scripts.liang021_wangfen_family import age_valid as wf_age_valid
                     except ImportError: from liang021_wangfen_family import age_valid as wf_age_valid
                     check(wf_age_valid(age,chapter,root),'王份、諸子孫的省略歲數或約齡必須與原句相合')
@@ -2532,6 +2661,10 @@ def _validate_uncached(root=ROOT):
                             from subject_continuation import prior_subject_valid
                         carried_age_subject = prior_subject_valid(evidence['context'], evidence, age['person_id'], chapter)
                         check(carried_age_subject, '來源年齡省略主語承接無效')
+                    if evidence.get('person_reference_id') and chapter['id']=='c-songshu-041-wangzhenfeng':
+                        try: from scripts.song041_wang_obituaries import valid as royal_obituary
+                        except ImportError: from song041_wang_obituaries import valid as royal_obituary
+                        carried_age_subject=royal_obituary(age,evidence,chapter,root,age=True)
                     check(dialogue_anchor or carried_age_subject or bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == age['person_id'], '來源年齡人物錨點不符')
                 if 'report_repetition_of' in age:
                     reports = chapter['annotation']['age_assertions']
@@ -2735,6 +2868,22 @@ def _validate_uncached(root=ROOT):
                 try: from scripts.liang021_wangfen_family import side_errors as wf21_side_errors
                 except ImportError: from liang021_wangfen_family import side_errors as wf21_side_errors
                 errors.extend(wf21_side_errors(record,chapters[record['chapter_id']],root,'events'))
+            if record['chapter_id'] in chapters:
+                try: from scripts.liang021_wangxun import side_errors as xun21_side_errors
+                except ImportError: from liang021_wangxun import side_errors as xun21_side_errors
+                errors.extend(xun21_side_errors(record,chapters[record['chapter_id']],root,'events'))
+            if record['chapter_id'] in chapters:
+                try: from scripts.liang021_wangjiansihui import side_errors as sih21_side_errors
+                except ImportError: from liang021_wangjiansihui import side_errors as sih21_side_errors
+                errors.extend(sih21_side_errors(record,chapters[record['chapter_id']],root,'events'))
+            if record['chapter_id'] in chapters:
+                try: from scripts.song052_xiechun import side_errors as chun52_side_errors
+                except ImportError: from song052_xiechun import side_errors as chun52_side_errors
+                errors.extend(chun52_side_errors(record,chapters[record['chapter_id']],root,'events'))
+            if record['chapter_id'] in chapters:
+                try: from scripts.song052_xiejingren import side_errors as xiejingren52_side_errors
+                except ImportError: from song052_xiejingren import side_errors as xiejingren52_side_errors
+                errors.extend(xiejingren52_side_errors(record,chapters[record['chapter_id']],root,'events'))
             for event in record['events']:
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession', 'noble_title_restoration')), '生卒事件人物或類型無效')
@@ -2975,10 +3124,39 @@ def _validate_uncached(root=ROOT):
                         except ImportError: from liang021_wangfen_family import death_valid as wf21_death_valid
                         carried_subject=wf21_death_valid(event,evidence,chapters[record['chapter_id']],root)
                         check(carried_subject,'王份家傳死詞各繫本人')
+                    if event['id'].startswith('le-liang021-wangxun-'):
+                        try: from scripts.liang021_wangxun import death_valid as xun21_death_valid
+                        except ImportError: from liang021_wangxun import death_valid as xun21_death_valid
+                        carried_subject=xun21_death_valid(event,evidence,chapters[record['chapter_id']],root)
+                        check(carried_subject,'本傳諸卒各繫本人')
+                    if event['id'].startswith('le-liang021-wangjiansihui-'):
+                        try: from scripts.liang021_wangjiansihui import death_valid as sih21_death_valid
+                        except ImportError: from liang021_wangjiansihui import death_valid as sih21_death_valid
+                        carried_subject=sih21_death_valid(event,evidence,chapters[record['chapter_id']],root)
+                        check(carried_subject,'本傳諸卒各繫本人')
+                    if event['id'].startswith('le-song052-xiechun-'):
+                        try: from scripts.song052_xiechun import death_valid as chun52_death_valid
+                        except ImportError: from song052_xiechun import death_valid as chun52_death_valid
+                        carried_subject=chun52_death_valid(event,evidence,chapters[record['chapter_id']],root)
+                        check(carried_subject,'本傳諸卒各繫本人')
+                    if event['id'].startswith('le-song052-xiejingren-'):
+                        try: from scripts.song052_xiejingren import death_valid as xiejingren52_death_valid
+                        except ImportError: from song052_xiejingren import death_valid as xiejingren52_death_valid
+                        carried_subject=xiejingren52_death_valid(event,evidence,chapters[record['chapter_id']],root)
+                        check(carried_subject,'本傳諸卒各繫本人')
                     if event['id']=='le-nanqi023-taizu':
                         try: from scripts.qi023_wangjian_witnesses import death_subject_valid as qi23_death_subject_valid
                         except ImportError: from qi023_wangjian_witnesses import death_subject_valid as qi23_death_subject_valid
                         carried_subject=qi23_death_subject_valid(event,evidence,chapters[record['chapter_id']],root)
+                    if 'relative_assertion_id' in evidence:
+                        try: from scripts.jin033_relative_death import valid as jin033_relative_death_valid
+                        except ImportError: from jin033_relative_death import valid as jin033_relative_death_valid
+                        carried_subject = jin033_relative_death_valid(event,evidence,chapters[record['chapter_id']],root)
+                        check(carried_subject, '所喪父母須有同句親稱與同人的親屬斷言')
+                    if evidence.get('person_reference_id') and record['chapter_id']=='c-songshu-041-wangzhenfeng':
+                        try: from scripts.song041_wang_obituaries import valid as royal_obituary
+                        except ImportError: from song041_wang_obituaries import valid as royal_obituary
+                        carried_subject=royal_obituary(event,evidence,chapters[record['chapter_id']],root)
                     check(carried_subject or bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == event['person_id'], '生卒事件人物錨點不符')
                     if valid and mention and not carried_subject:
                         starts = [i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(evidence['quote'], i)]

@@ -48,6 +48,11 @@ def source_paragraphs(lines, layout=None):
         end,closing,rest=(mark+tail).partition('子泛、湜。')
         assert head and mark and closing and not rest
         return parts[:-1]+[head,end,closing]
+    if layout == 'liang021_split_issued_wangjian_sons':
+        first,second=source_paragraphs(lines,'jin065_indented_text')
+        prefix,opener,end=second.partition('暕名公子，少致美稱')
+        assert prefix and opener and end
+        return [first,prefix,opener+end]
     if layout == 'jin065_indented_text':
         paragraphs = []
         for line in lines:

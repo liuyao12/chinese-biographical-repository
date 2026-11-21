@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "義興公主",
-    "令嫕"
+    "令嫕",
+    "義興主"
   ],
   "titles": [
     {
@@ -130,6 +131,41 @@
       "chapter_id": "c-liangshu-021-wangfen",
       "source_id": "s-liangshu-021-wangfen-ws1544250",
       "work_title": "梁書"
+    },
+    {
+      "number": 23,
+      "category": "",
+      "title": "王僉兩次母喪的平行記錄",
+      "paragraph_id": "c-nanshi-023-wangqian-mothers:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "酒袁昂稱為通理。累遷始興內史，丁所生母憂，固辭不拜。又除南康內史，在郡義興主薨，詔起復郡。",
+      "paragraph_ids": [
+        "c-nanshi-023-wangqian-mothers:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-023-wangqian-mothers:p001:m0058"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-023-wangqian-mothers:p001:m0058": "c-nanshi-023-wangqian-mothers:p001"
+      },
+      "mention_id": "c-nanshi-023-wangqian-mothers:p001:m0058",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-023-wangqian-mothers:p001:m0058",
+          "mention_ids": [
+            "c-nanshi-023-wangqian-mothers:p001:m0058"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangqian-mothers",
+      "source_id": "s-nanshi-023-wangqian-mothers-ws2478204",
+      "work_title": "南史"
     }
   ],
   "table_occurrences": [],
@@ -147,8 +183,8 @@
         "revision_id": 1544250,
         "accessed_on": "2026-11-19",
         "edition": "固定數位轉錄。傳內異文與武英殿本對讀見獨立校記。",
-        "extent": "已逐項通讀王份、王琳、王錫；以固定本原行及原有段號登錄。",
-        "text_scope": "partial_chapter",
+        "extent": "已逐項通讀王份、王琳、王錫、王僉；以固定本原行及原有段號登錄。",
+        "text_scope": "complete_biography_unit",
         "image_verified": false,
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -184,6 +220,34 @@
           "extraction_note": "固定原-{后}-僅移除防轉換定界符；母名、諸王及公主本字照原錄。"
         },
         "section_locator": "梁文獻張皇后"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangqian-mothers",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangqian-mothers-ws2478204",
+      "source": {
+        "title": "南史卷23·王僉兩次母喪的平行記錄",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "王僉兩次母喪的平行記錄",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "王僉兩次母喪的平行記錄"
       }
     }
   ],
@@ -430,7 +494,37 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-liang021-wangfen-family-ns-princess",
+      "person_id": "qvt_eq1_lcf_AB",
+      "event_type": "death",
+      "source_term": "薨",
+      "source_anchor": {
+        "paragraph_id": "c-nanshi-023-wangqian-mothers:p001",
+        "surface": "薨",
+        "start": 61,
+        "end": 62
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangqian-mothers-ws2478204",
+          "chapter_id": "c-nanshi-023-wangqian-mothers",
+          "paragraph_id": "c-nanshi-023-wangqian-mothers:p001",
+          "quote": "僉字公會，八歲丁父憂，哀毀過禮。初補國子生，祭酒袁昂稱為通理。累遷始興內史，丁所生母憂，固辭不拜。又除南康內史，在郡義興主薨，詔起復郡。",
+          "person_mention_id": "c-nanshi-023-wangqian-mothers:p001:m0058"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "兩次喪事在初除始興及在南康任時。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
