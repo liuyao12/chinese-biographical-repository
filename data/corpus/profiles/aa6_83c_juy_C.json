@@ -431,6 +431,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-w080-family-yi",
+      "person_id": "aa6_83c_juy_C",
+      "title": "安西將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "chapter_id": "c-jinshu-096-wang080-short",
+          "source_id": "s-jinshu-096-wang080-short",
+          "paragraph_id": "c-jinshu-096-wang080-short:family",
+          "person_mention_id": "c-jinshu-096-wang080-short:family:m0015",
+          "quote": "王凝之妻謝氏，字道韞，安西將軍奕之女也。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w080-family-yi:a",
+          "paragraph_id": "c-jinshu-096-wang080-short:family",
+          "start": 11,
+          "end": 15,
+          "surface": "安西將軍",
+          "person_mention_id": "c-jinshu-096-wang080-short:family:m0015",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本句所授、所歷或任時稱謂。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi019-lingyun-160-4",
       "person_id": "aa6_83c_juy_C",
       "title": "安西將軍",
@@ -823,6 +871,41 @@
       "book_id": "b-jinshu-079",
       "chapter_id": "c-jinshu-079-xielang-family",
       "source_id": "s-jinshu-079-xielang-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 96,
+      "category": "",
+      "title": "列女傳王凝之妻謝氏與會稽之難",
+      "paragraph_id": "c-jinshu-096-wang080-short:family",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王凝之妻謝氏，字道韞，安西將軍奕之女也。",
+      "paragraph_ids": [
+        "c-jinshu-096-wang080-short:family"
+      ],
+      "mention_ids": [
+        "c-jinshu-096-wang080-short:family:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-096-wang080-short:family:m0015": "c-jinshu-096-wang080-short:family"
+      },
+      "mention_id": "c-jinshu-096-wang080-short:family:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-096-wang080-short:family:m0015",
+          "mention_ids": [
+            "c-jinshu-096-wang080-short:family:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-096",
+      "chapter_id": "c-jinshu-096-wang080-short",
+      "source_id": "s-jinshu-096-wang080-short",
       "work_title": "晉書"
     }
   ],
@@ -2985,6 +3068,30 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-096-wang080-short",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-096",
+      "source_id": "s-jinshu-096-wang080-short",
+      "source": {
+        "title": "晉書·列女傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2625341",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2625341",
+        "revision_id": 2625341,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位轉錄。",
+        "extent": "固定版本的相關原句及該句所出層次，按字位核對。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-yi-shi-miao/external/jin096-ws2625341.wikitext",
+        "raw_file_sha256": "2a30a87df259042f1f5d783dd7b9674ff174208aae03383fad28ab3c88dbabb5",
+        "wikitext_sha256": "2a30a87df259042f1f5d783dd7b9674ff174208aae03383fad28ab3c88dbabb5"
+      }
+    },
+    {
       "chapter_id": "c-nanshi-019-lingyun",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-019",
@@ -3245,6 +3352,32 @@
       "model": null
     },
     {
+      "id": "a-w080-daoyun-yi",
+      "subject_person_id": "aa6_83c_juy_CE",
+      "object_person_id": "aa6_83c_juy_C",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "奕之女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "chapter_id": "c-jinshu-096-wang080-short",
+          "source_id": "s-jinshu-096-wang080-short",
+          "paragraph_id": "c-jinshu-096-wang080-short:family",
+          "quote": "王凝之妻謝氏，字道韞，安西將軍奕之女也。",
+          "subject_person_mention_id": "c-jinshu-096-wang080-short:family:m0004",
+          "object_person_mention_id": "c-jinshu-096-wang080-short:family:m0015"
+        }
+      ],
+      "interpretation_note": "謝氏為安西將軍奕女。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi019-hui-pou-child-1",
       "subject_person_id": "aa6_83c_juy_C",
       "object_person_id": "aa6_83c_juy",
@@ -3279,7 +3412,8 @@
     "aa6_83c_juy_CA": "謝康",
     "aa6_83c_juy_CB": "謝泉",
     "aa6_83c_juy_CC": "謝靖",
-    "aa6_83c_juy_CD": "謝玄"
+    "aa6_83c_juy_CD": "謝玄",
+    "aa6_83c_juy_CE": "謝道韞"
   },
   "dates": [
     {
@@ -3605,6 +3739,32 @@
         }
       ],
       "interpretation_note": "從兄述同宗旁系及長幼；不以此句虛構雙方父親或共同祖父。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w080-daoyun-yi",
+      "subject_person_id": "aa6_83c_juy_CE",
+      "object_person_id": "aa6_83c_juy_C",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "奕之女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "chapter_id": "c-jinshu-096-wang080-short",
+          "source_id": "s-jinshu-096-wang080-short",
+          "paragraph_id": "c-jinshu-096-wang080-short:family",
+          "quote": "王凝之妻謝氏，字道韞，安西將軍奕之女也。",
+          "subject_person_mention_id": "c-jinshu-096-wang080-short:family:m0004",
+          "object_person_mention_id": "c-jinshu-096-wang080-short:family:m0015"
+        }
+      ],
+      "interpretation_note": "謝氏為安西將軍奕女。",
       "status": "source_attested",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,

@@ -252,6 +252,41 @@
       "work_title": "梁書"
     },
     {
+      "number": 22,
+      "category": "",
+      "title": "王彬傳",
+      "paragraph_id": "c-nanshi-022-wangbin-digital:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "人為之語曰：「三真六草，為天下寶。」齊武帝起舊宮，彬獻賦，文辭典麗。尚齊高帝女臨海長公主，拜駙馬都尉。仕齊，曆太子中庶子，徙永嘉太守。卜室于積穀山，有終焉之志。梁天監中，曆吏部尚書、秘書監。卒，諡惠。彬立身清白，推賢接士，有士君子風。彬弟寂。",
+      "paragraph_ids": [
+        "c-nanshi-022-wangbin-digital:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-022-wangbin-digital:p001:m0054"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-022-wangbin-digital:p001:m0054": "c-nanshi-022-wangbin-digital:p001"
+      },
+      "mention_id": "c-nanshi-022-wangbin-digital:p001:m0054",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-022-wangbin-digital:p001:m0054",
+          "mention_ids": [
+            "c-nanshi-022-wangbin-digital:p001:m0054"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wangbin-digital",
+      "source_id": "s-nanshi-022-wangbin-digital-ws1477957",
+      "work_title": "南史"
+    },
+    {
       "number": 24,
       "category": "",
       "title": "王氏跨史家系選段",
@@ -3935,6 +3970,35 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-022-wangbin-digital",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangbin-digital-ws1477957",
+      "source": {
+        "title": "南史卷二十二·王彬傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂1477957，另列逐項核過的書影或平行史料。",
+        "extent": "逐讀固定本第174–174行的傳文，止於第176行前。",
+        "text_scope": "complete_biographical_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "====揖弟 彬====",
+        "wikitext_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanshi-024-wang-family",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-024",
@@ -4264,9 +4328,43 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-nanshi022-wangbin-digital-174-54",
+      "subject_person_id": "47p_kjh_ez7_A",
+      "object_person_id": "47p_kjh_ez7",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "齊高帝女臨海長公主"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangbin-digital",
+          "source_id": "s-nanshi-022-wangbin-digital-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangbin-digital:p001",
+          "quote": "彬字思文，好文章，習篆隸，與志齊名。時人為之語曰：「三真六草，為天下寶。」齊武帝起舊宮，彬獻賦，文辭典麗。尚齊高帝女臨海長公主，拜駙馬都尉。仕齊，曆太子中庶子，徙永嘉太守。卜室于積穀山，有終焉之志。梁天監中，曆吏部尚書、秘書監。卒，諡惠。彬立身清白，推賢接士，有士君子風。彬弟寂。",
+          "subject_person_mention_id": "c-nanshi-022-wangbin-digital:p001:m0058",
+          "object_person_mention_id": "c-nanshi-022-wangbin-digital:p001:m0054",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-022-wangbin-digital:p001",
+            "start": 54,
+            "end": 63,
+            "surface": "齊高帝女臨海長公主"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "47p_kjh_ez7": "齊太祖道成"
+    "47p_kjh_ez7": "齊太祖道成",
+    "47p_kjh_ez7_A": "臨海長公主（齊高帝女）"
   },
   "dates": [],
   "reading_decisions": [
@@ -4440,7 +4538,40 @@
   "person_ids": [
     "47p_kjh_ez7"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-nanshi022-wangbin-digital-174-54",
+      "subject_person_id": "47p_kjh_ez7_A",
+      "object_person_id": "47p_kjh_ez7",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "齊高帝女臨海長公主"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangbin-digital",
+          "source_id": "s-nanshi-022-wangbin-digital-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangbin-digital:p001",
+          "quote": "彬字思文，好文章，習篆隸，與志齊名。時人為之語曰：「三真六草，為天下寶。」齊武帝起舊宮，彬獻賦，文辭典麗。尚齊高帝女臨海長公主，拜駙馬都尉。仕齊，曆太子中庶子，徙永嘉太守。卜室于積穀山，有終焉之志。梁天監中，曆吏部尚書、秘書監。卒，諡惠。彬立身清白，推賢接士，有士君子風。彬弟寂。",
+          "subject_person_mention_id": "c-nanshi-022-wangbin-digital:p001:m0058",
+          "object_person_mention_id": "c-nanshi-022-wangbin-digital:p001:m0054",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-022-wangbin-digital:p001",
+            "start": 54,
+            "end": 63,
+            "surface": "齊高帝女臨海長公主"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

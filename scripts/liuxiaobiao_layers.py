@@ -5,6 +5,12 @@ import re
 
 
 def valid(p, chapter, root):
+    if p.get('source_quote', {}).get('source_layer') == '劉孝標注':
+        try:
+            from scripts.jin080_family import liu_note_valid
+        except ImportError:
+            from jin080_family import liu_note_valid
+        return liu_note_valid(p, chapter, root)
     try:
         if chapter['work_id'] != 'w-shishuoxinyu' or p['text_layer'] != 'witness_appended_liuxiaobiao_note':
             return False

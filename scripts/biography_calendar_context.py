@@ -7,6 +7,8 @@ regnal era is allowed. A context binds one recorded death, not the whole life.
 import json,re,hashlib,html
 from pathlib import Path
 
+try: from scripts.song042_issued_roles import known
+except ImportError: from song042_issued_roles import known
 def sha(b):return hashlib.sha256(b).hexdigest()
 def number(s):
     if s=='元':return 1
@@ -92,9 +94,9 @@ def context_errors(r,root):
         ck(death_subject_valid(p,subject_death,bind['person_id']),'傳紀年死亡局部主語不符，不能只憑傳題')
         if bind['event_type']=='death':ck(bind['death_event_id']==bind['record_id'] and subject_death==death,'傳紀年死亡事件支持不符')
         ck(scope['start']==0 and scope['end']==len(p['text']) and scope['quote']==p['text'],'傳紀年限單一事件原段')
-        accession=t['accession_anchor'];ap=ps[accession['paragraph_id']];em=next(m for m in ap['mentions']if m['id']==t['emperor_mention_id'])
+        accession=t['accession_anchor'];ap=ps[accession['paragraph_id']];em=known(ch,ap,t['emperor_mention_id'])
         ck(ap['id']in t['paragraph_ids'] and anchor(accession,ap) and accession['start']==em['start'] and accession['surface'] in (em['surface']+'即位',em['surface']+'入奉大統'),'傳紀年明示即位主體不符')
-        ec=r['era_context'];ech=chapters[ec['chapter_id']];ep=next(q for q in ech['paragraphs']if q['id']==ec['paragraph_id']);ea=ec['anchor'];ruler=next(m for m in ep['mentions']if m['id']==ec['emperor_mention_id'])
+        ec=r['era_context'];ech=chapters[ec['chapter_id']];ep=next(q for q in ech['paragraphs']if q['id']==ec['paragraph_id']);ea=ec['anchor'];ruler=known(ech,ep,ec['emperor_mention_id'])
         ck(ruler.get('person_id')==em.get('person_id') and ruler.get('kind')=='person' and em.get('kind')=='person','傳紀年異帝年號不得接線')
         eraw=safe(root,ec['source']['file']).read_bytes();els=eraw.decode().splitlines();ex=next(x for x in ech['source']['normalization']['excerpts']if x['proposed_paragraph_id']==ep['id'])
         ck(sha(eraw)==ec['source']['sha256']==ech['source']['wikitext_sha256'] and ec['source']['revision_id']==ech['source']['revision_id'] and ec['source']['url']==ech['source']['permalink'] and ex['raw_quote']==els[ec['raw_line']-1] and ex['raw_quote_sha256']==sha(ex['raw_quote'].encode()) and ex['selected_text_sha256']==sha(ep['text'].encode()),'傳紀年獨立年號證據不符')
