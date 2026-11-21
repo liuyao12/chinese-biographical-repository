@@ -1,0 +1,128 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-sanguozhi-018-jin033-wanglan",
+  "work_id": "w-sanguozhi",
+  "book_id": "b-sanguozhi-018",
+  "source_id": "s-sanguozhi-018-jin033-wanglan",
+  "title": "呂虔傳裴注引王隱晉書及晉諸公贊所載王覽",
+  "source": {
+    "title": "三國志呂虔傳",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2579680",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2579680",
+    "revision_id": 2579680,
+    "accessed_on": "2026-10-18",
+    "extent": "下列來源節錄。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "edition": "固定修訂相關原文，逐字核收。",
+    "wikitext_sha256": "03f43f4ebf5a387e757ab010e77bae7ae1cf2276f55f9723e1cbe3aaca6b443d",
+    "collation_witnesses": [
+      "source-evidence/jin033-wang-family-children/reading.json"
+    ],
+    "raw_path": "source-evidence/jin033-wanglan/external/sg-ws2579680.wikitext",
+    "raw_file_sha256": "03f43f4ebf5a387e757ab010e77bae7ae1cf2276f55f9723e1cbe3aaca6b443d"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "human_reviewed": false,
+    "scope": "本次來源節錄。",
+    "reviewed_unit_evidence": [
+      {
+        "unit": "呂虔傳裴注引王隱晉書及晉諸公贊所載王覽",
+        "path": "source-evidence/jin033-wanglan/reading.json"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-sanguozhi-018-jin033-wanglan:honor",
+      "text": "祥弟覽，字玄通，光祿大夫。",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-018-jin033-wanglan:honor:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "祥",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-sanguozhi-018-jin033-wanglan:honor:m0002",
+          "start": 2,
+          "end": 3,
+          "surface": "覽",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_AB",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-sanguozhi-018-jin033-wanglan:honor:m0005",
+          "start": 5,
+          "end": 7,
+          "surface": "玄通",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_AB",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "source_quote": {
+        "witness": "sg",
+        "quote": "祥弟覽，字玄通，光祿大夫。",
+        "raw_start": 5379,
+        "raw_end": 5392,
+        "raw_line": 49,
+        "source_layer": "裴注引晉書"
+      },
+      "received_authority": "晉書",
+      "attribution": {
+        "annotator": "裴松之",
+        "quoted_author": "王隱",
+        "quoted_work": "晉書"
+      }
+    },
+    {
+      "id": "c-sanguozhi-018-jin033-wanglan:praise",
+      "text": "覽率素有至行。",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-018-jin033-wanglan:praise:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "覽",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_AB",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "source_quote": {
+        "witness": "sg",
+        "quote": "覽率素有至行。",
+        "raw_start": 5399,
+        "raw_end": 5406,
+        "raw_line": 49,
+        "source_layer": "裴注引晉諸公贊"
+      },
+      "received_authority": "晉諸公贊",
+      "attribution": {
+        "annotator": "裴松之",
+        "quoted_author": null,
+        "quoted_work": "晉諸公贊"
+      }
+    }
+  ],
+  "text_sha256": "529c8be0cad9406be172f2bd4e560b6880a27b3bf62e7110c0c2f7f295a52b2d"
+}

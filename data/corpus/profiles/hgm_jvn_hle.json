@@ -104,6 +104,41 @@
       "work_title": "世說新語"
     },
     {
+      "number": 18,
+      "category": "",
+      "title": "呂虔傳及裴注孫盛雜語、王隱晉書所載王祥行事",
+      "paragraph_id": "c-sanguozhi-018-jin033-wangxiang:death",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "晉武踐阼，拜祥為太保，封雎陵公。泰始四年，年八十九薨。",
+      "paragraph_ids": [
+        "c-sanguozhi-018-jin033-wangxiang:death"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-018-jin033-wangxiang:death:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-018-jin033-wangxiang:death:m0000": "c-sanguozhi-018-jin033-wangxiang:death"
+      },
+      "mention_id": "c-sanguozhi-018-jin033-wangxiang:death:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-018-jin033-wangxiang:death:m0000",
+          "mention_ids": [
+            "c-sanguozhi-018-jin033-wangxiang:death:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-018",
+      "chapter_id": "c-sanguozhi-018-jin033-wangxiang",
+      "source_id": "s-sanguozhi-018-jin033-wangxiang",
+      "work_title": "三國志"
+    },
+    {
       "number": 33,
       "category": "",
       "title": "王祥、王覽本傳",
@@ -1875,7 +1910,9 @@
           "completion_appendix": "同固定修訂2650519補入原始行20–35八段；原八段全文、ID與mentions全值保留。原字漢未、乙太保、Я脯等不靜改。"
         },
         "collation_witnesses": [
-          "source-evidence/jin033-wang-family-children/reading.json"
+          "source-evidence/jin033-wang-family-children/reading.json",
+          "source-evidence/jin033-wanglan/reading.json",
+          "source-evidence/jin033-wangxiang/reading.json"
         ]
       }
     },
@@ -23152,6 +23189,30 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-018-jin033-wangxiang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-018",
+      "source_id": "s-sanguozhi-018-jin033-wangxiang",
+      "source": {
+        "title": "三國志呂虔傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2579680",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2579680",
+        "revision_id": 2579680,
+        "accessed_on": "2026-10-18",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "03f43f4ebf5a387e757ab010e77bae7ae1cf2276f55f9723e1cbe3aaca6b443d",
+        "raw_path": "source-evidence/jin033-wanglan/external/sg-ws2579680.wikitext",
+        "raw_file_sha256": "03f43f4ebf5a387e757ab010e77bae7ae1cf2276f55f9723e1cbe3aaca6b443d"
+      }
+    },
+    {
       "chapter_id": "c-shishuoxinyu-010-jin043-wangyan",
       "work_id": "w-shishuoxinyu",
       "book_id": "b-shishuoxinyu-010",
@@ -28889,6 +28950,36 @@
   "dates": [],
   "name_components": [],
   "person_references": [
+    {
+      "id": "c-jinshu-033-wanglan-family:p011:r0043",
+      "paragraph_id": "c-jinshu-033-wanglan-family:p011",
+      "start": 43,
+      "end": 45,
+      "surface": "相國",
+      "person_id": "hgm_jvn_hle",
+      "quote": "相國誠爲尊貴",
+      "referent_role": "third_person",
+      "note": "依此段書牘、對話或敘述所指。",
+      "chapter_id": "c-jinshu-033-wanglan-family",
+      "book_id": "b-jinshu-033",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-033-wanglan-family"
+    },
+    {
+      "id": "c-jinshu-033-wanglan-family:p012:r0117",
+      "paragraph_id": "c-jinshu-033-wanglan-family:p012",
+      "start": 117,
+      "end": 118,
+      "surface": "朕",
+      "person_id": "hgm_jvn_hle",
+      "quote": "朕所毗倚",
+      "referent_role": "speaker_self",
+      "note": "依此段書牘、對話或敘述所指。",
+      "chapter_id": "c-jinshu-033-wanglan-family",
+      "book_id": "b-jinshu-033",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-033-wanglan-family"
+    },
     {
       "id": "c-jinshu-043-wangrong:p007:m0163",
       "paragraph_id": "c-jinshu-043-wangrong:p007",

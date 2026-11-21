@@ -166,13 +166,13 @@
     {
       "number": 98,
       "category": "",
-      "title": "王敦傳所記父基與王導",
+      "title": "晉書卷九十八·王敦傳",
       "paragraph_id": "c-jinshu-098-jin033-wangji:head",
       "count": 1,
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "王敦，字處仲，司徒導之從父兄也。父基，治書侍御史。",
+      "quote": "王敦，字處仲，司徒導之從父兄也。父基，治書侍御史。敦少有奇人之目，尚武帝女襄城公主，拜駙馬都尉，除太子舍人。時王愷、石崇以豪侈相尚，愷嘗置酒，敦與導俱在坐，有女伎吹笛小失聲韻，愷便驅殺之，一坐改容，敦神色自若。他日，又造愷，愷使美人行酒",
       "paragraph_ids": [
         "c-jinshu-098-jin033-wangji:head"
       ],
@@ -326,7 +326,9 @@
           "completion_appendix": "同固定修訂2650519補入原始行20–35八段；原八段全文、ID與mentions全值保留。原字漢未、乙太保、Я脯等不靜改。"
         },
         "collation_witnesses": [
-          "source-evidence/jin033-wang-family-children/reading.json"
+          "source-evidence/jin033-wang-family-children/reading.json",
+          "source-evidence/jin033-wanglan/reading.json",
+          "source-evidence/jin033-wangxiang/reading.json"
         ]
       }
     },
@@ -336,22 +338,25 @@
       "book_id": "b-jinshu-098",
       "source_id": "s-jinshu-098-jin033-wangji",
       "source": {
-        "title": "晉書王敦傳",
+        "title": "晉書卷九十八",
         "provider": "Wikisource",
         "url": "https://zh.wikisource.org/w/index.php?oldid=2614273",
         "permalink": "https://zh.wikisource.org/w/index.php?oldid=2614273",
         "revision_id": 2614273,
         "accessed_on": "2026-10-18",
-        "extent": "下列來源節錄。",
+        "extent": "卷九十八王敦題下完整傳文。",
         "text_scope": "partial_chapter",
         "review_status": "text_checked",
         "image_verified": false,
         "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "edition": "固定修訂相關原文，逐字核收。",
+        "edition": "固定修訂2614273原文，國圖乾隆四年武英殿刊本對讀。",
         "wikitext_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
         "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
-        "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36"
+        "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "collation_witnesses": [
+          "source-evidence/jin098-wang-han-ying/reading.json"
+        ]
       }
     }
   ],

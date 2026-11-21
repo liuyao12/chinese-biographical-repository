@@ -98,9 +98,9 @@ def non_parental_relation_valid(assertion, paragraphs, assertions=None):
     if set(q) != keys:
         return False
     if kind == 'named_orphan_reared':
-        return (term == child['surface'] + '幼孤，' + other['surface'] + '撫養甚至'
-                and text[child['start']:other['end'] + len('撫養甚至')] == term
-                and other['start'] == child['end'] + len('幼孤，'))
+        link = text[child['end']:other['start']]
+        return (link in ('幼孤，', '幼孤') and term == child['surface'] + link + other['surface'] + '撫養甚至'
+                and text[child['start']:other['end'] + len('撫養甚至')] == term)
     if kind == 'explicit_yang':
         return (child['surface'] == '之' and term == other['surface'] + '養之'
                 and text[other['end']:child['start']] == '養')

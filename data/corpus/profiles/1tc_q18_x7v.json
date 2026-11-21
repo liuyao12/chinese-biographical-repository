@@ -8,7 +8,8 @@
   "names": [
     "王彧",
     "王景文",
-    "彧"
+    "彧",
+    "景文"
   ],
   "titles": [
     {
@@ -54,6 +55,54 @@
       ],
       "status": "source_attested",
       "interpretation_note": "南史在彧名前使用車騎將軍，宋85明記死後追贈。此為史家用稱，宴會之日與授號時日分別。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-song041-wangzhenfeng-274-112",
+      "person_id": "1tc_q18_x7v",
+      "title": "揚州刺史",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-song041-wangzhenfeng-274-112:a",
+          "paragraph_id": "c-songshu-041-wangzhenfeng:p002",
+          "start": 112,
+          "end": 116,
+          "surface": "揚州刺史",
+          "person_mention_id": "c-songshu-041-wangzhenfeng:p002:m0116",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "chapter_id": "c-songshu-041-wangzhenfeng",
+          "source_id": "s-songshu-041-wangzhenfeng-ws2634831",
+          "paragraph_id": "c-songshu-041-wangzhenfeng:p002",
+          "quote": "上嘗宮內大集，而臝婦人觀之，以為歡笑。后以扇障面，獨無所言。帝怒曰：「外舍家寒乞，今共為笑樂，何獨不視？」后曰：「為樂之事，其方自多。豈有姑姊妹集聚，而臝婦人形體。以此為樂，外舍之為歡適，實與此不同。」帝大怒，遣后令起。后兄揚州刺史景文以此事語從舅陳郡謝緯曰：「后在家為儜弱婦人，不知今段遂能剛正如此。」",
+          "person_mention_id": "c-songshu-041-wangzhenfeng:p002:m0116"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false,
@@ -280,6 +329,51 @@
       "chapter_id": "c-nanqishu-032-ruantao",
       "source_id": "s-nanqishu-032-ruantao",
       "work_title": "南齊書"
+    },
+    {
+      "number": 41,
+      "category": "",
+      "title": "明恭王皇后",
+      "paragraph_id": "c-songshu-041-wangzhenfeng:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。以此為樂，外舍之為歡適，實與此不同。」帝大怒，遣后令起。后兄揚州刺史景文以此事語從舅陳郡謝緯曰：「后在家為儜弱婦人，不知今段遂能剛正如此。」",
+      "paragraph_ids": [
+        "c-songshu-041-wangzhenfeng:p002",
+        "c-songshu-041-wangzhenfeng:p004"
+      ],
+      "mention_ids": [
+        "c-songshu-041-wangzhenfeng:p002:m0116",
+        "c-songshu-041-wangzhenfeng:p004:m0107"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-041-wangzhenfeng:p002:m0116": "c-songshu-041-wangzhenfeng:p002",
+        "c-songshu-041-wangzhenfeng:p004:m0107": "c-songshu-041-wangzhenfeng:p004"
+      },
+      "mention_id": "c-songshu-041-wangzhenfeng:p002:m0116",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-041-wangzhenfeng:p002:m0116",
+          "mention_ids": [
+            "c-songshu-041-wangzhenfeng:p002:m0116"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-041-wangzhenfeng:p004:m0107",
+          "mention_ids": [
+            "c-songshu-041-wangzhenfeng:p004:m0107"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-041",
+      "chapter_id": "c-songshu-041-wangzhenfeng",
+      "source_id": "s-songshu-041-wangzhenfeng-ws2634831",
+      "work_title": "宋書"
     },
     {
       "number": 43,
@@ -862,11 +956,82 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-songshu-041-wangzhenfeng",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-041",
+      "source_id": "s-songshu-041-wangzhenfeng-ws2634831",
+      "source": {
+        "title": "宋書卷四十一·明恭王皇后",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2634831",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2634831",
+        "revision_id": 2634831,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂2634831，武英殿本書影逐項參記。",
+        "extent": "此為具名來源單元選集；每人的首尾與非連續邊界見 source_unit_reviews。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "清冊內各傳題及附敘字位；每段回鏈固定原檔。",
+        "wikitext_sha256": "9bbc04376eabe39a2e58ca12fb45068b667ae57102a566f557d564efb9556d55",
+        "raw_path": "source-evidence/nanshi022-wang/song041-ws2634831.wikitext",
+        "raw_file_sha256": "9bbc04376eabe39a2e58ca12fb45068b667ae57102a566f557d564efb9556d55",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原文字位逐一對固定原檔，本文排除校勘註、連結目標及紀年模板的界符；校勘說另列。"
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-song041-wangzhenfeng-274-110-116-brother",
+      "subject_person_id": "q7m_r8k_2vn_B",
+      "object_person_id": "1tc_q18_x7v",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "后兄",
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "siblings",
+          "older_person_id": "1tc_q18_x7v",
+          "younger_person_id": "q7m_r8k_2vn_B",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "reading_basis": {
+          "kind": "song041_wang_wangzhenfeng_named_and_titled_family",
+          "source_quote": "后兄揚州刺史景文",
+          "start": 110,
+          "end": 118,
+          "subject_anchor_id": "c-songshu-041-wangzhenfeng:p002:r0110",
+          "object_anchor_id": "c-songshu-041-wangzhenfeng:p002:m0116"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "chapter_id": "c-songshu-041-wangzhenfeng",
+          "source_id": "s-songshu-041-wangzhenfeng-ws2634831",
+          "paragraph_id": "c-songshu-041-wangzhenfeng:p002",
+          "quote": "上嘗宮內大集，而臝婦人觀之，以為歡笑。后以扇障面，獨無所言。帝怒曰：「外舍家寒乞，今共為笑樂，何獨不視？」后曰：「為樂之事，其方自多。豈有姑姊妹集聚，而臝婦人形體。以此為樂，外舍之為歡適，實與此不同。」帝大怒，遣后令起。后兄揚州刺史景文以此事語從舅陳郡謝緯曰：「后在家為儜弱婦人，不知今段遂能剛正如此。」"
+        }
+      ],
+      "interpretation_note": "按原句、兩端稱謂與前文辨讀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "1tc_q18_x7v": "王彧"
+    "1tc_q18_x7v": "王彧",
+    "q7m_r8k_2vn_B": "王貞風（明恭王皇后）"
   },
   "dates": [],
   "reading_decisions": [
@@ -975,7 +1140,48 @@
   "person_ids": [
     "1tc_q18_x7v"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-song041-wangzhenfeng-274-110-116-brother",
+      "subject_person_id": "q7m_r8k_2vn_B",
+      "object_person_id": "1tc_q18_x7v",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "后兄",
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "siblings",
+          "older_person_id": "1tc_q18_x7v",
+          "younger_person_id": "q7m_r8k_2vn_B",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "reading_basis": {
+          "kind": "song041_wang_wangzhenfeng_named_and_titled_family",
+          "source_quote": "后兄揚州刺史景文",
+          "start": 110,
+          "end": 118,
+          "subject_anchor_id": "c-songshu-041-wangzhenfeng:p002:r0110",
+          "object_anchor_id": "c-songshu-041-wangzhenfeng:p002:m0116"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "chapter_id": "c-songshu-041-wangzhenfeng",
+          "source_id": "s-songshu-041-wangzhenfeng-ws2634831",
+          "paragraph_id": "c-songshu-041-wangzhenfeng:p002",
+          "quote": "上嘗宮內大集，而臝婦人觀之，以為歡笑。后以扇障面，獨無所言。帝怒曰：「外舍家寒乞，今共為笑樂，何獨不視？」后曰：「為樂之事，其方自多。豈有姑姊妹集聚，而臝婦人形體。以此為樂，外舍之為歡適，實與此不同。」帝大怒，遣后令起。后兄揚州刺史景文以此事語從舅陳郡謝緯曰：「后在家為儜弱婦人，不知今段遂能剛正如此。」"
+        }
+      ],
+      "interpretation_note": "按原句、兩端稱謂與前文辨讀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
