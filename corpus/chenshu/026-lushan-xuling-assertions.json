@@ -1,0 +1,62 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-chenshu-026-lushan-xuling",
+  "assertions": [
+    {
+      "id": "a-chen023-xuling-father",
+      "subject_person_id": "b5c_v7o_svc_AA",
+      "object_person_id": "b5c_v7o_svc_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父摛",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-026",
+          "chapter_id": "c-chenshu-026-lushan-xuling",
+          "source_id": "s-chenshu-026-lushan-xuling-ws2132678",
+          "paragraph_id": "c-chenshu-026-lushan-xuling:p001",
+          "quote": "徐陵字孝穆，東海郯人也。祖超之，齊鬱林太守，梁員外散騎常侍。父摛，梁戎昭將軍、太子左衛率，贈侍中、太子詹事，諡貞子。",
+          "subject_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0000",
+          "object_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0031"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明載徐陵父摛。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-chen023-xuchi-father",
+      "subject_person_id": "b5c_v7o_svc_A",
+      "object_person_id": "b5c_v7o_svc",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "祖超之，齊鬱林太守，梁員外散騎常侍。父摛",
+        "lineage": "paternal",
+        "interpretation_status": "editorial_inference"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-026",
+          "chapter_id": "c-chenshu-026-lushan-xuling",
+          "source_id": "s-chenshu-026-lushan-xuling-ws2132678",
+          "paragraph_id": "c-chenshu-026-lushan-xuling:p001",
+          "quote": "徐陵字孝穆，東海郯人也。祖超之，齊鬱林太守，梁員外散騎常侍。父摛，梁戎昭將軍、太子左衛率，贈侍中、太子詹事，諡貞子。",
+          "subject_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0031",
+          "object_person_mention_id": "c-chenshu-026-lushan-xuling:p001:m0013"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "據徐陵傳首並敘祖、父兩輩暫接。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

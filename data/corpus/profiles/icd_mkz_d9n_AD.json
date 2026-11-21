@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "id": "icd_mkz_d9n_AD",
+  "canonical_person_id": "icd_mkz_d9n_AD",
+  "label": "陳虔（字承恪，南海王）",
+  "identity_note": "陳叔寶第五子。",
+  "review": "ai_provisional",
+  "names": [
+    "虔",
+    "承恪"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 28,
+      "category": "",
+      "title": "張、龔貴嬪妃所生諸子",
+      "paragraph_id": "c-chenshu-028-zhanglihua-sons:p002",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "龔貴嬪生南海王虔、錢塘王恬",
+      "paragraph_ids": [
+        "c-chenshu-028-zhanglihua-sons:p002",
+        "c-chenshu-028-zhanglihua-sons:p004"
+      ],
+      "mention_ids": [
+        "c-chenshu-028-zhanglihua-sons:p002:m0007",
+        "c-chenshu-028-zhanglihua-sons:p004:m0003",
+        "c-chenshu-028-zhanglihua-sons:p004:m0005"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-028-zhanglihua-sons:p002:m0007": "c-chenshu-028-zhanglihua-sons:p002",
+        "c-chenshu-028-zhanglihua-sons:p004:m0003": "c-chenshu-028-zhanglihua-sons:p004",
+        "c-chenshu-028-zhanglihua-sons:p004:m0005": "c-chenshu-028-zhanglihua-sons:p004"
+      },
+      "mention_id": "c-chenshu-028-zhanglihua-sons:p002:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-028-zhanglihua-sons:p002:m0007",
+          "mention_ids": [
+            "c-chenshu-028-zhanglihua-sons:p002:m0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-chenshu-028-zhanglihua-sons:p004:m0003",
+          "mention_ids": [
+            "c-chenshu-028-zhanglihua-sons:p004:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-chenshu-028-zhanglihua-sons:p004:m0005",
+          "mention_ids": [
+            "c-chenshu-028-zhanglihua-sons:p004:m0005"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-028",
+      "chapter_id": "c-chenshu-028-zhanglihua-sons",
+      "source_id": "s-chenshu-028-zhanglihua-sons-ws2581394",
+      "work_title": "陳書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-chenshu-028-zhanglihua-sons",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-028",
+      "source_id": "s-chenshu-028-zhanglihua-sons-ws2581394",
+      "source": {
+        "title": "陳書卷28·張、龔貴嬪妃所生諸子",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2581394",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2581394",
+        "revision_id": 2581394,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "高熲異說、附註、皇子母序或作者傳首。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi024-wangmeng/ws2581394.wikitext",
+        "raw_file_sha256": "e4a6c9d3897edce6fc1beec7f9361b161dde98145ff61c6b9b15026703f78dd6",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "張、龔貴嬪妃所生諸子"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-nan012-zhanglihua-d-mother虔",
+      "subject_person_id": "icd_mkz_d9n_AD",
+      "object_person_id": "zab_l1p_azm",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "龔貴嬪生",
+        "nan012_zhanglihua_reading": "d-mother虔"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-028",
+          "source_id": "s-chenshu-028-zhanglihua-sons-ws2581394",
+          "chapter_id": "c-chenshu-028-zhanglihua-sons",
+          "paragraph_id": "c-chenshu-028-zhanglihua-sons:p002",
+          "quote": "龔貴嬪生南海王虔、錢塘王恬",
+          "subject_person_mention_id": "c-chenshu-028-zhanglihua-sons:p002:m0007",
+          "object_person_mention_id": "c-chenshu-028-zhanglihua-sons:p002:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-028-zhanglihua-sons:p002",
+            "surface": "龔貴嬪生",
+            "start": 0,
+            "end": 4
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "後主母序。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan012-zhanglihua-d-father虔",
+      "subject_person_id": "icd_mkz_d9n_AD",
+      "object_person_id": "icd_mkz_d9n_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "後主第五子",
+        "nan012_zhanglihua_reading": "d-father虔",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第五子",
+          "source_number": "五",
+          "ordinal": 5,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "icd_mkz_d9n_A",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-028",
+          "source_id": "s-chenshu-028-zhanglihua-sons-ws2581394",
+          "chapter_id": "c-chenshu-028-zhanglihua-sons",
+          "paragraph_id": "c-chenshu-028-zhanglihua-sons:p004",
+          "quote": "南海王虔字承恪，後主第五子也。",
+          "subject_person_mention_id": "c-chenshu-028-zhanglihua-sons:p004:m0003",
+          "object_person_reference_id": "c-chenshu-028-zhanglihua-sons:p004:r0008",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-028-zhanglihua-sons:p004",
+            "surface": "後主第五子",
+            "start": 8,
+            "end": 13
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "後主諸子的各自傳首。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "icd_mkz_d9n_A": "陳叔寶（陳後主）",
+    "icd_mkz_d9n_AD": "陳虔（字承恪，南海王）",
+    "zab_l1p_azm": "龔貴嬪（陳後主妃）"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "nc-nan012-zhanglihua-虔",
+      "person_id": "icd_mkz_d9n_AD",
+      "ming": "虔",
+      "zi": "承恪",
+      "additional_names": [],
+      "chapter_id": "c-chenshu-028-zhanglihua-sons",
+      "paragraph_id": "c-chenshu-028-zhanglihua-sons:p004",
+      "quote": "南海王虔字承恪，後主第五子也。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "surname": "陳",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-028",
+      "source_id": "s-chenshu-028-zhanglihua-sons-ws2581394"
+    }
+  ],
+  "person_ids": [
+    "icd_mkz_d9n_AD"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-nan012-zhanglihua-d-mother虔",
+      "subject_person_id": "icd_mkz_d9n_AD",
+      "object_person_id": "zab_l1p_azm",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "龔貴嬪生",
+        "nan012_zhanglihua_reading": "d-mother虔"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-028",
+          "source_id": "s-chenshu-028-zhanglihua-sons-ws2581394",
+          "chapter_id": "c-chenshu-028-zhanglihua-sons",
+          "paragraph_id": "c-chenshu-028-zhanglihua-sons:p002",
+          "quote": "龔貴嬪生南海王虔、錢塘王恬",
+          "subject_person_mention_id": "c-chenshu-028-zhanglihua-sons:p002:m0007",
+          "object_person_mention_id": "c-chenshu-028-zhanglihua-sons:p002:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-028-zhanglihua-sons:p002",
+            "surface": "龔貴嬪生",
+            "start": 0,
+            "end": 4
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "後主母序。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan012-zhanglihua-d-father虔",
+      "subject_person_id": "icd_mkz_d9n_AD",
+      "object_person_id": "icd_mkz_d9n_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "後主第五子",
+        "nan012_zhanglihua_reading": "d-father虔",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第五子",
+          "source_number": "五",
+          "ordinal": 5,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "icd_mkz_d9n_A",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-028",
+          "source_id": "s-chenshu-028-zhanglihua-sons-ws2581394",
+          "chapter_id": "c-chenshu-028-zhanglihua-sons",
+          "paragraph_id": "c-chenshu-028-zhanglihua-sons:p004",
+          "quote": "南海王虔字承恪，後主第五子也。",
+          "subject_person_mention_id": "c-chenshu-028-zhanglihua-sons:p004:m0003",
+          "object_person_reference_id": "c-chenshu-028-zhanglihua-sons:p004:r0008",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-028-zhanglihua-sons:p004",
+            "surface": "後主第五子",
+            "start": 8,
+            "end": 13
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "後主諸子的各自傳首。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

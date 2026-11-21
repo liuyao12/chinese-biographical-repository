@@ -216,6 +216,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 53,
+      "category": "",
+      "title": "程秉傳",
+      "paragraph_id": "c-sanguozhi-053-chengbing:line027",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "為長史。權聞其名儒，以禮徵，秉既到，拜太子太傅。黃武四年，權為太子登娉周瑜女，秉守太常，迎妃於吳，權親幸秉船，深見優禮。既還，秉從容進說登曰：「婚姻人倫之始，王教之基，是以聖王重之，所以率先眾庶，風化天下，故《詩》美《關睢》，以為稱首。願太子尊禮教於閨房，存《周南》之所詠，",
+      "paragraph_ids": [
+        "c-sanguozhi-053-chengbing:line027"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-053-chengbing:line027:m0078"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-053-chengbing:line027:m0078": "c-sanguozhi-053-chengbing:line027"
+      },
+      "mention_id": "c-sanguozhi-053-chengbing:line027:m0078",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-053-chengbing:line027:m0078",
+          "mention_ids": [
+            "c-sanguozhi-053-chengbing:line027:m0078"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-053",
+      "chapter_id": "c-sanguozhi-053-chengbing",
+      "source_id": "s-sanguozhi-053-chengbing",
+      "work_title": "三國志"
+    },
+    {
       "number": 67,
       "category": "",
       "title": "《宋書》卷六十七謝靈運完整本傳（編輯選錄題）",
@@ -397,6 +432,33 @@
         "collation_witnesses": [
           "source-evidence/sanguozhi052-gu-family/reading.json",
           "source-evidence/sanguozhi052-zhangzhao/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-053-chengbing",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-053",
+      "source_id": "s-sanguozhi-053-chengbing",
+      "source": {
+        "title": "三國志卷五十三·吳書八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2086397",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2086397",
+        "revision_id": 2086397,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第27至27行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi053-scholars/sanguozhi053-ws2086397.wikitext",
+        "raw_file_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
+        "wikitext_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi053-chengbing/reading.json"
         ]
       }
     },
@@ -5836,10 +5898,37 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wu053-chengbing-0",
+      "subject_person_id": "f56_938_997_A",
+      "object_person_id": "f56_938_997",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "周瑜女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-053",
+          "chapter_id": "c-sanguozhi-053-chengbing",
+          "source_id": "s-sanguozhi-053-chengbing",
+          "paragraph_id": "c-sanguozhi-053-chengbing:line027",
+          "quote": "　　程秉字德樞，汝南南頓人也。逮事鄭玄，後避亂交州，與劉熙考論大義，遂博通五經。士燮命為長史。權聞其名儒，以禮徵，秉既到，拜太子太傅。黃武四年，權為太子登娉周瑜女，秉守太常，迎妃於吳，權親幸秉船，深見優禮。既還，秉從容進說登曰：「婚姻人倫之始，王教之基，是以聖王重之，所以率先眾庶，風化天下，故《詩》美《關睢》，以為稱首。願太子尊禮教於閨房，存《周南》之所詠，則道化隆於上，頌聲作於下矣。」登笑曰：「將順其美，匡救其惡，誠所賴於傅君也。」病卒官。著《周易摘》《尚書駁》《論語弼》，凡三萬餘言。",
+          "subject_person_mention_id": "c-sanguozhi-053-chengbing:line027:m0080",
+          "object_person_mention_id": "c-sanguozhi-053-chengbing:line027:m0078"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "f56_938_997": "周瑜",
+    "f56_938_997_A": "周氏〔周瑜女、孫登妃〕",
     "rol_91f_n8c": "周循"
   },
   "dates": [],
@@ -5866,6 +5955,32 @@
           "quote": "吳主權步夫人，臨淮淮陰人也。與丞相騭同族。漢末，其母攜將徙廬江，廬江為孫策所破，皆東渡江，以美麗得幸於權，寵冠後庭。生二女，長曰魯班，字大虎，前配周瑜子循，後配全琮。少曰魯育，字小虎，前配朱據，後配劉纂。",
           "subject_person_mention_id": "c-sanguozhi-050-bu:line031:m0076",
           "object_person_mention_id": "c-sanguozhi-050-bu:line031:m0073"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu053-chengbing-0",
+      "subject_person_id": "f56_938_997_A",
+      "object_person_id": "f56_938_997",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "周瑜女"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-053",
+          "chapter_id": "c-sanguozhi-053-chengbing",
+          "source_id": "s-sanguozhi-053-chengbing",
+          "paragraph_id": "c-sanguozhi-053-chengbing:line027",
+          "quote": "　　程秉字德樞，汝南南頓人也。逮事鄭玄，後避亂交州，與劉熙考論大義，遂博通五經。士燮命為長史。權聞其名儒，以禮徵，秉既到，拜太子太傅。黃武四年，權為太子登娉周瑜女，秉守太常，迎妃於吳，權親幸秉船，深見優禮。既還，秉從容進說登曰：「婚姻人倫之始，王教之基，是以聖王重之，所以率先眾庶，風化天下，故《詩》美《關睢》，以為稱首。願太子尊禮教於閨房，存《周南》之所詠，則道化隆於上，頌聲作於下矣。」登笑曰：「將順其美，匡救其惡，誠所賴於傅君也。」病卒官。著《周易摘》《尚書駁》《論語弼》，凡三萬餘言。",
+          "subject_person_mention_id": "c-sanguozhi-053-chengbing:line027:m0080",
+          "object_person_mention_id": "c-sanguozhi-053-chengbing:line027:m0078"
         }
       ],
       "interpretation_note": "以此來源所述兩端為據。",

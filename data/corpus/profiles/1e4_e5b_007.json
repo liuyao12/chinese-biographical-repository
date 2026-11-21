@@ -58,6 +58,54 @@
         }
       },
       "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu053-t-wu053-zhanghong8",
+      "person_id": "1e4_e5b_007",
+      "kind": "office",
+      "title": "少府",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-053",
+          "chapter_id": "c-sanguozhi-053-zhanghong",
+          "source_id": "s-sanguozhi-053-zhanghong",
+          "paragraph_id": "c-sanguozhi-053-zhanghong:line014",
+          "quote": "　　建安四年，策遣紘奉章至許宮，留為侍御史。少府孔融等皆與親善。曹公聞策薨，欲因喪伐吳。紘諫，以為乘人之喪。既非古義，若其不克，成仇棄好，不如因而厚之。曹公從其言，即表權為討虜將軍，領會稽太守。曹公欲令紘輔權內附，出紘為會稽東部都尉。後權以紘為長史，從徵合肥。權率輕騎將往突敵，紘諫曰：「夫兵者凶器，戰者危事也。今麾下恃盛壯之氣，忽強暴之虜，三軍之眾，莫不寒心，雖斬將搴旗，威震敵場，此乃偏將之任，非主將之宜也。願抑賁、育之勇，懷霸王之計。」權納紘言而止。既還，明年將復出軍，紘又諫曰：「自古帝王受命之君，雖有皇靈佐於上，文德播於下，亦賴武功以昭其勳。然而貴於時動，乃後為威耳。今麾下值四百之厄，有扶危之功，宜且隱息師徒，廣開播殖，任賢使能，務祟寬惠，順天命以行誅，可不勞而定也。」於是遂止不行。",
+          "person_mention_id": "c-sanguozhi-053-zhanghong:line014:m0024"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu053-t-wu053-zhanghong8:a",
+          "paragraph_id": "c-sanguozhi-053-zhanghong:line014",
+          "person_mention_id": "c-sanguozhi-053-zhanghong:line014:m0024",
+          "start": 22,
+          "end": 24,
+          "surface": "少府",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -281,6 +329,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 47,
+      "category": "",
+      "title": "劉敬宣",
+      "paragraph_id": "c-songshu-047-liujingxuan:p015",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "卿未嘗輕交於人，而傾蓋於萬壽，何也？」混曰：「人之相知，豈可以一塗限，孔文舉禮太史子義，夫豈有非之者邪！」",
+      "paragraph_ids": [
+        "c-songshu-047-liujingxuan:p015"
+      ],
+      "mention_ids": [
+        "c-songshu-047-liujingxuan:p015:m0092"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-047-liujingxuan:p015:m0092": "c-songshu-047-liujingxuan:p015"
+      },
+      "mention_id": "c-songshu-047-liujingxuan:p015:m0092",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-047-liujingxuan:p015:m0092",
+          "mention_ids": [
+            "c-songshu-047-liujingxuan:p015:m0092"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "chapter_id": "c-songshu-047-liujingxuan",
+      "source_id": "s-songshu-047-liujingxuan-ws2190557",
+      "work_title": "宋書"
+    },
+    {
       "number": 51,
       "category": "",
       "title": "孫韶傳",
@@ -331,6 +414,70 @@
       "book_id": "b-sanguozhi-051",
       "chapter_id": "c-sanguozhi-051-shao",
       "source_id": "s-sanguozhi-051-shao",
+      "work_title": "三國志"
+    },
+    {
+      "number": 53,
+      "category": "",
+      "title": "張紘傳",
+      "paragraph_id": "c-sanguozhi-053-zhanghong:line014",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　建安四年，策遣紘奉章至許宮，留為侍御史。少府孔融等皆與親善。曹公聞策薨，欲因喪伐吳。紘諫，以為乘人之喪。既非古義，若其不克，成仇棄好，不如因而厚之。曹公從其言，即表權為討虜將軍，領會稽太守。曹公欲令紘輔權內附，出紘為會稽東部都尉。後權以紘為長史，從",
+      "paragraph_ids": [
+        "c-sanguozhi-053-zhanghong:line014",
+        "c-sanguozhi-053-zhanghong:line014-pei02-01",
+        "c-sanguozhi-053-zhanghong:line018-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-053-zhanghong:line014:m0024",
+        "c-sanguozhi-053-zhanghong:line014-pei02-01:m0292",
+        "c-sanguozhi-053-zhanghong:line018-pei01-01:m0151",
+        "c-sanguozhi-053-zhanghong:line018-pei01-01:m0158"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-053-zhanghong:line014:m0024": "c-sanguozhi-053-zhanghong:line014",
+        "c-sanguozhi-053-zhanghong:line014-pei02-01:m0292": "c-sanguozhi-053-zhanghong:line014-pei02-01",
+        "c-sanguozhi-053-zhanghong:line018-pei01-01:m0151": "c-sanguozhi-053-zhanghong:line018-pei01-01",
+        "c-sanguozhi-053-zhanghong:line018-pei01-01:m0158": "c-sanguozhi-053-zhanghong:line018-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-053-zhanghong:line014:m0024",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-053-zhanghong:line014:m0024",
+          "mention_ids": [
+            "c-sanguozhi-053-zhanghong:line014:m0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-053-zhanghong:line014-pei02-01:m0292",
+          "mention_ids": [
+            "c-sanguozhi-053-zhanghong:line014-pei02-01:m0292"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-053-zhanghong:line018-pei01-01:m0151",
+          "mention_ids": [
+            "c-sanguozhi-053-zhanghong:line018-pei01-01:m0151"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-053-zhanghong:line018-pei01-01:m0158",
+          "mention_ids": [
+            "c-sanguozhi-053-zhanghong:line018-pei01-01:m0158"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-053",
+      "chapter_id": "c-sanguozhi-053-zhanghong",
+      "source_id": "s-sanguozhi-053-zhanghong",
       "work_title": "三國志"
     },
     {
@@ -4555,6 +4702,33 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-053-zhanghong",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-053",
+      "source_id": "s-sanguozhi-053-zhanghong",
+      "source": {
+        "title": "三國志卷五十三·吳書八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2086397",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2086397",
+        "revision_id": 2086397,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第12至18行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi053-scholars/sanguozhi053-ws2086397.wikitext",
+        "raw_file_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
+        "wikitext_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi053-zhanghong/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-057-yufan",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-057",
@@ -4579,6 +4753,29 @@
         "collation_witnesses": [
           "source-evidence/sanguozhi057-yufan/reading.json"
         ]
+      }
+    },
+    {
+      "chapter_id": "c-songshu-047-liujingxuan",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "source_id": "s-songshu-047-liujingxuan-ws2190557",
+      "source": {
+        "title": "劉敬宣",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "revision_id": 2190557,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "劉敬宣",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+        "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
       }
     },
     {

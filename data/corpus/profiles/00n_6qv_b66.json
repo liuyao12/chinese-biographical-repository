@@ -9,7 +9,8 @@
     "虞翻",
     "翻",
     "仲翔",
-    "虞仲翔"
+    "虞仲翔",
+    "虜翻"
   ],
   "titles": [
     {
@@ -236,6 +237,41 @@
       "book_id": "b-sanguozhi-052",
       "chapter_id": "c-sanguozhi-052-zhugejin-complete",
       "source_id": "s-sanguozhi-052-zhugejin-complete",
+      "work_title": "三國志"
+    },
+    {
+      "number": 53,
+      "category": "",
+      "title": "闞澤傳",
+      "paragraph_id": "c-sanguozhi-053-kanze:line033-pei01-01",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "吳錄曰：虜翻稱澤曰：「闞生矯傑，蓋蜀之揚雄。」又曰：「闞子儒術德行，亦今之仲舒也。」初，魏文帝即位，權嘗從容問群臣曰：「曹丕以盛年即位，恐孤不能及之，諸卿以為如何？」群臣未對，澤曰：「不及十年，丕其沒矣，大王勿憂",
+      "paragraph_ids": [
+        "c-sanguozhi-053-kanze:line033-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-053-kanze:line033-pei01-01:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-053-kanze:line033-pei01-01:m0004": "c-sanguozhi-053-kanze:line033-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-053-kanze:line033-pei01-01:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-053-kanze:line033-pei01-01:m0004",
+          "mention_ids": [
+            "c-sanguozhi-053-kanze:line033-pei01-01:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-053",
+      "chapter_id": "c-sanguozhi-053-kanze",
+      "source_id": "s-sanguozhi-053-kanze",
       "work_title": "三國志"
     },
     {
@@ -1506,6 +1542,33 @@
         "wikitext_sha256": "3f1535985be18091725a92370766f8af67d71e26e611491b169a4e0d19dc1da9",
         "collation_witnesses": [
           "source-evidence/sanguozhi052-zhugejin/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-053-kanze",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-053",
+      "source_id": "s-sanguozhi-053-kanze",
+      "source": {
+        "title": "三國志卷五十三·吳書八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2086397",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2086397",
+        "revision_id": 2086397,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第33至33行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi053-scholars/sanguozhi053-ws2086397.wikitext",
+        "raw_file_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
+        "wikitext_sha256": "a50889bcf489ad7886d32c3e937c45ea9f9bb5032888b594400ebaeb0121a447",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi053-kanze/reading.json"
         ]
       }
     },

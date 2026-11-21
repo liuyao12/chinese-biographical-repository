@@ -461,3 +461,20 @@
 王瑒傳殿本三上第十欄作「永定九年遷守五兵尚書」，數位作永定元年。四上第二欄作「太建六年卒」，數位據宣帝紀改八年。本紀太建七年十二月壬戌仍遷瑒為尚書左僕射，八年庚寅記卒，月份「五月」是校者所補。王瑜官至侍中的年齡，殿本作五十，《南史》作三十，數位《陳書》以後者校改；《陳書》另記卒時四十。
 
 [吳宗室全卷](../source-evidence/sanguozhi051-roll-close/reading.json) · [章要兒](../source-evidence/nan012-zhangyaoer/reading.json) · [沈妙容](../source-evidence/nan012-shenmiaorong/reading.json) · [柳敬言殿本](../source-evidence/nan012-liujingyan/wyd244-reading.json) · [王瑒、王瑜殿本二十六欄](../source-evidence/chenshu023-shenwanglu/wang-brothers-wuyingdian.json) · [兩傳逐句覆核](../source-evidence/chenshu023-shenwanglu/wang-brothers-reading.json)
+
+## 第三十一批　吳學士、劉宋諸將與陳朝后族
+
+本批新核六十二項。清冊已列七十一卷、一千二百零三項，九百六十九項備有全文，九百六十八項完成人物初讀，九百六十二項完成逐項覆核。
+
+| 卷篇 | 新核傳目 | 原文與校勘 |
+| --- | ---: | --- |
+| 《三國志》卷五十三 | 21 | 固定數位本九篇有題傳與十二則附敘各歸原句，另錄卷末評。殿本卷首在張紘題下注「子玄、玄子尚」，在薛綜題下注「子珝、瑩」。 |
+| 《宋書》卷四十七 | 24 | 劉懷肅、孟懷玉、劉敬宣、檀祗諸篇及附敘共三百一十八句，卷末史評另兩句。保留原有四庫本的十段、一百六十五處姓名標記，逐處對讀新收本。 |
+| 《南史》卷十二、《陳書》卷七 | 7 | 沈婺華及張麗華兩書主從傳界閉合。《南史》十四原題、二十九項，《陳書》六原題、十八項。另收《陳書》武英殿本七十六欄，所錄四十四段及於魏徵補敘、史臣論、卷末考證。 |
+| 《陳書》卷二十三 | 10 | 續上批王瑒、王瑜，核沈君理、陸繕及兩家附敘。全卷三個原題、九則附敘，十六行正文共二千八百零二個原始字位各有歸屬。卷末史論所引「其儀罔忒」與《詩·鳲鳩》「其儀不忒」並存。 |
+
+劉敬宣解職後月給三十萬錢。其女出嫁時，劉裕賜三百萬錢、雜綵千匹，見《宋書》卷四十八毛脩之傳追敘，未載婚年與婿名。卷四十七記嗣子為劉祖，《南史》作劉光祖。敬宣遇刺，本傳記王猛子動手，《晉書》安帝紀記司馬道賜殺敬宣，義熙十一年四月乙卯。
+
+沈君理子遵儉早卒，以弟君高之子遵禮承嗣。女婺華納為太子妃，《陳書》宣帝紀繫太建元年七月辛卯，君理傳作二年，后傳作三年。陸繕之父，武英殿本作任，卷末考證記一本作倕。《南史》明載繕為倕兄子、父為任。陸繕卒於太建十二年夏四月癸亥，報年六十三。
+
+[吳學士全卷](../source-evidence/sanguozhi053-roll-close/reading.json) · [宋書卷四十七傳界](../source-evidence/song047-complete/volume-boundaries.json) · [劉敬宣逐句及外證](../source-evidence/song047-complete/liujingxuan-reading.json) · [陳書后妃殿本](../source-evidence/chen007-wuying-consorts/column-collation.json) · [張麗華兩書](../source-evidence/nan012-zhanglihua/reading.json) · [沈王陸三傳卷界](../source-evidence/chenshu023-shenwanglu/volume-boundaries.json) · [沈君理](../source-evidence/chenshu023-shenwanglu/shenjunli-reading.json) · [陸繕殿本](../source-evidence/chenshu023-shenwanglu/lushan-wuyingdian.json)

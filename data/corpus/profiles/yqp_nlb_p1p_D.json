@@ -273,6 +273,54 @@
       "interpretation_note": "授封、用稱、請封與條件許諾分開；張卿萬戶侯未記實授，呂產請立與已王語不冒稱同一明示授封事件。未知任期不由卒日或首次用稱推端點。",
       "reviewer": "Codex（AI 代理）",
       "period": "漢六年春 → 未定"
+    },
+    {
+      "id": "th-songshu-047-liujingxuan-1-12",
+      "title": "楚元王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "person_id": "yqp_nlb_p1p_D",
+      "attestations": [
+        {
+          "id": "th-songshu-047-liujingxuan-1-12:a",
+          "paragraph_id": "c-songshu-047-liujingxuan:p001",
+          "start": 12,
+          "end": 15,
+          "surface": "楚元王",
+          "person_mention_id": "c-songshu-047-liujingxuan:p001:m0015",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-047",
+          "chapter_id": "c-songshu-047-liujingxuan",
+          "source_id": "s-songshu-047-liujingxuan-ws2190557",
+          "paragraph_id": "c-songshu-047-liujingxuan:p001",
+          "quote": "劉敬宣字萬壽，彭城人，漢楚元王交後也。祖建，征虜將軍。父牢之，鎮北將軍。敬宣八歲喪母，晝夜號泣，中表異之，輔國將軍桓序鎮蕪湖，牢之參序軍事。四月八日，敬宣見眾人灌佛，乃下頭上金鏡以為母灌，因悲泣不自勝。序歎息，謂牢之曰：「卿此兒既為家之孝子，必為國之忠臣。」起家為王恭前軍參軍，又參會稽世子元顯征虜軍事。",
+          "person_mention_id": "c-songshu-047-liujingxuan:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -537,6 +585,41 @@
       "chapter_id": "c-shiji-011-jingdi",
       "source_id": "s-shiji-011-jingdi",
       "work_title": "史記"
+    },
+    {
+      "number": 47,
+      "category": "",
+      "title": "劉敬宣",
+      "paragraph_id": "c-songshu-047-liujingxuan:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "劉敬宣字萬壽，彭城人，漢楚元王交後也。祖建，征虜將軍。父牢之，鎮北將軍。敬宣八歲喪母，晝夜號泣，中表異之，輔國將軍桓序鎮蕪湖，牢之參序軍事。四月八日，敬宣見眾人灌佛，乃下頭上金鏡以為母灌，因悲泣不自勝。序歎息，謂牢之曰：「卿此兒既為",
+      "paragraph_ids": [
+        "c-songshu-047-liujingxuan:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-047-liujingxuan:p001:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-047-liujingxuan:p001:m0015": "c-songshu-047-liujingxuan:p001"
+      },
+      "mention_id": "c-songshu-047-liujingxuan:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-047-liujingxuan:p001:m0015",
+          "mention_ids": [
+            "c-songshu-047-liujingxuan:p001:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "chapter_id": "c-songshu-047-liujingxuan",
+      "source_id": "s-songshu-047-liujingxuan-ws2190557",
+      "work_title": "宋書"
     },
     {
       "number": 50,
@@ -1145,6 +1228,29 @@
           "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
           "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-047-liujingxuan",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "source_id": "s-songshu-047-liujingxuan-ws2190557",
+      "source": {
+        "title": "劉敬宣",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "revision_id": 2190557,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "劉敬宣",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+        "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
       }
     },
     {

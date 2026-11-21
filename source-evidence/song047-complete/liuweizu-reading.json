@@ -1,0 +1,114 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2190531,
+      "raw_path": "source-evidence/song047-complete/external/nanshi017-ws2190531.wikitext",
+      "line": 42,
+      "start": 116,
+      "end": 133,
+      "source_quote": "無子，弟懷慎以子蔚祖嗣，位江夏內史",
+      "raw_sha256": "1f2b513aa6ac93c96f9742b6b9e53bd5372c7466f990caf3ca4cab4a8d0fe843",
+      "interpretation": "南17同見。"
+    }
+  ],
+  "print_readings": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf#page=58",
+      "catalog_record": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12779_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC144%E5%86%8A.pdf",
+      "pdf_sha1": "126c34411892f6943a575a15ee46fb0064bd5b7b",
+      "pdf_sha256": "316229a8587d188289a7fa2dac393760437ca7facf5deb7a3bfa09770b4a1ac3",
+      "image_sha256": "1b184150b24a1d71dfc2038d31950e16598b2c60348d478b4b892e9f8ee41178",
+      "edition": "清乾隆武英殿本《宋書》，國圖第144冊。",
+      "page": 58,
+      "half": "L",
+      "folio": "二上",
+      "columns_from_right": "7–8",
+      "source_quote": "無子弟懷慎以子蔚祖嗣封官至江夏內史蔚祖卒",
+      "reading": "受封之子與卒。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-songshu-047",
+      "title": "劉蔚祖",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-songshu-047-liuweizu",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "first_line": 15,
+      "last_line": 15,
+      "start_codepoint": 133,
+      "end_codepoint": 153,
+      "opening": "無子，弟懷慎以子蔚祖嗣封",
+      "closing": "蔚祖嗣封，官至江夏內史。",
+      "continuation_spans": [
+        {
+          "first_line": 17,
+          "last_line": 17,
+          "start_codepoint": 0,
+          "end_codepoint": 4,
+          "opening": "蔚祖卒，",
+          "closing": "蔚祖卒，"
+        }
+      ],
+      "parent_heading": "劉懷肅",
+      "chapter_path": "corpus/songshu/047-liuweizu.json",
+      "paragraph_ids": [
+        "c-songshu-047-liuweizu:p001",
+        "c-songshu-047-liuweizu:p002"
+      ],
+      "item_review_path": "source-evidence/song047-complete/liuweizu-reading.json"
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-songshu-047-liuweizu:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "myg_cco_ng6",
+      "source_quote": "無子，弟懷慎以子蔚祖嗣封，官至江夏內史。",
+      "reading": "懷肅無子，弟懷慎以親生子蔚祖嗣其封，蔚祖官至江夏內史。",
+      "note": "懷肅無子，弟懷慎以親生子蔚祖嗣其封，蔚祖官至江夏內史。",
+      "paragraph_id": "c-songshu-047-liuweizu:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 20,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-liuweizu:received_sentence2-0",
+      "kind": "received_sentence",
+      "person_id": "myg_cco_ng6",
+      "source_quote": "蔚祖卒，",
+      "reading": "蔚祖卒，接子道存嗣。",
+      "note": "蔚祖卒，接子道存嗣。",
+      "paragraph_id": "c-songshu-047-liuweizu:p002",
+      "start_codepoint": 0,
+      "end_codepoint": 4,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-songshu-047-liuweizu:kinship_and_succession1-3",
+      "kind": "kinship_and_succession",
+      "person_id": "myg_cco_ng6",
+      "source_quote": "弟懷慎以子蔚祖嗣封",
+      "reading": "源詞明生父懷慎，所襲為懷肅東興縣侯；未直書作嗣子，繼封亦不強推過房。",
+      "note": "源詞明生父懷慎，所襲為懷肅東興縣侯；未直書作嗣子，繼封亦不強推過房。",
+      "paragraph_id": "c-songshu-047-liuweizu:p001",
+      "start_codepoint": 3,
+      "end_codepoint": 12,
+      "human_reviewed": false,
+      "birth_father": "tyh_fzo_pb6",
+      "prior_holder": "olf_c6j_hmg",
+      "successor": "myg_cco_ng6",
+      "adoptive_father": null
+    }
+  ],
+  "identity_limits": []
+}

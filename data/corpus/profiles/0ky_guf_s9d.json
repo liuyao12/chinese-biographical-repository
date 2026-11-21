@@ -9,7 +9,56 @@
     "劉藩",
     "劉籓"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-songshu-047-liujingxuan-13-39",
+      "title": "兗州刺史",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "0ky_guf_s9d",
+      "attestations": [
+        {
+          "id": "th-songshu-047-liujingxuan-13-39:a",
+          "paragraph_id": "c-songshu-047-liujingxuan:p013",
+          "start": 39,
+          "end": 43,
+          "surface": "兗州刺史",
+          "person_mention_id": "c-songshu-047-liujingxuan:p013:m0043",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-047",
+          "chapter_id": "c-songshu-047-liujingxuan",
+          "source_id": "s-songshu-047-liujingxuan-ws2190557",
+          "paragraph_id": "c-songshu-047-liujingxuan:p013",
+          "quote": "五年，高祖伐鮮卑，除中軍諮議參軍，加冠軍將軍。從至臨朐，慕容超出軍距戰，敬宣與兗州刺史劉藩等奮擊，大破之。龍驤將軍孟龍符戰沒，敬宣并領其眾，圍廣固，屢獻規略。",
+          "person_mention_id": "c-songshu-047-liujingxuan:p013:m0043"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -115,6 +164,76 @@
       "book_id": "b-songshu-046",
       "chapter_id": "c-songshu-046-zhangshao",
       "source_id": "s-songshu-046-zhangshao",
+      "work_title": "宋書"
+    },
+    {
+      "number": 47,
+      "category": "",
+      "title": "劉敬宣",
+      "paragraph_id": "c-songshu-047-liujingxuan:p013",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，除中軍諮議參軍，加冠軍將軍。從至臨朐，慕容超出軍距戰，敬宣與兗州刺史劉藩等奮擊，大破之。龍驤將軍孟龍符戰沒，敬宣并領其眾，圍廣固，屢獻規略。",
+      "paragraph_ids": [
+        "c-songshu-047-liujingxuan:p013"
+      ],
+      "mention_ids": [
+        "c-songshu-047-liujingxuan:p013:m0043"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-047-liujingxuan:p013:m0043": "c-songshu-047-liujingxuan:p013"
+      },
+      "mention_id": "c-songshu-047-liujingxuan:p013:m0043",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-047-liujingxuan:p013:m0043",
+          "mention_ids": [
+            "c-songshu-047-liujingxuan:p013:m0043"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "chapter_id": "c-songshu-047-liujingxuan",
+      "source_id": "s-songshu-047-liujingxuan-ws2190557",
+      "work_title": "宋書"
+    },
+    {
+      "number": 47,
+      "category": "",
+      "title": "孟龍符",
+      "paragraph_id": "c-songshu-047-menglongfu:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "覆舟三戰，並有功。參鎮軍軍事，封平昌縣五等子，加寧遠將軍、淮陵太守。與劉藩、向彌征桓歆、桓石康，破斬之。除建威將軍、東海太守。索虜斛蘭、索度真侵邊，彭、沛騷擾，高祖遣龍符、建威將軍道憐北討，一戰破之。追斛蘭至光水溝邊，被創奔走。",
+      "paragraph_ids": [
+        "c-songshu-047-menglongfu:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-047-menglongfu:p001:m0092"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-047-menglongfu:p001:m0092": "c-songshu-047-menglongfu:p001"
+      },
+      "mention_id": "c-songshu-047-menglongfu:p001:m0092",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-047-menglongfu:p001:m0092",
+          "mention_ids": [
+            "c-songshu-047-menglongfu:p001:m0092"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "chapter_id": "c-songshu-047-menglongfu",
+      "source_id": "s-songshu-047-menglongfu-ws2190557",
       "work_title": "宋書"
     },
     {
@@ -258,6 +377,52 @@
         "text_scope": "complete_biography_unit",
         "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
         "raw_file_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-047-liujingxuan",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "source_id": "s-songshu-047-liujingxuan-ws2190557",
+      "source": {
+        "title": "劉敬宣",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "revision_id": 2190557,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "劉敬宣",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+        "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-047-menglongfu",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "source_id": "s-songshu-047-menglongfu-ws2190557",
+      "source": {
+        "title": "孟龍符",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2190557",
+        "revision_id": 2190557,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "孟龍符",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wanghui/ws2190557.wikitext",
+        "raw_file_sha256": "cc75864d017c88ec8c285b2b7772125dc7b10e0b49eed8f8dfa472db5db8cc20"
       }
     }
   ],

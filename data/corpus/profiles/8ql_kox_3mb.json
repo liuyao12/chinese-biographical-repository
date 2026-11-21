@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "8ql_kox_3mb",
+  "canonical_person_id": "8ql_kox_3mb",
+  "label": "魏長賢（魏徵父）",
+  "identity_note": "舊唐書魏徵傳載父長賢。",
+  "review": "ai_provisional",
+  "names": [
+    "長賢"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 71,
+      "category": "",
+      "title": "魏徵本傳父與名、字",
+      "paragraph_id": "c-jiutangshu-071-zhanglihua-weizheng:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "魏徵，字玄成，鉅鹿曲城人也。父長賢，北齊屯留令。",
+      "paragraph_ids": [
+        "c-jiutangshu-071-zhanglihua-weizheng:p001"
+      ],
+      "mention_ids": [
+        "c-jiutangshu-071-zhanglihua-weizheng:p001:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-jiutangshu-071-zhanglihua-weizheng:p001:m0015": "c-jiutangshu-071-zhanglihua-weizheng:p001"
+      },
+      "mention_id": "c-jiutangshu-071-zhanglihua-weizheng:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jiutangshu-071-zhanglihua-weizheng:p001:m0015",
+          "mention_ids": [
+            "c-jiutangshu-071-zhanglihua-weizheng:p001:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jiutangshu",
+      "book_id": "b-jiutangshu-071",
+      "chapter_id": "c-jiutangshu-071-zhanglihua-weizheng",
+      "source_id": "s-jiutangshu-071-zhanglihua-weizheng-ws2020238",
+      "work_title": "舊唐書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jiutangshu-071-zhanglihua-weizheng",
+      "work_id": "w-jiutangshu",
+      "book_id": "b-jiutangshu-071",
+      "source_id": "s-jiutangshu-071-zhanglihua-weizheng-ws2020238",
+      "source": {
+        "title": "舊唐書卷71·魏徵本傳父與名、字",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2020238",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2020238",
+        "revision_id": 2020238,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "高熲異說、附註、皇子母序或作者傳首。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan012-zhanglihua/ws2020238.wikitext",
+        "raw_file_sha256": "addfdc48c5ac86e0f5c7ed1bfa8109bdb0d89afcbe8e58cb3add6552d66beee3",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "魏徵本傳父與名、字"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-nan012-zhanglihua-w-father",
+      "subject_person_id": "8ql_kox_3mb_A",
+      "object_person_id": "8ql_kox_3mb",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父長賢",
+        "nan012_zhanglihua_reading": "w-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jiutangshu",
+          "book_id": "b-jiutangshu-071",
+          "source_id": "s-jiutangshu-071-zhanglihua-weizheng-ws2020238",
+          "chapter_id": "c-jiutangshu-071-zhanglihua-weizheng",
+          "paragraph_id": "c-jiutangshu-071-zhanglihua-weizheng:p001",
+          "quote": "魏徵，字玄成，鉅鹿曲城人也。父長賢，北齊屯留令。",
+          "subject_person_mention_id": "c-jiutangshu-071-zhanglihua-weizheng:p001:m0000",
+          "object_person_mention_id": "c-jiutangshu-071-zhanglihua-weizheng:p001:m0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-jiutangshu-071-zhanglihua-weizheng:p001",
+            "surface": "父長賢",
+            "start": 14,
+            "end": 17
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "舊唐書傳首記父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "8ql_kox_3mb": "魏長賢（魏徵父）",
+    "8ql_kox_3mb_A": "魏徵（字玄成，鄭國公）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "8ql_kox_3mb"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-nan012-zhanglihua-w-father",
+      "subject_person_id": "8ql_kox_3mb_A",
+      "object_person_id": "8ql_kox_3mb",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父長賢",
+        "nan012_zhanglihua_reading": "w-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jiutangshu",
+          "book_id": "b-jiutangshu-071",
+          "source_id": "s-jiutangshu-071-zhanglihua-weizheng-ws2020238",
+          "chapter_id": "c-jiutangshu-071-zhanglihua-weizheng",
+          "paragraph_id": "c-jiutangshu-071-zhanglihua-weizheng:p001",
+          "quote": "魏徵，字玄成，鉅鹿曲城人也。父長賢，北齊屯留令。",
+          "subject_person_mention_id": "c-jiutangshu-071-zhanglihua-weizheng:p001:m0000",
+          "object_person_mention_id": "c-jiutangshu-071-zhanglihua-weizheng:p001:m0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-jiutangshu-071-zhanglihua-weizheng:p001",
+            "surface": "父長賢",
+            "start": 14,
+            "end": 17
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "舊唐書傳首記父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
