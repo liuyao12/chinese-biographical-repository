@@ -199,6 +199,10 @@ def parent_through_paternal_uncle_valid(member, rows, assertions, chapters):
 
 
 def explicit_maternal_uncle_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('reading_basis', {}).get('kind') == 'named_nephew_visits_named_uncle':
+        try: from scripts.jin067_heir import verify
+        except ImportError: from jin067_heir import verify
+        return verify(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_term') == '尚之甥' and assertion.get('id') == 'a-jin079-shang-chu-niece':
         try:
             from scripts.jin079_shang_xuan import kin_valid as checked

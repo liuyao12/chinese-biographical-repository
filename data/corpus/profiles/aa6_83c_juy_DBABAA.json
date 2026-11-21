@@ -6,9 +6,58 @@
   "identity_note": "只依宋085完整單元及上下文辨識；未補本傳未見之本名、親屬或年月。",
   "review": "ai_provisional",
   "names": [
-    "颺"
+    "颺",
+    "揚"
   ],
   "titles": [
+    {
+      "id": "th-nanshi011-xiefanjing-2",
+      "person_id": "aa6_83c_juy_DBABAA",
+      "title": "車騎功曹",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-xiefanjing",
+          "source_id": "s-nanshi-011-xiefanjing-ws2288359",
+          "paragraph_id": "c-nanshi-011-xiefanjing:p001",
+          "quote": "順謝皇后諱梵境，陳郡陽夏人。右光祿大夫莊之孫也。父揚，車騎功曹。升明二年，立為皇后。順帝禪位，降為汝陰王妃。祖莊自有傳。",
+          "person_mention_id": "c-nanshi-011-xiefanjing:p001:m0025"
+        }
+      ],
+      "attestations": [
+        {
+          "paragraph_id": "c-nanshi-011-xiefanjing:p001",
+          "surface": "車騎功曹",
+          "start": 27,
+          "end": 31,
+          "id": "th-nanshi011-xiefanjing-2:a",
+          "person_mention_id": "c-nanshi-011-xiefanjing:p001:m0025",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "揚在此段的官序。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-song085-f13-067",
       "person_id": "aa6_83c_juy_DBABAA",
@@ -100,6 +149,41 @@
     }
   ],
   "occurrences": [
+    {
+      "number": 11,
+      "category": "",
+      "title": "順皇后謝梵境",
+      "paragraph_id": "c-nanshi-011-xiefanjing:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "順謝皇后諱梵境，陳郡陽夏人。右光祿大夫莊之孫也。父揚，車騎功曹。升明二年，立為皇后。順帝禪位，降為汝陰王妃。祖莊自有傳。",
+      "paragraph_ids": [
+        "c-nanshi-011-xiefanjing:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-011-xiefanjing:p001:m0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-011-xiefanjing:p001:m0025": "c-nanshi-011-xiefanjing:p001"
+      },
+      "mention_id": "c-nanshi-011-xiefanjing:p001:m0025",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-011-xiefanjing:p001:m0025",
+          "mention_ids": [
+            "c-nanshi-011-xiefanjing:p001:m0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-011",
+      "chapter_id": "c-nanshi-011-xiefanjing",
+      "source_id": "s-nanshi-011-xiefanjing-ws2288359",
+      "work_title": "南史"
+    },
     {
       "number": 43,
       "category": "",
@@ -199,6 +283,34 @@
             "{{!|𤅢|左「氵」右「𦿈」}}": "𤅢"
           },
           "extraction_note": "僅展開字形模板與YL日期連結，去兩全形縮排；不轉瀹、不改鞭除身或爲/爲等原字。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-011-xiefanjing",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-011",
+      "source_id": "s-nanshi-011-xiefanjing-ws2288359",
+      "source": {
+        "title": "順皇后謝梵境",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2288359",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2288359",
+        "revision_id": 2288359,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位轉錄。所據數位底本另待校。",
+        "extent": "固定修訂第88行，傳首至莊自有傳。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "順皇后謝梵境",
+        "raw_path": "source-evidence/nanshi022-wang/nan011-ws2288359.wikitext",
+        "raw_file_sha256": "056a4790420554786f40b92b14255aeec0a0eb168722bfeda19ad5f78f6363d4",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "顯示維基連結文字，照錄原字、標點及每個轉寫字的來源位置。"
         }
       }
     },
@@ -2228,6 +2340,33 @@
       "interpretation_note": "四兄逐人皆年長於𤅢，未記四兄彼此排序、絕對排行或同母。"
     },
     {
+      "id": "a-nanshi011-xiefanjing-2",
+      "predicate": "father",
+      "subject_person_id": "aa6_83c_juy_DBABAAA",
+      "object_person_id": "aa6_83c_juy_DBABAA",
+      "qualifiers": {
+        "source_term": "父揚，車騎功曹",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-xiefanjing",
+          "source_id": "s-nanshi-011-xiefanjing-ws2288359",
+          "paragraph_id": "c-nanshi-011-xiefanjing:p001",
+          "quote": "順謝皇后諱梵境，陳郡陽夏人。右光祿大夫莊之孫也。父揚，車騎功曹。升明二年，立為皇后。順帝禪位，降為汝陰王妃。祖莊自有傳。",
+          "subject_person_mention_id": "c-nanshi-011-xiefanjing:p001:m0005",
+          "object_person_mention_id": "c-nanshi-011-xiefanjing:p001:m0025"
+        }
+      ],
+      "interpretation_note": "本傳父名作揚，謝莊傳之颺為莊長子、順帝后父。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-song085-zhuang-002",
       "subject_person_id": "aa6_83c_juy_DBABAA",
       "predicate": "father",
@@ -2292,7 +2431,7 @@
   "related_people": {
     "aa6_83c_juy_DBABA": "謝莊",
     "aa6_83c_juy_DBABAA": "謝颺",
-    "aa6_83c_juy_DBABAAA": "順帝皇后（颺女，未名）",
+    "aa6_83c_juy_DBABAAA": "謝梵境〔宋順帝皇后〕",
     "aa6_83c_juy_DBABAC": "謝𤅢〔字義潔〕"
   },
   "dates": [],
@@ -2389,6 +2528,33 @@
         }
       ],
       "interpretation_note": "四兄逐人皆年長於𤅢，未記四兄彼此排序、絕對排行或同母。"
+    },
+    {
+      "id": "a-nanshi011-xiefanjing-2",
+      "predicate": "father",
+      "subject_person_id": "aa6_83c_juy_DBABAAA",
+      "object_person_id": "aa6_83c_juy_DBABAA",
+      "qualifiers": {
+        "source_term": "父揚，車騎功曹",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-xiefanjing",
+          "source_id": "s-nanshi-011-xiefanjing-ws2288359",
+          "paragraph_id": "c-nanshi-011-xiefanjing:p001",
+          "quote": "順謝皇后諱梵境，陳郡陽夏人。右光祿大夫莊之孫也。父揚，車騎功曹。升明二年，立為皇后。順帝禪位，降為汝陰王妃。祖莊自有傳。",
+          "subject_person_mention_id": "c-nanshi-011-xiefanjing:p001:m0005",
+          "object_person_mention_id": "c-nanshi-011-xiefanjing:p001:m0025"
+        }
+      ],
+      "interpretation_note": "本傳父名作揚，謝莊傳之颺為莊長子、順帝后父。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     },
     {
       "id": "a-song085-zhuang-002",

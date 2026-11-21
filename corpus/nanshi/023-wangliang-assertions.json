@@ -1,0 +1,205 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-023-wangliang",
+  "assertions": [
+    {
+      "id": "a-nan023-wangliang-liang-you",
+      "subject_person_id": "7r6_k52_qji_ABAACAABDA",
+      "object_person_id": "7r6_k52_qji_ABAACAABD",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父攸",
+        "nan023_wangliang_reading": "liang-you",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangliang-ws2478204",
+          "chapter_id": "c-nanshi-023-wangliang",
+          "paragraph_id": "c-nanshi-023-wangliang:p001",
+          "quote": "亮字奉叔，瑩從父弟也。父攸字昌達，仕宋位太宰中郎，贈給事黃門侍郎。亮以名家子，宋末選尚公主，拜駙馬都尉。歷任秘書丞。齊竟陵王子良開西邸，延才俊，以為士林館，使工圖其像，亮亦預焉。",
+          "subject_person_mention_id": "c-nanshi-023-wangliang:p001:m0000",
+          "object_person_mention_id": "c-nanshi-023-wangliang:p001:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文指王攸字昌達。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangliang-liang-wife",
+      "subject_person_id": "7r6_k52_qji_ABAACAABDA",
+      "object_person_id": "zvv_mxq_4os",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "宋末選尚公主",
+        "nan023_wangliang_reading": "liang-wife"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangliang-ws2478204",
+          "chapter_id": "c-nanshi-023-wangliang",
+          "paragraph_id": "c-nanshi-023-wangliang:p001",
+          "quote": "亮字奉叔，瑩從父弟也。父攸字昌達，仕宋位太宰中郎，贈給事黃門侍郎。亮以名家子，宋末選尚公主，拜駙馬都尉。歷任秘書丞。齊竟陵王子良開西邸，延才俊，以為士林館，使工圖其像，亮亦預焉。",
+          "subject_person_mention_id": "c-nanshi-023-wangliang:p001:m0033",
+          "object_person_mention_id": "c-nanshi-023-wangliang:p001:m0043"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "亮與未名宋公主；未記公主父母、封邑。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangliang-liang-mother",
+      "subject_person_id": "7r6_k52_qji_ABAACAABDA",
+      "object_person_id": "mp1_n0s_rk5",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "遭母憂",
+        "nan023_wangliang_reading": "liang-mother"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangliang-ws2478204",
+          "chapter_id": "c-nanshi-023-wangliang",
+          "paragraph_id": "c-nanshi-023-wangliang:p007",
+          "quote": "四年，帝宴華光殿，求讜言。尚書左丞范縝起曰：「司徒謝朏本有虛名，陛下擢之如此；前尚書令王亮頗有政體，陛下棄之如彼。愚臣所不知。」帝變色曰：「卿可更餘言。」縝固執不已，帝不悅。御史中丞任昉因奏縝妄陳褒貶，請免縝官。詔可。亮因屏居閉掃，不通賓客。遭母憂，居喪盡禮。後為中書監，加散騎常侍。卒，諡煬子。",
+          "subject_person_mention_id": "c-nanshi-023-wangliang:p007:m0109",
+          "object_person_mention_id": "c-nanshi-023-wangliang:p007:m0122"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "王亮遭未名母喪，未定生母或繼母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangliang-liang-ying",
+      "subject_person_id": "7r6_k52_qji_ABAACAABDA",
+      "object_person_id": "7r6_k52_qji_ABAACAABCA",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "亮字奉叔，瑩從父弟也。",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": {
+            "kind": "paternal_first_cousins",
+            "common_ancestor_depth": {
+              "subject": 2,
+              "reference": 2
+            }
+          },
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "source_clause_binding": {
+          "kind": "biography_head_named_congfudi_of_named_reference",
+          "source_layer": "received_text",
+          "start": 0,
+          "end": 11
+        },
+        "literary_usage": {
+          "kind": "literary_usage",
+          "qualification": "preferred_normal_classical_usage_not_genetic_verification",
+          "citations": [
+            {
+              "work": "爾雅",
+              "layer": "received_text",
+              "repository": "kanripo/KR1j0002",
+              "commit": "d05339be5792db658c46460693891d9c8fc6a2b7",
+              "path": "KR1j0002_004.txt",
+              "line": 24,
+              "quote": "兄之子弟之子相謂爲從父晜弟",
+              "raw_file_sha256": "a39110fdf91a7ce10fa9845434baea54a82881376586500a7d72c64af7416091"
+            },
+            {
+              "work": "儀禮",
+              "layer": "Zheng_Xuan_commentary",
+              "repository": "kanripo/KR1d0026",
+              "commit": "02e56def7356f6bba1ed17b319818923df906491",
+              "path": "KR1d0026_011.txt",
+              "line": 264,
+              "quote": "世父叔父/之子也其",
+              "raw_file_sha256": "b5c756cc386dd75826a6aeba84f5311985e6755a04986aa6c6548e7f95a846f5"
+            }
+          ]
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangliang-ws2478204",
+          "chapter_id": "c-nanshi-023-wangliang",
+          "paragraph_id": "c-nanshi-023-wangliang:p001",
+          "quote": "亮字奉叔，瑩從父弟也。父攸字昌達，仕宋位太宰中郎，贈給事黃門侍郎。亮以名家子，宋末選尚公主，拜駙馬都尉。歷任秘書丞。齊竟陵王子良開西邸，延才俊，以為士林館，使工圖其像，亮亦預焉。",
+          "subject_person_mention_id": "c-nanshi-023-wangliang:p001:m0000",
+          "object_person_mention_id": "c-nanshi-023-wangliang:p001:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "從父弟按典籍通常用法，指兩人為父族同祖的從兄弟，亮較幼。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangliang-emperor-neidi",
+      "subject_person_id": "w4m_9tw_147",
+      "object_person_id": "q63_4br_3of_A",
+      "predicate": "maternal_cousin",
+      "qualifiers": {
+        "source_term": "以祏帝之內弟",
+        "nan023_wangliang_reading": "emperor-neidi",
+        "kinship_structure": {
+          "lineage": "maternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "maternal_path": "mother_brother_son",
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "older"
+        },
+        "relative_birth_order": {
+          "older_person_id": "w4m_9tw_147",
+          "younger_person_id": "q63_4br_3of_A",
+          "scope": "maternal_cousins",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangliang-ws2478204",
+          "chapter_id": "c-nanshi-023-wangliang",
+          "paragraph_id": "c-nanshi-023-wangliang:p003",
+          "quote": "建武末，累遷吏部尚書。時右僕射江祏管朝政，多所進拔，為士所歸。亮自以身居選部，每持異議。始亮未為吏部郎時，以祏帝之內弟，故深友祏。祏為之延譽，益為帝所器重。至是與祏情好攜薄，祏昵之如初。及祏遇誅，群小放命，凡所除拜，悉由內寵，亮弗能止。外若詳審，內無明鑒，所選用，拘資次而已，當時不謂為能。後為尚書左僕射。及東昏肆虐，亮取容以免。",
+          "subject_person_reference_id": "c-nanshi-023-wangliang:p003:r0055",
+          "object_person_mention_id": "c-nanshi-023-wangliang:p003:m0054"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "帝指齊明帝；南史四十七明指祏姑生明帝、祏父為帝舅。內弟由帝母家通往江祏。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

@@ -1148,6 +1148,30 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-004-jin067-xilong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-004",
+      "source_id": "s-jinshu-004-jin067-xilong",
+      "source": {
+        "title": "晉書惠帝紀",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2317129",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2317129",
+        "revision_id": 2317129,
+        "accessed_on": "2026-11-21",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "raw_path": "source-evidence/jin067-xilong/external/j4-ws2317129.wikitext",
+        "wikitext_sha256": "f70de7f844f4040a930248c2aa4648e6e6565518dddcbbed607a392413ecfca8",
+        "raw_file_sha256": "f70de7f844f4040a930248c2aa4648e6e6565518dddcbbed607a392413ecfca8"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-035-peikai-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-035",
@@ -13769,6 +13793,33 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-067-xilong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-067",
+      "source_id": "s-jinshu-067-xilong",
+      "source": {
+        "title": "晉書卷六十七",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2592755",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2592755",
+        "revision_id": 2592755,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位原題「叔父隆」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂2592755",
+        "raw_path": "sources/jinshu/wikisource-2592755-raw.wikitext",
+        "wikitext_sha256": "bfbb80734b71669aaed368f54f088c89285f1acdbe70ca678745ea9684029495",
+        "raw_file_sha256": "bfbb80734b71669aaed368f54f088c89285f1acdbe70ca678745ea9684029495",
+        "collation_witnesses": [
+          "source-evidence/jin067-xilong/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-089-jishao",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-089",
@@ -18142,6 +18193,36 @@
   ],
   "person_references": [
     {
+      "id": "c-jinshu-004-jin067-xilong:usurpation:r0011",
+      "paragraph_id": "c-jinshu-004-jin067-xilong:usurpation",
+      "start": 11,
+      "end": 12,
+      "surface": "帝",
+      "person_id": "7e0_f69_1ac",
+      "referent_role": "third_person",
+      "quote": "趙王倫篡帝位。丙寅，遷帝于金墉城，號曰太上皇",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-004-jin067-xilong",
+      "book_id": "b-jinshu-004",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-004-jin067-xilong"
+    },
+    {
+      "id": "c-jinshu-004-jin067-xilong:usurpation:r0019",
+      "paragraph_id": "c-jinshu-004-jin067-xilong:usurpation",
+      "start": 19,
+      "end": 22,
+      "surface": "太上皇",
+      "person_id": "7e0_f69_1ac",
+      "referent_role": "third_person",
+      "quote": "丙寅，遷帝于金墉城，號曰太上皇",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-004-jin067-xilong",
+      "book_id": "b-jinshu-004",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-004-jin067-xilong"
+    },
+    {
       "id": "c-jinshu-043-wangrong:p012:m0026",
       "paragraph_id": "c-jinshu-043-wangrong:p012",
       "start": 26,
@@ -18155,6 +18236,21 @@
       "book_id": "b-jinshu-043",
       "work_id": "w-jinshu",
       "source_id": "s-jinshu-043-ws2618531-wangrong"
+    },
+    {
+      "id": "c-jinshu-067-xilong:line128:r0265",
+      "paragraph_id": "c-jinshu-067-xilong:line128",
+      "start": 265,
+      "end": 267,
+      "surface": "太上",
+      "person_id": "7e0_f69_1ac",
+      "referent_role": "third_person",
+      "quote": "下者，世祖皇帝之天下也。太上承代已積十年，今上取四海",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-067-xilong",
+      "book_id": "b-jinshu-067",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-067-xilong"
     }
   ],
   "person_ids": [

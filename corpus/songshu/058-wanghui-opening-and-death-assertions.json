@@ -1,0 +1,106 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-058-wanghui-opening-and-death",
+  "assertions": [
+    {
+      "id": "a-nan023-wanghui-hong-head",
+      "subject_person_id": "7r6_k52_qji_ABAAEEB",
+      "object_person_id": "7r6_k52_qji_ABAAAAA",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "太保弘從祖弟也",
+        "nan023_wanghui_reading": "hong-head",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAA",
+          "younger_person_id": "7r6_k52_qji_ABAAEEB",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-058",
+          "source_id": "s-songshu-058-wanghui-opening-and-death-ws1996691",
+          "chapter_id": "c-songshu-058-wanghui-opening-and-death",
+          "paragraph_id": "c-songshu-058-wanghui-opening-and-death:p001",
+          "quote": "王惠字令明，琅邪臨沂人，太保弘從祖弟也。祖劭，車騎將軍。父默，左光祿大夫。",
+          "subject_person_mention_id": "c-songshu-058-wanghui-opening-and-death:p001:m0000",
+          "object_person_mention_id": "c-songshu-058-wanghui-opening-and-death:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本段所記父族旁親及長幼；同卷的從祖弟、從兄原詞各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wanghui-song-father",
+      "subject_person_id": "7r6_k52_qji_ABAAEEB",
+      "object_person_id": "7r6_k52_qji_ABAAEE",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父默",
+        "nan023_wanghui_reading": "song-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-058",
+          "source_id": "s-songshu-058-wanghui-opening-and-death-ws1996691",
+          "chapter_id": "c-songshu-058-wanghui-opening-and-death",
+          "paragraph_id": "c-songshu-058-wanghui-opening-and-death:p001",
+          "quote": "王惠字令明，琅邪臨沂人，太保弘從祖弟也。祖劭，車騎將軍。父默，左光祿大夫。",
+          "subject_person_mention_id": "c-songshu-058-wanghui-opening-and-death:p001:m0000",
+          "object_person_mention_id": "c-songshu-058-wanghui-opening-and-death:p001:m0029"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋書祖父與父和南史同。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wanghui-song-grand",
+      "subject_person_id": "7r6_k52_qji_ABAAEEB",
+      "object_person_id": "7r6_k52_qji_ABAAE",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖劭",
+        "nan023_wanghui_reading": "song-grand",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-058",
+          "source_id": "s-songshu-058-wanghui-opening-and-death-ws1996691",
+          "chapter_id": "c-songshu-058-wanghui-opening-and-death",
+          "paragraph_id": "c-songshu-058-wanghui-opening-and-death:p001",
+          "quote": "王惠字令明，琅邪臨沂人，太保弘從祖弟也。祖劭，車騎將軍。父默，左光祿大夫。",
+          "subject_person_mention_id": "c-songshu-058-wanghui-opening-and-death:p001:m0000",
+          "object_person_mention_id": "c-songshu-058-wanghui-opening-and-death:p001:m0021"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋書傳首。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

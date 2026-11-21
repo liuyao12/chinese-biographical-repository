@@ -1769,6 +1769,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-w067-chao-4",
+      "person_id": "7r6_k52_qji_ABAAAA",
+      "title": "主簿",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-067",
+          "chapter_id": "c-jinshu-067-xichao",
+          "source_id": "s-jinshu-067-xichao",
+          "paragraph_id": "c-jinshu-067-xichao:line100",
+          "quote": "桓溫辟為征西大將軍掾。溫遷大司馬，又轉為參軍。溫英氣高邁，罕有所推，與超言，常謂不能測，遂傾意禮待。超亦深自結納。時王珣為溫主簿，亦為溫所重。府中語曰：「髯參軍，短主簿，能令公喜，能令公怒。」超髯，珣短故也。尋除散騎侍郎。時愔在北府，徐州人多勁悍，溫恆云「京口酒可飲，兵可用」，深不欲愔居之。而愔暗於事機，遣箋詣溫，欲共獎王室，修復園陵。超取視，寸寸毀裂，乃更作箋，自陳老病，甚不堪人間，乞閑地自養。溫得箋大喜，即轉愔為會稽太守。溫懷不軌，欲立霸王之基，超為之謀。謝安與王坦之嘗詣溫論事，溫令超帳中臥聽之，風動帳開，安笑曰：「郗生可謂入幕之賓矣。」",
+          "person_mention_id": "c-jinshu-067-xichao:line100:m0058"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-chao-4:a",
+          "paragraph_id": "c-jinshu-067-xichao:line100",
+          "start": 62,
+          "end": 64,
+          "surface": "主簿",
+          "person_mention_id": "c-jinshu-067-xichao:line100:m0058",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-jin079-yan-hun-63-257",
       "person_id": "7r6_k52_qji_ABAAAA",
       "title": "僕射",
@@ -2406,6 +2454,50 @@
       "work_title": "宋書"
     },
     {
+      "number": 60,
+      "category": "",
+      "title": "王韶之傳及子曄",
+      "paragraph_id": "c-songshu-060-wangshaozhi:p004",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "韶之為晉史，序王珣貨殖，王廞作亂。珣子弘，廞子華，並貴顯，韶之懼為所陷，深結徐羨之、傅亮等。少帝即位，遷侍中，驍騎如故。景平元年，出為吳興太守。羨之被誅，王弘入為相，領揚州刺史。弘雖與韶之不絕，諸弟未相識者，皆不復往來",
+      "paragraph_ids": [
+        "c-songshu-060-wangshaozhi:p004"
+      ],
+      "mention_ids": [
+        "c-songshu-060-wangshaozhi:p004:m0007",
+        "c-songshu-060-wangshaozhi:p004:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-060-wangshaozhi:p004:m0007": "c-songshu-060-wangshaozhi:p004",
+        "c-songshu-060-wangshaozhi:p004:m0017": "c-songshu-060-wangshaozhi:p004"
+      },
+      "mention_id": "c-songshu-060-wangshaozhi:p004:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-060-wangshaozhi:p004:m0007",
+          "mention_ids": [
+            "c-songshu-060-wangshaozhi:p004:m0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-060-wangshaozhi:p004:m0017",
+          "mention_ids": [
+            "c-songshu-060-wangshaozhi:p004:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-060",
+      "chapter_id": "c-songshu-060-wangshaozhi",
+      "source_id": "s-songshu-060-wangshaozhi-ws1996694",
+      "work_title": "宋書"
+    },
+    {
       "number": 65,
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
@@ -2707,6 +2799,50 @@
       "book_id": "b-jinshu-065",
       "chapter_id": "c-jinshu-065-wangdao-family",
       "source_id": "s-jinshu-065-wangdao-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 67,
+      "category": "",
+      "title": "晉書卷六十七·郗超傳",
+      "paragraph_id": "c-jinshu-067-xichao:line100",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "溫英氣高邁，罕有所推，與超言，常謂不能測，遂傾意禮待。超亦深自結納。時王珣為溫主簿，亦為溫所重。府中語曰：「髯參軍，短主簿，能令公喜，能令公怒。」超髯，珣短故也。尋除散騎侍郎。時愔在北府，徐州人多勁悍，溫恆云「京口酒可飲，兵可用」，深不欲愔居之。而愔暗於事機，遣箋詣溫，欲共",
+      "paragraph_ids": [
+        "c-jinshu-067-xichao:line100"
+      ],
+      "mention_ids": [
+        "c-jinshu-067-xichao:line100:m0058",
+        "c-jinshu-067-xichao:line100:m0099"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-067-xichao:line100:m0058": "c-jinshu-067-xichao:line100",
+        "c-jinshu-067-xichao:line100:m0099": "c-jinshu-067-xichao:line100"
+      },
+      "mention_id": "c-jinshu-067-xichao:line100:m0058",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-067-xichao:line100:m0058",
+          "mention_ids": [
+            "c-jinshu-067-xichao:line100:m0058"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-067-xichao:line100:m0099",
+          "mention_ids": [
+            "c-jinshu-067-xichao:line100:m0099"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-067",
+      "chapter_id": "c-jinshu-067-xichao",
+      "source_id": "s-jinshu-067-xichao",
       "work_title": "晉書"
     },
     {
@@ -3652,6 +3788,33 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-067-xichao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-067",
+      "source_id": "s-jinshu-067-xichao",
+      "source": {
+        "title": "晉書卷六十七",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2592755",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2592755",
+        "revision_id": 2592755,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位原題「愔子超」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂2592755",
+        "raw_path": "sources/jinshu/wikisource-2592755-raw.wikitext",
+        "wikitext_sha256": "bfbb80734b71669aaed368f54f088c89285f1acdbe70ca678745ea9684029495",
+        "raw_file_sha256": "bfbb80734b71669aaed368f54f088c89285f1acdbe70ca678745ea9684029495",
+        "collation_witnesses": [
+          "source-evidence/jin067-xichao-sengshi/reading.json"
+        ]
       }
     },
     {
@@ -9404,6 +9567,35 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-songshu-060-wangshaozhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-060",
+      "source_id": "s-songshu-060-wangshaozhi-ws1996694",
+      "source": {
+        "provider": "Wikisource",
+        "rights": "古代正文與維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "text_scope": "complete_biography_unit",
+        "accessed_on": "2026-11-20",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "title": "宋書卷六十·王韶之傳及子曄",
+        "extent": "逐讀第81行分題至第90行分題前。",
+        "section_locator": "==王韶之==",
+        "revision_id": 1996694,
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1996694",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1996694",
+        "raw_path": "sources/songshu/songshu060-ws1996694.wikitext",
+        "raw_file_sha256": "a9b03405240b25c24c2fa2b999e921483d7c1d78a3ed6f1eb1807a289bf02a97",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原文字位逐一對固定原檔，本文排除校勘註、連結目標及紀年模板的界符；校勘說另列。"
+        },
+        "wikitext_sha256": "a9b03405240b25c24c2fa2b999e921483d7c1d78a3ed6f1eb1807a289bf02a97",
+        "edition": "維基文庫固定修訂1996694，武英殿本書影逐項參記。"
+      }
     }
   ],
   "relations": [
@@ -9806,6 +9998,39 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song060-wangshaozhi-88-19-7",
+      "subject_person_id": "7r6_k52_qji_ABAAAAA",
+      "object_person_id": "7r6_k52_qji_ABAAAA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "珣子弘",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-060",
+          "chapter_id": "c-songshu-060-wangshaozhi",
+          "source_id": "s-songshu-060-wangshaozhi-ws1996694",
+          "paragraph_id": "c-songshu-060-wangshaozhi:p004",
+          "quote": "韶之為晉史，序王珣貨殖，王廞作亂。珣子弘，廞子華，並貴顯，韶之懼為所陷，深結徐羨之、傅亮等。少帝即位，遷侍中，驍騎如故。景平元年，出為吳興太守。羨之被誅，王弘入為相，領揚州刺史。弘雖與韶之不絕，諸弟未相識者，皆不復往來。韶之在郡，常慮為弘所繩，夙夜勤厲，政績甚美，弘亦抑其私憾。太祖兩嘉之。在任積年，稱為良守，加秩中二千石。十年，徵為祠部尚書，加給事中。坐去郡長取送故，免官。十二年，又出為吳興太守。其年卒，時年五十六。七廟歌辭，韶之制也。文集行於世。子曄，尚書駕部外兵郎，臨賀太守。",
+          "subject_person_mention_id": "c-songshu-060-wangshaozhi:p004:m0019",
+          "object_person_mention_id": "c-songshu-060-wangshaozhi:p004:m0007",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-060-wangshaozhi:p004",
+            "start": 17,
+            "end": 20,
+            "surface": "珣子弘"
+          }
+        }
+      ],
+      "interpretation_note": "原段父祖或子輩次序、具名人物及家世上下文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
@@ -10000,6 +10225,21 @@
       "book_id": "b-jinshu-065",
       "work_id": "w-jinshu",
       "source_id": "s-jinshu-065-wangdao-family"
+    },
+    {
+      "id": "c-jinshu-067-xichao:line100:r0081",
+      "paragraph_id": "c-jinshu-067-xichao:line100",
+      "start": 81,
+      "end": 84,
+      "surface": "短主簿",
+      "person_id": "7r6_k52_qji_ABAAAA",
+      "referent_role": "third_person",
+      "quote": "重。府中語曰：「髯參軍，短主簿，能令公喜，能令公怒。」",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-067-xichao",
+      "book_id": "b-jinshu-067",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-067-xichao"
     },
     {
       "start": 51,
@@ -10435,6 +10675,39 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song060-wangshaozhi-88-19-7",
+      "subject_person_id": "7r6_k52_qji_ABAAAAA",
+      "object_person_id": "7r6_k52_qji_ABAAAA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "珣子弘",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-060",
+          "chapter_id": "c-songshu-060-wangshaozhi",
+          "source_id": "s-songshu-060-wangshaozhi-ws1996694",
+          "paragraph_id": "c-songshu-060-wangshaozhi:p004",
+          "quote": "韶之為晉史，序王珣貨殖，王廞作亂。珣子弘，廞子華，並貴顯，韶之懼為所陷，深結徐羨之、傅亮等。少帝即位，遷侍中，驍騎如故。景平元年，出為吳興太守。羨之被誅，王弘入為相，領揚州刺史。弘雖與韶之不絕，諸弟未相識者，皆不復往來。韶之在郡，常慮為弘所繩，夙夜勤厲，政績甚美，弘亦抑其私憾。太祖兩嘉之。在任積年，稱為良守，加秩中二千石。十年，徵為祠部尚書，加給事中。坐去郡長取送故，免官。十二年，又出為吳興太守。其年卒，時年五十六。七廟歌辭，韶之制也。文集行於世。子曄，尚書駕部外兵郎，臨賀太守。",
+          "subject_person_mention_id": "c-songshu-060-wangshaozhi:p004:m0019",
+          "object_person_mention_id": "c-songshu-060-wangshaozhi:p004:m0007",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-060-wangshaozhi:p004",
+            "start": 17,
+            "end": 20,
+            "surface": "珣子弘"
+          }
+        }
+      ],
+      "interpretation_note": "原段父祖或子輩次序、具名人物及家世上下文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "assembled_identity": {

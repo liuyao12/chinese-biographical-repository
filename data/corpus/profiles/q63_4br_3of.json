@@ -6,7 +6,8 @@
   "identity_note": "江祏父，司徒右長史，名字依齊42數位本。",
   "review": "ai_provisional",
   "names": [
-    "德隣"
+    "德隣",
+    "德驎"
   ],
   "titles": [],
   "addresses": [],
@@ -45,6 +46,51 @@
       "chapter_id": "c-nanqishu-042-xietiao-jiang",
       "source_id": "s-nanqishu-042-xietiao-jiang-ws1507997",
       "work_title": "南齊書"
+    },
+    {
+      "number": 47,
+      "category": "",
+      "title": "江祏之姑及明帝母家",
+      "paragraph_id": "c-nanshi-047-jiangshi-maternal-kin:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "江祏字弘業，濟陽考城人也。祖遵，寧朔參軍。父德驎，司徒右長史。祏姑爲齊高帝兄始安貞王道生妃，追諡景皇后，生齊明帝。祏少爲明帝所親，恩如兄弟。",
+      "paragraph_ids": [
+        "c-nanshi-047-jiangshi-maternal-kin:p001",
+        "c-nanshi-047-jiangshi-maternal-kin:p002"
+      ],
+      "mention_ids": [
+        "c-nanshi-047-jiangshi-maternal-kin:p001:m0022",
+        "c-nanshi-047-jiangshi-maternal-kin:p002:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-047-jiangshi-maternal-kin:p001:m0022": "c-nanshi-047-jiangshi-maternal-kin:p001",
+        "c-nanshi-047-jiangshi-maternal-kin:p002:m0015": "c-nanshi-047-jiangshi-maternal-kin:p002"
+      },
+      "mention_id": "c-nanshi-047-jiangshi-maternal-kin:p001:m0022",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-047-jiangshi-maternal-kin:p001:m0022",
+          "mention_ids": [
+            "c-nanshi-047-jiangshi-maternal-kin:p001:m0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-047-jiangshi-maternal-kin:p002:m0015",
+          "mention_ids": [
+            "c-nanshi-047-jiangshi-maternal-kin:p002:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-047",
+      "chapter_id": "c-nanshi-047-jiangshi-maternal-kin",
+      "source_id": "s-nanshi-047-jiangshi-maternal-kin-ws2598501",
+      "work_title": "南史"
     }
   ],
   "table_occurrences": [],
@@ -71,6 +117,33 @@
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "rights": "古代正文及維基文庫數位轉錄。",
         "section_locator": "江祏父及祀、劉暄親屬原句"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-047-jiangshi-maternal-kin",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-047",
+      "source_id": "s-nanshi-047-jiangshi-maternal-kin-ws2598501",
+      "source": {
+        "title": "南史卷47·江祏之姑及明帝母家",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2598501",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2598501",
+        "revision_id": 2598501,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原王府身分、紀年或改名原句",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan023-wangliang/ws2598501.wikitext",
+        "raw_file_sha256": "5abbc6157f38f386d0db11aeb33ddf6303cbef54248377ee0e111d2a5181ef73",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
       }
     }
   ],
@@ -101,6 +174,34 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-nan023-wangliang-shi-father",
+      "subject_person_id": "q63_4br_3of_A",
+      "object_person_id": "q63_4br_3of",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父德驎",
+        "nan023_wangliang_reading": "shi-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-047",
+          "source_id": "s-nanshi-047-jiangshi-maternal-kin-ws2598501",
+          "chapter_id": "c-nanshi-047-jiangshi-maternal-kin",
+          "paragraph_id": "c-nanshi-047-jiangshi-maternal-kin:p001",
+          "quote": "江祏字弘業，濟陽考城人也。祖遵，寧朔參軍。父德驎，司徒右長史。祏姑爲齊高帝兄始安貞王道生妃，追諡景皇后，生齊明帝。祏少爲明帝所親，恩如兄弟。",
+          "subject_person_mention_id": "c-nanshi-047-jiangshi-maternal-kin:p001:m0000",
+          "object_person_mention_id": "c-nanshi-047-jiangshi-maternal-kin:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "江祏父德驎，齊書字形德隣。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
@@ -139,6 +240,34 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-nan023-wangliang-shi-father",
+      "subject_person_id": "q63_4br_3of_A",
+      "object_person_id": "q63_4br_3of",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父德驎",
+        "nan023_wangliang_reading": "shi-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-047",
+          "source_id": "s-nanshi-047-jiangshi-maternal-kin-ws2598501",
+          "chapter_id": "c-nanshi-047-jiangshi-maternal-kin",
+          "paragraph_id": "c-nanshi-047-jiangshi-maternal-kin:p001",
+          "quote": "江祏字弘業，濟陽考城人也。祖遵，寧朔參軍。父德驎，司徒右長史。祏姑爲齊高帝兄始安貞王道生妃，追諡景皇后，生齊明帝。祏少爲明帝所親，恩如兄弟。",
+          "subject_person_mention_id": "c-nanshi-047-jiangshi-maternal-kin:p001:m0000",
+          "object_person_mention_id": "c-nanshi-047-jiangshi-maternal-kin:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "江祏父德驎，齊書字形德隣。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "age_assertions": [],

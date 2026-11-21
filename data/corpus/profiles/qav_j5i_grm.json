@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "羊欣",
-    "欣"
+    "欣",
+    "敬元"
   ],
   "titles": [],
   "addresses": [],
@@ -227,6 +228,60 @@
       "chapter_id": "c-nanqishu-033-wangsengqian",
       "source_id": "s-nanqishu-033-wangsengqian",
       "work_title": "南齊書"
+    },
+    {
+      "number": 36,
+      "category": "",
+      "title": "羊欣傳首與弟徽附敘選句",
+      "paragraph_id": "c-nanshi-036-song060-yanghui:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "羊欣，字敬元，泰山南城人也。曾祖忱，晋徐州刺史。祖权，黄门郎。父不疑，桂阳太守。",
+      "paragraph_ids": [
+        "c-nanshi-036-song060-yanghui:p001",
+        "c-nanshi-036-song060-yanghui:p002"
+      ],
+      "mention_ids": [
+        "c-nanshi-036-song060-yanghui:p001:m0000",
+        "c-nanshi-036-song060-yanghui:p001:m0004",
+        "c-nanshi-036-song060-yanghui:p002:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-036-song060-yanghui:p001:m0000": "c-nanshi-036-song060-yanghui:p001",
+        "c-nanshi-036-song060-yanghui:p001:m0004": "c-nanshi-036-song060-yanghui:p001",
+        "c-nanshi-036-song060-yanghui:p002:m0009": "c-nanshi-036-song060-yanghui:p002"
+      },
+      "mention_id": "c-nanshi-036-song060-yanghui:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-036-song060-yanghui:p001:m0000",
+          "mention_ids": [
+            "c-nanshi-036-song060-yanghui:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-036-song060-yanghui:p001:m0004",
+          "mention_ids": [
+            "c-nanshi-036-song060-yanghui:p001:m0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-036-song060-yanghui:p002:m0009",
+          "mention_ids": [
+            "c-nanshi-036-song060-yanghui:p002:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-036",
+      "chapter_id": "c-nanshi-036-song060-yanghui",
+      "source_id": "s-nanshi-036-song060-yanghui-ws1489333",
+      "work_title": "南史"
     }
   ],
   "table_occurrences": [],
@@ -3282,6 +3337,33 @@
           "extraction_note": "僅去不轉換標記的界符。"
         }
       }
+    },
+    {
+      "chapter_id": "c-nanshi-036-song060-yanghui",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-036",
+      "source_id": "s-nanshi-036-song060-yanghui-ws1489333",
+      "source": {
+        "title": "羊欣傳首與弟徽附敘選句",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1489333",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1489333",
+        "revision_id": 1489333,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定轉錄。",
+        "extent": "只取與宋六十王韶之傳所及同人相關的具名親屬原句。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/song060-wang/external/ws1489333.wikitext",
+        "raw_file_sha256": "959ca26a6eea08fc5abfac457051fee11e0113d49e988678082b5eaf8520e401",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依已引原句保留原字，只去姓名排版界符。"
+        }
+      }
     }
   ],
   "relations": [
@@ -3446,13 +3528,69 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-song060-yanghui-1-0-32",
+      "predicate": "father",
+      "subject_person_id": "qav_j5i_grm",
+      "object_person_id": "wc5_hn7_a5w_AAA",
+      "qualifiers": {
+        "source_term": "父不疑",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-036",
+          "chapter_id": "c-nanshi-036-song060-yanghui",
+          "source_id": "s-nanshi-036-song060-yanghui-ws1489333",
+          "paragraph_id": "c-nanshi-036-song060-yanghui:p001",
+          "quote": "羊欣，字敬元，泰山南城人也。曾祖忱，晋徐州刺史。祖权，黄门郎。父不疑，桂阳太守。",
+          "subject_person_mention_id": "c-nanshi-036-song060-yanghui:p001:m0000",
+          "object_person_mention_id": "c-nanshi-036-song060-yanghui:p001:m0032"
+        }
+      ],
+      "interpretation_note": "按傳首或譜下注中具名父祖、弟兄辨屬。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song060-yanghui-2-1-9",
+      "predicate": "brother",
+      "subject_person_id": "wc5_hn7_a5w_AAAA",
+      "object_person_id": "qav_j5i_grm",
+      "qualifiers": {
+        "source_term": "弟徽",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-036",
+          "chapter_id": "c-nanshi-036-song060-yanghui",
+          "source_id": "s-nanshi-036-song060-yanghui-ws1489333",
+          "paragraph_id": "c-nanshi-036-song060-yanghui:p002",
+          "quote": "弟徽字敬猷，時譽多欣，位河東太守，卒。",
+          "subject_person_mention_id": "c-nanshi-036-song060-yanghui:p002:m0001",
+          "object_person_mention_id": "c-nanshi-036-song060-yanghui:p002:m0009"
+        }
+      ],
+      "interpretation_note": "按傳首或譜下注中具名父祖、弟兄辨屬。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
     "bxh_oop_5ic": "范曄",
     "ph1_ms8_hyq_ABA": "蕭思話",
     "qav_j5i_grm": "羊欣",
-    "sm1_jfi_7k2": "王獻之"
+    "sm1_jfi_7k2": "王獻之",
+    "wc5_hn7_a5w_AAA": "羊不疑（桂陽太守）",
+    "wc5_hn7_a5w_AAAA": "羊徽（字敬猷）"
   },
   "dates": [],
   "name_components": [],
@@ -3618,6 +3756,60 @@
         }
       ],
       "interpretation_note": "從受書法明文，學古人書法另記。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song060-yanghui-1-0-32",
+      "predicate": "father",
+      "subject_person_id": "qav_j5i_grm",
+      "object_person_id": "wc5_hn7_a5w_AAA",
+      "qualifiers": {
+        "source_term": "父不疑",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-036",
+          "chapter_id": "c-nanshi-036-song060-yanghui",
+          "source_id": "s-nanshi-036-song060-yanghui-ws1489333",
+          "paragraph_id": "c-nanshi-036-song060-yanghui:p001",
+          "quote": "羊欣，字敬元，泰山南城人也。曾祖忱，晋徐州刺史。祖权，黄门郎。父不疑，桂阳太守。",
+          "subject_person_mention_id": "c-nanshi-036-song060-yanghui:p001:m0000",
+          "object_person_mention_id": "c-nanshi-036-song060-yanghui:p001:m0032"
+        }
+      ],
+      "interpretation_note": "按傳首或譜下注中具名父祖、弟兄辨屬。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song060-yanghui-2-1-9",
+      "predicate": "brother",
+      "subject_person_id": "wc5_hn7_a5w_AAAA",
+      "object_person_id": "qav_j5i_grm",
+      "qualifiers": {
+        "source_term": "弟徽",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-036",
+          "chapter_id": "c-nanshi-036-song060-yanghui",
+          "source_id": "s-nanshi-036-song060-yanghui-ws1489333",
+          "paragraph_id": "c-nanshi-036-song060-yanghui:p002",
+          "quote": "弟徽字敬猷，時譽多欣，位河東太守，卒。",
+          "subject_person_mention_id": "c-nanshi-036-song060-yanghui:p002:m0001",
+          "object_person_mention_id": "c-nanshi-036-song060-yanghui:p002:m0009"
+        }
+      ],
+      "interpretation_note": "按傳首或譜下注中具名父祖、弟兄辨屬。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
