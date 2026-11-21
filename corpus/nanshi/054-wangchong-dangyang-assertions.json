@@ -1,0 +1,42 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-054-wangchong-dangyang",
+  "assertions": [
+    {
+      "id": "a-chen017-daxin-father",
+      "subject_person_id": "rtd_v0b_nyn_E",
+      "object_person_id": "rtd_v0b_nyn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "簡文第二子",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "rtd_v0b_nyn",
+          "ordinal": 2,
+          "scope": "sons_of_parent",
+          "position": "unspecified",
+          "source_term": "第二子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-054",
+          "chapter_id": "c-nanshi-054-wangchong-dangyang",
+          "source_id": "s-nanshi-054-wangchong-dangyang-ws2063857",
+          "paragraph_id": "c-nanshi-054-wangchong-dangyang:p001",
+          "quote": "尋陽王大心字仁恕，簡文第二子也。",
+          "subject_person_mention_id": "c-nanshi-054-wangchong-dangyang:p001:m0003",
+          "object_person_mention_id": "c-nanshi-054-wangchong-dangyang:p001:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "尋陽王大心為梁簡文帝第二子，本段續記以皇孫封當陽縣公。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-012-ruanlingying",
+  "assertions": [
+    {
+      "id": "a-liang007-ruanlingying-n-mother",
+      "subject_person_id": "rvc_bqx_v5w",
+      "object_person_id": "8dg_6jb_3j5_A",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "生元帝",
+        "liang007_ruanlingying_reading": "n-mother"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-012",
+          "source_id": "s-nanshi-012-ruanlingying-ws2060595",
+          "chapter_id": "c-nanshi-012-ruanlingying",
+          "paragraph_id": "c-nanshi-012-ruanlingying:p001",
+          "quote": "文宣阮太后諱令嬴，會稽余姚人也。本姓石。初，齊始安王遙光納焉。遙光敗，入東昏宮。建康城平，為武帝采女。在孕，夢龍罩其床。天監七年八月，生元帝于後宮。是日大赦。尋拜為修容，賜姓阮氏。嘗隨元帝出藩。大同九年六月，薨于江州正寢，時年六十七。其年十一月，歸葬江寧縣通望山，諡曰宣。元帝即位，有司奏追崇為文宣太后，還祔小廟。",
+          "subject_person_reference_id": "c-nanshi-012-ruanlingying:p001:r0068",
+          "object_person_mention_id": "c-nanshi-012-ruanlingying:p001:m0006",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-012-ruanlingying:p001",
+            "surface": "生元帝",
+            "start": 67,
+            "end": 70
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "阮令嬴生元帝。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang007-ruanlingying-n-father",
+      "subject_person_id": "8dg_6jb_3j5_A",
+      "object_person_id": "8dg_6jb_3j5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "太后父",
+        "liang007_ruanlingying_reading": "n-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-012",
+          "source_id": "s-nanshi-012-ruanlingying-ws2060595",
+          "chapter_id": "c-nanshi-012-ruanlingying",
+          "paragraph_id": "c-nanshi-012-ruanlingying:p002",
+          "quote": "承聖二年，追贈太后父齊故奉朝請石靈寶散騎常侍、左衛將軍、封武康縣侯，母陳氏武康侯夫人。",
+          "subject_person_reference_id": "c-nanshi-012-ruanlingying:p002:r0007",
+          "object_person_mention_id": "c-nanshi-012-ruanlingying:p002:m0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-012-ruanlingying:p002",
+            "surface": "太后父",
+            "start": 7,
+            "end": 10
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "受贈人為阮太后之父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang007-ruanlingying-n-mother-parent",
+      "subject_person_id": "8dg_6jb_3j5_A",
+      "object_person_id": "jqb_32a_0p0",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "母陳氏",
+        "liang007_ruanlingying_reading": "n-mother-parent"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-012",
+          "source_id": "s-nanshi-012-ruanlingying-ws2060595",
+          "chapter_id": "c-nanshi-012-ruanlingying",
+          "paragraph_id": "c-nanshi-012-ruanlingying:p002",
+          "quote": "承聖二年，追贈太后父齊故奉朝請石靈寶散騎常侍、左衛將軍、封武康縣侯，母陳氏武康侯夫人。",
+          "subject_person_reference_id": "c-nanshi-012-ruanlingying:p002:r0007",
+          "object_person_mention_id": "c-nanshi-012-ruanlingying:p002:m0035",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-012-ruanlingying:p002",
+            "surface": "母陳氏",
+            "start": 34,
+            "end": 37
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "太后母陳氏，封武康侯夫人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

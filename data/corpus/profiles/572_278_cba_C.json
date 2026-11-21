@@ -18,6 +18,50 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 50,
+      "category": "",
+      "title": "徐夫人傳",
+      "paragraph_id": "c-sanguozhi-050-xu:line028",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "琨生夫人，初適同郡陸尚。尚卒，極為討虜將軍在吳，聘以為妃，使母養子登。後權遷移，以夫人妒忌，廢處吳。積十餘年，權為吳王及即尊號，登為太子，群臣請立夫人為后，權意在步氏，卒不許。後以疾卒。兄矯，嗣父琨侯，討平山越，拜偏將軍，先夫人卒，無子。弟祚襲封，亦以戰功至（於）蕪湖",
+      "paragraph_ids": [
+        "c-sanguozhi-050-xu:line028"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-050-xu:line028:m0033",
+        "c-sanguozhi-050-xu:line028:m0064"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-050-xu:line028:m0033": "c-sanguozhi-050-xu:line028",
+        "c-sanguozhi-050-xu:line028:m0064": "c-sanguozhi-050-xu:line028"
+      },
+      "mention_id": "c-sanguozhi-050-xu:line028:m0033",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-050-xu:line028:m0033",
+          "mention_ids": [
+            "c-sanguozhi-050-xu:line028:m0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-050-xu:line028:m0064",
+          "mention_ids": [
+            "c-sanguozhi-050-xu:line028:m0064"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-050",
+      "chapter_id": "c-sanguozhi-050-xu",
+      "source_id": "s-sanguozhi-050-xu",
+      "work_title": "三國志"
+    },
+    {
       "number": 52,
       "category": "",
       "title": "歩騭傳",
@@ -351,6 +395,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-sanguozhi-050-xu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-050",
+      "source_id": "s-sanguozhi-050-xu",
+      "source": {
+        "title": "三國志卷五十·吳書五",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085144",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085144",
+        "revision_id": 2085144,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第26至28行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi050-consorts/sanguozhi050-ws2085144.wikitext",
+        "raw_file_sha256": "e659e249b19bdabcb106007f54dab1a9fa5bd666d3e57e21f0a6eaa37ba9b1a6",
+        "wikitext_sha256": "e659e249b19bdabcb106007f54dab1a9fa5bd666d3e57e21f0a6eaa37ba9b1a6",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi050-xu/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-052-buzhi-complete",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-052",
@@ -541,6 +612,33 @@
   ],
   "relations": [
     {
+      "id": "a-wu050-xu-nurture",
+      "subject_person_id": "572_278_cba_C",
+      "object_person_id": "75m_kfd_6qo",
+      "predicate": "raised_by",
+      "qualifiers": {
+        "source_term": "使母養子登",
+        "sanguozhi050_family": "xu-nurture"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-050",
+          "chapter_id": "c-sanguozhi-050-xu",
+          "source_id": "s-sanguozhi-050-xu",
+          "paragraph_id": "c-sanguozhi-050-xu:line028",
+          "quote": "琨生夫人，初適同郡陸尚。尚卒，極為討虜將軍在吳，聘以為妃，使母養子登。後權遷移，以夫人妒忌，廢處吳。積十餘年，權為吳王及即尊號，登為太子，群臣請立夫人為后，權意在步氏，卒不許。後以疾卒。兄矯，嗣父琨侯，討平山越，拜偏將軍，先夫人卒，無子。弟祚襲封，亦以戰功至（於）蕪湖督、平魏將軍。",
+          "subject_person_mention_id": "c-sanguozhi-050-xu:line028:m0033",
+          "object_person_mention_id": "c-sanguozhi-050-xu:line028:m0002"
+        }
+      ],
+      "interpretation_note": "原詞與兩端見本段。撫養不推生母，同族、族女、從祖母未展開未名中介。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-wu058-prince-deng-father",
       "subject_person_id": "572_278_cba_C",
       "object_person_id": "572_278_cba",
@@ -596,7 +694,8 @@
   "related_people": {
     "572_278_cba": "孫仲謀（引古）",
     "572_278_cba_C": "孫登〔吳太子，字子高〕",
-    "572_278_cba_D": "孫慮〔建昌侯，字子智〕"
+    "572_278_cba_D": "孫慮〔建昌侯，字子智〕",
+    "75m_kfd_6qo": "徐氏〔孫權夫人、徐琨女〕"
   },
   "dates": [],
   "name_components": [],
@@ -621,6 +720,33 @@
     "572_278_cba_C"
   ],
   "preferred_relations": [
+    {
+      "id": "a-wu050-xu-nurture",
+      "subject_person_id": "572_278_cba_C",
+      "object_person_id": "75m_kfd_6qo",
+      "predicate": "raised_by",
+      "qualifiers": {
+        "source_term": "使母養子登",
+        "sanguozhi050_family": "xu-nurture"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-050",
+          "chapter_id": "c-sanguozhi-050-xu",
+          "source_id": "s-sanguozhi-050-xu",
+          "paragraph_id": "c-sanguozhi-050-xu:line028",
+          "quote": "琨生夫人，初適同郡陸尚。尚卒，極為討虜將軍在吳，聘以為妃，使母養子登。後權遷移，以夫人妒忌，廢處吳。積十餘年，權為吳王及即尊號，登為太子，群臣請立夫人為后，權意在步氏，卒不許。後以疾卒。兄矯，嗣父琨侯，討平山越，拜偏將軍，先夫人卒，無子。弟祚襲封，亦以戰功至（於）蕪湖督、平魏將軍。",
+          "subject_person_mention_id": "c-sanguozhi-050-xu:line028:m0033",
+          "object_person_mention_id": "c-sanguozhi-050-xu:line028:m0002"
+        }
+      ],
+      "interpretation_note": "原詞與兩端見本段。撫養不推生母，同族、族女、從祖母未展開未名中介。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-wu058-prince-deng-father",
       "subject_person_id": "572_278_cba_C",
