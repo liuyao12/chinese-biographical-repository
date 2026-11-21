@@ -24,6 +24,10 @@ def verified_blank_gap(chapter, before, after):
 
 
 def prior_subject_valid(context, evidence, person_id, chapter):
+    if isinstance(context, dict) and context.get('kind') == 'jin080_biography_end':
+        try: from scripts.jin080_xizhi import end_subject_valid
+        except ImportError: from jin080_xizhi import end_subject_valid
+        return end_subject_valid(context, evidence, person_id, chapter)
     required = {'kind', 'paragraph_id', 'person_mention_id', 'quote', 'intervening_paragraph_ids'}
     if not isinstance(context, dict) or set(context) not in (required, required | {'source_continuity'}):
         return False

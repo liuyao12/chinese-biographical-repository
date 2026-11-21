@@ -424,6 +424,41 @@
       "work_title": "南齊書"
     },
     {
+      "number": 40,
+      "category": "",
+      "title": "南齊書卷40·王志所涉宗室稱號原句",
+      "paragraph_id": "c-nanqishu-040-wangzhi-royal-context:line122",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "安陸王子敬字雲端，世祖第五子也。",
+      "paragraph_ids": [
+        "c-nanqishu-040-wangzhi-royal-context:line122"
+      ],
+      "mention_ids": [
+        "c-nanqishu-040-wangzhi-royal-context:line122:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-040-wangzhi-royal-context:line122:m0009": "c-nanqishu-040-wangzhi-royal-context:line122"
+      },
+      "mention_id": "c-nanqishu-040-wangzhi-royal-context:line122:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-040-wangzhi-royal-context:line122:m0009",
+          "mention_ids": [
+            "c-nanqishu-040-wangzhi-royal-context:line122:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-040",
+      "chapter_id": "c-nanqishu-040-wangzhi-royal-context",
+      "source_id": "s-nanqishu-040-wangzhi-royal-context-ws2272748",
+      "work_title": "南齊書"
+    },
+    {
       "number": 43,
       "category": "",
       "title": "謝𤅢傳（含兄顥附傳）",
@@ -614,6 +649,33 @@
               "revision_id": 1506954
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-023-wangjian",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-023",
+      "source_id": "s-nanqishu-023-wangjian-ws1545488",
+      "source": {
+        "title": "南齊書/卷23·王儉傳及王遜附敘",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/南齊書/卷23",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南齊書/卷23&oldid=1545488",
+        "edition": "維基文庫固定數位見證",
+        "revision_id": 1545488,
+        "accessed_on": "2026-11-20",
+        "text_scope": "complete_biography_unit",
+        "extent": "王儉傳及王遜附敘",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "raw_path": "source-evidence/nanshi022-wang/nanqi023-ws1545488.wikitext",
+        "raw_file_sha256": "aca7d279e2bec7461700ae2bfe9504272af2da8a5a13a4567635eeb30e4ec8cd",
+        "rights": "古籍本文及可追溯數位修訂",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留數位底本的字及行內排版空白。"
         }
       }
     },
@@ -3877,6 +3939,30 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-040-wangzhi-royal-context",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-040",
+      "source_id": "s-nanqishu-040-wangzhi-royal-context-ws2272748",
+      "source": {
+        "title": "南齊書卷40·王志所涉宗室稱號原句",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2272748",
+        "revision_id": 2272748,
+        "accessed_on": "2026-11-20",
+        "edition": "固定修訂2272748",
+        "extent": "僅收本卷用以辨明王志傳所涉王爵、親屬或廟號的原句。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "公有領域古籍，數位轉錄見來源頁。",
+        "raw_path": "source-evidence/liang021-wangzhi/external/nanqishu040-ws2272748.wikitext",
+        "raw_file_sha256": "5ee4445da47c28466a6c227f23c2aac3a6941a84d4e2131a050011f70e30e7ff",
+        "wikitext_sha256": "5ee4445da47c28466a6c227f23c2aac3a6941a84d4e2131a050011f70e30e7ff"
+      }
+    },
+    {
       "chapter_id": "c-nanqishu-043-xieyue",
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-043",
@@ -4554,9 +4640,37 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-nanqishu-040-wangzhi-royal-context-line122-father",
+      "subject_person_id": "kix_r92_2ed_A",
+      "object_person_id": "kix_r92_2ed",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "第五子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "source_id": "s-nanqishu-040-wangzhi-royal-context-ws2272748",
+          "chapter_id": "c-nanqishu-040-wangzhi-royal-context",
+          "paragraph_id": "c-nanqishu-040-wangzhi-royal-context:line122",
+          "quote": "安陸王子敬字雲端，世祖第五子也。",
+          "subject_person_mention_id": "c-nanqishu-040-wangzhi-royal-context:line122:m0000",
+          "object_person_mention_id": "c-nanqishu-040-wangzhi-royal-context:line122:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "此句父子關係由前後兩個具名或具號的人物及親屬詞共同確定。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "kix_r92_2ed": "齊世祖賾"
+    "kix_r92_2ed": "齊世祖賾",
+    "kix_r92_2ed_A": "蕭子敬（安陸王）"
   },
   "dates": [],
   "reading_decisions": [
@@ -4620,6 +4734,111 @@
   ],
   "name_components": [],
   "person_references": [
+    {
+      "id": "c-nanqishu-023-wangjian:p009:r0038",
+      "paragraph_id": "c-nanqishu-023-wangjian:p009",
+      "person_id": "kix_r92_2ed",
+      "quote": "　　尋以本官領太子詹事，加兵二百人。上崩，遺詔以儉爲侍中、尚書令、鎮軍將軍。世祖卽位，給班劔二十人。永明元年，進號衞軍將軍，參掌選事。二年，領國子祭酒、丹陽尹，本官如故。給鼓吹一部。三年，領國子祭酒。叔父僧虔亡，儉表解職，不許。又領太子少傅，本州中正，解丹陽尹。舊太子敬二傅同，至是朝議接少傅以賔友之禮。",
+      "note": "依本句稱謂及敘事主體。",
+      "referent_role": "third_person",
+      "start": 38,
+      "end": 40,
+      "surface": "世祖",
+      "chapter_id": "c-nanqishu-023-wangjian",
+      "book_id": "b-nanqishu-023",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-023-wangjian-ws1545488"
+    },
+    {
+      "id": "c-nanqishu-023-wangjian:p010:r0168",
+      "paragraph_id": "c-nanqishu-023-wangjian:p010",
+      "person_id": "kix_r92_2ed",
+      "quote": "是歲，省總明觀，於儉宅開學士館，悉以四部書充儉家，又詔儉以家爲府。四年，以本官領吏部。儉長禮學，諳究朝儀，每博議，證引先儒，罕有其例。八坐丞郎，無能異者。令史諮事，賔客滿席，儉應接銓序，傍無留滯。十日一還學，監試諸生，巾卷在庭，劔衞令史儀容甚盛。作解散髻，斜插幘簪，朝野慕之，相與放效。儉常謂人曰：「江左風流宰相，唯有謝安。」蓋自比也。世祖深委仗之，士流選用，奏無不可。",
+      "note": "依本句稱謂及敘事主體。",
+      "referent_role": "third_person",
+      "start": 168,
+      "end": 170,
+      "surface": "世祖",
+      "chapter_id": "c-nanqishu-023-wangjian",
+      "book_id": "b-nanqishu-023",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-023-wangjian-ws1545488"
+    },
+    {
+      "id": "c-nanqishu-023-wangjian:p011:r0045",
+      "paragraph_id": "c-nanqishu-023-wangjian:p011",
+      "person_id": "kix_r92_2ed",
+      "quote": "　　五年，卽本號開府儀同三司，固讓。六年，重申前命。先是詔儉三日一還朝，尚書令史出外諮事，上以往來煩數，復詔儉還尚書下省，月聽十日出外。儉啓求解選，不許。七年，乃上表曰：「臣比年辭選，具簡天明，款言彰於侍接，丹誠布於朝野，物議不以爲非，聖心未垂矜納。臣聞知慧不如明時，求之微躬，實允斯義。妄庸之人，沈浮無取，命偶休泰，遂踐康衢。秋葉辭條，不假風飆之力；太陽躋景，無俟螢爝之暉。晦往明來，五德遞運，聖不獨治，八元亮采。臣逢其時，而叨其位，常總端右，亟管銓衡。事涉兩朝，歲綿一紀。盛年已老，孫孺巾冠。人物徂遷，逝者將半。三考無聞，九流寂寞。能官之詠，輟響於當時；《大車》之刺，方興於來日。若夫珥貂衣袞之貴，四輔六教之華，誠知匪服，職務差簡，端揆雖重，猶可勉勵。至於品藻之任，尤懼其阻。夙宵罄竭，屢試無庸。歲月之久，近世罕比。非唯悔吝在身，故乃惟塵及國。方今多士盈朝，羣才競爽，選衆而授，古亦何人。冒陳微翰，必希天照。至敬無文，不敢煩黷。」見許。改領中書監，參掌選事。",
+      "note": "依本句稱謂及敘事主體。",
+      "referent_role": "third_person",
+      "start": 45,
+      "end": 46,
+      "surface": "上",
+      "chapter_id": "c-nanqishu-023-wangjian",
+      "book_id": "b-nanqishu-023",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-023-wangjian-ws1545488"
+    },
+    {
+      "id": "c-nanqishu-023-wangjian:p012:r0006",
+      "paragraph_id": "c-nanqishu-023-wangjian:p012",
+      "person_id": "kix_r92_2ed",
+      "quote": "　　其年疾，上親臨視，薨，年三十八。吏部尚書王晏啓及儉喪，上答曰：「儉年德富盛，志用方隆，豈意暴疾，不展救護，便爲異世，奄忽如此，痛酷彌深。其契闊艱運，義重常懷，言尋悲切，不能自勝。痛矣奈何！往矣奈何！」詔衞軍文武及臺所兵仗可悉停待葬。",
+      "note": "依本句稱謂及敘事主體。",
+      "referent_role": "third_person",
+      "start": 6,
+      "end": 7,
+      "surface": "上",
+      "chapter_id": "c-nanqishu-023-wangjian",
+      "book_id": "b-nanqishu-023",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-023-wangjian-ws1545488"
+    },
+    {
+      "id": "c-nanqishu-023-wangjian:p012:r0029",
+      "paragraph_id": "c-nanqishu-023-wangjian:p012",
+      "person_id": "kix_r92_2ed",
+      "quote": "　　其年疾，上親臨視，薨，年三十八。吏部尚書王晏啓及儉喪，上答曰：「儉年德富盛，志用方隆，豈意暴疾，不展救護，便爲異世，奄忽如此，痛酷彌深。其契闊艱運，義重常懷，言尋悲切，不能自勝。痛矣奈何！往矣奈何！」詔衞軍文武及臺所兵仗可悉停待葬。",
+      "note": "依本句稱謂及敘事主體。",
+      "referent_role": "third_person",
+      "start": 29,
+      "end": 30,
+      "surface": "上",
+      "chapter_id": "c-nanqishu-023-wangjian",
+      "book_id": "b-nanqishu-023",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-023-wangjian-ws1545488"
+    },
+    {
+      "id": "c-nanqishu-023-wangjian:p013:r0114",
+      "paragraph_id": "c-nanqishu-023-wangjian:p013",
+      "person_id": "kix_r92_2ed",
+      "quote": "　　又詔曰：「慎終追遠，列代通規，褒德紀勳，彌峻恒策。故侍中、中書令、太子少傅、領國子祭酒、衞軍將軍、開府儀同三司南昌公儉，體道秉哲，風宇淵曠。肇自弱齡，清猷自遠。登朝應務，民望斯屬。草昧皇基，協隆鼎祚；宏謨盛烈，載銘彝篆。及贊朕躬，徽績光茂。忠圖令範，造次必彰。四門允穆，百揆時序。宗臣之重，情寄兼常。方正位論道，永釐袞職，弼茲景化，以贊隆平。天不憖遺，奄焉薨逝，朕用震慟于厥心。可追贈太尉，侍中、中書監、公如故。給節，加羽葆鼓吹，增班劔爲六十人。葬禮依故太宰文簡公褚淵故事。冢墓材官營辦。謚文憲公。」",
+      "note": "依本句稱謂及敘事主體。",
+      "referent_role": "speaker_self",
+      "start": 114,
+      "end": 115,
+      "surface": "朕",
+      "chapter_id": "c-nanqishu-023-wangjian",
+      "book_id": "b-nanqishu-023",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-023-wangjian-ws1545488"
+    },
+    {
+      "id": "c-nanqishu-023-wangjian:p013:r0183",
+      "paragraph_id": "c-nanqishu-023-wangjian:p013",
+      "person_id": "kix_r92_2ed",
+      "quote": "　　又詔曰：「慎終追遠，列代通規，褒德紀勳，彌峻恒策。故侍中、中書令、太子少傅、領國子祭酒、衞軍將軍、開府儀同三司南昌公儉，體道秉哲，風宇淵曠。肇自弱齡，清猷自遠。登朝應務，民望斯屬。草昧皇基，協隆鼎祚；宏謨盛烈，載銘彝篆。及贊朕躬，徽績光茂。忠圖令範，造次必彰。四門允穆，百揆時序。宗臣之重，情寄兼常。方正位論道，永釐袞職，弼茲景化，以贊隆平。天不憖遺，奄焉薨逝，朕用震慟于厥心。可追贈太尉，侍中、中書監、公如故。給節，加羽葆鼓吹，增班劔爲六十人。葬禮依故太宰文簡公褚淵故事。冢墓材官營辦。謚文憲公。」",
+      "note": "依本句稱謂及敘事主體。",
+      "referent_role": "speaker_self",
+      "start": 183,
+      "end": 184,
+      "surface": "朕",
+      "chapter_id": "c-nanqishu-023-wangjian",
+      "book_id": "b-nanqishu-023",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-023-wangjian-ws1545488"
+    },
     {
       "id": "c-nanqishu-036-wangyongxian-caiqing:p001:r0024",
       "surface": "上",
@@ -4759,7 +4978,34 @@
   "person_ids": [
     "kix_r92_2ed"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-nanqishu-040-wangzhi-royal-context-line122-father",
+      "subject_person_id": "kix_r92_2ed_A",
+      "object_person_id": "kix_r92_2ed",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "第五子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "source_id": "s-nanqishu-040-wangzhi-royal-context-ws2272748",
+          "chapter_id": "c-nanqishu-040-wangzhi-royal-context",
+          "paragraph_id": "c-nanqishu-040-wangzhi-royal-context:line122",
+          "quote": "安陸王子敬字雲端，世祖第五子也。",
+          "subject_person_mention_id": "c-nanqishu-040-wangzhi-royal-context:line122:m0000",
+          "object_person_mention_id": "c-nanqishu-040-wangzhi-royal-context:line122:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "此句父子關係由前後兩個具名或具號的人物及親屬詞共同確定。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

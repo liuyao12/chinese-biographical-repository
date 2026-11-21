@@ -2,6 +2,10 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'jin080_named_congbo':
+        try: from scripts.jin080_xizhi import collateral_valid
+        except ImportError: from jin080_xizhi import collateral_valid
+        return collateral_valid(assertion, paragraphs)
     if 'nanshi019_role' in assertion.get('qualifiers', {}):
         try: from .nanshi019_dialogue import collateral_valid
         except ImportError: from nanshi019_dialogue import collateral_valid

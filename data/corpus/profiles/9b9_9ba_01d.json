@@ -3543,6 +3543,35 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-023-wangkun",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangkun-ws2478204",
+      "source": {
+        "title": "南史卷二十三·王琨附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂2478204，武英殿本書影逐項參記。",
+        "extent": "王華原題內王琨未另題附傳，八個原段。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "第63行琨，華從父弟也，至第77行，於第79行王惠原題前。",
+        "wikitext_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-songshu-085-xiezhuang",
       "work_id": "w-songshu",
       "book_id": "b-songshu-085",
@@ -5605,6 +5634,40 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi023-wangkun-69-128-118",
+      "subject_person_id": "9b9_9ba_01d",
+      "object_person_id": "hx8_st4_jdd",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "寵子新安王",
+        "reading_basis": {
+          "kind": "marriages_and_parents_in_wangkun",
+          "line": 69,
+          "case": "寵子新安王",
+          "source_quote": "上以琨忠實，徙為寵子新安王",
+          "start": 118,
+          "end": 131,
+          "subject_anchor_id": "c-nanshi-023-wangkun:p004:r0128",
+          "object_anchor_id": "c-nanshi-023-wangkun:p004:r0118"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "chapter_id": "c-nanshi-023-wangkun",
+          "source_id": "s-nanshi-023-wangkun-ws2478204",
+          "paragraph_id": "c-nanshi-023-wangkun:p004",
+          "quote": "出為平越中郎將、廣州刺史，加都督。南土沃實，在任常致巨富。世雲廣州刺史但經城門一過，便得三千萬。琨無所取納，表獻祿俸之半。鎮舊有鼓吹，又啟輸還。及罷任，孝武知其清，問還資多少？琨曰：「臣買宅百三十萬，餘物稱之。」帝悅其對。後為曆陽內史。上以琨忠實，徙為寵子新安王北中郎長史。再曆度支尚書，加光祿大夫。"
+        }
+      ],
+      "interpretation_note": "同段原句中的姓名或稱謂各指唯一當事人。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
@@ -5687,6 +5750,36 @@
       "source_id": "s-nanshi-019-xieyu-descendants-ws1531762"
     },
     {
+      "start": 126,
+      "end": 128,
+      "surface": "寵子",
+      "id": "c-nanshi-023-wangkun:p004:r0126",
+      "paragraph_id": "c-nanshi-023-wangkun:p004",
+      "person_id": "9b9_9ba_01d",
+      "referent_role": "third_person",
+      "quote": "出為平越中郎將、廣州刺史，加都督。南土沃實，在任常致巨富。世雲廣州刺史但經城門一過，便得三千萬。琨無所取納，表獻祿俸之半。鎮舊有鼓吹，又啟輸還。及罷任，孝武知其清，問還資多少？琨曰：「臣買宅百三十萬，餘物稱之。」帝悅其對。後為曆陽內史。上以琨忠實，徙為寵子新安王北中郎長史。再曆度支尚書，加光祿大夫。",
+      "note": "本句按敘述視點回指子鸞。",
+      "chapter_id": "c-nanshi-023-wangkun",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangkun-ws2478204"
+    },
+    {
+      "start": 128,
+      "end": 131,
+      "surface": "新安王",
+      "id": "c-nanshi-023-wangkun:p004:r0128",
+      "paragraph_id": "c-nanshi-023-wangkun:p004",
+      "person_id": "9b9_9ba_01d",
+      "referent_role": "third_person",
+      "quote": "出為平越中郎將、廣州刺史，加都督。南土沃實，在任常致巨富。世雲廣州刺史但經城門一過，便得三千萬。琨無所取納，表獻祿俸之半。鎮舊有鼓吹，又啟輸還。及罷任，孝武知其清，問還資多少？琨曰：「臣買宅百三十萬，餘物稱之。」帝悅其對。後為曆陽內史。上以琨忠實，徙為寵子新安王北中郎長史。再曆度支尚書，加光祿大夫。",
+      "note": "本句按敘述視點回指子鸞。",
+      "chapter_id": "c-nanshi-023-wangkun",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangkun-ws2478204"
+    },
+    {
       "id": "c-songshu-088-song88:p001:r0073",
       "paragraph_id": "c-songshu-088-song88:p001",
       "start": 73,
@@ -5763,6 +5856,40 @@
         }
       ],
       "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi023-wangkun-69-128-118",
+      "subject_person_id": "9b9_9ba_01d",
+      "object_person_id": "hx8_st4_jdd",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "寵子新安王",
+        "reading_basis": {
+          "kind": "marriages_and_parents_in_wangkun",
+          "line": 69,
+          "case": "寵子新安王",
+          "source_quote": "上以琨忠實，徙為寵子新安王",
+          "start": 118,
+          "end": 131,
+          "subject_anchor_id": "c-nanshi-023-wangkun:p004:r0128",
+          "object_anchor_id": "c-nanshi-023-wangkun:p004:r0118"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "chapter_id": "c-nanshi-023-wangkun",
+          "source_id": "s-nanshi-023-wangkun-ws2478204",
+          "paragraph_id": "c-nanshi-023-wangkun:p004",
+          "quote": "出為平越中郎將、廣州刺史，加都督。南土沃實，在任常致巨富。世雲廣州刺史但經城門一過，便得三千萬。琨無所取納，表獻祿俸之半。鎮舊有鼓吹，又啟輸還。及罷任，孝武知其清，問還資多少？琨曰：「臣買宅百三十萬，餘物稱之。」帝悅其對。後為曆陽內史。上以琨忠實，徙為寵子新安王北中郎長史。再曆度支尚書，加光祿大夫。"
+        }
+      ],
+      "interpretation_note": "同段原句中的姓名或稱謂各指唯一當事人。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false

@@ -2521,8 +2521,8 @@
       "category": "",
       "title": "王氏跨史家系選段",
       "paragraph_id": "c-nanshi-024-wang-family:line015",
-      "count": 25,
-      "raw_count": 25,
+      "count": 24,
+      "raw_count": 24,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "敬弘少有清尚，起家本國左常侍、衞軍參軍。性恬靜，樂山水，求爲天門太守。及之郡，妻弟荊州刺史桓玄遣信要令過己，敬弘至巴陵，謂人曰：「靈寶正當欲見其姊，我不能爲桓氏贅婿。」乃遣別船送妻往江陵，彌年不迎。山郡無",
@@ -2553,7 +2553,6 @@
         "c-nanshi-024-wang-family:line023:m0045",
         "c-nanshi-024-wang-family:line023:m0116",
         "c-nanshi-024-wang-family:line023:m0143",
-        "c-nanshi-024-wang-family:line023:m0197",
         "c-nanshi-024-wang-family:line023:m0219",
         "c-nanshi-024-wang-family:line025:m0000",
         "c-nanshi-024-wang-family:line025:m0071",
@@ -2580,7 +2579,6 @@
         "c-nanshi-024-wang-family:line023:m0045": "c-nanshi-024-wang-family:line023",
         "c-nanshi-024-wang-family:line023:m0116": "c-nanshi-024-wang-family:line023",
         "c-nanshi-024-wang-family:line023:m0143": "c-nanshi-024-wang-family:line023",
-        "c-nanshi-024-wang-family:line023:m0197": "c-nanshi-024-wang-family:line023",
         "c-nanshi-024-wang-family:line023:m0219": "c-nanshi-024-wang-family:line023",
         "c-nanshi-024-wang-family:line025:m0000": "c-nanshi-024-wang-family:line025",
         "c-nanshi-024-wang-family:line025:m0071": "c-nanshi-024-wang-family:line025",
@@ -2677,13 +2675,6 @@
           "canonical_mention_id": "c-nanshi-024-wang-family:line023:m0143",
           "mention_ids": [
             "c-nanshi-024-wang-family:line023:m0143"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-nanshi-024-wang-family:line023:m0197",
-          "mention_ids": [
-            "c-nanshi-024-wang-family:line023:m0197"
           ],
           "kind": "paragraph"
         },
@@ -9941,6 +9932,87 @@
       "model": null
     },
     {
+      "id": "a-nanshi024-huizhi-23-209",
+      "subject_person_id": "7r6_k52_qji_ABDABAAA",
+      "object_person_id": "7r6_k52_qji_ABDABAA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子恢之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "quote": "敬弘形狀短而起坐端方，桓玄謂之「彈棋發八勢」。所居舍亭山，林澗環周，備登臨之美，故時人謂之王東山。文帝嘗問爲政得失，對曰：「天下有道，庶人不議。」上高其言。左右嘗使二老婦女，戴五條辮，著青紋絝袼，飾以朱粉。女適尚書僕射何尚之弟述之。敬弘嘗往何氏看女，遇尚之不在，因寄齋中臥。俄頃尚之還，敬弘使二婦女守合，不聽尚之入，云：「正熱不堪相見，君可且去」。尚之於是移於他室。上將爲廬陵王納其女，辭曰：「臣女幼，既許孔淳之息。」子恢之被召爲祕書郎，敬弘爲求奉朝請，與恢之書曰：「彼祕書有限故有競，朝請無限故無競，吾欲使汝處不競之地。」文帝嘉之，並見許。",
+          "subject_person_mention_id": "c-nanshi-024-wang-family:line023:m0210",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line023:m0219",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wang-family:line023",
+            "start": 209,
+            "end": 212,
+            "surface": "子恢之"
+          }
+        }
+      ],
+      "interpretation_note": "依本段姓名、原親屬詞及指稱次序。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-zhenzhi-71-19",
+      "subject_person_id": "7r6_k52_qji_ABDACAA",
+      "object_person_id": "7r6_k52_qji_ABDABAA",
+      "predicate": "agnatic_cousin",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "裕之從祖弟也",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABDABAA",
+          "younger_person_id": "7r6_k52_qji_ABDACAA",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line071",
+          "quote": "王鎭之字伯重，晉司州刺史胡之之從孫、而裕之從祖弟也。祖耆之，位中書郎，父隨之，上虞令。鎭之爲剡、上虞令，並有能名。桓玄輔晉，以爲大將軍録事參軍。時三呉饑荒，遣鎭之銜命賑恤，而會稽內史王愉不奉符旨，鎭之依事糾奏。愉子綏，玄之外甥，當時貴盛，鎭之爲所排抑。以母老求補安成太守，以母憂去職。在官清潔，妻子無以自反，乃棄家致喪還上虞舊墓。葬畢，爲子標之求安復令，隨子之官。服闋，爲征西道規司馬、南平太守。後爲御史中丞，執正不撓，百僚憚之。",
+          "subject_person_mention_id": "c-nanshi-024-wang-family:line071:m0004",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line071:m0019",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wang-family:line071",
+            "start": 19,
+            "end": 25,
+            "surface": "裕之從祖弟也"
+          }
+        }
+      ],
+      "interpretation_note": "依本段姓名、原親屬詞及指稱次序。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-songshu066-wang-001",
       "subject_person_id": "7r6_k52_qji_ABDABAA",
       "predicate": "father",
@@ -10133,6 +10205,7 @@
     "7r6_k52_qji_ABDABAACA": "王延之",
     "7r6_k52_qji_ABDABAAD": "王敬弘女（何述之妻，未名）",
     "7r6_k52_qji_ABDABAAE": "王敬弘女（孔尚妻）",
+    "7r6_k52_qji_ABDACAA": "王鎮之",
     "fml_n0s_qtz": "王敬弘妻（桓玄姊，未名）"
   },
   "dates": [
@@ -11694,6 +11767,98 @@
       ]
     }
   ],
+  "person_references": [
+    {
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start": 14,
+      "end": 15,
+      "surface": "之",
+      "id": "c-nanshi-024-wang-family:line023:r0014",
+      "person_id": "7r6_k52_qji_ABDABAA",
+      "referent_role": "third_person",
+      "quote": "桓玄謂之",
+      "note": "依本句說話人、受話人及敘事承接。",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wang-family"
+    },
+    {
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start": 75,
+      "end": 76,
+      "surface": "其",
+      "id": "c-nanshi-024-wang-family:line023:r0075",
+      "person_id": "7r6_k52_qji_ABDABAA",
+      "referent_role": "third_person",
+      "quote": "上高其言",
+      "note": "依本句說話人、受話人及敘事承接。",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wang-family"
+    },
+    {
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start": 190,
+      "end": 191,
+      "surface": "其",
+      "id": "c-nanshi-024-wang-family:line023:r0190",
+      "person_id": "7r6_k52_qji_ABDABAA",
+      "referent_role": "third_person",
+      "quote": "納其女",
+      "note": "依本句說話人、受話人及敘事承接。",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wang-family"
+    },
+    {
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start": 197,
+      "end": 198,
+      "surface": "臣",
+      "id": "c-nanshi-024-wang-family:line023:m0197",
+      "person_id": "7r6_k52_qji_ABDABAA",
+      "referent_role": "speaker_self",
+      "quote": "臣女幼",
+      "note": "依本句說話人、受話人及敘事承接。",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wang-family"
+    },
+    {
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start": 251,
+      "end": 252,
+      "surface": "吾",
+      "id": "c-nanshi-024-wang-family:line023:r0251",
+      "person_id": "7r6_k52_qji_ABDABAA",
+      "referent_role": "speaker_self",
+      "quote": "吾欲使汝",
+      "note": "依本句說話人、受話人及敘事承接。",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wang-family"
+    },
+    {
+      "paragraph_id": "c-nanshi-024-wang-family:line025",
+      "start": 36,
+      "end": 37,
+      "surface": "之",
+      "id": "c-nanshi-024-wang-family:line025:r0036",
+      "person_id": "7r6_k52_qji_ABDABAA",
+      "referent_role": "third_person",
+      "quote": "人或問之",
+      "note": "依本句說話人、受話人及敘事承接。",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wang-family"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABDABAA"
   ],
@@ -11830,6 +11995,87 @@
       ],
       "interpretation_note": "原文指王峻曾祖為謝仁祖外孫；曾祖指涉有獨立三代來源路徑，謝仁祖據晉書字號明文辨謝尚。未名生母不另造人物，不作父系祖先。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-huizhi-23-209",
+      "subject_person_id": "7r6_k52_qji_ABDABAAA",
+      "object_person_id": "7r6_k52_qji_ABDABAA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子恢之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "quote": "敬弘形狀短而起坐端方，桓玄謂之「彈棋發八勢」。所居舍亭山，林澗環周，備登臨之美，故時人謂之王東山。文帝嘗問爲政得失，對曰：「天下有道，庶人不議。」上高其言。左右嘗使二老婦女，戴五條辮，著青紋絝袼，飾以朱粉。女適尚書僕射何尚之弟述之。敬弘嘗往何氏看女，遇尚之不在，因寄齋中臥。俄頃尚之還，敬弘使二婦女守合，不聽尚之入，云：「正熱不堪相見，君可且去」。尚之於是移於他室。上將爲廬陵王納其女，辭曰：「臣女幼，既許孔淳之息。」子恢之被召爲祕書郎，敬弘爲求奉朝請，與恢之書曰：「彼祕書有限故有競，朝請無限故無競，吾欲使汝處不競之地。」文帝嘉之，並見許。",
+          "subject_person_mention_id": "c-nanshi-024-wang-family:line023:m0210",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line023:m0219",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wang-family:line023",
+            "start": 209,
+            "end": 212,
+            "surface": "子恢之"
+          }
+        }
+      ],
+      "interpretation_note": "依本段姓名、原親屬詞及指稱次序。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-zhenzhi-71-19",
+      "subject_person_id": "7r6_k52_qji_ABDACAA",
+      "object_person_id": "7r6_k52_qji_ABDABAA",
+      "predicate": "agnatic_cousin",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "裕之從祖弟也",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABDABAA",
+          "younger_person_id": "7r6_k52_qji_ABDACAA",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line071",
+          "quote": "王鎭之字伯重，晉司州刺史胡之之從孫、而裕之從祖弟也。祖耆之，位中書郎，父隨之，上虞令。鎭之爲剡、上虞令，並有能名。桓玄輔晉，以爲大將軍録事參軍。時三呉饑荒，遣鎭之銜命賑恤，而會稽內史王愉不奉符旨，鎭之依事糾奏。愉子綏，玄之外甥，當時貴盛，鎭之爲所排抑。以母老求補安成太守，以母憂去職。在官清潔，妻子無以自反，乃棄家致喪還上虞舊墓。葬畢，爲子標之求安復令，隨子之官。服闋，爲征西道規司馬、南平太守。後爲御史中丞，執正不撓，百僚憚之。",
+          "subject_person_mention_id": "c-nanshi-024-wang-family:line071:m0004",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line071:m0019",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wang-family:line071",
+            "start": 19,
+            "end": 25,
+            "surface": "裕之從祖弟也"
+          }
+        }
+      ],
+      "interpretation_note": "依本段姓名、原親屬詞及指稱次序。",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     },

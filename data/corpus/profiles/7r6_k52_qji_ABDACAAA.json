@@ -10,6 +10,54 @@
   ],
   "titles": [
     {
+      "id": "th-nanshi024-zhenzhi-71-173",
+      "person_id": "7r6_k52_qji_ABDACAAA",
+      "title": "安復令",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi024-zhenzhi-71-173:a",
+          "paragraph_id": "c-nanshi-024-wang-family:line071",
+          "start": 173,
+          "end": 176,
+          "surface": "安復令",
+          "person_mention_id": "c-nanshi-024-wang-family:line071:m0170",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line071",
+          "quote": "王鎭之字伯重，晉司州刺史胡之之從孫、而裕之從祖弟也。祖耆之，位中書郎，父隨之，上虞令。鎭之爲剡、上虞令，並有能名。桓玄輔晉，以爲大將軍録事參軍。時三呉饑荒，遣鎭之銜命賑恤，而會稽內史王愉不奉符旨，鎭之依事糾奏。愉子綏，玄之外甥，當時貴盛，鎭之爲所排抑。以母老求補安成太守，以母憂去職。在官清潔，妻子無以自反，乃棄家致喪還上虞舊墓。葬畢，爲子標之求安復令，隨子之官。服闋，爲征西道規司馬、南平太守。後爲御史中丞，執正不撓，百僚憚之。",
+          "person_mention_id": "c-nanshi-024-wang-family:line071:m0170"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文所見職位，未定完整任期。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-songshu-092-14-205",
       "person_id": "7r6_k52_qji_ABDACAAA",
       "title": "安復令",
@@ -536,6 +584,39 @@
   ],
   "relations": [
     {
+      "id": "a-nanshi024-zhenzhi-71-168",
+      "subject_person_id": "7r6_k52_qji_ABDACAAA",
+      "object_person_id": "7r6_k52_qji_ABDACAA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "爲子標之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line071",
+          "quote": "王鎭之字伯重，晉司州刺史胡之之從孫、而裕之從祖弟也。祖耆之，位中書郎，父隨之，上虞令。鎭之爲剡、上虞令，並有能名。桓玄輔晉，以爲大將軍録事參軍。時三呉饑荒，遣鎭之銜命賑恤，而會稽內史王愉不奉符旨，鎭之依事糾奏。愉子綏，玄之外甥，當時貴盛，鎭之爲所排抑。以母老求補安成太守，以母憂去職。在官清潔，妻子無以自反，乃棄家致喪還上虞舊墓。葬畢，爲子標之求安復令，隨子之官。服闋，爲征西道規司馬、南平太守。後爲御史中丞，執正不撓，百僚憚之。",
+          "subject_person_mention_id": "c-nanshi-024-wang-family:line071:m0170",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line071:m0119",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wang-family:line071",
+            "start": 168,
+            "end": 172,
+            "surface": "爲子標之"
+          }
+        }
+      ],
+      "interpretation_note": "依本段姓名、原親屬詞及指稱次序。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-songshu092-biaozhi-father",
       "subject_person_id": "7r6_k52_qji_ABDACAAA",
       "predicate": "father",
@@ -567,10 +648,60 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "paragraph_id": "c-nanshi-024-wang-family:line071",
+      "start": 178,
+      "end": 179,
+      "surface": "子",
+      "id": "c-nanshi-024-wang-family:line071:r0178",
+      "person_id": "7r6_k52_qji_ABDACAAA",
+      "referent_role": "third_person",
+      "quote": "隨子之官",
+      "note": "依本句說話人、受話人及敘事承接。",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wang-family"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABDACAAA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nanshi024-zhenzhi-71-168",
+      "subject_person_id": "7r6_k52_qji_ABDACAAA",
+      "object_person_id": "7r6_k52_qji_ABDACAA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "爲子標之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line071",
+          "quote": "王鎭之字伯重，晉司州刺史胡之之從孫、而裕之從祖弟也。祖耆之，位中書郎，父隨之，上虞令。鎭之爲剡、上虞令，並有能名。桓玄輔晉，以爲大將軍録事參軍。時三呉饑荒，遣鎭之銜命賑恤，而會稽內史王愉不奉符旨，鎭之依事糾奏。愉子綏，玄之外甥，當時貴盛，鎭之爲所排抑。以母老求補安成太守，以母憂去職。在官清潔，妻子無以自反，乃棄家致喪還上虞舊墓。葬畢，爲子標之求安復令，隨子之官。服闋，爲征西道規司馬、南平太守。後爲御史中丞，執正不撓，百僚憚之。",
+          "subject_person_mention_id": "c-nanshi-024-wang-family:line071:m0170",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line071:m0119",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wang-family:line071",
+            "start": 168,
+            "end": 172,
+            "surface": "爲子標之"
+          }
+        }
+      ],
+      "interpretation_note": "依本段姓名、原親屬詞及指稱次序。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-songshu092-biaozhi-father",
       "subject_person_id": "7r6_k52_qji_ABDACAAA",

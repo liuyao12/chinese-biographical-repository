@@ -33,8 +33,9 @@ def valid(p, chapter, root):
         marker = re.sub(r'-\{([^{}]+)\}-', r'\1', introductory)
         if quotation not in marker or '曰：' not in marker:
             return False
-        rendered = re.sub(r'\{\{ProperNoun\|([^{}]+)\}\}', r'\1', q['quote'])
-        rendered = re.sub(r'-\{([^{}]+)\}-', r'\1', rendered)
+        # 異體單字標記也可位於專名模板內。
+        deconverted_quote = re.sub(r'-\{([^{}]+)\}-', r'\1', q['quote'])
+        rendered = re.sub(r'\{\{ProperNoun\|([^{}]+)\}\}', r'\1', deconverted_quote)
         return p['text'] == rendered
     except (KeyError, ValueError, TypeError, OSError, IndexError):
         return False

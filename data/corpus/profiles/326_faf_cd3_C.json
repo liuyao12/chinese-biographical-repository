@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "操之",
-    "子重"
+    "子重",
+    "王操之"
   ],
   "titles": [
     {
@@ -345,6 +346,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w080-qijuzhu-cao",
+      "person_id": "326_faf_cd3_C",
+      "title": "秘書監",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-taipingyulan",
+          "book_id": "b-taipingyulan-149",
+          "chapter_id": "c-taipingyulan-149-wang080-xianzhi",
+          "source_id": "s-taipingyulan-149-wang080-xianzhi",
+          "paragraph_id": "c-taipingyulan-149-wang080-xianzhi:qijuzhu",
+          "person_mention_id": "c-taipingyulan-149-wang080-xianzhi:qijuzhu:m0016",
+          "quote": "百官朱服，會于新安公主第，秘書監王操之爲主人。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w080-qijuzhu-cao:a",
+          "paragraph_id": "c-taipingyulan-149-wang080-xianzhi:qijuzhu",
+          "start": 13,
+          "end": 16,
+          "surface": "秘書監",
+          "person_mention_id": "c-taipingyulan-149-wang080-xianzhi:qijuzhu:m0016",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本句所授、所歷或任時稱謂。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -398,21 +447,24 @@
       "category": "",
       "title": "王羲之、諸子孫及許邁傳（卷八十完整數位正文）",
       "paragraph_id": "c-jinshu-080-wangxizhi-family:line102",
-      "count": 2,
-      "raw_count": 2,
+      "count": 3,
+      "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "操之字子重，歷侍中、尚書、豫章太守。",
       "paragraph_ids": [
-        "c-jinshu-080-wangxizhi-family:line102"
+        "c-jinshu-080-wangxizhi-family:line102",
+        "c-jinshu-080-wangxizhi-family:line106"
       ],
       "mention_ids": [
         "c-jinshu-080-wangxizhi-family:line102:m0000",
-        "c-jinshu-080-wangxizhi-family:line102:m0003"
+        "c-jinshu-080-wangxizhi-family:line102:m0003",
+        "c-jinshu-080-wangxizhi-family:line106:m0106"
       ],
       "mention_paragraph_ids": {
         "c-jinshu-080-wangxizhi-family:line102:m0000": "c-jinshu-080-wangxizhi-family:line102",
-        "c-jinshu-080-wangxizhi-family:line102:m0003": "c-jinshu-080-wangxizhi-family:line102"
+        "c-jinshu-080-wangxizhi-family:line102:m0003": "c-jinshu-080-wangxizhi-family:line102",
+        "c-jinshu-080-wangxizhi-family:line106:m0106": "c-jinshu-080-wangxizhi-family:line106"
       },
       "mention_id": "c-jinshu-080-wangxizhi-family:line102:m0000",
       "occurrence_groups": [
@@ -427,6 +479,13 @@
           "canonical_mention_id": "c-jinshu-080-wangxizhi-family:line102:m0003",
           "mention_ids": [
             "c-jinshu-080-wangxizhi-family:line102:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi-family:line106:m0106",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi-family:line106:m0106"
           ],
           "kind": "paragraph"
         }
@@ -471,6 +530,41 @@
       "chapter_id": "c-jinshu-080-wuying-family-head",
       "source_id": "s-jinshu-080-wuying-family-head",
       "work_title": "晉書"
+    },
+    {
+      "number": 149,
+      "category": "",
+      "title": "皇親部十五王皇后多種記錄",
+      "paragraph_id": "c-taipingyulan-149-wang080-xianzhi:qijuzhu",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "百官朱服，會于新安公主第，秘書監王操之爲主人。",
+      "paragraph_ids": [
+        "c-taipingyulan-149-wang080-xianzhi:qijuzhu"
+      ],
+      "mention_ids": [
+        "c-taipingyulan-149-wang080-xianzhi:qijuzhu:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-taipingyulan-149-wang080-xianzhi:qijuzhu:m0016": "c-taipingyulan-149-wang080-xianzhi:qijuzhu"
+      },
+      "mention_id": "c-taipingyulan-149-wang080-xianzhi:qijuzhu:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-taipingyulan-149-wang080-xianzhi:qijuzhu:m0016",
+          "mention_ids": [
+            "c-taipingyulan-149-wang080-xianzhi:qijuzhu:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-taipingyulan",
+      "book_id": "b-taipingyulan-149",
+      "chapter_id": "c-taipingyulan-149-wang080-xianzhi",
+      "source_id": "s-taipingyulan-149-wang080-xianzhi",
+      "work_title": "太平御覽"
     }
   ],
   "table_occurrences": [],
@@ -545,6 +639,30 @@
         "raw_path": "source-evidence/jin065-wang-children/external/pin-ws1532655.wikitext",
         "raw_file_sha256": "bb84912db3dff13ccba1ab15981534723dad840db63f064c7f196eb88c97f06c",
         "wikitext_sha256": "bb84912db3dff13ccba1ab15981534723dad840db63f064c7f196eb88c97f06c"
+      }
+    },
+    {
+      "chapter_id": "c-taipingyulan-149-wang080-xianzhi",
+      "work_id": "w-taipingyulan",
+      "book_id": "b-taipingyulan-149",
+      "source_id": "s-taipingyulan-149-wang080-xianzhi",
+      "source": {
+        "title": "太平御覽卷一百四十九",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2607174",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2607174",
+        "revision_id": 2607174,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位轉錄。",
+        "extent": "固定版本的相關原句及該句所出層次，按字位核對。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin080-wang-xianzhi/external/yu149-ws2607174.wikitext",
+        "raw_file_sha256": "cb25ef030b8a4722ba314001090184313834a154aca4066522571dead5616f7f",
+        "wikitext_sha256": "cb25ef030b8a4722ba314001090184313834a154aca4066522571dead5616f7f"
       }
     }
   ],

@@ -8,7 +8,8 @@
   "names": [
     "王凝之",
     "凝之",
-    "王郎"
+    "王郎",
+    "叔平"
   ],
   "titles": [
     {
@@ -206,6 +207,50 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 2,
+      "category": "",
+      "title": "言語劉注王氏譜凝之",
+      "paragraph_id": "c-shishuoxinyu-002-jin080-xizhi:secondson",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "凝之字叔平，右將軍羲之第二子也。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-002-jin080-xizhi:secondson"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-002-jin080-xizhi:secondson:m0000",
+        "c-shishuoxinyu-002-jin080-xizhi:secondson:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-002-jin080-xizhi:secondson:m0000": "c-shishuoxinyu-002-jin080-xizhi:secondson",
+        "c-shishuoxinyu-002-jin080-xizhi:secondson:m0003": "c-shishuoxinyu-002-jin080-xizhi:secondson"
+      },
+      "mention_id": "c-shishuoxinyu-002-jin080-xizhi:secondson:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-002-jin080-xizhi:secondson:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-002-jin080-xizhi:secondson:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-002-jin080-xizhi:secondson:m0003",
+          "mention_ids": [
+            "c-shishuoxinyu-002-jin080-xizhi:secondson:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-002",
+      "chapter_id": "c-shishuoxinyu-002-jin080-xizhi",
+      "source_id": "s-shishuoxinyu-002-jin080-xizhi",
+      "work_title": "世說新語"
+    },
     {
       "number": 10,
       "category": "",
@@ -547,6 +592,30 @@
         "raw_file_sha256": "2a30a87df259042f1f5d783dd7b9674ff174208aae03383fad28ab3c88dbabb5",
         "wikitext_sha256": "2a30a87df259042f1f5d783dd7b9674ff174208aae03383fad28ab3c88dbabb5"
       }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-002-jin080-xizhi",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-002",
+      "source_id": "s-shishuoxinyu-002-jin080-xizhi",
+      "source": {
+        "title": "世說新語言語",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567463",
+        "revision_id": 2567463,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位轉錄。",
+        "extent": "固定版本的相關原句及該句所出層次，按字位核對。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin065-wang-descendants/external/shi-ws2567463.wikitext",
+        "raw_file_sha256": "d8497f787b468d3b7538bc5f842fad69c4e32905f58bab290f767b553166ee32",
+        "wikitext_sha256": "d8497f787b468d3b7538bc5f842fad69c4e32905f58bab290f767b553166ee32"
+      }
     }
   ],
   "relations": [
@@ -597,6 +666,32 @@
         }
       ],
       "interpretation_note": "凝之妻還謝家，謝安以逸少子指其夫王凝之，羲之字逸少。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w080-ning-xi-genealogy",
+      "subject_person_id": "f7d_ipd_k1o",
+      "object_person_id": "326_faf_cd3",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "羲之第二子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-002",
+          "chapter_id": "c-shishuoxinyu-002-jin080-xizhi",
+          "source_id": "s-shishuoxinyu-002-jin080-xizhi",
+          "paragraph_id": "c-shishuoxinyu-002-jin080-xizhi:secondson",
+          "quote": "凝之字叔平，右將軍羲之第二子也。",
+          "subject_person_mention_id": "c-shishuoxinyu-002-jin080-xizhi:secondson:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-002-jin080-xizhi:secondson:m0009"
+        }
+      ],
+      "interpretation_note": "劉注所引王氏譜記第二子。",
       "status": "source_attested",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
@@ -734,6 +829,32 @@
         }
       ],
       "interpretation_note": "凝之妻還謝家，謝安以逸少子指其夫王凝之，羲之字逸少。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w080-ning-xi-genealogy",
+      "subject_person_id": "f7d_ipd_k1o",
+      "object_person_id": "326_faf_cd3",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "羲之第二子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-002",
+          "chapter_id": "c-shishuoxinyu-002-jin080-xizhi",
+          "source_id": "s-shishuoxinyu-002-jin080-xizhi",
+          "paragraph_id": "c-shishuoxinyu-002-jin080-xizhi:secondson",
+          "quote": "凝之字叔平，右將軍羲之第二子也。",
+          "subject_person_mention_id": "c-shishuoxinyu-002-jin080-xizhi:secondson:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-002-jin080-xizhi:secondson:m0009"
+        }
+      ],
+      "interpretation_note": "劉注所引王氏譜記第二子。",
       "status": "source_attested",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,

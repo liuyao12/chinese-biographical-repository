@@ -14429,6 +14429,86 @@
           "source_assertion_id": "a-nanshi-011-zangqiyuan-father"
         }
       ]
+    },
+    {
+      "id": "family-nanqi039-lu-shao-yuan-cheng",
+      "root_person_id": "77h_id3_a0i",
+      "label": "陸邵、陸瑗、陸澄",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "齊卷39和南卷48傳首均列祖、父；祖名用邵與劭兩個原字。以兩項不同世次的直接陳述組裝邵至瑗。",
+      "members": [
+        {
+          "person_id": "77h_id3_a0i",
+          "source_person_ids": [
+            "77h_id3_a0i"
+          ],
+          "representative_source_person_id": "77h_id3_a0i",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "77h_id3_a0i_A",
+          "source_person_ids": [
+            "77h_id3_a0i_A"
+          ],
+          "representative_source_person_id": "77h_id3_a0i_A",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "77h_id3_a0i",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "77h_id3_a0i_AA",
+            "nearer_ancestor_assertion_id": "a-nanqishu-039-lucheng-wangjian-cheng-father",
+            "farther_ancestor_assertion_id": "a-nanqishu-039-lucheng-wangjian-cheng-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一陸澄傳頭並書祖邵、父瑗，組裝祖與父的親子次序。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-039",
+                "source_id": "s-nanqishu-039-lucheng-wangjian-ws1545485",
+                "chapter_id": "c-nanqishu-039-lucheng-wangjian",
+                "paragraph_id": "c-nanqishu-039-lucheng-wangjian:p001",
+                "quote": "　　陸澄字彥淵，吳郡吳人也。祖邵，臨海太守。父瑗，州從事。",
+                "subject_person_mention_id": "c-nanqishu-039-lucheng-wangjian:p001:m0002",
+                "object_person_mention_id": "c-nanqishu-039-lucheng-wangjian:p001:m0023",
+                "source_term": "父瑗",
+                "assertion_id": "a-nanqishu-039-lucheng-wangjian-cheng-father",
+                "scope": "具名親屬原句",
+                "url": "https://zh.wikisource.org/w/index.php?title=南齊書/卷39&oldid=1545485"
+              },
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-039",
+                "source_id": "s-nanqishu-039-lucheng-wangjian-ws1545485",
+                "chapter_id": "c-nanqishu-039-lucheng-wangjian",
+                "paragraph_id": "c-nanqishu-039-lucheng-wangjian:p001",
+                "quote": "　　陸澄字彥淵，吳郡吳人也。祖邵，臨海太守。父瑗，州從事。",
+                "subject_person_mention_id": "c-nanqishu-039-lucheng-wangjian:p001:m0002",
+                "object_person_mention_id": "c-nanqishu-039-lucheng-wangjian:p001:m0015",
+                "source_term": "祖邵",
+                "assertion_id": "a-nanqishu-039-lucheng-wangjian-cheng-grandfather",
+                "scope": "具名親屬原句",
+                "url": "https://zh.wikisource.org/w/index.php?title=南齊書/卷39&oldid=1545485"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "77h_id3_a0i_AA",
+          "source_person_ids": [
+            "77h_id3_a0i_AA"
+          ],
+          "representative_source_person_id": "77h_id3_a0i_AA",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "77h_id3_a0i_A",
+          "source_assertion_id": "a-nanqishu-039-lucheng-wangjian-cheng-father"
+        }
+      ]
     }
   ]
 }

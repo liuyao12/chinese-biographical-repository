@@ -15,6 +15,54 @@
   ],
   "titles": [
     {
+      "id": "th-w080-xushang-xie",
+      "person_id": "4ij_7ik_fgy_A",
+      "title": "安西將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-008",
+          "chapter_id": "c-jinshu-008-jin080-xizhi",
+          "source_id": "s-jinshu-008-jin080-xizhi",
+          "paragraph_id": "c-jinshu-008-jin080-xizhi:xushang",
+          "person_mention_id": "c-jinshu-008-jin080-xizhi:xushang:m0004",
+          "quote": "安西將軍謝尚帥姚襄與張遇戰于許昌之誡橋，王師敗績。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w080-xushang-xie:a",
+          "paragraph_id": "c-jinshu-008-jin080-xizhi:xushang",
+          "start": 0,
+          "end": 4,
+          "surface": "安西將軍",
+          "person_mention_id": "c-jinshu-008-jin080-xizhi:xushang:m0004",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本句所授、所歷或任時稱謂。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-jin077-f51-045",
       "person_id": "4ij_7ik_fgy_A",
       "title": "安西將軍",
@@ -2074,6 +2122,41 @@
     {
       "number": 8,
       "category": "",
+      "title": "穆帝紀永和八年與九年兩次敗績",
+      "paragraph_id": "c-jinshu-008-jin080-xizhi:xushang",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "安西將軍謝尚帥姚襄與張遇戰于許昌之誡橋，王師敗績。",
+      "paragraph_ids": [
+        "c-jinshu-008-jin080-xizhi:xushang"
+      ],
+      "mention_ids": [
+        "c-jinshu-008-jin080-xizhi:xushang:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-008-jin080-xizhi:xushang:m0004": "c-jinshu-008-jin080-xizhi:xushang"
+      },
+      "mention_id": "c-jinshu-008-jin080-xizhi:xushang:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-008-jin080-xizhi:xushang:m0004",
+          "mention_ids": [
+            "c-jinshu-008-jin080-xizhi:xushang:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-008",
+      "chapter_id": "c-jinshu-008-jin080-xizhi",
+      "source_id": "s-jinshu-008-jin080-xizhi",
+      "work_title": "晉書"
+    },
+    {
+      "number": 8,
+      "category": "",
       "title": "穆帝紀謝尚、謝奕卒年紀事",
       "paragraph_id": "c-jinshu-008-xie-branch-annal:p001",
       "count": 1,
@@ -2545,6 +2628,30 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-008-jin080-xizhi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-008",
+      "source_id": "s-jinshu-008-jin080-xizhi",
+      "source": {
+        "title": "晉書卷八穆帝紀",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2644502",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2644502",
+        "revision_id": 2644502,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位轉錄。",
+        "extent": "固定版本的相關原句及該句所出層次，按字位核對。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-xiewan-recheck/external/jun008-ws2644502.wikitext",
+        "raw_file_sha256": "947547981eb6fa2796d6a66f0b2f49e0d44d8f517cbd5300eb96d84114d56a73",
+        "wikitext_sha256": "947547981eb6fa2796d6a66f0b2f49e0d44d8f517cbd5300eb96d84114d56a73"
+      }
+    },
     {
       "chapter_id": "c-jinshu-008-xie-branch-annal",
       "work_id": "w-jinshu",
@@ -3370,6 +3477,30 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-080-wangxizhi-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "source_id": "s-jinshu-080-wangxizhi-family",
+      "source": {
+        "title": "晉書卷八十列傳第五十",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2603570",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2603570",
+        "revision_id": 2603570,
+        "accessed_on": "2026-11-20",
+        "edition": "固定數位轉錄。清武英殿本另列核過葉次及異文。",
+        "extent": "由王羲之傳首至卷末書論，每段依固定修訂；小標題另存。",
+        "text_scope": "full_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-xieyan-xiehun/witnesses/jin080-ws2603570.wikitext",
+        "raw_file_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "wikitext_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0"
       }
     },
     {
@@ -4363,6 +4494,21 @@
       "book_id": "b-jinshu-079",
       "work_id": "w-jinshu",
       "source_id": "s-jinshu-079-xielang-family"
+    },
+    {
+      "id": "c-jinshu-080-wangxizhi-family:line020:r0001",
+      "paragraph_id": "c-jinshu-080-wangxizhi-family:line020",
+      "start": 1,
+      "end": 3,
+      "surface": "安西",
+      "person_id": "4ij_7ik_fgy_A",
+      "referent_role": "third_person",
+      "quote": "知安西敗喪",
+      "note": "依原書牘的說者、受者及同段稱名。",
+      "chapter_id": "c-jinshu-080-wangxizhi-family",
+      "book_id": "b-jinshu-080",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-080-wangxizhi-family"
     }
   ],
   "person_ids": [
