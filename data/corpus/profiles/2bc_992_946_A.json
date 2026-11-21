@@ -791,6 +791,40 @@
   ],
   "age_assertions": [],
   "life_events": [],
+  "person_events": [
+    {
+      "id": "ev-jin079-shang-xuan-su",
+      "person_id": "2bc_992_946_A",
+      "event_type": "noble_title_succession",
+      "source_term": "嗣",
+      "date_expression": null,
+      "title": null,
+      "holding_id": null,
+      "mode": "accession",
+      "predecessor_person_id": "aa6_83c_juy_CA",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p007",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p007:m0021",
+          "quote": "無子，從弟奕以子康襲爵，早卒。康弟靜復以子肅嗣，又無子。靜子虔以子靈佑繼鯤後。"
+        }
+      ],
+      "source_clause_binding": {
+        "kind": "jin079_shang_xuan_heirs",
+        "role": "su",
+        "clause": "康弟靜復以子肅嗣"
+      },
+      "interpretation_note": "原句記襲爵、嗣爵。姓名稱呼與前後承接分核；所繼名號在單獨爵位斷言與讀記列存。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

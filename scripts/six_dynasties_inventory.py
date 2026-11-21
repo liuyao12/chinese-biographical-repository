@@ -17,6 +17,41 @@ def received_text(line):
     return text.replace('{{!|𠴲|⿰口沓}}', '𠴲')
 
 
+def source_paragraphs(lines, layout=None):
+    """核對固定轉錄選用的首行空格及跨段引文模板。"""
+    lines = [line for line in lines if line.strip()]
+    if layout is None:
+        return [received_text(line) for line in lines]
+    if layout == 'jin065_indented_text':
+        paragraphs = []
+        for line in lines:
+            if line.startswith(':　　'):
+                line = line[1:]
+            assert line.startswith('　　')
+            text = received_text(line[2:])
+            emphasis = "'" * 3
+            if text.count(emphasis) == 2:
+                text = text.replace(emphasis, '')
+            paragraphs.append(text)
+        return paragraphs
+    assert layout == 'wikisource_indented_quote'
+    paragraphs = []
+    in_quote = False
+    for line in lines:
+        if line.startswith('{{quote|'):
+            assert not in_quote
+            in_quote = True
+            line = line.removeprefix('{{quote|')
+        assert line.startswith('　　')
+        text = received_text(line[2:])
+        if in_quote and text.endswith('}}'):
+            text = text[:-2]
+            in_quote = False
+        paragraphs.append(text)
+    assert not in_quote
+    return paragraphs
+
+
 def source_passage(entry, lines, located_headings, ranges):
     """同一傳可隔著附傳另起續題；按各段實際起訖核原文。"""
     selected = []
@@ -120,7 +155,7 @@ def verify(root=ROOT):
             chapter = load(path)
             assert chapter['id'] == cid and chapter['source']['revision_id'] == survey['revision']
             paragraphs, text = chapter_passage(entry, chapter)
-            assert [received_text(line) for line in selected if line.strip()] == text, title
+            assert source_paragraphs(selected, entry.get('source_layout')) == text, title
             if entry['item_reviewed']:
                 assert all(p['annotation_status'] == 'reviewed' for p in paragraphs), title
     for book, (survey, lines) in witnesses.items():

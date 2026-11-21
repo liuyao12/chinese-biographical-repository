@@ -838,6 +838,13 @@ def _validate_uncached(root=ROOT):
             check(bool(p['evidence']), f'{p["id"]}: 人物沒有原文證據')
             evidenced=set()
             for e in p['evidence']:
+                if e.get('kind') == 'person_reference':
+                    try:
+                        from scripts.jin075_reference_evidence import reference_evidence_valid
+                    except ImportError:
+                        from jin075_reference_evidence import reference_evidence_valid
+                    check(reference_evidence_valid(e, chapters.get(e['chapter_id']), p['id']), '登記非姓名指涉同段、字位及人物須相合')
+                    continue
                 if e.get('kind') == 'table_cell':
                     try:
                         from scripts.table_evidence import table_person_evidence_errors
@@ -2026,6 +2033,13 @@ def _validate_uncached(root=ROOT):
                     if hit:
                         local={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'}
                         if adjacent is None:
+                            if qualifiers.get('reading_basis', {}).get('kind') == 'jin075_xunxian_titled_or_anonymous_kin':
+                                try:
+                                    from scripts.jin075_reference_evidence import kin_valid
+                                except ImportError:
+                                    from jin075_reference_evidence import kin_valid
+                                check(kin_valid(a, e, chapters.get(e['chapter_id']), root), '荀羨親屬須核固定原文、稱謂與兩端人物')
+                                continue
                             if 'reading_basis' in qualifiers and qualifiers['reading_basis'].get('kind') == 'xietiao_named_or_titled_kin':
                                 try:
                                     from scripts.xietiao_titled_kin import valid as titled_kin_valid
