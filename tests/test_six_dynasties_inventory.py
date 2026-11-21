@@ -2,12 +2,25 @@ import unittest
 import json
 from pathlib import Path
 
-from scripts.six_dynasties_inventory import verify
+from scripts.six_dynasties_inventory import chapter_passage, received_text, verify
 from scripts.person_references import reference_errors
 from scripts.family_assemblies import registry_sibling_path_valid
 
 
 class SixDynastiesInventoryTest(unittest.TestCase):
+    def test_slice_in_a_shared_paragraph_keeps_the_next_subject_outside(self):
+        chapter = dict(paragraphs=[dict(id='p1', text='甲傳。乙有二子。'), dict(id='p2', text='丙傳。')])
+        row = dict(title='甲', paragraph_ids=['p1'], paragraph_slices={'p1': dict(start=0, end=3)})
+        self.assertEqual(chapter_passage(row, chapter)[1], ['甲傳。'])
+        with self.assertRaises(AssertionError):
+            chapter_passage(dict(row, paragraph_ids=['p2','p1']), chapter)
+        with self.assertRaises(AssertionError):
+            chapter_passage(dict(row, paragraph_slices={'p1': dict(start=0,end=100)}), chapter)
+
+    def test_markup_projection_keeps_the_displayed_glyph(self):
+        self.assertEqual(received_text('與-{范}-交，[[甲|乙]]見[[丙]]。{{YL|元年}}。'), '與范交，乙見丙。元年。')
+        self.assertEqual(received_text('張合<ref>別本作張郃。</ref>'), '張合')
+
     def test_full_entries_match_fixed_witness_and_progress(self):
         books, counts = verify()
         self.assertIn('b-nanshi-080', books)

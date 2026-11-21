@@ -8,6 +8,36 @@ ROOT = Path(__file__).resolve().parents[1]
 STAGES = ('entry_checked', 'full_text', 'first_pass', 'item_reviewed')
 
 
+def received_text(line):
+    """投影已核的文庫排版標記，保留字形、引文及標點。"""
+    text = re.sub(r'<ref>[^<>]*</ref>', '', line)
+    text = re.sub(r'-\{([^{}|:;<>\s])\}-', r'\1', text)
+    text = re.sub(r'\[\[(?:[^\[\]|]+\|)?([^\[\]|]+)\]\]', r'\1', text)
+    text = re.sub(r'\{\{YL\|([^{}|]+)\}\}', r'\1', text)
+    return text.replace('{{!|𠴲|⿰口沓}}', '𠴲')
+
+
+def chapter_passage(entry, chapter):
+    paragraphs = chapter['paragraphs']
+    ids = entry.get('paragraph_ids')
+    slices = entry.get('paragraph_slices', {})
+    if ids is not None:
+        assert ids and len(set(ids)) == len(ids), entry['title']
+        requested = set(ids)
+        paragraphs = [p for p in paragraphs if p['id'] in requested]
+        assert [p['id'] for p in paragraphs] == ids, entry['title']
+    assert set(slices) <= {p['id'] for p in paragraphs}, entry['title']
+    text = []
+    for p in paragraphs:
+        part = p['text']
+        if p['id'] in slices:
+            a, z = (slices[p['id']][k] for k in ('start', 'end'))
+            assert type(a) is int and type(z) is int and 0 <= a < z <= len(part), p['id']
+            part = part[a:z]
+        text.append(part)
+    return paragraphs, text
+
+
 def verify(root=ROOT):
     def load(path):
         return json.loads((root / path).read_text(encoding='utf-8'))
@@ -35,10 +65,16 @@ def verify(root=ROOT):
 
     progress = {p['chapter_id']: p for p in load('corpus/progress.json')['books']}
     ids = set()
+    located_headings = {book: set() for book in witnesses}
     counts = dict.fromkeys(STAGES, 0)
     for entry in inventory['biographies']:
         book, title = entry['book_id'], entry['title']
         survey, lines = witnesses[book]
+        if 'heading_line' in entry:
+            head = entry['heading_line']
+            assert 1 <= head < entry['first_line'] and lines[head-1] == entry['heading_raw'], title
+            assert re.fullmatch(r'=+.+?=+\s*', entry['heading_raw']) and head not in located_headings[book], title
+            located_headings[book].add(head)
         first, last = entry['first_line'], entry['last_line']
         start, end = entry['start_codepoint'], entry['end_codepoint']
         assert 1 <= first <= last <= len(lines) and 0 <= start < len(lines[first-1])
@@ -58,15 +94,32 @@ def verify(root=ROOT):
         if not cid:
             assert not entry['full_text'], title
             continue
-        assert progress[cid]['book_id'] == book and entry['item_reviewed'] == progress[cid]['complete'], cid
+        assert progress[cid]['book_id'] == book, cid
+        if 'paragraph_ids' not in entry and not entry.get('mixed_chapter'):
+            assert entry['item_reviewed'] == progress[cid]['complete'], cid
+        if entry.get('mixed_chapter') and entry['full_text']:
+            assert entry.get('paragraph_ids'), title
         if entry['full_text']:
             work, filename = cid[2:].split('-', 1)
-            chapter = load(f'corpus/{work}/{filename}.json')
+            path = Path(entry.get('chapter_path', f'corpus/{work}/{filename}.json'))
+            assert path.parent == Path('corpus') / work and path.suffix == '.json', title
+            chapter = load(path)
             assert chapter['id'] == cid and chapter['source']['revision_id'] == survey['revision']
-            paragraphs = [re.sub(r'<ref>[^<>]*</ref>', '', line) for line in selected if line.strip()]
-            assert paragraphs == [p['text'] for p in chapter['paragraphs']], title
+            paragraphs, text = chapter_passage(entry, chapter)
+            assert [received_text(line) for line in selected if line.strip()] == text, title
             if entry['item_reviewed']:
-                assert all(p['annotation_status'] == 'reviewed' for p in chapter['paragraphs'])
+                assert all(p['annotation_status'] == 'reviewed' for p in paragraphs), title
+    for book, (survey, lines) in witnesses.items():
+        if survey.get('heading_locator_scheme') == 'wikisource_equals_lines':
+            exclusions = set()
+            for skip in survey.get('excluded_sections', []):
+                i = skip['heading_line']
+                assert lines[i-1].strip('= ') == skip['heading'] and skip['reason'], book
+                exclusions.add(i)
+            headings = {i for i, line in enumerate(lines, 1) if re.fullmatch(r'=+.+?=+\s*', line)}
+            assert located_headings[book].isdisjoint(exclusions), book
+            if survey['heading_survey'] == 'complete':
+                assert headings == located_headings[book] | exclusions, book
     return candidates, counts
 
 

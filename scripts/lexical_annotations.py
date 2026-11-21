@@ -7,7 +7,11 @@ def non_person_errors(mention, text):
     start, end = mention.get('start'), mention.get('end')
     role = mention.get('lexical_role')
     role_valid = role in ('verb', 'reciprocal_adverb')
-    if role == 'vacant_office':
+    if role == 'narrative_matter':
+        role_valid = (mention.get('surface') == '其' and term == '猶以前憾緩其事')
+    elif role == 'office_predicate':
+        role_valid = (mention.get('surface') == '司馬' and term == '會稽王道子以為司馬')
+    elif role == 'vacant_office':
         role_valid = mention.get('surface') == '太子' and isinstance(term, str) and term.endswith('無太子')
     elif role == 'sovereign_status':
         role_valid = mention.get('surface') == '天子' and term in ('刻天子璽', '求即天子位')

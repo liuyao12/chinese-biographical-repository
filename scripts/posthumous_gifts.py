@@ -2,6 +2,10 @@
 
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
+    if holding.get('posthumous_basis', {}).get('kind') == 'named_jin079_family_death_award':
+        try: from scripts.jin079_family_awards import valid
+        except ImportError: from jin079_family_awards import valid
+        return valid(holding, paragraphs, mentions, life_events or {})
     if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') == 'biography_sovereign_mourning_gift_to_resumed_topic':
         try:
             from scripts.lifecycle_offered_biography import gift_valid
