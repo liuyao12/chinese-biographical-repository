@@ -121,7 +121,9 @@
         "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
         "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
         "collation_witnesses": [
-          "source-evidence/jin098-wang-han-ying/reading.json"
+          "source-evidence/jin098-wang-han-ying/reading.json",
+          "source-evidence/jin098-wangdun-early/reading.json",
+          "source-evidence/jin098-wangdun-main/reading.json"
         ]
       }
     }
@@ -156,9 +158,27 @@
   ],
   "related_people": {
     "mwc_md4_l0g": "王含",
-    "mwc_md4_l0g_B": "王瑜〔王含子、散騎常侍〕"
+    "mwc_md4_l0g_B": "王瑜〔王含子、散騎常侍〕",
+    "vd6_zwf_uyq": "仲玉〔王導遺含書〕"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "ic-jin098-zhongyu-and-wangyu",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "vd6_zwf_uyq",
+        "mwc_md4_l0g_B"
+      ],
+      "paragraph_ids": [
+        "c-jinshu-098-jin033-wangji:line067",
+        "c-jinshu-098-jin033-wangji:line051"
+      ],
+      "note": "王導遺王含書列仲玉與安期。瑜確為含子；書中只是並列二稱，胡注也只明安期為應，無字號或明指互證，暫分。",
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "source_id": "s-jinshu-098-jin033-wangji"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "mwc_md4_l0g_B"

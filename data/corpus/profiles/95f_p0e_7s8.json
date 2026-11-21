@@ -9,7 +9,8 @@
     "鄭",
     "鄭玄",
     "鄭𤣥",
-    "𤣥"
+    "𤣥",
+    "玄"
   ],
   "titles": [
     {
@@ -175,6 +176,59 @@
       "chapter_id": "c-jinshu-032-chu-suanzi",
       "source_id": "s-jinshu-032-chu-suanzi",
       "work_title": "晉書"
+    },
+    {
+      "number": 60,
+      "category": "",
+      "title": "王准之傳及子興之",
+      "paragraph_id": "c-songshu-060-wangzhunzhi:p003",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "高祖受命，拜黃門侍郎。永初二年，奏曰：「鄭玄注禮，三年之喪，二十七月而吉，古今學者多謂得禮之宜。晉初用王肅議，祥禫共月，故二十五月而除，遂以為制。江左以來，唯晉朝施用；縉紳之士，多遵玄義。夫先王制禮，以大順羣心。喪也寧戚，著自前訓。今大宋開泰，",
+      "paragraph_ids": [
+        "c-songshu-060-wangzhunzhi:p003"
+      ],
+      "mention_ids": [
+        "c-songshu-060-wangzhunzhi:p003:m0020",
+        "c-songshu-060-wangzhunzhi:p003:m0091",
+        "c-songshu-060-wangzhunzhi:p003:m0136"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-060-wangzhunzhi:p003:m0020": "c-songshu-060-wangzhunzhi:p003",
+        "c-songshu-060-wangzhunzhi:p003:m0091": "c-songshu-060-wangzhunzhi:p003",
+        "c-songshu-060-wangzhunzhi:p003:m0136": "c-songshu-060-wangzhunzhi:p003"
+      },
+      "mention_id": "c-songshu-060-wangzhunzhi:p003:m0020",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-060-wangzhunzhi:p003:m0020",
+          "mention_ids": [
+            "c-songshu-060-wangzhunzhi:p003:m0020"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-060-wangzhunzhi:p003:m0091",
+          "mention_ids": [
+            "c-songshu-060-wangzhunzhi:p003:m0091"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-060-wangzhunzhi:p003:m0136",
+          "mention_ids": [
+            "c-songshu-060-wangzhunzhi:p003:m0136"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-060",
+      "chapter_id": "c-songshu-060-wangzhunzhi",
+      "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
+      "work_title": "宋書"
     },
     {
       "number": 62,
@@ -1077,6 +1131,35 @@
           "extraction_note": "刪¶/換行與pb頁碼；括號只為古注逐行包裝，移為text_layer。原字（含珽/諶别傳/尸等）不改，逐字raw_positions固定。"
         },
         "quality_note": "沿既存固定WYG數位轉錄，未讀版本影像；本傳及古注保全不等同逐項生平已核。"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-060-wangzhunzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-060",
+      "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
+      "source": {
+        "provider": "Wikisource",
+        "rights": "古代正文與維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "text_scope": "complete_biography_unit",
+        "accessed_on": "2026-11-20",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "title": "宋書卷六十·王准之傳及子興之",
+        "extent": "逐讀第72行分題至第81行分題前。",
+        "section_locator": "==王准之==",
+        "revision_id": 1996694,
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1996694",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1996694",
+        "raw_path": "sources/songshu/songshu060-ws1996694.wikitext",
+        "raw_file_sha256": "a9b03405240b25c24c2fa2b999e921483d7c1d78a3ed6f1eb1807a289bf02a97",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原文字位逐一對固定原檔，本文排除校勘註、連結目標及紀年模板的界符；校勘說另列。"
+        },
+        "wikitext_sha256": "a9b03405240b25c24c2fa2b999e921483d7c1d78a3ed6f1eb1807a289bf02a97",
+        "edition": "維基文庫固定修訂1996694，武英殿本書影逐項參記。"
       }
     }
   ],

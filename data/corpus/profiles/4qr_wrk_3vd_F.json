@@ -871,6 +871,41 @@
       "chapter_id": "c-jinshu-098-huanwen",
       "source_id": "s-jinshu-098-ws2614273",
       "work_title": "晉書"
+    },
+    {
+      "number": 98,
+      "category": "",
+      "title": "晉書卷九十八·孟嘉傳",
+      "paragraph_id": "c-jinshu-098-mengjia:line159",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。嘉還都，亮引問風俗得失，對曰：「還傳當問吏。」亮舉麈尾掩口而笑，謂弟翼曰：「孟嘉故是盛德人。」轉勸學從事。褚裒時為豫章太守，正旦朝亮，裒有器識，亮大會州府人士，嘉坐次甚遠。裒問亮：「聞江州有孟嘉，其人何在？」亮曰：「在坐，卿但自覓。」裒曆觀，指嘉謂亮曰：「此君小異，將無",
+      "paragraph_ids": [
+        "c-jinshu-098-mengjia:line159"
+      ],
+      "mention_ids": [
+        "c-jinshu-098-mengjia:line159:m0073"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-098-mengjia:line159:m0073": "c-jinshu-098-mengjia:line159"
+      },
+      "mention_id": "c-jinshu-098-mengjia:line159:m0073",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-098-mengjia:line159:m0073",
+          "mention_ids": [
+            "c-jinshu-098-mengjia:line159:m0073"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "chapter_id": "c-jinshu-098-mengjia",
+      "source_id": "s-jinshu-098-mengjia",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -3669,7 +3704,37 @@
         "accessed_on": "2026-10-20",
         "text_scope": "partial_chapter",
         "review_status": "text_checked",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-098-mengjia",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "source_id": "s-jinshu-098-mengjia",
+      "source": {
+        "title": "晉書卷九十八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2614273",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2614273",
+        "revision_id": 2614273,
+        "accessed_on": "2026-10-18",
+        "extent": "卷九十八孟嘉題下完整傳文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂2614273原文，國圖乾隆四年武英殿刊本對讀。",
+        "wikitext_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
+        "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "collation_witnesses": [
+          "source-evidence/jin098-mengjia/reading.json"
+        ]
       }
     },
     {
@@ -6883,6 +6948,32 @@
       "model": null
     },
     {
+      "id": "a-w098-meng-j98-yu",
+      "subject_person_id": "4qr_wrk_3vd_F",
+      "object_person_id": "4qr_wrk_3vd_B",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "弟翼"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-mengjia",
+          "source_id": "s-jinshu-098-mengjia",
+          "paragraph_id": "c-jinshu-098-mengjia:line159",
+          "quote": "孟嘉字萬年，江夏鄳人，吳司空宗曾孫也。嘉少知名，太尉庾亮領江州，辟部廬陵從事。嘉還都，亮引問風俗得失，對曰：「還傳當問吏。」亮舉麈尾掩口而笑，謂弟翼曰：「孟嘉故是盛德人。」轉勸學從事。褚裒時為豫章太守，正旦朝亮，裒有器識，亮大會州府人士，嘉坐次甚遠。裒問亮：「聞江州有孟嘉，其人何在？」亮曰：「在坐，卿但自覓。」裒曆觀，指嘉謂亮曰：「此君小異，將無是乎？」亮欣然而笑，喜裒得嘉，奇嘉為裒所得，乃益器焉。",
+          "subject_person_mention_id": "c-jinshu-098-mengjia:line159:m0073",
+          "object_person_mention_id": "c-jinshu-098-mengjia:line159:m0026"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi-022-wangjian-yu-yi-spouse",
       "subject_person_id": "lp4_ybe_6oz",
       "object_person_id": "4qr_wrk_3vd_F",
@@ -7166,6 +7257,32 @@
         }
       ],
       "interpretation_note": "只保存本句所載關係；不把兄弟改作明載共同父母，不補同母、絕對排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-meng-j98-yu",
+      "subject_person_id": "4qr_wrk_3vd_F",
+      "object_person_id": "4qr_wrk_3vd_B",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "弟翼"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-mengjia",
+          "source_id": "s-jinshu-098-mengjia",
+          "paragraph_id": "c-jinshu-098-mengjia:line159",
+          "quote": "孟嘉字萬年，江夏鄳人，吳司空宗曾孫也。嘉少知名，太尉庾亮領江州，辟部廬陵從事。嘉還都，亮引問風俗得失，對曰：「還傳當問吏。」亮舉麈尾掩口而笑，謂弟翼曰：「孟嘉故是盛德人。」轉勸學從事。褚裒時為豫章太守，正旦朝亮，裒有器識，亮大會州府人士，嘉坐次甚遠。裒問亮：「聞江州有孟嘉，其人何在？」亮曰：「在坐，卿但自覓。」裒曆觀，指嘉謂亮曰：「此君小異，將無是乎？」亮欣然而笑，喜裒得嘉，奇嘉為裒所得，乃益器焉。",
+          "subject_person_mention_id": "c-jinshu-098-mengjia:line159:m0073",
+          "object_person_mention_id": "c-jinshu-098-mengjia:line159:m0026"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

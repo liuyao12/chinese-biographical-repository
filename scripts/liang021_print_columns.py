@@ -5,6 +5,10 @@ from pathlib import Path
 
 
 WITNESSES = {
+    'c-jinshu-096-wanghuifeng-wyd': ('jin096-wanghuifeng', 'ead71c226112cad4ca3c9f31cb6030aacc346cd188ac683cc4104ce0e10dbf4b'),
+    'c-jinshu-096-xunguan-wyd': ('jin096-zhong-and-guan/xun', '8ec2790f6e17b3cf89a29ab6602e98bdd26f0eef8e9ce8a35fcdf63b3b97392f'),
+    'c-jinshu-096-zhongyan-wyd': ('jin096-zhong-and-guan/zhong', 'e3f85ab24772f58e5e2db1a9e8c9c8085493fe8ae46082be1771111997bc5320'),
+    'c-jinshu-096-xiedaoyun-wyd': ('jin096-daoyun-wyd', '505fb3b94d3ff23f1894b6d47f41de271453de9bd7574c3e2c60333ec3e61159'),
     'c-liangshu-050-xiezheng-wyd': ('liang050-xiezheng-wyd', '93d3d6c680a33b42bc9b39b58d3f320f659e9644cabc08c3601ab1bacf910fe8'),
     'c-liangshu-050-xiejiqing-family-intro-wyd': ('liang050-jiqing-wyd', 'fe27f7f79551ac89948ed19bb99252ef8e05cc5b72cd62907e1d87c4b78e3227'),
     'c-nanqishu-036-xiechaozong-wyd': ('nanqi036-xiechaozong', 'd752793ccca569b28429b050d8c65fdbf97b11cc0c1a900dea28b4c8bc588dcc'),

@@ -65,6 +65,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-096-xunsong-047-wyd",
+      "person_id": "9hu_q3h_aug",
+      "title": "太傅",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "chapter_id": "c-jinshu-096-zhongyan-wyd",
+          "source_id": "s-jinshu-096-zhong-wyd1916",
+          "paragraph_id": "c-jinshu-096-zhongyan-wyd:p001",
+          "quote": "王渾妻鍾氏字琰潁川人魏太傅繇曾孫也父徽黃門郎琰數歲能屬文及長聰慧弘雅博覽記籍美容止善嘯詠禮儀法度為中表所則既適渾生濟",
+          "person_mention_id": "c-jinshu-096-zhongyan-wyd:p001:m0013"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-096-xunsong-047-wyd:a1",
+          "paragraph_id": "c-jinshu-096-zhongyan-wyd:p001",
+          "start": 11,
+          "end": 13,
+          "surface": "太傅",
+          "person_mention_id": "c-jinshu-096-zhongyan-wyd:p001:m0013",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保留本段授任、改封、追贈、諡名或用稱；未載始終年保持未知，不以卒年終止官爵，也不據鄰句年號替插敘授爵補年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -571,6 +619,41 @@
       "book_id": "b-jinshu-080",
       "chapter_id": "c-jinshu-080-wangxizhi-family",
       "source_id": "s-jinshu-080-wangxizhi-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 96,
+      "category": "",
+      "title": "王渾妻鍾氏傳（乾隆武英殿本）",
+      "paragraph_id": "c-jinshu-096-zhongyan-wyd:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王渾妻鍾氏字琰潁川人魏太傅繇曾孫也父徽黃門郎琰數歲能屬文及長聰慧弘雅博覽記籍美容止善嘯詠禮儀法度為中表所則既適渾生濟",
+      "paragraph_ids": [
+        "c-jinshu-096-zhongyan-wyd:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-096-zhongyan-wyd:p001:m0013"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-096-zhongyan-wyd:p001:m0013": "c-jinshu-096-zhongyan-wyd:p001"
+      },
+      "mention_id": "c-jinshu-096-zhongyan-wyd:p001:m0013",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-096-zhongyan-wyd:p001:m0013",
+          "mention_ids": [
+            "c-jinshu-096-zhongyan-wyd:p001:m0013"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-096",
+      "chapter_id": "c-jinshu-096-zhongyan-wyd",
+      "source_id": "s-jinshu-096-zhong-wyd1916",
       "work_title": "晉書"
     },
     {
@@ -12740,7 +12823,36 @@
             }
           ]
         },
-        "quality_note": "荀灌兵數本見證作數千，現代論文引作數十；只記見證差異，保留原字，未親核論文所報印本。詳見docs/source-reviews/jinshu096-xunguan-force-count.json。"
+        "quality_note": "荀灌所率，固定數位本作數千；國圖藏商務影印殿本九上第二欄作數十，《通鑑》卷八十九亦作數十。早先報告所引其他印本仍依其原收據。",
+        "raw_path": "source-evidence/jin079-yi-shi-miao/external/jin096-ws2625341.wikitext",
+        "raw_file_sha256": "2a30a87df259042f1f5d783dd7b9674ff174208aae03383fad28ab3c88dbabb5"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-096-zhongyan-wyd",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-096",
+      "source_id": "s-jinshu-096-zhong-wyd1916",
+      "source": {
+        "title": "武英殿本《晉書》卷九十六王渾妻鍾氏",
+        "provider": "日本永青文庫捐贈、中國國家圖書館藏商務印書館影印本，Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/NLC016-HWRB201817005-3297_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC24%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=979438884",
+        "revision_id": "cbr-ai-transcription-sha256:e3f85ab24772f58e5e2db1a9e8c9c8085493fe8ae46082be1771111997bc5320",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/jin096-zhong-and-guan/zhong/wyd-columns.txt",
+        "raw_file_sha256": "e3f85ab24772f58e5e2db1a9e8c9c8085493fe8ae46082be1771111997bc5320",
+        "edition": "民國五年上海商務印書館影印清乾隆武英殿本《晉書》第24冊",
+        "extent": "三下第十欄至四下第二欄（PDF第45至46面），三下第九欄題王渾妻鍾氏。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC016-HWRB201817005-3297_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC24%E5%86%8A.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依影印本從右至左按欄轉寫。字形異於數位本處逐一繫原欄。"
+        }
       }
     },
     {
@@ -19659,10 +19771,65 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jin096-zhong-6",
+      "subject_person_id": "d9z_0o2_i51",
+      "predicate": "great_grandfather",
+      "object_person_id": "9hu_q3h_aug",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-lienv",
+          "chapter_id": "c-jinshu-096-lienv",
+          "paragraph_id": "c-jinshu-096-lienv:zhongyan-mother:p001",
+          "quote": "王渾妻鍾氏，字琰，潁川人，魏太傅繇曾孫也。父徽，黃門郎。琰數歲能屬文，及長，聰慧弘雅，博覽記籍。美容止，善嘯詠，禮儀法度為中表所則。既適渾，生濟。",
+          "subject_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p001:m0003",
+          "object_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p001:m0016"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "魏太傅繇曾孫也",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "晉傳記曾孫。《世說》正文同，《王氏譜》引文另記孫，中間一代無名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-zhong-6-wyd",
+      "subject_person_id": "d9z_0o2_i51",
+      "predicate": "great_grandfather",
+      "object_person_id": "9hu_q3h_aug",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-zhong-wyd1916",
+          "chapter_id": "c-jinshu-096-zhongyan-wyd",
+          "paragraph_id": "c-jinshu-096-zhongyan-wyd:p001",
+          "quote": "王渾妻鍾氏字琰潁川人魏太傅繇曾孫也父徽黃門郎琰數歲能屬文及長聰慧弘雅博覽記籍美容止善嘯詠禮儀法度為中表所則既適渾生濟",
+          "subject_person_mention_id": "c-jinshu-096-zhongyan-wyd:p001:m0003",
+          "object_person_mention_id": "c-jinshu-096-zhongyan-wyd:p001:m0013"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "魏太傅繇曾孫也",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "晉傳記曾孫。《世說》正文同，《王氏譜》引文另記孫，中間一代無名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "9hu_q3h_aug": "鍾繇",
+    "d9z_0o2_i51": "鍾氏（字琰）",
     "foc_gnk_id0": "鍾皓",
     "hsd_7jd_t7u": "迪（鍾繇父）"
   },
@@ -19695,6 +19862,40 @@
       "work_id": "w-houhanshu",
       "book_id": "b-houhanshu-062",
       "source_id": "s-houhanshu-062-xunhan-zhongchen"
+    }
+  ],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-096-zhongyan-wyd-zhong-peer-2",
+      "kind": "primary_source_comparison",
+      "person_id": "9hu_q3h_aug",
+      "paragraph_id": "c-jinshu-096-zhongyan-wyd:p001",
+      "source_quote": "魏太傅繇曾孫也",
+      "start_codepoint": 10,
+      "end_codepoint": 17,
+      "reference": "《世說新語·賢媛》",
+      "reading": "王司徒婦，鍾氏女，太傅曾孫",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1503603",
+      "note": "賢媛另一條正文與晉傳都記曾孫。",
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-096-zhongyan-wyd",
+      "source_id": "s-jinshu-096-zhong-wyd1916"
+    },
+    {
+      "id": "c-jinshu-096-lienv-zhong-peer-2",
+      "kind": "primary_source_comparison",
+      "person_id": "9hu_q3h_aug",
+      "paragraph_id": "c-jinshu-096-lienv:zhongyan-mother:p001",
+      "source_quote": "魏太傅繇曾孫也",
+      "start_codepoint": 13,
+      "end_codepoint": 20,
+      "reference": "《世說新語·賢媛》",
+      "reading": "王司徒婦，鍾氏女，太傅曾孫",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1503603",
+      "note": "賢媛另一條正文與晉傳都記曾孫。",
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-096-lienv",
+      "source_id": "s-jinshu-096-lienv"
     }
   ],
   "person_ids": [
@@ -19766,6 +19967,60 @@
       ],
       "interpretation_note": "古注轉引海内先賢傳，非已親見該書；不將迪接作瑾父。",
       "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-zhong-6",
+      "subject_person_id": "d9z_0o2_i51",
+      "predicate": "great_grandfather",
+      "object_person_id": "9hu_q3h_aug",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-lienv",
+          "chapter_id": "c-jinshu-096-lienv",
+          "paragraph_id": "c-jinshu-096-lienv:zhongyan-mother:p001",
+          "quote": "王渾妻鍾氏，字琰，潁川人，魏太傅繇曾孫也。父徽，黃門郎。琰數歲能屬文，及長，聰慧弘雅，博覽記籍。美容止，善嘯詠，禮儀法度為中表所則。既適渾，生濟。",
+          "subject_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p001:m0003",
+          "object_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p001:m0016"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "魏太傅繇曾孫也",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "晉傳記曾孫。《世說》正文同，《王氏譜》引文另記孫，中間一代無名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-zhong-6-wyd",
+      "subject_person_id": "d9z_0o2_i51",
+      "predicate": "great_grandfather",
+      "object_person_id": "9hu_q3h_aug",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-zhong-wyd1916",
+          "chapter_id": "c-jinshu-096-zhongyan-wyd",
+          "paragraph_id": "c-jinshu-096-zhongyan-wyd:p001",
+          "quote": "王渾妻鍾氏字琰潁川人魏太傅繇曾孫也父徽黃門郎琰數歲能屬文及長聰慧弘雅博覽記籍美容止善嘯詠禮儀法度為中表所則既適渾生濟",
+          "subject_person_mention_id": "c-jinshu-096-zhongyan-wyd:p001:m0003",
+          "object_person_mention_id": "c-jinshu-096-zhongyan-wyd:p001:m0013"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "魏太傅繇曾孫也",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "晉傳記曾孫。《世說》正文同，《王氏譜》引文另記孫，中間一代無名。",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     }

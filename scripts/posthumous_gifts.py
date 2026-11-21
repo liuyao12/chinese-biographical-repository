@@ -3,6 +3,11 @@
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
     basis = holding.get('posthumous_basis')
+    if (basis or {}).get('kind') == 'jin098_huanwei_parallel_gifts':
+        try: from scripts.jin098_huan_gifts import valid as huanwei_gift_valid
+        except ImportError: from jin098_huan_gifts import valid as huanwei_gift_valid
+        return huanwei_gift_valid(holding,paragraphs,mentions,life_events or {})
+
     if (basis or {}).get('kind') == 'w080_empress_father_gift':
         try:
             from scripts.jin080_xianzhi import gift_valid
