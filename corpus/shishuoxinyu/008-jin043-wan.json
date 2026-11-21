@@ -1,0 +1,195 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-shishuoxinyu-008-jin043-wan",
+  "work_id": "w-shishuoxinyu",
+  "book_id": "b-shishuoxinyu-008",
+  "source_id": "s-shishuoxinyu-008-jin043-wan",
+  "title": "賞譽王戎子萬、萬子與王綏",
+  "source": {
+    "title": "世說新語賞譽",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1532652",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=1532652",
+    "revision_id": 1532652,
+    "accessed_on": "2026-10-21",
+    "extent": "下列來源節錄。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "edition": "固定修訂相關原文，逐字核收。",
+    "wikitext_sha256": "e2ec15441d5cabbac9f4beea7a9f4f6c58db0a4e5537ff3ae0134c68bd8caa48",
+    "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+    "raw_path": "source-evidence/jin065-wang-children/external/shang-ws1532652.wikitext",
+    "raw_file_sha256": "e2ec15441d5cabbac9f4beea7a9f4f6c58db0a4e5537ff3ae0134c68bd8caa48"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "human_reviewed": false,
+    "scope": "本次來源節錄。",
+    "age_assertions": [
+      {
+        "id": "age-w043-wan-zan",
+        "person_id": "brc_n26_ekm",
+        "source_number": "十九",
+        "source_term": "年十九",
+        "value": 19,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "evidence": [
+          {
+            "work_id": "w-shishuoxinyu",
+            "book_id": "b-shishuoxinyu-008",
+            "chapter_id": "c-shishuoxinyu-008-jin043-wan",
+            "source_id": "s-shishuoxinyu-008-jin043-wan",
+            "paragraph_id": "c-shishuoxinyu-008-jin043-wan:zhugong",
+            "quote": "王綏字萬子，辟太尉掾，不就。年十九卒。",
+            "person_mention_id": "c-shishuoxinyu-008-jin043-wan:zhugong:m0000"
+          }
+        ],
+        "interpretation_note": "本句所報年齡。",
+        "status": "source_attested",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "reviewed_unit_evidence": [
+      {
+        "unit": "賞譽王戎子萬、萬子與王綏",
+        "path": "source-evidence/jin043-wan-xuan/reading.json"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-shishuoxinyu-008-jin043-wan:narrative",
+      "text": "戎子萬子，有大成之風，苗而不秀。",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-008-jin043-wan:narrative:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "戎",
+          "kind": "person",
+          "person_id": "48e_04a_3d8",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-shishuoxinyu-008-jin043-wan:narrative:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "萬子",
+          "kind": "person",
+          "person_id": "brc_n26_ekm",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "source_quote": {
+        "witness": "shang",
+        "quote": "戎子萬子，有大成之風，苗而不秀。",
+        "raw_start": 6434,
+        "raw_end": 6450,
+        "raw_line": 36
+      }
+    },
+    {
+      "id": "c-shishuoxinyu-008-jin043-wan:zhugong",
+      "text": "王綏字萬子，辟太尉掾，不就。年十九卒。",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-008-jin043-wan:zhugong:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "王綏",
+          "kind": "person",
+          "person_id": "brc_n26_ekm",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-shishuoxinyu-008-jin043-wan:zhugong:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "萬子",
+          "kind": "person",
+          "person_id": "brc_n26_ekm",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "witness_appended_liuxiaobiao_note",
+      "source_quote": {
+        "witness": "shang",
+        "quote": "王綏字萬子，辟太尉掾，不就。年十九卒。",
+        "raw_start": 6461,
+        "raw_end": 6480,
+        "raw_line": 36,
+        "source_layer": "劉注引晉諸公贊"
+      },
+      "attribution": {
+        "annotator": "劉孝標",
+        "quoted_work": "晉諸公贊"
+      }
+    },
+    {
+      "id": "c-shishuoxinyu-008-jin043-wan:jinshu",
+      "text": "戎子萬，有美號而太肥，戎令食糠，而肥愈甚也。",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-008-jin043-wan:jinshu:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "戎",
+          "kind": "person",
+          "person_id": "48e_04a_3d8",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-shishuoxinyu-008-jin043-wan:jinshu:m0002",
+          "start": 2,
+          "end": 3,
+          "surface": "萬",
+          "kind": "person",
+          "person_id": "brc_n26_ekm",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-shishuoxinyu-008-jin043-wan:jinshu:m0011",
+          "start": 11,
+          "end": 12,
+          "surface": "戎",
+          "kind": "person",
+          "person_id": "48e_04a_3d8",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "witness_appended_liuxiaobiao_note",
+      "source_quote": {
+        "witness": "shang",
+        "quote": "戎子萬，有美號而太肥，戎令食糠，而肥愈甚也。",
+        "raw_start": 6486,
+        "raw_end": 6508,
+        "raw_line": 36,
+        "source_layer": "劉注引晉書"
+      },
+      "attribution": {
+        "annotator": "劉孝標",
+        "quoted_work": "晉書"
+      }
+    }
+  ],
+  "text_sha256": "af7e900a79e34d6e6875e332d3a379925a925a7010346e7bff0f7ac53e16ccb6"
+}

@@ -209,6 +209,59 @@
       "chapter_id": "c-songshu-063-wanghua-tanshou",
       "source_id": "s-songshu-063-wanghua-tanshou",
       "work_title": "宋書"
+    },
+    {
+      "number": 63,
+      "category": "",
+      "title": "王華、孔甯子及王氏承封附敘（武英殿本）",
+      "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子宣侯嗣官至左衞將軍卒子長嗣太宗泰始二年坐罵母奪爵以長弟終紹封後廢帝元徽三年終上表乞以封還長許之齊受禪國除",
+      "paragraph_ids": [
+        "c-songshu-063-wanghua-wyd:p008"
+      ],
+      "mention_ids": [
+        "c-songshu-063-wanghua-wyd:p008:m0012",
+        "c-songshu-063-wanghua-wyd:p008:m0026",
+        "c-songshu-063-wanghua-wyd:p008:m0045"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-063-wanghua-wyd:p008:m0012": "c-songshu-063-wanghua-wyd:p008",
+        "c-songshu-063-wanghua-wyd:p008:m0026": "c-songshu-063-wanghua-wyd:p008",
+        "c-songshu-063-wanghua-wyd:p008:m0045": "c-songshu-063-wanghua-wyd:p008"
+      },
+      "mention_id": "c-songshu-063-wanghua-wyd:p008:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-063-wanghua-wyd:p008:m0012",
+          "mention_ids": [
+            "c-songshu-063-wanghua-wyd:p008:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-063-wanghua-wyd:p008:m0026",
+          "mention_ids": [
+            "c-songshu-063-wanghua-wyd:p008:m0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-063-wanghua-wyd:p008:m0045",
+          "mention_ids": [
+            "c-songshu-063-wanghua-wyd:p008:m0045"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "chapter_id": "c-songshu-063-wanghua-wyd",
+      "source_id": "s-songshu-063-wanghua-wyd1739",
+      "work_title": "宋書"
     }
   ],
   "table_occurrences": [],
@@ -530,6 +583,33 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-songshu-063-wanghua-wyd",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-063",
+      "source_id": "s-songshu-063-wanghua-wyd1739",
+      "source": {
+        "title": "武英殿本《宋書》卷六十三王華傳及附敘",
+        "provider": "中國國家圖書館藏乾隆四年武英殿刊本，Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf",
+        "permalink": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf",
+        "revision_id": "cbr-ai-transcription-sha256:af25bb8b41b9b5bd5d64b33097ec10c46becee267940bbdb2789a8e5effc297a",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/song063-wanghua/wyd-columns.txt",
+        "raw_file_sha256": "af25bb8b41b9b5bd5d64b33097ec10c46becee267940bbdb2789a8e5effc297a",
+        "edition": "乾隆四年武英殿刊《二十四史》第147冊",
+        "extent": "卷六十三一上至四上，第147冊PDF第15面左半葉第5欄至第18面左半葉第7欄。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依原欄錄字，九段供定位，無標點。子宣侯嗣、華時年十二及征江陵照刊。"
+        }
+      }
     }
   ],
   "relations": [
@@ -777,6 +857,106 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wyd-song063-wanghua-8",
+      "subject_person_id": "7r6_k52_qji_ABAAFABAA",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAAFABA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子長",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wanghua-wyd1739",
+          "chapter_id": "c-songshu-063-wanghua-wyd",
+          "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+          "quote": "子宣侯嗣官至左衞將軍卒子長嗣太宗泰始二年坐罵母奪爵以長弟終紹封後廢帝元徽三年終上表乞以封還長許之齊受禪國除"
+        }
+      ],
+      "source_term_anchor": {
+        "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+        "start": 11,
+        "end": 13,
+        "surface": "子長"
+      },
+      "interpretation_note": "保存原文明示關係與稱謂；不補未知共同父母、婚配或出生年份。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wyd-song063-wanghua-9",
+      "subject_person_id": "02c_86e_5a9",
+      "predicate": "brother",
+      "object_person_id": "7r6_k52_qji_ABAAFABAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "長弟終",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAFABAA",
+          "younger_person_id": "02c_86e_5a9",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wanghua-wyd1739",
+          "chapter_id": "c-songshu-063-wanghua-wyd",
+          "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+          "quote": "子宣侯嗣官至左衞將軍卒子長嗣太宗泰始二年坐罵母奪爵以長弟終紹封後廢帝元徽三年終上表乞以封還長許之齊受禪國除"
+        }
+      ],
+      "source_term_anchor": {
+        "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+        "start": 26,
+        "end": 29,
+        "surface": "長弟終"
+      },
+      "interpretation_note": "保存原文明示關係與稱謂；不補未知共同父母、婚配或出生年份。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wyd-song063-wanghua-10",
+      "subject_person_id": "7r6_k52_qji_ABAAFABAA",
+      "predicate": "mother",
+      "object_person_id": "a8a_efe_03b",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "罵母",
+        "biological_parentage": "not_independently_established"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wanghua-wyd1739",
+          "chapter_id": "c-songshu-063-wanghua-wyd",
+          "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+          "quote": "子宣侯嗣官至左衞將軍卒子長嗣太宗泰始二年坐罵母奪爵以長弟終紹封後廢帝元徽三年終上表乞以封還長許之齊受禪國除"
+        }
+      ],
+      "source_term_anchor": {
+        "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+        "start": 21,
+        "end": 23,
+        "surface": "罵母"
+      },
+      "interpretation_note": "母的姓名及是否生母未明；不因長、終為兄弟即共用同母或新增夫妻。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
@@ -788,6 +968,38 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-songshu-063-wanghua-tanshou:line024:r0014",
+      "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+      "start": 14,
+      "end": 15,
+      "surface": "子",
+      "person_id": "7r6_k52_qji_ABAAFABAA",
+      "referent_role": "third_person",
+      "quote": "子長嗣",
+      "note": "長為嗣之子，句末嗣是承爵動詞。",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "book_id": "b-songshu-063",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-063-wanghua-tanshou"
+    },
+    {
+      "id": "c-songshu-063-wanghua-wyd:p008:r0011",
+      "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+      "start": 11,
+      "end": 12,
+      "surface": "子",
+      "person_id": "7r6_k52_qji_ABAAFABAA",
+      "referent_role": "third_person",
+      "quote": "子宣侯嗣官至左衞將軍卒子長嗣太宗泰始二年坐罵母奪爵以長弟終紹封後廢帝元徽三年終上表乞以封還長許之齊受禪國除",
+      "note": "長為嗣之子，句末嗣是承爵動詞。",
+      "chapter_id": "c-songshu-063-wanghua-wyd",
+      "book_id": "b-songshu-063",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-063-wanghua-wyd1739"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABAAFABAA"
   ],
@@ -1030,6 +1242,106 @@
         "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
         "start": 26,
         "end": 28,
+        "surface": "罵母"
+      },
+      "interpretation_note": "母的姓名及是否生母未明；不因長、終為兄弟即共用同母或新增夫妻。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wyd-song063-wanghua-8",
+      "subject_person_id": "7r6_k52_qji_ABAAFABAA",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAAFABA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子長",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wanghua-wyd1739",
+          "chapter_id": "c-songshu-063-wanghua-wyd",
+          "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+          "quote": "子宣侯嗣官至左衞將軍卒子長嗣太宗泰始二年坐罵母奪爵以長弟終紹封後廢帝元徽三年終上表乞以封還長許之齊受禪國除"
+        }
+      ],
+      "source_term_anchor": {
+        "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+        "start": 11,
+        "end": 13,
+        "surface": "子長"
+      },
+      "interpretation_note": "保存原文明示關係與稱謂；不補未知共同父母、婚配或出生年份。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wyd-song063-wanghua-9",
+      "subject_person_id": "02c_86e_5a9",
+      "predicate": "brother",
+      "object_person_id": "7r6_k52_qji_ABAAFABAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "長弟終",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAFABAA",
+          "younger_person_id": "02c_86e_5a9",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wanghua-wyd1739",
+          "chapter_id": "c-songshu-063-wanghua-wyd",
+          "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+          "quote": "子宣侯嗣官至左衞將軍卒子長嗣太宗泰始二年坐罵母奪爵以長弟終紹封後廢帝元徽三年終上表乞以封還長許之齊受禪國除"
+        }
+      ],
+      "source_term_anchor": {
+        "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+        "start": 26,
+        "end": 29,
+        "surface": "長弟終"
+      },
+      "interpretation_note": "保存原文明示關係與稱謂；不補未知共同父母、婚配或出生年份。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wyd-song063-wanghua-10",
+      "subject_person_id": "7r6_k52_qji_ABAAFABAA",
+      "predicate": "mother",
+      "object_person_id": "a8a_efe_03b",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "罵母",
+        "biological_parentage": "not_independently_established"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "source_id": "s-songshu-063-wanghua-wyd1739",
+          "chapter_id": "c-songshu-063-wanghua-wyd",
+          "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+          "quote": "子宣侯嗣官至左衞將軍卒子長嗣太宗泰始二年坐罵母奪爵以長弟終紹封後廢帝元徽三年終上表乞以封還長許之齊受禪國除"
+        }
+      ],
+      "source_term_anchor": {
+        "paragraph_id": "c-songshu-063-wanghua-wyd:p008",
+        "start": 21,
+        "end": 23,
         "surface": "罵母"
       },
       "interpretation_note": "母的姓名及是否生母未明；不因長、終為兄弟即共用同母或新增夫妻。",
