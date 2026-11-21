@@ -917,21 +917,25 @@
     {
       "number": 23,
       "category": "",
-      "title": "《南史》卷二十三〈王奐〉附傳節錄",
+      "title": "王奐",
       "paragraph_id": "c-nanshi-023-wanghuan:p001",
-      "count": 1,
-      "raw_count": 1,
+      "count": 3,
+      "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "奐字道明，彧兄子也。父粹字景深，位黃門侍郎。奐繼從祖球，故小字彥孫。",
+      "quote": "奐字道明，彧兄子也。父粹字景深，位黃門侍郎。奐繼從祖球，故小字彥孫。年數歲，常侍球許，甚見愛。奐諸兄出身諸王國常侍，而奐起家著作佐郎。琅邪顏延之與球情款稍異，常撫奐背曰：「阿奴始免寒士。」",
       "paragraph_ids": [
         "c-nanshi-023-wanghuan:p001"
       ],
       "mention_ids": [
-        "c-nanshi-023-wanghuan:p001:m0026"
+        "c-nanshi-023-wanghuan:p001:m0026",
+        "c-nanshi-023-wanghuan:p001:m0040",
+        "c-nanshi-023-wanghuan:p001:m0073"
       ],
       "mention_paragraph_ids": {
-        "c-nanshi-023-wanghuan:p001:m0026": "c-nanshi-023-wanghuan:p001"
+        "c-nanshi-023-wanghuan:p001:m0026": "c-nanshi-023-wanghuan:p001",
+        "c-nanshi-023-wanghuan:p001:m0040": "c-nanshi-023-wanghuan:p001",
+        "c-nanshi-023-wanghuan:p001:m0073": "c-nanshi-023-wanghuan:p001"
       },
       "mention_id": "c-nanshi-023-wanghuan:p001:m0026",
       "occurrence_groups": [
@@ -939,6 +943,20 @@
           "canonical_mention_id": "c-nanshi-023-wanghuan:p001:m0026",
           "mention_ids": [
             "c-nanshi-023-wanghuan:p001:m0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-023-wanghuan:p001:m0040",
+          "mention_ids": [
+            "c-nanshi-023-wanghuan:p001:m0040"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-023-wanghuan:p001:m0073",
+          "mention_ids": [
+            "c-nanshi-023-wanghuan:p001:m0073"
           ],
           "kind": "paragraph"
         }
@@ -2239,19 +2257,55 @@
       "book_id": "b-nanshi-023",
       "source_id": "s-nanshi-023-ws2478204-wanghuan",
       "source": {
-        "title": "《南史》卷二十三〈王奐〉附傳節錄",
+        "title": "南史卷23·王奐",
         "provider": "Wikisource",
-        "url": "https://zh.wikisource.org/w/index.php?title=南史/卷23&oldid=2478204",
-        "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷23&oldid=2478204",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
         "revision_id": 2478204,
-        "accessed_on": "2026-11-19",
-        "edition": "維基文庫固定數位見證；刻本與書影未核。",
-        "extent": "僅錄王奐傳親屬與出繼句；非全傳。",
-        "text_scope": "partial_chapter",
-        "review_status": "text_checked",
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第139至145行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
         "image_verified": false,
-        "rights": "古代正文及維基文庫數位轉錄；保留見證歸屬。",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                140,
+                140
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                142,
+                142
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                144,
+                144
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "王彧題內王奐，從父子句至奐弟份"
       }
     },
     {
@@ -3737,6 +3791,36 @@
       "model": null
     },
     {
+      "id": "a-nan023-wanghuan-successor",
+      "subject_person_id": "q7m_r8k_2vn_AA",
+      "object_person_id": "3c9_d1d_870_B",
+      "predicate": "ritual_successor_of",
+      "qualifiers": {
+        "source_term": "奐繼從祖球",
+        "nan023_wanghuan_reading": "successor",
+        "succession_kind": "named_agnatic_grandnephew_as_successor",
+        "legal_adoption_status": "not_stated",
+        "parentage_inference": "not_inferred"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-ws2478204-wanghuan",
+          "chapter_id": "c-nanshi-023-wanghuan",
+          "paragraph_id": "c-nanshi-023-wanghuan:p001",
+          "quote": "奐字道明，彧兄子也。父粹字景深，位黃門侍郎。奐繼從祖球，故小字彥孫。年數歲，常侍球許，甚見愛。奐諸兄出身諸王國常侍，而奐起家著作佐郎。琅邪顏延之與球情款稍異，常撫奐背曰：「阿奴始免寒士。」",
+          "subject_person_mention_id": "c-nanshi-023-wanghuan:p001:m0022",
+          "object_person_mention_id": "c-nanshi-023-wanghuan:p001:m0026"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "奐以從孫繼球，生父見前。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nan023-wanghui-qiu-congdi",
       "subject_person_id": "3c9_d1d_870_B",
       "object_person_id": "7r6_k52_qji_ABAAEEB",
@@ -4292,6 +4376,36 @@
       ],
       "interpretation_note": "原文稱出繼從祖。王球與王奐為承嗣關係，原有生父及父系祖父各自保留。",
       "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wanghuan-successor",
+      "subject_person_id": "q7m_r8k_2vn_AA",
+      "object_person_id": "3c9_d1d_870_B",
+      "predicate": "ritual_successor_of",
+      "qualifiers": {
+        "source_term": "奐繼從祖球",
+        "nan023_wanghuan_reading": "successor",
+        "succession_kind": "named_agnatic_grandnephew_as_successor",
+        "legal_adoption_status": "not_stated",
+        "parentage_inference": "not_inferred"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-ws2478204-wanghuan",
+          "chapter_id": "c-nanshi-023-wanghuan",
+          "paragraph_id": "c-nanshi-023-wanghuan:p001",
+          "quote": "奐字道明，彧兄子也。父粹字景深，位黃門侍郎。奐繼從祖球，故小字彥孫。年數歲，常侍球許，甚見愛。奐諸兄出身諸王國常侍，而奐起家著作佐郎。琅邪顏延之與球情款稍異，常撫奐背曰：「阿奴始免寒士。」",
+          "subject_person_mention_id": "c-nanshi-023-wanghuan:p001:m0022",
+          "object_person_mention_id": "c-nanshi-023-wanghuan:p001:m0026"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "奐以從孫繼球，生父見前。",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     },

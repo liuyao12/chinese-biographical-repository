@@ -109,6 +109,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 14,
+      "category": "",
+      "title": "僧朗生楷及楷生藴",
+      "paragraph_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "僧朗宋右僕射生楷粹彧楷宋太中大夫生藴字彦深宋黄門侍郎吉陽男",
+      "paragraph_ids": [
+        "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001"
+      ],
+      "mention_ids": [
+        "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001:m0000": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001"
+      },
+      "mention_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001:m0000",
+          "mention_ids": [
+            "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-gujin-xingshi-shu-bianzheng",
+      "book_id": "b-gujin-xingshi-shu-bianzheng-014",
+      "chapter_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son",
+      "source_id": "s-gujin-xingshi-shu-bianzheng-014-wangkai-and-son-ws636080",
+      "work_title": "古今姓氏書辯證"
+    },
+    {
       "number": 21,
       "category": "",
       "title": "王份傳及王琳、王錫附傳",
@@ -217,6 +252,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son",
+      "work_id": "w-gujin-xingshi-shu-bianzheng",
+      "book_id": "b-gujin-xingshi-shu-bianzheng-014",
+      "source_id": "s-gujin-xingshi-shu-bianzheng-014-wangkai-and-son-ws636080",
+      "source": {
+        "title": "古今姓氏書辯證卷14·僧朗生楷及楷生藴",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=636080",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=636080",
+        "revision_id": 636080,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原王府身分、紀年或改名原句",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan023-wangyun/ws636080.wikitext",
+        "raw_file_sha256": "8162cceda353d8312855a53874c2f22e4de7bf6c76a722572f974163f3558ef3",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-liangshu-021-wangfen",
       "work_id": "w-liangshu",
       "book_id": "b-liangshu-021",
@@ -292,6 +354,34 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-nan023-wangyun-kai-father",
+      "subject_person_id": "q7m_r8k_2vn_C",
+      "object_person_id": "q7m_r8k_2vn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "僧朗宋右僕射生楷粹彧",
+        "nan023_wangyun_reading": "kai-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-gujin-xingshi-shu-bianzheng",
+          "book_id": "b-gujin-xingshi-shu-bianzheng-014",
+          "source_id": "s-gujin-xingshi-shu-bianzheng-014-wangkai-and-son-ws636080",
+          "chapter_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son",
+          "paragraph_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001",
+          "quote": "僧朗宋右僕射生楷粹彧楷宋太中大夫生藴字彦深宋黄門侍郎吉陽男",
+          "subject_person_mention_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001:m0007",
+          "object_person_mention_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南宋鄧名世記三子。該書前文把僧朗列默子，與正史有異，本筆只錄此處父子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-liangshu-021-wangfen-m0000-origin-grandfather",
       "subject_person_id": "q7m_r8k_2vn_AB",
@@ -414,7 +504,8 @@
     "q7m_r8k_2vn_A": "王粹",
     "q7m_r8k_2vn_AA": "王奐",
     "q7m_r8k_2vn_AB": "王份",
-    "q7m_r8k_2vn_B": "王貞風（明恭王皇后）"
+    "q7m_r8k_2vn_B": "王貞風（明恭王皇后）",
+    "q7m_r8k_2vn_C": "王楷（王蘊父）"
   },
   "dates": [],
   "name_components": [],
@@ -422,6 +513,34 @@
     "q7m_r8k_2vn"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nan023-wangyun-kai-father",
+      "subject_person_id": "q7m_r8k_2vn_C",
+      "object_person_id": "q7m_r8k_2vn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "僧朗宋右僕射生楷粹彧",
+        "nan023_wangyun_reading": "kai-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-gujin-xingshi-shu-bianzheng",
+          "book_id": "b-gujin-xingshi-shu-bianzheng-014",
+          "source_id": "s-gujin-xingshi-shu-bianzheng-014-wangkai-and-son-ws636080",
+          "chapter_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son",
+          "paragraph_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001",
+          "quote": "僧朗宋右僕射生楷粹彧楷宋太中大夫生藴字彦深宋黄門侍郎吉陽男",
+          "subject_person_mention_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001:m0007",
+          "object_person_mention_id": "c-gujin-xingshi-shu-bianzheng-014-wangkai-and-son:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南宋鄧名世記三子。該書前文把僧朗列默子，與正史有異，本筆只錄此處父子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-liangshu-021-wangfen-m0000-origin-grandfather",
       "subject_person_id": "q7m_r8k_2vn_AB",

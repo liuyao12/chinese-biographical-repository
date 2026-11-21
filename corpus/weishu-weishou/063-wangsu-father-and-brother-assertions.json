@@ -1,0 +1,70 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-weishu-weishou-063-wangsu-father-and-brother",
+  "assertions": [
+    {
+      "id": "a-nan023-wanghuan-su-father",
+      "subject_person_id": "l1w_swd_dj8",
+      "object_person_id": "q7m_r8k_2vn_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父奐",
+        "nan023_wanghuan_reading": "su-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-063",
+          "source_id": "s-weishu-weishou-063-wangsu-father-and-brother-ws1513418",
+          "chapter_id": "c-weishu-weishou-063-wangsu-father-and-brother",
+          "paragraph_id": "c-weishu-weishou-063-wangsu-father-and-brother:p001",
+          "quote": "王肅，字恭懿，琅邪臨沂人，司馬衍丞相導之後也。父奐，蕭賾尚書左僕射。",
+          "subject_person_mention_id": "c-weishu-weishou-063-wangsu-father-and-brother:p001:m0000",
+          "object_person_mention_id": "c-weishu-weishou-063-wangsu-father-and-brother:p001:m0024"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "王肅父名奐，官蕭賾尚書左僕射。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wanghuan-bing-brother",
+      "subject_person_id": "q7m_r8k_2vn_AAF",
+      "object_person_id": "l1w_swd_dj8",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "肅弟秉",
+        "nan023_wanghuan_reading": "bing-brother",
+        "relative_birth_order": {
+          "older_person_id": "l1w_swd_dj8",
+          "younger_person_id": "q7m_r8k_2vn_AAF",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-063",
+          "source_id": "s-weishu-weishou-063-wangsu-father-and-brother-ws1513418",
+          "chapter_id": "c-weishu-weishou-063-wangsu-father-and-brother",
+          "paragraph_id": "c-weishu-weishou-063-wangsu-father-and-brother:p003",
+          "quote": "肅弟秉，字文政。涉獵書史，微有兄風。",
+          "subject_person_mention_id": "c-weishu-weishou-063-wangsu-father-and-brother:p003:m0002",
+          "object_person_mention_id": "c-weishu-weishou-063-wangsu-father-and-brother:p003:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "秉是肅弟，字文政。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

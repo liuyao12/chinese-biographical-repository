@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "id": "det_2ga_qtc",
+  "canonical_person_id": "det_2ga_qtc",
+  "label": "周奕〔周翼祖〕",
+  "identity_note": "世說德行劉注引周氏譜，祖奕上谷太守。",
+  "review": "ai_provisional",
+  "names": [
+    "奕"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 1,
+      "category": "",
+      "title": "世說新語德行郗鑒本傳對讀",
+      "paragraph_id": "c-shishuoxinyu-001-jin067-xijian:zhoupu",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "翼字子卿，陳郡人。祖奕，上谷太守。父優，車騎咨議。歴剡令、靑州刺史、少府卿，六十四而卒。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-001-jin067-xijian:zhoupu"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-001-jin067-xijian:zhoupu:m0010"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-001-jin067-xijian:zhoupu:m0010": "c-shishuoxinyu-001-jin067-xijian:zhoupu"
+      },
+      "mention_id": "c-shishuoxinyu-001-jin067-xijian:zhoupu:m0010",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-001-jin067-xijian:zhoupu:m0010",
+          "mention_ids": [
+            "c-shishuoxinyu-001-jin067-xijian:zhoupu:m0010"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-001",
+      "chapter_id": "c-shishuoxinyu-001-jin067-xijian",
+      "source_id": "s-shishuoxinyu-001-jin067-xijian",
+      "work_title": "世說新語"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shishuoxinyu-001-jin067-xijian",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-001",
+      "source_id": "s-shishuoxinyu-001-jin067-xijian",
+      "source": {
+        "title": "世說新語德行",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567459",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567459",
+        "revision_id": 2567459,
+        "accessed_on": "2026-11-21",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "raw_path": "source-evidence/jin065-wang-children/external/de-ws2567459.wikitext",
+        "wikitext_sha256": "137932a18390fbfccb1c6623467550f6b4a51ec2f8c89b5d86428eb4106b7f17",
+        "raw_file_sha256": "137932a18390fbfccb1c6623467550f6b4a51ec2f8c89b5d86428eb4106b7f17"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-w067-jian-zhou-grandfather",
+      "subject_person_id": "h15_bxq_n5u_A",
+      "object_person_id": "det_2ga_qtc",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖奕",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-001-jin067-xijian",
+          "source_id": "s-shishuoxinyu-001-jin067-xijian",
+          "paragraph_id": "c-shishuoxinyu-001-jin067-xijian:zhoupu",
+          "quote": "翼字子卿，陳郡人。祖奕，上谷太守。父優，車騎咨議。歴剡令、靑州刺史、少府卿，六十四而卒。",
+          "subject_person_mention_id": "c-shishuoxinyu-001-jin067-xijian:zhoupu:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-001-jin067-xijian:zhoupu:m0010"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "det_2ga_qtc": "周奕〔周翼祖〕",
+    "h15_bxq_n5u_A": "周翼〔字子卿，郗鑒外甥〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "det_2ga_qtc"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-w067-jian-zhou-grandfather",
+      "subject_person_id": "h15_bxq_n5u_A",
+      "object_person_id": "det_2ga_qtc",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖奕",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-001",
+          "chapter_id": "c-shishuoxinyu-001-jin067-xijian",
+          "source_id": "s-shishuoxinyu-001-jin067-xijian",
+          "paragraph_id": "c-shishuoxinyu-001-jin067-xijian:zhoupu",
+          "quote": "翼字子卿，陳郡人。祖奕，上谷太守。父優，車騎咨議。歴剡令、靑州刺史、少府卿，六十四而卒。",
+          "subject_person_mention_id": "c-shishuoxinyu-001-jin067-xijian:zhoupu:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-001-jin067-xijian:zhoupu:m0010"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
