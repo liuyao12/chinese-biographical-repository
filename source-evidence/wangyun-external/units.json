@@ -69,8 +69,8 @@
     "raw_path": "source-evidence/nanshi022-wangzhi-family/external/liang021-ws1544250.wikitext",
     "raw_sha256": "d547d5b8e194f36e62b748cdfb6f18366378bb372ffb8d5b82e721ca2ccb3fab",
     "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
-    "text_sha256": "b6bc98c7717cfe07fce26d5eb6171edc5eaeb42b1f467861a1e1ceb909810733",
-    "source_position_sha256": "8662077b7d0a22580253683eb7c1bff08815d353fbc2f83af615e80ab1dc6ea3",
+    "text_sha256": "09718e07b450ff8200a7cb87e41c91fd0e819afd8aabc1f2f79e558401c8d7a4",
+    "source_position_sha256": "4e050011305a956234d6d144e9be3ff8ee648d8eb01758895f92a55ea6ef9fa0",
     "writing_events": [],
     "relations": [
       {
@@ -130,6 +130,91 @@
         ],
         "status": "source_attested",
         "interpretation_note": "按同段傳主與親屬詞分別繫於原句。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-liang021-wangtai-kuo",
+        "subject_person_id": "7r6_k52_qji_ABAAAAEBAAA",
+        "object_person_id": "7r6_k52_qji_ABAAAAEBAA",
+        "predicate": "father",
+        "qualifiers": {
+          "source_term": "晚有子廓",
+          "liang021_tai_reading": "kuo",
+          "lineage": "paternal"
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+            "chapter_id": "c-liangshu-021-wangtai-wangyun",
+            "paragraph_id": "c-liangshu-021-wangtai-wangyun:p004",
+            "quote": "初，泰無子，養兄子祁，晚有子廓。",
+            "subject_person_mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0014",
+            "object_person_mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0002"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "廓為泰晚得之子；南史亦書子廓。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-liang021-wangtai-qi-raised",
+        "subject_person_id": "hcc_k43_cfj",
+        "object_person_id": "7r6_k52_qji_ABAAAAEBAA",
+        "predicate": "raised_by",
+        "qualifiers": {
+          "source_term": "養兄子祁",
+          "liang021_tai_reading": "qi-raised",
+          "legal_adoption_status": "not_stated"
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+            "chapter_id": "c-liangshu-021-wangtai-wangyun",
+            "paragraph_id": "c-liangshu-021-wangtai-wangyun:p004",
+            "quote": "初，泰無子，養兄子祁，晚有子廓。",
+            "subject_person_mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0009",
+            "object_person_mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0002"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "王祁受王泰撫養。此句未記出繼、承嗣或改父。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-liang021-wangtai-qi-uncle",
+        "subject_person_id": "hcc_k43_cfj",
+        "object_person_id": "7r6_k52_qji_ABAAAAEBAA",
+        "predicate": "paternal_uncle",
+        "qualifiers": {
+          "source_term": "兄子祁",
+          "liang021_tai_reading": "qi-uncle",
+          "lineage": "paternal",
+          "father_person_id": null
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+            "chapter_id": "c-liangshu-021-wangtai-wangyun",
+            "paragraph_id": "c-liangshu-021-wangtai-wangyun:p004",
+            "quote": "初，泰無子，養兄子祁，晚有子廓。",
+            "subject_person_mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0009",
+            "object_person_mention_id": "c-liangshu-021-wangtai-wangyun:p004:m0002"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "祁是泰兄之子，泰是祁父之弟。所謂兄未具姓名。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null

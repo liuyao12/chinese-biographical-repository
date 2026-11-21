@@ -129,13 +129,48 @@
     {
       "number": 36,
       "category": "",
-      "title": "謝超宗傳首",
+      "title": "謝超宗傳（乾隆武英殿本）",
+      "paragraph_id": "c-nanqishu-036-xiechaozong-wyd:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "謝超宗陳郡陽夏人也祖靈運宋臨川內史父鳳元嘉中坐靈運事同徙嶺南早卒元嘉末超宗得還與慧休道人來往好學有文辭盛得名譽解褐奉朝請",
+      "paragraph_ids": [
+        "c-nanqishu-036-xiechaozong-wyd:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-036-xiechaozong-wyd:p001:m0018"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-036-xiechaozong-wyd:p001:m0018": "c-nanqishu-036-xiechaozong-wyd:p001"
+      },
+      "mention_id": "c-nanqishu-036-xiechaozong-wyd:p001:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-036-xiechaozong-wyd:p001:m0018",
+          "mention_ids": [
+            "c-nanqishu-036-xiechaozong-wyd:p001:m0018"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-036",
+      "chapter_id": "c-nanqishu-036-xiechaozong-wyd",
+      "source_id": "s-nanqishu-036-xiechaozong-wyd1739",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 36,
+      "category": "",
+      "title": "謝超宗傳",
       "paragraph_id": "c-nanqishu-036-xiechaozong:p001",
       "count": 1,
       "raw_count": 1,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "謝超宗，陳郡陽夏人也。祖靈運，宋臨川內史。父鳳，元嘉中坐靈運事，同徙嶺南，早卒。",
+      "quote": "謝超宗，陳郡陽夏人也。祖靈運，宋臨川內史。父鳳，元嘉中坐靈運事，同徙嶺南，早卒。超宗元嘉末得還。與慧休道人來往，好學，有文辭，盛得名譽。解褐奉朝請。",
       "paragraph_ids": [
         "c-nanqishu-036-xiechaozong:p001"
       ],
@@ -170,15 +205,15 @@
       "book_id": "b-nanqishu-036",
       "source_id": "s-nanqishu-036-xiechaozong-ws1492438",
       "source": {
-        "title": "南齊書卷36·謝超宗傳首",
+        "title": "《南齊書》卷三十六謝超宗傳",
         "provider": "Wikisource",
         "url": "https://zh.wikisource.org/w/index.php?title=南齊書/卷36&oldid=1492438",
         "permalink": "https://zh.wikisource.org/w/index.php?title=南齊書/卷36&oldid=1492438",
         "revision_id": 1492438,
         "accessed_on": "2026-11-20",
         "edition": "數位轉錄的所據版本待核。",
-        "extent": "傳首至「同徙嶺南，早卒」；後續任官、遭遇待讀。",
-        "text_scope": "partial_chapter",
+        "extent": "第12至46行，含袁彖、王逡之兩奏以及王永先告才卿附敘。",
+        "text_scope": "complete_biography_unit",
         "image_verified": false,
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -188,7 +223,34 @@
         "raw_file_sha256": "92145d58d9a7c1453e31e7b0808e65506f29beee0b965519bd5b91b44abddbc9",
         "normalization": {
           "character_conversion": {},
-          "extraction_note": "按原字位截取，保留本段原字、標點。"
+          "extraction_note": "移除文庫縮排及引文冒號，展開年號模板和書名連結。保留固定數位本私用區字 U+F039，於武英殿本逐欄校記另列原字。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-036-xiechaozong-wyd",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-036",
+      "source_id": "s-nanqishu-036-xiechaozong-wyd1739",
+      "source": {
+        "title": "武英殿本《南齊書》卷三十六謝超宗傳",
+        "provider": "中國國家圖書館藏乾隆四年武英殿刊本，Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/NLC892-411999017142-12464_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC159%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=1154634011",
+        "revision_id": "cbr-ai-transcription-sha256:d752793ccca569b28429b050d8c65fdbf97b11cc0c1a900dea28b4c8bc588dcc",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/nanqi036-xiechaozong/wyd-columns.txt",
+        "raw_file_sha256": "d752793ccca569b28429b050d8c65fdbf97b11cc0c1a900dea28b4c8bc588dcc",
+        "edition": "乾隆四年武英殿刊《二十四史》第159冊",
+        "extent": "卷三十六一上至五上，PDF第102面左第5欄至106面左第2欄。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12464_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC159%E5%86%8A.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "據書影按欄轉寫。十八段只供定位，記入郊廟歌撰者列名後的「等」及奏中的「諐」。"
         }
       }
     },
@@ -307,6 +369,32 @@
       "model": null
     },
     {
+      "id": "a-wyd-qi036-chao-2",
+      "subject_person_id": "aa6_83c_juy_CDAABA",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_CDAAB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父鳳"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-036",
+          "chapter_id": "c-nanqishu-036-xiechaozong-wyd",
+          "source_id": "s-nanqishu-036-xiechaozong-wyd1739",
+          "paragraph_id": "c-nanqishu-036-xiechaozong-wyd:p001",
+          "quote": "謝超宗陳郡陽夏人也祖靈運宋臨川內史父鳳元嘉中坐靈運事同徙嶺南早卒",
+          "subject_person_mention_id": "c-nanqishu-036-xiechaozong-wyd:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-036-xiechaozong-wyd:p001:m0018"
+        }
+      ],
+      "interpretation_note": "傳首以超宗為主語，明書父鳳。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi019-chaozong-190-5",
       "subject_person_id": "aa6_83c_juy_CDAABA",
       "object_person_id": "aa6_83c_juy_CDAAB",
@@ -408,6 +496,38 @@
   "name_components": [],
   "source_reading_cases": [
     {
+      "id": "c-nanqishu-036-xiechaozong-wyd-comparison-1",
+      "kind": "primary_source_comparison",
+      "note": "南史傳從父子承接起。",
+      "person_id": "aa6_83c_juy_CDAAB",
+      "source_quote": "父鳳",
+      "reading": "鳳子超宗",
+      "reference": "南史卷十九謝氏傳",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1531762",
+      "paragraph_id": "c-nanqishu-036-xiechaozong-wyd:p001",
+      "start_codepoint": 17,
+      "end_codepoint": 19,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-036-xiechaozong-wyd",
+      "source_id": "s-nanqishu-036-xiechaozong-wyd1739"
+    },
+    {
+      "id": "c-nanqishu-036-xiechaozong-comparison-1",
+      "kind": "primary_source_comparison",
+      "note": "南史傳從父子承接起。",
+      "person_id": "aa6_83c_juy_CDAAB",
+      "source_quote": "父鳳",
+      "reading": "鳳子超宗",
+      "reference": "南史卷十九謝氏傳",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1531762",
+      "paragraph_id": "c-nanqishu-036-xiechaozong:p001",
+      "start_codepoint": 21,
+      "end_codepoint": 23,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-036-xiechaozong",
+      "source_id": "s-nanqishu-036-xiechaozong-ws1492438"
+    },
+    {
       "id": "nanshi019-wyd-feng-life",
       "kind": "witness_collation",
       "person_id": "aa6_83c_juy_CDAAB",
@@ -429,6 +549,36 @@
     }
   ],
   "person_references": [
+    {
+      "id": "c-nanqishu-036-xiechaozong-wyd:p001:r0017",
+      "start": 17,
+      "end": 18,
+      "surface": "父",
+      "person_id": "aa6_83c_juy_CDAAB",
+      "paragraph_id": "c-nanqishu-036-xiechaozong-wyd:p001",
+      "referent_role": "third_person",
+      "quote": "父鳳",
+      "note": "傳主之父。",
+      "chapter_id": "c-nanqishu-036-xiechaozong-wyd",
+      "book_id": "b-nanqishu-036",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-036-xiechaozong-wyd1739"
+    },
+    {
+      "id": "c-nanqishu-036-xiechaozong:p001:r0021",
+      "start": 21,
+      "end": 22,
+      "surface": "父",
+      "person_id": "aa6_83c_juy_CDAAB",
+      "paragraph_id": "c-nanqishu-036-xiechaozong:p001",
+      "referent_role": "third_person",
+      "quote": "父鳳",
+      "note": "傳主之父。",
+      "chapter_id": "c-nanqishu-036-xiechaozong",
+      "book_id": "b-nanqishu-036",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-036-xiechaozong-ws1492438"
+    },
     {
       "start": 6,
       "end": 7,
@@ -483,6 +633,32 @@
           "quote": "謝超宗，陳郡陽夏人也。祖靈運，宋臨川內史。父鳳，元嘉中坐靈運事，同徙嶺南，早卒。",
           "subject_person_mention_id": "c-nanqishu-036-xiechaozong:p001:m0000",
           "object_person_mention_id": "c-nanqishu-036-xiechaozong:p001:m0022"
+        }
+      ],
+      "interpretation_note": "傳首以超宗為主語，明書父鳳。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wyd-qi036-chao-2",
+      "subject_person_id": "aa6_83c_juy_CDAABA",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_CDAAB",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父鳳"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-036",
+          "chapter_id": "c-nanqishu-036-xiechaozong-wyd",
+          "source_id": "s-nanqishu-036-xiechaozong-wyd1739",
+          "paragraph_id": "c-nanqishu-036-xiechaozong-wyd:p001",
+          "quote": "謝超宗陳郡陽夏人也祖靈運宋臨川內史父鳳元嘉中坐靈運事同徙嶺南早卒",
+          "subject_person_mention_id": "c-nanqishu-036-xiechaozong-wyd:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-036-xiechaozong-wyd:p001:m0018"
         }
       ],
       "interpretation_note": "傳首以超宗為主語，明書父鳳。",
@@ -585,6 +761,64 @@
   ],
   "age_assertions": [],
   "life_events": [
+    {
+      "id": "le-qi036-chao-12",
+      "person_id": "aa6_83c_juy_CDAAB",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "早卒",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-036-xiechaozong:p001",
+        "surface": "早卒",
+        "start": 37,
+        "end": 39
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-036",
+          "source_id": "s-nanqishu-036-xiechaozong-ws1492438",
+          "chapter_id": "c-nanqishu-036-xiechaozong",
+          "paragraph_id": "c-nanqishu-036-xiechaozong:p001",
+          "quote": "謝超宗，陳郡陽夏人也。祖靈運，宋臨川內史。父鳳，元嘉中坐靈運事，同徙嶺南，早卒。超宗元嘉末得還。與慧休道人來往，好學，有文辭，盛得名譽。解褐奉朝請。",
+          "person_mention_id": "c-nanqishu-036-xiechaozong:p001:m0022"
+        }
+      ],
+      "interpretation_note": "早卒屬父鳳，不詳年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-wyd-qi036-chao-1",
+      "person_id": "aa6_83c_juy_CDAAB",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "早卒",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-036-xiechaozong-wyd:p001",
+        "start": 30,
+        "end": 32,
+        "surface": "早卒"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-036",
+          "source_id": "s-nanqishu-036-xiechaozong-wyd1739",
+          "chapter_id": "c-nanqishu-036-xiechaozong-wyd",
+          "paragraph_id": "c-nanqishu-036-xiechaozong-wyd:p001",
+          "quote": "謝超宗陳郡陽夏人也祖靈運宋臨川內史父鳳元嘉中坐靈運事同徙嶺南早卒元嘉末超宗得還與慧休道人來往好學有文辭盛得名譽解褐奉朝請",
+          "person_mention_id": "c-nanqishu-036-xiechaozong-wyd:p001:m0018"
+        }
+      ],
+      "interpretation_note": "早卒屬父鳳，不詳年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "le-nanshi019-feng-early",
       "person_id": "aa6_83c_juy_CDAAB",
