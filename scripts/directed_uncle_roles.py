@@ -183,6 +183,10 @@ def _direction(p, subjects, objects, term):
 
 
 def paternal_uncle_direction_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'jin076_yufei_brothers_son':
+        try: from scripts.jin076_yufei_uncle import valid
+        except ImportError: from jin076_yufei_uncle import valid
+        return valid(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'huanwen_shiqian_fangtou':
         try: from scripts.jin098_shiqian_uncle import valid
         except ImportError: from jin098_shiqian_uncle import valid

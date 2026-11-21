@@ -410,7 +410,9 @@
               "end_anchor": "爲事，但恨短筆不足書美。」誄竟不就。"
             }
           ]
-        }
+        },
+        "raw_path": "sources/nanshi/nanshi024-ws1765279.wikitext",
+        "raw_file_sha256": "8fd9281c1d58e066b75c0b6cce86fff07d6e11c8ad6426459f8e0f2139a29499"
       }
     },
     {
@@ -581,6 +583,33 @@
   ],
   "relations": [
     {
+      "id": "a-nan024-yu-he-marriage",
+      "subject_person_id": "7r6_k52_qji_ABDABAAD",
+      "object_person_id": "6dq_9ln_mo9",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "女適尚書僕射何尚之弟述之",
+        "nanshi024_reported_kin": "he-marriage"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "quote": "敬弘形狀短而起坐端方，桓玄謂之「彈棋發八勢」。所居舍亭山，林澗環周，備登臨之美，故時人謂之王東山。文帝嘗問爲政得失，對曰：「天下有道，庶人不議。」上高其言。左右嘗使二老婦女，戴五條辮，著青紋絝袼，飾以朱粉。女適尚書僕射何尚之弟述之。敬弘嘗往何氏看女，遇尚之不在，因寄齋中臥。俄頃尚之還，敬弘使二婦女守合，不聽尚之入，云：「正熱不堪相見，君可且去」。尚之於是移於他室。上將爲廬陵王納其女，辭曰：「臣女幼，既許孔淳之息。」子恢之被召爲祕書郎，敬弘爲求奉朝請，與恢之書曰：「彼祕書有限故有競，朝請無限故無競，吾欲使汝處不競之地。」文帝嘉之，並見許。",
+          "subject_person_reference_id": "c-nanshi-024-wang-family:line023:m0103",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line023:m0113"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "女適述之是已婚，尚書僕射是述之的兄何尚之。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-songshu066-family-daughter-marriage",
       "subject_person_id": "7r6_k52_qji_ABDABAAD",
       "predicate": "spouse",
@@ -654,10 +683,54 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-nanshi-024-wang-family:line023:r-n24-0112",
+      "paragraph_id": "c-nanshi-024-wang-family:line023",
+      "start": 112,
+      "end": 113,
+      "surface": "弟",
+      "person_id": "6dq_9ln_mo9",
+      "referent_role": "third_person",
+      "quote": "何尚之弟述之",
+      "note": "依發語、受話及句中所指記入人物指稱。",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "book_id": "b-nanshi-024",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-024-wang-family"
+    }
+  ],
   "person_ids": [
     "6dq_9ln_mo9"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nan024-yu-he-marriage",
+      "subject_person_id": "7r6_k52_qji_ABDABAAD",
+      "object_person_id": "6dq_9ln_mo9",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "女適尚書僕射何尚之弟述之",
+        "nanshi024_reported_kin": "he-marriage"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "source_id": "s-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line023",
+          "quote": "敬弘形狀短而起坐端方，桓玄謂之「彈棋發八勢」。所居舍亭山，林澗環周，備登臨之美，故時人謂之王東山。文帝嘗問爲政得失，對曰：「天下有道，庶人不議。」上高其言。左右嘗使二老婦女，戴五條辮，著青紋絝袼，飾以朱粉。女適尚書僕射何尚之弟述之。敬弘嘗往何氏看女，遇尚之不在，因寄齋中臥。俄頃尚之還，敬弘使二婦女守合，不聽尚之入，云：「正熱不堪相見，君可且去」。尚之於是移於他室。上將爲廬陵王納其女，辭曰：「臣女幼，既許孔淳之息。」子恢之被召爲祕書郎，敬弘爲求奉朝請，與恢之書曰：「彼祕書有限故有競，朝請無限故無競，吾欲使汝處不競之地。」文帝嘉之，並見許。",
+          "subject_person_reference_id": "c-nanshi-024-wang-family:line023:m0103",
+          "object_person_mention_id": "c-nanshi-024-wang-family:line023:m0113"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "女適述之是已婚，尚書僕射是述之的兄何尚之。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-songshu066-family-daughter-marriage",
       "subject_person_id": "7r6_k52_qji_ABDABAAD",

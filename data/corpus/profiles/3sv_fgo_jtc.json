@@ -55,6 +55,50 @@
       "chapter_id": "c-jinshu-044-luzhi",
       "source_id": "s-jinshu-044-luzhi",
       "work_title": "晉書"
+    },
+    {
+      "number": 76,
+      "category": "",
+      "title": "虞潭傳",
+      "paragraph_id": "c-jinshu-076-yutan:line097",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "州辟從事、主簿，舉秀才，大司馬、齊王冏請為祭酒，除祁鄉令，徙醴陵令。值張昌作亂，郡縣多從之，潭獨起兵斬昌別率鄧穆等。襄陽太守華恢上潭領建平太守，以疾固辭。遂周旋征討，以軍功賜爵都亭侯。陳敏反，潭東下討敏弟贊于江州。廣州刺史王矩上潭領廬陵太守。綏撫荒餘，咸得其所。又與諸軍共平",
+      "paragraph_ids": [
+        "c-jinshu-076-yutan:line097"
+      ],
+      "mention_ids": [
+        "c-jinshu-076-yutan:line097:m0088",
+        "c-jinshu-076-yutan:line097:m0104"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-076-yutan:line097:m0088": "c-jinshu-076-yutan:line097",
+        "c-jinshu-076-yutan:line097:m0104": "c-jinshu-076-yutan:line097"
+      },
+      "mention_id": "c-jinshu-076-yutan:line097:m0088",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-076-yutan:line097:m0088",
+          "mention_ids": [
+            "c-jinshu-076-yutan:line097:m0088"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-076-yutan:line097:m0104",
+          "mention_ids": [
+            "c-jinshu-076-yutan:line097:m0104"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "chapter_id": "c-jinshu-076-yutan",
+      "source_id": "s-jinshu-076-yutan",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -83,6 +127,34 @@
         "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
         "collation_witnesses": [
           "source-evidence/jin044-luzhi/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-076-yutan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "source_id": "s-jinshu-076-yutan",
+      "source": {
+        "title": "晉書卷七十六",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "revision_id": 2180533,
+        "accessed_on": "2026-11-21",
+        "edition": "固定數位修訂；武英殿本另錄。",
+        "extent": "虞潭題下第97至105行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-lang-zhong-xuan-dai/external/jin076-ws2180533.wikitext",
+        "raw_file_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "wikitext_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "collation_witnesses": [
+          "source-evidence/jin076-yuxiaofu/reading.json",
+          "source-evidence/jin076-yutan/reading.json"
         ]
       }
     }

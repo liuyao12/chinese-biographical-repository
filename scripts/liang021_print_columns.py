@@ -20,6 +20,8 @@ IZUMO_WITNESSES = {
 
 
 WITNESSES = {
+    'c-nanshi-024-yanzhi-ruantao-wyd': ('nanshi024-wangyanzhi', 'e34bb528b6ae95d677b1dd58aaf5e2921dd3fa3ce67cd2e3043f1dca3ad0cf8d'),
+    'c-nanshi-024-wangjun-wangcong-wyd': ('nanshi024-wangjun-cong', 'aeb7502bfd4b4ad283e24255202a0563a2c44ca0d54daed9cebaf3f2920c0edd'),
     'c-jinshu-098-huan-guanzhong-wyd': ('jin098-huanwen-guanzhong', '58a69e8dc3a2f65311cf1c7892835121ced0d516bf455cd18d991fae9cb3a9e8'),
     'c-jinshu-098-huan-wuchang-wyd': ('jin098-huanwen-wuchang', '5d0bf54ddc4886a1419d4777ff80a9d21351e48ad947be2121ef329b3ad94cc3'),
     'c-nanqishu-020-hejingying-wyd': ('qi020-hejingying-wyd', '0391ae57363b15fc391905e658b3877e2379ae174554d8f8dfd7747b6af68ecd'),

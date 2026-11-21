@@ -2621,6 +2621,51 @@
     {
       "number": 76,
       "category": "",
+      "title": "晉書卷七十六史臣論與贊",
+      "paragraph_id": "c-jinshu-076-jin076-roll-close:lun",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "教。王彬艤船而厚其所薄，王舒沈江而薄其所厚，較之優劣，斷乎可知。思行、彪之厲風規於多僻之日，虞潭、顧衆徇貞心于危蹙之辰。龍管為出納之端，{制魚}魚非獻替之術，嘯父之對，何其鄙歟！",
+      "paragraph_ids": [
+        "c-jinshu-076-jin076-roll-close:lun",
+        "c-jinshu-076-jin076-roll-close:zan"
+      ],
+      "mention_ids": [
+        "c-jinshu-076-jin076-roll-close:lun:m0140",
+        "c-jinshu-076-jin076-roll-close:zan:m0053"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-076-jin076-roll-close:lun:m0140": "c-jinshu-076-jin076-roll-close:lun",
+        "c-jinshu-076-jin076-roll-close:zan:m0053": "c-jinshu-076-jin076-roll-close:zan"
+      },
+      "mention_id": "c-jinshu-076-jin076-roll-close:lun:m0140",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-076-jin076-roll-close:lun:m0140",
+          "mention_ids": [
+            "c-jinshu-076-jin076-roll-close:lun:m0140"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-076-jin076-roll-close:zan:m0053",
+          "mention_ids": [
+            "c-jinshu-076-jin076-roll-close:zan:m0053"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "chapter_id": "c-jinshu-076-jin076-roll-close",
+      "source_id": "s-jinshu-076-jin076-roll-close",
+      "work_title": "晉書"
+    },
+    {
+      "number": 76,
+      "category": "",
       "title": "王彪之傳",
       "paragraph_id": "c-jinshu-076-wangbiaozhi:line055",
       "count": 37,
@@ -3237,6 +3282,33 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-076-jin076-roll-close",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "source_id": "s-jinshu-076-jin076-roll-close",
+      "source": {
+        "title": "晉書卷七十六",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "revision_id": 2180533,
+        "accessed_on": "2026-11-21",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-lang-zhong-xuan-dai/external/jin076-ws2180533.wikitext",
+        "raw_file_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "wikitext_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "collation_witnesses": [
+          "source-evidence/jin076-roll-close/reading.json"
+        ]
       }
     },
     {
@@ -5274,6 +5346,27 @@
     }
   ],
   "source_reading_cases": [
+    {
+      "id": "c-jinshu-076-jin076-roll-close:zan:reading58",
+      "paragraph_id": "c-jinshu-076-jin076-roll-close:zan",
+      "kind": "received_sentence",
+      "start_codepoint": 58,
+      "end_codepoint": 62,
+      "source_quote": "甯浩旋溫",
+      "reading": "彪之傳61行，浩為殷浩、溫為桓溫。",
+      "person_id": "7r6_k52_qji_ABDBB",
+      "related_person_ids": [
+        "djo_u3b_i9w_A",
+        "u9s_w6j_8mc_AA"
+      ],
+      "source_term": "甯浩旋溫",
+      "start": 58,
+      "end": 62,
+      "quote": "贊曰：處明夙令，聲頹暮年。允之騂角，無棄山川。廙稱多藝，綢繆哲後。二三其德，亦孔之醜。世儒憤發，慟顗陵敦。彪之不撓，甯浩旋溫。顧實南金，虞惟東箭。銑質無改，筠心不變，公望公才，𩦎為其選。",
+      "rationale": "彪之傳61行，浩為殷浩、溫為桓溫。",
+      "chapter_id": "c-jinshu-076-jin076-roll-close",
+      "source_id": "s-jinshu-076-jin076-roll-close"
+    },
     {
       "id": "reading-jin076-biaozhi-79-puye",
       "person_id": "7r6_k52_qji_ABDBB",

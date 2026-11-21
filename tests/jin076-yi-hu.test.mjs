@@ -14,7 +14,7 @@ test('中興賦佚文與上疏、四十三歲自陳的位置分開',()=>{
  assert.equal(Array.from(p.text).slice(s.start,s.end).join(''),s.surface);
  assert.equal(p.text.includes('卒'),false);
 });
-test('胡之、耆之、和之各據其書的子名與原字，敬弘曾祖有廣／廙異文',()=>{
+test('胡之、耆之、和之各據其書的子名與原字，敬弘曾祖字據宋、南兩殿本作廙',()=>{
  for(const x of e.comparisons)for(const q of x.sources){
   const w=e.external_witnesses[q.witness],b=f(w.raw_path);
   assert.equal(h(b),w.raw_sha256);assert.equal(Array.from(b.toString()).slice(q.raw_start,q.raw_end).join(''),q.quote);
@@ -25,7 +25,11 @@ test('胡之、耆之、和之各據其書的子名與原字，敬弘曾祖有�
  assert.equal(parallel.hash, '#page=30');
  assert.equal(e.nanshi024_print.pdf_page, 30);
  assert.match(e.nanshi024_print.capture_sha256, /^[a-f0-9]{64}$/);
- assert.match(e.nanshi024_print.reading,/廣之曾孫/);assert.match(e.song066.surface,/曾祖廙/);
+ assert.match(e.nanshi024_print.reading,/廙之曾孫/);assert.match(e.song066.surface,/曾祖廙/);
+ const correction=r('source-evidence/nanshi024-wangyuzhi/ancestor-print-correction.json');
+ assert.deepEqual(correction.comparisons.map(x=>[x.page,x.half,x.column_from_right,x.character]),
+   [[30,'左',8,'廙'],[36,'右',6,'廣'],[64,'左',5,'廙']]);
+ assert.equal(correction.previously_published.reading.includes('廣之曾孫'),true);
  const s=e.song066,p=r(s.path).paragraphs.find(p=>p.id===s.paragraph_id);
  assert.equal(Array.from(p.text).slice(s.start,s.end).join(''),s.surface);
  for (const page of e.print_witness) {

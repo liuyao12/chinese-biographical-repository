@@ -593,6 +593,75 @@
       ],
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "d-nan024-xin-xieyue",
+      "person_id": "aa6_83c_juy_DBABAC",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-nanshi-024-wang-family",
+        "c-nanshi-024-yanzhi-ruantao-wyd",
+        "c-nanqishu-043-xieyue"
+      ],
+      "surfaces": [
+        "謝伷",
+        "謝𤅢"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-nanshi-024-wang-family:line057:m0015",
+          "c-nanshi-024-yanzhi-ruantao-wyd:p006:m0012",
+          "c-nanqishu-043-xieyue:p001:m0000"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wang-family",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line057",
+          "quote": "綸之子昕，有業行，居父憂過禮。謝伷欲遣參之，孔珪曰：「何假參，此豈有全理。」以憂卒。",
+          "person_mention_id": "c-nanshi-024-wang-family:line057:m0015"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-yanzhi-ruantao-wyd",
+          "chapter_id": "c-nanshi-024-yanzhi-ruantao-wyd",
+          "paragraph_id": "c-nanshi-024-yanzhi-ruantao-wyd:p006",
+          "quote": "綸之子昕有業行居父憂過禮謝𤅢欲遣參之孔珪曰何假參此豈有全理以憂卒",
+          "person_mention_id": "c-nanshi-024-yanzhi-ruantao-wyd:p006:m0012"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p001",
+          "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
+          "person_mention_id": "c-nanqishu-043-xieyue:p001:m0000"
+        }
+      ],
+      "rationale": "王昕居父憂、謝氏欲遣人問疾、孔珪答及昕卒，三種見證逐次相合。殿本與四庫本同句寫謝𤅢。南齊書卷四十三載同時謝𤅢字義潔、父莊。伷保存在數位本該處原字。",
+      "references": [
+        {
+          "title": "四庫本南史卷二十四",
+          "url": "https://zh.wikisource.org/w/index.php?oldid=754387",
+          "quote": "謝{{SKchar|1357}}欲遣參之"
+        },
+        {
+          "title": "四庫缺字對照第1357號",
+          "url": "https://zh.wikisource.org/w/index.php?oldid=13201691",
+          "quote": "['1357']={\"𤅢\"},"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

@@ -22,6 +22,14 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if chapter.get('id') == 'c-nanshi-024-wangsiyuan':
+        try: from scripts.nanshi024_wangsiyuan import proposal_valid as nan24siy_proposal_valid
+        except ImportError: from nanshi024_wangsiyuan import proposal_valid as nan24siy_proposal_valid
+        return nan24siy_proposal_valid(proposal, chapter)
+    if chapter.get('id') == 'c-nanshi-024-wangyan':
+        try: from scripts.nanshi024_wangyan import proposal_valid as nan24yan_proposal_valid
+        except ImportError: from nanshi024_wangyan import proposal_valid as nan24yan_proposal_valid
+        return nan24yan_proposal_valid(proposal, chapter)
     if chapter.get('id') == 'c-epitaph-wangjianzhi-full':
         try: from scripts.xiangshan_m9_epitaphs import proposal_valid as xm9_proposal_valid
         except ImportError: from xiangshan_m9_epitaphs import proposal_valid as xm9_proposal_valid

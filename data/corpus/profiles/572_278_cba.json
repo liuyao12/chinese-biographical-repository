@@ -512,6 +512,41 @@
       "work_title": "宋書"
     },
     {
+      "number": 96,
+      "category": "",
+      "title": "虞潭母孫氏本傳親屬及楚、允之",
+      "paragraph_id": "c-jinshu-096-jin076-yutan:house",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "虞潭母孫氏，吳郡富春人，孫權族孫女也。初適潭父忠，恭順貞和，甚有婦德。",
+      "paragraph_ids": [
+        "c-jinshu-096-jin076-yutan:house"
+      ],
+      "mention_ids": [
+        "c-jinshu-096-jin076-yutan:house:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-096-jin076-yutan:house:m0012": "c-jinshu-096-jin076-yutan:house"
+      },
+      "mention_id": "c-jinshu-096-jin076-yutan:house:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-096-jin076-yutan:house:m0012",
+          "mention_ids": [
+            "c-jinshu-096-jin076-yutan:house:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-096",
+      "chapter_id": "c-jinshu-096-jin076-yutan",
+      "source_id": "s-jinshu-096-jin076-yutan",
+      "work_title": "晉書"
+    },
+    {
       "number": 98,
       "category": "",
       "title": "桓溫完整本傳單元",
@@ -1250,6 +1285,30 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-096-jin076-yutan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-096",
+      "source_id": "s-jinshu-096-jin076-yutan",
+      "source": {
+        "title": "晉書列女傳虞潭母孫氏",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2625341",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2625341",
+        "revision_id": 2625341,
+        "accessed_on": "2026-11-21",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "sources/witnesses/jin096-ws2625341.wikitext",
+        "raw_file_sha256": "2a30a87df259042f1f5d783dd7b9674ff174208aae03383fad28ab3c88dbabb5",
+        "wikitext_sha256": "2a30a87df259042f1f5d783dd7b9674ff174208aae03383fad28ab3c88dbabb5"
       }
     },
     {
@@ -13724,6 +13783,35 @@
   ],
   "relations": [
     {
+      "id": "a-w076r-yt-sun-quan",
+      "subject_person_id": "yj3_o5t_p49",
+      "object_person_id": "572_278_cba",
+      "predicate": "kinship_unspecified",
+      "qualifiers": {
+        "source_term": "孫權族孫女也",
+        "kinship_basis": "jin096_shi_yu_sunquan",
+        "father_person_id": null,
+        "connecting_person_ids": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "chapter_id": "c-jinshu-096-jin076-yutan",
+          "source_id": "s-jinshu-096-jin076-yutan",
+          "paragraph_id": "c-jinshu-096-jin076-yutan:house",
+          "quote": "虞潭母孫氏，吳郡富春人，孫權族孫女也。初適潭父忠，恭順貞和，甚有婦德。",
+          "subject_person_mention_id": "c-jinshu-096-jin076-yutan:house:m0003",
+          "object_person_mention_id": "c-jinshu-096-jin076-yutan:house:m0012"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-sanguozhi-048-wangsengqian-sunxiu-father-0",
       "subject_person_id": "0fo_c5c_4yh",
       "object_person_id": "572_278_cba",
@@ -13753,7 +13841,8 @@
   ],
   "related_people": {
     "0fo_c5c_4yh": "孫休（吳景帝，字子烈）",
-    "572_278_cba": "孫仲謀（引古）"
+    "572_278_cba": "孫仲謀（引古）",
+    "yj3_o5t_p49": "孫氏〔虞潭母〕"
   },
   "dates": [],
   "name_components": [
@@ -13813,6 +13902,35 @@
     "572_278_cba"
   ],
   "preferred_relations": [
+    {
+      "id": "a-w076r-yt-sun-quan",
+      "subject_person_id": "yj3_o5t_p49",
+      "object_person_id": "572_278_cba",
+      "predicate": "kinship_unspecified",
+      "qualifiers": {
+        "source_term": "孫權族孫女也",
+        "kinship_basis": "jin096_shi_yu_sunquan",
+        "father_person_id": null,
+        "connecting_person_ids": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "chapter_id": "c-jinshu-096-jin076-yutan",
+          "source_id": "s-jinshu-096-jin076-yutan",
+          "paragraph_id": "c-jinshu-096-jin076-yutan:house",
+          "quote": "虞潭母孫氏，吳郡富春人，孫權族孫女也。初適潭父忠，恭順貞和，甚有婦德。",
+          "subject_person_mention_id": "c-jinshu-096-jin076-yutan:house:m0003",
+          "object_person_mention_id": "c-jinshu-096-jin076-yutan:house:m0012"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-sanguozhi-048-wangsengqian-sunxiu-father-0",
       "subject_person_id": "0fo_c5c_4yh",

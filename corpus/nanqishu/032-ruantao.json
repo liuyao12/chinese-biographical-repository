@@ -9,7 +9,7 @@
     "revision_id": 1513918,
     "accessed_on": "2026-10-19",
     "extent": "阮韜傳完整兩原段；與同卷王延之傳分開，並非全卷完成。",
-    "text_scope": "partial_chapter",
+    "text_scope": "complete_biography_unit",
     "review_status": "text_checked",
     "image_verified": false,
     "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
@@ -58,7 +58,7 @@
       "id": "c-nanqishu-032-ruantao:line092",
       "text": "阮韜字長明，陳留人，晉金紫光祿大夫裕玄孫也。韜少歷清官，爲南兖州別駕，刺史江夏王劉義恭逆求資費錢，韜曰：「此朝廷物。」執不與。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-nanqishu-032-ruantao:line092:m0000",
@@ -126,7 +126,7 @@
       "id": "c-nanqishu-032-ruantao:line094",
       "text": "宋孝武選侍中四人，竝以風貌。王彧、謝莊爲一雙，韜與何偃爲一雙。常充兼假。泰始末，爲征南江州長史。桂陽王休範在鎮，數出行遊，韜性方峙，未嘗隨從。至散騎常侍，金紫光祿大夫，領始興王師。永明二年，卒。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-nanqishu-032-ruantao:line094:m0000",
@@ -210,14 +210,209 @@
     }
   ],
   "annotation": {
-    "status": "in_progress",
+    "status": "reviewed",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
     "model": null,
-    "coverage": "阮韜傳完整兩原段；與同卷王延之傳分開，並非全卷完成。",
+    "coverage": "固定修訂本篇全段逐句核讀，各傳及附敘見清冊。",
     "limitations": [
       "完整選定原段已錄；正式身份、親屬、任職及紀年仍須逐項完成，不代表整卷或人工／圖像覆核完成。"
-    ]
+    ],
+    "source_reading_cases": [
+      {
+        "id": "qi32-tao-92-0-received_sentence",
+        "kind": "received_sentence",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line092",
+        "start_codepoint": 0,
+        "end_codepoint": 22,
+        "source_quote": "阮韜字長明，陳留人，晉金紫光祿大夫裕玄孫也。",
+        "reading": "阮韜字長明，籍陳留，晉金紫光祿大夫阮裕的玄孫，祖孫相隔四代。",
+        "note": "阮韜字長明，籍陳留，晉金紫光祿大夫阮裕的玄孫，祖孫相隔四代。",
+        "human_reviewed": false
+      },
+      {
+        "id": "qi32-tao-92-22-received_sentence",
+        "kind": "received_sentence",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line092",
+        "start_codepoint": 22,
+        "end_codepoint": 59,
+        "source_quote": "韜少歷清官，爲南兖州別駕，刺史江夏王劉義恭逆求資費錢，韜曰：「此朝廷物。」",
+        "reading": "歷清官，任南兖州別駕。刺史江夏王劉義恭索預支資費，他答是朝廷物。",
+        "note": "歷清官，任南兖州別駕。刺史江夏王劉義恭索預支資費，他答是朝廷物。",
+        "human_reviewed": false
+      },
+      {
+        "id": "qi32-tao-92-59-received_sentence",
+        "kind": "received_sentence",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line092",
+        "start_codepoint": 59,
+        "end_codepoint": 63,
+        "source_quote": "執不與。",
+        "reading": "執不給付，主語仍是阮韜。",
+        "note": "執不給付，主語仍是阮韜。",
+        "human_reviewed": false
+      },
+      {
+        "id": "qi32-tao-94-0-received_sentence",
+        "kind": "received_sentence",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line094",
+        "start_codepoint": 0,
+        "end_codepoint": 14,
+        "source_quote": "宋孝武選侍中四人，竝以風貌。",
+        "reading": "宋孝武帝據風貌選取四名侍中。",
+        "note": "宋孝武帝據風貌選取四名侍中。",
+        "human_reviewed": false
+      },
+      {
+        "id": "qi32-tao-94-14-received_sentence",
+        "kind": "received_sentence",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line094",
+        "start_codepoint": 14,
+        "end_codepoint": 31,
+        "source_quote": "王彧、謝莊爲一雙，韜與何偃爲一雙。",
+        "reading": "王彧、謝莊一雙，阮韜、何偃一雙，為選官配列。",
+        "note": "王彧、謝莊一雙，阮韜、何偃一雙，為選官配列。",
+        "human_reviewed": false
+      },
+      {
+        "id": "qi32-tao-94-31-received_sentence",
+        "kind": "received_sentence",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line094",
+        "start_codepoint": 31,
+        "end_codepoint": 36,
+        "source_quote": "常充兼假。",
+        "reading": "阮韜常以兼假充職。",
+        "note": "阮韜常以兼假充職。",
+        "human_reviewed": false
+      },
+      {
+        "id": "qi32-tao-94-36-received_sentence",
+        "kind": "received_sentence",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line094",
+        "start_codepoint": 36,
+        "end_codepoint": 48,
+        "source_quote": "泰始末，爲征南江州長史。",
+        "reading": "劉宋泰始末任征南江州長史。",
+        "note": "劉宋泰始末任征南江州長史。",
+        "human_reviewed": false
+      },
+      {
+        "id": "qi32-tao-94-48-received_sentence",
+        "kind": "received_sentence",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line094",
+        "start_codepoint": 48,
+        "end_codepoint": 71,
+        "source_quote": "桂陽王休範在鎮，數出行遊，韜性方峙，未嘗隨從。",
+        "reading": "桂陽王劉休範鎮江州數次出遊，韜未嘗隨行。",
+        "note": "桂陽王劉休範鎮江州數次出遊，韜未嘗隨行。",
+        "human_reviewed": false
+      },
+      {
+        "id": "qi32-tao-94-71-received_sentence",
+        "kind": "received_sentence",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line094",
+        "start_codepoint": 71,
+        "end_codepoint": 90,
+        "source_quote": "至散騎常侍，金紫光祿大夫，領始興王師。",
+        "reading": "後至散騎常侍、金紫光祿大夫，兼始興王師。",
+        "note": "後至散騎常侍、金紫光祿大夫，兼始興王師。",
+        "human_reviewed": false
+      },
+      {
+        "id": "qi32-tao-94-90-received_sentence",
+        "kind": "received_sentence",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line094",
+        "start_codepoint": 90,
+        "end_codepoint": 97,
+        "source_quote": "永明二年，卒。",
+        "reading": "齊永明二年卒，原文未報歲數。",
+        "note": "齊永明二年卒，原文未報歲數。",
+        "human_reviewed": false
+      },
+      {
+        "id": "qi32-tao-92-17-ancestry_distance",
+        "kind": "ancestry_distance",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line092",
+        "start_codepoint": 17,
+        "end_codepoint": 20,
+        "source_quote": "裕玄孫",
+        "reading": "阮裕為阮韜上四世，接回本篇已發親屬斷言。",
+        "note": "阮裕為阮韜上四世，接回本篇已發親屬斷言。",
+        "human_reviewed": false,
+        "ancestor_id": "03n_n2r_8rt",
+        "generation_distance": 4,
+        "assertion_id": "a-received-032-ruantao-ancestor"
+      },
+      {
+        "id": "qi32-tao-94-36-chronology",
+        "kind": "chronology",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line094",
+        "start_codepoint": 36,
+        "end_codepoint": 39,
+        "source_quote": "泰始末",
+        "reading": "泰始465至471年，末表示後段，原文未指單年。",
+        "note": "泰始465至471年，末表示後段，原文未指單年。",
+        "human_reviewed": false,
+        "era_year_range": [
+          465,
+          471
+        ],
+        "position_in_era": "late"
+      },
+      {
+        "id": "qi32-tao-94-90-chronology",
+        "kind": "chronology",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line094",
+        "start_codepoint": 90,
+        "end_codepoint": 97,
+        "source_quote": "永明二年，卒。",
+        "reading": "永明元年483，二年為484。南史24僅記卒。",
+        "note": "永明元年483，二年為484。南史24僅記卒。",
+        "human_reviewed": false,
+        "year": 484,
+        "reported_age": null,
+        "life_event_id": "le-032-ruantao-received-death"
+      },
+      {
+        "id": "qi32-tao-94-14-paired_office_selection",
+        "kind": "paired_office_selection",
+        "person_id": "03n_n2r_8rt_***A",
+        "paragraph_id": "c-nanqishu-032-ruantao:line094",
+        "start_codepoint": 14,
+        "end_codepoint": 31,
+        "source_quote": "王彧、謝莊爲一雙，韜與何偃爲一雙。",
+        "reading": "兩雙各二人，為宋孝武選侍中之事。",
+        "note": "兩雙各二人，為宋孝武選侍中之事。",
+        "human_reviewed": false,
+        "pairs": [
+          [
+            "1tc_q18_x7v",
+            "aa6_83c_juy_DBABA"
+          ],
+          [
+            "03n_n2r_8rt_***A",
+            "pbz_pni_tco"
+          ]
+        ]
+      }
+    ],
+    "person_reference_occurrences": [],
+    "biography_source_reviews": {
+      "阮韜": "source-evidence/nanqi032-biographies/tao-reading.json"
+    }
   },
   "text_sha256": "22a431b541e209c563ba65dc09269e9da36be334f2f6c8a99c90d08925795522"
 }
