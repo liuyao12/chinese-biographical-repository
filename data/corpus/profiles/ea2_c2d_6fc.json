@@ -5,48 +5,10 @@
   "label": "王釗母（未名）",
   "identity_note": "本批完整傳文來源候選；不因同姓或同名接族。",
   "review": "ai_provisional",
-  "names": [
-    "母"
-  ],
+  "names": [],
   "titles": [],
   "addresses": [],
-  "occurrences": [
-    {
-      "number": 42,
-      "category": "",
-      "title": "王弘完整傳主單元（含子弟附傳）",
-      "paragraph_id": "c-songshu-042-wanghong:line097",
-      "count": 1,
-      "raw_count": 1,
-      "duplicate_count": 0,
-      "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "前軍長史，左民尚書。太宗初，為司徒左長史。隨司徒建安王休仁出赭圻，時居母憂，加冠軍將軍。忤犯休仁，出為始興相。休仁恚之不已，太宗乃收付廷尉，賜死。",
-      "paragraph_ids": [
-        "c-songshu-042-wanghong:line097"
-      ],
-      "mention_ids": [
-        "c-songshu-042-wanghong:line097:m0097"
-      ],
-      "mention_paragraph_ids": {
-        "c-songshu-042-wanghong:line097:m0097": "c-songshu-042-wanghong:line097"
-      },
-      "mention_id": "c-songshu-042-wanghong:line097:m0097",
-      "occurrence_groups": [
-        {
-          "canonical_mention_id": "c-songshu-042-wanghong:line097:m0097",
-          "mention_ids": [
-            "c-songshu-042-wanghong:line097:m0097"
-          ],
-          "kind": "paragraph"
-        }
-      ],
-      "work_id": "w-songshu",
-      "book_id": "b-songshu-042",
-      "chapter_id": "c-songshu-042-wanghong",
-      "source_id": "s-songshu-042-wanghong",
-      "work_title": "宋書"
-    }
-  ],
+  "occurrences": [],
   "table_occurrences": [],
   "sources": [
     {
@@ -501,7 +463,10 @@
       "status": "source_attested",
       "qualifiers": {
         "source_term": "居母憂",
-        "biological_parentage": "not_independently_established"
+        "biological_parentage": "not_independently_established",
+        "reading_basis": {
+          "kind": "mourning_of_unnamed_mother_while_accompanying_a_prince"
+        }
       },
       "evidence": [
         {
@@ -510,7 +475,9 @@
           "source_id": "s-songshu-042-wanghong",
           "chapter_id": "c-songshu-042-wanghong",
           "paragraph_id": "c-songshu-042-wanghong:line097",
-          "quote": "弘從父弟練，晉中書令珉子也。元嘉中，歷顯官，侍中，度支尚書。練子釗，世祖大明中，亦經清職，黃門郎，臨海王子頊晉安王子勛征虜、前軍長史，左民尚書。太宗初，為司徒左長史。隨司徒建安王休仁出赭圻，時居母憂，加冠軍將軍。忤犯休仁，出為始興相。休仁恚之不已，太宗乃收付廷尉，賜死。"
+          "quote": "弘從父弟練，晉中書令珉子也。元嘉中，歷顯官，侍中，度支尚書。練子釗，世祖大明中，亦經清職，黃門郎，臨海王子頊晉安王子勛征虜、前軍長史，左民尚書。太宗初，為司徒左長史。隨司徒建安王休仁出赭圻，時居母憂，加冠軍將軍。忤犯休仁，出為始興相。休仁恚之不已，太宗乃收付廷尉，賜死。",
+          "subject_person_mention_id": "c-songshu-042-wanghong:line097:m0032",
+          "object_person_reference_id": "c-songshu-042-wanghong:line097:m0097"
         }
       ],
       "source_term_anchor": {
@@ -531,6 +498,23 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-songshu-042-wanghong:line097:m0097",
+      "paragraph_id": "c-songshu-042-wanghong:line097",
+      "start": 97,
+      "end": 98,
+      "surface": "母",
+      "person_id": "ea2_c2d_6fc",
+      "referent_role": "third_person",
+      "quote": "弘從父弟練，晉中書令珉子也。元嘉中，歷顯官，侍中，度支尚書。練子釗，世祖大明中，亦經清職，黃門郎，臨海王子頊晉安王子勛征虜、前軍長史，左民尚書。太宗初，為司徒左長史。隨司徒建安王休仁出赭圻，時居母憂，加冠軍將軍。忤犯休仁，出為始興相。休仁恚之不已，太宗乃收付廷尉，賜死。",
+      "note": "王釗隨建安王出赭圻時在其母喪中；母未記名字。",
+      "chapter_id": "c-songshu-042-wanghong",
+      "book_id": "b-songshu-042",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-042-wanghong"
+    }
+  ],
   "person_ids": [
     "ea2_c2d_6fc"
   ],
@@ -543,7 +527,10 @@
       "status": "source_attested",
       "qualifiers": {
         "source_term": "居母憂",
-        "biological_parentage": "not_independently_established"
+        "biological_parentage": "not_independently_established",
+        "reading_basis": {
+          "kind": "mourning_of_unnamed_mother_while_accompanying_a_prince"
+        }
       },
       "evidence": [
         {
@@ -552,7 +539,9 @@
           "source_id": "s-songshu-042-wanghong",
           "chapter_id": "c-songshu-042-wanghong",
           "paragraph_id": "c-songshu-042-wanghong:line097",
-          "quote": "弘從父弟練，晉中書令珉子也。元嘉中，歷顯官，侍中，度支尚書。練子釗，世祖大明中，亦經清職，黃門郎，臨海王子頊晉安王子勛征虜、前軍長史，左民尚書。太宗初，為司徒左長史。隨司徒建安王休仁出赭圻，時居母憂，加冠軍將軍。忤犯休仁，出為始興相。休仁恚之不已，太宗乃收付廷尉，賜死。"
+          "quote": "弘從父弟練，晉中書令珉子也。元嘉中，歷顯官，侍中，度支尚書。練子釗，世祖大明中，亦經清職，黃門郎，臨海王子頊晉安王子勛征虜、前軍長史，左民尚書。太宗初，為司徒左長史。隨司徒建安王休仁出赭圻，時居母憂，加冠軍將軍。忤犯休仁，出為始興相。休仁恚之不已，太宗乃收付廷尉，賜死。",
+          "subject_person_mention_id": "c-songshu-042-wanghong:line097:m0032",
+          "object_person_reference_id": "c-songshu-042-wanghong:line097:m0097"
         }
       ],
       "source_term_anchor": {

@@ -747,6 +747,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-nanshi021-wanghong-21-101",
+      "person_id": "aa6_83c_juy_CDAA",
+      "title": "世子左衛率",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi021-wanghong-21-101:a",
+          "paragraph_id": "c-nanshi-021-wanghong:p004",
+          "start": 101,
+          "end": 106,
+          "surface": "世子左衛率",
+          "person_mention_id": "c-nanshi-021-wanghong:p004:m0106",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wanghong",
+          "source_id": "s-nanshi-021-wanghong-ws1752646",
+          "paragraph_id": "c-nanshi-021-wanghong:p004",
+          "quote": "宋武帝召補鎮軍諮議參軍，以功封華容縣五等侯，累遷太尉左長史。從北征，前鋒已平洛陽，而未遣九錫，弘銜使還都諷朝廷。時劉穆之掌留任，而旨乃從北來，穆之愧懼發病，遂卒。宋國建，爲尚書僕射掌選，領彭城太守。奏彈世子左衛率謝靈運，爲軍人桂興淫其嬖妾，靈運殺興棄屍洪流，御史中丞王准之曾不彈舉。武帝答曰：「端右肅正風軌，誠副所期，自今以爲永制。」於是免靈運官。後遷江州刺史，省賦簡役，百姓安之。",
+          "person_mention_id": "c-nanshi-021-wanghong:p004:m0106"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-songwang7-42-53-58-40",
       "person_id": "aa6_83c_juy_CDAA",
       "title": "世子左衞率",
@@ -1526,6 +1574,59 @@
       "book_id": "b-nanshi-020",
       "chapter_id": "c-nanshi-020-xiehongwei",
       "source_id": "s-nanshi020-kr3c7bdbb",
+      "work_title": "南史"
+    },
+    {
+      "number": 21,
+      "category": "",
+      "title": "王弘傳",
+      "paragraph_id": "c-nanshi-021-wanghong:p004",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "穆之愧懼發病，遂卒。宋國建，爲尚書僕射掌選，領彭城太守。奏彈世子左衛率謝靈運，爲軍人桂興淫其嬖妾，靈運殺興棄屍洪流，御史中丞王准之曾不彈舉。武帝答曰：「端右肅正風軌，誠副所期，自今以爲永制。」於是免靈運官。後遷江州刺史，省賦簡役，百姓安之。",
+      "paragraph_ids": [
+        "c-nanshi-021-wanghong:p004"
+      ],
+      "mention_ids": [
+        "c-nanshi-021-wanghong:p004:m0106",
+        "c-nanshi-021-wanghong:p004:m0120",
+        "c-nanshi-021-wanghong:p004:m0170"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-021-wanghong:p004:m0106": "c-nanshi-021-wanghong:p004",
+        "c-nanshi-021-wanghong:p004:m0120": "c-nanshi-021-wanghong:p004",
+        "c-nanshi-021-wanghong:p004:m0170": "c-nanshi-021-wanghong:p004"
+      },
+      "mention_id": "c-nanshi-021-wanghong:p004:m0106",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-021-wanghong:p004:m0106",
+          "mention_ids": [
+            "c-nanshi-021-wanghong:p004:m0106"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-021-wanghong:p004:m0120",
+          "mention_ids": [
+            "c-nanshi-021-wanghong:p004:m0120"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-021-wanghong:p004:m0170",
+          "mention_ids": [
+            "c-nanshi-021-wanghong:p004:m0170"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "chapter_id": "c-nanshi-021-wanghong",
+      "source_id": "s-nanshi-021-wanghong-ws1752646",
       "work_title": "南史"
     },
     {
@@ -6748,6 +6849,35 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅去數位頁標、¶及換行，不轉字、不加標點；逐字raw_runs保存原位置。選定單元沒有括注，引用詩句及史臣評語均保原文，不冒為另一本原生正文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-021-wanghong",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "source_id": "s-nanshi-021-wanghong-ws1752646",
+      "source": {
+        "title": "南史卷二十一·王弘傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "revision_id": 1752646,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂1752646，武英殿本書影逐項參記。",
+        "extent": "王弘本傳第15–35行十一原段；末子錫嗣，下一分題為弘子錫。數位傳首保留「临、导、晋、领、军」。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "==王弘==",
+        "wikitext_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "raw_path": "sources/nanshi/nanshi021-ws1752646.wikitext",
+        "raw_file_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
         }
       }
     },
@@ -16423,6 +16553,21 @@
       "book_id": "b-nanshi-019",
       "work_id": "w-nanshi",
       "source_id": "s-nanshi-019-nan19-ws1531762"
+    },
+    {
+      "start": 116,
+      "end": 117,
+      "surface": "其",
+      "id": "c-nanshi-021-wanghong:p004:r0116",
+      "paragraph_id": "c-nanshi-021-wanghong:p004",
+      "person_id": "aa6_83c_juy_CDAA",
+      "referent_role": "third_person",
+      "quote": "宋武帝召補鎮軍諮議參軍，以功封華容縣五等侯，累遷太尉左長史。從北征，前鋒已平洛陽，而未遣九錫，弘銜使還都諷朝廷。時劉穆之掌留任，而旨乃從北來，穆之愧懼發病，遂卒。宋國建，爲尚書僕射掌選，領彭城太守。奏彈世子左衛率謝靈運，爲軍人桂興淫其嬖妾，靈運殺興棄屍洪流，御史中丞王准之曾不彈舉。武帝答曰：「端右肅正風軌，誠副所期，自今以爲永制。」於是免靈運官。後遷江州刺史，省賦簡役，百姓安之。",
+      "note": "本句按敘述視點回指靈運。",
+      "chapter_id": "c-nanshi-021-wanghong",
+      "book_id": "b-nanshi-021",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-021-wanghong-ws1752646"
     }
   ],
   "person_ids": [

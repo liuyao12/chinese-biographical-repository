@@ -3,14 +3,185 @@
   "id": "7r6_k52_qji_ABAACA",
   "canonical_person_id": "7r6_k52_qji_ABAACA",
   "label": "王琨",
-  "identity_note": "本次固定來源首輪候選；未與全庫同姓或同名者強合。",
+  "identity_note": "晉書稱琨，為恬子、悅嗣，贈太常。世說排調劉注王氏譜作混、字奉正、為丹陽尹，宋書王誕傳祖恬、父混太常。",
   "review": "ai_provisional",
   "names": [
-    "琨"
+    "琨",
+    "混",
+    "奉正"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-wang065-kun-danyang",
+      "person_id": "7r6_k52_qji_ABAACA",
+      "title": "丹陽尹",
+      "mode": "attestation",
+      "kind": "office",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line066",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line066:m0008",
+          "quote": "悅無子，以弟恬子琨爲嗣，襲導爵丹陽尹，卒，贈太常。子嘏嗣，尚鄱陽公主，歷中領軍、尚書。卒，子恢嗣，義熙末，爲遊擊將軍。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-wang065-kun-danyang:a001",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line066",
+          "start": 15,
+          "end": 18,
+          "surface": "丹陽尹",
+          "usage": "narrative",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line066:m0008",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "《世說·排調》注王氏譜述混仕至丹陽尹；丹陽尹為官，襲導爵另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-wang065-family-gift-66",
+      "person_id": "7r6_k52_qji_ABAACA",
+      "title": "太常",
+      "mode": "posthumous_grant",
+      "kind": "office",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line066",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line066:m0008",
+          "quote": "悅無子，以弟恬子琨爲嗣，襲導爵丹陽尹，卒，贈太常。子嘏嗣，尚鄱陽公主，歷中領軍、尚書。卒，子恢嗣，義熙末，爲遊擊將軍。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-wang065-family-gift-66:a001",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line066",
+          "start": 22,
+          "end": 24,
+          "surface": "太常",
+          "usage": "posthumous_usage",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line066:m0008",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "posthumous_grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-065",
+              "source_id": "s-jinshu-065-wangdao-family",
+              "chapter_id": "c-jinshu-065-wangdao-family",
+              "paragraph_id": "c-jinshu-065-wangdao-family:line066",
+              "person_mention_id": "c-jinshu-065-wangdao-family:line066:m0008",
+              "quote": "悅無子，以弟恬子琨爲嗣，襲導爵丹陽尹，卒，贈太常。子嘏嗣，尚鄱陽公主，歷中領軍、尚書。卒，子恢嗣，義熙末，爲遊擊將軍。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "同段在卒後明記所贈之官。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "posthumous_basis": {
+        "kind": "jin065_yue_tian_gifts",
+        "source_term": "襲導爵丹陽尹，卒，贈太常。",
+        "death_event_id": "le-wangdao4-66-19-6",
+        "recipient_person_mention_id": "c-jinshu-065-wangdao-family:line066:m0008",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-065",
+            "source_id": "s-jinshu-065-wangdao-family",
+            "chapter_id": "c-jinshu-065-wangdao-family",
+            "paragraph_id": "c-jinshu-065-wangdao-family:line066",
+            "person_mention_id": "c-jinshu-065-wangdao-family:line066:m0008",
+            "quote": "悅無子，以弟恬子琨爲嗣，襲導爵丹陽尹，卒，贈太常。子嘏嗣，尚鄱陽公主，歷中領軍、尚書。卒，子恢嗣，義熙末，爲遊擊將軍。"
+          }
+        ]
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 25,
+      "category": "",
+      "title": "世說新語·排調",
+      "paragraph_id": "c-shishuoxinyu-025-wangdao-source:wangshipu",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "混字奉正，中軍將軍恬子。仕至丹陽尹。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-025-wangdao-source:wangshipu"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-025-wangdao-source:wangshipu:m0000",
+        "c-shishuoxinyu-025-wangdao-source:wangshipu:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-025-wangdao-source:wangshipu:m0000": "c-shishuoxinyu-025-wangdao-source:wangshipu",
+        "c-shishuoxinyu-025-wangdao-source:wangshipu:m0002": "c-shishuoxinyu-025-wangdao-source:wangshipu"
+      },
+      "mention_id": "c-shishuoxinyu-025-wangdao-source:wangshipu:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-025-wangdao-source:wangshipu:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-025-wangdao-source:wangshipu:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-025-wangdao-source:wangshipu:m0002",
+          "mention_ids": [
+            "c-shishuoxinyu-025-wangdao-source:wangshipu:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-025",
+      "chapter_id": "c-shishuoxinyu-025-wangdao-source",
+      "source_id": "s-shishuoxinyu-025-wangdao-source",
+      "work_title": "世說新語"
+    },
     {
       "number": 65,
       "category": "",
@@ -751,6 +922,29 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-025-wangdao-source",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-025",
+      "source_id": "s-shishuoxinyu-025-wangdao-source",
+      "source": {
+        "title": "世說新語·排調",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1503586",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1503586",
+        "revision_id": 1503586,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位見證",
+        "extent": "與晉書卷六十五家支文句對讀的原文、古注節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文與維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin065-wang-children/external/pai-ws1503586.wikitext",
+        "raw_file_sha256": "79594d96cb37ed89661fd3687d2d2c885a43d7f6be90dea5c762b728dbbbf53f"
+      }
     }
   ],
   "relations": [
@@ -844,6 +1038,33 @@
       ],
       "interpretation_note": "傳主無子，以弟之具名子為嗣；來源所述承嗣父與有證生父分存，不推現代法律效力、不抹生父、不改ID。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-ssxy-wang-wanghun",
+      "subject_person_id": "7r6_k52_qji_ABAACA",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAAC",
+      "qualifiers": {
+        "source_term": "恬子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-025",
+          "source_id": "s-shishuoxinyu-025-wangdao-source",
+          "chapter_id": "c-shishuoxinyu-025-wangdao-source",
+          "paragraph_id": "c-shishuoxinyu-025-wangdao-source:wangshipu",
+          "quote": "混字奉正，中軍將軍恬子。仕至丹陽尹。",
+          "subject_person_mention_id": "c-shishuoxinyu-025-wangdao-source:wangshipu:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-025-wangdao-source:wangshipu:m0009"
+        }
+      ],
+      "interpretation_note": "譜引恬子、奉正、丹陽尹，與晉書悅傳續敘琨互證。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }
@@ -952,6 +1173,33 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-ssxy-wang-wanghun",
+      "subject_person_id": "7r6_k52_qji_ABAACA",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAAC",
+      "qualifiers": {
+        "source_term": "恬子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-025",
+          "source_id": "s-shishuoxinyu-025-wangdao-source",
+          "chapter_id": "c-shishuoxinyu-025-wangdao-source",
+          "paragraph_id": "c-shishuoxinyu-025-wangdao-source:wangshipu",
+          "quote": "混字奉正，中軍將軍恬子。仕至丹陽尹。",
+          "subject_person_mention_id": "c-shishuoxinyu-025-wangdao-source:wangshipu:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-025-wangdao-source:wangshipu:m0009"
+        }
+      ],
+      "interpretation_note": "譜引恬子、奉正、丹陽尹，與晉書悅傳續敘琨互證。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "age_assertions": [],
@@ -976,6 +1224,40 @@
       ],
       "interpretation_note": "只錄此處來源所言死亡；敘事時點與死亡年分開，不以死亡終止全部官爵。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "person_events": [
+    {
+      "id": "ev-jin065-yuesi-8",
+      "person_id": "7r6_k52_qji_ABAACA",
+      "predecessor_person_id": "7r6_k52_qji_ABAA",
+      "event_type": "noble_title_succession",
+      "mode": "accession",
+      "source_term": "襲導爵",
+      "title": null,
+      "holding_id": null,
+      "date_expression": null,
+      "source_clause_binding": {
+        "kind": "jin065_yue_named_heirs",
+        "recipient": "c-jinshu-065-wangdao-family:line066:m0008",
+        "predecessor": "c-jinshu-065-wangdao-family:line066:m0013"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line066",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line066:m0008",
+          "quote": "悅無子，以弟恬子琨爲嗣，襲導爵丹陽尹，卒，贈太常。子嘏嗣，尚鄱陽公主，歷中領軍、尚書。卒，子恢嗣，義熙末，爲遊擊將軍。"
+        }
+      ],
+      "interpretation_note": "依同段具名父子與嗣爵次第保存。琨承導爵，丹陽尹為其官。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     }

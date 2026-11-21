@@ -20,8 +20,9 @@ def source_age_number(number):
         rest=number[1:].removeprefix('有')
         return {'廿':20,'卅':30,'卌':40}[number[0]] + (digits.index(rest)+1 if rest else 0)
     if number in digits and len(number) == 1: return digits.index(number) + 1
-    if re.fullmatch('[一二三四五六七八九]?十[一二三四五六七八九]?', number):
+    if re.fullmatch('[一二三四五六七八九]?十(?:有?[一二三四五六七八九])?', number):
         tens, ones = number.split('十')
+        ones = ones.removeprefix('有')
         return (digits.index(tens) + 1 if tens else 1) * 10 + (digits.index(ones) + 1 if ones else 0)
     match = re.fullmatch('([一二三四五六七八九]?)百(?:有?([一二三四五六七八九]?十[一二三四五六七八九]?))?', number)
     if match:
@@ -374,6 +375,10 @@ def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
                   '任官約定引句須涵蓋前置約詞及職稱')
         else:
             role = mentions.get(proposal.get('role_mention_id'))
+            if unassumed and role and role.get('kind') == 'non_person' and role.get('lexical_role')=='offered_office':
+                try: from scripts.unassumed_appointments import unassumed_role
+                except ImportError: from unassumed_appointments import unassumed_role
+                role=unassumed_role(proposal,p)
             if unassumed and role is None:
                 try:
                     from scripts.unassumed_appointments import unassumed_role
@@ -550,6 +555,11 @@ def _validate_uncached(root=ROOT):
             except ImportError:
                 from fixed_kanripo_projection import errors as fixed_kanripo_projection_errors
             errors.extend(fixed_kanripo_projection_errors(d, root))
+            try:
+                from scripts.nanshi022_print import errors as nanshi022_print_errors
+            except ImportError:
+                from nanshi022_print import errors as nanshi022_print_errors
+            errors.extend(nanshi022_print_errors(d, root))
             # fixed-wuyingdian-song044-transcription: source-only exact witness gate.
             try:
                 from scripts.fixed_wuyingdian_song044 import source_errors as wuyingdian_song044_errors
@@ -633,7 +643,19 @@ def _validate_uncached(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation') or (p.get('text_layer') in ('received_compiler_appraisal','witness_appended_wuyingdian_collation') and wuyingdian_song044_layer_valid),'文字層次無效')
+                try:
+                    from scripts.liuxiaobiao_layers import valid as liuxiaobiao_layer_valid
+                except ImportError:
+                    from liuxiaobiao_layers import valid as liuxiaobiao_layer_valid
+                try:
+                    from scripts.jin065_wangdao_main import formal_comment as wangdao_formal_comment
+                except ImportError:
+                    from jin065_wangdao_main import formal_comment as wangdao_formal_comment
+                try:
+                    from scripts.jin065_appraisal_layers import valid as jin065_appraisal_layer
+                except ImportError:
+                    from jin065_appraisal_layers import valid as jin065_appraisal_layer
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','epitaph_as_modernly_transcribed','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation') or (p.get('text_layer') == 'witness_appended_liuxiaobiao_note' and (liuxiaobiao_layer_valid(p, d, root) or wangdao_formal_comment(p, d, root))) or (p.get('text_layer') == 'received_compiler_appraisal' and jin065_appraisal_layer(p,d,root)) or (p.get('text_layer') in ('received_compiler_appraisal','witness_appended_wuyingdian_collation') and wuyingdian_song044_layer_valid),'文字層次無效')
                 try:
                     from scripts.houhan_text_layers import layer_errors
                 except ImportError:
@@ -1275,6 +1297,10 @@ def _validate_uncached(root=ROOT):
                            and basis['evidence']==h['effective_period']['start']['evidence']
                            and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
                                    and basis['source_term'] in e['quote'] for e in basis['evidence']))
+                    if isinstance(basis, dict) and basis.get('kind') == 'song071_wang_posthumous_awards':
+                        try: from scripts.song071_wang_awards import valid as song071_award_valid
+                        except ImportError: from song071_wang_awards import valid as song071_award_valid
+                        valid = song071_award_valid(h, paragraphs, mentions, gift_life_events)
                     if 'source_career_role' in h:
                         try:
                             from scripts.received_career_roles import holding_valid as career_holding_valid
@@ -1286,7 +1312,11 @@ def _validate_uncached(root=ROOT):
                         for e in basis['evidence']:title_evidence(e)
                 if h['mode']=='posthumous_naming' or 'naming_basis' in h:
                     basis=h.get('naming_basis')
-                    if isinstance(basis, dict) and basis.get('kind') == 'named_jin079_family_death_award':
+                    if isinstance(basis, dict) and basis.get('kind') == 'song071_wang_posthumous_awards':
+                        try: from scripts.song071_wang_awards import valid as song071_award_valid
+                        except ImportError: from song071_wang_awards import valid as song071_award_valid
+                        valid = song071_award_valid(h, paragraphs, mentions, gift_life_events)
+                    elif isinstance(basis, dict) and basis.get('kind') == 'named_jin079_family_death_award':
                         try: from scripts.jin079_family_awards import valid as family_award_valid
                         except ImportError: from jin079_family_awards import valid as family_award_valid
                         valid = family_award_valid(h, paragraphs, mentions, gift_life_events)
@@ -2033,6 +2063,11 @@ def _validate_uncached(root=ROOT):
                     if hit:
                         local={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'}
                         if adjacent is None:
+                            if qualifiers.get('reading_basis', {}).get('kind') == 'mourning_of_unnamed_mother_while_accompanying_a_prince':
+                                try: from scripts.song042_mother_mourning import valid as mourning_mother_valid
+                                except ImportError: from song042_mother_mourning import valid as mourning_mother_valid
+                                check(mourning_mother_valid(a, e, chapters.get(e['chapter_id']), root), '母憂須核出征敘事的本人、匿名母親及原句')
+                                continue
                             if qualifiers.get('reading_basis', {}).get('kind') == 'jin075_xunxian_titled_or_anonymous_kin':
                                 try:
                                     from scripts.jin075_reference_evidence import kin_valid
@@ -2040,7 +2075,13 @@ def _validate_uncached(root=ROOT):
                                     from jin075_reference_evidence import kin_valid
                                 check(kin_valid(a, e, chapters.get(e['chapter_id']), root), '荀羨親屬須核固定原文、稱謂與兩端人物')
                                 continue
-                            if 'reading_basis' in qualifiers and qualifiers['reading_basis'].get('kind') == 'xietiao_named_or_titled_kin':
+                            if 'royal_kin_frame' in qualifiers:
+                                try:
+                                    from scripts.nanshi022_royal_kin import valid as royal_kin_valid
+                                except ImportError:
+                                    from nanshi022_royal_kin import valid as royal_kin_valid
+                                check(royal_kin_valid(a, chapters[d['chapter_id']], root), '卷二十二帝女王妃的親屬需核同段稱謂、原字、所屬王及對應親人')
+                            elif 'reading_basis' in qualifiers and qualifiers['reading_basis'].get('kind') == 'xietiao_named_or_titled_kin':
                                 try:
                                     from scripts.xietiao_titled_kin import valid as titled_kin_valid
                                 except ImportError:

@@ -21,6 +21,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 21,
+      "category": "",
+      "title": "王錫傳",
+      "paragraph_id": "c-nanshi-021-wangxi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，殆無推敬。卒，子僧亮嗣，齊受禪，降爵爲侯。僧亮弟僧衍，位侍中。弘少子僧達。",
+      "paragraph_ids": [
+        "c-nanshi-021-wangxi:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-021-wangxi:p001:m0072"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-021-wangxi:p001:m0072": "c-nanshi-021-wangxi:p001"
+      },
+      "mention_id": "c-nanshi-021-wangxi:p001:m0072",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-021-wangxi:p001:m0072",
+          "mention_ids": [
+            "c-nanshi-021-wangxi:p001:m0072"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "chapter_id": "c-nanshi-021-wangxi",
+      "source_id": "s-nanshi-021-wangxi-ws1752646",
+      "work_title": "南史"
+    },
+    {
       "number": 33,
       "category": "",
       "title": "《南齊書》卷三十三王僧䖍完整本傳（編輯選錄題）",
@@ -3874,6 +3909,35 @@
               "image_verified": false
             }
           }
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-021-wangxi",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "source_id": "s-nanshi-021-wangxi-ws1752646",
+      "source": {
+        "title": "南史卷二十一·王錫傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "revision_id": 1752646,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂1752646，武英殿本書影逐項參記。",
+        "extent": "固定修訂1752646，數位標題37與41之間第39行完整原段。末句轉引下篇「弘少子僧達」。",
+        "text_scope": "complete_biographical_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "===弘子 錫===",
+        "wikitext_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "raw_path": "sources/nanshi/nanshi021-ws1752646.wikitext",
+        "raw_file_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
         }
       }
     },
@@ -8934,6 +8998,38 @@
       "model": null
     },
     {
+      "id": "a-nanshi021-wangxi-39-69",
+      "subject_person_id": "7r6_k52_qji_ABAAAAAB",
+      "object_person_id": "7r6_k52_qji_ABAAAAA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "弘少子僧達"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangxi",
+          "source_id": "s-nanshi-021-wangxi-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangxi:p001",
+          "quote": "錫字寡光，位太子左衛率、江夏內史，高自位遇。太尉江夏王義恭當朝，錫箕踞大坐，殆無推敬。卒，子僧亮嗣，齊受禪，降爵爲侯。僧亮弟僧衍，位侍中。弘少子僧達。",
+          "subject_person_mention_id": "c-nanshi-021-wangxi:p001:m0072",
+          "object_person_mention_id": "c-nanshi-021-wangxi:p001:m0069",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wangxi:p001",
+            "start": 69,
+            "end": 74,
+            "surface": "弘少子僧達"
+          }
+        }
+      ],
+      "interpretation_note": "固定本文與宋書卷42、75明稱弘少子，宋書卷75稱錫為其兄。殿本卷21正文有僧衍弟僧達異讀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-songshu042-phase5-003",
       "subject_person_id": "7r6_k52_qji_ABAAAAAB",
       "predicate": "father",
@@ -9304,6 +9400,38 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-nanshi021-wangxi-39-69",
+      "subject_person_id": "7r6_k52_qji_ABAAAAAB",
+      "object_person_id": "7r6_k52_qji_ABAAAAA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "弘少子僧達"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangxi",
+          "source_id": "s-nanshi-021-wangxi-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangxi:p001",
+          "quote": "錫字寡光，位太子左衛率、江夏內史，高自位遇。太尉江夏王義恭當朝，錫箕踞大坐，殆無推敬。卒，子僧亮嗣，齊受禪，降爵爲侯。僧亮弟僧衍，位侍中。弘少子僧達。",
+          "subject_person_mention_id": "c-nanshi-021-wangxi:p001:m0072",
+          "object_person_mention_id": "c-nanshi-021-wangxi:p001:m0069",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wangxi:p001",
+            "start": 69,
+            "end": 74,
+            "surface": "弘少子僧達"
+          }
+        }
+      ],
+      "interpretation_note": "固定本文與宋書卷42、75明稱弘少子，宋書卷75稱錫為其兄。殿本卷21正文有僧衍弟僧達異讀。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-songshu042-phase5-003",

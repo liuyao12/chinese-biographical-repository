@@ -9,9 +9,93 @@
     "成粲",
     "僕"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nanshi021-wanghong-25-200",
+      "person_id": "e12_8c2_869",
+      "title": "平陸令",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi021-wanghong-25-200:a",
+          "paragraph_id": "c-nanshi-021-wanghong:p006",
+          "start": 200,
+          "end": 203,
+          "surface": "平陸令",
+          "person_mention_id": "c-nanshi-021-wanghong:p006:m0205",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wanghong",
+          "source_id": "s-nanshi-021-wanghong-ws1752646",
+          "paragraph_id": "c-nanshi-021-wanghong:p006",
+          "quote": "少帝景平二年，徐羨之等謀廢立，召弘入朝。文帝即位，以定策安社稷，進位司空，封建安郡公，固辭見許。進號車騎大將軍，開府、刺史如故。徐羨之等以廢弑罪，將及誅，弘以非首謀，且弟曇首又爲上所親委。事將發，密使報弘。羨之既誅，遷侍中、司徒、揚州刺史、錄尚書事，給班劍三十人。上西征謝晦，與彭城王義康居守，入住中書下省，引隊仗出入，司徒府權置參軍。元嘉五年春，大旱，弘引咎遜位。先是彭城王義康爲荊州剌史，鎮江陵，平陸令河南成粲與弘書，誡以盈滿，兼陳彭城王宜入知朝政，竟陵、衡陽宜出據列藩。弘由是固自陳請。乃降爲衛將軍、開府儀同三司。",
+          "person_mention_id": "c-nanshi-021-wanghong:p006:m0205"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 21,
+      "category": "",
+      "title": "王弘傳",
+      "paragraph_id": "c-nanshi-021-wanghong:p006",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "五年春，大旱，弘引咎遜位。先是彭城王義康爲荊州剌史，鎮江陵，平陸令河南成粲與弘書，誡以盈滿，兼陳彭城王宜入知朝政，竟陵、衡陽宜出據列藩。弘由是固自陳請。乃降爲衛將軍、開府儀同三司。",
+      "paragraph_ids": [
+        "c-nanshi-021-wanghong:p006"
+      ],
+      "mention_ids": [
+        "c-nanshi-021-wanghong:p006:m0205"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-021-wanghong:p006:m0205": "c-nanshi-021-wanghong:p006"
+      },
+      "mention_id": "c-nanshi-021-wanghong:p006:m0205",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-021-wanghong:p006:m0205",
+          "mention_ids": [
+            "c-nanshi-021-wanghong:p006:m0205"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "chapter_id": "c-nanshi-021-wanghong",
+      "source_id": "s-nanshi-021-wanghong-ws1752646",
+      "work_title": "南史"
+    },
     {
       "number": 42,
       "category": "",
@@ -59,6 +143,35 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanshi-021-wanghong",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "source_id": "s-nanshi-021-wanghong-ws1752646",
+      "source": {
+        "title": "南史卷二十一·王弘傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "revision_id": 1752646,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂1752646，武英殿本書影逐項參記。",
+        "extent": "王弘本傳第15–35行十一原段；末子錫嗣，下一分題為弘子錫。數位傳首保留「临、导、晋、领、军」。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "==王弘==",
+        "wikitext_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "raw_path": "sources/nanshi/nanshi021-ws1752646.wikitext",
+        "raw_file_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
     {
       "chapter_id": "c-songshu-042-wanghong",
       "work_id": "w-songshu",

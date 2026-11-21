@@ -221,6 +221,14 @@ def explicit_maternal_uncle_valid(assertion, paragraphs):
                 or obj.get('person_id') != assertion.get('object_person_id')
                 or e.get('chapter_id') != hit[0] or obj['start'] < 0):
             return False
+        if q.get('source_term') == '庾公帝之元舅':
+            text = p['text']
+            if not (hit[0] == 'c-jinshu-065-wangdao-family' and obj['surface'] == '庾公'
+                    and subject['surface'] == '帝' and obj['end'] == subject['start']
+                    and text[obj['start']:subject['end']+3] == q['source_term']
+                    and q['source_term'] in e['quote']):
+                return False
+            continue
         # Prefix 外甥 alone is lexically ambiguous. This branch requires the
         # same complete paragraph's explicit 舅甥 corroboration and exact pair.
         named_nephew = next((m for m in p.get('mentions', [])
