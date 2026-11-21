@@ -329,6 +329,41 @@
       "work_title": "南齊書"
     },
     {
+      "number": 52,
+      "category": "",
+      "title": "謝述及綜、約、緯",
+      "paragraph_id": "c-songshu-052-xieshu:p006",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "三子：綜、約、緯。綜有才藝，善隸書，為太子中舍人，與舅范曄謀反，伏誅。約亦坐死。緯尚太祖第五女長城公主，素為約所憎，免死徙廣州。孝建中，還京師。方雅有父風。太宗泰始中，至正員郎中。",
+      "paragraph_ids": [
+        "c-songshu-052-xieshu:p006"
+      ],
+      "mention_ids": [
+        "c-songshu-052-xieshu:p006:m0027"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-052-xieshu:p006:m0027": "c-songshu-052-xieshu:p006"
+      },
+      "mention_id": "c-songshu-052-xieshu:p006:m0027",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-052-xieshu:p006:m0027",
+          "mention_ids": [
+            "c-songshu-052-xieshu:p006:m0027"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-052",
+      "chapter_id": "c-songshu-052-xieshu",
+      "source_id": "s-songshu-052-xieshu-ws2190655",
+      "work_title": "宋書"
+    },
+    {
       "number": 53,
       "category": "",
       "title": "《宋書》卷五十三〈庾登之、沖遠及附弟炳之〉",
@@ -3689,6 +3724,81 @@
       }
     },
     {
+      "chapter_id": "c-songshu-052-xieshu",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-052",
+      "source_id": "s-songshu-052-xieshu-ws2190655",
+      "source": {
+        "title": "宋書卷52·謝述及綜、約、緯",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2190655",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190655",
+        "revision_id": 2190655,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第49至59行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi019-xie-branches/song052-ws2190655.wikitext",
+        "raw_file_sha256": "5afe94508cf8a62e351428f22721cad2eb99a309992e0eefa204456b54d327af",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                50,
+                50
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2190655
+            },
+            {
+              "source_lines": [
+                52,
+                52
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2190655
+            },
+            {
+              "source_lines": [
+                54,
+                54
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2190655
+            },
+            {
+              "source_lines": [
+                56,
+                56
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2190655
+            },
+            {
+              "source_lines": [
+                58,
+                58
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2190655
+            }
+          ]
+        },
+        "section_locator": "謝述及綜、約、緯"
+      }
+    },
+    {
       "chapter_id": "c-songshu-053-yu-dengzhi",
       "work_id": "w-songshu",
       "book_id": "b-songshu-053",
@@ -6121,11 +6231,42 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-song052-xieshu-zong-uncle",
+      "subject_person_id": "tbn_5t5_xwp",
+      "object_person_id": "bxh_oop_5ic",
+      "predicate": "maternal_uncle",
+      "qualifiers": {
+        "source_term": "舅范曄",
+        "song052_xieshu_reading": "zong-uncle",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-xieshu-ws2190655",
+          "chapter_id": "c-songshu-052-xieshu",
+          "paragraph_id": "c-songshu-052-xieshu:p006",
+          "quote": "三子：綜、約、緯。綜有才藝，善隸書，為太子中舍人，與舅范曄謀反，伏誅。約亦坐死。緯尚太祖第五女長城公主，素為約所憎，免死徙廣州。孝建中，還京師。方雅有父風。太宗泰始中，至正員郎中。",
+          "subject_person_mention_id": "c-songshu-052-xieshu:p006:m0009",
+          "object_person_mention_id": "c-songshu-052-xieshu:p006:m0027"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "范曄是謝綜的舅，母在此未名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "bxh_oop_5ic": "范曄",
-    "qav_j5i_grm": "羊欣"
+    "qav_j5i_grm": "羊欣",
+    "tbn_5t5_xwp": "謝綜"
   },
   "dates": [],
   "name_components": [],
@@ -6186,6 +6327,36 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-song052-xieshu-zong-uncle",
+      "subject_person_id": "tbn_5t5_xwp",
+      "object_person_id": "bxh_oop_5ic",
+      "predicate": "maternal_uncle",
+      "qualifiers": {
+        "source_term": "舅范曄",
+        "song052_xieshu_reading": "zong-uncle",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-xieshu-ws2190655",
+          "chapter_id": "c-songshu-052-xieshu",
+          "paragraph_id": "c-songshu-052-xieshu:p006",
+          "quote": "三子：綜、約、緯。綜有才藝，善隸書，為太子中舍人，與舅范曄謀反，伏誅。約亦坐死。緯尚太祖第五女長城公主，素為約所憎，免死徙廣州。孝建中，還京師。方雅有父風。太宗泰始中，至正員郎中。",
+          "subject_person_mention_id": "c-songshu-052-xieshu:p006:m0009",
+          "object_person_mention_id": "c-songshu-052-xieshu:p006:m0027"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "范曄是謝綜的舅，母在此未名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "age_assertions": [],

@@ -25,7 +25,9 @@ def errors(chapter, root):
                 return ['謝超宗數位見證原檔不合']
             lines = raw.decode().splitlines(keepends=True)
             text = raw.decode()
-            for line, p, entry in zip(range(12, 47, 2), paragraphs, proof['paragraphs'], strict=True):
+            if len(proof['paragraphs']) != len(paragraphs):
+                return ['謝超宗逐行收據須與原傳段數相符']
+            for line, p, entry in zip(range(12, 47, 2), paragraphs, proof['paragraphs']):
                 position = p['source_position']
                 offsets = position['raw_character_offsets']
                 line_start = sum(map(len, lines[:line-1]))
@@ -35,7 +37,10 @@ def errors(chapter, root):
                         or not line_start <= offsets[0] <= offsets[-1] < line_start + len(lines[line-1])
                         or ''.join(text[i] for i in offsets) != p['text']):
                     return ['謝超宗數位本段落、固定行號或逐字位不合']
-            for entry, case in zip(proof['external_comparisons'], annotations['source_reading_cases'], strict=True):
+            cases = annotations['source_reading_cases']
+            if len(cases) != len(proof['external_comparisons']):
+                return ['謝超宗對讀條數與原件校記不合']
+            for entry, case in zip(proof['external_comparisons'], cases):
                 witness = (root / entry['path']).read_bytes()
                 if (hashlib.sha256(witness).hexdigest() != entry['sha256']
                         or case['reading'] != entry['reading']

@@ -175,6 +175,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 74,
+      "category": "",
+      "title": "桓秘傳中溫子熙濟之謀",
+      "paragraph_id": "c-jinshu-074-jin098-huan-children:plan",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "溫疾篤，秘與溫子熙、濟等謀共廢沖。沖密知之，不敢入。",
+      "paragraph_ids": [
+        "c-jinshu-074-jin098-huan-children:plan"
+      ],
+      "mention_ids": [
+        "c-jinshu-074-jin098-huan-children:plan:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-074-jin098-huan-children:plan:m0004": "c-jinshu-074-jin098-huan-children:plan"
+      },
+      "mention_id": "c-jinshu-074-jin098-huan-children:plan:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-074-jin098-huan-children:plan:m0004",
+          "mention_ids": [
+            "c-jinshu-074-jin098-huan-children:plan:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-074",
+      "chapter_id": "c-jinshu-074-jin098-huan-children",
+      "source_id": "s-jinshu-074-jin098-huan-children",
+      "work_title": "晉書"
+    },
+    {
       "number": 98,
       "category": "",
       "title": "桓溫完整本傳單元",
@@ -508,6 +543,33 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-074-jin098-huan-children",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-074",
+      "source_id": "s-jinshu-074-jin098-huan-children",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 1536331,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1536331",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "晉書桓秘、桓振諸傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1536331",
+        "raw_file_sha256": "7bda6727ecfc8408408ee49fb5d8a7ef3062666e54535355b3d51b8517fcd925",
+        "raw_path": "sources/jinshu/wikisource-1536331-raw.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "wikitext_sha256": "7bda6727ecfc8408408ee49fb5d8a7ef3062666e54535355b3d51b8517fcd925"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-098-huanwen",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-098",
@@ -535,7 +597,10 @@
         "accessed_on": "2026-10-20",
         "text_scope": "partial_chapter",
         "review_status": "text_checked",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ]
       }
     },
     {
@@ -663,11 +728,41 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-w098-huan-xi-mi",
+      "subject_person_id": "u9s_w6j_8mc_AAA",
+      "object_person_id": "u9s_w6j_8mc_AD",
+      "predicate": "paternal_uncle",
+      "qualifiers": {
+        "source_term": "叔秘",
+        "source_clause_binding": {
+          "kind": "jin098_xi_with_uncle_mi"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p030",
+          "quote": "溫六子：熙、濟、歆、禕、偉、玄。熙字伯道，初為世子，後以才弱，使沖領其眾。及溫病，熙與叔秘謀殺沖，沖知之，徙于長沙。濟字仲道，與熙同謀，俱徙長沙。歆字叔道，賜爵臨賀公。禕最愚，不辨菽麥。偉字幼道，平厚篤實，居籓為士庶所懷。曆使持節、督荊益甯秦梁五州諸軍事、安西將軍、領南蠻校尉、荊州刺史、西昌侯，贈驃騎將軍、開府儀同三司。玄嗣爵，別有傳。",
+          "subject_person_mention_id": "c-jinshu-098-huanwen:p030:m0041",
+          "object_person_mention_id": "c-jinshu-098-huanwen:p030:m0044"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "u9s_w6j_8mc_A": "桓彝",
     "u9s_w6j_8mc_AA": "桓溫",
+    "u9s_w6j_8mc_AAA": "桓熙",
     "u9s_w6j_8mc_AD": "桓秘",
     "u9s_w6j_8mc_ADA": "桓蔚"
   },
@@ -784,6 +879,35 @@
         }
       ],
       "interpretation_note": "依完整原段與具體錨點辨識；未補原文未述父母、配偶、世系或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-huan-xi-mi",
+      "subject_person_id": "u9s_w6j_8mc_AAA",
+      "object_person_id": "u9s_w6j_8mc_AD",
+      "predicate": "paternal_uncle",
+      "qualifiers": {
+        "source_term": "叔秘",
+        "source_clause_binding": {
+          "kind": "jin098_xi_with_uncle_mi"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p030",
+          "quote": "溫六子：熙、濟、歆、禕、偉、玄。熙字伯道，初為世子，後以才弱，使沖領其眾。及溫病，熙與叔秘謀殺沖，沖知之，徙于長沙。濟字仲道，與熙同謀，俱徙長沙。歆字叔道，賜爵臨賀公。禕最愚，不辨菽麥。偉字幼道，平厚篤實，居籓為士庶所懷。曆使持節、督荊益甯秦梁五州諸軍事、安西將軍、領南蠻校尉、荊州刺史、西昌侯，贈驃騎將軍、開府儀同三司。玄嗣爵，別有傳。",
+          "subject_person_mention_id": "c-jinshu-098-huanwen:p030:m0041",
+          "object_person_mention_id": "c-jinshu-098-huanwen:p030:m0044"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

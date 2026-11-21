@@ -139,41 +139,6 @@
       "work_title": "南齊書"
     },
     {
-      "number": 66,
-      "category": "",
-      "title": "王敬弘傳",
-      "paragraph_id": "c-songshu-066-wangjinghong:line022",
-      "count": 1,
-      "raw_count": 1,
-      "duplicate_count": 0,
-      "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "明年，薨於餘杭之舍亭山，時年八十八。追贈本官。順帝昇明二年詔曰：「夫塗祕蘭幽，貞芳載越，徽猷沈遠，懋禮彌昭。故侍中、左光祿大夫、開府儀同三司敬弘，神韻沖簡，識宇標峻，德敷象魏，道藹丘園。高挹榮冕，凝心塵外，清光粹範，振俗淳風。兼以累朝延賞，聲華在詠，",
-      "paragraph_ids": [
-        "c-songshu-066-wangjinghong:line022"
-      ],
-      "mention_ids": [
-        "c-songshu-066-wangjinghong:line022:m0023"
-      ],
-      "mention_paragraph_ids": {
-        "c-songshu-066-wangjinghong:line022:m0023": "c-songshu-066-wangjinghong:line022"
-      },
-      "mention_id": "c-songshu-066-wangjinghong:line022:m0023",
-      "occurrence_groups": [
-        {
-          "canonical_mention_id": "c-songshu-066-wangjinghong:line022:m0023",
-          "mention_ids": [
-            "c-songshu-066-wangjinghong:line022:m0023"
-          ],
-          "kind": "paragraph"
-        }
-      ],
-      "work_id": "w-songshu",
-      "book_id": "b-songshu-066",
-      "chapter_id": "c-songshu-066-wangjinghong",
-      "source_id": "s-songshu-066-wangjinghong",
-      "work_title": "宋書"
-    },
-    {
       "number": 85,
       "category": "",
       "title": "《宋書》卷八十五謝莊完整本傳（編輯選錄題）",
@@ -761,8 +726,8 @@
         "permalink": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B766&oldid=2069104",
         "revision_id": 2069104,
         "accessed_on": "2026-10-18",
-        "extent": "王敬弘傳完整九原段；不包含同卷何尚之本傳。數位校注另層保留，未核影像。",
-        "text_scope": "partial_chapter",
+        "extent": "固定卷六十六第十至二十六行九段：王敬弘主傳及恢之等四則附敘。書影另列獨立見證。",
+        "text_scope": "complete_biography_unit",
         "review_status": "text_checked",
         "image_verified": false,
         "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
@@ -909,6 +874,35 @@
               "removed_digital_editorial_notes": []
             }
           ]
+        },
+        "raw_path": "sources/songshu/songshu066-ws2069104.wikitext",
+        "raw_file_sha256": "671045acf8eb033bd02cd9b1e4bd1f0b43ebe2005d0bf7b0b8706d64dce57cec"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-066-wangjinghong-wyd",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-066",
+      "source_id": "s-songshu-066-wangjinghong-wyd1739",
+      "source": {
+        "title": "乾隆武英殿本《宋書》卷六十六",
+        "provider": "中國國家圖書館藏乾隆四年武英殿刊本，Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/NLC892-411999017142-12245_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC147%E5%86%8A.pdf#page=64",
+        "permalink": "https://upload.wikimedia.org/wikipedia/commons/c/cb/NLC892-411999017142-12245_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC147%E5%86%8A.pdf#page=64",
+        "revision_id": "cbr-ai-transcription-song066-wyd1739-r1",
+        "accessed_on": "2026-11-20",
+        "edition": "清乾隆四年校刊，國圖 NLC892-411999017142-12245。",
+        "extent": "卷六十六葉一上、三上、三下，節錄傳首、最後一次上表及卒諡。",
+        "text_scope": "partial_chapter",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "古籍正文與公藏書影，所錄文字由 AI 對圖錄入。",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "raw_path": "source-evidence/song066-jinghong/wyd-selected-columns.json",
+        "raw_file_sha256": "68954e9dec2cd6c4fc693b2110b8259adf037da4ba3b8f0d7cc6f2269c554f4a",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原欄續讀，無標點；選錄的欄中文字、頁面與圖檔散列逐項記錄。"
         }
       }
     },
@@ -3002,9 +2996,16 @@
       "confidence_level": "high",
       "identification_basis": {
         "kind": "source_context",
-        "target_mention_ids": [
+        "target_mention_ids": [],
+        "issued_target_ids": [
           "c-songshu-066-wangjinghong:line022:m0023"
-        ]
+        ],
+        "target_reference_ids": [
+          "c-songshu-066-wangjinghong:line022:m0023"
+        ],
+        "referent_roles_by_id": {
+          "c-songshu-066-wangjinghong:line022:m0023": "third_person"
+        }
       },
       "evidence": [
         {
@@ -3013,7 +3014,9 @@
           "chapter_id": "c-songshu-066-wangjinghong",
           "source_id": "s-songshu-066-wangjinghong",
           "paragraph_id": "c-songshu-066-wangjinghong:line022",
-          "quote": "明年，薨於餘杭之舍亭山，時年八十八。追贈本官。順帝昇明二年詔曰：「夫塗祕蘭幽，貞芳載越，徽猷沈遠，懋禮彌昭。故侍中、左光祿大夫、開府儀同三司敬弘，神韻沖簡，識宇標峻，德敷象魏，道藹丘園。高挹榮冕，凝心塵外，清光粹範，振俗淳風。兼以累朝延賞，聲華在詠，而嘉篆闕文，猷策韜采，尚想遙芬，興懷寢寤。便可詳定輝諡，式旌追典。」於是諡為文貞公。"
+          "quote": "明年，薨於餘杭之舍亭山，時年八十八。追贈本官。順帝昇明二年詔曰：「夫塗祕蘭幽，貞芳載越，徽猷沈遠，懋禮彌昭。故侍中、左光祿大夫、開府儀同三司敬弘，神韻沖簡，識宇標峻，德敷象魏，道藹丘園。高挹榮冕，凝心塵外，清光粹範，振俗淳風。兼以累朝延賞，聲華在詠，而嘉篆闕文，猷策韜采，尚想遙芬，興懷寢寤。便可詳定輝諡，式旌追典。」於是諡為文貞公。",
+          "person_reference_id": "c-songshu-066-wangjinghong:line022:m0023",
+          "reference_surface": "順帝"
         }
       ],
       "rationale": "本傳死亡後跨到順帝昇明二年詔諡，受贈人仍為敬弘；順帝本紀明名準。",
@@ -3036,10 +3039,27 @@
         }
       ],
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "surface_usage": "source_scoped_reference"
     }
   ],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "d-songshu066-full-shundi",
+      "kind": "contextual_role_resolution",
+      "person_id": "6y2_apj_l05",
+      "source_quote": "順帝",
+      "reading": "順帝",
+      "note": "本傳死亡後跨到順帝昇明二年詔諡，受贈人仍為敬弘；順帝本紀明名準。",
+      "paragraph_id": "c-songshu-066-wangjinghong:line022",
+      "start_codepoint": 23,
+      "end_codepoint": 25,
+      "human_reviewed": false,
+      "chapter_id": "c-songshu-066-wangjinghong",
+      "source_id": "s-songshu-066-wangjinghong"
+    }
+  ],
   "person_references": [
     {
       "start": 26,
@@ -3130,6 +3150,36 @@
       "book_id": "b-songshu-041",
       "work_id": "w-songshu",
       "source_id": "s-songshu-041-wangzhenfeng-ws2634831"
+    },
+    {
+      "paragraph_id": "c-songshu-066-wangjinghong-wyd:p002",
+      "start": 105,
+      "end": 107,
+      "surface": "順帝",
+      "id": "c-songshu-066-wangjinghong-wyd:p002:r0105",
+      "person_id": "6y2_apj_l05",
+      "referent_role": "third_person",
+      "note": "按發言或敘述的視點判讀稱謂對象。",
+      "quote": "二十三年重申前命又表曰臣躬耕南澧不求聞達先帝拔臣於蠻荊之域賜以國士之遇陛下嗣徽特蒙眷齒由是感激委質聖朝雖懷犬馬之誠遂無塵露之益年向九十生理殆盡永絕天光淪沒丘壑謹冒奉表傷心久之明年薨於餘杭之舍亭山時年八十追贈本官順帝昇明二年詔曰夫塗祕蘭幽貞芳載越徽猷沈遠懋禮彌昭故侍中左光祿大夫開府儀同三司敬弘",
+      "chapter_id": "c-songshu-066-wangjinghong-wyd",
+      "book_id": "b-songshu-066",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-066-wangjinghong-wyd1739"
+    },
+    {
+      "start": 23,
+      "end": 25,
+      "surface": "順帝",
+      "paragraph_id": "c-songshu-066-wangjinghong:line022",
+      "id": "c-songshu-066-wangjinghong:line022:m0023",
+      "person_id": "6y2_apj_l05",
+      "referent_role": "third_person",
+      "quote": "明年，薨於餘杭之舍亭山，時年八十八。追贈本官。順帝昇明二年詔曰：「夫塗祕蘭幽，貞芳載越，徽猷沈遠，懋禮彌昭。故侍中、左光祿大夫、開府儀同三司敬弘，神韻沖簡，識宇標峻，德敷象魏，道藹丘園。高挹榮冕，凝心塵外，清光粹範，振俗淳風。兼以累朝延賞，聲華在詠，而嘉篆闕文，猷策韜采，尚想遙芬，興懷寢寤。便可詳定輝諡，式旌追典。」於是諡為文貞公。",
+      "note": "依敘事位置、奏表發言者與對話角色辨指；稱謂與姓名分存。",
+      "chapter_id": "c-songshu-066-wangjinghong",
+      "book_id": "b-songshu-066",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-066-wangjinghong"
     }
   ],
   "person_ids": [

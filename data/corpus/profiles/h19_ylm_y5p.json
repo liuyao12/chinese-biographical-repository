@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "h19_ylm_y5p",
+  "canonical_person_id": "h19_ylm_y5p",
+  "label": "陶淵明",
+  "identity_note": "陶淵明集卷六所收孟府君傳署名。",
+  "review": "ai_provisional",
+  "names": [
+    "淵明"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 6,
+      "category": "",
+      "title": "晉故征西大將軍長史孟府君傳所載家世與年齡",
+      "paragraph_id": "c-taoyuanmingji-006-jin098-mengjia:author",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "淵明先親，君之第四女也。",
+      "paragraph_ids": [
+        "c-taoyuanmingji-006-jin098-mengjia:author"
+      ],
+      "mention_ids": [
+        "c-taoyuanmingji-006-jin098-mengjia:author:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-taoyuanmingji-006-jin098-mengjia:author:m0000": "c-taoyuanmingji-006-jin098-mengjia:author"
+      },
+      "mention_id": "c-taoyuanmingji-006-jin098-mengjia:author:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-taoyuanmingji-006-jin098-mengjia:author:m0000",
+          "mention_ids": [
+            "c-taoyuanmingji-006-jin098-mengjia:author:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-taoyuanmingji",
+      "book_id": "b-taoyuanmingji-006",
+      "chapter_id": "c-taoyuanmingji-006-jin098-mengjia",
+      "source_id": "s-taoyuanmingji-006-jin098-mengjia",
+      "work_title": "陶淵明集"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-taoyuanmingji-006-jin098-mengjia",
+      "work_id": "w-taoyuanmingji",
+      "book_id": "b-taoyuanmingji-006",
+      "source_id": "s-taoyuanmingji-006-jin098-mengjia",
+      "source": {
+        "title": "陶淵明晉故征西大將軍長史孟府君傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1503606",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1503606",
+        "revision_id": 1503606,
+        "accessed_on": "2026-10-18",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "1b5b1aa58786fab1e3dff4ed475cdf1c188ca542f266e94da0ef1cc9a1376d74",
+        "raw_path": "source-evidence/jin098-mengjia/external/tao-ws1503606.wikitext",
+        "raw_file_sha256": "1b5b1aa58786fab1e3dff4ed475cdf1c188ca542f266e94da0ef1cc9a1376d74",
+        "collection_locator": {
+          "section": "卷六",
+          "transclusion": {
+            "witness": "toc",
+            "quote": "{{:晉故征西大將軍長史孟府君傳}}",
+            "raw_start": 123,
+            "raw_end": 141,
+            "raw_line": 12
+          }
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-w098-meng-tao-mother",
+      "subject_person_id": "h19_ylm_y5p",
+      "object_person_id": "gzc_9vs_o43_A",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "先親，君之第四女也",
+        "reading_basis": {
+          "kind": "tao_meng_named_source_roles"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-taoyuanmingji",
+          "book_id": "b-taoyuanmingji-006",
+          "chapter_id": "c-taoyuanmingji-006-jin098-mengjia",
+          "source_id": "s-taoyuanmingji-006-jin098-mengjia",
+          "paragraph_id": "c-taoyuanmingji-006-jin098-mengjia:author",
+          "quote": "淵明先親，君之第四女也。",
+          "subject_person_mention_id": "c-taoyuanmingji-006-jin098-mengjia:author:m0000",
+          "object_person_reference_id": "c-taoyuanmingji-006-jin098-mengjia:author:r0002"
+        }
+      ],
+      "interpretation_note": "依孟府君傳匿名親稱、署名與傳首所指。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "gzc_9vs_o43_A": "孟氏〔孟嘉第四女、陶淵明母〕",
+    "h19_ylm_y5p": "陶淵明"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "h19_ylm_y5p"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-w098-meng-tao-mother",
+      "subject_person_id": "h19_ylm_y5p",
+      "object_person_id": "gzc_9vs_o43_A",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "先親，君之第四女也",
+        "reading_basis": {
+          "kind": "tao_meng_named_source_roles"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-taoyuanmingji",
+          "book_id": "b-taoyuanmingji-006",
+          "chapter_id": "c-taoyuanmingji-006-jin098-mengjia",
+          "source_id": "s-taoyuanmingji-006-jin098-mengjia",
+          "paragraph_id": "c-taoyuanmingji-006-jin098-mengjia:author",
+          "quote": "淵明先親，君之第四女也。",
+          "subject_person_mention_id": "c-taoyuanmingji-006-jin098-mengjia:author:m0000",
+          "object_person_reference_id": "c-taoyuanmingji-006-jin098-mengjia:author:r0002"
+        }
+      ],
+      "interpretation_note": "依孟府君傳匿名親稱、署名與傳首所指。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

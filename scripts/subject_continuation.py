@@ -24,6 +24,11 @@ def verified_blank_gap(chapter, before, after):
 
 
 def prior_subject_valid(context, evidence, person_id, chapter):
+    if isinstance(context, dict) and context.get('kind') == 'tao_meng_death_subject':
+        try: from scripts.tao_meng_family import context_valid
+        except ImportError: from tao_meng_family import context_valid
+        return context_valid(context,evidence,person_id,chapter)
+
     if isinstance(context, dict) and context.get('kind') == 'jin080_biography_end':
         try: from scripts.jin080_xizhi import end_subject_valid
         except ImportError: from jin080_xizhi import end_subject_valid

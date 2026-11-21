@@ -207,6 +207,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-nan023-jiangcontext-m2-33",
+      "person_id": "ez7_i28_72u",
+      "title": "尹",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nan023-jiangcontext-m2-33:a",
+          "person_mention_id": "c-nanqishu-043-jiangxiao-marriage:p002:m0030",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanqishu-043-jiangxiao-marriage:p002",
+          "surface": "尹",
+          "start": 33,
+          "end": 34
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu-043-jiangxiao-marriage-ws2400356",
+          "chapter_id": "c-nanqishu-043-jiangxiao-marriage",
+          "paragraph_id": "c-nanqishu-043-jiangxiao-marriage:p002",
+          "quote": "尚孝武女臨汝公主，拜駙馬都尉。除著作郎，太子舍人，丹陽丞。時袁粲爲尹，見斆歎曰：「風流不墜，政在江郎。」",
+          "person_mention_id": "c-nanqishu-043-jiangxiao-marriage:p002:m0030"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi019-chaozong-194-11",
       "person_id": "ez7_i28_72u",
       "title": "衛將軍",
@@ -909,6 +957,41 @@
       "book_id": "b-nanqishu-036",
       "chapter_id": "c-nanqishu-036-xiechaozong",
       "source_id": "s-nanqishu-036-xiechaozong-ws1492438",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "江斆祖、字、婚配原句",
+      "paragraph_id": "c-nanqishu-043-jiangxiao-marriage:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "尚孝武女臨汝公主，拜駙馬都尉。除著作郎，太子舍人，丹陽丞。時袁粲爲尹，見斆歎曰：「風流不墜，政在江郎。」",
+      "paragraph_ids": [
+        "c-nanqishu-043-jiangxiao-marriage:p002"
+      ],
+      "mention_ids": [
+        "c-nanqishu-043-jiangxiao-marriage:p002:m0030"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-043-jiangxiao-marriage:p002:m0030": "c-nanqishu-043-jiangxiao-marriage:p002"
+      },
+      "mention_id": "c-nanqishu-043-jiangxiao-marriage:p002:m0030",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-043-jiangxiao-marriage:p002:m0030",
+          "mention_ids": [
+            "c-nanqishu-043-jiangxiao-marriage:p002:m0030"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-043",
+      "chapter_id": "c-nanqishu-043-jiangxiao-marriage",
+      "source_id": "s-nanqishu-043-jiangxiao-marriage-ws2400356",
       "work_title": "南齊書"
     }
   ],
@@ -4078,6 +4161,33 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "據書影按欄轉寫。十八段只供定位，記入郊廟歌撰者列名後的「等」及奏中的「諐」。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-043-jiangxiao-marriage",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-043",
+      "source_id": "s-nanqishu-043-jiangxiao-marriage-ws2400356",
+      "source": {
+        "title": "南齊書卷43·江斆祖、字、婚配原句",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2400356",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2400356",
+        "revision_id": 2400356,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定2400356第11行傳首、一三行婚配及初仕兩節。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/witnesses/nanqi043-ws2400356.wikitext",
+        "raw_file_sha256": "7a65e9b58b508ef0dbc64a4a650c99c30dcd94f8f13ea9a23d171f539174baed",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
         }
       }
     },

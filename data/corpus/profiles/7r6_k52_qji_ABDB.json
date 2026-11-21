@@ -1449,6 +1449,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-song060-wangzhunzhi-73-17-彬",
+      "person_id": "7r6_k52_qji_ABDB",
+      "title": "尚書僕射",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-song060-wangzhunzhi-73-17-彬:a",
+          "paragraph_id": "c-songshu-060-wangzhunzhi:p001",
+          "start": 17,
+          "end": 21,
+          "surface": "尚書僕射",
+          "person_mention_id": "c-songshu-060-wangzhunzhi:p001:m0015",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-060",
+          "chapter_id": "c-songshu-060-wangzhunzhi",
+          "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
+          "paragraph_id": "c-songshu-060-wangzhunzhi:p001",
+          "quote": "王准之字元曾，琅邪臨沂人。高祖彬，尚書僕射。曾祖彪之，尚書令。祖臨之，父訥之，並御史中丞。彪之博聞多識，練悉朝儀，自是家世相傳，並諳江左舊事，緘之青箱，世人謂之「王氏青箱學」。",
+          "person_mention_id": "c-songshu-060-wangzhunzhi:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -1541,6 +1589,41 @@
       "chapter_id": "c-shishuoxinyu-026-jin076-wangpeng",
       "source_id": "s-shishuoxinyu-026-jin076-wangpeng",
       "work_title": "世說新語"
+    },
+    {
+      "number": 60,
+      "category": "",
+      "title": "王准之傳及子興之",
+      "paragraph_id": "c-songshu-060-wangzhunzhi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王准之字元曾，琅邪臨沂人。高祖彬，尚書僕射。曾祖彪之，尚書令。祖臨之，父訥之，並御史中丞。彪之博聞多識，練悉朝儀，自是家世相傳，並諳江左舊事，緘之青箱，世人謂之「王氏青箱學」。",
+      "paragraph_ids": [
+        "c-songshu-060-wangzhunzhi:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-060-wangzhunzhi:p001:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-060-wangzhunzhi:p001:m0015": "c-songshu-060-wangzhunzhi:p001"
+      },
+      "mention_id": "c-songshu-060-wangzhunzhi:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-060-wangzhunzhi:p001:m0015",
+          "mention_ids": [
+            "c-songshu-060-wangzhunzhi:p001:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-060",
+      "chapter_id": "c-songshu-060-wangzhunzhi",
+      "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
+      "work_title": "宋書"
     },
     {
       "number": 76,
@@ -2081,7 +2164,9 @@
         "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
         "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
         "collation_witnesses": [
-          "source-evidence/jin098-wang-han-ying/reading.json"
+          "source-evidence/jin098-wang-han-ying/reading.json",
+          "source-evidence/jin098-wangdun-early/reading.json",
+          "source-evidence/jin098-wangdun-main/reading.json"
         ]
       }
     },
@@ -2131,6 +2216,35 @@
         "wikitext_sha256": "e9c3aaaad25c30cd381c847f25685fca14fa4ac411515081b9e8b50fb934f8e1",
         "raw_path": "source-evidence/jin076-wang-bin-peng/external/qing-ws2004422.wikitext",
         "raw_file_sha256": "e9c3aaaad25c30cd381c847f25685fca14fa4ac411515081b9e8b50fb934f8e1"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-060-wangzhunzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-060",
+      "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
+      "source": {
+        "provider": "Wikisource",
+        "rights": "古代正文與維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "text_scope": "complete_biography_unit",
+        "accessed_on": "2026-11-20",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "title": "宋書卷六十·王准之傳及子興之",
+        "extent": "逐讀第72行分題至第81行分題前。",
+        "section_locator": "==王准之==",
+        "revision_id": 1996694,
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1996694",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1996694",
+        "raw_path": "sources/songshu/songshu060-ws1996694.wikitext",
+        "raw_file_sha256": "a9b03405240b25c24c2fa2b999e921483d7c1d78a3ed6f1eb1807a289bf02a97",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原文字位逐一對固定原檔，本文排除校勘註、連結目標及紀年模板的界符；校勘說另列。"
+        },
+        "wikitext_sha256": "a9b03405240b25c24c2fa2b999e921483d7c1d78a3ed6f1eb1807a289bf02a97",
+        "edition": "維基文庫固定修訂1996694，武英殿本書影逐項參記。"
       }
     }
   ],
@@ -2479,11 +2593,79 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song060-wangzhunzhi-73-0-15",
+      "subject_person_id": "72e_1a7_3ac",
+      "object_person_id": "7r6_k52_qji_ABDB",
+      "predicate": "ancestor",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "高祖彬",
+        "lineage": "paternal",
+        "generation_distance": 4
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-060",
+          "chapter_id": "c-songshu-060-wangzhunzhi",
+          "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
+          "paragraph_id": "c-songshu-060-wangzhunzhi:p001",
+          "quote": "王准之字元曾，琅邪臨沂人。高祖彬，尚書僕射。曾祖彪之，尚書令。祖臨之，父訥之，並御史中丞。彪之博聞多識，練悉朝儀，自是家世相傳，並諳江左舊事，緘之青箱，世人謂之「王氏青箱學」。",
+          "subject_person_mention_id": "c-songshu-060-wangzhunzhi:p001:m0000",
+          "object_person_mention_id": "c-songshu-060-wangzhunzhi:p001:m0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-060-wangzhunzhi:p001",
+            "start": 13,
+            "end": 16,
+            "surface": "高祖彬"
+          }
+        }
+      ],
+      "interpretation_note": "原段父祖或子輩次序、具名人物及家世上下文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song060-wangzhunzhi-73-24-15",
+      "subject_person_id": "7r6_k52_qji_ABDBB",
+      "object_person_id": "7r6_k52_qji_ABDB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "高祖彬，尚書僕射。曾祖彪之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-060",
+          "chapter_id": "c-songshu-060-wangzhunzhi",
+          "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
+          "paragraph_id": "c-songshu-060-wangzhunzhi:p001",
+          "quote": "王准之字元曾，琅邪臨沂人。高祖彬，尚書僕射。曾祖彪之，尚書令。祖臨之，父訥之，並御史中丞。彪之博聞多識，練悉朝儀，自是家世相傳，並諳江左舊事，緘之青箱，世人謂之「王氏青箱學」。",
+          "subject_person_mention_id": "c-songshu-060-wangzhunzhi:p001:m0024",
+          "object_person_mention_id": "c-songshu-060-wangzhunzhi:p001:m0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-060-wangzhunzhi:p001",
+            "start": 13,
+            "end": 26,
+            "surface": "高祖彬，尚書僕射。曾祖彪之"
+          }
+        }
+      ],
+      "interpretation_note": "原段父祖或子輩次序、具名人物及家世上下文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
     "39o_b6y_n74": "王敦",
     "57l_v07_8z9": "王籍之",
+    "72e_1a7_3ac": "王准之",
     "7r6_k52_qji_AB": "王覽",
     "7r6_k52_qji_ABD": "王正",
     "7r6_k52_qji_ABDA": "王廙",
@@ -3062,6 +3244,73 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song060-wangzhunzhi-73-0-15",
+      "subject_person_id": "72e_1a7_3ac",
+      "object_person_id": "7r6_k52_qji_ABDB",
+      "predicate": "ancestor",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "高祖彬",
+        "lineage": "paternal",
+        "generation_distance": 4
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-060",
+          "chapter_id": "c-songshu-060-wangzhunzhi",
+          "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
+          "paragraph_id": "c-songshu-060-wangzhunzhi:p001",
+          "quote": "王准之字元曾，琅邪臨沂人。高祖彬，尚書僕射。曾祖彪之，尚書令。祖臨之，父訥之，並御史中丞。彪之博聞多識，練悉朝儀，自是家世相傳，並諳江左舊事，緘之青箱，世人謂之「王氏青箱學」。",
+          "subject_person_mention_id": "c-songshu-060-wangzhunzhi:p001:m0000",
+          "object_person_mention_id": "c-songshu-060-wangzhunzhi:p001:m0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-060-wangzhunzhi:p001",
+            "start": 13,
+            "end": 16,
+            "surface": "高祖彬"
+          }
+        }
+      ],
+      "interpretation_note": "原段父祖或子輩次序、具名人物及家世上下文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-song060-wangzhunzhi-73-24-15",
+      "subject_person_id": "7r6_k52_qji_ABDBB",
+      "object_person_id": "7r6_k52_qji_ABDB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "高祖彬，尚書僕射。曾祖彪之",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-060",
+          "chapter_id": "c-songshu-060-wangzhunzhi",
+          "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
+          "paragraph_id": "c-songshu-060-wangzhunzhi:p001",
+          "quote": "王准之字元曾，琅邪臨沂人。高祖彬，尚書僕射。曾祖彪之，尚書令。祖臨之，父訥之，並御史中丞。彪之博聞多識，練悉朝儀，自是家世相傳，並諳江左舊事，緘之青箱，世人謂之「王氏青箱學」。",
+          "subject_person_mention_id": "c-songshu-060-wangzhunzhi:p001:m0024",
+          "object_person_mention_id": "c-songshu-060-wangzhunzhi:p001:m0015",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-060-wangzhunzhi:p001",
+            "start": 13,
+            "end": 26,
+            "surface": "高祖彬，尚書僕射。曾祖彪之"
+          }
+        }
+      ],
+      "interpretation_note": "原段父祖或子輩次序、具名人物及家世上下文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "assembled_identity": {

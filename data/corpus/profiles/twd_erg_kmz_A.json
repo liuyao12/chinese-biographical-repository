@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "id": "twd_erg_kmz_A",
+  "canonical_person_id": "twd_erg_kmz_A",
+  "label": "陶氏〔陶侃第十女、孟嘉妻〕",
+  "identity_note": "孟府君傳言娶長沙桓公陶侃第十女。",
+  "review": "ai_provisional",
+  "names": [],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-taoyuanmingji-006-jin098-mengjia",
+      "work_id": "w-taoyuanmingji",
+      "book_id": "b-taoyuanmingji-006",
+      "source_id": "s-taoyuanmingji-006-jin098-mengjia",
+      "source": {
+        "title": "陶淵明晉故征西大將軍長史孟府君傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1503606",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1503606",
+        "revision_id": 1503606,
+        "accessed_on": "2026-10-18",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "1b5b1aa58786fab1e3dff4ed475cdf1c188ca542f266e94da0ef1cc9a1376d74",
+        "raw_path": "source-evidence/jin098-mengjia/external/tao-ws1503606.wikitext",
+        "raw_file_sha256": "1b5b1aa58786fab1e3dff4ed475cdf1c188ca542f266e94da0ef1cc9a1376d74",
+        "collection_locator": {
+          "section": "卷六",
+          "transclusion": {
+            "witness": "toc",
+            "quote": "{{:晉故征西大將軍長史孟府君傳}}",
+            "raw_start": 123,
+            "raw_end": 141,
+            "raw_line": 12
+          }
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-w098-meng-tao-wife",
+      "subject_person_id": "gzc_9vs_o43",
+      "object_person_id": "twd_erg_kmz_A",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "娶大司馬長沙桓公陶侃第十女",
+        "reading_basis": {
+          "kind": "tao_meng_named_source_roles"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-taoyuanmingji",
+          "book_id": "b-taoyuanmingji-006",
+          "chapter_id": "c-taoyuanmingji-006-jin098-mengjia",
+          "source_id": "s-taoyuanmingji-006-jin098-mengjia",
+          "paragraph_id": "c-taoyuanmingji-006-jin098-mengjia:marriage",
+          "quote": "君少失父，奉母、二弟居。娶大司馬長沙桓公陶侃第十女，",
+          "subject_person_reference_id": "c-taoyuanmingji-006-jin098-mengjia:marriage:r0000",
+          "object_person_reference_id": "c-taoyuanmingji-006-jin098-mengjia:marriage:r0022"
+        }
+      ],
+      "interpretation_note": "依孟府君傳匿名親稱、署名與傳首所指。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-meng-tao-wife-father",
+      "subject_person_id": "twd_erg_kmz_A",
+      "object_person_id": "twd_erg_kmz",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "陶侃第十女",
+        "reading_basis": {
+          "kind": "tao_meng_named_source_roles"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-taoyuanmingji",
+          "book_id": "b-taoyuanmingji-006",
+          "chapter_id": "c-taoyuanmingji-006-jin098-mengjia",
+          "source_id": "s-taoyuanmingji-006-jin098-mengjia",
+          "paragraph_id": "c-taoyuanmingji-006-jin098-mengjia:marriage",
+          "quote": "君少失父，奉母、二弟居。娶大司馬長沙桓公陶侃第十女，",
+          "subject_person_reference_id": "c-taoyuanmingji-006-jin098-mengjia:marriage:r0022",
+          "object_person_mention_id": "c-taoyuanmingji-006-jin098-mengjia:marriage:m0020"
+        }
+      ],
+      "interpretation_note": "依孟府君傳匿名親稱、署名與傳首所指。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "gzc_9vs_o43": "孟嘉〔字萬年〕",
+    "twd_erg_kmz": "陶侃",
+    "twd_erg_kmz_A": "陶氏〔陶侃第十女、孟嘉妻〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_references": [
+    {
+      "id": "c-taoyuanmingji-006-jin098-mengjia:marriage:r0022",
+      "paragraph_id": "c-taoyuanmingji-006-jin098-mengjia:marriage",
+      "start": 22,
+      "end": 25,
+      "surface": "第十女",
+      "person_id": "twd_erg_kmz_A",
+      "quote": "陶侃第十女",
+      "referent_role": "third_person",
+      "note": "依此段書牘、對話或敘述所指。",
+      "chapter_id": "c-taoyuanmingji-006-jin098-mengjia",
+      "book_id": "b-taoyuanmingji-006",
+      "work_id": "w-taoyuanmingji",
+      "source_id": "s-taoyuanmingji-006-jin098-mengjia"
+    }
+  ],
+  "person_ids": [
+    "twd_erg_kmz_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-w098-meng-tao-wife",
+      "subject_person_id": "gzc_9vs_o43",
+      "object_person_id": "twd_erg_kmz_A",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "娶大司馬長沙桓公陶侃第十女",
+        "reading_basis": {
+          "kind": "tao_meng_named_source_roles"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-taoyuanmingji",
+          "book_id": "b-taoyuanmingji-006",
+          "chapter_id": "c-taoyuanmingji-006-jin098-mengjia",
+          "source_id": "s-taoyuanmingji-006-jin098-mengjia",
+          "paragraph_id": "c-taoyuanmingji-006-jin098-mengjia:marriage",
+          "quote": "君少失父，奉母、二弟居。娶大司馬長沙桓公陶侃第十女，",
+          "subject_person_reference_id": "c-taoyuanmingji-006-jin098-mengjia:marriage:r0000",
+          "object_person_reference_id": "c-taoyuanmingji-006-jin098-mengjia:marriage:r0022"
+        }
+      ],
+      "interpretation_note": "依孟府君傳匿名親稱、署名與傳首所指。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-meng-tao-wife-father",
+      "subject_person_id": "twd_erg_kmz_A",
+      "object_person_id": "twd_erg_kmz",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "陶侃第十女",
+        "reading_basis": {
+          "kind": "tao_meng_named_source_roles"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-taoyuanmingji",
+          "book_id": "b-taoyuanmingji-006",
+          "chapter_id": "c-taoyuanmingji-006-jin098-mengjia",
+          "source_id": "s-taoyuanmingji-006-jin098-mengjia",
+          "paragraph_id": "c-taoyuanmingji-006-jin098-mengjia:marriage",
+          "quote": "君少失父，奉母、二弟居。娶大司馬長沙桓公陶侃第十女，",
+          "subject_person_reference_id": "c-taoyuanmingji-006-jin098-mengjia:marriage:r0022",
+          "object_person_mention_id": "c-taoyuanmingji-006-jin098-mengjia:marriage:m0020"
+        }
+      ],
+      "interpretation_note": "依孟府君傳匿名親稱、署名與傳首所指。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

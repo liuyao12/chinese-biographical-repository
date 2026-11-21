@@ -38,6 +38,11 @@ def source_paragraphs(lines, layout=None):
         return result
     if layout is None:
         return [received_text(line) for line in lines]
+    if layout == 'jin096_split_issued_zhongyan':
+        first, second = [received_text(line) for line in lines]
+        opening, continuation, rest = first.partition('渾嘗共琰坐')
+        assert opening.endswith('既適渾，生濟。') and continuation and rest
+        return [opening, continuation + rest, second]
     if layout == 'wikisource_mixed_indented_prose':
         return [received_text(line.removeprefix(':').removeprefix('　　')) for line in lines]
     if layout == 'wikisource_blockquote_colon':

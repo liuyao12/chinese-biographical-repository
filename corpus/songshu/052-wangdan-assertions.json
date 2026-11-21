@@ -1,0 +1,275 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-052-wangdan",
+  "assertions": [
+    {
+      "id": "a-song052-wangdan-father",
+      "subject_person_id": "vhf_729_g6z",
+      "object_person_id": "7r6_k52_qji_ABAACA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父混",
+        "song052_wangdan_reading": "father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-wangdan-ws2190655",
+          "chapter_id": "c-songshu-052-wangdan",
+          "paragraph_id": "c-songshu-052-wangdan:p001",
+          "quote": "王誕字茂世，琅邪臨沂人，太保弘從兄也。祖恬，中軍將軍。父混，太常。",
+          "subject_person_mention_id": "c-songshu-052-wangdan:p001:m0000",
+          "object_person_mention_id": "c-songshu-052-wangdan:p001:m0028"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋書寫混，世說排調劉注王氏譜同；晉書卷六十五寫琨，為恬子、贈太常。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song052-wangdan-grand",
+      "subject_person_id": "vhf_729_g6z",
+      "object_person_id": "7r6_k52_qji_ABAAC",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖恬",
+        "song052_wangdan_reading": "grand",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-wangdan-ws2190655",
+          "chapter_id": "c-songshu-052-wangdan",
+          "paragraph_id": "c-songshu-052-wangdan:p001",
+          "quote": "王誕字茂世，琅邪臨沂人，太保弘從兄也。祖恬，中軍將軍。父混，太常。",
+          "subject_person_mention_id": "c-songshu-052-wangdan:p001:m0000",
+          "object_person_mention_id": "c-songshu-052-wangdan:p001:m0020"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳首明記祖恬。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song052-wangdan-hong-cousin",
+      "subject_person_id": "vhf_729_g6z",
+      "object_person_id": "7r6_k52_qji_ABAAAAA",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "太保弘從兄也",
+        "song052_wangdan_reading": "hong-cousin",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "older"
+        },
+        "relative_birth_order": {
+          "older_person_id": "vhf_729_g6z",
+          "younger_person_id": "7r6_k52_qji_ABAAAAA",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-wangdan-ws2190655",
+          "chapter_id": "c-songshu-052-wangdan",
+          "paragraph_id": "c-songshu-052-wangdan:p001",
+          "quote": "王誕字茂世，琅邪臨沂人，太保弘從兄也。祖恬，中軍將軍。父混，太常。",
+          "subject_person_mention_id": "c-songshu-052-wangdan:p001:m0000",
+          "object_person_mention_id": "c-songshu-052-wangdan:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "誕是弘從兄。南史武英殿本更作從祖兄；此本原詞保留。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song052-wangdan-xun-collateral",
+      "subject_person_id": "vhf_729_g6z",
+      "object_person_id": "7r6_k52_qji_ABAAAA",
+      "predicate": "agnatic_senior_kin",
+      "qualifiers": {
+        "source_term": "從叔尚書令珣",
+        "song052_wangdan_reading": "xun-collateral",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": -1,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "unknown"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-wangdan-ws2190655",
+          "chapter_id": "c-songshu-052-wangdan",
+          "paragraph_id": "c-songshu-052-wangdan:p002",
+          "quote": "誕少有才藻，晉孝武帝崩，從叔尚書令珣為哀策文，久而未就，謂誕曰：「猶少序節物一句。」因出本示誕。誕攬筆便益之，接其秋冬代變後云，「霜繁廣除，風回高殿」。珣嗟歎清拔，因而用之。襲爵雉鄉侯，拜祕書郎，琅邪王文學，中軍功曹。",
+          "subject_person_mention_id": "c-songshu-052-wangdan:p002:m0000",
+          "object_person_mention_id": "c-songshu-052-wangdan:p002:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "王珣是誕父輩從叔，未按叔字補為父混之親弟。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song052-wangdan-sheng",
+      "subject_person_id": "u9s_w6j_8mc_AEC",
+      "object_person_id": "vhf_729_g6z",
+      "predicate": "kinship_unspecified",
+      "qualifiers": {
+        "source_term": "脩，誕甥也",
+        "song052_wangdan_reading": "sheng",
+        "kinship_basis": "song52_sheng_of_named_person",
+        "source_role": "甥",
+        "mother_person_id": null,
+        "intermediate_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-wangdan-ws2190655",
+          "chapter_id": "c-songshu-052-wangdan",
+          "paragraph_id": "c-songshu-052-wangdan:p003",
+          "quote": "隆安四年，會稽王世子元顯開後軍府，又以誕補功曹。尋除尚書吏部郎，仍為後軍長史，領廬江太守，加鎮蠻護軍。轉龍驤將軍、琅邪內史，長史如故。誕結事元顯嬖人張法順，故為元顯所寵。元顯納妾，誕為之親迎。隨府轉驃騎長史，將軍、內史如故。元顯討桓玄，欲悉誅桓氏，誕固陳脩等與玄志趣不同，由此得免。脩，誕甥也。及玄得志，誕將見誅，脩為之陳請，又言脩等得免之由，乃徙誕廣州。盧循據廣州，以誕為其平南府長史，甚賓禮之。誕久客思歸，乃說循曰：「下官流遠在此，被蒙殊眷，士感知己，實思報答。本非戎旅，在此無用。素為劉鎮軍所識，情味不淺，若得北歸，必蒙任寄，公私際會，思報厚恩，愈於停此，空移歲月。」循甚然之。時廣州刺史吳隱之亦為循所拘留，誕又曰：「將軍今留吳公，公私非計。孫伯符豈不欲留華子魚，但以一境不容二君耳。」於是誕及隱之並得還。",
+          "subject_person_mention_id": "c-songshu-052-wangdan:p003:m0141",
+          "object_person_mention_id": "c-songshu-052-wangdan:p003:m0143"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "兩人互救，文本確認桓脩為誕之甥；未名連接女子，不由甥一字添加母系親路。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song052-wangdan-consort",
+      "subject_person_id": "qc9_jnl_cpw",
+      "object_person_id": "c03_362_4d7",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "元顯納妾",
+        "song052_wangdan_reading": "consort",
+        "source_partnership_role": "妾"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-wangdan-ws2190655",
+          "chapter_id": "c-songshu-052-wangdan",
+          "paragraph_id": "c-songshu-052-wangdan:p003",
+          "quote": "隆安四年，會稽王世子元顯開後軍府，又以誕補功曹。尋除尚書吏部郎，仍為後軍長史，領廬江太守，加鎮蠻護軍。轉龍驤將軍、琅邪內史，長史如故。誕結事元顯嬖人張法順，故為元顯所寵。元顯納妾，誕為之親迎。隨府轉驃騎長史，將軍、內史如故。元顯討桓玄，欲悉誅桓氏，誕固陳脩等與玄志趣不同，由此得免。脩，誕甥也。及玄得志，誕將見誅，脩為之陳請，又言脩等得免之由，乃徙誕廣州。盧循據廣州，以誕為其平南府長史，甚賓禮之。誕久客思歸，乃說循曰：「下官流遠在此，被蒙殊眷，士感知己，實思報答。本非戎旅，在此無用。素為劉鎮軍所識，情味不淺，若得北歸，必蒙任寄，公私際會，思報厚恩，愈於停此，空移歲月。」循甚然之。時廣州刺史吳隱之亦為循所拘留，誕又曰：「將軍今留吳公，公私非計。孫伯符豈不欲留華子魚，但以一境不容二君耳。」於是誕及隱之並得還。",
+          "subject_person_mention_id": "c-songshu-052-wangdan:p003:m0088",
+          "object_person_mention_id": "c-songshu-052-wangdan:p003:m0085"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "主婚者元顯，代迎者王誕。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song052-wangdan-mother",
+      "subject_person_id": "vhf_729_g6z",
+      "object_person_id": "yny_37a_8rg",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "母憂去職",
+        "song052_wangdan_reading": "mother"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-wangdan-ws2190655",
+          "chapter_id": "c-songshu-052-wangdan",
+          "paragraph_id": "c-songshu-052-wangdan:p004",
+          "quote": "除員外散騎常侍，未拜，高祖請為太尉諮議參軍，轉長史。盡心歸奉，日夜不懈，高祖甚委仗之。北伐廣固，領齊郡太守。盧循自蔡洲南走，劉毅固求追討，高祖持疑未決，誕密白曰：「公既平廣固，復滅盧循，則功蓋終古，勳無與二，如此大威，豈可餘人分之。毅與公同起布衣，一時相推耳，今既已喪敗，不宜復使立功。」高祖從其說。七年，以誕為吳國內史。母憂去職。高祖征劉毅，起為輔國將軍，誕固辭軍號，墨絰從行。時諸葛長民行太尉留府事，心不自安，高祖甚慮之。毅既平，誕求先下，高祖曰：「長民似有自疑心，卿詎宜便去。」誕曰：「長民知我蒙公垂眄，今輕身單下，必當以為無虞，乃可以少安其意。」高祖笑曰：「卿勇過賁、育矣。」於是先還。",
+          "subject_person_mention_id": "c-songshu-052-wangdan:p004:m0154",
+          "object_person_mention_id": "c-songshu-052-wangdan:p004:m0161"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "誕之母卒，未給名氏或生母稱。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song052-wangdan-xu-father",
+      "subject_person_id": "vhf_729_g6z_A",
+      "object_person_id": "vhf_729_g6z",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子詡",
+        "lineage": "paternal",
+        "song052_wangdan_reading": "continuing_son"
+      },
+      "context": {
+        "kind": "wangdan_final_son",
+        "paragraph_ids": [
+          "c-songshu-052-wangdan:p004",
+          "c-songshu-052-wangdan:p005"
+        ],
+        "parent_mention_id": "c-songshu-052-wangdan:p004:m0242",
+        "child_mention_id": "c-songshu-052-wangdan:p005:m0027",
+        "rationale": "原末段先記主角王誕卒及追封，其後子詡任官、早卒。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-wangdan-ws2190655",
+          "chapter_id": "c-songshu-052-wangdan",
+          "paragraph_id": "c-songshu-052-wangdan:p004",
+          "quote": "除員外散騎常侍，未拜，高祖請為太尉諮議參軍，轉長史。盡心歸奉，日夜不懈，高祖甚委仗之。北伐廣固，領齊郡太守。盧循自蔡洲南走，劉毅固求追討，高祖持疑未決，誕密白曰：「公既平廣固，復滅盧循，則功蓋終古，勳無與二，如此大威，豈可餘人分之。毅與公同起布衣，一時相推耳，今既已喪敗，不宜復使立功。」高祖從其說。七年，以誕為吳國內史。母憂去職。高祖征劉毅，起為輔國將軍，誕固辭軍號，墨絰從行。時諸葛長民行太尉留府事，心不自安，高祖甚慮之。毅既平，誕求先下，高祖曰：「長民似有自疑心，卿詎宜便去。」誕曰：「長民知我蒙公垂眄，今輕身單下，必當以為無虞，乃可以少安其意。」高祖笑曰：「卿勇過賁、育矣。」於是先還。",
+          "object_person_mention_id": "c-songshu-052-wangdan:p004:m0242"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-wangdan-ws2190655",
+          "chapter_id": "c-songshu-052-wangdan",
+          "paragraph_id": "c-songshu-052-wangdan:p005",
+          "quote": "九年，卒，時年三十九。以南北從征，追封作唐縣五等侯。子詡，宋世子舍人，早卒。",
+          "subject_person_mention_id": "c-songshu-052-wangdan:p005:m0027"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "王誕子詡，未補其母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

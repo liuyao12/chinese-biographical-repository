@@ -170,6 +170,23 @@ def _direction(p, subjects, objects, term):
 
 
 def paternal_uncle_direction_valid(assertion, paragraphs):
+    evidence = assertion.get('evidence', [])
+    if (len(evidence) == 1 and evidence[0].get('chapter_id') in
+            ('c-jinshu-096-xiedaoyun', 'c-jinshu-096-xiedaoyun-wyd')
+            and assertion.get('qualifiers', {}).get('source_term') == '叔父安'):
+        try: from scripts.jin096_xiedaoyun import uncle_valid
+        except ImportError: from jin096_xiedaoyun import uncle_valid
+        return uncle_valid(assertion, paragraphs)
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'adjacent_named_nephew_paternal_uncle':
+        try: from scripts.adjacent_named_uncle import valid as adjacent_named_uncle_valid
+        except ImportError: from adjacent_named_uncle import valid as adjacent_named_uncle_valid
+        return adjacent_named_uncle_valid(assertion, paragraphs)
+
+    if assertion.get('qualifiers',{}).get('source_clause_binding',{}).get('kind') == 'jin098_xi_with_uncle_mi':
+        try: from scripts.jin098_huan_gifts import uncle as huan_uncle_valid
+        except ImportError: from jin098_huan_gifts import uncle as huan_uncle_valid
+        return huan_uncle_valid(assertion,paragraphs)
+
     if assertion.get('id') == 'a-w076-jizhi-bin':
         try:
             from scripts.jin076_bin import jizhi_uncle_valid

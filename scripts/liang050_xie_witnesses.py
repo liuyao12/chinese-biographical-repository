@@ -18,7 +18,9 @@ def digital_errors(chapter, root, slug, lines):
         return ['梁書卷五十數位修訂及來源雜湊不合']
     text = raw.decode()
     raw_lines = text.splitlines(keepends=True)
-    for number, paragraph, review in zip(lines, chapter['paragraphs'], receipt['paragraphs'], strict=True):
+    if len(lines) != len(chapter['paragraphs']) or len(lines) != len(receipt['paragraphs']):
+        return ['梁書謝氏兩傳的段數與逐行校記不合']
+    for number, paragraph, review in zip(lines, chapter['paragraphs'], receipt['paragraphs']):
         position = paragraph['source_position']
         offsets = position['raw_character_offsets']
         lower = sum(map(len, raw_lines[:number-1]))
@@ -28,7 +30,10 @@ def digital_errors(chapter, root, slug, lines):
                 or ''.join(text[i] for i in offsets) != paragraph['text']
                 or hashlib.sha256(paragraph['text'].encode()).hexdigest() != review['text_sha256']):
             return ['梁書卷五十傳文須由固定原行逐字重建']
-    for case, record in zip(chapter['annotation']['source_reading_cases'], receipt['external_comparisons'], strict=True):
+    cases = chapter['annotation']['source_reading_cases']
+    if len(cases) != len(receipt['external_comparisons']):
+        return ['梁書謝氏兩傳的對讀條數與逐行校記不合']
+    for case, record in zip(cases, receipt['external_comparisons']):
         witness = (root / record['path']).read_bytes()
         if (any(record[k] != v for k, v in case.items())
                 or hashlib.sha256(witness).hexdigest() != record['sha256']

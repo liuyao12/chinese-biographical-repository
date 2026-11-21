@@ -104,6 +104,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w098-dun-main-15",
+      "person_id": "u40_zod_c8p",
+      "title": "散騎常侍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:line051",
+          "quote": "敦又忌周劄，殺之而盡滅其族。常從督冉曾、公乘雄等為元帝腹心，敦又害之。以宿衛尚多，奏令三番休二。及敦病篤，詔遣侍中陳晷、散騎常侍虞𩦎問疾。時帝將討敦，微服至蕪湖，察其營壘，又屢遣大臣訊問其起居。遷含驃騎大將軍、開府儀同三司，含子瑜散騎常侍。",
+          "person_mention_id": "c-jinshu-098-jin033-wangji:line051:m0064"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-dun-main-15:a",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:line051",
+          "start": 60,
+          "end": 64,
+          "surface": "散騎常侍",
+          "person_mention_id": "c-jinshu-098-jin033-wangji:line051:m0064",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -228,7 +276,9 @@
         "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
         "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
         "collation_witnesses": [
-          "source-evidence/jin098-wang-han-ying/reading.json"
+          "source-evidence/jin098-wang-han-ying/reading.json",
+          "source-evidence/jin098-wangdun-early/reading.json",
+          "source-evidence/jin098-wangdun-main/reading.json"
         ]
       }
     }

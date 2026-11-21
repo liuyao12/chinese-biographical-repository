@@ -1,0 +1,188 @@
+{
+  "c-nanshi-023-wangmao": {
+    "paragraph_ids": [
+      "c-nanshi-023-wangmao:p001"
+    ],
+    "source_id": "s-nanshi-023-wangmao-ws2478204",
+    "source_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+    "raw_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+    "revision_id": 2478204,
+    "body_sha256": "b68af419fdd75cdb70195d740eb1a2fa112a3ef24aba5e13f350d4a9f9543795",
+    "positions_sha256": "d2b9e0e7d2c1a9a47079fb4c05ab5d95f362252ee9b707c06f6fb9b58731beb7",
+    "annotation_sha256": "e7e83ff4de354561d3f3ade947de464d1aa8aaf9a98755d391298bf03073b1e6",
+    "mentions_sha256": "0932fd9986301bc299f783b4d96801580b65b0c66deb69e83655264e33aedc04",
+    "kin": [
+      {
+        "id": "a-nan023-wangmao-zao-older",
+        "subject_person_id": "7r6_k52_qji_ABAACAABC",
+        "object_person_id": "7r6_k52_qji_ABAACAABB",
+        "predicate": "brother",
+        "qualifiers": {
+          "source_term": "藻弟懋",
+          "nan023_wangmao_reading": "zao-older",
+          "relative_birth_order": {
+            "older_person_id": "7r6_k52_qji_ABAACAABB",
+            "younger_person_id": "7r6_k52_qji_ABAACAABC",
+            "scope": "siblings",
+            "operator": "lt",
+            "older_ordinal": null,
+            "younger_ordinal": null
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangmao-ws2478204",
+            "chapter_id": "c-nanshi-023-wangmao",
+            "paragraph_id": "c-nanshi-023-wangmao:p001",
+            "quote": "藻弟懋字昌業，光祿大夫，封南鄉侯。懋子瑩。",
+            "subject_person_mention_id": "c-nanshi-023-wangmao:p001:m0002",
+            "object_person_mention_id": "c-nanshi-023-wangmao:p001:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "王懋是王藻之弟。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-nan023-wangmao-ying-mao",
+        "subject_person_id": "7r6_k52_qji_ABAACAABCA",
+        "object_person_id": "7r6_k52_qji_ABAACAABC",
+        "predicate": "father",
+        "qualifiers": {
+          "source_term": "懋子瑩",
+          "nan023_wangmao_reading": "ying-mao",
+          "lineage": "paternal"
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangmao-ws2478204",
+            "chapter_id": "c-nanshi-023-wangmao",
+            "paragraph_id": "c-nanshi-023-wangmao:p001",
+            "quote": "藻弟懋字昌業，光祿大夫，封南鄉侯。懋子瑩。",
+            "subject_person_mention_id": "c-nanshi-023-wangmao:p001:m0019",
+            "object_person_mention_id": "c-nanshi-023-wangmao:p001:m0017"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "懋子瑩與梁書卷十六瑩傳父懋互證。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "offices": [
+      {
+        "id": "th-nan023-wangmao-m1-7",
+        "person_id": "7r6_k52_qji_ABAACAABC",
+        "title": "光祿大夫",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nan023-wangmao-m1-7:a",
+            "person_mention_id": "c-nanshi-023-wangmao:p001:m0002",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangmao:p001",
+            "surface": "光祿大夫",
+            "start": 7,
+            "end": 11
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangmao-ws2478204",
+            "chapter_id": "c-nanshi-023-wangmao",
+            "paragraph_id": "c-nanshi-023-wangmao:p001",
+            "quote": "藻弟懋字昌業，光祿大夫，封南鄉侯。懋子瑩。",
+            "person_mention_id": "c-nanshi-023-wangmao:p001:m0002"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nan023-wangmao-m1-13",
+        "person_id": "7r6_k52_qji_ABAACAABC",
+        "title": "南鄉侯",
+        "kind": "noble_rank",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nan023-wangmao-m1-13:a",
+            "person_mention_id": "c-nanshi-023-wangmao:p001:m0002",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangmao:p001",
+            "surface": "南鄉侯",
+            "start": 13,
+            "end": 16
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-023",
+                "source_id": "s-nanshi-023-wangmao-ws2478204",
+                "chapter_id": "c-nanshi-023-wangmao",
+                "paragraph_id": "c-nanshi-023-wangmao:p001",
+                "quote": "藻弟懋字昌業，光祿大夫，封南鄉侯。懋子瑩。",
+                "person_mention_id": "c-nanshi-023-wangmao:p001:m0002"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangmao-ws2478204",
+            "chapter_id": "c-nanshi-023-wangmao",
+            "paragraph_id": "c-nanshi-023-wangmao:p001",
+            "quote": "藻弟懋字昌業，光祿大夫，封南鄉侯。懋子瑩。",
+            "person_mention_id": "c-nanshi-023-wangmao:p001:m0002"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "life": []
+  }
+}
