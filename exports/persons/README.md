@@ -4261,7 +4261,7 @@
 [8]: https://zh.wikisource.org/w/index.php?title=陳書/卷17&oldid=1544244
 [9]: https://zh.wikisource.org/w/index.php?title=陳書/卷18&oldid=2132778
 [10]: https://zh.wikisource.org/w/index.php?title=陳書/卷21&oldid=1511909
-[11]: https://www.sohu.com/a/260163234_770283
+[11]: https://www.sohu.com/a/259439652_258370
 [12]: https://guji.10huan.com/Article/7147_7165.html
 [13]: https://www.i-repository.net/il/cont/01/G0000721f/000/756/000756292.jpg
 [14]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

@@ -2074,7 +2074,7 @@
 [2]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [5]: https://zh.wikisource.org/w/index.php?title=北史/卷044&oldid=2183262
 [6]: https://zh.wikisource.org/w/index.php?title=北史/卷044&oldid=2183262
-[11]: https://www.sohu.com/a/260163234_770283
+[11]: https://www.sohu.com/a/259439652_258370
 [12]: https://guji.10huan.com/Article/7147_7165.html
 [14]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
 [16]: http://csid.zju.edu.cn/tomb/stone/detail?id=40288b955bd07752015bfb74a80002de
