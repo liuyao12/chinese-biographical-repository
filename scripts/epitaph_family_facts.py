@@ -19,6 +19,10 @@ def errors(chapters,records):
  return out
 
 def _valid(c,rs,b):
+ if b.get('kind')=='wenqiao_two_named_sons':
+  try:from scripts.wenqiao_epitaph_sons import validate
+  except ImportError:from wenqiao_epitaph_sons import validate
+  return validate(c,rs,b)
  if b.get('kind')=='epitaph_named_head_titled_ancestors':
   try:
    from scripts.epitaph_titled_ancestors import valid

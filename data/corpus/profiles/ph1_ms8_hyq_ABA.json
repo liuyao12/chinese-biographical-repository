@@ -204,6 +204,41 @@
       "chapter_id": "c-songshu-059-zhangchang",
       "source_id": "s-songshu-059-zhangchang",
       "work_title": "宋書"
+    },
+    {
+      "number": 78,
+      "category": "",
+      "title": "思話子惠明為司徒左長史",
+      "paragraph_id": "c-songshu-078-xiaohuiming-son-of-sihua:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "思話宗戚令望，蚤見任待，凡歷州十二，杖節監都督九焉。所至雖無皦皦清節，亦無穢黷之累。愛才好士，人多歸之。",
+      "paragraph_ids": [
+        "c-songshu-078-xiaohuiming-son-of-sihua:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-078-xiaohuiming-son-of-sihua:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-078-xiaohuiming-son-of-sihua:p001:m0000": "c-songshu-078-xiaohuiming-son-of-sihua:p001"
+      },
+      "mention_id": "c-songshu-078-xiaohuiming-son-of-sihua:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-078-xiaohuiming-son-of-sihua:p001:m0000",
+          "mention_ids": [
+            "c-songshu-078-xiaohuiming-son-of-sihua:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-078",
+      "chapter_id": "c-songshu-078-xiaohuiming-son-of-sihua",
+      "source_id": "s-songshu-078-xiaohuiming-son-of-sihua-ws2069112",
+      "work_title": "宋書"
     }
   ],
   "table_occurrences": [],
@@ -3343,6 +3378,33 @@
           "excerpts": []
         }
       }
+    },
+    {
+      "chapter_id": "c-songshu-078-xiaohuiming-son-of-sihua",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-078",
+      "source_id": "s-songshu-078-xiaohuiming-son-of-sihua-ws2069112",
+      "source": {
+        "title": "宋書卷78·思話子惠明為司徒左長史",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2069112",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2069112",
+        "revision_id": 2069112,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原王府身分、紀年或改名原句",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan023-wangyun/ws2069112.wikitext",
+        "raw_file_sha256": "f602d7d312066a118a416b2d384875e100481108ddea70dfeaafac3751789a60",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
     }
   ],
   "relations": [
@@ -3452,12 +3514,69 @@
       "human_reviewed": false,
       "reviewer": "Codex（AI代理）",
       "model": null
+    },
+    {
+      "id": "a-nan023-wangyun-huiming-father",
+      "subject_person_id": "ph1_ms8_hyq_ABAB",
+      "object_person_id": "ph1_ms8_hyq_ABA",
+      "predicate": "father",
+      "qualifiers": {
+        "nan023_wangyun_reading": "huiming-father",
+        "source_term": "次子惠明",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "ph1_ms8_hyq_ABA",
+          "scope": "sons_of_parent",
+          "ordinal": 2,
+          "position": "unspecified",
+          "source_term": "次子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "context": {
+        "kind": "nan23_yun_sihua_second_son",
+        "paragraph_ids": [
+          "c-songshu-078-xiaohuiming-son-of-sihua:p001",
+          "c-songshu-078-xiaohuiming-son-of-sihua:p002"
+        ],
+        "parent_mention_id": "c-songshu-078-xiaohuiming-son-of-sihua:p001:m0000",
+        "child_mention_id": "c-songshu-078-xiaohuiming-son-of-sihua:p002:m0002",
+        "rationale": "思話傳末列長子惠開、次子惠明。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-078",
+          "source_id": "s-songshu-078-xiaohuiming-son-of-sihua-ws2069112",
+          "chapter_id": "c-songshu-078-xiaohuiming-son-of-sihua",
+          "paragraph_id": "c-songshu-078-xiaohuiming-son-of-sihua:p001",
+          "quote": "思話宗戚令望，蚤見任待，凡歷州十二，杖節監都督九焉。所至雖無皦皦清節，亦無穢黷之累。愛才好士，人多歸之。",
+          "object_person_mention_id": "c-songshu-078-xiaohuiming-son-of-sihua:p001:m0000"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-078",
+          "source_id": "s-songshu-078-xiaohuiming-son-of-sihua-ws2069112",
+          "chapter_id": "c-songshu-078-xiaohuiming-son-of-sihua",
+          "paragraph_id": "c-songshu-078-xiaohuiming-son-of-sihua:p002",
+          "quote": "次子惠明，亦有世譽，歷黃門郎，御史中丞，司徒左長史，吳興太守。",
+          "subject_person_mention_id": "c-songshu-078-xiaohuiming-son-of-sihua:p002:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋書思話次子惠明。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "ph1_ms8_hyq_AB": "源之〔蕭卓子〕",
     "ph1_ms8_hyq_ABA": "蕭思話",
     "ph1_ms8_hyq_ABAA": "蕭惠基",
+    "ph1_ms8_hyq_ABAB": "蕭惠明（蕭思話次子）",
     "qav_j5i_grm": "羊欣"
   },
   "dates": [],
@@ -3571,6 +3690,62 @@
       "interpretation_note": "原文明稱；不由此推未知親屬或年月。",
       "human_reviewed": false,
       "reviewer": "Codex（AI代理）",
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangyun-huiming-father",
+      "subject_person_id": "ph1_ms8_hyq_ABAB",
+      "object_person_id": "ph1_ms8_hyq_ABA",
+      "predicate": "father",
+      "qualifiers": {
+        "nan023_wangyun_reading": "huiming-father",
+        "source_term": "次子惠明",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "ph1_ms8_hyq_ABA",
+          "scope": "sons_of_parent",
+          "ordinal": 2,
+          "position": "unspecified",
+          "source_term": "次子",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "context": {
+        "kind": "nan23_yun_sihua_second_son",
+        "paragraph_ids": [
+          "c-songshu-078-xiaohuiming-son-of-sihua:p001",
+          "c-songshu-078-xiaohuiming-son-of-sihua:p002"
+        ],
+        "parent_mention_id": "c-songshu-078-xiaohuiming-son-of-sihua:p001:m0000",
+        "child_mention_id": "c-songshu-078-xiaohuiming-son-of-sihua:p002:m0002",
+        "rationale": "思話傳末列長子惠開、次子惠明。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-078",
+          "source_id": "s-songshu-078-xiaohuiming-son-of-sihua-ws2069112",
+          "chapter_id": "c-songshu-078-xiaohuiming-son-of-sihua",
+          "paragraph_id": "c-songshu-078-xiaohuiming-son-of-sihua:p001",
+          "quote": "思話宗戚令望，蚤見任待，凡歷州十二，杖節監都督九焉。所至雖無皦皦清節，亦無穢黷之累。愛才好士，人多歸之。",
+          "object_person_mention_id": "c-songshu-078-xiaohuiming-son-of-sihua:p001:m0000"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-078",
+          "source_id": "s-songshu-078-xiaohuiming-son-of-sihua-ws2069112",
+          "chapter_id": "c-songshu-078-xiaohuiming-son-of-sihua",
+          "paragraph_id": "c-songshu-078-xiaohuiming-son-of-sihua:p002",
+          "quote": "次子惠明，亦有世譽，歷黃門郎，御史中丞，司徒左長史，吳興太守。",
+          "subject_person_mention_id": "c-songshu-078-xiaohuiming-son-of-sihua:p002:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋書思話次子惠明。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
       "model": null
     }
   ],
