@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "id": "bae_itg_oe5",
+  "canonical_person_id": "bae_itg_oe5",
+  "label": "蕭子友（王泰外生）",
+  "identity_note": "《南史》卷二十二王泰傳確指的人物。",
+  "review": "ai_provisional",
+  "names": [
+    "蕭子友"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 22,
+      "category": "",
+      "title": "王泰",
+      "paragraph_id": "c-nanshi-022-wangtai:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "許卷。及長，通和溫雅，家人不見喜慍之色。姊夫齊江夏王鋒為齊明帝害，外生蕭子友並孤弱，泰資給撫訓，逾于子侄。",
+      "paragraph_ids": [
+        "c-nanshi-022-wangtai:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-022-wangtai:p001:m0105"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-022-wangtai:p001:m0105": "c-nanshi-022-wangtai:p001"
+      },
+      "mention_id": "c-nanshi-022-wangtai:p001:m0105",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-022-wangtai:p001:m0105",
+          "mention_ids": [
+            "c-nanshi-022-wangtai:p001:m0105"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wangtai",
+      "source_id": "s-nanshi-022-wangtai-ws1477957",
+      "work_title": "南史"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanshi-022-wangtai",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangtai-ws1477957",
+      "source": {
+        "title": "南史卷二十二·王泰",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1477957，武英殿本書影逐項參記。",
+        "extent": "逐讀第132行分題至第140行分題前。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "=====慈子 泰=====",
+        "wikitext_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-nanshi022-wangtai-134-103",
+      "subject_person_id": "bae_itg_oe5",
+      "object_person_id": "7r6_k52_qji_ABAAAAEBAA",
+      "predicate": "maternal_uncle",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "外生蕭子友",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangtai",
+          "source_id": "s-nanshi-022-wangtai-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangtai:p001",
+          "quote": "泰字仲通，幼敏悟。年數歲時，祖母集諸孫侄，散棗栗於床，群兒競之，泰獨不取。問其故，對曰：「不取自當得賜。」由是中表異之。少好學，手所抄寫二千許卷。及長，通和溫雅，家人不見喜慍之色。姊夫齊江夏王鋒為齊明帝害，外生蕭子友並孤弱，泰資給撫訓，逾于子侄。",
+          "subject_person_mention_id": "c-nanshi-022-wangtai:p001:m0105",
+          "object_person_mention_id": "c-nanshi-022-wangtai:p001:m0112",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-022-wangtai:p001",
+            "start": 103,
+            "end": 108,
+            "surface": "外生蕭子友"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "7r6_k52_qji_ABAAAAEBAA": "王泰（字仲通）",
+    "bae_itg_oe5": "蕭子友（王泰外生）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_references": [
+    {
+      "start": 103,
+      "end": 105,
+      "surface": "外生",
+      "id": "c-nanshi-022-wangtai:p001:r0103",
+      "paragraph_id": "c-nanshi-022-wangtai:p001",
+      "person_id": "bae_itg_oe5",
+      "referent_role": "third_person",
+      "quote": "泰字仲通，幼敏悟。年數歲時，祖母集諸孫侄，散棗栗於床，群兒競之，泰獨不取。問其故，對曰：「不取自當得賜。」由是中表異之。少好學，手所抄寫二千許卷。及長，通和溫雅，家人不見喜慍之色。姊夫齊江夏王鋒為齊明帝害，外生蕭子友並孤弱，泰資給撫訓，逾于子侄。",
+      "note": "本句按敘述視點回指子友。",
+      "chapter_id": "c-nanshi-022-wangtai",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wangtai-ws1477957"
+    }
+  ],
+  "person_ids": [
+    "bae_itg_oe5"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-nanshi022-wangtai-134-103",
+      "subject_person_id": "bae_itg_oe5",
+      "object_person_id": "7r6_k52_qji_ABAAAAEBAA",
+      "predicate": "maternal_uncle",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "外生蕭子友",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangtai",
+          "source_id": "s-nanshi-022-wangtai-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangtai:p001",
+          "quote": "泰字仲通，幼敏悟。年數歲時，祖母集諸孫侄，散棗栗於床，群兒競之，泰獨不取。問其故，對曰：「不取自當得賜。」由是中表異之。少好學，手所抄寫二千許卷。及長，通和溫雅，家人不見喜慍之色。姊夫齊江夏王鋒為齊明帝害，外生蕭子友並孤弱，泰資給撫訓，逾于子侄。",
+          "subject_person_mention_id": "c-nanshi-022-wangtai:p001:m0105",
+          "object_person_mention_id": "c-nanshi-022-wangtai:p001:m0112",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-022-wangtai:p001",
+            "start": 103,
+            "end": 108,
+            "surface": "外生蕭子友"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

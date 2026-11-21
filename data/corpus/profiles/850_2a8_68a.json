@@ -131,6 +131,60 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-liangshu-033-wangyun",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-033",
+      "source_id": "s-liangshu-033-wangyun-ws1514481",
+      "source": {
+        "title": "梁書卷33·王筠傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1514481",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1514481",
+        "revision_id": 1514481,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原第95、97、99、101、103、105行六段王筠傳",
+        "text_scope": "complete_biographical_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi022-wangzhi-family/external/liang033-ws1514481.wikitext",
+        "raw_file_sha256": "a9b1993fd0027d649219782c71e5bcb1c74e2b8049d907308b609b089543eb0b",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去雙全角首行縮排，保留收到的原字、標點和段界。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-liangshu-033-wangyun-wyd",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-033",
+      "source_id": "s-liangshu-033-wangyun-wyd1739",
+      "source": {
+        "title": "武英殿本《梁書》卷三十三王筠傳",
+        "provider": "中國國家圖書館藏乾隆四年武英殿刊本，Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12700_二十四史_第167冊.pdf",
+        "permalink": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12700_二十四史_第167冊.pdf",
+        "revision_id": "cbr-ai-transcription-sha256:7053558e6ae66bd8cf78b874c228cebd0f6693575c192ac8fc72b37815b9569a",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/liang033-wangyun/wyd-columns.txt",
+        "raw_file_sha256": "7053558e6ae66bd8cf78b874c228cebd0f6693575c192ac8fc72b37815b9569a",
+        "edition": "乾隆四年武英殿刊《二十四史》第167冊",
+        "extent": "卷三十三葉十六下至十九下，PDF第58面右第3欄至第61面右第2欄。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "國家圖書館藏古籍書影，本篇逐欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12700_二十四史_第167冊.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留殿本原字、無句讀。依傳文分六段；版面小字反切另繫原欄所注之霓。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanshi-022-wangyun-family",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-022",
@@ -3927,6 +3981,62 @@
   ],
   "relations": [
     {
+      "id": "a-liang033-wangyun-wangcan",
+      "subject_person_id": "ad4_a63_862",
+      "object_person_id": "850_2a8_68a",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "王公之孫",
+        "liang033_family_reading": "wangcan",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-wangyun-ws1514481",
+          "chapter_id": "c-liangshu-033-wangyun",
+          "paragraph_id": "c-liangshu-033-wangyun:p003",
+          "quote": "起家中軍臨川王行參軍，遷太子舍人，除尚書殿中郎。王氏過江以來，未有居郎署者，或勸逡巡不就，筠曰：「陸平原東南之秀，王文度獨步江東，吾得比蹤昔人，何所多恨。」乃欣然就職。尚書令沈約，當世辭宗，每見筠文，咨嗟吟詠，以爲不逮也。嘗謂筠：「昔蔡伯喈見王仲宣稱曰：『王公之孫也，吾家書籍，悉當相與。』僕雖不敏，請附斯言。自謝朓諸賢零落已後，平生意好，殆將都絕，不謂疲暮，復逢於君。」約於郊居宅造閣齋，筠爲草木十詠，書之於壁，皆直寫文詞，不加篇題。約謂人云：「此詩指物呈形，無假題署。」約制《郊居賦》，構思積時，猶未都畢，乃要筠示其草，筠讀至「雌霓連蜷」，約撫掌欣抃曰：「僕嘗恐人呼爲霓。」次至「墜石磓星」，及「冰懸坎而帶坻」。筠皆擊節稱讚。約曰：「知音者希，真賞殆絕，所以相要，政在此數句耳。」筠又嘗爲詩呈約，卽報書云：「覽所示詩，實爲麗則，聲和被紙，光影盈字。夔、牙接響，顧有餘慚；孔翠羣翔，豈不多愧。古情拙目，每佇新奇，爛然總至，權輿已盡。會昌昭發，蘭揮玉振，克諧之義，寧比笙簧。思力所該，一至乎此，嘆服吟研，周流忘念。昔時幼壯，頗愛斯文，含咀之間，倏焉疲暮。不及後進，誠非一人，擅美推能，實歸吾子。遲比閑日，清覯乃申。」筠爲文能壓強韻，每公宴並作，辭必妍美。約常從容啓高祖曰：「晚來名家，唯見王筠獨步。」",
+          "subject_person_mention_id": "c-liangshu-033-wangyun:p003:m0121",
+          "object_person_reference_id": "c-liangshu-033-wangyun:p003:r0128"
+        }
+      ],
+      "interpretation_note": "據同段具名或親稱核兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang033-wangyun-wyd-wangcan",
+      "subject_person_id": "ad4_a63_862",
+      "object_person_id": "850_2a8_68a",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "王公之孫",
+        "liang033_family_reading": "wangcan",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-wangyun-wyd1739",
+          "chapter_id": "c-liangshu-033-wangyun-wyd",
+          "paragraph_id": "c-liangshu-033-wangyun-wyd:p003",
+          "quote": "起家中軍臨川王行參軍遷太子舍人除尚書殿中郎王氏過江以來未有居郎署者或勸逡巡不就筠曰陸平原東南之秀王文度獨步江東吾得比蹤昔人何所多恨乃欣然就職尚書令沈約當世辭宗每見筠文咨嗟吟咏以為不逮也嘗謂筠昔蔡伯喈見王仲宣稱曰王公之孫也吾家書籍悉當相與僕雖不敏請附斯言自謝朓諸賢零落已後平生意好殆將都絕不謂疲暮復逢於君約於郊居宅造閣齋筠為草木十詠書之於壁皆直寫文詞不加篇題約謂人云此詩指物呈形無假題署約製郊居賦構思積時猶未都畢乃要筠示其草筠讀至雌霓連踡約撫掌欣抃曰僕嘗恐人呼為霓次至墜石磓星及水懸坎而帶坻筠皆擊節稱贊約曰知音者希真賞殆絕所以相要政在此數句耳筠又嘗為詩呈約卽報書云覽所示詩實為麗則聲和被紙光影盈字夔牙接響顧有餘慚孔翠羣翔豈不多愧古情拙目每佇新奇爛然總至權輿已盡會昌昭發蘭揮玉振克諧之義寧比笙簧思力所該一至乎此歎服吟研周流忘念昔時幼壯頗愛斯文舍咀之間倐焉疲暮不及後進誠非一人擅美推能實歸吾子遲比閑日清覯乃申筠為文能壓強韻每公宴並作辭必妍美約常從容啓高祖曰晚來名家惟見王筠獨步",
+          "subject_person_mention_id": "c-liangshu-033-wangyun-wyd:p003:m0100",
+          "object_person_reference_id": "c-liangshu-033-wangyun-wyd:p003:r0105"
+        }
+      ],
+      "interpretation_note": "殿本同段名或稱官繫兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi022-wangyun-family-160-25",
       "subject_person_id": "ad4_a63_862",
       "object_person_id": "850_2a8_68a",
@@ -3997,10 +4107,98 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-liangshu-033-wangyun-wyd:p003:r0105",
+      "person_id": "850_2a8_68a",
+      "surface": "王公",
+      "start": 105,
+      "end": 107,
+      "paragraph_id": "c-liangshu-033-wangyun-wyd:p003",
+      "referent_role": "third_person",
+      "quote": "起家中軍臨川王行參軍遷太子舍人除尚書殿中郎王氏過江以來未有居郎署者或勸逡巡不就筠曰陸平原東南之秀王文度獨步江東吾得比蹤昔人何所多恨乃欣然就職尚書令沈約當世辭宗每見筠文咨嗟吟咏以為不逮也嘗謂筠昔蔡伯喈見王仲宣稱曰王公之孫也吾家書籍悉當相與僕雖不敏請附斯言自謝朓諸賢零落已後平生意好殆將都絕不謂疲暮復逢於君約於郊居宅造閣齋筠為草木十詠書之於壁皆直寫文詞不加篇題約謂人云此詩指物呈形無假題署約製郊居賦構思積時猶未都畢乃要筠示其草筠讀至雌霓連踡約撫掌欣抃曰僕嘗恐人呼為霓次至墜石磓星及水懸坎而帶坻筠皆擊節稱贊約曰知音者希真賞殆絕所以相要政在此數句耳筠又嘗為詩呈約卽報書云覽所示詩實為麗則聲和被紙光影盈字夔牙接響顧有餘慚孔翠羣翔豈不多愧古情拙目每佇新奇爛然總至權輿已盡會昌昭發蘭揮玉振克諧之義寧比笙簧思力所該一至乎此歎服吟研周流忘念昔時幼壯頗愛斯文舍咀之間倐焉疲暮不及後進誠非一人擅美推能實歸吾子遲比閑日清覯乃申筠為文能壓強韻每公宴並作辭必妍美約常從容啓高祖曰晚來名家惟見王筠獨步",
+      "note": "據殿本本段原字、上下文及說話視點。",
+      "chapter_id": "c-liangshu-033-wangyun-wyd",
+      "book_id": "b-liangshu-033",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-033-wangyun-wyd1739"
+    },
+    {
+      "id": "c-liangshu-033-wangyun:p003:r0128",
+      "person_id": "850_2a8_68a",
+      "surface": "王公",
+      "start": 128,
+      "end": 130,
+      "paragraph_id": "c-liangshu-033-wangyun:p003",
+      "referent_role": "third_person",
+      "quote": "起家中軍臨川王行參軍，遷太子舍人，除尚書殿中郎。王氏過江以來，未有居郎署者，或勸逡巡不就，筠曰：「陸平原東南之秀，王文度獨步江東，吾得比蹤昔人，何所多恨。」乃欣然就職。尚書令沈約，當世辭宗，每見筠文，咨嗟吟詠，以爲不逮也。嘗謂筠：「昔蔡伯喈見王仲宣稱曰：『王公之孫也，吾家書籍，悉當相與。』僕雖不敏，請附斯言。自謝朓諸賢零落已後，平生意好，殆將都絕，不謂疲暮，復逢於君。」約於郊居宅造閣齋，筠爲草木十詠，書之於壁，皆直寫文詞，不加篇題。約謂人云：「此詩指物呈形，無假題署。」約制《郊居賦》，構思積時，猶未都畢，乃要筠示其草，筠讀至「雌霓連蜷」，約撫掌欣抃曰：「僕嘗恐人呼爲霓。」次至「墜石磓星」，及「冰懸坎而帶坻」。筠皆擊節稱讚。約曰：「知音者希，真賞殆絕，所以相要，政在此數句耳。」筠又嘗爲詩呈約，卽報書云：「覽所示詩，實爲麗則，聲和被紙，光影盈字。夔、牙接響，顧有餘慚；孔翠羣翔，豈不多愧。古情拙目，每佇新奇，爛然總至，權輿已盡。會昌昭發，蘭揮玉振，克諧之義，寧比笙簧。思力所該，一至乎此，嘆服吟研，周流忘念。昔時幼壯，頗愛斯文，含咀之間，倏焉疲暮。不及後進，誠非一人，擅美推能，實歸吾子。遲比閑日，清覯乃申。」筠爲文能壓強韻，每公宴並作，辭必妍美。約常從容啓高祖曰：「晚來名家，唯見王筠獨步。」",
+      "note": "據本段話語視點及上文職號。",
+      "chapter_id": "c-liangshu-033-wangyun",
+      "book_id": "b-liangshu-033",
+      "work_id": "w-liangshu",
+      "source_id": "s-liangshu-033-wangyun-ws1514481"
+    }
+  ],
   "person_ids": [
     "850_2a8_68a"
   ],
   "preferred_relations": [
+    {
+      "id": "a-liang033-wangyun-wangcan",
+      "subject_person_id": "ad4_a63_862",
+      "object_person_id": "850_2a8_68a",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "王公之孫",
+        "liang033_family_reading": "wangcan",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-wangyun-ws1514481",
+          "chapter_id": "c-liangshu-033-wangyun",
+          "paragraph_id": "c-liangshu-033-wangyun:p003",
+          "quote": "起家中軍臨川王行參軍，遷太子舍人，除尚書殿中郎。王氏過江以來，未有居郎署者，或勸逡巡不就，筠曰：「陸平原東南之秀，王文度獨步江東，吾得比蹤昔人，何所多恨。」乃欣然就職。尚書令沈約，當世辭宗，每見筠文，咨嗟吟詠，以爲不逮也。嘗謂筠：「昔蔡伯喈見王仲宣稱曰：『王公之孫也，吾家書籍，悉當相與。』僕雖不敏，請附斯言。自謝朓諸賢零落已後，平生意好，殆將都絕，不謂疲暮，復逢於君。」約於郊居宅造閣齋，筠爲草木十詠，書之於壁，皆直寫文詞，不加篇題。約謂人云：「此詩指物呈形，無假題署。」約制《郊居賦》，構思積時，猶未都畢，乃要筠示其草，筠讀至「雌霓連蜷」，約撫掌欣抃曰：「僕嘗恐人呼爲霓。」次至「墜石磓星」，及「冰懸坎而帶坻」。筠皆擊節稱讚。約曰：「知音者希，真賞殆絕，所以相要，政在此數句耳。」筠又嘗爲詩呈約，卽報書云：「覽所示詩，實爲麗則，聲和被紙，光影盈字。夔、牙接響，顧有餘慚；孔翠羣翔，豈不多愧。古情拙目，每佇新奇，爛然總至，權輿已盡。會昌昭發，蘭揮玉振，克諧之義，寧比笙簧。思力所該，一至乎此，嘆服吟研，周流忘念。昔時幼壯，頗愛斯文，含咀之間，倏焉疲暮。不及後進，誠非一人，擅美推能，實歸吾子。遲比閑日，清覯乃申。」筠爲文能壓強韻，每公宴並作，辭必妍美。約常從容啓高祖曰：「晚來名家，唯見王筠獨步。」",
+          "subject_person_mention_id": "c-liangshu-033-wangyun:p003:m0121",
+          "object_person_reference_id": "c-liangshu-033-wangyun:p003:r0128"
+        }
+      ],
+      "interpretation_note": "據同段具名或親稱核兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-liang033-wangyun-wyd-wangcan",
+      "subject_person_id": "ad4_a63_862",
+      "object_person_id": "850_2a8_68a",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "王公之孫",
+        "liang033_family_reading": "wangcan",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-033",
+          "source_id": "s-liangshu-033-wangyun-wyd1739",
+          "chapter_id": "c-liangshu-033-wangyun-wyd",
+          "paragraph_id": "c-liangshu-033-wangyun-wyd:p003",
+          "quote": "起家中軍臨川王行參軍遷太子舍人除尚書殿中郎王氏過江以來未有居郎署者或勸逡巡不就筠曰陸平原東南之秀王文度獨步江東吾得比蹤昔人何所多恨乃欣然就職尚書令沈約當世辭宗每見筠文咨嗟吟咏以為不逮也嘗謂筠昔蔡伯喈見王仲宣稱曰王公之孫也吾家書籍悉當相與僕雖不敏請附斯言自謝朓諸賢零落已後平生意好殆將都絕不謂疲暮復逢於君約於郊居宅造閣齋筠為草木十詠書之於壁皆直寫文詞不加篇題約謂人云此詩指物呈形無假題署約製郊居賦構思積時猶未都畢乃要筠示其草筠讀至雌霓連踡約撫掌欣抃曰僕嘗恐人呼為霓次至墜石磓星及水懸坎而帶坻筠皆擊節稱贊約曰知音者希真賞殆絕所以相要政在此數句耳筠又嘗為詩呈約卽報書云覽所示詩實為麗則聲和被紙光影盈字夔牙接響顧有餘慚孔翠羣翔豈不多愧古情拙目每佇新奇爛然總至權輿已盡會昌昭發蘭揮玉振克諧之義寧比笙簧思力所該一至乎此歎服吟研周流忘念昔時幼壯頗愛斯文舍咀之間倐焉疲暮不及後進誠非一人擅美推能實歸吾子遲比閑日清覯乃申筠為文能壓強韻每公宴並作辭必妍美約常從容啓高祖曰晚來名家惟見王筠獨步",
+          "subject_person_mention_id": "c-liangshu-033-wangyun-wyd:p003:m0100",
+          "object_person_reference_id": "c-liangshu-033-wangyun-wyd:p003:r0105"
+        }
+      ],
+      "interpretation_note": "殿本同段名或稱官繫兩端。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nanshi022-wangyun-family-160-25",
       "subject_person_id": "ad4_a63_862",

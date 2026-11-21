@@ -6,11 +6,154 @@
   "identity_note": "固定王衍敘事單元來源身份；不加typed親屬、不以同名逕合。",
   "review": "ai_provisional",
   "names": [
-    "李陽"
+    "李陽",
+    "陽",
+    "景祖"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w043-yan-4-pfd_g6t_zy5-8",
+      "person_id": "pfd_g6t_zy5",
+      "title": "幽州刺史",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "chapter_id": "c-jinshu-043-wangyan",
+          "source_id": "s-jinshu-043-ws2618531-wangrong",
+          "paragraph_id": "c-jinshu-043-wangyan:p004",
+          "quote": "衍妻郭氏，賈后之親，藉中宮之勢，剛愎貪戾，聚斂無厭，好干預人事，衍患之而不能禁。時有鄉人幽州刺史李陽，京師大俠也，郭氏素憚也。衍謂郭曰：「非但我言卿不可，李陽亦謂不可。」郭氏為之小損。衍疾郭之貪鄙，故口未嘗言錢。郭欲試之，令婢以錢繞床，使不得行。衍晨起見錢，謂婢曰：「舉阿堵物卻！」其措意如此。",
+          "person_mention_id": "c-jinshu-043-wangyan:p004:m0048"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-yan-4-pfd_g6t_zy5-8:a",
+          "paragraph_id": "c-jinshu-043-wangyan:p004",
+          "start": 44,
+          "end": 48,
+          "surface": "幽州刺史",
+          "person_mention_id": "c-jinshu-043-wangyan:p004:m0048",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w043-li-gui",
+      "person_id": "pfd_g6t_zy5",
+      "title": "幽州刺史",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-010",
+          "chapter_id": "c-shishuoxinyu-010-jin043-wangyan",
+          "source_id": "s-shishuoxinyu-010-jin043-wangyan",
+          "paragraph_id": "c-shishuoxinyu-010-jin043-wangyan:yang",
+          "quote": "陽字景祖，高尚人。武帝時為幽州刺史。",
+          "person_mention_id": "c-shishuoxinyu-010-jin043-wangyan:yang:m0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-li-gui:a",
+          "paragraph_id": "c-shishuoxinyu-010-jin043-wangyan:yang",
+          "start": 13,
+          "end": 17,
+          "surface": "幽州刺史",
+          "person_mention_id": "c-shishuoxinyu-010-jin043-wangyan:yang:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 10,
+      "category": "",
+      "title": "規箴王衍妻、父郭豫與錢事兩種評說",
+      "paragraph_id": "c-shishuoxinyu-010-jin043-wangyan:yang",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "陽字景祖，高尚人。武帝時為幽州刺史。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-010-jin043-wangyan:yang"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-010-jin043-wangyan:yang:m0000",
+        "c-shishuoxinyu-010-jin043-wangyan:yang:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-010-jin043-wangyan:yang:m0000": "c-shishuoxinyu-010-jin043-wangyan:yang",
+        "c-shishuoxinyu-010-jin043-wangyan:yang:m0002": "c-shishuoxinyu-010-jin043-wangyan:yang"
+      },
+      "mention_id": "c-shishuoxinyu-010-jin043-wangyan:yang:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-010-jin043-wangyan:yang:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-010-jin043-wangyan:yang:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-010-jin043-wangyan:yang:m0002",
+          "mention_ids": [
+            "c-shishuoxinyu-010-jin043-wangyan:yang:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-010",
+      "chapter_id": "c-shishuoxinyu-010-jin043-wangyan",
+      "source_id": "s-shishuoxinyu-010-jin043-wangyan",
+      "work_title": "世說新語"
+    },
     {
       "number": 43,
       "category": "",
@@ -81,8 +224,47 @@
         "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
         "normalization": {
           "character_conversion": {},
-          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
-        }
+          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                110,
+                110
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2618531
+            }
+          ]
+        },
+        "collation_witnesses": [
+          "source-evidence/jin043-wangyan-main/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-010-jin043-wangyan",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-010",
+      "source_id": "s-shishuoxinyu-010-jin043-wangyan",
+      "source": {
+        "title": "世說新語規箴",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1504411",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1504411",
+        "revision_id": 1504411,
+        "accessed_on": "2026-10-21",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "14d0a8b1fe5e9c9bd1bd4a1eff672d35a00c97ea9ac6e5b6f7c070d2aba54485",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_path": "source-evidence/jin043-wangyan-main/external/gui-ws1504411.wikitext",
+        "raw_file_sha256": "14d0a8b1fe5e9c9bd1bd4a1eff672d35a00c97ea9ac6e5b6f7c070d2aba54485"
       }
     }
   ],

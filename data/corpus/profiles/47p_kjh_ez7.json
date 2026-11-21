@@ -3824,6 +3824,35 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-035-wangci-feng",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-035",
+      "source_id": "s-nanqishu-035-wangci-feng-ws2401782",
+      "source": {
+        "title": "南齊書卷35·江夏王鋒",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2401782",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2401782",
+        "revision_id": 2401782,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂2401782",
+        "extent": "僅傳首一原句。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "卷中江夏王鋒傳首",
+        "wikitext_sha256": "2c4a8a948c856f9465afe3cfbf503cd4ebc9037abf8a5ef73a1957b91ee6dcbf",
+        "raw_path": "source-evidence/nanshi022-wangci/external/qi35-ws2401782.wikitext",
+        "raw_file_sha256": "2c4a8a948c856f9465afe3cfbf503cd4ebc9037abf8a5ef73a1957b91ee6dcbf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanqishu-043-xieyue",
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-043",
@@ -4132,6 +4161,35 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "保留傳本文字及今本補字方括；排版界符和另存的校記依原字位投影。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-022-wangqian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangqian-ws1477957",
+      "source": {
+        "title": "南史卷二十二·王騫",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1477957，武英殿本書影逐項參記。",
+        "extent": "逐讀第58行分題至第64行分題前。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "=====儉子 騫=====",
+        "wikitext_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
         }
       }
     },
@@ -4496,6 +4554,39 @@
   ],
   "relations": [
     {
+      "id": "a-nanqishu-035-wangci-feng-father",
+      "subject_person_id": "47p_kjh_ez7_B",
+      "object_person_id": "47p_kjh_ez7",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "第十二子",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "nanshi022_wangci_family_roles",
+          "source_quote": "江夏王鋒，字宣穎，太祖第十二子。",
+          "start": 0,
+          "end": 16,
+          "subject_anchor_id": "c-nanqishu-035-wangci-feng:p001:m0003",
+          "object_anchor_id": "c-nanqishu-035-wangci-feng:p001:r0009"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-035",
+          "chapter_id": "c-nanqishu-035-wangci-feng",
+          "paragraph_id": "c-nanqishu-035-wangci-feng:p001",
+          "source_id": "s-nanqishu-035-wangci-feng-ws2401782",
+          "quote": "江夏王鋒，字宣穎，太祖第十二子。"
+        }
+      ],
+      "interpretation_note": "傳首先列王名、字，再明父廟號與排行。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanshi022-wangbin-digital-174-54",
       "subject_person_id": "47p_kjh_ez7_A",
       "object_person_id": "47p_kjh_ez7",
@@ -4530,7 +4621,8 @@
   ],
   "related_people": {
     "47p_kjh_ez7": "齊太祖道成",
-    "47p_kjh_ez7_A": "臨海長公主（齊高帝女）"
+    "47p_kjh_ez7_A": "臨海長公主（齊高帝女）",
+    "47p_kjh_ez7_B": "江夏王鋒"
   },
   "dates": [],
   "reading_decisions": [
@@ -4924,6 +5016,21 @@
       "book_id": "b-nanqishu-023",
       "work_id": "w-nanqishu",
       "source_id": "s-nanqishu-023-wangjian-ws1545488"
+    },
+    {
+      "id": "c-nanqishu-035-wangci-feng:p001:r0009",
+      "start": 9,
+      "end": 11,
+      "surface": "太祖",
+      "person_id": "47p_kjh_ez7",
+      "paragraph_id": "c-nanqishu-035-wangci-feng:p001",
+      "referent_role": "third_person",
+      "quote": "江夏王鋒，字宣穎，太祖第十二子。",
+      "note": "王號或廟號隨此本紀與王傳識別。",
+      "chapter_id": "c-nanqishu-035-wangci-feng",
+      "book_id": "b-nanqishu-035",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-035-wangci-feng-ws2401782"
     },
     {
       "id": "c-nanshi-011-peihuizhao:p001:r0070",
@@ -5706,6 +5813,21 @@
       "source_id": "s-nanshi-022-wangjian-ws1477957"
     },
     {
+      "start": 11,
+      "end": 14,
+      "surface": "齊高帝",
+      "id": "c-nanshi-022-wangqian:p001:r0011",
+      "paragraph_id": "c-nanshi-022-wangqian:p001",
+      "person_id": "47p_kjh_ez7",
+      "referent_role": "third_person",
+      "quote": "騫字思寂，本字玄成，與齊高帝偏諱同，故改焉。性凝簡，慕樂廣為人，未嘗言人之短。諸女子侄皆嬪王尚主，朔望來歸，輜軿填咽，非所欲也，敕歲中不過一再見。嘗從容謂諸子曰：「吾家本素族，自可依流平進，不須苟求也。」曆黃門郎、司徒右長史。不事產業，有舊墅在鍾山八十餘頃，與諸宅及故舊共佃之。常謂人曰：「我不如鄭公業有田四百頃，而食常不周。」以此為愧。永元末，召為侍中，不拜。三年春，枉矢晝見西方，長十餘丈。騫曰：「此除舊佈新之象也。」及梁武起兵，騫曰：「天時人事，其在此乎。」梁武霸府建，引為大司馬諮議參軍，遷侍中。及帝受禪，降封為侯。歷位度支尚書，中書令。武帝於鍾山西造大愛敬寺，騫舊墅在寺側者，即王導賜田也。帝遣主書宣旨，就騫市之，欲以施寺。答云：「此田不賣；若敕取，所不敢言。」酬對又脫略。帝怒，遂付市評田價，以直逼還之。由是忤旨，出為吳興太守。",
+      "note": "本句按敘述視點回指齊高。",
+      "chapter_id": "c-nanshi-022-wangqian",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wangqian-ws1477957"
+    },
+    {
       "start": 0,
       "end": 3,
       "surface": "齊高帝",
@@ -5740,6 +5862,39 @@
     "47p_kjh_ez7"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nanqishu-035-wangci-feng-father",
+      "subject_person_id": "47p_kjh_ez7_B",
+      "object_person_id": "47p_kjh_ez7",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "第十二子",
+        "lineage": "paternal",
+        "reading_basis": {
+          "kind": "nanshi022_wangci_family_roles",
+          "source_quote": "江夏王鋒，字宣穎，太祖第十二子。",
+          "start": 0,
+          "end": 16,
+          "subject_anchor_id": "c-nanqishu-035-wangci-feng:p001:m0003",
+          "object_anchor_id": "c-nanqishu-035-wangci-feng:p001:r0009"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-035",
+          "chapter_id": "c-nanqishu-035-wangci-feng",
+          "paragraph_id": "c-nanqishu-035-wangci-feng:p001",
+          "source_id": "s-nanqishu-035-wangci-feng-ws2401782",
+          "quote": "江夏王鋒，字宣穎，太祖第十二子。"
+        }
+      ],
+      "interpretation_note": "傳首先列王名、字，再明父廟號與排行。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanshi022-wangbin-digital-174-54",
       "subject_person_id": "47p_kjh_ez7_A",

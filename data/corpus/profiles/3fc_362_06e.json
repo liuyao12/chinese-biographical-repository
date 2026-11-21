@@ -14,6 +14,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 1,
+      "category": "",
+      "title": "德行劉注引晉諸公贊、晉陽秋論王戎與王祥宗族及王戎居喪",
+      "paragraph_id": "c-shishuoxinyu-001-jin043-wangrong:yangqiu",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "憂，性至孝，不拘禮制，飲酒食肉，或觀棊弈，而容貌毀悴，杖而後起。時汝南和嶠，亦名士也，以禮法自持。處大憂，量米而食，然憔悴哀毀，不逮戎也。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-001-jin043-wangrong:yangqiu"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-001-jin043-wangrong:yangqiu:m0044"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-001-jin043-wangrong:yangqiu:m0044": "c-shishuoxinyu-001-jin043-wangrong:yangqiu"
+      },
+      "mention_id": "c-shishuoxinyu-001-jin043-wangrong:yangqiu:m0044",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-001-jin043-wangrong:yangqiu:m0044",
+          "mention_ids": [
+            "c-shishuoxinyu-001-jin043-wangrong:yangqiu:m0044"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-001",
+      "chapter_id": "c-shishuoxinyu-001-jin043-wangrong",
+      "source_id": "s-shishuoxinyu-001-jin043-wangrong",
+      "work_title": "世說新語"
+    },
+    {
       "number": 10,
       "category": "",
       "title": "荀彧荀攸賈詡傳第十",
@@ -12616,7 +12651,10 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原缺閉引號、季劄、鐘會、𦃩、報嘗均保留。"
-        }
+        },
+        "collation_witnesses": [
+          "source-evidence/jin043-wangrong-main/reading.json"
+        ]
       }
     },
     {
@@ -16379,6 +16417,31 @@
           },
           "independent_witness_is_not_repair": true
         }
+      }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-001-jin043-wangrong",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-001",
+      "source_id": "s-shishuoxinyu-001-jin043-wangrong",
+      "source": {
+        "title": "世說新語德行",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567459",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567459",
+        "revision_id": 2567459,
+        "accessed_on": "2026-10-21",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "137932a18390fbfccb1c6623467550f6b4a51ec2f8c89b5d86428eb4106b7f17",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_path": "source-evidence/jin065-wang-children/external/de-ws2567459.wikitext",
+        "raw_file_sha256": "137932a18390fbfccb1c6623467550f6b4a51ec2f8c89b5d86428eb4106b7f17"
       }
     }
   ],

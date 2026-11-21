@@ -261,14 +261,14 @@
     }
   },
   "annotation": {
-    "status": "in_progress",
+    "status": "reviewed",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
     "model": null,
-    "coverage": "完整選定傳主單元逐段人物與直接親屬首輪；官爵生卒另批，不宣稱全卷完成。",
+    "coverage": "本篇選收王華、孔甯子、王嗣、王長與王終、王鴻及王曇首單元；逐段核人、親屬、任官、事件、引語及異文。",
     "limitations": [
-      "數位校勘文字只作轉載校勘意見，未親核其所報印本或影像。",
-      "泛稱、群體、引古與異名跨史辨識保留未決候選。"
+      "固定數位本轉載的他校與實際對讀武英殿本分記，未見底本的校說仍按轉引。",
+      "孔甯子所引未名古人，證據僅及對讀者分列典據，無個人出生年月者仍闕。"
     ],
     "age_assertions": [
       {
@@ -297,7 +297,7 @@
           "kind": "at_death",
           "life_event_id": "le-songwang7-63-22-122"
         },
-        "interpretation_note": "保存報齡原數；不倒算生年，民役年齡規定與未來祝辭不當人物報齡。",
+        "interpretation_note": "本傳未說用實歲或虛歲。隆安元年（397）數位十三、殿本十二，元嘉四年（427）卒四十三。按虛歲各可回推385、386及385，未立生年。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
@@ -327,13 +327,277 @@
         "age_context": {
           "kind": "during_life"
         },
-        "interpretation_note": "保存報齡原數；不倒算生年，民役年齡規定與未來祝辭不當人物報齡。",
+        "interpretation_note": "本傳未說用實歲或虛歲。隆安元年（397）數位十三、殿本十二，元嘉四年（427）卒四十三。按虛歲各可回推385、386及385，未立生年。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
       }
     ],
     "person_reference_occurrences": [
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line010:r0012",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start": 12,
+        "end": 14,
+        "surface": "太保",
+        "person_id": "7r6_k52_qji_ABAAAAA",
+        "referent_role": "third_person",
+        "quote": "太保弘從祖弟也",
+        "note": "太保為弘之官。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line010:r0015",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start": 15,
+        "end": 18,
+        "surface": "從祖弟",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "referent_role": "third_person",
+        "quote": "太保弘從祖弟也",
+        "note": "傳首說華相對弘的從親及長幼。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line010:r0020",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start": 20,
+        "end": 21,
+        "surface": "祖",
+        "person_id": "7r6_k52_qji_ABAAF",
+        "referent_role": "third_person",
+        "quote": "祖薈",
+        "note": "從華敘祖。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line010:r0032",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start": 32,
+        "end": 33,
+        "surface": "父",
+        "person_id": "7r6_k52_qji_ABAAFA",
+        "referent_role": "third_person",
+        "quote": "父廞",
+        "note": "從華敘父。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line010:r0156",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start": 156,
+        "end": 158,
+        "surface": "長子",
+        "person_id": "7r6_k52_qji_ABAAFAA",
+        "referent_role": "third_person",
+        "quote": "長子泰",
+        "note": "王廞長子、王華之兄。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line010:r0180",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start": 180,
+        "end": 182,
+        "surface": "沙門",
+        "person_id": "58f_d92_1b5",
+        "referent_role": "third_person",
+        "quote": "隨沙門釋曇永",
+        "note": "職分緊接僧名。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line010:m0224",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start": 224,
+        "end": 226,
+        "surface": "奴子",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "referent_role": "addressee",
+        "quote": "奴子怠懈，行不及我",
+        "note": "曇永在人前責罵王華以避搜檢。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line010:m0232",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start": 232,
+        "end": 233,
+        "surface": "我",
+        "person_id": "58f_d92_1b5",
+        "referent_role": "speaker_self",
+        "quote": "奴子怠懈，行不及我",
+        "note": "說話的僧人自指。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line012:r0042",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line012",
+        "start": 42,
+        "end": 43,
+        "surface": "其",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "referent_role": "third_person",
+        "quote": "高祖欲收其才用",
+        "note": "高祖欲收用王華。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line014:r0107",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line014",
+        "start": 107,
+        "end": 108,
+        "surface": "己",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "referent_role": "third_person",
+        "quote": "不欲人在己前",
+        "note": "敘華自視。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line014:m0166",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line014",
+        "start": 166,
+        "end": 168,
+        "surface": "殿下",
+        "person_id": "3bh_k4m_fg4",
+        "referent_role": "third_person",
+        "quote": "必是殿下出行",
+        "note": "王華對左右佯指江陵府主劉義隆出行。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line016:m0039",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+        "start": 39,
+        "end": 41,
+        "surface": "廢主",
+        "person_id": "0ab_f5d_337",
+        "referent_role": "third_person",
+        "quote": "廢主若存",
+        "note": "王華擬述顧命者對已廢少帝的顧慮。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line016:m0092",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+        "start": 92,
+        "end": 94,
+        "surface": "少主",
+        "person_id": "3bh_k4m_fg4",
+        "referent_role": "third_person",
+        "quote": "以少主仰待耳",
+        "note": "王華說權臣所欲擁立的年少府主。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line016:m0120",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+        "start": 120,
+        "end": 121,
+        "surface": "上",
+        "person_id": "3bh_k4m_fg4",
+        "referent_role": "third_person",
+        "quote": "上即位",
+        "note": "入奉大統的劉義隆已即位。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line018:r0200",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start": 200,
+        "end": 201,
+        "surface": "愚",
+        "person_id": "430_f4c_1b9",
+        "referent_role": "speaker_self",
+        "quote": "愚欲使天朝四品官",
+        "note": "甯子於奏中自稱。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line018:r0500",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start": 500,
+        "end": 501,
+        "surface": "愚",
+        "person_id": "430_f4c_1b9",
+        "referent_role": "speaker_self",
+        "quote": "冒昧陳愚",
+        "note": "陳己之愚見。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line020:r0054",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+        "start": 54,
+        "end": 55,
+        "surface": "君",
+        "person_id": "0ab_f5d_337",
+        "referent_role": "third_person",
+        "quote": "此弒君亭",
+        "note": "由少帝遇害之地金昌亭與少帝紀互證。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line022:r0075",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+        "start": 75,
+        "end": 76,
+        "surface": "弟",
+        "person_id": "7r6_k52_qji_ABAAAAE",
+        "referent_role": "third_person",
+        "quote": "而弟曇首",
+        "note": "王弘之弟。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line022:r0092",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+        "start": 92,
+        "end": 93,
+        "surface": "己",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "referent_role": "third_person",
+        "quote": "華嘗謂己力用不盡",
+        "note": "王華自言才力未盡用。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line022:m0144",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+        "start": 144,
+        "end": 145,
+        "surface": "上",
+        "person_id": "3bh_k4m_fg4",
+        "referent_role": "third_person",
+        "quote": "上思誅羨之之功",
+        "note": "九年追封的下令者。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line024:r0000",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+        "start": 0,
+        "end": 1,
+        "surface": "子",
+        "person_id": "7r6_k52_qji_ABAAFABA",
+        "referent_role": "third_person",
+        "quote": "子定侯嗣",
+        "note": "王華之子名嗣。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line024:r0014",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+        "start": 14,
+        "end": 15,
+        "surface": "子",
+        "person_id": "7r6_k52_qji_ABAAFABAA",
+        "referent_role": "third_person",
+        "quote": "子長嗣",
+        "note": "長為嗣之子，句末嗣是承爵動詞。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line024:r0033",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+        "start": 33,
+        "end": 34,
+        "surface": "弟",
+        "person_id": "02c_86e_5a9",
+        "referent_role": "third_person",
+        "quote": "長弟終",
+        "note": "由長言其弟，未載同母。"
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou:line026:r0001",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line026",
+        "start": 1,
+        "end": 4,
+        "surface": "從父弟",
+        "person_id": "95d_c34_dd3",
+        "referent_role": "third_person",
+        "quote": "華從父弟鴻",
+        "note": "由王華言同宗父輩之下的弟輩同行，不列鴻父名。"
+      },
       {
         "id": "c-songshu-063-wanghua-tanshou:line029:r0010",
         "paragraph_id": "c-songshu-063-wanghua-tanshou:line029",
@@ -558,6 +822,49 @@
           "surface": "不就"
         },
         "interpretation_note": "本段承開傳王曇首。「除著作郎，不就」記有除命而未就。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-song063-wanghua-digital-xiaoqi",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "person_mention_id": "c-songshu-063-wanghua-tanshou:line016:m0125",
+        "title": "驍騎將軍",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "non_assumption_kind": "did_not_take_up",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+          "start": 131,
+          "end": 135,
+          "surface": "驍騎將軍"
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+          "start": 130,
+          "end": 131,
+          "surface": "領"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+          "start": 136,
+          "end": 138,
+          "surface": "未拜"
+        },
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-063",
+            "source_id": "s-songshu-063-wanghua-tanshou",
+            "chapter_id": "c-songshu-063-wanghua-tanshou",
+            "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+            "quote": "以華為侍中，領驍騎將軍，未拜，轉右衞將軍，侍中如故。",
+            "person_mention_id": "c-songshu-063-wanghua-tanshou:line016:m0125"
+          }
+        ],
+        "interpretation_note": "領驍騎將軍而未拜便轉右衞，侍中如故；未載辭讓。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
@@ -839,6 +1146,497 @@
           "7r6_k52_qji_ABAAAAEB"
         ],
         "interpretation_note": "僧綽嗣；僧虔為少子，昇明末為尚書令。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+          "start": 51,
+          "end": 64,
+          "surface": "晉隆安初，王恭起兵討王國寶"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+          "quote": "晉隆安初，王恭起兵討王國寶"
+        },
+        "event_type": "dated_campaign",
+        "person_ids": [
+          "7r6_k52_qji_ABAAFA",
+          "7r6_k52_qji_ABAAFAB",
+          "50j_txw_zn0",
+          "a8f_ec8_e74_AAAAAC"
+        ],
+        "interpretation_note": "《晉書》安帝紀分記隆安元年四月王恭舉兵，五月王廞反。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+          "start": 147,
+          "end": 163,
+          "surface": "廞敗走，不知所在。長子泰為恭所殺"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+          "quote": "廞敗走，不知所在。長子泰為恭所殺"
+        },
+        "event_type": "loss_and_death",
+        "person_ids": [
+          "7r6_k52_qji_ABAAFA",
+          "7r6_k52_qji_ABAAFAA",
+          "50j_txw_zn0"
+        ],
+        "interpretation_note": "失蹤者廞，遇害者泰。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+          "start": 164,
+          "end": 173,
+          "surface": "華時年十三，在軍中"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+          "quote": "華時年十三，在軍中"
+        },
+        "event_type": "age_at_separation",
+        "person_ids": [
+          "7r6_k52_qji_ABAAFAB",
+          "7r6_k52_qji_ABAAFA"
+        ],
+        "interpretation_note": "數位據南史校十三，宋殿本十二。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line012",
+          "start": 10,
+          "end": 30,
+          "surface": "以父存亡不測，布衣蔬食不交游，如此十餘年"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line012",
+          "quote": "以父存亡不測，布衣蔬食不交游，如此十餘年"
+        },
+        "event_type": "mourning_uncertainty",
+        "person_ids": [
+          "7r6_k52_qji_ABAAFAB",
+          "7r6_k52_qji_ABAAFA"
+        ],
+        "interpretation_note": "十餘年是行為所歷時長，並非明載年齡。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line012",
+          "start": 38,
+          "end": 56,
+          "surface": "高祖欲收其才用，乃發廞喪問，使華制服"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line012",
+          "quote": "高祖欲收其才用，乃發廞喪問，使華制服"
+        },
+        "event_type": "mourning_announcement",
+        "person_ids": [
+          "3qs_nqa_ioa_AAA",
+          "7r6_k52_qji_ABAAFA",
+          "7r6_k52_qji_ABAAFAB"
+        ],
+        "interpretation_note": "宋稱劉裕發喪問，晉書廞附傳則稱從兄謐告死所。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line014",
+          "start": 0,
+          "end": 28,
+          "surface": "服闋，高祖北伐長安，領鎮西將軍、北徐州刺史，辟華為州主簿"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line014",
+          "quote": "服闋，高祖北伐長安，領鎮西將軍、北徐州刺史，辟華為州主簿"
+        },
+        "event_type": "appointment",
+        "person_ids": [
+          "3qs_nqa_ioa_AAA",
+          "7r6_k52_qji_ABAAFAB"
+        ],
+        "interpretation_note": "兩項領職係高祖；王華受辟為州主簿。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line014",
+          "start": 188,
+          "end": 218,
+          "surface": "邵白服登城，為華所糾，坐被徵，華代為司馬、南郡太守，行府州事"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line014",
+          "quote": "邵白服登城，為華所糾，坐被徵，華代為司馬、南郡太守，行府州事"
+        },
+        "event_type": "office_succession",
+        "person_ids": [
+          "d50_8f5_wul_AAAC",
+          "7r6_k52_qji_ABAAFAB"
+        ],
+        "interpretation_note": "前司馬為張邵；王華繼任的司馬見「華代為」後。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+          "start": 72,
+          "end": 82,
+          "surface": "且三人勢均，莫相推伏"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+          "quote": "且三人勢均，莫相推伏"
+        },
+        "event_type": "collective_reference",
+        "person_ids": [
+          "4y6_myv_ojh",
+          "2dj_m53_6zg",
+          "aa6_83c_juy_AAAA"
+        ],
+        "interpretation_note": "南史列羨之、亮、晦，又邀檀道濟、王弘，分三人與五人。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+          "start": 124,
+          "end": 149,
+          "surface": "以華為侍中，領驍騎將軍，未拜，轉右衞將軍，侍中如故"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+          "quote": "以華為侍中，領驍騎將軍，未拜，轉右衞將軍，侍中如故"
+        },
+        "event_type": "office_transition",
+        "person_ids": [
+          "3bh_k4m_fg4",
+          "7r6_k52_qji_ABAAFAB"
+        ],
+        "interpretation_note": "轉右衞之前所領驍騎尚未拜，侍中仍在。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+          "start": 38,
+          "end": 53,
+          "surface": "甯子先為高祖太尉主簿，陳損益曰"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+          "quote": "甯子先為高祖太尉主簿，陳損益曰"
+        },
+        "event_type": "quoted_memorial",
+        "person_ids": [
+          "430_f4c_1b9",
+          "3qs_nqa_ioa_AAA"
+        ],
+        "interpretation_note": "以下自「隆化之道」至「退懼違謬」均係孔甯子奏。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+          "start": 214,
+          "end": 226,
+          "surface": "各舉一人堪為二千石長吏者"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+          "quote": "各舉一人堪為二千石長吏者"
+        },
+        "event_type": "selection_proposal",
+        "person_ids": [
+          "430_f4c_1b9"
+        ],
+        "interpretation_note": "議四品官及外守牧各舉一人，非王華與甯子的授職。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+          "start": 346,
+          "end": 365,
+          "surface": "治阿之宰，不必計年，免徒之守，豈限資秩"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+          "quote": "治阿之宰，不必計年，免徒之守，豈限資秩"
+        },
+        "event_type": "historical_analogies",
+        "person_ids": [
+          "430_f4c_1b9"
+        ],
+        "interpretation_note": "治阿與子奇治阿相應；魏尚赦後復守雲中有相似事跡，未得明指，另列候考。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+          "start": 52,
+          "end": 61,
+          "surface": "此弒君亭，不可泊也"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+          "quote": "此弒君亭，不可泊也"
+        },
+        "event_type": "royal_death_allusion",
+        "person_ids": [
+          "430_f4c_1b9",
+          "0ab_f5d_337"
+        ],
+        "interpretation_note": "金昌亭所弒之君見少帝紀；發話者為甯子。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+          "start": 63,
+          "end": 77,
+          "surface": "華每閑居諷詠，常誦王粲登樓賦"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+          "quote": "華每閑居諷詠，常誦王粲登樓賦"
+        },
+        "event_type": "quoted_poem",
+        "person_ids": [
+          "7r6_k52_qji_ABAAFAB",
+          "ad4_a63_862"
+        ],
+        "interpretation_note": "王華誦之，王粲作之。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+          "start": 120,
+          "end": 147,
+          "surface": "元嘉二年，甯子病卒。三年，誅羨之等，華遷護軍，侍中如故"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+          "quote": "元嘉二年，甯子病卒。三年，誅羨之等，華遷護軍，侍中如故"
+        },
+        "event_type": "chronology",
+        "person_ids": [
+          "430_f4c_1b9",
+          "4y6_myv_ojh",
+          "7r6_k52_qji_ABAAFAB"
+        ],
+        "interpretation_note": "甯子425年病卒，426年王華遷護軍，本紀作中護軍。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+          "start": 119,
+          "end": 129,
+          "surface": "四年，卒，時年四十三"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+          "quote": "四年，卒，時年四十三"
+        },
+        "event_type": "death",
+        "person_ids": [
+          "7r6_k52_qji_ABAAFAB"
+        ],
+        "interpretation_note": "元嘉四年；文帝紀五月壬午。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+          "start": 141,
+          "end": 168,
+          "surface": "九年，上思誅羨之之功，追封新建縣侯，食邑千戶，諡曰宣侯"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+          "quote": "九年，上思誅羨之之功，追封新建縣侯，食邑千戶，諡曰宣侯"
+        },
+        "event_type": "posthumous_honours",
+        "person_ids": [
+          "7r6_k52_qji_ABAAFAB",
+          "3bh_k4m_fg4",
+          "4y6_myv_ojh"
+        ],
+        "interpretation_note": "元嘉九年（432），食邑千戶；父王華兩宋書見證均諡宣。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+          "start": 169,
+          "end": 180,
+          "surface": "世祖即位，配饗太祖廟庭"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+          "quote": "世祖即位，配饗太祖廟庭"
+        },
+        "event_type": "temple_commemoration",
+        "person_ids": [
+          "7r6_k52_qji_ABAAFAB",
+          "hx8_st4_jdd",
+          "3bh_k4m_fg4"
+        ],
+        "interpretation_note": "劉駿即位後，配饗劉義隆廟庭，無日。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+          "start": 0,
+          "end": 13,
+          "surface": "子定侯嗣，官至左衞將軍，卒"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+          "quote": "子定侯嗣，官至左衞將軍，卒"
+        },
+        "event_type": "succession_and_death",
+        "person_ids": [
+          "7r6_k52_qji_ABAAFAB",
+          "7r6_k52_qji_ABAAFABA"
+        ],
+        "interpretation_note": "嗣是王華子之名；此處數位據南史改定侯，殿本實刊宣侯。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+          "start": 14,
+          "end": 37,
+          "surface": "子長嗣，太宗泰始二年，坐罵母奪爵，以長弟終紹封"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+          "quote": "子長嗣，太宗泰始二年，坐罵母奪爵，以長弟終紹封"
+        },
+        "event_type": "forfeiture_and_succession",
+        "person_ids": [
+          "7r6_k52_qji_ABAAFABA",
+          "7r6_k52_qji_ABAAFABAA",
+          "a8a_efe_03b",
+          "02c_86e_5a9"
+        ],
+        "interpretation_note": "466年，長失爵，終承封；所罵之母姓名不詳。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+          "start": 38,
+          "end": 64,
+          "surface": "後廢帝元徽三年，終上表乞以封還長，許之。齊受禪，國除"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+          "quote": "後廢帝元徽三年，終上表乞以封還長，許之。齊受禪，國除"
+        },
+        "event_type": "restoration_and_abolition",
+        "person_ids": [
+          "02c_86e_5a9",
+          "7r6_k52_qji_ABAAFABAA"
+        ],
+        "interpretation_note": "475年弟請還封於兄，獲准；齊代宋（479）國除。"
+      },
+      {
+        "source_anchor": {
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line026",
+          "start": 0,
+          "end": 15,
+          "surface": "華從父弟鴻，五兵尚書，會稽太守"
+        },
+        "evidence": {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wanghua-tanshou",
+          "source_id": "s-songshu-063-wanghua-tanshou",
+          "paragraph_id": "c-songshu-063-wanghua-tanshou:line026",
+          "quote": "華從父弟鴻，五兵尚書，會稽太守"
+        },
+        "event_type": "kinship_and_offices",
+        "person_ids": [
+          "7r6_k52_qji_ABAAFAB",
+          "95d_c34_dd3"
+        ],
+        "interpretation_note": "鴻有兩項職銜。南史接錄另一從父弟琨，二人分號。"
       }
     ],
     "source_unit_reviews": [
@@ -861,18 +1659,642 @@
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
+      },
+      {
+        "title": "王華",
+        "source_revision": 2118589,
+        "complete_biography_unit": true,
+        "paragraph_ids": [
+          "c-songshu-063-wanghua-tanshou:line010",
+          "c-songshu-063-wanghua-tanshou:line012",
+          "c-songshu-063-wanghua-tanshou:line014",
+          "c-songshu-063-wanghua-tanshou:line016",
+          "c-songshu-063-wanghua-tanshou:line018",
+          "c-songshu-063-wanghua-tanshou:line020",
+          "c-songshu-063-wanghua-tanshou:line022"
+        ],
+        "paragraph_slices": {},
+        "first_line": 10,
+        "last_line": 22,
+        "review_status": "reviewed",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "逐段及跨段承接核讀；未名古例及各版本歧文見逐項校讀。"
+      },
+      {
+        "title": "王嗣",
+        "source_revision": 2118589,
+        "complete_biography_unit": true,
+        "paragraph_ids": [
+          "c-songshu-063-wanghua-tanshou:line024"
+        ],
+        "paragraph_slices": {
+          "c-songshu-063-wanghua-tanshou:line024": {
+            "start": 0,
+            "end": 14
+          }
+        },
+        "first_line": 24,
+        "last_line": 24,
+        "review_status": "reviewed",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "逐段及跨段承接核讀；未名古例及各版本歧文見逐項校讀。"
+      },
+      {
+        "title": "王長、王終承封",
+        "source_revision": 2118589,
+        "complete_biography_unit": true,
+        "paragraph_ids": [
+          "c-songshu-063-wanghua-tanshou:line024"
+        ],
+        "paragraph_slices": {
+          "c-songshu-063-wanghua-tanshou:line024": {
+            "start": 14,
+            "end": 65
+          }
+        },
+        "first_line": 24,
+        "last_line": 24,
+        "review_status": "reviewed",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "逐段及跨段承接核讀；未名古例及各版本歧文見逐項校讀。"
+      },
+      {
+        "title": "王鴻",
+        "source_revision": 2118589,
+        "complete_biography_unit": true,
+        "paragraph_ids": [
+          "c-songshu-063-wanghua-tanshou:line026"
+        ],
+        "paragraph_slices": {},
+        "first_line": 26,
+        "last_line": 26,
+        "review_status": "reviewed",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "逐段及跨段承接核讀；未名古例及各版本歧文見逐項校讀。"
+      },
+      {
+        "title": "孔甯子",
+        "source_revision": 2118589,
+        "complete_biography_unit": true,
+        "paragraph_ids": [
+          "c-songshu-063-wanghua-tanshou:line018",
+          "c-songshu-063-wanghua-tanshou:line020"
+        ],
+        "paragraph_slices": {
+          "c-songshu-063-wanghua-tanshou:line020": [
+            {
+              "start": 0,
+              "end": 63
+            },
+            {
+              "start": 120,
+              "end": 130
+            }
+          ]
+        },
+        "first_line": 18,
+        "last_line": 20,
+        "review_status": "reviewed",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "note": "逐段及跨段承接核讀；未名古例及各版本歧文見逐項校讀。"
       }
     ],
     "biography_source_reviews": {
-      "王曇首·武英殿逐欄對讀": "source-evidence/song063-wang/wyd-reading.json"
-    }
+      "王曇首·武英殿逐欄對讀": "source-evidence/song063-wang/wyd-reading.json",
+      "王華及附敘·逐項校讀": "source-evidence/song063-wanghua/reading.json"
+    },
+    "source_reading_cases": [
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-1",
+        "kind": "primary_source_comparison",
+        "note": "該紀下接四月王恭舉兵、五月王廞反，錨在397。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "晉隆安初",
+        "reading": "隆安元年",
+        "reference": "晉書·安帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567072",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start_codepoint": 51,
+        "end_codepoint": 55,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-2",
+        "kind": "primary_source_comparison",
+        "note": "本紀具月日，第一起兵者王恭、庾楷。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "王恭起兵討王國寶",
+        "reading": "夏四月甲戌，兗州刺史王恭，豫州刺史庾楷舉兵，以討尚書左僕射王國寶、建威將軍王緒爲名。",
+        "reference": "晉書·安帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567072",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start_codepoint": 56,
+        "end_codepoint": 64,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-3",
+        "kind": "primary_source_comparison",
+        "note": "廞以吳郡反另在五月。",
+        "person_id": "7r6_k52_qji_ABAAFA",
+        "source_quote": "廞起兵之際",
+        "reading": "五月，前司徒長史王廞以吳郡反，王恭討平之。",
+        "reference": "晉書·安帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567072",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start_codepoint": 112,
+        "end_codepoint": 117,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-4",
+        "kind": "primary_source_comparison",
+        "note": "同一救華脫津邏場景，僧名冰、永分見。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "隨沙門釋曇永逃竄",
+        "reading": "隨沙門釋曇冰逃",
+        "reference": "南史·王華傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start_codepoint": 179,
+        "end_codepoint": 187,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-5",
+        "kind": "primary_source_comparison",
+        "note": "南史卷內承王誕。兩處稱從祖弟，所相比的人不同。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "太保弘從祖弟也",
+        "reading": "誕從祖弟也",
+        "reference": "南史·王華傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start_codepoint": 12,
+        "end_codepoint": 19,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-6",
+        "kind": "primary_source_comparison",
+        "note": "宋數位本明注此數據南史改，並非兩個獨立傳本共同支持十三。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "華時年十三",
+        "reading": "華時年十三在軍中",
+        "reference": "南史·王華傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start_codepoint": 164,
+        "end_codepoint": 169,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-7",
+        "kind": "primary_source_comparison",
+        "note": "晉書說王謐告死所；宋書記劉裕出喪問。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "乃發廞喪問",
+        "reading": "從兄謐言其死所，華始發喪，入仕",
+        "reference": "晉書·王廞附傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1756144",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line012",
+        "start_codepoint": 46,
+        "end_codepoint": 51,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-8",
+        "kind": "primary_source_comparison",
+        "note": "王華任司馬的位置是本段第二個司馬，前任張邵。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "華代為司馬",
+        "reading": "邵坐被征，華代為司馬",
+        "reference": "南史·王華傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line014",
+        "start_codepoint": 203,
+        "end_codepoint": 208,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-9",
+        "kind": "primary_source_comparison",
+        "note": "基本三人為徐羨之、傅亮、謝晦；另邀檀道濟、王弘得五人。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "且三人勢均",
+        "reading": "羨之、亮、晦又要檀道濟、王弘五人同功",
+        "reference": "南史·王華傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line016",
+        "start_codepoint": 72,
+        "end_codepoint": 77,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-10",
+        "kind": "primary_source_comparison",
+        "note": "「師錫」在薦舜語境。下句「僉曰」另見舉鯀等事，非一處逐字連文。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "師錫僉曰",
+        "reading": "師錫",
+        "reference": "尚書·堯典",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=10640694",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 102,
+        "end_codepoint": 106,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-11",
+        "kind": "primary_source_comparison",
+        "note": "此處僉曰議用鯀；與薦舜別事。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "師錫僉曰",
+        "reading": "僉曰：「於，鯀哉！」",
+        "reference": "尚書·堯典",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=10640694",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 102,
+        "end_codepoint": 106,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-12",
+        "kind": "primary_source_comparison",
+        "note": "泰初九有此爻辭，孔奏自用「幽賁」一語。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "拔茅征吉，著於幽賁之爻",
+        "reading": "初九：拔茅茹以其彙，征吉。",
+        "reference": "周易·泰",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2106138",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 114,
+        "end_codepoint": 125,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-13",
+        "kind": "primary_source_comparison",
+        "note": "象辭連書四字與奏合。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "拔茅征吉",
+        "reading": "拔茅征吉，志在外也",
+        "reference": "周易·泰·象",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2106138",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 114,
+        "end_codepoint": 118,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-14",
+        "kind": "primary_source_comparison",
+        "note": "瓜衍為士伯所受，桓子受狄臣；兩種賞區分。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "瓜衍作賞",
+        "reading": "晉侯賞桓子狄臣千室，亦賞士伯以瓜衍之縣",
+        "reference": "左傳·宣公十五年",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2676002",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 131,
+        "end_codepoint": 135,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-15",
+        "kind": "primary_source_comparison",
+        "note": "蒍賈以子文薦子玉而可能敗國為憂；非孔甯子時同僚。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "蒍賈不賀",
+        "reading": "國老皆賀子文，子文飲之酒。蒍賈尚幼，後至，不賀。",
+        "reference": "左傳·僖公二十七年",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=12913623",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 141,
+        "end_codepoint": 145,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-16",
+        "kind": "primary_source_comparison",
+        "note": "韶、武是兩部樂舞，就美善之別論。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "韶之盡美",
+        "reading": "子謂韶：「盡美矣，又盡善也。」謂武：「盡美矣，未盡善也。」",
+        "reference": "論語·八佾",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2200702",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 157,
+        "end_codepoint": 161,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-17",
+        "kind": "primary_source_comparison",
+        "note": "原章仲弓問政，孔子答舉才；此為引古。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "舉爾所知",
+        "reading": "擧爾所知。爾所不知，人其舍諸？",
+        "reference": "論語·子路",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=11118102",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 260,
+        "end_codepoint": 264,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-18",
+        "kind": "primary_source_comparison",
+        "note": "同地、少而能治與不必計年相合。奏中未出子奇名，十六僅繫古例。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "治阿之宰",
+        "reading": "子奇年十六，齊君使治阿。",
+        "reference": "意林卷三引新序",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=365724",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 346,
+        "end_codepoint": 350,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-19",
+        "kind": "primary_source_comparison",
+        "note": "魏尚曾因上功失實罰作、得赦復守，事類相合；無明文指為奏中此人。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "免徒之守",
+        "reading": "令馮唐持節赦魏尚，復以爲雲中守",
+        "reference": "史記·馮唐列傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1753957",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 356,
+        "end_codepoint": 360,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-20",
+        "kind": "primary_source_comparison",
+        "note": "亦見馮唐持節，非獨立證明孔奏所指。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "免徒之守",
+        "reading": "令唐持節赦魏尚，復以為雲中守",
+        "reference": "漢書·馮唐傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2101579",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 356,
+        "end_codepoint": 360,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-21",
+        "kind": "primary_source_comparison",
+        "note": "顏淵問仁；甯子奏改述其意。",
+        "person_id": "430_f4c_1b9",
+        "source_quote": "仁必由己",
+        "reading": "爲仁由己，而由人乎哉？",
+        "reference": "論語·顏淵",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=12969984",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line018",
+        "start_codepoint": 466,
+        "end_codepoint": 470,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-22",
+        "kind": "primary_source_comparison",
+        "note": "本紀直敘劉義符遇害；孔甯子拒泊其亭。",
+        "person_id": "0ab_f5d_337",
+        "source_quote": "弒君亭",
+        "reading": "中書舍人邢安泰弒帝於金昌亭",
+        "reference": "宋書·少帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2309989",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+        "start_codepoint": 53,
+        "end_codepoint": 56,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-23",
+        "kind": "primary_source_comparison",
+        "note": "賦本文有兮；宋書敘王華所誦無兮。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "冀王道之一平，假高衢而騁力",
+        "reading": "冀王道之一平兮，假高衢而騁力。",
+        "reference": "王粲·登樓賦",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1968766",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+        "start_codepoint": 80,
+        "end_codepoint": 93,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-24",
+        "kind": "primary_source_comparison",
+        "note": "本紀以有罪伏誅括徐、傅，另遣將討謝晦。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "三年，誅羨之等",
+        "reading": "左光祿大夫傅亮，有罪伏誅",
+        "reference": "宋書·文帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2370105",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+        "start_codepoint": 130,
+        "end_codepoint": 137,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-25",
+        "kind": "primary_source_comparison",
+        "note": "本傳敘徐羨之自剄，王華、到彥之受命追討。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "三年，誅羨之等",
+        "reading": "步走至新林，入陶竈中自剄死",
+        "reference": "宋書·徐羨之傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2256870",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+        "start_codepoint": 130,
+        "end_codepoint": 137,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-26",
+        "kind": "primary_source_comparison",
+        "note": "元嘉三年（426），本紀官名加中字。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "華遷護軍",
+        "reading": "以右衞王華為中護軍",
+        "reference": "宋書·文帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2370105",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line020",
+        "start_codepoint": 138,
+        "end_codepoint": 142,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-27",
+        "kind": "primary_source_comparison",
+        "note": "同紀第48行標四年，427年；五月壬午為中國曆。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "四年，卒",
+        "reading": "五月壬午，中護軍王華卒。",
+        "reference": "宋書·文帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2370105",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line022",
+        "start_codepoint": 119,
+        "end_codepoint": 123,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-28",
+        "kind": "primary_source_comparison",
+        "note": "王華子名嗣，以新建為封號；未明其諡。",
+        "person_id": "7r6_k52_qji_ABAAFABA",
+        "source_quote": "子定侯嗣",
+        "reading": "華子嗣人才既劣，位遇亦輕",
+        "reference": "宋書·王僧綽傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2485515",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+        "start_codepoint": 0,
+        "end_codepoint": 4,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-29",
+        "kind": "primary_source_comparison",
+        "note": "數位宋書改定侯所據；第一嗣為名，後一嗣為動詞。",
+        "person_id": "7r6_k52_qji_ABAAFABA",
+        "source_quote": "子定侯嗣",
+        "reading": "子定侯嗣，卒。子長嗣",
+        "reference": "南史·王華傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+        "start_codepoint": 0,
+        "end_codepoint": 4,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-30",
+        "kind": "primary_source_comparison",
+        "note": "南史佟／詔對宋書終／紹。",
+        "person_id": "02c_86e_5a9",
+        "source_quote": "以長弟終紹封",
+        "reading": "以長弟佟詔封",
+        "reference": "南史·王華傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+        "start_codepoint": 31,
+        "end_codepoint": 37,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-31",
+        "kind": "primary_source_comparison",
+        "note": "另記王琨覆奏，無長與佟同母之證。",
+        "person_id": "02c_86e_5a9",
+        "source_quote": "以長弟終紹封",
+        "reading": "請以長小弟佟嗣焉",
+        "reference": "南史·王琨傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+        "start_codepoint": 31,
+        "end_codepoint": 37,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-reading-32",
+        "kind": "primary_source_comparison",
+        "note": "同稱從父弟只說親屬類別，鴻、琨分別存號。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "華從父弟鴻",
+        "reading": "琨，華從父弟也。",
+        "reference": "南史·王琨傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line026",
+        "start_codepoint": 0,
+        "end_codepoint": 5,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-print-1",
+        "kind": "witness_collation",
+        "note": "殿本將軍號作列。",
+        "person_id": "7r6_k52_qji_ABAAFAC",
+        "source_quote": "貞烈將軍",
+        "reading": "貞列將軍",
+        "reference": "武英殿本《宋書》卷六十三王華傳及附敘",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf#page=15",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start_codepoint": 89,
+        "end_codepoint": 93,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-print-2",
+        "kind": "witness_collation",
+        "note": "殿本闕廞罷兵三字，宋數位本依南史補。",
+        "person_id": "7r6_k52_qji_ABAAFA",
+        "source_quote": "恭檄廞罷兵。廞起兵之際",
+        "reading": "恭檄廞起兵之際",
+        "reference": "武英殿本《宋書》卷六十三王華傳及附敘",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf#page=15",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start_codepoint": 106,
+        "end_codepoint": 117,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-print-3",
+        "kind": "witness_collation",
+        "note": "兩本報齡不同，殿本十二。",
+        "person_id": "7r6_k52_qji_ABAAFAB",
+        "source_quote": "華時年十三",
+        "reading": "華時年十二",
+        "reference": "武英殿本《宋書》卷六十三王華傳及附敘",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf#page=15",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line010",
+        "start_codepoint": 164,
+        "end_codepoint": 169,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-print-4",
+        "kind": "witness_collation",
+        "note": "殿本作征，數位本作鎮。",
+        "person_id": "3bh_k4m_fg4",
+        "source_quote": "太祖鎮江陵",
+        "reading": "太祖征江陵",
+        "reference": "武英殿本《宋書》卷六十三王華傳及附敘",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf#page=16",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line014",
+        "start_codepoint": 47,
+        "end_codepoint": 52,
+        "human_reviewed": false
+      },
+      {
+        "id": "c-songshu-063-wanghua-tanshou-wanghua-print-5",
+        "kind": "witness_collation",
+        "note": "殿本父子皆作宣，宋數位本依南史改子諡。",
+        "person_id": "7r6_k52_qji_ABAAFABA",
+        "source_quote": "子定侯嗣",
+        "reading": "子宣侯嗣",
+        "reference": "武英殿本《宋書》卷六十三王華傳及附敘",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12245_二十四史_第147冊.pdf#page=18",
+        "paragraph_id": "c-songshu-063-wanghua-tanshou:line024",
+        "start_codepoint": 0,
+        "end_codepoint": 4,
+        "human_reviewed": false
+      }
+    ]
   },
   "paragraphs": [
     {
       "id": "c-songshu-063-wanghua-tanshou:line010",
       "text": "王華字子陵，琅邪臨沂人，太保弘從祖弟也。祖薈，衞將軍，會稽內史。父廞，太子中庶子，司徒左長史。居在吳，晉隆安初，王恭起兵討王國寶，時廞丁母憂在家，恭檄令起兵，廞即聚眾應之，以女為貞烈將軍，以女人為官屬。國寶既死，恭檄廞罷兵。廞起兵之際，多所誅戮，至是不復得已，因舉兵以討恭為名。恭遣劉牢之擊廞，廞敗走，不知所在。長子泰為恭所殺。華時年十三，在軍中，與廞相失，隨沙門釋曇永逃竄。時牢之搜檢覔華甚急，曇永使華提衣幞隨後，津邏咸疑焉。華行遲，永呵罵云：「奴子怠懈，行不及我！」以杖捶華數十，眾乃不疑，由此得免。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-063-wanghua-tanshou:line010:m0000",
@@ -1163,24 +2585,6 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-songshu-063-wanghua-tanshou:line010:m0224",
-          "start": 224,
-          "end": 226,
-          "surface": "奴子",
-          "kind": "person",
-          "person_id": "7r6_k52_qji_ABAAFAB",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-songshu-063-wanghua-tanshou:line010:m0232",
-          "start": 232,
-          "end": 233,
-          "surface": "我",
-          "kind": "person",
-          "person_id": "58f_d92_1b5",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-songshu-063-wanghua-tanshou:line010:m0238",
           "start": 238,
           "end": 239,
@@ -1201,7 +2605,7 @@
       "id": "c-songshu-063-wanghua-tanshou:line012",
       "text": "遇赦還吳。少有志行，以父存亡不測，布衣蔬食不交游，如此十餘年，為時人所稱美。高祖欲收其才用，乃發廞喪問，使華制服。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-063-wanghua-tanshou:line012:m0011",
@@ -1251,7 +2655,7 @@
       "id": "c-songshu-063-wanghua-tanshou:line014",
       "text": "服闋，高祖北伐長安，領鎮西將軍、北徐州刺史，辟華為州主簿，仍轉鎮西主簿，治中從事史，歷職著稱。太祖鎮江陵，以為西中郎主簿，遷諮議參軍，領錄事。太祖進號鎮西，復隨府轉。太祖未親政，政事悉委司馬張邵。華性尚物，不欲人在己前，邵性豪，每行來常引夾轂，華出入乘牽車，從者不過二三以矯之。嘗於城內相逢，華陽不知是邵，謂左右：「此鹵簿甚盛，必是殿下出行。」乃下牽車，立於道側，及邵至乃驚。邵白服登城，為華所糾，坐被徵，華代為司馬、南郡太守，行府州事。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-063-wanghua-tanshou:line014:m0003",
@@ -1353,15 +2757,6 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-songshu-063-wanghua-tanshou:line014:m0166",
-          "start": 166,
-          "end": 168,
-          "surface": "殿下",
-          "kind": "person",
-          "person_id": "3bh_k4m_fg4",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-songshu-063-wanghua-tanshou:line014:m0183",
           "start": 183,
           "end": 184,
@@ -1409,7 +2804,7 @@
       "id": "c-songshu-063-wanghua-tanshou:line016",
       "text": "太祖入奉大統，以少帝見害，疑不敢下。華建議曰：「羨之等受寄崇重，未容便敢背德，廢主若存，慮其將來受禍，致此殺害。蓋由每生情多，寧敢一朝頓懷逆志。且三人勢均，莫相推伏，不過欲握權自固，以少主仰待耳。今日就徵，萬無所慮。」太祖從之，留華總後任。上即位，以華為侍中，領驍騎將軍，未拜，轉右衞將軍，侍中如故。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-063-wanghua-tanshou:line016:m0000",
@@ -1448,15 +2843,6 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-songshu-063-wanghua-tanshou:line016:m0039",
-          "start": 39,
-          "end": 41,
-          "surface": "廢主",
-          "kind": "person",
-          "person_id": "0ab_f5d_337",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-songshu-063-wanghua-tanshou:line016:m0073",
           "start": 73,
           "end": 75,
@@ -1464,15 +2850,6 @@
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved"
-        },
-        {
-          "id": "c-songshu-063-wanghua-tanshou:line016:m0092",
-          "start": 92,
-          "end": 94,
-          "surface": "少主",
-          "kind": "person",
-          "person_id": "3bh_k4m_fg4",
-          "status": "contextual_provisional"
         },
         {
           "id": "c-songshu-063-wanghua-tanshou:line016:m0109",
@@ -1490,15 +2867,6 @@
           "surface": "華",
           "kind": "person",
           "person_id": "7r6_k52_qji_ABAAFAB",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-songshu-063-wanghua-tanshou:line016:m0120",
-          "start": 120,
-          "end": 121,
-          "surface": "上",
-          "kind": "person",
-          "person_id": "3bh_k4m_fg4",
           "status": "contextual_provisional"
         },
         {
@@ -1522,7 +2890,7 @@
       "id": "c-songshu-063-wanghua-tanshou:line018",
       "text": "先是，會稽孔甯子為太祖鎮西諮議參軍，以文義見賞，至是為黃門侍郎，領步兵校尉。甯子先為高祖太尉主簿，陳損益曰：「隆化之道，莫先於官得其才；枚卜之方，莫若人慎其舉。雖復因革不同，損益有物，求賢審官，未之或改。師錫僉曰，煥乎欽明之誥，拔茅征吉，著於幽賁之爻。晉師有成，瓜衍作賞，楚乘無入，蒍賈不賀。今舊命惟新，幽人引領，韶之盡美，已備於振綱；武之未盡，或存於理目。雖九官之職，未可備舉，親民之選，尤宜在先。愚欲使天朝四品官，外及守牧，各舉一人堪為二千石長吏者，以付選官，隨缺敍用，得賢受賞，失舉任罰。夫惟帝之難，豈庸識所易，然舉爾所知，非求多人，因百官之明，孰與一識之見，執咎在己，豈容徇物之私。今非以選曹所銓，果於乖謬，眾職所舉，必也惟良，蓋宜使求賢闢其廣塗，考績取其少殿。若才實拔羣，進宜尚德，治阿之宰，不必計年，免徒之守，豈限資秩。自此以還，故當才均以資，資均以地。宰莅之官，誠曰吏職，然監觀民瘼，翼化宣風，則隱厚之求，急於刀筆，能事之功，接於德心，以此論才，行之年歲，豈惟政無秕蠹，民庇手足而已，將使公路日清，私請漸塞。士多心競，仁必由己，處士砥自求之節，仕子藏交馳之情。甯子庸微，不識治體，冒昧陳愚，退懼違謬。」",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-063-wanghua-tanshou:line018:m0005",
@@ -1590,7 +2958,7 @@
       "id": "c-songshu-063-wanghua-tanshou:line020",
       "text": "甯子與華並有富貴之願，自羨之等秉權，日夜構之於太祖。甯子嘗東歸，至金昌亭，左右欲泊船，甯子命去之，曰：「此弒君亭，不可泊也。」華每閑居諷詠，常誦王粲登樓賦曰：「冀王道之一平，假高衢而騁力。」出入逢羨之等，每切齒憤咤，歎曰：「當見太平時不？」元嘉二年，甯子病卒。三年，誅羨之等，華遷護軍，侍中如故。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-063-wanghua-tanshou:line020:m0000",
@@ -1712,7 +3080,7 @@
       "id": "c-songshu-063-wanghua-tanshou:line022",
       "text": "宋世惟華與南陽劉湛不為飾讓，得官即拜，以此為常。華以情事異人，未嘗預宴集，終身不飲酒，有燕不之詣。若宜有論事者，乘車造門，主人出車就之。及王弘輔政，而弟曇首為太祖所任，與華相埒，華嘗謂己力用不盡，每歎息曰：「宰相頓有數人，天下何由得治！」四年，卒，時年四十三。追贈散騎常侍、衞將軍。九年，上思誅羨之之功，追封新建縣侯，食邑千戶，諡曰宣侯。世祖即位，配饗太祖廟庭。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-063-wanghua-tanshou:line022:m0003",
@@ -1787,15 +3155,6 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-songshu-063-wanghua-tanshou:line022:m0144",
-          "start": 144,
-          "end": 145,
-          "surface": "上",
-          "kind": "person",
-          "person_id": "3bh_k4m_fg4",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-songshu-063-wanghua-tanshou:line022:m0147",
           "start": 147,
           "end": 149,
@@ -1834,7 +3193,7 @@
       "id": "c-songshu-063-wanghua-tanshou:line024",
       "text": "子定侯嗣，官至左衞將軍，卒。子長嗣，太宗泰始二年，坐罵母奪爵，以長弟終紹封。後廢帝元徽三年，終上表乞以封還長，許之。齊受禪，國除。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-063-wanghua-tanshou:line024:m0001",
@@ -1929,7 +3288,7 @@
       "id": "c-songshu-063-wanghua-tanshou:line026",
       "text": "華從父弟鴻，五兵尚書，會稽太守。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-songshu-063-wanghua-tanshou:line026:m0000",

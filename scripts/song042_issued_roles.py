@@ -7,6 +7,10 @@ ALLOWED={
 
 
 def verified_roles(ch,p):
+    if ch.get('id') == 'c-songshu-063-wanghua-tanshou':
+        try: from scripts.song063_wanghua_reading import issued_references
+        except ImportError: from song063_wanghua_reading import issued_references
+        return issued_references(ch, p)
     if ch.get('id')!='c-songshu-042-wanghong' or ch.get('source',{}).get('revision_id')!=1478172:
         return []
     found=[]

@@ -81,7 +81,7 @@ export function dutyObservationHTML(record, person) {
 export function sourceDetailsHTML(person, full = true) {
   if (!full) return '';
   const own = new Set([person.id, ...list(person.person_ids)]);
-  const cases = list(person.source_reading_cases).filter(c => c?.kind === 'witness_collation'
+  const cases = list(person.source_reading_cases).filter(c => ['witness_collation', 'primary_source_comparison'].includes(c?.kind)
     && own.has(c.person_id) && text(c.source_quote) && text(c.reading) && text(c.reference));
   const readings = cases.length ? `<section class="person-source-details"><h4>${ui('Witness comparisons')}</h4>${cases.map(c => {
     const source = list(person.sources).find(s => s.source_id === c.source_id && s.chapter_id === c.chapter_id);
