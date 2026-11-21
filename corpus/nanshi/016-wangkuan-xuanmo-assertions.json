@@ -1,0 +1,68 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-016-wangkuan-xuanmo",
+  "assertions": [
+    {
+      "id": "a-xuanmo-nan-kuan-father",
+      "subject_person_id": "31b_fd1_f77_B",
+      "object_person_id": "31b_fd1_f77",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父玄謨",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-016",
+          "chapter_id": "c-nanshi-016-wangkuan-xuanmo",
+          "source_id": "s-nanshi-016-wangkuan-xuanmo-ws1963381",
+          "paragraph_id": "c-nanshi-016-wangkuan-xuanmo:p001",
+          "quote": "深弟寬，泰始初，爲隨郡太守。逢四方反，父玄謨在建鄴，寬棄郡自歸。以母在西，爲賊所執，請西行，遂襲破隨郡，收其母。事平，明帝嘉之，使圖寬形以上。齊永明元年，爲太常，坐于宅殺牛，免官。後卒于光祿大夫。",
+          "subject_person_mention_id": "c-nanshi-016-wangkuan-xuanmo:p001:m0002",
+          "object_person_mention_id": "c-nanshi-016-wangkuan-xuanmo:p001:m0020"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "在建鄴／在都者為寬父玄謨。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-xuanmo-nan-shen-kuan-order",
+      "subject_person_id": "31b_fd1_f77_A",
+      "object_person_id": "31b_fd1_f77_B",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "深弟寬",
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "siblings",
+          "older_person_id": "31b_fd1_f77_A",
+          "younger_person_id": "31b_fd1_f77_B",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-016",
+          "chapter_id": "c-nanshi-016-wangkuan-xuanmo",
+          "source_id": "s-nanshi-016-wangkuan-xuanmo-ws1963381",
+          "paragraph_id": "c-nanshi-016-wangkuan-xuanmo:p001",
+          "quote": "深弟寬，泰始初，爲隨郡太守。逢四方反，父玄謨在建鄴，寬棄郡自歸。以母在西，爲賊所執，請西行，遂襲破隨郡，收其母。事平，明帝嘉之，使圖寬形以上。齊永明元年，爲太常，坐于宅殺牛，免官。後卒于光祿大夫。",
+          "subject_person_mention_id": "c-nanshi-016-wangkuan-xuanmo:p001:m0000",
+          "object_person_mention_id": "c-nanshi-016-wangkuan-xuanmo:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按兄弟原詞存相對長幼。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

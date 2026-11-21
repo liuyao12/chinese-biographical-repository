@@ -9,7 +9,56 @@
     "新野侯義賓",
     "義賓"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-songshu-076-wangxuanmo-ws-3-180",
+      "title": "興安侯",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "person_id": "1f5_x7z_phn",
+      "attestations": [
+        {
+          "id": "th-songshu-076-wangxuanmo-ws-3-180:a",
+          "paragraph_id": "c-songshu-076-wangxuanmo-ws:p003",
+          "start": 180,
+          "end": 183,
+          "surface": "興安侯",
+          "person_mention_id": "c-songshu-076-wangxuanmo-ws:p003:m0183",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-076",
+          "chapter_id": "c-songshu-076-wangxuanmo-ws",
+          "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726",
+          "paragraph_id": "c-songshu-076-wangxuanmo-ws:p003",
+          "quote": "時虜攻陷滑臺，執朱脩之以歸。玄謨上疏曰：「王途始開，隨復淪塞，非惟天時，抑亦人事。虎牢、滑臺，豈惟將之不良，抑亦本之不固。本之不固，皆由民憚遠役。臣請以西陽之魯陽，襄陽之南鄉，發甲卒，分為兩道，直趣淆、澠，征士無遠徭之思，吏士有屢休之歌。若欲以東國之眾，經營牢、洛，道途既遠，獨克實難。」玄謨每陳北侵之策，上謂殷景仁曰：「聞王玄謨陳說，使人有封狼居胥意。」後為興安侯義賓輔國司馬、彭城太守。義賓薨，玄謨上表，以彭城要兼水陸，請以皇子撫臨州事，乃以孝武出鎮。",
+          "person_mention_id": "c-songshu-076-wangxuanmo-ws:p003:m0183"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -115,6 +164,50 @@
       "book_id": "b-songshu-044",
       "chapter_id": "c-songshu-044-xiehui-digital",
       "source_id": "s-songshu-044-xiehui-digital-ws1746033",
+      "work_title": "宋書"
+    },
+    {
+      "number": 76,
+      "category": "",
+      "title": "王玄謨傳",
+      "paragraph_id": "c-songshu-076-wangxuanmo-ws:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "北侵之策，上謂殷景仁曰：「聞王玄謨陳說，使人有封狼居胥意。」後為興安侯義賓輔國司馬、彭城太守。義賓薨，玄謨上表，以彭城要兼水陸，請以皇子撫臨州事，乃以孝武出鎮。",
+      "paragraph_ids": [
+        "c-songshu-076-wangxuanmo-ws:p003"
+      ],
+      "mention_ids": [
+        "c-songshu-076-wangxuanmo-ws:p003:m0183",
+        "c-songshu-076-wangxuanmo-ws:p003:m0195"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-076-wangxuanmo-ws:p003:m0183": "c-songshu-076-wangxuanmo-ws:p003",
+        "c-songshu-076-wangxuanmo-ws:p003:m0195": "c-songshu-076-wangxuanmo-ws:p003"
+      },
+      "mention_id": "c-songshu-076-wangxuanmo-ws:p003:m0183",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-076-wangxuanmo-ws:p003:m0183",
+          "mention_ids": [
+            "c-songshu-076-wangxuanmo-ws:p003:m0183"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-076-wangxuanmo-ws:p003:m0195",
+          "mention_ids": [
+            "c-songshu-076-wangxuanmo-ws:p003:m0195"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-076",
+      "chapter_id": "c-songshu-076-wangxuanmo-ws",
+      "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726",
       "work_title": "宋書"
     }
   ],
@@ -312,6 +405,29 @@
         "raw_file_sha256": "9ca7cb37e05e0ebcc400fb220a1f3970ddc2c0f948483f04b71ea93847a69898",
         "section_locator": "列傳第四 謝晦"
       }
+    },
+    {
+      "chapter_id": "c-songshu-076-wangxuanmo-ws",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-076",
+      "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726",
+      "source": {
+        "title": "王玄謨傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1997726",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1997726",
+        "revision_id": 1997726,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "王玄謨傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/song076-ws1997726.wikitext",
+        "raw_file_sha256": "877822cd4d2b9c8c0fbad998fe4edabb3050c9588eb3336bf3f59bc1df7bba77"
+      }
     }
   ],
   "relations": [],
@@ -350,6 +466,21 @@
       "book_id": "b-songshu-044",
       "work_id": "w-songshu",
       "source_id": "s-songshu-044-xiehui-digital-ws1746033"
+    },
+    {
+      "id": "c-songshu-076-wangxuanmo-ws:p003:r0180",
+      "paragraph_id": "c-songshu-076-wangxuanmo-ws:p003",
+      "start": 180,
+      "end": 183,
+      "surface": "興安侯",
+      "person_id": "1f5_x7z_phn",
+      "referent_role": "third_person",
+      "quote": "時虜攻陷滑臺，執朱脩之以歸。玄謨上疏曰：「王途始開，隨復淪塞，非惟天時，抑亦人事。虎牢、滑臺，豈惟將之不良，抑亦本之不固。本之不固，皆由民憚遠役。臣請以西陽之魯陽，襄陽之南鄉，發甲卒，分為兩道，直趣淆、澠，征士無遠徭之思，吏士有屢休之歌。若欲以東國之眾，經營牢、洛，道途既遠，獨克實難。」玄謨每陳北侵之策，上謂殷景仁曰：「聞王玄謨陳說，使人有封狼居胥意。」後為興安侯義賓輔國司馬、彭城太守。義賓薨，玄謨上表，以彭城要兼水陸，請以皇子撫臨州事，乃以孝武出鎮。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-songshu-076-wangxuanmo-ws",
+      "book_id": "b-songshu-076",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726"
     }
   ],
   "person_ids": [
@@ -357,7 +488,37 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-xuanmo-yibin-died",
+      "person_id": "1f5_x7z_phn",
+      "event_type": "death",
+      "source_term": "薨",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-076-wangxuanmo-ws:p003",
+        "start": 197,
+        "end": 198,
+        "surface": "薨"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-076",
+          "chapter_id": "c-songshu-076-wangxuanmo-ws",
+          "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726",
+          "paragraph_id": "c-songshu-076-wangxuanmo-ws:p003",
+          "quote": "時虜攻陷滑臺，執朱脩之以歸。玄謨上疏曰：「王途始開，隨復淪塞，非惟天時，抑亦人事。虎牢、滑臺，豈惟將之不良，抑亦本之不固。本之不固，皆由民憚遠役。臣請以西陽之魯陽，襄陽之南鄉，發甲卒，分為兩道，直趣淆、澠，征士無遠徭之思，吏士有屢休之歌。若欲以東國之眾，經營牢、洛，道途既遠，獨克實難。」玄謨每陳北侵之策，上謂殷景仁曰：「聞王玄謨陳說，使人有封狼居胥意。」後為興安侯義賓輔國司馬、彭城太守。義賓薨，玄謨上表，以彭城要兼水陸，請以皇子撫臨州事，乃以孝武出鎮。",
+          "person_mention_id": "c-songshu-076-wangxuanmo-ws:p003:m0183"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段人物與次第核所屬卒事。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

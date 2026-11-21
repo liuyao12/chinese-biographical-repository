@@ -12,7 +12,56 @@
     "獻王攸",
     "獻王"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w044-wenxian-3",
+      "person_id": "cac_ca2_008",
+      "title": "齊王",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-wenxian",
+          "source_id": "s-jinshu-044-wenxian",
+          "paragraph_id": "c-jinshu-044-wenxian:line122",
+          "quote": "溫羨，字長卿，太原祁人，漢護羌校尉序之後也。祖恢，魏揚州刺史。父恭，濟南太守。兄弟六人並知名於世，號曰「六龍」。羨少以朗寤見稱，齊王攸辟為掾，遷尚書郎。惠帝即位，拜豫州刺史，入為散騎常侍，累遷尚書。及齊王冏輔政，以羨攸之故吏，意特親之，轉吏部尚書。",
+          "person_mention_id": "c-jinshu-044-wenxian:line122:m0064"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-wenxian-3:a",
+          "paragraph_id": "c-jinshu-044-wenxian:line122",
+          "start": 64,
+          "end": 66,
+          "surface": "齊王",
+          "person_mention_id": "c-jinshu-044-wenxian:line122:m0064",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -274,6 +323,50 @@
       "book_id": "b-jinshu-042",
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "source_id": "s-jinshu-042-taiyuan-wang",
+      "work_title": "晉書"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·溫羨傳",
+      "paragraph_id": "c-jinshu-044-wenxian:line122",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "史。父恭，濟南太守。兄弟六人並知名於世，號曰「六龍」。羨少以朗寤見稱，齊王攸辟為掾，遷尚書郎。惠帝即位，拜豫州刺史，入為散騎常侍，累遷尚書。及齊王冏輔政，以羨攸之故吏，意特親之，轉吏部尚書。",
+      "paragraph_ids": [
+        "c-jinshu-044-wenxian:line122"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-wenxian:line122:m0064",
+        "c-jinshu-044-wenxian:line122:m0108"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-wenxian:line122:m0064": "c-jinshu-044-wenxian:line122",
+        "c-jinshu-044-wenxian:line122:m0108": "c-jinshu-044-wenxian:line122"
+      },
+      "mention_id": "c-jinshu-044-wenxian:line122:m0064",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-wenxian:line122:m0064",
+          "mention_ids": [
+            "c-jinshu-044-wenxian:line122:m0064"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-044-wenxian:line122:m0108",
+          "mention_ids": [
+            "c-jinshu-044-wenxian:line122:m0108"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-wenxian",
+      "source_id": "s-jinshu-044-wenxian",
       "work_title": "晉書"
     },
     {
@@ -12606,6 +12699,33 @@
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-044-wenxian",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-wenxian",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「溫羨」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-wenxian/reading.json"
+        ]
       }
     },
     {

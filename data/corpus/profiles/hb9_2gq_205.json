@@ -57,6 +57,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-nan023-wangxi-m4-22",
+      "person_id": "hb9_2gq_205",
+      "title": "祭酒",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nan023-wangxi-m4-22:a",
+          "person_mention_id": "c-nanshi-023-wangxi-qian:p004:m0024",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanshi-023-wangxi-qian:p004",
+          "surface": "祭酒",
+          "start": 22,
+          "end": 24
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangxi-qian-ws2478204",
+          "chapter_id": "c-nanshi-023-wangxi-qian",
+          "paragraph_id": "c-nanshi-023-wangxi-qian:p004",
+          "quote": "僉字公會，八歲丁父憂，哀毀過禮。初補國子生，祭酒袁昂稱為通理。累遷始興內史，丁所生母憂，固辭不拜。又除南康內史，在郡義興主薨，詔起復郡。後為太子中庶子，掌東宮管記。卒，贈侍中。元帝下詔：賢而不伐曰恭，追諡曰恭子。僉弟通。",
+          "person_mention_id": "c-nanshi-023-wangxi-qian:p004:m0024"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -185,6 +233,41 @@
       "work_title": "南史"
     },
     {
+      "number": 23,
+      "category": "",
+      "title": "王錫（字公嘏）、王僉",
+      "paragraph_id": "c-nanshi-023-wangxi-qian:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "僉字公會，八歲丁父憂，哀毀過禮。初補國子生，祭酒袁昂稱為通理。累遷始興內史，丁所生母憂，固辭不拜。又除南康內史，在郡義興主薨，詔起復郡。後為太子中庶子，掌東宮管記。卒，贈侍中。元帝下詔：賢而不伐曰恭，追諡曰恭子。僉弟通。",
+      "paragraph_ids": [
+        "c-nanshi-023-wangxi-qian:p004"
+      ],
+      "mention_ids": [
+        "c-nanshi-023-wangxi-qian:p004:m0024"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-023-wangxi-qian:p004:m0024": "c-nanshi-023-wangxi-qian:p004"
+      },
+      "mention_id": "c-nanshi-023-wangxi-qian:p004:m0024",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-023-wangxi-qian:p004:m0024",
+          "mention_ids": [
+            "c-nanshi-023-wangxi-qian:p004:m0024"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangxi-qian",
+      "source_id": "s-nanshi-023-wangxi-qian-ws2478204",
+      "work_title": "南史"
+    },
+    {
       "number": 58,
       "category": "",
       "title": "卷五十八：楊椿、楊昱及穎順近系完整傳與共評（部分卷）",
@@ -301,6 +384,63 @@
           "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
         },
         "section_locator": "王僉兩次母喪的平行記錄"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangxi-qian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangxi-qian-ws2478204",
+      "source": {
+        "title": "南史卷23·王錫（字公嘏）、王僉",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第153至159行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                154,
+                154
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                156,
+                156
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                158,
+                158
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "王銓傳後，銓弟錫與錫弟僉，末接僉弟通"
       }
     },
     {

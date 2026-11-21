@@ -308,6 +308,54 @@
       "model": null,
       "human_reviewed": false,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-songshu-076-wangxuanmo-ws-1-30",
+      "title": "司徒",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "8xv_6ak_y28",
+      "attestations": [
+        {
+          "id": "th-songshu-076-wangxuanmo-ws-1-30:a",
+          "paragraph_id": "c-songshu-076-wangxuanmo-ws:p001",
+          "start": 30,
+          "end": 32,
+          "surface": "司徒",
+          "person_mention_id": "c-songshu-076-wangxuanmo-ws:p001:m0032",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-076",
+          "chapter_id": "c-songshu-076-wangxuanmo-ws",
+          "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726",
+          "paragraph_id": "c-songshu-076-wangxuanmo-ws:p001",
+          "quote": "王玄謨字彥德，太原祁人也。六世祖宏，河東太守，綿竹侯，以從叔司徒允之難，棄官北居新興，仍為新興、鴈門太守，其自敍云爾。祖牢，仕慕容氏為上谷太守，陷慕容德，居青州。父秀，早卒。",
+          "person_mention_id": "c-songshu-076-wangxuanmo-ws:p001:m0032"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -555,6 +603,41 @@
       "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
       "source_id": "s-houhanshu-062-xunhan-zhongchen",
       "work_title": "後漢書"
+    },
+    {
+      "number": 76,
+      "category": "",
+      "title": "王玄謨傳",
+      "paragraph_id": "c-songshu-076-wangxuanmo-ws:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王玄謨字彥德，太原祁人也。六世祖宏，河東太守，綿竹侯，以從叔司徒允之難，棄官北居新興，仍為新興、鴈門太守，其自敍云爾。祖牢，仕慕容氏為上谷太守，陷慕容德，居青州。父秀，早卒。",
+      "paragraph_ids": [
+        "c-songshu-076-wangxuanmo-ws:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-076-wangxuanmo-ws:p001:m0032"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-076-wangxuanmo-ws:p001:m0032": "c-songshu-076-wangxuanmo-ws:p001"
+      },
+      "mention_id": "c-songshu-076-wangxuanmo-ws:p001:m0032",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-076-wangxuanmo-ws:p001:m0032",
+          "mention_ids": [
+            "c-songshu-076-wangxuanmo-ws:p001:m0032"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-076",
+      "chapter_id": "c-songshu-076-wangxuanmo-ws",
+      "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726",
+      "work_title": "宋書"
     }
   ],
   "table_occurrences": [],
@@ -844,6 +927,29 @@
         "wikitext_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf",
         "edition": "維基文庫固定2118581，卷末臣穆等按語已疑非約書。乾隆武英殿本影像與四庫轉錄原章另有證號。"
       }
+    },
+    {
+      "chapter_id": "c-songshu-076-wangxuanmo-ws",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-076",
+      "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726",
+      "source": {
+        "title": "王玄謨傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1997726",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1997726",
+        "revision_id": 1997726,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "王玄謨傳",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/song076-ws1997726.wikitext",
+        "raw_file_sha256": "877822cd4d2b9c8c0fbad998fe4edabb3050c9588eb3336bf3f59bc1df7bba77"
+      }
     }
   ],
   "relations": [
@@ -1024,6 +1130,23 @@
       "note": "王懿自述漢司徒王允之弟、幽州刺史王懋為其七世祖；未載中間世次。",
       "chapter_id": "c-songshu-046-wangyi-ws",
       "source_id": "s-songshu-046-wangyi-ws-ws2118581"
+    }
+  ],
+  "person_references": [
+    {
+      "id": "c-songshu-076-wangxuanmo-ws:p001:r0028",
+      "paragraph_id": "c-songshu-076-wangxuanmo-ws:p001",
+      "start": 28,
+      "end": 30,
+      "surface": "從叔",
+      "person_id": "8xv_6ak_y28",
+      "referent_role": "third_person",
+      "quote": "王玄謨字彥德，太原祁人也。六世祖宏，河東太守，綿竹侯，以從叔司徒允之難，棄官北居新興，仍為新興、鴈門太守，其自敍云爾。祖牢，仕慕容氏為上谷太守，陷慕容德，居青州。父秀，早卒。",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-songshu-076-wangxuanmo-ws",
+      "book_id": "b-songshu-076",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726"
     }
   ],
   "person_ids": [

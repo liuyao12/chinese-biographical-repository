@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "id": "p30_vie_xvb",
+  "canonical_person_id": "p30_vie_xvb",
+  "label": "周薈（養周文育為子）",
+  "identity_note": "義興人，浦口戍主，向文育母請養其子，同意後兩人還都。",
+  "review": "ai_provisional",
+  "names": [
+    "周薈",
+    "薈"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 8,
+      "category": "",
+      "title": "周文育本姓項與養父周薈",
+      "paragraph_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "義興人周薈為壽昌浦口戍主，見而奇之，因召與語。",
+      "paragraph_ids": [
+        "c-chenshu-008-zhouwenyu-born-and-adopted-names:p002",
+        "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003"
+      ],
+      "mention_ids": [
+        "c-chenshu-008-zhouwenyu-born-and-adopted-names:p002:m0003",
+        "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-008-zhouwenyu-born-and-adopted-names:p002:m0003": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p002",
+        "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003:m0000": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003"
+      },
+      "mention_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p002:m0003",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p002:m0003",
+          "mention_ids": [
+            "c-chenshu-008-zhouwenyu-born-and-adopted-names:p002:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003:m0000",
+          "mention_ids": [
+            "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-008",
+      "chapter_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names",
+      "source_id": "s-chenshu-008-zhouwenyu-born-and-adopted-names-ws1750028",
+      "work_title": "陳書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-008",
+      "source_id": "s-chenshu-008-zhouwenyu-born-and-adopted-names-ws1750028",
+      "source": {
+        "title": "陳書卷8·周文育本姓項與養父周薈",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1750028",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1750028",
+        "revision_id": 1750028,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原王府身分、紀年或改名原句",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan023-wangzhi/ws1750028.wikitext",
+        "raw_file_sha256": "6d4b40ac1828910c7416f20d6b4419ee06d27a472cee729f77185ac11fbba1b4",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-nan023-wangzhi-zhou-adoption",
+      "subject_person_id": "cea_x1n_2b8",
+      "object_person_id": "p30_vie_xvb",
+      "predicate": "adoptive_father",
+      "qualifiers": {
+        "source_term": "就其母請文育養為己子，母遂與之",
+        "nan023_wangzhi_reading": "zhou-adoption",
+        "adoption_basis": "explicit_maternal_consent_to_named_adopter",
+        "biological_father_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-008",
+          "source_id": "s-chenshu-008-zhouwenyu-born-and-adopted-names-ws1750028",
+          "chapter_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names",
+          "paragraph_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003",
+          "quote": "薈哀之，乃隨文育至家，就其母請文育養為己子，母遂與之。",
+          "subject_person_mention_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003:m0015",
+          "object_person_mention_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "文育與其生母分別在場，周薈向生母請求收養並獲同意。收養不變更本生父系。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "cea_x1n_2b8": "周文育（本姓項，名猛奴）",
+    "p30_vie_xvb": "周薈（養周文育為子）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_references": [
+    {
+      "id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003:r0019",
+      "surface": "己",
+      "start": 19,
+      "end": 20,
+      "person_id": "p30_vie_xvb",
+      "referent_role": "third_person",
+      "paragraph_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003",
+      "quote": "薈哀之，乃隨文育至家，就其母請文育養為己子，母遂與之。",
+      "note": "己是請收養的周薈。",
+      "chapter_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names",
+      "book_id": "b-chenshu-008",
+      "work_id": "w-chenshu",
+      "source_id": "s-chenshu-008-zhouwenyu-born-and-adopted-names-ws1750028"
+    }
+  ],
+  "person_ids": [
+    "p30_vie_xvb"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-nan023-wangzhi-zhou-adoption",
+      "subject_person_id": "cea_x1n_2b8",
+      "object_person_id": "p30_vie_xvb",
+      "predicate": "adoptive_father",
+      "qualifiers": {
+        "source_term": "就其母請文育養為己子，母遂與之",
+        "nan023_wangzhi_reading": "zhou-adoption",
+        "adoption_basis": "explicit_maternal_consent_to_named_adopter",
+        "biological_father_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-008",
+          "source_id": "s-chenshu-008-zhouwenyu-born-and-adopted-names-ws1750028",
+          "chapter_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names",
+          "paragraph_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003",
+          "quote": "薈哀之，乃隨文育至家，就其母請文育養為己子，母遂與之。",
+          "subject_person_mention_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003:m0015",
+          "object_person_mention_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "文育與其生母分別在場，周薈向生母請求收養並獲同意。收養不變更本生父系。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
