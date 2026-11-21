@@ -1,0 +1,118 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-epitaph-cuihong-excerpts",
+  "events": [
+    {
+      "id": "le-epitaph-cuihong-excerpts-death",
+      "person_id": "30f_353_0e8",
+      "event_type": "death",
+      "source_term": "薨",
+      "source_anchor": {
+        "paragraph_id": "c-epitaph-cuihong-excerpts:p001",
+        "start": 27,
+        "end": 28,
+        "surface": "薨"
+      },
+      "status": "source_attested",
+      "date_expression": "孝昌元年十一月壬辰朔廿九日庚午",
+      "evidence": [
+        {
+          "work_id": "w-epitaph-cuihong",
+          "book_id": "b-epitaph-cuihong-excerpts",
+          "source_id": "s-epitaph-cuihong-excerpts-rubbing",
+          "chapter_id": "c-epitaph-cuihong-excerpts",
+          "paragraph_id": "c-epitaph-cuihong-excerpts:p001",
+          "quote": "不幸遘疾，春秋卌有八，粵孝昌元年十一月壬辰朔廿九日庚午薨於洛陽仁信里。窀窆於黄山之陰。",
+          "person_mention_id": "c-epitaph-cuihong-excerpts:p000:m0002",
+          "context": {
+            "kind": "prior_paragraph_subject",
+            "paragraph_id": "c-epitaph-cuihong-excerpts:p000",
+            "person_mention_id": "c-epitaph-cuihong-excerpts:p000:m0002",
+            "quote": "君諱鴻，字彥鸞，齊州清河人也。",
+            "intervening_paragraph_ids": []
+          }
+        }
+      ],
+      "interpretation_note": "誌載遘疾，卒於洛陽仁信里；保留朔日干支壬辰與卒日庚午，干支未校定。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 525,
+        "year": 525,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "孝昌元年",
+        "status": "editorial_provisional",
+        "original_quote": "不幸遘疾，春秋卌有八，粵孝昌元年十一月壬辰朔廿九日庚午薨於洛陽仁信里。窀窆於黄山之陰。",
+        "evidence": [
+          {
+            "work_id": "w-epitaph-cuihong",
+            "book_id": "b-epitaph-cuihong-excerpts",
+            "source_id": "s-epitaph-cuihong-excerpts-rubbing",
+            "chapter_id": "c-epitaph-cuihong-excerpts",
+            "paragraph_id": "c-epitaph-cuihong-excerpts:p001",
+            "quote": "不幸遘疾，春秋卌有八，粵孝昌元年十一月壬辰朔廿九日庚午薨於洛陽仁信里。窀窆於黄山之陰。",
+            "person_mention_id": "c-epitaph-cuihong-excerpts:p000:m0002",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-epitaph-cuihong-excerpts:p000",
+              "person_mention_id": "c-epitaph-cuihong-excerpts:p000:m0002",
+              "quote": "君諱鴻，字彥鸞，齊州清河人也。",
+              "intervening_paragraph_ids": []
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=3",
+            "quote": "孝昌",
+            "columns": {
+              "dynasty": "北魏",
+              "era_name": "孝昌",
+              "first_year": "525",
+              "last_year": "527"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-20",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "reference_index": 0,
+          "start_ce_year": 525,
+          "end_ce_year": 527,
+          "regnal_year": 1,
+          "source_number": "元",
+          "era_name": "孝昌"
+        },
+        "rationale": "依教育部年號表換算中國曆年標籤，月日保留原曆。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false
+      },
+      "epitaph_date_parts": {
+        "calendar": "chinese_lunisolar",
+        "month": 11,
+        "day": 29,
+        "month_anchor": {
+          "paragraph_id": "c-epitaph-cuihong-excerpts:p001",
+          "start": 16,
+          "end": 19,
+          "surface": "十一月"
+        },
+        "day_anchor": {
+          "paragraph_id": "c-epitaph-cuihong-excerpts:p001",
+          "start": 22,
+          "end": 25,
+          "surface": "廿九日"
+        },
+        "precision": "source_month_day_no_gregorian_conversion"
+      }
+    }
+  ]
+}

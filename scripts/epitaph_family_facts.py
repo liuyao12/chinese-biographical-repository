@@ -6,6 +6,11 @@ def errors(chapters,records):
  for c in chapters.values():
   rs=[r for r in records if r.get('chapter_id')==c['id'] and r.get('record_type')in {'person_assertion_set','person_life_event_assertion_set','person_name_component_set','person_address_assertion_set','person_event_assertion_set'}]
   binding=c.get('annotation',{}).get('epitaph_fact_binding')
+  if c.get('source',{}).get('transcription_witness',{}).get('kind')=='published_web_inscription_excerpts' and c['id']=='c-epitaph-cuihun-excerpts':
+   try:from .web_inscription_excerpts import facts_valid
+   except ImportError:from web_inscription_excerpts import facts_valid
+   if not facts_valid(c,rs):out.append('崔混誌卒日、遷窆、疑字與人物錨點不符')
+   continue
   if not binding:
    if c.get('paragraphs')and c['paragraphs'][0].get('text_layer')=='epitaph_as_modernly_transcribed'and rs:out.append('Typed epitaph facts need complete source binding')
    continue

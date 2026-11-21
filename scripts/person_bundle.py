@@ -337,6 +337,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     related_equivalences = [d for d in equivalences if ids.intersection(d['person_ids'])]
     mentions, relations, titles, identities, addresses, life_events, ages, person_events, age_differences = [], [], [], [], [], [], [], [], []
     family_counts = []
+    person_references = []
     table_occurrences, occurrence_cells = [], {}
     name_components = []
     chapters, paragraphs, tables = {}, {}, {}
@@ -344,6 +345,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         kind = record.get('record_type')
         if kind == 'marked_chapter':
             chapters[record['id']] = record
+            person_references.extend(
+                dict(ref, chapter_id=record['id'], book_id=record['book_id'],
+                     work_id=record['work_id'], source_id=record['source_id'])
+                for ref in record['annotation'].get('person_reference_occurrences', [])
+                if ref['person_id'] in ids)
             ages.extend(a for a in record['annotation'].get('age_assertions', []) if a['person_id'] in ids)
             family_counts.extend(a for a in record['annotation'].get('family_count_reports', []) if a['parent_person_id'] in ids)
             age_differences.extend(a for a in record['annotation'].get('age_difference_assertions', []) if ids.intersection((a['person_id'], a['reference_person_id'])))
@@ -543,6 +549,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 'alternative_id': chosen['id'], 'qualifiers': qualifiers,
                 'evidence': case['evidence'], 'selection': case['selection']})
     paragraph_ids = {m['paragraph_id'] for m in mentions}
+    paragraph_ids.update(ref['paragraph_id'] for ref in person_references)
     paragraph_ids.update(n['paragraph_id'] for n in name_components if n.get('kind') != 'table_cell')
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case['evidence'])
     paragraph_ids.update(r['paragraph_id'] for group in unresolved_relation_groups for r in group['references'])
@@ -854,6 +861,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'family_count_reports': family_counts} if family_counts else {}),
             **({'age_difference_assertions': age_differences} if age_differences else {}),
             'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
+            **({'person_references': person_references} if person_references else {}),
             'table_occurrences': table_occurrences,
             **({'date_range_normalizations': date_ranges} if date_ranges else {}),
             **({'calendar_context_assertions': calendar_context_assertions} if calendar_context_assertions else {}),

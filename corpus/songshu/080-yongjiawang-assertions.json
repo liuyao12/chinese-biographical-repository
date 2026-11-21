@@ -1,0 +1,41 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-080-yongjiawang",
+  "assertions": [
+    {
+      "id": "a-song080-yongjiawang-father",
+      "subject_person_id": "hx8_st4_jdd_B",
+      "predicate": "father",
+      "object_person_id": "hx8_st4_jdd",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "孝武帝第九子",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "hx8_st4_jdd",
+          "scope": "sons_of_parent",
+          "ordinal": 9,
+          "position": "unspecified",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-080",
+          "chapter_id": "c-songshu-080-yongjiawang",
+          "source_id": "s-songshu-080-yongjiawang-ws2261200",
+          "paragraph_id": "c-songshu-080-yongjiawang:p001",
+          "quote": "永嘉王子仁字孝和，孝武帝第九子也。",
+          "subject_person_mention_id": "c-songshu-080-yongjiawang:p001:m0003",
+          "object_person_mention_id": "c-songshu-080-yongjiawang:p001:m0009"
+        }
+      ],
+      "interpretation_note": "父與九子之序見永嘉王本傳。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

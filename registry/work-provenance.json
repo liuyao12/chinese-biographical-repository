@@ -504,6 +504,18 @@
       "locator": "89-00208，銘刻內容",
       "access_scope": "核讀館藏銘刻內容全文，與大東文化大學藏拓選段對讀。",
       "human_reviewed": false
+    },
+    "r-cuihong-rubbing-reproduction": {
+      "title": "崔鴻墓誌轉載拓片",
+      "url": "https://www.sohu.com/a/260163234_770283",
+      "access_scope": "親核菏澤市書法家協會轉載拓片的姓名、卒葬、家屬及造誌日選段。",
+      "human_reviewed": false
+    },
+    "r-cuihun-10huan": {
+      "title": "趙超墓誌輯錄，十環網〈東魏〉崔混誌條",
+      "url": "https://guji.10huan.com/Article/7147_7165.html",
+      "access_scope": "核網上錄文的誌首、卒前、卒葬與家屬行；原刊圖版待核。",
+      "human_reviewed": false
     }
   },
   "editions": {
@@ -203751,6 +203763,122 @@
         "assertions": []
       },
       "human_reviewed": false
+    },
+    "w-epitaph-cuihong": {
+      "work_id": "w-epitaph-cuihong",
+      "title": "崔鴻墓誌",
+      "transmission": "excavated",
+      "human_reviewed": false,
+      "composition": {
+        "status": "reported",
+        "assertions": [
+          {
+            "event_kind": "inscription_making",
+            "layer": "completion",
+            "date": {
+              "calendar": "chinese_civil",
+              "year_numbering": "astronomical",
+              "start_year": 526,
+              "end_year": 526,
+              "month": 9,
+              "day": 17,
+              "precision": "day"
+            },
+            "source_expression": "孝昌二年歲次丙午九月丁酉朔十七日癸丑造。",
+            "reference_ids": [
+              "r-cuihong-rubbing-reproduction"
+            ],
+            "qualification": "末行明言造誌；不移作安葬日。"
+          }
+        ]
+      },
+      "earliest_extant_edition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "古誌與實際轉載見證分錄；原拓的傳印年代待查。"
+      },
+      "burial": {
+        "status": "reported",
+        "assertions": [
+          {
+            "event_kind": "burial",
+            "date": null,
+            "place_as_reported": "黄山之陰",
+            "source_expression": "窀窆於黄山之陰",
+            "reference_ids": [
+              "r-cuihong-rubbing-reproduction"
+            ],
+            "qualification": "誌文言窀窆地，未繫其日。"
+          }
+        ]
+      },
+      "excavation": {
+        "status": "reported",
+        "assertions": [
+          {
+            "event_kind": "reported_unearthing",
+            "date": null,
+            "place_as_reported": "山東臨淄",
+            "reference_ids": [
+              "r-cuihong-rubbing-reproduction"
+            ],
+            "qualification": "轉載頁報山東臨淄出土；本批未核1984年發掘報告圖版。"
+          }
+        ]
+      }
+    },
+    "w-epitaph-cuihun": {
+      "work_id": "w-epitaph-cuihun",
+      "title": "崔混墓誌",
+      "transmission": "excavated",
+      "human_reviewed": false,
+      "composition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "本次未核撰文或刊石年月。"
+      },
+      "earliest_extant_edition": {
+        "status": "unknown",
+        "assertions": [],
+        "note": "古誌與實際轉載見證分錄；原拓的傳印年代待查。"
+      },
+      "burial": {
+        "status": "reported",
+        "assertions": [
+          {
+            "event_kind": "reburial",
+            "date": {
+              "calendar": "chinese_civil",
+              "year_numbering": "astronomical",
+              "start_year": 538,
+              "end_year": 538,
+              "month": 11,
+              "day": 5,
+              "precision": "day"
+            },
+            "place_as_reported": "本邑黃山之舊塋",
+            "source_expression": "其年十一月五日庚申遷窆於本邑黃山之舊塋",
+            "reference_ids": [
+              "r-cuihun-10huan"
+            ],
+            "qualification": "其年承元象元年；十一月為遷窆，二月別載卒日。"
+          }
+        ]
+      },
+      "excavation": {
+        "status": "reported",
+        "assertions": [
+          {
+            "event_kind": "reported_unearthing",
+            "date": null,
+            "place_as_reported": "山東臨淄",
+            "reference_ids": [
+              "r-cuihun-10huan"
+            ],
+            "qualification": "轉載頁報山東臨淄出土；本批未核1984年發掘報告圖版。"
+          }
+        ]
+      }
     }
   },
   "text_bases": {
@@ -206331,6 +206459,100 @@
     "s-songshu-088-song88-ws2069210": {
       "source_id": "s-songshu-088-song88-ws2069210",
       "work_id": "w-songshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-beishi-044-cuidaogu-ws2183262": {
+      "source_id": "s-beishi-044-cuidaogu-ws2183262",
+      "work_id": "w-beishi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-epitaph-cuihong-excerpts-rubbing": {
+      "source_id": "s-epitaph-cuihong-excerpts-rubbing",
+      "work_id": "w-epitaph-cuihong",
+      "status": "unknown",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "r-cuihong-rubbing-reproduction"
+      ],
+      "note": "親核菏澤市書法家協會轉載拓片的姓名、卒葬、家屬及造誌日選段。"
+    },
+    "s-epitaph-cuihun-excerpts-10huan": {
+      "source_id": "s-epitaph-cuihun-excerpts-10huan",
+      "work_id": "w-epitaph-cuihun",
+      "status": "unknown",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "r-cuihun-10huan"
+      ],
+      "note": "核網上錄文的誌首、卒前、卒葬與家屬行；原刊圖版待核。"
+    },
+    "s-songshu-080-yongjiawang-ws2261200": {
+      "source_id": "s-songshu-080-yongjiawang-ws2261200",
+      "work_id": "w-songshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-songshu-086-liumian-ws2069103": {
+      "source_id": "s-songshu-086-liumian-ws2069103",
+      "work_id": "w-songshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-songshu-087-yinyan-ws2069105": {
+      "source_id": "s-songshu-087-yinyan-ws2069105",
+      "work_id": "w-songshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-songshu-088-fulingyue-ws2069210": {
+      "source_id": "s-songshu-088-fulingyue-ws2069210",
+      "work_id": "w-songshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-songshu-088-shenwenxiu-ws2069210": {
+      "source_id": "s-songshu-088-shenwenxiu-ws2069210",
+      "work_id": "w-songshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-songshu-088-xueandu-ws2069210": {
+      "source_id": "s-songshu-088-xueandu-ws2069210",
+      "work_id": "w-songshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-weishu-weishou-024-cuidaogu-ws2021236": {
+      "source_id": "s-weishu-weishou-024-cuidaogu-ws2021236",
+      "work_id": "w-weishu-weishou",
       "status": "not_researched",
       "edition_id": null,
       "earliest_extant_basis_edition_id": null,

@@ -37,6 +37,10 @@ def rubbing_excerpt_errors(chapter, work, book):
 
 def errors(chapter,root,works,books):
  source=chapter.get('source',{});w=source.get('transcription_witness')
+ if isinstance(w,dict) and w.get('kind')=='published_web_inscription_excerpts':
+  try:from .web_inscription_excerpts import source_errors
+  except ImportError:from web_inscription_excerpts import source_errors
+  return source_errors(chapter,root,works,books)
  if isinstance(w,dict) and w.get('kind')=='rubbing_reproduction_excerpts':
   return rubbing_excerpt_errors(chapter, works.get(chapter['work_id'], {}), books.get(chapter['book_id'], {}))
  if isinstance(w,dict) and w.get('kind')=='institutional_database_epitaph_transcription':

@@ -18,6 +18,53 @@ def brother_connects(assertion, first, second):
             and ((a in first and b in second) or (b in first and a in second)))
 
 
+def registry_sibling_path_valid(person_id, path, assertions):
+    """現役 ID 的暫定父系可由具名兄弟與其中一人的明父逐步繫證。"""
+    proof = path.get('parent_connection', {})
+    if not isinstance(proof, dict):
+        return False
+    siblings = proof.get('sibling_assertion_ids')
+    if (proof.get('type') != 'shared_father_through_siblings'
+            or path.get('connection') != 'father' or path.get('source_assertion_id') is not None
+            or not isinstance(siblings, list) or not siblings
+            or not all(isinstance(a, str) for a in siblings)
+            or len(set(siblings)) != len(siblings)):
+        return False
+    current = person_id
+    seen = {current}
+    for aid in siblings:
+        a = assertions.get(aid)
+        if not a or a.get('qualifiers', {}).get('adopted_for_family_tree') is False:
+            return False
+        other = a['object_person_id'] if a['subject_person_id'] == current else a['subject_person_id']
+        if other in seen or not brother_connects(a, {current}, {other}):
+            return False
+        seen.add(other)
+        current = other
+    father_id = proof.get('sibling_father_assertion_id')
+    if not isinstance(father_id, str):
+        return False
+    father = assertions.get(father_id)
+    if (not father or father['predicate'] != 'father' or father['subject_person_id'] != current
+            or father['object_person_id'] != path['parent_person_id'] or father['object_person_id'] in seen
+            or father.get('qualifiers', {}).get('adopted_for_family_tree') is False
+            or father.get('qualifiers', {}).get('lineage') == 'maternal'):
+        return False
+    needed = set(siblings + [father_id])
+    cited = set()
+    for e in path.get('evidence', []):
+        aid = e.get('source_assertion_id')
+        if aid not in needed:
+            return False
+        a = assertions[aid]
+        if (e.get('source_term') != a['qualifiers'].get('source_term')
+                or not any(all(ref.get(k) == e.get(k) for k in ('chapter_id', 'source_id', 'paragraph_id'))
+                           and ref['quote'] in e['quote'] for ref in a['evidence'])):
+            return False
+        cited.add(aid)
+    return cited == needed
+
+
 def load_assemblies(root, catalog):
     path = Path(root) / 'registry/family-assemblies.json'
     if not path.exists():

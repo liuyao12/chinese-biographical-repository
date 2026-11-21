@@ -121,6 +121,8 @@ export default {
   'Ancient commentary': '古注來源',
   'Name in same row': '同列姓名',
   'Fixed source revision': '固定來源版本',
+  'References in context': '原文中的稱謂與指代',
+  'Evidence for inferred parentage': '父系推定的原證',
   'Name component alternative':'姓名組件另說',
   'Not selected as default':'未採為預設',
   'Surname':'姓',

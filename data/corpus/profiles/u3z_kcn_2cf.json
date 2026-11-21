@@ -6,7 +6,8 @@
   "identity_note": "《魏書》《北史》記崔光之弟與崔鴻之父。",
   "review": "ai_provisional",
   "names": [
-    "敬友"
+    "敬友",
+    "仲禮"
   ],
   "titles": [],
   "addresses": [],
@@ -80,6 +81,50 @@
       "chapter_id": "c-weishu-weishou-067-wei67",
       "source_id": "s-weishu-weishou-067-wei67-ws468068",
       "work_title": "魏書（魏收）"
+    },
+    {
+      "number": null,
+      "category": "",
+      "title": "崔混墓誌",
+      "paragraph_id": "c-epitaph-cuihun-excerpts:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "夫人南陽趙氏。父遐使持節車騎將軍豫州刺史」牟平縣開國伯襄公。亡祖敬友，字仲禮，本州治中梁郡太守。夫人平原劉氏。」父休，賓宗，寧朔將軍幽州刺史。亡父鴻，字彥鸞，使持節都督青州諸軍事度支尚」書鎮東將軍青州刺史文貞侯。夫人同郡張氏。父慶之，本郡中正。」六年四女婉戀年二",
+      "paragraph_ids": [
+        "c-epitaph-cuihun-excerpts:p002"
+      ],
+      "mention_ids": [
+        "c-epitaph-cuihun-excerpts:p002:m0032",
+        "c-epitaph-cuihun-excerpts:p002:m0036"
+      ],
+      "mention_paragraph_ids": {
+        "c-epitaph-cuihun-excerpts:p002:m0032": "c-epitaph-cuihun-excerpts:p002",
+        "c-epitaph-cuihun-excerpts:p002:m0036": "c-epitaph-cuihun-excerpts:p002"
+      },
+      "mention_id": "c-epitaph-cuihun-excerpts:p002:m0032",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-epitaph-cuihun-excerpts:p002:m0032",
+          "mention_ids": [
+            "c-epitaph-cuihun-excerpts:p002:m0032"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-epitaph-cuihun-excerpts:p002:m0036",
+          "mention_ids": [
+            "c-epitaph-cuihun-excerpts:p002:m0036"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-epitaph-cuihun",
+      "book_id": "b-epitaph-cuihun-excerpts",
+      "chapter_id": "c-epitaph-cuihun-excerpts",
+      "source_id": "s-epitaph-cuihun-excerpts-10huan",
+      "work_title": "崔混墓誌"
     }
   ],
   "table_occurrences": [],
@@ -95,15 +140,56 @@
         "url": "https://zh.wikisource.org/w/index.php?title=北史/卷044&oldid=2183262",
         "permalink": "https://zh.wikisource.org/w/index.php?title=北史/卷044&oldid=2183262",
         "revision_id": 2183262,
-        "accessed_on": "2026-11-19",
+        "accessed_on": "2026-11-20",
         "edition": "維基文庫固定數位見證；未核武英殿本書影。",
-        "extent": "崔光及崔鴻傳的指定句段，用於親屬、身份、任官及紀年查核。",
+        "extent": "收崔光傳首完整原段、敬友與子元的選句，供親屬及死亡記載對讀。",
         "text_scope": "partial_chapter",
         "image_verified": false,
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
-        "section_locator": "崔光及崔鴻傳"
+        "section_locator": "崔光及崔鴻傳",
+        "raw_path": "sources/beishi/beishi044-ws2183262.wikitext",
+        "raw_file_sha256": "d6460799ec292ba7bc75523a1c28570d6fe2868a39cc809641577763d61b4c17",
+        "raw_url": "https://zh.wikisource.org/w/index.php?title=北史/卷044&oldid=2183262&action=raw",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依固定修訂原始 wikitext 逐碼點定位。正文移出 ref 校記、分段標題與段間換行。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-epitaph-cuihun-excerpts",
+      "work_id": "w-epitaph-cuihun",
+      "book_id": "b-epitaph-cuihun-excerpts",
+      "source_id": "s-epitaph-cuihun-excerpts-10huan",
+      "source": {
+        "title": "崔混墓誌",
+        "provider": "十環網《汉魏南北朝墓志汇》〈東魏〉",
+        "url": "https://guji.10huan.com/Article/7147_7165.html",
+        "permalink": "https://guji.10huan.com/Article/7147_7165.html",
+        "revision_id": null,
+        "accessed_on": "2026-11-20",
+        "edition": "十環網《汉魏南北朝墓志汇》〈東魏〉所載趙超錄文。",
+        "extent": "節錄誌主姓名、親屬與卒葬等條，各段起訖分別定位。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "rights": "僅收六世紀誌文選句。現代校注、圖版及轉載頁各歸原權利人。",
+        "license_scope": "classical_inscription_text_only",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "section_locator": "崔混墓誌",
+        "transcription_witness": {
+          "kind": "published_web_inscription_excerpts",
+          "reported_transcription_author": "趙超",
+          "original_stone_or_rubbing_image_verified": false,
+          "excavation_publication_plate_verified": false,
+          "capture_path": "source-evidence/cuihun-10huan/selected-passages.json"
+        },
+        "normalization": {
+          "character_conversion": "照錄網頁原字、疑字、標點及所選段內的行界符「」」。",
+          "extraction_note": "比對頁面〈東魏〉中題起「魏故鎮遠將軍秘書郎中崔君墓誌銘」的銘文；現代編者注與頁面欄目另記。"
+        }
       }
     },
     {
@@ -164,6 +250,76 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-epitaph-cuihun-excerpts-kin-48",
+      "predicate": "spouse",
+      "subject_person_id": "u3z_kcn_2cf",
+      "object_person_id": "4ag_yml_73x_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "夫人平原劉氏"
+      },
+      "evidence": [
+        {
+          "work_id": "w-epitaph-cuihun",
+          "book_id": "b-epitaph-cuihun-excerpts",
+          "source_id": "s-epitaph-cuihun-excerpts-10huan",
+          "chapter_id": "c-epitaph-cuihun-excerpts",
+          "paragraph_id": "c-epitaph-cuihun-excerpts:p002",
+          "quote": "夫人南陽趙氏。父遐使持節車騎將軍豫州刺史」牟平縣開國伯襄公。亡祖敬友，字仲禮，本州治中梁郡太守。夫人平原劉氏。」父休，賓宗，寧朔將軍幽州刺史。亡父鴻，字彥鸞，使持節都督青州諸軍事度支尚」書鎮東將軍青州刺史文貞侯。夫人同郡張氏。父慶之，本郡中正。」六年四女婉戀年二",
+          "subject_person_mention_id": "c-epitaph-cuihun-excerpts:p002:m0032",
+          "object_person_mention_id": "c-epitaph-cuihun-excerpts:p002:m0052"
+        }
+      ],
+      "interpretation_note": "承亡祖敬友，另記其夫人。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-epitaph-cuihun-excerpts-grandfather",
+      "predicate": "grandfather",
+      "subject_person_id": "ih5_w5y_2s0",
+      "object_person_id": "u3z_kcn_2cf",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "亡祖敬友",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-epitaph-cuihun",
+          "book_id": "b-epitaph-cuihun-excerpts",
+          "source_id": "s-epitaph-cuihun-excerpts-10huan",
+          "chapter_id": "c-epitaph-cuihun-excerpts",
+          "paragraph_id": "c-epitaph-cuihun-excerpts:p000",
+          "quote": "君諱混，字子元，東清河鄃人也。黃門文貞」侯之長子。",
+          "subject_person_mention_id": "c-epitaph-cuihun-excerpts:p000:m0002"
+        },
+        {
+          "work_id": "w-epitaph-cuihun",
+          "book_id": "b-epitaph-cuihun-excerpts",
+          "source_id": "s-epitaph-cuihun-excerpts-10huan",
+          "chapter_id": "c-epitaph-cuihun-excerpts",
+          "paragraph_id": "c-epitaph-cuihun-excerpts:p002",
+          "quote": "夫人南陽趙氏。父遐使持節車騎將軍豫州刺史」牟平縣開國伯襄公。亡祖敬友，字仲禮，本州治中梁郡太守。夫人平原劉氏。」父休，賓宗，寧朔將軍幽州刺史。亡父鴻，字彥鸞，使持節都督青州諸軍事度支尚」書鎮東將軍青州刺史文貞侯。夫人同郡張氏。父慶之，本郡中正。」六年四女婉戀年二",
+          "object_person_mention_id": "c-epitaph-cuihun-excerpts:p002:m0032"
+        }
+      ],
+      "interpretation_note": "誌首明示誌主，誌末各親稱依所屬家屬行繫之。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "context": {
+        "kind": "inscription_subject_family_list",
+        "paragraph_ids": [
+          "c-epitaph-cuihun-excerpts:p000",
+          "c-epitaph-cuihun-excerpts:p002"
+        ],
+        "head_mention_id": "c-epitaph-cuihun-excerpts:p000:m0002",
+        "member_mention_id": "c-epitaph-cuihun-excerpts:p002:m0032"
+      }
     },
     {
       "id": "a-weishu-weishou-067-wei67-m0002-brothers-brother",
@@ -230,11 +386,30 @@
   ],
   "related_people": {
     "30f_353_0e8": "崔鴻",
+    "4ag_yml_73x_A": "劉氏（崔敬友妻）",
     "822_eba_7d0": "崔光",
+    "ih5_w5y_2s0": "崔混",
     "u3z_kcn_2cf": "崔敬友"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-epitaph-cuihun-excerpts-2-30",
+      "person_id": "u3z_kcn_2cf",
+      "surname": null,
+      "ming": "敬友",
+      "zi": "仲禮",
+      "additional_names": [],
+      "chapter_id": "c-epitaph-cuihun-excerpts",
+      "paragraph_id": "c-epitaph-cuihun-excerpts:p002",
+      "quote": "亡祖敬友，字仲禮",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "work_id": "w-epitaph-cuihun",
+      "book_id": "b-epitaph-cuihun-excerpts",
+      "source_id": "s-epitaph-cuihun-excerpts-10huan"
+    }
+  ],
   "person_ids": [
     "u3z_kcn_2cf"
   ],
@@ -273,6 +448,76 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-epitaph-cuihun-excerpts-kin-48",
+      "predicate": "spouse",
+      "subject_person_id": "u3z_kcn_2cf",
+      "object_person_id": "4ag_yml_73x_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "夫人平原劉氏"
+      },
+      "evidence": [
+        {
+          "work_id": "w-epitaph-cuihun",
+          "book_id": "b-epitaph-cuihun-excerpts",
+          "source_id": "s-epitaph-cuihun-excerpts-10huan",
+          "chapter_id": "c-epitaph-cuihun-excerpts",
+          "paragraph_id": "c-epitaph-cuihun-excerpts:p002",
+          "quote": "夫人南陽趙氏。父遐使持節車騎將軍豫州刺史」牟平縣開國伯襄公。亡祖敬友，字仲禮，本州治中梁郡太守。夫人平原劉氏。」父休，賓宗，寧朔將軍幽州刺史。亡父鴻，字彥鸞，使持節都督青州諸軍事度支尚」書鎮東將軍青州刺史文貞侯。夫人同郡張氏。父慶之，本郡中正。」六年四女婉戀年二",
+          "subject_person_mention_id": "c-epitaph-cuihun-excerpts:p002:m0032",
+          "object_person_mention_id": "c-epitaph-cuihun-excerpts:p002:m0052"
+        }
+      ],
+      "interpretation_note": "承亡祖敬友，另記其夫人。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-epitaph-cuihun-excerpts-grandfather",
+      "predicate": "grandfather",
+      "subject_person_id": "ih5_w5y_2s0",
+      "object_person_id": "u3z_kcn_2cf",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "亡祖敬友",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-epitaph-cuihun",
+          "book_id": "b-epitaph-cuihun-excerpts",
+          "source_id": "s-epitaph-cuihun-excerpts-10huan",
+          "chapter_id": "c-epitaph-cuihun-excerpts",
+          "paragraph_id": "c-epitaph-cuihun-excerpts:p000",
+          "quote": "君諱混，字子元，東清河鄃人也。黃門文貞」侯之長子。",
+          "subject_person_mention_id": "c-epitaph-cuihun-excerpts:p000:m0002"
+        },
+        {
+          "work_id": "w-epitaph-cuihun",
+          "book_id": "b-epitaph-cuihun-excerpts",
+          "source_id": "s-epitaph-cuihun-excerpts-10huan",
+          "chapter_id": "c-epitaph-cuihun-excerpts",
+          "paragraph_id": "c-epitaph-cuihun-excerpts:p002",
+          "quote": "夫人南陽趙氏。父遐使持節車騎將軍豫州刺史」牟平縣開國伯襄公。亡祖敬友，字仲禮，本州治中梁郡太守。夫人平原劉氏。」父休，賓宗，寧朔將軍幽州刺史。亡父鴻，字彥鸞，使持節都督青州諸軍事度支尚」書鎮東將軍青州刺史文貞侯。夫人同郡張氏。父慶之，本郡中正。」六年四女婉戀年二",
+          "object_person_mention_id": "c-epitaph-cuihun-excerpts:p002:m0032"
+        }
+      ],
+      "interpretation_note": "誌首明示誌主，誌末各親稱依所屬家屬行繫之。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "context": {
+        "kind": "inscription_subject_family_list",
+        "paragraph_ids": [
+          "c-epitaph-cuihun-excerpts:p000",
+          "c-epitaph-cuihun-excerpts:p002"
+        ],
+        "head_mention_id": "c-epitaph-cuihun-excerpts:p000:m0002",
+        "member_mention_id": "c-epitaph-cuihun-excerpts:p002:m0032"
+      }
     },
     {
       "id": "a-weishu-weishou-067-wei67-m0002-brothers-brother",
