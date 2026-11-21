@@ -126,20 +126,20 @@
       "completion_appendix": "同固定修訂2650519補入原始行20–35八段；原八段全文、ID與mentions全值保留。原字漢未、乙太保、Я脯等不靜改。"
     },
     "collation_witnesses": [
-      "source-evidence/jin033-wang-family-children/reading.json"
+      "source-evidence/jin033-wang-family-children/reading.json",
+      "source-evidence/jin033-wanglan/reading.json",
+      "source-evidence/jin033-wangxiang/reading.json"
     ]
   },
   "annotation": {
-    "status": "in_progress",
+    "status": "reviewed",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
     "model": null,
     "coverage": "完整王祥、王覽敘事單元16段逐人來源標記；不是全卷。",
     "limitations": [
-      "王覽附傳完整錄入不等於全卷完成。",
-      "個別未選段有數位疑損；未核印本影像，未聲稱全卷可靠。",
-      "ctext全文403，未以搜尋摘要校改原文。",
-      "王吉遠祖泛稱沒有距離，不連入本批父系。"
+      "本次完成王祥、王覽兩傳所及16段範圍。卷三十三尚有鄭沖、何曾、石苞等傳。",
+      "所據數位本保留原字，已核武英殿本書影，擇要差異見兩傳逐段記。"
     ],
     "age_assertions": [
       {
@@ -231,6 +231,42 @@
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
+      },
+      {
+        "id": "age-w033-xiang-will",
+        "person_id": "7r6_k52_qji_AA",
+        "source_number": "八十有五",
+        "source_term": "年八十有五",
+        "value": 85,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-033",
+            "chapter_id": "c-jinshu-033-wanglan-family",
+            "source_id": "s-jinshu-033-wanglan-family",
+            "paragraph_id": "c-jinshu-033-wanglan-family:p013",
+            "quote": "及疾篤，著遺令訓子孫曰：「夫生之有死，自然之理。吾年八十有五，啟手何恨。不有遺言，使爾無述。吾生值季末，登庸曆試，無毗佐之勳，沒無以報。氣絶但洗手足，不須沐浴，勿纏屍，皆浣故衣，隨時所服。所賜山玄玉佩、衞氏玉玦、綬笥皆勿以斂。西芒上土自堅貞，勿用甓石，勿起墳隴。穿深二丈，槨取容棺。勿作前堂、布几筵、置書箱鏡奩之具，棺前但可施床榻而已。Я脯各一盤，玄酒一杯，爲朝夕奠。家人大小不須送喪，大小祥乃設特牲。無違餘命！高柴泣血三年，夫子謂之愚。閔子除喪出見。援琴切切而哀，仲尼謂之孝。故哭泣之哀，日月降殺，飲食之宜，自有制度。夫言行可覆，信之至也；推美引過，德之至也；揚名顯親，孝之至也；兄弟怡怡，宗族欣欣，悌之至也；臨財莫過乎讓：此五者，立身之本。顏子所以爲命，未之思也，夫何遠之有！」其子皆奉而行之。",
+            "person_reference_id": "c-jinshu-033-wanglan-family:p013:r0024",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-jinshu-033-wanglan-family:p012",
+              "person_mention_id": "c-jinshu-033-wanglan-family:p012:m0153",
+              "quote": "祥固乞骸骨",
+              "intervening_paragraph_ids": []
+            }
+          }
+        ],
+        "age_context": {
+          "kind": "during_life"
+        },
+        "interpretation_note": "王祥遺令第一人稱自述，與卒歲分錄。",
+        "status": "source_attested",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
       }
     ],
     "unresolved_identity_cases": [
@@ -245,7 +281,8 @@
           "c-jinshu-033-wanglan-family:p001",
           "c-shiji-117-xiangru:p002"
         ],
-        "note": "本篇為漢諫議大夫吉之後的遠祖主張；司馬相如篇為臨邛令王吉。保存兩個語境候選，未按同名合併，也未僅因官稱不同判為確證異人；須另核漢書官歷及具體研究。遠祖沒有世次，不納入王仁以下組裝。"
+        "note": "漢書卷七十二王吉字子陽、琅玡皋虞、博士諫大夫，與本傳遠祖稱相應。史記臨邛令王吉仍依其所載。兩人身份與遠祖世次分別待考。",
+        "additional_source_review": "source-evidence/jin033-wangxiang/reading.json"
       }
     ],
     "person_reference_occurrences": [
@@ -259,12 +296,317 @@
         "quote": "吾二子有焉",
         "referent_role": "speaker_self",
         "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p002:m0025",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p002",
+        "start": 25,
+        "end": 26,
+        "surface": "父",
+        "person_id": "7r6_k52_qji_A",
+        "quote": "是失愛於父。每使掃除",
+        "referent_role": "third_person",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p002:m0055",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p002",
+        "start": 55,
+        "end": 56,
+        "surface": "母",
+        "person_id": "p8y_56i_5gn",
+        "quote": "必親嘗。母常欲生魚，",
+        "referent_role": "third_person",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p002:m0091",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p002",
+        "start": 91,
+        "end": 92,
+        "surface": "母",
+        "person_id": "p8y_56i_5gn",
+        "quote": "之而歸。母又思黃雀灸",
+        "referent_role": "third_person",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p002:m0112",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p002",
+        "start": 112,
+        "end": 113,
+        "surface": "母",
+        "person_id": "p8y_56i_5gn",
+        "quote": "，復以供母。鄕里驚歎",
+        "referent_role": "third_person",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p002:m0133",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p002",
+        "start": 133,
+        "end": 134,
+        "surface": "母",
+        "person_id": "p8y_56i_5gn",
+        "quote": "柰結實，母命守之，每",
+        "referent_role": "third_person",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p003:m0006",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p003",
+        "start": 6,
+        "end": 7,
+        "surface": "母",
+        "person_id": "p8y_56i_5gn",
+        "quote": "遭亂，扶母攜弟覽避地",
+        "referent_role": "third_person",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p003:m0029",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p003",
+        "start": 29,
+        "end": 30,
+        "surface": "母",
+        "person_id": "p8y_56i_5gn",
+        "quote": "郡之命。母終，居喪毀",
+        "referent_role": "third_person",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p004:m0005",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p004",
+        "start": 5,
+        "end": 6,
+        "surface": "母",
+        "person_id": "p8y_56i_5gn",
+        "quote": "字玄通。母朱，遇祥無",
+        "referent_role": "third_person",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p004:m0038",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p004",
+        "start": 38,
+        "end": 39,
+        "surface": "母",
+        "person_id": "p8y_56i_5gn",
+        "quote": "，每諫其母，其母少止",
+        "referent_role": "third_person",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p004:m0041",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p004",
+        "start": 41,
+        "end": 42,
+        "surface": "母",
+        "person_id": "p8y_56i_5gn",
+        "quote": "其母，其母少止凶虐。",
+        "referent_role": "third_person",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p004:m0084",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p004",
+        "start": 84,
+        "end": 85,
+        "surface": "父",
+        "person_id": "7r6_k52_qji_A",
+        "quote": "止。祥喪父之後，漸有",
+        "referent_role": "third_person",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p008:m0040",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p008",
+        "start": 40,
+        "end": 41,
+        "surface": "卿",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "或爲害。卿有公輔之量",
+        "referent_role": "addressee",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p008:m0074",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p008",
+        "start": 74,
+        "end": 75,
+        "surface": "汝",
+        "person_id": "7r6_k52_qji_AB",
+        "quote": "，曰：「汝後必興，足",
+        "referent_role": "addressee",
+        "note": "王祥、王覽傳內親稱或當面對話；保留原字位和舊錨。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p004:r0037",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p004",
+        "start": 37,
+        "end": 38,
+        "surface": "其",
+        "person_id": "7r6_k52_qji_AB",
+        "quote": "至於成童，每諫其母",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p002:r0018",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p002",
+        "start": 18,
+        "end": 19,
+        "surface": "之",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "數譖之",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p002:r0106",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p002",
+        "start": 106,
+        "end": 107,
+        "surface": "其",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "飛入其幕",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p003:r0066",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p003",
+        "start": 66,
+        "end": 67,
+        "surface": "之",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "覽勸之",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p010:r0019",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p010",
+        "start": 19,
+        "end": 21,
+        "surface": "老臣",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "老臣無狀",
+        "referent_role": "speaker_self",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p011:r0043",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p011",
+        "start": 43,
+        "end": 45,
+        "surface": "相國",
+        "person_id": "hgm_jvn_hle",
+        "quote": "相國誠爲尊貴",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p011:r0110",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p011",
+        "start": 110,
+        "end": 111,
+        "surface": "吾",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "吾不爲也",
+        "referent_role": "speaker_self",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p011:r0137",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p011",
+        "start": 137,
+        "end": 138,
+        "surface": "君",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "君見顧之重",
+        "referent_role": "addressee",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p012:r0117",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p012",
+        "start": 117,
+        "end": 118,
+        "surface": "朕",
+        "person_id": "hgm_jvn_hle",
+        "quote": "朕所毗倚",
+        "referent_role": "speaker_self",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p013:r0024",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p013",
+        "start": 24,
+        "end": 25,
+        "surface": "吾",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "吾年八十有五",
+        "referent_role": "speaker_self",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p013:r0046",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p013",
+        "start": 46,
+        "end": 47,
+        "surface": "吾",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "吾生值季末",
+        "referent_role": "speaker_self",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p013:r0203",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p013",
+        "start": 203,
+        "end": 204,
+        "surface": "餘",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "無違餘命",
+        "referent_role": "speaker_self",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p015:r0062",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p015",
+        "start": 62,
+        "end": 63,
+        "surface": "之",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "及與之言",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
+      },
+      {
+        "id": "c-jinshu-033-wanglan-family:p015:r0075",
+        "paragraph_id": "c-jinshu-033-wanglan-family:p015",
+        "start": 75,
+        "end": 76,
+        "surface": "其",
+        "person_id": "7r6_k52_qji_AA",
+        "quote": "以德掩其言乎",
+        "referent_role": "third_person",
+        "note": "依此段書牘、對話或敘述所指。"
       }
     ],
     "reviewed_unit_evidence": [
       {
         "unit": "王祥、王覽子孫短傳",
         "path": "source-evidence/jin033-wang-family-children/reading.json"
+      },
+      {
+        "unit": "王覽",
+        "path": "source-evidence/jin033-wanglan/reading.json"
+      },
+      {
+        "unit": "王祥",
+        "path": "source-evidence/jin033-wangxiang/reading.json"
       }
     ]
   },
@@ -273,7 +615,7 @@
       "id": "c-jinshu-033-wanglan-family:p001",
       "text": "王祥，字休徵，琅邪臨沂人，漢諫議大夫吉之後也。祖仁，青州刺史。父融，公府辟不就。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p001:m0000",
@@ -332,7 +674,7 @@
       "id": "c-jinshu-033-wanglan-family:p002",
       "text": "祥性至孝。早喪親，繼母朱氏不慈，數譖之，由是失愛於父。每使掃除牛下，祥愈恭謹。父母有疾，衣不解帶，湯藥必親嘗。母常欲生魚，時天寒冰凍，祥解衣將剖冰求之，冰忽自解，雙鯉躍出，持之而歸。母又思黃雀灸，復有黃雀數十飛入其幕，復以供母。鄕里驚歎，以爲孝感所致焉。有丹柰結實，母命守之，每風雨，祥輒抱樹而泣。其篤孝純至如此。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p002:m0000",
@@ -350,15 +692,6 @@
           "surface": "朱氏",
           "kind": "person",
           "person_id": "p8y_56i_5gn",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-jinshu-033-wanglan-family:p002:m0025",
-          "start": 25,
-          "end": 26,
-          "surface": "父",
-          "kind": "person",
-          "person_id": "7r6_k52_qji_A",
           "status": "contextual_provisional"
         },
         {
@@ -381,48 +714,12 @@
           "interpretation_note": "父及本段繼母的合稱，非一個人物，不把繼母朱氏改作王祥生母。"
         },
         {
-          "id": "c-jinshu-033-wanglan-family:p002:m0055",
-          "start": 55,
-          "end": 56,
-          "surface": "母",
-          "kind": "person",
-          "person_id": "p8y_56i_5gn",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-jinshu-033-wanglan-family:p002:m0067",
           "start": 67,
           "end": 68,
           "surface": "祥",
           "kind": "person",
           "person_id": "7r6_k52_qji_AA",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-jinshu-033-wanglan-family:p002:m0091",
-          "start": 91,
-          "end": 92,
-          "surface": "母",
-          "kind": "person",
-          "person_id": "p8y_56i_5gn",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-jinshu-033-wanglan-family:p002:m0112",
-          "start": 112,
-          "end": 113,
-          "surface": "母",
-          "kind": "person",
-          "person_id": "p8y_56i_5gn",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-jinshu-033-wanglan-family:p002:m0133",
-          "start": 133,
-          "end": 134,
-          "surface": "母",
-          "kind": "person",
-          "person_id": "p8y_56i_5gn",
           "status": "contextual_provisional"
         },
         {
@@ -446,17 +743,8 @@
       "id": "c-jinshu-033-wanglan-family:p003",
       "text": "漢未遭亂，扶母攜弟覽避地廬江，隱居三十餘年，不應州郡之命。母終，居喪毀瘁，杖而後起。徐州刺史呂虔檄爲別駕，祥年垂耳順，固辭不受。覽勸之，爲具車牛，祥乃應召，虔委以州事。於時寇盜充斥，祥率勵兵士，頻討破之。州界清靜，政化大行。時人歌之曰：「海沂之康，實賴王祥。邦國不空，別駕之功。」",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
-        {
-          "id": "c-jinshu-033-wanglan-family:p003:m0006",
-          "start": 6,
-          "end": 7,
-          "surface": "母",
-          "kind": "person",
-          "person_id": "p8y_56i_5gn",
-          "status": "contextual_provisional"
-        },
         {
           "id": "c-jinshu-033-wanglan-family:p003:m0009",
           "start": 9,
@@ -464,15 +752,6 @@
           "surface": "覽",
           "kind": "person",
           "person_id": "7r6_k52_qji_AB",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-jinshu-033-wanglan-family:p003:m0029",
-          "start": 29,
-          "end": 30,
-          "surface": "母",
-          "kind": "person",
-          "person_id": "p8y_56i_5gn",
           "status": "contextual_provisional"
         },
         {
@@ -550,7 +829,7 @@
       "id": "c-jinshu-033-wanglan-family:p009",
       "text": "舉秀才，除溫令，累遷大司農。高貴鄕公即位，與定策功，封關內侯，拜光祿勳，轉司隸校尉。從討毌丘儉，增邑四百戸，遷太常，封萬歲亭侯。天子幸太學，命祥爲三老。祥南面几杖，以師道自居。天子北面乞言，祥陳明王聖帝君臣政化之要以訓之，聞者莫不砥礪。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p009:m0014",
@@ -634,7 +913,7 @@
       "id": "c-jinshu-033-wanglan-family:p010",
       "text": "及高貴鄕公之弑也，朝臣舉哀，祥號哭曰「老臣無狀」，涕淚交流，眾有愧色。頃之，拜司空，轉太尉，加侍中。五等建，封睢陵侯，邑一千六百戸。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p010:m0001",
@@ -668,7 +947,7 @@
       "id": "c-jinshu-033-wanglan-family:p011",
       "text": "及武帝爲晉王，祥與荀顗往謁，顗謂祥曰：「相王尊重，何侯既已盡敬，今便當拜也。」祥曰：「相國誠爲尊貴，然是魏之宰相。吾等魏之三公，公王相去，一階而已，班例大同，安有天子三司而輒拜人者！損魏朝之望，虧晉王之德，君子愛人以禮，吾不爲也。」及入，顗遂拜，而祥獨長揖。帝曰：「今日方知君見顧之重矣！」",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p011:m0001",
@@ -812,7 +1091,7 @@
       "id": "c-jinshu-033-wanglan-family:p012",
       "text": "武帝踐阼，拜太保，進爵爲公，加置七官之職。帝新愛命，虛己以求讜言。祥與何曾、鄭沖等耆艾篤老，希復朝見，帝遣侍中任愷諮問得失，及政化所先。祥以年老疲耄，累乞遜位，帝不許。御史中丞侯史光以祥久疾，闕朝會禮，請免祥官。詔曰：「太保元老高行，朕所毗倚以隆政道者也。前後遜讓，不從所執，此非有司所得議也。」遂寢光奏。祥固乞骸骨，詔聽以睢陵公就第，位同保傅，在三司之右，祿賜如前。詔曰：「古之致仕，不事王侯。今雖以國公留居京邑，不宜復苦以朝請。其賜几杖，不朝，大事皆諮訪之。賜安車駟馬，第一區，錢百萬，絹五百匹，床帳簟褥，以舍人六人爲睢陵公舍人，置官騎二十人。以公子騎都尉肇爲給事中，使常優遊定省。又乙太保高潔清素，家無宅宇，其權留本府，須所賜第成乃出。」",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p012:m0000",
@@ -1026,7 +1305,7 @@
       "id": "c-jinshu-033-wanglan-family:p013",
       "text": "及疾篤，著遺令訓子孫曰：「夫生之有死，自然之理。吾年八十有五，啟手何恨。不有遺言，使爾無述。吾生值季末，登庸曆試，無毗佐之勳，沒無以報。氣絶但洗手足，不須沐浴，勿纏屍，皆浣故衣，隨時所服。所賜山玄玉佩、衞氏玉玦、綬笥皆勿以斂。西芒上土自堅貞，勿用甓石，勿起墳隴。穿深二丈，槨取容棺。勿作前堂、布几筵、置書箱鏡奩之具，棺前但可施床榻而已。Я脯各一盤，玄酒一杯，爲朝夕奠。家人大小不須送喪，大小祥乃設特牲。無違餘命！高柴泣血三年，夫子謂之愚。閔子除喪出見。援琴切切而哀，仲尼謂之孝。故哭泣之哀，日月降殺，飲食之宜，自有制度。夫言行可覆，信之至也；推美引過，德之至也；揚名顯親，孝之至也；兄弟怡怡，宗族欣欣，悌之至也；臨財莫過乎讓：此五者，立身之本。顏子所以爲命，未之思也，夫何遠之有！」其子皆奉而行之。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p013:m0206",
@@ -1090,7 +1369,7 @@
       "id": "c-jinshu-033-wanglan-family:p014",
       "text": "泰始五年薨，詔賜東園秘器，朝服一具，衣一襲，錢三十萬，布帛百匹。時文明皇太后崩始逾月，其後詔曰：「爲睢陵公發哀，事乃至今。雖每爲之感傷，要未得特敘哀情。今便哭之。」明年，策諡曰元。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p014:m0033",
@@ -1124,7 +1403,7 @@
       "id": "c-jinshu-033-wanglan-family:p015",
       "text": "祥之薨，奔赴者非朝廷之賢，則親親故吏而已，門無雜吊之賓。族孫戎歎曰：「太保可謂清達矣！」又稱：「祥在正始，不在能言之流。及與之言，理致清遠，將非以德掩其言乎！」祥有五子：肇、夏、馥、烈、芬。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p015:m0000",
@@ -1422,7 +1701,7 @@
       "id": "c-jinshu-033-wanglan-family:p004",
       "text": "覽字玄通。母朱，遇祥無道。覽年數歲，見祥被楚撻，輒涕泣抱持。至於成童，每諫其母，其母少止凶虐。朱屢以非理使祥，覽輒與祥俱。又虐使祥妻，覽妻亦趨而共之。朱患之，乃止。祥喪父之後，漸有時譽。朱深疾之，密使鴆祥。覽知之，徑起取酒。祥疑其有毒，爭而不與，朱遽奪反之。自後朱賜祥饌，覽輒先嘗。朱懼覽致斃，遂止。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p004:m0000",
@@ -1440,15 +1719,6 @@
           "surface": "玄通",
           "kind": "person",
           "person_id": "7r6_k52_qji_AB",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-jinshu-033-wanglan-family:p004:m0005",
-          "start": 5,
-          "end": 6,
-          "surface": "母",
-          "kind": "person",
-          "person_id": "p8y_56i_5gn",
           "status": "contextual_provisional"
         },
         {
@@ -1485,24 +1755,6 @@
           "surface": "祥",
           "kind": "person",
           "person_id": "7r6_k52_qji_AA",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-jinshu-033-wanglan-family:p004:m0038",
-          "start": 38,
-          "end": 39,
-          "surface": "母",
-          "kind": "person",
-          "person_id": "p8y_56i_5gn",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-jinshu-033-wanglan-family:p004:m0041",
-          "start": 41,
-          "end": 42,
-          "surface": "母",
-          "kind": "person",
-          "person_id": "p8y_56i_5gn",
           "status": "contextual_provisional"
         },
         {
@@ -1575,15 +1827,6 @@
           "surface": "祥",
           "kind": "person",
           "person_id": "7r6_k52_qji_AA",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-jinshu-033-wanglan-family:p004:m0084",
-          "start": 84,
-          "end": 85,
-          "surface": "父",
-          "kind": "person",
-          "person_id": "7r6_k52_qji_A",
           "status": "contextual_provisional"
         },
         {
@@ -1688,7 +1931,7 @@
       "id": "c-jinshu-033-wanglan-family:p005",
       "text": "覽孝友恭恪，名亞於祥。及祥仕進，覽亦應本郡之召，稍遷司徒西曹掾、清河太守。五等建，封即丘子，邑六百戸。泰始末，除弘訓少府。職省，轉太中大夫，祿賜與卿同。咸甯初，詔曰：「覽少篤至行，服仁履義，貞素之操，長而彌固。其以覽爲宗正卿。」頃之，以疾上疏乞骸骨。詔聽之，乙太中大夫歸老，賜錢二十萬，床帳薦褥，遣殿中醫療疾給藥。後轉光祿大夫，門施行馬。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p005:m0000",
@@ -1756,7 +1999,7 @@
       "id": "c-jinshu-033-wanglan-family:p006",
       "text": "咸寧四年卒，時年七十三，諡曰貞。有六子：裁、基、會、正、彥、琛。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p006:m0020",
@@ -1946,7 +2189,7 @@
       "id": "c-jinshu-033-wanglan-family:p008",
       "text": "初，呂虔有佩刀，工相之，以爲必登三公，可服此刀。虔謂祥曰：「苟非其人，刀或爲害。卿有公輔之量，故以相與。」祥固辭，強之乃受。祥臨薨，以刀授覽，曰：「汝後必興，足稱此刀。」覽後奕世多賢才，興於江左矣。裁子導，別有傳。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-033-wanglan-family:p008:m0002",
@@ -1985,15 +2228,6 @@
           "status": "contextual_provisional"
         },
         {
-          "id": "c-jinshu-033-wanglan-family:p008:m0040",
-          "start": 40,
-          "end": 41,
-          "surface": "卿",
-          "kind": "person",
-          "person_id": "7r6_k52_qji_AA",
-          "status": "contextual_provisional"
-        },
-        {
           "id": "c-jinshu-033-wanglan-family:p008:m0053",
           "start": 53,
           "end": 54,
@@ -2016,15 +2250,6 @@
           "start": 69,
           "end": 70,
           "surface": "覽",
-          "kind": "person",
-          "person_id": "7r6_k52_qji_AB",
-          "status": "contextual_provisional"
-        },
-        {
-          "id": "c-jinshu-033-wanglan-family:p008:m0074",
-          "start": 74,
-          "end": 75,
-          "surface": "汝",
           "kind": "person",
           "person_id": "7r6_k52_qji_AB",
           "status": "contextual_provisional"

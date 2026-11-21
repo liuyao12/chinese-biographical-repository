@@ -1701,6 +1701,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-song052-xiejingren-m1-33",
+      "person_id": "aa6_83c_juy_B",
+      "title": "太傅",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-song052-xiejingren-m1-33:a",
+          "person_mention_id": "c-songshu-052-xiejingren:p001:m0035",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-songshu-052-xiejingren:p001",
+          "surface": "太傅",
+          "start": 33,
+          "end": 35
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-xiejingren-ws2190655",
+          "chapter_id": "c-songshu-052-xiejingren",
+          "paragraph_id": "c-songshu-052-xiejingren:p001",
+          "quote": "謝景仁，陳郡陽夏人，衞將軍晦從叔父也。名與高祖同諱，故稱字。祖據，太傅安第二弟。父允，宣城內史。",
+          "person_mention_id": "c-songshu-052-xiejingren:p001:m0035"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -2215,6 +2263,70 @@
       "chapter_id": "c-nanqishu-043-xieyue",
       "source_id": "s-nanqishu043-ws2400356",
       "work_title": "南齊書"
+    },
+    {
+      "number": 52,
+      "category": "",
+      "title": "謝景仁及子恂、孫稚",
+      "paragraph_id": "c-songshu-052-xiejingren:p001",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "謝景仁，陳郡陽夏人，衞將軍晦從叔父也。名與高祖同諱，故稱字。祖據，太傅安第二弟。父允，宣城內史。",
+      "paragraph_ids": [
+        "c-songshu-052-xiejingren:p001",
+        "c-songshu-052-xiejingren:p002",
+        "c-songshu-052-xiejingren:p003"
+      ],
+      "mention_ids": [
+        "c-songshu-052-xiejingren:p001:m0035",
+        "c-songshu-052-xiejingren:p002:m0005",
+        "c-songshu-052-xiejingren:p002:m0010",
+        "c-songshu-052-xiejingren:p003:m0122"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-052-xiejingren:p001:m0035": "c-songshu-052-xiejingren:p001",
+        "c-songshu-052-xiejingren:p002:m0005": "c-songshu-052-xiejingren:p002",
+        "c-songshu-052-xiejingren:p002:m0010": "c-songshu-052-xiejingren:p002",
+        "c-songshu-052-xiejingren:p003:m0122": "c-songshu-052-xiejingren:p003"
+      },
+      "mention_id": "c-songshu-052-xiejingren:p001:m0035",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-052-xiejingren:p001:m0035",
+          "mention_ids": [
+            "c-songshu-052-xiejingren:p001:m0035"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-052-xiejingren:p002:m0005",
+          "mention_ids": [
+            "c-songshu-052-xiejingren:p002:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-052-xiejingren:p002:m0010",
+          "mention_ids": [
+            "c-songshu-052-xiejingren:p002:m0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-052-xiejingren:p003:m0122",
+          "mention_ids": [
+            "c-songshu-052-xiejingren:p003:m0122"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-052",
+      "chapter_id": "c-songshu-052-xiejingren",
+      "source_id": "s-songshu-052-xiejingren-ws2190655",
+      "work_title": "宋書"
     },
     {
       "number": 58,
@@ -10679,6 +10791,90 @@
       }
     },
     {
+      "chapter_id": "c-songshu-052-xiejingren",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-052",
+      "source_id": "s-songshu-052-xiejingren-ws2190655",
+      "source": {
+        "title": "宋書卷52·謝景仁及子恂、孫稚",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2190655",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2190655",
+        "revision_id": 2190655,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第31至43行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi019-xie-branches/song052-ws2190655.wikitext",
+        "raw_file_sha256": "5afe94508cf8a62e351428f22721cad2eb99a309992e0eefa204456b54d327af",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                32,
+                32
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2190655
+            },
+            {
+              "source_lines": [
+                34,
+                34
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2190655
+            },
+            {
+              "source_lines": [
+                36,
+                36
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2190655
+            },
+            {
+              "source_lines": [
+                38,
+                38
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2190655
+            },
+            {
+              "source_lines": [
+                40,
+                40
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2190655
+            },
+            {
+              "source_lines": [
+                42,
+                42
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2190655
+            }
+          ]
+        },
+        "section_locator": "謝景仁及子恂、孫稚"
+      }
+    },
+    {
       "chapter_id": "c-songshu-058-xiehongwei",
       "work_id": "w-songshu",
       "book_id": "b-songshu-058",
@@ -17455,6 +17651,47 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-song052-xiejingren-an-ju",
+      "subject_person_id": "aa6_83c_juy_A",
+      "object_person_id": "aa6_83c_juy_B",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "太傅安第二弟",
+        "song052_xiejingren_reading": "an-ju",
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_B",
+          "younger_person_id": "aa6_83c_juy_A",
+          "scope": "siblings",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "reported_younger_sibling_ordinal": {
+          "value": 2,
+          "source_number": "二",
+          "scope": "reported_persons_younger_brothers",
+          "relative_to_person_id": "aa6_83c_juy_B"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-xiejingren-ws2190655",
+          "chapter_id": "c-songshu-052-xiejingren",
+          "paragraph_id": "c-songshu-052-xiejingren:p001",
+          "quote": "謝景仁，陳郡陽夏人，衞將軍晦從叔父也。名與高祖同諱，故稱字。祖據，太傅安第二弟。父允，宣城內史。",
+          "subject_person_mention_id": "c-songshu-052-xiejingren:p001:m0031",
+          "object_person_mention_id": "c-songshu-052-xiejingren:p001:m0035"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原稱第二弟，限定謝據在安的諸弟中，不換為父母諸子第二。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
@@ -17463,6 +17700,7 @@
     "6na_bet_3ch": "謝瑤",
     "9c6_355_254": "羊曇",
     "aa6_83c_juy": "謝裒",
+    "aa6_83c_juy_A": "謝據",
     "aa6_83c_juy_AA": "謝朗",
     "aa6_83c_juy_B": "謝安",
     "aa6_83c_juy_B*A": "謝璞",
@@ -18141,6 +18379,36 @@
       "book_id": "b-nanshi-019",
       "work_id": "w-nanshi",
       "source_id": "s-nanshi-019-xieyu-descendants-ws1531762"
+    },
+    {
+      "id": "c-songshu-052-xiejingren:p003:r0153",
+      "surface": "名公",
+      "start": 153,
+      "end": 155,
+      "person_id": "aa6_83c_juy_B",
+      "referent_role": "third_person",
+      "paragraph_id": "c-songshu-052-xiejingren:p003",
+      "quote": "高祖為桓脩撫軍中兵參軍，嘗詣景仁諮事，景仁與語悅之，因留高祖共食。食未辦，而景仁為玄所召。玄性促急，俄頃之間，騎詔續至。高祖屢求去，景仁不許，曰：「主上見待，要應有方。我欲與客共食，豈當不得待。」竟安坐飽食，然後應召。高祖甚感之，常謂景仁是太傅安孫。及平京邑，入鎮石頭，景仁與百僚同見高祖，高祖目之曰：「此名公孫也。」謂景仁曰：「承制府須記室參軍，今當相屈。」以為大將軍武陵王遵記室參軍，仍為從事中郎，遷司徒左長史。出為高祖鎮軍司馬，領晉陵太守，復為車騎司馬。",
+      "note": "依本段事件與話語參與者，表層指謝安。",
+      "chapter_id": "c-songshu-052-xiejingren",
+      "book_id": "b-songshu-052",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-052-xiejingren-ws2190655"
+    },
+    {
+      "id": "c-songshu-052-xiejingren:p004:r0051",
+      "surface": "謝太傅",
+      "start": 51,
+      "end": 54,
+      "person_id": "aa6_83c_juy_B",
+      "referent_role": "third_person",
+      "paragraph_id": "c-songshu-052-xiejingren:p004",
+      "quote": "義熙五年，高祖以內難既寧，思弘外略，將伐鮮卑。朝議皆謂不可。劉毅時鎮姑孰，固止高祖，以為：「苻堅侵境，謝太傅猶不自行。宰相遠出，傾動根本。」景仁獨曰：「公建桓、文之烈，應天人之心，匡復皇祚，芟夷姦逆，雖業高振古，而德刑未孚，宜推亡固存，廣樹威略。鮮卑密邇疆甸，屢犯邊垂，伐罪弔民，於是乎在。平定之後，養銳息徒，然後觀兵洛汭，修復園寢，豈有坐長寇虜，縱敵貽患者哉！」高祖納之。及北伐，大司馬琅邪王，天子母弟，屬當儲副，高祖深以根本為憂，轉景仁為大司馬左司馬，專總府任，右衞將軍，加給事中，又遷吏部尚書。時從兄混為左僕射，依制不得相臨，高祖啟依僕射王彪之、尚書王劭前例，不解職。",
+      "note": "依本段事件與話語參與者，表層指謝安。",
+      "chapter_id": "c-songshu-052-xiejingren",
+      "book_id": "b-songshu-052",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-052-xiejingren-ws2190655"
     }
   ],
   "person_ids": [
@@ -18687,6 +18955,47 @@
       ],
       "interpretation_note": "本附傳明載祖安。",
       "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-song052-xiejingren-an-ju",
+      "subject_person_id": "aa6_83c_juy_A",
+      "object_person_id": "aa6_83c_juy_B",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "太傅安第二弟",
+        "song052_xiejingren_reading": "an-ju",
+        "relative_birth_order": {
+          "older_person_id": "aa6_83c_juy_B",
+          "younger_person_id": "aa6_83c_juy_A",
+          "scope": "siblings",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "reported_younger_sibling_ordinal": {
+          "value": 2,
+          "source_number": "二",
+          "scope": "reported_persons_younger_brothers",
+          "relative_to_person_id": "aa6_83c_juy_B"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-xiejingren-ws2190655",
+          "chapter_id": "c-songshu-052-xiejingren",
+          "paragraph_id": "c-songshu-052-xiejingren:p001",
+          "quote": "謝景仁，陳郡陽夏人，衞將軍晦從叔父也。名與高祖同諱，故稱字。祖據，太傅安第二弟。父允，宣城內史。",
+          "subject_person_mention_id": "c-songshu-052-xiejingren:p001:m0031",
+          "object_person_mention_id": "c-songshu-052-xiejingren:p001:m0035"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原稱第二弟，限定謝據在安的諸弟中，不換為父母諸子第二。",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     }

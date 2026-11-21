@@ -1,0 +1,44 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-liangshu-022-nanping-xiejiqing",
+  "assertions": [
+    {
+      "id": "a-liang022-nanping-eighth-son",
+      "subject_person_id": "qvt_eq1_lcf_AF",
+      "predicate": "father",
+      "object_person_id": "qvt_eq1_lcf_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "太祖第八子也",
+        "birth_order": {
+          "scope": "sons_of_parent",
+          "parent_person_id": "qvt_eq1_lcf_A",
+          "ordinal": 8,
+          "position": "unspecified",
+          "source_term": "第八子",
+          "interpretation_status": "source_attested"
+        },
+        "reading_basis": {
+          "kind": "liang022_nanping_eighth_son"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-022",
+          "chapter_id": "c-liangshu-022-nanping-xiejiqing",
+          "source_id": "s-liangshu-022-nanping-ws1513347",
+          "paragraph_id": "c-liangshu-022-nanping-xiejiqing:p001",
+          "quote": "南平元襄王偉字文達，太祖第八子也。",
+          "subject_person_mention_id": "c-liangshu-022-nanping-xiejiqing:p001:m0005",
+          "object_person_reference_id": "c-liangshu-022-nanping-xiejiqing:p001:r0010"
+        }
+      ],
+      "interpretation_note": "本傳明稱梁太祖第八子，廟號指蕭順之。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

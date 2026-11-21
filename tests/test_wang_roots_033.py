@@ -80,7 +80,7 @@ class WangRoots033(unittest.TestCase):
         self.assertIsNone(age['birth_year'])
         for e in deaths:
             self.assertEqual(e['event_type'], 'death')
-            if e['person_id'] != self.people['王覽']:
+            if e['person_id'] in (self.people['王融'], self.people['朱氏（王覽母）']):
                 self.assertIsNone(e['date_expression'])
                 self.assertNotIn('normalized_date', e)
 

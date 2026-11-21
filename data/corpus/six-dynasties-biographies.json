@@ -273,6 +273,26 @@
       ]
     },
     {
+      "book_id": "b-jinshu-098",
+      "revision": 2614273,
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=2614273",
+      "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
+      "sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+      "heading_survey": "complete",
+      "heading_locator_scheme": "wikisource_equals_lines",
+      "embedded_account_survey": "in_progress",
+      "excluded_sections": [
+        {
+          "heading": "【贊】",
+          "heading_line": 167,
+          "reason": "卷末論贊。"
+        }
+      ],
+      "pending_boundaries": [
+        "王敦與沈充等題下已辨識具字官或連續事蹟之短敘。全卷段內餘例仍可復核。"
+      ]
+    },
+    {
       "book_id": "b-liangshu-021",
       "revision": 1544250,
       "permalink": "https://zh.wikisource.org/w/index.php?oldid=1544250",
@@ -408,6 +428,36 @@
           "first_line": 186,
           "last_line": 186,
           "note": "顏協傳末述二子及之推官歷，與兩人本傳另查。"
+        }
+      ],
+      "text_witness_units": [
+        {
+          "title": "謝幾卿傳",
+          "book_id": "b-liangshu-050",
+          "chapter_id": "c-liangshu-050-xiejiqing-family-intro-wyd",
+          "complete": true,
+          "location": "source-evidence/liang050-jiqing-wyd/wyd-columns.txt",
+          "paragraph_ids": [
+            "c-liangshu-050-xiejiqing-family-intro-wyd:p001",
+            "c-liangshu-050-xiejiqing-family-intro-wyd:p002",
+            "c-liangshu-050-xiejiqing-family-intro-wyd:p003",
+            "c-liangshu-050-xiejiqing-family-intro-wyd:p004",
+            "c-liangshu-050-xiejiqing-family-intro-wyd:p005",
+            "c-liangshu-050-xiejiqing-family-intro-wyd:p006"
+          ]
+        },
+        {
+          "title": "謝徵傳",
+          "book_id": "b-liangshu-050",
+          "chapter_id": "c-liangshu-050-xiezheng-wyd",
+          "complete": true,
+          "location": "source-evidence/liang050-xiezheng-wyd/wyd-columns.txt",
+          "paragraph_ids": [
+            "c-liangshu-050-xiezheng-wyd:p001",
+            "c-liangshu-050-xiezheng-wyd:p002",
+            "c-liangshu-050-xiezheng-wyd:p003",
+            "c-liangshu-050-xiezheng-wyd:p004"
+          ]
         }
       ]
     },
@@ -892,12 +942,6 @@
       ],
       "pending_boundaries": [
         {
-          "person": "謝恂、謝稚",
-          "first_line": 43,
-          "last_line": 43,
-          "note": "景仁傳末兩代子孫敘任官；與南史孺子對讀。"
-        },
-        {
           "person": "褚恬之、褚寂之等",
           "first_line": 121,
           "last_line": 121,
@@ -1134,8 +1178,8 @@
       "heading_raw": "==王祥==",
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false,
+      "first_pass": true,
+      "item_reviewed": true,
       "chapter_path": "corpus/jinshu/033.json",
       "mixed_chapter": true,
       "source_layout": "jin065_indented_text",
@@ -1352,8 +1396,8 @@
       "heading_raw": "===祥弟 覽===",
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false,
+      "first_pass": true,
+      "item_reviewed": true,
       "chapter_path": "corpus/jinshu/033.json",
       "mixed_chapter": true,
       "source_layout": "jin065_indented_text",
@@ -4843,6 +4887,406 @@
       "chapter_id": null
     },
     {
+      "book_id": "b-jinshu-098",
+      "title": "王敦",
+      "unit_kind": "headed_account",
+      "heading_line": 9,
+      "heading_raw": "==王敦==",
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "chapter_path": "corpus/jinshu/098-jin033-wangji.json",
+      "first_line": 11,
+      "last_line": 83,
+      "start_codepoint": 0,
+      "end_codepoint": 257,
+      "opening": "王敦，字處仲，司徒導之從",
+      "closing": "十人並放之，時人歎異焉。",
+      "paragraph_ids": [
+        "c-jinshu-098-jin033-wangji:head",
+        "c-jinshu-098-jin033-wangji:line013",
+        "c-jinshu-098-jin033-wangji:line015",
+        "c-jinshu-098-jin033-wangji:line017",
+        "c-jinshu-098-jin033-wangji:line019",
+        "c-jinshu-098-jin033-wangji:line021",
+        "c-jinshu-098-jin033-wangji:line023",
+        "c-jinshu-098-jin033-wangji:line025",
+        "c-jinshu-098-jin033-wangji:line027",
+        "c-jinshu-098-jin033-wangji:line029",
+        "c-jinshu-098-jin033-wangji:line031",
+        "c-jinshu-098-jin033-wangji:line033",
+        "c-jinshu-098-jin033-wangji:line035",
+        "c-jinshu-098-jin033-wangji:line037",
+        "c-jinshu-098-jin033-wangji:line039",
+        "c-jinshu-098-jin033-wangji:line041",
+        "c-jinshu-098-jin033-wangji:line043",
+        "c-jinshu-098-jin033-wangji:line045",
+        "c-jinshu-098-jin033-wangji:line047",
+        "c-jinshu-098-jin033-wangji:line049",
+        "c-jinshu-098-jin033-wangji:line051",
+        "c-jinshu-098-jin033-wangji:line053",
+        "c-jinshu-098-jin033-wangji:line055",
+        "c-jinshu-098-jin033-wangji:line057",
+        "c-jinshu-098-jin033-wangji:line059",
+        "c-jinshu-098-jin033-wangji:line061",
+        "c-jinshu-098-jin033-wangji:line063",
+        "c-jinshu-098-jin033-wangji:line065",
+        "c-jinshu-098-jin033-wangji:line067",
+        "c-jinshu-098-jin033-wangji:line069",
+        "c-jinshu-098-jin033-wangji:line071",
+        "c-jinshu-098-jin033-wangji:line073",
+        "c-jinshu-098-jin033-wangji:line075",
+        "c-jinshu-098-jin033-wangji:line077",
+        "c-jinshu-098-jin033-wangji:line079",
+        "c-jinshu-098-jin033-wangji:line081",
+        "c-jinshu-098-jin033-wangji:line083"
+      ],
+      "source_layout": "wikisource_blockquote_colon",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": false,
+      "item_reviewed": false
+    },
+    {
+      "book_id": "b-jinshu-098",
+      "title": "王含",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王敦",
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "chapter_path": "corpus/jinshu/098-jin033-wangji.json",
+      "first_line": 49,
+      "last_line": 49,
+      "start_codepoint": 63,
+      "end_codepoint": 88,
+      "opening": "含字處弘，凶頑剛暴，時所",
+      "closing": "齒，以敦貴重，故曆顯位。",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-098-jin033-wangji:line049"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-098-jin033-wangji:line049": {
+          "start": 63,
+          "end": 88
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
+    },
+    {
+      "book_id": "b-jinshu-098",
+      "title": "王應",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王敦",
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "chapter_path": "corpus/jinshu/098-jin033-wangji.json",
+      "first_line": 49,
+      "last_line": 49,
+      "start_codepoint": 189,
+      "end_codepoint": 214,
+      "opening": "敦無子，養含子應。及敦病",
+      "closing": "，拜應為武衛將軍以自副。",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-098-jin033-wangji:line049",
+        "c-jinshu-098-jin033-wangji:line077"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-098-jin033-wangji:line049": {
+          "start": 189,
+          "end": 214
+        },
+        "c-jinshu-098-jin033-wangji:line077": {
+          "start": 104,
+          "end": 137
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "continuation_spans": [
+        {
+          "first_line": 77,
+          "last_line": 77,
+          "start_codepoint": 104,
+          "end_codepoint": 137,
+          "opening": "應秘不發喪，裹屍以席，蠟",
+          "closing": "，與諸葛瑤等恆縱酒淫樂。"
+        }
+      ]
+    },
+    {
+      "book_id": "b-jinshu-098",
+      "title": "沈充",
+      "unit_kind": "headed_account",
+      "heading_line": 85,
+      "heading_raw": "===沈充===",
+      "chapter_id": "c-jinshu-098-shenchong",
+      "chapter_path": "corpus/jinshu/098-shenchong.json",
+      "first_line": 87,
+      "last_line": 91,
+      "start_codepoint": 0,
+      "end_codepoint": 360,
+      "opening": "沈充，字士居。少好兵書，",
+      "closing": "9#沈勁|忠義傳]]》。",
+      "paragraph_ids": [
+        "c-jinshu-098-shenchong:line087",
+        "c-jinshu-098-shenchong:line089",
+        "c-jinshu-098-shenchong:line091"
+      ],
+      "source_layout": "wikisource_blockquote_colon",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
+    },
+    {
+      "book_id": "b-jinshu-098",
+      "title": "錢鳳",
+      "unit_kind": "embedded_account",
+      "parent_heading": "沈充",
+      "chapter_id": "c-jinshu-098-shenchong",
+      "chapter_path": "corpus/jinshu/098-shenchong.json",
+      "first_line": 87,
+      "last_line": 87,
+      "start_codepoint": 35,
+      "end_codepoint": 101,
+      "opening": "鳳字世儀，敦以為鎧曹參軍",
+      "closing": "，而密為敦使，與充交構。",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-098-shenchong:line087"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-098-shenchong:line087": {
+          "start": 35,
+          "end": 101
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
+    },
+    {
+      "book_id": "b-jinshu-098",
+      "title": "熊甫",
+      "unit_kind": "embedded_account",
+      "parent_heading": "沈充",
+      "chapter_id": "c-jinshu-098-shenchong",
+      "chapter_path": "corpus/jinshu/098-shenchong.json",
+      "first_line": 89,
+      "last_line": 89,
+      "start_codepoint": 0,
+      "end_codepoint": 121,
+      "opening": "初，敦參軍熊甫見敦委任鳳",
+      "closing": "難。」敦知其諷己而不納。",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-098-shenchong:line089"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-098-shenchong:line089": {
+          "start": 0,
+          "end": 121
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
+    },
+    {
+      "book_id": "b-jinshu-098",
+      "title": "桓溫",
+      "unit_kind": "headed_account",
+      "heading_line": 95,
+      "heading_raw": "==桓溫==",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "chapter_path": "corpus/jinshu/098-huanwen.json",
+      "first_line": 97,
+      "last_line": 155,
+      "start_codepoint": 0,
+      "end_codepoint": 169,
+      "opening": "桓溫，字元子，[[晉書/",
+      "closing": "同三司。玄嗣爵，別有傳。",
+      "paragraph_ids": [
+        "c-jinshu-098-huanwen:p001",
+        "c-jinshu-098-huanwen:p002",
+        "c-jinshu-098-huanwen:p003",
+        "c-jinshu-098-huanwen:p004",
+        "c-jinshu-098-huanwen:p005",
+        "c-jinshu-098-huanwen:p006",
+        "c-jinshu-098-huanwen:p007",
+        "c-jinshu-098-huanwen:p008",
+        "c-jinshu-098-huanwen:p009",
+        "c-jinshu-098-huanwen:p010",
+        "c-jinshu-098-huanwen:p011",
+        "c-jinshu-098-huanwen:p012",
+        "c-jinshu-098-huanwen:p013",
+        "c-jinshu-098-huanwen:p014",
+        "c-jinshu-098-huanwen:p015",
+        "c-jinshu-098-huanwen:p016",
+        "c-jinshu-098-huanwen:p017",
+        "c-jinshu-098-huanwen:p018",
+        "c-jinshu-098-huanwen:p019",
+        "c-jinshu-098-huanwen:p020",
+        "c-jinshu-098-huanwen:p021",
+        "c-jinshu-098-huanwen:p022",
+        "c-jinshu-098-huanwen:p023",
+        "c-jinshu-098-huanwen:p024",
+        "c-jinshu-098-huanwen:p025",
+        "c-jinshu-098-huanwen:p026",
+        "c-jinshu-098-huanwen:p027",
+        "c-jinshu-098-huanwen:p028",
+        "c-jinshu-098-huanwen:p029",
+        "c-jinshu-098-huanwen:p030"
+      ],
+      "source_layout": "wikisource_blockquote_colon",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": false
+    },
+    {
+      "book_id": "b-jinshu-098",
+      "title": "桓熙",
+      "unit_kind": "embedded_account",
+      "parent_heading": "桓溫",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "chapter_path": "corpus/jinshu/098-huanwen.json",
+      "first_line": 155,
+      "last_line": 155,
+      "start_codepoint": 16,
+      "end_codepoint": 58,
+      "opening": "熙字伯道，初為世子，後以",
+      "closing": "殺沖，沖知之，徙于長沙。",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-098-huanwen:p030"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-098-huanwen:p030": {
+          "start": 16,
+          "end": 58
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": false
+    },
+    {
+      "book_id": "b-jinshu-098",
+      "title": "桓濟",
+      "unit_kind": "embedded_account",
+      "parent_heading": "桓溫",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "chapter_path": "corpus/jinshu/098-huanwen.json",
+      "first_line": 155,
+      "last_line": 155,
+      "start_codepoint": 58,
+      "end_codepoint": 73,
+      "opening": "濟字仲道，與熙同謀，俱徙",
+      "closing": "道，與熙同謀，俱徙長沙。",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-098-huanwen:p030"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-098-huanwen:p030": {
+          "start": 58,
+          "end": 73
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": false
+    },
+    {
+      "book_id": "b-jinshu-098",
+      "title": "桓歆",
+      "unit_kind": "embedded_account",
+      "parent_heading": "桓溫",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "chapter_path": "corpus/jinshu/098-huanwen.json",
+      "first_line": 155,
+      "last_line": 155,
+      "start_codepoint": 73,
+      "end_codepoint": 84,
+      "opening": "歆字叔道，賜爵臨賀公。",
+      "closing": "歆字叔道，賜爵臨賀公。",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-098-huanwen:p030"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-098-huanwen:p030": {
+          "start": 73,
+          "end": 84
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": false
+    },
+    {
+      "book_id": "b-jinshu-098",
+      "title": "桓偉",
+      "unit_kind": "embedded_account",
+      "parent_heading": "桓溫",
+      "chapter_id": "c-jinshu-098-huanwen",
+      "chapter_path": "corpus/jinshu/098-huanwen.json",
+      "first_line": 155,
+      "last_line": 155,
+      "start_codepoint": 93,
+      "end_codepoint": 161,
+      "opening": "偉字幼道，平厚篤實，居籓",
+      "closing": "驃騎將軍、開府儀同三司。",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-098-huanwen:p030"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-098-huanwen:p030": {
+          "start": 93,
+          "end": 161
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": false
+    },
+    {
+      "book_id": "b-jinshu-098",
+      "title": "孟嘉",
+      "unit_kind": "headed_account",
+      "heading_line": 157,
+      "heading_raw": "===孟嘉===",
+      "chapter_id": "c-jinshu-098-mengjia",
+      "chapter_path": "corpus/jinshu/098-mengjia.json",
+      "first_line": 159,
+      "last_line": 163,
+      "start_codepoint": 0,
+      "end_codepoint": 96,
+      "opening": "孟嘉字萬年，江夏鄳人，吳",
+      "closing": "遷長史。年五十三卒於家。",
+      "paragraph_ids": [
+        "c-jinshu-098-mengjia:line159",
+        "c-jinshu-098-mengjia:line161",
+        "c-jinshu-098-mengjia:line163"
+      ],
+      "source_layout": "wikisource_blockquote_colon",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": false,
+      "item_reviewed": false
+    },
+    {
       "book_id": "b-liangshu-021",
       "title": "王瞻",
       "unit_kind": "headed_account",
@@ -5034,11 +5478,11 @@
       "book_id": "b-liangshu-021",
       "title": "王暕",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-liangshu-021-wangjian-sons-context",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "first_line": 44,
       "start_codepoint": 0,
       "last_line": 46,
@@ -5046,17 +5490,25 @@
       "opening": "　　王暕字思晦，琅邪",
       "closing": "承、穉、訏，並通顯。",
       "heading_line": 43,
-      "heading_raw": "==王暕=="
+      "heading_raw": "==王暕==",
+      "chapter_path": "corpus/liangshu/021-wangjian-sons-context.json",
+      "mixed_chapter": false,
+      "paragraph_ids": [
+        "c-liangshu-021-wangjian-sons-context:p002",
+        "c-liangshu-021-wangjian-sons-context:p003",
+        "c-liangshu-021-wangjian-sons-context:p001"
+      ],
+      "source_layout": "liang021_split_issued_wangjian_sons"
     },
     {
       "book_id": "b-liangshu-021",
       "title": "王訓",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-liangshu-021-wangxun",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "first_line": 49,
       "start_codepoint": 0,
       "last_line": 51,
@@ -5064,7 +5516,14 @@
       "opening": "　　訓字懷範，幼聰警",
       "closing": "六。贈本官。諡溫子。",
       "heading_line": 48,
-      "heading_raw": "===子 訓==="
+      "heading_raw": "===子 訓===",
+      "chapter_path": "corpus/liangshu/021-wangxun.json",
+      "mixed_chapter": false,
+      "paragraph_ids": [
+        "c-liangshu-021-wangxun:p001",
+        "c-liangshu-021-wangxun:p002"
+      ],
+      "source_layout": "jin065_indented_text"
     },
     {
       "book_id": "b-liangshu-021",
@@ -5218,11 +5677,11 @@
       "book_id": "b-liangshu-021",
       "title": "王僉",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-liangshu-021-wangfen",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "first_line": 83,
       "start_codepoint": 0,
       "last_line": 83,
@@ -5230,7 +5689,13 @@
       "opening": "　　僉字公會，錫第五",
       "closing": "不伐曰恭，諡恭子。」",
       "heading_line": 82,
-      "heading_raw": "===錫弟僉==="
+      "heading_raw": "===錫弟僉===",
+      "chapter_path": "corpus/liangshu/021-wangfen.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-liangshu-021-wangfen:p012"
+      ],
+      "source_layout": "jin065_indented_text"
     },
     {
       "book_id": "b-liangshu-021",
@@ -5500,10 +5965,20 @@
       "opening": "　　謝幾卿，陳郡陽夏人。",
       "closing": "序用，病卒。文集行於世。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
-      "scope_note": "傳首完整一段已有獨立來源錨。另有卷末謝藻附敘。"
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/liangshu/050-xiejiqing-family-intro.json",
+      "paragraph_ids": [
+        "c-liangshu-050-xiejiqing-family-intro:p001",
+        "c-liangshu-050-xiejiqing-family-intro:p002",
+        "c-liangshu-050-xiejiqing-family-intro:p003",
+        "c-liangshu-050-xiejiqing-family-intro:p004",
+        "c-liangshu-050-xiejiqing-family-intro:p005",
+        "c-liangshu-050-xiejiqing-family-intro:p006"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_mixed_indented_prose"
     },
     {
       "book_id": "b-liangshu-050",
@@ -5546,19 +6021,66 @@
       "book_id": "b-liangshu-050",
       "title": "王籍",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-liangshu-050-wangji",
       "heading_line": 75,
       "heading_raw": "==王籍==",
       "first_line": 77,
-      "last_line": 81,
+      "last_line": 79,
       "start_codepoint": 0,
-      "end_codepoint": 14,
-      "opening": "　　王籍字文海，琅邪臨沂",
-      "closing": "子碧，亦有文才，先籍卒。",
+      "end_codepoint": 257,
+      "opening": "　　王籍字文海，琅邪",
+      "closing": "時，卒。文集行於世。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/liangshu/050-wangji.json",
+      "paragraph_ids": [
+        "c-liangshu-050-wangji:p001",
+        "c-liangshu-050-wangji:p002"
+      ],
+      "source_layout": "wikisource_mixed_indented_prose",
+      "mixed_chapter": true,
+      "paragraph_slices": {
+        "c-liangshu-050-wangji:p001": {
+          "start": 0,
+          "end": 30
+        },
+        "c-liangshu-050-wangji:p002": {
+          "start": 0,
+          "end": 255
+        }
+      }
+    },
+    {
+      "book_id": "b-liangshu-050",
+      "title": "王碧",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-liangshu-050-wangji",
+      "chapter_path": "corpus/liangshu/050-wangji.json",
+      "paragraph_ids": [
+        "c-liangshu-050-wangji:p003"
+      ],
+      "first_line": 81,
+      "start_codepoint": 0,
+      "last_line": 81,
+      "end_codepoint": 14,
+      "opening": "　　子碧，亦有文才，",
+      "closing": "，亦有文才，先籍卒。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "mixed_chapter": true,
+      "paragraph_slices": {
+        "c-liangshu-050-wangji:p003": {
+          "start": 0,
+          "end": 12
+        }
+      },
+      "parent_heading": "王籍",
+      "scope_note": "本傳末獨立一原段，子碧文才及卒先於父。"
     },
     {
       "book_id": "b-liangshu-050",
@@ -5600,7 +6122,7 @@
       "book_id": "b-liangshu-050",
       "title": "謝徵",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-liangshu-050-xiezheng",
       "heading_line": 106,
       "heading_raw": "==謝徵==",
       "first_line": 108,
@@ -5610,9 +6132,47 @@
       "opening": "　　謝徵字玄度，陳郡陽夏",
       "closing": "琅邪王籍集其文爲二十卷。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/liangshu/050-xiezheng.json",
+      "paragraph_ids": [
+        "c-liangshu-050-xiezheng:p001",
+        "c-liangshu-050-xiezheng:p002",
+        "c-liangshu-050-xiezheng:p003",
+        "c-liangshu-050-xiezheng:p004"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_mixed_indented_prose"
+    },
+    {
+      "book_id": "b-liangshu-050",
+      "title": "謝璟",
+      "unit_kind": "embedded_account",
+      "parent_heading": "謝徵",
+      "chapter_id": "c-liangshu-050-xiezheng",
+      "chapter_path": "corpus/liangshu/050-xiezheng.json",
+      "first_line": 108,
+      "start_codepoint": 35,
+      "last_line": 108,
+      "end_codepoint": 164,
+      "opening": "父璟，少與從叔朓俱知",
+      "closing": "金紫，未序，會疾卒。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-liangshu-050-xiezheng:p001"
+      ],
+      "paragraph_slices": {
+        "c-liangshu-050-xiezheng:p001": {
+          "start": 33,
+          "end": 162
+        }
+      },
+      "scope_note": "「父璟」起獨立敘齊梁官歷，至「會疾卒」止。"
     },
     {
       "book_id": "b-liangshu-050",
@@ -10432,7 +10992,7 @@
       "book_id": "b-songshu-041",
       "title": "孝武文穆王皇后",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-songshu-041-wangxianyuan-family",
       "first_line": 235,
       "start_codepoint": 0,
       "last_line": 239,
@@ -10440,17 +11000,38 @@
       "opening": "孝武文穆王皇后諱憲嫄，琅邪",
       "closing": "，時年三十八。祔葬景寧陵。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 234,
-      "heading_raw": "===孝武文穆王皇后==="
+      "heading_raw": "===孝武文穆王皇后===",
+      "chapter_path": "corpus/songshu/041-wangxianyuan-family.json",
+      "paragraph_ids": [
+        "c-songshu-041-wangxianyuan-family:p001",
+        "c-songshu-041-wangxianyuan-family:p002",
+        "c-songshu-041-wangxianyuan-family:p003"
+      ],
+      "paragraph_slices": {
+        "c-songshu-041-wangxianyuan-family:p001": {
+          "start": 0,
+          "end": 101
+        },
+        "c-songshu-041-wangxianyuan-family:p002": {
+          "start": 0,
+          "end": 94
+        },
+        "c-songshu-041-wangxianyuan-family:p003": {
+          "start": 0,
+          "end": 37
+        }
+      },
+      "mixed_chapter": true
     },
     {
       "book_id": "b-songshu-041",
       "title": "王偃",
       "unit_kind": "embedded_account",
-      "chapter_id": null,
+      "chapter_id": "c-songshu-041-wangxianyuan-family",
       "first_line": 241,
       "start_codepoint": 0,
       "last_line": 241,
@@ -10458,15 +11039,26 @@
       "opening": "后父偃，字子游，晉丞相導玄",
       "closing": "三司，本官如故，諡曰恭公。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/songshu/041-wangxianyuan-family.json",
+      "paragraph_ids": [
+        "c-songshu-041-wangxianyuan-family:p004"
+      ],
+      "paragraph_slices": {
+        "c-songshu-041-wangxianyuan-family:p004": {
+          "start": 0,
+          "end": 177
+        }
+      },
+      "mixed_chapter": true
     },
     {
       "book_id": "b-songshu-041",
       "title": "王藻",
       "unit_kind": "embedded_account",
-      "chapter_id": null,
+      "chapter_id": "c-songshu-041-wangxianyuan-family",
       "first_line": 243,
       "start_codepoint": 0,
       "last_line": 243,
@@ -10474,15 +11066,26 @@
       "opening": "長子藻，位至東陽太守。尚太",
       "closing": "藻坐下獄死，主與王氏離婚。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/songshu/041-wangxianyuan-family.json",
+      "paragraph_ids": [
+        "c-songshu-041-wangxianyuan-family:p005"
+      ],
+      "paragraph_slices": {
+        "c-songshu-041-wangxianyuan-family:p005": {
+          "start": 0,
+          "end": 69
+        }
+      },
+      "mixed_chapter": true
     },
     {
       "book_id": "b-songshu-041",
       "title": "臨川長公主英媛",
       "unit_kind": "embedded_account",
-      "chapter_id": null,
+      "chapter_id": "c-songshu-041-wangxianyuan-family",
       "first_line": 243,
       "start_codepoint": 69,
       "last_line": 243,
@@ -10490,19 +11093,35 @@
       "opening": "泰始初，以主適豫章太守庾沖",
       "closing": "庾沖遠，未及成禮而沖遠卒。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "continuation_spans": [
         {
           "first_line": 253,
           "start_codepoint": 0,
           "last_line": 253,
           "end_codepoint": 183,
-          "opening": "太宗以此表徧示諸主。於是臨",
-          "closing": "死之日，實甘於生。」許之。"
+          "opening": "太宗以此表徧示諸主。",
+          "closing": "，實甘於生。」許之。"
         }
-      ]
+      ],
+      "chapter_path": "corpus/songshu/041-wangxianyuan-family.json",
+      "paragraph_ids": [
+        "c-songshu-041-wangxianyuan-family:p005",
+        "c-songshu-041-wangxianyuan-family:p006"
+      ],
+      "paragraph_slices": {
+        "c-songshu-041-wangxianyuan-family:p005": {
+          "start": 69,
+          "end": 93
+        },
+        "c-songshu-041-wangxianyuan-family:p006": {
+          "start": 0,
+          "end": 183
+        }
+      },
+      "mixed_chapter": true
     },
     {
       "book_id": "b-songshu-041",
@@ -10522,9 +11141,36 @@
     },
     {
       "book_id": "b-songshu-041",
+      "title": "王懋",
+      "unit_kind": "embedded_account",
+      "first_line": 255,
+      "start_codepoint": 0,
+      "last_line": 255,
+      "end_codepoint": 10,
+      "opening": "藻弟懋，昇明末貴達。",
+      "closing": "藻弟懋，昇明末貴達。",
+      "chapter_id": "c-songshu-041-wangxianyuan-family",
+      "chapter_path": "corpus/songshu/041-wangxianyuan-family.json",
+      "paragraph_ids": [
+        "c-songshu-041-wangxianyuan-family:p007"
+      ],
+      "paragraph_slices": {
+        "c-songshu-041-wangxianyuan-family:p007": {
+          "start": 0,
+          "end": 10
+        }
+      },
+      "mixed_chapter": true,
+      "full_text": true,
+      "entry_checked": true,
+      "first_pass": true,
+      "item_reviewed": true
+    },
+    {
+      "book_id": "b-songshu-041",
       "title": "王攸",
       "unit_kind": "embedded_account",
-      "chapter_id": null,
+      "chapter_id": "c-songshu-041-wangxianyuan-family",
       "first_line": 255,
       "start_codepoint": 10,
       "last_line": 255,
@@ -10532,9 +11178,47 @@
       "opening": "懋弟攸，太宰從事中郎。蚤卒",
       "closing": "中郎。蚤卒，追贈黃門侍郎。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/songshu/041-wangxianyuan-family.json",
+      "paragraph_ids": [
+        "c-songshu-041-wangxianyuan-family:p007"
+      ],
+      "paragraph_slices": {
+        "c-songshu-041-wangxianyuan-family:p007": {
+          "start": 10,
+          "end": 31
+        }
+      },
+      "mixed_chapter": true
+    },
+    {
+      "book_id": "b-songshu-041",
+      "title": "王臻",
+      "unit_kind": "embedded_account",
+      "first_line": 255,
+      "start_codepoint": 31,
+      "last_line": 255,
+      "end_codepoint": 40,
+      "opening": "弟臻，昇明末顯宦。",
+      "closing": "弟臻，昇明末顯宦。",
+      "chapter_id": "c-songshu-041-wangxianyuan-family",
+      "chapter_path": "corpus/songshu/041-wangxianyuan-family.json",
+      "paragraph_ids": [
+        "c-songshu-041-wangxianyuan-family:p007"
+      ],
+      "paragraph_slices": {
+        "c-songshu-041-wangxianyuan-family:p007": {
+          "start": 31,
+          "end": 40
+        }
+      },
+      "mixed_chapter": true,
+      "full_text": true,
+      "entry_checked": true,
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-songshu-041",
@@ -10682,7 +11366,7 @@
       "book_id": "b-songshu-041",
       "title": "明恭王皇后",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-songshu-041-wangzhenfeng",
       "first_line": 272,
       "start_codepoint": 0,
       "last_line": 278,
@@ -10690,11 +11374,37 @@
       "opening": "明恭王皇后諱貞風，琅邪臨沂",
       "closing": "85#王景文|景文傳]]。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 271,
-      "heading_raw": "===明恭王皇后==="
+      "heading_raw": "===明恭王皇后===",
+      "chapter_path": "corpus/songshu/041-wangzhenfeng.json",
+      "paragraph_ids": [
+        "c-songshu-041-wangzhenfeng:p001",
+        "c-songshu-041-wangzhenfeng:p002",
+        "c-songshu-041-wangzhenfeng:p003",
+        "c-songshu-041-wangzhenfeng:p004"
+      ],
+      "paragraph_slices": {
+        "c-songshu-041-wangzhenfeng:p001": {
+          "start": 0,
+          "end": 68
+        },
+        "c-songshu-041-wangzhenfeng:p002": {
+          "start": 0,
+          "end": 152
+        },
+        "c-songshu-041-wangzhenfeng:p003": {
+          "start": 0,
+          "end": 128
+        },
+        "c-songshu-041-wangzhenfeng:p004": {
+          "start": 0,
+          "end": 111
+        }
+      },
+      "mixed_chapter": true
     },
     {
       "book_id": "b-songshu-041",
@@ -11197,37 +11907,120 @@
       "book_id": "b-songshu-052",
       "title": "謝景仁",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-songshu-052-xiejingren",
       "heading_line": 30,
       "heading_raw": "== 謝景仁 ==",
       "first_line": 31,
       "last_line": 43,
       "start_codepoint": 0,
-      "end_codepoint": 23,
-      "opening": "謝景仁，陳郡陽夏人，衞將",
-      "closing": "，善吹笙，官至西陽太守。",
+      "end_codepoint": 8,
+      "opening": "謝景仁，陳郡陽夏人，",
+      "closing": "子恂，鄱陽太守。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/songshu/052-xiejingren.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-songshu-052-xiejingren:p001",
+        "c-songshu-052-xiejingren:p002",
+        "c-songshu-052-xiejingren:p003",
+        "c-songshu-052-xiejingren:p004",
+        "c-songshu-052-xiejingren:p005",
+        "c-songshu-052-xiejingren:p006",
+        "c-songshu-052-xiejingren:p007"
+      ],
+      "paragraph_slices": {
+        "c-songshu-052-xiejingren:p007": {
+          "start": 0,
+          "end": 8
+        }
+      },
+      "scope_note": "傳末「子恂，鄱陽太守」保留作主傳承接及父子、任職原證；稚善笙及任官另列附敘。"
+    },
+    {
+      "book_id": "b-songshu-052",
+      "title": "謝稚",
+      "unit_kind": "embedded_account",
+      "first_line": 43,
+      "last_line": 43,
+      "start_codepoint": 8,
+      "end_codepoint": 23,
+      "opening": "恂子稚，善吹笙，官至",
+      "closing": "吹笙，官至西陽太守。",
+      "chapter_id": "c-songshu-052-xiejingren",
+      "chapter_path": "corpus/songshu/052-xiejingren.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-songshu-052-xiejingren:p007"
+      ],
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "paragraph_slices": {
+        "c-songshu-052-xiejingren:p007": {
+          "start": 8,
+          "end": 23
+        }
+      }
     },
     {
       "book_id": "b-songshu-052",
       "title": "謝純",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-songshu-052-xiechun",
       "heading_line": 45,
       "heading_raw": "=== 弟 純 ===",
       "first_line": 46,
       "last_line": 46,
       "start_codepoint": 0,
-      "end_codepoint": 180,
+      "end_codepoint": 149,
       "opening": "景仁弟純字景懋，初為劉毅",
-      "closing": "事參軍、山陰令，坐事誅。",
+      "closing": "兩人出，火光中為人所殺。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/songshu/052-xiechun.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-songshu-052-xiechun:p001"
+      ],
+      "paragraph_slices": {
+        "c-songshu-052-xiechun:p001": {
+          "start": 0,
+          "end": 149
+        }
+      }
+    },
+    {
+      "book_id": "b-songshu-052",
+      "title": "謝沈（謝純孫）",
+      "unit_kind": "embedded_account",
+      "first_line": 46,
+      "last_line": 46,
+      "start_codepoint": 149,
+      "end_codepoint": 180,
+      "opening": "純孫沈，太宗泰始初，為巴",
+      "closing": "事參軍、山陰令，坐事誅。",
+      "paragraph_slices": {
+        "c-songshu-052-xiechun:p001": {
+          "start": 149,
+          "end": 180
+        }
+      },
+      "chapter_id": "c-songshu-052-xiechun",
+      "chapter_path": "corpus/songshu/052-xiechun.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-songshu-052-xiechun:p001"
+      ],
+      "entry_checked": true,
+      "first_pass": true,
+      "full_text": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-songshu-052",

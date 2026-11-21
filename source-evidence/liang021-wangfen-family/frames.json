@@ -11,16 +11,17 @@
       "c-liangshu-021-wangfen:p009",
       "c-liangshu-021-wangfen:p010",
       "c-liangshu-021-wangfen:p006",
-      "c-liangshu-021-wangfen:p011"
+      "c-liangshu-021-wangfen:p011",
+      "c-liangshu-021-wangfen:p012"
     ],
     "source_id": "s-liangshu-021-wangfen-ws1544250",
     "source_path": "source-evidence/nanshi022-wangci/external/liang021-ws1544250.wikitext",
     "raw_sha256": "d547d5b8e194f36e62b748cdfb6f18366378bb372ffb8d5b82e721ca2ccb3fab",
     "revision_id": 1544250,
-    "body_sha256": "7737a58f06d60a9806a8438e824b99185254cbb0e9e4938e82291f8ef9d2ccb1",
-    "positions_sha256": "c14388775dfee43c1021bb0767f6a584489f388514ca258f98ee3133b970249e",
-    "annotation_sha256": "bd333c3fc5072476eb0c0b8599d639b851925b6aadef136191b3c5cb40a2baa4",
-    "mentions_sha256": "4ed5bc1f9794846f594466a7c197002f2cd3ad8622433fc3beb6d6fdca637830",
+    "body_sha256": "9723750defa697ca3d027dc27bf5047dd66920d4b2292d78fafe66da5c91d865",
+    "positions_sha256": "e6c1846cdc673d88c8ba8a7fc93410deb1c79b8adfde7580348c53a172f84423",
+    "annotation_sha256": "0ca2d2dcfdcfa70192ee7ed0290bdde26d8900d4ccb6525300411ce5e77900b8",
+    "mentions_sha256": "9e066fad210dfe404bf0f18db7f857aae0f8d094bd1a74fa2b72edb1521d84ff",
     "kin": [
       {
         "id": "a-liangshu-021-wangfen-m0000-origin-father",
@@ -316,6 +317,97 @@
         ],
         "status": "source_attested",
         "interpretation_note": "本傳記事末緊承卒贈，明列二子；泛另見南史作涉，沿現行判讀。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-liang021-wangfen-family-qian-brother",
+        "subject_person_id": "q7m_r8k_2vn_ABAF",
+        "object_person_id": "q7m_r8k_2vn_ABAB",
+        "predicate": "brother",
+        "qualifiers": {
+          "source_term": "錫第五弟",
+          "liang021_fen_reading": "qian-brother",
+          "lineage": "paternal",
+          "relative_birth_order": {
+            "older_person_id": "q7m_r8k_2vn_ABAB",
+            "younger_person_id": "q7m_r8k_2vn_ABAF",
+            "operator": "lt",
+            "scope": "siblings",
+            "older_ordinal": null,
+            "younger_ordinal": null
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "subject_person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "object_person_mention_id": "c-liangshu-021-wangfen:p012:m0005"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "僉相對於王錫為第五弟，保留相對稱次，不另推琳的第幾子。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-liang021-wangfen-family-qian-father",
+        "subject_person_id": "q7m_r8k_2vn_ABAF",
+        "object_person_id": "q7m_r8k_2vn_ABA",
+        "predicate": "father",
+        "qualifiers": {
+          "source_term": "八歲丁父憂",
+          "liang021_fen_reading": "qian-father",
+          "lineage": "paternal"
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "subject_person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "object_person_reference_id": "c-liangshu-021-wangfen:p012:r0014"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "弟傳首承錫，第76行明載錫為王琳第二子，第83行明稱其弟八歲丁父憂。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-liang021-wangfen-family-qian-biological-mother",
+        "subject_person_id": "q7m_r8k_2vn_ABAF",
+        "object_person_id": "4w4_f68_91v",
+        "predicate": "mother",
+        "qualifiers": {
+          "source_term": "丁所生母憂",
+          "liang021_fen_reading": "qian-biological-mother"
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "subject_person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "object_person_mention_id": "c-liangshu-021-wangfen:p012:m0135"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "明稱所生母。南史同一任官次序稍後另記義興主薨。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
@@ -4209,6 +4301,1014 @@
             }
           ]
         }
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-27",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "國子生",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-27:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "國子生",
+            "start": 27,
+            "end": 30
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-45",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "長史",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-45:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "長史",
+            "start": 45,
+            "end": 47
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-48",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "秘書郎中",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-48:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "秘書郎中",
+            "start": 48,
+            "end": 52
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-54",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "尚書殿中郎",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-54:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "尚書殿中郎",
+            "start": 54,
+            "end": 59
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-60",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "太子中舍人",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-60:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "太子中舍人",
+            "start": 60,
+            "end": 65
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-80",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "建安太守",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-80:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "建安太守",
+            "start": 80,
+            "end": 84
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-147",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "寧遠將軍",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-147:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "寧遠將軍",
+            "start": 147,
+            "end": 151
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-152",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "南康內史",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-152:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "南康內史",
+            "start": 152,
+            "end": 156
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-167",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "安成內史",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-167:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "安成內史",
+            "start": 167,
+            "end": 171
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-179",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "黃門侍郎",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-179:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "黃門侍郎",
+            "start": 179,
+            "end": 183
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-218",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "戎昭將軍",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-218:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "戎昭將軍",
+            "start": 218,
+            "end": 222
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-223",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "尚書左丞",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-223:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "尚書左丞",
+            "start": 223,
+            "end": 227
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-230",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "黃門侍郎",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-230:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "黃門侍郎",
+            "start": 230,
+            "end": 234
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-236",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "太子中庶子",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-236:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "太子中庶子",
+            "start": 236,
+            "end": 241
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-31",
+        "person_id": "hb9_2gq_205",
+        "title": "祭酒",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-31:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0033",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "祭酒",
+            "start": 31,
+            "end": 33
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0033"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-265",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "侍中",
+        "kind": "office",
+        "mode": "posthumous_grant",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-265:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0199",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "侍中",
+            "start": 265,
+            "end": 267
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "posthumous_grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0199"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0199"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "posthumous_basis": {
+          "kind": "death_then_explicit_gift",
+          "source_term": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+          "death_term": "卒",
+          "grant_term": "贈侍中",
+          "recipient_person_mention_id": "c-liangshu-021-wangfen:p012:m0199",
+          "evidence": [
+            {
+              "work_id": "w-liangshu",
+              "book_id": "b-liangshu-021",
+              "source_id": "s-liangshu-021-wangfen-ws1544250",
+              "chapter_id": "c-liangshu-021-wangfen",
+              "paragraph_id": "c-liangshu-021-wangfen:p012",
+              "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+              "person_mention_id": "c-liangshu-021-wangfen:p012:m0199"
+            }
+          ]
+        }
+      },
+      {
+        "id": "th-liang021-wangfen-family-m12-303",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "title": "恭子",
+        "kind": "honorific",
+        "mode": "posthumous_naming",
+        "attestations": [
+          {
+            "id": "th-liang021-wangfen-family-m12-303:a",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0199",
+            "usage": "posthumous_usage",
+            "date_expression": "承聖三年",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "surface": "恭子",
+            "start": 303,
+            "end": 305
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "posthumous_naming",
+            "date_expression": "承聖三年",
+            "evidence": [
+              {
+                "work_id": "w-liangshu",
+                "book_id": "b-liangshu-021",
+                "source_id": "s-liangshu-021-wangfen-ws1544250",
+                "chapter_id": "c-liangshu-021-wangfen",
+                "paragraph_id": "c-liangshu-021-wangfen:p012",
+                "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+                "person_mention_id": "c-liangshu-021-wangfen:p012:m0199"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0199"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "naming_basis": {
+          "source_term": "諡恭子",
+          "death_term": "卒",
+          "evidence": [
+            {
+              "work_id": "w-liangshu",
+              "book_id": "b-liangshu-021",
+              "source_id": "s-liangshu-021-wangfen-ws1544250",
+              "chapter_id": "c-liangshu-021-wangfen",
+              "paragraph_id": "c-liangshu-021-wangfen:p012",
+              "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+              "person_mention_id": "c-liangshu-021-wangfen:p012:m0199"
+            }
+          ]
+        }
       }
     ],
     "life": [
@@ -4502,6 +5602,93 @@
         ],
         "status": "source_attested",
         "interpretation_note": "王錫丁父憂，所喪父親是前文所名王琳。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "le-liang021-wangfen-family-qian-father",
+        "person_id": "q7m_r8k_2vn_ABA",
+        "event_type": "death",
+        "source_term": "父憂",
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "父憂",
+          "start": 14,
+          "end": 16
+        },
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_reference_id": "c-liangshu-021-wangfen:p012:r0014"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "八歲的報齡屬王僉。父為王琳，未明卒年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "le-liang021-wangfen-family-qian-mother",
+        "person_id": "4w4_f68_91v",
+        "event_type": "death",
+        "source_term": "所生母憂",
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "所生母憂",
+          "start": 135,
+          "end": 139
+        },
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0135"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "生母死於始興內史任命前後。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "le-liang021-wangfen-family-qian",
+        "person_id": "q7m_r8k_2vn_ABAF",
+        "event_type": "death",
+        "source_term": "卒",
+        "source_anchor": {
+          "paragraph_id": "c-liangshu-021-wangfen:p012",
+          "surface": "卒",
+          "start": 256,
+          "end": 257
+        },
+        "date_expression": "太清二年十二月",
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-021",
+            "source_id": "s-liangshu-021-wangfen-ws1544250",
+            "chapter_id": "c-liangshu-021-wangfen",
+            "paragraph_id": "c-liangshu-021-wangfen:p012",
+            "quote": "僉字公會，錫第五弟也。八歲丁父憂，哀毀過禮。服闋，召補國子生，祭酒袁昂稱爲通理。策高第，除長史兼秘書郎中，歷尚書殿中郎，太子中舍人，與吳郡陸襄對掌東宮管記。出爲建安太守。山酋方善、謝稀聚徒依險，屢爲民患，僉潛設方略，率衆平之，有詔褒美，頒示州郡。除武威將軍、始興內史，丁所生母憂，固辭不拜。又除寧遠將軍、南康內史，屬盧循作亂，復轉僉爲安成內史，以鎮撫之。還除黃門侍郎，尋爲安西武陵王長史、蜀郡太守。僉憚岨嶮，固以疾辭，因以黜免。久之，除戎昭將軍、尚書左丞，復補黃門侍郎，遷太子中庶子，掌東宮管記。太清二年十二月，卒，時年四十五。贈侍中，給東園秘器，朝服一具，衣一襲。承聖三年，世祖追詔曰：「賢而不伐曰恭，諡恭子。」",
+            "person_mention_id": "c-liangshu-021-wangfen:p012:m0199"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "太清二年十二月，原紀年當548年，未將陰曆十二月換算為公曆日。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
@@ -4884,5 +6071,207 @@
     ],
     "offices": [],
     "life": []
+  },
+  "c-liangshu-027-luxiang-wangqian": {
+    "paragraph_ids": [
+      "c-liangshu-027-luxiang-wangqian:p001"
+    ],
+    "source_id": "s-liangshu-027-luxiang-wangqian-ws1511478",
+    "source_path": "source-evidence/nanshi019-xietiao/liangshu027-ws1511478.wikitext",
+    "raw_sha256": "fcb730ce00423c60dc63e01c4a6d43ecd45cf2669df595850e0abb2339acfb5f",
+    "revision_id": 1511478,
+    "body_sha256": "3e235f28cb1afbc78a2b40a2f04b2b73d9cdcbe37ebb8d64e8049410b3b6327f",
+    "positions_sha256": "701e565c22d1395a036d1b7e0dc2a431bb56b7e35b30521e15a5af26a0871d96",
+    "annotation_sha256": "892b0be3f7d8aadce8752389ad5c4ff29339b873274913af9ad40931f74c5381",
+    "mentions_sha256": "ff3240f2c688e5879a5b18f668f71ffe1c73e4ebee248c6491859a6285a129bc",
+    "kin": [
+      {
+        "id": "a-liang021-wangfen-family-luxiang-father",
+        "subject_person_id": "d5x_77n_qxq_A",
+        "object_person_id": "d5x_77n_qxq",
+        "predicate": "father",
+        "qualifiers": {
+          "source_term": "父閑",
+          "liang021_fen_reading": "luxiang-father",
+          "lineage": "paternal"
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-027",
+            "source_id": "s-liangshu-027-luxiang-wangqian-ws1511478",
+            "chapter_id": "c-liangshu-027-luxiang-wangqian",
+            "paragraph_id": "c-liangshu-027-luxiang-wangqian:p001",
+            "quote": "陸襄字師卿，吳郡吳人也。父閑，齊始安王遙光揚州治中。",
+            "subject_person_mention_id": "c-liangshu-027-luxiang-wangqian:p001:m0000",
+            "object_person_mention_id": "c-liangshu-027-luxiang-wangqian:p001:m0013"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "陸襄父閑。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "offices": [],
+    "life": []
+  },
+  "c-liangshu-055-xiaoji-wangqian": {
+    "paragraph_ids": [
+      "c-liangshu-055-xiaoji-wangqian:p001",
+      "c-liangshu-055-xiaoji-wangqian:p002"
+    ],
+    "source_id": "s-liangshu-055-xiaoji-wangqian-ws1530936",
+    "source_path": "source-evidence/liang021-wangfen-family/ws1530936.wikitext",
+    "raw_sha256": "157635d6b34ba6995de1c6274b71a0939bdcba8a3cfe288ae4879881a8434d5e",
+    "revision_id": 1530936,
+    "body_sha256": "6b7300a361f5527d79a604013287b77dafaf50ae9037e44c04b0af3a939eeed2",
+    "positions_sha256": "78659687c59ea2edb4468ff871be08d160c54dfba888941b39bb23ef3a60385a",
+    "annotation_sha256": "472004124e04618364dc3a3a6dad3b60d9556795ad4a2bb064942cb0897c5ccd",
+    "mentions_sha256": "a3c9dee50e58bf5640385881344b969951af497ecc18c9a6d7a6b192e6ddabff",
+    "kin": [
+      {
+        "id": "a-liang021-wangfen-family-xiaoji-father",
+        "subject_person_id": "fo7_f8v_rmf_D",
+        "object_person_id": "fo7_f8v_rmf",
+        "predicate": "father",
+        "qualifiers": {
+          "source_term": "高祖第八子",
+          "liang021_fen_reading": "xiaoji-father",
+          "lineage": "paternal",
+          "birth_order": {
+            "ordinal": 8,
+            "scope": "sons_of_parent",
+            "position": "unspecified",
+            "source_term": "第八子",
+            "parent_person_id": "fo7_f8v_rmf",
+            "interpretation_status": "source_attested"
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-055",
+            "source_id": "s-liangshu-055-xiaoji-wangqian-ws1530936",
+            "chapter_id": "c-liangshu-055-xiaoji-wangqian",
+            "paragraph_id": "c-liangshu-055-xiaoji-wangqian:p001",
+            "quote": "武陵王紀字世詢，高祖第八子也。",
+            "subject_person_mention_id": "c-liangshu-055-xiaoji-wangqian:p001:m0003",
+            "object_person_reference_id": "c-liangshu-055-xiaoji-wangqian:p001:r0008"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "排行按高祖諸子。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "offices": [],
+    "life": []
+  },
+  "c-nanshi-023-wangqian-mothers": {
+    "paragraph_ids": [
+      "c-nanshi-023-wangqian-mothers:p001"
+    ],
+    "source_id": "s-nanshi-023-wangqian-mothers-ws2478204",
+    "source_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+    "raw_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+    "revision_id": 2478204,
+    "body_sha256": "bd6e79b92dbcc08223df2103faefc49b9bc472574e53ab8c5530360ee4d75514",
+    "positions_sha256": "21090b6f825a44c6d0e5c6b591ee942fcd7edf73d9c103819d52001d077b44ad",
+    "annotation_sha256": "4be4e33f8af521fd6b5e1a120c2c26cb4b5b873cb175c8ede7844fef542f1c67",
+    "mentions_sha256": "8a748ceee63df99c7e8da5507cf98906d57e3077683808042787999210fff26e",
+    "kin": [
+      {
+        "id": "a-liang021-wangfen-family-ns-qian-biological-mother",
+        "subject_person_id": "q7m_r8k_2vn_ABAF",
+        "object_person_id": "4w4_f68_91v",
+        "predicate": "mother",
+        "qualifiers": {
+          "source_term": "丁所生母憂",
+          "liang021_fen_reading": "ns-qian-biological-mother"
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangqian-mothers-ws2478204",
+            "chapter_id": "c-nanshi-023-wangqian-mothers",
+            "paragraph_id": "c-nanshi-023-wangqian-mothers:p001",
+            "quote": "僉字公會，八歲丁父憂，哀毀過禮。初補國子生，祭酒袁昂稱為通理。累遷始興內史，丁所生母憂，固辭不拜。又除南康內史，在郡義興主薨，詔起復郡。",
+            "subject_person_mention_id": "c-nanshi-023-wangqian-mothers:p001:m0000",
+            "object_person_mention_id": "c-nanshi-023-wangqian-mothers:p001:m0039"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "先記所生母喪，後記在南康郡之時義興主薨。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "offices": [],
+    "life": [
+      {
+        "id": "le-liang021-wangfen-family-ns-birthmother",
+        "person_id": "4w4_f68_91v",
+        "event_type": "death",
+        "source_term": "所生母憂",
+        "source_anchor": {
+          "paragraph_id": "c-nanshi-023-wangqian-mothers:p001",
+          "surface": "所生母憂",
+          "start": 39,
+          "end": 43
+        },
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangqian-mothers-ws2478204",
+            "chapter_id": "c-nanshi-023-wangqian-mothers",
+            "paragraph_id": "c-nanshi-023-wangqian-mothers:p001",
+            "quote": "僉字公會，八歲丁父憂，哀毀過禮。初補國子生，祭酒袁昂稱為通理。累遷始興內史，丁所生母憂，固辭不拜。又除南康內史，在郡義興主薨，詔起復郡。",
+            "person_mention_id": "c-nanshi-023-wangqian-mothers:p001:m0039"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "兩次喪事在初除始興及在南康任時。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "le-liang021-wangfen-family-ns-princess",
+        "person_id": "qvt_eq1_lcf_AB",
+        "event_type": "death",
+        "source_term": "薨",
+        "source_anchor": {
+          "paragraph_id": "c-nanshi-023-wangqian-mothers:p001",
+          "surface": "薨",
+          "start": 61,
+          "end": 62
+        },
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangqian-mothers-ws2478204",
+            "chapter_id": "c-nanshi-023-wangqian-mothers",
+            "paragraph_id": "c-nanshi-023-wangqian-mothers:p001",
+            "quote": "僉字公會，八歲丁父憂，哀毀過禮。初補國子生，祭酒袁昂稱為通理。累遷始興內史，丁所生母憂，固辭不拜。又除南康內史，在郡義興主薨，詔起復郡。",
+            "person_mention_id": "c-nanshi-023-wangqian-mothers:p001:m0058"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "兩次喪事在初除始興及在南康任時。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
   }
 }
