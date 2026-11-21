@@ -9,7 +9,56 @@
     "長沙王義欣",
     "義欣"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-songshu-092-xunli-xunxing-2-5",
+      "title": "豫州刺史",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "59f_167_cb3",
+      "attestations": [
+        {
+          "id": "th-songshu-092-xunli-xunxing-2-5:a",
+          "paragraph_id": "c-songshu-092-xunli-xunxing:p002",
+          "start": 5,
+          "end": 9,
+          "surface": "豫州刺史",
+          "person_mention_id": "c-songshu-092-xunli-xunxing:p002:m0009",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-092",
+          "chapter_id": "c-songshu-092-xunli-xunxing",
+          "source_id": "s-songshu-092-xunli-xunxing-ws2195614",
+          "paragraph_id": "c-songshu-092-xunli-xunxing:p002",
+          "quote": "元嘉九年，豫州刺史長沙王義欣上言：「所統威遠將軍、北譙梁二郡太守關中侯申季歷，自奉職邦畿，于茲五年，信惠並宣，威化兼著，外清姦暴，內輯民黎，役賦均平，閭井齊肅，綏穆初附，招攜荒遠，郊境之外，仰澤懷風，爵賞之授，績能是顯，宜升階秩，以崇奬勸。」進號寧朔將軍。",
+          "person_mention_id": "c-songshu-092-xunli-xunxing:p002:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -150,6 +199,41 @@
       "book_id": "b-songshu-076",
       "chapter_id": "c-songshu-076-wangxuanmo-ws",
       "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726",
+      "work_title": "宋書"
+    },
+    {
+      "number": 92,
+      "category": "",
+      "title": "巡行薦吏奏及申季歷等傳敘",
+      "paragraph_id": "c-songshu-092-xunli-xunxing:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "元嘉九年，豫州刺史長沙王義欣上言：「所統威遠將軍、北譙梁二郡太守關中侯申季歷，自奉職邦畿，于茲五年，信惠並宣，威化兼著，外清姦暴，內輯民黎，役賦均平，閭井齊肅，綏穆初附，招攜荒遠，郊境之外，仰澤懷風，爵賞之授，績能是顯，宜升階秩",
+      "paragraph_ids": [
+        "c-songshu-092-xunli-xunxing:p002"
+      ],
+      "mention_ids": [
+        "c-songshu-092-xunli-xunxing:p002:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-092-xunli-xunxing:p002:m0009": "c-songshu-092-xunli-xunxing:p002"
+      },
+      "mention_id": "c-songshu-092-xunli-xunxing:p002:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-092-xunli-xunxing:p002:m0009",
+          "mention_ids": [
+            "c-songshu-092-xunli-xunxing:p002:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-092",
+      "chapter_id": "c-songshu-092-xunli-xunxing",
+      "source_id": "s-songshu-092-xunli-xunxing-ws2195614",
       "work_title": "宋書"
     }
   ],
@@ -588,6 +672,29 @@
         "text_scope": "complete_biography_unit",
         "raw_path": "sources/songshu/song076-ws1997726.wikitext",
         "raw_file_sha256": "877822cd4d2b9c8c0fbad998fe4edabb3050c9588eb3336bf3f59bc1df7bba77"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-092-xunli-xunxing",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-092",
+      "source_id": "s-songshu-092-xunli-xunxing-ws2195614",
+      "source": {
+        "title": "巡行薦吏奏及申季歷等傳敘",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2195614",
+        "revision_id": 2195614,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "第62行薦吏合奏及第69、71、73、75、77行良吏附敘。",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/songshu/songshu092-ws2195614.wikitext",
+        "raw_file_sha256": "88da739ec68f6114fdca1344b9d5b1e8e49b9cbd0cc7d07506aed3b2a5c4ec8e"
       }
     }
   ],

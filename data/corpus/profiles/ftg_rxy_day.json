@@ -10,9 +10,59 @@
     "僕",
     "延之",
     "延年",
-    "顏延年"
+    "顏延年",
+    "顏"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nanqishu-032-zhangjing-1-3",
+      "title": "光祿大夫",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "ftg_rxy_day",
+      "attestations": [
+        {
+          "id": "th-nanqishu-032-zhangjing-1-3:a",
+          "paragraph_id": "c-nanqishu-032-zhangjing:p001",
+          "start": 3,
+          "end": 7,
+          "surface": "光祿大夫",
+          "person_mention_id": "c-nanqishu-032-zhangjing:p001:m0007",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-032",
+          "chapter_id": "c-nanqishu-032-zhangjing",
+          "source_id": "s-nanqishu-032-zhangjing-ws1513918",
+          "paragraph_id": "c-nanqishu-032-zhangjing:p001",
+          "quote": "鏡少與光祿大夫顏延之隣居，顏談議飲酒，喧呼不絕；而鏡靜翳無言聲。後延之於籬邊聞其與客語，取胡牀坐聽，辭義清玄，延之心服，謂賔客曰：「彼有人焉。」由此不復酣呌。",
+          "person_mention_id": "c-nanqishu-032-zhangjing:p001:m0007"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -289,6 +339,68 @@
       "work_title": "南史"
     },
     {
+      "number": 32,
+      "category": "",
+      "title": "張鏡",
+      "paragraph_id": "c-nanqishu-032-zhangjing:p001",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "鏡少與光祿大夫顏延之隣居，顏談議飲酒，喧呼不絕；而鏡靜翳無言聲。後延之於籬邊聞其與客語，取胡牀坐聽，辭義清玄，延之心服，謂賔客曰：「彼有人焉。」由此不復酣呌。",
+      "paragraph_ids": [
+        "c-nanqishu-032-zhangjing:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-032-zhangjing:p001:m0007",
+        "c-nanqishu-032-zhangjing:p001:m0013",
+        "c-nanqishu-032-zhangjing:p001:m0033",
+        "c-nanqishu-032-zhangjing:p001:m0055"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-032-zhangjing:p001:m0007": "c-nanqishu-032-zhangjing:p001",
+        "c-nanqishu-032-zhangjing:p001:m0013": "c-nanqishu-032-zhangjing:p001",
+        "c-nanqishu-032-zhangjing:p001:m0033": "c-nanqishu-032-zhangjing:p001",
+        "c-nanqishu-032-zhangjing:p001:m0055": "c-nanqishu-032-zhangjing:p001"
+      },
+      "mention_id": "c-nanqishu-032-zhangjing:p001:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-032-zhangjing:p001:m0007",
+          "mention_ids": [
+            "c-nanqishu-032-zhangjing:p001:m0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-032-zhangjing:p001:m0013",
+          "mention_ids": [
+            "c-nanqishu-032-zhangjing:p001:m0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-032-zhangjing:p001:m0033",
+          "mention_ids": [
+            "c-nanqishu-032-zhangjing:p001:m0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-032-zhangjing:p001:m0055",
+          "mention_ids": [
+            "c-nanqishu-032-zhangjing:p001:m0055"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-032",
+      "chapter_id": "c-nanqishu-032-zhangjing",
+      "source_id": "s-nanqishu-032-zhangjing-ws1513918",
+      "work_title": "南齊書"
+    },
+    {
       "number": 41,
       "category": "",
       "title": "袁齊媯傳",
@@ -520,6 +632,29 @@
           "character_conversion": {},
           "extraction_note": "三處各依原行起訖截取，展開建元二年年號模板。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-032-zhangjing",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-032",
+      "source_id": "s-nanqishu-032-zhangjing-ws1513918",
+      "source": {
+        "title": "張鏡",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "revision_id": 1513918,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "張鏡",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/nanqishu/nanqishu032-ws1513918.wikitext",
+        "raw_file_sha256": "cc9c36ced8f64c3c359c76836ae56968c8a13c4a3b3c19a416575737314b0061"
       }
     },
     {

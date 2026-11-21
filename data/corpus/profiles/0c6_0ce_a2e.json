@@ -9,7 +9,56 @@
     "陶謙",
     "謙"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-wu052-zz-main-0",
+      "person_id": "0c6_0ce_a2e",
+      "title": "刺史",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-052",
+          "chapter_id": "c-sanguozhi-052-zhangzhao-complete",
+          "source_id": "s-sanguozhi-052-zhangzhao-complete",
+          "paragraph_id": "c-sanguozhi-052-zhangzhao-complete:line012",
+          "quote": "張昭字子布，彭城人也。少好學，善隸書，從白侯子安受《左氏春秋》，博覽眾書，與琅邪趙昱、東海王朗俱發名友善。弱冠察孝廉，不就。與朗共論舊君諱事，州裡才士陳琳等皆稱善之。刺史陶謙舉茂才，不應，謙以爲輕己，遂見拘執。昱傾身營救，方以得免。漢末大亂，徐方士民多避難揚土，昭皆南渡江。孫策創業，命昭爲長史、撫軍中郎將，升堂拜母，如比肩之舊，文武之事，一以委昭。昭每得北方士大夫書疏，專歸美於昭，昭欲嘿而不宣則懼有私，宣之則恐非宜，進退不安。策聞之，歡笑曰：\"昔管仲相齊，一則仲父，二則仲父，而桓公爲霸者宗。今子布賢，我能用之，其功名獨不在我乎!\"，",
+          "person_mention_id": "c-sanguozhi-052-zhangzhao-complete:line012:m0085"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-wu052-zz-main-0:a",
+          "paragraph_id": "c-sanguozhi-052-zhangzhao-complete:line012",
+          "start": 83,
+          "end": 85,
+          "surface": "刺史",
+          "person_mention_id": "c-sanguozhi-052-zhangzhao-complete:line012:m0085",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -126,6 +175,50 @@
       "book_id": "b-sanguozhi-022",
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
+      "work_title": "三國志"
+    },
+    {
+      "number": 52,
+      "category": "",
+      "title": "張昭傳",
+      "paragraph_id": "c-sanguozhi-052-zhangzhao-complete:line012",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "友善。弱冠察孝廉，不就。與朗共論舊君諱事，州裡才士陳琳等皆稱善之。刺史陶謙舉茂才，不應，謙以爲輕己，遂見拘執。昱傾身營救，方以得免。漢末大亂，徐方士民多避難揚土，昭皆南渡江。孫策創業，命昭爲長史、撫軍中郎將，升堂拜母，如比肩之舊，文武之事，一以委昭。昭每得北方士大夫書疏，專",
+      "paragraph_ids": [
+        "c-sanguozhi-052-zhangzhao-complete:line012"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-052-zhangzhao-complete:line012:m0085",
+        "c-sanguozhi-052-zhangzhao-complete:line012:m0094"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-052-zhangzhao-complete:line012:m0085": "c-sanguozhi-052-zhangzhao-complete:line012",
+        "c-sanguozhi-052-zhangzhao-complete:line012:m0094": "c-sanguozhi-052-zhangzhao-complete:line012"
+      },
+      "mention_id": "c-sanguozhi-052-zhangzhao-complete:line012:m0085",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-052-zhangzhao-complete:line012:m0085",
+          "mention_ids": [
+            "c-sanguozhi-052-zhangzhao-complete:line012:m0085"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-052-zhangzhao-complete:line012:m0094",
+          "mention_ids": [
+            "c-sanguozhi-052-zhangzhao-complete:line012:m0094"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-052",
+      "chapter_id": "c-sanguozhi-052-zhangzhao-complete",
+      "source_id": "s-sanguozhi-052-zhangzhao-complete",
       "work_title": "三國志"
     }
   ],
@@ -3894,6 +3987,34 @@
           "character_conversion": "none",
           "extraction_note": "正文兩完整傳主分段，古注十四層另段；去¶、頁碼、古注逐行括號包裝，原字不校改。完整raw與逐字runs另存。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-052-zhangzhao-complete",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-052",
+      "source_id": "s-sanguozhi-052-zhangzhao-complete",
+      "source": {
+        "title": "三國志卷五十二·吳書七",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085149",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085149",
+        "revision_id": 2085149,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂；正文、裴注與注中引書分層。",
+        "extent": "張昭題下全段，第12至24行；資料隨原注的前後次序。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/nanqi023-wangjian/sanguozhi052-ws2085149.wikitext",
+        "raw_file_sha256": "3f1535985be18091725a92370766f8af67d71e26e611491b169a4e0d19dc1da9",
+        "wikitext_sha256": "3f1535985be18091725a92370766f8af67d71e26e611491b169a4e0d19dc1da9",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi052-gu-family/reading.json",
+          "source-evidence/sanguozhi052-zhangzhao/reading.json"
+        ]
       }
     }
   ],

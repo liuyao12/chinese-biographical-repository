@@ -17,6 +17,8 @@ def build(root=ROOT, person_ids=None):
     ROOT = root
     catalog = json.loads((ROOT/'data/corpus/index.json').read_text())
     chapters = {x.get('chapter_id'):x for x in catalog['chapters']}
+    for volume in catalog['chapters']:
+        chapters.update({excerpt['chapter_id']: excerpt for excerpt in volume.get('excerpts', [])})
     work_titles = {}
     if catalog.get('work_id') and catalog.get('title'):
         work_titles[catalog['work_id']] = catalog['title']

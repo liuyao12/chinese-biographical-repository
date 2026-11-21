@@ -6,9 +6,59 @@
   "identity_note": "南史數位思征、殿本思徵與齊書思微均出現於王晏拜驃騎對思遠之兄說阿戎勸自裁的同一對話；齊書另錄思微為陳伯之所殺。",
   "review": "ai_provisional",
   "names": [
-    "思征"
+    "思征",
+    "思微"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nanqi043-wangsiyuan-b1-7",
+      "person_id": "7r6_k52_qji_ABDACABCB",
+      "title": "江州長史",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanqi043-wangsiyuan-b1-7:a",
+          "person_mention_id": "c-nanqishu-043-wangsiwei:p001:m0000",
+          "usage": "narrative",
+          "date_expression": "永元中",
+          "paragraph_id": "c-nanqishu-043-wangsiwei:p001",
+          "surface": "江州長史",
+          "start": 7,
+          "end": 11
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu-043-wangsiwei-ws2400356",
+          "chapter_id": "c-nanqishu-043-wangsiwei",
+          "paragraph_id": "c-nanqishu-043-wangsiwei:p001",
+          "quote": "思微，永元中爲江州長史，爲陳伯之所殺。",
+          "person_mention_id": "c-nanqishu-043-wangsiwei:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -45,10 +95,215 @@
       "chapter_id": "c-nanshi-024-wangsiyuan",
       "source_id": "s-nanshi-024-wangsiyuan-ws1765279",
       "work_title": "南史"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "王思微",
+      "paragraph_id": "c-nanqishu-043-wangsiwei:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "思微，永元中爲江州長史，爲陳伯之所殺。",
+      "paragraph_ids": [
+        "c-nanqishu-043-wangsiwei:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-043-wangsiwei:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-043-wangsiwei:p001:m0000": "c-nanqishu-043-wangsiwei:p001"
+      },
+      "mention_id": "c-nanqishu-043-wangsiwei:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-043-wangsiwei:p001:m0000",
+          "mention_ids": [
+            "c-nanqishu-043-wangsiwei:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-043",
+      "chapter_id": "c-nanqishu-043-wangsiwei",
+      "source_id": "s-nanqishu-043-wangsiwei-ws2400356",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "王思遠",
+      "paragraph_id": "c-nanqishu-043-wangsiyuan:p006",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "自立。若及此引決，猶可不失後名。」晏不納。及拜驃騎，集會子弟，謂思遠兄思微曰：「隆昌之末，阿戎勸吾自裁，若從其語，豈有今日。」思遠遽應曰：「如阿戎所見，猶未晚也。」及晏敗，故得無他。",
+      "paragraph_ids": [
+        "c-nanqishu-043-wangsiyuan:p006"
+      ],
+      "mention_ids": [
+        "c-nanqishu-043-wangsiyuan:p006:m0088"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-043-wangsiyuan:p006:m0088": "c-nanqishu-043-wangsiyuan:p006"
+      },
+      "mention_id": "c-nanqishu-043-wangsiyuan:p006:m0088",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-043-wangsiyuan:p006:m0088",
+          "mention_ids": [
+            "c-nanqishu-043-wangsiyuan:p006:m0088"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-043",
+      "chapter_id": "c-nanqishu-043-wangsiyuan",
+      "source_id": "s-nanqishu-043-wangsiyuan-ws2400356",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-043-wangsiwei",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-043",
+      "source_id": "s-nanqishu-043-wangsiwei-ws2400356",
+      "source": {
+        "title": "南齊書卷43·王思微",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2400356",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2400356",
+        "revision_id": 2400356,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "王思遠傳末獨立附敘。",
+        "text_scope": "complete_embedded_account",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/witnesses/nanqi043-ws2400356.wikitext",
+        "raw_file_sha256": "7a65e9b58b508ef0dbc64a4a650c99c30dcd94f8f13ea9a23d171f539174baed",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "思微，永元中"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-043-wangsiyuan",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-043",
+      "source_id": "s-nanqishu-043-wangsiyuan-ws2400356",
+      "source": {
+        "title": "南齊書卷43·王思遠",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2400356",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2400356",
+        "revision_id": 2400356,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂70至86行。88行顧暠之、90行王思微各有獨立篇。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/witnesses/nanqi043-ws2400356.wikitext",
+        "raw_file_sha256": "7a65e9b58b508ef0dbc64a4a650c99c30dcd94f8f13ea9a23d171f539174baed",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                71,
+                71
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2400356
+            },
+            {
+              "source_lines": [
+                73,
+                73
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2400356
+            },
+            {
+              "source_lines": [
+                75,
+                75
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2400356
+            },
+            {
+              "source_lines": [
+                77,
+                77
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2400356
+            },
+            {
+              "source_lines": [
+                79,
+                79
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2400356
+            },
+            {
+              "source_lines": [
+                81,
+                81
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2400356
+            },
+            {
+              "source_lines": [
+                83,
+                83
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2400356
+            },
+            {
+              "source_lines": [
+                85,
+                85
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2400356
+            }
+          ]
+        },
+        "section_locator": "王思遠",
+        "related_excerpt": {
+          "chapter_id": "c-nanqishu-043-wangsiyuan-father-and-cousin",
+          "source_line": 70,
+          "relation": "same_digital_witness_previously_issued_excerpt"
+        }
+      }
+    },
     {
       "chapter_id": "c-nanshi-024-wangsiyuan",
       "work_id": "w-nanshi",
@@ -79,6 +334,41 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-nanqi043-wangsiyuan-brother6",
+      "subject_person_id": "7r6_k52_qji_ABDACABCB",
+      "object_person_id": "0cf_pqs_mnm",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "思遠兄思微",
+        "nanqi043_wangsiyuan_reading": "brother6",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABDACABCB",
+          "younger_person_id": "0cf_pqs_mnm",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu-043-wangsiyuan-ws2400356",
+          "chapter_id": "c-nanqishu-043-wangsiyuan",
+          "paragraph_id": "c-nanqishu-043-wangsiyuan:p006",
+          "quote": "初，高宗廢立之際，思遠與晏閑言，謂晏曰：「兄荷世祖厚恩，今一旦贊人如此事，彼或可以權計相須，未知兄將來何以自立。若及此引決，猶可不失後名。」晏不納。及拜驃騎，集會子弟，謂思遠兄思微曰：「隆昌之末，阿戎勸吾自裁，若從其語，豈有今日。」思遠遽應曰：「如阿戎所見，猶未晚也。」及晏敗，故得無他。",
+          "subject_person_mention_id": "c-nanqishu-043-wangsiyuan:p006:m0088",
+          "object_person_mention_id": "c-nanqishu-043-wangsiyuan:p006:m0085"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "明載兄，年序分錄。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nanshi024-wangsiyuan-older-zheng",
       "subject_person_id": "7r6_k52_qji_ABDACABCB",
@@ -171,6 +461,41 @@
   ],
   "preferred_relations": [
     {
+      "id": "a-nanqi043-wangsiyuan-brother6",
+      "subject_person_id": "7r6_k52_qji_ABDACABCB",
+      "object_person_id": "0cf_pqs_mnm",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "思遠兄思微",
+        "nanqi043_wangsiyuan_reading": "brother6",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABDACABCB",
+          "younger_person_id": "0cf_pqs_mnm",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu-043-wangsiyuan-ws2400356",
+          "chapter_id": "c-nanqishu-043-wangsiyuan",
+          "paragraph_id": "c-nanqishu-043-wangsiyuan:p006",
+          "quote": "初，高宗廢立之際，思遠與晏閑言，謂晏曰：「兄荷世祖厚恩，今一旦贊人如此事，彼或可以權計相須，未知兄將來何以自立。若及此引決，猶可不失後名。」晏不納。及拜驃騎，集會子弟，謂思遠兄思微曰：「隆昌之末，阿戎勸吾自裁，若從其語，豈有今日。」思遠遽應曰：「如阿戎所見，猶未晚也。」及晏敗，故得無他。",
+          "subject_person_mention_id": "c-nanqishu-043-wangsiyuan:p006:m0088",
+          "object_person_mention_id": "c-nanqishu-043-wangsiyuan:p006:m0085"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "明載兄，年序分錄。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi024-wangsiyuan-older-zheng",
       "subject_person_id": "7r6_k52_qji_ABDACABCB",
       "object_person_id": "0cf_pqs_mnm",
@@ -207,7 +532,37 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-nanqi043-wangsiyuan-siwei",
+      "person_id": "7r6_k52_qji_ABDACABCB",
+      "event_type": "death",
+      "source_term": "所殺",
+      "source_anchor": {
+        "paragraph_id": "c-nanqishu-043-wangsiwei:p001",
+        "surface": "所殺",
+        "start": 16,
+        "end": 18
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu-043-wangsiwei-ws2400356",
+          "chapter_id": "c-nanqishu-043-wangsiwei",
+          "paragraph_id": "c-nanqishu-043-wangsiwei:p001",
+          "quote": "思微，永元中爲江州長史，爲陳伯之所殺。",
+          "person_mention_id": "c-nanqishu-043-wangsiwei:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陳伯之殺思微；永元中繫江州長史，無確年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

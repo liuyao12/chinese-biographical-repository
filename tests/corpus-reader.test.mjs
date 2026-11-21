@@ -1,8 +1,26 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {chapterURL, chapterParagraph, facsimilePageLinks, filteredChapters, sourcePassageURL, profileSourceContext} from '../assets/corpus-reader.js';
+import {chapterURL, chapterParagraph, facsimilePageLinks, filteredChapters, shijiReadingEntry, sourcePassageURL, profileSourceContext} from '../assets/corpus-reader.js';
 const index = JSON.parse(readFileSync(new URL('../data/corpus/index.json', import.meta.url)));
+test('顏異平準書節文保有獨立來源，與全卷及其他節文並存時仍能回讀', () => {
+  const [volume] = filteredChapters(index, 'shu', '顏異');
+  assert.equal(volume.number, 30);
+  const excerpt = volume.excerpts.find(row => row.chapter_id === 'c-shiji-030-yanyi-fanchun');
+  const p = excerpt.chapter_id + ':p001';
+  const source = {work_id: 'w-shiji', chapter_id: excerpt.chapter_id, paragraph_id: p};
+  const params = new URLSearchParams(sourcePassageURL(source).split('#')[1]);
+  const canonical = {...volume, chapter_id: 'c-shiji-030', path: 'data/corpus/shiji/030.json'};
+  const alternative = {...excerpt, chapter_id: 'c-shiji-030-other', path: 'data/corpus/shiji/030-other.json'};
+  canonical.excerpts = [alternative, excerpt];
+  assert.equal(shijiReadingEntry(canonical, params).path, excerpt.path);
+  assert.equal(shijiReadingEntry(canonical, new URLSearchParams({passage:p})).path, excerpt.path);
+  assert.equal(shijiReadingEntry(canonical, new URLSearchParams({text:alternative.chapter_id})).path, alternative.path);
+  assert.equal(shijiReadingEntry(canonical, new URLSearchParams()).path, canonical.path);
+  const chapter = JSON.parse(readFileSync(new URL('../' + excerpt.path, import.meta.url)));
+  assert.equal(chapter.paragraphs[0].id, p);
+  assert.equal(chapter.source.text_scope, 'partial_chapter');
+});
 test('verified printed paragraphs link each attested scan page once', () => {
   const position = {column_projection: [{pdf_page: 18}, {pdf_page: 18}, {pdf_page: 19}]};
   const catalog = {image_verified: true, url: 'https://commons.wikimedia.org/wiki/File:試讀.pdf'};

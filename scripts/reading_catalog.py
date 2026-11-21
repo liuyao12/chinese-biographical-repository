@@ -22,7 +22,18 @@ def outputs(root=None):
     progress_rows = json.loads((root / 'corpus/progress.json').read_text())['books']
     progress = {b['chapter_id']: b for b in progress_rows}
     assert len(progress) == len(progress_rows), 'duplicate chapter progress IDs'
-    chapters = {int(p.stem): (p, json.loads(p.read_text())) for p in (root / 'corpus/shiji').glob('*.json') if p.stem.isdigit()}
+    chapters, excerpts, other_chapters = {}, {}, []
+    for path in sorted((root / 'corpus').glob('*/*.json')):
+        chapter = json.loads(path.read_text())
+        if chapter.get('record_type') != 'marked_chapter':
+            continue
+        if chapter['work_id'] != 'w-shiji':
+            other_chapters.append((path, chapter))
+        elif path.stem.isdigit():
+            chapters[int(path.stem)] = (path, chapter)
+        else:
+            number = int(chapter['book_id'].removeprefix('b-shiji-'))
+            excerpts.setdefault(number, []).append((path, chapter))
     table_index = json.loads((root / 'data/historical-tables/index.json').read_text())
     table_numbers = {int(t['id'].split('-')[-1]) for t in table_index['tables'] if re.fullmatch(r'shiji-\d{3}', t['id'])}
     result, entries = {}, []
@@ -41,6 +52,17 @@ def outputs(root=None):
             entry.update({'available': 'table', 'table_id': f'shiji-{number:03d}', 'annotation_status': 'structural_import'})
         else:
             entry.update({'available': 'pending', 'annotation_status': 'not_imported'})
+        for path, chapter in excerpts.get(number, []):
+            public = 'data/corpus/shiji/' + path.name
+            result[root / public] = path.read_bytes()
+            excerpt = {'number': number, 'category': category[2], 'title': chapter['title'],
+                       'chapter_id': chapter['id'], 'book_id': chapter['book_id'], 'path': public,
+                       'available': 'marked_text', 'text_scope': chapter['source'].get('text_scope', 'chapter'),
+                       'scope_note': chapter['source']['extent'], 'paragraph_count': len(chapter['paragraphs']),
+                       'annotation_status': progress[chapter['id']]['person_status'], **reading_counts(chapter)}
+            entry.setdefault('excerpts', []).append(excerpt)
+            if entry['available'] == 'pending':
+                entry.update(excerpt, title=item['title'], available='excerpt')
         entries.append(entry)
     index = {'schema_version': 1, 'work_id': 'w-shiji', 'title': '史記', 'author': '司馬遷',
              'categories': [{'id': c[2], 'label': c[3], 'expected_chapters': c[1] - c[0] + 1} for c in CATEGORIES],
@@ -53,11 +75,6 @@ def outputs(root=None):
     navigation_work_ids = {w['work_id'] for w in json.loads((directory / 'chapter-directory.json').read_text())['works'] if w.get('books')}
     manifest = [{'id':'w-shiji','title':'史記','author':'司馬遷',
                  'reader_kind':'shiji','catalog_path':'data/corpus/index.json'}]
-    other_chapters = []
-    for path in sorted((root / 'corpus').glob('*/*.json')):
-        chapter = json.loads(path.read_text())
-        if chapter.get('record_type') == 'marked_chapter' and chapter['work_id'] != 'w-shiji':
-            other_chapters.append((path,chapter))
     for work in works:
         if work['id'] == 'w-shiji':
             continue

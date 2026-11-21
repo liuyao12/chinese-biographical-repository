@@ -11,6 +11,54 @@
   ],
   "titles": [
     {
+      "id": "th-nanqishu-032-zhangdai-family-2-4",
+      "title": "太子中舍人",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "d50_8f5_wul_AAAAC",
+      "attestations": [
+        {
+          "id": "th-nanqishu-032-zhangdai-family-2-4:a",
+          "paragraph_id": "c-nanqishu-032-zhangdai-family:p002",
+          "start": 4,
+          "end": 9,
+          "surface": "太子中舍人",
+          "person_mention_id": "c-nanqishu-032-zhangdai-family:p002:m0009",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-032",
+          "chapter_id": "c-nanqishu-032-zhangdai-family",
+          "source_id": "s-nanqishu-032-zhangdai-family-ws1513918",
+          "paragraph_id": "c-nanqishu-032-zhangdai-family:p002",
+          "quote": "岱少與兄太子中舍人寅、新安太守鏡、征北將軍永、弟廣州刺史辨俱知名，謂之張氏五龍。",
+          "person_mention_id": "c-nanqishu-032-zhangdai-family:p002:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanqishu-033-zhangxu-wangjian-1-26-d50_8f5_wul_AAAAC",
       "person_id": "d50_8f5_wul_AAAAC",
       "title": "太子中舍人",
@@ -182,6 +230,51 @@
     {
       "number": 32,
       "category": "",
+      "title": "張岱",
+      "paragraph_id": "c-nanqishu-032-zhangdai-family:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "岱少與兄太子中舍人寅、新安太守鏡、征北將軍永、弟廣州刺史辨俱知名，謂之張氏五龍。",
+      "paragraph_ids": [
+        "c-nanqishu-032-zhangdai-family:p002",
+        "c-nanqishu-032-zhangdai-family:p003"
+      ],
+      "mention_ids": [
+        "c-nanqishu-032-zhangdai-family:p002:m0009",
+        "c-nanqishu-032-zhangdai-family:p003:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-032-zhangdai-family:p002:m0009": "c-nanqishu-032-zhangdai-family:p002",
+        "c-nanqishu-032-zhangdai-family:p003:m0000": "c-nanqishu-032-zhangdai-family:p003"
+      },
+      "mention_id": "c-nanqishu-032-zhangdai-family:p002:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-032-zhangdai-family:p002:m0009",
+          "mention_ids": [
+            "c-nanqishu-032-zhangdai-family:p002:m0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-032-zhangdai-family:p003:m0000",
+          "mention_ids": [
+            "c-nanqishu-032-zhangdai-family:p003:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-032",
+      "chapter_id": "c-nanqishu-032-zhangdai-family",
+      "source_id": "s-nanqishu-032-zhangdai-family-ws1513918",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 32,
+      "category": "",
       "title": "張岱兄永",
       "paragraph_id": "c-nanqishu-032-zhangyong-brother-of-dai:p001",
       "count": 1,
@@ -273,6 +366,30 @@
         "text_scope": "partial_chapter",
         "raw_path": "sources/nanqishu/nanqishu032-ws1513918.wikitext",
         "raw_file_sha256": "cc9c36ced8f64c3c359c76836ae56968c8a13c4a3b3c19a416575737314b0061"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-032-zhangdai-family",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-032",
+      "source_id": "s-nanqishu-032-zhangdai-family-ws1513918",
+      "source": {
+        "title": "張岱",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "revision_id": 1513918,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "張岱傳第32至50行，分出張鏡及張恕兩段。",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/nanqishu/nanqishu032-ws1513918.wikitext",
+        "raw_file_sha256": "cc9c36ced8f64c3c359c76836ae56968c8a13c4a3b3c19a416575737314b0061",
+        "section_locator": "第31行原題。傳首p001及其父祖斷言沿用。"
       }
     },
     {
@@ -429,6 +546,23 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-032-zhangdai-family:name_disagreement2-4",
+      "kind": "name_disagreement",
+      "person_id": "d50_8f5_wul_AAAAC",
+      "source_quote": "太子中舍人寅",
+      "reading": "齊書寅、宋書演同官。沿用既有寅與演兩號及其待考。",
+      "note": "齊書寅、宋書演同官。沿用既有寅與演兩號及其待考。",
+      "paragraph_id": "c-nanqishu-032-zhangdai-family:p002",
+      "start_codepoint": 4,
+      "end_codepoint": 10,
+      "human_reviewed": false,
+      "comparison_person_id": "d50_8f5_wul_AAAAA",
+      "chapter_id": "c-nanqishu-032-zhangdai-family",
+      "source_id": "s-nanqishu-032-zhangdai-family-ws1513918"
+    }
+  ],
   "person_ids": [
     "d50_8f5_wul_AAAAC"
   ],
