@@ -17,6 +17,22 @@ function setReturnLink(person) {
   back.textContent = route.text;
 }
 
+function disclosures(root) {
+  const occurrences = new Map();
+  return Array.from(root.querySelectorAll('details'), detail => {
+    const section = detail.closest('section');
+    const signature = JSON.stringify([
+      section?.querySelector(':scope > h4')?.textContent,
+      detail.querySelector(':scope > summary')?.textContent,
+      detail.querySelector('a[href]')?.getAttribute('href'),
+      detail.querySelector('blockquote')?.textContent
+    ]);
+    const occurrence = (occurrences.get(signature) || 0) + 1;
+    occurrences.set(signature, occurrence);
+    return [signature + ':' + occurrence, detail];
+  });
+}
+
 async function render() {
   const ticket = ++request;
   const root = document.getElementById('cbr-profile');
@@ -48,8 +64,12 @@ async function render() {
     const family = familyResult.family || null;
     const scrollY = window.scrollY;
     const focusId = document.activeElement?.id;
+    const openDisclosures = new Set(disclosures(root).filter(([, detail]) => detail.open).map(([key]) => key));
     root.innerHTML = personCard(p, true, ref, family)
       + (familyResult.error ? '<p class="person-family-loading" role="status">家族資料暫時無法載入；人物及來源資料仍可閱讀。</p>' : '');
+    for (const [key, detail] of disclosures(root)) {
+      if (openDisclosures.has(key)) detail.open = true;
+    }
     if (focusId) document.getElementById(focusId)?.focus({preventScroll:true});
     window.scrollTo({top:scrollY, behavior:'auto'});
   } catch (error) {
