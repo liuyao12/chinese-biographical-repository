@@ -22,6 +22,10 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if chapter.get('id') in ('c-liangshu-033-wangyun', 'c-liangshu-033-wangyun-wyd'):
+        try: from scripts.liang033_wangyun_witness import declined_valid
+        except ImportError: from liang033_wangyun_witness import declined_valid
+        return declined_valid(proposal, chapter)
     if proposal.get('jin080_office_form') == 'summoned_and_declined':
         try: from scripts.jin080_xizhi import unassumed_valid
         except ImportError: from jin080_xizhi import unassumed_valid
@@ -96,6 +100,10 @@ def unassumed_appointment_valid(proposal, chapter):
         return False
     if appointment['surface'] == '征' and role['surface'] == '吏部郎' and p['text'][appointment['start']-5:refusal['end']] == '湣帝即位，征吏部郎，不拜':
         verbs = [*verbs, '征']
+    if (appointment['surface'] == '領' and appointment['end'] == role['start']
+            and p['text'][role['end']:refusal['start']] in ('', '，')
+            and refusal['surface'] == '未拜'):
+        verbs.append('領')
     postposed_summons = (appointment['surface'] in ('徵', '徴')
                         and appointment['start'] == role['end']
                         and appointment['end'] <= refusal['start'])

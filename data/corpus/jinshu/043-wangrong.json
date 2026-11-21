@@ -25,18 +25,21 @@
     "normalization": {
       "character_conversion": {},
       "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原缺閉引號、季劄、鐘會、𦃩、報嘗均保留。"
-    }
+    },
+    "collation_witnesses": [
+      "source-evidence/jin043-wangrong-main/reading.json"
+    ]
   },
   "annotation": {
-    "status": "in_progress",
+    "status": "reviewed",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
     "model": null,
-    "coverage": "完整選定14段逐人及必要稱謂、代詞首輪；非全卷。",
+    "coverage": "王戎傳十四段、家支官歷、生卒和異記依各單元入讀。",
     "limitations": [
-      "未圖校，edition不明。",
-      "只來源身份，不新增typed親屬、日期、姓名或地望。",
-      "父渾與太原王渾不同源身份，未知身份保候選，不以同姓同名自動合。"
+      "固定數位轉錄的原底本未詳，武英殿本為獨立見證。",
+      "黃公酒壚故事有竹林七賢論不同判斷。",
+      "戎父涼州刺史渾與太原王渾各用本人的既有號。"
     ],
     "age_assertions": [
       {
@@ -119,6 +122,281 @@
         "reviewer": "Codex（AI代理）",
         "human_reviewed": false,
         "model": null
+      },
+      {
+        "id": "age-w043-rong-childhood",
+        "person_id": "48e_04a_3d8",
+        "source_number": "六七",
+        "source_term": "年六七歲",
+        "value": null,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-043",
+            "chapter_id": "c-jinshu-043-wangrong",
+            "source_id": "s-jinshu-043-ws2618531-wangrong",
+            "paragraph_id": "c-jinshu-043-wangrong:p001",
+            "quote": "王戎，字濬沖，琅邪臨沂人也。祖雄，幽州刺史。父渾，涼州刺史、貞陵亭侯。戎幼而穎悟，神彩秀徹。視日不眩，裴楷見而目之曰：「戎眼燦燦，如岩下電。」年六七歲，于宣武場觀戲，猛獸在檻中虓吼震地，眾皆奔走，戎獨立不動，神色自若。魏明帝於閣上見而奇之。又嘗與群兒嬉於道側，見李樹多實，等輩兢趣之，戎獨不往。或問其故，其曰：「樹在道邊而多子，必苦李也。」取之信然。",
+            "person_mention_id": "c-jinshu-043-wangrong:p001:m0000"
+          }
+        ],
+        "interpretation_note": "本句所報年齡。",
+        "status": "source_attested",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "approximation": {
+          "kind": "adjacent_age_numbers",
+          "numbers": [
+            6,
+            7
+          ]
+        },
+        "reporting_status": "approximate_report",
+        "subject_scope": {
+          "kind": "narrated_age_between_head_and_action",
+          "source_quote": "年六七歲，于宣武場觀戲，猛獸在檻中虓吼震地，眾皆奔走，戎獨立不動",
+          "resumption_person_mention_id": "c-jinshu-043-wangrong:p001:m0098"
+        },
+        "approximation_interpretation": {
+          "status": "editorial_provisional",
+          "human_reviewed": false,
+          "reviewer": "Codex（AI 代理）",
+          "rationale": "傳首名王戎，觀戲時各人奔走而戎獨立，年六七歲是相鄰數詞約數。"
+        }
+      }
+    ],
+    "reviewed_unit_evidence": [
+      {
+        "unit": "王萬",
+        "path": "source-evidence/jin043-wan-xuan/reading.json"
+      },
+      {
+        "unit": "王戎",
+        "path": "source-evidence/jin043-wangrong-main/reading.json"
+      }
+    ],
+    "age_difference_assertions": [
+      {
+        "id": "age-w043-rong-ruan",
+        "person_id": "48e_04a_3d8",
+        "source_number": "二十",
+        "source_term": "少籍二十歲",
+        "value": 20,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-043",
+            "chapter_id": "c-jinshu-043-wangrong",
+            "source_id": "s-jinshu-043-ws2618531-wangrong",
+            "paragraph_id": "c-jinshu-043-wangrong:p002",
+            "quote": "阮籍與渾為友。戎年十五，隨渾在郎舍。戎少籍二十歲，而籍與之交。籍每適渾，俄頃輒去，過視戎，良久然後出。謂渾曰：「濬沖清賞，非卿倫也。共卿言，不如共阿戎談。」及渾卒於涼州，故吏賻贈數百萬，戎辭而不受，由是顯名。為人短小，任率不修威儀，善發談端，賞其要會。朝賢嘗上巳禊洛，或問王濟曰：「昨游有何言談？」濟曰：「張華善說《史》《漢》；裴頠論前言往行，袞袞可聽；王戎談子房、季劄之間，超然玄著。」其為識鑒者所賞如此。",
+            "person_mention_id": "c-jinshu-043-wangrong:p002:m0018",
+            "reference_person_mention_id": "c-jinshu-043-wangrong:p002:m0020"
+          }
+        ],
+        "interpretation_note": "戎少阮籍二十歲，原文報年差。",
+        "status": "source_attested",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "reference_person_id": "6d5_075_29b",
+        "comparison": "younger_than"
+      }
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-jinshu-043-wangrong:p001:m0056",
+        "paragraph_id": "c-jinshu-043-wangrong:p001",
+        "start": 56,
+        "end": 57,
+        "surface": "之",
+        "person_id": "48e_04a_3d8",
+        "quote": "徹。視日不眩，裴楷見而目之曰：「戎眼燦燦，如岩下電",
+        "referent_role": "third_person",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p001:m0149",
+        "paragraph_id": "c-jinshu-043-wangrong:p001",
+        "start": 149,
+        "end": 150,
+        "surface": "其",
+        "person_id": "48e_04a_3d8",
+        "quote": "輩兢趣之，戎獨不往。或問其故，其曰：「樹在道邊而多",
+        "referent_role": "third_person",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p002:m0028",
+        "paragraph_id": "c-jinshu-043-wangrong:p002",
+        "start": 28,
+        "end": 29,
+        "surface": "之",
+        "person_id": "48e_04a_3d8",
+        "quote": "舍。戎少籍二十歲，而籍與之交。籍每適渾，俄頃輒去，",
+        "referent_role": "third_person",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p002:m0062",
+        "paragraph_id": "c-jinshu-043-wangrong:p002",
+        "start": 62,
+        "end": 63,
+        "surface": "卿",
+        "person_id": "rj2_m1s_n3l",
+        "quote": "。謂渾曰：「濬沖清賞，非卿倫也。共卿言，不如共阿戎",
+        "referent_role": "addressee",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p002:m0067",
+        "paragraph_id": "c-jinshu-043-wangrong:p002",
+        "start": 67,
+        "end": 68,
+        "surface": "卿",
+        "person_id": "rj2_m1s_n3l",
+        "quote": "「濬沖清賞，非卿倫也。共卿言，不如共阿戎談。」及渾",
+        "referent_role": "addressee",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p003:m0046",
+        "paragraph_id": "c-jinshu-043-wangrong:p003",
+        "start": 46,
+        "end": 47,
+        "surface": "彼",
+        "person_id": "z4k_st6_6zf",
+        "quote": "。戎異之，他日問籍曰：「彼何如人也？」答曰：「勝公",
+        "referent_role": "third_person",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p003:m0107",
+        "paragraph_id": "c-jinshu-043-wangrong:p003",
+        "start": 107,
+        "end": 109,
+        "surface": "俗物",
+        "person_id": "48e_04a_3d8",
+        "quote": "之遊，戎嘗後至。籍曰：「俗物已復來敗人意。」戎笑曰：",
+        "referent_role": "third_person",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p007:m0163",
+        "paragraph_id": "c-jinshu-043-wangrong:p007",
+        "start": 163,
+        "end": 165,
+        "surface": "陛下",
+        "person_id": "hgm_jvn_hle",
+        "quote": "耳。至於王戎，所謂死孝，陛下當先憂之。」戎先有吐疾，",
+        "referent_role": "addressee",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p010:m0058",
+        "paragraph_id": "c-jinshu-043-wangrong:p010",
+        "start": 58,
+        "end": 60,
+        "surface": "少年",
+        "person_id": "43s_gru_94d",
+        "quote": "：「濬沖譎詐多端，安肯為少年用？」乃止。惠帝反宮，以",
+        "referent_role": "third_person",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p010:m0119",
+        "paragraph_id": "c-jinshu-043-wangrong:p010",
+        "start": 119,
+        "end": 120,
+        "surface": "孤",
+        "person_id": "ee0_b2a_68e",
+        "quote": "：「孫秀作逆，天子幽逼。孤糾合義兵，掃除元惡，臣子",
+        "referent_role": "speaker_self",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p010:m0160",
+        "paragraph_id": "c-jinshu-043-wangrong:p010",
+        "start": 160,
+        "end": 161,
+        "surface": "卿",
+        "person_id": "48e_04a_3d8",
+        "quote": "難，當賴忠謀，以和不協。卿其善為我籌之。」戎曰：「",
+        "referent_role": "addressee",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p010:m0164",
+        "paragraph_id": "c-jinshu-043-wangrong:p010",
+        "start": 164,
+        "end": 165,
+        "surface": "我",
+        "person_id": "ee0_b2a_68e",
+        "quote": "忠謀，以和不協。卿其善為我籌之。」戎曰：「公首舉義",
+        "referent_role": "speaker_self",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p010:m0173",
+        "paragraph_id": "c-jinshu-043-wangrong:p010",
+        "start": 173,
+        "end": 174,
+        "surface": "公",
+        "person_id": "ee0_b2a_68e",
+        "quote": "其善為我籌之。」戎曰：「公首舉義眾，匡定大業，開闢",
+        "referent_role": "addressee",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p011:m0088",
+        "paragraph_id": "c-jinshu-043-wangrong:p011",
+        "start": 88,
+        "end": 90,
+        "surface": "三公",
+        "person_id": "48e_04a_3d8",
+        "quote": "從便門而出遊，見者不知其三公也。故吏多至大官，道路相",
+        "referent_role": "third_person",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p012:m0026",
+        "paragraph_id": "c-jinshu-043-wangrong:p012",
+        "start": 26,
+        "end": 28,
+        "surface": "車駕",
+        "person_id": "7e0_f69_1ac",
+        "quote": "，戎復詣鄴，隨帝還洛陽。車駕之西遷也，戎出奔於郟。在",
+        "referent_role": "third_person",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p013:m0129",
+        "paragraph_id": "c-jinshu-043-wangrong:p013",
+        "start": 129,
+        "end": 130,
+        "surface": "吾",
+        "person_id": "48e_04a_3d8",
+        "quote": "壚下過，顧謂後車客曰：「吾昔與嵇叔夜、阮嗣宗酣暢于",
+        "referent_role": "speaker_self",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
+      },
+      {
+        "id": "c-jinshu-043-wangrong:p013:m0160",
+        "paragraph_id": "c-jinshu-043-wangrong:p013",
+        "start": 160,
+        "end": 161,
+        "surface": "吾",
+        "person_id": "48e_04a_3d8",
+        "quote": "亦預其末。自嵇、阮雲亡，吾便為時之所羈絏。今日視之",
+        "referent_role": "speaker_self",
+        "note": "按該句說話對象或敘事所指；舊位置與 ID 保留。"
       }
     ]
   },
@@ -127,7 +405,7 @@
       "id": "c-jinshu-043-wangrong:p001",
       "text": "王戎，字濬沖，琅邪臨沂人也。祖雄，幽州刺史。父渾，涼州刺史、貞陵亭侯。戎幼而穎悟，神彩秀徹。視日不眩，裴楷見而目之曰：「戎眼燦燦，如岩下電。」年六七歲，于宣武場觀戲，猛獸在檻中虓吼震地，眾皆奔走，戎獨立不動，神色自若。魏明帝於閣上見而奇之。又嘗與群兒嬉於道側，見李樹多實，等輩兢趣之，戎獨不往。或問其故，其曰：「樹在道邊而多子，必苦李也。」取之信然。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p001:m0000",
@@ -190,16 +468,6 @@
           "resolution_note": "傳首王戎祖雄父渾的本傳身份；與太原王渾嚴分。魏明帝屬幼年觀戲插敘。"
         },
         {
-          "id": "c-jinshu-043-wangrong:p001:m0056",
-          "start": 56,
-          "end": 57,
-          "surface": "之",
-          "kind": "person",
-          "person_id": "48e_04a_3d8",
-          "status": "contextual_provisional",
-          "resolution_note": "裴楷目王戎。"
-        },
-        {
           "id": "c-jinshu-043-wangrong:p001:m0060",
           "start": 60,
           "end": 61,
@@ -258,16 +526,6 @@
           "person_id": null,
           "status": "unresolved",
           "resolution_note": "未能辨識發問者。"
-        },
-        {
-          "id": "c-jinshu-043-wangrong:p001:m0149",
-          "start": 149,
-          "end": 150,
-          "surface": "其",
-          "kind": "person",
-          "person_id": "48e_04a_3d8",
-          "status": "contextual_provisional",
-          "resolution_note": "問其故與其曰承戎；此錨只標首其，未用近名猜人。"
         }
       ],
       "source_position": {
@@ -280,7 +538,7 @@
       "id": "c-jinshu-043-wangrong:p002",
       "text": "阮籍與渾為友。戎年十五，隨渾在郎舍。戎少籍二十歲，而籍與之交。籍每適渾，俄頃輒去，過視戎，良久然後出。謂渾曰：「濬沖清賞，非卿倫也。共卿言，不如共阿戎談。」及渾卒於涼州，故吏賻贈數百萬，戎辭而不受，由是顯名。為人短小，任率不修威儀，善發談端，賞其要會。朝賢嘗上巳禊洛，或問王濟曰：「昨游有何言談？」濟曰：「張華善說《史》《漢》；裴頠論前言往行，袞袞可聽；王戎談子房、季劄之間，超然玄著。」其為識鑒者所賞如此。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p002:m0000",
@@ -353,16 +611,6 @@
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
         },
         {
-          "id": "c-jinshu-043-wangrong:p002:m0028",
-          "start": 28,
-          "end": 29,
-          "surface": "之",
-          "kind": "person",
-          "person_id": "48e_04a_3d8",
-          "status": "contextual_provisional",
-          "resolution_note": "籍與十五歲戎交。"
-        },
-        {
           "id": "c-jinshu-043-wangrong:p002:m0031",
           "start": 31,
           "end": 32,
@@ -411,26 +659,6 @@
           "person_id": "48e_04a_3d8",
           "status": "contextual_provisional",
           "resolution_note": "渾/籍/戎三端對話分辨；王濟轉述張華、裴頠與引古子房季劄。"
-        },
-        {
-          "id": "c-jinshu-043-wangrong:p002:m0062",
-          "start": 62,
-          "end": 63,
-          "surface": "卿",
-          "kind": "person",
-          "person_id": "rj2_m1s_n3l",
-          "status": "contextual_provisional",
-          "resolution_note": "阮籍向渾稱卿。"
-        },
-        {
-          "id": "c-jinshu-043-wangrong:p002:m0067",
-          "start": 67,
-          "end": 68,
-          "surface": "卿",
-          "kind": "person",
-          "person_id": "rj2_m1s_n3l",
-          "status": "contextual_provisional",
-          "resolution_note": "同一對渾引語。"
         },
         {
           "id": "c-jinshu-043-wangrong:p002:m0073",
@@ -543,7 +771,7 @@
       "id": "c-jinshu-043-wangrong:p003",
       "text": "戎嘗與阮籍飲，時兗州刺史劉昶字公榮在坐，籍以酒少，酌不及昶，昶無恨色。戎異之，他日問籍曰：「彼何如人也？」答曰：「勝公榮，不可不與飲；若減公榮，則不敢不共飲；惟公榮可不與飲。」戎每與籍為竹林之遊，戎嘗後至。籍曰：「俗物已復來敗人意。」戎笑曰：「卿輩意亦復易敗耳！",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p003:m0000",
@@ -636,16 +864,6 @@
           "resolution_note": "阮籍、公榮與王戎引語分域；保原引號缺閉，不補改。"
         },
         {
-          "id": "c-jinshu-043-wangrong:p003:m0046",
-          "start": 46,
-          "end": 47,
-          "surface": "彼",
-          "kind": "person",
-          "person_id": "z4k_st6_6zf",
-          "status": "contextual_provisional",
-          "resolution_note": "戎向籍問公榮。"
-        },
-        {
           "id": "c-jinshu-043-wangrong:p003:m0058",
           "start": 58,
           "end": 60,
@@ -716,16 +934,6 @@
           "resolution_note": "阮籍、公榮與王戎引語分域；保原引號缺閉，不補改。"
         },
         {
-          "id": "c-jinshu-043-wangrong:p003:m0107",
-          "start": 107,
-          "end": 109,
-          "surface": "俗物",
-          "kind": "person",
-          "person_id": "48e_04a_3d8",
-          "status": "contextual_provisional",
-          "resolution_note": "籍戲稱後至的戎。"
-        },
-        {
           "id": "c-jinshu-043-wangrong:p003:m0117",
           "start": 117,
           "end": 118,
@@ -756,7 +964,7 @@
       "id": "c-jinshu-043-wangrong:p004",
       "text": "鐘會伐蜀，過與戎別，問計將安出。戎曰：「道家有言，'為而不恃'，非成功難，保之難也。」及會敗，議者以為知言。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p004:m0000",
@@ -809,7 +1017,7 @@
       "id": "c-jinshu-043-wangrong:p005",
       "text": "襲父爵，辟相國掾，曆吏部黃門郎、散騎常侍、河東太守、荊州刺史，坐遣吏修園宅，應免官，詔以贖論。遷豫州刺史，加建威將軍，受詔伐吳。戎遣參軍羅尚、劉喬領前鋒，進攻武昌，吳將楊雍、孫述、江夏太守劉朗各率眾詣戎降。戎督大軍臨江，吳牙門將孟泰以蘄春、邾二縣降。吳平，進爵安豐侯，增邑六千戶，賜絹六千匹。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p005:m0001",
@@ -922,7 +1130,7 @@
       "id": "c-jinshu-043-wangrong:p006",
       "text": "戎渡江，綏慰新附，宣揚威惠。吳光祿勳石偉方直，不容皓朝，稱疾歸家。戎嘉其清節，表薦之。詔拜偉為議郎，以二千石祿終其身。荊土悅服。徵為侍中。南郡太守劉肇賂戎筒中細布五十端，為司隸所糾，以知而未納，故得不坐，然議者尤之。帝謂朝臣曰：「戎之為行，豈懷私苟得，正當不欲為異耳！」帝雖以是言釋之，然為清慎者所鄙，由是損名。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p006:m0000",
@@ -1035,7 +1243,7 @@
       "id": "c-jinshu-043-wangrong:p007",
       "text": "戎在職雖無殊能，而庶績修理。後遷光祿勳、吏部尚書，以母憂去職。性至孝，不拘禮制，飲酒食肉，或觀弈棋，而容貌毀悴，杖然後起。裴頠往吊之，謂人曰：「若使一慟能傷人，濬沖不免滅性之譏也。」時和嶠亦居父喪，以禮法自持，量米而食，哀毀不逾於戎。帝謂劉毅曰：「和嶠毀頓過禮，使人憂之。」毅曰：「嶠雖寢苫食粥，乃生孝耳。至於王戎，所謂死孝，陛下當先憂之。」戎先有吐疾，居喪增甚。帝遣醫療之，並賜藥物，又斷賓客。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p007:m0000",
@@ -1168,16 +1376,6 @@
           "resolution_note": "孝喪插敘武帝問劉毅，不與劉裕時護軍劉毅同人；母稱不升生母。"
         },
         {
-          "id": "c-jinshu-043-wangrong:p007:m0163",
-          "start": 163,
-          "end": 165,
-          "surface": "陛下",
-          "kind": "person",
-          "person_id": "hgm_jvn_hle",
-          "status": "contextual_provisional",
-          "resolution_note": "孝喪插敘武帝問劉毅，不與劉裕時護軍劉毅同人；母稱不升生母。"
-        },
-        {
           "id": "c-jinshu-043-wangrong:p007:m0171",
           "start": 171,
           "end": 172,
@@ -1208,7 +1406,7 @@
       "id": "c-jinshu-043-wangrong:p008",
       "text": "楊駿執政，拜太子太傅。駿誅之後，東安公繇專斷刑賞，威震外內。戎誡繇曰：「大事之後，宜深遠之。」繇不從，果得罪。轉中書令，加光祿大夫，給恩信五十人。遷尚書左僕射，領吏部。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p008:m0000",
@@ -1281,7 +1479,7 @@
       "id": "c-jinshu-043-wangrong:p009",
       "text": "戎始為甲午制，凡選舉皆先治百姓，然後授用。司隸傅咸奏戎，曰：「《書》稱『三載考績，三考黜陟幽明』。今內外群官，居職未期而戎奏還，既未定其優劣，且送故迎新，相望道路，巧詐由生，傷農害政。戎不仰依堯舜典謨，而驅動浮華，虧敗風俗，非徒無益，乃有大損。宜免戎官，以敦風俗。」戎與賈、郭通親，竟得不坐。尋轉司徒。以王政將圮，苟媚取容，屬湣懷太子之廢，竟無一言匡諫。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p009:m0000",
@@ -1404,7 +1602,7 @@
       "id": "c-jinshu-043-wangrong:p010",
       "text": "裴頠，戎之婿也，頠誅，戎坐免官。齊王冏起義，孫秀祿戎於城內，趙王倫子欲取戎為軍司。博士王繇曰：「濬沖譎詐多端，安肯為少年用？」乃止。惠帝反宮，以戎為尚書令。既而河間王顒遣使就說成都王穎，將誅齊王冏。檄書至，冏謂戎曰：「孫秀作逆，天子幽逼。孤糾合義兵，掃除元惡，臣子之節，信著神明。二王聽讒，造構大難，當賴忠謀，以和不協。卿其善為我籌之。」戎曰：「公首舉義眾，匡定大業，開闢以來，未始有也。然論功報嘗，不及有勞，朝野失望，人懷貳志。今二王帶甲百萬，其鋒不可當，若以王就第，不失故爵。委權崇讓，此求安之計也。」冏謀臣葛旟怒曰：「漢魏以來，王公就第，甯有得保妻子乎！議者可斬。」於是百官震悚，戎偽藥發墮廁，得不及禍。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p010:m0000",
@@ -1527,16 +1725,6 @@
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
         {
-          "id": "c-jinshu-043-wangrong:p010:m0058",
-          "start": 58,
-          "end": 60,
-          "surface": "少年",
-          "kind": "person",
-          "person_id": "43s_gru_94d",
-          "status": "contextual_provisional",
-          "resolution_note": "博士王繇指欲取戎的倫子，非齊王冏。"
-        },
-        {
           "id": "c-jinshu-043-wangrong:p010:m0066",
           "start": 66,
           "end": 68,
@@ -1627,16 +1815,6 @@
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
         {
-          "id": "c-jinshu-043-wangrong:p010:m0119",
-          "start": 119,
-          "end": 120,
-          "surface": "孤",
-          "kind": "person",
-          "person_id": "ee0_b2a_68e",
-          "status": "contextual_provisional",
-          "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
-        },
-        {
           "id": "c-jinshu-043-wangrong:p010:m0140",
           "start": 140,
           "end": 142,
@@ -1647,42 +1825,12 @@
           "resolution_note": "顒穎兩王群指，候選兩ID另存，不單人化。"
         },
         {
-          "id": "c-jinshu-043-wangrong:p010:m0160",
-          "start": 160,
-          "end": 161,
-          "surface": "卿",
-          "kind": "person",
-          "person_id": "48e_04a_3d8",
-          "status": "contextual_provisional",
-          "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
-        },
-        {
-          "id": "c-jinshu-043-wangrong:p010:m0164",
-          "start": 164,
-          "end": 165,
-          "surface": "我",
-          "kind": "person",
-          "person_id": "ee0_b2a_68e",
-          "status": "contextual_provisional",
-          "resolution_note": "冏自稱。"
-        },
-        {
           "id": "c-jinshu-043-wangrong:p010:m0169",
           "start": 169,
           "end": 170,
           "surface": "戎",
           "kind": "person",
           "person_id": "48e_04a_3d8",
-          "status": "contextual_provisional",
-          "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
-        },
-        {
-          "id": "c-jinshu-043-wangrong:p010:m0173",
-          "start": 173,
-          "end": 174,
-          "surface": "公",
-          "kind": "person",
-          "person_id": "ee0_b2a_68e",
           "status": "contextual_provisional",
           "resolution_note": "八王亂時域，冏引語之孤/戎引語之公屬冏，卿是冏對戎；兩王群指顒與穎但不拆單代詞。"
         },
@@ -1767,7 +1915,7 @@
       "id": "c-jinshu-043-wangrong:p011",
       "text": "戎以晉室方亂，慕蘧伯玉之為人，與時舒卷，無蹇諤之節。自經典選，未嘗進寒素，退虛名，但與時浮沈，戶調門選而已。尋拜司徒，雖位總鼎司，而委事僚采。間乘小馬，從便門而出遊，見者不知其三公也。故吏多至大官，道路相遇輒避之。性好興利，廣收八方園田水碓，周遍天下。積實聚錢，不知紀極，每自執牙籌，晝夜算計，恆若不足。而又儉嗇，不自奉養，天下人謂之膏肓之疾。女適裴頠，貸錢數萬，久而未還。女後歸寧，戎色不悅，女遽還直，然後乃歡。從子將婚，戎遺其一單衣，婚訖而更責取。家有好李，常出貨之，恐人得種，恆鑽其核。以此獲譏於世。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p011:m0000",
@@ -1788,16 +1936,6 @@
           "person_id": "nd8_vw5_w1w",
           "status": "contextual_provisional",
           "resolution_note": "女適裴頠與歸寧同一女；從子單衣婚事不補其父/姓名。"
-        },
-        {
-          "id": "c-jinshu-043-wangrong:p011:m0088",
-          "start": 88,
-          "end": 90,
-          "surface": "三公",
-          "kind": "person",
-          "person_id": "48e_04a_3d8",
-          "status": "contextual_provisional",
-          "resolution_note": "乘小馬出遊者戎。"
         },
         {
           "id": "c-jinshu-043-wangrong:p011:m0172",
@@ -1880,7 +2018,7 @@
       "id": "c-jinshu-043-wangrong:p012",
       "text": "其後從帝北伐，王師敗績于蕩陰，戎復詣鄴，隨帝還洛陽。車駕之西遷也，戎出奔於郟。在危難之間，親接鋒刃，談笑自若，未嘗有懼容。時召親賓，歡娛永日。永興二年，薨於郟縣，時年七十二，諡曰元。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p012:m0003",
@@ -1913,16 +2051,6 @@
           "resolution_note": "蕩陰戰敗及洛陽西遷，帝/車駕為惠帝。"
         },
         {
-          "id": "c-jinshu-043-wangrong:p012:m0026",
-          "start": 26,
-          "end": 28,
-          "surface": "車駕",
-          "kind": "person",
-          "person_id": "7e0_f69_1ac",
-          "status": "contextual_provisional",
-          "resolution_note": "蕩陰戰敗及洛陽西遷，帝/車駕為惠帝。"
-        },
-        {
           "id": "c-jinshu-043-wangrong:p012:m0033",
           "start": 33,
           "end": 34,
@@ -1943,7 +2071,7 @@
       "id": "c-jinshu-043-wangrong:p013",
       "text": "戎有人倫鑒識，嘗目山濤如璞玉渾金，人皆欽其寶，莫知名其器；王衍神姿高徹，如瑤林瓊樹，自然是風塵表物。謂裴頠拙於用長，荀勖工於用短，陳道寧𦃩𦃩如束長竿。族弟敦有高名，戎惡之。敦每候戎，輒托疾不見。敦後果為逆亂。其鑒嘗先見如此。嘗經黃公酒壚下過，顧謂後車客曰：「吾昔與嵇叔夜、阮嗣宗酣暢于此，竹林之遊亦預其末。自嵇、阮雲亡，吾便為時之所羈絏。今日視之雖近，邈若山河！」初，孫秀為琅邪郡吏，求品於鄉議。戎從弟衍將不許，戎勸品之。及秀得志，朝士有宿怨者皆被誅，而戎、衍獲濟焉。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p013:m0000",
@@ -2076,16 +2204,6 @@
           "resolution_note": "未明名/人數的受話賓客。"
         },
         {
-          "id": "c-jinshu-043-wangrong:p013:m0129",
-          "start": 129,
-          "end": 130,
-          "surface": "吾",
-          "kind": "person",
-          "person_id": "48e_04a_3d8",
-          "status": "contextual_provisional",
-          "resolution_note": "戎回憶竹林。"
-        },
-        {
           "id": "c-jinshu-043-wangrong:p013:m0132",
           "start": 132,
           "end": 135,
@@ -2124,16 +2242,6 @@
           "person_id": "6d5_075_29b",
           "status": "contextual_provisional",
           "resolution_note": "人倫鑒識與黃公酒壚回憶分域；嵇叔夜/阮嗣宗按同段嵇阮及既有字證。渾金非王渾，名詞亂流不標。"
-        },
-        {
-          "id": "c-jinshu-043-wangrong:p013:m0160",
-          "start": 160,
-          "end": 161,
-          "surface": "吾",
-          "kind": "person",
-          "person_id": "48e_04a_3d8",
-          "status": "contextual_provisional",
-          "resolution_note": "同段戎自稱。"
         },
         {
           "id": "c-jinshu-043-wangrong:p013:m0184",
@@ -2216,7 +2324,7 @@
       "id": "c-jinshu-043-wangrong:p014",
       "text": "子萬，有美名。少而大肥，戎令食穅，而肥愈甚。年十九卒。有庶子興，戎所不齒。以從弟陽平太守愔子為嗣。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-043-wangrong:p014:m0001",

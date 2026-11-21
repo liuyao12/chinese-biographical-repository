@@ -13,7 +13,6 @@
     "仲父",
     "卿",
     "公",
-    "爾",
     "吾",
     "彼",
     "師傅",
@@ -3649,6 +3648,41 @@
       "work_title": "南史"
     },
     {
+      "number": 22,
+      "category": "",
+      "title": "王騫",
+      "paragraph_id": "c-nanshi-022-wangqian:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "為侯。歷位度支尚書，中書令。武帝於鍾山西造大愛敬寺，騫舊墅在寺側者，即王導賜田也。帝遣主書宣旨，就騫市之，欲以施寺。答云：「此田不賣；若敕取，所不敢言。」酬對又脫略。帝怒，遂付市評田價，以直逼還之。由是忤旨，出為吳興太守。",
+      "paragraph_ids": [
+        "c-nanshi-022-wangqian:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-022-wangqian:p001:m0294"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-022-wangqian:p001:m0294": "c-nanshi-022-wangqian:p001"
+      },
+      "mention_id": "c-nanshi-022-wangqian:p001:m0294",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-022-wangqian:p001:m0294",
+          "mention_ids": [
+            "c-nanshi-022-wangqian:p001:m0294"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wangqian",
+      "source_id": "s-nanshi-022-wangqian-ws1477957",
+      "work_title": "南史"
+    },
+    {
       "number": 33,
       "category": "",
       "title": "王祥、王覽本傳",
@@ -3928,8 +3962,8 @@
       "category": "",
       "title": "王衍傳",
       "paragraph_id": "c-jinshu-043-wangyan:p002",
-      "count": 3,
-      "raw_count": 3,
+      "count": 2,
+      "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "論世事，唯雅詠玄虛而已。嘗因宴集，為族人所怒，舉樏擲其面。衍初無言，引王導共載而去。然心不能平，在車中攬鏡自照，謂導曰：「爾看吾目光乃在牛背上矣。」父卒于北平，送故甚厚，為親識之所借貸，因以舍之。數年之間，家資罄盡，出就洛城西田園而居焉。後為太子舍人，還尚書郎。出補元城令，",
@@ -3938,13 +3972,11 @@
       ],
       "mention_ids": [
         "c-jinshu-043-wangyan:p002:m0078",
-        "c-jinshu-043-wangyan:p002:m0100",
-        "c-jinshu-043-wangyan:p002:m0104"
+        "c-jinshu-043-wangyan:p002:m0100"
       ],
       "mention_paragraph_ids": {
         "c-jinshu-043-wangyan:p002:m0078": "c-jinshu-043-wangyan:p002",
-        "c-jinshu-043-wangyan:p002:m0100": "c-jinshu-043-wangyan:p002",
-        "c-jinshu-043-wangyan:p002:m0104": "c-jinshu-043-wangyan:p002"
+        "c-jinshu-043-wangyan:p002:m0100": "c-jinshu-043-wangyan:p002"
       },
       "mention_id": "c-jinshu-043-wangyan:p002:m0078",
       "occurrence_groups": [
@@ -3959,13 +3991,6 @@
           "canonical_mention_id": "c-jinshu-043-wangyan:p002:m0100",
           "mention_ids": [
             "c-jinshu-043-wangyan:p002:m0100"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-043-wangyan:p002:m0104",
-          "mention_ids": [
-            "c-jinshu-043-wangyan:p002:m0104"
           ],
           "kind": "paragraph"
         }
@@ -18316,8 +18341,22 @@
         "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
         "normalization": {
           "character_conversion": {},
-          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
-        }
+          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                110,
+                110
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2618531
+            }
+          ]
+        },
+        "collation_witnesses": [
+          "source-evidence/jin043-wangyan-main/reading.json"
+        ]
       }
     },
     {
@@ -26010,6 +26049,35 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-022-wangqian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangqian-ws1477957",
+      "source": {
+        "title": "南史卷二十二·王騫",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1477957，武英殿本書影逐項參記。",
+        "extent": "逐讀第58行分題至第64行分題前。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "=====儉子 騫=====",
+        "wikitext_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shishuoxinyu-001-wangdao-source",
       "work_id": "w-shishuoxinyu",
       "book_id": "b-shishuoxinyu-001",
@@ -27982,6 +28050,21 @@
     }
   ],
   "person_references": [
+    {
+      "id": "c-jinshu-043-wangyan:p002:m0104",
+      "paragraph_id": "c-jinshu-043-wangyan:p002",
+      "start": 104,
+      "end": 105,
+      "surface": "爾",
+      "person_id": "7r6_k52_qji_ABAA",
+      "quote": "車中攬鏡自照，謂導曰：「爾看吾目光乃在牛背上矣。」",
+      "referent_role": "addressee",
+      "note": "此處按對話、敘述主語及賓語記所指。",
+      "chapter_id": "c-jinshu-043-wangyan",
+      "book_id": "b-jinshu-043",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-043-ws2618531-wangrong"
+    },
     {
       "id": "c-jinshu-065-wangdao-family:line064:m0190",
       "paragraph_id": "c-jinshu-065-wangdao-family:line064",
