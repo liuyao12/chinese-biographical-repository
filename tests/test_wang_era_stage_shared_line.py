@@ -15,14 +15,14 @@ sq=json.loads((ROOT/'corpus/nanqishu/033-wangsengqian.json').read_text())
 ns=json.loads((ROOT/'corpus/nanshi/022-wangzhi.json').read_text())
 h=json.loads((ROOT/'corpus/nanshi/022-wangzhi-titles.json').read_text())['holdings']
 death=next(e for e in json.loads((ROOT/'corpus/nanshi/022-wangzhi-life-events.json').read_text())['events']if e['id']=='le-wang25-94')
-ds=[x['effective_period']['start']['normalized_date']for x in h if x['id']in ['th-wang25-86','th-wang25-87','th-wang25-88','th-wang25-89']]+[death['normalized_date']]
+ds=[x['effective_period']['start']['normalized_date']for x in h if x['id']in ['th-wang25-86','th-wang25-87','th-wang25-88','th-wang25-89']]
 proposals={p['id']:p for p in sq['annotation']['title_proposals']if p['id'].startswith('tp-wang26-')}
 age=next(a for a in ns['annotation']['age_assertions']if a['id']=='age-wang26-96')
 valid=lambda d,ch=ns:relative_regnal_year_valid(d,source_age_number,{ch['id']:ch})
 
 class NewModelTests(unittest.TestCase):
- def test_actual_five_dates_and_no_initial_equals_first_year(self):
-  self.assertEqual([d['year']for d in ds],[504,504,510,510,510])
+ def test_actual_four_appointment_dates_and_no_initial_equals_first_year(self):
+  self.assertEqual([d['year']for d in ds],[504,504,510,510])
   for d in ds:self.assertTrue(valid(d));self.assertEqual(normalized_date_errors(d,{ns['id']:ns}),[]);self.assertEqual(d['relative_year_reference']['era_expression'],'天監初');self.assertNotEqual(d['regnal_year_mapping']['source_number'],'元')
  def test_middle_and_last_stage_generalize_without_year_one(self):
   for suffix in ['中','末']:
@@ -34,8 +34,13 @@ class NewModelTests(unittest.TestCase):
   d=copy.deepcopy(ds[-1]);d.pop('narrative_era_scope');self.assertFalse(valid(d))
  def test_cannot_turn_initial_into_explicit_first_year(self):
   d=copy.deepcopy(ds[-1]);d['relative_year_reference']['era_expression']='天監元年';self.assertFalse(valid(d))
- def test_death_cannot_be_reburial_year_523(self):
-  d=copy.deepcopy(ds[-1]);d['year']=d['era_year']=523;self.assertFalse(valid(d))
+ def test_appointment_bounds_death_and_liangshu_gives_separate_year(self):
+  self.assertIsNone(death['date_expression'])
+  self.assertNotIn('normalized_date', death)
+  self.assertEqual((death['relative_chronology']['not_before'], death['relative_chronology']['not_after']), (510, None))
+  event = json.loads((ROOT/'corpus/liangshu/021-wangzhi-life-events.json').read_text())['events'][0]
+  self.assertEqual(event['normalized_date']['year'], 513)
+  self.assertIn('十二年，卒，時年五十四', event['evidence'][0]['quote'])
  def test_quote_scope_missing_or_extending_past_event_rejected(self):
   d=copy.deepcopy(ds[-1]);d['narrative_era_scope']['embedded_quotation_scopes']=[];d['narrative_era_scope']['quotation_introducers']=[];self.assertFalse(valid(d))
   d=copy.deepcopy(ds[-1]);q=d['narrative_era_scope']['embedded_quotation_scopes'][0];q['end']=ns['paragraphs'][0]['text'].index('普通四年');q['surface']=ns['paragraphs'][0]['text'][q['start']:q['end']];self.assertFalse(valid(d))
@@ -53,7 +58,7 @@ class NewModelTests(unittest.TestCase):
   for field,value in [('paragraph_ids',[]),('source_commit','wrong'),('event_ruler_person_id','another-ruler')]:
    d=copy.deepcopy(ds[-1]);d['narrative_era_scope'][field]=value;self.assertFalse(valid(d))
  def test_record_binding_rejects_wrong_person_id_title_and_role(self):
-  self.assertTrue(binding_valid(ds[-1],death,'life_event'));e=copy.deepcopy(death);e['person_id']='other';self.assertFalse(binding_valid(ds[-1],e,'life_event'));e=copy.deepcopy(death);e['id']='another';self.assertFalse(binding_valid(ds[-1],e,'life_event'))
+  self.assertFalse(binding_valid(ds[-1], death, 'life_event'))
   record=next(x for x in h if x['id']=='th-wang25-86');self.assertTrue(binding_valid(ds[0],record,'start'));record=copy.deepcopy(record);record['title']='另一職';self.assertFalse(binding_valid(ds[0],record,'start'));self.assertFalse(binding_valid(ds[0],record,'end'))
   later=next(x for x in h if x['id']=='th-wang25-88');borrowed=copy.deepcopy(ds[0]);borrowed['narrative_era_scope']['event_binding']['record_id']=later['id'];self.assertFalse(binding_valid(borrowed,later,'start'))
   wrong_anchor=copy.deepcopy(ds[2]);wrong_anchor['narrative_era_scope']['event_binding']['title_anchor']=copy.deepcopy(ds[0]['narrative_era_scope']['event_binding']['title_anchor']);self.assertFalse(binding_valid(wrong_anchor,later,'start'))
