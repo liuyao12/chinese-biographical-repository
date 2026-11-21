@@ -15,9 +15,10 @@ class ApproachingAge(unittest.TestCase):
         self.a = next(a for a in self.c['annotation']['age_assertions']
                       if a.get('approximation', {}).get('kind') == 'approaching_age')
         self.p = next(p for p in self.c['paragraphs'] if p['source_position']['first_line'] == 20)
+        self.refs = self.c['annotation']['person_reference_occurrences']
 
     def test_approaching90_and_death88_are_independent_source_reports(self):
-        self.assertEqual(age_approximation_errors(self.a, self.p), [])
+        self.assertEqual(age_approximation_errors(self.a, self.p, self.refs), [])
         self.assertEqual(self.a['approximation']['target'], 90)
         self.assertIsNone(self.a['value'])
         self.assertIsNone(self.a['birth_year'])
@@ -31,10 +32,13 @@ class ApproachingAge(unittest.TestCase):
         for key, value in [('value', 90), ('bounds', {'upper': 90}), ('birth_year', 357)]:
             a = copy.deepcopy(self.a)
             a[key] = value
-            self.assertTrue(age_approximation_errors(a, self.p))
+            self.assertTrue(age_approximation_errors(a, self.p, self.refs))
         a = copy.deepcopy(self.a)
-        a['speaker_scope']['speaker_person_mention_id'] = next(m['id'] for m in self.p['mentions'] if m['surface'] == '陛下')
-        self.assertTrue(age_approximation_errors(a, self.p))
+        speech_start = a['speaker_scope']['speech_start_anchor']['end']
+        addressee = next(r for r in self.refs if r['paragraph_id'] == self.p['id']
+                        and r['start'] >= speech_start and r['surface'] == '陛下')
+        a['speaker_scope']['speaker_person_reference_id'] = addressee['id']
+        self.assertTrue(age_approximation_errors(a, self.p, self.refs))
 
     def test_plain_regnal_year_requires_explicit_omitted_era_context(self):
         date = copy.deepcopy(self.a['normalized_date'])

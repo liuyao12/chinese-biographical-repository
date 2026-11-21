@@ -28,10 +28,12 @@ class WangOfficeInventory(unittest.TestCase):
         p = next(p for p in self.song['annotation']['title_proposals'] if p['title'] == '廬陵王師')
         self.assertTrue(unassumed_appointment_valid(p, self.song))
         bad = copy.deepcopy(p)
-        bad.pop('patron_person_mention_ids')
+        bad.pop('patron_person_reference_ids')
         self.assertFalse(unassumed_appointment_valid(bad, self.song))
         bad = copy.deepcopy(p)
-        bad['patron_person_mention_ids'] = [p['person_mention_id']]
+        wrong_ref = next(r for r in self.song['annotation']['person_reference_occurrences']
+                         if r['paragraph_id'] == p['role_anchor']['paragraph_id'] and r['surface'] == '江夏王')
+        bad['patron_person_reference_ids'] = [wrong_ref['id']]
         self.assertFalse(unassumed_appointment_valid(bad, self.song))
         self.assertTrue(any(h['title'] == '江夏王師' and h['mode'] == 'grant' for h in self.song_h))
 

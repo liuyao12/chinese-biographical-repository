@@ -205,15 +205,15 @@ def unassumed_appointment_valid(proposal, chapter):
     # A named prince inside 廬陵王師 is the patron, not another appointee.
     patrons = proposal.get('patron_person_mention_ids', [])
     patron_refs = proposal.get('patron_person_reference_ids', [])
-    if patron_refs:
-        if patrons or not isinstance(patron_refs, list) or len(patron_refs) != 1:
-            return False
-        patron = next((r for r in chapter['annotation'].get('person_reference_occurrences', [])
-                       if r['id'] == patron_refs[0] and r['paragraph_id'] == p['id']), {})
-        if (not patron or patron.get('referent_role') != 'third_person'
-                or patron.get('person_id') == proposal['person_id']
-                or patron['start'] != role['start'] or patron['end'] >= role['end']
-                or role['surface'] != patron['surface'] + '師'):
+    contextual_patrons = [
+        r['id'] for r in chapter['annotation'].get('person_reference_occurrences', [])
+        if r['paragraph_id'] == p['id'] and r.get('referent_role') == 'third_person'
+        and r['person_id'] != proposal['person_id']
+        and r['start'] == role['start'] and r['end'] == role['end'] - 1
+        and role['surface'] == r['surface'] + '師'
+    ]
+    if patron_refs or contextual_patrons:
+        if patrons or len(contextual_patrons) != 1 or patron_refs != contextual_patrons:
             return False
     if (not isinstance(patrons, list) or len(set(patrons)) != len(patrons)
             or any(mid not in ms for mid in patrons)):
