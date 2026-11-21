@@ -3778,13 +3778,7 @@
       "surfaces": [
         "萬",
         "萬石",
-        "我",
-        "卿",
-        "之",
-        "其",
-        "謝萬",
-        "汝",
-        "自"
+        "謝萬"
       ],
       "scope": "same_chapter",
       "chapter_ids": [
@@ -3799,23 +3793,14 @@
           "c-jinshu-079-xielang-family:exp-xiewan-p001:m0002",
           "c-jinshu-079-xielang-family:exp-xiewan-p001:m0125",
           "c-jinshu-079-xielang-family:exp-xiewan-p001:m0134",
-          "c-jinshu-079-xielang-family:exp-xiewan-p001:m0157",
-          "c-jinshu-079-xielang-family:exp-xiewan-p001:m0168",
-          "c-jinshu-079-xielang-family:exp-xiewan-p001:m0185",
-          "c-jinshu-079-xielang-family:exp-xiewan-p002:m0023",
           "c-jinshu-079-xielang-family:exp-xiewan-p002:m0035",
           "c-jinshu-079-xielang-family:exp-xiewan-p002:m0065",
           "c-jinshu-079-xielang-family:exp-xiewan-p002:m0077",
           "c-jinshu-079-xielang-family:exp-xiewan-p002:m0128",
           "c-jinshu-079-xielang-family:exp-xiewan-p002:m0165",
-          "c-jinshu-079-xielang-family:exp-xiewan-p002:m0190",
           "c-jinshu-079-xielang-family:exp-xiewan-p003:m0000",
-          "c-jinshu-079-xielang-family:exp-xiewan-p003:m0028",
           "c-jinshu-079-xielang-family:exp-xiewan-p003:m0045",
-          "c-jinshu-079-xielang-family:exp-xiewan-p003:m0049",
           "c-jinshu-079-xielang-family:exp-xiewan-p003:m0079",
-          "c-jinshu-079-xielang-family:exp-xiewan-p003:m0112",
-          "c-jinshu-079-xielang-family:exp-xiewan-p003:m0131",
           "c-jinshu-079-xielang-family:exp-xiewan-p003:m0157"
         ]
       },
@@ -4898,6 +4883,111 @@
       ],
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-jin079-wan-yufu",
+      "person_id": "rp7_jtw_344",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-jinshu-079-xielang-family",
+        "c-shiji-084-qujia"
+      ],
+      "surfaces": [
+        "漁父"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-jinshu-079-xielang-family:exp-xiewan-p001:m0038",
+          "c-shiji-084-qujia:m011-0024"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p001",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xiewan-p001:m0038",
+          "quote": "萬字萬石，才器雋秀，雖器量不及安，而善自炫曜，故早有時譽。工言論，善屬文，敘漁父、屈原、季主、賈誼、楚老、龔勝、孫登、嵇康四隱四顯為《八賢論》，其旨以處者為優，出者為劣，以示孫綽。綽與往反，以體公識遠者則出處同歸。嘗與蔡系送客於征虜亭，與系爭言。系推萬落床，冠帽傾脫。萬徐拂衣就席，神意自若，坐定，謂系曰：「卿幾壞我面。」系曰：「本不為卿面計。」然俱不以介意，時亦以此稱之。"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-084",
+          "source_id": "s-shiji-084-qujia",
+          "chapter_id": "c-shiji-084-qujia",
+          "paragraph_id": "c-shiji-084-qujia:p011",
+          "person_mention_id": "c-shiji-084-qujia:m011-0024",
+          "quote": "屈原至於江濱，被髪行吟澤畔。顏色憔悴，形容枯槁。漁父見而問之曰：「子非三閭大夫歟？何故而至此？」屈原曰：「舉世混濁而我獨清，眾人皆醉而我獨醒，是以見放。」漁父曰：「夫聖人者，不凝滯於物而能與世推移。舉世混濁，何不隨其流而揚其波？眾人皆醉，何不餔其糟而啜其醨？何故懷瑾握瑜而自令見放為？」屈原曰：「吾聞之，新沐者必彈冠，新浴者必振衣，人又誰能以身之察察，受物之汶汶者乎？寧赴常流而葬乎江魚腹中耳，又安能以皓皓之白而蒙世俗之溫蠖乎？」"
+        }
+      ],
+      "rationale": "謝萬論「漁父、屈原」與屈原列傳江濱相問之漁父相合。兩出處同指古典敘事中的匿名角色；不補真名或真實生平。伍子胥傳漁父為另一敘事。",
+      "references": [
+        {
+          "title": "世說新語/文學",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%B8%96%E8%AA%AA%E6%96%B0%E8%AA%9E%2F%E6%96%87%E5%AD%B8&oldid=2567461",
+          "quote": "《萬集》載其敘四隱四顯，爲八賢之論，謂漁父、{{ProperNoun|屈原}}、季主、{{ProperNoun|賈誼}}、{{ProperNoun|楚老}}、{{ProperNoun|龔勝}}、{{ProperNoun|孫登}}、{{ProperNoun|嵇康}}也。"
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    },
+    {
+      "id": "d-jin079-wan-jizhu",
+      "person_id": "r8r_74l_t6d",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-jinshu-079-xielang-family",
+        "c-shiji-127-rizhe"
+      ],
+      "surfaces": [
+        "季主",
+        "司馬季主"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-jinshu-079-xielang-family:exp-xiewan-p001:m0044",
+          "c-shiji-127-rizhe:m003-0120"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xiewan-p001",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xiewan-p001:m0044",
+          "quote": "萬字萬石，才器雋秀，雖器量不及安，而善自炫曜，故早有時譽。工言論，善屬文，敘漁父、屈原、季主、賈誼、楚老、龔勝、孫登、嵇康四隱四顯為《八賢論》，其旨以處者為優，出者為劣，以示孫綽。綽與往反，以體公識遠者則出處同歸。嘗與蔡系送客於征虜亭，與系爭言。系推萬落床，冠帽傾脫。萬徐拂衣就席，神意自若，坐定，謂系曰：「卿幾壞我面。」系曰：「本不為卿面計。」然俱不以介意，時亦以此稱之。"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-127",
+          "source_id": "s-shiji127-rizhe",
+          "chapter_id": "c-shiji-127-rizhe",
+          "paragraph_id": "c-shiji-127-rizhe:p003",
+          "person_mention_id": "c-shiji-127-rizhe:m003-0120",
+          "quote": "宋忠爲中大夫，賈誼爲博士，同日俱出洗沐，相從論議，誦易先王聖人之道術，究遍人情，相視而嘆。賈誼曰：「吾聞古之聖人，不居朝廷，必在卜醫之中。今吾已見三公九卿朝士大夫，皆可知矣。試之卜數中以觀采。」二人即同輿而之市，游於卜肆中。天新雨，道少人，司馬季主閒坐，弟子三四人侍，方辯天地之道，日月之運，陰陽吉凶之本。二大夫再拜謁。司馬季主視其狀貌，如類有知者，即禮之，使弟子延之坐。坐定，司馬季主復理前語，分別天地之終始，日月星辰之紀，差次仁義之際，列吉凶之符，語數千言，莫不順理。"
+        }
+      ],
+      "rationale": "季主、賈誼相次；日者列傳賈誼與宋忠同往卜肆見司馬季主。兩處以賈誼和卜者配對，排除漢書中其他名季主者。",
+      "references": [
+        {
+          "title": "世說新語/文學",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E4%B8%96%E8%AA%AA%E6%96%B0%E8%AA%9E%2F%E6%96%87%E5%AD%B8&oldid=2567461",
+          "quote": "《萬集》載其敘四隱四顯，爲八賢之論，謂漁父、{{ProperNoun|屈原}}、季主、{{ProperNoun|賈誼}}、{{ProperNoun|楚老}}、{{ProperNoun|龔勝}}、{{ProperNoun|孫登}}、{{ProperNoun|嵇康}}也。"
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
       "model": null
     }
   ]
