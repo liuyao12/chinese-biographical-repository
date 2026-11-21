@@ -10,7 +10,67 @@
     "孔顗",
     "覬"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nan023-wangyu-m4-2-vjg_m4c_ev5",
+      "person_id": "vjg_m4c_ev5",
+      "title": "散騎常侍",
+      "kind": "office",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-nan023-wangyu-m4-2-vjg_m4c_ev5:a",
+          "person_mention_id": "c-nanshi-023-wangyu-jingwen:p004:m0026",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p004",
+          "surface": "散騎常侍",
+          "start": 2,
+          "end": 6
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-nanshi",
+              "book_id": "b-nanshi-023",
+              "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+              "chapter_id": "c-nanshi-023-wangyu-jingwen",
+              "paragraph_id": "c-nanshi-023-wangyu-jingwen:p004",
+              "quote": "上以散騎常侍舊與侍中俱掌獻替，欲高其選，以景文及會稽孔覬俱南北之望以補之。尋復為司徒左長史。以姊墓開不臨赴，免官。後拜侍中、領射聲校尉、左衛將軍，加給事中、太子中庶子。坐與奉朝請毛法因蒱戲得錢百二十萬，白衣領職。",
+              "person_mention_id": "c-nanshi-023-wangyu-jingwen:p004:m0026"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangyu-jingwen",
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p004",
+          "quote": "上以散騎常侍舊與侍中俱掌獻替，欲高其選，以景文及會稽孔覬俱南北之望以補之。尋復為司徒左長史。以姊墓開不臨赴，免官。後拜侍中、領射聲校尉、左衛將軍，加給事中、太子中庶子。坐與奉朝請毛法因蒱戲得錢百二十萬，白衣領職。",
+          "person_mention_id": "c-nanshi-023-wangyu-jingwen:p004:m0026"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -46,6 +106,41 @@
       "book_id": "b-nanshi-019",
       "chapter_id": "c-nanshi-019-xietiao",
       "source_id": "s-nanshi-019-xietiao-ws1531762",
+      "work_title": "南史"
+    },
+    {
+      "number": 23,
+      "category": "",
+      "title": "王彧（字景文）及伯父智",
+      "paragraph_id": "c-nanshi-023-wangyu-jingwen:p004",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "上以散騎常侍舊與侍中俱掌獻替，欲高其選，以景文及會稽孔覬俱南北之望以補之。尋復為司徒左長史。以姊墓開不臨赴，免官。後拜侍中、領射聲校尉、左衛將軍，加給事中、太子中庶子。坐與奉朝請毛法因蒱戲得錢百二十萬，白衣領職。",
+      "paragraph_ids": [
+        "c-nanshi-023-wangyu-jingwen:p004"
+      ],
+      "mention_ids": [
+        "c-nanshi-023-wangyu-jingwen:p004:m0026"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-023-wangyu-jingwen:p004:m0026": "c-nanshi-023-wangyu-jingwen:p004"
+      },
+      "mention_id": "c-nanshi-023-wangyu-jingwen:p004:m0026",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-023-wangyu-jingwen:p004:m0026",
+          "mention_ids": [
+            "c-nanshi-023-wangyu-jingwen:p004:m0026"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
       "work_title": "南史"
     },
     {
@@ -190,6 +285,117 @@
           "character_conversion": {},
           "extraction_note": "正文移除維基單字不轉換標記的界符，保留范、爲、尙等原字符。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+      "source": {
+        "title": "南史卷23·王彧（字景文）及伯父智",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第101至119行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                102,
+                102
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                104,
+                104
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                106,
+                106
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                108,
+                108
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                110,
+                110
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                112,
+                112
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                114,
+                114
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                116,
+                116
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                118,
+                118
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "數位王彧原題，傳首至長子絢；絢本傳自121行起。"
       }
     },
     {

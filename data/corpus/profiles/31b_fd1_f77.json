@@ -2666,6 +2666,41 @@
       "work_title": "南史"
     },
     {
+      "number": 16,
+      "category": "",
+      "title": "王玄謨傳玄載附敘",
+      "paragraph_id": "c-nanshi-016-wangxuanzai:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "玄載字彦休，玄謨從弟也。父蕤，東莞太守。玄載仕宋，位益州刺史。沈攸之之難，玄載起義，送誠于齊髙帝，封鄂縣子。齊建元元年，爲左戸尚書。永明四年，位兗州刺史，卒官。諡烈子。",
+      "paragraph_ids": [
+        "c-nanshi-016-wangxuanzai:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-016-wangxuanzai:p001:m0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-016-wangxuanzai:p001:m0006": "c-nanshi-016-wangxuanzai:p001"
+      },
+      "mention_id": "c-nanshi-016-wangxuanzai:p001:m0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-016-wangxuanzai:p001:m0006",
+          "mention_ids": [
+            "c-nanshi-016-wangxuanzai:p001:m0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-016",
+      "chapter_id": "c-nanshi-016-wangxuanzai",
+      "source_id": "s-nanshi-016-wangxuanzai-ws1963381",
+      "work_title": "南史"
+    },
+    {
       "number": 27,
       "category": "",
       "title": "王玄載傳瞻兄寬附敘",
@@ -3488,6 +3523,29 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-016-wangxuanzai",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-016",
+      "source_id": "s-nanshi-016-wangxuanzai-ws1963381",
+      "source": {
+        "title": "王玄謨傳玄載附敘",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1963381",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1963381",
+        "revision_id": 1963381,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "王玄謨傳玄載附敘",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "sources/nanshi/nanshi016-ws1963381.wikitext",
+        "raw_file_sha256": "8a252b3dacfcc3037062a5dab71748ee1d5c39a94f99ea9e61474b3fa9639ab3"
+      }
+    },
+    {
       "chapter_id": "c-songshu-008-xuanmo-death",
       "work_id": "w-songshu",
       "book_id": "b-songshu-008",
@@ -3783,6 +3841,40 @@
       "human_reviewed": false
     },
     {
+      "id": "a-xuanmo-zaidi",
+      "subject_person_id": "85g_yq3_0w6_AA",
+      "object_person_id": "31b_fd1_f77",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "玄謨從弟也",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-016",
+          "chapter_id": "c-nanshi-016-wangxuanzai",
+          "source_id": "s-nanshi-016-wangxuanzai-ws1963381",
+          "paragraph_id": "c-nanshi-016-wangxuanzai:p001",
+          "quote": "玄載字彦休，玄謨從弟也。父蕤，東莞太守。玄載仕宋，位益州刺史。沈攸之之難，玄載起義，送誠于齊髙帝，封鄂縣子。齊建元元年，爲左戸尚書。永明四年，位兗州刺史，卒官。諡烈子。",
+          "subject_person_mention_id": "c-nanshi-016-wangxuanzai:p001:m0000",
+          "object_person_mention_id": "c-nanshi-016-wangxuanzai:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南16稱玄載為玄謨從弟，與齊27前文相反。不立共同祖先或精確親等。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-xuanmo-song-shen-father",
       "subject_person_id": "31b_fd1_f77_A",
       "object_person_id": "31b_fd1_f77",
@@ -3968,6 +4060,7 @@
     "31b_fd1_f77_B": "王寬（王玄謨子）",
     "31b_fd1_f77_C": "王瞻（字明遠，一字叔鸞，王玄謨子）",
     "478_jd5_wwe": "王宏（王玄謨自敍六世祖）",
+    "85g_yq3_0w6_AA": "王玄載（字彥休）",
     "94x_2iu_gsm": "王玄象（王玄謨從弟）",
     "esz_wjp_l0u": "王蕤（王玄謨世父）",
     "y73_ysx_y5x": "王牢（王玄謨祖）",
@@ -6068,6 +6161,40 @@
       ],
       "status": "source_attested",
       "interpretation_note": "從弟是父系同輩旁親、玄象居少；原文不明共同祖先、父名或精確親等。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-xuanmo-zaidi",
+      "subject_person_id": "85g_yq3_0w6_AA",
+      "object_person_id": "31b_fd1_f77",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "玄謨從弟也",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-016",
+          "chapter_id": "c-nanshi-016-wangxuanzai",
+          "source_id": "s-nanshi-016-wangxuanzai-ws1963381",
+          "paragraph_id": "c-nanshi-016-wangxuanzai:p001",
+          "quote": "玄載字彦休，玄謨從弟也。父蕤，東莞太守。玄載仕宋，位益州刺史。沈攸之之難，玄載起義，送誠于齊髙帝，封鄂縣子。齊建元元年，爲左戸尚書。永明四年，位兗州刺史，卒官。諡烈子。",
+          "subject_person_mention_id": "c-nanshi-016-wangxuanzai:p001:m0000",
+          "object_person_mention_id": "c-nanshi-016-wangxuanzai:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南16稱玄載為玄謨從弟，與齊27前文相反。不立共同祖先或精確親等。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false

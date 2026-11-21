@@ -11,7 +11,8 @@
     "高祖",
     "帝",
     "朕",
-    "陛下"
+    "陛下",
+    "魏孝文皇帝"
   ],
   "titles": [
     {
@@ -64,6 +65,41 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 5,
+      "category": "",
+      "title": "東昏侯本紀所記太子誦與黃貴嬪",
+      "paragraph_id": "c-nanshi-005-song-emperor-and-mother:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "夏四月丙午朔，魏孝文皇帝崩。己巳，立皇子誦為皇太子，大赦，賜為父後者爵一級。",
+      "paragraph_ids": [
+        "c-nanshi-005-song-emperor-and-mother:p002"
+      ],
+      "mention_ids": [
+        "c-nanshi-005-song-emperor-and-mother:p002:m0007"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-005-song-emperor-and-mother:p002:m0007": "c-nanshi-005-song-emperor-and-mother:p002"
+      },
+      "mention_id": "c-nanshi-005-song-emperor-and-mother:p002:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-005-song-emperor-and-mother:p002:m0007",
+          "mention_ids": [
+            "c-nanshi-005-song-emperor-and-mother:p002:m0007"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-005",
+      "chapter_id": "c-nanshi-005-song-emperor-and-mother",
+      "source_id": "s-nanshi-005-song-emperor-and-mother-ws2027696",
+      "work_title": "南史"
+    },
     {
       "number": 21,
       "category": "",
@@ -583,6 +619,34 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "依固定修訂原始 wikitext 逐碼點定位。正文移出 ref 校記、分段標題與段間換行。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-005-song-emperor-and-mother",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-005",
+      "source_id": "s-nanshi-005-song-emperor-and-mother-ws2027696",
+      "source": {
+        "title": "東昏侯本紀所記太子誦與黃貴嬪",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2027696",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2027696",
+        "revision_id": 2027696,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂",
+        "extent": "固定原始檔第124、138、198行所引原句。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "東昏侯本紀所記太子誦與黃貴嬪",
+        "raw_path": "source-evidence/qi020-chulingqu/ws2027696.wikitext",
+        "raw_file_sha256": "af8387bb9e9b512cf1762d50502f1da2d79128e759128314322c107df6ab2065",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "各字保存固定修訂原位，分開正文、數位版校勘與按語。"
         }
       }
     },
