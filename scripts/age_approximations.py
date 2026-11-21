@@ -2,7 +2,7 @@
 """Source-bound adjacent age numerals; never convert approximations to bounds."""
 DIGITS = '一二三四五六七八九'
 
-def age_approximation_errors(age, paragraph):
+def age_approximation_errors(age, paragraph, references=()):
     subject_scope = age.get('subject_scope')
     subject_kind = subject_scope.get('kind') if isinstance(subject_scope, dict) else None
     if subject_kind == 'narrated_age_between_head_and_action':
@@ -59,6 +59,12 @@ def age_approximation_errors(age, paragraph):
     scope = age.get('speaker_scope', {})
     ms = {m['id']: m for m in paragraph.get('mentions', [])}
     speaker = ms.get(scope.get('speaker_person_mention_id'), {})
+    if 'speaker_person_reference_id' in scope:
+        if 'speaker_person_mention_id' in scope:
+            return ['自報歲數的發言應用單一錨點']
+        speaker = next((r for r in references if r.get('paragraph_id') == paragraph['id']
+                        and r.get('id') == scope['speaker_person_reference_id']
+                        and r.get('referent_role') == 'speaker_self'), {})
     anchor = scope.get('speech_start_anchor', {})
     text = paragraph['text']
     start, end = anchor.get('start'), anchor.get('end')

@@ -985,6 +985,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-song060-wangzhunzhi-75-202-靈",
+      "person_id": "aa6_83c_juy_CDAA",
+      "title": "世子右衞率",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-song060-wangzhunzhi-75-202-靈:a",
+          "paragraph_id": "c-songshu-060-wangzhunzhi:p002",
+          "start": 202,
+          "end": 207,
+          "surface": "世子右衞率",
+          "person_mention_id": "c-songshu-060-wangzhunzhi:p002:m0207",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-060",
+          "chapter_id": "c-songshu-060-wangzhunzhi",
+          "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
+          "paragraph_id": "c-songshu-060-wangzhunzhi:p002",
+          "quote": "准之兼明禮傳，贍於文辭。起家為本國右常侍，桓玄大將軍行參軍。玄篡位，以為尚書祠部郎。義熙初，又為尚書中兵郎，遷參高祖車騎中軍軍事，丹陽丞，中軍太尉主簿，出為山陰令，有能名。預討盧循功，封都亭侯。又為高祖鎮西、平北、太尉參軍，尚書左丞，本郡大中正。宋臺建，除御史中丞，為僚友所憚。准之父訥之、祖臨之、曾祖彪之至准之，四世居此職。准之嘗作五言，范泰謿之曰：「卿唯解彈事耳。」准之正色答：「猶差卿世載雄狐。」坐世子右衞率謝靈運殺人不舉免官。",
+          "person_mention_id": "c-songshu-060-wangzhunzhi:p002:m0207"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -2352,6 +2400,41 @@
       "book_id": "b-songshu-058",
       "chapter_id": "c-songshu-058-xiehongwei",
       "source_id": "s-songshu-058-xiehongwei",
+      "work_title": "宋書"
+    },
+    {
+      "number": 60,
+      "category": "",
+      "title": "王准之傳及子興之",
+      "paragraph_id": "c-songshu-060-wangzhunzhi:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "謿之曰：「卿唯解彈事耳。」准之正色答：「猶差卿世載雄狐。」坐世子右衞率謝靈運殺人不舉免官。",
+      "paragraph_ids": [
+        "c-songshu-060-wangzhunzhi:p002"
+      ],
+      "mention_ids": [
+        "c-songshu-060-wangzhunzhi:p002:m0207"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-060-wangzhunzhi:p002:m0207": "c-songshu-060-wangzhunzhi:p002"
+      },
+      "mention_id": "c-songshu-060-wangzhunzhi:p002:m0207",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-060-wangzhunzhi:p002:m0207",
+          "mention_ids": [
+            "c-songshu-060-wangzhunzhi:p002:m0207"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-060",
+      "chapter_id": "c-songshu-060-wangzhunzhi",
+      "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
       "work_title": "宋書"
     },
     {
@@ -9858,6 +9941,35 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-060-wangzhunzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-060",
+      "source_id": "s-songshu-060-wangzhunzhi-ws1996694",
+      "source": {
+        "provider": "Wikisource",
+        "rights": "古代正文與維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "text_scope": "complete_biography_unit",
+        "accessed_on": "2026-11-20",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "title": "宋書卷六十·王准之傳及子興之",
+        "extent": "逐讀第72行分題至第81行分題前。",
+        "section_locator": "==王准之==",
+        "revision_id": 1996694,
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1996694",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1996694",
+        "raw_path": "sources/songshu/songshu060-ws1996694.wikitext",
+        "raw_file_sha256": "a9b03405240b25c24c2fa2b999e921483d7c1d78a3ed6f1eb1807a289bf02a97",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原文字位逐一對固定原檔，本文排除校勘註、連結目標及紀年模板的界符；校勘說另列。"
+        },
+        "wikitext_sha256": "a9b03405240b25c24c2fa2b999e921483d7c1d78a3ed6f1eb1807a289bf02a97",
+        "edition": "維基文庫固定修訂1996694，武英殿本書影逐項參記。"
       }
     },
     {

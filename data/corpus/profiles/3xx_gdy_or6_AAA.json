@@ -71,6 +71,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w098-dun-early-21",
+      "person_id": "3xx_gdy_or6_AAA",
+      "title": "荊州刺史",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:line015",
+          "quote": "蜀賊杜弢作亂，荊州刺史周顗退走，敦遣武昌太守陶侃、豫章太守周訪等討韜，而敦進住豫章，為諸軍繼援。及侃破弢，敦上侃為荊州刺史。既而侃為弢將杜曾所敗，敦以處分失所，自貶為廣武將軍，帝不許。侃之滅弢也，敦以元帥進鎮東大將軍、開府儀同三司，加都督江揚荊湘交廣六州諸軍事、江州刺史，封漢安侯。敦始自選置，兼統州郡焉。頃之，杜弢將杜弘南走廣州，求討桂林賊自效，敦許之。陶侃距弘不得進，乃詣零陵太守尹奉降，奉送弘與敦，敦以為將，遂見寵待。南康人何欽所居險固，聚黨數千人，敦就加四品將軍，於是專擅之跡漸彰矣。",
+          "person_mention_id": "c-jinshu-098-jin033-wangji:line015:m0011"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-dun-early-21:a",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:line015",
+          "start": 7,
+          "end": 11,
+          "surface": "荊州刺史",
+          "person_mention_id": "c-jinshu-098-jin033-wangji:line015:m0011",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -1602,6 +1650,51 @@
       "book_id": "b-jinshu-080",
       "chapter_id": "c-jinshu-080-wangxizhi-family",
       "source_id": "s-jinshu-080-wangxizhi-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 98,
+      "category": "",
+      "title": "晉書卷九十八·王敦傳",
+      "paragraph_id": "c-jinshu-098-jin033-wangji:line015",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "蜀賊杜弢作亂，荊州刺史周顗退走，敦遣武昌太守陶侃、豫章太守周訪等討韜，而敦進住豫章，為諸軍繼援。及侃破弢，敦上侃為荊州刺史。既而侃為弢將杜曾所敗，敦以處分失所，自貶為廣武將軍，帝不許。侃之滅弢也，敦以元帥進鎮東大將軍、開府儀同",
+      "paragraph_ids": [
+        "c-jinshu-098-jin033-wangji:line015",
+        "c-jinshu-098-jin033-wangji:line045"
+      ],
+      "mention_ids": [
+        "c-jinshu-098-jin033-wangji:line015:m0011",
+        "c-jinshu-098-jin033-wangji:line045:m0157"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-098-jin033-wangji:line015:m0011": "c-jinshu-098-jin033-wangji:line015",
+        "c-jinshu-098-jin033-wangji:line045:m0157": "c-jinshu-098-jin033-wangji:line045"
+      },
+      "mention_id": "c-jinshu-098-jin033-wangji:line015:m0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-098-jin033-wangji:line015:m0011",
+          "mention_ids": [
+            "c-jinshu-098-jin033-wangji:line015:m0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-098-jin033-wangji:line045:m0157",
+          "mention_ids": [
+            "c-jinshu-098-jin033-wangji:line045:m0157"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "source_id": "s-jinshu-098-jin033-wangji",
       "work_title": "晉書"
     }
   ],
@@ -3841,6 +3934,35 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-098-jin033-wangji",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "source_id": "s-jinshu-098-jin033-wangji",
+      "source": {
+        "title": "晉書卷九十八",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2614273",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2614273",
+        "revision_id": 2614273,
+        "accessed_on": "2026-10-18",
+        "extent": "卷九十八王敦題下完整傳文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂2614273原文，國圖乾隆四年武英殿刊本對讀。",
+        "wikitext_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "raw_path": "sources/jinshu/wikisource-2614273-raw.wikitext",
+        "raw_file_sha256": "019eb1b16d5b12d4fac53fe1c94cb23ef4794434faa88ce8222576f948f4ca36",
+        "collation_witnesses": [
+          "source-evidence/jin098-wang-han-ying/reading.json",
+          "source-evidence/jin098-wangdun-early/reading.json",
+          "source-evidence/jin098-wangdun-main/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-nanshi-022-wangsengchuo",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-022",
@@ -5184,6 +5306,29 @@
         }
       ],
       "interpretation_note": "只記原段明示死亡；先是等回述不強定同年，不由官名推卒地，不把詐報殺害當死亡事實。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-w098-dun-zhouyi",
+      "person_id": "3xx_gdy_or6_AAA",
+      "event_type": "death",
+      "source_term": "敦收周顗、戴若思害之",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:line045",
+          "quote": "敦至石頭，欲攻劉隗，其將杜弘曰：「劉隗死士眾多，未易可克，不如攻石頭。周劄少恩，兵不為用，攻之必敗。劄敗，則隗自走。」敦從之。劄果開城門納弘。諸將與敦戰，王師敗績。既入石頭，擁兵不朝，放肆兵士劫掠內外。官省奔散，惟有侍中二人侍帝。帝脫戎衣，著朝服，顧而言曰：「欲得我處，但當早道，我自還琅邪，何至困百姓如此！」敦收周顗、戴若思害之。以敦為丞相、江州牧，進爵武昌郡公，邑萬戶，使太常荀崧就拜，又加羽葆鼓吹，並偽讓不受。還屯武昌，多害忠良，寵樹親戚，以兄含為衛將軍、都督沔南軍事、領南蠻校尉、荊州刺史，以義陽太守任愔督河北諸軍事、南中郎將，敦又自督寧、益二州。",
+          "person_mention_id": "c-jinshu-098-jin033-wangji:line045:m0157"
+        }
+      ],
+      "interpretation_note": "依本來源登記。",
+      "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

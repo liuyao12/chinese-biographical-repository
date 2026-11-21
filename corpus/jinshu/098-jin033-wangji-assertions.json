@@ -135,6 +135,131 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-w098-dun-early-marriage",
+      "subject_person_id": "39o_b6y_n74",
+      "object_person_id": "hgm_jvn_hle_A",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "尚武帝女襄城公主"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:head",
+          "quote": "王敦，字處仲，司徒導之從父兄也。父基，治書侍御史。敦少有奇人之目，尚武帝女襄城公主，拜駙馬都尉，除太子舍人。時王愷、石崇以豪侈相尚，愷嘗置酒，敦與導俱在坐，有女伎吹笛小失聲韻，愷便驅殺之，一坐改容，敦神色自若。他日，又造愷，愷使美人行酒，以客飲不盡，輒殺之。酒至敦、導所，敦故不肯持，美人悲懼失色，而敦傲然不視。導素不能飲，恐行酒者得罪，遂勉強盡觴。導還，歎曰：「處仲若當世，心懷剛忍，非令終也。」洗馬潘滔見敦而目之曰：「處仲蜂目已露，但豺聲未振，若不噬人，亦當為人所噬。」及太子遷許昌，詔東宮官屬不得送。敦及洗馬江統、潘滔，舍人杜蕤、魯瑤等，冒禁于路側望拜流涕，時論稱之。遷給事黃門侍郎。",
+          "subject_person_mention_id": "c-jinshu-098-jin033-wangji:head:m0025",
+          "object_person_mention_id": "c-jinshu-098-jin033-wangji:head:m0037"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-dun-early-princess",
+      "subject_person_id": "hgm_jvn_hle_A",
+      "object_person_id": "hgm_jvn_hle",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "武帝女襄城公主"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:head",
+          "quote": "王敦，字處仲，司徒導之從父兄也。父基，治書侍御史。敦少有奇人之目，尚武帝女襄城公主，拜駙馬都尉，除太子舍人。時王愷、石崇以豪侈相尚，愷嘗置酒，敦與導俱在坐，有女伎吹笛小失聲韻，愷便驅殺之，一坐改容，敦神色自若。他日，又造愷，愷使美人行酒，以客飲不盡，輒殺之。酒至敦、導所，敦故不肯持，美人悲懼失色，而敦傲然不視。導素不能飲，恐行酒者得罪，遂勉強盡觴。導還，歎曰：「處仲若當世，心懷剛忍，非令終也。」洗馬潘滔見敦而目之曰：「處仲蜂目已露，但豺聲未振，若不噬人，亦當為人所噬。」及太子遷許昌，詔東宮官屬不得送。敦及洗馬江統、潘滔，舍人杜蕤、魯瑤等，冒禁于路側望拜流涕，時論稱之。遷給事黃門侍郎。",
+          "subject_person_mention_id": "c-jinshu-098-jin033-wangji:head:m0037",
+          "object_person_mention_id": "c-jinshu-098-jin033-wangji:head:m0034"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-dun-early-cousin",
+      "subject_person_id": "7r6_k52_qji_ABAA",
+      "object_person_id": "39o_b6y_n74",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "司徒導之從父兄也",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "39o_b6y_n74",
+          "younger_person_id": "7r6_k52_qji_ABAA",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:head",
+          "quote": "王敦，字處仲，司徒導之從父兄也。父基，治書侍御史。敦少有奇人之目，尚武帝女襄城公主，拜駙馬都尉，除太子舍人。時王愷、石崇以豪侈相尚，愷嘗置酒，敦與導俱在坐，有女伎吹笛小失聲韻，愷便驅殺之，一坐改容，敦神色自若。他日，又造愷，愷使美人行酒，以客飲不盡，輒殺之。酒至敦、導所，敦故不肯持，美人悲懼失色，而敦傲然不視。導素不能飲，恐行酒者得罪，遂勉強盡觴。導還，歎曰：「處仲若當世，心懷剛忍，非令終也。」洗馬潘滔見敦而目之曰：「處仲蜂目已露，但豺聲未振，若不噬人，亦當為人所噬。」及太子遷許昌，詔東宮官屬不得送。敦及洗馬江統、潘滔，舍人杜蕤、魯瑤等，冒禁于路側望拜流涕，時論稱之。遷給事黃門侍郎。",
+          "subject_person_mention_id": "c-jinshu-098-jin033-wangji:head:m0009",
+          "object_person_mention_id": "c-jinshu-098-jin033-wangji:head:m0000"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-dun-early-yan",
+      "subject_person_id": "39o_b6y_n74",
+      "object_person_id": "7r6_k52_qji_ABE",
+      "predicate": "paternal_uncle",
+      "qualifiers": {
+        "source_term": "敦叔父彥",
+        "source_clause_binding": {
+          "kind": "adjacent_named_nephew_paternal_uncle",
+          "subject_person_mention_id": "c-jinshu-098-jin033-wangji:line013:m0006",
+          "object_person_mention_id": "c-jinshu-098-jin033-wangji:line013:m0009"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-jin033-wangji",
+          "source_id": "s-jinshu-098-jin033-wangji",
+          "paragraph_id": "c-jinshu-098-jin033-wangji:line013",
+          "quote": "趙王倫篡位，敦叔父彥為兗州刺史，倫遣敦慰勞之。會諸王起義兵；彥被齊王冏檄，懼倫兵強，不敢應命，敦勸彥起兵應諸王，故彥遂立勳績。惠帝反正，敦遷散騎常侍、左衛將軍、大鴻臚、侍中，出除廣武將軍、青州刺史。永嘉初，徵為中書監。于時天下大亂，敦悉以公主時侍婢百餘人配給將士，金銀寶物散之於眾，單車還洛。東海王越自滎陽來朝，敦謂所親曰：「今威權悉在太傅，而選用表情，尚書猶以舊制裁之，太傅今至，必有誅罰。」俄而越收中書令繆播等十餘人殺之。越以敦為揚州刺史，潘滔說越曰：「今樹處仲于江外，使其肆豪強之心，是見賊也。」越不從。其後徵拜尚書，不就。元帝召為安東軍諮祭酒。會揚州刺史劉陶卒，帝復以敦為揚州刺史，加廣武將軍。尋進左將軍、都督征討諸軍事、假節。帝初鎮江東，威名未著，敦與從弟導等同心翼戴，以隆中興，時人為之語曰：「王與馬，共天下。」尋與甘卓等討江州刺史華軼，斬之。",
+          "subject_person_mention_id": "c-jinshu-098-jin033-wangji:line013:m0006",
+          "object_person_mention_id": "c-jinshu-098-jin033-wangji:line013:m0009"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

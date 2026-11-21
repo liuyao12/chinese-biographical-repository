@@ -1,0 +1,70 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-023-wangmao",
+  "assertions": [
+    {
+      "id": "a-nan023-wangmao-zao-older",
+      "subject_person_id": "7r6_k52_qji_ABAACAABC",
+      "object_person_id": "7r6_k52_qji_ABAACAABB",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "藻弟懋",
+        "nan023_wangmao_reading": "zao-older",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAACAABB",
+          "younger_person_id": "7r6_k52_qji_ABAACAABC",
+          "scope": "siblings",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangmao-ws2478204",
+          "chapter_id": "c-nanshi-023-wangmao",
+          "paragraph_id": "c-nanshi-023-wangmao:p001",
+          "quote": "藻弟懋字昌業，光祿大夫，封南鄉侯。懋子瑩。",
+          "subject_person_mention_id": "c-nanshi-023-wangmao:p001:m0002",
+          "object_person_mention_id": "c-nanshi-023-wangmao:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "王懋是王藻之弟。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangmao-ying-mao",
+      "subject_person_id": "7r6_k52_qji_ABAACAABCA",
+      "object_person_id": "7r6_k52_qji_ABAACAABC",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "懋子瑩",
+        "nan023_wangmao_reading": "ying-mao",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangmao-ws2478204",
+          "chapter_id": "c-nanshi-023-wangmao",
+          "paragraph_id": "c-nanshi-023-wangmao:p001",
+          "quote": "藻弟懋字昌業，光祿大夫，封南鄉侯。懋子瑩。",
+          "subject_person_mention_id": "c-nanshi-023-wangmao:p001:m0019",
+          "object_person_mention_id": "c-nanshi-023-wangmao:p001:m0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "懋子瑩與梁書卷十六瑩傳父懋互證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

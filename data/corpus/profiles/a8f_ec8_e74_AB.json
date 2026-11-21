@@ -2813,6 +2813,88 @@
     {
       "number": 96,
       "category": "",
+      "title": "王渾妻鍾氏傳（乾隆武英殿本）",
+      "paragraph_id": "c-jinshu-096-zhongyan-wyd:p001",
+      "count": 6,
+      "raw_count": 6,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王渾妻鍾氏字琰潁川人魏太傅繇曾孫也父徽黃門郎琰數歲能屬文及長聰慧弘雅博覽記籍美容止善嘯詠禮儀法度為中表所則既適渾生濟",
+      "paragraph_ids": [
+        "c-jinshu-096-zhongyan-wyd:p001",
+        "c-jinshu-096-zhongyan-wyd:p002",
+        "c-jinshu-096-zhongyan-wyd:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-096-zhongyan-wyd:p001:m0000",
+        "c-jinshu-096-zhongyan-wyd:p001:m0055",
+        "c-jinshu-096-zhongyan-wyd:p002:m0000",
+        "c-jinshu-096-zhongyan-wyd:p002:m0010",
+        "c-jinshu-096-zhongyan-wyd:p002:m0043",
+        "c-jinshu-096-zhongyan-wyd:p003:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-096-zhongyan-wyd:p001:m0000": "c-jinshu-096-zhongyan-wyd:p001",
+        "c-jinshu-096-zhongyan-wyd:p001:m0055": "c-jinshu-096-zhongyan-wyd:p001",
+        "c-jinshu-096-zhongyan-wyd:p002:m0000": "c-jinshu-096-zhongyan-wyd:p002",
+        "c-jinshu-096-zhongyan-wyd:p002:m0010": "c-jinshu-096-zhongyan-wyd:p002",
+        "c-jinshu-096-zhongyan-wyd:p002:m0043": "c-jinshu-096-zhongyan-wyd:p002",
+        "c-jinshu-096-zhongyan-wyd:p003:m0000": "c-jinshu-096-zhongyan-wyd:p003"
+      },
+      "mention_id": "c-jinshu-096-zhongyan-wyd:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-096-zhongyan-wyd:p001:m0000",
+          "mention_ids": [
+            "c-jinshu-096-zhongyan-wyd:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-096-zhongyan-wyd:p001:m0055",
+          "mention_ids": [
+            "c-jinshu-096-zhongyan-wyd:p001:m0055"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-096-zhongyan-wyd:p002:m0000",
+          "mention_ids": [
+            "c-jinshu-096-zhongyan-wyd:p002:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-096-zhongyan-wyd:p002:m0010",
+          "mention_ids": [
+            "c-jinshu-096-zhongyan-wyd:p002:m0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-096-zhongyan-wyd:p002:m0043",
+          "mention_ids": [
+            "c-jinshu-096-zhongyan-wyd:p002:m0043"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-096-zhongyan-wyd:p003:m0000",
+          "mention_ids": [
+            "c-jinshu-096-zhongyan-wyd:p003:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-096",
+      "chapter_id": "c-jinshu-096-zhongyan-wyd",
+      "source_id": "s-jinshu-096-zhong-wyd1916",
+      "work_title": "晉書"
+    },
+    {
+      "number": 96,
+      "category": "",
       "title": "列女傳·列傳第六十六",
       "paragraph_id": "c-jinshu-096-lienv:zhongyan-mother:p001",
       "count": 6,
@@ -16591,7 +16673,36 @@
             }
           ]
         },
-        "quality_note": "荀灌兵數本見證作數千，現代論文引作數十；只記見證差異，保留原字，未親核論文所報印本。詳見docs/source-reviews/jinshu096-xunguan-force-count.json。"
+        "quality_note": "荀灌所率，固定數位本作數千；國圖藏商務影印殿本九上第二欄作數十，《通鑑》卷八十九亦作數十。早先報告所引其他印本仍依其原收據。",
+        "raw_path": "source-evidence/jin079-yi-shi-miao/external/jin096-ws2625341.wikitext",
+        "raw_file_sha256": "2a30a87df259042f1f5d783dd7b9674ff174208aae03383fad28ab3c88dbabb5"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-096-zhongyan-wyd",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-096",
+      "source_id": "s-jinshu-096-zhong-wyd1916",
+      "source": {
+        "title": "武英殿本《晉書》卷九十六王渾妻鍾氏",
+        "provider": "日本永青文庫捐贈、中國國家圖書館藏商務印書館影印本，Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/NLC016-HWRB201817005-3297_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC24%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=979438884",
+        "revision_id": "cbr-ai-transcription-sha256:e3f85ab24772f58e5e2db1a9e8c9c8085493fe8ae46082be1771111997bc5320",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/jin096-zhong-and-guan/zhong/wyd-columns.txt",
+        "raw_file_sha256": "e3f85ab24772f58e5e2db1a9e8c9c8085493fe8ae46082be1771111997bc5320",
+        "edition": "民國五年上海商務印書館影印清乾隆武英殿本《晉書》第24冊",
+        "extent": "三下第十欄至四下第二欄（PDF第45至46面），三下第九欄題王渾妻鍾氏。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC016-HWRB201817005-3297_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC24%E5%86%8A.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依影印本從右至左按欄轉寫。字形異於數位本處逐一繫原欄。"
+        }
       }
     },
     {
@@ -16895,6 +17006,138 @@
       "model": null
     },
     {
+      "id": "a-jin096-zhong-8",
+      "subject_person_id": "a8f_ec8_e74_AB",
+      "predicate": "brother",
+      "object_person_id": "ajd_ovg_u3y",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-lienv",
+          "chapter_id": "c-jinshu-096-lienv",
+          "paragraph_id": "c-jinshu-096-lienv:zhongyan-mother:p002",
+          "quote": "渾嘗共琰坐，濟趨庭而過，渾欣然曰：「生子如此，足慰人心。」琰笑曰：「若使新婦得配參軍，生子故不翅如此。」參軍，謂渾中弟淪也。琰女亦有才淑，為求賢夫。時有兵家子甚俊，濟欲妻之，白琰，琰曰：「要令我見之。」濟令此兵與群小雜處，琰自幃中察之，既而謂濟曰：「緋衣者非汝所拔乎？」濟曰：「是。」琰曰：「此人才足拔萃，然地寒壽促，不足展其器用，不可與婚。」遂止。其人數年果亡。琰明鑒遠識，皆此類也。",
+          "subject_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p002:m0000",
+          "object_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p002:m0059"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "渾中弟淪",
+        "object_relative_age": "younger"
+      },
+      "interpretation_note": "淪為渾弟，中弟保留原稱。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-zhong-9",
+      "subject_person_id": "a8f_ec8_e74_AB",
+      "predicate": "brother",
+      "object_person_id": "a8f_ec8_e74_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-lienv",
+          "chapter_id": "c-jinshu-096-lienv",
+          "paragraph_id": "c-jinshu-096-lienv:zhongyan-mother:p003",
+          "quote": "渾弟湛妻郝氏亦有德行，琰雖貴門，與郝雅相親重，郝不以賤下琰，琰不以貴陵郝，時人稱「鐘夫人之禮，郝夫人之法」云。",
+          "subject_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p003:m0000",
+          "object_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p003:m0002"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "渾弟湛",
+        "object_relative_age": "younger"
+      },
+      "interpretation_note": "湛為渾弟。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jinshu096-xunsong-003-wyd",
+      "subject_person_id": "d9z_0o2_i51",
+      "predicate": "spouse",
+      "object_person_id": "a8f_ec8_e74_AB",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-zhong-wyd1916",
+          "chapter_id": "c-jinshu-096-zhongyan-wyd",
+          "paragraph_id": "c-jinshu-096-zhongyan-wyd:p001",
+          "quote": "王渾妻鍾氏字琰潁川人魏太傅繇曾孫也父徽黃門郎琰數歲能屬文及長聰慧弘雅博覽記籍美容止善嘯詠禮儀法度為中表所則既適渾生濟"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "既適渾"
+      },
+      "interpretation_note": "依原句及本傳敘述保存；不補未載日期、婚姻、母親本名或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-zhong-8-wyd",
+      "subject_person_id": "a8f_ec8_e74_AB",
+      "predicate": "brother",
+      "object_person_id": "ajd_ovg_u3y",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-zhong-wyd1916",
+          "chapter_id": "c-jinshu-096-zhongyan-wyd",
+          "paragraph_id": "c-jinshu-096-zhongyan-wyd:p002",
+          "quote": "渾嘗共琰坐濟趨庭而過渾欣然曰生子如此足慰人心琰笑曰若使新婦得配參軍生子故不翅如此參軍謂渾中弟淪也琰女亦有才淑為求賢夫時有兵家子甚俊濟欲妻之白琰琰曰要令我見之濟令此兵與羣小雜處琰自幃中察之既而謂濟曰緋衣者非汝所拔乎濟曰是琰曰此人才足拔萃然地寒壽促不足展其器用不可與婚遂止其人數年果亡琰明鑒遠識皆此類也",
+          "subject_person_mention_id": "c-jinshu-096-zhongyan-wyd:p002:m0000",
+          "object_person_mention_id": "c-jinshu-096-zhongyan-wyd:p002:m0046"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "渾中弟淪",
+        "object_relative_age": "younger"
+      },
+      "interpretation_note": "淪為渾弟，中弟保留原稱。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-zhong-9-wyd",
+      "subject_person_id": "a8f_ec8_e74_AB",
+      "predicate": "brother",
+      "object_person_id": "a8f_ec8_e74_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-zhong-wyd1916",
+          "chapter_id": "c-jinshu-096-zhongyan-wyd",
+          "paragraph_id": "c-jinshu-096-zhongyan-wyd:p003",
+          "quote": "渾弟湛妻郝氏亦有德行琰雖貴門與郝雅相親重郝不以賤下琰琰不以貴陵郝時人稱鍾夫人之禮郝夫人之法云",
+          "subject_person_mention_id": "c-jinshu-096-zhongyan-wyd:p003:m0000",
+          "object_person_mention_id": "c-jinshu-096-zhongyan-wyd:p003:m0002"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "渾弟湛",
+        "object_relative_age": "younger"
+      },
+      "interpretation_note": "湛為渾弟。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-sanguozhi027-wangchang-003",
       "subject_person_id": "a8f_ec8_e74_AB",
       "predicate": "father",
@@ -16955,6 +17198,7 @@
     "a8f_ec8_e74_ABA": "王尚",
     "a8f_ec8_e74_ABB": "王濟",
     "a8f_ec8_e74_ABC": "王澄〔王濟弟〕",
+    "ajd_ovg_u3y": "淪〔王渾中弟〕",
     "d9z_0o2_i51": "鍾氏（字琰）"
   },
   "dates": [
@@ -17336,6 +17580,138 @@
         "source_term": "既適渾"
       },
       "interpretation_note": "依原句及本傳敘述保存；不補未載日期、婚姻、母親本名或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-zhong-8",
+      "subject_person_id": "a8f_ec8_e74_AB",
+      "predicate": "brother",
+      "object_person_id": "ajd_ovg_u3y",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-lienv",
+          "chapter_id": "c-jinshu-096-lienv",
+          "paragraph_id": "c-jinshu-096-lienv:zhongyan-mother:p002",
+          "quote": "渾嘗共琰坐，濟趨庭而過，渾欣然曰：「生子如此，足慰人心。」琰笑曰：「若使新婦得配參軍，生子故不翅如此。」參軍，謂渾中弟淪也。琰女亦有才淑，為求賢夫。時有兵家子甚俊，濟欲妻之，白琰，琰曰：「要令我見之。」濟令此兵與群小雜處，琰自幃中察之，既而謂濟曰：「緋衣者非汝所拔乎？」濟曰：「是。」琰曰：「此人才足拔萃，然地寒壽促，不足展其器用，不可與婚。」遂止。其人數年果亡。琰明鑒遠識，皆此類也。",
+          "subject_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p002:m0000",
+          "object_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p002:m0059"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "渾中弟淪",
+        "object_relative_age": "younger"
+      },
+      "interpretation_note": "淪為渾弟，中弟保留原稱。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-zhong-9",
+      "subject_person_id": "a8f_ec8_e74_AB",
+      "predicate": "brother",
+      "object_person_id": "a8f_ec8_e74_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-lienv",
+          "chapter_id": "c-jinshu-096-lienv",
+          "paragraph_id": "c-jinshu-096-lienv:zhongyan-mother:p003",
+          "quote": "渾弟湛妻郝氏亦有德行，琰雖貴門，與郝雅相親重，郝不以賤下琰，琰不以貴陵郝，時人稱「鐘夫人之禮，郝夫人之法」云。",
+          "subject_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p003:m0000",
+          "object_person_mention_id": "c-jinshu-096-lienv:zhongyan-mother:p003:m0002"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "渾弟湛",
+        "object_relative_age": "younger"
+      },
+      "interpretation_note": "湛為渾弟。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jinshu096-xunsong-003-wyd",
+      "subject_person_id": "d9z_0o2_i51",
+      "predicate": "spouse",
+      "object_person_id": "a8f_ec8_e74_AB",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-zhong-wyd1916",
+          "chapter_id": "c-jinshu-096-zhongyan-wyd",
+          "paragraph_id": "c-jinshu-096-zhongyan-wyd:p001",
+          "quote": "王渾妻鍾氏字琰潁川人魏太傅繇曾孫也父徽黃門郎琰數歲能屬文及長聰慧弘雅博覽記籍美容止善嘯詠禮儀法度為中表所則既適渾生濟"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "既適渾"
+      },
+      "interpretation_note": "依原句及本傳敘述保存；不補未載日期、婚姻、母親本名或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-zhong-8-wyd",
+      "subject_person_id": "a8f_ec8_e74_AB",
+      "predicate": "brother",
+      "object_person_id": "ajd_ovg_u3y",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-zhong-wyd1916",
+          "chapter_id": "c-jinshu-096-zhongyan-wyd",
+          "paragraph_id": "c-jinshu-096-zhongyan-wyd:p002",
+          "quote": "渾嘗共琰坐濟趨庭而過渾欣然曰生子如此足慰人心琰笑曰若使新婦得配參軍生子故不翅如此參軍謂渾中弟淪也琰女亦有才淑為求賢夫時有兵家子甚俊濟欲妻之白琰琰曰要令我見之濟令此兵與羣小雜處琰自幃中察之既而謂濟曰緋衣者非汝所拔乎濟曰是琰曰此人才足拔萃然地寒壽促不足展其器用不可與婚遂止其人數年果亡琰明鑒遠識皆此類也",
+          "subject_person_mention_id": "c-jinshu-096-zhongyan-wyd:p002:m0000",
+          "object_person_mention_id": "c-jinshu-096-zhongyan-wyd:p002:m0046"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "渾中弟淪",
+        "object_relative_age": "younger"
+      },
+      "interpretation_note": "淪為渾弟，中弟保留原稱。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin096-zhong-9-wyd",
+      "subject_person_id": "a8f_ec8_e74_AB",
+      "predicate": "brother",
+      "object_person_id": "a8f_ec8_e74_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-096",
+          "source_id": "s-jinshu-096-zhong-wyd1916",
+          "chapter_id": "c-jinshu-096-zhongyan-wyd",
+          "paragraph_id": "c-jinshu-096-zhongyan-wyd:p003",
+          "quote": "渾弟湛妻郝氏亦有德行琰雖貴門與郝雅相親重郝不以賤下琰琰不以貴陵郝時人稱鍾夫人之禮郝夫人之法云",
+          "subject_person_mention_id": "c-jinshu-096-zhongyan-wyd:p003:m0000",
+          "object_person_mention_id": "c-jinshu-096-zhongyan-wyd:p003:m0002"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "渾弟湛",
+        "object_relative_age": "younger"
+      },
+      "interpretation_note": "湛為渾弟。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

@@ -30,7 +30,8 @@ class WangYanzhiBody(unittest.TestCase):
         song=read('corpus/songshu/066-assertions.json')['assertions']
         zan=next(a['subject_person_id']for a in song if a['id']=='a-songshu066-family-zanzhi-brother')
         self.assertNotEqual(uncle['object_person_id'],zan)
-        gaozu=next(m['person_id']for m in read('corpus/songshu/066.json')['paragraphs'][0]['mentions']if m['surface']=='高祖')
+        jinghong=read('corpus/songshu/066.json')
+        gaozu=next(m['person_id'] for m in jinghong['annotation']['person_reference_occurrences'] if m['id']==jinghong['paragraphs'][0]['id']+':m0012' and m['surface']=='高祖' and m['referent_role']=='third_person')
         self.assertNotEqual(grandfather['object_person_id'],gaozu)
 
     def test_earlier_song_emperor_and_later_qi_emperors_keep_scope(self):
