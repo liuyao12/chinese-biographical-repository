@@ -1,0 +1,67 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-044-luting",
+  "assertions": [
+    {
+      "id": "a-w044-luting-brother",
+      "subject_person_id": "m8n_ntm_79h_AB",
+      "object_person_id": "m8n_ntm_79h_AA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "欽弟珽",
+        "relative_birth_order": {
+          "older_person_id": "m8n_ntm_79h_AA",
+          "younger_person_id": "m8n_ntm_79h_AB",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luting",
+          "source_id": "s-jinshu-044-luting",
+          "paragraph_id": "c-jinshu-044-luting:line053",
+          "quote": "欽弟珽，字子笏，衛尉卿。珽子志。",
+          "subject_person_mention_id": "c-jinshu-044-luting:line053:m0002",
+          "object_person_mention_id": "c-jinshu-044-luting:line053:m0000"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w044-luting-luzhi",
+      "subject_person_id": "m8n_ntm_79h_ABB",
+      "object_person_id": "m8n_ntm_79h_AB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "珽子志"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luting",
+          "source_id": "s-jinshu-044-luting",
+          "paragraph_id": "c-jinshu-044-luting:line053",
+          "quote": "欽弟珽，字子笏，衛尉卿。珽子志。",
+          "subject_person_mention_id": "c-jinshu-044-luting:line053:m0014",
+          "object_person_mention_id": "c-jinshu-044-luting:line053:m0002"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

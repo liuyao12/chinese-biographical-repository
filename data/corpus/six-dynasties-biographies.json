@@ -644,6 +644,16 @@
           "paragraph_ids": [
             "c-nanqishu-020-xietiao-jing-wyd:p001"
           ]
+        },
+        {
+          "title": "東昏皇后",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-chulingqu-wyd",
+          "complete": true,
+          "location": "source-evidence/qi020-chulingqu-wyd/wyd-columns.txt",
+          "paragraph_ids": [
+            "c-nanqishu-020-chulingqu-wyd:p001"
+          ]
         }
       ]
     },
@@ -683,10 +693,22 @@
       "permalink": "https://zh.wikisource.org/w/index.php?oldid=1508012",
       "raw_path": "sources/nanqishu/nanqi027-ws1508012.wikitext",
       "sha256": "babad7828a5a97654c1313db5b7a6eb5c19555d5639193051fd8694d9f8ecfcd",
-      "heading_survey": "partial",
+      "heading_survey": "complete",
       "heading_locator_scheme": "wikisource_equals_lines",
-      "embedded_account_survey": "partial",
-      "excluded_sections": []
+      "embedded_account_survey": "complete",
+      "excluded_sections": [
+        {
+          "heading": "【史論】",
+          "heading_line": 106,
+          "reason": "卷末史臣及贊，未另列傳。"
+        },
+        {
+          "heading": "校",
+          "heading_line": 111,
+          "reason": "數位底本校記。"
+        }
+      ],
+      "boundary_evidence": "source-evidence/nanqi027-nan016-volume-surveys/qi-boundaries.json"
     },
     {
       "book_id": "b-nanqishu-036",
@@ -831,6 +853,16 @@
           "paragraph_ids": [
             "c-nanshi-011-liuhuiduan-izumo:p001"
           ]
+        },
+        {
+          "title": "東昏侯皇后褚令璩",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-chulingqu-izumo",
+          "complete": true,
+          "location": "source-evidence/nan011-chulingqu-izumo/izumo-columns.txt",
+          "paragraph_ids": [
+            "c-nanshi-011-chulingqu-izumo:p001"
+          ]
         }
       ]
     },
@@ -876,9 +908,16 @@
       "raw_path": "sources/nanshi/nanshi016-ws1963381.wikitext",
       "sha256": "8a252b3dacfcc3037062a5dab71748ee1d5c39a94f99ea9e61474b3fa9639ab3",
       "heading_locator_scheme": "wikisource_equals_lines",
-      "heading_survey": "partial",
-      "embedded_account_survey": "partial",
-      "excluded_sections": []
+      "heading_survey": "complete",
+      "embedded_account_survey": "complete",
+      "excluded_sections": [
+        {
+          "heading": "論",
+          "heading_line": 144,
+          "reason": "卷末傳論。"
+        }
+      ],
+      "boundary_evidence": "source-evidence/nanqi027-nan016-volume-surveys/nan-boundaries.json"
     },
     {
       "book_id": "b-nanshi-019",
@@ -998,9 +1037,9 @@
       "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
       "sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
       "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
-      "heading_survey": "partial",
+      "heading_survey": "complete",
       "heading_locator_scheme": "wikisource_equals_lines",
-      "embedded_account_survey": "partial",
+      "embedded_account_survey": "complete",
       "excluded_sections": [
         {
           "heading": "論",
@@ -1008,14 +1047,7 @@
           "reason": "卷末論。"
         }
       ],
-      "pending_boundaries": [
-        {
-          "person": "王彧",
-          "first_line": 101,
-          "last_line": 119,
-          "note": "王份至王固及其間獨立附敘已各按原段列入，繼續覆核王彧本傳及與前段相接處。"
-        }
-      ],
+      "pending_boundaries": [],
       "text_witness_units": [
         {
           "book_id": "b-nanshi-023",
@@ -1141,6 +1173,17 @@
           "note": "三十八行末接四十行，與嶷的行事相連，另核起界。"
         }
       ]
+    },
+    {
+      "book_id": "b-nanshi-046",
+      "revision": 1748881,
+      "permalink": "https://zh.wikisource.org/w/index.php?oldid=1748881",
+      "raw_path": "sources/nanshi/nanshi046-ws1748881.wikitext",
+      "sha256": "91fd37788316bd586949064c49a72b07eb587f52328cb440e8ac7357e94cb48f",
+      "heading_survey": "partial",
+      "heading_locator_scheme": "wikisource_equals_lines",
+      "embedded_account_survey": "partial",
+      "excluded_sections": []
     },
     {
       "book_id": "b-songshu-041",
@@ -2788,8 +2831,8 @@
       ],
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -2815,8 +2858,8 @@
       ],
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -2838,8 +2881,8 @@
       ],
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -2866,8 +2909,8 @@
       },
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -2892,8 +2935,8 @@
       ],
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -2920,8 +2963,8 @@
       },
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -2948,8 +2991,8 @@
       },
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -2976,8 +3019,8 @@
       },
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -3004,8 +3047,8 @@
       },
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -3032,8 +3075,8 @@
       },
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -3060,8 +3103,8 @@
       },
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -3084,8 +3127,8 @@
       ],
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -3107,8 +3150,8 @@
       ],
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -3130,8 +3173,8 @@
       ],
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -3157,8 +3200,8 @@
       ],
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -3182,8 +3225,8 @@
       ],
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -3205,8 +3248,8 @@
       ],
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -8313,7 +8356,7 @@
       "book_id": "b-nanqishu-020",
       "title": "東昏皇后",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanqishu-020-chulingqu",
       "heading_line": 48,
       "heading_raw": "=東昏皇后=",
       "first_line": 49,
@@ -8323,9 +8366,14 @@
       "opening": "東昏褚皇后名令璩，河南陽",
       "closing": "及誦」三字。</ref>",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/020-chulingqu.json",
+      "paragraph_ids": [
+        "c-nanqishu-020-chulingqu:p001"
+      ],
+      "mixed_chapter": true
     },
     {
       "book_id": "b-nanqishu-020",
@@ -8495,6 +8543,154 @@
     },
     {
       "book_id": "b-nanqishu-027",
+      "title": "劉懷珍",
+      "unit_kind": "headed_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 11,
+      "last_line": 39,
+      "start_codepoint": 2,
+      "end_codepoint": 63,
+      "opening": "劉懷珍字道玉，平原人",
+      "closing": "雍州刺史，諡曰敬侯。",
+      "heading_line": 10,
+      "heading_raw": "==劉懷珍==",
+      "source_layout": "wikisource_mixed_indented_prose"
+    },
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "劉靈哲",
+      "unit_kind": "embedded_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 41,
+      "last_line": 47,
+      "start_codepoint": 2,
+      "end_codepoint": 67,
+      "opening": "子靈哲，字文明。解褐",
+      "closing": "}}，卒，年四十九。",
+      "parent_heading": "劉懷珍",
+      "scope_note": "子靈哲字文明起，至隆昌元年卒年四十九。第45行敘靈哲嫡母與兄子之事。",
+      "source_layout": "wikisource_mixed_indented_prose"
+    },
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "李安民",
+      "unit_kind": "headed_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 50,
+      "last_line": 60,
+      "start_codepoint": 2,
+      "end_codepoint": 203,
+      "opening": "李安民，蘭陵承人也。",
+      "closing": "，留安民行南徐州事。",
+      "heading_line": 49,
+      "heading_raw": "==李安民==",
+      "scope_note": "同一主傳截去王迥、王元初兩則已獨立定界的小敘，止追贈詔諡。",
+      "continuation_spans": [
+        {
+          "first_line": 62,
+          "last_line": 66,
+          "start_codepoint": 2,
+          "end_codepoint": 34,
+          "opening": "授冠軍將軍，驍衛將軍",
+          "closing": "退，安民沿淮進壽春。"
+        },
+        {
+          "first_line": 66,
+          "last_line": 76,
+          "start_codepoint": 87,
+          "end_codepoint": 73,
+          "opening": "加散騎常侍。",
+          "closing": "守如故。諡曰肅侯。」"
+        }
+      ],
+      "source_layout": "wikisource_mixed_indented_prose"
+    },
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "王迥",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanqishu-027-wangjiong-anmin",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "first_line": 60,
+      "last_line": 60,
+      "start_codepoint": 203,
+      "end_codepoint": 269,
+      "opening": "城局參軍王迥素為安民",
+      "closing": "為斂祭，軍府皆震服。",
+      "parent_heading": "李安民",
+      "scope_note": "原文無另題，以官姓名另起，敘盜絹、安民與迥對話及身後斂祭。",
+      "source_layout": "wikisource_mixed_indented_prose",
+      "chapter_path": "corpus/nanqishu/027-wangjiong-anmin.json",
+      "paragraph_ids": [
+        "c-nanqishu-027-wangjiong-anmin:p001"
+      ]
+    },
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "王元初",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanqishu-027-wangyuanchu-anmin",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "first_line": 66,
+      "last_line": 66,
+      "start_codepoint": 34,
+      "end_codepoint": 87,
+      "opening": "先是宋世亡命王元初聚",
+      "closing": "生禽元初，斬建康市。",
+      "parent_heading": "李安民",
+      "scope_note": "先是回敘王元初起事至斬建康市；下句另敘安民加官。",
+      "source_layout": "wikisource_mixed_indented_prose",
+      "chapter_path": "corpus/nanqishu/027-wangyuanchu-anmin.json",
+      "paragraph_ids": [
+        "c-nanqishu-027-wangyuanchu-anmin:p001"
+      ]
+    },
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "王玄載",
+      "first_line": 79,
+      "start_codepoint": 2,
+      "last_line": 85,
+      "end_codepoint": 28,
+      "opening": "王玄載，字彥休，下邳",
+      "closing": "清績，西州至今思之。",
+      "unit_kind": "headed_account",
+      "chapter_id": "c-nanqishu-027-wangxuanzai",
+      "chapter_path": "corpus/nanqishu/027-wangxuanzai.json",
+      "paragraph_ids": [
+        "c-nanqishu-027-wangxuanzai:p001",
+        "c-nanqishu-027-wangxuanzai:p002",
+        "c-nanqishu-027-wangxuanzai:p003",
+        "c-nanqishu-027-wangxuanzai:p004"
+      ],
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "heading_line": 78,
+      "heading_raw": "==王玄載==",
+      "source_layout": "wikisource_mixed_indented_prose"
+    },
+    {
+      "book_id": "b-nanqishu-027",
       "title": "王瞻",
       "unit_kind": "embedded_account",
       "parent_heading": "王玄載",
@@ -8534,6 +8730,35 @@
       "full_text": true,
       "first_pass": true,
       "item_reviewed": true
+    },
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "王玄邈",
+      "first_line": 92,
+      "start_codepoint": 2,
+      "last_line": 102,
+      "end_codepoint": 131,
+      "opening": "玄載弟玄邈，字彥遠。",
+      "closing": "雍州刺史。諡曰壯侯。",
+      "unit_kind": "headed_account",
+      "chapter_id": "c-nanqishu-027-wangxuanmiao",
+      "chapter_path": "corpus/nanqishu/027-wangxuanmiao.json",
+      "paragraph_ids": [
+        "c-nanqishu-027-wangxuanmiao:p001",
+        "c-nanqishu-027-wangxuanmiao:p002",
+        "c-nanqishu-027-wangxuanmiao:p003",
+        "c-nanqishu-027-wangxuanmiao:p004",
+        "c-nanqishu-027-wangxuanmiao:p005",
+        "c-nanqishu-027-wangxuanmiao:p006"
+      ],
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "heading_line": 91,
+      "heading_raw": "===弟 玄邈===",
+      "parent_heading": "王玄載",
+      "source_layout": "wikisource_mixed_indented_prose"
     },
     {
       "book_id": "b-nanqishu-027",
@@ -9270,7 +9495,7 @@
       "book_id": "b-nanshi-011",
       "title": "東昏侯皇后褚令璩",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanshi-011-chulingqu",
       "first_line": 136,
       "start_codepoint": 0,
       "last_line": 136,
@@ -9278,11 +9503,16 @@
       "opening": "東昏褚皇后諱令璩，河南陽翟",
       "closing": "誦並為庶人。后父澄自有傳。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 135,
-      "heading_raw": "===東昏侯皇后褚令璩==="
+      "heading_raw": "===東昏侯皇后褚令璩===",
+      "chapter_path": "corpus/nanshi/011-chulingqu.json",
+      "paragraph_ids": [
+        "c-nanshi-011-chulingqu:p001"
+      ],
+      "mixed_chapter": true
     },
     {
       "book_id": "b-nanshi-011",
@@ -9615,6 +9845,269 @@
     },
     {
       "book_id": "b-nanshi-016",
+      "title": "王鎭惡",
+      "unit_kind": "headed_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 15,
+      "last_line": 37,
+      "start_codepoint": 0,
+      "end_codepoint": 276,
+      "opening": "王鎭惡，北海劇人也。",
+      "closing": "封龍陽縣侯，諡曰壯。",
+      "heading_line": 13,
+      "heading_raw": "==王鎭惡=="
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "王叡",
+      "unit_kind": "embedded_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 37,
+      "last_line": 37,
+      "start_codepoint": 276,
+      "end_codepoint": 290,
+      "opening": "傳國至曾孫叡，齊受禪",
+      "closing": "孫叡，齊受禪，國除。",
+      "parent_heading": "王鎭惡",
+      "scope_note": "獨立爵系尾記，名曾孫叡，至齊受禪國除。"
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "朱齡石",
+      "unit_kind": "headed_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 41,
+      "last_line": 41,
+      "start_codepoint": 0,
+      "end_codepoint": 17,
+      "opening": "朱齡石字伯兒，沛郡沛",
+      "closing": "沛郡沛人也。世爲將，",
+      "heading_line": 39,
+      "heading_raw": "==朱齡石==",
+      "scope_note": "傳首先交代將家，兩位伯父及父綽另敘；第43行續齡石少時。",
+      "continuation_spans": [
+        {
+          "first_line": 43,
+          "last_line": 49,
+          "start_codepoint": 0,
+          "end_codepoint": 84,
+          "opening": "齡石少好武，不事崖檢",
+          "closing": "至孫，齊受禪，國除。"
+        }
+      ]
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "朱憲、朱斌",
+      "unit_kind": "embedded_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 41,
+      "last_line": 41,
+      "start_codepoint": 17,
+      "end_codepoint": 65,
+      "opening": "伯父憲及斌-{並}-",
+      "closing": "温，-{並}-殺之，",
+      "parent_heading": "朱齡石",
+      "scope_note": "兩位伯父同任袁眞將佐並被殺，共一敘，原文接逗號。"
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "朱綽",
+      "unit_kind": "embedded_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 41,
+      "last_line": 41,
+      "start_codepoint": 65,
+      "end_codepoint": 153,
+      "opening": "齡石父綽逃歸温。壽陽",
+      "closing": "}-薨，綽歐血而死。",
+      "parent_heading": "朱齡石",
+      "scope_note": "由綽逃歸桓温至桓沖薨而綽嘔血死。"
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "朱超石",
+      "unit_kind": "embedded_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 51,
+      "last_line": 55,
+      "start_codepoint": 0,
+      "end_codepoint": 45,
+      "opening": "齡石弟超石，亦果鋭。",
+      "closing": "倶沒赫連勃勃，見殺。",
+      "parent_heading": "朱齡石",
+      "scope_note": "齡石弟超石另起，至兄弟同沒；卷端入目。"
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "毛修之",
+      "unit_kind": "headed_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 59,
+      "last_line": 71,
+      "start_codepoint": 0,
+      "end_codepoint": 81,
+      "opening": "毛修之字敬文，滎陽陽",
+      "closing": "身遂死-{于}-魏。",
+      "heading_line": 57,
+      "heading_raw": "==毛修之=="
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "毛惠素",
+      "unit_kind": "embedded_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 73,
+      "last_line": 75,
+      "start_codepoint": 0,
+      "end_codepoint": 109,
+      "opening": "孫惠素，仕齊爲少府卿",
+      "closing": "-知無罪，甚悔恨之。",
+      "parent_heading": "毛修之",
+      "scope_note": "本段換敘孫惠素為少府卿及後來被誅，卷端入目。"
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "傅弘之",
+      "unit_kind": "headed_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 79,
+      "last_line": 83,
+      "start_codepoint": 0,
+      "end_codepoint": 62,
+      "opening": "傅弘之字仲度，北地泥",
+      "closing": "弘之，弘之叫駡見殺。",
+      "heading_line": 77,
+      "heading_raw": "==傅弘之=="
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "朱修之",
+      "unit_kind": "headed_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 87,
+      "last_line": 93,
+      "start_codepoint": 0,
+      "end_codepoint": 71,
+      "opening": "朱修之字恭祖，義陽平",
+      "closing": "邢懷明-{並}-從。",
+      "heading_line": 85,
+      "heading_raw": "==朱修之==",
+      "continuation_spans": [
+        {
+          "first_line": 93,
+          "last_line": 99,
+          "start_codepoint": 101,
+          "end_codepoint": 158,
+          "opening": "修之、懷明懼禍，同奔",
+          "closing": "家好食，進之致飽。」"
+        },
+        {
+          "first_line": 101,
+          "last_line": 101,
+          "start_codepoint": 0,
+          "end_codepoint": 74,
+          "opening": "修之-{後}-拜左戸",
+          "closing": "給扶侍。卒，諡貞侯。"
+        }
+      ]
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "徐卓",
+      "unit_kind": "embedded_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 93,
+      "last_line": 93,
+      "start_codepoint": 71,
+      "end_codepoint": 101,
+      "opening": "又有徐卓者亦沒魏，-",
+      "closing": "{發}-，事泄見誅。",
+      "parent_heading": "朱修之",
+      "scope_note": "敘沒魏、欲率南人起事、事泄見誅，以下回敘修之及邢懷明。"
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "庾彦達",
+      "unit_kind": "embedded_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 99,
+      "last_line": 99,
+      "start_codepoint": 158,
+      "end_codepoint": 192,
+      "opening": "先是，新野庾彦達爲益",
+      "closing": "中分秩祿，西土稱焉。",
+      "parent_heading": "朱修之",
+      "scope_note": "所引前事為庾氏攜姊、中分秩祿，時人稱之，下一段回敘朱修之。"
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "王玄謨",
+      "unit_kind": "headed_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 105,
+      "last_line": 127,
+      "start_codepoint": 0,
+      "end_codepoint": 125,
+      "opening": "王玄謨字彦德，太原祁",
+      "closing": "年八十二，諡曰莊公。",
+      "heading_line": 103,
+      "heading_raw": "==王玄謨=="
+    },
+    {
+      "book_id": "b-nanshi-016",
       "title": "王深",
       "first_line": 129,
       "start_codepoint": 0,
@@ -9730,6 +10223,92 @@
       "full_text": true,
       "first_pass": true,
       "item_reviewed": true
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "王玄載",
+      "first_line": 137,
+      "start_codepoint": 0,
+      "last_line": 137,
+      "end_codepoint": 88,
+      "opening": "玄載字彦休，玄謨從弟",
+      "closing": "刺史，卒官。諡烈子。",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-016-wangxuanzai",
+      "chapter_path": "corpus/nanshi/016-wangxuanzai.json",
+      "paragraph_ids": [
+        "c-nanshi-016-wangxuanzai:p001"
+      ],
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "parent_heading": "王玄謨"
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "王玄邈",
+      "first_line": 139,
+      "start_codepoint": 0,
+      "last_line": 143,
+      "end_codepoint": 78,
+      "opening": "玄載弟玄邈字彦遠，仕",
+      "closing": "贈雍州刺史，諡壯侯。",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-016-wangxuanmiao",
+      "chapter_path": "corpus/nanshi/016-wangxuanmiao.json",
+      "paragraph_ids": [
+        "c-nanshi-016-wangxuanmiao:p001",
+        "c-nanshi-016-wangxuanmiao:p002",
+        "c-nanshi-016-wangxuanmiao:p003"
+      ],
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "parent_heading": "王玄載"
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "房叔安",
+      "first_line": 143,
+      "start_codepoint": 78,
+      "last_line": 143,
+      "end_codepoint": 156,
+      "opening": "叔安字子仁，淸河人。",
+      "closing": "，恨不至方伯而終。」",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-016-fangshuan",
+      "chapter_path": "corpus/nanshi/016-fangshuan.json",
+      "paragraph_ids": [
+        "c-nanshi-016-fangshuan:p001"
+      ],
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "parent_heading": "王玄邈"
+    },
+    {
+      "book_id": "b-nanshi-016",
+      "title": "房長瑜",
+      "first_line": 143,
+      "start_codepoint": 156,
+      "last_line": 143,
+      "end_codepoint": 175,
+      "opening": "子長瑜，亦有義行，永",
+      "closing": "永明中，爲州中從事。",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-016-fangchangyu",
+      "chapter_path": "corpus/nanshi/016-fangchangyu.json",
+      "paragraph_ids": [
+        "c-nanshi-016-fangchangyu:p001"
+      ],
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "parent_heading": "房叔安"
     },
     {
       "book_id": "b-nanshi-019",
@@ -12821,6 +13400,97 @@
     },
     {
       "book_id": "b-nanshi-023",
+      "title": "王彧",
+      "unit_kind": "headed_account",
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "chapter_path": "corpus/nanshi/023-wangyu-jingwen.json",
+      "first_line": 101,
+      "start_codepoint": 0,
+      "last_line": 119,
+      "end_codepoint": 327,
+      "opening": "王彧字景文，球從子也",
+      "closing": "司，諡曰懿。長子絢。",
+      "paragraph_ids": [
+        "c-nanshi-023-wangyu-jingwen:p001",
+        "c-nanshi-023-wangyu-jingwen:p002",
+        "c-nanshi-023-wangyu-jingwen:p003",
+        "c-nanshi-023-wangyu-jingwen:p004",
+        "c-nanshi-023-wangyu-jingwen:p005",
+        "c-nanshi-023-wangyu-jingwen:p006",
+        "c-nanshi-023-wangyu-jingwen:p007",
+        "c-nanshi-023-wangyu-jingwen:p008",
+        "c-nanshi-023-wangyu-jingwen:p009",
+        "c-nanshi-023-wangyu-jingwen:p010"
+      ],
+      "mixed_chapter": true,
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "heading_raw": "==王彧==",
+      "heading_line": 100
+    },
+    {
+      "book_id": "b-nanshi-023",
+      "title": "王智",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "chapter_path": "corpus/nanshi/023-wangyu-jingwen.json",
+      "first_line": 101,
+      "start_codepoint": 79,
+      "last_line": 103,
+      "end_codepoint": 14,
+      "opening": "伯父智少簡貴，有高名",
+      "closing": "故父僧朗以景文繼智。",
+      "paragraph_ids": [
+        "c-nanshi-023-wangyu-jingwen:p001",
+        "c-nanshi-023-wangyu-jingwen:p002"
+      ],
+      "mixed_chapter": true,
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "paragraph_slices": {
+        "c-nanshi-023-wangyu-jingwen:p001": {
+          "start": 79,
+          "end": 197
+        },
+        "c-nanshi-023-wangyu-jingwen:p002": {
+          "start": 0,
+          "end": 14
+        }
+      }
+    },
+    {
+      "book_id": "b-nanshi-023",
+      "title": "宋新安公主（劉裕第五女）",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "chapter_path": "corpus/nanshi/023-wangyu-jingwen.json",
+      "first_line": 105,
+      "start_codepoint": 86,
+      "last_line": 105,
+      "end_codepoint": 124,
+      "opening": "武帝第五女新安公主先",
+      "closing": "固辭以疾，故不成婚。",
+      "paragraph_ids": [
+        "c-nanshi-023-wangyu-jingwen:p003"
+      ],
+      "mixed_chapter": true,
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "paragraph_slices": {
+        "c-nanshi-023-wangyu-jingwen:p003": {
+          "start": 86,
+          "end": 124
+        }
+      }
+    },
+    {
+      "book_id": "b-nanshi-023",
       "title": "王絢",
       "unit_kind": "embedded_account",
       "chapter_id": "c-nanshi-023-wangxuan",
@@ -13978,6 +14648,48 @@
       "full_text": false,
       "first_pass": false,
       "item_reviewed": false
+    },
+    {
+      "book_id": "b-nanshi-046",
+      "title": "王回",
+      "first_line": 21,
+      "last_line": 21,
+      "start_codepoint": 89,
+      "end_codepoint": 153,
+      "opening": "城局參軍王回素爲安人",
+      "closing": "爲斂祭，軍府皆震服。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "李安人",
+      "chapter_id": "c-nanshi-046-wangjiong-anmin",
+      "chapter_path": "corpus/nanshi/046-wangjiong-anmin.json",
+      "paragraph_ids": [
+        "c-nanshi-046-wangjiong-anmin:p001"
+      ],
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
+    },
+    {
+      "book_id": "b-nanshi-046",
+      "title": "王元初",
+      "first_line": 25,
+      "last_line": 25,
+      "start_codepoint": 33,
+      "end_codepoint": 82,
+      "opening": "先是宋時亡命王元初聚",
+      "closing": "人生禽之，斬建康市。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "李安人",
+      "chapter_id": "c-nanshi-046-wangyuanchu-anmin",
+      "chapter_path": "corpus/nanshi/046-wangyuanchu-anmin.json",
+      "paragraph_ids": [
+        "c-nanshi-046-wangyuanchu-anmin:p001"
+      ],
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-songshu-041",

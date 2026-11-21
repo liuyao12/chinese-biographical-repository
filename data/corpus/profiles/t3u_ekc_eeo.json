@@ -8,9 +8,93 @@
   "names": [
     "王道隆"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nanqishu-027-wangshi-concordance-8-0",
+      "title": "中書舍人",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "t3u_ekc_eeo",
+      "attestations": [
+        {
+          "id": "th-nanqishu-027-wangshi-concordance-8-0:a",
+          "paragraph_id": "c-nanqishu-027-wangshi-concordance:p008",
+          "start": 0,
+          "end": 4,
+          "surface": "中書舍人",
+          "person_mention_id": "c-nanqishu-027-wangshi-concordance:p008:m0004",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-027",
+          "chapter_id": "c-nanqishu-027-wangshi-concordance",
+          "source_id": "s-nanqishu-027-wangshi-concordance-ws1508012",
+          "paragraph_id": "c-nanqishu-027-wangshi-concordance:p008",
+          "quote": "中書舍人王道隆宣旨，以懷珍為冠軍將軍、豫章太守。",
+          "person_mention_id": "c-nanqishu-027-wangshi-concordance:p008:m0004"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 23,
+      "category": "",
+      "title": "王彧（字景文）及伯父智",
+      "paragraph_id": "c-nanshi-023-wangyu-jingwen:p005",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "詹事。不願還朝，求為湘州，不許。時又謂景文在江州不能潔己，景文與上幸臣王道隆書，深自申理。",
+      "paragraph_ids": [
+        "c-nanshi-023-wangyu-jingwen:p005"
+      ],
+      "mention_ids": [
+        "c-nanshi-023-wangyu-jingwen:p005:m0135"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-023-wangyu-jingwen:p005:m0135": "c-nanshi-023-wangyu-jingwen:p005"
+      },
+      "mention_id": "c-nanshi-023-wangyu-jingwen:p005:m0135",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-023-wangyu-jingwen:p005:m0135",
+          "mention_ids": [
+            "c-nanshi-023-wangyu-jingwen:p005:m0135"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+      "work_title": "南史"
+    },
     {
       "number": 23,
       "category": "",
@@ -45,10 +129,179 @@
       "chapter_id": "c-nanshi-023-wangyun-yanshen",
       "source_id": "s-nanshi-023-wangyun-yanshen-ws2478204",
       "work_title": "南史"
+    },
+    {
+      "number": 27,
+      "category": "",
+      "title": "齊二十七其餘王氏具名選句",
+      "paragraph_id": "c-nanqishu-027-wangshi-concordance:p008",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "中書舍人王道隆宣旨，以懷珍為冠軍將軍、豫章太守。",
+      "paragraph_ids": [
+        "c-nanqishu-027-wangshi-concordance:p008"
+      ],
+      "mention_ids": [
+        "c-nanqishu-027-wangshi-concordance:p008:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-027-wangshi-concordance:p008:m0004": "c-nanqishu-027-wangshi-concordance:p008"
+      },
+      "mention_id": "c-nanqishu-027-wangshi-concordance:p008:m0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-027-wangshi-concordance:p008:m0004",
+          "mention_ids": [
+            "c-nanqishu-027-wangshi-concordance:p008:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-027",
+      "chapter_id": "c-nanqishu-027-wangshi-concordance",
+      "source_id": "s-nanqishu-027-wangshi-concordance-ws1508012",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-027-wangshi-concordance",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-027",
+      "source_id": "s-nanqishu-027-wangshi-concordance-ws1508012",
+      "source": {
+        "title": "齊二十七其餘王氏具名選句",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1508012",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1508012",
+        "revision_id": 1508012,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "齊二十七其餘王氏具名選句",
+        "text_scope": "partial_chapter",
+        "raw_path": "sources/nanqishu/nanqi027-ws1508012.wikitext",
+        "raw_file_sha256": "babad7828a5a97654c1313db5b7a6eb5c19555d5639193051fd8694d9f8ecfcd"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+      "source": {
+        "title": "南史卷23·王彧（字景文）及伯父智",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第101至119行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                102,
+                102
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                104,
+                104
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                106,
+                106
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                108,
+                108
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                110,
+                110
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                112,
+                112
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                114,
+                114
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                116,
+                116
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                118,
+                118
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "數位王彧原題，傳首至長子絢；絢本傳自121行起。"
+      }
+    },
     {
       "chapter_id": "c-nanshi-023-wangyun-yanshen",
       "work_id": "w-nanshi",
@@ -95,6 +348,22 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-027-wangshi-concordance:event_context8-7",
+      "kind": "event_context",
+      "person_id": "t3u_ekc_eeo",
+      "source_quote": "宣旨",
+      "reading": "此人傳達旨意，實授冠軍將軍、豫章太守者為懷珍。",
+      "note": "此人傳達旨意，實授冠軍將軍、豫章太守者為懷珍。",
+      "paragraph_id": "c-nanqishu-027-wangshi-concordance:p008",
+      "start_codepoint": 7,
+      "end_codepoint": 9,
+      "human_reviewed": false,
+      "chapter_id": "c-nanqishu-027-wangshi-concordance",
+      "source_id": "s-nanqishu-027-wangshi-concordance-ws1508012"
+    }
+  ],
   "person_ids": [
     "t3u_ekc_eeo"
   ],

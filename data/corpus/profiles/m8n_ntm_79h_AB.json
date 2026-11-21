@@ -11,6 +11,54 @@
   ],
   "titles": [
     {
+      "id": "th-w044-luting-weiwei",
+      "person_id": "m8n_ntm_79h_AB",
+      "title": "衛尉卿",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luting",
+          "source_id": "s-jinshu-044-luting",
+          "paragraph_id": "c-jinshu-044-luting:line053",
+          "quote": "欽弟珽，字子笏，衛尉卿。珽子志。",
+          "person_mention_id": "c-jinshu-044-luting:line053:m0002"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-luting-weiwei:a",
+          "paragraph_id": "c-jinshu-044-luting:line053",
+          "start": 8,
+          "end": 11,
+          "surface": "衛尉卿",
+          "person_mention_id": "c-jinshu-044-luting:line053:m0002",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-sgz022-lu-career-late_advancement_and_children-sonoffice2-son2",
       "person_id": "m8n_ntm_79h_AB",
       "title": "泰山太守",
@@ -346,10 +394,90 @@
       "chapter_id": "c-sanguozhi-022-luyu",
       "source_id": "s-sanguozhi-022-luyu",
       "work_title": "三國志"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·盧珽傳",
+      "paragraph_id": "c-jinshu-044-luting:line053",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "欽弟珽，字子笏，衛尉卿。珽子志。",
+      "paragraph_ids": [
+        "c-jinshu-044-luting:line053"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-luting:line053:m0002",
+        "c-jinshu-044-luting:line053:m0005",
+        "c-jinshu-044-luting:line053:m0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-luting:line053:m0002": "c-jinshu-044-luting:line053",
+        "c-jinshu-044-luting:line053:m0005": "c-jinshu-044-luting:line053",
+        "c-jinshu-044-luting:line053:m0012": "c-jinshu-044-luting:line053"
+      },
+      "mention_id": "c-jinshu-044-luting:line053:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-luting:line053:m0002",
+          "mention_ids": [
+            "c-jinshu-044-luting:line053:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-044-luting:line053:m0005",
+          "mention_ids": [
+            "c-jinshu-044-luting:line053:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-044-luting:line053:m0012",
+          "mention_ids": [
+            "c-jinshu-044-luting:line053:m0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-luting",
+      "source_id": "s-jinshu-044-luting",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-044-luting",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-luting",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「弟珽」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-luqin-lufu-luting/reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-022-luyu",
       "work_id": "w-sanguozhi",
@@ -380,6 +508,66 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-w044-luting-brother",
+      "subject_person_id": "m8n_ntm_79h_AB",
+      "object_person_id": "m8n_ntm_79h_AA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "欽弟珽",
+        "relative_birth_order": {
+          "older_person_id": "m8n_ntm_79h_AA",
+          "younger_person_id": "m8n_ntm_79h_AB",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luting",
+          "source_id": "s-jinshu-044-luting",
+          "paragraph_id": "c-jinshu-044-luting:line053",
+          "quote": "欽弟珽，字子笏，衛尉卿。珽子志。",
+          "subject_person_mention_id": "c-jinshu-044-luting:line053:m0002",
+          "object_person_mention_id": "c-jinshu-044-luting:line053:m0000"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w044-luting-luzhi",
+      "subject_person_id": "m8n_ntm_79h_ABB",
+      "object_person_id": "m8n_ntm_79h_AB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "珽子志"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luting",
+          "source_id": "s-jinshu-044-luting",
+          "paragraph_id": "c-jinshu-044-luting:line053",
+          "quote": "欽弟珽，字子笏，衛尉卿。珽子志。",
+          "subject_person_mention_id": "c-jinshu-044-luting:line053:m0014",
+          "object_person_mention_id": "c-jinshu-044-luting:line053:m0002"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-sgz022-lu-yu-son-2",
       "subject_person_id": "m8n_ntm_79h_AB",
@@ -518,6 +706,7 @@
   ],
   "related_people": {
     "m8n_ntm_79h_A": "盧毓",
+    "m8n_ntm_79h_AA": "盧欽〔舉王衍者〕",
     "m8n_ntm_79h_AB": "盧珽",
     "m8n_ntm_79h_ABA": "皓〔盧珽子〕",
     "m8n_ntm_79h_ABB": "盧志"
@@ -528,6 +717,66 @@
     "m8n_ntm_79h_AB"
   ],
   "preferred_relations": [
+    {
+      "id": "a-w044-luting-brother",
+      "subject_person_id": "m8n_ntm_79h_AB",
+      "object_person_id": "m8n_ntm_79h_AA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "欽弟珽",
+        "relative_birth_order": {
+          "older_person_id": "m8n_ntm_79h_AA",
+          "younger_person_id": "m8n_ntm_79h_AB",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luting",
+          "source_id": "s-jinshu-044-luting",
+          "paragraph_id": "c-jinshu-044-luting:line053",
+          "quote": "欽弟珽，字子笏，衛尉卿。珽子志。",
+          "subject_person_mention_id": "c-jinshu-044-luting:line053:m0002",
+          "object_person_mention_id": "c-jinshu-044-luting:line053:m0000"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w044-luting-luzhi",
+      "subject_person_id": "m8n_ntm_79h_ABB",
+      "object_person_id": "m8n_ntm_79h_AB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "珽子志"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luting",
+          "source_id": "s-jinshu-044-luting",
+          "paragraph_id": "c-jinshu-044-luting:line053",
+          "quote": "欽弟珽，字子笏，衛尉卿。珽子志。",
+          "subject_person_mention_id": "c-jinshu-044-luting:line053:m0014",
+          "object_person_mention_id": "c-jinshu-044-luting:line053:m0002"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-sgz022-lu-yu-son-2",
       "subject_person_id": "m8n_ntm_79h_AB",

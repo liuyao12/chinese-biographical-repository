@@ -57,6 +57,54 @@
       "model": null,
       "human_reviewed": false,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-nan023-wangyu-m8-38",
+      "person_id": "bw8_zlf_p2e",
+      "title": "僕射",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nan023-wangyu-m8-38:a",
+          "person_mention_id": "c-nanshi-023-wangyu-jingwen:p008:m0033",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p008",
+          "surface": "僕射",
+          "start": 38,
+          "end": 40
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangyu-jingwen",
+          "paragraph_id": "c-nanshi-023-wangyu-jingwen:p008",
+          "quote": "人居貴要，但問心若為耳。大明之世，巢、徐二戴位不過執戟，權亢人主；顏師伯白衣僕射，橫行尚書中。袁粲作僕射領選，而人往往不知有粲。粲遷為令，居之不疑。今既省錄，令便居昔之錄任，置省事及幹僮，並依錄格。粲作令來亦不異為僕射，人情向粲，淡然亦復不改常。以此居貴位要任，當有致憂兢不？卿今雖作揚州、太子太傅，位雖貴而不關朝政，可安不懼，差於粲也。卿虛心受榮，有而不為累。貴高有危殆之懼，卑賤有溝壑之憂，張單雙災，木雁兩失。有心于避禍，不如無心于任運。夫千仞之木，既摧於斧斤，一寸之草，亦悴於踐蹋。高崖之修幹，與深谷之淺條，存亡之要，巨細一揆耳。晉將畢萬七戰皆獲，死於牖下，蜀相費禕從容坐談，斃于刺客。故甘心于履危，未必逢禍，縱意于處安，不必全福。但貴者自惜，故每憂其身，賤者自輕，故易忘其己。然為教者每誡貴不誡賤，言其貴滿好自恃也。凡名位貴達，人以存懷，泰則觸人改容，否則行路嗟愕。至如賤者，否泰不足以動人，存亡不足以絓數，死於溝瀆，困于塗路者，天地之間，亦復何限，人不系意耳。以此而推，貴何必難處，賤何必易安。但人生自應卑慎為道，行己用心，務思謹惜。",
+          "person_mention_id": "c-nanshi-023-wangyu-jingwen:p008:m0033"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -147,6 +195,41 @@
       "book_id": "b-nanshi-023",
       "chapter_id": "c-nanshi-023-wangkun",
       "source_id": "s-nanshi-023-wangkun-ws2478204",
+      "work_title": "南史"
+    },
+    {
+      "number": 23,
+      "category": "",
+      "title": "王彧（字景文）及伯父智",
+      "paragraph_id": "c-nanshi-023-wangyu-jingwen:p008",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "人居貴要，但問心若為耳。大明之世，巢、徐二戴位不過執戟，權亢人主；顏師伯白衣僕射，橫行尚書中。袁粲作僕射領選，而人往往不知有粲。粲遷為令，居之不疑。今既省錄，令便居昔之錄任，置省事及幹僮，並依錄格。粲作令來亦不異為僕射，人情向粲，淡然亦復不改常。以此居貴位要任，當有致憂兢",
+      "paragraph_ids": [
+        "c-nanshi-023-wangyu-jingwen:p008"
+      ],
+      "mention_ids": [
+        "c-nanshi-023-wangyu-jingwen:p008:m0033"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-023-wangyu-jingwen:p008:m0033": "c-nanshi-023-wangyu-jingwen:p008"
+      },
+      "mention_id": "c-nanshi-023-wangyu-jingwen:p008:m0033",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-023-wangyu-jingwen:p008:m0033",
+          "mention_ids": [
+            "c-nanshi-023-wangyu-jingwen:p008:m0033"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
       "work_title": "南史"
     },
     {
@@ -471,6 +554,117 @@
           "character_conversion": {},
           "extraction_note": "僅去不轉換標記的界符。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangyu-jingwen",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+      "source": {
+        "title": "南史卷23·王彧（字景文）及伯父智",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第101至119行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                102,
+                102
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                104,
+                104
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                106,
+                106
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                108,
+                108
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                110,
+                110
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                112,
+                112
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                114,
+                114
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                116,
+                116
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                118,
+                118
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "數位王彧原題，傳首至長子絢；絢本傳自121行起。"
       }
     },
     {

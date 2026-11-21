@@ -1,0 +1,68 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-016-wangxuanzai",
+  "assertions": [
+    {
+      "id": "a-xuanmo-zai-nan-father",
+      "subject_person_id": "85g_yq3_0w6_AA",
+      "object_person_id": "85g_yq3_0w6_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父蕤",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-016",
+          "chapter_id": "c-nanshi-016-wangxuanzai",
+          "source_id": "s-nanshi-016-wangxuanzai-ws1963381",
+          "paragraph_id": "c-nanshi-016-wangxuanzai:p001",
+          "quote": "玄載字彦休，玄謨從弟也。父蕤，東莞太守。玄載仕宋，位益州刺史。沈攸之之難，玄載起義，送誠于齊髙帝，封鄂縣子。齊建元元年，爲左戸尚書。永明四年，位兗州刺史，卒官。諡烈子。",
+          "subject_person_mention_id": "c-nanshi-016-wangxuanzai:p001:m0000",
+          "object_person_mention_id": "c-nanshi-016-wangxuanzai:p001:m0013"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南16亦稱父蕤。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-xuanmo-zaidi",
+      "subject_person_id": "85g_yq3_0w6_AA",
+      "object_person_id": "31b_fd1_f77",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "玄謨從弟也",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-016",
+          "chapter_id": "c-nanshi-016-wangxuanzai",
+          "source_id": "s-nanshi-016-wangxuanzai-ws1963381",
+          "paragraph_id": "c-nanshi-016-wangxuanzai:p001",
+          "quote": "玄載字彦休，玄謨從弟也。父蕤，東莞太守。玄載仕宋，位益州刺史。沈攸之之難，玄載起義，送誠于齊髙帝，封鄂縣子。齊建元元年，爲左戸尚書。永明四年，位兗州刺史，卒官。諡烈子。",
+          "subject_person_mention_id": "c-nanshi-016-wangxuanzai:p001:m0000",
+          "object_person_mention_id": "c-nanshi-016-wangxuanzai:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南16稱玄載為玄謨從弟，與齊27前文相反。不立共同祖先或精確親等。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

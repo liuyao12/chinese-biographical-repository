@@ -5,6 +5,7 @@ from pathlib import Path
 
 
 IZUMO_WITNESSES = {
+    'c-nanshi-011-chulingqu-izumo': ('nan011-chulingqu-izumo', '527633179bad93c7a38504a15f17feae057b93d0ea924f5eaefbd7b245b194bb'),
     'c-nanshi-011-liuhuiduan-izumo': ('nan011-liuhuiduan-izumo', '22960f447841b01da0e303f00ab1000d1d10772f5b8453b2307aa9c8e3ea4371'),
     'c-nanshi-011-wangshunhua-izumo': ('nan011-wangshunhua-izumo', '77d2f1a21c48c878d87f900fd03d3156b7f639e67b37468be5bcefcfac38b621'),
     'c-nanshi-011-wangshaoming-izumo': ('nan011-wangshaoming-izumo', '9e3a8e0b880a45ceadf7a322833788837d9d9257f126eb2567789747a029821a'),
@@ -12,6 +13,7 @@ IZUMO_WITNESSES = {
 
 
 WITNESSES = {
+    'c-nanqishu-020-chulingqu-wyd': ('qi020-chulingqu-wyd', 'e319b235e1be34178de24c303dcd08c35a18e1c54e48e8f3457e7e2a4aacc447'),
     'c-nanqishu-020-xietiao-jing-wyd': ('qi020-liuhuiduan-wyd', '8a7421d89ac303b0e07df6a4fb9371982081987e921c5ac089cbaaa8fb688cca'),
     'c-nanqishu-020-wangshunhua-wyd': ('qi020-wangshunhua-wyd', 'c559ccf10d0a5afee67b34cfea4f7f25580140a7950af68fcf8eb9bd4bae13a0'),
     'c-nanqishu-020-wangshaoming-wyd': ('qi020-wangshaoming-wyd', '71d0ab489a03b2bad731f5530bb77007165b996fdd9fdcfd43778dbf5efc850b'),

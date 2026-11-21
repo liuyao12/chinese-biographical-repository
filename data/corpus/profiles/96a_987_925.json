@@ -14,6 +14,54 @@
   ],
   "titles": [
     {
+      "id": "th-w044-zhengm-12",
+      "person_id": "96a_987_925",
+      "title": "僕射",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-zhengmo",
+          "source_id": "s-jinshu-044-zhengmo",
+          "paragraph_id": "c-jinshu-044-zhengmo:line026",
+          "quote": "後以父喪去官，尋起為廷尉。是時鬲令袁毅坐交通貨賂，大興刑獄。在朝多見引逮，唯默兄弟以潔慎不染其流。遷太常。時僕射山濤欲舉一親親為博士，謂默曰：「卿似尹翁歸，令吾不敢復言。」默為人敦重，柔而能整，皆此類也。",
+          "person_mention_id": "c-jinshu-044-zhengmo:line026:m0056"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-zhengm-12:a",
+          "paragraph_id": "c-jinshu-044-zhengmo:line026",
+          "start": 54,
+          "end": 56,
+          "surface": "僕射",
+          "person_mention_id": "c-jinshu-044-zhengmo:line026:m0056",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-w043-shan-shi",
       "person_id": "96a_987_925",
       "title": "尚書",
@@ -274,6 +322,41 @@
       "book_id": "b-jinshu-043",
       "chapter_id": "c-jinshu-043-wangyan",
       "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "work_title": "晉書"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·鄭默傳",
+      "paragraph_id": "c-jinshu-044-zhengmo:line026",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "通貨賂，大興刑獄。在朝多見引逮，唯默兄弟以潔慎不染其流。遷太常。時僕射山濤欲舉一親親為博士，謂默曰：「卿似尹翁歸，令吾不敢復言。」默為人敦重，柔而能整，皆此類也。",
+      "paragraph_ids": [
+        "c-jinshu-044-zhengmo:line026"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-zhengmo:line026:m0056"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-zhengmo:line026:m0056": "c-jinshu-044-zhengmo:line026"
+      },
+      "mention_id": "c-jinshu-044-zhengmo:line026:m0056",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-zhengmo:line026:m0056",
+          "mention_ids": [
+            "c-jinshu-044-zhengmo:line026:m0056"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-zhengmo",
+      "source_id": "s-jinshu-044-zhengmo",
       "work_title": "晉書"
     },
     {
@@ -12413,6 +12496,33 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-044-zhengmo",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-zhengmo",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「子默」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-zhengmo-sons/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-045-guoyi",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-045",
@@ -15325,6 +15435,23 @@
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-jinshu-044-zhengmo:line026:r0079",
+      "paragraph_id": "c-jinshu-044-zhengmo:line026",
+      "start": 79,
+      "end": 80,
+      "surface": "吾",
+      "person_id": "96a_987_925",
+      "referent_role": "speaker_self",
+      "quote": "謂默曰：「卿似尹翁歸，令吾不敢復言。」默為人敦重，",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-044-zhengmo",
+      "book_id": "b-jinshu-044",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-044-zhengmo"
+    }
+  ],
   "person_ids": [
     "96a_987_925"
   ],

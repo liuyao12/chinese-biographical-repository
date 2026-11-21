@@ -22,20 +22,100 @@
     "edition": "維基文庫固定修訂1775345",
     "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
     "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
-    "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8"
+    "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+    "collation_witnesses": [
+      "source-evidence/jin044-zhengmo-sons/reading.json"
+    ]
   },
   "annotation": {
-    "status": "in_progress",
+    "status": "reviewed",
     "scope": "固定修訂題下完整傳文。",
-    "human_reviewed": false
+    "human_reviewed": false,
+    "reviewed_unit_evidence": [
+      {
+        "unit": "鄭球、鄭豫",
+        "path": "source-evidence/jin044-zhengmo-sons/reading.json"
+      }
+    ]
   },
   "paragraphs": [
     {
       "id": "c-jinshu-044-zhengqiu:line033",
       "text": "球字子瑜。少辟宰府，入侍二宮。成都王為大將軍，起義討趙王倫，球自頓丘太守為右長史，以功封平壽公。累遷侍中、尚書、散騎常侍、中護軍、尚書右僕射，領吏部。永嘉二年卒，追贈金紫光祿大夫，諡曰元。球弟豫，永嘉末為尚書。",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jinshu-044-zhengqiu:line033:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "球",
+          "kind": "person",
+          "person_id": "x18_cng_88g_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-zhengqiu:line033:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "子瑜",
+          "kind": "person",
+          "person_id": "x18_cng_88g_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-zhengqiu:line033:m0015",
+          "start": 15,
+          "end": 18,
+          "surface": "成都王",
+          "kind": "person",
+          "person_id": "e81_f09_000",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-zhengqiu:line033:m0026",
+          "start": 26,
+          "end": 29,
+          "surface": "趙王倫",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAG",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-zhengqiu:line033:m0030",
+          "start": 30,
+          "end": 31,
+          "surface": "球",
+          "kind": "person",
+          "person_id": "x18_cng_88g_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-zhengqiu:line033:m0094",
+          "start": 94,
+          "end": 95,
+          "surface": "球",
+          "kind": "person",
+          "person_id": "x18_cng_88g_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-zhengqiu:line033:m0096",
+          "start": 96,
+          "end": 97,
+          "surface": "豫",
+          "kind": "person",
+          "person_id": "x18_cng_88g_B",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
       "source_position": {
         "first_line": 33,
         "last_line": 33,
