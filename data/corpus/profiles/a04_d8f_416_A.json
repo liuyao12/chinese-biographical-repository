@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "id": "a04_d8f_416_A",
+  "canonical_person_id": "a04_d8f_416_A",
+  "label": "王晞之",
+  "identity_note": "依固定卷七十六所見人名。",
+  "review": "ai_provisional",
+  "names": [
+    "晞之"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 76,
+      "category": "",
+      "title": "王舒、王允之傳",
+      "paragraph_id": "c-jinshu-076-wangshu-family:line024",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子晞之嗣。卒，子肇之嗣。",
+      "paragraph_ids": [
+        "c-jinshu-076-wangshu-family:line024"
+      ],
+      "mention_ids": [
+        "c-jinshu-076-wangshu-family:line024:m0001"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-076-wangshu-family:line024:m0001": "c-jinshu-076-wangshu-family:line024"
+      },
+      "mention_id": "c-jinshu-076-wangshu-family:line024:m0001",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-076-wangshu-family:line024:m0001",
+          "mention_ids": [
+            "c-jinshu-076-wangshu-family:line024:m0001"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "chapter_id": "c-jinshu-076-wangshu-family",
+      "source_id": "s-jinshu-076-wangshu-family",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-076-wangshu-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "source_id": "s-jinshu-076-wangshu-family",
+      "source": {
+        "title": "晉書卷七十六王舒及子允之",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "revision_id": 2180533,
+        "accessed_on": "2026-11-20",
+        "edition": "固定數位轉錄，清乾隆四年武英殿本列為對校書影。",
+        "extent": "固定修訂第11至24行，兩個數位題全錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-lang-zhong-xuan-dai/external/jin076-ws2180533.wikitext",
+        "raw_file_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "wikitext_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-w076-zhao-xi",
+      "subject_person_id": "a04_d8f_416_AA",
+      "object_person_id": "a04_d8f_416_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "卒，子肇之嗣"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangshu-family",
+          "source_id": "s-jinshu-076-wangshu-family",
+          "paragraph_id": "c-jinshu-076-wangshu-family:line024",
+          "quote": "子晞之嗣。卒，子肇之嗣。",
+          "subject_person_mention_id": "c-jinshu-076-wangshu-family:line024:m0008",
+          "object_person_mention_id": "c-jinshu-076-wangshu-family:line024:m0001"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w076-xi-yun",
+      "subject_person_id": "a04_d8f_416_A",
+      "object_person_id": "a04_d8f_416",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子晞之嗣"
+      },
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-jinshu-076-wangshu-family:line022",
+          "c-jinshu-076-wangshu-family:line024"
+        ],
+        "parent_mention_id": "c-jinshu-076-wangshu-family:line022:m0005",
+        "child_mention_id": "c-jinshu-076-wangshu-family:line024:m0001",
+        "rationale": "依固定版本前傳末及下段首子名，間隔僅一空行。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangshu-family",
+          "source_id": "s-jinshu-076-wangshu-family",
+          "paragraph_id": "c-jinshu-076-wangshu-family:line022",
+          "quote": "舒為荊州，允之隨在西府。及敦平，帝欲令允之仕，舒請曰：「臣子尚少，不樂早官。」帝許隨舒之會稽。及蘇峻反，允之討賊有功，封番禺縣侯，邑千六百戶，除建武將軍、錢唐令，領司鹽都尉。舒卒，去職。既葬，除義興太守，以憂哀不拜，從伯導與其書曰：「太保、安豐侯以孝聞天下，不得辭司隸；和長輿海內名士，不免作中書令。吾群從死亡略盡，子弟零落，遇汝如親，如其不爾，吾復何言！」允之固不肯就。咸和末，除宣城內史、監揚州江西四郡事、建武將軍，鎮於湖。咸康中，進號西中郎將、假節。尋遷南中郎將、江州刺史。蒞政甚有威惠。時王恬服闋，除豫章郡。允之聞之驚愕，以為恬丞相子，應被優遇，不可出為遠郡，乃求自解州，欲與庾冰言之。冰聞甚愧，即以恬為吳郡，而以允之為衛將軍、會稽內史。未到，卒，年四十。諡曰忠。",
+          "object_person_mention_id": "c-jinshu-076-wangshu-family:line022:m0005"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangshu-family",
+          "source_id": "s-jinshu-076-wangshu-family",
+          "paragraph_id": "c-jinshu-076-wangshu-family:line024",
+          "quote": "子晞之嗣。卒，子肇之嗣。",
+          "subject_person_mention_id": "c-jinshu-076-wangshu-family:line024:m0001"
+        }
+      ],
+      "interpretation_note": "前段傳主接下段所言之子；原號保留兩段互見。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "a04_d8f_416": "王允之",
+    "a04_d8f_416_A": "王晞之",
+    "a04_d8f_416_AA": "王肇之"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "a04_d8f_416_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-w076-zhao-xi",
+      "subject_person_id": "a04_d8f_416_AA",
+      "object_person_id": "a04_d8f_416_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "卒，子肇之嗣"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangshu-family",
+          "source_id": "s-jinshu-076-wangshu-family",
+          "paragraph_id": "c-jinshu-076-wangshu-family:line024",
+          "quote": "子晞之嗣。卒，子肇之嗣。",
+          "subject_person_mention_id": "c-jinshu-076-wangshu-family:line024:m0008",
+          "object_person_mention_id": "c-jinshu-076-wangshu-family:line024:m0001"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w076-xi-yun",
+      "subject_person_id": "a04_d8f_416_A",
+      "object_person_id": "a04_d8f_416",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子晞之嗣"
+      },
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-jinshu-076-wangshu-family:line022",
+          "c-jinshu-076-wangshu-family:line024"
+        ],
+        "parent_mention_id": "c-jinshu-076-wangshu-family:line022:m0005",
+        "child_mention_id": "c-jinshu-076-wangshu-family:line024:m0001",
+        "rationale": "依固定版本前傳末及下段首子名，間隔僅一空行。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangshu-family",
+          "source_id": "s-jinshu-076-wangshu-family",
+          "paragraph_id": "c-jinshu-076-wangshu-family:line022",
+          "quote": "舒為荊州，允之隨在西府。及敦平，帝欲令允之仕，舒請曰：「臣子尚少，不樂早官。」帝許隨舒之會稽。及蘇峻反，允之討賊有功，封番禺縣侯，邑千六百戶，除建武將軍、錢唐令，領司鹽都尉。舒卒，去職。既葬，除義興太守，以憂哀不拜，從伯導與其書曰：「太保、安豐侯以孝聞天下，不得辭司隸；和長輿海內名士，不免作中書令。吾群從死亡略盡，子弟零落，遇汝如親，如其不爾，吾復何言！」允之固不肯就。咸和末，除宣城內史、監揚州江西四郡事、建武將軍，鎮於湖。咸康中，進號西中郎將、假節。尋遷南中郎將、江州刺史。蒞政甚有威惠。時王恬服闋，除豫章郡。允之聞之驚愕，以為恬丞相子，應被優遇，不可出為遠郡，乃求自解州，欲與庾冰言之。冰聞甚愧，即以恬為吳郡，而以允之為衛將軍、會稽內史。未到，卒，年四十。諡曰忠。",
+          "object_person_mention_id": "c-jinshu-076-wangshu-family:line022:m0005"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangshu-family",
+          "source_id": "s-jinshu-076-wangshu-family",
+          "paragraph_id": "c-jinshu-076-wangshu-family:line024",
+          "quote": "子晞之嗣。卒，子肇之嗣。",
+          "subject_person_mention_id": "c-jinshu-076-wangshu-family:line024:m0001"
+        }
+      ],
+      "interpretation_note": "前段傳主接下段所言之子；原號保留兩段互見。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-w076-xi",
+      "person_id": "a04_d8f_416_A",
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangshu-family",
+          "source_id": "s-jinshu-076-wangshu-family",
+          "paragraph_id": "c-jinshu-076-wangshu-family:line024",
+          "quote": "子晞之嗣。卒，子肇之嗣。",
+          "person_mention_id": "c-jinshu-076-wangshu-family:line024:m0001"
+        }
+      ],
+      "interpretation_note": "依本來源登記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

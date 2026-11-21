@@ -39,6 +39,33 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-022-wangjian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangjian-ws1477957",
+      "source": {
+        "title": "南史/卷22·王儉及王遜傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/南史/卷22",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷22&oldid=1477957",
+        "edition": "固定數位見證",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-21",
+        "text_scope": "partial_chapter",
+        "extent": "本傳或單段附敘全文",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "rights": "原典本文及可追溯校記",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留傳本文字及今本補字方括；排版界符和另存的校記依原字位投影。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-wenxiantongkao-258-yangxian",
       "work_id": "w-wenxiantongkao",
       "book_id": "b-wenxiantongkao-258",
@@ -90,6 +117,33 @@
       ],
       "status": "source_attested",
       "interpretation_note": "據所引原文及其標目指向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-022-wangjian-spouse",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAA",
+      "object_person_id": "cti_o52_4nz_A",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "尚陽羨公主",
+        "nan22jian_kin_frame": "spouse"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "source_id": "s-nanshi-022-wangjian-ws1477957",
+          "chapter_id": "c-nanshi-022-wangjian",
+          "paragraph_id": "c-nanshi-022-wangjian:p001",
+          "quote": "儉字仲寶，生而僧綽遇害，為叔父僧虔所養。數歲，襲爵豫甯縣侯。拜受茅土，流涕嗚咽。幼篤學，手不釋卷。賓客或相稱美，僧虔曰：「我不患此兒無名，政恐名太盛耳。」乃手書崔子玉座右銘以貽之。丹陽尹袁粲聞其名，及見之曰：「宰相之門也。栝柏豫章雖小，已有棟樑氣矣，終當任人家國事。」言之宋明帝，選尚陽羨公主，拜駙馬都尉。帝以儉嫡母武康公主同太初巫蠱事，不可以為婦姑，欲開塚離葬。儉因人自陳，密以死請，故事不行。",
+          "subject_person_mention_id": "c-nanshi-022-wangjian:p001:m0155",
+          "object_person_reference_id": "c-nanshi-022-wangjian:p001:r0142"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
@@ -189,6 +243,36 @@
       "source_id": "s-nanqishu-023-wangjian-ws1545488"
     },
     {
+      "id": "c-nanshi-022-wangjian:p001:r0142",
+      "person_id": "cti_o52_4nz_A",
+      "paragraph_id": "c-nanshi-022-wangjian:p001",
+      "start": 142,
+      "end": 146,
+      "surface": "陽羨公主",
+      "quote": "儉字仲寶，生而僧綽遇害，為叔父僧虔所養。數歲，襲爵豫甯縣侯。拜受茅土，流涕嗚咽。幼篤學，手不釋卷。賓客或相稱美，僧虔曰：「我不患此兒無名，政恐名太盛耳。」乃手書崔子玉座右銘以貽之。丹陽尹袁粲聞其名，及見之曰：「宰相之門也。栝柏豫章雖小，已有棟樑氣矣，終當任人家國事。」言之宋明帝，選尚陽羨公主，拜駙馬都尉。帝以儉嫡母武康公主同太初巫蠱事，不可以為婦姑，欲開塚離葬。儉因人自陳，密以死請，故事不行。",
+      "referent_role": "third_person",
+      "note": "依該段前後稱謂。",
+      "chapter_id": "c-nanshi-022-wangjian",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wangjian-ws1477957"
+    },
+    {
+      "id": "c-nanshi-022-wangjian:p001:r0173",
+      "person_id": "cti_o52_4nz_A",
+      "paragraph_id": "c-nanshi-022-wangjian:p001",
+      "start": 173,
+      "end": 174,
+      "surface": "婦",
+      "quote": "儉字仲寶，生而僧綽遇害，為叔父僧虔所養。數歲，襲爵豫甯縣侯。拜受茅土，流涕嗚咽。幼篤學，手不釋卷。賓客或相稱美，僧虔曰：「我不患此兒無名，政恐名太盛耳。」乃手書崔子玉座右銘以貽之。丹陽尹袁粲聞其名，及見之曰：「宰相之門也。栝柏豫章雖小，已有棟樑氣矣，終當任人家國事。」言之宋明帝，選尚陽羨公主，拜駙馬都尉。帝以儉嫡母武康公主同太初巫蠱事，不可以為婦姑，欲開塚離葬。儉因人自陳，密以死請，故事不行。",
+      "referent_role": "third_person",
+      "note": "依該段前後稱謂。",
+      "chapter_id": "c-nanshi-022-wangjian",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wangjian-ws1477957"
+    },
+    {
       "id": "c-wenxiantongkao-258-yangxian:p001:r0004",
       "paragraph_id": "c-wenxiantongkao-258-yangxian:p001",
       "person_id": "cti_o52_4nz_A",
@@ -246,6 +330,33 @@
       ],
       "status": "source_attested",
       "interpretation_note": "據所引原文及其標目指向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi-022-wangjian-spouse",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEAA",
+      "object_person_id": "cti_o52_4nz_A",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "尚陽羨公主",
+        "nan22jian_kin_frame": "spouse"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "source_id": "s-nanshi-022-wangjian-ws1477957",
+          "chapter_id": "c-nanshi-022-wangjian",
+          "paragraph_id": "c-nanshi-022-wangjian:p001",
+          "quote": "儉字仲寶，生而僧綽遇害，為叔父僧虔所養。數歲，襲爵豫甯縣侯。拜受茅土，流涕嗚咽。幼篤學，手不釋卷。賓客或相稱美，僧虔曰：「我不患此兒無名，政恐名太盛耳。」乃手書崔子玉座右銘以貽之。丹陽尹袁粲聞其名，及見之曰：「宰相之門也。栝柏豫章雖小，已有棟樑氣矣，終當任人家國事。」言之宋明帝，選尚陽羨公主，拜駙馬都尉。帝以儉嫡母武康公主同太初巫蠱事，不可以為婦姑，欲開塚離葬。儉因人自陳，密以死請，故事不行。",
+          "subject_person_mention_id": "c-nanshi-022-wangjian:p001:m0155",
+          "object_person_reference_id": "c-nanshi-022-wangjian:p001:r0142"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

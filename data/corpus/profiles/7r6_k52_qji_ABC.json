@@ -57,10 +57,93 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w076-shu-11-01",
+      "person_id": "7r6_k52_qji_ABC",
+      "title": "侍御史",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangshu-family",
+          "source_id": "s-jinshu-076-wangshu-family",
+          "paragraph_id": "c-jinshu-076-wangshu-family:line011",
+          "quote": "王舒，字處明，丞相導之從弟也。父會，侍御史。舒少為從兄敦所知，以天下多故，不營當時名，恆處私門，潛心學植。年四十餘，州禮命，太傅辟，皆不就。及敦為青州，舒往依焉。時敦被徵為秘書監，以寇難路險，輕騎歸洛陽，委棄公主。時輜重金寶甚多，親賓無不競取，惟舒一無所眄，益為敦所賞。",
+          "person_mention_id": "c-jinshu-076-wangshu-family:line011:m0016"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w076-shu-11-01:a",
+          "paragraph_id": "c-jinshu-076-wangshu-family:line011",
+          "start": 18,
+          "end": 21,
+          "surface": "侍御史",
+          "person_mention_id": "c-jinshu-076-wangshu-family:line011:m0016",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 7,
+      "category": "",
+      "title": "識鑒劉注引《傳》所載王舒家世",
+      "paragraph_id": "c-shishuoxinyu-007-jin076-wangshu:parents",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "舒字處明，琅邪人。祖覽，知名。父會，御史。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-007-jin076-wangshu:parents"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-007-jin076-wangshu:parents:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-007-jin076-wangshu:parents:m0016": "c-shishuoxinyu-007-jin076-wangshu:parents"
+      },
+      "mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0016",
+          "mention_ids": [
+            "c-shishuoxinyu-007-jin076-wangshu:parents:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-007",
+      "chapter_id": "c-shishuoxinyu-007-jin076-wangshu",
+      "source_id": "s-shishuoxinyu-007-jin076-wangshu",
+      "work_title": "世說新語"
+    },
     {
       "number": 33,
       "category": "",
@@ -113,6 +196,41 @@
       "book_id": "b-jinshu-033",
       "chapter_id": "c-jinshu-033-wanglan-family",
       "source_id": "s-jinshu-033-wanglan-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 76,
+      "category": "",
+      "title": "王舒、王允之傳",
+      "paragraph_id": "c-jinshu-076-wangshu-family:line011",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王舒，字處明，丞相導之從弟也。父會，侍御史。舒少為從兄敦所知，以天下多故，不營當時名，恆處私門，潛心學植。年四十餘，州禮命，太傅辟，皆不就。及敦為青州，舒往依焉。時敦被徵為秘書監，以寇難路險，輕騎歸洛陽，委棄公主。時輜重金寶甚多，親賓",
+      "paragraph_ids": [
+        "c-jinshu-076-wangshu-family:line011"
+      ],
+      "mention_ids": [
+        "c-jinshu-076-wangshu-family:line011:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-076-wangshu-family:line011:m0016": "c-jinshu-076-wangshu-family:line011"
+      },
+      "mention_id": "c-jinshu-076-wangshu-family:line011:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-076-wangshu-family:line011:m0016",
+          "mention_ids": [
+            "c-jinshu-076-wangshu-family:line011:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "chapter_id": "c-jinshu-076-wangshu-family",
+      "source_id": "s-jinshu-076-wangshu-family",
       "work_title": "晉書"
     }
   ],
@@ -243,6 +361,54 @@
           "completion_appendix": "同固定修訂2650519補入原始行20–35八段；原八段全文、ID與mentions全值保留。原字漢未、乙太保、Я脯等不靜改。"
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-076-wangshu-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-076",
+      "source_id": "s-jinshu-076-wangshu-family",
+      "source": {
+        "title": "晉書卷七十六王舒及子允之",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2180533",
+        "revision_id": 2180533,
+        "accessed_on": "2026-11-20",
+        "edition": "固定數位轉錄，清乾隆四年武英殿本列為對校書影。",
+        "extent": "固定修訂第11至24行，兩個數位題全錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-lang-zhong-xuan-dai/external/jin076-ws2180533.wikitext",
+        "raw_file_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71",
+        "wikitext_sha256": "872701db949f6f58ea6f183425617dfa82353177d2cc026037bfad953a60cd71"
+      }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-007-jin076-wangshu",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-007",
+      "source_id": "s-shishuoxinyu-007-jin076-wangshu",
+      "source": {
+        "title": "世說新語識鑒",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567464",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567464",
+        "revision_id": 2567464,
+        "accessed_on": "2026-11-20",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin080-wang-xizhi/external/shi-ws2567464.wikitext",
+        "raw_file_sha256": "5ca982fbde04b649e0fb9fe37cfbd51f86b7a606cf2ec13dd182a9a0c120cdff",
+        "wikitext_sha256": "5ca982fbde04b649e0fb9fe37cfbd51f86b7a606cf2ec13dd182a9a0c120cdff"
+      }
     }
   ],
   "relations": [
@@ -285,11 +451,64 @@
           "c-jinshu-033-wanglan-family:p006"
         ]
       }
+    },
+    {
+      "id": "a-w076-shu-hui",
+      "subject_person_id": "nbl_2bu_99w",
+      "object_person_id": "7r6_k52_qji_ABC",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父會"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangshu-family",
+          "source_id": "s-jinshu-076-wangshu-family",
+          "paragraph_id": "c-jinshu-076-wangshu-family:line011",
+          "quote": "王舒，字處明，丞相導之從弟也。父會，侍御史。舒少為從兄敦所知，以天下多故，不營當時名，恆處私門，潛心學植。年四十餘，州禮命，太傅辟，皆不就。及敦為青州，舒往依焉。時敦被徵為秘書監，以寇難路險，輕騎歸洛陽，委棄公主。時輜重金寶甚多，親賓無不競取，惟舒一無所眄，益為敦所賞。",
+          "subject_person_mention_id": "c-jinshu-076-wangshu-family:line011:m0000",
+          "object_person_mention_id": "c-jinshu-076-wangshu-family:line011:m0016"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w076-shu-hui-shi",
+      "subject_person_id": "nbl_2bu_99w",
+      "object_person_id": "7r6_k52_qji_ABC",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父會"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-007",
+          "chapter_id": "c-shishuoxinyu-007-jin076-wangshu",
+          "source_id": "s-shishuoxinyu-007-jin076-wangshu",
+          "paragraph_id": "c-shishuoxinyu-007-jin076-wangshu:parents",
+          "quote": "舒字處明，琅邪人。祖覽，知名。父會，御史。",
+          "subject_person_mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0016"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "7r6_k52_qji_AB": "王覽",
-    "7r6_k52_qji_ABC": "王會"
+    "7r6_k52_qji_ABC": "王會",
+    "nbl_2bu_99w": "王舒"
   },
   "dates": [],
   "name_components": [
@@ -310,6 +529,23 @@
       "human_reviewed": false,
       "model": null,
       "zi": "士和"
+    }
+  ],
+  "person_references": [
+    {
+      "id": "c-jinshu-076-wangshu-family:line015:r0040",
+      "paragraph_id": "c-jinshu-076-wangshu-family:line015",
+      "start": 40,
+      "end": 41,
+      "surface": "父",
+      "person_id": "7r6_k52_qji_ABC",
+      "quote": "上疏辭以父名",
+      "referent_role": "third_person",
+      "note": "依此段書牘、對話或敘述所指。",
+      "chapter_id": "c-jinshu-076-wangshu-family",
+      "book_id": "b-jinshu-076",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-076-wangshu-family"
     }
   ],
   "person_ids": [
@@ -355,6 +591,58 @@
           "c-jinshu-033-wanglan-family:p006"
         ]
       }
+    },
+    {
+      "id": "a-w076-shu-hui",
+      "subject_person_id": "nbl_2bu_99w",
+      "object_person_id": "7r6_k52_qji_ABC",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父會"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangshu-family",
+          "source_id": "s-jinshu-076-wangshu-family",
+          "paragraph_id": "c-jinshu-076-wangshu-family:line011",
+          "quote": "王舒，字處明，丞相導之從弟也。父會，侍御史。舒少為從兄敦所知，以天下多故，不營當時名，恆處私門，潛心學植。年四十餘，州禮命，太傅辟，皆不就。及敦為青州，舒往依焉。時敦被徵為秘書監，以寇難路險，輕騎歸洛陽，委棄公主。時輜重金寶甚多，親賓無不競取，惟舒一無所眄，益為敦所賞。",
+          "subject_person_mention_id": "c-jinshu-076-wangshu-family:line011:m0000",
+          "object_person_mention_id": "c-jinshu-076-wangshu-family:line011:m0016"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w076-shu-hui-shi",
+      "subject_person_id": "nbl_2bu_99w",
+      "object_person_id": "7r6_k52_qji_ABC",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父會"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-007",
+          "chapter_id": "c-shishuoxinyu-007-jin076-wangshu",
+          "source_id": "s-shishuoxinyu-007-jin076-wangshu",
+          "paragraph_id": "c-shishuoxinyu-007-jin076-wangshu:parents",
+          "quote": "舒字處明，琅邪人。祖覽，知名。父會，御史。",
+          "subject_person_mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0016"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "assembled_identity": {

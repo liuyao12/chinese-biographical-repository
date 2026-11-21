@@ -715,6 +715,41 @@
       "work_title": "世說新語"
     },
     {
+      "number": 7,
+      "category": "",
+      "title": "識鑒劉注引《傳》所載王舒家世",
+      "paragraph_id": "c-shishuoxinyu-007-jin076-wangshu:parents",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "舒字處明，琅邪人。祖覽，知名。父會，御史。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-007-jin076-wangshu:parents"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-007-jin076-wangshu:parents:m0010"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-007-jin076-wangshu:parents:m0010": "c-shishuoxinyu-007-jin076-wangshu:parents"
+      },
+      "mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0010",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0010",
+          "mention_ids": [
+            "c-shishuoxinyu-007-jin076-wangshu:parents:m0010"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-007",
+      "chapter_id": "c-shishuoxinyu-007-jin076-wangshu",
+      "source_id": "s-shishuoxinyu-007-jin076-wangshu",
+      "work_title": "世說新語"
+    },
+    {
       "number": 33,
       "category": "",
       "title": "王祥、王覽本傳",
@@ -1777,6 +1812,30 @@
         "raw_path": "source-evidence/jin080-wang-xizhi/external/shi-ws2567464.wikitext",
         "raw_file_sha256": "5ca982fbde04b649e0fb9fe37cfbd51f86b7a606cf2ec13dd182a9a0c120cdff"
       }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-007-jin076-wangshu",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-007",
+      "source_id": "s-shishuoxinyu-007-jin076-wangshu",
+      "source": {
+        "title": "世說新語識鑒",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567464",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567464",
+        "revision_id": 2567464,
+        "accessed_on": "2026-11-20",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin080-wang-xizhi/external/shi-ws2567464.wikitext",
+        "raw_file_sha256": "5ca982fbde04b649e0fb9fe37cfbd51f86b7a606cf2ec13dd182a9a0c120cdff",
+        "wikitext_sha256": "5ca982fbde04b649e0fb9fe37cfbd51f86b7a606cf2ec13dd182a9a0c120cdff"
+      }
     }
   ],
   "relations": [
@@ -2150,6 +2209,32 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-w076-shu-lan-shi",
+      "subject_person_id": "nbl_2bu_99w",
+      "object_person_id": "7r6_k52_qji_AB",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖覽"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-007",
+          "chapter_id": "c-shishuoxinyu-007-jin076-wangshu",
+          "source_id": "s-shishuoxinyu-007-jin076-wangshu",
+          "paragraph_id": "c-shishuoxinyu-007-jin076-wangshu:parents",
+          "quote": "舒字處明，琅邪人。祖覽，知名。父會，御史。",
+          "subject_person_mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0010"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
@@ -2164,6 +2249,7 @@
     "7r6_k52_qji_ABE": "王彥",
     "7r6_k52_qji_ABF": "王琛",
     "jmt_uha_exg": "王覽妻（未名）",
+    "nbl_2bu_99w": "王舒",
     "p8y_56i_5gn": "朱氏（王覽母）"
   },
   "dates": [
@@ -2745,6 +2831,32 @@
           "quote": "彬字世儒，琅邪人。祖覽，父正，並有名德。",
           "subject_person_mention_id": "c-shishuoxinyu-007-jin076-wangbin:origins:m0000",
           "object_person_mention_id": "c-shishuoxinyu-007-jin076-wangbin:origins:m0010"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w076-shu-lan-shi",
+      "subject_person_id": "nbl_2bu_99w",
+      "object_person_id": "7r6_k52_qji_AB",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖覽"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-007",
+          "chapter_id": "c-shishuoxinyu-007-jin076-wangshu",
+          "source_id": "s-shishuoxinyu-007-jin076-wangshu",
+          "paragraph_id": "c-shishuoxinyu-007-jin076-wangshu:parents",
+          "quote": "舒字處明，琅邪人。祖覽，知名。父會，御史。",
+          "subject_person_mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-007-jin076-wangshu:parents:m0010"
         }
       ],
       "interpretation_note": "此條按本句所明言。",

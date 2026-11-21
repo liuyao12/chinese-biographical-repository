@@ -330,10 +330,54 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-w076-jiao-qiu",
+      "subject_person_id": "rdl_pp9_ce4",
+      "object_person_id": "z5y_tpd_2du",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "矯從兄球",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "z5y_tpd_2du",
+          "younger_person_id": "rdl_pp9_ce4",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangbiaozhi",
+          "source_id": "s-jinshu-076-wangbiaozhi",
+          "paragraph_id": "c-jinshu-076-wangbiaozhi:line057",
+          "quote": "時永嘉太守謝毅。赦後殺郡人周矯，矯從兄球詣州訴冤。揚州刺史殷浩遣從事疏收毅，付廷尉。彪之以球為獄主，身無王爵，非廷尉所料，不肯受，與州相反復。穆帝發詔令受之。彪之又上疏執據，時人比之張釋之。時當南郊，簡文帝為撫軍，執政，訪彪之應有赦不。答曰：「中興以來，郊祀往往有赦，愚意嘗謂非宜。何者？黎庶不達其意，將謂效祀必赦，至此時，凶愚之輩復生心於僥倖矣。」遂從之。",
+          "subject_person_mention_id": "c-jinshu-076-wangbiaozhi:line057:m0016",
+          "object_person_mention_id": "c-jinshu-076-wangbiaozhi:line057:m0019"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
     "3xx_gdy_or6_BAB": "周矯",
-    "rdl_pp9_ce4": "周矯"
+    "rdl_pp9_ce4": "周矯",
+    "z5y_tpd_2du": "周球"
   },
   "dates": [],
   "unresolved_identity_cases": [
@@ -357,7 +401,50 @@
   "person_ids": [
     "rdl_pp9_ce4"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-w076-jiao-qiu",
+      "subject_person_id": "rdl_pp9_ce4",
+      "object_person_id": "z5y_tpd_2du",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "矯從兄球",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "z5y_tpd_2du",
+          "younger_person_id": "rdl_pp9_ce4",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "chapter_id": "c-jinshu-076-wangbiaozhi",
+          "source_id": "s-jinshu-076-wangbiaozhi",
+          "paragraph_id": "c-jinshu-076-wangbiaozhi:line057",
+          "quote": "時永嘉太守謝毅。赦後殺郡人周矯，矯從兄球詣州訴冤。揚州刺史殷浩遣從事疏收毅，付廷尉。彪之以球為獄主，身無王爵，非廷尉所料，不肯受，與州相反復。穆帝發詔令受之。彪之又上疏執據，時人比之張釋之。時當南郊，簡文帝為撫軍，執政，訪彪之應有赦不。答曰：「中興以來，郊祀往往有赦，愚意嘗謂非宜。何者？黎庶不達其意，將謂效祀必赦，至此時，凶愚之輩復生心於僥倖矣。」遂從之。",
+          "subject_person_mention_id": "c-jinshu-076-wangbiaozhi:line057:m0016",
+          "object_person_mention_id": "c-jinshu-076-wangbiaozhi:line057:m0019"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [
     {

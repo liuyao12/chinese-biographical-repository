@@ -1,0 +1,131 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-shishuoxinyu-005-jin076-wangbiaozhi",
+  "work_id": "w-shishuoxinyu",
+  "book_id": "b-shishuoxinyu-005",
+  "source_id": "s-shishuoxinyu-005-jin076-wangbiaozhi",
+  "title": "方正劉注引王彪之別傳、徐廣晉紀",
+  "source": {
+    "title": "世說新語方正",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2567462",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567462",
+    "revision_id": 2567462,
+    "accessed_on": "2026-10-18",
+    "extent": "下列來源節錄。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "edition": "固定修訂相關原文，逐字核收。",
+    "wikitext_sha256": "fe12e14d6e67a7ed4e8b0ca80124762d30c1995b3f890783ada310c1f80cb40e",
+    "raw_path": "source-evidence/jin065-wangdao-main/external/fang-ws2567462.wikitext",
+    "raw_file_sha256": "fe12e14d6e67a7ed4e8b0ca80124762d30c1995b3f890783ada310c1f80cb40e"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "human_reviewed": false,
+    "scope": "本次來源節錄。",
+    "reviewed_unit_evidence": [
+      {
+        "unit": "方正劉注引王彪之別傳、徐廣晉紀",
+        "path": "source-evidence/jin076-wang-biaozhi/reading.json"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-shishuoxinyu-005-jin076-wangbiaozhi:uncle",
+      "text": "彪之從伯導謂彪之曰：『選曹舉汝爲尚書郎，幸可作諸王佐邪？』",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-005-jin076-wangbiaozhi:uncle:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "彪之",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDBB",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-shishuoxinyu-005-jin076-wangbiaozhi:uncle:m0004",
+          "start": 4,
+          "end": 5,
+          "surface": "導",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-shishuoxinyu-005-jin076-wangbiaozhi:uncle:m0006",
+          "start": 6,
+          "end": 8,
+          "surface": "彪之",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDBB",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "witness_appended_liuxiaobiao_note",
+      "source_quote": {
+        "witness": "fang",
+        "quote": "{{ProperNoun|彪之}}從伯{{ProperNoun|導}}謂{{ProperNoun|彪}}之曰：『選曹舉汝爲尚書郎，幸可作諸王佐邪？』",
+        "raw_start": 33065,
+        "raw_end": 33139,
+        "raw_line": 48,
+        "source_layer": "劉注引王彪之別傳"
+      },
+      "attribution": {
+        "annotator": "劉孝標",
+        "quoted_work": "王彪之別傳"
+      }
+    },
+    {
+      "id": "c-shishuoxinyu-005-jin076-wangbiaozhi:palace",
+      "text": "孝武寧康二年，尚書令王彪之等啓改作新宮。太元三年二月，内外軍六千人始營築，至七月而成。",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-005-jin076-wangbiaozhi:palace:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孝武",
+          "kind": "person",
+          "person_id": "uke_dff_yrf",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-shishuoxinyu-005-jin076-wangbiaozhi:palace:m0010",
+          "start": 10,
+          "end": 13,
+          "surface": "王彪之",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDBB",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "witness_appended_liuxiaobiao_note",
+      "source_quote": {
+        "witness": "fang",
+        "quote": "{{ProperNoun|孝武}}{{ProperNoun|-{寧}-康}}二年，尚書令{{ProperNoun|王彪之}}等啓改作新宮。{{ProperNoun|太元}}三年二月，内外軍六千人始營-{築}-，至七月而成。",
+        "raw_start": 37994,
+        "raw_end": 38105,
+        "raw_line": 64,
+        "source_layer": "劉注引晉紀"
+      },
+      "attribution": {
+        "annotator": "劉孝標",
+        "quoted_work": "晉紀"
+      }
+    }
+  ],
+  "text_sha256": "2831a79214b3acdec2e414d5d79bb7f318e1888e8afd785d7276a8a96ae8150f"
+}

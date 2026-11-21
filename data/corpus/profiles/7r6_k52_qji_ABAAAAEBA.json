@@ -11,6 +11,54 @@
   ],
   "titles": [
     {
+      "id": "th-wyext-t-19",
+      "person_id": "7r6_k52_qji_ABAAAAEBA",
+      "title": "侍中",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-wyext-t-19:a",
+          "person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0014",
+          "date_expression": null,
+          "usage": "narrative",
+          "paragraph_id": "c-liangshu-021-wangtai-wangyun:p001",
+          "start": 19,
+          "end": 21,
+          "surface": "侍中"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+          "chapter_id": "c-liangshu-021-wangtai-wangyun",
+          "paragraph_id": "c-liangshu-021-wangtai-wangyun:p001",
+          "quote": "王泰字仲通，志長兄慈之子也。慈，齊時歷侍中、吳郡，知名在志右。",
+          "person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "慈在齊所歷官。傳文另省稱吳郡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-wang25-116",
       "person_id": "7r6_k52_qji_ABAAAAEBA",
       "status": "source_attested",
@@ -110,6 +158,50 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 21,
+      "category": "",
+      "title": "王泰、王慈與王志",
+      "paragraph_id": "c-liangshu-021-wangtai-wangyun:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王泰字仲通，志長兄慈之子也。慈，齊時歷侍中、吳郡，知名在志右。",
+      "paragraph_ids": [
+        "c-liangshu-021-wangtai-wangyun:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-021-wangtai-wangyun:p001:m0009",
+        "c-liangshu-021-wangtai-wangyun:p001:m0014"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-021-wangtai-wangyun:p001:m0009": "c-liangshu-021-wangtai-wangyun:p001",
+        "c-liangshu-021-wangtai-wangyun:p001:m0014": "c-liangshu-021-wangtai-wangyun:p001"
+      },
+      "mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0009",
+          "mention_ids": [
+            "c-liangshu-021-wangtai-wangyun:p001:m0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0014",
+          "mention_ids": [
+            "c-liangshu-021-wangtai-wangyun:p001:m0014"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-021",
+      "chapter_id": "c-liangshu-021-wangtai-wangyun",
+      "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+      "work_title": "梁書"
+    },
     {
       "number": 22,
       "category": "",
@@ -236,6 +328,33 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-liangshu-021-wangtai-wangyun",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-021",
+      "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+      "source": {
+        "title": "梁書卷21·王泰、王慈與王志",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=梁書/卷21&oldid=1544250",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=梁書/卷21&oldid=1544250",
+        "revision_id": 1544250,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "extent": "選錄與王筠有關的署名、親屬或王泰傳首，截取界見逐字投影。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi022-wangzhi-family/external/liang021-ws1544250.wikitext",
+        "raw_file_sha256": "d547d5b8e194f36e62b748cdfb6f18366378bb372ffb8d5b82e721ca2ccb3fab",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "rights": "古代正文及維基文庫固定數位轉錄。",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依原行所列起訖截取，保留原字及標點。"
+        }
+      }
+    },
     {
       "chapter_id": "c-nanqishu-033-wangsengqian",
       "work_id": "w-nanqishu",
@@ -3319,6 +3438,67 @@
   ],
   "relations": [
     {
+      "id": "a-wyext-tai-father",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBAA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEBA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "慈之子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+          "chapter_id": "c-liangshu-021-wangtai-wangyun",
+          "paragraph_id": "c-liangshu-021-wangtai-wangyun:p001",
+          "quote": "王泰字仲通，志長兄慈之子也。慈，齊時歷侍中、吳郡，知名在志右。",
+          "subject_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0000",
+          "object_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段傳主與親屬詞分別繫於原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wyext-ci-older-than-zhi",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEBC",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "志長兄慈",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAEBA",
+          "younger_person_id": "7r6_k52_qji_ABAAAAEBC",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+          "chapter_id": "c-liangshu-021-wangtai-wangyun",
+          "paragraph_id": "c-liangshu-021-wangtai-wangyun:p001",
+          "quote": "王泰字仲通，志長兄慈之子也。慈，齊時歷侍中、吳郡，知名在志右。",
+          "subject_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0009",
+          "object_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段傳主與親屬詞分別繫於原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanqi033-wangsengqian-015",
       "subject_person_id": "7r6_k52_qji_ABAAAAEBA",
       "predicate": "father",
@@ -3415,6 +3595,7 @@
   "related_people": {
     "7r6_k52_qji_ABAAAAEB": "王僧虔",
     "7r6_k52_qji_ABAAAAEBA": "王慈",
+    "7r6_k52_qji_ABAAAAEBAA": "王泰（字仲通）",
     "7r6_k52_qji_ABAAAAEBC": "王志"
   },
   "dates": [
@@ -3478,6 +3659,67 @@
     "7r6_k52_qji_ABAAAAEBA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-wyext-tai-father",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBAA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEBA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "慈之子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+          "chapter_id": "c-liangshu-021-wangtai-wangyun",
+          "paragraph_id": "c-liangshu-021-wangtai-wangyun:p001",
+          "quote": "王泰字仲通，志長兄慈之子也。慈，齊時歷侍中、吳郡，知名在志右。",
+          "subject_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0000",
+          "object_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段傳主與親屬詞分別繫於原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wyext-ci-older-than-zhi",
+      "subject_person_id": "7r6_k52_qji_ABAAAAEBA",
+      "object_person_id": "7r6_k52_qji_ABAAAAEBC",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "志長兄慈",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAEBA",
+          "younger_person_id": "7r6_k52_qji_ABAAAAEBC",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-021",
+          "source_id": "s-liangshu-021-wangtai-wangyun-ws1544250",
+          "chapter_id": "c-liangshu-021-wangtai-wangyun",
+          "paragraph_id": "c-liangshu-021-wangtai-wangyun:p001",
+          "quote": "王泰字仲通，志長兄慈之子也。慈，齊時歷侍中、吳郡，知名在志右。",
+          "subject_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0009",
+          "object_person_mention_id": "c-liangshu-021-wangtai-wangyun:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按同段傳主與親屬詞分別繫於原句。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nanqi033-wangsengqian-015",
       "subject_person_id": "7r6_k52_qji_ABAAAAEBA",

@@ -133,6 +133,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 5,
+      "category": "",
+      "title": "方正劉注引王彪之別傳、徐廣晉紀",
+      "paragraph_id": "c-shishuoxinyu-005-jin076-wangbiaozhi:palace",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孝武寧康二年，尚書令王彪之等啓改作新宮。太元三年二月，内外軍六千人始營築，至七月而成。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-005-jin076-wangbiaozhi:palace"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-005-jin076-wangbiaozhi:palace:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-005-jin076-wangbiaozhi:palace:m0000": "c-shishuoxinyu-005-jin076-wangbiaozhi:palace"
+      },
+      "mention_id": "c-shishuoxinyu-005-jin076-wangbiaozhi:palace:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-005-jin076-wangbiaozhi:palace:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-005-jin076-wangbiaozhi:palace:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-005",
+      "chapter_id": "c-shishuoxinyu-005-jin076-wangbiaozhi",
+      "source_id": "s-shishuoxinyu-005-jin076-wangbiaozhi",
+      "work_title": "世說新語"
+    },
+    {
       "number": 24,
       "category": "",
       "title": "卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘",
@@ -16038,6 +16073,33 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-022-wangjian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangjian-ws1477957",
+      "source": {
+        "title": "南史/卷22·王儉及王遜傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/南史/卷22",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷22&oldid=1477957",
+        "edition": "固定數位見證",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-21",
+        "text_scope": "partial_chapter",
+        "extent": "本傳或單段附敘全文",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "rights": "原典本文及可追溯校記",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留傳本文字及今本補字方括；排版界符和另存的校記依原字位投影。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanshi-033-pei-family",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-033",
@@ -16102,6 +16164,30 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-005-jin076-wangbiaozhi",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-005",
+      "source_id": "s-shishuoxinyu-005-jin076-wangbiaozhi",
+      "source": {
+        "title": "世說新語方正",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567462",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567462",
+        "revision_id": 2567462,
+        "accessed_on": "2026-10-18",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "fe12e14d6e67a7ed4e8b0ca80124762d30c1995b3f890783ada310c1f80cb40e",
+        "raw_path": "source-evidence/jin065-wangdao-main/external/fang-ws2567462.wikitext",
+        "raw_file_sha256": "fe12e14d6e67a7ed4e8b0ca80124762d30c1995b3f890783ada310c1f80cb40e"
       }
     },
     {
@@ -21777,6 +21863,21 @@
       "book_id": "b-jinshu-080",
       "work_id": "w-jinshu",
       "source_id": "s-jinshu-080-wangxizhi-family"
+    },
+    {
+      "id": "c-nanshi-022-wangjian:p010:r0314",
+      "person_id": "uke_dff_yrf",
+      "paragraph_id": "c-nanshi-022-wangjian:p010",
+      "start": 314,
+      "end": 316,
+      "surface": "孝武",
+      "quote": "儉尋以本官領太子詹事，加兵三百人。時皇太子妃薨，左衛將軍沈文季經為宮臣，未詳服不。儉議曰：「漢、魏以來，宮僚先備臣隸之節，具體在三。存既盡敬，亡豈無服？昔庾翼喪妻，王允、滕含猶謂府吏宜有小君之服，況臣節之重。宜依禮為舊君之妻齊衰三月而除。」上崩，遺詔以儉為侍中、尚書令、鎮軍。每上朝，令史恒有三五十人隨上，諮事辯析，未嘗壅滯。褚彥回時為司徒、錄尚書，笑謂儉曰：「觀令判斷甚樂。」儉曰：「所以得厝私懷，實由稟明公不言之化。」武帝即位，給班劍二十人，進號衛將軍，掌選事。時有司以前代嗣位，或仍前郊年，或別為郊始，晉、宋以來，未有畫一。儉議曰：「晉明帝太寧三年南郊，其年九月崩；成帝即位，明年改元，亦郊。簡文咸安二年南郊，其年七月崩；孝武即位，明年改元，亦郊。宋元嘉三十年正月南郊，二月崩；孝武嗣位，明年亦郊。此二代明例，差可依放。今聖明系業，幽顯宅心，言化則頻郊非嫌，語事則元號初改，禋燎登配，孝敬兼遂。謂明年正月宜饗祀二郊，虔祭明堂。自茲以後，依舊間歲。」有司又以明年正月上辛應南郊，而立春在上辛後，郊在立春前為疑。儉曰：「宋景平元年正月三日辛丑南郊，其月十一日立春，元嘉十六年正月六日辛未南郊，其月八日立春，此近世明例也。」並從之。",
+      "referent_role": "third_person",
+      "note": "依該段前後稱謂。",
+      "chapter_id": "c-nanshi-022-wangjian",
+      "book_id": "b-nanshi-022",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-022-wangjian-ws1477957"
     }
   ],
   "person_ids": [

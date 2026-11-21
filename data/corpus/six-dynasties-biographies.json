@@ -545,6 +545,23 @@
             "c-nanshi-022-wangsengchuo-wyd:p004",
             "c-nanshi-022-wangsengchuo-wyd:p005"
           ]
+        },
+        {
+          "title": "王筠傳及子祥附敘",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangyun-family-wyd",
+          "complete": true,
+          "location": "source-evidence/nanshi022-wangyun/wyd-columns.txt",
+          "paragraph_ids": [
+            "c-nanshi-022-wangyun-family-wyd:p001",
+            "c-nanshi-022-wangyun-family-wyd:p002",
+            "c-nanshi-022-wangyun-family-wyd:p003",
+            "c-nanshi-022-wangyun-family-wyd:p004",
+            "c-nanshi-022-wangyun-family-wyd:p005",
+            "c-nanshi-022-wangyun-family-wyd:p006",
+            "c-nanshi-022-wangyun-family-wyd:p007",
+            "c-nanshi-022-wangyun-family-wyd:p008"
+          ]
         }
       ],
       "pending_boundaries": [
@@ -821,6 +838,23 @@
         {
           "person": "沈充、沈勁、沈赤黔、沈叔任、沈融之",
           "note": "沈演之傳首第六十三行分代敘述；尤須另核叔任守涪與卒年。"
+        }
+      ],
+      "text_witness_units": [
+        {
+          "title": "王曇首傳",
+          "book_id": "b-songshu-063",
+          "chapter_id": "c-songshu-063-wangtanshou-wyd",
+          "complete": true,
+          "location": "source-evidence/song063-wang/wyd-columns.txt",
+          "paragraph_ids": [
+            "c-songshu-063-wangtanshou-wyd:p001",
+            "c-songshu-063-wangtanshou-wyd:p002",
+            "c-songshu-063-wangtanshou-wyd:p003",
+            "c-songshu-063-wangtanshou-wyd:p004",
+            "c-songshu-063-wangtanshou-wyd:p005",
+            "c-songshu-063-wangtanshou-wyd:p006"
+          ]
         }
       ]
     },
@@ -1709,8 +1743,8 @@
       "heading_raw": "==王舒==",
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false,
+      "first_pass": true,
+      "item_reviewed": true,
       "chapter_path": "corpus/jinshu/076-wangshu-family.json",
       "paragraph_ids": [
         "c-jinshu-076-wangshu-family:line011",
@@ -1745,8 +1779,8 @@
       "mixed_chapter": true,
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-076",
@@ -1763,8 +1797,8 @@
       "heading_raw": "===子允之===",
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false,
+      "first_pass": true,
+      "item_reviewed": true,
       "chapter_path": "corpus/jinshu/076-wangshu-family.json",
       "paragraph_ids": [
         "c-jinshu-076-wangshu-family:line020",
@@ -1788,8 +1822,8 @@
       "heading_raw": "==王廙==",
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false,
+      "first_pass": true,
+      "item_reviewed": true,
       "chapter_path": "corpus/jinshu/076.json",
       "paragraph_ids": [
         "c-jinshu-076-wangyi-family:p001",
@@ -1830,8 +1864,8 @@
       "mixed_chapter": true,
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-076",
@@ -1858,8 +1892,8 @@
       "mixed_chapter": true,
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-076",
@@ -1886,8 +1920,8 @@
       "mixed_chapter": true,
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-076",
@@ -1914,8 +1948,8 @@
       "mixed_chapter": true,
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-076",
@@ -1986,8 +2020,8 @@
       "heading_raw": "===彬子彪之===",
       "entry_checked": true,
       "full_text": true,
-      "first_pass": false,
-      "item_reviewed": false,
+      "first_pass": true,
+      "item_reviewed": true,
       "chapter_path": "corpus/jinshu/076-wangbiaozhi.json",
       "paragraph_ids": [
         "c-jinshu-076-wangbiaozhi:line055",
@@ -6569,37 +6603,214 @@
       "book_id": "b-nanshi-021",
       "title": "王僧達",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanshi-021-wangsengda",
       "heading_line": 41,
       "heading_raw": "===弘少子 僧達===",
       "first_line": 43,
-      "last_line": 59,
+      "last_line": 55,
       "start_codepoint": 0,
-      "end_codepoint": 26,
+      "end_codepoint": 441,
       "opening": "僧達幼聰敏，弘爲揚州",
+      "closing": "門爵國姻，一不貶絶。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanshi/021-wangsengda.json",
+      "paragraph_ids": [
+        "c-nanshi-021-wangsengda:p001",
+        "c-nanshi-021-wangsengda:p002",
+        "c-nanshi-021-wangsengda:p003",
+        "c-nanshi-021-wangsengda:p004",
+        "c-nanshi-021-wangsengda:p005",
+        "c-nanshi-021-wangsengda:p006",
+        "c-nanshi-021-wangsengda:p007"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-021-wangsengda:p001": {
+          "start": 0,
+          "end": 104
+        },
+        "c-nanshi-021-wangsengda:p002": {
+          "start": 0,
+          "end": 153
+        },
+        "c-nanshi-021-wangsengda:p003": {
+          "start": 0,
+          "end": 108
+        },
+        "c-nanshi-021-wangsengda:p004": {
+          "start": 0,
+          "end": 141
+        },
+        "c-nanshi-021-wangsengda:p005": {
+          "start": 0,
+          "end": 214
+        },
+        "c-nanshi-021-wangsengda:p006": {
+          "start": 0,
+          "end": 263
+        },
+        "c-nanshi-021-wangsengda:p007": {
+          "start": 0,
+          "end": 441
+        }
+      },
+      "mixed_chapter": false
+    },
+    {
+      "book_id": "b-nanshi-021",
+      "title": "蘇寶生附敘",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-021-subaosheng",
+      "chapter_path": "corpus/nanshi/021-subaosheng.json",
+      "paragraph_ids": [
+        "c-nanshi-021-subaosheng:p001"
+      ],
+      "first_line": 57,
+      "start_codepoint": 0,
+      "last_line": 57,
+      "end_codepoint": 51,
+      "opening": "時有蘇寶者名寶生，本",
+      "closing": "，不即聞啟，亦伏誅。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "paragraph_slices": {
+        "c-nanshi-021-subaosheng:p001": {
+          "start": 0,
+          "end": 47
+        }
+      },
+      "mixed_chapter": false,
+      "parent_heading": "弘少子 僧達"
+    },
+    {
+      "book_id": "b-nanshi-021",
+      "title": "王道琰附敘",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-021-wangdaoyan",
+      "chapter_path": "corpus/nanshi/021-wangdaoyan.json",
+      "paragraph_ids": [
+        "c-nanshi-021-wangdaoyan:p001"
+      ],
+      "first_line": 59,
+      "start_codepoint": 0,
+      "last_line": 59,
+      "end_codepoint": 26,
+      "opening": "僧達子道琰，徙新安。",
       "closing": "陵內史，未至郡，卒。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "paragraph_slices": {
+        "c-nanshi-021-wangdaoyan:p001": {
+          "start": 0,
+          "end": 26
+        }
+      },
+      "mixed_chapter": false,
+      "parent_heading": "弘少子 僧達"
     },
     {
       "book_id": "b-nanshi-021",
       "title": "王融",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanshi-021-wangrong",
       "heading_line": 61,
       "heading_raw": "====僧達孫 融====",
       "first_line": 63,
       "last_line": 73,
       "start_codepoint": 0,
-      "end_codepoint": 646,
+      "end_codepoint": 544,
       "opening": "融字元長，少而神明警",
-      "closing": "膽破。融文集行于時。",
+      "closing": "斥帝在東宮時過失也。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanshi/021-wangrong.json",
+      "paragraph_ids": [
+        "c-nanshi-021-wangrong:p001",
+        "c-nanshi-021-wangrong:p002",
+        "c-nanshi-021-wangrong:p003",
+        "c-nanshi-021-wangrong:p004",
+        "c-nanshi-021-wangrong:p005",
+        "c-nanshi-021-wangrong:p006"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-021-wangrong:p001": {
+          "start": 0,
+          "end": 143
+        },
+        "c-nanshi-021-wangrong:p002": {
+          "start": 0,
+          "end": 424
+        },
+        "c-nanshi-021-wangrong:p003": {
+          "start": 0,
+          "end": 146
+        },
+        "c-nanshi-021-wangrong:p004": {
+          "start": 0,
+          "end": 60
+        },
+        "c-nanshi-021-wangrong:p005": {
+          "start": 0,
+          "end": 296
+        },
+        "c-nanshi-021-wangrong:p006": [
+          {
+            "start": 0,
+            "end": 544
+          },
+          {
+            "start": 639,
+            "end": 646
+          }
+        ]
+      },
+      "mixed_chapter": true,
+      "continuation_spans": [
+        {
+          "first_line": 73,
+          "last_line": 73,
+          "start_codepoint": 639,
+          "end_codepoint": 646,
+          "opening": "融文集行于時。",
+          "closing": "融文集行于時。"
+        }
+      ]
+    },
+    {
+      "book_id": "b-nanshi-021",
+      "title": "魏准附敘",
+      "unit_kind": "embedded_account",
+      "chapter_id": "c-nanshi-021-wangrong",
+      "chapter_path": "corpus/nanshi/021-wangrong.json",
+      "paragraph_ids": [
+        "c-nanshi-021-wangrong:p006"
+      ],
+      "first_line": 73,
+      "start_codepoint": 544,
+      "last_line": 73,
+      "end_codepoint": 639,
+      "opening": "先是，太學生會稽魏准",
+      "closing": "皆青，時人以准膽破。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "parent_heading": "僧達孫 融",
+      "mixed_chapter": true,
+      "paragraph_slices": {
+        "c-nanshi-021-wangrong:p006": {
+          "start": 544,
+          "end": 639
+        }
+      }
     },
     {
       "book_id": "b-nanshi-021",
@@ -7043,11 +7254,11 @@
       "book_id": "b-nanshi-022",
       "title": "王儉",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanshi-022-wangjian",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "first_line": 30,
       "start_codepoint": 0,
       "last_line": 54,
@@ -7065,23 +7276,58 @@
           "opening": "長子騫嗣。",
           "closing": "長子騫嗣。"
         }
-      ]
+      ],
+      "chapter_path": "corpus/nanshi/022-wangjian.json",
+      "paragraph_ids": [
+        "c-nanshi-022-wangjian:p001",
+        "c-nanshi-022-wangjian:p002",
+        "c-nanshi-022-wangjian:p003",
+        "c-nanshi-022-wangjian:p004",
+        "c-nanshi-022-wangjian:p005",
+        "c-nanshi-022-wangjian:p006",
+        "c-nanshi-022-wangjian:p007",
+        "c-nanshi-022-wangjian:p008",
+        "c-nanshi-022-wangjian:p009",
+        "c-nanshi-022-wangjian:p010",
+        "c-nanshi-022-wangjian:p011",
+        "c-nanshi-022-wangjian:p012",
+        "c-nanshi-022-wangjian:p013",
+        "c-nanshi-022-wangjian:p014"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-022-wangjian:p014": {
+          "start": 85,
+          "end": 90
+        }
+      },
+      "mixed_chapter": true
     },
     {
       "book_id": "b-nanshi-022",
       "title": "王遜",
       "unit_kind": "embedded_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanshi-022-wangjian",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "first_line": 56,
       "start_codepoint": 0,
       "last_line": 56,
       "end_codepoint": 85,
       "opening": "儉弟遜，宋升明中為丹",
-      "closing": "徙永嘉郡，於道伏誅。"
+      "closing": "徙永嘉郡，於道伏誅。",
+      "chapter_path": "corpus/nanshi/022-wangjian.json",
+      "paragraph_ids": [
+        "c-nanshi-022-wangjian:p014"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-022-wangjian:p014": {
+          "start": 0,
+          "end": 85
+        }
+      },
+      "mixed_chapter": true
     },
     {
       "book_id": "b-nanshi-022",
@@ -7330,11 +7576,11 @@
       "book_id": "b-nanshi-022",
       "title": "王筠",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanshi-022-wangyun-family",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "first_line": 156,
       "start_codepoint": 0,
       "last_line": 168,
@@ -7342,23 +7588,46 @@
       "opening": "筠字元禮，一字德柔，",
       "closing": "，凡一百卷，行於世。",
       "heading_line": 154,
-      "heading_raw": "=====揖子 筠====="
+      "heading_raw": "=====揖子 筠=====",
+      "chapter_path": "corpus/nanshi/022-wangyun-family.json",
+      "paragraph_ids": [
+        "c-nanshi-022-wangyun-family:p001",
+        "c-nanshi-022-wangyun-family:p002",
+        "c-nanshi-022-wangyun-family:p003",
+        "c-nanshi-022-wangyun-family:p004",
+        "c-nanshi-022-wangyun-family:p005",
+        "c-nanshi-022-wangyun-family:p006",
+        "c-nanshi-022-wangyun-family:p007"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_inline_phonetic_glosses"
     },
     {
       "book_id": "b-nanshi-022",
       "title": "王祥（王筠子）",
       "unit_kind": "embedded_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanshi-022-wangyun-family",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "first_line": 170,
       "start_codepoint": 0,
       "last_line": 170,
       "end_codepoint": 11,
       "opening": "子祥，仕陳位黃門侍郎",
-      "closing": "祥，仕陳位黃門侍郎。"
+      "closing": "祥，仕陳位黃門侍郎。",
+      "chapter_path": "corpus/nanshi/022-wangyun-family.json",
+      "paragraph_ids": [
+        "c-nanshi-022-wangyun-family:p008"
+      ],
+      "mixed_chapter": true,
+      "paragraph_slices": {
+        "c-nanshi-022-wangyun-family:p008": {
+          "start": 0,
+          "end": 11
+        }
+      }
     },
     {
       "book_id": "b-nanshi-022",
