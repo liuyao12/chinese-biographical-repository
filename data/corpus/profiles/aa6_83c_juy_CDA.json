@@ -60,6 +60,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-nanshi019-zhan-50-27",
+      "person_id": "aa6_83c_juy_CDA",
+      "title": "祕書郎",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-nan19",
+          "source_id": "s-nanshi-019-nan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-nan19:zhan-l050",
+          "quote": "瞻文章之美，與從叔混、族弟靈運相抗。靈運父瑍無才能，爲祕書郎早卒，而靈運好臧否人物。混患之，欲加裁折，未有其方。謂瞻曰：「非汝莫能。」乃與晦、曜、弘微等共遊戲，使瞻與靈運共車。靈運登車便商較人物，瞻謂曰：「祕書早亡，談者亦互有同異。」靈運默然，言論自此衰止。",
+          "person_mention_id": "c-nanshi-019-nan19:zhan-l050:m0021"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-nanshi019-zhan-50-27:a1",
+          "paragraph_id": "c-nanshi-019-nan19:zhan-l050",
+          "start": 27,
+          "end": 30,
+          "surface": "祕書郎",
+          "person_mention_id": "c-nanshi-019-nan19:zhan-l050:m0021",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "記名銜出處，起訖另以明載時句判讀。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-song056-f20-020",
       "person_id": "aa6_83c_juy_CDA",
       "title": "祕書郎",
@@ -110,6 +158,41 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 19,
+      "category": "",
+      "title": "謝晦傳及兄弟附敘",
+      "paragraph_id": "c-nanshi-019-nan19:zhan-l050",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "瞻文章之美，與從叔混、族弟靈運相抗。靈運父瑍無才能，爲祕書郎早卒，而靈運好臧否人物。混患之，欲加裁折，未有其方。謂瞻曰：「非汝莫能。」乃與晦、曜、弘微等共遊戲，使瞻與靈運共車。靈運登車便商較人物，瞻謂曰：「祕書早亡，談者亦互有同異。」靈運默然，",
+      "paragraph_ids": [
+        "c-nanshi-019-nan19:zhan-l050"
+      ],
+      "mention_ids": [
+        "c-nanshi-019-nan19:zhan-l050:m0021"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-019-nan19:zhan-l050:m0021": "c-nanshi-019-nan19:zhan-l050"
+      },
+      "mention_id": "c-nanshi-019-nan19:zhan-l050:m0021",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-019-nan19:zhan-l050:m0021",
+          "mention_ids": [
+            "c-nanshi-019-nan19:zhan-l050:m0021"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-019",
+      "chapter_id": "c-nanshi-019-nan19",
+      "source_id": "s-nanshi-019-nan19-ws1531762",
+      "work_title": "南史"
+    },
     {
       "number": 56,
       "category": "",
@@ -934,6 +1017,29 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-019-nan19",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-019",
+      "source_id": "s-nanshi-019-nan19-ws1531762",
+      "source": {
+        "title": "南史卷19·謝晦傳及兄弟附敘",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762",
+        "revision_id": 1531762,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定數位見證。清乾隆武英殿刊本指定欄另見各傳書影對讀。",
+        "extent": "謝晦傳及兄弟附敘的指定句段，用於親屬、身份、任官及紀年查核。謝嚼分題下原段均已收全。謝瞻分題下原段均已收全。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "謝晦傳及兄弟附敘",
+        "wikitext_sha256": "2f1bbb6150c723a3839e2f5a81f1a7522e3414465b8d8a11e23a164b43368964"
       }
     },
     {
@@ -6777,6 +6883,33 @@
       "model": null
     },
     {
+      "id": "a-nanshi019-zhan-50-18",
+      "subject_person_id": "aa6_83c_juy_CDAA",
+      "object_person_id": "aa6_83c_juy_CDA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "靈運父瑍",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-nan19",
+          "source_id": "s-nanshi-019-nan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-nan19:zhan-l050",
+          "quote": "瞻文章之美，與從叔混、族弟靈運相抗。靈運父瑍無才能，爲祕書郎早卒，而靈運好臧否人物。混患之，欲加裁折，未有其方。謂瞻曰：「非汝莫能。」乃與晦、曜、弘微等共遊戲，使瞻與靈運共車。靈運登車便商較人物，瞻謂曰：「祕書早亡，談者亦互有同異。」靈運默然，言論自此衰止。",
+          "subject_person_mention_id": "c-nanshi-019-nan19:zhan-l050:m0018",
+          "object_person_mention_id": "c-nanshi-019-nan19:zhan-l050:m0021"
+        }
+      ],
+      "interpretation_note": "宋書作奐，字形互存。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-song056-xiezhan-003",
       "subject_person_id": "aa6_83c_juy_CDAA",
       "predicate": "father",
@@ -6960,6 +7093,73 @@
       "source_id": "s-songshu-056-xiezhan"
     }
   ],
+  "source_reading_cases": [
+    {
+      "id": "nanshi019-zhan-print_witnesses-5",
+      "person_id": "aa6_83c_juy_CDA",
+      "paragraph_id": "c-nanshi-019-nan19:zhan-l050",
+      "source_quote": "靈運父瑍",
+      "source_review": "source-evidence/nanshi019-zhan/reading.json",
+      "note": "南史用玉旁，宋書文淵閣固定轉錄作奐。",
+      "reference": "清乾隆四年武英殿刊《二十四史》本《南史》卷十九，六下",
+      "reading": "靈運父瑍",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/NLC892-411999017142-12360_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC246%E5%86%8A.pdf#page=8",
+      "pdf_page": 8,
+      "half": "右",
+      "columns_from_right": 5,
+      "kind": "witness_collation",
+      "human_reviewed": false,
+      "chapter_id": "c-nanshi-019-nan19",
+      "source_id": "s-nanshi-019-nan19-ws1531762"
+    },
+    {
+      "id": "nanshi019-zhan-primary_source_comparisons-7",
+      "person_id": "aa6_83c_juy_CDA",
+      "paragraph_id": "c-nanshi-019-nan19:zhan-l050",
+      "source_quote": "靈運父瑍",
+      "source_review": "source-evidence/nanshi019-zhan/reading.json",
+      "note": "同一父子與秘書之職，保留奐、瑍。",
+      "reference": "宋書卷056 文淵閣四庫全書本固定數位轉錄",
+      "reading": "靈運父奐",
+      "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_056.txt#L39",
+      "kind": "witness_collation",
+      "human_reviewed": false,
+      "chapter_id": "c-nanshi-019-nan19",
+      "source_id": "s-nanshi-019-nan19-ws1531762"
+    }
+  ],
+  "person_references": [
+    {
+      "id": "c-nanshi-019-nan19:zhan-l050:r0020",
+      "paragraph_id": "c-nanshi-019-nan19:zhan-l050",
+      "start": 20,
+      "end": 21,
+      "surface": "父",
+      "person_id": "aa6_83c_juy_CDA",
+      "referent_role": "third_person",
+      "quote": "靈運父瑍無才能，爲祕書郎早卒，而靈運好臧否人物。",
+      "note": "按本句語境讀作謝瑍，為敘事或引語中提及者。",
+      "chapter_id": "c-nanshi-019-nan19",
+      "book_id": "b-nanshi-019",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-019-nan19-ws1531762"
+    },
+    {
+      "id": "c-nanshi-019-nan19:zhan-l050:r0103",
+      "paragraph_id": "c-nanshi-019-nan19:zhan-l050",
+      "start": 103,
+      "end": 105,
+      "surface": "祕書",
+      "person_id": "aa6_83c_juy_CDA",
+      "referent_role": "third_person",
+      "quote": "靈運登車便商較人物，瞻謂曰：「祕書早亡，談者亦互有同異。",
+      "note": "按本句語境讀作謝瑍，為敘事或引語中提及者。",
+      "chapter_id": "c-nanshi-019-nan19",
+      "book_id": "b-nanshi-019",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-019-nan19-ws1531762"
+    }
+  ],
   "person_ids": [
     "aa6_83c_juy_CDA"
   ],
@@ -7023,6 +7223,33 @@
       ],
       "interpretation_note": "明文生，不單由襲爵推父子；可接既有謝靈運身份，尚待宋書本傳平行覆核。",
       "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi019-zhan-50-18",
+      "subject_person_id": "aa6_83c_juy_CDAA",
+      "object_person_id": "aa6_83c_juy_CDA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "靈運父瑍",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-nan19",
+          "source_id": "s-nanshi-019-nan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-nan19:zhan-l050",
+          "quote": "瞻文章之美，與從叔混、族弟靈運相抗。靈運父瑍無才能，爲祕書郎早卒，而靈運好臧否人物。混患之，欲加裁折，未有其方。謂瞻曰：「非汝莫能。」乃與晦、曜、弘微等共遊戲，使瞻與靈運共車。靈運登車便商較人物，瞻謂曰：「祕書早亡，談者亦互有同異。」靈運默然，言論自此衰止。",
+          "subject_person_mention_id": "c-nanshi-019-nan19:zhan-l050:m0018",
+          "object_person_mention_id": "c-nanshi-019-nan19:zhan-l050:m0021"
+        }
+      ],
+      "interpretation_note": "宋書作奐，字形互存。",
+      "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
     },
@@ -7143,6 +7370,29 @@
   },
   "age_assertions": [],
   "life_events": [
+    {
+      "id": "le-nanshi019-zhan-50-30",
+      "person_id": "aa6_83c_juy_CDA",
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "早卒",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-nan19",
+          "source_id": "s-nanshi-019-nan19-ws1531762",
+          "paragraph_id": "c-nanshi-019-nan19:zhan-l050",
+          "quote": "瞻文章之美，與從叔混、族弟靈運相抗。靈運父瑍無才能，爲祕書郎早卒，而靈運好臧否人物。混患之，欲加裁折，未有其方。謂瞻曰：「非汝莫能。」乃與晦、曜、弘微等共遊戲，使瞻與靈運共車。靈運登車便商較人物，瞻謂曰：「祕書早亡，談者亦互有同異。」靈運默然，言論自此衰止。",
+          "person_mention_id": "c-nanshi-019-nan19:zhan-l050:m0021"
+        }
+      ],
+      "interpretation_note": "本句載死亡，與紀年原句、他史報告及報齡分列。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "le-song056-f20-002",
       "person_id": "aa6_83c_juy_CDA",
