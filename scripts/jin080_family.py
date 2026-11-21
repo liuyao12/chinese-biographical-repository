@@ -5,6 +5,8 @@ import hashlib
 def liu_note_valid(paragraph, chapter, root):
     try:
         passages = {
+            'c-shishuoxinyu-008-jin067-xichao:courtesy': (
+                '嘉賓，郗超小字也。阿源，殷浩也。', '朝廷用違其才耳。」{{*|', '}}'),
             'c-shishuoxinyu-008-jin098-wang-family:note': (
                 '舒、邃並敦從弟。', '累遷中領軍、尚書左僕射。」', '}}最是臣少所知拔'),
             'c-shishuoxinyu-026-jin076-wangpeng:nickname': (

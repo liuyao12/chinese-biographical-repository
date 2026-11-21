@@ -2864,6 +2864,35 @@
       }
     },
     {
+      "chapter_id": "c-songshu-046-wangyi-ws",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "source_id": "s-songshu-046-wangyi-ws-ws2118581",
+      "source": {
+        "provider": "Wikisource",
+        "rights": "古代正文與維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "text_scope": "complete_biography_unit",
+        "accessed_on": "2026-11-20",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "title": "宋書卷四十六·王懿（字仲德）及王叡、王正脩附敘",
+        "extent": "第20行王懿分題至第39行張邵分題前，九原段；篇首、卷末及傳中文字所附補闕校記分層。",
+        "section_locator": "== 王懿 ==",
+        "revision_id": 2118581,
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2118581",
+        "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
+        "raw_file_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原文字位逐一對固定原檔，本文排除校勘註、連結目標及紀年模板的界符；校勘說另列。"
+        },
+        "wikitext_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf",
+        "edition": "維基文庫固定2118581，卷末臣穆等按語已疑非約書。乾隆武英殿本影像與四庫轉錄原章另有證號。"
+      }
+    },
+    {
       "chapter_id": "c-songshu-052-xiejingren",
       "work_id": "w-songshu",
       "book_id": "b-songshu-052",
@@ -2945,6 +2974,35 @@
           ]
         },
         "section_locator": "謝景仁及子恂、孫稚"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-060-wangshaozhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-060",
+      "source_id": "s-songshu-060-wangshaozhi-ws1996694",
+      "source": {
+        "provider": "Wikisource",
+        "rights": "古代正文與維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "text_scope": "complete_biography_unit",
+        "accessed_on": "2026-11-20",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "title": "宋書卷六十·王韶之傳及子曄",
+        "extent": "逐讀第81行分題至第90行分題前。",
+        "section_locator": "==王韶之==",
+        "revision_id": 1996694,
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1996694",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1996694",
+        "raw_path": "sources/songshu/songshu060-ws1996694.wikitext",
+        "raw_file_sha256": "a9b03405240b25c24c2fa2b999e921483d7c1d78a3ed6f1eb1807a289bf02a97",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原文字位逐一對固定原檔，本文排除校勘註、連結目標及紀年模板的界符；校勘說另列。"
+        },
+        "wikitext_sha256": "a9b03405240b25c24c2fa2b999e921483d7c1d78a3ed6f1eb1807a289bf02a97",
+        "edition": "維基文庫固定修訂1996694，武英殿本書影逐項參記。"
       }
     },
     {
@@ -3337,6 +3395,27 @@
     }
   ],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-songshu-046-wangyi-ws:l29s4-s6y_280_81r",
+      "paragraph_id": "c-songshu-046-wangyi-ws:p005",
+      "start_codepoint": 77,
+      "end_codepoint": 116,
+      "source_quote": "眾議並欲遷都，仲德正色曰：「今天子當陽而治，明公命世作輔，新建大功，威震六合。",
+      "reading": "仲德反對遷都；天子為晉安帝德宗，面稱明公者為劉裕。",
+      "person_ids": [
+        "3qs_nqa_ioa_AAA",
+        "qsd_v11_ya1_AA",
+        "s6y_280_81r"
+      ],
+      "human_reviewed": false,
+      "person_id": "s6y_280_81r",
+      "kind": "received_sentence",
+      "note": "仲德反對遷都；天子為晉安帝德宗，面稱明公者為劉裕。",
+      "chapter_id": "c-songshu-046-wangyi-ws",
+      "source_id": "s-songshu-046-wangyi-ws-ws2118581"
+    }
+  ],
   "person_references": [
     {
       "id": "c-jinshu-079-xielang-family:exp-xiemiao-p001:m0123",
@@ -3414,6 +3493,21 @@
       "source_id": "s-nanshi-023-wanghua-ws2478204"
     },
     {
+      "start": 92,
+      "end": 94,
+      "surface": "天子",
+      "id": "c-songshu-046-wangyi-ws:p005:r0092",
+      "paragraph_id": "c-songshu-046-wangyi-ws:p005",
+      "person_id": "s6y_280_81r",
+      "referent_role": "third_person",
+      "quote": "武帝伐廣固，仲德為前鋒，大小二十餘戰，每戰輒剋。及盧循寇逼，敗劉毅於桑落，帝北伐始還，士卒創痍，堪戰者可數千人。賊眾十萬，舳艫百里，奔敗而歸者，咸稱其雄。眾議並欲遷都，仲德正色曰：「今天子當陽而治，明公命世作輔，新建大功，威震六合。妖賊豕突，乘我遠征，既聞凱入，將自奔散。今自投草間，則同之匹夫，匹夫號令，何以威物？義士英豪，當自求其主爾。此謀若行，請自此辭矣。」帝悅之，以仲德屯越城。及賊自蔡洲南走，遣仲德追之。賊留親黨范崇民五千人，高艦百餘，城南陵。仲德攻之，大破崇民，焚其舟艦，收其散卒，功冠諸將，封新淦縣侯。",
+      "note": "本句按敘述視點回指天子。",
+      "chapter_id": "c-songshu-046-wangyi-ws",
+      "book_id": "b-songshu-046",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-046-wangyi-ws-ws2118581"
+    },
+    {
       "id": "c-songshu-052-xiejingren:p004:r0198",
       "surface": "天子",
       "start": 198,
@@ -3427,6 +3521,51 @@
       "book_id": "b-songshu-052",
       "work_id": "w-songshu",
       "source_id": "s-songshu-052-xiejingren-ws2190655"
+    },
+    {
+      "start": 77,
+      "end": 79,
+      "surface": "安帝",
+      "id": "c-songshu-060-wangshaozhi:p002:r0077",
+      "paragraph_id": "c-songshu-060-wangshaozhi:p002",
+      "person_id": "s6y_280_81r",
+      "referent_role": "third_person",
+      "quote": "韶之家貧，父為烏程令，因居縣境。好史籍，博涉多聞。初為衞將軍謝琰行參軍。偉之少有志尚，當世詔命表奏，輒自書寫，太元、隆安時事，小大悉撰錄之，韶之因此私撰晉安帝陽秋。既成，時人謂宜居史職，即除著作佐郎，使續後事，訖義熙九年。善敍事，辭論可觀，為後代佳史。遷尚書祠部郎。晉帝自孝武以來，常居內殿，武官主書於中通呈，以省官一人管司詔誥，任在西省，因謂之西省郎。傅亮、羊徽相代〔在職，義熙十一年，高祖以韶之博學有文詞，補通直郎，〕領西省事。轉中書侍郎。安帝之崩也，高祖使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作郎，西省如故。凡諸詔黃，皆其辭也。",
+      "note": "本句按敘述視點回指安。",
+      "chapter_id": "c-songshu-060-wangshaozhi",
+      "book_id": "b-songshu-060",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-060-wangshaozhi-ws1996694"
+    },
+    {
+      "start": 222,
+      "end": 224,
+      "surface": "安帝",
+      "id": "c-songshu-060-wangshaozhi:p002:r0222",
+      "paragraph_id": "c-songshu-060-wangshaozhi:p002",
+      "person_id": "s6y_280_81r",
+      "referent_role": "third_person",
+      "quote": "韶之家貧，父為烏程令，因居縣境。好史籍，博涉多聞。初為衞將軍謝琰行參軍。偉之少有志尚，當世詔命表奏，輒自書寫，太元、隆安時事，小大悉撰錄之，韶之因此私撰晉安帝陽秋。既成，時人謂宜居史職，即除著作佐郎，使續後事，訖義熙九年。善敍事，辭論可觀，為後代佳史。遷尚書祠部郎。晉帝自孝武以來，常居內殿，武官主書於中通呈，以省官一人管司詔誥，任在西省，因謂之西省郎。傅亮、羊徽相代〔在職，義熙十一年，高祖以韶之博學有文詞，補通直郎，〕領西省事。轉中書侍郎。安帝之崩也，高祖使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作郎，西省如故。凡諸詔黃，皆其辭也。",
+      "note": "本句按敘述視點回指安。",
+      "chapter_id": "c-songshu-060-wangshaozhi",
+      "book_id": "b-songshu-060",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-060-wangshaozhi-ws1996694"
+    },
+    {
+      "start": 234,
+      "end": 235,
+      "surface": "帝",
+      "id": "c-songshu-060-wangshaozhi:p002:r0234",
+      "paragraph_id": "c-songshu-060-wangshaozhi:p002",
+      "person_id": "s6y_280_81r",
+      "referent_role": "third_person",
+      "quote": "韶之家貧，父為烏程令，因居縣境。好史籍，博涉多聞。初為衞將軍謝琰行參軍。偉之少有志尚，當世詔命表奏，輒自書寫，太元、隆安時事，小大悉撰錄之，韶之因此私撰晉安帝陽秋。既成，時人謂宜居史職，即除著作佐郎，使續後事，訖義熙九年。善敍事，辭論可觀，為後代佳史。遷尚書祠部郎。晉帝自孝武以來，常居內殿，武官主書於中通呈，以省官一人管司詔誥，任在西省，因謂之西省郎。傅亮、羊徽相代〔在職，義熙十一年，高祖以韶之博學有文詞，補通直郎，〕領西省事。轉中書侍郎。安帝之崩也，高祖使韶之與帝左右密加酖毒。恭帝即位，遷黃門侍郎，領著作郎，西省如故。凡諸詔黃，皆其辭也。",
+      "note": "本句按敘述視點回指安。",
+      "chapter_id": "c-songshu-060-wangshaozhi",
+      "book_id": "b-songshu-060",
+      "work_id": "w-songshu",
+      "source_id": "s-songshu-060-wangshaozhi-ws1996694"
     }
   ],
   "person_ids": [

@@ -2,6 +2,10 @@
 
 
 def non_parental_relation_valid(assertion, paragraphs, assertions=None):
+    if assertion.get('qualifiers', {}).get('succession_kind') == 'cousin_gives_named_son_to_succeed':
+        try: from scripts.jin067_heir import verify
+        except ImportError: from jin067_heir import verify
+        return verify(assertion, paragraphs, assertions or [])
     if assertion.get('qualifiers', {}).get('succession_kind') == 'w080_brothers_son_si':
         try:
             from scripts.jin080_xianzhi import succession_valid

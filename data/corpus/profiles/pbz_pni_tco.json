@@ -508,6 +508,50 @@
     {
       "number": 85,
       "category": "",
+      "title": "數位校記論何偃為母舅",
+      "paragraph_id": "c-songshu-085-wangxuan-digital-note:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "既為尚之諱，又為尚之子偃諱。偃於絢為母舅，故南史云然。",
+      "paragraph_ids": [
+        "c-songshu-085-wangxuan-digital-note:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-085-wangxuan-digital-note:p001:m0011",
+        "c-songshu-085-wangxuan-digital-note:p001:m0014"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-085-wangxuan-digital-note:p001:m0011": "c-songshu-085-wangxuan-digital-note:p001",
+        "c-songshu-085-wangxuan-digital-note:p001:m0014": "c-songshu-085-wangxuan-digital-note:p001"
+      },
+      "mention_id": "c-songshu-085-wangxuan-digital-note:p001:m0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-085-wangxuan-digital-note:p001:m0011",
+          "mention_ids": [
+            "c-songshu-085-wangxuan-digital-note:p001:m0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-085-wangxuan-digital-note:p001:m0014",
+          "mention_ids": [
+            "c-songshu-085-wangxuan-digital-note:p001:m0014"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-085",
+      "chapter_id": "c-songshu-085-wangxuan-digital-note",
+      "source_id": "s-songshu-085-wangxuan-digital-note-ws2069101",
+      "work_title": "宋書"
+    },
+    {
+      "number": 85,
+      "category": "",
       "title": "《宋書》卷八十五謝莊完整本傳（編輯選錄題）",
       "paragraph_id": "c-songshu-085-xiezhuang:p010",
       "count": 1,
@@ -765,6 +809,35 @@
           "character_conversion": {},
           "extraction_note": "僅去不轉換標記的界符。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangxuan",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangxuan-ws2478204",
+      "source": {
+        "title": "南史卷23·王絢",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第121至121行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": []
+        },
+        "section_locator": "彧題內長子絢附傳"
       }
     },
     {
@@ -7251,6 +7324,33 @@
       }
     },
     {
+      "chapter_id": "c-songshu-085-wangxuan-digital-note",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-085",
+      "source_id": "s-songshu-085-wangxuan-digital-note-ws2069101",
+      "source": {
+        "title": "宋書卷85·數位校記論何偃為母舅",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2069101",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2069101",
+        "revision_id": 2069101,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂所收校記",
+        "extent": "正文「草翁風必偃」後的數位校記局部。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi019-xie-branches/song085-ws2069101.wikitext",
+        "raw_file_sha256": "69128313de5d9e3a6bec92be7457d6749458b0c862ee563e22cd8e4dcb0392ea",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-songshu-085-xiezhuang",
       "work_id": "w-songshu",
       "book_id": "b-songshu-085",
@@ -9225,8 +9325,69 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-nan023-wangxuan-yan-uncle",
+      "subject_person_id": "1tc_q18_x7v_A",
+      "object_person_id": "pbz_pni_tco",
+      "predicate": "maternal_uncle",
+      "qualifiers": {
+        "source_term": "偃於絢為母舅",
+        "nan023_wangxuan_reading": "yan-uncle",
+        "lineage": "maternal",
+        "source_layer": "digital_editorial_note"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-085",
+          "source_id": "s-songshu-085-wangxuan-digital-note-ws2069101",
+          "chapter_id": "c-songshu-085-wangxuan-digital-note",
+          "paragraph_id": "c-songshu-085-wangxuan-digital-note:p001",
+          "quote": "既為尚之諱，又為尚之子偃諱。偃於絢為母舅，故南史云然。",
+          "subject_person_mention_id": "c-songshu-085-wangxuan-digital-note:p001:m0016",
+          "object_person_mention_id": "c-songshu-085-wangxuan-digital-note:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "數位校注明說母舅，分列於宋書正文。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangxuan-yan-father",
+      "subject_person_id": "pbz_pni_tco",
+      "object_person_id": "d84_kqu_2g5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "尚之子偃",
+        "nan023_wangxuan_reading": "yan-father",
+        "lineage": "paternal",
+        "source_layer": "digital_editorial_note"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-085",
+          "source_id": "s-songshu-085-wangxuan-digital-note-ws2069101",
+          "chapter_id": "c-songshu-085-wangxuan-digital-note",
+          "paragraph_id": "c-songshu-085-wangxuan-digital-note:p001",
+          "quote": "既為尚之諱，又為尚之子偃諱。偃於絢為母舅，故南史云然。",
+          "subject_person_mention_id": "c-songshu-085-wangxuan-digital-note:p001:m0011",
+          "object_person_mention_id": "c-songshu-085-wangxuan-digital-note:p001:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "校注原語。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "1tc_q18_x7v_A": "王絢（字長素，王彧長子）",
+    "d84_kqu_2g5": "何尚之",
     "pbz_pni_tco": "何偃"
   },
   "dates": [],
@@ -9246,12 +9407,86 @@
       "book_id": "b-nanshi-021",
       "work_id": "w-nanshi",
       "source_id": "s-nanshi-021-wangwei-ws1752646"
+    },
+    {
+      "id": "c-nanshi-023-wangxuan:p001:r0068",
+      "surface": "舅",
+      "start": 68,
+      "end": 69,
+      "person_id": "pbz_pni_tco",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangxuan:p001",
+      "quote": "絢字長素，早惠。年五六歲，讀論語至「周監於二代」，外祖何尚之戲之曰：「可改耶耶乎文哉。」絢應聲答曰：「尊者之名，安可戲，寧可道草翁之風必舅？」及長，篤志好學。位秘書丞。先景文卒，諡曰恭世子。絢弟繢。",
+      "note": "所答以舅換偃，何偃為母舅的說明另見宋書數位本校記。",
+      "chapter_id": "c-nanshi-023-wangxuan",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangxuan-ws2478204"
     }
   ],
   "person_ids": [
     "pbz_pni_tco"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-nan023-wangxuan-yan-uncle",
+      "subject_person_id": "1tc_q18_x7v_A",
+      "object_person_id": "pbz_pni_tco",
+      "predicate": "maternal_uncle",
+      "qualifiers": {
+        "source_term": "偃於絢為母舅",
+        "nan023_wangxuan_reading": "yan-uncle",
+        "lineage": "maternal",
+        "source_layer": "digital_editorial_note"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-085",
+          "source_id": "s-songshu-085-wangxuan-digital-note-ws2069101",
+          "chapter_id": "c-songshu-085-wangxuan-digital-note",
+          "paragraph_id": "c-songshu-085-wangxuan-digital-note:p001",
+          "quote": "既為尚之諱，又為尚之子偃諱。偃於絢為母舅，故南史云然。",
+          "subject_person_mention_id": "c-songshu-085-wangxuan-digital-note:p001:m0016",
+          "object_person_mention_id": "c-songshu-085-wangxuan-digital-note:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "數位校注明說母舅，分列於宋書正文。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangxuan-yan-father",
+      "subject_person_id": "pbz_pni_tco",
+      "object_person_id": "d84_kqu_2g5",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "尚之子偃",
+        "nan023_wangxuan_reading": "yan-father",
+        "lineage": "paternal",
+        "source_layer": "digital_editorial_note"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-085",
+          "source_id": "s-songshu-085-wangxuan-digital-note-ws2069101",
+          "chapter_id": "c-songshu-085-wangxuan-digital-note",
+          "paragraph_id": "c-songshu-085-wangxuan-digital-note:p001",
+          "quote": "既為尚之諱，又為尚之子偃諱。偃於絢為母舅，故南史云然。",
+          "subject_person_mention_id": "c-songshu-085-wangxuan-digital-note:p001:m0011",
+          "object_person_mention_id": "c-songshu-085-wangxuan-digital-note:p001:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "校注原語。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

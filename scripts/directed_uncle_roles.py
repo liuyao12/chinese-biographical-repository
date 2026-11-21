@@ -149,6 +149,9 @@ def _direction(p, subjects, objects, term):
             for o in objects:
                 if (o['end'] == a or (s['start'] == a - len(o['surface']) and s['surface'].startswith(o['surface'] + hit[0]))
                         or (o['end'] < a and t[o['end']:a] in ('乃使', '為'))
+                        or (o['end'] < a and t[o['end']:a] == '以'
+                            and term == t[o['start']:s['end']] and s['start'] == b
+                            and t[s['end']:].startswith('為') and hit[0] == '兄子')
                         or (_biographical_head(p, objects) and o['start'] == 0)
                         or (o['surface'] in ('其', '臣', '吾', '我') and o['end'] < a
                             and (o['surface'] == '其' and '其為兄子及子作名字' in t[:a]

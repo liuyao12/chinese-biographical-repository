@@ -287,6 +287,41 @@
     {
       "number": 29,
       "category": "",
+      "title": "績子會理嗣爵及任湘州",
+      "paragraph_id": "c-liangshu-029-huili-xiangzhou-context:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "績寡玩好，少嗜欲，居無僕妾，躬事約儉，所有租秩，悉寄天府。及薨後，府有南康國無名錢數千萬。",
+      "paragraph_ids": [
+        "c-liangshu-029-huili-xiangzhou-context:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-029-huili-xiangzhou-context:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-029-huili-xiangzhou-context:p001:m0000": "c-liangshu-029-huili-xiangzhou-context:p001"
+      },
+      "mention_id": "c-liangshu-029-huili-xiangzhou-context:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-029-huili-xiangzhou-context:p001:m0000",
+          "mention_ids": [
+            "c-liangshu-029-huili-xiangzhou-context:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-029",
+      "chapter_id": "c-liangshu-029-huili-xiangzhou-context",
+      "source_id": "s-liangshu-029-huili-xiangzhou-context-ws1538079",
+      "work_title": "梁書"
+    },
+    {
+      "number": 29,
+      "category": "",
       "title": "南康簡王績治南徐州",
       "paragraph_id": "c-liangshu-029-xiaoji-wangtai:p001",
       "count": 2,
@@ -410,6 +445,44 @@
       }
     },
     {
+      "chapter_id": "c-liangshu-029-huili-xiangzhou-context",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-029",
+      "source_id": "s-liangshu-029-huili-xiangzhou-context-ws1538079",
+      "source": {
+        "title": "梁書卷29·績子會理嗣爵及任湘州",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1538079",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1538079",
+        "revision_id": 1538079,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原王府身分、紀年或改名原句",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/liang021-wangtai/ws1538079.wikitext",
+        "raw_file_sha256": "8ee6d27e5a06b49bd70824c93abacd27719d15b8f74f9277c33f7b2969c3c055",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                16,
+                16
+              ],
+              "revision_id": 1538079,
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            }
+          ]
+        }
+      }
+    },
+    {
       "chapter_id": "c-liangshu-029-xiaoji-wangtai",
       "work_id": "w-liangshu",
       "book_id": "b-liangshu-029",
@@ -438,6 +511,53 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-nan023-wangying-huili-father",
+      "subject_person_id": "fo7_f8v_rmf_CA",
+      "object_person_id": "fo7_f8v_rmf_C",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子",
+        "lineage": "paternal"
+      },
+      "context": {
+        "kind": "biographical_child_continuation",
+        "paragraph_ids": [
+          "c-liangshu-029-huili-xiangzhou-context:p001",
+          "c-liangshu-029-huili-xiangzhou-context:p002"
+        ],
+        "parent_mention_id": "c-liangshu-029-huili-xiangzhou-context:p001:m0000",
+        "child_mention_id": "c-liangshu-029-huili-xiangzhou-context:p002:m0001",
+        "rationale": "前段具名傳主，次段起子某。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-029",
+          "source_id": "s-liangshu-029-huili-xiangzhou-context-ws1538079",
+          "chapter_id": "c-liangshu-029-huili-xiangzhou-context",
+          "paragraph_id": "c-liangshu-029-huili-xiangzhou-context:p001",
+          "quote": "績寡玩好，少嗜欲，居無僕妾，躬事約儉，所有租秩，悉寄天府。及薨後，府有南康國無名錢數千萬。",
+          "object_person_mention_id": "c-liangshu-029-huili-xiangzhou-context:p001:m0000"
+        },
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-029",
+          "source_id": "s-liangshu-029-huili-xiangzhou-context-ws1538079",
+          "chapter_id": "c-liangshu-029-huili-xiangzhou-context",
+          "paragraph_id": "c-liangshu-029-huili-xiangzhou-context:p002",
+          "quote": "子會理嗣，字長才。少聰慧，好文史。年十一而孤，特爲高祖所愛，衣服禮秩與正王不殊。年十五，拜輕車將軍、湘州刺史，又領石頭戍軍事。",
+          "subject_person_mention_id": "c-liangshu-029-huili-xiangzhou-context:p002:m0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原段子某承前段傳主。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-liang021-wangtai-ji-father",
       "subject_person_id": "fo7_f8v_rmf_C",
@@ -477,7 +597,8 @@
   ],
   "related_people": {
     "fo7_f8v_rmf": "梁武帝衍",
-    "fo7_f8v_rmf_C": "蕭績（字世謹）"
+    "fo7_f8v_rmf_C": "蕭績（字世謹）",
+    "fo7_f8v_rmf_CA": "蕭會理（字長才，南康王績子）"
   },
   "dates": [],
   "name_components": [
@@ -594,6 +715,53 @@
     "fo7_f8v_rmf_C"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nan023-wangying-huili-father",
+      "subject_person_id": "fo7_f8v_rmf_CA",
+      "object_person_id": "fo7_f8v_rmf_C",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子",
+        "lineage": "paternal"
+      },
+      "context": {
+        "kind": "biographical_child_continuation",
+        "paragraph_ids": [
+          "c-liangshu-029-huili-xiangzhou-context:p001",
+          "c-liangshu-029-huili-xiangzhou-context:p002"
+        ],
+        "parent_mention_id": "c-liangshu-029-huili-xiangzhou-context:p001:m0000",
+        "child_mention_id": "c-liangshu-029-huili-xiangzhou-context:p002:m0001",
+        "rationale": "前段具名傳主，次段起子某。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-029",
+          "source_id": "s-liangshu-029-huili-xiangzhou-context-ws1538079",
+          "chapter_id": "c-liangshu-029-huili-xiangzhou-context",
+          "paragraph_id": "c-liangshu-029-huili-xiangzhou-context:p001",
+          "quote": "績寡玩好，少嗜欲，居無僕妾，躬事約儉，所有租秩，悉寄天府。及薨後，府有南康國無名錢數千萬。",
+          "object_person_mention_id": "c-liangshu-029-huili-xiangzhou-context:p001:m0000"
+        },
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-029",
+          "source_id": "s-liangshu-029-huili-xiangzhou-context-ws1538079",
+          "chapter_id": "c-liangshu-029-huili-xiangzhou-context",
+          "paragraph_id": "c-liangshu-029-huili-xiangzhou-context:p002",
+          "quote": "子會理嗣，字長才。少聰慧，好文史。年十一而孤，特爲高祖所愛，衣服禮秩與正王不殊。年十五，拜輕車將軍、湘州刺史，又領石頭戍軍事。",
+          "subject_person_mention_id": "c-liangshu-029-huili-xiangzhou-context:p002:m0001"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原段子某承前段傳主。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-liang021-wangtai-ji-father",
       "subject_person_id": "fo7_f8v_rmf_C",

@@ -1,0 +1,103 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-052-chuzhanzhi-brother-and-sons",
+  "assertions": [
+    {
+      "id": "a-nan023-chuzhanzhi-m-yuan",
+      "subject_person_id": "jyx_72x_8t2",
+      "object_person_id": "6fs_tis_zoa",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "二息淵、澄",
+        "nan023_chuzhanzhi_reading": "m-yuan",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-chuzhanzhi-brother-and-sons-ws2190655",
+          "chapter_id": "c-songshu-052-chuzhanzhi-brother-and-sons",
+          "paragraph_id": "c-songshu-052-chuzhanzhi-brother-and-sons:p002",
+          "quote": "湛之因攜二息淵、澄輕船南奔。",
+          "subject_person_mention_id": "c-songshu-052-chuzhanzhi-brother-and-sons:p002:m0006",
+          "object_person_mention_id": "c-songshu-052-chuzhanzhi-brother-and-sons:p002:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原句二息指淵、澄。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-chuzhanzhi-m-cheng",
+      "subject_person_id": "6fs_tis_zoa_A",
+      "object_person_id": "6fs_tis_zoa",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "二息淵、澄",
+        "nan023_chuzhanzhi_reading": "m-cheng",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-chuzhanzhi-brother-and-sons-ws2190655",
+          "chapter_id": "c-songshu-052-chuzhanzhi-brother-and-sons",
+          "paragraph_id": "c-songshu-052-chuzhanzhi-brother-and-sons:p002",
+          "quote": "湛之因攜二息淵、澄輕船南奔。",
+          "subject_person_mention_id": "c-songshu-052-chuzhanzhi-brother-and-sons:p002:m0008",
+          "object_person_mention_id": "c-songshu-052-chuzhanzhi-brother-and-sons:p002:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原句二息指淵、澄。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-chuzhanzhi-younger",
+      "subject_person_id": "6fs_tis_zoa",
+      "object_person_id": "xke_dj3_6ba_AAAAA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "秀之弟湛之",
+        "nan023_chuzhanzhi_reading": "younger",
+        "adopted_for_family_tree": false,
+        "relative_birth_order": {
+          "older_person_id": "xke_dj3_6ba_AAAAA",
+          "younger_person_id": "6fs_tis_zoa",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "competing_source_relation": {
+          "predicate": "father",
+          "assertion_id": "a-nan023-chuzhanzhi-son"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-chuzhanzhi-brother-and-sons-ws2190655",
+          "chapter_id": "c-songshu-052-chuzhanzhi-brother-and-sons",
+          "paragraph_id": "c-songshu-052-chuzhanzhi-brother-and-sons:p001",
+          "quote": "秀之弟湛之字休玄",
+          "subject_person_mention_id": "c-songshu-052-chuzhanzhi-brother-and-sons:p001:m0003",
+          "object_person_mention_id": "c-songshu-052-chuzhanzhi-brother-and-sons:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "宋書本句明書秀之弟。南史同名同字之人記為秀之子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

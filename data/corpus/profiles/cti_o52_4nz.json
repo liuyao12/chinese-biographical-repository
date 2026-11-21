@@ -7391,6 +7391,33 @@
       }
     },
     {
+      "chapter_id": "c-wenxiantongkao-258-linhuai-wangying",
+      "work_id": "w-wenxiantongkao",
+      "book_id": "b-wenxiantongkao-258",
+      "source_id": "s-wenxiantongkao-258-linhuai-wangying-ws760052",
+      "source": {
+        "title": "文獻通考卷258·宋明帝女欄所記臨淮公主",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=760052",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=760052",
+        "revision_id": 760052,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原王府身分、紀年或改名原句",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanqi023-wangjian/wenxiantongkao258-ws760052.wikitext",
+        "raw_file_sha256": "f6dea750502e1ef3a54e4345f8636299b18d12d7c92a12038b9317ab09aa9102",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-wenxiantongkao-258-yangxian",
       "work_id": "w-wenxiantongkao",
       "book_id": "b-wenxiantongkao-258",
@@ -7546,6 +7573,34 @@
       "human_reviewed": false
     },
     {
+      "id": "a-nan023-wangying-linhuai-reported-father",
+      "subject_person_id": "cti_o52_4nz_D",
+      "object_person_id": "cti_o52_4nz",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "明帝女",
+        "nan023_wangying_reading": "linhuai-reported-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-wenxiantongkao",
+          "book_id": "b-wenxiantongkao-258",
+          "source_id": "s-wenxiantongkao-258-linhuai-wangying-ws760052",
+          "chapter_id": "c-wenxiantongkao-258-linhuai-wangying",
+          "paragraph_id": "c-wenxiantongkao-258-linhuai-wangying:p001",
+          "quote": "明帝女　陽羡公主適王儉　臨淮公主適王瑩",
+          "subject_person_mention_id": "c-wenxiantongkao-258-linhuai-wangying:p001:m0012",
+          "object_person_reference_id": "c-wenxiantongkao-258-linhuai-wangying:p001:r0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "馬端臨晚出書依明帝女表目列臨淮，南史與梁書僅說宋公主。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-wenxiantongkao-258-yangxian-princess-father",
       "subject_person_id": "cti_o52_4nz_A",
       "object_person_id": "cti_o52_4nz",
@@ -7579,6 +7634,7 @@
     "cti_o52_4nz_A": "陽羨公主",
     "cti_o52_4nz_B": "劉伯姒（晉陵長公主）",
     "cti_o52_4nz_C": "劉伯媛（建安長公主）",
+    "cti_o52_4nz_D": "臨淮公主（南朝宋，王瑩妻）",
     "eis_6fq_q7u": "沈容姬",
     "q7m_r8k_2vn_B": "王貞風（明恭王皇后）"
   },
@@ -8190,6 +8246,21 @@
       "source_id": "s-songshu-088-song88-ws2069210"
     },
     {
+      "id": "c-wenxiantongkao-258-linhuai-wangying:p001:r0000",
+      "surface": "明帝",
+      "start": 0,
+      "end": 2,
+      "person_id": "cti_o52_4nz",
+      "referent_role": "third_person",
+      "paragraph_id": "c-wenxiantongkao-258-linhuai-wangying:p001",
+      "quote": "明帝女　陽羡公主適王儉　臨淮公主適王瑩",
+      "note": "宋明帝，下列其女及所適。",
+      "chapter_id": "c-wenxiantongkao-258-linhuai-wangying",
+      "book_id": "b-wenxiantongkao-258",
+      "work_id": "w-wenxiantongkao",
+      "source_id": "s-wenxiantongkao-258-linhuai-wangying-ws760052"
+    },
+    {
       "id": "c-wenxiantongkao-258-yangxian:p001:r0002",
       "paragraph_id": "c-wenxiantongkao-258-yangxian:p001",
       "person_id": "cti_o52_4nz",
@@ -8334,6 +8405,34 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-nan023-wangying-linhuai-reported-father",
+      "subject_person_id": "cti_o52_4nz_D",
+      "object_person_id": "cti_o52_4nz",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "明帝女",
+        "nan023_wangying_reading": "linhuai-reported-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-wenxiantongkao",
+          "book_id": "b-wenxiantongkao-258",
+          "source_id": "s-wenxiantongkao-258-linhuai-wangying-ws760052",
+          "chapter_id": "c-wenxiantongkao-258-linhuai-wangying",
+          "paragraph_id": "c-wenxiantongkao-258-linhuai-wangying:p001",
+          "quote": "明帝女　陽羡公主適王儉　臨淮公主適王瑩",
+          "subject_person_mention_id": "c-wenxiantongkao-258-linhuai-wangying:p001:m0012",
+          "object_person_reference_id": "c-wenxiantongkao-258-linhuai-wangying:p001:r0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "馬端臨晚出書依明帝女表目列臨淮，南史與梁書僅說宋公主。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     },
     {
       "id": "a-wenxiantongkao-258-yangxian-princess-father",
