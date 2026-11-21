@@ -173,6 +173,14 @@ def _direction(p, subjects, objects, term):
 
 
 def paternal_uncle_direction_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_kin_term_type') == 'resumed_subject_named_shifu':
+        try: from scripts.received_paternal_reports import elder_uncle_valid
+        except ImportError: from received_paternal_reports import elder_uncle_valid
+        return elder_uncle_valid(assertion, paragraphs)
+    if assertion.get('qualifiers',{}).get('reading_basis',{}).get('kind')=='wenqiao_situ_younger_brother_son':
+        try:from scripts.wenqiao_family_sources import situ_valid
+        except ImportError:from wenqiao_family_sources import situ_valid
+        return situ_valid(assertion,paragraphs)
     if assertion.get('qualifiers', {}).get('reading_basis', {}).get('kind') == 'jin067_contemporaneous_nephews':
         try: from scripts.jin067_relatives import valid
         except ImportError: from jin067_relatives import valid

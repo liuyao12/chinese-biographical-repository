@@ -199,6 +199,9 @@ def parent_through_paternal_uncle_valid(member, rows, assertions, chapters):
 
 
 def explicit_maternal_uncle_valid(assertion, paragraphs):
+    if assertion.get('qualifiers',{}).get('source_clause_binding',{}).get('kind')=='jin067_emperor_yuliang_yuanjiu':
+        e,=assertion['evidence']; p=paragraphs[e['paragraph_id']][1]; terms='護軍庾公，帝之元舅';q=assertion['qualifiers']
+        return p['text'].count(terms)==1 and e['quote']==p['text'] and q['source_term']=='帝之元舅' and q['lineage']=='maternal' and q['generation_difference']==-1 and q['mother_person_id'] is None
     if assertion.get('qualifiers', {}).get('reading_basis', {}).get('kind') == 'jin067_contemporaneous_nephews':
         try: from scripts.jin067_relatives import valid
         except ImportError: from jin067_relatives import valid

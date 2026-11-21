@@ -543,6 +543,90 @@
           "extraction_note": "逐欄校讀。每半葉自右向左數，無現代標點。"
         }
       }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangfen-lin-quan-pu",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangfen-lin-quan-pu-ws2478204",
+      "source": {
+        "title": "南史卷23·王份、王琳、王銓與王溥",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "145行末四字，147、149、151三個完整原段。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                146,
+                146
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                148,
+                148
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                150,
+                150
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "王彧題內奐弟份、份子琳、琳子銓、銓子溥，銓弟錫之前"
+      }
+    },
+    {
+      "chapter_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages",
+      "work_id": "w-wenxiantongkao",
+      "book_id": "b-wenxiantongkao-258",
+      "source_id": "s-wenxiantongkao-258-yongjia-yuyao-marriages-ws760052",
+      "source": {
+        "title": "文獻通考卷258·永嘉、餘姚二公主婚配",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=760052",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=760052",
+        "revision_id": 760052,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原王府身分、紀年或改名原句",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanqi023-wangjian/wenxiantongkao258-ws760052.wikitext",
+        "raw_file_sha256": "f6dea750502e1ef3a54e4345f8636299b18d12d7c92a12038b9317ab09aa9102",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
     }
   ],
   "relations": [
@@ -581,11 +665,68 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-nan023-wangfen-yuyao-father",
+      "subject_person_id": "rtd_v0b_nyn_B",
+      "object_person_id": "rtd_v0b_nyn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "簡文帝女余姚公主",
+        "nan023_wangfen_reading": "yuyao-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangfen-lin-quan-pu-ws2478204",
+          "chapter_id": "c-nanshi-023-wangfen-lin-quan-pu",
+          "paragraph_id": "c-nanshi-023-wangfen-lin-quan-pu:p004",
+          "quote": "長子銓，字公衡，美風儀，善占吐，尚武帝女永嘉公主，拜駙馬都尉。銓雖學業不及弟錫，而孝行齊焉，時人以為銓、錫二王，可謂玉昆金友。母長公主疾，銓形貌瘠貶，人不復識。及居喪，哭泣無常，因得氣疾。位侍中、丹陽尹。卒于衛尉卿。子溥，字伯淮，尚簡文帝女余姚公主。",
+          "subject_person_mention_id": "c-nanshi-023-wangfen-lin-quan-pu:p004:m0120",
+          "object_person_reference_id": "c-nanshi-023-wangfen-lin-quan-pu:p004:r0116"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "余姚公主為簡文帝女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangfen-later-yuyao-father",
+      "subject_person_id": "rtd_v0b_nyn_B",
+      "object_person_id": "rtd_v0b_nyn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "簡文帝女",
+        "nan023_wangfen_reading": "later-yuyao-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-wenxiantongkao",
+          "book_id": "b-wenxiantongkao-258",
+          "source_id": "s-wenxiantongkao-258-yongjia-yuyao-marriages-ws760052",
+          "chapter_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages",
+          "paragraph_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages:p002",
+          "quote": "簡文帝女　餘姚公主適王溥",
+          "subject_person_mention_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages:p002:m0005",
+          "object_person_reference_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages:p002:r0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "後出名單重明父女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "rtd_v0b_nyn": "蕭綱",
-    "rtd_v0b_nyn_A": "蕭大器（宣城王，哀太子）"
+    "rtd_v0b_nyn_A": "蕭大器（宣城王，哀太子）",
+    "rtd_v0b_nyn_B": "梁余姚公主（王溥妻）"
   },
   "dates": [],
   "name_components": [],
@@ -863,6 +1004,36 @@
       "book_id": "b-nanshi-022",
       "work_id": "w-nanshi",
       "source_id": "s-nanshi-022-wanggui-ws1477957"
+    },
+    {
+      "id": "c-nanshi-023-wangfen-lin-quan-pu:p004:r0116",
+      "surface": "簡文帝",
+      "start": 116,
+      "end": 119,
+      "person_id": "rtd_v0b_nyn",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanshi-023-wangfen-lin-quan-pu:p004",
+      "quote": "長子銓，字公衡，美風儀，善占吐，尚武帝女永嘉公主，拜駙馬都尉。銓雖學業不及弟錫，而孝行齊焉，時人以為銓、錫二王，可謂玉昆金友。母長公主疾，銓形貌瘠貶，人不復識。及居喪，哭泣無常，因得氣疾。位侍中、丹陽尹。卒于衛尉卿。子溥，字伯淮，尚簡文帝女余姚公主。",
+      "note": "按兩朝同稱武帝及語句中的施、受事。",
+      "chapter_id": "c-nanshi-023-wangfen-lin-quan-pu",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangfen-lin-quan-pu-ws2478204"
+    },
+    {
+      "id": "c-wenxiantongkao-258-yongjia-yuyao-marriages:p002:r0000",
+      "surface": "簡文帝",
+      "start": 0,
+      "end": 3,
+      "person_id": "rtd_v0b_nyn",
+      "referent_role": "third_person",
+      "paragraph_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages:p002",
+      "quote": "簡文帝女　餘姚公主適王溥",
+      "note": "此處梁簡文帝統其女名單。",
+      "chapter_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages",
+      "book_id": "b-wenxiantongkao-258",
+      "work_id": "w-wenxiantongkao",
+      "source_id": "s-wenxiantongkao-258-yongjia-yuyao-marriages-ws760052"
     }
   ],
   "person_ids": [
@@ -901,6 +1072,62 @@
       ],
       "status": "source_attested",
       "interpretation_note": "太宗嫡長子大器。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangfen-yuyao-father",
+      "subject_person_id": "rtd_v0b_nyn_B",
+      "object_person_id": "rtd_v0b_nyn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "簡文帝女余姚公主",
+        "nan023_wangfen_reading": "yuyao-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangfen-lin-quan-pu-ws2478204",
+          "chapter_id": "c-nanshi-023-wangfen-lin-quan-pu",
+          "paragraph_id": "c-nanshi-023-wangfen-lin-quan-pu:p004",
+          "quote": "長子銓，字公衡，美風儀，善占吐，尚武帝女永嘉公主，拜駙馬都尉。銓雖學業不及弟錫，而孝行齊焉，時人以為銓、錫二王，可謂玉昆金友。母長公主疾，銓形貌瘠貶，人不復識。及居喪，哭泣無常，因得氣疾。位侍中、丹陽尹。卒于衛尉卿。子溥，字伯淮，尚簡文帝女余姚公主。",
+          "subject_person_mention_id": "c-nanshi-023-wangfen-lin-quan-pu:p004:m0120",
+          "object_person_reference_id": "c-nanshi-023-wangfen-lin-quan-pu:p004:r0116"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "余姚公主為簡文帝女。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangfen-later-yuyao-father",
+      "subject_person_id": "rtd_v0b_nyn_B",
+      "object_person_id": "rtd_v0b_nyn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "簡文帝女",
+        "nan023_wangfen_reading": "later-yuyao-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-wenxiantongkao",
+          "book_id": "b-wenxiantongkao-258",
+          "source_id": "s-wenxiantongkao-258-yongjia-yuyao-marriages-ws760052",
+          "chapter_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages",
+          "paragraph_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages:p002",
+          "quote": "簡文帝女　餘姚公主適王溥",
+          "subject_person_mention_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages:p002:m0005",
+          "object_person_reference_id": "c-wenxiantongkao-258-yongjia-yuyao-marriages:p002:r0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "後出名單重明父女。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

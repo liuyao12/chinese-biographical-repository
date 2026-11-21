@@ -1,0 +1,128 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-chenshu-003-wang-empress-marriage-annal",
+  "work_id": "w-chenshu",
+  "book_id": "b-chenshu-003",
+  "source_id": "s-chenshu-003-wang-empress-marriage-annal-ws2361318",
+  "title": "皇太子納妃王氏",
+  "source": {
+    "title": "陳書卷3·皇太子納妃王氏",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2361318",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2361318",
+    "revision_id": 2361318,
+    "accessed_on": "2026-11-21",
+    "edition": "維基文庫固定數位轉錄",
+    "extent": "原王府身分、紀年或改名原句",
+    "text_scope": "partial_chapter",
+    "image_verified": false,
+    "review_status": "text_checked",
+    "raw_path": "sources/chenshu/chenshu003-ws2361318.wikitext",
+    "raw_file_sha256": "fb5cf1e77b55ed92d52f1faefa58f43e57e2faac470a13f6bb09c6d68a129587",
+    "rights": "古代原典及維基文庫數位轉錄。",
+    "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+    "normalization": {
+      "character_conversion": {},
+      "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+    }
+  },
+  "annotation": {
+    "status": "reviewed",
+    "person_reference_occurrences": [
+      {
+        "id": "c-chenshu-003-wang-empress-marriage-annal:p001:r0006",
+        "surface": "皇太子",
+        "start": 6,
+        "end": 9,
+        "person_id": "2mj_6rl_6xs",
+        "referent_role": "third_person",
+        "paragraph_id": "c-chenshu-003-wang-empress-marriage-annal:p001",
+        "quote": "秋七月己丑，皇太子納妃王氏。",
+        "note": "陳文帝的皇太子是伯宗。"
+      }
+    ],
+    "narrative_readings": [
+      {
+        "event_type": "marriage_chronology",
+        "person_ids": [
+          "q7m_r8k_2vn_ABAEB",
+          "2mj_6rl_6xs"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-chenshu-003-wang-empress-marriage-annal:p001",
+          "surface": "秋七月己丑",
+          "start": 0,
+          "end": 5
+        },
+        "evidence": [
+          {
+            "work_id": "w-chenshu",
+            "book_id": "b-chenshu-003",
+            "source_id": "s-chenshu-003-wang-empress-marriage-annal-ws2361318",
+            "chapter_id": "c-chenshu-003-wang-empress-marriage-annal",
+            "paragraph_id": "c-chenshu-003-wang-empress-marriage-annal:p001",
+            "quote": "秋七月己丑"
+          }
+        ],
+        "interpretation_note": "承天嘉三年年題（行76）。",
+        "era": "天嘉",
+        "era_year": 3,
+        "year_ce": 562,
+        "lunar_month": 7,
+        "sexagenary_day": "己丑"
+      }
+    ],
+    "reviewer": "Codex（AI 代理）",
+    "human_reviewed": false,
+    "model": null
+  },
+  "paragraphs": [
+    {
+      "id": "c-chenshu-003-wang-empress-marriage-annal:p001",
+      "text": "秋七月己丑，皇太子納妃王氏。",
+      "mentions": [
+        {
+          "id": "c-chenshu-003-wang-empress-marriage-annal:p001:m0011",
+          "surface": "王氏",
+          "start": 11,
+          "end": 13,
+          "person_id": "q7m_r8k_2vn_ABAEB",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本傳及官府原句。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "source_position": {
+        "revision_id": 2361318,
+        "source_layer": "received_biography",
+        "first_line": 87,
+        "last_line": 87,
+        "line_start": 2,
+        "line_end": 16,
+        "raw_start": 6364,
+        "raw_end": 6378,
+        "raw_character_offsets": [
+          6364,
+          6365,
+          6366,
+          6367,
+          6368,
+          6369,
+          6370,
+          6371,
+          6372,
+          6373,
+          6374,
+          6375,
+          6376,
+          6377
+        ],
+        "projection_sha256": "d8b37e3794f3c6a8f8dd6b073ac2f5d0a1b5ed634e80d53f819c7940dce7312d"
+      }
+    }
+  ],
+  "text_sha256": "6264db8db24c95e70242dbec4cff79e30417f773155fc0c4d96d48cc9658fffd"
+}

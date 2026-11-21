@@ -31,7 +31,8 @@ def valid(p, chapter, root):
             return False
         introductory = left[start:]
         marker = re.sub(r'-\{([^{}]+)\}-', r'\1', introductory)
-        if quotation not in marker or '曰：' not in marker:
+        named_wen_genealogy = (marker == '{{*|按溫氏譜：「' and quotation == '溫氏譜' and source['revision_id'] == 1500502)
+        if quotation not in marker or ('曰：' not in marker and not named_wen_genealogy):
             return False
         # 異體單字標記也可位於專名模板內。
         deconverted_quote = re.sub(r'-\{([^{}]+)\}-', r'\1', q['quote'])

@@ -832,14 +832,41 @@
         "accessed_on": "2026-11-20",
         "raw_path": "source-evidence/nanshi019-xietiao/nanqishu020-ws2074177.wikitext",
         "raw_file_sha256": "2c014418a1f8c5d3ce3fff8502fb7694f4b7266638217fe4f10df10170cb6acc",
-        "extent": "取文範圍見逐段行號及引句。",
+        "extent": "固定原始檔第46行全傳，自明敬劉皇后諱惠端至祔于興安陵。",
         "edition": "維基文庫固定數位見證。",
-        "text_scope": "partial_chapter",
+        "text_scope": "complete_biography_unit",
         "image_verified": false,
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "rights": "古代正文及維基文庫數位轉錄。",
         "section_locator": "明敬劉皇后名與父"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-020-xietiao-jing-wyd",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-020",
+      "source_id": "s-nanqishu-020-liuhuiduan-wyd",
+      "source": {
+        "title": "乾隆武英殿本《南齊書》卷二十明敬劉皇后惠端傳",
+        "provider": "中國國家圖書館藏，Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=703777584",
+        "revision_id": "cbr-ai-transcription-sha256:8a7421d89ac303b0e07df6a4fb9371982081987e921c5ac089cbaaa8fb688cca",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/qi020-liuhuiduan-wyd/wyd-columns.txt",
+        "raw_file_sha256": "8a7421d89ac303b0e07df6a4fb9371982081987e921c5ac089cbaaa8fb688cca",
+        "edition": "國圖藏乾隆四年武英殿刊《二十四史》第158冊，南齊書卷二十。",
+        "extent": "PDF第六面右半第六至十欄，卷二十第四葉下。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依刊本從右至左按欄轉寫，本傳起於新欄。"
+        }
       }
     },
     {
@@ -997,6 +1024,61 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅去pb/¶/換行；全部1255可見字逐碼點保留，9段為編輯分段，數理文字不改寫/轉算/省略。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-011-liuhuiduan",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-011",
+      "source_id": "s-nanshi-011-liuhuiduan-ws2288359",
+      "source": {
+        "title": "明敬皇后劉惠端",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2288359",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2288359",
+        "revision_id": 2288359,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位轉錄。所據數位底本另待校。",
+        "extent": "固定原始檔第133行全傳，自明敬劉皇后諱惠端至祔于興安陵。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "明敬皇后劉惠端",
+        "raw_path": "source-evidence/nanshi022-wang/nan011-ws2288359.wikitext",
+        "raw_file_sha256": "056a4790420554786f40b92b14255aeec0a0eb168722bfeda19ad5f78f6363d4",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "顯示維基連結文字，照錄原字、標點及每個轉寫字的來源位置。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-011-liuhuiduan-izumo",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-011",
+      "source_id": "s-nanshi-011-liuhuiduan-izumo",
+      "source": {
+        "title": "弘化四年出雲藩刊本《南史》卷十一明敬劉皇后惠端傳",
+        "provider": "日本國立公文書館內閣文庫藏，Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/NAJDA-280-0079_%E5%8D%97%E5%8F%B27.pdf",
+        "permalink": "https://commons.wikimedia.org/w/index.php?oldid=1298729844",
+        "revision_id": "cbr-ai-transcription-sha256:22960f447841b01da0e303f00ab1000d1d10772f5b8453b2307aa9c8e3ea4371",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/nan011-liuhuiduan-izumo/izumo-columns.txt",
+        "raw_file_sha256": "22960f447841b01da0e303f00ab1000d1d10772f5b8453b2307aa9c8e3ea4371",
+        "edition": "弘化四年出雲藩刊《南史》第七冊，內閣文庫 280-0079，卷十一。",
+        "extent": "PDF第二十三面左半第二至七欄，卷十一第二十一葉上。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NAJDA-280-0079_%E5%8D%97%E5%8F%B27.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "依原欄自右至左轉寫。短傳另起一欄，字旁原圈點未收入正文。"
         }
       }
     },
@@ -1687,6 +1769,64 @@
       "model": null
     },
     {
+      "id": "a-nanqishu020-liuhuiduan-marriage",
+      "predicate": "spouse",
+      "subject_person_id": "gjl_f5h_2a6_A",
+      "object_person_id": "w4m_9tw_147",
+      "qualifiers": {
+        "source_term": "太祖為高宗納之",
+        "reading_basis": {
+          "kind": "qi020_huiduan_marriage_reference"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-xietiao-jing",
+          "source_id": "s-nanqishu-020-xietiao-jing-ws2074177",
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "quote": "明敬劉皇后諱惠端，彭城人，光祿大夫道弘孫也。太祖為高宗納之。建元三年，除西昌侯夫人。永明七年，卒，葬江乘縣張山。延興元年，贈宣城王妃。高宗即位，追尊為敬皇后。贈父通直郎景猷金紫光祿大夫，母王氏平陽鄉君。永泰元年，高宗崩，改葬，祔于興安陵。",
+          "subject_person_mention_id": "c-nanqishu-020-xietiao-jing:p001:m0006",
+          "object_person_reference_id": "c-nanqishu-020-xietiao-jing:p001:r0025"
+        }
+      ],
+      "interpretation_note": "主婚者為齊高帝，「為高宗／明帝納之」指惠端所配蕭鸞。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqishu020-liuhuiduan-marriage-wyd",
+      "predicate": "spouse",
+      "subject_person_id": "gjl_f5h_2a6_A",
+      "object_person_id": "w4m_9tw_147",
+      "qualifiers": {
+        "source_term": "太祖為高宗納之",
+        "reading_basis": {
+          "kind": "qi020_huiduan_marriage_reference"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-xietiao-jing-wyd",
+          "source_id": "s-nanqishu-020-liuhuiduan-wyd",
+          "paragraph_id": "c-nanqishu-020-xietiao-jing-wyd:p001",
+          "quote": "明敬劉皇后諱惠端彭城人光祿大夫道弘孫也太祖為高宗納之建元三年除西昌侯夫人永明七年卒葬江乘縣張山延興元年贈宣城王妃高宗即位追尊為敬皇后贈父通直郎景猷金紫光祿大夫母王氏平陽鄉君永泰元年高宗崩改葬祔于興安陵",
+          "subject_person_mention_id": "c-nanqishu-020-xietiao-jing-wyd:p001:m0006",
+          "object_person_reference_id": "c-nanqishu-020-xietiao-jing-wyd:p001:r0022"
+        }
+      ],
+      "interpretation_note": "主婚者為齊高帝，「為高宗／明帝納之」指惠端所配蕭鸞。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanqishu-050-wangzhan-royal-context-line34-father",
       "subject_person_id": "bni_9ky_npc",
       "object_person_id": "w4m_9tw_147",
@@ -1871,6 +2011,64 @@
       "human_reviewed": false
     },
     {
+      "id": "a-nanshi011-liuhuiduan-marriage",
+      "predicate": "spouse",
+      "subject_person_id": "gjl_f5h_2a6_A",
+      "object_person_id": "w4m_9tw_147",
+      "qualifiers": {
+        "source_term": "高帝為明帝納之",
+        "reading_basis": {
+          "kind": "qi020_huiduan_marriage_reference"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-liuhuiduan",
+          "source_id": "s-nanshi-011-liuhuiduan-ws2288359",
+          "paragraph_id": "c-nanshi-011-liuhuiduan:p001",
+          "quote": "明敬劉皇后諱惠端，彭城人，光祿大夫道弘孫也。高帝為明帝納之。建元三年，除西昌侯夫人。永明七年卒，葬江乘縣張山。延興元年，贈宣城王妃。明帝即位，追尊敬皇后。贈父通直郎景猷為金紫光祿大夫，母王氏平陽鄉君。明帝崩，改葬，祔于興安陵。",
+          "subject_person_mention_id": "c-nanshi-011-liuhuiduan:p001:m0006",
+          "object_person_reference_id": "c-nanshi-011-liuhuiduan:p001:r0025"
+        }
+      ],
+      "interpretation_note": "主婚者為齊高帝，「為高宗／明帝納之」指惠端所配蕭鸞。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi011-liuhuiduan-marriage-izumo",
+      "predicate": "spouse",
+      "subject_person_id": "gjl_f5h_2a6_A",
+      "object_person_id": "w4m_9tw_147",
+      "qualifiers": {
+        "source_term": "高帝為明帝納之",
+        "reading_basis": {
+          "kind": "qi020_huiduan_marriage_reference"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-liuhuiduan-izumo",
+          "source_id": "s-nanshi-011-liuhuiduan-izumo",
+          "paragraph_id": "c-nanshi-011-liuhuiduan-izumo:p001",
+          "quote": "明敬劉皇后諱惠端彭城人光祿大夫道弘孫也高帝為明帝納之建元三年除西昌侯夫人永明七年卒葬江乘縣張山延興元年贈宣城王妃明帝即位追尊敬皇后贈父通直郎景猷為金紫光祿大夫母王氏平陽鄉君明帝崩改葬祔于興安陵",
+          "subject_person_mention_id": "c-nanshi-011-liuhuiduan-izumo:p001:m0006",
+          "object_person_reference_id": "c-nanshi-011-liuhuiduan-izumo:p001:r0022"
+        }
+      ],
+      "interpretation_note": "主婚者為齊高帝，「為高宗／明帝納之」指惠端所配蕭鸞。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nan023-wangliang-emperor-neidi",
       "subject_person_id": "w4m_9tw_147",
       "object_person_id": "q63_4br_3of_A",
@@ -2000,6 +2198,7 @@
     "069_dn8_o4r_A": "江氏（齊景皇后，蕭鸞母）",
     "98q_mll_d6v": "蕭道生",
     "bni_9ky_npc": "蕭寶夤（字智亮）",
+    "gjl_f5h_2a6_A": "劉惠端",
     "q63_4br_3of_A": "江祏",
     "w4m_9tw_147": "齊明帝鸞",
     "w4m_9tw_147_A": "蕭寶卷",
@@ -2010,6 +2209,328 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-020-xietiao-jing-wyd-parallel-7",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "西昌侯夫人",
+      "reading": "封西昌侯，邑千戶",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing-wyd:p001",
+      "start_codepoint": 31,
+      "end_codepoint": 36,
+      "human_reviewed": false,
+      "note": "蕭鸞的封號。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing-wyd",
+      "source_id": "s-nanqishu-020-liuhuiduan-wyd"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-wyd-parallel-8",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "宣城王妃",
+      "reading": "封宣城王，邑五千戶",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing-wyd:p001",
+      "start_codepoint": 52,
+      "end_codepoint": 56,
+      "human_reviewed": false,
+      "note": "蕭鸞受封與妃受贈分記。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing-wyd",
+      "source_id": "s-nanqishu-020-liuhuiduan-wyd"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-wyd-parallel-9",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "高宗即位",
+      "reading": "建武元年冬十月癸亥，即皇帝位",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing-wyd:p001",
+      "start_codepoint": 56,
+      "end_codepoint": 60,
+      "human_reviewed": false,
+      "note": "即位日期屬蕭鸞。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing-wyd",
+      "source_id": "s-nanqishu-020-liuhuiduan-wyd"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-wyd-parallel-10",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "高宗崩",
+      "reading": "己酉，帝崩〔于〕正福殿",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing-wyd:p001",
+      "start_codepoint": 90,
+      "end_codepoint": 93,
+      "human_reviewed": false,
+      "note": "明帝之死。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing-wyd",
+      "source_id": "s-nanqishu-020-liuhuiduan-wyd"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-wyd-parallel-11",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "興安陵",
+      "reading": "葬興安陵",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing-wyd:p001",
+      "start_codepoint": 97,
+      "end_codepoint": 100,
+      "human_reviewed": false,
+      "note": "與后傳所記祔陵相合。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing-wyd",
+      "source_id": "s-nanqishu-020-liuhuiduan-wyd"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-parallel-7",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "西昌侯夫人",
+      "reading": "封西昌侯，邑千戶",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+      "start_codepoint": 36,
+      "end_codepoint": 41,
+      "human_reviewed": false,
+      "note": "蕭鸞的封號。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing",
+      "source_id": "s-nanqishu-020-xietiao-jing-ws2074177"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-parallel-8",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "宣城王妃",
+      "reading": "封宣城王，邑五千戶",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+      "start_codepoint": 62,
+      "end_codepoint": 66,
+      "human_reviewed": false,
+      "note": "蕭鸞受封與妃受贈分記。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing",
+      "source_id": "s-nanqishu-020-xietiao-jing-ws2074177"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-parallel-9",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "高宗即位",
+      "reading": "建武元年冬十月癸亥，即皇帝位",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+      "start_codepoint": 67,
+      "end_codepoint": 71,
+      "human_reviewed": false,
+      "note": "即位日期屬蕭鸞。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing",
+      "source_id": "s-nanqishu-020-xietiao-jing-ws2074177"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-parallel-10",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "高宗崩",
+      "reading": "己酉，帝崩〔于〕正福殿",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+      "start_codepoint": 106,
+      "end_codepoint": 109,
+      "human_reviewed": false,
+      "note": "明帝之死。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing",
+      "source_id": "s-nanqishu-020-xietiao-jing-ws2074177"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-parallel-11",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "興安陵",
+      "reading": "葬興安陵",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+      "start_codepoint": 115,
+      "end_codepoint": 118,
+      "human_reviewed": false,
+      "note": "與后傳所記祔陵相合。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing",
+      "source_id": "s-nanqishu-020-xietiao-jing-ws2074177"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-izumo-parallel-7",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "西昌侯夫人",
+      "reading": "封西昌侯，邑千戶",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanshi-011-liuhuiduan-izumo:p001",
+      "start_codepoint": 31,
+      "end_codepoint": 36,
+      "human_reviewed": false,
+      "note": "蕭鸞的封號。",
+      "chapter_id": "c-nanshi-011-liuhuiduan-izumo",
+      "source_id": "s-nanshi-011-liuhuiduan-izumo"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-izumo-parallel-8",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "宣城王妃",
+      "reading": "封宣城王，邑五千戶",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanshi-011-liuhuiduan-izumo:p001",
+      "start_codepoint": 52,
+      "end_codepoint": 56,
+      "human_reviewed": false,
+      "note": "蕭鸞受封與妃受贈分記。",
+      "chapter_id": "c-nanshi-011-liuhuiduan-izumo",
+      "source_id": "s-nanshi-011-liuhuiduan-izumo"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-izumo-parallel-9",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "明帝即位",
+      "reading": "建武元年冬十月癸亥，即皇帝位",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanshi-011-liuhuiduan-izumo:p001",
+      "start_codepoint": 56,
+      "end_codepoint": 60,
+      "human_reviewed": false,
+      "note": "即位日期屬蕭鸞。",
+      "chapter_id": "c-nanshi-011-liuhuiduan-izumo",
+      "source_id": "s-nanshi-011-liuhuiduan-izumo"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-izumo-parallel-10",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "明帝崩",
+      "reading": "己酉，帝崩〔于〕正福殿",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanshi-011-liuhuiduan-izumo:p001",
+      "start_codepoint": 86,
+      "end_codepoint": 89,
+      "human_reviewed": false,
+      "note": "明帝之死。",
+      "chapter_id": "c-nanshi-011-liuhuiduan-izumo",
+      "source_id": "s-nanshi-011-liuhuiduan-izumo"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-izumo-parallel-11",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "興安陵",
+      "reading": "葬興安陵",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanshi-011-liuhuiduan-izumo:p001",
+      "start_codepoint": 93,
+      "end_codepoint": 96,
+      "human_reviewed": false,
+      "note": "與后傳所記祔陵相合。",
+      "chapter_id": "c-nanshi-011-liuhuiduan-izumo",
+      "source_id": "s-nanshi-011-liuhuiduan-izumo"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-parallel-7",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "西昌侯夫人",
+      "reading": "封西昌侯，邑千戶",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanshi-011-liuhuiduan:p001",
+      "start_codepoint": 36,
+      "end_codepoint": 41,
+      "human_reviewed": false,
+      "note": "蕭鸞的封號。",
+      "chapter_id": "c-nanshi-011-liuhuiduan",
+      "source_id": "s-nanshi-011-liuhuiduan-ws2288359"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-parallel-8",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "宣城王妃",
+      "reading": "封宣城王，邑五千戶",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanshi-011-liuhuiduan:p001",
+      "start_codepoint": 61,
+      "end_codepoint": 65,
+      "human_reviewed": false,
+      "note": "蕭鸞受封與妃受贈分記。",
+      "chapter_id": "c-nanshi-011-liuhuiduan",
+      "source_id": "s-nanshi-011-liuhuiduan-ws2288359"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-parallel-9",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "明帝即位",
+      "reading": "建武元年冬十月癸亥，即皇帝位",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanshi-011-liuhuiduan:p001",
+      "start_codepoint": 66,
+      "end_codepoint": 70,
+      "human_reviewed": false,
+      "note": "即位日期屬蕭鸞。",
+      "chapter_id": "c-nanshi-011-liuhuiduan",
+      "source_id": "s-nanshi-011-liuhuiduan-ws2288359"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-parallel-10",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "明帝崩",
+      "reading": "己酉，帝崩〔于〕正福殿",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanshi-011-liuhuiduan:p001",
+      "start_codepoint": 100,
+      "end_codepoint": 103,
+      "human_reviewed": false,
+      "note": "明帝之死。",
+      "chapter_id": "c-nanshi-011-liuhuiduan",
+      "source_id": "s-nanshi-011-liuhuiduan-ws2288359"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-parallel-11",
+      "kind": "primary_source_comparison",
+      "person_id": "w4m_9tw_147",
+      "source_quote": "興安陵",
+      "reading": "葬興安陵",
+      "reference": "南齊書明帝紀",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+      "paragraph_id": "c-nanshi-011-liuhuiduan:p001",
+      "start_codepoint": 109,
+      "end_codepoint": 112,
+      "human_reviewed": false,
+      "note": "與后傳所記祔陵相合。",
+      "chapter_id": "c-nanshi-011-liuhuiduan",
+      "source_id": "s-nanshi-011-liuhuiduan-ws2288359"
+    }
+  ],
   "person_references": [
     {
       "id": "c-liangshu-021-wangjian-sons-context:p002:r0117",
@@ -2100,6 +2621,51 @@
       "book_id": "b-nanqishu-008",
       "work_id": "w-nanqishu",
       "source_id": "s-nanqishu-008-suijun-baorong-context-ws2312010"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-wyd:p001:r0022",
+      "start": 22,
+      "end": 24,
+      "surface": "高宗",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing-wyd:p001",
+      "person_id": "w4m_9tw_147",
+      "referent_role": "third_person",
+      "quote": "明敬劉皇后諱惠端彭城人光祿大夫道弘孫也太祖為高宗納之建元三年除西昌侯夫人永明七年卒葬江乘縣張山延興元年贈宣城王妃高宗即位追尊為敬皇后贈父通直郎景猷金紫光祿大夫母王氏平陽鄉君永泰元年高宗崩改葬祔于興安陵",
+      "note": "依語境讀作蕭明帝。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing-wyd",
+      "book_id": "b-nanqishu-020",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-020-liuhuiduan-wyd"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-wyd:p001:r0056",
+      "start": 56,
+      "end": 58,
+      "surface": "高宗",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing-wyd:p001",
+      "person_id": "w4m_9tw_147",
+      "referent_role": "third_person",
+      "quote": "明敬劉皇后諱惠端彭城人光祿大夫道弘孫也太祖為高宗納之建元三年除西昌侯夫人永明七年卒葬江乘縣張山延興元年贈宣城王妃高宗即位追尊為敬皇后贈父通直郎景猷金紫光祿大夫母王氏平陽鄉君永泰元年高宗崩改葬祔于興安陵",
+      "note": "依語境讀作蕭明帝。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing-wyd",
+      "book_id": "b-nanqishu-020",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-020-liuhuiduan-wyd"
+    },
+    {
+      "id": "c-nanqishu-020-xietiao-jing-wyd:p001:r0090",
+      "start": 90,
+      "end": 92,
+      "surface": "高宗",
+      "paragraph_id": "c-nanqishu-020-xietiao-jing-wyd:p001",
+      "person_id": "w4m_9tw_147",
+      "referent_role": "third_person",
+      "quote": "明敬劉皇后諱惠端彭城人光祿大夫道弘孫也太祖為高宗納之建元三年除西昌侯夫人永明七年卒葬江乘縣張山延興元年贈宣城王妃高宗即位追尊為敬皇后贈父通直郎景猷金紫光祿大夫母王氏平陽鄉君永泰元年高宗崩改葬祔于興安陵",
+      "note": "依語境讀作蕭明帝。",
+      "chapter_id": "c-nanqishu-020-xietiao-jing-wyd",
+      "book_id": "b-nanqishu-020",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-020-liuhuiduan-wyd"
     },
     {
       "id": "c-nanqishu-020-xietiao-jing:p001:r0025",
@@ -2250,6 +2816,96 @@
       "book_id": "b-nanqishu-050",
       "work_id": "w-nanqishu",
       "source_id": "s-nanqishu-050-xietiao-princes-ws2272731"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-izumo:p001:r0022",
+      "start": 22,
+      "end": 24,
+      "surface": "明帝",
+      "person_id": "w4m_9tw_147",
+      "paragraph_id": "c-nanshi-011-liuhuiduan-izumo:p001",
+      "quote": "為明帝納之",
+      "referent_role": "third_person",
+      "note": "所指均為蕭鸞。",
+      "chapter_id": "c-nanshi-011-liuhuiduan-izumo",
+      "book_id": "b-nanshi-011",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-011-liuhuiduan-izumo"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-izumo:p001:r0056",
+      "start": 56,
+      "end": 58,
+      "surface": "明帝",
+      "person_id": "w4m_9tw_147",
+      "paragraph_id": "c-nanshi-011-liuhuiduan-izumo:p001",
+      "quote": "明帝即位",
+      "referent_role": "third_person",
+      "note": "所指均為蕭鸞。",
+      "chapter_id": "c-nanshi-011-liuhuiduan-izumo",
+      "book_id": "b-nanshi-011",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-011-liuhuiduan-izumo"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan-izumo:p001:r0086",
+      "start": 86,
+      "end": 88,
+      "surface": "明帝",
+      "person_id": "w4m_9tw_147",
+      "paragraph_id": "c-nanshi-011-liuhuiduan-izumo:p001",
+      "quote": "明帝崩",
+      "referent_role": "third_person",
+      "note": "所指均為蕭鸞。",
+      "chapter_id": "c-nanshi-011-liuhuiduan-izumo",
+      "book_id": "b-nanshi-011",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-011-liuhuiduan-izumo"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan:p001:r0025",
+      "start": 25,
+      "end": 27,
+      "surface": "明帝",
+      "person_id": "w4m_9tw_147",
+      "paragraph_id": "c-nanshi-011-liuhuiduan:p001",
+      "quote": "為明帝納之",
+      "referent_role": "third_person",
+      "note": "所指均為蕭鸞。",
+      "chapter_id": "c-nanshi-011-liuhuiduan",
+      "book_id": "b-nanshi-011",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-011-liuhuiduan-ws2288359"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan:p001:r0066",
+      "start": 66,
+      "end": 68,
+      "surface": "明帝",
+      "person_id": "w4m_9tw_147",
+      "paragraph_id": "c-nanshi-011-liuhuiduan:p001",
+      "quote": "明帝即位",
+      "referent_role": "third_person",
+      "note": "所指均為蕭鸞。",
+      "chapter_id": "c-nanshi-011-liuhuiduan",
+      "book_id": "b-nanshi-011",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-011-liuhuiduan-ws2288359"
+    },
+    {
+      "id": "c-nanshi-011-liuhuiduan:p001:r0100",
+      "start": 100,
+      "end": 102,
+      "surface": "明帝",
+      "person_id": "w4m_9tw_147",
+      "paragraph_id": "c-nanshi-011-liuhuiduan:p001",
+      "quote": "明帝崩",
+      "referent_role": "third_person",
+      "note": "所指均為蕭鸞。",
+      "chapter_id": "c-nanshi-011-liuhuiduan",
+      "book_id": "b-nanshi-011",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-011-liuhuiduan-ws2288359"
     },
     {
       "start": 32,
@@ -2650,6 +3306,64 @@
       "model": null
     },
     {
+      "id": "a-nanqishu020-liuhuiduan-marriage",
+      "predicate": "spouse",
+      "subject_person_id": "gjl_f5h_2a6_A",
+      "object_person_id": "w4m_9tw_147",
+      "qualifiers": {
+        "source_term": "太祖為高宗納之",
+        "reading_basis": {
+          "kind": "qi020_huiduan_marriage_reference"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-xietiao-jing",
+          "source_id": "s-nanqishu-020-xietiao-jing-ws2074177",
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "quote": "明敬劉皇后諱惠端，彭城人，光祿大夫道弘孫也。太祖為高宗納之。建元三年，除西昌侯夫人。永明七年，卒，葬江乘縣張山。延興元年，贈宣城王妃。高宗即位，追尊為敬皇后。贈父通直郎景猷金紫光祿大夫，母王氏平陽鄉君。永泰元年，高宗崩，改葬，祔于興安陵。",
+          "subject_person_mention_id": "c-nanqishu-020-xietiao-jing:p001:m0006",
+          "object_person_reference_id": "c-nanqishu-020-xietiao-jing:p001:r0025"
+        }
+      ],
+      "interpretation_note": "主婚者為齊高帝，「為高宗／明帝納之」指惠端所配蕭鸞。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqishu020-liuhuiduan-marriage-wyd",
+      "predicate": "spouse",
+      "subject_person_id": "gjl_f5h_2a6_A",
+      "object_person_id": "w4m_9tw_147",
+      "qualifiers": {
+        "source_term": "太祖為高宗納之",
+        "reading_basis": {
+          "kind": "qi020_huiduan_marriage_reference"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-xietiao-jing-wyd",
+          "source_id": "s-nanqishu-020-liuhuiduan-wyd",
+          "paragraph_id": "c-nanqishu-020-xietiao-jing-wyd:p001",
+          "quote": "明敬劉皇后諱惠端彭城人光祿大夫道弘孫也太祖為高宗納之建元三年除西昌侯夫人永明七年卒葬江乘縣張山延興元年贈宣城王妃高宗即位追尊為敬皇后贈父通直郎景猷金紫光祿大夫母王氏平陽鄉君永泰元年高宗崩改葬祔于興安陵",
+          "subject_person_mention_id": "c-nanqishu-020-xietiao-jing-wyd:p001:m0006",
+          "object_person_reference_id": "c-nanqishu-020-xietiao-jing-wyd:p001:r0022"
+        }
+      ],
+      "interpretation_note": "主婚者為齊高帝，「為高宗／明帝納之」指惠端所配蕭鸞。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanqishu-050-wangzhan-royal-context-line34-father",
       "subject_person_id": "bni_9ky_npc",
       "object_person_id": "w4m_9tw_147",
@@ -2832,6 +3546,64 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi011-liuhuiduan-marriage",
+      "predicate": "spouse",
+      "subject_person_id": "gjl_f5h_2a6_A",
+      "object_person_id": "w4m_9tw_147",
+      "qualifiers": {
+        "source_term": "高帝為明帝納之",
+        "reading_basis": {
+          "kind": "qi020_huiduan_marriage_reference"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-liuhuiduan",
+          "source_id": "s-nanshi-011-liuhuiduan-ws2288359",
+          "paragraph_id": "c-nanshi-011-liuhuiduan:p001",
+          "quote": "明敬劉皇后諱惠端，彭城人，光祿大夫道弘孫也。高帝為明帝納之。建元三年，除西昌侯夫人。永明七年卒，葬江乘縣張山。延興元年，贈宣城王妃。明帝即位，追尊敬皇后。贈父通直郎景猷為金紫光祿大夫，母王氏平陽鄉君。明帝崩，改葬，祔于興安陵。",
+          "subject_person_mention_id": "c-nanshi-011-liuhuiduan:p001:m0006",
+          "object_person_reference_id": "c-nanshi-011-liuhuiduan:p001:r0025"
+        }
+      ],
+      "interpretation_note": "主婚者為齊高帝，「為高宗／明帝納之」指惠端所配蕭鸞。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi011-liuhuiduan-marriage-izumo",
+      "predicate": "spouse",
+      "subject_person_id": "gjl_f5h_2a6_A",
+      "object_person_id": "w4m_9tw_147",
+      "qualifiers": {
+        "source_term": "高帝為明帝納之",
+        "reading_basis": {
+          "kind": "qi020_huiduan_marriage_reference"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-liuhuiduan-izumo",
+          "source_id": "s-nanshi-011-liuhuiduan-izumo",
+          "paragraph_id": "c-nanshi-011-liuhuiduan-izumo:p001",
+          "quote": "明敬劉皇后諱惠端彭城人光祿大夫道弘孫也高帝為明帝納之建元三年除西昌侯夫人永明七年卒葬江乘縣張山延興元年贈宣城王妃明帝即位追尊敬皇后贈父通直郎景猷為金紫光祿大夫母王氏平陽鄉君明帝崩改葬祔于興安陵",
+          "subject_person_mention_id": "c-nanshi-011-liuhuiduan-izumo:p001:m0006",
+          "object_person_reference_id": "c-nanshi-011-liuhuiduan-izumo:p001:r0022"
+        }
+      ],
+      "interpretation_note": "主婚者為齊高帝，「為高宗／明帝納之」指惠端所配蕭鸞。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     },
     {
       "id": "a-nan023-wangliang-emperor-neidi",

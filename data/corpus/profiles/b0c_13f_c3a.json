@@ -2158,6 +2158,41 @@
       "work_title": "世說新語"
     },
     {
+      "number": 14,
+      "category": "",
+      "title": "世說新語容止·溫嶠對讀",
+      "paragraph_id": "c-shishuoxinyu-014-jin067-wenqiao:wangpu",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "詡，夷甫弟也，仕至脩武令。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-014-jin067-wenqiao:wangpu"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-014-jin067-wenqiao:wangpu:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-014-jin067-wenqiao:wangpu:m0002": "c-shishuoxinyu-014-jin067-wenqiao:wangpu"
+      },
+      "mention_id": "c-shishuoxinyu-014-jin067-wenqiao:wangpu:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-014-jin067-wenqiao:wangpu:m0002",
+          "mention_ids": [
+            "c-shishuoxinyu-014-jin067-wenqiao:wangpu:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-014",
+      "chapter_id": "c-shishuoxinyu-014-jin067-wenqiao",
+      "source_id": "s-shishuoxinyu-014-jin067-wenqiao",
+      "work_title": "世說新語"
+    },
+    {
       "number": 24,
       "category": "",
       "title": "簡傲引晉陽秋王衍弟澄、從弟敦分任荊青",
@@ -16989,6 +17024,30 @@
       }
     },
     {
+      "chapter_id": "c-shishuoxinyu-014-jin067-wenqiao",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-014",
+      "source_id": "s-shishuoxinyu-014-jin067-wenqiao",
+      "source": {
+        "title": "世說新語容止",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1517689",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1517689",
+        "revision_id": 1517689,
+        "accessed_on": "2026-11-21",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "raw_path": "source-evidence/jin067-wenqiao-main/external/rong-ws1517689.wikitext",
+        "wikitext_sha256": "e705350a1dc3de5659e6775b9942ad36237b073f2302b1ce147b71a4182c05cc",
+        "raw_file_sha256": "e705350a1dc3de5659e6775b9942ad36237b073f2302b1ce147b71a4182c05cc"
+      }
+    },
+    {
       "chapter_id": "c-shishuoxinyu-024-jin043-wangcheng",
       "work_id": "w-shishuoxinyu",
       "book_id": "b-shishuoxinyu-024",
@@ -17611,6 +17670,40 @@
       "model": null
     },
     {
+      "id": "a-w067-wen-ex-xuyanguan",
+      "subject_person_id": "9jg_lz9_b0r",
+      "object_person_id": "b0c_13f_c3a",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "夷甫弟",
+        "relative_birth_order": {
+          "older_person_id": "b0c_13f_c3a",
+          "younger_person_id": "9jg_lz9_b0r",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-014",
+          "chapter_id": "c-shishuoxinyu-014-jin067-wenqiao",
+          "source_id": "s-shishuoxinyu-014-jin067-wenqiao",
+          "paragraph_id": "c-shishuoxinyu-014-jin067-wenqiao:wangpu",
+          "quote": "詡，夷甫弟也，仕至脩武令。",
+          "subject_person_mention_id": "c-shishuoxinyu-014-jin067-wenqiao:wangpu:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-014-jin067-wenqiao:wangpu:m0002"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-w043-cheng-yan-ao",
       "subject_person_id": "rlk_lzd_86c",
       "object_person_id": "b0c_13f_c3a",
@@ -17684,6 +17777,7 @@
     "39o_b6y_n74": "王敦",
     "48e_04a_3d8": "王戎",
     "4rl_6u1_b3j": "郭氏〔王衍妻〕",
+    "9jg_lz9_b0r": "王詡〔字季胤、王衍弟〕",
     "b0c_13f_c3a": "王衍",
     "b0c_13f_c3a_A": "王衍長女〔賈后為謐聘之〕",
     "kwx_czc_d4c": "乂〔王衍父，平北將軍〕",
@@ -18808,6 +18902,40 @@
           "quote": "王夷甫婦，郭泰寧女，",
           "subject_person_mention_id": "c-shishuoxinyu-010-jin043-wangyan:family:m0003",
           "object_person_mention_id": "c-shishuoxinyu-010-jin043-wangyan:family:m0000"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w067-wen-ex-xuyanguan",
+      "subject_person_id": "9jg_lz9_b0r",
+      "object_person_id": "b0c_13f_c3a",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "夷甫弟",
+        "relative_birth_order": {
+          "older_person_id": "b0c_13f_c3a",
+          "younger_person_id": "9jg_lz9_b0r",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-014",
+          "chapter_id": "c-shishuoxinyu-014-jin067-wenqiao",
+          "source_id": "s-shishuoxinyu-014-jin067-wenqiao",
+          "paragraph_id": "c-shishuoxinyu-014-jin067-wenqiao:wangpu",
+          "quote": "詡，夷甫弟也，仕至脩武令。",
+          "subject_person_mention_id": "c-shishuoxinyu-014-jin067-wenqiao:wangpu:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-014-jin067-wenqiao:wangpu:m0002"
         }
       ],
       "interpretation_note": "此條按本句所明言。",
