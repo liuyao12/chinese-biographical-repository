@@ -22,6 +22,8 @@ def source_paragraphs(lines, layout=None):
     lines = [line for line in lines if line.strip()]
     if layout is None:
         return [received_text(line) for line in lines]
+    if layout == 'wikisource_blockquote_colon':
+        return [received_text(line.removeprefix(':')) for line in lines]
     if layout == 'jin065_indented_text':
         paragraphs = []
         for line in lines:
@@ -159,6 +161,15 @@ def verify(root=ROOT):
             if entry['item_reviewed']:
                 assert all(p['annotation_status'] == 'reviewed' for p in paragraphs), title
     for book, (survey, lines) in witnesses.items():
+        if survey.get('heading_locator_scheme') == 'wikisource_header_section':
+            header = lines[survey['header_line'] - 1]
+            assert header == survey['header_raw'], book
+            assert re.fullmatch(r'\|\s*section\s*=\s*列傳[^\s]+\s+' + re.escape(survey['headed_title']), header), book
+            titles = [row['title'] for row in inventory['biographies']
+                      if row['book_id'] == book and row['unit_kind'] == 'headed_account']
+            assert titles == [survey['headed_title']], book
+            for section in survey['excluded_sections']:
+                assert lines[section['first_line'] - 1].startswith(section['opening']) and section['reason'], book
         if survey.get('heading_locator_scheme') == 'wikisource_equals_lines':
             exclusions = set()
             for skip in survey.get('excluded_sections', []):

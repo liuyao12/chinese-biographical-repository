@@ -8,6 +8,12 @@ from scripts.family_assemblies import registry_sibling_path_valid
 
 
 class SixDynastiesInventoryTest(unittest.TestCase):
+    def test_song_memorials_strip_one_leading_layout_colon(self):
+        lines = ['上表曰：', ':臣聞：甲。', '::乙。']
+        self.assertEqual(source_paragraphs(lines, 'wikisource_blockquote_colon'),
+                         ['上表曰：', '臣聞：甲。', ':乙。'])
+        self.assertEqual(source_paragraphs(lines), lines)
+
     def test_fixed_paragraph_indents_and_multi_paragraph_quote(self):
         lines = ['　　疏曰：', '{{quote|　　甲。', '', '　　乙。}}', '　　乃止。']
         self.assertEqual(source_paragraphs(lines, 'wikisource_indented_quote'), ['疏曰：', '甲。', '乙。', '乃止。'])
