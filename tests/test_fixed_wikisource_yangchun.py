@@ -2,12 +2,23 @@
 import unittest,json,copy,tempfile,hashlib
 from pathlib import Path
 from scripts.fixed_wikisource_units import source_errors,ordinal_uncle_valid,kin_age_designation_valid
+from scripts.validation_context import scope
 R=Path(__file__).resolve().parents[1];CH='corpus/weishu-weishou/058-yangchun'
 class FixedWikisourceYangchun(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
   cls.c=json.loads((R/(CH+'.json')).read_text());cls.a=json.loads((R/(CH+'-assertions.json')).read_text())['assertions'];cls.ps={p['id']:(cls.c['id'],p)for p in cls.c['paragraphs']}
  def test_full_actual_raw_and_common_witness(self):self.assertEqual(source_errors(self.c,R),[])
+ def test_same_validation_distinguishes_changed_chapter_and_isolates_results(self):
+  changed = copy.deepcopy(self.c)
+  changed['annotation']['shared_appraisal_context']['independent_witness'] = True
+  with scope(R):
+   self.assertEqual(source_errors(self.c, R), [])
+   errors = source_errors(changed, R)
+   self.assertTrue(errors)
+   errors.clear()
+   self.assertTrue(source_errors(changed, R))
+   self.assertEqual(source_errors(self.c, R), [])
  def test_independent_physical_fixture_and_unretained_raw_tamper(self):
   binding=json.loads((R/self.c['annotation']['fixed_wikisource_unit_ref']).read_text())
   with tempfile.TemporaryDirectory(prefix='yangchun-')as tmp:

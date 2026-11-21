@@ -2,10 +2,18 @@
 """Complete fixed Wikisource units, modern refs, and explicitly numeric uncle designations."""
 from pathlib import Path
 import hashlib,json,re
+try:
+ from scripts.validation_context import memoized
+except ImportError:
+ from validation_context import memoized
 
 def source_errors(ch,root):
  ref=ch.get('annotation',{}).get('fixed_wikisource_unit_ref')
  if ref is None:return []
+ return _bound_source_errors(ch,root,ref)
+
+@memoized(1)
+def _bound_source_errors(ch,root,ref):
  try:
   root=Path(root).resolve()
   def local(name):
