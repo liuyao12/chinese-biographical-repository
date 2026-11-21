@@ -170,6 +170,12 @@ def _direction(p, subjects, objects, term):
 
 
 def paternal_uncle_direction_valid(assertion, paragraphs):
+    if assertion.get('id') == 'a-w076-jizhi-bin':
+        try:
+            from scripts.jin076_bin import jizhi_uncle_valid
+        except ImportError:
+            from jin076_bin import jizhi_uncle_valid
+        return jizhi_uncle_valid(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'shishuo_zhenzhi_seventh_uncle':
         try:
             from scripts.jin080_family import named_uncle_valid
@@ -182,6 +188,10 @@ def paternal_uncle_direction_valid(assertion, paragraphs):
         except ImportError:
             from jin079_shang_xuan import kin_valid as checked
         return checked(assertion, paragraphs)
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'nanshi021_wang_family_introduction':
+        try: from scripts.nanshi021_received_uncles import valid
+        except ImportError: from nanshi021_received_uncles import valid
+        return valid(assertion, paragraphs)
     if 'source_uncle_ordinal' in assertion.get('qualifiers', {}):
         try:from scripts.fixed_wikisource_units import ordinal_uncle_valid
         except ImportError:from fixed_wikisource_units import ordinal_uncle_valid

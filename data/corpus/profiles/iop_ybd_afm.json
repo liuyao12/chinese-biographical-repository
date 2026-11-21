@@ -178,6 +178,33 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-040-yuanfei-raised",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-040",
+      "source_id": "s-nanqishu-040-yuanfei-raised-ws2272748",
+      "source": {
+        "title": "南齊書/卷40·太孫少養於子良妃袁氏",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/南齊書/卷40",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南齊書/卷40&oldid=2272748",
+        "edition": "固定數位見證",
+        "revision_id": 2272748,
+        "accessed_on": "2026-11-21",
+        "text_scope": "partial_chapter",
+        "extent": "所引親屬或紀年句",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/liang021-wangzhi/external/nanqishu040-ws2272748.wikitext",
+        "raw_file_sha256": "5ee4445da47c28466a6c227f23c2aac3a6941a84d4e2131a050011f70e30e7ff",
+        "rights": "原典本文及可追溯校記",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留傳本文字及今本補字方括；排版界符和另存的校記依原字位投影。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanqishu-043-xieyue",
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-043",
@@ -207,16 +234,94 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-nanqishu-040-yuanfei-raised-upbringing",
+      "subject_person_id": "iop_ybd_afm",
+      "object_person_id": "xxh_xtr_3f9_ABA",
+      "predicate": "raised_by",
+      "qualifiers": {
+        "source_term": "太孫少養於子良妃袁氏",
+        "pei_kin_frame": "upbringing",
+        "care_basis": "source_explicit_upbringing",
+        "biological_parentage": null
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "source_id": "s-nanqishu-040-yuanfei-raised-ws2272748",
+          "chapter_id": "c-nanqishu-040-yuanfei-raised",
+          "paragraph_id": "c-nanqishu-040-yuanfei-raised:p001",
+          "quote": "太孫少養於子良妃袁氏，甚著慈愛",
+          "subject_person_reference_id": "c-nanqishu-040-yuanfei-raised:p001:r0000",
+          "object_person_mention_id": "c-nanqishu-040-yuanfei-raised:p001:m0008"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "iop_ybd_afm": "鬱林王昭業"
+    "iop_ybd_afm": "鬱林王昭業",
+    "xxh_xtr_3f9_ABA": "袁氏（竟陵王子良妃）"
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-nanqishu-040-yuanfei-raised:p001:r0000",
+      "person_id": "iop_ybd_afm",
+      "paragraph_id": "c-nanqishu-040-yuanfei-raised:p001",
+      "start": 0,
+      "end": 2,
+      "surface": "太孫",
+      "quote": "太孫少養於子良妃袁氏，甚著慈愛",
+      "referent_role": "third_person",
+      "note": "依該段前後稱謂。",
+      "chapter_id": "c-nanqishu-040-yuanfei-raised",
+      "book_id": "b-nanqishu-040",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-040-yuanfei-raised-ws2272748"
+    }
+  ],
   "person_ids": [
     "iop_ybd_afm"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-nanqishu-040-yuanfei-raised-upbringing",
+      "subject_person_id": "iop_ybd_afm",
+      "object_person_id": "xxh_xtr_3f9_ABA",
+      "predicate": "raised_by",
+      "qualifiers": {
+        "source_term": "太孫少養於子良妃袁氏",
+        "pei_kin_frame": "upbringing",
+        "care_basis": "source_explicit_upbringing",
+        "biological_parentage": null
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-040",
+          "source_id": "s-nanqishu-040-yuanfei-raised-ws2272748",
+          "chapter_id": "c-nanqishu-040-yuanfei-raised",
+          "paragraph_id": "c-nanqishu-040-yuanfei-raised:p001",
+          "quote": "太孫少養於子良妃袁氏，甚著慈愛",
+          "subject_person_reference_id": "c-nanqishu-040-yuanfei-raised:p001:r0000",
+          "object_person_mention_id": "c-nanqishu-040-yuanfei-raised:p001:m0008"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

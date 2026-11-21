@@ -14,12 +14,26 @@ def received_text(line):
     text = re.sub(r'-\{([^{}|:;<>\s])\}-', r'\1', text)
     text = re.sub(r'\[\[(?:[^\[\]|]+\|)?([^\[\]|]+)\]\]', r'\1', text)
     text = re.sub(r'\{\{YL\|([^{}|]+)\}\}', r'\1', text)
-    return text.replace('{{!|𠴲|⿰口沓}}', '𠴲')
+    return text.replace('{{!|𠴲|⿰口沓}}', '𠴲').replace('{{!|𩦎|⿰馬斐}}', '𩦎')
 
 
 def source_paragraphs(lines, layout=None):
     """核對固定轉錄選用的首行空格及跨段引文模板。"""
     lines = [line for line in lines if line.strip()]
+    if layout == 'wikisource_unindented_quote':
+        result = []
+        inside_quote = False
+        for line in lines:
+            if line.startswith('{{quote|'):
+                assert not inside_quote
+                inside_quote = True
+                line = line.removeprefix('{{quote|')
+            if line.endswith('}}') and inside_quote:
+                inside_quote = False
+                line = line.removesuffix('}}')
+            result.append(received_text(line))
+        assert not inside_quote
+        return result
     if layout is None:
         return [received_text(line) for line in lines]
     if layout == 'wikisource_blockquote_colon':

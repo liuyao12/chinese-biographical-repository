@@ -1,0 +1,104 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-weishu-weishou-010-wangzhan-royal-context",
+  "work_id": "w-weishu-weishou",
+  "book_id": "b-weishu-weishou-010",
+  "source_id": "s-weishu-weishou-010-wangzhan-royal-context-ws2322631",
+  "title": "魏書卷10·王瞻所涉宗室稱號原句",
+  "source": {
+    "title": "魏書卷10·王瞻所涉宗室稱號原句",
+    "provider": "維基文庫",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2322631",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2322631",
+    "revision_id": 2322631,
+    "accessed_on": "2026-11-20",
+    "edition": "固定修訂2322631",
+    "extent": "僅收本卷用以辨明王瞻傳所涉王爵、親屬或廟號的原句。",
+    "text_scope": "partial_chapter",
+    "image_verified": false,
+    "review_status": "text_checked",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "rights": "公有領域古籍，數位轉錄見來源頁。",
+    "raw_path": "source-evidence/liang021-wangzhan/external/weishu-weishou010-ws2322631.wikitext",
+    "raw_file_sha256": "0f2d6bda1569b63e4036a79d384f650d6de36d7719f0755989ae14229bf834c9",
+    "wikitext_sha256": "0f2d6bda1569b63e4036a79d384f650d6de36d7719f0755989ae14229bf834c9"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "reviewer": "Codex（AI代理）",
+    "model": null,
+    "human_reviewed": false,
+    "scope": "引證段落已逐字核對，未收整篇。",
+    "source_reading_cases": [
+      {
+        "kind": "witness_collation",
+        "source_quote": "寶夤賜死於駝牛署。",
+        "paragraph_id": "c-weishu-weishou-010-wangzhan-royal-context:line078",
+        "person_id": "bni_9ky_npc",
+        "note": "同一寶夤，齊書作中興二年（502）謀反誅，魏書永安三年夏四月（530）在安定被擒，賜死駝牛署。",
+        "references": [
+          {
+            "work": "南齊書卷五十",
+            "revision": 2272731,
+            "line": 38,
+            "quote": "{{YL|中興二年}}，謀反誅。"
+          },
+          {
+            "work": "魏書卷十孝莊紀",
+            "revision": 2322631,
+            "line": 78,
+            "quote": "醜奴斬於都市，寶夤賜死於駝牛署。"
+          }
+        ],
+        "human_reviewed": false,
+        "id": "r-wei10-baoyin-death",
+        "reference": "南齊書卷五十（中興二年，502）",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "reading": "改封寶夤爲鄱陽王。中興二年，謀反誅。"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-weishu-weishou-010-wangzhan-royal-context:line078",
+      "text": "寶夤賜死於駝牛署。",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-weishu-weishou-010-wangzhan-royal-context:line078:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "寶夤",
+          "person_id": "bni_9ky_npc",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本卷語句、名號及敘述時代辨讀。"
+        }
+      ],
+      "source_position": {
+        "first_line": 78,
+        "last_line": 78,
+        "revision_id": 2322631,
+        "source_layer": "received_biography",
+        "editorial_excerpt_boundary": true,
+        "raw_start": 6609,
+        "raw_end": 6618,
+        "raw_character_offsets": [
+          6609,
+          6610,
+          6611,
+          6612,
+          6613,
+          6614,
+          6615,
+          6616,
+          6617
+        ],
+        "projection_sha256": "f0766f84b8938e7e484524289b450a1296cf965b7d393fbad36514847a464f68"
+      }
+    }
+  ],
+  "text_sha256": "55623ce5e52ababae1a31f553373b7c204be83751069d2e93e8ff294ebee7795"
+}

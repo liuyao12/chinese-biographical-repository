@@ -6,7 +6,10 @@
   "identity_note": "《晉書》卷76王彬完整傳文所載人物；依敘事辨識，姓氏依家族稱名語境，未補原文沒有的名、父母或精確年月。",
   "review": "ai_provisional",
   "names": [
-    "彭之"
+    "彭之",
+    "虎㹠",
+    "王彭之",
+    "安壽"
   ],
   "titles": [
     {
@@ -56,10 +59,140 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w076-peng-pu-huangmen",
+      "person_id": "7r6_k52_qji_ABDBA",
+      "title": "黃門郎",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-026",
+          "chapter_id": "c-shishuoxinyu-026-jin076-wangpeng",
+          "source_id": "s-shishuoxinyu-026-jin076-wangpeng",
+          "paragraph_id": "c-shishuoxinyu-026-jin076-wangpeng:family",
+          "quote": "彭之字安壽，琅邪人。祖正，尚書郎。父彬，衛將軍。彭之仕至黃門郎。",
+          "person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w076-peng-pu-huangmen:a",
+          "paragraph_id": "c-shishuoxinyu-026-jin076-wangpeng:family",
+          "start": 28,
+          "end": 31,
+          "surface": "黃門郎",
+          "person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 26,
+      "category": "",
+      "title": "輕詆劉注王彭之名號及王氏譜",
+      "paragraph_id": "c-shishuoxinyu-026-jin076-wangpeng:nickname",
+      "count": 6,
+      "raw_count": 6,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "虎㹠，王彭之小字也。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-026-jin076-wangpeng:brother",
+        "c-shishuoxinyu-026-jin076-wangpeng:family",
+        "c-shishuoxinyu-026-jin076-wangpeng:nickname"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-026-jin076-wangpeng:nickname:m0000",
+        "c-shishuoxinyu-026-jin076-wangpeng:nickname:m0003",
+        "c-shishuoxinyu-026-jin076-wangpeng:family:m0000",
+        "c-shishuoxinyu-026-jin076-wangpeng:family:m0003",
+        "c-shishuoxinyu-026-jin076-wangpeng:family:m0024",
+        "c-shishuoxinyu-026-jin076-wangpeng:brother:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-026-jin076-wangpeng:nickname:m0000": "c-shishuoxinyu-026-jin076-wangpeng:nickname",
+        "c-shishuoxinyu-026-jin076-wangpeng:nickname:m0003": "c-shishuoxinyu-026-jin076-wangpeng:nickname",
+        "c-shishuoxinyu-026-jin076-wangpeng:family:m0000": "c-shishuoxinyu-026-jin076-wangpeng:family",
+        "c-shishuoxinyu-026-jin076-wangpeng:family:m0003": "c-shishuoxinyu-026-jin076-wangpeng:family",
+        "c-shishuoxinyu-026-jin076-wangpeng:family:m0024": "c-shishuoxinyu-026-jin076-wangpeng:family",
+        "c-shishuoxinyu-026-jin076-wangpeng:brother:m0015": "c-shishuoxinyu-026-jin076-wangpeng:brother"
+      },
+      "mention_id": "c-shishuoxinyu-026-jin076-wangpeng:nickname:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:nickname:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-026-jin076-wangpeng:nickname:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:nickname:m0003",
+          "mention_ids": [
+            "c-shishuoxinyu-026-jin076-wangpeng:nickname:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-026-jin076-wangpeng:family:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0003",
+          "mention_ids": [
+            "c-shishuoxinyu-026-jin076-wangpeng:family:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0024",
+          "mention_ids": [
+            "c-shishuoxinyu-026-jin076-wangpeng:family:m0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:brother:m0015",
+          "mention_ids": [
+            "c-shishuoxinyu-026-jin076-wangpeng:brother:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-026",
+      "chapter_id": "c-shishuoxinyu-026-jin076-wangpeng",
+      "source_id": "s-shishuoxinyu-026-jin076-wangpeng",
+      "work_title": "世說新語"
+    },
     {
       "number": 76,
       "category": "",
@@ -174,6 +307,30 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-026-jin076-wangpeng",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-026",
+      "source_id": "s-shishuoxinyu-026-jin076-wangpeng",
+      "source": {
+        "title": "世說新語輕詆",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2004422",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2004422",
+        "revision_id": 2004422,
+        "accessed_on": "2026-10-18",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "wikitext_sha256": "e9c3aaaad25c30cd381c847f25685fca14fa4ac411515081b9e8b50fb934f8e1",
+        "raw_path": "source-evidence/jin076-wang-bin-peng/external/qing-ws2004422.wikitext",
+        "raw_file_sha256": "e9c3aaaad25c30cd381c847f25685fca14fa4ac411515081b9e8b50fb934f8e1"
+      }
     }
   ],
   "relations": [
@@ -242,9 +399,88 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-w076-peng-zheng",
+      "subject_person_id": "7r6_k52_qji_ABDBA",
+      "object_person_id": "7r6_k52_qji_ABD",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖正"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-026",
+          "chapter_id": "c-shishuoxinyu-026-jin076-wangpeng",
+          "source_id": "s-shishuoxinyu-026-jin076-wangpeng",
+          "paragraph_id": "c-shishuoxinyu-026-jin076-wangpeng:family",
+          "quote": "彭之字安壽，琅邪人。祖正，尚書郎。父彬，衛將軍。彭之仕至黃門郎。",
+          "subject_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0011"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w076-peng-bin-pu",
+      "subject_person_id": "7r6_k52_qji_ABDBA",
+      "object_person_id": "7r6_k52_qji_ABDB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父彬"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-026",
+          "chapter_id": "c-shishuoxinyu-026-jin076-wangpeng",
+          "source_id": "s-shishuoxinyu-026-jin076-wangpeng",
+          "paragraph_id": "c-shishuoxinyu-026-jin076-wangpeng:family",
+          "quote": "彭之字安壽，琅邪人。祖正，尚書郎。父彬，衛將軍。彭之仕至黃門郎。",
+          "subject_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0018"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w076-biao-peng-pu",
+      "subject_person_id": "7r6_k52_qji_ABDBB",
+      "object_person_id": "7r6_k52_qji_ABDBA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "彭之第三弟"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-026",
+          "chapter_id": "c-shishuoxinyu-026-jin076-wangpeng",
+          "source_id": "s-shishuoxinyu-026-jin076-wangpeng",
+          "paragraph_id": "c-shishuoxinyu-026-jin076-wangpeng:brother",
+          "quote": "虎犢，彪之小字也。彪之字叔虎，彭之第三弟。年二十而頭鬚皓白，時人謂之王白鬚。",
+          "subject_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:brother:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:brother:m0015"
+        }
+      ],
+      "interpretation_note": "原譜作第三弟，僅記相對於彭之之稱。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
+    "7r6_k52_qji_ABD": "王正",
     "7r6_k52_qji_ABDB": "王彬",
     "7r6_k52_qji_ABDBA": "王彭之",
     "7r6_k52_qji_ABDBB": "王彪之"
@@ -335,6 +571,84 @@
           "object_person_mention_id": "c-jinshu-076-wangbin:line052:m0152"
         }
       ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w076-peng-zheng",
+      "subject_person_id": "7r6_k52_qji_ABDBA",
+      "object_person_id": "7r6_k52_qji_ABD",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖正"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-026",
+          "chapter_id": "c-shishuoxinyu-026-jin076-wangpeng",
+          "source_id": "s-shishuoxinyu-026-jin076-wangpeng",
+          "paragraph_id": "c-shishuoxinyu-026-jin076-wangpeng:family",
+          "quote": "彭之字安壽，琅邪人。祖正，尚書郎。父彬，衛將軍。彭之仕至黃門郎。",
+          "subject_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0011"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w076-peng-bin-pu",
+      "subject_person_id": "7r6_k52_qji_ABDBA",
+      "object_person_id": "7r6_k52_qji_ABDB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父彬"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-026",
+          "chapter_id": "c-shishuoxinyu-026-jin076-wangpeng",
+          "source_id": "s-shishuoxinyu-026-jin076-wangpeng",
+          "paragraph_id": "c-shishuoxinyu-026-jin076-wangpeng:family",
+          "quote": "彭之字安壽，琅邪人。祖正，尚書郎。父彬，衛將軍。彭之仕至黃門郎。",
+          "subject_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:family:m0018"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w076-biao-peng-pu",
+      "subject_person_id": "7r6_k52_qji_ABDBB",
+      "object_person_id": "7r6_k52_qji_ABDBA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "彭之第三弟"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-026",
+          "chapter_id": "c-shishuoxinyu-026-jin076-wangpeng",
+          "source_id": "s-shishuoxinyu-026-jin076-wangpeng",
+          "paragraph_id": "c-shishuoxinyu-026-jin076-wangpeng:brother",
+          "quote": "虎犢，彪之小字也。彪之字叔虎，彭之第三弟。年二十而頭鬚皓白，時人謂之王白鬚。",
+          "subject_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:brother:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-026-jin076-wangpeng:brother:m0015"
+        }
+      ],
+      "interpretation_note": "原譜作第三弟，僅記相對於彭之之稱。",
+      "status": "source_attested",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
