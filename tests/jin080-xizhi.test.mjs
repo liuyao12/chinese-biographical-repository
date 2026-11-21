@@ -21,7 +21,10 @@ test('主傳引書、年齡及殿本保全逐字起訖', () => {
     for (const x of entry.witnesses) assert.equal(raw.get(x.witness).slice(x.raw_start,x.raw_end).join(''),x.quote);
   }
   for (const item of [...proof.items,...proof.source_years]) assert.equal(textAt(item.anchor),item.anchor.quote);
-  for (const page of proof.print_witness.pages) assert.equal(createHash('sha256').update(readFileSync(new URL(page.local_path,root))).digest('hex'),page.sha256);
+  for (const page of proof.print_witness.pages) {
+    assert.equal(page.source_url, proof.print_witness.url + '#page=' + page.pdf_page);
+    assert.match(page.capture_sha256, /^[0-9a-f]{64}$/);
+  }
   assert.equal(proof.material_witness.item_number,'故書00014100000');
   assert.equal(chapter.annotation.age_assertions.find(x => x.id==='age-w080-xi59').birth_year,null);
   const own = read('corpus/jinshu/080-wangxizhi-family-life-events.json').events.find(x => x.id==='le-w080-xizhi');

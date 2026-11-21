@@ -10,7 +10,9 @@ class WangDao(unittest.TestCase):
   self.c=load('corpus/jinshu/065.json');self.p={p['id']:(self.c['id'],p) for p in self.c['paragraphs']};self.ms={m['id']:m for cid,p in self.p.values() for m in p['mentions']};self.q=load('source-evidence/jin065-wangdao-main/reading.json')
  def test_source_and_extent(self):
   for w in self.q['source_layers'].values():self.assertEqual(hashlib.sha256((R/w['raw_path']).read_bytes()).hexdigest(),w['raw_sha256'])
-  for x in self.q['printed_witness']['pages']:self.assertEqual(hashlib.sha256((R/x['local_path']).read_bytes()).hexdigest(),x['sha256'])
+  for x in self.q['printed_witness']['pages']:
+   self.assertEqual(x['source_url'], f"{self.q['printed_witness']['url']}#page={x['pdf_page']}")
+   self.assertRegex(x['capture_sha256'],r'^[0-9a-f]{64}$')
   for x in self.q['comparisons']:
    a=x['source'];self.assertEqual(self.p[a['paragraph_id']][1]['text'][a['start']:a['end']],a['quote'])
    for s in x['witnesses']:

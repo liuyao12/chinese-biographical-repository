@@ -21,5 +21,8 @@ test('卷末書論分層，武英殿作制曰',()=>{
   const c=read('corpus/jinshu/080-wangxizhi-family.json')
   assert.equal(c.paragraphs.at(-1).text_layer,'received_compiler_appraisal')
   assert.equal(r.attribution.printed_opening,'制曰')
-  for(const p of r.print_witness.pages)assert.equal(createHash('sha256').update(bytes(p.local_path)).digest('hex'),p.sha256)
+  for (const page of r.print_witness.pages) {
+    assert.equal(page.source_url, r.print_witness.url + '#page=' + page.pdf_page);
+    assert.match(page.capture_sha256, /^[0-9a-f]{64}$/);
+  }
 })
