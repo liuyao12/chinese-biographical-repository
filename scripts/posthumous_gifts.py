@@ -34,6 +34,10 @@ def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
                 and len(holding.get('attestations', [])) == 1
                 and all(holding['attestations'][0].get(k) == v for k, v in
                         {'paragraph_id': pid, 'person_mention_id': mid, 'start': at, 'end': at + 4, 'surface': '長水校尉', 'usage': 'posthumous_usage'}.items()))
+    if basis.get('kind') == 'liang043_qingtang_family_gifts':
+        try: from scripts.liang043_wei_service import funeral_gift_valid
+        except ImportError: from liang043_wei_service import funeral_gift_valid
+        return funeral_gift_valid(holding, paragraphs, mentions, life_events or {})
     if basis.get('kind') == 'qi049_gift_to_named_defender':
         try: from scripts.qi049_defender_gifts import valid as qi049_gift
         except ImportError: from qi049_defender_gifts import valid as qi049_gift

@@ -6,7 +6,9 @@
   "identity_note": "卷52張承女為孫和所納，卷59稱張休為和妃叔父，卷50稱嫡妃張氏。",
   "review": "ai_provisional",
   "names": [
-    "張氏"
+    "張氏",
+    "妃張",
+    "張"
   ],
   "titles": [],
   "addresses": [],
@@ -79,6 +81,69 @@
       "book_id": "b-sanguozhi-052",
       "chapter_id": "c-sanguozhi-052-zhangcheng-complete",
       "source_id": "s-sanguozhi-052-zhangcheng-complete",
+      "work_title": "三國志"
+    },
+    {
+      "number": 59,
+      "category": "",
+      "title": "孫和傳",
+      "paragraph_id": "c-sanguozhi-059-he:line032",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "是後王夫人與全公主有隙。權嘗寢疾，和祠祭於廟，和妃叔父張休居近廟，邀和過所居。全公主使人覘視，因言太子不在廟中，專就妃家計議；又言王夫人見上寢疾，有喜色。權由是發怒，夫人憂死，而和寵稍損，懼於廢黜。魯王霸覬覦滋甚，陸遜、吾粲、顧譚等數陳適庶之義，理不",
+      "paragraph_ids": [
+        "c-sanguozhi-059-he:line032",
+        "c-sanguozhi-059-he:line034"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-059-he:line032:m0024",
+        "c-sanguozhi-059-he:line034:m0034",
+        "c-sanguozhi-059-he:line034:m0135",
+        "c-sanguozhi-059-he:line034:m0140"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-059-he:line032:m0024": "c-sanguozhi-059-he:line032",
+        "c-sanguozhi-059-he:line034:m0034": "c-sanguozhi-059-he:line034",
+        "c-sanguozhi-059-he:line034:m0135": "c-sanguozhi-059-he:line034",
+        "c-sanguozhi-059-he:line034:m0140": "c-sanguozhi-059-he:line034"
+      },
+      "mention_id": "c-sanguozhi-059-he:line032:m0024",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-059-he:line032:m0024",
+          "mention_ids": [
+            "c-sanguozhi-059-he:line032:m0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-he:line034:m0034",
+          "mention_ids": [
+            "c-sanguozhi-059-he:line034:m0034"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-he:line034:m0135",
+          "mention_ids": [
+            "c-sanguozhi-059-he:line034:m0135"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-059-he:line034:m0140",
+          "mention_ids": [
+            "c-sanguozhi-059-he:line034:m0140"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "chapter_id": "c-sanguozhi-059-he",
+      "source_id": "s-sanguozhi-059-he",
       "work_title": "三國志"
     }
   ],
@@ -164,6 +229,33 @@
           "source-evidence/sanguozhi052-zhouzhao/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-059-he",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-059",
+      "source_id": "s-sanguozhi-059-he",
+      "source": {
+        "title": "三國志卷五十九·吳書十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2085159",
+        "revision_id": 2085159,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第28至36行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi059-princes/sanguozhi059-ws2085159.wikitext",
+        "raw_file_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "wikitext_sha256": "2ef34ba24c5a2d61c1f4ac236905bd136212dacb0cf4efe30d4dff4ec0918bad",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi059-he/reading.json"
+        ]
+      }
     }
   ],
   "relations": [
@@ -244,10 +336,95 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wu059-he-3",
+      "subject_person_id": "572_278_cba_A",
+      "object_person_id": "roi_rz4_ute_BB",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "和與妃張辭別"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-he",
+          "source_id": "s-sanguozhi-059-he",
+          "paragraph_id": "c-sanguozhi-059-he:line034",
+          "quote": "太元二年正月，封和爲南陽王，遣之長沙。四月，權薨，諸葛恪秉政。恪即和妃張之舅也。妃使黃門陳遷之建業上疏中宮，并致問於恪。臨去，恪謂遷曰：「爲我達妃，期當使勝他人。」此言頗泄。又恪有徙都意，使治武昌宮，民間或言欲迎和。及恪被誅，孫峻因此奪和璽綬，徙新都，又遣使者賜死。和與妃張辭別，張曰：「吉凶當相隨，終不獨生活也。」亦自殺，舉邦傷焉。",
+          "subject_person_mention_id": "c-sanguozhi-059-he:line034:m0008",
+          "object_person_mention_id": "c-sanguozhi-059-he:line034:m0034"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu059-zhang-xiu",
+      "subject_person_id": "roi_rz4_ute_BB",
+      "object_person_id": "roi_rz4_ute_A",
+      "predicate": "paternal_uncle",
+      "qualifiers": {
+        "source_term": "和妃叔父張休",
+        "sanguozhi059_family": "zhang-xiu"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-he",
+          "source_id": "s-sanguozhi-059-he",
+          "paragraph_id": "c-sanguozhi-059-he:line032",
+          "quote": "是後王夫人與全公主有隙。權嘗寢疾，和祠祭於廟，和妃叔父張休居近廟，邀和過所居。全公主使人覘視，因言太子不在廟中，專就妃家計議；又言王夫人見上寢疾，有喜色。權由是發怒，夫人憂死，而和寵稍損，懼於廢黜。魯王霸覬覦滋甚，陸遜、吾粲、顧譚等數陳適庶之義，理不可奪，全寄、楊笁爲魯王霸支黨，譖愬日興。粲遂下獄誅，譚徙交州。權沈吟者歷年，後遂幽閉和。於是驃騎將軍朱據、尚書僕射屈晃率諸將吏泥頭自縛，連日詣闕請和。權登白爵觀見，甚惡之，勑據、晃等無事忩忩。權欲廢和立亮，無難督陳正、五營督陳象上書，稱引晉獻公殺申生，立奚齊，晉國擾亂，又據、晃固諫不止。權大怒，族誅正、象，據、晃牽入殿，杖一百，竟徙和於故鄣，羣司坐諫誅放者十數。衆咸冤之。",
+          "subject_person_mention_id": "c-sanguozhi-059-he:line032:m0024",
+          "object_person_mention_id": "c-sanguozhi-059-he:line032:m0027"
+        }
+      ],
+      "interpretation_note": "以同一原句中的角色和字位定向。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu059-zhuge-ke",
+      "subject_person_id": "roi_rz4_ute_BB",
+      "object_person_id": "512_1cd_a4b",
+      "predicate": "maternal_uncle",
+      "qualifiers": {
+        "source_term": "恪即和妃張之舅也",
+        "sanguozhi059_family": "zhuge-ke",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-he",
+          "source_id": "s-sanguozhi-059-he",
+          "paragraph_id": "c-sanguozhi-059-he:line034",
+          "quote": "太元二年正月，封和爲南陽王，遣之長沙。四月，權薨，諸葛恪秉政。恪即和妃張之舅也。妃使黃門陳遷之建業上疏中宮，并致問於恪。臨去，恪謂遷曰：「爲我達妃，期當使勝他人。」此言頗泄。又恪有徙都意，使治武昌宮，民間或言欲迎和。及恪被誅，孫峻因此奪和璽綬，徙新都，又遣使者賜死。和與妃張辭別，張曰：「吉凶當相隨，終不獨生活也。」亦自殺，舉邦傷焉。",
+          "subject_person_mention_id": "c-sanguozhi-059-he:line034:m0034",
+          "object_person_mention_id": "c-sanguozhi-059-he:line034:m0031"
+        }
+      ],
+      "interpretation_note": "以同一原句中的角色和字位定向。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
+    "512_1cd_a4b": "諸葛恪",
     "572_278_cba_A": "孫和〔字子孝〕",
+    "roi_rz4_ute_A": "張休",
     "roi_rz4_ute_B": "張承",
     "roi_rz4_ute_BB": "張氏〔張承女、孫和嫡妃〕"
   },
@@ -303,6 +480,21 @@
       "book_id": "b-sanguozhi-052",
       "work_id": "w-sanguozhi",
       "source_id": "s-sanguozhi-052-zhouzhao-complete"
+    },
+    {
+      "id": "c-sanguozhi-059-he:line034:r0072",
+      "paragraph_id": "c-sanguozhi-059-he:line034",
+      "start": 72,
+      "end": 73,
+      "surface": "妃",
+      "person_id": "roi_rz4_ute_BB",
+      "referent_role": "third_person",
+      "quote": "爲我達妃",
+      "note": "據本段疏首、發言者與答語辨認。",
+      "chapter_id": "c-sanguozhi-059-he",
+      "book_id": "b-sanguozhi-059",
+      "work_id": "w-sanguozhi",
+      "source_id": "s-sanguozhi-059-he"
     }
   ],
   "person_ids": [
@@ -386,6 +578,89 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-wu059-he-3",
+      "subject_person_id": "572_278_cba_A",
+      "object_person_id": "roi_rz4_ute_BB",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "和與妃張辭別"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-he",
+          "source_id": "s-sanguozhi-059-he",
+          "paragraph_id": "c-sanguozhi-059-he:line034",
+          "quote": "太元二年正月，封和爲南陽王，遣之長沙。四月，權薨，諸葛恪秉政。恪即和妃張之舅也。妃使黃門陳遷之建業上疏中宮，并致問於恪。臨去，恪謂遷曰：「爲我達妃，期當使勝他人。」此言頗泄。又恪有徙都意，使治武昌宮，民間或言欲迎和。及恪被誅，孫峻因此奪和璽綬，徙新都，又遣使者賜死。和與妃張辭別，張曰：「吉凶當相隨，終不獨生活也。」亦自殺，舉邦傷焉。",
+          "subject_person_mention_id": "c-sanguozhi-059-he:line034:m0008",
+          "object_person_mention_id": "c-sanguozhi-059-he:line034:m0034"
+        }
+      ],
+      "interpretation_note": "以此來源所述兩端為據。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu059-zhang-xiu",
+      "subject_person_id": "roi_rz4_ute_BB",
+      "object_person_id": "roi_rz4_ute_A",
+      "predicate": "paternal_uncle",
+      "qualifiers": {
+        "source_term": "和妃叔父張休",
+        "sanguozhi059_family": "zhang-xiu"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-he",
+          "source_id": "s-sanguozhi-059-he",
+          "paragraph_id": "c-sanguozhi-059-he:line032",
+          "quote": "是後王夫人與全公主有隙。權嘗寢疾，和祠祭於廟，和妃叔父張休居近廟，邀和過所居。全公主使人覘視，因言太子不在廟中，專就妃家計議；又言王夫人見上寢疾，有喜色。權由是發怒，夫人憂死，而和寵稍損，懼於廢黜。魯王霸覬覦滋甚，陸遜、吾粲、顧譚等數陳適庶之義，理不可奪，全寄、楊笁爲魯王霸支黨，譖愬日興。粲遂下獄誅，譚徙交州。權沈吟者歷年，後遂幽閉和。於是驃騎將軍朱據、尚書僕射屈晃率諸將吏泥頭自縛，連日詣闕請和。權登白爵觀見，甚惡之，勑據、晃等無事忩忩。權欲廢和立亮，無難督陳正、五營督陳象上書，稱引晉獻公殺申生，立奚齊，晉國擾亂，又據、晃固諫不止。權大怒，族誅正、象，據、晃牽入殿，杖一百，竟徙和於故鄣，羣司坐諫誅放者十數。衆咸冤之。",
+          "subject_person_mention_id": "c-sanguozhi-059-he:line032:m0024",
+          "object_person_mention_id": "c-sanguozhi-059-he:line032:m0027"
+        }
+      ],
+      "interpretation_note": "以同一原句中的角色和字位定向。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-wu059-zhuge-ke",
+      "subject_person_id": "roi_rz4_ute_BB",
+      "object_person_id": "512_1cd_a4b",
+      "predicate": "maternal_uncle",
+      "qualifiers": {
+        "source_term": "恪即和妃張之舅也",
+        "sanguozhi059_family": "zhuge-ke",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-he",
+          "source_id": "s-sanguozhi-059-he",
+          "paragraph_id": "c-sanguozhi-059-he:line034",
+          "quote": "太元二年正月，封和爲南陽王，遣之長沙。四月，權薨，諸葛恪秉政。恪即和妃張之舅也。妃使黃門陳遷之建業上疏中宮，并致問於恪。臨去，恪謂遷曰：「爲我達妃，期當使勝他人。」此言頗泄。又恪有徙都意，使治武昌宮，民間或言欲迎和。及恪被誅，孫峻因此奪和璽綬，徙新都，又遣使者賜死。和與妃張辭別，張曰：「吉凶當相隨，終不獨生活也。」亦自殺，舉邦傷焉。",
+          "subject_person_mention_id": "c-sanguozhi-059-he:line034:m0034",
+          "object_person_mention_id": "c-sanguozhi-059-he:line034:m0031"
+        }
+      ],
+      "interpretation_note": "以同一原句中的角色和字位定向。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "age_assertions": [],
@@ -405,6 +680,29 @@
           "paragraph_id": "c-sanguozhi-050-he:line058",
           "quote": "孫和何姬，丹楊句容人也。父遂，本騎士。孫權嘗遊幸諸營，而姬觀於道中，權望見異之，命宦者召入，以賜子和。生男，權喜。名之曰彭祖，即皓也。太子和既廢，後為南陽王，居長沙。孫亮即位，孫峻輔政。峻素媚事全主，全主與和母有隙，遂勸峻徙和居新都，遣使賜死，嫡妃張氏亦自殺。何姬曰：「若皆從死，誰當養孤？」遂拊育皓及其三弟。皓即位，尊和為昭獻皇帝，何姬為昭獻皇后，稱昇平宮，月餘，進為皇太后。封弟洪永平侯，蔣溧陽侯，植宣城侯。洪卒，子邈嗣，為武陵監軍，為晉所殺。植官至大司徒。吳末昏亂，何氏驕僭，子弟橫放，百姓患之。故民訛言「皓久死，立者何氏子」云。",
           "person_mention_id": "c-sanguozhi-050-he:line058:m0124"
+        }
+      ],
+      "interpretation_note": "本來源所記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-wu059-he3",
+      "person_id": "roi_rz4_ute_BB",
+      "event_type": "death",
+      "source_term": "亦自殺",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-059",
+          "chapter_id": "c-sanguozhi-059-he",
+          "source_id": "s-sanguozhi-059-he",
+          "paragraph_id": "c-sanguozhi-059-he:line034",
+          "quote": "太元二年正月，封和爲南陽王，遣之長沙。四月，權薨，諸葛恪秉政。恪即和妃張之舅也。妃使黃門陳遷之建業上疏中宮，并致問於恪。臨去，恪謂遷曰：「爲我達妃，期當使勝他人。」此言頗泄。又恪有徙都意，使治武昌宮，民間或言欲迎和。及恪被誅，孫峻因此奪和璽綬，徙新都，又遣使者賜死。和與妃張辭別，張曰：「吉凶當相隨，終不獨生活也。」亦自殺，舉邦傷焉。",
+          "person_mention_id": "c-sanguozhi-059-he:line034:m0034"
         }
       ],
       "interpretation_note": "本來源所記。",

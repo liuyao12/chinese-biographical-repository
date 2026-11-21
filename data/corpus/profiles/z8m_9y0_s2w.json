@@ -57,10 +57,93 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-liangshu-043-jiangziyi-1-14",
+      "title": "散騎常侍",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "z8m_9y0_s2w",
+      "attestations": [
+        {
+          "id": "th-liangshu-043-jiangziyi-1-14:a",
+          "paragraph_id": "c-liangshu-043-jiangziyi:p001",
+          "start": 14,
+          "end": 18,
+          "surface": "散騎常侍",
+          "person_mention_id": "c-liangshu-043-jiangziyi:p001:m0018",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-043",
+          "chapter_id": "c-liangshu-043-jiangziyi",
+          "source_id": "s-liangshu-043-jiangziyi-ws2087360",
+          "paragraph_id": "c-liangshu-043-jiangziyi:p001",
+          "quote": "江子一字元貞，濟陽考城人，晉散騎常侍統之七世孫也。父法成，天監中奉朝請。",
+          "person_mention_id": "c-liangshu-043-jiangziyi:p001:m0018"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 43,
+      "category": "",
+      "title": "江子一",
+      "paragraph_id": "c-liangshu-043-jiangziyi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "江子一字元貞，濟陽考城人，晉散騎常侍統之七世孫也。父法成，天監中奉朝請。",
+      "paragraph_ids": [
+        "c-liangshu-043-jiangziyi:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-043-jiangziyi:p001:m0018"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-043-jiangziyi:p001:m0018": "c-liangshu-043-jiangziyi:p001"
+      },
+      "mention_id": "c-liangshu-043-jiangziyi:p001:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-043-jiangziyi:p001:m0018",
+          "mention_ids": [
+            "c-liangshu-043-jiangziyi:p001:m0018"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-043",
+      "chapter_id": "c-liangshu-043-jiangziyi",
+      "source_id": "s-liangshu-043-jiangziyi-ws2087360",
+      "work_title": "梁書"
+    },
     {
       "number": 56,
       "category": "",
@@ -95,6 +178,41 @@
       "chapter_id": "c-jinshu-056-jin098-dun-early",
       "source_id": "s-jinshu-056-jin098-dun-early",
       "work_title": "晉書"
+    },
+    {
+      "number": 64,
+      "category": "",
+      "title": "江氏七世孫、父與二弟",
+      "paragraph_id": "c-nanshi-064-jiangziyi-kin:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "江子一字元亮，濟陽考城人，晉散騎常侍統之七世孫也。父法成，奉朝請。",
+      "paragraph_ids": [
+        "c-nanshi-064-jiangziyi-kin:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-064-jiangziyi-kin:p001:m0018"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-064-jiangziyi-kin:p001:m0018": "c-nanshi-064-jiangziyi-kin:p001"
+      },
+      "mention_id": "c-nanshi-064-jiangziyi-kin:p001:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-064-jiangziyi-kin:p001:m0018",
+          "mention_ids": [
+            "c-nanshi-064-jiangziyi-kin:p001:m0018"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-064",
+      "chapter_id": "c-nanshi-064-jiangziyi-kin",
+      "source_id": "s-nanshi-064-jiangziyi-kin-ws1748895",
+      "work_title": "南史"
     },
     {
       "number": 98,
@@ -186,18 +304,180 @@
           "source-evidence/jin098-wangdun-main/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-liangshu-043-jiangziyi",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-043",
+      "source_id": "s-liangshu-043-jiangziyi-ws2087360",
+      "source": {
+        "title": "江子一",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2087360",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2087360",
+        "revision_id": 2087360,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "江子一",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/liang016-complete/external/liang043-ws2087360.wikitext",
+        "raw_file_sha256": "ab1a49e1b8d3d9ab9120336efa70cf35d073bd45a713402d3d0f95ead22f9d73"
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-064-jiangziyi-kin",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-064",
+      "source_id": "s-nanshi-064-jiangziyi-kin-ws1748895",
+      "source": {
+        "title": "江氏七世孫、父與二弟",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1748895",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1748895",
+        "revision_id": 1748895,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "江氏七世孫、父與二弟",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/liang043-complete/external/nan064-ws1748895.wikitext",
+        "raw_file_sha256": "34ed622449e6830664e6f74141319d7727706cfc14c62cd67cae772971e144ad"
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-liang043-jiang-yi-tong",
+      "subject_person_id": "z8m_9y0_s2w_*****AA",
+      "object_person_id": "z8m_9y0_s2w",
+      "predicate": "ancestor",
+      "qualifiers": {
+        "source_term": "統之七世孫",
+        "lineage": "paternal",
+        "generation_distance": 7
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-064",
+          "chapter_id": "c-nanshi-064-jiangziyi-kin",
+          "source_id": "s-nanshi-064-jiangziyi-kin-ws1748895",
+          "paragraph_id": "c-nanshi-064-jiangziyi-kin:p001",
+          "quote": "江子一字元亮，濟陽考城人，晉散騎常侍統之七世孫也。父法成，奉朝請。",
+          "subject_person_mention_id": "c-nanshi-064-jiangziyi-kin:p001:m0000",
+          "object_person_mention_id": "c-nanshi-064-jiangziyi-kin:p001:m0018"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "七世孫直接計七代。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang043-jiang-facheng-tong",
+      "subject_person_id": "z8m_9y0_s2w_*****A",
+      "object_person_id": "z8m_9y0_s2w",
+      "predicate": "ancestor",
+      "qualifiers": {
+        "source_term": "統之七世孫也。父法成",
+        "lineage": "paternal",
+        "generation_distance": 6
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-064",
+          "chapter_id": "c-nanshi-064-jiangziyi-kin",
+          "source_id": "s-nanshi-064-jiangziyi-kin-ws1748895",
+          "paragraph_id": "c-nanshi-064-jiangziyi-kin:p001",
+          "quote": "江子一字元亮，濟陽考城人，晉散騎常侍統之七世孫也。父法成，奉朝請。",
+          "subject_person_mention_id": "c-nanshi-064-jiangziyi-kin:p001:m0026",
+          "object_person_mention_id": "c-nanshi-064-jiangziyi-kin:p001:m0018"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "子一上距統七代、法成是子一父，故法成距統六代，中間五人姓名未見。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "z8m_9y0_s2w": "江統〔字應元〕"
+    "z8m_9y0_s2w": "江統〔字應元〕",
+    "z8m_9y0_s2w_*****A": "江法成（奉朝請）",
+    "z8m_9y0_s2w_*****AA": "江子一（《梁書》字元貞）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "z8m_9y0_s2w"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-liang043-jiang-yi-tong",
+      "subject_person_id": "z8m_9y0_s2w_*****AA",
+      "object_person_id": "z8m_9y0_s2w",
+      "predicate": "ancestor",
+      "qualifiers": {
+        "source_term": "統之七世孫",
+        "lineage": "paternal",
+        "generation_distance": 7
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-064",
+          "chapter_id": "c-nanshi-064-jiangziyi-kin",
+          "source_id": "s-nanshi-064-jiangziyi-kin-ws1748895",
+          "paragraph_id": "c-nanshi-064-jiangziyi-kin:p001",
+          "quote": "江子一字元亮，濟陽考城人，晉散騎常侍統之七世孫也。父法成，奉朝請。",
+          "subject_person_mention_id": "c-nanshi-064-jiangziyi-kin:p001:m0000",
+          "object_person_mention_id": "c-nanshi-064-jiangziyi-kin:p001:m0018"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "七世孫直接計七代。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang043-jiang-facheng-tong",
+      "subject_person_id": "z8m_9y0_s2w_*****A",
+      "object_person_id": "z8m_9y0_s2w",
+      "predicate": "ancestor",
+      "qualifiers": {
+        "source_term": "統之七世孫也。父法成",
+        "lineage": "paternal",
+        "generation_distance": 6
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-064",
+          "chapter_id": "c-nanshi-064-jiangziyi-kin",
+          "source_id": "s-nanshi-064-jiangziyi-kin-ws1748895",
+          "paragraph_id": "c-nanshi-064-jiangziyi-kin:p001",
+          "quote": "江子一字元亮，濟陽考城人，晉散騎常侍統之七世孫也。父法成，奉朝請。",
+          "subject_person_mention_id": "c-nanshi-064-jiangziyi-kin:p001:m0026",
+          "object_person_mention_id": "c-nanshi-064-jiangziyi-kin:p001:m0018"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "子一上距統七代、法成是子一父，故法成距統六代，中間五人姓名未見。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

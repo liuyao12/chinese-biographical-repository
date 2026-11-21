@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "id": "m5k_t3s_umk_B",
+  "canonical_person_id": "m5k_t3s_umk_B",
+  "label": "蕭正立（字公山，建安侯）",
+  "identity_note": "蕭正立（字公山，建安侯），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "正立"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 22,
+      "category": "",
+      "title": "臨川王宏與正德、正立及賁",
+      "paragraph_id": "c-liangshu-022-xiaohong-sons-jingli:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "宏有七子：正仁，正義，正德、正則，正立，正表，正信。",
+      "paragraph_ids": [
+        "c-liangshu-022-xiaohong-sons-jingli:p002",
+        "c-liangshu-022-xiaohong-sons-jingli:p003"
+      ],
+      "mention_ids": [
+        "c-liangshu-022-xiaohong-sons-jingli:p002:m0017",
+        "c-liangshu-022-xiaohong-sons-jingli:p003:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-022-xiaohong-sons-jingli:p002:m0017": "c-liangshu-022-xiaohong-sons-jingli:p002",
+        "c-liangshu-022-xiaohong-sons-jingli:p003:m0009": "c-liangshu-022-xiaohong-sons-jingli:p003"
+      },
+      "mention_id": "c-liangshu-022-xiaohong-sons-jingli:p002:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-022-xiaohong-sons-jingli:p002:m0017",
+          "mention_ids": [
+            "c-liangshu-022-xiaohong-sons-jingli:p002:m0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-022-xiaohong-sons-jingli:p003:m0009",
+          "mention_ids": [
+            "c-liangshu-022-xiaohong-sons-jingli:p003:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-022",
+      "chapter_id": "c-liangshu-022-xiaohong-sons-jingli",
+      "source_id": "s-liangshu-022-xiaohong-sons-jingli-ws1513347",
+      "work_title": "梁書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-liangshu-022-xiaohong-sons-jingli",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-022",
+      "source_id": "s-liangshu-022-xiaohong-sons-jingli-ws1513347",
+      "source": {
+        "title": "臨川王宏與正德、正立及賁",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1513347",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1513347",
+        "revision_id": 1513347,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "臨川王宏與正德、正立及賁",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/liang043-complete/external/liang022-ws1513347.wikitext",
+        "raw_file_sha256": "94e38a83a5c49d47cb4a42f5036f55883e3afecdb214256ab9ee333cc69d3f1a"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-liang043-xiao-li-hong",
+      "subject_person_id": "m5k_t3s_umk_B",
+      "object_person_id": "m5k_t3s_umk",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "宏有七子：正仁，正義，正德、正則，正立，正表，正信",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-022",
+          "chapter_id": "c-liangshu-022-xiaohong-sons-jingli",
+          "source_id": "s-liangshu-022-xiaohong-sons-jingli-ws1513347",
+          "paragraph_id": "c-liangshu-022-xiaohong-sons-jingli:p002",
+          "quote": "宏有七子：正仁，正義，正德、正則，正立，正表，正信。",
+          "subject_person_mention_id": "c-liangshu-022-xiaohong-sons-jingli:p002:m0017",
+          "object_person_mention_id": "c-liangshu-022-xiaohong-sons-jingli:p002:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原父宏，七人名列；南51只稱七人可知。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang043-xiao-ben-li",
+      "subject_person_id": "m5k_t3s_umk_BA",
+      "object_person_id": "m5k_t3s_umk_B",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "正立爲建安侯，邑千戶。卒，子賁嗣",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-022",
+          "chapter_id": "c-liangshu-022-xiaohong-sons-jingli",
+          "source_id": "s-liangshu-022-xiaohong-sons-jingli-ws1513347",
+          "paragraph_id": "c-liangshu-022-xiaohong-sons-jingli:p003",
+          "quote": "高祖嘉而許之，改封正立爲建安侯，邑千戶。卒，子賁嗣。",
+          "subject_person_mention_id": "c-liangshu-022-xiaohong-sons-jingli:p003:m0023",
+          "object_person_mention_id": "c-liangshu-022-xiaohong-sons-jingli:p003:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父正立封建安侯、卒，賁嗣。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "m5k_t3s_umk": "簫宏〔臨川王，楊舒墓誌〕",
+    "m5k_t3s_umk_B": "蕭正立（字公山，建安侯）",
+    "m5k_t3s_umk_BA": "蕭賁（字世文，建安侯）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "m5k_t3s_umk_B"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-liang043-xiao-li-hong",
+      "subject_person_id": "m5k_t3s_umk_B",
+      "object_person_id": "m5k_t3s_umk",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "宏有七子：正仁，正義，正德、正則，正立，正表，正信",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-022",
+          "chapter_id": "c-liangshu-022-xiaohong-sons-jingli",
+          "source_id": "s-liangshu-022-xiaohong-sons-jingli-ws1513347",
+          "paragraph_id": "c-liangshu-022-xiaohong-sons-jingli:p002",
+          "quote": "宏有七子：正仁，正義，正德、正則，正立，正表，正信。",
+          "subject_person_mention_id": "c-liangshu-022-xiaohong-sons-jingli:p002:m0017",
+          "object_person_mention_id": "c-liangshu-022-xiaohong-sons-jingli:p002:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原父宏，七人名列；南51只稱七人可知。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-liang043-xiao-ben-li",
+      "subject_person_id": "m5k_t3s_umk_BA",
+      "object_person_id": "m5k_t3s_umk_B",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "正立爲建安侯，邑千戶。卒，子賁嗣",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-022",
+          "chapter_id": "c-liangshu-022-xiaohong-sons-jingli",
+          "source_id": "s-liangshu-022-xiaohong-sons-jingli-ws1513347",
+          "paragraph_id": "c-liangshu-022-xiaohong-sons-jingli:p003",
+          "quote": "高祖嘉而許之，改封正立爲建安侯，邑千戶。卒，子賁嗣。",
+          "subject_person_mention_id": "c-liangshu-022-xiaohong-sons-jingli:p003:m0023",
+          "object_person_mention_id": "c-liangshu-022-xiaohong-sons-jingli:p003:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父正立封建安侯、卒，賁嗣。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
