@@ -6,7 +6,9 @@
   "identity_note": "此為批次暫存鍵，匯入時由主代理配置正式ID；不代表已發新ID。 本批身份只限固定見證，未經人工覆核。",
   "review": "ai_provisional",
   "names": [
-    "禕之"
+    "禕之",
+    "文邵",
+    "文劭"
   ],
   "titles": [
     {
@@ -133,17 +135,109 @@
         ]
       },
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shishuoxinyu-009-wang-yizhi-family-1-22",
+      "title": "中書郎",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "c25_57d_8e6",
+      "attestations": [
+        {
+          "id": "th-shishuoxinyu-009-wang-yizhi-family-1-22:a",
+          "paragraph_id": "c-shishuoxinyu-009-wang-yizhi-family:p001",
+          "start": 22,
+          "end": 25,
+          "surface": "中書郎",
+          "person_mention_id": "c-shishuoxinyu-009-wang-yizhi-family:p001:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-009",
+          "chapter_id": "c-shishuoxinyu-009-wang-yizhi-family",
+          "source_id": "s-shishuoxinyu-009-wang-yizhi-family-ws1532655",
+          "paragraph_id": "c-shishuoxinyu-009-wang-yizhi-family:p001",
+          "quote": "禕之字文劭，述次子。少知名，尚尋陽公主。仕至中書郎，未三十而卒。坦之悼念，與桓溫稱之，贈散騎常侍。",
+          "person_mention_id": "c-shishuoxinyu-009-wang-yizhi-family:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
   "occurrences": [
     {
+      "number": 9,
+      "category": "",
+      "title": "劉注《王氏世家》載王述次子禕之",
+      "paragraph_id": "c-shishuoxinyu-009-wang-yizhi-family:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "禕之字文劭，述次子。少知名，尚尋陽公主。仕至中書郎，未三十而卒。坦之悼念，與桓溫稱之，贈散騎常侍。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-009-wang-yizhi-family:p001"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-009-wang-yizhi-family:p001:m0000",
+        "c-shishuoxinyu-009-wang-yizhi-family:p001:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-009-wang-yizhi-family:p001:m0000": "c-shishuoxinyu-009-wang-yizhi-family:p001",
+        "c-shishuoxinyu-009-wang-yizhi-family:p001:m0003": "c-shishuoxinyu-009-wang-yizhi-family:p001"
+      },
+      "mention_id": "c-shishuoxinyu-009-wang-yizhi-family:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-009-wang-yizhi-family:p001:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-009-wang-yizhi-family:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shishuoxinyu-009-wang-yizhi-family:p001:m0003",
+          "mention_ids": [
+            "c-shishuoxinyu-009-wang-yizhi-family:p001:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-009",
+      "chapter_id": "c-shishuoxinyu-009-wang-yizhi-family",
+      "source_id": "s-shishuoxinyu-009-wang-yizhi-family-ws1532655",
+      "work_title": "世說新語"
+    },
+    {
       "number": 75,
       "category": "",
       "title": "王湛、王承、王述、王坦之及附傳完整敘事單元",
       "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
-      "count": 1,
-      "raw_count": 1,
+      "count": 2,
+      "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "禕之字文邵。少知名，尚尋陽公主，歷中書侍郎。年未三十而卒，贈散騎常侍。",
@@ -151,10 +245,12 @@
         "c-jinshu-075-taiyuan-wang:line078"
       ],
       "mention_ids": [
-        "c-jinshu-075-taiyuan-wang:line078:m0000"
+        "c-jinshu-075-taiyuan-wang:line078:m0000",
+        "c-jinshu-075-taiyuan-wang:line078:m0003"
       ],
       "mention_paragraph_ids": {
-        "c-jinshu-075-taiyuan-wang:line078:m0000": "c-jinshu-075-taiyuan-wang:line078"
+        "c-jinshu-075-taiyuan-wang:line078:m0000": "c-jinshu-075-taiyuan-wang:line078",
+        "c-jinshu-075-taiyuan-wang:line078:m0003": "c-jinshu-075-taiyuan-wang:line078"
       },
       "mention_id": "c-jinshu-075-taiyuan-wang:line078:m0000",
       "occurrence_groups": [
@@ -162,6 +258,13 @@
           "canonical_mention_id": "c-jinshu-075-taiyuan-wang:line078:m0000",
           "mention_ids": [
             "c-jinshu-075-taiyuan-wang:line078:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-075-taiyuan-wang:line078:m0003",
+          "mention_ids": [
+            "c-jinshu-075-taiyuan-wang:line078:m0003"
           ],
           "kind": "paragraph"
         }
@@ -1398,10 +1501,61 @@
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-shishuoxinyu-009-wang-yizhi-family",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-009",
+      "source_id": "s-shishuoxinyu-009-wang-yizhi-family-ws1532655",
+      "source": {
+        "title": "劉注《王氏世家》載王述次子禕之",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1532655",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1532655",
+        "revision_id": 1532655,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "劉注《王氏世家》載王述次子禕之",
+        "text_scope": "partial_chapter",
+        "raw_path": "sources/shishuoxinyu/shishuo009-ws1532655.wikitext",
+        "raw_file_sha256": "bb84912db3dff13ccba1ab15981534723dad840db63f064c7f196eb88c97f06c"
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin075-early-yizhi-shu",
+      "subject_person_id": "c25_57d_8e6",
+      "object_person_id": "a8f_ec8_e74_AAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "禕之字文劭，述次子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-009",
+          "chapter_id": "c-shishuoxinyu-009-wang-yizhi-family",
+          "source_id": "s-shishuoxinyu-009-wang-yizhi-family-ws1532655",
+          "paragraph_id": "c-shishuoxinyu-009-wang-yizhi-family:p001",
+          "quote": "禕之字文劭，述次子。少知名，尚尋陽公主。仕至中書郎，未三十而卒。坦之悼念，與桓溫稱之，贈散騎常侍。",
+          "subject_person_mention_id": "c-shishuoxinyu-009-wang-yizhi-family:p001:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-009-wang-yizhi-family:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "王氏世家明述次子，保全原來發的非父系號。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
+    "a8f_ec8_e74_AAAA": "王述",
     "c25_57d_8e6": "王禕之"
   },
   "dates": [],
@@ -1439,10 +1593,236 @@
       }
     }
   ],
+  "source_reading_cases": [
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line078:received_sentence-0",
+      "kind": "received_sentence",
+      "person_id": "c25_57d_8e6",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+      "source_quote": "禕之字文邵。",
+      "start_codepoint": 0,
+      "end_codepoint": 6,
+      "reading": "傳稱王禕之字文邵。",
+      "note": "傳稱王禕之字文邵。",
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line078:received_sentence-6",
+      "kind": "received_sentence",
+      "person_id": "c25_57d_8e6",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+      "source_quote": "少知名，尚尋陽公主，歷中書侍郎。",
+      "start_codepoint": 6,
+      "end_codepoint": 22,
+      "reading": "早有名，實娶尋陽公主，歷中書侍郎。",
+      "note": "早有名，實娶尋陽公主，歷中書侍郎。",
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line078:received_sentence-22",
+      "kind": "received_sentence",
+      "person_id": "c25_57d_8e6",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+      "source_quote": "年未三十而卒，贈散騎常侍。",
+      "start_codepoint": 22,
+      "end_codepoint": 35,
+      "reading": "未滿三十而卒，贈散騎常侍。",
+      "note": "未滿三十而卒，贈散騎常侍。",
+      "human_reviewed": false,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line078:courtesy_variant-3",
+      "kind": "courtesy_variant",
+      "person_id": "c25_57d_8e6",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+      "source_quote": "文邵",
+      "start_codepoint": 3,
+      "end_codepoint": 5,
+      "reading": "殿本亦作文邵；《世說》劉注所引王氏世家作文劭，劉注另載小字僧恩。",
+      "note": "殿本亦作文邵；《世說》劉注所引王氏世家作文劭，劉注另載小字僧恩。",
+      "human_reviewed": false,
+      "digital_courtesy": "文邵",
+      "alternative_courtesy": "文劭",
+      "nickname": "僧恩",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line078:attested_marriage_pending_identity-10",
+      "kind": "attested_marriage_pending_identity",
+      "person_id": "c25_57d_8e6",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+      "source_quote": "尚尋陽公主",
+      "start_codepoint": 10,
+      "end_codepoint": 15,
+      "reading": "兩來源皆載確有婚配。荀羨亦尚尋陽公主，兩人配偶暫未證為同一人。",
+      "note": "兩來源皆載確有婚配。荀羨亦尚尋陽公主，兩人配偶暫未證為同一人。",
+      "human_reviewed": false,
+      "marriage_occurred": true,
+      "same_as_xun_wife": null,
+      "comparison_only_person_id": "dkn_ge4_286_AAAAAAAG",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line078:age_upper_bound-22",
+      "kind": "age_upper_bound",
+      "person_id": "c25_57d_8e6",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+      "source_quote": "年未三十而卒",
+      "start_codepoint": 22,
+      "end_codepoint": 28,
+      "reading": "無確數，只能取報齡小於三十；卒前無明年。",
+      "note": "無確數，只能取報齡小於三十；卒前無明年。",
+      "human_reviewed": false,
+      "exclusive_upper_age": 30,
+      "death_year": null,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line078:parallel_office-16",
+      "kind": "parallel_office",
+      "person_id": "c25_57d_8e6",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+      "source_quote": "歷中書侍郎",
+      "start_codepoint": 16,
+      "end_codepoint": 21,
+      "reading": "本傳作中書侍郎，世家引文作中書郎。",
+      "note": "本傳作中書侍郎，世家引文作中書郎。",
+      "human_reviewed": false,
+      "issued_holding_id": "th-taiyuan2-075-78-17-44",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line078:posthumous_grant-29",
+      "kind": "posthumous_grant",
+      "person_id": "c25_57d_8e6",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+      "source_quote": "贈散騎常侍",
+      "start_codepoint": 29,
+      "end_codepoint": 34,
+      "reading": "死後贈，非生前任職。",
+      "note": "死後贈，非生前任職。",
+      "human_reviewed": false,
+      "issued_holding_id": "th-taiyuan2-075-78-30-108",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line078:parallel_filiation-0",
+      "kind": "parallel_filiation",
+      "person_id": "c25_57d_8e6",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+      "source_quote": "禕之",
+      "start_codepoint": 0,
+      "end_codepoint": 2,
+      "reading": "此段未書父名，另據王氏世家直稱述次子。與下文坦之的四子分開。",
+      "note": "此段未書父名，另據王氏世家直稱述次子。與下文坦之的四子分開。",
+      "human_reviewed": false,
+      "father_person_id": "a8f_ec8_e74_AAAA",
+      "birth_order_among_sons": 2,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-shishuoxinyu-009-wang-yizhi-family:upper_age_bound1-26",
+      "kind": "upper_age_bound",
+      "person_id": "c25_57d_8e6",
+      "source_quote": "未三十而卒",
+      "reading": "此本只報未滿三十。",
+      "note": "此本只報未滿三十。",
+      "paragraph_id": "c-shishuoxinyu-009-wang-yizhi-family:p001",
+      "start_codepoint": 26,
+      "end_codepoint": 31,
+      "human_reviewed": false,
+      "exclusive_upper_age": 30,
+      "chapter_id": "c-shishuoxinyu-009-wang-yizhi-family",
+      "source_id": "s-shishuoxinyu-009-wang-yizhi-family-ws1532655"
+    },
+    {
+      "id": "c-shishuoxinyu-009-wang-yizhi-family:courtesy_variant1-3",
+      "kind": "courtesy_variant",
+      "person_id": "c25_57d_8e6",
+      "source_quote": "文劭",
+      "reading": "《王氏世家》作劭，晉75數位與殿本作邵。",
+      "note": "《王氏世家》作劭，晉75數位與殿本作邵。",
+      "paragraph_id": "c-shishuoxinyu-009-wang-yizhi-family:p001",
+      "start_codepoint": 3,
+      "end_codepoint": 5,
+      "human_reviewed": false,
+      "chapter_id": "c-shishuoxinyu-009-wang-yizhi-family",
+      "source_id": "s-shishuoxinyu-009-wang-yizhi-family-ws1532655"
+    },
+    {
+      "id": "c-shishuoxinyu-009-wang-yizhi-family:marriage_named_by_title1-14",
+      "kind": "marriage_named_by_title",
+      "person_id": "c25_57d_8e6",
+      "source_quote": "尚尋陽公主",
+      "reading": "有實婚；無公主名稱，未與荀羨之配同號。",
+      "note": "有實婚；無公主名稱，未與荀羨之配同號。",
+      "paragraph_id": "c-shishuoxinyu-009-wang-yizhi-family:p001",
+      "start_codepoint": 14,
+      "end_codepoint": 19,
+      "human_reviewed": false,
+      "chapter_id": "c-shishuoxinyu-009-wang-yizhi-family",
+      "source_id": "s-shishuoxinyu-009-wang-yizhi-family-ws1532655"
+    },
+    {
+      "id": "c-shishuoxinyu-009-wang-yizhi-family:posthumous_grant1-43",
+      "kind": "posthumous_grant",
+      "person_id": "c25_57d_8e6",
+      "source_quote": "贈散騎常侍",
+      "reading": "王氏世家同載贈官。正傳已有原生贈官筆。",
+      "note": "王氏世家同載贈官。正傳已有原生贈官筆。",
+      "paragraph_id": "c-shishuoxinyu-009-wang-yizhi-family:p001",
+      "start_codepoint": 43,
+      "end_codepoint": 48,
+      "human_reviewed": false,
+      "title": "散騎常侍",
+      "issued_parallel_id": "th-taiyuan2-075-78-30-108",
+      "chapter_id": "c-shishuoxinyu-009-wang-yizhi-family",
+      "source_id": "s-shishuoxinyu-009-wang-yizhi-family-ws1532655"
+    }
+  ],
   "person_ids": [
     "c25_57d_8e6"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin075-early-yizhi-shu",
+      "subject_person_id": "c25_57d_8e6",
+      "object_person_id": "a8f_ec8_e74_AAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "禕之字文劭，述次子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-009",
+          "chapter_id": "c-shishuoxinyu-009-wang-yizhi-family",
+          "source_id": "s-shishuoxinyu-009-wang-yizhi-family-ws1532655",
+          "paragraph_id": "c-shishuoxinyu-009-wang-yizhi-family:p001",
+          "quote": "禕之字文劭，述次子。少知名，尚尋陽公主。仕至中書郎，未三十而卒。坦之悼念，與桓溫稱之，贈散騎常侍。",
+          "subject_person_mention_id": "c-shishuoxinyu-009-wang-yizhi-family:p001:m0000",
+          "object_person_mention_id": "c-shishuoxinyu-009-wang-yizhi-family:p001:m0006"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "王氏世家明述次子，保全原來發的非父系號。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [
     {

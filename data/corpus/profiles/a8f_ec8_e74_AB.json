@@ -1724,6 +1724,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-w044-huaheng-8",
+      "person_id": "a8f_ec8_e74_AB",
+      "title": "司徒",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-huaheng",
+          "source_id": "s-jinshu-044-huaheng",
+          "paragraph_id": "c-jinshu-044-huaheng:line091",
+          "quote": "恆字敬則，博學以清素為稱。尚武帝女滎陽長公主，拜駙馬都尉。元康初，東宮建，恆以選為太子賓友，賜爵關內侯，食邑百戶。辟司徒王渾倉曹掾，屬除散騎侍郎，累遷散騎常侍、北軍中候，俄拜領軍，加散騎常侍。",
+          "person_mention_id": "c-jinshu-044-huaheng:line091:m0060"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-huaheng-8:a",
+          "paragraph_id": "c-jinshu-044-huaheng:line091",
+          "start": 58,
+          "end": 60,
+          "surface": "司徒",
+          "person_mention_id": "c-jinshu-044-huaheng:line091:m0060",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-taiyuan2-075-11-7-1",
       "person_id": "a8f_ec8_e74_AB",
       "title": "司徒",
@@ -2609,6 +2657,41 @@
       "book_id": "b-jinshu-042",
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "source_id": "s-jinshu-042-taiyuan-wang",
+      "work_title": "晉書"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·華恆傳",
+      "paragraph_id": "c-jinshu-044-huaheng:line091",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "馬都尉。元康初，東宮建，恆以選為太子賓友，賜爵關內侯，食邑百戶。辟司徒王渾倉曹掾，屬除散騎侍郎，累遷散騎常侍、北軍中候，俄拜領軍，加散騎常侍。",
+      "paragraph_ids": [
+        "c-jinshu-044-huaheng:line091"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-huaheng:line091:m0060"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-huaheng:line091:m0060": "c-jinshu-044-huaheng:line091"
+      },
+      "mention_id": "c-jinshu-044-huaheng:line091:m0060",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-huaheng:line091:m0060",
+          "mention_ids": [
+            "c-jinshu-044-huaheng:line091:m0060"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-huaheng",
+      "source_id": "s-jinshu-044-huaheng",
       "work_title": "晉書"
     },
     {
@@ -15350,6 +15433,33 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-044-huaheng",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-huaheng",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「廙子恆」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-huaheng/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-061-zhou-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-061",
@@ -17310,6 +17420,38 @@
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-027",
       "source_id": "s-sanguozhi-027-wangchang"
+    }
+  ],
+  "person_references": [
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line013:r0000",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line013",
+      "start": 0,
+      "end": 1,
+      "surface": "兄",
+      "person_id": "a8f_ec8_e74_AB",
+      "referent_role": "third_person",
+      "quote": "兄子濟輕之，所食方丈盈前，不以及淇。湛命取菜蔬，對而食之。濟嘗詣湛，見床頭有《周易》，問曰：「叔父何用此為？」湛曰：「體中不佳時，脫復看耳。」濟請言之。湛因剖析玄理，微妙有奇趣，皆濟所未聞也。濟才氣抗邁，於湛略無子侄之敬。既聞其言，不覺栗然，心形俱肅。遂留連彌日累夜，自視缺然，乃歎曰：「家有名士，三十年而不知，濟之罪也。」既而辭去，湛送至門。濟有從馬絕難乘，濟問湛曰：「叔頗好騎不？」湛曰：「亦好之。」因騎此馬，姿容既妙，回策如縈，善騎者無以過之。又濟所乘馬，甚愛之，湛曰：「此馬雖快，然力薄不堪苦行。近見督郵馬當勝，但芻秣不至耳。」濟試養之，而與己馬等。湛又曰：「此馬任重方知之，平路無以別也。」於是當蟻封內試之，濟馬果躓，而督郵馬如常。濟益歎，還白其父，曰：「濟始得一叔，乃濟以上人也。」武帝亦以湛為癡，每見濟，輒調之曰：「卿家癡叔死未？」濟常無以答。及是，帝又問如初，濟曰：「臣叔殊不癡。」因稱其美。帝曰：「誰比？」濟曰：「山濤以下，魏舒以上。」時人謂湛上方山濤不足，下比魏舒有餘。湛聞曰：「欲處我于季孟之間乎？」",
+      "note": "依傳主、親屬及本句說話人和受話人定位。",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line013:r0328",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line013",
+      "start": 328,
+      "end": 329,
+      "surface": "父",
+      "person_id": "a8f_ec8_e74_AB",
+      "referent_role": "third_person",
+      "quote": "兄子濟輕之，所食方丈盈前，不以及淇。湛命取菜蔬，對而食之。濟嘗詣湛，見床頭有《周易》，問曰：「叔父何用此為？」湛曰：「體中不佳時，脫復看耳。」濟請言之。湛因剖析玄理，微妙有奇趣，皆濟所未聞也。濟才氣抗邁，於湛略無子侄之敬。既聞其言，不覺栗然，心形俱肅。遂留連彌日累夜，自視缺然，乃歎曰：「家有名士，三十年而不知，濟之罪也。」既而辭去，湛送至門。濟有從馬絕難乘，濟問湛曰：「叔頗好騎不？」湛曰：「亦好之。」因騎此馬，姿容既妙，回策如縈，善騎者無以過之。又濟所乘馬，甚愛之，湛曰：「此馬雖快，然力薄不堪苦行。近見督郵馬當勝，但芻秣不至耳。」濟試養之，而與己馬等。湛又曰：「此馬任重方知之，平路無以別也。」於是當蟻封內試之，濟馬果躓，而督郵馬如常。濟益歎，還白其父，曰：「濟始得一叔，乃濟以上人也。」武帝亦以湛為癡，每見濟，輒調之曰：「卿家癡叔死未？」濟常無以答。及是，帝又問如初，濟曰：「臣叔殊不癡。」因稱其美。帝曰：「誰比？」濟曰：「山濤以下，魏舒以上。」時人謂湛上方山濤不足，下比魏舒有餘。湛聞曰：「欲處我于季孟之間乎？」",
+      "note": "依傳主、親屬及本句說話人和受話人定位。",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-taiyuan-wang"
     }
   ],
   "person_ids": [

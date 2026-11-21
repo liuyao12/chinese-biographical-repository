@@ -5241,6 +5241,41 @@
     {
       "number": 44,
       "category": "",
+      "title": "晉書卷四十四·華廙傳",
+      "paragraph_id": "c-jinshu-044-huayi:line080",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "廙字長駿，弘敏有才義。妻父盧毓典選，難舉姻親，故廙年三十五不得調，晚為中書通事郎。泰始初，遷冗從僕射。少為武帝所禮，曆黃門侍郎、散騎常侍、前軍將軍、侍中、南中郎將、都督河北諸軍事。父疾篤輒還，仍遭喪舊例，葬訖復任，暠固辭，迕旨。",
+      "paragraph_ids": [
+        "c-jinshu-044-huayi:line080"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-huayi:line080:m0013"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-huayi:line080:m0013": "c-jinshu-044-huayi:line080"
+      },
+      "mention_id": "c-jinshu-044-huayi:line080:m0013",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-huayi:line080:m0013",
+          "mention_ids": [
+            "c-jinshu-044-huayi:line080:m0013"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-huayi",
+      "source_id": "s-jinshu-044-huayi",
+      "work_title": "晉書"
+    },
+    {
+      "number": 44,
+      "category": "",
       "title": "晉書卷四十四·盧欽傳",
       "paragraph_id": "c-jinshu-044-luqin:line045",
       "count": 1,
@@ -5426,6 +5461,33 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-044-huayi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-huayi",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「子廙」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-huayi/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-044-luqin",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-044",
@@ -5579,6 +5641,35 @@
       ],
       "interpretation_note": "本來源的明示父稱/子稱；不推生母、配偶、出生排行或改父系ID。正文與古注分存。",
       "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w044-huayi-0",
+      "subject_person_id": "418_c91_b6b",
+      "object_person_id": "m8n_ntm_79h_A",
+      "predicate": "father_in_law",
+      "qualifiers": {
+        "source_term": "妻父盧毓",
+        "spouse_person_id": null,
+        "spouse_identity_status": "not_identified_by_this_clause",
+        "huayi_wife_father": true
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-huayi",
+          "source_id": "s-jinshu-044-huayi",
+          "paragraph_id": "c-jinshu-044-huayi:line080",
+          "quote": "廙字長駿，弘敏有才義。妻父盧毓典選，難舉姻親，故廙年三十五不得調，晚為中書通事郎。泰始初，遷冗從僕射。少為武帝所禮，曆黃門侍郎、散騎常侍、前軍將軍、侍中、南中郎將、都督河北諸軍事。父疾篤輒還，仍遭喪舊例，葬訖復任，暠固辭，迕旨。",
+          "subject_person_mention_id": "c-jinshu-044-huayi:line080:m0000",
+          "object_person_mention_id": "c-jinshu-044-huayi:line080:m0013"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     },
@@ -5848,6 +5939,7 @@
     }
   ],
   "related_people": {
+    "418_c91_b6b": "華廙",
     "m8n_ntm_79h": "盧植",
     "m8n_ntm_79h_A": "盧毓",
     "m8n_ntm_79h_A*A": "藩〔盧毓孫〕",
@@ -6976,6 +7068,35 @@
       ],
       "interpretation_note": "本來源的明示父稱/子稱；不推生母、配偶、出生排行或改父系ID。正文與古注分存。",
       "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w044-huayi-0",
+      "subject_person_id": "418_c91_b6b",
+      "object_person_id": "m8n_ntm_79h_A",
+      "predicate": "father_in_law",
+      "qualifiers": {
+        "source_term": "妻父盧毓",
+        "spouse_person_id": null,
+        "spouse_identity_status": "not_identified_by_this_clause",
+        "huayi_wife_father": true
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-huayi",
+          "source_id": "s-jinshu-044-huayi",
+          "paragraph_id": "c-jinshu-044-huayi:line080",
+          "quote": "廙字長駿，弘敏有才義。妻父盧毓典選，難舉姻親，故廙年三十五不得調，晚為中書通事郎。泰始初，遷冗從僕射。少為武帝所禮，曆黃門侍郎、散騎常侍、前軍將軍、侍中、南中郎將、都督河北諸軍事。父疾篤輒還，仍遭喪舊例，葬訖復任，暠固辭，迕旨。",
+          "subject_person_mention_id": "c-jinshu-044-huayi:line080:m0000",
+          "object_person_mention_id": "c-jinshu-044-huayi:line080:m0013"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     },

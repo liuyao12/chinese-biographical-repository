@@ -10,6 +10,54 @@
   ],
   "titles": [
     {
+      "id": "th-nanqi047-wangrong-m1-51",
+      "person_id": "7r6_k52_qji_ABAAAAABA",
+      "title": "廬陵內史",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanqi047-wangrong-m1-51:a",
+          "person_mention_id": "c-nanqishu-047-wangrong:p001:m0048",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanqishu-047-wangrong:p001",
+          "surface": "廬陵內史",
+          "start": 51,
+          "end": 55
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-wangrong-ws1492435",
+          "chapter_id": "c-nanqishu-047-wangrong",
+          "paragraph_id": "c-nanqishu-047-wangrong:p001",
+          "quote": "王融字元長，琅邪臨沂人也。祖僧達，中書令，曾高竝台輔。僧達答宋孝武云：「亡父亡祖，司徒司空。」父道琰，廬陵內史。母臨川太守謝惠宣女，惇敏婦人也。教融書學。",
+          "person_mention_id": "c-nanqishu-047-wangrong:p001:m0048"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi021-wangdaoyan-59-15",
       "person_id": "7r6_k52_qji_ABAAAAABA",
       "title": "廬陵內史",
@@ -96,6 +144,41 @@
       "work_title": "南史"
     },
     {
+      "number": 47,
+      "category": "",
+      "title": "王融",
+      "paragraph_id": "c-nanqishu-047-wangrong:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "祖僧達，中書令，曾高竝台輔。僧達答宋孝武云：「亡父亡祖，司徒司空。」父道琰，廬陵內史。母臨川太守謝惠宣女，惇敏婦人也。教融書學。",
+      "paragraph_ids": [
+        "c-nanqishu-047-wangrong:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-047-wangrong:p001:m0048"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-047-wangrong:p001:m0048": "c-nanqishu-047-wangrong:p001"
+      },
+      "mention_id": "c-nanqishu-047-wangrong:p001:m0048",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-047-wangrong:p001:m0048",
+          "mention_ids": [
+            "c-nanqishu-047-wangrong:p001:m0048"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "chapter_id": "c-nanqishu-047-wangrong",
+      "source_id": "s-nanqishu-047-wangrong-ws1492435",
+      "work_title": "南齊書"
+    },
+    {
       "number": 75,
       "category": "",
       "title": "《宋書》卷七十五王僧達完整本傳（編輯選錄題）",
@@ -133,6 +216,234 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-047-wangrong",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "source_id": "s-nanqishu-047-wangrong-ws1492435",
+      "source": {
+        "title": "南齊書卷47·王融",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1492435",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1492435",
+        "revision_id": 1492435,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "第12至56行王融全傳。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi019-xietiao/nanqishu047-ws1492435.wikitext",
+        "raw_file_sha256": "89b06ce5c95f39f241acb1a475dd94c220a958f567a7003fd358666f9747df2e",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原行逐字映射，移除段首排版冒號及全形縮排，保留固定版芳林後私用字。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                13,
+                13
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                15,
+                15
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                17,
+                17
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                19,
+                19
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                21,
+                21
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                23,
+                23
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                25,
+                25
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                27,
+                27
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                29,
+                29
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                31,
+                31
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                33,
+                33
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                35,
+                35
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                37,
+                37
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                39,
+                39
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                41,
+                41
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                43,
+                43
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                45,
+                45
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                47,
+                47
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                49,
+                49
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                51,
+                51
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                53,
+                53
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            },
+            {
+              "source_lines": [
+                55,
+                55
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1492435
+            }
+          ]
+        },
+        "section_locator": "數位原題王融"
+      }
+    },
     {
       "chapter_id": "c-nanshi-021-wangdaoyan",
       "work_id": "w-nanshi",
@@ -4745,6 +5056,34 @@
   ],
   "relations": [
     {
+      "id": "a-nanqi047-wangrong-father",
+      "subject_person_id": "euq_wt7_i8i",
+      "object_person_id": "7r6_k52_qji_ABAAAAABA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父道琰",
+        "nanqi047_wangrong_reading": "father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-wangrong-ws1492435",
+          "chapter_id": "c-nanqishu-047-wangrong",
+          "paragraph_id": "c-nanqishu-047-wangrong:p001",
+          "quote": "王融字元長，琅邪臨沂人也。祖僧達，中書令，曾高竝台輔。僧達答宋孝武云：「亡父亡祖，司徒司空。」父道琰，廬陵內史。母臨川太守謝惠宣女，惇敏婦人也。教融書學。",
+          "subject_person_mention_id": "c-nanqishu-047-wangrong:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-047-wangrong:p001:m0048"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父名明書。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi021-wangdaoyan-59-0",
       "subject_person_id": "7r6_k52_qji_ABAAAAABA",
       "object_person_id": "7r6_k52_qji_ABAAAAAB",
@@ -4827,11 +5166,27 @@
   ],
   "related_people": {
     "7r6_k52_qji_ABAAAAAB": "王僧達",
-    "7r6_k52_qji_ABAAAAABA": "王道琰"
+    "7r6_k52_qji_ABAAAAABA": "王道琰",
+    "euq_wt7_i8i": "王融（南齊）"
   },
   "dates": [],
   "name_components": [],
   "person_references": [
+    {
+      "id": "c-nanqishu-047-wangrong:p002:r0054",
+      "surface": "父",
+      "start": 54,
+      "end": 55,
+      "person_id": "7r6_k52_qji_ABAAAAABA",
+      "referent_role": "third_person",
+      "paragraph_id": "c-nanqishu-047-wangrong:p002",
+      "quote": "融少而神明警惠，博涉有文才。舉秀才。晉安王南中郎板行參軍，坐公事免。竟陵王司徒板法曹行參軍，遷太子舍人。融以父官不通，弱年便欲紹興家業，啓世祖求自試。曰：「臣聞春庚秋蟀，集候相悲，露木風榮，臨年共悅。夫唯動植，且或有心；況在生靈，而能無感。臣自奉望宮闕，沐浴恩私，拔迹庸虛，參名盛列，纓劔紫復，趨步丹墀，歲時歸來，誇榮邑里。然無懃而官，昔賢曾議；不任而祿，有識必譏。臣所用慷慨憤懣，不遑自晏。誠以深恩鮮報，聖主難逢，蒲柳先秋，光陰不待，貪及明時，展悉愚效，以酬陛下不世之仁。若微誠獲信，短才見序，文武吏法，唯所施用。夫君道含弘，臣術無隱，翁歸乃居中自是，充國曰『莫若老臣』。竊景前脩，敢蹈輕節。以冒不媒之鄙，式罄奉公之誠。抑又唐堯在上，不參二八，管夷吾恥之，臣亦恥之。願陛下裁覽。」遷祕書丞。",
+      "note": "卷內說話人、對話對象或上下文。",
+      "chapter_id": "c-nanqishu-047-wangrong",
+      "book_id": "b-nanqishu-047",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-047-wangrong-ws1492435"
+    },
     {
       "start": 71,
       "end": 72,
@@ -4852,6 +5207,34 @@
     "7r6_k52_qji_ABAAAAABA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nanqi047-wangrong-father",
+      "subject_person_id": "euq_wt7_i8i",
+      "object_person_id": "7r6_k52_qji_ABAAAAABA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父道琰",
+        "nanqi047_wangrong_reading": "father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-wangrong-ws1492435",
+          "chapter_id": "c-nanqishu-047-wangrong",
+          "paragraph_id": "c-nanqishu-047-wangrong:p001",
+          "quote": "王融字元長，琅邪臨沂人也。祖僧達，中書令，曾高竝台輔。僧達答宋孝武云：「亡父亡祖，司徒司空。」父道琰，廬陵內史。母臨川太守謝惠宣女，惇敏婦人也。教融書學。",
+          "subject_person_mention_id": "c-nanqishu-047-wangrong:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-047-wangrong:p001:m0048"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父名明書。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nanshi021-wangdaoyan-59-0",
       "subject_person_id": "7r6_k52_qji_ABAAAAABA",

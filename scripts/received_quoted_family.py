@@ -47,6 +47,13 @@ def analyse(a,paragraphs,chapters,root):
  return ch,p,r,f,rule
 
 def valid(a,paragraphs,chapters,root):
+ if a.get('qualifiers',{}).get('huayi_wife_father'):
+  try:
+   e,=a['evidence'];ch,p=paragraphs[e['paragraph_id']];t=p['text'];ms={m['id']:m for m in p['mentions'] if m['kind']=='person'};su=ms[e['subject_person_mention_id']];ob=ms[e['object_person_mention_id']];q=a['qualifiers']
+   phrase='廙字長駿，弘敏有才義。妻父盧毓典選';at=t.index('妻父盧毓')
+   return ch==e['chapter_id']=='c-jinshu-044-huayi' and t.startswith(phrase) and t==e['quote'] and p['source_position']['revision_id']==1775345 and q['source_term']=='妻父盧毓' and q['spouse_person_id'] is None and a['predicate']=='father_in_law' and (su['start'],su['surface'],su['person_id'])==(0,'廙',a['subject_person_id']) and (ob['start'],ob['surface'],ob['person_id'])==(at+2,'盧毓',a['object_person_id'])
+  except (ValueError,KeyError,TypeError):return False
+
  try:
   ch,p,r,f,rule=analyse(a,paragraphs,chapters,root);q=a['qualifiers'];e,=a['evidence'];s=next(m for m in p['mentions']if m['id']==e['subject_person_mention_id']);o=next(m for m in p['mentions']if m['id']==e['object_person_mention_id']);assert a['status']=='source_attested'and a['human_reviewed']is False and s['person_id']==a['subject_person_id']and o['person_id']==a['object_person_id']and s['person_id']!=o['person_id']
   allowed=[]

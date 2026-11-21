@@ -22,20 +22,357 @@
     "edition": "維基文庫固定修訂1775345",
     "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
     "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
-    "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8"
+    "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+    "collation_witnesses": [
+      "source-evidence/jin044-huaheng/reading.json"
+    ]
   },
   "annotation": {
-    "status": "in_progress",
+    "status": "reviewed",
     "scope": "固定修訂題下完整傳文。",
-    "human_reviewed": false
+    "human_reviewed": false,
+    "age_assertions": [
+      {
+        "id": "age-w044-huaheng",
+        "person_id": "eom_42c_5zd",
+        "source_number": "六十九",
+        "source_term": "時年六十九",
+        "value": 69,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-044",
+            "chapter_id": "c-jinshu-044-huaheng",
+            "source_id": "s-jinshu-044-huaheng",
+            "paragraph_id": "c-jinshu-044-huaheng:line101",
+            "quote": "及帝加元服，又將納後。寇難之後，典籍靡遺，婚冠之禮，無所依據。恆推尋舊典，撰定禮儀，並郊廟辟雍朝廷軌則，事並施用。遷左光祿大夫、開府，常侍如故，固讓未拜。會卒，時年六十九，冊贈侍中、左光祿大夫、開府，諡曰敬。",
+            "person_mention_id": "c-jinshu-044-huaheng:line101:m0031"
+          }
+        ],
+        "interpretation_note": "本句所報年齡。",
+        "status": "source_attested",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-jinshu-044-huaheng:line093:r0120",
+        "paragraph_id": "c-jinshu-044-huaheng:line093",
+        "start": 120,
+        "end": 121,
+        "surface": "帝",
+        "person_id": "dkn_ge4_286_AAAAAAA",
+        "referent_role": "third_person",
+        "quote": "書與驃騎將軍王導，導言於帝。帝曰：「兄弟罪不相及，",
+        "note": "依所引原句及對話角色辨識。"
+      },
+      {
+        "id": "c-jinshu-044-huaheng:line093:r0122",
+        "paragraph_id": "c-jinshu-044-huaheng:line093",
+        "start": 122,
+        "end": 123,
+        "surface": "帝",
+        "person_id": "dkn_ge4_286_AAAAAAA",
+        "referent_role": "third_person",
+        "quote": "驃騎將軍王導，導言於帝。帝曰：「兄弟罪不相及，況群",
+        "note": "依所引原句及對話角色辨識。"
+      },
+      {
+        "id": "c-jinshu-044-huaheng:line095:r0110",
+        "paragraph_id": "c-jinshu-044-huaheng:line095",
+        "start": 110,
+        "end": 111,
+        "surface": "吾",
+        "person_id": "fp6_ia6_7yw",
+        "referent_role": "speaker_self",
+        "quote": "，不堪親奉職事。夫子稱'吾不與祭，如不祭'，況宗伯",
+        "note": "依所引原句及對話角色辨識。"
+      },
+      {
+        "id": "c-jinshu-044-huaheng:line097:r0113",
+        "paragraph_id": "c-jinshu-044-huaheng:line097",
+        "start": 113,
+        "end": 114,
+        "surface": "帝",
+        "person_id": "dkn_ge4_286_AAAAAAAAA",
+        "referent_role": "third_person",
+        "quote": "復領太常。蘇峻之亂，恆侍帝左右，從至石頭，備履艱危",
+        "note": "依所引原句及對話角色辨識。"
+      },
+      {
+        "id": "c-jinshu-044-huaheng:line101:r0001",
+        "paragraph_id": "c-jinshu-044-huaheng:line101",
+        "start": 1,
+        "end": 2,
+        "surface": "帝",
+        "person_id": "dkn_ge4_286_AAAAAAAAA",
+        "referent_role": "third_person",
+        "quote": "及帝加元服，又將納後。寇難之",
+        "note": "依所引原句及對話角色辨識。"
+      }
+    ],
+    "title_proposals": [
+      {
+        "id": "tp-w044-huaheng-refused-0",
+        "person_id": "eom_42c_5zd",
+        "title": "光祿勳",
+        "outcome": "not_assumed",
+        "proposal_kind": "unassumed_appointment",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line093",
+          "start": 144,
+          "end": 147,
+          "surface": "光祿勳"
+        },
+        "person_mention_id": "c-jinshu-044-huaheng:line093:m0141",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-044",
+            "chapter_id": "c-jinshu-044-huaheng",
+            "source_id": "s-jinshu-044-huaheng",
+            "paragraph_id": "c-jinshu-044-huaheng:line093",
+            "quote": "湣帝即位，以恆為尚書，進爵苑陵縣公。頃之，劉聰逼長安，詔出恆為鎮軍將軍，領潁川太守，以為外援。恆興合義軍，得二千人，未及西赴，而關中陷沒。時群賊方盛，所在州郡相繼奔敗，恆亦欲棄郡東渡，而從兄軼為元帝所誅，以此為疑。先書與驃騎將軍王導，導言於帝。帝曰：「兄弟罪不相及，況群從乎！」即召恆，補光祿勳。恆到，未及拜，更以為衛將軍，加散騎常侍、本州大中正。",
+            "person_mention_id": "c-jinshu-044-huaheng:line093:m0141"
+          }
+        ],
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line093",
+          "start": 143,
+          "end": 144,
+          "surface": "補"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line093",
+          "start": 151,
+          "end": 154,
+          "surface": "未及拜"
+        },
+        "interpretation_note": "任命及未就任原詞各有字位，據本段記載。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "source_refusal_form": "jin044_huaheng"
+      },
+      {
+        "id": "tp-w044-huaheng-refused-1",
+        "person_id": "eom_42c_5zd",
+        "title": "護軍",
+        "outcome": "not_assumed",
+        "proposal_kind": "unassumed_appointment",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line097",
+          "start": 31,
+          "end": 33,
+          "surface": "護軍"
+        },
+        "person_mention_id": "c-jinshu-044-huaheng:line097:m0029",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-044",
+            "chapter_id": "c-jinshu-044-huaheng",
+            "source_id": "s-jinshu-044-huaheng",
+            "paragraph_id": "c-jinshu-044-huaheng:line097",
+            "quote": "太甯初，遷驃騎將軍，加散騎常侍，督石頭水陸諸軍事。王敦表轉恆為護軍，疾病不拜。授金紫光祿大夫，又領太子太保。成帝即位，加散騎常侍，領國子祭酒。咸和初，以湣帝時賜爵進封一皆削除，恆更以討王敦功封苑陵縣侯，復領太常。蘇峻之亂，恆侍帝左右，從至石頭，備履艱危，困悴逾年。",
+            "person_mention_id": "c-jinshu-044-huaheng:line097:m0029"
+          }
+        ],
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line097",
+          "start": 28,
+          "end": 29,
+          "surface": "轉"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line097",
+          "start": 36,
+          "end": 38,
+          "surface": "不拜"
+        },
+        "interpretation_note": "任命及未就任原詞各有字位，據本段記載。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "source_refusal_form": "jin044_huaheng"
+      },
+      {
+        "id": "tp-w044-huaheng-refused-2",
+        "person_id": "eom_42c_5zd",
+        "title": "左光祿大夫",
+        "outcome": "not_assumed",
+        "proposal_kind": "unassumed_appointment",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line101",
+          "start": 58,
+          "end": 63,
+          "surface": "左光祿大夫"
+        },
+        "person_mention_id": "c-jinshu-044-huaheng:line101:m0031",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-044",
+            "chapter_id": "c-jinshu-044-huaheng",
+            "source_id": "s-jinshu-044-huaheng",
+            "paragraph_id": "c-jinshu-044-huaheng:line101",
+            "quote": "及帝加元服，又將納後。寇難之後，典籍靡遺，婚冠之禮，無所依據。恆推尋舊典，撰定禮儀，並郊廟辟雍朝廷軌則，事並施用。遷左光祿大夫、開府，常侍如故，固讓未拜。會卒，時年六十九，冊贈侍中、左光祿大夫、開府，諡曰敬。",
+            "person_mention_id": "c-jinshu-044-huaheng:line101:m0031"
+          }
+        ],
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line101",
+          "start": 57,
+          "end": 58,
+          "surface": "遷"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line101",
+          "start": 74,
+          "end": 76,
+          "surface": "未拜"
+        },
+        "interpretation_note": "任命及未就任原詞各有字位，據本段記載。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "source_refusal_form": "jin044_huaheng"
+      },
+      {
+        "id": "tp-w044-huaheng-refused-3",
+        "person_id": "eom_42c_5zd",
+        "title": "開府",
+        "outcome": "not_assumed",
+        "proposal_kind": "unassumed_appointment",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line101",
+          "start": 64,
+          "end": 66,
+          "surface": "開府"
+        },
+        "person_mention_id": "c-jinshu-044-huaheng:line101:m0031",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-044",
+            "chapter_id": "c-jinshu-044-huaheng",
+            "source_id": "s-jinshu-044-huaheng",
+            "paragraph_id": "c-jinshu-044-huaheng:line101",
+            "quote": "及帝加元服，又將納後。寇難之後，典籍靡遺，婚冠之禮，無所依據。恆推尋舊典，撰定禮儀，並郊廟辟雍朝廷軌則，事並施用。遷左光祿大夫、開府，常侍如故，固讓未拜。會卒，時年六十九，冊贈侍中、左光祿大夫、開府，諡曰敬。",
+            "person_mention_id": "c-jinshu-044-huaheng:line101:m0031"
+          }
+        ],
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line101",
+          "start": 57,
+          "end": 58,
+          "surface": "遷"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-044-huaheng:line101",
+          "start": 74,
+          "end": 76,
+          "surface": "未拜"
+        },
+        "interpretation_note": "任命及未就任原詞各有字位，據本段記載。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "source_refusal_form": "jin044_huaheng"
+      }
+    ],
+    "reviewed_unit_evidence": [
+      {
+        "unit": "華恆、華俊、華仰之",
+        "path": "source-evidence/jin044-huaheng/reading.json"
+      }
+    ]
   },
   "paragraphs": [
     {
       "id": "c-jinshu-044-huaheng:line091",
       "text": "恆字敬則，博學以清素為稱。尚武帝女滎陽長公主，拜駙馬都尉。元康初，東宮建，恆以選為太子賓友，賜爵關內侯，食邑百戶。辟司徒王渾倉曹掾，屬除散騎侍郎，累遷散騎常侍、北軍中候，俄拜領軍，加散騎常侍。",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jinshu-044-huaheng:line091:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line091:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "敬則",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line091:m0014",
+          "start": 14,
+          "end": 16,
+          "surface": "武帝",
+          "kind": "person",
+          "person_id": "hgm_jvn_hle",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line091:m0017",
+          "start": 17,
+          "end": 22,
+          "surface": "滎陽長公主",
+          "kind": "person",
+          "person_id": "hgm_jvn_hle_B",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line091:m0037",
+          "start": 37,
+          "end": 38,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line091:m0060",
+          "start": 60,
+          "end": 62,
+          "surface": "王渾",
+          "kind": "person",
+          "person_id": "a8f_ec8_e74_AB",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
       "source_position": {
         "first_line": 91,
         "last_line": 91,
@@ -53,8 +390,129 @@
       "id": "c-jinshu-044-huaheng:line093",
       "text": "湣帝即位，以恆為尚書，進爵苑陵縣公。頃之，劉聰逼長安，詔出恆為鎮軍將軍，領潁川太守，以為外援。恆興合義軍，得二千人，未及西赴，而關中陷沒。時群賊方盛，所在州郡相繼奔敗，恆亦欲棄郡東渡，而從兄軼為元帝所誅，以此為疑。先書與驃騎將軍王導，導言於帝。帝曰：「兄弟罪不相及，況群從乎！」即召恆，補光祿勳。恆到，未及拜，更以為衛將軍，加散騎常侍、本州大中正。",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "湣帝",
+          "kind": "person",
+          "person_id": "pss_n95_7x4",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0006",
+          "start": 6,
+          "end": 7,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0021",
+          "start": 21,
+          "end": 23,
+          "surface": "劉聰",
+          "kind": "person",
+          "person_id": "d96_1fa_e9a",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0029",
+          "start": 29,
+          "end": 30,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0047",
+          "start": 47,
+          "end": 48,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0084",
+          "start": 84,
+          "end": 85,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0095",
+          "start": 95,
+          "end": 96,
+          "surface": "軼",
+          "kind": "person",
+          "person_id": "p86_bh6_jm2",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0097",
+          "start": 97,
+          "end": 99,
+          "surface": "元帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0114",
+          "start": 114,
+          "end": 116,
+          "surface": "王導",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0117",
+          "start": 117,
+          "end": 118,
+          "surface": "導",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0141",
+          "start": 141,
+          "end": 142,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line093:m0148",
+          "start": 148,
+          "end": 149,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
       "source_position": {
         "first_line": 93,
         "last_line": 93,
@@ -72,8 +530,109 @@
       "id": "c-jinshu-044-huaheng:line095",
       "text": "尋拜太常，議立郊祀。尚書刁協、國子祭酒杜彝議，須還洛乃修郊祀。恆議，漢獻帝居許，即便郊柴，宜於此修立。司徒荀組、驃騎將軍王導同恆議，遂定郊祀。尋以疾求解，詔曰：「太常職主宗廟，烝嘗敬重，而華恆所疾，不堪親奉職事。夫子稱'吾不與祭，如不祭'，況宗伯之任職所司邪！今轉恆為廷尉。」頃之，加特進。",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jinshu-044-huaheng:line095:m0012",
+          "start": 12,
+          "end": 14,
+          "surface": "刁協",
+          "kind": "person",
+          "person_id": "c20_ec4_36f",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line095:m0019",
+          "start": 19,
+          "end": 21,
+          "surface": "杜彝",
+          "kind": "person",
+          "person_id": "xs5_2s2_rfa",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line095:m0031",
+          "start": 31,
+          "end": 32,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line095:m0034",
+          "start": 34,
+          "end": 37,
+          "surface": "漢獻帝",
+          "kind": "person",
+          "person_id": "e49_8a5_738",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line095:m0053",
+          "start": 53,
+          "end": 55,
+          "surface": "荀組",
+          "kind": "person",
+          "person_id": "yoo_ox0_545_FAAAC",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line095:m0060",
+          "start": 60,
+          "end": 62,
+          "surface": "王導",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line095:m0063",
+          "start": 63,
+          "end": 64,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line095:m0094",
+          "start": 94,
+          "end": 96,
+          "surface": "華恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line095:m0106",
+          "start": 106,
+          "end": 108,
+          "surface": "夫子",
+          "kind": "person",
+          "person_id": "fp6_ia6_7yw",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line095:m0132",
+          "start": 132,
+          "end": 133,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
       "source_position": {
         "first_line": 95,
         "last_line": 95,
@@ -91,8 +650,89 @@
       "id": "c-jinshu-044-huaheng:line097",
       "text": "太甯初，遷驃騎將軍，加散騎常侍，督石頭水陸諸軍事。王敦表轉恆為護軍，疾病不拜。授金紫光祿大夫，又領太子太保。成帝即位，加散騎常侍，領國子祭酒。咸和初，以湣帝時賜爵進封一皆削除，恆更以討王敦功封苑陵縣侯，復領太常。蘇峻之亂，恆侍帝左右，從至石頭，備履艱危，困悴逾年。",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jinshu-044-huaheng:line097:m0025",
+          "start": 25,
+          "end": 27,
+          "surface": "王敦",
+          "kind": "person",
+          "person_id": "39o_b6y_n74",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line097:m0029",
+          "start": 29,
+          "end": 30,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line097:m0054",
+          "start": 54,
+          "end": 56,
+          "surface": "成帝",
+          "kind": "person",
+          "person_id": "dkn_ge4_286_AAAAAAAAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line097:m0076",
+          "start": 76,
+          "end": 78,
+          "surface": "湣帝",
+          "kind": "person",
+          "person_id": "pss_n95_7x4",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line097:m0088",
+          "start": 88,
+          "end": 89,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line097:m0092",
+          "start": 92,
+          "end": 94,
+          "surface": "王敦",
+          "kind": "person",
+          "person_id": "39o_b6y_n74",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line097:m0106",
+          "start": 106,
+          "end": 108,
+          "surface": "蘇峻",
+          "kind": "person",
+          "person_id": "lrg_cze_g1l",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line097:m0111",
+          "start": 111,
+          "end": 112,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
       "source_position": {
         "first_line": 97,
         "last_line": 97,
@@ -110,8 +750,109 @@
       "id": "c-jinshu-044-huaheng:line099",
       "text": "初，恆為州大中正，鄉人任讓輕薄無行，為恆所黜。及讓在峻軍中，任勢多所殺害，見恆輒恭敬，不肆其虐。鐘雅、劉超之死，亦將及恆，讓盡心救衛，故得免。",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jinshu-044-huaheng:line099:m0002",
+          "start": 2,
+          "end": 3,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line099:m0011",
+          "start": 11,
+          "end": 13,
+          "surface": "任讓",
+          "kind": "person",
+          "person_id": "a58_f53_e3b",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line099:m0019",
+          "start": 19,
+          "end": 20,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line099:m0024",
+          "start": 24,
+          "end": 25,
+          "surface": "讓",
+          "kind": "person",
+          "person_id": "a58_f53_e3b",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line099:m0026",
+          "start": 26,
+          "end": 27,
+          "surface": "峻",
+          "kind": "person",
+          "person_id": "lrg_cze_g1l",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line099:m0038",
+          "start": 38,
+          "end": 39,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line099:m0048",
+          "start": 48,
+          "end": 50,
+          "surface": "鐘雅",
+          "kind": "person",
+          "person_id": "j81_pcr_llk",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line099:m0051",
+          "start": 51,
+          "end": 53,
+          "surface": "劉超",
+          "kind": "person",
+          "person_id": "dha_hxh_mqj",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line099:m0059",
+          "start": 59,
+          "end": 60,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line099:m0061",
+          "start": 61,
+          "end": 62,
+          "surface": "讓",
+          "kind": "person",
+          "person_id": "a58_f53_e3b",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
       "source_position": {
         "first_line": 99,
         "last_line": 99,
@@ -129,8 +870,19 @@
       "id": "c-jinshu-044-huaheng:line101",
       "text": "及帝加元服，又將納後。寇難之後，典籍靡遺，婚冠之禮，無所依據。恆推尋舊典，撰定禮儀，並郊廟辟雍朝廷軌則，事並施用。遷左光祿大夫、開府，常侍如故，固讓未拜。會卒，時年六十九，冊贈侍中、左光祿大夫、開府，諡曰敬。",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jinshu-044-huaheng:line101:m0031",
+          "start": 31,
+          "end": 32,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
       "source_position": {
         "first_line": 101,
         "last_line": 101,
@@ -148,8 +900,49 @@
       "id": "c-jinshu-044-huaheng:line103",
       "text": "恆清恪儉素，雖居顯列，常布衣蔬食，年老彌篤。死之日，家無餘財，唯有書數百卷，時人以此貴之。子俊嗣，為尚書郎。俊子仰之，大長秋。",
       "text_layer": "received_chapter",
-      "annotation_status": "pending",
-      "mentions": [],
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-jinshu-044-huaheng:line103:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "恆",
+          "kind": "person",
+          "person_id": "eom_42c_5zd",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line103:m0046",
+          "start": 46,
+          "end": 47,
+          "surface": "俊",
+          "kind": "person",
+          "person_id": "eom_42c_5zd_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line103:m0054",
+          "start": 54,
+          "end": 55,
+          "surface": "俊",
+          "kind": "person",
+          "person_id": "eom_42c_5zd_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-jinshu-044-huaheng:line103:m0056",
+          "start": 56,
+          "end": 58,
+          "surface": "仰之",
+          "kind": "person",
+          "person_id": "eom_42c_5zd_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
       "source_position": {
         "first_line": 103,
         "last_line": 103,

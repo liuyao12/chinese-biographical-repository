@@ -520,6 +520,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-w044-huaqiao-19",
+      "person_id": "a8f_ec8_e74_ABB",
+      "title": "侍中",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-huaqiao",
+          "source_id": "s-jinshu-044-huaqiao",
+          "paragraph_id": "c-jinshu-044-huaqiao:line110",
+          "quote": "後以嶠博聞多識，屬書典實，有良史之志，轉秘書監，加散騎常侍，班同中書。寺為內台，中書、散騎、著作及治禮音律，天文數術，南省文章，門下撰集，皆典統之。初，嶠以《漢紀》煩穢，慨然有改作之意。會為台郎，典官制事，由是得遍觀秘笈，遂就其緒，起于光武，終於孝獻，一百九十五年，為帝紀十二卷、'''皇后紀二卷'''、十典十卷、傳七十卷及三譜、序傳、目錄，凡九十七卷。嶠以皇后配天作合，前史作外戚傳以繼末編，非其義也，故易為皇后紀，以次帝紀。又改志為典，以有《堯典》故也。而改名《漢後書》奏之。詔朝臣會議。時中書監荀勖、令和嶠、太常張華、侍中王濟咸以嶠文質事核，有遷固之規，實錄之風，藏之秘府。後太尉汝南王亮、司空衛瓘為東宮傅，列上通講，事遂施行。嶠所著論議難駁詩賦之屬數十萬言，其所奏官制、太子宜還宮及安邊、雩祭、明堂辟雍、浚導河渠，巡禹之舊跡置都水官，修蠶宮之禮置長秋，事多施行。元康三年卒，追贈少府，諡曰簡。",
+          "person_mention_id": "c-jinshu-044-huaqiao:line110:m0264"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-huaqiao-19:a",
+          "paragraph_id": "c-jinshu-044-huaqiao:line110",
+          "start": 262,
+          "end": 264,
+          "surface": "侍中",
+          "person_mention_id": "c-jinshu-044-huaqiao:line110:m0264",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-wang35-062",
       "person_id": "a8f_ec8_e74_ABB",
       "title": "河南尹",
@@ -1173,12 +1221,47 @@
       "work_title": "晉書"
     },
     {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·華嶠傳",
+      "paragraph_id": "c-jinshu-044-huaqiao:line110",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "而改名《漢後書》奏之。詔朝臣會議。時中書監荀勖、令和嶠、太常張華、侍中王濟咸以嶠文質事核，有遷固之規，實錄之風，藏之秘府。後太尉汝南王亮、司空衛瓘為東宮傅，列上通講，事遂施行。嶠所著論議難駁詩賦之屬數十萬言，其所奏官制、太子宜還宮及安邊、雩祭、明堂辟雍、浚導河渠，巡禹之舊跡",
+      "paragraph_ids": [
+        "c-jinshu-044-huaqiao:line110"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-huaqiao:line110:m0264"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-huaqiao:line110:m0264": "c-jinshu-044-huaqiao:line110"
+      },
+      "mention_id": "c-jinshu-044-huaqiao:line110:m0264",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-huaqiao:line110:m0264",
+          "mention_ids": [
+            "c-jinshu-044-huaqiao:line110:m0264"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-huaqiao",
+      "source_id": "s-jinshu-044-huaqiao",
+      "work_title": "晉書"
+    },
+    {
       "number": 75,
       "category": "",
       "title": "王湛、王承、王述、王坦之及附傳完整敘事單元",
       "paragraph_id": "c-jinshu-075-taiyuan-wang:line013",
-      "count": 20,
-      "raw_count": 20,
+      "count": 18,
+      "raw_count": 18,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "兄子濟輕之，所食方丈盈前，不以及淇。湛命取菜蔬，對而食之。濟嘗詣湛，見床頭有《周易》，問曰：「叔父何用此為？」湛曰：「體中不佳時，脫復看耳。」濟請言之。湛因剖析玄理，微妙有奇趣，皆濟所未聞也。濟才氣抗邁，於",
@@ -1201,10 +1284,8 @@
         "c-jinshu-075-taiyuan-wang:line013:m0333",
         "c-jinshu-075-taiyuan-wang:line013:m0340",
         "c-jinshu-075-taiyuan-wang:line013:m0357",
-        "c-jinshu-075-taiyuan-wang:line013:m0365",
         "c-jinshu-075-taiyuan-wang:line013:m0373",
         "c-jinshu-075-taiyuan-wang:line013:m0388",
-        "c-jinshu-075-taiyuan-wang:line013:m0392",
         "c-jinshu-075-taiyuan-wang:line013:m0412"
       ],
       "mention_paragraph_ids": {
@@ -1223,10 +1304,8 @@
         "c-jinshu-075-taiyuan-wang:line013:m0333": "c-jinshu-075-taiyuan-wang:line013",
         "c-jinshu-075-taiyuan-wang:line013:m0340": "c-jinshu-075-taiyuan-wang:line013",
         "c-jinshu-075-taiyuan-wang:line013:m0357": "c-jinshu-075-taiyuan-wang:line013",
-        "c-jinshu-075-taiyuan-wang:line013:m0365": "c-jinshu-075-taiyuan-wang:line013",
         "c-jinshu-075-taiyuan-wang:line013:m0373": "c-jinshu-075-taiyuan-wang:line013",
         "c-jinshu-075-taiyuan-wang:line013:m0388": "c-jinshu-075-taiyuan-wang:line013",
-        "c-jinshu-075-taiyuan-wang:line013:m0392": "c-jinshu-075-taiyuan-wang:line013",
         "c-jinshu-075-taiyuan-wang:line013:m0412": "c-jinshu-075-taiyuan-wang:line013"
       },
       "mention_id": "c-jinshu-075-taiyuan-wang:line013:m0002",
@@ -1337,13 +1416,6 @@
           "kind": "paragraph"
         },
         {
-          "canonical_mention_id": "c-jinshu-075-taiyuan-wang:line013:m0365",
-          "mention_ids": [
-            "c-jinshu-075-taiyuan-wang:line013:m0365"
-          ],
-          "kind": "paragraph"
-        },
-        {
           "canonical_mention_id": "c-jinshu-075-taiyuan-wang:line013:m0373",
           "mention_ids": [
             "c-jinshu-075-taiyuan-wang:line013:m0373"
@@ -1354,13 +1426,6 @@
           "canonical_mention_id": "c-jinshu-075-taiyuan-wang:line013:m0388",
           "mention_ids": [
             "c-jinshu-075-taiyuan-wang:line013:m0388"
-          ],
-          "kind": "paragraph"
-        },
-        {
-          "canonical_mention_id": "c-jinshu-075-taiyuan-wang:line013:m0392",
-          "mention_ids": [
-            "c-jinshu-075-taiyuan-wang:line013:m0392"
           ],
           "kind": "paragraph"
         },
@@ -2136,6 +2201,33 @@
         },
         "collation_witnesses": [
           "source-evidence/jin043-wangrong-main/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-044-huaqiao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-huaqiao",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「廙弟嶠」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-huaqiao/reading.json"
         ]
       }
     },
@@ -4198,6 +4290,21 @@
   ],
   "source_reading_cases": [
     {
+      "id": "c-jinshu-075-taiyuan-wang:line013:duration_as_speaker_claim-149",
+      "kind": "duration_as_speaker_claim",
+      "person_id": "a8f_ec8_e74_ABB",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line013",
+      "source_quote": "三十年而不知",
+      "start_codepoint": 149,
+      "end_codepoint": 155,
+      "reading": "王濟自歎不識其叔的經年，不代王湛報齡。",
+      "note": "王濟自歎不識其叔的經年，不代王湛報齡。",
+      "human_reviewed": false,
+      "reported_years": 30,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
       "id": "c-jinshu-096-zhongyan-wyd-zhong-peer-9",
       "kind": "primary_source_comparison",
       "person_id": "a8f_ec8_e74_ABB",
@@ -4260,6 +4367,113 @@
       "human_reviewed": false,
       "chapter_id": "c-jinshu-096-lienv",
       "source_id": "s-jinshu-096-lienv"
+    }
+  ],
+  "person_references": [
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line013:r0001",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line013",
+      "start": 1,
+      "end": 2,
+      "surface": "子",
+      "person_id": "a8f_ec8_e74_ABB",
+      "referent_role": "third_person",
+      "quote": "兄子濟輕之，所食方丈盈前，不以及淇。湛命取菜蔬，對而食之。濟嘗詣湛，見床頭有《周易》，問曰：「叔父何用此為？」湛曰：「體中不佳時，脫復看耳。」濟請言之。湛因剖析玄理，微妙有奇趣，皆濟所未聞也。濟才氣抗邁，於湛略無子侄之敬。既聞其言，不覺栗然，心形俱肅。遂留連彌日累夜，自視缺然，乃歎曰：「家有名士，三十年而不知，濟之罪也。」既而辭去，湛送至門。濟有從馬絕難乘，濟問湛曰：「叔頗好騎不？」湛曰：「亦好之。」因騎此馬，姿容既妙，回策如縈，善騎者無以過之。又濟所乘馬，甚愛之，湛曰：「此馬雖快，然力薄不堪苦行。近見督郵馬當勝，但芻秣不至耳。」濟試養之，而與己馬等。湛又曰：「此馬任重方知之，平路無以別也。」於是當蟻封內試之，濟馬果躓，而督郵馬如常。濟益歎，還白其父，曰：「濟始得一叔，乃濟以上人也。」武帝亦以湛為癡，每見濟，輒調之曰：「卿家癡叔死未？」濟常無以答。及是，帝又問如初，濟曰：「臣叔殊不癡。」因稱其美。帝曰：「誰比？」濟曰：「山濤以下，魏舒以上。」時人謂湛上方山濤不足，下比魏舒有餘。湛聞曰：「欲處我于季孟之間乎？」",
+      "note": "依傳主、親屬及本句說話人和受話人定位。",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line013:r0134",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line013",
+      "start": 134,
+      "end": 135,
+      "surface": "自",
+      "person_id": "a8f_ec8_e74_ABB",
+      "referent_role": "third_person",
+      "quote": "兄子濟輕之，所食方丈盈前，不以及淇。湛命取菜蔬，對而食之。濟嘗詣湛，見床頭有《周易》，問曰：「叔父何用此為？」湛曰：「體中不佳時，脫復看耳。」濟請言之。湛因剖析玄理，微妙有奇趣，皆濟所未聞也。濟才氣抗邁，於湛略無子侄之敬。既聞其言，不覺栗然，心形俱肅。遂留連彌日累夜，自視缺然，乃歎曰：「家有名士，三十年而不知，濟之罪也。」既而辭去，湛送至門。濟有從馬絕難乘，濟問湛曰：「叔頗好騎不？」湛曰：「亦好之。」因騎此馬，姿容既妙，回策如縈，善騎者無以過之。又濟所乘馬，甚愛之，湛曰：「此馬雖快，然力薄不堪苦行。近見督郵馬當勝，但芻秣不至耳。」濟試養之，而與己馬等。湛又曰：「此馬任重方知之，平路無以別也。」於是當蟻封內試之，濟馬果躓，而督郵馬如常。濟益歎，還白其父，曰：「濟始得一叔，乃濟以上人也。」武帝亦以湛為癡，每見濟，輒調之曰：「卿家癡叔死未？」濟常無以答。及是，帝又問如初，濟曰：「臣叔殊不癡。」因稱其美。帝曰：「誰比？」濟曰：「山濤以下，魏舒以上。」時人謂湛上方山濤不足，下比魏舒有餘。湛聞曰：「欲處我于季孟之間乎？」",
+      "note": "依傳主、親屬及本句說話人和受話人定位。",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line013:r0275",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line013",
+      "start": 275,
+      "end": 276,
+      "surface": "己",
+      "person_id": "a8f_ec8_e74_ABB",
+      "referent_role": "third_person",
+      "quote": "兄子濟輕之，所食方丈盈前，不以及淇。湛命取菜蔬，對而食之。濟嘗詣湛，見床頭有《周易》，問曰：「叔父何用此為？」湛曰：「體中不佳時，脫復看耳。」濟請言之。湛因剖析玄理，微妙有奇趣，皆濟所未聞也。濟才氣抗邁，於湛略無子侄之敬。既聞其言，不覺栗然，心形俱肅。遂留連彌日累夜，自視缺然，乃歎曰：「家有名士，三十年而不知，濟之罪也。」既而辭去，湛送至門。濟有從馬絕難乘，濟問湛曰：「叔頗好騎不？」湛曰：「亦好之。」因騎此馬，姿容既妙，回策如縈，善騎者無以過之。又濟所乘馬，甚愛之，湛曰：「此馬雖快，然力薄不堪苦行。近見督郵馬當勝，但芻秣不至耳。」濟試養之，而與己馬等。湛又曰：「此馬任重方知之，平路無以別也。」於是當蟻封內試之，濟馬果躓，而督郵馬如常。濟益歎，還白其父，曰：「濟始得一叔，乃濟以上人也。」武帝亦以湛為癡，每見濟，輒調之曰：「卿家癡叔死未？」濟常無以答。及是，帝又問如初，濟曰：「臣叔殊不癡。」因稱其美。帝曰：「誰比？」濟曰：「山濤以下，魏舒以上。」時人謂湛上方山濤不足，下比魏舒有餘。湛聞曰：「欲處我于季孟之間乎？」",
+      "note": "依傳主、親屬及本句說話人和受話人定位。",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line013:r0327",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line013",
+      "start": 327,
+      "end": 328,
+      "surface": "其",
+      "person_id": "a8f_ec8_e74_ABB",
+      "referent_role": "third_person",
+      "quote": "兄子濟輕之，所食方丈盈前，不以及淇。湛命取菜蔬，對而食之。濟嘗詣湛，見床頭有《周易》，問曰：「叔父何用此為？」湛曰：「體中不佳時，脫復看耳。」濟請言之。湛因剖析玄理，微妙有奇趣，皆濟所未聞也。濟才氣抗邁，於湛略無子侄之敬。既聞其言，不覺栗然，心形俱肅。遂留連彌日累夜，自視缺然，乃歎曰：「家有名士，三十年而不知，濟之罪也。」既而辭去，湛送至門。濟有從馬絕難乘，濟問湛曰：「叔頗好騎不？」湛曰：「亦好之。」因騎此馬，姿容既妙，回策如縈，善騎者無以過之。又濟所乘馬，甚愛之，湛曰：「此馬雖快，然力薄不堪苦行。近見督郵馬當勝，但芻秣不至耳。」濟試養之，而與己馬等。湛又曰：「此馬任重方知之，平路無以別也。」於是當蟻封內試之，濟馬果躓，而督郵馬如常。濟益歎，還白其父，曰：「濟始得一叔，乃濟以上人也。」武帝亦以湛為癡，每見濟，輒調之曰：「卿家癡叔死未？」濟常無以答。及是，帝又問如初，濟曰：「臣叔殊不癡。」因稱其美。帝曰：「誰比？」濟曰：「山濤以下，魏舒以上。」時人謂湛上方山濤不足，下比魏舒有餘。湛聞曰：「欲處我于季孟之間乎？」",
+      "note": "依傳主、親屬及本句說話人和受話人定位。",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line013:r0361",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line013",
+      "start": 361,
+      "end": 362,
+      "surface": "之",
+      "person_id": "a8f_ec8_e74_ABB",
+      "referent_role": "third_person",
+      "quote": "兄子濟輕之，所食方丈盈前，不以及淇。湛命取菜蔬，對而食之。濟嘗詣湛，見床頭有《周易》，問曰：「叔父何用此為？」湛曰：「體中不佳時，脫復看耳。」濟請言之。湛因剖析玄理，微妙有奇趣，皆濟所未聞也。濟才氣抗邁，於湛略無子侄之敬。既聞其言，不覺栗然，心形俱肅。遂留連彌日累夜，自視缺然，乃歎曰：「家有名士，三十年而不知，濟之罪也。」既而辭去，湛送至門。濟有從馬絕難乘，濟問湛曰：「叔頗好騎不？」湛曰：「亦好之。」因騎此馬，姿容既妙，回策如縈，善騎者無以過之。又濟所乘馬，甚愛之，湛曰：「此馬雖快，然力薄不堪苦行。近見督郵馬當勝，但芻秣不至耳。」濟試養之，而與己馬等。湛又曰：「此馬任重方知之，平路無以別也。」於是當蟻封內試之，濟馬果躓，而督郵馬如常。濟益歎，還白其父，曰：「濟始得一叔，乃濟以上人也。」武帝亦以湛為癡，每見濟，輒調之曰：「卿家癡叔死未？」濟常無以答。及是，帝又問如初，濟曰：「臣叔殊不癡。」因稱其美。帝曰：「誰比？」濟曰：「山濤以下，魏舒以上。」時人謂湛上方山濤不足，下比魏舒有餘。湛聞曰：「欲處我于季孟之間乎？」",
+      "note": "依傳主、親屬及本句說話人和受話人定位。",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line013:m0365",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line013",
+      "start": 365,
+      "end": 366,
+      "surface": "卿",
+      "person_id": "a8f_ec8_e74_ABB",
+      "referent_role": "addressee",
+      "quote": "兄子濟輕之，所食方丈盈前，不以及淇。湛命取菜蔬，對而食之。濟嘗詣湛，見床頭有《周易》，問曰：「叔父何用此為？」湛曰：「體中不佳時，脫復看耳。」濟請言之。湛因剖析玄理，微妙有奇趣，皆濟所未聞也。濟才氣抗邁，於湛略無子侄之敬。既聞其言，不覺栗然，心形俱肅。遂留連彌日累夜，自視缺然，乃歎曰：「家有名士，三十年而不知，濟之罪也。」既而辭去，湛送至門。濟有從馬絕難乘，濟問湛曰：「叔頗好騎不？」湛曰：「亦好之。」因騎此馬，姿容既妙，回策如縈，善騎者無以過之。又濟所乘馬，甚愛之，湛曰：「此馬雖快，然力薄不堪苦行。近見督郵馬當勝，但芻秣不至耳。」濟試養之，而與己馬等。湛又曰：「此馬任重方知之，平路無以別也。」於是當蟻封內試之，濟馬果躓，而督郵馬如常。濟益歎，還白其父，曰：「濟始得一叔，乃濟以上人也。」武帝亦以湛為癡，每見濟，輒調之曰：「卿家癡叔死未？」濟常無以答。及是，帝又問如初，濟曰：「臣叔殊不癡。」因稱其美。帝曰：「誰比？」濟曰：「山濤以下，魏舒以上。」時人謂湛上方山濤不足，下比魏舒有餘。湛聞曰：「欲處我于季孟之間乎？」",
+      "note": "依傳主、親屬及本句說話人和受話人定位。",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-taiyuan-wang"
+    },
+    {
+      "id": "c-jinshu-075-taiyuan-wang:line013:m0392",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line013",
+      "start": 392,
+      "end": 393,
+      "surface": "臣",
+      "person_id": "a8f_ec8_e74_ABB",
+      "referent_role": "speaker_self",
+      "quote": "兄子濟輕之，所食方丈盈前，不以及淇。湛命取菜蔬，對而食之。濟嘗詣湛，見床頭有《周易》，問曰：「叔父何用此為？」湛曰：「體中不佳時，脫復看耳。」濟請言之。湛因剖析玄理，微妙有奇趣，皆濟所未聞也。濟才氣抗邁，於湛略無子侄之敬。既聞其言，不覺栗然，心形俱肅。遂留連彌日累夜，自視缺然，乃歎曰：「家有名士，三十年而不知，濟之罪也。」既而辭去，湛送至門。濟有從馬絕難乘，濟問湛曰：「叔頗好騎不？」湛曰：「亦好之。」因騎此馬，姿容既妙，回策如縈，善騎者無以過之。又濟所乘馬，甚愛之，湛曰：「此馬雖快，然力薄不堪苦行。近見督郵馬當勝，但芻秣不至耳。」濟試養之，而與己馬等。湛又曰：「此馬任重方知之，平路無以別也。」於是當蟻封內試之，濟馬果躓，而督郵馬如常。濟益歎，還白其父，曰：「濟始得一叔，乃濟以上人也。」武帝亦以湛為癡，每見濟，輒調之曰：「卿家癡叔死未？」濟常無以答。及是，帝又問如初，濟曰：「臣叔殊不癡。」因稱其美。帝曰：「誰比？」濟曰：「山濤以下，魏舒以上。」時人謂湛上方山濤不足，下比魏舒有餘。湛聞曰：「欲處我于季孟之間乎？」",
+      "note": "依傳主、親屬及本句說話人和受話人定位。",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "book_id": "b-jinshu-075",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-075-taiyuan-wang"
     }
   ],
   "person_ids": [

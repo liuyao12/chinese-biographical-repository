@@ -62,6 +62,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 5,
+      "category": "",
+      "title": "劉注《王氏譜》所引兩樁婚姻與范氏母系",
+      "paragraph_id": "c-shishuoxinyu-005-wang-tanzhi-family:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王坦之娶順陽郡范汪女，名蓋，即甯妹也，生忱。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-005-wang-tanzhi-family:p002"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-005-wang-tanzhi-family:p002:m0007"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-005-wang-tanzhi-family:p002:m0007": "c-shishuoxinyu-005-wang-tanzhi-family:p002"
+      },
+      "mention_id": "c-shishuoxinyu-005-wang-tanzhi-family:p002:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-005-wang-tanzhi-family:p002:m0007",
+          "mention_ids": [
+            "c-shishuoxinyu-005-wang-tanzhi-family:p002:m0007"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-005",
+      "chapter_id": "c-shishuoxinyu-005-wang-tanzhi-family",
+      "source_id": "s-shishuoxinyu-005-wang-tanzhi-family-ws2567462",
+      "work_title": "世說新語"
+    },
+    {
       "number": 60,
       "category": "",
       "title": "范泰傳",
@@ -1063,6 +1098,29 @@
       }
     },
     {
+      "chapter_id": "c-shishuoxinyu-005-wang-tanzhi-family",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-005",
+      "source_id": "s-shishuoxinyu-005-wang-tanzhi-family-ws2567462",
+      "source": {
+        "title": "劉注《王氏譜》所引兩樁婚姻與范氏母系",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2567462",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2567462",
+        "revision_id": 2567462,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "劉注《王氏譜》所引兩樁婚姻與范氏母系",
+        "text_scope": "partial_chapter",
+        "raw_path": "sources/shishuoxinyu/shishuo005-ws2567462.wikitext",
+        "raw_file_sha256": "fe12e14d6e67a7ed4e8b0ca80124762d30c1995b3f890783ada310c1f80cb40e"
+      }
+    },
+    {
       "chapter_id": "c-songshu-060-fantai",
       "work_id": "w-songshu",
       "book_id": "b-songshu-060",
@@ -1088,6 +1146,32 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-jin075-early-fan-gai-father",
+      "subject_person_id": "ae7_dcf_084_A",
+      "object_person_id": "ae7_dcf_084",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "范汪女，名蓋"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-005",
+          "chapter_id": "c-shishuoxinyu-005-wang-tanzhi-family",
+          "source_id": "s-shishuoxinyu-005-wang-tanzhi-family-ws2567462",
+          "paragraph_id": "c-shishuoxinyu-005-wang-tanzhi-family:p002",
+          "quote": "王坦之娶順陽郡范汪女，名蓋，即甯妹也，生忱。",
+          "subject_person_mention_id": "c-shishuoxinyu-005-wang-tanzhi-family:p002:m0012",
+          "object_person_mention_id": "c-shishuoxinyu-005-wang-tanzhi-family:p002:m0007"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "范汪之女，名蓋，未以此推范氏其他人的父系。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song060-fantai-grandfather",
       "subject_person_id": "ffc_ea1_a8f_A",
@@ -1118,6 +1202,7 @@
   ],
   "related_people": {
     "ae7_dcf_084": "范汪",
+    "ae7_dcf_084_A": "范蓋（范汪女，王坦之妻）",
     "ffc_ea1_a8f_A": "范泰"
   },
   "dates": [],
@@ -1144,6 +1229,32 @@
     "ae7_dcf_084"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin075-early-fan-gai-father",
+      "subject_person_id": "ae7_dcf_084_A",
+      "object_person_id": "ae7_dcf_084",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "范汪女，名蓋"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-005",
+          "chapter_id": "c-shishuoxinyu-005-wang-tanzhi-family",
+          "source_id": "s-shishuoxinyu-005-wang-tanzhi-family-ws2567462",
+          "paragraph_id": "c-shishuoxinyu-005-wang-tanzhi-family:p002",
+          "quote": "王坦之娶順陽郡范汪女，名蓋，即甯妹也，生忱。",
+          "subject_person_mention_id": "c-shishuoxinyu-005-wang-tanzhi-family:p002:m0012",
+          "object_person_mention_id": "c-shishuoxinyu-005-wang-tanzhi-family:p002:m0007"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "范汪之女，名蓋，未以此推范氏其他人的父系。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song060-fantai-grandfather",
       "subject_person_id": "ffc_ea1_a8f_A",

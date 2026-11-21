@@ -142,7 +142,7 @@ def validate_full_name(name, paragraph=None):
         raise ValueError('未分姓名須有原稱、固定平行原文及判讀，不得暗拆姓與名')
 
 
-def validate_courtesy_name(name):
+def validate_courtesy_name(name, paragraph=None):
     """字須有明示來源，不從顯示名稱推拆或冒作本名。"""
     if 'zi' not in name:
         if 'zi_basis' in name:
@@ -172,8 +172,21 @@ def validate_courtesy_name(name):
                             and marker['surface'] == '故稱字' and subject['end'] <= marker['start'])
         if not called_by_zi:
             raise ValueError('稱字記載須連到傳首人物及故稱字原詞，不能據顯示名猜字')
+    if name.get('ming') == zi:
+        # 梁、南兩傳均明書「王僧孺字僧孺」。兩見必須各有本人的原文錨點。
+        surname = name.get('surname')
+        if not (paragraph and paragraph['id'] == name.get('paragraph_id')
+                and isinstance(surname, str) and surname and isinstance(zi, str) and zi):
+            raise ValueError('名與字同文須具傳首的兩個人物錨點')
+        full = surname + zi
+        prefix = full + '字' + zi
+        anchors = {(m['start'], m['end'], m['surface']) for m in paragraph['mentions']
+                   if m.get('person_id') == name.get('person_id')}
+        if (name.get('quote') != paragraph['text'] or not paragraph['text'].startswith(prefix)
+                or (0, len(full), full) not in anchors
+                or (len(full) + 1, len(prefix), zi) not in anchors):
+            raise ValueError('名與字同文須具傳首的兩個人物錨點')
     if (not isinstance(zi, str) or not zi.strip() or zi != zi.strip()
-            or name.get('ming') == zi
             or not (called_by_zi or any(isinstance(q, str) and '字' + zi in q for q in quotes))):
         raise ValueError('字須有明示字名的引句且不得冒作名')
 
@@ -419,7 +432,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 raise ValueError('收到姓名構件須逐原人物錨、緊接字詞與固定見證，不借同段他人字或拼全名冒原稱')
         validate_clan_style(name, name_paragraph[1] if name_paragraph else None, relations)
         validate_full_name(name, name_paragraph[1] if name_paragraph else None)
-        validate_courtesy_name(name)
+        validate_courtesy_name(name, name_paragraph[1] if name_paragraph else None)
         if 'surname_basis' in name:
             try:
                 from .surname_from_father import validate as validate_inferred_surname

@@ -6,9 +6,59 @@
   "identity_note": "固定本紀年度單元首輪來源身份；未由同姓接家、未補生年或親屬。",
   "review": "ai_provisional",
   "names": [
-    "鍾雅"
+    "鍾雅",
+    "鐘雅"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w044-huaheng-j7-zhong",
+      "person_id": "j81_pcr_llk",
+      "title": "侍中",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-007",
+          "chapter_id": "c-jinshu-007-jin044-huaheng",
+          "source_id": "s-jinshu-007-jin044-huaheng",
+          "paragraph_id": "c-jinshu-007-jin044-huaheng:siege",
+          "quote": "侍中鐘雅、右衛將軍劉超謀奉帝出，爲賊所害。",
+          "person_mention_id": "c-jinshu-007-jin044-huaheng:siege:m0002"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-huaheng-j7-zhong:a",
+          "paragraph_id": "c-jinshu-007-jin044-huaheng:siege",
+          "start": 0,
+          "end": 2,
+          "surface": "侍中",
+          "person_mention_id": "c-jinshu-007-jin044-huaheng:siege:m0002",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -44,6 +94,76 @@
       "book_id": "b-jinshu-007",
       "chapter_id": "c-jinshu-007-huan-annal-xianhe3",
       "source_id": "s-jinshu-007-huan-annal-xianhe3",
+      "work_title": "晉書"
+    },
+    {
+      "number": 7,
+      "category": "",
+      "title": "晉書成帝紀·鐘雅、劉超奉帝",
+      "paragraph_id": "c-jinshu-007-jin044-huaheng:siege",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "侍中鐘雅、右衛將軍劉超謀奉帝出，爲賊所害。",
+      "paragraph_ids": [
+        "c-jinshu-007-jin044-huaheng:siege"
+      ],
+      "mention_ids": [
+        "c-jinshu-007-jin044-huaheng:siege:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-007-jin044-huaheng:siege:m0002": "c-jinshu-007-jin044-huaheng:siege"
+      },
+      "mention_id": "c-jinshu-007-jin044-huaheng:siege:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-007-jin044-huaheng:siege:m0002",
+          "mention_ids": [
+            "c-jinshu-007-jin044-huaheng:siege:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-007",
+      "chapter_id": "c-jinshu-007-jin044-huaheng",
+      "source_id": "s-jinshu-007-jin044-huaheng",
+      "work_title": "晉書"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·華恆傳",
+      "paragraph_id": "c-jinshu-044-huaheng:line099",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "輕薄無行，為恆所黜。及讓在峻軍中，任勢多所殺害，見恆輒恭敬，不肆其虐。鐘雅、劉超之死，亦將及恆，讓盡心救衛，故得免。",
+      "paragraph_ids": [
+        "c-jinshu-044-huaheng:line099"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-huaheng:line099:m0048"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-huaheng:line099:m0048": "c-jinshu-044-huaheng:line099"
+      },
+      "mention_id": "c-jinshu-044-huaheng:line099:m0048",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-huaheng:line099:m0048",
+          "mention_ids": [
+            "c-jinshu-044-huaheng:line099:m0048"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-huaheng",
+      "source_id": "s-jinshu-044-huaheng",
       "work_title": "晉書"
     }
   ],
@@ -105,6 +225,57 @@
           }
         ]
       }
+    },
+    {
+      "chapter_id": "c-jinshu-007-jin044-huaheng",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-007",
+      "source_id": "s-jinshu-007-jin044-huaheng",
+      "source": {
+        "title": "晉書成帝紀",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2582704",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2582704",
+        "revision_id": 2582704,
+        "accessed_on": "2026-11-21",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "raw_path": "source-evidence/jin065-wang-children/external/jin007-ws2582704.wikitext",
+        "wikitext_sha256": "7247d6de420e29835a0a9d505cf6c5dbd2fef1b12dc65955b677f54ff86dc1d1",
+        "raw_file_sha256": "7247d6de420e29835a0a9d505cf6c5dbd2fef1b12dc65955b677f54ff86dc1d1"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-044-huaheng",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-huaheng",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「廙子恆」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-huaheng/reading.json"
+        ]
+      }
     }
   ],
   "relations": [],
@@ -118,7 +289,54 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-w044-huaheng-j7-0",
+      "person_id": "j81_pcr_llk",
+      "event_type": "death",
+      "source_term": "爲賊所害",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-007",
+          "chapter_id": "c-jinshu-007-jin044-huaheng",
+          "source_id": "s-jinshu-007-jin044-huaheng",
+          "paragraph_id": "c-jinshu-007-jin044-huaheng:siege",
+          "quote": "侍中鐘雅、右衛將軍劉超謀奉帝出，爲賊所害。",
+          "person_mention_id": "c-jinshu-007-jin044-huaheng:siege:m0002"
+        }
+      ],
+      "interpretation_note": "依本來源登記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-w044-huaheng-zhong",
+      "person_id": "j81_pcr_llk",
+      "event_type": "death",
+      "source_term": "鐘雅、劉超之死",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-huaheng",
+          "source_id": "s-jinshu-044-huaheng",
+          "paragraph_id": "c-jinshu-044-huaheng:line099",
+          "quote": "初，恆為州大中正，鄉人任讓輕薄無行，為恆所黜。及讓在峻軍中，任勢多所殺害，見恆輒恭敬，不肆其虐。鐘雅、劉超之死，亦將及恆，讓盡心救衛，故得免。",
+          "person_mention_id": "c-jinshu-044-huaheng:line099:m0048"
+        }
+      ],
+      "interpretation_note": "依本來源登記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

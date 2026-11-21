@@ -6,11 +6,106 @@
   "identity_note": "本卷具體來源身份；新號只表示暫分，非斷言與他篇必為異人。",
   "review": "ai_provisional",
   "names": [
-    "石陋"
+    "石陋",
+    "陋",
+    "處賤"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w044-shijian-25",
+      "person_id": "uju_lw0_5ys",
+      "title": "屯騎校尉",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-shijian",
+          "source_id": "s-jinshu-044-shijian",
+          "paragraph_id": "c-jinshu-044-shijian:line119",
+          "quote": "武帝崩，鑒與中護軍張劭監統山陵。時大司馬、汝南王亮為太傅楊駿所疑，不敢臨喪，出營城外。時有告亮欲舉兵討駿，駿大懼，白太后令帝為手詔，詔鑒及張劭使率陵兵討亮。劭，駿甥也，便率所領催鑒速發，鑒以為不然，保持之，遣人密覘視亮，已別道還許昌，於是駿止，論者稱之。山陵訖，封昌安縣侯。元康初，為太尉。年八十餘，克壯慷慨，自遇若少年，時人美之。尋薨，諡曰元。子陋，字處賤，襲封，曆屯騎校尉。",
+          "person_mention_id": "c-jinshu-044-shijian:line119:m0174"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-shijian-25:a",
+          "paragraph_id": "c-jinshu-044-shijian:line119",
+          "start": 184,
+          "end": 188,
+          "surface": "屯騎校尉",
+          "person_mention_id": "c-jinshu-044-shijian:line119:m0174",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·石鑒傳",
+      "paragraph_id": "c-jinshu-044-shijian:line119",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "初，為太尉。年八十餘，克壯慷慨，自遇若少年，時人美之。尋薨，諡曰元。子陋，字處賤，襲封，曆屯騎校尉。",
+      "paragraph_ids": [
+        "c-jinshu-044-shijian:line119"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-shijian:line119:m0174",
+        "c-jinshu-044-shijian:line119:m0177"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-shijian:line119:m0174": "c-jinshu-044-shijian:line119",
+        "c-jinshu-044-shijian:line119:m0177": "c-jinshu-044-shijian:line119"
+      },
+      "mention_id": "c-jinshu-044-shijian:line119:m0174",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-shijian:line119:m0174",
+          "mention_ids": [
+            "c-jinshu-044-shijian:line119:m0174"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-044-shijian:line119:m0177",
+          "mention_ids": [
+            "c-jinshu-044-shijian:line119:m0177"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-shijian",
+      "source_id": "s-jinshu-044-shijian",
+      "work_title": "晉書"
+    },
     {
       "number": 59,
       "category": "",
@@ -50,6 +145,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-044-shijian",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-shijian",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「石鑒」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-shijian/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-059-yi",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-059",
@@ -77,8 +199,36 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-w044-shijian-lou",
+      "subject_person_id": "uju_lw0_5ys",
+      "object_person_id": "77n_qzq_xi3",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子陋，字處賤"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-shijian",
+          "source_id": "s-jinshu-044-shijian",
+          "paragraph_id": "c-jinshu-044-shijian:line119",
+          "quote": "武帝崩，鑒與中護軍張劭監統山陵。時大司馬、汝南王亮為太傅楊駿所疑，不敢臨喪，出營城外。時有告亮欲舉兵討駿，駿大懼，白太后令帝為手詔，詔鑒及張劭使率陵兵討亮。劭，駿甥也，便率所領催鑒速發，鑒以為不然，保持之，遣人密覘視亮，已別道還許昌，於是駿止，論者稱之。山陵訖，封昌安縣侯。元康初，為太尉。年八十餘，克壯慷慨，自遇若少年，時人美之。尋薨，諡曰元。子陋，字處賤，襲封，曆屯騎校尉。",
+          "subject_person_mention_id": "c-jinshu-044-shijian:line119:m0174",
+          "object_person_mention_id": "c-jinshu-044-shijian:line119:m0089"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "77n_qzq_xi3": "石鑒〔西晉太尉，字林伯〕",
     "uju_lw0_5ys": "石陋〔光祿勳，行司徒說穎者〕"
   },
   "dates": [],
@@ -86,7 +236,34 @@
   "person_ids": [
     "uju_lw0_5ys"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-w044-shijian-lou",
+      "subject_person_id": "uju_lw0_5ys",
+      "object_person_id": "77n_qzq_xi3",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子陋，字處賤"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-shijian",
+          "source_id": "s-jinshu-044-shijian",
+          "paragraph_id": "c-jinshu-044-shijian:line119",
+          "quote": "武帝崩，鑒與中護軍張劭監統山陵。時大司馬、汝南王亮為太傅楊駿所疑，不敢臨喪，出營城外。時有告亮欲舉兵討駿，駿大懼，白太后令帝為手詔，詔鑒及張劭使率陵兵討亮。劭，駿甥也，便率所領催鑒速發，鑒以為不然，保持之，遣人密覘視亮，已別道還許昌，於是駿止，論者稱之。山陵訖，封昌安縣侯。元康初，為太尉。年八十餘，克壯慷慨，自遇若少年，時人美之。尋薨，諡曰元。子陋，字處賤，襲封，曆屯騎校尉。",
+          "subject_person_mention_id": "c-jinshu-044-shijian:line119:m0174",
+          "object_person_mention_id": "c-jinshu-044-shijian:line119:m0089"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
