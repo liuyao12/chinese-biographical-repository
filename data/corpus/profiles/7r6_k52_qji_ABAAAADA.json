@@ -26,6 +26,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 21,
+      "category": "",
+      "title": "王遠",
+      "paragraph_id": "c-nanshi-021-wangyuan:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "微兄遠字景舒，位光祿勳。時人謂遠如屏風，屈曲從俗，能蔽風露。言能不乖物理也。",
+      "paragraph_ids": [
+        "c-nanshi-021-wangyuan:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-021-wangyuan:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-021-wangyuan:p001:m0000": "c-nanshi-021-wangyuan:p001"
+      },
+      "mention_id": "c-nanshi-021-wangyuan:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-021-wangyuan:p001:m0000",
+          "mention_ids": [
+            "c-nanshi-021-wangyuan:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "chapter_id": "c-nanshi-021-wangyuan",
+      "source_id": "s-nanshi-021-wangyuan-ws1752646",
+      "work_title": "南史"
+    },
+    {
       "number": 22,
       "category": "",
       "title": "王僧綽傳（乾隆武英殿本）",
@@ -2377,6 +2412,35 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-021-wangyuan",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "source_id": "s-nanshi-021-wangyuan-ws1752646",
+      "source": {
+        "title": "南史卷二十一·王遠",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "revision_id": 1752646,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂1752646，武英殿本書影逐項參記。",
+        "extent": "逐讀第83行分題至第87行分題前。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "第83原題「微兄 遠」。第85行完整，下一原段第87另起遠子僧佑。",
+        "wikitext_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "raw_path": "sources/nanshi/nanshi021-ws1752646.wikitext",
+        "raw_file_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanshi-022-wangsengchuo",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-022",
@@ -4636,6 +4700,46 @@
   ],
   "relations": [
     {
+      "id": "a-nanshi021-wangyuan-85-0",
+      "subject_person_id": "p93_tgr_t8r",
+      "object_person_id": "7r6_k52_qji_ABAAAADA",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "微兄遠",
+        "relative_birth_order": {
+          "older_person_id": "p93_tgr_t8r",
+          "younger_person_id": "7r6_k52_qji_ABAAAADA",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangyuan",
+          "source_id": "s-nanshi-021-wangyuan-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangyuan:p001",
+          "quote": "微兄遠字景舒，位光祿勳。時人謂遠如屏風，屈曲從俗，能蔽風露。言能不乖物理也。",
+          "subject_person_mention_id": "c-nanshi-021-wangyuan:p001:m0002",
+          "object_person_mention_id": "c-nanshi-021-wangyuan:p001:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wangyuan:p001",
+            "start": 0,
+            "end": 3,
+            "surface": "微兄遠"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-song062-wangwei-001",
       "subject_person_id": "7r6_k52_qji_ABAAAADA",
       "predicate": "father",
@@ -4937,7 +5041,8 @@
     "bar_gnt_p0z": "王僧謙",
     "d8d_ced_96e": "王徽",
     "gcv_57b_e69": "王微兄（守金城，未名）",
-    "jpq_zns_om0": "王微姊（未名）"
+    "jpq_zns_om0": "王微姊（未名）",
+    "p93_tgr_t8r": "王遠"
   },
   "dates": [],
   "preferred_readings": [
@@ -5051,6 +5156,46 @@
     "7r6_k52_qji_ABAAAADA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nanshi021-wangyuan-85-0",
+      "subject_person_id": "p93_tgr_t8r",
+      "object_person_id": "7r6_k52_qji_ABAAAADA",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "微兄遠",
+        "relative_birth_order": {
+          "older_person_id": "p93_tgr_t8r",
+          "younger_person_id": "7r6_k52_qji_ABAAAADA",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangyuan",
+          "source_id": "s-nanshi-021-wangyuan-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangyuan:p001",
+          "quote": "微兄遠字景舒，位光祿勳。時人謂遠如屏風，屈曲從俗，能蔽風露。言能不乖物理也。",
+          "subject_person_mention_id": "c-nanshi-021-wangyuan:p001:m0002",
+          "object_person_mention_id": "c-nanshi-021-wangyuan:p001:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wangyuan:p001",
+            "start": 0,
+            "end": 3,
+            "surface": "微兄遠"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song062-wangwei-001",
       "subject_person_id": "7r6_k52_qji_ABAAAADA",

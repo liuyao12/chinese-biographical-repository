@@ -3,6 +3,12 @@
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
     basis = holding.get('posthumous_basis')
+    if (basis or {}).get('kind') == 'w080_empress_father_gift':
+        try:
+            from scripts.jin080_xianzhi import gift_valid
+        except ImportError:
+            from jin080_xianzhi import gift_valid
+        return gift_valid(holding, paragraphs, mentions, life_events or {})
     if (holding.get('posthumous_basis') or {}).get('kind') == 'jin065_relatives_gift':
         try: from scripts.jin065_relatives import gift_valid
         except ImportError: from jin065_relatives import gift_valid

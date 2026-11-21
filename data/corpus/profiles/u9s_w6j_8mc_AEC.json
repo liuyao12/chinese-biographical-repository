@@ -51,6 +51,59 @@
       "work_title": "南史"
     },
     {
+      "number": 23,
+      "category": "",
+      "title": "王琨附傳",
+      "paragraph_id": "c-nanshi-023-wangkun:p002",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "琨少謹篤，為從伯司徒謐所愛。宋武帝初為桓修參軍，修待帝厚。後帝以事計圖修，猶懷昔顧，使王華訪素門，嫁其二女。華為琨娶大女，以小女適潁川庾敬度，亦是舊族。除琨郎中、駙馬都尉、奉朝請。",
+      "paragraph_ids": [
+        "c-nanshi-023-wangkun:p002"
+      ],
+      "mention_ids": [
+        "c-nanshi-023-wangkun:p002:m0019",
+        "c-nanshi-023-wangkun:p002:m0024",
+        "c-nanshi-023-wangkun:p002:m0035"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-023-wangkun:p002:m0019": "c-nanshi-023-wangkun:p002",
+        "c-nanshi-023-wangkun:p002:m0024": "c-nanshi-023-wangkun:p002",
+        "c-nanshi-023-wangkun:p002:m0035": "c-nanshi-023-wangkun:p002"
+      },
+      "mention_id": "c-nanshi-023-wangkun:p002:m0019",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-023-wangkun:p002:m0019",
+          "mention_ids": [
+            "c-nanshi-023-wangkun:p002:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-023-wangkun:p002:m0024",
+          "mention_ids": [
+            "c-nanshi-023-wangkun:p002:m0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-023-wangkun:p002:m0035",
+          "mention_ids": [
+            "c-nanshi-023-wangkun:p002:m0035"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangkun",
+      "source_id": "s-nanshi-023-wangkun-ws2478204",
+      "work_title": "南史"
+    },
+    {
       "number": 74,
       "category": "",
       "title": "桓彝及附桓氏家族完整單元",
@@ -436,6 +489,35 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangkun",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangkun-ws2478204",
+      "source": {
+        "title": "南史卷二十三·王琨附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂2478204，武英殿本書影逐項參記。",
+        "extent": "王華原題內王琨未另題附傳，八個原段。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "第63行琨，華從父弟也，至第77行，於第79行王惠原題前。",
+        "wikitext_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
     }
   ],
   "relations": [
@@ -498,15 +580,102 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-nanshi023-wangkun-65-58-50",
+      "subject_person_id": "u9s_w6j_8mc_AECA",
+      "object_person_id": "u9s_w6j_8mc_AEC",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "嫁其二女",
+        "reading_basis": {
+          "kind": "marriages_and_parents_in_wangkun",
+          "line": 65,
+          "case": "嫁其二女，大女",
+          "source_quote": "嫁其二女。華為琨娶大女",
+          "start": 49,
+          "end": 60,
+          "subject_anchor_id": "c-nanshi-023-wangkun:p002:r0058",
+          "object_anchor_id": "c-nanshi-023-wangkun:p002:r0050"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "chapter_id": "c-nanshi-023-wangkun",
+          "source_id": "s-nanshi-023-wangkun-ws2478204",
+          "paragraph_id": "c-nanshi-023-wangkun:p002",
+          "quote": "琨少謹篤，為從伯司徒謐所愛。宋武帝初為桓修參軍，修待帝厚。後帝以事計圖修，猶懷昔顧，使王華訪素門，嫁其二女。華為琨娶大女，以小女適潁川庾敬度，亦是舊族。除琨郎中、駙馬都尉、奉朝請。"
+        }
+      ],
+      "interpretation_note": "同段原句中的姓名或稱謂各指唯一當事人。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi023-wangkun-65-62-50",
+      "subject_person_id": "u9s_w6j_8mc_AECB",
+      "object_person_id": "u9s_w6j_8mc_AEC",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "嫁其二女",
+        "reading_basis": {
+          "kind": "marriages_and_parents_in_wangkun",
+          "line": 65,
+          "case": "嫁其二女，小女",
+          "source_quote": "嫁其二女。華為琨娶大女，以小女適潁川庾敬度",
+          "start": 49,
+          "end": 70,
+          "subject_anchor_id": "c-nanshi-023-wangkun:p002:r0062",
+          "object_anchor_id": "c-nanshi-023-wangkun:p002:r0050"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "chapter_id": "c-nanshi-023-wangkun",
+          "source_id": "s-nanshi-023-wangkun-ws2478204",
+          "paragraph_id": "c-nanshi-023-wangkun:p002",
+          "quote": "琨少謹篤，為從伯司徒謐所愛。宋武帝初為桓修參軍，修待帝厚。後帝以事計圖修，猶懷昔顧，使王華訪素門，嫁其二女。華為琨娶大女，以小女適潁川庾敬度，亦是舊族。除琨郎中、駙馬都尉、奉朝請。"
+        }
+      ],
+      "interpretation_note": "同段原句中的姓名或稱謂各指唯一當事人。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
     "u9s_w6j_8mc_AE": "桓沖",
     "u9s_w6j_8mc_AEB": "桓謙",
-    "u9s_w6j_8mc_AEC": "桓修"
+    "u9s_w6j_8mc_AEC": "桓修",
+    "u9s_w6j_8mc_AECA": "桓修長女〔王琨妻〕",
+    "u9s_w6j_8mc_AECB": "桓修小女〔庾敬度妻〕"
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "start": 50,
+      "end": 51,
+      "surface": "其",
+      "id": "c-nanshi-023-wangkun:p002:r0050",
+      "paragraph_id": "c-nanshi-023-wangkun:p002",
+      "person_id": "u9s_w6j_8mc_AEC",
+      "referent_role": "third_person",
+      "quote": "琨少謹篤，為從伯司徒謐所愛。宋武帝初為桓修參軍，修待帝厚。後帝以事計圖修，猶懷昔顧，使王華訪素門，嫁其二女。華為琨娶大女，以小女適潁川庾敬度，亦是舊族。除琨郎中、駙馬都尉、奉朝請。",
+      "note": "本句按敘述視點回指修。",
+      "chapter_id": "c-nanshi-023-wangkun",
+      "book_id": "b-nanshi-023",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-023-wangkun-ws2478204"
+    }
+  ],
   "person_ids": [
     "u9s_w6j_8mc_AEC"
   ],
@@ -570,6 +739,74 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-nanshi023-wangkun-65-58-50",
+      "subject_person_id": "u9s_w6j_8mc_AECA",
+      "object_person_id": "u9s_w6j_8mc_AEC",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "嫁其二女",
+        "reading_basis": {
+          "kind": "marriages_and_parents_in_wangkun",
+          "line": 65,
+          "case": "嫁其二女，大女",
+          "source_quote": "嫁其二女。華為琨娶大女",
+          "start": 49,
+          "end": 60,
+          "subject_anchor_id": "c-nanshi-023-wangkun:p002:r0058",
+          "object_anchor_id": "c-nanshi-023-wangkun:p002:r0050"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "chapter_id": "c-nanshi-023-wangkun",
+          "source_id": "s-nanshi-023-wangkun-ws2478204",
+          "paragraph_id": "c-nanshi-023-wangkun:p002",
+          "quote": "琨少謹篤，為從伯司徒謐所愛。宋武帝初為桓修參軍，修待帝厚。後帝以事計圖修，猶懷昔顧，使王華訪素門，嫁其二女。華為琨娶大女，以小女適潁川庾敬度，亦是舊族。除琨郎中、駙馬都尉、奉朝請。"
+        }
+      ],
+      "interpretation_note": "同段原句中的姓名或稱謂各指唯一當事人。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi023-wangkun-65-62-50",
+      "subject_person_id": "u9s_w6j_8mc_AECB",
+      "object_person_id": "u9s_w6j_8mc_AEC",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "嫁其二女",
+        "reading_basis": {
+          "kind": "marriages_and_parents_in_wangkun",
+          "line": 65,
+          "case": "嫁其二女，小女",
+          "source_quote": "嫁其二女。華為琨娶大女，以小女適潁川庾敬度",
+          "start": 49,
+          "end": 70,
+          "subject_anchor_id": "c-nanshi-023-wangkun:p002:r0062",
+          "object_anchor_id": "c-nanshi-023-wangkun:p002:r0050"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "chapter_id": "c-nanshi-023-wangkun",
+          "source_id": "s-nanshi-023-wangkun-ws2478204",
+          "paragraph_id": "c-nanshi-023-wangkun:p002",
+          "quote": "琨少謹篤，為從伯司徒謐所愛。宋武帝初為桓修參軍，修待帝厚。後帝以事計圖修，猶懷昔顧，使王華訪素門，嫁其二女。華為琨娶大女，以小女適潁川庾敬度，亦是舊族。除琨郎中、駙馬都尉、奉朝請。"
+        }
+      ],
+      "interpretation_note": "同段原句中的姓名或稱謂各指唯一當事人。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "assembled_identity": {

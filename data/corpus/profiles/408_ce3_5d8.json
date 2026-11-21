@@ -13,6 +13,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 44,
+      "category": "",
+      "title": "沈文季傳首世系",
+      "paragraph_id": "c-nanqishu-044-shenwenji-wangjian:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "　　沈文季字仲達，吳興武康人。父慶之，宋司空。",
+      "paragraph_ids": [
+        "c-nanqishu-044-shenwenji-wangjian:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-044-shenwenji-wangjian:p001:m0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-044-shenwenji-wangjian:p001:m0016": "c-nanqishu-044-shenwenji-wangjian:p001"
+      },
+      "mention_id": "c-nanqishu-044-shenwenji-wangjian:p001:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-044-shenwenji-wangjian:p001:m0016",
+          "mention_ids": [
+            "c-nanqishu-044-shenwenji-wangjian:p001:m0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-044",
+      "chapter_id": "c-nanqishu-044-shenwenji-wangjian",
+      "source_id": "s-nanqishu-044-shenwenji-wangjian-ws1507959",
+      "work_title": "南齊書"
+    },
+    {
       "number": 59,
       "category": "",
       "title": "張暢完整本傳與附家族",
@@ -164,6 +199,33 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-044-shenwenji-wangjian",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-044",
+      "source_id": "s-nanqishu-044-shenwenji-wangjian-ws1507959",
+      "source": {
+        "title": "南齊書/卷44·沈文季傳首世系",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/南齊書/卷44",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南齊書/卷44&oldid=1507959",
+        "edition": "維基文庫固定數位見證",
+        "revision_id": 1507959,
+        "accessed_on": "2026-11-20",
+        "text_scope": "partial_chapter",
+        "extent": "沈文季傳首世系",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "raw_path": "source-evidence/nanqi023-wangjian/nanqishu044-ws1507959.wikitext",
+        "raw_file_sha256": "e1f2e1b345f48e7f4b7f28e521e550b3dc1af7d9a88656753b9da994711bb257",
+        "rights": "古籍本文及可追溯數位修訂",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留數位底本的字及行內排版空白。"
+        }
+      }
+    },
     {
       "chapter_id": "c-songshu-059-zhangchang",
       "work_id": "w-songshu",
@@ -6748,6 +6810,34 @@
   ],
   "relations": [
     {
+      "id": "a-nanqishu-044-shenwenji-wangjian-wenji-father",
+      "subject_person_id": "408_ce3_5d8_A",
+      "object_person_id": "408_ce3_5d8",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父慶之",
+        "qi23_kin_frame": "wenji-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-044",
+          "source_id": "s-nanqishu-044-shenwenji-wangjian-ws1507959",
+          "chapter_id": "c-nanqishu-044-shenwenji-wangjian",
+          "paragraph_id": "c-nanqishu-044-shenwenji-wangjian:p001",
+          "quote": "　　沈文季字仲達，吳興武康人。父慶之，宋司空。",
+          "subject_person_mention_id": "c-nanqishu-044-shenwenji-wangjian:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-044-shenwenji-wangjian:p001:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "據所引原文及其標目指向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-song088-shenwenxiu-uncle",
       "subject_person_id": "jyf_yg2_dqk_A",
       "predicate": "paternal_uncle",
@@ -6777,6 +6867,7 @@
   ],
   "related_people": {
     "408_ce3_5d8": "沈慶之",
+    "408_ce3_5d8_A": "沈文季",
     "jyf_yg2_dqk_A": "沈文秀"
   },
   "dates": [],
@@ -6807,10 +6898,55 @@
       "source_id": "s-songshu-085-xiezhuang"
     }
   ],
+  "person_references": [
+    {
+      "id": "c-nanqishu-044-shenwenji-wangjian:p001:r0015",
+      "paragraph_id": "c-nanqishu-044-shenwenji-wangjian:p001",
+      "person_id": "408_ce3_5d8",
+      "quote": "　　沈文季字仲達，吳興武康人。父慶之，宋司空。",
+      "note": "依本句稱謂及敘事主體。",
+      "referent_role": "third_person",
+      "start": 15,
+      "end": 16,
+      "surface": "父",
+      "chapter_id": "c-nanqishu-044-shenwenji-wangjian",
+      "book_id": "b-nanqishu-044",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-044-shenwenji-wangjian-ws1507959"
+    }
+  ],
   "person_ids": [
     "408_ce3_5d8"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nanqishu-044-shenwenji-wangjian-wenji-father",
+      "subject_person_id": "408_ce3_5d8_A",
+      "object_person_id": "408_ce3_5d8",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父慶之",
+        "qi23_kin_frame": "wenji-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-044",
+          "source_id": "s-nanqishu-044-shenwenji-wangjian-ws1507959",
+          "chapter_id": "c-nanqishu-044-shenwenji-wangjian",
+          "paragraph_id": "c-nanqishu-044-shenwenji-wangjian:p001",
+          "quote": "　　沈文季字仲達，吳興武康人。父慶之，宋司空。",
+          "subject_person_mention_id": "c-nanqishu-044-shenwenji-wangjian:p001:m0002",
+          "object_person_mention_id": "c-nanqishu-044-shenwenji-wangjian:p001:m0016"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "據所引原文及其標目指向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-song088-shenwenxiu-uncle",
       "subject_person_id": "jyf_yg2_dqk_A",

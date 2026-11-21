@@ -22,6 +22,10 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if proposal.get('jin080_office_form') == 'summoned_and_declined':
+        try: from scripts.jin080_xizhi import unassumed_valid
+        except ImportError: from jin080_xizhi import unassumed_valid
+        return unassumed_valid(proposal, chapter)
     if 'source_career_role' in proposal:
         try:
             from scripts.received_career_roles import unassumed_valid

@@ -106,10 +106,17 @@ def chapter_passage(entry, chapter):
     for p in paragraphs:
         part = p['text']
         if p['id'] in slices:
-            a, z = (slices[p['id']][k] for k in ('start', 'end'))
-            assert type(a) is int and type(z) is int and 0 <= a < z <= len(part), p['id']
-            part = part[a:z]
-        text.append(part)
+            selection = slices[p['id']]
+            sections = selection if isinstance(selection, list) else [selection]
+            assert sections, p['id']
+            previous_end = 0
+            for section in sections:
+                a, z = (section[k] for k in ('start', 'end'))
+                assert type(a) is int and type(z) is int and previous_end <= a < z <= len(part), p['id']
+                text.append(part[a:z])
+                previous_end = z
+        else:
+            text.append(part)
     return paragraphs, text
 
 
