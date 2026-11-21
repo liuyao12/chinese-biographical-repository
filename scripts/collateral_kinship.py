@@ -2,10 +2,18 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'wangzhan_named_congfu':
+        try: from scripts.liang021_wangzhan_kin import senior_valid
+        except ImportError: from liang021_wangzhan_kin import senior_valid
+        return senior_valid(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'jin080_named_congbo':
         try: from scripts.jin080_xizhi import collateral_valid
         except ImportError: from jin080_xizhi import collateral_valid
         return collateral_valid(assertion, paragraphs)
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'nanshi021_zhan_collateral':
+        try: from scripts.nanshi021_zhan_collateral import valid
+        except ImportError: from nanshi021_zhan_collateral import valid
+        return valid(assertion, paragraphs)
     if 'nanshi019_role' in assertion.get('qualifiers', {}):
         try: from .nanshi019_dialogue import collateral_valid
         except ImportError: from nanshi019_dialogue import collateral_valid

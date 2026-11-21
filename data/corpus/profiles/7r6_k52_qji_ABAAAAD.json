@@ -10,6 +10,54 @@
   ],
   "titles": [
     {
+      "id": "th-nanshi021-wangwei-77-7",
+      "person_id": "7r6_k52_qji_ABAAAAD",
+      "title": "光祿大夫",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi021-wangwei-77-7:a",
+          "paragraph_id": "c-nanshi-021-wangwei:p001",
+          "start": 7,
+          "end": 11,
+          "surface": "光祿大夫",
+          "person_mention_id": "c-nanshi-021-wangwei:p001:m0011",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangwei",
+          "source_id": "s-nanshi-021-wangwei-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangwei:p001",
+          "quote": "微字景玄，弘弟光祿大夫孺之子也。少好學，善屬文，工書，兼解音律及醫方卜筮陰陽數術之事。宋文帝賜以名蓍。初爲始興王友，父憂去職。微素無宦情，服闋，除南平王鑠右軍諮議參軍，仍爲中書侍郎。時兄遠免官歷年，微歎曰：「我兄無事而屏廢，我何得而叼忝踰分？」文帝即以遠爲光祿勳。",
+          "person_mention_id": "c-nanshi-021-wangwei:p001:m0011"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-songwang7-42-95-36-58",
       "person_id": "7r6_k52_qji_ABAAAAD",
       "title": "侍中",
@@ -102,6 +150,41 @@
       "book_id": "b-nanshi-021",
       "chapter_id": "c-nanshi-021-wanghong-brothers",
       "source_id": "s-nanshi-021-wanghong-brothers-ws1752646",
+      "work_title": "南史"
+    },
+    {
+      "number": 21,
+      "category": "",
+      "title": "王微",
+      "paragraph_id": "c-nanshi-021-wangwei:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "微字景玄，弘弟光祿大夫孺之子也。少好學，善屬文，工書，兼解音律及醫方卜筮陰陽數術之事。宋文帝賜以名蓍。初爲始興王友，父憂去職。微素無宦情，服闋，除南平王鑠右軍諮議參軍，仍爲中書侍郎。時兄遠免官歷年，微歎曰：「我兄無事而屏廢，",
+      "paragraph_ids": [
+        "c-nanshi-021-wangwei:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-021-wangwei:p001:m0011"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-021-wangwei:p001:m0011": "c-nanshi-021-wangwei:p001"
+      },
+      "mention_id": "c-nanshi-021-wangwei:p001:m0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-021-wangwei:p001:m0011",
+          "mention_ids": [
+            "c-nanshi-021-wangwei:p001:m0011"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "chapter_id": "c-nanshi-021-wangwei",
+      "source_id": "s-nanshi-021-wangwei-ws1752646",
       "work_title": "南史"
     },
     {
@@ -944,6 +1027,35 @@
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
         "section_locator": "原卷21第107行，首四字「弘四弟」及冒號。原段無題。",
+        "wikitext_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "raw_path": "sources/nanshi/nanshi021-ws1752646.wikitext",
+        "raw_file_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-021-wangwei",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-021",
+      "source_id": "s-nanshi-021-wangwei-ws1752646",
+      "source": {
+        "title": "南史卷二十一·王微",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1752646",
+        "revision_id": 1752646,
+        "accessed_on": "2026-11-19",
+        "edition": "維基文庫固定修訂1752646，武英殿本書影逐項參記。",
+        "extent": "逐讀第75行分題至第83行分題前。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "分題從子微至微兄遠之前。",
         "wikitext_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
         "raw_path": "sources/nanshi/nanshi021-ws1752646.wikitext",
         "raw_file_sha256": "d377274faea65e6901368f9d913e639bbbbc6fe6080a173be2b258e8bcfad718",
@@ -3060,6 +3172,79 @@
       "human_reviewed": false
     },
     {
+      "id": "a-nanshi021-wangwei-77-7",
+      "subject_person_id": "7r6_k52_qji_ABAAAADA",
+      "object_person_id": "7r6_k52_qji_ABAAAAD",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "光祿大夫孺之子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangwei",
+          "source_id": "s-nanshi-021-wangwei-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangwei:p001",
+          "quote": "微字景玄，弘弟光祿大夫孺之子也。少好學，善屬文，工書，兼解音律及醫方卜筮陰陽數術之事。宋文帝賜以名蓍。初爲始興王友，父憂去職。微素無宦情，服闋，除南平王鑠右軍諮議參軍，仍爲中書侍郎。時兄遠免官歷年，微歎曰：「我兄無事而屏廢，我何得而叼忝踰分？」文帝即以遠爲光祿勳。",
+          "subject_person_mention_id": "c-nanshi-021-wangwei:p001:m0002",
+          "object_person_mention_id": "c-nanshi-021-wangwei:p001:m0011",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wangwei:p001",
+            "start": 7,
+            "end": 14,
+            "surface": "光祿大夫孺之子"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi021-wangwei-77-5-brother",
+      "subject_person_id": "7r6_k52_qji_ABAAAAD",
+      "object_person_id": "7r6_k52_qji_ABAAAAA",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "弘弟光祿大夫孺",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAA",
+          "younger_person_id": "7r6_k52_qji_ABAAAAD",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangwei",
+          "source_id": "s-nanshi-021-wangwei-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangwei:p001",
+          "quote": "微字景玄，弘弟光祿大夫孺之子也。少好學，善屬文，工書，兼解音律及醫方卜筮陰陽數術之事。宋文帝賜以名蓍。初爲始興王友，父憂去職。微素無宦情，服闋，除南平王鑠右軍諮議參軍，仍爲中書侍郎。時兄遠免官歷年，微歎曰：「我兄無事而屏廢，我何得而叼忝踰分？」文帝即以遠爲光祿勳。",
+          "subject_person_mention_id": "c-nanshi-021-wangwei:p001:m0011",
+          "object_person_mention_id": "c-nanshi-021-wangwei:p001:m0005",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wangwei:p001",
+            "start": 5,
+            "end": 12,
+            "surface": "弘弟光祿大夫孺"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-songshu042-phase5-007",
       "subject_person_id": "7r6_k52_qji_ABAAAAD",
       "predicate": "brother",
@@ -3191,6 +3376,23 @@
       "model": null
     }
   ],
+  "person_references": [
+    {
+      "start": 58,
+      "end": 59,
+      "surface": "父",
+      "id": "c-nanshi-021-wangwei:p001:r0058",
+      "paragraph_id": "c-nanshi-021-wangwei:p001",
+      "person_id": "7r6_k52_qji_ABAAAAD",
+      "referent_role": "third_person",
+      "quote": "微字景玄，弘弟光祿大夫孺之子也。少好學，善屬文，工書，兼解音律及醫方卜筮陰陽數術之事。宋文帝賜以名蓍。初爲始興王友，父憂去職。微素無宦情，服闋，除南平王鑠右軍諮議參軍，仍爲中書侍郎。時兄遠免官歷年，微歎曰：「我兄無事而屏廢，我何得而叼忝踰分？」文帝即以遠爲光祿勳。",
+      "note": "本句按敘述視點回指孺。",
+      "chapter_id": "c-nanshi-021-wangwei",
+      "book_id": "b-nanshi-021",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-021-wangwei-ws1752646"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABAAAAD"
   ],
@@ -3250,6 +3452,79 @@
         }
       ],
       "interpretation_note": "父系兄弟，由合列四弟得知均少於弘。兄弟間次序另見宋42，這句未逐一標長幼。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi021-wangwei-77-7",
+      "subject_person_id": "7r6_k52_qji_ABAAAADA",
+      "object_person_id": "7r6_k52_qji_ABAAAAD",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "光祿大夫孺之子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangwei",
+          "source_id": "s-nanshi-021-wangwei-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangwei:p001",
+          "quote": "微字景玄，弘弟光祿大夫孺之子也。少好學，善屬文，工書，兼解音律及醫方卜筮陰陽數術之事。宋文帝賜以名蓍。初爲始興王友，父憂去職。微素無宦情，服闋，除南平王鑠右軍諮議參軍，仍爲中書侍郎。時兄遠免官歷年，微歎曰：「我兄無事而屏廢，我何得而叼忝踰分？」文帝即以遠爲光祿勳。",
+          "subject_person_mention_id": "c-nanshi-021-wangwei:p001:m0002",
+          "object_person_mention_id": "c-nanshi-021-wangwei:p001:m0011",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wangwei:p001",
+            "start": 7,
+            "end": 14,
+            "surface": "光祿大夫孺之子"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi021-wangwei-77-5-brother",
+      "subject_person_id": "7r6_k52_qji_ABAAAAD",
+      "object_person_id": "7r6_k52_qji_ABAAAAA",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "弘弟光祿大夫孺",
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABAAAAA",
+          "younger_person_id": "7r6_k52_qji_ABAAAAD",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-021",
+          "chapter_id": "c-nanshi-021-wangwei",
+          "source_id": "s-nanshi-021-wangwei-ws1752646",
+          "paragraph_id": "c-nanshi-021-wangwei:p001",
+          "quote": "微字景玄，弘弟光祿大夫孺之子也。少好學，善屬文，工書，兼解音律及醫方卜筮陰陽數術之事。宋文帝賜以名蓍。初爲始興王友，父憂去職。微素無宦情，服闋，除南平王鑠右軍諮議參軍，仍爲中書侍郎。時兄遠免官歷年，微歎曰：「我兄無事而屏廢，我何得而叼忝踰分？」文帝即以遠爲光祿勳。",
+          "subject_person_mention_id": "c-nanshi-021-wangwei:p001:m0011",
+          "object_person_mention_id": "c-nanshi-021-wangwei:p001:m0005",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-021-wangwei:p001",
+            "start": 5,
+            "end": 12,
+            "surface": "弘弟光祿大夫孺"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false

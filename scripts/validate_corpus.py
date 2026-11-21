@@ -571,6 +571,9 @@ def _validate_uncached(root=ROOT):
             try: from scripts.qi023_wangjian_witnesses import errors as qi23_source_errors
             except ImportError: from qi023_wangjian_witnesses import errors as qi23_source_errors
             errors.extend(qi23_source_errors(d,root))
+            try: from scripts.pei_royal_biographies import errors as pei_source_errors
+            except ImportError: from pei_royal_biographies import errors as pei_source_errors
+            errors.extend(pei_source_errors(d,root))
             try:
                 from scripts.nanshi022_print import errors as nanshi022_print_errors
             except ImportError:
@@ -1710,6 +1713,12 @@ def _validate_uncached(root=ROOT):
                     except ImportError:
                         from literal_family_reports import kinship_valid
                     check(kinship_valid(a, paragraphs, chapters, root), '逐字親屬句須有同源正文層、雙端角色與完整固定raw，不補父代或排行')
+                pei_valid = False
+                if 'pei_kin_frame' in qualifiers:
+                    try: from scripts.pei_royal_biographies import kin_valid as pei_kin_valid
+                    except ImportError: from pei_royal_biographies import kin_valid as pei_kin_valid
+                    pei_valid=pei_kin_valid(a,chapters[d['chapter_id']],root)
+                    check(pei_valid,'裴后與兩妃的原文身分、父母及婚配方向不合')
                 qi23_valid = False
                 if 'qi23_kin_frame' in qualifiers:
                     try: from scripts.qi023_wangjian_witnesses import kin_valid as qi23_kin_valid
@@ -1772,7 +1781,7 @@ def _validate_uncached(root=ROOT):
                         from scripts.non_parental_family import non_parental_relation_valid
                     except ModuleNotFoundError:
                         from non_parental_family import non_parental_relation_valid
-                    check(qi23_valid or non_parental_relation_valid(a, paragraphs, family_relations), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
+                    check(pei_valid or qi23_valid or non_parental_relation_valid(a, paragraphs, family_relations), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
                 if a['predicate'] == 'agnatic_senior_kin':
                     check('kinship_structure' in qualifiers, '父系晚一代稱謂缺少世代結構')
                 if a['predicate'] == 'maternal_cousin':
@@ -1846,7 +1855,7 @@ def _validate_uncached(root=ROOT):
                         from scripts.uncle_parentage import explicit_maternal_uncle_valid
                     except ImportError:
                         from uncle_parentage import explicit_maternal_uncle_valid
-                    check((qualifiers.get('source_term') == '姊子'
+                    check(pei_valid or (qualifiers.get('source_term') == '姊子'
                           and qualifiers.get('generation_difference') == -1
                           and qualifiers.get('lineage') == 'maternal'
                           and qualifiers.get('mother_person_id') is None
@@ -1886,7 +1895,7 @@ def _validate_uncached(root=ROOT):
                         from scripts.maternal_roles import maternal_role_valid
                     except ImportError:
                         from maternal_roles import maternal_role_valid
-                    check(qi23_valid or maternal_role_valid(a, paragraphs), '母親稱謂須有原詞及雙人物錨點，不得推生母或父親')
+                    check(pei_valid or qi23_valid or maternal_role_valid(a, paragraphs), '母親稱謂須有原詞及雙人物錨點，不得推生母或父親')
                 if a['predicate'] == 'adoptive_mother':
                     check('所母' in qualifiers.get('source_term', '') and any(qualifiers.get('source_term', '') in e.get('quote', '') for e in a['evidence']), '所母關係須保存原詞，不得由一般母稱推定')
                 if a['predicate'] == 'stepmother':
@@ -2128,6 +2137,11 @@ def _validate_uncached(root=ROOT):
                     if hit:
                         local={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'}
                         if adjacent is None:
+                            if qualifiers.get('reading_basis', {}).get('kind') == 'wangzhan_wife_and_children':
+                                try: from scripts.liang021_wangzhan_kin import wife_valid as zhan_wife_valid
+                                except ImportError: from liang021_wangzhan_kin import wife_valid as zhan_wife_valid
+                                check(zhan_wife_valid(a, e, chapters[e['chapter_id']]), '王瞻之妻須與同句妻子合稱及丈夫字位相符')
+                                continue
                             if qualifiers.get('reading_basis', {}).get('kind') == 'mourning_of_unnamed_mother_while_accompanying_a_prince':
                                 try: from scripts.song042_mother_mourning import valid as mourning_mother_valid
                                 except ImportError: from song042_mother_mourning import valid as mourning_mother_valid
@@ -2159,6 +2173,8 @@ def _validate_uncached(root=ROOT):
                                 try: from scripts.wyd_song071_wang import kin_valid as wyd71_kin_valid
                                 except ImportError: from wyd_song071_wang import kin_valid as wyd71_kin_valid
                                 check(wyd71_kin_valid(a, chapters[d['chapter_id']], root), '宋卷71殿本的兩端必須確合該欄的姓名、稱號及親屬方向')
+                            elif 'pei_kin_frame' in qualifiers:
+                                check(pei_valid,'具名及稱謂的雙人原字不合')
                             elif 'qi23_kin_frame' in qualifiers:
                                 check(qi23_valid,'王儉親屬陳述的原文端點不合')
                             elif 'ws_song071_kin_frame' in qualifiers:
@@ -2733,6 +2749,11 @@ def _validate_uncached(root=ROOT):
                             except ImportError:from layered_biography_titles import death_context_valid
                             carried_subject=death_context_valid(context,event,chapters[record['chapter_id']],evidence)
                         check(carried_subject, '生卒主語承接須有近前同篇人物錨點、引句及完整中間段落')
+                    if event['id'] in ('le-nanshi-011-peihuizhao-pei', 'le-nanqishu-020-peihuizhao-pei', 'le-nanqishu-002-peihuizhao-death-pei', 'le-nanshi-042-yuzhang-wangfei-yi', 'le-nanshi-042-yuzhang-wangfei-yu', 'le-songshu-052-yuantan-line-ji'):
+                        try: from scripts.pei_royal_biographies import death_valid as pei_death_valid
+                        except ImportError: from pei_royal_biographies import death_valid as pei_death_valid
+                        carried_subject=pei_death_valid(event,evidence,chapters[record['chapter_id']],root)
+                        check(carried_subject,'裴后及其親屬死亡字位與具名或稱謂原證不合')
                     if event['id']=='le-nanqi023-taizu':
                         try: from scripts.qi023_wangjian_witnesses import death_subject_valid as qi23_death_subject_valid
                         except ImportError: from qi023_wangjian_witnesses import death_subject_valid as qi23_death_subject_valid

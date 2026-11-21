@@ -6,11 +6,57 @@
   "identity_note": "四晉完整選定單元來源內身份暫定；不把近似人名、同姓、遠祖報說變成近親或同人。",
   "review": "ai_provisional",
   "names": [
-    "袁豹"
+    "袁豹",
+    "豹",
+    "士蔚"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 52,
+      "category": "",
+      "title": "袁豹洵顗覬世系",
+      "paragraph_id": "c-songshu-052-yuantan-line:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "湛弟豹字士蔚",
+      "paragraph_ids": [
+        "c-songshu-052-yuantan-line:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-052-yuantan-line:p001:m0002",
+        "c-songshu-052-yuantan-line:p001:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-052-yuantan-line:p001:m0002": "c-songshu-052-yuantan-line:p001",
+        "c-songshu-052-yuantan-line:p001:m0004": "c-songshu-052-yuantan-line:p001"
+      },
+      "mention_id": "c-songshu-052-yuantan-line:p001:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-052-yuantan-line:p001:m0002",
+          "mention_ids": [
+            "c-songshu-052-yuantan-line:p001:m0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-052-yuantan-line:p001:m0004",
+          "mention_ids": [
+            "c-songshu-052-yuantan-line:p001:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-052",
+      "chapter_id": "c-songshu-052-yuantan-line",
+      "source_id": "s-songshu-052-yuantan-line-ws2190655",
+      "work_title": "宋書"
+    },
     {
       "number": 99,
       "category": "",
@@ -79,18 +125,120 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-songshu-052-yuantan-line",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-052",
+      "source_id": "s-songshu-052-yuantan-line-ws2190655",
+      "source": {
+        "title": "宋書/卷52·袁豹洵顗覬世系",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/wiki/宋書/卷52",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=宋書/卷52&oldid=2190655",
+        "edition": "固定數位見證",
+        "revision_id": 2190655,
+        "accessed_on": "2026-11-21",
+        "text_scope": "partial_chapter",
+        "extent": "所引親屬或紀年句",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/jin079-lang-zhong-xuan-dai/external/song052-ws2190655.wikitext",
+        "raw_file_sha256": "5afe94508cf8a62e351428f22721cad2eb99a309992e0eefa204456b54d327af",
+        "rights": "原典本文及可追溯校記",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保留傳本文字及今本補字方括；排版界符和另存的校記依原字位投影。"
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-songshu-052-yuantan-line-father-xun",
+      "subject_person_id": "xxh_xtr_3f9_A",
+      "object_person_id": "xxh_xtr_3f9",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子洵",
+        "pei_kin_frame": "father-xun",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-yuantan-line-ws2190655",
+          "chapter_id": "c-songshu-052-yuantan-line",
+          "paragraph_id": "c-songshu-052-yuantan-line:p002",
+          "quote": "子洵",
+          "subject_person_mention_id": "c-songshu-052-yuantan-line:p002:m0001"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-yuantan-line-ws2190655",
+          "chapter_id": "c-songshu-052-yuantan-line",
+          "paragraph_id": "c-songshu-052-yuantan-line:p001",
+          "quote": "湛弟豹字士蔚",
+          "object_person_mention_id": "c-songshu-052-yuantan-line:p001:m0002"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "xxh_xtr_3f9": "袁豹"
+    "xxh_xtr_3f9": "袁豹",
+    "xxh_xtr_3f9_A": "袁洵"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "xxh_xtr_3f9"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-songshu-052-yuantan-line-father-xun",
+      "subject_person_id": "xxh_xtr_3f9_A",
+      "object_person_id": "xxh_xtr_3f9",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子洵",
+        "pei_kin_frame": "father-xun",
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-yuantan-line-ws2190655",
+          "chapter_id": "c-songshu-052-yuantan-line",
+          "paragraph_id": "c-songshu-052-yuantan-line:p002",
+          "quote": "子洵",
+          "subject_person_mention_id": "c-songshu-052-yuantan-line:p002:m0001"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-052",
+          "source_id": "s-songshu-052-yuantan-line-ws2190655",
+          "chapter_id": "c-songshu-052-yuantan-line",
+          "paragraph_id": "c-songshu-052-yuantan-line:p001",
+          "quote": "湛弟豹字士蔚",
+          "object_person_mention_id": "c-songshu-052-yuantan-line:p001:m0002"
+        }
+      ],
+      "interpretation_note": "依固定原句核對稱謂及親屬方向。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

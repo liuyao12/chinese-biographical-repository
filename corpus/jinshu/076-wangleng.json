@@ -58,7 +58,7 @@
       "id": "c-jinshu-076-wangleng:line092",
       "text": "棱字文子，彬季父國子祭酒琛之子也。少曆清官。渡江，為元帝丞相從事中郎。從兄導以棱有政事，宜守大郡，乃出為豫章太守，加廣武將軍。棱知從兄敦驕傲自負，有罔上心，日夕諫諍，以為宜自抑損，推崇盟主，且群從一門，並相與服事，應務相崇高，以隆勳業。每言苦切。敦不能容，潛使人害之。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-076-wangleng:line092:m0000",
@@ -162,7 +162,7 @@
       "id": "c-jinshu-076-wangleng:line094",
       "text": "弟侃，亦知名，少曆顯職，位至吳國內史。",
       "text_layer": "received_chapter",
-      "annotation_status": "in_progress",
+      "annotation_status": "reviewed",
       "mentions": [
         {
           "id": "c-jinshu-076-wangleng:line094:m0001",
@@ -183,7 +183,7 @@
     }
   ],
   "annotation": {
-    "status": "in_progress",
+    "status": "reviewed",
     "reviewer": "Codex（AI 代理）",
     "model": null,
     "human_reviewed": false,
@@ -191,6 +191,25 @@
     "limitations": [
       "未核影像；棱／稜等數位見證異字另存，不默改正文。",
       "親屬關係保留各自原段及相鄰承接，不補同母關係。"
+    ],
+    "person_reference_occurrences": [
+      {
+        "id": "c-jinshu-076-wangleng:line092:r-harmed",
+        "paragraph_id": "c-jinshu-076-wangleng:line092",
+        "start": 132,
+        "end": 133,
+        "surface": "之",
+        "person_id": "7r6_k52_qji_ABFA",
+        "referent_role": "third_person",
+        "quote": "敦不能容，潛使人害之。",
+        "note": "敦遣人殺棱，未明遣使姓名。"
+      }
+    ],
+    "reviewed_unit_evidence": [
+      {
+        "unit": "王棱、王侃",
+        "path": "source-evidence/jin076-wang-leng-kan/reading.json"
+      }
     ]
   },
   "text_sha256": "4adbea8759b6423cfa6e769ae5cf9b597358b576c56d0156f996df93b021d3e0"

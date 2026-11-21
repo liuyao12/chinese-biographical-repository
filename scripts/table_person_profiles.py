@@ -100,7 +100,10 @@ def build(root=ROOT, person_ids=None):
         for cell in cells:
             surface = cell['mention']['surface']
             if surface not in names: names.append(surface)
-        profile={'schema_version':1,'id':pid,'canonical_person_id':b['canonical_person_id'],'label':people.get(pid, {}).get('label', next((p['label'] for p in b['persons'] if p['id'] == pid), pid)),'identity_note':people.get(pid, {}).get('identity_note'),'review':'ai_provisional','names':names,'titles':titles,'addresses':addresses,'occurrences':occurrences,'table_occurrences':cells,'sources':b['sources'],'relations':[x for x in b['relations'] if x['subject_person_id'] in own],'related_people':{p['id']:p['label'] for p in b['persons']},'dates':[x for x in b['date_normalizations'] if x.get('person_id') in own]}
+        representative = b.get('assembled_identity', {}).get('representative_source_person_id', pid)
+        person = people.get(pid) or people.get(representative, {})
+        label = person.get('label') or next((p['label'] for p in b['persons'] if p['id'] == representative), pid)
+        profile={'schema_version':1,'id':pid,'canonical_person_id':b['canonical_person_id'],'label':label,'identity_note':person.get('identity_note'),'review':'ai_provisional','names':names,'titles':titles,'addresses':addresses,'occurrences':occurrences,'table_occurrences':cells,'sources':b['sources'],'relations':[x for x in b['relations'] if x['subject_person_id'] in own],'related_people':{p['id']:p['label'] for p in b['persons']},'dates':[x for x in b['date_normalizations'] if x.get('person_id') in own]}
         if people.get(pid, {}).get('historicity') == 'legendary_tradition':
             profile['historicity'] = 'legendary_tradition'
         preferred_readings = [dict(d['preferred_reading'], decision_id=d['id']) for d in b.get('identity_decisions', []) if d.get('preferred_reading')]
