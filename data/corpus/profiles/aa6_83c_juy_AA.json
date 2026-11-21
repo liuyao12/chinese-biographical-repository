@@ -60,6 +60,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-nanshi019-xiehui-14-49",
+      "person_id": "aa6_83c_juy_AA",
+      "title": "東陽太守",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi019-xiehui-14-49:a",
+          "paragraph_id": "c-nanshi-019-xiehui:p001",
+          "start": 49,
+          "end": 53,
+          "surface": "東陽太守",
+          "person_mention_id": "c-nanshi-019-xiehui:p001:m0042",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-xiehui",
+          "source_id": "s-nanshi-019-xiehui-ws1531762",
+          "paragraph_id": "c-nanshi-019-xiehui:p001",
+          "quote": "謝晦，字宣明，陳郡陽夏人，晉太常裒之玄孫也。裒子奕、據、安、萬、鐵，幷著名前史。據子朗，字長度，位東陽太守。朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+          "person_mention_id": "c-nanshi-019-xiehui:p001:m0042"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-songshu044-family-025",
       "person_id": "aa6_83c_juy_AA",
       "title": "東陽太守",
@@ -144,6 +192,59 @@
     }
   ],
   "occurrences": [
+    {
+      "number": 19,
+      "category": "",
+      "title": "謝晦傳",
+      "paragraph_id": "c-nanshi-019-xiehui:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "陳郡陽夏人，晉太常裒之玄孫也。裒子奕、據、安、萬、鐵，幷著名前史。據子朗，字長度，位東陽太守。朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+      "paragraph_ids": [
+        "c-nanshi-019-xiehui:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-019-xiehui:p001:m0042",
+        "c-nanshi-019-xiehui:p001:m0045",
+        "c-nanshi-019-xiehui:p001:m0054"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-019-xiehui:p001:m0042": "c-nanshi-019-xiehui:p001",
+        "c-nanshi-019-xiehui:p001:m0045": "c-nanshi-019-xiehui:p001",
+        "c-nanshi-019-xiehui:p001:m0054": "c-nanshi-019-xiehui:p001"
+      },
+      "mention_id": "c-nanshi-019-xiehui:p001:m0042",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-019-xiehui:p001:m0042",
+          "mention_ids": [
+            "c-nanshi-019-xiehui:p001:m0042"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-019-xiehui:p001:m0045",
+          "mention_ids": [
+            "c-nanshi-019-xiehui:p001:m0045"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-019-xiehui:p001:m0054",
+          "mention_ids": [
+            "c-nanshi-019-xiehui:p001:m0054"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-019",
+      "chapter_id": "c-nanshi-019-xiehui",
+      "source_id": "s-nanshi-019-xiehui-ws1531762",
+      "work_title": "南史"
+    },
     {
       "number": 19,
       "category": "",
@@ -1035,6 +1136,34 @@
       }
     },
     {
+      "chapter_id": "c-nanshi-019-xiehui",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-019",
+      "source_id": "s-nanshi-019-xiehui-ws1531762",
+      "source": {
+        "title": "南史卷十九·謝晦傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=南史/卷19&oldid=1531762",
+        "revision_id": 1531762,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位本；另以乾隆武英殿本逐處對讀。",
+        "extent": "逐讀第12行分題至第38行分題前。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "==謝晦{{*|裒玄孫}}==",
+        "raw_path": "sources/nanshi/nanshi019-ws1531762.wikitext",
+        "raw_file_sha256": "2f1bbb6150c723a3839e2f5a81f1a7522e3414465b8d8a11e23a164b43368964",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "正文移除維基單字不轉換標記的界符，保留范、爲、尙等原字符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanshi-019-xieyu-descendants",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-019",
@@ -1447,6 +1576,60 @@
       }
     },
     {
+      "id": "a-nanshi019-hui-lang",
+      "subject_person_id": "aa6_83c_juy_AA",
+      "object_person_id": "aa6_83c_juy_A",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "據子朗",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-xiehui",
+          "source_id": "s-nanshi-019-xiehui-ws1531762",
+          "paragraph_id": "c-nanshi-019-xiehui:p001",
+          "quote": "謝晦，字宣明，陳郡陽夏人，晉太常裒之玄孫也。裒子奕、據、安、萬、鐵，幷著名前史。據子朗，字長度，位東陽太守。朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+          "subject_person_mention_id": "c-nanshi-019-xiehui:p001:m0042",
+          "object_person_mention_id": "c-nanshi-019-xiehui:p001:m0040"
+        }
+      ],
+      "interpretation_note": "據本句直書父子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi019-hui-chong",
+      "subject_person_id": "aa6_83c_juy_AAA",
+      "object_person_id": "aa6_83c_juy_AA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "朗子重",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-xiehui",
+          "source_id": "s-nanshi-019-xiehui-ws1531762",
+          "paragraph_id": "c-nanshi-019-xiehui:p001",
+          "quote": "謝晦，字宣明，陳郡陽夏人，晉太常裒之玄孫也。裒子奕、據、安、萬、鐵，幷著名前史。據子朗，字長度，位東陽太守。朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+          "subject_person_mention_id": "c-nanshi-019-xiehui:p001:m0056",
+          "object_person_mention_id": "c-nanshi-019-xiehui:p001:m0054"
+        }
+      ],
+      "interpretation_note": "據本句直書父子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanshi019-yun-lang-younger",
       "subject_person_id": "aa6_83c_juy_AB",
       "object_person_id": "aa6_83c_juy_AA",
@@ -1793,6 +1976,60 @@
         "human_reviewed": false,
         "rationale": "謝朗完整附傳後接子重；固定原行之間只有另存的數位節題與空行，未略去其他傳文，不以節題補父親。"
       }
+    },
+    {
+      "id": "a-nanshi019-hui-lang",
+      "subject_person_id": "aa6_83c_juy_AA",
+      "object_person_id": "aa6_83c_juy_A",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "據子朗",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-xiehui",
+          "source_id": "s-nanshi-019-xiehui-ws1531762",
+          "paragraph_id": "c-nanshi-019-xiehui:p001",
+          "quote": "謝晦，字宣明，陳郡陽夏人，晉太常裒之玄孫也。裒子奕、據、安、萬、鐵，幷著名前史。據子朗，字長度，位東陽太守。朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+          "subject_person_mention_id": "c-nanshi-019-xiehui:p001:m0042",
+          "object_person_mention_id": "c-nanshi-019-xiehui:p001:m0040"
+        }
+      ],
+      "interpretation_note": "據本句直書父子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-nanshi019-hui-chong",
+      "subject_person_id": "aa6_83c_juy_AAA",
+      "object_person_id": "aa6_83c_juy_AA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "朗子重",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-019",
+          "chapter_id": "c-nanshi-019-xiehui",
+          "source_id": "s-nanshi-019-xiehui-ws1531762",
+          "paragraph_id": "c-nanshi-019-xiehui:p001",
+          "quote": "謝晦，字宣明，陳郡陽夏人，晉太常裒之玄孫也。裒子奕、據、安、萬、鐵，幷著名前史。據子朗，字長度，位東陽太守。朗子重，字景重，位會稽王道子驃騎長史。重生絢、瞻、晦、㬭、遯。絢位至宋武帝鎮軍長史，早卒。",
+          "subject_person_mention_id": "c-nanshi-019-xiehui:p001:m0056",
+          "object_person_mention_id": "c-nanshi-019-xiehui:p001:m0054"
+        }
+      ],
+      "interpretation_note": "據本句直書父子。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-nanshi019-yun-lang-younger",

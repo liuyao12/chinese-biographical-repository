@@ -1,0 +1,238 @@
+{
+  "source_dates": [
+    {
+      "surface": "才年七歲",
+      "native_age": "age-jinshu075-荀羨-7",
+      "calendar_bounds": [
+        328,
+        328
+      ],
+      "kind": "parallel_context",
+      "witnesses": [
+        "stone-dating",
+        "stone-moving",
+        "stone-su-death"
+      ],
+      "note": "傳中隨父石頭與蘇峻相接。時點取石頭史事年，未系帝遷之日。"
+    },
+    {
+      "surface": "年十五",
+      "native_age": "age-jinshu075-荀羨-15",
+      "calendar_bounds": null,
+      "kind": "reported_age",
+      "note": "前置議婚；原句未給出嫁月份，婚年各條件另列。"
+    },
+    {
+      "surface": "弱冠",
+      "calendar_bounds": null,
+      "kind": "life_stage",
+      "note": "生命階段，無整年數值。"
+    },
+    {
+      "surface": "時年二十八",
+      "native_age": "age-jinshu075-荀羨-28",
+      "calendar_bounds": [
+        349,
+        349
+      ],
+      "month_lunisolar": 12,
+      "kind": "parallel_context",
+      "witnesses": [
+        "north-appointed",
+        "shi-shuo",
+        "pei-songzhi"
+      ],
+      "note": "以本紀任北中郎、徐州刺史之事對讀；不移用褚裒卒日。"
+    },
+    {
+      "surface": "鎮准陰",
+      "calendar_bounds": [
+        352,
+        352
+      ],
+      "month_lunisolar": 3,
+      "kind": "parallel_context",
+      "witnesses": [
+        "huai-post",
+        "ming-transmission"
+      ],
+      "note": "明代注文引晉中興書把二十八題在鎮淮隂；若另以本紀352年相合，虛歲325、周歲323至324，這項配合獨立於349北任。"
+    },
+    {
+      "surface": "先是，石季龍死",
+      "native_life_event": "le-jinshu075-石季龍-undated-death",
+      "calendar_bounds": [
+        349,
+        349
+      ],
+      "month_lunisolar": 4,
+      "kind": "independently_dated_retrojection",
+      "witnesses": [
+        "shi-death"
+      ]
+    },
+    {
+      "surface": "升平二年卒",
+      "native_life_event": "le-jinshu075-荀羨-death",
+      "calendar_bounds": [
+        358,
+        358
+      ],
+      "kind": "explicit_era_year",
+      "note": "紀又於同年十二月記荀羡戰山茌；若合讀兩條，卒應在該月戰後且在年內，月份為校讀條件，不更新原卒年月。",
+      "witnesses": [
+        "shanchi-battle"
+      ]
+    },
+    {
+      "surface": "時年三十八",
+      "native_age": "age-jinshu075-荀羨-38",
+      "calendar_bounds": [
+        358,
+        358
+      ],
+      "kind": "reported_age"
+    },
+    {
+      "surface": "在任十年",
+      "calendar_bounds": null,
+      "kind": "parallel_reported_duration",
+      "note": "裴注原語。349至358含起訖恰十曆年，不推滿十周年、官員解職確日。",
+      "witnesses": [
+        "pei-songzhi"
+      ]
+    }
+  ],
+  "birth_scenarios": [
+    {
+      "id": "stone",
+      "source": "stone-dating",
+      "assumption": "石頭幼年記事",
+      "event_year": 328,
+      "reported_age": 7,
+      "birth_if_inclusive_calendar": [
+        322,
+        322
+      ],
+      "birth_if_completed_years": [
+        320,
+        321
+      ],
+      "event_at_reported_age_15_if_inclusive": [
+        336,
+        336
+      ],
+      "event_at_reported_age_15_if_completed": [
+        335,
+        337
+      ]
+    },
+    {
+      "id": "jin-north",
+      "source": "north-appointed",
+      "assumption": "本傳北任及《世說》劉注、裴注",
+      "event_year": 349,
+      "reported_age": 28,
+      "birth_if_inclusive_calendar": [
+        322,
+        322
+      ],
+      "birth_if_completed_years": [
+        320,
+        321
+      ],
+      "event_at_reported_age_15_if_inclusive": [
+        336,
+        336
+      ],
+      "event_at_reported_age_15_if_completed": [
+        335,
+        337
+      ]
+    },
+    {
+      "id": "song-north",
+      "source": "song-recollection",
+      "assumption": "《宋書》謝澹追憶之北府都督，與北任暫對",
+      "event_year": 349,
+      "reported_age": 27,
+      "birth_if_inclusive_calendar": [
+        323,
+        323
+      ],
+      "birth_if_completed_years": [
+        321,
+        322
+      ],
+      "event_at_reported_age_15_if_inclusive": [
+        337,
+        337
+      ],
+      "event_at_reported_age_15_if_completed": [
+        336,
+        338
+      ]
+    },
+    {
+      "id": "nan-north",
+      "source": "nan-recollection",
+      "assumption": "《南史》謝澹追憶之北府都督，與北任暫對",
+      "event_year": 349,
+      "reported_age": 29,
+      "birth_if_inclusive_calendar": [
+        321,
+        321
+      ],
+      "birth_if_completed_years": [
+        319,
+        320
+      ],
+      "event_at_reported_age_15_if_inclusive": [
+        335,
+        335
+      ],
+      "event_at_reported_age_15_if_completed": [
+        334,
+        336
+      ]
+    },
+    {
+      "id": "death",
+      "source": "jin75-unit",
+      "assumption": "本傳卒年及報齡",
+      "event_year": 358,
+      "reported_age": 38,
+      "birth_if_inclusive_calendar": [
+        321,
+        321
+      ],
+      "birth_if_completed_years": [
+        319,
+        320
+      ],
+      "event_at_reported_age_15_if_inclusive": [
+        335,
+        335
+      ],
+      "event_at_reported_age_15_if_completed": [
+        334,
+        336
+      ]
+    }
+  ],
+  "selected_birth_year": null,
+  "selected_marriage_year": null,
+  "other_reported_ages": [
+    {
+      "path": "corpus/songshu/044-wyd1739.json",
+      "id": "age-song044-wyd-xun-recollection",
+      "value": 27
+    },
+    {
+      "path": "corpus/nanshi/019-dan19.json",
+      "id": "age-nanshi019-recollection",
+      "value": 29
+    }
+  ],
+  "assumptions": "含出生年法以曆年順數；周歲法生日和該事年內先後未傳。議婚之年將兩個報齡定在同一計歲法下逐案推算。"
+}

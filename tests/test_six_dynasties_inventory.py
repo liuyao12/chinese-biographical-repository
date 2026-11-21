@@ -2,12 +2,21 @@ import unittest
 import json
 from pathlib import Path
 
-from scripts.six_dynasties_inventory import chapter_passage, received_text, source_passage, verify
+from scripts.six_dynasties_inventory import chapter_passage, received_text, source_paragraphs, source_passage, verify
 from scripts.person_references import reference_errors
 from scripts.family_assemblies import registry_sibling_path_valid
 
 
 class SixDynastiesInventoryTest(unittest.TestCase):
+    def test_fixed_paragraph_indents_and_multi_paragraph_quote(self):
+        lines = ['　　疏曰：', '{{quote|　　甲。', '', '　　乙。}}', '　　乃止。']
+        self.assertEqual(source_paragraphs(lines, 'wikisource_indented_quote'), ['疏曰：', '甲。', '乙。', '乃止。'])
+        self.assertEqual(source_paragraphs(lines[:1]), ['　　疏曰：'])
+        with self.assertRaises(AssertionError):
+            source_paragraphs(lines[:2], 'wikisource_indented_quote')
+        with self.assertRaises(AssertionError):
+            source_paragraphs(['  甲。'], 'wikisource_indented_quote')
+
     def test_interrupted_account_preserves_both_headings_and_skips_the_other_subject(self):
         lines = ['==甲==', '甲傳首。', '===乙===', '乙傳。', '===甲續===', '甲傳末。']
         first = dict(heading_line=1, heading_raw=lines[0], first_line=2, last_line=2,

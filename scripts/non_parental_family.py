@@ -2,6 +2,12 @@
 
 
 def non_parental_relation_valid(assertion, paragraphs, assertions=None):
+    if assertion.get('qualifiers', {}).get('succession_kind') == 'ji_named_predecessor_hou':
+        try:
+            from scripts.jin079_shang_xuan import kin_valid as checked
+        except ImportError:
+            from jin079_shang_xuan import kin_valid as checked
+        return checked(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('care_basis') == 'orphan_reared_by_named_uncle_wife':
         try:from scripts.nanshi019_zhan_roles import kin_valid
         except ImportError:from nanshi019_zhan_roles import kin_valid

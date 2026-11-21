@@ -1,5 +1,11 @@
 """A complete received son/heir/supplied-son chain binds 國除 to its last heir."""
 def valid(event, paragraphs):
+ if event.get('source_clause_binding', {}).get('kind') == 'jin079_shang_xuan_heirs':
+     try:
+         from scripts.jin079_shang_xuan import succession_valid as checked
+     except ImportError:
+         from jin079_shang_xuan import succession_valid as checked
+     return checked(event, paragraphs)
  if event.get('source_clause_binding',{}).get('kind') == 'jin079_shi_heirs':
   try:from scripts.jin079_shi_heirs import valid as shi_heirs_valid
   except ImportError:from jin079_shi_heirs import valid as shi_heirs_valid

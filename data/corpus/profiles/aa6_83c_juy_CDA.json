@@ -7597,6 +7597,29 @@
   "age_assertions": [],
   "life_events": [
     {
+      "id": "le-jin079-shang-xuan-105-1",
+      "person_id": "aa6_83c_juy_CDA",
+      "event_type": "death",
+      "source_term": "早卒",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xiexuan-p013",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xiexuan-p013:m0001",
+          "quote": "子瑍嗣，秘書郎，早卒。子靈運嗣。瑍少不惠，而靈運文藻豔逸，玄嘗稱曰：「我尚生瑍，瑍那得生靈運！」永熙中，為劉裕世子左衛率。"
+        }
+      ],
+      "interpretation_note": "記此段具名死亡；未載具體年月日。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "le-nanshi019-lingyun-160-41",
       "person_id": "aa6_83c_juy_CDA",
       "event_type": "death",
@@ -7673,6 +7696,40 @@
         }
       ],
       "interpretation_note": "原文明死亡主語；早亡只存敘事、不補年。世平承子傳不承父426，瑍插敘不承瞻421；不把死亡作全部官職終日。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "person_events": [
+    {
+      "id": "ev-jin079-shang-xuan-huan",
+      "person_id": "aa6_83c_juy_CDA",
+      "event_type": "noble_title_succession",
+      "source_term": "嗣",
+      "date_expression": null,
+      "title": null,
+      "holding_id": null,
+      "mode": "accession",
+      "predecessor_person_id": "aa6_83c_juy_CD",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xiexuan-p013",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xiexuan-p013:m0001",
+          "quote": "子瑍嗣，秘書郎，早卒。子靈運嗣。瑍少不惠，而靈運文藻豔逸，玄嘗稱曰：「我尚生瑍，瑍那得生靈運！」永熙中，為劉裕世子左衛率。"
+        }
+      ],
+      "source_clause_binding": {
+        "kind": "jin079_shang_xuan_heirs",
+        "role": "huan",
+        "clause": "子瑍嗣"
+      },
+      "interpretation_note": "原句記襲爵、嗣爵。姓名稱呼與前後承接分核；所繼名號在單獨爵位斷言與讀記列存。",
+      "status": "source_attested",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
