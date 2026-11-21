@@ -3,6 +3,7 @@ import {sourceCitation} from './source-caption.js';
 import {workMentionHTML} from './work-titles.js';
 import {nativeProfileReturn} from './native-table-links.js';
 import {escapeHTML as h} from './core.js';
+import {ui} from './i18n.js';
 export function chapterURL(number, category = '', passage = '') {
   const p = new URLSearchParams({chapter: String(number)});
   if (category) p.set('category', category);
@@ -21,6 +22,32 @@ export function sourcePassageURL(source) {
   const number = source.number || Number(/shiji-(\d{3})/.exec(source.chapter_id || '')?.[1]);
   return number ? chapterURL(number,source.category || '',source.paragraph_id || '') : '';
 }
+
+export function facsimilePageLinks(source, position) {
+  if (source?.image_verified !== true || !position?.column_projection?.length) return '';
+  let pdf;
+  try {
+    pdf = new URL(source.url);
+    if (pdf.protocol !== 'https:' || !pdf.pathname.toLowerCase().endsWith('.pdf')) return '';
+    if (pdf.hostname === 'commons.wikimedia.org' && pdf.pathname.startsWith('/wiki/File:')) {
+      const file = decodeURIComponent(pdf.pathname.slice('/wiki/File:'.length));
+      pdf = new URL('https://commons.wikimedia.org/wiki/Special:FilePath/' + encodeURIComponent(file));
+    } else if (pdf.hostname !== 'upload.wikimedia.org') {
+      return '';
+    }
+  } catch {
+    return '';
+  }
+  const pages = new Set(position.column_projection.map(part => part.pdf_page)
+    .filter(page => Number.isInteger(page) && page > 0));
+  if (!pages.size) return '';
+  const links = Array.from(pages, page => {
+    pdf.hash = 'page=' + page;
+    return `<a href="${h(pdf.href)}" target="_blank" rel="noopener">${ui('Facsimile page {page}', {page})} ↗</a>`;
+  });
+  return `<small class="facsimile-page-links">${links.join(' · ')}</small>`;
+}
+
 export function profileSourceContext(person, params) {
   const table=nativeProfileReturn(person,params);
   if(table)return table;
