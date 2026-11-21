@@ -99,6 +99,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-044-luzhi",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-luzhi",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「珽子志」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-luzhi/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-098-jin033-wangji",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-098",
@@ -130,9 +157,27 @@
   ],
   "relations": [],
   "related_people": {
-    "8ew_suo_y03": "劉陶〔揚州刺史〕"
+    "8ew_suo_y03": "劉陶〔揚州刺史〕",
+    "icd_he2_xzh": "劉陶〔南中郎將〕"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "ic-jin044-liutao",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "icd_he2_xzh",
+        "8ew_suo_y03"
+      ],
+      "paragraph_ids": [
+        "c-jinshu-044-luzhi:line064",
+        "c-jinshu-098-jin033-wangji:line013"
+      ],
+      "note": "成都王傳稱南中郎將；王敦傳所及的揚州刺史姓名相同，尚缺直接履歷橋接。",
+      "chapter_id": "c-jinshu-044-luzhi",
+      "source_id": "s-jinshu-044-luzhi"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "8ew_suo_y03"

@@ -12,6 +12,62 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-044-cuiyue-wuying",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-cuiyue-wuying",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "國圖藏武英殿刊本第12冊影印，據書影錄字",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/NLC016-HWRB201817005-3303_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC12%E5%86%8A.pdf#page=76",
+        "permalink": "https://upload.wikimedia.org/wikipedia/commons/c/ce/NLC016-HWRB201817005-3303_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC12%E5%86%8A.pdf#page=76",
+        "edition": "清乾隆武英殿本，商務影印，第12冊。",
+        "revision_id": null,
+        "accessed_on": "2026-11-21",
+        "extent": "卷四十四十一下右起第8–10欄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": true,
+        "rights": "古代刊本書影及所錄原文。",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "image_witnesses": [
+          {
+            "path": "source-evidence/jin044-luchen-cuiyue/print/wuying12-76.jpg",
+            "pdf_page": 76,
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/NLC016-HWRB201817005-3303_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC12%E5%86%8A.pdf#page=76",
+            "sha256": "85c26bbab84926d17a62e39092d27fc420cee65fa28448b9b17f8ae861904598"
+          }
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-044-luchen",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-luchen",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「志子諶」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-luchen-cuiyue/reading.json"
+        ]
+      }
+    },
+    {
       "chapter_id": "c-jinshu-067-wenqiao",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-067",
@@ -41,6 +97,101 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-w044-luchen-printed_zhi",
+      "subject_person_id": "yd9_rqt_a0v",
+      "object_person_id": "u2c_s89_qh6",
+      "predicate": "kinship_unspecified",
+      "qualifiers": {
+        "source_term": "劉琨妻之姪也",
+        "source_clause_binding": {
+          "kind": "jin044_family",
+          "rule": "printed_zhi"
+        },
+        "kinship_basis": "woman_calls_zhi",
+        "named_intermediate_parent": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-cuiyue-wuying",
+          "source_id": "s-jinshu-044-cuiyue-wuying",
+          "paragraph_id": "c-jinshu-044-cuiyue-wuying:p001",
+          "quote": "悅字道儒魏司空林曾孫劉琨妻之姪也與諶俱為琨司空從事中郎後為末波佐史沒石氏亦居大官",
+          "subject_person_mention_id": "c-jinshu-044-cuiyue-wuying:p001:m0000",
+          "object_reference_id": "c-jinshu-044-cuiyue-wuying:p001:r0012"
+        }
+      ],
+      "interpretation_note": "刊本明載姪稱，兩端為崔悅與劉琨妻；原句沒有具名中間親代。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w044-luchen-registered_maternal_aunt",
+      "subject_person_id": "m8n_ntm_79h_ABBA",
+      "object_person_id": "u2c_s89_qh6",
+      "predicate": "maternal_aunt",
+      "qualifiers": {
+        "source_term": "琨妻即諶之從母",
+        "source_clause_binding": {
+          "kind": "jin044_family",
+          "rule": "registered_maternal_aunt"
+        },
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luchen",
+          "source_id": "s-jinshu-044-luchen",
+          "paragraph_id": "c-jinshu-044-luchen:line067",
+          "quote": "諶字子諒，清敏有理思，好《老》《莊》，善屬文。選尚武帝女滎陽公主，拜駙馬都尉，未成禮而公主卒。後州舉秀才，辟太尉掾。洛陽沒，隨志北依劉琨，與志俱為劉粲所虜。粲據晉陽，留諶為參軍。琨收散卒，引猗盧騎還攻粲。粲敗走，諶得赴琨，先父母兄弟在平陽者，悉為劉聰所害。琨為司空，以諶為主薄，轉從事中郎。琨妻即諶之從母，既加親愛，又重其才地。",
+          "subject_person_mention_id": "c-jinshu-044-luchen:line067:m0148",
+          "object_reference_id": "c-jinshu-044-luchen:line067:r0150"
+        }
+      ],
+      "interpretation_note": "依本見證兩端及劉琨妻在卷六十七的同一稱謂查核。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w044-luchen-registered_wife",
+      "subject_person_id": "b21_e55_8bd",
+      "object_person_id": "u2c_s89_qh6",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "琨妻",
+        "source_clause_binding": {
+          "kind": "jin044_family",
+          "rule": "registered_wife"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luchen",
+          "source_id": "s-jinshu-044-luchen",
+          "paragraph_id": "c-jinshu-044-luchen:line067",
+          "quote": "諶字子諒，清敏有理思，好《老》《莊》，善屬文。選尚武帝女滎陽公主，拜駙馬都尉，未成禮而公主卒。後州舉秀才，辟太尉掾。洛陽沒，隨志北依劉琨，與志俱為劉粲所虜。粲據晉陽，留諶為參軍。琨收散卒，引猗盧騎還攻粲。粲敗走，諶得赴琨，先父母兄弟在平陽者，悉為劉聰所害。琨為司空，以諶為主薄，轉從事中郎。琨妻即諶之從母，既加親愛，又重其才地。",
+          "subject_person_mention_id": "c-jinshu-044-luchen:line067:m0145",
+          "object_reference_id": "c-jinshu-044-luchen:line067:r0146"
+        }
+      ],
+      "interpretation_note": "依本見證兩端及劉琨妻在卷六十七的同一稱謂查核。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-w067-liukun-aunt-spouse",
       "subject_person_id": "b21_e55_8bd",
@@ -106,11 +257,58 @@
   "related_people": {
     "6v8_pk9_7k5": "溫嶠",
     "b21_e55_8bd": "劉琨",
-    "u2c_s89_qh6": "劉琨妻〔溫嶠從母〕"
+    "m8n_ntm_79h_ABBA": "盧諶",
+    "u2c_s89_qh6": "劉琨妻〔溫嶠從母〕",
+    "yd9_rqt_a0v": "悦〔玄伯祖，北史作悅〕"
   },
   "dates": [],
   "name_components": [],
   "person_references": [
+    {
+      "id": "c-jinshu-044-cuiyue-wuying:p001:r0012",
+      "paragraph_id": "c-jinshu-044-cuiyue-wuying:p001",
+      "start": 12,
+      "end": 13,
+      "surface": "妻",
+      "person_id": "u2c_s89_qh6",
+      "referent_role": "third_person",
+      "quote": "悅字道儒魏司空林曾孫劉琨妻之姪也與諶俱為琨司空從事",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-044-cuiyue-wuying",
+      "book_id": "b-jinshu-044",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-044-cuiyue-wuying"
+    },
+    {
+      "id": "c-jinshu-044-luchen:line067:r0146",
+      "paragraph_id": "c-jinshu-044-luchen:line067",
+      "start": 146,
+      "end": 147,
+      "surface": "妻",
+      "person_id": "u2c_s89_qh6",
+      "referent_role": "third_person",
+      "quote": "諶為主薄，轉從事中郎。琨妻即諶之從母，既加親愛，又",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-044-luchen",
+      "book_id": "b-jinshu-044",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-044-luchen"
+    },
+    {
+      "id": "c-jinshu-044-luchen:line067:r0150",
+      "paragraph_id": "c-jinshu-044-luchen:line067",
+      "start": 150,
+      "end": 152,
+      "surface": "從母",
+      "person_id": "u2c_s89_qh6",
+      "referent_role": "third_person",
+      "quote": "，轉從事中郎。琨妻即諶之從母，既加親愛，又重其才地。",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-044-luchen",
+      "book_id": "b-jinshu-044",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-044-luchen"
+    },
     {
       "id": "c-jinshu-067-wenqiao:line014:r0007",
       "paragraph_id": "c-jinshu-067-wenqiao:line014",
@@ -146,6 +344,101 @@
     "u2c_s89_qh6"
   ],
   "preferred_relations": [
+    {
+      "id": "a-w044-luchen-printed_zhi",
+      "subject_person_id": "yd9_rqt_a0v",
+      "object_person_id": "u2c_s89_qh6",
+      "predicate": "kinship_unspecified",
+      "qualifiers": {
+        "source_term": "劉琨妻之姪也",
+        "source_clause_binding": {
+          "kind": "jin044_family",
+          "rule": "printed_zhi"
+        },
+        "kinship_basis": "woman_calls_zhi",
+        "named_intermediate_parent": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-cuiyue-wuying",
+          "source_id": "s-jinshu-044-cuiyue-wuying",
+          "paragraph_id": "c-jinshu-044-cuiyue-wuying:p001",
+          "quote": "悅字道儒魏司空林曾孫劉琨妻之姪也與諶俱為琨司空從事中郎後為末波佐史沒石氏亦居大官",
+          "subject_person_mention_id": "c-jinshu-044-cuiyue-wuying:p001:m0000",
+          "object_reference_id": "c-jinshu-044-cuiyue-wuying:p001:r0012"
+        }
+      ],
+      "interpretation_note": "刊本明載姪稱，兩端為崔悅與劉琨妻；原句沒有具名中間親代。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w044-luchen-registered_maternal_aunt",
+      "subject_person_id": "m8n_ntm_79h_ABBA",
+      "object_person_id": "u2c_s89_qh6",
+      "predicate": "maternal_aunt",
+      "qualifiers": {
+        "source_term": "琨妻即諶之從母",
+        "source_clause_binding": {
+          "kind": "jin044_family",
+          "rule": "registered_maternal_aunt"
+        },
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luchen",
+          "source_id": "s-jinshu-044-luchen",
+          "paragraph_id": "c-jinshu-044-luchen:line067",
+          "quote": "諶字子諒，清敏有理思，好《老》《莊》，善屬文。選尚武帝女滎陽公主，拜駙馬都尉，未成禮而公主卒。後州舉秀才，辟太尉掾。洛陽沒，隨志北依劉琨，與志俱為劉粲所虜。粲據晉陽，留諶為參軍。琨收散卒，引猗盧騎還攻粲。粲敗走，諶得赴琨，先父母兄弟在平陽者，悉為劉聰所害。琨為司空，以諶為主薄，轉從事中郎。琨妻即諶之從母，既加親愛，又重其才地。",
+          "subject_person_mention_id": "c-jinshu-044-luchen:line067:m0148",
+          "object_reference_id": "c-jinshu-044-luchen:line067:r0150"
+        }
+      ],
+      "interpretation_note": "依本見證兩端及劉琨妻在卷六十七的同一稱謂查核。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w044-luchen-registered_wife",
+      "subject_person_id": "b21_e55_8bd",
+      "object_person_id": "u2c_s89_qh6",
+      "predicate": "spouse",
+      "qualifiers": {
+        "source_term": "琨妻",
+        "source_clause_binding": {
+          "kind": "jin044_family",
+          "rule": "registered_wife"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luchen",
+          "source_id": "s-jinshu-044-luchen",
+          "paragraph_id": "c-jinshu-044-luchen:line067",
+          "quote": "諶字子諒，清敏有理思，好《老》《莊》，善屬文。選尚武帝女滎陽公主，拜駙馬都尉，未成禮而公主卒。後州舉秀才，辟太尉掾。洛陽沒，隨志北依劉琨，與志俱為劉粲所虜。粲據晉陽，留諶為參軍。琨收散卒，引猗盧騎還攻粲。粲敗走，諶得赴琨，先父母兄弟在平陽者，悉為劉聰所害。琨為司空，以諶為主薄，轉從事中郎。琨妻即諶之從母，既加親愛，又重其才地。",
+          "subject_person_mention_id": "c-jinshu-044-luchen:line067:m0145",
+          "object_reference_id": "c-jinshu-044-luchen:line067:r0146"
+        }
+      ],
+      "interpretation_note": "依本見證兩端及劉琨妻在卷六十七的同一稱謂查核。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-w067-liukun-aunt-spouse",
       "subject_person_id": "b21_e55_8bd",

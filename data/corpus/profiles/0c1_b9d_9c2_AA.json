@@ -6,9 +6,59 @@
   "identity_note": "固定卷十九楊脩單元內辨識；書信、引古與當事人物分域。未知父母、配偶、出生及年齡皆未補；不憑楊姓接遠祖。",
   "review": "ai_provisional",
   "names": [
-    "囂"
+    "囂",
+    "楊囂"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w044-luqin-27",
+      "person_id": "0c1_b9d_9c2_AA",
+      "title": "領典軍將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-044",
+          "chapter_id": "c-jinshu-044-luqin",
+          "source_id": "s-jinshu-044-luqin",
+          "paragraph_id": "c-jinshu-044-luqin:line047",
+          "quote": "咸寧四年卒，詔曰：「欽履道清正，執德貞素。文武之稱，著于方夏。入躋機衡，惟允庶事。肆勤內外，有匪躬之節。不幸薨沒，朕甚悼之。其贈衛將軍、開府儀同三司，賜秘器、朝服一具、衣一襲、布五十匹、錢三十萬。」諡曰元。又以欽忠清高潔，不營產業，身沒之後，家無所庇，特賜錢五十萬，為立第舍。復下詔曰：「故司空王基、衛將軍盧欽、領典軍將軍楊囂，並素清貧，身沒之後，居無私積。頃者饑饉，聞其家大匱，其各賜穀三百斛。」欽曆宰州郡，不尚功名，唯以平理為務。祿俸散之親故，不營貲產。動循禮典，妻亡，制廬杖，終喪居外。所著詩賦論難數十篇，名曰《小道》。子浮嗣。",
+          "person_mention_id": "c-jinshu-044-luqin:line047:m0161"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-luqin-27:a",
+          "paragraph_id": "c-jinshu-044-luqin:line047",
+          "start": 156,
+          "end": 161,
+          "surface": "領典軍將軍",
+          "person_mention_id": "c-jinshu-044-luqin:line047:m0161",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -63,10 +113,72 @@
       "chapter_id": "c-sanguozhi-019-yangxiu",
       "source_id": "s-sanguozhi-019-yangxiu",
       "work_title": "三國志"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·盧欽傳",
+      "paragraph_id": "c-jinshu-044-luqin:line047",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "特賜錢五十萬，為立第舍。復下詔曰：「故司空王基、衛將軍盧欽、領典軍將軍楊囂，並素清貧，身沒之後，居無私積。頃者饑饉，聞其家大匱，其各賜穀三百斛。」欽曆宰州郡，不尚功名，唯以平理為務。祿俸散之親故，不營貲產。動循禮典，妻亡，制廬杖，終喪居外。所著詩賦論難數十篇，名曰《小道》。",
+      "paragraph_ids": [
+        "c-jinshu-044-luqin:line047"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-luqin:line047:m0161"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-luqin:line047:m0161": "c-jinshu-044-luqin:line047"
+      },
+      "mention_id": "c-jinshu-044-luqin:line047:m0161",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-luqin:line047:m0161",
+          "mention_ids": [
+            "c-jinshu-044-luqin:line047:m0161"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-luqin",
+      "source_id": "s-jinshu-044-luqin",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-044-luqin",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-luqin",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「盧欽」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-luqin-lufu-luting/reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-019-yangxiu",
       "work_id": "w-sanguozhi",

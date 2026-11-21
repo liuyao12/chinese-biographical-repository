@@ -147,6 +147,16 @@ def _direction(p, subjects, objects, term):
             if not contained:
                 continue
             for o in objects:
+                named_son_between = any(
+                    child.get('kind') == 'person' and child['start'] == o['end'] + 2
+                    and child['end'] + 1 == a and child['person_id'] not in (s['person_id'], o['person_id'])
+                    for child in p['mentions'])
+                if (hit[0] == '兄子' and s['start'] == b and term == t[a:s['end']]
+                        and o['start'] > 0 and t[o['start']-1:o['start']] in ('唯', '惟')
+                        and t[o['end']:o['end']+2] == '與子' and t[a-1:a] == '、'
+                        and named_son_between):
+                    return True
+            for o in objects:
                 if (o['end'] == a or (s['start'] == a - len(o['surface']) and s['surface'].startswith(o['surface'] + hit[0]))
                         or (o['end'] < a and t[o['end']:a] in ('乃使', '為'))
                         or (o['end'] < a and t[o['end']:a] == '以'

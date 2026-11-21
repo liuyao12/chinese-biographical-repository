@@ -6,7 +6,8 @@
   "identity_note": "固定卷十九楊脩單元內辨識；書信、引古與當事人物分域。未知父母、配偶、出生及年齡皆未補；不憑楊姓接遠祖。",
   "review": "ai_provisional",
   "names": [
-    "傅暢"
+    "傅暢",
+    "暢"
   ],
   "titles": [],
   "addresses": [],
@@ -45,10 +46,134 @@
       "chapter_id": "c-sanguozhi-019-yangxiu",
       "source_id": "s-sanguozhi-019-yangxiu",
       "work_title": "三國志"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·崔悅傳",
+      "paragraph_id": "c-jinshu-044-cuiyue:line074",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "也。與諶俱為琨司空從事中郎，後為末波佐史。沒石氏，亦居大官。其綽、憲、暢並別有傳。",
+      "paragraph_ids": [
+        "c-jinshu-044-cuiyue:line074"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-cuiyue:line074:m0053"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-cuiyue:line074:m0053": "c-jinshu-044-cuiyue:line074"
+      },
+      "mention_id": "c-jinshu-044-cuiyue:line074:m0053",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-cuiyue:line074:m0053",
+          "mention_ids": [
+            "c-jinshu-044-cuiyue:line074:m0053"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-cuiyue",
+      "source_id": "s-jinshu-044-cuiyue",
+      "work_title": "晉書"
+    },
+    {
+      "number": 44,
+      "category": "",
+      "title": "晉書卷四十四·盧諶傳",
+      "paragraph_id": "c-jinshu-044-luchen:line071",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "才高行潔，為一時所推。值中原喪亂，與清河崔悅、穎川荀綽、河東裴憲、北地傅暢並淪陷非所，雖俱顯于石氏，恆以為辱。諶每謂諸子曰：「吾身沒之後，但稱晉司空從事中郎爾。」撰《祭法》，注《莊子》，及文集，皆行於世。",
+      "paragraph_ids": [
+        "c-jinshu-044-luchen:line071"
+      ],
+      "mention_ids": [
+        "c-jinshu-044-luchen:line071:m0045"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-044-luchen:line071:m0045": "c-jinshu-044-luchen:line071"
+      },
+      "mention_id": "c-jinshu-044-luchen:line071:m0045",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-044-luchen:line071:m0045",
+          "mention_ids": [
+            "c-jinshu-044-luchen:line071:m0045"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "chapter_id": "c-jinshu-044-luchen",
+      "source_id": "s-jinshu-044-luchen",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-044-cuiyue",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-cuiyue",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「崔悅」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-luchen-cuiyue/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-044-luchen",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-044",
+      "source_id": "s-jinshu-044-luchen",
+      "source": {
+        "title": "晉書卷四十四",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+        "revision_id": 1775345,
+        "accessed_on": "2026-11-21",
+        "extent": "固定數位題「志子諶」題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代本文及維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫固定修訂1775345",
+        "raw_path": "sources/jinshu/wikisource-1775345-raw.wikitext",
+        "wikitext_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "raw_file_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8",
+        "collation_witnesses": [
+          "source-evidence/jin044-luchen-cuiyue/reading.json"
+        ]
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-019-yangxiu",
       "work_id": "w-sanguozhi",

@@ -22,6 +22,10 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if chapter.get('id') == 'c-nanshi-023-wangyu-jingwen':
+        try: from scripts.nan023_wangyu import proposal_valid as nan23yu_proposal_valid
+        except ImportError: from nan023_wangyu import proposal_valid as nan23yu_proposal_valid
+        return nan23yu_proposal_valid(proposal, chapter)
     if chapter.get('id') == 'c-nanshi-023-wangmai':
         try: from scripts.nan023_wangmai import proposal_valid as nan23mai_proposal_valid
         except ImportError: from nan023_wangmai import proposal_valid as nan23mai_proposal_valid
@@ -152,6 +156,18 @@ def unassumed_appointment_valid(proposal, chapter):
              '以'+person['surface']+'為','以'+person['surface']+'爲']
     terms = {'declined':['固辭不起','固辭開府','固辭不拜','以疾固辭，未行而卒','苦讓，遂不受','讓不拜','固讓不拜','固讓'],
              'did_not_take_up':['稱疾不起','並不行','未之職','不拜','皆不就','不就','並不就','竝不就','竝不拜','未拜','終以不拜','竟不拜','又不就']}
+    if proposal.get('source_refusal_form') == 'jin044_returned_seal':
+        text = p['text']; named = person['surface']
+        subject_clause = '今以'+named+'為司空'
+        if (p.get('source_position',{}).get('revision_id') != 1775345
+                or named != '袤' or role['surface'] != '司空'
+                or text.count(subject_clause) != 1 or appointment['start'] != text.index(subject_clause) + 1
+                or role['start'] != text.index(subject_clause) + len(subject_clause)-2
+                or text.count(named+'前後辭讓，遣息稱上送印綬')!=1
+                or refusal['surface'] != '固辭，久之見許'
+                or not text[refusal['end']:].startswith('，以侯就第，拜儀同三司')):
+            return False
+        terms['did_not_take_up'] = [*terms['did_not_take_up'], refusal['surface']]
     stage = proposal.get('appointment_stage')
     invitation = appointment['surface'] in ('請為', '請爲')
     if (stage not in (None, 'invitation', 'appointment')

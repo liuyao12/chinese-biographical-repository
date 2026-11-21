@@ -1,0 +1,274 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 1508012,
+      "raw_path": "sources/nanqishu/nanqi027-ws1508012.wikitext",
+      "line": 60,
+      "start": 190,
+      "end": 203,
+      "source_quote": "景素誅，留安民行南徐州事。",
+      "raw_sha256": "babad7828a5a97654c1313db5b7a6eb5c19555d5639193051fd8694d9f8ecfcd",
+      "interpretation": "王迥案在此前後，以同段敘次定位，不把景素卒日寫成王迥卒日。"
+    },
+    {
+      "revision_id": 1748881,
+      "raw_path": "sources/nanshi/nanshi046-ws1748881.wikitext",
+      "line": 21,
+      "start": 76,
+      "end": 89,
+      "source_quote": "景素誅，留安人行南徐州事。",
+      "raw_sha256": "91fd37788316bd586949064c49a72b07eb587f52328cb440e8ac7357e94cb48f",
+      "interpretation": "南史同樣先述平景素而後敘王回。"
+    }
+  ],
+  "print_readings": [
+    {
+      "edition": "乾隆四年武英殿本《南齊書》卷二十七，國圖第158冊",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf#page=107",
+      "pdf_sha1": "98284da223643bc58678fbee082d9e0b33986490",
+      "page": 107,
+      "half": "L",
+      "folio": "八上",
+      "columns_from_right": [
+        10
+      ],
+      "source_quote": "城局參",
+      "interpretation": "末欄官稱跨頁，下頁首欄接「軍王迥」。",
+      "image": "source-evidence/nanqi027-wang-accounts/print/qi027-p107L.jpg",
+      "image_sha256": "c934ad28e4e62f2192d9f38b5193c0283d69f7da5ea829d157dd09d1ddf83b53"
+    },
+    {
+      "edition": "乾隆四年武英殿本《南齊書》卷二十七，國圖第158冊",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf#page=108",
+      "pdf_sha1": "98284da223643bc58678fbee082d9e0b33986490",
+      "page": 108,
+      "half": "R",
+      "folio": "八下",
+      "columns_from_right": [
+        1
+      ],
+      "source_quote": "軍王迥素為安民所親盜絹二匹",
+      "interpretation": "同一稱官及二匹事。",
+      "image": "source-evidence/nanqi027-wang-accounts/print/qi027-p108R.jpg",
+      "image_sha256": "a6ab9d16ab2802e67f3caa893ead98ad1dc2b495fc375b94b80e798e1268ee8c"
+    },
+    {
+      "edition": "乾隆四年武英殿本《南齊書》卷二十七，國圖第158冊",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf#page=115",
+      "pdf_sha1": "98284da223643bc58678fbee082d9e0b33986490",
+      "page": 115,
+      "half": "R",
+      "folio": "卷二十七考證一下",
+      "columns_from_right": [
+        1
+      ],
+      "source_quote": "城局參軍王迥",
+      "interpretation": "緊隨考證「諸本同王迥南史作王回」。",
+      "image": "source-evidence/nanqi027-wang-accounts/print/qi027-p115R.jpg",
+      "image_sha256": "73bc04d54d5bdedf9948e68c153a91c2563ce06291e665741eba48025c07776d"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "王迥",
+      "first_line": 60,
+      "last_line": 60,
+      "start_codepoint": 203,
+      "end_codepoint": 269,
+      "opening": "城局參軍王迥素為安民",
+      "closing": "為斂祭，軍府皆震服。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "李安民",
+      "chapter_id": "c-nanqishu-027-wangjiong-anmin",
+      "chapter_path": "corpus/nanqishu/027-wangjiong-anmin.json",
+      "paragraph_ids": [
+        "c-nanqishu-027-wangjiong-anmin:p001"
+      ],
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
+    },
+    {
+      "book_id": "b-nanshi-046",
+      "title": "王回",
+      "first_line": 21,
+      "last_line": 21,
+      "start_codepoint": 89,
+      "end_codepoint": 153,
+      "opening": "城局參軍王回素爲安人",
+      "closing": "爲斂祭，軍府皆震服。",
+      "unit_kind": "embedded_account",
+      "parent_heading": "李安人",
+      "chapter_id": "c-nanshi-046-wangjiong-anmin",
+      "chapter_path": "corpus/nanshi/046-wangjiong-anmin.json",
+      "paragraph_ids": [
+        "c-nanshi-046-wangjiong-anmin:p001"
+      ],
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
+    }
+  ],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-nanqishu-027-wangjiong-anmin:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "0ra_fe7_j4d",
+      "source_quote": "城局參軍王迥素為安民所親，盜絹二匹，安民流涕謂之曰：「我與卿契闊備嘗，今日犯王法，此乃卿負我也。」",
+      "reading": "城局參軍，為李安民素所親；盜絹二匹。 李安民流淚對其言，稱兩人共歷辛勞；王法是法令。",
+      "note": "城局參軍，為李安民素所親；盜絹二匹。 李安民流淚對其言，稱兩人共歷辛勞；王法是法令。",
+      "paragraph_id": "c-nanqishu-027-wangjiong-anmin:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 49,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-027-wangjiong-anmin:received_sentence1-49",
+      "kind": "received_sentence",
+      "person_id": "0ra_fe7_j4d",
+      "source_quote": "於軍門斬之，厚為斂祭，軍府皆震服。",
+      "reading": "軍門斬之，安民從厚斂祭，軍府震服。",
+      "note": "軍門斬之，安民從厚斂祭，軍府震服。",
+      "paragraph_id": "c-nanqishu-027-wangjiong-anmin:p001",
+      "start_codepoint": 49,
+      "end_codepoint": 66,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-027-wangjiong-anmin:stolen_goods1-13",
+      "kind": "stolen_goods",
+      "person_id": "0ra_fe7_j4d",
+      "source_quote": "盜絹二匹",
+      "reading": "絹二匹為受刑事涉物數量。",
+      "note": "絹二匹為受刑事涉物數量。",
+      "paragraph_id": "c-nanqishu-027-wangjiong-anmin:p001",
+      "start_codepoint": 13,
+      "end_codepoint": 17,
+      "human_reviewed": false,
+      "quantity": 2,
+      "unit": "匹",
+      "object": "絹"
+    },
+    {
+      "id": "c-nanqishu-027-wangjiong-anmin:written_name_attestation1-4",
+      "kind": "written_name_attestation",
+      "person_id": "0ra_fe7_j4d",
+      "source_quote": "王迥",
+      "reading": "兩書與殿本考證可逐處對讀。",
+      "note": "兩書與殿本考證可逐處對讀。",
+      "paragraph_id": "c-nanqishu-027-wangjiong-anmin:p001",
+      "start_codepoint": 4,
+      "end_codepoint": 6,
+      "human_reviewed": false,
+      "qi_form": "王迥",
+      "nan_form": "王回"
+    },
+    {
+      "id": "c-nanqishu-027-wangjiong-anmin:funeral_rites1-55",
+      "kind": "funeral_rites",
+      "person_id": "4xf_x1f_vsg",
+      "source_quote": "厚為斂祭",
+      "reading": "李安民為王迥斂祭；「所親」不是某種血緣。",
+      "note": "李安民為王迥斂祭；「所親」不是某種血緣。",
+      "paragraph_id": "c-nanqishu-027-wangjiong-anmin:p001",
+      "start_codepoint": 55,
+      "end_codepoint": 59,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-046-wangjiong-anmin:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "0ra_fe7_j4d",
+      "source_quote": "城局參軍王回素爲安人所親，盜絹二匹。",
+      "reading": "城局參軍，為李安民素所親；盜絹二匹。",
+      "note": "城局參軍，為李安民素所親；盜絹二匹。",
+      "paragraph_id": "c-nanshi-046-wangjiong-anmin:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 18,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-046-wangjiong-anmin:received_sentence1-18",
+      "kind": "received_sentence",
+      "person_id": "0ra_fe7_j4d",
+      "source_quote": "安人流涕謂曰：「我與卿契闊備嘗，今日犯王法，乃卿負我也。」",
+      "reading": "李安民流淚對其言，稱兩人共歷辛勞；王法是法令。",
+      "note": "李安民流淚對其言，稱兩人共歷辛勞；王法是法令。",
+      "paragraph_id": "c-nanshi-046-wangjiong-anmin:p001",
+      "start_codepoint": 18,
+      "end_codepoint": 47,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-046-wangjiong-anmin:received_sentence1-47",
+      "kind": "received_sentence",
+      "person_id": "0ra_fe7_j4d",
+      "source_quote": "於軍門斬之，厚爲斂祭，軍府皆震服。",
+      "reading": "軍門斬之，安民從厚斂祭，軍府震服。",
+      "note": "軍門斬之，安民從厚斂祭，軍府震服。",
+      "paragraph_id": "c-nanshi-046-wangjiong-anmin:p001",
+      "start_codepoint": 47,
+      "end_codepoint": 64,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-046-wangjiong-anmin:stolen_goods1-13",
+      "kind": "stolen_goods",
+      "person_id": "0ra_fe7_j4d",
+      "source_quote": "盜絹二匹",
+      "reading": "絹二匹為受刑事涉物數量。",
+      "note": "絹二匹為受刑事涉物數量。",
+      "paragraph_id": "c-nanshi-046-wangjiong-anmin:p001",
+      "start_codepoint": 13,
+      "end_codepoint": 17,
+      "human_reviewed": false,
+      "quantity": 2,
+      "unit": "匹",
+      "object": "絹"
+    },
+    {
+      "id": "c-nanshi-046-wangjiong-anmin:written_name_attestation1-4",
+      "kind": "written_name_attestation",
+      "person_id": "0ra_fe7_j4d",
+      "source_quote": "王回",
+      "reading": "兩書與殿本考證可逐處對讀。",
+      "note": "兩書與殿本考證可逐處對讀。",
+      "paragraph_id": "c-nanshi-046-wangjiong-anmin:p001",
+      "start_codepoint": 4,
+      "end_codepoint": 6,
+      "human_reviewed": false,
+      "qi_form": "王迥",
+      "nan_form": "王回"
+    },
+    {
+      "id": "c-nanshi-046-wangjiong-anmin:funeral_rites1-53",
+      "kind": "funeral_rites",
+      "person_id": "4xf_x1f_vsg",
+      "source_quote": "厚爲斂祭",
+      "reading": "李安民為王迥斂祭；「所親」不是某種血緣。",
+      "note": "李安民為王迥斂祭；「所親」不是某種血緣。",
+      "paragraph_id": "c-nanshi-046-wangjiong-anmin:p001",
+      "start_codepoint": 53,
+      "end_codepoint": 57,
+      "human_reviewed": false
+    }
+  ],
+  "identity_limits": [
+    {
+      "person_id": "0ra_fe7_j4d",
+      "sources": [
+        "王迥",
+        "王回"
+      ],
+      "reading": "未從所親推血緣；王法未立人號。"
+    }
+  ]
+}

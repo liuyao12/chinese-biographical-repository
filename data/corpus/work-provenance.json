@@ -544,6 +544,20 @@
       "locator": "日本國立公文書館內閣文庫 280-0079，卷十一第二十一葉上，第二至七欄。",
       "access_scope": "按固定原件讀指定文字及欄位。",
       "human_reviewed": false
+    },
+    "ref-jiankang-shaoxing-nlc": {
+      "title": "國家圖書館藏《建康實錄》二十卷，第十二冊卷十五",
+      "url": "https://commons.wikimedia.org/w/index.php?oldid=1269465774",
+      "locator": "書目412004000294，冊383355，原件取第12、13面。",
+      "access_scope": "已對全冊雜湊及第12、13面指定原欄。",
+      "human_reviewed": false
+    },
+    "ref-jiankang-siku-ws": {
+      "title": "四庫全書本建康實録及卷十五",
+      "url": "https://zh.wikisource.org/w/index.php?oldid=740760",
+      "locator": "卷十五第33、37、38行；總目固定修訂560407。",
+      "access_scope": "據固定數位轉寫。",
+      "human_reviewed": false
     }
   },
   "editions": {
@@ -848,6 +862,36 @@
       ],
       "qualification": "日本國立公文書館內閣文庫 280-0079，卷十一第二十一葉上，第二至七欄。",
       "image_verified": true
+    },
+    "edition-jiankang-shaoxing-nlc": {
+      "id": "edition-jiankang-shaoxing-nlc",
+      "work_id": "w-jiankang-shilu",
+      "label": "宋紹興十八年荊湖北路安撫使司刊，遞修年未詳",
+      "extent": "not_established",
+      "date": {
+        "calendar": "common_era_year",
+        "year_numbering": "historical_no_year_zero",
+        "start_year": 1148,
+        "end_year": 1148,
+        "precision": "year"
+      },
+      "reference_ids": [
+        "ref-jiankang-shaoxing-nlc"
+      ],
+      "qualification": "刊年紹興十八年，所見存本經遞修，遞修年未詳。",
+      "image_verified": true
+    },
+    "edition-jiankang-siku-ws": {
+      "id": "edition-jiankang-siku-ws",
+      "work_id": "w-jiankang-shilu",
+      "label": "四庫全書本數位轉寫",
+      "extent": "not_established",
+      "date": null,
+      "reference_ids": [
+        "ref-jiankang-siku-ws"
+      ],
+      "qualification": "本次轉寫所標版本為四庫本。",
+      "image_verified": false
     }
   },
   "works": {
@@ -204227,6 +204271,40 @@
         "assertions": []
       },
       "human_reviewed": false
+    },
+    "w-jiankang-shilu": {
+      "work_id": "w-jiankang-shilu",
+      "title": "建康實錄",
+      "transmission": "received",
+      "composition": {
+        "status": "reported",
+        "assertions": [
+          {
+            "event_kind": "authorship",
+            "layer": "attributed_original",
+            "date": null,
+            "period_label": "唐",
+            "attributed_author": "許嵩",
+            "qualification": "據國圖著錄唐許嵩撰。",
+            "reference_ids": [
+              "ref-jiankang-shaoxing-nlc"
+            ]
+          }
+        ]
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "human_reviewed": false
     }
   },
   "text_bases": {
@@ -211166,6 +211244,387 @@
     },
     "s-nanshi-012-chen-wang-empress-and-zhize-ws2060595": {
       "source_id": "s-nanshi-012-chen-wang-empress-and-zhize-ws2060595",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-jinshu-044-cuiyue-wuying": {
+      "source_id": "s-jinshu-044-cuiyue-wuying",
+      "work_id": "w-jinshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-jinshu-102-jin044-luchen": {
+      "source_id": "s-jinshu-102-jin044-luchen",
+      "work_id": "w-jinshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanqishu-027-fangshuan-xuanmiao-ws1508012": {
+      "source_id": "s-nanqishu-027-fangshuan-xuanmiao-ws1508012",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanqishu-027-wangxuanzai-ws1508012": {
+      "source_id": "s-nanqishu-027-wangxuanzai-ws1508012",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanqishu-030-jiaodu-at-wangjingwens-death-ws1513917": {
+      "source_id": "s-nanqishu-030-jiaodu-at-wangjingwens-death-ws1513917",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-016-fangchangyu-ws1963381": {
+      "source_id": "s-nanshi-016-fangchangyu-ws1963381",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-016-fangshuan-changyu-ws1963381": {
+      "source_id": "s-nanshi-016-fangshuan-changyu-ws1963381",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-016-fangshuan-ws1963381": {
+      "source_id": "s-nanshi-016-fangshuan-ws1963381",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-016-wangxuanzai-ws1963381": {
+      "source_id": "s-nanshi-016-wangxuanzai-ws1963381",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-023-wangyu-jingwen-ws2478204": {
+      "source_id": "s-nanshi-023-wangyu-jingwen-ws2478204",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-songshu-008-wangjingwen-death-annal-ws2309997": {
+      "source_id": "s-songshu-008-wangjingwen-death-annal-ws2309997",
+      "work_id": "w-songshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-songshu-072-jinping-xiuyou-father-ws1997159": {
+      "source_id": "s-songshu-072-jinping-xiuyou-father-ws1997159",
+      "work_id": "w-songshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-songshu-094-dai-family-and-chao-xu-ws2195835": {
+      "source_id": "s-songshu-094-dai-family-and-chao-xu-ws2195835",
+      "work_id": "w-songshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-weishu-weishou-024-jin044-luchen": {
+      "source_id": "s-weishu-weishou-024-jin044-luchen",
+      "work_id": "w-weishu-weishou",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-weishu-weishou-047-jin044-luchen": {
+      "source_id": "s-weishu-weishou-047-jin044-luchen",
+      "work_id": "w-weishu-weishou",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-zizhitongjian-099-jin044-luchen": {
+      "source_id": "s-zizhitongjian-099-jin044-luchen",
+      "work_id": "w-zizhitongjian",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-jiankang-shilu-015-chulingqu-siku-ws740760": {
+      "source_id": "s-jiankang-shilu-015-chulingqu-siku-ws740760",
+      "work_id": "w-jiankang-shilu",
+      "status": "documented",
+      "edition_id": "edition-jiankang-siku-ws",
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "ref-jiankang-siku-ws"
+      ],
+      "note": "本次轉寫所標版本為四庫本。",
+      "human_reviewed": false
+    },
+    "s-jinshu-064-jin044-luzhi": {
+      "source_id": "s-jinshu-064-jin044-luzhi",
+      "work_id": "w-jinshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanqishu-020-chulingqu-ws2074177": {
+      "source_id": "s-nanqishu-020-chulingqu-ws2074177",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanqishu-027-wangxuanmiao-ws1508012": {
+      "source_id": "s-nanqishu-027-wangxuanmiao-ws1508012",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanqishu-031-xuanmiao-xunboyu-ws2062531": {
+      "source_id": "s-nanqishu-031-xuanmiao-xunboyu-ws2062531",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-005-song-emperor-and-mother-ws2027696": {
+      "source_id": "s-nanshi-005-song-emperor-and-mother-ws2027696",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-011-chulingqu-ws2288359": {
+      "source_id": "s-nanshi-011-chulingqu-ws2288359",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-011-wangbaoming-decree-context-ws2288359": {
+      "source_id": "s-nanshi-011-wangbaoming-decree-context-ws2288359",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-016-wangxuanmiao-ws1963381": {
+      "source_id": "s-nanshi-016-wangxuanmiao-ws1963381",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-zizhitongjian-140-chulingqu-marriage-ws1554152": {
+      "source_id": "s-zizhitongjian-140-chulingqu-marriage-ws1554152",
+      "work_id": "w-zizhitongjian",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-zizhitongjian-144-chulingqu-and-song-ws803184": {
+      "source_id": "s-zizhitongjian-144-chulingqu-and-song-ws803184",
+      "work_id": "w-zizhitongjian",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-jinshu-003-jin044-liyin": {
+      "source_id": "s-jinshu-003-jin044-liyin",
+      "work_id": "w-jinshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-jinshu-050-jin044-zhengmo": {
+      "source_id": "s-jinshu-050-jin044-zhengmo",
+      "work_id": "w-jinshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanqishu-020-chulingqu-wyd": {
+      "source_id": "s-nanqishu-020-chulingqu-wyd",
+      "work_id": "w-nanqishu",
+      "status": "documented",
+      "edition_id": "edition-nanqishu158-wyd",
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "ref-qi020-huiduan-nanqishu158-wyd"
+      ],
+      "note": "據此刊本原頁所錄褚令璩全傳，另有逐欄定位。",
+      "human_reviewed": false
+    },
+    "s-sanguozhi-016-jin044-zhengmo": {
+      "source_id": "s-sanguozhi-016-jin044-zhengmo",
+      "work_id": "w-sanguozhi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-011-chulingqu-izumo": {
+      "source_id": "s-nanshi-011-chulingqu-izumo",
+      "work_id": "w-nanshi",
+      "status": "documented",
+      "edition_id": "edition-nanshi7-izumo",
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "ref-qi020-huiduan-nanshi7-izumo"
+      ],
+      "note": "據此刊本原頁所錄褚令璩全傳，另有逐欄定位。",
+      "human_reviewed": false
+    },
+    "s-jiankang-shilu-015-chulingqu-shaoxing": {
+      "source_id": "s-jiankang-shilu-015-chulingqu-shaoxing",
+      "work_id": "w-jiankang-shilu",
+      "status": "documented",
+      "edition_id": "edition-jiankang-shaoxing-nlc",
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [
+        "ref-jiankang-shaoxing-nlc"
+      ],
+      "note": "刊年紹興十八年，所見存本經遞修，遞修年未詳。",
+      "human_reviewed": false
+    },
+    "s-nanqishu-027-wangjiong-anmin-ws1508012": {
+      "source_id": "s-nanqishu-027-wangjiong-anmin-ws1508012",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanqishu-027-wangyuanchu-anmin-ws1508012": {
+      "source_id": "s-nanqishu-027-wangyuanchu-anmin-ws1508012",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-046-wangjiong-anmin-ws1748881": {
+      "source_id": "s-nanshi-046-wangjiong-anmin-ws1748881",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-046-wangyuanchu-anmin-ws1748881": {
+      "source_id": "s-nanshi-046-wangyuanchu-anmin-ws1748881",
+      "work_id": "w-nanshi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-sanguozhi-004-jin044-zhengmao": {
+      "source_id": "s-sanguozhi-004-jin044-zhengmao",
+      "work_id": "w-sanguozhi",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanqishu-027-wangbi-huaizhen-ws1508012": {
+      "source_id": "s-nanqishu-027-wangbi-huaizhen-ws1508012",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanqishu-027-wangshi-concordance-ws1508012": {
+      "source_id": "s-nanqishu-027-wangshi-concordance-ws1508012",
+      "work_id": "w-nanqishu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-nanshi-049-wangbi-huaizhen-ws12945115": {
+      "source_id": "s-nanshi-049-wangbi-huaizhen-ws12945115",
       "work_id": "w-nanshi",
       "status": "not_researched",
       "edition_id": null,

@@ -1,0 +1,658 @@
+{
+  "record_type": "fixed_volume_boundary_review",
+  "reviewer": "Codex（AI代理）",
+  "human_reviewed": false,
+  "book_id": "b-nanqishu-027",
+  "revision_id": 1508012,
+  "raw_path": "sources/nanqishu/nanqi027-ws1508012.wikitext",
+  "sha256": "babad7828a5a97654c1313db5b7a6eb5c19555d5639193051fd8694d9f8ecfcd",
+  "print_source": {
+    "edition": "乾隆四年武英殿本，國圖第158冊",
+    "page": 100,
+    "image": "source-evidence/nanqi027-nan016-volume-surveys/print/qi27-p100.jpg",
+    "image_sha256": "328a7c878be4c280d77424b247ab1cb5aa8b8c1b2d1b4f1a3359cc861a80db87",
+    "original_pdf_sha1": "98284da223643bc58678fbee082d9e0b33986490",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf#page=100",
+    "locator": "左半卷首第一葉上，右起第1至4欄。",
+    "reading": "南齊書卷二十七，列傳第八，劉懷珍、李安民、王玄載、弟玄邈。固定數位本第3行作列傳第七。"
+  },
+  "new_boundaries": [
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "劉懷珍",
+      "unit_kind": "headed_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 11,
+      "last_line": 39,
+      "start_codepoint": 2,
+      "end_codepoint": 63,
+      "opening": "劉懷珍字道玉，平原人",
+      "closing": "雍州刺史，諡曰敬侯。",
+      "heading_line": 10,
+      "heading_raw": "==劉懷珍==",
+      "source_layout": "wikisource_mixed_indented_prose"
+    },
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "劉靈哲",
+      "unit_kind": "embedded_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 41,
+      "last_line": 47,
+      "start_codepoint": 2,
+      "end_codepoint": 67,
+      "opening": "子靈哲，字文明。解褐",
+      "closing": "}}，卒，年四十九。",
+      "parent_heading": "劉懷珍",
+      "scope_note": "子靈哲字文明起，至隆昌元年卒年四十九。第45行敘靈哲嫡母與兄子之事。",
+      "source_layout": "wikisource_mixed_indented_prose"
+    },
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "李安民",
+      "unit_kind": "headed_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 50,
+      "last_line": 60,
+      "start_codepoint": 2,
+      "end_codepoint": 203,
+      "opening": "李安民，蘭陵承人也。",
+      "closing": "，留安民行南徐州事。",
+      "heading_line": 49,
+      "heading_raw": "==李安民==",
+      "scope_note": "同一主傳截去王迥、王元初兩則已獨立定界的小敘，止追贈詔諡。",
+      "continuation_spans": [
+        {
+          "first_line": 62,
+          "last_line": 66,
+          "start_codepoint": 2,
+          "end_codepoint": 34,
+          "opening": "授冠軍將軍，驍衛將軍",
+          "closing": "退，安民沿淮進壽春。"
+        },
+        {
+          "first_line": 66,
+          "last_line": 76,
+          "start_codepoint": 87,
+          "end_codepoint": 73,
+          "opening": "加散騎常侍。",
+          "closing": "守如故。諡曰肅侯。」"
+        }
+      ],
+      "source_layout": "wikisource_mixed_indented_prose"
+    },
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "王迥",
+      "unit_kind": "embedded_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 60,
+      "last_line": 60,
+      "start_codepoint": 203,
+      "end_codepoint": 269,
+      "opening": "城局參軍王迥素為安民",
+      "closing": "為斂祭，軍府皆震服。",
+      "parent_heading": "李安民",
+      "scope_note": "原文無另題，以官姓名另起，敘盜絹、安民與迥對話及身後斂祭。",
+      "source_layout": "wikisource_mixed_indented_prose"
+    },
+    {
+      "book_id": "b-nanqishu-027",
+      "title": "王元初",
+      "unit_kind": "embedded_account",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 66,
+      "last_line": 66,
+      "start_codepoint": 34,
+      "end_codepoint": 87,
+      "opening": "先是宋世亡命王元初聚",
+      "closing": "生禽元初，斬建康市。",
+      "parent_heading": "李安民",
+      "scope_note": "先是回敘王元初起事至斬建康市；下句另敘安民加官。",
+      "source_layout": "wikisource_mixed_indented_prose"
+    }
+  ],
+  "contextual_passages": [
+    {
+      "line": 11,
+      "start": 21,
+      "end": 59,
+      "source_quote": "祖昶，宋武帝平齊，以為青州治中，至員外常侍。伯父奉伯，宋世為陳南頓二郡太守。",
+      "decision": "傳首家系，隨後奉伯評懷珍。"
+    },
+    {
+      "line": 25,
+      "start": 48,
+      "end": 57,
+      "source_quote": "休賓，懷珍從弟也。",
+      "decision": "敘劉休賓告急時交代親屬，沒有獨立傳段。"
+    },
+    {
+      "line": 45,
+      "start": 2,
+      "end": 11,
+      "source_quote": "嫡母崔氏及兄子景煥",
+      "decision": "與第43行所生母分別，兄子與母在同一贖親事內。"
+    },
+    {
+      "line": 68,
+      "start": 78,
+      "end": 87,
+      "source_quote": "乃遣族弟馬軍主長文",
+      "decision": "李長文參與孫溪渚之戰，親屬在李安民指揮的同一件軍事內。"
+    },
+    {
+      "line": 79,
+      "start": 15,
+      "end": 32,
+      "source_quote": "祖宰，偽北地太守。父蕤，東莞太守。",
+      "decision": "玄載已核傳首祖父原句，附家屬不增傳目。"
+    },
+    {
+      "line": 104,
+      "start": 8,
+      "end": 19,
+      "source_quote": "宋鎮北大將軍仲德兄孫也",
+      "decision": "主語文和，與另敘文和所在句同存。"
+    }
+  ],
+  "total_inventory_items": 10,
+  "reviewed_source_line_count": 46,
+  "all_text_coverage": [
+    {
+      "line": 11,
+      "segments": [
+        [
+          2,
+          107,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 13,
+      "segments": [
+        [
+          2,
+          102,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 15,
+      "segments": [
+        [
+          2,
+          119,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 17,
+      "segments": [
+        [
+          2,
+          150,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 19,
+      "segments": [
+        [
+          2,
+          276,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 21,
+      "segments": [
+        [
+          2,
+          110,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 23,
+      "segments": [
+        [
+          2,
+          397,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 25,
+      "segments": [
+        [
+          2,
+          120,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 27,
+      "segments": [
+        [
+          2,
+          175,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 29,
+      "segments": [
+        [
+          2,
+          173,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 31,
+      "segments": [
+        [
+          2,
+          229,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 33,
+      "segments": [
+        [
+          2,
+          127,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 35,
+      "segments": [
+        [
+          2,
+          216,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 37,
+      "segments": [
+        [
+          2,
+          104,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 39,
+      "segments": [
+        [
+          2,
+          63,
+          "劉懷珍"
+        ]
+      ]
+    },
+    {
+      "line": 41,
+      "segments": [
+        [
+          2,
+          66,
+          "劉靈哲"
+        ]
+      ]
+    },
+    {
+      "line": 43,
+      "segments": [
+        [
+          2,
+          52,
+          "劉靈哲"
+        ]
+      ]
+    },
+    {
+      "line": 45,
+      "segments": [
+        [
+          2,
+          108,
+          "劉靈哲"
+        ]
+      ]
+    },
+    {
+      "line": 47,
+      "segments": [
+        [
+          2,
+          67,
+          "劉靈哲"
+        ]
+      ]
+    },
+    {
+      "line": 50,
+      "segments": [
+        [
+          2,
+          64,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 52,
+      "segments": [
+        [
+          2,
+          94,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 54,
+      "segments": [
+        [
+          2,
+          231,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 56,
+      "segments": [
+        [
+          2,
+          338,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 58,
+      "segments": [
+        [
+          2,
+          57,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 60,
+      "segments": [
+        [
+          2,
+          203,
+          "李安民"
+        ],
+        [
+          203,
+          269,
+          "王迥"
+        ]
+      ]
+    },
+    {
+      "line": 62,
+      "segments": [
+        [
+          2,
+          247,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 64,
+      "segments": [
+        [
+          2,
+          136,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 66,
+      "segments": [
+        [
+          2,
+          34,
+          "李安民"
+        ],
+        [
+          34,
+          87,
+          "王元初"
+        ],
+        [
+          87,
+          93,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 68,
+      "segments": [
+        [
+          2,
+          211,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 70,
+      "segments": [
+        [
+          2,
+          97,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 72,
+      "segments": [
+        [
+          2,
+          143,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 74,
+      "segments": [
+        [
+          2,
+          88,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 76,
+      "segments": [
+        [
+          2,
+          73,
+          "李安民"
+        ]
+      ]
+    },
+    {
+      "line": 79,
+      "segments": [
+        [
+          2,
+          32,
+          "王玄載"
+        ]
+      ]
+    },
+    {
+      "line": 81,
+      "segments": [
+        [
+          2,
+          280,
+          "王玄載"
+        ]
+      ]
+    },
+    {
+      "line": 83,
+      "segments": [
+        [
+          2,
+          173,
+          "王玄載"
+        ]
+      ]
+    },
+    {
+      "line": 85,
+      "segments": [
+        [
+          2,
+          28,
+          "王玄載"
+        ]
+      ]
+    },
+    {
+      "line": 87,
+      "segments": [
+        [
+          2,
+          166,
+          "王瞻"
+        ]
+      ]
+    },
+    {
+      "line": 89,
+      "segments": [
+        [
+          2,
+          177,
+          "王寬"
+        ]
+      ]
+    },
+    {
+      "line": 92,
+      "segments": [
+        [
+          2,
+          143,
+          "王玄邈"
+        ]
+      ]
+    },
+    {
+      "line": 94,
+      "segments": [
+        [
+          2,
+          130,
+          "王玄邈"
+        ]
+      ]
+    },
+    {
+      "line": 96,
+      "segments": [
+        [
+          2,
+          189,
+          "王玄邈"
+        ]
+      ]
+    },
+    {
+      "line": 98,
+      "segments": [
+        [
+          2,
+          172,
+          "王玄邈"
+        ]
+      ]
+    },
+    {
+      "line": 100,
+      "segments": [
+        [
+          2,
+          157,
+          "王玄邈"
+        ]
+      ]
+    },
+    {
+      "line": 102,
+      "segments": [
+        [
+          2,
+          131,
+          "王玄邈"
+        ]
+      ]
+    },
+    {
+      "line": 104,
+      "segments": [
+        [
+          2,
+          139,
+          "王文和"
+        ]
+      ]
+    }
+  ]
+}

@@ -283,3 +283,18 @@
 | 《南齊書》卷二十、《南史》卷十一 | 兩書各錄明敬劉皇后惠端 | 兩書正文、乾隆殿本及弘化四年出雲藩本皆稱道弘孫，又明記父景猷、母王氏。明萬曆二年《六臣註文選》同頁李善注作「惠端」「道弘女」，劉良注作「端惠」「弘道孫也」。謝朓哀策文記永泰元年秋九月朔啟梓宮，原文作「將祔于某陵」。 |
 
 [劉惠端《南齊書》原欄](../source-evidence/qi020-liuhuiduan-wyd/wuying-reading.json) · [《南史》原欄](../source-evidence/nan011-liuhuiduan-izumo/izumo-reading.json) · [《文選》兩家注文與第47面書影](../source-evidence/qi020-liuhuiduan/wenxuan-witnesses.json) · [王玄謨逐句及紀年](../source-evidence/song076-wangxuanmo/main-reading.json) · [王皇后與至澤](../source-evidence/nan023-wanghou/reading.json) · [二人傳文四欄書影](../source-evidence/nan023-wanghou/printed-pages.json) · [溫嶠同事異名](../source-evidence/jin067-wenqiao-main/source-identifications.json)
+
+## 琅邪王氏之十九
+
+承接[第十八批](https://github.com/liuyao12/chinese-biographical-repository/pull/757)。本批新增三十二則逐項覆核。累計四十七卷已有卷目調查，登記六百四十五項傳目，三百八十七項備全文，三百七十二項完成人物初讀，三百六十八項已逐項覆核。
+
+| 史書與卷次 | 本批完成 | 原文與判讀 |
+| --- | --- | --- |
+| 《南史》卷二十三 | 王彧、王智、宋武帝第五女新安公主 | 乾隆殿本作「王或字景文」。父僧朗，叔父智無子，景文繼智。《宋書》卷八紀泰豫元年三月己未。新安公主先適太原王景深，後議尚景文，景文辭疾，婚事未成。全卷四篇有題主傳、三十六則段中附敘皆已覆核，卷末論另列。 |
+| 《晉書》卷四十四 | 鄭袤、鄭默、鄭球、鄭豫；李胤、李敏、李信、李固、李志、李真長、李修；盧欽、盧浮、盧珽、盧志、盧諶、崔悅 | 鄭默字思元，裴注引《晉陽秋》作思玄。鄭球在成都王穎傳作鄭琰。盧諶遇害，本傳及裴注所引《諶別傳》繫永和六年，《通鑑》卷九十九繫七年三月。崔悅在本傳為魏司空林曾孫，《魏書》卷二十四記玄伯為林六世孫，又記悅為玄伯祖。各書世次分列。 |
+| 《南齊書》卷二十七、《南史》卷十六、卷四十六 | 兩書各核王玄載、王玄邈、王迥（《南史》作王回）、王元初；《南史》卷十六另核房叔安、房長瑜 | 玄載與玄謨的從兄弟長幼，兩書所記相反。玄邈卒年《南齊書》作建武四年、年七十二，《南史》作建武中。已逐行勘定齊卷二十七十則、南卷十六二十二則的範圍。齊卷數位目題作列傳第七，殿本卷首作列傳第八。 |
+| 《南齊書》卷二十、《南史》卷十一 | 兩書各錄東昏褚皇后令璩，並錄乾隆殿本與弘化四年出雲藩本全傳 | 《南史》「黃淑儀生太子誦而卒」與本紀「太子所生母黃貴嬪早亡」互證。褚后與誦後降庶人，《通鑑》卷一四四具稱二人。《南齊書》后傳數位本的「而卒」「后及誦」只見後人校語，殿本原欄作「東昏廢並為庶人」。 |
+
+褚令璩建武二年納妃，兩部正史帝紀繫十月乙卯，《通鑑》卷一四十繫十一月己卯。國圖藏紹興十八年刊遞修本《建康實錄》卷十五第十二面右第二欄末「八」與下一欄首「月納皇太子妃褚氏大赦」相接，四庫本數位轉寫作「十月納皇太子妃禇氏大赦」。皇子誦受冊，兩部正史帝紀繫永元元年四月己巳，《建康實錄》兩本均繫十一月，宋刊作「為太子」，四庫本作「為皇太子」。刊本及數位本各編入閱讀器，保留原字與原欄。[宋刊原欄與書影](../source-evidence/qi020-chulingqu/jiankang-print.json) · [各書紀年及引文](../source-evidence/qi020-chulingqu/chulingqu-nanqishu.json) · [褚后《南齊書》殿本](../source-evidence/qi020-chulingqu-wyd/wuying-reading.json) · [《南史》出雲藩本](../source-evidence/nan011-chulingqu-izumo/izumo-reading.json)
+
+本批另據兩冊殿本版心，訂正先前《南齊書》卷二十七與《南史》卷十六共十四處葉次、半葉或欄位，逐處存原定位、訂正值及引句。[版心圖及十四條訂正](../source-evidence/song076-wangxuanmo/print-folio-corrections.json) · [王景文殿本及互見](../source-evidence/nan023-wangyu/reading.json) · [盧諶與崔悅](../source-evidence/jin044-luchen-cuiyue/reading.json) · [《南齊書》卷二十七全卷分界](../source-evidence/nanqi027-nan016-volume-surveys/qi-boundaries.json) · [《南史》卷十六全卷分界](../source-evidence/nanqi027-nan016-volume-surveys/nan-boundaries.json)
