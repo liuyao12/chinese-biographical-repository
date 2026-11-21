@@ -2,8 +2,10 @@
 
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
-    if holding.get('posthumous_basis', {}).get('kind') == 'jin043_shangai_gift':
-        basis = holding['posthumous_basis']
+    basis = holding.get('posthumous_basis')
+    if not isinstance(basis, dict):
+        return False
+    if basis.get('kind') == 'jin043_shangai_gift':
         pid = 'c-jinshu-043-shantao:line043'
         p = paragraphs.get(pid)
         if p is None or holding.get('person_id') != '96a_987_925_A' or holding.get('title') != '長水校尉':
@@ -24,9 +26,6 @@ def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
                 and len(holding.get('attestations', [])) == 1
                 and all(holding['attestations'][0].get(k) == v for k, v in
                         {'paragraph_id': pid, 'person_mention_id': mid, 'start': at, 'end': at + 4, 'surface': '長水校尉', 'usage': 'posthumous_usage'}.items()))
-    basis = holding.get('posthumous_basis')
-    if not isinstance(basis, dict):
-        return False
     if basis.get('kind') == 'qi020_baoming_parent_grant':
         try: from scripts.qi020_baoming import parent_grant_valid
         except ImportError: from qi020_baoming import parent_grant_valid
