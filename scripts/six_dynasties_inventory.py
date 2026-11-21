@@ -57,6 +57,8 @@ def source_paragraphs(lines, layout=None):
 def source_passage(entry, lines, located_headings, ranges):
     """同一傳可隔著附傳另起續題；按各段實際起訖核原文。"""
     selected = []
+    indent_lines = set(entry.get('verse_indent_lines', []))
+    used_indents = set()
     previous = (0, 0)
     for span in [entry, *entry.get('continuation_spans', [])]:
         first, last = span['first_line'], span['last_line']
@@ -78,8 +80,15 @@ def source_passage(entry, lines, located_headings, ranges):
         raw[-1] = raw[-1][:end]
         raw[0] = raw[0][start:]
         assert raw[0].startswith(span['opening']) and raw[-1].endswith(span['closing']), title
+        for offset, line in enumerate(raw):
+            line_number = first + offset
+            if line_number in indent_lines:
+                assert (offset or start == 0) and line.startswith(':'), title
+                raw[offset] = line[1:]
+                used_indents.add(line_number)
         selected.extend(raw)
         previous = (last, end)
+    assert used_indents == indent_lines, entry['title']
     return selected
 
 

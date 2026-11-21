@@ -1,0 +1,81 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-jinshu-010-wang080-short",
+  "events": [
+    {
+      "id": "le-w080-anning",
+      "person_id": "f7d_ipd_k1o",
+      "event_type": "death",
+      "source_term": "死之",
+      "date_expression": "隆安三年",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-010",
+          "chapter_id": "c-jinshu-010-wang080-short",
+          "source_id": "s-jinshu-010-wang080-short",
+          "paragraph_id": "c-jinshu-010-wang080-short:p001",
+          "person_mention_id": "c-jinshu-010-wang080-short:p001:m0021",
+          "quote": "隆安三年\n十一月甲寅，妖賊孫恩陷會稽，內史王凝之死之"
+        }
+      ],
+      "interpretation_note": "依此見證分記卒亡。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 399,
+        "year": 399,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "隆安三年",
+        "status": "editorial_provisional",
+        "original_quote": "隆安三年\n十一月甲寅，妖賊孫恩陷會稽，內史王凝之死之",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-010",
+            "chapter_id": "c-jinshu-010-wang080-short",
+            "source_id": "s-jinshu-010-wang080-short",
+            "paragraph_id": "c-jinshu-010-wang080-short:p001",
+            "person_mention_id": "c-jinshu-010-wang080-short:p001:m0021",
+            "quote": "隆安三年\n十一月甲寅，妖賊孫恩陷會稽，內史王凝之死之"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "隆安",
+            "columns": {
+              "dynasty": "東晉",
+              "era_name": "隆安",
+              "first_year": "397",
+              "last_year": "401"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-11-20",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "隆安",
+          "source_number": "三",
+          "regnal_year": 3,
+          "start_ce_year": 397,
+          "end_ce_year": 401,
+          "reference_index": 0
+        },
+        "rationale": "本紀年題定年，月日依同條；公元僅換算年，月仍用歷史曆法。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    }
+  ]
+}

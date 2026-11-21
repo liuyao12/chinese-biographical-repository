@@ -2,6 +2,7 @@
 import json,copy,unittest,tempfile,shutil,hashlib
 from pathlib import Path
 from scripts.explicit_topic_gifts import explicit_topic_gift_valid
+from scripts.song042_sovereign_gift_reference import valid as referenced_gift_valid
 from scripts.posthumous_enfeoffments import valid as fief_valid
 from scripts.biography_calendar_context import context_errors,death_subject_valid
 from scripts.calendar_wiring import binding_errors
@@ -11,19 +12,28 @@ sha=lambda b:hashlib.sha256(b).hexdigest()
 class Models(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
-  cls.ch=[read(R/f'corpus/songshu/{n}.json')for n in ['042','063-wanghua-tanshou']];cls.ps={p['id']:(c['id'],p)for c in cls.ch for p in c['paragraphs']};cls.ms={m['id']:(c['id'],p['id'],m)for c in cls.ch for p in c['paragraphs']for m in p['mentions']};cls.events={e['id']:e for n in ['042','063-wanghua-tanshou']for e in read(R/f'corpus/songshu/{n}-life-events.json')['events']};cls.hs=[h for n in ['042','063-wanghua-tanshou']for h in read(R/f'corpus/songshu/{n}-titles.json')['holdings']];cls.gifts=[h for h in cls.hs if h.get('posthumous_basis',{}).get('kind')=='explicit_topic_scoped_gift'];cls.fiefs=[h for h in cls.hs if h['mode']=='posthumous_enfeoffment'];cls.ctx=read(R/'corpus/calendar-contexts/song-wang-phase9.json')['records']
+  cls.ch=[read(R/f'corpus/songshu/{n}.json')for n in ['042','063-wanghua-tanshou']];cls.ps={p['id']:(c['id'],p)for c in cls.ch for p in c['paragraphs']};cls.ms={m['id']:(c['id'],p['id'],m)for c in cls.ch for p in c['paragraphs']for m in p['mentions']};cls.events={e['id']:e for n in ['042','063-wanghua-tanshou']for e in read(R/f'corpus/songshu/{n}-life-events.json')['events']};cls.hs=[h for n in ['042','063-wanghua-tanshou']for h in read(R/f'corpus/songshu/{n}-titles.json')['holdings']]
+  cls.gifts = [h for h in cls.hs if h.get('posthumous_basis', {}).get('kind') == 'explicit_topic_scoped_gift_with_sovereign_reference']
+  cls.fiefs=[h for h in cls.hs if h['mode']=='posthumous_enfeoffment'];cls.ctx=read(R/'corpus/calendar-contexts/song-wang-phase9.json')['records']
  def gv(self,h,ps=None,ms=None,events=None):return explicit_topic_gift_valid(h,ps or self.ps,ms or self.ms,events or self.events)
+ def referenced_gift(self, holding):
+  return referenced_gift_valid(holding, self.ch[0], self.ps, self.ms, self.events)
  def test_nonzero_topic_and_sovereign_reply_gifts(self):
-  self.assertEqual(len(self.gifts),2)
-  for h in self.gifts:self.assertGreater(self.ms[h['posthumous_basis']['topic_person_mention_id']][2]['start'],0);self.assertTrue(self.gv(h))
+  self.assertEqual({holding['title'] for holding in self.gifts}, {'太保', '中書監'})
+  self.assertEqual(len(self.gifts), 2)
+  for holding in self.gifts:
+   basis = holding['posthumous_basis']
+   self.assertGreater(self.ms[basis['topic_person_mention_id']][2]['start'], 0)
+   self.assertNotIn(basis['sovereign_replies'][0]['person_reference_id'], self.ms)
+   self.assertTrue(self.referenced_gift(holding))
  def test_wrong_recipient_is_rejected(self):
-  h=copy.deepcopy(self.gifts[0]);h['person_id']='3bh_k4m_fg4';self.assertFalse(self.gv(h))
+  h=copy.deepcopy(self.gifts[0]);h['person_id']='3bh_k4m_fg4';self.assertFalse(self.referenced_gift(h))
  def test_emperor_cannot_replace_explicit_topic(self):
-  h=copy.deepcopy(self.gifts[0]);b=h['posthumous_basis'];b['topic_person_mention_id']=b['sovereign_replies'][0]['person_mention_id'];self.assertFalse(self.gv(h))
+  h=copy.deepcopy(self.gifts[0]);b=h['posthumous_basis'];b['topic_person_mention_id']=b['sovereign_replies'][0]['person_reference_id'];self.assertFalse(self.referenced_gift(h))
  def test_unlisted_intervening_emperor_is_not_silently_ignored(self):
-  h=copy.deepcopy(self.gifts[0]);h['posthumous_basis']['sovereign_replies']=[];self.assertFalse(self.gv(h))
+  h=copy.deepcopy(self.gifts[0]);h['posthumous_basis']['sovereign_replies']=[];self.assertFalse(self.referenced_gift(h))
  def test_grant_cannot_precede_death(self):
-  h=copy.deepcopy(self.gifts[0]);b=h['posthumous_basis'];b['death_anchor']=copy.deepcopy(b['gift_anchor']);self.assertFalse(self.gv(h))
+  h=copy.deepcopy(self.gifts[0]);b=h['posthumous_basis'];b['death_anchor']=copy.deepcopy(b['gift_anchor']);self.assertFalse(self.referenced_gift(h))
  def synthetic(self,topic_switch=False):
   text='先是陳甲寢疾，天子不許。九年，'+('陳乙卒'if topic_switch else'薨')+'。贈太保。';p=dict(id='p',text=text,text_layer='received_chapter',mentions=[])
   def mark(surface,pid):
