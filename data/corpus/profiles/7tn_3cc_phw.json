@@ -55,6 +55,54 @@
         }
       },
       "period": "未定 → 未定"
+    },
+    {
+      "id": "t-wu051-t-wu051-jing4",
+      "person_id": "7tn_3cc_phw",
+      "kind": "office",
+      "title": "太傅",
+      "mode": "attestation",
+      "status": "source_attested",
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本句所載職官，任免時間未詳。",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-051",
+          "chapter_id": "c-sanguozhi-051-jing",
+          "source_id": "s-sanguozhi-051-jing",
+          "paragraph_id": "c-sanguozhi-051-jing:line011-pei03-01",
+          "quote": "《會稽典錄》曰：昕字大明。少游京師，師事太傅陳蕃，博覽群書，明於風角，善推災異。辟太尉府，舉高第，稍遷丹楊太守。曹公起義兵，昕前後遣兵萬餘人助公征伐。袁術之在淮南也，昕惡其淫虐，絕不與通。",
+          "person_mention_id": "c-sanguozhi-051-jing:line011-pei03-01:m0022"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "t-wu051-t-wu051-jing4:a",
+          "paragraph_id": "c-sanguozhi-051-jing:line011-pei03-01",
+          "person_mention_id": "c-sanguozhi-051-jing:line011-pei03-01:m0022",
+          "start": 20,
+          "end": 22,
+          "surface": "太傅",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -233,6 +281,41 @@
       "chapter_id": "c-jinshu-043-shanjian",
       "source_id": "s-jinshu-043-shanjian",
       "work_title": "晉書"
+    },
+    {
+      "number": 51,
+      "category": "",
+      "title": "孫靜傳",
+      "paragraph_id": "c-sanguozhi-051-jing:line011-pei03-01",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "《會稽典錄》曰：昕字大明。少游京師，師事太傅陳蕃，博覽群書，明於風角，善推災異。辟太尉府，舉高第，稍遷丹楊太守。曹公起義兵，昕前後遣兵萬餘人助公征伐。袁術之在淮南也，昕惡其淫虐，絕不與通。",
+      "paragraph_ids": [
+        "c-sanguozhi-051-jing:line011-pei03-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-051-jing:line011-pei03-01:m0022"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-051-jing:line011-pei03-01:m0022": "c-sanguozhi-051-jing:line011-pei03-01"
+      },
+      "mention_id": "c-sanguozhi-051-jing:line011-pei03-01:m0022",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-051-jing:line011-pei03-01:m0022",
+          "mention_ids": [
+            "c-sanguozhi-051-jing:line011-pei03-01:m0022"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-051",
+      "chapter_id": "c-sanguozhi-051-jing",
+      "source_id": "s-sanguozhi-051-jing",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -4388,18 +4471,102 @@
           "independent_witness_is_not_repair": true
         }
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-051-jing",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-051",
+      "source_id": "s-sanguozhi-051-jing",
+      "source": {
+        "title": "三國志卷五十一·吳書六",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=12758417",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=12758417",
+        "revision_id": 12758417,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第11至11行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi051-clan/sanguozhi051-ws12758417.wikitext",
+        "raw_file_sha256": "89cbd6286667072bd18f4eb581c1ac60364c53d716dc37d7dc69d7a56065b053",
+        "wikitext_sha256": "89cbd6286667072bd18f4eb581c1ac60364c53d716dc37d7dc69d7a56065b053",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi051-jing/reading.json"
+        ]
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-wu051-zhou-teacher",
+      "subject_person_id": "lsy_sjz_pse",
+      "object_person_id": "7tn_3cc_phw",
+      "predicate": "teacher",
+      "qualifiers": {
+        "source_term": "師事太傅陳蕃",
+        "relationship_basis": "teaching"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-051",
+          "chapter_id": "c-sanguozhi-051-jing",
+          "source_id": "s-sanguozhi-051-jing",
+          "paragraph_id": "c-sanguozhi-051-jing:line011-pei03-01",
+          "quote": "《會稽典錄》曰：昕字大明。少游京師，師事太傅陳蕃，博覽群書，明於風角，善推災異。辟太尉府，舉高第，稍遷丹楊太守。曹公起義兵，昕前後遣兵萬餘人助公征伐。袁術之在淮南也，昕惡其淫虐，絕不與通。",
+          "subject_person_mention_id": "c-sanguozhi-051-jing:line011-pei03-01:m0008",
+          "object_person_mention_id": "c-sanguozhi-051-jing:line011-pei03-01:m0022"
+        }
+      ],
+      "interpretation_note": "會稽典錄明記昕師事陳蕃。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "7tn_3cc_phw": "陳蕃"
+    "7tn_3cc_phw": "陳蕃",
+    "lsy_sjz_pse": "周昕"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "7tn_3cc_phw"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-wu051-zhou-teacher",
+      "subject_person_id": "lsy_sjz_pse",
+      "object_person_id": "7tn_3cc_phw",
+      "predicate": "teacher",
+      "qualifiers": {
+        "source_term": "師事太傅陳蕃",
+        "relationship_basis": "teaching"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-051",
+          "chapter_id": "c-sanguozhi-051-jing",
+          "source_id": "s-sanguozhi-051-jing",
+          "paragraph_id": "c-sanguozhi-051-jing:line011-pei03-01",
+          "quote": "《會稽典錄》曰：昕字大明。少游京師，師事太傅陳蕃，博覽群書，明於風角，善推災異。辟太尉府，舉高第，稍遷丹楊太守。曹公起義兵，昕前後遣兵萬餘人助公征伐。袁術之在淮南也，昕惡其淫虐，絕不與通。",
+          "subject_person_mention_id": "c-sanguozhi-051-jing:line011-pei03-01:m0008",
+          "object_person_mention_id": "c-sanguozhi-051-jing:line011-pei03-01:m0022"
+        }
+      ],
+      "interpretation_note": "會稽典錄明記昕師事陳蕃。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

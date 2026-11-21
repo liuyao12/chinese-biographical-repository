@@ -115,6 +115,41 @@
       "chapter_id": "c-nanshi-012-zhangshangrou",
       "source_id": "s-nanshi-012-zhangshangrou-ws2060595",
       "work_title": "南史"
+    },
+    {
+      "number": 160,
+      "category": "",
+      "title": "資治通鑑卷一百六十·貞陽侯淵明父",
+      "paragraph_id": "c-zizhitongjian-160-wangyang-yuanming:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "淵明，懿之子",
+      "paragraph_ids": [
+        "c-zizhitongjian-160-wangyang-yuanming:p001"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-160-wangyang-yuanming:p001:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-160-wangyang-yuanming:p001:m0003": "c-zizhitongjian-160-wangyang-yuanming:p001"
+      },
+      "mention_id": "c-zizhitongjian-160-wangyang-yuanming:p001:m0003",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-160-wangyang-yuanming:p001:m0003",
+          "mention_ids": [
+            "c-zizhitongjian-160-wangyang-yuanming:p001:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-160",
+      "chapter_id": "c-zizhitongjian-160-wangyang-yuanming",
+      "source_id": "s-zizhitongjian-160-wangyang-yuanming-ws803200",
+      "work_title": "資治通鑑"
     }
   ],
   "table_occurrences": [],
@@ -207,6 +242,29 @@
             "relationship": "同修訂先前已發的首段與穆之首句節本。"
           }
         ]
+      }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-160-wangyang-yuanming",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-160",
+      "source_id": "s-zizhitongjian-160-wangyang-yuanming-ws803200",
+      "source": {
+        "title": "資治通鑑卷一百六十·貞陽侯淵明父",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=803200",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=803200",
+        "revision_id": 803200,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "資治通鑑卷一百六十·貞陽侯淵明父",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/chenshu023-shenwanglu/tongjian160-ws803200.wikitext",
+        "raw_file_sha256": "622489d09d8bdf2c44f9027ba7cc8628ad3ec1d241281df1ae4408b5584ba8d8"
       }
     }
   ],
@@ -331,12 +389,40 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-chen023-yuanming-father",
+      "subject_person_id": "qvt_eq1_lcf_ACA",
+      "object_person_id": "qvt_eq1_lcf_AC",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "懿之子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-160",
+          "chapter_id": "c-zizhitongjian-160-wangyang-yuanming",
+          "source_id": "s-zizhitongjian-160-wangyang-yuanming-ws803200",
+          "paragraph_id": "c-zizhitongjian-160-wangyang-yuanming:p001",
+          "quote": "淵明，懿之子",
+          "subject_person_mention_id": "c-zizhitongjian-160-wangyang-yuanming:p001:m0000",
+          "object_person_mention_id": "c-zizhitongjian-160-wangyang-yuanming:p001:m0003"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "通鑑將淵明與會理的父親分敘，淵明父為懿。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "related_people": {
     "1dq_vh2_eru_*****AA": "張尚柔（梁太祖獻皇后）",
     "qvt_eq1_lcf_A": "蕭順之",
-    "qvt_eq1_lcf_AC": "蕭懿（長沙宣武王）"
+    "qvt_eq1_lcf_AC": "蕭懿（長沙宣武王）",
+    "qvt_eq1_lcf_ACA": "蕭淵明（梁貞陽侯，長沙宣武王懿子）"
   },
   "dates": [],
   "name_components": [],
@@ -481,6 +567,33 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-chen023-yuanming-father",
+      "subject_person_id": "qvt_eq1_lcf_ACA",
+      "object_person_id": "qvt_eq1_lcf_AC",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "懿之子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-160",
+          "chapter_id": "c-zizhitongjian-160-wangyang-yuanming",
+          "source_id": "s-zizhitongjian-160-wangyang-yuanming-ws803200",
+          "paragraph_id": "c-zizhitongjian-160-wangyang-yuanming:p001",
+          "quote": "淵明，懿之子",
+          "subject_person_mention_id": "c-zizhitongjian-160-wangyang-yuanming:p001:m0000",
+          "object_person_mention_id": "c-zizhitongjian-160-wangyang-yuanming:p001:m0003"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "通鑑將淵明與會理的父親分敘，淵明父為懿。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     }
   ],
   "age_assertions": [],

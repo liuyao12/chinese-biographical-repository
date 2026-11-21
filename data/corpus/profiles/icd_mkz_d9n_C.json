@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "id": "icd_mkz_d9n_C",
+  "canonical_person_id": "icd_mkz_d9n_C",
+  "label": "陳叔獻（字子恭，河東王）",
+  "identity_note": "高宗第九子、錢貴妃所生。",
+  "review": "ai_provisional",
+  "names": [
+    "叔獻",
+    "子恭"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 28,
+      "category": "",
+      "title": "文帝後嗣、宣帝后妃、始興王之亂",
+      "paragraph_id": "c-chenshu-028-liujingyan-children:p002",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "錢貴妃生河東王叔獻",
+      "paragraph_ids": [
+        "c-chenshu-028-liujingyan-children:p002",
+        "c-chenshu-028-liujingyan-children:p004"
+      ],
+      "mention_ids": [
+        "c-chenshu-028-liujingyan-children:p002:m0007",
+        "c-chenshu-028-liujingyan-children:p004:m0003",
+        "c-chenshu-028-liujingyan-children:p004:m0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-028-liujingyan-children:p002:m0007": "c-chenshu-028-liujingyan-children:p002",
+        "c-chenshu-028-liujingyan-children:p004:m0003": "c-chenshu-028-liujingyan-children:p004",
+        "c-chenshu-028-liujingyan-children:p004:m0006": "c-chenshu-028-liujingyan-children:p004"
+      },
+      "mention_id": "c-chenshu-028-liujingyan-children:p002:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-028-liujingyan-children:p002:m0007",
+          "mention_ids": [
+            "c-chenshu-028-liujingyan-children:p002:m0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-chenshu-028-liujingyan-children:p004:m0003",
+          "mention_ids": [
+            "c-chenshu-028-liujingyan-children:p004:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-chenshu-028-liujingyan-children:p004:m0006",
+          "mention_ids": [
+            "c-chenshu-028-liujingyan-children:p004:m0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-028",
+      "chapter_id": "c-chenshu-028-liujingyan-children",
+      "source_id": "s-chenshu-028-liujingyan-children-ws2581394",
+      "work_title": "陳書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-chenshu-028-liujingyan-children",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-028",
+      "source_id": "s-chenshu-028-liujingyan-children-ws2581394",
+      "source": {
+        "title": "陳書卷28·文帝後嗣、宣帝后妃、始興王之亂",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2581394",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2581394",
+        "revision_id": 2581394,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "身分、世系及母乳別稱等所據條文。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi024-wangmeng/ws2581394.wikitext",
+        "raw_file_sha256": "e4a6c9d3897edce6fc1beec7f9361b161dde98145ff61c6b9b15026703f78dd6",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "文帝後嗣、宣帝后妃、始興王之亂"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-nan012-liujingyan-d-xian",
+      "subject_person_id": "icd_mkz_d9n_C",
+      "object_person_id": "b13_njz_24q",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "錢貴妃生",
+        "nan012_liujingyan_reading": "d-xian"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-028",
+          "source_id": "s-chenshu-028-liujingyan-children-ws2581394",
+          "chapter_id": "c-chenshu-028-liujingyan-children",
+          "paragraph_id": "c-chenshu-028-liujingyan-children:p002",
+          "quote": "錢貴妃生河東王叔獻",
+          "subject_person_mention_id": "c-chenshu-028-liujingyan-children:p002:m0007",
+          "object_person_mention_id": "c-chenshu-028-liujingyan-children:p002:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-028-liujingyan-children:p002",
+            "surface": "錢貴妃生",
+            "start": 0,
+            "end": 4
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "錢貴妃生河東王叔獻。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan012-liujingyan-d-xianfu",
+      "subject_person_id": "icd_mkz_d9n_C",
+      "object_person_id": "icd_mkz_d9n",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高宗第九子",
+        "nan012_liujingyan_reading": "d-xianfu",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第九子",
+          "source_number": "九",
+          "ordinal": 9,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "icd_mkz_d9n",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-028",
+          "source_id": "s-chenshu-028-liujingyan-children-ws2581394",
+          "chapter_id": "c-chenshu-028-liujingyan-children",
+          "paragraph_id": "c-chenshu-028-liujingyan-children:p004",
+          "quote": "河東王叔獻字子恭，高宗第九子也。",
+          "subject_person_mention_id": "c-chenshu-028-liujingyan-children:p004:m0003",
+          "object_person_reference_id": "c-chenshu-028-liujingyan-children:p004:r0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-028-liujingyan-children:p004",
+            "surface": "高宗第九子",
+            "start": 9,
+            "end": 14
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "高宗第九子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "b13_njz_24q": "錢貴妃（陳宣帝元配）",
+    "icd_mkz_d9n": "陳宣帝頊",
+    "icd_mkz_d9n_C": "陳叔獻（字子恭，河東王）"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "nc-nan012-liujingyan-叔獻",
+      "person_id": "icd_mkz_d9n_C",
+      "ming": "叔獻",
+      "zi": "子恭",
+      "additional_names": [],
+      "chapter_id": "c-chenshu-028-liujingyan-children",
+      "paragraph_id": "c-chenshu-028-liujingyan-children:p004",
+      "quote": "河東王叔獻字子恭，高宗第九子也。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "surname": "陳",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-028",
+      "source_id": "s-chenshu-028-liujingyan-children-ws2581394"
+    }
+  ],
+  "person_ids": [
+    "icd_mkz_d9n_C"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-nan012-liujingyan-d-xian",
+      "subject_person_id": "icd_mkz_d9n_C",
+      "object_person_id": "b13_njz_24q",
+      "predicate": "mother",
+      "qualifiers": {
+        "source_term": "錢貴妃生",
+        "nan012_liujingyan_reading": "d-xian"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-028",
+          "source_id": "s-chenshu-028-liujingyan-children-ws2581394",
+          "chapter_id": "c-chenshu-028-liujingyan-children",
+          "paragraph_id": "c-chenshu-028-liujingyan-children:p002",
+          "quote": "錢貴妃生河東王叔獻",
+          "subject_person_mention_id": "c-chenshu-028-liujingyan-children:p002:m0007",
+          "object_person_mention_id": "c-chenshu-028-liujingyan-children:p002:m0000",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-028-liujingyan-children:p002",
+            "surface": "錢貴妃生",
+            "start": 0,
+            "end": 4
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "錢貴妃生河東王叔獻。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan012-liujingyan-d-xianfu",
+      "subject_person_id": "icd_mkz_d9n_C",
+      "object_person_id": "icd_mkz_d9n",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "高宗第九子",
+        "nan012_liujingyan_reading": "d-xianfu",
+        "lineage": "paternal",
+        "birth_order": {
+          "source_term": "第九子",
+          "source_number": "九",
+          "ordinal": 9,
+          "position": "unspecified",
+          "scope": "sons_of_parent",
+          "parent_person_id": "icd_mkz_d9n",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-028",
+          "source_id": "s-chenshu-028-liujingyan-children-ws2581394",
+          "chapter_id": "c-chenshu-028-liujingyan-children",
+          "paragraph_id": "c-chenshu-028-liujingyan-children:p004",
+          "quote": "河東王叔獻字子恭，高宗第九子也。",
+          "subject_person_mention_id": "c-chenshu-028-liujingyan-children:p004:m0003",
+          "object_person_reference_id": "c-chenshu-028-liujingyan-children:p004:r0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-028-liujingyan-children:p004",
+            "surface": "高宗第九子",
+            "start": 9,
+            "end": 14
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "高宗第九子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

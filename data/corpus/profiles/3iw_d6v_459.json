@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "3iw_d6v_459",
+  "canonical_person_id": "3iw_d6v_459",
+  "label": "蔡大同（蔡景歷父）",
+  "identity_note": "陳十六本傳記其記室。",
+  "review": "ai_provisional",
+  "names": [
+    "大同"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 16,
+      "category": "",
+      "title": "蔡景歷傳首與父大同",
+      "paragraph_id": "c-chenshu-016-zhangyaoer-cai:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "蔡景歷字茂世，濟陽考城人也。祖點，梁尚書左民侍郎。父大同，輕車岳陽王記室參軍，掌京邑行選。",
+      "paragraph_ids": [
+        "c-chenshu-016-zhangyaoer-cai:p001"
+      ],
+      "mention_ids": [
+        "c-chenshu-016-zhangyaoer-cai:p001:m0026"
+      ],
+      "mention_paragraph_ids": {
+        "c-chenshu-016-zhangyaoer-cai:p001:m0026": "c-chenshu-016-zhangyaoer-cai:p001"
+      },
+      "mention_id": "c-chenshu-016-zhangyaoer-cai:p001:m0026",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-chenshu-016-zhangyaoer-cai:p001:m0026",
+          "mention_ids": [
+            "c-chenshu-016-zhangyaoer-cai:p001:m0026"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-016",
+      "chapter_id": "c-chenshu-016-zhangyaoer-cai",
+      "source_id": "s-chenshu-016-zhangyaoer-cai-ws2261985",
+      "work_title": "陳書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-chenshu-016-zhangyaoer-cai",
+      "work_id": "w-chenshu",
+      "book_id": "b-chenshu-016",
+      "source_id": "s-chenshu-016-zhangyaoer-cai-ws2261985",
+      "source": {
+        "title": "陳書卷16·蔡景歷傳首與父大同",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2261985",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2261985",
+        "revision_id": 2261985,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "親屬、身分或紀日的旁證。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan012-zhangyaoer/ws2261985.wikitext",
+        "raw_file_sha256": "93ddd35267caafbc6a93d4c6b04adc977c6c3f3ea4f8d44c5e139f2bc772d787",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "蔡景歷傳首與父大同"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-nan012-zhangyaoer-p-father",
+      "subject_person_id": "3iw_d6v_459_A",
+      "object_person_id": "3iw_d6v_459",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父大同",
+        "nan012_zhangyaoer_reading": "p-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-016",
+          "source_id": "s-chenshu-016-zhangyaoer-cai-ws2261985",
+          "chapter_id": "c-chenshu-016-zhangyaoer-cai",
+          "paragraph_id": "c-chenshu-016-zhangyaoer-cai:p001",
+          "quote": "蔡景歷字茂世，濟陽考城人也。祖點，梁尚書左民侍郎。父大同，輕車岳陽王記室參軍，掌京邑行選。",
+          "subject_person_mention_id": "c-chenshu-016-zhangyaoer-cai:p001:m0000",
+          "object_person_mention_id": "c-chenshu-016-zhangyaoer-cai:p001:m0026",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-016-zhangyaoer-cai:p001",
+            "surface": "父大同",
+            "start": 25,
+            "end": 28
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "蔡景歷本傳明載父大同。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "3iw_d6v_459": "蔡大同（蔡景歷父）",
+    "3iw_d6v_459_A": "蔡景歷（字茂世，南史作蔡景曆）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "3iw_d6v_459"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-nan012-zhangyaoer-p-father",
+      "subject_person_id": "3iw_d6v_459_A",
+      "object_person_id": "3iw_d6v_459",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父大同",
+        "nan012_zhangyaoer_reading": "p-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-016",
+          "source_id": "s-chenshu-016-zhangyaoer-cai-ws2261985",
+          "chapter_id": "c-chenshu-016-zhangyaoer-cai",
+          "paragraph_id": "c-chenshu-016-zhangyaoer-cai:p001",
+          "quote": "蔡景歷字茂世，濟陽考城人也。祖點，梁尚書左民侍郎。父大同，輕車岳陽王記室參軍，掌京邑行選。",
+          "subject_person_mention_id": "c-chenshu-016-zhangyaoer-cai:p001:m0000",
+          "object_person_mention_id": "c-chenshu-016-zhangyaoer-cai:p001:m0026",
+          "relationship_anchor": {
+            "paragraph_id": "c-chenshu-016-zhangyaoer-cai:p001",
+            "surface": "父大同",
+            "start": 25,
+            "end": 28
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "蔡景歷本傳明載父大同。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

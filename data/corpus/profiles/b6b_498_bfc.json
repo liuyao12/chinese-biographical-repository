@@ -6,7 +6,8 @@
   "identity_note": "本固定卷010單元及獨立大阪1670接口內辨識；正文與裴注、引古、書信及作者分域。未補本傳之外出生、母親、任職年代；異名疑讀另留未決。",
   "review": "ai_provisional",
   "names": [
-    "李術"
+    "李術",
+    "李术"
   ],
   "titles": [],
   "addresses": [],
@@ -79,6 +80,41 @@
       "book_id": "b-sanguozhi-050",
       "chapter_id": "c-sanguozhi-050-xu",
       "source_id": "s-sanguozhi-050-xu",
+      "work_title": "三國志"
+    },
+    {
+      "number": 51,
+      "category": "",
+      "title": "孫韶傳",
+      "paragraph_id": "c-sanguozhi-051-shao:line047-pei01-01",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "常为前驱，后领左右兵，典知内事，待以腹心之任。又从策平定吴、会，从权讨李术，术破，拜威寇中郎将，领庐江太守。",
+      "paragraph_ids": [
+        "c-sanguozhi-051-shao:line047-pei01-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-051-shao:line047-pei01-01:m0085"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-051-shao:line047-pei01-01:m0085": "c-sanguozhi-051-shao:line047-pei01-01"
+      },
+      "mention_id": "c-sanguozhi-051-shao:line047-pei01-01:m0085",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-051-shao:line047-pei01-01:m0085",
+          "mention_ids": [
+            "c-sanguozhi-051-shao:line047-pei01-01:m0085"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-051",
+      "chapter_id": "c-sanguozhi-051-shao",
+      "source_id": "s-sanguozhi-051-shao",
       "work_title": "三國志"
     }
   ],
@@ -3846,6 +3882,33 @@
         "wikitext_sha256": "e659e249b19bdabcb106007f54dab1a9fa5bd666d3e57e21f0a6eaa37ba9b1a6",
         "collation_witnesses": [
           "source-evidence/sanguozhi050-xu/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-051-shao",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-051",
+      "source_id": "s-sanguozhi-051-shao",
+      "source": {
+        "title": "三國志卷五十一·吳書六",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=12758417",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=12758417",
+        "revision_id": 12758417,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定修訂，裴注與正文分層。",
+        "extent": "第47至53行。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/sanguozhi051-clan/sanguozhi051-ws12758417.wikitext",
+        "raw_file_sha256": "89cbd6286667072bd18f4eb581c1ac60364c53d716dc37d7dc69d7a56065b053",
+        "wikitext_sha256": "89cbd6286667072bd18f4eb581c1ac60364c53d716dc37d7dc69d7a56065b053",
+        "collation_witnesses": [
+          "source-evidence/sanguozhi051-shao/reading.json"
         ]
       }
     }
