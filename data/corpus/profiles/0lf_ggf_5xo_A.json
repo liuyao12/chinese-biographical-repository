@@ -9,7 +9,67 @@
     "張緬",
     "元長"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nan023-wangxi-m1-129-0lf_ggf_5xo_A",
+      "person_id": "0lf_ggf_5xo_A",
+      "title": "學士",
+      "kind": "office",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-nan023-wangxi-m1-129-0lf_ggf_5xo_A:a",
+          "person_mention_id": "c-nanshi-023-wangxi-qian:p001:m0126",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanshi-023-wangxi-qian:p001",
+          "surface": "學士",
+          "start": 129,
+          "end": 131
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-nanshi",
+              "book_id": "b-nanshi-023",
+              "source_id": "s-nanshi-023-wangxi-qian-ws2478204",
+              "chapter_id": "c-nanshi-023-wangxi-qian",
+              "paragraph_id": "c-nanshi-023-wangxi-qian:p001",
+              "quote": "銓弟錫字公嘏，幼而警悟，與兄弟受業，至應休散，輒獨留不起，精力不倦，致損右目。十二為國子生，十四舉清茂，除秘書郎，再遷太子洗馬。時昭明太子尚幼，武帝敕錫與秘書郎張纘使入宮，不限日數。與太子游狎，情兼師友。又敕陸倕、張率、謝舉、王規、王筠、劉孝綽、到洽、張緬為學士，十人盡一時之選。錫以戚屬，封永安侯。",
+              "person_mention_id": "c-nanshi-023-wangxi-qian:p001:m0126"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangxi-qian-ws2478204",
+          "chapter_id": "c-nanshi-023-wangxi-qian",
+          "paragraph_id": "c-nanshi-023-wangxi-qian:p001",
+          "quote": "銓弟錫字公嘏，幼而警悟，與兄弟受業，至應休散，輒獨留不起，精力不倦，致損右目。十二為國子生，十四舉清茂，除秘書郎，再遷太子洗馬。時昭明太子尚幼，武帝敕錫與秘書郎張纘使入宮，不限日數。與太子游狎，情兼師友。又敕陸倕、張率、謝舉、王規、王筠、劉孝綽、到洽、張緬為學士，十人盡一時之選。錫以戚屬，封永安侯。",
+          "person_mention_id": "c-nanshi-023-wangxi-qian:p001:m0126"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -45,6 +105,41 @@
       "book_id": "b-nanshi-022",
       "chapter_id": "c-nanshi-022-wanggui",
       "source_id": "s-nanshi-022-wanggui-ws1477957",
+      "work_title": "南史"
+    },
+    {
+      "number": 23,
+      "category": "",
+      "title": "王錫（字公嘏）、王僉",
+      "paragraph_id": "c-nanshi-023-wangxi-qian:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "與太子游狎，情兼師友。又敕陸倕、張率、謝舉、王規、王筠、劉孝綽、到洽、張緬為學士，十人盡一時之選。錫以戚屬，封永安侯。",
+      "paragraph_ids": [
+        "c-nanshi-023-wangxi-qian:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-023-wangxi-qian:p001:m0126"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-023-wangxi-qian:p001:m0126": "c-nanshi-023-wangxi-qian:p001"
+      },
+      "mention_id": "c-nanshi-023-wangxi-qian:p001:m0126",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-023-wangxi-qian:p001:m0126",
+          "mention_ids": [
+            "c-nanshi-023-wangxi-qian:p001:m0126"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "chapter_id": "c-nanshi-023-wangxi-qian",
+      "source_id": "s-nanshi-023-wangxi-qian-ws2478204",
       "work_title": "南史"
     },
     {
@@ -150,6 +245,63 @@
           "character_conversion": {},
           "extraction_note": "僅去不轉換標記的界符。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-023-wangxi-qian",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-023",
+      "source_id": "s-nanshi-023-wangxi-qian-ws2478204",
+      "source": {
+        "title": "南史卷23·王錫（字公嘏）、王僉",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2478204",
+        "revision_id": 2478204,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "固定修訂第153至159行，含段內子孫記載。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+        "raw_file_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "逐碼取原行，數位校者夾注分層另據原始字位查核。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                154,
+                154
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                156,
+                156
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            },
+            {
+              "source_lines": [
+                158,
+                158
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2478204
+            }
+          ]
+        },
+        "section_locator": "王銓傳後，銓弟錫與錫弟僉，末接僉弟通"
       }
     }
   ],

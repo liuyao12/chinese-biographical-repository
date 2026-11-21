@@ -1,0 +1,106 @@
+{
+  "witnesses": {
+    "j81": {
+      "title": "晉書卷八十一",
+      "revision_id": 11237683,
+      "url": "https://zh.wikisource.org/w/index.php?oldid=11237683",
+      "raw_path": "source-evidence/jin098-wang-han-ying/external/j81-ws11237683.wikitext",
+      "raw_sha256": "3140ce59998afa4ece0b29670f21e783ad88578b06781c384eb4b767a2fce698"
+    },
+    "j44": {
+      "title": "晉書卷四十四",
+      "revision_id": 1775345,
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1775345",
+      "raw_path": "source-evidence/jin067-wenqiao-main/external/j44-ws1775345.wikitext",
+      "raw_sha256": "09742e651b479fea881fd24c7734451de2b78b9f0410adda36ba210c31a0b5c8"
+    },
+    "tang": {
+      "title": "新唐書卷七十二中溫氏譜序",
+      "revision_id": 1519175,
+      "url": "https://zh.wikisource.org/w/index.php?oldid=1519175",
+      "raw_path": "source-evidence/jin080-wang-xizhi/external/xin-ws1519175.wikitext",
+      "raw_sha256": "ea728128bc6f1ba65868661e796eda6397a5d3c7af96e1fb9306dd608facafbc"
+    }
+  },
+  "source_clauses": [
+    {
+      "witness": "j81",
+      "quote": "及蘇峻反，平南將軍溫嶠遣嶽與督護王愆期、鄱陽太守紀睦等率舟軍赴難。",
+      "raw_start": 11710,
+      "raw_end": 11743,
+      "raw_line": 137
+    },
+    {
+      "witness": "j81",
+      "quote": "王敦素與胤交，甚欽貴之，請為右司馬。胤知敦有不臣心，枕疾不視事，以是忤敦意",
+      "raw_start": 2590,
+      "raw_end": 2627,
+      "raw_line": 29
+    },
+    {
+      "witness": "j81",
+      "quote": "含敗，隨丹陽尹溫嶠追含至於淮南",
+      "raw_start": 11219,
+      "raw_end": 11234,
+      "raw_line": 127
+    },
+    {
+      "witness": "j81",
+      "quote": "蘇峻作亂，溫嶠率眾而下，留胤等守溢口。事平，以勳賜爵豐城子。俄而代嶠為平南將軍、都督江州諸軍事、領江州刺史、假節。",
+      "raw_start": 2706,
+      "raw_end": 2763,
+      "raw_line": 29
+    },
+    {
+      "witness": "j44",
+      "quote": "父恭，濟南太守。兄弟六人並知名於世，號曰「六龍」。",
+      "raw_start": 9582,
+      "raw_end": 9607,
+      "raw_line": 122
+    },
+    {
+      "witness": "tang",
+      "quote": "生濟南太守恭。恭二子：羨、憺。",
+      "raw_start": 31810,
+      "raw_end": 31825,
+      "raw_line": 836
+    }
+  ],
+  "different_counts": {
+    "jin": {
+      "quote": "父恭，濟南太守。兄弟六人並知名於世，號曰「六龍」。",
+      "reported_count": 6,
+      "scope": "溫羨兄弟"
+    },
+    "later_genealogy": {
+      "quote": "生濟南太守恭。恭二子：羨、憺。",
+      "count_of_named_sons": 2,
+      "scope": "溫恭子"
+    },
+    "note": "晉傳稱兄弟六人，宋人所修新唐書譜序只列恭二子，不據該譜補四人名或把兩條數字改寫成相同。"
+  },
+  "military_identities": [
+    {
+      "source_term": "鄱陽內史紀瞻",
+      "preferred_person_id": "8x8_lf1_wwn",
+      "excluded_person_id": "23e_6ed_438",
+      "clause": "及蘇峻反，平南將軍溫嶠遣嶽與督護王愆期、鄱陽太守紀睦等率舟軍赴難。",
+      "note": "卷八十一鄧嶽傳與成帝紀共同記王愆期、鄧嶽、紀睦。"
+    },
+    {
+      "source_term": "劉遐",
+      "preferred_person_id": "1eg_4i2_q9u",
+      "clause": "含敗，隨丹陽尹溫嶠追含至於淮南",
+      "note": "劉遐本傳也記王含敗後隨丹陽尹溫嶠追含。"
+    },
+    {
+      "source_term": "劉胤",
+      "preferred_person_id": "rg5_13g_vsn",
+      "clauses": [
+        "王敦素與胤交，甚欽貴之，請為右司馬。胤知敦有不臣心，枕疾不視事，以是忤敦意",
+        "蘇峻作亂，溫嶠率眾而下，留胤等守溢口。事平，以勳賜爵豐城子。俄而代嶠為平南將軍、都督江州諸軍事、領江州刺史、假節。"
+      ],
+      "note": "此人先事敦，後守溢口、代溫嶠領江州。"
+    }
+  ]
+}

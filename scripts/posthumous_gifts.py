@@ -5,6 +5,10 @@ def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
     basis = holding.get('posthumous_basis')
     if not isinstance(basis, dict):
         return False
+    if basis.get('kind') == 'qi020_huiduan_named_gifts':
+        try: from scripts.qi020_huiduan import grant_valid
+        except ImportError: from qi020_huiduan import grant_valid
+        return grant_valid(holding, paragraphs, mentions)
     if basis.get('kind') == 'named_posthumous_recipient_coordinated_gift':
         try: from scripts.coordinated_posthumous_gift import validate
         except ImportError: from coordinated_posthumous_gift import validate

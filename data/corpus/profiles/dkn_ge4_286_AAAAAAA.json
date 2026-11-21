@@ -668,6 +668,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 33,
+      "category": "",
+      "title": "世說新語尤悔·溫嶠對讀",
+      "paragraph_id": "c-shishuoxinyu-033-jin067-wenqiao:yuyu",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "元帝即位，以溫嶠為散騎侍郎。嶠以母亡，逼賊，不得往臨葬，固辭。",
+      "paragraph_ids": [
+        "c-shishuoxinyu-033-jin067-wenqiao:yuyu"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-033-jin067-wenqiao:yuyu:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-033-jin067-wenqiao:yuyu:m0000": "c-shishuoxinyu-033-jin067-wenqiao:yuyu"
+      },
+      "mention_id": "c-shishuoxinyu-033-jin067-wenqiao:yuyu:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-033-jin067-wenqiao:yuyu:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-033-jin067-wenqiao:yuyu:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-033",
+      "chapter_id": "c-shishuoxinyu-033-jin067-wenqiao",
+      "source_id": "s-shishuoxinyu-033-jin067-wenqiao",
+      "work_title": "世說新語"
+    },
+    {
       "number": 35,
       "category": "",
       "title": "裴楷及附傳近系",
@@ -1591,23 +1626,33 @@
       "number": 67,
       "category": "",
       "title": "晉書卷六十七·溫嶠傳",
-      "paragraph_id": "c-jinshu-067-wenqiao:line062",
-      "count": 1,
-      "raw_count": 1,
+      "paragraph_id": "c-jinshu-067-wenqiao:line016",
+      "count": 2,
+      "raw_count": 2,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
-      "quote": "初葬于豫章，後朝廷追嶠勳德，將為造大墓於元明二帝陵之北，陶侃上表曰：「故大將軍嶠忠誠著於聖世，勳義感于人神，非臣筆墨所能稱陳。臨卒之際，與臣書別，臣藏之篋笥，時時省視，每一思述，未嘗不中夜撫膺，臨飯酸噎。'人之云亡'，嶠實當之。謹寫嶠書上呈，",
+      "quote": "屬二都傾覆，社稷絕祀，元帝初鎮江左，琨誠繫王室，謂嶠曰：「昔班彪識劉氏之復興，馬援知漢光之可輔。今晉祚雖衰，天命未改，吾欲立功河朔，使卿延譽江南，子其行乎？」對曰：「嶠雖無管張之才，而明公有桓文之志，欲建匡合之功，豈敢辭命。」",
       "paragraph_ids": [
+        "c-jinshu-067-wenqiao:line016",
         "c-jinshu-067-wenqiao:line062"
       ],
       "mention_ids": [
+        "c-jinshu-067-wenqiao:line016:m0011",
         "c-jinshu-067-wenqiao:line062:m0020"
       ],
       "mention_paragraph_ids": {
+        "c-jinshu-067-wenqiao:line016:m0011": "c-jinshu-067-wenqiao:line016",
         "c-jinshu-067-wenqiao:line062:m0020": "c-jinshu-067-wenqiao:line062"
       },
-      "mention_id": "c-jinshu-067-wenqiao:line062:m0020",
+      "mention_id": "c-jinshu-067-wenqiao:line016:m0011",
       "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-067-wenqiao:line016:m0011",
+          "mention_ids": [
+            "c-jinshu-067-wenqiao:line016:m0011"
+          ],
+          "kind": "paragraph"
+        },
         {
           "canonical_mention_id": "c-jinshu-067-wenqiao:line062:m0020",
           "mention_ids": [
@@ -15642,7 +15687,8 @@
         "wikitext_sha256": "bfbb80734b71669aaed368f54f088c89285f1acdbe70ca678745ea9684029495",
         "raw_file_sha256": "bfbb80734b71669aaed368f54f088c89285f1acdbe70ca678745ea9684029495",
         "collation_witnesses": [
-          "source-evidence/jin067-wen-children/reading.json"
+          "source-evidence/jin067-wen-children/reading.json",
+          "source-evidence/jin067-wenqiao-main/reading.json"
         ]
       }
     },
@@ -19325,6 +19371,30 @@
       }
     },
     {
+      "chapter_id": "c-shishuoxinyu-033-jin067-wenqiao",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-033",
+      "source_id": "s-shishuoxinyu-033-jin067-wenqiao",
+      "source": {
+        "title": "世說新語尤悔",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1500491",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1500491",
+        "revision_id": 1500491,
+        "accessed_on": "2026-11-21",
+        "extent": "下列來源節錄。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "raw_path": "source-evidence/jin067-wenqiao-main/external/you-ws1500491.wikitext",
+        "wikitext_sha256": "501c1702e0a5958c5d79fc609eaf2666d743c2e60f57bf3fb8465f84f6c6249c",
+        "raw_file_sha256": "501c1702e0a5958c5d79fc609eaf2666d743c2e60f57bf3fb8465f84f6c6249c"
+      }
+    },
+    {
       "chapter_id": "c-songshu-046-wangyi",
       "work_id": "w-songshu",
       "book_id": "b-songshu-046",
@@ -19969,6 +20039,36 @@
       "book_id": "b-jinshu-065",
       "work_id": "w-jinshu",
       "source_id": "s-jinshu-065-wangdao-family"
+    },
+    {
+      "id": "c-jinshu-067-wenqiao:line016:r0170",
+      "paragraph_id": "c-jinshu-067-wenqiao:line016",
+      "start": 170,
+      "end": 171,
+      "surface": "帝",
+      "person_id": "dkn_ge4_286_AAAAAAA",
+      "referent_role": "third_person",
+      "quote": "望，辭旨慷慨。舉朝屬目，帝器而嘉焉。王導、周顗、謝",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-067-wenqiao",
+      "book_id": "b-jinshu-067",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-067-wenqiao"
+    },
+    {
+      "id": "c-jinshu-067-wenqiao:line016:r0287",
+      "paragraph_id": "c-jinshu-067-wenqiao:line016",
+      "start": 287,
+      "end": 288,
+      "surface": "帝",
+      "person_id": "dkn_ge4_286_AAAAAAA",
+      "referent_role": "third_person",
+      "quote": "宜在褒崇，以慰海內之望。帝然之。",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-067-wenqiao",
+      "book_id": "b-jinshu-067",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-067-wenqiao"
     },
     {
       "id": "c-jinshu-067-xijian:line072:r0114",

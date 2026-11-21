@@ -8,7 +8,56 @@
   "names": [
     "宗越"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-songshu-076-wangxuanmo-ws-10-111",
+      "title": "將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "2s7_zog_4me",
+      "attestations": [
+        {
+          "id": "th-songshu-076-wangxuanmo-ws-10-111:a",
+          "paragraph_id": "c-songshu-076-wangxuanmo-ws:p010",
+          "start": 111,
+          "end": 113,
+          "surface": "將軍",
+          "person_mention_id": "c-songshu-076-wangxuanmo-ws:p010:m0113",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-076",
+          "chapter_id": "c-songshu-076-wangxuanmo-ws",
+          "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726",
+          "paragraph_id": "c-songshu-076-wangxuanmo-ws:p010",
+          "quote": "明帝即位，禮遇甚優。時四方反叛，以玄謨為大統，領水軍南討，以脚疾，聽乘輿出入。尋除車騎將軍、江州刺史，副司徒建安王於赭圻，賜以諸葛亮筩袖鎧。頃之，為左光祿大夫、開府儀同三司，領護軍。遷南豫州刺史，加都督。玄謨性嚴剋少恩，而將軍宗越御下更苛酷，軍士謂之語曰：「寧作五年徒，不逢王玄謨。玄謨猶自可，宗越更殺我。」年八十一薨，諡曰莊公。",
+          "person_mention_id": "c-songshu-076-wangxuanmo-ws:p010:m0113"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -54,6 +103,50 @@
       "chapter_id": "c-songshu-076-wangxuanmo-heirs",
       "source_id": "s-songshu-076-wangxuanmo-heirs-ws1997726",
       "work_title": "宋書"
+    },
+    {
+      "number": 76,
+      "category": "",
+      "title": "王玄謨傳",
+      "paragraph_id": "c-songshu-076-wangxuanmo-ws:p010",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "夫、開府儀同三司，領護軍。遷南豫州刺史，加都督。玄謨性嚴剋少恩，而將軍宗越御下更苛酷，軍士謂之語曰：「寧作五年徒，不逢王玄謨。玄謨猶自可，宗越更殺我。」年八十一薨，諡曰莊公。",
+      "paragraph_ids": [
+        "c-songshu-076-wangxuanmo-ws:p010"
+      ],
+      "mention_ids": [
+        "c-songshu-076-wangxuanmo-ws:p010:m0113",
+        "c-songshu-076-wangxuanmo-ws:p010:m0147"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-076-wangxuanmo-ws:p010:m0113": "c-songshu-076-wangxuanmo-ws:p010",
+        "c-songshu-076-wangxuanmo-ws:p010:m0147": "c-songshu-076-wangxuanmo-ws:p010"
+      },
+      "mention_id": "c-songshu-076-wangxuanmo-ws:p010:m0113",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-076-wangxuanmo-ws:p010:m0113",
+          "mention_ids": [
+            "c-songshu-076-wangxuanmo-ws:p010:m0113"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-076-wangxuanmo-ws:p010:m0147",
+          "mention_ids": [
+            "c-songshu-076-wangxuanmo-ws:p010:m0147"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-076",
+      "chapter_id": "c-songshu-076-wangxuanmo-ws",
+      "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726",
+      "work_title": "宋書"
     }
   ],
   "table_occurrences": [],
@@ -77,6 +170,29 @@
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "extent": "王玄謨傳末、子深及孫繢附敘",
         "text_scope": "partial_chapter",
+        "raw_path": "sources/songshu/song076-ws1997726.wikitext",
+        "raw_file_sha256": "877822cd4d2b9c8c0fbad998fe4edabb3050c9588eb3336bf3f59bc1df7bba77"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-076-wangxuanmo-ws",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-076",
+      "source_id": "s-songshu-076-wangxuanmo-ws-ws1997726",
+      "source": {
+        "title": "王玄謨傳",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1997726",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1997726",
+        "revision_id": 1997726,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "王玄謨傳",
+        "text_scope": "complete_biography_unit",
         "raw_path": "sources/songshu/song076-ws1997726.wikitext",
         "raw_file_sha256": "877822cd4d2b9c8c0fbad998fe4edabb3050c9588eb3336bf3f59bc1df7bba77"
       }

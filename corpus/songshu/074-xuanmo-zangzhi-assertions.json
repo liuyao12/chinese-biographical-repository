@@ -1,0 +1,68 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-074-xuanmo-zangzhi",
+  "assertions": [
+    {
+      "id": "a-xuanmo-zangzhi-father",
+      "subject_person_id": "0zd_9uz_t7m_ABA",
+      "object_person_id": "0zd_9uz_t7m_AB",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父熹",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-074",
+          "chapter_id": "c-songshu-074-xuanmo-zangzhi",
+          "source_id": "s-songshu-074-xuanmo-zangzhi-ws2118597",
+          "paragraph_id": "c-songshu-074-xuanmo-zangzhi:p001",
+          "quote": "臧質字含文，東莞莒人。父熹字義和，武敬皇后弟也。與兄燾並好經籍。",
+          "subject_person_mention_id": "c-songshu-074-xuanmo-zangzhi:p001:m0000",
+          "object_person_mention_id": "c-songshu-074-xuanmo-zangzhi:p001:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳原詞。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-xuanmo-zang-xi-tao",
+      "subject_person_id": "fx3_a98_dj5",
+      "object_person_id": "0zd_9uz_t7m_AB",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "與兄燾",
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "siblings",
+          "older_person_id": "fx3_a98_dj5",
+          "younger_person_id": "0zd_9uz_t7m_AB",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-074",
+          "chapter_id": "c-songshu-074-xuanmo-zangzhi",
+          "source_id": "s-songshu-074-xuanmo-zangzhi-ws2118597",
+          "paragraph_id": "c-songshu-074-xuanmo-zangzhi:p001",
+          "quote": "臧質字含文，東莞莒人。父熹字義和，武敬皇后弟也。與兄燾並好經籍。",
+          "subject_person_mention_id": "c-songshu-074-xuanmo-zangzhi:p001:m0026",
+          "object_person_mention_id": "c-songshu-074-xuanmo-zangzhi:p001:m0012"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "明書弟，較序止於兩人。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

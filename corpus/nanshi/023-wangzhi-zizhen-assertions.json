@@ -1,0 +1,72 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+  "assertions": [
+    {
+      "id": "a-nan023-wangzhi-nephew",
+      "subject_person_id": "q7m_r8k_2vn_ABAD",
+      "object_person_id": "fo7_f8v_rmf",
+      "predicate": "maternal_uncle",
+      "qualifiers": {
+        "source_term": "武帝甥",
+        "nan023_wangzhi_reading": "nephew",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+          "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p001",
+          "quote": "質字子貞，少慷慨，涉獵書史。梁世以武帝甥，封甲口亭侯。立太子中舍人、庶子。",
+          "subject_person_mention_id": "c-nanshi-023-wangzhi-zizhen:p001:m0000",
+          "object_person_reference_id": "c-nanshi-023-wangzhi-zizhen:p001:r0017"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "梁武帝的甥。本句未稱母名，父之婚配與生母身分分列。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangzhi-gu-zhi",
+      "subject_person_id": "q7m_r8k_2vn_ABAE",
+      "object_person_id": "q7m_r8k_2vn_ABAD",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "弟固",
+        "nan023_wangzhi_reading": "gu-zhi",
+        "relative_birth_order": {
+          "older_person_id": "q7m_r8k_2vn_ABAD",
+          "younger_person_id": "q7m_r8k_2vn_ABAE",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-023",
+          "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+          "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+          "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+          "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+          "subject_person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0130",
+          "object_person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "質之弟為固。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

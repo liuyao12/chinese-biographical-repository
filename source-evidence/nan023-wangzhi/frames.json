@@ -1,0 +1,808 @@
+{
+  "c-nanshi-023-wangzhi-zizhen": {
+    "paragraph_ids": [
+      "c-nanshi-023-wangzhi-zizhen:p001",
+      "c-nanshi-023-wangzhi-zizhen:p002",
+      "c-nanshi-023-wangzhi-zizhen:p003"
+    ],
+    "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+    "source_path": "sources/nanshi/nanshi023-ws2478204.wikitext",
+    "raw_sha256": "c54bdda206986e5d4e5331144e783f163b5823855581b9833572e1982d1d4e40",
+    "revision_id": 2478204,
+    "body_sha256": "1176c3fc97b1506fe5074faeb302695ef91e1bb557eb20e7dcb418be715d8aa3",
+    "positions_sha256": "b02ca02f5ab0e03136576712c06a1471e611aeda5fef175030d116cababa7376",
+    "annotation_sha256": "067010461a7ff0efe435fdc09b3a3fc18f486d001dc193034583115b985185ce",
+    "mentions_sha256": "0194a685ff6924088770dbd0cc1a21abc141a999df218ffbf90c7a81718733db",
+    "kin": [
+      {
+        "id": "a-nan023-wangzhi-nephew",
+        "subject_person_id": "q7m_r8k_2vn_ABAD",
+        "object_person_id": "fo7_f8v_rmf",
+        "predicate": "maternal_uncle",
+        "qualifiers": {
+          "source_term": "武帝甥",
+          "nan023_wangzhi_reading": "nephew",
+          "lineage": "maternal",
+          "generation_difference": -1,
+          "mother_person_id": null
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p001",
+            "quote": "質字子貞，少慷慨，涉獵書史。梁世以武帝甥，封甲口亭侯。立太子中舍人、庶子。",
+            "subject_person_mention_id": "c-nanshi-023-wangzhi-zizhen:p001:m0000",
+            "object_person_reference_id": "c-nanshi-023-wangzhi-zizhen:p001:r0017"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "梁武帝的甥。本句未稱母名，父之婚配與生母身分分列。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "a-nan023-wangzhi-gu-zhi",
+        "subject_person_id": "q7m_r8k_2vn_ABAE",
+        "object_person_id": "q7m_r8k_2vn_ABAD",
+        "predicate": "brother",
+        "qualifiers": {
+          "source_term": "弟固",
+          "nan023_wangzhi_reading": "gu-zhi",
+          "relative_birth_order": {
+            "older_person_id": "q7m_r8k_2vn_ABAD",
+            "younger_person_id": "q7m_r8k_2vn_ABAE",
+            "operator": "lt",
+            "scope": "siblings",
+            "older_ordinal": null,
+            "younger_ordinal": null
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+            "subject_person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0130",
+            "object_person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "質之弟為固。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "offices": [
+      {
+        "id": "th-nan023-wangzhi-m1-22",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "title": "甲口亭侯",
+        "kind": "noble_rank",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nan023-wangzhi-m1-22:a",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p001:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p001",
+            "surface": "甲口亭侯",
+            "start": 22,
+            "end": 26
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-023",
+                "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+                "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+                "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p001",
+                "quote": "質字子貞，少慷慨，涉獵書史。梁世以武帝甥，封甲口亭侯。立太子中舍人、庶子。",
+                "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p001:m0000"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p001",
+            "quote": "質字子貞，少慷慨，涉獵書史。梁世以武帝甥，封甲口亭侯。立太子中舍人、庶子。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p001:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nan023-wangzhi-m1-28",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "title": "太子中舍人",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nan023-wangzhi-m1-28:a",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p001:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p001",
+            "surface": "太子中舍人",
+            "start": 28,
+            "end": 33
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p001",
+            "quote": "質字子貞，少慷慨，涉獵書史。梁世以武帝甥，封甲口亭侯。立太子中舍人、庶子。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p001:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nan023-wangzhi-m1-34",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "title": "庶子",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nan023-wangzhi-m1-34:a",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p001:m0000",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p001",
+            "surface": "庶子",
+            "start": 34,
+            "end": 36
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p001",
+            "quote": "質字子貞，少慷慨，涉獵書史。梁世以武帝甥，封甲口亭侯。立太子中舍人、庶子。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p001:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nan023-wangzhi-m2-52",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "title": "侍中",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nan023-wangzhi-m2-52:a",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p002:m0005",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p002",
+            "surface": "侍中",
+            "start": 52,
+            "end": 54
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p002",
+            "quote": "侯景濟江，質領步騎頓于宣陽門外。景軍至都，質不戰而潰，為桑門，潛匿人間。城陷後，西奔荊州。元帝承制，歷位侍中，吳州刺史，領鄱陽內史。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p002:m0005"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nan023-wangzhi-m2-55",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "title": "吳州刺史",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nan023-wangzhi-m2-55:a",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p002:m0005",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p002",
+            "surface": "吳州刺史",
+            "start": 55,
+            "end": 59
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p002",
+            "quote": "侯景濟江，質領步騎頓于宣陽門外。景軍至都，質不戰而潰，為桑門，潛匿人間。城陷後，西奔荊州。元帝承制，歷位侍中，吳州刺史，領鄱陽內史。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p002:m0005"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nan023-wangzhi-m2-61",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "title": "鄱陽內史",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nan023-wangzhi-m2-61:a",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p002:m0005",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p002",
+            "surface": "鄱陽內史",
+            "start": 61,
+            "end": 65
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-023",
+                "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+                "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+                "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p002",
+                "quote": "侯景濟江，質領步騎頓于宣陽門外。景軍至都，質不戰而潰，為桑門，潛匿人間。城陷後，西奔荊州。元帝承制，歷位侍中，吳州刺史，領鄱陽內史。",
+                "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p002:m0005"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p002",
+            "quote": "侯景濟江，質領步騎頓于宣陽門外。景軍至都，質不戰而潰，為桑門，潛匿人間。城陷後，西奔荊州。元帝承制，歷位侍中，吳州刺史，領鄱陽內史。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p002:m0005"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nan023-wangzhi-m3-89",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "title": "五兵尚書",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nan023-wangzhi-m3-89:a",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "surface": "五兵尚書",
+            "start": 89,
+            "end": 93
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-023",
+                "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+                "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+                "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+                "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+                "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nan023-wangzhi-m3-100",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "title": "司徒左長史",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nan023-wangzhi-m3-100:a",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "surface": "司徒左長史",
+            "start": 100,
+            "end": 105
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-023",
+                "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+                "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+                "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+                "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+                "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nan023-wangzhi-m3-117",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "title": "都官尚書",
+        "kind": "office",
+        "mode": "grant",
+        "attestations": [
+          {
+            "id": "th-nan023-wangzhi-m3-117:a",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "surface": "都官尚書",
+            "start": 117,
+            "end": 121
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "grant",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-023",
+                "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+                "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+                "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+                "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+                "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nan023-wangzhi-m3-39",
+        "person_id": "cea_x1n_2b8",
+        "title": "都督",
+        "kind": "office",
+        "mode": "attestation",
+        "attestations": [
+          {
+            "id": "th-nan023-wangzhi-m3-39:a",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0041",
+            "usage": "narrative",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "surface": "都督",
+            "start": 39,
+            "end": 41
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0041"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "th-nan023-wangzhi-m3-126",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "title": "安子",
+        "kind": "honorific",
+        "mode": "posthumous_naming",
+        "attestations": [
+          {
+            "id": "th-nan023-wangzhi-m3-126:a",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048",
+            "usage": "posthumous_usage",
+            "date_expression": null,
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "surface": "安子",
+            "start": 126,
+            "end": 128
+          }
+        ],
+        "effective_period": {
+          "start": {
+            "status": "source_event",
+            "event_type": "posthumous_naming",
+            "date_expression": null,
+            "evidence": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-023",
+                "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+                "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+                "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+                "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+                "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+              }
+            ]
+          },
+          "end": {
+            "status": "unknown",
+            "date_expression": null,
+            "evidence": []
+          }
+        },
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "按本見證原職名及其所屬人。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "naming_basis": {
+          "source_term": "卒，諡曰安子",
+          "death_term": "卒",
+          "evidence": [
+            {
+              "work_id": "w-nanshi",
+              "book_id": "b-nanshi-023",
+              "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+              "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+              "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+              "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+              "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+            }
+          ]
+        }
+      }
+    ],
+    "life": [
+      {
+        "id": "le-nan023-wangzhi-zhi",
+        "person_id": "q7m_r8k_2vn_ABAD",
+        "event_type": "death",
+        "source_term": "卒",
+        "source_anchor": {
+          "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+          "surface": "卒",
+          "start": 122,
+          "end": 123
+        },
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-023",
+            "source_id": "s-nanshi-023-wangzhi-zizhen-ws2478204",
+            "chapter_id": "c-nanshi-023-wangzhi-zizhen",
+            "paragraph_id": "c-nanshi-023-wangzhi-zizhen:p003",
+            "quote": "魏平荊州，侯瑱鎮盆城，與質不協，質率所部依於留異。陳永定二年，武帝命質率所部隨都督周文育討王琳。質與琳素善，或譖雲於軍中潛信交通，武帝命文育殺質，文育啟救之，獲免。文帝嗣位，以為五兵尚書。宣帝輔政，為司徒左長史。坐招聚博徒，免官。後為都官尚書。卒，諡曰安子。弟固。",
+            "person_mention_id": "c-nanshi-023-wangzhi-zizhen:p003:m0048"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "文育啟救而免誅，後仕終乃卒。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  },
+  "c-chenshu-009-houtian-father": {
+    "paragraph_ids": [
+      "c-chenshu-009-houtian-father:p001"
+    ],
+    "source_id": "s-chenshu-009-houtian-father-ws1488469",
+    "source_path": "source-evidence/nan023-wangzhi/ws1488469.wikitext",
+    "raw_sha256": "da15f285d8f4d09de023a9cea0f371ebc94b5553b63f16f3eaa8e26a3a528bb0",
+    "revision_id": 1488469,
+    "body_sha256": "bc6c03217a0f0b3a9995a8139b4a066fa20982564aea79b3cb3810cb6155c830",
+    "positions_sha256": "c87941ea04856116262a4d5635386548a052b4a95a5ee9d65ed72de01b030f33",
+    "annotation_sha256": "9e7d2bf031539ecf8e447d6e03aae2518000b2a4e88a54971ddd01540bb2099b",
+    "mentions_sha256": "82f843a117b5b7780f8de96894c173482eee65e1ed95d51af0db7325097b58d8",
+    "kin": [
+      {
+        "id": "a-nan023-wangzhi-hou-father",
+        "subject_person_id": "8fx_ugl_pnj_A",
+        "object_person_id": "8fx_ugl_pnj",
+        "predicate": "father",
+        "qualifiers": {
+          "source_term": "父弘遠",
+          "nan023_wangzhi_reading": "hou-father",
+          "lineage": "paternal"
+        },
+        "evidence": [
+          {
+            "work_id": "w-chenshu",
+            "book_id": "b-chenshu-009",
+            "source_id": "s-chenshu-009-houtian-father-ws1488469",
+            "chapter_id": "c-chenshu-009-houtian-father",
+            "paragraph_id": "c-chenshu-009-houtian-father:p001",
+            "quote": "侯瑱字伯玉，巴西充國人也。父弘遠，世為西蜀酋豪。",
+            "subject_person_mention_id": "c-chenshu-009-houtian-father:p001:m0000",
+            "object_person_mention_id": "c-chenshu-009-houtian-father:p001:m0014"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "巴西充國；父弘遠。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "offices": [],
+    "life": []
+  },
+  "c-chenshu-008-zhouwenyu-born-and-adopted-names": {
+    "paragraph_ids": [
+      "c-chenshu-008-zhouwenyu-born-and-adopted-names:p001",
+      "c-chenshu-008-zhouwenyu-born-and-adopted-names:p002",
+      "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003"
+    ],
+    "source_id": "s-chenshu-008-zhouwenyu-born-and-adopted-names-ws1750028",
+    "source_path": "source-evidence/nan023-wangzhi/ws1750028.wikitext",
+    "raw_sha256": "6d4b40ac1828910c7416f20d6b4419ee06d27a472cee729f77185ac11fbba1b4",
+    "revision_id": 1750028,
+    "body_sha256": "c500d96960cb2fc65a32025e3492efa6e866739f5fd57491d0a9b6fd5a81abe8",
+    "positions_sha256": "dbf936c16a6ab0fcd271ca28fb2636a1694a1635be9b7b1fa7b5d0a84efbc498",
+    "annotation_sha256": "1797914df9f40cbd4dbde8e69cbb4df069c6822eb91e02a018dae67d1cf2c55b",
+    "mentions_sha256": "7bf8ff812014ef13ea443511c0a11cc8e55e79e34f9ac1fadad1b9f3aa3b046e",
+    "kin": [
+      {
+        "id": "a-nan023-wangzhi-zhou-adoption",
+        "subject_person_id": "cea_x1n_2b8",
+        "object_person_id": "p30_vie_xvb",
+        "predicate": "adoptive_father",
+        "qualifiers": {
+          "source_term": "就其母請文育養為己子，母遂與之",
+          "nan023_wangzhi_reading": "zhou-adoption",
+          "adoption_basis": "explicit_maternal_consent_to_named_adopter",
+          "biological_father_person_id": null
+        },
+        "evidence": [
+          {
+            "work_id": "w-chenshu",
+            "book_id": "b-chenshu-008",
+            "source_id": "s-chenshu-008-zhouwenyu-born-and-adopted-names-ws1750028",
+            "chapter_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names",
+            "paragraph_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003",
+            "quote": "薈哀之，乃隨文育至家，就其母請文育養為己子，母遂與之。",
+            "subject_person_mention_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003:m0015",
+            "object_person_mention_id": "c-chenshu-008-zhouwenyu-born-and-adopted-names:p003:m0000"
+          }
+        ],
+        "status": "source_attested",
+        "interpretation_note": "文育與其生母分別在場，周薈向生母請求收養並獲同意。收養不變更本生父系。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "offices": [],
+    "life": []
+  }
+}
