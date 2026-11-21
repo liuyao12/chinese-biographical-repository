@@ -10,8 +10,14 @@ class WangSuiIdentity(unittest.TestCase):
   sui=next(m for m in p['mentions']if m['id'].endswith(':m0022'));wan=next(m for m in q['mentions']if m['id'].endswith(':m0001'))
   self.assertEqual((sui['surface'],wan['surface']),('王綏','萬'));self.assertEqual(sui['person_id'],wan['person_id'])
   allpeople={p['id']:p for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
-  self.assertEqual(len([m for c in [a,b]for p in c['paragraphs']for m in p['mentions']if m.get('person_id')==sui['person_id']]),7)
-  self.assertEqual({x['surface']for x in allpeople[sui['person_id']]['aliases']},{'王綏','綏','之','汝','萬'})
+  self.assertEqual(len([m for c in [a,b]for p in c['paragraphs']for m in p['mentions']if m.get('person_id')==sui['person_id']]),5)
+  self.assertEqual({x['surface']for x in allpeople[sui['person_id']]['aliases']},{'王綏','綏','萬','萬子'})
+  references = [r for r in a['annotation']['person_reference_occurrences'] if r['person_id'] == sui['person_id']]
+  self.assertEqual({(r['surface'], r['referent_role']) for r in references},
+                   {('之', 'third_person'), ('汝', 'addressee')})
+  for ref in references:
+   self.assertEqual(p['text'][ref['start']:ref['end']], ref['surface'])
+   self.assertIn(ref['quote'], p['text'])
   self.assertNotEqual(sui['person_id'],'a8f_ec8_e74_AAAAABA');self.assertNotEqual(sui['person_id'],'vk5_fsh_iyt')
   self.assertNotIn('mqn_4g3_dcx',allpeople);self.assertFalse(any('mqn_4g3_dcx'in p.get('id_aliases',[])for p in allpeople.values()))
  def test_typed_retirement_and_ancient_note_layers(self):
