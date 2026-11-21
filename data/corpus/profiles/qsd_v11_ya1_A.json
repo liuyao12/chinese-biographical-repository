@@ -13,6 +13,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 25,
+      "category": "",
+      "title": "《南史》王懿傳武英殿本傳首",
+      "paragraph_id": "c-nanshi-025-wyd-wangyi-opening:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王懿字仲德太原祁人自言漢司徒允弟幽州刺史懋七世孫也祖宏仕石季龍父苗仕苻堅皆至二千石",
+      "paragraph_ids": [
+        "c-nanshi-025-wyd-wangyi-opening:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-025-wyd-wangyi-opening:p001:m0032"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-025-wyd-wangyi-opening:p001:m0032": "c-nanshi-025-wyd-wangyi-opening:p001"
+      },
+      "mention_id": "c-nanshi-025-wyd-wangyi-opening:p001:m0032",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-025-wyd-wangyi-opening:p001:m0032",
+          "mention_ids": [
+            "c-nanshi-025-wyd-wangyi-opening:p001:m0032"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-025",
+      "chapter_id": "c-nanshi-025-wyd-wangyi-opening",
+      "source_id": "s-nanshi-025-wyd-wangyi-opening-wyd247",
+      "work_title": "南史"
+    },
+    {
       "number": 46,
       "category": "",
       "title": "王懿（字仲德）及王叡、王正脩附敘",
@@ -86,6 +121,37 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-nanshi-025-wyd-wangyi-opening",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-025",
+      "source_id": "s-nanshi-025-wyd-wangyi-opening-wyd247",
+      "source": {
+        "title": "《南史》王懿傳武英殿本傳首",
+        "provider": "國家圖書館藏武英殿本數位影像",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/NLC892-411999017142-12361_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC247%E5%86%8A.pdf#page=49",
+        "permalink": "https://upload.wikimedia.org/wikipedia/commons/a/a5/NLC892-411999017142-12361_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC247%E5%86%8A.pdf#page=49",
+        "edition": "清乾隆四年武英殿校刊《南史》卷二十五，國圖第247冊",
+        "accessed_on": "2026-11-21",
+        "extent": "第一葉上右起第七、八欄傳首，止二千石。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": true,
+        "rights": "公版古籍，據國家圖書館藏冊影像逐字轉寫。",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "raw_path": "source-evidence/nanshi025-wangyi/wyd247-wangyi-diplomatic.txt",
+        "raw_file_sha256": "9b9a01a0ff4e415e592e64cbc4096326641862ce825b9dbd865440158c803f08",
+        "pdf_sha1": "a65459e7c394a8a3a277d0274266e026405c8f4b",
+        "pdf_page": 49,
+        "leaf": "一上",
+        "half": "L",
+        "columns_from_right": [
+          7,
+          8
+        ],
+        "image_sha256": "0ea5667e7fc510ecedee33030c65789884cf954a64b35e0c0b0d427ce82ecf0a"
+      }
+    },
+    {
       "chapter_id": "c-songshu-046-wangyi",
       "work_id": "w-songshu",
       "book_id": "b-songshu-046",
@@ -144,6 +210,33 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-nan025-wyd-wangyi-father",
+      "subject_person_id": "qsd_v11_ya1_AA",
+      "object_person_id": "qsd_v11_ya1_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父苗",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-025",
+          "chapter_id": "c-nanshi-025-wyd-wangyi-opening",
+          "source_id": "s-nanshi-025-wyd-wangyi-opening-wyd247",
+          "paragraph_id": "c-nanshi-025-wyd-wangyi-opening:p001",
+          "quote": "王懿字仲德太原祁人自言漢司徒允弟幽州刺史懋七世孫也祖宏仕石季龍父苗仕苻堅皆至二千石",
+          "subject_person_mention_id": "c-nanshi-025-wyd-wangyi-opening:p001:m0000",
+          "object_person_mention_id": "c-nanshi-025-wyd-wangyi-opening:p001:m0032"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "刊本傳首明載，王允與王懋為兄弟，祖父示於本傳。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song046-wangyi-001",
       "subject_person_id": "qsd_v11_ya1_AA",
@@ -207,6 +300,21 @@
   "name_components": [],
   "source_reading_cases": [
     {
+      "id": "c-nanshi-025-wyd-wangyi-opening:fathers_service1-31",
+      "kind": "fathers_service",
+      "person_id": "qsd_v11_ya1_A",
+      "source_quote": "父苗仕苻堅",
+      "reading": "父苗仕苻堅，印本田形作苗。",
+      "note": "父苗仕苻堅，印本田形作苗。",
+      "paragraph_id": "c-nanshi-025-wyd-wangyi-opening:p001",
+      "start_codepoint": 31,
+      "end_codepoint": 36,
+      "human_reviewed": false,
+      "served_person_id": "1bd_b18_3c0",
+      "chapter_id": "c-nanshi-025-wyd-wangyi-opening",
+      "source_id": "s-nanshi-025-wyd-wangyi-opening-wyd247"
+    },
+    {
       "id": "c-songshu-046-wangyi-ws:l21s3-qsd_v11_ya1_A",
       "paragraph_id": "c-songshu-046-wangyi-ws:p001",
       "start_codepoint": 28,
@@ -229,6 +337,21 @@
   ],
   "person_references": [
     {
+      "id": "c-nanshi-025-wyd-wangyi-opening:p001:r0031",
+      "paragraph_id": "c-nanshi-025-wyd-wangyi-opening:p001",
+      "start": 31,
+      "end": 32,
+      "surface": "父",
+      "person_id": "qsd_v11_ya1_A",
+      "referent_role": "third_person",
+      "quote": "王懿字仲德太原祁人自言漢司徒允弟幽州刺史懋七世孫也祖宏仕石季龍父苗仕苻堅皆至二千石",
+      "note": "依本段敘事、稱謂及語者受者定。",
+      "chapter_id": "c-nanshi-025-wyd-wangyi-opening",
+      "book_id": "b-nanshi-025",
+      "work_id": "w-nanshi",
+      "source_id": "s-nanshi-025-wyd-wangyi-opening-wyd247"
+    },
+    {
       "start": 36,
       "end": 37,
       "surface": "父",
@@ -248,6 +371,33 @@
     "qsd_v11_ya1_A"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nan025-wyd-wangyi-father",
+      "subject_person_id": "qsd_v11_ya1_AA",
+      "object_person_id": "qsd_v11_ya1_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父苗",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-025",
+          "chapter_id": "c-nanshi-025-wyd-wangyi-opening",
+          "source_id": "s-nanshi-025-wyd-wangyi-opening-wyd247",
+          "paragraph_id": "c-nanshi-025-wyd-wangyi-opening:p001",
+          "quote": "王懿字仲德太原祁人自言漢司徒允弟幽州刺史懋七世孫也祖宏仕石季龍父苗仕苻堅皆至二千石",
+          "subject_person_mention_id": "c-nanshi-025-wyd-wangyi-opening:p001:m0000",
+          "object_person_mention_id": "c-nanshi-025-wyd-wangyi-opening:p001:m0032"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "刊本傳首明載，王允與王懋為兄弟，祖父示於本傳。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-song046-wangyi-001",
       "subject_person_id": "qsd_v11_ya1_AA",

@@ -117,6 +117,12 @@ def local_scope_valid(date, chapters):
     try:
         s=date['narrative_era_scope'];ch=chapters[s['chapter_id']]
         p=next(x for x in ch['paragraphs'] if x['id']==s['paragraph_id'])
+        if ch.get('id') == 'c-songshu-092-wangyue' and s.get('event_binding', {}).get('event_type') == 'death':
+            try:
+                from scripts.nanshi024_wangyuezhi import song_death_era_scope
+            except ImportError:
+                from nanshi024_wangyuezhi import song_death_era_scope
+            return song_death_era_scope(date, ch)
         if (s['source_id']!=ch['source_id'] or s['revision_id']!=ch['source']['revision_id']
             or s['witness_sha256']!=ch['source']['wikitext_sha256']
             or s['full_paragraph']!=p['text'] or s['source_position']!=p['source_position']

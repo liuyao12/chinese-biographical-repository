@@ -2,6 +2,28 @@
 
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
+    if holding.get('posthumous_basis', {}).get('kind') == 'jin043_shangai_gift':
+        basis = holding['posthumous_basis']
+        pid = 'c-jinshu-043-shantao:line043'
+        p = paragraphs.get(pid)
+        if p is None or holding.get('person_id') != '96a_987_925_A' or holding.get('title') != '長水校尉':
+            return False
+        if isinstance(p, tuple):
+            p = p[-1]
+        clause = '該字伯倫，嗣父爵，仕至并州刺史、太子左率，贈長水校尉。'
+        mid = pid + ':m0000'
+        at = clause.index('長水校尉')
+        return (p['text'].startswith(clause) and p['source_position']['revision_id'] == 2618531
+                and basis.get('source_term') == '贈長水校尉' and basis.get('recipient_person_mention_id') == mid
+                and any(m['id'] == mid and m['person_id'] == holding['person_id'] for m in p['mentions'])
+                and holding.get('mode') == 'posthumous_grant' and holding.get('kind') == 'office'
+                and basis.get('evidence') == holding.get('evidence') == holding.get('effective_period', {}).get('start', {}).get('evidence')
+                and len(basis['evidence']) == 1 and basis['evidence'][0]['paragraph_id'] == pid
+                and basis['evidence'][0]['person_mention_id'] == mid and basis['evidence'][0]['quote'] == p['text']
+                and holding['effective_period']['start']['event_type'] == 'posthumous_grant'
+                and len(holding.get('attestations', [])) == 1
+                and all(holding['attestations'][0].get(k) == v for k, v in
+                        {'paragraph_id': pid, 'person_mention_id': mid, 'start': at, 'end': at + 4, 'surface': '長水校尉', 'usage': 'posthumous_usage'}.items()))
     basis = holding.get('posthumous_basis')
     if not isinstance(basis, dict):
         return False

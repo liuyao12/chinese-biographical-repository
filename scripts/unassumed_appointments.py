@@ -191,6 +191,25 @@ def unassumed_appointment_valid(proposal, chapter):
         if p['source_position']['revision_id']!=1775345 or p['text'].count(clause)!=1 or person['start']!=0 or person['surface']!='嶠':return False
         pos=p['text'].index(clause)
         return ((role['start'],role['surface'])==(pos+2,'安平太守') and (appointment['start'],appointment['surface'])==(pos,'出為') and (refusal['start'],refusal['surface'])==(pos+10,'不行'))
+    if proposal.get('source_refusal_form') == 'jin043_shanjian':
+        clause = '曆鎮軍將軍、荊州刺史，領南蠻校尉，不行'
+        expected = {'鎮軍將軍':'曆', '荊州刺史':'曆', '南蠻校尉':'領'}
+        term = expected.get(role['surface'])
+        if (not term or p['id'] != 'c-jinshu-043-shanjian:line050' or p['source_position']['revision_id'] != 2618531
+                or person['person_id'] != '82k_3oi_qf8' or (appointment['surface'], refusal['surface']) != (term, '不行')
+                or p['text'].count(clause) != 1):
+            return False
+        pos = p['text'].index(clause)
+        return all(x['start'] == pos+clause.index(x['surface']) and x['end'] == x['start']+len(x['surface'])
+                   for x in (role, appointment, refusal))
+    if proposal.get('source_refusal_form') == 'jin043_shantao':
+        clause = '後除太常卿，以疾不就'
+        return (p.get('source_position', {}).get('revision_id') == 2618531
+                and p['id'] == 'c-jinshu-043-shantao:line023' and p['text'].startswith(clause)
+                and person['person_id'] == '96a_987_925' and '濤年逾耳順' in p['text']
+                and (role['start'], role['end'], role['surface']) == (2, 5, '太常卿')
+                and (appointment['start'], appointment['end'], appointment['surface']) == (1, 2, '除')
+                and (refusal['start'], refusal['end'], refusal['surface']) == (8, 10, '不就'))
     stage = proposal.get('appointment_stage')
     invitation = appointment['surface'] in ('請為', '請爲')
     if (stage not in (None, 'invitation', 'appointment')

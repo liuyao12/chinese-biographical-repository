@@ -6,7 +6,7 @@ import re
 
 CIDS = ('c-nanshi-011-peihuizhao', 'c-nanqishu-020-peihuizhao', 'c-nanshi-042-yuzhang-wangfei', 'c-nanshi-044-mu-empress-children', 'c-nanshi-026-yuanfei-family', 'c-nanqishu-048-yuantuan-ancestry', 'c-songshu-052-yuantan-line', 'c-nanqishu-020-liuzhirong-ancestry', 'c-nanshi-042-zhaohou-children', 'c-nanqishu-040-yuanfei-raised', 'c-nanqishu-002-peihuizhao-death')
 UNITS = 'source-evidence/qinan-pei/units.json'
-UNITS_SHA = 'e3e93470799d2a6f48ccab7d8cebb840c964e74f1f4e11374515ff6c9e37779a'
+UNITS_SHA = '1be59cceb2de8a12a9f70916b3888a60af69b63c29c813108d7e0fef6f551f53'
 FRAMES = 'source-evidence/qinan-pei/kinship-frames.json'
 FRAMES_SHA = '57b6881b47ac50c0c0659ded6515435ac545df0fb247f252abdd451a914c758a'
 DEATHS = 'source-evidence/qinan-pei/death-frames.json'

@@ -8,7 +8,56 @@
   "names": [
     "庾純"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w043-shanjian-13",
+      "person_id": "u6c_3lq_78b",
+      "title": "黃門侍郎",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "chapter_id": "c-jinshu-043-shanjian",
+          "source_id": "s-jinshu-043-shanjian",
+          "paragraph_id": "c-jinshu-043-shanjian:line052",
+          "quote": "簡欲令朝臣各舉所知，以廣得才之路。上疏曰：「臣以為自古興替，實在官人；苟得其才，則無物不理。《書》言：'知人則哲，惟帝難之。'唐、虞之盛，元愷登庸；周室之隆，濟濟多士。秦、漢已來，風雅漸喪。至於後漢，女君臨朝，尊官大位，出於阿保，斯亂之始也。是以郭泰、許劭之倫，明清議於草野；陳蕃、李固之徒，守忠節於朝廷。然後君臣名節，古今遺典，可得而言。自初平之元，訖于建安之末，三十年中，萬姓流散，死亡略盡，斯亂之極也。世祖武皇帝應天順人，受禪于魏，泰始之初，躬親萬機，佐命之臣，咸皆率職。時黃門侍郎王恂、庾純始於太極東堂聽政，評尚書奏事，多論刑獄，不論選舉。臣以為不先所難，而辨其所易。陛下初臨萬國，人思盡誠，每於聽政之日，命公卿大臣先議選舉，各言所見後進俊才、鄉邑尤異、才堪任用者，皆以名奏，主者隨缺先敘。是爵人於朝，與眾共之之義也。」朝廷從之。",
+          "person_mention_id": "c-jinshu-043-shanjian:line052:m0247"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-shanjian-13:a",
+          "paragraph_id": "c-jinshu-043-shanjian:line052",
+          "start": 240,
+          "end": 244,
+          "surface": "黃門侍郎",
+          "person_mention_id": "c-jinshu-043-shanjian:line052:m0247",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -44,6 +93,41 @@
       "book_id": "b-jinshu-035",
       "chapter_id": "c-jinshu-035-peikai-family",
       "source_id": "s-jinshu-035-peikai-ws2506399",
+      "work_title": "晉書"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "山簡傳",
+      "paragraph_id": "c-jinshu-043-shanjian:line052",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "人，受禪于魏，泰始之初，躬親萬機，佐命之臣，咸皆率職。時黃門侍郎王恂、庾純始於太極東堂聽政，評尚書奏事，多論刑獄，不論選舉。臣以為不先所難，而辨其所易。陛下初臨萬國，人思盡誠，每於聽政之日，命公卿大臣先議選舉，各言所見後進俊才、鄉邑尤異、才堪任用者，皆以名奏，主者隨缺先敘。",
+      "paragraph_ids": [
+        "c-jinshu-043-shanjian:line052"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-shanjian:line052:m0247"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-shanjian:line052:m0247": "c-jinshu-043-shanjian:line052"
+      },
+      "mention_id": "c-jinshu-043-shanjian:line052:m0247",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-shanjian:line052:m0247",
+          "mention_ids": [
+            "c-jinshu-043-shanjian:line052:m0247"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-shanjian",
+      "source_id": "s-jinshu-043-shanjian",
       "work_title": "晉書"
     },
     {
@@ -110,6 +194,34 @@
           "character_conversion": {},
           "extraction_note": "展開連結顯示字、去粗體排版；標題另層。㲄、俊郎、雲及缺閉引號原樣保留。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-043-shanjian",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-shanjian",
+      "source": {
+        "title": "晉書卷四十三",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-11-21",
+        "edition": "使用維基文庫固定修訂，武英殿本另行對校。",
+        "extent": "自原文第50行至第56行，題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "collation_witnesses": [
+          "source-evidence/jin043-shanxia/reading.json",
+          "source-evidence/jin043-shanjian/reading.json"
+        ]
       }
     },
     {

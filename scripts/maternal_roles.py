@@ -1,7 +1,38 @@
 """原文母親稱謂；未明言生育時不轉成生母或推補婚配。"""
 
 
+def principal_mother_valid(assertion, paragraphs):
+    """兩位母親在同一冊封句中並稱時，以「嫡母」的原字區分其身分。"""
+    q = assertion.get('qualifiers', {})
+    evidence = assertion.get('evidence', [])
+    if (assertion.get('predicate') != 'maternal_role' or len(evidence) != 1
+            or q != {'source_term': q.get('source_term'), 'role': 'principal_mother',
+                     'biological_mother': False, 'father_person_id': None}):
+        return False
+    e = evidence[0]
+    chapter_id, p = paragraphs.get(e.get('paragraph_id'), (None, {}))
+    if e.get('chapter_id') != chapter_id or e.get('quote') != p.get('text') or not p:
+        return False
+    people = {m['id']: m for m in p.get('mentions', []) if m['kind'] == 'person'}
+    child = people.get(e.get('subject_person_mention_id'))
+    mother = people.get(e.get('object_person_mention_id'))
+    if (not child or not mother or child['person_id'] != assertion.get('subject_person_id')
+            or mother['person_id'] != assertion.get('object_person_id') or child['person_id'] == mother['person_id']
+            or child['surface'] != '皇后' or mother['surface'] not in ('劉', '劉氏')
+            or q['source_term'] != '嫡母' + mother['surface']):
+        return False
+    text = p['text']
+    start, end = child['start'], mother['end']
+    if text[start:child['end']] != '皇后' or text[mother['start']:end] != mother['surface']:
+        return False
+    return (text[start - 1:start] == '為' and text[child['end']:mother['start']] in
+            ('。嫡母', '嫡母', '，封后嫡母', '封后嫡母')
+            and text[end:].startswith(('為高昌縣都鄉君，所生母', '為高昌縣都鄉君所生母')))
+
+
 def maternal_role_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('role') == 'principal_mother':
+        return principal_mother_valid(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('continued_biography_'):
         try:
             from scripts.continued_biography_family import valid as continued_valid

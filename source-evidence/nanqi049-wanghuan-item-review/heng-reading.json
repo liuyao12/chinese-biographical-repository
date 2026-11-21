@@ -1,0 +1,269 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2118589,
+      "raw_path": "sources/calendar-context/songshu063-fixed2118589.wikitext",
+      "line": 60,
+      "start": 16,
+      "end": 32,
+      "source_quote": "道矜子恒，太宗世為侍中，度支尚書",
+      "raw_sha256": "6eb0151b62e732d5d4ab564a92b9dc62fe7f2f765b66436f8560c963a014c223",
+      "interpretation": "宋書原傳；父子與官爵。"
+    },
+    {
+      "revision_id": 2118589,
+      "raw_path": "sources/calendar-context/songshu063-fixed2118589.wikitext",
+      "line": 42,
+      "start": 11,
+      "end": 18,
+      "source_quote": "曾祖融，晉太常",
+      "raw_sha256": "6eb0151b62e732d5d4ab564a92b9dc62fe7f2f765b66436f8560c963a014c223",
+      "interpretation": "景仁曾祖融；本支世系與叡支另記。"
+    },
+    {
+      "revision_id": 1611067,
+      "raw_path": "source-evidence/nanshi022-wangci/external/nanshi27-ws1611067.wikitext",
+      "line": 119,
+      "start": 15,
+      "end": 32,
+      "source_quote": "道矜子恒，明帝時，位侍中、度支尚書",
+      "raw_sha256": "c423effa01474d9f22277078fcf38c82e163a1c6fa16da159d1e41228ffa00c6",
+      "interpretation": "南史卷二十七亦作恒。"
+    }
+  ],
+  "print_readings": [
+    {
+      "edition": "乾隆四年武英殿本《南齊書》，國家圖書館藏第161冊",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/NLC892-411999017142-12542_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC161%E5%86%8A.pdf#page=57",
+      "pdf_sha1": "b81e77a03ff92f1d72b9b3ad9a967b4c96922592",
+      "pdf_sha256": "1aa6d822bc71fea651e4eb3cfa0a6b84b3deccc990b8fefa67cef78346f7fa62",
+      "page": 57,
+      "half": "R",
+      "folio": "五下",
+      "columns_from_right": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "source_quote": "族父恒字昭度與叡同承融後",
+      "image_sha256": "bfd2a0359255b655ee7f4aca04f1451aaceb7d16672a595bae063566790d5a30",
+      "interpretation": "殿本在第3欄末起族父以次，建武中卒在第8欄，隨後折回奐弟伷女。"
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-nanqishu-049",
+      "title": "殷恒",
+      "unit_kind": "embedded_account",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_id": "c-nanqishu-049-yinheng",
+      "first_line": 42,
+      "last_line": 42,
+      "start_codepoint": 0,
+      "end_codepoint": 140,
+      "opening": "　　叡族父恒，字昭度，與叡",
+      "closing": "金紫光祿大夫。建武中，卒。",
+      "parent_heading": "殷叡",
+      "source_layout": "wikisource_private_use_glyphs",
+      "chapter_path": "corpus/nanqishu/049-yinheng.json",
+      "paragraph_ids": [
+        "c-nanqishu-049-yinheng:p001"
+      ],
+      "item_review_path": "source-evidence/nanqi049-wanghuan-item-review/heng-reading.json"
+    }
+  ],
+  "chronology": [
+    {
+      "event": "度支尚書",
+      "source_date": "宋泰始初",
+      "era": [
+        465,
+        471
+      ]
+    },
+    {
+      "event": "卒",
+      "source_date": "齊建武中",
+      "interval": [
+        494,
+        498
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "c-nanqishu-049-yinheng:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "叡族父恒，字昭度，與叡同承融後。",
+      "reading": "殷恒字昭度，為殷叡族父，二人均融之後。",
+      "note": "殷恒字昭度，為殷叡族父，二人均融之後。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 16,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:received_sentence1-16",
+      "kind": "received_sentence",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "宋司空景仁孫也。",
+      "reading": "恒為宋司空殷景仁之孫。",
+      "note": "恒為宋司空殷景仁之孫。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 16,
+      "end_codepoint": 24,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:received_sentence1-24",
+      "kind": "received_sentence",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "恒及父道矜，竝有古風，以是見蚩於世，其事非一。",
+      "reading": "殷道矜為恒父，並有古風，為世所譏。",
+      "note": "殷道矜為恒父，並有古風，為世所譏。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 24,
+      "end_codepoint": 47,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:received_sentence1-47",
+      "kind": "received_sentence",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "恒，宋泰始初，爲度支尚書，坐屬父疾及身疾多，爲有司所奏。",
+      "reading": "恒在宋泰始初任度支尚書，以父及本人有疾為有司所奏。",
+      "note": "恒在宋泰始初任度支尚書，以父及本人有疾為有司所奏。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 47,
+      "end_codepoint": 75,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:received_sentence1-75",
+      "kind": "received_sentence",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "明帝詔曰：「殷道矜有生便病，比更無橫病。",
+      "reading": "明帝稱道矜生而有病，近日並無暴病。",
+      "note": "明帝稱道矜生而有病，近日並無暴病。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 75,
+      "end_codepoint": 95,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:received_sentence1-95",
+      "kind": "received_sentence",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "恒因愚習惰，久妨清敘。",
+      "reading": "詔指恒因愚習惰、妨清敘。",
+      "note": "詔指恒因愚習惰、妨清敘。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 95,
+      "end_codepoint": 106,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:received_sentence1-106",
+      "kind": "received_sentence",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "左遷散騎常侍，領校尉。」",
+      "reading": "降散騎常侍，領校尉。",
+      "note": "降散騎常侍，領校尉。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 106,
+      "end_codepoint": 118,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:received_sentence1-118",
+      "kind": "received_sentence",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "恒歷官清顯，至金紫光祿大夫。",
+      "reading": "後官至金紫光祿大夫。",
+      "note": "後官至金紫光祿大夫。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 118,
+      "end_codepoint": 132,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:received_sentence1-132",
+      "kind": "received_sentence",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "建武中，卒。",
+      "reading": "卒在齊建武中。",
+      "note": "卒在齊建武中。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 132,
+      "end_codepoint": 138,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:clan_senior_kin1-0",
+      "kind": "clan_senior_kin",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "叡族父恒",
+      "reading": "族父是殷叡的尊一輩同族，不補一條親生父或明兄弟關係。下文並明二人承融後。",
+      "note": "族父是殷叡的尊一輩同族，不補一條親生父或明兄弟關係。下文並明二人承融後。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 4,
+      "human_reviewed": false,
+      "other_person_id": "ceq_pnr_q0e",
+      "common_ancestor": "ali_hbb_4bn"
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:paternal_grandfather1-16",
+      "kind": "paternal_grandfather",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "宋司空景仁孫也",
+      "reading": "宋書卷六十三景仁傳明子道矜、道矜子恒。",
+      "note": "宋書卷六十三景仁傳明子道矜、道矜子恒。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 16,
+      "end_codepoint": 23,
+      "human_reviewed": false,
+      "parent_person_id": "gtj_19g_u2l",
+      "grandfather_id": "740_57f_3ec",
+      "generation_distance": 2
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:reported_health_quotation1-81",
+      "kind": "reported_health_quotation",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "殷道矜有生便病，比更無橫病",
+      "reading": "指父殷道矜的宿疾，詔語另斥兒子殷恒的請假與行止。",
+      "note": "指父殷道矜的宿疾，詔語另斥兒子殷恒的請假與行止。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 81,
+      "end_codepoint": 94,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:death_interval1-132",
+      "kind": "death_interval",
+      "person_id": "gtj_19g_u2l_A",
+      "source_quote": "建武中，卒",
+      "reading": "建武首尾494至498；中為年號內，未能定某一個年份。",
+      "note": "建武首尾494至498；中為年號內，未能定某一個年份。",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start_codepoint": 132,
+      "end_codepoint": 137,
+      "human_reviewed": false,
+      "earliest_year": 494,
+      "latest_year": 498
+    }
+  ],
+  "identity_limits": []
+}

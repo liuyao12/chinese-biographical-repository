@@ -327,3 +327,18 @@
 | 《南史》卷二十四 | 王韶之主傳、父王偉之及子王曄三項 | 父偉之任烏程令。韶之得父舊書，私撰《晉安帝陽秋》。末段「子曄，位臨賀太守」另立附敘。王寶明后傳所記父曄之、太宰祭酒，仍從該傳原字。[數位本與互證](../source-evidence/nanshi024-wangshaozhi/reading.json) · [殿本二十四欄](../source-evidence/nanshi024-wangshaozhi-wyd/reading.json) |
 | 《南齊書》卷四十七、《南史》卷十九 | 王敬則女、謝朓妻，兩書各一項 | 兩書都說敬則女「常懷刀欲報朓」，續記謝朓不敢相見。其後譏朓「刑于寡妻」者，《南齊書》記沈昭略，《南史》記範縝。王融殿本校記核定第三十三面右七欄「𣅳」。卷二十七的「王為清政」另列史臣贊語。[兩書妻傳及卷界](../source-evidence/nanqi047-xietiao-wife/whole-volume.json) · [王融殿本](../source-evidence/nanqi047-wangrong-wyd/reading.json) |
 | 《南齊書》卷二十、《南史》卷十一 | 兩書各核宣孝陳皇后一傳 | 齊書殿本作「道正」「昇明三年」，南史出雲藩本作「道止」「昇明二年」。兩書敘宣帝庶生道度、道生，陳后生高帝；魏司徒陳矯與后的世距未載。《太平御覽》所引「道正」另存其書題與原句。[齊書殿本十三欄](../source-evidence/qi020-chendaozhi-wyd/wuying-reading.json) · [南史出雲藩本十八欄](../source-evidence/nan011-chendaozhi-izumo/izumo-reading.json) · [《太平御覽》引文](../source-evidence/qi020-chendaozhi/chendaozhi-taipingyulan.json) |
+
+## 琅邪、太原王氏之二十二
+
+本批新增四十六項逐項覆核。五十一卷已有清冊調查，共登記七百六十六項，其中四百八十九項備全文、四百八十七項完成人物初讀、四百八十三項逐項覆核。
+
+| 卷篇 | 本批所核 | 原文所得 |
+| --- | --- | --- |
+| 《晉書》四十三 | 山濤父子及王戎、王衍等傳的段中人物 | 全卷八篇有題傳、二十五則段內附敘均有原位。山濤在世為司徒與死後策贈各繫其句。石偉獲薦議郎與裴注引《楚國先賢傳》「不受晉爵」分見兩書。 |
+| 《南齊書》二十、《南史》十一 | 劉智容、何婧英兩傳各核兩書與兩種刊本，南史另核馬澄及楊瑉之 | 劉智容父母受贈，齊書作建元三年、南史二年。何婧英納南郡王妃，齊書及殿本作永明二年，南史及出雲藩本作三年。其嫡母劉氏與所生母宋氏各有封號。《南史》另以兩段敘楊氏為女巫所生及其死，通鑑作楊鈱。 |
+| 《南史》二十四、二十五及六十四，《宋書》九十二 | 王悅之、靖之、准之及其子、進之與子清，王懿、叡、正循，王僧辯女 | 宋書王悅與南史王悅之同字少明。宋書先書「泰始中」，再書「五年，卒官」，依兩處字位繫年。南史王清在梁陳之際，與劉智容葬事的門生王清各依本人所見卷段。《南史》六十四記王僧辯女為杜龕妻。 |
+| 《南齊書》四十九 | 十三項傳目及九項逐讀 | 王奐、殷叡各有列傳原文，殷叡與其妻王奐女、父系祖母王僧朗女的兩段關係各有證據。劉興祖繫獄、奉敕及身死的日期與王奐之死分列。席恭穆與其子席謙身死亦分屬兩年。張沖、張景胤、房僧寄、房長瑜保留待讀。 |
+
+《南齊書》二十的九篇后傳與韓藺英附敘已全部覆核。卷序、評、贊另立字位。殿本劉智容傳作「上都鄉君」，南史出雲本作「上虞都鄉君」，齊書數位校記明示補虞。何后傳出雲本作「侍書馬澄」「門戶既盛」「果有赦原之」，各有原欄可循。[齊書二十全卷分界](../source-evidence/qi020-hejingying/volume-boundaries.json) · [劉后殿本](../source-evidence/qi020-liuzhirong-wyd/wuying-reading.json) · [何后出雲本及兩則附敘](../source-evidence/nan011-hejingying-izumo/izumo-reading.json)
+
+晉書卷四十三第六十一行在傳間為史臣評，另兩段在卷末。王奐傳與席謙傳所涉兩位王融，一為王奐子，一為中書郎；分見本人的官歷、親屬及事發之時。[晉四十三全卷讀記](../source-evidence/jin043-roll-close/reading.json) · [齊四十九全卷分界](../source-evidence/nanqi049-wanghuan-item-review/volume-boundaries.json) · [王奐逐句](../source-evidence/nanqi049-wanghuan-item-review/huan-reading.json) · [席謙逐句](../source-evidence/nanqi049-wanghuan-item-review/xiqian-reading.json)

@@ -1,0 +1,732 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "work_id": "w-nanqishu",
+  "book_id": "b-nanqishu-020",
+  "id": "c-nanqishu-020-hejingying-wyd",
+  "source_id": "s-nanqishu-020-hejingying-wyd",
+  "title": "鬱林王何妃婧英傳（乾隆武英殿本）",
+  "source": {
+    "title": "乾隆武英殿本《南齊書》卷二十鬱林王何妃婧英傳",
+    "provider": "中國國家圖書館藏，Wikimedia Commons",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf",
+    "permalink": "https://commons.wikimedia.org/w/index.php?oldid=703777584",
+    "revision_id": "cbr-ai-transcription-sha256:0391ae57363b15fc391905e658b3877e2379ae174554d8f8dfd7747b6af68ecd",
+    "accessed_on": "2026-11-21",
+    "raw_path": "source-evidence/qi020-hejingying-wyd/wyd-columns.txt",
+    "raw_file_sha256": "0391ae57363b15fc391905e658b3877e2379ae174554d8f8dfd7747b6af68ecd",
+    "edition": "國圖藏乾隆四年武英殿刊《二十四史》第158冊，南齊書卷二十。",
+    "extent": "PDF第五面左半第五至十欄、第六面右半第一至二欄，卷二十第四葉上下。",
+    "text_scope": "complete_biography_unit",
+    "image_verified": true,
+    "review_status": "AI_image_transcription_draft",
+    "rights": "所據館藏古籍及自行按欄轉寫。",
+    "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf",
+    "normalization": {
+      "character_conversion": {},
+      "extraction_note": "依刊本從右至左按欄轉寫，本傳起於新欄。"
+    }
+  },
+  "annotation": {
+    "status": "reviewed",
+    "reviewer": "Codex（AI 代理）",
+    "human_reviewed": false,
+    "model": null,
+    "print_projection_ref": "source-evidence/qi020-hejingying-wyd/wuying-reading.json",
+    "person_reference_occurrences": [
+      {
+        "id": "c-nanqishu-020-hejingying-wyd:p002:r0000",
+        "start": 0,
+        "end": 1,
+        "surface": "后",
+        "person_id": "pbz_pni_tco_AA",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p002",
+        "quote": "后稟性",
+        "referent_role": "third_person",
+        "note": "依本段及兩書互見紀傳繫人。"
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd:p002:r0019",
+        "start": 19,
+        "end": 20,
+        "surface": "帝",
+        "person_id": "iop_ybd_afm",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p002",
+        "quote": "帝左右",
+        "referent_role": "third_person",
+        "note": "依本段及兩書互見紀傳繫人。"
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd:p002:r0036",
+        "start": 36,
+        "end": 37,
+        "surface": "帝",
+        "person_id": "iop_ybd_afm",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p002",
+        "quote": "又與帝相愛",
+        "referent_role": "third_person",
+        "note": "依本段及兩書互見紀傳繫人。"
+      }
+    ],
+    "narrative_readings": [
+      {
+        "event_type": "biographical_report",
+        "person_ids": [
+          "ur2_4yl_xwz",
+          "iop_ybd_afm"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p002",
+          "start": 32,
+          "end": 40,
+          "surface": "珉之又與帝相愛褻"
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-hejingying-wyd",
+          "source_id": "s-nanqishu-020-hejingying-wyd",
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p002",
+          "quote": "珉之又與帝相愛褻"
+        },
+        "interpretation_note": "齊書明書此句主語為珉之。"
+      },
+      {
+        "event_type": "marriage",
+        "person_ids": [
+          "pbz_pni_tco_AA",
+          "iop_ybd_afm"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+          "start": 24,
+          "end": 30,
+          "surface": "納為南郡王妃"
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-hejingying-wyd",
+          "source_id": "s-nanqishu-020-hejingying-wyd",
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+          "quote": "納為南郡王妃"
+        },
+        "interpretation_note": "齊書繫永明二年，南史繫三年。"
+      },
+      {
+        "event_type": "title",
+        "person_ids": [
+          "pbz_pni_tco_AA",
+          "iop_ybd_afm"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+          "start": 33,
+          "end": 38,
+          "surface": "為皇太孫妃"
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-hejingying-wyd",
+          "source_id": "s-nanqishu-020-hejingying-wyd",
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+          "quote": "為皇太孫妃"
+        },
+        "interpretation_note": "永明十一年。"
+      },
+      {
+        "event_type": "enfeoffment",
+        "person_ids": [
+          "7er_nz6_bcf"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+          "start": 51,
+          "end": 57,
+          "surface": "高昌縣都鄉君"
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-hejingying-wyd",
+          "source_id": "s-nanqishu-020-hejingying-wyd",
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+          "quote": "高昌縣都鄉君"
+        },
+        "interpretation_note": "受封者為嫡母。"
+      },
+      {
+        "event_type": "enfeoffment",
+        "person_ids": [
+          "aef_j2f_3lc"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+          "start": 63,
+          "end": 69,
+          "surface": "餘杭廣昌鄉君"
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-hejingying-wyd",
+          "source_id": "s-nanqishu-020-hejingying-wyd",
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+          "quote": "餘杭廣昌鄉君"
+        },
+        "interpretation_note": "受封者為所生母。"
+      },
+      {
+        "event_type": "ritual",
+        "person_ids": [
+          "pbz_pni_tco_AA",
+          "m9u_v4i_tk5"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+          "start": 80,
+          "end": 88,
+          "surface": "與太后同日謁太廟"
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-hejingying-wyd",
+          "source_id": "s-nanqishu-020-hejingying-wyd",
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+          "quote": "與太后同日謁太廟"
+        },
+        "interpretation_note": "太后即王寶明，其傳另記十二月。"
+      },
+      {
+        "event_type": "title_change",
+        "person_ids": [
+          "pbz_pni_tco_AA",
+          "iop_ybd_afm"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p002",
+          "start": 70,
+          "end": 75,
+          "surface": "后貶為王妃"
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-hejingying-wyd",
+          "source_id": "s-nanqishu-020-hejingying-wyd",
+          "paragraph_id": "c-nanqishu-020-hejingying-wyd:p002",
+          "quote": "后貶為王妃"
+        },
+        "interpretation_note": "鬱林王被廢時。"
+      }
+    ],
+    "source_reading_cases": [
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-1",
+        "kind": "primary_source_comparison",
+        "person_id": "pbz_pni_tco_A",
+        "source_quote": "戢",
+        "reading": "何戢字慧景，廬江灊人也。祖尚之，宋司空。父偃",
+        "reference": "南齊書卷三十二",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 16,
+        "end_codepoint": 17,
+        "note": "父世系。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-2",
+        "kind": "primary_source_comparison",
+        "person_id": "pbz_pni_tco_A",
+        "source_quote": "戢",
+        "reading": "女爲雞林王后",
+        "reference": "南齊書卷三十二",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 16,
+        "end_codepoint": 17,
+        "note": "此固定轉寫作雞林。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-3",
+        "kind": "primary_source_comparison",
+        "person_id": "pbz_pni_tco_A",
+        "source_quote": "戢",
+        "reading": "女為郁林王后",
+        "reference": "南史卷三十",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752309",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 16,
+        "end_codepoint": 17,
+        "note": "父傳具女為郁林王后。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-4",
+        "kind": "primary_source_comparison",
+        "person_id": "7er_nz6_bcf",
+        "source_quote": "嫡母",
+        "reading": "選尚宋孝武長女山陰公主",
+        "reference": "南史卷三十",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1752309",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 46,
+        "end_codepoint": 48,
+        "note": "父傳記戢所尚山陰公主，后傳於受封處只記劉氏。存作比對。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-5",
+        "kind": "primary_source_comparison",
+        "person_id": "aef_j2f_3lc",
+        "source_quote": "所生母",
+        "reading": "往皇后所生母宋氏間",
+        "reference": "南史齊本紀下",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2027696",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 57,
+        "end_codepoint": 60,
+        "note": "本紀亦確稱生母。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-6",
+        "kind": "primary_source_comparison",
+        "person_id": "pbz_pni_tco_AA",
+        "source_quote": "為皇后",
+        "reading": "冬十月壬寅，尊皇太孫太妃為皇太后，立皇后何氏",
+        "reference": "南齊書卷四",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1767523",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 43,
+        "end_codepoint": 46,
+        "note": "永明十一年冬十月壬寅尊王太后並立何后。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-7",
+        "kind": "primary_source_comparison",
+        "person_id": "pbz_pni_tco_AA",
+        "source_quote": "為皇后",
+        "reading": "冬十月壬寅，尊皇太孫太妃為皇太后，立皇后何氏",
+        "reference": "南史齊本紀下",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2027696",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 43,
+        "end_codepoint": 46,
+        "note": "本紀同日。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-8",
+        "kind": "primary_source_comparison",
+        "person_id": "m9u_v4i_tk5",
+        "source_quote": "與太后同日謁太廟",
+        "reading": "其年十二月，備法駕謁太廟",
+        "reference": "南齊書卷二十文安皇后傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2074177",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 80,
+        "end_codepoint": 88,
+        "note": "連稱同日；前傳具月。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-9",
+        "kind": "primary_source_comparison",
+        "person_id": "ur2_4yl_xwz",
+        "source_quote": "楊珉之",
+        "reading": "私於帝左右楊鈱",
+        "reference": "資治通鑑卷一三九",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=803181",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p002",
+        "start_codepoint": 22,
+        "end_codepoint": 25,
+        "note": "通鑑作金旁單名鈱。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-10",
+        "kind": "primary_source_comparison",
+        "person_id": "ur2_4yl_xwz",
+        "source_quote": "楊珉之",
+        "reading": "左右楊瑉之與同寢處如伉儷",
+        "reference": "太平御覽卷一四三引蕭子顯齊書",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2587404",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p002",
+        "start_codepoint": 22,
+        "end_codepoint": 25,
+        "note": "類書此引作瑉之。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-11",
+        "kind": "primary_source_comparison",
+        "person_id": "pbz_pni_tco_AA",
+        "source_quote": "廬江",
+        "reading": "廬江適人",
+        "reference": "太平御覽卷一四三引齊書",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2587404",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 8,
+        "end_codepoint": 10,
+        "note": "此固定文庫本作適。兩后傳及何戢傳另具灊字或其異體。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-compare-12",
+        "kind": "primary_source_comparison",
+        "person_id": "pbz_pni_tco_AA",
+        "source_quote": "南郡王妃",
+        "reading": "{{YL|永明三年}}，乃成昏",
+        "reference": "南史卷十一",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2288359",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 26,
+        "end_codepoint": 30,
+        "note": "兩傳婚年分歧。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-print-1",
+        "kind": "witness_collation",
+        "person_id": "pbz_pni_tco_AA",
+        "source_quote": "鬱林王何妃名婧英廬江灊人",
+        "reading": "鬱林王何妃名婧英廬江灊人",
+        "reference": "國圖藏殿本《南齊書》卷二十 PDF 第5面",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf#page=5",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 0,
+        "end_codepoint": 12,
+        "note": "刊本郡縣字為灊。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-print-2",
+        "kind": "witness_collation",
+        "person_id": "pbz_pni_tco_AA",
+        "source_quote": "明二年納為南郡王妃",
+        "reading": "明二年納為南郡王妃",
+        "reference": "國圖藏殿本《南齊書》卷二十 PDF 第5面",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf#page=5",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 21,
+        "end_codepoint": 30,
+        "note": "卷二十殿本二年，卷十一出雲本三年。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-print-3",
+        "kind": "witness_collation",
+        "person_id": "pbz_pni_tco_AA",
+        "source_quote": "嫡母劉氏為高昌縣都鄉君",
+        "reading": "嫡母劉氏為高昌縣都鄉君",
+        "reference": "國圖藏殿本《南齊書》卷二十 PDF 第5面",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf#page=5",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 46,
+        "end_codepoint": 57,
+        "note": "嫡母之封。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-print-4",
+        "kind": "witness_collation",
+        "person_id": "pbz_pni_tco_AA",
+        "source_quote": "所生母宋氏為餘杭廣昌鄉君",
+        "reading": "所生母宋氏為餘杭廣昌鄉君",
+        "reference": "國圖藏殿本《南齊書》卷二十 PDF 第5面",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf#page=5",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p001",
+        "start_codepoint": 57,
+        "end_codepoint": 69,
+        "note": "所生母另有封邑。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-print-5",
+        "kind": "witness_collation",
+        "person_id": "pbz_pni_tco_AA",
+        "source_quote": "珉之又與帝相愛褻",
+        "reading": "珉之又與帝相愛褻",
+        "reference": "國圖藏殿本《南齊書》卷二十 PDF 第5面",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf#page=5",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p002",
+        "start_codepoint": 32,
+        "end_codepoint": 40,
+        "note": "此處明書珉之為主語。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-hejingying-wyd-print-6",
+        "kind": "witness_collation",
+        "person_id": "pbz_pni_tco_AA",
+        "source_quote": "帝被廢后貶為王妃",
+        "reading": "帝被廢后貶為王妃",
+        "reference": "國圖藏殿本《南齊書》卷二十 PDF 第6面",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/NLC892-411999017142-12428_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC158%E5%86%8A.pdf#page=6",
+        "paragraph_id": "c-nanqishu-020-hejingying-wyd:p002",
+        "start_codepoint": 67,
+        "end_codepoint": 75,
+        "note": "殿本尾句。",
+        "human_reviewed": false
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-nanqishu-020-hejingying-wyd:p001",
+      "text": "鬱林王何妃名婧英廬江灊人撫軍將軍戢之女也永明二年納為南郡王妃十一年為皇太孫妃鬱林王即位為皇后嫡母劉氏為高昌縣都鄉君所生母宋氏為餘杭廣昌鄉君將拜鏡在床無故墮地其冬與太后同日謁太廟",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p001:m0000",
+          "start": 0,
+          "end": 5,
+          "surface": "鬱林王何妃",
+          "person_id": "pbz_pni_tco_AA",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p001:m0006",
+          "start": 6,
+          "end": 8,
+          "surface": "婧英",
+          "person_id": "pbz_pni_tco_AA",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p001:m0016",
+          "start": 16,
+          "end": 17,
+          "surface": "戢",
+          "person_id": "pbz_pni_tco_A",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p001:m0038",
+          "start": 38,
+          "end": 41,
+          "surface": "鬱林王",
+          "person_id": "iop_ybd_afm",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p001:m0044",
+          "start": 44,
+          "end": 46,
+          "surface": "皇后",
+          "person_id": "pbz_pni_tco_AA",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p001:m0048",
+          "start": 48,
+          "end": 50,
+          "surface": "劉氏",
+          "person_id": "7er_nz6_bcf",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p001:m0060",
+          "start": 60,
+          "end": 62,
+          "surface": "宋氏",
+          "person_id": "aef_j2f_3lc",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p001:m0081",
+          "start": 81,
+          "end": 83,
+          "surface": "太后",
+          "person_id": "m9u_v4i_tk5",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        }
+      ],
+      "source_position": {
+        "revision_id": "cbr-ai-transcription-sha256:0391ae57363b15fc391905e658b3877e2379ae174554d8f8dfd7747b6af68ecd",
+        "source_layer": "received_biography",
+        "column_projection": [
+          {
+            "pdf_page": 5,
+            "half": "左",
+            "leaf": "四上",
+            "column_from_right": 5,
+            "start": 0,
+            "end": 21,
+            "text": "鬱林王何妃名婧英廬江灊人撫軍將軍戢之女也永"
+          },
+          {
+            "pdf_page": 5,
+            "half": "左",
+            "leaf": "四上",
+            "column_from_right": 6,
+            "start": 0,
+            "end": 21,
+            "text": "明二年納為南郡王妃十一年為皇太孫妃鬱林王即"
+          },
+          {
+            "pdf_page": 5,
+            "half": "左",
+            "leaf": "四上",
+            "column_from_right": 7,
+            "start": 0,
+            "end": 21,
+            "text": "位為皇后嫡母劉氏為高昌縣都鄉君所生母宋氏為"
+          },
+          {
+            "pdf_page": 5,
+            "half": "左",
+            "leaf": "四上",
+            "column_from_right": 8,
+            "start": 0,
+            "end": 21,
+            "text": "餘杭廣昌鄉君將拜鏡在床無故墮地其冬與太后同"
+          },
+          {
+            "pdf_page": 5,
+            "half": "左",
+            "leaf": "四上",
+            "column_from_right": 9,
+            "start": 0,
+            "end": 4,
+            "text": "日謁太廟"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c-nanqishu-020-hejingying-wyd:p002",
+      "text": "后稟性淫亂為妃時便與外人姦通在後宮復通帝左右楊珉之與同寢處如伉儷珉之又與帝相愛褻故帝恣之迎后親戚入宮賞賜人百數十萬以世祖耀靈殿處后家屬帝被廢后貶為王妃",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p002:m0022",
+          "start": 22,
+          "end": 25,
+          "surface": "楊珉之",
+          "person_id": "ur2_4yl_xwz",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p002:m0032",
+          "start": 32,
+          "end": 34,
+          "surface": "珉之",
+          "person_id": "ur2_4yl_xwz",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p002:u0045",
+          "start": 45,
+          "end": 48,
+          "surface": "后親戚",
+          "person_id": null,
+          "kind": "unresolved",
+          "status": "unresolved",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p002:m0058",
+          "start": 58,
+          "end": 60,
+          "surface": "世祖",
+          "person_id": "kix_r92_2ed",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p002:m0067",
+          "start": 67,
+          "end": 68,
+          "surface": "帝",
+          "person_id": "iop_ybd_afm",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        },
+        {
+          "id": "c-nanqishu-020-hejingying-wyd:p002:m0070",
+          "start": 70,
+          "end": 71,
+          "surface": "后",
+          "person_id": "pbz_pni_tco_AA",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段及兩書互見紀傳繫人。"
+        }
+      ],
+      "source_position": {
+        "revision_id": "cbr-ai-transcription-sha256:0391ae57363b15fc391905e658b3877e2379ae174554d8f8dfd7747b6af68ecd",
+        "source_layer": "received_biography",
+        "column_projection": [
+          {
+            "pdf_page": 5,
+            "half": "左",
+            "leaf": "四上",
+            "column_from_right": 9,
+            "start": 4,
+            "end": 21,
+            "text": "后稟性淫亂為妃時便與外人姦通在後宮"
+          },
+          {
+            "pdf_page": 5,
+            "half": "左",
+            "leaf": "四上",
+            "column_from_right": 10,
+            "start": 0,
+            "end": 21,
+            "text": "復通帝左右楊珉之與同寢處如伉儷珉之又與帝相"
+          },
+          {
+            "pdf_page": 6,
+            "half": "右",
+            "leaf": "四下",
+            "column_from_right": 1,
+            "start": 0,
+            "end": 21,
+            "text": "愛褻故帝恣之迎后親戚入宮賞賜人百數十萬以世"
+          },
+          {
+            "pdf_page": 6,
+            "half": "右",
+            "leaf": "四下",
+            "column_from_right": 2,
+            "start": 0,
+            "end": 16,
+            "text": "祖耀靈殿處后家屬帝被廢后貶為王妃"
+          }
+        ]
+      }
+    }
+  ],
+  "text_sha256": "759c300018ace50cc5a9b5dcec4c00768764eb7ea511d14cca092137e83a1a35"
+}
