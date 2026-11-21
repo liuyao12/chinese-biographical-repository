@@ -1,0 +1,98 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-chenshu-017-wangtong-and-wangmai",
+  "assertions": [
+    {
+      "id": "a-nan023-wangtong-tong-father",
+      "subject_person_id": "q7m_r8k_2vn_ABAC",
+      "object_person_id": "q7m_r8k_2vn_ABA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父琳",
+        "nan023_wangtong_reading": "tong-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-017",
+          "source_id": "s-chenshu-017-wangtong-and-wangmai-ws1544244",
+          "chapter_id": "c-chenshu-017-wangtong-and-wangmai",
+          "paragraph_id": "c-chenshu-017-wangtong-and-wangmai:p001",
+          "quote": "王通字公達，琅邪臨沂人也。祖份，梁左光祿大夫。父琳，司徒左長史。",
+          "subject_person_mention_id": "c-chenshu-017-wangtong-and-wangmai:p001:m0000",
+          "object_person_mention_id": "c-chenshu-017-wangtong-and-wangmai:p001:m0024"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陳書明稱通父琳，與其族武將王琳（字子珩）分立。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangtong-tong-grandfather",
+      "subject_person_id": "q7m_r8k_2vn_ABAC",
+      "object_person_id": "q7m_r8k_2vn_AB",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖份",
+        "nan023_wangtong_reading": "tong-grandfather",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-017",
+          "source_id": "s-chenshu-017-wangtong-and-wangmai-ws1544244",
+          "chapter_id": "c-chenshu-017-wangtong-and-wangmai",
+          "paragraph_id": "c-chenshu-017-wangtong-and-wangmai:p001",
+          "quote": "王通字公達，琅邪臨沂人也。祖份，梁左光祿大夫。父琳，司徒左長史。",
+          "subject_person_mention_id": "c-chenshu-017-wangtong-and-wangmai:p001:m0000",
+          "object_person_mention_id": "c-chenshu-017-wangtong-and-wangmai:p001:m0014"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "份為通祖。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nan023-wangtong-mai-tong",
+      "subject_person_id": "q7m_r8k_2vn_ABAG",
+      "object_person_id": "q7m_r8k_2vn_ABAC",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "通之弟也",
+        "nan023_wangtong_reading": "mai-tong",
+        "relative_birth_order": {
+          "older_person_id": "q7m_r8k_2vn_ABAC",
+          "younger_person_id": "q7m_r8k_2vn_ABAG",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-017",
+          "source_id": "s-chenshu-017-wangtong-and-wangmai-ws1544244",
+          "chapter_id": "c-chenshu-017-wangtong-and-wangmai",
+          "paragraph_id": "c-chenshu-017-wangtong-and-wangmai:p002",
+          "quote": "勱字公濟，通之弟也。",
+          "subject_person_mention_id": "c-chenshu-017-wangtong-and-wangmai:p002:m0000",
+          "object_person_mention_id": "c-chenshu-017-wangtong-and-wangmai:p002:m0005"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陳書正文公濟，校注引南史作公齊。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

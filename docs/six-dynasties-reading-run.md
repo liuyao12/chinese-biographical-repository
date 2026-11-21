@@ -269,3 +269,17 @@
 
 《南史》據弘化四年出雲藩刊本卷十一二十下至二十一下，《南齊書》據乾隆四年武英殿本卷二十第四葉下、第五葉上，各錄全兩傳。《古今姓氏書辯證》四庫輯本的四十個卷次據總目固定修訂 1516481 著錄，卷十四王氏條據修訂 636080。
 [王韶明《南史》出雲藩本](../source-evidence/nan011-wangshaoming-izumo/izumo-reading.json) · [王蕣華《南齊書》殿本](../source-evidence/qi020-wangshunhua-wyd/wuying-reading.json) · [上海圖書館藏錢氏稿本](../source-evidence/qi020-wang-consorts/huiyao-comparison.json) · [溫氏墓誌原物及釋文](../source-evidence/jin067-wen-children/reading.json) · [王深、王繢嗣爵](../source-evidence/song076-wangxuanmo/heirs-reading.json)
+
+## 琅邪王氏之十八
+
+承接[第十七批](https://github.com/liuyao12/chinese-biographical-repository/pull/755)。本批逐項覆核二十七則，累計四十六卷已作卷目調查，登記六百一十六項傳目，三百七十二項備全文，三百四十項已過第一遍人物標記，三百三十六項已逐項覆核。《晉書》卷四十四新勘十六個分題及十九則段中事歷，本批完成其中四項。
+
+| 史書與卷次 | 本批完成 | 所據原文與判讀 |
+| --- | --- | --- |
+| 《南史》卷二十三 | 王份、王琳（字孝璋）、王銓、王溥、王錫（字公嘏）、王僉、王通、王勱、王質、王固 | 王勱傳字公齊，《陳書》作公濟。曾代行廣州府事，另受廣、衡兩州的任命，兩次皆未到任。王錫、王僉所贈侍中，各繫本人卒句。王固女及王固所生母各有原句。 |
+| 《南史》卷十二、《陳書》卷七 | 兩書各錄廢帝王皇后及臨海嗣王至澤 | 王固傳記女為太子妃在天嘉四年，后傳記元年，文帝紀繫三年七月己丑。廢帝紀另記立后、立太子。南史殿本第244冊第二十七、二十八面連讀王后及至澤。 |
+| 《宋書》卷七十六、《南齊書》卷二十七、《南史》卷十六 | 王玄謨；後兩書各錄王寬、王瞻；《南史》另錄王玄象 | 玄謨傳十個原段共八十二句，「六世祖宏」出於自敘。父秀、祖牢依原文分列。玄象事見《太平御覽》引《宋書》，引文止於「于是女復死」。《南史》刊本第十五葉上同段有「疑」「多玉」，數位本作「嶷」「阿玉」。 |
+| 《晉書》卷六十七、卷四十四 | 溫嶠；溫羨及三子溫祗、溫允、溫裕 | 溫嶠傳記母為清河崔參女。卷六十七與卷八十一記同一戰事，名作紀瞻、紀睦。溫羨傳的「不就」「未拜」與懷帝紀當時稱「中書監」各據原文。 |
+| 《南齊書》卷二十、《南史》卷十一 | 兩書各錄明敬劉皇后惠端 | 兩書正文、乾隆殿本及弘化四年出雲藩本皆稱道弘孫，又明記父景猷、母王氏。明萬曆二年《六臣註文選》同頁李善注作「惠端」「道弘女」，劉良注作「端惠」「弘道孫也」。謝朓哀策文記永泰元年秋九月朔啟梓宮，原文作「將祔于某陵」。 |
+
+[劉惠端《南齊書》原欄](../source-evidence/qi020-liuhuiduan-wyd/wuying-reading.json) · [《南史》原欄](../source-evidence/nan011-liuhuiduan-izumo/izumo-reading.json) · [《文選》兩家注文與第47面書影](../source-evidence/qi020-liuhuiduan/wenxuan-witnesses.json) · [王玄謨逐句及紀年](../source-evidence/song076-wangxuanmo/main-reading.json) · [王皇后與至澤](../source-evidence/nan023-wanghou/reading.json) · [二人傳文四欄書影](../source-evidence/nan023-wanghou/printed-pages.json) · [溫嶠同事異名](../source-evidence/jin067-wenqiao-main/source-identifications.json)

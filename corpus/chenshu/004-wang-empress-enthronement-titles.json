@@ -1,0 +1,65 @@
+{
+  "format_version": "0.2",
+  "record_type": "title_holding_assertion_set",
+  "chapter_id": "c-chenshu-004-wang-empress-enthronement",
+  "holdings": [
+    {
+      "id": "th-nan023-wanghou-e1-11",
+      "person_id": "q7m_r8k_2vn_ABAEB",
+      "title": "皇后",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-nan023-wanghou-e1-11:a",
+          "person_mention_id": "c-chenshu-004-wang-empress-enthronement:p001:m0008",
+          "usage": "narrative",
+          "date_expression": "秋七月丁酉",
+          "paragraph_id": "c-chenshu-004-wang-empress-enthronement:p001",
+          "surface": "皇后",
+          "start": 11,
+          "end": 13
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "秋七月丁酉",
+          "evidence": [
+            {
+              "work_id": "w-chenshu",
+              "book_id": "b-chenshu-004",
+              "source_id": "s-chenshu-004-wang-empress-enthronement-ws8231316",
+              "chapter_id": "c-chenshu-004-wang-empress-enthronement",
+              "paragraph_id": "c-chenshu-004-wang-empress-enthronement:p001",
+              "quote": "秋七月丁酉，立妃王氏為皇后。",
+              "person_mention_id": "c-chenshu-004-wang-empress-enthronement:p001:m0008"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-004",
+          "source_id": "s-chenshu-004-wang-empress-enthronement-ws8231316",
+          "chapter_id": "c-chenshu-004-wang-empress-enthronement",
+          "paragraph_id": "c-chenshu-004-wang-empress-enthronement:p001",
+          "quote": "秋七月丁酉，立妃王氏為皇后。",
+          "person_mention_id": "c-chenshu-004-wang-empress-enthronement:p001:m0008"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

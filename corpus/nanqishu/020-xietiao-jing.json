@@ -5,7 +5,7 @@
   "work_id": "w-nanqishu",
   "book_id": "b-nanqishu-020",
   "source_id": "s-nanqishu-020-xietiao-jing-ws2074177",
-  "title": "明敬劉皇后名與父",
+  "title": "明敬劉皇后傳",
   "source": {
     "title": "南齊書/卷20·明敬劉皇后名與父",
     "provider": "Wikisource",
@@ -15,9 +15,9 @@
     "accessed_on": "2026-11-20",
     "raw_path": "source-evidence/nanshi019-xietiao/nanqishu020-ws2074177.wikitext",
     "raw_file_sha256": "2c014418a1f8c5d3ce3fff8502fb7694f4b7266638217fe4f10df10170cb6acc",
-    "extent": "取文範圍見逐段行號及引句。",
+    "extent": "固定原始檔第46行全傳，自明敬劉皇后諱惠端至祔于興安陵。",
     "edition": "維基文庫固定數位見證。",
-    "text_scope": "partial_chapter",
+    "text_scope": "complete_biography_unit",
     "image_verified": false,
     "review_status": "text_checked",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -25,8 +25,8 @@
     "section_locator": "明敬劉皇后名與父"
   },
   "annotation": {
-    "status": "in_progress",
-    "completion_note": "限所列原句。",
+    "status": "reviewed",
+    "completion_note": "原節錄人物及指稱保留原號，已逐項核完同一原段全傳。",
     "reviewer": "Codex（AI代理）",
     "model": null,
     "human_reviewed": false,
@@ -41,6 +41,17 @@
         "referent_role": "third_person",
         "quote": "明敬劉皇后諱惠端，彭城人，光祿大夫道弘孫也。太祖為高宗納之。建元三年，除西昌侯夫人。永明七年，卒，葬江乘縣張山。延興元年，贈宣城王妃。高宗即位，追尊為敬皇后。贈父通直郎景猷金紫光祿大夫，母王氏平陽鄉君。永泰元年，高宗崩，改葬，祔于興安陵。",
         "note": "依語境讀作蕭明帝。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing:p001:r0028",
+        "start": 28,
+        "end": 29,
+        "surface": "之",
+        "person_id": "gjl_f5h_2a6_A",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "quote": "高宗納之",
+        "referent_role": "third_person",
+        "note": "納之所指劉惠端。"
       },
       {
         "id": "c-nanqishu-020-xietiao-jing:p001:r0067",
@@ -75,15 +86,420 @@
         "quote": "明敬劉皇后諱惠端，彭城人，光祿大夫道弘孫也。太祖為高宗納之。建元三年，除西昌侯夫人。永明七年，卒，葬江乘縣張山。延興元年，贈宣城王妃。高宗即位，追尊為敬皇后。贈父通直郎景猷金紫光祿大夫，母王氏平陽鄉君。永泰元年，高宗崩，改葬，祔于興安陵。",
         "note": "依語境讀作蕭明帝。"
       }
-    ]
+    ],
+    "narrative_readings": [
+      {
+        "event_type": "name",
+        "person_ids": [
+          "gjl_f5h_2a6_A"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "surface": "諱惠端",
+          "start": 5,
+          "end": 8
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-xietiao-jing",
+          "source_id": "s-nanqishu-020-xietiao-jing-ws2074177",
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "quote": "諱惠端"
+        },
+        "interpretation_note": "傳文書諱。"
+      },
+      {
+        "event_type": "place",
+        "person_ids": [
+          "gjl_f5h_2a6_A"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "surface": "彭城人",
+          "start": 9,
+          "end": 12
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-xietiao-jing",
+          "source_id": "s-nanqishu-020-xietiao-jing-ws2074177",
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "quote": "彭城人"
+        },
+        "interpretation_note": "籍貫彭城。"
+      },
+      {
+        "event_type": "marriage",
+        "person_ids": [
+          "gjl_f5h_2a6_A",
+          "w4m_9tw_147",
+          "47p_kjh_ez7"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "surface": "太祖為高宗納之",
+          "start": 22,
+          "end": 29
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-xietiao-jing",
+          "source_id": "s-nanqishu-020-xietiao-jing-ws2074177",
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "quote": "太祖為高宗納之"
+        },
+        "interpretation_note": "高帝為明帝納。"
+      },
+      {
+        "event_type": "burial",
+        "person_ids": [
+          "gjl_f5h_2a6_A"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "surface": "葬江乘縣張山",
+          "start": 49,
+          "end": 55
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-xietiao-jing",
+          "source_id": "s-nanqishu-020-xietiao-jing-ws2074177",
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "quote": "葬江乘縣張山"
+        },
+        "interpretation_note": "初葬。"
+      },
+      {
+        "event_type": "honorific",
+        "person_ids": [
+          "gjl_f5h_2a6_A"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "surface": "贈宣城王妃",
+          "start": 61,
+          "end": 66
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-xietiao-jing",
+          "source_id": "s-nanqishu-020-xietiao-jing-ws2074177",
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "quote": "贈宣城王妃"
+        },
+        "interpretation_note": "延興元年贈號。"
+      },
+      {
+        "event_type": "death",
+        "person_ids": [
+          "w4m_9tw_147"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "surface": "高宗崩",
+          "start": 106,
+          "end": 109
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-xietiao-jing",
+          "source_id": "s-nanqishu-020-xietiao-jing-ws2074177",
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "quote": "高宗崩"
+        },
+        "interpretation_note": "此崩為明帝之死。"
+      },
+      {
+        "event_type": "reburial",
+        "person_ids": [
+          "gjl_f5h_2a6_A",
+          "w4m_9tw_147"
+        ],
+        "source_anchor": {
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "surface": "改葬，祔于興安陵",
+          "start": 110,
+          "end": 118
+        },
+        "evidence": {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-xietiao-jing",
+          "source_id": "s-nanqishu-020-xietiao-jing-ws2074177",
+          "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+          "quote": "改葬，祔于興安陵"
+        },
+        "interpretation_note": "改葬並祔興安陵。"
+      }
+    ],
+    "source_reading_cases": [
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-1",
+        "kind": "primary_source_comparison",
+        "person_id": "vus_7f1_rrz",
+        "source_quote": "道弘孫也",
+        "reading": "光祿大夫道弘孫也",
+        "reference": "南齊書后妃傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2074177",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 17,
+        "end_codepoint": 21,
+        "human_reviewed": false,
+        "note": "孫。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-2",
+        "kind": "primary_source_comparison",
+        "person_id": "vus_7f1_rrz",
+        "source_quote": "道弘孫也",
+        "reading": "光祿大夫道弘孫也",
+        "reference": "南史后妃傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2288359",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 17,
+        "end_codepoint": 21,
+        "human_reviewed": false,
+        "note": "孫。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-3",
+        "kind": "primary_source_comparison",
+        "person_id": "vus_7f1_rrz",
+        "source_quote": "道弘孫也",
+        "reading": "光祿大夫道弘女",
+        "reference": "文選卷五十八",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2004220",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 17,
+        "end_codepoint": 21,
+        "human_reviewed": false,
+        "note": "注引作女。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-4",
+        "kind": "primary_source_comparison",
+        "person_id": "gjl_f5h_2a6",
+        "source_quote": "景猷",
+        "reading": "贈父通直郎景猷金紫光祿大夫",
+        "reference": "南齊書后妃傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2074177",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 84,
+        "end_codepoint": 86,
+        "human_reviewed": false,
+        "note": "所贈親父景猷。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-5",
+        "kind": "primary_source_comparison",
+        "person_id": "gjl_f5h_2a6",
+        "source_quote": "景猷",
+        "reading": "贈父通直郎景猷為金紫光祿大夫",
+        "reference": "南史后妃傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2288359",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 84,
+        "end_codepoint": 86,
+        "human_reviewed": false,
+        "note": "父名同。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-6",
+        "kind": "primary_source_comparison",
+        "person_id": "q20_pas_ain",
+        "source_quote": "母王氏",
+        "reading": "母王氏平陽鄉君",
+        "reference": "南齊書后妃傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2074177",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 93,
+        "end_codepoint": 96,
+        "human_reviewed": false,
+        "note": "母姓王，此處列號。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-7",
+        "kind": "primary_source_comparison",
+        "person_id": "w4m_9tw_147",
+        "source_quote": "西昌侯夫人",
+        "reading": "封西昌侯，邑千戶",
+        "reference": "南齊書明帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 36,
+        "end_codepoint": 41,
+        "human_reviewed": false,
+        "note": "蕭鸞的封號。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-8",
+        "kind": "primary_source_comparison",
+        "person_id": "w4m_9tw_147",
+        "source_quote": "宣城王妃",
+        "reading": "封宣城王，邑五千戶",
+        "reference": "南齊書明帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 62,
+        "end_codepoint": 66,
+        "human_reviewed": false,
+        "note": "蕭鸞受封與妃受贈分記。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-9",
+        "kind": "primary_source_comparison",
+        "person_id": "w4m_9tw_147",
+        "source_quote": "高宗即位",
+        "reading": "建武元年冬十月癸亥，即皇帝位",
+        "reference": "南齊書明帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 67,
+        "end_codepoint": 71,
+        "human_reviewed": false,
+        "note": "即位日期屬蕭鸞。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-10",
+        "kind": "primary_source_comparison",
+        "person_id": "w4m_9tw_147",
+        "source_quote": "高宗崩",
+        "reading": "己酉，帝崩〔于〕正福殿",
+        "reference": "南齊書明帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 106,
+        "end_codepoint": 109,
+        "human_reviewed": false,
+        "note": "明帝之死。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-11",
+        "kind": "primary_source_comparison",
+        "person_id": "w4m_9tw_147",
+        "source_quote": "興安陵",
+        "reading": "葬興安陵",
+        "reference": "南齊書明帝紀",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2311630",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 115,
+        "end_codepoint": 118,
+        "human_reviewed": false,
+        "note": "與后傳所記祔陵相合。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-12",
+        "kind": "primary_source_comparison",
+        "person_id": "gjl_f5h_2a6_A",
+        "source_quote": "改葬",
+        "reading": "秋九月朔日，敬皇后梓宮啟自先塋，將祔于某陵",
+        "reference": "謝朓齊敬皇后哀策文",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1966609",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 110,
+        "end_codepoint": 112,
+        "human_reviewed": false,
+        "note": "秋九月朔為啟宮日期，文中以某陵代陵名。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-13",
+        "kind": "primary_source_comparison",
+        "person_id": "gjl_f5h_2a6_A",
+        "source_quote": "改葬",
+        "reading": "敬皇后梓宮啟自先塋，將祔于某陵",
+        "reference": "文選卷五十八",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2004220",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 110,
+        "end_codepoint": 112,
+        "human_reviewed": false,
+        "note": "「將祔」尚為將行。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-parallel-14",
+        "kind": "primary_source_comparison",
+        "person_id": "gjl_f5h_2a6_A",
+        "source_quote": "惠端",
+        "reading": "敬皇后生[[南齊書/卷7|東昏侯寶卷]]，江夏王寶玄，鄱陽王寶寅，[[南齊書/卷8|和帝]]",
+        "reference": "南齊書明帝諸子",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2272731",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 6,
+        "end_codepoint": 8,
+        "human_reviewed": false,
+        "note": "本傳外有四子的合列。"
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-1574-shan-道弘孫也",
+        "kind": "witness_collation",
+        "person_id": "vus_7f1_rrz",
+        "source_quote": "道弘孫也",
+        "reading": "道弘女",
+        "reference": "明萬曆二年六臣註文選第47面右半第3欄",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/NCL-13556_20_%E5%85%AD%E8%87%A3%E8%A8%BB%E6%96%87%E9%81%B8.pdf#page=47",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 17,
+        "end_codepoint": 21,
+        "note": "李善注引蕭子顯《齊書》，作道弘女，與今本孫不同。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-1574-liang-道弘孫也",
+        "kind": "witness_collation",
+        "person_id": "vus_7f1_rrz",
+        "source_quote": "道弘孫也",
+        "reading": "弘道孫也",
+        "reference": "明萬曆二年六臣註文選第47面右半第6欄",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/NCL-13556_20_%E5%85%AD%E8%87%A3%E8%A8%BB%E6%96%87%E9%81%B8.pdf#page=47",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 17,
+        "end_codepoint": 21,
+        "note": "良注作弘道，仍稱孫。",
+        "human_reviewed": false
+      },
+      {
+        "id": "c-nanqishu-020-xietiao-jing-1574-liang-惠端",
+        "kind": "witness_collation",
+        "person_id": "gjl_f5h_2a6_A",
+        "source_quote": "惠端",
+        "reading": "端惠",
+        "reference": "明萬曆二年六臣註文選第47面右半第6欄",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/NCL-13556_20_%E5%85%AD%E8%87%A3%E8%A8%BB%E6%96%87%E9%81%B8.pdf#page=47",
+        "paragraph_id": "c-nanqishu-020-xietiao-jing:p001",
+        "start_codepoint": 6,
+        "end_codepoint": 8,
+        "note": "良注皇后名字次序相反。",
+        "human_reviewed": false
+      }
+    ],
+    "biography_source_reviews": {
+      "全傳及校注分層": "source-evidence/qi020-liuhuiduan/nanqishu-reading.json"
+    }
   },
   "paragraphs": [
     {
       "id": "c-nanqishu-020-xietiao-jing:p001",
       "text": "明敬劉皇后諱惠端，彭城人，光祿大夫道弘孫也。太祖為高宗納之。建元三年，除西昌侯夫人。永明七年，卒，葬江乘縣張山。延興元年，贈宣城王妃。高宗即位，追尊為敬皇后。贈父通直郎景猷金紫光祿大夫，母王氏平陽鄉君。永泰元年，高宗崩，改葬，祔于興安陵。",
       "text_layer": "received_chapter",
-      "annotation_status": "named_mentions_first_pass",
+      "annotation_status": "reviewed",
       "mentions": [
+        {
+          "id": "c-nanqishu-020-xietiao-jing:p001:m0000",
+          "start": 0,
+          "end": 5,
+          "surface": "明敬劉皇后",
+          "person_id": "gjl_f5h_2a6_A",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "傳文所稱本人、家人或為明帝納妃者。"
+        },
         {
           "id": "c-nanqishu-020-xietiao-jing:p001:m0006",
           "start": 6,
@@ -95,6 +511,26 @@
           "interpretation_note": "本句具名，按上下文讀作劉惠端。"
         },
         {
+          "id": "c-nanqishu-020-xietiao-jing:p001:m0017",
+          "start": 17,
+          "end": 19,
+          "surface": "道弘",
+          "person_id": "vus_7f1_rrz",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "傳文所稱本人、家人或為明帝納妃者。"
+        },
+        {
+          "id": "c-nanqishu-020-xietiao-jing:p001:m0022",
+          "start": 22,
+          "end": 24,
+          "surface": "太祖",
+          "person_id": "47p_kjh_ez7",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "傳文所稱本人、家人或為明帝納妃者。"
+        },
+        {
           "id": "c-nanqishu-020-xietiao-jing:p001:m0084",
           "start": 84,
           "end": 86,
@@ -103,6 +539,16 @@
           "kind": "person",
           "status": "contextual_provisional",
           "interpretation_note": "本句具名，按上下文讀作劉景猷。"
+        },
+        {
+          "id": "c-nanqishu-020-xietiao-jing:p001:m0094",
+          "start": 94,
+          "end": 96,
+          "surface": "王氏",
+          "person_id": "q20_pas_ain",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "傳文所稱本人、家人或為明帝納妃者。"
         }
       ],
       "source_position": {

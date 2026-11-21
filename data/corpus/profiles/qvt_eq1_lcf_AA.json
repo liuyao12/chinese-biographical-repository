@@ -8,7 +8,8 @@
   "names": [
     "鄱陽忠烈王恢",
     "弘達",
-    "鄱陽郡王"
+    "鄱陽郡王",
+    "恢"
   ],
   "titles": [],
   "addresses": [],
@@ -126,6 +127,41 @@
       "chapter_id": "c-liangshu-022-wangzhi-royal-context",
       "source_id": "s-liangshu-022-wangzhi-royal-context-ws1513347",
       "work_title": "梁書"
+    },
+    {
+      "number": 164,
+      "category": "",
+      "title": "宜豐侯循父恢",
+      "paragraph_id": "c-zizhitongjian-164-xiaoxun-parent:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "循，恢之子也。",
+      "paragraph_ids": [
+        "c-zizhitongjian-164-xiaoxun-parent:p001"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-164-xiaoxun-parent:p001:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-164-xiaoxun-parent:p001:m0002": "c-zizhitongjian-164-xiaoxun-parent:p001"
+      },
+      "mention_id": "c-zizhitongjian-164-xiaoxun-parent:p001:m0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-164-xiaoxun-parent:p001:m0002",
+          "mention_ids": [
+            "c-zizhitongjian-164-xiaoxun-parent:p001:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-164",
+      "chapter_id": "c-zizhitongjian-164-xiaoxun-parent",
+      "source_id": "s-zizhitongjian-164-xiaoxun-parent-ws2310031",
+      "work_title": "資治通鑑"
     }
   ],
   "table_occurrences": [],
@@ -265,6 +301,33 @@
           "extraction_note": "據書影從右至左逐欄錄字，段界沿用同篇數位本以便對讀。二處小字「缺」照錄並標出位置。"
         }
       }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-164-xiaoxun-parent",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-164",
+      "source_id": "s-zizhitongjian-164-xiaoxun-parent-ws2310031",
+      "source": {
+        "title": "資治通鑑卷164·宜豐侯循父恢",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2310031",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2310031",
+        "revision_id": 2310031,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "原王府身分、紀年或改名原句",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan023-wangmai/ws2310031.wikitext",
+        "raw_file_sha256": "2d9ca89d38bb72d3667265511ad356e8f31407ab86ee472613872f254464084a",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        }
+      }
     }
   ],
   "relations": [
@@ -293,11 +356,40 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-nan023-wangmai-xun-father",
+      "subject_person_id": "qvt_eq1_lcf_AAA",
+      "object_person_id": "qvt_eq1_lcf_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "恢之子也",
+        "nan023_wangmai_reading": "xun-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-164",
+          "source_id": "s-zizhitongjian-164-xiaoxun-parent-ws2310031",
+          "chapter_id": "c-zizhitongjian-164-xiaoxun-parent",
+          "paragraph_id": "c-zizhitongjian-164-xiaoxun-parent:p001",
+          "quote": "循，恢之子也。",
+          "subject_person_mention_id": "c-zizhitongjian-164-xiaoxun-parent:p001:m0000",
+          "object_person_mention_id": "c-zizhitongjian-164-xiaoxun-parent:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "同一原行先稱宜豐侯循，末明載父名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "qvt_eq1_lcf_A": "蕭順之",
-    "qvt_eq1_lcf_AA": "蕭恢"
+    "qvt_eq1_lcf_AA": "蕭恢",
+    "qvt_eq1_lcf_AAA": "蕭循（宜豐侯）"
   },
   "dates": [],
   "name_components": [],
@@ -362,6 +454,34 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "human_reviewed": false
+    },
+    {
+      "id": "a-nan023-wangmai-xun-father",
+      "subject_person_id": "qvt_eq1_lcf_AAA",
+      "object_person_id": "qvt_eq1_lcf_AA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "恢之子也",
+        "nan023_wangmai_reading": "xun-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-164",
+          "source_id": "s-zizhitongjian-164-xiaoxun-parent-ws2310031",
+          "chapter_id": "c-zizhitongjian-164-xiaoxun-parent",
+          "paragraph_id": "c-zizhitongjian-164-xiaoxun-parent:p001",
+          "quote": "循，恢之子也。",
+          "subject_person_mention_id": "c-zizhitongjian-164-xiaoxun-parent:p001:m0000",
+          "object_person_mention_id": "c-zizhitongjian-164-xiaoxun-parent:p001:m0002"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "同一原行先稱宜豐侯循，末明載父名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "age_assertions": [],

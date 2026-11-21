@@ -1,0 +1,55 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-chenshu-004-zhize-son-of-bozong",
+  "assertions": [
+    {
+      "id": "a-nan023-wanghou-annal-prince-father",
+      "subject_person_id": "2mj_6rl_6xs_A",
+      "object_person_id": "2mj_6rl_6xs",
+      "predicate": "father",
+      "qualifiers": {
+        "nan023_wanghou_reading": "annal-prince-father",
+        "source_term": "立皇子至澤為皇太子",
+        "lineage": "paternal"
+      },
+      "context": {
+        "kind": "chen004_emperor_and_his_named_son",
+        "paragraph_ids": [
+          "c-chenshu-004-zhize-son-of-bozong:p001",
+          "c-chenshu-004-zhize-son-of-bozong:p002"
+        ],
+        "parent_mention_id": "c-chenshu-004-zhize-son-of-bozong:p001:m0003",
+        "child_mention_id": "c-chenshu-004-zhize-son-of-bozong:p002:m0009",
+        "rationale": "卷四廢帝紀，首書廢帝諱伯宗，同一在位記年稱皇子至澤。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-004",
+          "source_id": "s-chenshu-004-zhize-son-of-bozong-ws8231316",
+          "chapter_id": "c-chenshu-004-zhize-son-of-bozong",
+          "paragraph_id": "c-chenshu-004-zhize-son-of-bozong:p001",
+          "quote": "廢帝諱伯宗，字奉業，小字藥王，世祖嫡長子也。",
+          "object_person_mention_id": "c-chenshu-004-zhize-son-of-bozong:p001:m0003"
+        },
+        {
+          "work_id": "w-chenshu",
+          "book_id": "b-chenshu-004",
+          "source_id": "s-chenshu-004-zhize-son-of-bozong-ws8231316",
+          "chapter_id": "c-chenshu-004-zhize-son-of-bozong",
+          "paragraph_id": "c-chenshu-004-zhize-son-of-bozong:p002",
+          "quote": "秋七月戊申，立皇子至澤為皇太子，",
+          "subject_person_mention_id": "c-chenshu-004-zhize-son-of-bozong:p002:m0009"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "以本紀明稱皇子立父子，未據至澤襲臨海王而定父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

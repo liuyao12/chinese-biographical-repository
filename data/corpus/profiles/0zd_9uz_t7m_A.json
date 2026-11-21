@@ -14,6 +14,41 @@
     {
       "number": 11,
       "category": "",
+      "title": "武敬皇后傳父雋之子燾、熹選句",
+      "paragraph_id": "c-nanshi-011-xuanmo-zangxi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "雋子燾、熹，並自有傳。",
+      "paragraph_ids": [
+        "c-nanshi-011-xuanmo-zangxi:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-011-xuanmo-zangxi:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-011-xuanmo-zangxi:p001:m0000": "c-nanshi-011-xuanmo-zangxi:p001"
+      },
+      "mention_id": "c-nanshi-011-xuanmo-zangxi:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-011-xuanmo-zangxi:p001:m0000",
+          "mention_ids": [
+            "c-nanshi-011-xuanmo-zangxi:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-011",
+      "chapter_id": "c-nanshi-011-xuanmo-zangxi",
+      "source_id": "s-nanshi-011-xuanmo-zangxi-ws2288359",
+      "work_title": "南史"
+    },
+    {
+      "number": 11,
+      "category": "",
       "title": "袁齊媯傳",
       "paragraph_id": "c-nanshi-011-yuanqigui:p002",
       "count": 1,
@@ -120,6 +155,29 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-nanshi-011-xuanmo-zangxi",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-011",
+      "source_id": "s-nanshi-011-xuanmo-zangxi-ws2288359",
+      "source": {
+        "title": "武敬皇后傳父雋之子燾、熹選句",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2288359",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2288359",
+        "revision_id": 2288359,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "武敬皇后傳父雋之子燾、熹選句",
+        "text_scope": "partial_chapter",
+        "raw_path": "sources/nanshi/nanshi011-ws2288359.wikitext",
+        "raw_file_sha256": "056a4790420554786f40b92b14255aeec0a0eb168722bfeda19ad5f78f6363d4"
+      }
+    },
+    {
       "chapter_id": "c-nanshi-011-yuanqigui",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-011",
@@ -203,6 +261,33 @@
   ],
   "relations": [
     {
+      "id": "a-xuanmo-zangxi-father",
+      "subject_person_id": "0zd_9uz_t7m_AB",
+      "object_person_id": "0zd_9uz_t7m_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "雋子燾、熹",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-xuanmo-zangxi",
+          "source_id": "s-nanshi-011-xuanmo-zangxi-ws2288359",
+          "paragraph_id": "c-nanshi-011-xuanmo-zangxi:p001",
+          "quote": "雋子燾、熹，並自有傳。",
+          "subject_person_mention_id": "c-nanshi-011-xuanmo-zangxi:p001:m0004",
+          "object_person_mention_id": "c-nanshi-011-xuanmo-zangxi:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父雋具名。已刊臧儁保存宋書字形。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nanshi-011-zangqiyuan-father",
       "subject_person_id": "5cm_eyx_pno",
       "object_person_id": "0zd_9uz_t7m_A",
@@ -233,6 +318,7 @@
   ],
   "related_people": {
     "0zd_9uz_t7m_A": "臧儁",
+    "0zd_9uz_t7m_AB": "臧熹（字義和）",
     "5cm_eyx_pno": "臧愛親"
   },
   "dates": [],
@@ -258,6 +344,33 @@
     "0zd_9uz_t7m_A"
   ],
   "preferred_relations": [
+    {
+      "id": "a-xuanmo-zangxi-father",
+      "subject_person_id": "0zd_9uz_t7m_AB",
+      "object_person_id": "0zd_9uz_t7m_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "雋子燾、熹",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-xuanmo-zangxi",
+          "source_id": "s-nanshi-011-xuanmo-zangxi-ws2288359",
+          "paragraph_id": "c-nanshi-011-xuanmo-zangxi:p001",
+          "quote": "雋子燾、熹，並自有傳。",
+          "subject_person_mention_id": "c-nanshi-011-xuanmo-zangxi:p001:m0004",
+          "object_person_mention_id": "c-nanshi-011-xuanmo-zangxi:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "父雋具名。已刊臧儁保存宋書字形。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanshi-011-zangqiyuan-father",
       "subject_person_id": "5cm_eyx_pno",

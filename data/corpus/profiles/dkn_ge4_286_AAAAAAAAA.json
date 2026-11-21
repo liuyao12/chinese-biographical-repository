@@ -2322,7 +2322,8 @@
         "wikitext_sha256": "bfbb80734b71669aaed368f54f088c89285f1acdbe70ca678745ea9684029495",
         "raw_file_sha256": "bfbb80734b71669aaed368f54f088c89285f1acdbe70ca678745ea9684029495",
         "collation_witnesses": [
-          "source-evidence/jin067-wen-children/reading.json"
+          "source-evidence/jin067-wen-children/reading.json",
+          "source-evidence/jin067-wenqiao-main/reading.json"
         ]
       }
     },
@@ -5136,6 +5137,38 @@
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-w067-yuliang-emperor-uncle",
+      "subject_person_id": "dkn_ge4_286_AAAAAAAAA",
+      "object_person_id": "4qr_wrk_3vd_B",
+      "predicate": "maternal_uncle",
+      "qualifiers": {
+        "source_term": "帝之元舅",
+        "source_clause_binding": {
+          "kind": "jin067_emperor_yuliang_yuanjiu"
+        },
+        "generation_difference": -1,
+        "lineage": "maternal",
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-067",
+          "chapter_id": "c-jinshu-067-wenqiao",
+          "source_id": "s-jinshu-067-wenqiao",
+          "paragraph_id": "c-jinshu-067-wenqiao:line040",
+          "quote": "群公征鎮，職在禦侮。征西陶公，國之耆德，忠肅義正，勳庸弘著。諸方鎮州郡咸齊斷金，同稟規略，以雪國恥，苟利社稷，死生以之。嶠雖怯劣，忝據一方，賴忠賢之規，文武之助，君子竭誠，小人盡力，高操之士被褐而從戎，負薪之徒匍匐而赴命，率其私僕，致其私杖，人士之誠，竹帛不能載也。豈嶠無德而致之哉？士稟義風，人感皇澤。且護軍庾公，帝之元舅，德望隆重，率郭後軍、趙、龔三將，與嶠戮力，得有資憑，且悲且慶，若朝廷之不泯也。其各明率所統，無後事機。賞募之信，明如日月。有能斬約峻者，封五等侯，賞布萬匹。夫忠為令德，為仁由己，萬里一契，義不在言也。",
+          "subject_reference_id": "c-jinshu-067-wenqiao:line040:r0158",
+          "object_person_mention_id": "c-jinshu-067-wenqiao:line040:m0155"
+        }
+      ],
+      "interpretation_note": "檄文護軍庾公即同文護軍庾亮，幽逼當時皇帝為成帝。此句沒有母名。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
@@ -5325,6 +5358,111 @@
       "person_id": "dkn_ge4_286_AAAAAAAAA",
       "referent_role": "addressee",
       "quote": "草，豈樂今日勞費之事。願陛下慈恩，停其移葬，使嶠棺柩",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-067-wenqiao",
+      "book_id": "b-jinshu-067",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-067-wenqiao"
+    },
+    {
+      "id": "c-jinshu-067-wenqiao:line040:r0158",
+      "paragraph_id": "c-jinshu-067-wenqiao:line040",
+      "start": 158,
+      "end": 159,
+      "surface": "帝",
+      "person_id": "dkn_ge4_286_AAAAAAAAA",
+      "referent_role": "third_person",
+      "quote": "，人感皇澤。且護軍庾公，帝之元舅，德望隆重，率郭後",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-067-wenqiao",
+      "book_id": "b-jinshu-067",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-067-wenqiao"
+    },
+    {
+      "id": "c-jinshu-067-wenqiao:line054:r0007",
+      "paragraph_id": "c-jinshu-067-wenqiao:line054",
+      "start": 7,
+      "end": 9,
+      "surface": "大駕",
+      "person_id": "dkn_ge4_286_AAAAAAAAA",
+      "referent_role": "third_person",
+      "quote": "峻聞嶠將至，逼大駕幸石頭。時峻軍多馬，南軍",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-067-wenqiao",
+      "book_id": "b-jinshu-067",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-067-wenqiao"
+    },
+    {
+      "id": "c-jinshu-067-wenqiao:line054:r0310",
+      "paragraph_id": "c-jinshu-067-wenqiao:line054",
+      "start": 310,
+      "end": 312,
+      "surface": "天子",
+      "person_id": "dkn_ge4_286_AAAAAAAAA",
+      "referent_role": "third_person",
+      "quote": "垂立之功，設進退之計！且天子幽逼，社稷危殆，四海臣子",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-067-wenqiao",
+      "book_id": "b-jinshu-067",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-067-wenqiao"
+    },
+    {
+      "id": "c-jinshu-067-wenqiao:line056:r0239",
+      "paragraph_id": "c-jinshu-067-wenqiao:line056",
+      "start": 239,
+      "end": 241,
+      "surface": "天子",
+      "person_id": "dkn_ge4_286_AAAAAAAAA",
+      "referent_role": "third_person",
+      "quote": "賊石頭軍。奮威長史滕含抱天子奔于嶠船。時陶侃雖為盟主",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-067-wenqiao",
+      "book_id": "b-jinshu-067",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-067-wenqiao"
+    },
+    {
+      "id": "c-jinshu-067-wenqiao:line060:r0170",
+      "paragraph_id": "c-jinshu-067-wenqiao:line060",
+      "start": 170,
+      "end": 171,
+      "surface": "帝",
+      "person_id": "dkn_ge4_286_AAAAAAAAA",
+      "referent_role": "third_person",
+      "quote": "士庶聞之，莫不相顧而泣。帝下冊書曰：「朕以眇身，纂",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-067-wenqiao",
+      "book_id": "b-jinshu-067",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-067-wenqiao"
+    },
+    {
+      "id": "c-jinshu-067-wenqiao:line060:r0177",
+      "paragraph_id": "c-jinshu-067-wenqiao:line060",
+      "start": 177,
+      "end": 178,
+      "surface": "朕",
+      "person_id": "dkn_ge4_286_AAAAAAAAA",
+      "referent_role": "speaker_self",
+      "quote": "相顧而泣。帝下冊書曰：「朕以眇身，纂承洪緒，不能光",
+      "note": "依所引原句及對話角色辨識。",
+      "chapter_id": "c-jinshu-067-wenqiao",
+      "book_id": "b-jinshu-067",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-067-wenqiao"
+    },
+    {
+      "id": "c-jinshu-067-wenqiao:line060:r0300",
+      "paragraph_id": "c-jinshu-067-wenqiao:line060",
+      "start": 300,
+      "end": 301,
+      "surface": "朕",
+      "person_id": "dkn_ge4_286_AAAAAAAAA",
+      "referent_role": "speaker_self",
+      "quote": "夏，天不憖遺，早世薨殂，朕用痛悼于厥心。夫褒德銘勳",
       "note": "依所引原句及對話角色辨識。",
       "chapter_id": "c-jinshu-067-wenqiao",
       "book_id": "b-jinshu-067",
@@ -5575,6 +5713,38 @@
       "interpretation_note": "王導與陶稱書說庾公是帝之元舅。帝為成帝，庾公為亮，未以本句補母名。",
       "status": "source_attested",
       "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w067-yuliang-emperor-uncle",
+      "subject_person_id": "dkn_ge4_286_AAAAAAAAA",
+      "object_person_id": "4qr_wrk_3vd_B",
+      "predicate": "maternal_uncle",
+      "qualifiers": {
+        "source_term": "帝之元舅",
+        "source_clause_binding": {
+          "kind": "jin067_emperor_yuliang_yuanjiu"
+        },
+        "generation_difference": -1,
+        "lineage": "maternal",
+        "mother_person_id": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-067",
+          "chapter_id": "c-jinshu-067-wenqiao",
+          "source_id": "s-jinshu-067-wenqiao",
+          "paragraph_id": "c-jinshu-067-wenqiao:line040",
+          "quote": "群公征鎮，職在禦侮。征西陶公，國之耆德，忠肅義正，勳庸弘著。諸方鎮州郡咸齊斷金，同稟規略，以雪國恥，苟利社稷，死生以之。嶠雖怯劣，忝據一方，賴忠賢之規，文武之助，君子竭誠，小人盡力，高操之士被褐而從戎，負薪之徒匍匐而赴命，率其私僕，致其私杖，人士之誠，竹帛不能載也。豈嶠無德而致之哉？士稟義風，人感皇澤。且護軍庾公，帝之元舅，德望隆重，率郭後軍、趙、龔三將，與嶠戮力，得有資憑，且悲且慶，若朝廷之不泯也。其各明率所統，無後事機。賞募之信，明如日月。有能斬約峻者，封五等侯，賞布萬匹。夫忠為令德，為仁由己，萬里一契，義不在言也。",
+          "subject_reference_id": "c-jinshu-067-wenqiao:line040:r0158",
+          "object_person_mention_id": "c-jinshu-067-wenqiao:line040:m0155"
+        }
+      ],
+      "interpretation_note": "檄文護軍庾公即同文護軍庾亮，幽逼當時皇帝為成帝。此句沒有母名。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     }
