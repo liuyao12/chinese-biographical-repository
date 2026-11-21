@@ -1,0 +1,139 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-shishuoxinyu-017-wang080-short",
+  "work_id": "w-shishuoxinyu",
+  "book_id": "b-shishuoxinyu-017",
+  "source_id": "s-shishuoxinyu-017-wang080-short",
+  "title": "傷逝王子猷子敬先後卒",
+  "source": {
+    "title": "世說新語·傷逝",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1500514",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=1500514",
+    "revision_id": 1500514,
+    "accessed_on": "2026-11-20",
+    "edition": "維基文庫固定數位轉錄。",
+    "extent": "固定版本的相關原句及該句所出層次，按字位核對。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古代原文，維基文庫數位轉錄。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "raw_path": "source-evidence/jin065-wang-children/external/shangshi-ws1500514.wikitext",
+    "raw_file_sha256": "5387e1875e74b258a6e5641aeb0c2eea9e6d8877fc7b071113afe4b3264b2efb",
+    "wikitext_sha256": "5387e1875e74b258a6e5641aeb0c2eea9e6d8877fc7b071113afe4b3264b2efb"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "human_reviewed": false,
+    "scope": "本次原書節錄。",
+    "age_assertions": [
+      {
+        "id": "age-w080-xian-45",
+        "person_id": "sm1_jfi_7k2",
+        "source_number": "四十五",
+        "source_term": "年四十五",
+        "value": 45,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "evidence": [
+          {
+            "work_id": "w-shishuoxinyu",
+            "book_id": "b-shishuoxinyu-017",
+            "chapter_id": "c-shishuoxinyu-017-wang080-short",
+            "source_id": "s-shishuoxinyu-017-wang080-short",
+            "paragraph_id": "c-shishuoxinyu-017-wang080-short:liunote",
+            "person_mention_id": "c-shishuoxinyu-017-wang080-short:liunote:m0000",
+            "quote": "獻之以泰元十三年卒，年四十五。"
+          }
+        ],
+        "interpretation_note": "劉注所報卒齡。",
+        "status": "source_attested",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-shishuoxinyu-017-wang080-short:order",
+      "text": "王子猷、子敬俱病篤，而子敬先亡。",
+      "text_layer": "received_chapter",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-017-wang080-short:order:m0000",
+          "start": 0,
+          "end": 3,
+          "surface": "王子猷",
+          "person_id": "326_faf_cd3_B",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段人物敘述及相應早期文獻確定。"
+        },
+        {
+          "id": "c-shishuoxinyu-017-wang080-short:order:m0004",
+          "start": 4,
+          "end": 6,
+          "surface": "子敬",
+          "person_id": "sm1_jfi_7k2",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段人物敘述及相應早期文獻確定。"
+        },
+        {
+          "id": "c-shishuoxinyu-017-wang080-short:order:m0011",
+          "start": 11,
+          "end": 13,
+          "surface": "子敬",
+          "person_id": "sm1_jfi_7k2",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段人物敘述及相應早期文獻確定。"
+        }
+      ],
+      "source_quote": {
+        "witness": "shang",
+        "quote": "王子猷、子敬俱病篤，而子敬先亡。",
+        "source_layer": "正文",
+        "raw_start": 2424,
+        "raw_end": 2440,
+        "raw_line": 24
+      }
+    },
+    {
+      "id": "c-shishuoxinyu-017-wang080-short:liunote",
+      "text": "獻之以泰元十三年卒，年四十五。",
+      "text_layer": "witness_appended_liuxiaobiao_note",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-017-wang080-short:liunote:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "獻之",
+          "person_id": "sm1_jfi_7k2",
+          "kind": "person",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本段人物敘述及相應早期文獻確定。"
+        }
+      ],
+      "source_quote": {
+        "witness": "shang",
+        "quote": "獻之以泰元十三年卒，年四十五。",
+        "source_layer": "劉孝標注",
+        "raw_start": 2444,
+        "raw_end": 2459,
+        "raw_line": 24
+      },
+      "attribution": {
+        "annotator": "劉孝標",
+        "quoted_work": null
+      }
+    }
+  ],
+  "text_sha256": "2332108df612d4c001f67a8a8ddb976b6bc65d06e951af845b943f5e43b505ed"
+}

@@ -29,9 +29,141 @@
     "武悼皇帝",
     "恆玄"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w080-line098-桓玄0",
+      "person_id": "u9s_w6j_8mc_AAF",
+      "title": "太尉",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-080",
+          "chapter_id": "c-jinshu-080-wangxizhi-family",
+          "source_id": "s-jinshu-080-wangxizhi-family",
+          "paragraph_id": "c-jinshu-080-wangxizhi-family:line098",
+          "person_mention_id": "c-jinshu-080-wangxizhi-family:line098:m0017",
+          "quote": "楨之字公幹，歷位侍中、大司馬長史。桓玄為太尉，朝臣畢集，問楨之：「我何如君亡叔？」在坐咸為氣咽。楨之曰：「亡叔一時之標，公是千載之英。」一坐皆悅。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w080-line098-桓玄0:a",
+          "paragraph_id": "c-jinshu-080-wangxizhi-family:line098",
+          "start": 20,
+          "end": 22,
+          "surface": "太尉",
+          "person_mention_id": "c-jinshu-080-wangxizhi-family:line098:m0017",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本句所授、所歷或任時稱謂。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w080-uncle-huan",
+      "person_id": "u9s_w6j_8mc_AAF",
+      "title": "太傅",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-009",
+          "chapter_id": "c-shishuoxinyu-009-wang080-short",
+          "source_id": "s-shishuoxinyu-009-wang080-short",
+          "paragraph_id": "c-shishuoxinyu-009-wang080-short:uncle",
+          "person_mention_id": "c-shishuoxinyu-009-wang080-short:uncle:m0000",
+          "quote": "桓玄為太傅，大會，朝臣畢集。坐裁竟，問王楨之曰：「我何如卿第七叔？」"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w080-uncle-huan:a",
+          "paragraph_id": "c-shishuoxinyu-009-wang080-short:uncle",
+          "start": 3,
+          "end": 5,
+          "surface": "太傅",
+          "person_mention_id": "c-shishuoxinyu-009-wang080-short:uncle:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本句所授、所歷或任時稱謂。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 9,
+      "category": "",
+      "title": "品藻品評高士、楨之與亡叔",
+      "paragraph_id": "c-shishuoxinyu-009-wang080-short:uncle",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "桓玄為太傅，大會，朝臣畢集。坐裁竟，問王楨之曰：「我何如卿第七叔？」",
+      "paragraph_ids": [
+        "c-shishuoxinyu-009-wang080-short:uncle"
+      ],
+      "mention_ids": [
+        "c-shishuoxinyu-009-wang080-short:uncle:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-shishuoxinyu-009-wang080-short:uncle:m0000": "c-shishuoxinyu-009-wang080-short:uncle"
+      },
+      "mention_id": "c-shishuoxinyu-009-wang080-short:uncle:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shishuoxinyu-009-wang080-short:uncle:m0000",
+          "mention_ids": [
+            "c-shishuoxinyu-009-wang080-short:uncle:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-009",
+      "chapter_id": "c-shishuoxinyu-009-wang080-short",
+      "source_id": "s-shishuoxinyu-009-wang080-short",
+      "work_title": "世說新語"
+    },
     {
       "number": 19,
       "category": "",
@@ -1557,6 +1689,41 @@
       "book_id": "b-jinshu-079",
       "chapter_id": "c-jinshu-079-xielang-family",
       "source_id": "s-jinshu-079-xielang-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 80,
+      "category": "",
+      "title": "王羲之、諸子孫及許邁傳（卷八十完整數位正文）",
+      "paragraph_id": "c-jinshu-080-wangxizhi-family:line098",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "楨之字公幹，歷位侍中、大司馬長史。桓玄為太尉，朝臣畢集，問楨之：「我何如君亡叔？」在坐咸為氣咽。楨之曰：「亡叔一時之標，公是千載之英。」一坐皆悅。",
+      "paragraph_ids": [
+        "c-jinshu-080-wangxizhi-family:line098"
+      ],
+      "mention_ids": [
+        "c-jinshu-080-wangxizhi-family:line098:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-080-wangxizhi-family:line098:m0017": "c-jinshu-080-wangxizhi-family:line098"
+      },
+      "mention_id": "c-jinshu-080-wangxizhi-family:line098:m0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-080-wangxizhi-family:line098:m0017",
+          "mention_ids": [
+            "c-jinshu-080-wangxizhi-family:line098:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "chapter_id": "c-jinshu-080-wangxizhi-family",
+      "source_id": "s-jinshu-080-wangxizhi-family",
       "work_title": "晉書"
     },
     {
@@ -6371,6 +6538,30 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-080-wangxizhi-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-080",
+      "source_id": "s-jinshu-080-wangxizhi-family",
+      "source": {
+        "title": "晉書卷八十列傳第五十",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2603570",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2603570",
+        "revision_id": 2603570,
+        "accessed_on": "2026-11-20",
+        "edition": "固定數位轉錄。清武英殿本另列核過葉次及異文。",
+        "extent": "由王羲之傳首至卷末書論，每段依固定修訂；小標題另存。",
+        "text_scope": "full_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin079-xieyan-xiehun/witnesses/jin080-ws2603570.wikitext",
+        "raw_file_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0",
+        "wikitext_sha256": "4f3f42dd7d8ab0ca3c45e6524e4977db40332e845080367088be0419a3a0e8a0"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-098-huanwen",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-098",
@@ -9948,6 +10139,30 @@
       }
     },
     {
+      "chapter_id": "c-shishuoxinyu-009-wang080-short",
+      "work_id": "w-shishuoxinyu",
+      "book_id": "b-shishuoxinyu-009",
+      "source_id": "s-shishuoxinyu-009-wang080-short",
+      "source": {
+        "title": "世說新語·品藻",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1532655",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1532655",
+        "revision_id": 1532655,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定數位轉錄。",
+        "extent": "固定版本的相關原句及該句所出層次，按字位核對。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "source-evidence/jin065-wang-children/external/pin-ws1532655.wikitext",
+        "raw_file_sha256": "bb84912db3dff13ccba1ab15981534723dad840db63f064c7f196eb88c97f06c",
+        "wikitext_sha256": "bb84912db3dff13ccba1ab15981534723dad840db63f064c7f196eb88c97f06c"
+      }
+    },
+    {
       "chapter_id": "c-songshu-042-wanghong",
       "work_id": "w-songshu",
       "book_id": "b-songshu-042",
@@ -12333,6 +12548,36 @@
     }
   ],
   "person_references": [
+    {
+      "id": "c-jinshu-080-wangxizhi-family:line098:r0033",
+      "paragraph_id": "c-jinshu-080-wangxizhi-family:line098",
+      "start": 33,
+      "end": 34,
+      "surface": "我",
+      "person_id": "u9s_w6j_8mc_AAF",
+      "referent_role": "speaker_self",
+      "quote": "我何如君亡叔",
+      "note": "依本段說者、對語及所指，與姓名分層。",
+      "chapter_id": "c-jinshu-080-wangxizhi-family",
+      "book_id": "b-jinshu-080",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-080-wangxizhi-family"
+    },
+    {
+      "id": "c-jinshu-080-wangxizhi-family:line098:r0060",
+      "paragraph_id": "c-jinshu-080-wangxizhi-family:line098",
+      "start": 60,
+      "end": 61,
+      "surface": "公",
+      "person_id": "u9s_w6j_8mc_AAF",
+      "referent_role": "addressee",
+      "quote": "公是千載之英",
+      "note": "依本段說者、對語及所指，與姓名分層。",
+      "chapter_id": "c-jinshu-080-wangxizhi-family",
+      "book_id": "b-jinshu-080",
+      "work_id": "w-jinshu",
+      "source_id": "s-jinshu-080-wangxizhi-family"
+    },
     {
       "start": 115,
       "end": 117,

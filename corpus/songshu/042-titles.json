@@ -4664,7 +4664,7 @@
         }
       },
       "posthumous_basis": {
-        "kind": "explicit_topic_scoped_gift",
+        "kind": "explicit_topic_scoped_gift_with_sovereign_reference",
         "topic_person_mention_id": "c-songshu-042-wanghong:line087:m0002",
         "death_event_id": "le-songwang7-42-87-40",
         "death_anchor": {
@@ -4687,13 +4687,13 @@
         },
         "sovereign_replies": [
           {
-            "person_mention_id": "c-songshu-042-wanghong:line087:m0013",
             "clause_anchor": {
               "paragraph_id": "c-songshu-042-wanghong:line087",
               "start": 13,
               "end": 19,
               "surface": "上輒優詔不許"
-            }
+            },
+            "person_reference_id": "c-songshu-042-wanghong:line087:m0013"
           }
         ],
         "evidence": [
@@ -4768,7 +4768,7 @@
         }
       },
       "posthumous_basis": {
-        "kind": "explicit_topic_scoped_gift",
+        "kind": "explicit_topic_scoped_gift_with_sovereign_reference",
         "topic_person_mention_id": "c-songshu-042-wanghong:line087:m0002",
         "death_event_id": "le-songwang7-42-87-40",
         "death_anchor": {
@@ -4791,13 +4791,13 @@
         },
         "sovereign_replies": [
           {
-            "person_mention_id": "c-songshu-042-wanghong:line087:m0013",
             "clause_anchor": {
               "paragraph_id": "c-songshu-042-wanghong:line087",
               "start": 13,
               "end": 19,
               "surface": "上輒優詔不許"
-            }
+            },
+            "person_reference_id": "c-songshu-042-wanghong:line087:m0013"
           }
         ],
         "evidence": [
@@ -5143,6 +5143,241 @@
         }
       },
       "interpretation_note": "本句明見；前軍長史與省寫的征虜長史參見同篇逐句校核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-song042-wanghong-shuicao",
+      "person_id": "0e2_01b_e2a",
+      "title": "水曹參軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-042",
+          "chapter_id": "c-songshu-042-wanghong",
+          "source_id": "s-songshu-042-wanghong",
+          "paragraph_id": "c-songshu-042-wanghong:line047",
+          "quote": "弘少好學，以清恬知名，與尚書僕射謝混善。弱冠，為會稽王司馬道子驃騎參軍主簿。時農務頓息，末役繁興，弘以為宜建屯田，陳之曰：「近面所諮立屯田事，已具簡聖懷。南畝事興，時不可失，宜早督田畯，以要歲功。而府資役單刻，控引無所，雖復厲以重勸，肅以嚴威，適足令囹圄充積，而無救於事實也。伏見南局諸冶，募吏數百，雖資以廩贍，收入甚微。愚謂若回以配農，必功利百倍矣。然軍器所須，不可都廢，今欲留銅官大冶及都邑小冶各一所，重其功課，一准揚州，州之求取，亦當無乏，餘者罷之，以充東作之要。又欲二局田曹，各立典軍募吏，依冶募比例，并聽取山湖人，此皆無損於私，有益於公者也。其中亦應疇量，分判番假，及給廩多少，自可一以委之本曹。親局所統，必當練悉，且近東曹板水曹參軍納之領此任，其人頗有幹能，自足了其事耳。頃年以來，斯務弛廢，田蕪廩虛，實亦由此。弘過蒙飾擢，志輸短効，豈可相與寢默，有懷弗聞邪！至於當否，尊自當裁以遠鑒。若所啟謬允者，伏願便以時施行，庶歲有務農之勤，倉有盈廩之實，禮節之興，可以垂拱待也。」道子欲以為黃門侍郎，珣以其年少固辭。",
+          "person_mention_id": "c-songshu-042-wanghong:line047:m0322"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-song042-wanghong-shuicao:a",
+          "paragraph_id": "c-songshu-042-wanghong:line047",
+          "start": 318,
+          "end": 322,
+          "surface": "水曹參軍",
+          "person_mention_id": "c-songshu-042-wanghong:line047:m0322",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "同句明文官稱。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-song042-wanghong-kuaiji",
+      "person_id": "dkn_ge4_286_AAAAAAAFA",
+      "title": "會稽王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-042",
+          "chapter_id": "c-songshu-042-wanghong",
+          "source_id": "s-songshu-042-wanghong",
+          "paragraph_id": "c-songshu-042-wanghong:line047",
+          "quote": "弘少好學，以清恬知名，與尚書僕射謝混善。弱冠，為會稽王司馬道子驃騎參軍主簿。時農務頓息，末役繁興，弘以為宜建屯田，陳之曰：「近面所諮立屯田事，已具簡聖懷。南畝事興，時不可失，宜早督田畯，以要歲功。而府資役單刻，控引無所，雖復厲以重勸，肅以嚴威，適足令囹圄充積，而無救於事實也。伏見南局諸冶，募吏數百，雖資以廩贍，收入甚微。愚謂若回以配農，必功利百倍矣。然軍器所須，不可都廢，今欲留銅官大冶及都邑小冶各一所，重其功課，一准揚州，州之求取，亦當無乏，餘者罷之，以充東作之要。又欲二局田曹，各立典軍募吏，依冶募比例，并聽取山湖人，此皆無損於私，有益於公者也。其中亦應疇量，分判番假，及給廩多少，自可一以委之本曹。親局所統，必當練悉，且近東曹板水曹參軍納之領此任，其人頗有幹能，自足了其事耳。頃年以來，斯務弛廢，田蕪廩虛，實亦由此。弘過蒙飾擢，志輸短効，豈可相與寢默，有懷弗聞邪！至於當否，尊自當裁以遠鑒。若所啟謬允者，伏願便以時施行，庶歲有務農之勤，倉有盈廩之實，禮節之興，可以垂拱待也。」道子欲以為黃門侍郎，珣以其年少固辭。",
+          "person_mention_id": "c-songshu-042-wanghong:line047:m0024"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-song042-wanghong-kuaiji:a",
+          "paragraph_id": "c-songshu-042-wanghong:line047",
+          "start": 24,
+          "end": 27,
+          "surface": "會稽王",
+          "person_mention_id": "c-songshu-042-wanghong:line047:m0024",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "同句明文官稱。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-song042-wanghong-correspondents-61-76",
+      "person_id": "e9f_a95_f00",
+      "title": "驃騎",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-042",
+          "chapter_id": "c-songshu-042-wanghong",
+          "source_id": "s-songshu-042-wanghong",
+          "paragraph_id": "c-songshu-042-wanghong:line061",
+          "quote": "徐羨之等以廢弒之罪將見誅，弘既非首謀，弟曇首又為上所親委，事將發，密使報弘。羨之等誅，徵弘為侍中、司徒、揚州刺史，錄尚書。給班劍三十人。上西征謝晦，弘與驃騎彭城王義康居守，入住中書下省，引隊仗出入。司徒府權置參軍。",
+          "person_mention_id": "c-songshu-042-wanghong:line061:m0078"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-song042-wanghong-correspondents-61-76:a",
+          "paragraph_id": "c-songshu-042-wanghong:line061",
+          "start": 76,
+          "end": 78,
+          "surface": "驃騎",
+          "person_mention_id": "c-songshu-042-wanghong:line061:m0078",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "以本行明文核官稱；缺任免日期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-song042-wanghong-correspondents-65-17",
+      "person_id": "e12_8c2_869",
+      "title": "平陸令",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-042",
+          "chapter_id": "c-songshu-042-wanghong",
+          "source_id": "s-songshu-042-wanghong",
+          "paragraph_id": "c-songshu-042-wanghong:line065",
+          "quote": "先是彭城王義康為荊州刺史，鎮江陵。平陸令河南成粲與弘書曰：「僕聞軌物設教，必隨時制宜；世代盈虛，亦與之消息。夫勢之所處，非親不居。是以周之宗盟，異姓為後。權軸之要，任歸二南，斯前代之明謨，當今之顯轍。明公位極台鼎，四海具瞻，劬勞夙夜，義同吐握。而總錄百揆，兼牧畿甸，功實盛大，莫之與儔。天道福謙，宜存挹損。驃騎彭城王道德昭備，上之懿弟，宗本歸源，所應推先，〔宜入秉朝政，翊贊皇猷。竟陵、衡陽春秋已長，又〕宜出據列蕃，齊光魯、衞。明公高枕論道，燮理陰陽，則天下和平，災害不作，福慶與大宋升降，享年與松、喬齊久，名垂萬代，豈不美歟！」弘本有退志，挾粲言，由是固自陳請，乃降為衞將軍、開府儀同三司。",
+          "person_mention_id": "c-songshu-042-wanghong:line065:m0022"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-song042-wanghong-correspondents-65-17:a",
+          "paragraph_id": "c-songshu-042-wanghong:line065",
+          "start": 17,
+          "end": 20,
+          "surface": "平陸令",
+          "person_mention_id": "c-songshu-042-wanghong:line065:m0022",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "以本行明文核官稱；缺任免日期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-song042-wanghong-correspondents-67-111",
+      "person_id": "e9f_a95_f00",
+      "title": "驃騎將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-042",
+          "chapter_id": "c-songshu-042-wanghong",
+          "source_id": "s-songshu-042-wanghong",
+          "paragraph_id": "c-songshu-042-wanghong:line067",
+          "quote": "六年，弘又上表曰：「臣聞異姓為後，宗周之明義；親不在外，有國之所先。故魯長滕君，春秋所美，楚出棄疾，前史垂誡。矧乃茂親明德，道光一時，述職侯甸，朝政弗及，而以庶族庸陋浮華之臣，超踰先典，居中贊契，豈所以憲章古式，緝熙治道？驃騎將軍臣義康，徽猷淵邈，明德彌劭，敷政江漢，化被荊南，搢紳屬情，想樂當務，周旦之寄，不謀同詞，分陝雖重，比此為輕。臣實空闇，階恩踰越，俯積素餐，仰玷盛化，公私二三，無一而可。昔孫叔未進，優孟見弞；展季在下，臧文貽譏。況道隆地昵，義兼前禮。臣於古人，無能為役，負乘竊位，萬物謂何，雖曰厚顏，胡寧以處。斯亡之懼，實疚其心。乞解州錄，以允民望。伏願陛下遠存至公，近鑑丹款，俯順朝野，改授親賢。豈唯下臣，獲免大戾，凡厥眾隸，孰不慶幸。若天眷罔已，脫復遲回，請出臣表，逮聞外內，朝議輿誦，或有可擇。」詔曰：「省表，遠擬隆周經國之體，近述大易卑牧之志，三復沖旨，良用憮然。公體道淵虛，明識經遠，毗翼艱難，勳猷光茂，俾朕獲辰居垂拱，司契委成。豈容高遜總錄，固辭神州，使成務有虧，以重朕之不德邪！深存體國，所望夤亮。驃騎親賢之寄，地均旦、奭，還入內輔，參讚機務，輒敬從所執。」義康由是代弘為司徒，與之分錄。",
+          "person_mention_id": "c-songshu-042-wanghong:line067:m0116"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-song042-wanghong-correspondents-67-111:a",
+          "paragraph_id": "c-songshu-042-wanghong:line067",
+          "start": 111,
+          "end": 115,
+          "surface": "驃騎將軍",
+          "person_mention_id": "c-songshu-042-wanghong:line067:m0116",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "以本行明文核官稱；缺任免日期。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
