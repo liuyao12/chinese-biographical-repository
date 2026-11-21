@@ -14,6 +14,41 @@
     {
       "number": 22,
       "category": "",
+      "title": "王揖附傳",
+      "paragraph_id": "c-nanshi-022-wangyi-digital:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "志弟揖位太中大夫，揖子筠。",
+      "paragraph_ids": [
+        "c-nanshi-022-wangyi-digital:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-022-wangyi-digital:p001:m0011"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-022-wangyi-digital:p001:m0011": "c-nanshi-022-wangyi-digital:p001"
+      },
+      "mention_id": "c-nanshi-022-wangyi-digital:p001:m0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-022-wangyi-digital:p001:m0011",
+          "mention_ids": [
+            "c-nanshi-022-wangyi-digital:p001:m0011"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wangyi-digital",
+      "source_id": "s-nanshi-022-wangyi-digital-ws1477957",
+      "work_title": "南史"
+    },
+    {
+      "number": 22,
+      "category": "",
       "title": "《南史》卷二十二王志完整附傳（編輯選錄題）",
       "paragraph_id": "c-nanshi-022-wangzhi:p001",
       "count": 1,
@@ -50,6 +85,35 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-nanshi-022-wangyi-digital",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangyi-digital-ws1477957",
+      "source": {
+        "title": "南史卷二十二·王揖附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂1477957，另列逐項核過的書影或平行史料。",
+        "extent": "逐讀固定本第152–152行的傳文，止於第154行前。",
+        "text_scope": "complete_biographical_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "====志弟 揖====",
+        "wikitext_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-nanshi-022-wangzhi",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-022",
@@ -79,6 +143,38 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-nanshi022-wangyi-digital-152-9",
+      "subject_person_id": "mxz_qw8_acd_A",
+      "object_person_id": "mxz_qw8_acd",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "揖子筠"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangyi-digital",
+          "source_id": "s-nanshi-022-wangyi-digital-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangyi-digital:p001",
+          "quote": "志弟揖位太中大夫，揖子筠。",
+          "subject_person_mention_id": "c-nanshi-022-wangyi-digital:p001:m0011",
+          "object_person_mention_id": "c-nanshi-022-wangyi-digital:p001:m0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-022-wangyi-digital:p001",
+            "start": 9,
+            "end": 12,
+            "surface": "揖子筠"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanshi022-wangzhi-012",
       "subject_person_id": "mxz_qw8_acd_A",
@@ -117,6 +213,38 @@
     "mxz_qw8_acd_A"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nanshi022-wangyi-digital-152-9",
+      "subject_person_id": "mxz_qw8_acd_A",
+      "object_person_id": "mxz_qw8_acd",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "揖子筠"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangyi-digital",
+          "source_id": "s-nanshi-022-wangyi-digital-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangyi-digital:p001",
+          "quote": "志弟揖位太中大夫，揖子筠。",
+          "subject_person_mention_id": "c-nanshi-022-wangyi-digital:p001:m0011",
+          "object_person_mention_id": "c-nanshi-022-wangyi-digital:p001:m0009",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-022-wangyi-digital:p001",
+            "start": 9,
+            "end": 12,
+            "surface": "揖子筠"
+          }
+        }
+      ],
+      "interpretation_note": "依原句的親屬詞、人物位置及同卷前後文。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
     {
       "id": "a-nanshi022-wangzhi-012",
       "subject_person_id": "mxz_qw8_acd_A",

@@ -14355,6 +14355,80 @@
       ],
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "family-nanshi011-zang-wang-jun",
+      "root_person_id": "0zd_9uz_t7m",
+      "label": "臧汪、臧儁與臧愛親",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "臧皇后開傳直書祖汪、父雋。臧愛親維持已發現役來源人物號，所配家系顯示號另列。",
+      "members": [
+        {
+          "person_id": "0zd_9uz_t7m",
+          "source_person_ids": [
+            "0zd_9uz_t7m"
+          ],
+          "representative_source_person_id": "0zd_9uz_t7m",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "0zd_9uz_t7m_A",
+          "source_person_ids": [
+            "0zd_9uz_t7m_A"
+          ],
+          "representative_source_person_id": "0zd_9uz_t7m_A",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "0zd_9uz_t7m",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "0zd_9uz_t7m_AA",
+            "nearer_ancestor_assertion_id": "a-nanshi-011-zangqiyuan-father",
+            "farther_ancestor_assertion_id": "a-nanshi-011-zangqiyuan-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一臧后開傳世系並列祖汪與父雋。保留兩條親屬原證，中間一代父邊為可撤銷編輯推導。",
+            "references": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-011",
+                "chapter_id": "c-nanshi-011-zangqiyuan",
+                "paragraph_id": "c-nanshi-011-zangqiyuan:p001",
+                "source_id": "s-nanshi-011-zangqiyuan-ws2288359",
+                "quote": "武敬臧皇后諱愛親，東莞人也。祖汪，尚書郎，父雋，郡功曹。",
+                "assertion_id": "a-nanshi-011-zangqiyuan-father",
+                "scope": "同一臧后傳頭的具名父系世次",
+                "url": "https://zh.wikisource.org/w/index.php?title=南史/卷11&oldid=2288359"
+              },
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-011",
+                "chapter_id": "c-nanshi-011-zangqiyuan",
+                "paragraph_id": "c-nanshi-011-zangqiyuan:p001",
+                "source_id": "s-nanshi-011-zangqiyuan-ws2288359",
+                "quote": "武敬臧皇后諱愛親，東莞人也。祖汪，尚書郎，父雋，郡功曹。",
+                "assertion_id": "a-nanshi-011-zangqiyuan-grandfather",
+                "scope": "同一臧后傳頭的具名父系世次",
+                "url": "https://zh.wikisource.org/w/index.php?title=南史/卷11&oldid=2288359"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "0zd_9uz_t7m_AA",
+          "source_person_ids": [
+            "5cm_eyx_pno"
+          ],
+          "representative_source_person_id": "5cm_eyx_pno",
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "0zd_9uz_t7m_A",
+          "source_assertion_id": "a-nanshi-011-zangqiyuan-father"
+        }
+      ]
     }
   ]
 }

@@ -554,6 +554,15 @@ def _validate_uncached(root=ROOT):
                 from scripts.fixed_kanripo_projection import errors as fixed_kanripo_projection_errors
             except ImportError:
                 from fixed_kanripo_projection import errors as fixed_kanripo_projection_errors
+            try: from scripts.wang_family_women_sources import errors as wang_women_source_errors
+            except ImportError: from wang_family_women_sources import errors as wang_women_source_errors
+            errors.extend(wang_women_source_errors(d, root))
+            try: from scripts.wyd_song071_wang import errors as vyd71_source_errors
+            except ImportError: from wyd_song071_wang import errors as vyd71_source_errors
+            errors.extend(vyd71_source_errors(d, root))
+            try: from scripts.ws_song071_wang import errors as vws71_source_errors
+            except ImportError: from ws_song071_wang import errors as vws71_source_errors
+            errors.extend(vws71_source_errors(d, root))
             errors.extend(fixed_kanripo_projection_errors(d, root))
             try:
                 from scripts.nanshi022_print import errors as nanshi022_print_errors
@@ -925,7 +934,9 @@ def _validate_uncached(root=ROOT):
                     check(bool(hit) and hit[0] in allowed and e['quote'] in hit[1]['text'],'身份判斷引句不在所屬正文')
                     if hit:
                         observed.add(hit[0])
-                        check(any(m['person_id']==decision['person_id'] for m in hit[1]['mentions']),'身份判斷段落未提及該人物')
+                        try: from scripts.song042_issued_roles import verified_roles
+                        except ImportError: from song042_issued_roles import verified_roles
+                        check(any(m['person_id']==decision['person_id'] for m in hit[1]['mentions']+verified_roles(chapters[hit[0]],hit[1])),'身份判斷段落未提及該人物')
                 check(set(allowed).issubset(observed),'跨篇身份判斷未列各篇證據')
                 if 'chronology_caution' in decision:
                     try:
@@ -1287,6 +1298,10 @@ def _validate_uncached(root=ROOT):
                     except ImportError:
                         from posthumous_gifts import posthumous_gift_valid
                     explicit_gift = posthumous_gift_valid(h, paragraphs, mentions, gift_life_events)
+                    if isinstance(basis,dict) and basis.get('kind') == 'explicit_topic_scoped_gift_with_sovereign_reference':
+                        try: from scripts.song042_sovereign_gift_reference import valid as referenced_gift_valid
+                        except ImportError: from song042_sovereign_gift_reference import valid as referenced_gift_valid
+                        explicit_gift = referenced_gift_valid(h, chapters.get(d['chapter_id']), paragraphs, mentions, gift_life_events)
                     try:
                         from scripts.retrospective_parent_honorific import parent_honorific_grant_valid
                     except ImportError:
@@ -1297,6 +1312,14 @@ def _validate_uncached(root=ROOT):
                            and basis['evidence']==h['effective_period']['start']['evidence']
                            and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
                                    and basis['source_term'] in e['quote'] for e in basis['evidence']))
+                    if isinstance(basis, dict) and basis.get('kind') == 'song071_ws_wang_posthumous_awards':
+                        try: from scripts.ws_song071_wang import award_valid as ws71_award_valid
+                        except ImportError: from ws_song071_wang import award_valid as ws71_award_valid
+                        valid = ws71_award_valid(h, chapters[d['chapter_id']], gift_life_events, root)
+                    if isinstance(basis, dict) and basis.get('kind') == 'song071_print_wang_posthumous_awards':
+                        try: from scripts.wyd_song071_wang import award_valid as wyd71_award_valid
+                        except ImportError: from wyd_song071_wang import award_valid as wyd71_award_valid
+                        valid = wyd71_award_valid(h, chapters[d['chapter_id']], gift_life_events, root)
                     if isinstance(basis, dict) and basis.get('kind') == 'song071_wang_posthumous_awards':
                         try: from scripts.song071_wang_awards import valid as song071_award_valid
                         except ImportError: from song071_wang_awards import valid as song071_award_valid
@@ -1312,7 +1335,15 @@ def _validate_uncached(root=ROOT):
                         for e in basis['evidence']:title_evidence(e)
                 if h['mode']=='posthumous_naming' or 'naming_basis' in h:
                     basis=h.get('naming_basis')
-                    if isinstance(basis, dict) and basis.get('kind') == 'song071_wang_posthumous_awards':
+                    if isinstance(basis, dict) and basis.get('kind') == 'song071_ws_wang_posthumous_awards':
+                        try: from scripts.ws_song071_wang import award_valid as ws71_award_valid
+                        except ImportError: from ws_song071_wang import award_valid as ws71_award_valid
+                        valid = ws71_award_valid(h, chapters[d['chapter_id']], gift_life_events, root)
+                    elif isinstance(basis, dict) and basis.get('kind') == 'song071_print_wang_posthumous_awards':
+                        try: from scripts.wyd_song071_wang import award_valid as wyd71_award_valid
+                        except ImportError: from wyd_song071_wang import award_valid as wyd71_award_valid
+                        valid = wyd71_award_valid(h, chapters[d['chapter_id']], gift_life_events, root)
+                    elif isinstance(basis, dict) and basis.get('kind') == 'song071_wang_posthumous_awards':
                         try: from scripts.song071_wang_awards import valid as song071_award_valid
                         except ImportError: from song071_wang_awards import valid as song071_award_valid
                         valid = song071_award_valid(h, paragraphs, mentions, gift_life_events)
@@ -2081,14 +2112,32 @@ def _validate_uncached(root=ROOT):
                                 except ImportError:
                                     from nanshi022_royal_kin import valid as royal_kin_valid
                                 check(royal_kin_valid(a, chapters[d['chapter_id']], root), '卷二十二帝女王妃的親屬需核同段稱謂、原字、所屬王及對應親人')
+                            elif 'wang_women_kin_frame' in qualifiers:
+                                try: from scripts.wang_family_women_sources import kin_valid as wang_women_kin_valid
+                                except ImportError: from wang_family_women_sources import kin_valid as wang_women_kin_valid
+                                check(wang_women_kin_valid(a, chapters[d['chapter_id']], root), '王氏婚家各傳的姓名與稱呼、父母子女次序及固定原文須一致')
+                            elif 'wyd_song071_kin_frame' in qualifiers:
+                                try: from scripts.wyd_song071_wang import kin_valid as wyd71_kin_valid
+                                except ImportError: from wyd_song071_wang import kin_valid as wyd71_kin_valid
+                                check(wyd71_kin_valid(a, chapters[d['chapter_id']], root), '宋卷71殿本的兩端必須確合該欄的姓名、稱號及親屬方向')
+                            elif 'ws_song071_kin_frame' in qualifiers:
+                                try: from scripts.ws_song071_wang import kin_valid as ws71_kin_valid
+                                except ImportError: from ws_song071_wang import kin_valid as ws71_kin_valid
+                                check(ws71_kin_valid(a, chapters[d['chapter_id']], root), '宋卷71固定數位本的兩端必須確合原段姓名、稱謂及親屬方向')
                             elif 'reading_basis' in qualifiers and qualifiers['reading_basis'].get('kind') == 'xietiao_named_or_titled_kin':
                                 try:
                                     from scripts.xietiao_titled_kin import valid as titled_kin_valid
                                 except ImportError:
                                     from xietiao_titled_kin import valid as titled_kin_valid
                                 check(titled_kin_valid(a, chapters, root), '謝朓所涉稱謂親屬須核固定原句、指代雙端及明名旁證')
+                            elif qualifiers.get('source_clause_binding', {}).get('kind') == 'shishuo_zhenzhi_seventh_uncle':
+                                try:
+                                    from scripts.jin080_family import named_uncle_valid
+                                except ImportError:
+                                    from jin080_family import named_uncle_valid
+                                check(named_uncle_valid(a, paragraphs), '世說王楨之稱七叔，須以原文及王獻之對讀')
                             else:
-                                check(a['subject_person_id'] in local and a['object_person_id'] in local,'人物陳述端點未見於證據段落')
+                                check(a['subject_person_id'] in local and a['object_person_id'] in local, '人物陳述端點未見於證據段落')
                         else:
                             quote=e['quote'];text=hit[1]['text']
                             starts=[i for i in range(len(text)+1) if text.startswith(quote,i)]

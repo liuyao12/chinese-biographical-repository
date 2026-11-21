@@ -155,6 +155,54 @@
       "model": null,
       "human_reviewed": false,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-nanshi022-wangzhi-digital-142-54",
+      "person_id": "jyx_72x_8t2",
+      "title": "司徒",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi022-wangzhi-digital-142-54:a",
+          "paragraph_id": "c-nanshi-022-wangzhi-digital:p001",
+          "start": 54,
+          "end": 56,
+          "surface": "司徒",
+          "person_mention_id": "c-nanshi-022-wangzhi-digital:p001:m0050",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-022",
+          "chapter_id": "c-nanshi-022-wangzhi-digital",
+          "source_id": "s-nanshi-022-wangzhi-digital-ws1477957",
+          "paragraph_id": "c-nanshi-022-wangzhi-digital:p001",
+          "quote": "志字次道，慈之弟也。九歲，居所生母憂，哀容毀瘠，為中表所異。弱冠，選尚宋孝武女安固公主，拜駙馬都尉。褚彥回為司徒，引志為主簿。謂其父僧虔曰：「朝廷之恩，本為殊特，所可光榮，在屈賢子。」",
+          "person_mention_id": "c-nanshi-022-wangzhi-digital:p001:m0050"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本句所載官名，任期無確切年月。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -220,6 +268,41 @@
       "book_id": "b-nanshi-019",
       "chapter_id": "c-nanshi-019-chaozong",
       "source_id": "s-nanshi-019-chaozong-ws1531762",
+      "work_title": "南史"
+    },
+    {
+      "number": 22,
+      "category": "",
+      "title": "王志傳",
+      "paragraph_id": "c-nanshi-022-wangzhi-digital:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "生母憂，哀容毀瘠，為中表所異。弱冠，選尚宋孝武女安固公主，拜駙馬都尉。褚彥回為司徒，引志為主簿。謂其父僧虔曰：「朝廷之恩，本為殊特，所可光榮，在屈賢子。」",
+      "paragraph_ids": [
+        "c-nanshi-022-wangzhi-digital:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-022-wangzhi-digital:p001:m0050"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-022-wangzhi-digital:p001:m0050": "c-nanshi-022-wangzhi-digital:p001"
+      },
+      "mention_id": "c-nanshi-022-wangzhi-digital:p001:m0050",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-022-wangzhi-digital:p001:m0050",
+          "mention_ids": [
+            "c-nanshi-022-wangzhi-digital:p001:m0050"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wangzhi-digital",
+      "source_id": "s-nanshi-022-wangzhi-digital-ws1477957",
       "work_title": "南史"
     },
     {
@@ -719,6 +802,35 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "只去PB/¶/實體換行，不改字；前468王泰卒子廓，後499王筠另單元。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-022-wangzhi-digital",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-022",
+      "source_id": "s-nanshi-022-wangzhi-digital-ws1477957",
+      "source": {
+        "title": "南史卷二十二·王志傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1477957",
+        "revision_id": 1477957,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂1477957，另列逐項核過的書影或平行史料。",
+        "extent": "逐讀固定本第142–148行的傳文，止於第150行前。",
+        "text_scope": "complete_biographical_unit",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "====慈弟 志====",
+        "wikitext_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "raw_path": "sources/nanshi/nanshi022-ws1477957.wikitext",
+        "raw_file_sha256": "1fba4fa3cd43161db40d91f7330cd6cf685052cfaadb90d0a90869fd5ef3fa94",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去不轉換標記的界符。"
         }
       }
     },
