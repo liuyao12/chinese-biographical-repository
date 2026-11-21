@@ -160,6 +160,9 @@
       ],
       "pending_boundaries": [
         "山、樂題下另有連敘的子孫官歷；本包先核王氏附傳。"
+      ],
+      "additional_boundary_proofs": [
+        "source-evidence/jin043-wang-short-accounts/reading.json"
       ]
     },
     {
@@ -189,7 +192,7 @@
       "sha256": "98c7262170dcc4bf0f7e831fb693e46ff819e46fdd9407a484c787185901550a",
       "heading_survey": "complete",
       "heading_locator_scheme": "wikisource_equals_lines",
-      "embedded_account_survey": "partial",
+      "embedded_account_survey": "complete",
       "excluded_sections": [
         {
           "heading": "史臣曰",
@@ -197,20 +200,8 @@
           "reason": "史評及贊在120、122行，各保留全文。"
         }
       ],
-      "pending_boundaries": [
-        {
-          "person": "王琨、嘏、恢",
-          "first_line": 66,
-          "last_line": 66,
-          "note": "悅傳末承嗣及任官，已按小題收於王悅。另核其中不同子孫短敘之獨立起訖。"
-        },
-        {
-          "person": "劭子穆、默、恢及後嗣",
-          "first_line": 106,
-          "last_line": 106,
-          "note": "各子官歷與下代子數同一連續敘事，另核第二層分段。"
-        }
-      ]
+      "pending_boundaries": [],
+      "embedded_boundary_proof": "source-evidence/jin065-wang-kinship/reading.json"
     },
     {
       "book_id": "b-jinshu-067",
@@ -248,12 +239,6 @@
         }
       ],
       "pending_boundaries": [
-        {
-          "person": "王愷、王愉",
-          "first_line": 83,
-          "last_line": 87,
-          "note": "合題首段並敘二人，繼分敘王愷、王愉，各自界限待逐段覆核。"
-        },
         {
           "person": "韓璯",
           "first_line": 238,
@@ -664,6 +649,17 @@
             "c-nanqishu-020-wangbaoming-wyd:p001",
             "c-nanqishu-020-wangbaoming-wyd:p002"
           ]
+        },
+        {
+          "title": "宣孝皇后",
+          "book_id": "b-nanqishu-020",
+          "chapter_id": "c-nanqishu-020-chendaozhi-wyd",
+          "complete": true,
+          "location": "source-evidence/qi020-chendaozhi-wyd/wyd-columns.txt",
+          "paragraph_ids": [
+            "c-nanqishu-020-chendaozhi-wyd:p001",
+            "c-nanqishu-020-chendaozhi-wyd:p002"
+          ]
         }
       ]
     },
@@ -779,7 +775,7 @@
       "sha256": "89b06ce5c95f39f241acb1a475dd94c220a958f567a7003fd358666f9747df2e",
       "heading_survey": "complete",
       "heading_locator_scheme": "wikisource_equals_lines",
-      "embedded_account_survey": "partial",
+      "embedded_account_survey": "complete",
       "excluded_sections": [
         {
           "heading": "【評贊】",
@@ -791,7 +787,15 @@
           "heading_line": 80,
           "reason": "卷末合評、贊及校案。"
         }
-      ]
+      ],
+      "pending_boundaries": [],
+      "reviewed_accounts": [
+        "王融",
+        "謝惠宣女（王融母）",
+        "謝朓",
+        "王敬則女（謝朓妻）"
+      ],
+      "source_review_path": "source-evidence/nanqi047-xietiao-wife/whole-volume.json"
     },
     {
       "book_id": "b-nanshi-011",
@@ -883,6 +887,18 @@
           "paragraph_ids": [
             "c-nanshi-011-wangbaoming-izumo:p001",
             "c-nanshi-011-wangbaoming-izumo:p002"
+          ]
+        },
+        {
+          "title": "宣孝皇后陳道止",
+          "book_id": "b-nanshi-011",
+          "chapter_id": "c-nanshi-011-chendaozhi-izumo",
+          "complete": true,
+          "location": "source-evidence/nan011-chendaozhi-izumo/izumo-columns.txt",
+          "paragraph_ids": [
+            "c-nanshi-011-chendaozhi-izumo:p001",
+            "c-nanshi-011-chendaozhi-izumo:p002",
+            "c-nanshi-011-chendaozhi-izumo:p003"
           ]
         }
       ]
@@ -2618,6 +2634,64 @@
     },
     {
       "book_id": "b-jinshu-043",
+      "title": "王興〔王戎庶子〕",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王戎",
+      "chapter_id": "c-jinshu-043-wangrong",
+      "chapter_path": "corpus/jinshu/043-wangrong.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-043-wangrong:p014"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-043-wangrong:p014": {
+          "start": 27,
+          "end": 37
+        }
+      },
+      "first_line": 90,
+      "last_line": 90,
+      "start_codepoint": 29,
+      "end_codepoint": 39,
+      "opening": "有庶子興，戎所不齒。",
+      "closing": "有庶子興，戎所不齒。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "庶子興與戎對待他的記述。前面的萬另有附敘，下文承嗣者另指從弟愔之子。"
+    },
+    {
+      "book_id": "b-jinshu-043",
+      "title": "王愔子〔王戎嗣子，未名〕",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王戎",
+      "chapter_id": "c-jinshu-043-wangrong",
+      "chapter_path": "corpus/jinshu/043-wangrong.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-043-wangrong:p014"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-043-wangrong:p014": {
+          "start": 37,
+          "end": 49
+        }
+      },
+      "first_line": 90,
+      "last_line": 90,
+      "start_codepoint": 39,
+      "end_codepoint": 51,
+      "opening": "以從弟陽平太守愔子為嗣。",
+      "closing": "以從弟陽平太守愔子為嗣。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "生父為戎的從弟陽平太守愔，所嗣者為王戎，原句未載嗣子名。"
+    },
+    {
+      "book_id": "b-jinshu-043",
       "title": "王衍",
       "unit_kind": "headed_account",
       "chapter_id": "c-jinshu-043-wangyan",
@@ -2706,6 +2780,64 @@
       ],
       "mixed_chapter": true,
       "source_layout": "jin065_indented_text"
+    },
+    {
+      "book_id": "b-jinshu-043",
+      "title": "王詹",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王澄",
+      "chapter_id": "c-jinshu-043-wangcheng",
+      "chapter_path": "corpus/jinshu/043-wangcheng.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-043-wangcheng:line126"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-043-wangcheng:line126": {
+          "start": 258,
+          "end": 265
+        }
+      },
+      "first_line": 126,
+      "last_line": 126,
+      "start_codepoint": 260,
+      "end_codepoint": 267,
+      "opening": "長子詹，早卒。",
+      "closing": "長子詹，早卒。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "王澄長子，早卒，本篇未載歲數。"
+    },
+    {
+      "book_id": "b-jinshu-043",
+      "title": "王徽",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王澄",
+      "chapter_id": "c-jinshu-043-wangcheng",
+      "chapter_path": "corpus/jinshu/043-wangcheng.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-043-wangcheng:line126"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-043-wangcheng:line126": {
+          "start": 265,
+          "end": 274
+        }
+      },
+      "first_line": 126,
+      "last_line": 126,
+      "start_codepoint": 267,
+      "end_codepoint": 276,
+      "opening": "次子徽，右軍司馬。",
+      "closing": "次子徽，右軍司馬。",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "王澄次子徽任右軍司馬。"
     },
     {
       "book_id": "b-jinshu-043",
@@ -3573,34 +3705,6 @@
     },
     {
       "book_id": "b-jinshu-044",
-      "title": "華頤",
-      "unit_kind": "embedded_account",
-      "parent_heading": "華嶠",
-      "chapter_id": "c-jinshu-044-huaqiao",
-      "chapter_path": "corpus/jinshu/044-huaqiao.json",
-      "first_line": 114,
-      "start_codepoint": 13,
-      "last_line": 114,
-      "end_codepoint": 23,
-      "opening": "頤嗣，官至長樂內史。",
-      "closing": "頤嗣，官至長樂內史。",
-      "mixed_chapter": true,
-      "paragraph_ids": [
-        "c-jinshu-044-huaqiao:line114"
-      ],
-      "paragraph_slices": {
-        "c-jinshu-044-huaqiao:line114": {
-          "start": 11,
-          "end": 21
-        }
-      },
-      "entry_checked": true,
-      "full_text": true,
-      "first_pass": true,
-      "item_reviewed": true
-    },
-    {
-      "book_id": "b-jinshu-044",
       "title": "華暢",
       "unit_kind": "embedded_account",
       "parent_heading": "華嶠",
@@ -3641,6 +3745,34 @@
           "closing": "州，為賊所害，時年四十。"
         }
       ]
+    },
+    {
+      "book_id": "b-jinshu-044",
+      "title": "華頤",
+      "unit_kind": "embedded_account",
+      "parent_heading": "華嶠",
+      "chapter_id": "c-jinshu-044-huaqiao",
+      "chapter_path": "corpus/jinshu/044-huaqiao.json",
+      "first_line": 114,
+      "start_codepoint": 13,
+      "last_line": 114,
+      "end_codepoint": 23,
+      "opening": "頤嗣，官至長樂內史。",
+      "closing": "頤嗣，官至長樂內史。",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-jinshu-044-huaqiao:line114"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-044-huaqiao:line114": {
+          "start": 11,
+          "end": 21
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-jinshu-044",
@@ -3866,6 +3998,50 @@
     },
     {
       "book_id": "b-jinshu-065",
+      "title": "曹氏〔王導妻〕",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王導",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 52,
+      "last_line": 52,
+      "start_codepoint": 2,
+      "end_codepoint": 47,
+      "opening": "是歳，妻曹氏卒，贈金章紫",
+      "closing": "處眾妾。曹氏知，將往焉。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line052",
+        "c-jinshu-065-wangdao-family:line064"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line052": {
+          "start": 0,
+          "end": 45
+        },
+        "c-jinshu-065-wangdao-family:line064": {
+          "start": 309,
+          "end": 321
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "曹氏卒、贈章綬與將往別館見王導傳；王悅傳另記其母封篋。曹氏之名與父名見劉孝標注引《王氏譜》。",
+      "continuation_spans": [
+        {
+          "first_line": 64,
+          "last_line": 64,
+          "start_codepoint": 319,
+          "end_codepoint": 331,
+          "opening": "其母長封作篋，不忍復開。",
+          "closing": "其母長封作篋，不忍復開。"
+        }
+      ]
+    },
+    {
+      "book_id": "b-jinshu-065",
       "title": "王穎、王敞",
       "unit_kind": "embedded_joint_account",
       "chapter_id": "c-jinshu-065-wangdao-family",
@@ -3918,6 +4094,93 @@
       "first_pass": true,
       "item_reviewed": true,
       "source_layout": "jin065_indented_text"
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王琨",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王悅",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 66,
+      "last_line": 66,
+      "start_codepoint": 2,
+      "end_codepoint": 27,
+      "opening": "悅無子，以弟恬子琨爲嗣，",
+      "closing": "導爵丹陽尹，卒，贈太常。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line066"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line066": {
+          "start": 0,
+          "end": 25
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "恬子，為兄悅嗣，襲導爵。丹陽尹是所任官，後贈太常。劉注所引《王氏譜》及《宋書》作混，同號保存兩個見證用字。"
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王嘏",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王悅",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 66,
+      "last_line": 66,
+      "start_codepoint": 27,
+      "end_codepoint": 47,
+      "opening": "子嘏嗣，尚鄱陽公主，歷中",
+      "closing": "主，歷中領軍、尚書。卒，",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line066"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line066": {
+          "start": 25,
+          "end": 45
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "嘏嗣、尚鄱陽公主、歷中領軍尚書；「卒」屬嘏，以下才是子恢。"
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王恢〔王嘏子〕",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王悅",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 66,
+      "last_line": 66,
+      "start_codepoint": 47,
+      "end_codepoint": 61,
+      "opening": "子恢嗣，義熙末，爲遊擊將",
+      "closing": "嗣，義熙末，爲遊擊將軍。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line066"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line066": {
+          "start": 45,
+          "end": 59
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "承嘏嗣，義熙末為遊擊將軍。《南史》王偃行狀具「偃兄恢」。"
     },
     {
       "book_id": "b-jinshu-065",
@@ -3998,6 +4261,35 @@
     },
     {
       "book_id": "b-jinshu-065",
+      "title": "王弘、王虞、王柳、王孺、王曇首",
+      "unit_kind": "embedded_joint_account",
+      "parent_heading": "王珣",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 88,
+      "last_line": 88,
+      "start_codepoint": 69,
+      "end_codepoint": 91,
+      "opening": "珣五子：弘、虞、柳、孺、",
+      "closing": "孺、曇首，宋世並有高名。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:p004"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:p004": {
+          "start": 67,
+          "end": 89
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "五人同得「宋世並有高名」的評語。此處合敘一則，個人官職據各自本傳。"
+    },
+    {
+      "book_id": "b-jinshu-065",
       "title": "王瑉",
       "unit_kind": "headed_account",
       "chapter_id": "c-jinshu-065-wangdao-family",
@@ -4019,6 +4311,35 @@
       "first_pass": true,
       "item_reviewed": true,
       "source_layout": "jin065_indented_text"
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王朗、王練",
+      "unit_kind": "embedded_joint_account",
+      "parent_heading": "王瑉",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 92,
+      "last_line": 92,
+      "start_codepoint": 221,
+      "end_codepoint": 237,
+      "opening": "二子：朗、練。義熙中，並",
+      "closing": "、練。義熙中，並歷侍中。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line092"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line092": {
+          "start": 208,
+          "end": 224
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "朗、練同在義熙中任侍中，正文共用一處官名字位，兩人的官職與名字各有舊號。"
     },
     {
       "book_id": "b-jinshu-065",
@@ -4071,6 +4392,93 @@
     },
     {
       "book_id": "b-jinshu-065",
+      "title": "王綏〔王愉子〕",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王謐",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 102,
+      "last_line": 102,
+      "start_codepoint": 97,
+      "end_codepoint": 118,
+      "opening": "會王綏以桓氏甥自疑，謀反",
+      "closing": "，謀反，父子兄弟皆伏誅。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line102"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line102": {
+          "start": 95,
+          "end": 116
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "卷六十五在謐傳中以綏為敘事主體，敘自疑、謀反與族誅。卷七十五綏本傳作「坐父愉之謀，與弟納並被誅」，兩說各從原文。王綏屬太原王氏。"
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王諶〔王謐從弟〕",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王謐",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 102,
+      "last_line": 102,
+      "start_codepoint": 118,
+      "end_codepoint": 183,
+      "opening": "謐從弟諶，少驍果輕俠，欲",
+      "closing": "地如此，欲不危，得乎！」",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line102"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line102": {
+          "start": 116,
+          "end": 181
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "從弟諶的少時性行、勸謐還呉與當場說辭止於問語；下一句「謐懼而出奔」復歸謐。"
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王瓘、王球、王琇",
+      "unit_kind": "embedded_joint_account",
+      "parent_heading": "王謐",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 102,
+      "last_line": 102,
+      "start_codepoint": 256,
+      "end_codepoint": 273,
+      "opening": "三子：瓘、球、琇。入宋，",
+      "closing": "球、琇。入宋，皆至大官。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line102"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line102": {
+          "start": 247,
+          "end": 264
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "入宋後三子皆至大官是共敘。本段未列官名；王球本傳另證其父謐。"
+    },
+    {
+      "book_id": "b-jinshu-065",
       "title": "王劭",
       "unit_kind": "headed_account",
       "chapter_id": "c-jinshu-065-wangdao-family",
@@ -4092,6 +4500,154 @@
       "first_pass": true,
       "item_reviewed": true,
       "source_layout": "jin065_indented_text"
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王穆",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王劭",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 106,
+      "last_line": 106,
+      "start_codepoint": 106,
+      "end_codepoint": 113,
+      "opening": "穆，臨海太守。",
+      "closing": "穆，臨海太守。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line106"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line106": [
+          {
+            "start": 104,
+            "end": 111
+          },
+          {
+            "start": 130,
+            "end": 140
+          }
+        ]
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "王穆任臨海太守，隔兩個兄弟的官歷再敘三子。《南史》王彧傳明其字伯遠、臨海太守與王智的伯父身分。",
+      "continuation_spans": [
+        {
+          "first_line": 106,
+          "last_line": 106,
+          "start_codepoint": 132,
+          "end_codepoint": 142,
+          "opening": "穆三子：簡、智、超。",
+          "closing": "穆三子：簡、智、超。"
+        }
+      ]
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王默",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王劭",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 106,
+      "last_line": 106,
+      "start_codepoint": 113,
+      "end_codepoint": 125,
+      "opening": "默，呉國內史，加二千石。",
+      "closing": "默，呉國內史，加二千石。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line106"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line106": [
+          {
+            "start": 111,
+            "end": 123
+          },
+          {
+            "start": 140,
+            "end": 148
+          }
+        ]
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "默任呉國內史，加二千石屬待遇，後列鑒、惠。《宋書》王惠傳另載父默左光祿大夫。",
+      "continuation_spans": [
+        {
+          "first_line": 106,
+          "last_line": 106,
+          "start_codepoint": 142,
+          "end_codepoint": 150,
+          "opening": "默二子：鑒、惠。",
+          "closing": "默二子：鑒、惠。"
+        }
+      ]
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王恢〔王劭子〕",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王劭",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 106,
+      "last_line": 106,
+      "start_codepoint": 125,
+      "end_codepoint": 132,
+      "opening": "恢，右衞將軍。",
+      "closing": "恢，右衞將軍。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line106"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line106": {
+          "start": 123,
+          "end": 130
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "王劭三子之一，任右衞將軍；卷內另有王嘏子恢。"
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王簡、王智、王超、王鑒、王惠",
+      "unit_kind": "embedded_joint_account",
+      "parent_heading": "王劭",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 106,
+      "last_line": 106,
+      "start_codepoint": 132,
+      "end_codepoint": 159,
+      "opening": "穆三子：簡、智、超。默二",
+      "closing": "、惠。義熙中，並曆顯職。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line106"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line106": {
+          "start": 130,
+          "end": 157
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "先列王穆三子和王默二子，繼以「義熙中，並曆顯職」。合敘保留共同語句，不據此分派具體官名。"
     },
     {
       "book_id": "b-jinshu-065",
@@ -4140,6 +4696,64 @@
       "first_pass": true,
       "item_reviewed": true,
       "source_layout": "jin065_indented_text"
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王泰〔王廞子〕",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王廞",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 114,
+      "last_line": 114,
+      "start_codepoint": 166,
+      "end_codepoint": 174,
+      "opening": "長子泰爲恭所殺，",
+      "closing": "長子泰爲恭所殺，",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line114"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line114": {
+          "start": 164,
+          "end": 172
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "王廞長子泰為王恭所殺；《宋書》王華傳有相應句。"
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "title": "王華〔王廞子〕",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王廞",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "chapter_path": "corpus/jinshu/065.json",
+      "mixed_chapter": true,
+      "first_line": 114,
+      "last_line": 114,
+      "start_codepoint": 174,
+      "end_codepoint": 212,
+      "opening": "少子華以不知廞存亡，憂毀",
+      "closing": "其死所，華始發喪，入仕。",
+      "paragraph_ids": [
+        "c-jinshu-065-wangdao-family:line114"
+      ],
+      "paragraph_slices": {
+        "c-jinshu-065-wangdao-family:line114": {
+          "start": 172,
+          "end": 206
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "scope_note": "華在父廞失蹤後布衣蔬食，本卷說從兄謐告其死所而始發喪入仕。《宋書》作高祖發喪問、使華制服，另載服闋後所任官。兩種敘事各自定位。"
     },
     {
       "book_id": "b-jinshu-067",
@@ -4624,7 +5238,7 @@
       "book_id": "b-jinshu-075",
       "title": "王坦之",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
       "first_line": 42,
       "last_line": 76,
       "start_codepoint": 0,
@@ -4632,9 +5246,9 @@
       "opening": "　　坦之字文度。弱冠與郗",
       "closing": "。追贈安北將軍，諡曰獻。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 41,
       "heading_raw": "===述子坦之===",
       "continuation_spans": [
@@ -4646,7 +5260,31 @@
           "opening": "　　坦之四子：愷、愉、國",
           "closing": "四子：愷、愉、國寶、忱。"
         }
-      ]
+      ],
+      "chapter_path": "corpus/jinshu/075-taiyuan-wang.json",
+      "paragraph_ids": [
+        "c-jinshu-075-taiyuan-wang:line042",
+        "c-jinshu-075-taiyuan-wang:line044",
+        "c-jinshu-075-taiyuan-wang:line046",
+        "c-jinshu-075-taiyuan-wang:line048",
+        "c-jinshu-075-taiyuan-wang:line050",
+        "c-jinshu-075-taiyuan-wang:line052",
+        "c-jinshu-075-taiyuan-wang:line054",
+        "c-jinshu-075-taiyuan-wang:line056",
+        "c-jinshu-075-taiyuan-wang:line058",
+        "c-jinshu-075-taiyuan-wang:line060",
+        "c-jinshu-075-taiyuan-wang:line062",
+        "c-jinshu-075-taiyuan-wang:line064",
+        "c-jinshu-075-taiyuan-wang:line066",
+        "c-jinshu-075-taiyuan-wang:line068",
+        "c-jinshu-075-taiyuan-wang:line070",
+        "c-jinshu-075-taiyuan-wang:line072",
+        "c-jinshu-075-taiyuan-wang:line074",
+        "c-jinshu-075-taiyuan-wang:line076",
+        "c-jinshu-075-taiyuan-wang:line080"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_indented_blue_and_quote"
     },
     {
       "book_id": "b-jinshu-075",
@@ -4673,27 +5311,169 @@
     },
     {
       "book_id": "b-jinshu-075",
-      "title": "王愷、王愉",
+      "title": "王愷",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
       "first_line": 83,
-      "last_line": 87,
+      "last_line": 83,
       "start_codepoint": 0,
-      "end_codepoint": 146,
-      "opening": "　　愷字茂仁，愉字茂和，並",
-      "closing": "，被誅，子孫十餘人皆伏法。",
+      "end_codepoint": 7,
+      "opening": "　　愷字茂仁，",
+      "closing": "　　愷字茂仁，",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 82,
-      "heading_raw": "===坦之子愷、愉==="
+      "heading_raw": "===坦之子愷、愉===",
+      "continuation_spans": [
+        {
+          "first_line": 83,
+          "last_line": 83,
+          "start_codepoint": 18,
+          "end_codepoint": 23,
+          "opening": "愷襲父爵，",
+          "closing": "愷襲父爵，"
+        },
+        {
+          "first_line": 83,
+          "last_line": 83,
+          "start_codepoint": 37,
+          "end_codepoint": 66,
+          "opening": "愷太元末為侍中，領右衛將",
+          "closing": "替。兄弟貴盛，當時莫比。"
+        },
+        {
+          "first_line": 85,
+          "last_line": 85,
+          "start_codepoint": 0,
+          "end_codepoint": 48,
+          "opening": "　　及王恭等討國寶，愷、",
+          "closing": "寶既死，出愷為吳郡內史，"
+        },
+        {
+          "first_line": 85,
+          "last_line": 85,
+          "start_codepoint": 70,
+          "end_codepoint": 114,
+          "opening": "未幾，征愷為丹陽尹。及桓",
+          "closing": "為吳郡。病卒，追贈太常。"
+        }
+      ],
+      "chapter_path": "corpus/jinshu/075-taiyuan-wang.json",
+      "paragraph_ids": [
+        "c-jinshu-075-taiyuan-wang:line083",
+        "c-jinshu-075-taiyuan-wang:line085"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "paragraph_slices": {
+        "c-jinshu-075-taiyuan-wang:line083": [
+          {
+            "start": 0,
+            "end": 5
+          },
+          {
+            "start": 16,
+            "end": 21
+          },
+          {
+            "start": 35,
+            "end": 64
+          }
+        ],
+        "c-jinshu-075-taiyuan-wang:line085": [
+          {
+            "start": 0,
+            "end": 46
+          },
+          {
+            "start": 68,
+            "end": 112
+          }
+        ]
+      }
+    },
+    {
+      "book_id": "b-jinshu-075",
+      "title": "王愉",
+      "unit_kind": "embedded_account",
+      "parent_heading": "坦之子愷、愉",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "first_line": 83,
+      "last_line": 83,
+      "start_codepoint": 7,
+      "end_codepoint": 18,
+      "opening": "愉字茂和，並少踐清階。",
+      "closing": "愉字茂和，並少踐清階。",
+      "continuation_spans": [
+        {
+          "first_line": 83,
+          "last_line": 83,
+          "start_codepoint": 23,
+          "end_codepoint": 37,
+          "opening": "愉稍遷驃騎司馬，加輔國將",
+          "closing": "遷驃騎司馬，加輔國將軍。"
+        },
+        {
+          "first_line": 85,
+          "last_line": 85,
+          "start_codepoint": 48,
+          "end_codepoint": 70,
+          "opening": "愉為江州刺史、都督豫州四",
+          "closing": "州四郡、輔國將軍、假節。"
+        },
+        {
+          "first_line": 87,
+          "last_line": 87,
+          "start_codepoint": 0,
+          "end_codepoint": 146,
+          "opening": "　　愉至鎮，未幾，殷仲堪",
+          "closing": "被誅，子孫十餘人皆伏法。"
+        }
+      ],
+      "chapter_path": "corpus/jinshu/075-taiyuan-wang.json",
+      "paragraph_ids": [
+        "c-jinshu-075-taiyuan-wang:line083",
+        "c-jinshu-075-taiyuan-wang:line085",
+        "c-jinshu-075-taiyuan-wang:line087"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "paragraph_slices": {
+        "c-jinshu-075-taiyuan-wang:line083": [
+          {
+            "start": 5,
+            "end": 16
+          },
+          {
+            "start": 21,
+            "end": 35
+          }
+        ],
+        "c-jinshu-075-taiyuan-wang:line085": [
+          {
+            "start": 46,
+            "end": 68
+          }
+        ],
+        "c-jinshu-075-taiyuan-wang:line087": [
+          {
+            "start": 0,
+            "end": 144
+          }
+        ]
+      }
     },
     {
       "book_id": "b-jinshu-075",
       "title": "王國寶",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
       "first_line": 90,
       "last_line": 100,
       "start_codepoint": 0,
@@ -4701,17 +5481,28 @@
       "opening": "　　國寶少無士操，不修廉隅",
       "closing": "玄得志，表徙其家屬于交州。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 89,
-      "heading_raw": "===愉弟國寶==="
+      "heading_raw": "===愉弟國寶===",
+      "chapter_path": "corpus/jinshu/075-taiyuan-wang.json",
+      "paragraph_ids": [
+        "c-jinshu-075-taiyuan-wang:line090",
+        "c-jinshu-075-taiyuan-wang:line092",
+        "c-jinshu-075-taiyuan-wang:line094",
+        "c-jinshu-075-taiyuan-wang:line096",
+        "c-jinshu-075-taiyuan-wang:line098",
+        "c-jinshu-075-taiyuan-wang:line100"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_indented_quote"
     },
     {
       "book_id": "b-jinshu-075",
       "title": "王忱",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
       "first_line": 103,
       "last_line": 107,
       "start_codepoint": 0,
@@ -4719,17 +5510,25 @@
       "opening": "　　忱字元達。弱冠知名，與",
       "closing": "卒官，追贈右將軍，諡曰穆。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 102,
-      "heading_raw": "===國寶弟忱==="
+      "heading_raw": "===國寶弟忱===",
+      "chapter_path": "corpus/jinshu/075-taiyuan-wang.json",
+      "paragraph_ids": [
+        "c-jinshu-075-taiyuan-wang:line103",
+        "c-jinshu-075-taiyuan-wang:line105",
+        "c-jinshu-075-taiyuan-wang:line107"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_indented_quote"
     },
     {
       "book_id": "b-jinshu-075",
       "title": "王綏",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
       "first_line": 110,
       "last_line": 112,
       "start_codepoint": 0,
@@ -4737,29 +5536,129 @@
       "opening": "　　綏字彥猷。少有美稱，厚",
       "closing": "八葉繼軌，軒冕莫與為比焉。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 109,
-      "heading_raw": "===愉子綏==="
+      "heading_raw": "===愉子綏===",
+      "chapter_path": "corpus/jinshu/075-taiyuan-wang.json",
+      "paragraph_ids": [
+        "c-jinshu-075-taiyuan-wang:line110",
+        "c-jinshu-075-taiyuan-wang:line112"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_indented_quote"
     },
     {
       "book_id": "b-jinshu-075",
       "title": "王嶠",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
       "first_line": 115,
-      "last_line": 117,
+      "last_line": 115,
       "start_codepoint": 0,
-      "end_codepoint": 294,
-      "opening": "　　嶠字開山。祖默，魏尚書",
-      "closing": "刺史。淡子度世，驍騎將軍。",
+      "end_codepoint": 220,
+      "opening": "　　嶠字開山。祖默，魏尚",
+      "closing": "敦請為參軍，爵九原縣公。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 114,
-      "heading_raw": "===族子嶠==="
+      "heading_raw": "===族子嶠===",
+      "continuation_spans": [
+        {
+          "first_line": 117,
+          "last_line": 117,
+          "start_codepoint": 0,
+          "end_codepoint": 258,
+          "opening": "　　敦在石頭，欲禁私伐蔡",
+          "closing": "錢十萬。尋卒官，諡曰穆。"
+        }
+      ],
+      "chapter_path": "corpus/jinshu/075-taiyuan-wang.json",
+      "paragraph_ids": [
+        "c-jinshu-075-taiyuan-wang:line115",
+        "c-jinshu-075-taiyuan-wang:line117"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "paragraph_slices": {
+        "c-jinshu-075-taiyuan-wang:line115": [
+          {
+            "start": 0,
+            "end": 218
+          }
+        ],
+        "c-jinshu-075-taiyuan-wang:line117": [
+          {
+            "start": 0,
+            "end": 256
+          }
+        ]
+      }
+    },
+    {
+      "book_id": "b-jinshu-075",
+      "title": "王淡",
+      "unit_kind": "embedded_account",
+      "parent_heading": "族子嶠",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "first_line": 117,
+      "last_line": 117,
+      "start_codepoint": 258,
+      "end_codepoint": 284,
+      "opening": "子淡嗣，歷位右衛將軍、侍",
+      "closing": "中護軍、尚書、廣州刺史。",
+      "chapter_path": "corpus/jinshu/075-taiyuan-wang.json",
+      "paragraph_ids": [
+        "c-jinshu-075-taiyuan-wang:line117"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "paragraph_slices": {
+        "c-jinshu-075-taiyuan-wang:line117": [
+          {
+            "start": 256,
+            "end": 282
+          }
+        ]
+      }
+    },
+    {
+      "book_id": "b-jinshu-075",
+      "title": "王度世",
+      "unit_kind": "embedded_account",
+      "parent_heading": "族子嶠",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "first_line": 117,
+      "last_line": 117,
+      "start_codepoint": 284,
+      "end_codepoint": 294,
+      "opening": "淡子度世，驍騎將軍。",
+      "closing": "淡子度世，驍騎將軍。",
+      "chapter_path": "corpus/jinshu/075-taiyuan-wang.json",
+      "paragraph_ids": [
+        "c-jinshu-075-taiyuan-wang:line117"
+      ],
+      "mixed_chapter": true,
+      "source_layout": "wikisource_mixed_indented_prose",
+      "paragraph_slices": {
+        "c-jinshu-075-taiyuan-wang:line117": [
+          {
+            "start": 282,
+            "end": 292
+          }
+        ]
+      }
     },
     {
       "book_id": "b-jinshu-075",
@@ -8362,7 +9261,7 @@
       "book_id": "b-nanqishu-020",
       "title": "宣孝皇后",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanqishu-020-chendaozhi",
       "heading_line": 13,
       "heading_raw": "=宣孝皇后=",
       "first_line": 14,
@@ -8372,9 +9271,15 @@
       "opening": "宣孝陳皇后諱道止，<re",
       "closing": "。后母胡氏為永昌縣靖君。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_path": "corpus/nanqishu/020-chendaozhi.json",
+      "paragraph_ids": [
+        "c-nanqishu-020-chendaozhi:p001",
+        "c-nanqishu-020-chendaozhi:p002"
+      ],
+      "mixed_chapter": true
     },
     {
       "book_id": "b-nanqishu-020",
@@ -9136,6 +10041,34 @@
       ]
     },
     {
+      "book_id": "b-nanqishu-047",
+      "title": "王敬則女（謝朓妻）",
+      "unit_kind": "embedded_account",
+      "parent_heading": "謝朓",
+      "chapter_id": "c-nanqishu-047-xietiao",
+      "chapter_path": "corpus/nanqishu/047-xietiao.json",
+      "first_line": 73,
+      "last_line": 73,
+      "start_codepoint": 9,
+      "end_codepoint": 29,
+      "opening": "敬則女爲朓妻，常",
+      "closing": "朓，朓不敢相見。",
+      "paragraph_ids": [
+        "c-nanqishu-047-xietiao:p008"
+      ],
+      "paragraph_slices": {
+        "c-nanqishu-047-xietiao:p008": {
+          "start": 9,
+          "end": 29
+        }
+      },
+      "mixed_chapter": true,
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
+    },
+    {
       "book_id": "b-nanshi-011",
       "title": "孝穆皇后趙安宗",
       "unit_kind": "headed_account",
@@ -9532,7 +10465,7 @@
       "book_id": "b-nanshi-011",
       "title": "宣孝皇后陳道止",
       "unit_kind": "headed_account",
-      "chapter_id": null,
+      "chapter_id": "c-nanshi-011-chendaozhi",
       "first_line": 92,
       "start_codepoint": 0,
       "last_line": 96,
@@ -9540,11 +10473,18 @@
       "opening": "齊宣孝陳皇后諱道止，臨淮東",
       "closing": "薦茗粣炙魚。並生平所嗜也。",
       "entry_checked": true,
-      "full_text": false,
-      "first_pass": false,
-      "item_reviewed": false,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
       "heading_line": 91,
-      "heading_raw": "===宣孝皇后陳道止==="
+      "heading_raw": "===宣孝皇后陳道止===",
+      "chapter_path": "corpus/nanshi/011-chendaozhi.json",
+      "paragraph_ids": [
+        "c-nanshi-011-chendaozhi:p001",
+        "c-nanshi-011-chendaozhi:p002",
+        "c-nanshi-011-chendaozhi:p003"
+      ],
+      "mixed_chapter": true
     },
     {
       "book_id": "b-nanshi-011",
@@ -11180,6 +12120,34 @@
         "c-nanshi-019-xietiao:p007",
         "c-nanshi-019-xietiao:p008"
       ]
+    },
+    {
+      "book_id": "b-nanshi-019",
+      "title": "王敬則女（謝朓妻）",
+      "unit_kind": "embedded_account",
+      "parent_heading": "謝朓",
+      "chapter_id": "c-nanshi-019-xietiao",
+      "chapter_path": "corpus/nanshi/019-xietiao.json",
+      "first_line": 134,
+      "last_line": 134,
+      "start_codepoint": 9,
+      "end_codepoint": 29,
+      "opening": "敬則女爲朓妻，常",
+      "closing": "朓，朓不敢相見。",
+      "paragraph_ids": [
+        "c-nanshi-019-xietiao:p006"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-019-xietiao:p006": {
+          "start": 9,
+          "end": 29
+        }
+      },
+      "mixed_chapter": true,
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true
     },
     {
       "book_id": "b-nanshi-019",
@@ -14196,6 +15164,24 @@
     },
     {
       "book_id": "b-nanshi-024",
+      "title": "王裕之",
+      "unit_kind": "headed_account",
+      "heading_line": 13,
+      "heading_raw": "=王裕之=",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 15,
+      "start_codepoint": 0,
+      "last_line": 25,
+      "end_codepoint": 117,
+      "opening": "敬弘少有清尚，起家本",
+      "closing": "於合外拜辭流涕而去。"
+    },
+    {
+      "book_id": "b-nanshi-024",
       "title": "王恢之",
       "unit_kind": "embedded_account",
       "chapter_id": "c-nanshi-024-wang-family",
@@ -14239,6 +15225,132 @@
     },
     {
       "book_id": "b-nanshi-024",
+      "title": "王瓚之",
+      "unit_kind": "headed_account",
+      "heading_line": 27,
+      "heading_raw": "==裕之子 瓚之==",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 29,
+      "start_codepoint": 0,
+      "last_line": 29,
+      "end_codepoint": 45,
+      "opening": "恢之弟瓚之，位吏部尚",
+      "closing": "官尚書。瓚之子秀之。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王秀之",
+      "unit_kind": "headed_account",
+      "heading_line": 31,
+      "heading_raw": "==={{--|裕之孫}}瓚之子 秀之===",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 33,
+      "start_codepoint": 0,
+      "last_line": 39,
+      "end_codepoint": 166,
+      "opening": "秀之字伯奮，幼時，祖",
+      "closing": "當笑之」。諡曰簡子。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王延之",
+      "unit_kind": "headed_account",
+      "heading_line": 41,
+      "heading_raw": "==={{--|裕之孫}}-{升}-之子 延之===",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 43,
+      "start_codepoint": 0,
+      "last_line": 49,
+      "end_codepoint": 102,
+      "opening": "延之字希季，-{升}",
+      "closing": "竟陵王師，卒諡簡子。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王綸之",
+      "unit_kind": "headed_account",
+      "heading_line": 51,
+      "heading_raw": "===={{--|裕之曾孫}}延之子 綸之====",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 53,
+      "start_codepoint": 0,
+      "last_line": 53,
+      "end_codepoint": 197,
+      "opening": "子綸之，字元章。爲安",
+      "closing": "乃見子孫，蓋家風也。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王昕",
+      "unit_kind": "headed_account",
+      "heading_line": 55,
+      "heading_raw": "====={{--|裕之玄孫}}綸之子 昕=====",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 57,
+      "start_codepoint": 0,
+      "last_line": 57,
+      "end_codepoint": 42,
+      "opening": "綸之子昕，有業行，居",
+      "closing": "豈有全理。」以憂卒。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王峻",
+      "unit_kind": "headed_account",
+      "heading_line": 59,
+      "heading_raw": "==={{--|裕之孫}}秀之子 峻===",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 61,
+      "start_codepoint": 0,
+      "last_line": 63,
+      "end_codepoint": 95,
+      "opening": "峻字茂遠，秀之子也。",
+      "closing": "，未拜，卒，諡惠子。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王琮",
+      "unit_kind": "headed_account",
+      "heading_line": 65,
+      "heading_raw": "===={{--|裕之曾孫}}峻子 琮====",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 67,
+      "start_codepoint": 0,
+      "last_line": 67,
+      "end_codepoint": 79,
+      "opening": "子琮爲國子生，尚始興",
+      "closing": "殿下姻媾爲門戸耳。」"
+    },
+    {
+      "book_id": "b-nanshi-024",
       "title": "王鎮之",
       "unit_kind": "headed_account",
       "chapter_id": "c-nanshi-024-wang-family",
@@ -14270,6 +15382,374 @@
       "closing": "于宣訓衞尉。弟弘之。",
       "heading_line": 69,
       "heading_raw": "=王鎭之="
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王弘之",
+      "unit_kind": "headed_account",
+      "heading_line": 75,
+      "heading_raw": "==鎭之弟 弘之==",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 77,
+      "start_codepoint": 0,
+      "last_line": 81,
+      "end_codepoint": 76,
+      "opening": "弘之字方平，少孤貧，",
+      "closing": "足書美。」誄竟不就。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王曇生",
+      "unit_kind": "headed_account",
+      "heading_line": 83,
+      "heading_raw": "==={{--|鎭之從子}}弘之子 曇生===",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 85,
+      "start_codepoint": 0,
+      "last_line": 85,
+      "end_codepoint": 58,
+      "opening": "曇生好文義，以謙和見",
+      "closing": "被宥，終於中散大夫。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "阮萬齡",
+      "unit_kind": "headed_account",
+      "heading_line": 87,
+      "heading_raw": "====附 阮萬齡====",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 89,
+      "start_codepoint": 0,
+      "last_line": 89,
+      "end_codepoint": 119,
+      "opening": "阮萬齡，陳留尉氏人。",
+      "closing": "、金紫光祿大夫，卒。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王晏",
+      "unit_kind": "headed_account",
+      "heading_line": 91,
+      "heading_raw": "===={{--|弘之孫}}曇生從子 晏====",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 93,
+      "start_codepoint": 0,
+      "last_line": 109,
+      "end_codepoint": 143,
+      "opening": "曇生弟普曜，位-{祕",
+      "closing": "不復久也。未幾而敗。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王德元",
+      "unit_kind": "headed_account",
+      "heading_line": 111,
+      "heading_raw": "====={{--|弘之曾孫}}晏子 德元=====",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 113,
+      "start_codepoint": 0,
+      "last_line": 113,
+      "end_codepoint": 54,
+      "opening": "晏子德元，有意尚，位",
+      "closing": "晏乃改之，至是及誅。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王詡",
+      "unit_kind": "headed_account",
+      "heading_line": 115,
+      "heading_raw": "===={{--|弘之孫}}晏弟 詡====",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 117,
+      "start_codepoint": 0,
+      "last_line": 117,
+      "end_codepoint": 67,
+      "opening": "晏弟詡，位少府卿。敕",
+      "closing": "史。晏誅，上遣殺之。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王思遠",
+      "unit_kind": "headed_account",
+      "heading_line": 119,
+      "heading_raw": "===={{--|弘之孫}}晏從父弟 思遠====",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 121,
+      "start_codepoint": 0,
+      "last_line": 131,
+      "end_codepoint": 56,
+      "opening": "思遠，晏從父弟也。父",
+      "closing": "中舍人，兼尚書左丞。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王韶之",
+      "unit_kind": "headed_account",
+      "heading_line": 133,
+      "heading_raw": "=王韶之=",
+      "chapter_id": "c-nanshi-024-wangshaozhi",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "first_line": 135,
+      "start_codepoint": 0,
+      "last_line": 143,
+      "end_codepoint": 9,
+      "opening": "王韶之字休泰，胡之從",
+      "closing": "。",
+      "chapter_path": "corpus/nanshi/024-wangshaozhi.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanshi-024-wangshaozhi:p001",
+        "c-nanshi-024-wangshaozhi:p002",
+        "c-nanshi-024-wangshaozhi:p003",
+        "c-nanshi-024-wangshaozhi:p004",
+        "c-nanshi-024-wangshaozhi:p005"
+      ]
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王偉之",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王韶之",
+      "chapter_id": "c-nanshi-024-wangshaozhi",
+      "chapter_path": "corpus/nanshi/024-wangshaozhi.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanshi-024-wangshaozhi:p001",
+        "c-nanshi-024-wangshaozhi:p002"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-024-wangshaozhi:p001": {
+          "start": 27,
+          "end": 70
+        },
+        "c-nanshi-024-wangshaozhi:p002": {
+          "start": 46,
+          "end": 53
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "first_line": 135,
+      "start_codepoint": 27,
+      "last_line": 135,
+      "end_codepoint": 70,
+      "opening": "父偉之，少有志尚，當",
+      "closing": "撰録。位本國郎中令。",
+      "continuation_spans": [
+        {
+          "first_line": 137,
+          "start_codepoint": 46,
+          "last_line": 137,
+          "end_codepoint": 53,
+          "opening": "父偉之爲烏程令",
+          "closing": "父偉之爲烏程令"
+        }
+      ]
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王曄",
+      "unit_kind": "embedded_account",
+      "parent_heading": "王韶之",
+      "chapter_id": "c-nanshi-024-wangshaozhi",
+      "chapter_path": "corpus/nanshi/024-wangshaozhi.json",
+      "mixed_chapter": true,
+      "paragraph_ids": [
+        "c-nanshi-024-wangshaozhi:p005"
+      ],
+      "paragraph_slices": {
+        "c-nanshi-024-wangshaozhi:p005": {
+          "start": 0,
+          "end": 9
+        }
+      },
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "first_line": 143,
+      "start_codepoint": 0,
+      "last_line": 143,
+      "end_codepoint": 9,
+      "opening": "子曄，位臨賀太守。",
+      "closing": "子曄，位臨賀太守。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王悅之",
+      "unit_kind": "headed_account",
+      "heading_line": 145,
+      "heading_raw": "=王悅之=",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 147,
+      "start_codepoint": 0,
+      "last_line": 149,
+      "end_codepoint": 186,
+      "opening": "王悅之字少明，晉右軍",
+      "closing": "度瓜歩江，投之中流。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王准之",
+      "unit_kind": "headed_account",
+      "heading_line": 151,
+      "heading_raw": "=王准之=",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 153,
+      "start_codepoint": 0,
+      "last_line": 161,
+      "end_codepoint": 13,
+      "opening": "王准之字元魯，晉尚書",
+      "closing": "，-{征}-虜主簿。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王進之",
+      "unit_kind": "headed_account",
+      "heading_line": 163,
+      "heading_raw": "==准之孫 進之==",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 165,
+      "start_codepoint": 0,
+      "last_line": 165,
+      "end_codepoint": 99,
+      "opening": "輿之子進之，仕齊位給",
+      "closing": "，封建-{甯}-公。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王清",
+      "unit_kind": "headed_account",
+      "heading_line": 167,
+      "heading_raw": "==={{--|准之曾孫}}進之子 清===",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 169,
+      "start_codepoint": 0,
+      "last_line": 169,
+      "end_codepoint": 124,
+      "opening": "進之子清，位散騎常侍",
+      "closing": "清而歸陳武帝。子猛。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王猛",
+      "unit_kind": "headed_account",
+      "heading_line": 171,
+      "heading_raw": "===={{--|准之玄孫}}清子 猛====",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 173,
+      "start_codepoint": 0,
+      "last_line": 181,
+      "end_codepoint": 215,
+      "opening": "猛字世雄，本名勇。五",
+      "closing": "三州諸軍事，諡曰成。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王逡之",
+      "unit_kind": "headed_account",
+      "heading_line": 183,
+      "heading_raw": "==准之從弟 逡之==",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 185,
+      "start_codepoint": 0,
+      "last_line": 189,
+      "end_codepoint": 81,
+      "opening": "訥之弟瑰之字道茂，位",
+      "closing": "不釋卷。建武二年卒。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王珪之",
+      "unit_kind": "headed_account",
+      "heading_line": 191,
+      "heading_raw": "===逡之從弟 珪之===",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 193,
+      "start_codepoint": 0,
+      "last_line": 193,
+      "end_codepoint": 43,
+      "opening": "從弟珪之，位長水校尉",
+      "closing": "凡五十卷，詔付秘閣。"
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "title": "王素",
+      "unit_kind": "headed_account",
+      "heading_line": 195,
+      "heading_raw": "===逡之族子 素===",
+      "chapter_id": null,
+      "entry_checked": true,
+      "full_text": false,
+      "first_pass": false,
+      "item_reviewed": false,
+      "first_line": 197,
+      "start_codepoint": 0,
+      "last_line": 197,
+      "end_codepoint": 122,
+      "opening": "素字休業，彬五世孫而",
+      "closing": "以自況。卒年五十四。"
     },
     {
       "book_id": "b-nanshi-025",

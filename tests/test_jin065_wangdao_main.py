@@ -18,7 +18,11 @@ class WangDao(unittest.TestCase):
    for s in x['witnesses']:
     raw=(R/self.q['source_layers'][s['witness']]['raw_path']).read_text();self.assertEqual(raw[s['raw_start']:s['raw_end']],s['quote'])
   ids=self.q['item_boundaries'][0]['paragraph_ids'];self.assertEqual(len(ids),26);self.assertTrue(ids[-1].endswith('line116'))
-  entries=[x for x in load('data/corpus/six-dynasties-biographies.json')['biographies']if x['book_id']==self.c['book_id']];self.assertEqual(len(entries),12);self.assertTrue(all(x['item_reviewed']for x in entries))
+  entries=[x for x in load('data/corpus/six-dynasties-biographies.json')['biographies'] if x['book_id']==self.c['book_id']]
+  original=load('source-evidence/jin065-wang-survey/survey-review.json')['entry_work']
+  additions=load('source-evidence/jin065-wang-kinship/reading.json')['title_reviews']
+  self.assertCountEqual([x['title'] for x in entries],[x['title'] for x in original+additions])
+  self.assertTrue(all(x['item_reviewed'] for x in entries))
  def test_identity_and_reference(self):
   for s,pid in [('周圮','i1w_a4z_a3g'),('紀贍','23e_6ed_438'),('管夷吾','h1v_8ap_b9y')]:
    self.assertEqual(next(m['person_id']for m in self.ms.values()if m['surface']==s),pid)

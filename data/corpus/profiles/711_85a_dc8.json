@@ -59,6 +59,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-nanqi047-wangrong-wyd-m1-57",
+      "person_id": "711_85a_dc8",
+      "title": "臨川太守",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanqi047-wangrong-wyd-m1-57:a",
+          "person_mention_id": "c-nanqishu-047-wangrong-wyd:p001:m0049",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-nanqishu-047-wangrong-wyd:p001",
+          "start": 45,
+          "end": 49,
+          "surface": "臨川太守"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-wangrong-wyd1739",
+          "chapter_id": "c-nanqishu-047-wangrong-wyd",
+          "paragraph_id": "c-nanqishu-047-wangrong-wyd:p001",
+          "quote": "王融字元長琅邪臨沂人也祖僧達中書令曾高並台輔僧達答宋孝武云亡父亡祖司徒司空父道琰廬陵內史母臨川太守謝惠宣女惇敏婦人也教融書學",
+          "person_mention_id": "c-nanqishu-047-wangrong-wyd:p001:m0049"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi019-huilian-156-230",
       "person_id": "711_85a_dc8",
       "title": "臨川太守",
@@ -226,6 +274,41 @@
       "chapter_id": "c-nanshi-021-wangrong",
       "source_id": "s-nanshi-021-wangrong-ws1752646",
       "work_title": "南史"
+    },
+    {
+      "number": 47,
+      "category": "",
+      "title": "王融（乾隆武英殿本）",
+      "paragraph_id": "c-nanqishu-047-wangrong-wyd:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "中書令曾高並台輔僧達答宋孝武云亡父亡祖司徒司空父道琰廬陵內史母臨川太守謝惠宣女惇敏婦人也教融書學",
+      "paragraph_ids": [
+        "c-nanqishu-047-wangrong-wyd:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-047-wangrong-wyd:p001:m0049"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-047-wangrong-wyd:p001:m0049": "c-nanqishu-047-wangrong-wyd:p001"
+      },
+      "mention_id": "c-nanqishu-047-wangrong-wyd:p001:m0049",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-047-wangrong-wyd:p001:m0049",
+          "mention_ids": [
+            "c-nanqishu-047-wangrong-wyd:p001:m0049"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "chapter_id": "c-nanqishu-047-wangrong-wyd",
+      "source_id": "s-nanqishu-047-wangrong-wyd1739",
+      "work_title": "南齊書"
     },
     {
       "number": 47,
@@ -526,6 +609,33 @@
           ]
         },
         "section_locator": "數位原題王融"
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-047-wangrong-wyd",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-047",
+      "source_id": "s-nanqishu-047-wangrong-wyd1739",
+      "source": {
+        "title": "武英殿本《南齊書》卷四十七王融傳",
+        "provider": "中國國家圖書館藏本書影，Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12542_二十四史_第161冊.pdf",
+        "permalink": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12542_二十四史_第161冊.pdf",
+        "revision_id": "cbr-ai-transcription-sha256:b3e13ccecc0f8c15729050515a6de4188790d8f8462c2804f0031b37022b7043",
+        "accessed_on": "2026-11-21",
+        "edition": "乾隆四年武英殿刊《二十四史》第161冊",
+        "extent": "卷47葉一上至九上，PDF27左5至35左3。",
+        "text_scope": "complete_biography_unit",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "raw_path": "source-evidence/nanqi047-wangrong-wyd/columns.txt",
+        "raw_file_sha256": "b3e13ccecc0f8c15729050515a6de4188790d8f8462c2804f0031b37022b7043",
+        "rights": "國家圖書館藏乾隆四年刊本，逐欄錄文；館藏圖像以公開原頁外鏈查核。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC892-411999017142-12542_二十四史_第161冊.pdf",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "原書無標點，每欄21字。第33面右第7欄的𣅳與四庫轉錄SKchar 2517同形，《異體字字典》B01530-001列為昃的異體。"
+        }
       }
     },
     {
@@ -1251,6 +1361,34 @@
       "model": null
     },
     {
+      "id": "a-nanqi047-wangrong-wyd-mother-father",
+      "subject_person_id": "iqh_rq2_cs0",
+      "object_person_id": "711_85a_dc8",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "女",
+        "lineage": "paternal",
+        "nanqi047_wangrong_wyd_reading": true
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-wangrong-wyd1739",
+          "chapter_id": "c-nanqishu-047-wangrong-wyd",
+          "paragraph_id": "c-nanqishu-047-wangrong-wyd:p001",
+          "quote": "王融字元長琅邪臨沂人也祖僧達中書令曾高並台輔僧達答宋孝武云亡父亡祖司徒司空父道琰廬陵內史母臨川太守謝惠宣女惇敏婦人也教融書學",
+          "subject_person_reference_id": "c-nanqishu-047-wangrong-wyd:p001:r0052",
+          "object_person_mention_id": "c-nanqishu-047-wangrong-wyd:p001:m0049"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "謝惠宣為王融母父，非王融父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nanshi019-huilian-156-223",
       "subject_person_id": "711_85a_dc8",
       "object_person_id": "apr_7dg_tdd_A",
@@ -1367,6 +1505,34 @@
           "quote": "王融字元長，琅邪臨沂人也。祖僧達，中書令，曾高竝台輔。僧達答宋孝武云：「亡父亡祖，司徒司空。」父道琰，廬陵內史。母臨川太守謝惠宣女，惇敏婦人也。教融書學。",
           "subject_person_reference_id": "c-nanqishu-047-wangrong:p001:r0064",
           "object_person_mention_id": "c-nanqishu-047-wangrong:p001:m0061"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "謝惠宣為王融母父，非王融父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanqi047-wangrong-wyd-mother-father",
+      "subject_person_id": "iqh_rq2_cs0",
+      "object_person_id": "711_85a_dc8",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "女",
+        "lineage": "paternal",
+        "nanqi047_wangrong_wyd_reading": true
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-047",
+          "source_id": "s-nanqishu-047-wangrong-wyd1739",
+          "chapter_id": "c-nanqishu-047-wangrong-wyd",
+          "paragraph_id": "c-nanqishu-047-wangrong-wyd:p001",
+          "quote": "王融字元長琅邪臨沂人也祖僧達中書令曾高並台輔僧達答宋孝武云亡父亡祖司徒司空父道琰廬陵內史母臨川太守謝惠宣女惇敏婦人也教融書學",
+          "subject_person_reference_id": "c-nanqishu-047-wangrong-wyd:p001:r0052",
+          "object_person_mention_id": "c-nanqishu-047-wangrong-wyd:p001:m0049"
         }
       ],
       "status": "source_attested",

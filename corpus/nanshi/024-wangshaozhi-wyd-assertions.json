@@ -1,0 +1,288 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-024-wangshaozhi-wyd",
+  "assertions": [
+    {
+      "id": "a-nanshi024-wangshaozhi-wyd-congsun",
+      "subject_person_id": "yfa_tz5_3ge",
+      "object_person_id": "7r6_k52_qji_ABDAB",
+      "predicate": "agnatic_senior_kin",
+      "qualifiers": {
+        "source_term": "胡之從孫",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": -2,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "unknown"
+        },
+        "direct_ancestor": false,
+        "nanshi024_wangshaozhi_wyd_reading": "congsun"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangshaozhi-wyd1739",
+          "chapter_id": "c-nanshi-024-wangshaozhi-wyd",
+          "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p001",
+          "quote": "王韶之字休泰胡之從孫而敬弘從祖弟也祖羨之鎮軍掾父偉之少有志尚當世詔命表奏輒手自書寫泰元隆安時事大小悉撰錄位本國郎中令",
+          "subject_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p001:m0000",
+          "object_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p001:m0006",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p001",
+            "start": 6,
+            "end": 10,
+            "surface": "胡之從孫"
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "韶之自胡之而言為從孫，在父系旁支低兩代。原句未明胡之與其祖誰長，兩人不能解作祖孫直系。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangshaozhi-wyd-congzudi",
+      "subject_person_id": "yfa_tz5_3ge",
+      "object_person_id": "7r6_k52_qji_ABDABAA",
+      "predicate": "agnatic_cousin",
+      "qualifiers": {
+        "source_term": "敬弘從祖弟",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "7r6_k52_qji_ABDABAA",
+          "younger_person_id": "yfa_tz5_3ge",
+          "operator": "lt",
+          "scope": "agnatic_cousins",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        },
+        "nanshi024_wangshaozhi_wyd_reading": "congzudi"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangshaozhi-wyd1739",
+          "chapter_id": "c-nanshi-024-wangshaozhi-wyd",
+          "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p001",
+          "quote": "王韶之字休泰胡之從孫而敬弘從祖弟也祖羨之鎮軍掾父偉之少有志尚當世詔命表奏輒手自書寫泰元隆安時事大小悉撰錄位本國郎中令",
+          "subject_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p001:m0000",
+          "object_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p001:m0011",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p001",
+            "start": 11,
+            "end": 16,
+            "surface": "敬弘從祖弟"
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "韶之為敬弘從祖弟，敬弘居長。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangshaozhi-wyd-grandfather",
+      "subject_person_id": "yfa_tz5_3ge",
+      "object_person_id": "7r6_k52_qji_ABDAD",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖羨之",
+        "lineage": "paternal",
+        "nanshi024_wangshaozhi_wyd_reading": "grandfather"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangshaozhi-wyd1739",
+          "chapter_id": "c-nanshi-024-wangshaozhi-wyd",
+          "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p001",
+          "quote": "王韶之字休泰胡之從孫而敬弘從祖弟也祖羨之鎮軍掾父偉之少有志尚當世詔命表奏輒手自書寫泰元隆安時事大小悉撰錄位本國郎中令",
+          "subject_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p001:m0000",
+          "object_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p001:m0018",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p001",
+            "start": 17,
+            "end": 20,
+            "surface": "祖羨之"
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳內明列所出。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangshaozhi-wyd-father",
+      "subject_person_id": "yfa_tz5_3ge",
+      "object_person_id": "7r6_k52_qji_ABDADA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父偉之",
+        "lineage": "paternal",
+        "nanshi024_wangshaozhi_wyd_reading": "father"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangshaozhi-wyd1739",
+          "chapter_id": "c-nanshi-024-wangshaozhi-wyd",
+          "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p001",
+          "quote": "王韶之字休泰胡之從孫而敬弘從祖弟也祖羨之鎮軍掾父偉之少有志尚當世詔命表奏輒手自書寫泰元隆安時事大小悉撰錄位本國郎中令",
+          "subject_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p001:m0000",
+          "object_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p001:m0024",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p001",
+            "start": 23,
+            "end": 26,
+            "surface": "父偉之"
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳內明列所出。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangshaozhi-wyd-hong",
+      "subject_person_id": "7r6_k52_qji_ABAAAAA",
+      "object_person_id": "7r6_k52_qji_ABAAAA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "珣子弘",
+        "lineage": "paternal",
+        "nanshi024_wangshaozhi_wyd_reading": "hong"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangshaozhi-wyd1739",
+          "chapter_id": "c-nanshi-024-wangshaozhi-wyd",
+          "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p004",
+          "quote": "韶之為晉史序王珣貨殖王廞作亂珣子弘廞子華並貴顯韶之懼為所陷深附結徐羨之傅亮等少帝即位遷侍中出為吳郡太守羨之被誅王弘入相領揚州刺史弘雖與韶之不絶諸弟未相識者皆不復往來韶之在郡常慮為弘所繩夙夜勤勵政績甚美弘亦抑其私憾文帝兩嘉之韶之稱為良守徵為祠部尚書加給事中坐去郡長取送故免官後為吳興太守卒撰孝傳三卷文集行於世宋廟歌辭韶之所制也",
+          "subject_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p004:m0016",
+          "object_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p004:m0014",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p004",
+            "start": 14,
+            "end": 17,
+            "surface": "珣子弘"
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳內明列所出。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangshaozhi-wyd-hua",
+      "subject_person_id": "7r6_k52_qji_ABAAFAB",
+      "object_person_id": "7r6_k52_qji_ABAAFA",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "廞子華",
+        "lineage": "paternal",
+        "nanshi024_wangshaozhi_wyd_reading": "hua"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangshaozhi-wyd1739",
+          "chapter_id": "c-nanshi-024-wangshaozhi-wyd",
+          "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p004",
+          "quote": "韶之為晉史序王珣貨殖王廞作亂珣子弘廞子華並貴顯韶之懼為所陷深附結徐羨之傅亮等少帝即位遷侍中出為吳郡太守羨之被誅王弘入相領揚州刺史弘雖與韶之不絶諸弟未相識者皆不復往來韶之在郡常慮為弘所繩夙夜勤勵政績甚美弘亦抑其私憾文帝兩嘉之韶之稱為良守徵為祠部尚書加給事中坐去郡長取送故免官後為吳興太守卒撰孝傳三卷文集行於世宋廟歌辭韶之所制也",
+          "subject_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p004:m0019",
+          "object_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p004:m0017",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p004",
+            "start": 17,
+            "end": 20,
+            "surface": "廞子華"
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳內明列所出。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangshaozhi-wyd-ye",
+      "subject_person_id": "yfa_tz5_3ge_A",
+      "object_person_id": "yfa_tz5_3ge",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "子",
+        "lineage": "paternal",
+        "nanshi024_wangshaozhi_wyd_reading": "ye"
+      },
+      "context": {
+        "kind": "nanshi024_printed_child_continuation",
+        "paragraph_ids": [
+          "c-nanshi-024-wangshaozhi-wyd:p004",
+          "c-nanshi-024-wangshaozhi-wyd:p005"
+        ],
+        "parent_mention_id": "c-nanshi-024-wangshaozhi-wyd:p004:m0157",
+        "child_mention_id": "c-nanshi-024-wangshaozhi-wyd:p005:m0001",
+        "rationale": "十四上左5欄韶之所制也，左6欄另起子曄。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangshaozhi-wyd1739",
+          "chapter_id": "c-nanshi-024-wangshaozhi-wyd",
+          "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p004",
+          "quote": "韶之為晉史序王珣貨殖王廞作亂珣子弘廞子華並貴顯韶之懼為所陷深附結徐羨之傅亮等少帝即位遷侍中出為吳郡太守羨之被誅王弘入相領揚州刺史弘雖與韶之不絶諸弟未相識者皆不復往來韶之在郡常慮為弘所繩夙夜勤勵政績甚美弘亦抑其私憾文帝兩嘉之韶之稱為良守徵為祠部尚書加給事中坐去郡長取送故免官後為吳興太守卒撰孝傳三卷文集行於世宋廟歌辭韶之所制也",
+          "object_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p004:m0157"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangshaozhi-wyd1739",
+          "chapter_id": "c-nanshi-024-wangshaozhi-wyd",
+          "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p005",
+          "quote": "子曄位臨賀太守",
+          "subject_person_mention_id": "c-nanshi-024-wangshaozhi-wyd:p005:m0001",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangshaozhi-wyd:p005",
+            "start": 0,
+            "end": 2,
+            "surface": "子曄"
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原段子某承前段傳主。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
