@@ -2,7 +2,10 @@
 
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
-    if holding.get('posthumous_basis', {}).get('kind') == 'named_jin079_family_death_award':
+    basis = holding.get('posthumous_basis')
+    if not isinstance(basis, dict):
+        return False
+    if basis.get('kind') == 'named_jin079_family_death_award':
         try: from scripts.jin079_family_awards import valid
         except ImportError: from jin079_family_awards import valid
         return valid(holding, paragraphs, mentions, life_events or {})
