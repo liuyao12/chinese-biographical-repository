@@ -1,0 +1,140 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-shishuoxinyu-023-jin043-liuchang",
+  "work_id": "w-shishuoxinyu",
+  "book_id": "b-shishuoxinyu-023",
+  "source_id": "s-shishuoxinyu-023-jin043-liuchang",
+  "title": "劉公榮飲酒與劉注譜傳",
+  "source": {
+    "title": "世說新語任誕",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=2274839",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2274839",
+    "revision_id": 2274839,
+    "accessed_on": "2026-11-21",
+    "edition": "固定修訂相關原文，逐字核收。",
+    "extent": "下列來源節錄。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古籍原文，維基文庫數位轉錄。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "raw_path": "source-evidence/jin043-wangrong-main/external/ren-ws2274839.wikitext",
+    "raw_file_sha256": "9fbdb1a23ed6e1f1510ebe52d2987873ad1ff65d027a4a55d8f64ffadeb8fdd0",
+    "wikitext_sha256": "9fbdb1a23ed6e1f1510ebe52d2987873ad1ff65d027a4a55d8f64ffadeb8fdd0",
+    "collation_witnesses": [
+      "source-evidence/jin043-shan-children/reading.json",
+      "source-evidence/jin043-shantao/reading.json"
+    ]
+  },
+  "annotation": {
+    "status": "in_progress",
+    "human_reviewed": false,
+    "scope": "本次來源節錄。",
+    "reviewed_unit_evidence": [
+      {
+        "unit": "劉公榮飲酒與劉注譜傳",
+        "path": "source-evidence/jin043-roll-close/reading.json"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-shishuoxinyu-023-jin043-liuchang:ren",
+      "text": "劉公榮與人飲酒，雜穢非類，人或譏之。",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-023-jin043-liuchang:ren:m0000",
+          "start": 0,
+          "end": 3,
+          "surface": "劉公榮",
+          "kind": "person",
+          "person_id": "z4k_st6_6zf",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "source_quote": {
+        "witness": "ren",
+        "quote": "劉公榮與人飲酒，雜穢非類，人或譏之。",
+        "raw_start": 759,
+        "raw_end": 777,
+        "raw_line": 12
+      }
+    },
+    {
+      "id": "c-shishuoxinyu-023-jin043-liuchang:pu",
+      "text": "昶字公榮，沛國人。",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-023-jin043-liuchang:pu:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "昶",
+          "kind": "person",
+          "person_id": "z4k_st6_6zf",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-shishuoxinyu-023-jin043-liuchang:pu:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "公榮",
+          "kind": "person",
+          "person_id": "z4k_st6_6zf",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "witness_appended_liuxiaobiao_note",
+      "source_quote": {
+        "witness": "ren",
+        "quote": "昶字公榮，沛國人。",
+        "raw_start": 837,
+        "raw_end": 846,
+        "raw_line": 12,
+        "source_layer": "劉注引劉氏譜"
+      },
+      "attribution": {
+        "annotator": "劉孝標",
+        "quoted_work": "劉氏譜"
+      }
+    },
+    {
+      "id": "c-shishuoxinyu-023-jin043-liuchang:chunqiu",
+      "text": "昶為人通達，仕至兗州刺史。",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-023-jin043-liuchang:chunqiu:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "昶",
+          "kind": "person",
+          "person_id": "z4k_st6_6zf",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "witness_appended_liuxiaobiao_note",
+      "source_quote": {
+        "witness": "ren",
+        "quote": "昶為人通達，仕至兗州刺史。",
+        "raw_start": 853,
+        "raw_end": 866,
+        "raw_line": 12,
+        "source_layer": "劉注引晉陽秋"
+      },
+      "attribution": {
+        "annotator": "劉孝標",
+        "quoted_work": "晉陽秋"
+      }
+    }
+  ],
+  "text_sha256": "cf02c014a2f87341403da72f43225df2d5ac0e1ac4c8ee5af698de7a80518aef"
+}

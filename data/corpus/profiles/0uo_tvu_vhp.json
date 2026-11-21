@@ -6,7 +6,8 @@
   "identity_note": "保留本傳明載身份，各處別稱及同名者依本條來源分辨。",
   "review": "ai_provisional",
   "names": [
-    "范晷"
+    "范晷",
+    "範晷"
   ],
   "titles": [
     {
@@ -34,6 +35,54 @@
           "end": 28,
           "surface": "少府",
           "person_mention_id": "c-jinshu-043-guoshu:line129:m0028",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w043-shantao-35",
+      "person_id": "0uo_tvu_vhp",
+      "title": "左長史",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "chapter_id": "c-jinshu-043-shantao",
+          "source_id": "s-jinshu-043-shantao",
+          "paragraph_id": "c-jinshu-043-shantao:line035",
+          "quote": "後拜司徒，濤復固讓。」詔曰：「郡年耆德茂，朝之碩老，是以授君台輔之位。而遠崇克讓，至於反覆，良用於邑。君當終始朝政，翼輔朕躬。」濤又表曰：「臣事天朝三十餘年，卒無毫釐以崇大化。陛下私臣無已，猥授三司。臣聞德薄位高，力少任重，上有折足之凶，下有廟門之咎，願陛下垂累世之恩，乞臣骸骨。詔曰：「君翼贊朝政，保乂皇家，匡佐之勳，朕所倚賴。司徒之職，實掌幫教，故用敬授，以答群望。豈宜沖讓以自抑損邪！」已敕斷章表，使者乃臥加章綬。濤曰：「垂沒之人，豈可汙官府乎！」輿疾歸家。乙太康四年薨，時年七十九，詔賜東園秘器、朝服一具、衣一襲、錢五十萬、布百匹，以供喪事，策贈司徒，蜜印紫綬，侍中貂蟬，新遝伯蜜印青硃綬，祭乙太牢，諡曰康。將葬，賜錢四十萬、布百匹。左長史範晷等上言：「濤舊第屋十間，子孫不相容。」帝為之立室。",
+          "person_mention_id": "c-jinshu-043-shantao:line035:m0324"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-shantao-35:a",
+          "paragraph_id": "c-jinshu-043-shantao:line035",
+          "start": 321,
+          "end": 324,
+          "surface": "左長史",
+          "person_mention_id": "c-jinshu-043-shantao:line035:m0324",
           "usage": "narrative",
           "date_expression": null
         }
@@ -94,6 +143,41 @@
       "chapter_id": "c-jinshu-043-guoshu",
       "source_id": "s-jinshu-043-guoshu",
       "work_title": "晉書"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "山濤傳",
+      "paragraph_id": "c-jinshu-043-shantao:line035",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，新遝伯蜜印青硃綬，祭乙太牢，諡曰康。將葬，賜錢四十萬、布百匹。左長史範晷等上言：「濤舊第屋十間，子孫不相容。」帝為之立室。",
+      "paragraph_ids": [
+        "c-jinshu-043-shantao:line035"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-shantao:line035:m0324"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-shantao:line035:m0324": "c-jinshu-043-shantao:line035"
+      },
+      "mention_id": "c-jinshu-043-shantao:line035:m0324",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:line035:m0324",
+          "mention_ids": [
+            "c-jinshu-043-shantao:line035:m0324"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-shantao",
+      "source_id": "s-jinshu-043-shantao",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -122,6 +206,34 @@
         "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
         "collation_witnesses": [
           "source-evidence/jin043-guoshu-main/reading.json"
+        ]
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-043-shantao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-shantao",
+      "source": {
+        "title": "晉書卷四十三",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-11-21",
+        "edition": "使用維基文庫固定修訂，武英殿本另行對校。",
+        "extent": "自原文第11行至第47行，題下全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文，維基文庫數位轉錄。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "collation_witnesses": [
+          "source-evidence/jin043-shan-children/reading.json",
+          "source-evidence/jin043-shantao/reading.json"
         ]
       }
     }

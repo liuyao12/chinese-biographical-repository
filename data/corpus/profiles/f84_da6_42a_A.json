@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "id": "f84_da6_42a_A",
+  "canonical_person_id": "f84_da6_42a_A",
+  "label": "孔誾（孔愉子、孔靖父）",
+  "identity_note": "孔誾（孔愉子、孔靖父），見本組原文及身份互校。",
+  "review": "ai_provisional",
+  "names": [
+    "誾"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 27,
+      "category": "",
+      "title": "孔靖傳首的祖與父",
+      "paragraph_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "字季恭，會稽山陰人也，名與宋武帝祖諱同，故以字稱。祖愉，晉車騎將軍。父誾，散騎常侍。",
+      "paragraph_ids": [
+        "c-nanshi-027-kongjing-xiuzhi-ancestry:p001"
+      ],
+      "mention_ids": [
+        "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0037"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0037": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001"
+      },
+      "mention_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0037",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0037",
+          "mention_ids": [
+            "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0037"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-027",
+      "chapter_id": "c-nanshi-027-kongjing-xiuzhi-ancestry",
+      "source_id": "s-nanshi-027-kongjing-xiuzhi-ancestry-ws1611067",
+      "work_title": "南史"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-nanshi-027-kongjing-xiuzhi-ancestry",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-027",
+      "source_id": "s-nanshi-027-kongjing-xiuzhi-ancestry-ws1611067",
+      "source": {
+        "title": "孔靖傳首的祖與父",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1611067",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1611067",
+        "revision_id": 1611067,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "孔靖傳首的祖與父",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/nanshi022-wangci/external/nanshi27-ws1611067.wikitext",
+        "raw_file_sha256": "c423effa01474d9f22277078fcf38c82e163a1c6fa16da159d1e41228ffa00c6"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-qi049-yin-yu",
+      "subject_person_id": "f84_da6_42a_A",
+      "object_person_id": "f84_da6_42a",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "祖愉，晉車騎將軍。父誾",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-027",
+          "chapter_id": "c-nanshi-027-kongjing-xiuzhi-ancestry",
+          "source_id": "s-nanshi-027-kongjing-xiuzhi-ancestry-ws1611067",
+          "paragraph_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001",
+          "quote": "孔靖字季恭，會稽山陰人也，名與宋武帝祖諱同，故以字稱。祖愉，晉車騎將軍。父誾，散騎常侍。",
+          "subject_person_mention_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0037",
+          "object_person_mention_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0028"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "孔靖先敘祖愉而後父誾。晉書孔愉傳另明三子訚汪安國。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi049-jing-yin",
+      "subject_person_id": "f84_da6_42a_AA",
+      "object_person_id": "f84_da6_42a_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父誾",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-027",
+          "chapter_id": "c-nanshi-027-kongjing-xiuzhi-ancestry",
+          "source_id": "s-nanshi-027-kongjing-xiuzhi-ancestry-ws1611067",
+          "paragraph_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001",
+          "quote": "孔靖字季恭，會稽山陰人也，名與宋武帝祖諱同，故以字稱。祖愉，晉車騎將軍。父誾，散騎常侍。",
+          "subject_person_mention_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0000",
+          "object_person_mention_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0037"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明父誾；晉書字形訚、靖名靜。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "related_people": {
+    "f84_da6_42a": "孔愉",
+    "f84_da6_42a_A": "孔誾（孔愉子、孔靖父）",
+    "f84_da6_42a_AA": "孔靖（字季恭，晉書作靜）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "f84_da6_42a_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-qi049-yin-yu",
+      "subject_person_id": "f84_da6_42a_A",
+      "object_person_id": "f84_da6_42a",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "祖愉，晉車騎將軍。父誾",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-027",
+          "chapter_id": "c-nanshi-027-kongjing-xiuzhi-ancestry",
+          "source_id": "s-nanshi-027-kongjing-xiuzhi-ancestry-ws1611067",
+          "paragraph_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001",
+          "quote": "孔靖字季恭，會稽山陰人也，名與宋武帝祖諱同，故以字稱。祖愉，晉車騎將軍。父誾，散騎常侍。",
+          "subject_person_mention_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0037",
+          "object_person_mention_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0028"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "孔靖先敘祖愉而後父誾。晉書孔愉傳另明三子訚汪安國。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
+      "id": "a-qi049-jing-yin",
+      "subject_person_id": "f84_da6_42a_AA",
+      "object_person_id": "f84_da6_42a_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父誾",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-027",
+          "chapter_id": "c-nanshi-027-kongjing-xiuzhi-ancestry",
+          "source_id": "s-nanshi-027-kongjing-xiuzhi-ancestry-ws1611067",
+          "paragraph_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001",
+          "quote": "孔靖字季恭，會稽山陰人也，名與宋武帝祖諱同，故以字稱。祖愉，晉車騎將軍。父誾，散騎常侍。",
+          "subject_person_mention_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0000",
+          "object_person_mention_id": "c-nanshi-027-kongjing-xiuzhi-ancestry:p001:m0037"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "本傳明父誾；晉書字形訚、靖名靜。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

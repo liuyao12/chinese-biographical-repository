@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "id": "sqi_qy6_6bu_AA",
+  "canonical_person_id": "sqi_qy6_6bu_AA",
+  "label": "杜崱（京兆杜陵）",
+  "identity_note": "梁46上列祖、父，杜岑為其第二兄。",
+  "review": "ai_provisional",
+  "names": [
+    "杜崱",
+    "崱"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 46,
+      "category": "",
+      "title": "杜龕家世（杜崱及杜龕傳節錄）",
+      "paragraph_id": "c-liangshu-046-dukans-family-context:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "杜崱，京兆杜陵人也。其先自北歸南，居於雍州之襄陽，子孫因家焉。祖靈啓，齊給事中。父懷寶，",
+      "paragraph_ids": [
+        "c-liangshu-046-dukans-family-context:p001",
+        "c-liangshu-046-dukans-family-context:p002"
+      ],
+      "mention_ids": [
+        "c-liangshu-046-dukans-family-context:p001:m0000",
+        "c-liangshu-046-dukans-family-context:p002:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-046-dukans-family-context:p001:m0000": "c-liangshu-046-dukans-family-context:p001",
+        "c-liangshu-046-dukans-family-context:p002:m0002": "c-liangshu-046-dukans-family-context:p002"
+      },
+      "mention_id": "c-liangshu-046-dukans-family-context:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-046-dukans-family-context:p001:m0000",
+          "mention_ids": [
+            "c-liangshu-046-dukans-family-context:p001:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-046-dukans-family-context:p002:m0002",
+          "mention_ids": [
+            "c-liangshu-046-dukans-family-context:p002:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-046",
+      "chapter_id": "c-liangshu-046-dukans-family-context",
+      "source_id": "s-liangshu-046-dukans-family-context-ws2197034",
+      "work_title": "梁書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-liangshu-046-dukans-family-context",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-046",
+      "source_id": "s-liangshu-046-dukans-family-context-ws2197034",
+      "source": {
+        "title": "梁書卷46·杜龕家世（杜崱及杜龕傳節錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2197034",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2197034",
+        "revision_id": 2197034,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "杜崱傳第23行家世與杜龕傳第38行首句。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nanshi024-wangqing/ws2197034.wikitext",
+        "raw_file_sha256": "2e654fbb07ca3f9822d2da8f68189ce0be946b4279b64c32cf8a0583b0a6e2ab",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "杜龕家世（杜崱及杜龕傳節錄）"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-nanshi024-wangqing-du-parent",
+      "subject_person_id": "sqi_qy6_6bu_AA",
+      "object_person_id": "sqi_qy6_6bu_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父懷寶",
+        "nanshi024_wangqing_reading": "du-parent",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-046",
+          "source_id": "s-liangshu-046-dukans-family-context-ws2197034",
+          "chapter_id": "c-liangshu-046-dukans-family-context",
+          "paragraph_id": "c-liangshu-046-dukans-family-context:p001",
+          "quote": "杜崱，京兆杜陵人也。其先自北歸南，居於雍州之襄陽，子孫因家焉。祖靈啓，齊給事中。父懷寶，",
+          "subject_person_mention_id": "c-liangshu-046-dukans-family-context:p001:m0000",
+          "object_person_mention_id": "c-liangshu-046-dukans-family-context:p001:m0041",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-046-dukans-family-context:p001",
+            "surface": "父懷寶",
+            "start": 40,
+            "end": 43
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳首直書父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangqing-du-grand",
+      "subject_person_id": "sqi_qy6_6bu_AA",
+      "object_person_id": "sqi_qy6_6bu",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖靈啓",
+        "nanshi024_wangqing_reading": "du-grand",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-046",
+          "source_id": "s-liangshu-046-dukans-family-context-ws2197034",
+          "chapter_id": "c-liangshu-046-dukans-family-context",
+          "paragraph_id": "c-liangshu-046-dukans-family-context:p001",
+          "quote": "杜崱，京兆杜陵人也。其先自北歸南，居於雍州之襄陽，子孫因家焉。祖靈啓，齊給事中。父懷寶，",
+          "subject_person_mention_id": "c-liangshu-046-dukans-family-context:p001:m0000",
+          "object_person_mention_id": "c-liangshu-046-dukans-family-context:p001:m0032",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-046-dukans-family-context:p001",
+            "surface": "祖靈啓",
+            "start": 31,
+            "end": 34
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳首直書祖。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangqing-du-brother",
+      "subject_person_id": "sqi_qy6_6bu_AB",
+      "object_person_id": "sqi_qy6_6bu_AA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "崱第二兄岑",
+        "nanshi024_wangqing_reading": "du-brother",
+        "relative_birth_order": {
+          "older_person_id": "sqi_qy6_6bu_AB",
+          "younger_person_id": "sqi_qy6_6bu_AA",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-046",
+          "source_id": "s-liangshu-046-dukans-family-context-ws2197034",
+          "chapter_id": "c-liangshu-046-dukans-family-context",
+          "paragraph_id": "c-liangshu-046-dukans-family-context:p002",
+          "quote": "龕，崱第二兄岑之子。",
+          "subject_person_mention_id": "c-liangshu-046-dukans-family-context:p002:m0006",
+          "object_person_mention_id": "c-liangshu-046-dukans-family-context:p002:m0002",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-046-dukans-family-context:p002",
+            "surface": "崱第二兄岑",
+            "start": 2,
+            "end": 7
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "岑是崱第二兄。傳中只定兄序。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "sqi_qy6_6bu": "杜靈啓（杜崱祖）",
+    "sqi_qy6_6bu_A": "杜懷寶（杜崱父）",
+    "sqi_qy6_6bu_AA": "杜崱（京兆杜陵）",
+    "sqi_qy6_6bu_AB": "杜岑（杜崱兄）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "sqi_qy6_6bu_AA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-nanshi024-wangqing-du-parent",
+      "subject_person_id": "sqi_qy6_6bu_AA",
+      "object_person_id": "sqi_qy6_6bu_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父懷寶",
+        "nanshi024_wangqing_reading": "du-parent",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-046",
+          "source_id": "s-liangshu-046-dukans-family-context-ws2197034",
+          "chapter_id": "c-liangshu-046-dukans-family-context",
+          "paragraph_id": "c-liangshu-046-dukans-family-context:p001",
+          "quote": "杜崱，京兆杜陵人也。其先自北歸南，居於雍州之襄陽，子孫因家焉。祖靈啓，齊給事中。父懷寶，",
+          "subject_person_mention_id": "c-liangshu-046-dukans-family-context:p001:m0000",
+          "object_person_mention_id": "c-liangshu-046-dukans-family-context:p001:m0041",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-046-dukans-family-context:p001",
+            "surface": "父懷寶",
+            "start": 40,
+            "end": 43
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳首直書父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangqing-du-grand",
+      "subject_person_id": "sqi_qy6_6bu_AA",
+      "object_person_id": "sqi_qy6_6bu",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖靈啓",
+        "nanshi024_wangqing_reading": "du-grand",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-046",
+          "source_id": "s-liangshu-046-dukans-family-context-ws2197034",
+          "chapter_id": "c-liangshu-046-dukans-family-context",
+          "paragraph_id": "c-liangshu-046-dukans-family-context:p001",
+          "quote": "杜崱，京兆杜陵人也。其先自北歸南，居於雍州之襄陽，子孫因家焉。祖靈啓，齊給事中。父懷寶，",
+          "subject_person_mention_id": "c-liangshu-046-dukans-family-context:p001:m0000",
+          "object_person_mention_id": "c-liangshu-046-dukans-family-context:p001:m0032",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-046-dukans-family-context:p001",
+            "surface": "祖靈啓",
+            "start": 31,
+            "end": 34
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "傳首直書祖。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangqing-du-brother",
+      "subject_person_id": "sqi_qy6_6bu_AB",
+      "object_person_id": "sqi_qy6_6bu_AA",
+      "predicate": "brother",
+      "qualifiers": {
+        "source_term": "崱第二兄岑",
+        "nanshi024_wangqing_reading": "du-brother",
+        "relative_birth_order": {
+          "older_person_id": "sqi_qy6_6bu_AB",
+          "younger_person_id": "sqi_qy6_6bu_AA",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-046",
+          "source_id": "s-liangshu-046-dukans-family-context-ws2197034",
+          "chapter_id": "c-liangshu-046-dukans-family-context",
+          "paragraph_id": "c-liangshu-046-dukans-family-context:p002",
+          "quote": "龕，崱第二兄岑之子。",
+          "subject_person_mention_id": "c-liangshu-046-dukans-family-context:p002:m0006",
+          "object_person_mention_id": "c-liangshu-046-dukans-family-context:p002:m0002",
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-046-dukans-family-context:p002",
+            "surface": "崱第二兄岑",
+            "start": 2,
+            "end": 7
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "岑是崱第二兄。傳中只定兄序。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

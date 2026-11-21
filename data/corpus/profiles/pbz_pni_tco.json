@@ -15,6 +15,54 @@
   ],
   "titles": [
     {
+      "id": "th-nanqishu-032-heji-family-2",
+      "person_id": "pbz_pni_tco",
+      "title": "金紫光祿大夫",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-032",
+          "chapter_id": "c-nanqishu-032-heji-family",
+          "source_id": "s-nanqishu-032-heji-family-ws1513918",
+          "paragraph_id": "c-nanqishu-032-heji-family:p001",
+          "quote": "何戢字慧景，廬江灊人也。祖尚之，宋司空。父偃，金紫光祿大夫，被遇於宋武。選戢尚山陰公主，拜駙馬都尉。",
+          "person_mention_id": "c-nanqishu-032-heji-family:p001:m0021"
+        }
+      ],
+      "attestations": [
+        {
+          "paragraph_id": "c-nanqishu-032-heji-family:p001",
+          "surface": "金紫光祿大夫",
+          "start": 23,
+          "end": 29,
+          "id": "th-nanqishu-032-heji-family-2:a1",
+          "person_mention_id": "c-nanqishu-032-heji-family:p001:m0021",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "偃在此段的官序。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi021-wangsengda-53-243",
       "person_id": "pbz_pni_tco",
       "title": "侍中",
@@ -246,6 +294,41 @@
       "chapter_id": "c-nanshi-024-wang-family",
       "source_id": "s-nanshi-024-wang-family",
       "work_title": "南史"
+    },
+    {
+      "number": 32,
+      "category": "",
+      "title": "何戢本傳所載祖父、父及其女",
+      "paragraph_id": "c-nanqishu-032-heji-family:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "何戢字慧景，廬江灊人也。祖尚之，宋司空。父偃，金紫光祿大夫，被遇於宋武。選戢尚山陰公主，拜駙馬都尉。",
+      "paragraph_ids": [
+        "c-nanqishu-032-heji-family:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-032-heji-family:p001:m0021"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-032-heji-family:p001:m0021": "c-nanqishu-032-heji-family:p001"
+      },
+      "mention_id": "c-nanqishu-032-heji-family:p001:m0021",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-032-heji-family:p001:m0021",
+          "mention_ids": [
+            "c-nanqishu-032-heji-family:p001:m0021"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-032",
+      "chapter_id": "c-nanqishu-032-heji-family",
+      "source_id": "s-nanqishu-032-heji-family-ws1513918",
+      "work_title": "南齊書"
     },
     {
       "number": 32,
@@ -587,6 +670,34 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-032-heji-family",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-032",
+      "source_id": "s-nanqishu-032-heji-family-ws1513918",
+      "source": {
+        "title": "何戢本傳所載祖父、父及其女",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1513918",
+        "revision_id": 1513918,
+        "accessed_on": "2026-11-20",
+        "edition": "維基文庫固定修訂",
+        "extent": "固定原始檔第64、74行所引原句。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文及維基文庫數位轉錄，保留見證歸屬。",
+        "section_locator": "何戢本傳所載祖父、父及其女",
+        "raw_path": "sources/nanqishu/nanqishu032-ws1513918.wikitext",
+        "raw_file_sha256": "cc9c36ced8f64c3c359c76836ae56968c8a13c4a3b3c19a416575737314b0061",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "各字保存固定修訂原位，分開正文、數位版校勘與按語。"
+        }
+      }
+    },
     {
       "chapter_id": "c-nanqishu-032-ruantao",
       "work_id": "w-nanqishu",
@@ -9327,6 +9438,33 @@
   ],
   "relations": [
     {
+      "id": "a-nanqishu-032-heji-family-1",
+      "predicate": "father",
+      "subject_person_id": "pbz_pni_tco_A",
+      "object_person_id": "pbz_pni_tco",
+      "qualifiers": {
+        "source_term": "父偃",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-032",
+          "chapter_id": "c-nanqishu-032-heji-family",
+          "source_id": "s-nanqishu-032-heji-family-ws1513918",
+          "paragraph_id": "c-nanqishu-032-heji-family:p001",
+          "quote": "何戢字慧景，廬江灊人也。祖尚之，宋司空。父偃，金紫光祿大夫，被遇於宋武。選戢尚山陰公主，拜駙馬都尉。",
+          "subject_person_mention_id": "c-nanqishu-032-heji-family:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-032-heji-family:p001:m0021"
+        }
+      ],
+      "interpretation_note": "何戢父為何偃。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-nan023-wangxuan-yan-uncle",
       "subject_person_id": "1tc_q18_x7v_A",
       "object_person_id": "pbz_pni_tco",
@@ -9388,7 +9526,8 @@
   "related_people": {
     "1tc_q18_x7v_A": "王絢（字長素，王彧長子）",
     "d84_kqu_2g5": "何尚之",
-    "pbz_pni_tco": "何偃"
+    "pbz_pni_tco": "何偃",
+    "pbz_pni_tco_A": "何戢"
   },
   "dates": [],
   "name_components": [],
@@ -9428,6 +9567,33 @@
     "pbz_pni_tco"
   ],
   "preferred_relations": [
+    {
+      "id": "a-nanqishu-032-heji-family-1",
+      "predicate": "father",
+      "subject_person_id": "pbz_pni_tco_A",
+      "object_person_id": "pbz_pni_tco",
+      "qualifiers": {
+        "source_term": "父偃",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-032",
+          "chapter_id": "c-nanqishu-032-heji-family",
+          "source_id": "s-nanqishu-032-heji-family-ws1513918",
+          "paragraph_id": "c-nanqishu-032-heji-family:p001",
+          "quote": "何戢字慧景，廬江灊人也。祖尚之，宋司空。父偃，金紫光祿大夫，被遇於宋武。選戢尚山陰公主，拜駙馬都尉。",
+          "subject_person_mention_id": "c-nanqishu-032-heji-family:p001:m0000",
+          "object_person_mention_id": "c-nanqishu-032-heji-family:p001:m0021"
+        }
+      ],
+      "interpretation_note": "何戢父為何偃。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-nan023-wangxuan-yan-uncle",
       "subject_person_id": "1tc_q18_x7v_A",

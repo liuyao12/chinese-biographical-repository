@@ -222,6 +222,41 @@
       "chapter_id": "c-songshu-071-wangsengchuo",
       "source_id": "s-songshu-071-wangsengchuo",
       "work_title": "宋書"
+    },
+    {
+      "number": 133,
+      "category": "",
+      "title": "建平王景素之父",
+      "paragraph_id": "c-zizhitongjian-133-jianping-jingsu:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "景素，宏之子也。",
+      "paragraph_ids": [
+        "c-zizhitongjian-133-jianping-jingsu:p001"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-133-jianping-jingsu:p001:m0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-133-jianping-jingsu:p001:m0003": "c-zizhitongjian-133-jianping-jingsu:p001"
+      },
+      "mention_id": "c-zizhitongjian-133-jianping-jingsu:p001:m0003",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-133-jianping-jingsu:p001:m0003",
+          "mention_ids": [
+            "c-zizhitongjian-133-jianping-jingsu:p001:m0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-133",
+      "chapter_id": "c-zizhitongjian-133-jianping-jingsu",
+      "source_id": "s-zizhitongjian-133-jianping-jingsu-ws1552077",
+      "work_title": "資治通鑑"
     }
   ],
   "table_occurrences": [],
@@ -992,11 +1027,63 @@
           "extraction_note": "逐欄校讀。每半葉自右向左數，無現代標點。"
         }
       }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-133-jianping-jingsu",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-133",
+      "source_id": "s-zizhitongjian-133-jianping-jingsu-ws1552077",
+      "source": {
+        "title": "建平王景素之父",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1552077",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1552077",
+        "revision_id": 1552077,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "建平王景素之父",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/nan023-wangyu/ws1552077.wikitext",
+        "raw_file_sha256": "60e9320c97505b4493062d3ba86bbfdf45899c41d5926b4db1d23e9953f6ce51"
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-qi049-jingsu-hong",
+      "subject_person_id": "ccd_af3_98e_A",
+      "object_person_id": "ccd_af3_98e",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "宏之子也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-133",
+          "chapter_id": "c-zizhitongjian-133-jianping-jingsu",
+          "source_id": "s-zizhitongjian-133-jianping-jingsu-ws1552077",
+          "paragraph_id": "c-zizhitongjian-133-jianping-jingsu:p001",
+          "quote": "景素，宏之子也。",
+          "subject_person_mention_id": "c-zizhitongjian-133-jianping-jingsu:p001:m0000",
+          "object_person_mention_id": "c-zizhitongjian-133-jianping-jingsu:p001:m0003"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "通鑑宋紀同段直書，宋書七十二宏傳亦分段接子景素。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "ccd_af3_98e": "建平王宏"
+    "ccd_af3_98e": "建平王宏",
+    "ccd_af3_98e_A": "劉景素（宋建平王，劉宏子）"
   },
   "dates": [],
   "reading_decisions": [
@@ -1129,7 +1216,35 @@
   "person_ids": [
     "ccd_af3_98e"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-qi049-jingsu-hong",
+      "subject_person_id": "ccd_af3_98e_A",
+      "object_person_id": "ccd_af3_98e",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "宏之子也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-133",
+          "chapter_id": "c-zizhitongjian-133-jianping-jingsu",
+          "source_id": "s-zizhitongjian-133-jianping-jingsu-ws1552077",
+          "paragraph_id": "c-zizhitongjian-133-jianping-jingsu:p001",
+          "quote": "景素，宏之子也。",
+          "subject_person_mention_id": "c-zizhitongjian-133-jianping-jingsu:p001:m0000",
+          "object_person_mention_id": "c-zizhitongjian-133-jianping-jingsu:p001:m0003"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "通鑑宋紀同段直書，宋書七十二宏傳亦分段接子景素。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

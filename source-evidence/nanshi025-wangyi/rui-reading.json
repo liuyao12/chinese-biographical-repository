@@ -1,0 +1,222 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2118581,
+      "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
+      "line": 27,
+      "start": 100,
+      "end": 112,
+      "source_quote": "仲德抱元德子方回出候武帝",
+      "raw_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf",
+      "interpretation": "宋書同父子與抱迎。"
+    },
+    {
+      "revision_id": 12757141,
+      "raw_path": "source-evidence/song046-wangyi-complete/external/ws12757141.wikitext",
+      "line": 15,
+      "start": 260,
+      "end": 264,
+      "source_quote": "叡字元德",
+      "raw_sha256": "7c28b60e43f51d2c524ca29994d917bfea883896e31bb1cc1ec2c995a9cf9480",
+      "interpretation": "本卷明字。"
+    },
+    {
+      "revision_id": 11136436,
+      "raw_path": "source-evidence/song046-wangyi-complete/external/ws11136436.wikitext",
+      "line": 53,
+      "start": 0,
+      "end": 9,
+      "source_quote": "庚申，高祖鎮石頭城",
+      "raw_sha256": "2dec5991dd6fcc1ee82f680f915855cd9646e3f5202e7a5ac161890cd8806024",
+      "interpretation": "宋武帝紀起義次第，不能用此日充王叡死日。"
+    }
+  ],
+  "print_readings": [
+    {
+      "edition": "乾隆四年武英殿本《南史》卷二十五，國家圖書館藏第247冊",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/NLC892-411999017142-12361_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC247%E5%86%8A.pdf#page=50",
+      "pdf_sha1": "a65459e7c394a8a3a277d0274266e026405c8f4b",
+      "page": 50,
+      "half": "L",
+      "folio": "二上",
+      "columns_from_right": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_quote": "事泄元德為玄誅仲德竄走",
+      "interpretation": "同半葉第4欄起敘元德，第7欄入第8欄書死；第8、9欄書方回，第10欄封侯。",
+      "image_sha256": "e6c2f09e1b9d836acd5afe1f38ce3ff6fee28d613e8f447070a8bea69918363c",
+      "image": null
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-nanshi-025",
+      "title": "王叡",
+      "unit_kind": "embedded_account",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_id": "c-nanshi-025-wangrui",
+      "chapter_path": "corpus/nanshi/025-wangrui.json",
+      "paragraph_ids": [
+        "c-nanshi-025-wangrui:p001"
+      ],
+      "first_line": 17,
+      "last_line": 17,
+      "start_codepoint": 127,
+      "end_codepoint": 269,
+      "opening": "元德果勁有計略，宋武帝甚",
+      "closing": "元德給事中，封安復縣侯，",
+      "parent_heading": "王懿"
+    }
+  ],
+  "chronology": [
+    {
+      "event": "為桓玄所誅",
+      "year": 404,
+      "date_expression": "會義軍克建鄴",
+      "precision": "背景定年，不定月日"
+    }
+  ],
+  "readings": [
+    {
+      "id": "c-nanshi-025-wangrui:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "lrq_cdc_wxj",
+      "source_quote": "元德果勁有計略，宋武帝甚知之，告以義舉，使於都下襲玄。",
+      "reading": "宋武帝知元德果勁有謀，囑在都下襲桓玄。",
+      "note": "宋武帝知元德果勁有謀，囑在都下襲桓玄。",
+      "paragraph_id": "c-nanshi-025-wangrui:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 27,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-025-wangrui:received_sentence1-27",
+      "kind": "received_sentence",
+      "person_id": "lrq_cdc_wxj",
+      "source_quote": "仲德聞其謀，謂元德曰：「天下事不可不密，且兵亦不貴遲巧。",
+      "reading": "仲德勸元德密謀速行。",
+      "note": "仲德勸元德密謀速行。",
+      "paragraph_id": "c-nanshi-025-wangrui:p001",
+      "start_codepoint": 27,
+      "end_codepoint": 55,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-025-wangrui:received_sentence1-55",
+      "kind": "received_sentence",
+      "person_id": "lrq_cdc_wxj",
+      "source_quote": "玄情無遠慮，好冒夜出入，今取之正須一夫力耳。」",
+      "reading": "所謂一夫力是估攻玄難易。",
+      "note": "所謂一夫力是估攻玄難易。",
+      "paragraph_id": "c-nanshi-025-wangrui:p001",
+      "start_codepoint": 55,
+      "end_codepoint": 78,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-025-wangrui:received_sentence1-78",
+      "kind": "received_sentence",
+      "person_id": "lrq_cdc_wxj",
+      "source_quote": "事泄，元德為玄誅，仲德竄走。",
+      "reading": "事泄，桓玄誅元德，仲德逃。",
+      "note": "事泄，桓玄誅元德，仲德逃。",
+      "paragraph_id": "c-nanshi-025-wangrui:p001",
+      "start_codepoint": 78,
+      "end_codepoint": 92,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-025-wangrui:received_sentence1-92",
+      "kind": "received_sentence",
+      "person_id": "lrq_cdc_wxj",
+      "source_quote": "會義軍克建鄴，仲德抱元德子方回出候武帝，帝于馬上抱方回，與仲德相對號慟。",
+      "reading": "義軍克建鄴後，仲德攜元德子方回出迎，帝抱方回，與仲德同哭。",
+      "note": "義軍克建鄴後，仲德攜元德子方回出迎，帝抱方回，與仲德同哭。",
+      "paragraph_id": "c-nanshi-025-wangrui:p001",
+      "start_codepoint": 92,
+      "end_codepoint": 128,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-025-wangrui:received_sentence1-128",
+      "kind": "received_sentence",
+      "person_id": "lrq_cdc_wxj",
+      "source_quote": "追贈元德給事中，封安復縣侯，",
+      "reading": "追贈元德為給事中並封安復縣侯；下接仲德之官。",
+      "note": "追贈元德為給事中並封安復縣侯；下接仲德之官。",
+      "paragraph_id": "c-nanshi-025-wangrui:p001",
+      "start_codepoint": 128,
+      "end_codepoint": 142,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-025-wangrui:courtesy_name1-0",
+      "kind": "courtesy_name",
+      "person_id": "lrq_cdc_wxj",
+      "source_quote": "元德果勁有計略",
+      "reading": "傳首L15明說叡字元德，與弟王懿字仲德分別。",
+      "note": "傳首L15明說叡字元德，與弟王懿字仲德分別。",
+      "paragraph_id": "c-nanshi-025-wangrui:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 7,
+      "human_reviewed": false,
+      "direct_source_line": 15
+    },
+    {
+      "id": "c-nanshi-025-wangrui:parent_child1-102",
+      "kind": "parent_child",
+      "person_id": "kzo_ye4_nvh",
+      "source_quote": "元德子方回",
+      "reading": "弟仲德抱亡兄之子方回，劉裕隨後抱之，此二抱均不表示兩人為其父。",
+      "note": "弟仲德抱亡兄之子方回，劉裕隨後抱之，此二抱均不表示兩人為其父。",
+      "paragraph_id": "c-nanshi-025-wangrui:p001",
+      "start_codepoint": 102,
+      "end_codepoint": 107,
+      "human_reviewed": false,
+      "father_id": "lrq_cdc_wxj",
+      "paternal_uncle_id": "qsd_v11_ya1_AA",
+      "other_holder": "3qs_nqa_ioa_AAA"
+    },
+    {
+      "id": "c-nanshi-025-wangrui:dated_death_context1-81",
+      "kind": "dated_death_context",
+      "person_id": "lrq_cdc_wxj",
+      "source_quote": "元德為玄誅",
+      "reading": "與宋高祖紀建義在元興三年404比定。原傳未另書具體行刑日。",
+      "note": "與宋高祖紀建義在元興三年404比定。原傳未另書具體行刑日。",
+      "paragraph_id": "c-nanshi-025-wangrui:p001",
+      "start_codepoint": 81,
+      "end_codepoint": 86,
+      "human_reviewed": false,
+      "ce_year": 404,
+      "month": null,
+      "day": null
+    },
+    {
+      "id": "c-nanshi-025-wangrui:posthumous_awards1-128",
+      "kind": "posthumous_awards",
+      "person_id": "lrq_cdc_wxj",
+      "source_quote": "追贈元德給事中，封安復縣侯",
+      "reading": "兩項均在死後，封侯與後文其弟受任順序分開。",
+      "note": "兩項均在死後，封侯與後文其弟受任順序分開。",
+      "paragraph_id": "c-nanshi-025-wangrui:p001",
+      "start_codepoint": 128,
+      "end_codepoint": 141,
+      "human_reviewed": false
+    }
+  ],
+  "identity_limits": []
+}

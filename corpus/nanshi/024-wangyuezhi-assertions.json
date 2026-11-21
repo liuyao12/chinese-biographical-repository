@@ -1,0 +1,113 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-nanshi-024-wangyuezhi",
+  "assertions": [
+    {
+      "id": "a-nanshi024-wangyuezhi-m-great",
+      "subject_person_id": "326_faf_cd3_*AA",
+      "object_person_id": "326_faf_cd3",
+      "predicate": "great_grandfather",
+      "qualifiers": {
+        "source_term": "晉右軍將軍羲之曾孫也",
+        "nanshi024_wangyuezhi_reading": "m-great",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangyuezhi-ws1765279",
+          "chapter_id": "c-nanshi-024-wangyuezhi",
+          "paragraph_id": "c-nanshi-024-wangyuezhi:p001",
+          "quote": "王悅之字少明，晉右軍將軍羲之曾孫也。祖獻之，中書令。父靖之，司徒左長史，爲劉穆之所厚，就穆之求侍中，如此非一。穆之曰：「卿若不求，久自得之。」遂不果。",
+          "subject_person_mention_id": "c-nanshi-024-wangyuezhi:p001:m0000",
+          "object_person_mention_id": "c-nanshi-024-wangyuezhi:p001:m0012",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangyuezhi:p001",
+            "surface": "晉右軍將軍羲之曾孫也",
+            "start": 7,
+            "end": 17
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "兩書各自明記羲之曾孫；存原官名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangyuezhi-m-father",
+      "subject_person_id": "326_faf_cd3_*AA",
+      "object_person_id": "326_faf_cd3_*A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父靖之",
+        "nanshi024_wangyuezhi_reading": "m-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangyuezhi-ws1765279",
+          "chapter_id": "c-nanshi-024-wangyuezhi",
+          "paragraph_id": "c-nanshi-024-wangyuezhi:p001",
+          "quote": "王悅之字少明，晉右軍將軍羲之曾孫也。祖獻之，中書令。父靖之，司徒左長史，爲劉穆之所厚，就穆之求侍中，如此非一。穆之曰：「卿若不求，久自得之。」遂不果。",
+          "subject_person_mention_id": "c-nanshi-024-wangyuezhi:p001:m0000",
+          "object_person_mention_id": "c-nanshi-024-wangyuezhi:p001:m0027",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangyuezhi:p001",
+            "surface": "父靖之",
+            "start": 26,
+            "end": 29
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "字少明者之父。晉書卷八十作靜，其生父為獻之未名兄。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-nanshi024-wangyuezhi-xianzhi",
+      "subject_person_id": "326_faf_cd3_*AA",
+      "object_person_id": "sm1_jfi_7k2",
+      "predicate": "grandfather",
+      "qualifiers": {
+        "source_term": "祖獻之",
+        "nanshi024_wangyuezhi_reading": "xianzhi",
+        "lineage": "paternal",
+        "grandparent_basis": "through_fathers_ritual_succession",
+        "father_person_id": "326_faf_cd3_*A",
+        "succession_assertion_id": "a-w080-jing-xian",
+        "biological_grandfather": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wangyuezhi-ws1765279",
+          "chapter_id": "c-nanshi-024-wangyuezhi",
+          "paragraph_id": "c-nanshi-024-wangyuezhi:p001",
+          "quote": "王悅之字少明，晉右軍將軍羲之曾孫也。祖獻之，中書令。父靖之，司徒左長史，爲劉穆之所厚，就穆之求侍中，如此非一。穆之曰：「卿若不求，久自得之。」遂不果。",
+          "subject_person_mention_id": "c-nanshi-024-wangyuezhi:p001:m0000",
+          "object_person_mention_id": "c-nanshi-024-wangyuezhi:p001:m0019",
+          "relationship_anchor": {
+            "paragraph_id": "c-nanshi-024-wangyuezhi:p001",
+            "surface": "祖獻之",
+            "start": 18,
+            "end": 21
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "南史於獻之稱祖。晉80言無子，取兄子靜之為嗣，故本條繫承嗣祖。所生祖未具名，無從指定獻之哪一兄。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

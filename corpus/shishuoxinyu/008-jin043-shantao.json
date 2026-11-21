@@ -1,0 +1,126 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-shishuoxinyu-008-jin043-shantao",
+  "work_id": "w-shishuoxinyu",
+  "book_id": "b-shishuoxinyu-008",
+  "source_id": "s-shishuoxinyu-008-jin043-shantao",
+  "title": "阮咸之薦與山濤啟事",
+  "source": {
+    "title": "世說新語賞譽",
+    "provider": "Wikisource",
+    "url": "https://zh.wikisource.org/w/index.php?oldid=1532652",
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=1532652",
+    "revision_id": 1532652,
+    "accessed_on": "2026-11-21",
+    "edition": "固定修訂相關原文，逐字核收。",
+    "extent": "下列來源節錄。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古籍原文，維基文庫數位轉錄。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "raw_path": "source-evidence/jin065-wang-children/external/shang-ws1532652.wikitext",
+    "raw_file_sha256": "e2ec15441d5cabbac9f4beea7a9f4f6c58db0a4e5537ff3ae0134c68bd8caa48",
+    "wikitext_sha256": "e2ec15441d5cabbac9f4beea7a9f4f6c58db0a4e5537ff3ae0134c68bd8caa48"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "human_reviewed": false,
+    "scope": "本次來源節錄。",
+    "reviewed_unit_evidence": [
+      {
+        "unit": "阮咸之薦與山濤啟事",
+        "path": "source-evidence/jin043-shantao/reading.json"
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-shishuoxinyu-008-jin043-shantao:nomination",
+      "text": "山公舉阮咸為吏部郎，目曰：「清真寡欲，萬物不能移也。」",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-008-jin043-shantao:nomination:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "山公",
+          "kind": "person",
+          "person_id": "96a_987_925",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-shishuoxinyu-008-jin043-shantao:nomination:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "阮咸",
+          "kind": "person",
+          "person_id": "ues_5wk_8tg",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "received_chapter",
+      "source_quote": {
+        "witness": "shang",
+        "quote": "山公舉阮咸為吏部郎，目曰：「清真寡欲，萬物不能移也。」",
+        "raw_start": 2176,
+        "raw_end": 2203,
+        "raw_line": 19
+      }
+    },
+    {
+      "id": "c-shishuoxinyu-008-jin043-shantao:qishi",
+      "text": "濤薦咸曰：『真素寡欲，深識清濁，萬物不能移也。若在官人之職，必妙絕於時。』詔用陸亮。",
+      "annotation_status": "reviewed",
+      "mentions": [
+        {
+          "id": "c-shishuoxinyu-008-jin043-shantao:qishi:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "濤",
+          "kind": "person",
+          "person_id": "96a_987_925",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-shishuoxinyu-008-jin043-shantao:qishi:m0002",
+          "start": 2,
+          "end": 3,
+          "surface": "咸",
+          "kind": "person",
+          "person_id": "ues_5wk_8tg",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        },
+        {
+          "id": "c-shishuoxinyu-008-jin043-shantao:qishi:m0039",
+          "start": 39,
+          "end": 41,
+          "surface": "陸亮",
+          "kind": "person",
+          "person_id": "73j_8ub_z7e",
+          "status": "contextual_provisional",
+          "interpretation_note": "以來源原字標記。"
+        }
+      ],
+      "text_layer": "witness_appended_liuxiaobiao_note",
+      "source_quote": {
+        "witness": "shang",
+        "quote": "濤薦咸曰：『真素寡欲，深識清濁，萬物不能移也。若在官人之職，必妙絕於時。』詔用陸亮。",
+        "raw_start": 2327,
+        "raw_end": 2369,
+        "raw_line": 19,
+        "source_layer": "劉注引山濤啟事"
+      },
+      "attribution": {
+        "annotator": "劉孝標",
+        "quoted_work": "山濤啟事"
+      }
+    }
+  ],
+  "text_sha256": "8ca62de8b2afb81318d38f6b2bd2dc675e24a0433e398bf6d84b38df98fe7015"
+}

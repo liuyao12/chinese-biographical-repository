@@ -1074,6 +1074,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-nanqishu-049-xiqian-1-12",
+      "title": "中書郎",
+      "kind": "office",
+      "mode": "attestation",
+      "person_id": "euq_wt7_i8i",
+      "attestations": [
+        {
+          "id": "th-nanqishu-049-xiqian-1-12:a",
+          "paragraph_id": "c-nanqishu-049-xiqian:p001",
+          "start": 12,
+          "end": 15,
+          "surface": "中書郎",
+          "person_mention_id": "c-nanqishu-049-xiqian:p001:m0015",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "chapter_id": "c-nanqishu-049-xiqian",
+          "source_id": "s-nanqishu-049-xiqian-ws2261984",
+          "paragraph_id": "c-nanqishu-049-xiqian:p001",
+          "quote": "時新蔡太守席謙，永明中爲中書郎王融所薦。父恭穆，鎮西司馬，爲魚復侯所害。至是謙鎮盆城，聞義師東下，曰：「我家世忠貞，殞死不二。」爲陳伯之所殺。",
+          "person_mention_id": "c-nanqishu-049-xiqian:p001:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "所見原官稱，未載全任期。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-nanshi021-wangrong-63-65",
       "person_id": "euq_wt7_i8i",
       "title": "太子舍人",
@@ -2600,6 +2648,41 @@
       "book_id": "b-nanqishu-047",
       "chapter_id": "c-nanqishu-047-wangrong",
       "source_id": "s-nanqishu-047-wangrong-ws1492435",
+      "work_title": "南齊書"
+    },
+    {
+      "number": 49,
+      "category": "",
+      "title": "席謙",
+      "paragraph_id": "c-nanqishu-049-xiqian:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "時新蔡太守席謙，永明中爲中書郎王融所薦。父恭穆，鎮西司馬，爲魚復侯所害。至是謙鎮盆城，聞義師東下，曰：「我家世忠貞，殞死不二。」爲陳伯之所殺。",
+      "paragraph_ids": [
+        "c-nanqishu-049-xiqian:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-049-xiqian:p001:m0015"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-049-xiqian:p001:m0015": "c-nanqishu-049-xiqian:p001"
+      },
+      "mention_id": "c-nanqishu-049-xiqian:p001:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-049-xiqian:p001:m0015",
+          "mention_ids": [
+            "c-nanqishu-049-xiqian:p001:m0015"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "chapter_id": "c-nanqishu-049-xiqian",
+      "source_id": "s-nanqishu-049-xiqian-ws2261984",
       "work_title": "南齊書"
     }
   ],
@@ -6015,6 +6098,29 @@
       }
     },
     {
+      "chapter_id": "c-nanqishu-049-xiqian",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "source_id": "s-nanqishu-049-xiqian-ws2261984",
+      "source": {
+        "title": "席謙",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "revision_id": 2261984,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "席謙",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wangqiu/ws2261984.wikitext",
+        "raw_file_sha256": "e3c16a4e75b7ffc6b0987e68ce9ef6a2053c598271498baf5f07ed0c035e69fa"
+      }
+    },
+    {
       "chapter_id": "c-nanshi-021-wangrong",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-021",
@@ -6385,6 +6491,28 @@
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-047",
       "source_id": "s-nanqishu-047-wangrong-wyd1739"
+    }
+  ],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-049-xiqian:distinguish_persons1-12",
+      "kind": "distinguish_persons",
+      "person_id": "euq_wt7_i8i",
+      "source_quote": "中書郎王融所薦",
+      "reading": "薦席謙的是南齊中書郎王融字元長。本卷王奐長子融為太子中庶子，不能相混。",
+      "note": "薦席謙的是南齊中書郎王融字元長。本卷王奐長子融為太子中庶子，不能相混。",
+      "paragraph_id": "c-nanqishu-049-xiqian:p001",
+      "start_codepoint": 12,
+      "end_codepoint": 19,
+      "human_reviewed": false,
+      "other_person_id": "q7m_r8k_2vn_AAB",
+      "recommended_person_id": "2d4_2ed_646_A",
+      "era_range": [
+        483,
+        493
+      ],
+      "chapter_id": "c-nanqishu-049-xiqian",
+      "source_id": "s-nanqishu-049-xiqian-ws2261984"
     }
   ],
   "person_references": [

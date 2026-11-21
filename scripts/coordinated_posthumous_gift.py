@@ -47,8 +47,16 @@ def validate(holding, paragraphs, mentions, events):
             return False
         d = death['source_anchor']
         if (d['paragraph_id'] != p['id'] or d['end'] >= pos
-                or text[d['start']:d['end']] != death['source_term'] or not death['source_term'].endswith('所誅')):
+                or text[d['start']:d['end']] != death['source_term']):
             return False
+        term = death['source_term']
+        if not term.endswith('所誅'):
+            # 南史王叡傳作「元德為玄誅」，以句中具名者核「為＋施事＋誅」。
+            if not (term.startswith('為') and term.endswith('誅') and any(
+                    x['kind'] == 'person' and x['person_id'] != m['person_id']
+                    and x['start'] == d['start'] + 1 and x['end'] == d['end'] - 1
+                    and x['surface'] == term[1:-1] for x in p['mentions'])):
+                return False
         return any(x['kind'] == 'person' and x['person_id'] == m['person_id']
                    and x['end'] == d['start'] for x in p['mentions'])
     except (KeyError, TypeError, ValueError, IndexError):

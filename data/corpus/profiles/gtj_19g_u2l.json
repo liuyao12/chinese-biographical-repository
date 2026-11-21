@@ -6,7 +6,8 @@
   "identity_note": "《南史》23王琨傳，依本段指稱及南齊書32對讀。",
   "review": "ai_provisional",
   "names": [
-    "殷道矜"
+    "殷道矜",
+    "道矜"
   ],
   "titles": [],
   "addresses": [],
@@ -80,10 +81,77 @@
       "chapter_id": "c-nanshi-023-wangkun",
       "source_id": "s-nanshi-023-wangkun-ws2478204",
       "work_title": "南史"
+    },
+    {
+      "number": 49,
+      "category": "",
+      "title": "殷恒",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "叡族父恒，字昭度，與叡同承融後。宋司空景仁孫也。恒及父道矜，竝有古風，以是見蚩於世，其事非一。恒，宋泰始初，爲度支尚書，坐屬父疾及身疾多，爲有司所奏。明帝詔曰：「殷道矜有生便病，比更無橫病。恒因愚習惰，久妨清敘。左遷散騎常侍，領校尉。」恒歷官清顯，至金紫光祿",
+      "paragraph_ids": [
+        "c-nanqishu-049-yinheng:p001"
+      ],
+      "mention_ids": [
+        "c-nanqishu-049-yinheng:p001:m0027",
+        "c-nanqishu-049-yinheng:p001:m0081"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-049-yinheng:p001:m0027": "c-nanqishu-049-yinheng:p001",
+        "c-nanqishu-049-yinheng:p001:m0081": "c-nanqishu-049-yinheng:p001"
+      },
+      "mention_id": "c-nanqishu-049-yinheng:p001:m0027",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-049-yinheng:p001:m0027",
+          "mention_ids": [
+            "c-nanqishu-049-yinheng:p001:m0027"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-049-yinheng:p001:m0081",
+          "mention_ids": [
+            "c-nanqishu-049-yinheng:p001:m0081"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "chapter_id": "c-nanqishu-049-yinheng",
+      "source_id": "s-nanqishu-049-yinheng-ws2261984",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-049-yinheng",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "source_id": "s-nanqishu-049-yinheng-ws2261984",
+      "source": {
+        "title": "殷恒",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "revision_id": 2261984,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "殷恒",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wangqiu/ws2261984.wikitext",
+        "raw_file_sha256": "e3c16a4e75b7ffc6b0987e68ce9ef6a2053c598271498baf5f07ed0c035e69fa"
+      }
+    },
     {
       "chapter_id": "c-nanshi-016-wangzhan-xuanmo",
       "work_id": "w-nanshi",
@@ -137,16 +205,105 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-qi049-heng-daojin",
+      "subject_person_id": "gtj_19g_u2l_A",
+      "object_person_id": "gtj_19g_u2l",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "恒及父道矜",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "chapter_id": "c-nanqishu-049-yinheng",
+          "source_id": "s-nanqishu-049-yinheng-ws2261984",
+          "paragraph_id": "c-nanqishu-049-yinheng:p001",
+          "quote": "叡族父恒，字昭度，與叡同承融後。宋司空景仁孫也。恒及父道矜，竝有古風，以是見蚩於世，其事非一。恒，宋泰始初，爲度支尚書，坐屬父疾及身疾多，爲有司所奏。明帝詔曰：「殷道矜有生便病，比更無橫病。恒因愚習惰，久妨清敘。左遷散騎常侍，領校尉。」恒歷官清顯，至金紫光祿大夫。建武中，卒。",
+          "subject_person_mention_id": "c-nanqishu-049-yinheng:p001:m0024",
+          "object_person_mention_id": "c-nanqishu-049-yinheng:p001:m0027"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "明父殷道矜。宋書六十三及南史二十七兩書別明「道矜子恒」。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "gtj_19g_u2l": "殷道矜"
+    "gtj_19g_u2l": "殷道矜",
+    "gtj_19g_u2l_A": "殷恒（字昭度，殷道矜子）"
   },
   "dates": [],
   "name_components": [],
+  "person_references": [
+    {
+      "id": "c-nanqishu-049-yinheng:p001:r0026",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start": 26,
+      "end": 27,
+      "surface": "父",
+      "person_id": "gtj_19g_u2l",
+      "referent_role": "third_person",
+      "quote": "恒及父道矜",
+      "note": "依句內語法、說話對象及本段承接辨識。",
+      "chapter_id": "c-nanqishu-049-yinheng",
+      "book_id": "b-nanqishu-049",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-049-yinheng-ws2261984"
+    },
+    {
+      "id": "c-nanqishu-049-yinheng:p001:r0062",
+      "paragraph_id": "c-nanqishu-049-yinheng:p001",
+      "start": 62,
+      "end": 63,
+      "surface": "父",
+      "person_id": "gtj_19g_u2l",
+      "referent_role": "third_person",
+      "quote": "坐屬父疾及身疾多",
+      "note": "依句內語法、說話對象及本段承接辨識。",
+      "chapter_id": "c-nanqishu-049-yinheng",
+      "book_id": "b-nanqishu-049",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-049-yinheng-ws2261984"
+    }
+  ],
   "person_ids": [
     "gtj_19g_u2l"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-qi049-heng-daojin",
+      "subject_person_id": "gtj_19g_u2l_A",
+      "object_person_id": "gtj_19g_u2l",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "恒及父道矜",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "chapter_id": "c-nanqishu-049-yinheng",
+          "source_id": "s-nanqishu-049-yinheng-ws2261984",
+          "paragraph_id": "c-nanqishu-049-yinheng:p001",
+          "quote": "叡族父恒，字昭度，與叡同承融後。宋司空景仁孫也。恒及父道矜，竝有古風，以是見蚩於世，其事非一。恒，宋泰始初，爲度支尚書，坐屬父疾及身疾多，爲有司所奏。明帝詔曰：「殷道矜有生便病，比更無橫病。恒因愚習惰，久妨清敘。左遷散騎常侍，領校尉。」恒歷官清顯，至金紫光祿大夫。建武中，卒。",
+          "subject_person_mention_id": "c-nanqishu-049-yinheng:p001:m0024",
+          "object_person_mention_id": "c-nanqishu-049-yinheng:p001:m0027"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "明父殷道矜。宋書六十三及南史二十七兩書別明「道矜子恒」。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

@@ -1,0 +1,142 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2118581,
+      "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
+      "line": 21,
+      "start": 70,
+      "end": 91,
+      "source_quote": "祖宏，事石季龍，父苗，事苻堅，皆為二千石。",
+      "raw_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf",
+      "interpretation": "宋書作事、皆為，殿本南史作仕、皆至。"
+    },
+    {
+      "revision_id": 12757141,
+      "raw_path": "source-evidence/song046-wangyi-complete/external/ws12757141.wikitext",
+      "line": 15,
+      "start": 0,
+      "end": 8,
+      "source_quote": "仲德少沈審有意略",
+      "raw_sha256": "7c28b60e43f51d2c524ca29994d917bfea883896e31bb1cc1ec2c995a9cf9480",
+      "interpretation": "同卷固定轉錄從此起，故刊本傳首另篇收入。"
+    }
+  ],
+  "print_readings": [
+    {
+      "edition": "乾隆四年武英殿本《南史》卷二十五，國家圖書館藏第247冊",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/NLC892-411999017142-12361_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC247%E5%86%8A.pdf#page=49",
+      "pdf_sha1": "a65459e7c394a8a3a277d0274266e026405c8f4b",
+      "page": 49,
+      "half": "L",
+      "folio": "一上",
+      "columns_from_right": [
+        7,
+        8
+      ],
+      "source_quote": "王懿字仲德太原祁人自言漢司徒允弟幽州刺史懋七世孫也祖宏仕石季龍父苗仕苻堅皆至二千石",
+      "interpretation": "兩欄由王懿起至二千石止，下接仲德少沈審。欄7末字懋，欄8起七世孫也。",
+      "image_sha256": "0ea5667e7fc510ecedee33030c65789884cf954a64b35e0c0b0d427ce82ecf0a",
+      "image": null
+    }
+  ],
+  "boundaries": [],
+  "chronology": [],
+  "readings": [
+    {
+      "id": "c-nanshi-025-wyd-wangyi-opening:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "qsd_v11_ya1_AA",
+      "source_quote": "王懿字仲德太原祁人自言漢司徒允弟幽州刺史懋七世孫也祖宏仕石季龍父苗仕苻堅皆至二千石",
+      "reading": "王懿名、字、籍貫，聲稱的七世祖與祖、父仕履，各依其句法分錄。",
+      "note": "王懿名、字、籍貫，聲稱的七世祖與祖、父仕履，各依其句法分錄。",
+      "paragraph_id": "c-nanshi-025-wyd-wangyi-opening:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 41,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-025-wyd-wangyi-opening:home_place1-5",
+      "kind": "home_place",
+      "person_id": "qsd_v11_ya1_AA",
+      "source_quote": "太原祁人",
+      "reading": "本卷直書籍貫太原郡祁縣。",
+      "note": "本卷直書籍貫太原郡祁縣。",
+      "paragraph_id": "c-nanshi-025-wyd-wangyi-opening:p001",
+      "start_codepoint": 5,
+      "end_codepoint": 9,
+      "human_reviewed": false,
+      "place": "太原祁"
+    },
+    {
+      "id": "c-nanshi-025-wyd-wangyi-opening:self_reported_descent1-9",
+      "kind": "self_reported_descent",
+      "person_id": "qsd_v11_ya1_AA",
+      "source_quote": "自言漢司徒允弟幽州刺史懋七世孫也",
+      "reading": "原文是王懿自言。七世孫所承者為王懋，非其兄王允；中間世代未具名。",
+      "note": "原文是王懿自言。七世孫所承者為王懋，非其兄王允；中間世代未具名。",
+      "paragraph_id": "c-nanshi-025-wyd-wangyi-opening:p001",
+      "start_codepoint": 9,
+      "end_codepoint": 25,
+      "human_reviewed": false,
+      "ancestor_person_id": "cqk_f8b_cjq",
+      "generation_distance": 7,
+      "source_status": "self_report",
+      "intermediate_person_ids": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "c-nanshi-025-wyd-wangyi-opening:grandfathers_service1-25",
+      "kind": "grandfathers_service",
+      "person_id": "qsd_v11_ya1",
+      "source_quote": "祖宏仕石季龍",
+      "reading": "祖王宏仕後趙石季龍。",
+      "note": "祖王宏仕後趙石季龍。",
+      "paragraph_id": "c-nanshi-025-wyd-wangyi-opening:p001",
+      "start_codepoint": 25,
+      "end_codepoint": 31,
+      "human_reviewed": false,
+      "served_person_id": "u61_ylg_6av"
+    },
+    {
+      "id": "c-nanshi-025-wyd-wangyi-opening:fathers_service1-31",
+      "kind": "fathers_service",
+      "person_id": "qsd_v11_ya1_A",
+      "source_quote": "父苗仕苻堅",
+      "reading": "父苗仕苻堅，印本田形作苗。",
+      "note": "父苗仕苻堅，印本田形作苗。",
+      "paragraph_id": "c-nanshi-025-wyd-wangyi-opening:p001",
+      "start_codepoint": 31,
+      "end_codepoint": 36,
+      "human_reviewed": false,
+      "served_person_id": "1bd_b18_3c0"
+    },
+    {
+      "id": "c-nanshi-025-wyd-wangyi-opening:reported_rank1-36",
+      "kind": "reported_rank",
+      "person_id": "qsd_v11_ya1_AA",
+      "source_quote": "皆至二千石",
+      "reading": "合指祖宏、父苗的官秩，不等於二人都任同一官名。",
+      "note": "合指祖宏、父苗的官秩，不等於二人都任同一官名。",
+      "paragraph_id": "c-nanshi-025-wyd-wangyi-opening:p001",
+      "start_codepoint": 36,
+      "end_codepoint": 41,
+      "human_reviewed": false,
+      "person_ids": [
+        "qsd_v11_ya1",
+        "qsd_v11_ya1_A"
+      ],
+      "rank": "二千石"
+    }
+  ],
+  "identity_limits": []
+}

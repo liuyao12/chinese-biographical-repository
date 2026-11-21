@@ -1,0 +1,111 @@
+{
+  "record_type": "fixed_source_complete_item_review",
+  "reviewer": "Codex（AI代理）",
+  "model": null,
+  "human_reviewed": false,
+  "external_witnesses": [
+    {
+      "revision_id": 2118581,
+      "raw_path": "sources/songshu/songshu046-ws2118581.wikitext",
+      "line": 37,
+      "start": 100,
+      "end": 111,
+      "source_quote": "子正脩嗣，為家僮所殺。",
+      "raw_sha256": "3df8bb0cdbc5811a0747fcca3c9ed93d3b714bf0eee0315f6946eef8968fffdf",
+      "interpretation": "宋書固定2118581正脩。"
+    }
+  ],
+  "print_readings": [
+    {
+      "edition": "乾隆四年武英殿本《南史》卷二十五，國家圖書館藏第247冊",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/NLC892-411999017142-12361_%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B2_%E7%AC%AC247%E5%86%8A.pdf#page=52",
+      "pdf_sha1": "a65459e7c394a8a3a277d0274266e026405c8f4b",
+      "page": 52,
+      "half": "R",
+      "folio": "三下",
+      "columns_from_right": [
+        7
+      ],
+      "source_quote": "子正循嗣為家僮所殺",
+      "interpretation": "轉讀第七欄，從彳盾為循；下接仲德兄孫文和。",
+      "image_sha256": "f30f9bcc26fb30799e3e945315d863a6ff8a296be6c403bfbd8f6fce21b9507c",
+      "image": null
+    }
+  ],
+  "boundaries": [
+    {
+      "book_id": "b-nanshi-025",
+      "title": "王正循",
+      "unit_kind": "embedded_account",
+      "entry_checked": true,
+      "full_text": true,
+      "first_pass": true,
+      "item_reviewed": true,
+      "chapter_id": "c-nanshi-025-wangzhengxun",
+      "chapter_path": "corpus/nanshi/025-wangzhengxun.json",
+      "paragraph_ids": [
+        "c-nanshi-025-wangzhengxun:p001"
+      ],
+      "first_line": 25,
+      "last_line": 25,
+      "start_codepoint": 82,
+      "end_codepoint": 93,
+      "opening": "子正循嗣，為家僮所殺。",
+      "closing": "子正循嗣，為家僮所殺。",
+      "parent_heading": "王懿"
+    }
+  ],
+  "chronology": [
+    {
+      "event": "嗣爵後死於家僮",
+      "not_before_year": 438,
+      "age": null,
+      "exact_death_year": null
+    }
+  ],
+  "readings": [
+    {
+      "id": "c-nanshi-025-wangzhengxun:received_sentence1-0",
+      "kind": "received_sentence",
+      "person_id": "qsd_v11_ya1_AAA",
+      "source_quote": "子正循嗣，為家僮所殺。",
+      "reading": "仲德子正循嗣爵，後為未具名之家僮所殺。",
+      "note": "仲德子正循嗣爵，後為未具名之家僮所殺。",
+      "paragraph_id": "c-nanshi-025-wangzhengxun:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 11,
+      "human_reviewed": false
+    },
+    {
+      "id": "c-nanshi-025-wangzhengxun:different_written_names1-0",
+      "kind": "different_written_names",
+      "person_id": "qsd_v11_ya1_AAA",
+      "source_quote": "子正循嗣",
+      "reading": "南史數位與武英殿印本作正循。宋書卷四六數位作正脩。兩書均繫仲德子、嗣爵、家僮所殺，沿用同一人物號。",
+      "note": "南史數位與武英殿印本作正循。宋書卷四六數位作正脩。兩書均繫仲德子、嗣爵、家僮所殺，沿用同一人物號。",
+      "paragraph_id": "c-nanshi-025-wangzhengxun:p001",
+      "start_codepoint": 0,
+      "end_codepoint": 4,
+      "human_reviewed": false,
+      "father_id": "qsd_v11_ya1_AA",
+      "song_spelling": "正脩",
+      "earlier_relationship": "a-song046-ws-5"
+    },
+    {
+      "id": "c-nanshi-025-wangzhengxun:lower_bound1-5",
+      "kind": "lower_bound",
+      "person_id": "qsd_v11_ya1_AAA",
+      "source_quote": "為家僮所殺",
+      "reading": "承父十五年（438）卒後嗣爵。原書未載其死時年齡或確年。",
+      "note": "承父十五年（438）卒後嗣爵。原書未載其死時年齡或確年。",
+      "paragraph_id": "c-nanshi-025-wangzhengxun:p001",
+      "start_codepoint": 5,
+      "end_codepoint": 10,
+      "human_reviewed": false,
+      "earliest_year": 438,
+      "latest_year": null,
+      "age": null
+    }
+  ],
+  "identity_limits": []
+}
