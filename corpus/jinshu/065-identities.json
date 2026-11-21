@@ -9,8 +9,7 @@
       "surfaces": [
         "王導",
         "茂弘",
-        "導",
-        "此兒"
+        "導"
       ],
       "scope": "cross_chapter",
       "chapter_ids": [
@@ -88,7 +87,10 @@
       ],
       "rationale": "卷33裁子導與本傳祖覽、父裁吻合，宋書王弘曾祖導、晉丞相串成同一世系；按具名父祖接合。",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "contextual_reference_occurrence_ids": [
+        "c-jinshu-065-wangdao-family:p001:m0058"
+      ]
     },
     {
       "id": "d-jinshu065-cross-002",
@@ -428,6 +430,56 @@
       "rationale": "正文明記法護，珣小字也，故對話所望於法護指王珣；不是另一人物或本名。",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "d-jin065-dengyou-bodao",
+      "person_id": "ra9_tie_fu4",
+      "surfaces": [
+        "鄧伯道",
+        "鄧攸"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-jinshu-065-wangdao-family",
+        "c-nanqishu-033-wangsengqian",
+        "c-shishuoxinyu-009-wangdao-relatives"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:p002",
+          "mention_id": "c-jinshu-065-wangdao-family:p002:m0026",
+          "quote": "二弟：穎、敞，少與導俱知名，時人以穎方溫太真，以敞比鄧伯道，並早卒。導六子：悅、恬、洽、協、邵、薈。"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-033",
+          "chapter_id": "c-nanqishu-033-wangsengqian",
+          "source_id": "s-nanqishu-033-wangsengqian",
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p003",
+          "mention_id": "c-nanqishu-033-wangsengqian:p003:m0094",
+          "quote": "兄僧綽為太初所害親賔咸勸僧䖍逃僧䖍涕泣曰吾兄奉國以忠貞撫我以慈愛今日之事苦不見及耳若同歸九泉猶羽化也孝武初出為武陵太守兄子儉於中途得病僧䖍為廢寢食同行客慰喻之僧䖍曰昔馬援處兒姪之間一情不異鄧攸於弟子更逾所生吾實懐其心誠未異古亡兄之𦙍不宜忽諸若此兒不救便當回舟謝職無復遊宦之興矣還為中書郎轉黄門郎太子中庶子"
+        },
+        {
+          "work_id": "w-shishuoxinyu",
+          "book_id": "b-shishuoxinyu-009",
+          "chapter_id": "c-shishuoxinyu-009-wangdao-relatives",
+          "source_id": "s-shishuoxinyu-009-wangdao-relatives",
+          "paragraph_id": "c-shishuoxinyu-009-wangdao-relatives:siblings",
+          "mention_id": "c-shishuoxinyu-009-wangdao-relatives:siblings:m0020",
+          "quote": "王丞相二弟不過江，曰頴，曰敞。時論以頴比鄧伯道，敞比溫忠武。議郎、祭酒者也。"
+        }
+      ],
+      "rationale": "卷九十〈鄧攸傳〉明記「鄧攸，字伯道」；棄子以全弟子綏、身後無嗣及「使鄧伯道無兒」又與僧虔引鄧攸全弟子相扣。卷六十五與《世說》所比二王次序相反，各從其文。",
+      "reviewer": "Codex",
+      "human_reviewed": false,
+      "model": null,
+      "external_reference_file": "source-evidence/jin065-dengyou/review.json"
     }
   ]
 }

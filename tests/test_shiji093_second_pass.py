@@ -2,6 +2,7 @@
 import json
 import unittest
 from pathlib import Path
+from corpus_validation_fixture import copy_validation_inputs
 ROOT = Path(__file__).resolve().parents[1]
 
 class HanLuIdentityTests(unittest.TestCase):
@@ -205,18 +206,11 @@ class HanLuIdentityTests(unittest.TestCase):
         self.assertTrue(r['source_spelling_is_not_alias'])
 
     def test_preferred_reading_rejects_unreported_surface(self):
-        import tempfile, shutil
+        import tempfile
         from scripts.validate_corpus import validate
         with tempfile.TemporaryDirectory() as folder:
             target = Path(folder) / 'repo'
-            # Native validation reads these inputs; public bundles, reader imports
-            # and other generated outputs do not participate in this operation.
-            for name in ('registry', 'corpus', 'source-evidence', 'sources'):
-                shutil.copytree(ROOT / name, target / name)
-            shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables')
-            (target / 'data/corpus').mkdir(parents=True)
-            shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
-            shutil.copy2(ROOT / 'data/corpus/chapter-directory.json', target / 'data/corpus/chapter-directory.json')
+            copy_validation_inputs(ROOT, target)
             self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())
@@ -226,18 +220,11 @@ class HanLuIdentityTests(unittest.TestCase):
             self.assertTrue(any('首選校讀' in e for e in validate(target)))
 
     def test_preferred_reading_rejects_another_paragraph_anchor(self):
-        import tempfile, shutil
+        import tempfile
         from scripts.validate_corpus import validate
         with tempfile.TemporaryDirectory() as folder:
             target = Path(folder) / 'repo'
-            # Native validation reads these inputs; public bundles, reader imports
-            # and other generated outputs do not participate in this operation.
-            for name in ('registry', 'corpus', 'source-evidence', 'sources'):
-                shutil.copytree(ROOT / name, target / name)
-            shutil.copytree(ROOT / 'data/historical-tables', target / 'data/historical-tables')
-            (target / 'data/corpus').mkdir(parents=True)
-            shutil.copy2(ROOT / 'data/corpus/profile-names.json', target / 'data/corpus/profile-names.json')
-            shutil.copy2(ROOT / 'data/corpus/chapter-directory.json', target / 'data/corpus/chapter-directory.json')
+            copy_validation_inputs(ROOT, target)
             self.assertEqual(validate(target), [])
             p = target / 'corpus/shiji/093-identities.json'
             x = json.loads(p.read_text())
