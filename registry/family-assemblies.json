@@ -7193,12 +7193,12 @@
     },
     {
       "id": "family-ruan-yu-tao",
-      "label": "阮裕至阮韜：原文玄孫缺代支系",
+      "label": "阮裕子孫及玄孫阮韜",
       "root_person_id": "03n_n2r_8rt",
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "依南齊書阮韜傳首明載裕玄孫接入同一父系；不據同姓接其他阮氏，不補中間三代姓名。",
+      "rationale": "阮裕三子與傭、甯以下子孫依晉書阮裕傳末、宋書阮萬齡傳首的父子原證。萬齡留用其已發來源號。南齊書阮韜的玄祖世數另列，中間三代姓名仍缺。",
       "members": [
         {
           "person_id": "03n_n2r_8rt",
@@ -7228,6 +7228,76 @@
             null
           ],
           "interpretation_note": "南齊書明言裕玄孫，記四代父系距離；三個中間世代姓名未知，星號不是虛構人物，父親保持未知。"
+        },
+        {
+          "person_id": "03n_n2r_8rt_A",
+          "representative_source_person_id": "03n_n2r_8rt_A",
+          "source_person_ids": [
+            "03n_n2r_8rt_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "03n_n2r_8rt",
+          "source_assertion_id": "a-nanshi024-ruanwanling-three-1"
+        },
+        {
+          "person_id": "03n_n2r_8rt_B",
+          "representative_source_person_id": "03n_n2r_8rt_B",
+          "source_person_ids": [
+            "03n_n2r_8rt_B"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "03n_n2r_8rt",
+          "source_assertion_id": "a-nanshi024-ruanwanling-three-2"
+        },
+        {
+          "person_id": "03n_n2r_8rt_C",
+          "representative_source_person_id": "03n_n2r_8rt_C",
+          "source_person_ids": [
+            "03n_n2r_8rt_C"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "03n_n2r_8rt",
+          "source_assertion_id": "a-nanshi024-ruanwanling-three-3"
+        },
+        {
+          "person_id": "03n_n2r_8rt_AA",
+          "representative_source_person_id": "03n_n2r_8rt_AA",
+          "source_person_ids": [
+            "03n_n2r_8rt_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "03n_n2r_8rt_A",
+          "source_assertion_id": "a-nanshi024-ruanwanling-father-1"
+        },
+        {
+          "person_id": "03n_n2r_8rt_BA",
+          "representative_source_person_id": "03n_n2r_8rt_BA",
+          "source_person_ids": [
+            "03n_n2r_8rt_BA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "03n_n2r_8rt_B",
+          "source_assertion_id": "a-nanshi024-ruanwanling-father-2"
+        },
+        {
+          "person_id": "03n_n2r_8rt_AAA",
+          "representative_source_person_id": "03n_n2r_8rt_AAA",
+          "source_person_ids": [
+            "03n_n2r_8rt_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "03n_n2r_8rt_AA",
+          "source_assertion_id": "a-nanshi024-ruanwanling-father-3"
+        },
+        {
+          "person_id": "03n_n2r_8rt_BB",
+          "representative_source_person_id": "wv8_l6v_kp9",
+          "source_person_ids": [
+            "wv8_l6v_kp9"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "03n_n2r_8rt_B",
+          "source_assertion_id": "a-nanshi024-ruanwanling-m-father"
         }
       ]
     },
@@ -15461,6 +15531,315 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "5we_446_pbb_A",
           "source_assertion_id": "a-xuanmo-boyu-father"
+        }
+      ]
+    },
+    {
+      "id": "family-nanshi024-wangsu-s",
+      "root_person_id": "x90_vgz_2uf",
+      "label": "王素高祖翹之以下五代",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "只用同段具名相鄰父系世次。光祿翹之以上未組裝。",
+      "members": [
+        {
+          "person_id": "x90_vgz_2uf",
+          "representative_source_person_id": "x90_vgz_2uf",
+          "source_person_ids": [
+            "x90_vgz_2uf"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "x90_vgz_2uf_A",
+          "representative_source_person_id": "x90_vgz_2uf_A",
+          "source_person_ids": [
+            "x90_vgz_2uf_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "x90_vgz_2uf",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "x90_vgz_2uf_AAAA",
+            "nearer_ancestor_assertion_id": "a-nanshi024-wangsu-ancestor-3",
+            "farther_ancestor_assertion_id": "a-nanshi024-wangsu-ancestor-4",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一傳主自父以上的相鄰兩世，組裝父子只存於編輯層。",
+            "references": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangsu-ws1765279",
+                "chapter_id": "c-nanshi-024-wangsu",
+                "paragraph_id": "c-nanshi-024-wangsu:p001",
+                "quote": "素字休業，彬五世孫而逡之族子也。高祖翹之，晉光祿大夫。曾祖望之、祖泰之，並不仕。父元弘，位平固令。素少有志行，家貧母老，隱居不仕。宋孝建、大明、泰始中，屢征不就，聲譽甚高。山中有蚿聲清長，聽之使人不厭，而其形甚醜，素乃爲蚿賦以自況。卒年五十四。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+                "assertion_id": "a-nanshi024-wangsu-ancestor-3",
+                "scope": "同一傳主明列相鄰世次"
+              },
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangsu-ws1765279",
+                "chapter_id": "c-nanshi-024-wangsu",
+                "paragraph_id": "c-nanshi-024-wangsu:p001",
+                "quote": "素字休業，彬五世孫而逡之族子也。高祖翹之，晉光祿大夫。曾祖望之、祖泰之，並不仕。父元弘，位平固令。素少有志行，家貧母老，隱居不仕。宋孝建、大明、泰始中，屢征不就，聲譽甚高。山中有蚿聲清長，聽之使人不厭，而其形甚醜，素乃爲蚿賦以自況。卒年五十四。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+                "assertion_id": "a-nanshi024-wangsu-ancestor-4",
+                "scope": "同一傳主明列相鄰世次"
+              }
+            ],
+            "interpretation_basis": "nanshi024_wangsu_four_ancestors"
+          }
+        },
+        {
+          "person_id": "x90_vgz_2uf_AA",
+          "representative_source_person_id": "x90_vgz_2uf_AA",
+          "source_person_ids": [
+            "x90_vgz_2uf_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "x90_vgz_2uf_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "x90_vgz_2uf_AAAA",
+            "nearer_ancestor_assertion_id": "a-nanshi024-wangsu-ancestor-2",
+            "farther_ancestor_assertion_id": "a-nanshi024-wangsu-ancestor-3",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一傳主自父以上的相鄰兩世，組裝父子只存於編輯層。",
+            "references": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangsu-ws1765279",
+                "chapter_id": "c-nanshi-024-wangsu",
+                "paragraph_id": "c-nanshi-024-wangsu:p001",
+                "quote": "素字休業，彬五世孫而逡之族子也。高祖翹之，晉光祿大夫。曾祖望之、祖泰之，並不仕。父元弘，位平固令。素少有志行，家貧母老，隱居不仕。宋孝建、大明、泰始中，屢征不就，聲譽甚高。山中有蚿聲清長，聽之使人不厭，而其形甚醜，素乃爲蚿賦以自況。卒年五十四。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+                "assertion_id": "a-nanshi024-wangsu-ancestor-2",
+                "scope": "同一傳主明列相鄰世次"
+              },
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangsu-ws1765279",
+                "chapter_id": "c-nanshi-024-wangsu",
+                "paragraph_id": "c-nanshi-024-wangsu:p001",
+                "quote": "素字休業，彬五世孫而逡之族子也。高祖翹之，晉光祿大夫。曾祖望之、祖泰之，並不仕。父元弘，位平固令。素少有志行，家貧母老，隱居不仕。宋孝建、大明、泰始中，屢征不就，聲譽甚高。山中有蚿聲清長，聽之使人不厭，而其形甚醜，素乃爲蚿賦以自況。卒年五十四。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+                "assertion_id": "a-nanshi024-wangsu-ancestor-3",
+                "scope": "同一傳主明列相鄰世次"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "x90_vgz_2uf_AAA",
+          "representative_source_person_id": "x90_vgz_2uf_AAA",
+          "source_person_ids": [
+            "x90_vgz_2uf_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "x90_vgz_2uf_AA",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "x90_vgz_2uf_AAAA",
+            "nearer_ancestor_assertion_id": "a-nanshi024-wangsu-ancestor-1",
+            "farther_ancestor_assertion_id": "a-nanshi024-wangsu-ancestor-2",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一傳主自父以上的相鄰兩世，組裝父子只存於編輯層。",
+            "references": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangsu-ws1765279",
+                "chapter_id": "c-nanshi-024-wangsu",
+                "paragraph_id": "c-nanshi-024-wangsu:p001",
+                "quote": "素字休業，彬五世孫而逡之族子也。高祖翹之，晉光祿大夫。曾祖望之、祖泰之，並不仕。父元弘，位平固令。素少有志行，家貧母老，隱居不仕。宋孝建、大明、泰始中，屢征不就，聲譽甚高。山中有蚿聲清長，聽之使人不厭，而其形甚醜，素乃爲蚿賦以自況。卒年五十四。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+                "assertion_id": "a-nanshi024-wangsu-ancestor-1",
+                "scope": "同一傳主明列相鄰世次"
+              },
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-024",
+                "source_id": "s-nanshi-024-wangsu-ws1765279",
+                "chapter_id": "c-nanshi-024-wangsu",
+                "paragraph_id": "c-nanshi-024-wangsu:p001",
+                "quote": "素字休業，彬五世孫而逡之族子也。高祖翹之，晉光祿大夫。曾祖望之、祖泰之，並不仕。父元弘，位平固令。素少有志行，家貧母老，隱居不仕。宋孝建、大明、泰始中，屢征不就，聲譽甚高。山中有蚿聲清長，聽之使人不厭，而其形甚醜，素乃爲蚿賦以自況。卒年五十四。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1765279",
+                "assertion_id": "a-nanshi024-wangsu-ancestor-2",
+                "scope": "同一傳主明列相鄰世次"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "x90_vgz_2uf_AAAA",
+          "representative_source_person_id": "x90_vgz_2uf_AAAA",
+          "source_person_ids": [
+            "x90_vgz_2uf_AAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "x90_vgz_2uf_AAA",
+          "source_assertion_id": "a-nanshi024-wangsu-ancestor-1"
+        }
+      ]
+    },
+    {
+      "id": "family-nanshi024-wangsu-z",
+      "root_person_id": "em3_mum_s8d",
+      "label": "宋書朱百年近世三代",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "據朱百年傳首同段祖愷之、父濤並列。",
+      "members": [
+        {
+          "person_id": "em3_mum_s8d",
+          "representative_source_person_id": "em3_mum_s8d",
+          "source_person_ids": [
+            "em3_mum_s8d"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "em3_mum_s8d_A",
+          "representative_source_person_id": "em3_mum_s8d_A",
+          "source_person_ids": [
+            "em3_mum_s8d_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "em3_mum_s8d",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "em3_mum_s8d_AA",
+            "nearer_ancestor_assertion_id": "a-nanshi024-wangsu-zhu-father",
+            "farther_ancestor_assertion_id": "a-nanshi024-wangsu-zhu-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同一傳主自父以上的相鄰兩世，組裝父子只存於編輯層。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-093",
+                "source_id": "s-songshu-093-zhubainian-ancestry-ws1962755",
+                "chapter_id": "c-songshu-093-zhubainian-ancestry",
+                "paragraph_id": "c-songshu-093-zhubainian-ancestry:p001",
+                "quote": "朱百年，會稽山陰人也。祖愷之，晉右衞將軍。父濤，揚州主簿。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1962755",
+                "assertion_id": "a-nanshi024-wangsu-zhu-father",
+                "scope": "同一傳主明列相鄰世次"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-093",
+                "source_id": "s-songshu-093-zhubainian-ancestry-ws1962755",
+                "chapter_id": "c-songshu-093-zhubainian-ancestry",
+                "paragraph_id": "c-songshu-093-zhubainian-ancestry:p001",
+                "quote": "朱百年，會稽山陰人也。祖愷之，晉右衞將軍。父濤，揚州主簿。",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=1962755",
+                "assertion_id": "a-nanshi024-wangsu-zhu-grandfather",
+                "scope": "同一傳主明列相鄰世次"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "em3_mum_s8d_AA",
+          "representative_source_person_id": "em3_mum_s8d_AA",
+          "source_person_ids": [
+            "em3_mum_s8d_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "em3_mum_s8d_A",
+          "source_assertion_id": "a-nanshi024-wangsu-zhu-father"
+        }
+      ]
+    },
+    {
+      "id": "family-xiangshan-m9-liumeizi",
+      "root_person_id": "mfd_id2_bu3",
+      "label": "劉媚子祖乂以下三代",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "祖乂與父璞的相鄰世次屬編輯組裝，石誌直接所指為媚子之祖、父。",
+      "members": [
+        {
+          "person_id": "mfd_id2_bu3",
+          "representative_source_person_id": "mfd_id2_bu3",
+          "source_person_ids": [
+            "mfd_id2_bu3"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "mfd_id2_bu3_A",
+          "representative_source_person_id": "mfd_id2_bu3_A",
+          "source_person_ids": [
+            "mfd_id2_bu3_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "mfd_id2_bu3",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "mfd_id2_bu3_AA",
+            "nearer_ancestor_assertion_id": "a-xiangshan-m9-epitaphs-w-meizi-father",
+            "farther_ancestor_assertion_id": "a-xiangshan-m9-epitaphs-w-meizi-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "劉媚子石誌列脩武令乂之孫、東昌男璞之長女，組裝相鄰兩代。",
+            "references": [
+              {
+                "work_id": "w-epitaph-liumeizi-stone",
+                "book_id": "b-epitaph-liumeizi-stone-full",
+                "source_id": "s-epitaph-liumeizi-stone-xiangshan-m9",
+                "chapter_id": "c-epitaph-liumeizi-stone-full",
+                "paragraph_id": "c-epitaph-liumeizi-stone-full:p001",
+                "quote": "晉振威將軍鄱陽太守都亭侯琅耶臨沂縣都鄉南仁里王建之字榮妣故夫人南陽湦陽劉氏字媚子春秋五十三泰和六年六月戊戌朔十四日辛亥薨于郡官舍夫人脩武令乂之孫光祿勳東昌男璞之長女年廿來歸生三男三女二男未識不育大女玉龜次女道末並二歲亡小女張願適濟陰卞嗣之字奉伯小男紀之字元萬其年十月丙申朔三日戊戌喪還都十一月乙未朔八日壬寅倍葬于舊墓在丹楊建康之白石故刻石為識",
+                "url": "https://lfglib.cn/wp-content/uploads/lfgimgs/gujicover/94b58f207eda4759b6d188b00fc826c6p1.jpg",
+                "assertion_id": "a-xiangshan-m9-epitaphs-w-meizi-father",
+                "scope": "墓主父、祖同段具名。"
+              },
+              {
+                "work_id": "w-epitaph-liumeizi-stone",
+                "book_id": "b-epitaph-liumeizi-stone-full",
+                "source_id": "s-epitaph-liumeizi-stone-xiangshan-m9",
+                "chapter_id": "c-epitaph-liumeizi-stone-full",
+                "paragraph_id": "c-epitaph-liumeizi-stone-full:p001",
+                "quote": "晉振威將軍鄱陽太守都亭侯琅耶臨沂縣都鄉南仁里王建之字榮妣故夫人南陽湦陽劉氏字媚子春秋五十三泰和六年六月戊戌朔十四日辛亥薨于郡官舍夫人脩武令乂之孫光祿勳東昌男璞之長女年廿來歸生三男三女二男未識不育大女玉龜次女道末並二歲亡小女張願適濟陰卞嗣之字奉伯小男紀之字元萬其年十月丙申朔三日戊戌喪還都十一月乙未朔八日壬寅倍葬于舊墓在丹楊建康之白石故刻石為識",
+                "url": "https://lfglib.cn/wp-content/uploads/lfgimgs/gujicover/94b58f207eda4759b6d188b00fc826c6p1.jpg",
+                "assertion_id": "a-xiangshan-m9-epitaphs-w-meizi-grandfather",
+                "scope": "墓主父、祖同段具名。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "mfd_id2_bu3_AA",
+          "representative_source_person_id": "mfd_id2_bu3_AA",
+          "source_person_ids": [
+            "mfd_id2_bu3_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "mfd_id2_bu3_A",
+          "source_assertion_id": "a-xiangshan-m9-epitaphs-w-meizi-father"
         }
       ]
     }

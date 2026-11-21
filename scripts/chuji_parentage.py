@@ -3,6 +3,10 @@
 
 def chuji_parentage_valid(a, paragraphs, assertions):
     q = a.get('qualifiers', {})
+    if q.get('adoption_basis') == 'qi049_named_chu_ji':
+        try: from scripts.qi049_zhang_chuji import valid as qi049_chuji
+        except ImportError: from qi049_zhang_chuji import valid as qi049_chuji
+        return qi049_chuji(a, paragraphs, assertions)
     if q.get('adoption_basis') == 'named_adopter_yang_named_son':
         try: from scripts.jin098_household import adoption_valid
         except ImportError: from jin098_household import adoption_valid

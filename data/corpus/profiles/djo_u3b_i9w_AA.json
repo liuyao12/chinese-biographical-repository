@@ -128,6 +128,41 @@
       "chapter_id": "c-jinshu-098-huanwen",
       "source_id": "s-jinshu-098-ws2614273",
       "work_title": "晉書"
+    },
+    {
+      "number": 103,
+      "category": "",
+      "title": "殷浩子涓、遺詔兩式、桓溫九錫與王謝",
+      "paragraph_id": "c-zizhitongjian-103-jin098-huanwen-succession:father",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "初，殷浩卒，大司馬溫使人□書吊之。浩子涓不答，亦不詣溫，而與武陵王晞游。",
+      "paragraph_ids": [
+        "c-zizhitongjian-103-jin098-huanwen-succession:father"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-103-jin098-huanwen-succession:father:m0019"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-103-jin098-huanwen-succession:father:m0019": "c-zizhitongjian-103-jin098-huanwen-succession:father"
+      },
+      "mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:father:m0019",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:father:m0019",
+          "mention_ids": [
+            "c-zizhitongjian-103-jin098-huanwen-succession:father:m0019"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-103",
+      "chapter_id": "c-zizhitongjian-103-jin098-huanwen-succession",
+      "source_id": "s-zizhitongjian-103-jin098-huanwen-succession",
+      "work_title": "資治通鑑"
     }
   ],
   "table_occurrences": [],
@@ -187,8 +222,46 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
+      }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-103-jin098-huanwen-succession",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-103",
+      "source_id": "s-zizhitongjian-103-jin098-huanwen-succession",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2402076,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2402076",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "資治通鑑一百三",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2402076",
+        "raw_file_sha256": "38799dea58a4931421e376e4e9fb615b42efc73714480be7ba79b6fefd423a9a",
+        "raw_path": "source-evidence/jin098-huanwen-succession/external/z-ws2402076.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "38799dea58a4931421e376e4e9fb615b42efc73714480be7ba79b6fefd423a9a"
       }
     }
   ],
@@ -250,6 +323,32 @@
         }
       ],
       "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-succ-juan",
+      "subject_person_id": "djo_u3b_i9w_AA",
+      "object_person_id": "djo_u3b_i9w_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "浩子涓不答"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-103",
+          "chapter_id": "c-zizhitongjian-103-jin098-huanwen-succession",
+          "source_id": "s-zizhitongjian-103-jin098-huanwen-succession",
+          "paragraph_id": "c-zizhitongjian-103-jin098-huanwen-succession:father",
+          "quote": "初，殷浩卒，大司馬溫使人□書吊之。浩子涓不答，亦不詣溫，而與武陵王晞游。",
+          "subject_person_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:father:m0019",
+          "object_person_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:father:m0002"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     }
@@ -347,6 +446,32 @@
         }
       ],
       "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-succ-juan",
+      "subject_person_id": "djo_u3b_i9w_AA",
+      "object_person_id": "djo_u3b_i9w_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "浩子涓不答"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-103",
+          "chapter_id": "c-zizhitongjian-103-jin098-huanwen-succession",
+          "source_id": "s-zizhitongjian-103-jin098-huanwen-succession",
+          "paragraph_id": "c-zizhitongjian-103-jin098-huanwen-succession:father",
+          "quote": "初，殷浩卒，大司馬溫使人□書吊之。浩子涓不答，亦不詣溫，而與武陵王晞游。",
+          "subject_person_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:father:m0019",
+          "object_person_mention_id": "c-zizhitongjian-103-jin098-huanwen-succession:father:m0002"
+        }
+      ],
+      "interpretation_note": "此條按本句所明言。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     }
@@ -521,6 +646,29 @@
         "human_reviewed": false,
         "model": null
       }
+    },
+    {
+      "id": "le-w098-succ-juan",
+      "person_id": "djo_u3b_i9w_AA",
+      "event_type": "death",
+      "source_term": "誅庾倩、殷涓、曹秀等",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p024",
+          "quote": "溫既負其才力，久懷異志，欲先立功河朔，還受九錫。既逢覆敗，名實頓減，於是參軍郗超進廢立之計，溫乃廢帝而立簡文帝。詔溫依諸葛亮故事，甲仗百人入殿，賜錢五千萬，絹二萬匹，布十萬匹。溫多所廢徒，誅庾倩、殷涓、曹秀等。是時溫威勢翕赫，侍中謝安見而遙拜，溫驚曰：「安石，卿何事乃爾！」安曰：「未有君拜於前，臣揖於後。」時溫有腳疾，詔乘輿入朝，既見，欲陳廢立本意，帝便泣下數十行，溫兢懼，不得一言而出。",
+          "person_mention_id": "c-jinshu-098-huanwen:p024:m0098"
+        }
+      ],
+      "interpretation_note": "依本來源登記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "life_event_date_decisions": [],

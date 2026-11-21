@@ -6,11 +6,47 @@
   "identity_note": "陳伯之（濟陰睢陵人），見本組原文及身份互校。",
   "review": "ai_provisional",
   "names": [
-    "陳伯之"
+    "陳伯之",
+    "伯之"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 20,
+      "category": "",
+      "title": "陳伯之子虎牙",
+      "paragraph_id": "c-liangshu-020-chen-huya-zhangchong:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "伯之子虎牙，時爲直閤將軍",
+      "paragraph_ids": [
+        "c-liangshu-020-chen-huya-zhangchong:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-020-chen-huya-zhangchong:p001:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-020-chen-huya-zhangchong:p001:m0000": "c-liangshu-020-chen-huya-zhangchong:p001"
+      },
+      "mention_id": "c-liangshu-020-chen-huya-zhangchong:p001:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-020-chen-huya-zhangchong:p001:m0000",
+          "mention_ids": [
+            "c-liangshu-020-chen-huya-zhangchong:p001:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-020",
+      "chapter_id": "c-liangshu-020-chen-huya-zhangchong",
+      "source_id": "s-liangshu-020-chen-huya-zhangchong-ws1506948",
+      "work_title": "梁書"
+    },
     {
       "number": 49,
       "category": "",
@@ -50,6 +86,29 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-liangshu-020-chen-huya-zhangchong",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-020",
+      "source_id": "s-liangshu-020-chen-huya-zhangchong-ws1506948",
+      "source": {
+        "title": "陳伯之子虎牙",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1506948",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1506948",
+        "revision_id": 1506948,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "陳伯之子虎牙",
+        "text_scope": "partial_chapter",
+        "raw_path": "source-evidence/nanqi049-wanghuan-item-review/external/liangshu020-ws1506948.wikitext",
+        "raw_file_sha256": "6a92acf6c2a358b36e70faa3a4c69fe83dc8d555d5c98c79e0635f9cd2c91739"
+      }
+    },
+    {
       "chapter_id": "c-nanqishu-049-xiqian",
       "work_id": "w-nanqishu",
       "book_id": "b-nanqishu-049",
@@ -73,16 +132,73 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-qi049-chen-huya-bozhi",
+      "subject_person_id": "b59_d2b_609_A",
+      "object_person_id": "b59_d2b_609",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "伯之子虎牙",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-020",
+          "chapter_id": "c-liangshu-020-chen-huya-zhangchong",
+          "source_id": "s-liangshu-020-chen-huya-zhangchong-ws1506948",
+          "paragraph_id": "c-liangshu-020-chen-huya-zhangchong:p001",
+          "quote": "伯之子虎牙，時爲直閤將軍",
+          "subject_person_mention_id": "c-liangshu-020-chen-huya-zhangchong:p001:m0003",
+          "object_person_mention_id": "c-liangshu-020-chen-huya-zhangchong:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陳伯之傳明子虎牙。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "b59_d2b_609": "陳伯之（濟陰睢陵人）"
+    "b59_d2b_609": "陳伯之（濟陰睢陵人）",
+    "b59_d2b_609_A": "陳虎牙（陳伯之子）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "b59_d2b_609"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-qi049-chen-huya-bozhi",
+      "subject_person_id": "b59_d2b_609_A",
+      "object_person_id": "b59_d2b_609",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "伯之子虎牙",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-020",
+          "chapter_id": "c-liangshu-020-chen-huya-zhangchong",
+          "source_id": "s-liangshu-020-chen-huya-zhangchong-ws1506948",
+          "paragraph_id": "c-liangshu-020-chen-huya-zhangchong:p001",
+          "quote": "伯之子虎牙，時爲直閤將軍",
+          "subject_person_mention_id": "c-liangshu-020-chen-huya-zhangchong:p001:m0003",
+          "object_person_mention_id": "c-liangshu-020-chen-huya-zhangchong:p001:m0000"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "陳伯之傳明子虎牙。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

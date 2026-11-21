@@ -482,7 +482,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     }
@@ -803,6 +811,29 @@
         "human_reviewed": false,
         "model": null
       }
+    },
+    {
+      "id": "le-w098-succ-qian",
+      "person_id": "4qr_wrk_3vd_DE",
+      "event_type": "death",
+      "source_term": "誅庾倩、殷涓、曹秀等",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p024",
+          "quote": "溫既負其才力，久懷異志，欲先立功河朔，還受九錫。既逢覆敗，名實頓減，於是參軍郗超進廢立之計，溫乃廢帝而立簡文帝。詔溫依諸葛亮故事，甲仗百人入殿，賜錢五千萬，絹二萬匹，布十萬匹。溫多所廢徒，誅庾倩、殷涓、曹秀等。是時溫威勢翕赫，侍中謝安見而遙拜，溫驚曰：「安石，卿何事乃爾！」安曰：「未有君拜於前，臣揖於後。」時溫有腳疾，詔乘輿入朝，既見，欲陳廢立本意，帝便泣下數十行，溫兢懼，不得一言而出。",
+          "person_mention_id": "c-jinshu-098-huanwen:p024:m0095"
+        }
+      ],
+      "interpretation_note": "依本來源登記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "life_event_date_decisions": [],

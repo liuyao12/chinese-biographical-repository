@@ -6,9 +6,58 @@
   "identity_note": "本卷完整敘事單元來源人物；有父系者依明文，未知母親、生年及婚姻不補。謝混沿用王氏尚未發布來源候選。",
   "review": "ai_provisional",
   "names": [
-    "高崧"
+    "高崧",
+    "崧"
   ],
   "titles": [
+    {
+      "id": "th-w098-wuchang-gao",
+      "person_id": "745_5cb_b3e",
+      "title": "撫軍司馬",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-071",
+          "chapter_id": "c-jinshu-071-jin098-huanwen-wuchang",
+          "source_id": "s-jinshu-071-jin098-huanwen-wuchang",
+          "paragraph_id": "c-jinshu-071-jin098-huanwen-wuchang:author",
+          "quote": "簡文帝輔政，引為撫軍司馬。時桓溫擅威，率眾北伐，軍次武昌，簡文患之。崧曰：",
+          "person_mention_id": "c-jinshu-071-jin098-huanwen-wuchang:author:m0034"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-wuchang-gao:a",
+          "paragraph_id": "c-jinshu-071-jin098-huanwen-wuchang:author",
+          "start": 8,
+          "end": 12,
+          "surface": "撫軍司馬",
+          "person_mention_id": "c-jinshu-071-jin098-huanwen-wuchang:author:m0034",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-jin079-xiean-phase6-line031-022",
       "person_id": "745_5cb_b3e",
@@ -61,6 +110,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 71,
+      "category": "",
+      "title": "高崧傳代會稽王草書及書內人稱",
+      "paragraph_id": "c-jinshu-071-jin098-huanwen-wuchang:author",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "簡文帝輔政，引為撫軍司馬。時桓溫擅威，率眾北伐，軍次武昌，簡文患之。崧曰：",
+      "paragraph_ids": [
+        "c-jinshu-071-jin098-huanwen-wuchang:author"
+      ],
+      "mention_ids": [
+        "c-jinshu-071-jin098-huanwen-wuchang:author:m0034"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-071-jin098-huanwen-wuchang:author:m0034": "c-jinshu-071-jin098-huanwen-wuchang:author"
+      },
+      "mention_id": "c-jinshu-071-jin098-huanwen-wuchang:author:m0034",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-071-jin098-huanwen-wuchang:author:m0034",
+          "mention_ids": [
+            "c-jinshu-071-jin098-huanwen-wuchang:author:m0034"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "chapter_id": "c-jinshu-071-jin098-huanwen-wuchang",
+      "source_id": "s-jinshu-071-jin098-huanwen-wuchang",
+      "work_title": "晉書"
+    },
+    {
       "number": 79,
       "category": "",
       "title": "謝氏家族選段及謝尚、奕、玄、石、邈完整單元",
@@ -98,6 +182,36 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-071-jin098-huanwen-wuchang",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-071",
+      "source_id": "s-jinshu-071-jin098-huanwen-wuchang",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2595541,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "晉書高崧傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2595541",
+        "raw_file_sha256": "644b3e2fd382b741cfeff866793c83fe852be3ea920fe88ba4cca8e223307d94",
+        "raw_path": "source-evidence/jin098-huanwen-wuchang/external/j71-ws2595541.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "644b3e2fd382b741cfeff866793c83fe852be3ea920fe88ba4cca8e223307d94"
+      }
+    },
     {
       "chapter_id": "c-jinshu-079-xielang-family",
       "work_id": "w-jinshu",

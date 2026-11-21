@@ -265,6 +265,50 @@
       "chapter_id": "c-liangshu-033-zhangshuai-forebears",
       "source_id": "s-liangshu-033-zhangshuai-forebears-ws1514481",
       "work_title": "梁書"
+    },
+    {
+      "number": 49,
+      "category": "",
+      "title": "張沖",
+      "paragraph_id": "c-nanqishu-049-zhangchong:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "沖亦少有至性，辟州主簿，隨從叔永爲將帥，除綏遠將軍、盱眙太守。永征彭城，遇寒雪，軍人足脛凍斷者十七八，沖足指皆墮。除尚書駕部郎，桂陽王征南中兵，振威將軍。歷驃騎太尉南中郎參軍，不拜。遷征西從事中郎，通直郎，武陵王北中郎直兵參軍，長水",
+      "paragraph_ids": [
+        "c-nanqishu-049-zhangchong:p002"
+      ],
+      "mention_ids": [
+        "c-nanqishu-049-zhangchong:p002:m0015",
+        "c-nanqishu-049-zhangchong:p002:m0031"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-049-zhangchong:p002:m0015": "c-nanqishu-049-zhangchong:p002",
+        "c-nanqishu-049-zhangchong:p002:m0031": "c-nanqishu-049-zhangchong:p002"
+      },
+      "mention_id": "c-nanqishu-049-zhangchong:p002:m0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-049-zhangchong:p002:m0015",
+          "mention_ids": [
+            "c-nanqishu-049-zhangchong:p002:m0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanqishu-049-zhangchong:p002:m0031",
+          "mention_ids": [
+            "c-nanqishu-049-zhangchong:p002:m0031"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "chapter_id": "c-nanqishu-049-zhangchong",
+      "source_id": "s-nanqishu-049-zhangchong-ws2261984",
+      "work_title": "南齊書"
     }
   ],
   "table_occurrences": [],
@@ -390,6 +434,29 @@
           "character_conversion": {},
           "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-nanqishu-049-zhangchong",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "source_id": "s-nanqishu-049-zhangchong-ws2261984",
+      "source": {
+        "title": "張沖",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "revision_id": 2261984,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "張沖",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wangqiu/ws2261984.wikitext",
+        "raw_file_sha256": "e3c16a4e75b7ffc6b0987e68ce9ef6a2053c598271498baf5f07ed0c035e69fa"
       }
     },
     {
@@ -630,6 +697,43 @@
       "model": null
     },
     {
+      "id": "a-qi049-zhangchong-yong",
+      "subject_person_id": "d50_8f5_wul_AAACBB",
+      "object_person_id": "d50_8f5_wul_AAAAE",
+      "predicate": "agnatic_senior_kin",
+      "qualifiers": {
+        "source_term": "從叔",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": -1,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "unknown"
+        },
+        "source_clause_binding": {
+          "kind": "qi049_congshu_yong"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "chapter_id": "c-nanqishu-049-zhangchong",
+          "source_id": "s-nanqishu-049-zhangchong-ws2261984",
+          "paragraph_id": "c-nanqishu-049-zhangchong:p002",
+          "quote": "沖亦少有至性，辟州主簿，隨從叔永爲將帥，除綏遠將軍、盱眙太守。永征彭城，遇寒雪，軍人足脛凍斷者十七八，沖足指皆墮。除尚書駕部郎，桂陽王征南中兵，振威將軍。歷驃騎太尉南中郎參軍，不拜。遷征西從事中郎，通直郎，武陵王北中郎直兵參軍，長水校尉，除寧朔將軍，本官如故。遷左軍將軍，加寧朔將軍，輔國將軍。沖少從戎事，朝廷以幹力相待，故歷處軍校之官。出爲馬頭太守，徙盱眙太守，輔國將軍如故。永明六年，遷西陽王冠軍司馬。八年，爲假節、監青冀二州刺史事，將軍如故。沖父初卒，遺命曰：「祭我必以郷土所產，無用牲物。」沖在鎮，四時還吳園中取果菜，流涕薦焉。仍轉刺史。",
+          "subject_person_mention_id": "c-nanqishu-049-zhangchong:p002:m0000",
+          "object_person_mention_id": "c-nanqishu-049-zhangchong:p002:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文明稱從叔，依此保留旁系長一輩，不補共同祖先。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
+    },
+    {
       "id": "a-nan023-wangxi-gui-father",
       "subject_person_id": "d50_8f5_wul_AAAAEA",
       "object_person_id": "d50_8f5_wul_AAAAE",
@@ -662,11 +766,27 @@
     "d50_8f5_wul_AAAAD": "張岱（字景山，張茂度子）",
     "d50_8f5_wul_AAAAE": "張永（字景雲）",
     "d50_8f5_wul_AAAAEA": "張瑰（字祖逸）",
-    "d50_8f5_wul_AAAAEAA": "張率（字士簡）"
+    "d50_8f5_wul_AAAAEAA": "張率（字士簡）",
+    "d50_8f5_wul_AAACBB": "張沖（字思約，張柬子，出繼張敷）"
   },
   "dates": [],
   "name_components": [],
   "person_references": [
+    {
+      "id": "c-nanqishu-049-zhangchong:p002:r0013",
+      "paragraph_id": "c-nanqishu-049-zhangchong:p002",
+      "start": 13,
+      "end": 15,
+      "surface": "從叔",
+      "person_id": "d50_8f5_wul_AAAAE",
+      "referent_role": "third_person",
+      "quote": "隨從叔永",
+      "note": "依句內語法、說話對象及本段承接辨識。",
+      "chapter_id": "c-nanqishu-049-zhangchong",
+      "book_id": "b-nanqishu-049",
+      "work_id": "w-nanqishu",
+      "source_id": "s-nanqishu-049-zhangchong-ws2261984"
+    },
     {
       "id": "c-nanshi-023-wangyu-jingwen:p007:r0078",
       "surface": "弓長",
@@ -843,6 +963,43 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-qi049-zhangchong-yong",
+      "subject_person_id": "d50_8f5_wul_AAACBB",
+      "object_person_id": "d50_8f5_wul_AAAAE",
+      "predicate": "agnatic_senior_kin",
+      "qualifiers": {
+        "source_term": "從叔",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": -1,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "unknown"
+        },
+        "source_clause_binding": {
+          "kind": "qi049_congshu_yong"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-049",
+          "chapter_id": "c-nanqishu-049-zhangchong",
+          "source_id": "s-nanqishu-049-zhangchong-ws2261984",
+          "paragraph_id": "c-nanqishu-049-zhangchong:p002",
+          "quote": "沖亦少有至性，辟州主簿，隨從叔永爲將帥，除綏遠將軍、盱眙太守。永征彭城，遇寒雪，軍人足脛凍斷者十七八，沖足指皆墮。除尚書駕部郎，桂陽王征南中兵，振威將軍。歷驃騎太尉南中郎參軍，不拜。遷征西從事中郎，通直郎，武陵王北中郎直兵參軍，長水校尉，除寧朔將軍，本官如故。遷左軍將軍，加寧朔將軍，輔國將軍。沖少從戎事，朝廷以幹力相待，故歷處軍校之官。出爲馬頭太守，徙盱眙太守，輔國將軍如故。永明六年，遷西陽王冠軍司馬。八年，爲假節、監青冀二州刺史事，將軍如故。沖父初卒，遺命曰：「祭我必以郷土所產，無用牲物。」沖在鎮，四時還吳園中取果菜，流涕薦焉。仍轉刺史。",
+          "subject_person_mention_id": "c-nanqishu-049-zhangchong:p002:m0000",
+          "object_person_mention_id": "c-nanqishu-049-zhangchong:p002:m0015"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "原文明稱從叔，依此保留旁系長一輩，不補共同祖先。",
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "human_reviewed": false
     },
     {
       "id": "a-nan023-wangxi-gui-father",

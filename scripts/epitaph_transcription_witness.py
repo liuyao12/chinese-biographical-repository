@@ -37,6 +37,10 @@ def rubbing_excerpt_errors(chapter, work, book):
 
 def errors(chapter,root,works,books):
  source=chapter.get('source',{});w=source.get('transcription_witness')
+ if isinstance(w,dict) and w.get('kind')=='published_epitaph_plate_columns':
+  try:from .xiangshan_m9_epitaphs import plate_source_errors
+  except ImportError:from xiangshan_m9_epitaphs import plate_source_errors
+  return plate_source_errors(chapter,root,works,books)
  if isinstance(w,dict) and w.get('kind')=='published_web_inscription_excerpts':
   try:from .web_inscription_excerpts import source_errors
   except ImportError:from web_inscription_excerpts import source_errors

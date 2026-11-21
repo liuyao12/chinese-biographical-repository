@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "id": "em3_mum_s8d_A",
+  "canonical_person_id": "em3_mum_s8d_A",
+  "label": "朱濤（揚州主簿）",
+  "identity_note": "朱百年傳首父濤。",
+  "review": "ai_provisional",
+  "names": [
+    "濤"
+  ],
+  "titles": [
+    {
+      "id": "th-nanshi024-wangsu-z1-24",
+      "person_id": "em3_mum_s8d_A",
+      "title": "揚州主簿",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-nanshi024-wangsu-z1-24:a",
+          "person_mention_id": "c-songshu-093-zhubainian-ancestry:p001:m0022",
+          "usage": "narrative",
+          "date_expression": null,
+          "paragraph_id": "c-songshu-093-zhubainian-ancestry:p001",
+          "surface": "揚州主簿",
+          "start": 24,
+          "end": 28
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-093",
+          "source_id": "s-songshu-093-zhubainian-ancestry-ws1962755",
+          "chapter_id": "c-songshu-093-zhubainian-ancestry",
+          "paragraph_id": "c-songshu-093-zhubainian-ancestry:p001",
+          "quote": "朱百年，會稽山陰人也。祖愷之，晉右衞將軍。父濤，揚州主簿。",
+          "person_mention_id": "c-songshu-093-zhubainian-ancestry:p001:m0022"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "按本見證原職名及其所屬人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 93,
+      "category": "",
+      "title": "朱百年傳首家世",
+      "paragraph_id": "c-songshu-093-zhubainian-ancestry:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "朱百年，會稽山陰人也。祖愷之，晉右衞將軍。父濤，揚州主簿。",
+      "paragraph_ids": [
+        "c-songshu-093-zhubainian-ancestry:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-093-zhubainian-ancestry:p001:m0022"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-093-zhubainian-ancestry:p001:m0022": "c-songshu-093-zhubainian-ancestry:p001"
+      },
+      "mention_id": "c-songshu-093-zhubainian-ancestry:p001:m0022",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-093-zhubainian-ancestry:p001:m0022",
+          "mention_ids": [
+            "c-songshu-093-zhubainian-ancestry:p001:m0022"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-093",
+      "chapter_id": "c-songshu-093-zhubainian-ancestry",
+      "source_id": "s-songshu-093-zhubainian-ancestry-ws1962755",
+      "work_title": "宋書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-songshu-093-zhubainian-ancestry",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-093",
+      "source_id": "s-songshu-093-zhubainian-ancestry-ws1962755",
+      "source": {
+        "title": "宋書卷93·朱百年傳首家世",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=1962755",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=1962755",
+        "revision_id": 1962755,
+        "accessed_on": "2026-11-21",
+        "edition": "維基文庫固定數位轉錄",
+        "extent": "朱百年分題首段；其餘傳文另列。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "raw_path": "source-evidence/nan023-wanghuan/ws1962755.wikitext",
+        "raw_file_sha256": "006115bbb0fa72042b9926f19b6ffbc952b7955b7f3a9fdf9c6fb3be71cb98aa",
+        "rights": "古代原典及維基文庫數位轉錄。",
+        "license_url": "https://zh.wikisource.org/wiki/Wikisource:著作權資訊",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "投影相應原句，保留字形；移除年號模板定界符。"
+        },
+        "section_locator": "朱百年傳首家世"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-nanshi024-wangsu-zhu-father",
+      "subject_person_id": "em3_mum_s8d_AA",
+      "object_person_id": "em3_mum_s8d_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父濤",
+        "nanshi024_wangsu_reading": "zhu-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-093",
+          "source_id": "s-songshu-093-zhubainian-ancestry-ws1962755",
+          "chapter_id": "c-songshu-093-zhubainian-ancestry",
+          "paragraph_id": "c-songshu-093-zhubainian-ancestry:p001",
+          "quote": "朱百年，會稽山陰人也。祖愷之，晉右衞將軍。父濤，揚州主簿。",
+          "subject_person_mention_id": "c-songshu-093-zhubainian-ancestry:p001:m0000",
+          "object_person_mention_id": "c-songshu-093-zhubainian-ancestry:p001:m0022",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-093-zhubainian-ancestry:p001",
+            "surface": "父濤",
+            "start": 21,
+            "end": 23
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "朱百年傳首具名父親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "em3_mum_s8d_A": "朱濤（揚州主簿）",
+    "em3_mum_s8d_AA": "朱百年（會稽山陰人）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "em3_mum_s8d_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-nanshi024-wangsu-zhu-father",
+      "subject_person_id": "em3_mum_s8d_AA",
+      "object_person_id": "em3_mum_s8d_A",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "父濤",
+        "nanshi024_wangsu_reading": "zhu-father",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-093",
+          "source_id": "s-songshu-093-zhubainian-ancestry-ws1962755",
+          "chapter_id": "c-songshu-093-zhubainian-ancestry",
+          "paragraph_id": "c-songshu-093-zhubainian-ancestry:p001",
+          "quote": "朱百年，會稽山陰人也。祖愷之，晉右衞將軍。父濤，揚州主簿。",
+          "subject_person_mention_id": "c-songshu-093-zhubainian-ancestry:p001:m0000",
+          "object_person_mention_id": "c-songshu-093-zhubainian-ancestry:p001:m0022",
+          "relationship_anchor": {
+            "paragraph_id": "c-songshu-093-zhubainian-ancestry:p001",
+            "surface": "父濤",
+            "start": 21,
+            "end": 23
+          }
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "朱百年傳首具名父親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "em3_mum_s8d_A",
+    "representative_source_person_id": "em3_mum_s8d_A",
+    "source_person_ids": [
+      "em3_mum_s8d_A"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "em3_mum_s8d",
+    "source_assertion_id": null,
+    "parent_connection": {
+      "type": "parent_between_consecutive_ancestors",
+      "chain_subject_person_id": "em3_mum_s8d_AA",
+      "nearer_ancestor_assertion_id": "a-nanshi024-wangsu-zhu-father",
+      "farther_ancestor_assertion_id": "a-nanshi024-wangsu-zhu-grandfather",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "rationale": "同一傳主自父以上的相鄰兩世，組裝父子只存於編輯層。",
+      "references": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-093",
+          "source_id": "s-songshu-093-zhubainian-ancestry-ws1962755",
+          "chapter_id": "c-songshu-093-zhubainian-ancestry",
+          "paragraph_id": "c-songshu-093-zhubainian-ancestry:p001",
+          "quote": "朱百年，會稽山陰人也。祖愷之，晉右衞將軍。父濤，揚州主簿。",
+          "url": "https://zh.wikisource.org/w/index.php?oldid=1962755",
+          "assertion_id": "a-nanshi024-wangsu-zhu-father",
+          "scope": "同一傳主明列相鄰世次"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-093",
+          "source_id": "s-songshu-093-zhubainian-ancestry-ws1962755",
+          "chapter_id": "c-songshu-093-zhubainian-ancestry",
+          "paragraph_id": "c-songshu-093-zhubainian-ancestry:p001",
+          "quote": "朱百年，會稽山陰人也。祖愷之，晉右衞將軍。父濤，揚州主簿。",
+          "url": "https://zh.wikisource.org/w/index.php?oldid=1962755",
+          "assertion_id": "a-nanshi024-wangsu-zhu-grandfather",
+          "scope": "同一傳主明列相鄰世次"
+        }
+      ]
+    },
+    "assembly_id": "family-nanshi024-wangsu-z",
+    "root_person_id": "em3_mum_s8d",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

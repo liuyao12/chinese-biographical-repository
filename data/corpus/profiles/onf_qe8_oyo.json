@@ -8,7 +8,56 @@
   "names": [
     "顏旄"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w098-return-yan",
+      "person_id": "onf_qe8_oyo",
+      "title": "侍中",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p016",
+          "quote": "詔曰：「在昔喪亂，忽涉五紀，戎狄肆暴，繼襲凶跡，眷言西顧，慨歎盈懷！知欲躬率三軍，蕩滌氛穢，廓清中畿，光復舊京，非夫外身殉國，孰能若此者哉！諸所處分，委之高算。但河洛丘墟，所營者廣，經始之勤，致勞懷也。」於是改授並、司、冀三州，以交廣遼遠，罷都督，溫表辭不受。又加侍中、大司馬、都督中外諸軍事、假黃鉞。溫以既總督內外，不宜在遠，又上疏陳便宜七事：其一，朋黨雷同，私議沸騰，宜抑杜浮競，莫使能植。其二，戶口凋寡，不當漢之一郡，宜並官省職，令久於其事。其三，機務不可停廢，常行文案宜為限日。其四，宜明長幼之禮，獎忠公之吏。其五，褒貶賞罰，宜允其實。其六，宜述遵前典，敦明學業。其七，宜選建史官，以成晉書。有司皆奏行之。尋加羽葆鼓吹，置左右長史、司馬、從事中郎四人。受鼓吹，餘皆辭。復率舟軍進合肥。加揚州牧、錄尚書事，使侍中顏旄宣旨，召溫入參朝政。溫上疏曰：",
+          "person_mention_id": "c-jinshu-098-huanwen:p016:m0359"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-return-yan:a",
+          "paragraph_id": "c-jinshu-098-huanwen:p016",
+          "start": 357,
+          "end": 359,
+          "surface": "侍中",
+          "person_mention_id": "c-jinshu-098-huanwen:p016:m0359",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -79,7 +128,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     }

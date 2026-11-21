@@ -14,6 +14,41 @@
     {
       "number": 98,
       "category": "",
+      "title": "武英殿本桓溫傳應誕及劉泓",
+      "paragraph_id": "c-jinshu-098-huan-guanzhong-wyd:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "衆數萬屯嶢柳愁思塠以距溫遂大戰生親自陷陣殺溫將應誕劉泓死傷千數溫軍力戰生衆乃散雄又與",
+      "paragraph_ids": [
+        "c-jinshu-098-huan-guanzhong-wyd:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-098-huan-guanzhong-wyd:p001:m0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-098-huan-guanzhong-wyd:p001:m0025": "c-jinshu-098-huan-guanzhong-wyd:p001"
+      },
+      "mention_id": "c-jinshu-098-huan-guanzhong-wyd:p001:m0025",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-098-huan-guanzhong-wyd:p001:m0025",
+          "mention_ids": [
+            "c-jinshu-098-huan-guanzhong-wyd:p001:m0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "chapter_id": "c-jinshu-098-huan-guanzhong-wyd",
+      "source_id": "s-jinshu-098-huan-guanzhong-wyd",
+      "work_title": "晉書"
+    },
+    {
+      "number": 98,
+      "category": "",
       "title": "桓溫完整本傳單元",
       "paragraph_id": "c-jinshu-098-huanwen:p008",
       "count": 1,
@@ -50,6 +85,32 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-098-huan-guanzhong-wyd",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-098",
+      "source_id": "s-jinshu-098-huan-guanzhong-wyd",
+      "source": {
+        "title": "武英殿本桓溫傳應誕及劉泓",
+        "provider": "日本永青文庫捐贈、中國國家圖書館藏商務印書館影印本，Wikimedia Commons",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/NLC016-HWRB201817005-3313_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC25%E5%86%8A.pdf",
+        "permalink": "https://commons.wikimedia.org/wiki/File:NLC016-HWRB201817005-3313_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC25%E5%86%8A.pdf",
+        "revision_id": "cbr-ai-transcription-sha256:58a69e8dc3a2f65311cf1c7892835121ced0d516bf455cd18d991fae9cb3a9e8",
+        "accessed_on": "2026-11-21",
+        "raw_path": "source-evidence/jin098-huanwen-guanzhong/wyd-columns.txt",
+        "raw_file_sha256": "58a69e8dc3a2f65311cf1c7892835121ced0d516bf455cd18d991fae9cb3a9e8",
+        "edition": "上海商務印書館民國五年影印清乾隆武英殿本晉書第二十五冊",
+        "extent": "右半第2欄承疏後進位太尉固讓不拜，第7–10欄苻氏、應誕劉泓、白鹿原，左半第4欄起宣帝劉琨王敦及老婢報語。",
+        "text_scope": "partial_chapter",
+        "image_verified": true,
+        "review_status": "AI_image_transcription_draft",
+        "rights": "所據館藏古籍及自行按欄轉寫。",
+        "license_url": "https://commons.wikimedia.org/wiki/File:NLC016-HWRB201817005-3313_%E6%99%89%E6%9B%B8_%E4%B8%80%E7%99%BE%E4%B8%89%E5%8D%81%E5%8D%B7_%E9%9F%B3%E7%BE%A9%E4%B8%89%E5%8D%B7_%E7%AC%AC25%E5%86%8A.pdf",
+        "normalization": {
+          "extraction_note": "依武英殿本影印本逐欄轉寫，保留欄間字序，不另加標點。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-jinshu-098-huanwen",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-098",
@@ -79,7 +140,15 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
       }
     }
@@ -95,7 +164,54 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-w098-guanzhong-wyd-liu",
+      "person_id": "p2w_899_b04",
+      "event_type": "death",
+      "source_term": "殺溫將應誕劉泓",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huan-guanzhong-wyd",
+          "source_id": "s-jinshu-098-huan-guanzhong-wyd",
+          "paragraph_id": "c-jinshu-098-huan-guanzhong-wyd:p001",
+          "quote": "衆數萬屯嶢柳愁思塠以距溫遂大戰生親自陷陣殺溫將應誕劉泓死傷千數溫軍力戰生衆乃散雄又與",
+          "person_mention_id": "c-jinshu-098-huan-guanzhong-wyd:p001:m0025"
+        }
+      ],
+      "interpretation_note": "依本來源登記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-w098-guanzhong-liu",
+      "person_id": "p2w_899_b04",
+      "event_type": "death",
+      "source_term": "殺溫將應庭、劉泓",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-098",
+          "chapter_id": "c-jinshu-098-huanwen",
+          "source_id": "s-jinshu-098-ws2614273",
+          "paragraph_id": "c-jinshu-098-huanwen:p008",
+          "quote": "進位太尉，固讓不拜。時殷浩至洛陽修復園陵，經涉數年，屢戰屢敗，器械都盡。溫復進督司州，因朝野之怨，乃奏廢浩，自此內外大權一歸溫矣。溫遂統步騎四萬發江陵，水軍自襄陽入均口。至南鄉，步自淅川以征關中，命梁州刺史司馬勳出子午道。別軍攻上洛，獲苻健荊州刺史郭敬，進擊青泥，破之。健又遣子生、弟雄眾數萬屯嶢柳、愁思塠以距溫，遂大戰，生親自陷陣，殺溫將應庭、劉泓，死傷千數。溫軍力戰，生眾乃散。雄又與將軍桓沖戰白鹿原，又為沖所破。雄遂馳襲司馬勳，勳退次女媧堡。溫進至霸上，健以五千人深溝自固，居人皆安堵復業，持牛酒迎溫于路者十八九，耆老感泣曰：「不圖今日復見官軍！」初，溫恃麥熟，取以為軍資。而健芟苗清野，軍糧不屬，收三千餘口而還。帝使侍中黃門勞溫於襄陽。",
+          "person_mention_id": "c-jinshu-098-huanwen:p008:m0173"
+        }
+      ],
+      "interpretation_note": "依本來源登記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

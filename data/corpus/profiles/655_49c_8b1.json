@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "桓伊",
-    "伊"
+    "伊",
+    "叔夏"
   ],
   "titles": [
     {
@@ -57,10 +58,93 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-w098-fangtou-z3-yi",
+      "person_id": "655_49c_8b1",
+      "title": "淮南太守",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-103",
+          "chapter_id": "c-zizhitongjian-103-jin098-huanwen-fangtou",
+          "source_id": "s-zizhitongjian-103-jin098-huanwen-fangtou",
+          "paragraph_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun",
+          "quote": "大司馬溫遣淮南太守桓伊、南頓太守桓石虔等擊鑒、蚝於石橋，大破之，秦兵退屯慎城。伊，宣之子也。丁亥，溫拔壽春。擒瑾及輔並其宗族，送建康斬之。",
+          "person_mention_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0009"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-fangtou-z3-yi:a",
+          "paragraph_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun",
+          "start": 5,
+          "end": 9,
+          "surface": "淮南太守",
+          "person_mention_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0009",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 8,
+      "category": "",
+      "title": "白鹿原、枋頭、壽陽及會塗中",
+      "paragraph_id": "c-jinshu-008-jin098-huanwen-fangtou:371",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "六年春正月，苻堅遣將王鑒來援袁瑾，將軍桓伊逆擊，大破之。丁亥，桓溫克壽陽，斬袁瑾。",
+      "paragraph_ids": [
+        "c-jinshu-008-jin098-huanwen-fangtou:371"
+      ],
+      "mention_ids": [
+        "c-jinshu-008-jin098-huanwen-fangtou:371:m0019"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-008-jin098-huanwen-fangtou:371:m0019": "c-jinshu-008-jin098-huanwen-fangtou:371"
+      },
+      "mention_id": "c-jinshu-008-jin098-huanwen-fangtou:371:m0019",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-008-jin098-huanwen-fangtou:371:m0019",
+          "mention_ids": [
+            "c-jinshu-008-jin098-huanwen-fangtou:371:m0019"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-008",
+      "chapter_id": "c-jinshu-008-jin098-huanwen-fangtou",
+      "source_id": "s-jinshu-008-jin098-huanwen-fangtou",
+      "work_title": "晉書"
+    },
     {
       "number": 74,
       "category": "",
@@ -161,6 +245,50 @@
       "work_title": "晉書"
     },
     {
+      "number": 81,
+      "category": "",
+      "title": "桓宣、族子伊之傳首父名",
+      "paragraph_id": "c-jinshu-081-jin098-huanwen-fangtou:yi",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "伊字叔夏，父景，有當世才幹，仕至侍中、丹陽尹、中領軍、護軍將軍、長社侯，",
+      "paragraph_ids": [
+        "c-jinshu-081-jin098-huanwen-fangtou:yi"
+      ],
+      "mention_ids": [
+        "c-jinshu-081-jin098-huanwen-fangtou:yi:m0000",
+        "c-jinshu-081-jin098-huanwen-fangtou:yi:m0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-081-jin098-huanwen-fangtou:yi:m0000": "c-jinshu-081-jin098-huanwen-fangtou:yi",
+        "c-jinshu-081-jin098-huanwen-fangtou:yi:m0002": "c-jinshu-081-jin098-huanwen-fangtou:yi"
+      },
+      "mention_id": "c-jinshu-081-jin098-huanwen-fangtou:yi:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-081-jin098-huanwen-fangtou:yi:m0000",
+          "mention_ids": [
+            "c-jinshu-081-jin098-huanwen-fangtou:yi:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-081-jin098-huanwen-fangtou:yi:m0002",
+          "mention_ids": [
+            "c-jinshu-081-jin098-huanwen-fangtou:yi:m0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-081",
+      "chapter_id": "c-jinshu-081-jin098-huanwen-fangtou",
+      "source_id": "s-jinshu-081-jin098-huanwen-fangtou",
+      "work_title": "晉書"
+    },
+    {
       "number": 98,
       "category": "",
       "title": "桓溫完整本傳單元",
@@ -194,10 +322,84 @@
       "chapter_id": "c-jinshu-098-huanwen",
       "source_id": "s-jinshu-098-ws2614273",
       "work_title": "晉書"
+    },
+    {
+      "number": 103,
+      "category": "",
+      "title": "壽春正月及桓伊之父異說",
+      "paragraph_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "大司馬溫遣淮南太守桓伊、南頓太守桓石虔等擊鑒、蚝於石橋，大破之，秦兵退屯慎城。伊，宣之子也。丁亥，溫拔壽春。擒瑾及輔並其宗族，送建康斬之。",
+      "paragraph_ids": [
+        "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0009",
+        "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0039"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0009": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun",
+        "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0039": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun"
+      },
+      "mention_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0009",
+          "mention_ids": [
+            "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0039",
+          "mention_ids": [
+            "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0039"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-103",
+      "chapter_id": "c-zizhitongjian-103-jin098-huanwen-fangtou",
+      "source_id": "s-zizhitongjian-103-jin098-huanwen-fangtou",
+      "work_title": "資治通鑑"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-008-jin098-huanwen-fangtou",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-008",
+      "source_id": "s-jinshu-008-jin098-huanwen-fangtou",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2644502,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2644502",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "晉書帝紀第八",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2644502",
+        "raw_file_sha256": "947547981eb6fa2796d6a66f0b2f49e0d44d8f517cbd5300eb96d84114d56a73",
+        "raw_path": "sources/calendar-context/jin008-ws2644502.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "947547981eb6fa2796d6a66f0b2f49e0d44d8f517cbd5300eb96d84114d56a73"
+      }
+    },
     {
       "chapter_id": "c-jinshu-074-huan-family",
       "work_id": "w-jinshu",
@@ -894,6 +1096,36 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-081-jin098-huanwen-fangtou",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-081",
+      "source_id": "s-jinshu-081-jin098-huanwen-fangtou",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 11237683,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=11237683",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "晉書桓宣、桓伊傳",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=11237683",
+        "raw_file_sha256": "3140ce59998afa4ece0b29670f21e783ad88578b06781c384eb4b767a2fce698",
+        "raw_path": "source-evidence/jin098-wang-han-ying/external/j81-ws11237683.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "3140ce59998afa4ece0b29670f21e783ad88578b06781c384eb4b767a2fce698"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-098-huanwen",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-098",
@@ -923,21 +1155,167 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
+      }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-103-jin098-huanwen-fangtou",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-103",
+      "source_id": "s-zizhitongjian-103-jin098-huanwen-fangtou",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2402076,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2402076",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "資治通鑑一百三",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2402076",
+        "raw_file_sha256": "38799dea58a4931421e376e4e9fb615b42efc73714480be7ba79b6fefd423a9a",
+        "raw_path": "source-evidence/jin098-huanwen-fangtou/external/z3-ws2402076.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "38799dea58a4931421e376e4e9fb615b42efc73714480be7ba79b6fefd423a9a"
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-w098-fangtou-81-yi",
+      "subject_person_id": "655_49c_8b1",
+      "object_person_id": "0dk_klh_2rn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "伊字叔夏，父景"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-081",
+          "chapter_id": "c-jinshu-081-jin098-huanwen-fangtou",
+          "source_id": "s-jinshu-081-jin098-huanwen-fangtou",
+          "paragraph_id": "c-jinshu-081-jin098-huanwen-fangtou:yi",
+          "quote": "伊字叔夏，父景，有當世才幹，仕至侍中、丹陽尹、中領軍、護軍將軍、長社侯，",
+          "subject_person_mention_id": "c-jinshu-081-jin098-huanwen-fangtou:yi:m0000",
+          "object_person_mention_id": "c-jinshu-081-jin098-huanwen-fangtou:yi:m0006"
+        }
+      ],
+      "interpretation_note": "伊本傳傳首直接稱父景，上承桓宣本傳後「族子伊」。通鑑以父為宣，二說分存。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-fangtou-z3-yi",
+      "subject_person_id": "655_49c_8b1",
+      "object_person_id": "qak_wzz_t6i",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "伊，宣之子也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-103",
+          "chapter_id": "c-zizhitongjian-103-jin098-huanwen-fangtou",
+          "source_id": "s-zizhitongjian-103-jin098-huanwen-fangtou",
+          "paragraph_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun",
+          "quote": "大司馬溫遣淮南太守桓伊、南頓太守桓石虔等擊鑒、蚝於石橋，大破之，秦兵退屯慎城。伊，宣之子也。丁亥，溫拔壽春。擒瑾及輔並其宗族，送建康斬之。",
+          "subject_person_mention_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0039",
+          "object_person_mention_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0041"
+        }
+      ],
+      "interpretation_note": "通鑑此條正文之說，胡注明指守襄陽之桓宣。卷81伊本傳稱父景。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "655_49c_8b1": "桓伊"
+    "0dk_klh_2rn": "桓景",
+    "655_49c_8b1": "桓伊",
+    "qak_wzz_t6i": "桓宣"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "655_49c_8b1"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-w098-fangtou-81-yi",
+      "subject_person_id": "655_49c_8b1",
+      "object_person_id": "0dk_klh_2rn",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "伊字叔夏，父景"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-081",
+          "chapter_id": "c-jinshu-081-jin098-huanwen-fangtou",
+          "source_id": "s-jinshu-081-jin098-huanwen-fangtou",
+          "paragraph_id": "c-jinshu-081-jin098-huanwen-fangtou:yi",
+          "quote": "伊字叔夏，父景，有當世才幹，仕至侍中、丹陽尹、中領軍、護軍將軍、長社侯，",
+          "subject_person_mention_id": "c-jinshu-081-jin098-huanwen-fangtou:yi:m0000",
+          "object_person_mention_id": "c-jinshu-081-jin098-huanwen-fangtou:yi:m0006"
+        }
+      ],
+      "interpretation_note": "伊本傳傳首直接稱父景，上承桓宣本傳後「族子伊」。通鑑以父為宣，二說分存。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-w098-fangtou-z3-yi",
+      "subject_person_id": "655_49c_8b1",
+      "object_person_id": "qak_wzz_t6i",
+      "predicate": "father",
+      "qualifiers": {
+        "source_term": "伊，宣之子也"
+      },
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-103",
+          "chapter_id": "c-zizhitongjian-103-jin098-huanwen-fangtou",
+          "source_id": "s-zizhitongjian-103-jin098-huanwen-fangtou",
+          "paragraph_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun",
+          "quote": "大司馬溫遣淮南太守桓伊、南頓太守桓石虔等擊鑒、蚝於石橋，大破之，秦兵退屯慎城。伊，宣之子也。丁亥，溫拔壽春。擒瑾及輔並其宗族，送建康斬之。",
+          "subject_person_mention_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0039",
+          "object_person_mention_id": "c-zizhitongjian-103-jin098-huanwen-fangtou:shouchun:m0041"
+        }
+      ],
+      "interpretation_note": "通鑑此條正文之說，胡注明指守襄陽之桓宣。卷81伊本傳稱父景。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

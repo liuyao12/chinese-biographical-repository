@@ -342,3 +342,19 @@
 《南齊書》二十的九篇后傳與韓藺英附敘已全部覆核。卷序、評、贊另立字位。殿本劉智容傳作「上都鄉君」，南史出雲本作「上虞都鄉君」，齊書數位校記明示補虞。何后傳出雲本作「侍書馬澄」「門戶既盛」「果有赦原之」，各有原欄可循。[齊書二十全卷分界](../source-evidence/qi020-hejingying/volume-boundaries.json) · [劉后殿本](../source-evidence/qi020-liuzhirong-wyd/wuying-reading.json) · [何后出雲本及兩則附敘](../source-evidence/nan011-hejingying-izumo/izumo-reading.json)
 
 晉書卷四十三第六十一行在傳間為史臣評，另兩段在卷末。王奐傳與席謙傳所涉兩位王融，一為王奐子，一為中書郎；分見本人的官歷、親屬及事發之時。[晉四十三全卷讀記](../source-evidence/jin043-roll-close/reading.json) · [齊四十九全卷分界](../source-evidence/nanqi049-wanghuan-item-review/volume-boundaries.json) · [王奐逐句](../source-evidence/nanqi049-wanghuan-item-review/huan-reading.json) · [席謙逐句](../source-evidence/nanqi049-wanghuan-item-review/xiqian-reading.json)
+
+## 第二十三批　桓溫、張沖、王氏諸傳與象山九號墓
+
+本批新增二十五項。五十四卷已有清冊調查，共八百零八項傳目，五百一十四項備全文、五百一十二項完成人物初讀、五百零八項逐項覆核。
+
+| 卷篇 | 本批覆核 | 原文所見 |
+| --- | --- | --- |
+| 《晉書》卷九十八 | 桓溫 | 全傳三十段及全卷十二項均已覆核。地謎「河內大縣，溫也」中的溫是縣名。桓溫生前固辭丞相、孝武帝紀載其薨時官銜、本傳身後贈丞相，各依本句存錄。 |
+| 《南齊書》卷四十九 | 張沖、張景胤、房僧寄、房長瑜 | 全卷十三項均已覆核。張沖本生父張柬、出繼張敷。齊書稱敷「從伯」，《南史》作「伯父」。魯山降日保全丁卯、丁夘、丁巳、戊午各書異記；張沖卒日另有齊和帝紀三月丁酉。 |
+| 《南齊書》卷五十二、《南史》卷二十四、《陳書》卷十四 | 王逡之、王珪之、王顥啓，王猛及韋氏、王繕、王續，另核陳方慶傳中之王勇 | 各卷分存原稱、官地、親屬與傳內啓文。王猛傳所敘鄧暠「同產弟」及異姓保持原文。 |
+| 《宋書》卷九十三、《南史》卷二十四 | 兩書之王弘之、王曇生、阮萬齡、王素 | 王曇生「終於中散大夫」指終官。阮萬齡父名有寧、甯兩形。宋書明記元嘉二十五年卒、七十二。王弘之四年卒的年號據同篇前段元嘉四年徵召。殿本「何淮」「毎隨兄」「汰川」各有原欄。 |
+| 《南史》卷十一 | 王憲嫄、王貞風 | 王憲嫄親桑時觀禮的皇太后是路惠男；前廢帝繼位後所尊皇太后才是王憲嫄。王貞風傳「順帝殂於丹陽」與「建元元年，薨於第」分屬劉準與王太妃。《宋書》兩后傳各記享年三十八、四十四。出雲藩本兩傳共二十八欄。 |
+
+南京象山九號墓另錄王建之石誌、劉媚子石誌及磚誌。兩石誌各二百七十五、一百七十一字。磚誌現可釋一百四十三字，刊本報一百四十四字，仍待辨讀。妻亡、還都、葬及次年夫婦合葬分列；「閏月十二日」保留原誌未書月數的情形。
+
+[桓溫傳末及卷末清冊](../source-evidence/jin098-huanwen-succession/reading.json) · [張沖逐句與原欄](../source-evidence/nanqi049-wanghuan-item-review/chong-reading.json) · [王猛及相關傳目](../source-evidence/nanshi024-wangmeng/reading.json) · [阮萬齡](../source-evidence/nanshi024-ruanwanling/reading.json) · [宋書殿本三傳四十四欄](../source-evidence/song093-wanghongzhi/song093-wyd-columns.json) · [王憲嫄出雲藩本](../source-evidence/nan011-wangxianyuan-izumo/izumo-reading.json) · [王貞風出雲藩本](../source-evidence/nan011-wangzhenfeng-izumo/izumo-reading.json) · [象山三誌逐欄與版本](../source-evidence/xiangshan-m9-epitaphs/columns-and-editions.json)

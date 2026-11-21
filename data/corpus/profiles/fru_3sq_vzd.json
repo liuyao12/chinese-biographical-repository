@@ -61,6 +61,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 49,
+      "category": "",
+      "title": "張沖",
+      "paragraph_id": "c-nanqishu-049-zhangchong:p012",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "雍州刺史，竝持節。時郢魯二城已降，死者相積，竟無叛散。時以沖及房僧寄比臧洪之被圍也。",
+      "paragraph_ids": [
+        "c-nanqishu-049-zhangchong:p012"
+      ],
+      "mention_ids": [
+        "c-nanqishu-049-zhangchong:p012:m0084"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-049-zhangchong:p012:m0084": "c-nanqishu-049-zhangchong:p012"
+      },
+      "mention_id": "c-nanqishu-049-zhangchong:p012:m0084",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-049-zhangchong:p012:m0084",
+          "mention_ids": [
+            "c-nanqishu-049-zhangchong:p012:m0084"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "chapter_id": "c-nanqishu-049-zhangchong",
+      "source_id": "s-nanqishu-049-zhangchong-ws2261984",
+      "work_title": "南齊書"
+    },
+    {
       "number": 67,
       "category": "",
       "title": "晉書卷六十七·溫嶠傳",
@@ -125,6 +160,29 @@
           "source-evidence/jin067-wenqiao-main/reading.json"
         ]
       }
+    },
+    {
+      "chapter_id": "c-nanqishu-049-zhangchong",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-049",
+      "source_id": "s-nanqishu-049-zhangchong-ws2261984",
+      "source": {
+        "title": "張沖",
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2261984",
+        "revision_id": 2261984,
+        "edition": "維基文庫固定修訂",
+        "accessed_on": "2026-11-21",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫授權。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "張沖",
+        "text_scope": "complete_biography_unit",
+        "raw_path": "source-evidence/nan023-wangqiu/ws2261984.wikitext",
+        "raw_file_sha256": "e3c16a4e75b7ffc6b0987e68ce9ef6a2053c598271498baf5f07ed0c035e69fa"
+      }
     }
   ],
   "relations": [],
@@ -133,6 +191,26 @@
   },
   "dates": [],
   "name_components": [],
+  "source_reading_cases": [
+    {
+      "id": "c-nanqishu-049-zhangchong:historical_comparison12-83",
+      "kind": "historical_comparison",
+      "person_id": "fru_3sq_vzd",
+      "source_quote": "比臧洪之被圍也",
+      "reading": "張沖、房僧寄同被比於漢末臧洪守東武陽，前代人物與齊梁時人分列。",
+      "note": "張沖、房僧寄同被比於漢末臧洪守東武陽，前代人物與齊梁時人分列。",
+      "paragraph_id": "c-nanqishu-049-zhangchong:p012",
+      "start_codepoint": 83,
+      "end_codepoint": 90,
+      "human_reviewed": false,
+      "compared_to": [
+        "d50_8f5_wul_AAACBB",
+        "d61_8b9_780"
+      ],
+      "chapter_id": "c-nanqishu-049-zhangchong",
+      "source_id": "s-nanqishu-049-zhangchong-ws2261984"
+    }
+  ],
   "person_ids": [
     "fru_3sq_vzd"
   ],

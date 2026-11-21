@@ -2,6 +2,10 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'qi049_congshu_yong':
+        try: from scripts.qi049_zhang_family import senior_valid as qi049_senior
+        except ImportError: from qi049_zhang_family import senior_valid as qi049_senior
+        return qi049_senior(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'jin076_biaozhi_congbo':
         try:
             from scripts.jin076_biao import biao_congbo_valid

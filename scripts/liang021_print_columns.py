@@ -6,6 +6,8 @@ from pathlib import Path
 
 
 IZUMO_WITNESSES = {
+    'c-nanshi-011-wangzhenfeng-izumo': ('nan011-wangzhenfeng-izumo', '80c2b36684dc90339438687348b987e2c3388212c5127da7c3e4b85e39544fb3'),
+    'c-nanshi-011-wangxianyuan-izumo': ('nan011-wangxianyuan-izumo', 'b1fcce7a518a492ebf12b1d2b504abc1f3d5bacccf6522f72a2704d9b34daf29'),
     'c-nanshi-011-hejingying-izumo': ('nan011-hejingying-izumo', '42cd86d726f3a45837cf602cd64f29a4d1b2c1b5aa846ac134099ae0c048689f'),
     'c-nanshi-011-liuzhirong-izumo': ('nan011-liuzhirong-izumo', '0cfd246d62c81533c379c68cc721666e16113417efb464ea7eafff6170379c70'),
     'c-nanshi-011-chendaozhi-izumo': ('nan011-chendaozhi-izumo', '36587911978ee911739ffcd0b91ad573faacfbc217c26d48a78e4d14b1be2409'),
@@ -18,6 +20,8 @@ IZUMO_WITNESSES = {
 
 
 WITNESSES = {
+    'c-jinshu-098-huan-guanzhong-wyd': ('jin098-huanwen-guanzhong', '58a69e8dc3a2f65311cf1c7892835121ced0d516bf455cd18d991fae9cb3a9e8'),
+    'c-jinshu-098-huan-wuchang-wyd': ('jin098-huanwen-wuchang', '5d0bf54ddc4886a1419d4777ff80a9d21351e48ad947be2121ef329b3ad94cc3'),
     'c-nanqishu-020-hejingying-wyd': ('qi020-hejingying-wyd', '0391ae57363b15fc391905e658b3877e2379ae174554d8f8dfd7747b6af68ecd'),
     'c-nanqishu-020-liuzhirong-ancestry-wyd': ('qi020-liuzhirong-wyd', '6284922e1941e437d1f811b09c49d6fc1c312b155cd552a31aa40634cdfafd5b'),
     'c-nanqishu-020-chendaozhi-wyd': ('qi020-chendaozhi-wyd', '25c5d630868360f6d8d6790f10c11c47da006a69c0cf3704c24be72a9760c19c'),

@@ -8,9 +8,93 @@
   "names": [
     "昝堅"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-w098-shu-z-zan",
+      "person_id": "bfo_y48_afp",
+      "title": "前將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-097",
+          "chapter_id": "c-zizhitongjian-097-jin098-huanwen-shu",
+          "source_id": "s-zizhitongjian-097-jin098-huanwen-shu",
+          "paragraph_id": "c-zizhitongjian-097-jin098-huanwen-shu:li",
+          "quote": "漢主勢大發兵，遣叔父右衛將軍福、從兄鎮南將軍權、前將軍昝堅等將之，自山陽趣合水。",
+          "person_mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:li:m0027"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-w043-shu-z-zan:a",
+          "paragraph_id": "c-zizhitongjian-097-jin098-huanwen-shu:li",
+          "start": 24,
+          "end": 27,
+          "surface": "前將軍",
+          "person_mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:li:m0027",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本來源官稱或所任，未受另記。",
+      "status": "source_attested",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 97,
+      "category": "",
+      "title": "資治通鑑永和紀年李氏、周氏及新舊屬官",
+      "paragraph_id": "c-zizhitongjian-097-jin098-huanwen-shu:li",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "漢主勢大發兵，遣叔父右衛將軍福、從兄鎮南將軍權、前將軍昝堅等將之，自山陽趣合水。",
+      "paragraph_ids": [
+        "c-zizhitongjian-097-jin098-huanwen-shu:li"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-097-jin098-huanwen-shu:li:m0027"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-097-jin098-huanwen-shu:li:m0027": "c-zizhitongjian-097-jin098-huanwen-shu:li"
+      },
+      "mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:li:m0027",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-097-jin098-huanwen-shu:li:m0027",
+          "mention_ids": [
+            "c-zizhitongjian-097-jin098-huanwen-shu:li:m0027"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-097",
+      "chapter_id": "c-zizhitongjian-097-jin098-huanwen-shu",
+      "source_id": "s-zizhitongjian-097-jin098-huanwen-shu",
+      "work_title": "資治通鑑"
+    },
     {
       "number": 98,
       "category": "",
@@ -79,8 +163,46 @@
         "review_status": "text_checked",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "collation_witnesses": [
-          "source-evidence/jin098-huan-four-children/reading.json"
+          "source-evidence/jin098-huan-four-children/reading.json",
+          "source-evidence/jin098-huanwen-opening/reading.json",
+          "source-evidence/jin098-huanwen-shu/reading.json",
+          "source-evidence/jin098-huanwen-wuchang/reading.json",
+          "source-evidence/jin098-huanwen-guanzhong/reading.json",
+          "source-evidence/jin098-huanwen-luoyang/reading.json",
+          "source-evidence/jin098-huanwen-return/reading.json",
+          "source-evidence/jin098-huanwen-fangtou/reading.json",
+          "source-evidence/jin098-huanwen-succession/reading.json"
         ]
+      }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-097-jin098-huanwen-shu",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-097",
+      "source_id": "s-zizhitongjian-097-jin098-huanwen-shu",
+      "source": {
+        "provider": "Wikisource",
+        "revision_id": 2617598,
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2617598",
+        "edition": "固定修訂相關原文，逐字核收。",
+        "image_verified": false,
+        "qualification": "固定數位傳世文字見證；未親核底本或影像，校勘ref另層。",
+        "selected_raw_start": 8177,
+        "selected_raw_end": 14871,
+        "extent": "下列來源節錄。",
+        "rights": "古代正文公版；維基文庫數位整理保留來源歸屬及CC BY-SA資格。",
+        "title": "資治通鑑晉穆帝永和二年至三年",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2617598",
+        "raw_file_sha256": "9d654af3907680c1e5e2ffdcfda20311527377d22f12603ae2a6ac274a6ca8f7",
+        "raw_path": "source-evidence/jin098-huanwen-shu/external/z-ws2617598.wikitext",
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "collation_witnesses": [
+          "source-evidence/jin098-huan-four-children/reading.json"
+        ],
+        "wikitext_sha256": "9d654af3907680c1e5e2ffdcfda20311527377d22f12603ae2a6ac274a6ca8f7"
       }
     }
   ],

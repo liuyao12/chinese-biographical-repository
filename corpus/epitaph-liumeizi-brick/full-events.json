@@ -1,0 +1,117 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_event_assertion_set",
+  "chapter_id": "c-epitaph-liumeizi-brick-full",
+  "events": [
+    {
+      "id": "le-xiangshan-m9-b-burial",
+      "event_type": "burial",
+      "person_id": "mfd_id2_bu3_AA",
+      "source_term": "倍葬",
+      "source_anchor": {
+        "paragraph_id": "c-epitaph-liumeizi-brick-full:p001",
+        "surface": "倍葬",
+        "start": 126,
+        "end": 128
+      },
+      "date_expression": "十一月八日",
+      "evidence": [
+        {
+          "work_id": "w-epitaph-liumeizi-brick",
+          "book_id": "b-epitaph-liumeizi-brick-full",
+          "source_id": "s-epitaph-liumeizi-brick-xiangshan-m9",
+          "chapter_id": "c-epitaph-liumeizi-brick-full",
+          "paragraph_id": "c-epitaph-liumeizi-brick-full:p001",
+          "quote": "晉振威將軍鄱陽太守都亭侯琅耶臨沂縣都鄉南仁里王建之字榮妣故夫人南陽湦陽劉氏字媚子春秋五十三泰和六年六月十四日薨于郡官舍夫人光祿勳東昌男璞之長女年廿來歸生三男三女二男未識不育二女並二歲亡小女張願適濟陰卞嗣之字奉伯小男紀之字元萬其年十月三日喪還都十一月八日倍葬于舊墓在丹楊建康之白石故刻為識",
+          "person_mention_id": "c-epitaph-liumeizi-brick-full:p001:m0038"
+        }
+      ],
+      "status": "source_attested",
+      "interpretation_note": "建康白石舊墓，此為劉氏之葬；次年夫誌另載合葬。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "inscribed_date_components": {
+        "calendar": "chinese_lunisolar",
+        "regnal_year": {
+          "era_name": "泰和",
+          "year": 6,
+          "anchor": {
+            "paragraph_id": "c-epitaph-liumeizi-brick-full:p001",
+            "surface": "泰和六年",
+            "start": 45,
+            "end": 49
+          }
+        },
+        "same_year_anchor": {
+          "paragraph_id": "c-epitaph-liumeizi-brick-full:p001",
+          "surface": "其年",
+          "start": 112,
+          "end": 114
+        },
+        "month": 11,
+        "is_leap_month": false,
+        "month_anchor": {
+          "paragraph_id": "c-epitaph-liumeizi-brick-full:p001",
+          "surface": "十一月",
+          "start": 121,
+          "end": 124
+        },
+        "day": 8,
+        "day_anchor": {
+          "paragraph_id": "c-epitaph-liumeizi-brick-full:p001",
+          "surface": "八日",
+          "start": 124,
+          "end": 126
+        },
+        "first_day_sexagenary": null,
+        "first_day_anchor": null,
+        "day_sexagenary": null,
+        "day_sexagenary_anchor": null,
+        "gregorian_day": null
+      },
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 371,
+        "year": 371,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "十一月八日",
+        "original_quote": "晉振威將軍鄱陽太守都亭侯琅耶臨沂縣都鄉南仁里王建之字榮妣故夫人南陽湦陽劉氏字媚子春秋五十三泰和六年六月十四日薨于郡官舍夫人光祿勳東昌男璞之長女年廿來歸生三男三女二男未識不育二女並二歲亡小女張願適濟陰卞嗣之字奉伯小男紀之字元萬其年十月三日喪還都十一月八日倍葬于舊墓在丹楊建康之白石故刻為識",
+        "evidence": [
+          {
+            "work_id": "w-epitaph-liumeizi-brick",
+            "book_id": "b-epitaph-liumeizi-brick-full",
+            "source_id": "s-epitaph-liumeizi-brick-xiangshan-m9",
+            "chapter_id": "c-epitaph-liumeizi-brick-full",
+            "paragraph_id": "c-epitaph-liumeizi-brick-full:p001",
+            "quote": "晉振威將軍鄱陽太守都亭侯琅耶臨沂縣都鄉南仁里王建之字榮妣故夫人南陽湦陽劉氏字媚子春秋五十三泰和六年六月十四日薨于郡官舍夫人光祿勳東昌男璞之長女年廿來歸生三男三女二男未識不育二女並二歲亡小女張願適濟陰卞嗣之字奉伯小男紀之字元萬其年十月三日喪還都十一月八日倍葬于舊墓在丹楊建康之白石故刻為識",
+            "person_mention_id": "c-epitaph-liumeizi-brick-full:p001:m0038"
+          }
+        ],
+        "status": "editorial_provisional",
+        "regnal_year_mapping": {
+          "kind": "xiangshan_m9_inscribed_year",
+          "era_name": "泰和",
+          "source_expression": "泰和六年",
+          "source_number": "六",
+          "regnal_year": 6
+        },
+        "references": [
+          {
+            "title": "南京出土六朝时期墓志特征浅析",
+            "url": "https://www.dpm.org.cn/Uploads/File/2020/03/30/u5e81cb7f040eb.pdf",
+            "scope": "published_museum_epitaph_catalogue_era_equivalence",
+            "locator": "表一第18–20號",
+            "quote": "东晋泰和六年(371)"
+          }
+        ],
+        "rationale": "具名墓主本方原文和館藏表一墓誌紀年逐項核；西曆只換年份，月日與干支照原曆分存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    }
+  ]
+}
